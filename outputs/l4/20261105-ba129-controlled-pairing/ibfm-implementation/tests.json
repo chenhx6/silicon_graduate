@@ -1,0 +1,19 @@
+{
+  "time_utc": "2026-11-05T15:30:32.271500+00:00",
+  "tests_run": 25,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "success": true,
+  "wall_seconds_including_import": 3.1026913410169072,
+  "blas_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "files": {
+    "system/scripts/analysis/single_j_ibfm.py": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+    "system/tests/test_single_j_ibfm.py": "3c5ed4e3e6d601f6197f2d870e2eba31bff184be62fc1dd66d2e4d17dfe5232e"
+  },
+  "boundary": "Analytical/synthetic controls only; no experiment-specific 129Ba input or EM prediction."
+}

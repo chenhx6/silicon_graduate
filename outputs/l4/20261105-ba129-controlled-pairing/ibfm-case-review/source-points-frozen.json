@@ -1,0 +1,589 @@
+{
+  "review_date_utc": "2026-11-05T16:13:17.627977+00:00",
+  "run_directory_date_retained": "20261105",
+  "archive": "raw/papers/gpt/query/20261105-nomura2017-input-audit/nomura2017-v2-source.tar.gz",
+  "archive_sha256": "f7ed6dc746f50f16169d8796e4d12becd8827eaf4ac2ee4d5f1ff9cd04690faf",
+  "independence": "No prediction, model solve, experimental energies or parent marker JSON read. Tick/legend assignments from original figures. Frozen before case comparison.",
+  "precision": {
+    "numeric_extraction_acceptance_keV": 0.002,
+    "observed_plot_energy_grid_keV": 1,
+    "round_to_nearest_sensitivity_half_width_keV": 0.5,
+    "boundary": "The half-keV range is a declared rounding sensitivity, not an author error bar or confidence interval. Original numerical table and plotting rounding rule are unavailable."
+  },
+  "figures": [
+    {
+      "figure": "even.level.pdf",
+      "sha256": "ae54ff0a2122e33d393ad1bf96f393669d9c874de1d4f1ad5317f1a905a1f4a1",
+      "locator": "paper p.6 Fig.3(a), N=72, theoretical 128Ba",
+      "pdf_page_size_pt": [
+        0.0,
+        0.0,
+        447.2881164550781,
+        391.9140625
+      ],
+      "target_N": 72,
+      "axis": {
+        "y_ticks": [
+          {
+            "path_index": 42,
+            "E_MeV": 0.0,
+            "y_pt": 182.8281707763672
+          },
+          {
+            "path_index": 44,
+            "E_MeV": 0.5,
+            "y_pt": 161.44203186035156
+          },
+          {
+            "path_index": 46,
+            "E_MeV": 1.0,
+            "y_pt": 140.05589294433594
+          },
+          {
+            "path_index": 48,
+            "E_MeV": 1.5,
+            "y_pt": 118.66976928710938
+          },
+          {
+            "path_index": 50,
+            "E_MeV": 2.0,
+            "y_pt": 97.28363037109375
+          },
+          {
+            "path_index": 52,
+            "E_MeV": 2.5,
+            "y_pt": 75.89749145507812
+          },
+          {
+            "path_index": 54,
+            "E_MeV": 3.0,
+            "y_pt": 54.5113525390625
+          },
+          {
+            "path_index": 56,
+            "E_MeV": 3.5,
+            "y_pt": 33.125213623046875
+          },
+          {
+            "path_index": 58,
+            "E_MeV": 4.0,
+            "y_pt": 11.73907470703125
+          }
+        ],
+        "x_ticks": [
+          {
+            "path_index": 32,
+            "neutron_number": 72,
+            "x_pt": 62.268123626708984
+          },
+          {
+            "path_index": 34,
+            "neutron_number": 74,
+            "x_pt": 95.74812316894531
+          },
+          {
+            "path_index": 36,
+            "neutron_number": 76,
+            "x_pt": 129.22811889648438
+          },
+          {
+            "path_index": 38,
+            "neutron_number": 78,
+            "x_pt": 162.7081298828125
+          },
+          {
+            "path_index": 40,
+            "neutron_number": 80,
+            "x_pt": 196.18812561035156
+          }
+        ],
+        "energy_MeV_equals_intercept_plus_slope_y": {
+          "intercept": 4.274455239444923,
+          "slope": -0.023379631384451007
+        },
+        "N_equals_intercept_plus_slope_x": {
+          "intercept": 68.28027940834023,
+          "slope": 0.0597371556265146
+        },
+        "other_y_tick_max_residual_keV": 0.00022296553936484997
+      },
+      "points": [
+        {
+          "state": "2_1+",
+          "two_J": 4,
+          "ordinal": 0,
+          "path_index": 3,
+          "connecting_path_index": 2,
+          "fill_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "marker_kind": "circle",
+          "marker_anchor_pt": [
+            62.26812410354614,
+            167.94342041015625
+          ],
+          "connecting_path_point_pt": [
+            62.268123626708984,
+            167.94342041015625
+          ],
+          "marker_vs_line_distance_pt": 4.76837158203125e-07,
+          "anchor_method": "mean of 8 circular Bezier segment start points",
+          "bounding_box_midpoint_pt": [
+            62.26812553405762,
+            167.94342041015625
+          ],
+          "vertex_mean_pt": [
+            62.26812410354614,
+            167.94342041015625
+          ],
+          "encoded_neutron_number": 72.00000002848489,
+          "recovered_energy_keV": 347.99997681158425,
+          "reported_plot_grid_energy_keV": 348,
+          "distance_to_1keV_grid_keV": 2.3188415752883884e-05,
+          "bounding_box_energy_bias_keV": -0.0,
+          "vertex_mean_energy_bias_keV": -0.0
+        },
+        {
+          "state": "4_1+",
+          "two_J": 8,
+          "ordinal": 0,
+          "path_index": 9,
+          "connecting_path_index": 8,
+          "fill_rgb": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "marker_kind": "square",
+          "marker_anchor_pt": [
+            62.26812553405762,
+            141.68124389648438
+          ],
+          "connecting_path_point_pt": [
+            62.268123626708984,
+            141.68124389648438
+          ],
+          "marker_vs_line_distance_pt": 1.9073486328125e-06,
+          "anchor_method": "rectangle center",
+          "bounding_box_midpoint_pt": [
+            62.26812553405762,
+            141.68124389648438
+          ],
+          "vertex_mean_pt": null,
+          "encoded_neutron_number": 72.00000011393958,
+          "recovered_energy_keV": 961.9999830546195,
+          "reported_plot_grid_energy_keV": 962,
+          "distance_to_1keV_grid_keV": 1.6945380480137828e-05,
+          "bounding_box_energy_bias_keV": -0.0,
+          "vertex_mean_energy_bias_keV": null
+        },
+        {
+          "state": "6_1+",
+          "two_J": 12,
+          "ordinal": 0,
+          "path_index": 15,
+          "connecting_path_index": 14,
+          "fill_rgb": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "marker_kind": "diamond",
+          "marker_anchor_pt": [
+            62.26812267303467,
+            105.36758422851562
+          ],
+          "connecting_path_point_pt": [
+            62.268123626708984,
+            105.36758422851562
+          ],
+          "marker_vs_line_distance_pt": 9.5367431640625e-07,
+          "anchor_method": "opposite-vertex symmetry center",
+          "bounding_box_midpoint_pt": [
+            62.26812171936035,
+            105.36758422851562
+          ],
+          "vertex_mean_pt": [
+            62.26812267303467,
+            105.36758422851562
+          ],
+          "encoded_neutron_number": 71.9999999430302,
+          "recovered_energy_keV": 1810.9999603121341,
+          "reported_plot_grid_energy_keV": 1811,
+          "distance_to_1keV_grid_keV": 3.968786586483475e-05,
+          "bounding_box_energy_bias_keV": -0.0,
+          "vertex_mean_energy_bias_keV": -0.0
+        },
+        {
+          "state": "0_2+",
+          "two_J": 0,
+          "ordinal": 1,
+          "path_index": 21,
+          "connecting_path_index": 20,
+          "fill_rgb": [
+            0.0,
+            0.5,
+            0.0
+          ],
+          "marker_kind": "triangle_down",
+          "marker_anchor_pt": [
+            62.26812553405762,
+            92.963623046875
+          ],
+          "connecting_path_point_pt": [
+            62.268123626708984,
+            92.963623046875
+          ],
+          "marker_vs_line_distance_pt": 1.9073486328125e-06,
+          "anchor_method": "tip/base midpoint marker anchor, checked against connecting path",
+          "bounding_box_midpoint_pt": [
+            62.26812553405762,
+            92.963623046875
+          ],
+          "vertex_mean_pt": [
+            62.26812489827474,
+            91.963623046875
+          ],
+          "encoded_neutron_number": 72.00000011393958,
+          "recovered_energy_keV": 2101.000000445931,
+          "reported_plot_grid_energy_keV": 2101,
+          "distance_to_1keV_grid_keV": 4.4593116399482824e-07,
+          "bounding_box_energy_bias_keV": -0.0,
+          "vertex_mean_energy_bias_keV": 23.379631384451006
+        },
+        {
+          "state": "2_2+",
+          "two_J": 4,
+          "ordinal": 1,
+          "path_index": 27,
+          "connecting_path_index": 26,
+          "fill_rgb": [
+            0.75,
+            0.75,
+            0.0
+          ],
+          "marker_kind": "triangle_left",
+          "marker_anchor_pt": [
+            62.26812553405762,
+            127.22421264648438
+          ],
+          "connecting_path_point_pt": [
+            62.268123626708984,
+            127.22421264648438
+          ],
+          "marker_vs_line_distance_pt": 1.9073486328125e-06,
+          "anchor_method": "tip/base midpoint marker anchor, checked against connecting path",
+          "bounding_box_midpoint_pt": [
+            62.26812553405762,
+            127.22421264648438
+          ],
+          "vertex_mean_pt": [
+            63.26812616984049,
+            127.22421264648438
+          ],
+          "encoded_neutron_number": 72.00000011393958,
+          "recovered_energy_keV": 1300.0000445931082,
+          "reported_plot_grid_energy_keV": 1300,
+          "distance_to_1keV_grid_keV": 4.459310821403051e-05,
+          "bounding_box_energy_bias_keV": -0.0,
+          "vertex_mean_energy_bias_keV": -0.0
+        }
+      ]
+    },
+    {
+      "figure": "ba.level.pdf",
+      "sha256": "b6006a11da9e56b14e31f286cedfe339fda90626bba7632fd934cc78ba861ef2",
+      "locator": "paper p.7 Fig.5(c), N=73, theoretical negative-parity 129Ba",
+      "pdf_page_size_pt": [
+        0.0,
+        0.0,
+        471.2834167480469,
+        391.9140625
+      ],
+      "target_N": 73,
+      "axis": {
+        "y_ticks": [
+          {
+            "path_index": 197,
+            "E_MeV": 0.0,
+            "y_pt": 349.19195556640625
+          },
+          {
+            "path_index": 199,
+            "E_MeV": 0.5,
+            "y_pt": 308.4564514160156
+          },
+          {
+            "path_index": 201,
+            "E_MeV": 1.0,
+            "y_pt": 267.720947265625
+          },
+          {
+            "path_index": 203,
+            "E_MeV": 1.5,
+            "y_pt": 226.98545837402344
+          }
+        ],
+        "x_ticks": [
+          {
+            "path_index": 187,
+            "neutron_number": 73,
+            "x_pt": 61.89925765991211
+          },
+          {
+            "path_index": 189,
+            "neutron_number": 75,
+            "x_pt": 95.04777526855469
+          },
+          {
+            "path_index": 191,
+            "neutron_number": 77,
+            "x_pt": 128.1962890625
+          },
+          {
+            "path_index": 193,
+            "neutron_number": 79,
+            "x_pt": 161.3448028564453
+          },
+          {
+            "path_index": 195,
+            "neutron_number": 81,
+            "x_pt": 194.49331665039062
+          }
+        ],
+        "energy_MeV_equals_intercept_plus_slope_y": {
+          "intercept": 4.286089081868041,
+          "slope": -0.012274306476836779
+        },
+        "N_equals_intercept_plus_slope_x": {
+          "intercept": 69.26533748910381,
+          "slope": 0.06033452826551206
+        },
+        "other_y_tick_max_residual_keV": 0.00012486070222195167
+      },
+      "points": [
+        {
+          "state": "7/2_1-",
+          "two_J": 7,
+          "ordinal": 0,
+          "path_index": 152,
+          "connecting_path_index": 151,
+          "fill_rgb": [
+            0.0,
+            0.5,
+            0.0
+          ],
+          "marker_kind": "triangle_left",
+          "marker_anchor_pt": [
+            61.89925956726074,
+            340.23016357421875
+          ],
+          "connecting_path_point_pt": [
+            61.89925765991211,
+            340.23016357421875
+          ],
+          "marker_vs_line_distance_pt": 1.9073486328125e-06,
+          "anchor_method": "tip/base midpoint marker anchor, checked against connecting path",
+          "bounding_box_midpoint_pt": [
+            61.89925956726074,
+            340.23016357421875
+          ],
+          "vertex_mean_pt": [
+            62.89926020304362,
+            340.23016357421875
+          ],
+          "encoded_neutron_number": 73.00000011507898,
+          "recovered_energy_keV": 109.99978149377121,
+          "reported_plot_grid_energy_keV": 110,
+          "distance_to_1keV_grid_keV": 0.0002185062287907158,
+          "bounding_box_energy_bias_keV": -0.0,
+          "vertex_mean_energy_bias_keV": -0.0
+        },
+        {
+          "state": "9/2_1-",
+          "two_J": 9,
+          "ordinal": 0,
+          "path_index": 158,
+          "connecting_path_index": 157,
+          "fill_rgb": [
+            0.75,
+            0.75,
+            0.0
+          ],
+          "marker_kind": "triangle_down",
+          "marker_anchor_pt": [
+            61.89925956726074,
+            349.19195556640625
+          ],
+          "connecting_path_point_pt": [
+            61.89925765991211,
+            349.19195556640625
+          ],
+          "marker_vs_line_distance_pt": 1.9073486328125e-06,
+          "anchor_method": "tip/base midpoint marker anchor, checked against connecting path",
+          "bounding_box_midpoint_pt": [
+            61.89925956726074,
+            349.19195556640625
+          ],
+          "vertex_mean_pt": [
+            61.89925893147787,
+            348.19195556640625
+          ],
+          "encoded_neutron_number": 73.00000011507898,
+          "recovered_energy_keV": 0.0,
+          "reported_plot_grid_energy_keV": 0,
+          "distance_to_1keV_grid_keV": 0.0,
+          "bounding_box_energy_bias_keV": -0.0,
+          "vertex_mean_energy_bias_keV": 12.274306476836779
+        },
+        {
+          "state": "11/2_1-",
+          "two_J": 11,
+          "ordinal": 0,
+          "path_index": 164,
+          "connecting_path_index": 163,
+          "fill_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "marker_kind": "circle",
+          "marker_anchor_pt": [
+            61.89925813674927,
+            342.5928039550781
+          ],
+          "connecting_path_point_pt": [
+            61.89925765991211,
+            342.5928039550781
+          ],
+          "marker_vs_line_distance_pt": 4.76837158203125e-07,
+          "anchor_method": "mean of 8 circular Bezier segment start points",
+          "bounding_box_midpoint_pt": [
+            61.89925956726074,
+            342.5928039550781
+          ],
+          "vertex_mean_pt": [
+            61.89925813674927,
+            342.5928039550781
+          ],
+          "encoded_neutron_number": 73.00000002876973,
+          "recovered_energy_keV": 81.0000093645522,
+          "reported_plot_grid_energy_keV": 81,
+          "distance_to_1keV_grid_keV": 9.364552198576348e-06,
+          "bounding_box_energy_bias_keV": -0.0,
+          "vertex_mean_energy_bias_keV": -0.0
+        },
+        {
+          "state": "13/2_1-",
+          "two_J": 13,
+          "ordinal": 0,
+          "path_index": 170,
+          "connecting_path_index": 169,
+          "fill_rgb": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "marker_kind": "triangle_up",
+          "marker_anchor_pt": [
+            61.89925956726074,
+            311.14501953125
+          ],
+          "connecting_path_point_pt": [
+            61.89925765991211,
+            311.14501953125
+          ],
+          "marker_vs_line_distance_pt": 1.9073486328125e-06,
+          "anchor_method": "tip/base midpoint marker anchor, checked against connecting path",
+          "bounding_box_midpoint_pt": [
+            61.89925956726074,
+            311.14501953125
+          ],
+          "vertex_mean_pt": [
+            61.89925893147787,
+            312.14501953125
+          ],
+          "encoded_neutron_number": 73.00000011507898,
+          "recovered_energy_keV": 466.9997534001129,
+          "reported_plot_grid_energy_keV": 467,
+          "distance_to_1keV_grid_keV": 0.00024659988707753655,
+          "bounding_box_energy_bias_keV": -0.0,
+          "vertex_mean_energy_bias_keV": -12.274306476836779
+        },
+        {
+          "state": "15/2_1-",
+          "two_J": 15,
+          "ordinal": 0,
+          "path_index": 176,
+          "connecting_path_index": 175,
+          "fill_rgb": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "marker_kind": "square",
+          "marker_anchor_pt": [
+            61.89925956726074,
+            309.67852783203125
+          ],
+          "connecting_path_point_pt": [
+            61.89925765991211,
+            309.67852783203125
+          ],
+          "marker_vs_line_distance_pt": 1.9073486328125e-06,
+          "anchor_method": "rectangle center",
+          "bounding_box_midpoint_pt": [
+            61.89925956726074,
+            309.67852783203125
+          ],
+          "vertex_mean_pt": null,
+          "encoded_neutron_number": 73.00000011507898,
+          "recovered_energy_keV": 484.9999219620611,
+          "reported_plot_grid_energy_keV": 485,
+          "distance_to_1keV_grid_keV": 7.803793891980604e-05,
+          "bounding_box_energy_bias_keV": -0.0,
+          "vertex_mean_energy_bias_keV": null
+        },
+        {
+          "state": "17/2_1-",
+          "two_J": 17,
+          "ordinal": 0,
+          "path_index": 182,
+          "connecting_path_index": 181,
+          "fill_rgb": [
+            0.0,
+            0.75,
+            0.75
+          ],
+          "marker_kind": "star",
+          "marker_anchor_pt": [
+            61.89925765991211,
+            250.3676300048828
+          ],
+          "connecting_path_point_pt": [
+            61.89925765991211,
+            250.3676300048828
+          ],
+          "marker_vs_line_distance_pt": 0.0,
+          "anchor_method": "five outer star tips determine rotational center",
+          "bounding_box_midpoint_pt": [
+            61.89925765991211,
+            250.0811538696289
+          ],
+          "vertex_mean_pt": [
+            61.89925765991211,
+            250.3676300048828
+          ],
+          "encoded_neutron_number": 73.0,
+          "recovered_energy_keV": 1213.0000593088334,
+          "reported_plot_grid_energy_keV": 1213,
+          "distance_to_1keV_grid_keV": 5.9308833442628384e-05,
+          "bounding_box_energy_bias_keV": 3.5162958824061907,
+          "vertex_mean_energy_bias_keV": -0.0
+        }
+      ]
+    }
+  ]
+}

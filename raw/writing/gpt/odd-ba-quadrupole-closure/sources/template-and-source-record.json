@@ -1,0 +1,77 @@
+{
+  "checked_at_utc": "2026-11-06T04:10:26.949737+00:00",
+  "template": {
+    "path": "raw/writing/template/springer-nature-latex-template-2024.zip",
+    "sha256": "812e76dcaa9c28dc1bff1fb6065d51729b67d4ea140552a05088317414a3ecae",
+    "size": 901814
+  },
+  "template_inventory": "raw/writing/template/README.md",
+  "class": {
+    "path": "raw/writing/gpt/odd-ba-quadrupole-closure/sn-jnl.cls",
+    "sha256": "2174570ce9e53b7bd0c279cb2c6dabf8cc35c2e094fab745a34a22027a479396",
+    "size": 55857,
+    "working_copy_normalization": "Whitespace only; original package/source files retained unchanged."
+  },
+  "bibliography_style": {
+    "path": "raw/writing/gpt/odd-ba-quadrupole-closure/sn-mathphys-num.bst",
+    "sha256": "7635e72a5b22440d819e43eefc2ba16bbcae89df83521a1d66c31c3987f93816",
+    "size": 63311,
+    "working_copy_normalization": "Whitespace only; original package/source files retained unchanged."
+  },
+  "journal_format": "Springer Nature iicol; EPJ A candidate",
+  "live_guideline_url": "https://link.springer.com/journal/10050/submission-guidelines",
+  "live_guideline_archive": {
+    "path": "raw/papers/gpt/query/20261106-epja-closure-format-check/manifest.json",
+    "sha256": "cae4ebee6ff27abce6463e879c0c7b801bb5ae0e8f78b3c0687efda69fa479be",
+    "size": 817
+  },
+  "bibliography_metadata_archive": {
+    "path": "raw/papers/gpt/query/20261106-odd-ba-paper-bibliography/manifest.json",
+    "sha256": "0b22df3139c0d9b10c132108671cfd0a7e6f87532d604ad9b96e1ecad10ffa1e",
+    "size": 5786
+  },
+  "LawrieOrce2025_metadata": {
+    "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/focused-sidecar/lawrie-orce2025-crossref.json",
+    "sha256": "c8e29d9a342b6776f6aa0d847347062cc0e3ce7ca7980e7ad2d105f335974412",
+    "size": 22184
+  },
+  "key_source_archives": [
+    {
+      "path": "raw/papers/gpt/query/20261105-nomura2017-input-audit/manifest.json",
+      "sha256": "6983451319465b527cc02adbabd8f4561c71dfe395c291632b20868674ec9cb9",
+      "size": 6463
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-nomura-invariant-version-audit/manifest.json",
+      "sha256": "4f6cbf21fa1abdf6ae41dd99bd31fde7e337302a42dbc8b3b991830fca96bd2c",
+      "size": 5990
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-ba-core-E2-calibration/manifest.json",
+      "sha256": "ee30e3a0c13f8f5187f871b794269e085810b8f81e68c56c4e08c0363e6e192b",
+      "size": 29758
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-ba-spin-moment-benchmark/manifest.json",
+      "sha256": "9fc2cdcbc7542179f215da46322282caf5b353b825b7c042ea268e2062635102",
+      "size": 6159
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/manifest.json",
+      "sha256": "ec9bb2dbe4c248cc93c0c43cd55409be950f68d1a769c3a6309baf2a9296ca37",
+      "size": 19606
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/focused-sidecar/manifest.json",
+      "sha256": "e77de66e340dbdc81a0b55f0f0af1b725120e6c8b691b719903597ee62c96dc1",
+      "size": 4857
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-vogt2017-ba137-rstat/manifest.json",
+      "sha256": "3e777f4bae5e9e2ca7b4a6bd773436d1282bdd64678b117250d512c886f5854f",
+      "size": 6025
+    }
+  ],
+  "boundary": "Only selected source facts, generated model data and template/code are bundled; original full texts remain in local research archives.",
+  "template_working_copy_changes": "analysis/template-whitespace-normalization.json"
+}

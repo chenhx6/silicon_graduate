@@ -1,0 +1,665 @@
+{
+  "policy": "Files retained locally; no deletions. Only rebuildable intermediate histories and source-inspection derivatives excluded from this compact publication. Final continuation/reverse summaries and producer scripts remain publishable.",
+  "files": [
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I11-grid129.json",
+      "size": 41910,
+      "sha256": "fb81ec6aa0c11039be85490dea79e847518c2145a1f582f1323e986896a40c3c",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I11-grid33.json",
+      "size": 11535,
+      "sha256": "f13ebab2ae464832b89be1900b1d940e699d15cd29e0e44aee5477286f1eca54",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I11-selected-endpoints.npz",
+      "size": 6318,
+      "sha256": "21e3dd6c4e1ec8a2fa8bff3683fcc42ade0831f8c50126bacdd4f433f2848393",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I13-grid129.json",
+      "size": 63682,
+      "sha256": "5f31a4e650b744ac5ac8c53b1b474da23d7f1ce2b3aa26c2a2d15c984c28d73c",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I13-grid33.json",
+      "size": 17169,
+      "sha256": "96ad21e58066957ca30bb2323605bf587b9b78c71514db8ceeafaf49a0407e21",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I13-selected-endpoints.npz",
+      "size": 13814,
+      "sha256": "d510e339177a45e36cf6d9ccf4d58ae3b8cd8f482f6a49f3cf31a9b0846eb857",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I15-adaptive-00.json",
+      "size": 1004406,
+      "sha256": "c5ec3484469388e8bbe64f1d7d368dd78344f3a53deb076c3006bd9f279c2786",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I15-adaptive-01.json",
+      "size": 1006394,
+      "sha256": "cb6d1a9d043d57d25bd4f7941039e4cd36207ec20b334d5823e2350d985868d1",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I15-adaptive-02.json",
+      "size": 1008880,
+      "sha256": "18ea08a1ec8800302c5caea70129e2987aaa01a8ae4be94dd945204e3a8368ff",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I15-adaptive-03.json",
+      "size": 1010880,
+      "sha256": "9709a8d2b7ae6c34d28795507499849671876ba97412230d725ca282ef2ffc2c",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I15-adaptive-04.json",
+      "size": 1013370,
+      "sha256": "db0a51222d25c9274e0648e134afec0126e5785f42997189cc79bee91e32bedd",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I15-adaptive-05.json",
+      "size": 1015863,
+      "sha256": "b47dd2a76749702789752f92c598c0078f20dc71ac70b5a2aea1ec09e5adcf8a",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I15-adaptive-06.json",
+      "size": 1019367,
+      "sha256": "5a48127edb318570acd86b42b83f06ec26aba1d9eb03e488498cd9ecc3264dfd",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I15-adaptive-07.json",
+      "size": 1023376,
+      "sha256": "fe4810e9914195d110ff26ce5bc5bd163f0ce3e0a80a803970f9454661fbd191",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I15-adaptive-08.json",
+      "size": 1024379,
+      "sha256": "904d55f93546fca64d849c9876faf8f90e4942564aa930a4fd33cedeabc04b13",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I15-adaptive-selected-endpoints.npz",
+      "size": 15365,
+      "sha256": "1949965d68949fc54a1d11390a1ce6ed9491283c0dc73456b49a116b3335d459",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I15-grid129.json",
+      "size": 64104,
+      "sha256": "06c34b465817ba42f463c8003208dcfbf85290432811555345637d015a40118a",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I15-grid2049.json",
+      "size": 1004476,
+      "sha256": "31c55f4c5123b7b7b15aed0a1fcc341defebf3a52d47ffe120b54f5e09964e53",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I15-grid33.json",
+      "size": 17408,
+      "sha256": "7e634a5bd4cbc5b63f0175559a5c2e89792b006b71f21909e7b2c886b3f59e48",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I15-grid513.json",
+      "size": 251528,
+      "sha256": "4fc7ab04594a7693cd03f5baf27c63af9fa3c542cc73d834f5f64a2061130a0b",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I15-selected-endpoints.npz",
+      "size": 15377,
+      "sha256": "045ae526eee78b543d754cf81fb85f99cd66b8fff5262fc20673178b4d59778f",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I17-adaptive-00.json",
+      "size": 1004821,
+      "sha256": "4d62ab8be78270063500d1cc4ddc384feb15dbf84a898fe9d741f5fb07a22ae3",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I17-adaptive-01.json",
+      "size": 1009787,
+      "sha256": "8d918bf4fe4d734a610c6d4b67103a5351e3a8ff2e0c5cfb83a88d6ec2d41e13",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I17-adaptive-02.json",
+      "size": 1015764,
+      "sha256": "f54f91d15e6df53fcd4f0017d82f9e77046d5d294a620c22c5dc63713c7f31dc",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I17-adaptive-03.json",
+      "size": 1022237,
+      "sha256": "874fc9031a93012aa36c319641962826f0397d5561421c4f4c112e4119b536d1",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I17-adaptive-04.json",
+      "size": 1025741,
+      "sha256": "fb4bb18f16692f8971fd2df8d2f08bc0a48aa7266547740bd1dd471fd8efd02e",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I17-adaptive-selected-endpoints.npz",
+      "size": 17529,
+      "sha256": "a8c88c29232aa81ebf4efaa844994f305220cd5ee161704ceb46667def8e13d7",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I17-grid129.json",
+      "size": 64257,
+      "sha256": "739dc878437dbcac3e5f4287287f0a6611ab66387586e53135389f08b63219d0",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I17-grid2049.json",
+      "size": 1004892,
+      "sha256": "ca4010c5f0537b640c5d9f8a03c1e8ff7f16c47fb21146e3e6d3c2ff56a93192",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I17-grid33.json",
+      "size": 17611,
+      "sha256": "b22cad62760286ee2e5399237ae98151b8f1091d4120785dafdd0c4750cd8325",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I17-grid513.json",
+      "size": 251630,
+      "sha256": "daccced1c14ec4c2001ab6f9805c22d1c95a5cb399a1f4fa5fa71923c460cb96",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I17-selected-endpoints.npz",
+      "size": 17534,
+      "sha256": "fdac5d26ba0f52d738035b67d4658fe3199e3286a1cb5a4306d41036ae1acaa2",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I19-adaptive-00.json",
+      "size": 1004111,
+      "sha256": "d9077cc7d921177ca5b5314f20dca68a71cca183638802d33123016961a854bc",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I19-adaptive-01.json",
+      "size": 1008065,
+      "sha256": "8e52c28bfb4d954c45557936c594fcf4dd76290f127e0797c338e44d24bb59c5",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I19-adaptive-02.json",
+      "size": 1010552,
+      "sha256": "98e03118e233db9348dd9154133807e054a872560082d45096812250bf7be56e",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I19-adaptive-03.json",
+      "size": 1013042,
+      "sha256": "de8aa0e18e7406e36a36c198784dac84662b7cbd4fd53bf9750965276bb67ce3",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I19-adaptive-04.json",
+      "size": 1015544,
+      "sha256": "34dabd5153f63ce73d3b0e5d0fcbdffc29cd5996eefd9819890f176d0992173c",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I19-adaptive-05.json",
+      "size": 1018037,
+      "sha256": "ec2858a6d8ece6a5d20a53f52876da988c2aa4210c902e6e5deacf43b1d553e7",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I19-adaptive-06.json",
+      "size": 1020548,
+      "sha256": "788ba9932ce0fb499f28c8aba62c743d9880a4fd3e404eb5263d8306b62c1220",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I19-adaptive-07.json",
+      "size": 1023044,
+      "sha256": "a94c922b3a19215b0fabc2025e7b93d36b84871aac7365e75e032614dd94f403",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I19-adaptive-08.json",
+      "size": 1025552,
+      "sha256": "eeef436fae41d673c807a52a335813a395d10c9accac2489470668d8e338717c",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I19-adaptive-09.json",
+      "size": 1029248,
+      "sha256": "c9f8f0f6eb62431751f2a64d0ace0296b22505b76b16f579e499b8c77496846f",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I19-adaptive-10.json",
+      "size": 1031760,
+      "sha256": "36d244dee6295aa73e0fde20dea729fa76db1b28fe46cbd43222dcc294bc6810",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I19-adaptive-11.json",
+      "size": 1034769,
+      "sha256": "bd51b38cb4950b4b98346ea484bb7792557acf24ad12341cdf74cd67fcc0b446",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I19-adaptive-12.json",
+      "size": 1038229,
+      "sha256": "9fe5fa0386b420fd2f9ee41729c268ac65e9abb6772ae257a2487b7f8292617e",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I19-adaptive-selected-endpoints.npz",
+      "size": 18943,
+      "sha256": "f46a232df8f0059672aa85a9f55e887c63f0f3f33b73b792739608472dd7b1c2",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I19-grid129.json",
+      "size": 64282,
+      "sha256": "d5ea2528fc21fa52ba505d5f213e85a67666ed35531ad5d3bd14a1d9b80135a7",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I19-grid2049.json",
+      "size": 1004182,
+      "sha256": "a48a1fb4b36bab98514dae2060b4f0cdfa2e678eaa28ec8afe08073e12918b44",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I19-grid33.json",
+      "size": 17619,
+      "sha256": "433a1a8d63d6be581aeeade736a7126bd1e820e3ca91c1e1c81605e999be1c73",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I19-grid513.json",
+      "size": 251499,
+      "sha256": "18a1498ed93798c1bf16d5ee016ec03e2872fef251b96fe765349de98a1280b2",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I19-selected-endpoints.npz",
+      "size": 19023,
+      "sha256": "ae72eaa7ec391ad65fcd841d18f4e055115bdf02baa1ead929ede7b18052b95a",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I9-grid129.json",
+      "size": 41992,
+      "sha256": "4b504c33876c11e2fcac9d47905039184f427e6f05ba1c258a44a49903e451f8",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I9-grid33.json",
+      "size": 11542,
+      "sha256": "5d095db16e72eba393a11442b70e3e5b156acd97fa469ca32f3fac78848c99cf",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start0/I9-selected-endpoints.npz",
+      "size": 5463,
+      "sha256": "d56286a4db4356b9e02252337d1c66140535a700aa6e840a33f0fc29d221cdf3",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start1/I11-grid129.json",
+      "size": 41882,
+      "sha256": "b049fdd9e576e29e7f461b6804206b60bf07943a031ebc7939c92aa0c090a4aa",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start1/I11-grid33.json",
+      "size": 11517,
+      "sha256": "e9dbe62f7527dfdedd8670f4063d47179c2feace9aa808ede8741b356a017568",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start1/I11-selected-endpoints.npz",
+      "size": 6344,
+      "sha256": "5cd6641d9e1c6df812141558bba55036d2fd3827616370538d77c7d7905001a3",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start1/I13-grid129.json",
+      "size": 63896,
+      "sha256": "e75de82b02b705a14a50eeebdb6fd085c87a7f381ddab930fc358535a7c5fe2e",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start1/I13-grid33.json",
+      "size": 17173,
+      "sha256": "b983b2da51d646f4dd97962e03599e2ffccc23e9aa96519de7f2d9b7b9004157",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start1/I13-grid513.json",
+      "size": 251755,
+      "sha256": "b2d579da6a08c8c7ae3dc36c4163b7307cf2ec8e975a98259e00465ea9784f3c",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start1/I13-selected-endpoints.npz",
+      "size": 13845,
+      "sha256": "1b61715a4dfd32e4ef4c073925a5218a0f3f4ec60996b3d54110f08478055d02",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start1/I15-grid129.json",
+      "size": 63799,
+      "sha256": "36eb7e3c35c942ec683f7d9c165be28e419d610aab6a0eb6d6f5526140487bf3",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start1/I15-grid33.json",
+      "size": 17157,
+      "sha256": "805d98bf12b4eb43cd6f9cde81285dab44e6fefa20d21dc285a75b4ee69ebf5b",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start1/I15-selected-endpoints.npz",
+      "size": 15425,
+      "sha256": "75280ad3eafd9e275b3f44263d98e20af9d1b765226694fa132307c143169198",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start1/I17-grid129.json",
+      "size": 63756,
+      "sha256": "d1d0d59dbb9e40f16496bb257d5b9ddf51cc8fb02633b6c6e25b84348b005736",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start1/I17-grid33.json",
+      "size": 17177,
+      "sha256": "d7b08263168aeb90821264a7864fe6c0ba008052b2ab33e8b4bba05a0e68fe26",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start1/I17-selected-endpoints.npz",
+      "size": 17579,
+      "sha256": "98068e719d4b1403d06daa8a16977a776e235e5f245ed5151b5f4f52dd65a1d2",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start1/I19-grid129.json",
+      "size": 63911,
+      "sha256": "4f856e34ce545f5b934ebb6487c7b0466ec17223a687f9a998a425bf6e8155ee",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start1/I19-grid33.json",
+      "size": 17180,
+      "sha256": "02121a3d51747ed6dc92c47d9794b4c5df13e667532c249854cc1728050980b3",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start1/I19-grid513.json",
+      "size": 251588,
+      "sha256": "e02de6af92733cee6d7983c09d8175507e81b87aba2c72daa49125baeb3ee517",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start1/I19-selected-endpoints.npz",
+      "size": 19045,
+      "sha256": "ca7c61983934d8110148c4975685d994012f29666161692d39c10e96d35dd3b4",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start1/I9-grid129.json",
+      "size": 41693,
+      "sha256": "03f2b701b83c4230f05bb0ae46ef1d7b449963f0a3ce6ace8b18d317fe62fef4",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start1/I9-grid33.json",
+      "size": 11483,
+      "sha256": "ba1db98371f36e208eb1aef8c7abc3ec868d1eb1a4ee23da5e57fcb0d9ee5a42",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C120_start1/I9-selected-endpoints.npz",
+      "size": 5504,
+      "sha256": "a1f38a0faf305dc91a792a4211a7eefa6bbbc2031be072402517050a1979e7ac",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C60_best/I11-grid129.json",
+      "size": 42022,
+      "sha256": "62c7956be8563f3e4e7b2c0cb7acff7b3474f753855ad1073fde10352aab102b",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C60_best/I11-grid33.json",
+      "size": 11601,
+      "sha256": "2c1a38ebdf8523c0c1b3ddfadb4f4d45bb499a958c9f5f1af9846b46f3853d4a",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C60_best/I11-selected-endpoints.npz",
+      "size": 6259,
+      "sha256": "57b9b0ee23344a5c96fe2b8607c11c2d7d131e4abb34cdc4156e8a0ecf5ac8db",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C60_best/I13-grid129.json",
+      "size": 63734,
+      "sha256": "22d19ce611900dc906d315e508bc0830dd25f484d87b79f46404121a3ea23e05",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C60_best/I13-grid33.json",
+      "size": 17178,
+      "sha256": "ffc7eb32a6148dba03cf3375b6db0ec23fc717c4f3b27cf7f5d04faad2a1d208",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C60_best/I13-selected-endpoints.npz",
+      "size": 13685,
+      "sha256": "84ed1d0ea321afa2f474d3af3189992c6e708cb61032bad2b0c55bddc75b6fea",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C60_best/I15-grid129.json",
+      "size": 64052,
+      "sha256": "1c4f9b5c7888270d8677fd706d8d4ba9067f1a779811af397457001956dd8506",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C60_best/I15-grid33.json",
+      "size": 17275,
+      "sha256": "7897125a4a40b390c2b613361efb7453699ee8a01a191866d00c5a460c1e47fe",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C60_best/I15-selected-endpoints.npz",
+      "size": 15223,
+      "sha256": "995276afc48cdba7f54e3f26b214718151482419a82d88c2a932709c523e46a1",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C60_best/I17-grid129.json",
+      "size": 63824,
+      "sha256": "d6bc51aa99198fd457f70dac3367e3f175ae2d9e33c3f949ae372cd46349a09c",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C60_best/I17-grid33.json",
+      "size": 17184,
+      "sha256": "6189f35a6a6181f2cd2a6d3f3a3f6c024603101eb148c5b99694b55e38ee4ea5",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C60_best/I17-selected-endpoints.npz",
+      "size": 17373,
+      "sha256": "e42b1ad555b7f0ece9fd1535df77148d2fe94051998a833545d194a49d241ea2",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C60_best/I19-grid129.json",
+      "size": 63659,
+      "sha256": "1293032b610d472d6748e2a5af5b025b17dce8764c34aa05f161fe4d566c667f",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C60_best/I19-grid33.json",
+      "size": 17169,
+      "sha256": "e9bfbb578263dd266699ad630a6191fd5bf2b154770ef34f3c0d9737f9e38f00",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C60_best/I19-selected-endpoints.npz",
+      "size": 18844,
+      "sha256": "af8415babae9cd49ddf00a8a99995722c5a39a36540cb02b9399064dd678f691",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C60_best/I9-grid129.json",
+      "size": 41795,
+      "sha256": "601d23a2a7b99400c1c7b19759bb2ca5711f8ce00210c9d5d0730c15e308bccc",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C60_best/I9-grid33.json",
+      "size": 11534,
+      "sha256": "4b4211b02c2ad761d638b1343adfc2a89e1127ce88b54dbcf1493009df60a4f3",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/continuation/C60_best/I9-selected-endpoints.npz",
+      "size": 5433,
+      "sha256": "6ea561e2bb2d732fbb7913bf7d33c81c60e580f736d15538807533883841b86b",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/inspection/nndc128-adopted-page1.png",
+      "size": 154984,
+      "sha256": "a921709ececf4e66d759e1fb7a09e0dd0203546de6a9882607c26185df06f7e0",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/inspection/nndc128-adopted-page5.png",
+      "size": 157588,
+      "sha256": "e26a06358c4cabf084e761292cf72c73ee0a5de69e09c6525b1797e0be30b3c4",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/inspection/nndc128-adopted-pdf.txt",
+      "size": 31623,
+      "sha256": "32223f143c3760bcfa5c39bec45eb0ecde0ef0be28bbd2ece86e3ffd2bc810a1",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/inspection/nndc130-adopted-page1.png",
+      "size": 163899,
+      "sha256": "4532856c3330aff741da7628e0ef55cd3013cb8b69a317fac2d33cef8e52abd9",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/inspection/nndc130-adopted-page3.png",
+      "size": 128701,
+      "sha256": "1845a67bc9f8a251dda33f5d75782e2f4a36d39b6c3231c1c9bb86ae7a9935db",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/inspection/nndc130-adopted-pdf.txt",
+      "size": 18186,
+      "sha256": "22dceb37c336c20b8fd95f30baaf7acd50f8558f9408a327ac747030ae61cd59",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/inspection/nndc132-adopted-page1.png",
+      "size": 187834,
+      "sha256": "52dda35ed97130f98b583750db406afdf949f06f9ed5335137844a2dfb456c34",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/inspection/nndc132-adopted-page6.png",
+      "size": 152140,
+      "sha256": "d88226d512df3ad11da81baf70120f097f55baf73fafd95761765643126470cf",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/inspection/nndc132-adopted-pdf.txt",
+      "size": 49841,
+      "sha256": "1a6c4f9188760a40d9e187f5700dd8cafbe808d84bc78f3138631a568672193d",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/inspection/nndc134-adopted-page1.png",
+      "size": 159592,
+      "sha256": "10999357e2a6db4434ac7256cdb156d8bdb6505120dbdff81de6232fcd682ca1",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/inspection/nndc134-adopted-page5.png",
+      "size": 171262,
+      "sha256": "39ce030e275f1d9a5f152b1ef653a34bd40d90857dab1da08f1850c63df8bdbd",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/inspection/nndc134-adopted-pdf.txt",
+      "size": 23831,
+      "sha256": "ddd1dcf0e1677d5b463736f8863377848688994cb95637f1897d092765573c6f",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/inspection/nndc134-coulomb-page1.png",
+      "size": 99802,
+      "sha256": "5951466a746c2d716cd72d56c86ab82fd2fa4118d14143c251553479322e9e4f",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/inspection/nndc134-coulomb-pdf.txt",
+      "size": 1373,
+      "sha256": "cd1315bf6755f89603d9570b0df638df0bd01714978ecd2ea701c15962409457",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/inspection/nndc136-adopted-page1.png",
+      "size": 175059,
+      "sha256": "03acae8fda390f144b71f0b308cd6062b5faf08562ea617b0c134fd15d6ebe1d",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/inspection/nndc136-adopted-page7.png",
+      "size": 126272,
+      "sha256": "2b5ea952e77c95822af1fa0d66e09a65c48012bbc2a97113d0c975f8938a061d",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/inspection/nndc136-adopted-pdf.txt",
+      "size": 50387,
+      "sha256": "855e3b74570dcb492c25f1dc96c7bc09023dc8a6ead38b9f2f4a054ea4243b42",
+      "publication": "local-intermediate-retained"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-source-replay/source-invariants-incomplete-serialization-attempt.txt",
+      "size": 1742,
+      "sha256": "495d0da87e47e56e18e90f99829fb6fc5d2fbc27cb9faf9a2eb0ef74e097d42f",
+      "publication": "local-incomplete-serialization-retained-verbatim"
+    }
+  ]
+}

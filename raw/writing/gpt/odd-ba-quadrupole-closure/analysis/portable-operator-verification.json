@@ -1,0 +1,13 @@
+{
+  "at_utc": "2026-11-06T04:02:53.601330+00:00",
+  "kind": "operator",
+  "status": "passed",
+  "producer_exit_code": 0,
+  "compared_fields": [
+    "rows"
+  ],
+  "relative_tolerance": 1e-09,
+  "absolute_tolerance": 1e-10,
+  "result": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-operator-control/results.json",
+  "boundary": "Numerical reproducibility, not empirical validation or journal readiness."
+}

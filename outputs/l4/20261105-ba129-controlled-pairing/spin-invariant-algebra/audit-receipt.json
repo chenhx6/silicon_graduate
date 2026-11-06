@@ -1,0 +1,148 @@
+{
+  "schema": "general-spin-quadrupole-audit/1",
+  "completed_at_utc": "2026-11-05T17:56:39.599836+00:00",
+  "source": {
+    "arxiv_id": "1704.07101v2",
+    "version_banner_date": "2017-07-08",
+    "pdf_pages": 13,
+    "formula_page": 11,
+    "formula_numbers": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "tex_formula_lines": [
+      1264,
+      1311
+    ],
+    "pdf_generated_today_line": "November 21, 2021; not interpreted as version date",
+    "tex_member_v4_is_not_arxiv_version": true,
+    "publisher_version_of_record_compared": false,
+    "input_files": [
+      {
+        "path": "raw/papers/gpt/query/20261105-nomura2017-input-audit/arxiv-v2-v4.tex",
+        "size_bytes": 64836,
+        "sha256": "f79b87a4d88539e8a4e4453a2e61272a9f5e108d165a5fd5a3ab4b17b5c5b868",
+        "sha256_before": "f79b87a4d88539e8a4e4453a2e61272a9f5e108d165a5fd5a3ab4b17b5c5b868",
+        "unchanged": true
+      },
+      {
+        "path": "raw/papers/2017_Nomura et al_Shape-phase transitions in odd-mass γ -soft nuclei with mass A ≈ 130.pdf",
+        "size_bytes": 1039399,
+        "sha256": "481e6a9e0f6b01e9c5db5e2b06d9b350dba0638393c7da7f532c3040e9efaea9",
+        "sha256_before": "481e6a9e0f6b01e9c5db5e2b06d9b350dba0638393c7da7f532c3040e9efaea9",
+        "unchanged": true
+      }
+    ]
+  },
+  "convention": "<Jf Mf|Q_kq|Ji Mi> = CG(Ji Mi,kq|Jf Mf)*<Jf||Q_k||Ji>/sqrt(2Jf+1)",
+  "operator_definitions": {
+    "q2": "<rJM|sum_mu (-1)^mu Q_mu Q_-mu|rJM>",
+    "signed_q3": "-sqrt(7/2)<rJM|[Q x Q]^(2) dot Q|rJM>",
+    "q2_complete_RME_sum": "sum_(a,Ja) (-1)^(Ja-J) M_ra M_ar/(2J+1) = sum |M_ar|^2/(2J+1)",
+    "q3_complete_RME_sum": "-(-1)^(2J)*sqrt(35/2)/(2J+1) sum_(a,Ja,b,Jb) {2 2 2; J Ja Jb} M_ra M_ab M_br"
+  },
+  "principal_findings": [
+    "The spin-restricted proxies are invariant under spatial rotations and independent state rephasings, and can be related to projected/nonlocal scalar contractions. They do not generally equal the specified full charge-tensor polynomial moments.",
+    "For J=0, the complete quadratic formula reduces to the standard 0-to-2 sum; the cubic formula is signed -sqrt(7/10) times the triple sum. Source Eq13 retains its absolute value.",
+    "All supplied strong-K=J rotor gamma values reproduced, including outside-domain argument 1.2924884199827378 at J=13/2.",
+    "Full rotor closure gives q2=q0^2 and signed q3=q0^3, including static and J+1 channels where allowed.",
+    "All three spectator conjectures verified with complete intermediate closure, no fermion E2 operator, and common beta prefactor.",
+    "Completing n at one spin does not restore omitted angular-momentum channels.",
+    "No unconditional cosine bound follows for arbitrary quantum IBM moments or beta-fluctuating classical moments. No clipping applied.",
+    "Channel-strength redistribution at fixed J can reflect real particle-core dynamics and isotope-dependent RMEs, even if a full scalar moment remains constant.",
+    "The pure-geometry spectator control varies j with a fixed core and core-only operator. It does not explain away fixed-J isotope trends.",
+    "Nonidentity with standard tensor-polynomial moments does not invalidate explicitly defined effective observables. Shape-conversion applicability requires its own stated calibration."
+  ],
+  "parent_conjectures": {
+    "status": "all three confirmed under explicit spectator assumptions",
+    "q2_raw_over_core_q2": "(2j+5)/5",
+    "beta_proxy_over_beta_invariant": "sqrt((2j+5)(2j+4)(2j+3)/(60(2j+1)))",
+    "F_j": "sqrt(2(j+3)(2j+7)/(7(j+2)(2j+3)))",
+    "j_11_over_2_beta_ratio": 2.1602468994692865,
+    "assumptions": [
+      "initial core R=0 tensor spectator j",
+      "Q acts only on core",
+      "all relevant intermediate states included",
+      "q2_core > 0",
+      "same tensor and charge normalization",
+      "same radius/prefactor for beta comparison"
+    ]
+  },
+  "verification": {
+    "python": "3.12.3",
+    "arithmetic": "stdlib factorial Racah sums with exact rational/square-free-root arithmetic",
+    "checks_passed": 1486,
+    "checks_failed": 0,
+    "independent_routes": [
+      "direct magnetic-substate contraction",
+      "6j-recouped complete RME sum",
+      "explicit product-basis spectator RMEs",
+      "six-dimensional one-boson IBM operator matrices"
+    ],
+    "replay_command": "python3 -B outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-algebra/exact_checks.py",
+    "parent_or_production_code_imported": false,
+    "external_angular_momentum_package_used": false,
+    "published_figures_reconstructed": false,
+    "published_code_error_claimed": false,
+    "novelty_claimed": false,
+    "nuclear_data_changed": false,
+    "nuclear_spectrum_or_fit_computed": false,
+    "get_paper_used": false,
+    "PLAN_read_or_modified": false,
+    "other_session_outputs_read": false,
+    "commit_or_push": false,
+    "new_external_source_downloaded": false
+  },
+  "output_artifacts": [
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-algebra/report.md",
+      "size_bytes": 24560,
+      "sha256": "e5d58003cffa7027025de8518a6d8fce38351ff2dda14a22ee64cc59a27e9488"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-algebra/exact_checks.py",
+      "size_bytes": 19962,
+      "sha256": "257480c9f678ab9c8bc2095dc3f9025910fc1e41637479ecee8895dc157644d4"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-algebra/exact_checks.json",
+      "size_bytes": 224122,
+      "sha256": "5b6554e1593d353564127ab0467515e55267f9bd9f017cd900f584b22de1327d"
+    }
+  ],
+  "source_extracts_and_images": [
+    {
+      "path": "tmp/ba129-spin-invariant-algebra/nomura2017-v2-p01-text.txt",
+      "size_bytes": 7857,
+      "sha256": "9037f4e3e61818979bc3634f43941a84b8d1cec888e9fb4911a28d1614ea90d2"
+    },
+    {
+      "path": "tmp/ba129-spin-invariant-algebra/nomura2017-v2-p11-text.txt",
+      "size_bytes": 6994,
+      "sha256": "34f6f34a4cba69aa6652e419eadc9d3a87d659d6accc7f9f94316996dab643f9"
+    },
+    {
+      "path": "tmp/ba129-spin-invariant-algebra/nomura2017-v2-p11.png",
+      "size_bytes": 325983,
+      "sha256": "499203ba4e27937006536b3fccfb51981122bd0af87204bf9d0506af6a6d243e"
+    }
+  ],
+  "write_scope": [
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-algebra/",
+    "tmp/ba129-spin-invariant-algebra/"
+  ],
+  "stop_reason": "Focused source/algebra/control audit completed. Figure reconstruction and literature novelty evaluation remain outside this task.",
+  "interpretation_revised_at_utc": "2026-11-05T18:44:23.873592+00:00",
+  "interpretation_scope": {
+    "proxy_rotational_invariance": true,
+    "closed_RME_loop_state_phase_invariance": true,
+    "projected_scalar_expectation_modulus_is_generally_nonlinear": true,
+    "equivalence_to_standard_charge_tensor_polynomial_moments_at_general_J": false,
+    "effective_definitions_declared_wrong": false,
+    "fixed_J_strength_redistribution_can_be_physical": true,
+    "spectator_geometry_claim_scope": "fixed core, core-only operator, varying spectator j; not actual isotope redistribution",
+    "published_implementation_error_or_novelty_claim": false
+  }
+}

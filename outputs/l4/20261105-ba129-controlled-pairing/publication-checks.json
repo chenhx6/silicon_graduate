@@ -1,0 +1,68 @@
+{
+  "recorded_at_utc": "2026-11-06T06:50:23.680739+00:00",
+  "status": "passed_at_declared_scope",
+  "unit_tests": {
+    "IBFM": 25,
+    "quadrupole_scalar": 28,
+    "paired_Nambu_separate_workstream": 19,
+    "total": 72,
+    "basis": "Actual parent unittest execution; module contents unchanged afterward."
+  },
+  "portable_replays": [
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/portable-calibrated-operator-verification.json",
+      "sha256": "65d2f8004e718f0a6f857c524ae19d2017c74aee5e996e63f420655df57f2f7a",
+      "status": "passed"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/portable-coupling-verification.json",
+      "sha256": "7cba723d680a1599ff984d40792de29f2d3499ac05497711117593a83fdb7c35",
+      "status": "passed"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/portable-moment-match-verification.json",
+      "sha256": "6c865ae71c2c7356ed92bf4a7a05d7f69c07bd9822a33bdb468ff053283cf90d",
+      "status": "passed"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/portable-operator-verification.json",
+      "sha256": "766636d948561940841aef86942f918771df01b11ad7301683d1a0917b961be2",
+      "status": "passed"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/portable-quadrupole-path-verification.json",
+      "sha256": "8d6fc36116bbe8312a1ddacb5b17012da77b8a49f5567f0b80a4675eb35b705e",
+      "status": "passed"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/portable-verification.json",
+      "sha256": "397bdc29d11119063eb9fe4352c440cfb876bb6f9ccc9e26f64a07e64a1dfb37",
+      "status": "passed"
+    }
+  ],
+  "wiki_lint_summary": "SUMMARY pages=1381 wikilinks=12719 hashes=478 errors=0 warnings=371 info=5374",
+  "archive_gate": {
+    "ok": true,
+    "failure_count": 0
+  },
+  "automation_preflight_ok": true,
+  "latex": {
+    "pages": 10,
+    "overfull_boxes": 0,
+    "undefined_references": false,
+    "main_figure_annotation_min_pt": 8.428874969482422
+  },
+  "scientific_boundary": "Finite-model contribution with explicit calibration dependence, incomplete empirical E2 network and unreplayed source-author EM figures. No full-library-reading completion or journal acceptance claim.",
+  "final_check_recorded_at_utc": "2026-11-06T07:36:14.238839+00:00",
+  "staged_whitespace_check_exit": 0,
+  "frozen_data_staged_byte_hashes": {
+    "count": 45,
+    "all_match": true
+  },
+  "template_normalization": {
+    "pages": 10,
+    "all_page_text_identical": true,
+    "all_page_pixels_identical": true,
+    "new_BibTeX_output_forced": true
+  }
+}

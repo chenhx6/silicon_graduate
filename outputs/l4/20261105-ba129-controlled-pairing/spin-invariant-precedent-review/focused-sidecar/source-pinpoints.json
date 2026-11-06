@@ -1,0 +1,55 @@
+{
+  "recorded_at_actual_utc": "2026-11-06T03:37:32.101086+00:00",
+  "sources": [
+    {
+      "id": "N16",
+      "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/nomura2016-arxiv1610-00469.pdf",
+      "sha256": "817ed7f1fcfe43861bff8fe96929eb22536a0dd1833cfcefc08675585edf711f",
+      "size": 1917145,
+      "pdf_pages": 15,
+      "literal_excerpt": "depends on whether a band exhibits a weak-coupling or strong-coupling systematics.",
+      "excerpt_pdf_page_one_based": 10,
+      "locators": "PDF p.9 Eq.(8); p.10 paragraph below Fig.9; p.11 Fig.10(a-d), caption.",
+      "actual_read_scope": "Definition and discussion of five-state DeltaJ=1/2 indicators in odd Eu/Sm; Fig.10 visually checked."
+    },
+    {
+      "id": "R25",
+      "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/rouoof2025-e2-matrix-elements.pdf",
+      "sha256": "58cd93b84996ece2564c3da472f30e64c7403d5e15592bebb7e28459f41a447e",
+      "size": 638366,
+      "pdf_pages": 24,
+      "literal_excerpt": "only those TPSM matrix elements",
+      "excerpt_pdf_page_one_based": 13,
+      "locators": "PDF pp.12-13 Sec.IV C; p.13 first paragraph below Fig.13; p.16 conclusion item 2.",
+      "actual_read_scope": "Larger four-band network versus experimentally covered subset; smaller dispersion with restricted network."
+    },
+    {
+      "id": "L25",
+      "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/focused-sidecar/lawrie-orce2025-simple-ratios-publisher.pdf",
+      "sha256": "683ad9af035a6d7860a5beaffc0f5d395d34963916be08907df437803c644305",
+      "size": 1042784,
+      "pdf_pages": 9,
+      "literal_excerpt": "as an empirically established dependence.",
+      "excerpt_pdf_page_one_based": 3,
+      "locators": "Publisher pp.2-3 Eqs.(5)-(13), Fig.1; pp.4-5 Eqs.(14)-(15), Fig.3; Table1 pp.7-9.",
+      "actual_read_scope": "Main text read; p.3 visually checked. No reanalysis of the tabulated experimental data."
+    },
+    {
+      "id": "F26",
+      "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/focused-sidecar/frauendorf2026-systematic-tpsm-2609.10431v1.pdf",
+      "sha256": "6e1b9034a069db91c888369e616c5740bdf0352390df8be1f57c2724c72c853e",
+      "size": 1004796,
+      "pdf_pages": 6,
+      "literal_excerpt": "The apparent contradiction reveals a limitation of the CM.",
+      "excerpt_pdf_page_one_based": 5,
+      "locators": "PDF pp.4-5 Sec.4, Eqs.(10)-(14), Figs.7-10; p.6 Refs.8-10.",
+      "actual_read_scope": "Six-page preprint read; p.4 visually checked. References and figure provenance identify reuse of TPSM studies."
+    }
+  ],
+  "new_source_metadata": {
+    "F26": "arXiv2609.10431v1, submitted 2026-09-09 16:43:36 UTC; journal publication not established here.",
+    "L25": "Lawrie and Orce, ADND164 (June 2025) 101730; publisher PDF online 2025-04-25; CC BY-NC-ND4.0."
+  },
+  "dependence": "F26 cites R25 as Ref.9, earlier 104Ru work as Ref.8 and the follow-up as Ref.10; do not count repeated figures as independent evidence.",
+  "unreconciled_source_difference": "F26 p.5 calls the Os cases gamma rigid; R25 p.16 item3 describes moderate gamma softness. No reconciliation or validation of either classification was performed."
+}

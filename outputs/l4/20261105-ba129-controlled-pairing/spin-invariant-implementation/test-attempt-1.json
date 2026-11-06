@@ -1,0 +1,108 @@
+{
+  "tests_run": 28,
+  "failures": 0,
+  "errors": 1,
+  "skips": 0,
+  "elapsed_seconds": 0.35664226999506354,
+  "actual_checked_at": "2026-11-05T18:30:15.429329+00:00",
+  "protected_inputs_unchanged": true,
+  "observations": {
+    "synthetic_IBFM_adapter": [
+      {
+        "NB": 1,
+        "dimension": 72,
+        "q2": 6.046406730988677,
+        "q3": 7.468543994872745,
+        "closure_error": 3.3217872896784684e-13
+      },
+      {
+        "NB": 2,
+        "dimension": 252,
+        "q2": 13.705125081664974,
+        "q3": 21.784732917251958,
+        "closure_error": 4.0039083160081645e-12
+      }
+    ],
+    "O6_ground_state": [
+      {
+        "NB": 1,
+        "q2": 5.0,
+        "q3": -0.0
+      },
+      {
+        "NB": 2,
+        "q2": 11.999999999999996,
+        "q3": -0.0
+      }
+    ],
+    "spectator_NB1_NB2": [
+      {
+        "NB": 1,
+        "core_q2": 8.450000000000001,
+        "core_q3": 12.330631918113525,
+        "max_abs_error": 0.0
+      },
+      {
+        "NB": 2,
+        "core_q2": 19.155722568143823,
+        "core_q3": 35.96162782714592,
+        "max_abs_error": 0.0
+      }
+    ],
+    "axial_controls": [
+      {
+        "two_K": 0,
+        "Q0": 1.0,
+        "M_count": 1,
+        "max_abs_error": 3.3306690738754696e-16
+      },
+      {
+        "two_K": 0,
+        "Q0": -1.7,
+        "M_count": 1,
+        "max_abs_error": 0.0
+      },
+      {
+        "two_K": 1,
+        "Q0": 1.0,
+        "M_count": 2,
+        "max_abs_error": 4.440892098500626e-16
+      },
+      {
+        "two_K": 1,
+        "Q0": -1.7,
+        "M_count": 2,
+        "max_abs_error": 1.7763568394002505e-15
+      },
+      {
+        "two_K": 11,
+        "Q0": 1.0,
+        "M_count": 12,
+        "max_abs_error": 3.3306690738754696e-16
+      },
+      {
+        "two_K": 11,
+        "Q0": -1.7,
+        "M_count": 12,
+        "max_abs_error": 1.7763568394002505e-15
+      },
+      {
+        "two_K": 13,
+        "Q0": 1.0,
+        "M_count": 14,
+        "max_abs_error": 2.220446049250313e-16
+      },
+      {
+        "two_K": 13,
+        "Q0": -1.7,
+        "M_count": 14,
+        "max_abs_error": 1.7763568394002505e-15
+      }
+    ],
+    "sixj_magnetic_sum": {
+      "cases": 53,
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    "general_reduced_vs_direct_max_abs_error": 4.440892098500626e-16
+  }
+}

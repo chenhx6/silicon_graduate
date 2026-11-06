@@ -3,11 +3,11 @@ type: source
 title: "Walter Greiner & Joachim A. Maruhn 1996 - Nuclear Models"
 aliases: [Greiner1996, Greiner Nuclear Models, 格莱纳核模型]
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-06
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: deep-read
+reading_depth: skimmed
 title_original: "Nuclear Models"
 authors: [Walter Greiner, Joachim A. Maruhn]
 publisher: "Springer-Verlag Berlin Heidelberg"
@@ -49,11 +49,16 @@ tags: [triaxiality, collective-hamiltonian, triaxial-rotor, e2-branching-ratios,
   - $2_2^+$ 对应反常非对称转动激发的 $2_\gamma^+$ 态。
   两态能量比随 $\gamma$ 的演化为：
   $$\frac{E(2_2^+)}{E(2_1^+)} = \frac{1 + \sqrt{1 - \frac{8}{9}\sin^2(3\gamma)}}{1 - \sqrt{1 - \frac{8}{9}\sin^2(3\gamma)}}$$
-  当 $\gamma \to 0^\circ$ 时，比值趋于无穷大（$\gamma$ 带无限抬升）；当 $\gamma = 30^\circ$ 时，比值降为极小值 $2.0$！这是利用低激发能级比值直接提取原子核三轴非对称角 $\gamma$ 的最经典经验判据。
+  当 $\gamma \to 0^\circ$ 时，该理想化模型的第二个2+态趋于高能；当 $\gamma = 30^\circ$ 时，比值降为2。由此反演的是所选惯量和态对应下的模型坐标，还需检验其它能级与算符。
 - **减缩四极跃迁几率比值（$B(E2)$ 检验）**：
-  Davydov-Filipov 模型严格预言了 $2_2^+ \to 0_1^+$ 与 $2_2^+ \to 2_1^+$ 的跃迁分支比仅取决于形变角 $\gamma$：
-  $$\frac{B(E2; 2_2^+ \to 0_1^+)}{B(E2; 2_2^+ \to 2_1^+)} = \frac{20}{7} \frac{\sin^2(3\gamma)}{9 - 8\sin^2(3\gamma)}$$
-  为实验检验原子核是“三轴刚性（Triaxial Rigid）”还是“$\gamma$ 软核（$\gamma$-soft）”提供了基准解析标尺。
+  在irrotational惯量与同一γ的集体E2张量下，令
+  \(s=\sin^2(3\gamma),\,d=9-8s\)，本任务独立D₂/CG推导得到
+  $$\frac{B(E2;2_2^+\to0_1^+)}{B(E2;2_2^+\to2_1^+)}
+  =\frac7{20}\frac{d-(3-2s)\sqrt d}{s}.$$
+  轴对称极限为7/10，γ=30°时为0。旧的\((20/7)s/d\)式撤回。
+  这是本任务的条件计算，不是将该式冒称为原书§6.4.3的逐字公式；
+  该节实际给出基底与能谱。推导、独立核查及130Ba反例见
+  [[ba129-core-and-pairing-validity]]。
 
 
 ## Bibliographic Record
@@ -63,7 +68,12 @@ tags: [triaxiality, collective-hamiltonian, triaxial-rotor, e2-branching-ratios,
 
 ## Scope and Reading Depth
 
-覆盖全书核心章节与关键推导，结合在束谱学需求进行深度研学。
+历史摘要涉及多个章节，其覆盖不能当作全书逐页核验凭据。
+2026-11-05定向回读printed pp.145–150（PDF164–169），核对§6.4.3、
+三态迹恒等式及转动振动模型的引入。未在本轮复核全书其它内容。
+所持版本Exercise6.6(3)–(4)、p.147的非对角项比其归一化D₂基所给值大
+\(2\sqrt2\)；Eq.6.174的迹关系仍正确。该排印/推导相容性问题已经独立复算，
+没有宣称找到外部勘误或以此否定整本书。
 
 
 ## Summary
@@ -75,7 +85,8 @@ tags: [triaxiality, collective-hamiltonian, triaxial-rotor, e2-branching-ratios,
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| SRC-1 | 本专著提供了自洽的核理论与实验分析基准。 | model-result | direct | Ch. 1 | false |
+| SRC-1 | 对三个固定惯量的D₂转子，E(2_1)+E(2_2)=E(3_1)为模型恒等式；不是γ刚性的实验充分判据。 | model-identity | direct-original-plus-matrix-check | printed145–146，Eqs6.169–6.174 | true |
+| SRC-2 | 所持p.147 Exercise6.6(3)–(4)的非对角项与归一化D₂基/笛卡尔哈密顿量不相容；不能拿该单独矩阵项替代独立算符核验。 | source-consistency-audit | direct-original-plus-independent-derivation | printed147，Exercise6.6；本轮core-review | true |
 
 
 ## Competing Interpretations and Limitations

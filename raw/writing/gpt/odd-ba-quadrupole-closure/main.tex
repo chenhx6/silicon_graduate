@@ -1,0 +1,303 @@
+\documentclass[pdflatex,iicol,sn-mathphys-num]{sn-jnl}
+\usepackage{graphicx,amsmath,amssymb,booktabs}
+\raggedbottom
+\newcommand{\qmom}{\bar{\gamma}_{\rm mom}}
+\newcommand{\gproxy}{\gamma_{\rm sel}}
+\newcommand{\eb}{e\,{\rm b}}
+\begin{document}
+
+\title[Quadrupole diagnostics in odd Ba]{Spin-channel redistribution in quadrupole shape diagnostics of odd barium}
+\author{\fnm{Author information} \sur{pending}}
+\affil{\orgname{Research draft; author and affiliation details to be supplied}}
+
+\abstract{A quadrupole diagnostic restricted to one intermediate-spin channel can converge before it accounts for the charge collectivity of an odd nucleus. We quantify this distinction for the lowest $11/2^-$ states of $^{129-137}$Ba in an explicitly specified interacting boson--fermion model. For the primary electric-quadrupole operator, five states exhaust more than $99.5\%$ of the selected-channel quadratic strength, but contribute only $20.0$--$28.9\%$ of the complete moment. A controlled quadrupole-coupling path in $^{135}$Ba changes total quadratic strength by less than $2.6\%$ while increasing the static fraction from $0.0091\%$ to $33.69\%$. Changes of selected cubic paths and their normalization drive the restricted arccos argument above unity, while other spin sectors largely cancel in the complete moment. Conditional calibrations to other states can improve the $^{135}$Ba static moment in some branches, but can also put the complete cubic ratio outside the real-angle domain. Angular recoupling can therefore strongly change a converged selected-channel diagnostic at nearly fixed quadratic strength; neither convergence nor a static-moment calibration guarantees an intrinsic-shape interpretation.}
+\keywords{quadrupole invariants, odd-mass nuclei, interacting boson--fermion model, barium isotopes}
+\maketitle
+
+\section{Introduction}\label{sec:intro}
+
+Electric-quadrupole matrix elements connect nuclear spectroscopy to collective shape. Their scalar products describe charge distributions without choosing a laboratory orientation, and their relation to deformation has long been developed in the quadrupole-invariant formalism \cite{Cline1986}. In practice, only a restricted matrix-element network may be available. The quality of a deformation estimate then depends on which matrix elements are retained as well as how accurately they are known. Approximations using a few observables and the convergence of finite sums have been examined in rotor, interacting-boson and shell-model calculations \cite{Werner2005,Henderson2020}.
+
+This distinction is particularly relevant to odd nuclei. A rank-two tensor acting on a state with spin $J$ connects several intermediate spins, and particle--core coupling can redistribute strength among them. Nomura and collaborators already showed that indicators based on different $\Delta J$ selections can evolve differently in odd-mass Eu and Sm \cite{Nomura2016}. For the $\gamma$-soft region near $A=130$, their interacting boson--fermion model (IBFM) study used effective quadrupole coordinates constructed from the lowest five $J+2$ states \cite{Nomura2017}. Such a selection defines legitimate rotational scalars. Its convergence, however, does not establish equivalence to the complete charge-polynomial moments.
+
+We address the quantitative consequence of this distinction at fixed initial spin in the odd Ba chain. We use one declared IBFM family and compare complete and restricted quantities on exactly the same states, with the same electric-quadrupole operator. Fixing $J=11/2$ removes changing initial-spin factors from the isotope comparison. Resolving quadratic strength and signed cubic contributions by intermediate spin then distinguishes an actual change of total charge collectivity from redistribution of the matrix-element network. This is an independent model study using published Hamiltonian parameters; it is not a reproduction or correction of published electromagnetic-invariant figures.
+
+\section{Model and quadrupole diagnostics}\label{sec:method}
+
+\subsection{Fixed Hamiltonians and calibrated charge operator}
+
+We couple one $h_{11/2}$ neutron quasiparticle to an $s,d$ boson core. The boson Hamiltonian is
+\begin{align}
+H_B&=\epsilon_d n_d+\kappa Q_\chi\cdot Q_\chi,\\
+Q_\chi&=s^\dagger\widetilde d+d^\dagger s
+       +\chi[d^\dagger\times\widetilde d]^{(2)}.
+\end{align}
+The ordinary product $Q_\chi\cdot Q_\chi$ includes its one-body contractions. The boson--fermion interaction contains the quadrupole, normal-ordered exchange and monopole terms of Ref.~\cite{Nomura2017}, restricted to the single $j=11/2$ shell. With the Condon--Shortley convention,
+\begin{align}
+\gamma_{jj}&=(1-2v^2)Q_{jj},&
+\beta_{jj}&=2\sqrt{v^2(1-v^2)}Q_{jj},\\
+\Gamma_{jj}&=\Gamma_0\gamma_{jj},&
+\Lambda_{jj}^{j}&=-2\Lambda_0
+             \sqrt{\frac{5}{2j+1}}\beta_{jj}^{\,2}.
+\end{align}
+Here $Q_{jj}=\langle h_{11/2}\Vert Y_2\Vert h_{11/2}\rangle
+=-\sqrt{525/(143\pi)}$ is an angular matrix element; no extra radial factor is inserted. The scalar monopole term is $A_0n_d$ for one fermion. The single-shell fermion energy supplies only a common offset.
+
+Table~\ref{tab:inputs} gives the fixed parameters from Tables I, III and V of Ref.~\cite{Nomura2017}. We associate each odd isotope with its $A-1$ core and use $N_B=8,7,6,5,4$. This assignment follows the stated core chain and conventional proton-particle/neutron-hole pair counting. The original author input cards are unavailable, so it remains a declared reconstruction.
+
+\begin{table*}[t]
+\caption{Fixed Hamiltonian inputs and the positive boson charge used in the primary calculation. Energy parameters are in MeV and $e_B$ in $e\,{\rm b}$. The occupation $v^2$ is a supplied mean-field probability, not a measured spectroscopic factor. No parameters were fitted to the complete--restricted differences.}\label{tab:inputs}
+\centering
+\begin{tabular}{ccccrrrrrrr}
+\toprule
+Odd Ba & Core Ba & $N_B$ & $v^2$ & $\epsilon_d$ & $\kappa$ & $\chi$ & $\Gamma_0$ & $\Lambda_0$ & $A_0$ & $e_B$\\
+\midrule
+129&128&8&0.453&0.03&$-0.102$&$-0.18$&0.6&2.1&$-0.15$&0.132680\\
+131&130&7&0.568&0.06&$-0.116$&$-0.18$&0.6&2.1&$-0.23$&0.133741\\
+133&132&6&0.687&0.13&$-0.122$&$-0.18$&0.6&0.9&0&0.127686\\
+135&134&5&0.810&0.38&$-0.124$&$-0.24$&0.6&1.0&$-0.90$&0.129842\\
+137&136&4&0.936&1.15&$-0.122$&$-0.85$&0.4&5.0&$-0.60$&0.125640\\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+The primary electric-quadrupole tensor is
+\begin{equation}
+T(E2)=e_BQ_{\chi'}-\frac{e_F(1-2v^2)Q_{jj}}{\sqrt5}
+[a^\dagger\times\widetilde a]^{(2)},\label{eq:e2}
+\end{equation}
+with $\chi'=0.35$ and $e_F=0.125\,e\,{\rm b}$, as specified in Ref.~\cite{Nomura2017}. Each $e_B$ is calibrated to one evaluated first-$2^+$ core strength \cite{ENSDF}. The downward $B(E2;2_1^+\to0_1^+)$ values for $^{128,130,132,134,136}$Ba are respectively $0.276525$, $0.2326$, $0.1720$, $0.1358$ and $0.0814\,e^2{\rm b}^2$. The solver uses the upward values, five times larger. For $^{128}$Ba, the selected value is derived from $T_{1/2}=105(9)$ ps, $E_\gamma=284.10$ keV and total conversion coefficient $0.0539$, using
+$\lambda_\gamma=1.2239\times10^{13}E_\gamma^5B(E2)$ with MeV and $e^2{\rm b}^2$ units. The other selections are evaluated absolute Coulomb-excitation strengths. Evaluation versions, alternatives, source locators and uncertainty dependencies are supplied with the data.
+
+The lowest $11/2^-$ state is selected in each complete fixed-$M=1/2$ block. A core-only control sets $e_F=0$ without changing the state or $e_B$. This distinguishes operator effects from a change of wavefunction.
+
+\subsection{Complete and selected-channel moments}
+
+Write $R_{fi}=\langle J_f\alpha_f\Vert T(E2)\Vert J_i\alpha_i\rangle$ and use
+\begin{equation}
+\langle J_fM_f|T_{2\mu}|J_iM_i\rangle
+=\frac{C(J_iM_i,2\mu\mid J_fM_f)}{\sqrt{2J_f+1}}R_{fi}.
+\end{equation}
+The complete quadratic and signed cubic moments are
+\begin{align}
+q_2&=\langle T\cdot T\rangle
+=\frac{1}{2J+1}\sum_a|R_{ai}|^2,\label{eq:q2}\\
+q_3&=-\sqrt{\frac72}\langle[T\times T]^{(2)}\cdot T\rangle\nonumber\\
+&=-\frac{(-1)^{2J}}{2J+1}\sqrt{\frac{35}{2}}
+\sum_{ab}\begin{Bmatrix}2&2&2\\J&J_a&J_b\end{Bmatrix}
+R_{ia}R_{ab}R_{bi}.\label{eq:q3}
+\end{align}
+These are standard scalar-closure relations \cite{Cline1986,Henderson2020,Bally2022}. ``Complete'' here means all contributing states within the declared finite model space. For $J=11/2$, the intermediate spins are $7/2$, $9/2$, $11/2$, $13/2$ and $15/2$. Diagonal matrix elements and transitions to other states of spin $11/2$ must both be included.
+
+Hermitian reciprocity is
+$R_{ab}=(-1)^{J_a-J_b}R_{ba}^{*}$. The order of tensor operators in
+Eq.~(\ref{eq:q3}) is retained; components need not commute.
+The full single-$j$ interaction and tensor conventions are specified in
+Appendix~\ref{app:conventions}.
+
+We report the signed ratio $r=q_3/q_2^{3/2}$. When $|r|\leq1$, the folded rigid-equivalent coordinate is $\qmom=\frac13\arccos|r|$. This conversion alone does not determine the rigidity or fluctuations of an intrinsic shape. Neither projected operators nor fluctuating charge distributions guarantee that every normalized third moment is in the real arccos domain.
+
+For comparison, we implement the selected-channel prescription of Eqs.~(12)--(15) of Ref.~\cite{Nomura2017}. With $a,b$ restricted to the lowest $n$ states of $L=J+2$, define
+\begin{align}
+S_n&=\sum_{a\in L,n}|R_{ai}|^2,&
+C_n&=\sum_{a,b\in L,n}R_{ia}R_{ab}R_{bi},\\
+z_n&=\sqrt{\frac7{10}}\frac{|C_n|}{S_n^{3/2}},&
+\gproxy(n)&=\frac13\arccos z_n.\label{eq:proxy}
+\end{align}
+The selected multiplets are ordered by excitation energy. Their projectors commute with rotations, and state phases cancel around the closed products. Thus Eq.~(\ref{eq:proxy}) remains rotationally invariant. It differs from Eq.~(\ref{eq:q3}) through the restriction, recoupling coefficients and normalization. We retain $z_n$ unchanged and leave $\gproxy$ undefined when $z_n>1$.
+
+Two fractions separate numerical saturation from coverage:
+\begin{equation}
+c_n=\frac{S_n}{S_\infty},\qquad
+f_n=\frac{S_n}{(2J+1)q_2}.
+\label{eq:fractions}
+\end{equation}
+$c_n$ measures convergence within $J+2$, whereas $f_n$ measures its contribution to the complete quadratic moment.
+
+\subsection{Numerical controls}
+
+The normalized boson occupation basis and a single fermion define the full space; only fixed-$M$ blocks are diagonalized densely. At $N_B=8$, the product space has dimension 15444 and its $M=1/2$ block has dimension 965. Degenerate energy eigenspaces are resolved with $J^2$, and the Hamiltonian, angular momentum and orthonormality residuals are checked.
+
+For every isotope and both charge operators, direct contraction of the five laboratory tensor components is compared with Eqs.~(\ref{eq:q2})--(\ref{eq:q3}). In the five primary cases, the largest absolute quadratic and cubic discrepancies are $4.6\times10^{-13}\,e^2{\rm b}^2$ and $8.5\times10^{-13}\,e^3{\rm b}^3$. Independent analytic controls include a spectator $R_{\rm core}=0\otimes j$ state, for which the core-only complete moments equal the core moments. Its $J+2$ fraction is already $(2j+5)/[5(2j+1)]=4/15$ for $j=11/2$; incomplete coverage by that channel alone is therefore not an interacting-system anomaly.
+
+For a fixed axial $K=J$ rotor with intrinsic tensor amplitude
+$\mathcal Q=T_{20}^{\rm body}$, the complete moments are
+$q_2=\mathcal Q^2$ and $q_3=\mathcal Q^3$.
+The conventional electric intrinsic quadrupole moment instead satisfies
+$\mathcal Q=\sqrt{5/(16\pi)}Q_0$.
+This control illustrates the regime dependence of Eq.~(\ref{eq:proxy}):
+at $J=11/2$ it gives $10.193^\circ$ despite axial input.
+These controls validate the definitions and implementation; they are not new
+shape theorems or empirical uncertainty estimates.
+
+\section{Results}\label{sec:results}
+
+\subsection{Channel saturation and total charge strength}
+
+Figure~\ref{fig:chain} shows that complete charge strength decreases across the chain, from $q_2=1.53187$ in $^{129}$Ba to $0.47677\,e^2{\rm b}^2$ in $^{137}$Ba. The ratio is $0.3112$. The comparatively weak evolution of the complete normalized cubic moment therefore cannot be interpreted as constant collectivity.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/charge_and_ratios-v4.pdf}
+\caption{Calculated quantities for the lowest $11/2^-$ states with the calibrated operator of Eq.~(\ref{eq:e2}). (a) Complete quadratic charge moment. (b) Complete signed cubic ratio $r$ and the selected-channel ratios $z_5$ and $z_\infty$. The shaded region marks $z>1$, where the selected angle has no real value. Curves connect discrete isotope calculations; they are not fits. No statistical error band is inferred from these deterministic model points.}\label{fig:chain}
+\end{figure*}
+
+The first five $15/2^-$ states contain $99.59$--$99.85\%$ of the quadratic strength within that spin, but only $20.00$--$28.90\%$ of complete $q_2$ (Table~\ref{tab:results}). Explicit evaluation with every $15/2^-$ state changes the cubic ratio by $|z_5-z_\infty|<0.0093$. For the small $^{129}$Ba ratio this is a $10.7\%$ deviation relative to $z_\infty$, despite an angle shift of only $0.0715^\circ$. In the four cases with a real selected angle, its change is at most $0.259^\circ$. These raw comparisons test cubic convergence directly instead of inferring it from quadratic saturation.
+
+\begin{table}[t]
+\caption{Primary model results. Fractions are defined in Eq.~(\ref{eq:fractions}); $r$ is signed and $z$ uses the absolute selected chain. Values of $z$ above unity have no real selected angle.}\label{tab:results}
+\centering
+\begin{tabular}{crrrrr}
+\toprule
+$A$ & $100c_5$ & $100f_5$ & $r$ & $z_5$ & $z_\infty$\\
+\midrule
+129&99.62&28.90&$+0.0055$&0.0389&0.0351\\
+131&99.59&27.56&$-0.0700$&0.1294&0.1334\\
+133&99.84&24.31&$-0.1447$&0.6322&0.6369\\
+135&99.85&20.00&$-0.0505$&1.0261&1.0241\\
+137&99.62&21.50&$-0.0667$&0.7290&0.7382\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The largest qualitative separation occurs in $^{135}$Ba. Its complete signed ratio is $-0.05052$, whereas $z_5=1.02611$. Including the entire selected channel yields $z_\infty=1.02414$, so its failure to define a real angle persists after within-channel completion. In the same state with only the core part of the charge operator, the five-state angle is $3.749^\circ$ and the complete folded angle is $28.561^\circ$. The fermion term changes an already near-boundary selected coordinate into an out-of-domain ratio. The central distinction is therefore visible before the domain crossing; it does not depend on interpreting the crossing as a physical instability.
+
+\subsection{Static strength and signed cubic cancellation}
+
+The quadratic decomposition in Fig.~\ref{fig:channels}(a) reveals a large change in the same-spin sector. In $^{135}$Ba, the static diagonal term carries $33.69\%$ of complete $q_2$, and transitions to other $11/2^-$ states carry another $3.74\%$. The corresponding static fractions in $^{129}$Ba and $^{131}$Ba are only $0.287\%$ and $0.264\%$. Thus the enhanced same-spin strength is primarily static in the $^{135}$Ba case, while the same-spin channel in the lighter pair is dominated by transitions to other states. A description based solely on the selected $15/2^-$ strength does not retain this redistribution.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/angular_channels-v4.pdf}
+\caption{Decomposition of complete charge moments. (a) Contributions to $q_2$ by intermediate spin. The hatched $11/2$ segment is the static matrix element; the solid segment contains other states of the same spin. (b) Signed contributions to $q_3/q_2^{3/2}$ in $^{135}$Ba, grouped by the ordered pair of intermediate spins. Both matrix orientations are retained in the total sum. Exact angular-momentum selection zeros are shown as zero; other labels are rounded for display.}\label{fig:channels}
+\end{figure*}
+
+The complete cubic moment is small because substantial positive and negative contributions cancel. For $^{135}$Ba, their spin-sector sums are $+0.29086$ and $-0.31897\,e^3{\rm b}^3$, respectively, giving $q_3=-0.02812\,e^3{\rm b}^3$. The $15/2$--$15/2$ sector alone contributes $-0.06382\,e^3{\rm b}^3$. It is opposed by the $11/2$--$11/2$ sector, $+0.12335\,e^3{\rm b}^3$, and by both $11/2$--$13/2$ sectors, whose combined contribution is $+0.11950\,e^3{\rm b}^3$. Other sectors complete the cancellation shown in Fig.~\ref{fig:channels}(b).
+
+Equation~(\ref{eq:proxy}) retains only the $15/2$--$15/2$ path, with its own normalization and coefficient. Adding more states within that path cannot recover interference with the omitted spins. The different cubic trends thus correspond to different combinations of the same matrix-element network.
+On the common denominator $q_2^{3/2}$, the selected spin sector contributes
+$-0.11467$ and all remaining sectors contribute $+0.06415$, producing
+$r=-0.05052$. This decomposition keeps the normalization fixed when comparing
+the retained and omitted paths.
+
+The operator decomposition also matters after this cancellation. In the fixed $^{135}$Ba state, the core-only cubic moment is $-0.03981\,e^3{\rm b}^3$. Terms containing one or more fermion tensors add $+0.01170\,e^3{\rm b}^3$, moving the complete value toward zero. A small fermion contribution to quadratic strength is therefore insufficient grounds to neglect it in a normalized cubic diagnostic.
+
+\input{controls.tex}
+
+\section{Interpretation and scope}\label{sec:discussion}
+
+The fixed-spin comparison separates two structural questions: how much charge-quadrupole strength a state carries, and how particle--core coupling distributes that strength and its interference paths among angular momenta. A selected-channel diagnostic can be sensitive to the second question even after the first is only partially represented. Its sensitivity is potentially useful. Selected matrix-element ratios can also give deformation estimates consistent with invariant analyses within specified low-lying even-even collective regimes \cite{LawrieOrce2025}. Applying a conversion to a mixed odd-$A$ state requires a corresponding test of its coupling regime and charge response.
+
+Prior work establishes approximations to quadrupole moments \cite{Werner2005,Henderson2020}, coupling-dependent $\Delta J$ indicators in odd nuclei \cite{Nomura2016}, and differences between deformation definitions near $A=130$ \cite{Bally2022}. Microscopic restricted-network studies also show how configuration mixing and coverage affect inferred shapes \cite{Rouoof2025}. The added result here is a fixed-operator Hamiltonian intervention: it resolves how static versus inelastic strength and signed paths change along the same sampled $11/2$ branch, with little change in complete quadratic strength. The invariant algebra and the existence of channel dependence are the starting point for this mechanism test.
+
+There are two limits to the nuclear interpretation. First, the finite $s,d\otimes h_{11/2}$ space omits configurations and does not provide complete experimental matrix-element coverage. Products of an effective tensor in that space need not reproduce the full nucleus's charge moments. Neither a complete moment angle near $30^\circ$ nor a domain crossing identifies $\gamma$ softness, rigidity or a collective mode. The calibrated-operator alternatives explicitly show why complete closure alone does not guarantee a real intrinsic-angle conversion. Second, the reconstruction does not reproduce the published invariant figures of Ref.~\cite{Nomura2017}. An unresolved difference is already present for the even-core $J=0$ case, where the spin restriction cannot explain it. Our claim concerns the specified operator and states, rather than a reinterpretation of those published curves.
+
+An observable consequence can be tested before determining the full cubic
+network. Define the static-to-first-transition ratio
+\begin{equation}
+\begin{aligned}
+R_{\rm stat}^{(1)}
+&=\frac{D_0}{B(E2;11/2_1^-\to15/2_1^-)},\\
+D_0&=\frac5{16\pi}\frac{Q_s^2}{55/91}.
+\end{aligned}
+\label{eq:staticratio}
+\end{equation}
+Here $55/91=C(11/2,11/2;2,0\mid11/2,11/2)^2$ and $D_0$ is the
+diagonal contribution to $q_2$, not a decay strength.
+The primary model predicts $R_{\rm stat}^{(1)}=2.2722$ and 1.3565 for
+$^{135,137}$Ba, respectively. For a measured reverse decay,
+$B_\uparrow=(16/12)B_\downarrow$.
+This first-state ratio differs from a sum over all $15/2$ states;
+the first state carries about $74\%$ of that model channel in $^{135}$Ba.
+An experimental test requires the corresponding level assignment, static
+moment and absolute E2 strength. Combining an experimental numerator with a
+model denominator would not produce an experimental ratio.
+Signed intermediate-state matrix elements would still be needed to test the
+cubic cancellation itself.
+
+The checked experimental records do not yet supply the required absolute
+ratio. In $^{135}$Ba, a candidate $(15/2^-)$ level at 950.5 keV feeds the
+268.218-keV isomer through a 682.3-keV quadrupole transition, but the adopted
+and high-spin reaction datasets examined here provide no parent lifetime.
+For $^{137}$Ba, the later experiment of Vogt \emph{et al.}
+\cite{Vogt2017PRC95_024316} identifies a tentative $(15/2^-)$ state at
+2229.8 keV, connected to the 661.7-keV isomer by a 1568.2-keV transition.
+Its reported 589(20)-ns half-life belongs to the upper 2349.9-keV
+$(19/2^-)$ state, and the corresponding $0.46(3)$ W.u.\ E2 strength is
+for the 120.1-keV $19/2\to15/2$ transition. Neither supplies the
+$15/2\to11/2$ denominator of Eq.~(\ref{eq:staticratio}).
+These are limits of the specified source set, not a claim that no further
+measurement exists. The tentative assignments are retained.
+
+\section{Conclusions}\label{sec:conclusion}
+
+In a calibrated, fixed-parameter IBFM description of odd Ba, near-complete saturation of the $J+2$ quadratic strength coexists with incomplete coverage of total charge strength and a markedly different cubic diagnostic. The controlled $^{135}$Ba path identifies how quadrupole coupling redistributes static strength and changes selected-channel interference while total quadratic strength varies little. The primary operator's static-moment overprediction and the conditional calibration alternatives limit an intrinsic-shape interpretation. Reporting raw moments, selected-channel coverage and signed network contributions alongside convergence in the number of states preserves the structural information and the limits that a single converted angle can conceal.
+
+\clearpage
+\appendix
+\section{Single-shell interaction and tensor ordering}\label{app:conventions}
+
+With $F^{(k)}=[a_j^\dagger\times\widetilde a_j]^{(k)}$, the interaction
+used in all calculations is
+\begin{equation}
+\begin{aligned}
+H_{BF}={}&\Gamma_{jj} Q_\chi\cdot F^{(2)}
++\Lambda_{jj}^{j} X\\
+&-A_0\sqrt{2j+1}\,n_dF^{(0)},\\
+X={}&:\!\left[[d^\dagger\times\widetilde a_j]^{(j)}
+\times[a_j^\dagger\times\widetilde d]^{(j)}\right]^{(0)}\!:\, .
+\end{aligned}
+\end{equation}
+The tilde conventions are
+$\widetilde a_{jm}=(-1)^{j-m}a_{j,-m}$ and
+$\widetilde d_\mu=(-1)^{2-\mu}d_{-\mu}$.
+The exchange term is explicitly normal ordered, retaining the fermion
+interchange sign and omitting contractions.
+Since $F^{(0)}=-1/\sqrt{2j+1}$ in the one-fermion space, the last term is
+$A_0n_d$. Changing it in a control therefore changes the odd-system
+$n_d$ coefficient, even when the bare even-core Hamiltonian is fixed.
+
+Scalar and coupled products follow
+\begin{align}
+A^{(k)}\cdot B^{(k)}&=\sum_\mu(-1)^\mu A_\mu B_{-\mu},\\
+[T\times T]^{(2)}_\nu&=\sum_{\mu\eta}
+C(2\mu,2\eta\mid2\nu)T_\mu T_\eta .
+\end{align}
+Operator order and a common eigenvector phase convention are preserved.
+No state-independent magnitudes are substituted for signed closed products.
+
+\section{Static-moment matching along the coupling path}\label{app:momentmatch}
+
+Along the fixed-operator path of Fig.~\ref{fig:path}, matching the preselected
+$^{135}$Ba values $Q_s=0.88,0.96,1.04\,e\,{\rm b}$ gives
+$\Gamma_0=0.33378,0.37929,0.43683$ MeV.
+The roots were fixed using only signed static moments before evaluating
+the new scalar diagnostics. The complete folded angles are
+$28.050^\circ,28.240^\circ,28.473^\circ$, whereas the selected-all angles
+are $14.520^\circ,12.371^\circ,9.647^\circ$.
+The separation remains $13.53^\circ$--$18.83^\circ$, with both angles real.
+All four points, including the separately retained paper-quoted
+$Q_s=0.98\,e\,{\rm b}$ alternative, pass direct/reduced closure and
+bidirectional matching to the neighboring sampled states.
+
+This is conditional calibration, not an independent validation or a
+simultaneous spectroscopic fit. The central match moves the calculated
+$15/2_1^--11/2_1^-$ spacing from 691.9 to 526.6 keV, while the tentative
+experimental connection is 682.3 keV. For the central $Q_s=0.96\,e\,{\rm b}$
+match, the largest absolute change in the first two
+states of each spin from $7/2$ to $19/2$, referenced to the corresponding
+lowest $11/2$ state, is 0.3684 MeV.
+Across all four matched points, that maximum is 0.4322 MeV, at the
+$Q_s=0.88\,e\,{\rm b}$ target.
+The static moment has been consumed as a calibration input and its
+agreement cannot be counted again as independent evidence.
+
+\backmatter
+\bmhead{Data and code availability}
+The accompanying \texttt{data/} directory contains the selected evaluated core strengths with provenance, fixed Hamiltonian inputs, calculated scalar decompositions and Python code. The code requires NumPy and SciPy; figure scripts also use Matplotlib. No private experimental data or publisher full-text files are included. A permanent public repository identifier has not yet been assigned.
+
+\bmhead{AI assistance and draft status}
+AI assistance was used for literature retrieval, source comparison, algebraic and numerical implementation, verification and manuscript drafting. The calculations and source records are supplied for inspection. Human author information, contributions and final accountability statements remain to be provided; this manuscript has not been submitted.
+
+\bibliography{references}
+\end{document}

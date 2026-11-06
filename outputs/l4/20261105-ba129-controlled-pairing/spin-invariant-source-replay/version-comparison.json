@@ -1,0 +1,422 @@
+{
+  "review_date_declared": "2026-11-06",
+  "container_observed_utc": "2026-11-05T18:37:27.503005+00:00",
+  "scope": "Source-only arXiv v1/v2 comparison; no kernel/case/probe read.",
+  "pymupdf_version": "1.28.2",
+  "arxiv_submitted_utc": {
+    "v1": "2017-04-24T09:13:22+00:00",
+    "v2": "2017-07-08T04:43:46+00:00"
+  },
+  "journal_identity": {
+    "doi": "10.1103/PhysRevC.96.014304",
+    "year": 2017,
+    "volume": "96",
+    "article": "014304",
+    "publisher_deposited_publication_date": "2017-07-07",
+    "date_source": "archived Crossref metadata"
+  },
+  "archives": [
+    {
+      "version": "v1",
+      "path": "raw/papers/gpt/query/20261106-nomura-invariant-version-audit/nomura2017-v1-source.tar.gz",
+      "sha256": "4c018fac3e73402df11a3b57430d5f9f4407d37f06f8fd83f8095748cb864a59",
+      "manuscript_member": "v2.tex",
+      "manuscript_sha256": "9706703281d8d7fc09440a3f74062f7e95c1c55b4d7bea3f41154b0b034f174b"
+    },
+    {
+      "version": "v2",
+      "path": "raw/papers/gpt/query/20261105-nomura2017-input-audit/nomura2017-v2-source.tar.gz",
+      "sha256": "f7ed6dc746f50f16169d8796e4d12becd8827eaf4ac2ee4d5f1ff9cd04690faf",
+      "manuscript_member": "v4.tex",
+      "manuscript_sha256": "f79b87a4d88539e8a4e4453a2e61272a9f5e108d165a5fd5a3ab4b17b5c5b868"
+    }
+  ],
+  "pdfs": [
+    {
+      "arxiv_version": "v1",
+      "path": "raw/papers/gpt/query/20261106-nomura-invariant-version-audit/nomura2017-v1.pdf",
+      "sha256": "b7662bdd1d24c66ae9d0b81e95746c150dae1d51ec5c22cb9f5b8e9505062d2d",
+      "pages": 12,
+      "dated_string": "September 10, 2022",
+      "metadata": {
+        "format": "PDF 1.5",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "LaTeX with hyperref package",
+        "producer": "pdfTeX-1.40.17",
+        "creationDate": "D:20220910183818Z",
+        "modDate": "D:20220910183818Z",
+        "trapped": "",
+        "encryption": null
+      }
+    },
+    {
+      "arxiv_version": "v2",
+      "path": "raw/papers/2017_Nomura et al_Shape-phase transitions in odd-mass γ -soft nuclei with mass A ≈ 130.pdf",
+      "sha256": "481e6a9e0f6b01e9c5db5e2b06d9b350dba0638393c7da7f532c3040e9efaea9",
+      "pages": 13,
+      "dated_string": "November 21, 2021",
+      "metadata": {
+        "format": "PDF 1.5",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "LaTeX with hyperref package",
+        "producer": "pdfTeX-1.40.17",
+        "creationDate": "D:20211121104452Z",
+        "modDate": "D:20211121104452Z",
+        "trapped": "",
+        "encryption": null
+      }
+    }
+  ],
+  "both_tex_date_commands": "\\date{\\today}",
+  "date_interpretation": "2022 and 2021 Dated strings match PDF regeneration metadata; arXiv version submission and journal publication remain 2017.",
+  "equation_and_parameter_blocks": [
+    {
+      "name": "total_E2_decomposition",
+      "v1": {
+        "line_start": 537,
+        "line_end": 538,
+        "exact_sha256": "a17edc708fb05cb5e48eb65a0facf25f8ee400d2766d69d894598006aff77074",
+        "whitespace_and_comment_normalized_sha256": "7845cd37c3eaab3df4885df71d014eb867bf635336e6121f1046ffa64d05154f"
+      },
+      "v2": {
+        "line_start": 552,
+        "line_end": 553,
+        "exact_sha256": "a17edc708fb05cb5e48eb65a0facf25f8ee400d2766d69d894598006aff77074",
+        "whitespace_and_comment_normalized_sha256": "7845cd37c3eaab3df4885df71d014eb867bf635336e6121f1046ffa64d05154f"
+      },
+      "exact_equal": true,
+      "normalized_equal": true
+    },
+    {
+      "name": "Eq7_boson_E2",
+      "v1": {
+        "line_start": 540,
+        "line_end": 542,
+        "exact_sha256": "9911748c2587ee216a406c0e8e611dd87fed2bd631e18651baf989e0b4d10fa8",
+        "whitespace_and_comment_normalized_sha256": "91275708837bd75edfa00deb6da9502a7e0dd72310ed2b422543513618c37651"
+      },
+      "v2": {
+        "line_start": 555,
+        "line_end": 557,
+        "exact_sha256": "9911748c2587ee216a406c0e8e611dd87fed2bd631e18651baf989e0b4d10fa8",
+        "whitespace_and_comment_normalized_sha256": "91275708837bd75edfa00deb6da9502a7e0dd72310ed2b422543513618c37651"
+      },
+      "exact_equal": true,
+      "normalized_equal": true
+    },
+    {
+      "name": "Eq8_fermion_E2",
+      "v1": {
+        "line_start": 544,
+        "line_end": 552,
+        "exact_sha256": "0e84a4b6b9863e17507586a9335311e1cc992ba06ba78e654047dda656ab33a4",
+        "whitespace_and_comment_normalized_sha256": "71c66f08e8dea6c14b7afd7d37407464a46273ea6fb0a8cc2aa7b73d3c1f4334"
+      },
+      "v2": {
+        "line_start": 559,
+        "line_end": 567,
+        "exact_sha256": "0e84a4b6b9863e17507586a9335311e1cc992ba06ba78e654047dda656ab33a4",
+        "whitespace_and_comment_normalized_sha256": "71c66f08e8dea6c14b7afd7d37407464a46273ea6fb0a8cc2aa7b73d3c1f4334"
+      },
+      "exact_equal": true,
+      "normalized_equal": true
+    },
+    {
+      "name": "charges_and_chi_prime",
+      "v1": {
+        "line_start": 555,
+        "line_end": 565,
+        "exact_sha256": "817b21a5ae97909ba08e8522c8e134086387cefc44fbf4142103d2cfa6e6a1ad",
+        "whitespace_and_comment_normalized_sha256": "e097fb5f426e77e729b0a29f628901c7b9a12980a6b5e0065fc73fb51040b533"
+      },
+      "v2": {
+        "line_start": 570,
+        "line_end": 580,
+        "exact_sha256": "817b21a5ae97909ba08e8522c8e134086387cefc44fbf4142103d2cfa6e6a1ad",
+        "whitespace_and_comment_normalized_sha256": "e097fb5f426e77e729b0a29f628901c7b9a12980a6b5e0065fc73fb51040b533"
+      },
+      "exact_equal": true,
+      "normalized_equal": true
+    },
+    {
+      "name": "Eq12_q2",
+      "v1": {
+        "line_start": 1234,
+        "line_end": 1236,
+        "exact_sha256": "be6cb699fac3d001435959f1b01d55d7a4279503c4072fe8b9b265b2f7336df2",
+        "whitespace_and_comment_normalized_sha256": "20c9a0a9cf6646fbf0cfd532e2eb2853de93250cb580b59624d82a7c69b394e9"
+      },
+      "v2": {
+        "line_start": 1267,
+        "line_end": 1269,
+        "exact_sha256": "be6cb699fac3d001435959f1b01d55d7a4279503c4072fe8b9b265b2f7336df2",
+        "whitespace_and_comment_normalized_sha256": "20c9a0a9cf6646fbf0cfd532e2eb2853de93250cb580b59624d82a7c69b394e9"
+      },
+      "exact_equal": true,
+      "normalized_equal": true
+    },
+    {
+      "name": "Eq13_q3",
+      "v1": {
+        "line_start": 1238,
+        "line_end": 1243,
+        "exact_sha256": "da066d3b4e1596f5479add5a9e8effe84292e274651841717f4634d2b3faa26c",
+        "whitespace_and_comment_normalized_sha256": "119aae48149045321626993a355bf59c5874b31d46ed63b84ea746390919c091"
+      },
+      "v2": {
+        "line_start": 1271,
+        "line_end": 1276,
+        "exact_sha256": "da066d3b4e1596f5479add5a9e8effe84292e274651841717f4634d2b3faa26c",
+        "whitespace_and_comment_normalized_sha256": "119aae48149045321626993a355bf59c5874b31d46ed63b84ea746390919c091"
+      },
+      "exact_equal": true,
+      "normalized_equal": true
+    },
+    {
+      "name": "Jprime_restriction",
+      "v1": {
+        "line_start": 1244,
+        "line_end": 1245,
+        "exact_sha256": "b547ae5a10ff58ee144e56b549a4ce8cf6c4d5db5eef4bbce33edd9842373a93",
+        "whitespace_and_comment_normalized_sha256": "076010ef160921ad7c3911674b2edac6766950fe4dbeca0d98ad5c4cb64f334b"
+      },
+      "v2": {
+        "line_start": 1277,
+        "line_end": 1278,
+        "exact_sha256": "b547ae5a10ff58ee144e56b549a4ce8cf6c4d5db5eef4bbce33edd9842373a93",
+        "whitespace_and_comment_normalized_sha256": "076010ef160921ad7c3911674b2edac6766950fe4dbeca0d98ad5c4cb64f334b"
+      },
+      "exact_equal": true,
+      "normalized_equal": true
+    },
+    {
+      "name": "n5",
+      "v1": {
+        "line_start": 1247,
+        "line_end": 1247,
+        "exact_sha256": "c126d7d45d0c8f657424aa09253b856995a2d930692ed5aa4518f2106095753f",
+        "whitespace_and_comment_normalized_sha256": "d08feaabe24b507e8f1349af71dc2f4d8fb2dba37582c501c7de387f83f482ec"
+      },
+      "v2": {
+        "line_start": 1280,
+        "line_end": 1280,
+        "exact_sha256": "c126d7d45d0c8f657424aa09253b856995a2d930692ed5aa4518f2106095753f",
+        "whitespace_and_comment_normalized_sha256": "d08feaabe24b507e8f1349af71dc2f4d8fb2dba37582c501c7de387f83f482ec"
+      },
+      "exact_equal": true,
+      "normalized_equal": true
+    },
+    {
+      "name": "Eq14_Eq15_beta_gamma",
+      "v1": {
+        "line_start": 1272,
+        "line_end": 1276,
+        "exact_sha256": "21001370914c402fa9a9eb31cb4dde0fb5ff8f9af3f3316812de62b672492322",
+        "whitespace_and_comment_normalized_sha256": "d49ee4cb519e54d8a60b7aca59712c02f06a75fafe742538fc635358fa5f3cdc"
+      },
+      "v2": {
+        "line_start": 1305,
+        "line_end": 1309,
+        "exact_sha256": "21001370914c402fa9a9eb31cb4dde0fb5ff8f9af3f3316812de62b672492322",
+        "whitespace_and_comment_normalized_sha256": "d49ee4cb519e54d8a60b7aca59712c02f06a75fafe742538fc635358fa5f3cdc"
+      },
+      "exact_equal": true,
+      "normalized_equal": true
+    }
+  ],
+  "figures": [
+    {
+      "member": "even.qinvar.pdf",
+      "v1_sha256": "b1bde3af4f6d7ec28983cb5c56576a52b6905585cc35851216b61526c15fb992",
+      "v2_sha256": "0665941852b4c34202bfbc5c7c1b28ac17149f53a2dd20c8afa87247388dcb23",
+      "byte_identical": false,
+      "page_rect_equal": true,
+      "drawing_geometry_equal": true,
+      "drawing_count_v1": 89,
+      "drawing_count_v2": 89,
+      "drawing_repr_sha256_v1": "a7b05e6840176ad56d1eb69a92286dda8dcc4e719ff6108e91f668f2d25f5573",
+      "drawing_repr_sha256_v2": "a7b05e6840176ad56d1eb69a92286dda8dcc4e719ff6108e91f668f2d25f5573",
+      "extracted_text_equal": false,
+      "text_equal_after_deg_period_removal": true,
+      "text_difference_description": "gamma axis unit label loses its period: (deg.) -> (deg)",
+      "v1_pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "matplotlib 1.1.1, http://matplotlib.sf.net",
+        "producer": "matplotlib pdf backend",
+        "creationDate": "D:20170406085356+02'00'",
+        "modDate": "",
+        "trapped": "",
+        "encryption": null
+      },
+      "v2_pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "matplotlib 1.1.1, http://matplotlib.sf.net",
+        "producer": "matplotlib pdf backend",
+        "creationDate": "D:20170612104704+02'00'",
+        "modDate": "",
+        "trapped": "",
+        "encryption": null
+      }
+    },
+    {
+      "member": "oddn.qinvar.pdf",
+      "v1_sha256": "0b1ec6c214021dcdf63c24f0273a7c1a03a21088cea08692e16cf81c0d311e9f",
+      "v2_sha256": "9133869676413bc163f2e945e31c2042ce4fd07ccd9f78db36f33b66860081d9",
+      "byte_identical": false,
+      "page_rect_equal": true,
+      "drawing_geometry_equal": true,
+      "drawing_count_v1": 223,
+      "drawing_count_v2": 223,
+      "drawing_repr_sha256_v1": "18456252cea25f5e79d7a3be822e3cd095eff30248d670feb76abe84aea27380",
+      "drawing_repr_sha256_v2": "18456252cea25f5e79d7a3be822e3cd095eff30248d670feb76abe84aea27380",
+      "extracted_text_equal": false,
+      "text_equal_after_deg_period_removal": true,
+      "text_difference_description": "gamma axis unit label loses its period: (deg.) -> (deg)",
+      "v1_pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "matplotlib 1.1.1, http://matplotlib.sf.net",
+        "producer": "matplotlib pdf backend",
+        "creationDate": "D:20170407093802+02'00'",
+        "modDate": "",
+        "trapped": "",
+        "encryption": null
+      },
+      "v2_pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "matplotlib 1.1.1, http://matplotlib.sf.net",
+        "producer": "matplotlib pdf backend",
+        "creationDate": "D:20170612104915+02'00'",
+        "modDate": "",
+        "trapped": "",
+        "encryption": null
+      }
+    },
+    {
+      "member": "even.level.pdf",
+      "v1_sha256": "ae54ff0a2122e33d393ad1bf96f393669d9c874de1d4f1ad5317f1a905a1f4a1",
+      "v2_sha256": "ae54ff0a2122e33d393ad1bf96f393669d9c874de1d4f1ad5317f1a905a1f4a1",
+      "byte_identical": true,
+      "page_rect_equal": true,
+      "drawing_geometry_equal": true,
+      "drawing_count_v1": 270,
+      "drawing_count_v2": 270,
+      "drawing_repr_sha256_v1": "ef5eeaef5d2310ecd9693babd5ac688a7b2f6cdfa0137339ef162e6fcaa365c3",
+      "drawing_repr_sha256_v2": "ef5eeaef5d2310ecd9693babd5ac688a7b2f6cdfa0137339ef162e6fcaa365c3",
+      "extracted_text_equal": true,
+      "text_equal_after_deg_period_removal": true,
+      "text_difference_description": "none",
+      "v1_pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "matplotlib 1.1.1, http://matplotlib.sf.net",
+        "producer": "matplotlib pdf backend",
+        "creationDate": "D:20170313122244+02'00'",
+        "modDate": "",
+        "trapped": "",
+        "encryption": null
+      },
+      "v2_pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "matplotlib 1.1.1, http://matplotlib.sf.net",
+        "producer": "matplotlib pdf backend",
+        "creationDate": "D:20170313122244+02'00'",
+        "modDate": "",
+        "trapped": "",
+        "encryption": null
+      }
+    },
+    {
+      "member": "ba.level.pdf",
+      "v1_sha256": "b6006a11da9e56b14e31f286cedfe339fda90626bba7632fd934cc78ba861ef2",
+      "v2_sha256": "b6006a11da9e56b14e31f286cedfe339fda90626bba7632fd934cc78ba861ef2",
+      "byte_identical": true,
+      "page_rect_equal": true,
+      "drawing_geometry_equal": true,
+      "drawing_count_v1": 286,
+      "drawing_count_v2": 286,
+      "drawing_repr_sha256_v1": "3d9c026550a46ab12f1848c281a684df956ac8bcae7fb8072192fe377b1a02f7",
+      "drawing_repr_sha256_v2": "3d9c026550a46ab12f1848c281a684df956ac8bcae7fb8072192fe377b1a02f7",
+      "extracted_text_equal": true,
+      "text_equal_after_deg_period_removal": true,
+      "text_difference_description": "none",
+      "v1_pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "matplotlib 1.1.1, http://matplotlib.sf.net",
+        "producer": "matplotlib pdf backend",
+        "creationDate": "D:20170315151331+02'00'",
+        "modDate": "",
+        "trapped": "",
+        "encryption": null
+      },
+      "v2_pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "matplotlib 1.1.1, http://matplotlib.sf.net",
+        "producer": "matplotlib pdf backend",
+        "creationDate": "D:20170315151331+02'00'",
+        "modDate": "",
+        "trapped": "",
+        "encryption": null
+      }
+    }
+  ],
+  "Q_dictionary": {
+    "positive_textual_evidence": "Invariants are described as calculated using E2 matrix elements; this supports the E2 reading.",
+    "explicit_Q_equals_TE2_or_QB_found": false,
+    "distinct_defined_tensors": "HB uses QB(chi); E2 uses TB(eB,chi-prime)+TF(eF).",
+    "remaining_boundary": "No producer-level Q/RME/units dictionary, invariant evaluation code, transition-matrix dump or numerical eB table in either source package.",
+    "Eq8_notation": "Both versions label the fermion expression T(E2) without a subscript F; surrounding prose explicitly identifies the fermion term.",
+    "commented_expression": "The commented generic Q RME in Eq8 is not an executable or printed definition of Q in Eqs12-15."
+  },
+  "other_diffs_inspected": [
+    "Exchange beta index jj-prime -> jj-double-prime; identical consequence in the all-indices-equal single-j restriction.",
+    "An extra g_F multiplying the fermion M1 expression is removed in v2.",
+    "Table V negative-parity monopole header becomes A-prime_(11/2); the selected numerical row is unchanged.",
+    "Invariant captions/prose are edited but no relevant E2/invariant expression or plotted geometry changes."
+  ],
+  "version_of_record_boundary": {
+    "publisher_fulltext_compared": false,
+    "aps_http_status": 403,
+    "aps_archived_response": "raw/papers/gpt/query/20261106-nomura-invariant-version-audit/aps-article-page.html",
+    "claim": "The exact checks concern arXiv v1/v2 and the held regenerated v2 PDF. Journal DOI/date metadata do not establish VOR text or figure identity."
+  },
+  "manifest_path": "raw/papers/gpt/query/20261106-nomura-invariant-version-audit/manifest.json",
+  "manifest_sha256": "4f6cbf21fa1abdf6ae41dd99bd31fde7e337302a42dbc8b3b991830fca96bd2c",
+  "runtime_seconds": 0.43529799301177263
+}

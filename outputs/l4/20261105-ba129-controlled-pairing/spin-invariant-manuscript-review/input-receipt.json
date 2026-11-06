@@ -1,0 +1,178 @@
+{
+  "schema": "bounded-independent-manuscript-review-v1",
+  "completed_at_utc": "2026-11-06T04:00:32.349463+00:00",
+  "review_date": "2026-11-06",
+  "verdict": "Credible focused EPJA finite-model contribution; targeted scientific revisions remain.",
+  "scope": "Single independent scientific assessment with earlier algebra and Noether precedent reports as supplied evidence, not a blind multi-reviewer panel.",
+  "latest_user_update_incorporated": [
+    "35 deterministic operator/calibration settings",
+    "focused contrary-precedent sidecar",
+    "Gamma-only supplemental path with three completed interior points",
+    "available signed static-moment benchmark",
+    "refreshed main abstract/conclusion and populated 78-line controls.tex"
+  ],
+  "reviewed_snapshot_sha256": {
+    "raw/writing/gpt/odd-ba-quadrupole-closure/main.tex": "8d72b717753b7bf31480d236893909bd6053afe9dd4b13dbabec89c8ada22e6a",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/controls.tex": "9d572f8b643eee9494ccf582ed92424b584525726debad418a99b4d5761cea90",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/results/calibrated-chain.json": "45d3aafb4d02b2bf54620c4fd4356178c814a2a4b1eb5b6d15caa4132985ca0a"
+  },
+  "concurrent_changes_after_reviewed_snapshot": [],
+  "input_fingerprints_at_closeout": [
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/main.tex",
+      "sha256": "8d72b717753b7bf31480d236893909bd6053afe9dd4b13dbabec89c8ada22e6a",
+      "size_bytes": 20642,
+      "line_count": 189
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/controls.tex",
+      "sha256": "9d572f8b643eee9494ccf582ed92424b584525726debad418a99b4d5761cea90",
+      "size_bytes": 5668,
+      "line_count": 78
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/references.bib",
+      "sha256": "3dacacd94ffff429f5bb350f4f5428199ee6921a45ea79c4e6e3e905510c2ede",
+      "size_bytes": 2459,
+      "line_count": 77
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/results/calibrated-chain.json",
+      "sha256": "45d3aafb4d02b2bf54620c4fd4356178c814a2a4b1eb5b6d15caa4132985ca0a",
+      "size_bytes": 209363,
+      "line_count": 5505
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-algebra/report.md",
+      "sha256": "e5d58003cffa7027025de8518a6d8fce38351ff2dda14a22ee64cc59a27e9488",
+      "size_bytes": 24560,
+      "line_count": 425
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/pilot-assessment.md",
+      "sha256": "14251f946aff2e814d22c06f58a322afad8533f0b9193ac13a4b028a08d51a50",
+      "size_bytes": 12116,
+      "line_count": 75
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/audit.md",
+      "sha256": "1a261223beab3ffff0a28d3aa5e54e7e0fb7380c9b858165a79bf290281c0f2a",
+      "size_bytes": 18971,
+      "line_count": 124
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/ibfm-input-review/report.md",
+      "sha256": "286adec03fa153a540b9a286a4caa0b2e3a42f3b9a76a839571dda963a2d5216",
+      "size_bytes": 26098,
+      "line_count": 281
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/focused-sidecar/comparison.md",
+      "sha256": "a11b5e939b9a007cf6d72139f0e4cfc1fc8a9c5d4e9740a9f18cc86adc4a3cea",
+      "size_bytes": 9737,
+      "line_count": 43
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/focused-sidecar/observables.md",
+      "sha256": "8e38b7b6aaa6617c18f6e8ffe1c8ba4f79d26ada898eca53341ffa99717ed966",
+      "size_bytes": 7179,
+      "line_count": 69
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-operator-control/report.md",
+      "sha256": "4ce0341fa932ad8b6e782f23aed759e23a7ae10def59536b23dd9f544fe18f82",
+      "size_bytes": 12244,
+      "line_count": 103
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-operator-control/operator-sensitivity-contract.json",
+      "sha256": "688386441deb562b19f7dc5df8b3abeb522976fd9daebf367a4781ca2e53de1e",
+      "size_bytes": 16565,
+      "line_count": 536
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/report.md",
+      "sha256": "d0ac75b1c88b9d3c026fa1fe5eeb9c66f90d10bab70c8a02a529fea4fe6c824b",
+      "size_bytes": 14410,
+      "line_count": 277
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/protocol.json",
+      "sha256": "db65e404bf9270b55b587aaadf3e5c9b2dd7e071e906672bb78a8d929c929023",
+      "size_bytes": 9897,
+      "line_count": 201
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/gamma-path-protocol.json",
+      "sha256": "12bfe13ab5a832cb153d68af71752dfbe55e418631b02698127ff6186335d4b8",
+      "size_bytes": 3624,
+      "line_count": 68
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/gamma-path.json",
+      "sha256": "99954dfb5083bb2a145acc6ae47b8e6adf0145576f3f57532f14cb9cf529773a",
+      "size_bytes": 24327,
+      "line_count": 818
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/gamma-path-summary.csv",
+      "sha256": "9b9e17c828433ed337b5d1f8d06ad4daab2da8d6c8ac4e6dc0753e20203ec546",
+      "size_bytes": 2377,
+      "line_count": 6
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/report.md",
+      "sha256": "6f6459ba26ff89543a3786e822908ff47d218ea7ca60b3c70cb059491b69f6e2",
+      "size_bytes": 6797,
+      "line_count": 35
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/benchmark-results.json",
+      "sha256": "6021c41fe1a067b9a5a2ed835a63dc4ba150922a8ac643e4cfb657a911032afc",
+      "size_bytes": 16191,
+      "line_count": 427
+    }
+  ],
+  "input_reading_scope": {
+    "main_and_controls": "Original main text read in full; refreshed abstract, definitions, discussion/conclusion and all 78 controls lines reread. Review frozen to specified hashes.",
+    "calibrated_chain": "All five case structures, calibration fields and primary/core-only moment summaries; target signed sectors and selected matrix elements; simple arithmetic readback.",
+    "algebra_pilot_and_precedent_reports": "Reports read; their producers and tests not executed.",
+    "operator_and_coupling_reports": "Reports, protocols and Gamma-path outputs read; numerical-validation claims attributed to those runs.",
+    "moment_benchmark": "Report and JSON metadata/structure read; current review did not rerun moment extraction.",
+    "figures_and_build": "Caption text only; PDF rendering/compilation, model scripts and figure-generation code not reviewed."
+  },
+  "public_primary_verification": [
+    {
+      "identifier": "arXiv:1704.07101v2",
+      "scope": "Targeted E2 calibration provenance and reported 135Ba moment comparison; no new local source files saved."
+    },
+    {
+      "identifier": "arXiv:2005.11210",
+      "scope": "Precedent abstract/metadata for finite-network quadrupole-invariant convergence; not full-paper reading."
+    },
+    {
+      "identifier": "arXiv:1610.00469",
+      "scope": "Precedent record/text entry; detailed comparison grounded in supplied focused-sidecar review."
+    }
+  ],
+  "new_literature_priority_claim": false,
+  "model_or_manuscript_tests_run": false,
+  "model_imports_or_diagonalizations_run": false,
+  "manuscript_compilation_run": false,
+  "manuscript_or_model_edits": false,
+  "raw_writes": false,
+  "knowledge_or_handoff_writes": false,
+  "commit_or_push": false,
+  "write_scope": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-manuscript-review",
+  "outputs": [
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-manuscript-review/report.md",
+      "sha256": "6ab97c57e25adc50698c24d42fcb902dbd840545f8f95daae701616600a2cb09",
+      "size_bytes": 17094
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-manuscript-review/input-receipt.json",
+      "role": "This receipt"
+    }
+  ]
+}

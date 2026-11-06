@@ -1,0 +1,397 @@
+{
+  "citation_key": "Vogt2017PRC95_024316",
+  "title": "Isomers and high-spin structures in the N=81 isotones 135Xe and 137Ba",
+  "authors": [
+    {
+      "given": "A.",
+      "family": "Vogt"
+    },
+    {
+      "given": "B.",
+      "family": "Birkenbach"
+    },
+    {
+      "given": "P.",
+      "family": "Reiter"
+    },
+    {
+      "given": "A.",
+      "family": "Blazhev"
+    },
+    {
+      "given": "M.",
+      "family": "Siciliano"
+    },
+    {
+      "given": "K.",
+      "family": "Hadyńska-Klęk"
+    },
+    {
+      "given": "J. J.",
+      "family": "Valiente-Dobón"
+    },
+    {
+      "given": "C.",
+      "family": "Wheldon"
+    },
+    {
+      "given": "E.",
+      "family": "Teruya"
+    },
+    {
+      "given": "N.",
+      "family": "Yoshinaga"
+    },
+    {
+      "given": "K.",
+      "family": "Arnswald"
+    },
+    {
+      "given": "D.",
+      "family": "Bazzacco"
+    },
+    {
+      "given": "M.",
+      "family": "Bowry"
+    },
+    {
+      "given": "A.",
+      "family": "Bracco"
+    },
+    {
+      "given": "B.",
+      "family": "Bruyneel"
+    },
+    {
+      "given": "R. S.",
+      "family": "Chakrawarthy"
+    },
+    {
+      "given": "R.",
+      "family": "Chapman"
+    },
+    {
+      "given": "D.",
+      "family": "Cline"
+    },
+    {
+      "given": "L.",
+      "family": "Corradi"
+    },
+    {
+      "given": "F. C. L",
+      "family": "Crespi"
+    },
+    {
+      "given": "M.",
+      "family": "Cromaz"
+    },
+    {
+      "given": "G.",
+      "family": "de Angelis"
+    },
+    {
+      "given": "J.",
+      "family": "Eberth"
+    },
+    {
+      "given": "P.",
+      "family": "Fallon"
+    },
+    {
+      "given": "E.",
+      "family": "Farnea"
+    },
+    {
+      "given": "E.",
+      "family": "Fioretto"
+    },
+    {
+      "given": "S. J.",
+      "family": "Freeman"
+    },
+    {
+      "given": "B.",
+      "family": "Fu"
+    },
+    {
+      "given": "A.",
+      "family": "Gadea"
+    },
+    {
+      "given": "K.",
+      "family": "Geibel"
+    },
+    {
+      "given": "W.",
+      "family": "Gelletly"
+    },
+    {
+      "given": "A.",
+      "family": "Gengelbach"
+    },
+    {
+      "given": "A.",
+      "family": "Giaz"
+    },
+    {
+      "given": "A.",
+      "family": "Görgen"
+    },
+    {
+      "given": "A.",
+      "family": "Gottardo"
+    },
+    {
+      "given": "A. B.",
+      "family": "Hayes"
+    },
+    {
+      "given": "H.",
+      "family": "Hess"
+    },
+    {
+      "given": "R.",
+      "family": "Hirsch"
+    },
+    {
+      "given": "H.",
+      "family": "Hua"
+    },
+    {
+      "given": "P. R.",
+      "family": "John"
+    },
+    {
+      "given": "J.",
+      "family": "Jolie"
+    },
+    {
+      "given": "A.",
+      "family": "Jungclaus"
+    },
+    {
+      "given": "L.",
+      "family": "Kaya"
+    },
+    {
+      "given": "W.",
+      "family": "Korten"
+    },
+    {
+      "given": "I. Y.",
+      "family": "Lee"
+    },
+    {
+      "given": "S.",
+      "family": "Leoni"
+    },
+    {
+      "given": "L.",
+      "family": "Lewandowski"
+    },
+    {
+      "given": "X.",
+      "family": "Liang"
+    },
+    {
+      "given": "S.",
+      "family": "Lunardi"
+    },
+    {
+      "given": "A. O.",
+      "family": "Macchiavelli"
+    },
+    {
+      "given": "R.",
+      "family": "Menegazzo"
+    },
+    {
+      "given": "D.",
+      "family": "Mengoni"
+    },
+    {
+      "given": "C.",
+      "family": "Michelagnoli"
+    },
+    {
+      "given": "T.",
+      "family": "Mijatović"
+    },
+    {
+      "given": "G.",
+      "family": "Montagnoli"
+    },
+    {
+      "given": "D.",
+      "family": "Montanari"
+    },
+    {
+      "given": "C.",
+      "family": "Müller-Gatermann"
+    },
+    {
+      "given": "D.",
+      "family": "Napoli"
+    },
+    {
+      "given": "C. J.",
+      "family": "Pearson"
+    },
+    {
+      "given": "L.",
+      "family": "Pellegri"
+    },
+    {
+      "given": "Zs.",
+      "family": "Podolyák"
+    },
+    {
+      "given": "G.",
+      "family": "Pollarolo"
+    },
+    {
+      "given": "A.",
+      "family": "Pullia"
+    },
+    {
+      "given": "M.",
+      "family": "Queiser"
+    },
+    {
+      "given": "F.",
+      "family": "Radeck"
+    },
+    {
+      "given": "F.",
+      "family": "Recchia"
+    },
+    {
+      "given": "P. H.",
+      "family": "Regan"
+    },
+    {
+      "given": "D.",
+      "family": "Rosiak"
+    },
+    {
+      "given": "N.",
+      "family": "Saed-Samii"
+    },
+    {
+      "given": "E.",
+      "family": "Şahin"
+    },
+    {
+      "given": "F.",
+      "family": "Scarlassara"
+    },
+    {
+      "given": "D.",
+      "family": "Schneiders"
+    },
+    {
+      "given": "M.",
+      "family": "Seidlitz"
+    },
+    {
+      "given": "B.",
+      "family": "Siebeck"
+    },
+    {
+      "given": "G.",
+      "family": "Sletten"
+    },
+    {
+      "given": "J. F.",
+      "family": "Smith"
+    },
+    {
+      "given": "P.-A.",
+      "family": "Söderström"
+    },
+    {
+      "given": "A. M.",
+      "family": "Stefanini"
+    },
+    {
+      "given": "T.",
+      "family": "Steinbach"
+    },
+    {
+      "given": "O.",
+      "family": "Stezowski"
+    },
+    {
+      "given": "S.",
+      "family": "Szilner"
+    },
+    {
+      "given": "B.",
+      "family": "Szpak"
+    },
+    {
+      "given": "R.",
+      "family": "Teng"
+    },
+    {
+      "given": "C.",
+      "family": "Ur"
+    },
+    {
+      "given": "V.",
+      "family": "Vandone"
+    },
+    {
+      "given": "D. D.",
+      "family": "Warner"
+    },
+    {
+      "given": "A.",
+      "family": "Wiens"
+    },
+    {
+      "given": "C. Y.",
+      "family": "Wu"
+    },
+    {
+      "given": "K. O.",
+      "family": "Zell"
+    }
+  ],
+  "author_count": 89,
+  "journal": "Physical Review C",
+  "volume": "95",
+  "issue": "2",
+  "article_number": "024316",
+  "publication_date": "2017-02-15",
+  "year": 2017,
+  "doi": "10.1103/PhysRevC.95.024316",
+  "canonical_source": "doi:10.1103/PhysRevC.95.024316",
+  "date_evidence": [
+    "Archived Crossref DOI record: published-online.date-parts and published.date-parts",
+    "OSTI/CHORUS cover: Phys. Rev. C 95, 024316; Published 15 February 2017"
+  ],
+  "version_boundary": {
+    "osti": "Accepted manuscript with CHORUS bibliographic cover; body dated January 17, 2017",
+    "birmingham": "Peer-reviewed accepted manuscript; body dated January 25, 2017 despite January 21 in URL",
+    "preferred_reading_copy": "vogt2017-accepted.pdf",
+    "pagination": "One cover plus 17 manuscript pages; PDF page = printed manuscript page + 1",
+    "published_typeset_VoR_verified": false,
+    "repository_download_dates_are_not_publication_dates": true
+  },
+  "raw_manifest": "raw/papers/gpt/query/20261106-vogt2017-ba137-rstat/manifest.json",
+  "raw_manifest_sha256": "3e777f4bae5e9e2ca7b4a6bd773436d1282bdd64678b117250d512c886f5854f",
+  "pdf_checks": {
+    "vogt2017-osti.pdf": {
+      "pages": 18,
+      "sha256": "1cd82bd29db800728593c181bf8e720576ec5fc113d1e354dc7d4c388e0f6c1c",
+      "audited_entries_present": true
+    },
+    "vogt2017-accepted.pdf": {
+      "pages": 18,
+      "sha256": "5a17b3fdd5c08c4e27284bc59f1d3e6e7ef9821746069057caf8b2745a12680b",
+      "audited_entries_present": true
+    }
+  }
+}

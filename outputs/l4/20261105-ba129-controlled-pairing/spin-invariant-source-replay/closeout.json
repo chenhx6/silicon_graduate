@@ -1,0 +1,138 @@
+{
+  "review_date_declared": "2026-11-06",
+  "container_observed_utc": "2026-11-05T18:44:51.314995+00:00",
+  "status": "audit-complete-with-unresolved-source-operator-correspondence",
+  "scope": "No refit, engine/case edits, knowledge/PLAN/get-paper edits, package installations or Git actions. New artifacts limited to the authorized output/tmp/raw locations.",
+  "protected_file_checks": [
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-source-replay/source-invariants-frozen.json",
+      "sha256": "4987fa80589b6a278edba95865665d4f7ec5bf742eb1feaeec46eb2f7d6aaf5b",
+      "matches_frozen_baseline": true
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-probe/probe-v1.json",
+      "sha256": "9bc03128820d05f6f98f09fc170b077fa32ae3da777ad82760623891026fd0a3",
+      "matches_frozen_baseline": true
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/ibfm-case-v1/prediction.json",
+      "sha256": "6dd5371fcaa7d2647e60490d15ca7e2816a1a517756af59515923167f6d1a2a4",
+      "matches_frozen_baseline": true
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-probe/run_probe.py",
+      "sha256": "4cebc4cd466a3a7e89be93a6c3db90921867bf4cc25e6215f28b2b82fbc63097",
+      "matches_frozen_baseline": true
+    },
+    {
+      "path": "system/scripts/analysis/single_j_ibfm.py",
+      "sha256": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+      "matches_frozen_baseline": true
+    },
+    {
+      "path": "system/scripts/analysis/paired_single_j_em.py",
+      "sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+      "matches_frozen_baseline": true
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-probe/operator-candidates.json",
+      "sha256": "0129a5069cb736fdabd1b4a5d6cee1edb94d01a5fda612aa8c1a3359840881e0",
+      "matches_frozen_baseline": true
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-probe/phase-placement-probe.json",
+      "sha256": "1dc8c875df2e3d428d8c36fa1d74d9e9c47fa5403dfea7ce28315261c9980810",
+      "matches_frozen_baseline": true
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-nomura-invariant-version-audit/nomura2017-v1-source.tar.gz",
+      "sha256": "4c018fac3e73402df11a3b57430d5f9f4407d37f06f8fd83f8095748cb864a59",
+      "matches_frozen_baseline": true
+    },
+    {
+      "path": "raw/papers/gpt/query/20261105-nomura2017-input-audit/nomura2017-v2-source.tar.gz",
+      "sha256": "f7ed6dc746f50f16169d8796e4d12becd8827eaf4ac2ee4d5f1ff9cd04690faf",
+      "matches_frozen_baseline": true
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-nomura-invariant-version-audit/nomura2017-v1.pdf",
+      "sha256": "b7662bdd1d24c66ae9d0b81e95746c150dae1d51ec5c22cb9f5b8e9505062d2d",
+      "matches_frozen_baseline": true
+    },
+    {
+      "path": "raw/papers/2017_Nomura et al_Shape-phase transitions in odd-mass γ -soft nuclei with mass A ≈ 130.pdf",
+      "sha256": "481e6a9e0f6b01e9c5db5e2b06d9b350dba0638393c7da7f532c3040e9efaea9",
+      "matches_frozen_baseline": true
+    }
+  ],
+  "archive_gate": {
+    "command": [
+      "/opt/venv/bin/python3",
+      "-B",
+      "system/scripts/wiki_archive_gate.py",
+      "check",
+      "--root",
+      "/workspace/wiki",
+      "--",
+      "raw/papers/gpt/query/20261106-nomura-invariant-version-audit/manifest.json"
+    ],
+    "returncode": 0,
+    "stdout": "{\n  \"checked_manifests\": [\n    \"/workspace/wiki/raw/papers/gpt/query/20261106-nomura-invariant-version-audit/manifest.json\"\n  ],\n  \"checked_sources\": [],\n  \"failure_count\": 0,\n  \"failures\": [],\n  \"ok\": true,\n  \"scope\": \"paths\"\n}\n",
+    "stderr": ""
+  },
+  "python_scripts_ast_checked": [
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-source-replay/audit_versions.py",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-source-replay/compare_literal.py",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-source-replay/extract_source_invariants.py"
+  ],
+  "report_local_links_checked": 10,
+  "numerical_replay_runtime_seconds": 0.4769057370140217,
+  "version_audit_runtime_seconds": 0.43529799301177263,
+  "validation_note": "Actual checks above; no new claim to the earlier 25-test suite. Numerical replay used one BLAS thread and disabled bytecode writes.",
+  "source_coordinate_freeze_sha256": "4987fa80589b6a278edba95865665d4f7ec5bf742eb1feaeec46eb2f7d6aaf5b",
+  "source_independence": "Source geometry frozen before model/probe values were read, with extraction history retained. Parent supplied approximate expectations; not a blind study.",
+  "scope_of_claim": "Partial source energy replay remains supported; invariant/EM replay and original producer certification remain unresolved. VOR full text not compared.",
+  "artifacts": [
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-source-replay/audit_versions.py",
+      "size": 10119,
+      "sha256": "b4db59c222c429d77e88b954476360ef5d27d37a98b92040f82ba4871a1c7553"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-source-replay/compare_literal.py",
+      "size": 9146,
+      "sha256": "d2427ff9bfaccc45d6fdf32210997d8fa004df24a4cf53ede77bc78ed49810f8"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-source-replay/extract_source_invariants.py",
+      "size": 8280,
+      "sha256": "33ec48e19222bcc199c10e28a3a4a614c2038194af990ac78585717d12ac26b5"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-source-replay/literal-comparison.json",
+      "size": 6401,
+      "sha256": "8ae2ddedf2808d5984c98b0e005e4807d1d8eada6874fcfaa6c32e46c14435b4"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-source-replay/report.md",
+      "size": 16699,
+      "sha256": "a3dadf1d96a40042bee761a21f7d54cc963833542bcb621ea136f85af4ca720f"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-source-replay/source-invariants-frozen.json",
+      "size": 17183,
+      "sha256": "4987fa80589b6a278edba95865665d4f7ec5bf742eb1feaeec46eb2f7d6aaf5b"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-source-replay/source-invariants-incomplete-serialization-attempt.txt",
+      "size": 1742,
+      "sha256": "495d0da87e47e56e18e90f99829fb6fc5d2fbc27cb9faf9a2eb0ef74e097d42f"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-source-replay/version-comparison.json",
+      "size": 16870,
+      "sha256": "22fcfa6e3780bea24d249d91ddaf929f678192db5ebb71ea3e59c096f52ce618"
+    }
+  ],
+  "closeout_runtime_seconds": 0.6058413339778781
+}

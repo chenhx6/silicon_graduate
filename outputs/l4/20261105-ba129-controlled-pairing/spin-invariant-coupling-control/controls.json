@@ -1,0 +1,3060 @@
+{
+  "schema": "135Ba-coupling-sensitivity-results-v1",
+  "started_at_utc": "2026-11-06T03:34:39.844159+00:00",
+  "finished_at_utc": "2026-11-06T03:34:44.683381+00:00",
+  "protocol_sha256": "db65e404bf9270b55b587aaadf3e5c9b2dd7e071e906672bb78a8d929c929023",
+  "driver_sha256": "df9dacea848d1485c270b6cd4d18754ec59f505e21225e0fdb8817d77b5ef385",
+  "input_sha256": {
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-chain-contract.json": "2183e4828b1395e16847225c9c2d297c09e8ee14980f5dde27f14ff7f419c1cf",
+    "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/ba-core-E2.json": "4dfdafe211e675049018f62393192c943544e32b3916151b26161e5b103387d0",
+    "outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/study.json": "45d3aafb4d02b2bf54620c4fd4356178c814a2a4b1eb5b6d15caa4132985ca0a",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-probe/chain-core-only-v1.json": "6a530f851325a33845ce8b90a84535723e75eb9e1ff4d1fc2ae574a20eb95f6c",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-probe/run_probe.py": "4cebc4cd466a3a7e89be93a6c3db90921867bf4cc25e6215f28b2b82fbc63097",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/audit.md": "1a261223beab3ffff0a28d3aa5e54e7e0fb7380c9b858165a79bf290281c0f2a",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/pilot-assessment.md": "14251f946aff2e814d22c06f58a322afad8533f0b9193ac13a4b028a08d51a50",
+    "system/scripts/analysis/single_j_ibfm.py": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+    "system/scripts/analysis/quadrupole_scalar_invariants.py": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1",
+    "system/scripts/analysis/paired_single_j_em.py": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b"
+  },
+  "primary_parameters": {
+    "n_b": 5,
+    "two_j": 11,
+    "eps_d": 0.38,
+    "kappa": -0.124,
+    "chi": -0.24,
+    "v2": 0.81,
+    "Q_jj": -1.081027387032316,
+    "Gamma0": 0.6,
+    "Lambda0": 1.0,
+    "A0": -0.9
+  },
+  "calibration": {
+    "eB": 0.1298423794528743,
+    "unit_B_0_to_2": 40.275119992429374,
+    "target_B_0_to_2": 0.679,
+    "initial_index": 0,
+    "final_index": 1
+  },
+  "E2_fixed": {
+    "eF_eb": 0.125,
+    "chi_E2": 0.35
+  },
+  "fixed_core_full": {
+    "q2_e2b2": 0.7383260919961908,
+    "q3_e3b3": -0.11437316514183976,
+    "signed_ratio": -0.18028177081217914,
+    "signed_angle_deg": 33.462057527822274,
+    "folded_angle_deg": 26.53794247217773,
+    "angle_status": "within_rigid_domain"
+  },
+  "basis": {
+    "full_dimension": 3024,
+    "M_half_dimension": 226
+  },
+  "parent_endpoint_differences": {
+    "q2": 0.0,
+    "q3": 0.0,
+    "signed_ratio": 0.0,
+    "static_fraction": 0.0,
+    "other_same_J_fraction": 0.0,
+    "proxy5_raw_ratio": 0.0,
+    "proxy_all_raw_ratio": 0.0,
+    "q3_positive_sectors": 0.0,
+    "q3_negative_sectors": 0.0
+  },
+  "refinement": {
+    "triggered_intervals": [
+      {
+        "left": "common_t0",
+        "right": "common_t0.25",
+        "argument_jump": 0.3216697360689819,
+        "conditions": {
+          "argument_jump": true,
+          "low_adjacent_fidelity": false,
+          "small_same_J_gap": false,
+          "domain_status_change": false
+        },
+        "overlap": {
+          "left": "common_t0",
+          "right": "common_t0.25",
+          "lowest_to_lowest_fidelity": 0.8920071411291239,
+          "left_lowest_best_match_right_same_J_ordinal": 0,
+          "best_match_fidelity": 0.8920071411291239
+        }
+      },
+      {
+        "left": "common_t0.25",
+        "right": "common_t0.5",
+        "argument_jump": 0.2609564490491438,
+        "conditions": {
+          "argument_jump": true,
+          "low_adjacent_fidelity": false,
+          "small_same_J_gap": false,
+          "domain_status_change": false
+        },
+        "overlap": {
+          "left": "common_t0.25",
+          "right": "common_t0.5",
+          "lowest_to_lowest_fidelity": 0.9338054481304826,
+          "left_lowest_best_match_right_same_J_ordinal": 0,
+          "best_match_fidelity": 0.9338054481304826
+        }
+      },
+      {
+        "left": "common_t0.5",
+        "right": "common_t0.75",
+        "argument_jump": 0.16682613035604466,
+        "conditions": {
+          "argument_jump": true,
+          "low_adjacent_fidelity": false,
+          "small_same_J_gap": false,
+          "domain_status_change": false
+        },
+        "overlap": {
+          "left": "common_t0.5",
+          "right": "common_t0.75",
+          "lowest_to_lowest_fidelity": 0.9702770695524726,
+          "left_lowest_best_match_right_same_J_ordinal": 0,
+          "best_match_fidelity": 0.9702770695524726
+        }
+      },
+      {
+        "left": "common_t0.75",
+        "right": "common_t1",
+        "argument_jump": 0.108951746145456,
+        "conditions": {
+          "argument_jump": false,
+          "low_adjacent_fidelity": false,
+          "small_same_J_gap": false,
+          "domain_status_change": true
+        },
+        "overlap": {
+          "left": "common_t0.75",
+          "right": "common_t1",
+          "lowest_to_lowest_fidelity": 0.9840936767474343,
+          "left_lowest_best_match_right_same_J_ordinal": 0,
+          "best_match_fidelity": 0.9840936767474343
+        }
+      }
+    ],
+    "chosen": {
+      "left": "common_t0",
+      "right": "common_t0.25",
+      "argument_jump": 0.3216697360689819,
+      "conditions": {
+        "argument_jump": true,
+        "low_adjacent_fidelity": false,
+        "small_same_J_gap": false,
+        "domain_status_change": false
+      },
+      "overlap": {
+        "left": "common_t0",
+        "right": "common_t0.25",
+        "lowest_to_lowest_fidelity": 0.8920071411291239,
+        "left_lowest_best_match_right_same_J_ordinal": 0,
+        "best_match_fidelity": 0.8920071411291239
+      }
+    },
+    "new_t": [
+      0.0625,
+      0.125,
+      0.1875
+    ]
+  },
+  "adjacent_grid_overlaps": [
+    {
+      "left": "common_t0",
+      "right": "common_t0.0625",
+      "lowest_to_lowest_fidelity": 0.9930563587696497,
+      "left_lowest_best_match_right_same_J_ordinal": 0,
+      "best_match_fidelity": 0.9930563587696497
+    },
+    {
+      "left": "common_t0.0625",
+      "right": "common_t0.125",
+      "lowest_to_lowest_fidelity": 0.9926319864676155,
+      "left_lowest_best_match_right_same_J_ordinal": 0,
+      "best_match_fidelity": 0.9926319864676155
+    },
+    {
+      "left": "common_t0.125",
+      "right": "common_t0.1875",
+      "lowest_to_lowest_fidelity": 0.9927672194639307,
+      "left_lowest_best_match_right_same_J_ordinal": 0,
+      "best_match_fidelity": 0.9927672194639307
+    },
+    {
+      "left": "common_t0.1875",
+      "right": "common_t0.25",
+      "lowest_to_lowest_fidelity": 0.993400603266132,
+      "left_lowest_best_match_right_same_J_ordinal": 0,
+      "best_match_fidelity": 0.993400603266132
+    },
+    {
+      "left": "common_t0.25",
+      "right": "common_t0.5",
+      "lowest_to_lowest_fidelity": 0.9338054481304826,
+      "left_lowest_best_match_right_same_J_ordinal": 0,
+      "best_match_fidelity": 0.9338054481304826
+    },
+    {
+      "left": "common_t0.5",
+      "right": "common_t0.75",
+      "lowest_to_lowest_fidelity": 0.9702770695524726,
+      "left_lowest_best_match_right_same_J_ordinal": 0,
+      "best_match_fidelity": 0.9702770695524726
+    },
+    {
+      "left": "common_t0.75",
+      "right": "common_t1",
+      "lowest_to_lowest_fidelity": 0.9840936767474343,
+      "left_lowest_best_match_right_same_J_ordinal": 0,
+      "best_match_fidelity": 0.9840936767474343
+    }
+  ],
+  "cases": [
+    {
+      "label": "common_t0",
+      "control_kind": "common_scale",
+      "t": 0.0,
+      "removed_term": null,
+      "couplings": {
+        "Gamma0": 0.0,
+        "Lambda0": 0.0,
+        "A0": -0.0
+      },
+      "state": {
+        "two_J": 11,
+        "same_J_ordinal": 0,
+        "state_index": 0,
+        "energy_MeV": -5.077215374591927,
+        "relative_to_global_lowest_MeV": 0.0,
+        "same_J_next_gap_MeV": 0.598055354173562
+      },
+      "full_direct": {
+        "q2_e2b2": 0.738911010758308,
+        "q3_e3b3": -0.11436036775607926,
+        "signed_ratio": -0.18004759972375672,
+        "signed_angle_deg": 33.45751078871491,
+        "folded_angle_deg": 26.542489211285087,
+        "angle_status": "within_rigid_domain"
+      },
+      "full_6j": {
+        "q2_e2b2": 0.7389110107583154,
+        "q3_e3b3": -0.11436036775607904
+      },
+      "closure": {
+        "complete": true,
+        "delta_q2": 7.438494264988549e-15,
+        "delta_q3": 2.220446049250313e-16,
+        "reciprocity_residual": 4.773959005888173e-15,
+        "required_missing_count": 0
+      },
+      "proxy5": {
+        "n": 5,
+        "states_used": 5,
+        "strength_raw_e2b2": 2.3598663676887477,
+        "q2_scalar_contribution_e2b2": 0.19665553064072896,
+        "chain_signed_e3b3": 0.7078821593746623,
+        "chain_middle_diagonal_e3b3": -0.6024139472949549,
+        "chain_middle_offdiagonal_e3b3": 1.3102961066696173,
+        "chain_sum_positive_terms_e3b3": 1.4207426199897333,
+        "chain_sum_negative_terms_e3b3": -0.7128604606150709,
+        "raw_ratio": 0.16337246836149436,
+        "angle_deg": 26.865766372735816,
+        "angle_status": "within_rigid_domain",
+        "fraction_of_full_q2": 0.26614237408495384
+      },
+      "proxy_all": {
+        "n": null,
+        "states_used": 25,
+        "strength_raw_e2b2": 2.362643494387814,
+        "q2_scalar_contribution_e2b2": 0.19688695786565116,
+        "chain_signed_e3b3": 0.7194089211961519,
+        "chain_middle_diagonal_e3b3": -0.6020877149019281,
+        "chain_middle_offdiagonal_e3b3": 1.32149663609808,
+        "chain_sum_positive_terms_e3b3": 1.4344810420626282,
+        "chain_sum_negative_terms_e3b3": -0.7150721208664764,
+        "raw_ratio": 0.16574008109974125,
+        "angle_deg": 26.81992334239085,
+        "angle_status": "within_rigid_domain",
+        "fraction_of_full_q2": 0.2664555744860207
+      },
+      "quadratic_channels": [
+        {
+          "two_J": 7,
+          "q2_e2b2": 0.09844347893282551,
+          "fraction": 0.13322778724301024
+        },
+        {
+          "two_J": 9,
+          "q2_e2b2": 0.12305434866603164,
+          "fraction": 0.16653473405376246
+        },
+        {
+          "two_J": 11,
+          "q2_e2b2": 0.1482501371613554,
+          "fraction": 0.2006332765419392
+        },
+        {
+          "two_J": 13,
+          "q2_e2b2": 0.17227608813245202,
+          "fraction": 0.2331486276752779
+        },
+        {
+          "two_J": 15,
+          "q2_e2b2": 0.1968869578656512,
+          "fraction": 0.2664555744860207
+        }
+      ],
+      "same_J": {
+        "static_diagonal_RME_eb": 0.08377962249501467,
+        "static_q2_e2b2": 0.000584918762117264,
+        "other_same_J_q2_e2b2": 0.14766521839923813,
+        "static_fraction": 0.0007915956774239845,
+        "other_same_J_fraction": 0.19984168086451518
+      },
+      "signed_cubic_spin_pairs": [
+        {
+          "two_Ja": 7,
+          "two_Jb": 7,
+          "q3_e3b3": -0.0034624607433166306
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 9,
+          "q3_e3b3": -0.0073067157718090785
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 11,
+          "q3_e3b3": -0.01060555039290823
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 7,
+          "q3_e3b3": -0.0073067157718090915
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 9,
+          "q3_e3b3": -0.002107133809006722
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 11,
+          "q3_e3b3": 6.100797110278405e-05
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 13,
+          "q3_e3b3": -0.009414882794257003
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 7,
+          "q3_e3b3": -0.010605550392908223
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 9,
+          "q3_e3b3": 6.100797110278455e-05
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 11,
+          "q3_e3b3": 0.003566338903262007
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 13,
+          "q3_e3b3": -0.00020934459007831212
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 15,
+          "q3_e3b3": -0.009212779079526435
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 9,
+          "q3_e3b3": -0.009414882794257002
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 11,
+          "q3_e3b3": -0.00020934459007831586
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 13,
+          "q3_e3b3": 0.0003085428036840383
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 15,
+          "q3_e3b3": -0.010598582200050501
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 11,
+          "q3_e3b3": -0.009212779079526442
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 13,
+          "q3_e3b3": -0.010598582200050485
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 15,
+          "q3_e3b3": -0.01809196119564847
+        }
+      ],
+      "cubic": {
+        "positive_spin_pair_sum_e3b3": 0.003996897649151614,
+        "negative_spin_pair_sum_e3b3": -0.11835726540523094,
+        "spin_pair_abs_sum_e3b3": 0.12235416305438254,
+        "spin_pair_cancellation_fraction": 0.06533325142970647,
+        "Jplus2_Jplus2_e3b3": -0.01809196119564847,
+        "all_other_spin_pairs_e3b3": -0.09626840656043079,
+        "initial_triple_e3b3": 1.2797385760721304e-05,
+        "one_initial_intermediate_e3b3": 2.7135271530106903e-16,
+        "no_initial_intermediate_e3b3": -0.11437316514184008,
+        "middle_diagonal_e3b3": 0.03719575853568277,
+        "middle_offdiagonal_e3b3": -0.151556126291762,
+        "state_pair_abs_sum_e3b3": 0.5550015620958505,
+        "state_pair_boundary": "Aggregates only; individual terms not serialized. Degenerate-subspace rotations can alter state-pair partitions; full spin-pair sums are the primary diagnostic."
+      },
+      "core": {
+        "P_R": {
+          "0": 1.0000000000000002,
+          "2": 4.869025615695678e-30,
+          "3": 2.3553978409169533e-32,
+          "4": 1.4347525764695863e-30,
+          "5": 1.1854182517338063e-32,
+          "6": 9.916629917552354e-32,
+          "7": 2.799910274421793e-32,
+          "8": 1.1660451984970676e-32,
+          "10": 1.1259531093076475e-32
+        },
+        "P_ground_R0": 1.0000000000000004,
+        "n_d_expectation": 1.3528992921744636,
+        "effective_n_d_coefficient_eps_plus_A0_MeV": 0.38,
+        "R0_boundary": "R=0 includes excited core 0+ states; P(R0) alone is not a causal argument."
+      },
+      "Hamiltonian_term_expectations_MeV": {
+        "boson": -5.077215374591927,
+        "quadrupole": 0.0,
+        "exchange": 0.0,
+        "monopole": 0.0
+      },
+      "spectrum_checks": {
+        "hermiticity_H_max": 0.0,
+        "hermiticity_J2_max": 0.0,
+        "commutator_H_J2_max": 3.907985046680551e-14,
+        "H_inf_scale": 6.781667445595855,
+        "J2_inf_scale": 347.1651042529677,
+        "energy_residual_max": 6.7837173129705325e-15,
+        "J2_residual_max": 6.988833063101655e-11,
+        "orthonormality_max": 3.1086244689504383e-15,
+        "degeneracy_atol": 1e-12,
+        "degeneracy_rtol": 1e-12,
+        "residual_tolerance": 2e-10
+      },
+      "elapsed_seconds": 0.40999524196377024,
+      "overlap_to_t1": {
+        "left": "common_t1",
+        "right": "common_t0",
+        "lowest_to_lowest_fidelity": 0.43237200468975145,
+        "left_lowest_best_match_right_same_J_ordinal": 1,
+        "best_match_fidelity": 0.4373529331301624
+      }
+    },
+    {
+      "label": "common_t0.0625",
+      "control_kind": "common_scale_refinement",
+      "t": 0.0625,
+      "removed_term": null,
+      "couplings": {
+        "Gamma0": 0.0375,
+        "Lambda0": 0.0625,
+        "A0": -0.05625
+      },
+      "state": {
+        "two_J": 11,
+        "same_J_ordinal": 0,
+        "state_index": 0,
+        "energy_MeV": -5.15405238645261,
+        "relative_to_global_lowest_MeV": 0.0,
+        "same_J_next_gap_MeV": 0.575995943051935
+      },
+      "full_direct": {
+        "q2_e2b2": 0.7422470253752759,
+        "q3_e3b3": -0.11299552211121033,
+        "signed_ratio": -0.17670080763630822,
+        "signed_angle_deg": 33.39254993932915,
+        "folded_angle_deg": 26.607450060670846,
+        "angle_status": "within_rigid_domain"
+      },
+      "full_6j": {
+        "q2_e2b2": 0.7422470253752891,
+        "q3_e3b3": -0.11299552211127219
+      },
+      "closure": {
+        "complete": true,
+        "delta_q2": 1.3211653993039363e-14,
+        "delta_q3": -6.185330025942903e-14,
+        "reciprocity_residual": 3.3306690738754696e-15,
+        "required_missing_count": 0
+      },
+      "proxy5": {
+        "n": 5,
+        "states_used": 5,
+        "strength_raw_e2b2": 2.3536734618216215,
+        "q2_scalar_contribution_e2b2": 0.19613945515180178,
+        "chain_signed_e3b3": 1.0415964693442545,
+        "chain_middle_diagonal_e3b3": -0.4191378070254554,
+        "chain_middle_offdiagonal_e3b3": 1.46073427636971,
+        "chain_sum_positive_terms_e3b3": 1.6120102219240784,
+        "chain_sum_negative_terms_e3b3": -0.5704137525798242,
+        "raw_ratio": 0.24133994155189115,
+        "angle_deg": 25.344787236575446,
+        "angle_status": "within_rigid_domain",
+        "fraction_of_full_q2": 0.2642509143807411
+      },
+      "proxy_all": {
+        "n": null,
+        "states_used": 25,
+        "strength_raw_e2b2": 2.3565542082556368,
+        "q2_scalar_contribution_e2b2": 0.1963795173546364,
+        "chain_signed_e3b3": 1.054940150593402,
+        "chain_middle_diagonal_e3b3": -0.4187449085234735,
+        "chain_middle_offdiagonal_e3b3": 1.4736850591168755,
+        "chain_sum_positive_terms_e3b3": 1.628191228476917,
+        "chain_sum_negative_terms_e3b3": -0.5732510778835154,
+        "raw_ratio": 0.24398363095367553,
+        "angle_deg": 25.292740852754232,
+        "angle_status": "within_rigid_domain",
+        "fraction_of_full_q2": 0.2645743406722958
+      },
+      "quadratic_channels": [
+        {
+          "two_J": 7,
+          "q2_e2b2": 0.09793713847403439,
+          "fraction": 0.13194682514829606
+        },
+        {
+          "two_J": 9,
+          "q2_e2b2": 0.12281276868205931,
+          "fraction": 0.16546077583802493
+        },
+        {
+          "two_J": 11,
+          "q2_e2b2": 0.15124564384320707,
+          "fraction": 0.20376726166970913
+        },
+        {
+          "two_J": 13,
+          "q2_e2b2": 0.17387195702135191,
+          "fraction": 0.23425079667169194
+        },
+        {
+          "two_J": 15,
+          "q2_e2b2": 0.19637951735463638,
+          "fraction": 0.26457434067229574
+        }
+      ],
+      "same_J": {
+        "static_diagonal_RME_eb": 0.2922208092727951,
+        "static_q2_e2b2": 0.007116083447670607,
+        "other_same_J_q2_e2b2": 0.14412956039553645,
+        "static_fraction": 0.009587217199116097,
+        "other_same_J_fraction": 0.19418004447059303
+      },
+      "signed_cubic_spin_pairs": [
+        {
+          "two_Ja": 7,
+          "two_Jb": 7,
+          "q3_e3b3": -0.005695107713828938
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 9,
+          "q3_e3b3": -0.009339555855248635
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 11,
+          "q3_e3b3": -0.016340512163843995
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 7,
+          "q3_e3b3": -0.009339555855248642
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 9,
+          "q3_e3b3": 0.0010127479595672926
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 11,
+          "q3_e3b3": 0.0002008405545574318
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 13,
+          "q3_e3b3": -0.009991665128728592
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 7,
+          "q3_e3b3": -0.016340512163844
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 9,
+          "q3_e3b3": 0.0002008405545574312
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 11,
+          "q3_e3b3": 0.018769692238305272
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 13,
+          "q3_e3b3": 0.00804486138475732
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 15,
+          "q3_e3b3": -0.01593698150338637
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 9,
+          "q3_e3b3": -0.009991665128728589
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 11,
+          "q3_e3b3": 0.008044861384757317
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 13,
+          "q3_e3b3": 0.0009899201424953643
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 15,
+          "q3_e3b3": -0.007408362432439882
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 11,
+          "q3_e3b3": -0.01593698150338637
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 13,
+          "q3_e3b3": -0.007408362432439865
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 15,
+          "q3_e3b3": -0.026530024449145633
+        }
+      ],
+      "cubic": {
+        "positive_spin_pair_sum_e3b3": 0.03726376421899743,
+        "negative_spin_pair_sum_e3b3": -0.1502592863302695,
+        "spin_pair_abs_sum_e3b3": 0.18752305054926693,
+        "spin_pair_cancellation_fraction": 0.39743129295177704,
+        "Jplus2_Jplus2_e3b3": -0.026530024449145633,
+        "all_other_spin_pairs_e3b3": -0.0864654976620647,
+        "initial_triple_e3b3": 0.000543049579137538,
+        "one_initial_intermediate_e3b3": -0.00014637539354578477,
+        "no_initial_intermediate_e3b3": -0.11339219629686405,
+        "middle_diagonal_e3b3": 0.030933393849228687,
+        "middle_offdiagonal_e3b3": -0.14392891596049956,
+        "state_pair_abs_sum_e3b3": 0.6606662960713509,
+        "state_pair_boundary": "Aggregates only; individual terms not serialized. Degenerate-subspace rotations can alter state-pair partitions; full spin-pair sums are the primary diagnostic."
+      },
+      "core": {
+        "P_R": {
+          "0": 0.9935536343540952,
+          "2": 0.0064310814897644095,
+          "3": 9.168780179786718e-08,
+          "4": 1.5156783254287445e-05,
+          "5": 2.5425926521341903e-13,
+          "6": 3.568213807807644e-08,
+          "7": 8.082198581353806e-15,
+          "8": 2.684141873993662e-12,
+          "10": 7.772307603853862e-16
+        },
+        "P_ground_R0": 0.9930563587696497,
+        "n_d_expectation": 1.4102722460262143,
+        "effective_n_d_coefficient_eps_plus_A0_MeV": 0.32375,
+        "R0_boundary": "R=0 includes excited core 0+ states; P(R0) alone is not a causal argument."
+      },
+      "Hamiltonian_term_expectations_MeV": {
+        "boson": -5.071856973807754,
+        "quadrupole": -0.007836620042825254,
+        "exchange": 0.004969021236942458,
+        "monopole": -0.07932781383897454
+      },
+      "spectrum_checks": {
+        "hermiticity_H_max": 0.0,
+        "hermiticity_J2_max": 0.0,
+        "commutator_H_J2_max": 3.552713678800501e-14,
+        "H_inf_scale": 6.9990581770389735,
+        "J2_inf_scale": 347.1651042529677,
+        "energy_residual_max": 6.279826568887543e-15,
+        "J2_residual_max": 2.8388593906544705e-10,
+        "orthonormality_max": 2.4424906541753444e-15,
+        "degeneracy_atol": 1e-12,
+        "degeneracy_rtol": 1e-12,
+        "residual_tolerance": 2e-10
+      },
+      "elapsed_seconds": 0.4476667899871245,
+      "overlap_to_t1": {
+        "left": "common_t1",
+        "right": "common_t0.0625",
+        "lowest_to_lowest_fidelity": 0.5073378440359076,
+        "left_lowest_best_match_right_same_J_ordinal": 0,
+        "best_match_fidelity": 0.5073378440359076
+      }
+    },
+    {
+      "label": "common_t0.125",
+      "control_kind": "common_scale_refinement",
+      "t": 0.125,
+      "removed_term": null,
+      "couplings": {
+        "Gamma0": 0.075,
+        "Lambda0": 0.125,
+        "A0": -0.1125
+      },
+      "state": {
+        "two_J": 11,
+        "same_J_ordinal": 0,
+        "state_index": 0,
+        "energy_MeV": -5.241700471531048,
+        "relative_to_global_lowest_MeV": 0.0,
+        "same_J_next_gap_MeV": 0.5657625437432268
+      },
+      "full_direct": {
+        "q2_e2b2": 0.7441002833541982,
+        "q3_e3b3": -0.11045417487183012,
+        "signed_ratio": -0.17208179628503392,
+        "signed_angle_deg": 33.30296040071084,
+        "folded_angle_deg": 26.69703959928917,
+        "angle_status": "within_rigid_domain"
+      },
+      "full_6j": {
+        "q2_e2b2": 0.7441002833541606,
+        "q3_e3b3": -0.11045417487186612
+      },
+      "closure": {
+        "complete": true,
+        "delta_q2": -3.7636560534792807e-14,
+        "delta_q3": -3.59989815734707e-14,
+        "reciprocity_residual": 2.536165721878092e-15,
+        "required_missing_count": 0
+      },
+      "proxy5": {
+        "n": 5,
+        "states_used": 5,
+        "strength_raw_e2b2": 2.3287081699908123,
+        "q2_scalar_contribution_e2b2": 0.19405901416590102,
+        "chain_signed_e3b3": 1.3704097256156458,
+        "chain_middle_diagonal_e3b3": -0.22227083231193506,
+        "chain_middle_offdiagonal_e3b3": 1.592680557927581,
+        "chain_sum_positive_terms_e3b3": 1.78962242256507,
+        "chain_sum_negative_terms_e3b3": -0.4192126969494243,
+        "raw_ratio": 0.3226464208755491,
+        "angle_deg": 23.725651689721285,
+        "angle_status": "within_rigid_domain",
+        "fraction_of_full_q2": 0.2607968556215792
+      },
+      "proxy_all": {
+        "n": null,
+        "states_used": 25,
+        "strength_raw_e2b2": 2.331666593267891,
+        "q2_scalar_contribution_e2b2": 0.19430554943899092,
+        "chain_signed_e3b3": 1.385470729391578,
+        "chain_middle_diagonal_e3b3": -0.22181696287540734,
+        "chain_middle_offdiagonal_e3b3": 1.6072876922669854,
+        "chain_sum_positive_terms_e3b3": 1.808168405697319,
+        "chain_sum_negative_terms_e3b3": -0.42269767630574107,
+        "raw_ratio": 0.3255717390294381,
+        "angle_deg": 23.666594261603304,
+        "angle_status": "within_rigid_domain",
+        "fraction_of_full_q2": 0.2611281755775112
+      },
+      "quadratic_channels": [
+        {
+          "two_J": 7,
+          "q2_e2b2": 0.09665130025590642,
+          "fraction": 0.1298901538112969
+        },
+        {
+          "two_J": 9,
+          "q2_e2b2": 0.1207621480064502,
+          "fraction": 0.1622928396990898
+        },
+        {
+          "two_J": 11,
+          "q2_e2b2": 0.1570647879809927,
+          "fraction": 0.21108013461974248
+        },
+        {
+          "two_J": 13,
+          "q2_e2b2": 0.17531649767182028,
+          "fraction": 0.2356086962923089
+        },
+        {
+          "two_J": 15,
+          "q2_e2b2": 0.1943055494389909,
+          "fraction": 0.26112817557751117
+        }
+      ],
+      "same_J": {
+        "static_diagonal_RME_eb": 0.5025906332051758,
+        "static_q2_e2b2": 0.021049778715464967,
+        "other_same_J_q2_e2b2": 0.13601500926552773,
+        "static_fraction": 0.028288900281798562,
+        "other_same_J_fraction": 0.18279123433794395
+      },
+      "signed_cubic_spin_pairs": [
+        {
+          "two_Ja": 7,
+          "two_Jb": 7,
+          "q3_e3b3": -0.007906347488444957
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 9,
+          "q3_e3b3": -0.011306485043338704
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 11,
+          "q3_e3b3": -0.02201759844859543
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 7,
+          "q3_e3b3": -0.01130648504333871
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 9,
+          "q3_e3b3": 0.004145080720438236
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 11,
+          "q3_e3b3": 0.0003401532977172899
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 13,
+          "q3_e3b3": -0.010497559712539338
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 7,
+          "q3_e3b3": -0.022017598448595424
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 9,
+          "q3_e3b3": 0.0003401532977172894
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 11,
+          "q3_e3b3": 0.034141137662392615
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 13,
+          "q3_e3b3": 0.01638343319071351
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 15,
+          "q3_e3b3": -0.022623581290304284
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 9,
+          "q3_e3b3": -0.010497559712539344
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 11,
+          "q3_e3b3": 0.01638343319071351
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 13,
+          "q3_e3b3": 0.0016755732575400827
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 15,
+          "q3_e3b3": -0.004112006758118347
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 11,
+          "q3_e3b3": -0.022623581290304288
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 13,
+          "q3_e3b3": -0.004112006758118323
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 15,
+          "q3_e3b3": -0.034842329494861546
+        }
+      ],
+      "cubic": {
+        "positive_spin_pair_sum_e3b3": 0.07340896461723254,
+        "negative_spin_pair_sum_e3b3": -0.1838631394890987,
+        "spin_pair_abs_sum_e3b3": 0.2572721041063312,
+        "spin_pair_cancellation_fraction": 0.5706717785999094,
+        "Jplus2_Jplus2_e3b3": -0.034842329494861546,
+        "all_other_spin_pairs_e3b3": -0.07561184537696858,
+        "initial_triple_e3b3": 0.002762798650032104,
+        "one_initial_intermediate_e3b3": -0.0011227958467311583,
+        "no_initial_intermediate_e3b3": -0.11209417767516705,
+        "middle_diagonal_e3b3": 0.0259091216178351,
+        "middle_offdiagonal_e3b3": -0.1363632964897014,
+        "state_pair_abs_sum_e3b3": 0.7535052768153054,
+        "state_pair_boundary": "Aggregates only; individual terms not serialized. Degenerate-subspace rotations can alter state-pair partitions; full spin-pair sums are the primary diagnostic."
+      },
+      "core": {
+        "P_R": {
+          "0": 0.973594433828701,
+          "2": 0.026385618278047536,
+          "3": 5.712740915168127e-07,
+          "4": 1.8853219709964954e-05,
+          "5": 3.1785271415384946e-12,
+          "6": 5.233947838467771e-07,
+          "7": 4.409830431711072e-13,
+          "8": 1.0049864774868597e-12,
+          "10": 4.0387636575177496e-14
+        },
+        "P_ground_R0": 0.9716205368851285,
+        "n_d_expectation": 1.4739261787873315,
+        "effective_n_d_coefficient_eps_plus_A0_MeV": 0.2675,
+        "R0_boundary": "R=0 includes excited core 0+ states; P(R0) alone is not a causal argument."
+      },
+      "Hamiltonian_term_expectations_MeV": {
+        "boson": -5.055492064262092,
+        "quadrupole": -0.03179493975514529,
+        "exchange": 0.011403227599761688,
+        "monopole": -0.16581669511357477
+      },
+      "spectrum_checks": {
+        "hermiticity_H_max": 0.0,
+        "hermiticity_J2_max": 0.0,
+        "commutator_H_J2_max": 3.552713678800501e-14,
+        "H_inf_scale": 7.232230477205088,
+        "J2_inf_scale": 347.1651042529677,
+        "energy_residual_max": 9.699304439077851e-15,
+        "J2_residual_max": 8.680353938741739e-10,
+        "orthonormality_max": 2.6645352591003757e-15,
+        "degeneracy_atol": 1e-12,
+        "degeneracy_rtol": 1e-12,
+        "residual_tolerance": 2e-10
+      },
+      "elapsed_seconds": 0.4188073910190724,
+      "overlap_to_t1": {
+        "left": "common_t1",
+        "right": "common_t0.125",
+        "lowest_to_lowest_fidelity": 0.5853185376521515,
+        "left_lowest_best_match_right_same_J_ordinal": 0,
+        "best_match_fidelity": 0.5853185376521515
+      }
+    },
+    {
+      "label": "common_t0.1875",
+      "control_kind": "common_scale_refinement",
+      "t": 0.1875,
+      "removed_term": null,
+      "couplings": {
+        "Gamma0": 0.11249999999999999,
+        "Lambda0": 0.1875,
+        "A0": -0.16875
+      },
+      "state": {
+        "two_J": 11,
+        "same_J_ordinal": 0,
+        "state_index": 0,
+        "energy_MeV": -5.3401798537459095,
+        "relative_to_global_lowest_MeV": 0.0,
+        "same_J_next_gap_MeV": 0.5669111827802258
+      },
+      "full_direct": {
+        "q2_e2b2": 0.7442527723038574,
+        "q3_e3b3": -0.10656679602845107,
+        "signed_ratio": -0.16597444197497688,
+        "signed_angle_deg": 33.18461548442745,
+        "folded_angle_deg": 26.815384515572557,
+        "angle_status": "within_rigid_domain"
+      },
+      "full_6j": {
+        "q2_e2b2": 0.7442527723036333,
+        "q3_e3b3": -0.10656679602859483
+      },
+      "closure": {
+        "complete": true,
+        "delta_q2": -2.241540286718191e-13,
+        "delta_q3": -1.4376000390114996e-13,
+        "reciprocity_residual": 3.552713678800501e-15,
+        "required_missing_count": 0
+      },
+      "proxy5": {
+        "n": 5,
+        "states_used": 5,
+        "strength_raw_e2b2": 2.2867928249000147,
+        "q2_scalar_contribution_e2b2": 0.1905660687416679,
+        "chain_signed_e3b3": 1.6720036539508636,
+        "chain_middle_diagonal_e3b3": -0.02110802529295901,
+        "chain_middle_offdiagonal_e3b3": 1.6931116792438226,
+        "chain_sum_positive_terms_e3b3": 1.939102451162832,
+        "chain_sum_negative_terms_e3b3": -0.26709879721196794,
+        "raw_ratio": 0.404525600147267,
+        "angle_deg": 22.046199258810617,
+        "angle_status": "within_rigid_domain",
+        "fraction_of_full_q2": 0.2560501966983136
+      },
+      "proxy_all": {
+        "n": null,
+        "states_used": 25,
+        "strength_raw_e2b2": 2.289792598297791,
+        "q2_scalar_contribution_e2b2": 0.19081604985814926,
+        "chain_signed_e3b3": 1.6883933264266393,
+        "chain_middle_diagonal_e3b3": -0.020610373921917426,
+        "chain_middle_offdiagonal_e3b3": 1.7090037003485568,
+        "chain_sum_positive_terms_e3b3": 1.9596543797776982,
+        "chain_sum_negative_terms_e3b3": -0.27126105335105866,
+        "raw_ratio": 0.4076884671252881,
+        "angle_deg": 21.98009653296495,
+        "angle_status": "within_rigid_domain",
+        "fraction_of_full_q2": 0.2563860787074696
+      },
+      "quadratic_channels": [
+        {
+          "two_J": 7,
+          "q2_e2b2": 0.09469579411270106,
+          "fraction": 0.127236064999217
+        },
+        {
+          "two_J": 9,
+          "q2_e2b2": 0.11700238550366633,
+          "fraction": 0.15720785982628163
+        },
+        {
+          "two_J": 11,
+          "q2_e2b2": 0.1652927329251572,
+          "fraction": 0.22209219646369396
+        },
+        {
+          "two_J": 13,
+          "q2_e2b2": 0.17644580990395883,
+          "fraction": 0.23707780000303577
+        },
+        {
+          "two_J": 15,
+          "q2_e2b2": 0.19081604985814918,
+          "fraction": 0.2563860787074695
+        }
+      ],
+      "same_J": {
+        "static_diagonal_RME_eb": 0.7026370736179092,
+        "static_q2_e2b2": 0.041141571435194924,
+        "other_same_J_q2_e2b2": 0.12415116148996228,
+        "static_fraction": 0.055279030144341844,
+        "other_same_J_fraction": 0.1668131663193521
+      },
+      "signed_cubic_spin_pairs": [
+        {
+          "two_Ja": 7,
+          "two_Jb": 7,
+          "q3_e3b3": -0.009948135519619084
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 9,
+          "q3_e3b3": -0.01306133751246328
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 11,
+          "q3_e3b3": -0.027253809140783694
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 7,
+          "q3_e3b3": -0.013061337512463274
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 9,
+          "q3_e3b3": 0.007036766329218899
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 11,
+          "q3_e3b3": 0.00046814580995150186
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 13,
+          "q3_e3b3": -0.010906287578820019
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 7,
+          "q3_e3b3": -0.02725380914078372
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 9,
+          "q3_e3b3": 0.0004681458099515029
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 11,
+          "q3_e3b3": 0.048844217752230794
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 13,
+          "q3_e3b3": 0.02431115961363373
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 15,
+          "q3_e3b3": -0.028826023142256997
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 9,
+          "q3_e3b3": -0.010906287578820013
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 11,
+          "q3_e3b3": 0.02431115961363372
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 13,
+          "q3_e3b3": 0.002324677344108201
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 15,
+          "q3_e3b3": -0.0009138396061225084
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 11,
+          "q3_e3b3": -0.028826023142257
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 13,
+          "q3_e3b3": -0.0009138396061224921
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 15,
+          "q3_e3b3": -0.04246033882081098
+        }
+      ],
+      "cubic": {
+        "positive_spin_pair_sum_e3b3": 0.10776427227272835,
+        "negative_spin_pair_sum_e3b3": -0.21433106830132306,
+        "spin_pair_abs_sum_e3b3": 0.3220953405740514,
+        "spin_pair_cancellation_fraction": 0.6691451796895808,
+        "Jplus2_Jplus2_e3b3": -0.04246033882081098,
+        "all_other_spin_pairs_e3b3": -0.06410645720764008,
+        "initial_triple_e3b3": 0.007549170722312209,
+        "one_initial_intermediate_e3b3": -0.0035057579746830252,
+        "no_initial_intermediate_e3b3": -0.11061020877622396,
+        "middle_diagonal_e3b3": 0.023851641734359223,
+        "middle_offdiagonal_e3b3": -0.13041843776295248,
+        "state_pair_abs_sum_e3b3": 0.8286764139983067,
+        "state_pair_boundary": "Aggregates only; individual terms not serialized. Degenerate-subspace rotations can alter state-pair partitions; full spin-pair sums are the primary diagnostic."
+      },
+      "core": {
+        "P_R": {
+          "0": 0.9411321483536148,
+          "2": 0.05886160273100586,
+          "3": 1.8364808415946745e-06,
+          "4": 2.1307933322104394e-06,
+          "5": 1.88976011012827e-10,
+          "6": 2.2810517899274583e-06,
+          "7": 4.7261221430220515e-12,
+          "8": 3.953856216026372e-10,
+          "10": 3.2766602838088294e-13
+        },
+        "P_ground_R0": 0.9368023123414603,
+        "n_d_expectation": 1.5425313140040633,
+        "effective_n_d_coefficient_eps_plus_A0_MeV": 0.21125,
+        "R0_boundary": "R=0 includes excited core 0+ states; P(R0) alone is not a causal argument."
+      },
+      "Hamiltonian_term_expectations_MeV": {
+        "boson": -5.028861515318228,
+        "quadrupole": -0.07114240245071529,
+        "exchange": 0.02012622326121996,
+        "monopole": -0.26030215923818567
+      },
+      "spectrum_checks": {
+        "hermiticity_H_max": 0.0,
+        "hermiticity_J2_max": 0.0,
+        "commutator_H_J2_max": 2.842170943040401e-14,
+        "H_inf_scale": 7.465402777371203,
+        "J2_inf_scale": 347.1651042529677,
+        "energy_residual_max": 7.662900147213398e-15,
+        "J2_residual_max": 4.6533999178928785e-10,
+        "orthonormality_max": 2.220446049250313e-15,
+        "degeneracy_atol": 1e-12,
+        "degeneracy_rtol": 1e-12,
+        "residual_tolerance": 2e-10
+      },
+      "elapsed_seconds": 0.42860596999526024,
+      "overlap_to_t1": {
+        "left": "common_t1",
+        "right": "common_t0.1875",
+        "lowest_to_lowest_fidelity": 0.6612939690861936,
+        "left_lowest_best_match_right_same_J_ordinal": 0,
+        "best_match_fidelity": 0.6612939690861936
+      }
+    },
+    {
+      "label": "common_t0.25",
+      "control_kind": "common_scale",
+      "t": 0.25,
+      "removed_term": null,
+      "couplings": {
+        "Gamma0": 0.15,
+        "Lambda0": 0.25,
+        "A0": -0.225
+      },
+      "state": {
+        "two_J": 11,
+        "same_J_ordinal": 0,
+        "state_index": 0,
+        "energy_MeV": -5.449014444681362,
+        "relative_to_global_lowest_MeV": 0.0,
+        "same_J_next_gap_MeV": 0.5780160955294074
+      },
+      "full_direct": {
+        "q2_e2b2": 0.7427372973707629,
+        "q3_e3b3": -0.10141383235418511,
+        "signed_ratio": -0.15843252549481626,
+        "signed_angle_deg": 33.038642032681985,
+        "folded_angle_deg": 26.961357967318012,
+        "angle_status": "within_rigid_domain"
+      },
+      "full_6j": {
+        "q2_e2b2": 0.7427372973707439,
+        "q3_e3b3": -0.10141383235419033
+      },
+      "closure": {
+        "complete": true,
+        "delta_q2": -1.8984813721090177e-14,
+        "delta_q3": -5.218048215738236e-15,
+        "reciprocity_residual": 3.219646771412954e-15,
+        "required_missing_count": 0
+      },
+      "proxy5": {
+        "n": 5,
+        "states_used": 5,
+        "strength_raw_e2b2": 2.2323499200581742,
+        "q2_scalar_contribution_e2b2": 0.18602916000484784,
+        "chain_signed_e3b3": 1.9298833714556936,
+        "chain_middle_diagonal_e3b3": 0.17454598473260846,
+        "chain_middle_offdiagonal_e3b3": 1.755337386723085,
+        "chain_sum_positive_terms_e3b3": 2.050473307996977,
+        "chain_sum_negative_terms_e3b3": -0.12058993654128256,
+        "raw_ratio": 0.484101777707587,
+        "angle_deg": 20.34878664071213,
+        "angle_status": "within_rigid_domain",
+        "fraction_of_full_q2": 0.25046427675488736
+      },
+      "proxy_all": {
+        "n": null,
+        "states_used": 25,
+        "strength_raw_e2b2": 2.2353473038172877,
+        "q2_scalar_contribution_e2b2": 0.186278941984774,
+        "chain_signed_e3b3": 1.9469857154960315,
+        "chain_middle_diagonal_e3b3": 0.17504344697109792,
+        "chain_middle_offdiagonal_e3b3": 1.7719422685249335,
+        "chain_sum_positive_terms_e3b3": 2.072865017905287,
+        "chain_sum_negative_terms_e3b3": -0.12587930240925596,
+        "raw_ratio": 0.48740981716872317,
+        "angle_deg": 20.276507307142538,
+        "angle_status": "within_rigid_domain",
+        "fraction_of_full_q2": 0.2508005759831749
+      },
+      "quadratic_channels": [
+        {
+          "two_J": 7,
+          "q2_e2b2": 0.09227786555544402,
+          "fraction": 0.1242402473688895
+        },
+        {
+          "two_J": 9,
+          "q2_e2b2": 0.11191888912134547,
+          "fraction": 0.15068435302432012
+        },
+        {
+          "two_J": 11,
+          "q2_e2b2": 0.175108883568879,
+          "fraction": 0.23576153262903582
+        },
+        {
+          "two_J": 13,
+          "q2_e2b2": 0.17715271714030165,
+          "fraction": 0.2385132909945544
+        },
+        {
+          "two_J": 15,
+          "q2_e2b2": 0.18627894198477402,
+          "fraction": 0.25080057598317496
+        }
+      ],
+      "same_J": {
+        "static_diagonal_RME_eb": 0.882489070002425,
+        "static_q2_e2b2": 0.06489891322281209,
+        "other_same_J_q2_e2b2": 0.1102099703460669,
+        "static_fraction": 0.08737801838220542,
+        "other_same_J_fraction": 0.1483835142468304
+      },
+      "signed_cubic_spin_pairs": [
+        {
+          "two_Ja": 7,
+          "two_Jb": 7,
+          "q3_e3b3": -0.011709780940597506
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 9,
+          "q3_e3b3": -0.014500667003986733
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 11,
+          "q3_e3b3": -0.031762142341123206
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 7,
+          "q3_e3b3": -0.014500667003986738
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 9,
+          "q3_e3b3": 0.009488647313965232
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 11,
+          "q3_e3b3": 0.0005764851977948432
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 13,
+          "q3_e3b3": -0.011208362840204265
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 7,
+          "q3_e3b3": -0.031762142341123165
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 9,
+          "q3_e3b3": 0.0005764851977948436
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 11,
+          "q3_e3b3": 0.06219456270615042
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 13,
+          "q3_e3b3": 0.03142520670416501
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 15,
+          "q3_e3b3": -0.03420363008954466
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 9,
+          "q3_e3b3": -0.011208362840204255
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 11,
+          "q3_e3b3": 0.03142520670416503
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 13,
+          "q3_e3b3": 0.0029044280902830173
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 15,
+          "q3_e3b3": 0.0020090234647459153
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 11,
+          "q3_e3b3": -0.034203630089544655
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 13,
+          "q3_e3b3": 0.0020090234647459045
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 15,
+          "q3_e3b3": -0.04896351570768443
+        }
+      ],
+      "cubic": {
+        "positive_spin_pair_sum_e3b3": 0.14260906884381022,
+        "negative_spin_pair_sum_e3b3": -0.2440229011979996,
+        "spin_pair_abs_sum_e3b3": 0.3866319700418098,
+        "spin_pair_cancellation_fraction": 0.7376993104237646,
+        "Jplus2_Jplus2_e3b3": -0.04896351570768443,
+        "all_other_spin_pairs_e3b3": -0.052450316646500676,
+        "initial_triple_e3b3": 0.014956640999733914,
+        "one_initial_intermediate_e3b3": -0.007282497524491789,
+        "no_initial_intermediate_e3b3": -0.1090879758294323,
+        "middle_diagonal_e3b3": 0.025393349782879625,
+        "middle_offdiagonal_e3b3": -0.1268071821370698,
+        "state_pair_abs_sum_e3b3": 0.8798436033612523,
+        "state_pair_boundary": "Aggregates only; individual terms not serialized. Degenerate-subspace rotations can alter state-pair partitions; full spin-pair sums are the primary diagnostic."
+      },
+      "core": {
+        "P_R": {
+          "0": 0.8993963120788258,
+          "2": 0.10055640096211742,
+          "3": 4.321603293509806e-06,
+          "4": 3.712136195596773e-05,
+          "5": 1.867380092774041e-09,
+          "6": 5.837801691530278e-06,
+          "7": 2.450084136377298e-11,
+          "8": 4.299127327024791e-09,
+          "10": 1.1065581688532787e-12
+        },
+        "P_ground_R0": 0.8920071411291237,
+        "n_d_expectation": 1.6140642503102764,
+        "effective_n_d_coefficient_eps_plus_A0_MeV": 0.155,
+        "R0_boundary": "R=0 includes excited core 0+ states; P(R0) alone is not a causal argument."
+      },
+      "Hamiltonian_term_expectations_MeV": {
+        "boson": -4.994002331216924,
+        "quadrupole": -0.12353977345758188,
+        "exchange": 0.03169211631295758,
+        "monopole": -0.36316445631981215
+      },
+      "spectrum_checks": {
+        "hermiticity_H_max": 0.0,
+        "hermiticity_J2_max": 0.0,
+        "commutator_H_J2_max": 3.552713678800501e-14,
+        "H_inf_scale": 7.698575077537318,
+        "J2_inf_scale": 347.1651042529677,
+        "energy_residual_max": 6.92598570232959e-15,
+        "J2_residual_max": 9.309842842782164e-11,
+        "orthonormality_max": 2.292155458833984e-15,
+        "degeneracy_atol": 1e-12,
+        "degeneracy_rtol": 1e-12,
+        "residual_tolerance": 2e-10
+      },
+      "elapsed_seconds": 0.42570953600807115,
+      "overlap_to_t1": {
+        "left": "common_t1",
+        "right": "common_t0.25",
+        "lowest_to_lowest_fidelity": 0.7308137224229486,
+        "left_lowest_best_match_right_same_J_ordinal": 0,
+        "best_match_fidelity": 0.7308137224229486
+      }
+    },
+    {
+      "label": "common_t0.5",
+      "control_kind": "common_scale",
+      "t": 0.5,
+      "removed_term": null,
+      "couplings": {
+        "Gamma0": 0.3,
+        "Lambda0": 0.5,
+        "A0": -0.45
+      },
+      "state": {
+        "two_J": 11,
+        "same_J_ordinal": 0,
+        "state_index": 0,
+        "energy_MeV": -5.969497598695636,
+        "relative_to_global_lowest_MeV": 0.0,
+        "same_J_next_gap_MeV": 0.6769310665610577
+      },
+      "full_direct": {
+        "q2_e2b2": 0.7255640757820752,
+        "q3_e3b3": -0.07441914104321776,
+        "signed_ratio": -0.12041233977572961,
+        "signed_angle_deg": 32.30530015603053,
+        "folded_angle_deg": 27.694699843969474,
+        "angle_status": "within_rigid_domain"
+      },
+      "full_6j": {
+        "q2_e2b2": 0.725564075782071,
+        "q3_e3b3": -0.0744191410432473
+      },
+      "closure": {
+        "complete": true,
+        "delta_q2": -4.107825191113079e-15,
+        "delta_q3": -2.954581024283698e-14,
+        "reciprocity_residual": 3.552713678800501e-15,
+        "required_missing_count": 0
+      },
+      "proxy5": {
+        "n": 5,
+        "states_used": 5,
+        "strength_raw_e2b2": 1.9833217435037094,
+        "q2_scalar_contribution_e2b2": 0.16527681195864244,
+        "chain_signed_e3b3": 2.4897807070675744,
+        "chain_middle_diagonal_e3b3": 0.7277908930957431,
+        "chain_middle_offdiagonal_e3b3": 1.7619898139718313,
+        "chain_sum_positive_terms_e3b3": 2.594634454235845,
+        "chain_sum_negative_terms_e3b3": -0.10485374716827084,
+        "raw_ratio": 0.7457965287001628,
+        "angle_deg": 13.924146533062391,
+        "angle_status": "within_rigid_domain",
+        "fraction_of_full_q2": 0.22779078716168924
+      },
+      "proxy_all": {
+        "n": null,
+        "states_used": 25,
+        "strength_raw_e2b2": 1.9859159037211365,
+        "q2_scalar_contribution_e2b2": 0.16549299197676137,
+        "chain_signed_e3b3": 2.5032629030178986,
+        "chain_middle_diagonal_e3b3": 0.7282825838779604,
+        "chain_middle_offdiagonal_e3b3": 1.7749803191399383,
+        "chain_sum_positive_terms_e3b3": 2.617266263042764,
+        "chain_sum_negative_terms_e3b3": -0.11400336002486476,
+        "raw_ratio": 0.748366266217867,
+        "angle_deg": 13.850314558801458,
+        "angle_status": "within_rigid_domain",
+        "fraction_of_full_q2": 0.22808873468325847
+      },
+      "quadratic_channels": [
+        {
+          "two_J": 7,
+          "q2_e2b2": 0.08187849471164775,
+          "fraction": 0.11284805497487192
+        },
+        {
+          "two_J": 9,
+          "q2_e2b2": 0.08777924363154528,
+          "fraction": 0.1209806915218746
+        },
+        {
+          "two_J": 11,
+          "q2_e2b2": 0.21442500788268792,
+          "fraction": 0.2955286997245037
+        },
+        {
+          "two_J": 13,
+          "q2_e2b2": 0.17598833757942894,
+          "fraction": 0.24255381909548598
+        },
+        {
+          "two_J": 15,
+          "q2_e2b2": 0.1654929919767614,
+          "fraction": 0.2280887346832585
+        }
+      ],
+      "same_J": {
+        "static_diagonal_RME_eb": 1.355107408770954,
+        "static_q2_e2b2": 0.15302634077549412,
+        "other_same_J_q2_e2b2": 0.0613986671071938,
+        "static_fraction": 0.2109067219329309,
+        "other_same_J_fraction": 0.0846219777915728
+      },
+      "signed_cubic_spin_pairs": [
+        {
+          "two_Ja": 7,
+          "two_Jb": 7,
+          "q3_e3b3": -0.01567986323518239
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 9,
+          "q3_e3b3": -0.017045494584685437
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 11,
+          "q3_e3b3": -0.0418057185578037
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 7,
+          "q3_e3b3": -0.017045494584685447
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 9,
+          "q3_e3b3": 0.014226016410543526
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 11,
+          "q3_e3b3": 0.0007890810262118767
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 13,
+          "q3_e3b3": -0.011599938289094792
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 7,
+          "q3_e3b3": -0.041805718557803705
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 9,
+          "q3_e3b3": 0.0007890810262118757
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 11,
+          "q3_e3b3": 0.09854759601686537
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 13,
+          "q3_e3b3": 0.04981626626295934
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 15,
+          "q3_e3b3": -0.046459031179469854
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 9,
+          "q3_e3b3": -0.011599938289094775
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 11,
+          "q3_e3b3": 0.049816266262959326
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 13,
+          "q3_e3b3": 0.004383265331689077
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 15,
+          "q3_e3b3": 0.009833247452135395
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 11,
+          "q3_e3b3": -0.04645903117946984
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 13,
+          "q3_e3b3": 0.009833247452135412
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 15,
+          "q3_e3b3": -0.06295297982766852
+        }
+      ],
+      "cubic": {
+        "positive_spin_pair_sum_e3b3": 0.2380340672417112,
+        "negative_spin_pair_sum_e3b3": -0.3124532082849585,
+        "spin_pair_abs_sum_e3b3": 0.5504872755266697,
+        "spin_pair_cancellation_fraction": 0.8648122411693921,
+        "Jplus2_Jplus2_e3b3": -0.06295297982766852,
+        "all_other_spin_pairs_e3b3": -0.011466161215549234,
+        "initial_triple_e3b3": 0.05415358632733983,
+        "one_initial_intermediate_e3b3": -0.024296200587384534,
+        "no_initial_intermediate_e3b3": -0.10427652678320265,
+        "middle_diagonal_e3b3": 0.051267546341834794,
+        "middle_offdiagonal_e3b3": -0.12568668738508434,
+        "state_pair_abs_sum_e3b3": 0.9564374785805952,
+        "state_pair_boundary": "Aggregates only; individual terms not serialized. Degenerate-subspace rotations can alter state-pair partitions; full spin-pair sums are the primary diagnostic."
+      },
+      "core": {
+        "P_R": {
+          "0": 0.7143792046298403,
+          "2": 0.28249067596654703,
+          "3": 3.098729364813632e-05,
+          "4": 0.0030749985904958907,
+          "5": 2.0131868349945027e-07,
+          "6": 2.3577437584850856e-05,
+          "7": 7.482612576932785e-10,
+          "8": 3.5401051347299896e-07,
+          "10": 4.4254746082449e-12
+        },
+        "P_ground_R0": 0.6912557375231873,
+        "n_d_expectation": 1.8946689522604245,
+        "effective_n_d_coefficient_eps_plus_A0_MeV": -0.07,
+        "R0_boundary": "R=0 includes excited core 0+ states; P(R0) alone is not a causal argument."
+      },
+      "Hamiltonian_term_expectations_MeV": {
+        "boson": -4.817964362380057,
+        "quadrupole": -0.4054393203612393,
+        "exchange": 0.10650711256285258,
+        "monopole": -0.8526010285171908
+      },
+      "spectrum_checks": {
+        "hermiticity_H_max": 0.0,
+        "hermiticity_J2_max": 0.0,
+        "commutator_H_J2_max": 5.684341886080802e-14,
+        "H_inf_scale": 8.631264278201776,
+        "J2_inf_scale": 347.1651042529677,
+        "energy_residual_max": 6.1451116523506366e-15,
+        "J2_residual_max": 1.4613949660539844e-10,
+        "orthonormality_max": 1.9984014443252818e-15,
+        "degeneracy_atol": 1e-12,
+        "degeneracy_rtol": 1e-12,
+        "residual_tolerance": 2e-10
+      },
+      "elapsed_seconds": 0.45302589697530493,
+      "overlap_to_t1": {
+        "left": "common_t1",
+        "right": "common_t0.5",
+        "lowest_to_lowest_fidelity": 0.9142723689712421,
+        "left_lowest_best_match_right_same_J_ordinal": 0,
+        "best_match_fidelity": 0.9142723689712421
+      }
+    },
+    {
+      "label": "common_t0.75",
+      "control_kind": "common_scale",
+      "t": 0.75,
+      "removed_term": null,
+      "couplings": {
+        "Gamma0": 0.44999999999999996,
+        "Lambda0": 0.75,
+        "A0": -0.675
+      },
+      "state": {
+        "two_J": 11,
+        "same_J_ordinal": 0,
+        "state_index": 0,
+        "energy_MeV": -6.585200749246545,
+        "relative_to_global_lowest_MeV": 0.0,
+        "same_J_next_gap_MeV": 0.7705831318046297
+      },
+      "full_direct": {
+        "q2_e2b2": 0.7017058766574084,
+        "q3_e3b3": -0.048568043020968635,
+        "signed_ratio": -0.08262622932487318,
+        "signed_angle_deg": 31.57984585457838,
+        "folded_angle_deg": 28.420154145421623,
+        "angle_status": "within_rigid_domain"
+      },
+      "full_6j": {
+        "q2_e2b2": 0.7017058766574626,
+        "q3_e3b3": -0.04856804302098607
+      },
+      "closure": {
+        "complete": true,
+        "delta_q2": 5.4289905904170155e-14,
+        "delta_q3": -1.7437440380518865e-14,
+        "reciprocity_residual": 2.3869795029440866e-15,
+        "required_missing_count": 0
+      },
+      "proxy5": {
+        "n": 5,
+        "states_used": 5,
+        "strength_raw_e2b2": 1.7790887733214744,
+        "q2_scalar_contribution_e2b2": 0.14825739777678953,
+        "chain_signed_e3b3": 2.5950043077787757,
+        "chain_middle_diagonal_e3b3": 0.9275249910238572,
+        "chain_middle_offdiagonal_e3b3": 1.6674793167549185,
+        "chain_sum_positive_terms_e3b3": 2.654251159727546,
+        "chain_sum_negative_terms_e3b3": -0.05924685194877064,
+        "raw_ratio": 0.914935912163953,
+        "angle_deg": 7.934457543950077,
+        "angle_status": "within_rigid_domain",
+        "fraction_of_full_q2": 0.21128139681972874
+      },
+      "proxy_all": {
+        "n": null,
+        "states_used": 25,
+        "strength_raw_e2b2": 1.7811757849543566,
+        "q2_scalar_contribution_e2b2": 0.14843131541286306,
+        "chain_signed_e3b3": 2.6003006033270912,
+        "chain_middle_diagonal_e3b3": 0.9279779453664664,
+        "chain_middle_offdiagonal_e3b3": 1.672322657960625,
+        "chain_sum_positive_terms_e3b3": 2.670093671798386,
+        "chain_sum_negative_terms_e3b3": -0.06979306847129503,
+        "raw_ratio": 0.9151923965739116,
+        "angle_deg": 7.922311767061074,
+        "angle_status": "within_rigid_domain",
+        "fraction_of_full_q2": 0.21152924658393762
+      },
+      "quadratic_channels": [
+        {
+          "two_J": 7,
+          "q2_e2b2": 0.0737401450841444,
+          "fraction": 0.10508697096197518
+        },
+        {
+          "two_J": 9,
+          "q2_e2b2": 0.06825127953760125,
+          "fraction": 0.09726479684439547
+        },
+        {
+          "two_J": 11,
+          "q2_e2b2": 0.2399194845167976,
+          "fraction": 0.34190890015010195
+        },
+        {
+          "two_J": 13,
+          "q2_e2b2": 0.17136365210605703,
+          "fraction": 0.24421008545966813
+        },
+        {
+          "two_J": 15,
+          "q2_e2b2": 0.14843131541286309,
+          "fraction": 0.21152924658393768
+        }
+      ],
+      "same_J": {
+        "static_diagonal_RME_eb": 1.5614160348893695,
+        "static_q2_e2b2": 0.20316833616747007,
+        "other_same_J_q2_e2b2": 0.03675114834932752,
+        "static_fraction": 0.2895348933591193,
+        "other_same_J_fraction": 0.05237400679098263
+      },
+      "signed_cubic_spin_pairs": [
+        {
+          "two_Ja": 7,
+          "two_Jb": 7,
+          "q3_e3b3": -0.01663397816189297
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 9,
+          "q3_e3b3": -0.01671690576041217
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 11,
+          "q3_e3b3": -0.044053317738193605
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 7,
+          "q3_e3b3": -0.01671690576041215
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 9,
+          "q3_e3b3": 0.014077210908551194
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 11,
+          "q3_e3b3": 0.000790784990203819
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 13,
+          "q3_e3b3": -0.01141038715240765
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 7,
+          "q3_e3b3": -0.04405331773819361
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 9,
+          "q3_e3b3": 0.0007907849902038193
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 11,
+          "q3_e3b3": 0.11554918660256971
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 13,
+          "q3_e3b3": 0.05718314042058308
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 15,
+          "q3_e3b3": -0.049511375704412795
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 9,
+          "q3_e3b3": -0.011410387152407669
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 11,
+          "q3_e3b3": 0.05718314042058305
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 13,
+          "q3_e3b3": 0.004953487225996344
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 15,
+          "q3_e3b3": 0.013157746019888708
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 11,
+          "q3_e3b3": -0.04951137570441279
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 13,
+          "q3_e3b3": 0.013157746019888708
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 15,
+          "q3_e3b3": -0.06539331974670945
+        }
+      ],
+      "cubic": {
+        "positive_spin_pair_sum_e3b3": 0.2768432275984684,
+        "negative_spin_pair_sum_e3b3": -0.32541127061945485,
+        "spin_pair_abs_sum_e3b3": 0.6022544982179232,
+        "spin_pair_cancellation_fraction": 0.91935628016946,
+        "Jplus2_Jplus2_e3b3": -0.06539331974670945,
+        "all_other_spin_pairs_e3b3": 0.016825276725740815,
+        "initial_triple_e3b3": 0.08284417340941687,
+        "one_initial_intermediate_e3b3": -0.03096070699244075,
+        "no_initial_intermediate_e3b3": -0.10045150943796229,
+        "middle_diagonal_e3b3": 0.07336653519282266,
+        "middle_offdiagonal_e3b3": -0.12193457821380865,
+        "state_pair_abs_sum_e3b3": 0.9347536850225431,
+        "state_pair_boundary": "Aggregates only; individual terms not serialized. Degenerate-subspace rotations can alter state-pair partitions; full spin-pair sums are the primary diagnostic."
+      },
+      "core": {
+        "P_R": {
+          "0": 0.5774207009181711,
+          "2": 0.4095551436722874,
+          "3": 7.992483873014406e-05,
+          "4": 0.012928545071287566,
+          "5": 1.9359467562335674e-06,
+          "6": 1.1360343147617056e-05,
+          "7": 1.954966260266802e-09,
+          "8": 2.38614858753431e-06,
+          "10": 1.106065957934259e-09
+        },
+        "P_ground_R0": 0.5373989908515081,
+        "n_d_expectation": 2.1380856550933633,
+        "effective_n_d_coefficient_eps_plus_A0_MeV": -0.29500000000000004,
+        "R0_boundary": "R=0 includes excited core 0+ states; P(R0) alone is not a causal argument."
+      },
+      "Hamiltonian_term_expectations_MeV": {
+        "boson": -4.633872527162598,
+        "quadrupole": -0.7228280258146825,
+        "exchange": 0.21470762091875506,
+        "monopole": -1.4432078171880203
+      },
+      "spectrum_checks": {
+        "hermiticity_H_max": 0.0,
+        "hermiticity_J2_max": 0.0,
+        "commutator_H_J2_max": 2.842170943040401e-14,
+        "H_inf_scale": 9.563953478866233,
+        "J2_inf_scale": 347.1651042529677,
+        "energy_residual_max": 1.2089898313502957e-14,
+        "J2_residual_max": 1.6813791688082551e-09,
+        "orthonormality_max": 2.220446049250313e-15,
+        "degeneracy_atol": 1e-12,
+        "degeneracy_rtol": 1e-12,
+        "residual_tolerance": 2e-10
+      },
+      "elapsed_seconds": 0.45965291099855676,
+      "overlap_to_t1": {
+        "left": "common_t1",
+        "right": "common_t0.75",
+        "lowest_to_lowest_fidelity": 0.9840936767474343,
+        "left_lowest_best_match_right_same_J_ordinal": 0,
+        "best_match_fidelity": 0.9840936767474343
+      }
+    },
+    {
+      "label": "common_t1",
+      "control_kind": "common_scale",
+      "t": 1.0,
+      "removed_term": null,
+      "couplings": {
+        "Gamma0": 0.6,
+        "Lambda0": 1.0,
+        "A0": -0.9
+      },
+      "state": {
+        "two_J": 11,
+        "same_J_ordinal": 0,
+        "state_index": 0,
+        "energy_MeV": -7.26317915446296,
+        "relative_to_global_lowest_MeV": 0.0,
+        "same_J_next_gap_MeV": 0.8052183830113107
+      },
+      "full_direct": {
+        "q2_e2b2": 0.6766227898280947,
+        "q3_e3b3": -0.02811863600176829,
+        "signed_ratio": -0.05052127678023177,
+        "signed_angle_deg": 30.965296245988824,
+        "folded_angle_deg": 29.03470375401118,
+        "angle_status": "within_rigid_domain"
+      },
+      "full_6j": {
+        "q2_e2b2": 0.6766227898280979,
+        "q3_e3b3": -0.028118636001763363
+      },
+      "closure": {
+        "complete": true,
+        "delta_q2": 3.219646771412954e-15,
+        "delta_q3": 4.926614671774132e-15,
+        "reciprocity_residual": 2.55351295663786e-15,
+        "required_missing_count": 0
+      },
+      "proxy5": {
+        "n": 5,
+        "states_used": 5,
+        "strength_raw_e2b2": 1.6235676115615112,
+        "q2_scalar_contribution_e2b2": 0.13529730096345927,
+        "chain_signed_e3b3": 2.537186550626294,
+        "chain_middle_diagonal_e3b3": 1.1666280166770442,
+        "chain_middle_offdiagonal_e3b3": 1.3705585339492499,
+        "chain_sum_positive_terms_e3b3": 2.582390298812388,
+        "chain_sum_negative_terms_e3b3": -0.04520374818609444,
+        "raw_ratio": 1.026114564730946,
+        "angle_deg": null,
+        "angle_status": "outside_rigid_domain",
+        "fraction_of_full_q2": 0.1999597161039069
+      },
+      "proxy_all": {
+        "n": null,
+        "states_used": 25,
+        "strength_raw_e2b2": 1.625942883944835,
+        "q2_scalar_contribution_e2b2": 0.13549524032873625,
+        "chain_signed_e3b3": 2.537873634698795,
+        "chain_middle_diagonal_e3b3": 1.1670918249992994,
+        "chain_middle_offdiagonal_e3b3": 1.3707818096994957,
+        "chain_sum_positive_terms_e3b3": 2.596653671943015,
+        "chain_sum_negative_terms_e3b3": -0.058780037244219895,
+        "raw_ratio": 1.0241441427193676,
+        "angle_deg": null,
+        "angle_status": "outside_rigid_domain",
+        "fraction_of_full_q2": 0.20025225630245277
+      },
+      "quadratic_channels": [
+        {
+          "two_J": 7,
+          "q2_e2b2": 0.06765293526022642,
+          "fraction": 0.09998619064754614
+        },
+        {
+          "two_J": 9,
+          "q2_e2b2": 0.054531797737628125,
+          "fraction": 0.08059408958347779
+        },
+        {
+          "two_J": 11,
+          "q2_e2b2": 0.2532808445931044,
+          "fraction": 0.37433093948469265
+        },
+        {
+          "two_J": 13,
+          "q2_e2b2": 0.1656619719084029,
+          "fraction": 0.24483652398183575
+        },
+        {
+          "two_J": 15,
+          "q2_e2b2": 0.1354952403287362,
+          "fraction": 0.2002522563024527
+        }
+      ],
+      "same_J": {
+        "static_diagonal_RME_eb": 1.6539820397214022,
+        "static_q2_e2b2": 0.22797138231008085,
+        "other_same_J_q2_e2b2": 0.025309462283023554,
+        "static_fraction": 0.3369253677784044,
+        "other_same_J_fraction": 0.037405571706288186
+      },
+      "signed_cubic_spin_pairs": [
+        {
+          "two_Ja": 7,
+          "two_Jb": 7,
+          "q3_e3b3": -0.016480719029183227
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 9,
+          "q3_e3b3": -0.015578732949063596
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 11,
+          "q3_e3b3": -0.04350698268243682
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 7,
+          "q3_e3b3": -0.015578732949063612
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 9,
+          "q3_e3b3": 0.012494604866040255
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 11,
+          "q3_e3b3": 0.0007289840247086589
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 13,
+          "q3_e3b3": -0.011068997708583505
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 7,
+          "q3_e3b3": -0.043506982682436836
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 9,
+          "q3_e3b3": 0.00072898402470866
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 11,
+          "q3_e3b3": 0.12334997768706522
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 13,
+          "q3_e3b3": 0.05974985722685214
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 15,
+          "q3_e3b3": -0.0491804045064053
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 9,
+          "q3_e3b3": -0.0110689977085835
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 11,
+          "q3_e3b3": 0.05974985722685212
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 13,
+          "q3_e3b3": 0.005132734889894764
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 15,
+          "q3_e3b3": 0.014460351031222762
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 11,
+          "q3_e3b3": -0.04918040450640531
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 13,
+          "q3_e3b3": 0.014460351031222755
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 15,
+          "q3_e3b3": -0.06382338328816883
+        }
+      ],
+      "cubic": {
+        "positive_spin_pair_sum_e3b3": 0.2908557020085673,
+        "negative_spin_pair_sum_e3b3": -0.31897433801033054,
+        "spin_pair_abs_sum_e3b3": 0.6098300400188978,
+        "spin_pair_cancellation_fraction": 0.9538910283906367,
+        "Jplus2_Jplus2_e3b3": -0.06382338328816883,
+        "all_other_spin_pairs_e3b3": 0.035704747286400544,
+        "initial_triple_e3b3": 0.09846875161247984,
+        "one_initial_intermediate_e3b3": -0.030673101501420292,
+        "no_initial_intermediate_e3b3": -0.09591428611282345,
+        "middle_diagonal_e3b3": 0.07911775884317727,
+        "middle_offdiagonal_e3b3": -0.10723639484494124,
+        "state_pair_abs_sum_e3b3": 0.8815303949814681,
+        "state_pair_boundary": "Aggregates only; individual terms not serialized. Degenerate-subspace rotations can alter state-pair partitions; full spin-pair sums are the primary diagnostic."
+      },
+      "core": {
+        "P_R": {
+          "0": 0.48860963546213526,
+          "2": 0.48368360661089455,
+          "3": 0.00013761727642580437,
+          "4": 0.02753630021282956,
+          "5": 7.814313146609483e-06,
+          "6": 1.8315429806645614e-05,
+          "7": 1.0240697788002429e-10,
+          "8": 6.697119378015009e-06,
+          "10": 1.3472977004917023e-08
+        },
+        "P_ground_R0": 0.4323720046897511,
+        "n_d_expectation": 2.3484006789752607,
+        "effective_n_d_coefficient_eps_plus_A0_MeV": -0.52,
+        "R0_boundary": "R=0 includes excited core 0+ states; P(R0) alone is not a causal argument."
+      },
+      "Hamiltonian_term_expectations_MeV": {
+        "boson": -4.451172734224905,
+        "quadrupole": -1.0425547321952928,
+        "exchange": 0.3441089230349718,
+        "monopole": -2.1135606110777343
+      },
+      "spectrum_checks": {
+        "hermiticity_H_max": 0.0,
+        "hermiticity_J2_max": 0.0,
+        "commutator_H_J2_max": 5.684341886080802e-14,
+        "H_inf_scale": 10.496642679530694,
+        "J2_inf_scale": 347.1651042529677,
+        "energy_residual_max": 7.723655920630201e-15,
+        "J2_residual_max": 2.5787602913872768e-08,
+        "orthonormality_max": 2.220446049250313e-15,
+        "degeneracy_atol": 1e-12,
+        "degeneracy_rtol": 1e-12,
+        "residual_tolerance": 2e-10
+      },
+      "elapsed_seconds": 0.4227157040149905,
+      "overlap_to_t1": {
+        "left": "common_t1",
+        "right": "common_t1",
+        "lowest_to_lowest_fidelity": 1.0000000000000009,
+        "left_lowest_best_match_right_same_J_ordinal": 0,
+        "best_match_fidelity": 1.0000000000000009
+      }
+    },
+    {
+      "label": "remove_Gamma0",
+      "control_kind": "single_term_removal",
+      "t": 1.0,
+      "removed_term": "Gamma0",
+      "couplings": {
+        "Gamma0": 0.0,
+        "Lambda0": 1.0,
+        "A0": -0.9
+      },
+      "state": {
+        "two_J": 11,
+        "same_J_ordinal": 0,
+        "state_index": 0,
+        "energy_MeV": -6.662928124838734,
+        "relative_to_global_lowest_MeV": 0.0,
+        "same_J_next_gap_MeV": 0.5191309607076047
+      },
+      "full_direct": {
+        "q2_e2b2": 0.680126108217535,
+        "q3_e3b3": -0.07283947737865869,
+        "signed_ratio": -0.1298621686734678,
+        "signed_angle_deg": 32.48720921560907,
+        "folded_angle_deg": 27.51279078439093,
+        "angle_status": "within_rigid_domain"
+      },
+      "full_6j": {
+        "q2_e2b2": 0.68012610821751,
+        "q3_e3b3": -0.07283947737866077
+      },
+      "closure": {
+        "complete": true,
+        "delta_q2": -2.5091040356528538e-14,
+        "delta_q3": -2.0816681711721685e-15,
+        "reciprocity_residual": 2.9976021664879227e-15,
+        "required_missing_count": 0
+      },
+      "proxy5": {
+        "n": 5,
+        "states_used": 5,
+        "strength_raw_e2b2": 2.3054536707735607,
+        "q2_scalar_contribution_e2b2": 0.19212113923113006,
+        "chain_signed_e3b3": 0.40739966207103884,
+        "chain_middle_diagonal_e3b3": -0.7352604990834493,
+        "chain_middle_offdiagonal_e3b3": 1.1426601611544882,
+        "chain_sum_positive_terms_e3b3": 1.4410099885002132,
+        "chain_sum_negative_terms_e3b3": -1.0336103264291738,
+        "raw_ratio": 0.09737222310846211,
+        "angle_deg": 28.137376214302773,
+        "angle_status": "within_rigid_domain",
+        "fraction_of_full_q2": 0.28247870050840784
+      },
+      "proxy_all": {
+        "n": null,
+        "states_used": 25,
+        "strength_raw_e2b2": 2.3207039577810464,
+        "q2_scalar_contribution_e2b2": 0.19339199648175387,
+        "chain_signed_e3b3": 0.3716155045776685,
+        "chain_middle_diagonal_e3b3": -0.7346685169295168,
+        "chain_middle_offdiagonal_e3b3": 1.1062840215071854,
+        "chain_sum_positive_terms_e3b3": 1.4612773872761644,
+        "chain_sum_negative_terms_e3b3": -1.0896618826984963,
+        "raw_ratio": 0.0879454207524173,
+        "angle_deg": 28.318193457999133,
+        "angle_status": "within_rigid_domain",
+        "fraction_of_full_q2": 0.2843472616991471
+      },
+      "quadratic_channels": [
+        {
+          "two_J": 7,
+          "q2_e2b2": 0.09436767271716968,
+          "fraction": 0.13875025760220727
+        },
+        {
+          "two_J": 9,
+          "q2_e2b2": 0.1416318402223948,
+          "fraction": 0.2082434985382072
+        },
+        {
+          "two_J": 11,
+          "q2_e2b2": 0.0896348914740463,
+          "fraction": 0.13179157569610164
+        },
+        {
+          "two_J": 13,
+          "q2_e2b2": 0.16109970732214532,
+          "fraction": 0.23686740646429993
+        },
+        {
+          "two_J": 15,
+          "q2_e2b2": 0.19339199648175392,
+          "fraction": 0.28434726169914715
+        }
+      ],
+      "same_J": {
+        "static_diagonal_RME_eb": -0.027303110852762925,
+        "static_q2_e2b2": 6.212165518652172e-05,
+        "other_same_J_q2_e2b2": 0.08957276981885977,
+        "static_fraction": 9.133843626342956e-05,
+        "other_same_J_fraction": 0.1317002372598382
+      },
+      "signed_cubic_spin_pairs": [
+        {
+          "two_Ja": 7,
+          "two_Jb": 7,
+          "q3_e3b3": -0.0019105099274740744
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 9,
+          "q3_e3b3": -0.0037024125123636936
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 11,
+          "q3_e3b3": -0.005230358188455464
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 7,
+          "q3_e3b3": -0.0037024125123636896
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 9,
+          "q3_e3b3": -0.0014057428192601278
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 11,
+          "q3_e3b3": 5.762984065479136e-06
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 13,
+          "q3_e3b3": -0.004975214830739318
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 7,
+          "q3_e3b3": -0.005230358188455457
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 9,
+          "q3_e3b3": 5.762984065479536e-06
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 11,
+          "q3_e3b3": -0.0037030321787394757
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 13,
+          "q3_e3b3": -0.0032863799374668267
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 15,
+          "q3_e3b3": -0.003945301629174489
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 9,
+          "q3_e3b3": -0.004975214830739338
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 11,
+          "q3_e3b3": -0.0032863799374668345
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 13,
+          "q3_e3b3": -9.674114400363035e-05
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 15,
+          "q3_e3b3": -0.007055059575438774
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 11,
+          "q3_e3b3": -0.003945301629174482
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 13,
+          "q3_e3b3": -0.007055059575438781
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 15,
+          "q3_e3b3": -0.0093455239300367
+        }
+      ],
+      "cubic": {
+        "positive_spin_pair_sum_e3b3": 1.1525968130958672e-05,
+        "negative_spin_pair_sum_e3b3": -0.07285100334679115,
+        "spin_pair_abs_sum_e3b3": 0.07286252931492211,
+        "spin_pair_cancellation_fraction": 0.00031637573496512417,
+        "Jplus2_Jplus2_e3b3": -0.0093455239300367,
+        "all_other_spin_pairs_e3b3": -0.06349395344862199,
+        "initial_triple_e3b3": -4.429375111981695e-07,
+        "one_initial_intermediate_e3b3": 0.0008316479537289161,
+        "no_initial_intermediate_e3b3": -0.07367068239487841,
+        "middle_diagonal_e3b3": 0.0334349557048775,
+        "middle_offdiagonal_e3b3": -0.10627443308353861,
+        "state_pair_abs_sum_e3b3": 0.7889366629038193,
+        "state_pair_boundary": "Aggregates only; individual terms not serialized. Degenerate-subspace rotations can alter state-pair partitions; full spin-pair sums are the primary diagnostic."
+      },
+      "core": {
+        "P_R": {
+          "0": 0.9522369258593386,
+          "2": 0.015089550425522593,
+          "3": 0.00036373629213490267,
+          "4": 0.03220426221145232,
+          "5": 8.26796640537837e-08,
+          "6": 7.884362318840893e-05,
+          "7": 4.3544219881728775e-09,
+          "8": 2.659418491138859e-05,
+          "10": 3.6936543314339536e-10
+        },
+        "P_ground_R0": 0.8168238303294654,
+        "n_d_expectation": 2.3538428348439235,
+        "effective_n_d_coefficient_eps_plus_A0_MeV": -0.52,
+        "R0_boundary": "R=0 includes excited core 0+ states; P(R0) alone is not a causal argument."
+      },
+      "Hamiltonian_term_expectations_MeV": {
+        "boson": -4.5839625997136295,
+        "quadrupole": 0.0,
+        "exchange": 0.03949302623442586,
+        "monopole": -2.1184585513595313
+      },
+      "spectrum_checks": {
+        "hermiticity_H_max": 0.0,
+        "hermiticity_J2_max": 0.0,
+        "commutator_H_J2_max": 5.684341886080802e-14,
+        "H_inf_scale": 8.8709797263405,
+        "J2_inf_scale": 347.1651042529677,
+        "energy_residual_max": 8.60384681999071e-15,
+        "J2_residual_max": 2.4721242313173423e-10,
+        "orthonormality_max": 1.887379141862766e-15,
+        "degeneracy_atol": 1e-12,
+        "degeneracy_rtol": 1e-12,
+        "residual_tolerance": 2e-10
+      },
+      "elapsed_seconds": 0.4208954129717313,
+      "overlap_to_t1": {
+        "left": "common_t1",
+        "right": "remove_Gamma0",
+        "lowest_to_lowest_fidelity": 0.3426405801782219,
+        "left_lowest_best_match_right_same_J_ordinal": 1,
+        "best_match_fidelity": 0.43338739209841404
+      }
+    },
+    {
+      "label": "remove_Lambda0",
+      "control_kind": "single_term_removal",
+      "t": 1.0,
+      "removed_term": "Lambda0",
+      "couplings": {
+        "Gamma0": 0.6,
+        "Lambda0": 0.0,
+        "A0": -0.9
+      },
+      "state": {
+        "two_J": 11,
+        "same_J_ordinal": 0,
+        "state_index": 0,
+        "energy_MeV": -7.651598236783288,
+        "relative_to_global_lowest_MeV": 0.0,
+        "same_J_next_gap_MeV": 1.159879412858583
+      },
+      "full_direct": {
+        "q2_e2b2": 0.6424667141465108,
+        "q3_e3b3": 0.00280659764068431,
+        "signed_ratio": 0.005450096697614124,
+        "signed_angle_deg": 29.895910305119525,
+        "folded_angle_deg": 29.895910305119525,
+        "angle_status": "within_rigid_domain"
+      },
+      "full_6j": {
+        "q2_e2b2": 0.6424667141465095,
+        "q3_e3b3": 0.0028065976406972987
+      },
+      "closure": {
+        "complete": true,
+        "delta_q2": -1.3322676295501878e-15,
+        "delta_q3": 1.2988742026376343e-14,
+        "reciprocity_residual": 2.886579864025407e-15,
+        "required_missing_count": 0
+      },
+      "proxy5": {
+        "n": 5,
+        "states_used": 5,
+        "strength_raw_e2b2": 1.418871312149248,
+        "q2_scalar_contribution_e2b2": 0.11823927601243733,
+        "chain_signed_e3b3": 2.379601255841971,
+        "chain_middle_diagonal_e3b3": 1.3072169464644272,
+        "chain_middle_offdiagonal_e3b3": 1.0723843093775436,
+        "chain_sum_positive_terms_e3b3": 2.4057497408934916,
+        "chain_sum_negative_terms_e3b3": -0.026148485051520575,
+        "raw_ratio": 1.1779821174559344,
+        "angle_deg": null,
+        "angle_status": "outside_rigid_domain",
+        "fraction_of_full_q2": 0.1840395360707723
+      },
+      "proxy_all": {
+        "n": null,
+        "states_used": 25,
+        "strength_raw_e2b2": 1.4207633644800943,
+        "q2_scalar_contribution_e2b2": 0.11839694704000786,
+        "chain_signed_e3b3": 2.3880612626068594,
+        "chain_middle_diagonal_e3b3": 1.3077200715210373,
+        "chain_middle_offdiagonal_e3b3": 1.080341191085822,
+        "chain_sum_positive_terms_e3b3": 2.422053964798525,
+        "chain_sum_negative_terms_e3b3": -0.03399270219166537,
+        "raw_ratio": 1.179809418759334,
+        "angle_deg": null,
+        "angle_status": "outside_rigid_domain",
+        "fraction_of_full_q2": 0.18428495116247862
+      },
+      "quadratic_channels": [
+        {
+          "two_J": 7,
+          "q2_e2b2": 0.060766083838008994,
+          "fraction": 0.09458246240621836
+        },
+        {
+          "two_J": 9,
+          "q2_e2b2": 0.032052479919255375,
+          "fraction": 0.049889712904170776
+        },
+        {
+          "two_J": 11,
+          "q2_e2b2": 0.27638502484830807,
+          "fraction": 0.4301935318399703
+        },
+        {
+          "two_J": 13,
+          "q2_e2b2": 0.15486617850092904,
+          "fraction": 0.2410493416871597
+        },
+        {
+          "two_J": 15,
+          "q2_e2b2": 0.11839694704000789,
+          "fraction": 0.18428495116247867
+        }
+      ],
+      "same_J": {
+        "static_diagonal_RME_eb": 1.7798740048583024,
+        "static_q2_e2b2": 0.2639959560975277,
+        "other_same_J_q2_e2b2": 0.012389068750780385,
+        "static_fraction": 0.4109099355415399,
+        "other_same_J_fraction": 0.01928359629843038
+      },
+      "signed_cubic_spin_pairs": [
+        {
+          "two_Ja": 7,
+          "two_Jb": 7,
+          "q3_e3b3": -0.016253753432435913
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 9,
+          "q3_e3b3": -0.01280204960151675
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 11,
+          "q3_e3b3": -0.04212157308903654
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 7,
+          "q3_e3b3": -0.01280204960151676
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 9,
+          "q3_e3b3": 0.007602920714278728
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 11,
+          "q3_e3b3": 0.0005343640186442337
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 13,
+          "q3_e3b3": -0.010654639538255522
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 7,
+          "q3_e3b3": -0.04212157308903654
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 9,
+          "q3_e3b3": 0.000534364018644234
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 11,
+          "q3_e3b3": 0.13615249068425303
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 13,
+          "q3_e3b3": 0.062157561646102706
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 15,
+          "q3_e3b3": -0.04752463239826731
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 9,
+          "q3_e3b3": -0.010654639538255522
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 11,
+          "q3_e3b3": 0.06215756164610263
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 13,
+          "q3_e3b3": 0.0052738840900802735
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 15,
+          "q3_e3b3": 0.015454419972499378
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 11,
+          "q3_e3b3": -0.047524632398267305
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 13,
+          "q3_e3b3": 0.015454419972499371
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 15,
+          "q3_e3b3": -0.06005584643581943
+        }
+      ],
+      "cubic": {
+        "positive_spin_pair_sum_e3b3": 0.30532198676310457,
+        "negative_spin_pair_sum_e3b3": -0.3025153891224076,
+        "spin_pair_abs_sum_e3b3": 0.6078373758855122,
+        "spin_pair_cancellation_fraction": 0.995382650439033,
+        "Jplus2_Jplus2_e3b3": -0.06005584643581943,
+        "all_other_spin_pairs_e3b3": 0.06286244407650374,
+        "initial_triple_e3b3": 0.12270827321621694,
+        "one_initial_intermediate_e3b3": -0.03241558885706332,
+        "no_initial_intermediate_e3b3": -0.08748608671845706,
+        "middle_diagonal_e3b3": 0.09017112912043662,
+        "middle_offdiagonal_e3b3": -0.08736453147974003,
+        "state_pair_abs_sum_e3b3": 0.796847827748728,
+        "state_pair_boundary": "Aggregates only; individual terms not serialized. Degenerate-subspace rotations can alter state-pair partitions; full spin-pair sums are the primary diagnostic."
+      },
+      "core": {
+        "P_R": {
+          "0": 0.3660586889598953,
+          "2": 0.5469163011789091,
+          "3": 4.330457708961807e-05,
+          "4": 0.08391365938099622,
+          "5": 7.920466031646559e-06,
+          "6": 0.0030356684418256777,
+          "7": 1.404111896432108e-07,
+          "8": 2.4293224994428558e-05,
+          "10": 2.3359067709770255e-08
+        },
+        "P_ground_R0": 0.3113051052850716,
+        "n_d_expectation": 2.5246664445737856,
+        "effective_n_d_coefficient_eps_plus_A0_MeV": -0.52,
+        "R0_boundary": "R=0 includes excited core 0+ states; P(R0) alone is not a causal argument."
+      },
+      "Hamiltonian_term_expectations_MeV": {
+        "boson": -4.231403112940618,
+        "quadrupole": -1.1479953237262608,
+        "exchange": 0.0,
+        "monopole": -2.2721998001164065
+      },
+      "spectrum_checks": {
+        "hermiticity_H_max": 0.0,
+        "hermiticity_J2_max": 0.0,
+        "commutator_H_J2_max": 4.263256414560601e-14,
+        "H_inf_scale": 10.340409302351269,
+        "J2_inf_scale": 347.1651042529677,
+        "energy_residual_max": 1.4106015639573424e-14,
+        "J2_residual_max": 1.2436692267116454e-09,
+        "orthonormality_max": 1.912790122097123e-15,
+        "degeneracy_atol": 1e-12,
+        "degeneracy_rtol": 1e-12,
+        "residual_tolerance": 2e-10
+      },
+      "elapsed_seconds": 0.44207096501486376,
+      "overlap_to_t1": {
+        "left": "common_t1",
+        "right": "remove_Lambda0",
+        "lowest_to_lowest_fidelity": 0.9658302693150553,
+        "left_lowest_best_match_right_same_J_ordinal": 0,
+        "best_match_fidelity": 0.9658302693150553
+      }
+    },
+    {
+      "label": "remove_A0",
+      "control_kind": "single_term_removal",
+      "t": 1.0,
+      "removed_term": "A0",
+      "couplings": {
+        "Gamma0": 0.6,
+        "Lambda0": 1.0,
+        "A0": 0.0
+      },
+      "state": {
+        "two_J": 11,
+        "same_J_ordinal": 0,
+        "state_index": 0,
+        "energy_MeV": -5.5395518907378,
+        "relative_to_global_lowest_MeV": 0.0,
+        "same_J_next_gap_MeV": 1.1756028657605428
+      },
+      "full_direct": {
+        "q2_e2b2": 0.7238954224930915,
+        "q3_e3b3": -0.07719150092225852,
+        "signed_ratio": -0.12533020207170903,
+        "signed_angle_deg": 32.39994164260188,
+        "folded_angle_deg": 27.600058357398115,
+        "angle_status": "within_rigid_domain"
+      },
+      "full_6j": {
+        "q2_e2b2": 0.723895422493086,
+        "q3_e3b3": -0.07719150092226325
+      },
+      "closure": {
+        "complete": true,
+        "delta_q2": -5.440092820663267e-15,
+        "delta_q3": -4.73232564246473e-15,
+        "reciprocity_residual": 3.1086244689504383e-15,
+        "required_missing_count": 0
+      },
+      "proxy5": {
+        "n": 5,
+        "states_used": 5,
+        "strength_raw_e2b2": 1.9637420123906297,
+        "q2_scalar_contribution_e2b2": 0.16364516769921914,
+        "chain_signed_e3b3": 2.7205443046798514,
+        "chain_middle_diagonal_e3b3": 1.3709458005251551,
+        "chain_middle_offdiagonal_e3b3": 1.3495985041546963,
+        "chain_sum_positive_terms_e3b3": 2.751755206547884,
+        "chain_sum_negative_terms_e3b3": -0.031210901868031687,
+        "raw_ratio": 0.8271383849818528,
+        "angle_deg": 11.39803554635266,
+        "angle_status": "within_rigid_domain",
+        "fraction_of_full_q2": 0.2260618904532179
+      },
+      "proxy_all": {
+        "n": null,
+        "states_used": 25,
+        "strength_raw_e2b2": 1.9673658533029994,
+        "q2_scalar_contribution_e2b2": 0.16394715444191663,
+        "chain_signed_e3b3": 2.747042283642991,
+        "chain_middle_diagonal_e3b3": 1.3720681379854989,
+        "chain_middle_offdiagonal_e3b3": 1.374974145657492,
+        "chain_sum_positive_terms_e3b3": 2.7810275322901004,
+        "chain_sum_negative_terms_e3b3": -0.033985248647109986,
+        "raw_ratio": 0.8328881255898195,
+        "angle_deg": 11.201142814219585,
+        "angle_status": "within_rigid_domain",
+        "fraction_of_full_q2": 0.22647905947144079
+      },
+      "quadratic_channels": [
+        {
+          "two_J": 7,
+          "q2_e2b2": 0.08399209452295323,
+          "fraction": 0.11602793982822127
+        },
+        {
+          "two_J": 9,
+          "q2_e2b2": 0.07373085304566898,
+          "fraction": 0.10185290686290067
+        },
+        {
+          "two_J": 11,
+          "q2_e2b2": 0.23314852906810327,
+          "fraction": 0.3220748768726029
+        },
+        {
+          "two_J": 13,
+          "q2_e2b2": 0.16907679141444346,
+          "fraction": 0.23356521696482624
+        },
+        {
+          "two_J": 15,
+          "q2_e2b2": 0.16394715444191651,
+          "fraction": 0.22647905947144065
+        }
+      ],
+      "same_J": {
+        "static_diagonal_RME_eb": 1.5090629161835254,
+        "static_q2_e2b2": 0.18977257375002712,
+        "other_same_J_q2_e2b2": 0.04337595531807614,
+        "static_fraction": 0.26215468126107433,
+        "other_same_J_fraction": 0.059920195611528546
+      },
+      "signed_cubic_spin_pairs": [
+        {
+          "two_Ja": 7,
+          "two_Jb": 7,
+          "q3_e3b3": -0.017840218116975164
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 9,
+          "q3_e3b3": -0.017490680976052088
+        },
+        {
+          "two_Ja": 7,
+          "two_Jb": 11,
+          "q3_e3b3": -0.04645069482130882
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 7,
+          "q3_e3b3": -0.01749068097605206
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 9,
+          "q3_e3b3": 0.014157586331415036
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 11,
+          "q3_e3b3": 0.0007994260816580124
+        },
+        {
+          "two_Ja": 9,
+          "two_Jb": 13,
+          "q3_e3b3": -0.012036181851284538
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 7,
+          "q3_e3b3": -0.04645069482130881
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 9,
+          "q3_e3b3": 0.000799426081658012
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 11,
+          "q3_e3b3": 0.1112853017456986
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 13,
+          "q3_e3b3": 0.05467104594447919
+        },
+        {
+          "two_Ja": 11,
+          "two_Jb": 15,
+          "q3_e3b3": -0.05118056881444372
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 9,
+          "q3_e3b3": -0.012036181851284546
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 11,
+          "q3_e3b3": 0.05467104594447919
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 13,
+          "q3_e3b3": 0.004775388829552869
+        },
+        {
+          "two_Ja": 13,
+          "two_Jb": 15,
+          "q3_e3b3": 0.011444691435177125
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 11,
+          "q3_e3b3": -0.05118056881444372
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 13,
+          "q3_e3b3": 0.01144469143517714
+        },
+        {
+          "two_Ja": 15,
+          "two_Jb": 15,
+          "q3_e3b3": -0.06908363370840608
+        }
+      ],
+      "cubic": {
+        "positive_spin_pair_sum_e3b3": 0.2640486038292952,
+        "negative_spin_pair_sum_e3b3": -0.3412401047515595,
+        "spin_pair_abs_sum_e3b3": 0.6052887085808547,
+        "spin_pair_cancellation_fraction": 0.8724715993740576,
+        "Jplus2_Jplus2_e3b3": -0.06908363370840608,
+        "all_other_spin_pairs_e3b3": -0.00810786721385244,
+        "initial_triple_e3b3": 0.07478734307313625,
+        "one_initial_intermediate_e3b3": -0.04808307668691579,
+        "no_initial_intermediate_e3b3": -0.10389576730848374,
+        "middle_diagonal_e3b3": 0.052694079795608174,
+        "middle_offdiagonal_e3b3": -0.12988558071787454,
+        "state_pair_abs_sum_e3b3": 0.8802685058710378,
+        "state_pair_boundary": "Aggregates only; individual terms not serialized. Degenerate-subspace rotations can alter state-pair partitions; full spin-pair sums are the primary diagnostic."
+      },
+      "core": {
+        "P_R": {
+          "0": 0.63222729019261,
+          "2": 0.3563436979713722,
+          "3": 2.272290469554081e-05,
+          "4": 0.011401746049913869,
+          "5": 5.416218687632112e-07,
+          "6": 3.5105678033546367e-06,
+          "7": 2.4343683776889834e-13,
+          "8": 4.903656809751092e-07,
+          "10": 3.2581245138518723e-10
+        },
+        "P_ground_R0": 0.6320345906739252,
+        "n_d_expectation": 1.4912366861996376,
+        "effective_n_d_coefficient_eps_plus_A0_MeV": 0.38,
+        "R0_boundary": "R=0 includes excited core 0+ states; P(R0) alone is not a causal argument."
+      },
+      "Hamiltonian_term_expectations_MeV": {
+        "boson": -4.8448591547894155,
+        "quadrupole": -0.8968222658176249,
+        "exchange": 0.20212952986923968,
+        "monopole": 0.0
+      },
+      "spectrum_checks": {
+        "hermiticity_H_max": 0.0,
+        "hermiticity_J2_max": 0.0,
+        "commutator_H_J2_max": 3.375077994860476e-14,
+        "H_inf_scale": 8.696642679530695,
+        "J2_inf_scale": 347.1651042529677,
+        "energy_residual_max": 6.490027460817268e-15,
+        "J2_residual_max": 3.201460808338706e-11,
+        "orthonormality_max": 2.55351295663786e-15,
+        "degeneracy_atol": 1e-12,
+        "degeneracy_rtol": 1e-12,
+        "residual_tolerance": 2e-10
+      },
+      "elapsed_seconds": 0.4151632050052285,
+      "overlap_to_t1": {
+        "left": "common_t1",
+        "right": "remove_A0",
+        "lowest_to_lowest_fidelity": 0.867805074291354,
+        "left_lowest_best_match_right_same_J_ordinal": 0,
+        "best_match_fidelity": 0.867805074291354
+      }
+    }
+  ],
+  "threadpools": {
+    "unavailable": true,
+    "thread_environment": "all relevant variables set to1 before import"
+  },
+  "boundary": "Causal sensitivity inside the fixed finite model. No fit, parameter uncertainty, intrinsic-shape measurement, published-figure replay or novelty claim. Raw out-of-domain proxy arguments are not clipped."
+}

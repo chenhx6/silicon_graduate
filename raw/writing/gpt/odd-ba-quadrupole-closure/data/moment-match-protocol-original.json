@@ -1,0 +1,206 @@
+{
+  "schema": "135Ba-conditional-static-moment-match-protocol-v1",
+  "recorded_before_new_root_or_proxy_results_at_utc": "2026-11-06T04:15:55.602132+00:00",
+  "status": "local prospective supplemental protocol after known primary and Gamma-only path; not external preregistration",
+  "question": "Does the complete/restricted distinction survive conditionally matching the independently already measured signed static moment along the fixed Gamma-only control path? Separately, does the raw proxy argument still exceed 1?",
+  "targets": [
+    {
+      "id": "adopted_lower",
+      "Qs_eb": 0.88,
+      "role": "adopted central minus literal quoted margin; not a confidence bound"
+    },
+    {
+      "id": "adopted_central",
+      "Qs_eb": 0.96,
+      "role": "adopted central conditional match"
+    },
+    {
+      "id": "adopted_upper",
+      "Qs_eb": 1.04,
+      "role": "adopted central plus literal quoted margin; not a confidence bound"
+    },
+    {
+      "id": "paper_alternative",
+      "Qs_eb": 0.98,
+      "role": "user-supplied paper-quoted alternative central only; not an independent datum or revised adoption"
+    }
+  ],
+  "adopted_source": {
+    "root_relative_file": "raw/papers/gpt/query/20261106-ba-spin-moment-benchmark/nndc135-adopted-text.ens",
+    "sha256": "08955bde5d990beea53a1e4302824cf33bf3064eeabefb27c36cafbb9901135c",
+    "level_locator": "L107: 268.218(20) keV, 11/2-, 28.7(2) h",
+    "moment_locator": "L111: MOME2=+0.96 8 (1983Mu12,1989Ra17)",
+    "configuration_locator": "L112: neutron h11/2^-1",
+    "method_locator": "L113: moments from laser spectroscopy (1979Be25,1983Mu12)",
+    "quantity": "signed spectroscopic electric quadrupole moment, eb",
+    "literal_value": "+0.96",
+    "literal_margin": "8",
+    "numeric_quoted_margin_eb": 0.08,
+    "evidence_layer": "adopted evaluated record; experimental source identity as cited therein, not a new original-paper extraction"
+  },
+  "alternative_source_boundary": "User quotes paper +0.98(0.08) eb. Only central0.98 included, with no new primary-source verification or statistical combination.",
+  "parameters_at_primary": {
+    "n_b": 5,
+    "two_j": 11,
+    "eps_d": 0.38,
+    "kappa": -0.124,
+    "chi": -0.24,
+    "v2": 0.81,
+    "Q_jj": -1.081027387032316,
+    "Gamma0": 0.6,
+    "Lambda0": 1.0,
+    "A0": -0.9
+  },
+  "frozen_even_core": {
+    "n_b": 5,
+    "eps_d": 0.38,
+    "kappa": -0.124,
+    "chi": -0.24
+  },
+  "electromagnetic_operator": {
+    "eF_eb": 0.125,
+    "chi_E2": 0.35,
+    "eB_sign": "positive",
+    "core_target_Bup_e2b2": 0.679,
+    "eB_parent_reference": 0.1298423794528743,
+    "policy": "recompute the same scalar calibration once as an identity check; then hold eB/eF/chiE/v2/Qjj fixed for every intervention"
+  },
+  "primary_reference": {
+    "Gamma0": 0.6,
+    "Qs_eb": 1.176930290546596,
+    "reference": "shape-closure-v1/study.json: cases[odd_A=135].primary"
+  },
+  "path": {
+    "vary": "Gamma0",
+    "bounds_MeV": [
+      0.0,
+      0.6
+    ],
+    "Lambda0": 1.0,
+    "A0": -0.9,
+    "fixed": "nB, signed Qjj, v2, bare core, positive calibrated eB, eF=.125, chiE=.35"
+  },
+  "signed_Qs_convention": {
+    "direct": "Qs=sqrt(16*pi/5)*<J,M=J|Q_20|J,M=J>, lowest two_J=11 in independently solved two_M=11 block",
+    "RME": "Qs=sqrt(16*pi/5)*CG(J J,2 0|J J)*R_ii/sqrt(2J+1), R_ii from complete M=1/2 registry",
+    "RME_convention": "<Jf Mf|Q_q|Ji Mi>=CG(Ji Mi,2 q|Jf Mf)*R_fi/sqrt(2Jf+1)",
+    "no_absolute_value_for_matching": true
+  },
+  "state_selection": {
+    "two_J": 11,
+    "same_J_ordinal": 0,
+    "energy_reference": "model lowest11/2-; positive-parity nuclear ground state excluded from this single-j sector",
+    "closure_two_M": 1,
+    "root_two_M": 11
+  },
+  "root_design": {
+    "function": "signed direct stretched Qs(Gamma0)-target",
+    "existing_grid_for_initial_brackets": [
+      0.0,
+      0.15,
+      0.3,
+      0.45,
+      0.6
+    ],
+    "algorithm": "scipy.optimize.brentq on every sign-changing adjacent existing-grid interval; keep all detected roots; record grid roots explicitly",
+    "xtol_Gamma0_MeV": 1e-12,
+    "rtol": 1e-12,
+    "maxiter": 100,
+    "Qs_match_absolute_tolerance_eb": 1e-09,
+    "root_certificate": "evaluate Qs at root+-1e-8 MeV within bounds and require a sign change; record both endpoints",
+    "uniqueness_boundary": "No claim to exclude tangent roots or paired crossings inside an unsampled bracket. Report observed monotonicity only on evaluated Qs samples.",
+    "phase_order": "Solve and write all moment-match-roots.json results before any new complete invariant or proxy computation; no selection using proxy values",
+    "no_broader_grids": true
+  },
+  "diagnostics_after_roots_fixed": [
+    "independent stretched and consistent M=1/2 RME Qs with sign and energy consistency",
+    "full direct and complete6j q2/q3, raw signed ratio, conditional signed/folded angles",
+    "J+2 proxy n5/all raw ratio and domain, no clipping",
+    "static and other-same-J q2 fractions; q2 by spin; signed cubic spin-pair aggregates and cancellation",
+    "P(coreR), P(core ground R0), nd, lowest-state ordinal and same-J gap",
+    "squared fidelity to both adjacent existing Gamma-path lowest states and bidirectional best same-J matching ranks",
+    "adjacent sorted combined known-grid and matched-root lowest-state fidelity and same-J rank",
+    "fixed small low-negative-parity relative-energy panel and changes from Gamma=.6"
+  ],
+  "energy_panel": {
+    "two_J": [
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19
+    ],
+    "same_J_ordinals": [
+      0,
+      1
+    ],
+    "reference": "each Hamiltonian lowest two_J11 state",
+    "comparison": "corresponding same-J energy ranks at Gamma=.6; energy ranks are not spectroscopic band assignments",
+    "extra_global_summary": "lowest eight negative-parity multiplets ordered by energy, with spins/ordinals, for each matched root and Gamma=.6"
+  },
+  "numerical_tolerances": {
+    "closure_absolute": 1e-09,
+    "Qs_stretched_vs_RME_absolute_eb": 1e-10,
+    "stretched_vs_half_energy_MeV": 1e-10,
+    "probability_sum_absolute": 1e-10,
+    "small_sameJ_gap_warning_MeV": 0.1
+  },
+  "decision_boundaries": [
+    "Report raw full and restricted ratios and conditional moment-coordinate differences quantitatively; no numerical success threshold selected post hoc.",
+    "Report separately whether proxy raw argument is above1; if it is no longer above1 under the matches, say so.",
+    "Conditional empirical relevance within this fixed model path only; matching datum is consumed, not independent validation.",
+    "Quoted-margin endpoints are neither a posterior nor a confidence interval; no global energy or operator refit.",
+    "Finite sampled fidelity and gaps can flag switching but cannot prove global continuous uniqueness.",
+    "P(R0) alone is not a causal argument; no intrinsic shape/softness/rigidity inference from these coordinates."
+  ],
+  "stop_conditions": [
+    "Any frozen input/preserved artifact hash mismatch",
+    "No signed bracket for a target: record unavailable without expanding path",
+    "Nonconvergence, root residual or Qs convention failure",
+    "Incomplete required reduced closure or numerical closure failure",
+    "If rank/gap diagnostics become ambiguous, report ambiguity without changing state selection"
+  ],
+  "thread_policy": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "BLIS_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "independent_runtime_threadpool_query": "not available; environment policy only"
+  },
+  "write_boundary": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/moment-match-* only; new files; no manuscript/PLAN/get-paper/config/session writes; no commit",
+  "input_sha256": {
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-chain-contract.json": "2183e4828b1395e16847225c9c2d297c09e8ee14980f5dde27f14ff7f419c1cf",
+    "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/ba-core-E2.json": "4dfdafe211e675049018f62393192c943544e32b3916151b26161e5b103387d0",
+    "outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/study.json": "45d3aafb4d02b2bf54620c4fd4356178c814a2a4b1eb5b6d15caa4132985ca0a",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-probe/chain-core-only-v1.json": "6a530f851325a33845ce8b90a84535723e75eb9e1ff4d1fc2ae574a20eb95f6c",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-probe/run_probe.py": "4cebc4cd466a3a7e89be93a6c3db90921867bf4cc25e6215f28b2b82fbc63097",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/audit.md": "1a261223beab3ffff0a28d3aa5e54e7e0fb7380c9b858165a79bf290281c0f2a",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/pilot-assessment.md": "14251f946aff2e814d22c06f58a322afad8533f0b9193ac13a4b028a08d51a50",
+    "system/scripts/analysis/single_j_ibfm.py": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+    "system/scripts/analysis/quadrupole_scalar_invariants.py": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1",
+    "system/scripts/analysis/paired_single_j_em.py": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+    "raw/papers/gpt/query/20261106-ba-spin-moment-benchmark/nndc135-adopted-text.ens": "08955bde5d990beea53a1e4302824cf33bf3064eeabefb27c36cafbb9901135c"
+  },
+  "preserved_existing_output_sha256": {
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/checks.json": "64505c4fdd55e7fcd99f93918e2e288407c08b01a7ab7dc3dd790036b8f979a7",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/controls.json": "f19741cedd7e7e29272a2e49fdcce0e3a1fc44a8e522beb540202e3d59828f04",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/cubic-spin-sectors.csv": "3f35f1555eb53b17ba9bd3720647c065324a2f8362d04cbe3b40af610af1526f",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/execution.log": "9ea25e0f1be597a4fa5e814b9cad15bf3526f0f4a21ca3cac5b1b8cc3e7375bf",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/gamma-path-execution.log": "5b4270867fbdd1cbbdb6dec1da965bb23d3f65843e65e07fd8c3361ff40441c1",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/gamma-path-protocol.json": "12bfe13ab5a832cb153d68af71752dfbe55e418631b02698127ff6186335d4b8",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/gamma-path-report.md": "0d6a2c4537e7afcd0d56ce61feebc2b473113a5330a03f52770a6cf71bbddb4f",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/gamma-path-summary.csv": "9b9e17c828433ed337b5d1f8d06ad4daab2da8d6c8ac4e6dc0753e20203ec546",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/gamma-path.json": "99954dfb5083bb2a145acc6ae47b8e6adf0145576f3f57532f14cb9cf529773a",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/protocol.json": "db65e404bf9270b55b587aaadf3e5c9b2dd7e071e906672bb78a8d929c929023",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/report.md": "d0ac75b1c88b9d3c026fa1fe5eeb9c66f90d10bab70c8a02a529fea4fe6c824b",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/run_controls.py": "df9dacea848d1485c270b6cd4d18754ec59f505e21225e0fdb8817d77b5ef385",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/run_gamma_path.py": "e60832d741e203a40b707f7bd04733389bc82ede92b30da7118cea0f886cd0e0",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/summary.csv": "279389665c16f5da73ec601e14aec48c4131991cc21cb917ff1f026dd0a9ef36"
+  },
+  "compactness": "No serialized eigenvectors, full RME matrices, or individual cubic state-pair tensor."
+}

@@ -1,0 +1,109 @@
+{
+  "at_utc": "2026-11-06T03:55:07.513037+00:00",
+  "passed": true,
+  "checks": {
+    "original_protocol_unchanged": true,
+    "original_results_unchanged": true,
+    "supplement_protocol_identity": true,
+    "first_driver_identity": true,
+    "supplement_driver_identity": true,
+    "frozen_input:outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-chain-contract.json": true,
+    "frozen_input:outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/ba-core-E2.json": true,
+    "frozen_input:outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/study.json": true,
+    "frozen_input:outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-probe/chain-core-only-v1.json": true,
+    "frozen_input:outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-probe/run_probe.py": true,
+    "frozen_input:outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/audit.md": true,
+    "frozen_input:outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/pilot-assessment.md": true,
+    "frozen_input:system/scripts/analysis/single_j_ibfm.py": true,
+    "frozen_input:system/scripts/analysis/quadrupole_scalar_invariants.py": true,
+    "frozen_input:system/scripts/analysis/paired_single_j_em.py": true,
+    "primary_endpoint_exact_match": true,
+    "initial_design_cases": true,
+    "supplement_only_three_new_scalar_points": true,
+    "supplement_fixed_other_couplings": true,
+    "supplement_fixed_EM": true,
+    "all_required_closures_complete": true,
+    "direct_vs_6j_tolerance": true,
+    "bidirectional_rank0_continuation": true,
+    "gamma_path_fidelity_and_gap_reported": true,
+    "endpoints_replayed_only_at_same_energy_gap": true,
+    "proxy_undefined_not_clipped": true,
+    "signed_cubic_complete_sum": true,
+    "core_R_probabilities_normalized": true,
+    "syntax:run_controls.py": true,
+    "syntax:run_gamma_path.py": true,
+    "no_large_state_pair_json": true,
+    "scoped_diff_check": true,
+    "own_text_whitespace": true
+  },
+  "max_direct_minus_reduced_q2": 2.241540286718191e-13,
+  "max_direct_minus_reduced_q3": 1.4376000390114996e-13,
+  "parent_endpoint_differences": {
+    "q2": 0.0,
+    "q3": 0.0,
+    "signed_ratio": 0.0,
+    "static_fraction": 0.0,
+    "other_same_J_fraction": 0.0,
+    "proxy5_raw_ratio": 0.0,
+    "proxy_all_raw_ratio": 0.0,
+    "q3_positive_sectors": 0.0,
+    "q3_negative_sectors": 0.0
+  },
+  "supplement_continuity": {
+    "forward_tracked_same_J_ordinals": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "backward_tracked_same_J_ordinals": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lowest_preserved_both_directions_on_sample": true,
+    "minimum_sampled_gap_MeV": 0.4812848451972407,
+    "minimum_adjacent_lowest_fidelity": 0.9073388217288324,
+    "scope": "Five sampled points, not a proof about all continuous parameter values or a critical point fit"
+  },
+  "distinct_new_Hamiltonian_points_total": 14,
+  "new_scalar_points_in_supplement": 3,
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "BLAS_policy": "one-thread environment variables set in each producer before numpy/scipy import; threadpoolctl unavailable"
+  },
+  "scoped_diff_check": {
+    "command": [
+      "git",
+      "--no-optional-locks",
+      "diff",
+      "--check",
+      "--",
+      "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "file_hashes": {
+    "controls.json": "f19741cedd7e7e29272a2e49fdcce0e3a1fc44a8e522beb540202e3d59828f04",
+    "cubic-spin-sectors.csv": "3f35f1555eb53b17ba9bd3720647c065324a2f8362d04cbe3b40af610af1526f",
+    "execution.log": "9ea25e0f1be597a4fa5e814b9cad15bf3526f0f4a21ca3cac5b1b8cc3e7375bf",
+    "gamma-path-execution.log": "5b4270867fbdd1cbbdb6dec1da965bb23d3f65843e65e07fd8c3361ff40441c1",
+    "gamma-path-protocol.json": "12bfe13ab5a832cb153d68af71752dfbe55e418631b02698127ff6186335d4b8",
+    "gamma-path-report.md": "0d6a2c4537e7afcd0d56ce61feebc2b473113a5330a03f52770a6cf71bbddb4f",
+    "gamma-path-summary.csv": "9b9e17c828433ed337b5d1f8d06ad4daab2da8d6c8ac4e6dc0753e20203ec546",
+    "gamma-path.json": "99954dfb5083bb2a145acc6ae47b8e6adf0145576f3f57532f14cb9cf529773a",
+    "protocol.json": "db65e404bf9270b55b587aaadf3e5c9b2dd7e071e906672bb78a8d929c929023",
+    "report.md": "d0ac75b1c88b9d3c026fa1fe5eeb9c66f90d10bab70c8a02a529fea4fe6c824b",
+    "run_controls.py": "df9dacea848d1485c270b6cd4d18754ec59f505e21225e0fdb8817d77b5ef385",
+    "run_gamma_path.py": "e60832d741e203a40b707f7bd04733389bc82ede92b30da7118cea0f886cd0e0",
+    "summary.csv": "279389665c16f5da73ec601e14aec48c4131991cc21cb917ff1f026dd0a9ef36"
+  },
+  "boundary": "Numerical arithmetic, finite-space closure and sampled state tracking only. No confidence interval, refit, experimental shape or source-figure-replay claim."
+}

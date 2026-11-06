@@ -6065,3 +6065,12 @@ raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，�
 - 2026-11-05: Made review annotations behavior-neutral across policy, query skill, workflows and lint/promotion checks; 13 isolated lint tests passed; preserved concurrent research edits. See outputs/self-tests/20261105-review-status-neutrality.md.
 
 - 2026-11-05: Established raw/proposal/ as the Git-published proposal archive; moved three 20261101 application drafts from outputs/plans/ with identical SHA-256 and updated references. Task plans remain in outputs/plans/.
+
+
+## 2026-11-06 — 奇Ba四极闭合单点研究稿与受控模型检查
+
+本goal完成五核电荷标定、完整direct/6j闭合、通道与有符号三次矩分解、35设置算符检查、135Ba耦合路径、Qs条件匹配及五分支E2定标。单点稿和公开数值/代码包位于`raw/writing/gpt/odd-ba-quadrupole-closure/`；内部科学审查支持有边界的EPJA模型研究贡献，作者信息仍占位，未投稿。
+
+Vogt2017原实验更新137Ba候选态身份，589-ns上游寿命没有被误用为15/2母态寿命。相关source/model/research-note及Greiner/DF/手征宇称表述已回写；完整goal保持active，不宣称全库raw历史全文已读。所有原始出版商PDF留本地，研究文件按显式清单提交，用户PLAN和其它session安装工作不进入本批。
+
+本批稳定指针为`main / research: establish odd-Ba quadrupole redistribution study`。检查、最终精确hash、push结果和post-commit reconciliation以`outputs/l4/20261105-ba129-controlled-pairing/publication-final-receipt.local.json`为准。

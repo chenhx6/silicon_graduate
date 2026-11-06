@@ -1,0 +1,809 @@
+{
+  "schema": "klein-v1-exact-algebra-audit/1",
+  "source_scope": "arXiv:nucl-th/0004051v1, 23 April 2000 only",
+  "published_VoR_checked": false,
+  "arithmetic": "Python standard-library fractions.Fraction; exact rational",
+  "nuclear_implementation_imported_or_run": false,
+  "counterexample_parameters": {
+    "Omega": "2",
+    "eta": "1/10",
+    "R": [
+      [
+        "2",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "H": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "2"
+      ]
+    ],
+    "Theta": [
+      [
+        "1/2",
+        "0"
+      ],
+      [
+        "0",
+        "-1"
+      ]
+    ]
+  },
+  "check_count": 30,
+  "passed": 30,
+  "failed": 0,
+  "pass_meaning": "Expected identities and counterexamples reproduced, not blanket source validation.",
+  "checks": [
+    {
+      "id": "scaled_idempotence",
+      "source_equation": "A8 / A24",
+      "passed": true,
+      "actual_exact": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "interpretation": "R=diag(2,0) satisfies the source's scaled projector constraint."
+    },
+    {
+      "id": "commuting_stationary_example",
+      "source_equation": "A15",
+      "passed": true,
+      "actual_exact": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "interpretation": "The nonzero H=diag(1,2) commutes with R."
+    },
+    {
+      "id": "stationary_example_A18",
+      "source_equation": "A18",
+      "passed": true,
+      "actual_exact": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "interpretation": "Theta=diag(1/2,-1) satisfies the variational equation exactly."
+    },
+    {
+      "id": "stationary_example_A21_left",
+      "source_equation": "A21",
+      "passed": true,
+      "actual_exact": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "interpretation": "Left multiplication of A18 is valid."
+    },
+    {
+      "id": "stationary_example_A21_right",
+      "source_equation": "A21",
+      "passed": true,
+      "actual_exact": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "interpretation": "Right multiplication of A18 is valid."
+    },
+    {
+      "id": "A22_counterexample",
+      "source_equation": "A21 -> A22",
+      "passed": true,
+      "actual_exact": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "4"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "4"
+        ]
+      ],
+      "interpretation": "A18 and A21 hold, but H=Omega*Theta does not follow."
+    },
+    {
+      "id": "A23_false_negative",
+      "source_equation": "A23",
+      "passed": true,
+      "actual_exact": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "2"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "2"
+        ]
+      ],
+      "interpretation": "A23 rejects this valid nonzero commuting stationary example."
+    },
+    {
+      "id": "A22_substitution_factor",
+      "source_equation": "A18 + A22 -> A23",
+      "passed": true,
+      "actual_exact": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "2"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "2"
+        ]
+      ],
+      "interpretation": "The actual substituted residual differs from printed A23 by H."
+    },
+    {
+      "id": "A26_linear_tangent_failure",
+      "source_equation": "A25-A27",
+      "passed": true,
+      "actual_exact": [
+        [
+          "1/5",
+          "0"
+        ],
+        [
+          "0",
+          "2/5"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "1/5",
+          "0"
+        ],
+        [
+          "0",
+          "2/5"
+        ]
+      ],
+      "interpretation": "The printed update violates the first-order constraint."
+    },
+    {
+      "id": "A26_sandwich_failure",
+      "source_equation": "A25-A26 / A28",
+      "passed": true,
+      "actual_exact": [
+        [
+          "2/5",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "2/5",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "interpretation": "The update does not even satisfy the necessary A28 condition."
+    },
+    {
+      "id": "A26_finite_step_idempotence_failure",
+      "source_equation": "A24-A27",
+      "passed": true,
+      "actual_exact": [
+        [
+          "21/100",
+          "0"
+        ],
+        [
+          "0",
+          "11/25"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "21/100",
+          "0"
+        ],
+        [
+          "0",
+          "11/25"
+        ]
+      ],
+      "interpretation": "The constraint defect contains a nonzero term linear in eta."
+    },
+    {
+      "id": "A23_false_positive",
+      "source_equation": "A23 / A25",
+      "passed": true,
+      "actual_exact": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "interpretation": "A23 is zero for a nonstationary off-diagonal Hamiltonian."
+    },
+    {
+      "id": "A23_false_positive_noncommutation",
+      "source_equation": "A15 versus A23",
+      "passed": true,
+      "actual_exact": [
+        [
+          "0",
+          "2"
+        ],
+        [
+          "-2",
+          "0"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "0",
+          "2"
+        ],
+        [
+          "-2",
+          "0"
+        ]
+      ],
+      "interpretation": "The zero A23 residual does not imply commutation or stationarity."
+    },
+    {
+      "id": "A28_is_necessary_only_sandwich",
+      "source_equation": "A28",
+      "passed": true,
+      "actual_exact": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "interpretation": "deltaR=Q satisfies the sandwich condition."
+    },
+    {
+      "id": "A28_is_necessary_only_tangent",
+      "source_equation": "A27",
+      "passed": true,
+      "actual_exact": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-2"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-2"
+        ]
+      ],
+      "interpretation": "deltaR=Q nevertheless fails the full tangent condition."
+    },
+    {
+      "id": "printed_step_can_increase_linear_functional",
+      "source_equation": "A17 / A25-A26",
+      "passed": true,
+      "actual_exact": "3/10",
+      "expected_exact": "3/10",
+      "interpretation": "For G=Tr(HR), the printed direction can increase G."
+    },
+    {
+      "id": "independent_tangent_projection",
+      "source_equation": "A27; auditor derivation",
+      "passed": true,
+      "actual_exact": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "interpretation": "The off-diagonal projector gradient is tangent; no solver is implemented."
+    },
+    {
+      "id": "independent_tangent_descent",
+      "source_equation": "auditor derivation",
+      "passed": true,
+      "actual_exact": "-9/5",
+      "expected_exact": "-9/5",
+      "interpretation": "For the linear test functional its directional derivative is nonpositive."
+    },
+    {
+      "id": "A12_norm_definition",
+      "source_equation": "A12",
+      "passed": true,
+      "actual_exact": [
+        [
+          "8"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "8"
+        ]
+      ],
+      "interpretation": "The observed block norm is Lambda_a*Omega_a=8."
+    },
+    {
+      "id": "A13_wrong_normalization_map",
+      "source_equation": "A12-A13",
+      "passed": true,
+      "actual_exact": [
+        [
+          "32"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "32"
+        ]
+      ],
+      "interpretation": "The printed scale gives Lambda_a^2*Omega_a=32, not Omega_a=2."
+    },
+    {
+      "id": "reciprocal_scale_is_only_local_normalization",
+      "source_equation": "auditor derivation",
+      "passed": true,
+      "actual_exact": [
+        [
+          "2"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "2"
+        ]
+      ],
+      "interpretation": "The reciprocal repairs this one nonzero block norm only."
+    },
+    {
+      "id": "nonunitary_rescale_changes_Gram_matrix",
+      "source_equation": "A13 algorithm boundary",
+      "passed": true,
+      "actual_exact": [
+        [
+          "5",
+          "3"
+        ],
+        [
+          "3",
+          "5"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "5",
+          "3"
+        ],
+        [
+          "3",
+          "5"
+        ]
+      ],
+      "interpretation": "Orbital-dependent scaling can destroy orthogonality; not a complete repair."
+    },
+    {
+      "id": "CFP_completeness_Gram",
+      "source_equation": "2.9-2.10 / 2.25-2.26",
+      "passed": true,
+      "actual_exact": [
+        [
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "2"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "2"
+        ]
+      ],
+      "interpretation": "The physical CFP columns have norm Omega and are orthogonal."
+    },
+    {
+      "id": "CFP_density_scaled_idempotence",
+      "source_equation": "A7-A8",
+      "passed": true,
+      "actual_exact": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "interpretation": "Completeness and the Gram identity imply A8."
+    },
+    {
+      "id": "CFP_core_number_sums",
+      "source_equation": "2.24 / A19-A20",
+      "passed": true,
+      "actual_exact": [
+        "2",
+        "2"
+      ],
+      "expected_exact": [
+        "2",
+        "2"
+      ],
+      "interpretation": "Heavy particle count=2 and light vacancy count=2."
+    },
+    {
+      "id": "CFP_odd_sector_strengths_0",
+      "source_equation": "2.9-2.10; completeness derivation",
+      "passed": true,
+      "actual_exact": [
+        "1",
+        "1"
+      ],
+      "expected_exact": [
+        "1",
+        "1"
+      ],
+      "interpretation": "For N_odd=1, V strength=Omega-N_odd and U strength=N_odd."
+    },
+    {
+      "id": "CFP_odd_sector_strengths_1",
+      "source_equation": "2.9-2.10; completeness derivation",
+      "passed": true,
+      "actual_exact": [
+        "1",
+        "1"
+      ],
+      "expected_exact": [
+        "1",
+        "1"
+      ],
+      "interpretation": "For N_odd=1, V strength=Omega-N_odd and U strength=N_odd."
+    },
+    {
+      "id": "arbitrary_projector_idempotent",
+      "source_equation": "A8 alone is insufficient",
+      "passed": true,
+      "actual_exact": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "interpretation": "An arbitrary rank-two projector satisfies the algebraic norm."
+    },
+    {
+      "id": "arbitrary_projector_commutes",
+      "source_equation": "A15 alone is insufficient",
+      "passed": true,
+      "actual_exact": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "expected_exact": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "interpretation": "It also commutes with a frozen Hermitian Hamiltonian."
+    },
+    {
+      "id": "arbitrary_projector_wrong_core_numbers",
+      "source_equation": "A19-A20",
+      "passed": true,
+      "actual_exact": [
+        "2",
+        "-2"
+      ],
+      "expected_exact": [
+        "2",
+        "-2"
+      ],
+      "interpretation": "The same projector fails both required core-number sums."
+    }
+  ]
+}

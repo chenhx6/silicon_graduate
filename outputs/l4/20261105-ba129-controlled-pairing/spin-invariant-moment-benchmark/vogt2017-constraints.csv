@@ -1,0 +1,5 @@
+nucleus,A,Z,transition,parent_keV,daughter_keV,Egamma_tableII_keV,Egamma_quoted_margin_keV,Egamma_figure6_keV,relative_Igamma,T_half_parent_ns,T_half_margin_ns,Bdown_E2_Wu,Bdown_margin_Wu,ICC_numeric,role,locator
+137Ba,137,56,(15/2-)_1 -> 11/2-_1,2229.8,661.7,1568.2,0.5,1568.1,,,,,,,R_stat^(1) denominator candidate; absolute strength still unavailable,Fig.6 PDF p.8/printed p.7; Table II and Sec.III B PDF p.9/printed p.8
+137Ba,137,56,(19/2-)_1 -> (15/2-)_1,2349.9,2229.8,120.1,0.5,120.1,,589.0,20.0,0.46,0.03,,"Separate additional EM benchmark, under the author's tentative assignments/E2 interpretation; not the R_stat^(1) denominator",Fig.7/Sec.III B PDF p.9; Sec.IV PDF p.13; Table III PDF p.14/printed p.13
+135Xe,135,54,(19/2-)_1 -> (15/2-)_1,2058.0,1749.0,,,,,9.0,0.9,0.52,0.06,,Other-isotope context from the same paper; not a 135Ba datum,Fig.5 PDF p.8; Table III PDF p.14/printed p.13
+133Te,133,52,19/2-_1 -> 15/2-_1,1610.4,,,,,,100.0,5.0,2.58,0.29,,"Previous-work context; used to adjust SN100PN proton charge in this paper, not its independent validation",Sec.IV PDF p.13; Table III PDF p.14/printed p.13

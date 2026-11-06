@@ -1,0 +1,12 @@
+nucleus,state,two_J,ordinal,source_locator,vector_path,source_vector_energy_keV,source_display_energy_keV,declared_model_energy_keV,model_minus_display_keV,within_nearest_keV_half_width,within_1keV
+128Ba,2_1+,4,0,"paper p.6 Fig.3(a), N=72, theoretical 128Ba",3,347.99997681158425,348,348.0639229510967,0.06392295109668567,True,True
+128Ba,4_1+,8,0,"paper p.6 Fig.3(a), N=72, theoretical 128Ba",9,961.9999830546195,962,962.352309280778,0.3523092807779449,True,True
+128Ba,6_1+,12,0,"paper p.6 Fig.3(a), N=72, theoretical 128Ba",15,1810.9999603121341,1811,1810.8007820041844,-0.19921799581561572,True,True
+128Ba,0_2+,0,1,"paper p.6 Fig.3(a), N=72, theoretical 128Ba",21,2101.000000445931,2101,2101.2594295312147,0.25942953121466417,True,True
+128Ba,2_2+,4,1,"paper p.6 Fig.3(a), N=72, theoretical 128Ba",27,1300.0000445931082,1300,1299.6359502557323,-0.3640497442677315,True,True
+129Ba,7/2_1-,7,0,"paper p.7 Fig.5(c), N=73, theoretical negative-parity 129Ba",152,109.99978149377121,110,110.42475651315975,0.4247565131597497,True,True
+129Ba,9/2_1-,9,0,"paper p.7 Fig.5(c), N=73, theoretical negative-parity 129Ba",158,0.0,0,0.0,0.0,True,True
+129Ba,11/2_1-,11,0,"paper p.7 Fig.5(c), N=73, theoretical negative-parity 129Ba",164,81.0000093645522,81,80.77263432988069,-0.22736567011931186,True,True
+129Ba,13/2_1-,13,0,"paper p.7 Fig.5(c), N=73, theoretical negative-parity 129Ba",170,466.9997534001129,467,466.70712577735605,-0.29287422264394536,True,True
+129Ba,15/2_1-,15,0,"paper p.7 Fig.5(c), N=73, theoretical negative-parity 129Ba",176,484.9999219620611,485,485.7204221208491,0.7204221208490935,False,True
+129Ba,17/2_1-,17,0,"paper p.7 Fig.5(c), N=73, theoretical negative-parity 129Ba",182,1213.0000593088334,1213,1213.1237609686955,0.12376096869547837,True,True

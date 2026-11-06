@@ -1,0 +1,11 @@
+{
+  "checked_at_actual_UTC": "2026-11-06T03:44:19.559980+00:00",
+  "preserved_prior_files": 20,
+  "prior_files_changed": [],
+  "parent_study_unchanged": true,
+  "parent_inputs_unchanged": true,
+  "new_archive_files_verified": 4,
+  "new_archive_manifest_sha256": "e77de66e340dbdc81a0b55f0f0af1b725120e6c8b691b719903597ee62c96dc1",
+  "new_knowledge_source_pages": [],
+  "no_model_or_causal_control_rerun": true
+}

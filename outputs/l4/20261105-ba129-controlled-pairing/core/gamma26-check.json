@@ -1,0 +1,12 @@
+{
+  "scope": "mathematical correction of a legacy gamma26 example, not nuclear data",
+  "gamma_deg": 26.0,
+  "chosen_E2first_keV": 120.0,
+  "E2second_keV": 271.3243467834579,
+  "E4first_keV": 333.7629975677014,
+  "R4_over_2": 2.781358313064178,
+  "BE2_22_to21_over21_to0": 1.0488943263317485,
+  "BE2_22_to0_over21_to0": 0.03277894505788306,
+  "producer": "system/scripts/ba129_core_constraints.py",
+  "producer_sha256": "e2056e2ec101bc8d659e63d8d33f148b5cca446c29dfc5de70193f69be276faa"
+}

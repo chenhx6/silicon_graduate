@@ -1,0 +1,14 @@
+{
+  "at_utc": "2026-11-06T04:27:41.875369+00:00",
+  "kind": "moment-match",
+  "status": "passed",
+  "producer_exit_code": 0,
+  "compared_fields": [
+    "cases",
+    "combined_known_and_matched_adjacent_overlaps"
+  ],
+  "relative_tolerance": 1e-09,
+  "absolute_tolerance": 1e-10,
+  "result": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/moment-match-results.json",
+  "boundary": "Numerical reproducibility, not empirical validation or journal readiness."
+}

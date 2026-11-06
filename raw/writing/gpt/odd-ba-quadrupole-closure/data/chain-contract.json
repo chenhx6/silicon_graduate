@@ -1,0 +1,122 @@
+{
+  "schema": "odd-Ba-angular-closure-study-v1",
+  "recorded_at_utc": "2026-11-05T18:33:37.038569+00:00",
+  "run_date_label": "2026-11-06",
+  "status": "prospective_internal_chain_contract_after129pilot;not_external_preregistration",
+  "question": "Do changes in a J+2-only deformation proxy reflect full scalar quadrupole collectivity or redistribution among angular-momentum channels in this explicitly defined A130 model family?",
+  "source": "raw/papers/2017_Nomura et al_Shape-phase transitions in odd-mass \u03b3 -soft nuclei with mass A \u2248 130.pdf",
+  "source_sha256": "481e6a9e0f6b01e9c5db5e2b06d9b350dba0638393c7da7f532c3040e9efaea9",
+  "parameter_locators": "Nomura2017 TablesI,III,V; A\u22121 core inferred fromchainandexplicit135Ba\u2192134Ba example; exact authorrun cards unavailable",
+  "cases": [
+    {
+      "odd_A": 129,
+      "core_A": 128,
+      "Z": 56,
+      "n_b": 8,
+      "two_j": 11,
+      "two_J_state": 11,
+      "state_ordinal": 0,
+      "eps_d": 0.03,
+      "kappa": -0.102,
+      "chi": -0.18,
+      "v2": 0.453,
+      "Gamma0": 0.6,
+      "Lambda0": 2.1,
+      "A0": -0.15
+    },
+    {
+      "odd_A": 131,
+      "core_A": 130,
+      "Z": 56,
+      "n_b": 7,
+      "two_j": 11,
+      "two_J_state": 11,
+      "state_ordinal": 0,
+      "eps_d": 0.06,
+      "kappa": -0.116,
+      "chi": -0.18,
+      "v2": 0.568,
+      "Gamma0": 0.6,
+      "Lambda0": 2.1,
+      "A0": -0.23
+    },
+    {
+      "odd_A": 133,
+      "core_A": 132,
+      "Z": 56,
+      "n_b": 6,
+      "two_j": 11,
+      "two_J_state": 11,
+      "state_ordinal": 0,
+      "eps_d": 0.13,
+      "kappa": -0.122,
+      "chi": -0.18,
+      "v2": 0.687,
+      "Gamma0": 0.6,
+      "Lambda0": 0.9,
+      "A0": 0.0
+    },
+    {
+      "odd_A": 135,
+      "core_A": 134,
+      "Z": 56,
+      "n_b": 5,
+      "two_j": 11,
+      "two_J_state": 11,
+      "state_ordinal": 0,
+      "eps_d": 0.38,
+      "kappa": -0.124,
+      "chi": -0.24,
+      "v2": 0.81,
+      "Gamma0": 0.6,
+      "Lambda0": 1.0,
+      "A0": -0.9
+    },
+    {
+      "odd_A": 137,
+      "core_A": 136,
+      "Z": 56,
+      "n_b": 4,
+      "two_j": 11,
+      "two_J_state": 11,
+      "state_ordinal": 0,
+      "eps_d": 1.15,
+      "kappa": -0.122,
+      "chi": -0.85,
+      "v2": 0.936,
+      "Gamma0": 0.4,
+      "Lambda0": 5.0,
+      "A0": -0.6
+    }
+  ],
+  "hamiltonian_policy": "fixed printed inputs; no fit or parameter selection using invariant results",
+  "E2_policy": {
+    "literal_paper_operator": "eB Q_chi_prime -eF(1-2v\u00b2)Qjj F2/sqrt5",
+    "chi_prime": 0.35,
+    "eF_eb": 0.125,
+    "eB": "positive calibration to source-registeredfirst2+coreE2 strength, recordedseparately",
+    "control": "sameHamiltonian,stateandcoreE2tensorwitheF=0; no newfit"
+  },
+  "computations": [
+    "directcompletewithin-space q2=<Q\u00b7Q> andsignedq3=-sqrt(7/2)<[QxQ]^2\u00b7Q>",
+    "independentreduced-ME6j closure withallallowedJ intermediatechannels",
+    "literalJprime=J+2 proxies forn=1,5,10,andallstatesinthatspin",
+    "fullq2fractionbyintermediatespinand within-channelenergycutoff",
+    "same-state scalar versus proxy beta scale and formal foldedgamma; retainundefinedanglewhenrawratio materiallyoutofdomain",
+    "decoupledR0core\u2297j control, fixedaxialK=Jcontrol, M/basisphasecontrols"
+  ],
+  "interpretation": [
+    "Fullwithinmodelspace isnotcompleteexperimentalnuclearmatrix-elementcoverage.",
+    "q3/q2^1.5 isnotguaranteedacosdomainwhenbetafluctuationsorprojectednoncommutingoperatorsmatter; no unconditionalclipping.",
+    "No physicalgamma-rigidity ormodeassignmentfroma scalarmean alone.",
+    "No claimthat publishedNomuraEMfiguresare reproduced: evenJ0 literaloperatorcurrentlydoesnotreproduceFig13gamma. Source/operator auditcontinues.",
+    "ExistingKumar/Cline/Racahtheoryisnotclaimednew; anyarticlecontributionmustbe specificquantifiedimpact beyondthoseknownidentities."
+  ],
+  "article_gate": [
+    "analyticcontrolsandcompleteclosurevalidatedindependently",
+    "calibration/phase/sourceversionsfullydeclared",
+    "isotopicconclusiondistinguishesrealq2changefromchannelredistributionwithoperatorcontrols",
+    "primaryprecedentandjournal-fitreview supportsnontrivialnewinformation",
+    "singlefocusedargument; allunrelatedpairedrotor/branchauditsstayoutsideprimarymanuscript"
+  ]
+}

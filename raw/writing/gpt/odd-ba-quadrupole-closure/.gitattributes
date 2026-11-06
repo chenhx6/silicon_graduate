@@ -1,0 +1,4 @@
+# Preserve frozen numerical/provenance bytes, including CSV line endings.
+data/** -text
+# CSV producers use CRLF; retain all other default whitespace checks.
+*.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

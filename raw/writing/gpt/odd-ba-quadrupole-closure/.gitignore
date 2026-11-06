@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+/main.aux
+/main.blg
+/main.log
+/main.out
+/analysis/compile-stage*.log
+/analysis/compile-final.log
+/figures/made/data/layout-v1/
+/figures/made/data/layout-v2/
+/figures/made/data/layout-v3/
+# Only current plot views are part of this release; earlier layouts stay local.
+/figures/made/data/*
+!/figures/made/data/v4/
+!/figures/made/data/v4/**
+!/figures/made/data/quadrupole-path-v2-plot-record.json
+/analysis/figure-reproduction-layout-v2.json

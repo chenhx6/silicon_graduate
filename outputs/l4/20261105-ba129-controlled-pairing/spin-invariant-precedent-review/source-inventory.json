@@ -1,0 +1,187 @@
+{
+  "generated_at": "2026-11-05T18:00:10.825829+00:00",
+  "nominal_task_date": "2026-11-06",
+  "clock_note": "Directory date follows the user's requested 20261106 collection. retrieved_at fields are actual host datetime.now(timezone.utc) readings, which fall on 2026-11-05; they were not replaced by the nominal directory date.",
+  "sources": [
+    {
+      "id": "N17",
+      "title": "Nomura et al. 2017, PRC96,014304",
+      "path": "raw/papers/2017_Nomura et al_Shape-phase transitions in odd-mass γ -soft nuclei with mass A ≈ 130.pdf",
+      "size": 1039399,
+      "sha256": "481e6a9e0f6b01e9c5db5e2b06d9b350dba0638393c7da7f532c3040e9efaea9",
+      "locators": "PDF p.11 Eqs.(12)-(15), Figs.14-15; p.13 Refs.42-43; associated TeX lines 1258-1311",
+      "actual_read_scope": "PDF/TeX exact-formula comparison; PDF p.11 visually checked",
+      "established_precedent": "J+2 only, n=5, magnitude cubic expression and bandhead CG conversion",
+      "applicability_boundary": "Printed definitions verified; actual implementation and numerical figures not reproduced"
+    },
+    {
+      "id": "W00",
+      "title": "Werner et al. 2000, PRC61,021301(R)",
+      "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/werner2000-nucl-th-0005013.pdf",
+      "size": 313089,
+      "sha256": "504ec7794d11678069e5d90f243edd2b9e0ddd629ec505004740e1fdf82b31d1",
+      "locators": "arXiv PDF pp.2-4, Eqs.(3)-(4),(8)-(11),(15)-(21)",
+      "actual_read_scope": "Ground-state definitions, closure, geometrical interpretation and approximations",
+      "established_precedent": "The cited simple two/three-link expressions are for 0_1+, not arbitrary J",
+      "applicability_boundary": "Author preprint; no independent final-publisher text comparison"
+    },
+    {
+      "id": "C86",
+      "title": "Cline 1986, Annual Review 36,683",
+      "path": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "size": 1930372,
+      "sha256": "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113",
+      "locators": "printed pp.697-700; p.698 general-state 6j expansion; pp.705-708 Figs.8,10",
+      "actual_read_scope": "Definitions and applicability read; p.698 visually checked",
+      "established_precedent": "General-spin scalar method predates Nomura; nonzero-spin experimental examples and operator/truncation limits",
+      "applicability_boundary": "Review examples are not newly read independent experimental papers"
+    },
+    {
+      "id": "W05",
+      "title": "Werner, Scholl and von Brentano 2005, PRC71,054314",
+      "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/werner2005-five-observables.pdf",
+      "size": 305787,
+      "sha256": "d059ed38ef6b2dc2f3c1364ba040727d5d3ba38cc3243b66000da1610d2e8b6f",
+      "locators": "arXiv PDF pp.2-5 Eqs.(1)-(15); Secs.III-IV",
+      "actual_read_scope": "Definition and first/second-order approximation discussion",
+      "established_precedent": "Explicit prior comparison of restricted-observable estimates with rotor and IBM invariants",
+      "applicability_boundary": "Ground-state approximation study; not the odd-A Ba/Xe J+2 prescription"
+    },
+    {
+      "id": "W06",
+      "title": "Werner et al. 2006, Rev. Mex. Fis. S52(4),103",
+      "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/werner2006-structural-evolution.pdf",
+      "size": 1594844,
+      "sha256": "2c1d669b4bc962edf03e778f57ac339b882393041a3e4f6f59688675960cad9a",
+      "locators": "printed pp.103-104 Eqs.(1)-(13); p.106 Sec.5 Fig.3",
+      "actual_read_scope": "General-J definitions, ground-state specialization, spin-dependent IBM transitions",
+      "established_precedent": "Finite-spin q2 evolution and movement of the apparent critical point studied up to J=10",
+      "applicability_boundary": "Even-even IBM example, not the claimed odd-A diagnostic correction"
+    },
+    {
+      "id": "N16",
+      "title": "Nomura et al. 2016, PRC94,064310",
+      "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/nomura2016-arxiv1610-00469.pdf",
+      "size": 1917145,
+      "sha256": "817ed7f1fcfe43861bff8fe96929eb22536a0dd1833cfcefc08675585edf711f",
+      "locators": "arXiv PDF p.9 Eq.(8); pp.10-11 Fig.10 and adjacent discussion",
+      "actual_read_scope": "Definition of restricted average B(E2) and DeltaJ=1 versus 2 behavior",
+      "established_precedent": "Explicit analogy/proxy and different branch-selection trends already demonstrated in odd Eu/Sm",
+      "applicability_boundary": "Different nuclei and quadratic proxy; no cubic Ba/Xe correction"
+    },
+    {
+      "id": "N18",
+      "title": "Nomura et al. 2018, PRC97,064314",
+      "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/nomura2018-prolate-oblate-odd-mass.pdf",
+      "size": 1439462,
+      "sha256": "75e21d1b36729770d29c605e22429db45f21a9adc76a5ee8a4cb6b7da770e6da",
+      "locators": "arXiv1803.07802v2 PDF pp.8-10, Eqs.(5)-(9); p.12 Ref.17",
+      "actual_read_scope": "All relevant formula text read; p.9 visually checked",
+      "established_precedent": "All allowed J-prime/J-double-prime channels and signed cubic expression replace the earlier restriction",
+      "applicability_boundary": "Printed expression still lacks explicit general-J 6j weights; not identified as an erratum or verified correction; publisher PDF returned 401"
+    },
+    {
+      "id": "H20",
+      "title": "Henderson 2020, PRC102,054306",
+      "path": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/henderson-2020-quadrupole-invariant-convergence.pdf",
+      "size": 1182893,
+      "sha256": "ed2d48f63e1e18a721e1bb3e01676ca91160d1a683d7447e574788a6f5c8e044",
+      "locators": "arXiv PDF pp.2-3 Eqs.(7)-(13); pp.5-7 Tables I-II; p.9 Sec.III",
+      "actual_read_scope": "General closure formula and finite-state/model-space convergence scope",
+      "established_precedent": "Published truncation-convergence benchmark; five states is not a universal closure guarantee",
+      "applicability_boundary": "Quantitative sample is lighter even-even nuclei, not odd Ba/Xe"
+    },
+    {
+      "id": "RZ21",
+      "title": "Rocchini and Zielinska 2021, Physics3,1237",
+      "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/rocchini-zielinska2021-coulex-shell-model.pdf",
+      "size": 1062300,
+      "sha256": "7d4fe3da0e174791d40620cad3f0f242633f603c4d392fdd319e386b99b50182",
+      "locators": "printed p.1241, Eqs.(3)-(7), Sec.2.3",
+      "actual_read_scope": "Explicit arbitrary-spin two/three-link formulas and experimental signs",
+      "established_precedent": "General-spin 6j and normalization are an established method",
+      "applicability_boundary": "Method review; no independent Ba/Xe reanalysis"
+    },
+    {
+      "id": "B22",
+      "title": "Bally et al. 2022, EPJA58,187",
+      "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/bally2022-xe128-129-130.pdf",
+      "size": 3850949,
+      "sha256": "dd3eff605e0dc6e90167573ef5e8b3de6cb2746dc49ec5205431e00c50c13af8",
+      "locators": "arXiv PDF pp.7-9 Eqs.(12)-(20), Table2; p.16; p.18 Table5; p.21 App.A Eqs.(30)-(34)",
+      "actual_read_scope": "Shape-definition comparison, 129Xe exclusion and general-spin closure",
+      "established_precedent": "Direct A130 precedent: different shape estimators disagree in 128Xe; 129Xe Kumar evaluation withheld",
+      "applicability_boundary": "No calculation of the Nomura2017 J+2 bias; 129Xe full-invariant result absent by authors' stated choice"
+    },
+    {
+      "id": "R25",
+      "title": "Rouoof et al. 2025, PRC111,054309",
+      "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/rouoof2025-e2-matrix-elements.pdf",
+      "size": 638366,
+      "sha256": "58cd93b84996ece2564c3da472f30e64c7403d5e15592bebb7e28459f41a447e",
+      "locators": "arXiv PDF pp.12-17, Sec.IV C, Figs.11-14, conclusions",
+      "actual_read_scope": "Spin-dependent invariants, limited-versus-full available networks, configuration-mixing discussion",
+      "established_precedent": "Published microscopic finite-spin and truncation comparison",
+      "applicability_boundary": "Even-even TPSM; full means the stated four-band network, not the entire physical Hilbert space"
+    },
+    {
+      "id": "Q26",
+      "title": "Qureshie et al. 2026, arXiv2604.10972",
+      "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/qureshie2026-e2-matrix-elements-II.pdf",
+      "size": 519180,
+      "sha256": "797e43ca912f008d0f94a96dd2fefa21a65f7d64052e72f82659646534caa8b4",
+      "locators": "PDF pp.9-11 Sec.III C and conclusions; Figs.12-18",
+      "actual_read_scope": "Discussion of energy-staggering versus invariant-based diagnoses",
+      "established_precedent": "Additional direct theoretical counterexample to treating shape proxies as interchangeable",
+      "applicability_boundary": "Preprint status; different proxy and even-even systems"
+    },
+    {
+      "id": "E21",
+      "title": "Boyukata et al. 2021, EPJA57,292, Erratum",
+      "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/boyukata2021-erratum.pdf",
+      "size": 181046,
+      "sha256": "2e016ed80a98d6a4e39832b5048b218b7f7bc36df17543e811f95533a66e59a3",
+      "locators": "entire one-page publisher erratum",
+      "actual_read_scope": "Entire correction read",
+      "established_precedent": "Search false positive: corrects funding project number only",
+      "applicability_boundary": "Does not correct Nomura or a quadrupole-invariant formula"
+    },
+    {
+      "id": "N17G",
+      "title": "Nomura et al. 2017, PRC96,064316",
+      "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/nomura2017-gogny-gamma-soft.pdf",
+      "size": 1456050,
+      "sha256": "dd998d94379e00dc7b055ee5be3ebf10922582af93f613d6184bc05b56876c69",
+      "locators": "PDF abstract; E2-operator/model section; full-text keyword screen",
+      "actual_read_scope": "Targeted follow-up screening, not full technical replication",
+      "established_precedent": "Same-region alternative Gogny-IBFM calculation is a relevant model-dependence comparator",
+      "applicability_boundary": "No matching invariant-correction discussion identified by this targeted text screen"
+    }
+  ],
+  "associated_existing_originals": [
+    {
+      "path": "raw/papers/gpt/query/20261105-nomura2017-input-audit/arxiv-v2-v4.tex",
+      "sha256": "f79b87a4d88539e8a4e4453a2e61272a9f5e108d165a5fd5a3ab4b17b5c5b868",
+      "size": 64836
+    },
+    {
+      "path": "raw/papers/gpt/query/20261105-nomura2017-input-audit/arxiv-v2-v4.bbl",
+      "sha256": "f5209e1abaf4c8df5a3634e4ae14b77120eb9dd4115399cad054771474ab6ba4",
+      "size": 27411
+    },
+    {
+      "path": "raw/papers/gpt/query/20261105-nomura2017-input-audit/nomura2017-v2-source.tar.gz",
+      "sha256": "f7ed6dc746f50f16169d8796e4d12becd8827eaf4ac2ee4d5f1ff9cd04690faf",
+      "size": 794776
+    }
+  ],
+  "new_archive_manifest": "raw/papers/gpt/query/20261106-spin-invariant-precedents/manifest.json",
+  "archive_manifest_sha256": "ec9bb2dbe4c248cc93c0c43cd55409be950f68d1a769c3a6309baf2a9296ca37",
+  "extracted_text_and_images": "tmp/ba129-spin-invariant-precedents/",
+  "not_done": [
+    "No author IBFM code or wavefunctions certified.",
+    "No parent/Planck numerical counterexample or closure calculation repeated.",
+    "No claim of novelty or exhaustive search.",
+    "No knowledge/PLAN/core/script/other-session edit or commit."
+  ]
+}

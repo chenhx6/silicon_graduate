@@ -1,0 +1,15 @@
+{
+  "code_matches_passing_test_receipt": true,
+  "syntax_parse_and_trailing_whitespace_checks": "passed",
+  "frozen_files_verified": {
+    "system/scripts/analysis/paired_single_j_em.py": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+    "system/tests/test_paired_single_j_em.py": "b3b54c1fc6cb0c01f9ba3216e715b5a8cfcb33c6d7f2acf17046023ab9d4ac3d"
+  },
+  "case_contract_read_or_modified": false,
+  "git_actions": false,
+  "writes_confined_to": [
+    "system/scripts/analysis/single_j_ibfm.py",
+    "system/tests/test_single_j_ibfm.py",
+    "outputs/l4/20261105-ba129-controlled-pairing/ibfm-implementation"
+  ]
+}

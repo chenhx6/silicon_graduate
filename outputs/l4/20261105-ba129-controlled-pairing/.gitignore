@@ -1,0 +1,12 @@
+# Local source inspection derivatives; original archives and hashes are retained.
+**/__pycache__/
+**/*.pyc
+core-E2-calibration/inspection/
+# Rebuildable dense continuation histories. Final and reverse checks remain.
+continuation/*/I*-grid*.json
+continuation/*/I*-adaptive-[0-9][0-9].json
+continuation/*/*-selected-endpoints.npz
+# Carries the final commit's own hash; retained locally after reconciliation.
+/publication-final-receipt.local.json
+# Retain the failed, incomplete serialization verbatim as a local intermediate.
+spin-invariant-source-replay/source-invariants-incomplete-serialization-attempt.txt

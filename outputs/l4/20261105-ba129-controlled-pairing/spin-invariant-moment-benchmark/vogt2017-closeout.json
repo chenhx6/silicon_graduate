@@ -1,0 +1,41 @@
+{
+  "status": "bounded_Vogt2017_primary_audit_complete",
+  "actual_completed_at": "2026-11-06T04:58:52.613195+00:00",
+  "citation_key": "Vogt2017PRC95_024316",
+  "publication_date": "2017-02-15",
+  "doi": "10.1103/PhysRevC.95.024316",
+  "raw_manifest": "raw/papers/gpt/query/20261106-vogt2017-ba137-rstat/manifest.json",
+  "raw_manifest_sha256": "3e777f4bae5e9e2ca7b4a6bd773436d1282bdd64678b117250d512c886f5854f",
+  "assignment_status": "2229.8-keV tentative (15/2-) candidate available in Vogt2017; old ENSDF absence retained as history",
+  "experimental_Rstat_first": null,
+  "additional_EM_benchmark": "B(E2;(19/2-)->(15/2-))=0.46(3) W.u.; T1/2(2349.9)=589(20) ns",
+  "benchmark_is_direct_initial_11over2_q3_input": false,
+  "checks": {
+    "visual_pages_checked": [
+      8,
+      9,
+      14
+    ],
+    "both_manuscripts_audited_entries_agree": true,
+    "source_pages_schema_checked": 2,
+    "citation_and_canonical_keys_unique": true,
+    "archive_gate_exit_code": 0,
+    "archive_gate_failure_count": 0,
+    "raw_files_hash_checked": 8,
+    "earlier_output_files_unchanged": 15,
+    "full_author_count": 89,
+    "PDF_or_page_reproductions_written_to_outputs": false
+  },
+  "output_sha256": {
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/vogt2017-citation.bib": "4081a7d9a4795d3e1822b5d695257baafcd61f37fd1fcf692cc669261e466bc1",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/vogt2017-constraints.csv": "c6c83433fb3bcb2850692da240c8cff253cc38c156da7dfff029d00ef351eabc",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/vogt2017-metadata.json": "98ce1ffa925399f150644bf7c82ce67598fc490daad87860b51a1a9ff0ceb5fa",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/vogt2017-readiness.json": "3321870a2bbdd0424eca9eb4e588d0f73577fa816f5ee1072d2e4a22ac1fde43",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/vogt2017-report.md": "53c506b7bdb92e59663bf01c948979b280dd31818fe742dc38a3daa581e6a8f3",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/audit_vogt2017.py": "95a4aca8b772af24a75910f2d07edba98063aeb1f792956220cfe0466aa5afe4",
+    "knowledge/sources/vogt-2017-135xe-137ba-isomers-high-spin.md": "fca49b9c7632f976632fea64bb7ee4e7d0dae7482b0121595164475d49fbe92b",
+    "knowledge/sources/nndc-ba135-ba137-static-e2-constraints.md": "607e88d2a21f0cc901cea9685414d14a09beb6b26d549446d42d41917af3237a"
+  },
+  "no_model_refit_or_shared_driver_changes": true,
+  "no_commit_or_push": true
+}

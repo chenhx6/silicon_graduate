@@ -1,0 +1,58 @@
+{
+  "updated_at": "2026-11-05T14:11:01.273001+00:00",
+  "goal_status": "active",
+  "status": "in-progress;verified_IBFM_case_and_new_spin_closure_candidate",
+  "previous_goal_turn": "progress",
+  "protected_existing_change": "PLAN.md; no installation files modified",
+  "frozen_previous_checkpoint": "main / research: test Ba129 energy-calibrated observables",
+  "new_archive": "raw/papers/gpt/query/20261105-ba129-core-constraints/manifest.json",
+  "completed": [
+    "NNDC128/130 low-spin source extraction and visual check",
+    "131Ba addition dataset has46levels and no explicitl5 strength",
+    "Independent rotor trace andE2-limit calculation with originalKönigshofen branch check",
+    "Meyer-ter-Vehn source-label consistency review; no automatic physical-state prescription",
+    "New fullNambu mathematical kernel/tests delivered; parent test handle44668",
+    "Parent Nambu19tests andIBFM25tests passed",
+    "Fixed129BaIBFMprediction completed;9relativeenergy residualRMS482.605keV",
+    "Independentvector-source replay:5coreand6oddtheorypointswithin0.721keV;notallnearest-keV roundingmatched",
+    "Klein arxiv-v1 Appendixmatrixaudit complete;noportofunverifiediteration",
+    "Kumar DAE67(2024)independentacquisition identified;conditionalgraphicalintensityaudit complete",
+    "Stuch originalstillunavailable;thesisTOC andsourceidentityarchived;ENSDFhalf-life semanticsretained",
+    "Literalspin-invariantprobe:fullscalarq2 closurevalidated, spectatorcontrolpassed;sourcegammafiguresnotreconciled"
+  ],
+  "live_workers": [
+    {
+      "id": "01a1a957-5a6b-79d2-85e3-1926e5b0177a",
+      "task": "finite-spin quadrupoleinvariant source/novelty audit",
+      "scope": "spin-invariant-precedent-review/"
+    },
+    {
+      "id": "01a1a958-034e-7483-bcdf-6cb3cf11e2f8",
+      "task": "independentgeneral-spinRacah/scalaralgebra andanalyticcounterexamples",
+      "scope": "spin-invariant-algebra/"
+    },
+    {
+      "id": "01a1a957-b398-7db2-b20c-b7249b2826ec",
+      "task": "sourceFig13/14 vectorreplay andEMoperator ambiguity",
+      "scope": "spin-invariant-source-replay/"
+    },
+    {
+      "id": "01a1aaf9-9d4c-7761-9b62-954971b8db47",
+      "task": "genericcompletequadrupole scalar module andtests",
+      "scope": "system/scripts/analysis/quadrupole_scalar_invariants.py + tests + spin-invariant-implementation/"
+    }
+  ],
+  "key_findings": [
+    "constant-inertia E3−E2a−E2b=155.87keV128Ba/95.66keV130Ba",
+    "130 two-energy gamma24.247deg predictsE2ratio.06483 vs published.061(2), insufficient to validate full core",
+    "E2 ratio requirescorrect .7 axial limit andzeroatgamma30; legacyknowledgeformula corrections pendingindependentreview",
+    "OriginalEq2.31minus label cannotbe equatedautomatically withphysicalholesorournegativeBCSsector"
+  ],
+  "next": [
+    "Integrate allspin-invariant reviews before noveltydecision",
+    "Do notassumeoriginalEMfiguresreproduced fromenergyreplay",
+    "Extendcontrolledscalar/proxy comparison onlyafteralgebraandoperatorcontracts pass",
+    "Write durableknowledge andrun scopedpublicationgates; activegoalnotcomplete"
+  ],
+  "protected_scope": "No get-paper orinstallation changes; preserve unrelatedPLAN andother-sessionwork."
+}

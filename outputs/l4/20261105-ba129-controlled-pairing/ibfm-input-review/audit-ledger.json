@@ -1,0 +1,195 @@
+{
+  "audit_date_utc": "2026-11-05T13:55:25.415915+00:00",
+  "task_type": "original-source input audit; no model implementation",
+  "article": {
+    "authors": [
+      "K. Nomura",
+      "T. Niksic",
+      "D. Vretenar"
+    ],
+    "year": 2017,
+    "journal": "Physical Review C",
+    "volume": 96,
+    "article_number": "014304",
+    "doi": "10.1103/PhysRevC.96.014304",
+    "arxiv": "1704.07101v2"
+  },
+  "local_input": {
+    "path": "raw/papers/2017_Nomura et al_Shape-phase transitions in odd-mass γ -soft nuclei with mass A ≈ 130.pdf",
+    "bytes": 1039399,
+    "sha256": "481e6a9e0f6b01e9c5db5e2b06d9b350dba0638393c7da7f532c3040e9efaea9",
+    "pages": 13,
+    "watermark": "arXiv:1704.07101v2 [nucl-th] 8 Jul 2017",
+    "internal_date": "November 21, 2021",
+    "pdf_creation_date": "D:20211121104452Z",
+    "current_arxiv_v2_byte_identical": true,
+    "source_dynamic_date_locator": "v4.tex:32"
+  },
+  "wiki_source_context": {
+    "path": "knowledge/sources/nomura-2017-odd-mass-gamma-soft-shape-transitions.md",
+    "sha256_at_closeout": "8c93c48398f546d8d3f089c303c55c9bfa75749747dd80621a0fe47c213fb7da",
+    "role": "context; original independently read; no source-page edit"
+  },
+  "core": {
+    "paper_explicit_129ba_core": null,
+    "paper_explicit_129ba_NB": null,
+    "supported_reconstruction_core": "128Ba",
+    "status": "inferred intended A-1 mapping; not recovered author run input",
+    "evidence": [
+      "p.2: even Ba + odd neutron",
+      "p.3 Table I: 128-136Ba",
+      "pp.3-4 Tables II-V: 129-137Ba",
+      "p.8 Sec.III C: explicit 135Ba/134Ba core correspondence",
+      "p.5: 128Ba PES omitted for similarity to 130Ba, not a parameter substitution",
+      "p.6: neutron-hole and N=82 closure context"
+    ],
+    "conditional_boson_count": {
+      "core": "128Ba",
+      "proton_particles_from_Z50": 3,
+      "neutron_holes_from_N82": 5,
+      "NB_total": 8,
+      "evidence_class": "derived under stated conventional core counting"
+    },
+    "alternative_not_silently_adopted": {
+      "core": "130Ba",
+      "NB_total": 7,
+      "status": "different A+1 reference; not established as author 129Ba input"
+    }
+  },
+  "core_hamiltonian_table_I": [
+    {
+      "core": "128Ba",
+      "epsilon_d_MeV": 0.03,
+      "kappa_MeV": -0.102,
+      "chi": -0.18
+    },
+    {
+      "core": "130Ba",
+      "epsilon_d_MeV": 0.06,
+      "kappa_MeV": -0.116,
+      "chi": -0.18
+    },
+    {
+      "core": "132Ba",
+      "epsilon_d_MeV": 0.13,
+      "kappa_MeV": -0.122,
+      "chi": -0.18
+    },
+    {
+      "core": "134Ba",
+      "epsilon_d_MeV": 0.38,
+      "kappa_MeV": -0.124,
+      "chi": -0.24
+    },
+    {
+      "core": "136Ba",
+      "epsilon_d_MeV": 1.15,
+      "kappa_MeV": -0.122,
+      "chi": -0.85
+    }
+  ],
+  "negative_parity": {
+    "fermion_space": [
+      "1h11/2"
+    ],
+    "NF": 1,
+    "h11_occupation_probability_v_squared": 0.453,
+    "occupation_locator": "p.3 Table III, 129Ba row",
+    "occupation_method": "spherical RHB constrained to odd particle number, without blocking",
+    "epsilon_h_printed": null,
+    "epsilon_h_gap_role": "constant shift in fixed one-j negative-parity block; not a blocker for relative eigenvalues",
+    "table_V": {
+      "Gamma0_minus_MeV": 0.6,
+      "Lambda0_minus_MeV": 2.1,
+      "A_prime_11over2_MeV": -0.15,
+      "locator": "p.4 Table V, 129Ba row"
+    },
+    "fit_data": "few lowest experimental levels, parity-specific; actual selected 129Ba levels and weights not listed"
+  },
+  "conditional_algebra_only": {
+    "assumptions": [
+      "positive real BCS amplitudes",
+      "standard Clebsch-Gordan tensors",
+      "tilde a_jm = (-1)^(j-m) a_j,-m"
+    ],
+    "u_squared": 0.5469999999999999,
+    "v_squared": 0.453,
+    "u_squared_minus_v_squared": 0.09399999999999997,
+    "two_uv": 0.9955721972815432,
+    "Gamma_hh_coefficient_of_Qhh_MeV": 0.05639999999999998,
+    "Lambda_hh_h_coefficient_of_Qhh_squared_MeV": -2.6871331657522295,
+    "A_h_tensor_coefficient_MeV": 0.5196152422706631,
+    "monopole_number_operator_coefficient_MeV": -0.15,
+    "boundary": "input algebra, not a spectrum calculation or PBOS reproduction"
+  },
+  "E2": {
+    "eF_for_neutron_eb": 0.125,
+    "eF_proton_eb": 0.25,
+    "chi_prime": 0.35,
+    "boson_charge_eB_numeric": null,
+    "boson_charge_calibration": "B(E2;2_1+ -> 0_1+) of each even-even core",
+    "chi_prime_calibration": "Qs(2_1+) in 136Ba",
+    "neutron_charge_calibration": "Qs(11/2_1-) in 137Ba",
+    "proton_charge_calibration": "Qs(5/2_1+) in 137La",
+    "fermion_factor": "-eF/sqrt(5) times gamma_jjprime",
+    "single_particle_Q": "<j||Y^(2)||jprime>; angular operator as printed",
+    "locator": "p.4 Eqs.7-8 and calibration paragraph"
+  },
+  "M1": {
+    "overall_factor": "sqrt(3/(4*pi))",
+    "boson_term": "gB L",
+    "gB_numeric": null,
+    "gB_calibration": "experimental mu(2_1+) of chosen even-even core divided by 2",
+    "neutron_gl": 0,
+    "spin_quenching_retained_fraction": 0.7,
+    "single_h11_g": "0.7*g_s_free_neutron/11",
+    "fermion_tensor_sign": "negative, Eq.10",
+    "occupation_suppression_factor_printed": false,
+    "locator": "p.5 Eqs.9-11 and following paragraph",
+    "units_typography_boundary": "PDF prints mu_N^2 for gl and magnetic moments; not adopted as squared amplitude units"
+  },
+  "129Ba_published_outputs": {
+    "spectrum": "p.7 Fig.5(c), N=73 point, lowest negative-parity levels",
+    "E2_derived_shape_invariants": "p.11 Fig.14(a,c), including 11/2_1- at N=73",
+    "invariant_intermediate_spin": "Jprime=J+2",
+    "invariant_truncation_n": 5,
+    "transition_resolved_BE2_table": false,
+    "transition_resolved_BM1_table": false,
+    "signed_delta_table": false,
+    "365_keV_prediction": null,
+    "detailed_EM_examples_elsewhere": [
+      "135Ba",
+      "129Xe",
+      "133La",
+      "131Cs"
+    ]
+  },
+  "code": {
+    "name_as_printed": "PBOS",
+    "locator": "p.4 lower-left diagonalization paragraph; p.13 Ref.34",
+    "printed_reference": "T. Otsuka and N. Yoshida (1985), JAERI-M Report No. 85",
+    "public_arxiv_source_member_count": 19,
+    "public_arxiv_figure_pdf_count": 16,
+    "embedded_files_total": 0,
+    "source_bundle_code_or_job_found": false,
+    "exact_PBOS_NPBOS_identity_established": false,
+    "manual_access": "JAEA candidate returned HTML challenge; INIS candidate 404",
+    "execution_performed": false
+  },
+  "judgment": {
+    "physically_grounded_comparator": "yes, as a soft-core semi-phenomenological model family",
+    "relative_negative_parity_reconstruction": "conditionally feasible after declared core/NB and convention choices; not performed",
+    "exact_author_numerical_replay": "not established",
+    "exact_author_129Ba_EM_reproduction": "input-incomplete",
+    "published_129Ba_mode_discrimination_prediction": "not supplied"
+  },
+  "scope": {
+    "notes_directory": "outputs/l4/20261105-ba129-controlled-pairing/ibfm-input-review",
+    "source_text_and_images_directory": "tmp/ba129-controlled-pairing/ibfm-input-review",
+    "git_commands_performed": false,
+    "model_implementation_performed": false,
+    "other_session_files_modified": false,
+    "raw_or_knowledge_writes_performed": false
+  },
+  "report_sha256": "286adec03fa153a540b9a286a4caa0b2e3a42f3b9a76a839571dda963a2d5216"
+}

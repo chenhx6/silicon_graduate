@@ -1,0 +1,45 @@
+{
+  "status": "documentation_correction_complete",
+  "actual_started_at": "2026-11-05T18:49:27.241212+00:00",
+  "before": {
+    "system/scripts/analysis/quadrupole_scalar_invariants.py": {
+      "sha256": "e2f5fbc9a632b04c892282e46be2a8acc7f58993d4101e18030d2399242189cd",
+      "executable_ast_sha256": "1bea6049f3d0bcea475a2f25a09ab46339ff642a40ac93edb4dfd0d90e9049a3"
+    },
+    "system/tests/test_quadrupole_scalar_invariants.py": {
+      "sha256": "dff2b30d38a349f5fc3d1713bce25cfd8214ee574b7b57c4b04baa9ff0fb38fc",
+      "executable_ast_sha256": "da88954f5f29a3dabcac223bffeefd03ca06aae77f7440432fe54fef80de8e60"
+    }
+  },
+  "protected_before": {
+    "system/scripts/analysis/single_j_ibfm.py": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+    "system/scripts/analysis/paired_single_j_em.py": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+    "system/scripts/analysis/paired_single_j_rotor.py": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-probe/run_probe.py": "4cebc4cd466a3a7e89be93a6c3db90921867bf4cc25e6215f28b2b82fbc63097",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-probe/probe-v1.json": "9bc03128820d05f6f98f09fc170b077fa32ae3da777ad82760623891026fd0a3"
+  },
+  "after": {
+    "system/scripts/analysis/quadrupole_scalar_invariants.py": {
+      "sha256": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1",
+      "executable_ast_sha256": "1bea6049f3d0bcea475a2f25a09ab46339ff642a40ac93edb4dfd0d90e9049a3"
+    },
+    "system/tests/test_quadrupole_scalar_invariants.py": {
+      "sha256": "fe82adbfe7dafa539d31ff14565649b235391a982e3dd81b1fbc0a5c09756f7f",
+      "executable_ast_sha256": "da88954f5f29a3dabcac223bffeefd03ca06aae77f7440432fe54fef80de8e60"
+    }
+  },
+  "protected_after": {
+    "system/scripts/analysis/single_j_ibfm.py": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+    "system/scripts/analysis/paired_single_j_em.py": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+    "system/scripts/analysis/paired_single_j_rotor.py": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-probe/run_probe.py": "4cebc4cd466a3a7e89be93a6c3db90921867bf4cc25e6215f28b2b82fbc63097",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-probe/probe-v1.json": "9bc03128820d05f6f98f09fc170b077fa32ae3da777ad82760623891026fd0a3"
+  },
+  "executable_AST_unchanged": true,
+  "syntax_checked": true,
+  "numerical_tests_rerun": false,
+  "prior_validation_tests": 28,
+  "protected_inputs_unchanged": true,
+  "actual_completed_at": "2026-11-05T18:50:52.090989+00:00",
+  "scope": "docstrings and implementation note; no numerical code or test-logic change"
+}

@@ -1,0 +1,145 @@
+{
+  "review_date_declared": "2026-11-06",
+  "container_observed_utc": "2026-11-05T18:32:50.099193+00:00",
+  "source_freeze_sha256": "4987fa80589b6a278edba95865665d4f7ec5bf742eb1feaeec46eb2f7d6aaf5b",
+  "scope": "Literal source-prescription replay only. Same fixed kernel/case; no finite-J closure derivation and no parameter/charge/chi changes.",
+  "source_comparison": [
+    {
+      "isotope": "128Ba",
+      "two_J": 0,
+      "source_beta": 0.23724997456693708,
+      "source_gamma_deg": 8.975220691351694,
+      "literal_beta": 0.2580200292781188,
+      "literal_gamma_deg": 29.49631460385031,
+      "literal_beta_minus_source": 0.020770054711181707,
+      "literal_gamma_minus_source_deg": 20.521093912498614,
+      "full_scalar_gamma_folded_parent_deg": 29.50613369923982,
+      "literal_gamma_argument": 0.02636984858553391,
+      "source_gamma_argument_if_Eq15_applies": 0.891594800228556
+    },
+    {
+      "isotope": "129Ba",
+      "two_J": 11,
+      "source_beta": 0.5207999834103063,
+      "source_gamma_deg": 23.109748383255067,
+      "literal_beta": 0.5663296992646237,
+      "literal_gamma_deg": 29.257240793942213,
+      "literal_beta_minus_source": 0.04552971585431742,
+      "literal_gamma_minus_source_deg": 6.147492410687146,
+      "full_scalar_gamma_folded_parent_deg": 29.894500733495175,
+      "literal_gamma_argument": 0.03888097815558521,
+      "source_gamma_argument_if_Eq15_applies": 0.35299732452637733
+    }
+  ],
+  "literal_core_n5": {
+    "two_J": 0,
+    "two_Jprime": 4,
+    "states_used": 5,
+    "q2": 1.591636730250284,
+    "q3_abs": 0.05295092672216761,
+    "coherent_chain_real": 0.06328846250910378,
+    "gamma_argument": 0.02636984858553391,
+    "gamma_deg": 29.49631460385031,
+    "G_J": 1.0000000000000002,
+    "beta_without_radius_prefactor_eb": 1.2616008601179236
+  },
+  "literal_odd_n5": {
+    "two_J": 11,
+    "two_Jprime": 15,
+    "states_used": 5,
+    "q2": 5.312822486431527,
+    "q3_abs": 0.47612955482605535,
+    "coherent_chain_real": -0.56908366567775,
+    "gamma_argument": 0.03888097815558521,
+    "gamma_deg": 29.257240793942213,
+    "G_J": 1.4583333333333335,
+    "beta_without_radius_prefactor_eb": 2.7834988999541523
+  },
+  "literal_core_all_J2_states": {
+    "two_J": 0,
+    "two_Jprime": 4,
+    "states_used": 15,
+    "q2": 1.5920890210980265,
+    "q3_abs": 0.05194103925740361,
+    "coherent_chain_real": 0.06208141611900966,
+    "gamma_argument": 0.025855897275638307,
+    "gamma_deg": 29.506133699239786,
+    "G_J": 1.0000000000000002,
+    "beta_without_radius_prefactor_eb": 1.2617801001355295
+  },
+  "core_n5_to_all_gamma_change_deg": 0.009819095389477894,
+  "case_operator": {
+    "eB_eb": 0.13268018236134518,
+    "eF_eb": 0.125,
+    "eF_over_eB": 0.9421150753288178,
+    "chi_E2": 0.35,
+    "chi_H": -0.18
+  },
+  "beta_units": "E2 RMEs in eb; divide out elementary charge and use 1 b=100 fm^2 with R0=1.2 A^(1/3) fm. This is the declared physical-E2 reading, not a certified author Q dictionary.",
+  "beta_ratio": {
+    "source_odd_over_core": 2.195152957807248,
+    "declared_literal_odd_over_core": 2.1949059569099543,
+    "relative_difference": -0.00011252104160452969,
+    "boundary": "Not exactly charge-free for fixed nonzero eF: the ratio depends on eF/eB even when the two boson charges are assumed common."
+  },
+  "odd_restricted_quadratic_charge_decomposition": {
+    "C_B": 301.74715627555173,
+    "C_X": 0.025741394661623705,
+    "C_F": 0.00015442514093364174,
+    "formula": "q2_odd=eB^2*C_B+2*eB*eF*C_X+eF^2*C_F",
+    "boson_term": 5.311966230304214,
+    "interference_term": 0.0008538432344848976,
+    "fermion_square_term": 2.412892827088152e-06,
+    "total": 5.312822486431527,
+    "net_nonboson_fraction": 0.00016116784054027539,
+    "boundary": "At the frozen case only; no charge scan or charge adjustment."
+  },
+  "parent_operator_candidates_attributed_only": {
+    "scope": "source-operator ambiguity probe; not a fit or a silent replacement of the frozen E2 operator",
+    "values": [
+      {
+        "chi_operator": 0.35,
+        "full_folded_gamma": 29.50613369923982,
+        "restricted5_gamma": 29.496314603850305,
+        "q3_signed_ratio": -0.025855897275636485
+      },
+      {
+        "chi_operator": -0.35,
+        "full_folded_gamma": 19.271799972059167,
+        "restricted5_gamma": 19.270719320596054,
+        "q3_signed_ratio": 0.5326488176677376
+      },
+      {
+        "chi_operator": -0.18,
+        "full_folded_gamma": 21.88759964896686,
+        "restricted5_gamma": 21.88801321895949,
+        "q3_signed_ratio": 0.412106028528274
+      },
+      {
+        "chi_operator": 0.18,
+        "full_folded_gamma": 27.65983536618144,
+        "restricted5_gamma": 27.664685083173158,
+        "q3_signed_ratio": 0.12222435552098945
+      },
+      {
+        "chi_operator": 0.0,
+        "full_folded_gamma": 24.7340768290468,
+        "restricted5_gamma": 24.736107230850635,
+        "q3_signed_ratio": 0.27224278831848764
+      }
+    ]
+  },
+  "parent_phase_placement_scope": "diagnostic only; an observed numerical match would not establish original code operation",
+  "parent_chi_plus035_sum_abs_argument": 1.1408374926144442,
+  "files_unchanged": {
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-source-replay/source-invariants-frozen.json": "4987fa80589b6a278edba95865665d4f7ec5bf742eb1feaeec46eb2f7d6aaf5b",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-probe/probe-v1.json": "9bc03128820d05f6f98f09fc170b077fa32ae3da777ad82760623891026fd0a3",
+    "outputs/l4/20261105-ba129-controlled-pairing/ibfm-case-v1/prediction.json": "6dd5371fcaa7d2647e60490d15ca7e2816a1a517756af59515923167f6d1a2a4",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-probe/run_probe.py": "4cebc4cd466a3a7e89be93a6c3db90921867bf4cc25e6215f28b2b82fbc63097",
+    "system/scripts/analysis/single_j_ibfm.py": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+    "system/scripts/analysis/paired_single_j_em.py": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-probe/operator-candidates.json": "0129a5069cb736fdabd1b4a5d6cee1edb94d01a5fda612aa8c1a3359840881e0",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-probe/phase-placement-probe.json": "1dc8c875df2e3d428d8c36fa1d74d9e9c47fa5403dfea7ce28315261c9980810"
+  },
+  "runtime_seconds": 0.4769057370140217
+}

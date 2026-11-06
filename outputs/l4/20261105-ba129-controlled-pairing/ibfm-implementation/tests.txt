@@ -1,0 +1,30 @@
+test_boson_dimensions_and_bilinear_normalization (test_single_j_ibfm.BasisAndTensorTests.test_boson_dimensions_and_bilinear_normalization) ... ok
+test_fermion_scalar_and_vector_normalization (test_single_j_ibfm.BasisAndTensorTests.test_fermion_scalar_and_vector_normalization) ... ok
+test_tensor_ladders_and_hermiticity (test_single_j_ibfm.BasisAndTensorTests.test_tensor_ladders_and_hermiticity) ... ok
+test_total_M_basis_ordering_and_selection (test_single_j_ibfm.BasisAndTensorTests.test_total_M_basis_ordering_and_selection) ... ok
+test_E2_coherence_factor_but_no_M1_occupation_factor (test_single_j_ibfm.ElectromagneticTests.test_E2_coherence_factor_but_no_M1_occupation_factor) ... ok
+test_chi_prime_is_independent_and_units_linear (test_single_j_ibfm.ElectromagneticTests.test_chi_prime_is_independent_and_units_linear) ... ok
+test_core_0_to_2_calibration_and_direction (test_single_j_ibfm.ElectromagneticTests.test_core_0_to_2_calibration_and_direction) ... ok
+test_different_J_magnetic_scale_uses_particle_j_without_assumed_gB (test_single_j_ibfm.ElectromagneticTests.test_different_J_magnetic_scale_uses_particle_j_without_assumed_gB) ... ok
+test_exposed_unit_tensors_share_phases_and_E2_scale (test_single_j_ibfm.ElectromagneticTests.test_exposed_unit_tensors_share_phases_and_E2_scale) ... ok
+test_free_fermion_RMEs_signs_and_magnetic_normalization (test_single_j_ibfm.ElectromagneticTests.test_free_fermion_RMEs_signs_and_magnetic_normalization) ... ok
+test_model_and_M_mismatch_rejected (test_single_j_ibfm.ElectromagneticTests.test_model_and_M_mismatch_rejected) ... ok
+test_reciprocity_detailed_balance_and_shared_eigenvector_phases (test_single_j_ibfm.ElectromagneticTests.test_reciprocity_detailed_balance_and_shared_eigenvector_phases) ... ok
+test_total_J_magnetic_operator_has_no_spurious_transitions (test_single_j_ibfm.ElectromagneticTests.test_total_J_magnetic_operator_has_no_spurious_transitions) ... ok
+test_zero_CG_is_not_a_selection_zero (test_single_j_ibfm.ElectromagneticTests.test_zero_CG_is_not_a_selection_zero) ... ok
+test_M_blocks_have_the_same_J_multiplets (test_single_j_ibfm.HamiltonianTests.test_M_blocks_have_the_same_J_multiplets) ... ok
+test_NB0_free_fermion_for_arbitrary_couplings (test_single_j_ibfm.HamiltonianTests.test_NB0_free_fermion_for_arbitrary_couplings) ... ok
+test_O6_Q_squared_analytic_multiplicities (test_single_j_ibfm.HamiltonianTests.test_O6_Q_squared_analytic_multiplicities) ... ok
+test_exchange_independent_Fock_product_minus_contractions (test_single_j_ibfm.HamiltonianTests.test_exchange_independent_Fock_product_minus_contractions) ... ok
+test_monopole_is_A0_nd_and_gamma_has_coherence_factor (test_single_j_ibfm.HamiltonianTests.test_monopole_is_A0_nd_and_gamma_has_coherence_factor) ... ok
+test_non_Hermitian_and_non_scalar_input_are_rejected (test_single_j_ibfm.HamiltonianTests.test_non_Hermitian_and_non_scalar_input_are_rejected) ... ok
+test_scalars_commute_with_J2_Jz_and_Jplus (test_single_j_ibfm.HamiltonianTests.test_scalars_commute_with_J2_Jz_and_Jplus) ... ok
+test_spectator_core_multiplets (test_single_j_ibfm.HamiltonianTests.test_spectator_core_multiplets) ... ok
+test_wholly_degenerate_H_resolves_J2 (test_single_j_ibfm.HamiltonianTests.test_wholly_degenerate_H_resolves_J2) ... ok
+test_invalid_component_and_diagonalization_tolerance (test_single_j_ibfm.InputTests.test_invalid_component_and_diagonalization_tolerance) ... ok
+test_invalid_parameters (test_single_j_ibfm.InputTests.test_invalid_parameters) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 1.469s
+
+OK

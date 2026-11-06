@@ -1,0 +1,95 @@
+{
+  "created_at_utc": "2026-11-06T03:55:26.232680+00:00",
+  "files": [
+    {
+      "path": "data/results/operator-sensitivity.json",
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-operator-control/results.json",
+      "sha256": "d960634a2f8608e8e2365202def792f0fd6b04987fea40b6f331cb3af146792e",
+      "size": 99038
+    },
+    {
+      "path": "data/results/operator-sensitivity.csv",
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-operator-control/operator-results.csv",
+      "sha256": "baa9b5ca720895ac97b36ad07400c52f95153dc242b0571985bce7ad885087f9",
+      "size": 24773
+    },
+    {
+      "path": "data/operator-sensitivity-contract.json",
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-operator-control/operator-sensitivity-contract.json",
+      "sha256": "688386441deb562b19f7dc5df8b3abeb522976fd9daebf367a4781ca2e53de1e",
+      "size": 16565
+    },
+    {
+      "path": "data/code/operator_controls_original.py",
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-operator-control/driver.py",
+      "sha256": "dd0728ed5b9780a9385927be3c3e25f34717bd21bb995c71c3aa83219c94cd33",
+      "size": 23623
+    },
+    {
+      "path": "data/results/coupling-controls.json",
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/controls.json",
+      "sha256": "f19741cedd7e7e29272a2e49fdcce0e3a1fc44a8e522beb540202e3d59828f04",
+      "size": 96927
+    },
+    {
+      "path": "data/results/coupling-controls.csv",
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/summary.csv",
+      "sha256": "279389665c16f5da73ec601e14aec48c4131991cc21cb917ff1f026dd0a9ef36",
+      "size": 5699
+    },
+    {
+      "path": "data/results/quadrupole-path.json",
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/gamma-path.json",
+      "sha256": "99954dfb5083bb2a145acc6ae47b8e6adf0145576f3f57532f14cb9cf529773a",
+      "size": 24327
+    },
+    {
+      "path": "data/results/quadrupole-path.csv",
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/gamma-path-summary.csv",
+      "sha256": "9b9e17c828433ed337b5d1f8d06ad4daab2da8d6c8ac4e6dc0753e20203ec546",
+      "size": 2377
+    },
+    {
+      "path": "data/coupling-protocol.json",
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/protocol.json",
+      "sha256": "db65e404bf9270b55b587aaadf3e5c9b2dd7e071e906672bb78a8d929c929023",
+      "size": 9897
+    },
+    {
+      "path": "data/quadrupole-path-protocol.json",
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/gamma-path-protocol.json",
+      "sha256": "12bfe13ab5a832cb153d68af71752dfbe55e418631b02698127ff6186335d4b8",
+      "size": 3624
+    },
+    {
+      "path": "data/code/coupling_controls_original.py",
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/run_controls.py",
+      "sha256": "df9dacea848d1485c270b6cd4d18754ec59f505e21225e0fdb8817d77b5ef385",
+      "size": 19176
+    },
+    {
+      "path": "data/code/quadrupole_path_original.py",
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/run_gamma_path.py",
+      "sha256": "e60832d741e203a40b707f7bd04733389bc82ede92b30da7118cea0f886cd0e0",
+      "size": 10607
+    },
+    {
+      "path": "data/results/static-moments.json",
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/benchmark-results.json",
+      "sha256": "6021c41fe1a067b9a5a2ed835a63dc4ba150922a8ac643e4cfb657a911032afc",
+      "size": 16191
+    },
+    {
+      "path": "data/static-moment-constraints.json",
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/source-constraints.json",
+      "sha256": "4e86214a5503a0917f336dca70e13840062db151f0dd45994ee66c465111608c",
+      "size": 28779
+    },
+    {
+      "path": "data/results/static-moments.csv",
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/model-static-moments.csv",
+      "sha256": "4ab68901c6de32f6dd1cf846249ddda992a7237a9486c9956acee9e2e2a3e590",
+      "size": 978
+    }
+  ]
+}

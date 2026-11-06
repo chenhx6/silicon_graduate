@@ -1,0 +1,1137 @@
+{
+  "case": {
+    "odd_A": 137,
+    "core_A": 136,
+    "Z": 56,
+    "n_b": 4,
+    "two_j": 11,
+    "two_J_state": 11,
+    "state_ordinal": 0,
+    "eps_d": 1.15,
+    "kappa": -0.122,
+    "chi": -0.85,
+    "v2": 0.936,
+    "Gamma0": 0.4,
+    "Lambda0": 5.0,
+    "A0": -0.6
+  },
+  "parameters": {
+    "n_b": 4,
+    "two_j": 11,
+    "eps_d": 1.15,
+    "kappa": -0.122,
+    "chi": -0.85,
+    "v2": 0.936,
+    "Q_jj": -1.081027387032316,
+    "Gamma0": 0.4,
+    "Lambda0": 5.0,
+    "A0": -0.6
+  },
+  "calibration": {
+    "eB": 0.125640043184871,
+    "unit_B_0_to_2": 25.783285358194043,
+    "target_B_0_to_2": 0.407,
+    "initial_index": 0,
+    "final_index": 1,
+    "eF_eb": 0.125,
+    "chi_E2": 0.35,
+    "core_selected_strength": {
+      "input_quantity": "B(E2;0+ -> 2+) from Coulomb-excitation evaluation",
+      "input_literal": "0.407 7",
+      "B_up_e2b2": 0.407,
+      "B_up_quoted_margin_e2b2": 0.007,
+      "B_down_e2b2": 0.0814,
+      "B_down_margin_e2b2": 0.0014,
+      "margin_kind": "Source quoted Bup margin divided by 5; no confidence-level reinterpretation",
+      "conversion": "Bdown=Bup/(2*Ji+1)=Bup/5 for Ji=2 -> Jf=0"
+    },
+    "source": {
+      "adopted_dataset_id": "136056001",
+      "adopted_path": "raw/papers/gpt/query/20261106-ba-core-E2-calibration/nndc136-adopted-text.ens",
+      "adopted_sha256": "2ddbfbcbe7cd55f937ddd0b98a0ce066cf21c269d2eec39a504ec6a27f382b18",
+      "level_line": 51,
+      "gamma_line": 62,
+      "block_last_line": 66,
+      "literal_level_record": "136BA  L 818.522   10 2+                1.89 PS   3                         A   ",
+      "literal_gamma_record": "136BA  G 818.514   12 100       E2                     0.00283                  ",
+      "first_2plus_block": [
+        {
+          "line": 51,
+          "text": "136BA  L 818.522   10 2+                1.89 PS   3                         A   "
+        },
+        {
+          "line": 52,
+          "text": "136BAX L XREF=ABCDEFGHIJKLMNOP                                                  "
+        },
+        {
+          "line": 53,
+          "text": "136BA2 L MOMM1=0.68 10 (1980Br01) $BE2=0.407 7                                  "
+        },
+        {
+          "line": 54,
+          "text": "136BA cL J$E2 818|g to 0+                                                       "
+        },
+        {
+          "line": 55,
+          "text": "136BA cL T$deduced by evaluator from B(E2) value and Adopted Gamma properties   "
+        },
+        {
+          "line": 56,
+          "text": "136BA cL BE2$from Coulomb Excitation                                            "
+        },
+        {
+          "line": 57,
+          "text": "136BA cL MOMM1$from dynamic field technique (1980Br01).                         "
+        },
+        {
+          "line": 58,
+          "text": "136BA cL MOME2$-0.19 {I6} (+0.07 {I7}) (1986BaZJ,1986Ro15), +0.01 {I5} (+0.25   "
+        },
+        {
+          "line": 59,
+          "text": "136BA2cL {I5}) (1984Be20), or -0.19 {I17} (+0.02 {I18}) (1972Ke16). Values      "
+        },
+        {
+          "line": 60,
+          "text": "136BA3cL outside parentheses correspond to constructive interference from 2nd   "
+        },
+        {
+          "line": 61,
+          "text": "136BA4cL 2+ while those in parentheses correspond to destructive interference.  "
+        },
+        {
+          "line": 62,
+          "text": "136BA  G 818.514   12 100       E2                     0.00283                  "
+        },
+        {
+          "line": 63,
+          "text": "136BAF G FLAG=AO                                                                "
+        },
+        {
+          "line": 64,
+          "text": "136BAS G KC=0.00242 4$LC=0.000327 5$MC=6.75E-5 10$NC=1.449E-5 21$OC=2.19E-6 3$  "
+        },
+        {
+          "line": 65,
+          "text": "136BAS G PC=1.495E-7 21                                                         "
+        },
+        {
+          "line": 66,
+          "text": "136BAB G BE2W=19.6 4                                                            "
+        }
+      ],
+      "adopted_pdf": "raw/papers/gpt/query/20261106-ba-core-E2-calibration/nndc136-adopted.pdf",
+      "level_pdf_page": 1,
+      "gamma_pdf_page": 7,
+      "record_stamp": "201810",
+      "literature_cutoff": "1-Apr-2018",
+      "evaluation_citation": "NDS 152, 331 (2018)",
+      "evaluators": "E.A. MCCUTCHAN",
+      "underlying_source_keys": [
+        "1984Be20",
+        "1986Ro15",
+        "1972Ke16"
+      ],
+      "source_key_scope": "Evaluation's stated weighted average retained literally; other methods and interference branches retained separately.",
+      "all_source_quantities_are_evaluated_summaries": true,
+      "coulomb_dataset_id": "136056012",
+      "coulomb_path": "raw/papers/gpt/query/20261106-ba-core-E2-calibration/nndc136-coulomb-text.ens",
+      "coulomb_sha256": "eaee8e3994093ef9b24eb68f61d31bb6f94a627183522594eaad65ff0eb49f3e",
+      "coulomb_Bup_line": 47,
+      "coulomb_literal_Bup_record": "136BA2 L BE2=0.407 7$G=0.34 5 (1980Br01)                                        ",
+      "coulomb_first2_block": [
+        {
+          "line": 46,
+          "text": "136BA  L 819          2+                1.89 PS   3                             "
+        },
+        {
+          "line": 47,
+          "text": "136BA2 L BE2=0.407 7$G=0.34 5 (1980Br01)                                        "
+        },
+        {
+          "line": 48,
+          "text": "136BA cL T$deduced by evaluator from B(E2) value and Adopted Gamma properties.  "
+        },
+        {
+          "line": 49,
+          "text": "136BA2cL Other: 2.2 ps {I3} (1973Fi15);                                         "
+        },
+        {
+          "line": 50,
+          "text": "136BA cL BE2$from weighted average of 0.399 {I3} (1984Be20), 0.419 {I4}         "
+        },
+        {
+          "line": 51,
+          "text": "136BA2cL (1986Ro15), and 0.418 {I11} (1972Ke16). Others: 0.46 {I4} (2002Ra21),  "
+        },
+        {
+          "line": 52,
+          "text": "136BA3cL (0.417 {I4}) (1986BaZJ,1986Ro15), 0.388 {I10} (0.400                   "
+        },
+        {
+          "line": 53,
+          "text": "136BA4cL {I10}) taking Q=-0.19 {I17} (1985Bu01), 0.418 {I11} (0.417 {I12})      "
+        },
+        {
+          "line": 54,
+          "text": "136BA5cL (1972Ke16), 0.53 {I16} (1963Al31).                                     "
+        },
+        {
+          "line": 55,
+          "text": "136BA cL G$0.35 {I5} if the linear velocity expression is parameterized         "
+        },
+        {
+          "line": 56,
+          "text": "136BA2cL differently (1980Br01).                                                "
+        },
+        {
+          "line": 57,
+          "text": "136BA cL MOME2$-0.19 {I6} (+0.07 {I7}) (1986BaZJ,1986Ro15), +0.01 {I5} (+0.25   "
+        },
+        {
+          "line": 58,
+          "text": "136BA2cL {I5}) (1984Be20), or -0.19 {I17} (+0.02 {I18}) (1972Ke16)              "
+        },
+        {
+          "line": 59,
+          "text": "136BA  G 819                                                                    "
+        },
+        {
+          "line": 60,
+          "text": "136BA cG $Observed in coincidence with scattered {+32}S (1980Br01) and          "
+        },
+        {
+          "line": 61,
+          "text": "136BA2cG scattered C (2002Ra21); energy not explicitly given                    "
+        }
+      ],
+      "direction_verified_by_pdf": "raw/papers/gpt/query/20261106-ba-core-E2-calibration/nndc136-adopted.pdf p.1: B(E2) upward arrow"
+    },
+    "direction": "target is upward 0->2; Bup=5 Bdown"
+  },
+  "basis": {
+    "full_dimension": 1512,
+    "M_half_dimension": 119,
+    "core_M_zero_dimension": 18
+  },
+  "core": {
+    "state_index": 0,
+    "two_J": 0,
+    "full": {
+      "q2_e2b2": 0.46398115971645365,
+      "q3_e3b3": -0.04806700503993562,
+      "signed_ratio": -0.15208855855847897,
+      "signed_rigid_equivalent_angle_deg": 32.915993677124625,
+      "folded_rigid_equivalent_angle_deg": 27.084006322875382,
+      "angle_status": "within_rigid_domain",
+      "imaginary_residual_q2": 0.0,
+      "imaginary_residual_q3": 0.0
+    },
+    "closure": {
+      "complete_declared_model_space": true,
+      "reduced_minus_direct_q2": 3.885780586188048e-16,
+      "reduced_minus_direct_q3": -1.2490009027033011e-15,
+      "reduced_reciprocity_residual": 4.440892098500626e-16,
+      "missing_required_entries": [],
+      "unresolved_entries_elsewhere_in_table": 30
+    },
+    "quadratic_channels": [
+      {
+        "two_J": 4,
+        "state_count": 5,
+        "q2_e2b2": 0.46398115971645404,
+        "fraction_of_full": 1.0000000000000009
+      }
+    ],
+    "same_spin": {
+      "static_q2_e2b2": 0.0,
+      "other_same_spin_q2_e2b2": 0.0,
+      "static_fraction_of_full_q2": 0.0,
+      "other_same_spin_fraction_of_full_q2": 0.0,
+      "spectroscopic_Qs_eb": 0.0
+    },
+    "signed_cubic_spin_pairs": [
+      {
+        "two_Ja": 4,
+        "two_Jb": 4,
+        "q3_e3b3": -0.04806700503993687,
+        "normalized_to_q2_power_3_over_2": -0.1520885585584829
+      }
+    ],
+    "cubic_cancellation": {
+      "sum_positive_spin_pairs_e3b3": 0.0,
+      "sum_negative_spin_pairs_e3b3": -0.04806700503993687,
+      "sum_abs_spin_pairs_e3b3": 0.04806700503993687,
+      "sum_abs_state_pairs_e3b3": 0.32115057228792965,
+      "by_number_of_initial_state_intermediates_e3b3": {
+        "0": -0.04806700503993687,
+        "1": 0.0,
+        "2": 0.0
+      }
+    },
+    "restricted": [
+      {
+        "max_states": 1,
+        "states_used": 1,
+        "quadratic_strength_sum_e2b2": 0.4069999999999998,
+        "quadratic_closure_contribution_e2b2": 0.4069999999999998,
+        "fraction_of_full_q2": 0.8771907899207029,
+        "fraction_of_Jplus2_q2": 0.8771907899207022,
+        "signed_cubic_chain_e3b3": -0.16283447780281643,
+        "absolute_scaled_chain_e3b3": 0.13623709851916674,
+        "raw_proxy_ratio": 0.5246911897885498,
+        "proxy_angle_deg": 19.450847790395297,
+        "angle_status": "within_rigid_domain",
+        "beta_scale_without_radius_eb": 0.6379655163094631,
+        "beta_scale_over_sqrt_full_q2": 0.9365846410873407
+      },
+      {
+        "max_states": 5,
+        "states_used": 5,
+        "quadratic_strength_sum_e2b2": 0.46398115971645404,
+        "quadratic_closure_contribution_e2b2": 0.46398115971645404,
+        "fraction_of_full_q2": 1.0000000000000009,
+        "fraction_of_Jplus2_q2": 1.0,
+        "signed_cubic_chain_e3b3": 0.05745105958875298,
+        "absolute_scaled_chain_e3b3": 0.04806700503993683,
+        "raw_proxy_ratio": 0.15208855855848258,
+        "proxy_angle_deg": 27.08400632287531,
+        "angle_status": "within_rigid_domain",
+        "beta_scale_without_radius_eb": 0.6811616252523729,
+        "beta_scale_over_sqrt_full_q2": 1.0000000000000004
+      },
+      {
+        "max_states": 10,
+        "states_used": 5,
+        "quadratic_strength_sum_e2b2": 0.46398115971645404,
+        "quadratic_closure_contribution_e2b2": 0.46398115971645404,
+        "fraction_of_full_q2": 1.0000000000000009,
+        "fraction_of_Jplus2_q2": 1.0,
+        "signed_cubic_chain_e3b3": 0.05745105958875298,
+        "absolute_scaled_chain_e3b3": 0.04806700503993683,
+        "raw_proxy_ratio": 0.15208855855848258,
+        "proxy_angle_deg": 27.08400632287531,
+        "angle_status": "within_rigid_domain",
+        "beta_scale_without_radius_eb": 0.6811616252523729,
+        "beta_scale_over_sqrt_full_q2": 1.0000000000000004
+      },
+      {
+        "max_states": null,
+        "states_used": 5,
+        "quadratic_strength_sum_e2b2": 0.46398115971645404,
+        "quadratic_closure_contribution_e2b2": 0.46398115971645404,
+        "fraction_of_full_q2": 1.0000000000000009,
+        "fraction_of_Jplus2_q2": 1.0,
+        "signed_cubic_chain_e3b3": 0.05745105958875298,
+        "absolute_scaled_chain_e3b3": 0.04806700503993683,
+        "raw_proxy_ratio": 0.15208855855848258,
+        "proxy_angle_deg": 27.08400632287531,
+        "angle_status": "within_rigid_domain",
+        "beta_scale_without_radius_eb": 0.6811616252523729,
+        "beta_scale_over_sqrt_full_q2": 1.0000000000000004
+      }
+    ],
+    "selected_matrix_elements": [
+      {
+        "two_J_final": 4,
+        "ordinal_zero_based": 0,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 0.9490884921741181,
+        "signed_RME_eb": 0.6379655163094631,
+        "B_E2_e2b2": 0.4069999999999998
+      },
+      {
+        "two_J_final": 4,
+        "ordinal_zero_based": 1,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 2.9595810720684548,
+        "signed_RME_eb": 0.23468423268259775,
+        "B_E2_e2b2": 0.05507668906981968
+      },
+      {
+        "two_J_final": 4,
+        "ordinal_zero_based": 2,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 4.57149843377816,
+        "signed_RME_eb": 0.04209455074720322,
+        "B_E2_e2b2": 0.0017719512026088669
+      }
+    ],
+    "selected_matrix_element_boundary": "Model predictions, common solver phase convention. Excitation energies need not match experimental levels; same-state B is a diagonal strength, not a gamma decay."
+  },
+  "primary": {
+    "state_index": 0,
+    "two_J": 11,
+    "full": {
+      "q2_e2b2": 0.47676559475556207,
+      "q3_e3b3": -0.021958680021383223,
+      "signed_ratio": -0.06670353788346856,
+      "signed_rigid_equivalent_angle_deg": 31.274890335764294,
+      "folded_rigid_equivalent_angle_deg": 28.725109664235706,
+      "angle_status": "within_rigid_domain",
+      "imaginary_residual_q2": 0.0,
+      "imaginary_residual_q3": 0.0
+    },
+    "closure": {
+      "complete_declared_model_space": true,
+      "reduced_minus_direct_q2": -1.2878587085651816e-14,
+      "reduced_minus_direct_q3": 2.7707003358301563e-14,
+      "reduced_reciprocity_residual": 1.3322676295501878e-15,
+      "missing_required_entries": [],
+      "unresolved_entries_elsewhere_in_table": 0
+    },
+    "quadratic_channels": [
+      {
+        "two_J": 7,
+        "state_count": 14,
+        "q2_e2b2": 0.04818019998636165,
+        "fraction_of_full": 0.10105636924380766
+      },
+      {
+        "two_J": 9,
+        "state_count": 14,
+        "q2_e2b2": 0.062494133995896865,
+        "fraction_of_full": 0.1310793704145905
+      },
+      {
+        "two_J": 11,
+        "state_count": 18,
+        "q2_e2b2": 0.14043075658815254,
+        "fraction_of_full": 0.29454884776270707
+      },
+      {
+        "two_J": 13,
+        "state_count": 14,
+        "q2_e2b2": 0.12275577467108005,
+        "fraction_of_full": 0.25747616023764675
+      },
+      {
+        "two_J": 15,
+        "state_count": 14,
+        "q2_e2b2": 0.10290472951405846,
+        "fraction_of_full": 0.2158392523412218
+      }
+    ],
+    "same_spin": {
+      "static_q2_e2b2": 0.09833228430328593,
+      "other_same_spin_q2_e2b2": 0.042098472284866614,
+      "static_fraction_of_full_q2": 0.20624870037801477,
+      "other_same_spin_fraction_of_full_q2": 0.0883001473846923,
+      "spectroscopic_Qs_eb": 0.77296287976573
+    },
+    "signed_cubic_spin_pairs": [
+      {
+        "two_Ja": 7,
+        "two_Jb": 7,
+        "q3_e3b3": -0.007325166314763625,
+        "normalized_to_q2_power_3_over_2": -0.022251542820594567
+      },
+      {
+        "two_Ja": 7,
+        "two_Jb": 9,
+        "q3_e3b3": -0.00859111373058903,
+        "normalized_to_q2_power_3_over_2": -0.026097091429516356
+      },
+      {
+        "two_Ja": 7,
+        "two_Jb": 11,
+        "q3_e3b3": -0.020559998631282196,
+        "normalized_to_q2_power_3_over_2": -0.06245478536279544
+      },
+      {
+        "two_Ja": 9,
+        "two_Jb": 7,
+        "q3_e3b3": -0.008591113730589035,
+        "normalized_to_q2_power_3_over_2": -0.026097091429516373
+      },
+      {
+        "two_Ja": 9,
+        "two_Jb": 9,
+        "q3_e3b3": 0.008307587616863212,
+        "normalized_to_q2_power_3_over_2": 0.025235828600901608
+      },
+      {
+        "two_Ja": 9,
+        "two_Jb": 11,
+        "q3_e3b3": 0.00045746342330422687,
+        "normalized_to_q2_power_3_over_2": 0.001389629465749305
+      },
+      {
+        "two_Ja": 9,
+        "two_Jb": 13,
+        "q3_e3b3": -0.005323383944417603,
+        "normalized_to_q2_power_3_over_2": -0.016170759911749016
+      },
+      {
+        "two_Ja": 11,
+        "two_Jb": 7,
+        "q3_e3b3": -0.020559998631282193,
+        "normalized_to_q2_power_3_over_2": -0.062454785362795424
+      },
+      {
+        "two_Ja": 11,
+        "two_Jb": 9,
+        "q3_e3b3": 0.000457463423304227,
+        "normalized_to_q2_power_3_over_2": 0.0013896294657493053
+      },
+      {
+        "two_Ja": 11,
+        "two_Jb": 11,
+        "q3_e3b3": 0.052770942280556996,
+        "normalized_to_q2_power_3_over_2": 0.16030146366401368
+      },
+      {
+        "two_Ja": 11,
+        "two_Jb": 13,
+        "q3_e3b3": 0.02753205393395857,
+        "normalized_to_q2_power_3_over_2": 0.0836336884004479
+      },
+      {
+        "two_Ja": 11,
+        "two_Jb": 15,
+        "q3_e3b3": -0.023584714524165832,
+        "normalized_to_q2_power_3_over_2": -0.07164291738854658
+      },
+      {
+        "two_Ja": 13,
+        "two_Jb": 9,
+        "q3_e3b3": -0.0053233839444175955,
+        "normalized_to_q2_power_3_over_2": -0.016170759911748992
+      },
+      {
+        "two_Ja": 13,
+        "two_Jb": 11,
+        "q3_e3b3": 0.027532053933958585,
+        "normalized_to_q2_power_3_over_2": 0.08363368840044794
+      },
+      {
+        "two_Ja": 13,
+        "two_Jb": 13,
+        "q3_e3b3": 0.0023448139326108478,
+        "normalized_to_q2_power_3_over_2": 0.007122804505156232
+      },
+      {
+        "two_Ja": 13,
+        "two_Jb": 15,
+        "q3_e3b3": 0.006265859911287372,
+        "normalized_to_q2_power_3_over_2": 0.019033704373763005
+      },
+      {
+        "two_Ja": 15,
+        "two_Jb": 11,
+        "q3_e3b3": -0.023584714524165818,
+        "normalized_to_q2_power_3_over_2": -0.07164291738854654
+      },
+      {
+        "two_Ja": 15,
+        "two_Jb": 13,
+        "q3_e3b3": 0.006265859911287365,
+        "normalized_to_q2_power_3_over_2": 0.01903370437376298
+      },
+      {
+        "two_Ja": 15,
+        "two_Jb": 15,
+        "q3_e3b3": -0.030449190412814145,
+        "normalized_to_q2_power_3_over_2": -0.0924950281275675
+      }
+    ],
+    "cubic_cancellation": {
+      "sum_positive_spin_pairs_e3b3": 0.1319340983671314,
+      "sum_negative_spin_pairs_e3b3": -0.15389277838848708,
+      "sum_abs_spin_pairs_e3b3": 0.28582687675561846,
+      "sum_abs_state_pairs_e3b3": 0.5398576734106314,
+      "by_number_of_initial_state_intermediates_e3b3": {
+        "0": -0.049209195836006345,
+        "1": -0.0006442118189334725,
+        "2": 0.027894727633584356
+      }
+    },
+    "restricted": [
+      {
+        "max_states": 1,
+        "states_used": 1,
+        "quadratic_strength_sum_e2b2": 0.8698586618334107,
+        "quadratic_closure_contribution_e2b2": 0.07248822181945089,
+        "fraction_of_full_q2": 0.15204163768699716,
+        "fraction_of_Jplus2_q2": 0.7044207021558501,
+        "signed_cubic_chain_e3b3": 0.04970125954280626,
+        "absolute_scaled_chain_e3b3": 0.04158305712786126,
+        "raw_proxy_ratio": 0.05125584247414555,
+        "proxy_angle_deg": 29.02065638169883,
+        "angle_status": "within_rigid_domain",
+        "beta_scale_without_radius_eb": 1.1262965337069943,
+        "beta_scale_over_sqrt_full_q2": 1.6311740126431793
+      },
+      {
+        "max_states": 5,
+        "states_used": 5,
+        "quadratic_strength_sum_e2b2": 1.2302041982050347,
+        "quadratic_closure_contribution_e2b2": 0.10251701651708622,
+        "fraction_of_full_q2": 0.21502603720733401,
+        "fraction_of_Jplus2_q2": 0.9962323111988816,
+        "signed_cubic_chain_e3b3": 1.188929909265441,
+        "absolute_scaled_chain_e3b3": 0.99473012943318,
+        "raw_proxy_ratio": 0.7290200376070264,
+        "proxy_angle_deg": 14.398565618819484,
+        "angle_status": "within_rigid_domain",
+        "beta_scale_without_radius_eb": 1.3394206915861084,
+        "beta_scale_over_sqrt_full_q2": 1.9398339235945807
+      },
+      {
+        "max_states": 10,
+        "states_used": 10,
+        "quadratic_strength_sum_e2b2": 1.2343243135762043,
+        "quadratic_closure_contribution_e2b2": 0.10286035946468369,
+        "fraction_of_full_q2": 0.21574618763633782,
+        "fraction_of_Jplus2_q2": 0.9995688240027033,
+        "signed_cubic_chain_e3b3": 1.2084598157832946,
+        "absolute_scaled_chain_e3b3": 1.0110700215386155,
+        "raw_proxy_ratio": 0.7372882420323493,
+        "proxy_angle_deg": 14.166358378839432,
+        "angle_status": "within_rigid_domain",
+        "beta_scale_without_radius_eb": 1.3416617646157936,
+        "beta_scale_over_sqrt_full_q2": 1.9430795875712124
+      },
+      {
+        "max_states": null,
+        "states_used": 14,
+        "quadratic_strength_sum_e2b2": 1.234856754168702,
+        "quadratic_closure_contribution_e2b2": 0.1029047295140585,
+        "fraction_of_full_q2": 0.2158392523412219,
+        "fraction_of_Jplus2_q2": 1.0000000000000004,
+        "signed_cubic_chain_e3b3": 1.2107819041446735,
+        "absolute_scaled_chain_e3b3": 1.013012820048661,
+        "raw_proxy_ratio": 0.7382272451478787,
+        "proxy_angle_deg": 14.139792595973985,
+        "angle_status": "within_rigid_domain",
+        "beta_scale_without_radius_eb": 1.341951104361118,
+        "beta_scale_over_sqrt_full_q2": 1.9434986277256243
+      }
+    ],
+    "selected_matrix_elements": [
+      {
+        "two_J_final": 7,
+        "ordinal_zero_based": 0,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 1.1250431447913853,
+        "signed_RME_eb": 0.4762096561030163,
+        "B_E2_e2b2": 0.018897969713812756
+      },
+      {
+        "two_J_final": 7,
+        "ordinal_zero_based": 1,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 1.7301563205817714,
+        "signed_RME_eb": -0.4123777058742271,
+        "B_E2_e2b2": 0.014171281025174216
+      },
+      {
+        "two_J_final": 7,
+        "ordinal_zero_based": 2,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 2.541032968852332,
+        "signed_RME_eb": -0.4122094403612206,
+        "B_E2_e2b2": 0.014159718560242555
+      },
+      {
+        "two_J_final": 9,
+        "ordinal_zero_based": 0,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 0.4171281649153209,
+        "signed_RME_eb": 0.7920924988247285,
+        "B_E2_e2b2": 0.05228421055786688
+      },
+      {
+        "two_J_final": 9,
+        "ordinal_zero_based": 1,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 1.7148338981308369,
+        "signed_RME_eb": 0.06116927050990774,
+        "B_E2_e2b2": 0.0003118066378928557
+      },
+      {
+        "two_J_final": 9,
+        "ordinal_zero_based": 2,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 2.5786870869522764,
+        "signed_RME_eb": -0.3302925564252264,
+        "B_E2_e2b2": 0.009091097735825948
+      },
+      {
+        "two_J_final": 11,
+        "ordinal_zero_based": 0,
+        "same_state": true,
+        "Efinal_minus_Einitial_MeV": 0.0,
+        "signed_RME_eb": 1.0862722548419577,
+        "B_E2_e2b2": 0.09833228430328593
+      },
+      {
+        "two_J_final": 11,
+        "ordinal_zero_based": 1,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 0.990142352422406,
+        "signed_RME_eb": 0.6756497049056628,
+        "B_E2_e2b2": 0.0380418769782591
+      },
+      {
+        "two_J_final": 11,
+        "ordinal_zero_based": 2,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 1.762730959532183,
+        "signed_RME_eb": 0.05912222286085664,
+        "B_E2_e2b2": 0.0002912864363340666
+      },
+      {
+        "two_J_final": 13,
+        "ordinal_zero_based": 0,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 0.6068564438781983,
+        "signed_RME_eb": 1.1576651331687726,
+        "B_E2_e2b2": 0.11168238004622266
+      },
+      {
+        "two_J_final": 13,
+        "ordinal_zero_based": 1,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 1.8120209117710742,
+        "signed_RME_eb": 0.29079167228445474,
+        "B_E2_e2b2": 0.007046649722499143
+      },
+      {
+        "two_J_final": 13,
+        "ordinal_zero_based": 2,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 2.7852604963403587,
+        "signed_RME_eb": 0.21489317841509117,
+        "B_E2_e2b2": 0.003848256510778351
+      },
+      {
+        "two_J_final": 15,
+        "ordinal_zero_based": 0,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 0.9688739204305454,
+        "signed_RME_eb": 0.9326621370214461,
+        "B_E2_e2b2": 0.07248822181945089
+      },
+      {
+        "two_J_final": 15,
+        "ordinal_zero_based": 1,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 2.094159042266538,
+        "signed_RME_eb": -0.02093489923025036,
+        "B_E2_e2b2": 3.6522500481728096e-05
+      },
+      {
+        "two_J_final": 15,
+        "ordinal_zero_based": 2,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 2.5407819098519564,
+        "signed_RME_eb": 0.5852061840841697,
+        "B_E2_e2b2": 0.028538856490862925
+      }
+    ],
+    "selected_matrix_element_boundary": "Model predictions, common solver phase convention. Excitation energies need not match experimental levels; same-state B is a diagonal strength, not a gamma decay."
+  },
+  "core_only": {
+    "state_index": 0,
+    "two_J": 11,
+    "full": {
+      "q2_e2b2": 0.45637968228124737,
+      "q3_e3b3": -0.029795767081812464,
+      "signed_ratio": -0.09664182400101264,
+      "signed_rigid_equivalent_angle_deg": 31.848608087690135,
+      "folded_rigid_equivalent_angle_deg": 28.151391912309865,
+      "angle_status": "within_rigid_domain",
+      "imaginary_residual_q2": 0.0,
+      "imaginary_residual_q3": 0.0
+    },
+    "closure": {
+      "complete_declared_model_space": true,
+      "reduced_minus_direct_q2": -1.2434497875801753e-14,
+      "reduced_minus_direct_q3": 2.7026991755718655e-14,
+      "reduced_reciprocity_residual": 1.4432899320127035e-15,
+      "missing_required_entries": [],
+      "unresolved_entries_elsewhere_in_table": 0
+    },
+    "quadratic_channels": [
+      {
+        "two_J": 7,
+        "state_count": 14,
+        "q2_e2b2": 0.04773436729159693,
+        "fraction_of_full": 0.10459354161647422
+      },
+      {
+        "two_J": 9,
+        "state_count": 14,
+        "q2_e2b2": 0.06603465142555486,
+        "fraction_of_full": 0.14469235592495222
+      },
+      {
+        "two_J": 11,
+        "state_count": 18,
+        "q2_e2b2": 0.12279442265868504,
+        "fraction_of_full": 0.26906198375196744
+      },
+      {
+        "two_J": 13,
+        "state_count": 14,
+        "q2_e2b2": 0.11754680040916983,
+        "fraction_of_full": 0.2575636141854596
+      },
+      {
+        "two_J": 15,
+        "state_count": 14,
+        "q2_e2b2": 0.10226944049622828,
+        "fraction_of_full": 0.22408850452111928
+      }
+    ],
+    "same_spin": {
+      "static_q2_e2b2": 0.07944022233729484,
+      "other_same_spin_q2_e2b2": 0.0433542003213902,
+      "static_fraction_of_full_q2": 0.17406608011164532,
+      "other_same_spin_fraction_of_full_q2": 0.09499590364032212,
+      "spectroscopic_Qs_eb": 0.694753590007782
+    },
+    "signed_cubic_spin_pairs": [
+      {
+        "two_Ja": 7,
+        "two_Jb": 7,
+        "q3_e3b3": -0.006354111355747311,
+        "normalized_to_q2_power_3_over_2": -0.02060940098098034
+      },
+      {
+        "two_Ja": 7,
+        "two_Jb": 9,
+        "q3_e3b3": -0.00774472953350489,
+        "normalized_to_q2_power_3_over_2": -0.02511983619878987
+      },
+      {
+        "two_Ja": 7,
+        "two_Jb": 11,
+        "q3_e3b3": -0.018254600473365107,
+        "normalized_to_q2_power_3_over_2": -0.059208339268855624
+      },
+      {
+        "two_Ja": 9,
+        "two_Jb": 7,
+        "q3_e3b3": -0.007744729533504891,
+        "normalized_to_q2_power_3_over_2": -0.025119836198789873
+      },
+      {
+        "two_Ja": 9,
+        "two_Jb": 9,
+        "q3_e3b3": 0.007433863035397348,
+        "normalized_to_q2_power_3_over_2": 0.02411154850089541
+      },
+      {
+        "two_Ja": 9,
+        "two_Jb": 11,
+        "q3_e3b3": 0.0004233808249601355,
+        "normalized_to_q2_power_3_over_2": 0.0013732250980098624
+      },
+      {
+        "two_Ja": 9,
+        "two_Jb": 13,
+        "q3_e3b3": -0.004841188646343564,
+        "normalized_to_q2_power_3_over_2": -0.01570227407909968
+      },
+      {
+        "two_Ja": 11,
+        "two_Jb": 7,
+        "q3_e3b3": -0.01825460047336511,
+        "normalized_to_q2_power_3_over_2": -0.05920833926885564
+      },
+      {
+        "two_Ja": 11,
+        "two_Jb": 9,
+        "q3_e3b3": 0.00042338082496013547,
+        "normalized_to_q2_power_3_over_2": 0.0013732250980098624
+      },
+      {
+        "two_Ja": 11,
+        "two_Jb": 11,
+        "q3_e3b3": 0.04236529652069896,
+        "normalized_to_q2_power_3_over_2": 0.13741077780820973
+      },
+      {
+        "two_Ja": 11,
+        "two_Jb": 13,
+        "q3_e3b3": 0.022519465642992165,
+        "normalized_to_q2_power_3_over_2": 0.07304132259093075
+      },
+      {
+        "two_Ja": 11,
+        "two_Jb": 15,
+        "q3_e3b3": -0.020709361881983853,
+        "normalized_to_q2_power_3_over_2": -0.06717029639400106
+      },
+      {
+        "two_Ja": 13,
+        "two_Jb": 9,
+        "q3_e3b3": -0.004841188646343559,
+        "normalized_to_q2_power_3_over_2": -0.015702274079099663
+      },
+      {
+        "two_Ja": 13,
+        "two_Jb": 11,
+        "q3_e3b3": 0.022519465642992162,
+        "normalized_to_q2_power_3_over_2": 0.07304132259093074
+      },
+      {
+        "two_Ja": 13,
+        "two_Jb": 13,
+        "q3_e3b3": 0.0019008752298612691,
+        "normalized_to_q2_power_3_over_2": 0.006165441181887591
+      },
+      {
+        "two_Ja": 13,
+        "two_Jb": 15,
+        "q3_e3b3": 0.004380600120139193,
+        "normalized_to_q2_power_3_over_2": 0.014208366734337976
+      },
+      {
+        "two_Ja": 15,
+        "two_Jb": 11,
+        "q3_e3b3": -0.02070936188198385,
+        "normalized_to_q2_power_3_over_2": -0.06717029639400106
+      },
+      {
+        "two_Ja": 15,
+        "two_Jb": 13,
+        "q3_e3b3": 0.004380600120139188,
+        "normalized_to_q2_power_3_over_2": 0.014208366734337959
+      },
+      {
+        "two_Ja": 15,
+        "two_Jb": 15,
+        "q3_e3b3": -0.02668882261778399,
+        "normalized_to_q2_power_3_over_2": -0.0865645274760025
+      }
+    ],
+    "cubic_cancellation": {
+      "sum_positive_spin_pairs_e3b3": 0.10634692796214056,
+      "sum_negative_spin_pairs_e3b3": -0.13614269504392612,
+      "sum_abs_spin_pairs_e3b3": 0.2424896230060667,
+      "sum_abs_state_pairs_e3b3": 0.5089983255242517,
+      "by_number_of_initial_state_intermediates_e3b3": {
+        "0": -0.04842626916974345,
+        "1": -0.001624794632759981,
+        "2": 0.02025529672071774
+      }
+    },
+    "restricted": [
+      {
+        "max_states": 1,
+        "states_used": 1,
+        "quadratic_strength_sum_e2b2": 0.8618463922752156,
+        "quadratic_closure_contribution_e2b2": 0.0718205326896013,
+        "fraction_of_full_q2": 0.15737013604681324,
+        "fraction_of_Jplus2_q2": 0.7022677775601017,
+        "signed_cubic_chain_e3b3": -0.05402322416270804,
+        "absolute_scaled_chain_e3b3": 0.04519907216142762,
+        "raw_proxy_ratio": 0.05649170958330492,
+        "proxy_angle_deg": 28.920513137662795,
+        "angle_status": "within_rigid_domain",
+        "beta_scale_without_radius_eb": 1.1210973740349333,
+        "beta_scale_over_sqrt_full_q2": 1.6595111873136716
+      },
+      {
+        "max_states": 5,
+        "states_used": 5,
+        "quadratic_strength_sum_e2b2": 1.2226546895310755,
+        "quadratic_closure_contribution_e2b2": 0.1018878907942563,
+        "fraction_of_full_q2": 0.22325246883244712,
+        "fraction_of_Jplus2_q2": 0.9962691719039368,
+        "signed_cubic_chain_e3b3": 1.0395735922466645,
+        "absolute_scaled_chain_e3b3": 0.8697696692732185,
+        "raw_proxy_ratio": 0.6433518170515664,
+        "proxy_angle_deg": 16.6525958124412,
+        "angle_status": "within_rigid_domain",
+        "beta_scale_without_radius_eb": 1.3353044929526319,
+        "beta_scale_over_sqrt_full_q2": 1.976592574246859
+      },
+      {
+        "max_states": 10,
+        "states_used": 10,
+        "quadratic_strength_sum_e2b2": 1.2266975592643765,
+        "quadratic_closure_contribution_e2b2": 0.10222479660536471,
+        "fraction_of_full_q2": 0.22399068270170694,
+        "fraction_of_Jplus2_q2": 0.9995634679270078,
+        "signed_cubic_chain_e3b3": 1.0590391679884454,
+        "absolute_scaled_chain_e3b3": 0.8860557383898381,
+        "raw_proxy_ratio": 0.6521609502700493,
+        "proxy_angle_deg": 16.431757634494502,
+        "angle_status": "within_rigid_domain",
+        "beta_scale_without_radius_eb": 1.3375103515838234,
+        "beta_scale_over_sqrt_full_q2": 1.9798578098641004
+      },
+      {
+        "max_states": null,
+        "states_used": 14,
+        "quadratic_strength_sum_e2b2": 1.2272332859547397,
+        "quadratic_closure_contribution_e2b2": 0.10226944049622831,
+        "fraction_of_full_q2": 0.22408850452111934,
+        "fraction_of_Jplus2_q2": 1.0000000000000002,
+        "signed_cubic_chain_e3b3": 1.0612546025178011,
+        "absolute_scaled_chain_e3b3": 0.8879093039019533,
+        "raw_proxy_ratio": 0.6530973441629997,
+        "proxy_angle_deg": 16.408154175705647,
+        "angle_status": "within_rigid_domain",
+        "beta_scale_without_radius_eb": 1.3378023802804342,
+        "beta_scale_over_sqrt_full_q2": 1.9802900871133977
+      }
+    ],
+    "selected_matrix_elements": [
+      {
+        "two_J_final": 7,
+        "ordinal_zero_based": 0,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 1.1250431447913853,
+        "signed_RME_eb": 0.4715340726524035,
+        "B_E2_e2b2": 0.01852869847268018
+      },
+      {
+        "two_J_final": 7,
+        "ordinal_zero_based": 1,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 1.7301563205817714,
+        "signed_RME_eb": -0.4098323160394002,
+        "B_E2_e2b2": 0.013996877272518233
+      },
+      {
+        "two_J_final": 7,
+        "ordinal_zero_based": 2,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 2.541032968852332,
+        "signed_RME_eb": -0.4137192828827272,
+        "B_E2_e2b2": 0.014263637085749839
+      },
+      {
+        "two_J_final": 9,
+        "ordinal_zero_based": 0,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 0.4171281649153209,
+        "signed_RME_eb": 0.818290429617713,
+        "B_E2_e2b2": 0.05579993560032845
+      },
+      {
+        "two_J_final": 9,
+        "ordinal_zero_based": 1,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 1.7148338981308369,
+        "signed_RME_eb": 0.0704168737408305,
+        "B_E2_e2b2": 0.0004132113422860053
+      },
+      {
+        "two_J_final": 9,
+        "ordinal_zero_based": 2,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 2.5786870869522764,
+        "signed_RME_eb": -0.3291574402294131,
+        "B_E2_e2b2": 0.009028718371531639
+      },
+      {
+        "two_J_final": 11,
+        "ordinal_zero_based": 0,
+        "same_state": true,
+        "Efinal_minus_Einitial_MeV": 0.0,
+        "signed_RME_eb": 0.9763619554486636,
+        "B_E2_e2b2": 0.07944022233729484
+      },
+      {
+        "two_J_final": 11,
+        "ordinal_zero_based": 1,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 0.990142352422406,
+        "signed_RME_eb": 0.6865489204049998,
+        "B_E2_e2b2": 0.03927911834243923
+      },
+      {
+        "two_J_final": 11,
+        "ordinal_zero_based": 2,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 1.762730959532183,
+        "signed_RME_eb": 0.052827468927203525,
+        "B_E2_e2b2": 0.00023256178943788783
+      },
+      {
+        "two_J_final": 13,
+        "ordinal_zero_based": 0,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 0.6068564438781983,
+        "signed_RME_eb": 1.1302267412499762,
+        "B_E2_e2b2": 0.10645104055304506
+      },
+      {
+        "two_J_final": 13,
+        "ordinal_zero_based": 1,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 1.8120209117710742,
+        "signed_RME_eb": 0.2950013762995018,
+        "B_E2_e2b2": 0.0072521510015500215
+      },
+      {
+        "two_J_final": 13,
+        "ordinal_zero_based": 2,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 2.7852604963403587,
+        "signed_RME_eb": 0.20948316287976526,
+        "B_E2_e2b2": 0.0036569329608425218
+      },
+      {
+        "two_J_final": 15,
+        "ordinal_zero_based": 0,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 0.9688739204305454,
+        "signed_RME_eb": 0.9283568237887928,
+        "B_E2_e2b2": 0.0718205326896013
+      },
+      {
+        "two_J_final": 15,
+        "ordinal_zero_based": 1,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 2.094159042266538,
+        "signed_RME_eb": -0.019010683273376263,
+        "B_E2_e2b2": 3.0117173210052336e-05
+      },
+      {
+        "two_J_final": 15,
+        "ordinal_zero_based": 2,
+        "same_state": false,
+        "Efinal_minus_Einitial_MeV": 2.5407819098519564,
+        "signed_RME_eb": 0.5856909420144656,
+        "B_E2_e2b2": 0.028586156629816006
+      }
+    ],
+    "selected_matrix_element_boundary": "Model predictions, common solver phase convention. Excitation energies need not match experimental levels; same-state B is a diagonal strength, not a gamma decay."
+  },
+  "core_composition": {
+    "probability_by_core_R": {
+      "0": 0.7266604376177411,
+      "2": 0.27283304846205225,
+      "3": 0.00011583314612109507,
+      "4": 7.607934164610042e-05,
+      "5": 5.941065256881901e-07,
+      "6": 0.0003131955272638482,
+      "8": 8.117986489537954e-07
+    },
+    "core_ground_state_probability": 0.693183030892705,
+    "boundary": "R=0 also includes excited zero-spin core states."
+  },
+  "operator_polynomial": {
+    "q2_BB_e2b2": 0.45637968228124737,
+    "q2_BF_plus_FB_e2b2": 0.019228881079898303,
+    "q2_FF_e2b2": 0.0011570313944164027,
+    "q3_BBB_e3b3": -0.029795767081812464,
+    "q3_two_B_one_F_all_orders_e3b3": 0.00691392729164615,
+    "q3_one_B_two_F_all_orders_e3b3": 0.0008875560265859117,
+    "q3_FFF_e3b3": 3.560374219717923e-05,
+    "boundary": "B and F include their declared charges and BCS factors."
+  },
+  "comparison": {
+    "sqrt_primary_q2_over_even_q2": 1.01368327426152,
+    "sqrt_core_only_q2_over_even_q2": 0.9917745914797292,
+    "five_minus_all_proxy_angle_deg": 0.2587730228454994
+  },
+  "elapsed_seconds": 0.404207982996013
+}

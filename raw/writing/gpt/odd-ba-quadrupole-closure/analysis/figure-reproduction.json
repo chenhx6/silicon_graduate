@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "figure": "charge_and_ratios-v4",
+      "pixels_identical": true,
+      "source_sha256": "918de6ba370bb496747ea0b0bad05b211a270b507ec19b5403d9470567b3ad43"
+    },
+    {
+      "figure": "angular_channels-v4",
+      "pixels_identical": true,
+      "source_sha256": "748257b6adad5685741fa2f5be1ceefd4c6c1f379f88fcae40da709fe3f7ac4e"
+    },
+    {
+      "figure": "quadrupole_path-v2",
+      "pixels_identical": true,
+      "source_sha256": "2543ec4fc62d8f25b70b04d585afae69d4dad2a95046e4de6a9f8c99828863c4"
+    }
+  ],
+  "scope": "Final 8.4-point-or-larger main figure lettering; math superscripts remain smaller by typography convention."
+}

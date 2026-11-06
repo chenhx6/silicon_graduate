@@ -1,0 +1,38 @@
+{
+  "declared_review_date": "2026-11-06",
+  "container_observed_utc": "2026-11-05T16:36:14.916641+00:00",
+  "retained_run_directory_label": "20261105",
+  "protected_hashes_verified": {
+    "outputs/l4/20261105-ba129-controlled-pairing/ibfm-test-contract.json": "ad899ccbc98303493113c84cb9c0608887b71344cb4868fcf6cc53dfe5283f11",
+    "outputs/l4/20261105-ba129-model-readiness/em-branch-test-contract.json": "6b02a4e996c8288f1d758f123b6bea773b09f9e169c6ac9f1c9c6e1543d6d6df",
+    "raw/papers/gpt/query/20261105-ba129-core-constraints/nndc128-adopted-text.ens": "2d1496086cc5f5ebbbbd3bae6c5817135602c556bcfe95c11fbc54372a949c7e",
+    "raw/papers/2017_Nomura et al_Shape-phase transitions in odd-mass \u03b3 -soft nuclei with mass A \u2248 130.pdf": "481e6a9e0f6b01e9c5db5e2b06d9b350dba0638393c7da7f532c3040e9efaea9",
+    "outputs/l4/20261105-ba129-model-readiness/energy-fit-contract.json": "ab1e57d66575233f3221d57b9b7e618e7bab78d2cffaee922a28b9e89c831c9d",
+    "system/scripts/analysis/single_j_ibfm.py": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+    "system/scripts/analysis/paired_single_j_em.py": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+    "system/scripts/analysis/paired_single_j_rotor.py": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+    "system/scripts/ba129_ibfm_prediction.py": "51063e26ff4633f99fa9b53620540173d1c016bb238117b39a3209f676978bb1",
+    "outputs/l4/20261105-ba129-controlled-pairing/ibfm-case-v1/prediction.json": "6dd5371fcaa7d2647e60490d15ca7e2816a1a517756af59515923167f6d1a2a4",
+    "outputs/l4/20261105-ba129-controlled-pairing/ibfm-case-review/source-points-frozen.json": "46b90e618a4c95c377bb61c7f59eb782d05c3f35f4be5418f0dded1d784ac45d",
+    "raw/papers/gpt/query/20261105-nomura2017-input-audit/nomura2017-v2-source.tar.gz": "f7ed6dc746f50f16169d8796e4d12becd8827eaf4ac2ee4d5f1ff9cd04690faf"
+  },
+  "source_freeze_preserved": true,
+  "report_local_links_checked": 9,
+  "case_and_core_files_edited": false,
+  "parameter_fits_or_adjustments": false,
+  "git_actions": false,
+  "review_outputs": {
+    "audit_case.py": "1d413f13e07b88bae25332b34335d6fc03db1922babbc1e66108bbc12e50199e",
+    "case-audit.json": "84f39b0115641c5e8457969b22de2539af780eef715c9199cac25831d92ecb4c",
+    "energy-comparison.csv": "18464fd1594f2dc026fc2736206557674b7b5c51ce190780c5d8dc5f18e92c2f",
+    "extract_source_points.py": "5ca00bef4820324f54018ac910480dfd840752ffb9523688073a267f314989d2",
+    "photon-comparison.csv": "60175035ee8534b61f145cc1651d800e5ef6f48541b1895c013a1792c64ecc0b",
+    "report.md": "a4ef69cc7d0d050fd8b87d1c048a88afc3efc768738eaf7cb0522c569cce855f",
+    "source-comparison.csv": "f278702a2483902acc4f8ddc7b452060704ced94773039017d0aa4def4649c01",
+    "source-points-frozen.json": "46b90e618a4c95c377bb61c7f59eb782d05c3f35f4be5418f0dded1d784ac45d"
+  },
+  "publisher_crops": [
+    "tmp/ba129-controlled-pairing/ibfm-case-review/star-anchor.png",
+    "tmp/ba129-controlled-pairing/ibfm-case-review/triangle-anchor.png"
+  ]
+}

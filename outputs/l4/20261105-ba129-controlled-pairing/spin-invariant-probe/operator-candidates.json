@@ -1,0 +1,35 @@
+{
+  "scope": "source-operator ambiguity probe; not a fit or a silent replacement of the frozen E2 operator",
+  "values": [
+    {
+      "chi_operator": 0.35,
+      "full_folded_gamma": 29.50613369923982,
+      "restricted5_gamma": 29.496314603850305,
+      "q3_signed_ratio": -0.025855897275636485
+    },
+    {
+      "chi_operator": -0.35,
+      "full_folded_gamma": 19.271799972059167,
+      "restricted5_gamma": 19.270719320596054,
+      "q3_signed_ratio": 0.5326488176677376
+    },
+    {
+      "chi_operator": -0.18,
+      "full_folded_gamma": 21.88759964896686,
+      "restricted5_gamma": 21.88801321895949,
+      "q3_signed_ratio": 0.412106028528274
+    },
+    {
+      "chi_operator": 0.18,
+      "full_folded_gamma": 27.65983536618144,
+      "restricted5_gamma": 27.664685083173158,
+      "q3_signed_ratio": 0.12222435552098945
+    },
+    {
+      "chi_operator": 0.0,
+      "full_folded_gamma": 24.7340768290468,
+      "restricted5_gamma": 24.736107230850635,
+      "q3_signed_ratio": 0.27224278831848764
+    }
+  ]
+}

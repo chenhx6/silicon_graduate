@@ -1,0 +1,12 @@
+{
+  "source": "data/results/quadrupole-path.csv",
+  "source_sha256": "9b9e17c828433ed337b5d1f8d06ad4daab2da8d6c8ac4e6dc0753e20203ec546",
+  "producer_sha256": "d8cbfbdb07e849f5e2a736b68d6c1a03617dde36ec4895a6f94e6646fb452a7b",
+  "transformations": [
+    "fractions multiplied by 100",
+    "raw cubic ratios retained"
+  ],
+  "points": 5,
+  "lines": "visual connections, not additional calculations or interpolation claims",
+  "uncertainty": "deterministic interventions; no confidence interval"
+}

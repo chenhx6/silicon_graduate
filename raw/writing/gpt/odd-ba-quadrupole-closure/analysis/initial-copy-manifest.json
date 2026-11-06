@@ -1,0 +1,66 @@
+{
+  "created_at_utc": "2026-11-06T03:29:38.598123+00:00",
+  "status": "draft-analysis-package; not submitted",
+  "files": [
+    {
+      "path": "data/chain-contract.json",
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-chain-contract.json",
+      "sha256": "2183e4828b1395e16847225c9c2d297c09e8ee14980f5dde27f14ff7f419c1cf",
+      "size": 4269
+    },
+    {
+      "path": "data/core-E2-calibration.json",
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/ba-core-E2.json",
+      "sha256": "4dfdafe211e675049018f62393192c943544e32b3916151b26161e5b103387d0",
+      "size": 76661
+    },
+    {
+      "path": "data/results/calibrated-chain.json",
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/study.json",
+      "sha256": "45d3aafb4d02b2bf54620c4fd4356178c814a2a4b1eb5b6d15caa4132985ca0a",
+      "size": 209363
+    },
+    {
+      "path": "sn-jnl.cls",
+      "source": "raw/writing/template/springer-nature-2024/sn-article-template/sn-jnl.cls",
+      "sha256": "36d0c3273a59d48dc6a9c7b080dfa1ec50dc10229d8751568d1f2e490ffa5ecc",
+      "size": 55857
+    },
+    {
+      "path": "sn-mathphys-num.bst",
+      "source": "raw/writing/template/springer-nature-2024/sn-article-template/bst/sn-mathphys-num.bst",
+      "sha256": "b3a7c7fbcc1e7f9619de634fcea2f5bb7a245818a5942bc576e40ea001633332",
+      "size": 64164
+    },
+    {
+      "path": "data/code/single_j_ibfm.py",
+      "source": "system/scripts/analysis/single_j_ibfm.py",
+      "sha256": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+      "size": 31599
+    },
+    {
+      "path": "data/code/quadrupole_scalar_invariants.py",
+      "source": "system/scripts/analysis/quadrupole_scalar_invariants.py",
+      "sha256": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1",
+      "size": 27013
+    },
+    {
+      "path": "data/code/paired_single_j_em.py",
+      "source": "system/scripts/analysis/paired_single_j_em.py",
+      "sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+      "size": 11912
+    },
+    {
+      "path": "data/code/paired_single_j_rotor.py",
+      "source": "system/scripts/analysis/paired_single_j_rotor.py",
+      "sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+      "size": 16720
+    },
+    {
+      "path": "data/code/study.py",
+      "source": "system/scripts/ba_quadrupole_closure_study.py",
+      "sha256": "ef446b1aeaa8cdb42f470b62b28dbe3ba214489580dbb15189ba21936ad81d6d",
+      "size": 15658
+    }
+  ]
+}

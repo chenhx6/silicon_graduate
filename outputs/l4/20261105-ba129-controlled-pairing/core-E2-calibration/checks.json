@@ -1,0 +1,182 @@
+{
+  "at_utc": "2026-11-05T18:57:09.912068+00:00",
+  "checks": {
+    "artifact:nndc132-index.html": true,
+    "artifact:nndc132-adopted.pdf": true,
+    "artifact:nndc134-index.html": true,
+    "artifact:nndc134-adopted.pdf": true,
+    "artifact:nndc136-index.html": true,
+    "artifact:nndc136-adopted.pdf": true,
+    "artifact:nndc132-adopted.response.html": true,
+    "artifact:nndc134-adopted.response.html": true,
+    "artifact:nndc136-adopted.response.html": true,
+    "artifact:nndc132-adopted-text.ens": true,
+    "exact-pre:nndc132-adopted-text.ens": true,
+    "artifact:nndc134-adopted-text.ens": true,
+    "exact-pre:nndc134-adopted-text.ens": true,
+    "artifact:nndc136-adopted-text.ens": true,
+    "exact-pre:nndc136-adopted-text.ens": true,
+    "artifact:nndc132-coulomb.response.html": true,
+    "artifact:nndc134-coulomb.response.html": true,
+    "artifact:nndc134-coulomb.pdf": true,
+    "artifact:nndc136-coulomb.response.html": true,
+    "artifact:nndc132-coulomb-text.ens": true,
+    "exact-pre:nndc132-coulomb-text.ens": true,
+    "artifact:nndc134-coulomb-text.ens": true,
+    "exact-pre:nndc134-coulomb-text.ens": true,
+    "artifact:nndc136-coulomb-text.ens": true,
+    "exact-pre:nndc136-coulomb-text.ens": true,
+    "manifest_unique_and_complete": true,
+    "reused:nndc128-adopted.response.html": true,
+    "reused:nndc128-adopted-text.ens": true,
+    "reused:nndc128-adopted.pdf": true,
+    "reused:nndc130-adopted.response.html": true,
+    "reused:nndc130-adopted-text.ens": true,
+    "reused:nndc130-coulomb.response.html": true,
+    "reused:nndc130-coulomb-text.ens": true,
+    "reused:nndc130-adopted.pdf": true,
+    "PDF-level-gamma-ICC:128": true,
+    "detailed-balance:128": true,
+    "ICC-margin-unspecified:128": true,
+    "PDF-level-gamma-ICC:130": true,
+    "PDF-upward-direction:130": true,
+    "detailed-balance:130": true,
+    "ICC-margin-unspecified:130": true,
+    "PDF-level-gamma-ICC:132": true,
+    "PDF-upward-direction:132": true,
+    "detailed-balance:132": true,
+    "ICC-margin-unspecified:132": true,
+    "PDF-level-gamma-ICC:134": true,
+    "PDF-upward-direction:134": true,
+    "detailed-balance:134": true,
+    "ICC-margin-unspecified:134": true,
+    "PDF-level-gamma-ICC:136": true,
+    "PDF-upward-direction:136": true,
+    "detailed-balance:136": true,
+    "ICC-margin-unspecified:136": true,
+    "128-total-decay-rate-half-life": true,
+    "128-actual-gamma-not-level-energy": true,
+    "five-calibration-blocks-only": true,
+    "source-margins-not-confidence-intervals": true,
+    "builder-script-identity": true,
+    "csv-five-rows-and-literal-precision": true,
+    "scoped-archive-gate": true
+  },
+  "passed": true,
+  "check_count": 60,
+  "archive_gate": {
+    "command": [
+      "python3",
+      "-B",
+      "system/scripts/wiki_archive_gate.py",
+      "check",
+      "--root",
+      ".",
+      "--",
+      "raw/papers/gpt/query/20261106-ba-core-E2-calibration/manifest.json"
+    ],
+    "exit_code": 0,
+    "result": {
+      "checked_manifests": [
+        "/workspace/wiki/raw/papers/gpt/query/20261106-ba-core-E2-calibration/manifest.json"
+      ],
+      "checked_sources": [],
+      "failure_count": 0,
+      "failures": [],
+      "ok": true,
+      "scope": "paths"
+    }
+  },
+  "new_archive_artifacts": 19,
+  "reused_inputs": 8,
+  "source_snapshot_manifest_sha256": "ee30e3a0c13f8f5187f871b794269e085810b8f81e68c56c4e08c0363e6e192b",
+  "output_hashes": {
+    "ba-core-E2.json": "4dfdafe211e675049018f62393192c943544e32b3916151b26161e5b103387d0",
+    "ba-core-E2.csv": "c15ddb86b6dcd2c36f4f5fafea17d8ba3026feb04cc96383ed9a2b75767411b6",
+    "alternatives.csv": "a9be9c9ba4b1702fb5dd4879f2be5bf3df61feb56c845647970a666fd61cb035",
+    "build_calibration.py": "ba240afca32f98a25968296ce2a5a6c647b1c068c8dba48d27edcb977678bb90",
+    "fetch_nndc.py": "6abf7118d0bd38b3dfff5206082952c7b3130526a51435cbdbacdfc0a44fcfcf",
+    "report.md": "b1962585662bafe279123febc8e3b288b329aeee15596761dea51067288f3d61"
+  },
+  "boundary": "Source extraction, provenance and arithmetic checks only. Does not establish experimental confidence intervals, cross-isotope independence or model validity.",
+  "output_hashes_updated_at_utc": "2026-11-06T03:28:17.741958+00:00",
+  "provenance_correction": {
+    "review_date_declared": "2026-11-06",
+    "checked_at_utc": "2026-11-06T03:28:17.741958+00:00",
+    "scope": "Metadata provenance correction plus one new durable source page; no calibration numbers changed.",
+    "original_checks_record_sha256": "e6542b72208711b3d19e52aa7fcf3671918904abe45a0049acb44b2b3ab69524",
+    "original_output_hashes": {
+      "ba-core-E2.json": "5f918047472d4e05bebef175eebbfc6f8210efe9d1a56e45a086cff2b08a6788",
+      "ba-core-E2.csv": "c15ddb86b6dcd2c36f4f5fafea17d8ba3026feb04cc96383ed9a2b75767411b6",
+      "alternatives.csv": "a9be9c9ba4b1702fb5dd4879f2be5bf3df61feb56c845647970a666fd61cb035",
+      "build_calibration.py": "be7872b6e3f92b92e1af8c342cf444bb66affe7dd08e3527a79018e2644e1765",
+      "fetch_nndc.py": "6abf7118d0bd38b3dfff5206082952c7b3130526a51435cbdbacdfc0a44fcfcf",
+      "report.md": "b3562518dc3d9d807c01ceb281559b11abddb49f850b6c7af2791b835d30b706"
+    },
+    "correct_provenance": "Parent/task-declared rate coefficient",
+    "calibration_JSON_changed_fields": [
+      "rate_contract.provenance",
+      "analysis_script_sha256"
+    ],
+    "numeric_leaf_count_compared": 521,
+    "all_numeric_values_unchanged": true,
+    "original_creation_timestamp_unchanged": true,
+    "in_memory_builder_replay": {
+      "passed": true,
+      "disk_writes_intercepted": true,
+      "comparison": "Only runtime created_at_utc normalized; JSON otherwise exact and both CSV byte streams identical."
+    },
+    "unchanged_csv_hashes": {
+      "ba-core-E2.csv": "c15ddb86b6dcd2c36f4f5fafea17d8ba3026feb04cc96383ed9a2b75767411b6",
+      "alternatives.csv": "a9be9c9ba4b1702fb5dd4879f2be5bf3df61feb56c845647970a666fd61cb035"
+    },
+    "raw_inputs_verified": 24,
+    "new_source_page": {
+      "path": "knowledge/sources/nndc-ba128-136-core-e2-calibration.md",
+      "sha256": "2b568ef6ff853c3cf4034d731b88198d167e1904dda5d388290262dd685805eb",
+      "local_links_checked": 12,
+      "frontmatter_archive_bindings_verified": true
+    },
+    "archive_gate": {
+      "command": [
+        "/opt/venv/bin/python3",
+        "-B",
+        "system/scripts/wiki_archive_gate.py",
+        "check",
+        "--root",
+        "/workspace/wiki",
+        "--",
+        "knowledge/sources/nndc-ba128-136-core-e2-calibration.md",
+        "raw/papers/gpt/query/20261106-ba-core-E2-calibration/manifest.json",
+        "raw/papers/gpt/query/20261105-ba129-core-constraints/manifest.json"
+      ],
+      "exit_code": 0,
+      "result": {
+        "checked_manifests": [
+          "/workspace/wiki/raw/papers/gpt/query/20261105-ba129-core-constraints/manifest.json",
+          "/workspace/wiki/raw/papers/gpt/query/20261106-ba-core-E2-calibration/manifest.json"
+        ],
+        "checked_sources": [
+          "/workspace/wiki/knowledge/sources/nndc-ba128-136-core-e2-calibration.md"
+        ],
+        "failure_count": 0,
+        "failures": [],
+        "ok": true,
+        "scope": "paths"
+      }
+    },
+    "stable_parent_run_dependencies": {
+      "ba-core-E2.json": "4dfdafe211e675049018f62393192c943544e32b3916151b26161e5b103387d0",
+      "build_calibration.py": "ba240afca32f98a25968296ce2a5a6c647b1c068c8dba48d27edcb977678bb90"
+    },
+    "historical_check_boundary": "The original 60-check record is retained with its original timestamp; this block records the new scoped correction checks. No physics suite or external installation was tested.",
+    "modified_files": [
+      "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/build_calibration.py",
+      "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/report.md",
+      "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/ba-core-E2.json",
+      "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/checks.json",
+      "knowledge/sources/nndc-ba128-136-core-e2-calibration.md"
+    ],
+    "runtime_seconds": 4.418376323999837
+  }
+}

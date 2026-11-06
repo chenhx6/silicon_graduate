@@ -1,0 +1,72 @@
+{
+  "schema": "operator-control-run/1",
+  "status": "completed",
+  "started_at_utc": "2026-11-06T03:30:27.437270+00:00",
+  "finished_at_utc": "2026-11-06T03:32:07.707285+00:00",
+  "elapsed_seconds": 100.28164397500223,
+  "contract_sha256": "688386441deb562b19f7dc5df8b3abeb522976fd9daebf367a4781ca2e53de1e",
+  "driver_sha256": "dd0728ed5b9780a9385927be3c3e25f34717bd21bb995c71c3aa83219c94cd33",
+  "rows": 35,
+  "native_blas": [
+    {
+      "library": "/opt/venv/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-f48b354e.so",
+      "query_symbol": "scipy_openblas_get_num_threads64_",
+      "threads": 1
+    },
+    {
+      "library": "/opt/venv/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-5f890258.so",
+      "query_symbol": "scipy_openblas_get_num_threads",
+      "threads": 1
+    }
+  ],
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "thread_env": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "BLIS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    }
+  },
+  "calibration_sha256_at_freeze": "4dfdafe211e675049018f62393192c943544e32b3916151b26161e5b103387d0",
+  "calibration_sha256_at_finish": "4dfdafe211e675049018f62393192c943544e32b3916151b26161e5b103387d0",
+  "selected_numeric_calibrations_unchanged": true,
+  "read_only_modules": [
+    {
+      "path": "system/scripts/analysis/single_j_ibfm.py",
+      "sha256": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+      "unchanged": true
+    },
+    {
+      "path": "system/scripts/analysis/quadrupole_scalar_invariants.py",
+      "sha256": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1",
+      "unchanged": true
+    },
+    {
+      "path": "system/scripts/analysis/paired_single_j_em.py",
+      "sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+      "unchanged": true
+    },
+    {
+      "path": "system/scripts/analysis/paired_single_j_rotor.py",
+      "sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+      "unchanged": true
+    }
+  ],
+  "validation": {
+    "max_q2_closure_abs": 4.951594689828198e-13,
+    "max_q3_closure_abs": 8.546913177198689e-13,
+    "max_primary_reference_abs_difference": 1.7763568394002505e-15,
+    "max_calibration_abs_difference": 6.661338147750939e-16
+  },
+  "results_sha256": "d960634a2f8608e8e2365202def792f0fd6b04987fea40b6f331cb3af146792e",
+  "csv_sha256": "baa9b5ca720895ac97b36ad07400c52f95153dc242b0571985bce7ad885087f9",
+  "no_full_pair_JSON": true,
+  "no_fit_to_discrepancy": true,
+  "no_get_paper_PLAN_or_other_session_work": true,
+  "no_commit": true
+}

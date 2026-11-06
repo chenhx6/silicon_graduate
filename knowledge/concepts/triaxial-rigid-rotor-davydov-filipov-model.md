@@ -3,7 +3,7 @@ type: concept
 title: "三轴刚性转子 Davydov-Filipov 模型解析解与跃迁比率推导"
 aliases: [Davydov-Filipov模型, 三轴转子解析解, DF模型, 非对称转子能级推导]
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-05
 status: ai-draft
 review_status: unreviewed
 tags: [triaxiality, davydov-filipov-model, greiner-models, e2-branching-ratios, asymmetric-rotor]
@@ -64,7 +64,9 @@ $$R_{22} \equiv \frac{E(2_2^+)}{E(2_1^+)} = \frac{1 + \sqrt{1 - \frac{8}{9}\sin^
 - **当 $\gamma \to 0^\circ$（轴对称拉长）**：$\sin(3\gamma) \to 0$，分母为零，$E(2_2^+)/E(2_1^+) \to \infty$（非对称 $2_2^+$ 态被推向无穷远）；
 - **当 $\gamma = 30^\circ$（最大三轴形变）**：$\sin(3\gamma) = 1$，$\sqrt{1 - 8/9} = 1/3$，代入得：
   $$\frac{E(2_2^+)}{E(2_1^+)} = \frac{1 + 1/3}{1 - 1/3} = 2.0$$
-**实验判据**：如果在实验中观察到 $2_2^+$ 态的能量接近基带 $2_1^+$ 态能量的 2 倍至 3 倍（如在 $^{130}\text{Ba}, {}^{132}\text{Ce}$ 中），则是核芯具有极大三轴形变 $\gamma \approx 25^\circ \sim 30^\circ$ 的决定性宏观指纹！
+**条件反演**：该比值可在指定irrotational模型内给γ坐标；它不能独立确立静态γ或刚性。
+130Ba的具体反例见[[ba129-core-and-pairing-validity]]：两2+能量与一个E2分支
+可给看似合理的对应，但同一模型仍未描述3+候选及4_1能量。
 
 ---
 
@@ -72,7 +74,11 @@ $$R_{22} \equiv \frac{E(2_2^+)}{E(2_1^+)} = \frac{1 + \sqrt{1 - \frac{8}{9}\sin^
 
 在 DF 模型中，内禀四极矩张量算符在内禀系中的非对角元引起强烈的跨带 $E2$ 跃迁。
 从非对称态 $2_2^+$ 向基态 $0_1^+$ 与基带第一激发态 $2_1^+$ 的减缩电四极跃迁几率比值为：
-$$\frac{B(E2; 2_2^+ \to 0_1^+)}{B(E2; 2_2^+ \to 2_1^+)} = \frac{20}{7} \frac{\sin^2(3\gamma)}{9 - 8\sin^2(3\gamma)}$$
+令\(s=\sin^2(3\gamma),\,d=9-8s\)，在本页的irrotational惯量和集体E2合同下，
+$$\frac{B(E2;2_2^+\to0_1^+)}{B(E2;2_2^+\to2_1^+)}
+=\frac7{20}\frac{d-(3-2s)\sqrt d}{s}.$$
+其γ→0极限为7/10，γ=30°时为0。旧的\((20/7)s/d\)式不满足这些极限，
+已由独立D₂矩阵和CG张量核验替换；见[[ba129-core-and-pairing-validity]]。
 
 同时，基带内部 $B(E2; 2_1^+ \to 0_1^+)$ 相对于轴对称刚体转子（$\gamma=0^\circ$）具有衰减因子：
 $$B(E2; 2_1^+ \to 0_1^+) = \frac{1}{2} \left[ 1 + \frac{3 - 2\sin^2(3\gamma)}{\sqrt{9 - 8\sin^2(3\gamma)}} \right] \times B(E2)_{\text{axial}}$$
@@ -91,5 +97,7 @@ $$B(E2; 2_1^+ \to 0_1^+) = \frac{1}{2} \left[ 1 + \frac{3 - 2\sin^2(3\gamma)}{\s
 
 ## Sources
 
+- [[book-greiner-nuclear-models]]：§6.4.3的能谱与基底；E2式按本任务明定算符独立推导。
+- [[ba129-core-and-pairing-validity]]：公式、极限与128/130Ba输入核查。
 - [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
 - [[nuclear-spectroscopy-and-structure-master-field-manual]]

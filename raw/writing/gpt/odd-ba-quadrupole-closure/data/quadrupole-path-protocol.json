@@ -1,0 +1,68 @@
+{
+  "schema": "135Ba-fixed-exchange-monopole-Gamma-path-v1",
+  "recorded_before_new_path_results_at_utc": "2026-11-06T03:46:33.189091+00:00",
+  "reason": "User requested a one-parameter continuation to distinguish smooth lowest-state reorientation from switching; common-all-coupling path cannot establish this. Endpoint removal has larger overlap with first-excited same-J state at the distant end.",
+  "scope": "supplemental prospective control after initial endpoint results; not part of initial prospective protocol",
+  "initial_protocol_immutable_sha256": "db65e404bf9270b55b587aaadf3e5c9b2dd7e071e906672bb78a8d929c929023",
+  "initial_controls_sha256": "f19741cedd7e7e29272a2e49fdcce0e3a1fc44a8e522beb540202e3d59828f04",
+  "primary_parameters": {
+    "n_b": 5,
+    "two_j": 11,
+    "eps_d": 0.38,
+    "kappa": -0.124,
+    "chi": -0.24,
+    "v2": 0.81,
+    "Q_jj": -1.081027387032316,
+    "Gamma0": 0.6,
+    "Lambda0": 1.0,
+    "A0": -0.9
+  },
+  "path": {
+    "s": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "Gamma0": "s*0.6",
+    "Lambda0": 1.0,
+    "A0": -0.9,
+    "unchanged": "bare core, nB, v2, Qjj, eB, eF, chiE, J=11/2 and lowest-state selection"
+  },
+  "new_scalar_points": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "endpoint_reuse": {
+    "0": "controls.json:remove_Gamma0",
+    "1": "controls.json:common_t1",
+    "eigenvectors": "Re-solve identical endpoints solely for adjacent fidelity/state-rank and endpoint identity checks; no new parameters"
+  },
+  "diagnostics": [
+    "full direct/6j closure",
+    "proxy5/all raw ratios and domains",
+    "same-J gap and lowest-state rank",
+    "adjacent overlap matrix within J11/2, forward/backward best matching ranks",
+    "overlap-tracked state ordinal from s0 and from s1",
+    "P(coreR), static/other-same-J q2, nd",
+    "signed cubic sector sums"
+  ],
+  "no_broader_grids": true,
+  "no_refit": true,
+  "no_clipping": true,
+  "decision_rule": "Claim sampled smooth reorientation only if adjacent highest-overlap matches keep ordinal0 and gaps stay resolved. If not, state switching/ambiguity remains; do not infer unobserved continuity.",
+  "input_sha256": {
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-chain-contract.json": "2183e4828b1395e16847225c9c2d297c09e8ee14980f5dde27f14ff7f419c1cf",
+    "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/ba-core-E2.json": "4dfdafe211e675049018f62393192c943544e32b3916151b26161e5b103387d0",
+    "outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/study.json": "45d3aafb4d02b2bf54620c4fd4356178c814a2a4b1eb5b6d15caa4132985ca0a",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-probe/chain-core-only-v1.json": "6a530f851325a33845ce8b90a84535723e75eb9e1ff4d1fc2ae574a20eb95f6c",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-probe/run_probe.py": "4cebc4cd466a3a7e89be93a6c3db90921867bf4cc25e6215f28b2b82fbc63097",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/audit.md": "1a261223beab3ffff0a28d3aa5e54e7e0fb7380c9b858165a79bf290281c0f2a",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/pilot-assessment.md": "14251f946aff2e814d22c06f58a322afad8533f0b9193ac13a4b028a08d51a50",
+    "system/scripts/analysis/single_j_ibfm.py": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+    "system/scripts/analysis/quadrupole_scalar_invariants.py": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1",
+    "system/scripts/analysis/paired_single_j_em.py": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b"
+  }
+}

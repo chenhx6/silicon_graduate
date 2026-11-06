@@ -1,0 +1,179 @@
+{
+  "scope": "constant-inertia core and source-specific operator constraints",
+  "source_hashes": {
+    "raw/papers/gpt/query/20261105-ba129-core-constraints/nndc128-adopted-text.ens": "2d1496086cc5f5ebbbbd3bae6c5817135602c556bcfe95c11fbc54372a949c7e",
+    "raw/papers/gpt/query/20261105-ba129-core-constraints/nndc130-adopted-text.ens": "b4682961ea13bf6c43b7a5f708c52bedc28e048df26e9ab6a62b3a758d4655e1",
+    "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/\u7eb2\u56fe/2001_K\u00f6nigshofen et al_Multipole mixing ratios in 130 Ba.pdf": "34428af79a8dcc3a7dc27a6a416c3fa556a2d37e763df76cb1218241f370a755",
+    "raw/papers/gpt/query/20261105-ba129-core-constraints/nndc131-dp-text.ens": "e2a32bd7e63274f7a70f9a3aa2ce3ac83c0609eb80f11cc2e6bbccc54e1a47c0"
+  },
+  "runner_sha256": "e2056e2ec101bc8d659e63d8d33f148b5cca446c29dfc5de70193f69be276faa",
+  "core_results": {
+    "128": {
+      "source": "raw/papers/gpt/query/20261105-ba129-core-constraints/nndc128-adopted-text.ens",
+      "selected_levels": {
+        "2_1": {
+          "energy_keV": 284.0,
+          "energy_literal": "284.00",
+          "quoted_error_keV": 0.08,
+          "Jpi_literal": "2+",
+          "half_life_literal": "105 PS",
+          "half_life_error_literal": "9",
+          "band_flag_literal": "E",
+          "locator": "line 48"
+        },
+        "2_2": {
+          "energy_keV": 884.5,
+          "energy_literal": "884.50",
+          "quoted_error_keV": 0.12,
+          "Jpi_literal": "2+",
+          "half_life_literal": "3.4 PS",
+          "half_life_error_literal": "4",
+          "band_flag_literal": "B",
+          "locator": "line 60"
+        },
+        "3_1": {
+          "energy_keV": 1324.37,
+          "energy_literal": "1324.37",
+          "quoted_error_keV": 0.14,
+          "Jpi_literal": "3+",
+          "half_life_literal": "",
+          "half_life_error_literal": "",
+          "band_flag_literal": "A",
+          "locator": "line 83"
+        },
+        "4_1": {
+          "energy_keV": 763.32,
+          "energy_literal": "763.32",
+          "quoted_error_keV": 0.11,
+          "Jpi_literal": "4+",
+          "half_life_literal": "5.34 PS",
+          "half_life_error_literal": "24",
+          "band_flag_literal": "E",
+          "locator": "line 54"
+        }
+      },
+      "E3_minus_sum_E2_keV": 155.8699999999999,
+      "difference_over_E2first": 0.5488380281690137,
+      "equal_weight_three_energy_RMS_lower_bound_keV": 51.95666666666663,
+      "R_4_over_2": 2.6877464788732395,
+      "E2second_over_E2first": 3.11443661971831,
+      "irrotational_gamma_from_two_energies_only_deg": 21.829736850783817,
+      "other_gamma_branch_deg": 38.17026314921618,
+      "conditional_irrotational_E2_prediction": {
+        "gamma_deg": 21.829736850783817,
+        "unit_B_2second_to_0": 0.012810035282963764,
+        "unit_B_2second_to_2first": 0.0995158172281596,
+        "ratio_matrix": 0.12872361037436128,
+        "ratio_analytic": 0.12872361037436203,
+        "total_unit_0_to_2_strength": 1.0000000000000002
+      }
+    },
+    "130": {
+      "source": "raw/papers/gpt/query/20261105-ba129-core-constraints/nndc130-adopted-text.ens",
+      "selected_levels": {
+        "2_1": {
+          "energy_keV": 357.38,
+          "energy_literal": "357.38",
+          "quoted_error_keV": 0.08,
+          "Jpi_literal": "2+",
+          "half_life_literal": "41.8 PS",
+          "half_life_error_literal": "12",
+          "band_flag_literal": "A",
+          "locator": "line 43"
+        },
+        "2_2": {
+          "energy_keV": 908.02,
+          "energy_literal": "908.02",
+          "quoted_error_keV": 0.08,
+          "Jpi_literal": "2+",
+          "half_life_literal": "",
+          "half_life_error_literal": "",
+          "band_flag_literal": "N",
+          "locator": "line 69"
+        },
+        "3_1": {
+          "energy_keV": 1361.06,
+          "energy_literal": "1361.06",
+          "quoted_error_keV": 0.09,
+          "Jpi_literal": "3(+)",
+          "half_life_literal": "",
+          "half_life_error_literal": "",
+          "band_flag_literal": "N",
+          "locator": "line 80"
+        },
+        "4_1": {
+          "energy_keV": 901.85,
+          "energy_literal": "901.85",
+          "quoted_error_keV": 0.1,
+          "Jpi_literal": "4+",
+          "half_life_literal": "3.83 PS",
+          "half_life_error_literal": "6",
+          "band_flag_literal": "A",
+          "locator": "line 64"
+        }
+      },
+      "E3_minus_sum_E2_keV": 95.65999999999997,
+      "difference_over_E2first": 0.2676702669427499,
+      "equal_weight_three_energy_RMS_lower_bound_keV": 31.886666666666656,
+      "R_4_over_2": 2.523504393082993,
+      "E2second_over_E2first": 2.540768929430858,
+      "irrotational_gamma_from_two_energies_only_deg": 24.247000449755834,
+      "other_gamma_branch_deg": 35.75299955024417,
+      "conditional_irrotational_E2_prediction": {
+        "gamma_deg": 24.247000449755834,
+        "unit_B_2second_to_0": 0.009912350106745833,
+        "unit_B_2second_to_2first": 0.15289458545620654,
+        "ratio_matrix": 0.06483126970892647,
+        "ratio_analytic": 0.0648312697089272,
+        "total_unit_0_to_2_strength": 0.9999999999999998
+      }
+    }
+  },
+  "mathematical_checks": {
+    "random_positive_inertia_cases": 64,
+    "maximum_trace_identity_residual": 2.842170943040401e-14,
+    "maximum_I2_closed_form_residual": 2.842170943040401e-14,
+    "maximum_E2_ratio_matrix_vs_analytic_residual": 2.7688962234151404e-12,
+    "maximum_E2_upward_closure_residual": 5.551115123125783e-16,
+    "gamma30_forbidden_branch_unit_B": 7.5496453819979645e-31,
+    "small_gamma_ratio_0p1_deg": 0.6999829415284184
+  },
+  "konigshofen2001_branch_check": {
+    "source": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/\u7eb2\u56fe/2001_K\u00f6nigshofen et al_Multipole mixing ratios in 130 Ba.pdf",
+    "locator": "printed037302-2 TableI, first two rows; visually checked",
+    "gamma_keV": [
+      907.7,
+      550.5
+    ],
+    "photon_ratio": 0.74,
+    "delta_E2_over_M1_Rose_Brink": -75.0,
+    "delta_quoted_margin": 20.0,
+    "reported_relative_B_E2_ratio": 0.061,
+    "reported_margin": 0.002,
+    "derived_from_same_photon_and_mixing_inputs": 0.0607272843011564,
+    "irrotational_prediction_from_separate_2001_ENSDF_two_energy_version": 0.06483126970892647,
+    "not_independent_of_original_RI_delta": true,
+    "source_versions_not_pooled_into_likelihood": true
+  },
+  "131Ba_addition_data_readiness": {
+    "level_count": 46,
+    "literal_L_fields": [
+      "",
+      "(0)",
+      "(2)",
+      "(3)",
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "number_with_explicit_L5": 0,
+    "boundary": "No explicit l=5 strength in this evaluated object; blank L or S fields are not zero strength or upper limits. Evaluation cutoff2006 is not an exhaustive2026 literature survey."
+  },
+  "boundaries": [
+    "No experimental covariance or confidence level supplied.",
+    "A failed constant-inertia identity is not unique proof of gamma softness.",
+    "Two-energy gamma is a conditional model coordinate, not a measured shape.",
+    "The core-to-odd-system transfer still requires a polarization and pairing contract."
+  ]
+}

@@ -1,0 +1,536 @@
+{
+  "schema": "odd-Ba-frozen-operator-sensitivity-contract/1",
+  "frozen_at_utc": "2026-11-06T03:26:08.487578+00:00",
+  "frozen_before_this_operator_control_run": true,
+  "status": "prospective_internal_control_contract_after_parent_primary_disclosure; not external preregistration",
+  "objective": "On five fixed printed Hamiltonians and their lowest J=11/2 states, quantify sensitivity of direct full signed moments and rotationally invariant J+2 proxies to preselected E2 operator/calibration controls.",
+  "inputs": {
+    "chain": {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-chain-contract.json",
+      "sha256": "2183e4828b1395e16847225c9c2d297c09e8ee14980f5dde27f14ff7f419c1cf"
+    },
+    "calibration": {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/ba-core-E2.json",
+      "sha256_at_freeze": "4dfdafe211e675049018f62393192c943544e32b3916151b26161e5b103387d0",
+      "selected_numeric_projection_sha256": "a340aea27d3296ffbe53862519f5283f38d304219e783978f722ec2057c83e36",
+      "metadata_only_edits_allowed": true,
+      "numerical_changes_require_new_contract": true
+    },
+    "parent_primary": {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/study.json",
+      "sha256": "45d3aafb4d02b2bf54620c4fd4356178c814a2a4b1eb5b6d15caa4132985ca0a"
+    }
+  },
+  "cases": [
+    {
+      "odd_A": 129,
+      "core_A": 128,
+      "Z": 56,
+      "n_b": 8,
+      "two_j": 11,
+      "two_J_state": 11,
+      "state_ordinal": 0,
+      "eps_d": 0.03,
+      "kappa": -0.102,
+      "chi": -0.18,
+      "v2": 0.453,
+      "Gamma0": 0.6,
+      "Lambda0": 2.1,
+      "A0": -0.15
+    },
+    {
+      "odd_A": 131,
+      "core_A": 130,
+      "Z": 56,
+      "n_b": 7,
+      "two_j": 11,
+      "two_J_state": 11,
+      "state_ordinal": 0,
+      "eps_d": 0.06,
+      "kappa": -0.116,
+      "chi": -0.18,
+      "v2": 0.568,
+      "Gamma0": 0.6,
+      "Lambda0": 2.1,
+      "A0": -0.23
+    },
+    {
+      "odd_A": 133,
+      "core_A": 132,
+      "Z": 56,
+      "n_b": 6,
+      "two_j": 11,
+      "two_J_state": 11,
+      "state_ordinal": 0,
+      "eps_d": 0.13,
+      "kappa": -0.122,
+      "chi": -0.18,
+      "v2": 0.687,
+      "Gamma0": 0.6,
+      "Lambda0": 0.9,
+      "A0": 0.0
+    },
+    {
+      "odd_A": 135,
+      "core_A": 134,
+      "Z": 56,
+      "n_b": 5,
+      "two_j": 11,
+      "two_J_state": 11,
+      "state_ordinal": 0,
+      "eps_d": 0.38,
+      "kappa": -0.124,
+      "chi": -0.24,
+      "v2": 0.81,
+      "Gamma0": 0.6,
+      "Lambda0": 1.0,
+      "A0": -0.9
+    },
+    {
+      "odd_A": 137,
+      "core_A": 136,
+      "Z": 56,
+      "n_b": 4,
+      "two_j": 11,
+      "two_J_state": 11,
+      "state_ordinal": 0,
+      "eps_d": 1.15,
+      "kappa": -0.122,
+      "chi": -0.85,
+      "v2": 0.936,
+      "Gamma0": 0.4,
+      "Lambda0": 5.0,
+      "A0": -0.6
+    }
+  ],
+  "kernel_parameters_by_odd_A": {
+    "129": {
+      "n_b": 8,
+      "two_j": 11,
+      "eps_d": 0.03,
+      "kappa": -0.102,
+      "chi": -0.18,
+      "v2": 0.453,
+      "Q_jj": -1.081027387032316,
+      "Gamma0": 0.6,
+      "Lambda0": 2.1,
+      "A0": -0.15
+    },
+    "131": {
+      "n_b": 7,
+      "two_j": 11,
+      "eps_d": 0.06,
+      "kappa": -0.116,
+      "chi": -0.18,
+      "v2": 0.568,
+      "Q_jj": -1.081027387032316,
+      "Gamma0": 0.6,
+      "Lambda0": 2.1,
+      "A0": -0.23
+    },
+    "133": {
+      "n_b": 6,
+      "two_j": 11,
+      "eps_d": 0.13,
+      "kappa": -0.122,
+      "chi": -0.18,
+      "v2": 0.687,
+      "Q_jj": -1.081027387032316,
+      "Gamma0": 0.6,
+      "Lambda0": 0.9,
+      "A0": 0.0
+    },
+    "135": {
+      "n_b": 5,
+      "two_j": 11,
+      "eps_d": 0.38,
+      "kappa": -0.124,
+      "chi": -0.24,
+      "v2": 0.81,
+      "Q_jj": -1.081027387032316,
+      "Gamma0": 0.6,
+      "Lambda0": 1.0,
+      "A0": -0.9
+    },
+    "137": {
+      "n_b": 4,
+      "two_j": 11,
+      "eps_d": 1.15,
+      "kappa": -0.122,
+      "chi": -0.85,
+      "v2": 0.936,
+      "Q_jj": -1.081027387032316,
+      "Gamma0": 0.4,
+      "Lambda0": 5.0,
+      "A0": -0.6
+    }
+  },
+  "Q_jj_note": "Frozen to the parent primary value; equals -sqrt(525/(143*pi)) for h11/2 and the declared signed Y2 convention. No radial factor inferred.",
+  "selected_core_calibrations": [
+    {
+      "core_A": 128,
+      "B_down_e2b2": 0.27652516113300324,
+      "B_up_e2b2": 1.3826258056650162,
+      "B_down_margin_e2b2": 0.023702156668543136,
+      "margin_kind": "First-order propagation of quoted T margin only, holding Egamma, ICC and rate constant fixed",
+      "icc_margin_not_reported": true,
+      "confidence_level": null
+    },
+    {
+      "core_A": 130,
+      "B_down_e2b2": 0.2326,
+      "B_up_e2b2": 1.163,
+      "B_down_margin_e2b2": 0.0021999999999999997,
+      "margin_kind": "Source quoted Bup margin divided by 5; no confidence-level reinterpretation",
+      "icc_margin_not_reported": true,
+      "confidence_level": null
+    },
+    {
+      "core_A": 132,
+      "B_down_e2b2": 0.172,
+      "B_up_e2b2": 0.86,
+      "B_down_margin_e2b2": 0.012,
+      "margin_kind": "Source quoted Bup margin divided by 5; no confidence-level reinterpretation",
+      "icc_margin_not_reported": true,
+      "confidence_level": null
+    },
+    {
+      "core_A": 134,
+      "B_down_e2b2": 0.1358,
+      "B_up_e2b2": 0.679,
+      "B_down_margin_e2b2": 0.0021999999999999997,
+      "margin_kind": "Source quoted Bup margin divided by 5; no confidence-level reinterpretation",
+      "icc_margin_not_reported": true,
+      "confidence_level": null
+    },
+    {
+      "core_A": 136,
+      "B_down_e2b2": 0.0814,
+      "B_up_e2b2": 0.407,
+      "B_down_margin_e2b2": 0.0014,
+      "margin_kind": "Source quoted Bup margin divided by 5; no confidence-level reinterpretation",
+      "icc_margin_not_reported": true,
+      "confidence_level": null
+    }
+  ],
+  "settings": [
+    {
+      "id": "primary",
+      "chi_E": "primary_0.35",
+      "eF_eb": 0.125,
+      "B_margin_direction": 0
+    },
+    {
+      "id": "eF_half",
+      "chi_E": "primary_0.35",
+      "eF_eb": 0.0625,
+      "B_margin_direction": 0
+    },
+    {
+      "id": "eF_double",
+      "chi_E": "primary_0.35",
+      "eF_eb": 0.25,
+      "B_margin_direction": 0
+    },
+    {
+      "id": "chi_E_zero",
+      "chi_E": "zero",
+      "eF_eb": 0.125,
+      "B_margin_direction": 0
+    },
+    {
+      "id": "chi_E_equals_chi_H",
+      "chi_E": "hamiltonian_chi",
+      "eF_eb": 0.125,
+      "B_margin_direction": 0
+    },
+    {
+      "id": "B_down_lower",
+      "chi_E": "primary_0.35",
+      "eF_eb": 0.125,
+      "B_margin_direction": -1
+    },
+    {
+      "id": "B_down_upper",
+      "chi_E": "primary_0.35",
+      "eF_eb": 0.125,
+      "B_margin_direction": 1
+    }
+  ],
+  "expected_rows": 35,
+  "Hamiltonian_and_state_policy": {
+    "fixed_across_controls": true,
+    "odd_two_M": 1,
+    "initial_two_J": 11,
+    "ordinal_in_energy_order_at_J": 0,
+    "core_two_M": 0,
+    "core_initial": "lowest J=0",
+    "core_final": "lowest J=2",
+    "state_vectors_solved_once_per_isotope": true,
+    "no_coupling_changes_or_refits": true
+  },
+  "operator_policy": {
+    "form": "eB Q_chiE - eF (1-2*v2) Q_jj F2/sqrt(5)",
+    "primary_chi_E": 0.35,
+    "eB_sign": 1,
+    "calibration": "eB=sqrt(target_Bup/unit_core_Bup); independently calibrate each alternate chiE to the same selected core strength",
+    "calibration_endpoints": "target_Bdown=selected_Bdown +/- selected_Bdown_margin; target_Bup=5*target_Bdown",
+    "settings_one_factor_at_a_time": true,
+    "sensitivity_not_posterior": true,
+    "no_discrepancy_targeting": true,
+    "alternate_operators_explicit_not_source_reproduction": true
+  },
+  "error_boundary": {
+    "128Ba": "Quoted Bdown margin is linearized T-only; Egamma contribution and unavailable ICC uncertainty are not added. Not a complete uncertainty.",
+    "other_cores": "Use the actual selected Bdown quoted margins, without confidence-level reinterpretation.",
+    "cross_isotope_covariance": null,
+    "lower_upper_chain_settings": "deterministic endpoint sensitivity, not a correlated confidence band",
+    "adjacent_endpoint_combinations": "may inspect all four lower/upper combinations as a deterministic possibility check; not a probability statement"
+  },
+  "calculations": {
+    "full": "direct all-five-component q2 and signed q3 using validated scalar module; compare complete reduced 6j closure",
+    "restricted": [
+      "n=5 lowest J+2 multiplets",
+      "all J+2 multiplets"
+    ],
+    "summary": [
+      "raw signed/full and restricted ratios; domain status; signed and folded angles only when in real domain",
+      "full beta and literal beta with common per-isotope prefactor",
+      "selected quadratic fraction of full and n5 fraction of all-J+2",
+      "at most five intermediate-spin q2 totals; no state-pair or RME table serialization"
+    ]
+  },
+  "angle_policy": {
+    "preserve_raw_ratio": true,
+    "angle_tolerance": 0.0,
+    "clip": false,
+    "invalid_angle": null,
+    "out_of_domain_survival_is_a_sensitivity_result_not_an_article_gate": true
+  },
+  "predeclared_comparisons": {
+    "metrics": [
+      "full_q2",
+      "full_signed_q3",
+      "full_beta",
+      "n5_q2_contribution",
+      "all_q2_contribution",
+      "n5_beta",
+      "all_beta",
+      "full_folded_angle",
+      "n5_angle",
+      "all_angle"
+    ],
+    "chain_intervals": [
+      [
+        129,
+        131
+      ],
+      [
+        131,
+        133
+      ],
+      [
+        133,
+        135
+      ],
+      [
+        135,
+        137
+      ],
+      [
+        129,
+        137
+      ]
+    ],
+    "reversal": "nonzero signed chain difference changes sign relative to primary, or full-versus-selected trend directions disagree; undefined angles are domain changes, not trend reversals",
+    "numeric_direction_rtol": 1e-06,
+    "angle_direction_atol_degrees": 1e-05,
+    "full_signed_ratio_sign_changes": true,
+    "domain_status_changes": true,
+    "no_required_outcome": true
+  },
+  "numerical_acceptance": {
+    "module_rtol": 1e-10,
+    "module_atol": 1e-12,
+    "closure_relative_tolerance": 1e-08,
+    "closure_absolute_tolerance": 1e-10,
+    "primary_reference_relative_tolerance": 1e-08,
+    "primary_reference_absolute_tolerance": 1e-10,
+    "eigenproblem_tolerances": "existing kernel defaults; no tolerance changes in response to physics discrepancies"
+  },
+  "primary_reference": [
+    {
+      "odd_A": 129,
+      "state_index": 1,
+      "eB": 0.13268018236134518,
+      "full": {
+        "q2_e2b2": 1.5318714109489164,
+        "q3_e3b3": 0.010473198152148713,
+        "signed_ratio": 0.005523900584222673,
+        "signed_rigid_equivalent_angle_deg": 29.894500733495175,
+        "folded_rigid_equivalent_angle_deg": 29.894500733495175,
+        "angle_status": "within_rigid_domain",
+        "imaginary_residual_q2": 0.0,
+        "imaginary_residual_q3": 0.0
+      },
+      "n5": {
+        "quadratic_strength_sum_e2b2": 5.3128224864315285,
+        "raw_proxy_ratio": 0.03888097815558539,
+        "proxy_angle_deg": 29.257240793942206,
+        "angle_status": "within_rigid_domain"
+      },
+      "all": {
+        "quadratic_strength_sum_e2b2": 5.333210475300451,
+        "raw_proxy_ratio": 0.03513825791728854,
+        "proxy_angle_deg": 29.328770531426297,
+        "angle_status": "within_rigid_domain"
+      }
+    },
+    {
+      "odd_A": 131,
+      "state_index": 1,
+      "eB": 0.1337410066764313,
+      "full": {
+        "q2_e2b2": 1.2639182116054504,
+        "q3_e3b3": -0.09953293248791009,
+        "signed_ratio": -0.07004680684098123,
+        "signed_rigid_equivalent_angle_deg": 31.338891883887943,
+        "folded_rigid_equivalent_angle_deg": 28.66110811611206,
+        "angle_status": "within_rigid_domain",
+        "imaginary_residual_q2": 0.0,
+        "imaginary_residual_q3": 0.0
+      },
+      "n5": {
+        "quadratic_strength_sum_e2b2": 4.18002781531974,
+        "raw_proxy_ratio": 0.12936714427463725,
+        "proxy_angle_deg": 27.522325484622673,
+        "angle_status": "within_rigid_domain"
+      },
+      "all": {
+        "quadratic_strength_sum_e2b2": 4.197282552358844,
+        "raw_proxy_ratio": 0.13338912926083632,
+        "proxy_angle_deg": 27.444839551544515,
+        "angle_status": "within_rigid_domain"
+      }
+    },
+    {
+      "odd_A": 133,
+      "state_index": 0,
+      "eB": 0.12768606387996237,
+      "full": {
+        "q2_e2b2": 0.9463686761379442,
+        "q3_e3b3": -0.1331740830501708,
+        "signed_ratio": -0.14465357770463474,
+        "signed_rigid_equivalent_angle_deg": 32.77240638697982,
+        "folded_rigid_equivalent_angle_deg": 27.227593613020186,
+        "angle_status": "within_rigid_domain",
+        "imaginary_residual_q2": 0.0,
+        "imaginary_residual_q3": 0.0
+      },
+      "n5": {
+        "quadratic_strength_sum_e2b2": 2.761059725355462,
+        "raw_proxy_ratio": 0.6321588192153176,
+        "proxy_angle_deg": 16.930141165943983,
+        "angle_status": "within_rigid_domain"
+      },
+      "all": {
+        "quadratic_strength_sum_e2b2": 2.765390700082562,
+        "raw_proxy_ratio": 0.6368644804643261,
+        "proxy_angle_deg": 16.813864308677445,
+        "angle_status": "within_rigid_domain"
+      }
+    },
+    {
+      "odd_A": 135,
+      "state_index": 0,
+      "eB": 0.1298423794528743,
+      "full": {
+        "q2_e2b2": 0.6766227898280947,
+        "q3_e3b3": -0.02811863600176829,
+        "signed_ratio": -0.05052127678023177,
+        "signed_rigid_equivalent_angle_deg": 30.965296245988824,
+        "folded_rigid_equivalent_angle_deg": 29.03470375401118,
+        "angle_status": "within_rigid_domain",
+        "imaginary_residual_q2": 0.0,
+        "imaginary_residual_q3": 0.0
+      },
+      "n5": {
+        "quadratic_strength_sum_e2b2": 1.6235676115615112,
+        "raw_proxy_ratio": 1.026114564730946,
+        "proxy_angle_deg": null,
+        "angle_status": "outside_rigid_domain"
+      },
+      "all": {
+        "quadratic_strength_sum_e2b2": 1.625942883944835,
+        "raw_proxy_ratio": 1.0241441427193676,
+        "proxy_angle_deg": null,
+        "angle_status": "outside_rigid_domain"
+      }
+    },
+    {
+      "odd_A": 137,
+      "state_index": 0,
+      "eB": 0.125640043184871,
+      "full": {
+        "q2_e2b2": 0.47676559475556207,
+        "q3_e3b3": -0.021958680021383223,
+        "signed_ratio": -0.06670353788346856,
+        "signed_rigid_equivalent_angle_deg": 31.274890335764294,
+        "folded_rigid_equivalent_angle_deg": 28.725109664235706,
+        "angle_status": "within_rigid_domain",
+        "imaginary_residual_q2": 0.0,
+        "imaginary_residual_q3": 0.0
+      },
+      "n5": {
+        "quadratic_strength_sum_e2b2": 1.2302041982050347,
+        "raw_proxy_ratio": 0.7290200376070264,
+        "proxy_angle_deg": 14.398565618819484,
+        "angle_status": "within_rigid_domain"
+      },
+      "all": {
+        "quadratic_strength_sum_e2b2": 1.234856754168702,
+        "raw_proxy_ratio": 0.7382272451478787,
+        "proxy_angle_deg": 14.139792595973985,
+        "angle_status": "within_rigid_domain"
+      }
+    }
+  ],
+  "runtime": {
+    "BLAS_threads": 1,
+    "isotopes_serial": true,
+    "environment": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "BLIS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    },
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "no_full_pair_JSON": true
+  },
+  "read_only_modules": [
+    {
+      "path": "system/scripts/analysis/single_j_ibfm.py",
+      "sha256": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a"
+    },
+    {
+      "path": "system/scripts/analysis/quadrupole_scalar_invariants.py",
+      "sha256": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1"
+    },
+    {
+      "path": "system/scripts/analysis/paired_single_j_em.py",
+      "sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b"
+    },
+    {
+      "path": "system/scripts/analysis/paired_single_j_rotor.py",
+      "sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908"
+    }
+  ],
+  "write_scope": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-operator-control/",
+  "interpretation": [
+    "Selected-channel proxies remain rotation- and state-phase-invariant scalars. Nonidentity with full charge-polynomial moments does not invalidate effective definitions.",
+    "Fixed-J isotope redistribution can be physical; do not label it a geometry artifact from spectator controls.",
+    "No inference of physical gamma rigidity, no original-source operator/figure reproduction claim, no posterior inference."
+  ]
+}

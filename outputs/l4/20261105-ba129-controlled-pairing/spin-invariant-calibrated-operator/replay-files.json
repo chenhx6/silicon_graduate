@@ -1,0 +1,273 @@
+{
+  "schema": "calibrated-operator-portable-replay-dependencies/1",
+  "checked_at_utc": "2026-11-06T05:01:51.638356+00:00",
+  "scope": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-calibrated-operator",
+  "metadata_only_closeout": true,
+  "numerical_study_rerun": false,
+  "completed_calculation_status": "completed_for_five_central_branches_and_135_137_only",
+  "frozen_contract_sha256": "5d49a9ceda150dea250e80eceb1389fdc6b96f6af4307ca2c6c8c2aabb75b6ff",
+  "original_driver_sha256": "f206481c5abef00e261029de8c790bb32182a7562bfd0ac7b60e898365f955cd",
+  "current_unmodified_strict_replay_status": "incomplete_historical_source_page_hash_mismatch",
+  "current_unmodified_strict_replay_dependency_count": 15,
+  "computational_dependency_count": 6,
+  "provenance_verification_only_dependency_count": 9,
+  "computational_dependencies_match": true,
+  "all_current_dependencies_match": false,
+  "mismatching_paths": [
+    "knowledge/sources/nndc-ba135-ba137-static-e2-constraints.md"
+  ],
+  "file_size_semantics": "frozen_size_bytes is known only for current bytes matching the required hash; observed_size_bytes describes current bytes even when different.",
+  "files": [
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-calibrated-operator/driver.py",
+      "role": "executable_driver",
+      "computational_dependency": true,
+      "required_for_unmodified_strict_replay": true,
+      "required_sha256": "f206481c5abef00e261029de8c790bb32182a7562bfd0ac7b60e898365f955cd",
+      "observed_sha256": "f206481c5abef00e261029de8c790bb32182a7562bfd0ac7b60e898365f955cd",
+      "frozen_size_bytes": 23202,
+      "observed_size_bytes": 23202,
+      "verification": "matches_frozen_hash"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-calibrated-operator/calibrated-operator-contract.json",
+      "role": "frozen_numerical_contract_and_provenance",
+      "computational_dependency": true,
+      "required_for_unmodified_strict_replay": true,
+      "required_sha256": "5d49a9ceda150dea250e80eceb1389fdc6b96f6af4307ca2c6c8c2aabb75b6ff",
+      "observed_sha256": "5d49a9ceda150dea250e80eceb1389fdc6b96f6af4307ca2c6c8c2aabb75b6ff",
+      "frozen_size_bytes": 12040,
+      "observed_size_bytes": 12040,
+      "verification": "matches_frozen_hash"
+    },
+    {
+      "path": "system/scripts/analysis/single_j_ibfm.py",
+      "role": "computational_module",
+      "computational_dependency": true,
+      "required_for_unmodified_strict_replay": true,
+      "required_sha256": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+      "observed_sha256": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+      "frozen_size_bytes": 31599,
+      "observed_size_bytes": 31599,
+      "verification": "matches_frozen_hash"
+    },
+    {
+      "path": "system/scripts/analysis/quadrupole_scalar_invariants.py",
+      "role": "computational_module",
+      "computational_dependency": true,
+      "required_for_unmodified_strict_replay": true,
+      "required_sha256": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1",
+      "observed_sha256": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1",
+      "frozen_size_bytes": 27013,
+      "observed_size_bytes": 27013,
+      "verification": "matches_frozen_hash"
+    },
+    {
+      "path": "system/scripts/analysis/paired_single_j_em.py",
+      "role": "computational_module",
+      "computational_dependency": true,
+      "required_for_unmodified_strict_replay": true,
+      "required_sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+      "observed_sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+      "frozen_size_bytes": 11912,
+      "observed_size_bytes": 11912,
+      "verification": "matches_frozen_hash"
+    },
+    {
+      "path": "system/scripts/analysis/paired_single_j_rotor.py",
+      "role": "indirect_import_dependency",
+      "computational_dependency": true,
+      "required_for_unmodified_strict_replay": true,
+      "required_sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+      "observed_sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+      "frozen_size_bytes": 16720,
+      "observed_size_bytes": 16720,
+      "verification": "matches_frozen_hash"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-chain-contract.json",
+      "role": "historical_provenance_verification_only",
+      "computational_dependency": false,
+      "required_for_unmodified_strict_replay": true,
+      "required_sha256": "2183e4828b1395e16847225c9c2d297c09e8ee14980f5dde27f14ff7f419c1cf",
+      "observed_sha256": "2183e4828b1395e16847225c9c2d297c09e8ee14980f5dde27f14ff7f419c1cf",
+      "frozen_size_bytes": 4269,
+      "observed_size_bytes": 4269,
+      "verification": "matches_frozen_hash"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/ba-core-E2.json",
+      "role": "historical_provenance_verification_only",
+      "computational_dependency": false,
+      "required_for_unmodified_strict_replay": true,
+      "required_sha256": "4dfdafe211e675049018f62393192c943544e32b3916151b26161e5b103387d0",
+      "observed_sha256": "4dfdafe211e675049018f62393192c943544e32b3916151b26161e5b103387d0",
+      "frozen_size_bytes": 76661,
+      "observed_size_bytes": 76661,
+      "verification": "matches_frozen_hash"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/study.json",
+      "role": "historical_provenance_verification_only",
+      "computational_dependency": false,
+      "required_for_unmodified_strict_replay": true,
+      "required_sha256": "45d3aafb4d02b2bf54620c4fd4356178c814a2a4b1eb5b6d15caa4132985ca0a",
+      "observed_sha256": "45d3aafb4d02b2bf54620c4fd4356178c814a2a4b1eb5b6d15caa4132985ca0a",
+      "frozen_size_bytes": 209363,
+      "observed_size_bytes": 209363,
+      "verification": "matches_frozen_hash"
+    },
+    {
+      "path": "knowledge/sources/nndc-ba135-ba137-static-e2-constraints.md",
+      "role": "historical_provenance_verification_only",
+      "computational_dependency": false,
+      "required_for_unmodified_strict_replay": true,
+      "required_sha256": "24075979e4ff1e11ee03215dfcd77b751dc1003d03b34c801a9a73df5fd6c02c",
+      "observed_sha256": "607e88d2a21f0cc901cea9685414d14a09beb6b26d549446d42d41917af3237a",
+      "frozen_size_bytes": null,
+      "observed_size_bytes": 18715,
+      "verification": "current_bytes_differ_from_frozen_hash",
+      "boundary": "Historical bytes are not at this contracted path and were not recovered here. The unmodified verifier will reject current bytes. No replacement of the frozen expected hash is authorized by this manifest."
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-ba-core-E2-calibration/nndc136-adopted-text.ens",
+      "role": "historical_provenance_verification_only",
+      "computational_dependency": false,
+      "required_for_unmodified_strict_replay": true,
+      "required_sha256": "2ddbfbcbe7cd55f937ddd0b98a0ce066cf21c269d2eec39a504ec6a27f382b18",
+      "observed_sha256": "2ddbfbcbe7cd55f937ddd0b98a0ce066cf21c269d2eec39a504ec6a27f382b18",
+      "frozen_size_bytes": 115266,
+      "observed_size_bytes": 115266,
+      "verification": "matches_frozen_hash"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-ba-core-E2-calibration/nndc136-coulomb-text.ens",
+      "role": "historical_provenance_verification_only",
+      "computational_dependency": false,
+      "required_for_unmodified_strict_replay": true,
+      "required_sha256": "eaee8e3994093ef9b24eb68f61d31bb6f94a627183522594eaad65ff0eb49f3e",
+      "observed_sha256": "eaee8e3994093ef9b24eb68f61d31bb6f94a627183522594eaad65ff0eb49f3e",
+      "frozen_size_bytes": 5835,
+      "observed_size_bytes": 5835,
+      "verification": "matches_frozen_hash"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-ba-spin-moment-benchmark/nndc137-adopted-text.ens",
+      "role": "historical_provenance_verification_only",
+      "computational_dependency": false,
+      "required_for_unmodified_strict_replay": true,
+      "required_sha256": "49f671b9d8ecaabe1e3dec114b6436c59567f4da912c9e20b7851eacaf943b4f",
+      "observed_sha256": "49f671b9d8ecaabe1e3dec114b6436c59567f4da912c9e20b7851eacaf943b4f",
+      "frozen_size_bytes": 39936,
+      "observed_size_bytes": 39936,
+      "verification": "matches_frozen_hash"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-ba-spin-moment-benchmark/nndc135-adopted-text.ens",
+      "role": "historical_provenance_verification_only",
+      "computational_dependency": false,
+      "required_for_unmodified_strict_replay": true,
+      "required_sha256": "08955bde5d990beea53a1e4302824cf33bf3064eeabefb27c36cafbb9901135c",
+      "observed_sha256": "08955bde5d990beea53a1e4302824cf33bf3064eeabefb27c36cafbb9901135c",
+      "frozen_size_bytes": 61563,
+      "observed_size_bytes": 61563,
+      "verification": "matches_frozen_hash"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261105-nomura2017-input-audit/arxiv-v2-v4.tex",
+      "role": "historical_provenance_verification_only",
+      "computational_dependency": false,
+      "required_for_unmodified_strict_replay": true,
+      "required_sha256": "f79b87a4d88539e8a4e4453a2e61272a9f5e108d165a5fd5a3ab4b17b5c5b868",
+      "observed_sha256": "f79b87a4d88539e8a4e4453a2e61272a9f5e108d165a5fd5a3ab4b17b5c5b868",
+      "frozen_size_bytes": 64836,
+      "observed_size_bytes": 64836,
+      "verification": "matches_frozen_hash"
+    }
+  ],
+  "reference_outputs": [
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-calibrated-operator/linear-calibration.json",
+      "role": "completed_run_reference_output_not_an_initial_replay_input",
+      "sha256": "6b79dad34a41a726ae9e1014a911fe728026dc51a8010a21ce6af9175374d37c",
+      "size_bytes": 14886,
+      "hash_basis": "verified_against_saved_run_record"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-calibrated-operator/calibration-run.json",
+      "role": "completed_run_reference_output_not_an_initial_replay_input",
+      "sha256": "e55d142e18dee5f8f2add43561bcb33ffcde31fb4c8001eeb02990e2359d4465",
+      "size_bytes": 911,
+      "hash_basis": "computed_at_documentation_closeout"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-calibrated-operator/predictions.json",
+      "role": "completed_run_reference_output_not_an_initial_replay_input",
+      "sha256": "834977b8b37be4201a05126e51c83cd90d1d9aadec29541f7a3e9989fb6bc20f",
+      "size_bytes": 26149,
+      "hash_basis": "verified_against_saved_run_record"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-calibrated-operator/predictions.csv",
+      "role": "completed_run_reference_output_not_an_initial_replay_input",
+      "sha256": "8f0ea8621664ae4d80bd2eca8250604dce9121395b8a1f22defae88c91a99469",
+      "size_bytes": 9494,
+      "hash_basis": "verified_against_saved_run_record"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-calibrated-operator/prediction-run.json",
+      "role": "completed_run_reference_output_not_an_initial_replay_input",
+      "sha256": "afbff9ccec8cc173f39cb5b86eff819c71e63ac2ecb17d76a21ba613c758d62e",
+      "size_bytes": 1334,
+      "hash_basis": "computed_at_documentation_closeout"
+    }
+  ],
+  "software_verified_in_completed_run": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "BLAS_threads": 1,
+    "thread_check_scope": "Linux /proc/self/maps and loaded OpenBLAS ctypes query; other runtimes require an identified equivalent adapter"
+  },
+  "relocation": {
+    "preserve_relative_wiki_layout": true,
+    "root_resolution": "OUT=Path(__file__).resolve().parent; ROOT=OUT.parents[3]",
+    "fresh_output_directory_required": true,
+    "stages": [
+      "calibrate",
+      "predict"
+    ],
+    "prediction_consumes_new_calibration_outputs": [
+      "linear-calibration.json",
+      "calibration-run.json"
+    ]
+  },
+  "adapter_status": {
+    "implemented": false,
+    "tested": false,
+    "computation_only_bundle_requires_adapter": true,
+    "preserve_original_driver_and_contract_hashes": true,
+    "record_adapter_and_child_manifest_hashes_separately": true,
+    "do_not_mark_absent_historical_source_bytes_verified": true,
+    "no_scientific_parameter_or_branch_selection_changes": true
+  },
+  "documentation_checks": {
+    "CSV_JSON_values_match": true,
+    "prediction_row_count": 12,
+    "candidate_count": 10,
+    "finite_root_count": 5,
+    "each_finite_root_and_primary_present_for_both_isotopes": true,
+    "domain_flags_and_null_angles_match_raw_ratios": true,
+    "outside_domain_row_counts": {
+      "full": 7,
+      "n5": 3,
+      "all": 2
+    },
+    "improved_001_002_moments_with_full_ratio_below_minus_one_preserved": true,
+    "saved_137_state_and_H_hashes_match_between_stages": true,
+    "saved_native_BLAS_thread_counts_all_one": true,
+    "saved_driver_contract_numerical_output_hashes_match": true
+  },
+  "dependency_files_written_by_this_closeout": false,
+  "no_commit": true
+}

@@ -1,0 +1,25 @@
+{
+  "recorded_at_actual_UTC": "2026-11-06T03:18:54.909729+00:00",
+  "files": {
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/archive-gate.json": "eb6919d89adc1b3a85aa6e549471df0f14678dd37886a6e048b0f5d5252fb133",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/archive_sources.py": "9fa773f24b62eab11d18fbe019d1be3f89c4d0d709f9f4b8f11fba5bc8d700c5",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/assess_pilot.py": "f4797349d244a34ab883149aa3e7b3f6cb18f75fad8115393446ed2a3c6964b1",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/audit.md": "1a261223beab3ffff0a28d3aa5e54e7e0fb7380c9b858165a79bf290281c0f2a",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/checks.json": "959e0b580fd510ca384af9588cc78c68eb33d13a5a5e772af98ec45b7af44db8",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/citation-screen.json": "5b2467852f7acd61a4c0cd4169200ce87e79290ad0aad8fd7b210ef23d603e44",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/download-batch1.json": "5a40c8d52f861e56c46f6f1b52535ecb110907c07613809023f6152a0b3f94e6",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/download-batch2.json": "b642e4f98b3e5f5fcd6e6f41319f22869804d5e30abcbdf8da45f39f053663eb",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/download-batch3.json": "600aa944d99614b03a46e52ae254df0bf71c887666792b4da15723bc2e10c49a",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/download-batch4.json": "d572c3280e6ebe2e2918deda72c1bb4f1cd431dc72f24f311bb07322b3a869e5",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/download-batch5.json": "4866c53e9f42c9ab200980260422c2e346b01c2de4828c09335bb4ea82d2ebd0",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/download-batch6.json": "80fb272cb2ab2351ce7daa5de50d783afc6146c1c869835be3aeea610203c7ed",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/evidence-matrix.csv": "5713481b5e52c4bc2c36b984bf6a19d99d4d04a930bc75186bcc1f8d6be919be",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/finalize_evidence.py": "c710528b645bc2d9a97b6e508d3750e735996b19f32695b1e03ffcc764c14357",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/pilot-assessment.md": "14251f946aff2e814d22c06f58a322afad8533f0b9193ac13a4b028a08d51a50",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/pilot-checks.json": "81a3353787b07a6a907a0e645eb6070dae03ac17a9faade037aaeb84bb4894c2",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/pilot-summary.csv": "10e8880eac7d92dd3371082c739059f427c5f7ed79d8918ea7307edacc088a23",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/search-log.md": "689b96945a4e785c7ca39edb637080fa00492ff355c49aecc28d8658288e5f9e",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/source-inventory.json": "46256857cd7b8ac7aea8cd9bc0e1118a070e7e297909174d202010d2168b5177",
+    "raw/papers/gpt/query/20261106-spin-invariant-precedents/manifest.json": "ec9bb2dbe4c248cc93c0c43cd55409be950f68d1a769c3a6309baf2a9296ca37"
+  }
+}

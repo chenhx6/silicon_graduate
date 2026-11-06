@@ -1,0 +1,219 @@
+{
+  "schema": "klein-v1-focused-review/1",
+  "reviewed_at_utc": "2026-11-05T15:01:04.746686+00:00",
+  "disposition": "more-constrained-nonlinear-CFP-framework; no physical-state prescription established for fixed K(t) matrix",
+  "source_scope": {
+    "arxiv_id": "nucl-th/0004051v1",
+    "version_date": "2000-04-23",
+    "pdf_pages": 29,
+    "title": "Foundations of self-consistent particle-rotor models and of self-consistent cranking models",
+    "author": "Abraham Klein",
+    "published_reference_parent_supplied": "Physical Review C 63, 014316 (2001)",
+    "version_of_record_inspected": false,
+    "findings_must_not_be_generalized_to_VoR_or_whole_KK_framework": true,
+    "tex_pdf_formula_agreement_checked": [
+      "A12",
+      "A13",
+      "A14",
+      "A18",
+      "A19",
+      "A20",
+      "A21",
+      "A22",
+      "A23",
+      "A24",
+      "A25",
+      "A26",
+      "A27",
+      "A28"
+    ],
+    "visually_inspected_pdf_pages": [
+      25,
+      26,
+      27
+    ],
+    "section_II_locations": {
+      "CFP_definitions": {
+        "pdf_page": 4,
+        "equations": [
+          "2.9",
+          "2.10"
+        ],
+        "tex_lines": [
+          194,
+          197
+        ]
+      },
+      "energy_definitions": {
+        "pdf_page": 5,
+        "equations": [
+          "2.14",
+          "2.15",
+          "2.16",
+          "2.17"
+        ],
+        "tex_lines": [
+          230,
+          235
+        ]
+      },
+      "number_and_norms": {
+        "pdf_pages": [
+          6,
+          7
+        ],
+        "equations": [
+          "2.24",
+          "2.25",
+          "2.26",
+          "2.27",
+          "2.28",
+          "2.29",
+          "2.30"
+        ],
+        "tex_lines": [
+          308,
+          352
+        ]
+      }
+    }
+  },
+  "inputs": [
+    {
+      "path": "raw/papers/gpt/query/20261105-pairing-rotor-foundations/klein2000-v1.pdf",
+      "bytes": 273765,
+      "sha256": "8dc1b32a948f542dee9ed6488a17015dd27b01bd2c8b6bb3ad79c2c6aa688461",
+      "sha256_before": "8dc1b32a948f542dee9ed6488a17015dd27b01bd2c8b6bb3ad79c2c6aa688461",
+      "unchanged": true
+    },
+    {
+      "path": "raw/papers/gpt/query/20261105-pairing-rotor-foundations/klein2000-source.tex",
+      "bytes": 98317,
+      "sha256": "a54dcdba421f93035e411ea238238b7b20121bf5814d645aaebe7f58ebcd3a81",
+      "sha256_before": "a54dcdba421f93035e411ea238238b7b20121bf5814d645aaebe7f58ebcd3a81",
+      "unchanged": true
+    },
+    {
+      "path": "system/scripts/analysis/paired_single_j_nambu.py",
+      "bytes": 14179,
+      "sha256": "700970f514b27a4d7333f0c1a4c3a96c91db4ab3ae24f9756d3640eadb8fc02d",
+      "sha256_before": "700970f514b27a4d7333f0c1a4c3a96c91db4ab3ae24f9756d3640eadb8fc02d",
+      "unchanged": true
+    }
+  ],
+  "findings": [
+    {
+      "id": "KLV1-NORMALIZATION",
+      "source": "A12-A14, PDF p.25; TeX 1449-1463",
+      "severity_for_adoption": "blocking",
+      "finding": "With the A12 definition, A13 maps Lambda_a*Omega_a to Lambda_a^2*Omega_a. A reciprocal is a one-block scalar correction only; not a validated nonlinear iteration."
+    },
+    {
+      "id": "KLV1-MULTIPLIER",
+      "source": "A18/A21-A22, PDF pp.26-27; TeX 1494,1525,1529",
+      "severity_for_adoption": "blocking",
+      "finding": "A18 and A21 are valid; full-space H=Omega*Theta does not follow. Occupied and complementary multiplier blocks have opposite signs."
+    },
+    {
+      "id": "KLV1-SUBSTITUTION",
+      "source": "A18/A22-A23, PDF pp.26-27; TeX 1494,1529,1533",
+      "severity_for_adoption": "blocking",
+      "finding": "Literal substitution gives 2H-{R,H}/Omega, not printed H-{R,H}/Omega. Correcting the factor alone does not validate A22."
+    },
+    {
+      "id": "KLV1-STATIONARITY",
+      "source": "A15/A23, PDF pp.26-27; TeX 1472,1533",
+      "severity_for_adoption": "blocking",
+      "finding": "A23 annihilates H diagonal blocks in the projector decomposition, whereas commutator stationarity annihilates off-diagonal blocks; both imply H=0."
+    },
+    {
+      "id": "KLV1-TANGENT",
+      "source": "A25-A28, PDF p.27; TeX 1540-1561",
+      "severity_for_adoption": "blocking",
+      "finding": "The A26 update fails the correct linearized constraint A27 and generally even A28. A28 by itself is necessary but insufficient."
+    },
+    {
+      "id": "KLV1-FIXED-MATRIX-MAPPING",
+      "source": "Section II, Appendix A, and paired_single_j_nambu.py",
+      "severity_for_adoption": "physical-interpretation-unresolved",
+      "finding": "Arbitrary Nambu eigenvectors or spectral projectors do not acquire CFP particle-number and completeness constraints. Frozen K(t) is not a zero-core-rotation continuation."
+    }
+  ],
+  "safe_subset": [
+    "CFP removal/addition definitions with explicit neighboring core spaces",
+    "energy sign and core-energy reference definitions",
+    "conditional number, total norm, orbital norm and Gram identities",
+    "A7-A8 after a suitable CFP set is established",
+    "A2/A9 as frozen-field substeps, not physical-state selectors",
+    "A15-A18 and A21 constrained-stationarity algebra",
+    "A19-A20 core-number conditions",
+    "A24 and A27; A28 necessary only"
+  ],
+  "additional_primary_precedent": {
+    "citation": "Protopapas and Klein, Physical Review C 55, 699 (1997)",
+    "doi": "10.1103/PhysRevC.55.699",
+    "status": "parent-reported; not acquired or inspected in this focused audit",
+    "parent_report": "physical/unphysical half and continuation turning on core rotational energies from zero",
+    "boundary": "do not claim physical-state continuation is new; verify the primary before importing a prescription; distinct from fixed-rotor K(t)"
+  },
+  "verification": {
+    "python": "3.12.3",
+    "arithmetic": "Python standard-library fractions.Fraction; exact rational",
+    "checks_passed": 30,
+    "checks_failed": 0,
+    "pass_meaning": "Expected identities and counterexamples reproduced, not blanket source validation.",
+    "replay_command": "python3 -B outputs/l4/20261105-ba129-controlled-pairing/klein-review/audit_checks.py",
+    "implementation_imported": false,
+    "nuclear_calculation_run": false,
+    "original_sources_or_implementation_modified": false,
+    "PLAN_read_or_modified": false,
+    "other_session_files_read": false,
+    "get_paper_used": false,
+    "commit_or_push_performed": false,
+    "new_external_source_acquired": false,
+    "boundary_for_external_material": "The findings use the supplied local TeX/PDF and exact algebra; no retrieved external content is an evidence source."
+  },
+  "artifacts": [
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/klein-review/report.md",
+      "bytes": 24708,
+      "sha256": "e3811a86849673cb033fafe24bc2cdbf601577538f62c77eb321d82714c28004"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/klein-review/audit_checks.py",
+      "bytes": 10095,
+      "sha256": "5f218696dcb1119c8a2dba55ca9d0d7bf84f4847f0d1820eda3c6214404a4928"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/klein-review/audit_checks.json",
+      "bytes": 14864,
+      "sha256": "31896aeaa639f916a655b74ed82b612019e4b01dc7c952ad6ab5f4de798520b3"
+    }
+  ],
+  "temporary_extractions_and_renders": [
+    {
+      "path": "tmp/ba129-controlled-pairing/klein-review/klein-v1-p25.png",
+      "bytes": 235525,
+      "sha256": "f23e03f1d424cd2dd8d7dd094aedb8311020b3e982ffdf344b6c16ca57a6da48"
+    },
+    {
+      "path": "tmp/ba129-controlled-pairing/klein-review/klein-v1-p26.png",
+      "bytes": 207352,
+      "sha256": "adfac0356c5b2dd8cf9c8dd7ac90353ebe0b282930bd0e3765aceba59116a3c0"
+    },
+    {
+      "path": "tmp/ba129-controlled-pairing/klein-review/klein-v1-p27.png",
+      "bytes": 161173,
+      "sha256": "72ad2a01f980c2e931fd7b7b87f4401cd395ddec4e80df0e6bbf8df66fa70c0c"
+    },
+    {
+      "path": "tmp/ba129-controlled-pairing/klein-review/klein2000-v1-extracted.txt",
+      "bytes": 88511,
+      "sha256": "28cd5f2bbcb78a665a1f7c5fc0fdef8f781b4c0428c95c2320c635db90f5464d"
+    }
+  ],
+  "allowed_write_paths": [
+    "outputs/l4/20261105-ba129-controlled-pairing/klein-review",
+    "tmp/ba129-controlled-pairing/klein-review"
+  ]
+}

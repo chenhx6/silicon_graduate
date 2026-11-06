@@ -1,0 +1,427 @@
+{
+  "schema": "fixed-Ba-static-moment-benchmark-v1",
+  "actual_finished_at": "2026-11-06T03:38:24.796628+00:00",
+  "run_date_label": "2026-11-06",
+  "scope": "Independent static moment contractions in a shared frozen finite Hamiltonian; no source-author code certification.",
+  "Qs_definition": "sqrt(16*pi/5)*<J,M=J|T(E2)_20|J,M=J>; signed e b",
+  "E2_definition": "eB Q_chi_prime -eF(1-2v^2) Q_jj F2/sqrt(5)",
+  "source_numeric_checks": {
+    "129": {
+      "printed_numeric_values": {
+        "eps_d": 0.03,
+        "kappa": -0.102,
+        "chi": -0.18,
+        "v2": 0.453,
+        "Gamma0": 0.6,
+        "Lambda0": 2.1,
+        "A0": -0.15
+      },
+      "source_tex_lines": [
+        298,
+        389,
+        514
+      ],
+      "n_b": 8,
+      "n_b_basis": "3 proton-particle pairs plus neutron-hole pairs of the A-1 core",
+      "A0_mapping": "Table V A'_11/2 numeric entry assigned to frozen kernel A0 by the existing contract"
+    },
+    "131": {
+      "printed_numeric_values": {
+        "eps_d": 0.06,
+        "kappa": -0.116,
+        "chi": -0.18,
+        "v2": 0.568,
+        "Gamma0": 0.6,
+        "Lambda0": 2.1,
+        "A0": -0.23
+      },
+      "source_tex_lines": [
+        299,
+        390,
+        515
+      ],
+      "n_b": 7,
+      "n_b_basis": "3 proton-particle pairs plus neutron-hole pairs of the A-1 core",
+      "A0_mapping": "Table V A'_11/2 numeric entry assigned to frozen kernel A0 by the existing contract"
+    },
+    "133": {
+      "printed_numeric_values": {
+        "eps_d": 0.13,
+        "kappa": -0.122,
+        "chi": -0.18,
+        "v2": 0.687,
+        "Gamma0": 0.6,
+        "Lambda0": 0.9,
+        "A0": 0.0
+      },
+      "source_tex_lines": [
+        300,
+        391,
+        516
+      ],
+      "n_b": 6,
+      "n_b_basis": "3 proton-particle pairs plus neutron-hole pairs of the A-1 core",
+      "A0_mapping": "Table V A'_11/2 numeric entry assigned to frozen kernel A0 by the existing contract"
+    },
+    "135": {
+      "printed_numeric_values": {
+        "eps_d": 0.38,
+        "kappa": -0.124,
+        "chi": -0.24,
+        "v2": 0.81,
+        "Gamma0": 0.6,
+        "Lambda0": 1.0,
+        "A0": -0.9
+      },
+      "source_tex_lines": [
+        301,
+        392,
+        517
+      ],
+      "n_b": 5,
+      "n_b_basis": "3 proton-particle pairs plus neutron-hole pairs of the A-1 core",
+      "A0_mapping": "Table V A'_11/2 numeric entry assigned to frozen kernel A0 by the existing contract"
+    },
+    "137": {
+      "printed_numeric_values": {
+        "eps_d": 1.15,
+        "kappa": -0.122,
+        "chi": -0.85,
+        "v2": 0.936,
+        "Gamma0": 0.4,
+        "Lambda0": 5.0,
+        "A0": -0.6
+      },
+      "source_tex_lines": [
+        302,
+        393,
+        518
+      ],
+      "n_b": 4,
+      "n_b_basis": "3 proton-particle pairs plus neutron-hole pairs of the A-1 core",
+      "A0_mapping": "Table V A'_11/2 numeric entry assigned to frozen kernel A0 by the existing contract"
+    }
+  },
+  "signed_Y2_check": {
+    "stretched_Y20_expectation": -0.24260889634809232,
+    "closed_form_expectation": -0.24260889634809235,
+    "quadrature_residual": 2.7755575615628914e-17,
+    "CG_stretched": 0.7774288420142415,
+    "Q_jj": -1.0810273870323162,
+    "radial_factor_inserted": false
+  },
+  "cases": [
+    {
+      "odd_A": 129,
+      "core_A": 128,
+      "state": "lowest 11/2- in declared single-h11/2 model",
+      "parameters": {
+        "n_b": 8,
+        "two_j": 11,
+        "eps_d": 0.03,
+        "kappa": -0.102,
+        "chi": -0.18,
+        "v2": 0.453,
+        "Q_jj": -1.0810273870323162,
+        "Gamma0": 0.6,
+        "Lambda0": 2.1,
+        "A0": -0.15
+      },
+      "chi_E2": 0.35,
+      "eF_eb": 0.125,
+      "eB_eb": 0.1326801823613452,
+      "core": {
+        "state": "2_1+",
+        "Qs_eb": -0.7254193828750419,
+        "Qs_from_M0_RME_eb": -0.7254193828750447,
+        "diagonal_RME_eb": -0.9571020675153021,
+        "unit_Bup_eB1": 78.54029693797942,
+        "target_Bup_e2b2": 1.3826258056650162,
+        "reconstructed_Bup_e2b2": 1.3826258056650167,
+        "M_conversion_residual_eb": 2.7755575615628914e-15
+      },
+      "odd": {
+        "Qs_eb": -0.16348330030478886,
+        "Qs_boson_term_eb": -0.15574483955612237,
+        "Qs_fermion_term_eb": -0.007738460748666466,
+        "Qs_from_Mhalf_RME_eb": -0.16348330030474803,
+        "diagonal_RME_eb": -0.22974890243741958,
+        "M_conversion_residual_eb": -4.082845173059013e-14,
+        "term_sum_residual_eb": -2.688821387764051e-17,
+        "full_dimension": 15444
+      },
+      "parent_comparison": {
+        "path": "outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/ba129.json",
+        "parent_Qs_eb": -0.16348330030464042,
+        "Qs_difference_eb": -1.4843681839238343e-13,
+        "parent_eB_eb": 0.13268018236134518,
+        "eB_difference_eb": 2.7755575615628914e-17
+      },
+      "calibration_source": {
+        "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/ba-core-E2.json",
+        "calibration_block_id": "128Ba-first2-E2",
+        "adopted_path": "raw/papers/gpt/query/20261105-ba129-core-constraints/nndc128-adopted-text.ens",
+        "input_quantity": "T1/2",
+        "B_margin_used_in_model_fit": false
+      },
+      "elapsed_seconds": 0.6671355330036022
+    },
+    {
+      "odd_A": 131,
+      "core_A": 130,
+      "state": "lowest 11/2- in declared single-h11/2 model",
+      "parameters": {
+        "n_b": 7,
+        "two_j": 11,
+        "eps_d": 0.06,
+        "kappa": -0.116,
+        "chi": -0.18,
+        "v2": 0.568,
+        "Q_jj": -1.0810273870323162,
+        "Gamma0": 0.6,
+        "Lambda0": 2.1,
+        "A0": -0.23
+      },
+      "chi_E2": 0.35,
+      "eF_eb": 0.125,
+      "eB_eb": 0.1337410066764313,
+      "core": {
+        "state": "2_1+",
+        "Qs_eb": -0.5695004645647178,
+        "Qs_from_M0_RME_eb": -0.5695004645647416,
+        "diagonal_RME_eb": -0.7513861429033926,
+        "unit_Bup_eB1": 65.02053506471859,
+        "target_Bup_e2b2": 1.163,
+        "reconstructed_Bup_e2b2": 1.1629999999999998,
+        "M_conversion_residual_eb": 2.375877272697835e-14
+      },
+      "odd": {
+        "Qs_eb": 0.14233718026544612,
+        "Qs_boson_term_eb": 0.13100538564647313,
+        "Qs_fermion_term_eb": 0.011331794618972947,
+        "Qs_from_Mhalf_RME_eb": 0.14233718026543465,
+        "diagonal_RME_eb": 0.20003150707785772,
+        "M_conversion_residual_eb": 1.1463052729254741e-14,
+        "term_sum_residual_eb": 4.336808689942018e-17,
+        "full_dimension": 9504
+      },
+      "parent_comparison": {
+        "path": "outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/ba131.json",
+        "parent_Qs_eb": 0.1423371802654319,
+        "Qs_difference_eb": 1.4210854715202004e-14,
+        "parent_eB_eb": 0.1337410066764313,
+        "eB_difference_eb": 0.0
+      },
+      "calibration_source": {
+        "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/ba-core-E2.json",
+        "calibration_block_id": "130Ba-first2-E2",
+        "adopted_path": "raw/papers/gpt/query/20261105-ba129-core-constraints/nndc130-adopted-text.ens",
+        "input_quantity": "B(E2;0+ -> 2+) from Coulomb-excitation evaluation",
+        "B_margin_used_in_model_fit": false
+      },
+      "elapsed_seconds": 0.33871376601746306
+    },
+    {
+      "odd_A": 133,
+      "core_A": 132,
+      "state": "lowest 11/2- in declared single-h11/2 model",
+      "parameters": {
+        "n_b": 6,
+        "two_j": 11,
+        "eps_d": 0.13,
+        "kappa": -0.122,
+        "chi": -0.18,
+        "v2": 0.687,
+        "Q_jj": -1.0810273870323162,
+        "Gamma0": 0.6,
+        "Lambda0": 0.9,
+        "A0": 0.0
+      },
+      "chi_E2": 0.35,
+      "eF_eb": 0.125,
+      "eB_eb": 0.12768606387996237,
+      "core": {
+        "state": "2_1+",
+        "Qs_eb": -0.3809426366873522,
+        "Qs_from_M0_RME_eb": -0.38094263668736317,
+        "diagonal_RME_eb": -0.5026071728786564,
+        "unit_Bup_eB1": 52.74866254796543,
+        "target_Bup_e2b2": 0.86,
+        "reconstructed_Bup_e2b2": 0.8600000000000001,
+        "M_conversion_residual_eb": 1.099120794378905e-14
+      },
+      "odd": {
+        "Qs_eb": 0.9426011931796691,
+        "Qs_boson_term_eb": 0.9087155779763185,
+        "Qs_fermion_term_eb": 0.033885615203350546,
+        "Qs_from_Mhalf_RME_eb": 0.942601193179668,
+        "diagonal_RME_eb": 1.3246710163395277,
+        "M_conversion_residual_eb": 1.1102230246251565e-15,
+        "term_sum_residual_eb": -6.938893903907228e-18,
+        "full_dimension": 5544
+      },
+      "parent_comparison": {
+        "path": "outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/ba133.json",
+        "parent_Qs_eb": 0.9426011931796684,
+        "Qs_difference_eb": 6.661338147750939e-16,
+        "parent_eB_eb": 0.12768606387996237,
+        "eB_difference_eb": 0.0
+      },
+      "calibration_source": {
+        "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/ba-core-E2.json",
+        "calibration_block_id": "132Ba-first2-E2",
+        "adopted_path": "raw/papers/gpt/query/20261106-ba-core-E2-calibration/nndc132-adopted-text.ens",
+        "input_quantity": "B(E2;0+ -> 2+) from Coulomb-excitation evaluation",
+        "B_margin_used_in_model_fit": false
+      },
+      "elapsed_seconds": 0.17168871901230887
+    },
+    {
+      "odd_A": 135,
+      "core_A": 134,
+      "state": "lowest 11/2- in declared single-h11/2 model",
+      "parameters": {
+        "n_b": 5,
+        "two_j": 11,
+        "eps_d": 0.38,
+        "kappa": -0.124,
+        "chi": -0.24,
+        "v2": 0.81,
+        "Q_jj": -1.0810273870323162,
+        "Gamma0": 0.6,
+        "Lambda0": 1.0,
+        "A0": -0.9
+      },
+      "chi_E2": 0.35,
+      "eF_eb": 0.125,
+      "eB_eb": 0.1298423794528743,
+      "core": {
+        "state": "2_1+",
+        "Qs_eb": -0.27505404631777586,
+        "Qs_from_M0_RME_eb": -0.27505404631777847,
+        "diagonal_RME_eb": -0.3629001411098795,
+        "unit_Bup_eB1": 40.27511999242937,
+        "target_Bup_e2b2": 0.679,
+        "reconstructed_Bup_e2b2": 0.6789999999999998,
+        "M_conversion_residual_eb": 2.609024107869118e-15
+      },
+      "odd": {
+        "Qs_eb": 1.1769302905466026,
+        "Qs_boson_term_eb": 1.1255733827718535,
+        "Qs_fermion_term_eb": 0.051356907774749154,
+        "Qs_from_Mhalf_RME_eb": 1.176930290546597,
+        "diagonal_RME_eb": 1.653982039721404,
+        "M_conversion_residual_eb": 5.551115123125783e-15,
+        "term_sum_residual_eb": -4.85722573273506e-17,
+        "full_dimension": 3024
+      },
+      "parent_comparison": {
+        "path": "outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/ba135.json",
+        "parent_Qs_eb": 1.176930290546596,
+        "Qs_difference_eb": 6.661338147750939e-15,
+        "parent_eB_eb": 0.1298423794528743,
+        "eB_difference_eb": 0.0
+      },
+      "calibration_source": {
+        "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/ba-core-E2.json",
+        "calibration_block_id": "134Ba-first2-E2",
+        "adopted_path": "raw/papers/gpt/query/20261106-ba-core-E2-calibration/nndc134-adopted-text.ens",
+        "input_quantity": "B(E2;0+ -> 2+) from Coulomb-excitation evaluation",
+        "B_margin_used_in_model_fit": false
+      },
+      "elapsed_seconds": 0.10371317999670282
+    },
+    {
+      "odd_A": 137,
+      "core_A": 136,
+      "state": "lowest 11/2- in declared single-h11/2 model",
+      "parameters": {
+        "n_b": 4,
+        "two_j": 11,
+        "eps_d": 1.15,
+        "kappa": -0.122,
+        "chi": -0.85,
+        "v2": 0.936,
+        "Q_jj": -1.0810273870323162,
+        "Gamma0": 0.4,
+        "Lambda0": 5.0,
+        "A0": -0.6
+      },
+      "chi_E2": 0.35,
+      "eF_eb": 0.125,
+      "eB_eb": 0.125640043184871,
+      "core": {
+        "state": "2_1+",
+        "Qs_eb": -0.30323746522016554,
+        "Qs_from_M0_RME_eb": -0.3032374652201633,
+        "diagonal_RME_eb": -0.40008471204623225,
+        "unit_Bup_eB1": 25.78328535819404,
+        "target_Bup_e2b2": 0.407,
+        "reconstructed_Bup_e2b2": 0.4069999999999998,
+        "M_conversion_residual_eb": -2.220446049250313e-15
+      },
+      "odd": {
+        "Qs_eb": 0.7729628797657319,
+        "Qs_boson_term_eb": 0.6947535900077835,
+        "Qs_fermion_term_eb": 0.07820928975794816,
+        "Qs_from_Mhalf_RME_eb": 0.7729628797657315,
+        "diagonal_RME_eb": 1.0862722548419599,
+        "M_conversion_residual_eb": 3.3306690738754696e-16,
+        "term_sum_residual_eb": 2.220446049250313e-16,
+        "full_dimension": 1512
+      },
+      "parent_comparison": {
+        "path": "outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/ba137.json",
+        "parent_Qs_eb": 0.77296287976573,
+        "Qs_difference_eb": 1.887379141862766e-15,
+        "parent_eB_eb": 0.125640043184871,
+        "eB_difference_eb": 0.0
+      },
+      "calibration_source": {
+        "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/ba-core-E2.json",
+        "calibration_block_id": "136Ba-first2-E2",
+        "adopted_path": "raw/papers/gpt/query/20261106-ba-core-E2-calibration/nndc136-adopted-text.ens",
+        "input_quantity": "B(E2;0+ -> 2+) from Coulomb-excitation evaluation",
+        "B_margin_used_in_model_fit": false
+      },
+      "elapsed_seconds": 0.07679919997463003
+    }
+  ],
+  "input_sha256": {
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-chain-contract.json": "2183e4828b1395e16847225c9c2d297c09e8ee14980f5dde27f14ff7f419c1cf",
+    "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/ba-core-E2.json": "4dfdafe211e675049018f62393192c943544e32b3916151b26161e5b103387d0",
+    "raw/papers/gpt/query/20261105-nomura2017-input-audit/arxiv-v2-v4.tex": "f79b87a4d88539e8a4e4453a2e61272a9f5e108d165a5fd5a3ab4b17b5c5b868",
+    "raw/papers/2017_Nomura et al_Shape-phase transitions in odd-mass \u03b3 -soft nuclei with mass A \u2248 130.pdf": "481e6a9e0f6b01e9c5db5e2b06d9b350dba0638393c7da7f532c3040e9efaea9",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/run_benchmark.py": "be596b32685b48c3e7eb6cdb9b6cf7490bd736232126ecfbf54a553ac745f062",
+    "system/scripts/analysis/single_j_ibfm.py": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+    "system/scripts/analysis/paired_single_j_em.py": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+    "system/scripts/analysis/quadrupole_scalar_invariants.py": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1",
+    "outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/ba129.json": "1174714d16c191ad711d9b949d55caa6a8be18e9dbdeb63f20ec0d043861fcdd",
+    "outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/ba131.json": "50b52e829c15160a7ac53920fdb6cfe7079b12d21ef729018d1d38d1e2343fd4",
+    "outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/ba133.json": "19e4aba9c501ad46c9f37f46761b32c356b9e973b23420457ea3e1f1fb9875ef",
+    "outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/ba135.json": "99c1213e79f802ab7697489047b3fd821e29f575a32576702beb633581b6f849",
+    "outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/ba137.json": "2b46a2729621bc8cb368a364165b4eef03c7f7232d181a7526e2f4df2a382cda"
+  },
+  "inputs_unchanged": true,
+  "eF_or_chi_refitted": false,
+  "source_author_exact_eB_run_cards_available": false,
+  "checks": {
+    "case_count": 5,
+    "max_core_M_conversion_residual_eb": 2.375877272697835e-14,
+    "max_odd_M_conversion_residual_eb": 4.082845173059013e-14,
+    "max_parent_Qs_difference_eb": 1.4843681839238343e-13,
+    "max_parent_eB_difference_eb": 2.7755575615628914e-17
+  },
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "limits": [
+    "Calibration moments are not independent EM holdouts.",
+    "Core E2 calibration summaries carry method/branch dependence and no complete covariance.",
+    "No uncertainty assigned to a model prediction from source rounding or missing author run cards.",
+    "No source energy agreement is used as EM validation.",
+    "No physical intrinsic shape or published-figure replication follows from these checks."
+  ]
+}

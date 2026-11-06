@@ -1,0 +1,114 @@
+[
+  {
+    "key": "Cline1986",
+    "source": "raw/papers/gpt/query/20261106-odd-ba-paper-bibliography/Cline1986.json",
+    "sha256": "7417bfff51a86b2dcb580c2c564c0386df3dd8be92f9163df9e3cc2ef07a0ccc",
+    "fields": {
+      "author": "Cline, D",
+      "title": "Nuclear Shapes Studied by Coulomb Excitation",
+      "journal": "Annual Review of Nuclear and Particle Science",
+      "year": "1986",
+      "volume": "36",
+      "pages": "683-716",
+      "doi": "10.1146/annurev.ns.36.120186.003343"
+    }
+  },
+  {
+    "key": "Werner2005",
+    "source": "raw/papers/gpt/query/20261106-odd-ba-paper-bibliography/Werner2005.json",
+    "sha256": "0c989d141aa855e2335f4456be55b0d3d98940d728f492381972c27fa186be88",
+    "fields": {
+      "author": "Werner, V. and Scholl, C. and Brentano, P. von",
+      "title": "Triaxiality and the determination of the cubic shape parameter {$K_3$} from five observables",
+      "journal": "Physical Review C",
+      "year": "2005",
+      "volume": "71",
+      "pages": "054314",
+      "doi": "10.1103/physrevc.71.054314"
+    }
+  },
+  {
+    "key": "Nomura2016",
+    "source": "raw/papers/gpt/query/20261106-odd-ba-paper-bibliography/Nomura2016.json",
+    "sha256": "41ae7897c83491b858bbc00e2aeebe0febc86d9ea605eb05ccf228ff1c9d6ac8",
+    "fields": {
+      "author": "Nomura, K. and Nikšić, T. and Vretenar, D.",
+      "title": "Signatures of shape phase transitions in odd-mass nuclei",
+      "journal": "Physical Review C",
+      "year": "2016",
+      "volume": "94",
+      "pages": "064310",
+      "doi": "10.1103/physrevc.94.064310"
+    }
+  },
+  {
+    "key": "Nomura2017",
+    "source": "raw/papers/gpt/query/20261106-odd-ba-paper-bibliography/Nomura2017.json",
+    "sha256": "dcaa68318ee10106debe54df2fb997b4f7df243ad2fdffa0def850f9b94482e3",
+    "fields": {
+      "author": "Nomura, K. and Nikšić, T. and Vretenar, D.",
+      "title": "Shape-phase transitions in odd-mass $\\gamma$-soft nuclei with mass $A\\approx130$",
+      "journal": "Physical Review C",
+      "year": "2017",
+      "volume": "96",
+      "pages": "014304",
+      "doi": "10.1103/physrevc.96.014304"
+    }
+  },
+  {
+    "key": "Henderson2020",
+    "source": "raw/papers/gpt/query/20261106-odd-ba-paper-bibliography/Henderson2020.json",
+    "sha256": "23e6aac22d45ba3fa10840419e15d683cc89aef7b315f5ade97019fc9ebf04da",
+    "fields": {
+      "author": "Henderson, J.",
+      "title": "Convergence of electric quadrupole rotational invariants from the nuclear shell model",
+      "journal": "Physical Review C",
+      "year": "2020",
+      "volume": "102",
+      "pages": "054306",
+      "doi": "10.1103/physrevc.102.054306"
+    }
+  },
+  {
+    "key": "Bally2022",
+    "source": "raw/papers/gpt/query/20261106-odd-ba-paper-bibliography/Bally2022.json",
+    "sha256": "a0d90be209687148fc1ae27613df1eb3a5fc302a0c808d3501af585508ad5789",
+    "fields": {
+      "author": "Bally, Benjamin and Giacalone, Giuliano and Bender, Michael",
+      "title": "Structure of $^{128,129,130}$Xe through multi-reference energy density functional calculations",
+      "journal": "The European Physical Journal A",
+      "year": "2022",
+      "volume": "58",
+      "pages": "187",
+      "doi": "10.1140/epja/s10050-022-00833-4"
+    }
+  },
+  {
+    "key": "Rouoof2025",
+    "source": "raw/papers/gpt/query/20261106-odd-ba-paper-bibliography/Rouoof2025.json",
+    "sha256": "e96442b68029f9de1051c0bb8aedd6bf488a737255fec5dd6c98aa566cc98b74",
+    "fields": {
+      "author": "Rouoof, S. P. and Nazir, Nazira and Jehangir, S. and Bhat, G. H. and Sheikh, J. A. and Rather, N. and Frauendorf, S.",
+      "title": "Microscopic investigation of {E2} matrix elements in atomic nuclei",
+      "journal": "Physical Review C",
+      "year": "2025",
+      "volume": "111",
+      "pages": "054309",
+      "doi": "10.1103/physrevc.111.054309"
+    }
+  },
+  {
+    "key": "LawrieOrce2025",
+    "source": "raw/papers/gpt/query/20261106-spin-invariant-precedents/focused-sidecar/lawrie-orce2025-crossref.json",
+    "sha256": "c8e29d9a342b6776f6aa0d847347062cc0e3ce7ca7980e7ad2d105f335974412",
+    "status": "identity and publication fields checked against original metadata and primary-paper audit",
+    "display_note": "Exact two-author citation."
+  },
+  {
+    "key": "Vogt2017PRC95_024316",
+    "source": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/vogt2017-metadata.json",
+    "sha256": "98ce1ffa925399f150644bf7c82ce67598fc490daad87860b51a1a9ff0ceb5fa",
+    "status": "identity and publication fields checked against original metadata and primary-paper audit",
+    "display_note": "Long collaboration author list abbreviated with et al.; complete 89-author record supplied separately."
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "filename": "nomura2016-arxiv1610-00469.pdf",
+    "url": "https://arxiv.org/pdf/1610.00469",
+    "title": "Signatures of shape phase transitions in odd-mass nuclei",
+    "doi": "10.1103/PhysRevC.94.064310",
+    "kind": "pdf",
+    "access_scope": "Public author-deposited arXiv manuscript; local research copy; publisher equivalence not assumed."
+  },
+  {
+    "filename": "werner2005-five-observables.pdf",
+    "url": "https://arxiv.org/pdf/nucl-th/0408024",
+    "title": "Triaxiality and the determination of the cubic shape parameter K3 from five observables",
+    "doi": "10.1103/PhysRevC.71.054314",
+    "kind": "pdf",
+    "access_scope": "Public author-deposited arXiv manuscript; local research copy."
+  },
+  {
+    "filename": "nomura2018-publisher.pdf",
+    "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.97.064314/fulltext",
+    "title": "Prolate-to-oblate shape phase transitions in neutron-rich odd-mass nuclei",
+    "doi": "10.1103/PhysRevC.97.064314",
+    "kind": "pdf",
+    "access_scope": "Public publisher full-text endpoint if accessible; local research use; no redistribution license inferred."
+  },
+  {
+    "filename": "crossref-nomura2017-current.json",
+    "url": "https://api.crossref.org/works/10.1103/PhysRevC.96.014304",
+    "title": "Current Crossref record for Nomura2017",
+    "kind": "metadata",
+    "access_scope": "Public Crossref metadata; relation/update fields do not establish completeness of correction coverage."
+  },
+  {
+    "filename": "arxiv-nomura2017-history.html",
+    "url": "https://arxiv.org/abs/1704.07101",
+    "title": "arXiv version history for Nomura2017",
+    "kind": "metadata",
+    "access_scope": "Public arXiv abstract and version-history page; not a replacement for the archived full text."
+  }
+]

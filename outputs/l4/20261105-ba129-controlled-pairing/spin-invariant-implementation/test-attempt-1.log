@@ -1,0 +1,44 @@
+test_IBFM_adapter_fixedM_lift_and_complete_reduced_closure (test_quadrupole_scalar_invariants.BosonAndAdapterControls.test_IBFM_adapter_fixedM_lift_and_complete_reduced_closure) ... ok
+test_O6_chi0_ground_state_cubic_zero_and_quadratic_Casimir (test_quadrupole_scalar_invariants.BosonAndAdapterControls.test_O6_chi0_ground_state_cubic_zero_and_quadratic_Casimir) ... ok
+test_adapter_rejects_mismatch_and_bad_embeddings (test_quadrupole_scalar_invariants.BosonAndAdapterControls.test_adapter_rejects_mismatch_and_bad_embeddings) ... ok
+test_allowed_zero_CG_is_unknown_in_adapter (test_quadrupole_scalar_invariants.BosonAndAdapterControls.test_allowed_zero_CG_is_unknown_in_adapter) ... ok
+test_higher_M_missing_multiplets_are_not_complete (test_quadrupole_scalar_invariants.BosonAndAdapterControls.test_higher_M_missing_multiplets_are_not_complete) ... ok
+test_spectator_R0_core_NB1_NB2_all_fermion_M (test_quadrupole_scalar_invariants.BosonAndAdapterControls.test_spectator_R0_core_NB1_NB2_all_fermion_M) ... ok
+test_Jplus2_proxy_is_not_axial_shape_for_nonzero_spin (test_quadrupole_scalar_invariants.DirectLimits.test_Jplus2_proxy_is_not_axial_shape_for_nonzero_spin) ... ERROR
+test_arbitrary_complex_basis_and_state_rephasing (test_quadrupole_scalar_invariants.DirectLimits.test_arbitrary_complex_basis_and_state_rephasing) ... ok
+test_magnitude_fluctuations_outside_rigid_interval_are_not_clipped (test_quadrupole_scalar_invariants.DirectLimits.test_magnitude_fluctuations_outside_rigid_interval_are_not_clipped) ... ok
+test_only_tiny_boundary_rounding_and_raw_value_preserved (test_quadrupole_scalar_invariants.DirectLimits.test_only_tiny_boundary_rounding_and_raw_value_preserved) ... ok
+test_rigid_axial_lowest_spin_all_M_and_sign (test_quadrupole_scalar_invariants.DirectLimits.test_rigid_axial_lowest_spin_all_M_and_sign) ... ok
+test_sparse_and_dense_agree (test_quadrupole_scalar_invariants.DirectLimits.test_sparse_and_dense_agree) ... ok
+test_unit_scaling_and_zero_operator (test_quadrupole_scalar_invariants.DirectLimits.test_unit_scaling_and_zero_operator) ... ok
+test_bad_state_dimension_norm_and_nonfinite_values (test_quadrupole_scalar_invariants.InputBoundaryTests.test_bad_state_dimension_norm_and_nonfinite_values) ... ok
+test_covariance_is_checked_only_when_generators_are_supplied (test_quadrupole_scalar_invariants.InputBoundaryTests.test_covariance_is_checked_only_when_generators_are_supplied) ... ok
+test_missing_extra_or_invalid_components (test_quadrupole_scalar_invariants.InputBoundaryTests.test_missing_extra_or_invalid_components) ... ok
+test_nonhermitian_tensor_rejected_without_symmetrizing (test_quadrupole_scalar_invariants.InputBoundaryTests.test_nonhermitian_tensor_rejected_without_symmetrizing) ... ok
+test_representation_table_tolerance_and_index_boundaries (test_quadrupole_scalar_invariants.InputBoundaryTests.test_representation_table_tolerance_and_index_boundaries) ... ok
+test_6j_against_explicit_magnetic_sum_including_half_integer_phase (test_quadrupole_scalar_invariants.ReducedClosureTests.test_6j_against_explicit_magnetic_sum_including_half_integer_phase) ... ok
+test_6j_known_values_symmetries_and_boundaries (test_quadrupole_scalar_invariants.ReducedClosureTests.test_6j_known_values_symmetries_and_boundaries) ... ok
+test_J0_standard_chain_normalization (test_quadrupole_scalar_invariants.ReducedClosureTests.test_J0_standard_chain_normalization) ... ok
+test_general_spin_closure_direct_complex_and_M_invariant (test_quadrupole_scalar_invariants.ReducedClosureTests.test_general_spin_closure_direct_complex_and_M_invariant) ... ok
+test_known_selection_zeros_are_distinct_from_unknown_allowed_entries (test_quadrupole_scalar_invariants.ReducedClosureTests.test_known_selection_zeros_are_distinct_from_unknown_allowed_entries) ... ok
+test_missing_allowed_RME_is_reported_not_zero (test_quadrupole_scalar_invariants.ReducedClosureTests.test_missing_allowed_RME_is_reported_not_zero) ... ok
+test_nonhermitian_and_forbidden_RME_rejected (test_quadrupole_scalar_invariants.ReducedClosureTests.test_nonhermitian_and_forbidden_RME_rejected) ... ok
+test_proxy_cutoff_ordering_missing_entries_and_global_partial_registry (test_quadrupole_scalar_invariants.ReducedClosureTests.test_proxy_cutoff_ordering_missing_entries_and_global_partial_registry) ... ok
+test_reduced_eigenstate_rephasing_keeps_loops_and_strengths (test_quadrupole_scalar_invariants.ReducedClosureTests.test_reduced_eigenstate_rephasing_keeps_loops_and_strengths) ... ok
+test_unrepresented_states_and_explicit_completeness_declaration (test_quadrupole_scalar_invariants.ReducedClosureTests.test_unrepresented_states_and_explicit_completeness_declaration) ... ok
+
+======================================================================
+ERROR: test_Jplus2_proxy_is_not_axial_shape_for_nonzero_spin (test_quadrupole_scalar_invariants.DirectLimits.test_Jplus2_proxy_is_not_axial_shape_for_nonzero_spin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/wiki/system/tests/test_quadrupole_scalar_invariants.py", line 118, in test_Jplus2_proxy_is_not_axial_shape_for_nonzero_spin
+    self.assertGreater(proxy.proxy_angle_deg, 1.)
+  File "/usr/lib/python3.12/unittest/case.py", line 1267, in assertGreater
+    if not a > b:
+           ^^^^^
+TypeError: '>' not supported between instances of 'NoneType' and 'float'
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.300s
+
+FAILED (errors=1)

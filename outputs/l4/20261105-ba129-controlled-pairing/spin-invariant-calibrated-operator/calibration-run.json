@@ -1,0 +1,23 @@
+{
+  "status": "completed",
+  "started_at_utc": "2026-11-06T04:47:09.300046+00:00",
+  "finished_at_utc": "2026-11-06T04:47:09.516064+00:00",
+  "elapsed_seconds": 0.2160289390012622,
+  "native_BLAS": [
+    {
+      "library": "/opt/venv/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-f48b354e.so",
+      "query": "scipy_openblas_get_num_threads64_",
+      "threads": 1
+    },
+    {
+      "library": "/opt/venv/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-5f890258.so",
+      "query": "scipy_openblas_get_num_threads",
+      "threads": 1
+    }
+  ],
+  "driver_sha256": "f206481c5abef00e261029de8c790bb32182a7562bfd0ac7b60e898365f955cd",
+  "contract_sha256": "5d49a9ceda150dea250e80eceb1389fdc6b96f6af4307ca2c6c8c2aabb75b6ff",
+  "linear_calibration_sha256": "6b79dad34a41a726ae9e1014a911fe728026dc51a8010a21ce6af9175374d37c",
+  "accepted_roots": 5,
+  "inputs_and_modules_unchanged": true
+}

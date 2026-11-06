@@ -1,0 +1,14 @@
+{
+  "schema": "odd-Ba-calibrated-quadrupole-closure-v1",
+  "started_at_utc": "2026-11-06T03:21:55.515839+00:00",
+  "input_sha256": {
+    "system/scripts/ba_quadrupole_closure_study.py": "ef446b1aeaa8cdb42f470b62b28dbe3ba214489580dbb15189ba21936ad81d6d",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-chain-contract.json": "2183e4828b1395e16847225c9c2d297c09e8ee14980f5dde27f14ff7f419c1cf",
+    "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/ba-core-E2.json": "4dfdafe211e675049018f62393192c943544e32b3916151b26161e5b103387d0",
+    "system/scripts/analysis/single_j_ibfm.py": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+    "system/scripts/analysis/quadrupole_scalar_invariants.py": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1",
+    "system/scripts/analysis/paired_single_j_em.py": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b"
+  },
+  "evidence_class": "finite-model calculation, evaluated core E2 calibration",
+  "boundary": "Fixed-parameter odd-Ba E2 closure study, with no shape or energy fit.\n\nThe primary operator is calibrated to each even core's first 0->2 strength.\nThe core-only control uses the same charge, Hamiltonian, and wavefunction.\nBoth complete lab-component contraction and complete reduced 6j closure are\nrequired to agree. J+2 restrictions contain whole multiplets and remain\nrotational scalars; they are not complete charge-polynomial moments.\n\nRun with single-thread BLAS. Output directories must be new. Numerical model\nresults do not reproduce the source authors' electromagnetic figures, and\nrigid-equivalent moment angles do not establish softness or rigidity.\n"
+}

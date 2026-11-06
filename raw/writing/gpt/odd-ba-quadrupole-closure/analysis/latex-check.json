@@ -1,0 +1,24 @@
+{
+  "pages": 10,
+  "pdf_sha256": "879ce2e1e7564e84d460a25abdb64a3e5ba81973644c8a6a7280b1e18eb535ea",
+  "source_sha256": {
+    "main.tex": "0176dc9512ab530b1614fbef526e031a0496bffe3719832729d169af635987db",
+    "controls.tex": "ba03a6bbb8fca5292859e9b1dadc256a71db70add8cb71407b2d43de08d8c7f1",
+    "references.bib": "cb35fead1daec7baa7795bba5154c3c42a8a789301b5a6799f2d35196fb48312",
+    "sn-jnl.cls": "2174570ce9e53b7bd0c279cb2c6dabf8cc35c2e094fab745a34a22027a479396",
+    "sn-mathphys-num.bst": "7635e72a5b22440d819e43eefc2ba16bbcae89df83521a1d66c31c3987f93816",
+    "angular_channels-v4.pdf": "d403513a4d10ac8f4291aac7d99a22413ac22e47a08c99849b1cb75f8bb73cd2",
+    "charge_and_ratios-v4.pdf": "e03b9d999896a4c319cfe381871263aedbe6c401e5291125987f535820f78d0a",
+    "quadrupole_path-v2.pdf": "6c5494aa88b9036131b1b9bc128e1572572403d005b82eb436a57c27b78bcbc5"
+  },
+  "overfull_boxes": 0,
+  "undefined_reference_warning": false,
+  "undefined_control_sequence": false,
+  "unresolved_printed_references": false,
+  "figure_font_size_range_including_scripts_pt": [
+    6.831824779510498,
+    9.759750366210938
+  ],
+  "matrix_and_sample_legend_font_min_pt": 8.428874969482422,
+  "visual_review": "All pages inspected in contact sheets; updated figures, table3 and unbroken AppendixA inspected at final rendered size. Later change only protects proper-name capitalization in bibliography."
+}

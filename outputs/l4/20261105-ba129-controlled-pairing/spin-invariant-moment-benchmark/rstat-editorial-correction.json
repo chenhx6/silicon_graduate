@@ -1,0 +1,114 @@
+{
+  "status": "corrections_verified",
+  "actual_started_at": "2026-11-06T04:24:01.072304+00:00",
+  "before_sha256": {
+    "knowledge/sources/nndc-ba135-ba137-static-e2-constraints.md": "008cb7e9fcfc343e8915458c7a2d30a2f14a7a1ac1d9d6c98bc484ca91c92293",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/rstat-readiness.md": "9d37c2cd06ed79fee737c89fdb1ac96bcad494994baf594812015fccc7db2fe8",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/check_rstat_availability.py": "a388c0f8a12a86ca1d9c1be8bb06288b94d57d9608ceb152647f74baa48f2bee",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/rstat-readiness.json": "cc80b369c7938a73ea3df783d13f4b4313943795842b7d68fef910241417450c",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/rstat-readiness.csv": "e2a29394bc9a13c44614efe05085d84ada821f5d8762b3911802ec053e379e89"
+  },
+  "before_rstat_cases": [
+    {
+      "A": 135,
+      "initial_state": "11/2_1-",
+      "target_model_state": "(15/2-)_1",
+      "model_Rstat": 2.2722073553021374,
+      "model_diagonal_strength_e2b2": 0.2279713823100809,
+      "model_Bup_11to15_e2b2": 0.10033036015754264,
+      "model_Bdown_15to11_e2b2": 0.07524777011815698,
+      "experimental_Bdown_e2b2": null,
+      "experimental_Bup_e2b2": null,
+      "experimental_Rstat": null,
+      "target_mapping": "tentative 950.5-keV (15/2-) -> 268.218-keV 11/2-",
+      "denominator_ready": false,
+      "blocking_inputs": "15/2 parent half-life; ICC; absolute branch/purity completeness; tentative assignment",
+      "static_role": "additional EM comparison; model overpredicts paper/adopted central Q"
+    },
+    {
+      "A": 137,
+      "initial_state": "11/2_1-",
+      "target_model_state": "(15/2-)_1",
+      "model_Rstat": 1.3565277480278908,
+      "model_diagonal_strength_e2b2": 0.09833228430328593,
+      "model_Bup_11to15_e2b2": 0.07248822181945089,
+      "model_Bdown_15to11_e2b2": 0.054366166364588166,
+      "experimental_Bdown_e2b2": null,
+      "experimental_Bup_e2b2": null,
+      "experimental_Rstat": null,
+      "target_mapping": "no assigned 15/2 level in either checked dataset",
+      "denominator_ready": false,
+      "blocking_inputs": "assigned lowest 15/2- and matching decay; absolute E2 strength",
+      "static_role": "137Ba static Q is a source-named eF calibration target"
+    }
+  ],
+  "before_csv_rows": [
+    {
+      "A": "135",
+      "initial_state": "11/2_1-",
+      "target_model_state": "(15/2-)_1",
+      "model_Rstat": "2.2722073553021374",
+      "model_diagonal_strength_e2b2": "0.2279713823100809",
+      "model_Bup_11to15_e2b2": "0.10033036015754264",
+      "model_Bdown_15to11_e2b2": "0.07524777011815698",
+      "experimental_Bdown_e2b2": "",
+      "experimental_Bup_e2b2": "",
+      "experimental_Rstat": "",
+      "target_mapping": "tentative 950.5-keV (15/2-) -> 268.218-keV 11/2-",
+      "denominator_ready": "False",
+      "blocking_inputs": "15/2 parent half-life; ICC; absolute branch/purity completeness; tentative assignment",
+      "static_role": "additional EM comparison; model overpredicts paper/adopted central Q"
+    },
+    {
+      "A": "137",
+      "initial_state": "11/2_1-",
+      "target_model_state": "(15/2-)_1",
+      "model_Rstat": "1.3565277480278908",
+      "model_diagonal_strength_e2b2": "0.09833228430328593",
+      "model_Bup_11to15_e2b2": "0.07248822181945089",
+      "model_Bdown_15to11_e2b2": "0.054366166364588166",
+      "experimental_Bdown_e2b2": "",
+      "experimental_Bup_e2b2": "",
+      "experimental_Rstat": "",
+      "target_mapping": "no assigned 15/2 level in either checked dataset",
+      "denominator_ready": "False",
+      "blocking_inputs": "assigned lowest 15/2- and matching decay; absolute E2 strength",
+      "static_role": "137Ba static Q is a source-named eF calibration target"
+    }
+  ],
+  "before_calculation_AST_sha256": "370e3acda89cb3beb55e20579a28774b3e18c660f5cf0acf32644f94dd869339",
+  "raw_manifest_sha256": {
+    "raw/papers/gpt/query/20261106-ba-spin-moment-benchmark/manifest.json": "9fc2cdcbc7542179f215da46322282caf5b353b825b7c042ea268e2062635102",
+    "raw/papers/gpt/query/20261106-ba-rstat-readiness/manifest.json": "0efb86a77aaf424a0a384c4e9d3d0646c5337dc6741d97b7a5d1f2824089a8c9"
+  },
+  "new_citation_key": "NNDCBa135Ba137StaticE2Constraints2026",
+  "actual_completed_at": "2026-11-06T04:26:32.525170+00:00",
+  "after_sha256": {
+    "knowledge/sources/nndc-ba135-ba137-static-e2-constraints.md": "24075979e4ff1e11ee03215dfcd77b751dc1003d03b34c801a9a73df5fd6c02c",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/rstat-readiness.md": "f43666abf293f5c0575446ff92f6d51ace9bc632cf36ef3659cdf46f9148c3ff",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/check_rstat_availability.py": "624d578d3626c92a3471a5f01cd80d4910737b9034f0675ffe61868c0e3fbf8f",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/rstat-readiness.json": "22cbf859aedc35f97d9682eeec2ee613ddcb019d5136358eed19f6ed0f4454a8",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/rstat-readiness.csv": "d96412b428a2b1ff195315eca6a7d63dde9f62f0e6cc79ccbde01342c581d0e4"
+  },
+  "raw_manifests_unchanged": true,
+  "static_v1_files_unchanged": 9,
+  "case_values_and_csv_cells_unchanged": true,
+  "calculation_AST_unchanged_after_masking_strings": true,
+  "numerical_tests_rerun": false,
+  "required_source_fields_and_sections_checked": true,
+  "unique_citation_key": true,
+  "unique_canonical_source": true,
+  "observable_notation": "R_stat^(1)",
+  "field_renames": {
+    "model_Rstat": "model_Rstat_first",
+    "experimental_Rstat": "experimental_Rstat_first"
+  },
+  "historical_closeout_receipt_preserved": true,
+  "archive_gate": {
+    "exit_code": 0,
+    "failure_count": 0,
+    "checked_source_count": 1,
+    "checked_manifest_count": 2,
+    "scope": "paths"
+  }
+}

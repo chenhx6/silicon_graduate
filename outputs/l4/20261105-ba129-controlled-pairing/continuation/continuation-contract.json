@@ -1,0 +1,28 @@
+{
+  "interpretation": "mathematical Hplus-connected references; not certified physical states",
+  "parameter_changes_or_refitting": false,
+  "seed_rule": "original-product Xplus times the predeclared Hplus eigenvector, then Xdagger",
+  "assignment": "rectangular maximum sum of squared overlaps, one selected label per column",
+  "tracked_objects": "only the one/two mapped states at each spin, not arbitrarily labelled high states",
+  "grids": [
+    33,
+    129,
+    513,
+    2049
+  ],
+  "minimum_grids": 2,
+  "minimum_step_overlap_squared": 0.995,
+  "minimum_step_projector_singular_value_squared": 0.995,
+  "assignment_score_tie_tolerance": 1e-08,
+  "energy_degeneracy_tolerance_MeV": 1e-09,
+  "energy_refinement_tolerance_MeV": 1e-08,
+  "weight_refinement_tolerance": 1e-08,
+  "fidelity_refinement_tolerance": 1e-08,
+  "minimum_gap_relative_refinement_tolerance": 0.02,
+  "minimum_gap_absolute_refinement_tolerance_MeV": 1e-05,
+  "eigen_residual_tolerance_MeV": 1e-10,
+  "gap_interval_bound": "min(endpoint selected gap)-norm(K)*dt-2*residual_tolerance; valid for fixed energy-rank labels and the linear Hermitian path",
+  "reference_shift_control_MeV": 100.0,
+  "zero_coupling_control": "evaluate hamiltonian_at(system,0) along a five-point dummy path",
+  "failure_policy": "Refine on rank jumps, small overlaps, ties, unbounded intervening gaps, or unconverged common-grid diagnostics. At cap retain unresolved status and tentative candidates; do not call them unique continued labels."
+}

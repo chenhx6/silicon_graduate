@@ -1,0 +1,425 @@
+{
+  "schema": "all-real-central-moment-calibration-branches/1",
+  "contract_sha256": "5d49a9ceda150dea250e80eceb1389fdc6b96f6af4307ca2c6c8c2aabb75b6ff",
+  "coefficients": {
+    "a_transition": 5.216368397358274,
+    "b_transition": -0.39612562913323224,
+    "c_core_Qs": -2.9536620752503557,
+    "d_core_Qs": 1.5432014859410583,
+    "u_odd137_boson_Qs": 5.846171402301101,
+    "v_odd137_boson_Qs": -0.9041620907204937,
+    "w_odd137_fermion_Qs": 0.625674318063584,
+    "Bup136": 0.407,
+    "sqrt_Bup136": 0.6379655163094632,
+    "calibration_pole_chi": 13.168469833098857,
+    "core_Qs_limit_chi_positive_infinity": 2.485346214285948,
+    "core_Qs_limit_chi_negative_infinity": -2.485346214285948,
+    "ad_minus_bc": 6.879886214213752
+  },
+  "candidate_count": 10,
+  "accepted_root_count": 5,
+  "candidates": [
+    {
+      "target_id": "Q136_minus_019",
+      "target_Qs136_eb": -0.19,
+      "algebra_sign_s": -1,
+      "linear_coefficient": 1.0597732022832322,
+      "linear_RHS": 2.8754445463388456,
+      "source_provenance": [
+        {
+          "study_group": "1986BaZJ/1986Ro15",
+          "interference": "constructive",
+          "quoted_margin_eb": 0.06
+        },
+        {
+          "study_group": "1972Ke16",
+          "interference": "constructive",
+          "quoted_margin_eb": 0.17
+        }
+      ],
+      "near_degenerate_linear_coefficient": false,
+      "candidate_chi_E": 2.7132640645600716,
+      "unit_transition_RME": 4.141574962779825,
+      "near_calibration_pole": false,
+      "status": "extraneous_wrong_absolute_value_branch"
+    },
+    {
+      "target_id": "Q136_minus_019",
+      "target_Qs136_eb": -0.19,
+      "algebra_sign_s": 1,
+      "linear_coefficient": 0.9092454632126039,
+      "linear_RHS": 0.8932245553427015,
+      "source_provenance": [
+        {
+          "study_group": "1986BaZJ/1986Ro15",
+          "interference": "constructive",
+          "quoted_margin_eb": 0.06
+        },
+        {
+          "study_group": "1972Ke16",
+          "interference": "constructive",
+          "quoted_margin_eb": 0.17
+        }
+      ],
+      "near_degenerate_linear_coefficient": false,
+      "candidate_chi_E": 0.9823799969116191,
+      "unit_transition_RME": 4.827222503033757,
+      "near_calibration_pole": false,
+      "status": "accepted_finite_real_root",
+      "root_id": "Q136_minus_019_splus",
+      "eB136_eb": 0.13215995656063545,
+      "eF_eb": 0.19939891315585204
+    },
+    {
+      "target_id": "Q136_plus_007",
+      "target_Qs136_eb": 0.07,
+      "algebra_sign_s": -1,
+      "linear_coefficient": 0.9567805387085918,
+      "linear_RHS": 1.5191887630256944,
+      "source_provenance": [
+        {
+          "study_group": "1986BaZJ/1986Ro15",
+          "interference": "destructive",
+          "quoted_margin_eb": 0.07
+        }
+      ],
+      "near_degenerate_linear_coefficient": false,
+      "candidate_chi_E": 1.5878131938973272,
+      "unit_transition_RME": 4.5873948969796485,
+      "near_calibration_pole": false,
+      "status": "extraneous_wrong_absolute_value_branch"
+    },
+    {
+      "target_id": "Q136_plus_007",
+      "target_Qs136_eb": 0.07,
+      "algebra_sign_s": 1,
+      "linear_coefficient": 1.0122381267872442,
+      "linear_RHS": 2.249480338655853,
+      "source_provenance": [
+        {
+          "study_group": "1986BaZJ/1986Ro15",
+          "interference": "destructive",
+          "quoted_margin_eb": 0.07
+        }
+      ],
+      "near_degenerate_linear_coefficient": false,
+      "candidate_chi_E": 2.222283748385874,
+      "unit_transition_RME": 4.3360648494163625,
+      "near_calibration_pole": false,
+      "status": "accepted_finite_real_root",
+      "root_id": "Q136_plus_007_splus",
+      "eB136_eb": 0.14713006803745884,
+      "eF_eb": 0.344398895364864
+    },
+    {
+      "target_id": "Q136_plus_001",
+      "target_Qs136_eb": 0.01,
+      "algebra_sign_s": -1,
+      "linear_coefficient": 0.9805480764565857,
+      "linear_RHS": 1.8321708668671908,
+      "source_provenance": [
+        {
+          "study_group": "1984Be20",
+          "interference": "constructive",
+          "quoted_margin_eb": 0.05
+        }
+      ],
+      "near_degenerate_linear_coefficient": false,
+      "candidate_chi_E": 1.8685171190056493,
+      "unit_transition_RME": 4.4762008780459475,
+      "near_calibration_pole": false,
+      "status": "extraneous_wrong_absolute_value_branch"
+    },
+    {
+      "target_id": "Q136_plus_001",
+      "target_Qs136_eb": 0.01,
+      "algebra_sign_s": 1,
+      "linear_coefficient": 0.9884705890392504,
+      "linear_RHS": 1.9364982348143565,
+      "source_provenance": [
+        {
+          "study_group": "1984Be20",
+          "interference": "constructive",
+          "quoted_margin_eb": 0.05
+        }
+      ],
+      "near_degenerate_linear_coefficient": false,
+      "candidate_chi_E": 1.9590853347458186,
+      "unit_transition_RME": 4.440324486606398,
+      "near_calibration_pole": false,
+      "status": "accepted_finite_real_root",
+      "root_id": "Q136_plus_001_splus",
+      "eB136_eb": 0.1436754269274227,
+      "eF_eb": 0.31093736100893793
+    },
+    {
+      "target_id": "Q136_plus_025",
+      "target_Qs136_eb": 0.25,
+      "algebra_sign_s": -1,
+      "linear_coefficient": 0.88547792546461,
+      "linear_RHS": 0.580242451501205,
+      "source_provenance": [
+        {
+          "study_group": "1984Be20",
+          "interference": "destructive",
+          "quoted_margin_eb": 0.05
+        }
+      ],
+      "near_degenerate_linear_coefficient": false,
+      "candidate_chi_E": 0.6552873141323675,
+      "unit_transition_RME": 4.956792297784564,
+      "near_calibration_pole": false,
+      "status": "extraneous_wrong_absolute_value_branch"
+    },
+    {
+      "target_id": "Q136_plus_025",
+      "target_Qs136_eb": 0.25,
+      "algebra_sign_s": 1,
+      "linear_coefficient": 1.0835407400312262,
+      "linear_RHS": 3.188426650180342,
+      "source_provenance": [
+        {
+          "study_group": "1984Be20",
+          "interference": "destructive",
+          "quoted_margin_eb": 0.05
+        }
+      ],
+      "near_degenerate_linear_coefficient": false,
+      "candidate_chi_E": 2.9425996941180594,
+      "unit_transition_RME": 4.050729242238502,
+      "near_calibration_pole": false,
+      "status": "accepted_finite_real_root",
+      "root_id": "Q136_plus_025_splus",
+      "eB136_eb": 0.15749399136756734,
+      "eF_eb": 0.44478349843264114
+    },
+    {
+      "target_id": "Q136_plus_002",
+      "target_Qs136_eb": 0.02,
+      "algebra_sign_s": -1,
+      "linear_coefficient": 0.9765868201652534,
+      "linear_RHS": 1.7800071828936082,
+      "source_provenance": [
+        {
+          "study_group": "1972Ke16",
+          "interference": "destructive",
+          "quoted_margin_eb": 0.18
+        }
+      ],
+      "near_degenerate_linear_coefficient": false,
+      "candidate_chi_E": 1.822681963486261,
+      "unit_transition_RME": 4.4943573578624845,
+      "near_calibration_pole": false,
+      "status": "extraneous_wrong_absolute_value_branch"
+    },
+    {
+      "target_id": "Q136_plus_002",
+      "target_Qs136_eb": 0.02,
+      "algebra_sign_s": 1,
+      "linear_coefficient": 0.9924318453305827,
+      "linear_RHS": 1.988661918787939,
+      "source_provenance": [
+        {
+          "study_group": "1972Ke16",
+          "interference": "destructive",
+          "quoted_margin_eb": 0.18
+        }
+      ],
+      "near_degenerate_linear_coefficient": false,
+      "candidate_chi_E": 2.003827192914702,
+      "unit_transition_RME": 4.42260108989066,
+      "near_calibration_pole": false,
+      "status": "accepted_finite_real_root",
+      "root_id": "Q136_plus_002_splus",
+      "eB136_eb": 0.14425120044576203,
+      "eF_eb": 0.3165142834015924
+    }
+  ],
+  "roots": [
+    {
+      "root_id": "Q136_minus_019_splus",
+      "target_id": "Q136_minus_019",
+      "target_Qs136_eb": -0.19,
+      "source_provenance": [
+        {
+          "study_group": "1986BaZJ/1986Ro15",
+          "interference": "constructive",
+          "quoted_margin_eb": 0.06
+        },
+        {
+          "study_group": "1972Ke16",
+          "interference": "constructive",
+          "quoted_margin_eb": 0.17
+        }
+      ],
+      "algebra_sign_s": 1,
+      "chi_E": 0.9823799969116191,
+      "eB136_eb": 0.13215995656063545,
+      "eF_eb": 0.19939891315585204,
+      "unit_transition_RME": 4.827222503033757,
+      "charge_positive_eF": true,
+      "charge_nonnegative_eF": true,
+      "source_parameter_interval_known": false,
+      "near_calibration_pole": false,
+      "near_degenerate_linear_coefficient": false,
+      "Qs136_replayed_eb": -0.19000000000000003,
+      "Qs137_replayed_eb": 0.7799999999999997,
+      "Qs136_abs_residual": 2.7755575615628914e-17,
+      "Qs137_abs_residual": 3.3306690738754696e-16,
+      "core_Qs_derivative_per_chi": 0.1883578937248432,
+      "fermion_Qs_derivative_per_eF": 0.625674318063584,
+      "condition": "each Q136 alternative paired conditionally with the same averaged Bup=.407; no joint covariance fit"
+    },
+    {
+      "root_id": "Q136_plus_007_splus",
+      "target_id": "Q136_plus_007",
+      "target_Qs136_eb": 0.07,
+      "source_provenance": [
+        {
+          "study_group": "1986BaZJ/1986Ro15",
+          "interference": "destructive",
+          "quoted_margin_eb": 0.07
+        }
+      ],
+      "algebra_sign_s": 1,
+      "chi_E": 2.222283748385874,
+      "eB136_eb": 0.14713006803745884,
+      "eF_eb": 0.344398895364864,
+      "unit_transition_RME": 4.3360648494163625,
+      "charge_positive_eF": true,
+      "charge_nonnegative_eF": true,
+      "source_parameter_interval_known": false,
+      "near_calibration_pole": false,
+      "near_degenerate_linear_coefficient": false,
+      "Qs136_replayed_eb": 0.06999999999999984,
+      "Qs137_replayed_eb": 0.7799999999999997,
+      "Qs136_abs_residual": 1.6653345369377348e-16,
+      "Qs137_abs_residual": 3.3306690738754696e-16,
+      "core_Qs_derivative_per_chi": 0.23344626105476546,
+      "fermion_Qs_derivative_per_eF": 0.625674318063584,
+      "condition": "each Q136 alternative paired conditionally with the same averaged Bup=.407; no joint covariance fit"
+    },
+    {
+      "root_id": "Q136_plus_001_splus",
+      "target_id": "Q136_plus_001",
+      "target_Qs136_eb": 0.01,
+      "source_provenance": [
+        {
+          "study_group": "1984Be20",
+          "interference": "constructive",
+          "quoted_margin_eb": 0.05
+        }
+      ],
+      "algebra_sign_s": 1,
+      "chi_E": 1.9590853347458186,
+      "eB136_eb": 0.1436754269274227,
+      "eF_eb": 0.31093736100893793,
+      "unit_transition_RME": 4.440324486606398,
+      "charge_positive_eF": true,
+      "charge_nonnegative_eF": true,
+      "source_parameter_interval_known": false,
+      "near_calibration_pole": false,
+      "near_degenerate_linear_coefficient": false,
+      "Qs136_replayed_eb": 0.009999999999999868,
+      "Qs137_replayed_eb": 0.7799999999999997,
+      "Qs136_abs_residual": 1.3183898417423734e-16,
+      "Qs137_abs_residual": 3.3306690738754696e-16,
+      "core_Qs_derivative_per_chi": 0.2226122419703403,
+      "fermion_Qs_derivative_per_eF": 0.625674318063584,
+      "condition": "each Q136 alternative paired conditionally with the same averaged Bup=.407; no joint covariance fit"
+    },
+    {
+      "root_id": "Q136_plus_025_splus",
+      "target_id": "Q136_plus_025",
+      "target_Qs136_eb": 0.25,
+      "source_provenance": [
+        {
+          "study_group": "1984Be20",
+          "interference": "destructive",
+          "quoted_margin_eb": 0.05
+        }
+      ],
+      "algebra_sign_s": 1,
+      "chi_E": 2.9425996941180594,
+      "eB136_eb": 0.15749399136756734,
+      "eF_eb": 0.44478349843264114,
+      "unit_transition_RME": 4.050729242238502,
+      "charge_positive_eF": true,
+      "charge_nonnegative_eF": true,
+      "source_parameter_interval_known": false,
+      "near_calibration_pole": false,
+      "near_degenerate_linear_coefficient": false,
+      "Qs136_replayed_eb": 0.24999999999999956,
+      "Qs137_replayed_eb": 0.7799999999999994,
+      "Qs136_abs_residual": 4.440892098500626e-16,
+      "Qs137_abs_residual": 6.661338147750939e-16,
+      "core_Qs_derivative_per_chi": 0.26749275876865153,
+      "fermion_Qs_derivative_per_eF": 0.625674318063584,
+      "condition": "each Q136 alternative paired conditionally with the same averaged Bup=.407; no joint covariance fit"
+    },
+    {
+      "root_id": "Q136_plus_002_splus",
+      "target_id": "Q136_plus_002",
+      "target_Qs136_eb": 0.02,
+      "source_provenance": [
+        {
+          "study_group": "1972Ke16",
+          "interference": "destructive",
+          "quoted_margin_eb": 0.18
+        }
+      ],
+      "algebra_sign_s": 1,
+      "chi_E": 2.003827192914702,
+      "eB136_eb": 0.14425120044576203,
+      "eF_eb": 0.3165142834015924,
+      "unit_transition_RME": 4.42260108989066,
+      "charge_positive_eF": true,
+      "charge_nonnegative_eF": true,
+      "source_parameter_interval_known": false,
+      "near_calibration_pole": false,
+      "near_degenerate_linear_coefficient": false,
+      "Qs136_replayed_eb": 0.019999999999999917,
+      "Qs137_replayed_eb": 0.7799999999999997,
+      "Qs136_abs_residual": 8.326672684688674e-17,
+      "Qs137_abs_residual": 3.3306690738754696e-16,
+      "core_Qs_derivative_per_chi": 0.22440003634945038,
+      "fermion_Qs_derivative_per_eF": 0.625674318063584,
+      "condition": "each Q136 alternative paired conditionally with the same averaged Bup=.407; no joint covariance fit"
+    }
+  ],
+  "warnings": [],
+  "baseline_core136_Qs_eb": -0.3032374652201633,
+  "baseline_eB136_eb": 0.12564004318487101,
+  "odd137_fingerprint": {
+    "state_index": 0,
+    "state_energy_MeV": -3.924143245157479,
+    "state_vector_sha256": "61699fa03fab73820f1ae986a6b594f856f49d528bb963ceac6e78543c781fac",
+    "Hamiltonian_csr_sha256": "3ef1eeeecf095d325f0182b2a660e7af35bbdb05e9710a1af5921e10e3e0c71c",
+    "dimension_full": 1512,
+    "dimension_M_half": 119,
+    "solver_diagnostics": {
+      "hermiticity_H_max": 0.0,
+      "hermiticity_J2_max": 0.0,
+      "commutator_H_J2_max": 2.842170943040401e-14,
+      "H_inf_scale": 7.181342687853447,
+      "J2_inf_scale": 275.8655252722833,
+      "energy_residual_max": 5.275457074892222e-15,
+      "J2_residual_max": 5.103218663042904e-11,
+      "orthonormality_max": 1.8139307934076875e-15,
+      "degeneracy_atol": 1e-12,
+      "degeneracy_rtol": 1e-12,
+      "residual_tolerance": 2e-10
+    }
+  },
+  "core136_indices": {
+    "initial_0plus": 0,
+    "final_2plus": 1
+  },
+  "core136_fingerprint": {
+    "Hamiltonian_csr_sha256": "1f944426868940f8793904ade22a4c670bd1e7a1e013fb8ffcc4e58491169af5",
+    "initial_vector_sha256": "2de12072c281858679d29343aee58cf6663445754cc35818b9fb21c0f19d6fff",
+    "final_vector_sha256": "fb4c766f4f727fa4d62c7f7dab526825ed2294728070c45d225af9bb6b9280d8"
+  },
+  "135_state_Qs_or_proxy_evaluated_during_calibration": false,
+  "no_roots_discarded_for_negative_eF": true
+}

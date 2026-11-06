@@ -1,0 +1,23 @@
+{
+  "input": "data/results/calibrated-chain.json",
+  "sha256": "45d3aafb4d02b2bf54620c4fd4356178c814a2a4b1eb5b6d15caa4132985ca0a",
+  "producer_sha256": "dbf1751cb868f025a94946b0b0a9f21bf7abda8e0a65872b19b2774e2364abe6",
+  "transformations": [
+    "Read frozen model outputs with no fit or smoothing.",
+    "Display the complete signed ratio and the restricted absolute ratios separately.",
+    "Plot values >1 as measured by the computation; no clipped angle.",
+    "Split same-spin strength into static and other states.",
+    "Normalize signed cubic spin-pair contributions by the same full q2^(3/2)."
+  ],
+  "uncertainty": "No inferred error bars. Five deterministic model cases, not five experimental replicates.",
+  "figure_dimensions_inches": {
+    "charge_and_ratios-v4": [
+      7.1,
+      2.85
+    ],
+    "angular_channels-v4": [
+      7.1,
+      3.65
+    ]
+  }
+}

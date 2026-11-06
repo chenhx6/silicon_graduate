@@ -1,0 +1,54 @@
+{
+  "schema": "ba129-declared-single-j-ibfm-test-v1",
+  "frozen_at": "2026-11-05T15:24:58.835452+00:00",
+  "scope": "Internal protocol inheriting the previously fixed photon split, before the parent runs the129Ba IBFM case; not external preregistration, blinded model-class selection, or original-PBOS replay.",
+  "source_inputs": {
+    "outputs/l4/20261105-ba129-model-readiness/em-branch-test-contract.json": "6b02a4e996c8288f1d758f123b6bea773b09f9e169c6ac9f1c9c6e1543d6d6df",
+    "raw/papers/gpt/query/20261105-ba129-core-constraints/nndc128-adopted-text.ens": "2d1496086cc5f5ebbbbd3bae6c5817135602c556bcfe95c11fbc54372a949c7e",
+    "raw/papers/2017_Nomura et al_Shape-phase transitions in odd-mass \u03b3 -soft nuclei with mass A \u2248 130.pdf": "481e6a9e0f6b01e9c5db5e2b06d9b350dba0638393c7da7f532c3040e9efaea9",
+    "outputs/l4/20261105-ba129-model-readiness/energy-fit-contract.json": "ab1e57d66575233f3221d57b9b7e618e7bab78d2cffaee922a28b9e89c831c9d"
+  },
+  "hamiltonian_inputs": {
+    "boson_core": "128Ba",
+    "N_B": 8,
+    "core_and_count_status": "source-supported inference and conventional even-core valence counting; actual author run card unavailable",
+    "two_j": 11,
+    "N_F": 1,
+    "epsilon_d_MeV": 0.03,
+    "kappa_MeV": -0.102,
+    "chi_H": -0.18,
+    "v_squared": 0.453,
+    "Gamma0_MeV": 0.6,
+    "Lambda0_MeV": 2.1,
+    "A0_MeV": -0.15,
+    "fermion_sp_energy": "common shift omitted in this fixed single-j block",
+    "Q_jj": "signed reduced angular Y2 matrix element for h11/2, standard Condon-Shortley convention; validate independently before numerical use"
+  },
+  "EM_inputs": {
+    "chi_E2": 0.35,
+    "e_F_eb": 0.125,
+    "e_B": "positive value fixed only by core B(E2;2_1->0) and the computed core unit strength",
+    "core_calibration": {
+      "E_gamma_keV": 284.1,
+      "T_half_ps": 105.0,
+      "T_half_margin_ps": 9.0,
+      "alpha_total": 0.0539,
+      "rate_coefficient_s-1_MeV-5_per_e2b2": 12239000000000.0,
+      "derived_BE2_down_e2b2": 0.27652516113300324,
+      "source_locator": "128Ba adopted ENSDF L17-18,48-53; sole pure-E2 branch",
+      "boundary": "central derived calibration; not a new measurement or an independent datum in addition to its half-life/BE2W"
+    }
+  },
+  "photon_contract": "outputs/l4/20261105-ba129-model-readiness/em-branch-test-contract.json",
+  "scale_protocol": "Use same153.8/518.6anchor and5withheldpairs. For inter-spin M1 the gB*J term vanishes. Normalize odd E2 strengths by e_B\u00b2 and use particle-j unit B, so the same r=a+eta*b equation applies. eta>=0 represents the unknown common magnetic scale; no unreported g_B is invented.",
+  "invalid_anchor_rule": "negative eta means central-anchor failure; do not silently clip",
+  "state_mapping": "same ten source-specific levels and predeclared per-spin ordinals as energy-fit-contract.json; report energy discrepancy before EM, no state changes selected by EM",
+  "no_refit": "Published Hamiltonian constants remain frozen; no odd energy or photon data adjusted in this reconstruction. Report unknown original calibration-level selection.",
+  "excluded_shortcuts": [
+    "Do not substitute130Ba/NB7 while retaining the particle/operator interpretation unchanged.",
+    "Do not infer individual RME from published shape invariants.",
+    "Do not convert raw signs, normal ordering, or effective-charge units to match a desired curve.",
+    "Do not treat this numerical reconstruction as a new experiment or established collective mode."
+  ],
+  "model_selection_boundary": "The IBFM comparator is being investigated after viewing the earlier rigid-rotor predictions. Withheld means omitted from this parameter/scale calibration, not unseen during the overall research process."
+}

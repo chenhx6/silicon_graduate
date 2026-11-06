@@ -1,0 +1,78 @@
+{
+  "adapter": "paper-numerical-verifier-v1",
+  "adapter_sha256": "01274fe596ee30002b91e617be92e334df74f9e1d5ef6c81e7cdbbe20f06d80c",
+  "original_driver_sha256": "f206481c5abef00e261029de8c790bb32182a7562bfd0ac7b60e898365f955cd",
+  "frozen_numerical_contract_sha256": "5d49a9ceda150dea250e80eceb1389fdc6b96f6af4307ca2c6c8c2aabb75b6ff",
+  "runtime_modules": [
+    {
+      "path": "code/single_j_ibfm.py",
+      "sha256": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+      "status": "present_and_verified"
+    },
+    {
+      "path": "code/quadrupole_scalar_invariants.py",
+      "sha256": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1",
+      "status": "present_and_verified"
+    },
+    {
+      "path": "code/paired_single_j_em.py",
+      "sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+      "status": "present_and_verified"
+    },
+    {
+      "path": "code/paired_single_j_rotor.py",
+      "sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+      "status": "present_and_verified"
+    }
+  ],
+  "historical_source_identities": [
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-chain-contract.json",
+      "sha256": "2183e4828b1395e16847225c9c2d297c09e8ee14980f5dde27f14ff7f419c1cf"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/ba-core-E2.json",
+      "sha256": "4dfdafe211e675049018f62393192c943544e32b3916151b26161e5b103387d0"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/study.json",
+      "sha256": "45d3aafb4d02b2bf54620c4fd4356178c814a2a4b1eb5b6d15caa4132985ca0a"
+    },
+    {
+      "path": "knowledge/sources/nndc-ba135-ba137-static-e2-constraints.md",
+      "sha256": "24075979e4ff1e11ee03215dfcd77b751dc1003d03b34c801a9a73df5fd6c02c"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-ba-core-E2-calibration/nndc136-adopted-text.ens",
+      "sha256": "2ddbfbcbe7cd55f937ddd0b98a0ce066cf21c269d2eec39a504ec6a27f382b18"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-ba-core-E2-calibration/nndc136-coulomb-text.ens",
+      "sha256": "eaee8e3994093ef9b24eb68f61d31bb6f94a627183522594eaad65ff0eb49f3e"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-ba-spin-moment-benchmark/nndc137-adopted-text.ens",
+      "sha256": "49f671b9d8ecaabe1e3dec114b6436c59567f4da912c9e20b7851eacaf943b4f"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-ba-spin-moment-benchmark/nndc135-adopted-text.ens",
+      "sha256": "08955bde5d990beea53a1e4302824cf33bf3064eeabefb27c36cafbb9901135c"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261105-nomura2017-input-audit/arxiv-v2-v4.tex",
+      "sha256": "f79b87a4d88539e8a4e4453a2e61272a9f5e108d165a5fd5a3ab4b17b5c5b868"
+    }
+  ],
+  "historical_sources_status": "hashes recorded; original source bytes not reverified in this bundle",
+  "missing_historical_page": "The source-page hash 24075979e4ff1e11ee03215dfcd77b751dc1003d03b34c801a9a73df5fd6c02c belongs to an earlier mutable Wiki note; no reconstructed replacement is asserted.",
+  "algorithm_change": false,
+  "parameter_or_target_change": false,
+  "native_thread_check_changed": false,
+  "completed_at_utc": "2026-11-06T05:07:15.693621+00:00",
+  "status": "passed",
+  "compared_prediction_rows": 12,
+  "all_finite_branches_preserved": true,
+  "relative_tolerance": 1e-09,
+  "absolute_tolerance": 1e-10,
+  "boundary": "Numerical replay of a conditional calibration, not independent experimental validation."
+}

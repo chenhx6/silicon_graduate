@@ -1,0 +1,191 @@
+{
+  "scope": "Static matrix/negative-control audit only; no continuation-selected physical spectrum or fit.",
+  "frozen_commit": "8c9ad67e",
+  "frozen_model": "system/scripts/analysis/paired_single_j_rotor.py",
+  "frozen_model_sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+  "frozen_parent_fit": "outputs/l4/20261105-ba129-model-readiness/model-fit-free-inertias-C120/energy-calibration.json",
+  "frozen_parent_fit_sha256": "3365fe1b6f3dc6eaa990b7ec6e62e1ef1e4dcd91196c0c22e3fc5706f8a3799d",
+  "frozen_parent_model_hash_matches": true,
+  "two_I": 11,
+  "d": 36,
+  "positive_retained_reconstruction_max_error_MeV": 7.105427357601002e-15,
+  "K_antihermiticity_error": 2.2204460492503123e-16,
+  "min_BCS_E_MeV": 2.55840921822992,
+  "plus_min_max_MeV": [
+    3.99640624273716,
+    39.86470471691698
+  ],
+  "minus_min_max_MeV": [
+    -32.20413765865109,
+    2.4270421112461587
+  ],
+  "minus_positive_count": 6,
+  "trace_plus_minus_dual_MeV": 947.1262150803389,
+  "two_trace_E_MeV": 947.1262150803391,
+  "centered_plus_minus_dual_max_difference_MeV": 11.128601075661402,
+  "minimum_plus_minus_spectral_distance_at_t0_MeV": 1.5693641314910014,
+  "full_sign_counts_not_physical_selection": {
+    "0.0": {
+      "positive_count_common_zero": 42,
+      "negative_count_common_zero": 30,
+      "min_eigenvalue_MeV": -32.204137658651106,
+      "max_eigenvalue_MeV": 39.86470471691701,
+      "positive_count_after_plus100MeV_identity_shift": 72
+    },
+    "1.0": {
+      "positive_count_common_zero": 41,
+      "negative_count_common_zero": 31,
+      "min_eigenvalue_MeV": -32.204138550637495,
+      "max_eigenvalue_MeV": 39.8647147632391,
+      "positive_count_after_plus100MeV_identity_shift": 72
+    }
+  },
+  "structured_t0_degeneracy_control": {
+    "Delta": 1.0,
+    "xi": [
+      1.0,
+      -1.0
+    ],
+    "HR": [
+      [
+        3.0,
+        2.0
+      ],
+      [
+        2.0,
+        3.0
+      ]
+    ],
+    "HR_eigenvalues": [
+      0.9999999999999998,
+      5.0
+    ],
+    "plus": [
+      3.0,
+      5.82842712474619
+    ],
+    "minus": [
+      0.1715728752538096,
+      3.0
+    ],
+    "t": 1e-06,
+    "near_degenerate_eigenvalues": [
+      3.000001414213561,
+      2.999998585786436
+    ],
+    "plus_weights_at_arbitrarily_small_t": [
+      0.4999999993679051,
+      0.5000000006320945
+    ],
+    "lesson": "An initially plus/minus degenerate level mixes 50/50 for infinitesimal coupling; a unique pure-plus eigenbranch is not defined."
+  },
+  "zero_K_positive_minus_control": {
+    "A_diagonal": [
+      0.0,
+      3.0
+    ],
+    "E_diagonal": [
+      1.0,
+      1.0
+    ],
+    "K": 0.0,
+    "plus": [
+      1.0,
+      4.0
+    ],
+    "minus": [
+      -1.0,
+      2.0
+    ],
+    "positive_eigenvalue_count": 3,
+    "declared_plus_rank": 2,
+    "lesson": "Positive-total-energy filtering counts a minus-sector state even when K=0."
+  },
+  "constant_shift_does_not_generally_repair_sign_control": {
+    "A": 0.0,
+    "E_diagonal": [
+      1.0,
+      2.0,
+      4.0
+    ],
+    "plus_sorted_after_subtracting_lowest": [
+      0.0,
+      1.0,
+      3.0
+    ],
+    "minus_sorted_after_subtracting_lowest": [
+      0.0,
+      2.0,
+      3.0
+    ],
+    "lesson": "Even independent scalar energy origins need not identify positive and negative BCS spectra."
+  },
+  "frozen_parent_spin_gap_checks": [
+    {
+      "two_I": 9,
+      "retained_rank": 30,
+      "min_plus_MeV": 3.9090650290891844,
+      "max_minus_MeV": 1.066895054005861,
+      "ordered_gap_MeV": 2.8421699750833236,
+      "min_discrete_cross_sector_distance_MeV": 2.8421699750833236,
+      "t0_positive_count": 34,
+      "t1_positive_count": 33,
+      "K_norm_MeV": 0.888243402647309
+    },
+    {
+      "two_I": 11,
+      "retained_rank": 36,
+      "min_plus_MeV": 3.99640624273716,
+      "max_minus_MeV": 2.4270421112461587,
+      "ordered_gap_MeV": 1.5693641314910014,
+      "min_discrete_cross_sector_distance_MeV": 1.5693641314910014,
+      "t0_positive_count": 42,
+      "t1_positive_count": 41,
+      "K_norm_MeV": 1.0950908419301741
+    },
+    {
+      "two_I": 13,
+      "retained_rank": 42,
+      "min_plus_MeV": 4.347448768590056,
+      "max_minus_MeV": 3.02855861593425,
+      "ordered_gap_MeV": 1.3188901526558054,
+      "min_discrete_cross_sector_distance_MeV": 1.3188901526558054,
+      "t0_positive_count": 51,
+      "t1_positive_count": 50,
+      "K_norm_MeV": 1.240436991082251
+    },
+    {
+      "two_I": 15,
+      "retained_rank": 48,
+      "min_plus_MeV": 4.485346882170436,
+      "max_minus_MeV": 4.755681080714507,
+      "ordered_gap_MeV": -0.27033419854407104,
+      "min_discrete_cross_sector_distance_MeV": 0.09624201968112533,
+      "t0_positive_count": 61,
+      "t1_positive_count": 60,
+      "K_norm_MeV": 1.4514834977632252
+    },
+    {
+      "two_I": 17,
+      "retained_rank": 54,
+      "min_plus_MeV": 4.999446436492218,
+      "max_minus_MeV": 5.522028313541075,
+      "ordered_gap_MeV": -0.5225818770488564,
+      "min_discrete_cross_sector_distance_MeV": 0.10724690348302435,
+      "t0_positive_count": 70,
+      "t1_positive_count": 70,
+      "K_norm_MeV": 1.5960437375208907
+    },
+    {
+      "two_I": 19,
+      "retained_rank": 60,
+      "min_plus_MeV": 5.190785700754198,
+      "max_minus_MeV": 7.615546385924184,
+      "ordered_gap_MeV": -2.4247606851699866,
+      "min_discrete_cross_sector_distance_MeV": 0.006848747364372798,
+      "t0_positive_count": 79,
+      "t1_positive_count": 79,
+      "K_norm_MeV": 1.809531164776891
+    }
+  ]
+}

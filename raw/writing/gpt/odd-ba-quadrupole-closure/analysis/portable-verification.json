@@ -1,0 +1,13 @@
+{
+  "verified_at_utc": "2026-11-06T03:34:53.537352+00:00",
+  "status": "passed",
+  "cases": 5,
+  "comparison": "all per-isotope scientific outputs identical after excluding wall time",
+  "primary_sha256": "45d3aafb4d02b2bf54620c4fd4356178c814a2a4b1eb5b6d15caa4132985ca0a",
+  "portable_run": "tmp/odd-ba-closure-portable-verification/study.json",
+  "tests": {
+    "command": "python3 -B -m unittest system.tests.test_paired_single_j_nambu system.tests.test_single_j_ibfm system.tests.test_quadrupole_scalar_invariants",
+    "passed": 72,
+    "scope": "current original module versions; sparse-interface deprecation warnings only"
+  }
+}

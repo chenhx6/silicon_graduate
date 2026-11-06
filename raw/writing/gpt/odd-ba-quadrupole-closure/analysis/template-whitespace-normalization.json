@@ -1,0 +1,28 @@
+{
+  "recorded_at_utc": "2026-11-06T07:11:46.029538+00:00",
+  "transformation": "Only normalize line endings, trailing spaces/tabs and extra blank EOF lines in the two manuscript template working copies.",
+  "files": [
+    {
+      "working_file": "sn-jnl.cls",
+      "original_file": "raw/writing/template/springer-nature-2024/sn-article-template/sn-jnl.cls",
+      "original_sha256": "36d0c3273a59d48dc6a9c7b080dfa1ec50dc10229d8751568d1f2e490ffa5ecc",
+      "working_sha256": "2174570ce9e53b7bd0c279cb2c6dabf8cc35c2e094fab745a34a22027a479396",
+      "non_whitespace_bytes_unchanged": true,
+      "original_archive_modified": false
+    },
+    {
+      "working_file": "sn-mathphys-num.bst",
+      "original_file": "raw/writing/template/springer-nature-2024/sn-article-template/bst/sn-mathphys-num.bst",
+      "original_sha256": "b3a7c7fbcc1e7f9619de634fcea2f5bb7a245818a5942bc576e40ea001633332",
+      "working_sha256": "7635e72a5b22440d819e43eefc2ba16bbcae89df83521a1d66c31c3987f93816",
+      "non_whitespace_bytes_unchanged": true,
+      "original_archive_modified": false
+    }
+  ],
+  "render_comparison": {
+    "pages": 10,
+    "all_page_text_identical": true,
+    "all_page_pixels_identical": true,
+    "new_BibTeX_output_forced": true
+  }
+}

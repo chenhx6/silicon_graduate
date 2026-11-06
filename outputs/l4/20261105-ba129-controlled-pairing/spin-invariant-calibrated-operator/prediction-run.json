@@ -1,0 +1,34 @@
+{
+  "status": "completed",
+  "started_at_utc": "2026-11-06T04:47:51.004074+00:00",
+  "finished_at_utc": "2026-11-06T04:47:54.230430+00:00",
+  "elapsed_seconds": 3.2263560720020905,
+  "contract_sha256": "5d49a9ceda150dea250e80eceb1389fdc6b96f6af4307ca2c6c8c2aabb75b6ff",
+  "driver_sha256": "f206481c5abef00e261029de8c790bb32182a7562bfd0ac7b60e898365f955cd",
+  "native_BLAS": [
+    {
+      "library": "/opt/venv/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-f48b354e.so",
+      "query": "scipy_openblas_get_num_threads64_",
+      "threads": 1
+    },
+    {
+      "library": "/opt/venv/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-5f890258.so",
+      "query": "scipy_openblas_get_num_threads",
+      "threads": 1
+    }
+  ],
+  "validation": {
+    "max_q2_closure_abs": 9.425793479067579e-14,
+    "max_q3_closure_abs": 1.4521717162097048e-13,
+    "max_137_calibration_Qs_abs": 3.3306690738754696e-16,
+    "max_core_Bup_abs": 2.7755575615628914e-16,
+    "max_primary_replay_abs": 4.440892098500626e-16
+  },
+  "predictions_sha256": "834977b8b37be4201a05126e51c83cd90d1d9aadec29541f7a3e9989fb6bc20f",
+  "csv_sha256": "8f0ea8621664ae4d80bd2eca8250604dce9121395b8a1f22defae88c91a99469",
+  "input_and_module_hashes_unchanged": true,
+  "python": "3.12.3",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "no_commit": true
+}

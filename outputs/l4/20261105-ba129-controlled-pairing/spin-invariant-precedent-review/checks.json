@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-11-05T18:00:10.825829+00:00",
+  "archive_files_verified": 18,
+  "new_PDF_count": 11,
+  "recorded_failed_access_attempts": [
+    {
+      "filename": "nomura2016-signatures-odd-mass.pdf",
+      "url": "https://repozitorij.pmf.unizg.hr/articles/pmf%3A7835/show-file/0",
+      "title": "Signatures of shape phase transitions in odd-mass nuclei",
+      "doi": "10.1103/PhysRevC.94.064310",
+      "kind": "pdf",
+      "access_scope": "Public university repository article copy; local research use; redistribution license not inferred.",
+      "attempted_at": "2026-11-05T17:33:45.913986+00:00",
+      "status": "access-failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "filename": "nomura2018-publisher.pdf",
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.97.064314/fulltext",
+      "title": "Prolate-to-oblate shape phase transitions in neutron-rich odd-mass nuclei",
+      "doi": "10.1103/PhysRevC.97.064314",
+      "kind": "pdf",
+      "access_scope": "Public publisher full-text endpoint if accessible; local research use; no redistribution license inferred.",
+      "attempted_at": "2026-11-05T17:39:01.569747+00:00",
+      "status": "access-failed",
+      "error": "HTTP Error 401: Unauthorized"
+    }
+  ],
+  "root_relative_paths_sha256_size_timestamp_access_scope_verified": true,
+  "source_PDF_count_in_inventory": 14,
+  "nomura_exact_formula_locators": "TeX1267-1282,1306-1311; PDF p.11",
+  "no_novelty_conclusion": true,
+  "bounded_archive_gate_passed": true,
+  "publisher_citing_records_screened": 34,
+  "original_source_hashes_unchanged_at_closeout": true
+}

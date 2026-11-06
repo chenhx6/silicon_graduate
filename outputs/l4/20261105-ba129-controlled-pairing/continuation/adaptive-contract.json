@@ -1,0 +1,8 @@
+{
+  "trigger": "only spins unresolved by the declared 33/129/513/2049 uniform grids",
+  "maximum_iterations": 18,
+  "maximum_nodes_per_spin": 16385,
+  "minimum_allowed_interval": 2.3283064365386963e-10,
+  "refinement_rule": "bisect intervals failing the same gap bound, overlap, projector, assignment margin or fixed-rank tests; if none fail but refinement comparison does, bisect every interval for an independent nested check",
+  "acceptance": "unchanged tolerances, plus reverse and reference-shift controls"
+}

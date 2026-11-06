@@ -1,0 +1,147 @@
+{
+  "schema": "bounded-Ba135-Ba137-Rstat-first-readiness-v1",
+  "actual_checked_at": "2026-11-06T04:06:32.508886+00:00",
+  "scope": "Two adopted objects plus their two originating high-spin reaction objects; no exhaustive literature search.",
+  "definition": "R_stat^(1)=(|R_11,11|^2/12)/B(E2;11/2_1- -> 15/2_1-)",
+  "normalization": {
+    "CG_stretched_squared": 0.6043956043956044,
+    "static_strength_from_Qs": "Sdiag=91/(176*pi)*Qs^2, Qs in e b",
+    "reverse_direction": "Bup(11/2->15/2)=(16/12)*Bdown(15/2->11/2)",
+    "ratio_from_decay_strength": "R_stat^(1)=273/(704*pi)*Qs^2/Bdown",
+    "E2_rate": "Bdown=ln(2)*I_gamma_target*fE2/[T_half(parent)*C_E2*Egamma_MeV^5*sum_k I_gamma_k*(1+alpha_k)]",
+    "rate_conditions": "Requires complete decay accounting; fE2=1 only for a justified pure E2 branch; missing ICC is not zero.",
+    "static_sign": "Qs is retained signed separately; this squared ratio cannot test its sign."
+  },
+  "cases": [
+    {
+      "A": 135,
+      "initial_state": "11/2_1-",
+      "target_model_state": "(15/2-)_1",
+      "model_Rstat_first": 2.2722073553021374,
+      "model_diagonal_strength_e2b2": 0.2279713823100809,
+      "model_Bup_11to15_e2b2": 0.10033036015754264,
+      "model_Bdown_15to11_e2b2": 0.07524777011815698,
+      "experimental_Bdown_e2b2": null,
+      "experimental_Bup_e2b2": null,
+      "experimental_Rstat_first": null,
+      "target_mapping": "tentative 950.5-keV (15/2-) -> 268.218-keV 11/2-",
+      "denominator_ready": false,
+      "blocking_inputs": "15/2 parent half-life; ICC; absolute branch/purity completeness; tentative assignment",
+      "static_role": "additional EM comparison; model overpredicts paper/adopted central Q"
+    },
+    {
+      "A": 137,
+      "initial_state": "11/2_1-",
+      "target_model_state": "(15/2-)_1",
+      "model_Rstat_first": 1.3565277480278908,
+      "model_diagonal_strength_e2b2": 0.09833228430328593,
+      "model_Bup_11to15_e2b2": 0.07248822181945089,
+      "model_Bdown_15to11_e2b2": 0.054366166364588166,
+      "experimental_Bdown_e2b2": null,
+      "experimental_Bup_e2b2": null,
+      "experimental_Rstat_first": null,
+      "target_mapping": "no assigned 15/2 level in either checked dataset",
+      "denominator_ready": false,
+      "blocking_inputs": "assigned lowest 15/2- and matching decay; absolute E2 strength",
+      "static_role": "137Ba static Q is a source-named eF calibration target"
+    }
+  ],
+  "135Ba_evidence": {
+    "adopted_level_lines": [
+      202,
+      206
+    ],
+    "reaction_level_lines": [
+      53,
+      57
+    ],
+    "adopted_spin": "(15/2-)",
+    "reaction_spin": "15/2-",
+    "gamma_keV": 682.3,
+    "RI_photon": 100.0,
+    "multipolarity_literal": "Q",
+    "DCO": 1.18,
+    "DCO_quoted_margin": 0.03,
+    "ICC": null,
+    "parent_T_half": null,
+    "lower_11over2_T_half": "28.7 h, belongs to the daughter isomer, not the 15/2 parent",
+    "energy_closure_residual_keV": -0.01799999999997226,
+    "older_gamma_energy_keV": 682.7,
+    "source_keys": [
+      "2006Ch51",
+      "2007ChZZ",
+      "1987Dr13"
+    ],
+    "lineage": "RI and DCO include 2007ChZZ private communication; Q identifies quadrupole order. E2 interpretation is conditional on the adopted tentative negative-parity assignment."
+  },
+  "137Ba_exclusions": [
+    {
+      "state_keV": 2047.4,
+      "reaction_state_keV": 2047.2,
+      "Jpi": null,
+      "gamma_keV": 1385.7,
+      "daughter_keV": 661.659,
+      "T_half": "<10 ns, reaction general comment for this line",
+      "reason": "Unassigned state and unclassified multipolarity; no validated 15/2 mapping or absolute B(E2)",
+      "adopted_lines": [
+        147,
+        150
+      ],
+      "reaction_lines": [
+        7,
+        25,
+        26
+      ]
+    },
+    {
+      "state_keV": 2349.1,
+      "Jpi": "(17/2-)",
+      "daughter_keV": 2229.5,
+      "daughter_Jpi": "(13/2-)",
+      "gamma_keV": 120.2,
+      "T_half_us": 0.59,
+      "T_half_margin_us": 0.1,
+      "ICC_total": 1.004,
+      "ICC_margin": 0.017,
+      "B_E2_Wu": 0.45,
+      "B_E2_margin_Wu": 0.08,
+      "adopted_lines": [
+        192,
+        200
+      ],
+      "reason": "Measured E2 belongs to a different spin pair; cannot substitute in R_stat^(1)"
+    },
+    {
+      "state_keV": 1797.67,
+      "Jpi": "7/2-",
+      "adopted_lines": [
+        106,
+        111
+      ],
+      "reason": "E2 to 11/2- belongs to J-2 rather than the requested J+2 sector"
+    }
+  ],
+  "independence": "A future measured denominator would add EM information; 137Ba's static numerator remains calibration-linked. Do not construct the denominator from core B(E2), model strengths, or the 11/2 isomer lifetime and call it an experimental holdout.",
+  "static_v1_sha256": {
+    "acquire_sources.py": "92355735d26e8faae5e47e6fd4da3ff8d1efb6f7cb3405a39a27f933283206c2",
+    "benchmark-results.json": "6021c41fe1a067b9a5a2ed835a63dc4ba150922a8ac643e4cfb657a911032afc",
+    "extract_constraints.py": "0415203b46e546b886a09949198462ee53c5e10c3f19c3bb2e1abef941ccc771",
+    "model-static-moments.csv": "4ab68901c6de32f6dd1cf846249ddda992a7237a9486c9956acee9e2e2a3e590",
+    "report.md": "6f6459ba26ff89543a3786e822908ff47d218ea7ca60b3c70cb059491b69f6e2",
+    "run_benchmark.py": "be596b32685b48c3e7eb6cdb9b6cf7490bd736232126ecfbf54a553ac745f062",
+    "source-constraints.csv": "a7d8f72aa137d2a4cbc7e1c287bfcf0baab7e8080bf9c1f8a86d4f2a2598eb46",
+    "source-constraints.json": "4e86214a5503a0917f336dca70e13840062db151f0dd45994ee66c465111608c",
+    "checks.json": "04b4d359f4b2b54d6b1223e447587690bd282625269947ce2f95e0363c8cf2e9"
+  },
+  "static_v1_unchanged": true,
+  "input_sha256": {
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-precedent-review/focused-sidecar/calibrated-observable-candidates.csv": "362e8a807641276ed1acbaa9dc14562e895a74eef4e550a315eadc9bae71c5c2",
+    "raw/papers/gpt/query/20261106-ba-spin-moment-benchmark/nndc135-adopted-text.ens": "08955bde5d990beea53a1e4302824cf33bf3064eeabefb27c36cafbb9901135c",
+    "raw/papers/gpt/query/20261106-ba-rstat-readiness/nndc135-reaction-text.ens": "5a82a9d854a2bb7ac0d1d4f063a6659a819d8f28d1222f82dcc86a7584e30502",
+    "raw/papers/gpt/query/20261106-ba-spin-moment-benchmark/nndc137-adopted-text.ens": "49f671b9d8ecaabe1e3dec114b6436c59567f4da912c9e20b7851eacaf943b4f",
+    "raw/papers/gpt/query/20261106-ba-rstat-readiness/nndc137-reaction-text.ens": "4e152b07be368208347933740e7410860929013db0e9a9ccc61b12b1fd1150f9"
+  },
+  "normalization_checks_passed": true,
+  "model_or_operator_refit": false,
+  "verdict": "Neither experimental R_stat^(1) is determined by the bounded checked source set."
+}

@@ -3,7 +3,7 @@ type: source
 title: "Shape-phase transitions in odd-mass gamma-soft nuclei with mass A approximately 130"
 aliases: []
 created: 2026-07-05
-updated: 2026-07-05
+updated: 2026-11-06
 status: ai-draft
 review_status: human-reviewed
 source_type: journal-article-theory
@@ -24,6 +24,7 @@ zotero_uri:
 library_file:
 raw_file: "raw/papers/2017_Nomura et al_Shape-phase transitions in odd-mass γ -soft nuclei with mass A ≈ 130.pdf"
 raw_sha256: 481E6A9E0F6B01E9C5DB5E2B06D9B350DBA0638393C7DA7F532C3040E9EFAEA9
+archive_required: true
 nuclei: [129ba, 131ba, 133ba, 135ba, 137ba, 127xe, 129xe, 131xe, 133xe, 135xe, 129la, 131la, 133la, 135la, 137la, 127cs, 129cs, 131cs, 133cs, 135cs]
 reactions: []
 experiments: []
@@ -105,3 +106,30 @@ Physical Review C 96, 014304 (2017)，DOI `10.1103/PhysRevC.96.014304`。PDF 为
 ## Personal Notes
 
 本文对后续 A≈130 奇核分析的关键价值是：γ-softness 的诊断必须同时保留偶偶芯势能面、奇粒子耦合和态依赖的 E2 不变量，不能把一个拟合 `γ_eff` 当成直接形状测量。
+
+## 2026-11-06 原式、输入与重放补核
+
+本次为 Agent 直接原件复核；不新增人工审核事件。所持 PDF 为
+arXiv:1704.07101v2，页边版本日期为2017-07-08；标题块2021-11-21是编译日期，
+不能作为新文章年份。v2 原始 TeX 的 `\date{\today}` 和版本身份已归档于
+`raw/papers/gpt/query/20261105-nomura2017-input-audit/manifest.json`；
+v1/v2比较位于 `raw/papers/gpt/query/20261106-nomura-invariant-version-audit/manifest.json`。
+
+- Eqs.(12)–(15)，PDF p.11，明确只取 \(J'=J+2\) 中最低五态；三次和取绝对值。
+  在一般非零J，这与完整电荷张量 \(q_2,q_3\) 的全通道闭合表达式不同。
+  受限的完整多重态投影仍保持旋转不变，不能把它说成非标量。
+- Eqs.(7)–(8)、PDF pp.4–5给 \(e_BQ_{\chi'=0.35}\) 和费米子E2项；
+  相应芯 \(B(E2;2_1\to0_1)\) 定eB，137Ba \(11/2^-_1\) 矩定
+  \(e_n=0.125\,eb\)。文中没有逐核eB、完整RME表或invariant生产程序；
+  第III D节的通用Q并未另给与实际E2算符的生产者对应表。
+- 负宇称129Ba的来源支持重建采用128Ba芯、NB=8；已查能量图子集约1keV一致。
+  该结果不认证原作者完整代码，也不认证电磁图件。
+- 同一重建使用打印电磁算符和原式求和，128Ba芯得
+  \(\gamma_{\rm eff}=29.496^\circ\)，原Fig.13(b)向量图读值得8.975°。
+  J=0处已经存在差别，因此不能以非零自旋的通道缺失解释该重放差别。
+  v1/v2相关式、参数和图几何一致；实际算符对应仍未确定。
+
+本任务的独立模型研究见 [[odd-ba-quadrupole-closure-and-spin-channel-redistribution]]。
+它没有声称纠正原作者图件或恢复原作者运行输入。源版本、公式定位和重放差别的
+逐项回执位于 `outputs/l4/20261105-ba129-controlled-pairing/` 的
+`ibfm-input-review/`、`spin-invariant-algebra/` 与 `spin-invariant-source-replay/`。

@@ -1,0 +1,346 @@
+{
+  "schema": "moment-calibrated-E2-operator-branch-contract/1",
+  "frozen_at_utc": "2026-11-06T04:43:36.651625+00:00",
+  "frozen_before_matrix_coefficient_or_calibration_run": true,
+  "status": "prospective internal calibration-branch contract after prior fixed-operator studies; not external preregistration",
+  "objective": "Test every finite real central-alternative E2 calibration solution against withheld 135Ba Qs and full versus selected tensor moments without changing Hamiltonians.",
+  "cases": [
+    {
+      "odd_A": 135,
+      "core_A": 134,
+      "Z": 56,
+      "n_b": 5,
+      "two_j": 11,
+      "two_J_state": 11,
+      "state_ordinal": 0,
+      "eps_d": 0.38,
+      "kappa": -0.124,
+      "chi": -0.24,
+      "v2": 0.81,
+      "Gamma0": 0.6,
+      "Lambda0": 1.0,
+      "A0": -0.9
+    },
+    {
+      "odd_A": 137,
+      "core_A": 136,
+      "Z": 56,
+      "n_b": 4,
+      "two_j": 11,
+      "two_J_state": 11,
+      "state_ordinal": 0,
+      "eps_d": 1.15,
+      "kappa": -0.122,
+      "chi": -0.85,
+      "v2": 0.936,
+      "Gamma0": 0.4,
+      "Lambda0": 5.0,
+      "A0": -0.6
+    }
+  ],
+  "kernel_parameters_by_odd_A": {
+    "135": {
+      "n_b": 5,
+      "two_j": 11,
+      "eps_d": 0.38,
+      "kappa": -0.124,
+      "chi": -0.24,
+      "v2": 0.81,
+      "Q_jj": -1.081027387032316,
+      "Gamma0": 0.6,
+      "Lambda0": 1.0,
+      "A0": -0.9
+    },
+    "137": {
+      "n_b": 4,
+      "two_j": 11,
+      "eps_d": 1.15,
+      "kappa": -0.122,
+      "chi": -0.85,
+      "v2": 0.936,
+      "Q_jj": -1.081027387032316,
+      "Gamma0": 0.4,
+      "Lambda0": 5.0,
+      "A0": -0.6
+    }
+  },
+  "unchanged_Hamiltonian_policy": "Use the same printed Hamiltonians and lowest J=11/2 states as primary; no energy fit, coupling change, or state selection using Qs135 or proxies.",
+  "core_calibrations": {
+    "134": {
+      "B_down_e2b2": 0.1358,
+      "B_up_e2b2": 0.679,
+      "B_down_margin_e2b2": 0.0021999999999999997
+    },
+    "136": {
+      "B_down_e2b2": 0.0814,
+      "B_up_e2b2": 0.407,
+      "B_down_margin_e2b2": 0.0014
+    }
+  },
+  "core_136_moment_targets": [
+    {
+      "id": "Q136_minus_019",
+      "target_Qs_eb": -0.19,
+      "provenance": [
+        {
+          "study_group": "1986BaZJ/1986Ro15",
+          "interference": "constructive",
+          "quoted_margin_eb": 0.06
+        },
+        {
+          "study_group": "1972Ke16",
+          "interference": "constructive",
+          "quoted_margin_eb": 0.17
+        }
+      ],
+      "locator": "136Ba adopted lines58-61; Coulomb lines57-58"
+    },
+    {
+      "id": "Q136_plus_007",
+      "target_Qs_eb": 0.07,
+      "provenance": [
+        {
+          "study_group": "1986BaZJ/1986Ro15",
+          "interference": "destructive",
+          "quoted_margin_eb": 0.07
+        }
+      ],
+      "locator": "136Ba adopted lines58-61; Coulomb lines57-58"
+    },
+    {
+      "id": "Q136_plus_001",
+      "target_Qs_eb": 0.01,
+      "provenance": [
+        {
+          "study_group": "1984Be20",
+          "interference": "constructive",
+          "quoted_margin_eb": 0.05
+        }
+      ],
+      "locator": "136Ba adopted lines58-61; Coulomb lines57-58"
+    },
+    {
+      "id": "Q136_plus_025",
+      "target_Qs_eb": 0.25,
+      "provenance": [
+        {
+          "study_group": "1984Be20",
+          "interference": "destructive",
+          "quoted_margin_eb": 0.05
+        }
+      ],
+      "locator": "136Ba adopted lines58-61; Coulomb lines57-58"
+    },
+    {
+      "id": "Q136_plus_002",
+      "target_Qs_eb": 0.02,
+      "provenance": [
+        {
+          "study_group": "1972Ke16",
+          "interference": "destructive",
+          "quoted_margin_eb": 0.18
+        }
+      ],
+      "locator": "136Ba adopted lines58-61; Coulomb lines57-58"
+    }
+  ],
+  "Q137_calibration": {
+    "target_Qs_eb": 0.78,
+    "quoted_margin_eb": 0.09,
+    "use": "central target only",
+    "locator": "137Ba adopted lines60-69, Qs at64",
+    "source_keys": [
+      "1983Mu12",
+      "1989Ra17"
+    ]
+  },
+  "Q135_out_of_calibration_tests": [
+    {
+      "id": "adopted",
+      "target_Qs_eb": 0.96,
+      "quoted_margin_eb": 0.08,
+      "locator": "135Ba adopted lines107-115, Qs at111",
+      "not_used_in_fit": true
+    },
+    {
+      "id": "N17_table_VI",
+      "target_Qs_eb": 0.98,
+      "quoted_margin_eb": 0.08,
+      "locator": "Nomura arXiv-v2 TeX986-993; PDF p9 TableVI",
+      "not_used_in_fit": true
+    }
+  ],
+  "analytic_contract": {
+    "real_coefficients": "T136(chi)=a+b*chi is the core 0->2 unit-charge RME; S136(chi)=c+d*chi is core 2+ Qs per unit eB. Coefficients share fixed eigenvectors and are checked real.",
+    "eB136": "sqrt(0.407)/abs(a+b*chi), positive",
+    "sign_branches": [
+      -1,
+      1
+    ],
+    "candidate_root": "chi_s=(Qs_target*s*a-sqrt(Bup)*c)/(sqrt(Bup)*d-Qs_target*s*b)",
+    "acceptance": "finite chi, nonzero transition denominator, s*(a+b*chi)>0, and replay of original unsquared Qs equation",
+    "linear_equation_singularities": "zero coefficient/nonzero RHS means no root; both zero mean a continuum on the valid sign interval, reported as underdetermined, not collapsed to one root",
+    "calibration_pole": "chi=-a/b when b!=0; no finite positive eB can fit Bup>0 there",
+    "eF137": "(0.78-eB136*(u+v*chi))/w, where u+v*chi is odd137 boson Qs per eB and w is fermion Qs per eF",
+    "eF_zero_response": "w=0 and nonzero residual means impossible; w=0 and zero residual means undetermined continuum",
+    "chi_domain": "all finite real values; no imposed interval or physical cutoff",
+    "eB_domain": "strictly positive as explicitly required",
+    "eF_domain": "all finite real values retained; positivity is a separate classification, not an exclusion",
+    "source_parameter_domain": "No source parameter interval has been established. Printed chiE=.35,eF=.125 is a reference point, not an admissible-domain theorem."
+  },
+  "calibration_dependence": {
+    "same_Bup_0407_for_every_Q136_alternative": true,
+    "interpretation": "Conditional scenarios, not a joint fit to independent Qs and B data; both quantities can depend on the same interference solution.",
+    "listed_Bup_alternatives_not_used": [
+      {
+        "study": "1986BaZJ/1986Ro15",
+        "constructive": 0.419,
+        "destructive": 0.417,
+        "locator": "C13650-52"
+      },
+      {
+        "study": "1984Be20",
+        "listed_value": 0.399,
+        "destructive_pair_not_established_here": true,
+        "locator": "C13650"
+      },
+      {
+        "study": "1972Ke16",
+        "constructive": 0.418,
+        "destructive": 0.417,
+        "locator": "C13651,53-54"
+      }
+    ],
+    "covariance": null,
+    "missing_or_unverified_branch_pairings_limit_inference": true,
+    "repeated_minus_019": "One mathematical target with two provenance entries; not duplicate independent evidence or added weight.",
+    "135_adopted_and_paper_targets": "Two reference presentations with related provenance, not averaged or counted as independent tests.",
+    "no_uncertainty_posterior": true,
+    "central_alternatives_only": true
+  },
+  "prediction_policy": {
+    "required_isotopes": [
+      135,
+      137
+    ],
+    "optional_other_isotopes": "Do not run unless the core result exposes a specific need; no expansion by default.",
+    "eB135": "positive recalibration to selected 134Ba core Bup=.679 at each accepted chi; zero transition denominator is flagged, never repaired by fitting holdout data",
+    "report": [
+      "Qs135 and Qs137 plus boson/fermion contributions",
+      "full direct signed q2/q3 with independent complete reduced closure",
+      "restricted n5/all J+2 proxies, raw ratios, domain status",
+      "eB136/eB135, eF, chiE, charge-sign classification",
+      "signed holdout residuals to .96 and .98; descriptive absolute-error improvement versus primary; quoted-margin containment is not significance"
+    ],
+    "no_selection_using_135_or_proxy": true,
+    "no_source_implementation_reproduction_claim": true
+  },
+  "reference_primary": [
+    {
+      "odd_A": 135,
+      "eB": 0.1298423794528743,
+      "Qs_eb": 1.176930290546596,
+      "full": {
+        "q2_e2b2": 0.6766227898280947,
+        "q3_e3b3": -0.02811863600176829,
+        "signed_ratio": -0.05052127678023177,
+        "signed_rigid_equivalent_angle_deg": 30.965296245988824,
+        "folded_rigid_equivalent_angle_deg": 29.03470375401118,
+        "angle_status": "within_rigid_domain",
+        "imaginary_residual_q2": 0.0,
+        "imaginary_residual_q3": 0.0
+      },
+      "proxy_n5_ratio": 1.026114564730946,
+      "proxy_all_ratio": 1.0241441427193676
+    },
+    {
+      "odd_A": 137,
+      "eB": 0.125640043184871,
+      "Qs_eb": 0.77296287976573,
+      "full": {
+        "q2_e2b2": 0.47676559475556207,
+        "q3_e3b3": -0.021958680021383223,
+        "signed_ratio": -0.06670353788346856,
+        "signed_rigid_equivalent_angle_deg": 31.274890335764294,
+        "folded_rigid_equivalent_angle_deg": 28.725109664235706,
+        "angle_status": "within_rigid_domain",
+        "imaginary_residual_q2": 0.0,
+        "imaginary_residual_q3": 0.0
+      },
+      "proxy_n5_ratio": 0.7290200376070264,
+      "proxy_all_ratio": 0.7382272451478787
+    }
+  ],
+  "reference_primary_core136_Qs_rounded_eb": -0.3032375,
+  "numerics": {
+    "odd_two_M": 1,
+    "core_two_M": 0,
+    "state_ordinal_by_J_energy": 0,
+    "module_rtol": 1e-10,
+    "module_atol": 1e-12,
+    "replay_atol": 1e-10,
+    "replay_rtol": 1e-08,
+    "near_singular_relative_threshold": 1e-12,
+    "angle_tolerance": 0.0,
+    "clip_angles": false,
+    "BLAS_threads": 1
+  },
+  "input_files": [
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-chain-contract.json",
+      "sha256": "2183e4828b1395e16847225c9c2d297c09e8ee14980f5dde27f14ff7f419c1cf"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/core-E2-calibration/ba-core-E2.json",
+      "sha256": "4dfdafe211e675049018f62393192c943544e32b3916151b26161e5b103387d0"
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/study.json",
+      "sha256": "45d3aafb4d02b2bf54620c4fd4356178c814a2a4b1eb5b6d15caa4132985ca0a"
+    },
+    {
+      "path": "knowledge/sources/nndc-ba135-ba137-static-e2-constraints.md",
+      "sha256": "24075979e4ff1e11ee03215dfcd77b751dc1003d03b34c801a9a73df5fd6c02c"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-ba-core-E2-calibration/nndc136-adopted-text.ens",
+      "sha256": "2ddbfbcbe7cd55f937ddd0b98a0ce066cf21c269d2eec39a504ec6a27f382b18"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-ba-core-E2-calibration/nndc136-coulomb-text.ens",
+      "sha256": "eaee8e3994093ef9b24eb68f61d31bb6f94a627183522594eaad65ff0eb49f3e"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-ba-spin-moment-benchmark/nndc137-adopted-text.ens",
+      "sha256": "49f671b9d8ecaabe1e3dec114b6436c59567f4da912c9e20b7851eacaf943b4f"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-ba-spin-moment-benchmark/nndc135-adopted-text.ens",
+      "sha256": "08955bde5d990beea53a1e4302824cf33bf3064eeabefb27c36cafbb9901135c"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261105-nomura2017-input-audit/arxiv-v2-v4.tex",
+      "sha256": "f79b87a4d88539e8a4e4453a2e61272a9f5e108d165a5fd5a3ab4b17b5c5b868"
+    }
+  ],
+  "read_only_modules": [
+    {
+      "path": "system/scripts/analysis/single_j_ibfm.py",
+      "sha256": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a"
+    },
+    {
+      "path": "system/scripts/analysis/quadrupole_scalar_invariants.py",
+      "sha256": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1"
+    },
+    {
+      "path": "system/scripts/analysis/paired_single_j_em.py",
+      "sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b"
+    },
+    {
+      "path": "system/scripts/analysis/paired_single_j_rotor.py",
+      "sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908"
+    }
+  ],
+  "write_scope": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-calibrated-operator/",
+  "no_commit": true
+}

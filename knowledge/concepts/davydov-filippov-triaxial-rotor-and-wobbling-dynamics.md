@@ -3,7 +3,7 @@ type: concept
 title: "Davydov-Filippov三轴不对称转子模型、横向与纵向摆动（Wobbling）运动微观动力学"
 aliases: [Davydov-Filippov模型, 三轴不对称转子, 摆动运动, 横向摆动, 纵向摆动, TW, LW, Frauendorf-Donau模型, 摆动频率截面, 伪摆动证伪, 奇A核摆动]
 created: 2026-11-02
-updated: 2026-11-02
+updated: 2026-11-06
 status: ai-draft
 review_status: unreviewed
 tags: [triaxiality, davydov-filippov, wobbling-motion, transverse-wobbling, longitudinal-wobbling, particle-rotor-model, high-spin, electromagnetic-transitions, false-wobbling-falsification]
@@ -15,10 +15,19 @@ tags: [triaxiality, davydov-filippov, wobbling-motion, transverse-wobbling, long
 
 ### 物理全景：从刚性三轴转动到量子单核子耦合摆动
 
-在低能核结构中，原子核的三轴非对称形变（Triaxial Deformation, $\gamma \ne 0^\circ, 60^\circ$）打破了轴对称转动的 $K$ 量子数守恒，使得原子核在三个主轴方向具有三个互不相等的转动惯量 $\mathcal{J}_1 \ne \mathcal{J}_2 \ne \mathcal{J}_3$。
-这种空间几何对称性的破坏，导致了两种极其独特、具有排他性拓扑印记的集体激发模式：
-1. **原子核手征性（Nuclear Chirality）与手征双重带（Chiral Doublet Bands）**：在三个角动量分量互不相等的正交几何空间中自发破缺时间反演与宇称联合对称性（详见专著 C. M. Petrache 2024《Chirality and Wobbling in Atomic Nuclei》）；
-2. **原子核摆动运动（Wobbling Motion）**：非对称转子的总角动量矢量偏离具有最大转动惯量的主转动轴，围绕该主轴进动（Precession / Wobbling）。在量子化图像下，这表现为主转动态（$n_w=0$）之上叠加的一系列谐振子声子态（$n_w = 1, 2, \dots$）。
+在固定三轴形状模型中，轴对称的K一般不再严格守恒。三个主轴惯量需要独立声明；
+三轴形状不保证三者互异，例如irrotational处方在γ=30°有两个相等惯量。
+三轴转动模型可用于讨论下列模式，但还需要角动量取向、耦合和稳定性条件：
+1. **原子核手征性（Nuclear Chirality）与手征双重带（Chiral Doublet Bands）**：
+   左右手内禀几何来自角动量相对三轴的非共面取向。标准反射对称的核转动手征
+   构造仍保持宇称，产生同宇称伙伴；[[frauendorf-meng-1997-tilted-rotation-chirality]]
+   printed p.141明确说明这一点。原来将其写成宇称破缺的表述撤回。
+   [[book-petrache-chirality-and-wobbling]]为所持CRC Press 2025年版，第3章
+   讨论相关几何与模型适用条件。
+2. **原子核摆动运动（Wobbling Motion）**：
+   在适用的稳定转动解附近，可以量子化角动量方向的小振幅运动并作声子近似。
+   奇粒子耦合会改变稳定取向及频率；是否适用谐振子序列需要同一Hamiltonian、
+   波函数和电磁跃迁共同检验，不能仅由三轴形变本身判定。
 
 在经典力学与量子微观演化中：
 - **Davydov & Filippov（1958）**：首先求解了解析偶偶核刚性三轴转子模型，给出了 $\gamma$ 自由度对 $I=2^+, 4^+$ 能谱与 $B(E2)$ 分支比的决定性预言，解释了反常低能量的 $\gamma$ 振动带头 $2_2^+$；
@@ -59,10 +68,16 @@ $$E(2_{1, 2}^+) = \frac{9 \hbar^2}{4 B \beta^2 \sin^2(3\gamma)} \left[ 1 \mp \sq
 ---
 
 ### (3) $B(E2)$ 跃迁分支比判据
-Davydov-Filippov 预言了特征分支比：
-$$\frac{B(E2; 2_2^+ \to 0_1^+)}{B(E2; 2_1^+ \to 0_1^+)} = \frac{1 - \sqrt{1 - \frac{8}{9}\sin^2(3\gamma)}}{1 + \sqrt{1 - \frac{8}{9}\sin^2(3\gamma)}}$$
-$$\frac{B(E2; 2_2^+ \to 2_1^+)}{B(E2; 2_1^+ \to 0_1^+)} = \frac{10}{7} \frac{\frac{8}{9}\sin^2(3\gamma)}{1 - \frac{8}{9}\sin^2(3\gamma) + \sqrt{1 - \frac{8}{9}\sin^2(3\gamma)}}$$
-在 $\gamma = 25^\circ \sim 30^\circ$ 时，$B(E2; 2_2^+ \to 2_1^+)$ 强度达到 $B(E2; 2_1^+ \to 0_1^+)$ 的 2 倍以上，这是实验上检验核刚性三轴度的核心标志。
+采用同一γ的irrotational惯量与集体E2张量，令
+\(s=\sin^2(3\gamma),d=9-8s,f=(3-2s)/\sqrt d\)，有
+$$\frac{B(E2;2_2^+\to0_1^+)}{B(E2;2_1^+\to0_1^+)}
+=\frac{1-f}{1+f},$$
+$$\frac{B(E2;2_2^+\to2_1^+)}{B(E2;2_1^+\to0_1^+)}
+=\frac{20s}{7[d+(3-2s)\sqrt d]}.$$
+在γ=30°，这两个比值分别为0和10/7。此前将能量根式直接代入第一E2比、
+并声称第二比在25°–30°必超过2的表述撤回。
+独立矩阵推导、闭合与极限检查见[[ba129-core-and-pairing-validity]]；
+这些条件关系本身不认证实验γ刚性。
 
 ---
 
@@ -131,23 +146,15 @@ Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/davydov_wobbling_rotor_calculator.py`
 并在 `nuclear_analyzer.py` 中集成为 `wobbling` 命令。
 
-### 运行示范（模拟典型 $A \approx 130$ 区横向摆动核）：
-```bash
-python3 system/scripts/analysis/nuclear_analyzer.py wobbling \
-  --gamma 26.0 --E2-1 120.0 --spin-I 15.5 --spin-j 6.5 \
-  --A1 10.0 --A2 22.0 --A3 42.0 --mode TW \
-  --be2-ratio 0.35 --bm1-out 0.04 --delta-mix 2.5
-```
+本轮独立矩阵控制在γ=26°、选择E(2_1)=120 keV的数学示例中给
+E(2_2)=271.324 keV、R4/2=2.781358、
+B(E2;2_2→2_1)/B(E2;2_1→0)=1.048894。
+记录为`outputs/l4/20261105-ba129-controlled-pairing/core/gamma26-check.json`，
+推导入口为`system/scripts/ba129_core_constraints.py`。
 
-### 计算输出核心物理特征：
-1. **Davydov-Filippov 刚性转子**：$\gamma = 26^\circ$ 下，准 $\gamma$ 带头 $E(2_2^+) = 271.3\text{ keV}$（$E(2_2)/E(2_1) = 2.261$），$R_{4/2} = 2.873$，$B(E2; 2_2 \to 2_1) / B(E2; 2_1 \to 0_1) = 2.27$；
-2. **Frauendorf 横向摆动预言**：在 $I = 15.5\hbar, j=6.5\hbar$ 时，横向摆动能量 $\hbar \omega_{\text{TW}} = 537.7\text{ keV}$ 稳定存在；
-3. **证伪检验三票全通（3/3 PASS）**：
-   - $B(E2)_{\text{out}}/B(E2)_{\text{in}} = 0.35 \ge 0.15$（集体 $E2$ 声子性质成立）；
-   - $B(M1)_{\text{out}} = 0.04\text{ W.u.} \le 0.15\text{ W.u.}$（$M1$ 被深度阻尼）；
-   - $|\delta(E2/M1)| = 2.50 \ge 1.0$（$E2$ 多极性占优）；
-   - **条件性结论：模型 screening 支持该参数化下的 wobbling-like 分支**；
-     它不能排除 signature partner、TiP、组态混合或响应合同替代解释。
+旧CLI示范混入错误DF数值及人为选择的摆动阈值，已不列为支持证据。
+本轮未认证旧CLI的其它动力学输出；其“通过阈值”不能替代本征态、
+算符、实验来源和竞争解释的联合核验。
 
 ---
 

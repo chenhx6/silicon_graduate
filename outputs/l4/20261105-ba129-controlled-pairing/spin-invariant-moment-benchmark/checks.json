@@ -1,0 +1,37 @@
+{
+  "actual_checked_at": "2026-11-06T03:50:08.212591+00:00",
+  "benchmark_command_exit_code": 0,
+  "source_extraction_exit_code": 0,
+  "numerical_checks": {
+    "case_count": 5,
+    "max_core_M_conversion_residual_eb": 2.375877272697835e-14,
+    "max_odd_M_conversion_residual_eb": 4.082845173059013e-14,
+    "max_parent_Qs_difference_eb": 1.4843681839238343e-13,
+    "max_parent_eB_difference_eb": 2.7755575615628914e-17
+  },
+  "source_constraint_rows": 23,
+  "rows_are_not_independent_measurement_count": true,
+  "raw_files_hash_verified": 8,
+  "derived_ENSDF_exact_match": true,
+  "shared_inputs_unchanged": true,
+  "no_publisher_page_or_full_text_exports_in_output": true,
+  "archive_gate": {
+    "command": "python3 -B system/scripts/wiki_archive_gate.py check --root . -- raw/papers/gpt/query/20261106-ba-spin-moment-benchmark/manifest.json",
+    "exit_code": 0,
+    "failure_count": 0,
+    "scope": "paths"
+  },
+  "no_eF_or_chi_refit": true,
+  "new_raw_manifest": "raw/papers/gpt/query/20261106-ba-spin-moment-benchmark/manifest.json",
+  "new_raw_manifest_sha256": "9fc2cdcbc7542179f215da46322282caf5b353b825b7c042ea268e2062635102",
+  "output_files_sha256": {
+    "acquire_sources.py": "92355735d26e8faae5e47e6fd4da3ff8d1efb6f7cb3405a39a27f933283206c2",
+    "benchmark-results.json": "6021c41fe1a067b9a5a2ed835a63dc4ba150922a8ac643e4cfb657a911032afc",
+    "extract_constraints.py": "0415203b46e546b886a09949198462ee53c5e10c3f19c3bb2e1abef941ccc771",
+    "model-static-moments.csv": "4ab68901c6de32f6dd1cf846249ddda992a7237a9486c9956acee9e2e2a3e590",
+    "report.md": "6f6459ba26ff89543a3786e822908ff47d218ea7ca60b3c70cb059491b69f6e2",
+    "run_benchmark.py": "be596b32685b48c3e7eb6cdb9b6cf7490bd736232126ecfbf54a553ac745f062",
+    "source-constraints.csv": "a7d8f72aa137d2a4cbc7e1c287bfcf0baab7e8080bf9c1f8a86d4f2a2598eb46",
+    "source-constraints.json": "4e86214a5503a0917f336dca70e13840062db151f0dd45994ee66c465111608c"
+  }
+}

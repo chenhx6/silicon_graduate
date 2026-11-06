@@ -1,0 +1,1534 @@
+{
+  "case_id": "C120_start0",
+  "parameter_source": "outputs/l4/20261105-ba129-model-readiness/model-fit-free-inertias-C120/energy-calibration.json",
+  "parameter_source_sha256": "3365fe1b6f3dc6eaa990b7ec6e62e1ef1e4dcd91196c0c22e3fc5706f8a3799d",
+  "source_selector": 0,
+  "parent_start": 0,
+  "parent_RMS_keV_excluding_anchor_not_refitted": 39.925201699389206,
+  "active_bound_mask": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "parameters": {
+    "two_j": 11,
+    "C_MeV": 65.63286361315251,
+    "gamma_deg": 16.86440105698611,
+    "inertias_hbar2_per_MeV": [
+      16.971317938490063,
+      13.050682722951485,
+      7.5886579784864345
+    ],
+    "lambda_F_MeV": -8.267968447806368,
+    "Delta_MeV": 1.0
+  },
+  "energy_reference_level": "129Ba_Ex278p81keV",
+  "predeclared_mapping": [
+    {
+      "level_id": "129Ba_Ex182p04keV",
+      "twice_I": 9,
+      "energy_keV": 182.04,
+      "quoted_error_keV": 0.11,
+      "Jpi_reaction": "9/2-",
+      "Jpi_adopted": "9/2-",
+      "reaction_locator": "R:79",
+      "adopted_locator": "A:108",
+      "band_2024": "",
+      "model_ordinal_assumed": 0
+    },
+    {
+      "level_id": "129Ba_Ex278p81keV",
+      "twice_I": 11,
+      "energy_keV": 278.81,
+      "quoted_error_keV": 0.12,
+      "Jpi_reaction": "11/2-",
+      "Jpi_adopted": "11/2-",
+      "reaction_locator": "R:97",
+      "adopted_locator": "A:143",
+      "band_2024": "1",
+      "model_ordinal_assumed": 0
+    },
+    {
+      "level_id": "129Ba_Ex643p6keV",
+      "twice_I": 13,
+      "energy_keV": 643.6,
+      "quoted_error_keV": 0.1,
+      "Jpi_reaction": "13/2-",
+      "Jpi_adopted": "13/2-",
+      "reaction_locator": "R:132",
+      "adopted_locator": "A:245",
+      "band_2024": "3",
+      "model_ordinal_assumed": 0
+    },
+    {
+      "level_id": "129Ba_Ex797p4keV",
+      "twice_I": 15,
+      "energy_keV": 797.4,
+      "quoted_error_keV": 0.1,
+      "Jpi_reaction": "15/2-",
+      "Jpi_adopted": "15/2-",
+      "reaction_locator": "R:143",
+      "adopted_locator": "A:290",
+      "band_2024": "1",
+      "model_ordinal_assumed": 0
+    },
+    {
+      "level_id": "129Ba_Ex883p43keV",
+      "twice_I": 13,
+      "energy_keV": 883.43,
+      "quoted_error_keV": 0.13,
+      "Jpi_reaction": "13/2-",
+      "Jpi_adopted": "13/2-",
+      "reaction_locator": "R:166",
+      "adopted_locator": "A:325",
+      "band_2024": "2",
+      "model_ordinal_assumed": 1
+    },
+    {
+      "level_id": "129Ba_Ex1210p0keV",
+      "twice_I": 15,
+      "energy_keV": 1210.0,
+      "quoted_error_keV": 0.1,
+      "Jpi_reaction": "15/2-",
+      "Jpi_adopted": "15/2-",
+      "reaction_locator": "R:180",
+      "adopted_locator": "A:411",
+      "band_2024": "4",
+      "model_ordinal_assumed": 1
+    },
+    {
+      "level_id": "129Ba_Ex1318p4keV",
+      "twice_I": 17,
+      "energy_keV": 1318.4,
+      "quoted_error_keV": 0.1,
+      "Jpi_reaction": "17/2-",
+      "Jpi_adopted": "17/2-",
+      "reaction_locator": "R:195",
+      "adopted_locator": "A:443",
+      "band_2024": "3",
+      "model_ordinal_assumed": 0
+    },
+    {
+      "level_id": "129Ba_Ex1475p4keV",
+      "twice_I": 19,
+      "energy_keV": 1475.4,
+      "quoted_error_keV": 0.1,
+      "Jpi_reaction": "19/2-",
+      "Jpi_adopted": "19/2-",
+      "reaction_locator": "R:206",
+      "adopted_locator": "A:473",
+      "band_2024": "1",
+      "model_ordinal_assumed": 0
+    },
+    {
+      "level_id": "129Ba_Ex1545p3keV",
+      "twice_I": 17,
+      "energy_keV": 1545.3,
+      "quoted_error_keV": 0.2,
+      "Jpi_reaction": "(17/2-)",
+      "Jpi_adopted": "17/2-",
+      "reaction_locator": "R:215",
+      "adopted_locator": "A:488",
+      "band_2024": "2",
+      "model_ordinal_assumed": 1
+    },
+    {
+      "level_id": "129Ba_Ex1845p0keV",
+      "twice_I": 19,
+      "energy_keV": 1845.0,
+      "quoted_error_keV": 0.2,
+      "Jpi_reaction": "19/2-",
+      "Jpi_adopted": "19/2-",
+      "reaction_locator": "R:239",
+      "adopted_locator": "A:558",
+      "band_2024": "4",
+      "model_ordinal_assumed": 1
+    }
+  ],
+  "spin_results": [
+    {
+      "two_I": 9,
+      "ordinals": [
+        0
+      ],
+      "sector_dimension": 30,
+      "initial_embedding_error": 6.661338147750939e-16,
+      "build_errors": {
+        "unitarity_error": 1.4432899320127035e-15,
+        "direct_transform_error_MeV": 7.352451980580099e-14,
+        "D2_leakage_MeV": 5.179190409876355e-14,
+        "positive_reference_error_MeV": 7.105427357601002e-15,
+        "hermiticity_error_MeV": 8.881784197001252e-16
+      },
+      "grids_attempted": [
+        {
+          "nodes": 33,
+          "diagnostics": {
+            "minimum_selected_step_overlap_squared": 0.9999718699604501,
+            "minimum_selected_projector_step_singular_squared": 0.9999718699604501,
+            "minimum_assignment_margin": 0.9999605493961131,
+            "minimum_sampled_selected_complement_gap_MeV": 0.21101240979200142,
+            "minimum_sampled_selected_all_other_gap_MeV": 0.21101240979200142,
+            "minimum_interval_selected_complement_gap_bound_MeV": 0.183254803259273,
+            "minimum_interval_individual_gap_bound_MeV": 0.183254803259273,
+            "gap_bounds_applicable_to_fixed_rank_labels": true,
+            "energy_rank_labels_stable": true,
+            "ordered_block_gap_at_t0_MeV": 2.8421699750833276,
+            "ordered_upper_d_check_applicable": true,
+            "ordered_upper_d_agrees": true,
+            "maximum_selected_residual_MeV": 2.76009360499538e-14,
+            "K_norm_MeV": 0.8882434026473092,
+            "issues": [],
+            "local_tracking_checks_pass": true
+          },
+          "comparison_to_previous_grid": null
+        },
+        {
+          "nodes": 129,
+          "diagnostics": {
+            "minimum_selected_step_overlap_squared": 0.9999982293917484,
+            "minimum_selected_projector_step_singular_squared": 0.9999982293917484,
+            "minimum_assignment_margin": 0.9999975071289555,
+            "minimum_sampled_selected_complement_gap_MeV": 0.21101195969070785,
+            "minimum_sampled_selected_all_other_gap_MeV": 0.21101195969070785,
+            "minimum_interval_selected_complement_gap_bound_MeV": 0.20407255790752576,
+            "minimum_interval_individual_gap_bound_MeV": 0.20407255790752576,
+            "gap_bounds_applicable_to_fixed_rank_labels": true,
+            "energy_rank_labels_stable": true,
+            "ordered_block_gap_at_t0_MeV": 2.8421699750833276,
+            "ordered_upper_d_check_applicable": true,
+            "ordered_upper_d_agrees": true,
+            "maximum_selected_residual_MeV": 2.8409416570577735e-14,
+            "K_norm_MeV": 0.8882434026473092,
+            "issues": [],
+            "local_tracking_checks_pass": true
+          },
+          "comparison_to_previous_grid": {
+            "coarse_nodes": 33,
+            "fine_nodes": 129,
+            "same_labels_at_common_nodes": true,
+            "max_energy_change_MeV": 0.0,
+            "max_plus_weight_change": 0.0,
+            "minimum_individual_fidelity_at_common_nodes": 0.9999999999999976,
+            "minimum_projector_fidelity_at_common_nodes": 0.9999999999999976,
+            "sampled_minimum_gap_change_MeV": -4.5010129356981565e-07,
+            "sampled_minimum_gap_stable": true,
+            "pass": true
+          }
+        }
+      ],
+      "final_grid_nodes": 129,
+      "forward_diagnostics": {
+        "minimum_selected_step_overlap_squared": 0.9999982293917484,
+        "minimum_selected_projector_step_singular_squared": 0.9999982293917484,
+        "minimum_assignment_margin": 0.9999975071289555,
+        "minimum_sampled_selected_complement_gap_MeV": 0.21101195969070785,
+        "minimum_sampled_selected_all_other_gap_MeV": 0.21101195969070785,
+        "minimum_interval_selected_complement_gap_bound_MeV": 0.20407255790752576,
+        "minimum_interval_individual_gap_bound_MeV": 0.20407255790752576,
+        "gap_bounds_applicable_to_fixed_rank_labels": true,
+        "energy_rank_labels_stable": true,
+        "ordered_block_gap_at_t0_MeV": 2.8421699750833276,
+        "ordered_upper_d_check_applicable": true,
+        "ordered_upper_d_agrees": true,
+        "maximum_selected_residual_MeV": 2.8409416570577735e-14,
+        "K_norm_MeV": 0.8882434026473092,
+        "issues": [],
+        "local_tracking_checks_pass": true
+      },
+      "reverse_check": {
+        "comparison": {
+          "coarse_nodes": 129,
+          "fine_nodes": 129,
+          "same_labels_at_common_nodes": true,
+          "max_energy_change_MeV": 0.0,
+          "max_plus_weight_change": 0.0,
+          "minimum_individual_fidelity_at_common_nodes": 0.9999999999999976,
+          "minimum_projector_fidelity_at_common_nodes": 0.9999999999999976,
+          "sampled_minimum_gap_change_MeV": 0.0,
+          "sampled_minimum_gap_stable": true,
+          "pass": true
+        },
+        "return_seed_fidelities": [
+          1.0
+        ],
+        "diagnostics": {
+          "minimum_selected_step_overlap_squared": 0.9999982293917484,
+          "minimum_selected_projector_step_singular_squared": 0.9999982293917484,
+          "minimum_assignment_margin": 0.99999750693791,
+          "minimum_sampled_selected_complement_gap_MeV": 0.21101195969070785,
+          "minimum_sampled_selected_all_other_gap_MeV": 0.21101195969070785,
+          "minimum_interval_selected_complement_gap_bound_MeV": 0.20407255790752576,
+          "minimum_interval_individual_gap_bound_MeV": 0.20407255790752576,
+          "gap_bounds_applicable_to_fixed_rank_labels": true,
+          "energy_rank_labels_stable": true,
+          "ordered_block_gap_at_t0_MeV": 2.8421699750833276,
+          "ordered_upper_d_check_applicable": true,
+          "ordered_upper_d_agrees": true,
+          "maximum_selected_residual_MeV": 2.8409416570577735e-14,
+          "K_norm_MeV": 0.8882434026473092,
+          "issues": [],
+          "local_tracking_checks_pass": true
+        },
+        "pass": true
+      },
+      "reference_shift_check": {
+        "common_shift_MeV": 100.0,
+        "comparison": {
+          "coarse_nodes": 129,
+          "fine_nodes": 129,
+          "same_labels_at_common_nodes": true,
+          "max_energy_change_MeV": 5.551115123125783e-14,
+          "max_plus_weight_change": 1.5543122344752192e-15,
+          "minimum_individual_fidelity_at_common_nodes": 0.9999999999999982,
+          "minimum_projector_fidelity_at_common_nodes": 0.9999999999999984,
+          "sampled_minimum_gap_change_MeV": 4.440892098500626e-16,
+          "sampled_minimum_gap_stable": true,
+          "pass": true
+        },
+        "pass": true
+      },
+      "zero_coupling_check": {
+        "maximum_energy_error_MeV": 6.661338147750939e-15,
+        "maximum_plus_weight_error": 5.551115123125783e-16,
+        "minimum_seed_fidelity": 1.0,
+        "pass": true
+      },
+      "status": "converged-mathematical-continuation"
+    },
+    {
+      "two_I": 11,
+      "ordinals": [
+        0
+      ],
+      "sector_dimension": 36,
+      "initial_embedding_error": 1.1102230246251565e-15,
+      "build_errors": {
+        "unitarity_error": 1.4432899320127035e-15,
+        "direct_transform_error_MeV": 7.351064201799318e-14,
+        "D2_leakage_MeV": 5.179190409876355e-14,
+        "positive_reference_error_MeV": 7.105427357601002e-15,
+        "hermiticity_error_MeV": 4.440892098500626e-16
+      },
+      "grids_attempted": [
+        {
+          "nodes": 33,
+          "diagnostics": {
+            "minimum_selected_step_overlap_squared": 0.9999639369889286,
+            "minimum_selected_projector_step_singular_squared": 0.9999639369889286,
+            "minimum_assignment_margin": 0.9999546415771288,
+            "minimum_sampled_selected_complement_gap_MeV": 0.19968657587814231,
+            "minimum_sampled_selected_all_other_gap_MeV": 0.19968657587814231,
+            "minimum_interval_selected_complement_gap_bound_MeV": 0.16546498686782438,
+            "minimum_interval_individual_gap_bound_MeV": 0.16546498686782438,
+            "gap_bounds_applicable_to_fixed_rank_labels": true,
+            "energy_rank_labels_stable": true,
+            "ordered_block_gap_at_t0_MeV": 1.56936413149102,
+            "ordered_upper_d_check_applicable": true,
+            "ordered_upper_d_agrees": true,
+            "maximum_selected_residual_MeV": 2.2143923758665062e-14,
+            "K_norm_MeV": 1.095090841930174,
+            "issues": [],
+            "local_tracking_checks_pass": true
+          },
+          "comparison_to_previous_grid": null
+        },
+        {
+          "nodes": 129,
+          "diagnostics": {
+            "minimum_selected_step_overlap_squared": 0.9999977359987249,
+            "minimum_selected_projector_step_singular_squared": 0.9999977359987249,
+            "minimum_assignment_margin": 0.9999971687738873,
+            "minimum_sampled_selected_complement_gap_MeV": 0.19968657587814231,
+            "minimum_sampled_selected_all_other_gap_MeV": 0.19968657587814231,
+            "minimum_interval_selected_complement_gap_bound_MeV": 0.19113117847556285,
+            "minimum_interval_individual_gap_bound_MeV": 0.19113117847556285,
+            "gap_bounds_applicable_to_fixed_rank_labels": true,
+            "energy_rank_labels_stable": true,
+            "ordered_block_gap_at_t0_MeV": 1.56936413149102,
+            "ordered_upper_d_check_applicable": true,
+            "ordered_upper_d_agrees": true,
+            "maximum_selected_residual_MeV": 2.2428113310310687e-14,
+            "K_norm_MeV": 1.095090841930174,
+            "issues": [],
+            "local_tracking_checks_pass": true
+          },
+          "comparison_to_previous_grid": {
+            "coarse_nodes": 33,
+            "fine_nodes": 129,
+            "same_labels_at_common_nodes": true,
+            "max_energy_change_MeV": 0.0,
+            "max_plus_weight_change": 0.0,
+            "minimum_individual_fidelity_at_common_nodes": 0.9999999999999976,
+            "minimum_projector_fidelity_at_common_nodes": 0.999999999999998,
+            "sampled_minimum_gap_change_MeV": 0.0,
+            "sampled_minimum_gap_stable": true,
+            "pass": true
+          }
+        }
+      ],
+      "final_grid_nodes": 129,
+      "forward_diagnostics": {
+        "minimum_selected_step_overlap_squared": 0.9999977359987249,
+        "minimum_selected_projector_step_singular_squared": 0.9999977359987249,
+        "minimum_assignment_margin": 0.9999971687738873,
+        "minimum_sampled_selected_complement_gap_MeV": 0.19968657587814231,
+        "minimum_sampled_selected_all_other_gap_MeV": 0.19968657587814231,
+        "minimum_interval_selected_complement_gap_bound_MeV": 0.19113117847556285,
+        "minimum_interval_individual_gap_bound_MeV": 0.19113117847556285,
+        "gap_bounds_applicable_to_fixed_rank_labels": true,
+        "energy_rank_labels_stable": true,
+        "ordered_block_gap_at_t0_MeV": 1.56936413149102,
+        "ordered_upper_d_check_applicable": true,
+        "ordered_upper_d_agrees": true,
+        "maximum_selected_residual_MeV": 2.2428113310310687e-14,
+        "K_norm_MeV": 1.095090841930174,
+        "issues": [],
+        "local_tracking_checks_pass": true
+      },
+      "reverse_check": {
+        "comparison": {
+          "coarse_nodes": 129,
+          "fine_nodes": 129,
+          "same_labels_at_common_nodes": true,
+          "max_energy_change_MeV": 0.0,
+          "max_plus_weight_change": 0.0,
+          "minimum_individual_fidelity_at_common_nodes": 0.9999999999999962,
+          "minimum_projector_fidelity_at_common_nodes": 0.999999999999996,
+          "sampled_minimum_gap_change_MeV": 0.0,
+          "sampled_minimum_gap_stable": true,
+          "pass": true
+        },
+        "return_seed_fidelities": [
+          1.0
+        ],
+        "diagnostics": {
+          "minimum_selected_step_overlap_squared": 0.9999977359987249,
+          "minimum_selected_projector_step_singular_squared": 0.9999977359987249,
+          "minimum_assignment_margin": 0.9999971712312572,
+          "minimum_sampled_selected_complement_gap_MeV": 0.19968657587814231,
+          "minimum_sampled_selected_all_other_gap_MeV": 0.19968657587814231,
+          "minimum_interval_selected_complement_gap_bound_MeV": 0.19113117847556285,
+          "minimum_interval_individual_gap_bound_MeV": 0.19113117847556285,
+          "gap_bounds_applicable_to_fixed_rank_labels": true,
+          "energy_rank_labels_stable": true,
+          "ordered_block_gap_at_t0_MeV": 1.56936413149102,
+          "ordered_upper_d_check_applicable": true,
+          "ordered_upper_d_agrees": true,
+          "maximum_selected_residual_MeV": 2.2428113310310687e-14,
+          "K_norm_MeV": 1.095090841930174,
+          "issues": [],
+          "local_tracking_checks_pass": true
+        },
+        "pass": true
+      },
+      "reference_shift_check": {
+        "common_shift_MeV": 100.0,
+        "comparison": {
+          "coarse_nodes": 129,
+          "fine_nodes": 129,
+          "same_labels_at_common_nodes": true,
+          "max_energy_change_MeV": 1.1102230246251565e-13,
+          "max_plus_weight_change": 2.4424906541753444e-15,
+          "minimum_individual_fidelity_at_common_nodes": 0.9999999999999971,
+          "minimum_projector_fidelity_at_common_nodes": 0.9999999999999969,
+          "sampled_minimum_gap_change_MeV": -2.398081733190338e-14,
+          "sampled_minimum_gap_stable": true,
+          "pass": true
+        },
+        "pass": true
+      },
+      "zero_coupling_check": {
+        "maximum_energy_error_MeV": 8.43769498715119e-15,
+        "maximum_plus_weight_error": 6.661338147750939e-16,
+        "minimum_seed_fidelity": 1.0,
+        "pass": true
+      },
+      "status": "converged-mathematical-continuation"
+    },
+    {
+      "two_I": 13,
+      "ordinals": [
+        0,
+        1
+      ],
+      "sector_dimension": 42,
+      "initial_embedding_error": 7.771561172376096e-16,
+      "build_errors": {
+        "unitarity_error": 1.4432899320127035e-15,
+        "direct_transform_error_MeV": 7.360952125612386e-14,
+        "D2_leakage_MeV": 5.179190409876355e-14,
+        "positive_reference_error_MeV": 7.105427357601002e-15,
+        "hermiticity_error_MeV": 8.881784197001252e-16
+      },
+      "grids_attempted": [
+        {
+          "nodes": 33,
+          "diagnostics": {
+            "minimum_selected_step_overlap_squared": 0.999904634641466,
+            "minimum_selected_projector_step_singular_squared": 0.999951552990169,
+            "minimum_assignment_margin": 0.9998967246385675,
+            "minimum_sampled_selected_complement_gap_MeV": 0.26254884301691295,
+            "minimum_sampled_selected_all_other_gap_MeV": 0.2302717062102504,
+            "minimum_interval_selected_complement_gap_bound_MeV": 0.22378518684559262,
+            "minimum_interval_individual_gap_bound_MeV": 0.19150805003893007,
+            "gap_bounds_applicable_to_fixed_rank_labels": true,
+            "energy_rank_labels_stable": true,
+            "ordered_block_gap_at_t0_MeV": 1.3188901526558339,
+            "ordered_upper_d_check_applicable": true,
+            "ordered_upper_d_agrees": true,
+            "maximum_selected_residual_MeV": 3.2183462109050853e-14,
+            "K_norm_MeV": 1.2404369910822508,
+            "issues": [],
+            "local_tracking_checks_pass": true
+          },
+          "comparison_to_previous_grid": null
+        },
+        {
+          "nodes": 129,
+          "diagnostics": {
+            "minimum_selected_step_overlap_squared": 0.9999939748775178,
+            "minimum_selected_projector_step_singular_squared": 0.9999969716239404,
+            "minimum_assignment_margin": 0.9999934741566127,
+            "minimum_sampled_selected_complement_gap_MeV": 0.26254884301691295,
+            "minimum_sampled_selected_all_other_gap_MeV": 0.2302717062102504,
+            "minimum_interval_selected_complement_gap_bound_MeV": 0.25285792882408287,
+            "minimum_interval_individual_gap_bound_MeV": 0.2205807920174203,
+            "gap_bounds_applicable_to_fixed_rank_labels": true,
+            "energy_rank_labels_stable": true,
+            "ordered_block_gap_at_t0_MeV": 1.3188901526558339,
+            "ordered_upper_d_check_applicable": true,
+            "ordered_upper_d_agrees": true,
+            "maximum_selected_residual_MeV": 3.3168725523216736e-14,
+            "K_norm_MeV": 1.2404369910822508,
+            "issues": [],
+            "local_tracking_checks_pass": true
+          },
+          "comparison_to_previous_grid": {
+            "coarse_nodes": 33,
+            "fine_nodes": 129,
+            "same_labels_at_common_nodes": true,
+            "max_energy_change_MeV": 0.0,
+            "max_plus_weight_change": 0.0,
+            "minimum_individual_fidelity_at_common_nodes": 0.9999999999999978,
+            "minimum_projector_fidelity_at_common_nodes": 0.9999999999999976,
+            "sampled_minimum_gap_change_MeV": 0.0,
+            "sampled_minimum_gap_stable": true,
+            "pass": true
+          }
+        }
+      ],
+      "final_grid_nodes": 129,
+      "forward_diagnostics": {
+        "minimum_selected_step_overlap_squared": 0.9999939748775178,
+        "minimum_selected_projector_step_singular_squared": 0.9999969716239404,
+        "minimum_assignment_margin": 0.9999934741566127,
+        "minimum_sampled_selected_complement_gap_MeV": 0.26254884301691295,
+        "minimum_sampled_selected_all_other_gap_MeV": 0.2302717062102504,
+        "minimum_interval_selected_complement_gap_bound_MeV": 0.25285792882408287,
+        "minimum_interval_individual_gap_bound_MeV": 0.2205807920174203,
+        "gap_bounds_applicable_to_fixed_rank_labels": true,
+        "energy_rank_labels_stable": true,
+        "ordered_block_gap_at_t0_MeV": 1.3188901526558339,
+        "ordered_upper_d_check_applicable": true,
+        "ordered_upper_d_agrees": true,
+        "maximum_selected_residual_MeV": 3.3168725523216736e-14,
+        "K_norm_MeV": 1.2404369910822508,
+        "issues": [],
+        "local_tracking_checks_pass": true
+      },
+      "reverse_check": {
+        "comparison": {
+          "coarse_nodes": 129,
+          "fine_nodes": 129,
+          "same_labels_at_common_nodes": true,
+          "max_energy_change_MeV": 0.0,
+          "max_plus_weight_change": 0.0,
+          "minimum_individual_fidelity_at_common_nodes": 0.9999999999999969,
+          "minimum_projector_fidelity_at_common_nodes": 0.9999999999999964,
+          "sampled_minimum_gap_change_MeV": 0.0,
+          "sampled_minimum_gap_stable": true,
+          "pass": true
+        },
+        "return_seed_fidelities": [
+          0.9999999999999996,
+          0.9999999999999984
+        ],
+        "diagnostics": {
+          "minimum_selected_step_overlap_squared": 0.9999939748775178,
+          "minimum_selected_projector_step_singular_squared": 0.99999697162394,
+          "minimum_assignment_margin": 0.9999934731620715,
+          "minimum_sampled_selected_complement_gap_MeV": 0.26254884301691295,
+          "minimum_sampled_selected_all_other_gap_MeV": 0.2302717062102504,
+          "minimum_interval_selected_complement_gap_bound_MeV": 0.25285792882408287,
+          "minimum_interval_individual_gap_bound_MeV": 0.2205807920174203,
+          "gap_bounds_applicable_to_fixed_rank_labels": true,
+          "energy_rank_labels_stable": true,
+          "ordered_block_gap_at_t0_MeV": 1.3188901526558339,
+          "ordered_upper_d_check_applicable": true,
+          "ordered_upper_d_agrees": true,
+          "maximum_selected_residual_MeV": 3.3168725523216736e-14,
+          "K_norm_MeV": 1.2404369910822508,
+          "issues": [],
+          "local_tracking_checks_pass": true
+        },
+        "pass": true
+      },
+      "reference_shift_check": {
+        "common_shift_MeV": 100.0,
+        "comparison": {
+          "coarse_nodes": 129,
+          "fine_nodes": 129,
+          "same_labels_at_common_nodes": true,
+          "max_energy_change_MeV": 9.85878045867139e-14,
+          "max_plus_weight_change": 2.886579864025407e-15,
+          "minimum_individual_fidelity_at_common_nodes": 0.9999999999999971,
+          "minimum_projector_fidelity_at_common_nodes": 0.9999999999999971,
+          "sampled_minimum_gap_change_MeV": 2.6645352591003757e-15,
+          "sampled_minimum_gap_stable": true,
+          "pass": true
+        },
+        "pass": true
+      },
+      "zero_coupling_check": {
+        "maximum_energy_error_MeV": 4.440892098500626e-15,
+        "maximum_plus_weight_error": 9.992007221626409e-16,
+        "minimum_seed_fidelity": 0.9999999999999984,
+        "pass": true
+      },
+      "status": "converged-mathematical-continuation"
+    },
+    {
+      "two_I": 15,
+      "ordinals": [
+        0,
+        1
+      ],
+      "sector_dimension": 48,
+      "initial_embedding_error": 1.3322676295501878e-15,
+      "build_errors": {
+        "unitarity_error": 1.4432899320127035e-15,
+        "direct_transform_error_MeV": 7.350370312408927e-14,
+        "D2_leakage_MeV": 5.179190409876355e-14,
+        "positive_reference_error_MeV": 1.0658141036401503e-14,
+        "hermiticity_error_MeV": 1.5543122344752192e-15
+      },
+      "grids_attempted": [
+        {
+          "nodes": 33,
+          "diagnostics": {
+            "minimum_selected_step_overlap_squared": 0.9999267929296795,
+            "minimum_selected_projector_step_singular_squared": 0.9999263947402179,
+            "minimum_assignment_margin": 0.9998963980836358,
+            "minimum_sampled_selected_complement_gap_MeV": 0.0045591538664560005,
+            "minimum_sampled_selected_all_other_gap_MeV": 0.0045591538664560005,
+            "minimum_interval_selected_complement_gap_bound_MeV": -0.040799705638644775,
+            "minimum_interval_individual_gap_bound_MeV": -0.040799705638644775,
+            "gap_bounds_applicable_to_fixed_rank_labels": false,
+            "energy_rank_labels_stable": false,
+            "ordered_block_gap_at_t0_MeV": -0.27033419854404794,
+            "ordered_upper_d_check_applicable": false,
+            "ordered_upper_d_agrees": null,
+            "maximum_selected_residual_MeV": 2.6848205753152263e-14,
+            "K_norm_MeV": 1.4514834977632247,
+            "issues": [
+              {
+                "kind": "energy_rank_jump_or_crossing_requires_resolution",
+                "step": 20,
+                "t": 0.625,
+                "from": [
+                  47,
+                  49
+                ],
+                "to": [
+                  48,
+                  49
+                ]
+              }
+            ],
+            "local_tracking_checks_pass": false
+          },
+          "comparison_to_previous_grid": null
+        },
+        {
+          "nodes": 129,
+          "diagnostics": {
+            "minimum_selected_step_overlap_squared": 0.9999348241562797,
+            "minimum_selected_projector_step_singular_squared": 0.9999351185058513,
+            "minimum_assignment_margin": 0.9998736581000629,
+            "minimum_sampled_selected_complement_gap_MeV": 0.0021895366920050563,
+            "minimum_sampled_selected_all_other_gap_MeV": 0.0021895366920050563,
+            "minimum_interval_selected_complement_gap_bound_MeV": -0.009150178334270136,
+            "minimum_interval_individual_gap_bound_MeV": -0.009150178334270136,
+            "gap_bounds_applicable_to_fixed_rank_labels": false,
+            "energy_rank_labels_stable": false,
+            "ordered_block_gap_at_t0_MeV": -0.27033419854404794,
+            "ordered_upper_d_check_applicable": false,
+            "ordered_upper_d_agrees": null,
+            "maximum_selected_residual_MeV": 2.6848205753152263e-14,
+            "K_norm_MeV": 1.4514834977632247,
+            "issues": [
+              {
+                "kind": "energy_rank_jump_or_crossing_requires_resolution",
+                "step": 77,
+                "t": 0.6015625,
+                "from": [
+                  47,
+                  49
+                ],
+                "to": [
+                  48,
+                  49
+                ]
+              }
+            ],
+            "local_tracking_checks_pass": false
+          },
+          "comparison_to_previous_grid": {
+            "coarse_nodes": 33,
+            "fine_nodes": 129,
+            "same_labels_at_common_nodes": true,
+            "max_energy_change_MeV": 0.0,
+            "max_plus_weight_change": 0.0,
+            "minimum_individual_fidelity_at_common_nodes": 0.9999999999999971,
+            "minimum_projector_fidelity_at_common_nodes": 0.9999999999999969,
+            "sampled_minimum_gap_change_MeV": -0.0023696171744509442,
+            "sampled_minimum_gap_stable": false,
+            "pass": false
+          }
+        },
+        {
+          "nodes": 513,
+          "diagnostics": {
+            "minimum_selected_step_overlap_squared": 0.9989094332056067,
+            "minimum_selected_projector_step_singular_squared": 0.9989094516699465,
+            "minimum_assignment_margin": 0.9978191169630126,
+            "minimum_sampled_selected_complement_gap_MeV": 0.0004958560597865258,
+            "minimum_sampled_selected_all_other_gap_MeV": 0.0004958560597865258,
+            "minimum_interval_selected_complement_gap_bound_MeV": -0.0023390728467822725,
+            "minimum_interval_individual_gap_bound_MeV": -0.0023390728467822725,
+            "gap_bounds_applicable_to_fixed_rank_labels": false,
+            "energy_rank_labels_stable": false,
+            "ordered_block_gap_at_t0_MeV": -0.27033419854404794,
+            "ordered_upper_d_check_applicable": false,
+            "ordered_upper_d_agrees": null,
+            "maximum_selected_residual_MeV": 3.0115078487972176e-14,
+            "K_norm_MeV": 1.4514834977632247,
+            "issues": [
+              {
+                "kind": "energy_rank_jump_or_crossing_requires_resolution",
+                "step": 307,
+                "t": 0.599609375,
+                "from": [
+                  47,
+                  49
+                ],
+                "to": [
+                  48,
+                  49
+                ]
+              }
+            ],
+            "local_tracking_checks_pass": false
+          },
+          "comparison_to_previous_grid": {
+            "coarse_nodes": 129,
+            "fine_nodes": 513,
+            "same_labels_at_common_nodes": true,
+            "max_energy_change_MeV": 0.0,
+            "max_plus_weight_change": 0.0,
+            "minimum_individual_fidelity_at_common_nodes": 0.9999999999999956,
+            "minimum_projector_fidelity_at_common_nodes": 0.9999999999999947,
+            "sampled_minimum_gap_change_MeV": -0.0016936806322185305,
+            "sampled_minimum_gap_stable": false,
+            "pass": false
+          }
+        },
+        {
+          "nodes": 2049,
+          "diagnostics": {
+            "minimum_selected_step_overlap_squared": 0.965278170955739,
+            "minimum_selected_projector_step_singular_squared": 0.9652781720874444,
+            "minimum_assignment_margin": 0.9305563575768827,
+            "minimum_sampled_selected_complement_gap_MeV": 7.611819364949923e-05,
+            "minimum_sampled_selected_all_other_gap_MeV": 7.611819364949923e-05,
+            "minimum_interval_selected_complement_gap_bound_MeV": -0.0006326141829927003,
+            "minimum_interval_individual_gap_bound_MeV": -0.0006326141829927003,
+            "gap_bounds_applicable_to_fixed_rank_labels": false,
+            "energy_rank_labels_stable": false,
+            "ordered_block_gap_at_t0_MeV": -0.27033419854404794,
+            "ordered_upper_d_check_applicable": false,
+            "ordered_upper_d_agrees": null,
+            "maximum_selected_residual_MeV": 3.0115078487972176e-14,
+            "K_norm_MeV": 1.4514834977632247,
+            "issues": [
+              {
+                "kind": "energy_rank_jump_or_crossing_requires_resolution",
+                "step": 1227,
+                "t": 0.59912109375,
+                "from": [
+                  47,
+                  49
+                ],
+                "to": [
+                  48,
+                  49
+                ]
+              }
+            ],
+            "local_tracking_checks_pass": false
+          },
+          "comparison_to_previous_grid": {
+            "coarse_nodes": 513,
+            "fine_nodes": 2049,
+            "same_labels_at_common_nodes": true,
+            "max_energy_change_MeV": 0.0,
+            "max_plus_weight_change": 0.0,
+            "minimum_individual_fidelity_at_common_nodes": 0.9999999999999951,
+            "minimum_projector_fidelity_at_common_nodes": 0.9999999999999944,
+            "sampled_minimum_gap_change_MeV": -0.00041973786613702657,
+            "sampled_minimum_gap_stable": false,
+            "pass": false
+          }
+        }
+      ],
+      "final_grid_nodes": 2049,
+      "forward_diagnostics": {
+        "minimum_selected_step_overlap_squared": 0.965278170955739,
+        "minimum_selected_projector_step_singular_squared": 0.9652781720874444,
+        "minimum_assignment_margin": 0.9305563575768827,
+        "minimum_sampled_selected_complement_gap_MeV": 7.611819364949923e-05,
+        "minimum_sampled_selected_all_other_gap_MeV": 7.611819364949923e-05,
+        "minimum_interval_selected_complement_gap_bound_MeV": -0.0006326141829927003,
+        "minimum_interval_individual_gap_bound_MeV": -0.0006326141829927003,
+        "gap_bounds_applicable_to_fixed_rank_labels": false,
+        "energy_rank_labels_stable": false,
+        "ordered_block_gap_at_t0_MeV": -0.27033419854404794,
+        "ordered_upper_d_check_applicable": false,
+        "ordered_upper_d_agrees": null,
+        "maximum_selected_residual_MeV": 3.0115078487972176e-14,
+        "K_norm_MeV": 1.4514834977632247,
+        "issues": [
+          {
+            "kind": "energy_rank_jump_or_crossing_requires_resolution",
+            "step": 1227,
+            "t": 0.59912109375,
+            "from": [
+              47,
+              49
+            ],
+            "to": [
+              48,
+              49
+            ]
+          }
+        ],
+        "local_tracking_checks_pass": false
+      },
+      "reverse_check": {
+        "comparison": {
+          "coarse_nodes": 2049,
+          "fine_nodes": 2049,
+          "same_labels_at_common_nodes": true,
+          "max_energy_change_MeV": 0.0,
+          "max_plus_weight_change": 0.0,
+          "minimum_individual_fidelity_at_common_nodes": 0.9999999999999929,
+          "minimum_projector_fidelity_at_common_nodes": 0.9999999999999927,
+          "sampled_minimum_gap_change_MeV": 0.0,
+          "sampled_minimum_gap_stable": true,
+          "pass": true
+        },
+        "return_seed_fidelities": [
+          1.0,
+          1.0
+        ],
+        "diagnostics": {
+          "minimum_selected_step_overlap_squared": 0.965278170955739,
+          "minimum_selected_projector_step_singular_squared": 0.9652781720874444,
+          "minimum_assignment_margin": 0.930556357770334,
+          "minimum_sampled_selected_complement_gap_MeV": 7.611819364949923e-05,
+          "minimum_sampled_selected_all_other_gap_MeV": 7.611819364949923e-05,
+          "minimum_interval_selected_complement_gap_bound_MeV": -0.0006326141829927003,
+          "minimum_interval_individual_gap_bound_MeV": -0.0006326141829927003,
+          "gap_bounds_applicable_to_fixed_rank_labels": false,
+          "energy_rank_labels_stable": false,
+          "ordered_block_gap_at_t0_MeV": -0.27033419854404794,
+          "ordered_upper_d_check_applicable": false,
+          "ordered_upper_d_agrees": null,
+          "maximum_selected_residual_MeV": 3.0115078487972176e-14,
+          "K_norm_MeV": 1.4514834977632247,
+          "issues": [
+            {
+              "kind": "energy_rank_jump_or_crossing_requires_resolution",
+              "step": 822,
+              "t": 0.5986328125,
+              "from": [
+                48,
+                49
+              ],
+              "to": [
+                47,
+                49
+              ]
+            }
+          ],
+          "local_tracking_checks_pass": false
+        },
+        "pass": false
+      },
+      "reference_shift_check": {
+        "common_shift_MeV": 100.0,
+        "comparison": {
+          "coarse_nodes": 2049,
+          "fine_nodes": 2049,
+          "same_labels_at_common_nodes": true,
+          "max_energy_change_MeV": 1.7674750552032492e-13,
+          "max_plus_weight_change": 4.877320769480775e-12,
+          "minimum_individual_fidelity_at_common_nodes": 0.9999999999999956,
+          "minimum_projector_fidelity_at_common_nodes": 0.9999999999999958,
+          "sampled_minimum_gap_change_MeV": 2.5757174171303632e-14,
+          "sampled_minimum_gap_stable": true,
+          "pass": true
+        },
+        "pass": false
+      },
+      "zero_coupling_check": {
+        "maximum_energy_error_MeV": 6.217248937900877e-15,
+        "maximum_plus_weight_error": 6.661338147750939e-16,
+        "minimum_seed_fidelity": 1.0,
+        "pass": true
+      },
+      "status": "unresolved-continuation-candidates-not-certified"
+    },
+    {
+      "two_I": 17,
+      "ordinals": [
+        0,
+        1
+      ],
+      "sector_dimension": 54,
+      "initial_embedding_error": 1.3322676295501878e-15,
+      "build_errors": {
+        "unitarity_error": 1.4432899320127035e-15,
+        "direct_transform_error_MeV": 7.34412530789541e-14,
+        "D2_leakage_MeV": 5.184741524999481e-14,
+        "positive_reference_error_MeV": 1.4210854715202004e-14,
+        "hermiticity_error_MeV": 8.881784197001252e-16
+      },
+      "grids_attempted": [
+        {
+          "nodes": 33,
+          "diagnostics": {
+            "minimum_selected_step_overlap_squared": 0.9956136084950026,
+            "minimum_selected_projector_step_singular_squared": 0.9956521019864862,
+            "minimum_assignment_margin": 0.9913466993982494,
+            "minimum_sampled_selected_complement_gap_MeV": 0.006034762776319091,
+            "minimum_sampled_selected_all_other_gap_MeV": 0.006034762776319091,
+            "minimum_interval_selected_complement_gap_bound_MeV": -0.04384160422120875,
+            "minimum_interval_individual_gap_bound_MeV": -0.04384160422120875,
+            "gap_bounds_applicable_to_fixed_rank_labels": false,
+            "energy_rank_labels_stable": false,
+            "ordered_block_gap_at_t0_MeV": -0.5225818770488715,
+            "ordered_upper_d_check_applicable": false,
+            "ordered_upper_d_agrees": null,
+            "maximum_selected_residual_MeV": 2.414901387744761e-14,
+            "K_norm_MeV": 1.596043737520891,
+            "issues": [
+              {
+                "kind": "energy_rank_jump_or_crossing_requires_resolution",
+                "step": 19,
+                "t": 0.59375,
+                "from": [
+                  53,
+                  54
+                ],
+                "to": [
+                  53,
+                  55
+                ]
+              },
+              {
+                "kind": "energy_rank_jump_or_crossing_requires_resolution",
+                "step": 26,
+                "t": 0.8125,
+                "from": [
+                  53,
+                  55
+                ],
+                "to": [
+                  54,
+                  55
+                ]
+              }
+            ],
+            "local_tracking_checks_pass": false
+          },
+          "comparison_to_previous_grid": null
+        },
+        {
+          "nodes": 129,
+          "diagnostics": {
+            "minimum_selected_step_overlap_squared": 0.8488305986412779,
+            "minimum_selected_projector_step_singular_squared": 0.8488326449957967,
+            "minimum_assignment_margin": 0.6976685914159817,
+            "minimum_sampled_selected_complement_gap_MeV": 0.0009571163148169859,
+            "minimum_sampled_selected_all_other_gap_MeV": 0.0009571163148169859,
+            "minimum_interval_selected_complement_gap_bound_MeV": -0.011511975584564973,
+            "minimum_interval_individual_gap_bound_MeV": -0.011511975584564973,
+            "gap_bounds_applicable_to_fixed_rank_labels": false,
+            "energy_rank_labels_stable": false,
+            "ordered_block_gap_at_t0_MeV": -0.5225818770488715,
+            "ordered_upper_d_check_applicable": false,
+            "ordered_upper_d_agrees": null,
+            "maximum_selected_residual_MeV": 2.5218454724342297e-14,
+            "K_norm_MeV": 1.596043737520891,
+            "issues": [
+              {
+                "kind": "energy_rank_jump_or_crossing_requires_resolution",
+                "step": 73,
+                "t": 0.5703125,
+                "from": [
+                  53,
+                  54
+                ],
+                "to": [
+                  53,
+                  55
+                ]
+              },
+              {
+                "kind": "energy_rank_jump_or_crossing_requires_resolution",
+                "step": 103,
+                "t": 0.8046875,
+                "from": [
+                  53,
+                  55
+                ],
+                "to": [
+                  54,
+                  55
+                ]
+              }
+            ],
+            "local_tracking_checks_pass": false
+          },
+          "comparison_to_previous_grid": {
+            "coarse_nodes": 33,
+            "fine_nodes": 129,
+            "same_labels_at_common_nodes": true,
+            "max_energy_change_MeV": 0.0,
+            "max_plus_weight_change": 0.0,
+            "minimum_individual_fidelity_at_common_nodes": 0.9999999999999962,
+            "minimum_projector_fidelity_at_common_nodes": 0.9999999999999958,
+            "sampled_minimum_gap_change_MeV": -0.0050776464615021055,
+            "sampled_minimum_gap_stable": false,
+            "pass": false
+          }
+        },
+        {
+          "nodes": 513,
+          "diagnostics": {
+            "minimum_selected_step_overlap_squared": 0.6495700268899074,
+            "minimum_selected_projector_step_singular_squared": 0.649570144367833,
+            "minimum_assignment_margin": 0.2991405135641245,
+            "minimum_sampled_selected_complement_gap_MeV": 0.0009571163148169859,
+            "minimum_sampled_selected_all_other_gap_MeV": 0.0009571163148169859,
+            "minimum_interval_selected_complement_gap_bound_MeV": -0.0021601568100285042,
+            "minimum_interval_individual_gap_bound_MeV": -0.0021601568100285042,
+            "gap_bounds_applicable_to_fixed_rank_labels": false,
+            "energy_rank_labels_stable": false,
+            "ordered_block_gap_at_t0_MeV": -0.5225818770488715,
+            "ordered_upper_d_check_applicable": false,
+            "ordered_upper_d_agrees": null,
+            "maximum_selected_residual_MeV": 3.864422324692592e-14,
+            "K_norm_MeV": 1.596043737520891,
+            "issues": [
+              {
+                "kind": "energy_rank_jump_or_crossing_requires_resolution",
+                "step": 292,
+                "t": 0.5703125,
+                "from": [
+                  53,
+                  54
+                ],
+                "to": [
+                  53,
+                  55
+                ]
+              },
+              {
+                "kind": "energy_rank_jump_or_crossing_requires_resolution",
+                "step": 411,
+                "t": 0.802734375,
+                "from": [
+                  53,
+                  55
+                ],
+                "to": [
+                  54,
+                  55
+                ]
+              }
+            ],
+            "local_tracking_checks_pass": false
+          },
+          "comparison_to_previous_grid": {
+            "coarse_nodes": 129,
+            "fine_nodes": 513,
+            "same_labels_at_common_nodes": true,
+            "max_energy_change_MeV": 0.0,
+            "max_plus_weight_change": 0.0,
+            "minimum_individual_fidelity_at_common_nodes": 0.9999999999999949,
+            "minimum_projector_fidelity_at_common_nodes": 0.9999999999999949,
+            "sampled_minimum_gap_change_MeV": 0.0,
+            "sampled_minimum_gap_stable": true,
+            "pass": true
+          }
+        },
+        {
+          "nodes": 2049,
+          "diagnostics": {
+            "minimum_selected_step_overlap_squared": 0.6542230152822126,
+            "minimum_selected_projector_step_singular_squared": 0.898263742970992,
+            "minimum_assignment_margin": 0.6168921244766841,
+            "minimum_sampled_selected_complement_gap_MeV": 0.0006243383201685049,
+            "minimum_sampled_selected_all_other_gap_MeV": 0.00032155817242252027,
+            "minimum_interval_selected_complement_gap_bound_MeV": -0.00015498011104286762,
+            "minimum_interval_individual_gap_bound_MeV": -0.00045776025878885225,
+            "gap_bounds_applicable_to_fixed_rank_labels": true,
+            "energy_rank_labels_stable": true,
+            "ordered_block_gap_at_t0_MeV": -0.5225818770488715,
+            "ordered_upper_d_check_applicable": false,
+            "ordered_upper_d_agrees": null,
+            "maximum_selected_residual_MeV": 4.987026972902695e-14,
+            "K_norm_MeV": 1.596043737520891,
+            "issues": [],
+            "local_tracking_checks_pass": false
+          },
+          "comparison_to_previous_grid": {
+            "coarse_nodes": 513,
+            "fine_nodes": 2049,
+            "same_labels_at_common_nodes": false,
+            "max_energy_change_MeV": 0.2522670687301236,
+            "max_plus_weight_change": 0.9210826491414801,
+            "minimum_individual_fidelity_at_common_nodes": 2.9867164065391237e-36,
+            "minimum_projector_fidelity_at_common_nodes": 2.6706788592418645e-37,
+            "sampled_minimum_gap_change_MeV": -0.000332777994648481,
+            "sampled_minimum_gap_stable": false,
+            "pass": false
+          }
+        }
+      ],
+      "final_grid_nodes": 2049,
+      "forward_diagnostics": {
+        "minimum_selected_step_overlap_squared": 0.6542230152822126,
+        "minimum_selected_projector_step_singular_squared": 0.898263742970992,
+        "minimum_assignment_margin": 0.6168921244766841,
+        "minimum_sampled_selected_complement_gap_MeV": 0.0006243383201685049,
+        "minimum_sampled_selected_all_other_gap_MeV": 0.00032155817242252027,
+        "minimum_interval_selected_complement_gap_bound_MeV": -0.00015498011104286762,
+        "minimum_interval_individual_gap_bound_MeV": -0.00045776025878885225,
+        "gap_bounds_applicable_to_fixed_rank_labels": true,
+        "energy_rank_labels_stable": true,
+        "ordered_block_gap_at_t0_MeV": -0.5225818770488715,
+        "ordered_upper_d_check_applicable": false,
+        "ordered_upper_d_agrees": null,
+        "maximum_selected_residual_MeV": 4.987026972902695e-14,
+        "K_norm_MeV": 1.596043737520891,
+        "issues": [],
+        "local_tracking_checks_pass": false
+      },
+      "reverse_check": {
+        "comparison": {
+          "coarse_nodes": 2049,
+          "fine_nodes": 2049,
+          "same_labels_at_common_nodes": true,
+          "max_energy_change_MeV": 0.0,
+          "max_plus_weight_change": 0.0,
+          "minimum_individual_fidelity_at_common_nodes": 0.9999999999999938,
+          "minimum_projector_fidelity_at_common_nodes": 0.9999999999999938,
+          "sampled_minimum_gap_change_MeV": 0.0,
+          "sampled_minimum_gap_stable": true,
+          "pass": true
+        },
+        "return_seed_fidelities": [
+          1.0,
+          1.0
+        ],
+        "diagnostics": {
+          "minimum_selected_step_overlap_squared": 0.6542230152822126,
+          "minimum_selected_projector_step_singular_squared": 0.8982637429709924,
+          "minimum_assignment_margin": 0.6168921244766841,
+          "minimum_sampled_selected_complement_gap_MeV": 0.0006243383201685049,
+          "minimum_sampled_selected_all_other_gap_MeV": 0.00032155817242252027,
+          "minimum_interval_selected_complement_gap_bound_MeV": -0.00015498011104286762,
+          "minimum_interval_individual_gap_bound_MeV": -0.00045776025878885225,
+          "gap_bounds_applicable_to_fixed_rank_labels": true,
+          "energy_rank_labels_stable": true,
+          "ordered_block_gap_at_t0_MeV": -0.5225818770488715,
+          "ordered_upper_d_check_applicable": false,
+          "ordered_upper_d_agrees": null,
+          "maximum_selected_residual_MeV": 4.987026972902695e-14,
+          "K_norm_MeV": 1.596043737520891,
+          "issues": [],
+          "local_tracking_checks_pass": false
+        },
+        "pass": false
+      },
+      "reference_shift_check": {
+        "common_shift_MeV": 100.0,
+        "comparison": {
+          "coarse_nodes": 2049,
+          "fine_nodes": 2049,
+          "same_labels_at_common_nodes": true,
+          "max_energy_change_MeV": 1.5898393712632242e-13,
+          "max_plus_weight_change": 2.97726288067679e-11,
+          "minimum_individual_fidelity_at_common_nodes": 0.9999999999999947,
+          "minimum_projector_fidelity_at_common_nodes": 0.9999999999999949,
+          "sampled_minimum_gap_change_MeV": 2.4868995751603507e-14,
+          "sampled_minimum_gap_stable": true,
+          "pass": true
+        },
+        "pass": false
+      },
+      "zero_coupling_check": {
+        "maximum_energy_error_MeV": 1.1546319456101628e-14,
+        "maximum_plus_weight_error": 3.3306690738754696e-16,
+        "minimum_seed_fidelity": 1.0,
+        "pass": true
+      },
+      "status": "unresolved-continuation-candidates-not-certified"
+    },
+    {
+      "two_I": 19,
+      "ordinals": [
+        0,
+        1
+      ],
+      "sector_dimension": 60,
+      "initial_embedding_error": 3.885780586188048e-16,
+      "build_errors": {
+        "unitarity_error": 1.4432899320127035e-15,
+        "direct_transform_error_MeV": 7.344472252590606e-14,
+        "D2_leakage_MeV": 5.179190409876355e-14,
+        "positive_reference_error_MeV": 7.105427357601002e-15,
+        "hermiticity_error_MeV": 1.1102230246251565e-15
+      },
+      "grids_attempted": [
+        {
+          "nodes": 33,
+          "diagnostics": {
+            "minimum_selected_step_overlap_squared": 0.952567218759968,
+            "minimum_selected_projector_step_singular_squared": 0.9525809344261806,
+            "minimum_assignment_margin": 0.905229194592378,
+            "minimum_sampled_selected_complement_gap_MeV": 0.010768025124320957,
+            "minimum_sampled_selected_all_other_gap_MeV": 0.010768025124320957,
+            "minimum_interval_selected_complement_gap_bound_MeV": -0.045779823974956904,
+            "minimum_interval_individual_gap_bound_MeV": -0.045779823974956904,
+            "gap_bounds_applicable_to_fixed_rank_labels": false,
+            "energy_rank_labels_stable": false,
+            "ordered_block_gap_at_t0_MeV": -2.424760685169953,
+            "ordered_upper_d_check_applicable": false,
+            "ordered_upper_d_agrees": null,
+            "maximum_selected_residual_MeV": 2.4070107839263827e-14,
+            "K_norm_MeV": 1.8095311647768915,
+            "issues": [
+              {
+                "kind": "energy_rank_jump_or_crossing_requires_resolution",
+                "step": 15,
+                "t": 0.46875,
+                "from": [
+                  57,
+                  59
+                ],
+                "to": [
+                  58,
+                  59
+                ]
+              },
+              {
+                "kind": "energy_rank_jump_or_crossing_requires_resolution",
+                "step": 29,
+                "t": 0.90625,
+                "from": [
+                  58,
+                  59
+                ],
+                "to": [
+                  58,
+                  60
+                ]
+              }
+            ],
+            "local_tracking_checks_pass": false
+          },
+          "comparison_to_previous_grid": null
+        },
+        {
+          "nodes": 129,
+          "diagnostics": {
+            "minimum_selected_step_overlap_squared": 0.5847655839123032,
+            "minimum_selected_projector_step_singular_squared": 0.5847662471480771,
+            "minimum_assignment_margin": 0.1695369157592581,
+            "minimum_sampled_selected_complement_gap_MeV": 0.003184563222383474,
+            "minimum_sampled_selected_all_other_gap_MeV": 0.003184563222383474,
+            "minimum_interval_selected_complement_gap_bound_MeV": -0.01095239920243599,
+            "minimum_interval_individual_gap_bound_MeV": -0.01095239920243599,
+            "gap_bounds_applicable_to_fixed_rank_labels": false,
+            "energy_rank_labels_stable": false,
+            "ordered_block_gap_at_t0_MeV": -2.424760685169953,
+            "ordered_upper_d_check_applicable": false,
+            "ordered_upper_d_agrees": null,
+            "maximum_selected_residual_MeV": 2.637288604648227e-14,
+            "K_norm_MeV": 1.8095311647768915,
+            "issues": [
+              {
+                "kind": "energy_rank_jump_or_crossing_requires_resolution",
+                "step": 59,
+                "t": 0.4609375,
+                "from": [
+                  57,
+                  59
+                ],
+                "to": [
+                  58,
+                  59
+                ]
+              },
+              {
+                "kind": "energy_rank_jump_or_crossing_requires_resolution",
+                "step": 114,
+                "t": 0.890625,
+                "from": [
+                  58,
+                  59
+                ],
+                "to": [
+                  58,
+                  60
+                ]
+              }
+            ],
+            "local_tracking_checks_pass": false
+          },
+          "comparison_to_previous_grid": {
+            "coarse_nodes": 33,
+            "fine_nodes": 129,
+            "same_labels_at_common_nodes": true,
+            "max_energy_change_MeV": 0.0,
+            "max_plus_weight_change": 0.0,
+            "minimum_individual_fidelity_at_common_nodes": 0.9999999999999958,
+            "minimum_projector_fidelity_at_common_nodes": 0.9999999999999958,
+            "sampled_minimum_gap_change_MeV": -0.007583461901937483,
+            "sampled_minimum_gap_stable": false,
+            "pass": false
+          }
+        },
+        {
+          "nodes": 513,
+          "diagnostics": {
+            "minimum_selected_step_overlap_squared": 0.9274669707597258,
+            "minimum_selected_projector_step_singular_squared": 0.9274669581205478,
+            "minimum_assignment_margin": 0.8549342814678702,
+            "minimum_sampled_selected_complement_gap_MeV": 0.00026480954864727124,
+            "minimum_sampled_selected_all_other_gap_MeV": 0.00026480954864727124,
+            "minimum_interval_selected_complement_gap_bound_MeV": -0.003269431207557595,
+            "minimum_interval_individual_gap_bound_MeV": -0.003269431207557595,
+            "gap_bounds_applicable_to_fixed_rank_labels": false,
+            "energy_rank_labels_stable": false,
+            "ordered_block_gap_at_t0_MeV": -2.424760685169953,
+            "ordered_upper_d_check_applicable": false,
+            "ordered_upper_d_agrees": null,
+            "maximum_selected_residual_MeV": 3.706455210436695e-14,
+            "K_norm_MeV": 1.8095311647768915,
+            "issues": [
+              {
+                "kind": "energy_rank_jump_or_crossing_requires_resolution",
+                "step": 234,
+                "t": 0.45703125,
+                "from": [
+                  57,
+                  59
+                ],
+                "to": [
+                  58,
+                  59
+                ]
+              }
+            ],
+            "local_tracking_checks_pass": false
+          },
+          "comparison_to_previous_grid": {
+            "coarse_nodes": 129,
+            "fine_nodes": 513,
+            "same_labels_at_common_nodes": false,
+            "max_energy_change_MeV": 0.17078368213102024,
+            "max_plus_weight_change": 0.8079196059059063,
+            "minimum_individual_fidelity_at_common_nodes": 4.094973402324558e-34,
+            "minimum_projector_fidelity_at_common_nodes": 3.979765603186722e-34,
+            "sampled_minimum_gap_change_MeV": -0.002919753673736203,
+            "sampled_minimum_gap_stable": false,
+            "pass": false
+          }
+        },
+        {
+          "nodes": 2049,
+          "diagnostics": {
+            "minimum_selected_step_overlap_squared": 0.9945360097473548,
+            "minimum_selected_projector_step_singular_squared": 0.9945360095954077,
+            "minimum_assignment_margin": 0.9890720407472908,
+            "minimum_sampled_selected_complement_gap_MeV": 0.0001677832593447448,
+            "minimum_sampled_selected_all_other_gap_MeV": 0.0001677832593447448,
+            "minimum_interval_selected_complement_gap_bound_MeV": -0.0007157770797064717,
+            "minimum_interval_individual_gap_bound_MeV": -0.0007157770797064717,
+            "gap_bounds_applicable_to_fixed_rank_labels": false,
+            "energy_rank_labels_stable": false,
+            "ordered_block_gap_at_t0_MeV": -2.424760685169953,
+            "ordered_upper_d_check_applicable": false,
+            "ordered_upper_d_agrees": null,
+            "maximum_selected_residual_MeV": 3.820057173591735e-14,
+            "K_norm_MeV": 1.8095311647768915,
+            "issues": [
+              {
+                "kind": "energy_rank_jump_or_crossing_requires_resolution",
+                "step": 936,
+                "t": 0.45703125,
+                "from": [
+                  57,
+                  59
+                ],
+                "to": [
+                  58,
+                  59
+                ]
+              }
+            ],
+            "local_tracking_checks_pass": false
+          },
+          "comparison_to_previous_grid": {
+            "coarse_nodes": 513,
+            "fine_nodes": 2049,
+            "same_labels_at_common_nodes": true,
+            "max_energy_change_MeV": 0.0,
+            "max_plus_weight_change": 0.0,
+            "minimum_individual_fidelity_at_common_nodes": 0.9999999999999927,
+            "minimum_projector_fidelity_at_common_nodes": 0.9999999999999927,
+            "sampled_minimum_gap_change_MeV": -9.702628930252644e-05,
+            "sampled_minimum_gap_stable": false,
+            "pass": false
+          }
+        }
+      ],
+      "final_grid_nodes": 2049,
+      "forward_diagnostics": {
+        "minimum_selected_step_overlap_squared": 0.9945360097473548,
+        "minimum_selected_projector_step_singular_squared": 0.9945360095954077,
+        "minimum_assignment_margin": 0.9890720407472908,
+        "minimum_sampled_selected_complement_gap_MeV": 0.0001677832593447448,
+        "minimum_sampled_selected_all_other_gap_MeV": 0.0001677832593447448,
+        "minimum_interval_selected_complement_gap_bound_MeV": -0.0007157770797064717,
+        "minimum_interval_individual_gap_bound_MeV": -0.0007157770797064717,
+        "gap_bounds_applicable_to_fixed_rank_labels": false,
+        "energy_rank_labels_stable": false,
+        "ordered_block_gap_at_t0_MeV": -2.424760685169953,
+        "ordered_upper_d_check_applicable": false,
+        "ordered_upper_d_agrees": null,
+        "maximum_selected_residual_MeV": 3.820057173591735e-14,
+        "K_norm_MeV": 1.8095311647768915,
+        "issues": [
+          {
+            "kind": "energy_rank_jump_or_crossing_requires_resolution",
+            "step": 936,
+            "t": 0.45703125,
+            "from": [
+              57,
+              59
+            ],
+            "to": [
+              58,
+              59
+            ]
+          }
+        ],
+        "local_tracking_checks_pass": false
+      },
+      "reverse_check": {
+        "comparison": {
+          "coarse_nodes": 2049,
+          "fine_nodes": 2049,
+          "same_labels_at_common_nodes": true,
+          "max_energy_change_MeV": 0.0,
+          "max_plus_weight_change": 0.0,
+          "minimum_individual_fidelity_at_common_nodes": 0.999999999999992,
+          "minimum_projector_fidelity_at_common_nodes": 0.9999999999999913,
+          "sampled_minimum_gap_change_MeV": 0.0,
+          "sampled_minimum_gap_stable": true,
+          "pass": true
+        },
+        "return_seed_fidelities": [
+          1.0,
+          1.0
+        ],
+        "diagnostics": {
+          "minimum_selected_step_overlap_squared": 0.9945360097473548,
+          "minimum_selected_projector_step_singular_squared": 0.9945360095954079,
+          "minimum_assignment_margin": 0.9890720406197802,
+          "minimum_sampled_selected_complement_gap_MeV": 0.0001677832593447448,
+          "minimum_sampled_selected_all_other_gap_MeV": 0.0001677832593447448,
+          "minimum_interval_selected_complement_gap_bound_MeV": -0.0007157770797064717,
+          "minimum_interval_individual_gap_bound_MeV": -0.0007157770797064717,
+          "gap_bounds_applicable_to_fixed_rank_labels": false,
+          "energy_rank_labels_stable": false,
+          "ordered_block_gap_at_t0_MeV": -2.424760685169953,
+          "ordered_upper_d_check_applicable": false,
+          "ordered_upper_d_agrees": null,
+          "maximum_selected_residual_MeV": 3.820057173591735e-14,
+          "K_norm_MeV": 1.8095311647768915,
+          "issues": [
+            {
+              "kind": "energy_rank_jump_or_crossing_requires_resolution",
+              "step": 1113,
+              "t": 0.45654296875,
+              "from": [
+                58,
+                59
+              ],
+              "to": [
+                57,
+                59
+              ]
+            }
+          ],
+          "local_tracking_checks_pass": false
+        },
+        "pass": false
+      },
+      "reference_shift_check": {
+        "common_shift_MeV": 100.0,
+        "comparison": {
+          "coarse_nodes": 2049,
+          "fine_nodes": 2049,
+          "same_labels_at_common_nodes": true,
+          "max_energy_change_MeV": 1.9095836023552692e-13,
+          "max_plus_weight_change": 6.2038707504541435e-12,
+          "minimum_individual_fidelity_at_common_nodes": 0.9999999999999933,
+          "minimum_projector_fidelity_at_common_nodes": 0.9999999999999933,
+          "sampled_minimum_gap_change_MeV": 5.5067062021407764e-14,
+          "sampled_minimum_gap_stable": true,
+          "pass": true
+        },
+        "pass": false
+      },
+      "zero_coupling_check": {
+        "maximum_energy_error_MeV": 7.105427357601002e-15,
+        "maximum_plus_weight_error": 2.220446049250313e-16,
+        "minimum_seed_fidelity": 1.0,
+        "pass": true
+      },
+      "status": "unresolved-continuation-candidates-not-certified"
+    }
+  ]
+}

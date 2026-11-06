@@ -1,0 +1,41 @@
+[
+  {
+    "filename": "werner2000-nucl-th-0005013.pdf",
+    "url": "https://arxiv.org/pdf/nucl-th/0005013",
+    "title": "Quadrupole shape invariants in the interacting boson model",
+    "doi": "10.1103/PhysRevC.61.021301",
+    "kind": "pdf",
+    "access_scope": "Public author-deposited arXiv original; local research copy; redistribution license not established."
+  },
+  {
+    "filename": "nomura2018-prolate-oblate-odd-mass.pdf",
+    "url": "https://nur.nu.edu.kz/server/api/core/bitstreams/25e44a28-ca9c-4df1-aa8b-0da646c05730/content",
+    "title": "Prolate-to-oblate shape phase transitions in neutron-rich odd-mass nuclei",
+    "doi": "10.1103/PhysRevC.97.064314",
+    "kind": "pdf",
+    "access_scope": "Public institutional repository author manuscript; local research copy; publisher-version equivalence not assumed."
+  },
+  {
+    "filename": "werner2006-structural-evolution.pdf",
+    "url": "https://www.redalyc.org/pdf/570/57020498019.pdf",
+    "title": "Structural evolution from shape invariants",
+    "kind": "pdf",
+    "access_scope": "Public scholarly journal archive copy; local research use; precise reuse license not inferred."
+  },
+  {
+    "filename": "nomura2016-signatures-odd-mass.pdf",
+    "url": "https://repozitorij.pmf.unizg.hr/articles/pmf%3A7835/show-file/0",
+    "title": "Signatures of shape phase transitions in odd-mass nuclei",
+    "doi": "10.1103/PhysRevC.94.064310",
+    "kind": "pdf",
+    "access_scope": "Public university repository article copy; local research use; redistribution license not inferred."
+  },
+  {
+    "filename": "rocchini-zielinska2021-coulex-shell-model.pdf",
+    "url": "https://inspirehep.net/files/6c980b48d9a9e7d7f621c9282d6ffb49",
+    "title": "Low-Energy Coulomb Excitation for the Shell Model",
+    "doi": "10.3390/physics3040078",
+    "kind": "pdf",
+    "access_scope": "Public INSPIRE full-text deposit of the journal article; license to be read from the acquired original."
+  }
+]

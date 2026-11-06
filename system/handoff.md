@@ -1,7 +1,25 @@
 ---
 graph-excluded: true
-updated: 2026-11-05
+updated: 2026-11-06
 ---
+
+## Active continuation — 2026-11-06：奇Ba完整电荷矩与通道重分配
+
+- **Goal仍active**：全库学习/审计、A≈130创新调查和聚焦可发表文章。可编译草稿和通过数值检查不等于完整目标完成。
+- **本批次归档指针**：`main / research: establish odd-Ba quadrupole redistribution study`。实际commit/push结果、最终精确hash及post-commit核对写入`outputs/l4/20261105-ba129-controlled-pairing/publication-final-receipt.local.json`；不要从草稿可编译反推投稿或发表状态。
+- **主计算完成**：`system/scripts/ba_quadrupole_closure_study.py`和`outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/study.json`，固定129–137Ba最低11/2态，按五偶芯B(E2)定eB，主算符chiE=.35、eF=.125；主算符最大direct/6j残差q2=4.53e-13、q3=8.49e-13。
+- **主要结果**：五态占15/2通道99.59–99.85%，只占完整q2的20.00–28.90%；135Ba的z5=1.02611456、z_all=1.02414414，实数角未定义，未截断。其完整signed ratio=-.0505213，folded angle29.0347°；q2沿链由1.53187降至.47677e²b²。
+- **算符敏感性完成**：35设置保留通道饱和/完整覆盖差别；改变chiE为0或chiH会消除135Ba越域并翻转部分完整q3符号/角度趋势。此限制已经写入知识页和稿件，不能称越域对算符普遍稳健。
+- **机制检查完成**：固定芯/交换/单极/E2的135Gamma五点路径，q2跨度<2.6%，静态份额.0091%→33.69%；双向跟踪均为最低11/2分支，相邻fidelity≥.907、采样gap≥.481MeV。不声称未采样连续区间的定理。
+- **静态矩条件控制完成**：主135Qs=1.17693，高于评价.96(8)。用Qs单独匹配Gamma后，完整/受限角仍差13.53°–18.83°，但中心匹配将15/2间距691.9→526.6keV，不是全谱拟合。另按136/137矩定标E2的五中央值分支均保留；部分135矩预测改善而完整r<-1，完整角也会未定义。分支B–Q协方差和135/137来源依赖明确保留。
+- **137Ba资料更新**：Vogt2017（2017-02-15）给2229.8keV (15/2−)候选和1568.2keV连接；589(20)ns/.46(3)W.u.属于更高19/2→15/2，仍非目标分母。旧2007评价无目标的判断只保留为历史范围。
+- **来源/审查**：C_E2归属已纠正为parent/task，数据不变；芯/静态矩、最近先例和Vogt原实验均有canonical source。独立内部审查及MF1–MF3复核支持有边界的EPJA模型研究贡献，实际review文件在稿件analysis与本批review目录；不称外部审稿或接受决定。
+- **新文章路径**：`raw/writing/gpt/odd-ba-quadrupole-closure/`，main.tex/PDF、data固定输入/结果/代码、figures/made均已形成。所有数值分支均从随文包独立重放；data/manifest登记45个文件约1.1MB。作者信息明确占位，未投稿。最终分页、字体/溢出检查见analysis/latex-check.json。
+- **知识写回**：`odd-ba-quadrupole-closure-and-spin-channel-redistribution.md`、模型页、Nomura source补核及index已更新。Nomura原图重放仍未闭合，不能把本独立模型结果说成原图纠错。
+- **本轮验证**：IBFM25+scalar28为稿件直接模块，另Nambu19，合计72测试通过；主链、35算符、耦合/Gamma、Qs匹配和五分支E2定标的随文重放均通过。Wiki lint已得0errors，archive与preflight通过；最终检查/状态以发布回执为准。
+- **重放边界**：五分支E2原producer绑定的旧可维护source页字节未恢复。随文适配器保留数值合同和原producer，验证四个模块；历史源哈希仅记录、不冒称重新校验。原始ENSDF仍在raw，不能把缺失旧页面静默替成新版。
+- **下一步**：完成本批最终发布核对后继续全库尚未完成的阅读/错误审计及真正独立的E2网络约束；不以此稿存在宣称所有raw全文已读，也不为凑结论反复重算已闭合的同义控制。新稿只保留这一物理主线，旧Nambu/角分布路线留在各自记录。
+- **文件边界**：保留用户PLAN修改，不检查、测试、改写或回退get-paper安装，不处理其它session改动。现有run目录保持20261105名称，实际新UTC时间记录在各run文件中。
 
 ## Active continuation — 2026-11-05：129Ba 原件与多观测量预测
 

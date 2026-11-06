@@ -1,0 +1,245 @@
+{
+  "status": "core_algebra_and_selected_source_roles_checked;no_shape_or_rigidity_certification",
+  "input_sha256": {
+    "raw/papers/gpt/query/20261105-ba129-core-constraints/nndc128-adopted-text.ens": "2d1496086cc5f5ebbbbd3bae6c5817135602c556bcfe95c11fbc54372a949c7e",
+    "raw/papers/gpt/query/20261105-ba129-core-constraints/nndc130-adopted-text.ens": "b4682961ea13bf6c43b7a5f708c52bedc28e048df26e9ab6a62b3a758d4655e1",
+    "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2001_Königshofen et al_Multipole mixing ratios in 130 Ba.pdf": "34428af79a8dcc3a7dc27a6a416c3fa556a2d37e763df76cb1218241f370a755",
+    "raw/papers/gpt/query/20261105-ba129-core-constraints/nndc131-dp-text.ens": "e2a32bd7e63274f7a70f9a3aa2ce3ac83c0609eb80f11cc2e6bbccc54e1a47c0",
+    "system/scripts/ba129_core_constraints.py": "e2056e2ec101bc8d659e63d8d33f148b5cca446c29dfc5de70193f69be276faa",
+    "outputs/l4/20261105-ba129-controlled-pairing/core/core-constraints.json": "a4b30ea06885171a5474a495837a5845bfc8c0b2802e17d0c437fdac5f0b18d0",
+    "raw/books/Nuclear Models (Walter Greiner, Joachim A. Maruhn) (Z-Library).pdf": "db5e43efaa80877822540bf0caae9be93d54d5499c5df89faae69769e6f77091",
+    "raw/papers/gpt/query/20261105-ba129-core-constraints/nndc128-adopted.pdf": "a2903df5ee68aee7e6e9dda1401b164c5fcff17db9272b9b7acc1eb9e7887d7c",
+    "raw/papers/gpt/query/20261105-ba129-core-constraints/nndc130-adopted.pdf": "cb6237633a0d0ac76ef7f3c5d039b479369c96b5ccd4d4d8af6592e22a3ada96",
+    "tmp/ba129-controlled-pairing/greiner/pdf-page-164.png": "d04c404070f475137af084b50a39541207d742e06c947ff29dd77b60e5238d38",
+    "tmp/ba129-controlled-pairing/greiner/pdf-page-165.png": "2c10cf160805301de0b124ac7ae7c3b47a5bb8622a4e1696a6ddd3a5e84aa172",
+    "tmp/ba129-controlled-pairing/greiner/pdf-page-166.png": "c09b499dbbe0286bccd937a3df03163f941b45020bb52c5e746db4b11a5b686a",
+    "tmp/ba129-controlled-pairing/source-pages/konigshofen-p2.png": "fff6a7b55edf4ae157d457047fcab15b73ba1a000fa6f68706f3f20277ada0b5"
+  },
+  "input_hashes_unchanged_after_checks": true,
+  "scope_exclusion": "The parent's 131Ba transfer/addition readiness conclusion is not independently assessed here; its input hash is checked only.",
+  "checks": {
+    "D2_projector_Hermitian": 4.7047448307724675e-15,
+    "D2_projector_idempotent": 1.4547535242343269e-15,
+    "D2_K_basis_equals_group_projector": 8.8827190584747e-16,
+    "I2_cartesian_vs_analytic_matrix": 1.0658141036401503e-14,
+    "I2_closed_eigenvalues": 1.0658141036401503e-14,
+    "I3_scalar": 1.4210854715202004e-14,
+    "constant_inertia_trace_identity": 2.842170943040401e-14,
+    "I4_cartesian_vs_analytic_matrix": 8.526512829121202e-14,
+    "CG_J_squared_reference": 1.797342388949865e-15,
+    "T20_from_independent_CG": 3.3306690738754696e-16,
+    "T22_from_independent_CG": 6.661338147750939e-16,
+    "matrix_vs_analytic_B21_2first_to_0": 8.326672684688674e-17,
+    "matrix_vs_analytic_B20_2second_to_0": 9.974659986866641e-17,
+    "matrix_vs_analytic_B22_2second_to_2first": 6.106226635438361e-16,
+    "matrix_vs_analytic_B20_over_B22": 1.9984014443252818e-14,
+    "matrix_vs_analytic_B22_over_B21": 2.886579864025407e-15,
+    "upward_0_to_2_closure": 4.440892098500626e-16,
+    "downward_strength_sum": 8.326672684688674e-17,
+    "requested_gamma26_R4_over_2": 1.3064177295518675e-08,
+    "requested_gamma26_B22_over_B21": 2.633174789323789e-08,
+    "axial_ratio_limit": 1.1102230246251565e-16,
+    "gamma30_zero_ground_branch": 2.6245796196582508e-33,
+    "gamma30_B22_over_B21": 0.0,
+    "selected_ENSDF_energy_keV": 0.0,
+    "core_energy_trace_violation_keV": 0.0,
+    "equal_weight_RMS_plane_lower_bound_keV": 0.0,
+    "observed_R4_over_2": 0.0,
+    "conditional_two_energy_gamma_deg": 0.0,
+    "conditional_branch_ratio_reproduced": 8.326672684688674e-17,
+    "Konigshofen_derived_same_input_B_ratio": 0.0,
+    "Konigshofen_reported_relative_B": 0.0,
+    "Konigshofen_relative_B_margin": 0.0
+  },
+  "counts": {
+    "arbitrary_positive_A_cases": 32,
+    "integer_D2_representations": 9,
+    "angle_controls": 15
+  },
+  "definitions": {
+    "A_k": "hbar^2/(2 J_k), in one common energy unit",
+    "B21": "B(E2;2_1->0_1)",
+    "B20": "B(E2;2_2->0_1)",
+    "B22": "B(E2;2_2->2_1)",
+    "s": "sin^2(3 gamma)",
+    "d": "9-8s",
+    "B21_unit": "(1+(3-2s)/sqrt(d))/10",
+    "B20_unit": "(1-(3-2s)/sqrt(d))/10",
+    "B22_unit": "(2/7)*s/d",
+    "B20_over_B22": "(7/20)*(d-(3-2s)*sqrt(d))/s",
+    "stable_B20_over_B22": "(7/5)*sqrt(d)*(1-s)/(sqrt(d)+3-2s)",
+    "B22_over_B21": "(20/7)*s/(d+(3-2s)*sqrt(d))"
+  },
+  "gamma26": {
+    "gamma_deg": 26,
+    "R4_over_2": 2.7813583130641772,
+    "matrix_B21": 0.19365228247250024,
+    "matrix_B20": 0.006347717527499743,
+    "matrix_B22": 0.2031207803665985,
+    "matrix_B20_over_B22": 0.03125095086796728,
+    "matrix_B22_over_B21": 1.0488943263317478,
+    "B21_2first_to_0": 0.1936522824725002,
+    "B20_2second_to_0": 0.0063477175274998425,
+    "B22_2second_to_2first": 0.20312078036659809,
+    "B20_over_B22": 0.03125095086796783,
+    "B22_over_B21": 1.048894326331746
+  },
+  "limits_gamma0": {
+    "B21_2first_to_0": 0.2,
+    "B20_2second_to_0": 0.0,
+    "B22_2second_to_2first": 0.0,
+    "B20_over_B22": 0.6999999999999998,
+    "B22_over_B21": 0.0
+  },
+  "limits_gamma30": {
+    "B21_2first_to_0": 0.2,
+    "B20_2second_to_0": 7.498798913309288e-34,
+    "B22_2second_to_2first": 0.2857142857142857,
+    "B20_over_B22": 2.6245796196582508e-33,
+    "B22_over_B21": 1.4285714285714286
+  },
+  "Greiner_printed_matrix_inconsistency": {
+    "status": "local_printed_expressions_inconsistent_with_normalized_D2_basis",
+    "locator": "Greiner printed p147 Exercise6.6(3)-(4), compared with normalized basis p145 Eq6.169 and Cartesian H on p146",
+    "A_k_hbar1": [
+      1.0,
+      2.0,
+      3.0
+    ],
+    "normalized_H2": [
+      [
+        9.0,
+        -1.7320508075688772
+      ],
+      [
+        -1.7320508075688772,
+        15.0
+      ]
+    ],
+    "normalized_eigenvalues": [
+      8.535898384862245,
+      15.464101615137753
+    ],
+    "literal_exercise_H2": [
+      [
+        9.0,
+        -4.898979485566356
+      ],
+      [
+        -4.898979485566356,
+        15.0
+      ]
+    ],
+    "literal_exercise_eigenvalues": [
+      6.255437353461971,
+      17.74456264653803
+    ],
+    "offdiagonal_printed_to_normalized_factor": 2.8284271247461903,
+    "trace_identity_survives": true,
+    "boundary": "No published erratum was searched; no skill, source page or knowledge file was changed."
+  },
+  "core_data": {
+    "128": {
+      "selected_levels": {
+        "2_1": {
+          "energy_keV": 284.0,
+          "Jpi_literal": "2+",
+          "locator": "line 48"
+        },
+        "2_2": {
+          "energy_keV": 884.5,
+          "Jpi_literal": "2+",
+          "locator": "line 60"
+        },
+        "3_1": {
+          "energy_keV": 1324.37,
+          "Jpi_literal": "3+",
+          "locator": "line 83"
+        },
+        "4_1": {
+          "energy_keV": 763.32,
+          "Jpi_literal": "4+",
+          "locator": "line 54"
+        }
+      },
+      "PDF_locator": "adopted PDF physical page1",
+      "E3_minus_E21_minus_E22_keV": 155.8699999999999,
+      "unweighted_3point_RMS_lower_bound_keV": 51.95666666666663,
+      "observed_R4_over_2": 2.6877464788732395,
+      "conditional_gamma_deg": 21.829736850783817,
+      "complement_gamma_deg": 38.17026314921618,
+      "conditional_irrotational_R4_over_2": 3.0233324154199765,
+      "conditional_B20_over_B22": 0.12872361037436136,
+      "conditional_B22_over_B21": 0.5316300870006125,
+      "conditional_on_3plus_assignment": false
+    },
+    "130": {
+      "selected_levels": {
+        "2_1": {
+          "energy_keV": 357.38,
+          "Jpi_literal": "2+",
+          "locator": "line 43"
+        },
+        "2_2": {
+          "energy_keV": 908.02,
+          "Jpi_literal": "2+",
+          "locator": "line 69"
+        },
+        "3_1": {
+          "energy_keV": 1361.06,
+          "Jpi_literal": "3(+)",
+          "locator": "line 80"
+        },
+        "4_1": {
+          "energy_keV": 901.85,
+          "Jpi_literal": "4+",
+          "locator": "line 64"
+        }
+      },
+      "PDF_locator": "adopted PDF physical page1",
+      "E3_minus_E21_minus_E22_keV": 95.65999999999997,
+      "unweighted_3point_RMS_lower_bound_keV": 31.886666666666656,
+      "observed_R4_over_2": 2.523504393082993,
+      "conditional_gamma_deg": 24.247000449755834,
+      "complement_gamma_deg": 35.75299955024417,
+      "conditional_irrotational_R4_over_2": 2.8802391176628066,
+      "conditional_B20_over_B22": 0.06483126970892651,
+      "conditional_B22_over_B21": 0.8043372914656276,
+      "conditional_on_3plus_assignment": true
+    }
+  },
+  "Konigshofen_data_roles": {
+    "locator": "Konigshofen2001 printed037302-2 TableI first two rows; publication22-Aug-2001",
+    "parent_energy_keV": 907.7,
+    "target_gamma_to_ground_keV": 907.7,
+    "reference_gamma_to_2first_keV": 550.5,
+    "photon_ratio": 0.74,
+    "delta_E2_M1": -75,
+    "delta_quoted_margin": 20,
+    "reported_B20_over_B22": 0.061,
+    "reported_margin": 0.002,
+    "derived_from_same_RI_and_delta": 0.0607272843011564,
+    "IBA_CQF_prediction_not_measurement": 0.062,
+    "NNDC130_separate_energy_version": {
+      "header": "200107/01NDS; cutoff11-May-2001",
+      "parent_energy_keV": 908.02,
+      "ground_branch_RI": "66(3) relative to100(6)",
+      "reference_gamma_keV": 550.7,
+      "ground_gamma_keV": 908.0,
+      "mixing_ratio_comment": "-0.296(7) or -40(13)",
+      "boundary": "Do not merge these intensities/roots with the 2001 paper's rows into one dataset."
+    }
+  },
+  "source_locators": {
+    "Greiner": "raw/books/Nuclear Models (Walter Greiner, Joachim A. Maruhn) (Z-Library).pdf; printed145-147/PDF164-166",
+    "Greiner_E2_ratio_attribution": "The requested E2 branch formulas are not stated on these three pages; they are independently derived here.",
+    "local_formula_crops": "tmp/ba129-controlled-pairing/core-review/"
+  },
+  "interpretation_limits": [
+    "The trace identity applies to a single constant-inertia D2 rotor independently of irrotationality.",
+    "Its failure, conditional on level assignments, does not uniquely identify gamma softness.",
+    "The two-energy gamma is an inferred model coordinate with a complementary branch, not a directly measured shape.",
+    "One relative E2 agreement does not validate gamma rigidity; other Hamiltonians/operators can reproduce it.",
+    "No covariance, confidence level, novelty claim, re-fit, or promotion of 3(+) to3+ is made."
+  ]
+}

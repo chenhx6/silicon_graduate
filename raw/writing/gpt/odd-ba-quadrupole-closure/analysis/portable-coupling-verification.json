@@ -1,0 +1,14 @@
+{
+  "at_utc": "2026-11-06T04:01:21.327475+00:00",
+  "kind": "coupling",
+  "status": "passed",
+  "producer_exit_code": 0,
+  "compared_fields": [
+    "cases",
+    "adjacent_grid_overlaps"
+  ],
+  "relative_tolerance": 1e-09,
+  "absolute_tolerance": 1e-10,
+  "result": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/controls.json",
+  "boundary": "Numerical reproducibility, not empirical validation or journal readiness."
+}

@@ -2,10 +2,24 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-11-05
+updated: 2026-11-06
 ---
 
 # Wiki Index
+
+## 奇Ba四极闭合与受控模型检查（2026-11-06）
+
+- [[odd-ba-quadrupole-closure-and-spin-channel-redistribution]] — 固定11/2自旋的129–137Ba电荷标定、完整二/三次矩与J+2受限量比较；保留有符号相消、角度越域和算符敏感性。
+- [[nndc-ba128-136-core-e2-calibration]] — 五个偶Ba芯第一2+强度的评价来源、半衰期/平均寿命、上下跃迁方向、替代分支及协方差边界。
+- [[nndc-ba135-ba137-static-e2-constraints]] — 135/137Ba静态矩、136Ba定标分支以及第一15/2→11/2绝对E2分母的实际资料边界。
+- [[vogt-2017-135xe-137ba-isomers-high-spin]] — 2017原实验补足137Ba的(15/2−)候选；区分1568-keV目标线与19/2态的589-ns寿命、120-keV E2强度。
+- [[quadrupole-invariant-spin-channel-precedents]] — Nomura2016、Rouoof2025、Frauendorf2026和Lawrie–Orce2025最接近先例、来源依赖与有效指标的条件。
+- [[single-j-interacting-boson-fermion-model]] — s、d玻色子与单h11/2费米子的可执行Hamiltonian、交换正规排序和同波函数电磁算符。
+- [[ba129-core-and-pairing-validity]] — 恒定惯量三态关系、配对舍弃耦合与实际129Ba多观测量检验；与四极闭合论文分开保存。
+- [[nndc-ba128-ba130-core-ba131-transfer]] — 128/130Ba核芯与131Ba转移资料的输入版本和适用边界。
+- [[klein-2000-v1-number-conserving-foundations]]、[[protopapas-klein-1997-core-particle-approximation]] — 数目守恒核芯—粒子框架与延拓路径的原文区别。
+- [[kumar-2024-ba129-branch-report]] — DAE67独立采集的实际实验身份、条件光子比和混合比依赖。
+- [[stuch-2000-ba-lifetime-access-audit]] — 寿命原文访问边界、评价半衰期及学位论文目录定位。
 
 ## 当前投稿合规来源
 

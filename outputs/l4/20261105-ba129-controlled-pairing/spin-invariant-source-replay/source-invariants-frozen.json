@@ -1,0 +1,622 @@
+{
+  "schema": "nomura-invariant-source-only-v1",
+  "review_date_declared": "2026-11-06",
+  "container_observed_utc": "2026-11-05T18:19:16.533561+00:00",
+  "archive": "raw/papers/gpt/query/20261105-nomura2017-input-audit/nomura2017-v2-source.tar.gz",
+  "archive_sha256": "f7ed6dc746f50f16169d8796e4d12becd8827eaf4ac2ee4d5f1ff9cd04690faf",
+  "independence": "This extractor reads only source archive/vector figures. No kernel, probe, case, previous marker JSON or target-model parameter is read.",
+  "precision": "Vector coordinate arithmetic, not statistical uncertainty. Report beta to 5 decimals and gamma to 0.001 degree. Source numerical plotting table and rounding rule are unavailable.",
+  "extraction_history": "The initial uniform 2e-5 pt marker/path guard failed on independent coordinate transforms (maximum 3.41197e-5 pt). It was replaced, before any probe read, by three float32 coordinate-resolution units. No axis or marker position was adjusted.",
+  "panels": [
+    {
+      "member": "even.qinvar.pdf",
+      "sha256": "0665941852b4c34202bfbc5c7c1b28ac17149f53a2dd20c8afa87247388dcb23",
+      "panel": "Fig.13(a), core Ba J=0",
+      "quantity": "beta",
+      "units": "dimensionless",
+      "points": [
+        {
+          "neutron_number": 72,
+          "isotope": "128Ba",
+          "two_J": 0,
+          "marker_path": 3,
+          "connecting_path": 2,
+          "center_pt": [
+            76.6606216430664,
+            36.30145263671875
+          ],
+          "curve_vertex_pt": [
+            76.6606216430664,
+            36.30145263671875
+          ],
+          "marker_curve_distance_pt": 0.0,
+          "fill_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coordinate_acceptance_pt": 2.7415975637268275e-05,
+          "marker_shape": "circle",
+          "value": 0.23724997456693708,
+          "display_rounded": 0.23725
+        },
+        {
+          "neutron_number": 74,
+          "isotope": "130Ba",
+          "two_J": 0,
+          "marker_path": 4,
+          "connecting_path": 2,
+          "center_pt": [
+            121.30062103271484,
+            47.25101852416992
+          ],
+          "curve_vertex_pt": [
+            121.30062866210938,
+            47.251007080078125
+          ],
+          "marker_curve_distance_pt": 1.375408659158321e-05,
+          "fill_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coordinate_acceptance_pt": 4.3380485294619575e-05,
+          "marker_shape": "circle",
+          "value": 0.21363997370754303,
+          "display_rounded": 0.21364
+        },
+        {
+          "neutron_number": 76,
+          "isotope": "132Ba",
+          "two_J": 0,
+          "marker_path": 5,
+          "connecting_path": 2,
+          "center_pt": [
+            165.94061279296875,
+            60.482322692871094
+          ],
+          "curve_vertex_pt": [
+            165.9406280517578,
+            60.4822998046875
+          ],
+          "marker_curve_distance_pt": 2.750817318316642e-05,
+          "fill_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coordinate_acceptance_pt": 5.9344994951970875e-05,
+          "marker_shape": "circle",
+          "value": 0.18510997480119765,
+          "display_rounded": 0.18511
+        },
+        {
+          "neutron_number": 78,
+          "isotope": "134Ba",
+          "two_J": 0,
+          "marker_path": 6,
+          "connecting_path": 2,
+          "center_pt": [
+            210.5806121826172,
+            70.59710693359375
+          ],
+          "curve_vertex_pt": [
+            210.58062744140625,
+            70.59710693359375
+          ],
+          "marker_curve_distance_pt": 1.52587890625e-05,
+          "fill_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coordinate_acceptance_pt": 7.530950097134337e-05,
+          "marker_shape": "circle",
+          "value": 0.16329997182293005,
+          "display_rounded": 0.1633
+        },
+        {
+          "neutron_number": 80,
+          "isotope": "136Ba",
+          "two_J": 0,
+          "marker_path": 7,
+          "connecting_path": 2,
+          "center_pt": [
+            255.22060775756836,
+            96.45217895507812
+          ],
+          "curve_vertex_pt": [
+            255.2206268310547,
+            96.45216369628906
+          ],
+          "marker_curve_distance_pt": 2.442598051999225e-05,
+          "fill_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coordinate_acceptance_pt": 9.127400699071586e-05,
+          "marker_shape": "circle",
+          "value": 0.10754997415895523,
+          "display_rounded": 0.10755
+        }
+      ],
+      "axis": {
+        "y_ticks": [
+          {
+            "path_index": 24,
+            "value": 0.0,
+            "y_pt": 146.33042907714844
+          },
+          {
+            "path_index": 26,
+            "value": 0.05,
+            "y_pt": 123.14202880859375
+          },
+          {
+            "path_index": 28,
+            "value": 0.1,
+            "y_pt": 99.95361328125
+          },
+          {
+            "path_index": 30,
+            "value": 0.15000000000000002,
+            "y_pt": 76.76521301269531
+          },
+          {
+            "path_index": 32,
+            "value": 0.2,
+            "y_pt": 53.576812744140625
+          },
+          {
+            "path_index": 34,
+            "value": 0.25,
+            "y_pt": 30.388397216796875
+          }
+        ],
+        "x_ticks": [
+          {
+            "path_index": 14,
+            "neutron_number": 72,
+            "x_pt": 76.6606216430664
+          },
+          {
+            "path_index": 16,
+            "neutron_number": 74,
+            "x_pt": 121.30062866210938
+          },
+          {
+            "path_index": 18,
+            "neutron_number": 76,
+            "x_pt": 165.9406280517578
+          },
+          {
+            "path_index": 20,
+            "neutron_number": 78,
+            "x_pt": 210.58062744140625
+          },
+          {
+            "path_index": 22,
+            "neutron_number": 80,
+            "x_pt": 255.2206268310547
+          }
+        ],
+        "y_slope": -0.002156249946534635,
+        "y_intercept": 0.3155249798739915,
+        "x_slope": 0.044802866081783466,
+        "x_intercept": 68.56538443477942,
+        "remaining_tick_max_residual": 1.9741057899480552e-08
+      }
+    },
+    {
+      "member": "even.qinvar.pdf",
+      "sha256": "0665941852b4c34202bfbc5c7c1b28ac17149f53a2dd20c8afa87247388dcb23",
+      "panel": "Fig.13(b), core Ba J=0",
+      "quantity": "gamma",
+      "units": "degree",
+      "points": [
+        {
+          "neutron_number": 72,
+          "isotope": "128Ba",
+          "two_J": 0,
+          "marker_path": 42,
+          "connecting_path": 41,
+          "center_pt": [
+            76.6606216430664,
+            253.57577514648438
+          ],
+          "curve_vertex_pt": [
+            76.6606216430664,
+            253.57577514648438
+          ],
+          "marker_curve_distance_pt": 0.0,
+          "fill_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coordinate_acceptance_pt": 9.068576036952436e-05,
+          "marker_shape": "circle",
+          "value": 8.975220691351694,
+          "display_rounded": 8.975
+        },
+        {
+          "neutron_number": 74,
+          "isotope": "130Ba",
+          "two_J": 0,
+          "marker_path": 43,
+          "connecting_path": 41,
+          "center_pt": [
+            121.30062103271484,
+            239.8166046142578
+          ],
+          "curve_vertex_pt": [
+            121.30062866210938,
+            239.81661987304688
+          ],
+          "marker_curve_distance_pt": 1.7059844799040144e-05,
+          "fill_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coordinate_acceptance_pt": 8.576510299462825e-05,
+          "marker_shape": "circle",
+          "value": 11.94204221932955,
+          "display_rounded": 11.942
+        },
+        {
+          "neutron_number": 76,
+          "isotope": "132Ba",
+          "two_J": 0,
+          "marker_path": 44,
+          "connecting_path": 41,
+          "center_pt": [
+            165.94061279296875,
+            223.20257568359375
+          ],
+          "curve_vertex_pt": [
+            165.9406280517578,
+            223.2025909423828
+          ],
+          "marker_curve_distance_pt": 2.1579186437577746e-05,
+          "fill_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coordinate_acceptance_pt": 7.98234686953947e-05,
+          "marker_shape": "circle",
+          "value": 15.524442668723829,
+          "display_rounded": 15.524
+        },
+        {
+          "neutron_number": 78,
+          "isotope": "134Ba",
+          "two_J": 0,
+          "marker_path": 45,
+          "connecting_path": 41,
+          "center_pt": [
+            210.5806121826172,
+            212.52783203125
+          ],
+          "curve_vertex_pt": [
+            210.58062744140625,
+            212.52786254882812
+          ],
+          "marker_curve_distance_pt": 3.411968959808029e-05,
+          "fill_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coordinate_acceptance_pt": 7.600589015055448e-05,
+          "marker_shape": "circle",
+          "value": 17.82618456510059,
+          "display_rounded": 17.826
+        },
+        {
+          "neutron_number": 80,
+          "isotope": "136Ba",
+          "two_J": 0,
+          "marker_path": 46,
+          "connecting_path": 41,
+          "center_pt": [
+            255.22060775756836,
+            231.6732940673828
+          ],
+          "curve_vertex_pt": [
+            255.2206268310547,
+            231.67330932617188
+          ],
+          "marker_curve_distance_pt": 2.442598051999225e-05,
+          "fill_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "coordinate_acceptance_pt": 9.127400699071586e-05,
+          "marker_shape": "circle",
+          "value": 13.697943782064833,
+          "display_rounded": 13.698
+        }
+      ],
+      "axis": {
+        "y_ticks": [
+          {
+            "path_index": 63,
+            "value": 0,
+            "y_pt": 295.1999816894531
+          },
+          {
+            "path_index": 65,
+            "value": 5,
+            "y_pt": 272.0115966796875
+          },
+          {
+            "path_index": 67,
+            "value": 10,
+            "y_pt": 248.82318115234375
+          },
+          {
+            "path_index": 69,
+            "value": 15,
+            "y_pt": 225.634765625
+          },
+          {
+            "path_index": 71,
+            "value": 20,
+            "y_pt": 202.44638061523438
+          },
+          {
+            "path_index": 73,
+            "value": 25,
+            "y_pt": 179.25796508789062
+          },
+          {
+            "path_index": 75,
+            "value": 30,
+            "y_pt": 156.06956481933594
+          }
+        ],
+        "x_ticks": [
+          {
+            "path_index": 53,
+            "neutron_number": 72,
+            "x_pt": 76.6606216430664
+          },
+          {
+            "path_index": 55,
+            "neutron_number": 74,
+            "x_pt": 121.30062866210938
+          },
+          {
+            "path_index": 57,
+            "neutron_number": 76,
+            "x_pt": 165.9406280517578
+          },
+          {
+            "path_index": 59,
+            "neutron_number": 78,
+            "x_pt": 210.58062744140625
+          },
+          {
+            "path_index": 61,
+            "neutron_number": 80,
+            "x_pt": 255.2206268310547
+          }
+        ],
+        "y_slope": -0.21562502776086687,
+        "y_intercept": 63.65250424679572,
+        "x_slope": 0.044802866081783466,
+        "x_intercept": 68.56538443477942,
+        "remaining_tick_max_residual": 3.838539619493986e-06
+      }
+    },
+    {
+      "member": "oddn.qinvar.pdf",
+      "sha256": "9133869676413bc163f2e945e31c2042ce4fd07ccd9f78db36f33b66860081d9",
+      "panel": "Fig.14(a), odd Ba J=11/2",
+      "quantity": "beta",
+      "units": "dimensionless",
+      "points": [
+        {
+          "neutron_number": 73,
+          "isotope": "129Ba",
+          "two_J": 11,
+          "marker_path": 21,
+          "connecting_path": 20,
+          "center_pt": [
+            63.39925956726074,
+            38.92193603515625
+          ],
+          "curve_vertex_pt": [
+            63.39925765991211,
+            38.92193603515625
+          ],
+          "marker_curve_distance_pt": 1.9073486328125e-06,
+          "fill_rgb": [
+            0.75,
+            0.75,
+            0.0
+          ],
+          "coordinate_acceptance_pt": 2.2673340936307795e-05,
+          "marker_shape": "triangle_down",
+          "value": 0.5207999834103063,
+          "display_rounded": 0.5208
+        }
+      ],
+      "axis": {
+        "y_ticks": [
+          {
+            "path_index": 36,
+            "value": 0.0,
+            "y_pt": 184.54368591308594
+          },
+          {
+            "path_index": 38,
+            "value": 0.1,
+            "y_pt": 156.58251953125
+          },
+          {
+            "path_index": 40,
+            "value": 0.2,
+            "y_pt": 128.621337890625
+          },
+          {
+            "path_index": 42,
+            "value": 0.30000000000000004,
+            "y_pt": 100.66018676757812
+          },
+          {
+            "path_index": 44,
+            "value": 0.4,
+            "y_pt": 72.69903564453125
+          },
+          {
+            "path_index": 46,
+            "value": 0.5,
+            "y_pt": 44.73785400390625
+          }
+        ],
+        "x_ticks": [
+          {
+            "path_index": 26,
+            "neutron_number": 73,
+            "x_pt": 63.39925765991211
+          },
+          {
+            "path_index": 28,
+            "neutron_number": 75,
+            "x_pt": 96.54777526855469
+          },
+          {
+            "path_index": 30,
+            "neutron_number": 77,
+            "x_pt": 129.6962890625
+          },
+          {
+            "path_index": 32,
+            "neutron_number": 79,
+            "x_pt": 162.8448028564453
+          },
+          {
+            "path_index": 34,
+            "neutron_number": 81,
+            "x_pt": 195.99331665039062
+          }
+        ],
+        "y_slope": -0.0035763887183533857,
+        "y_intercept": 0.6599999563429112,
+        "x_slope": 0.06033452826551206,
+        "x_intercept": 69.17483569670556,
+        "remaining_tick_max_residual": 5.4571361096655835e-08
+      }
+    },
+    {
+      "member": "oddn.qinvar.pdf",
+      "sha256": "9133869676413bc163f2e945e31c2042ce4fd07ccd9f78db36f33b66860081d9",
+      "panel": "Fig.14(c), odd Ba J=11/2",
+      "quantity": "gamma",
+      "units": "degree",
+      "points": [
+        {
+          "neutron_number": 73,
+          "isotope": "129Ba",
+          "two_J": 11,
+          "marker_path": 72,
+          "connecting_path": 71,
+          "center_pt": [
+            63.39925956726074,
+            233.14158630371094
+          ],
+          "curve_vertex_pt": [
+            63.39925765991211,
+            233.14158630371094
+          ],
+          "marker_curve_distance_pt": 1.9073486328125e-06,
+          "fill_rgb": [
+            0.75,
+            0.75,
+            0.0
+          ],
+          "coordinate_acceptance_pt": 8.33779267850332e-05,
+          "marker_shape": "triangle_down",
+          "value": 23.109748383255067,
+          "display_rounded": 23.11
+        }
+      ],
+      "axis": {
+        "y_ticks": [
+          {
+            "path_index": 87,
+            "value": 0,
+            "y_pt": 362.3766784667969
+          },
+          {
+            "path_index": 89,
+            "value": 5,
+            "y_pt": 334.41552734375
+          },
+          {
+            "path_index": 91,
+            "value": 10,
+            "y_pt": 306.454345703125
+          },
+          {
+            "path_index": 93,
+            "value": 15,
+            "y_pt": 278.4931945800781
+          },
+          {
+            "path_index": 95,
+            "value": 20,
+            "y_pt": 250.5320281982422
+          },
+          {
+            "path_index": 97,
+            "value": 25,
+            "y_pt": 222.57086181640625
+          },
+          {
+            "path_index": 99,
+            "value": 30,
+            "y_pt": 194.6096954345703
+          }
+        ],
+        "x_ticks": [
+          {
+            "path_index": 77,
+            "neutron_number": 73,
+            "x_pt": 63.39925765991211
+          },
+          {
+            "path_index": 79,
+            "neutron_number": 75,
+            "x_pt": 96.54777526855469
+          },
+          {
+            "path_index": 81,
+            "neutron_number": 77,
+            "x_pt": 129.6962890625
+          },
+          {
+            "path_index": 83,
+            "neutron_number": 79,
+            "x_pt": 162.8448028564453
+          },
+          {
+            "path_index": 85,
+            "neutron_number": 81,
+            "x_pt": 195.99331665039062
+          }
+        ],
+        "y_slope": -0.17881945218170409,
+        "y_intercept": 64.79999912685814,
+        "x_slope": 0.06033452826551206,
+        "x_intercept": 69.17483569670556,
+        "remaining_tick_max_residual": 2.273806920527477e-06
+      }
+    }
+  ]
+}

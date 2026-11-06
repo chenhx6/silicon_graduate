@@ -1,0 +1,198 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{10}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\url{https://doi.org/#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\bibcommenthead
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem[\protect\citeauthoryear{Cline}{1986}]{Cline1986}
+\begin{barticle}
+\bauthor{\bsnm{Cline}, \binits{D.}}:
+\batitle{Nuclear shapes studied by {Coulomb} excitation}.
+\bjtitle{Annual Review of Nuclear and Particle Science}
+\bvolume{36},
+\bfpage{683}--\blpage{716}
+(\byear{1986})
+\doiurl{10.1146/annurev.ns.36.120186.003343}
+\end{barticle}
+\endbibitem
+
+%%% 2
+\bibitem[\protect\citeauthoryear{Werner et~al.}{2005}]{Werner2005}
+\begin{barticle}
+\bauthor{\bsnm{Werner}, \binits{V.}},
+\bauthor{\bsnm{Scholl}, \binits{C.}},
+\bauthor{\bsnm{Brentano}, \binits{P.v.}}:
+\batitle{Triaxiality and the determination of the cubic shape parameter {$K_3$}
+  from five observables}.
+\bjtitle{Physical Review C}
+\bvolume{71},
+\bfpage{054314}
+(\byear{2005})
+\doiurl{10.1103/physrevc.71.054314}
+\end{barticle}
+\endbibitem
+
+%%% 3
+\bibitem[\protect\citeauthoryear{Henderson}{2020}]{Henderson2020}
+\begin{barticle}
+\bauthor{\bsnm{Henderson}, \binits{J.}}:
+\batitle{Convergence of electric quadrupole rotational invariants from the
+  nuclear shell model}.
+\bjtitle{Physical Review C}
+\bvolume{102},
+\bfpage{054306}
+(\byear{2020})
+\doiurl{10.1103/physrevc.102.054306}
+\end{barticle}
+\endbibitem
+
+%%% 4
+\bibitem[\protect\citeauthoryear{Nomura et~al.}{2016}]{Nomura2016}
+\begin{barticle}
+\bauthor{\bsnm{Nomura}, \binits{K.}},
+\bauthor{\bsnm{Nikšić}, \binits{T.}},
+\bauthor{\bsnm{Vretenar}, \binits{D.}}:
+\batitle{Signatures of shape phase transitions in odd-mass nuclei}.
+\bjtitle{Physical Review C}
+\bvolume{94},
+\bfpage{064310}
+(\byear{2016})
+\doiurl{10.1103/physrevc.94.064310}
+\end{barticle}
+\endbibitem
+
+%%% 5
+\bibitem[\protect\citeauthoryear{Nomura et~al.}{2017}]{Nomura2017}
+\begin{barticle}
+\bauthor{\bsnm{Nomura}, \binits{K.}},
+\bauthor{\bsnm{Nikšić}, \binits{T.}},
+\bauthor{\bsnm{Vretenar}, \binits{D.}}:
+\batitle{Shape-phase transitions in odd-mass $\gamma$-soft nuclei with mass
+  $a\approx130$}.
+\bjtitle{Physical Review C}
+\bvolume{96},
+\bfpage{014304}
+(\byear{2017})
+\doiurl{10.1103/physrevc.96.014304}
+\end{barticle}
+\endbibitem
+
+%%% 6
+\bibitem[\protect\citeauthoryear{{National Nuclear Data Center}}{2026}]{ENSDF}
+\begin{botherref}
+\oauthor{\bsnm{{National Nuclear Data Center}}}:
+{Evaluated Nuclear Structure Data File: Ba isotope datasets}.
+NNDC online retrieval.
+Evaluation versions, transition locators and retrieval records are specified in
+  the accompanying data package
+(2026)
+\end{botherref}
+\endbibitem
+
+%%% 7
+\bibitem[\protect\citeauthoryear{Bally et~al.}{2022}]{Bally2022}
+\begin{barticle}
+\bauthor{\bsnm{Bally}, \binits{B.}},
+\bauthor{\bsnm{Giacalone}, \binits{G.}},
+\bauthor{\bsnm{Bender}, \binits{M.}}:
+\batitle{Structure of {$^{128,129,130}$Xe} through multi-reference energy
+  density functional calculations}.
+\bjtitle{The European Physical Journal A}
+\bvolume{58},
+\bfpage{187}
+(\byear{2022})
+\doiurl{10.1140/epja/s10050-022-00833-4}
+\end{barticle}
+\endbibitem
+
+%%% 8
+\bibitem[\protect\citeauthoryear{Lawrie and Orce}{2025}]{LawrieOrce2025}
+\begin{barticle}
+\bauthor{\bsnm{Lawrie}, \binits{E.A.}},
+\bauthor{\bsnm{Orce}, \binits{J.N.}}:
+\batitle{Triaxial nuclear shapes from simple ratios of electric-quadrupole
+  matrix elements}.
+\bjtitle{Atomic Data and Nuclear Data Tables}
+\bvolume{164},
+\bfpage{101730}
+(\byear{2025})
+\doiurl{10.1016/j.adt.2025.101730}
+\end{barticle}
+\endbibitem
+
+%%% 9
+\bibitem[\protect\citeauthoryear{Rouoof et~al.}{2025}]{Rouoof2025}
+\begin{barticle}
+\bauthor{\bsnm{Rouoof}, \binits{S.P.}},
+\bauthor{\bsnm{Nazir}, \binits{N.}},
+\bauthor{\bsnm{Jehangir}, \binits{S.}},
+\bauthor{\bsnm{Bhat}, \binits{G.H.}},
+\bauthor{\bsnm{Sheikh}, \binits{J.A.}},
+\bauthor{\bsnm{Rather}, \binits{N.}},
+\bauthor{\bsnm{Frauendorf}, \binits{S.}}:
+\batitle{Microscopic investigation of {E2} matrix elements in atomic nuclei}.
+\bjtitle{Physical Review C}
+\bvolume{111},
+\bfpage{054309}
+(\byear{2025})
+\doiurl{10.1103/physrevc.111.054309}
+\end{barticle}
+\endbibitem
+
+%%% 10
+\bibitem[\protect\citeauthoryear{Vogt et~al.}{2017}]{Vogt2017PRC95_024316}
+\begin{barticle}
+\bauthor{\bsnm{Vogt}, \binits{A.}},
+\bauthor{\bsnm{Birkenbach}, \binits{B.}},
+\bauthor{\bsnm{Reiter}, \binits{P.}}, \betal:
+\batitle{Isomers and high-spin structures in the {$N=81$} isotones {$^{135}$Xe}
+  and {$^{137}$Ba}}.
+\bjtitle{Physical Review C}
+\bvolume{95},
+\bfpage{024316}
+(\byear{2017})
+\doiurl{10.1103/PhysRevC.95.024316}
+\end{barticle}
+\endbibitem
+
+\end{thebibliography}

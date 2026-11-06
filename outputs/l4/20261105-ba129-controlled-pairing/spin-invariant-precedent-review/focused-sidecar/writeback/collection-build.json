@@ -1,0 +1,19 @@
+{
+  "created_at_actual_utc": "2026-11-06T03:57:02.663465+00:00",
+  "source_page": "knowledge/sources/quadrupole-invariant-spin-channel-precedents.md",
+  "source_name_was_absent": true,
+  "collection_manifest": "raw/papers/gpt/query/20261106-quadrupole-invariant-spin-channel-precedents-collection/manifest.json",
+  "collection_manifest_sha256": "f0b7648dd1a8f17a738a8df8354c26c861dc58acb89b446a514e54ddfc10c021",
+  "protected_existing_files": {
+    "raw/papers/gpt/query/20261106-spin-invariant-precedents/manifest.json": "ec9bb2dbe4c248cc93c0c43cd55409be950f68d1a769c3a6309baf2a9296ca37",
+    "raw/papers/gpt/query/20261106-spin-invariant-precedents/focused-sidecar/manifest.json": "e77de66e340dbdc81a0b55f0f0af1b725120e6c8b691b719903597ee62c96dc1",
+    "raw/papers/gpt/query/20261106-spin-invariant-precedents/nomura2016-arxiv1610-00469.pdf": "817ed7f1fcfe43861bff8fe96929eb22536a0dd1833cfcefc08675585edf711f",
+    "raw/papers/gpt/query/20261106-spin-invariant-precedents/rouoof2025-e2-matrix-elements.pdf": "58cd93b84996ece2564c3da472f30e64c7403d5e15592bebb7e28459f41a447e",
+    "raw/papers/gpt/query/20261106-spin-invariant-precedents/focused-sidecar/frauendorf2026-systematic-tpsm-2609.10431v1.pdf": "6e1b9034a069db91c888369e616c5740bdf0352390df8be1f57c2724c72c853e",
+    "raw/papers/gpt/query/20261106-spin-invariant-precedents/focused-sidecar/lawrie-orce2025-simple-ratios-publisher.pdf": "683ad9af035a6d7860a5beaffc0f5d395d34963916be08907df437803c644305",
+    "raw/papers/gpt/query/20261106-spin-invariant-precedents/focused-sidecar/frauendorf2026-arxiv-record.html": "a44c811071d6b4364c52f8619e4c40919ffa9249790e8e90f87caedcd4d60590",
+    "raw/papers/gpt/query/20261106-spin-invariant-precedents/focused-sidecar/lawrie-orce2025-crossref.json": "c8e29d9a342b6776f6aa0d847347062cc0e3ce7ca7980e7ad2d105f335974412"
+  },
+  "PDF_originals": 4,
+  "supporting_metadata_originals": 2
+}

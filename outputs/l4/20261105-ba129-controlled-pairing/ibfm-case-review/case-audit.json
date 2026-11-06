@@ -1,0 +1,728 @@
+{
+  "declared_review_date": "2026-11-06",
+  "run_directory_label_retained": "20261105",
+  "container_observed_utc": "2026-11-05T16:24:23.783996+00:00",
+  "date_boundary": "Review date follows user instruction. Machine UTC timestamps are retained as observed; no run directory renamed.",
+  "source_only_freeze_sha256": "46b90e618a4c95c377bb61c7f59eb782d05c3f35f4be5418f0dded1d784ac45d",
+  "prediction_sha256": "6dd5371fcaa7d2647e60490d15ca7e2816a1a517756af59515923167f6d1a2a4",
+  "independence": "New source-vector extraction and case arithmetic; same SHA-locked numerical kernel, not independent diagonalization software or original PBOS.",
+  "parameters_unchanged": {
+    "n_b": 8,
+    "two_j": 11,
+    "eps_d": 0.03,
+    "kappa": -0.102,
+    "chi": -0.18,
+    "v2": 0.453,
+    "Q_jj": -1.081027387032316,
+    "Gamma0": 0.6,
+    "Lambda0": 2.1,
+    "A0": -0.15
+  },
+  "source_comparison": [
+    {
+      "nucleus": "128Ba",
+      "state": "2_1+",
+      "two_J": 4,
+      "ordinal": 0,
+      "source_locator": "paper p.6 Fig.3(a), N=72, theoretical 128Ba",
+      "vector_path": 3,
+      "source_vector_energy_keV": 347.99997681158425,
+      "source_display_energy_keV": 348,
+      "declared_model_energy_keV": 348.0639229510967,
+      "model_minus_display_keV": 0.06392295109668567,
+      "within_nearest_keV_half_width": true,
+      "within_1keV": true
+    },
+    {
+      "nucleus": "128Ba",
+      "state": "4_1+",
+      "two_J": 8,
+      "ordinal": 0,
+      "source_locator": "paper p.6 Fig.3(a), N=72, theoretical 128Ba",
+      "vector_path": 9,
+      "source_vector_energy_keV": 961.9999830546195,
+      "source_display_energy_keV": 962,
+      "declared_model_energy_keV": 962.352309280778,
+      "model_minus_display_keV": 0.3523092807779449,
+      "within_nearest_keV_half_width": true,
+      "within_1keV": true
+    },
+    {
+      "nucleus": "128Ba",
+      "state": "6_1+",
+      "two_J": 12,
+      "ordinal": 0,
+      "source_locator": "paper p.6 Fig.3(a), N=72, theoretical 128Ba",
+      "vector_path": 15,
+      "source_vector_energy_keV": 1810.9999603121341,
+      "source_display_energy_keV": 1811,
+      "declared_model_energy_keV": 1810.8007820041844,
+      "model_minus_display_keV": -0.19921799581561572,
+      "within_nearest_keV_half_width": true,
+      "within_1keV": true
+    },
+    {
+      "nucleus": "128Ba",
+      "state": "0_2+",
+      "two_J": 0,
+      "ordinal": 1,
+      "source_locator": "paper p.6 Fig.3(a), N=72, theoretical 128Ba",
+      "vector_path": 21,
+      "source_vector_energy_keV": 2101.000000445931,
+      "source_display_energy_keV": 2101,
+      "declared_model_energy_keV": 2101.2594295312147,
+      "model_minus_display_keV": 0.25942953121466417,
+      "within_nearest_keV_half_width": true,
+      "within_1keV": true
+    },
+    {
+      "nucleus": "128Ba",
+      "state": "2_2+",
+      "two_J": 4,
+      "ordinal": 1,
+      "source_locator": "paper p.6 Fig.3(a), N=72, theoretical 128Ba",
+      "vector_path": 27,
+      "source_vector_energy_keV": 1300.0000445931082,
+      "source_display_energy_keV": 1300,
+      "declared_model_energy_keV": 1299.6359502557323,
+      "model_minus_display_keV": -0.3640497442677315,
+      "within_nearest_keV_half_width": true,
+      "within_1keV": true
+    },
+    {
+      "nucleus": "129Ba",
+      "state": "7/2_1-",
+      "two_J": 7,
+      "ordinal": 0,
+      "source_locator": "paper p.7 Fig.5(c), N=73, theoretical negative-parity 129Ba",
+      "vector_path": 152,
+      "source_vector_energy_keV": 109.99978149377121,
+      "source_display_energy_keV": 110,
+      "declared_model_energy_keV": 110.42475651315975,
+      "model_minus_display_keV": 0.4247565131597497,
+      "within_nearest_keV_half_width": true,
+      "within_1keV": true
+    },
+    {
+      "nucleus": "129Ba",
+      "state": "9/2_1-",
+      "two_J": 9,
+      "ordinal": 0,
+      "source_locator": "paper p.7 Fig.5(c), N=73, theoretical negative-parity 129Ba",
+      "vector_path": 158,
+      "source_vector_energy_keV": 0.0,
+      "source_display_energy_keV": 0,
+      "declared_model_energy_keV": 0.0,
+      "model_minus_display_keV": 0.0,
+      "within_nearest_keV_half_width": true,
+      "within_1keV": true
+    },
+    {
+      "nucleus": "129Ba",
+      "state": "11/2_1-",
+      "two_J": 11,
+      "ordinal": 0,
+      "source_locator": "paper p.7 Fig.5(c), N=73, theoretical negative-parity 129Ba",
+      "vector_path": 164,
+      "source_vector_energy_keV": 81.0000093645522,
+      "source_display_energy_keV": 81,
+      "declared_model_energy_keV": 80.77263432988069,
+      "model_minus_display_keV": -0.22736567011931186,
+      "within_nearest_keV_half_width": true,
+      "within_1keV": true
+    },
+    {
+      "nucleus": "129Ba",
+      "state": "13/2_1-",
+      "two_J": 13,
+      "ordinal": 0,
+      "source_locator": "paper p.7 Fig.5(c), N=73, theoretical negative-parity 129Ba",
+      "vector_path": 170,
+      "source_vector_energy_keV": 466.9997534001129,
+      "source_display_energy_keV": 467,
+      "declared_model_energy_keV": 466.70712577735605,
+      "model_minus_display_keV": -0.29287422264394536,
+      "within_nearest_keV_half_width": true,
+      "within_1keV": true
+    },
+    {
+      "nucleus": "129Ba",
+      "state": "15/2_1-",
+      "two_J": 15,
+      "ordinal": 0,
+      "source_locator": "paper p.7 Fig.5(c), N=73, theoretical negative-parity 129Ba",
+      "vector_path": 176,
+      "source_vector_energy_keV": 484.9999219620611,
+      "source_display_energy_keV": 485,
+      "declared_model_energy_keV": 485.7204221208491,
+      "model_minus_display_keV": 0.7204221208490935,
+      "within_nearest_keV_half_width": false,
+      "within_1keV": true
+    },
+    {
+      "nucleus": "129Ba",
+      "state": "17/2_1-",
+      "two_J": 17,
+      "ordinal": 0,
+      "source_locator": "paper p.7 Fig.5(c), N=73, theoretical negative-parity 129Ba",
+      "vector_path": 182,
+      "source_vector_energy_keV": 1213.0000593088334,
+      "source_display_energy_keV": 1213,
+      "declared_model_energy_keV": 1213.1237609686955,
+      "model_minus_display_keV": 0.12376096869547837,
+      "within_nearest_keV_half_width": true,
+      "within_1keV": true
+    }
+  ],
+  "core_record_max_difference_keV": 0.0,
+  "energy_record_max_difference_keV": 0.0,
+  "energy_comparison": [
+    {
+      "level_id": "129Ba_Ex182p04keV",
+      "two_J": 9,
+      "ordinal": 0,
+      "model_relative_energy_keV": -80.77263432988069,
+      "observed_relative_energy_keV": -96.77000000000001,
+      "residual_keV": 15.997365670119322,
+      "in_published_theory_subset": true,
+      "is_fixed_reference": false
+    },
+    {
+      "level_id": "129Ba_Ex278p81keV",
+      "two_J": 11,
+      "ordinal": 0,
+      "model_relative_energy_keV": 0.0,
+      "observed_relative_energy_keV": 0.0,
+      "residual_keV": 0.0,
+      "in_published_theory_subset": true,
+      "is_fixed_reference": true
+    },
+    {
+      "level_id": "129Ba_Ex643p6keV",
+      "two_J": 13,
+      "ordinal": 0,
+      "model_relative_energy_keV": 385.93449144747535,
+      "observed_relative_energy_keV": 364.79,
+      "residual_keV": 21.144491447475332,
+      "in_published_theory_subset": true,
+      "is_fixed_reference": false
+    },
+    {
+      "level_id": "129Ba_Ex797p4keV",
+      "two_J": 15,
+      "ordinal": 0,
+      "model_relative_energy_keV": 404.9477877909684,
+      "observed_relative_energy_keV": 518.5899999999999,
+      "residual_keV": -113.64221220903153,
+      "in_published_theory_subset": true,
+      "is_fixed_reference": false
+    },
+    {
+      "level_id": "129Ba_Ex883p43keV",
+      "two_J": 13,
+      "ordinal": 1,
+      "model_relative_energy_keV": 1073.3038214331482,
+      "observed_relative_energy_keV": 604.6199999999999,
+      "residual_keV": 468.6838214331483,
+      "in_published_theory_subset": false,
+      "is_fixed_reference": false
+    },
+    {
+      "level_id": "129Ba_Ex1210p0keV",
+      "two_J": 15,
+      "ordinal": 1,
+      "model_relative_energy_keV": 1640.2255781657527,
+      "observed_relative_energy_keV": 931.19,
+      "residual_keV": 709.0355781657527,
+      "in_published_theory_subset": false,
+      "is_fixed_reference": false
+    },
+    {
+      "level_id": "129Ba_Ex1318p4keV",
+      "two_J": 17,
+      "ordinal": 0,
+      "model_relative_energy_keV": 1132.3511266388148,
+      "observed_relative_energy_keV": 1039.5900000000001,
+      "residual_keV": 92.76112663881463,
+      "in_published_theory_subset": true,
+      "is_fixed_reference": false
+    },
+    {
+      "level_id": "129Ba_Ex1475p4keV",
+      "two_J": 19,
+      "ordinal": 0,
+      "model_relative_energy_keV": 1011.0210433907057,
+      "observed_relative_energy_keV": 1196.5900000000001,
+      "residual_keV": -185.56895660929445,
+      "in_published_theory_subset": false,
+      "is_fixed_reference": false
+    },
+    {
+      "level_id": "129Ba_Ex1545p3keV",
+      "two_J": 17,
+      "ordinal": 1,
+      "model_relative_energy_keV": 1817.4316310602787,
+      "observed_relative_energy_keV": 1266.49,
+      "residual_keV": 550.9416310602787,
+      "in_published_theory_subset": false,
+      "is_fixed_reference": false
+    },
+    {
+      "level_id": "129Ba_Ex1845p0keV",
+      "two_J": 19,
+      "ordinal": 1,
+      "model_relative_energy_keV": 2572.957902628536,
+      "observed_relative_energy_keV": 1566.19,
+      "residual_keV": 1006.7679026285359,
+      "in_published_theory_subset": false,
+      "is_fixed_reference": false
+    }
+  ],
+  "energy_RMS": {
+    "mapped_states": 10,
+    "residuals_excluding_fixed_reference": 9,
+    "RMS_keV": 482.6054620577221,
+    "including_zero_reference_RMS_keV_for_denominator_clarity": 457.8397414021119,
+    "boundary": "Unweighted descriptive residual, not experimental chi-square or a refit."
+  },
+  "core_calibration_audit": {
+    "ENSDF_locator": "128Ba adopted lines 48-53",
+    "T_half_ps": 105.0,
+    "quoted_T_half_error_ps": 9.0,
+    "Egamma_MeV": 0.2841,
+    "alpha_total": 0.0539,
+    "rate_coefficient_declared": 12239000000000.0,
+    "recomputed_Bdown_e2b2": 0.27652516113300324,
+    "unit_Bup": 78.54029693797942,
+    "recomputed_eB_eb": 0.1326801823613452,
+    "eF_eb": 0.125,
+    "eF_over_eB": 0.9421150753288176,
+    "normalized_Q0_matrix_max_difference": 8.881784197001252e-16,
+    "boundary": "Central adopted-input calibration. No uncertainty propagation, author eB certification or new lifetime measurement."
+  },
+  "anchor_eta_MeV2": 15.50477500858791,
+  "photon_comparison": [
+    {
+      "target_keV": 521.0,
+      "reference_keV": 674.8,
+      "role": "withheld-wavefunction-test",
+      "parent_id": "129Ba_Ex1318p4keV",
+      "target_final_id": "129Ba_Ex797p4keV",
+      "reference_final_id": "129Ba_Ex643p6keV",
+      "electric_ratio_a": 0.07289069566811868,
+      "magnetic_ratio_b_MeV_minus2": 0.0017445822187226515,
+      "reported_ratio": 1.0609756097560976,
+      "model_target_energy_keV": 727.4033388478465,
+      "model_reference_energy_keV": 746.4166351913395,
+      "target_downward_in_model": true,
+      "reference_downward_in_model": true,
+      "unit_BQ_target": 4.0966993620408125,
+      "unit_BQ_reference": 15.419675916215262,
+      "unit_Bj_target": 0.02661514811561784,
+      "core_L_plus_particle_j_RME_abs": 5.551115123125783e-16,
+      "target_RME_Q_real": -8.587234043435327,
+      "target_RME_j_real": -0.6921507538687804,
+      "recomputed_prediction": 0.09994005045339649,
+      "prediction_over_reported": 0.09419636939285646,
+      "radiative_E2_fraction": 0.7293441952193999,
+      "eta_required_for_this_central_ratio_MeV2": 566.3733720795544,
+      "E2_alone_exceeds_central_ratio": false,
+      "producer_prediction_difference": -4.163336342344337e-17
+    },
+    {
+      "target_keV": 157.0,
+      "reference_keV": 678.0,
+      "role": "withheld-wavefunction-test",
+      "parent_id": "129Ba_Ex1475p4keV",
+      "target_final_id": "129Ba_Ex1318p4keV",
+      "reference_final_id": "129Ba_Ex797p4keV",
+      "electric_ratio_a": 0.00012812005241003078,
+      "magnetic_ratio_b_MeV_minus2": 0.0017552380196789873,
+      "reported_ratio": 0.06658291457286432,
+      "model_target_energy_keV": -121.33008324810923,
+      "model_reference_energy_keV": 606.0732555997372,
+      "target_downward_in_model": false,
+      "reference_downward_in_model": true,
+      "unit_BQ_target": 4.575984600906353,
+      "unit_BQ_reference": 23.780295083469355,
+      "unit_Bj_target": 1.5452642916232473,
+      "core_L_plus_particle_j_RME_abs": 8.881784197001252e-16,
+      "target_RME_Q_real": -9.566592497756297,
+      "target_RME_j_real": -5.5592522727849785,
+      "recomputed_prediction": 0.027342690634052126,
+      "prediction_over_reported": 0.4106562593340659,
+      "radiative_E2_fraction": 0.004685714881712198,
+      "eta_required_for_this_central_ratio_MeV2": 37.86084495401262,
+      "E2_alone_exceeds_central_ratio": false,
+      "producer_prediction_difference": -1.3877787807814457e-17
+    },
+    {
+      "target_keV": 526.6,
+      "reference_keV": 634.9,
+      "role": "withheld-wavefunction-test",
+      "parent_id": "129Ba_Ex1845p0keV",
+      "target_final_id": "129Ba_Ex1318p4keV",
+      "reference_final_id": "129Ba_Ex1210p0keV",
+      "electric_ratio_a": 0.5026296682227712,
+      "magnetic_ratio_b_MeV_minus2": 0.12195471267268915,
+      "reported_ratio": 0.9285714285714285,
+      "model_target_energy_keV": 1440.6067759897212,
+      "model_reference_energy_keV": 932.7323244627835,
+      "target_downward_in_model": true,
+      "reference_downward_in_model": true,
+      "unit_BQ_target": 2.3497804368090316,
+      "unit_BQ_reference": 1.8350876080945018,
+      "unit_Bj_target": 0.15810276344316054,
+      "core_L_plus_particle_j_RME_abs": 4.440892098500626e-16,
+      "target_RME_Q_real": -6.855334327090155,
+      "target_RME_j_real": -1.7782168790288801,
+      "recomputed_prediction": 2.393510049449801,
+      "prediction_over_reported": 2.577626207099786,
+      "radiative_E2_fraction": 0.20999689069127211,
+      "eta_required_for_this_central_ratio_MeV2": 3.4926223924763815,
+      "E2_alone_exceeds_central_ratio": false,
+      "producer_prediction_difference": -8.881784197001252e-16
+    },
+    {
+      "target_keV": 364.7,
+      "reference_keV": 461.6,
+      "role": "withheld-wavefunction-test",
+      "parent_id": "129Ba_Ex643p6keV",
+      "target_final_id": "129Ba_Ex278p81keV",
+      "reference_final_id": "129Ba_Ex182p04keV",
+      "electric_ratio_a": 0.30049054397402386,
+      "magnetic_ratio_b_MeV_minus2": 0.010132674875370453,
+      "reported_ratio": 3.936363636363636,
+      "model_target_energy_keV": 385.93449144747535,
+      "model_reference_energy_keV": 466.70712577735605,
+      "target_downward_in_model": true,
+      "reference_downward_in_model": true,
+      "unit_BQ_target": 9.110898437440632,
+      "unit_BQ_reference": 9.33426682686397,
+      "unit_Bj_target": 0.040862603153802454,
+      "core_L_plus_particle_j_RME_abs": 4.440892098500626e-16,
+      "target_RME_Q_real": -11.293917749132444,
+      "target_RME_j_real": -0.7563573521512397,
+      "recomputed_prediction": 0.4575953881518143,
+      "prediction_over_reported": 0.11624825103163874,
+      "radiative_E2_fraction": 0.6566730167182794,
+      "eta_required_for_this_central_ratio_MeV2": 358.8265820338663,
+      "E2_alone_exceeds_central_ratio": false,
+      "producer_prediction_difference": -5.551115123125783e-17
+    },
+    {
+      "target_keV": 153.8,
+      "reference_keV": 518.6,
+      "role": "scale-calibration",
+      "parent_id": "129Ba_Ex797p4keV",
+      "target_final_id": "129Ba_Ex643p6keV",
+      "reference_final_id": "129Ba_Ex278p81keV",
+      "electric_ratio_a": 0.0012266405404038937,
+      "magnetic_ratio_b_MeV_minus2": 0.004693609511862496,
+      "reported_ratio": 0.07400000000000001,
+      "model_target_energy_keV": 19.013296343493025,
+      "model_reference_energy_keV": 404.9477877909684,
+      "target_downward_in_model": true,
+      "reference_downward_in_model": true,
+      "unit_BQ_target": 9.482896825550094,
+      "unit_BQ_reference": 17.735475087888954,
+      "unit_Bj_target": 0.8583083502926943,
+      "core_L_plus_particle_j_RME_abs": 1.3322676295501878e-15,
+      "target_RME_Q_real": -12.317725001346698,
+      "target_RME_j_real": -3.7057972967612662,
+      "recomputed_prediction": 0.07400000000000001,
+      "prediction_over_reported": 1.0,
+      "radiative_E2_fraction": 0.016576223518971533,
+      "eta_required_for_this_central_ratio_MeV2": 15.50477500858791,
+      "E2_alone_exceeds_central_ratio": false,
+      "producer_prediction_difference": 0.0
+    },
+    {
+      "target_keV": 604.7,
+      "reference_keV": 701.3,
+      "role": "withheld-wavefunction-test",
+      "parent_id": "129Ba_Ex883p43keV",
+      "target_final_id": "129Ba_Ex278p81keV",
+      "reference_final_id": "129Ba_Ex182p04keV",
+      "electric_ratio_a": 1.6329966440160197,
+      "magnetic_ratio_b_MeV_minus2": 0.07362582249831374,
+      "reported_ratio": 0.6083333333333333,
+      "model_target_energy_keV": 1073.3038214331482,
+      "model_reference_energy_keV": 1154.076455763029,
+      "target_downward_in_model": true,
+      "reference_downward_in_model": true,
+      "unit_BQ_target": 9.25687813912376,
+      "unit_BQ_reference": 2.7018417162682185,
+      "unit_Bj_target": 0.15261223443793875,
+      "core_L_plus_particle_j_RME_abs": 2.220446049250313e-16,
+      "target_RME_Q_real": -11.384036803688428,
+      "target_RME_j_real": 1.461701502404353,
+      "recomputed_prediction": 2.774548456674604,
+      "prediction_over_reported": 4.560901572615788,
+      "radiative_E2_fraction": 0.5885630290895063,
+      "eta_required_for_this_central_ratio_MeV2": -13.917173023176135,
+      "E2_alone_exceeds_central_ratio": true,
+      "producer_prediction_difference": 4.440892098500626e-16
+    }
+  ],
+  "photon_numeric_field_checks": [
+    {
+      "field": "unit_BQ_target",
+      "target_keV": 521.0,
+      "absolute_difference": 3.552713678800501e-15
+    },
+    {
+      "field": "unit_BQ_reference",
+      "target_keV": 521.0,
+      "absolute_difference": 5.329070518200751e-15
+    },
+    {
+      "field": "unit_Bj_target",
+      "target_keV": 521.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "physical_BE2_target_e2b2",
+      "target_keV": 521.0,
+      "absolute_difference": 4.163336342344337e-17
+    },
+    {
+      "field": "physical_BE2_reference_e2b2",
+      "target_keV": 521.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "electric_ratio_a",
+      "target_keV": 521.0,
+      "absolute_difference": 2.7755575615628914e-17
+    },
+    {
+      "field": "magnetic_ratio_coefficient_b_per_MeV2",
+      "target_keV": 521.0,
+      "absolute_difference": 4.336808689942018e-19
+    },
+    {
+      "field": "unit_BQ_target",
+      "target_keV": 157.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "unit_BQ_reference",
+      "target_keV": 157.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "unit_Bj_target",
+      "target_keV": 157.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "physical_BE2_target_e2b2",
+      "target_keV": 157.0,
+      "absolute_difference": 2.7755575615628914e-17
+    },
+    {
+      "field": "physical_BE2_reference_e2b2",
+      "target_keV": 157.0,
+      "absolute_difference": 1.6653345369377348e-16
+    },
+    {
+      "field": "electric_ratio_a",
+      "target_keV": 157.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "magnetic_ratio_coefficient_b_per_MeV2",
+      "target_keV": 157.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "unit_BQ_target",
+      "target_keV": 526.6,
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "unit_BQ_reference",
+      "target_keV": 526.6,
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "unit_Bj_target",
+      "target_keV": 526.6,
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "physical_BE2_target_e2b2",
+      "target_keV": 526.6,
+      "absolute_difference": 1.3877787807814457e-17
+    },
+    {
+      "field": "physical_BE2_reference_e2b2",
+      "target_keV": 526.6,
+      "absolute_difference": 1.3877787807814457e-17
+    },
+    {
+      "field": "electric_ratio_a",
+      "target_keV": 526.6,
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "magnetic_ratio_coefficient_b_per_MeV2",
+      "target_keV": 526.6,
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "unit_BQ_target",
+      "target_keV": 364.7,
+      "absolute_difference": 1.7763568394002505e-15
+    },
+    {
+      "field": "unit_BQ_reference",
+      "target_keV": 364.7,
+      "absolute_difference": 1.7763568394002505e-15
+    },
+    {
+      "field": "unit_Bj_target",
+      "target_keV": 364.7,
+      "absolute_difference": 6.938893903907228e-18
+    },
+    {
+      "field": "physical_BE2_target_e2b2",
+      "target_keV": 364.7,
+      "absolute_difference": 2.7755575615628914e-17
+    },
+    {
+      "field": "physical_BE2_reference_e2b2",
+      "target_keV": 364.7,
+      "absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "field": "electric_ratio_a",
+      "target_keV": 364.7,
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "magnetic_ratio_coefficient_b_per_MeV2",
+      "target_keV": 364.7,
+      "absolute_difference": 3.469446951953614e-18
+    },
+    {
+      "field": "unit_BQ_target",
+      "target_keV": 153.8,
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "unit_BQ_reference",
+      "target_keV": 153.8,
+      "absolute_difference": 7.105427357601002e-15
+    },
+    {
+      "field": "unit_Bj_target",
+      "target_keV": 153.8,
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "physical_BE2_target_e2b2",
+      "target_keV": 153.8,
+      "absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "field": "physical_BE2_reference_e2b2",
+      "target_keV": 153.8,
+      "absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "field": "electric_ratio_a",
+      "target_keV": 153.8,
+      "absolute_difference": 6.505213034913027e-19
+    },
+    {
+      "field": "magnetic_ratio_coefficient_b_per_MeV2",
+      "target_keV": 153.8,
+      "absolute_difference": 2.6020852139652106e-18
+    },
+    {
+      "field": "unit_BQ_target",
+      "target_keV": 604.7,
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "unit_BQ_reference",
+      "target_keV": 604.7,
+      "absolute_difference": 8.881784197001252e-16
+    },
+    {
+      "field": "unit_Bj_target",
+      "target_keV": 604.7,
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "physical_BE2_target_e2b2",
+      "target_keV": 604.7,
+      "absolute_difference": 8.326672684688674e-17
+    },
+    {
+      "field": "physical_BE2_reference_e2b2",
+      "target_keV": 604.7,
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "electric_ratio_a",
+      "target_keV": 604.7,
+      "absolute_difference": 6.661338147750939e-16
+    },
+    {
+      "field": "magnetic_ratio_coefficient_b_per_MeV2",
+      "target_keV": 604.7,
+      "absolute_difference": 2.7755575615628914e-17
+    }
+  ],
+  "core_diagnostics": {
+    "hermiticity_H_max": 0.0,
+    "hermiticity_J2_max": 0.0,
+    "commutator_H_J2_max": 4.263256414560601e-14,
+    "H_inf_scale": 12.325753419076708,
+    "J2_inf_scale": 366.53540838297613,
+    "energy_residual_max": 9.311979592285744e-15,
+    "J2_residual_max": 5.820474241490007e-11,
+    "orthonormality_max": 1.887379141862766e-15,
+    "degeneracy_atol": 1e-12,
+    "degeneracy_rtol": 1e-12,
+    "residual_tolerance": 2e-10
+  },
+  "odd_diagnostics": {
+    "hermiticity_H_max": 0.0,
+    "hermiticity_J2_max": 0.0,
+    "commutator_H_J2_max": 1.4210854715202004e-13,
+    "H_inf_scale": 15.380374305817766,
+    "J2_inf_scale": 634.2211961353157,
+    "energy_residual_max": 1.635125486066862e-14,
+    "J2_residual_max": 1.3772865201816606e-09,
+    "orthonormality_max": 3.552713678800501e-15,
+    "degeneracy_atol": 1e-12,
+    "degeneracy_rtol": 1e-12,
+    "residual_tolerance": 2e-10
+  },
+  "runtime_seconds": 0.5295053289737552,
+  "files_unchanged": {
+    "outputs/l4/20261105-ba129-controlled-pairing/ibfm-test-contract.json": "ad899ccbc98303493113c84cb9c0608887b71344cb4868fcf6cc53dfe5283f11",
+    "outputs/l4/20261105-ba129-model-readiness/em-branch-test-contract.json": "6b02a4e996c8288f1d758f123b6bea773b09f9e169c6ac9f1c9c6e1543d6d6df",
+    "raw/papers/gpt/query/20261105-ba129-core-constraints/nndc128-adopted-text.ens": "2d1496086cc5f5ebbbbd3bae6c5817135602c556bcfe95c11fbc54372a949c7e",
+    "raw/papers/2017_Nomura et al_Shape-phase transitions in odd-mass \u03b3 -soft nuclei with mass A \u2248 130.pdf": "481e6a9e0f6b01e9c5db5e2b06d9b350dba0638393c7da7f532c3040e9efaea9",
+    "outputs/l4/20261105-ba129-model-readiness/energy-fit-contract.json": "ab1e57d66575233f3221d57b9b7e618e7bab78d2cffaee922a28b9e89c831c9d",
+    "system/scripts/analysis/single_j_ibfm.py": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+    "system/scripts/analysis/paired_single_j_em.py": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+    "system/scripts/analysis/paired_single_j_rotor.py": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+    "system/scripts/ba129_ibfm_prediction.py": "51063e26ff4633f99fa9b53620540173d1c016bb238117b39a3209f676978bb1",
+    "outputs/l4/20261105-ba129-controlled-pairing/ibfm-case-v1/prediction.json": "6dd5371fcaa7d2647e60490d15ca7e2816a1a517756af59515923167f6d1a2a4",
+    "outputs/l4/20261105-ba129-controlled-pairing/ibfm-case-review/source-points-frozen.json": "46b90e618a4c95c377bb61c7f59eb782d05c3f35f4be5418f0dded1d784ac45d",
+    "raw/papers/gpt/query/20261105-nomura2017-input-audit/nomura2017-v2-source.tar.gz": "f7ed6dc746f50f16169d8796e4d12becd8827eaf4ac2ee4d5f1ff9cd04690faf"
+  },
+  "boundaries": [
+    "Source plots independently calibrate only their displayed theoretical subset.",
+    "No Hamiltonian or state-map adjustment and no 130Ba/NB7 substitution.",
+    "No claim of original producer/code/run-card identity or complete electromagnetic source replay.",
+    "Measured photon energies are used as frozen by the protocol, not model energy differences.",
+    "No p-value, posterior, confidence interval, signed physical delta or collective-mode verdict."
+  ]
+}

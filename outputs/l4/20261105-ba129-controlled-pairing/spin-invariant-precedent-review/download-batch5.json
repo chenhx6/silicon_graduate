@@ -1,0 +1,25 @@
+[
+  {
+    "filename": "bally2022-xe128-129-130.pdf",
+    "url": "https://arxiv.org/pdf/2207.13576",
+    "title": "Structure of 128,129,130Xe through multi-reference energy density functional calculations",
+    "doi": "10.1140/epja/s10050-022-00833-4",
+    "kind": "pdf",
+    "access_scope": "Public author-deposited arXiv manuscript; local research copy."
+  },
+  {
+    "filename": "boyukata2021-erratum.pdf",
+    "url": "https://link.springer.com/content/pdf/10.1140/epja/s10050-021-00591-9.pdf",
+    "title": "Erratum to: Unexpected transitional paths in the prolate to oblate shape phase transitions for Bose-Fermi systems",
+    "doi": "10.1140/epja/s10050-021-00591-9",
+    "kind": "pdf",
+    "access_scope": "Publisher-hosted erratum if publicly accessible; local research use."
+  },
+  {
+    "filename": "nomura2017-publisher-citing-articles-page2.html",
+    "url": "https://journals.aps.org/prc/cited-by/10.1103/PhysRevC.96.014304?page=2",
+    "title": "Second page of publisher citing-articles index for Nomura2017",
+    "kind": "metadata",
+    "access_scope": "Public publisher citation index; title screening only."
+  }
+]

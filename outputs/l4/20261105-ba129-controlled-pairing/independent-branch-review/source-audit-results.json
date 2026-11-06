@@ -1,0 +1,245 @@
+{
+  "status": "bounded_source_audit_completed_not_physical_model_validation",
+  "run_label": "20261106",
+  "checked_at_actual_tool_clock": "2026-11-05T16:46:46.213110+00:00",
+  "hashes_sha256": {
+    "raw/papers/gpt/query/20261106-ba129-independent-branch-data/kumar-branch-report.pdf": "210c65109df9b2d203f95643e0fb89746a20f836265c802bb0f2010aabb5eda1",
+    "raw/papers/gpt/query/20261106-ba129-independent-branch-data/inspire-lookup-0.json": "e865a2238377e795b0dae5a7f08cc015bc1934442228b6f474b7d3d46ea6a8b2",
+    "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-129ba-129056013-201408-09194d4feed3.ens": "09194d4feed3bbda013c551ce5ba9ecf55a25799e8c46ec22f23685df1c1ef19",
+    "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-129ba-129056001-201408-15d8e353eb23.ens": "15d8e353eb23d55847dc0d0127591fd2fb23e6da63ae98146747aecb233f65f6"
+  },
+  "input_hashes_unchanged_during_check": true,
+  "bibliography": {
+    "canonical_INSPIRE_id": 2765575,
+    "document_key": "ba29e364d79767347c64c5000a8a1159",
+    "publication_info": [
+      {
+        "journal_volume": "67",
+        "page_end": "122",
+        "conference_record": {
+          "$ref": "https://inspirehep.net/api/conferences/2761887"
+        },
+        "year": 2024,
+        "journal_record": {
+          "$ref": "https://inspirehep.net/api/journals/1211635"
+        },
+        "page_start": "121",
+        "journal_title": "DAE Symp.Nucl.Phys.",
+        "cnum": "C23-12-09"
+      }
+    ],
+    "imprints": [
+      {
+        "date": "2024"
+      }
+    ],
+    "PDF_has_no_printed_publication_year": true,
+    "pdf_file_metadata_is_not_publication_date": {
+      "creationDate": "D:20230915180313+05'30'",
+      "modDate": "D:20230915180313+05'30'",
+      "creator": "TeX",
+      "producer": "pdfTeX-1.40.18"
+    },
+    "PDF_authors": [
+      "S. Kumar",
+      "Mallicka Kundu",
+      "P. S. Rawat",
+      "Ksh. Rojeeta Devi",
+      "H. Chutani",
+      "M. Goyal"
+    ],
+    "INSPIRE_author_list_omits_Ksh_Rojeeta_Devi": true,
+    "metadata_locator": "inspire-lookup-0.json: hits.hits[0].metadata"
+  },
+  "source_setup_verified_visually_PDF_page1_Experimental_Details": {
+    "reaction": "121Sb(12C,p3n)129Ba",
+    "beam_energy_MeV": 66,
+    "target_mg_per_cm2": 1.2,
+    "197Au_backing_mg_per_cm2": 10.0,
+    "facility": "IUAC, New Delhi",
+    "array": "INGA",
+    "Compton_suppressed_clover_detectors": 18,
+    "LEPS_detectors": 2,
+    "reported_total_coincidences": null,
+    "acquisition_date": null
+  },
+  "independent_exact_checks": {
+    "exact_rotational_CG_ratio_cases": 15,
+    "exact_CG_scalar_vector_completeness_controls": 9,
+    "exact_photon_rate_lambda_identity_cases": 3,
+    "K_11_over_2_I_13_over_2_deltaI2_CG_is_zero": true,
+    "printed_Eq3_missing_lambda_under_Eq2_definition": true
+  },
+  "graphical_digitization": {
+    "method": "vector_marker_centres_calibrated_against_drawn_ticks",
+    "spins": [
+      6.5,
+      7.5,
+      8.5,
+      9.5,
+      10.5,
+      12.5
+    ],
+    "panels": {
+      "fig2_upper": {
+        "present": [
+          1.6785009153696429,
+          0.7388088420471419,
+          0.33495805204169926,
+          1.5557622423010997,
+          0.22804914930721054,
+          0.6622638579199034
+        ],
+        "previous": [
+          1.1848953046184931,
+          0.531611447268098,
+          0.7335265140170151,
+          1.7180937025448522,
+          0.41942939717352345,
+          0.47880882347441656
+        ]
+      },
+      "fig3_upper": {
+        "present": [
+          1.6811413664263721,
+          0.7388091179403702,
+          0.3349590841871475,
+          1.5636767467285715,
+          0.22937585981544117,
+          0.6622748501765141
+        ],
+        "previous": [
+          1.1848951639311789,
+          0.531610696774834,
+          0.7335257879106489,
+          1.7180946158194264,
+          0.4194294071067546,
+          0.4788085916629967
+        ]
+      },
+      "fig2_lower": {
+        "present": [
+          1.0795980645524779,
+          0.687557756745548,
+          0.0209854784197816,
+          1.540257879127573,
+          0.04870437563753427,
+          0.3668203552221101
+        ],
+        "previous": [
+          0.5846130021991911,
+          0.48164758846066746,
+          0.3747362690190883,
+          1.694695670139268,
+          0.10413987460724172,
+          0.18202502906033402
+        ]
+      },
+      "fig3_lower": {
+        "present": [
+          0.00014929023183896106,
+          0.006247332871652134,
+          0.019964982580628288,
+          0.015384576062682953,
+          0.019964982580628288,
+          0.02300156426019484
+        ],
+        "previous": [
+          0.00014929023183896106,
+          0.004717911827352594,
+          0.09917406510694704,
+          0.044323107808423856,
+          0.04737147441041856,
+          0.1524969107969909
+        ]
+      }
+    },
+    "axis_diagnostics": {
+      "fig2_upper": {
+        "points_per_series": 6,
+        "max_spin_axis_residual": 0.003044196780797037,
+        "max_y_tick_calibration_residual": 0.0005324263040087374
+      },
+      "fig3_upper": {
+        "points_per_series": 6,
+        "max_spin_axis_residual": 0.0030503915989932295,
+        "max_y_tick_calibration_residual": 0.0005324209637542765
+      },
+      "fig2_lower": {
+        "points_per_series": 6,
+        "max_spin_axis_residual": 0.00305041481989754,
+        "max_y_tick_calibration_residual": 0.0003895740680803783
+      },
+      "fig3_lower": {
+        "points_per_series": 6,
+        "max_spin_axis_residual": 0.0030503915989932295,
+        "max_y_tick_calibration_residual": 0.0004735744410133691
+      }
+    },
+    "upper_panels_max_abs_difference": 0.007914504427471769,
+    "independent_acquisitions_represented_by_two_present_series": 1,
+    "experimental_uncertainties_extracted": false,
+    "experimental_covariances_available": false,
+    "digitization_residual_is_not_measurement_uncertainty": true
+  },
+  "conditional_branch_checks": {
+    "previous_upper_vs_ENSDF_proxy_max_abs_difference": 0.0021964779700820447,
+    "previous_lower_vs_amended_K9over2_formula_max_abs_difference": 0.0017254966142604689,
+    "present_amended_K9over2_central_fractions_above_one_two_I": [
+      17,
+      21
+    ],
+    "restricted_cascade_edges_in_two_I": {
+      "11": [
+        9
+      ],
+      "13": [
+        11,
+        9
+      ],
+      "15": [
+        13,
+        11
+      ],
+      "17": [
+        15,
+        13
+      ],
+      "19": [
+        17,
+        15
+      ],
+      "21": [
+        19,
+        17
+      ],
+      "23": [
+        19
+      ],
+      "25": [
+        23,
+        21
+      ]
+    },
+    "restricted_cascade_all_routes_end_at_182keV_9over2minus": true,
+    "max_edge_energy_closure_residual_keV": 0.20000000000027285,
+    "gate_174p1_to_ENSDF_173p6_assignment": "plausible_but_unconfirmed",
+    "gate_common_downstream_is_not_proof_of_corrected_intensities": true,
+    "central_admissibility_checks_are_not_statistical_rejections": true
+  },
+  "limitations": [
+    "No numeric intensity or transition-energy pair table in the two-page report.",
+    "Fig1 gate shown; report does not establish that this alone produced every plotted ratio.",
+    "Efficiency, angular-correlation, timing, background and gate-path corrections unspecified.",
+    "Candidate energies used in inversion come from 2014 ENSDF/1992 measurement lineage.",
+    "Printed Eq3 does not certify the authors' actual numerical prescription.",
+    "Lower curves and Donau calculations are model-dependent, not independent delta data.",
+    "No new statistical errors, absolute strengths, lifetime, delta sign, or mode verdict."
+  ],
+  "new_artifact_write_scope": "outputs/l4/20261105-ba129-controlled-pairing/independent-branch-review",
+  "source_images_or_extracted_text_written_to_output": false,
+  "software": {
+    "numpy": "2.5.4",
+    "pymupdf": "1.28.2"
+  }
+}

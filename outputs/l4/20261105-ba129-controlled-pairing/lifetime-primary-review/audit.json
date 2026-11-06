@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "audit_kind": "focused lifetime primary-source verification",
+  "created_at_utc": "2026-11-05T17:06:18.995900+00:00",
+  "requested_task_date": "2026-11-06",
+  "clock_note": "Runtime UTC may fall on 2026-11-05 while task directory uses user-requested 20261106; timestamps are actual UTC and were not forced to match slug",
+  "primary_status": "not-retrieved",
+  "evaluation_error_evidence_found": false,
+  "primary_fulltext_verified": false,
+  "direct_author_equivalent_lifetime_table_verified": false,
+  "evaluated_half_lives_retained": true,
+  "lifetimes": [
+    {
+      "level_energy_keV": 797.4,
+      "spin_parity": "15/2-",
+      "dataset": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-129ba-129056013-201408-09194d4feed3.ens",
+      "locator": "line 143; lifetime provenance lines 10–11,38–39",
+      "literal_record": "129BA  L 797.4     1 15/2-             6.5 PS    2                          A   ",
+      "input_quantity": "evaluated half-life T1/2",
+      "input_ps": 6.5,
+      "quoted_error_ps": 0.2,
+      "mean_lifetime_tau_ps": 9.377517765778263,
+      "converted_quoted_error_ps": 0.2885390081777927,
+      "transformation": "tau=T1/2/ln(2); quoted_error_tau=quoted_error_T1/2/ln(2)",
+      "derived_only": true,
+      "original_stuch_table_value": null,
+      "original_stuch_quantity_label": null,
+      "original_stuch_error_definition": null,
+      "joint_covariance": null,
+      "override_evaluated_convention": false
+    },
+    {
+      "level_energy_keV": 1475.4,
+      "spin_parity": "19/2-",
+      "dataset": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-129ba-129056013-201408-09194d4feed3.ens",
+      "locator": "line 206; lifetime provenance lines 10–11,38–39",
+      "literal_record": "129BA  L 1475.4    1 19/2-             1.0 PS    4                          A   ",
+      "input_quantity": "evaluated half-life T1/2",
+      "input_ps": 1.0,
+      "quoted_error_ps": 0.4,
+      "mean_lifetime_tau_ps": 1.4426950408889634,
+      "converted_quoted_error_ps": 0.5770780163555854,
+      "transformation": "tau=T1/2/ln(2); quoted_error_tau=quoted_error_T1/2/ln(2)",
+      "derived_only": true,
+      "original_stuch_table_value": null,
+      "original_stuch_quantity_label": null,
+      "original_stuch_error_definition": null,
+      "joint_covariance": null,
+      "override_evaluated_convention": false
+    }
+  ],
+  "outgoing_branches": [
+    {
+      "gamma_keV": 153.8,
+      "gamma_quoted_error_keV": 0.1,
+      "initial_level_keV": 797.4,
+      "final_level_keV": 643.6,
+      "Ji": "15/2-",
+      "Jf": "13/2-",
+      "multipolarity_from_evaluation": "M1+E2",
+      "relative_gamma_intensity_ensdf": 7.4,
+      "quoted_error_ensdf": 0.4,
+      "ensdf_line": 144,
+      "byrne1992_primary_relative_intensity": 74,
+      "byrne1992_primary_quoted_error": 4,
+      "primary_locator": "Table 1, printed p.135 / PDF p.5, Egamma=153.8 keV row",
+      "primary_table_visually_checked": true,
+      "primary_to_ensdf_scale": 0.1,
+      "reaction_context": "Byrne1992 116Cd(18O,5n), 86 MeV; not Stuch 76 MeV RDDS selection",
+      "branch_fraction": null,
+      "rdds_gate_identity": null
+    },
+    {
+      "gamma_keV": 518.6,
+      "gamma_quoted_error_keV": 0.1,
+      "initial_level_keV": 797.4,
+      "final_level_keV": 278.81,
+      "Ji": "15/2-",
+      "Jf": "11/2-",
+      "multipolarity_from_evaluation": "E2",
+      "relative_gamma_intensity_ensdf": 100,
+      "quoted_error_ensdf": 2,
+      "ensdf_line": 149,
+      "byrne1992_primary_relative_intensity": 1000,
+      "byrne1992_primary_quoted_error": 20,
+      "primary_locator": "Table 1, printed p.136 / PDF p.6, Egamma=518.6 keV row",
+      "primary_table_visually_checked": true,
+      "primary_to_ensdf_scale": 0.1,
+      "reaction_context": "Byrne1992 116Cd(18O,5n), 86 MeV; not Stuch 76 MeV RDDS selection",
+      "branch_fraction": null,
+      "rdds_gate_identity": null
+    },
+    {
+      "gamma_keV": 157.0,
+      "gamma_quoted_error_keV": 0.1,
+      "initial_level_keV": 1475.4,
+      "final_level_keV": 1318.4,
+      "Ji": "19/2-",
+      "Jf": "17/2-",
+      "multipolarity_from_evaluation": "(M1+E2)",
+      "relative_gamma_intensity_ensdf": 5.3,
+      "quoted_error_ensdf": 1.4,
+      "ensdf_line": 207,
+      "byrne1992_primary_relative_intensity": 53,
+      "byrne1992_primary_quoted_error": 14,
+      "primary_locator": "Table 1, printed p.135 / PDF p.5, Egamma=157.0 keV row",
+      "primary_table_visually_checked": true,
+      "primary_to_ensdf_scale": 0.1,
+      "reaction_context": "Byrne1992 116Cd(18O,5n), 86 MeV; not Stuch 76 MeV RDDS selection",
+      "branch_fraction": null,
+      "rdds_gate_identity": null
+    },
+    {
+      "gamma_keV": 678.0,
+      "gamma_quoted_error_keV": 0.1,
+      "initial_level_keV": 1475.4,
+      "final_level_keV": 797.4,
+      "Ji": "19/2-",
+      "Jf": "15/2-",
+      "multipolarity_from_evaluation": "E2",
+      "relative_gamma_intensity_ensdf": 79.6,
+      "quoted_error_ensdf": 1.6,
+      "ensdf_line": 211,
+      "byrne1992_primary_relative_intensity": 796,
+      "byrne1992_primary_quoted_error": 16,
+      "primary_locator": "Table 1, printed p.137 / PDF p.7, Egamma=678.0 keV row",
+      "primary_table_visually_checked": true,
+      "primary_to_ensdf_scale": 0.1,
+      "reaction_context": "Byrne1992 116Cd(18O,5n), 86 MeV; not Stuch 76 MeV RDDS selection",
+      "branch_fraction": null,
+      "rdds_gate_identity": null
+    }
+  ],
+  "incoming_scheme_candidates": [
+    {
+      "parent_energy_keV": 1210.0,
+      "parent_spin": "15/2-",
+      "parent_level_line": 180,
+      "target_energy_keV": 797.4,
+      "gamma_keV": 412.6,
+      "gamma_line": 181,
+      "energy_closure_residual_keV": 0.0,
+      "literal_gamma_record": "129BA  G 412.6     1 2.9     6 D                                                ",
+      "identity_basis": "evaluated level plus gamma energy closure within 0.15 keV; no RDDS gate inferred",
+      "actual_rdds_gate_or_sidefeeding_fraction": null
+    },
+    {
+      "parent_energy_keV": 1318.4,
+      "parent_spin": "17/2-",
+      "parent_level_line": 195,
+      "target_energy_keV": 797.4,
+      "gamma_keV": 521.0,
+      "gamma_line": 196,
+      "energy_closure_residual_keV": 0.0,
+      "literal_gamma_record": "129BA  G 521.0     1 17.4    17(M1+E2)                 0.0103 16            K   ",
+      "identity_basis": "evaluated level plus gamma energy closure within 0.15 keV; no RDDS gate inferred",
+      "actual_rdds_gate_or_sidefeeding_fraction": null
+    },
+    {
+      "parent_energy_keV": 1475.4,
+      "parent_spin": "19/2-",
+      "parent_level_line": 206,
+      "target_energy_keV": 797.4,
+      "gamma_keV": 678.0,
+      "gamma_line": 211,
+      "energy_closure_residual_keV": 0.0,
+      "literal_gamma_record": "129BA  G 678.0     1 79.6    16E2                                           K   ",
+      "identity_basis": "evaluated level plus gamma energy closure within 0.15 keV; no RDDS gate inferred",
+      "actual_rdds_gate_or_sidefeeding_fraction": null
+    },
+    {
+      "parent_energy_keV": 1545.3,
+      "parent_spin": "(17/2-)",
+      "parent_level_line": 215,
+      "target_energy_keV": 797.4,
+      "gamma_keV": 747.8,
+      "gamma_line": 222,
+      "energy_closure_residual_keV": 0.1,
+      "literal_gamma_record": "129BA  G 747.8     2 3.0     6 D                                                ",
+      "identity_basis": "evaluated level plus gamma energy closure within 0.15 keV; no RDDS gate inferred",
+      "actual_rdds_gate_or_sidefeeding_fraction": null
+    },
+    {
+      "parent_energy_keV": 2146.3,
+      "parent_spin": "21/2-",
+      "parent_level_line": 255,
+      "target_energy_keV": 1475.4,
+      "gamma_keV": 670.8,
+      "gamma_line": 256,
+      "energy_closure_residual_keV": 0.1,
+      "literal_gamma_record": "129BA  G 670.8     2 6.4     6 (M1+E2)                                          ",
+      "identity_basis": "evaluated level plus gamma energy closure within 0.15 keV; no RDDS gate inferred",
+      "actual_rdds_gate_or_sidefeeding_fraction": null
+    },
+    {
+      "parent_energy_keV": 2281.2,
+      "parent_spin": "23/2-",
+      "parent_level_line": 262,
+      "target_energy_keV": 1475.4,
+      "gamma_keV": 805.8,
+      "gamma_line": 263,
+      "energy_closure_residual_keV": -0.0,
+      "literal_gamma_record": "129BA  G 805.8     1 57.6    12 Q                                           K   ",
+      "identity_basis": "evaluated level plus gamma energy closure within 0.15 keV; no RDDS gate inferred",
+      "actual_rdds_gate_or_sidefeeding_fraction": null
+    },
+    {
+      "parent_energy_keV": 2336.7,
+      "parent_spin": "21/2-",
+      "parent_level_line": 266,
+      "target_energy_keV": 1475.4,
+      "gamma_keV": 861.3,
+      "gamma_line": 270,
+      "energy_closure_residual_keV": -0.0,
+      "literal_gamma_record": "129BA  G 861.3     2 0.5     3                                                  ",
+      "identity_basis": "evaluated level plus gamma energy closure within 0.15 keV; no RDDS gate inferred",
+      "actual_rdds_gate_or_sidefeeding_fraction": null
+    },
+    {
+      "parent_energy_keV": 2599.6,
+      "parent_spin": "23/2-",
+      "parent_level_line": 305,
+      "target_energy_keV": 1475.4,
+      "gamma_keV": 1124.3,
+      "gamma_line": 310,
+      "energy_closure_residual_keV": -0.1,
+      "literal_gamma_record": "129BA  G 1124.3    3 2.5     3  (Q)                                             ",
+      "identity_basis": "evaluated level plus gamma energy closure within 0.15 keV; no RDDS gate inferred",
+      "actual_rdds_gate_or_sidefeeding_fraction": null
+    }
+  ],
+  "feeding_boundary": "Scheme connectivity is not an experiment-specific RDDS gating or sidefeeding model. No original coincidence gates, shifted/stopped yields, distance/velocity calibration, source uncertainty budget or lifetime covariance recovered.",
+  "branch_lineage": "Byrne1992 Table1 -> ENSDF2014 E/RI; Stuch2000 -> ENSDF2014 lifetime T. They are distinct source layers, not independent repetitions.",
+  "icc_boundary": "ENSDF lines32–33 assume delta(E2/M1)=0.5 when absent. Mixed gamma CC is conditional, not measured delta; no B(E2) or feeding fractions computed.",
+  "stuch_identity": {
+    "doi": "10.1103/PhysRevC.61.044325",
+    "nsr": "2000ST07",
+    "inspire_id": "525065",
+    "osti_id": "20215890",
+    "reported_extent": "11 pages (OSTI metadata)",
+    "reaction": "116Cd(18O,5n)129Ba; E=76 MeV",
+    "abstract_scope": "six 129Ba and twelve 130Ba states; coincidence DDCM (metadata/abstract, not numerical tables)"
+  },
+  "author_thesis": {
+    "author": "Oliver Stuch",
+    "title": "Koinzidenzmessung von Lebensdauern in 130Ba und Nachbarkernen mit EUROBALL-Clusterdetektoren",
+    "dnb_id": "955612446",
+    "dissertation_year": 1997,
+    "publication_year": 1998,
+    "extent": "IV,126 pages",
+    "acquired": "three-page contents only",
+    "contents_locators": [
+      "printed iii / PDF2: section4.3 p57 lifetime overview",
+      "printed iii / PDF2: section6.2 p82 129Ba and125Xe; 6.2.2 p83 negative-parity bands",
+      "printed iv / PDF3: AppendixE p109 intensity tables"
+    ],
+    "target_rows_present_in_acquired_artifact": false
+  },
+  "conference": {
+    "nsr": "1998STZX",
+    "title": "Coincidence RDDS Lifetime Measurement in 130Ba with an EUROBALL Cluster Detector Array",
+    "venue": "Contrib. Nuclear Structure 98, Gatlinburg, p.128 (1998)",
+    "acquired": "exact NSR metadata only",
+    "indexed_nuclide": "130Ba",
+    "ba129_table": null,
+    "disposition": "not a verified 129Ba author-equivalent table; stop extending this lead absent contrary direct content"
+  },
+  "skipped_previously_failed_routes": [
+    {
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.61.044325/fulltext",
+      "previous_status": 401,
+      "reason": "same authorization boundary; not retried"
+    },
+    {
+      "url": "https://api.archives-ouvertes.fr/search/?q=doiId_s:%2210.1103/PhysRevC.61.044325%22&fl=*&wt=json",
+      "previous_num_found": 0,
+      "reason": "identical DOI query previously empty; not retried"
+    }
+  ],
+  "source_inputs": [
+    {
+      "path": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-129ba-129056013-201408-09194d4feed3.ens",
+      "size": 44715,
+      "sha256": "09194d4feed3bbda013c551ce5ba9ecf55a25799e8c46ec22f23685df1c1ef19",
+      "use": "existing input; read only; not copied or overwritten"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261105-ba129-model-readiness/byrne1992-main.pdf",
+      "size": 2626883,
+      "sha256": "e7fd04cd2eb33070e7b0d9e60dfdef70b0bba2f45a3c24dc05b6aeee05ed9fa0",
+      "use": "existing input; read only; not copied or overwritten"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261105-ba129-model-readiness/stuch2000-crossref.json",
+      "size": 8805,
+      "sha256": "6080073546557f1856dfcc93897f482527da8e472bb5d048e5eb98e4a7b50cde",
+      "use": "existing input; read only; not copied or overwritten"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261105-ba129-model-readiness/stuch2000-harvest.txt",
+      "size": 66,
+      "sha256": "659191fa357ce4a6cdef63f878cc02317d488b150c511ad9571aabba23812e9d",
+      "use": "existing input; read only; not copied or overwritten"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261105-ba129-model-readiness/stuch2000-hal.json",
+      "size": 116,
+      "sha256": "316b596864c92e18c8f6688107ad49ecfc3fe632ebdc85efe82c65ed28ba8064",
+      "use": "existing input; read only; not copied or overwritten"
+    }
+  ],
+  "manifest": "raw/papers/gpt/query/20261106-ba129-lifetime-primary-check/manifest.json",
+  "output_scope": [
+    "outputs/l4/20261105-ba129-controlled-pairing/lifetime-primary-review",
+    "raw/papers/gpt/query/20261106-ba129-lifetime-primary-check",
+    "tmp/ba129-lifetime-primary-check"
+  ],
+  "no_new_measurements": true,
+  "no_model_fit_or_data_reinterpretation": true,
+  "no_commit": true
+}
