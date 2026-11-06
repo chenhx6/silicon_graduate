@@ -1,0 +1,8 @@
+{
+  "numerical_payloads_checked": 122,
+  "failed": [],
+  "original45_unchanged": true,
+  "new_physical_replay_not_needed": "Only interpretation prose changed; numerical producers/data are identical to successful prior standalone replays.",
+  "ZIP_CRC_and_current_entry_bytes_match": true,
+  "main_pdf_pages": 12
+}

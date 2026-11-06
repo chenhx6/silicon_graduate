@@ -1,65 +1,82 @@
-"""
-Unit tests for Gamma-Band Mikhailov z_gamma Mixing & Alaga Correction Inverter.
-
-Benchmarked against:
-  - G. Alaga et al., Mat. Fys. Medd. Dan. Vid. Selsk. 29, no. 9 (1955).
-  - V. M. Mikhailov, Izv. Akad. Nauk SSSR, Ser. Fiz. 30, 1334 (1966).
-  - A. Bohr and B. R. Mottelson, Nuclear Structure, Vol. II, §4-2.
-"""
-
-import unittest
-import sys
+"""BM-II conditional strength contract: independent geometry and all roots."""
 import json
+import math
 from pathlib import Path
+import sys
+import unittest
+import numpy as np
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts" / "analysis"))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts' / 'analysis'))
 from gamma_band_mixing_z_gamma_alaga_inverter import (
-    calculate_alaga_cg_coefficient,
-    invert_z_gamma_from_branching
+    calculate_alaga_cg_coefficient, invert_z_gamma_from_branching,
+    format_text_report,
 )
 
 
 class GammaBandMixingZGammaTests(unittest.TestCase):
+    def test_independent_cg_from_total_angular_momentum(self):
+        # Diagonalize J^2 in M=0 product basis, independently of factorial CG.
+        for j in (2, 3, 4, 7):
+            ms = list(range(-2, 3))
+            h = np.diag([j*(j+1)+6-2*m*m for m in ms]).astype(float)
+            for k, m in enumerate(ms[:-1]):
+                h[k,k+1] = h[k+1,k] = math.sqrt((j*(j+1)-m*(m+1))*(6-m*(m+1)))
+            vals, vecs = np.linalg.eigh(h)
+            for J in range(abs(j-2), j+3):
+                if J % 2 == 0:
+                    idx = int(np.argmin(abs(vals-J*(J+1))))
+                    self.assertAlmostEqual(vals[idx], J*(J+1), places=11)
+                    self.assertAlmostEqual(calculate_alaga_cg_coefficient(j,J)**2,
+                                           vecs[4,idx]**2, places=12)
+        self.assertEqual(calculate_alaga_cg_coefficient(5,3), 0)
+        with self.assertRaises(ValueError):
+            calculate_alaga_cg_coefficient(1,0)
 
-    def test_unperturbed_alaga_coefficients(self):
-        """Verify unperturbed Clebsch-Gordan coefficients for K=2 to K=0 transitions."""
-        # <2 2 2 -2 | 0 0> = sqrt(1/5)
-        self.assertAlmostEqual(calculate_alaga_cg_coefficient(2, 0), 0.44721, places=4)
-        # <2 2 2 -2 | 2 0> = sqrt(2/7)
-        self.assertAlmostEqual(calculate_alaga_cg_coefficient(2, 2), 0.53452, places=4)
-        # <2 2 2 -2 | 4 0> = sqrt(1/70)
-        self.assertAlmostEqual(calculate_alaga_cg_coefficient(2, 4), 0.11952, places=4)
+    def test_alaga_zero_mixing_and_sign_ambiguity(self):
+        r = invert_z_gamma_from_branching(.7)
+        self.assertEqual(r['inverted_z_gamma'], 0)
+        self.assertAlmostEqual(r['predicted_B_E2_4g_to_2g_ratio'], .05)
+        self.assertEqual(len(r['branches']), 2)
+        self.assertAlmostEqual(r['branches'][1]['a2'], 1/3)
+        self.assertIsNone(r['rotational_vibrational_h2_keV'])
 
-    def test_168Er_mikhailov_inversion_benchmark(self):
-        """168Er gamma band benchmark: R_exp = 0.540 -> z_gamma ~ 0.0203, h2 ~ 6.14 keV."""
-        res = invert_z_gamma_from_branching(
-            R_exp_B_E2=0.540, E_2gamma_keV=821.1, E_2g_keV=79.8
-        )
-        self.assertAlmostEqual(res["inverted_z_gamma"], 0.02028, places=4)
-        self.assertAlmostEqual(res["rotational_vibrational_h2_keV"], 6.14, places=1)
-        self.assertAlmostEqual(res["unperturbed_Alaga_ratio"], 0.7000, places=3)
-        self.assertIn("Well-Deformed", res["structural_classification"])
+    def test_two_branch_round_trips_and_cross_predictions(self):
+        for R in (0, .175, .32, .54, .7, 2.8, 6.3):
+            r = invert_z_gamma_from_branching(R)
+            self.assertEqual(len(r['branches']), 1 if R == 0 else 2)
+            for b in r['branches']:
+                a, t, z = b['a2'], b['legacy_rostovsky_z_gamma'], b['bm_z2']
+                self.assertAlmostEqual(.7*(1-6*a)**2, R, places=12)
+                if t is not None:
+                    self.assertAlmostEqual(t/(2*(1+t)), a)
+                    self.assertAlmostEqual(.7*((1-2*t)/(1+t))**2, R)
+                    self.assertAlmostEqual(.05*((1+8*t)/(1+t))**2,
+                                           b['predicted_B_E2_4g_to_2g_ratio'])
+                if z is not None:
+                    self.assertAlmostEqual(z/(2*(1+2*z)), a)
+                    self.assertAlmostEqual(.7*((1-z)/(1+2*z))**2, R)
+                self.assertIsNone(b['h2_keV'])
+                self.assertIsNone(b['epsilon2'])
+        # Real solutions must survive coordinate poles.
+        self.assertIsNone(invert_z_gamma_from_branching(.175)['branches'][1]['bm_z2'])
+        self.assertIsNone(invert_z_gamma_from_branching(2.8)['branches'][1]['legacy_rostovsky_z_gamma'])
 
-    def test_gamma_soft_large_mixing_130Ba(self):
-        """130Ba transitional gamma-soft nucleus exhibits large z_gamma > 0.05."""
-        res_soft = invert_z_gamma_from_branching(
-            R_exp_B_E2=0.320, E_2gamma_keV=908.1, E_2g_keV=357.4
-        )
-        self.assertGreater(res_soft["inverted_z_gamma"], 0.050)
-        self.assertGreater(res_soft["rotational_vibrational_h2_keV"], 10.0)
-        self.assertIn("Transitional", res_soft["structural_classification"])
+    def test_fixture_does_not_infer_coupling_or_shape(self):
+        r = invert_z_gamma_from_branching(.540,821.1,79.8)
+        self.assertAlmostEqual(r['inverted_z_gamma'], (1-math.sqrt(.540/.7))/6)
+        self.assertIsNone(r['rotational_vibrational_h2_keV'])
+        self.assertIn('Undetermined',r['structural_classification'])
+        self.assertIn('undetermined',format_text_report(r))
+        json.dumps(r,allow_nan=False)
 
     def test_invalid_parameters_raised(self):
-        """Non-positive branching ratio must raise ValueError."""
-        with self.assertRaises(ValueError):
-            invert_z_gamma_from_branching(R_exp_B_E2=-0.5)
-
-    def test_strict_json_serialization(self):
-        """Verify strict RFC JSON serialization without NaN or Inf."""
-        res = invert_z_gamma_from_branching(R_exp_B_E2=0.540)
-        s = json.dumps(res, allow_nan=False)
-        self.assertIn("inverted_z_gamma", s)
+        for ratio in (-.5, float('nan'), float('inf')):
+            with self.assertRaises(ValueError):
+                invert_z_gamma_from_branching(ratio)
+        for kwargs in ({'I_gamma':3}, {'E_2g_keV':-1}, {'E_2gamma_keV':float('nan')}):
+            with self.assertRaises(ValueError):
+                invert_z_gamma_from_branching(.54,**kwargs)
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()

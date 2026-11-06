@@ -1,0 +1,61 @@
+{
+  "recorded_at_utc": "2026-11-06T11:55:30.138788+00:00",
+  "scope": "Substantive novelty/overlap audit of three specified archived sources and current manuscript; no new literature search or model run",
+  "inputs": [
+    {
+      "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/nomura2016-arxiv1610-00469.pdf",
+      "sha256": "817ed7f1fcfe43861bff8fe96929eb22536a0dd1833cfcefc08675585edf711f",
+      "size_bytes": 1917145,
+      "page_count": 15,
+      "role": "primary_source",
+      "source_id": "N16"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/rouoof2025-e2-matrix-elements.pdf",
+      "sha256": "58cd93b84996ece2564c3da472f30e64c7403d5e15592bebb7e28459f41a447e",
+      "size_bytes": 638366,
+      "page_count": 24,
+      "role": "primary_source",
+      "source_id": "R25"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/focused-sidecar/lawrie-orce2025-simple-ratios-publisher.pdf",
+      "sha256": "683ad9af035a6d7860a5beaffc0f5d395d34963916be08907df437803c644305",
+      "size_bytes": 1042784,
+      "page_count": 9,
+      "role": "primary_source",
+      "source_id": "L25"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/main.tex",
+      "sha256": "034c81d4ba14b049da38e45fd4673e6baa5b9b7f4cbd3f9072f614bb48c01332",
+      "size_bytes": 26920,
+      "role": "manuscript_snapshot"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/controls.tex",
+      "sha256": "198eae9812acb32a22b4f80dd11fd2706a9e60f1f3ef58d3732a65e5752439d1",
+      "size_bytes": 4888,
+      "role": "manuscript_snapshot"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/rigid-control.tex",
+      "sha256": "1cc044bbf1109602cedd63f963d82bbbc2d79de991903098455f39adf4fb7511",
+      "size_bytes": 3190,
+      "role": "manuscript_snapshot"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/revision-appendices.tex",
+      "sha256": "933ea5762c6b2e2b2e92764af776c09197ff290da74401e68da89e34b3c52624",
+      "size_bytes": 8301,
+      "role": "manuscript_snapshot"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/main.pdf",
+      "sha256": "8910232b7df3f5d09d3c2c2ea7df8034240b54c35218b9a732478f8aafb47f3d",
+      "size_bytes": 227340,
+      "role": "manuscript_snapshot",
+      "page_count": 12
+    }
+  ]
+}

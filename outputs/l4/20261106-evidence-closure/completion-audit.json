@@ -1,0 +1,46 @@
+{
+  "at_utc": "2026-11-06T13:10:52.524680+00:00",
+  "completion_basis": "Latest user-agreed bounded closeout, with documented stop reason allowed by original objective",
+  "latest_scope": [
+    "three closest primary-source comparisons",
+    "Mikhailov correction propagation",
+    "CAP correction propagation",
+    "PES correction propagation",
+    "required integration/format/data checks and repository delivery"
+  ],
+  "scope_results": {
+    "novelty": {
+      "complete": true,
+      "evidence": "novelty/source-audit.json",
+      "outcome": "incremental candidate only; no priority/journal-significance certification"
+    },
+    "mikhailov": {
+      "complete": true,
+      "evidence": "mikhailov/resumed-checks.json"
+    },
+    "cap": {
+      "complete": true,
+      "evidence": "cap/resumed-checks.json"
+    },
+    "pes": {
+      "complete": true,
+      "evidence": "pes/resumed-checks.json"
+    },
+    "integration": {
+      "complete": true,
+      "evidence": "validation/integration-compatibility.json"
+    }
+  },
+  "broader_requirements_not_claimed_complete": {
+    "all_raw_full_reading": false,
+    "all_library_errors_eliminated": false,
+    "actual_Ba_shape_or_collective_mode_established": false,
+    "author_run_EM_recovered": false,
+    "publication_or_submission_ready": false
+  },
+  "stop_reason_document": "final-closeout.md",
+  "validation_and_publication": "All required checks passed; actual Git publication/post-commit state is recorded in publication-final-receipt.local.json",
+  "required_new_research_outside_agreed_closeout": false,
+  "agreed_closeout_requirements_complete": true,
+  "remaining_work_required_within_agreed_scope": false
+}

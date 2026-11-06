@@ -1,9 +1,10 @@
 {
   "method": "Approximate English prose tokens after removal of inline math, equation/table/figure environments and simple TeX commands; not a journal word-limit certification.",
   "before_main": 2707,
-  "after_main": 2799,
+  "after_main": 2834,
   "before_total": 3035,
-  "after_total": 3858,
+  "after_total": 3893,
   "main_figures_before": 3,
-  "main_figures_after": 3
+  "main_figures_after": 3,
+  "final_evidence_closeout_included": true
 }

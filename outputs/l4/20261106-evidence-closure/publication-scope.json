@@ -1,0 +1,407 @@
+{
+  "stable_pointer": "main / research: close scoped A130 evidence and correct derived tools",
+  "paths": [
+    "knowledge/concepts/coriolis-anti-pairing-and-moment-of-inertia-expansion.md",
+    "knowledge/concepts/cranked-triaxial-shape-coexistence-pes.md",
+    "knowledge/concepts/davydov-rostovsky-triaxial-band-mixing.md",
+    "knowledge/concepts/gamma-vibrational-band-mixing-and-mikhailov-z-gamma-parameter.md",
+    "knowledge/concepts/triaxial-hexadecapole-deformation-and-wobbling-modification.md",
+    "knowledge/concepts/triaxial-superdeformed-pes-strutinsky-landscape.md",
+    "knowledge/index.md",
+    "knowledge/methods/bm2-rotational-intrinsic-coupling-and-mikhailov-contract.md",
+    "knowledge/research-notes/coriolis-antipairing-and-superdeformed-alignment-transitions.md",
+    "knowledge/research-notes/odd-ba-novelty-overlap-and-contribution-boundary.md",
+    "knowledge/sources/quadrupole-invariant-spin-channel-precedents.md",
+    "outputs/l4/20261106-evidence-closure/.gitignore",
+    "outputs/l4/20261106-evidence-closure/cap/receipt.json",
+    "outputs/l4/20261106-evidence-closure/cap/report.md",
+    "outputs/l4/20261106-evidence-closure/cap/resumed-checks.json",
+    "outputs/l4/20261106-evidence-closure/cap/resumed-report.md",
+    "outputs/l4/20261106-evidence-closure/completion-audit.json",
+    "outputs/l4/20261106-evidence-closure/final-closeout.md",
+    "outputs/l4/20261106-evidence-closure/freeze.json",
+    "outputs/l4/20261106-evidence-closure/mikhailov/freeze-receipt.json",
+    "outputs/l4/20261106-evidence-closure/mikhailov/resumed-checks.json",
+    "outputs/l4/20261106-evidence-closure/mikhailov/resumed-report.md",
+    "outputs/l4/20261106-evidence-closure/novelty/final-audit.md",
+    "outputs/l4/20261106-evidence-closure/novelty/input-snapshot.json",
+    "outputs/l4/20261106-evidence-closure/novelty/partial-audit.md",
+    "outputs/l4/20261106-evidence-closure/novelty/source-audit.json",
+    "outputs/l4/20261106-evidence-closure/pes/report.md",
+    "outputs/l4/20261106-evidence-closure/pes/resumed-baseline.json",
+    "outputs/l4/20261106-evidence-closure/pes/resumed-checks.json",
+    "outputs/l4/20261106-evidence-closure/pes/resumed-report.md",
+    "outputs/l4/20261106-evidence-closure/pes/resumed-test-output.txt",
+    "outputs/l4/20261106-evidence-closure/publication-scope.json",
+    "outputs/l4/20261106-evidence-closure/validation/article-preservation.json",
+    "outputs/l4/20261106-evidence-closure/validation/final-bundle.json",
+    "outputs/l4/20261106-evidence-closure/validation/integration-compatibility.json",
+    "outputs/l4/20261106-evidence-closure/validation/manuscript-compile.json",
+    "outputs/l4/20261106-evidence-closure/validation/preflight.json",
+    "outputs/l4/20261106-evidence-closure/validation/preflight.log",
+    "outputs/l4/20261106-evidence-closure/validation/wiki-lint-initial.json",
+    "outputs/l4/20261106-evidence-closure/validation/wiki-lint-initial.log",
+    "outputs/l4/20261106-evidence-closure/validation/wiki-lint.json",
+    "outputs/l4/20261106-evidence-closure/validation/wiki-lint.log",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/README.md",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/final-evidence-closure.md",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/compile.log",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/latex-check.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/review-bundle.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/review-source-v2.zip",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/summary.md",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/word-count.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/main.pdf",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/main.tex",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/sources/claim-ledger.md",
+    "system/handoff.md",
+    "system/log.md",
+    "system/scripts/analysis/coriolis_anti_pairing_gap_quenching_moi_engine.py",
+    "system/scripts/analysis/cranked_triaxial_shape_coexistence_pes_engine.py",
+    "system/scripts/analysis/davydov_rostovsky_triaxial_band_mixing_solver.py",
+    "system/scripts/analysis/gamma_band_mixing_z_gamma_alaga_inverter.py",
+    "system/scripts/analysis/nuclear_analyzer.py",
+    "system/scripts/analysis/test_analysis_suite.py",
+    "system/scripts/analysis/triaxial_hexadecapole_deformation_wobbling_modifier.py",
+    "system/scripts/analysis/triaxial_superdeformed_pes_strutinsky_engine.py",
+    "system/scripts/day27_sd_vs_nd_pairing_cap_study.py",
+    "system/tests/test_coriolis_anti_pairing.py",
+    "system/tests/test_davydov_rostovsky_mixing.py",
+    "system/tests/test_gamma_band_mixing_z_gamma.py"
+  ],
+  "files": [
+    {
+      "path": "knowledge/concepts/coriolis-anti-pairing-and-moment-of-inertia-expansion.md",
+      "sha256": "aa7e494b34ebb52c0b59ec07b709fa691716d3905b6e6f75db77403a7627f1ad",
+      "size": 5330
+    },
+    {
+      "path": "knowledge/concepts/cranked-triaxial-shape-coexistence-pes.md",
+      "sha256": "5364ced4e8cce9fd6cc404b1efb897452cf62392c4679b20b0ac0340082bc97c",
+      "size": 3852
+    },
+    {
+      "path": "knowledge/concepts/davydov-rostovsky-triaxial-band-mixing.md",
+      "sha256": "7c7d03d0fde6303a0ddd5b1f2b23897fda224289a18eaac0be392c25ba86f8ca",
+      "size": 3741
+    },
+    {
+      "path": "knowledge/concepts/gamma-vibrational-band-mixing-and-mikhailov-z-gamma-parameter.md",
+      "sha256": "6b169406726132f586b4c26176a1b1db11d97f7fe18d15f38b010239c149d633",
+      "size": 3396
+    },
+    {
+      "path": "knowledge/concepts/triaxial-hexadecapole-deformation-and-wobbling-modification.md",
+      "sha256": "5dd33e15542bea5f01499bc03152850d86e8b423987670a3d15b5d558cc451de",
+      "size": 3903
+    },
+    {
+      "path": "knowledge/concepts/triaxial-superdeformed-pes-strutinsky-landscape.md",
+      "sha256": "fdce3c19b6de496ae9932545e1ac825b45fcd6c59c49b1814945595dfd8fcace",
+      "size": 3678
+    },
+    {
+      "path": "knowledge/index.md",
+      "sha256": "560697cc9604d78155e506c7f3a156b6a85dc58dc250584e7eae8fb91ca49ff8",
+      "size": 284073
+    },
+    {
+      "path": "knowledge/methods/bm2-rotational-intrinsic-coupling-and-mikhailov-contract.md",
+      "sha256": "b2cc171d82f7916e7c1064114323140f10b42f9387c6d444256cbdb218e7b9cc",
+      "size": 6149
+    },
+    {
+      "path": "knowledge/research-notes/coriolis-antipairing-and-superdeformed-alignment-transitions.md",
+      "sha256": "67ecf8ee6f6cd3e5ea3f034604f0191f6a604578651c307b02a97ed2db6f6eec",
+      "size": 5915
+    },
+    {
+      "path": "knowledge/research-notes/odd-ba-novelty-overlap-and-contribution-boundary.md",
+      "sha256": "2e311fea46946174e90c097ed11aaa1452ba3d69d3e1ecfb1a8f8eb2e42902f5",
+      "size": 6585
+    },
+    {
+      "path": "knowledge/sources/quadrupole-invariant-spin-channel-precedents.md",
+      "sha256": "b239bef5af154c64fc66d8a1e9bd1d675581ec51e5c9392a8ea2bf12a423bdbc",
+      "size": 12960
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/.gitignore",
+      "sha256": "7bee5f51ada8f32673607a051498b82271c7ce3cda3e3b93a7312e93dec14653",
+      "size": 37
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/cap/receipt.json",
+      "sha256": "378b3f65e7ec55872720a66f58624fe3bd4750a31ab20e5b2d3ee16e5da56779",
+      "size": 1893
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/cap/report.md",
+      "sha256": "c2cf4b5b1e3edc38a046bfcb6f205ab7dae1b980da2c9ebbf037eea3d4bf3975",
+      "size": 4948
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/cap/resumed-checks.json",
+      "sha256": "8187bea31b57f03344f5355932c019510a1573b52d9135963d55276000b971bd",
+      "size": 8624
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/cap/resumed-report.md",
+      "sha256": "0e201a8f3accde6496c2a29aca8ceff27477cda9c8efda4ef111549ff4339e82",
+      "size": 5007
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/completion-audit.json",
+      "sha256": "a15190e33f2304277002d1a425649194f31a54cbb11a9b798efc900260b16696",
+      "size": 1669
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/final-closeout.md",
+      "sha256": "1ae96a43760f162187c4149decbacaf1d2f1f2432ac925c7d70e993e15e96bdb",
+      "size": 2541
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/freeze.json",
+      "sha256": "eb07f43807e597e9e2aa3d126e2158b7ebaf557e324020c9fe667af27c5553be",
+      "size": 1668
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/mikhailov/freeze-receipt.json",
+      "sha256": "0858ebd4f04d6251ea376964b7d0db79a4707595400b7278313d5efbbe5adbae",
+      "size": 2927
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/mikhailov/resumed-checks.json",
+      "sha256": "a1dffd12c1bd18984f3ae90853810d53a2fd9447b9659e6718234a0ee3a4cfbf",
+      "size": 6084
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/mikhailov/resumed-report.md",
+      "sha256": "e92c8cbd86042ffb473b12b0e169412436b588881e9cac6f5fa3aa4c0c26030b",
+      "size": 2104
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/novelty/final-audit.md",
+      "sha256": "c3f43a95b035b5a395cca8f44c64bdac5aa56faee8400fd90a3e01e15fee9a08",
+      "size": 711
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/novelty/input-snapshot.json",
+      "sha256": "59e9735e341593a7212dce6e0c333857fa3d1bfde6f6ca8da3486ce320cc79b1",
+      "size": 2377
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/novelty/partial-audit.md",
+      "sha256": "cf4ee37f87be2d8fadb84b9c33049312c50809cb914416b94c7f223e5bc97592",
+      "size": 5876
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/novelty/source-audit.json",
+      "sha256": "5b99dcf31f3d5029b60a5caeeb96a1b6f5475a12e6de14e39991e1486b7c5461",
+      "size": 1363
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/pes/report.md",
+      "sha256": "12fb6962dfb805e1a419de861021ae067918b759f7e441a88573bc44fc48e8a5",
+      "size": 6189
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/pes/resumed-baseline.json",
+      "sha256": "cad0b6853cbb0a0bd80127e053ddf907df572f483392f61ffed1f0718af727f4",
+      "size": 29071
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/pes/resumed-checks.json",
+      "sha256": "983f4f41f0c974f0cea4e0c12535866fa49a49cca9b06d8b1637a968782e56e7",
+      "size": 1654
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/pes/resumed-report.md",
+      "sha256": "db5e04bc589ebd5a05ddd4966264cb5ac9a38e070d28b7dbf1e822ec11e64624",
+      "size": 1619
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/pes/resumed-test-output.txt",
+      "sha256": "6b928bbf3af87b096e8f448a5553795c3b854c3c8f8138380c99d587e6fcb8c9",
+      "size": 110
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/validation/article-preservation.json",
+      "sha256": "67b35b3f4e3b6d2606d01725dd51da88729d1bd14efb1cb6bd1c72ca674a26a6",
+      "size": 314
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/validation/final-bundle.json",
+      "sha256": "eef9e6807c6ca7524b5fc3fd4b6824c2c058fc6d97aa4c5b33a45b3e4b1c999d",
+      "size": 208
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/validation/integration-compatibility.json",
+      "sha256": "983f4f41f0c974f0cea4e0c12535866fa49a49cca9b06d8b1637a968782e56e7",
+      "size": 1654
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/validation/manuscript-compile.json",
+      "sha256": "c0484d1668bfbb50cab581e34b381044ff0f30b7d2d9855b854bae094eb9e1a3",
+      "size": 508
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/validation/preflight.json",
+      "sha256": "867d9e1b3ebc56e63d53cdafccf82e159d356dc82da4389daf1f7e6a34eecda1",
+      "size": 145
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/validation/preflight.log",
+      "sha256": "478dea62bd750c56c8e6fbed4ee22967fee6ab0546dc17c45711a56a3075d18a",
+      "size": 8799
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/validation/wiki-lint-initial.json",
+      "sha256": "06c86d3ff45f99daea7f239ca2432abf04ea74f7e3c86d14929fcff7f4f48d32",
+      "size": 116
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/validation/wiki-lint-initial.log",
+      "sha256": "bd33a81e0fff0d3062f2b4b12ff023b26447adfee88e3a11c14bb5df1587a24f",
+      "size": 864461
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/validation/wiki-lint.json",
+      "sha256": "6a7d2556cfe3f15e6109fe152ba0fb082d2347fd657e44fe6690ce71e20dd057",
+      "size": 218
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/validation/wiki-lint.log",
+      "sha256": "8df73b32a0fb4591cdacd6edf80505ef67ee16812202f42848546040cbe35905",
+      "size": 859191
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/README.md",
+      "sha256": "4f933f2207b48c0a1aab0445e7e07c2fe54518702e66a734e3d98c2d40e404b7",
+      "size": 4588
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/final-evidence-closure.md",
+      "sha256": "1c8878d370a8b4b65677532b11c272d43046e194802eefe5a5a245e49abfb40e",
+      "size": 1733
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/compile.log",
+      "sha256": "4bb10b6b6e8c23c49e88f9f620786f40b8161418c802263c2e4dcaaa9a51957d",
+      "size": 28386
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/latex-check.json",
+      "sha256": "948001a2b27d72cb4ab97011ae1f9cd1972eecc9dc3e94e52da2eaaa2eab9801",
+      "size": 3347
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/review-bundle.json",
+      "sha256": "1e147b8bcc1ce6a8dd945789a1fcc37ef81ae72563605ec4fc4bea440baad3a6",
+      "size": 656
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/review-source-v2.zip",
+      "sha256": "0298314150c13df0e7937ebc488b30c0eef6448da1b8c7df39c7556bd05237f4",
+      "size": 884624
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/summary.md",
+      "sha256": "e43cfad4fbd2bff458b54429d083212e5749dc6eba4eca9a5f0e3bdb836f7a7b",
+      "size": 4755
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/word-count.json",
+      "sha256": "25335cc16ad61ffbdec3620c43fadecb548f60c5dbd378cec9b254aac277a96d",
+      "size": 372
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/main.pdf",
+      "sha256": "7b15ad42b9ea889649b5dac3b71bd7d4013fcea70cc6973dd567e39103d675a1",
+      "size": 227585
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/main.tex",
+      "sha256": "1bb21897d59086c88003dfaff543fc2c47aeff71c730fff77f048968ae9ebc23",
+      "size": 27182
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/sources/claim-ledger.md",
+      "sha256": "da1c81b863cea157ce5afb3e9a33fa2b2e245be8d4cd495cfaf8e1d498bafa7b",
+      "size": 6998
+    },
+    {
+      "path": "system/handoff.md",
+      "sha256": "5f1037b9efb642a0fb67b836b3faa824ea73d9e14ad9adc5e83d6310a61dd517",
+      "size": 1145852
+    },
+    {
+      "path": "system/log.md",
+      "sha256": "ebec541c57f95d2e6e5ee0c100d195b567e253552d8a0854db3ae12a53d5fe79",
+      "size": 888181
+    },
+    {
+      "path": "system/scripts/analysis/coriolis_anti_pairing_gap_quenching_moi_engine.py",
+      "sha256": "f251049325fcb915e726ba3f615ebdc455628e2a0752ce8601a7751f4d63d129",
+      "size": 11076
+    },
+    {
+      "path": "system/scripts/analysis/cranked_triaxial_shape_coexistence_pes_engine.py",
+      "sha256": "d7b90420fce4c940012ed6feb53cbf41f09a5977253e383bc2149a08ed974e56",
+      "size": 12410
+    },
+    {
+      "path": "system/scripts/analysis/davydov_rostovsky_triaxial_band_mixing_solver.py",
+      "sha256": "9784f312851e43fc41d7a6ac6e853642d8b9b28a68cbf23f983554ec3c903960",
+      "size": 4895
+    },
+    {
+      "path": "system/scripts/analysis/gamma_band_mixing_z_gamma_alaga_inverter.py",
+      "sha256": "35e9b9521145d85331d1e92a311f40fa2a967b7c282f4cfce3827394a878c72c",
+      "size": 5470
+    },
+    {
+      "path": "system/scripts/analysis/nuclear_analyzer.py",
+      "sha256": "8707fc65623fdd3b5f2af534ab05ca96856332ce243817efbf4fc58341dca13c",
+      "size": 360803
+    },
+    {
+      "path": "system/scripts/analysis/test_analysis_suite.py",
+      "sha256": "a9648014007240bd8b25efdf6592e97355c23ce1c1809a5c5bcc430f9bafd9ce",
+      "size": 168280
+    },
+    {
+      "path": "system/scripts/analysis/triaxial_hexadecapole_deformation_wobbling_modifier.py",
+      "sha256": "6237927255d2e4f058f0413a5078fbc69ccdf6e5ae6872b34faf88a102e97d89",
+      "size": 8570
+    },
+    {
+      "path": "system/scripts/analysis/triaxial_superdeformed_pes_strutinsky_engine.py",
+      "sha256": "7cab04ce7effef23a46ad9cb8cb5bfbbc2c72aa6302eaec1e16a69ad743591e9",
+      "size": 11460
+    },
+    {
+      "path": "system/scripts/day27_sd_vs_nd_pairing_cap_study.py",
+      "sha256": "cb475f59d29bc13b842b7686477cd95f2f958fadb10b7e98f8f281f3a5209c0a",
+      "size": 10685
+    },
+    {
+      "path": "system/tests/test_coriolis_anti_pairing.py",
+      "sha256": "1692ed1afdfb30cbdeba950a4c048f8c1288ca61e3b29070186c4956538d8acb",
+      "size": 8496
+    },
+    {
+      "path": "system/tests/test_davydov_rostovsky_mixing.py",
+      "sha256": "0d50305a6beb6362beb17b0c64841324b7a7d637587c0184e98af6baf3ce47e6",
+      "size": 3270
+    },
+    {
+      "path": "system/tests/test_gamma_band_mixing_z_gamma.py",
+      "sha256": "be912aa6bce1987518a44156eec16ac1de529012c72e9562147519735fd27a44",
+      "size": 3934
+    }
+  ],
+  "self_hash_omitted": "outputs/l4/20261106-evidence-closure/publication-scope.json",
+  "original_article_numerical_data_changed": false,
+  "user_PLAN_excluded": true
+}

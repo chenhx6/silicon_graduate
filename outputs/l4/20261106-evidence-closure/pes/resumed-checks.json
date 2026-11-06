@@ -1,0 +1,66 @@
+{
+  "at_utc": "2026-11-06T12:56:10.995432+00:00",
+  "numeric_routines_AST_unchanged": {
+    "cranked_triaxial_shape_coexistence_pes_engine.py": true,
+    "triaxial_hexadecapole_deformation_wobbling_modifier.py": true,
+    "triaxial_superdeformed_pes_strutinsky_engine.py": true
+  },
+  "PES_existing_tests": 11,
+  "PES_test_exit": 0,
+  "PES_test_output": "pes/resumed-test-output.txt",
+  "selected_shared_tests_passed": [
+    "test_gamma_band_mixing_z_gamma_calculator",
+    "test_davydov_rostovsky_mixing",
+    "test_coriolis_anti_pairing"
+  ],
+  "CLI_checks": [
+    {
+      "args": [
+        "zgamma",
+        "--preset",
+        "custom",
+        "--ratio",
+        "0.54",
+        "--json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "args": [
+        "rostovsky",
+        "--json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "args": [
+        "hexwob",
+        "--preset",
+        "pure_quadrupole_limit",
+        "--json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "args": [
+        "tsdpes",
+        "--preset",
+        "208Pb_spherical_doubly_magic",
+        "--json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "args": [
+        "tsdpes",
+        "--preset",
+        "163Lu_TSD_potential_energy_surface"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "harness_correction": "Initial isolated harness omitted two imported names; namespace fixed without changing tested implementations.",
+  "new_physics_scan_or_fit": false,
+  "boundary": "PES numerical routines unchanged; documentation, provenance and interpretation corrected. Fixtures do not validate real nuclei.",
+  "cranked_engine_entire_class_AST_unchanged_vs_HEAD": true
+}

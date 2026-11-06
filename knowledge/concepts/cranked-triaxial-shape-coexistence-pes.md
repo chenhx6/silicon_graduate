@@ -3,101 +3,59 @@ type: concept
 title: "Cranked Strutinsky triaxial shape coexistence potential energy surface (PES) and spin-induced yrast shape transitions"
 aliases: [shape-coexistence-pes, cranked-strutinsky, triaxial-oblate-coexistence, yrast-shape-crossing, 130ba-pes]
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-06
 status: ai-draft
 review_status: unreviewed
 tags: [triaxiality, shape-coexistence, cranked-strutinsky, pes, potential-energy-surface, 130ba, 76kr, 186pb]
 ---
 
-# Cranked Strutinsky triaxial shape coexistence potential energy surface (PES) and spin-induced yrast shape transitions
+# 推转形状共存势能面：固定频率与固定自旋的边界
 
 ## Definition
 
-### Phenomenological Definition & Microscopic Origin
+形状共存研究比较不同组态、形变和量子态的能量及电磁连接。势能面上的多个局部极小是模型信息；仅由极小或两支曲线相交，不能确认实验形状共存、一阶相变、摆动或手征模式。
 
-In transitional nuclei across multiple mass regions ($A \approx 130$ Ba-Ce; $A \approx 70$ Kr-Se; $A \approx 180$ Pt-Pb), competing shell structures produce **Shape Coexistence**: the presence of multiple local minima on the 2D $(\beta_2, \gamma)$ collective quadrupole potential energy surface.
+[[book-bohr-mottelson-nuclear-structure-vol2]] 的 BM2-10 指出，壳结构能的局部极小是否成为形状异能态还取决于平滑能量部分（PDF620／printed598及PDF627／printed605）。BM2-13已撤回旧页未绑定核素、输入、输出的极小坐标与交叉频率。
 
-In the Macroscopic-Microscopic Strutinsky framework under 1D cranking rotation $\omega$:
-$$E_{\text{total}}(\beta, \gamma, \omega) = E_{\text{macro}}(\beta, \gamma) + \delta U(\beta, \gamma) - \frac{1}{2}\mathcal{J}_x(\beta, \gamma)\omega^2$$
+对一个给定形状、单轴、常惯量的示意转子，固定角频率的消元给出 Routhian：
 
-Where:
-1. **Macroscopic Liquid Drop Energy**:
-   $$E_{\text{macro}}(\beta, \gamma) = C_2 \beta^2 + C_3 \beta^3 \cos(3\gamma) + C_4 \beta^4$$
-   The cubic invariant $C_3 \beta^3 \cos(3\gamma)$ controls the fundamental prolate ($\gamma = 0^\circ$) vs. oblate ($\gamma = 60^\circ$) asymmetry.
-2. **Microscopic Strutinsky Shell Correction $\delta U(\beta, \gamma)$**:
-   In $A \sim 130$ transitional nuclei ($Z \approx 56, N \approx 74$):
-   - Protons occupying low-$\Omega$ levels of the intruder $h_{11/2}$ shell favor positive triaxial deformation ($\gamma \approx 20^\circ - 30^\circ$);
-   - Neutrons occupying the upper Fermi surface of the $h_{11/2}$ subshell act as holes, generating an energy minimum near oblate deformation ($\gamma \approx 55^\circ - 60^\circ$).
-3. **Cranking Rotational Energy & Dynamic Deformation Gain**:
-   $$E_{\text{rot}}(\beta, \gamma, \omega) = - \frac{1}{2} \mathcal{J}_x(\beta, \gamma) \omega^2$$
-   The collective moment of inertia along the intermediate rotation axis scales strongly with deformation:
-   $$\mathcal{J}_x(\beta, \gamma) = \mathcal{J}_0 \left(\frac{\beta}{\beta_0}\right)^{1.5} \left[ 1 - 0.5 \cos\left(\gamma - \frac{4\pi}{3}\right) \right]$$
+\[
+E'(q;\omega)=E_0(q)-\tfrac12\mathcal J_x(q)\omega^2.
+\]
 
----
+这里 \(q\) 表示形变；若用 \(u=\hbar\omega\) 的数值单位MeV、\(\widetilde{\mathcal J}=\mathcal J/\hbar^2\) 的单位MeV⁻¹，则转动项为 \(-\widetilde{\mathcal J}u^2/2\)。它不是固定自旋的总能量。相应单轴转子在固定无量纲自旋I下采用 \(E_I(q)=E_0(q)+\hbar^2I(I+1)/(2\mathcal J_x(q))\)，其适用近似和量子修正必须另行说明。
 
-## Spin-Induced Yrast Shape Transitions
-
-Because the triaxial shape possesses both a larger quadrupole deformation ($\beta \approx 0.24$ vs. $0.16$) and optimal orientation along the intermediate axis ($\gamma \approx 24^\circ$), its effective moment of inertia is significantly larger ($\mathcal{J}_{\text{tri}} \approx 55 - 60\text{ MeV}^{-1}$ vs. $\mathcal{J}_{\text{obl}} \approx 30 - 35\text{ MeV}^{-1}$).
-
-Consequently, as rotational frequency $\omega$ increases:
-The rotational energy $- \frac{1}{2}\mathcal{J}_x \omega^2$ lowers the triaxial minimum much faster than the oblate minimum.
-At the **critical crossing frequency** $\omega_{\text{cross}}$:
-$$\Delta E_{12}(\omega) = E_{\text{oblate}}(\omega) - E_{\text{triaxial}}(\omega) = 0$$
-The yrast ground state undergoes a sudden **first-order shape transition** from oblate to triaxial deformation!
-This mechanism provides the theoretical foundation for why transitional nuclei exhibit stable triaxial wobbling and chiral bands at high spins, despite possessing oblate or $\gamma$-soft ground states at zero spin.
-
----
-
-## Executable Analysis Tool: `coexpes`
-
-The Python analysis suite integrates `cranked_triaxial_shape_coexistence_pes_engine.py`, accessible via CLI:
-
-```bash
-# 1. 130Ba triaxial-oblate coexistence: shape crossing detected at omega_cross = 0.236 MeV/hbar
-python3 system/scripts/analysis/nuclear_analyzer.py coexpes --preset 130Ba_triaxial_oblate_coexistence
-
-# 2. 76Kr prolate-oblate coexistence: shape crossing at omega_cross = 0.262 MeV/hbar
-python3 system/scripts/analysis/nuclear_analyzer.py coexpes --preset 76Kr_prolate_oblate_coexistence
-
-# 3. 186Pb triple shape coexistence intruder crossing at omega_cross = 0.232 MeV/hbar
-python3 system/scripts/analysis/nuclear_analyzer.py coexpes --preset 186Pb_triple_shape_coexistence
-```
-
----
-
-## Literature and Textbook Provenance
-
-- **Bohr & Mottelson**, *Nuclear Structure*, Vol. II, §4-2, §6-4.
-- **W. Greiner & J. A. Maruhn**, *Nuclear Models* (Springer 1996), Chapter 8.
-- **S. Frauendorf**, Rev. Mod. Phys. 73, 463 (2001): *Spontaneous symmetry breaking in rotating nuclei*.
-- **Petrache et al.**, Phys. Rev. C 99, 044303 (2019): *Diversity of shapes and rotations in 130Ba*.
-
+同一频率下不同形状通常有不同角动量；固定频率交叉不能直接等同于同一I的yrast换支。需要一致的角动量约束或Legendre变换、组态追踪和带混合处理。
 
 ## Necessary Assumptions
 
-微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
-
+`cranked_triaxial_shape_coexistence_pes_engine.py` 是指定多项式背景、Gaussian形变势谷及惯量函数的演示。它不从单粒子谱求Strutinsky平滑能，也不求HFB自洽场。惯量的形变幂律和势谷深度属于输入假设；不能由函数命名取得原书或真实核素认证。
 
 ## Discriminating Observables
 
-激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
-
+实际应用需同一核素的组态与能带身份、相对激发能、转动顺排以及具有共同定标的绝对E2／静态矩。多组态混合可以形成回避交叉，能量接近不唯一确定形状。该示意势能面没有计算这些实验响应。
 
 ## Supporting Evidence
 
-在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。
+当前来源支持平滑能与壳结构竞争的一般物理图像。旧页列出的固定beta/gamma极小、惯量区间及0.236/0.262/0.232交叉数值，未建立原件或可追溯核素计算链，已撤回其物理结果身份。没有把旧命令注释当成测量或验证。
+
+保留CLI接口供演示复算：
+
+```bash
+python3 system/scripts/analysis/nuclear_analyzer.py coexpes --preset 130Ba_triaxial_oblate_coexistence
+```
+
+该旧预设名是兼容标识；程序已将预设标为`synthetic_model_benchmark`。输出只描述输入曲面上的模型交叉。
 
 ## Counter-evidence and Competing Interpretations
 
-1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
-2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+极小可以由人为势谷直接产生；改变势谷、惯量或限制区间可能改变交叉。有限网格／局部优化不保证找到所有极小和全局鞍点。真实系统还可涉及配对、组态换支和隧穿；本模块未建立相变阶数或模式稳定性。
 
 ## Our Current Position
 
-本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
-
+保留条件模型定义与数值演示入口，撤回未建证据链的核素数字和实验确认身份。本轮传播已有BM-II归属更正，不新增PES计算、参数拟合或真实核结构判定。
 
 ## Sources
 
-- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
-- [[nuclear-spectroscopy-and-structure-master-field-manual]]
+- [[book-bohr-mottelson-nuclear-structure-vol2]]：BM2-10、BM2-13及其精确页码。
+- `system/scripts/analysis/cranked_triaxial_shape_coexistence_pes_engine.py`：本地演示实现，不是外部物理证据。

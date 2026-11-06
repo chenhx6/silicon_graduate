@@ -1,0 +1,51 @@
+{
+  "at_utc": "2026-11-06T12:47:45.210859+00:00",
+  "status": "completed_scoped_three_source_comparison",
+  "sources": [
+    {
+      "id": "N16",
+      "raw_file": "raw/papers/gpt/query/20261106-spin-invariant-precedents/nomura2016-arxiv1610-00469.pdf",
+      "sha256": "817ed7f1fcfe43861bff8fe96929eb22536a0dd1833cfcefc08675585edf711f",
+      "read_pdf_pages": [
+        2,
+        3,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "R25",
+      "raw_file": "raw/papers/gpt/query/20261106-spin-invariant-precedents/rouoof2025-e2-matrix-elements.pdf",
+      "sha256": "58cd93b84996ece2564c3da472f30e64c7403d5e15592bebb7e28459f41a447e",
+      "read_pdf_pages": [
+        2,
+        3,
+        12,
+        13,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "L25",
+      "raw_file": "raw/papers/gpt/query/20261106-spin-invariant-precedents/focused-sidecar/lawrie-orce2025-simple-ratios-publisher.pdf",
+      "sha256": "683ad9af035a6d7860a5beaffc0f5d395d34963916be08907df437803c644305",
+      "read_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "key_pages_visually_checked": [
+    "N16 PDF9",
+    "R25 PDF13",
+    "L25 PDF3"
+  ],
+  "new_model_or_grid": false,
+  "global_priority_proven": false,
+  "knowledge_page": "knowledge/research-notes/odd-ba-novelty-overlap-and-contribution-boundary.md"
+}

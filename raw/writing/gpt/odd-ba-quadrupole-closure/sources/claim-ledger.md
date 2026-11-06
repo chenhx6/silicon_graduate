@@ -45,3 +45,5 @@ The Bohr–Mottelson reference denotes the actual World Scientific1998 reissue,
 whose PDF p6 gives Singapore, ISBN9810239807 and the original1975 edition.
 The new reference is for standard particle–rotor kinematics; no unsupported
 historical claim from the Wiki source page is used.
+
+Final scoped precedent comparison: N16 Eq8/Fig10, R25 SecIVC/conclusions2/7/8 and L25 Eqs5–15 were read directly. L25 already makes geometry/inertia separation explicit; that principle is not claimed new. The candidate contribution is incremental controlled comparison of the specified selected-channel diagnostic and its resolved static/signed paths. This is not a global priority certificate or proof of journal-level significance. Details: Wiki odd-ba-novelty-overlap-and-contribution-boundary.

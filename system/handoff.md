@@ -3,6 +3,27 @@ graph-excluded: true
 updated: 2026-11-06
 ---
 
+## Final bounded closeout — 2026-11-06：原定四项收尾完成
+
+- 用户恢复goal并确认只完成原定收尾、撤销4h硬截止、尽早自然收束；实际最多2个并行worker，均已结束。
+- 三源原件对照完成：N16 Eq8/Fig10、R25 SecIVC/结论2/7/8、L25 Eqs5–15；一般通道／网络依赖和几何／惯量分离都有先例。主文已明确承认，保留有界增量型候选，不作优先权／期刊创新性充分认证。
+- Mikhailov：3页、2脚本、2专用测试更正，保留合法旧参数化、全部代数分支和坐标极点，撤回单比值h2／结构归属；10测试通过。
+- CAP：2页、2脚本、专用测试更正，条件插值、hbar*omega单位、输入域、根括号／残差及采样阈值含义明确；11测试通过。
+- PES：3页与3脚本归属/报告更正；数值函数及cranked整个类AST保持不变，11既有测试通过；不将Gaussian势谷、默认系数、路径势垒或beta4符号写成真实核结构判决。
+- 共享兼容：更正Mikhailov旧h2/结构断言和CLI帮助；3受影响共享检查+5CLI集成通过，未跑全套系统测试。
+- 交付：main.pdf仍12页，Discussion表述收紧；review-source-v2.zip已更新。原45数据+新增77数值包文件hash不变。物理生产计算不重复。
+- 本次有限任务按约定结束条件收束，详情outputs/l4/20261106-evidence-closure/final-closeout.md与completion-audit.json。全库通读、所有遗留错误、实际Ba形状、全球优先权和期刊接受均未宣称完成；署名及最终公开归档仍需真实资料。
+- 稳定指针：main / research: close scoped A130 evidence and correct derived tools。精确最终hash、push和post-commit核对只写本轮publication-final-receipt.local.json。当前发布实际结果以回执为准。
+- 保留用户PLAN与get-paper安装内容，不做相关维护；历史partial/freeze回执仍留档，不改写当时状态。
+
+## Budget closeout — 2026-11-06：按用户额度要求停止自主续跑
+
+- 用户明确要求尽快收束，原因是本任务剩余订阅额度不足。所有四个新启动代理均已结束；不再新增阅读、推导、模型、测试或文献调查。
+- 最新已发布成果仍为12页英文稿及作者审阅ZIP，稳定指针`main / research: integrate rigid-charge control and isomer limits into Ba draft`；14页中文汇报也已发布。
+- 本轮新增核查为partial、本地保存：`outputs/l4/20261106-evidence-closure/`。CAP、Mikhailov和PES只完成定位，未修改既有知识页／代码、未运行模型测试。不要将其记为更正传播已完成。
+- 新颖性核查只读了稿件与既有来源集合，三份原件的独立对照未完成；新知识页`odd-ba-novelty-overlap-and-contribution-boundary.md`明确provisional/partial，既不认证创新，也不据此否定创新。此前文本审查不是实质优先权认证。
+- 总目标未完成，按用户收束要求暂停自主续跑；恢复时先读本段及本轮freeze.json，不自动展开新方向。用户PLAN、get-paper及其他session文件保持原状。
+
 ## Manuscript revision — 2026-11-06：固定形状控制与异能态限制已整合
 
 - **上一goal turn分类**：progress；已交付并发布14页中文阶段汇报。当前续接按收束主线整合既有结果，没有新核素／参数网格或新研究方向。

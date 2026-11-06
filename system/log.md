@@ -6084,3 +6084,13 @@ Actual record UTC: 2026-11-06T10:24:40.867670+00:00. User requested a phase clos
 ## 2026-11-06 focused odd-Ba manuscript revision
 
 2026-11-06T11:25:56.310941+00:00 — Integrated the exact rigid-charge control, partial source-spectrum replay and conditional isomer failure into a12-page English candidate with three main figures. The three new package replays passed independently and the original45 registered data files remain unchanged. Corrected unsupported historical BM-II source attributions within the citation scope. Preserved the previous10-page checkpoint and assembled an author-review source ZIP. Author information, final public archive and broader nuclear interpretation remain unresolved; no submission or full-goal-completion claim. Stable pointer: main / research: integrate rigid-charge control and isomer limits into Ba draft.
+
+
+## 2026-11-06 budget-driven closeout
+
+2026-11-06T12:00:16.230986+00:00 — User requested immediate closeout because subscription budget is limited. All four active workers ended. The new CAP/Mikhailov/PES propagation tasks remain partial and did not modify existing science pages/code or run models/tests. The novelty note is explicitly partial and its direct original-source comparison is unfinished. Published12-page article, author-review ZIP and14-page Chinese report remain intact. New partial records are saved locally; autonomous continuation is being paused, not marked complete.
+
+
+## 2026-11-06 bounded evidence closeout
+
+2026-11-06T13:10:52.524680+00:00 — Completed the four resumed closing items: direct three-source overlap comparison, Mikhailov, CAP and PES corrections. General novelty claims were narrowed; the12-page candidate remains not submission-ready and no global priority or full-corpus learning claim is made.32 affected dedicated tests,3 selected shared checks and5 integration CLI checks passed within their stated scopes. Numerical article payloads are unchanged. User-agreed bounded endpoint and research stopping reasons are explicit in final-closeout.md/completion-audit.json. Final repository result is recorded separately.

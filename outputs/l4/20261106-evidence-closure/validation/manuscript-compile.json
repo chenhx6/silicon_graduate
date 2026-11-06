@@ -1,0 +1,27 @@
+{
+  "at_utc": "2026-11-06T13:02:22.477469+00:00",
+  "compile_exit": 0,
+  "pages_actual": 12,
+  "changed_pages_requiring_visual_check": [
+    7,
+    8,
+    9
+  ],
+  "unchanged_pages_reused_from_prior_pixel_verified_review": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    10,
+    11,
+    12
+  ],
+  "overfull_hbox": 0,
+  "overfull_vbox": 0,
+  "underfull_hbox": 66,
+  "undefined_references": false,
+  "missing_characters": 0,
+  "pdf_sha256": "7b15ad42b9ea889649b5dac3b71bd7d4013fcea70cc6973dd567e39103d675a1"
+}

@@ -3,93 +3,58 @@ type: concept
 title: "Triaxial nuclear hexadecapole (beta_4, gamma_4) deformation perturbation, principal moments of inertia renormalization and wobbling frequency modification"
 aliases: [triaxial-hexadecapole-deformation, beta4-wobbling-modification, hexadecapole-moi-renormalization, high-spin-hexadecapole, 163lu-beta4]
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-06
 status: ai-draft
 review_status: unreviewed
 tags: [triaxiality, hexadecapole-deformation, beta4, wobbling-motion, moments-of-inertia, 163lu, 135pr]
 ---
 
-# Triaxial nuclear hexadecapole (beta_4, gamma_4) deformation perturbation, principal moments of inertia renormalization and wobbling frequency modification
+# 十六极形变与惯量：表面多极展开不决定摆动稳定性
 
 ## Definition
 
-### Definition and Phenomenological Origin
+表面可按球谐函数展开为 \(R(\theta,\phi)=R_0c(\alpha)[1+\sum_{\lambda\mu}\alpha_{\lambda\mu}Y_{\lambda\mu}]\)。其中rank4分量描述十六极形变；有限形变下体积约束需要相应归一化因子。非轴rank4张量的参数化应单独声明，不能默认由一个普适的gamma4参数完备描述。
 
-While standard collective models parameterize triaxial shapes purely through quadrupole coordinates $(\beta_2, \gamma)$, rotating nuclei at high angular momentum develop higher-order multipole distortions driven by centrifugal forces and microscopic single-particle shell structures, notably **hexadecapole deformation ($\lambda = 4$)**.
-
-Based on Bohr & Mottelson *Nuclear Structure* Vol. II §4-2 & §4-5, *Chirality and Wobbling in Atomic Nuclei* (CRC Press 2025) Chapters 2 & 10 (PDF pp. 215–230), D. L. Hendrie (Phys. Rev. Lett. 31, 478, 1973), and J. Dudek et al. (Phys. Rev. C 26, 1712, 1982):
-The nuclear surface is expanded as:
-$$R(\theta, \phi) = R_0 \left[ 1 + \sum_{\mu} \alpha_{2\mu} Y_{2\mu}(\theta, \phi) + \sum_{\mu} \alpha_{4\mu} Y_{4\mu}(\theta, \phi) \right]$$
-where $\beta_4$ governs axial hexadecapole stretching, and non-axial terms ($\gamma_4$) introduce multi-dimensional surface warping.
-
----
-
-## Mathematical Formalism: Hexadecapole Renormalization of Moments of Inertia
-
-### 1. Renormalized Principal Moments of Inertia $\mathcal{J}_k$
-In hydrodynamic and microscopic cranking formulations, hexadecapole deformation alters the nuclear radius and mass distribution along each principal axis ($k = 1, 2, 3 \leftrightarrow s, m, l$):
-$$\mathcal{J}_k(\beta_2, \gamma, \beta_4) = \mathcal{J}_k^{(0)}(\beta_2, \gamma) \cdot \left[ 1 + \kappa_4 \beta_4 \cos\left( \gamma - \frac{2\pi k}{3} \right) + \kappa_{44} \beta_4^2 \right]$$
-where $\mathcal{J}_k^{(0)}$ is the unperturbed Davydov hydrodynamic moment of inertia, and $\kappa_4 \approx 1.85$ is the quadrupole-hexadecapole geometric cross-coupling parameter.
-
-### 2. Dynamical Impact on Wobbling Frequencies
-For intermediate-axis collective rotation:
-$$\hbar\omega_w = \omega_{\text{rot}} \sqrt{\frac{(\mathcal{J}_m - \mathcal{J}_s)(\mathcal{J}_m - \mathcal{J}_l)}{\mathcal{J}_s \mathcal{J}_l}}$$
-- **Positive $\beta_4 > 0$** (observed in rare-earth triaxial superdeformed nuclei, e.g. $^{163}\text{Lu}$):
-  Increases $\mathcal{J}_m$ relative to $\mathcal{J}_s$, enhancing triaxial asymmetry and stabilizing transverse wobbling;
-- **Negative $\beta_4 < 0$** (common in $A \sim 130$ transitional nuclei, e.g. $^{135}\text{Pr}$):
-  Reduces moment of inertia asymmetry, accelerating the frequency decline towards tilted precession (TiP) instability.
-
----
-
-## Executable Analysis Tool: `hexwob`
-
-The Python analysis suite integrates `triaxial_hexadecapole_deformation_wobbling_modifier.py`, accessible via:
-
-```bash
-# Benchmark 1: 163Lu TSD band with positive beta4 (+0.025)
-python3 system/scripts/analysis/nuclear_analyzer.py hexwob --preset 163Lu_TSD_positive_beta4
-
-# Benchmark 2: 135Pr with negative beta4 (-0.015)
-python3 system/scripts/analysis/nuclear_analyzer.py hexwob --preset 135Pr_triaxial_negative_beta4
-
-# Benchmark 3: Exact pure quadrupole limit (beta4 = 0.0)
-python3 system/scripts/analysis/nuclear_analyzer.py hexwob --preset pure_quadrupole_limit
-```
-
-### Benchmark Validation
-1. **$^{163}\text{Lu}$ Positive $\beta_4$**:
-   At $I = 35.5\ \hbar$, unperturbed frequency $\hbar\omega_0 = 1441.8\text{ keV}$, hexadecapole corrected frequency $\hbar\omega_w = 1446.1\text{ keV}$ ($\Delta\hbar\omega = +4.3\text{ keV}$);
-2. **$^{135}\text{Pr}$ Negative $\beta_4$**:
-   At $I = 17.5\ \hbar$, shift $\Delta\hbar\omega = -0.9\text{ keV}$, capturing the softening of the wobbling potential;
-3. **Pure Quadrupole Limit**:
-   Strictly yields $\Delta\hbar\omega \equiv 0.000\text{ keV}$, verifying mathematical continuity with the Bohr-Mottelson rotor.
-
+[[book-bohr-mottelson-nuclear-structure-vol2]] BM2-9（PDF161–162／printed139–140，Eq.4-190及邻文）支持电多极矩与表面分量的关系，其中可包含四极形变的二阶贡献。电荷矩展开本身不产生动力学惯量公式。质量分布、流动假设、配对和单粒子响应仍需另行建模。
 
 ## Necessary Assumptions
 
-微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+本地`triaxial_hexadecapole_deformation_wobbling_modifier.py`采用的
 
+\[
+\mathcal J_k=\mathcal J_k^{(0)}
+[1+\kappa_4\beta_4\cos(\gamma-2\pi k/3)+\kappa_{44}\beta_4^2]
+\]
+
+是指定参数化，不能归为已从BM-II、流体力学或微观推转普遍导出的结果。默认系数1.85和0.60只具有该程序输入的身份。实现还对乘法因子设置下限；大修正时不能把它当作受控微扰。
+
+该函数将`beta2`记录为元数据，实际基准惯量由`J_base`和gamma确定，未独立使用beta2建立质量分布。实现折叠gamma并采用指定轴排列；跨轴／符号约定迁移需重新核对。
+
+无附加粒子自由度的刚性转子在最大惯量轴附近的小振幅频率可写为 \(\hbar\omega_w=\hbar\omega_{\rm rot}\sqrt{(\mathcal J_m-\mathcal J_s)(\mathcal J_m-\mathcal J_l)/(\mathcal J_s\mathcal J_l)}\)。本工具把该类表达式与指定对齐量组合使用，不求完整粒子–转子本征态，不能据此识别横向摆动或TiP。
 
 ## Discriminating Observables
 
-激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
-
+实际核素需要独立的形变／电多极矩约束、转动惯量和组态身份，并用绝对E2/M1、静态矩与相关能带资料检验。仅给定beta4符号或计算出频移，不能判定集体模式及稳定性。
 
 ## Supporting Evidence
 
-在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。
+旧页把beta4正负分别等同于稳定TW或加速TiP的普适判据，并列出核素频移作为benchmark validation；这些归属和物理验证身份已撤回。修正方向取决于三个轴的相对响应及所用动力学，不能只看一个形变系数的符号。
+
+```bash
+python3 system/scripts/analysis/nuclear_analyzer.py hexwob --preset pure_quadrupole_limit
+```
+
+此零beta4输入只应恢复程序自己的基准惯量及零频移。它是实现极限检查，不证明程序已复现完整BM模型。带核素名称的旧预设均按演示参数集解释。
 
 ## Counter-evidence and Competing Interpretations
 
-1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
-2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+同样的beta4可以在不同质量密度、惯量或配对模型下产生不同响应。电荷Q4也不直接等于表面alpha40。实频率只表明所代入近似的局部振荡条件，不能确认完整体系的模式或量子稳定性。
 
 ## Our Current Position
 
-本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
-
+保留表面多极与条件参数化的区别，撤回未经建立的普适系数、符号判据及核素结果。相关代码保留演示接口，其输出需携带模型边界。
 
 ## Sources
 
-- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
-- [[nuclear-spectroscopy-and-structure-master-field-manual]]
+- [[book-bohr-mottelson-nuclear-structure-vol2]]：BM2-9；BM2-1–4给出刚性转子近似及适用域。
+- `system/scripts/analysis/triaxial_hexadecapole_deformation_wobbling_modifier.py`：演示参数化和输出，不是实验来源。

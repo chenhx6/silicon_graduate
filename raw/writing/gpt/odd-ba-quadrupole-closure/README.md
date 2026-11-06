@@ -5,10 +5,13 @@ candidate. It integrates the exact rigid-charge control, the 135/137Ba
 source-spectrum comparison and the conditional 137Ba isomer failure.
 Three standalone calculation packages have each been replayed successfully.
 The internal text review found no remaining must-fix scientific wording issue
-within its stated scope. Human authorship/accountability information and
-the final public data/code destination remain unresolved; the manuscript
-has not been submitted and is **not administratively submission-ready**.
-See [the current revision record](analysis/revision-v2/summary.md),
+within its stated scope. The scoped three-source overlap comparison now confirms only an incremental
+model-study candidate; it does not certify priority or journal-level significance.
+Human authorship/accountability information, the final public data/code destination
+and an accountable contribution assessment remain unresolved. The manuscript
+has not been submitted and is **not submission-ready**.
+See [the final evidence boundary](analysis/final-evidence-closure.md),
+[the current revision record](analysis/revision-v2/summary.md),
 [the earlier closeout disposition](analysis/closeout-20261106.md) and the
 [Chinese stage report](/workspace/wiki/outputs/l4/20261106-a130-next-evidence/closeout/a130-stage-report-20261106.pdf).
 

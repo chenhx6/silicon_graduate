@@ -1,0 +1,182 @@
+{
+  "protected_baseline_sha256": {
+    "outputs/l4/20261106-evidence-closure/cap/report.md": "c2cf4b5b1e3edc38a046bfcb6f205ab7dae1b980da2c9ebbf037eea3d4bf3975",
+    "outputs/l4/20261106-evidence-closure/cap/receipt.json": "378b3f65e7ec55872720a66f58624fe3bd4750a31ab20e5b2d3ee16e5da56779",
+    "system/scripts/analysis/nuclear_analyzer.py": "2ed1a5295b51fd8a16edd45cfcc0b4236f85896d0d70bed5843e6b77aa421b21",
+    "system/scripts/analysis/test_analysis_suite.py": "f9f4083b7b5b92fd08a8b4fd8aa05201c07b968a3a9add995ca04ebd3a56312f",
+    "PLAN.md": "0c2664f0e0c08f40e0f96896a8282da04043d990ddc5a97f1c51077df33d7b93",
+    "knowledge/index.md": "ab196397beb232ccba8d472d69e26fc72320dfabd8aab91c7c09f6cf0b7161df",
+    "system/handoff.md": "d8920b84fc7b5aa60c3f7582744e68cbbbdc83ea4d1e49f88d13985ee0af4286"
+  },
+  "day27_legacy_curve_checks": {
+    "interpretation": "Legacy numerical fixture thresholds only; not BCS convergence or experimental validation",
+    "all_passed": true,
+    "test_1_dy160_sharp_backbending": true,
+    "test_2_dy152_flat_rigid_plateau": true,
+    "test_3_pb194_smooth_j2_rise": true,
+    "test_4_pb194_coriolis_anti_pairing": true
+  },
+  "status": "targeted-checks-passed",
+  "dedicated_unittest": {
+    "command": "python3 -m unittest discover -s system/tests -p test_coriolis_anti_pairing.py -v",
+    "tests": 11,
+    "passed": 11,
+    "final_run_stdout": "",
+    "final_run_stderr": "test_cap_gap_quenching_function (test_coriolis_anti_pairing.TestCoriolisAntiPairing.test_cap_gap_quenching_function) ... ok\ntest_day27_domains (test_coriolis_anti_pairing.TestCoriolisAntiPairing.test_day27_domains) ... ok\ntest_day27_gap_floor_unused_G_and_prescribed_crossing (test_coriolis_anti_pairing.TestCoriolisAntiPairing.test_day27_gap_floor_unused_G_and_prescribed_crossing) ... ok\ntest_day27_zero_gap_still_has_nonconstant_alignment_response (test_coriolis_anti_pairing.TestCoriolisAntiPairing.test_day27_zero_gap_still_has_nonconstant_alignment_response) ... ok\ntest_gap_domain_and_even_limit (test_coriolis_anti_pairing.TestCoriolisAntiPairing.test_gap_domain_and_even_limit) ... ok\ntest_inertia_domain (test_coriolis_anti_pairing.TestCoriolisAntiPairing.test_inertia_domain) ... ok\ntest_legacy_163Lu_label_sampled_indicator (test_coriolis_anti_pairing.TestCoriolisAntiPairing.test_legacy_163Lu_label_sampled_indicator) ... ok\ntest_rigid_limit_preset (test_coriolis_anti_pairing.TestCoriolisAntiPairing.test_rigid_limit_preset) ... ok\ntest_root_bracket_rigid_limits_and_residual (test_coriolis_anti_pairing.TestCoriolisAntiPairing.test_root_bracket_rigid_limits_and_residual) ... ok\ntest_sampled_threshold_is_not_exact_zero_gap_spin (test_coriolis_anti_pairing.TestCoriolisAntiPairing.test_sampled_threshold_is_not_exact_zero_gap_spin) ... ok\ntest_uniform_scaling_preserves_axis_ratios_and_rotor_factor (test_coriolis_anti_pairing.TestCoriolisAntiPairing.test_uniform_scaling_preserves_axis_ratios_and_rotor_factor) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 0.002s\n\nOK\n"
+  },
+  "cli_checks": [
+    {
+      "command": [
+        "/opt/venv/bin/python3",
+        "system/scripts/analysis/coriolis_anti_pairing_gap_quenching_moi_engine.py",
+        "--preset",
+        "163Lu_TSD_superfluid_to_normal_phase_transition",
+        "--json"
+      ],
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/venv/bin/python3",
+        "system/scripts/analysis/coriolis_anti_pairing_gap_quenching_moi_engine.py",
+        "--preset",
+        "163Lu_TSD_superfluid_to_normal_phase_transition"
+      ],
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/venv/bin/python3",
+        "system/scripts/analysis/coriolis_anti_pairing_gap_quenching_moi_engine.py",
+        "--preset",
+        "130Ba_transitional_triaxial_cap",
+        "--json"
+      ],
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/venv/bin/python3",
+        "system/scripts/analysis/coriolis_anti_pairing_gap_quenching_moi_engine.py",
+        "--preset",
+        "130Ba_transitional_triaxial_cap"
+      ],
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/venv/bin/python3",
+        "system/scripts/analysis/coriolis_anti_pairing_gap_quenching_moi_engine.py",
+        "--preset",
+        "rigid_rotor_zero_pairing_limit",
+        "--json"
+      ],
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/venv/bin/python3",
+        "system/scripts/analysis/coriolis_anti_pairing_gap_quenching_moi_engine.py",
+        "--preset",
+        "rigid_rotor_zero_pairing_limit"
+      ],
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/venv/bin/python3",
+        "system/scripts/analysis/nuclear_analyzer.py",
+        "capgap",
+        "--preset",
+        "163Lu_TSD_superfluid_to_normal_phase_transition",
+        "--json"
+      ],
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/venv/bin/python3",
+        "system/scripts/day27_sd_vs_nd_pairing_cap_study.py",
+        "--output",
+        "/tmp/cap-check-m_qferjs/day27.json"
+      ],
+      "returncode": 0,
+      "stderr": ""
+    }
+  ],
+  "shared_cap_test": "passed; only original CAP test function executed via AST; full suite not run",
+  "baseline_reproduction": {
+    "negative_gap": "silently zero before fix; now ValueError",
+    "zero_scale": "silently clamped before fix; now ValueError",
+    "nan_frequency": "NaN gap with true superfluid flag before fix; now ValueError",
+    "root_spin_1000": "mapped spin 60 before fix; bracket/residual checked after fix",
+    "G_pair": "unused before and after; now explicitly documented"
+  },
+  "full_repository_tests_run": false,
+  "new_primary_source_inspections": 0,
+  "commit_created": false,
+  "push_performed": false,
+  "protected_files_unchanged": {
+    "outputs/l4/20261106-evidence-closure/cap/report.md": true,
+    "outputs/l4/20261106-evidence-closure/cap/receipt.json": true,
+    "system/scripts/analysis/nuclear_analyzer.py": true,
+    "system/scripts/analysis/test_analysis_suite.py": true,
+    "PLAN.md": true,
+    "knowledge/index.md": true,
+    "system/handoff.md": true
+  },
+  "diff_check": {
+    "command": [
+      "git",
+      "diff",
+      "--check",
+      "--",
+      "knowledge/concepts/coriolis-anti-pairing-and-moment-of-inertia-expansion.md",
+      "knowledge/research-notes/coriolis-antipairing-and-superdeformed-alignment-transitions.md",
+      "system/scripts/analysis/coriolis_anti_pairing_gap_quenching_moi_engine.py",
+      "system/scripts/day27_sd_vs_nd_pairing_cap_study.py",
+      "system/tests/test_coriolis_anti_pairing.py"
+    ],
+    "returncode": 0,
+    "output": ""
+  },
+  "public_function_signatures_unchanged": true,
+  "static_checks": "Python AST parse, two-page frontmatter/fences/BM2-11 locator checks passed; not a full Wiki lint",
+  "modified_existing_files": [
+    "knowledge/concepts/coriolis-anti-pairing-and-moment-of-inertia-expansion.md",
+    "knowledge/research-notes/coriolis-antipairing-and-superdeformed-alignment-transitions.md",
+    "system/scripts/analysis/coriolis_anti_pairing_gap_quenching_moi_engine.py",
+    "system/scripts/day27_sd_vs_nd_pairing_cap_study.py",
+    "system/tests/test_coriolis_anti_pairing.py"
+  ],
+  "modified_existing_sha256": {
+    "knowledge/concepts/coriolis-anti-pairing-and-moment-of-inertia-expansion.md": "2594c05f48c9d1f053a27588e9935ad0ef00edcc923edeb02e71e5338767ac58",
+    "knowledge/research-notes/coriolis-antipairing-and-superdeformed-alignment-transitions.md": "b267a9dd90e4f420a3bb98d18f91c66db2bb4c5252f79f65bd114291be6e7f78",
+    "system/scripts/analysis/coriolis_anti_pairing_gap_quenching_moi_engine.py": "f251049325fcb915e726ba3f615ebdc455628e2a0752ce8601a7751f4d63d129",
+    "system/scripts/day27_sd_vs_nd_pairing_cap_study.py": "cb475f59d29bc13b842b7686477cd95f2f958fadb10b7e98f8f281f3a5209c0a",
+    "system/tests/test_coriolis_anti_pairing.py": "1692ed1afdfb30cbdeba950a4c048f8c1288ca61e3b29070186c4956538d8acb"
+  },
+  "new_files": [
+    "outputs/l4/20261106-evidence-closure/cap/resumed-report.md",
+    "outputs/l4/20261106-evidence-closure/cap/resumed-checks.json"
+  ],
+  "completed_at_utc": "2026-11-06T12:41:38.621100+00:00",
+  "scope": "Frozen CAP correction only; no new BCS implementation or research expansion",
+  "skills": {
+    "chain": [
+      "fast",
+      "debug"
+    ],
+    "rounds": 2,
+    "format": "Markdown + JSON",
+    "efficiency_gain": "unmeasured; no comparison baseline",
+    "hard_checks": "passed"
+  }
+}

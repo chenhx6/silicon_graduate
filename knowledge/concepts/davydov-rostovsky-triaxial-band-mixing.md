@@ -3,95 +3,64 @@ type: concept
 title: "Davydov-Rostovsky non-adiabatic triaxial rotor beta- and gamma-band mixing, Mikhailov expansion and Alaga rule deviation"
 aliases: [davydov-rostovsky-model, triaxial-band-mixing, z-gamma-mixing, mikhailov-expansion, alaga-rule-deviation]
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-06
 status: ai-draft
 review_status: unreviewed
 tags: [triaxiality, non-adiabatic-rotor, band-mixing, alaga-rule, davydov-rostovsky, mikhailov-expansion, 152sm]
 ---
 
-# Davydov-Rostovsky non-adiabatic triaxial rotor beta- and gamma-band mixing, Mikhailov expansion and Alaga rule deviation
+# Davydov–Rostovsky 旧接口与 Mikhailov 带混合参数化边界
 
 ## Definition
 
-### Definition and Phenomenological Origin
+当前 `davydov_rostovsky_triaxial_band_mixing_solver.py` / `rostovsky` 保留历史名称以兼容调用。它没有求解 Davydov–Rostovsky 哈密顿量，也没有由本次原文建立其 β–γ 三带动力学归属；旧波函数与机制宣称撤回，不新增模型补足。
 
-In the adiabatic rotor limit (Alaga rule), interband electromagnetic transitions connecting vibrational bands to the ground-state rotational band depend solely on geometry (Clebsch-Gordan coefficients):
-$$\frac{B(E2; 2_\gamma^+ \to 0_g^+)}{B(E2; 2_\gamma^+ \to 2_g^+)} = \frac{\langle 2 2 2 -2 | 0 0 \rangle^2}{\langle 2 2 2 -2 | 2 0 \rangle^2} = \frac{7}{10} = 0.700$$
-Experimental measurements across transitional and deformed nuclei (e.g. $^{152}\text{Sm}, {}^{130}\text{Ba}, {}^{156}\text{Gd}$) reveal a universal systematic deviation: the observed ratio is systematically suppressed to $\mathcal{R}_{\text{exp}} \sim 0.45 - 0.58$, lower than the Alaga prediction by $20\% - 35\%$.
+本次依据 [[book-bohr-mottelson-nuclear-structure-vol2]] BM2-5、BM2-12：§4-4 PDF181／printed159 Eqs.4-230–4-231；PDF183／printed161 Eqs.4-232–4-235。推导详见 [[bm2-rotational-intrinsic-coupling-and-mikhailov-contract]]。
 
-Based on A. S. Davydov & V. S. Rostovsky (Nucl. Phys. 60, 529, 1964), A. Bohr & B. R. Mottelson *Nuclear Structure* Vol. II §4-2 (pp. 140–165), and W. Greiner & J. A. Maruhn *Nuclear Models* Ch. 6:
-This suppression arises from non-adiabatic rotation-vibration coupling: centrifugal stretching and Coriolis forces mix the $K=0$ ground-state band ($g$), the $K=0$ $\beta$-vibrational band, and the $K=2$ $\gamma$-vibrational band.
-
----
-
-## Mathematical Formalism: Mikhailov Expansion & Mixing Parameter $z_\gamma$
-
-### 1. Perturbed Wavefunctions
-First-order perturbation theory mixes intrinsic $K$-components:
-$$|I M, g\rangle \approx |I M 0, g\rangle - z_\beta \sqrt{I(I+1)} |I M 0, \beta\rangle - z_\gamma \sqrt{(I-1)I(I+1)(I+2)} |I M 2, \gamma\rangle$$
-where $z_\gamma$ and $z_\beta$ are the non-adiabatic band-mixing parameters.
-
-### 2. Inversion of Mixing Parameter $z_\gamma$
-The interband $B(E2)$ ratio under the Mikhailov expansion is:
-$$\frac{B(E2; 2_\gamma^+ \to 0_g^+)}{B(E2; 2_\gamma^+ \to 2_g^+)} = 0.700 \cdot \left[ \frac{1 - 2 z_\gamma}{1 + z_\gamma} \right]^2$$
-Given the experimental ratio $\mathcal{R}_{\text{exp}}$, $z_\gamma$ is directly inverted:
-$$z_\gamma = \frac{1 - \sqrt{\mathcal{R}_{\text{exp}} / 0.700}}{2 + \sqrt{\mathcal{R}_{\text{exp}} / 0.700}}$$
-
-### 3. Microscopic Coupling Matrix Element $h_2$ & Dynamic Softness $\mu$
-The rotation-vibration interaction matrix element is:
-$$h_2 = \langle 2_\gamma | H_c | 2_g \rangle / \sqrt{6} = z_\gamma \cdot \frac{E(2_\gamma^+) - E(2_g^+)}{\sqrt{6}} \quad [\text{keV}]$$
-The non-adiabatic softness parameter $\mu$ is evaluated from the bandhead ratio:
-$$\mu = \left( \frac{E(2_g^+)}{E(0_\beta^+)} \right)^{1/4}$$
-
----
-
-## Executable Analysis Tool: `rostovsky`
-
-The Python analysis suite integrates `davydov_rostovsky_triaxial_band_mixing_solver.py`, accessible via:
-
-```bash
-# Benchmark 1: 152Sm classic rotational-vibrational transitional nucleus (Bohr Vol 2)
-python3 system/scripts/analysis/nuclear_analyzer.py rostovsky --preset 152Sm_classic_transitional_nucleus
-
-# Benchmark 2: 130Ba gamma-soft triaxial nucleus (R_exp = 0.485)
-python3 system/scripts/analysis/nuclear_analyzer.py rostovsky --preset 130Ba_gamma_soft_triaxial
-
-# Benchmark 3: Rigid rotor reference limit (R_exp = 0.700, z_gamma = 0)
-python3 system/scripts/analysis/nuclear_analyzer.py rostovsky --preset rigid_rotor_zero_mixing_limit
-```
-
-### Model or fixture replay (not experimental validation): $^{152}\text{Sm}$
-- Preset/public-derived ratio $\mathcal{R}_{\text{exp}} = 0.5400$ ($22.86\%$ suppression relative to Alaga $0.700$);
-- Inverts mixing parameter $z_\gamma = +0.04228$;
-- Rotation-vibration coupling matrix element $h_2 = 16.64\text{ keV}$, softness parameter $\mu = 0.6494$;
-- Accurately predicts $B(E2; 2_\gamma \to 4_g) / B(E2; 2_\gamma \to 2_g) = 0.0629$ (matching experiment).
-
+旧参数记为 \(t\)，有
+\[
+R_{02}=0.7\left(\frac{1-2t}{1+t}\right)^2.
+\]
+令有符号因子 \((1-2t)/(1+t)=1-6a_2\)，得到
+\[
+a_2=\frac{t}{2(1+t)},\quad t=\frac{2a_2}{1-2a_2},\quad
+z_2=\frac{2a_2}{1-4a_2}=\frac{t}{1-t}.
+\]
+所以旧参数化可保留，但 \(t\ne a_2\ne z_2\)，也不是 \(\epsilon_2\) 或波函数混合振幅。有限 \(t=-1\) 不允许；\(a_2=1/2\) 对应 \(t\) 坐标无穷，仍须保留该 \(a_2\) 分支；\(a_2=1/4\) 对应 \(z_2\) 无穷。
 
 ## Necessary Assumptions
 
-微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
-
+输入须为有限、非负的E2强度比，并遵守同一振幅约定；实际应用还要求弱混合有效关系成立。
 
 ## Discriminating Observables
 
-激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+对 \(q=\sqrt{R/0.7}\)、\(s=\pm1\)，
+\[
+a_{2,s}=(1-sq)/6,\quad t_s=(1-sq)/(2+sq).
+\]
+全部有限非负比值都保留实解；\(R=0\) 合根；\(R=2.8,s=-1\) 时 \(t\) 无穷，由有限 \(a_2=1/2\) 表示。`null` 加坐标状态区分极点与丢解。负值或非有限值拒绝，撤回旧正值截断。默认旧标量函数返回 \(+\sqrt{}\) 分支，完整结果提供 `branches`，不作物理选根。
+
+由同一 BM-II 强度合同推得
+\[
+R_{42}=0.05(1+14a_2)^2
+=0.05\left(\frac{1+8t}{1+t}\right)^2.
+\]
+旧 \(1+4t\) 是换参不一致，已修正；零混合时 \(R_{02}=0.7,R_{42}=0.05\)。所有结果仍须检查弱混合适用性、多极性和能量可达性。
+
+## Counter-evidence and Competing Interpretations
+
+\(h_2=\epsilon_2\Delta E\)，但本次无法从 \(t\) 确定 \(\epsilon_2\)，故旧 `coupling_matrix_element_h2_keV` 为 `null`。旧 \([E(2_g)/E(0_\beta)]^{1/4}\) 仅在 `legacy_energy_ratio_fourth_root` 留作无量纲数值代理；原文未建立其动态软度归属，旧 `non_adiabatic_softness_mu` 为 `null`。不以它或一个分支比指认 γ-softness、刚性三轴或某类耦合。
+
+## Our Current Position
+
+`PRESETS` 的旧名称、函数参数及 CLI 入口保留；Sm/Ba 数值仅为未核验 fixture，不是 BM-II 或实验基准。能量旧字段 `experimental_energies_keV` 仅为兼容键名，实际来源由 `energy_provenance` 明示。PDF173／printed151 和 PDF184／printed162 的机制退化与内禀矩限制仍保留；多自旋 E2、绝对矩阵元与独立动力学信息不足时，不宣称机制已识别。
 
 
 ## Supporting Evidence
 
-在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。
-
-## Counter-evidence and Competing Interpretations
-
-1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
-2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
-
-## Our Current Position
-
-本页整理模型公式、参数化输出和观测量映射的条件性 screening logic。预设结果属于 model-derived 或 synthetic fixture；它们不能替代 raw spectra、detector response、feeding/covariance 和逐线实验审计。
-
+严格换参建立两种既有比值表达的代数联系；专用测试独立核对CG、零混合、双分支和坐标极点。它没有验证Davydov–Rostovsky动力学或预设的实验身份。
 
 ## Sources
 
-- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
-- [[nuclear-spectroscopy-and-structure-master-field-manual]]
+- [[book-bohr-mottelson-nuclear-structure-vol2]]：BM2-5、BM2-12和所列原页。
+- [[bm2-rotational-intrinsic-coupling-and-mikhailov-contract]]：统一的参数映射及限制。

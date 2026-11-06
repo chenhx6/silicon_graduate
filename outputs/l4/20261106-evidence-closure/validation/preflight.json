@@ -1,0 +1,9 @@
+{
+  "exit_code": 0,
+  "ok": true,
+  "boundary_ok": true,
+  "archive_ok": true,
+  "archive_failure_count": 0,
+  "failures": [],
+  "error": null
+}

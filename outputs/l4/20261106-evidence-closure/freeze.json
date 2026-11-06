@@ -1,0 +1,38 @@
+{
+  "at_utc": "2026-11-06T12:00:16.230986+00:00",
+  "status": "partial-budget-closeout",
+  "reason": "Explicit user request to wrap up quickly because remaining subscription budget is limited",
+  "all_four_workers_terminal": true,
+  "existing_paper_or_code_modified_this_turn": false,
+  "new_models_or_tests_run_this_turn": false,
+  "novelty_primary_source_comparison_complete": false,
+  "new_knowledge_note": "knowledge/research-notes/odd-ba-novelty-overlap-and-contribution-boundary.md",
+  "publication_status_of_this_partial_turn": "saved locally; no new push attempted",
+  "previous_published_artifacts_intact": true,
+  "files": [
+    {
+      "path": "outputs/l4/20261106-evidence-closure/cap/receipt.json",
+      "sha256": "378b3f65e7ec55872720a66f58624fe3bd4750a31ab20e5b2d3ee16e5da56779"
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/cap/report.md",
+      "sha256": "c2cf4b5b1e3edc38a046bfcb6f205ab7dae1b980da2c9ebbf037eea3d4bf3975"
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/mikhailov/freeze-receipt.json",
+      "sha256": "0858ebd4f04d6251ea376964b7d0db79a4707595400b7278313d5efbbe5adbae"
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/novelty/input-snapshot.json",
+      "sha256": "59e9735e341593a7212dce6e0c333857fa3d1bfde6f6ca8da3486ce320cc79b1"
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/novelty/partial-audit.md",
+      "sha256": "cf4ee37f87be2d8fadb84b9c33049312c50809cb914416b94c7f223e5bc97592"
+    },
+    {
+      "path": "outputs/l4/20261106-evidence-closure/pes/report.md",
+      "sha256": "12fb6962dfb805e1a419de861021ae067918b759f7e441a88573bc44fc48e8a5"
+    }
+  ]
+}

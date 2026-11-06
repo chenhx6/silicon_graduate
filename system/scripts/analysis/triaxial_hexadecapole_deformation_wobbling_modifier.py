@@ -1,39 +1,18 @@
 #!/usr/bin/env python3
 """
-triaxial_hexadecapole_deformation_wobbling_modifier.py
-======================================================
-Triaxial Nuclear Hexadecapole (beta_4, gamma_4) Deformation Perturbation Engine,
-Principal Moments of Inertia Renormalization & Wobbling Frequency Modifier.
+Illustrative hexadecapole-dependent inertia and rotor-frequency response.
 
-Physics Formulation:
---------------------
-1. Quadrupole-Hexadecapole Triaxial Nuclear Shape Expansion:
-   Based on A. Bohr & B. R. Mottelson "Nuclear Structure" Vol. II §4-2 & §4-5,
-   "Chirality and Wobbling in Atomic Nuclei" (CRC Press 2025) Ch. 2 & Ch. 10,
-   D. L. Hendrie (Phys. Rev. Lett. 31, 478, 1973), and J. Dudek et al. (Phys. Rev. C 26, 1712, 1982):
-   At high angular momentum, centrifugal forces drive higher-order multipole distortions,
-   predominantly hexadecapole deformation (lambda = 4).
-   The nuclear surface is expanded as:
-     R(theta, phi) = R_0 * [ 1 + alpha_20 * Y_20 + alpha_22 * (Y_22 + Y_2,-2) + alpha_40 * Y_40 + alpha_42 * (Y_42 + Y_4,-2) + alpha_44 * (Y_44 + Y_4,-4) ]
-   where (beta_2, gamma) parameterize quadrupole deformation and (beta_4, gamma_4) parameterize
-   hexadecapole deformation.
+This is a declared parameterization, not a microscopic cranking calculation.
+The default coefficients kappa_4=1.85 and kappa_44=0.60 are model inputs;
+no derivation of them from Bohr--Mottelson is established. The correction
+factor has a numerical floor. beta2 is recorded but is not used separately
+from the supplied J_base to determine the implemented inertias.
 
-2. Renormalization of Principal Moments of Inertia J_k:
-   In the hydrodynamic and microscopic cranking formulations, hexadecapole coupling alters the
-   effective mass distribution and nuclear radius along each principal axis (k = 1, 2, 3 -> s, m, l):
-     J_k(beta_2, gamma, beta_4) = J_k^(0)(beta_2, gamma) * [ 1 + kappa_4 * beta_4 * cos(gamma - 2*pi*k/3) + kappa_44 * beta_4^2 ]
-   where:
-     - J_k^(0) = 4 * B_core * beta_2^2 * sin^2(gamma - 2*pi*k/3) is the pure quadrupole Davydov inertia;
-     - kappa_4 ~ 1.85 is the quadrupole-hexadecapole geometric cross-coupling parameter;
-     - Intermediate axis (k = 2) corresponds to the largest collective moment of inertia J_m.
-
-3. Perturbation on Wobbling Frequency hbar*omega_w:
-   For intermediate-axis collective rotation with aligned quasiparticle j_align:
-     hbar * omega_w = omega_rot * sqrt( [ (J_m - J_s) * (J_m - J_l) ] / [ J_s * J_l ] )
-   - Positive beta_4 > 0 (common in rare-earth superdeformed nuclei like 163Lu):
-     Increases J_m relative to J_s, enhancing wobbling mode stability;
-   - Negative beta_4 < 0 (found in A ~ 130 transitional nuclei like 135Pr):
-     Reduces J_m asymmetry, accelerating the drop of wobbling frequency towards instability or TiP.
+A rigid-rotor frequency expression is evaluated with a prescribed alignment.
+The program does not solve a particle--rotor eigenproblem or identify TW/TiP.
+The sign of beta4 alone is not a general stability criterion. The beta4=0
+limit restores this program's own base tensor. Isotope names identify
+synthetic examples, not measured deformation or spectroscopic assignments.
 """
 
 import sys
@@ -65,7 +44,7 @@ PRESETS = {
         "spin_I": 17.5
     },
     "pure_quadrupole_limit": {
-        "description": "Pure quadrupole reference (beta4 = 0.0, exact Bohr-Mottelson limit)",
+        "description": "Synthetic base-tensor reference (beta4 = 0.0)",
         "nucleus": "Quadrupole-Ref",
         "beta2": 0.25,
         "gamma_deg": 22.0,
@@ -75,6 +54,12 @@ PRESETS = {
         "spin_I": 19.5
     }
 }
+
+# Legacy isotope labels are retained as command identifiers only.
+for _preset_name, _preset in PRESETS.items():
+    _preset["data_kind"] = "synthetic_model_benchmark"
+    _preset["description"] = f"Synthetic illustrative parameter set (legacy label: {_preset_name})"
+
 
 
 def calculate_hexadecapole_modified_moi(beta2, gamma_deg, beta4, J_base, kappa_4=1.85, kappa_44=0.60):
@@ -151,6 +136,8 @@ def run_hexadecapole_wobbling_analysis(nucleus, beta2, gamma_deg, beta4, J_base,
     wob_res = calculate_wobbling_frequency_with_beta4(moi_res, spin_I, j_aligned)
 
     return {
+        "data_kind": "model_derived_illustration",
+        "evidence_boundary": "Declared inertia interpolation and rotor-frequency estimate; no empirical deformation or mode validation.",
         "nucleus": nucleus,
         "deformations": {
             "beta2": float(beta2),
@@ -171,6 +158,7 @@ def format_text_report(res, title="Triaxial Hexadecapole Wobbling Modifier"):
     lines = []
     lines.append("=" * 76)
     lines.append(f"{title}")
+    lines.append("Evidence: parameterized model; no measured deformation or mode assignment")
     lines.append(f"Nucleus: {nuc} | Deformations: beta2 = {d['beta2']:.3f}, gamma = {d['gamma_deg']:.1f} deg, beta4 = {d['beta4']:+.4f}")
     lines.append("=" * 76)
     lines.append("Principal Moments of Inertia [J_s, J_m, J_l] (hbar^2/MeV):")
@@ -185,13 +173,11 @@ def format_text_report(res, title="Triaxial Hexadecapole Wobbling Modifier"):
     lines.append(f"  Modified Frequency hbar*omega_w    : {w['wobbling_freq_modified_keV']:7.1f} keV")
     lines.append(f"  Frequency Shift Delta(hbar*omega)  : {w['delta_wobbling_freq_keV']:+7.1f} keV ({w['fractional_shift_pct']:+5.2f}%)")
     lines.append("-" * 76)
-    if d['beta4'] > 0:
-        effect_str = "Positive beta4 enhances intermediate-axis dominance and stabilizes transverse wobbling."
-    elif d['beta4'] < 0:
-        effect_str = "Negative beta4 reduces MOI asymmetry, accelerating frequency decline towards TiP."
+    if d['beta4'] == 0:
+        effect_str = "Zero beta4 restores the chosen base tensor and frequency."
     else:
-        effect_str = "Exact zero hexadecapole limit: strictly reproduces Bohr-Mottelson quadrupole rotor."
-    lines.append(f"Physical Impact: {effect_str}")
+        effect_str = "Response of the chosen inertia parameterization; beta4 sign alone does not classify stability or TW/TiP."
+    lines.append(f"Model interpretation: {effect_str}")
     lines.append("=" * 76)
     return "\n".join(lines)
 
@@ -200,7 +186,7 @@ def main():
     parser = argparse.ArgumentParser(
         description="Triaxial Nuclear Hexadecapole Wobbling Modifier."
     )
-    parser.add_argument("--preset", choices=list(PRESETS.keys()), help="Load benchmark preset")
+    parser.add_argument("--preset", choices=list(PRESETS.keys()), help="Load synthetic illustrative preset")
     parser.add_argument("--json", action="store_true", help="Output pure JSON")
     args = parser.parse_args()
 

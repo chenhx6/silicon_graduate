@@ -75,3 +75,6 @@ statements are still placeholders. The permanent public data/code destination
 has not been assigned. These are unresolved submission items, not tasks to
 fill with invented details. The full-library research goal also remains
 unfinished.
+
+
+Final bounded closeout: the three-source original-text comparison is complete. General geometry/inertia separation is explicitly credited in the main Discussion. The candidate remains incremental and is not certified for priority or journal-level significance. See ../final-evidence-closure.md. The associated Mikhailov/CAP/PES corrections are outside the article producers. The broader library mission remains incomplete and is not counted as achieved by this closeout.

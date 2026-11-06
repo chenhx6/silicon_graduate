@@ -1,0 +1,43 @@
+{
+  "schema": "cap-evidence-closure-stop-receipt-v1",
+  "stopped_at_actual_utc": "2026-11-06T11:57:14.881031+00:00",
+  "status": "stopped-before-corrections-at-user-request",
+  "reason": "User requested immediate closeout due to quota limits.",
+  "modified_existing_files": [],
+  "new_files": [
+    "outputs/l4/20261106-evidence-closure/cap/report.md",
+    "outputs/l4/20261106-evidence-closure/cap/receipt.json"
+  ],
+  "directly_read_files": [
+    "knowledge/concepts/coriolis-anti-pairing-and-moment-of-inertia-expansion.md",
+    "knowledge/research-notes/coriolis-antipairing-and-superdeformed-alignment-transitions.md",
+    "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+    "system/scripts/analysis/coriolis_anti_pairing_gap_quenching_moi_engine.py",
+    "system/scripts/day27_sd_vs_nd_pairing_cap_study.py"
+  ],
+  "located_dedicated_test_not_read_or_run": "system/tests/test_coriolis_anti_pairing.py",
+  "shared_aggregators_not_modified": [
+    "system/scripts/analysis/nuclear_analyzer.py",
+    "system/scripts/analysis/test_analysis_suite.py"
+  ],
+  "source_locator_from_existing_corrected_source": "BM-II §4-3a, physical PDF64 / printed42, numbered item1 and surrounding tentative interpretation; no new primary-page inspection in this task",
+  "actual_verification": [
+    "Read listed files",
+    "Located direct code/test references",
+    "Queried starting Git status"
+  ],
+  "numerical_runs": 0,
+  "tests_run": 0,
+  "new_primary_page_inspections": 0,
+  "scientific_corrections_completed": false,
+  "unfinished": [
+    "Direct original-page recheck",
+    "Dedicated tests and compatibility review",
+    "Corrections to two knowledge pages",
+    "Conditional-model, dimension and domain code corrections",
+    "Targeted tests and final scoped audit"
+  ],
+  "incomplete_code_changes_to_revert": [],
+  "commit_created": false,
+  "auto_resume_authorized": false
+}

@@ -5531,9 +5531,9 @@ def main():
     p_tac.set_defaults(func=cmd_tac)
 
     # Gamma-Band Mikhailov z_gamma Mixing Inverter
-    p_zg = subparsers.add_parser("zgamma", help="Gamma-vibrational band mixing, Mikhailov z_gamma parameter & Alaga correction (Bohr Vol. II §4-2)")
-    p_zg.add_argument("--preset", type=str, default="168Er_gamma_band", choices=["168Er_gamma_band", "166Er_gamma_band", "154Sm_gamma_band", "130Ba_gamma_soft", "custom"], help="Benchmark preset")
-    p_zg.add_argument("--ratio", type=float, default=0.540, help="Measured B(E2; 2_gamma -> 0_g) / B(E2; 2_gamma -> 2_g)")
+    p_zg = subparsers.add_parser("zgamma", help="Conditional Mikhailov E2-ratio inversion; legacy z_gamma=BM a2 (BM-II §4-4)")
+    p_zg.add_argument("--preset", type=str, default="168Er_gamma_band", choices=["168Er_gamma_band", "166Er_gamma_band", "154Sm_gamma_band", "130Ba_gamma_soft", "custom"], help="Legacy illustrative preset; no verified experimental identity")
+    p_zg.add_argument("--ratio", type=float, default=0.540, help="Supplied B(E2; 2_gamma -> 0_g) / B(E2; 2_gamma -> 2_g)")
     p_zg.add_argument("--E-gamma-bandhead", type=float, default=821.1, help="E(2_gamma) in keV")
     p_zg.add_argument("--E-ground-2plus", type=float, default=79.8, help="E(2_g) in keV")
     p_zg.add_argument("--json", action="store_true", help="Output pure JSON")
@@ -5899,7 +5899,7 @@ def main():
     p_rd.set_defaults(func=cmd_rddsddcm)
 
     # Davydov-Rostovsky Non-Adiabatic Triaxial Beta/Gamma Band Mixing Solver
-    p_dr = subparsers.add_parser("rostovsky", help="Davydov-Rostovsky triaxial band mixing & Alaga deviation (Bohr Vol 2 / Davydov)")
+    p_dr = subparsers.add_parser("rostovsky", help="Conditional E2-ratio inversion with legacy parameter mapping; no unique coupling inference")
     p_dr.add_argument("--preset", type=str, default="152Sm_classic_transitional_nucleus",
                       choices=list(ROSTOVSKY_PRESETS.keys()), help="Benchmark preset")
     p_dr.add_argument("--json", action="store_true", help="Output pure JSON")

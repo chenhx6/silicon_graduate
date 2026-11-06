@@ -3,96 +3,56 @@ type: concept
 title: "Triaxial superdeformed 3D (beta_2, gamma, beta_4) potential energy surface, macroscopic-microscopic Strutinsky shell corrections and secondary well stabilization"
 aliases: [tsd-pes-strutinsky, triaxial-pes-landscape, strutinsky-tsd-engine, high-spin-tsd-stabilization, 163lu-pes]
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-06
 status: ai-draft
 review_status: unreviewed
 tags: [triaxiality, superdeformation, potential-energy-surface, pes, strutinsky-method, high-spin, 163lu, 130ba]
 ---
 
-# Triaxial superdeformed 3D (beta_2, gamma, beta_4) potential energy surface, macroscopic-microscopic Strutinsky shell corrections and secondary well stabilization
+# 三轴超形变势能面：壳结构极小与动力学稳定性分开检验
 
 ## Definition
 
-### Definition and Phenomenological Origin
+宏观–微观方法将平滑能量与壳结构、配对等修正分开。给定模型中可以寻找正常形变与大形变局部极小，并比较相对能量和路径上的势垒；这不自动构成实验形状、异能态或摆动／手征模式的确认。
 
-A key prerequisite for the emergence of transverse wobbling and nuclear chirality is the existence of a deep, stable triaxial minimum in the nuclear potential energy surface (PES).
-In the $A \sim 160 - 170$ rare-earth region (e.g. $^{163,165}\text{Lu}$), high-$j$ intruder single-particle orbitals (specifically the proton $i_{13/2}$ shell) drive the formation of a pronounced **Triaxial Superdeformed (TSD)** secondary minimum with $\beta_2 \approx 0.38 - 0.42, \gamma \approx 18^\circ - 22^\circ$.
-
-Based on Bohr & Mottelson *Nuclear Structure* Vol. II §4-2 & §6-4, *Chirality and Wobbling in Atomic Nuclei* (CRC Press 2025) Chapters 2 & 10 (PDF pp. 215–230), and V. M. Strutinsky (Nucl. Phys. A 95, 420, 1967):
-At ground state ($I = 0$), the large liquid-drop surface energy cost disfavors superdeformation.
-At high angular momentum ($I \ge 25 - 40\ \hbar$), the **large moment of inertia $\mathcal{J}_{\text{TSD}} \approx 65\ \hbar^2/\text{MeV}$** lowers the collective rotational energy $E_{\text{rot}} = \hbar^2 I(I+1)/(2\mathcal{J})$ by $10 - 15\text{ MeV}$ relative to normal-deformed states, driving the TSD well down and stabilizing the secondary minimum behind a substantial deformation barrier $V_B$.
-
----
-
-## Mathematical Formalism: Macroscopic-Microscopic Decomposition
-
-### 1. Total Energy Functional
-The total deformation energy across the $(\beta_2, \gamma, \beta_4)$ manifold is:
-$$E_{\text{tot}}(\beta_2, \gamma, \beta_4; I) = E_{\text{LDM}}(\beta_2, \gamma, \beta_4) + \delta E_{\text{shell}}(\beta_2, \gamma, \beta_4) + E_{\text{rot}}(I, \beta_2, \gamma)$$
-
-### 2. Macroscopic Liquid Drop Model (LDM) Energy
-$$E_{\text{LDM}} = E_{\text{surf}}^{(0)} \left[ B_{\text{surf}}(\beta_2, \gamma, \beta_4) - 1 \right] + E_{\text{Coul}}^{(0)} \left[ B_{\text{Coul}}(\beta_2, \gamma, \beta_4) - 1 \right]$$
-with standard nuclear parameters $E_{\text{surf}}^{(0)} = 17.94 A^{2/3}\text{ MeV}$ and $E_{\text{Coul}}^{(0)} = 0.705 Z^2 / A^{1/3}\text{ MeV}$.
-
-### 3. Cranking Rotational Energy
-$$E_{\text{rot}}(I, \beta_2, \gamma) = \frac{\hbar^2 I(I+1)}{2 \mathcal{J}_{\text{eff}}(\beta_2, \gamma)}$$
-where $\mathcal{J}_{\text{eff}} \approx 0.014 A^{5/3} (0.35 + 2.20 \beta_2^2) (1 + 0.3\sin\gamma)$ captures the rapid growth of rotational inertia with quadrupole deformation $\beta_2$.
-
-### 4. Microscopic Strutinsky Shell Corrections
-Deformed Nilsson single-particle level gaps create shell stabilization pockets for:
-- Normal Deformed (ND) well: $\beta_2 \sim 0.18, \gamma \sim 15^\circ$;
-- Triaxial Superdeformed (TSD) well: $\beta_2 \sim 0.38 - 0.40, \gamma \sim 20^\circ$.
-The module maps the 2D energy terrain to extract the equilibrium shapes, saddle barrier $V_B$, and excitation energy $\Delta E_{\text{TSD-ND}}$.
-
----
-
-## Executable Analysis Tool: `tsdpes`
-
-The Python analysis suite integrates `triaxial_superdeformed_pes_strutinsky_engine.py`, accessible via:
-
-```bash
-# Benchmark 1: 163Lu TSD potential energy surface at high spin I = 35.5 hbar
-python3 system/scripts/analysis/nuclear_analyzer.py tsdpes --preset 163Lu_TSD_potential_energy_surface
-
-# Benchmark 2: 130Ba triaxial potential energy surface at spin I = 14 hbar
-python3 system/scripts/analysis/nuclear_analyzer.py tsdpes --preset 130Ba_triaxial_quasiparticle_PES
-
-# Benchmark 3: Doubly magic 208Pb spherical single well
-python3 system/scripts/analysis/nuclear_analyzer.py tsdpes --preset 208Pb_spherical_doubly_magic
-```
-
-### Model or fixture replay (not experimental validation): $^{163}\text{Lu}$ at $I = 35.5\ \hbar$
-- Normal Deformed (ND) minimum located at: $\beta_2 = 0.188, \gamma = 22.0^\circ$ ($E = 18.84\text{ MeV}$);
-- Triaxial Superdeformed (TSD) minimum located at: $\beta_2 = 0.375, \gamma = 18.0^\circ$ ($E = 16.82\text{ MeV}$);
-- Barrier height preventing decayout: $V_B = 3.86\text{ MeV}$;
-- Model output topology: `STABLE_TRIAXIAL_SUPERDEFORMED_WELL_PRESENT`.
-
+[[book-bohr-mottelson-nuclear-structure-vol2]] BM2-10（PDF620／printed598及PDF627／printed605）明确指出，总体平滑能量部分会影响壳能局部极小能否成为形状异能态。BM2-8、13的更正也撤回了没有核素输入、输出及原书定位的TSD退激与固定PES数字。
 
 ## Necessary Assumptions
 
-微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+在明确的固定I近似下，可组织为
 
+\[
+E(q;I)=E_{\rm macro}(q)+\delta E_{\rm shell}(q)
++\delta E_{\rm pair}(q;I)+E_{\rm rot}(q;I).
+\]
+
+每项必须有独立定义，并检查是否已在推转微观能量中计入转动贡献，避免重复计数。单轴转子式 \(E_{\rm rot}=\hbar^2I(I+1)/(2\mathcal J)\) 仅是指定近似；固定频率的Routhian使用不同的约束。
+
+本地`triaxial_superdeformed_pes_strutinsky_engine.py`给定液滴多项式、经验惯量与Gaussian势谷。它没有从单粒子能谱执行Strutinsky平滑，也没有自洽求配对或量子态。因此代码中的shell correction只能指示意势谷。其固定beta4切片及二维网格，不是对全部rank4自由度的三维自洽极小化。
 
 ## Discriminating Observables
 
-激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
-
+真实TSD解释需结合组态、转动顺排、电磁矩阵元、跃迁四极矩和退激路径等数据。即使模型中存在有势垒的局部极小，寿命还涉及惯量、耦合、态密度与隧穿／统计混合；仅凭势垒高度不能推出退激被阻止。
 
 ## Supporting Evidence
 
-在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。
+当前页没有建立具体核素的定量PES证据链。旧页列出的beta/gamma区间、25–40hbar阈值、65hbar²/MeV惯量、10–15MeV降能及确定势垒／极小数值，均撤回其原书结果或已验证核素计算的身份。它们不能由末尾增加“fixture”标签而继续作为科学结论。
+
+```bash
+python3 system/scripts/analysis/nuclear_analyzer.py tsdpes --preset 163Lu_TSD_potential_energy_surface
+```
+
+预设名是保留的演示入口。输出只描述所给参数化与网格；`has_secondary_tsd_well`等兼容字段表示程序搜索到的候选极小，不是对实际核素的稳定性裁决。
 
 ## Counter-evidence and Competing Interpretations
 
-1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
-2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+Gaussian势谷本身可预设多阱结构。网格边界、局部选择、形变阈值及选定路径会影响所谓势垒；路径上的峰值未证明是全维最小鞍点。局部极小也不保证有可辨量子态。模型下较大惯量降低固定I转动能的趋势不能生成普适阈值或固定降能。
 
 ## Our Current Position
 
-本页整理模型公式、参数化输出和观测量映射的条件性 screening logic。预设结果属于 model-derived 或 synthetic fixture；它们不能替代 raw spectra、detector response、feeding/covariance 和逐线实验审计。
-
+本页保留可追溯的一般分解、约束和演示实现说明，撤回来源不明的核素数字及稳定性判决。不新增微观PES计算或参数拟合。
 
 ## Sources
 
-- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
-- [[nuclear-spectroscopy-and-structure-master-field-manual]]
+- [[book-bohr-mottelson-nuclear-structure-vol2]]：BM2-8、10、13及其更正边界。
+- `system/scripts/analysis/triaxial_superdeformed_pes_strutinsky_engine.py`：固定参数化的演示代码。

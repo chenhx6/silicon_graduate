@@ -1,0 +1,54 @@
+{
+  "status": "stopped-incomplete-at-user-request",
+  "observed_utc": "2026-11-06T11:56:16.404224+00:00",
+  "reason": "User requested immediate quota-driven closeout; no further reading, derivation, model or test expansion.",
+  "completed": [
+    "Read the three authorized knowledge pages.",
+    "Located and read the two directly bound analysis scripts and their two existing test files.",
+    "Reported the exact four code/test paths to the user before any edits."
+  ],
+  "implementation_started": false,
+  "knowledge_code_test_files_written": [],
+  "tests_run_this_task": [],
+  "validation_boundary": "File discovery and reading only. No new numerical, physics, test, lint or CLI validation was performed for this propagation task.",
+  "partial_edits_to_revert": [],
+  "authorized_targets_current_snapshot": [
+    {
+      "path": "knowledge/methods/bm2-rotational-intrinsic-coupling-and-mikhailov-contract.md",
+      "sha256": "6a9e7f693fbe50cc5105d24e74e7329a2faa9a3396e9c1070fef46c37fb40321"
+    },
+    {
+      "path": "knowledge/concepts/gamma-vibrational-band-mixing-and-mikhailov-z-gamma-parameter.md",
+      "sha256": "315160a07e711f56d8f31ad000b27cdf74487cdda3e95f2dfb6b684016c0aeda"
+    },
+    {
+      "path": "knowledge/concepts/davydov-rostovsky-triaxial-band-mixing.md",
+      "sha256": "a16040f403efa23feec4ba96790950e352c4de5596ef019788210eaf92dce0d3"
+    },
+    {
+      "path": "system/scripts/analysis/gamma_band_mixing_z_gamma_alaga_inverter.py",
+      "sha256": "d7fb21c5ccf8378b7c42a7bafc4aff349ce9abd7555503d5d543f608e2de63e1"
+    },
+    {
+      "path": "system/scripts/analysis/davydov_rostovsky_triaxial_band_mixing_solver.py",
+      "sha256": "051bb5f724c7874bbdb802c8396a198112e8e873c4396c74798ae9beb8087d92"
+    },
+    {
+      "path": "system/tests/test_gamma_band_mixing_z_gamma.py",
+      "sha256": "76bb32bc4af046900f8e689601ecdf7a6f3b0e843e703ef05e4b08a3974b57b2"
+    },
+    {
+      "path": "system/tests/test_davydov_rostovsky_mixing.py",
+      "sha256": "e02b459399098d49e8385d3ca4ff0d240a267376a7fece9efe511c3f396421e7"
+    }
+  ],
+  "unfinished": [
+    "Derive the mapping between both existing z parameterizations and BM-II a2/z2/epsilon2 before deciding which expressions to retain.",
+    "Correct definitions, units, identifiability and all physically allowed inverse branches in the three pages and bound scripts.",
+    "Audit unsupported coupling/shape assignments and preset provenance within the authorized modules.",
+    "Inspect shared dispatcher call interfaces read-only if required for compatibility.",
+    "Add and run independent CG, limiting-case and branch tests in the two existing authorized test files."
+  ],
+  "prior_work_boundary": "The earlier published BM-II source-page correction remains prior work; it is not a completed propagation into these seven targets.",
+  "scope_preserved": "No other model, shared index/handoff, raw, PLAN or get-paper action; no commit."
+}

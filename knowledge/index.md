@@ -9,6 +9,8 @@ updated: 2026-11-06
 
 ## 奇Ba四极闭合与受控模型检查（2026-11-06）
 
+- [[odd-ba-novelty-overlap-and-contribution-boundary]] — 预定三源原件对照已完成；一般原理已有先例，候选增量限于有界控制与定量分解，不作全球优先权或期刊认证。
+
 - [[fixed-shape-particle-rotor-quadrupole-proxy-control]] — 严格固定20°电荷形状的无配对粒子—转子反例；完整矩不变而全15/2受限角变化／越域。
 - [[ba137-isomer-e2-network-validity]] — 137Ba预定态对应、28个强度与14个完整模型E2衰变图的条件检验；不将单支接近当成整体验证。
 - [[ba135-ba137-source-energy-replay-boundary]] — 原Fig.5(c)六个负宇称系列的冻结重放；135/137最大残差1.896/3.128keV，19/2与电磁作者运行仍未认证。

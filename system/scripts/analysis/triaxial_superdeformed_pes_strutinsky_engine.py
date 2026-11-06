@@ -1,43 +1,18 @@
 #!/usr/bin/env python3
 """
-triaxial_superdeformed_pes_strutinsky_engine.py
-==============================================
-Triaxial Superdeformed (TSD) Macroscopic-Microscopic Potential Energy Surface (PES),
-3D (beta_2, gamma, beta_4) Grid Strutinsky Shell Correction & Barrier Inverter.
+Illustrative parameterized deformation surface with two Gaussian valleys.
 
-Physics Formulation:
---------------------
-1. Macroscopic-Microscopic Strutinsky Decomposition:
-   Based on A. Bohr & B. R. Mottelson "Nuclear Structure" Vol. II §4-2 & §6-4,
-   "Chirality and Wobbling in Atomic Nuclei" (CRC Press 2025) Chapter 2 & Chapter 10,
-   and V. M. Strutinsky (Nucl. Phys. A 95, 420, 1967; A 122, 1, 1968):
-   The total nuclear deformation potential energy surface is decomposed into:
-     E_tot(beta_2, gamma, beta_4) = E_macro(beta_2, gamma, beta_4) + delta E_shell(beta_2, gamma, beta_4) + delta E_pair
-   where E_macro is the smooth Liquid Drop Model (LDM) or Lublin-Strasbourg Droplet (LSD) energy.
+The legacy filename includes Strutinsky, but the implementation does not
+compute shell corrections from single-particle spectra or perform Strutinsky
+smoothing. Its polynomial macroscopic terms, inertia formula and Gaussian
+well parameters are declared numerical choices, not a verified microscopic
+PES for any named isotope. The beta4 input is fixed during the beta2/gamma
+slice; a three-dimensional self-consistent minimization is not performed.
 
-2. Liquid Drop Model Energy Functional:
-   The LDM energy relative to a spherical drop is:
-     Delta E_LDM = E_surf^(0) * [ B_surf(beta_2, gamma, beta_4) - 1 ]
-                 + E_Coul^(0) * [ B_Coul(beta_2, gamma, beta_4) - 1 ]
-   where for triaxial ellipsoidal deformation:
-     B_surf - 1 = (2/5) * beta_2^2 - (4/105) * sqrt(5/pi) * beta_2^3 * cos(3*gamma) + (9/35) * beta_4^2
-     B_Coul - 1 = - (1/5) * beta_2^2 - (4/105) * sqrt(5/pi) * beta_2^3 * cos(3*gamma) - (10/35) * beta_4^2
-   with E_surf^(0) = 17.94 * A^(2/3) MeV and E_Coul^(0) = 0.705 * Z^2 / A^(1/3) MeV.
-
-3. Microscopic Shell Correction & Secondary TSD Well:
-   In high-j intruder configurations (e.g. pi i_13/2 in 163Lu, pi h_11/2 in 130Ba), large gaps
-   in the deformed single-particle Nilsson levels create an oscillating shell correction energy:
-     delta E_shell(beta_2, gamma, beta_4)
-   which drives the formation of:
-     - Normal Deformed (ND) minimum at beta_2 ~ 0.15 - 0.25;
-     - Triaxial Superdeformed (TSD) secondary minimum at beta_2 ~ 0.38 - 0.44, gamma ~ 18 - 22 deg;
-     - A separating deformation saddle barrier V_barrier.
-
-4. PES Grid Search & Minimum Inversion:
-   The module computes E_tot across a dense 2D grid in (beta_2, gamma), locating:
-     - The global ND minimum;
-     - The excited TSD minimum;
-     - The saddle point barrier height V_B and excitation energy Delta E_TSD_ND.
+A secondary sampled minimum and a path-barrier estimate do not establish
+an observed TSD state, quantum metastability, a minimum-action saddle or a
+nuclear decay lifetime. Isotope-named presets are synthetic demonstrations.
+Legacy result keys remain for compatibility and carry explicit provenance.
 """
 
 import sys
@@ -85,6 +60,12 @@ PRESETS = {
         "gamma_grid": [0.0, 60.0, 25]
     }
 }
+
+# Legacy isotope labels are retained as command identifiers only.
+for _preset_name, _preset in PRESETS.items():
+    _preset["data_kind"] = "synthetic_model_benchmark"
+    _preset["description"] = f"Synthetic illustrative parameter set (legacy label: {_preset_name})"
+
 
 
 def calculate_ldm_energy_surface(Z, A, beta2_arr, gamma_arr, beta4=0.0):
@@ -236,6 +217,8 @@ def run_pes_strutinsky_analysis(Z, A, spin_I, beta4, shell_amp, tsd_shell_amp,
     E_tot = E_ldm + E_shell + E_rot
 
     topo = find_pes_minima_and_saddle(beta2_arr, gamma_arr, E_tot)
+    topo["data_kind"] = "model_derived_illustration"
+    topo["evidence_boundary"] = "Parameterized fixed-beta4 surface; candidate minima and path barriers are not experimental states or lifetime predictions."
     topo["nucleus"] = nucleus
     topo["parameters"] = {
         "Z": int(Z), "A": int(A), "spin_I": float(spin_I), "beta4": float(beta4),
@@ -256,19 +239,20 @@ def format_text_report(res, title="TSD 3D Potential Energy Surface Strutinsky En
     lines.append(f"{title}")
     lines.append(f"Nucleus: {nuc} (Z={p['Z']}, A={p['A']}) at Spin I = {p['spin_I']:.1f} hbar | Hexadecapole beta4 = {p['beta4']:+.3f}")
     lines.append("=" * 76)
-    lines.append("Deformed Potential Energy Surface Minima:")
-    lines.append(f"  Normal-Deformed (ND) Ground Well : beta2 = {nd['beta2']:.3f}, gamma = {nd['gamma_deg']:4.1f} deg  (E = {nd['energy_MeV']:6.2f} MeV)")
+    lines.append("Evidence: parameterized surface; no experimental topology verdict")
+    lines.append("Candidate minima in the evaluated model surface:")
+    lines.append(f"  Low-deformation candidate well : beta2 = {nd['beta2']:.3f}, gamma = {nd['gamma_deg']:4.1f} deg  (E = {nd['energy_MeV']:6.2f} MeV)")
     if res["has_secondary_tsd_well"]:
-        lines.append(f"  Triaxial Superdeformed (TSD) Well: beta2 = {tsd['beta2']:.3f}, gamma = {tsd['gamma_deg']:4.1f} deg  (E = {tsd['energy_MeV']:6.2f} MeV)")
+        lines.append(f"  Large-deformation candidate well: beta2 = {tsd['beta2']:.3f}, gamma = {tsd['gamma_deg']:4.1f} deg  (E = {tsd['energy_MeV']:6.2f} MeV)")
         lines.append("-" * 76)
         lines.append("Superdeformed Barrier and Stability Metrics:")
-        lines.append(f"  TSD Deformation Barrier Height V_B : {res['tsd_barrier_height_MeV']:.2f} MeV (Prevents immediate decayout)")
+        lines.append(f"  TSD Deformation Barrier Height V_B : {res['tsd_barrier_height_MeV']:.2f} MeV (model path estimate; no decay calculation)")
         lines.append(f"  TSD Excitation Above ND State   : Delta E = {res['tsd_excitation_energy_MeV']:.2f} MeV")
-        lines.append("  Topology Verdict                   : STABLE_TRIAXIAL_SUPERDEFORMED_WELL_PRESENT")
+        lines.append("  Model topology                     : SECONDARY_MINIMUM_IN_PARAMETERIZED_SURFACE")
     else:
-        lines.append("  Triaxial Superdeformed (TSD) Well: NONE (Monolithic single well)")
+        lines.append("  Large-deformation candidate well: NONE found in evaluated grid")
         lines.append("-" * 76)
-        lines.append("  Topology Verdict                   : NO_SUPERDEFORMED_MINIMUM (Single-well nucleus)")
+        lines.append("  Model topology                     : NO_SECONDARY_MINIMUM_FOUND_IN_EVALUATED_GRID")
     lines.append("=" * 76)
     return "\n".join(lines)
 
@@ -277,7 +261,7 @@ def main():
     parser = argparse.ArgumentParser(
         description="Triaxial Superdeformed PES Strutinsky Inversion Engine."
     )
-    parser.add_argument("--preset", choices=list(PRESETS.keys()), help="Load experimental preset")
+    parser.add_argument("--preset", choices=list(PRESETS.keys()), help="Load synthetic illustrative preset")
     parser.add_argument("--json", action="store_true", help="Output pure JSON")
     args = parser.parse_args()
 

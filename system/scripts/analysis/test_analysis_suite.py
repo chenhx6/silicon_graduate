@@ -2539,17 +2539,17 @@ def test_davydov_chaban_stretching_calculator():
 
 
 def test_gamma_band_mixing_z_gamma_calculator():
-    print("Testing gamma_band_mixing_z_gamma_alaga_inverter...")
-    # 168Er gamma band benchmark: R_exp = 0.540 -> z_gamma ~ 0.0203
+    print("Testing gamma_band_mixing_z_gamma_alaga_inverter fixtures...")
+    # Synthetic ratios check the declared BM a2 convention, not nuclear identity.
     res_168 = invert_z_gamma_from_branching(R_exp_B_E2=0.540, E_2gamma_keV=821.1, E_2g_keV=79.8)
-    assert abs(res_168["inverted_z_gamma"] - 0.02028) < 0.001, "168Er z_gamma ~ 0.0203"
-    assert abs(res_168["rotational_vibrational_h2_keV"] - 6.14) < 0.2, "168Er h2 ~ 6.14 keV"
-    assert res_168["structural_classification"].startswith("Well-Deformed")
-
-    # 130Ba gamma-soft benchmark: R_exp = 0.320 -> large z_gamma > 0.05
+    assert abs(res_168["inverted_z_gamma"] - 0.02028) < 0.001
+    assert len(res_168["branches"]) == 2
+    assert res_168["rotational_vibrational_h2_keV"] is None
+    assert res_168["structural_classification"].startswith("Undetermined")
     res_130 = invert_z_gamma_from_branching(R_exp_B_E2=0.320, E_2gamma_keV=908.1, E_2g_keV=357.4)
-    assert res_130["inverted_z_gamma"] > 0.05, "130Ba gamma-soft z_gamma > 0.05"
-    print("  ✓ gamma_band_mixing_z_gamma_alaga_inverter passed.")
+    assert res_130["inverted_z_gamma"] > 0.05
+    assert res_130["rotational_vibrational_h2_keV"] is None
+    print("  ✓ declared ratio branches; no unsupported coupling/shape assignment")
 
 
 def test_schiffer_true_two_body_matrix_elements_calculator():

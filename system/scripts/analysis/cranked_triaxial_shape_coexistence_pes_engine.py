@@ -1,53 +1,20 @@
 #!/usr/bin/env python3
 """
-Cranked Triaxial Shape Coexistence Potential Energy Surface (PES) Engine.
+Parameterized fixed-frequency shape-coexistence Routhian demonstration.
 
-Physical Principle & Methodological Foundations:
-In transitional atomic nuclei (e.g., 130Ba, 134Ce in A~130 region; 76Kr, 72Se in A~70 region;
-186Pb in A~180 region), the nuclear mean-field exhibits Shape Coexistence: the presence of
-two or more local minima on the quadrupole deformation surface (beta, gamma) with distinct
-intrinsic geometric shapes (prolate, oblate, and triaxial).
+A polynomial background and user-specified Gaussian valleys define E0(beta,gamma).
+Numerically u=hbar*omega is in MeV and J_tilde=J_x/hbar^2 is in
+MeV^-1, so the rotational Routhian term is -0.5*J_tilde*u^2. It is a
+fixed-frequency Routhian after a simple rotor Legendre transform, not
+fixed-I total energy. A crossing in that surface alone does not establish
+a first-order quantum shape transition, wobbling, chirality or an observed
+nuclear minimum. No Nilsson spectrum, Strutinsky smoothing or HFB is solved.
 
-Model Nature & Methodological Boundary:
-This module implements a Phenomenological Parameterized 2D Macroscopic-Microscopic Collective
-Routhian Surface on the Bohr-Mottelson quadrupole deformation plane (beta, gamma) under 1D
-cranking rotation about the intermediate axis.
-It is an illustrative, quantitative phenomenological tool demonstrating the mechanism of
-spin-induced shape transitions and triaxial stabilization, NOT a self-consistent microscopic
-Hartree-Fock-Bogoliubov (HFB) or full Strutinsky calculation based on single-particle orbits.
-
-1. Macroscopic Energy (Liquid Drop / Lublin-Strasbourg Drop):
-   E_macro(beta, gamma) = C_2 * beta^2 + C_3 * beta^3 * cos(3*gamma) + C_4 * beta^4
-   where C_3 * cos(3*gamma) produces the fundamental prolate (gamma=0) versus oblate (gamma=60 deg) asymmetry.
-
-2. Microscopic Shell Correction delta_U(beta, gamma):
-   Nuclear shell gaps modulate the surface.
-   In transitional nuclei, the filling of low-Omega h11/2 proton intruder states favors triaxial
-   deformation (gamma ~ 20 - 30 deg), while high-Omega neutron hole states create a competing
-   oblate minimum (gamma ~ 55 - 60 deg).
-   The shell correction is parameterized via localized Gaussian deformation valleys:
-     delta_U(beta, gamma) = sum_k u_k * exp( - [ (beta - beta_k)^2 / (2 * w_beta^2) + (gamma - gamma_k)^2 / (2 * w_gamma^2) ] )
-
-3. Cranking Rotational Energy & Intermediate-Axis Moment of Inertia:
-   E_rot(beta, gamma, omega) = - 0.5 * J_x(beta, gamma) * omega^2
-   The effective moment of inertia along the cranking axis increases with quadrupole deformation beta
-   and favors intermediate axis rotation (gamma ~ 20 - 30 deg):
-     J_x(beta, gamma) = J_0 * (beta / beta_0)^1.5 * [1.0 - 0.5 * cos(gamma - 4*pi/3)]
-   Because triaxial shapes possess significantly larger moments of inertia J_x than near-spherical
-   or oblate shapes, the rotational energy -0.5 * J_x * omega^2 deepens the triaxial well as spin increases!
-
-Yrast Shape Transition & Shape Crossing:
-At low spin (omega ~ 0), the oblate or spherical shape may be the absolute ground state.
-As omega increases, the rotational energy gain drives an Yrast Shape Transition:
-the triaxial minimum drops below the oblate minimum at a critical crossing frequency omega_cross,
-stabilizing the triaxial shape required for wobbling motion and chiral doublet bands.
-
-Textbook & Literature References:
-- Bohr & Mottelson, "Nuclear Structure", Vol. II, §4-2, §6-4, App. 6B
-- W. Greiner & J. A. Maruhn, "Nuclear Models" (Springer 1996), Ch. 8
-- R. F. Casten, "Nuclear Structure from a Simple Perspective" (Oxford 1990), Ch. 6
-- S. Frauendorf, Rev. Mod. Phys. 73, 463 (2001)
-- Petrache et al., Phys. Rev. C 99, 044303 (2019)
+The valley coordinates, deformation-dependent inertia and isotope-named
+presets are illustrative inputs. Their particular coefficients and nuclear
+assignments have not been derived from Bohr--Mottelson or independently
+validated against experiment. The existing synthetic_model_benchmark labels
+apply to the complete calculation. Legacy field names are retained for callers.
 """
 
 import sys

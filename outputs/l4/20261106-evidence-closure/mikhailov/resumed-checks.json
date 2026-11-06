@@ -1,0 +1,158 @@
+{
+  "status": "completed-frozen-scope",
+  "observed_utc": "2026-11-06T12:38:34.477066+00:00",
+  "changed_files": [
+    "knowledge/methods/bm2-rotational-intrinsic-coupling-and-mikhailov-contract.md",
+    "knowledge/concepts/gamma-vibrational-band-mixing-and-mikhailov-z-gamma-parameter.md",
+    "knowledge/concepts/davydov-rostovsky-triaxial-band-mixing.md",
+    "system/scripts/analysis/gamma_band_mixing_z_gamma_alaga_inverter.py",
+    "system/scripts/analysis/davydov_rostovsky_triaxial_band_mixing_solver.py",
+    "system/tests/test_gamma_band_mixing_z_gamma.py",
+    "system/tests/test_davydov_rostovsky_mixing.py",
+    "outputs/l4/20261106-evidence-closure/mikhailov/resumed-report.md",
+    "outputs/l4/20261106-evidence-closure/mikhailov/resumed-checks.json"
+  ],
+  "skills": [
+    "fast",
+    "debug",
+    "bohr-mottelson-nuclear-structure"
+  ],
+  "mapping": {
+    "gamma_module_legacy_z_gamma": "a2",
+    "rostovsky_legacy_t": "2*a2/(1-2*a2)",
+    "bm_z2": "2*a2/(1-4*a2)",
+    "t_to_bm_z2": "t/(1-t)",
+    "R42": "0.05*(1+14*a2)^2 = 0.05*((1+8*t)/(1+t))^2"
+  },
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest system/tests/test_gamma_band_mixing_z_gamma.py system/tests/test_davydov_rostovsky_mixing.py -v",
+    "exit_code": 0,
+    "tests_run": 10,
+    "failures": 0,
+    "errors": 0,
+    "independent_CG": "J^2 eigenvectors in M=0 product basis at initial spins 2,3,4,7; squared CG checked for every even allowed final spin",
+    "coverage": [
+      "zero-mixing forward limit and inverse ambiguity",
+      "both signs, zero-ratio root merger",
+      "forward/inverse a2,t,z2 mappings",
+      "R=.175 z2 pole and R=2.8 t pole retained as finite a2 solutions",
+      "corrected 4g prediction",
+      "negative/nonfinite input rejection",
+      "strict JSON and text with null coupling",
+      "legacy fixture and scalar API compatibility"
+    ]
+  },
+  "cli_checks": [
+    {
+      "command": [
+        "python3",
+        "system/scripts/analysis/gamma_band_mixing_z_gamma_alaga_inverter.py",
+        "--ratio",
+        "0.7"
+      ],
+      "exit_code": 0,
+      "format": "text",
+      "passed": true
+    },
+    {
+      "command": [
+        "python3",
+        "system/scripts/analysis/gamma_band_mixing_z_gamma_alaga_inverter.py",
+        "--ratio",
+        "0.7",
+        "--json"
+      ],
+      "exit_code": 0,
+      "format": "json",
+      "passed": true
+    },
+    {
+      "command": [
+        "python3",
+        "system/scripts/analysis/davydov_rostovsky_triaxial_band_mixing_solver.py",
+        "--preset",
+        "rigid_rotor_zero_mixing_limit"
+      ],
+      "exit_code": 0,
+      "format": "text",
+      "passed": true
+    },
+    {
+      "command": [
+        "python3",
+        "system/scripts/analysis/davydov_rostovsky_triaxial_band_mixing_solver.py",
+        "--preset",
+        "rigid_rotor_zero_mixing_limit",
+        "--json"
+      ],
+      "exit_code": 0,
+      "format": "json",
+      "passed": true
+    }
+  ],
+  "scoped_git_diff_check": {
+    "exit_code": 0
+  },
+  "frozen_baseline_verification": [
+    {
+      "path": "knowledge/methods/bm2-rotational-intrinsic-coupling-and-mikhailov-contract.md",
+      "freeze_matches_HEAD": true
+    },
+    {
+      "path": "knowledge/concepts/gamma-vibrational-band-mixing-and-mikhailov-z-gamma-parameter.md",
+      "freeze_matches_HEAD": true
+    },
+    {
+      "path": "knowledge/concepts/davydov-rostovsky-triaxial-band-mixing.md",
+      "freeze_matches_HEAD": true
+    },
+    {
+      "path": "system/scripts/analysis/gamma_band_mixing_z_gamma_alaga_inverter.py",
+      "freeze_matches_HEAD": true
+    },
+    {
+      "path": "system/scripts/analysis/davydov_rostovsky_triaxial_band_mixing_solver.py",
+      "freeze_matches_HEAD": true
+    },
+    {
+      "path": "system/tests/test_gamma_band_mixing_z_gamma.py",
+      "freeze_matches_HEAD": true
+    },
+    {
+      "path": "system/tests/test_davydov_rostovsky_mixing.py",
+      "freeze_matches_HEAD": true
+    }
+  ],
+  "freeze_receipt_preserved": {
+    "path": "outputs/l4/20261106-evidence-closure/mikhailov/freeze-receipt.json",
+    "sha256": "0858ebd4f04d6251ea376964b7d0db79a4707595400b7278313d5efbbe5adbae",
+    "bytes_unchanged_during_closeout": true
+  },
+  "final_target_sha256": {
+    "knowledge/methods/bm2-rotational-intrinsic-coupling-and-mikhailov-contract.md": "66e2ec8e2c3cc4cb58167a27a84eb5ffa97c3edf74a33bf64f89831f01d94afd",
+    "knowledge/concepts/gamma-vibrational-band-mixing-and-mikhailov-z-gamma-parameter.md": "bae891c8d3607f6457b624c609f082e95ed9b9016cb1445a56a3a5e0734d466e",
+    "knowledge/concepts/davydov-rostovsky-triaxial-band-mixing.md": "3262e882ae69720a616a97725fead44f8cd177985e4b3d4a3a0d95b97af529d4",
+    "system/scripts/analysis/gamma_band_mixing_z_gamma_alaga_inverter.py": "35e9b9521145d85331d1e92a311f40fa2a967b7c282f4cfce3827394a878c72c",
+    "system/scripts/analysis/davydov_rostovsky_triaxial_band_mixing_solver.py": "9784f312851e43fc41d7a6ac6e853642d8b9b28a68cbf23f983554ec3c903960",
+    "system/tests/test_gamma_band_mixing_z_gamma.py": "be912aa6bce1987518a44156eec16ac1de529012c72e9562147519735fd27a44",
+    "system/tests/test_davydov_rostovsky_mixing.py": "0d50305a6beb6362beb17b0c64841324b7a7d637587c0184e98af6baf3ce47e6"
+  },
+  "evidence_boundary": [
+    "No new external sources or models; corrected local source page sufficient for mapping.",
+    "epsilon2-to-a2 conversion not established; no h2 or shape determination from one strength ratio.",
+    "All real algebraic branches returned; perturbative physical validity still conditional.",
+    "Legacy nucleus presets are unverified fixtures, not experimental benchmarks.",
+    "Shared dispatcher inspected read-only; full dispatcher and whole-library tests not run.",
+    "Other old method claims without a checked basis withdrawn rather than expanded."
+  ],
+  "preserved_scope": [
+    "raw/",
+    "PLAN.md",
+    "knowledge/index.md",
+    "system/handoff.md",
+    "get-paper",
+    "previous partial receipts"
+  ],
+  "commit_push": "not performed; explicitly forbidden",
+  "efficiency_comparison": "not measured; no speedup claimed"
+}
