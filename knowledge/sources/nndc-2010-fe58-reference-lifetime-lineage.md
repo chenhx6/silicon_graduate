@@ -4,7 +4,7 @@ title: "58Fe官方参考谱系：同一Coulomb B、半衰期与静态Q"
 title_original: "58Fe Adopted Levels, Gammas; Coulomb Excitation; 55Mn(alpha,p-gamma), ENSDF201004"
 aliases: [NNDC 2010 Fe58 reference, Fe58 811 reference lineage]
 created: 2026-10-20
-updated: 2026-10-20
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-nuclear-data
@@ -18,16 +18,22 @@ citation_key: "nesaraja_2010_58fe-adopted-levels"
 canonical_source: "NNDC ENSDF201004 Fe58 exact datasets58026001/58026019/58026007"
 source_url: https://www.nndc.bnl.gov/ensdf/
 data_version: ENSDF201004-cut12Jan2010-Adopted-JPIerrata12Nov2013
-raw_file: raw/nuclear-data/day18-20261020/58Fe-Adopted-201004.ens
+raw_file: "raw/nuclear-data/day18-20261020/58Fe-Adopted-201004.ens"
 raw_sha256: c322943905a154f113f18a5b1929e2345274298052590512e9e72ad3fde77a5f
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: [58Fe, 56Fe]
 reactions: [Coulomb-excitation, 55Mn(alpha,p-gamma)58Fe]
 methods: [ENSDF-fixed-fields, source-lineage, mean-half-life-conversion]
 tags: [58Fe, Coulomb-excitation, DSAM, reference, covariance]
+archive_required: true
 ---
 
 # 811参考态：两种写法可以是同一个实验输入
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/nuclear-data/day18-20261020/58Fe-Adopted-201004.ens`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

@@ -4,7 +4,7 @@ title: "ROOT5.22实际代码：平滑、背景返回对象与误差缓冲"
 title_original: "ROOT v5-22-00 TH1 and TSpectrum source methods"
 aliases: [ROOT522 background errors, R522 histogram covariance contract]
 created: 2026-10-20
-updated: 2026-10-20
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: public-software-repository
@@ -14,15 +14,21 @@ year: 2008
 citation_key: "root_2008_23al-root-tspectrum"
 canonical_source: "root-project/root tagv5-22-00 commita365d2fa4cdc4fea91420c400280dc9fc7c64214"
 source_url: https://github.com/root-project/root/tree/a365d2fa4cdc4fea91420c400280dc9fc7c64214
-raw_file: raw/code/day17-20261020/ROOT-v522-TH1.cxx
+raw_file: "raw/code/day17-20261020/ROOT-v522-TH1.cxx"
 raw_sha256: 9625d86fbafe47fd5da0381a82b0774a3f158fd78c60575f229f0f97300cd113
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: [23Al, 23Mg]
 methods: [histogram-analysis, background-subtraction, covariance, component-audit]
 tags: [ROOT, software-provenance, smoothing, calibration, count-statistics]
+archive_required: true
 ---
 
 # 自动处理对角误差不等于传播完整分析协方差
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/code/day17-20261020/ROOT-v522-TH1.cxx`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

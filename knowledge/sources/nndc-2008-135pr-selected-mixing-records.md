@@ -3,7 +3,7 @@ type: source
 title: "135Pr官方记录：旧评价、不同POL语义与2026混合比分支"
 aliases: [NNDC135Pr selected MR POL records, Pr135 XUNDL version audit]
 created: 2026-10-19
-updated: 2026-10-19
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-and-unevaluated-nuclear-data-objects
@@ -21,15 +21,21 @@ canonical_source: "NNDC135059001/009/012/013; actual2026-10-19 access"
 source_url: "https://www.nndc.bnl.gov/ensdf/"
 raw_file: "raw/data/gpt/day16-20261018/pr135-adopted-b7f044ae3ac8.ens"
 raw_sha256: "b7f044ae3ac8eb6f2b420a539f039a92ebe2ed6c28f5470af4ad5d2f1995e698"
-raw_storage_status: official-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: [135Pr]
 reactions: []
 observables: [multipole-mixing-ratio, polarization, DCO, transition-identity]
 methods: [ENSDF-fixed-column, provenance-and-version, observable-semantics]
 tags: [XUNDL, shared-dataset, MR-uncertainty, calibration]
+archive_required: true
 ---
 
 # 先确认记录版本，再比较同名POL和MR
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/data/gpt/day16-20261018/pr135-adopted-b7f044ae3ac8.ens`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

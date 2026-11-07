@@ -3,7 +3,7 @@ type: source
 title: "UCGretina公开发射内核：统计张量、Stokes与禁戒系数边界"
 aliases: [UCGretina polarized emission core, UCGretina zero CG Stokes audit]
 created: 2026-10-19
-updated: 2026-10-19
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: software-code
@@ -18,7 +18,7 @@ canonical_source: "rileyle/UCGretina selected pinned files and officialGeant4 se
 source_url: "https://github.com/rileyle/UCGretina"
 raw_file: "raw/data/gpt/day16-20261018/ucgretina-ITDecay-6f89e531060c.cc"
 raw_sha256: "6f89e531060cdcf1420f160f2ff4626afa4c21112426db29d0e83fdebf3218c9"
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: [24Mg, 25Na]
 reactions: []
 experiments: []
@@ -26,9 +26,15 @@ models: [Geant4, statistical-tensor, photon-Stokes]
 methods: [fixed-code-execution, phase-convention, photon-density-matrix]
 observables: [angular-distribution-coefficient, gamma-ray-linear-polarization]
 tags: [software-validation, pure-limit, polarization, response-readiness]
+archive_required: true
 ---
 
 # UCGretina：发射代数、软件实现与阵列响应分开
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/data/gpt/day16-20261018/ucgretina-ITDecay-6f89e531060c.cc`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

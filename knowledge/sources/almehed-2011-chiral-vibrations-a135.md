@@ -3,7 +3,7 @@ type: source
 title: "Almehed2011：TAC+RPA手征振动的近谐适用域"
 aliases: [Almehed 2011 chiral vibrations, A135 TAC RPA]
 created: 2026-10-23
-updated: 2026-10-26
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: theoretical-paper
@@ -19,17 +19,23 @@ arxiv: 0709.0969v2
 language: en
 canonical_source: https://doi.org/10.1103/PhysRevC.83.054308
 citation_key: "almehed_2011_135nd-chiral-vibrations"
-raw_file: raw/papers/2011_Almehed_ChiralVibrations_A135_arxiv07090969v2.pdf
+raw_file: "raw/papers/2011_Almehed_ChiralVibrations_A135_arxiv07090969v2.pdf"
 raw_sha256: becba964421bb8860fa657865071df117622a492a2bbb2b23d661d235296f29b
-raw_storage_status: public-staging-not-archived
+raw_storage_status: "archived-local"
 nuclei: [135Nd, 134Pr]
 models: [tilted-axis-cranking, random-phase-approximation]
 observables: [transition-probability, band-energy-splitting]
 methods: [small-amplitude-expansion, quadrupole-tensor]
 tags: [chirality, RPA, model-validity, source-lineage]
+archive_required: true
 ---
 
 # 近谐手征振动：模型的软化点不是实测相界
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/2011_Almehed_ChiralVibrations_A135_arxiv07090969v2.pdf`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

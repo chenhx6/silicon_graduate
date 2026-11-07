@@ -3,7 +3,7 @@ type: source
 title: "Chen2013：一维手征集体Hamiltonian的量子化与边界"
 aliases: [Chen2013 collective chiral modes, Collective Hamiltonian for chiral modes]
 created: 2026-10-26
-updated: 2026-10-26
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: theoretical-paper
@@ -15,18 +15,24 @@ doi: 10.1103/PhysRevC.87.024314
 arxiv: 1212.2313v2
 canonical_source: https://arxiv.org/abs/1212.2313
 citation_key: "chen_2013_collective-hamiltonian-chiral"
-raw_file: raw/papers/2013_Chen_CollectiveHamiltonianChiralModes_arxiv12122313v2.pdf
+raw_file: "raw/papers/2013_Chen_CollectiveHamiltonianChiralModes_arxiv12122313v2.pdf"
 raw_sha256: bef6182263a6282ea6c4fc3e2fbae481bbf629e484dbf9668e3ea9e622342a2c
-raw_storage_status: public-staging-not-archived
+raw_storage_status: "archived-local"
 actual_body_file: tmp/day24-collective-chiral-008/chen2013-collective-chiral-arxiv.pdf
 nuclei: []
 models: [one-dimensional-chiral-collective-hamiltonian, tilted-axis-cranking, particle-rotor-model]
 observables: [energy-splitting, orientation-wavefunction]
 methods: [collective-quantization, cranking-mass]
 tags: [chirality, finite-tunnelling, model-validity, collective-measure]
+archive_required: true
 ---
 
 # 一维集体量子化补上有限隧穿，也保留其冻结自由度
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/2013_Chen_CollectiveHamiltonianChiralModes_arxiv12122313v2.pdf`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

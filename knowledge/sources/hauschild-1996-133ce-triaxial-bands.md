@@ -3,7 +3,7 @@ type: source
 title: "Hauschild1996：133Ce三轴带、组态候选与缺失link"
 aliases: [Hauschild 1996 133Ce triaxial bands, 133Ce PRC54 613]
 created: 2026-10-27
-updated: 2026-10-27
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: experimental-paper-with-model-comparison
@@ -17,9 +17,9 @@ pages: 613–619
 doi: 10.1103/PhysRevC.54.613
 canonical_source: https://doi.org/10.1103/PhysRevC.54.613
 citation_key: "hauschild_1996_133ce-triaxial-bands"
-raw_file: raw/papers/1996_Hauschild_133Ce_triaxial_bands.pdf
+raw_file: "raw/papers/1996_Hauschild_133Ce_triaxial_bands.pdf"
 raw_sha256: 560215bbff5898a3e304f4219f35f628b3a4bd03c87ed1745dc25ae147162872
-raw_storage_status: public-staging-not-archived
+raw_storage_status: "archived-local"
 actual_body_file: tmp/day24-ce133-independent-primary-079/1996Ha20-aps.pdf
 nuclei: [133Ce]
 reactions: [116Cd-22Ne-5n-133Ce]
@@ -28,9 +28,15 @@ models: [triaxial-rotor, cranked-shell, signature-partner]
 methods: [gamma-gamma-coincidence, DCO, alignment, dynamic-moment]
 observables: [band-energy, alignment, J2, relative-intensity]
 tags: [133Ce-analysis-blueprint, high-spin-configuration, missing-link]
+archive_required: true
 ---
 
 # 三轴带和组态候选清楚，缺失link也清楚
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/1996_Hauschild_133Ce_triaxial_bands.pdf`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

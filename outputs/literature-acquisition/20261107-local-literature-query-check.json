@@ -1,0 +1,48 @@
+{
+  "qi2009": {
+    "status": "found-usable",
+    "elapsed_seconds": 0.836,
+    "results": [
+      {
+        "id": "LIT-000638",
+        "title": "Chirality in odd-A nucleus 135Nd in particle rotor model",
+        "preferred_artifact": "raw/papers/gpt/learning-daily/20260912-PREPLAN-135nd-crosswalk/qi-2009-135nd-prm-arxiv.pdf",
+        "actual_edition": "preprint",
+        "match_basis": "registered-identifier"
+      }
+    ]
+  },
+  "pdm": {
+    "status": "found-usable",
+    "elapsed_seconds": 1.212,
+    "results": [
+      {
+        "id": "LIT-000356",
+        "title": "A probability-density mapping method for extracting $\\gamma$-ray mixing ratios without preset spin alignment",
+        "preferred_artifact": "raw/writing/pado/20260929_submitted_v1/nst_sample.pdf",
+        "actual_edition": "manuscript",
+        "match_basis": "metadata-or-indexed-text"
+      }
+    ]
+  },
+  "chinese": {
+    "status": "found-usable",
+    "elapsed_seconds": 1.433,
+    "results": [
+      {
+        "id": "LIT-000080",
+        "title": "ecnu-qb-chen-publications",
+        "preferred_artifact": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/ecnu-qb-chen-publications.html",
+        "actual_edition": "unknown",
+        "match_basis": "metadata-or-indexed-text"
+      },
+      {
+        "id": "LIT-000551",
+        "title": "原子核是否存在手性",
+        "preferred_artifact": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2009_孟_原子核是否存在手性.pdf",
+        "actual_edition": "unknown",
+        "match_basis": "metadata-or-indexed-text"
+      }
+    ]
+  }
+}

@@ -3,7 +3,7 @@ type: source
 title: "99Rh官方记录：1117同母态支路与取向参考的边界"
 aliases: [NNDC99Rh sameparent reference audit, Rh99 2017 ENSDF selected records]
 created: 2026-10-19
-updated: 2026-10-19
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-nuclear-data-objects
@@ -21,15 +21,21 @@ canonical_source: "NNDC99045001/99045019, accessed2026-10-19"
 source_url: "https://www.nndc.bnl.gov/ensdf/"
 raw_file: "raw/data/gpt/day16-20261018/rh99-hi2017-2cb933aafd59.ens"
 raw_sha256: "2cb933aafd59b7df0eefdd6c78798d4543726c819b39c1a256c8d7ed672b914a"
-raw_storage_status: official-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: [99Rh]
 reactions: []
 observables: [multipole-mixing-ratio, DCO, polarization, angular-distribution]
 methods: [ENSDF-fixed-column, reference-matching, source-independence]
 tags: [a100, high-spin, alignment, conditional-design, provenance]
+archive_required: true
 ---
 
 # 同母态不自动等于已知取向参考
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/data/gpt/day16-20261018/rh99-hi2017-2cb933aafd59.ens`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

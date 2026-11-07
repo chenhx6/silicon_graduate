@@ -3,7 +3,7 @@ type: source
 title: "Gizon1974：缺中子Ce/Nd的原始谱、角分布与历史零点"
 aliases: [Gizon1974 Ce Nd deformed states, Gizon1974 133Ce 135Nd]
 created: 2026-10-27
-updated: 2026-10-27
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: experimental-paper-with-model-interpretation
@@ -18,9 +18,9 @@ pages: 557–578
 doi: 10.1016/0375-9474(74)90339-X
 canonical_source: https://doi.org/10.1016/0375-9474(74)90339-X
 citation_key: "gizon_1974_133ce-deformed-neutron"
-raw_file: raw/papers/1974_Gizon_DeformedStates_CeNd.pdf
+raw_file: "raw/papers/1974_Gizon_DeformedStates_CeNd.pdf"
 raw_sha256: 9d09f0fca35c125cb35241bbd2f231a65ec710702889c8b0262a529af7f56dac
-raw_storage_status: public-staging-not-archived
+raw_storage_status: "archived-local"
 actual_body_file: tmp/day24-gizon1974-unique-parity-entry-064/attachment-object-response.pdf
 nuclei: [133Ce, 135Ce, 135Nd, 137Nd]
 reactions: [120Sn-16O-3n-133Ce, 122Sn-16O-3n-135Ce, 122Te-16O-3n-135Nd, 124Te-16O-3n-137Nd, 124Sn-16O-5n-135Ce]
@@ -28,9 +28,15 @@ models: [particle-plus-rotor, axial-prolate-core, partial-alignment]
 methods: [in-beam-gamma-spectroscopy, delayed-gamma-spectroscopy, excitation-function, gamma-gamma-coincidence, angular-distribution]
 observables: [level-energy, spin-parity, relative-gamma-intensity, mixing-ratio, half-life]
 tags: [133Ce-analysis-blueprint, historical-energy-reference, observed-transition-ledger, response-boundary]
+archive_required: true
 ---
 
 # 原实验有实际边和时间信息，也有明确的未定身份
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/1974_Gizon_DeformedStates_CeNd.pdf`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

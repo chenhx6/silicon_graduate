@@ -3,7 +3,7 @@ type: source
 title: "NNDC 2015 128I选定记录：低位锚点、102-keV位置与来源边界"
 aliases: [NNDC 128I 2015 selected ENSDF, Elekes Timar A128 lowlevel records]
 created: 2026-10-16
-updated: 2026-10-16
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-nuclear-data-tables
@@ -19,16 +19,22 @@ canonical_source: "NNDC-ENSDF:128I:201510:128053001,128053024,128053003"
 citation_key: "elekes_2015_128i-adopted-levels"
 raw_file: "raw/papers/gpt/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam/nndc-128i-adopted-2015.ens"
 raw_sha256: "27afae52bb7be1c4aa50e332e60abfe30a3d615d7e1586cd1b8b98bc65e5527e"
-raw_storage_status: reserved-unpopulated-public-objects-verified-in-wiki-tmp
+raw_storage_status: "archived-local"
 data_version: "201510; CUT28-Feb-2015; objects128053001/128053024/128053003; retrieved2026-10-16"
 nuclei: [128I]
 reactions: ["124Sn(7Li,3n)128I", "127I(n,gamma)128I"]
 methods: [level-scheme-reconstruction, internal-conversion-analysis, evaluated-data-crosswalk]
 observables: [level-energy, gamma-energy, spin-parity, half-life, relative-intensity, conversion-coefficient]
 tags: [ensdf, source-version, transition-identity, iodine, data-lineage]
+archive_required: true
 ---
 
 # 128I选定评价对象与primary的拓扑边界
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/gpt/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam/nndc-128i-adopted-2015.ens`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

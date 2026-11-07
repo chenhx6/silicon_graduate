@@ -3,7 +3,7 @@ type: source
 title: "Joss1998：133Ce高自旋三轴带寿命与Qt"
 aliases: [Joss 1998 133Ce triaxial band, 133Ce high-spin DSAM]
 created: 2026-10-27
-updated: 2026-10-27
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: experimental-lifetime-paper
@@ -18,9 +18,9 @@ pages: 3219–3222
 doi: 10.1103/PhysRevC.58.3219
 canonical_source: https://doi.org/10.1103/PhysRevC.58.3219
 citation_key: "joss_1998_133ce-lifetime-triaxial"
-raw_file: raw/papers/1998_Joss_133Ce_Triaxial_Band_Lifetimes.pdf
+raw_file: "raw/papers/1998_Joss_133Ce_Triaxial_Band_Lifetimes.pdf"
 raw_sha256: 81b6ace5d9ee867220c5425e7f3d9ae4f5074d9484f7063fd04fd137b0deea0a
-raw_storage_status: public-staging-not-archived
+raw_storage_status: "archived-local"
 actual_body_file: tmp/day24-joss1998-133ce-triaxial-lifetime-078/publisher-pdf.pdf
 nuclei: [133Ce, 132Ce, 131Ce]
 reactions: [100Mo-36S-xn-133Ce]
@@ -29,9 +29,15 @@ models: [triaxial-rotor-plus-quasiparticle, total-routhian-surface, IBFM]
 methods: [DSAM, doppler-broadened-line-shape, Monte-Carlo-stopping]
 observables: [mean-lifetime, Qt, T(E2), level-scheme]
 tags: [133Ce-analysis-blueprint, high-spin-lifetime, triaxial-model, sidefeeding]
+archive_required: true
 ---
 
 # 高自旋带的寿命和Qt提供独立时钟，也保留阻停与组态边界
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/1998_Joss_133Ce_Triaxial_Band_Lifetimes.pdf`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

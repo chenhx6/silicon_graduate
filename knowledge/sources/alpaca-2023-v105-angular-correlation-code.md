@@ -3,7 +3,7 @@ type: source
 title: "ALPACA 2023 v1.0.5固定代码：相位角色与观测对象执行核验"
 aliases: [ALPACA fixed code object, ALPACA 1.0.5 phase-role benchmark]
 created: 2026-10-18
-updated: 2026-10-18
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: software
@@ -20,7 +20,7 @@ canonical_source: "github:u-eff-gee/alpaca@f173c2d2e2fd855451e06446a2cfcce679c42
 source_url: "https://github.com/u-eff-gee/alpaca/tree/f173c2d2e2fd855451e06446a2cfcce679c42d24"
 raw_file: "raw/software-reference/day16-20261018/alpaca-f173c2d2-81e377a81eaa.tar.gz"
 raw_sha256: "81e377a81eaa9a289b2ee6e3b8879d30ad82faf490e40677923521f7c9824daf"
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: [110Cd]
 reactions: []
 experiments: []
@@ -28,9 +28,15 @@ models: [Biedenharn-angular-correlation, photon-amplitude-trace]
 methods: [angular-correlation, polarization-direction-correlation, phase-convention, code-crosscheck]
 observables: [angular-correlation-coefficient, directional-probability-density]
 tags: [software-reference, phase-convention, independent-implementation, not-independent-experiment]
+archive_required: true
 ---
 
 # ALPACA固定公开代码对象：先辨认算的是什么
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/software-reference/day16-20261018/alpaca-f173c2d2-81e377a81eaa.tar.gz`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

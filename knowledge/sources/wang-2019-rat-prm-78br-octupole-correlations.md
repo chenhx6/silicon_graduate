@@ -3,7 +3,7 @@ type: source
 title: "Wang2019 RAT-PRM：78Br八极软性输入、反射不对称模型与手征解释范围"
 aliases: [Wang2019 RAT-PRM 78Br, arxiv1902.00191]
 created: 2026-10-30
-updated: 2026-10-30
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: preprint-theory
@@ -21,7 +21,7 @@ canonical_source: "https://arxiv.org/abs/1902.00191"
 source_url: "https://arxiv.org/pdf/1902.00191v1"
 raw_file: "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/wang-2019-rat-prm-78br-arxiv1902.00191v1.pdf"
 raw_sha256: "cefe9aeb1fcf8be56c6808825faf95f486246254c231893320ee62f9a9907aae"
-raw_storage_status: reserved-unpopulated-preprint-staging-only
+raw_storage_status: "archived-local"
 public_staging_manifest: "outputs/literature-acquisition/20261030-day27-wang2019-rat78br.json"
 analysis_status: versioned-arxiv-read-with-independent-worker-audit
 nuclei: [78Br]
@@ -31,9 +31,15 @@ models: [reflection-asymmetric-triaxial-particle-rotor-model, covariant-density-
 observables: [energy-spectrum, bm1-be2-ratio, be1-be2-ratio, effective-angle]
 methods: [parity-projection, particle-rotor-diagonalization]
 tags: [chirality, octupole-correlations, RAT-PRM, source-boundary, Day27]
+archive_required: true
 ---
 
 # 78Br反射不对称粒子—转子模型的实际输入与结论
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/wang-2019-rat-prm-78br-arxiv1902.00191v1.pdf`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

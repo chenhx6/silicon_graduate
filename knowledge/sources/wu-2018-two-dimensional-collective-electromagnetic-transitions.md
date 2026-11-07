@@ -3,7 +3,7 @@ type: source
 title: "Wu2018：手征集体模型的带内EM是局部率平均"
 aliases: [2DCH PartII electromagnetic transitions, Wu2018 collective EM]
 created: 2026-10-26
-updated: 2026-10-26
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: theoretical-paper
@@ -15,18 +15,24 @@ doi: 10.1103/PhysRevC.98.064302
 arxiv: 1809.04418v2
 canonical_source: https://arxiv.org/abs/1809.04418
 citation_key: "wu_2018_two-dimensional-collective"
-raw_file: raw/papers/2018_Wu_TwoDimensionalCollectiveEM_arxiv180904418v2.pdf
+raw_file: "raw/papers/2018_Wu_TwoDimensionalCollectiveEM_arxiv180904418v2.pdf"
 raw_sha256: 7d7c12ebc754f23721bd5367acc050c54dd3cf0f03f2f7480de407c1f3493dcb
-raw_storage_status: public-staging-not-archived
+raw_storage_status: "archived-local"
 actual_body_file: tmp/day24-chiral-em-014/wu2018.response
 nuclei: []
 models: [two-dimensional-collective-hamiltonian, tilted-axis-cranking, particle-rotor-model]
 observables: [intraband-bm1, intraband-be2, effective-orientation-angles]
 methods: [probability-averaged-local-transition-rates]
 tags: [chirality, wobbling, electromagnetic-transitions, model-validity]
+archive_required: true
 ---
 
 # 集体取向涨落修正带内率，未给完整相干跨带振幅
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/2018_Wu_TwoDimensionalCollectiveEM_arxiv180904418v2.pdf`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

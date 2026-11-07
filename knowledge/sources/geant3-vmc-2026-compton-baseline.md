@@ -3,7 +3,7 @@ type: source
 title: "Geant3+VMC固定版本：无偏振Compton核与GR97重放边界"
 aliases: [G3COMP pinned baseline, Geant3 VMC Compton component audit]
 created: 2026-10-19
-updated: 2026-10-19
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: software-source-code
@@ -17,15 +17,21 @@ canonical_source: "vmc-project/geant3@347fc6804dd116c66c2695df5d2c03d166a0364c"
 source_url: "https://github.com/vmc-project/geant3/tree/347fc6804dd116c66c2695df5d2c03d166a0364c"
 raw_file: "raw/data/gpt/day16-20261018/geant3-347fc6804d-gcomp.F"
 raw_sha256: "a97226dc5ae5846cb038e9d2ca38f3591e183a652ff990dceec009a838042020"
-raw_storage_status: public-staging-verified-vendor-not-redistributed
+raw_storage_status: "archived-local"
 nuclei: []
 reactions: []
 observables: [Compton-energy-distribution, transport-cuts, polarization-interface]
 methods: [source-audit, Monte-Carlo-component-benchmark]
 tags: [software-provenance, Geant3, unpolarized-baseline, response-readiness]
+archive_required: true
 ---
 
 # 代码字段、物理调用路径和历史producer分别核验
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/data/gpt/day16-20261018/geant3-347fc6804d-gcomp.F`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

@@ -3,7 +3,7 @@ type: source
 title: "Tonev2006：134Pr跃迁几率与手征检验原实验"
 aliases: [Tonev 2006 134Pr transition probabilities, 134Pr PRL 96 052501]
 created: 2026-10-27
-updated: 2026-10-27
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: experimental-lifetime-paper
@@ -18,9 +18,9 @@ pages: "052501"
 doi: 10.1103/PhysRevLett.96.052501
 canonical_source: https://doi.org/10.1103/PhysRevLett.96.052501
 citation_key: "tonev_2006_134pr-transition-probabilities"
-raw_file: raw/papers/2006_Tonev_134Pr_Transition_Probabilities.pdf
+raw_file: "raw/papers/2006_Tonev_134Pr_Transition_Probabilities.pdf"
 raw_sha256: eac94a5ff8402144aa66b003fbafada85e180126941063eb5bfc62be5b20d134
-raw_storage_status: public-staging-not-archived
+raw_storage_status: "archived-local"
 actual_body_file: tmp/day24-tonev134pr-primary-090/body.pdf
 nuclei: [134Pr]
 reactions: [119Sn-19F-4n-134Pr]
@@ -29,9 +29,15 @@ models: [tqptr, ibffm, dynamic-chirality]
 methods: [recoil-distance, dsam, differential-decay-curve, compton-polarimetry]
 observables: [mean-lifetime, B(E2), B(M1), level-scheme]
 tags: [134Pr-chirality, dynamic-chirality, lifetime-measurement, companion-matrix]
+archive_required: true
 ---
 
 # 134Pr所研究双带的静态极限受到限制，动态解释仍保持条件性
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/2006_Tonev_134Pr_Transition_Probabilities.pdf`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

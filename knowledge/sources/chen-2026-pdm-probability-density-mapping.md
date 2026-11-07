@@ -3,27 +3,40 @@ type: source
 title: "Chen et al. 2026 manuscript - A probability-density mapping method for extracting gamma-ray mixing ratios without preset spin alignment"
 aliases: [Chen 2026 PDM, P-ADO manuscript, probability-density mapping mixing ratios]
 created: 2026-10-28
-updated: 2026-10-28
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: manuscript-method
-reading_depth: deep-read
-title_original: "A probability-density mapping method for extracting $\gamma$-ray mixing ratios without preset spin alignment"
+reading_depth: "skimmed"
+title_original: 'A probability-density mapping method for extracting $\gamma$-ray mixing ratios without preset spin alignment'
 authors: [Hong-Xing Chen, Yun-Hua Qiang, Song Guo, Xiao-Hong Zhou]
 year: 2026
-raw_file: "raw/writing/pado/20260722.pdf"
-raw_sha256: "f19b52b872432f6d615dae9350eef42d12cff27cfb621a041f09720699f74421"
-page_count: 15
-canonical_source: "raw/writing/pado/20260722.pdf"
+raw_file: "raw/writing/pado/20260929_submitted_v1/nst_sample.pdf"
+raw_sha256: "80250e2f0ca59a72e119a3fb743411b4da1716188e95d8ec5f9bb205900c3d17"
+page_count: 11
+canonical_source: "raw/writing/pado/20260929_submitted_v1/nst_sample.pdf"
 citation_key: "Chen_PDM_2026_manuscript"
 code_dir: "raw/writing/pado/Upload/p_ado"
 nuclei: [61Ni, 135Pr, 187Au]
 observables: [R_ADO, linear-polarization, mixing-ratio, spin-alignment]
 methods: [probability-density-mapping, Jacobian-transform, marginalization]
 tags: [PDM, P-ADO, mixing-ratio, alignment, angular-distribution, polarization]
+raw_storage_status: "archived-local"
+archive_required: true
 ---
 
 # A probability-density mapping method for extracting gamma-ray mixing ratios without preset spin alignment
+
+
+## Work identity and version reconciliation — 2026-11-07
+
+The user-designated current local original is `raw/writing/pado/20260929_submitted_v1/nst_sample.pdf` (11 physical pages; SHA-256 `80250e2f0ca59a72e119a3fb743411b4da1716188e95d8ec5f9bb205900c3d17`). PDF p.1 has the same title and four authors as this source. Its PDM response mapping, Jacobian transformation (PDF p.5, Eq.11), alignment marginalization (PDF p.6, Eq.12), and eight-transition benchmark table (PDF p.7, Table1) establish the same work identity. This is a distinct revision, not a byte-identical replacement of the historical 15-page file.
+
+The earlier original `raw/writing/pado/20260722.pdf`, SHA-256 `f19b52b872432f6d615dae9350eef42d12cff27cfb621a041f09720699f74421`, remains unlocated in the bounded audit. Preserve that historical identity and all old-version reading records below. Historical PDF page/figure/equation locators and discrepancies are not automatically transferred to the current 11-page revision. The frontmatter now points to the existing current original so that local discovery and reading are no longer blocked by the historical missing path.
+
+Current-revision covered scope: identity/abstract on PDF p.1; mapping and marginalization on PDF pp.5–6; Table1 on PDF p.7; references on PDF pp.10–11. This was a bounded version-identification check, not a fresh full-method or benchmark audit; `reading_depth: skimmed` applies to this current original. Earlier `deep-read` scope below belongs to the historical material described there. Directory dates do not establish the submission date or immutable PDF build date.
+
+The sections below are retained historical research records, including earlier code/version comparisons. When reusing a claim, verify the corresponding current-revision passage rather than silently adopting an old page number. The manuscript remains user-provided, unpublished material; no original PDF is published by this source reconciliation.
 
 ## Bibliographic Record
 

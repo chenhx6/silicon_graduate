@@ -3,7 +3,7 @@ type: source
 title: "UCGretina公开Eu152校准：实际能谱、背景归一与sorting选择"
 aliases: [UCGretina Eu152 source data, NSCL 2012 seven quad calibration]
 created: 2026-10-19
-updated: 2026-10-19
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: public-data-and-software-objects
@@ -20,7 +20,7 @@ canonical_source: "pinnedUCGretina Eu152 run007/run020 ROOT, README/Fit and sort
 source_url: "https://github.com/rileyle/UCGretina/tree/1271388e03ec9b3f8e055a988aeb4c2e4d2efedf/examples/sources/eu152"
 raw_file: "raw/data/gpt/day16-20261018/ucgretina-eu152-run020-58bc3420b3a2.root"
 raw_sha256: "58bc3420b3a2af9892bf722411679eefdfb56ddbd554cc8aec59391465504379"
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: [152Eu]
 reactions: []
 experiments: [NSCL-GRETINA-2012-seven-quads-source-calibration]
@@ -28,9 +28,15 @@ models: [Poisson-counting, background-template, Geant4]
 methods: [source-normalization, ROOT-histogram-audit, covariance-propagation, code-contract]
 observables: [gamma-energy-spectrum, source-background-normalization, detector-angle-histogram]
 tags: [public-data, calibration-identity, sorting, response-readiness, not-polarization-calibration]
+archive_required: true
 ---
 
 # Eu152公开能谱：实际数据能支持哪一层校准
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/data/gpt/day16-20261018/ucgretina-eu152-run020-58bc3420b3a2.root`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

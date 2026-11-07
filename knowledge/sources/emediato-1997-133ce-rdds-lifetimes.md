@@ -3,7 +3,7 @@ type: source
 title: "Emediato1997：133Ce RDDS寿命、B值与三准粒子带"
 aliases: [Emediato 1997 133Ce lifetimes, 133Ce RDDS 1997]
 created: 2026-10-27
-updated: 2026-10-27
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: experimental-lifetime-paper
@@ -18,9 +18,9 @@ pages: 2105–2108
 doi: 10.1103/PhysRevC.55.2105
 canonical_source: https://doi.org/10.1103/PhysRevC.55.2105
 citation_key: "emediato_1997_133ce-lifetime"
-raw_file: raw/papers/1997_Emediato_133Ce_Lifetime_Measurements.pdf
+raw_file: "raw/papers/1997_Emediato_133Ce_Lifetime_Measurements.pdf"
 raw_sha256: 39f6d6a7bb4e2da109504aaab2c22c52fa8b1465b860c1dfd58937bc404869df
-raw_storage_status: public-staging-not-archived
+raw_storage_status: "archived-local"
 actual_body_file: tmp/day24-emediato1997-ce133-rdds-072/publisher-direct-pdf.pdf
 nuclei: [133Ce]
 reactions: [120Sn-16O-3n-133Ce]
@@ -29,9 +29,15 @@ models: [particle-plus-triaxial-rotor, Donau-Frauendorf-geometry, IBFM]
 methods: [recoil-distance, simultaneous-shifted-unshifted-fit, lifetime-to-transition-probability]
 observables: [mean-lifetime, B(M1), B(E2), B(E1), level-scheme]
 tags: [133Ce-analysis-blueprint, lifetime-network, rd-ds, three-quasiparticle]
+archive_required: true
 ---
 
 # 133Ce寿命网络中的时钟、跃迁和模型边界
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/1997_Emediato_133Ce_Lifetime_Measurements.pdf`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

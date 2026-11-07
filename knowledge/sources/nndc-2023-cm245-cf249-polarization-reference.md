@@ -4,7 +4,7 @@ title: "245Cm/249Cf偏振参考：当前评价、历史MR与异常转换系数"
 title_original: "245Cm Adopted Levels, Gammas and 249Cf Alpha Decay; ENSDF202305"
 aliases: [NNDC Cm245 Cf249 polarization reference, SeGA333388 reference]
 created: 2026-10-20
-updated: 2026-10-20
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-selected-data-records
@@ -21,7 +21,7 @@ canonical_source: "NNDC245096001/245096004; Nesaraja NDS189,1(2023)"
 source_url: "https://www.nndc.bnl.gov/ensdf/"
 raw_file: "raw/data/gpt/day17-20261019/cm245-adopted-c7f95f70b908.ens"
 raw_sha256: "c7f95f70b9089969c23212c06c51c9e1b85f2713a749bf92e92c12914904d0da"
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: [245Cm, 249Cf]
 reactions: []
 experiments: [SeGA-alpha-gamma-calibration]
@@ -29,9 +29,15 @@ models: [BrIcc]
 observables: [gamma-energy, relative-photon-intensity, internal-conversion-coefficient, multipole-mixing-ratio]
 methods: [ENSDF-fixed-column, reference-identity, calibration-readiness]
 tags: [polarimetry, calibration-reference, actinide, anomalous-conversion, source-independence]
+archive_required: true
 ---
 
 # SeGA333/388参考的评价证据与实际校准边界
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/data/gpt/day17-20261019/cm245-adopted-c7f95f70b908.ens`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

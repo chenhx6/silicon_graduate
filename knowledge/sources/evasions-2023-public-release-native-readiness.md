@@ -4,7 +4,7 @@ title: "EVASIONS2023公开release：真实衍生事件与原版native边界"
 title_original: "CFougeres/EVASIONScode v1.0.0, Zenodo8044973"
 aliases: [EVASIONS2023 release readiness, EV23 native contract]
 created: 2026-10-20
-updated: 2026-10-20
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: public-software-and-data-release
@@ -15,15 +15,21 @@ citation_key: "fougeres_2023_23mg-cfougeresevasionscode-zenodo"
 doi: 10.5281/zenodo.8044973
 canonical_source: "EVASIONSv1.0.0 c6a4ff3756724d6becd17414851bc8140d00a311 Zenodo8044973"
 source_url: https://doi.org/10.5281/zenodo.8044973
-raw_file: raw/code/day17-20261020/EVASIONScode-v1.0.0.zip
+raw_file: "raw/code/day17-20261020/EVASIONScode-v1.0.0.zip"
 raw_sha256: 4aae83027ed68704088d9c5b90f6dff88e06ce061943ad3aae8dcaa3f1dd8503
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: [23Mg, 24Mg, 22Na]
 methods: [public-data-query, Monte-Carlo-response, software-contract, lifetime]
 tags: [DSAM, EVASIONS, reproducibility, covariance, readiness]
+archive_required: true
 ---
 
 # 公开事件已取得，原版发布程序尚不能代替论文fit
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/code/day17-20261020/EVASIONScode-v1.0.0.zip`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

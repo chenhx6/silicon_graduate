@@ -3,7 +3,7 @@ type: source
 title: "Leander–Larsson1975：静态PES、历史坐标与四极矩归一"
 aliases: [Leander Larsson1975 N=Z potential energy surfaces, LL75]
 created: 2026-10-27
-updated: 2026-10-27
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: theory-method-and-applications
@@ -17,17 +17,23 @@ pages: 93–113
 doi: 10.1016/0375-9474(75)91136-7
 canonical_source: https://doi.org/10.1016/0375-9474(75)91136-7
 citation_key: "leander_1975_12c-potential-energy"
-raw_file: raw/papers/1975_Leander_Larsson_PotentialEnergySurfaces_NequalsZ.pdf
+raw_file: "raw/papers/1975_Leander_Larsson_PotentialEnergySurfaces_NequalsZ.pdf"
 raw_sha256: 35ce50a080755f3a11dac48cfbe2e2041659694038bc6bcaf28b452d72da562d
-raw_storage_status: public-staging-not-archived
+raw_storage_status: "archived-local"
 actual_body_file: tmp/day24-leander1975-039/attachment-object-response.pdf
 nuclei: [12c, 16o, 20ne, 24mg, 28si, 32s, 36ar, 40ca, 44ti]
 models: [modified-oscillator, macroscopic-microscopic, Strutinsky-shell-correction]
 methods: [stretched-coordinates, deformation-minimization, intrinsic-moments]
 tags: [133Ce-method-blueprint, shape-coexistence, operator-normalization, model-transfer]
+archive_required: true
 ---
 
 # Ref23原件已读：轴向同态Q不等完整三轴跃迁库
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/1975_Leander_Larsson_PotentialEnergySurfaces_NequalsZ.pdf`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

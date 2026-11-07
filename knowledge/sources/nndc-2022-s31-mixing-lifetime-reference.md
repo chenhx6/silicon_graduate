@@ -4,7 +4,7 @@ title: "31S官方记录：1248混合比双根、寿命字段与Sun模型扣除"
 title_original: "31S Adopted Levels, Gammas and 32S(3He,αγ), ENSDF 202209"
 aliases: [NNDC 2022 S31 reference, 31S 1248 mixing reference]
 created: 2026-10-19
-updated: 2026-10-19
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-nuclear-data
@@ -18,16 +18,22 @@ citation_key: "chen_2022_31s-adopted-levels"
 canonical_source: "NNDC ENSDF202209 31S selected datasets 31016001/31016064, Chen and Singh NDS18429"
 source_url: https://www.nndc.bnl.gov/ensdf/
 data_version: ENSDF202209-fullcut24Jun2022-Adopted-update23Nov2022-and-XUNDL202401-2023Su03
-raw_file: raw/nuclear-data/day17-20261019/31S-Adopted-202209.ens
+raw_file: "raw/nuclear-data/day17-20261019/31S-Adopted-202209.ens"
 raw_sha256: 672a9eb7db91f0cae5042e75fa08a3156d95fe70d7405ccb18ca0aafa5563c8a
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: [31S, 31P]
 reactions: [32S(3He,alpha-gamma)31S]
 methods: [ENSDF-fixed-fields, reference-identity, mixing-ratio, lifetime]
 tags: [DSAM, reference, mixing-ratio, covariance, 31S]
+archive_required: true
 ---
 
 # 31S1248：官方MR输入有真实来源，也有选根条件
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/nuclear-data/day17-20261019/31S-Adopted-202209.ens`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

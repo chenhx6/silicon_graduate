@@ -8,10 +8,10 @@ year: 2020
 canonical_source: "https://doi.org/10.1016/j.physletb.2020.135246"
 raw_file: "raw/papers/gpt/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation/wang-2020-two-quasiparticle-wobbling-130ba.pdf"
 raw_sha256: 09a05657de5b186c3f07ae313836f0cda302f5645305636a62ab6bac981e4bdc
-raw_storage_status: reserved-unpopulated-public-staging-only
+raw_storage_status: "archived-local"
 public_staging_file: "tmp/day23-originals/ba130-primary061-2020.pdf"
 created: 2026-10-26
-updated: 2026-10-26
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: theory-article
@@ -19,9 +19,15 @@ reading_depth: deep-read
 citation_key: "unknown_2020_130ba-two-quasiparticle"
 doi: 10.1016/j.physletb.2020.135246
 nuclei: [130ba]
+archive_required: true
 ---
 
 # Two quasiparticle wobbling in the even-even nucleus 130Ba
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/gpt/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation/wang-2020-two-quasiparticle-wobbling-130ba.pdf`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

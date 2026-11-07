@@ -33,6 +33,9 @@ __pycache__/
 *.pyc
 .trash/
 .qmd/
+# Agent-local catalogue, extracted full text and derived search database
+/.agents/local-literature/
+/outputs/literature-acquisition/20261107-local-literature-publication.local.json
 
 # Local NNDC MCP runtime and response cache
 tools/nndc_mcp/.cache/

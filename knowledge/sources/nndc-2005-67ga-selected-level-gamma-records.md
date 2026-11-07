@@ -3,7 +3,7 @@ type: source
 title: "67Ga：公开ENSDF的multipolarity、寿命与branch来源"
 aliases: [NNDC 67Ga ENSDF 2005, 67Ga evaluated gamma records, 67Ga 958-keV reference inputs]
 created: 2026-10-15
-updated: 2026-10-15
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-nuclear-data-object
@@ -20,16 +20,22 @@ canonical_source: "NNDC:ENSDF:67GA:67031001,67031003,67031005,67031006"
 citation_key: nndc_2005_67ga_selected_ensdf
 raw_file: "raw/data/gpt/day14/nndc-2005-67ga-adopted.ens"
 raw_sha256: a8ce3f5d6170357c67f6e750b74a1bb82eba0db723fb4d9507866f523937dcf1
-raw_storage_status: reserved-unpopulated-public-data-object-only
+raw_storage_status: "archived-local"
 language: en
 nuclei: [67ga]
 reactions: ["57Fe(12C,pn)67Ga", "64Zn(alpha,p)67Ga", "53Cr(16O,pn)67Ga", "12C(58Ni,3p)67Ga"]
 observables: [level-energy, gamma-energy, multipole-mixing-ratio, lifetime, relative-gamma-intensity]
 methods: [angular-distribution, linear-polarization, recoil-distance-doppler-shift]
 tags: [ensdf, level-scheme, source-lineage, lifetime, branching, conversion, day14]
+archive_required: true
 ---
 
 # 67Ga：选定公开数据对象的输入契约
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/data/gpt/day14/nndc-2005-67ga-adopted.ens`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

@@ -29,6 +29,10 @@ args = ["<wiki>/system/scripts/run_paper_search_mcp.py", "<paper-search-install>
 
 ## 检索路由
 
+- 文献发现、原件使用与准备获取先走 [local-literature-archive](local-literature-archive.md)
+  本地预查；外部发现具体 DOI/题名后、下载前再核对，复用已验证原件。索引不完整
+  或外部 403 不证明本地无全文；本地不足再沿用下列外部路由，get-paper 接口保持不变。
+
 - 核结构文献仍先用 `nature-academic-search` 查询 Crossref/arXiv；需要 WoS 收录信息、引用计数或补充检索时，使用 `paper-search-nodejs.search_webofscience`，默认 `apiProduct: "starter"`。
 - 示例参数：`{"query":"DO=10.1103/PhysRevC.100.024314","maxResults":1,"apiProduct":"starter","discoverAccess":false}`。不要把密钥放入工具参数。
 - 引用计数记录数据库、查询时间和论文 DOI/UID；不同库计数不直接合并。Starter 的检索及计数不代表拥有完整引文关系权限。

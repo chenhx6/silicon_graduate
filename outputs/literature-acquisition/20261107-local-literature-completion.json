@@ -1,0 +1,44 @@
+{
+  "completed_at": "2026-11-07T07:14:57.931145+00:00",
+  "task": "Agent-internal local literature archive skill and approved source recovery",
+  "status": "implemented-and-validated",
+  "skill": ".agents/skills/local-literature-archive/SKILL.md",
+  "catalogue": {
+    "local_only": true,
+    "works_provisional": 896,
+    "artifact_paths": 904,
+    "linked_source_records": 534,
+    "last_refresh_reextracted_files": 0,
+    "boundary": "Catalogue groups include web, software, evaluated/public data and unclassified versions. They are not a count of verified independent peer-reviewed papers or reading completion."
+  },
+  "source_reconciliation": {
+    "same_hash_restored_or_relinked": 54,
+    "pdm_current_revision_linked": 1,
+    "pdm_historical_15_page_bytes_found": false,
+    "source_pages_checked": 534,
+    "yaml_errors": 0,
+    "missing_primary_paths": 0,
+    "targeted_archive_pages_passed": 55,
+    "adjacent_legal_notices_archived": 4
+  },
+  "verification": {
+    "offline_tests_passed": 20,
+    "independent_review": "Five concrete identity/privacy regressions fixed; focused read-only recheck found no remaining high-impact issue in those portions.",
+    "automation_preflight": "passed",
+    "full_tree_lint": "202 pre-existing errors; not claimed passed, task attribution in validation receipt",
+    "real_query_receipt": "outputs/literature-acquisition/20261107-local-literature-query-check.json"
+  },
+  "scope_preserved": [
+    "get-paper untouched",
+    "Other session thesis changes preserved",
+    "No raw originals overwritten, moved or deleted",
+    "Experimental raw/data excluded",
+    "No new raw originals or full-text cache published",
+    "No automatic learning promotion or bibliography sync"
+  ],
+  "publication_pointer": {
+    "branch": "main",
+    "subject": "feat: add agent-local literature catalogue and reconcile archives",
+    "local_receipt": "outputs/literature-acquisition/20261107-local-literature-publication.local.json"
+  }
+}

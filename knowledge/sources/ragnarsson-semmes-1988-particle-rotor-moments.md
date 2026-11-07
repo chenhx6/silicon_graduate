@@ -4,7 +4,7 @@ title: "Ragnarsson–Semmes 1988：粒子转子模型中的核矩和能谱"
 title_original: "Description of nuclear moments and nuclear spectra in the particle-rotor model"
 aliases: [Ragnarsson Semmes 1988 particle rotor, RS88核矩]
 created: 2026-10-26
-updated: 2026-10-26
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: theory-method-and-applications
@@ -20,15 +20,21 @@ canonical_source: "https://doi.org/10.1007/BF02398323"
 source_url: "https://link.springer.com/content/pdf/10.1007/BF02398323.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation/ragnarsson-semmes-1988-particle-rotor-moments.pdf"
 raw_sha256: "af5b8588ac78f40ecb7ac5eb8f2dd8070c3457296e8fdcd63e9ea0d828a2fa6d"
-raw_storage_status: reserved-unpopulated-public-publisher-staging-only
+raw_storage_status: "archived-local"
 public_staging_file: "tmp/day23-theses/ragnarsson-semmes-1988.pdf"
 nuclei: [185au, 185hg, 186hg, holmium-isotopes]
 models: [particle-rotor, Nilsson, BCS, residual-proton-neutron-interaction]
 methods: [strong-coupling-basis, core-spin-recoupling]
 tags: [qtr, nuclear-moments, model-contract, source-lineage]
+archive_required: true
 ---
 
 # 核矩、能谱和程序约定的原方法来源
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/gpt/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation/ragnarsson-semmes-1988-particle-rotor-moments.pdf`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

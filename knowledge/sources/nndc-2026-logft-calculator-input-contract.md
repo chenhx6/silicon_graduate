@@ -4,7 +4,7 @@ title: "NNDC当前LOGFT：质量Q、绝对分支与EC/β+输入合同"
 title_original: "LogFT Help and LogFTDataServlet"
 aliases: [NNDC LOGFT current interface, LOGFT输入合同]
 created: 2026-10-24
-updated: 2026-10-24
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: public-calculator-interface
@@ -13,15 +13,21 @@ authors: [NNDC]
 year: 2026
 canonical_source: https://www.nndc.bnl.gov/logft/help.html
 citation_key: "nndc_2026_100sn-logft-help"
-raw_file: raw/software-reference/day21-20261024/nndc-logft-help.html
+raw_file: "raw/software-reference/day21-20261024/nndc-logft-help.html"
 raw_sha256: cc466141f516a8c126818294e751c81afe64b572104b4851a413689ca9e4d7ec
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: [100Sn, 100In]
 methods: [beta-decay, logft, electron-capture]
 tags: [software-interface, input-identity, absolute-branch, day21]
+archive_required: true
 ---
 
 # LOGFT：先匹配输入含义，再比较输出
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/software-reference/day21-20261024/nndc-logft-help.html`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

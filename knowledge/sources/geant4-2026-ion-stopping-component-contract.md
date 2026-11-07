@@ -4,7 +4,7 @@ title: "Geant4 11.4.2离子阻止：模型选择、实际组件与首次查询�
 title_original: "Geant4 v11.4.2 ion stopping call paths and native SDK component"
 aliases: [Geant4 stopping component 2026, G4 stopping contract]
 created: 2026-10-19
-updated: 2026-10-20
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: software-source-code
@@ -15,15 +15,21 @@ citation_key: "collaboration_2026_31s-geant-ion"
 canonical_source: "Geant4 v11.4.2 ion stopping source and installed SDK component"
 source_url: https://github.com/Geant4/geant4/tree/v11.4.2
 data_version: v11.4.2-G4EMLOW8.8
-raw_file: raw/software/day17-20261019/G4EmStandardPhysics_option4.cc
+raw_file: "raw/software/day17-20261019/G4EmStandardPhysics_option4.cc"
 raw_sha256: 04337300cc119a4fd893d515059cc75cef9f042849b183848643a4c4bf104c89
-raw_storage_status: public-staging-verified-vendor-not-redistributed
+raw_storage_status: "archived-local"
 nuclei: [31S, 32S, 15O, 16O, 17O, 18O]
 methods: [Geant4, stopping-power, native-component, source-code-audit]
 tags: [DSAM-input, stopping, model-selection, reproducibility]
+archive_required: true
 ---
 
 # 同一个Geant4版本也须记录实际模型与查询合同
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/software/day17-20261019/G4EmStandardPhysics_option4.cc`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

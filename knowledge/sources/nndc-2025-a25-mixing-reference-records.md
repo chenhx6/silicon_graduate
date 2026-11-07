@@ -3,7 +3,7 @@ type: source
 title: "A=25官方评价：1041身份、混合比版本与字段谱系"
 aliases: [NNDC A25 mixing references, 25Na1041 ENSDF crosswalk]
 created: 2026-10-18
-updated: 2026-10-18
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-nuclear-data-object
@@ -22,16 +22,22 @@ canonical_source: "NNDC:25011001,25011012,25011015,25012001,25012036; selected25
 source_url: "https://www.nndc.bnl.gov/ensdf/"
 raw_file: "raw/data/gpt/day16-20261018/a25-25mg-adopted-18d5f7ec5728.ens"
 raw_sha256: "18d5f7ec5728299cacefc78d9c1f9a49748dd105a7176a18a3a5164afec70a80"
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: [25Na, 25Mg]
 reactions: []
 experiments: [GRETINA, FMA]
 methods: [ENSDF-fixed-column, phase-convention, source-lineage]
 observables: [level-energy, gamma-energy, multipole-mixing-ratio, angular-distribution-coefficient, experimental-asymmetry]
 tags: [evaluation-version, reference-identity, polarization, shared-data]
+archive_required: true
 ---
 
 # A=25：评价字段与原实验的观测对象
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/data/gpt/day16-20261018/a25-25mg-adopted-18d5f7ec5728.ens`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

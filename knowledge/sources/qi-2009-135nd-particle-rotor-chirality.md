@@ -3,7 +3,7 @@ type: source
 title: "Qi2009：135Nd全量子PRM、固定形变与版本参数边界"
 aliases: [Qi 2009 Nd135 PRM, 135Nd particle rotor chirality]
 created: 2026-10-23
-updated: 2026-10-26
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: theoretical-paper
@@ -19,17 +19,23 @@ arxiv: 0812.4597v1
 language: en
 canonical_source: https://doi.org/10.1016/j.physletb.2009.02.061
 citation_key: "qi_2009_135nd-chirality-odd"
-raw_file: raw/papers/2009_Qi_135Nd_PRM_arxiv08124597v1.pdf
+raw_file: "raw/papers/gpt/learning-daily/20260912-PREPLAN-135nd-crosswalk/qi-2009-135nd-prm-arxiv.pdf"
 raw_sha256: 248546abd4a1d1597bf9ddf39cfffd5f09604802704204f0ff61647bbdb19346
-raw_storage_status: public-staging-not-archived
+raw_storage_status: "archived-local"
 nuclei: [135Nd]
 models: [particle-rotor-model, tilted-axis-cranking, random-phase-approximation]
 observables: [energy-levels, transition-probability]
 methods: [angular-momentum-coupling, quantum-tunneling]
 tags: [chirality, fixed-deformation, model-validity, version-boundary]
+archive_required: true
 ---
 
 # 135Nd：量子隧穿的模型解释与可观测量分层
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/gpt/learning-daily/20260912-PREPLAN-135nd-crosswalk/qi-2009-135nd-prm-arxiv.pdf`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Day24 active evidence entry
 

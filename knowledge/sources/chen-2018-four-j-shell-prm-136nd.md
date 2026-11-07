@@ -3,7 +3,7 @@ type: source
 title: "Chen2018：四single-j壳PRM与136Nd逐伙伴输出边界"
 aliases: [Chen2018 four-j shell PRM 136Nd]
 created: 2026-10-26
-updated: 2026-10-26
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: theoretical-paper
@@ -19,18 +19,24 @@ arxiv: 1805.06162v1
 canonical_source: https://doi.org/10.1016/j.physletb.2018.06.030
 full_text_url: https://arxiv.org/pdf/1805.06162v1
 citation_key: "chen_2018_136nd-multiple-chiral"
-raw_file: raw/papers/2018_Chen_FourJShellPRM136Nd_arxiv180506162v1.pdf
+raw_file: "raw/papers/2018_Chen_FourJShellPRM136Nd_arxiv180506162v1.pdf"
 raw_sha256: cba4fa62433207c06b8673dc484d8a2d0ecdd7db51c27eafb2329726190bee91
-raw_storage_status: public-staging-not-archived
+raw_storage_status: "archived-local"
 actual_body_file: tmp/day24-nd136-prm-holdout-031/chen2018-fourj-prm.pdf
 nuclei: [136nd]
 models: [particle-rotor-model, four-single-j-shells]
 observables: [energy-splitting, B(M1)/B(E2), angular-momentum-components]
 methods: [strong-coupling-basis, configuration-energy-truncation]
 tags: [chirality, model-output-contract, partner-resolved-evidence]
+archive_required: true
 ---
 
 # 四壳量子PRM支持D5，目标两E2预测仍未交付
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/2018_Chen_FourJShellPRM136Nd_arxiv180506162v1.pdf`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

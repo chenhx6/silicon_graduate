@@ -3,7 +3,7 @@ type: source
 title: "136Pr：2018公开评价对象中的旧连接与顺序边界"
 aliases: [NNDC 136Pr ENSDF 2018, 136Pr 1996Pe12 evaluation crosswalk]
 created: 2026-10-15
-updated: 2026-10-15
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-nuclear-data-object
@@ -20,16 +20,22 @@ canonical_source: "NNDC:ENSDF:136PR:136059001,136059003"
 citation_key: nndc_2018_136pr_selected_ensdf
 raw_file: "raw/data/gpt/day14/nndc-2018-136pr-adopted.ens"
 raw_sha256: cb1ca8660bbf0df17920ec4f366b245cb564d707f116bc1544738fdcfff94604
-raw_storage_status: reserved-unpopulated-public-data-object-only
+raw_storage_status: "archived-local"
 language: en
 nuclei: [136pr]
 reactions: ["110Pd(30Si,p3n)136Pr", "122Sn(19F,5n)136Pr", "136Ce(p,n)136Pr"]
 observables: [level-energy, gamma-energy, spin-parity, relative-gamma-intensity, dco-ratio]
 methods: [gamma-gamma-coincidence, angular-distribution, directional-correlation]
 tags: [a130, ensdf, level-scheme, source-lineage, version-boundary, day14]
+archive_required: true
 ---
 
 # 136Pr：选定2018评价对象
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/data/gpt/day14/nndc-2018-136pr-adopted.ens`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

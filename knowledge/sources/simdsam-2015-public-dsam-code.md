@@ -4,7 +4,7 @@ title: "SimDSAM公开2015代码：测量能量、停止输入与可重放边界"
 title_original: "SimDSAM — Monte Carlo simulation for DSAM gamma-ray line shapes"
 aliases: [SimDSAM2015, public S1378 DSAM producer]
 created: 2026-10-20
-updated: 2026-10-20
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: software-source-code
@@ -15,15 +15,21 @@ citation_key: "kirsebom_2015_23mg-simdsam-monte"
 canonical_source: "oliskir SimDSAM 2015 code1e5763659e46d636ed90234ae0df0b6402d129a8 READMEpin21809a67"
 source_url: https://github.com/oliskir/SimDSAM/tree/21809a67ea9f3b0514cc57908659463f29b1e1ab
 data_version: code2015-08-04-README2021-10-24-pinned21809a67
-raw_file: raw/software/day17-20261020/SimDSAM/source/particle.cpp
+raw_file: "raw/software/day17-20261020/SimDSAM/source/particle.cpp"
 raw_sha256: 9bb136e6301d14ce7467199340e0357f28367bbd1b359154e3c3482689c2d501
-raw_storage_status: public-staging-verified-vendor-not-redistributed
+raw_storage_status: "archived-local"
 nuclei: [23Mg, 24Mg]
 methods: [DSAM, source-code-audit, ROOT, detector-response]
 tags: [lifetime, stopping, public-code, proper-time, calibration]
+archive_required: true
 ---
 
 # 公开程序的行为与原实验job分别核对
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/software/day17-20261020/SimDSAM/source/particle.cpp`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

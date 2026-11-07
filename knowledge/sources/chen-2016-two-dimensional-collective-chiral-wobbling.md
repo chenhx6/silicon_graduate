@@ -3,7 +3,7 @@ type: source
 title: "Chen2016：二维取向集体Hamiltonian、手征与wobbling的有限域"
 aliases: [Two-dimensional collective Hamiltonian for chiral and wobbling modes, Chen2016 2DCH]
 created: 2026-10-26
-updated: 2026-10-26
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: theoretical-paper
@@ -15,18 +15,24 @@ doi: 10.1103/PhysRevC.94.044301
 arxiv: 1609.06967v2
 canonical_source: https://arxiv.org/abs/1609.06967
 citation_key: "chen_2016_two-dimensional-collective"
-raw_file: raw/papers/2016_Chen_TwoDimensionalCollectiveChiralWobbling_arxiv160906967v2.pdf
+raw_file: "raw/papers/2016_Chen_TwoDimensionalCollectiveChiralWobbling_arxiv160906967v2.pdf"
 raw_sha256: 158efcad3d6f9c69ec61ee3a427ace3aa54ba0e6be7dfbb6419226f3078332be
-raw_storage_status: public-staging-not-archived
+raw_storage_status: "archived-local"
 actual_body_file: tmp/day24-chiral-2d-012/chen2016-2d-arxiv160906967v2.pdf
 nuclei: []
 models: [two-dimensional-collective-hamiltonian, tilted-axis-cranking, particle-rotor-model]
 observables: [energy-splitting, orientation-density, angular-momentum]
 methods: [collective-quantization, cranking-mass]
 tags: [chirality, wobbling, collective-measure, model-validity]
+archive_required: true
 ---
 
 # 动态θ、交叉质量与高频再劈裂：补到哪一层
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/2016_Chen_TwoDimensionalCollectiveChiralWobbling_arxiv160906967v2.pdf`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

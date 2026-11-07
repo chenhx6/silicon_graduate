@@ -3,7 +3,7 @@ type: source
 title: "NPTool 2019对象：反冲四动量、速度getter与单位"
 aliases: [NPTool Reaction object contract, NPTool velocity getter provenance]
 created: 2026-10-14
-updated: 2026-10-14
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: public-software-code-object
@@ -21,13 +21,19 @@ data_version: pinned-2019-public-Github-object-successor-not-read
 citation_key: "matta_2019_nptool-reactionnucleus-kinematic"
 raw_file: "raw/code/gpt/day13/nptool-2019/NPReaction.cxx"
 raw_sha256: "e9babf556002357bfed1bb87dcd86efd66959f45779c425887536c3dd43d4d88"
-raw_storage_status: reserved-unpopulated-public-code-copy-only
+raw_storage_status: "archived-local"
 nuclei: []
 methods: [two-body-kinematics, velocity-reconstruction, doppler-correction, unit-audit]
 tags: [nptool, code-object, four-momentum, caller-contract, stage, historical-version]
+archive_required: true
 ---
 
 # 计算对象不能替代测量与执行版本
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/code/gpt/day13/nptool-2019/NPReaction.cxx`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

@@ -4,7 +4,7 @@ title: "MADAI2015公开内核：covariance、likelihood与两条API的合同"
 title_original: "MADAI DistributionSampling Model and sampler call path"
 aliases: [MADAI 2015 likelihood kernel, DistributionSampling likelihood component]
 created: 2026-10-19
-updated: 2026-10-19
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: software-code
@@ -16,17 +16,23 @@ citation_key: "madai_2015_madai-distributionsampling-sampler"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: https://github.com/MADAI/DistributionSampling/tree/9f9ee0dac704d77492d9905b4d90a57746201912
 source_url: https://github.com/MADAI/DistributionSampling/tree/9f9ee0dac704d77492d9905b4d90a57746201912
-raw_file: raw/software-reference/day17-20261019/MADAI-Model-9f9ee0da.cxx
+raw_file: "raw/software-reference/day17-20261019/MADAI-Model-9f9ee0da.cxx"
 raw_sha256: 1784476b861fd4d74cd0d747d41c57541cac897965947b1e89aa116e8642882f
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: []
 reactions: []
 models: [Gaussian-likelihood, Gaussian-process-emulator, MCMC]
 methods: [fixed-code-component-execution, likelihood-contract-audit]
 tags: [software, covariance, Bayesian-inference, likelihood, DSAM]
+archive_required: true
 ---
 
 # MADAI公开likelihood核与paperproducer是两个对象
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/software-reference/day17-20261019/MADAI-Model-9f9ee0da.cxx`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

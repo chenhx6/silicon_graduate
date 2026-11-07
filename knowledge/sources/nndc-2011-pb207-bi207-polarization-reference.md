@@ -4,7 +4,7 @@ title: "NNDC 207Pb/207Bi参考记录：混合比、归一依赖与光子角色"
 title_original: "207Pb Adopted Levels, Gammas and 207Bi EC Decay; ENSDF201102"
 aliases: [NNDC Pb207 Bi207 reference records, 207Pb1064 polarization calibration]
 created: 2026-10-19
-updated: 2026-10-19
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-selected-data-records
@@ -22,7 +22,7 @@ canonical_source: "NNDC ENSDF207082001/207082005; Kondev/Lalkovski NDS112,707-85
 source_url: "https://www.nndc.bnl.gov/ensdf/"
 raw_file: "raw/data/gpt/day17-20261019/pb207-adopted-81eeda5ce504.ens"
 raw_sha256: "81eeda5ce5045342b86f2f89a2612470cd50f707434d710fa670e9f5a5c850de"
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: [207Pb, 207Bi]
 reactions: []
 experiments: [triumf-griffin-compton-source-calibration]
@@ -30,9 +30,15 @@ models: [BrIcc]
 observables: [multipole-mixing-ratio, internal-conversion-coefficient, photon-emission-probability]
 methods: [ENSDF-field-audit, source-reference-identity, covariance-propagation]
 tags: [NNDC, source-calibration, polarization, normalization, covariance]
+archive_required: true
 ---
 
 # 207Pb源参考：compiled数值与独立标定不是一件事
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/data/gpt/day17-20261019/pb207-adopted-81eeda5ce504.ens`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-07",
+  "source": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+  "work_identity": "same title, four authors, method and benchmark subjects; different revision",
+  "current_raw_file": "raw/writing/pado/20260929_submitted_v1/nst_sample.pdf",
+  "current_sha256": "80250e2f0ca59a72e119a3fb743411b4da1716188e95d8ec5f9bb205900c3d17",
+  "current_pages": 11,
+  "historical_sha256": "f19b52b872432f6d615dae9350eef42d12cff27cfb621a041f09720699f74421",
+  "historical_original_located": false,
+  "yaml_fixed": true,
+  "new_revision_reading_depth": "skimmed",
+  "scope": "bounded identity and selected passages; old claims not wholesale revalidated"
+}

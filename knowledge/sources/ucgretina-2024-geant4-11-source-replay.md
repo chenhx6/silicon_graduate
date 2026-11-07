@@ -3,7 +3,7 @@ type: source
 title: "UCGretina G411：源能谱、角关联与记录/几何合同"
 aliases: [UCGretina G411 source replay, Eu152 Geant4 11 compatibility]
 created: 2026-10-19
-updated: 2026-10-19
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: software-code
@@ -18,7 +18,7 @@ canonical_source: "fixed public G411 code, official Geant4 headers, and declared
 source_url: "https://github.com/rileyle/UCGretina/tree/02e5a9241322f661c6918f6705cab813c691cd21"
 raw_file: "raw/data/gpt/day16-20261018/ucgretina-g411-02e5a924.tar.gz"
 raw_sha256: "0a8b686fd54aab33542b76f2b599696a40e6e2b9301dde2053472bd7e7dc5024"
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: [152Eu, 152Sm, 152Gd, 60Co, 60Ni]
 reactions: []
 experiments: []
@@ -26,9 +26,15 @@ models: [Geant4, unpolarized-source-energy-response, gamma-gamma-angular-correla
 methods: [fixed-source-build, native-binary-ABI, same-seed-control]
 observables: [gamma-ray-energy-spectrum, gamma-gamma-angular-correlation]
 tags: [software-validation, calibration-identity, geometry, response-readiness]
+archive_required: true
 ---
 
 # G411源模拟：程序退出、有效记录和实验响应分别核验
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/data/gpt/day16-20261018/ucgretina-g411-02e5a924.tar.gz`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

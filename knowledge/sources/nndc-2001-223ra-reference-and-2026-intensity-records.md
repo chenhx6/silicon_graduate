@@ -3,7 +3,7 @@ type: source
 title: "223Ra官方reference：未知MR符号、多重放置与2026编译强度"
 aliases: [NNDC223Ra reference records, Ra223 unsigned MR and multiplets]
 created: 2026-10-19
-updated: 2026-10-19
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-and-unevaluated-nuclear-data-objects
@@ -22,15 +22,21 @@ data_version: "fullcut1-May-2001; Jpierr27-Mar-2003; alphaNRerr27-Aug-2012; XUND
 source_url: "https://www.nndc.bnl.gov/ensdf/"
 raw_file: "raw/data/gpt/day16-20261018/ra223-adopted-691b1924ddb4.ens"
 raw_sha256: "691b1924ddb45793d68f03b3aafe4c09c456a30f85e5c316bc316b69cb1fc090"
-raw_storage_status: official-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: [223Ra, 227Th]
 reactions: [227Th-alpha-decay]
 observables: [multipole-mixing-ratio, photon-intensity, conversion-coefficient, angular-correlation]
 methods: [ENSDF-fixed-column, source-lineage, normalization-audit]
 tags: [reference-identity, unsigned-MR, multiplets, shared-data, calibration]
+archive_required: true
 ---
 
 # 记录的符号、placement与分母必须一起读
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/data/gpt/day16-20261018/ra223-adopted-691b1924ddb4.ens`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

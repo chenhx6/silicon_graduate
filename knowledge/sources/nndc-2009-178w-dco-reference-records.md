@@ -3,7 +3,7 @@ type: source
 title: "NNDC 178W DCO参考：2009评价对象、空MR栏与同母态角分布"
 aliases: [NNDC 178W DCO reference records, 1979Do02 1989Kr01 selected ENSDF]
 created: 2026-10-18
-updated: 2026-10-18
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-nuclear-data-tables
@@ -21,15 +21,21 @@ data_version: "200907 / 09NDS headers, cutoff31-May-2008; retrieved2026-10-18; l
 canonical_source: "NNDC ENSDF 178W records178074001,178074004,178074006,178074005; header200907"
 raw_file: "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/nndc-178w-178074001-200907-a758b17a8a52.ens"
 raw_sha256: "a758b17a8a52102c12ba87b66ea6d7c4cdd499dbd831d78e911d2fe08f51fd21"
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: [178W]
 reactions: [164Dy-18O-4n, 177Hf-alpha-3n, 170Er-13C-5n]
 observables: [level-energy, gamma-energy, multipolarity, angular-distribution-coefficient, relative-intensity, conversion-coefficient, K-conversion-coefficient]
 methods: [dco-ratio, angular-distribution, source-lineage-audit, fixed-column-ENSDF]
 tags: [ensdf, evaluated-data, dco, mixing-ratio, calibration, source-independence]
+archive_required: true
 ---
 
 # 178W评价记录：参考行里没有已给出的signed δ
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/nndc-178w-178074001-200907-a758b17a8a52.ens`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

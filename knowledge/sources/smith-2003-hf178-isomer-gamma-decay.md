@@ -3,7 +3,7 @@ type: source
 title: "Smith2003：178m2Hf直接M4/E5衰变、E3内转换主支与阻退度归一"
 aliases: [Smith2003 Hf178m2 gamma decay, UCRL-JRNL-200315]
 created: 2026-10-30
-updated: 2026-10-30
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -20,7 +20,7 @@ canonical_source: "https://doi.org/10.1103/PhysRevC.68.031302"
 source_url: "https://digital.library.unt.edu/ark%3A/67531/metadc1413376/m2/1/high_res_d/15013782.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/smith-2003-hf178-isomer-gamma-decay.pdf"
 raw_sha256: "9d326f4ff38af434b8d299b293d1da6da2b33fd412435eb56584cf010ecccb11"
-raw_storage_status: reserved-unpopulated-manuscript-staging-only
+raw_storage_status: "archived-local"
 public_staging_manifest: "outputs/literature-acquisition/20261030-day27-smith2003-hf178.json"
 analysis_status: public-staging-manuscript-visually-read
 nuclei: [178Hf, 172Hf, 172Lu]
@@ -30,9 +30,15 @@ models: [K-forbidden-decay, two-band-mixing]
 observables: [gamma-energy, relative-gamma-intensity, multipolarity, reduced-hindrance]
 methods: [gamma-gamma-coincidence, absorber-control, conversion-electron-comparison]
 tags: [k-isomer, parity, internal-conversion, radiative-partial-half-life, high-multipolarity, Day27]
+archive_required: true
 ---
 
 # 178m2Hf直接γ衰变与支路归一
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/smith-2003-hf178-isomer-gamma-decay.pdf`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

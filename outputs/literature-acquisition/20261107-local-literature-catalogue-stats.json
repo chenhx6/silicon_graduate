@@ -1,0 +1,32 @@
+{
+  "status": "indexed",
+  "updated_at": "2026-11-07T07:10:44.368605+00:00",
+  "scan_roots": [
+    "raw/papers",
+    "raw/books",
+    "raw/theses",
+    "raw/reports",
+    "raw/notes"
+  ],
+  "works": 896,
+  "artifacts": 904,
+  "with_sources": 531,
+  "source_records": 534,
+  "published_editions_identified_locally": 0,
+  "publication_known_bibliographically": 350,
+  "local_edition_unclassified": 839,
+  "preprint_only_locally": 38,
+  "attachments": 20,
+  "missing_paths": 0,
+  "unreadable": 0,
+  "warnings": [
+    {
+      "source": "knowledge/sources/userdata-133ce-southafrica-dataset.md",
+      "kind": "raw-pointer",
+      "error": "experimental data excluded"
+    }
+  ],
+  "refresh": {
+    "files_reextracted": 0
+  }
+}

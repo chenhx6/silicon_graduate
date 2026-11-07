@@ -3,7 +3,7 @@ type: source
 title: "NNDC 193Bi 能级与γ记录：2017评价、2019修订和赋值边界"
 aliases: [NNDC 193Bi ENSDF evaluation, Basunia A193 2017 selected datasets]
 created: 2026-10-14
-updated: 2026-10-14
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-nuclear-data-tables
@@ -21,15 +21,21 @@ citation_key: Basunia2017A193ENSDF
 citation_key_origin: agent-local-online-dataset-label
 raw_file: "raw/papers/gpt/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam/nndc-193bi-adopted-2017-2019.ens"
 raw_sha256: "c787dea4b406d64712f2eee91867136a3decc8ad8d7029236223362904f065ca"
-raw_storage_status: reserved-unpopulated-public-data-object-only
+raw_storage_status: "archived-local"
 nuclei: [193bi]
 reactions: [165Ho-32S-4n]
 methods: [level-scheme-reconstruction, gamma-gamma-coincidence, spin-parity-assignment, internal-conversion-analysis]
 observables: [level-energy, gamma-energy, relative-intensity, DCO, IPDCO, half-life, conversion-coefficient]
 tags: [ensdf, evaluated-data, version, assignment-boundary, source-lineage]
+archive_required: true
 ---
 
 # 193Bi：评价对象与原实验的分层
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/gpt/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam/nndc-193bi-adopted-2017-2019.ens`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

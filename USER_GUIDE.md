@@ -31,6 +31,10 @@ SHA-256，多文件用 `manifest.json`。每日运行和发布预检自动检查
 缺档或哈希不符会失败；全库旧缺口另行盘点。详见
 [研究材料留档](system/workflows/research-archive.md)。个人资料和未发表数据仍只保留本地。
 
+Agent 在找文献或获取原件前，按 [本地文献馆藏](system/workflows/local-literature-archive.md)
+先核对已有材料、实际版本和附件；这是内部研究能力，无需用户操作检索界面。
+目录登记不代表已学习，也不改变原件或既有阅读记录。
+
 最重要的入口：
 
 - `PLAN.md`：你维护的宏观阶段计划、个人好奇心与研究方向草稿；

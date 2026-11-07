@@ -1,7 +1,7 @@
 ---
 type: system-integration
 graph-excluded: true
-updated: 2026-07-01
+updated: 2026-11-07
 ---
 
 # Zotero 轻量连接约定
@@ -11,27 +11,37 @@ updated: 2026-07-01
 - Zotero：书目、Collection、附件关系和人工标注的主库。
 - `raw/papers/`：当前准备摄入的精选 PDF。
 - `knowledge/sources/`：经过核验并可被 Wiki 引用的来源页。
+- [本地文献馆藏](workflows/local-literature-archive.md)：智能体内部发现原件、核对版本与
+  附件，只读关联 source 与 citation key；目录登记不表示阅读或书目已导出。
 
 ## 为什么不直接操作 zotero.sqlite
 
 运行中的数据库会被 Zotero 锁定；SQLite 内部 schema 不是本项目的稳定接口。Agent 不解除锁、不写数据库，也不以数据库备份替代 Zotero 本身。
 
-## 推荐设置
+## 当前书目入口
 
-1. 在 Zotero 建立 `Wiki Inbox` Collection。
-2. 使用 Better BibTeX 为该 Collection 自动导出。
-3. 建议导出路径：`raw/zotero/wiki-inbox.bib` 或 `raw/zotero/wiki-inbox.json`。
-4. 保持稳定 citation key，推荐 `auth.lower + year + shorttitle` 一类可读格式。
-5. 摄入时用 DOI、题名和 Zotero item key 三重查重。
+`raw/zotero/wiki-auto-generated.bib` 是现有source的自动导出入口，
+由下面的脚本流程维护，可供用户按自己的Zotero工作方式导入或引用。
+摄入时通过DOI、题名、作者年份和已有citation key核对身份；存在真实Zotero item
+key时再关联，不把Zotero登记设为学习前提。
 
-`raw/zotero/` 仍由用户和 Zotero/Better BibTeX 管理，Agent 只读。
+旧 `raw/zotero/wiki-inbox.bib` 入口已废弃，不重建；如本地仍有用户维护的历史
+inbox/JSON或其它导出，只读核对，不覆盖、不迁移。Agent不直接操作Zotero数据库或私有附件。
 
 ## 当前状态
 
-- `Wiki Inbox` 已建立；
-- Better BibTeX 自动导出路径为 `raw/zotero/wiki-inbox.bib`；
-- 2026-07-01 导出中只有 `ayangeakaa_2016_Inbeamspectroscopy`；
-- 来源不在导出中时，可以从 PDF 摄入，但 `citation_key`、`zotero_item_key` 和 `zotero_uri` 保持空值，等待后续回填。
+- 2026-07-01 曾记录 `Wiki Inbox`、旧inbox导出和一条样例记录；这些是历史配置，
+  不代表当前入口或馆藏数量。
+- 来源未在Zotero登记时仍可从PDF摄入；缺少Zotero身份时不编造 `zotero_item_key`
+  或 `zotero_uri`。`citation_key` 可由既有 Wiki 脚本生成，不以存在 Zotero 条目为前提。
+
+## 自动书目衔接
+
+`system/scripts/wiki_citation_key.py export --root .` 从已有 citation key 的 source
+生成 `raw/zotero/wiki-auto-generated.bib`；需要填补缺失 key 时，`sync` 会先修改
+source 再导出，须属于当前获准的 source/书目维护范围。不要手改生成文件，不因
+馆藏清点自动运行全库 `sync`。inbox、Zotero 身份与自动生成书目保持各自职责；
+本地目录只关联这些记录，不批量创建 source，也不把导出条目当作全文可用证明。
 
 ## 来源页映射
 

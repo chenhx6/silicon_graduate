@@ -3,7 +3,7 @@ type: source
 title: "60Ni/60Co参考输入：评价混合比、归一与源模型边界"
 aliases: [NNDC Ni60 Co60 reference records, ENSDF6002800160028002]
 created: 2026-10-19
-updated: 2026-10-19
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-nuclear-data-object
@@ -22,15 +22,21 @@ source_url: "https://www.nndc.bnl.gov/ensdf/"
 data_version: "201312/fullcut31-Dec-2012; Adopted updatecut1-Dec-2013; retrieved19-Oct-2026"
 raw_file: "raw/data/gpt/day16-20261018/ni60-adopted-1acde766a8ee.ens"
 raw_sha256: "1acde766a8eec3f2ca12927a39b4f1e13319e9bd5a740eb8366cf0f4ce459c58"
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: [60Ni, 60Co]
 reactions: []
 observables: [gamma-energy, relative-photon-intensity, multipole-mixing-ratio, conversion-coefficient]
 methods: [ENSDF-fixed-column, source-lineage, conditional-error-propagation]
 tags: [reference-transition, calibration, phase-convention, shared-input, source-model]
+archive_required: true
 ---
 
 # 60Co校准中的评价输入与实际观测要分开
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/data/gpt/day16-20261018/ni60-adopted-1acde766a8ee.ens`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

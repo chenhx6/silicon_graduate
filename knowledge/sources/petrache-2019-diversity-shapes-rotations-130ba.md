@@ -8,10 +8,10 @@ year: 2019
 canonical_source: "https://doi.org/10.1016/j.physletb.2019.06.040"
 raw_file: "raw/papers/gpt/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation/petrache-2019-diversity-shapes-rotations-130ba.pdf"
 raw_sha256: 98c3128b3d88528b56aa075748065dc2b1f13778a45ad3efedd3058a21a18340
-raw_storage_status: reserved-unpopulated-public-staging-only
+raw_storage_status: "archived-local"
 public_staging_file: "tmp/day23-originals/ba130-primary061-2019.pdf"
 created: 2026-10-26
-updated: 2026-10-26
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-model-article
@@ -19,9 +19,15 @@ reading_depth: deep-read
 citation_key: "unknown_2019_130ba-diversity-shapes"
 doi: 10.1016/j.physletb.2019.06.040
 nuclei: [130ba]
+archive_required: true
 ---
 
 # Diversity of shapes and rotations in the γ-soft 130Ba nucleus
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/gpt/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation/petrache-2019-diversity-shapes-rotations-130ba.pdf`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

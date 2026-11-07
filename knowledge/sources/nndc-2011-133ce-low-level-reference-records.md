@@ -4,7 +4,7 @@ title: "NNDC2011评估快照：133Ce基态、低异能态与参考能量"
 title_original: "133Ce ADOPTED LEVELS, GAMMAS (ENSDF record 133058001)"
 aliases: [133Ce adopted low levels 2011, ENSDF133058001 low reference]
 created: 2026-10-27
-updated: 2026-10-27
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-database-record
@@ -19,17 +19,23 @@ companion_record_id: 133058014
 retrieved_local: 2026-10-27
 canonical_source: https://www.nndc.bnl.gov/nudat3/getdataset.jsp?nucleus=133Ce&unc=nds
 citation_key: "khazov_2011_133ce-adopted-levels"
-raw_file: raw/database-records/133ce-2011-adopted-133058001.ensdf
+raw_file: "raw/database-records/133ce-2011-adopted-133058001.ensdf"
 raw_sha256: 4ac09f19661a52dd6061c8797cd3daeeadb869ca5be67d4423bc35040da4bced
-raw_storage_status: public-staging-not-archived
+raw_storage_status: "archived-local"
 actual_body_file: tmp/day24-ce133-evaluated-zero-entry-069/adopted.ensdf
 nuclei: [133Ce]
 methods: [evaluated-level-record, atomic-beam-magnetic-resonance-lineage, gamma-energy-least-squares]
 observables: [level-energy, spin-parity, half-life, isomer-reference]
 tags: [historical-zero, evaluation-version, covariance-boundary, 133Ce-analysis-blueprint]
+archive_required: true
 ---
 
 # 服务当前返回的评估版本与历史实验身份分别保存
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/database-records/133ce-2011-adopted-133058001.ensdf`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

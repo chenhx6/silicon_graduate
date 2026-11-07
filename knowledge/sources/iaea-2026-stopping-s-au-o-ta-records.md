@@ -4,7 +4,7 @@ title: "IAEA阻止数据库：S/Au、O/Ta及Mg/Au的DSAM输入边界"
 title_original: "Electronic Stopping Power of Matter for Ions — selected S/Au and O/Ta records"
 aliases: [IAEA stopping S Au O Ta, 阻止截面覆盖核查]
 created: 2026-10-19
-updated: 2026-10-20
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: compiled-experimental-and-model-data
@@ -15,15 +15,21 @@ citation_key: "iaea_2026_31s-electronic-stopping"
 canonical_source: "IAEA Stopping Power Database 2026-09 selected S-Au O-Ta download objects"
 source_url: https://www-nds.iaea.org/stopping/
 data_version: website-version-2026-09-selected-pairs-last-modified-2023-11-27
-raw_file: raw/nuclear-data/day17-20261019/StoppingPower_tuple_S-Au.csv
+raw_file: "raw/nuclear-data/day17-20261019/StoppingPower_tuple_S-Au.csv"
 raw_sha256: f5c169296c7d129cf74011e89a7772448a9f6da51c681c4cd651965fee85f43f
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: [31S, 32S, 15O, 16O, 17O, 18O, 23Mg, 24Mg]
 methods: [stopping-power, DSAM, unit-conversion, data-coverage]
 tags: [DSAM, stopping, calibration, covariance, source-independence]
+archive_required: true
 ---
 
 # 电子阻止数据能约束什么，尚缺什么
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/nuclear-data/day17-20261019/StoppingPower_tuple_S-Au.csv`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

@@ -4,7 +4,7 @@ title: "23Mg官方记录：近能母态、自旋候选与寿命—强度输入"
 title_original: "23Mg Adopted Levels, Gammas and selected reaction datasets, ENSDF 202101"
 aliases: [NNDC2021 Mg23 reference, Mg23 lifetime strength lineage]
 created: 2026-10-20
-updated: 2026-10-20
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-nuclear-data
@@ -18,16 +18,22 @@ doi: 10.1016/j.nds.2020.12.001
 citation_key: "basunia_2021_23mg-adopted-levels"
 canonical_source: "NNDC ENSDF202101 Mg23 selected objects, NDS1711, cutoff1Jun2020"
 source_url: https://www.nndc.bnl.gov/ensdf/
-raw_file: raw/nuclear-data/day17-20261020/23Mg-Adopted-202101.ens
+raw_file: "raw/nuclear-data/day17-20261020/23Mg-Adopted-202101.ens"
 raw_sha256: 422cbdddc20eb594d6f02697e61ff8ff8095d1514f01364a7925177a7cdd96cc
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: [23Mg, 22Na, 23Na]
 reactions: [12C(12C,n-gamma)23Mg, 24Mg(3He,alpha-gamma)23Mg, 22Na(p,gamma)23Mg]
 methods: [ENSDF-fixed-fields, DSAM, gamma-spectroscopy, resonance-strength]
 tags: [lifetime, branching, spin, covariance, reference-lineage]
+archive_required: true
 ---
 
 # 自旋和分支是寿命换强度的实际输入
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/nuclear-data/day17-20261020/23Mg-Adopted-202101.ens`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

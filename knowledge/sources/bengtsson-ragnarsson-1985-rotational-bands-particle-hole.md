@@ -3,7 +3,7 @@ type: source
 title: "Bengtsson–Ragnarsson1985：Nilsson参数、组态追踪与高spin竞争"
 aliases: [Bengtsson Ragnarsson1985 rotational bands, BR85]
 created: 2026-10-27
-updated: 2026-10-27
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: theory-method-and-applications
@@ -18,18 +18,24 @@ pages: 14–82
 doi: 10.1016/0375-9474(85)90541-X
 canonical_source: https://doi.org/10.1016/0375-9474(85)90541-X
 citation_key: "bengtsson_1985_187au-rotational-bands"
-raw_file: raw/papers/1985_Bengtsson_Ragnarsson_RotationalBandsParticleHole.pdf
+raw_file: "raw/papers/1985_Bengtsson_Ragnarsson_RotationalBandsParticleHole.pdf"
 raw_sha256: 605e785734279f1a7a6dfd234f1d3ff6b136f983b134ccf9d6b766f3b027d6b8
-raw_storage_status: public-staging-not-archived
+raw_storage_status: "archived-local"
 actual_body_file: tmp/day24-bengtsson1985-046/attachment-object-response.pdf
 nuclei: [187au, 158yb, 158er, 118te, 106pd, 122xe, 128ba, 130ce, 168yb, 168hf, 165yb, 171ta, 160yb]
 models: [cranked-Nilsson-Strutinsky, nonpaired-mean-field, rotating-oscillator-basis]
 observables: [transition-energy, moment-of-inertia, configuration-crossing, band-termination]
 methods: [diabatic-orbital-tracking, shell-correction, deformation-minimization]
 tags: [133Ce-method-blueprint, Nilsson-parameters, chirality-alternatives, evidence-layer]
+archive_required: true
 ---
 
 # 原参数表已读，固定组态与实际能带仍须逐态辨认
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/1985_Bengtsson_Ragnarsson_RotationalBandsParticleHole.pdf`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

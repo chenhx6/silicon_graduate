@@ -4,7 +4,7 @@ title: "GRSISort固定Compton偏振代码：事件混合、归一与输入消费
 title_original: "GRSISort ComptonPolarimetryHelper and Compton analysis utilities"
 aliases: [GRSISort Compton polarimetry, GRIFFIN Compton helper]
 created: 2026-10-19
-updated: 2026-10-19
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: software-code
@@ -18,7 +18,7 @@ canonical_source: "GRIFFINCollaboration/GRSISort selected pinned files and targe
 source_url: "https://github.com/GRIFFINCollaboration/GRSISort/tree/6bd3c617cf212158da80918594ba9623fb4137c2"
 raw_file: "raw/software-reference/day17-20261019/GRSISort-ComptonPolarimetryHelper-72015fa7.cxx"
 raw_sha256: "feeabebf67987b60ca3a8b169feea976870a7ba2d9ec1e482999056a792301be"
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: []
 reactions: []
 experiments: []
@@ -26,9 +26,15 @@ models: [Compton-polarimetry, event-mixing]
 observables: [gamma-ray-linear-polarization, asymmetry, polarization-sensitivity]
 methods: [fixed-code-component-execution, response-readiness]
 tags: [GRIFFIN, software-validation, polarimetry, covariance]
+archive_required: true
 ---
 
 # GRSISort：公开偏振producer的实际选择与消费端合同
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/software-reference/day17-20261019/GRSISort-ComptonPolarimetryHelper-72015fa7.cxx`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

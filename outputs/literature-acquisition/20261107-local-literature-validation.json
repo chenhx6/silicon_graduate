@@ -1,0 +1,28 @@
+{
+  "scope": "full-tree lint, with task attribution; source repair is availability-only except separately documented PDM version reconciliation",
+  "full_tree_counts": {
+    "error": 202,
+    "warning": 351,
+    "info": 5374
+  },
+  "full_tree_lint_passed": false,
+  "errors_in_changed_source_pages": [
+    {
+      "severity": "error",
+      "code": "CLAIM_TABLE",
+      "path": "knowledge/sources/hauschild-1996-133ce-triaxial-bands.md",
+      "message": "Key Results must expose claim_kind, evidence_level, and locator"
+    }
+  ],
+  "attribution": "The existing Hauschild1996 claim table lacks claim_kind/evidence_level; confirmed unchanged in HEAD and current body. Other error-bearing scientific pages are outside this task. No expansion into those files.",
+  "new_task_source_lint_errors": 0,
+  "required_task_checks": {
+    "offline_tests": 20,
+    "offline_tests_passed": true,
+    "targeted_archive_sources": 55,
+    "targeted_archive_passed": true,
+    "automation_preflight_passed": true,
+    "primary_source_yaml_and_paths_passed": true
+  },
+  "boundary": "This receipt does not claim the whole Wiki passes lint."
+}

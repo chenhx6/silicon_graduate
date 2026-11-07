@@ -1,0 +1,669 @@
+{
+  "audit_date": "2026-11-07",
+  "recorded_at": "2026-11-07T06:26:29.899322+00:00",
+  "mode": "read-only audit; repair deferred to skill implementation",
+  "source_markdown_files": 534,
+  "standard_yaml_parse_failures": 1,
+  "source_raw_paths_not_found": 55,
+  "exact_hash_recoverable": 54,
+  "classifications": {
+    "existing_raw_original": 1,
+    "recoverable_local_staging": 53,
+    "original_version_not_located": 1
+  },
+  "scope": {
+    "raw_files_considered": 1582,
+    "raw_exclusions": [
+      "personal",
+      "experimental raw/data outside raw/data/gpt",
+      "symlinks",
+      "dependency/cache directories"
+    ],
+    "temporary_directories": [
+      "tmp/day13/reopened/nptool-public-object",
+      "tmp/day14-20261014",
+      "tmp/day14-20261014/nndc136",
+      "tmp/day14-20261014/nndc67",
+      "tmp/day16-a25-reference",
+      "tmp/day16-alpaca-code",
+      "tmp/day16-delta-code",
+      "tmp/day16-geant3-producer",
+      "tmp/day16-mo104-evaluation",
+      "tmp/day16-ucgretina",
+      "tmp/day17-fougeres2023/producer-source",
+      "tmp/day17-geant4-stopping",
+      "tmp/day17-grsisort",
+      "tmp/day17-kirsebom2016/simdsam-source",
+      "tmp/day17-madai/original",
+      "tmp/day17-root-chi2",
+      "tmp/day17-root522",
+      "tmp/day18-20261020/fe58-official",
+      "tmp/day21-checkpoint102"
+    ],
+    "directory_hash_checks": 2221,
+    "directory_hash_bytes": 858305305,
+    "additional_checks": {
+      "release_response_checked": true,
+      "manuscript_pdf_files_hashed": 21
+    },
+    "boundary": "All source raw_file existence checks; targeted alternate-file recovery, not exhaustive repository byte hashing, not full manifest attachment audit, not legal/publication clearance."
+  },
+  "yaml_issue": {
+    "source": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+    "field": "title_original",
+    "cause": "LaTeX backslash in YAML double-quoted scalar",
+    "planned_fix": "single-quoted scalar preserving exact LaTeX value",
+    "in_memory_standard_yaml_fix_validated": true,
+    "source_modified": false
+  },
+  "items": [
+    {
+      "source": "knowledge/sources/almehed-2011-chiral-vibrations-a135.md",
+      "recorded_raw_file": "raw/papers/2011_Almehed_ChiralVibrations_A135_arxiv07090969v2.pdf",
+      "expected_sha256": "becba964421bb8860fa657865071df117622a492a2bbb2b23d661d235296f29b",
+      "recorded_storage_status": "public-staging-not-archived",
+      "verified_matching_files": [
+        "tmp/day21-checkpoint051/almehed-2011-arxiv07090969v2.pdf"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
+      "recorded_raw_file": "raw/software-reference/day16-20261018/alpaca-f173c2d2-81e377a81eaa.tar.gz",
+      "expected_sha256": "81e377a81eaa9a289b2ee6e3b8879d30ad82faf490e40677923521f7c9824daf",
+      "recorded_storage_status": "public-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day16-alpaca-code/alpaca-fixed.tar.gz"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/bengtsson-ragnarsson-1985-rotational-bands-particle-hole.md",
+      "recorded_raw_file": "raw/papers/1985_Bengtsson_Ragnarsson_RotationalBandsParticleHole.pdf",
+      "expected_sha256": "605e785734279f1a7a6dfd234f1d3ff6b136f983b134ccf9d6b766f3b027d6b8",
+      "recorded_storage_status": "public-staging-not-archived",
+      "verified_matching_files": [
+        "tmp/day24-bengtsson1985-046/attachment-object-response.pdf"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/butler-1975-la129-la131-rd-lifetimes.md",
+      "recorded_raw_file": "raw/papers/1975_Butler_TriaxialShapes_LightLa.pdf",
+      "expected_sha256": "231b6f427ac9bdd15688bf373959d2dff63dd7e694ee2dbb9b12cc0186ba8e0a",
+      "recorded_storage_status": "public-staging-not-archived",
+      "verified_matching_files": [
+        "tmp/day24-butler1975-la129-la131-lifetimes-071/attachment-object-response.pdf"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/chen-2013-collective-hamiltonian-chiral-modes.md",
+      "recorded_raw_file": "raw/papers/2013_Chen_CollectiveHamiltonianChiralModes_arxiv12122313v2.pdf",
+      "expected_sha256": "bef6182263a6282ea6c4fc3e2fbae481bbf629e484dbf9668e3ea9e622342a2c",
+      "recorded_storage_status": "public-staging-not-archived",
+      "verified_matching_files": [
+        "tmp/day24-collective-chiral-008/chen2013-collective-chiral-arxiv.pdf"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/chen-2016-two-dimensional-collective-chiral-wobbling.md",
+      "recorded_raw_file": "raw/papers/2016_Chen_TwoDimensionalCollectiveChiralWobbling_arxiv160906967v2.pdf",
+      "expected_sha256": "158efcad3d6f9c69ec61ee3a427ace3aa54ba0e6be7dfbb6419226f3078332be",
+      "recorded_storage_status": "public-staging-not-archived",
+      "verified_matching_files": [
+        "tmp/day24-chiral-2d-012/chen2016-2d-arxiv160906967v2.pdf"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/chen-2018-four-j-shell-prm-136nd.md",
+      "recorded_raw_file": "raw/papers/2018_Chen_FourJShellPRM136Nd_arxiv180506162v1.pdf",
+      "expected_sha256": "cba4fa62433207c06b8673dc484d8a2d0ecdd7db51c27eafb2329726190bee91",
+      "recorded_storage_status": "public-staging-not-archived",
+      "verified_matching_files": [
+        "tmp/day24-nd136-prm-holdout-031/chen2018-fourj-prm.pdf"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+      "recorded_raw_file": "raw/writing/pado/20260722.pdf",
+      "expected_sha256": "f19b52b872432f6d615dae9350eef42d12cff27cfb621a041f09720699f74421",
+      "recorded_storage_status": null,
+      "verified_matching_files": [],
+      "classification": "original_version_not_located",
+      "planned_action": "retain_version_gap_do_not_replace_hash"
+    },
+    {
+      "source": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+      "recorded_raw_file": "raw/software-reference/day16-20261018/delta101-6e118b8c7978.for",
+      "expected_sha256": "6e118b8c79784f67b33ea0388f84f5a187af33563653443076afe4cd568837fc",
+      "recorded_storage_status": "public-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day16-delta-code/pinned-tag-source.data",
+        "tmp/day16-delta-code/pyne-src_ensdf_processing_DELTA_delta.for"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/emediato-1997-133ce-rdds-lifetimes.md",
+      "recorded_raw_file": "raw/papers/1997_Emediato_133Ce_Lifetime_Measurements.pdf",
+      "expected_sha256": "39f6d6a7bb4e2da109504aaab2c22c52fa8b1465b860c1dfd58937bc404869df",
+      "recorded_storage_status": "public-staging-not-archived",
+      "verified_matching_files": [
+        "tmp/day24-emediato1997-ce133-rdds-072/publisher-direct-pdf.pdf"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+      "recorded_raw_file": "raw/code/day17-20261020/EVASIONScode-v1.0.0.zip",
+      "expected_sha256": "4aae83027ed68704088d9c5b90f6dff88e06ce061943ad3aae8dcaa3f1dd8503",
+      "recorded_storage_status": "public-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day17-fougeres2023/producer_release.response"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/geant3-vmc-2026-compton-baseline.md",
+      "recorded_raw_file": "raw/data/gpt/day16-20261018/geant3-347fc6804d-gcomp.F",
+      "expected_sha256": "a97226dc5ae5846cb038e9d2ca38f3591e183a652ff990dceec009a838042020",
+      "recorded_storage_status": "public-staging-verified-vendor-not-redistributed",
+      "verified_matching_files": [
+        "tmp/day16-geant3-producer/component-build/gphys/gcomp.F",
+        "tmp/day16-geant3-producer/gphys_gcomp.F"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+      "recorded_raw_file": "raw/software/day17-20261019/G4EmStandardPhysics_option4.cc",
+      "expected_sha256": "04337300cc119a4fd893d515059cc75cef9f042849b183848643a4c4bf104c89",
+      "recorded_storage_status": "public-staging-verified-vendor-not-redistributed",
+      "verified_matching_files": [
+        "tmp/day17-geant4-stopping/G4EmStandardPhysics_option4.cc"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/gizon-1974-deformed-states-cerium-neodymium.md",
+      "recorded_raw_file": "raw/papers/1974_Gizon_DeformedStates_CeNd.pdf",
+      "expected_sha256": "9d09f0fca35c125cb35241bbd2f231a65ec710702889c8b0262a529af7f56dac",
+      "recorded_storage_status": "public-staging-not-archived",
+      "verified_matching_files": [
+        "tmp/day24-gizon1974-unique-parity-entry-064/attachment-object-response.pdf"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+      "recorded_raw_file": "raw/software-reference/day17-20261019/GRSISort-ComptonPolarimetryHelper-72015fa7.cxx",
+      "expected_sha256": "feeabebf67987b60ca3a8b169feea976870a7ba2d9ec1e482999056a792301be",
+      "recorded_storage_status": "public-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day17-grsisort/examples/ComptonPolarimetryHelper.cxx"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/hauschild-1995-133ce-superdeformed-bands.md",
+      "recorded_raw_file": "raw/papers/1995_Hauschild_133Ce_superdeformed_bands.pdf",
+      "expected_sha256": "ce219bb983b42a15cb634f95e9ad99bcfbc8442bc179a5e5f0e613b9ac9958fb",
+      "recorded_storage_status": "public-staging-not-archived",
+      "verified_matching_files": [
+        "tmp/day24-ce133-primary-followup-081/1995Ha34-full.pdf"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/hauschild-1996-133ce-triaxial-bands.md",
+      "recorded_raw_file": "raw/papers/1996_Hauschild_133Ce_triaxial_bands.pdf",
+      "expected_sha256": "560215bbff5898a3e304f4219f35f628b3a4bd03c87ed1745dc25ae147162872",
+      "recorded_storage_status": "public-staging-not-archived",
+      "verified_matching_files": [
+        "tmp/day24-ce133-independent-primary-079/1996Ha20-aps.pdf"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+      "recorded_raw_file": "raw/nuclear-data/day17-20261019/StoppingPower_tuple_S-Au.csv",
+      "expected_sha256": "f5c169296c7d129cf74011e89a7772448a9f6da51c681c4cd651965fee85f43f",
+      "recorded_storage_status": "public-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/stopping-S-Au-frozen.csv"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/joss-1998-133ce-triaxial-band-lifetimes.md",
+      "recorded_raw_file": "raw/papers/1998_Joss_133Ce_Triaxial_Band_Lifetimes.pdf",
+      "expected_sha256": "81b6ace5d9ee867220c5425e7f3d9ae4f5074d9484f7063fd04fd137b0deea0a",
+      "recorded_storage_status": "public-staging-not-archived",
+      "verified_matching_files": [
+        "tmp/day24-joss1998-133ce-triaxial-lifetime-078/publisher-pdf.pdf"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/leander-larsson-1975-potential-energy-surfaces-n-equals-z.md",
+      "recorded_raw_file": "raw/papers/1975_Leander_Larsson_PotentialEnergySurfaces_NequalsZ.pdf",
+      "expected_sha256": "35ce50a080755f3a11dac48cfbe2e2041659694038bc6bcaf28b452d72da562d",
+      "recorded_storage_status": "public-staging-not-archived",
+      "verified_matching_files": [
+        "tmp/day24-leander1975-039/attachment-object-response.pdf"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+      "recorded_raw_file": "raw/software-reference/day17-20261019/MADAI-Model-9f9ee0da.cxx",
+      "expected_sha256": "1784476b861fd4d74cd0d747d41c57541cac897965947b1e89aa116e8642882f",
+      "recorded_storage_status": "public-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day17-madai/original/src/Model.cxx"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+      "recorded_raw_file": "raw/data/gpt/day16-20261018/ra223-adopted-691b1924ddb4.ens",
+      "expected_sha256": "691b1924ddb45793d68f03b3aafe4c09c456a30f85e5c316bc316b69cb1fc090",
+      "recorded_storage_status": "official-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day16-ra223-reference/adopted.ens"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md",
+      "recorded_raw_file": "raw/data/gpt/day14/nndc-2005-67ga-adopted.ens",
+      "expected_sha256": "a8ce3f5d6170357c67f6e750b74a1bb82eba0db723fb4d9507866f523937dcf1",
+      "recorded_storage_status": "reserved-unpopulated-public-data-object-only",
+      "verified_matching_files": [
+        "tmp/day14-20261014/nndc67/adopted.ens"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
+      "recorded_raw_file": "raw/data/gpt/day16-20261018/nndc104mo-adopted-303ccb20a779.ens",
+      "expected_sha256": "303ccb20a7798348aed1ab93467d7fb73357dd4ac39ce0b2ed6d84309475022e",
+      "recorded_storage_status": "public-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day16-mo104-evaluation/104042001.ens"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+      "recorded_raw_file": "raw/data/gpt/day16-20261018/pr135-adopted-b7f044ae3ac8.ens",
+      "expected_sha256": "b7f044ae3ac8eb6f2b420a539f039a92ebe2ed6c28f5470af4ad5d2f1995e698",
+      "recorded_storage_status": "official-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day16-garg2015/adopted2008.ens"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+      "recorded_raw_file": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/nndc-178w-178074001-200907-a758b17a8a52.ens",
+      "expected_sha256": "a758b17a8a52102c12ba87b66ea6d7c4cdd499dbd831d78e911d2fe08f51fd21",
+      "recorded_storage_status": "public-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day16-nndc-w178/178074001.ens"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+      "recorded_raw_file": "raw/nuclear-data/day18-20261020/58Fe-Adopted-201004.ens",
+      "expected_sha256": "c322943905a154f113f18a5b1929e2345274298052590512e9e72ad3fde77a5f",
+      "recorded_storage_status": "public-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day18-20261020/fe58-official/adopted.ens"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/nndc-2011-133ce-low-level-reference-records.md",
+      "recorded_raw_file": "raw/database-records/133ce-2011-adopted-133058001.ensdf",
+      "expected_sha256": "4ac09f19661a52dd6061c8797cd3daeeadb869ca5be67d4423bc35040da4bced",
+      "recorded_storage_status": "public-staging-not-archived",
+      "verified_matching_files": [
+        "tmp/day24-ce133-evaluated-zero-entry-069/adopted.ensdf"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+      "recorded_raw_file": "raw/data/gpt/day17-20261019/pb207-adopted-81eeda5ce504.ens",
+      "expected_sha256": "81eeda5ce5045342b86f2f89a2612470cd50f707434d710fa670e9f5a5c850de",
+      "recorded_storage_status": "public-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day17-pb207-reference/adopted.ens"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+      "recorded_raw_file": "raw/data/gpt/day16-20261018/ni60-adopted-1acde766a8ee.ens",
+      "expected_sha256": "1acde766a8eec3f2ca12927a39b4f1e13319e9bd5a740eb8366cf0f4ce459c58",
+      "recorded_storage_status": "public-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day16-ni60-reference/adopted.ens"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
+      "recorded_raw_file": "raw/papers/gpt/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam/nndc-128i-adopted-2015.ens",
+      "expected_sha256": "27afae52bb7be1c4aa50e332e60abfe30a3d615d7e1586cd1b8b98bc65e5527e",
+      "recorded_storage_status": "reserved-unpopulated-public-objects-verified-in-wiki-tmp",
+      "verified_matching_files": [
+        "tmp/day14-20261014/nndc128i/adopted.ens"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
+      "recorded_raw_file": "raw/papers/gpt/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam/nndc-193bi-adopted-2017-2019.ens",
+      "expected_sha256": "c787dea4b406d64712f2eee91867136a3decc8ad8d7029236223362904f065ca",
+      "recorded_storage_status": "reserved-unpopulated-public-data-object-only",
+      "verified_matching_files": [
+        "tmp/day14-20261014/nndc-193bi-adopted.ens"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/nndc-2017-99rh-matched-reference-records.md",
+      "recorded_raw_file": "raw/data/gpt/day16-20261018/rh99-hi2017-2cb933aafd59.ens",
+      "expected_sha256": "2cb933aafd59b7df0eefdd6c78798d4543726c819b39c1a256c8d7ed672b914a",
+      "recorded_storage_status": "official-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day16-rh99-structure/HI2017.ens"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+      "recorded_raw_file": "raw/data/gpt/day14/nndc-2018-136pr-adopted.ens",
+      "expected_sha256": "cb1ca8660bbf0df17920ec4f366b245cb564d707f116bc1544738fdcfff94604",
+      "recorded_storage_status": "reserved-unpopulated-public-data-object-only",
+      "verified_matching_files": [
+        "tmp/day14-20261014/nndc136/adopted.ensdf"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+      "recorded_raw_file": "raw/nuclear-data/day17-20261020/23Mg-Adopted-202101.ens",
+      "expected_sha256": "422cbdddc20eb594d6f02697e61ff8ff8095d1514f01364a7925177a7cdd96cc",
+      "recorded_storage_status": "public-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day17-mg23-reference/adopted.ens"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+      "recorded_raw_file": "raw/nuclear-data/day17-20261019/31S-Adopted-202209.ens",
+      "expected_sha256": "672a9eb7db91f0cae5042e75fa08a3156d95fe70d7405ccb18ca0aafa5563c8a",
+      "recorded_storage_status": "public-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day17-s31-reference/adopted.ens"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+      "recorded_raw_file": "raw/data/gpt/day17-20261019/cm245-adopted-c7f95f70b908.ens",
+      "expected_sha256": "c7f95f70b9089969c23212c06c51c9e1b85f2713a749bf92e92c12914904d0da",
+      "recorded_storage_status": "public-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day17-cm245-reference/adopted.ens"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+      "recorded_raw_file": "raw/data/gpt/day16-20261018/a25-25mg-adopted-18d5f7ec5728.ens",
+      "expected_sha256": "18d5f7ec5728299cacefc78d9c1f9a49748dd105a7176a18a3a5164afec70a80",
+      "recorded_storage_status": "public-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day16-a25-reference/25Mg-adopted.ens"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/nndc-2026-logft-calculator-input-contract.md",
+      "recorded_raw_file": "raw/software-reference/day21-20261024/nndc-logft-help.html",
+      "expected_sha256": "cc466141f516a8c126818294e751c81afe64b572104b4851a413689ca9e4d7ec",
+      "recorded_storage_status": "public-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day21-checkpoint102/nndc-help.html"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/nolan-1983-ce130-high-spin-moment-inertia.md",
+      "recorded_raw_file": "raw/papers/1983_Nolan_Ce130_HighSpinMomentInertia.pdf",
+      "expected_sha256": "9085414a3cf1daafdeb3e7b685ea9bc6fdbfa44ee91f2e484c5eda353af6f927",
+      "recorded_storage_status": "public-staging-not-archived",
+      "verified_matching_files": [
+        "tmp/day24-nolan1983-ce130-companion-052/attachment-object-response.pdf"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/nptool-2019-reaction-velocity-code-object.md",
+      "recorded_raw_file": "raw/code/gpt/day13/nptool-2019/NPReaction.cxx",
+      "expected_sha256": "e9babf556002357bfed1bb87dcd86efd66959f45779c425887536c3dd43d4d88",
+      "recorded_storage_status": "reserved-unpopulated-public-code-copy-only",
+      "verified_matching_files": [
+        "tmp/day13/reopened/nptool-public-object/NPLib__Physics__NPReaction.cxx"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/petrache-2019-diversity-shapes-rotations-130ba.md",
+      "recorded_raw_file": "raw/papers/gpt/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation/petrache-2019-diversity-shapes-rotations-130ba.pdf",
+      "expected_sha256": "98c3128b3d88528b56aa075748065dc2b1f13778a45ad3efedd3058a21a18340",
+      "recorded_storage_status": "reserved-unpopulated-public-staging-only",
+      "verified_matching_files": [
+        "tmp/day23-originals/ba130-primary061-2019.pdf"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+      "recorded_raw_file": "raw/papers/2009_Qi_135Nd_PRM_arxiv08124597v1.pdf",
+      "expected_sha256": "248546abd4a1d1597bf9ddf39cfffd5f09604802704204f0ff61647bbdb19346",
+      "recorded_storage_status": "public-staging-not-archived",
+      "verified_matching_files": [
+        "raw/papers/gpt/learning-daily/20260912-PREPLAN-135nd-crosswalk/qi-2009-135nd-prm-arxiv.pdf",
+        "tmp/day21-checkpoint053/qi-2009-0812.4597v1.pdf"
+      ],
+      "classification": "existing_raw_original",
+      "planned_action": "relink_existing_raw_after_check"
+    },
+    {
+      "source": "knowledge/sources/ragnarsson-semmes-1988-particle-rotor-moments.md",
+      "recorded_raw_file": "raw/papers/gpt/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation/ragnarsson-semmes-1988-particle-rotor-moments.pdf",
+      "expected_sha256": "af5b8588ac78f40ecb7ac5eb8f2dd8070c3457296e8fdcd63e9ea0d828a2fa6d",
+      "recorded_storage_status": "reserved-unpopulated-public-publisher-staging-only",
+      "verified_matching_files": [
+        "tmp/day23-theses/ragnarsson-semmes-1988.pdf"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/root-2008-v522-background-error-contract.md",
+      "recorded_raw_file": "raw/code/day17-20261020/ROOT-v522-TH1.cxx",
+      "expected_sha256": "9625d86fbafe47fd5da0381a82b0774a3f158fd78c60575f229f0f97300cd113",
+      "recorded_storage_status": "public-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day17-root522/TH1.cxx"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/root-2026-chi2test-option-contract.md",
+      "recorded_raw_file": "raw/code/day17-20261020/ROOT-v64004-TH1.cxx",
+      "expected_sha256": "5c354dc674055d4c246942af5e51b4a89be7f7edab03da7a063ccd6d4de2c79d",
+      "recorded_storage_status": "public-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day17-root-chi2/v6-40-04-TH1.cxx"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+      "recorded_raw_file": "raw/software/day17-20261020/SimDSAM/source/particle.cpp",
+      "expected_sha256": "9bb136e6301d14ce7467199340e0357f28367bbd1b359154e3c3482689c2d501",
+      "recorded_storage_status": "public-staging-verified-vendor-not-redistributed",
+      "verified_matching_files": [
+        "tmp/day17-kirsebom2016/simdsam-source/source/particle.cpp"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/smith-2003-hf178-isomer-gamma-decay.md",
+      "recorded_raw_file": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/smith-2003-hf178-isomer-gamma-decay.pdf",
+      "expected_sha256": "9d326f4ff38af434b8d299b293d1da6da2b33fd412435eb56584cf010ecccb11",
+      "recorded_storage_status": "reserved-unpopulated-manuscript-staging-only",
+      "verified_matching_files": [
+        "tmp/day27-k-isomer-repair-046/smith-2003-hf178-gamma-manuscript.pdf"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/tonev-2006-134pr-lifetime-chiral.md",
+      "recorded_raw_file": "raw/papers/2006_Tonev_134Pr_Transition_Probabilities.pdf",
+      "expected_sha256": "eac94a5ff8402144aa66b003fbafada85e180126941063eb5bfc62be5b20d134",
+      "recorded_storage_status": "public-staging-not-archived",
+      "verified_matching_files": [
+        "tmp/day24-tonev134pr-primary-090/body.pdf"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+      "recorded_raw_file": "raw/data/gpt/day16-20261018/ucgretina-eu152-run020-58bc3420b3a2.root",
+      "expected_sha256": "58bc3420b3a2af9892bf722411679eefdfb56ddbd554cc8aec59391465504379",
+      "recorded_storage_status": "public-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/eu152/data/run020_cal_histos.root",
+        "tmp/day16-ucgretina/pinned-head/examples/sources/eu152/data/run020_cal_histos.root"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+      "recorded_raw_file": "raw/data/gpt/day16-20261018/ucgretina-ITDecay-6f89e531060c.cc",
+      "expected_sha256": "6f89e531060cdcf1420f160f2ff4626afa4c21112426db29d0e83fdebf3218c9",
+      "recorded_storage_status": "public-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day16-ucgretina/pinned-2021/src/ITDecay.cc",
+        "tmp/day16-ucgretina/pinned-head/src/ITDecay.cc"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/ucgretina-2024-geant4-11-source-replay.md",
+      "recorded_raw_file": "raw/data/gpt/day16-20261018/ucgretina-g411-02e5a924.tar.gz",
+      "expected_sha256": "0a8b686fd54aab33542b76f2b599696a40e6e2b9301dde2053472bd7e7dc5024",
+      "recorded_storage_status": "public-staging-verified-raw-archive-deferred",
+      "verified_matching_files": [
+        "tmp/day16-ucgretina/ucgretina-g411.tar.gz"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/wang-2019-rat-prm-78br-octupole-correlations.md",
+      "recorded_raw_file": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/wang-2019-rat-prm-78br-arxiv1902.00191v1.pdf",
+      "expected_sha256": "cefe9aeb1fcf8be56c6808825faf95f486246254c231893320ee62f9a9907aae",
+      "recorded_storage_status": "reserved-unpopulated-preprint-staging-only",
+      "verified_matching_files": [
+        "tmp/day27-rat2019-audit/arxiv-1902.00191v1.pdf"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/wang-2020-two-quasiparticle-wobbling-130ba.md",
+      "recorded_raw_file": "raw/papers/gpt/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation/wang-2020-two-quasiparticle-wobbling-130ba.pdf",
+      "expected_sha256": "09a05657de5b186c3f07ae313836f0cda302f5645305636a62ab6bac981e4bdc",
+      "recorded_storage_status": "reserved-unpopulated-public-staging-only",
+      "verified_matching_files": [
+        "tmp/day23-originals/ba130-primary061-2020.pdf"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    },
+    {
+      "source": "knowledge/sources/wu-2018-two-dimensional-collective-electromagnetic-transitions.md",
+      "recorded_raw_file": "raw/papers/2018_Wu_TwoDimensionalCollectiveEM_arxiv180904418v2.pdf",
+      "expected_sha256": "7d7c12ebc754f23721bd5367acc050c54dd3cf0f03f2f7480de407c1f3493dcb",
+      "recorded_storage_status": "public-staging-not-archived",
+      "verified_matching_files": [
+        "tmp/day24-chiral-em-014/wu2018.response"
+      ],
+      "classification": "recoverable_local_staging",
+      "planned_action": "copy_to_archive_without_overwrite_then_reconcile"
+    }
+  ]
+}

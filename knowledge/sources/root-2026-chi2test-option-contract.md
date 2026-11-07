@@ -4,7 +4,7 @@ title: "ROOT直方图比较：LL未消费、自动权重与原表达式边界"
 title_original: "ROOT TH1::Chi2Test and Chi2TestX source, v6-24-06 and v6-40-04"
 aliases: [ROOT Chi2Test LL contract, RCT26 histogram homogeneity]
 created: 2026-10-20
-updated: 2026-10-20
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: public-software-repository
@@ -14,15 +14,21 @@ year: 2026
 citation_key: "root_2026_23mg-root-chi"
 canonical_source: "root-project/root 1211eda93010f26710eafd527d1e66921bffdf8e and 3b796f86a30e274053669931a24d77a3d36c8f18 hist/hist/src/TH1.cxx"
 source_url: https://github.com/root-project/root/blob/1211eda93010f26710eafd527d1e66921bffdf8e/hist/hist/src/TH1.cxx
-raw_file: raw/code/day17-20261020/ROOT-v64004-TH1.cxx
+raw_file: "raw/code/day17-20261020/ROOT-v64004-TH1.cxx"
 raw_sha256: 5c354dc674055d4c246942af5e51b4a89be7f7edab03da7a063ccd6d4de2c79d
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: [23Mg]
 methods: [histogram-analysis, likelihood, covariance, software-component-audit]
 tags: [ROOT, DSAM, fit-statistic, empty-bins, software-provenance]
+archive_required: true
 ---
 
 # 统计量由实际接口、误差状态与分析域共同定义
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/code/day17-20261020/ROOT-v64004-TH1.cxx`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

@@ -3,7 +3,7 @@ type: source
 title: "Butler1975：129/131La recoil-distance寿命与三轴模型检验"
 aliases: [Butler1975 triaxial light La, La129 La131 RD lifetimes]
 created: 2026-10-27
-updated: 2026-10-27
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: experimental-paper-with-model-comparison
@@ -18,18 +18,24 @@ pages: 453–456
 doi: 10.1016/0370-2693(75)90410-4
 canonical_source: https://doi.org/10.1016/0370-2693(75)90410-4
 citation_key: "butler_1975_129la-triaxial-shapes"
-raw_file: raw/papers/1975_Butler_TriaxialShapes_LightLa.pdf
+raw_file: "raw/papers/1975_Butler_TriaxialShapes_LightLa.pdf"
 raw_sha256: 231b6f427ac9bdd15688bf373959d2dff63dd7e694ee2dbb9b12cc0186ba8e0a
-raw_storage_status: public-staging-not-archived
+raw_storage_status: "archived-local"
 actual_body_file: tmp/day24-butler1975-la129-la131-lifetimes-071/attachment-object-response.pdf
 nuclei: [129La, 131La, 130Ce, 128Ba, 130Ba, 132Ce, 107Cd]
 methods: [recoil-distance, joint-feeding-lifetime-fit, electromagnetic-transition-probabilities]
 models: [triaxial-rotor-plus-quasiparticle, rotation-aligned-coupling, strong-coupling, weak-coupling]
 observables: [lifetime, B(E2), level-energy]
 tags: [source-lineage, core-normalizer, feeding-response, triaxiality]
+archive_required: true
 ---
 
 # 原寿命支持条件三轴比较，邻偶核仍是定标输入
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/papers/1975_Butler_TriaxialShapes_LightLa.pdf`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 

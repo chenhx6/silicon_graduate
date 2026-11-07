@@ -3,7 +3,7 @@ type: source
 title: "104Mo公开ENSDF：gamma-band目标身份、旧M1标签与评价时层"
 aliases: [NNDC104Mo 2007 selected records, Mo104 gamma-band reference crosswalk]
 created: 2026-10-18
-updated: 2026-10-18
+updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-nuclear-data-object
@@ -22,16 +22,22 @@ canonical_source: "NNDC:ENSDF:104MO:104042001,104042005,104042004"
 source_url: "https://www.nndc.bnl.gov/ensdf/"
 raw_file: "raw/data/gpt/day16-20261018/nndc104mo-adopted-303ccb20a779.ens"
 raw_sha256: "303ccb20a7798348aed1ab93467d7fb73357dd4ac39ce0b2ed6d84309475022e"
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: "archived-local"
 nuclei: [104Mo]
 reactions: [252Cf-SF, 248Cm-SF]
 experiments: [Gammasphere, EUROGAM]
 methods: [ENSDF-fixed-column, gamma-gamma-coincidence, source-lineage]
 observables: [level-energy, gamma-energy, multipolarity, multipole-mixing-ratio, half-life]
 tags: [evaluation-version, gamma-band, reference-identity, shared-data]
+archive_required: true
 ---
 
 # 104Mo：旧评价标签不替后来混合比分支选根
+
+
+## Local archive reconciliation — 2026-11-07
+
+Recovered/located original bytes at `raw/data/gpt/day16-20261018/nndc104mo-adopted-303ccb20a779.ens`; SHA-256 matches the previously recorded identity. Recovery manifest: `raw/reports/gpt/20261107-local-literature-recovery/manifest.json`. Local recovery time: 2026-11-07T06:49:26.680862+00:00. Earlier statements that raw was an unfilled slot describe the historical acquisition stage; the current frontmatter records the completed local archive. Reading scope, version attribution, claims and citation key are unchanged. The main-file recovery does not certify every supplementary artifact is present.
 
 ## Bibliographic Record
 
