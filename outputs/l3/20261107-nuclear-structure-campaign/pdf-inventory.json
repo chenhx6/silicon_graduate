@@ -1,0 +1,65 @@
+{
+  "verified_at": "2026-11-07T14:06:48.906635+00:00",
+  "files": [
+    {
+      "path": "raw/papers/gpt/query/20261107-campaign-G04/idoko-2025-69ga-highspin.pdf",
+      "size": 3180335,
+      "pages": 17,
+      "sha256": "0435aca5d4bc736de8d9d94a81a2e852808bc940bb6505339bf3b16672f13b4a"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261107-campaign-G04/xu-2022-76br-lifetime-plb.pdf",
+      "size": 832980,
+      "pages": 2,
+      "sha256": "e8be0825c1f9b53ffa2c6e9980500d0c5fc6049b9d9f82ab9dfacac57398f7cc"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261107-campaign-G05/arxiv-2201.02114.pdf",
+      "size": 5422399,
+      "pages": 10,
+      "sha256": "8efe9c1878d87afa98726c9af2441381bc8afd5b7cc6718bb27f0eda394ba685"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261107-campaign-G06/kruzsicz-2025-105pd-high-spin-structure-arxiv-2607-18953.pdf",
+      "size": 630610,
+      "pages": 14,
+      "sha256": "ac8950306991b96a31e6e0bcb0060dfa3b26b86e2d204e412d1bc4924b6526c7"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261107-campaign-G07/matsuzaki-2004-wobbling-instability-prc-nucl-th-0309082.pdf",
+      "size": 734446,
+      "pages": 13,
+      "sha256": "0c8d23e8c8fb25fb3cab413447a74654afbbcf66ceeeda24b2212173cb9a154e"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261107-campaign-G08/dracoulis-2012-191193ir-triaxial-isomers.pdf",
+      "size": 488027,
+      "pages": 7,
+      "sha256": "d066b744ad61c5d624896e51c00aaaf265714bce3f57f306b230d143156b46fc"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261107-campaign-G08/watanabe-2021-192re-beta-decay.pdf",
+      "size": 749212,
+      "pages": 7,
+      "sha256": "58142e4d2335a126f270a3a076d7cc19d1d06c8ca9ed19c0a60adc207d7f9780"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261107-campaign-G09/Nesterenko_2020_PLB_808_135642_128In_130In_isomers.pdf",
+      "size": 2118915,
+      "pages": 8,
+      "sha256": "cc0999c3ef1facb24725ca119e0852c2d1b94df4100fe0c847f20ffec1b31022"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261107-campaign-G09/Taprogge_2015_PRC_91_054324_AAM.pdf",
+      "size": 948698,
+      "pages": 11,
+      "sha256": "7502ca1b2b53c2ae990ba4c505060d0265f8edac57b64727ff02ca86f3f6775d"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261107-campaign-G13/iskra-2019-96zr-revised-e3.pdf",
+      "size": 343873,
+      "pages": 5,
+      "sha256": "59c772991a381100f31f1edca6aefc72bef0c95cd8ef2cb2ea7bf37f9e429cca"
+    }
+  ]
+}

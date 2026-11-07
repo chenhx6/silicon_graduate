@@ -1,0 +1,82 @@
+{
+  "reconciled_at": "2026-11-07T14:28:53.325209+00:00",
+  "disposition": "All canonical campaign pages independently integrated; worker prose/thresholds not accepted by default",
+  "items": {
+    "G01": [
+      "unique E3 versus lowest allowed multipolarity",
+      "relative versus absolute strength",
+      "unsupported thresholds and precise critical spin removed"
+    ],
+    "G02": [
+      "branch/feeding not established from absent SI",
+      "PDR/model exclusions limited to stated comparison",
+      "D0 scale estimate not a measured static moment"
+    ],
+    "G03": [
+      "rigid ideal model not real Co fit",
+      "reference-list reading not original-citation verification",
+      "energy and geometric diagnostics separated"
+    ],
+    "G04": [
+      "60Ni N=32, not N=40 closed-shell claim",
+      "uncomputed region-wide prohibitions removed",
+      "69Ga target thickness and installed/used detectors corrected"
+    ],
+    "G05": [
+      "Rong 2+/4+ rows had been mislabeled as 3-/1-",
+      "PAV not completed GCM",
+      "lab parity expectation and invented thresholds removed"
+    ],
+    "G06": [
+      "Chen2026 abstract only, not full body",
+      "EUROBALL data dependent on prior study",
+      "B(E2) must not be divided by phase space twice",
+      "universal sigma/W.u./barrier thresholds removed"
+    ],
+    "G07": [
+      "two assembled records replaced by actual registry responses for metadata only",
+      "no unverified Qt or absolute B numbers promoted",
+      "axial precession does not imply no collective E2",
+      "local RPA/TAC model not a universal bifurcation theorem"
+    ],
+    "G08": [
+      "duplicate Ir source merged into existing canonical slug",
+      "tentative and unobserved low-energy paths retained",
+      "192Re does not directly test A194",
+      "Re target details and tentative spin corrected"
+    ],
+    "G09": [
+      "near equal half-lives do not establish identical phase space",
+      "finite-Q strengths not full Ikeda total",
+      "high multipoles allowed but can be slow",
+      "worker model self-report not accepted as runtime telemetry"
+    ],
+    "G10": [
+      "review evidence checked by parent; hyperbolic/global absence wording not promoted",
+      "long original quotations omitted from public receipt"
+    ],
+    "G11": [
+      "row mapping and target corrections used",
+      "global mean-field conclusions limited to actual coordinate scheme",
+      "long quotations omitted from public receipt"
+    ],
+    "G12": [
+      "metadata only; no verified thesis page count or chapter tables",
+      "network timeout does not prove worldwide unavailability"
+    ],
+    "G13": [
+      "relative intensity versus total branch corrected",
+      "rounded errors not reconstructed as exact equality",
+      "no claimed 2026 latest adoption or uncomputed Zr90 threshold",
+      "no nonzero lab diagonal Q3 criterion"
+    ],
+    "T01": [
+      "retained bounded symmetry/tensor reconstruction",
+      "relative output path bug fixed and producer rerun by parent"
+    ]
+  },
+  "review_flags_used_as_evidence": false,
+  "raw_originals_overwritten": false,
+  "long_copyright_quotes_published": false,
+  "scope_note": "This audit covers campaign outputs and on-touch legacy statements, not all historic Wiki claims."
+}

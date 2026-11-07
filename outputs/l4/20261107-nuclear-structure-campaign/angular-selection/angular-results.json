@@ -1,0 +1,249 @@
+{
+  "schema": "octupole-angular-audit-v1",
+  "sympy_version": "1.14.0",
+  "rank": 3,
+  "units": "dimensionless angular factors; radial integral and charge factored out",
+  "operator": "Y_3q, spin independent, normalized spherical harmonics",
+  "claims_excluded": [
+    "physical B(E3)",
+    "radial overlap",
+    "actual orbital occupancy",
+    "many-body collectivity",
+    "static octupole shape",
+    "global novelty"
+  ],
+  "rows": [
+    {
+      "initial": "p1/2",
+      "final": "g9/2",
+      "purpose": "withdrawn legacy A100 driver",
+      "delta_l": 3,
+      "delta_j": "4",
+      "parity_ok": true,
+      "j_triangle_ok": false,
+      "l_triangle_ok": true,
+      "reduced_angular_squared": "0",
+      "B_angular": "0",
+      "B_angular_numeric": 0.0,
+      "nonzero_angular": false
+    },
+    {
+      "initial": "p3/2",
+      "final": "g9/2",
+      "purpose": "light-region angular candidate",
+      "delta_l": 3,
+      "delta_j": "3",
+      "parity_ok": true,
+      "j_triangle_ok": true,
+      "l_triangle_ok": true,
+      "reduced_angular_squared": "10/(3*pi)",
+      "B_angular": "5/(6*pi)",
+      "B_angular_numeric": 0.2652582384864922,
+      "nonzero_angular": true
+    },
+    {
+      "initial": "d5/2",
+      "final": "h11/2",
+      "purpose": "medium-region angular candidate",
+      "delta_l": 3,
+      "delta_j": "3",
+      "parity_ok": true,
+      "j_triangle_ok": true,
+      "l_triangle_ok": true,
+      "reduced_angular_squared": "50/(11*pi)",
+      "B_angular": "25/(33*pi)",
+      "B_angular_numeric": 0.24114385316953837,
+      "nonzero_angular": true
+    },
+    {
+      "initial": "f7/2",
+      "final": "i13/2",
+      "purpose": "rare-earth angular candidate",
+      "delta_l": 3,
+      "delta_j": "3",
+      "parity_ok": true,
+      "j_triangle_ok": true,
+      "l_triangle_ok": true,
+      "reduced_angular_squared": "2450/(429*pi)",
+      "B_angular": "1225/(1716*pi)",
+      "B_angular_numeric": 0.2272317077943727,
+      "nonzero_angular": true
+    },
+    {
+      "initial": "g9/2",
+      "final": "j15/2",
+      "purpose": "heavy-region angular candidate",
+      "delta_l": 3,
+      "delta_j": "3",
+      "parity_ok": true,
+      "j_triangle_ok": true,
+      "l_triangle_ok": true,
+      "reduced_angular_squared": "980/(143*pi)",
+      "B_angular": "98/(143*pi)",
+      "B_angular_numeric": 0.21814243948259782,
+      "nonzero_angular": true
+    },
+    {
+      "initial": "p1/2",
+      "final": "d5/2",
+      "purpose": "allowed delta-l=1 counterexample",
+      "delta_l": 1,
+      "delta_j": "2",
+      "parity_ok": true,
+      "j_triangle_ok": true,
+      "l_triangle_ok": true,
+      "reduced_angular_squared": "3/(2*pi)",
+      "B_angular": "3/(4*pi)",
+      "B_angular_numeric": 0.238732414637843,
+      "nonzero_angular": true
+    },
+    {
+      "initial": "d3/2",
+      "final": "f5/2",
+      "purpose": "allowed delta-j=1 counterexample",
+      "delta_l": 1,
+      "delta_j": "1",
+      "parity_ok": true,
+      "j_triangle_ok": true,
+      "l_triangle_ok": true,
+      "reduced_angular_squared": "6/(5*pi)",
+      "B_angular": "3/(10*pi)",
+      "B_angular_numeric": 0.0954929658551372,
+      "nonzero_angular": true
+    },
+    {
+      "initial": "p1/2",
+      "final": "p3/2",
+      "purpose": "parity and triangle negative control",
+      "delta_l": 0,
+      "delta_j": "1",
+      "parity_ok": false,
+      "j_triangle_ok": false,
+      "l_triangle_ok": false,
+      "reduced_angular_squared": "0",
+      "B_angular": "0",
+      "B_angular_numeric": 0.0,
+      "nonzero_angular": false
+    },
+    {
+      "initial": "s1/2",
+      "final": "p1/2",
+      "purpose": "j-sum negative control",
+      "delta_l": 1,
+      "delta_j": "0",
+      "parity_ok": true,
+      "j_triangle_ok": false,
+      "l_triangle_ok": false,
+      "reduced_angular_squared": "0",
+      "B_angular": "0",
+      "B_angular_numeric": 0.0,
+      "nonzero_angular": false
+    },
+    {
+      "initial": "s1/2",
+      "final": "f7/2",
+      "purpose": "allowed stretched counterexample",
+      "delta_l": 3,
+      "delta_j": "3",
+      "parity_ok": true,
+      "j_triangle_ok": true,
+      "l_triangle_ok": true,
+      "reduced_angular_squared": "2/pi",
+      "B_angular": "1/pi",
+      "B_angular_numeric": 0.3183098861837907,
+      "nonzero_angular": true
+    }
+  ],
+  "checks": [
+    {
+      "pair": "p1/2->g9/2",
+      "all_initial_m_checked": 2,
+      "isotropy": true,
+      "gaunt_vs_6j": true,
+      "gaunt_vs_3j": true,
+      "reverse_reduced_magnitude": true,
+      "selection_rules": true
+    },
+    {
+      "pair": "p3/2->g9/2",
+      "all_initial_m_checked": 4,
+      "isotropy": true,
+      "gaunt_vs_6j": true,
+      "gaunt_vs_3j": true,
+      "reverse_reduced_magnitude": true,
+      "selection_rules": true
+    },
+    {
+      "pair": "d5/2->h11/2",
+      "all_initial_m_checked": 6,
+      "isotropy": true,
+      "gaunt_vs_6j": true,
+      "gaunt_vs_3j": true,
+      "reverse_reduced_magnitude": true,
+      "selection_rules": true
+    },
+    {
+      "pair": "f7/2->i13/2",
+      "all_initial_m_checked": 8,
+      "isotropy": true,
+      "gaunt_vs_6j": true,
+      "gaunt_vs_3j": true,
+      "reverse_reduced_magnitude": true,
+      "selection_rules": true
+    },
+    {
+      "pair": "g9/2->j15/2",
+      "all_initial_m_checked": 10,
+      "isotropy": true,
+      "gaunt_vs_6j": true,
+      "gaunt_vs_3j": true,
+      "reverse_reduced_magnitude": true,
+      "selection_rules": true
+    },
+    {
+      "pair": "p1/2->d5/2",
+      "all_initial_m_checked": 2,
+      "isotropy": true,
+      "gaunt_vs_6j": true,
+      "gaunt_vs_3j": true,
+      "reverse_reduced_magnitude": true,
+      "selection_rules": true
+    },
+    {
+      "pair": "d3/2->f5/2",
+      "all_initial_m_checked": 4,
+      "isotropy": true,
+      "gaunt_vs_6j": true,
+      "gaunt_vs_3j": true,
+      "reverse_reduced_magnitude": true,
+      "selection_rules": true
+    },
+    {
+      "pair": "p1/2->p3/2",
+      "all_initial_m_checked": 2,
+      "isotropy": true,
+      "gaunt_vs_6j": true,
+      "gaunt_vs_3j": true,
+      "reverse_reduced_magnitude": true,
+      "selection_rules": true
+    },
+    {
+      "pair": "s1/2->p1/2",
+      "all_initial_m_checked": 2,
+      "isotropy": true,
+      "gaunt_vs_6j": true,
+      "gaunt_vs_3j": true,
+      "reverse_reduced_magnitude": true,
+      "selection_rules": true
+    },
+    {
+      "pair": "s1/2->f7/2",
+      "all_initial_m_checked": 2,
+      "isotropy": true,
+      "gaunt_vs_6j": true,
+      "gaunt_vs_3j": true,
+      "reverse_reduced_magnitude": true,
+      "selection_rules": true
+    }
+  ]
+}

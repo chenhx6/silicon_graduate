@@ -124,7 +124,8 @@ Hayes2005的安全能量库仑激发研究，说明低K带可随旋转顺排混�
 同一核素的不同组态不能共用一个形状标签
 （[[dracoulis-2013-192os-isomers-gamma-soft]]，Table1、Figs.3–5）。
 2012年191/193Ir作者提出spin trapping与三轴组态共存，
-本轮该篇仅取得首页，解释和数值细节保留访问边界。
+本轮现已补完整正文，见[[dracoulis-2012-191193ir-triaxial-isomers-preview]]；
+寿命、推断低能支路与PES分别保存，不把长寿命当唯一形状量。
 第二轮[[os192-branch-rates-and-shape-identifiability-round2-20261107]]进一步给出：
 两E2的约220倍强度比对应光子率比0.217、含原表转换系数的总跃迁率比0.806，
 并非220倍的衰变流。共同τ可消去，未知协方差、暂定指定和表文差异仍须保存。
@@ -248,3 +249,12 @@ P1：真实多轨道seniority破缺、K混合的两端、绝对弱衰变算符�
 - [[dracoulis-2013-192os-isomers-gamma-soft]]
 - [[book-suhonen-from-nucleons-to-nucleus]]
 - [[zagrebaev-2001-superheavy-synthesis-survival]]
+
+## 本轮新增：相近β寿命与不同组态分布
+
+[[campaign-g09-taprogge-2015-129cd-beta-decay]] PDF7/8–10给门选母态155(3)、146(8)ms
+和不同的GT分布；模型采用GT矩阵元.75因子，并非实验独立提取普适gA。
+[[campaign-g09-nesterenko-2020-in-isomers]]的In质量/异能态提供独立能量输入，
+不是同一GT率的复测。具体共同输入、禁戒算符与有限Q窗边界见
+[[campaign-g09-shell-weak-isomer-20261107]]。相近总率不能证明相同波函数，
+也不能由单一受阻分支或有限能窗强度对裸Ikeda总和的比例确定统一淬灭。

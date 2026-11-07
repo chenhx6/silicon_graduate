@@ -1,0 +1,41 @@
+{
+  "task_id": "G02",
+  "agent_id": "01a1b633-b932-7c43-958a-a6a11ad66fed",
+  "state": "completed-and-closed",
+  "scientific_disposition": "parent-audited-with-corrections",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "requested_reasoning_effort": "high",
+  "model_selection_evidence": "spawn_agent accepted explicit override; no provider token/cost telemetry inferred",
+  "worker_self_reported_model_unverified": "antigravity/gemini-3.8-flash-tiered",
+  "reconciled_at": "2026-11-07T14:28:53.325209+00:00",
+  "worker_receipt_original_sha256": "06aef3bc759646c4de7b52b0778ceb36d0e38726873b30114f6e2b145892238e",
+  "original_receipt_local_scratch": "tmp/runs/20261107-large-nuclear-research/worker-receipt-snapshots/G02-receipt.json",
+  "scientific_authority": "Canonical knowledge/source pages and primary artifacts; this receipt is process provenance, not a scientific fact source.",
+  "canonical_knowledge": [
+    "knowledge/research-notes/campaign-g02-ru102-fulltext-20261107.md"
+  ],
+  "parent_corrections_or_boundaries": [
+    "branch/feeding not established from absent SI",
+    "PDR/model exclusions limited to stated comparison",
+    "D0 scale estimate not a measured static moment"
+  ],
+  "artifacts_rehashed": [
+    {
+      "path": "raw/papers/Low-Energy Dipole Strength Distribution in ¹⁰²Ru Coexistence of Scissors and Octupole Resonances.pdf",
+      "size": 610850,
+      "sha256": "4bc6bb6c613b121bae9def9d9bedf37e9c02db89eca265c4c16d5dd9ecf43a89"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261107-round2-ru102-dipole/verified-official/abstract-records/pubmed.xml",
+      "size": 10940,
+      "sha256": "95f2f7546075143c6de970a339fbe439e04f102ab66d7949360a86dfd4dba47a"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261107-round2-ru102-dipole/verified-official/author-highlight.html",
+      "size": 111612,
+      "sha256": "04b651d22a6e74c4b3e0d5abb798b2f1913c1e2d8ef73fc23943ac27c8b5692d"
+    }
+  ],
+  "reported_command_count": 3,
+  "parent_validation": "See archive-final.json, lint-final.json, lint-delta.json and completion-checks.json; worker zero-error assertions are not adopted."
+}

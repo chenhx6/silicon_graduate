@@ -1,0 +1,50 @@
+{
+  "checks": [
+    {
+      "check": "user-original-sha256",
+      "path": "raw/papers/⁹⁸Mo A possible candidate for octupole collectivity in A ≈ 100 region.pdf",
+      "passed": true
+    },
+    {
+      "check": "user-original-sha256",
+      "path": "raw/papers/Low-Energy Dipole Strength Distribution in ¹⁰²Ru Coexistence of Scissors and Octupole Resonances.pdf",
+      "passed": true
+    },
+    {
+      "check": "user-original-sha256",
+      "path": "raw/papers/Exploring chiral rotation in A ≈ 60 nuclei  Role of residual interactions.pdf",
+      "passed": true
+    },
+    {
+      "check": "run-provenance-hash",
+      "path": "system/scripts/octupole_orbital_selection_audit.py",
+      "passed": true
+    },
+    {
+      "check": "run-provenance-hash",
+      "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "passed": true
+    },
+    {
+      "check": "run-provenance-hash",
+      "path": "outputs/l4/20261107-nuclear-structure-campaign/angular-selection/angular-results.json",
+      "passed": true
+    },
+    {
+      "check": "run-provenance-hash",
+      "path": "outputs/l4/20261107-nuclear-structure-campaign/angular-selection/angular-pairs.csv",
+      "passed": true
+    },
+    {
+      "check": "python-ast",
+      "path": "system/scripts/octupole_orbital_selection_audit.py",
+      "passed": true
+    },
+    {
+      "check": "control-characters-over-campaign-pages",
+      "passed": true
+    }
+  ],
+  "ok": true,
+  "scope": "identity, artifact integrity, AST, control characters; scientific checks are separately source-located"
+}

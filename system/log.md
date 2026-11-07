@@ -6110,3 +6110,11 @@ Actual record UTC: 2026-11-06T10:24:40.867670+00:00. User requested a phase clos
 - 公开数据条件换算、40行三体结果重放、42算符恒等式与有限能隙控制通过；保留真实核与完整Cov/全文缺口。
 - lint137errors/425warnings，本轮新error0；9source/7manifest归档与preflight通过。QMD/Git实际状态见本轮回执。
 - 稳定指针main / research: quantify isomer branches and symmetry-breaking controls。可复用知识在knowledge，原件/用户PLAN/课程状态未变。
+
+
+## 2026-11-07T14:39:39.051557+00:00 — Nuclear structure campaign first milestone
+
+- 三用户正文核读；13Gemini/high与1Terra/xhigh分波研究/核查并回收，12source+12note写回knowledge。
+- 更新96Zr E3参照，补Ir全文，推进六区/β共同输入合同；10轨道对42磁投影角向控制通过，模型边界保留。
+- 18source/10manifest归档及preflight通过；lint129errors/435warnings，无新增error、修复8历史结构error。全库未称绿灯。
+- 稳定指针main / research: expand six-region study with full texts and evidence controls；QMD/Git/保护范围实际结果见本批回执。

@@ -7,14 +7,27 @@ updated: 2026-11-07
 
 # Wiki Index
 
+## 2026-11-07 规模化续接：完整正文与跨区证据更新
+
+- [[isomer-six-region-transfer-research]] — 本轮13个Gemini任务与1个Terra任务、具体比较问题及后续共同输入合同。
+- [[campaign-g01-mo98-fulltext-20261107]]、[[campaign-g02-ru102-fulltext-20261107]]、[[campaign-g03-ding60-fulltext-20261107]] — 三篇用户新正文，实际图表/模型范围与仍缺数据。
+- [[campaign-g04-a60-a80-transfer-20261107]]、[[campaign-g05-a100-softness-octupole-20261107]]、[[campaign-g06-a130-wobbling-discrimination-20261107]] — 轻区、中质量与A130争议的组态/算符比较。
+- [[campaign-g07-a160-tsd-kmix-20261107]]、[[campaign-g08-a190-shape-isomer-20261107]]、[[campaign-g09-shell-weak-isomer-20261107]] — 稀土、重区与组态依赖β衰变。
+- [[campaign-g13-zr96-revised-e3-20261107]] — Iskra2019的42(3)W.u.实验修订；不再把历史65(10)当未变动参照。
+- [[campaign-t01-finite-system-symmetry-identifiability-20261107]]、[[octupole-orbital-eligibility-and-collectivity-boundary-20261107]] — 有限对称性、联合拟合依赖与10对轨道的精确角向控制。
+
+新增/升级来源：[[campaign-g04-idoko-2025-69ga-highspin]]、[[campaign-g05-rong-2023-96zr-mdc-cdft]]、[[campaign-g06-kruzsicz-2025-105pd]]、[[campaign-g06-chen-2026-triaxial-softness-wobbling]]、[[campaign-g07-matsuzaki-2004-wobbling-instability]]、[[dracoulis-2012-191193ir-triaxial-isomers-preview]]、[[campaign-g08-watanabe-2021-192re]]、[[campaign-g09-taprogge-2015-129cd-beta-decay]]、[[campaign-g09-nesterenko-2020-in-isomers]]、[[campaign-g13-iskra-2019-96zr-revised-e3]]。
+
+题录/访问边界入口：[[campaign-g07-gorgen-2004-163lu-quadrupole-moments]]、[[campaign-g07-hayes-2002-178hf-coulex-paths]]、[[campaign-g12-saracino-2026-thesis]]。Chen2026仅摘要；这些条目不声称正文已读。
+
 ## 2026-11-07 第二轮：实测分支与对称性破缺
 
 - [[ru100-e1-moments-and-covariance-round2-20261107]] — 六个有限E1点的D0/Q0条件重建、原表误差与相关性场景。
 - [[os192-branch-rates-and-shape-identifiability-round2-20261107]] — E2矩阵元、光子率和转换总率分开，同母态τ消去。
 - [[seniority-node-three-body-breaking-round2-20261107]] — 纯三体解除单j节点、两体PH恒等式、强度与能量相空间的不同扰动幂。
 - [[sn136-seniority-anomaly-and-three-body-identifiability-round2-20261107]] — [[simpson-2014-136sn-138sn-seniority-isomers]]与[[maheshwari-2015-sn-isomers-effective-interaction]]；真实多轨道两体解释不被单j定理排除。
-- [[mo98-e3-and-n56-octupole-evidence-round2-20261107]] — [[karmakar-2025-98mo-dae]]两页学位研究摘要与[[mach-1990-96zr]]直接E3原件；98Mo期刊全文仍未取得。
-- [[ru102-low-spin-dipole-and-high-spin-transfer-round2-20261107]] — [[saracino-2026-102ru-scissors-octupole-resonances]]，实际取得摘要/作者网页，保持正文与静态形变边界。
+- [[mo98-e3-and-n56-octupole-evidence-round2-20261107]] — [[karmakar-2025-98mo-dae]]两页学位研究摘要与[[mach-1990-96zr]]直接E3原件；该第二轮历史缺口已由上方本轮出版全文补齐。
+- [[ru102-low-spin-dipole-and-high-spin-transfer-round2-20261107]] — [[saracino-2026-102ru-scissors-octupole-resonances]]，第二轮当时仅摘要/作者网页；本轮已补正文，静态形变/SI边界仍保留。
 - [[light-and-rare-earth-orientation-window-round2-20261107]] — 轻区/稀土后续窗口；[[ding-2025-chiral-rotation-a60-residual-interactions]]及既有151Eu来源，具体读取范围以source为准。
 
 ## 2026-11-07 同核异能态与六区机制研究

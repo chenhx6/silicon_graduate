@@ -1,0 +1,42 @@
+{
+  "task_id": "G07",
+  "agent_id": "01a1b640-5275-7871-8bc1-58da71ee47ed",
+  "state": "completed-and-closed",
+  "scientific_disposition": "parent-audited-with-corrections",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "requested_reasoning_effort": "high",
+  "model_selection_evidence": "spawn_agent accepted explicit override; no provider token/cost telemetry inferred",
+  "worker_self_reported_model_unverified": "antigravity/gemini-3.8-flash-tiered",
+  "reconciled_at": "2026-11-07T14:28:53.325209+00:00",
+  "worker_receipt_original_sha256": "2919f6b86583a38255167f3ca11f2a1d64474fdee1b007856730178692191bf6",
+  "original_receipt_local_scratch": "tmp/runs/20261107-large-nuclear-research/worker-receipt-snapshots/G07-receipt.json",
+  "scientific_authority": "Canonical knowledge/source pages and primary artifacts; this receipt is process provenance, not a scientific fact source.",
+  "canonical_knowledge": [
+    "knowledge/research-notes/campaign-g07-a160-tsd-kmix-20261107.md"
+  ],
+  "parent_corrections_or_boundaries": [
+    "two assembled records replaced by actual registry responses for metadata only",
+    "no unverified Qt or absolute B numbers promoted",
+    "axial precession does not imply no collective E2",
+    "local RPA/TAC model not a universal bifurcation theorem"
+  ],
+  "artifacts_rehashed": [
+    {
+      "path": "raw/papers/gpt/query/20261107-campaign-G07/matsuzaki-2004-wobbling-instability-prc-nucl-th-0309082.pdf",
+      "size": 734446,
+      "sha256": "0c8d23e8c8fb25fb3cab413447a74654afbbcf66ceeeda24b2212173cb9a154e"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261107-campaign-G07/gorgen-2004-163lu-quadrupole-moments-prc-record.json",
+      "size": 1687,
+      "sha256": "1dec6fbbd4f36b59ade1ef0e20bb92d5f5731e65abb26454d280420552292f3f"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261107-campaign-G07/hayes-2002-178hf-coulex-prl-record.json",
+      "size": 1377,
+      "sha256": "0f56a22d2eead562bcf7d884e0c50115b2e2d777ec1591d1b7356acf3efeb14c"
+    }
+  ],
+  "reported_command_count": 2,
+  "parent_validation": "See archive-final.json, lint-final.json, lint-delta.json and completion-checks.json; worker zero-error assertions are not adopted."
+}

@@ -1,0 +1,40 @@
+{
+  "task_id": "G08",
+  "agent_id": "01a1b640-fc3f-7030-b983-abdb5cab2d65",
+  "state": "completed-and-closed",
+  "scientific_disposition": "parent-audited-with-corrections",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "requested_reasoning_effort": "high",
+  "model_selection_evidence": "spawn_agent accepted explicit override; no provider token/cost telemetry inferred",
+  "worker_self_reported_model_unverified": "gpt-6",
+  "reconciled_at": "2026-11-07T14:28:53.325209+00:00",
+  "worker_receipt_original_sha256": "4cacfbd5ced8faf7c980416c4ad0184cc423a862edaf7abc17a01f8f03719595",
+  "original_receipt_local_scratch": "tmp/runs/20261107-large-nuclear-research/worker-receipt-snapshots/G08-receipt.json",
+  "scientific_authority": "Canonical knowledge/source pages and primary artifacts; this receipt is process provenance, not a scientific fact source.",
+  "canonical_knowledge": [
+    "knowledge/research-notes/campaign-g08-a190-shape-isomer-20261107.md"
+  ],
+  "parent_corrections_or_boundaries": [
+    "duplicate Ir source merged into existing canonical slug",
+    "tentative and unobserved low-energy paths retained",
+    "192Re does not directly test A194",
+    "Re target details and tentative spin corrected"
+  ],
+  "artifacts_rehashed": [
+    {
+      "path": "raw/papers/gpt/query/20261107-campaign-G08/dracoulis-2012-191193ir-triaxial-isomers.pdf",
+      "size": 488027,
+      "sha256": "d066b744ad61c5d624896e51c00aaaf265714bce3f57f306b230d143156b46fc"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261107-campaign-G08/watanabe-2021-192re-beta-decay.pdf",
+      "size": 749212,
+      "sha256": "58142e4d2335a126f270a3a076d7cc19d1d06c8ca9ed19c0a60adc207d7f9780"
+    }
+  ],
+  "reported_command_count": 2,
+  "parent_validation": "See archive-final.json, lint-final.json, lint-delta.json and completion-checks.json; worker zero-error assertions are not adopted.",
+  "path_reconciliation": {
+    "knowledge/sources/campaign-g08-dracoulis-2012-191193ir.md": "knowledge/sources/dracoulis-2012-191193ir-triaxial-isomers-preview.md"
+  }
+}

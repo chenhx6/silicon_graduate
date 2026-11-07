@@ -1,0 +1,25 @@
+{
+  "task_id": "G03",
+  "agent_id": "01a1b633-f316-7ca0-93e9-5378edcb83eb",
+  "state": "completed-and-closed",
+  "scientific_disposition": "parent-audited-with-corrections",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "requested_reasoning_effort": "high",
+  "model_selection_evidence": "spawn_agent accepted explicit override; no provider token/cost telemetry inferred",
+  "worker_self_reported_model_unverified": "antigravity/gemini-3.8-flash-tiered",
+  "reconciled_at": "2026-11-07T14:28:53.325209+00:00",
+  "worker_receipt_original_sha256": "6e9884c3c0bb2c39d266ace7c885780e108fdf828077628e1e1b8348164c6340",
+  "original_receipt_local_scratch": "tmp/runs/20261107-large-nuclear-research/worker-receipt-snapshots/G03-receipt.json",
+  "scientific_authority": "Canonical knowledge/source pages and primary artifacts; this receipt is process provenance, not a scientific fact source.",
+  "canonical_knowledge": [
+    "knowledge/research-notes/campaign-g03-ding60-fulltext-20261107.md"
+  ],
+  "parent_corrections_or_boundaries": [
+    "rigid ideal model not real Co fit",
+    "reference-list reading not original-citation verification",
+    "energy and geometric diagnostics separated"
+  ],
+  "artifacts_rehashed": [],
+  "reported_command_count": 0,
+  "parent_validation": "See archive-final.json, lint-final.json, lint-delta.json and completion-checks.json; worker zero-error assertions are not adopted."
+}

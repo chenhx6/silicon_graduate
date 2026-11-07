@@ -9,6 +9,15 @@ updated: 2026-11-07
 
 全库复习和研究选题入口：[[wiki-full-library-map-20261030]]。该页只做知识导航、证据分层和工作区整理边界，不替代各 `knowledge/sources/` 原件与 locator；代表性证据回链见 [[chakraborty-2023-131xe-wobbling-origin]] C23-D28-1 和 [[gaffney-2013-pear-shaped-rn-ra]] GA13-1。
 
+## 2026-11-07：规模化核结构研究续接
+
+本轮入口为[[isomer-six-region-transfer-research]]，三篇缺失期刊正文均已补得，
+新增六区比较、96Zr修订E3、Ir完整原文、组态依赖β衰变和精确角向控制；
+具体读取/数据边界见source与[[campaign-t01-finite-system-symmetry-identifiability-20261107]]。
+13个Gemini任务与1个Terra任务分波运行，结果经总控回到原件修订；
+不以额度、页数或并行数量认证科学结论。运行检查与完整文件范围见本轮回执。
+
+
 ## Current Snapshot: 2026-11-07 second-round isomer research
 
 [[isomer-six-region-transfer-research]]第二轮新增6个source与7篇研究笔记，

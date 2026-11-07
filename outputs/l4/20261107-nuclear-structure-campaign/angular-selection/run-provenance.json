@@ -1,0 +1,37 @@
+{
+  "schema": "research-run-provenance-v1",
+  "command": "python3 system/scripts/octupole_orbital_selection_audit.py --output /workspace/wiki/outputs/l4/20261107-nuclear-structure-campaign/angular-selection",
+  "actual_interpreter": "/workspace/wiki/tmp/runs/20261107-large-nuclear-research/angular-venv/bin/python",
+  "actual_argv": [
+    "system/scripts/octupole_orbital_selection_audit.py",
+    "--output",
+    "outputs/l4/20261107-nuclear-structure-campaign/angular-selection"
+  ],
+  "dependencies": {
+    "sympy": "1.14.0",
+    "python": "3.12.3"
+  },
+  "reading_scope": "Suhonen printed pp.29-30,121-124,127-128; PDF44-45,136-139,142-143",
+  "files": [
+    {
+      "path": "system/scripts/octupole_orbital_selection_audit.py",
+      "size": 7214,
+      "sha256": "e43e46ce76462f90c45364dc9756cf4ed0db62321b7453b125ff23914a599152"
+    },
+    {
+      "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "size": 6514067,
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c"
+    },
+    {
+      "path": "outputs/l4/20261107-nuclear-structure-campaign/angular-selection/angular-results.json",
+      "size": 6548,
+      "sha256": "3d9076a42acbd1e7c4f7bcf66d6f252432ea66d0eb29e9e606c198c15f01457d"
+    },
+    {
+      "path": "outputs/l4/20261107-nuclear-structure-campaign/angular-selection/angular-pairs.csv",
+      "size": 1107,
+      "sha256": "993ec899ba2e5b7b7a19b118a0b24ba84a4e858edea10e1fb01b47e666907d2a"
+    }
+  ]
+}

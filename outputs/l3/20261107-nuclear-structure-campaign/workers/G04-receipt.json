@@ -1,0 +1,31 @@
+{
+  "task_id": "G04",
+  "agent_id": "01a1b634-2850-7103-9a52-50d1998c03de",
+  "state": "completed-and-closed",
+  "scientific_disposition": "parent-audited-with-corrections",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "requested_reasoning_effort": "high",
+  "model_selection_evidence": "spawn_agent accepted explicit override; no provider token/cost telemetry inferred",
+  "worker_self_reported_model_unverified": "antigravity/gemini-3.8-flash-tiered",
+  "reconciled_at": "2026-11-07T14:28:53.325209+00:00",
+  "worker_receipt_original_sha256": "5c96dc9d217f8361f394d72f5c752892238276598951f9c92f32835016332592",
+  "original_receipt_local_scratch": "tmp/runs/20261107-large-nuclear-research/worker-receipt-snapshots/G04-receipt.json",
+  "scientific_authority": "Canonical knowledge/source pages and primary artifacts; this receipt is process provenance, not a scientific fact source.",
+  "canonical_knowledge": [
+    "knowledge/research-notes/campaign-g04-a60-a80-transfer-20261107.md"
+  ],
+  "parent_corrections_or_boundaries": [
+    "60Ni N=32, not N=40 closed-shell claim",
+    "uncomputed region-wide prohibitions removed",
+    "69Ga target thickness and installed/used detectors corrected"
+  ],
+  "artifacts_rehashed": [
+    {
+      "path": "raw/papers/gpt/query/20261107-campaign-G04/idoko-2025-69ga-highspin.pdf",
+      "size": 3180335,
+      "sha256": "0435aca5d4bc736de8d9d94a81a2e852808bc940bb6505339bf3b16672f13b4a"
+    }
+  ],
+  "reported_command_count": 3,
+  "parent_validation": "See archive-final.json, lint-final.json, lint-delta.json and completion-checks.json; worker zero-error assertions are not adopted."
+}

@@ -1,0 +1,38 @@
+{
+  "checked_manifests": [
+    "/workspace/wiki/raw/papers/gpt/query/20261107-campaign-G04/manifest.json",
+    "/workspace/wiki/raw/papers/gpt/query/20261107-campaign-G05/manifest.json",
+    "/workspace/wiki/raw/papers/gpt/query/20261107-campaign-G06/manifest.json",
+    "/workspace/wiki/raw/papers/gpt/query/20261107-campaign-G07/manifest.json",
+    "/workspace/wiki/raw/papers/gpt/query/20261107-campaign-G08/manifest.json",
+    "/workspace/wiki/raw/papers/gpt/query/20261107-campaign-G09/manifest.json",
+    "/workspace/wiki/raw/papers/gpt/query/20261107-campaign-G13/manifest.json",
+    "/workspace/wiki/raw/papers/gpt/query/20261107-campaign-lead-verification/manifest.json",
+    "/workspace/wiki/raw/papers/gpt/query/20261107-user-fulltext-intake/manifest.json",
+    "/workspace/wiki/raw/theses/gpt/learning-daily/20261107-campaign-G12/manifest.json"
+  ],
+  "checked_sources": [
+    "/workspace/wiki/knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+    "/workspace/wiki/knowledge/sources/campaign-g04-idoko-2025-69ga-highspin.md",
+    "/workspace/wiki/knowledge/sources/campaign-g05-rong-2023-96zr-mdc-cdft.md",
+    "/workspace/wiki/knowledge/sources/campaign-g06-chen-2026-triaxial-softness-wobbling.md",
+    "/workspace/wiki/knowledge/sources/campaign-g06-kruzsicz-2025-105pd.md",
+    "/workspace/wiki/knowledge/sources/campaign-g07-gorgen-2004-163lu-quadrupole-moments.md",
+    "/workspace/wiki/knowledge/sources/campaign-g07-hayes-2002-178hf-coulex-paths.md",
+    "/workspace/wiki/knowledge/sources/campaign-g07-matsuzaki-2004-wobbling-instability.md",
+    "/workspace/wiki/knowledge/sources/campaign-g08-watanabe-2021-192re.md",
+    "/workspace/wiki/knowledge/sources/campaign-g09-nesterenko-2020-in-isomers.md",
+    "/workspace/wiki/knowledge/sources/campaign-g09-taprogge-2015-129cd-beta-decay.md",
+    "/workspace/wiki/knowledge/sources/campaign-g12-saracino-2026-thesis.md",
+    "/workspace/wiki/knowledge/sources/campaign-g13-iskra-2019-96zr-revised-e3.md",
+    "/workspace/wiki/knowledge/sources/ding-2025-chiral-rotation-a60-residual-interactions.md",
+    "/workspace/wiki/knowledge/sources/dracoulis-2012-191193ir-triaxial-isomers-preview.md",
+    "/workspace/wiki/knowledge/sources/karmakar-2025-2026-98mo-octupole-preview.md",
+    "/workspace/wiki/knowledge/sources/mach-1990-96zr.md",
+    "/workspace/wiki/knowledge/sources/saracino-2026-102ru-scissors-octupole-resonances.md"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "ok": true,
+  "scope": "paths"
+}

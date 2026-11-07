@@ -14,6 +14,9 @@ tags: [102ru, 100ru, nrf, octupole, scissors-mode, mechanism-transfer, l3]
 
 # Ru链低自旋与高自旋偶极研究的连接
 
+
+> 本轮续接更新（2026-11-07）：102Ru7页出版正文现已取得并核读，详见[[campaign-g02-ru102-fulltext-20261107]]；SI仍未取得。以下的摘要/网页边界是第二轮历史时点，不覆盖当前正文读取。
+
 ## Research Trigger
 
 C1原先集中于N=56的100Ru/98Mo。本轮检索发现102Ru(N=58)的2026 NRF论文，

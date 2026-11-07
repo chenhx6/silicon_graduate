@@ -1,0 +1,545 @@
+{
+  "started_at": "2026-11-07T13:29:38.710788+00:00",
+  "user_reported_gemini_available_tokens": ">1B (not independently metered; not an instruction to consume that amount)",
+  "research_status": "active-L3/L4",
+  "runtime_isolation": "protocol-only disjoint paths in shared workspace; no sandbox claim",
+  "phase": "completed-bounded-milestone",
+  "phases": [
+    "intake",
+    "dispatch",
+    "read-and-test",
+    "independent-audit",
+    "integrate",
+    "validate",
+    "publish-checkpoint"
+  ],
+  "contracts": [
+    {
+      "task_id": "G01",
+      "topic": "mo98-fulltext",
+      "depends_on": [],
+      "read_paths": [
+        "knowledge/",
+        "raw/papers/",
+        "raw/theses/",
+        "raw/books/"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/campaign-g01-mo98-fulltext-20261107.md",
+        "outputs/l3/20261107-nuclear-structure-campaign/workers/G01-receipt.json",
+        "tmp/runs/20261107-large-nuclear-research/G01/",
+        "raw/papers/gpt/query/20261107-campaign-G01/",
+        "knowledge/sources/campaign-g01-*.md",
+        "knowledge/sources/karmakar-2025-2026-98mo-octupole-preview.md"
+      ],
+      "resources": [],
+      "permissions": {
+        "spawn": false,
+        "commit": false,
+        "push": false,
+        "overwrite_raw": false
+      },
+      "retry": {
+        "max": 1
+      },
+      "verification": [
+        "primary-source-and-locator-check",
+        "explicit-archive-gate",
+        "scope-diff-check"
+      ],
+      "state": "completed-and-closed",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "agent_id": "01a1b633-8729-7953-bc03-d5bef855bcd0",
+      "dispatched_at": "2026-11-07T13:32:19.470560+00:00",
+      "result_receipt": "outputs/l3/20261107-nuclear-structure-campaign/workers/G01-receipt.json"
+    },
+    {
+      "task_id": "G02",
+      "topic": "ru102-fulltext",
+      "depends_on": [],
+      "read_paths": [
+        "knowledge/",
+        "raw/papers/",
+        "raw/theses/",
+        "raw/books/"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/campaign-g02-ru102-fulltext-20261107.md",
+        "outputs/l3/20261107-nuclear-structure-campaign/workers/G02-receipt.json",
+        "tmp/runs/20261107-large-nuclear-research/G02/",
+        "raw/papers/gpt/query/20261107-campaign-G02/",
+        "knowledge/sources/campaign-g02-*.md",
+        "knowledge/sources/saracino-2026-102ru-scissors-octupole-resonances.md"
+      ],
+      "resources": [],
+      "permissions": {
+        "spawn": false,
+        "commit": false,
+        "push": false,
+        "overwrite_raw": false
+      },
+      "retry": {
+        "max": 1
+      },
+      "verification": [
+        "primary-source-and-locator-check",
+        "explicit-archive-gate",
+        "scope-diff-check"
+      ],
+      "state": "completed-and-closed",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "agent_id": "01a1b633-b932-7c43-958a-a6a11ad66fed",
+      "dispatched_at": "2026-11-07T13:32:19.470560+00:00",
+      "result_receipt": "outputs/l3/20261107-nuclear-structure-campaign/workers/G02-receipt.json"
+    },
+    {
+      "task_id": "G03",
+      "topic": "ding60-fulltext",
+      "depends_on": [],
+      "read_paths": [
+        "knowledge/",
+        "raw/papers/",
+        "raw/theses/",
+        "raw/books/"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/campaign-g03-ding60-fulltext-20261107.md",
+        "outputs/l3/20261107-nuclear-structure-campaign/workers/G03-receipt.json",
+        "tmp/runs/20261107-large-nuclear-research/G03/",
+        "raw/papers/gpt/query/20261107-campaign-G03/",
+        "knowledge/sources/campaign-g03-*.md",
+        "knowledge/sources/ding-2025-chiral-rotation-a60-residual-interactions.md"
+      ],
+      "resources": [],
+      "permissions": {
+        "spawn": false,
+        "commit": false,
+        "push": false,
+        "overwrite_raw": false
+      },
+      "retry": {
+        "max": 1
+      },
+      "verification": [
+        "primary-source-and-locator-check",
+        "explicit-archive-gate",
+        "scope-diff-check"
+      ],
+      "state": "completed-and-closed",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "agent_id": "01a1b633-f316-7ca0-93e9-5378edcb83eb",
+      "dispatched_at": "2026-11-07T13:32:19.470560+00:00",
+      "result_receipt": "outputs/l3/20261107-nuclear-structure-campaign/workers/G03-receipt.json"
+    },
+    {
+      "task_id": "G04",
+      "topic": "a60-a80-transfer",
+      "depends_on": [],
+      "read_paths": [
+        "knowledge/",
+        "raw/papers/",
+        "raw/theses/",
+        "raw/books/"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/campaign-g04-a60-a80-transfer-20261107.md",
+        "outputs/l3/20261107-nuclear-structure-campaign/workers/G04-receipt.json",
+        "tmp/runs/20261107-large-nuclear-research/G04/",
+        "raw/papers/gpt/query/20261107-campaign-G04/",
+        "knowledge/sources/campaign-g04-*.md"
+      ],
+      "resources": [],
+      "permissions": {
+        "spawn": false,
+        "commit": false,
+        "push": false,
+        "overwrite_raw": false
+      },
+      "retry": {
+        "max": 1
+      },
+      "verification": [
+        "primary-source-and-locator-check",
+        "explicit-archive-gate",
+        "scope-diff-check"
+      ],
+      "state": "completed-and-closed",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "agent_id": "01a1b634-2850-7103-9a52-50d1998c03de",
+      "dispatched_at": "2026-11-07T13:32:19.470560+00:00",
+      "result_receipt": "outputs/l3/20261107-nuclear-structure-campaign/workers/G04-receipt.json"
+    },
+    {
+      "task_id": "G05",
+      "topic": "a100-softness-octupole",
+      "depends_on": [],
+      "read_paths": [
+        "knowledge/",
+        "raw/papers/",
+        "raw/theses/",
+        "raw/books/"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/campaign-g05-a100-softness-octupole-20261107.md",
+        "outputs/l3/20261107-nuclear-structure-campaign/workers/G05-receipt.json",
+        "tmp/runs/20261107-large-nuclear-research/G05/",
+        "raw/papers/gpt/query/20261107-campaign-G05/",
+        "knowledge/sources/campaign-g05-*.md"
+      ],
+      "resources": [],
+      "permissions": {
+        "spawn": false,
+        "commit": false,
+        "push": false,
+        "overwrite_raw": false
+      },
+      "retry": {
+        "max": 1
+      },
+      "verification": [
+        "primary-source-and-locator-check",
+        "explicit-archive-gate",
+        "scope-diff-check"
+      ],
+      "state": "completed-and-closed",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "agent_id": "01a1b634-5d61-7dd0-b397-d911c555e3e6",
+      "dispatched_at": "2026-11-07T13:32:19.470560+00:00",
+      "result_receipt": "outputs/l3/20261107-nuclear-structure-campaign/workers/G05-receipt.json"
+    },
+    {
+      "task_id": "G06",
+      "topic": "a130-wobbling-discrimination",
+      "depends_on": [],
+      "read_paths": [
+        "knowledge/",
+        "raw/papers/",
+        "raw/theses/",
+        "raw/books/"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/campaign-g06-a130-wobbling-discrimination-20261107.md",
+        "outputs/l3/20261107-nuclear-structure-campaign/workers/G06-receipt.json",
+        "tmp/runs/20261107-large-nuclear-research/G06/",
+        "raw/papers/gpt/query/20261107-campaign-G06/",
+        "knowledge/sources/campaign-g06-*.md"
+      ],
+      "resources": [],
+      "permissions": {
+        "spawn": false,
+        "commit": false,
+        "push": false,
+        "overwrite_raw": false
+      },
+      "retry": {
+        "max": 1
+      },
+      "verification": [
+        "primary-source-and-locator-check",
+        "explicit-archive-gate",
+        "scope-diff-check"
+      ],
+      "state": "completed-and-closed",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "agent_id": "01a1b634-9734-7670-928c-6d54566040e2",
+      "dispatched_at": "2026-11-07T13:32:19.470560+00:00",
+      "result_receipt": "outputs/l3/20261107-nuclear-structure-campaign/workers/G06-receipt.json"
+    },
+    {
+      "task_id": "G07",
+      "topic": "a160-tsd-kmix",
+      "depends_on": [],
+      "read_paths": [
+        "knowledge/",
+        "raw/papers/",
+        "raw/theses/",
+        "raw/books/"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/campaign-g07-a160-tsd-kmix-20261107.md",
+        "outputs/l3/20261107-nuclear-structure-campaign/workers/G07-receipt.json",
+        "tmp/runs/20261107-large-nuclear-research/G07/",
+        "raw/papers/gpt/query/20261107-campaign-G07/",
+        "knowledge/sources/campaign-g07-*.md"
+      ],
+      "resources": [],
+      "permissions": {
+        "spawn": false,
+        "commit": false,
+        "push": false,
+        "overwrite_raw": false
+      },
+      "retry": {
+        "max": 1
+      },
+      "verification": [
+        "primary-source-and-locator-check",
+        "explicit-archive-gate",
+        "scope-diff-check"
+      ],
+      "state": "completed-and-closed",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "next_action": "dispatch after a running worker returns and is closed",
+      "agent_id": "01a1b640-5275-7871-8bc1-58da71ee47ed",
+      "result_receipt": "outputs/l3/20261107-nuclear-structure-campaign/workers/G07-receipt.json"
+    },
+    {
+      "task_id": "G08",
+      "topic": "a190-shape-isomer",
+      "depends_on": [],
+      "read_paths": [
+        "knowledge/",
+        "raw/papers/",
+        "raw/theses/",
+        "raw/books/"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/campaign-g08-a190-shape-isomer-20261107.md",
+        "outputs/l3/20261107-nuclear-structure-campaign/workers/G08-receipt.json",
+        "tmp/runs/20261107-large-nuclear-research/G08/",
+        "raw/papers/gpt/query/20261107-campaign-G08/",
+        "knowledge/sources/campaign-g08-*.md"
+      ],
+      "resources": [],
+      "permissions": {
+        "spawn": false,
+        "commit": false,
+        "push": false,
+        "overwrite_raw": false
+      },
+      "retry": {
+        "max": 1
+      },
+      "verification": [
+        "primary-source-and-locator-check",
+        "explicit-archive-gate",
+        "scope-diff-check"
+      ],
+      "state": "completed-and-closed",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "next_action": "dispatch after a running worker returns and is closed",
+      "agent_id": "01a1b640-fc3f-7030-b983-abdb5cab2d65",
+      "result_receipt": "outputs/l3/20261107-nuclear-structure-campaign/workers/G08-receipt.json"
+    },
+    {
+      "task_id": "G09",
+      "topic": "shell-weak-isomer",
+      "depends_on": [],
+      "read_paths": [
+        "knowledge/",
+        "raw/papers/",
+        "raw/theses/",
+        "raw/books/"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/campaign-g09-shell-weak-isomer-20261107.md",
+        "outputs/l3/20261107-nuclear-structure-campaign/workers/G09-receipt.json",
+        "tmp/runs/20261107-large-nuclear-research/G09/",
+        "raw/papers/gpt/query/20261107-campaign-G09/",
+        "knowledge/sources/campaign-g09-*.md"
+      ],
+      "resources": [],
+      "permissions": {
+        "spawn": false,
+        "commit": false,
+        "push": false,
+        "overwrite_raw": false
+      },
+      "retry": {
+        "max": 1
+      },
+      "verification": [
+        "primary-source-and-locator-check",
+        "explicit-archive-gate",
+        "scope-diff-check"
+      ],
+      "state": "completed-and-closed",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "next_action": "dispatch after a running worker returns and is closed",
+      "agent_id": "01a1b642-049c-7262-b7c4-80e0de4c7d20",
+      "result_receipt": "outputs/l3/20261107-nuclear-structure-campaign/workers/G09-receipt.json"
+    },
+    {
+      "task_id": "T01",
+      "topic": "finite-system-symmetry-identifiability",
+      "depends_on": [],
+      "read_paths": [
+        "knowledge/",
+        "raw/papers/",
+        "raw/theses/",
+        "raw/books/"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/campaign-t01-finite-system-symmetry-identifiability-20261107.md",
+        "outputs/l3/20261107-nuclear-structure-campaign/workers/T01-receipt.json",
+        "tmp/runs/20261107-large-nuclear-research/T01/",
+        "raw/papers/gpt/query/20261107-campaign-T01/",
+        "knowledge/sources/campaign-t01-*.md"
+      ],
+      "resources": [],
+      "permissions": {
+        "spawn": false,
+        "commit": false,
+        "push": false,
+        "overwrite_raw": false
+      },
+      "retry": {
+        "max": 1
+      },
+      "verification": [
+        "primary-source-and-locator-check",
+        "explicit-archive-gate",
+        "scope-diff-check"
+      ],
+      "state": "completed-and-closed",
+      "model": "codex/gpt-6.1-terra",
+      "reasoning_effort": "xhigh",
+      "next_action": "dispatch after a running worker returns and is closed",
+      "agent_id": "01a1b63e-0db2-74e2-8021-0b86da702a34",
+      "result_receipt": "outputs/l3/20261107-nuclear-structure-campaign/workers/T01-receipt.json"
+    },
+    {
+      "task_id": "G10",
+      "depends_on": [],
+      "resources": [],
+      "permissions": {
+        "spawn": false,
+        "commit": false,
+        "push": false,
+        "overwrite_raw": false
+      },
+      "retry": {
+        "max": 1
+      },
+      "verification": [
+        "source identity",
+        "actual read scope",
+        "primary locator audit"
+      ],
+      "state": "completed-and-closed",
+      "agent_id": "01a1b643-4ae5-7993-98ba-9e19eff574b5",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "result_receipt": "outputs/l3/20261107-nuclear-structure-campaign/workers/G10-receipt.json",
+      "write_paths": [
+        "outputs/l3/20261107-nuclear-structure-campaign/workers/G10-receipt.json",
+        "tmp/runs/20261107-large-nuclear-research/G10/"
+      ],
+      "role": "independent-source-audit"
+    },
+    {
+      "task_id": "G11",
+      "depends_on": [],
+      "resources": [],
+      "permissions": {
+        "spawn": false,
+        "commit": false,
+        "push": false,
+        "overwrite_raw": false
+      },
+      "retry": {
+        "max": 1
+      },
+      "verification": [
+        "source identity",
+        "actual read scope",
+        "primary locator audit"
+      ],
+      "state": "completed-and-closed",
+      "agent_id": "01a1b644-2c1d-7cb1-abfc-21d528cac570",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "result_receipt": "outputs/l3/20261107-nuclear-structure-campaign/workers/G11-receipt.json",
+      "write_paths": [
+        "outputs/l3/20261107-nuclear-structure-campaign/workers/G11-receipt.json",
+        "tmp/runs/20261107-large-nuclear-research/G11/"
+      ],
+      "role": "independent-source-audit"
+    },
+    {
+      "task_id": "G12",
+      "depends_on": [],
+      "resources": [],
+      "permissions": {
+        "spawn": false,
+        "commit": false,
+        "push": false,
+        "overwrite_raw": false
+      },
+      "retry": {
+        "max": 1
+      },
+      "verification": [
+        "source identity",
+        "actual read scope",
+        "primary locator audit"
+      ],
+      "state": "completed-and-closed",
+      "agent_id": "01a1b64a-ca82-7df3-b8dc-7ad76c54f6b3",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "result_receipt": "outputs/l3/20261107-nuclear-structure-campaign/workers/G12-receipt.json",
+      "canonical_knowledge": [
+        "knowledge/sources/campaign-g12-saracino-2026-thesis.md"
+      ]
+    },
+    {
+      "task_id": "G13",
+      "depends_on": [],
+      "resources": [],
+      "permissions": {
+        "spawn": false,
+        "commit": false,
+        "push": false,
+        "overwrite_raw": false
+      },
+      "retry": {
+        "max": 1
+      },
+      "verification": [
+        "source identity",
+        "actual read scope",
+        "primary locator audit"
+      ],
+      "state": "completed-and-closed",
+      "agent_id": "01a1b64d-733b-7411-9b81-f96e0d981dea",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "result_receipt": "outputs/l3/20261107-nuclear-structure-campaign/workers/G13-receipt.json",
+      "canonical_knowledge": [
+        "knowledge/research-notes/campaign-g13-zr96-revised-e3-20261107.md"
+      ]
+    }
+  ],
+  "leader_next": "publication verification for completed checkpoint; next scientific contracts are in canonical project",
+  "stop_rules": [
+    "per-question evidence saturation",
+    "missing decisive input with documented next step",
+    "user steering",
+    "verification reserve"
+  ],
+  "daily_scheduler_modified": false,
+  "observed_concurrency": {
+    "successful_running_workers": 6,
+    "next_spawn": "agent thread limit reached",
+    "policy": "bounded waves; no claim of six globally allowed threads"
+  },
+  "reconciled_at": "2026-11-07T14:28:53.325209+00:00",
+  "workers_requested": {
+    "gemini_high": 13,
+    "terra_xhigh": 1
+  },
+  "workers_active": 0,
+  "scientific_status": "active-L3; completed bounded intake/comparison/model milestone; unresolved research inputs retained",
+  "runtime_status": "all campaign workers closed; no new daemon or background scheduler created",
+  "publication_receipt": "outputs/l3/20261107-nuclear-structure-campaign/publication-final-receipt.local.json"
+}

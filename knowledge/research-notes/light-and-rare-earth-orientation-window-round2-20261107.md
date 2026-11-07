@@ -14,6 +14,9 @@ tags: [chirality, wobbling, a60, rare-earth, configuration, l3]
 
 # 取向窗口：按组态比较，不从局部图推全域禁戒
 
+
+> 本轮续接更新（2026-11-07）：Ding2025正文现已取得并核读，见[[campaign-g03-ding60-fulltext-20261107]]；稀土比较推进见[[campaign-g07-a160-tsd-kmix-20261107]]。下文保留第二轮当时的获取/模型边界。
+
 ## Research Trigger
 
 C3需要明确轻区/稀土激发组态的取向窗口及新文献。

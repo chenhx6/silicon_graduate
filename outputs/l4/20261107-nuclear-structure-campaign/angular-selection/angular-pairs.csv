@@ -1,0 +1,11 @@
+initial,final,purpose,delta_l,delta_j,parity_ok,j_triangle_ok,l_triangle_ok,reduced_angular_squared,B_angular,B_angular_numeric,nonzero_angular
+p1/2,g9/2,withdrawn legacy A100 driver,3,4,True,False,True,0,0,0.0,False
+p3/2,g9/2,light-region angular candidate,3,3,True,True,True,10/(3*pi),5/(6*pi),0.2652582384864922,True
+d5/2,h11/2,medium-region angular candidate,3,3,True,True,True,50/(11*pi),25/(33*pi),0.24114385316953837,True
+f7/2,i13/2,rare-earth angular candidate,3,3,True,True,True,2450/(429*pi),1225/(1716*pi),0.2272317077943727,True
+g9/2,j15/2,heavy-region angular candidate,3,3,True,True,True,980/(143*pi),98/(143*pi),0.21814243948259782,True
+p1/2,d5/2,allowed delta-l=1 counterexample,1,2,True,True,True,3/(2*pi),3/(4*pi),0.238732414637843,True
+d3/2,f5/2,allowed delta-j=1 counterexample,1,1,True,True,True,6/(5*pi),3/(10*pi),0.0954929658551372,True
+p1/2,p3/2,parity and triangle negative control,0,1,False,False,False,0,0,0.0,False
+s1/2,p1/2,j-sum negative control,1,0,True,False,False,0,0,0.0,False
+s1/2,f7/2,allowed stretched counterexample,3,3,True,True,True,2/pi,1/pi,0.3183098861837907,True

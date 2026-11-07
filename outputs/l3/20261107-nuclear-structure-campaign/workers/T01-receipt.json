@@ -1,0 +1,24 @@
+{
+  "task_id": "T01",
+  "agent_id": "01a1b63e-0db2-74e2-8021-0b86da702a34",
+  "state": "completed-and-closed",
+  "scientific_disposition": "parent-audited-bounded-reconstruction",
+  "requested_model": "codex/gpt-6.1-terra",
+  "requested_reasoning_effort": "xhigh",
+  "model_selection_evidence": "spawn_agent accepted explicit override; no provider token/cost telemetry inferred",
+  "worker_self_reported_model_unverified": "GPT-6 Codex (developer-provided identity)",
+  "reconciled_at": "2026-11-07T14:28:53.325209+00:00",
+  "worker_receipt_original_sha256": "38a6a3f510bc74b30054f1b976079158f67728d77b4cebfde68d5da83a74ba20",
+  "original_receipt_local_scratch": "tmp/runs/20261107-large-nuclear-research/worker-receipt-snapshots/T01-receipt.json",
+  "scientific_authority": "Canonical knowledge/source pages and primary artifacts; this receipt is process provenance, not a scientific fact source.",
+  "canonical_knowledge": [
+    "knowledge/research-notes/campaign-t01-finite-system-symmetry-identifiability-20261107.md"
+  ],
+  "parent_corrections_or_boundaries": [
+    "retained bounded symmetry/tensor reconstruction",
+    "relative output path bug fixed and producer rerun by parent"
+  ],
+  "artifacts_rehashed": [],
+  "reported_command_count": 0,
+  "parent_validation": "See archive-final.json, lint-final.json, lint-delta.json and completion-checks.json; worker zero-error assertions are not adopted."
+}

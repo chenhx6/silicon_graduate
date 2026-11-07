@@ -3,6 +3,18 @@ graph-excluded: true
 updated: 2026-11-07
 ---
 
+## 2026-11-07 — 规模化核结构研究：首批正文与证据更新
+
+- 用户提供98Mo、102Ru、Ding三篇正文，并要求Gemini主力规模化L3/L4研究。按指定路由派发13项Gemini/high、1项Terra/xhigh，均已回传并关闭；未把用户额度当实测余额，未创建新daemon/调度。
+- canonical入口knowledge/projects/isomer-six-region-transfer-research.md。新增12source+12note，三主综合与八极微观综合同步；Ir完整原件合回旧canonical，用户3PDF哈希不变。
+- 认识变化：Iskra2019的96Zr42(3)W.u.更新历史65(10)参照；102Ru有效E1与残余力同曲线联合拟合；有限<Q3>=0不是无内禀形变；Ding能谱/几何响应不同；Ir长寿命不唯一好K；129Cd近等寿命不唯一gA/组态。具体claim均回source。
+- L4角向控制10轨道对/42磁投影：p1/2–g9/2秩3为0，三种构造一致；径向/多体/真实形状不在该控制范围。原相对输出路径provenance问题已修正，重放见本批回执。
+- 自审：隔离并撤回worker无源阈值、全区禁戒、读取夸大、相空间二次处理和表行串读等；review标注不作科学或发布门。18source/10manifest归档、preflight通过；lint129/435，相对137/425新增error0、修复8既有error。其余检查以outputs/l3/20261107-nuclear-structure-campaign/为准。
+- 开放问题：98Mo绝对E3/寿命、102Ru SI/Cov/原有效算符推导、Saracino博士正文、Ir/Os共同模型与β完整支路；不要求用户逐项确认，不声称科学问题均闭合。研究active-L3，本批里程碑完成；所有worker已回收。
+- 下一步按project四条共同输入合同择优，避免复算已闭合seniority toy。保留用户PLAN、课程、调度、原始证据与既有get-paper安装。
+- 稳定发布指针main / research: expand six-region study with full texts and evidence controls；最终精确hash/push/post-commit只写本批publication-final-receipt.local.json。
+
+
 ## 2026-11-07 — 同核异能态与六区迁移第二轮
 
 - 用户继续研究，5个Gemini/high与1个Terra/xhigh已回收；总控独立回查原表、访问边界及算符。

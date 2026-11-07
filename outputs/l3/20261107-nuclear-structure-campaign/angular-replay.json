@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "stdout": "{\n  \"pairs\": 10,\n  \"checks_passed\": true,\n  \"initial_m_values_checked\": 42\n}\n",
+  "stderr": "",
+  "relative_output_path_supported": true,
+  "byte_identical": {
+    "angular-results.json": true,
+    "angular-pairs.csv": true
+  },
+  "ok": true
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": "G11",
+  "agent_id": "01a1b644-2c1d-7cb1-abfc-21d528cac570",
+  "state": "completed-and-closed",
+  "scientific_disposition": "parent-audited-with-corrections",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "requested_reasoning_effort": "high",
+  "model_selection_evidence": "spawn_agent accepted explicit override; no provider token/cost telemetry inferred",
+  "worker_self_reported_model_unverified": "antigravity/gemini-3.8-flash-tiered",
+  "reconciled_at": "2026-11-07T14:28:53.325209+00:00",
+  "worker_receipt_original_sha256": "991ccef9165f3867059c065724d5fce8f5a2987d457f8be61bbcf197659111b6",
+  "original_receipt_local_scratch": "tmp/runs/20261107-large-nuclear-research/worker-receipt-snapshots/G11-receipt.json",
+  "scientific_authority": "Canonical knowledge/source pages and primary artifacts; this receipt is process provenance, not a scientific fact source.",
+  "canonical_knowledge": [],
+  "parent_corrections_or_boundaries": [
+    "row mapping and target corrections used",
+    "global mean-field conclusions limited to actual coordinate scheme",
+    "long quotations omitted from public receipt"
+  ],
+  "artifacts_rehashed": [],
+  "reported_command_count": 3,
+  "parent_validation": "See archive-final.json, lint-final.json, lint-delta.json and completion-checks.json; worker zero-error assertions are not adopted."
+}

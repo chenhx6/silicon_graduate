@@ -1,0 +1,32 @@
+{
+  "exit_code": 0,
+  "fields": [
+    "status",
+    "updated_at",
+    "scan_roots",
+    "works",
+    "artifacts",
+    "with_sources",
+    "source_records",
+    "published_editions_identified_locally",
+    "publication_known_bibliographically",
+    "local_edition_unclassified",
+    "preprint_only_locally",
+    "attachments",
+    "missing_paths",
+    "unreadable",
+    "warnings",
+    "refresh"
+  ],
+  "scope": [
+    "raw/papers",
+    "raw/books",
+    "raw/theses",
+    "raw/reports",
+    "raw/notes"
+  ],
+  "updated_at": "2026-11-07T14:31:28.192251+00:00",
+  "warnings_count": 1,
+  "purpose": "refresh metadata catalogue once for newly supplied/acquired artifacts; not a learning-completion claim",
+  "full_result_private_cache": "tmp/runs/20261107-large-nuclear-research/catalog-refresh.stdout.json"
+}

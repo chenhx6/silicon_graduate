@@ -1,0 +1,56 @@
+{
+  "verified_at": "2026-11-07T13:26:39.450125+00:00",
+  "files": [
+    {
+      "id": "mo98",
+      "path": "raw/papers/⁹⁸Mo A possible candidate for octupole collectivity in A ≈ 100 region.pdf",
+      "size": 8676647,
+      "sha256": "958364569a5a07aa7dee2fc8d44a150b1fa876b9cb5a8e3636bb6a4a84f970b1",
+      "pages": 8,
+      "text_chars_by_page": [
+        4176,
+        6184,
+        1833,
+        5766,
+        5342,
+        3604,
+        4432,
+        7590
+      ]
+    },
+    {
+      "id": "ru102",
+      "path": "raw/papers/Low-Energy Dipole Strength Distribution in ¹⁰²Ru Coexistence of Scissors and Octupole Resonances.pdf",
+      "size": 610850,
+      "sha256": "4bc6bb6c613b121bae9def9d9bedf37e9c02db89eca265c4c16d5dd9ecf43a89",
+      "pages": 7,
+      "text_chars_by_page": [
+        5831,
+        6571,
+        5540,
+        6991,
+        6880,
+        6860,
+        5689
+      ]
+    },
+    {
+      "id": "ding60",
+      "path": "raw/papers/Exploring chiral rotation in A ≈ 60 nuclei  Role of residual interactions.pdf",
+      "size": 3159427,
+      "sha256": "5264bd9192b988021d2ee21f2861bce80f2f7ac04ba26f04ea3f0e8125be599e",
+      "pages": 9,
+      "text_chars_by_page": [
+        2130,
+        5476,
+        6593,
+        6995,
+        3520,
+        5001,
+        4560,
+        7679,
+        5018
+      ]
+    }
+  ]
+}

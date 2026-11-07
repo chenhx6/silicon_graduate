@@ -1,0 +1,50 @@
+{
+  "task_id": "G12",
+  "agent_id": "01a1b64a-ca82-7df3-b8dc-7ad76c54f6b3",
+  "state": "completed-and-closed",
+  "scientific_disposition": "parent-audited-with-corrections",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "requested_reasoning_effort": "high",
+  "model_selection_evidence": "spawn_agent accepted explicit override; no provider token/cost telemetry inferred",
+  "worker_self_reported_model_unverified": "gpt-6",
+  "reconciled_at": "2026-11-07T14:28:53.325209+00:00",
+  "worker_receipt_original_sha256": "0b3c8d82325e2f8bc9f9ef285e301e618d96bbb354bbcad27f323aa847541706",
+  "original_receipt_local_scratch": "tmp/runs/20261107-large-nuclear-research/worker-receipt-snapshots/G12-receipt.json",
+  "scientific_authority": "Canonical knowledge/source pages and primary artifacts; this receipt is process provenance, not a scientific fact source.",
+  "canonical_knowledge": [
+    "knowledge/sources/campaign-g12-saracino-2026-thesis.md"
+  ],
+  "parent_corrections_or_boundaries": [
+    "metadata only; no verified thesis page count or chapter tables",
+    "network timeout does not prove worldwide unavailability"
+  ],
+  "artifacts_rehashed": [
+    {
+      "path": "raw/theses/gpt/learning-daily/20261107-campaign-G12/datacite-10.17615-1vm0-8v43.json",
+      "size": 9278,
+      "sha256": "757ab015e4188398720e717e98ee0f0d9f1c0a108263b13a53bcab16f244f60b"
+    },
+    {
+      "path": "raw/theses/gpt/learning-daily/20261107-campaign-G12/datacite-10.17615-1vm0-8v43.xml",
+      "size": 3690,
+      "sha256": "2623c6f3c2bd03b09d72c81e80dd342bb676f983a31cae6df42d4bdbdb769838"
+    },
+    {
+      "path": "raw/theses/gpt/learning-daily/20261107-campaign-G12/openalex-W7162770916.json",
+      "size": 15587,
+      "sha256": "44991f5c5988427b095b2a3c5f95d8ae42372be569da9d3ec72e0c6e650de094"
+    },
+    {
+      "path": "raw/theses/gpt/learning-daily/20261107-campaign-G12/proquest-preview-summary.json",
+      "size": 1297,
+      "sha256": "b3df99e0c3c292559eaef22da11aa7ffb9d641b131fbbde4601ff40c6b6f9c33"
+    },
+    {
+      "path": "raw/theses/gpt/learning-daily/20261107-campaign-G12/manifest.json",
+      "size": 2765,
+      "sha256": "32bae41dfae58613ae94550672439db20f70b8ec02dd298a0889a1ae588032ba"
+    }
+  ],
+  "reported_command_count": 2,
+  "parent_validation": "See archive-final.json, lint-final.json, lint-delta.json and completion-checks.json; worker zero-error assertions are not adopted."
+}

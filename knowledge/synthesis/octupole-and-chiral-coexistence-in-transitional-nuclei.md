@@ -149,11 +149,11 @@ D0绝对值既可能增强也可能相消，不存在统一0.1–0.3 e·fm的静
 3−₁→0+₁为65(10)W.u.，但不同Woods–Saxon版本分别给极软结构和非零β3极小。
 因此“强E3＝唯一静态”与“强E3＝一定只有振动”都超过了这些证据。
 [[karmakar-2025-98mo-dae]]是两页学位研究摘要，称该次98Mo数据不足以看到交错E1；
-它不提供两条新E3的精确态对和绝对强度，期刊正文仍需补得。
+它不提供两条新E3的精确态对和绝对强度，期刊正文现已补得，见[[campaign-g01-mo98-fulltext-20261107]]；绝对E3/寿命仍缺。
 
 [[saracino-2026-102ru-scissors-octupole-resonances]]把比较延伸到N=58的低自旋NRF。
-当前取得的是发表摘要与作者网页：M1与E1分布及八极解释应分别保存，
-不能替代原文QRPA算符、分支/feeding或直接E3矩阵元核验。
+本轮已取得出版正文，M1/E1观测、作者八极解释与Eq2共同拟合依赖分别保存；
+SI/完整分支及直接E3仍缺，见[[campaign-g02-ru102-fulltext-20261107]]。
 这些结果提供跨组态研究动机，不构成手征—八极四带的新增确证。
 
 ## Limitations and Missing Evidence
@@ -173,3 +173,11 @@ D0阈值和未经原文支持的连续相变表述已撤回。
 - [[xiao-xiao-2019-high-spin-74as-thesis]]
 - [[xiao-2022-chirality-octupole-correlations-74as]]
 - [[guo-2024-chiral-wobbler-74br]]
+
+## 本轮认识修订：有限宇称态与更新E3参照
+
+[[campaign-t01-finite-system-symmetry-identifiability-20261107]]的代数重建指出，
+有限核宇称本征态<Q3μ>=0与内禀局域梨形可以并存；不能用实验室非零对角Q3或零方差
+作静态形变的通用门。新增Iskra2019直接原文给96Zr向下42(3)W.u.，
+见[[campaign-g13-iskra-2019-96zr-revised-e3]]；本页上方65(10)只代表Mach1990历史报告。
+这些更新强化逐态、逐算符与多观测量比较，未增加已确证CPQ实例。

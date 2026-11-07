@@ -1,0 +1,165 @@
+{
+  "baseline_counts": {
+    "error": 137,
+    "warning": 425,
+    "info": 5494
+  },
+  "final_counts": {
+    "error": 129,
+    "warning": 435,
+    "info": 5486
+  },
+  "new_counts": {
+    "warning": 12,
+    "info": 3
+  },
+  "resolved_counts": {
+    "error": 8,
+    "warning": 2,
+    "info": 11
+  },
+  "new_issues": [
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/campaign-g04-idoko-2025-69ga-highspin.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/campaign-g05-rong-2023-96zr-mdc-cdft.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/campaign-g06-chen-2026-triaxial-softness-wobbling.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/campaign-g06-kruzsicz-2025-105pd.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/campaign-g07-gorgen-2004-163lu-quadrupole-moments.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/campaign-g07-hayes-2002-178hf-coulex-paths.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/campaign-g07-matsuzaki-2004-wobbling-instability.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/campaign-g08-watanabe-2021-192re.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/campaign-g09-nesterenko-2020-in-isomers.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/campaign-g09-taprogge-2015-129cd-beta-decay.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/campaign-g12-saracino-2026-thesis.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/campaign-g13-iskra-2019-96zr-revised-e3.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "info",
+      "code": "CLAIM_NEEDS_REVIEW",
+      "path": "knowledge/sources/campaign-g06-chen-2026-triaxial-softness-wobbling.md",
+      "message": "CH26-1 historical needs_review annotation: true"
+    },
+    {
+      "severity": "info",
+      "code": "CLAIM_NEEDS_REVIEW",
+      "path": "knowledge/sources/campaign-g06-chen-2026-triaxial-softness-wobbling.md",
+      "message": "CH26-2 historical needs_review annotation: true"
+    },
+    {
+      "severity": "info",
+      "code": "CLAIM_NEEDS_REVIEW",
+      "path": "knowledge/sources/campaign-g06-chen-2026-triaxial-softness-wobbling.md",
+      "message": "CH26-3 historical needs_review annotation: true"
+    }
+  ],
+  "resolved_errors": [
+    {
+      "severity": "error",
+      "code": "HIGH_UNCONFIRMED",
+      "path": "knowledge/synthesis/octupole-collectivity-microscopic-matrix-elements-cross-regions.md",
+      "message": "confidence: high requires high_confirmed_by and high_confirmed_date"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/synthesis/octupole-collectivity-microscopic-matrix-elements-cross-regions.md",
+      "message": "missing ## Question and Scope"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/synthesis/octupole-collectivity-microscopic-matrix-elements-cross-regions.md",
+      "message": "missing ## Evidence Matrix"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/synthesis/octupole-collectivity-microscopic-matrix-elements-cross-regions.md",
+      "message": "missing ## Synthesis"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/synthesis/octupole-collectivity-microscopic-matrix-elements-cross-regions.md",
+      "message": "missing ## Counter-evidence"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/synthesis/octupole-collectivity-microscopic-matrix-elements-cross-regions.md",
+      "message": "missing ## Model Dependence"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/synthesis/octupole-collectivity-microscopic-matrix-elements-cross-regions.md",
+      "message": "missing ## Limitations and Missing Evidence"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/synthesis/octupole-collectivity-microscopic-matrix-elements-cross-regions.md",
+      "message": "missing ## Sources"
+    }
+  ],
+  "exit_code": 0,
+  "policy": "Scope delta separates inherited issues; no linter or config change."
+}
