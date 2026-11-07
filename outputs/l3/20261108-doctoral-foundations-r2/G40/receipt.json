@@ -1,0 +1,36 @@
+{
+  "task": "G40",
+  "agent_id": "01a1b7af-99c4-7d50-8d3c-cfb61257f314",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "requested_effort": "high",
+  "runtime_turn_contexts": [
+    {
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "effort": "high"
+    },
+    {
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "effort": "high"
+    }
+  ],
+  "state": "returned-parent-audited-and-closed",
+  "observed_at": "2026-11-07T21:05:59.875730+00:00",
+  "original_generated_draft_snapshots": [
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G40/receipt.json",
+      "sha256": "6777b679b91b453e68604012c6716012b91027992a2ce66e2ed19066102dcb89"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G40/report.md",
+      "sha256": "334aebeecf66a47eccfe38bf05f31f121f70dba269f95482423a95bafef786a1"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G40/source-drafts.md",
+      "sha256": "9613b9941783a4d3109eb17e1aa3979329d29e0e67568dd0f7eef5672847cd50"
+    }
+  ],
+  "knowledge_sources": [
+    "afanasjev-abusara-2010-time-odd-rotating-systems"
+  ],
+  "scientific_boundary": "Canonical knowledge replaces overbroad worker assertions. Runtime route is not provider billing."
+}

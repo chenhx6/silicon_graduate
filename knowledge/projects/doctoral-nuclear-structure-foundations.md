@@ -17,6 +17,15 @@ tags: [doctoral-foundations, collective-excitation, triaxiality, cross-region, r
 
 ## 当前任务与阶段边界
 
+### Agent active summary
+
+R1 六区/两翼与电子学案例已发布；R2 补入集体质量、空间/配对响应、
+时间奇场及实际 Lu 表重算。入口为
+[[doctoral-r2-collective-inertia-response-crosswalk-20261108]] 和
+[[doctoral-r2-inertia-evidence-and-band-reconstruction-20261108]]。
+总体 goal 仍 active、仍在第一阶段；当前没有清空 A130 或启动论文正文。
+下一步重点是形状振动与取向模的共同模型/实验接口及基础解释能力核查。
+
 用户要求先全力研学，再重建博士论文。当前阶段是核结构研究准备，不是正文扩写。
 总控负责问题选择、基础推导、原件核查、跨区综合与最终就绪判断；
 Gemini Flash Tiered/high承担大部分分域研学；复杂理论交给Terra/xhigh。
@@ -92,7 +101,7 @@ Gemini Flash Tiered/high承担大部分分域研学；复杂理论交给Terra/xh
 | 旋转对称性与形变语言 | [[cline-1986-nuclear-shapes-coulomb-excitation]] | 实验室态、体坐标、张量、有效形状及有限体系的区别 | 原始历史来源、算符约定与清晰解释 |
 | 四极形状矩与高阶闭合 | [[poves-2020-limits-assigning-nuclear-shape]]、[[henderson-2020-quadrupole-invariant-convergence]] | 有限矩、符号环、截断、加权角分布及误差 | T03推进真实动力学可识别性；避免重做checkpoint113/150 |
 | γ软/刚与集体Hamiltonian | [[universal-triaxial-collective-mechanics-and-cross-region-migration]] | 测度、势曲率、惯量、边界条件、能标 | 静态矩与动力学信息的独立性 |
-| 转子、振动与配对 | [[book-bohr-mottelson-nuclear-structure-vol2]] | 近似如何产生、失效在哪里、对应什么观测 | 已核集体极限；下一轮深化微观惯量/时间奇响应，不照抄skill速记 |
+| 转子、振动与配对 | [[book-bohr-mottelson-nuclear-structure-vol2]] | 近似如何产生、失效在哪里、对应什么观测 | R2已核坐标质量、PC/IB/TV、实/虚QRPA、空间/配对NG与实际应用；共同模型、非绝热域和原producer仍有缺口 |
 | 壳演化与组态重排 | [[campaign-g05-rong-2023-96zr-mdc-cdft]] | 单极、张量、配对、占据反馈和type-II机制 | Zr实验与微观模型的合同，继续补基础综述 |
 | 形状共存与混合 | [[triaxial-collective-evolution-across-mass-regions]] | E0、绝对E2、对角矩阵元、混合及可辨别性 | Ge/Kr/Zr/Hg原件的状态映射 |
 | 手征动力学 | [[octupole-and-chiral-coexistence-in-transitional-nuclei]] | 对称性、有限隧穿、波函数、EM模式及替代解释 | 跨区组态与核芯可变性的共同模型 |
@@ -162,15 +171,26 @@ Gemini Flash Tiered/high承担大部分分域研学；复杂理论交给Terra/xh
 
 部分worker初稿出现了理论列误当实验、跃迁方向/统计因子错误、页码/版本不符、
 普适化阈值和不实遥测。总控以原件缩减重建，未把修辞强度或多模型同意作为证据。
-已核知识与过程草稿的身份应保持明确；源内数值疑点不应猜测修补。23个source/14个collection的局部归档门已通过；整库发布检查以本批最终回执为准。
+已核知识与过程草稿的身份应保持明确；源内数值疑点不应猜测修补。R1的23个source/15个collection的局部归档门已通过；整库发布检查以本批最终回执为准。
 Kumar1972全文、部分真实核的完整矩阵元/Cov、联合形状—取向波函数和用户实验设置仍缺。
 这些科学边界不等于请求用户确认，也不妨碍发布已正确限定的研究结果。
 
 ## Next Actions
 
-本批已形成六区新证据、形状动力学、电子学及两翼原件学习。
-下一轮优先深化微观集体惯量、配对响应和时间奇均场，继续检验形状—取向共同输入。
+R2已深化微观集体惯量、配对响应和时间奇均场，
+并保留实际原作版本、反方、输入标定和实验映射边界。
+七项Gemini任务（六域加一项窄审计）与一项Terra理论审计均回传；
+总控纠正页数、DOI、概率图/E0误读、响应定义及无源阈值后建立canonical知识。
+真实20行Lu表重算不等于原DSAM生产计算或模式确认。
+
+下一轮优先把形状振动与取向小振幅模的联系放到明确模型：
+回原始历史定义、核量子标签、集体坐标/非绝热近似和未拟合EM，
+找实际可运行的共同输入，避免不断生成没有区分力的同义toy。
+同时以初学者解释能力检查覆盖旋转对称恢复、形状涨落、惯量/配对、
+角关联/混合比/寿命以及吴论文电子学到物理观测的完整链。
+依据这些具体缺口复盘第一阶段就绪条件，而非无限扩张题录或等待所有争议消失。
 某条路径只有重复材料、没有区分观测或关键输入不可得时，记录边界并转向其它问题。
 每批结束更新覆盖状态、候选与下一步；保持原生goal，直到第一阶段准备目标实际达成。
 过程回执在`outputs/l3/20261108-doctoral-foundations-r1/`，
-执行计划在`outputs/plans/20261108-doctoral-foundations.md`。
+R2在`outputs/l3/20261108-doctoral-foundations-r2/`；
+执行计划为`outputs/plans/20261108-doctoral-foundations.md`及R2计划。

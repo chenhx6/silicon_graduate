@@ -1,0 +1,10 @@
+{
+  "task": "G44",
+  "state": "parent-curated",
+  "canonical_sources": [
+    "hinohara-2010-local-qrpa-shape-mixing",
+    "sato-hinohara-2011-krypton-shape-mixing"
+  ],
+  "original_snapshot": "tmp/runs/20261108-doctoral-r2-worker-originals/G44/audit.json",
+  "boundary": "Original audit contained additional unsupported generalizations; only canonical source-level results retained"
+}

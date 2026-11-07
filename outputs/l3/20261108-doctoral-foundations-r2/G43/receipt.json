@@ -1,0 +1,45 @@
+{
+  "task": "G43",
+  "agent_id": "01a1b7b0-5132-7193-9159-705a3dccbd78",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "requested_effort": "high",
+  "runtime_turn_contexts": [
+    {
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "effort": "high"
+    },
+    {
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "effort": "high"
+    },
+    {
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "effort": "high"
+    }
+  ],
+  "state": "returned-parent-audited-and-closed",
+  "observed_at": "2026-11-07T21:05:59.875730+00:00",
+  "original_generated_draft_snapshots": [
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G43/receipt.json",
+      "sha256": "dac5d40b7ea68f320097f731096f0593e3a8ebfe739cf2aebd570dd74499fa25"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G43/report.md",
+      "sha256": "7c6b966a7ce47f2b40b5fede9436b3097d0e96d1f6fc17cff6fbff45cfa3517e"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G43/search-ledger.json",
+      "sha256": "c19aef007de393188d43a4b2de181af995cfca2ad6b550f26d744d46c5e3e362"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G43/source-drafts.md",
+      "sha256": "e07a56578d1128653ca796a439970ad6d2ce051c5aae3ffb598594f8489c96c6"
+    }
+  ],
+  "knowledge_sources": [
+    "washiyama-2024-five-dimensional-improved-inertia",
+    "sun-2025-iterative-atdhfb-rare-earth-inertia"
+  ],
+  "scientific_boundary": "Canonical knowledge replaces overbroad worker assertions. Runtime route is not provider billing."
+}

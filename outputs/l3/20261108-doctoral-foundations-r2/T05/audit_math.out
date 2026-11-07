@@ -1,0 +1,16 @@
+utc: 2026-11-07T20:47:37.355805+00:00
+python: 3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]
+numpy: 2.5.4
+130Xe, inverse response / energy curvature C (MeV):
+ [[ 0.08343067 -0.23607177]
+ [-0.23607177  0.34376074]]
+det(C) (MeV^2): -0.027049689852041217
+eigenvalues(C) (MeV): [-0.05598325  0.48317467]
+S=-inverse(C) (MeV^-1):
+ [[12.70849109  8.72733725]
+ [ 8.72733725  3.08434846]]
+coefficient for deltaN=deltaZ=t (MeV): -0.022476059998223247
+non-nuclear Hessian control, IB curvature 2, alternatives TV curvature 4 or 1:
+curvature: 2.0 susceptibility: 0.5
+curvature: 4.0 susceptibility: 0.25
+curvature: 1.0 susceptibility: 1.0

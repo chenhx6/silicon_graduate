@@ -3,7 +3,7 @@ type: observable
 title: 转动惯量
 aliases: [moments of inertia, kinematic moment of inertia, dynamic moment of inertia, J1, J2]
 created: 2026-07-02
-updated: 2026-10-15
+updated: 2026-11-08
 status: active
 review_status: unreviewed
 observable_kind: rotational-response
@@ -92,6 +92,29 @@ Peng and Chen 2022 provides another failure mode: its mean-field `J^(2)` curves 
 
 [day14_pr136_inertia_paths.py](../../system/scripts/day14_pr136_inertia_paths.py)与[71-check回执](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/pr136-inertia-paths.json)核actualPDF/16条主输入、branch/closure、两种stencil、signature、source Eq3、quadratic-rotor极限、offset/gain和conditional covariance。首次68项后补了direct PC22式和能量起点控制，最终71项通过。实际crossing机制、γ/转轴或shape coexistence仍不能由这些曲率唯一决定。
 
+## 空间零频、横向有效响应与配对惯量（2026-11-08）
+
+[[petrik-kortelainen-2018-rotational-tv-inertia]] Eq.(18) 从严格零频
+角动量响应求空间 TV；[[matsuzaki-2004-nuclear-inertia-and-wobbling]]
+Eqs.(11)–(12) 的横向有效惯量则在摆动模频率处进入色散关系。
+它们不能自动等同于从一条有限自旋能带取得的 J(2)。
+在无额外模型限制时，单带标量序列不唯一决定一般横向张量；
+有明确参数化时，多自旋点仍可以约束模型参数，不是绝对反演禁戒。
+
+对 \(I\to I-2\)，量子转子形式为
+\(J_{\rm quant}^{(1)}=(2I-1)\hbar^2/E_\gamma\)；
+若以半经典中点自旋 \(I-1\) 除以 \(E_\gamma/(2\hbar)\)，
+则得到另一个声明估计 \(J_{\rm mid}^{(1)}=2(I-1)\hbar^2/E_\gamma\)。
+比较前先核对自旋/频率标签，不能把两约定的差视为新的物理变化。
+真实163Lu两表的20行重算、同母态E2比及误差边界见
+[[doctoral-r2-inertia-evidence-and-band-reconstruction-20261108]]。
+
+[[hinohara-2015-nambu-goldstone-inertia-response]] 的粒子数规范旋转为
+\(\mathcal J_N=\partial N/\partial\lambda\)，单位 MeV⁻¹；
+它不等于空间转动惯量、配对幅度质量或 BCS gap。
+本文献有发表版/预印本公式差异，具体使用回source的版本说明。
+以上为定义与模型适用边界的Agent self-audit，不新增用户审核事件。
+
 ## Sources
 
 - [[lv-2025-136pr-tac-covariant-density-functional]] LV25-31、LV25-34、LV25-35：实际D4能量/路径及原输入边界。
@@ -99,6 +122,9 @@ Peng and Chen 2022 provides another failure mode: its mean-field `J^(2)` curves 
 - [[de-voigt-dudek-szymanski-1983-high-spin-phenomena]]
 - [[domscheit-1999-triaxial-superdeformation-163lu]]
 - [[peng-chen-2022-chiral-rotation-rhodium-isotopes]]
+- [[petrik-kortelainen-2018-rotational-tv-inertia]]
+- [[matsuzaki-2004-nuclear-inertia-and-wobbling]]
+- [[hinohara-2015-nambu-goldstone-inertia-response]]
 
 ## Evolution Log
 

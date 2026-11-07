@@ -1,0 +1,37 @@
+{
+  "recorded_at": "2026-11-07T20:58:27.144737+00:00",
+  "command": "python3 system/scripts/doctoral_r2_gorgen_band_response.py",
+  "script_sha256": "900c305b65b5a1a086baa2d98032d0a8061bad66270ef9c96a3b23358803fd4a",
+  "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "inputs": [
+    {
+      "path": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/gorgen2004-inputs-parent-verified.csv",
+      "sha256": "ae6de2581c36b77af8caedd419683974730b1469fbe0c81ea4bcbd244627066f"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "outputs/l4/20261108-band-response-definitions/derived-observables.json",
+      "sha256": "5319d82014a71d675066aee1f9f770336a53a0563aaaf9ee100862c052c87761"
+    }
+  ],
+  "units": "energy keV or MeV as labelled; spin number in hbar; inertia hbar^2/MeV",
+  "checks": {
+    "published_table_rows_and_spin_paths": true,
+    "quantum_rotor_limit": true,
+    "source_labelled_first_energy": true,
+    "interband_reference_labels": true,
+    "interband_arithmetic": true
+  },
+  "boundaries": [
+    "Nominal transforms of rounded tables; output digits are not measurement precision",
+    "No energy covariance or uncertainty available; no confidence intervals calculated",
+    "Ew is a declared interband midpoint energy, not an independent mode identification",
+    "BE2 ratio uses a common parent; no independent-lifetime uncertainty assumption"
+  ]
+}

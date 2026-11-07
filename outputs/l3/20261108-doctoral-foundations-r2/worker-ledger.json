@@ -1,0 +1,333 @@
+{
+  "task_date": "2026-11-08",
+  "started_at": "2026-11-07T20:28:06.474967+00:00",
+  "parent_goal": "01a1b53d-130f-7f42-985b-7a51dbc9f8d0",
+  "phase": "doctoral-foundations-before-thesis-design",
+  "brainstorm_route": "bounded scientific investigation in existing project",
+  "fast_context": {
+    "active": false
+  },
+  "acceptance": [
+    "Source-specific raw identity, hash and actual scope",
+    "Correct response definitions, units and approximation crosswalk",
+    "Evidence-based migration candidates with rivals and falsifiers",
+    "Canonical knowledge writeback and bounded checks",
+    "Preserve A130 and PLAN; explicit scoped publication"
+  ],
+  "workers": [
+    {
+      "task": "G38",
+      "agent_id": "01a1b7af-03e6-7a03-90c9-c70a1b73258a",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "runtime_turn_contexts": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "state": "returned-parent-audited-and-closed",
+      "observed_at": "2026-11-07T21:05:59.875730+00:00",
+      "original_generated_draft_snapshots": [
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G38/receipt.json",
+          "sha256": "f346a5b18ea5bd1cccc1c1d05e1c36c9f6be8d58c951ae44de8b057e39a79126"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G38/report.md",
+          "sha256": "ac787cc6bd4680537d63caa8f0e4f15e2671b69b9dade86b45d9dae0bbcdf336"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G38/source-drafts.md",
+          "sha256": "c0bcc9787c96b0bb40561b1fe60186177914f25af701e3867431babfc9c4cda0"
+        }
+      ],
+      "knowledge_sources": [
+        "hinohara-2010-local-qrpa-shape-mixing",
+        "sato-hinohara-2011-krypton-shape-mixing"
+      ],
+      "scientific_boundary": "Canonical knowledge replaces overbroad worker assertions. Runtime route is not provider billing."
+    },
+    {
+      "task": "G39",
+      "agent_id": "01a1b7af-4395-75e1-90ac-e154468f052f",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "runtime_turn_contexts": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "state": "returned-parent-audited-and-closed",
+      "observed_at": "2026-11-07T21:05:59.875730+00:00",
+      "original_generated_draft_snapshots": [
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G39/receipt.json",
+          "sha256": "c8029cbc022d03a959e920b424656421cf7273dace129f34142f0b4856ee7939"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G39/report.md",
+          "sha256": "7103a926d570d8af35745fe196902c7fe7ee62724310808d5aea4e8010905aec"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G39/source-drafts.md",
+          "sha256": "995e74b2bb5efb036f4f04ef1256d6d7100d2b1f27d96c46145430336f2643ae"
+        }
+      ],
+      "knowledge_sources": [
+        "hinohara-2015-nambu-goldstone-inertia-response",
+        "petrik-kortelainen-2018-rotational-tv-inertia"
+      ],
+      "scientific_boundary": "Canonical knowledge replaces overbroad worker assertions. Runtime route is not provider billing."
+    },
+    {
+      "task": "G40",
+      "agent_id": "01a1b7af-99c4-7d50-8d3c-cfb61257f314",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "runtime_turn_contexts": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "state": "returned-parent-audited-and-closed",
+      "observed_at": "2026-11-07T21:05:59.875730+00:00",
+      "original_generated_draft_snapshots": [
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G40/receipt.json",
+          "sha256": "6777b679b91b453e68604012c6716012b91027992a2ce66e2ed19066102dcb89"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G40/report.md",
+          "sha256": "334aebeecf66a47eccfe38bf05f31f121f70dba269f95482423a95bafef786a1"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G40/source-drafts.md",
+          "sha256": "9613b9941783a4d3109eb17e1aa3979329d29e0e67568dd0f7eef5672847cd50"
+        }
+      ],
+      "knowledge_sources": [
+        "afanasjev-abusara-2010-time-odd-rotating-systems"
+      ],
+      "scientific_boundary": "Canonical knowledge replaces overbroad worker assertions. Runtime route is not provider billing."
+    },
+    {
+      "task": "G41",
+      "agent_id": "01a1b7af-d1dc-7f90-8e9c-da9c84cb1d4f",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "runtime_turn_contexts": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "state": "returned-parent-audited-and-closed",
+      "observed_at": "2026-11-07T21:05:59.875730+00:00",
+      "original_generated_draft_snapshots": [
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G41/receipt.json",
+          "sha256": "60c96593ff9c14377fce0280d662c6eced77525dfca1d79ceba16cfa56d27f6b"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G41/report.md",
+          "sha256": "cb75f2b9f2b23c097cdba039065675735d072d1ccb66192a331f53c4dc0dc96a"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G41/source-drafts.md",
+          "sha256": "d2370b7c0fc52e8be94ba9ca5870bb84f2dcc2e4e90e22ee8d193b31fda4704a"
+        }
+      ],
+      "knowledge_sources": [
+        "xiang-2024-triaxial-pairing-collective-hamiltonian",
+        "nomura-2021-pairing-triaxial-vibrations-gamma-soft"
+      ],
+      "scientific_boundary": "Canonical knowledge replaces overbroad worker assertions. Runtime route is not provider billing."
+    },
+    {
+      "task": "G42",
+      "agent_id": "01a1b7b0-0b09-7831-a392-6b0833191d1a",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "runtime_turn_contexts": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "state": "returned-parent-audited-and-closed",
+      "observed_at": "2026-11-07T21:05:59.875730+00:00",
+      "original_generated_draft_snapshots": [
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G42/crossref_audit_034306_mismatch.json",
+          "sha256": "2cd2c350a9475b0117ec155e03e6e0f0b2545392e22aa6efb7b51d47dff98163"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G42/crossref_verified_034325.json",
+          "sha256": "60928a0dffb8a5e6e2e232259cf58926f317264791c8bba5f5ccfce92268e278"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G42/gorgen2004_calculated_moments.csv",
+          "sha256": "ce8b9897c4655d4f4c84b7df388c9def4c021375c958c819ab7f9edbf40aa653"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G42/gorgen2004_inputs.csv",
+          "sha256": "e088c5236c228a6063408241010d86ea87e03735dbd681fcdaebe9a2a80be064"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G42/produce_moments.py",
+          "sha256": "fd4ece49fbe5a172ee845bb9247c384f38fb9022e72f81bae11b7249b8835bc9"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G42/receipt.json",
+          "sha256": "c03aecab217bd2b00ab0f336cc6f208dfe63421db3865fc198ca023a00e6b1c0"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G42/report.md",
+          "sha256": "3f8423aa9903c5fa61e998ddd8629a50e1100e40534483f2b56c027f840c102f"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G42/source-drafts.md",
+          "sha256": "cd346f8910e3bdcb1bda695d4ec57080ef9dedcb07ea35e5e4f355c83617fc6d"
+        }
+      ],
+      "knowledge_sources": [
+        "matsuzaki-2004-nuclear-inertia-and-wobbling",
+        "matsuzaki-2004-wobbling-publishers-note",
+        "campaign-g07-gorgen-2004-163lu-quadrupole-moments"
+      ],
+      "scientific_boundary": "Canonical knowledge replaces overbroad worker assertions. Runtime route is not provider billing."
+    },
+    {
+      "task": "G43",
+      "agent_id": "01a1b7b0-5132-7193-9159-705a3dccbd78",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "runtime_turn_contexts": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "state": "returned-parent-audited-and-closed",
+      "observed_at": "2026-11-07T21:05:59.875730+00:00",
+      "original_generated_draft_snapshots": [
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G43/receipt.json",
+          "sha256": "dac5d40b7ea68f320097f731096f0593e3a8ebfe739cf2aebd570dd74499fa25"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G43/report.md",
+          "sha256": "7c6b966a7ce47f2b40b5fede9436b3097d0e96d1f6fc17cff6fbff45cfa3517e"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G43/search-ledger.json",
+          "sha256": "c19aef007de393188d43a4b2de181af995cfca2ad6b550f26d744d46c5e3e362"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G43/source-drafts.md",
+          "sha256": "e07a56578d1128653ca796a439970ad6d2ce051c5aae3ffb598594f8489c96c6"
+        }
+      ],
+      "knowledge_sources": [
+        "washiyama-2024-five-dimensional-improved-inertia",
+        "sun-2025-iterative-atdhfb-rare-earth-inertia"
+      ],
+      "scientific_boundary": "Canonical knowledge replaces overbroad worker assertions. Runtime route is not provider billing."
+    },
+    {
+      "task": "G44",
+      "agent_id": "01a1b7bc-8dca-7b60-87dd-8d9a230aee6c",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "runtime_turn_contexts": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "state": "returned-parent-audited-and-closed",
+      "observed_at": "2026-11-07T21:05:59.875730+00:00",
+      "original_generated_draft_snapshots": [
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G44/audit.json",
+          "sha256": "9710ce992ae192bd32df614b6ba5bd72049a790d4187952641d20af83fdea3e0"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G44/audit.md",
+          "sha256": "6c93366edc4dff344b1024721e413e6dd9359b2197a610934d0c8428ce9588d9"
+        }
+      ],
+      "knowledge_sources": [
+        "hinohara-2010-local-qrpa-shape-mixing",
+        "sato-hinohara-2011-krypton-shape-mixing"
+      ],
+      "scientific_boundary": "Canonical knowledge replaces overbroad worker assertions. Runtime route is not provider billing."
+    },
+    {
+      "task": "T05",
+      "agent_id": "01a1b7bb-2194-7c82-9a02-b4e25c4c94a2",
+      "requested_model": "codex/gpt-6.1-terra",
+      "requested_effort": "xhigh",
+      "runtime_turn_contexts": [
+        {
+          "model": "codex/gpt-6.1-terra",
+          "effort": "xhigh"
+        },
+        {
+          "model": "codex/gpt-6.1-terra",
+          "effort": "xhigh"
+        }
+      ],
+      "state": "returned-parent-audited-and-closed",
+      "observed_at": "2026-11-07T21:05:59.875730+00:00",
+      "original_generated_draft_snapshots": [
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/T05/audit_math.out",
+          "sha256": "3f9fe581c3cf631b54334f5b021b37b5012cfe1ee90d41a98fe06e112115c3d1"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/T05/audit_math.py",
+          "sha256": "4845c220af5d1899985985a28e0881b4a98ae4cf0f0e7eaea371802dc7b74e00"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/T05/hinohara-2015-p06.png",
+          "sha256": "9ea8176cefbaf87cdce214d5c8c1022374eecd2cecff699d91214bd33884358a"
+        },
+        {
+          "path": "tmp/runs/20261108-doctoral-r2-worker-originals/T05/report.md",
+          "sha256": "3ae7be85c02d7c14470a42344d22e79c7c5a4b4d456d50063683cc796a764536"
+        }
+      ],
+      "knowledge_sources": [
+        "hinohara-2015-nambu-goldstone-inertia-response",
+        "prochniak-rohozinski-2009-bohr-collective-hamiltonian"
+      ],
+      "scientific_boundary": "Canonical knowledge replaces overbroad worker assertions. Runtime route is not provider billing."
+    }
+  ],
+  "closed_at": "2026-11-07T21:05:59.875730+00:00",
+  "counts": {
+    "gemini": 7,
+    "terra": 1
+  },
+  "route_verified_from_turn_context": true
+}

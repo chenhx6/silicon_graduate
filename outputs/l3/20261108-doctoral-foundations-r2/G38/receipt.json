@@ -1,0 +1,33 @@
+{
+  "task": "G38",
+  "agent_id": "01a1b7af-03e6-7a03-90c9-c70a1b73258a",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "requested_effort": "high",
+  "runtime_turn_contexts": [
+    {
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "effort": "high"
+    }
+  ],
+  "state": "returned-parent-audited-and-closed",
+  "observed_at": "2026-11-07T21:05:59.875730+00:00",
+  "original_generated_draft_snapshots": [
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G38/receipt.json",
+      "sha256": "f346a5b18ea5bd1cccc1c1d05e1c36c9f6be8d58c951ae44de8b057e39a79126"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G38/report.md",
+      "sha256": "ac787cc6bd4680537d63caa8f0e4f15e2671b69b9dade86b45d9dae0bbcdf336"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G38/source-drafts.md",
+      "sha256": "c0bcc9787c96b0bb40561b1fe60186177914f25af701e3867431babfc9c4cda0"
+    }
+  ],
+  "knowledge_sources": [
+    "hinohara-2010-local-qrpa-shape-mixing",
+    "sato-hinohara-2011-krypton-shape-mixing"
+  ],
+  "scientific_boundary": "Canonical knowledge replaces overbroad worker assertions. Runtime route is not provider billing."
+}

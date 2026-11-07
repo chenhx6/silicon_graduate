@@ -1,0 +1,35 @@
+{
+  "sources": [
+    "knowledge/sources/afanasjev-abusara-2010-time-odd-rotating-systems.md",
+    "knowledge/sources/hinohara-2010-local-qrpa-shape-mixing.md",
+    "knowledge/sources/hinohara-2015-nambu-goldstone-inertia-response.md",
+    "knowledge/sources/matsuzaki-2004-nuclear-inertia-and-wobbling.md",
+    "knowledge/sources/matsuzaki-2004-wobbling-publishers-note.md",
+    "knowledge/sources/petrik-kortelainen-2018-rotational-tv-inertia.md",
+    "knowledge/sources/prochniak-rohozinski-2009-bohr-collective-hamiltonian.md",
+    "knowledge/sources/sato-hinohara-2011-krypton-shape-mixing.md",
+    "knowledge/sources/sun-2025-iterative-atdhfb-rare-earth-inertia.md",
+    "knowledge/sources/washiyama-2024-five-dimensional-improved-inertia.md",
+    "knowledge/sources/xiang-2024-triaxial-pairing-collective-hamiltonian.md",
+    "knowledge/sources/campaign-g07-gorgen-2004-163lu-quadrupole-moments.md",
+    "knowledge/sources/nomura-2021-pairing-triaxial-vibrations-gamma-soft.md"
+  ],
+  "manifests": [
+    "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/manifest.json",
+    "raw/papers/gpt/query/20261108-r2-g38-lqrpa-light/manifest.json",
+    "raw/papers/gpt/query/20261108-r2-g39-fam-ng/manifest.json",
+    "raw/papers/gpt/query/20261108-r2-g40-time-odd-rotation/manifest.json",
+    "raw/papers/gpt/query/20261108-r2-g41-pairing-shape/manifest.json",
+    "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/manifest.json",
+    "raw/papers/gpt/query/20261108-r2-g43-new-collective-response/manifest.json",
+    "raw/papers/gpt/query/20261108-r2-identity-check/manifest.json",
+    "raw/papers/gpt/query/20261108-r2-t05-response-definitions/manifest.json",
+    "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/source-manifest.json",
+    "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/gorgen-inputs-manifest.json",
+    "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/identity-manifest.json",
+    "raw/papers/gpt/query/20261108-r2-identity-check/supplementary-manifest.json"
+  ],
+  "source_count": 13,
+  "collection_count": 13,
+  "recorded_at": "2026-11-07T21:11:50.194420+00:00"
+}

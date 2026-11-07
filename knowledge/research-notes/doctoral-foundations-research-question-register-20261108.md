@@ -7,7 +7,7 @@ updated: 2026-11-08
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
-evidence_sources: [cline-1986-nuclear-shapes-coulomb-excitation, doctoral-r1-g29-wang-2024-exploring-wobbling-even-even, doctoral-r1-g29-nomura-2022-questioning-wobbling-ibfm, doctoral-r1-g28-togashi-2016-zr-mcsm-qpt, doctoral-r1-g27-clement-2007-prc-krypton-coulex, wu-hongyi-2020-general-purpose-digital-daq-thesis]
+evidence_sources: [cline-1986-nuclear-shapes-coulomb-excitation, doctoral-r1-g29-wang-2024-exploring-wobbling-even-even, doctoral-r1-g29-nomura-2022-questioning-wobbling-ibfm, doctoral-r1-g28-togashi-2016-zr-mcsm-qpt, doctoral-r1-g27-clement-2007-prc-krypton-coulex, wu-hongyi-2020-general-purpose-digital-daq-thesis, washiyama-2024-five-dimensional-improved-inertia, xiang-2024-triaxial-pairing-collective-hamiltonian, sun-2025-iterative-atdhfb-rare-earth-inertia, matsuzaki-2004-nuclear-inertia-and-wobbling]
 created_from: "用户auto/brainstorm要求；分域独立发散、原件核查与总控反方筛选"
 promotion_target: ""
 tags: [doctoral-foundations, scientific-brainstorming, mechanism-transfer, identifiability, research-design]
@@ -69,6 +69,35 @@ RPA中称为γ振动的模还可能携带不同旋称，不能把它直接等同
 **这是任务条件推断，不是实核新预言。**
 总控已核早期Oi/Walker与新的Bhat等原件，详见[[doctoral-r1-g37-shape-orientation-coupling-history-20261108]]。即使模型显示模性质随自旋演化，也要比较具体波函数、EM和守恒标签。
 其新颖性、是否已有同样机制以及哪些核区可实现，均待原件而非先验宣称。
+
+### R2 后重新生成的问题：惯量与响应（2026-11-08）
+
+本轮使用 scientific-brainstorming 的独立分域生成、证据检查和反方筛选。
+提示已指定主题与已知问题，因此属于文献启发的 AI 辅助发散，不声称盲态独立发现。
+没有以投票或伪精确打分选择“赢家”；按信息增益、输入可得性及可区分性排序。
+具体原件矩阵与概念合同见
+[[doctoral-r2-collective-inertia-response-crosswalk-20261108]]、
+[[doctoral-r2-inertia-evidence-and-band-reconstruction-20261108]]。
+
+| ID / idea | 有来源基础的 prediction 与假设 | 最强竞争解释 | 最小比较、失败/转向 |
+|---|---|---|---|
+| D9：静态形状相近时，振动与空间转动响应能否分开约束 | 在同一核、参考态族和算符下，分别改变所声明的残余响应，预测未拟合激发带间距与 EM；110Pd 和166Er的原作表明不同响应不能简单共享一个缩放 | 配对、EDF单粒子谱、势/ZPE或态映射的变化同样改谱 | 先锁定实际可得的共同 producer；不能共同冻结输入时只作模型比较，不称唯一时间奇归因 |
+| D10：低 0⁺ 的配对幅度、γ混合与离散组态能否由联合探针区分 | 采用明确 E0/E2 和双核子转移算符、反应响应，预测不同态的强度分配；128Xe原作显示节点与结构交换可重新分配 E0 | 不含显式配对坐标的投影组态混合，或有效算符也可给相似分配 | 用相同拟合/留出合同比较电荷网络和转移角分布；预测区间重叠或反应算符未定时，不唯一命名配对振动 |
+| D11：相近沿带 J(2) 是否仍允许可分辨的横向频率响应 | 将同一组态的带内曲率、带间能量与绝对 EM 放入共同模型，比较 \({\cal J}^{eff}_{y,z}(\omega)\) 和频率无关惯量近似 | 有限转子非谐、准粒子交叉、形状/取向混合、EM算符或δ另支 | 先选择已有完整数据和可运行模型的核；如果模型只重新拟合同一能谱或无新增可测预言，不称新模式 |
+
+当前决策：D11 优先寻找真正共同输入，D9 作为它的基础核查，D10 保持可执行比较合同。
+暂不启动需要数百 core-hour 且缺生产输入的全微观重算，也不假装已经完成。
+若只有形式类比，保留学习收益并转向可得的原始实验/模型输入。
+
+跨区迁移的条件是占据/配对、集体空间、有效算符、时间尺度与反应/探测响应可比，
+不要求整个 A≈80、100、130、160、190 区都表现同一种机制。
+新增可能性包括不同形状—配对成分重排同一低能态、沿带相近却横向不同的响应；
+它们是候选问题，已有相关先例，**不是本任务宣布的新特征**。
+
+本轮撤回：普适转移比、E0/W.u.、角宽、δ和百分比分类阈值；
+“刚性转子必然简谐”“配对消失必然理想刚体流”“单带在任何模型下都绝对不能定参”；
+以及把模型预测已相符写成实验独立验证。
+没有全球新颖性结论，也没有用观察后的候选冒充预注册。
 
 ## Assumptions
 

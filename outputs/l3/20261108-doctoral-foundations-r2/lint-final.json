@@ -1,0 +1,23 @@
+{
+  "root": "/workspace/wiki",
+  "checked_at": "2026-11-08",
+  "pages": 1586,
+  "wikilinks": 13650,
+  "source_hashes_checked": 651,
+  "governance": {
+    "page_unreviewed": 1507,
+    "source_unreviewed": 590,
+    "claims_total": 6893,
+    "claim_needs_review": 5485,
+    "claim_missing_locator": 0,
+    "claim_missing_kind": 0,
+    "source_missing_raw_file": 0,
+    "source_missing_citation_key": 117
+  },
+  "counts": {
+    "error": 129,
+    "warning": 477,
+    "info": 5485
+  },
+  "full_report_local": "tmp/runs/20261108-r2-validation/lint-full.json"
+}

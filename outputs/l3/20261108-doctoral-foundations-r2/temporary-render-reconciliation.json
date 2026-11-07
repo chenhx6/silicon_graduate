@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-11-07T21:21:48.418274+00:00",
+  "renders_retained_in_local_tmp": [
+    {
+      "temporary_render": "outputs/l3/20261108-doctoral-foundations-r2/T05/hinohara-2015-p06.png",
+      "retained_snapshot": "tmp/runs/20261108-doctoral-r2-worker-originals/T05/hinohara-2015-p06.png",
+      "sha256": "9ea8176cefbaf87cdce214d5c8c1022374eecd2cecff699d91214bd33884358a",
+      "reason": "Reading render of archived PDF; no permission to redistribute source screenshots in public process output"
+    }
+  ],
+  "original_raw_pdfs_unchanged": true
+}

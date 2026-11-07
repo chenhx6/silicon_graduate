@@ -2,10 +2,23 @@
 type: system-overview
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-11-07
+updated: 2026-11-08
 ---
 
 # Knowledge Base Health Dashboard
+
+## 2026-11-08：博士前置 R1/R2 的知识入口
+
+[[doctoral-nuclear-structure-foundations]]沿用活动研究goal，当前仍是论文前置阶段。
+R1六区/两翼/电子学后，R2补入11份source（含1份仅排印更正的Note）、
+2篇研究笔记和已有综合/观测量更新。七项Gemini与一项Terra任务均已回传并关闭，
+其模型路由有runtime记录；篇数和路由不认证科学结论。
+
+响应定义入口为[[doctoral-r2-collective-inertia-response-crosswalk-20261108]]；
+具体案例与真实表重算为[[doctoral-r2-inertia-evidence-and-band-reconstruction-20261108]]。
+Sun2025采用实际v3、Hinohara2015区分APS与v1；DOI/页数/公式因子、
+E0/E2图及无源阈值已按原件限定。原DSAM/FAM程序和完整Cov仍未恢复。
+全库历史lint并非绿色；本批计数与增量以R2的final检查回执为准。
 
 全库复习和研究选题入口：[[wiki-full-library-map-20261030]]。该页只做知识导航、证据分层和工作区整理边界，不替代各 `knowledge/sources/` 原件与 locator；代表性证据回链见 [[chakraborty-2023-131xe-wobbling-origin]] C23-D28-1 和 [[gaffney-2013-pear-shaped-rn-ra]] GA13-1。
 

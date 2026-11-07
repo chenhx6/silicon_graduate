@@ -1,0 +1,34 @@
+{
+  "state": "pass",
+  "checked_at": "2026-11-07T21:22:58.181608+00:00",
+  "exact_manifest_match": true,
+  "files": 79,
+  "checks": [
+    {
+      "path": "system/scripts/doctoral_r2_gorgen_band_response.py",
+      "sha256": "900c305b65b5a1a086baa2d98032d0a8061bad66270ef9c96a3b23358803fd4a",
+      "state": "staged-match"
+    },
+    {
+      "path": "outputs/l4/20261108-band-response-definitions/derived-observables.json",
+      "sha256": "5319d82014a71d675066aee1f9f770336a53a0563aaaf9ee100862c052c87761",
+      "state": "staged-match"
+    },
+    {
+      "path": "system/scripts/doctoral_r2_response_curvature_audit.py",
+      "sha256": "c579833f0c697d889a4f081a45219df3946608e731d875da1d0604a68d1124c2",
+      "state": "staged-match"
+    },
+    {
+      "path": "outputs/l4/20261108-response-curvature-audit/arithmetic.txt",
+      "sha256": "d81f9585d1256b5db0c0d4d7f3815bc4b0b52d749a56a790277069e6251a83d5",
+      "state": "staged-match"
+    }
+  ],
+  "independent_knowledge_lf_check": {
+    "pages": 20,
+    "staged_equals_worktree": true,
+    "contains_CR": false,
+    "eol_utility_boundary": "exit1 because 13 known staged A records are conservatively labelled REVIEW-UNSAFE; no edits; exact LF bytes independently checked"
+  }
+}

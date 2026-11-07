@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-11-07T21:12:28.879294+00:00",
+  "checker": "system/scripts/wiki_archive_gate.py check_manifest; CLI selects basename manifest.json only",
+  "checked_collections": [
+    {
+      "path": "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/source-manifest.json",
+      "failures": []
+    },
+    {
+      "path": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/gorgen-inputs-manifest.json",
+      "failures": []
+    },
+    {
+      "path": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/identity-manifest.json",
+      "failures": []
+    },
+    {
+      "path": "raw/papers/gpt/query/20261108-r2-identity-check/supplementary-manifest.json",
+      "failures": []
+    }
+  ],
+  "ok": true
+}

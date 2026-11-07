@@ -1,0 +1,41 @@
+{
+  "task": "T05",
+  "agent_id": "01a1b7bb-2194-7c82-9a02-b4e25c4c94a2",
+  "requested_model": "codex/gpt-6.1-terra",
+  "requested_effort": "xhigh",
+  "runtime_turn_contexts": [
+    {
+      "model": "codex/gpt-6.1-terra",
+      "effort": "xhigh"
+    },
+    {
+      "model": "codex/gpt-6.1-terra",
+      "effort": "xhigh"
+    }
+  ],
+  "state": "returned-parent-audited-and-closed",
+  "observed_at": "2026-11-07T21:05:59.875730+00:00",
+  "original_generated_draft_snapshots": [
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/T05/audit_math.out",
+      "sha256": "3f9fe581c3cf631b54334f5b021b37b5012cfe1ee90d41a98fe06e112115c3d1"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/T05/audit_math.py",
+      "sha256": "4845c220af5d1899985985a28e0881b4a98ae4cf0f0e7eaea371802dc7b74e00"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/T05/hinohara-2015-p06.png",
+      "sha256": "9ea8176cefbaf87cdce214d5c8c1022374eecd2cecff699d91214bd33884358a"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/T05/report.md",
+      "sha256": "3ae7be85c02d7c14470a42344d22e79c7c5a4b4d456d50063683cc796a764536"
+    }
+  ],
+  "knowledge_sources": [
+    "hinohara-2015-nambu-goldstone-inertia-response",
+    "prochniak-rohozinski-2009-bohr-collective-hamiltonian"
+  ],
+  "scientific_boundary": "Canonical knowledge replaces overbroad worker assertions. Runtime route is not provider billing."
+}

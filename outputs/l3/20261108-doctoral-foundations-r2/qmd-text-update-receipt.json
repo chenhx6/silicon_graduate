@@ -1,0 +1,8 @@
+{
+  "recorded_at": "2026-11-07T21:16:04.634425+00:00",
+  "command": "qmd update",
+  "returncode": 0,
+  "scope": "knowledge only",
+  "embeddings_requested": false,
+  "cleanup_requested": false
+}

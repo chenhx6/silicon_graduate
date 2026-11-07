@@ -1,0 +1,12 @@
+{
+  "producers": 2,
+  "input_and_artifact_checks": 5,
+  "all_pass": true,
+  "files": [
+    "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/gorgen2004-inputs-parent-verified.csv",
+    "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+    "outputs/l4/20261108-band-response-definitions/derived-observables.json",
+    "raw/papers/gpt/query/20261108-r2-t05-response-definitions/aps-publication.pdf",
+    "outputs/l4/20261108-response-curvature-audit/arithmetic.txt"
+  ]
+}

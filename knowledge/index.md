@@ -7,6 +7,21 @@ updated: 2026-11-08
 
 # Wiki Index
 
+## 博士前置 R2：集体惯量、配对与微观响应
+
+- [[doctoral-r2-collective-inertia-response-crosswalk-20261108]] — 坐标质量、PC/IB/TV、实/虚QRPA、空间与配对NG及正定比较的合同。
+- [[doctoral-r2-inertia-evidence-and-band-reconstruction-20261108]] — 跨区应用矩阵、源内数值边界与163Lu真实20行表的声明重算。
+- [[prochniak-rohozinski-2009-bohr-collective-hamiltonian]] — 一般Bohr Hamiltonian的惯量、测度、GCM/ATDHFB与190Os函数。
+- [[hinohara-2010-local-qrpa-shape-mixing]]、[[sato-hinohara-2011-krypton-shape-mixing]] — Se/Kr局域选模、形状混合及模型/算符限制。
+- [[hinohara-2015-nambu-goldstone-inertia-response]]、[[petrik-kortelainen-2018-rotational-tv-inertia]] — 配对与空间零频响应、APS/预印本差异及共同设置核验。
+- [[afanasjev-abusara-2010-time-odd-rotating-systems]] — NM/WNM理论干预、电流、顺排及百分比分母。
+- [[xiang-2024-triaxial-pairing-collective-hamiltonian]] — 128Xe配对压谱、ZPE扩谱和E0/E2图表边界。
+- [[washiyama-2024-five-dimensional-improved-inertia]]、[[sun-2025-iterative-atdhfb-rare-earth-inertia]] — 110Pd与稀土的不同惯量响应；Sun实际主底本v3。
+- [[matsuzaki-2004-nuclear-inertia-and-wobbling]]、[[matsuzaki-2004-wobbling-publishers-note]] — 横向频率依赖惯量；正确DOI034325及仅排印修正的Note。
+
+本批11个新source包括1份出版商排印说明，不等于11项独立物理研究或测量。
+实际范围逐source记录；D9–D11候选见[[doctoral-foundations-research-question-register-20261108]]。
+
 ## 博士论文前置研究：形变、集体动力学与观测链
 
 - [[doctoral-nuclear-structure-foundations]] — 六区与“一核两翼”学习范围、候选问题和论文设计准备条件；不以旧稿的完成标签代替证据。

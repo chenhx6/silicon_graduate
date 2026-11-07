@@ -1,0 +1,399 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          25
+        ]
+      ],
+      "date-time": "2026-03-25T12:54:48Z",
+      "timestamp": 1774443288377,
+      "version": "3.50.1"
+    },
+    "reference-count": 29,
+    "publisher": "American Physical Society (APS)",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2004,
+              3,
+              19
+            ]
+          ],
+          "date-time": "2004-03-19T00:00:00Z",
+          "timestamp": 1079654400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://link.aps.org/licenses/aps-default-license"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Phys. Rev. C"
+    ],
+    "DOI": "10.1103/physrevc.69.034325",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2004,
+          3,
+          19
+        ]
+      ],
+      "date-time": "2004-03-19T17:13:44Z",
+      "timestamp": 1079716424000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 44,
+    "title": [
+      "Nuclear moments of inertia and wobbling motions in triaxial superdeformed nuclei"
+    ],
+    "prefix": "10.1103",
+    "volume": "69",
+    "author": [
+      {
+        "given": "Masayuki",
+        "family": "Matsuzaki",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yoshifumi R.",
+        "family": "Shimizu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Kenichi",
+        "family": "Matsuyanagi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "16",
+    "published-online": {
+      "date-parts": [
+        [
+          2004,
+          3,
+          19
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "PhysRevC.69.034325Cc1R1",
+        "doi-asserted-by": "crossref",
+        "first-page": "237",
+        "DOI": "10.1016/0029-5582(58)90153-6",
+        "volume": "8",
+        "author": "A. S. Davydov",
+        "year": "1958",
+        "journal-title": "Nucl. Phys.",
+        "ISSN": "https://id.crossref.org/issn/0029-5582",
+        "issn-type": "print"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc2R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(84)90620-1"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc3R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0370-2693(83)90211-3"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc4R1",
+        "doi-asserted-by": "crossref",
+        "first-page": "548",
+        "DOI": "10.1016/0375-9474(90)90446-S",
+        "volume": "A519",
+        "author": "M. Matsuzaki",
+        "year": "1990",
+        "journal-title": "Nucl. Phys.",
+        "ISSN": "https://id.crossref.org/issn/0375-9474",
+        "issn-type": "print"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc5R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(96)00021-8"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc6R1",
+        "doi-asserted-by": "crossref",
+        "first-page": "179",
+        "DOI": "10.1016/0375-9474(89)90698-2",
+        "volume": "A491",
+        "author": "N. Tajima",
+        "year": "1989",
+        "journal-title": "Nucl. Phys.",
+        "ISSN": "https://id.crossref.org/issn/0375-9474",
+        "issn-type": "print"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc7R1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1063/1.3058020",
+        "volume-title": "Mechanics",
+        "author": "L. D. Landau",
+        "year": "1960"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc8R1",
+        "volume-title": "Nuclear Structure",
+        "author": "A. Bohr",
+        "year": "1975"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc9R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(79)90656-0"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc10R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(79)90352-X"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc11R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0370-2693(78)90124-7"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc12R1",
+        "doi-asserted-by": "crossref",
+        "first-page": "799",
+        "DOI": "10.1143/PTP.72.799",
+        "volume": "72",
+        "author": "Y. R. Shimizu",
+        "year": "1984",
+        "journal-title": "Prog. Theor. Phys.",
+        "ISSN": "https://id.crossref.org/issn/0033-068X",
+        "issn-type": "print"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc13R1",
+        "first-page": "279",
+        "volume": "A456",
+        "author": "N. Onishi",
+        "year": "1986",
+        "journal-title": "Nucl. Phys.",
+        "ISSN": "https://id.crossref.org/issn/0375-9474",
+        "issn-type": "print"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc14R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(90)90424-K"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc15R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(94)00823-6"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc16R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(95)00421-1"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc18R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0370-2693(93)91425-M"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc19R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.86.5866"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc20R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.65.044305"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc21R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0370-2693(02)03095-2"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc22R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0370-2693(02)03199-4"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc23R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.65.041303"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc25R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.53.2213"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc26R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(77)90461-4"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc27R1",
+        "doi-asserted-by": "crossref",
+        "first-page": "435",
+        "DOI": "10.1140/epja/i2002-10097-5",
+        "volume": "15",
+        "author": "G. Sch\u00f6nwa\u00dfer",
+        "year": "2002",
+        "journal-title": "Eur. Phys. J. A",
+        "ISSN": "https://id.crossref.org/issn/1434-6001",
+        "issn-type": "print"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc28R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(85)90541-X"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc29R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0370-2693(01)00369-0"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc30R1",
+        "doi-asserted-by": "crossref",
+        "first-page": "24",
+        "DOI": "10.1016/S0370-2693(03)00328-9",
+        "volume": "560",
+        "author": "M. K. Djongolov",
+        "year": "2003",
+        "journal-title": "Phys. Lett. B",
+        "ISSN": "https://id.crossref.org/issn/0370-2693",
+        "issn-type": "print"
+      },
+      {
+        "key": "PhysRevC.69.034325Cc31R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.67.064306"
+      }
+    ],
+    "container-title": [
+      "Physical Review C"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://link.aps.org/article/10.1103/PhysRevC.69.034325",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.69.034325/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          4,
+          24
+        ]
+      ],
+      "date-time": "2018-04-24T08:51:48Z",
+      "timestamp": 1524559908000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.aps.org/doi/10.1103/PhysRevC.69.034325"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2004,
+          3,
+          19
+        ]
+      ]
+    },
+    "references-count": 29,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2004,
+            3
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1103/physrevc.69.034325",
+    "relation": {},
+    "ISSN": [
+      "0556-2813",
+      "1089-490X"
+    ],
+    "issn-type": [
+      {
+        "value": "0556-2813",
+        "type": "print"
+      },
+      {
+        "value": "1089-490X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2004,
+          3,
+          19
+        ]
+      ]
+    },
+    "article-number": "034325"
+  }
+}

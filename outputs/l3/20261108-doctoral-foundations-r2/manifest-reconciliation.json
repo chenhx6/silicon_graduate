@@ -1,0 +1,7 @@
+{
+  "observed_at": "2026-11-07T21:05:59.875730+00:00",
+  "g41_timestamp_repaired_by_local_observation": true,
+  "original_retained": "raw/papers/gpt/query/20261108-r2-g41-pairing-shape/worker-manifest-original.json",
+  "g42_worker_path_schema_repaired_with_original_copy": true,
+  "no_paper_original_overwritten": true
+}

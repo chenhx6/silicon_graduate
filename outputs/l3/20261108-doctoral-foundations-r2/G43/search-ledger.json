@@ -1,0 +1,244 @@
+{
+  "task": "R2-G43: 五维集体Hamiltonian惯量方法的反方与近年文献扫描（A60–190核芯形变）",
+  "compiled_at": "2026-11-07T20:35:05.305089+00:00",
+  "total_screened_entries": 12,
+  "primary_paper_id": "ENTRY-01",
+  "companion_paper_id": "ENTRY-02",
+  "mass_region_focus": "A = 60 - 190 (nuclear core quadrupole deformation and low-lying collective spectroscopy)",
+  "anti_collision_verification": {
+    "hinohara2010_chfb_lqrpa": "avoided (referenced only as historical baseline for P+Q)",
+    "hinohara2015_fam_1d": "avoided (referenced only as formal 1D precursor)",
+    "nomura2021_pairing": "avoided (no collision)",
+    "afanasjev_nuclear_magnetism": "avoided (no collision)",
+    "superheavy_fission_ban": "strictly obeyed (fission papers screened and excluded)"
+  },
+  "entries": [
+    {
+      "id": "ENTRY-01",
+      "title": "Five-dimensional collective Hamiltonian with improved inertial functions",
+      "authors": [
+        "Kouhei Washiyama",
+        "Nobuo Hinohara",
+        "Takashi Nakatsukasa"
+      ],
+      "year": 2024,
+      "journal": "Physical Review C",
+      "volume": "109",
+      "pages": "L051301",
+      "doi": "10.1103/PhysRevC.109.L051301",
+      "arxiv": "2403.00214",
+      "status": "selected-primary",
+      "selection_reason": "First microscopic implementation of the full 5D collective Hamiltonian (vibrational mass tensor D_betabeta, D_betagamma, D_gammagamma and rotational moments of inertia J_k) on the 2D (beta, gamma) deformation plane using Skyrme EDF (SkM*) via the Finite Amplitude Method (FAM-LQRPA). Solves the long-standing limitation of Inglis-Belyaev cranking and demonstrates strong coordinate-dependent time-odd enhancement in transitional nucleus 110Pd (A=110).",
+      "access_boundary": "Full text and complete LaTeX source package retrieved and verified locally from arXiv:2403.00214v1. Official published metadata verified via Crossref DOI: 10.1103/PhysRevC.109.L051301. Deep reading executed directly on original TeX sources.",
+      "relevance_score": 1.0
+    },
+    {
+      "id": "ENTRY-02",
+      "title": "Moments of inertia of rare-earth nuclei and the nuclear time-odd mean fields within exact solutions of the adiabatic theory",
+      "authors": [
+        "Xuwei Sun",
+        "Jacek Dobaczewski",
+        "Markus Kortelainen",
+        "Jhilam Sadhukhan",
+        "Adrian Sánchez-Fernández",
+        "Herlik Wibowo"
+      ],
+      "year": 2025,
+      "journal": "Physics Letters B",
+      "volume": "868",
+      "pages": "139685",
+      "doi": "10.1016/j.physletb.2025.139685",
+      "arxiv": "2502.07433v3",
+      "status": "selected-companion",
+      "selection_reason": "Presents a novel iterative fixed-point solver for the exact ATDHFB equations without inverting the two-body stability matrix. Systematically maps Thouless-Valatin vs Inglis-Belyaev moments of inertia across rare-earth isotopes (Gd, Dy, Er, Yb, Hf, W, Os; A=150-192, N=82-126) for SkM*, UNEDF1, and Gogny D1S. Disproves empirical constant enhancement factors and establishes strong linear correlation with isoscalar effective mass m*/m.",
+      "access_boundary": "Both v1 (arXiv:2502.07433v1) and latest v3 (arXiv:2502.07433v3) PDFs and complete LaTeX source archives retrieved and verified locally. Official publisher metadata verified via Crossref for PLB 868 (2025) 139685. Deep reading and text diff executed directly on TeX sources.",
+      "relevance_score": 0.98,
+      "version_history": {
+        "initial_submission": "v1 (submitted 2025-02-11T10:22:06Z)",
+        "latest_update": "v3 (updated 2025-07-01T15:32:06Z)",
+        "formal_publication": "Physics Letters B 868 (2025) 139685 (published online/print 2025)"
+      }
+    },
+    {
+      "id": "ENTRY-03",
+      "title": "Triaxial-shape dynamics in the low-lying excited 0+ state: Role of the collective mass",
+      "authors": [
+        "Kouhei Washiyama",
+        "Kenichi Yoshida"
+      ],
+      "year": 2023,
+      "journal": "Physical Review C",
+      "volume": "108",
+      "pages": "014323",
+      "doi": "10.1103/PhysRevC.108.014323",
+      "arxiv": null,
+      "status": "screened-excluded-secondary",
+      "selection_reason": "Investigates the role of coordinate-dependent collective mass functions in 5DCH for 0_2+ and 2_2+ non-yrast states in gamma-soft N~28 (40Si, 42Mg, 44S) and N=78 (Xe, Ba) nuclei. Highly relevant for shape dynamics, but uses perturbative cranking inertia rather than self-consistent time-odd / LQRPA solvers; retained as supporting evidence for mass-dependent spectroscopy.",
+      "access_boundary": "Bibliographic reference and Crossref metadata only. Excluded from primary deep-read; not audited as full text.",
+      "relevance_score": 0.85
+    },
+    {
+      "id": "ENTRY-04",
+      "title": "Thouless-Valatin rotational moment of inertia from linear response theory",
+      "authors": [
+        "Kristian Petrík",
+        "Markus Kortelainen"
+      ],
+      "year": 2018,
+      "journal": "Physical Review C",
+      "volume": "97",
+      "pages": "034321",
+      "doi": "10.1103/PhysRevC.97.034321",
+      "arxiv": "1801.07923",
+      "status": "screened-excluded-precursor",
+      "selection_reason": "Pioneering application of zero-frequency FAM-QRPA to compute the Thouless-Valatin rotational moment of inertia in axial deformed rare-earth and actinide nuclei with Skyrme EDF. Excluded as primary study because it is restricted to 1D axial rotation and does not handle the triaxial (beta, gamma) 5DCH vibrational mass tensor.",
+      "access_boundary": "arXiv preprint 1801.07923 available open-access. Crossref verified.",
+      "relevance_score": 0.82
+    },
+    {
+      "id": "ENTRY-05",
+      "title": "Thouless-Valatin moment of inertia and removal of the spurious mode in the linear response theory",
+      "authors": [
+        "Markus Kortelainen"
+      ],
+      "year": 2020,
+      "journal": "Journal of Physics: Conference Series",
+      "volume": "1643",
+      "pages": "012142",
+      "doi": "10.1088/1742-6596/1643/1/012142",
+      "arxiv": "2004.14268",
+      "status": "screened-excluded-conference",
+      "selection_reason": "Focuses on the formal separation and projection of Nambu-Goldstone (spurious) rotational and translational zero-energy modes in linear response inertia calculations. Essential theoretical context for the counter-view critique, but excluded as primary paper due to conference summary format.",
+      "access_boundary": "Open access conference proceeding and arXiv:2004.14268v1 available.",
+      "relevance_score": 0.78
+    },
+    {
+      "id": "ENTRY-06",
+      "title": "Large-amplitude quadrupole shape mixing probed by the (p, p') reaction",
+      "authors": [
+        "Koichi Sato",
+        "T. Furumoto"
+      ],
+      "year": 2019,
+      "journal": "Progress of Theoretical and Experimental Physics",
+      "volume": "2019",
+      "pages": "103D01",
+      "doi": "10.1093/ptep/ptz095",
+      "arxiv": "1906.01258",
+      "status": "screened-excluded-reaction-focus",
+      "selection_reason": "Utilizes microscopic collective wavefunctions from the adiabatic self-consistent collective coordinate (ASCC) method / 5DCH to compute microscopic folded potentials and inelastic proton scattering for shape-mixed states in 24Mg, 28Si, 72Se. Excluded as primary paper because its primary focus is reaction cross-section folding rather than developing new collective inertia frameworks.",
+      "access_boundary": "Open access PTEP paper and arXiv:1906.01258 available.",
+      "relevance_score": 0.75
+    },
+    {
+      "id": "ENTRY-07",
+      "title": "Shape coexistence in the neutron-deficient 188Hg investigated via lifetime measurements",
+      "authors": [
+        "M. Siciliano",
+        "I. Zanon",
+        "A. Goasduff",
+        "et al."
+      ],
+      "year": 2020,
+      "journal": "Physical Review C",
+      "volume": "102",
+      "pages": "014318",
+      "doi": "10.1103/PhysRevC.102.014318",
+      "arxiv": "2001.09035",
+      "status": "screened-excluded-experiment-benchmark",
+      "selection_reason": "High-precision lifetime measurements in 188Hg benchmarking 5DCH against symmetry-conserving configuration mixing (SCCM/GCM). Demonstrates an experimental breakdown of the adiabatic 5DCH description across the sharp intruder crossing, where 5DCH fails to reproduce the prolate-oblate mixing matrix elements. Excluded as primary theory development because it is an experimental paper.",
+      "access_boundary": "Bibliographic reference and published PRC metadata only. Excluded from primary deep-read; not audited as full text.",
+      "relevance_score": 0.8
+    },
+    {
+      "id": "ENTRY-08",
+      "title": "Shape and multiple shape coexistence of nuclei within covariant density functional theory: A five-dimensional collective Hamiltonian approach",
+      "authors": [
+        "Yilong Yang",
+        "P. W. Zhao"
+      ],
+      "year": 2023,
+      "journal": "Physical Review C",
+      "volume": "107",
+      "pages": "024308",
+      "doi": "10.1103/PhysRevC.107.024308",
+      "arxiv": null,
+      "status": "screened-excluded-cranking-cdft",
+      "selection_reason": "Global covariant DFT study (PC-PK1) of multiple shape coexistence in transitional nuclei (A~70, 100, 180) within 5DCH. Excluded as primary paper because it relies strictly on standard Inglis-Belyaev cranking and perturbative vibrational masses without time-odd mean-field response.",
+      "access_boundary": "Crossref verified; paywalled publisher article.",
+      "relevance_score": 0.72
+    },
+    {
+      "id": "ENTRY-09",
+      "title": "Enhanced moments of inertia for rotation in neutron-rich nuclei",
+      "authors": [
+        "Kenichi Yoshida"
+      ],
+      "year": 2022,
+      "journal": "Physics Letters B",
+      "volume": "833",
+      "pages": "137458",
+      "doi": "10.1016/j.physletb.2022.137458",
+      "arxiv": "2208.06977",
+      "status": "screened-excluded-spatial-focus",
+      "selection_reason": "Investigates time-odd mean fields and pairing dynamics in rotational moments of inertia for neutron-rich light-to-medium nuclei near drip lines. Excluded because its focus is spatial halo/skin neutron decoupling rather than transitional quadrupole collective motion in the A=60-190 core region.",
+      "access_boundary": "Open access PLB paper and arXiv:2208.06977 available.",
+      "relevance_score": 0.7
+    },
+    {
+      "id": "ENTRY-10",
+      "title": "Symmetry conserving configuration mixing calculations of Zr isotopes",
+      "authors": [
+        "Tomás R. Rodríguez"
+      ],
+      "year": 2025,
+      "journal": "EPJ Web of Conferences",
+      "volume": "329",
+      "pages": "02008",
+      "doi": "10.1051/epjconf/202532902008",
+      "arxiv": null,
+      "status": "screened-excluded-gcm-alternative",
+      "selection_reason": "Beyond-mean-field SCCM (GCM with simultaneous particle-number and angular-momentum projection) applied to the abrupt shape transition in 98-100Zr. Provides a rigorous GCM alternative that bypasses the Gaussian Overlap Approximation (GOA) and collective inertia tensors. Excluded from primary close reading because it does not compute collective Hamiltonian masses.",
+      "access_boundary": "Open access conference paper via EPJ Web of Conf.",
+      "relevance_score": 0.74
+    },
+    {
+      "id": "ENTRY-11",
+      "title": "Finite-amplitude method for collective inertia in spontaneous fission",
+      "authors": [
+        "Kouhei Washiyama",
+        "Nobuo Hinohara",
+        "Takashi Nakatsukasa"
+      ],
+      "year": 2021,
+      "journal": "Physical Review C",
+      "volume": "103",
+      "pages": "014306",
+      "doi": "10.1103/PhysRevC.103.014306",
+      "arxiv": "2011.05056",
+      "status": "screened-excluded-fission-focus",
+      "selection_reason": "Precursor FAM-QRPA formulation of collective inertia along spontaneous fission paths in heavy actinides (240Pu, 256Fm). Strictly excluded from selection per user constraint prohibiting superheavy fission as the main line.",
+      "access_boundary": "Open access arXiv:2011.05056 and PRC available.",
+      "relevance_score": 0.5
+    },
+    {
+      "id": "ENTRY-12",
+      "title": "Exact solution of adiabatic time dependent Hartree-Fock-Bogoliubov inertia for fission",
+      "authors": [
+        "C. V. Nithish Kumar",
+        "Gabriel Martínez-Pinedo",
+        "Samuel A. Giuliani"
+      ],
+      "year": 2026,
+      "journal": "Preprint",
+      "volume": null,
+      "pages": null,
+      "doi": "10.48550/arXiv.2610.18212",
+      "arxiv": "2610.18212",
+      "status": "screened-excluded-fission-focus",
+      "selection_reason": "Examines exact solution of ATDHFB stability matrix and compares exact GCM inertia with cranking inertia, but focuses entirely on spontaneous fission paths in heavy systems. Strictly excluded per user constraint prohibiting fission as the main line.",
+      "access_boundary": "arXiv:2610.18212v1 available.",
+      "relevance_score": 0.48
+    }
+  ]
+}

@@ -3,6 +3,20 @@ graph-excluded: true
 updated: 2026-11-08
 ---
 
+## 2026-11-08 — 博士前置研学 R2（goal active，继续阶段一）
+
+- 原生goal仍为01a1b53d-130f-7f42-985b-7a51dbc9f8d0；完整任务是先充分研学A60–190及一核两翼/吴论文电子学，再进入总控主导章节设计与Gemini写作。R2是里程碑，不将论文数或局部检查当作整个goal完成。
+- 上一批R1已完成127文件显式提交与非force推送，post-commit文件清单一致且HEAD=origin/main；稳定指针main / research: connect nuclear shapes and collective dynamics，精确hash仅本地任务回执。
+- R2实际7 Gemini Tiered/high（G38–G44；六域+窄审计）和1 Terra/xhigh（T05），均回传并关闭，runtime turn_context核对路由。G40/G43早期空意向要求继续；G42补定义/数据/DOI，G43补Sun版本。无供应商账单/余额推断，不触碰既有无关agent。
+- 长期知识：11新source含1份Publisher’s Note、2新note；项目/综合/问题登记/惯量observable/Gorgen source/index/overview更新。核心入口doctoral-r2-collective-inertia-response-crosswalk-20261108及doctoral-r2-inertia-evidence-and-band-reconstruction-20261108。process在outputs/l3/20261108-doctoral-foundations-r2，计划outputs/plans/20261108-doctoral-foundations-r2.md。
+- 关键边界：D/B吸收β不同；NG实/虚A±B、j=J/hbar与全/不重复对因子明确。Hinohara2015 APS13页/v1 14页，有m-1/常Tz的出版修订，Eq61与62–64二因子内部差异仍隔离；130Xe Jnp是交叉曲率倒数，重建非正定不意味着固定N,Z形状不稳定。Xiang11页，Fig7为E2不是E0，v1 Eq19分母排印边界保留；不从低2+唯一归因TV。
+- 身份：Hinohara2010实际17页，Sato2011实际29页，Afanasjev2010实际22页，Matsuzaki正确PRC69,034325（legacy文件名034306保留；034306是别作），Note049901仅even排印修正；Sun2025 PLB868,139685，主底本2502.07433v3实际7页，v1残差与v3样本说明不可混用。未冒称arxiv与最终版逐字一致。
+- 数值：Gorgen2004原20行逐表核对，canonical输入转录与manifest在raw新目录；system/scripts/doctoral_r2_gorgen_band_response.py给20名义变换、5个声明控制。system/scripts/doctoral_r2_response_curvature_audit.py仅重建印出参数/非实核Hessian；不重跑原HFB/DSAM，也不造CI。产物在outputs/l4/20261108-band-response-definitions及20261108-response-curvature-audit。
+- 科学发散保D9–D11：响应方向分辨、低0+联合探针、沿带相近/横向不同。撤回固定百分比/δ/转移/E0门、刚性必简谐、配对塌缩必刚体、单带任何模型都不能定参、未经全文的机制断言。没有新模式/全球首次或实验独立验证声明。
+- 下一步：继续形状振动与取向模共同输入、历史原始定义/量子标签和非绝热域；结合已核EM/寿命/电子学链做初学者解释自测并评估阶段一就绪。不要继续同义toy或把缺Cov/producer变成用户确认。A130精确目录仍保留，PLAN、其它手稿、daily课程/daemon/凭据不改。
+- R2检查：13 source/9 canonical集合及4补充集合0失败；18科学页0error；全库129errors/477warnings，新增error=0、11空citation_key警告；两producer/5输入产物哈希匹配，Lu5控制通过；A130原34文件全同。QMD文字总1589页，BM25三项通过，没有embed/cleanup。
+- R2发布稳定指针main / research: distinguish collective inertia and pairing response；实际检查、精确hash、push及post-commit结果以本目录publication-final-receipt.local.json为准。未完成科学边界不自动阻止限定正确的发布，也不代表goal完成。
+
 ## 2026-11-08 — 博士前置研学 R1（活动goal，继续第一阶段）
 
 - 用户要求先全力研学A≈60–190集体/核芯形变及一核两翼，再由总控主理博士论文章节设计、Gemini依详细合同写作；吴鸿毅数字电子学纳入前置。原生goal已创建并保持active，本批里程碑不等于目标完成。canonical项目knowledge/projects/doctoral-nuclear-structure-foundations.md；跨区综合six-region-shape-and-collective-dynamics-foundations；问题登记doctoral-foundations-research-question-register-20261108。

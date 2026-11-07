@@ -1,0 +1,81 @@
+{
+  "baseline_counts": {
+    "error": 129,
+    "warning": 466,
+    "info": 5485
+  },
+  "final_counts": {
+    "error": 129,
+    "warning": 477,
+    "info": 5485
+  },
+  "new_issues": [
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/afanasjev-abusara-2010-time-odd-rotating-systems.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/hinohara-2010-local-qrpa-shape-mixing.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/hinohara-2015-nambu-goldstone-inertia-response.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/matsuzaki-2004-nuclear-inertia-and-wobbling.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/matsuzaki-2004-wobbling-publishers-note.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/petrik-kortelainen-2018-rotational-tv-inertia.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/prochniak-rohozinski-2009-bohr-collective-hamiltonian.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/sato-hinohara-2011-krypton-shape-mixing.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/sun-2025-iterative-atdhfb-rare-earth-inertia.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/washiyama-2024-five-dimensional-improved-inertia.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/xiang-2024-triaxial-pairing-collective-hamiltonian.md",
+      "message": "source has no citation_key"
+    }
+  ],
+  "removed_issues": []
+}

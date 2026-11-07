@@ -1,0 +1,32 @@
+{
+  "checked_manifests": [
+    "/workspace/wiki/raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/manifest.json",
+    "/workspace/wiki/raw/papers/gpt/query/20261108-r2-g38-lqrpa-light/manifest.json",
+    "/workspace/wiki/raw/papers/gpt/query/20261108-r2-g39-fam-ng/manifest.json",
+    "/workspace/wiki/raw/papers/gpt/query/20261108-r2-g40-time-odd-rotation/manifest.json",
+    "/workspace/wiki/raw/papers/gpt/query/20261108-r2-g41-pairing-shape/manifest.json",
+    "/workspace/wiki/raw/papers/gpt/query/20261108-r2-g42-inertia-observables/manifest.json",
+    "/workspace/wiki/raw/papers/gpt/query/20261108-r2-g43-new-collective-response/manifest.json",
+    "/workspace/wiki/raw/papers/gpt/query/20261108-r2-identity-check/manifest.json",
+    "/workspace/wiki/raw/papers/gpt/query/20261108-r2-t05-response-definitions/manifest.json"
+  ],
+  "checked_sources": [
+    "/workspace/wiki/knowledge/sources/afanasjev-abusara-2010-time-odd-rotating-systems.md",
+    "/workspace/wiki/knowledge/sources/campaign-g07-gorgen-2004-163lu-quadrupole-moments.md",
+    "/workspace/wiki/knowledge/sources/hinohara-2010-local-qrpa-shape-mixing.md",
+    "/workspace/wiki/knowledge/sources/hinohara-2015-nambu-goldstone-inertia-response.md",
+    "/workspace/wiki/knowledge/sources/matsuzaki-2004-nuclear-inertia-and-wobbling.md",
+    "/workspace/wiki/knowledge/sources/matsuzaki-2004-wobbling-publishers-note.md",
+    "/workspace/wiki/knowledge/sources/nomura-2021-pairing-triaxial-vibrations-gamma-soft.md",
+    "/workspace/wiki/knowledge/sources/petrik-kortelainen-2018-rotational-tv-inertia.md",
+    "/workspace/wiki/knowledge/sources/prochniak-rohozinski-2009-bohr-collective-hamiltonian.md",
+    "/workspace/wiki/knowledge/sources/sato-hinohara-2011-krypton-shape-mixing.md",
+    "/workspace/wiki/knowledge/sources/sun-2025-iterative-atdhfb-rare-earth-inertia.md",
+    "/workspace/wiki/knowledge/sources/washiyama-2024-five-dimensional-improved-inertia.md",
+    "/workspace/wiki/knowledge/sources/xiang-2024-triaxial-pairing-collective-hamiltonian.md"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "ok": true,
+  "scope": "paths"
+}

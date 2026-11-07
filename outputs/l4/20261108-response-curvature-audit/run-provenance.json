@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-11-07T21:06:59.068663+00:00",
+  "command": "python3 system/scripts/doctoral_r2_response_curvature_audit.py",
+  "script_sha256": "c579833f0c697d889a4f081a45219df3946608e731d875da1d0604a68d1124c2",
+  "inputs": [
+    {
+      "path": "raw/papers/gpt/query/20261108-r2-t05-response-definitions/aps-publication.pdf",
+      "sha256": "764d644a2349235027e15c320d78f15fcd7d8fd264ebe6412fd2b80e1a625f86",
+      "locator": "APS PDF10 Eq77 and quoted three J parameters"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "outputs/l4/20261108-response-curvature-audit/arithmetic.txt",
+      "sha256": "d81f9585d1256b5db0c0d4d7f3815bc4b0b52d749a56a790277069e6251a83d5"
+    }
+  ],
+  "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "boundary": "Only arithmetic on printed parameters and analytic Hessian controls; not new nuclear calculation or proof of HFB instability",
+  "returncode": 0
+}

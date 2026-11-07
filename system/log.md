@@ -6127,3 +6127,8 @@ Actual record UTC: 2026-11-06T10:24:40.867670+00:00. User requested a phase clos
 用户要求先研学后重建论文，并明确auto/brainstorm及原生goal。当前goal active；12 Gemini/high +2 Terra/xhigh均回传关闭，总控核原件后写回六区/两翼/电子学及问题登记。canonical项目为[[doctoral-nuclear-structure-foundations]]。
 
 归档23 source/15 collection通过；局部结构41页通过，T03/G32为15+7控制，2 producer/9产物哈希匹配；全库lint129 errors/466 warnings，新增error=0、20个空citation_key警告。A130原34文件SHA不变。下一步微观惯量/配对响应，未进入论文设计，不改PLAN/daily/凭据。发布状态见outputs/l3/20261108-doctoral-foundations-r1/publication-final-receipt.local.json。实际UTC观测时间：2026-11-07T20:15:46.048265+00:00。
+
+
+## 2026-11-08 博士前置研学 R2
+
+7 Gemini/high与1 Terra/xhigh完成惯量/配对/响应及窄审计，总控核原件与APS/预印本后形成11 source（含排印Note）、2 note及既有入口更新。两producer用于20行Lu表的名义变换和印出矩阵算术，不是原HFB/DSAM重放。13 source/9 canonical集合加4补充集合归档核验通过，18科学页0error；全库129errors/477warnings，新增error=0、11空citation_key警告。A130原34文件路径/SHA同，goal继续active。稳定指针main / research: distinguish collective inertia and pairing response；实际发布回执见outputs/l3/20261108-doctoral-foundations-r2/publication-final-receipt.local.json。实际UTC：2026-11-07T21:18:46.392204+00:00。

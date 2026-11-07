@@ -1,0 +1,58 @@
+{
+  "task": "G42",
+  "agent_id": "01a1b7b0-0b09-7831-a392-6b0833191d1a",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "requested_effort": "high",
+  "runtime_turn_contexts": [
+    {
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "effort": "high"
+    },
+    {
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "effort": "high"
+    }
+  ],
+  "state": "returned-parent-audited-and-closed",
+  "observed_at": "2026-11-07T21:05:59.875730+00:00",
+  "original_generated_draft_snapshots": [
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G42/crossref_audit_034306_mismatch.json",
+      "sha256": "2cd2c350a9475b0117ec155e03e6e0f0b2545392e22aa6efb7b51d47dff98163"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G42/crossref_verified_034325.json",
+      "sha256": "60928a0dffb8a5e6e2e232259cf58926f317264791c8bba5f5ccfce92268e278"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G42/gorgen2004_calculated_moments.csv",
+      "sha256": "ce8b9897c4655d4f4c84b7df388c9def4c021375c958c819ab7f9edbf40aa653"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G42/gorgen2004_inputs.csv",
+      "sha256": "e088c5236c228a6063408241010d86ea87e03735dbd681fcdaebe9a2a80be064"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G42/produce_moments.py",
+      "sha256": "fd4ece49fbe5a172ee845bb9247c384f38fb9022e72f81bae11b7249b8835bc9"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G42/receipt.json",
+      "sha256": "c03aecab217bd2b00ab0f336cc6f208dfe63421db3865fc198ca023a00e6b1c0"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G42/report.md",
+      "sha256": "3f8423aa9903c5fa61e998ddd8629a50e1100e40534483f2b56c027f840c102f"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G42/source-drafts.md",
+      "sha256": "cd346f8910e3bdcb1bda695d4ec57080ef9dedcb07ea35e5e4f355c83617fc6d"
+    }
+  ],
+  "knowledge_sources": [
+    "matsuzaki-2004-nuclear-inertia-and-wobbling",
+    "matsuzaki-2004-wobbling-publishers-note",
+    "campaign-g07-gorgen-2004-163lu-quadrupole-moments"
+  ],
+  "scientific_boundary": "Canonical knowledge replaces overbroad worker assertions. Runtime route is not provider billing."
+}

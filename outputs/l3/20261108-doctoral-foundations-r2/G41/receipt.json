@@ -1,0 +1,33 @@
+{
+  "task": "G41",
+  "agent_id": "01a1b7af-d1dc-7f90-8e9c-da9c84cb1d4f",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "requested_effort": "high",
+  "runtime_turn_contexts": [
+    {
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "effort": "high"
+    }
+  ],
+  "state": "returned-parent-audited-and-closed",
+  "observed_at": "2026-11-07T21:05:59.875730+00:00",
+  "original_generated_draft_snapshots": [
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G41/receipt.json",
+      "sha256": "60c96593ff9c14377fce0280d662c6eced77525dfca1d79ceba16cfa56d27f6b"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G41/report.md",
+      "sha256": "cb75f2b9f2b23c097cdba039065675735d072d1ccb66192a331f53c4dc0dc96a"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G41/source-drafts.md",
+      "sha256": "d2370b7c0fc52e8be94ba9ca5870bb84f2dcc2e4e90e22ee8d193b31fda4704a"
+    }
+  ],
+  "knowledge_sources": [
+    "xiang-2024-triaxial-pairing-collective-hamiltonian",
+    "nomura-2021-pairing-triaxial-vibrations-gamma-soft"
+  ],
+  "scientific_boundary": "Canonical knowledge replaces overbroad worker assertions. Runtime route is not provider billing."
+}

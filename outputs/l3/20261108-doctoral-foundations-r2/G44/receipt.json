@@ -1,0 +1,29 @@
+{
+  "task": "G44",
+  "agent_id": "01a1b7bc-8dca-7b60-87dd-8d9a230aee6c",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "requested_effort": "high",
+  "runtime_turn_contexts": [
+    {
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "effort": "high"
+    }
+  ],
+  "state": "returned-parent-audited-and-closed",
+  "observed_at": "2026-11-07T21:05:59.875730+00:00",
+  "original_generated_draft_snapshots": [
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G44/audit.json",
+      "sha256": "9710ce992ae192bd32df614b6ba5bd72049a790d4187952641d20af83fdea3e0"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G44/audit.md",
+      "sha256": "6c93366edc4dff344b1024721e413e6dd9359b2197a610934d0c8428ce9588d9"
+    }
+  ],
+  "knowledge_sources": [
+    "hinohara-2010-local-qrpa-shape-mixing",
+    "sato-hinohara-2011-krypton-shape-mixing"
+  ],
+  "scientific_boundary": "Canonical knowledge replaces overbroad worker assertions. Runtime route is not provider billing."
+}

@@ -1,0 +1,33 @@
+{
+  "task": "G39",
+  "agent_id": "01a1b7af-4395-75e1-90ac-e154468f052f",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "requested_effort": "high",
+  "runtime_turn_contexts": [
+    {
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "effort": "high"
+    }
+  ],
+  "state": "returned-parent-audited-and-closed",
+  "observed_at": "2026-11-07T21:05:59.875730+00:00",
+  "original_generated_draft_snapshots": [
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G39/receipt.json",
+      "sha256": "c8029cbc022d03a959e920b424656421cf7273dace129f34142f0b4856ee7939"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G39/report.md",
+      "sha256": "7103a926d570d8af35745fe196902c7fe7ee62724310808d5aea4e8010905aec"
+    },
+    {
+      "path": "tmp/runs/20261108-doctoral-r2-worker-originals/G39/source-drafts.md",
+      "sha256": "995e74b2bb5efb036f4f04ef1256d6d7100d2b1f27d96c46145430336f2643ae"
+    }
+  ],
+  "knowledge_sources": [
+    "hinohara-2015-nambu-goldstone-inertia-response",
+    "petrik-kortelainen-2018-rotational-tv-inertia"
+  ],
+  "scientific_boundary": "Canonical knowledge replaces overbroad worker assertions. Runtime route is not provider billing."
+}

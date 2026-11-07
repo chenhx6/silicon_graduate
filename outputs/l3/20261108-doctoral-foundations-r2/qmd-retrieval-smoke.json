@@ -1,0 +1,124 @@
+{
+  "recorded_at": "2026-11-07T21:16:32.536508+00:00",
+  "mode": "BM25 text only",
+  "collection": "nuclear-knowledge",
+  "queries": [
+    {
+      "query": "collective inertia response crosswalk",
+      "returncode": 0,
+      "results": [
+        {
+          "docid": "#d505fe",
+          "score": 0.92,
+          "file": "qmd://nuclear-knowledge/sources/petrik-kortelainen-2018-rotational-tv-inertia.md?index=wiki",
+          "line": 91,
+          "title": "时间反演不变的静态态，也需要时间奇的动态响应",
+          "snippet": "@@ -90,4 @@ (89 before, 14 after)\n\nfoundational-background：[[doctoral-r2-collective-inertia-response-crosswalk-20261108]]；\nmethodological-bridge：[[moments-of-inertia]]。\n34.511/34.533 只用于共同设置的方法比较，不与其它泛函或基底的数值合并。"
+        },
+        {
+          "docid": "#4c7611",
+          "score": 0.92,
+          "file": "qmd://nuclear-knowledge/sources/matsuzaki-2004-nuclear-inertia-and-wobbling.md?index=wiki",
+          "line": 88,
+          "title": "摆动公式里的有效横向惯量，不是沿带 J(2) 差分",
+          "snippet": "@@ -87,4 @@ (86 before, 15 after)\nmethodological-bridge：[[moments-of-inertia]]、\n[[doctoral-r2-collective-inertia-response-crosswalk-20261108]]。\n与既有 [[campaign-g07-matsuzaki-2004-wobbling-instability]] 为不同论文，\n后者是 PRC69,064317，不合并 DOI 或原件。"
+        },
+        {
+          "docid": "#1eb196",
+          "score": 0.92,
+          "file": "qmd://nuclear-knowledge/sources/washiyama-2024-five-dimensional-improved-inertia.md?index=wiki",
+          "line": 93,
+          "title": "振动质量与转动惯量不共享一个经验增强系数",
+          "snippet": "@@ -92,4 @@ (91 before, 15 after)\n\nsupports：[[doctoral-r2-collective-inertia-response-crosswalk-20261108]] 的坐标/响应比较；\nlimits：把 1.3 等固定因子迁移到所有质量区或所有振动、转动分量。\n与早期同研究组方法有依赖，不把 Se/Kr、110Pd 的模型成功计作独立实验重复。"
+        },
+        {
+          "docid": "#f536de",
+          "score": 0.92,
+          "file": "qmd://nuclear-knowledge/sources/sun-2025-iterative-atdhfb-rare-earth-inertia.md?index=wiki",
+          "line": 114,
+          "title": "形变几乎相同，惯量仍可明显不同",
+          "snippet": "@@ -113,4 @@ (112 before, 16 after)\n\nsupports：[[doctoral-r2-collective-inertia-response-crosswalk-20261108]] 的势—响应分层；\nlimits：一种形变对应唯一惯量、无经验输入、完整自洽必然全面改善拟合的过强说法。\n与 [[petrik-kortelainen-2018-rotational-tv-inertia]] 存在方法和配对设置依赖。"
+        }
+      ],
+      "stderr": ""
+    },
+    {
+      "query": "R2 inertia evidence band reconstruction",
+      "returncode": 0,
+      "results": [
+        {
+          "docid": "#1a5a4a",
+          "score": 0.92,
+          "file": "qmd://nuclear-knowledge/research-notes/doctoral-r2-inertia-evidence-and-band-reconstruction-20261108.md?index=wiki",
+          "line": 4,
+          "title": "原始案例怎样约束惯量，而不把模型当作测量",
+          "snippet": "@@ -3,4 @@ (2 before, 146 after)\ntitle: \"R2 惯量证据矩阵与 163Lu 原表响应重建\"\naliases: [R2 inertia evidence and band reconstruction]\ncreated: 2026-11-08\nupdated: 2026-11-08"
+        },
+        {
+          "docid": "#4c7611",
+          "score": 0.92,
+          "file": "qmd://nuclear-knowledge/sources/matsuzaki-2004-nuclear-inertia-and-wobbling.md?index=wiki",
+          "line": 102,
+          "title": "摆动公式里的有效横向惯量，不是沿带 J(2) 差分",
+          "snippet": "@@ -101,4 @@ (100 before, 1 after)\n- 可复用方法与比较合同：[[doctoral-r2-collective-inertia-response-crosswalk-20261108]]。\n- 具体案例、真实表与边界：[[doctoral-r2-inertia-evidence-and-band-reconstruction-20261108]]。\n- 当前不另建能带或实验页；本来源中的实核数值与模型条件按上文保留，\n  不将理论参数登记成新的测量。"
+        },
+        {
+          "docid": "#d505fe",
+          "score": 0.92,
+          "file": "qmd://nuclear-knowledge/sources/petrik-kortelainen-2018-rotational-tv-inertia.md?index=wiki",
+          "line": 104,
+          "title": "时间反演不变的静态态，也需要时间奇的动态响应",
+          "snippet": "@@ -103,4 @@ (102 before, 1 after)\n- 可复用方法与比较合同：[[doctoral-r2-collective-inertia-response-crosswalk-20261108]]。\n- 具体案例、真实表与边界：[[doctoral-r2-inertia-evidence-and-band-reconstruction-20261108]]。\n- 当前不另建能带或实验页；本来源中的实核数值与模型条件按上文保留，\n  不将理论参数登记成新的测量。"
+        },
+        {
+          "docid": "#f536de",
+          "score": 0.92,
+          "file": "qmd://nuclear-knowledge/sources/sun-2025-iterative-atdhfb-rare-earth-inertia.md?index=wiki",
+          "line": 129,
+          "title": "形变几乎相同，惯量仍可明显不同",
+          "snippet": "@@ -128,4 @@ (127 before, 1 after)\n- 可复用方法与比较合同：[[doctoral-r2-collective-inertia-response-crosswalk-20261108]]。\n- 具体案例、真实表与边界：[[doctoral-r2-inertia-evidence-and-band-reconstruction-20261108]]。\n- 当前不另建能带或实验页；本来源中的实核数值与模型条件按上文保留，\n  不将理论参数登记成新的测量。"
+        }
+      ],
+      "stderr": ""
+    },
+    {
+      "query": "Hinohara Nambu Goldstone inertia",
+      "returncode": 0,
+      "results": [
+        {
+          "docid": "#55359d",
+          "score": 0.97,
+          "file": "qmd://nuclear-knowledge/sources/hinohara-2015-nambu-goldstone-inertia-response.md?index=wiki",
+          "line": 4,
+          "title": "同样叫“转动”的配对规范响应与空间取向响应",
+          "snippet": "@@ -3,4 @@ (2 before, 136 after)\ntitle: \"Hinohara 2015：NG 惯量、零频响应及出版版本核查\"\naliases: [Hinohara 2015 Nambu Goldstone inertia, pairing rotational FAM]\ncreated: 2026-11-08\nupdated: 2026-11-08"
+        },
+        {
+          "docid": "#1a5a4a",
+          "score": 0.97,
+          "file": "qmd://nuclear-knowledge/research-notes/doctoral-r2-inertia-evidence-and-band-reconstruction-20261108.md?index=wiki",
+          "line": 10,
+          "title": "原始案例怎样约束惯量，而不把模型当作测量",
+          "snippet": "@@ -9,4 @@ (8 before, 140 after)\nreasoning_status: provisional\nevidence_sources: [hinohara-2010-local-qrpa-shape-mixing, sato-hinohara-2011-krypton-shape-mixing, washiyama-2024-five-dimensional-improved-inertia, xiang-2024-triaxial-pairing-collective-hamiltonian, sun-2025-iterative-atdhfb-rare-earth-inertia, prochniak-rohozinski..."
+        },
+        {
+          "docid": "#965bd2",
+          "score": 0.96,
+          "file": "qmd://nuclear-knowledge/research-notes/doctoral-r2-collective-inertia-response-crosswalk-20261108.md?index=wiki",
+          "line": 10,
+          "title": "同一幅形状图为什么还没有决定核怎样运动",
+          "snippet": "@@ -9,4 @@ (8 before, 219 after)\nreasoning_status: provisional\nevidence_sources: [prochniak-rohozinski-2009-bohr-collective-hamiltonian, hinohara-2010-local-qrpa-shape-mixing, sato-hinohara-2011-krypton-shape-mixing, hinohara-2015-nambu-goldstone-inertia-response, petrik-kortelainen-2018-rotational-tv-inertia, afanasjev-abusara-..."
+        },
+        {
+          "docid": "#47bb11",
+          "score": 0.96,
+          "file": "qmd://nuclear-knowledge/observables/moments-of-inertia.md?index=wiki",
+          "line": 112,
+          "title": "转动惯量（Moments of Inertia）",
+          "snippet": "@@ -111,4 @@ (110 before, 20 after)\n\n[[hinohara-2015-nambu-goldstone-inertia-response]] 的粒子数规范旋转为\n\\(\\mathcal J_N=\\partial N/\\partial\\lambda\\)，单位 MeV⁻¹；\n它不等于空间转动惯量、配对幅度质量或 BCS gap。"
+        }
+      ],
+      "stderr": ""
+    }
+  ]
+}

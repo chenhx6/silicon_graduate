@@ -8,11 +8,20 @@ status: ai-draft
 review_status: unreviewed
 scope: A≈60–190代表性原始案例的形状与集体动力学比较；不作为全核区穷尽分类
 confidence: medium
-sources: [cline-1986-nuclear-shapes-coulomb-excitation, poves-2020-limits-assigning-nuclear-shape, doctoral-r1-g26-starosta-2007-64ge-rdm-e2, doctoral-r1-g26-crider-2016-68ni-shape-coexistence, doctoral-r1-g27-clement-2007-prc-krypton-coulex, doctoral-r1-g28-togashi-2016-zr-mcsm-qpt, doctoral-r1-g28-singh-2018-98zr-lifetimes, chen-2019-transverse-wobbling-even-even, campaign-g07-gorgen-2004-163lu-quadrupole-moments, doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg, doctoral-r1-g29-wang-2024-exploring-wobbling-even-even, doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution, doctoral-r1-g29-nomura-2022-questioning-wobbling-ibfm, purry-1997-phd-w178-multiparticle-structure, doctoral-r1-g30-frauendorf-2000-npa-tilted-axis-cranking, book-jain-nuclear-isomers, doctoral-r1-g33-gintautas-2009-176lu-thermal-equilibration, doctoral-r1-g33-gosselin-2010-plasma-isomers-176lu-180ta, doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives, doctoral-r1-g35-rodriguez-2010-prl-0nubb-edf, doctoral-r1-g35-vaquero-2013-prl-shape-pairing-0nubb, zagrebaev-2001-superheavy-synthesis-survival]
+sources: [cline-1986-nuclear-shapes-coulomb-excitation, poves-2020-limits-assigning-nuclear-shape, doctoral-r1-g26-starosta-2007-64ge-rdm-e2, doctoral-r1-g26-crider-2016-68ni-shape-coexistence, doctoral-r1-g27-clement-2007-prc-krypton-coulex, doctoral-r1-g28-togashi-2016-zr-mcsm-qpt, doctoral-r1-g28-singh-2018-98zr-lifetimes, chen-2019-transverse-wobbling-even-even, campaign-g07-gorgen-2004-163lu-quadrupole-moments, doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg, doctoral-r1-g29-wang-2024-exploring-wobbling-even-even, doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution, doctoral-r1-g29-nomura-2022-questioning-wobbling-ibfm, purry-1997-phd-w178-multiparticle-structure, doctoral-r1-g30-frauendorf-2000-npa-tilted-axis-cranking, book-jain-nuclear-isomers, doctoral-r1-g33-gintautas-2009-176lu-thermal-equilibration, doctoral-r1-g33-gosselin-2010-plasma-isomers-176lu-180ta, doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives, doctoral-r1-g35-rodriguez-2010-prl-0nubb-edf, doctoral-r1-g35-vaquero-2013-prl-shape-pairing-0nubb, zagrebaev-2001-superheavy-synthesis-survival, sato-hinohara-2011-krypton-shape-mixing, washiyama-2024-five-dimensional-improved-inertia, sun-2025-iterative-atdhfb-rare-earth-inertia, xiang-2024-triaxial-pairing-collective-hamiltonian]
 tags: [collective-excitation, core-deformation, cross-region, triaxiality, doctoral-foundations]
 ---
 
 # 从占据到观测：六区为什么相似，又为什么不同
+
+## Agent active summary
+
+六区案例的比较轴为占据、形状、惯量、激发和观测链。
+R2补入Se/Kr、110Pd、128Xe、稀土/Os的原作响应合同，
+不再把静态PES或平均γ视为动力学的充分输入。
+精确定义和版本边界见
+[[doctoral-r2-collective-inertia-response-crosswalk-20261108]]、
+[[doctoral-r2-inertia-evidence-and-band-reconstruction-20261108]]。
 
 ## Question and Scope
 
@@ -138,6 +147,22 @@ seniority及八极角向的既有精确控制见相关研究项目，
 一条弱线既需要核算符解释，也需要实际接收/背景预算。
 吴鸿毅论文与G32受控计算提供方法，不替代用户仪器的标定。
 
+### 6. 微观响应为跨区比较补上的条件
+
+[[sato-hinohara-2011-krypton-shape-mixing]] pp.10–14以76Kr说明，
+静态绝对极小与随自旋局域化的计算波函数不必落在同一侧；
+这一解释仍受其P+Q、有效电荷及E0近似约束。
+[[washiyama-2024-five-dimensional-improved-inertia]] pp.3–4在110Pd中
+显示振动质量与转动惯量的修正有不同坐标依赖，不能共享普适缩放。
+[[sun-2025-iterative-atdhfb-rare-earth-inertia]] v3 p.4的166Er三泛函
+给出接近的β而不同的惯量，且作者保留配对校准与三轴限制。
+
+因此迁移的最低合同扩展为：参考态族、势/ZPE、坐标质量及测度、
+有效算符、局域模式选择和实验响应。它允许提出新的共同模型问题，
+不构成“另一质量区已发现相同模式”。
+[[xiang-2024-triaxial-pairing-collective-hamiltonian]]进一步提醒，
+动态配对压谱与ZPE扩谱是不同操作，不能只由低2⁺能量唯一归因时间奇场。
+
 ## Counter-evidence
 
 - 64Ge的强E2多项符合与弱跨带失配并存，不能只展示成功。
@@ -160,7 +185,8 @@ seniority及八极角向的既有精确控制见相关研究项目，
 
 本综合基于已核代表案例，不声称穷尽六区全部核素或最新后续实验。
 实际核完整Cov、作者波函数/producer、部分高阶闭合与统一多探针输入仍缺。
-集体惯量与配对响应的微观推导是下一轮核心准备重点；
+R2已补入集体惯量与配对响应的定义、推导及原作案例；
+形状/取向共同producer、非绝热适用域及完整EM仍需具体研究。
 论文设计准备的判断按项目页条件另作，不由本综合篇幅或“Master”标签决定。
 
 ## Sources
