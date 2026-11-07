@@ -1,0 +1,2032 @@
+{
+  "issues": [
+    {
+      "path": "knowledge/observables/intrinsic-dipole-moment.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## How It Is Obtained"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Diagnostic Use"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Model Dependence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Failure Modes and Ambiguities"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Sources"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/observables/reduced-hindrance-factor.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## How It Is Obtained"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Diagnostic Use"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Model Dependence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Failure Modes and Ambiguities"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Sources"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/projects/isomer-six-region-transfer-research.md",
+      "errors": [
+        {
+          "code": "FIELD_REQUIRED",
+          "message": "missing project_stage"
+        },
+        {
+          "code": "FIELD_REQUIRED",
+          "message": "missing confidentiality"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Research Question"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Current Hypotheses"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Evidence Available"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Risks and Blockers"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Next Actions"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/research-notes/isomer-review-learning-and-transfer-20261107.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Research Trigger"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Grounded Evidence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Provisional Reasoning"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Assumptions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Explanations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Transfer Conditions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Failure Conditions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Falsification or Reverse Tests"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Open Questions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Human Review"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Promotion or Rejection History"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/research-notes/isomer-shell-evolution-astrophysics-and-superheavy-transfer-20261107.md",
+      "errors": [
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 11:   - \"knowledge/sources/watanabe-2013-128pd-126pd-isomers-n82.md\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 12:   - \"knowledge/sources/taprogge-2014-sn132-proton-hole-n82.md\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 13:   - \"knowledge/sources/martin-2016-mass-uncertainties-r-process.md\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 14:   - \"knowledge/sources/yuan-2016-southeast-132sn-129pd-isomer.md\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 15:   - \"knowledge/sources/yang-2024-os160-w156-n82-stability.md\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 16:   - \"knowledge/sources/xu-2004-superheavy-high-spin-isomer-stability.md\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 17:   - \"knowledge/sources/herzberg-2006-superheavy-isomers-stepping-stones.md\""
+        },
+        {
+          "code": "FIELD_REQUIRED",
+          "message": "missing evidence_sources"
+        },
+        {
+          "code": "EVIDENCE_SOURCES_EMPTY",
+          "message": "research-note requires at least one grounded evidence source"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Research Trigger"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Grounded Evidence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Provisional Reasoning"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Assumptions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Explanations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Transfer Conditions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Failure Conditions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Falsification or Reverse Tests"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Open Questions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Human Review"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Promotion or Rejection History"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/research-notes/mo93-neec-evidence-and-depletion-transfer-20261107.md",
+      "errors": [
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 14:   - \"knowledge/sources/walker-2001-180ta-k5-band-intermediate-depletion.md\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 15:   - \"knowledge/sources/volotka-2016-two-photon-electron-transition-netp.md\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 16:   - \"knowledge/sources/chiara-2018-mo93m-isomer-depletion-neec.md\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 17:   - \"knowledge/sources/vanacore-2018-attosecond-coherent-control-free-electrons.md\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 18:   - \"knowledge/sources/wu-2019-mo93m-neec-stopping-theory.md\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 19:   - \"knowledge/sources/guo-2021-mo93m-depletion-contamination-challenge.md\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 20:   - \"knowledge/sources/rzadkiewicz-2021-mo93m-neec-resonant-transfer.md\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 21:   - \"knowledge/sources/gargiulo-2022-neec-excited-ions.md\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 22:   - \"knowledge/sources/guo-2022-mo93m-isomer-beam-depletion-limit.md\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 23:   - \"knowledge/sources/wu-2022-isomer-depletion-vortex-electron-beams.md\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 24:   - \"knowledge/sources/wang-2023-neec-ebit-feasibility.md\""
+        },
+        {
+          "code": "FIELD_REQUIRED",
+          "message": "missing evidence_sources"
+        },
+        {
+          "code": "EVIDENCE_SOURCES_EMPTY",
+          "message": "research-note requires at least one grounded evidence source"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Research Trigger"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Grounded Evidence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Provisional Reasoning"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Assumptions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Explanations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Transfer Conditions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Failure Conditions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Falsification or Reverse Tests"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Open Questions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Human Review"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Promotion or Rejection History"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/research-notes/nuclear-clock-isomer-learning-and-transfer-20261107.md",
+      "errors": [
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 13:   - \"[[beck-2007-energy-splitting-th229]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 14:   - \"[[tkalya-2011-nuclear-gamma-ray-laser]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 15:   - \"[[peik-2015-nuclear-clocks-resonant-gamma]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 16:   - \"[[von-der-wense-2016-direct-detection-229th]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 17:   - \"[[seiferle-2017-lifetime-229th-isomer]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 18:   - \"[[thielking-2018-laser-spectroscopy-229mth]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 19:   - \"[[burke-2019-one-tick-closer-nuclear-clock]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 20:   - \"[[masuda-2019-x-ray-pumping-229th-isomer]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 21:   - \"[[seiferle-2019-energy-229th-nuclear-clock]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 22:   - \"[[thirolf-2019-229th-isomer-doorway-tutorial]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 23:   - \"[[yamaguchi-2019-energy-229th-gamma-difference]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 24:   - \"[[sikorsky-2020-th229-isomer-energy-mmc]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 25:   - \"[[beeks-2021-thorium-229-isomer-nuclear-clock]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 26:   - \"[[liang-2021-precision-measurement-trapped-ions]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 27:   - \"[[peik-2021-nuclear-clocks-testing-fundamental-physics]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 28:   - \"[[pupeza-2021-euv-frequency-combs]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 29:   - \"[[wang-2021-exciting-229th-electron-recollision]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 30:   - \"[[kraemer-2023-radiative-decay-229th-isomer]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 31:   - \"[[qi-2023-isomeric-excitation-th229-laser-clusters]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 32:   - \"[[shvydko-2023-resonant-xray-excitation-45sc]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 33:   - \"[[yamaguchi-2024-laser-spectroscopy-th229-triply-charged]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 34:   - \"[[zhang-2024-thf4-thin-films-solid-state-clocks]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 35:   - \"[[zhang-2024-nature-peer-review-file-nuclear-clock]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 36:   - \"[[zhang-2024-frequency-ratio-87sr-nuclear-clock]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 37:   - \"[[huang-2026-nuclear-clock-synchronized-229th]]\""
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 38:   - \"[[toscani-de-col-2026-thorium-229-optical-nuclear-clock-feedback]]\""
+        },
+        {
+          "code": "FIELD_REQUIRED",
+          "message": "missing evidence_sources"
+        },
+        {
+          "code": "EVIDENCE_SOURCES_EMPTY",
+          "message": "research-note requires at least one grounded evidence source"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Research Trigger"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Grounded Evidence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Provisional Reasoning"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Assumptions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Explanations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Transfer Conditions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Failure Conditions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Falsification or Reverse Tests"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Open Questions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Human Review"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Promotion or Rejection History"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/research-notes/seniority-mid-shell-cross-region-model-test-20261107.md",
+      "errors": [
+        {
+          "code": "FIELD_REQUIRED",
+          "message": "missing aliases"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Research Trigger"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Grounded Evidence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Provisional Reasoning"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Assumptions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Explanations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Transfer Conditions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Failure Conditions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Falsification or Reverse Tests"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Open Questions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Human Review"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Promotion or Rejection History"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/research-notes/six-region-primary-counterexamples-and-transfer-20261107.md",
+      "errors": [
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 11:   - knowledge/sources/peng-2019-possible-chiral-doublets-60ni.md"
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 12:   - knowledge/sources/guo-2024-chiral-wobbler-74br.md"
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 13:   - knowledge/sources/timar-2019-transverse-wobbling-105pd.md"
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 14:   - knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md"
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 15:   - knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md"
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 16:   - knowledge/sources/zhang-2016-two-quasiparticle-bands-166ta.md"
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 17:   - knowledge/sources/odegard-2001-evidence-wobbling-163lu.md"
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 18:   - knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md"
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 19:   - knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md"
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 20:   - knowledge/sources/guo-2022-low-spin-wobbling-187au.md"
+        },
+        {
+          "code": "FRONTMATTER_PARSE",
+          "message": "unsupported YAML syntax at line 21:   - knowledge/sources/jehangir-2020-high-spin-doublet-bands-194-200tl.md"
+        },
+        {
+          "code": "FIELD_REQUIRED",
+          "message": "missing evidence_sources"
+        },
+        {
+          "code": "EVIDENCE_SOURCES_EMPTY",
+          "message": "research-note requires at least one grounded evidence source"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Research Trigger"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Grounded Evidence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Provisional Reasoning"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Assumptions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Explanations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Transfer Conditions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Failure Conditions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Falsification or Reverse Tests"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Open Questions"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Human Review"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Promotion or Rejection History"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/beck-2007-energy-splitting-th229.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/beeks-2021-thorium-229-isomer-nuclear-clock.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/book-jain-nuclear-isomers.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/burke-2019-one-tick-closer-nuclear-clock.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/chiara-2018-mo93m-isomer-depletion-neec.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/dracoulis-2012-191193ir-triaxial-isomers-preview.md",
+      "errors": [
+        {
+          "code": "FIELD_REQUIRED",
+          "message": "missing title_original"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/dracoulis-2013-192os-isomers-gamma-soft.md",
+      "errors": [
+        {
+          "code": "FIELD_REQUIRED",
+          "message": "missing title_original"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/gargiulo-2022-neec-excited-ions.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/guo-2021-mo93m-depletion-contamination-challenge.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/guo-2022-mo93m-isomer-beam-depletion-limit.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/herzberg-2006-superheavy-isomers-stepping-stones.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/huang-2026-nuclear-clock-synchronized-229th.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/jehangir-2020-high-spin-doublet-bands-194-200tl.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/karmakar-2024-100ru-octupole-access-record.md",
+      "errors": [
+        {
+          "code": "FIELD_REQUIRED",
+          "message": "missing title_original"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/karmakar-2025-2026-98mo-octupole-preview.md",
+      "errors": [
+        {
+          "code": "FIELD_REQUIRED",
+          "message": "missing title_original"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/kraemer-2023-radiative-decay-229th-isomer.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/liang-2021-precision-measurement-trapped-ions.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/martin-2016-mass-uncertainties-r-process.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/masuda-2019-x-ray-pumping-229th-isomer.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/paper-carroll-chiara-2024-isomer-depletion.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/paper-dracoulis-2016-metastable-states-heavy-nuclei.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/paper-walker-dracoulis-1999-energy-traps.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/paper-walker-podolyak-2020-100-years-isomers.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/peik-2015-nuclear-clocks-resonant-gamma.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/peik-2021-nuclear-clocks-testing-fundamental-physics.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/peng-2019-possible-chiral-doublets-60ni.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/pupeza-2021-euv-frequency-combs.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/qi-2023-isomeric-excitation-th229-laser-clusters.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/rzadkiewicz-2021-mo93m-neec-resonant-transfer.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/seiferle-2017-lifetime-229th-isomer.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/seiferle-2019-energy-229th-nuclear-clock.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/shvydko-2023-resonant-xray-excitation-45sc.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/sikorsky-2020-th229-isomer-energy-mmc.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/taprogge-2014-sn132-proton-hole-n82.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/thielking-2018-laser-spectroscopy-229mth.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/thirolf-2019-229th-isomer-doorway-tutorial.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/tkalya-2011-nuclear-gamma-ray-laser.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/toscani-de-col-2026-thorium-229-optical-nuclear-clock-feedback.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/vanacore-2018-attosecond-coherent-control-free-electrons.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/volotka-2016-two-photon-electron-transition-netp.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/von-der-wense-2016-direct-detection-229th.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/walker-2001-180ta-k5-band-intermediate-depletion.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/wang-2021-exciting-229th-electron-recollision.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/wang-2023-neec-ebit-feasibility.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/wu-2019-mo93m-neec-stopping-theory.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/wu-2022-isomer-depletion-vortex-electron-beams.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/xu-2004-superheavy-high-spin-isomer-stability.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/yamaguchi-2019-energy-229th-gamma-difference.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/yamaguchi-2024-laser-spectroscopy-th229-triply-charged.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/yang-2024-os160-w156-n82-stability.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/yuan-2016-southeast-132sn-129pd-isomer.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/zhang-2016-two-quasiparticle-bands-166ta.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/zhang-2024-frequency-ratio-87sr-nuclear-clock.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/zhang-2024-nature-peer-review-file-nuclear-clock.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/sources/zhang-2024-thf4-thin-films-solid-state-clocks.md",
+      "errors": [
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Bibliographic Record"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Scope and Reading Depth"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Summary"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Key Results"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Competing Interpretations and Limitations"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Extracted Pages"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/synthesis/high-spin-isomers-and-decay-modes-systematics.md",
+      "errors": [
+        {
+          "code": "FIELD_REQUIRED",
+          "message": "missing confidence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Question and Scope"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Evidence Matrix"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Synthesis"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Counter-evidence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Model Dependence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Limitations and Missing Evidence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Sources"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/synthesis/octupole-and-chiral-coexistence-in-transitional-nuclei.md",
+      "errors": [
+        {
+          "code": "FIELD_REQUIRED",
+          "message": "missing scope"
+        },
+        {
+          "code": "FIELD_REQUIRED",
+          "message": "missing confidence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Question and Scope"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Evidence Matrix"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Synthesis"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Counter-evidence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Model Dependence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Limitations and Missing Evidence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Sources"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/synthesis/triaxial-collective-evolution-across-mass-regions.md",
+      "errors": [
+        {
+          "code": "FIELD_REQUIRED",
+          "message": "missing confidence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Question and Scope"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Evidence Matrix"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Synthesis"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Counter-evidence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Model Dependence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Limitations and Missing Evidence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Sources"
+        }
+      ]
+    },
+    {
+      "path": "knowledge/synthesis/universal-triaxial-collective-mechanics-and-cross-region-migration.md",
+      "errors": [
+        {
+          "code": "FIELD_REQUIRED",
+          "message": "missing scope"
+        },
+        {
+          "code": "FIELD_REQUIRED",
+          "message": "missing confidence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Question and Scope"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Evidence Matrix"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Synthesis"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Counter-evidence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Model Dependence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Limitations and Missing Evidence"
+        },
+        {
+          "code": "SECTION_REQUIRED",
+          "message": "missing ## Sources"
+        }
+      ]
+    }
+  ]
+}

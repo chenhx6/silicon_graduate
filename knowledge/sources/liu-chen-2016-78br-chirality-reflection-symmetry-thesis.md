@@ -3,7 +3,7 @@ type: source
 title: "刘晨 2016 博士论文：奇奇核 78Br 中手征对称性和空间反射对称性的联立自发破缺"
 aliases: [刘晨 78Br 博士论文, 78Br chirality reflection-symmetry thesis]
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-11-07
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-experiment
@@ -23,6 +23,7 @@ citation_key: "liu_2016_78br"
 library_file: "raw/theses/degree-dissertation/刘晨_奇奇核~(78)Br中手征...间反射对称性的联立自发破缺.pdf"
 raw_file: "raw/theses/degree-dissertation/刘晨_奇奇核~(78)Br中手征...间反射对称性的联立自发破缺.pdf"
 raw_sha256: "5e00370aab205b689841cb58d65c7fad8829e3de74f084736a74f2d8658ab291"
+archive_required: true
 nuclei: [78br]
 reactions: ["70Zn(12C,p3n)78Br"]
 experiments: [ithembalabs-afrodite-diamant-78br-c12-60-65mev]
@@ -33,6 +34,25 @@ tags: [degree-dissertation, 78br, chirality, reflection-symmetry, octupole-corre
 ---
 
 # 刘晨 2016：`78Br` 手征与反射对称性破缺
+
+## 2026-11-07 原件回读：共存与四重带的区别
+
+本次重新核对原件哈希、107页身份，定向回读PDF pp.64–90的组态、
+多种模型、E1网络、八极关联、邻核系统学与展望；不把全文文本提取
+或本次定向回读另算一次全书精读。下面的精确定位补充既有阅读记录。
+
+| ID | 原件支持的陈述 | claim_kind | locator | 适用边界 |
+|---|---|---|---|---|
+| LC16-R7-1 | 八条E1连接的是正宇称Band 1与负宇称Band 3；作者借助相对强度及能量位移讨论八极关联。 | experimental-fact + author-interpretation | PDF pp.78–79，§5.3，Fig.5.16 | 不是四条带之间的完整跨宇称网络，也不是八条绝对B(E1)测量。 |
+| LC16-R7-2 | PC-PK1的MDC-CDFT在β20–β30面给出β30=0的极小及八极软性；后续宏观—微观模型在部分非轴向β3μ面给出非零极小。 | model-result | PDF pp.80–82，Figs.5.17–5.18及各极小点表 | 模型空间和组态不同；不能删去后者而声称所有模型均排除静态八极，也不能用后者升级为实验测得稳定八极。 |
+| LC16-R7-3 | 总结明确区分当前78Br的多重手征带/八极关联与未来“稳定三轴和八极同时存在”的手征—宇称四重带问题。 | author-interpretation | PDF p.90，印刷p.79，Ch.7展望 | 当前实验不是已完成CPQ认证；论文标题不替代正文证据范围。 |
+| LC16-R7-4 | 同样的πg9/2⊗νg9/2组态可对应不同形变极小；原文将近扁椭极小与4+异能态联系，将另一形变极小用于手征解释。 | model-result + author-interpretation | PDF pp.69–76，Tables5.2–5.5及PDF p.71讨论 | 单一轨道标签不能唯一决定形状、手征性或寿命；不同模型参数组不能混拼为同一势能面。 |
+
+**Knowledge Impact：revises。** 据此修订
+[[octupole-and-chiral-coexistence-in-transitional-nuclei]]，撤回把78Br直接称作
+已证实静态手征—宇称四重带的旧综合。实验、学位论文与2016期刊仍属于同一谱系。
+P0：本次未发现未隔离的来源身份或归档问题。P1：非轴向八极极小的模型依赖、
+伙伴分辨寿命及完整跨宇称矩阵元仍是科学问题，不能由命中关键词或审核状态消除。
 
 ## Bibliographic Record
 

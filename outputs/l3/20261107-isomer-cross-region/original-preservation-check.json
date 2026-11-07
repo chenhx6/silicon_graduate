@@ -1,0 +1,7 @@
+{
+  "checked_at": "2026-11-07T11:07:47.598534+00:00",
+  "inventory": "outputs/l3/20261107-isomer-cross-region/local-inventory.json",
+  "checked_files": 51,
+  "hash_changes": [],
+  "note": "Identical byte hashes validate original preservation, not reading depth or scientific correctness."
+}

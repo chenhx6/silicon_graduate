@@ -2,10 +2,101 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-11-06
+updated: 2026-11-07
 ---
 
 # Wiki Index
+
+## 2026-11-07 同核异能态与六区机制研究
+
+- [[isomer-six-region-transfer-research]] — 本轮学习与L3/L4研究总入口，51个所给PDF的身份/覆盖、开放候选和停止条件。
+- [[triaxial-collective-evolution-across-mass-regions]]、[[octupole-and-chiral-coexistence-in-transitional-nuclei]]、[[high-spin-isomers-and-decay-modes-systematics]] — 三篇实质重写的主综合，保留反证、竞争解释及迁移条件。
+- [[universal-triaxial-collective-mechanics-and-cross-region-migration]] — 已撤回整区严格禁戒和普适数值阈值，恢复局部模型条件。
+- [[intrinsic-dipole-moment]]、[[reduced-hindrance-factor]] — 辐射幂次、CG因子、ICC和分γ寿命约定纠正。
+- [[book-jain-nuclear-isomers]]、[[liu-chen-2016-78br-chirality-reflection-symmetry-thesis]]、[[xiao-xiao-2019-high-spin-74as-thesis]]、[[hayes-2005-k-conservation-178hf]] — 专著重点章节/学位论文原件回读；不宣称整书、所有附件或原始数据均已验证。
+
+### 本轮研究笔记
+
+- [[isomer-review-learning-and-transfer-20261107]] — 同核异能态五大经典综述/专著深度研学与微观机制迁移总论（2026-11-07）
+- [[isomer-shell-evolution-astrophysics-and-superheavy-transfer-20261107]] — 同核异能态微观壳演化、天体物理 Astromer 热耦合与超重核转移反应机制大综合（2026-11-07）
+- [[mo93-neec-evidence-and-depletion-transfer-20261107]] — Mo-93m NEEC controversy, experimental evidence, theoretical mechanisms, and cross-region isomer depletion transfer
+- [[nuclear-clock-isomer-learning-and-transfer-20261107]] — 光学核钟同核异能态物理、前沿实验突破与核结构机制跨区迁移研学
+- [[seniority-mid-shell-cross-region-model-test-20261107]] — Single-j seniority cancellation: exact model, symmetry countercheck, and cross-region theory audit
+- [[six-region-primary-counterexamples-and-transfer-20261107]] — 六区原始反例、模式迁移与推断边界（2026-11-07）
+- [[isomer-cross-region-hypothesis-discrimination-20261107]] — C1–C4的共同输入、反方解释和停止条件；新候选不是已发现模式。
+- [[cross-mass-region-triaxial-microscopic-mechanisms-and-predictions]] — 旧的整区禁戒与确定性预测已撤回，保留原件纠正与迁移合同。
+- [[karmakar-2023-2024-100ru-alternate-parity-bands]]、[[karmakar-2024-100ru-enhanced-e1-lifetimes]] — 新补得100Ru谱学及DSAM预印本，稳定八极仍为作者待进一步检验的解释。
+
+### 综述与专著
+
+- [[paper-carroll-chiara-2024-isomer-depletion]] — Carroll & Chiara 2024 - Isomer Depletion；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[paper-dracoulis-2016-metastable-states-heavy-nuclei]] — Dracoulis, Walker & Kondev 2016 - Review of Metastable States in Heavy Nuclei；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[paper-walker-dracoulis-1999-energy-traps]] — Walker & Dracoulis 1999 - Energy Traps in Atomic Nuclei；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[paper-walker-podolyak-2020-100-years-isomers]] — Walker & Podolyák 2020 - 100 Years of Nuclear Isomers—Then and Now；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+
+### 耗散、NEEC与电子通道
+
+- [[chiara-2018-mo93m-isomer-depletion-neec]] — Isomer depletion as experimental evidence of nuclear excitation by electron capture；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[gargiulo-2022-neec-excited-ions]] — Nuclear Excitation by Electron Capture in Excited Ions；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[guo-2021-mo93m-depletion-contamination-challenge]] — Possible overestimation of isomer depletion due to contamination；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[guo-2022-mo93m-isomer-beam-depletion-limit]] — Probing 93mMo Isomer Depletion with an Isomer Beam；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[rzadkiewicz-2021-mo93m-neec-resonant-transfer]] — Novel Approach to 93mMo Isomer Depletion: Nuclear Excitation by Electron Capture in Resonant Transfer Process；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[vanacore-2018-attosecond-coherent-control-free-electrons]] — Attosecond coherent control of free-electron wave functions using semi-infinite light fields；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[volotka-2016-two-photon-electron-transition-netp]] — Nuclear Excitation by Two-Photon Electron Transition；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[walker-2001-180ta-k5-band-intermediate-depletion]] — Interpretation of the excitation and decay of 180Ta^m through a K^pi = 5+ band；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[wang-2023-neec-ebit-feasibility]] — Feasibility study of nuclear excitation by electron capture using an electron beam ion trap；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[wu-2019-mo93m-neec-stopping-theory]] — 93mMo Isomer Depletion via Beam-Based Nuclear Excitation by Electron Capture；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[wu-2022-isomer-depletion-vortex-electron-beams]] — Dynamical Control of Nuclear Isomer Depletion via Electron Vortex Beams；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+
+### 核钟及相关方法/附件
+
+- [[beck-2007-energy-splitting-th229]] — Energy Splitting of the Ground-State Doublet in the Nucleus 229Th；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[beeks-2021-thorium-229-isomer-nuclear-clock]] — The thorium-229 low-energy isomer and the nuclear clock；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[burke-2019-one-tick-closer-nuclear-clock]] — One tick closer to a nuclear clock；实际阅读状态`read`，具体覆盖/未覆盖见source。
+- [[huang-2026-nuclear-clock-synchronized-229th]] — A nuclear clock synchronized to 229Th；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[kraemer-2023-radiative-decay-229th-isomer]] — Observation of the radiative decay of the 229Th nuclear clock isomer；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[liang-2021-precision-measurement-trapped-ions]] — 离子阱精密测量 (Precision measurement with trapped ions)；实际阅读状态`read`，具体覆盖/未覆盖见source。
+- [[masuda-2019-x-ray-pumping-229th-isomer]] — X-ray pumping of the 229Th nuclear clock isomer；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[peik-2015-nuclear-clocks-resonant-gamma]] — Nuclear clocks based on resonant excitation of γ-transitions；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[peik-2021-nuclear-clocks-testing-fundamental-physics]] — Nuclear clocks for testing fundamental physics；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[pupeza-2021-euv-frequency-combs]] — Extreme-ultraviolet frequency combs for precision metrology and attosecond science；实际阅读状态`read`，具体覆盖/未覆盖见source。
+- [[qi-2023-isomeric-excitation-th229-laser-clusters]] — Isomeric Excitation of 229Th in Laser-Heated Clusters；实际阅读状态`read`，具体覆盖/未覆盖见source。
+- [[seiferle-2017-lifetime-229th-isomer]] — Lifetime Measurement of the 229Th Nuclear Isomer；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[seiferle-2019-energy-229th-nuclear-clock]] — Energy of the 229Th nuclear clock transition；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[shvydko-2023-resonant-xray-excitation-45sc]] — Resonant X-ray excitation of the nuclear clock isomer 45Sc；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[sikorsky-2020-th229-isomer-energy-mmc]] — Measurement of the 229Th Isomer Energy with a Magnetic Microcalorimeter；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[thielking-2018-laser-spectroscopy-229mth]] — Laser spectroscopic characterization of the nuclear-clock isomer 229mTh；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[thirolf-2019-229th-isomer-doorway-tutorial]] — The 229-thorium isomer: doorway to the road from the atomic clock to the nuclear clock；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[tkalya-2011-nuclear-gamma-ray-laser]] — Proposal for a Nuclear Gamma-Ray Laser of Optical Range；实际阅读状态`read`，具体覆盖/未覆盖见source。
+- [[toscani-de-col-2026-thorium-229-optical-nuclear-clock-feedback]] — A thorium-229 optical nuclear clock with feedback loop；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[von-der-wense-2016-direct-detection-229th]] — Direct detection of the 229Th nuclear clock transition；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[wang-2021-exciting-229th-electron-recollision]] — Exciting the Isomeric 229Th Nuclear State via Laser-Driven Electron Recollision；实际阅读状态`read`，具体覆盖/未覆盖见source。
+- [[yamaguchi-2019-energy-229th-gamma-difference]] — Energy of the 229Th Nuclear Clock Isomer Determined by Absolute γ-ray Energy Difference；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[yamaguchi-2024-laser-spectroscopy-th229-triply-charged]] — Laser spectroscopy of triply charged 229Th isomer for a nuclear clock；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[zhang-2024-frequency-ratio-87sr-nuclear-clock]] — Frequency ratio of the 229mTh nuclear isomeric transition and the 87Sr atomic clock；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[zhang-2024-nature-peer-review-file-nuclear-clock]] — Peer Review File: Frequency ratio of the 229mTh isomeric transition and the 87Sr atomic clock；实际阅读状态`read`，具体覆盖/未覆盖见source。
+- [[zhang-2024-thf4-thin-films-solid-state-clocks]] — 229ThF4 thin films for solid-state nuclear clocks；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+
+### 壳演化、天体与超重核
+
+- [[herzberg-2006-superheavy-isomers-stepping-stones]] — Nuclear isomers in superheavy elements as stepping stones towards the island of stability；实际阅读状态`read`，具体覆盖/未覆盖见source。
+- [[martin-2016-mass-uncertainties-r-process]] — Impact of Nuclear Mass Uncertainties on the r Process；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[taprogge-2014-sn132-proton-hole-n82]] — 1p3/2 Proton-Hole State in 132Sn and the Shell Structure Along N = 82；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[watanabe-2013-128pd-126pd-isomers-n82]] — Isomers in 128Pd and 126Pd: Evidence for a Robust Shell Closure at the Neutron Magic Number 82 in Exotic Palladium Isotopes；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[xu-2004-superheavy-high-spin-isomer-stability]] — Enhanced Stability of Superheavy Nuclei Due to High-Spin Isomerism；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[yang-2024-os160-w156-n82-stability]] — Discovery of New Isotopes 160Os and 156W: Revealing Enhanced Stability of the N = 82 Shell Closure on the Neutron-Deficient Side；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[yuan-2016-southeast-132sn-129pd-isomer]] — Isomerism in the “south-east” of 132Sn and a predicted neutron-decaying isomer in 129Pd；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+
+### 六区新增理论与外部来源/访问边界
+
+- [[dracoulis-2012-191193ir-triaxial-isomers-preview]] — Dracoulis et al. 2012：191,193Ir长寿命三准粒子异能态（仅首页）；实际阅读状态`skimmed`，具体覆盖/未覆盖见source。
+- [[dracoulis-2013-192os-isomers-gamma-soft]] — Dracoulis et al. 2013：192Os的异能态、组态依赖形状与γ软性；实际阅读状态`deep-read`，具体覆盖/未覆盖见source。
+- [[jehangir-2020-high-spin-doublet-bands-194-200tl]] — Jehangir et al. 2020 - High-Spin Doublet Band Structures in Odd-Odd 194-200Tl Isotopes；实际阅读状态`read`，具体覆盖/未覆盖见source。
+- [[karmakar-2024-100ru-octupole-access-record]] — Karmakar et al. 2024：100Ru稳定八极形变可能性（元数据与摘要）；实际阅读状态`metadata-only`，具体覆盖/未覆盖见source。
+- [[karmakar-2025-2026-98mo-octupole-preview]] — Karmakar et al.：98Mo的A≈100八极集体性候选（2025在线/2026卷，仅首页）；实际阅读状态`skimmed`，具体覆盖/未覆盖见source。
+- [[peng-2019-possible-chiral-doublets-60ni]] — Peng and Chen 2019 - Possible Chiral Doublets in 60Ni；实际阅读状态`read`，具体覆盖/未覆盖见source。
+- [[zhang-2016-two-quasiparticle-bands-166ta]] — Zhang 2016 - Two-Quasiparticle Bands in Doubly-Odd 166Ta；实际阅读状态`read`，具体覆盖/未覆盖见source。
+
 
 ## 奇Ba四极闭合与受控模型检查（2026-11-06）
 

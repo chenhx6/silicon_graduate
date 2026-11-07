@@ -6094,3 +6094,11 @@ Actual record UTC: 2026-11-06T10:24:40.867670+00:00. User requested a phase clos
 ## 2026-11-06 bounded evidence closeout
 
 2026-11-06T13:10:52.524680+00:00 — Completed the four resumed closing items: direct three-source overlap comparison, Mikhailov, CAP and PES corrections. General novelty claims were narrowed; the12-page candidate remains not submission-ready and no global priority or full-corpus learning claim is made.32 affected dedicated tests,3 selected shared checks and5 integration CLI checks passed within their stated scopes. Numerical article payloads are unchanged. User-agreed bounded endpoint and research stopping reasons are explicit in final-closeout.md/completion-audit.json. Final repository result is recorded separately.
+
+
+## 2026-11-07T11:26:45.971523+00:00 — Isomer and six-region source research
+
+- 用户主动研究的有界交付：Gemini主力11/12研究worker、Terra复杂理论1/12，两worker模型路由成功；总控核验原件与集成。
+- 输入51PDF身份/覆盖/哈希已对账；重点综述/书及学位论文回读，三主综合与相关观测量/迁移笔记更正，新增100Ru原文补证和有限单j L4。可复用事实及候选均在knowledge。
+- 全库lint137 errors/418 warnings，对比HEAD202/350无本轮新增error；62source+5规范manifest归档和边界检查通过。最终preflight/QMD/Git状态见本轮执行回执。
+- 交付入口：outputs/l3/20261107-isomer-cross-region/final-report.md；稳定发布指针main / research: ground isomer and six-region synthesis in primary evidence。开放问题不冒充全部完成，原件/PLAN/课程状态保持。

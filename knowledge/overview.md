@@ -2,12 +2,32 @@
 type: system-overview
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-11-01
+updated: 2026-11-07
 ---
 
 # Knowledge Base Health Dashboard
 
 全库复习和研究选题入口：[[wiki-full-library-map-20261030]]。该页只做知识导航、证据分层和工作区整理边界，不替代各 `knowledge/sources/` 原件与 locator；代表性证据回链见 [[chakraborty-2023-131xe-wobbling-origin]] C23-D28-1 和 [[gaffney-2013-pear-shaped-rn-ra]] GA13-1。
+
+## Current Snapshot: 2026-11-07 isomer and six-region research
+
+本轮入口为[[isomer-six-region-transfer-research]]。用户提供的51份PDF共692物理页、
+49种字节内容，已建立逐文件身份/覆盖对账，全部原件哈希保持；五部综述/专著
+226物理页另有分块阅读账。页数、source数与登记不等于独立实验数或全部数据重放。
+三篇主综合、相关迁移笔记、D0及fν定义已修订；新增100Ru谱学/寿命预印本和
+单j精确模型见项目及[[isomer-cross-region-hypothesis-discrimination-20261107]]。
+
+本次lint扫描1475篇类型页、核对591项源哈希，
+为137 errors / 418 warnings。
+任务开始前HEAD基线为202 errors / 350 warnings；按路径/code/message对账，
+本轮新增error为0，不能声称全库lint通过。
+新增source缺citation_key与部分图导航警告保留；未为消警告编造书目key。
+claims共6580，缺locator/kind为0/0，
+这些结构统计不认证科学结论。历史review标记不决定证据使用资格。
+
+62个本轮source及5份规范manifest的显式归档检查通过；单j20行结果重放一致。
+QMD文字索引的实际结果见本轮qmd-refresh回执；不将文字索引刷新等同全部embedding完成。
+本任务不修改daily-learning课程状态、用户PLAN、调度器或原始材料。
 
 ## Current Snapshot: 2026-11-01 Day29 continuation
 

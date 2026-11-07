@@ -1,68 +1,230 @@
 ---
 type: synthesis
-title: "原子核高自旋同核异能态机制、弱作用衰变与超重合成系统学"
+title: "同核异能态机制、弱衰变与超重合成：跨核区可迁移条件"
 aliases: [同核异能态与衰变系统学, isomer-and-decay-systematics, weak-decay-and-superheavy]
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-07
 status: active
 review_status: unreviewed
+confidence: medium
 scope: isomers-beta-decay-superheavy-synthesis
-confidence: high
-sources: [ding-2012-phd-thesis-127-128i-high-spin, qiang-2019-high-spin-130-131ba-87zr, che-2007-high-spin-108-112ru-134-135ba]
-tags: [isomers, seniority, k-isomer, beta-decay, gamow-teller, superheavy-nuclei]
+sources: [book-jain-nuclear-isomers, paper-walker-dracoulis-1999-energy-traps, paper-dracoulis-2016-metastable-states-heavy-nuclei, paper-walker-podolyak-2020-100-years-isomers, hayes-2005-k-conservation-178hf, dracoulis-2013-192os-isomers-gamma-soft, book-suhonen-from-nucleons-to-nucleus, zagrebaev-2001-superheavy-synthesis-survival]
+tags: [isomers, seniority, k-isomer, gamow-teller, superheavy-nuclei, cross-region, astromer]
 ---
 
-# 原子核高自旋同核异能态机制、弱作用衰变与超重合成系统学
+# 同核异能态、弱衰变与合成动力学
 
-## 1. 同核异能态（Nuclear Isomers）四大微观物理机制
+## Agent active summary
 
-同核异能态是原子核由于特殊对称性、多极性选择定则或势垒阻碍导致半衰期异常延长（从纳秒至数百亿年）的亚稳态。在低能核物理中，其成因由四大微观机制主导：
+本轮以五份新提供综述/专著、应用论文及Hayes博士论文原件补充三项主线：
+异能态是衰变网络的瓶颈，不能只凭寿命指定机制；单j半满壳相消有明确对称性条件；
+冷异能态稳定性与热复合核形成/存活/布居截面是不同问题。
+已完成一个有界精确单j L4，数值与认识变化见
+[[seniority-mid-shell-cross-region-model-test-20261107]]。
+逐文件学习、暂定新课题与实际阅读范围见[[isomer-six-region-transfer-research]]。
 
-### (1) 自旋陷阱异能态（Spin-Trap Isomers）
-- **微观机制**：高激发态的自旋与所有能量低于它的态相差极大（$\Delta I \ge 3$），而跃迁至低自旋态要求高多极电磁辐射（如 $M2, E3, M4$），单粒子辐射衰变跃迁几率受离心势垒与能量因子 $(E_\gamma)^{2\lambda+1}$ 剧烈压低；
-- **典型代表**：$^{137}\text{Ba}$ 中 $19/2^-$ 异能态（$T_{1/2} = 589\text{ ns}$），由于仅能通过 $120\text{ keV}$ 的低能 $E2$ 跃迁向 $15/2^-$ 态衰变，寿命延长数千倍。
+## Question and Scope
 
-### (2) Seniority 代数异能态（Seniority Isomers & Half-Filled Shell Cancellation）
-- **微观机制**：在球形或近球形核中，单个大 $j$ 壳层（如 $1g_{9/2}, 1h_{11/2}, 1i_{13/2}$）填充多个相同价核子时，由 Seniority 方案对易代数可严格推导出母权系数跳迁因子：
-  $$F_{\text{seniority}} = \frac{2j+1-2n}{2j+1-2v}$$
-- **相消定理**：当壳层处于**半满壳（Half-filled shell, $n = (2j+1)/2$）**时，由于完全的粒子-空穴对称性，任意偶极或四极张量跃迁算符在相同 Seniority 态之间的矩阵元严格相消等于零：
-  $$B(E2; v=2, J \to v=2, J-2) \equiv 0$$
-- **典型代表**：$^{130}\text{Sn}(10^+)$ 与 $^{210}\text{Po}(8^+)$，跃迁几率由于相消极大抑制，产生微秒至毫秒级异能态。
+### 从衰变通道判断机制
 
-### (3) $K$-同核异能态（$K$-Isomers）
-- **微观机制**：在轴对称形变核中，由多准粒子构型产生的高总投影 $K = \sum_i \Omega_i$，向低 $K$ 带退激时由于 $\Delta K > \lambda$ 受到强烈禁戒；
-- **三轴形变诱导 $K$-mixing**：三轴不对称度 $\gamma$ 打破轴对称性，使折合阻碍因子 $f_\nu$ 从正常轴对称核的 $100\sim 300$ 骤降至 $5\sim 30$。
+电磁支路满足λγ(XL)=CXL Eγ^(2L+1) B(XL)；总寿命还包括该支路内转换、
+其它电磁支路、β/EC、α、粒子发射和裂变等可能过程。
+需要能级顺序、允许的末态、矩阵元和竞争宽度，不能只由高自旋或质量区判断。
+综述提供机制框架，具体能级和寿命仍回到原始实验。
 
-### (4) 形状同核异能态（Shape Isomers）
-- **微观机制**：势能面（PES）中存在双势阱结构，由于深势垒阻挡，第二势阱超形变态向第一势阱正常形变基态的量子隧穿退激几率极小。
+| 机制 | 实际被抑制的因素 | 迁移成立条件 | 失效、混合与反例 |
+|---|---|---|---|
+| 自旋陷阱/能谱瓶颈 | 可及末态的自旋、能量和跃迁矩阵元使快通道受抑 | 局部多重态排列、低Eγ或较高多极性等共同形成瓶颈 | 不要求统一ΔI≥3；低能E2也可能延长寿命；组态/形状混合可并存 |
+| seniority/粒子—空穴选择 | 特定价空间和态对的偶秩一体矩阵元抑制 | 明确价核芯、粒子/空穴占据、seniority或相关离散对称性及算符 | 多轨道、不同seniority/粒子—空穴signature、有效算符和组态混合改变结论；不能把任何弱E2都归因半满壳 |
+| K阻碍 | 近轴对称描述下，初末态K分布与多极性不匹配 | K是有用近似量子数，ΔK与支路XL可指定；用分γ寿命提取阻碍 | 三轴/γ涨落、Coriolis顺排、偶然态混合、末态混合和相干相消均可影响；一个fν不能唯一反演γ |
+| 形状陷阱 | 不同集体构型之间的重叠与势垒穿越受抑 | 相关形状坐标、集体质量、组态及隧穿通道共同形成亚稳态 | 第二极小本身不保证长寿命；配对、形状混合、γ衰变/转换和裂变通道可能改变结论 |
+| 极低跃迁能/原子环境 | 很低Eγ及电子通道改变总衰变率 | 实际核能隙、多极性和可用电子态/光场必须匹配 | 229Th不同电荷/晶体环境寿命不能直接互换；不应硬套高K或seniority机制 |
 
----
+机制可叠加，并不是互斥四分类。原页将137Ba的低能E2例子放进“必须ΔI≥3”的定义，
+在逻辑上即不一致；本页撤回该门槛，不据此重新指定137Ba组态。
 
-## 2. 弱相互作用衰变：Gamow-Teller 跃迁与淬灭物理
+## Synthesis
 
-### Gamow-Teller 衰变算符与 Ikeda 求和规则
-电荷改变 Gamow-Teller 算符为 $\mathcal{O}_{GT\pm} = \sum_i \sigma(i) \tau_\pm(i)$，其总跃迁强度严格服从基于模型无关微观对易关系的 **Ikeda 求和规则**：
-$$S_{\beta-} - S_{\beta+} = 3(N - Z)$$
+### seniority相消及精确检验
 
-### 轴矢量常数淬灭之谜（Quenching of $g_A$）
-在实际有限原子核微观计算中，实验测得的总 GT 强度普遍仅达到自由中子衰变理论预测值的 $50\%\sim 60\%$，对应于有效轴矢量耦合常数的大幅淬灭：
-$$(g_A/g_V)_{\text{eff}} \approx 1.0 \quad \text{vs.} \quad (g_A/g_V)_{\text{free}} = 1.27$$
-- **物理来源**：现代手征有效场论（Chiral EFT）证明，淬灭主要由**两核子流（Two-body currents，介子交换电流）**与**核介质中多体组态高能粒子-空穴相干激发（含 $\Delta$ 共振态混合）**共同贡献。
+对单一j轨道中的相同核子、纯seniority v态，偶秩L>0的一体算符有
+\[
+\langle j^n vJ_f\Vert T^{(L)}\Vert j^n vJ_i\rangle
+=\frac{\Omega-n}{\Omega-v}
+\langle j^v vJ_f\Vert T^{(L)}\Vert j^v vJ_i\rangle,
+\qquad \Omega=\frac{2j+1}{2}.
+\]
+在这一适用域且分母非零时，n=Ω的同v E2矩阵元相消。
+这是矩阵元的有符号关系；B值是其平方。奇秩算符、Δv≠0、一般多轨道空间
+或所有真实异能态不服从这条相同公式。
+原书入口：[[book-jain-nuclear-isomers]] Ch.3，印刷pp.41–43、Eqs.(3.15),(3.20–3.21)。
 
----
+本轮用12个磁子态的真实费米Slater基、旋转标量配对Hamiltonian与一体E2算符，
+计算j=11/2、v=2的10→8跃迁。没有把解析比例当作数值输入。
+纯配对极限中同v的10与8态简并，本计算检验矩阵元，不提供非零γ能量或异能态寿命。
 
-## 3. 重离子核反应动力学与超重核合成前沿
+| n | 2 | 4 | 6 | 8 | 10 |
+|---|---:|---:|---:|---:|---:|
+| 纯配对B(E2;n)/B(E2;2) | 1 | 0.25 | 数值舍入内为0 | 0.25 | 1 |
 
-超重核（Superheavy Nuclei, $Z \ge 104$）合成采用重离子完全熔合蒸发反应（冷熔合与热熔合）：
+加入确定性的J=2对关联后，n=4/8强度改变，而被跟踪n=6态之间仍相消。
+计算显式检查了其共同粒子—空穴signature及E2在该变换下的奇性。
+因此修正原先过宽的直觉：**非配对混合并不必然解除半满壳相消**，
+要检查被混合态和Hamiltonian真正保留/破坏的对称性。
+结果是无经验拟合的有限模型，不能给真实核的剩余B(E2)、半衰期或有效电荷。
 
-### 存活截面三因子公式
-最终超重蒸发余核合成截面 $\sigma_{\text{ER}}$ 表达为三个极小概率物理过程的乘积：
-$$\sigma_{\text{ER}}(E^*) = \frac{\pi\hbar^2}{2\mu E_{\text{cm}}} \sum_J (2J+1) T(J, E_{\text{cm}}) \cdot P_{\text{CN}}(J, E^*) \cdot W_{\text{surv}}(J, E^*)$$
+跨区迁移应先做壳计数：130Sn相对N=82有两中子空穴，
+210Po相对Z=82有两个质子；它们不是单h11/2六空穴半满壳的通用例子。
+“具有seniority相关异能态”与“恰好因精确半满壳相消”必须分开。
+真实Sn还涉及d3/2、s1/2等多轨道与有效算符，不能从质量数直接读出n。
 
-1. **势垒穿透概率 $T$**：由重离子核光学势与 Wong 抛物线势垒公式决定；
-2. **复合核形成概率 $P_{\text{CN}}$**：碰撞克服库仑排斥后，系统必须在两体摩擦与动力学驱动下演化，战胜准裂变（Quasi-fission）与深部非弹性散射，成功越过鞍点进入复合核内禀势阱（此概率往往低于 $10^{-3} \sim 10^{-5}$）；
-3. **中子蒸发存活概率 $W_{\text{surv}}$**：高激发复合核退激时，中子蒸发宽度 $\Gamma_n$ 与主导的巨裂变宽度 $\Gamma_f$ 剧烈竞争：
-   $$W_{\text{surv}} \approx \prod_{i=1}^x \frac{\Gamma_n}{\Gamma_n + \Gamma_f} \approx \prod_{i=1}^x \frac{\Gamma_n}{\Gamma_f}$$
-   由于超重核无液滴裂变势垒，其裂变势垒完全来自微观壳修正能（Shell Correction Energy $\Delta E_{\text{shell}} \sim 5\text{--}8\text{ MeV}$），导致单步存活率极低（$10^{-2} \sim 10^{-3}$）。
+还有一个纯代数的跨区限制：n−v必须为偶数。对g9/2，Ω=5，
+精确半满n=5不可能属于v=2偶粒子链；其n=4/6在单j理想极限只能到
+相对n=2强度1/9的近半满抑制。对h11/2，Ω=6则允许n=6、v=2的精确节点。
+因此相同“seniority异能态”名称下，是否存在该态对的精确零点也会随壳简并度改变；
+这是模型适用性的推论，不是任何指定真实核的强度预报。
 
-通过优化在束冷却储存环与先进多重粒子反冲鉴别谱仪（如近物所 HIRFL/HIAF 与超重核谱仪），国际实验已突破百皮靶（pb）甚至飞靶（fb）截面测量极限。
+## Counter-evidence
+
+### K异能态与三轴动力学
+
+用同一支路的辐射时间定义
+\[
+F_W=\frac{T_{\gamma,\rm partial}}{T_W},\quad
+f_\nu=F_W^{1/\nu},\quad\nu=|\Delta K|-L>0.
+\]
+若btotal含光子和转换电子，Tγ,partial=Ttotal(1+α)/btotal；
+若给的是辐射分支概率，不再乘一次ICC。
+混合多极性要分别提取相应分强度，不能把总寿命代入所有支路。
+见[[reduced-hindrance-factor]]的约定。
+
+Hayes2005的安全能量库仑激发研究，说明低K带可随旋转顺排混入高K成分，
+高K带自身在同一自旋区仍较纯（PDF pp.279–281）。
+所以“混合发生在异能态自身”“异常低fν必定是静态三轴”都不是普适结论。
+
+192Os提供另一个约束：10−态可以长寿命而具有约5–11的支路fν，
+12+/20+的低能跃迁与顺排又给不同寿命机制。
+同一核素的不同组态不能共用一个形状标签
+（[[dracoulis-2013-192os-isomers-gamma-soft]]，Table1、Figs.3–5）。
+2012年191/193Ir作者提出spin trapping与三轴组态共存，
+本轮该篇仅取得首页，解释和数值细节保留访问边界。
+
+## Evidence Matrix
+
+### 六区比较合同
+
+| 核区 | 值得联结的物理 | 迁移时必须保留的限制 |
+|---|---|---|
+| A≈60 | 跨壳排列、形状共存与能谱瓶颈；高自旋组态可能不同于低能价空间 | pf壳多轨道混合不能直接套h11/2单j定理；需要具体能谱和跃迁 |
+| A≈80 | g9/2组态、三轴/八极关联及低能连接；时间窗可分离不同feeding | 低能未见线、转换和不同带号可能改变网络；手征与寿命并非一一对应 |
+| A≈100 | 93mMo能谱陷阱与触发跃迁；105Pd集体取向运动及核芯响应 | NEEC还需原子空穴和电子能谱；核结构相似不能直接迁移百分比耗散率 |
+| A≈130 | Sn邻区seniority与壳演化、Ba/Ce多准粒子态和软核耦合 | 明确粒子/空穴、有效价空间及同v/异v；不能以区域平均γ或固定fν决定异能态 |
+| A≈160及稀土延伸 | 高K、阻塞配对、Coriolis和强形变/三轴激发 | 稀土高K实例不能反推整个核区必轴对称；同态多分支和末态混合是关键 |
+| A≈190 | Os/Ir组态依赖形状、顺排与高多极性；Tl多准粒子候选 | 同核不同形状、强度重分配与γ软性可以共存；寿命长不是静态γ的反证 |
+
+超重核与229Th等在六区之外，仍是本任务开放探索的重要比较对象；
+六区是坐标，不是知识收录边界。
+
+## 5. 弱衰变：Ikeda恒等式与gA淬灭分开
+
+令O−=Σσ τ−作用为n→p，O+为逆过程，S±是**裸自旋—同位旋算符**
+对完整末态集合的总强度。闭合与对易关系给
+\[
+S_- -S_+=\langle i|[O_+,O_-]|i\rangle=3(N-Z).
+\]
+精确约定和推导入口是[[book-suhonen-from-nucleons-to-nucleus]]
+印刷pp.541–545，Eqs.(17.63–17.74)。
+截断空间缺失自旋—轨道伙伴、有限实验能窗、组态关联和反应提取假设都会影响
+实际获得的强度，不能把实验缺失百分比直接等同自由核子gA的改变。
+
+若在特定模型中定义Oeff=qO，那么这个**有效算符**的总差为q²3(N−Z)，
+不意味着原来的裸算符恒等式失效。两体流与多体关联等可能共同贡献，
+需要相同Hamiltonian、算符和模型空间的比较；不存在对所有核素、跃迁秩和
+β衰变/双β过程通用的0.5–0.6强度或gA,eff=1.0定律。
+高自旋异能态的β衰变还可能属于禁戒跃迁，不能一律用allowed GT描述。
+
+## 6. 从实验室异能态到星体中的独立物种
+
+能级寿命长不自动意味着天体反应网络中要保留独立异能态。
+经中间能级的光激发/退激、电子环境、核反应与温度演化决定是否热化。
+只有在交换足够快时，才可用
+\[
+\frac{n_m}{n_g}=\frac{2J_m+1}{2J_g+1}\exp[-(E_m-E_g)/(k_BT)]
+\]
+及热平均衰变率；否则要解耦合态布居网络，比较交换、β/EC、俘获和环境变化时标。
+不能只从一个能隙给出确定的冻结温度或r过程丰度变化。
+综述框架见[[isomer-review-learning-and-transfer-20261107]]；
+132Sn周围的直接论文及质量不确定度研究见
+[[isomer-shell-evolution-astrophysics-and-superheavy-transfer-20261107]]。
+
+129Pd的中子衰变异能态在Yuan2016中是预测；是否在2026已得到验证需要额外检索。
+其可行性依赖Sn、母/子态能量、角动量/宇称和离心势垒；
+质量不确定度可以改变通道，但“Sn增加200 keV必然关闭一个约380 keV的Q值”并不成立。
+即使中子发射能量允许，也需与γ分支和产生布居比较。
+
+## Model Dependence
+
+### 超重核稳定性、截面与布居
+
+完全熔合蒸发剩余核的一种阶段分解为
+\[
+\sigma_{\rm ER}(E_{\rm cm})\simeq
+\frac{\pi\hbar^2}{2\mu E_{\rm cm}}
+\sum_J(2J+1)T_J P_{\rm CN}(E,J)W_{\rm ER}(E^*,J).
+\]
+T控制接触/俘获，PCN描述相对于准裂变的复合核形成，WER描述到指定剩余核的级联。
+这是带输入和阶段分离假设的反应框架，不是三个无参数常数。
+[[zagrebaev-2001-superheavy-synthesis-survival]]原文Eq.(1)明确给出近似性质。
+
+对指定xn支路，较一般的写法是对级联能量/自旋路径取平均：
+\[
+W_{xn}=\left\langle\prod_{k=1}^{x}
+\frac{\Gamma_{n,k}}{\Gamma_{{\rm tot},k}}
+P_{\rm terminal}\right\rangle_{\rm cascade},\qquad
+\Gamma_{\rm tot}=\Gamma_n+\Gamma_f+\Gamma_\gamma+\Gamma_p+\Gamma_\alpha+\cdots .
+\]
+只在其它宽度可忽略时用Γn/(Γn+Γf)，再在Γn≪Γf时才近似Γn/Γf。
+原文Eq.(10–11)还有中子能量积分和终末γ冷却。
+壳修正、温度、配对、惯量、裂变路径和角动量均带模型不确定度。
+原页“所有宏观势垒为零”、固定Γf/Γn与固定生存率数值没有成立的普适性；
+原source中不存在的Fig.12/Table1 locator已隔离撤回。
+
+Xu2004的高自旋稳定性计算和Herzberg2006的254No异能态谱学属于不同证据层。
+冷高K组态可能改变裂变势垒或重叠，不能由此直接计算热复合核ER截面；
+反过来，也不能一概断言高K对所有生产路线绝无作用。
+要预测异能态专属截面，还需入口自旋分布、级联feeding、K/组态演化与探测时间窗。
+转移与熔合路线可比较，但没有反应动力学/产额模型时不设任意“增益倍数”门槛。
+
+## 8. 耗散与核钟：结构相似不等于应用率可迁移
+
+93mMo的2018 NEEC报告、2021评论/答复与2022隔离束实验应保留为证据演化链。
+2022原文以低γ背景条件给P≈2×10−5上限，其构造包含效率、时间门、死时间与ICC，
+不是“268 keV窗口零计数”；也没有给本任务可照搬的99%覆盖概率认证。
+它对先前百分比效应提出强反证，但不排除预测远低于灵敏度的NEEC过程。
+这条线的可复用研究方法是把产生、输运、停止和探测分离并设置背景/伴随线控制，
+而不是将一个核的耗散比例迁移到另一个核。
+
+核钟方面，229Th与45Sc的能隙、多极性、电子/晶体环境和耦合方式不同。
+小核能隙、辐射衰变可见、激光激发、与原子钟比频、闭环锁定及不确定度预算
+是不同的实验里程碑，不能由“发现异能态”一步跳到“可工作的高精度钟”。
+详见[[nuclear-clock-isomer-learning-and-transfer-20261107]]；最新结论按实际取得的2026原件定位。
+
+## Limitations and Missing Evidence
+
+### 自审与开放问题
+
+P0：保留原件、哈希和实际范围；未把模型/摘要或重复版本计为实验复测。
+P1：真实多轨道seniority破缺、K混合的两端、绝对弱衰变算符、热化网络与
+超重核级联输入仍需逐问题核验。已完成的单j模型验证不填补这些数据缺口。
+下一步优先选择能区分机制的多观测量对象，而不是再做一遍统一现象分类。
+
+## Sources
+
+- [[book-jain-nuclear-isomers]]
+- [[paper-walker-dracoulis-1999-energy-traps]]
+- [[paper-dracoulis-2016-metastable-states-heavy-nuclei]]
+- [[paper-walker-podolyak-2020-100-years-isomers]]
+- [[hayes-2005-k-conservation-178hf]]
+- [[dracoulis-2013-192os-isomers-gamma-soft]]
+- [[book-suhonen-from-nucleons-to-nucleus]]
+- [[zagrebaev-2001-superheavy-synthesis-survival]]

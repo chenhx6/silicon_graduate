@@ -3,7 +3,7 @@ type: source
 title: "Hayes 2005 博士论文：178Hf 中 K 守恒的破缺"
 aliases: [Hayes 2005 178Hf thesis, Violations of K-Conservation in 178Hf]
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-11-07
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-experiment-and-model
@@ -25,6 +25,7 @@ zotero_uri:
 library_file: "raw/theses/degree-dissertation/violations of K-Conservation in 178Hf.pdf"
 raw_file: "raw/theses/degree-dissertation/violations of K-Conservation in 178Hf.pdf"
 raw_sha256: "4982B80A3E830CFE034E51428D2467C7D94852607D8DBB773E1B66A820EBDDC0"
+archive_required: true
 nuclei: [178hf]
 reactions: ["178Hf(136Xe,136Xe')178Hf Coulomb excitation", "178Hf beam activation on Ta"]
 experiments: []
@@ -35,6 +36,24 @@ tags: [a180, high-k, k-mixing, coulomb-excitation, rotational-alignment, isomer,
 ---
 
 # Hayes 2005：`178Hf` 中 K 守恒的破缺
+
+## 2026-11-07 定向原读：K混合来自跃迁两端
+
+本次核对293页原件和哈希。该PDF的字体映射使常规文本提取产生乱码，
+本次以原页渲染并OCR复核题名、Abstract（PDF pp.6–7）和完整Ch.12结论
+（PDF pp.279–281＝印刷pp.246–248）；不以乱码文本或OCR成功冒称新完成293页精读。
+
+| ID | 来源陈述 | claim_kind | locator | 解释边界 |
+|---|---|---|---|---|
+| HB05-R7-1 | 两次安全能量库仑激发实验及矩阵元分析显示，名义低K带随自旋增加混入较高K分量；作者将其与转动顺排联系。 | experimental-fact + author-interpretation | Abstract PDF pp.6–7；Ch.12 PDF pp.279–280 | 不等于直接测得非零静态γ，更不要求高K异能态自身已强烈混合。 |
+| HB05-R7-2 | 结论将I≳12ℏ附近低K至高K带间强度接近约1 W.u.、部分折合阻碍接近1，与高K带仍较纯的情形并列报告。 | author-interpretation | PDF p.280，印刷p.247 | 属于该实验/模型分析中的带间矩阵元，不是所有178Hf衰变支路或所有形变核的普适阈值。 |
+| HB05-R7-3 | 作者明确建议比较176Hf与178Hf的8−异能态库仑激发，以及其它质量区，以区分单粒子和集体转动效应。 | author-interpretation | PDF p.281，印刷p.248 | 这是跨区可检验研究路线，不能记成已取得的比较结果。 |
+
+**Knowledge Impact：revises。** 对
+[[high-spin-isomers-and-decay-modes-systematics]] 和
+[[reduced-hindrance-factor]] 的影响：禁戒跃迁由初、末态波函数及算符共同决定；
+小fν不能唯一反演三轴形变。P0：本次未发现未隔离的原件/哈希问题。
+P1：需保留安全激发、拟合约束、矩阵元相关及不同支路多极性的适用条件。
 
 > Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
 

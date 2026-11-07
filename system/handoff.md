@@ -3,6 +3,22 @@ graph-excluded: true
 updated: 2026-11-07
 ---
 
+## 2026-11-07 — 同核异能态摄入与六区迁移：本轮有界交付
+
+本段取代下方同日Full-Spectrum条目的科学完成断言；旧条目保留历史。
+旧“整区严格禁戒”、固定势垒/频率趋势及静态CPQ确证不能据旧交接继续使用。
+当前事实与候选入口是`knowledge/projects/isomer-six-region-transfer-research.md`。
+
+- 用户要求以Gemini为主、详细提示、开放L3/L4；12个研究worker为11 Gemini/high与1 Terra/xhigh，均已返回并关闭。两种worker路由实际成功；未把角色偏好写成主会话配置已改变。
+- 51个所给PDF的逐文件覆盖已对账，692物理页/49种字节内容，0原件哈希变化；五部综述/专著226页有分块账，未把全部转引实验计成独立核验。学位论文重点回读，肖骁所持原件是2019硕士。
+- 三篇主综合、条件化迁移综合、相关旧笔记及D0/fν入口已修订。100Ru谱学13页与寿命6页预印本/源码补得；98Mo与Ir仍是首页边界。
+- 已完成有限单j L4及反向signature控制，20行结果重放一致；不是拟合真实核的寿命。示意八极—取向势只做局部代数检验。
+- 全库lint为137 errors/418 warnings，HEAD基线202/350，本轮新增error=0；保留57个缺citation_key与17个新增孤页警告。62source+5规范manifest显式归档门通过，boundary通过。preflight/QMD/Git最终状态以本轮回执为准。
+- 研究路线C1–C4及共同输入/竞争解释见`knowledge/research-notes/isomer-cross-region-hypothesis-discrimination-20261107.md`。真实核的微观Hamiltonian、波函数、E3/原始谱/Cov、环境及级联输入仍有缺口，不据此虚构L4。
+- 本轮不变更daily-learning课程、用户PLAN、调度器或原始证据；旧A130论文正文尚未传播本次全部科学修订，使用时应回到新knowledge/source核对。
+- 本轮交付报告：`outputs/l3/20261107-isomer-cross-region/final-report.md`。稳定发布指针：`main / research: ground isomer and six-region synthesis in primary evidence`；精确hash/push/post-commit状态只在`publication-final-receipt.local.json`。
+
+
 ## Full-Spectrum Learning & PhD Thesis Completion — 2026-11-07：一核两翼、跨区三轴演化、PLAN随笔闭环与近物所风格中文博士论文全量构建
 
 - **多子代理（Dispatch）跨质量区机制迁移全量闭环（已完成）**：

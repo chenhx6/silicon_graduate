@@ -1,0 +1,1658 @@
+{
+  "command_no_git": true,
+  "exit_code": 1,
+  "baseline_counts": {
+    "error": 202,
+    "warning": 350,
+    "info": 5374
+  },
+  "current_counts": {
+    "error": 137,
+    "warning": 418,
+    "info": 5484
+  },
+  "added": [
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/beck-2007-energy-splitting-th229.md",
+      "B07-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/beck-2007-energy-splitting-th229.md",
+      "B07-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/beck-2007-energy-splitting-th229.md",
+      "B07-3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/beeks-2021-thorium-229-isomer-nuclear-clock.md",
+      "BE21-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/beeks-2021-thorium-229-isomer-nuclear-clock.md",
+      "BE21-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/burke-2019-one-tick-closer-nuclear-clock.md",
+      "BU19-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/chiara-2018-mo93m-isomer-depletion-neec.md",
+      "C18-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/chiara-2018-mo93m-isomer-depletion-neec.md",
+      "C18-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/chiara-2018-mo93m-isomer-depletion-neec.md",
+      "C18-3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/chiara-2018-mo93m-isomer-depletion-neec.md",
+      "C18-4 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/dracoulis-2012-191193ir-triaxial-isomers-preview.md",
+      "DI12-P1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/dracoulis-2012-191193ir-triaxial-isomers-preview.md",
+      "DI12-P2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/gargiulo-2022-neec-excited-ions.md",
+      "GA22-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/gargiulo-2022-neec-excited-ions.md",
+      "GA22-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/gargiulo-2022-neec-excited-ions.md",
+      "GA22-3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/gargiulo-2022-neec-excited-ions.md",
+      "GA22-4 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/guo-2021-mo93m-depletion-contamination-challenge.md",
+      "G21-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/guo-2021-mo93m-depletion-contamination-challenge.md",
+      "G21-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/guo-2021-mo93m-depletion-contamination-challenge.md",
+      "G21-3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/guo-2021-mo93m-depletion-contamination-challenge.md",
+      "G21-4 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/guo-2022-mo93m-isomer-beam-depletion-limit.md",
+      "GU22-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/guo-2022-mo93m-isomer-beam-depletion-limit.md",
+      "GU22-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/guo-2022-mo93m-isomer-beam-depletion-limit.md",
+      "GU22-3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/guo-2022-mo93m-isomer-beam-depletion-limit.md",
+      "GU22-4 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/huang-2026-nuclear-clock-synchronized-229th.md",
+      "H26-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/huang-2026-nuclear-clock-synchronized-229th.md",
+      "H26-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/huang-2026-nuclear-clock-synchronized-229th.md",
+      "H26-3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/huang-2026-nuclear-clock-synchronized-229th.md",
+      "H26-4 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/karmakar-2024-100ru-octupole-access-record.md",
+      "KR24-M2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/karmakar-2025-2026-98mo-octupole-preview.md",
+      "KM-P1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/karmakar-2025-2026-98mo-octupole-preview.md",
+      "KM-P2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/kraemer-2023-radiative-decay-229th-isomer.md",
+      "K23-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/kraemer-2023-radiative-decay-229th-isomer.md",
+      "K23-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/kraemer-2023-radiative-decay-229th-isomer.md",
+      "K23-3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/liang-2021-precision-measurement-trapped-ions.md",
+      "L21-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/liang-2021-precision-measurement-trapped-ions.md",
+      "L21-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+      "line 64 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+      "line 65 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+      "line 66 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+      "line 67 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+      "line 68 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/masuda-2019-x-ray-pumping-229th-isomer.md",
+      "M19-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/masuda-2019-x-ray-pumping-229th-isomer.md",
+      "M19-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/peik-2015-nuclear-clocks-resonant-gamma.md",
+      "P15-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/peik-2015-nuclear-clocks-resonant-gamma.md",
+      "P15-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/peik-2021-nuclear-clocks-testing-fundamental-physics.md",
+      "P21-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/peik-2021-nuclear-clocks-testing-fundamental-physics.md",
+      "P21-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/pupeza-2021-euv-frequency-combs.md",
+      "PU21-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/pupeza-2021-euv-frequency-combs.md",
+      "PU21-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/qi-2023-isomeric-excitation-th229-laser-clusters.md",
+      "Q23-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/qi-2023-isomeric-excitation-th229-laser-clusters.md",
+      "Q23-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/rzadkiewicz-2021-mo93m-neec-resonant-transfer.md",
+      "R21-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/rzadkiewicz-2021-mo93m-neec-resonant-transfer.md",
+      "R21-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/rzadkiewicz-2021-mo93m-neec-resonant-transfer.md",
+      "R21-3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/rzadkiewicz-2021-mo93m-neec-resonant-transfer.md",
+      "R21-4 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/seiferle-2017-lifetime-229th-isomer.md",
+      "S17-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/seiferle-2017-lifetime-229th-isomer.md",
+      "S17-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/seiferle-2019-energy-229th-nuclear-clock.md",
+      "S19-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/seiferle-2019-energy-229th-nuclear-clock.md",
+      "S19-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/shvydko-2023-resonant-xray-excitation-45sc.md",
+      "SH23-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/shvydko-2023-resonant-xray-excitation-45sc.md",
+      "SH23-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/shvydko-2023-resonant-xray-excitation-45sc.md",
+      "SH23-3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/shvydko-2023-resonant-xray-excitation-45sc.md",
+      "SH23-4 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/sikorsky-2020-th229-isomer-energy-mmc.md",
+      "SI20-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/sikorsky-2020-th229-isomer-energy-mmc.md",
+      "SI20-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/thielking-2018-laser-spectroscopy-229mth.md",
+      "T18-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/thielking-2018-laser-spectroscopy-229mth.md",
+      "T18-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/thielking-2018-laser-spectroscopy-229mth.md",
+      "T18-3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/thirolf-2019-229th-isomer-doorway-tutorial.md",
+      "TH19-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/thirolf-2019-229th-isomer-doorway-tutorial.md",
+      "TH19-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/tkalya-2011-nuclear-gamma-ray-laser.md",
+      "TK11-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/tkalya-2011-nuclear-gamma-ray-laser.md",
+      "TK11-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/toscani-de-col-2026-thorium-229-optical-nuclear-clock-feedback.md",
+      "T26-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/toscani-de-col-2026-thorium-229-optical-nuclear-clock-feedback.md",
+      "T26-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/toscani-de-col-2026-thorium-229-optical-nuclear-clock-feedback.md",
+      "T26-3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/vanacore-2018-attosecond-coherent-control-free-electrons.md",
+      "VA18-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/vanacore-2018-attosecond-coherent-control-free-electrons.md",
+      "VA18-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/vanacore-2018-attosecond-coherent-control-free-electrons.md",
+      "VA18-3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/vanacore-2018-attosecond-coherent-control-free-electrons.md",
+      "VA18-4 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/volotka-2016-two-photon-electron-transition-netp.md",
+      "V16-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/volotka-2016-two-photon-electron-transition-netp.md",
+      "V16-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/volotka-2016-two-photon-electron-transition-netp.md",
+      "V16-3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/volotka-2016-two-photon-electron-transition-netp.md",
+      "V16-4 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/von-der-wense-2016-direct-detection-229th.md",
+      "W16-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/von-der-wense-2016-direct-detection-229th.md",
+      "W16-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/walker-2001-180ta-k5-band-intermediate-depletion.md",
+      "W01-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/walker-2001-180ta-k5-band-intermediate-depletion.md",
+      "W01-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/walker-2001-180ta-k5-band-intermediate-depletion.md",
+      "W01-3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/walker-2001-180ta-k5-band-intermediate-depletion.md",
+      "W01-4 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/wang-2021-exciting-229th-electron-recollision.md",
+      "WA21-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/wang-2021-exciting-229th-electron-recollision.md",
+      "WA21-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/wang-2023-neec-ebit-feasibility.md",
+      "WA23-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/wang-2023-neec-ebit-feasibility.md",
+      "WA23-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/wang-2023-neec-ebit-feasibility.md",
+      "WA23-3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/wang-2023-neec-ebit-feasibility.md",
+      "WA23-4 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/wu-2019-mo93m-neec-stopping-theory.md",
+      "W19-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/wu-2019-mo93m-neec-stopping-theory.md",
+      "W19-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/wu-2019-mo93m-neec-stopping-theory.md",
+      "W19-3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/wu-2019-mo93m-neec-stopping-theory.md",
+      "W19-4 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/wu-2022-isomer-depletion-vortex-electron-beams.md",
+      "W22-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/wu-2022-isomer-depletion-vortex-electron-beams.md",
+      "W22-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/wu-2022-isomer-depletion-vortex-electron-beams.md",
+      "W22-3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/wu-2022-isomer-depletion-vortex-electron-beams.md",
+      "W22-4 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md",
+      "line 71 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md",
+      "line 72 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md",
+      "line 73 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md",
+      "line 74 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/yamaguchi-2019-energy-229th-gamma-difference.md",
+      "Y19-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/yamaguchi-2019-energy-229th-gamma-difference.md",
+      "Y19-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/yamaguchi-2024-laser-spectroscopy-th229-triply-charged.md",
+      "Y24-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/yamaguchi-2024-laser-spectroscopy-th229-triply-charged.md",
+      "Y24-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/yamaguchi-2024-laser-spectroscopy-th229-triply-charged.md",
+      "Y24-3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/zhang-2024-frequency-ratio-87sr-nuclear-clock.md",
+      "Z24-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/zhang-2024-frequency-ratio-87sr-nuclear-clock.md",
+      "Z24-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/zhang-2024-frequency-ratio-87sr-nuclear-clock.md",
+      "Z24-3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/zhang-2024-nature-peer-review-file-nuclear-clock.md",
+      "PRF24-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/zhang-2024-nature-peer-review-file-nuclear-clock.md",
+      "PRF24-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/zhang-2024-thf4-thin-films-solid-state-clocks.md",
+      "ZT24-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/zhang-2024-thf4-thin-films-solid-state-clocks.md",
+      "ZT24-2 historical needs_review annotation: true"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/beck-2007-energy-splitting-th229.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/beeks-2021-thorium-229-isomer-nuclear-clock.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/burke-2019-one-tick-closer-nuclear-clock.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/chiara-2018-mo93m-isomer-depletion-neec.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/dracoulis-2012-191193ir-triaxial-isomers-preview.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/dracoulis-2013-192os-isomers-gamma-soft.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/gargiulo-2022-neec-excited-ions.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/guo-2021-mo93m-depletion-contamination-challenge.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/guo-2022-mo93m-isomer-beam-depletion-limit.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/herzberg-2006-superheavy-isomers-stepping-stones.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/huang-2026-nuclear-clock-synchronized-229th.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/jehangir-2020-high-spin-doublet-bands-194-200tl.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/karmakar-2023-2024-100ru-alternate-parity-bands.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/karmakar-2024-100ru-enhanced-e1-lifetimes.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/karmakar-2024-100ru-octupole-access-record.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/karmakar-2025-2026-98mo-octupole-preview.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/kraemer-2023-radiative-decay-229th-isomer.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/liang-2021-precision-measurement-trapped-ions.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/martin-2016-mass-uncertainties-r-process.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/masuda-2019-x-ray-pumping-229th-isomer.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/paper-carroll-chiara-2024-isomer-depletion.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/paper-dracoulis-2016-metastable-states-heavy-nuclei.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/paper-walker-dracoulis-1999-energy-traps.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/paper-walker-podolyak-2020-100-years-isomers.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/peik-2015-nuclear-clocks-resonant-gamma.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/peik-2021-nuclear-clocks-testing-fundamental-physics.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/peng-2019-possible-chiral-doublets-60ni.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/pupeza-2021-euv-frequency-combs.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/qi-2023-isomeric-excitation-th229-laser-clusters.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/rzadkiewicz-2021-mo93m-neec-resonant-transfer.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/seiferle-2017-lifetime-229th-isomer.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/seiferle-2019-energy-229th-nuclear-clock.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/shvydko-2023-resonant-xray-excitation-45sc.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/sikorsky-2020-th229-isomer-energy-mmc.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/taprogge-2014-sn132-proton-hole-n82.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/thielking-2018-laser-spectroscopy-229mth.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/thirolf-2019-229th-isomer-doorway-tutorial.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/tkalya-2011-nuclear-gamma-ray-laser.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/toscani-de-col-2026-thorium-229-optical-nuclear-clock-feedback.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/vanacore-2018-attosecond-coherent-control-free-electrons.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/volotka-2016-two-photon-electron-transition-netp.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/von-der-wense-2016-direct-detection-229th.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/walker-2001-180ta-k5-band-intermediate-depletion.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/wang-2021-exciting-229th-electron-recollision.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/wang-2023-neec-ebit-feasibility.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/watanabe-2013-128pd-126pd-isomers-n82.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/wu-2019-mo93m-neec-stopping-theory.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/wu-2022-isomer-depletion-vortex-electron-beams.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/xu-2004-superheavy-high-spin-isomer-stability.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/yamaguchi-2019-energy-229th-gamma-difference.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/yamaguchi-2024-laser-spectroscopy-th229-triply-charged.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/yang-2024-os160-w156-n82-stability.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/yuan-2016-southeast-132sn-129pd-isomer.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/zhang-2016-two-quasiparticle-bands-166ta.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/zhang-2024-frequency-ratio-87sr-nuclear-clock.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/zhang-2024-nature-peer-review-file-nuclear-clock.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/zhang-2024-thf4-thin-films-solid-state-clocks.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/sources/chiara-2018-mo93m-isomer-depletion-neec.md",
+      "no inbound knowledge link outside index"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/sources/dracoulis-2012-191193ir-triaxial-isomers-preview.md",
+      "no inbound knowledge link outside index"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/sources/gargiulo-2022-neec-excited-ions.md",
+      "no inbound knowledge link outside index"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/sources/herzberg-2006-superheavy-isomers-stepping-stones.md",
+      "no inbound knowledge link outside index"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/sources/martin-2016-mass-uncertainties-r-process.md",
+      "no inbound knowledge link outside index"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/sources/rzadkiewicz-2021-mo93m-neec-resonant-transfer.md",
+      "no inbound knowledge link outside index"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/sources/taprogge-2014-sn132-proton-hole-n82.md",
+      "no inbound knowledge link outside index"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/sources/vanacore-2018-attosecond-coherent-control-free-electrons.md",
+      "no inbound knowledge link outside index"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/sources/volotka-2016-two-photon-electron-transition-netp.md",
+      "no inbound knowledge link outside index"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/sources/walker-2001-180ta-k5-band-intermediate-depletion.md",
+      "no inbound knowledge link outside index"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/sources/wang-2023-neec-ebit-feasibility.md",
+      "no inbound knowledge link outside index"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/sources/watanabe-2013-128pd-126pd-isomers-n82.md",
+      "no inbound knowledge link outside index"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/sources/wu-2019-mo93m-neec-stopping-theory.md",
+      "no inbound knowledge link outside index"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/sources/wu-2022-isomer-depletion-vortex-electron-beams.md",
+      "no inbound knowledge link outside index"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/sources/xu-2004-superheavy-high-spin-isomer-stability.md",
+      "no inbound knowledge link outside index"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/sources/yang-2024-os160-w156-n82-stability.md",
+      "no inbound knowledge link outside index"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/sources/yuan-2016-southeast-132sn-129pd-isomer.md",
+      "no inbound knowledge link outside index"
+    ]
+  ],
+  "removed": [
+    [
+      "error",
+      "EVIDENCE_SOURCES_EMPTY",
+      "knowledge/research-notes/cross-mass-region-triaxial-microscopic-mechanisms-and-predictions.md",
+      "research-note requires at least one grounded evidence source"
+    ],
+    [
+      "error",
+      "FIELD_REQUIRED",
+      "knowledge/research-notes/cross-mass-region-triaxial-microscopic-mechanisms-and-predictions.md",
+      "missing created_from"
+    ],
+    [
+      "error",
+      "FIELD_REQUIRED",
+      "knowledge/research-notes/cross-mass-region-triaxial-microscopic-mechanisms-and-predictions.md",
+      "missing evidence_sources"
+    ],
+    [
+      "error",
+      "FIELD_REQUIRED",
+      "knowledge/research-notes/cross-mass-region-triaxial-microscopic-mechanisms-and-predictions.md",
+      "missing reasoning_status"
+    ],
+    [
+      "error",
+      "HIGH_UNCONFIRMED",
+      "knowledge/synthesis/high-spin-isomers-and-decay-modes-systematics.md",
+      "confidence: high requires high_confirmed_by and high_confirmed_date"
+    ],
+    [
+      "error",
+      "HIGH_UNCONFIRMED",
+      "knowledge/synthesis/octupole-and-chiral-coexistence-in-transitional-nuclei.md",
+      "confidence: high requires high_confirmed_by and high_confirmed_date"
+    ],
+    [
+      "error",
+      "HIGH_UNCONFIRMED",
+      "knowledge/synthesis/triaxial-collective-evolution-across-mass-regions.md",
+      "confidence: high requires high_confirmed_by and high_confirmed_date"
+    ],
+    [
+      "error",
+      "HIGH_UNCONFIRMED",
+      "knowledge/synthesis/universal-triaxial-collective-mechanics-and-cross-region-migration.md",
+      "confidence: high requires high_confirmed_by and high_confirmed_date"
+    ],
+    [
+      "error",
+      "INDEX_MISSING",
+      "knowledge/observables/intrinsic-dipole-moment.md",
+      "not linked from knowledge/index.md"
+    ],
+    [
+      "error",
+      "INDEX_MISSING",
+      "knowledge/observables/reduced-hindrance-factor.md",
+      "not linked from knowledge/index.md"
+    ],
+    [
+      "error",
+      "INDEX_MISSING",
+      "knowledge/research-notes/cross-mass-region-triaxial-microscopic-mechanisms-and-predictions.md",
+      "not linked from knowledge/index.md"
+    ],
+    [
+      "error",
+      "INDEX_MISSING",
+      "knowledge/synthesis/high-spin-isomers-and-decay-modes-systematics.md",
+      "not linked from knowledge/index.md"
+    ],
+    [
+      "error",
+      "INDEX_MISSING",
+      "knowledge/synthesis/octupole-and-chiral-coexistence-in-transitional-nuclei.md",
+      "not linked from knowledge/index.md"
+    ],
+    [
+      "error",
+      "INDEX_MISSING",
+      "knowledge/synthesis/triaxial-collective-evolution-across-mass-regions.md",
+      "not linked from knowledge/index.md"
+    ],
+    [
+      "error",
+      "INDEX_MISSING",
+      "knowledge/synthesis/universal-triaxial-collective-mechanics-and-cross-region-migration.md",
+      "not linked from knowledge/index.md"
+    ],
+    [
+      "error",
+      "REASONING_STATUS_VALUE",
+      "knowledge/research-notes/cross-mass-region-triaxial-microscopic-mechanisms-and-predictions.md",
+      "invalid reasoning_status None"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/observables/intrinsic-dipole-moment.md",
+      "missing ## Diagnostic Use"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/observables/intrinsic-dipole-moment.md",
+      "missing ## Failure Modes and Ambiguities"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/observables/intrinsic-dipole-moment.md",
+      "missing ## How It Is Obtained"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/observables/intrinsic-dipole-moment.md",
+      "missing ## Model Dependence"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/observables/intrinsic-dipole-moment.md",
+      "missing ## Sources"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/observables/reduced-hindrance-factor.md",
+      "missing ## Diagnostic Use"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/observables/reduced-hindrance-factor.md",
+      "missing ## Failure Modes and Ambiguities"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/observables/reduced-hindrance-factor.md",
+      "missing ## How It Is Obtained"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/observables/reduced-hindrance-factor.md",
+      "missing ## Model Dependence"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/observables/reduced-hindrance-factor.md",
+      "missing ## Sources"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/research-notes/cross-mass-region-triaxial-microscopic-mechanisms-and-predictions.md",
+      "missing ## Assumptions"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/research-notes/cross-mass-region-triaxial-microscopic-mechanisms-and-predictions.md",
+      "missing ## Competing Explanations"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/research-notes/cross-mass-region-triaxial-microscopic-mechanisms-and-predictions.md",
+      "missing ## Failure Conditions"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/research-notes/cross-mass-region-triaxial-microscopic-mechanisms-and-predictions.md",
+      "missing ## Falsification or Reverse Tests"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/research-notes/cross-mass-region-triaxial-microscopic-mechanisms-and-predictions.md",
+      "missing ## Grounded Evidence"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/research-notes/cross-mass-region-triaxial-microscopic-mechanisms-and-predictions.md",
+      "missing ## Human Review"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/research-notes/cross-mass-region-triaxial-microscopic-mechanisms-and-predictions.md",
+      "missing ## Open Questions"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/research-notes/cross-mass-region-triaxial-microscopic-mechanisms-and-predictions.md",
+      "missing ## Promotion or Rejection History"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/research-notes/cross-mass-region-triaxial-microscopic-mechanisms-and-predictions.md",
+      "missing ## Provisional Reasoning"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/research-notes/cross-mass-region-triaxial-microscopic-mechanisms-and-predictions.md",
+      "missing ## Research Trigger"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/research-notes/cross-mass-region-triaxial-microscopic-mechanisms-and-predictions.md",
+      "missing ## Transfer Conditions"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/high-spin-isomers-and-decay-modes-systematics.md",
+      "missing ## Counter-evidence"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/high-spin-isomers-and-decay-modes-systematics.md",
+      "missing ## Evidence Matrix"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/high-spin-isomers-and-decay-modes-systematics.md",
+      "missing ## Limitations and Missing Evidence"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/high-spin-isomers-and-decay-modes-systematics.md",
+      "missing ## Model Dependence"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/high-spin-isomers-and-decay-modes-systematics.md",
+      "missing ## Question and Scope"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/high-spin-isomers-and-decay-modes-systematics.md",
+      "missing ## Sources"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/high-spin-isomers-and-decay-modes-systematics.md",
+      "missing ## Synthesis"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/octupole-and-chiral-coexistence-in-transitional-nuclei.md",
+      "missing ## Counter-evidence"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/octupole-and-chiral-coexistence-in-transitional-nuclei.md",
+      "missing ## Evidence Matrix"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/octupole-and-chiral-coexistence-in-transitional-nuclei.md",
+      "missing ## Limitations and Missing Evidence"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/octupole-and-chiral-coexistence-in-transitional-nuclei.md",
+      "missing ## Model Dependence"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/octupole-and-chiral-coexistence-in-transitional-nuclei.md",
+      "missing ## Question and Scope"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/octupole-and-chiral-coexistence-in-transitional-nuclei.md",
+      "missing ## Sources"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/octupole-and-chiral-coexistence-in-transitional-nuclei.md",
+      "missing ## Synthesis"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/triaxial-collective-evolution-across-mass-regions.md",
+      "missing ## Counter-evidence"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/triaxial-collective-evolution-across-mass-regions.md",
+      "missing ## Evidence Matrix"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/triaxial-collective-evolution-across-mass-regions.md",
+      "missing ## Limitations and Missing Evidence"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/triaxial-collective-evolution-across-mass-regions.md",
+      "missing ## Model Dependence"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/triaxial-collective-evolution-across-mass-regions.md",
+      "missing ## Question and Scope"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/triaxial-collective-evolution-across-mass-regions.md",
+      "missing ## Sources"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/triaxial-collective-evolution-across-mass-regions.md",
+      "missing ## Synthesis"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/universal-triaxial-collective-mechanics-and-cross-region-migration.md",
+      "missing ## Counter-evidence"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/universal-triaxial-collective-mechanics-and-cross-region-migration.md",
+      "missing ## Evidence Matrix"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/universal-triaxial-collective-mechanics-and-cross-region-migration.md",
+      "missing ## Limitations and Missing Evidence"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/universal-triaxial-collective-mechanics-and-cross-region-migration.md",
+      "missing ## Model Dependence"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/universal-triaxial-collective-mechanics-and-cross-region-migration.md",
+      "missing ## Question and Scope"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/universal-triaxial-collective-mechanics-and-cross-region-migration.md",
+      "missing ## Sources"
+    ],
+    [
+      "error",
+      "SECTION_REQUIRED",
+      "knowledge/synthesis/universal-triaxial-collective-mechanics-and-cross-region-migration.md",
+      "missing ## Synthesis"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+      "line 45 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+      "line 46 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+      "line 47 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+      "line 48 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+      "line 49 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md",
+      "line 53 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md",
+      "line 54 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md",
+      "line 55 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md",
+      "line 56 historical needs_review annotation: true"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/observables/intrinsic-dipole-moment.md",
+      "no inbound knowledge link outside index"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/observables/reduced-hindrance-factor.md",
+      "no inbound knowledge link outside index"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/synthesis/high-spin-isomers-and-decay-modes-systematics.md",
+      "no inbound knowledge link outside index"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/synthesis/octupole-and-chiral-coexistence-in-transitional-nuclei.md",
+      "no inbound knowledge link outside index"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/synthesis/triaxial-collective-evolution-across-mass-regions.md",
+      "no inbound knowledge link outside index"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/synthesis/universal-triaxial-collective-mechanics-and-cross-region-migration.md",
+      "no inbound knowledge link outside index"
+    ]
+  ],
+  "task_introduced_errors": [],
+  "note": "No-git skips working tree checks; git diff/status/staging checked separately. Baseline legacy errors are retained."
+}

@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-11-07T11:14:17.204309+00:00",
+  "sympy": "1.14.0",
+  "potential": "Cp*p**2/2 + Cq*q**2/2 + Dp*p**4/4 + Dq*q**4/4 + k*p**2*q**2",
+  "fixed_gamma_and_spin": true,
+  "mixed_stationary_hessian_determinant": "-4*p**2*q**2*(-Dp*Dq + 4*k**2)",
+  "orientation_curvature_at_phi0": "Cp + 2*k*q**2",
+  "quartic_square_identity_residual": "0",
+  "assertions_passed": 3,
+  "scope": "symbolic consistency of proposed local truncation only; no fitted nuclear inputs or experimental conclusion",
+  "knowledge": "knowledge/synthesis/octupole-and-chiral-coexistence-in-transitional-nuclei.md"
+}

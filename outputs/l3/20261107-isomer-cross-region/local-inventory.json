@@ -1,0 +1,427 @@
+{
+  "schema": "isomer-learning-inventory-v1",
+  "root": "raw/papers/isomer",
+  "file_count": 51,
+  "unique_byte_artifacts": 49,
+  "physical_page_count_including_copies": 692,
+  "duplicate_groups": [
+    [
+      "raw/papers/isomer/isomer_application/nuclear_astrophysics/2014_Taprogge et al_1 p 3  2 Proton-Hole State in Sn 132 and the Shell Structure Along N = 82 1.pdf",
+      "raw/papers/isomer/isomer_application/nuclear_astrophysics/2014_Taprogge et al_1 p 3  2 Proton-Hole State in Sn 132 and the Shell Structure Along N = 82.pdf"
+    ],
+    [
+      "raw/papers/isomer/isomer_application/superheavy_nuclei/2016_Review of metastable states in heavy nuclei.pdf",
+      "raw/papers/isomer/isomer_review/2016_Dracoulis et al_Review of metastable states in heavy nuclei.pdf"
+    ]
+  ],
+  "files": [
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2001_Walker et al_Interpretation of the excitation and decay of 180 Ta m through a K π = 5 + band.pdf",
+      "bytes": 79507,
+      "sha256": "fec644ea22c7f084661e36c25795e99531e86e39be81052d97f28569e080988b",
+      "pages": 5,
+      "first_page_excerpt": "Interpretation of the excitation and decay of 180Tam through a KpÄ5¿ band P. M. Walker,1 G. D. Dracoulis,2 and J. J. Carroll3 1Department of Physics, University of Surrey, Guildford GU2 7XH, United Kingdom 2Department of Nuclear Physics, Research School of Physical Sciences and Engineering, Australi",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2016_Volotka et al_Nuclear Excitation by Two-Photon Electron Transition.pdf",
+      "bytes": 292514,
+      "sha256": "f5e8286a8662e1d869dbff49d51877647c182e190c078c59a343b7724978026f",
+      "pages": 5,
+      "first_page_excerpt": "Nuclear Excitation by Two-Photon Electron Transition A. V. Volotka,1,2 A. Surzhykov,3,4 S. Trotsenko,1,5 G. Plunien,6 Th. Stöhlker,1,5,7 and S. Fritzsche1,8 1Helmholtz-Institut Jena, D-07743 Jena, Germany 2Department of Physics, St. Petersburg State University, 198504 St. Petersburg, Russia 3Physika",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2018_Chiara et al_Isomer depletion as experimental evidence of nuclear excitation by electron capture.pdf",
+      "bytes": 621987,
+      "sha256": "5a6d0f39b280e527fce655e37a894c49ce90720ac252915327d880425fcf16ee",
+      "pages": 10,
+      "first_page_excerpt": "2 1 6 | N A T U R E | V O L 5 5 4 | 8 f e b r u a r y 2 0 1 8 Letter doi:10.1038/nature25483 Isomer depletion as experimental evidence of nuclear excitation by electron capture C. J. Chiara1, J. J. Carroll2, M. P. Carpenter3, J. P. Greene3, D. J. Hartley4, R. V. F. Janssens3†, G. J. Lane5, J. C. Mar",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2018_Vanacore et al_Attosecond coherent control of free-electron wave functions using semi-infinite light fields.pdf",
+      "bytes": 5817241,
+      "sha256": "f0cfef202d345d6d8cf9dcb15a91e0d6f0de18fe42de145bd60450a03a78dcfe",
+      "pages": 11,
+      "first_page_excerpt": "ARTICLE Attosecond coherent control of free-electron wave functions using semi-inﬁnite light ﬁelds G.M. Vanacore1, I. Madan1, G. Berruto1, K. Wang1,2, E. Pomarico1, R.J. Lamb3, D. McGrouther3, I. Kaminer1,2, B. Barwick4, F. Javier García de Abajo 5,6 & F. Carbone1 Light–electron interaction is the s",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2019_Wu et al_Mo 93 m Isomer Depletion via Beam-Based Nuclear Excitation by Electron Capture.pdf",
+      "bytes": 817263,
+      "sha256": "65a948a1144b2745a83cf0888fba24fa2fcdd79aa786faed6723f768641daf45",
+      "pages": 6,
+      "first_page_excerpt": "93mMo Isomer Depletion via Beam-Based Nuclear Excitation by Electron Capture Yuanbin Wu,* Christoph H. Keitel, and Adriana Pálffy† Max-Planck-Institut für Kernphysik, Saupfercheckweg 1, D-69117 Heidelberg, Germany (Received 28 March 2019; revised manuscript received 2 May 2019; published 29 May 2019",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2021_Guo et al_Possible overestimation of isomer depletion due to contamination.pdf",
+      "bytes": 1701216,
+      "sha256": "5e98a2700de3c7892fac86abe69475194aa4a7d7b74a2e9608f710c0436a9236",
+      "pages": 4,
+      "first_page_excerpt": "Nature | Vol 594 | 3 June 2021 | E1 Matters arising Possible overestimation of isomer depletion due to contamination Song Guo1,2, Yongde Fang1,2, Xiaohong Zhou1,2 ✉ & C. M. Petrache3 arising from C. J. Chiara et al., Nature https://www.nature.com/articles/nature25483 (2018) Highly excited metastable",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2021_Rzadkiewicz et al_Novel Approach to Mo 93 m Isomer Depletion Nuclear Excitation by Electron Capture in Resonant Trans.pdf",
+      "bytes": 557577,
+      "sha256": "9d295acd2c1706088b1c8d10ae0a097af2b34dc3f338598a984a8a69a5481860",
+      "pages": 6,
+      "first_page_excerpt": "Novel Approach to 93mMo Isomer Depletion: Nuclear Excitation by Electron Capture in Resonant Transfer Process J. Rzadkiewicz * National Centre for Nuclear Research, 05-400 Otwock, Poland M. Polasik , K. Słabkowska, and Ł. Syrocki Faculty of Chemistry, Nicolaus Copernicus University in Toruń, 87-100 ",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2022_Gargiulo et al_Nuclear Excitation by Electron Capture in Excited Ions.pdf",
+      "bytes": 30856755,
+      "sha256": "dc0f0fe54e8637a088ba4e9f3b11e3b6d98c07de833a9bc6cb615dc6b29c183f",
+      "pages": 17,
+      "first_page_excerpt": "Nuclear Excitation by Electron Capture in Excited Ions Simone Gargiulo,∗Ivan Madan, and Fabrizio Carbone† Institute of Physics (IPhys), Laboratory for Ultrafast Microscopy and Electron Scattering (LUMES), ´Ecole Polytechnique F´ed´erale de Lausanne (EPFL), Lausanne 1015 CH, Switzerland A nuclear exc",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2022_Guo et al_Probing Mo 93 m Isomer Depletion with an Isomer Beam.pdf",
+      "bytes": 526099,
+      "sha256": "ec3d4f308c1083124d5c8be87417c39ec2804f9568ba6f7901d84d15c7b24652",
+      "pages": 6,
+      "first_page_excerpt": "Probing 93mMo Isomer Depletion with an Isomer Beam S. Guo (郭松) ,1,2 B. Ding (丁兵) ,1,2 X. H. Zhou (周小红),1,2,* Y. B. Wu (吴远彬),3 J. G. Wang (王建国),1,2 S. W. Xu (许世伟),1,2 Y. D. Fang (方永得),1,2 C. M. Petrache,4 E. A. Lawrie,5,6 Y. H. Qiang (强赟华),1 Y. Y. Yang (杨彦云),1,2 H. J. Ong (王惠仁),1,2,7,8 J. B. Ma (马军兵)",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2022_Wu et al_Dynamical Control of Nuclear Isomer Depletion via Electron Vortex Beams.pdf",
+      "bytes": 598756,
+      "sha256": "47ff862a3b55c3a0674c076d917e3b2ea8b16f209f375962ed71bd665a24e3f8",
+      "pages": 6,
+      "first_page_excerpt": "Dynamical Control of Nuclear Isomer Depletion via Electron Vortex Beams Yuanbin Wu ,1,* Simone Gargiulo ,2 Fabrizio Carbone,2 Christoph H. Keitel ,1 and Adriana Pálffy 1,3,† 1Max-Planck-Institut für Kernphysik, Saupfercheckweg 1, D-69117 Heidelberg, Germany 2Institute of Physics, Laboratory for Ultr",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2023_Feasibility study of nuclear excitation by electron capture using an electron beam ion trap.pdf",
+      "bytes": 1203986,
+      "sha256": "5f54811a552c6a5bcc01a80b50ac6c7cfe59a96783ccf31a9fd346dfd5941334",
+      "pages": 8,
+      "first_page_excerpt": "Feasibility study of nuclear excitation by electron capture using an electron beam ion trap Yumiao Wang , Zhiguo Ma, Yi Yang, Changbo Fu *, Wanbing He * and Yugang Ma Key Laboratory of Nuclear Physics and Ion-beam Application (Ministry of Education), Institute of Modern Physics, Fudan University,",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_astrophysics/2013_Watanabe et al_Isomers in Pd 128 and Pd 126  Evidence for a Robust Shell Closure at the Neutron Magic Number 82 in.pdf",
+      "bytes": 366537,
+      "sha256": "dc7d219ace89d0e16c99d2d044dfadce740c6d6c4ffb713c1ad2f854d4e65517",
+      "pages": 5,
+      "first_page_excerpt": "Isomers in 128Pd and 126Pd: Evidence for a Robust Shell Closure at the Neutron Magic Number 82 in Exotic Palladium Isotopes H. Watanabe,1,2,3,* G. Lorusso,3 S. Nishimura,3 Z. Y. Xu,4 T. Sumikama,5 P.-A. So¨derstro¨m,3 P. Doornenbal,3 F. Browne,3,6 G. Gey,3,7 H. S. Jung,8,† J. Taprogge,3,9,10 Zs. Vaj",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_astrophysics/2014_Taprogge et al_1 p 3  2 Proton-Hole State in Sn 132 and the Shell Structure Along N = 82 1.pdf",
+      "bytes": 368491,
+      "sha256": "2be3b18534d83c40ae31d53eceaca0c65b6437a824f6f630e03fabdbbce42c86",
+      "pages": 6,
+      "first_page_excerpt": "1p3=2 Proton-Hole State in 132Sn and the Shell Structure Along N ¼ 82 J. Taprogge,1,2,3 A. Jungclaus,1,* H. Grawe,4 S. Nishimura,3 P. Doornenbal,3 G. Lorusso,3 G. S. Simpson,5 P.-A. Söderström,3 T. Sumikama,6 Z. Y. Xu,7 H. Baba,3 F. Browne,8,3 N. Fukuda,3 R. Gernhäuser,9 G. Gey,5,10,3 N. Inabe,3 T. ",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_astrophysics/2014_Taprogge et al_1 p 3  2 Proton-Hole State in Sn 132 and the Shell Structure Along N = 82.pdf",
+      "bytes": 368491,
+      "sha256": "2be3b18534d83c40ae31d53eceaca0c65b6437a824f6f630e03fabdbbce42c86",
+      "pages": 6,
+      "first_page_excerpt": "1p3=2 Proton-Hole State in 132Sn and the Shell Structure Along N ¼ 82 J. Taprogge,1,2,3 A. Jungclaus,1,* H. Grawe,4 S. Nishimura,3 P. Doornenbal,3 G. Lorusso,3 G. S. Simpson,5 P.-A. Söderström,3 T. Sumikama,6 Z. Y. Xu,7 H. Baba,3 F. Browne,8,3 N. Fukuda,3 R. Gernhäuser,9 G. Gey,5,10,3 N. Inabe,3 T. ",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_astrophysics/2016_Martin et al_Impact of Nuclear Mass Uncertainties on the r Process 1.pdf",
+      "bytes": 1708925,
+      "sha256": "c9045474ae93257657a0d20716a33d5bbc3417d77556ed57db4b8df83c226c09",
+      "pages": 7,
+      "first_page_excerpt": "This is the accepted manuscript made available via CHORUS. The article has been published as: Impact of Nuclear Mass Uncertainties on the r Process D. Martin, A. Arcones, W. Nazarewicz, and E. Olsen Phys. Rev. Lett. 116, 121101 — Published 25 March 2016 DOI: 10.1103/PhysRevLett.116.121101",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_astrophysics/2016_Martin et al_Impact of Nuclear Mass Uncertainties on the r Process.pdf",
+      "bytes": 794047,
+      "sha256": "bcc1be2537c180ae5197cad0574b85402e34112e6c1ec6dd9625a7000123605b",
+      "pages": 6,
+      "first_page_excerpt": "Impact of Nuclear Mass Uncertainties on the r Process D. Martin,1,2,* A. Arcones,1,2,† W. Nazarewicz,3,4,‡ and E. Olsen5,§ 1Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 2, Darmstadt D-64289, Germany 2GSI Helmholtzzentrum für Schwerionenforschung GmbH, Planckstrasse",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_astrophysics/2016_Yuan et al_Isomerism in the “south-east” of 132Sn and a predicted neutron-decaying isomer in 129Pd 1.pdf",
+      "bytes": 517797,
+      "sha256": "cf9c983dc4f88bffc8e2d5041948b0c1e0aabf396a696edd710be3f8c8e1ade1",
+      "pages": 6,
+      "first_page_excerpt": "Physics Letters B 762 (2016) 237–242 Contents lists available at ScienceDirect Physics Letters B www.elsevier.com/locate/physletb Isomerism in the “south-east” of 132Sn and a predicted neutron-decaying isomer in 129Pd Cenxi Yuan a,∗, Zhong Liu b,∗, Furong Xu c,d, P.M. Walker e, Zs. Podolyák e, C. Xu",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_astrophysics/2024_Yang et al_Discovery of New Isotopes Os 160 and W 156  Revealing Enhanced Stability of the N = 82 Shell Closur.pdf",
+      "bytes": 626952,
+      "sha256": "24ab061dba50a348576d83e69a41fa9af465192e96c54dac8a524f187b4d5328",
+      "pages": 6,
+      "first_page_excerpt": "Discovery of New Isotopes 160Os and 156W: Revealing Enhanced Stability of the N = 82 Shell Closure on the Neutron-Deficient Side H. B. Yang (杨华彬) ,1 Z. G. Gan (甘再国) ,1,2,3,* Y. J. Li (李英健),4 M. L. Liu (刘梦兰),5 S. Y. Xu (徐苏扬) ,1,2 C. Liu (刘晨),4 M. M. Zhang (张明明),1 Z. Y. Zhang (张志远) ,1,2 M. H. Huang (黄",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2007_Beck et al_Energy Splitting of the Ground-State Doublet in the NucleusTh229.pdf",
+      "bytes": 190549,
+      "sha256": "f60267e75d3748a95b3cad44e369bf3e2893001f6a9454f9dd1b93faf6ab845f",
+      "pages": 4,
+      "first_page_excerpt": "Energy Splitting of the Ground-State Doublet in the Nucleus 229Th B. R. Beck,1 J. A. Becker,1 P. Beiersdorfer,1 G. V. Brown,1 K. J. Moody,1 J. B. Wilhelmy,2 F. S. Porter,3 C. A. Kilbourne,3 and R. L. Kelley3 1Lawrence Livermore National Laboratory, Livermore, California 94550, USA 2Los Alamos Nation",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2011_Tkalya_Proposal for a Nuclear Gamma-Ray Laser of Optical Range.pdf",
+      "bytes": 162165,
+      "sha256": "f92d851c421b6543a6a0d8a9671244fc0f050660415a9cdfb20e23d490c25e0c",
+      "pages": 4,
+      "first_page_excerpt": "arXiv:1011.0858v3 [nucl-th] 23 Apr 2011 Proposal for a Nuclear Gamma-Ray Laser of Optical Range. E. V. Tkalya∗ Institute of Nuclear Physics, Moscow State University, Moscow, Russia (Dated: September 21, 2018) A possibility of ampliﬁcation of the 7.6 eV γ-radiation by the stimulated γ-emission of the",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2015_Peik et al_Nuclear clocks based on resonant excitation of γ-transitions.pdf",
+      "bytes": 448524,
+      "sha256": "3f5c590befc027a5e9cb751846f7ce0e3bf1f70fc328ea148991ee54dc329617",
+      "pages": 8,
+      "first_page_excerpt": "C. R. Physique 16 (2015) 516–523 Contents lists available at ScienceDirect Comptes Rendus Physique www.sciencedirect.com The measurement of time / La mesure du temps Nuclear clocks based on resonant excitation of γ -transitions Horloges nucléaires fondées sur l’excitation résonnante de transitions g",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2016_Von Der Wense et al_Direct detection of the 229Th nuclear clock transition.pdf",
+      "bytes": 4447024,
+      "sha256": "125d127a42d48f315a8dc70a2ce36f553aa0cd6ee41aa2a55bbbd7174d434d3d",
+      "pages": 17,
+      "first_page_excerpt": "5 M A Y 2 0 1 6 | V O L 5 3 3 | N A T U R E | 4 7 ARTICLE doi:10.1038/nature17669 Direct detection of the 229Th nuclear clock transition Lars von der Wense1, Benedict Seiferle1, Mustapha Laatiaoui2,3, Jürgen B. Neumayr1, Hans-Jörg Maier1, Hans-Friedrich Wirth1, Christoph Mokry3,4, Jörg Runke2,4, Kla",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2017_Seiferle et al_Lifetime Measurement of the Th229 nuclear isomer.pdf",
+      "bytes": 347788,
+      "sha256": "78d443a66a8c925ea826158ae94fd7d1c18f571a49edb9508146a48791dc0489",
+      "pages": 5,
+      "first_page_excerpt": "Lifetime Measurement of the 229Th Nuclear Isomer Benedict Seiferle, Lars von der Wense, and Peter G. Thirolf Ludwig-Maximilians-Universität München, Am Coulombwall 1, 85748 Garching bei München, Germany (Received 23 November 2016; published 26 January 2017) The first excited isomeric state of 229Th ",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2018_Thielking et al_Laser spectroscopic characterization of the nuclear-clock isomer 229mTh.pdf",
+      "bytes": 5109945,
+      "sha256": "9f0636561c93d9a3fcf417966b73dc50b818cea36379ab247a256cd64d3c6b24",
+      "pages": 14,
+      "first_page_excerpt": "Article https://doi.org/10.1038/s41586-018-0011-8 Laser spectroscopic characterization of the nuclear-clock isomer 229mTh Johannes Thielking1, Maxim V. Okhapkin1, Przemysław Głowacki1,6, David M. Meier1, Lars von der Wense2, Benedict Seiferle2, Christoph E. Düllmann3,4,5, Peter G. Thirolf2 & Ekkehar",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2019_Burke_One tick closer to a nuclear clock.pdf",
+      "bytes": 224623,
+      "sha256": "9233f2e8ce2a06429d8250d628a05b4909216493d413d37e7c91e131fe8413a3",
+      "pages": 2,
+      "first_page_excerpt": "colleagues’ analysis of the fossil specimen stands out is in their use of wide-ranging digi- tal reconstruction that corrects distortions of the fossil’s shape, and estimates missing parts. These digital methods are readily available and offer unique opportunities for research. However, many more sh",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2019_Masuda et al_X-ray pumping of the 229Th nuclear clock isomer.pdf",
+      "bytes": 3857901,
+      "sha256": "fbbbd1e86ca38411683c65c959499c39b3239c51226c444bf5cc16cb70eaf319",
+      "pages": 14,
+      "first_page_excerpt": "Letter https://doi.org/10.1038/s41586-019-1542-3 X-ray pumping of the 229Th nuclear clock isomer Takahiko Masuda1, Akihiro Yoshimi1, Akira Fujieda1, Hiroyuki Fujimoto2, Hiromitsu Haba3, Hideaki Hara1, Takahiro Hiraki1, Hiroyuki Kaino1, Yoshitaka Kasamatsu4, Shinji Kitao5, Kenji Konashi6, Yuki Miyamo",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2019_Seiferle et al_Energy of the 229Th nuclear clock transition.pdf",
+      "bytes": 35299384,
+      "sha256": "8ac671af119c82adecdefd9beeb326d75d355d105ec1a97c521c7f986248111e",
+      "pages": 19,
+      "first_page_excerpt": "Letter https://doi.org/10.1038/s41586-019-1533-4 Energy of the 229Th nuclear clock transition Benedict Seiferle1*, Lars von der Wense1, Pavlo V. Bilous2, Ines Amersdorffer1, Christoph Lemell3, Florian Libisch3, Simon Stellmer4, Thorsten Schumm5, Christoph E. Düllmann6,7,8, Adriana Pálffy2 & Peter G.",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2019_The 229-thorium isomer doorway to the road from the atomic clock to the nuclear clock.pdf",
+      "bytes": 3415107,
+      "sha256": "dc0af1798e3a61eda792099834d6763abc4e4b96826deced2f27e91fff0f2be4",
+      "pages": 25,
+      "first_page_excerpt": "Journal of Physics B: Atomic, Molecular and Optical Physics TUTORIAL • OPEN ACCESS The 229-thorium isomer: doorway to the road from the atomic clock to the nuclear clock To cite this article: P G Thirolf et al 2019 J. Phys. B: At. Mol. Opt. Phys. 52 203001 View the article online for updates and enh",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2019_Yamaguchi et al_Energy of the Th 229 Nuclear Clock Isomer Determined by Absolute γ -ray Energy Difference.pdf",
+      "bytes": 525170,
+      "sha256": "4367caad58e8a96618302c073318940188819442e43dfb786c608850f0d87f96",
+      "pages": 6,
+      "first_page_excerpt": "Energy of the 229Th Nuclear Clock Isomer Determined by Absolute γ-ray Energy Difference A. Yamaguchi ,1 H. Muramatsu,2,* T. Hayashi,2 N. Yuasa,3 K. Nakamura ,4 M. Takimoto,5 H. Haba,6 K. Konashi,7 M. Watanabe,7 H. Kikunaga,8 K. Maehata ,3 N. Y. Yamasaki ,2 and K. Mitsuda 2 1Quantum Metrology Laborat",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2020_Sikorsky et al_Measurement of the Th 229 Isomer Energy with a Magnetic Microcalorimeter.pdf",
+      "bytes": 1146569,
+      "sha256": "2fec41f47984db0268d1bfb5058298abfd6b70f4d5cd1a22e067ef441380fc1c",
+      "pages": 6,
+      "first_page_excerpt": "Measurement of the 229Th Isomer Energy with a Magnetic Microcalorimeter Tomas Sikorsky,1,2,* Jeschua Geist,1,* Daniel Hengstler,1 Sebastian Kempf ,1 Loredana Gastaldo,1 Christian Enss,1 Christoph Mokry,3,4 Jörg Runke,3,5 Christoph E. Düllmann,3,4,5 Peter Wobrauschek ,2 Kjeld Beeks ,2 Veronika Roseck",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2021_Beeks et al_The thorium-229 low-energy isomer and the nuclear clock.pdf",
+      "bytes": 2058402,
+      "sha256": "81490df7838c992a3614beff909616b84c1fe3a5182b79cc53b1ccce705b37c7",
+      "pages": 11,
+      "first_page_excerpt": "0123456789();: Although we are used to speaking about atomic clocks, the origin of these devices can be traced to research on nuclear physics. In 1924, Wolfgang Pauli pointed out that some splittings of atomic spectral lines originate from the coupling between the magnetic moments of the nucleus and",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2021_LiangYu 等_Precision measurement with trapped ions.pdf",
+      "bytes": 2483464,
+      "sha256": "d979eb4f3705e2d4b8322ee0b17ba949f174ee464966fbef74d39be5e39a1665",
+      "pages": 16,
+      "first_page_excerpt": "中国科学: 物理学力学天文学 2021 年 第51 卷 第7 期: 074206 SCIENTIA SINICA Physica, Mechanica & Astronomica physcn.scichina.com Print-CrossMark 评述 量子精密测量专题 c⃝2021 《中国科学》杂志社 www.scichina.com 离子阱精密测量 丁亮宇1, 张球新1, 朱晨昊1, 王玉欣1, 张翔1,2, 张威1,2* 1. 中国人民大学物理学系, 北京100872; 2. 中国人民大学光电功能材料与微纳器件北京市重点实验室, 北京100872 *联系人, E-mail: wzha",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2021_Peik et al_Nuclear clocks for testing fundamental physics.pdf",
+      "bytes": 7426437,
+      "sha256": "89b7fc1d9b49802a99074ee9630d0a70bdbb9f1c3765aa3a0c80583912952668",
+      "pages": 38,
+      "first_page_excerpt": "Quantum Science and Technology PAPER • OPEN ACCESS Nuclear clocks for testing fundamental physics To cite this article: E Peik et al 2021 Quantum Sci. Technol. 6 034002 View the article online for updates and enhancements. You may also like Experimental search for the low-energy nuclear transition i",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2021_Pupeza et al_Extreme-ultraviolet frequency combs for precision metrology and attosecond science.pdf",
+      "bytes": 3332677,
+      "sha256": "9062593b285102168400fdbc56cd320525b873c74e4263b35a415c9a08e77571",
+      "pages": 12,
+      "first_page_excerpt": "Review Article https://doi.org/10.1038/s41566-020-00741-3 1Max-Planck-Institut für Quantenoptik, Garching, Germany. 2Ludwig-Maximilians-Universität München, Munich, Germany. 3JILA, National Institute of Standards and Technology and University of Colorado, Boulder, CO, USA. 4Department of Physics, Un",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2021_Wang et al_Exciting the Isomeric Th 229 Nuclear State via Laser-Driven Electron Recollision.pdf",
+      "bytes": 582772,
+      "sha256": "fc0c16a4c73e6dfd0d89554a376ad8e3e3c8326f856d969a4ed141b5194af672",
+      "pages": 6,
+      "first_page_excerpt": "Exciting the Isomeric 229Th Nuclear State via Laser-Driven Electron Recollision Wu Wang,1 Jie Zhou,2 Boqun Liu,2 and Xu Wang 2,* 1Beijing Computational Science Research Center, Beijing 100193, China 2Graduate School, China Academy of Engineering Physics, Beijing 100193, China (Received 11 March 2021",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2023_Kraemer et al_Observation of the radiative decay of the 229Th nuclear clock isomer.pdf",
+      "bytes": 2225755,
+      "sha256": "3fe040c7e0325de1f7edc71b52a404b97cb3fa91e47d0c6316bf0920f61e26a7",
+      "pages": 13,
+      "first_page_excerpt": "706 | Nature | Vol 617 | 25 May 2023 Article Observation of the radiative decay of the 229Th nuclear clock isomer Sandro Kraemer1,2 ✉, Janni Moens3, Michail Athanasakis-Kaklamanakis1,4, Silvia Bara1, Kjeld Beeks5, Premaditya Chhetri1, Katerina Chrysalidis4, Arno Claessens1, Thomas E. Cocolios1, João",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2023_Qi et al_Isomeric Excitation of Th 229 in Laser-Heated Clusters.pdf",
+      "bytes": 662644,
+      "sha256": "3d133e8d1139255b43f9742a1fe6d7ffddb195eb9b91a5bca38fc7167f33fba6",
+      "pages": 6,
+      "first_page_excerpt": "Isomeric Excitation of 229Th in Laser-Heated Clusters Jintao Qi,* Hanxu Zhang ,* and Xu Wang † Graduate School, China Academy of Engineering Physics, Beijing 100193, China (Received 10 August 2022; revised 1 October 2022; accepted 2 March 2023; published 16 March 2023) We consider theoretically isom",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2023_Shvyd’ko et al_Resonant X-ray excitation of the nuclear clock isomer 45Sc.pdf",
+      "bytes": 5768960,
+      "sha256": "d9b0eb2be22e05f573f5294bd71be467d576b46aead572d1918c49792769ae5e",
+      "pages": 10,
+      "first_page_excerpt": "Nature | Vol 622 | 19 October 2023 | 471 Article Resonant X-ray excitation of the nuclear clock isomer 45Sc Yuri Shvyd’ko1 ✉, Ralf Röhlsberger2,3,4,5, Olga Kocharovskaya6, Jörg Evers7, Gianluca Aldo Geloni8, Peifan Liu1, Deming Shu1, Antonino Miceli1, Brandon Stone1, Willi Hippler2,3, Berit Marx-Glo",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2024_Yamaguchi et al_Laser spectroscopy of triply charged 229Th isomer for a nuclear clock.pdf",
+      "bytes": 2854011,
+      "sha256": "49a2816777cff092857d86556f754750386e6a479f57ffbad6e13ca14bcbc2c8",
+      "pages": 12,
+      "first_page_excerpt": "Nature | www.nature.com | 1 Article Laser spectroscopy of triply charged 229Th isomer for a nuclear clock Atsushi Yamaguchi1,2,3 ✉, Yudai Shigekawa4, Hiromitsu Haba4, Hidetoshi Kikunaga5, Kenji Shirasaki6, Michiharu Wada7 & Hidetoshi Katori1,2,8 Thorium-229 (229Th) possesses an optical nuclear trans",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2024_Zhang et al_229ThF4 thin films for solid-state nuclear clocks.pdf",
+      "bytes": 2021390,
+      "sha256": "7cf04907243399a4e20bc0959649c92bcb6379997366694561c6f9e699eb1b78",
+      "pages": 10,
+      "first_page_excerpt": "Nature | Vol 636 | 19/26 December 2024 | 603 Article 229ThF4 thin films for solid-state nuclear clocks Chuankun Zhang1, Lars von der Wense1,9, Jack F. Doyle1, Jacob S. Higgins1, Tian Ooi1, Hans U. Friebel1,10, Jun Ye1 ✉, R. Elwell2, J. E. S. Terhune2, H. W. T. Morgan3,4, A. N. Alexandrova3, H. B. Tr",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2024_Zhang et al_Frequency ratio of the 229mTh nuclear isomeric transition and the 87Sr atomic clock.pdf",
+      "bytes": 178204,
+      "sha256": "630d2e01d7ead4f31ab7d5b2f188c7d57c4db628b7183f16031f3a67039c0796",
+      "pages": 6,
+      "first_page_excerpt": "Peer Review File Frequency ratio of the 229mTh isomeric transition and the 87Sr atomic clock Corresponding Authors: Mr Chuankun Zhang and Professor Jun Ye Version 0: Reviewer comments: Referee #1 (Remarks to the Author) The manuscript by Zhang et al. presents the initial demonstration of nuclear exc",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2026_Huang et al_A nuclear clock synchronized to 229Th.pdf",
+      "bytes": 11433536,
+      "sha256": "9fc65f07dd7dadf3aedcff90612d6af299ab327ee0a60d767f88cca78a4f0788",
+      "pages": 11,
+      "first_page_excerpt": "Nature | Vol 658 | 22 October 2026 | 903 Article A nuclear clock synchronized to 229Th Beichen Huang1,2,15, Gaowei Yan1,2,15, Qi Xiao1,2,15, Wenhao Bu1,2,15 ✉, Chengchun Zhao3,4,15, Zhen Zhang5,15, Chao Yan6,15, Zhi-Ang Chen7,8, Peixiong Zhang3, Gleb Penyazkov1, Zhenhai Zhan1, Lingfeng Yan1, Yuefei ",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2026_Toscani De Col et al_A thorium-229 optical nuclear clock with feedback loop.pdf",
+      "bytes": 4863759,
+      "sha256": "dd965aab469469930f7d2d70b736ab61f334a65f436912df2600e6ff88968a61",
+      "pages": 10,
+      "first_page_excerpt": "Nature | Vol 658 | 22 October 2026 | 897 Article A thorium-229 optical nuclear clock with feedback loop L. Toscani De Col1,8, T. Riebner1,2,8, I. Morawetz1, F. Schneider1, N. Sempelmann1, J. Schlachet-Lépinay1, F. Schaden1, M. Bartokos1, G. A. Kazakov1,3, K. Beeks1, B. Gerstenecker1, M. Pimon1, S. L",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/superheavy_nuclei/2004_Xu et al_Enhanced Stability of Superheavy Nuclei Due to High-Spin Isomerism.pdf",
+      "bytes": 174665,
+      "sha256": "9e6cdfecc0bdf71547cc8eddc7d69489fab8e0361d63ad87bd64a2aea39a413c",
+      "pages": 4,
+      "first_page_excerpt": "Enhanced Stability of Superheavy Nuclei Due to High-Spin Isomerism F. R. Xu,1,2,3 E. G. Zhao,2,3 R. Wyss,4 and P. M. Walker5 1School of Physics, Peking University, Beijing 100871, China 2Institute of Theoretical Physics, Chinese Academy of Sciences, Beijing 100080, China 3Center for Theoretical Nucl",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/superheavy_nuclei/2006_Herzberg et al_Nuclear isomers in superheavy elements as stepping stones towards the island of stability.pdf",
+      "bytes": 321125,
+      "sha256": "a18026abedc0a0ce7829bcdd1a74dd404f991ea2c16b265d1b0496c3b5511788",
+      "pages": 4,
+      "first_page_excerpt": "Nuclear isomers in superheavy elements as stepping stones towards the island of stability R.-D. Herzberg1, P. T. Greenlees2, P. A. Butler1, G. D. Jones1, M. Venhart3, I. G. Darby1, S. Eeckhaudt2, K. Eskola4, T. Grahn2, C. Gray-Jones1, F. P. Hessberger5, P. Jones2, R. Julin2, S. Juutinen2, S. Ketelhu",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/superheavy_nuclei/2016_Review of metastable states in heavy nuclei.pdf",
+      "bytes": 4744441,
+      "sha256": "2cd8ce2189c4869295cb91737d9a98e9fa90a9e36897690ee5c09bfc82d17f00",
+      "pages": 47,
+      "first_page_excerpt": "This content has been downloaded from IOPscience. Please scroll down to see the full text. Download details: IP Address: 129.137.5.42 This content was downloaded on 31/05/2016 at 19:15 Please note that terms and conditions apply. Review of metastable states in heavy nuclei View the table of contents",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_review/1999_Walker_Dracoulis_Energy traps in atomic nuclei.pdf",
+      "bytes": 216927,
+      "sha256": "7eab17aa439b2e8c78aa0566626fa8725113eb95e6a2170eb296cdc09b8f6441",
+      "pages": 6,
+      "first_page_excerpt": "© 1999 Macmillan Magazines Ltd NATURE | VOL 399 | 6 MAY 1999 | www.nature.com 35 review article Energy traps in atomic nuclei Philip Walker & George Dracoulis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_review/2016_Dracoulis et al_Review of metastable states in heavy nuclei.pdf",
+      "bytes": 4744441,
+      "sha256": "2cd8ce2189c4869295cb91737d9a98e9fa90a9e36897690ee5c09bfc82d17f00",
+      "pages": 47,
+      "first_page_excerpt": "This content has been downloaded from IOPscience. Please scroll down to see the full text. Download details: IP Address: 129.137.5.42 This content was downloaded on 31/05/2016 at 19:15 Please note that terms and conditions apply. Review of metastable states in heavy nuclei View the table of contents",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_review/2020_Walker_Podolyák_100 years of nuclear isomers—then and now.pdf",
+      "bytes": 803096,
+      "sha256": "3f2b864afd0be92afb5371484791f8a2df632ecd71c894b4fc015f6a816457fe",
+      "pages": 12,
+      "first_page_excerpt": "Physica Scripta PAPER 100 years of nuclear isomers—then and now To cite this article: Philip Walker and Zsolt Podolyák 2020 Phys. Scr. 95 044004 View the article online for updates and enhancements. This content was downloaded from IP address 134.83.127.239 on 17/02/2020 at 22:40",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+      "bytes": 3099781,
+      "sha256": "994816561cfb6e89bd215b7fe23e37ecf12e8a3e8f5ce88eafbbd388d02ed74a",
+      "pages": 151,
+      "first_page_excerpt": "Ashok Kumar Jain Bhoomika Maheshwari Alpana Goel Nuclear Isomers A Primer",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_review/2024_Carroll_Chiara_Isomer depletion.pdf",
+      "bytes": 1127628,
+      "sha256": "d56deaa1c5f273d063e225d8bfd23292695442486282a0b5cc28e0f14a534f44",
+      "pages": 10,
+      "first_page_excerpt": "Eur. Phys. J. Spec. Top. (2024) 233:1151–1160 https://doi.org/10.1140/epjs/s11734-024-01149-8 THE EUROPEAN PHYSICAL JOURNAL SPECIAL TOPICS Review Isomer depletion J. J. Carrolla and C. J. Chiarab U.S. Army Combat Capabilities Development Command Army Research Laboratory, 2800 Powder Mill Road, Adelp",
+      "reading_status": "inventory-only; actual coverage in worker ledgers"
+    }
+  ]
+}

@@ -2,12 +2,16 @@
 type: system-questions
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-30
+updated: 2026-11-07
 ---
 
 # Research Questions
 
 ## Open
+
+- [ ] **ISOMER-20261107-SENIORITY**：真实多轨道空间中，半满附近弱E2究竟受seniority、粒子—空穴signature还是算符/组态混合主导？本轮精确j=11/2模型显示J=2非配对相互作用改变波函数却不解除同signature节点；g9/2的v=2偶粒子链又受n−v奇偶约束，不能达到n=5精确节点。下一步应比较同/异signature及同/异v支路并加入可追溯多轨道输入，不能由“存在混合”直接预测真实B(E2)。见[[seniority-mid-shell-cross-region-model-test-20261107]]、[[high-spin-isomers-and-decay-modes-systematics]]。（opened 2026-11-07；scope:seniority/particle-hole/cross-region；project:[[isomer-six-region-transfer-research]]）
+- [ ] **ISOMER-20261107-OS**：能否用190/192/194Os逐组态多分支寿命、ICC及电磁矩阵元，分离低Eγ/高L瓶颈、初末态K混合和形状变化？192Os2013原文已说明总寿命不唯一诊断K；2013预测的其它态须先核2026发现状态与现有门灵敏度。见[[dracoulis-2013-192os-isomers-gamma-soft]]、[[hayes-2005-k-conservation-178hf]]。（opened 2026-11-07；scope:isomer/k-mixing/shape/a190；project:[[isomer-six-region-transfer-research]]）
+- [ ] **ISOMER-20261107-N56**：98Mo/100Ru及邻近奇A、奇奇组态中，八极混合能否改变γ响应和取向分布，而非仅增加E1分支？本轮100Ru只有元数据/摘要、98Mo只有首页；须先取得正文和真正的寿命/E3来源，再给共同Hamiltonian、竞争模型和伴随信号，不能先认证新的静态八极核区。见[[karmakar-2024-100ru-octupole-access-record]]、[[karmakar-2025-2026-98mo-octupole-preview]]、[[octupole-and-chiral-coexistence-in-transitional-nuclei]]。（opened 2026-11-07；scope:octupole/triaxiality/n56；project:[[isomer-six-region-transfer-research]]）
 
 - [ ] `131Xe` 低自旋δ小解的全局唯一性与794.8-keV线的宇称版本差异如何闭合？Day28已回核：2020 B5的1046/1862-keV局部成员与2023 yrare链部分对应，高自旋B1(a)及B5其它分支不能整带同义化；1600.9-keV态从2020的17/2+、E1标签变为2023的17/2−；Fig.5的RDCO色带仍有负δ交点。需1983 AD原件、逐线共同响应/偏振与完整profile、≈1.8强度误差；不继承旧0.00(2)、全部M1>99.2%或γ软必无wobbling断言。续研确认795-keV E1在2020多处出现，766-keV无偏振不能单独闭合宇称；同母态两个B商共享r与δ，模型δ还缺Eγ约定。详见 [[131xe-low-spin-partner-crosswalk]]、[[131xe-same-parent-strength-identifiability]]、[[131xe-1601-parity-version-boundary]]；sources: [[chakraborty-2023-131xe-wobbling-origin]] C23-D28-2/3/4/7/8、[[banik-2020-131xe-multiple-band-structures]] BNK20-D28-1/2/3；needs_review: true。（opened 2026-10-30；scope:131xe/l3/identity-delta-branch）
 - [ ] `131Ce` Bands 1–7 的连接跃迁 mixing ratios/偏振与多带寿命，能否把“signature/configuration coupling + γ-soft core background”同 wobbling、chirality 和 shape coexistence 区分开？（opened 2026-07-27；scope: 131ce/l3；project: [[131ce-collective-mode-discrimination]]）

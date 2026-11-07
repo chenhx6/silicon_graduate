@@ -1,0 +1,211 @@
+{
+  "task_id": "G12-a100-lifetime-followup",
+  "generated_at": "2026-11-07T11:15:28.507619+00:00",
+  "target_nuclei": [
+    "100ru"
+  ],
+  "target_boundary": "C1",
+  "closure_status": "closed-with-full-text-and-evidence-boundaries",
+  "summary": "Acquired full texts and sources for arXiv:2411.10976v1 (PRC 110, L051302 2024, 6 pages in PDF) and arXiv:2306.07670v1 (PRC 109, 054312 2024, 13 pages in PDF). Extracted quantitative DSAM lifetimes, absolute B(E2) and B(E1) transition probabilities, D0 and Q0 moments, and TPSM parameter benchmarks. Clarified crucial evidence boundaries: 6 (not all 7) interleaved E1 transitions have measured absolute B(E1) rates in Table I; 20+ and 19- have only effective lifetime upper limits; 12+ has no measured lifetime; no direct E3 or static beta3 is observed; stable octupole deformation remains author phenomenological interpretation; title evolution in predecessor paper reflects peer-review caution; preprint and journal papers share single-experiment lineage with distinct thin-target (50 MeV) vs thick-target (45 MeV) runs.",
+  "analyzed_sources": [
+    {
+      "key": "karmakar-2024-100ru-enhanced-e1-lifetimes",
+      "type": "journal-letter",
+      "citation": "A. Karmakar et al., Phys. Rev. C 110, L051302 (2024)",
+      "arxiv": "2411.10976v1",
+      "doi": "10.1103/PhysRevC.110.L051302",
+      "reading_depth": "read-full-text-and-source",
+      "extracted_pages": "pp. 1-6 (6 pages in PDF), LaTeX source 000_resubmit_nov8.tex (335 lines)"
+    },
+    {
+      "key": "karmakar-2023-2024-100ru-alternate-parity-bands",
+      "type": "journal-article",
+      "citation": "A. Karmakar et al., Phys. Rev. C 109, 054312 (2024) / arXiv:2306.07670v1 (2023)",
+      "arxiv": "2306.07670v1",
+      "doi": "10.1103/PhysRevC.109.054312",
+      "reading_depth": "read-full-text-and-source",
+      "extracted_pages": "pp. 1-13 (13 pages in PDF including Supplementary Information), LaTeX source arxiv.tex (461 lines)"
+    }
+  ],
+  "experimental_parameters_dsam": {
+    "reaction": "100Mo(4He, 4n)100Ru",
+    "beam_energy_mev": 45.0,
+    "facility": "K-130 cyclotron, VECC Kolkata",
+    "target": "10 mg/cm2 self-supporting thick 100Mo foil (distinct from 50 MeV 2 mg/cm2 thin-target run of 054312)",
+    "detector_array": "INGA (11 Compton-suppressed clover detectors: 2 at 40 deg, 6 at 90 deg, 3 at 125 deg in text/setup; Fig. 1 caption writes 157 deg preserving textual tension)",
+    "coincidence_events": "4 x 10^9 gamma-gamma coincidence events (PIXIE-16 digitizer, 100 ns window)",
+    "reaction_channel_fraction": "58% belonging to 100Ru channel",
+    "analysis_package": "LINESHAPE (ORNL) with Rajbanshi/Das development",
+    "stopping_power_model": "SRIM (5% uncertainty claimed; 10000 trajectories in 0.001 ps steps; ~4% unfinished trajectories)",
+    "side_feeding_model": "5-transition cascade with comparable moment of inertia, effective side-feeding time obtained by varying quadrupole moments",
+    "side_feeding_crosscheck": "Top-gated fits on 1001 keV and 1036 keV gates yield tau(14+) = 1.07(5) ps and tau(13-) = 0.44(3) ps, consistent with global fits within 1 sigma; higher spins uncheckable due to statistics"
+  },
+  "measured_lifetimes_and_transitions": {
+    "band2_positive_parity": [
+      {
+        "level_spin": "14+",
+        "e_gamma_fitting_kev": 795.3,
+        "e_gamma_err": 0.3,
+        "tau_ps": 1.02,
+        "tau_err": 0.09,
+        "b_e2_e2fm4": 2418,
+        "b_e2_err": 214,
+        "b_e1_10minus4_e2fm2": 1.4,
+        "b_e1_err": 0.4
+      },
+      {
+        "level_spin": "16+",
+        "e_gamma_fitting_kev": 1000.5,
+        "e_gamma_err": 0.3,
+        "tau_ps": 0.32,
+        "tau_err": 0.03,
+        "b_e2_e2fm4": 2465,
+        "b_e2_err": 232,
+        "b_e1_10minus4_e2fm2": 2.4,
+        "b_e1_err": 0.6
+      },
+      {
+        "level_spin": "18+",
+        "e_gamma_fitting_kev": 1111.4,
+        "e_gamma_err": 0.4,
+        "tau_ps": 0.17,
+        "tau_err": 0.01,
+        "b_e2_e2fm4": 2672,
+        "b_e2_err": 169,
+        "b_e1_10minus4_e2fm2": 7.7,
+        "b_e1_err": 2.5
+      },
+      {
+        "level_spin": "20+",
+        "e_gamma_fitting_kev": 1229.5,
+        "e_gamma_err": 0.5,
+        "tau_ps": "<0.14",
+        "tau_err": null,
+        "b_e2_e2fm4": ">2074",
+        "b_e2_err": null,
+        "b_e1_10minus4_e2fm2": null,
+        "b_e1_err": null,
+        "note": "Effective lifetime upper limit only; absolute B(E1) unmeasured"
+      }
+    ],
+    "band3_negative_parity": [
+      {
+        "level_spin": "13-",
+        "e_gamma_fitting_kev": 931.9,
+        "e_gamma_err": 0.2,
+        "tau_ps": 0.4,
+        "tau_err": 0.03,
+        "b_e2_e2fm4": 1967,
+        "b_e2_err": 148,
+        "b_e1_10minus4_e2fm2": 2.0,
+        "b_e1_err": 0.4
+      },
+      {
+        "level_spin": "15-",
+        "e_gamma_fitting_kev": 1035.7,
+        "e_gamma_err": 0.3,
+        "tau_ps": 0.31,
+        "tau_err": 0.02,
+        "b_e2_e2fm4": 2139,
+        "b_e2_err": 139,
+        "b_e1_10minus4_e2fm2": 2.7,
+        "b_e1_err": 0.6
+      },
+      {
+        "level_spin": "17-",
+        "e_gamma_fitting_kev": 1003.5,
+        "e_gamma_err": 0.4,
+        "tau_ps": 0.29,
+        "tau_err": 0.02,
+        "b_e2_e2fm4": 2672,
+        "b_e2_err": 189,
+        "b_e1_10minus4_e2fm2": 4.4,
+        "b_e1_err": 1.5
+      },
+      {
+        "level_spin": "19-",
+        "e_gamma_fitting_kev": 1253.7,
+        "e_gamma_err": 0.5,
+        "tau_ps": "<0.12",
+        "tau_err": null,
+        "b_e2_e2fm4": ">2194",
+        "b_e2_err": null,
+        "b_e1_10minus4_e2fm2": null,
+        "b_e1_err": null,
+        "note": "Effective lifetime upper limit only; absolute B(E1) unmeasured"
+      }
+    ],
+    "absolute_be1_coverage_fact_check": {
+      "total_interleaved_e1_transitions_observed_in_prc054312": 7,
+      "transitions_with_measured_absolute_be1_in_table1": 6,
+      "transitions_without_measured_absolute_be1": 1,
+      "unmeasured_details": "12+ -> 11- (687.1 keV) has no lifetime measured; 20+ and 19- have only effective lifetime upper limits and their B(E1) column is marked with dashes. Authors claim of seven enhanced E1 rates in abstract and conclusion stands in documented textual tension with the six verified finite numerical entries in Table I."
+    }
+  },
+  "extracted_multipole_moments": {
+    "average_quadrupole_moment_q0_efm2": "264 +- 8",
+    "intrinsic_electric_dipole_moment_d0_efm": {
+      "low_spin_interval_le_16hbar": "0.04 +- 0.01",
+      "high_spin_interval_gt_16hbar": "0.07 +- 0.02",
+      "statistical_significance": "Difference is ~1.34 sigma (less than 2 sigma), indicating a numerical upward trend as noted by authors rather than a statistically certified abrupt jump",
+      "concomitant_phenomenon": "Parity splitting S(I) between Band 2 and Band 3 vanishes in the spin interval beyond 16hbar"
+    }
+  },
+  "theoretical_model_comparison_tpsm": {
+    "model_framework": "Triaxial Projected Shell Model (TPSM) extended with octupole-octupole interaction as a perturbation",
+    "deformation_parameters": {
+      "epsilon": 0.24,
+      "epsilon_prime": 0.14
+    },
+    "pairing_parameters_mev": {
+      "positive_parity": {
+        "delta_n": 1.08,
+        "delta_p": 1.03
+      },
+      "negative_parity_reduced": {
+        "delta_n": 0.72,
+        "delta_p": 0.85
+      }
+    },
+    "effective_charges": {
+      "e_p": 1.5,
+      "e_n": 0.5
+    },
+    "basis_space": "Neutron N=3,4,5 shells; Proton N=2,3,4 shells",
+    "be1_discrepancy": {
+      "tpsm1_without_octupole": "Calculated B(E1) is an order of magnitude (~10x) weaker than observed experimental values",
+      "tpsm2_with_octupole_perturbation": "Increases B(E1) by up to a factor of 2, but remains substantially weaker than experimental values",
+      "physical_root_cause": "The TPSM mean-field preserves reflection symmetry and parity remains a good quantum number at all levels. Octupole-octupole interaction treated as a perturbation cannot generate sufficient intrinsic dipole moment."
+    },
+    "be2_discrepancy": "Band 2 B(E2) is well reproduced; Band 3 exhibits noticeable discrepancies at I = 17- and 19- which remain unexplained by TPSM."
+  },
+  "evidence_boundaries_and_competing_interpretations": {
+    "e3_and_beta3_direct_evidence": {
+      "direct_e3_matrix_elements_measured_at_high_spin": false,
+      "direct_static_beta3_deformation_measured": false,
+      "verdict": "There is no direct experimental measurement of B(E3) transition strengths or static octupole deformation parameter beta3 in the high-spin alternating-parity bands of 100Ru."
+    },
+    "author_interpretation_demarcation": {
+      "stable_octupole_deformation": "Author hypothesis inferred from the order-of-magnitude enhancement of B(E1) over reflection-symmetric TPSM, MOI convergence, and vanishing parity splitting.",
+      "dynamic_octupole_vibration_ruled_out": "Author phenomenological argument: vibration usually shifts negative-parity band upwards and permits only I- -> (I-1)+ transitions, whereas 100Ru shows interleaved transitions with constant rates.",
+      "explicit_paper_qualification": "Authors explicitly conclude that more detailed calculations with broken reflection symmetry in the TPSM approach and other theoretical models are needed to confirm the octupole nature of the bands at high spin and to rule out the mundane two-quasiparticle interpretation of the band structures."
+    },
+    "isotonic_shell_evolution_context_n56": {
+      "96zr_n56": "Exhibits octupole instability (3- state) but lacks regular rotational bands (Mach 1990)",
+      "98mo_n56": "Exhibits octupole degrees of freedom without well-developed alternating-parity rotational bands (Lalkovski 2007; Karmakar 2025/2026 preview)",
+      "100ru_n56": "Larger quadrupole deformation base enables rotational alignment of nu h11/2 - nu d5/2 octupole-driving pairs, developing alternating-parity bands.",
+      "conclusion": "Octupole collectivity at N=56 is a known isotonic shell structure effect driven by Delta l = Delta j = 3 orbitals, not an isolated ad-hoc phenomenon."
+    },
+    "paper_lineage_and_evolution": {
+      "preprint_vs_journal_title": "arXiv:2306.07670v1 title Rotation of pear-shaped 100Ru nucleus was formally modified during peer-review to Possibility of stable octupole deformation in 100Ru (PRC 109, 054312), proving that peer-review enforced evidence boundaries against unconditional pear-shaped rotation claims.",
+      "data_dependency": "arXiv:2306.07670 / PRC 109, 054312 provides the in-beam gamma spectroscopy (7 interleaved E1 transitions, DCO, iPDCO, branching ratios) from a 50 MeV thin-target run. PRC 110, L051302 provides the subsequent DSAM lifetime measurement using a 45 MeV thick-target run with an extended theoretical collaboration. They are distinct experimental runs sharing common spectroscopic branchings and lineage, not duplicate independent confirmations."
+    },
+    "missing_reproducibility_artifacts": "Supplemental material with full multi-angle line shape numerical spectra, raw Doppler profiles, and full covariance matrices is absent from the publication; independent numerical refitting of LINESHAPE stopping calculations is limited to reported summary values; detector angle discrepancy (40/90/125 deg vs 157 deg in caption) remains unresolved."
+  },
+  "c1_closure_evaluation": {
+    "previous_state": "Open access boundary: 100Ru octupole paper and 98Mo followup were new search branches, but only abstract/metadata was available in karmakar-2024-100ru-octupole-access-record.",
+    "current_state": "Closed: Full texts of arXiv:2411.10976v1 (PRC Letter, 6 pages in PDF) and arXiv:2306.07670v1 (PRC Article, 13 pages in PDF) acquired, archived in raw/papers/gpt/query/20261107-a100-octupole-lifetimes/, validated by archive-gate, and fully extracted into two dedicated knowledge sources.",
+    "scientific_impact_on_knowledge_base": "Provides grounded numerical lifetimes, 6 verified absolute B(E1) values, exact TPSM parameterization, and definitive clarification that stable octupole deformation in 100Ru remains a qualified theoretical hypothesis rather than a settled experimental fact."
+  },
+  "parent_integration_boundary": "D0 1.34 sigma is conditional on independent approximately Gaussian group errors; shared Q0/covariance not supplied. Parity-good exact states allow E1 between opposite parities; one truncated TPSM mismatch does not uniquely prove static reflection-asymmetric mean field."
+}

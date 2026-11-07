@@ -1,0 +1,118 @@
+{
+  "created_utc": "2026-11-07T09:57:41.787767+00:00",
+  "scope": "read-only source and synthesis audit; deterministic exact model, no empirical data",
+  "original_sources_read_only": [
+    {
+      "path": "raw/books/nuclear isomer - A Prime.pdf",
+      "size_bytes": 2666967,
+      "sha256": "20f88b84240637e10a6086eca6b9f6e80a28813ad1ecf14a795144a4d5c2ac34"
+    },
+    {
+      "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "size_bytes": 6514067,
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c"
+    },
+    {
+      "path": "raw/papers/2014_Frauendorf_D\u00f6nau_Transverse wobbling.pdf",
+      "size_bytes": 1496816,
+      "sha256": "36794ee1308adc1b34206ccdbf62353d6e79b3b485979e78709fd31efe5f57e3"
+    },
+    {
+      "path": "raw/papers/2019_Sensharma et al_Two-phonon wobbling in 135Pr.pdf",
+      "size_bytes": 935222,
+      "sha256": "54f06038943de5f980dc731266844dcfa1980f1775e47a943f77d31c256c741f"
+    },
+    {
+      "path": "raw/papers/2021_Rojeeta Devi et al_Observation of multiphonon transverse wobbling in 133Ba.pdf",
+      "size_bytes": 463953,
+      "sha256": "fb6ea8474676875752ca83399e8f27aa792aa07643c5fa962fe44cab1ae0697b"
+    },
+    {
+      "path": "raw/papers/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf",
+      "size_bytes": 1155420,
+      "sha256": "d2615fc0d95428b06c056eb8946afa2f62940ce58d79c1fc1cc3f50e19c73ef3"
+    },
+    {
+      "path": "raw/papers/2016_Liu et al_Evidence for Octupole Correlations in Multiple Chiral Doublet Bands.pdf",
+      "size_bytes": 722600,
+      "sha256": "460051aed9af9d84bbfa09a51339e4d671f8abaaf511ff6b7e0a4fbc2a836ad4"
+    },
+    {
+      "path": "raw/papers/2022_Xiao et al_Chirality and octupole correlations in As 74.pdf",
+      "size_bytes": 876916,
+      "sha256": "0b14112f23529b71930f546a8a9929313e940a9c7fed27ff25a0d1d4687e5c74"
+    },
+    {
+      "path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.65.014607.pdf",
+      "size_bytes": 980505,
+      "sha256": "0fbce3d3faded1e072ce25eeb8a758cabb81d54b2df2eee71f55efd1686116c8"
+    }
+  ],
+  "syntheses_read_only": [
+    {
+      "path": "knowledge/synthesis/high-spin-isomers-and-decay-modes-systematics.md",
+      "size_bytes": 5508,
+      "sha256": "4527f13ab92fe5f1980684d23df33fffbfba1ad7adbdfb38eb9dfadbae90d320"
+    },
+    {
+      "path": "knowledge/synthesis/octupole-and-chiral-coexistence-in-transitional-nuclei.md",
+      "size_bytes": 3931,
+      "sha256": "d88cb4aaf24056c51d7e762485b590463cf7b6580183e5950f67f6d37aed4c8f"
+    },
+    {
+      "path": "knowledge/synthesis/triaxial-collective-evolution-across-mass-regions.md",
+      "size_bytes": 5916,
+      "sha256": "8ce804bae717fd476f756fb1b571404ae195dfcbd88cf63a69e05bbe58841a11"
+    },
+    {
+      "path": "knowledge/synthesis/universal-triaxial-collective-mechanics-and-cross-region-migration.md",
+      "size_bytes": 10097,
+      "sha256": "939468f2e7658b1d5b2add57574ab6447dc5361c03a0e5946e0d917ffee5a543"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "system/scripts/isomer_seniority_transfer_validation.py",
+      "size_bytes": 12746,
+      "sha256": "e09c5cb9d879044d7a5e6397795bc12b34aefd3f1c7f1e234d5a397c7342c10f"
+    },
+    {
+      "path": "outputs/l4/20261107-isomer-cross-region/seniority/results.json",
+      "size_bytes": 12240,
+      "sha256": "ac617be8b7b3ea6dd2da5223573803556d5ed1580ced393d22b263c80d33c5ba"
+    },
+    {
+      "path": "outputs/l4/20261107-isomer-cross-region/seniority/verification.json",
+      "size_bytes": 3923,
+      "sha256": "8e2ec626175fa74692b7d3615577f020c5b74730a0cc5727627c255561d8a672"
+    },
+    {
+      "path": "knowledge/research-notes/seniority-mid-shell-cross-region-model-test-20261107.md",
+      "size_bytes": 20699,
+      "sha256": "d225a6c8d1d415587c46b899342e0783d602f9f103ea568b7d8767955ba38254"
+    }
+  ],
+  "replay_command": "OPENBLAS_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 python3 system/scripts/isomer_seniority_transfer_validation.py --output tmp/runs/isomer-20261107/theory/final-replay.json",
+  "python": "3.12.3",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "seed": null,
+  "units": "dimensionless E2 strength and pairing-energy units",
+  "updated_utc": "2026-11-07T11:25:29.898659+00:00",
+  "synthesis_hash_provenance": "Original read-only audit snapshot; any subsequent changes are listed in verification.json.",
+  "independent_algebra_receipt": {
+    "path": "outputs/l3/20261107-isomer-cross-region/independent-algebra-check.json",
+    "size_bytes": 289,
+    "sha256": "87435ee11b8cdf3227290b5a9e88c94f851f670b615fdb0676a8aafe85dba33d"
+  },
+  "parent_final_artifact_updates": [
+    {
+      "path": "knowledge/research-notes/seniority-mid-shell-cross-region-model-test-20261107.md",
+      "previous_sha256": "8f2eae27ac5aa0ec671703c5c2472a6bcfeb374849b0abd3bd3767167be7d1e4",
+      "final_sha256": "4c348d73500e49e2d1dc3a3495d85fc24ea8e26496b8c2b1a4c69979bc8867d7",
+      "reason": "parent added pure-pairing same-v J degeneracy and matrix-element-only boundary"
+    }
+  ],
+  "final_replay_receipt": "outputs/l3/20261107-isomer-cross-region/final-numerical-replay.json",
+  "artifact_type": "numerical-run-provenance; not a research-source archive manifest"
+}

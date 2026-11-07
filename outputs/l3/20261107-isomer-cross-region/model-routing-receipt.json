@@ -1,0 +1,43 @@
+{
+  "schema": "model-routing-receipt-v1",
+  "updated_at": "2026-11-07T11:22:52.107011+00:00",
+  "user_preference": {
+    "main_workers": {
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high"
+    },
+    "complex_tasks": {
+      "model": "codex/gpt-6.1-terra",
+      "reasoning_effort": "xhigh"
+    },
+    "leader_requested": {
+      "model": "codex/gpt-6.1-sol",
+      "reasoning_effort": "xhigh"
+    }
+  },
+  "test_result": "Both explicitly requested worker model routes succeeded through actual delegated research and returned artifacts.",
+  "research_dispatch_count": 12,
+  "gemini_research_dispatches": 11,
+  "terra_research_dispatches": 1,
+  "count_scope": "Research workers R1–R12; initial small routing probes not included.",
+  "recent_completed_agent_ids": {
+    "R8": "01a1b5a2-42d9-7f83-a1f0-3a17e9ab933d",
+    "R9": "01a1b5a8-04aa-7433-ab63-42334c9f42d1",
+    "R10": "01a1b5a8-45ff-7832-a06d-6a41a5e424c6",
+    "R11": "01a1b5a8-e80b-7de0-8636-5e22b2d1535c",
+    "R12": "01a1b5aa-00ff-74a3-9cbc-f624fbeb426c"
+  },
+  "terra_returned_artifacts": [
+    "knowledge/research-notes/seniority-mid-shell-cross-region-model-test-20261107.md",
+    "system/scripts/isomer_seniority_transfer_validation.py",
+    "outputs/l4/20261107-isomer-cross-region/seniority/results.json"
+  ],
+  "scope_boundary": "Worker route success does not attest to an in-place change of the leader model or reasoning setting. No daemon/global configuration was changed.",
+  "quality_controls": [
+    "disjoint write ownership",
+    "detailed stepwise prompts and exact required outputs",
+    "parent source/figure/unit checks",
+    "draft assertions corrected before knowledge integration",
+    "all research workers closed after results returned"
+  ]
+}

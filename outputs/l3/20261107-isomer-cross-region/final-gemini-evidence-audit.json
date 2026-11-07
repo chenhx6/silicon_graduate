@@ -1,0 +1,223 @@
+{
+  "task_id": "G7-G9-reconciliation",
+  "reconciliation_worker": "Gemini-G9",
+  "reconciliation_date": "2026-11-07",
+  "checked_files": [
+    "knowledge/synthesis/triaxial-collective-evolution-across-mass-regions.md",
+    "knowledge/synthesis/octupole-and-chiral-coexistence-in-transitional-nuclei.md",
+    "knowledge/synthesis/high-spin-isomers-and-decay-modes-systematics.md",
+    "knowledge/synthesis/universal-triaxial-collective-mechanics-and-cross-region-migration.md",
+    "knowledge/projects/isomer-six-region-transfer-research.md"
+  ],
+  "checks": [
+    {
+      "item": "1. Region-wide prohibition, 60Ni theory candidate, 74Br three observed positive-parity bands, 105Pd wobbler context",
+      "verdict": "supported",
+      "evidence": [
+        {
+          "path": "knowledge/synthesis/triaxial-collective-evolution-across-mass-regions.md",
+          "locator": "lines 19-21, 44-46, 70, 131"
+        },
+        {
+          "path": "knowledge/synthesis/universal-triaxial-collective-mechanics-and-cross-region-migration.md",
+          "locator": "lines 19, 87, 127"
+        },
+        {
+          "path": "knowledge/synthesis/octupole-and-chiral-coexistence-in-transitional-nuclei.md",
+          "locator": "line 49"
+        },
+        {
+          "path": "knowledge/projects/isomer-six-region-transfer-research.md",
+          "locator": "lines 51, 66, 125-126"
+        }
+      ],
+      "note": "Confirmed: Blanket regional strict prohibitions derived from axial-model assumptions have been completely retracted. Peng-Chen 2019 60Ni is accurately identified as a multi-j PRM model candidate rather than an experimental measurement of static chirality. Guo 2024 74Br is documented as having three observed positive-parity bands; the fourth band is a subsequent theoretical prediction, not a 2024 experimental observation. Timar 2019 105Pd is reported as a transverse wobbler candidate that refutes blanket O(6) prohibition claims without implying that all A~100 nuclei are triaxially rigid."
+    },
+    {
+      "item": "2. Liu2016 thesis CPQ future status and model comparison; Xiao2019 Master thesis lifetime/parity status; Xiao2022 PRC three bands; no universal D0/gap threshold",
+      "verdict": "supported",
+      "evidence": [
+        {
+          "path": "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+          "locator": "lines 45-56, 107-112 (PDF p.90 Ch.7; pp.78-82)"
+        },
+        {
+          "path": "knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md",
+          "locator": "lines 45-56, 100-112 (PDF pp.45, 47)"
+        },
+        {
+          "path": "knowledge/synthesis/octupole-and-chiral-coexistence-in-transitional-nuclei.md",
+          "locator": "lines 42-55, 118-125"
+        }
+      ],
+      "note": "Confirmed: Liu 2016 thesis PDF p.90 explicitly treats CPQ as a future research question; pp.78-82 distinguishes octupole correlations from static deformation, showing MDC-CDFT gives beta_30=0 minimum while macro-micro gives non-axial beta_3mu minima. Xiao local thesis is verified as a 2019 Master thesis (not 2015 PhD), with PDF p.45 noting no lifetime data and p.47 concluding negative-parity Bands 3/4 do not satisfy chiral criteria (pseudospin partner candidate). Xiao 2022 PRC reports three bands (Bands 1/2 positive parity, Band 3 negative parity with 3 E1 links to Band 1), not fourfold CPQ. The main octupole synthesis explicitly preserves model dependence, derives D0 requirements under specified rotor assumptions, and rejects any universal 50-keV gap or 0.1-0.3 e*fm D0 threshold."
+    },
+    {
+      "item": "3. Lv2022 Table 1 delta values and absence of invented PRL 128 242503 or delta <= 0.15 / 98% M1 leftovers; specific line counterevidence boundary",
+      "verdict": "supported",
+      "evidence": [
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "lines 65-95 (Table 1, p.3)"
+        },
+        {
+          "path": "knowledge/research-notes/six-region-primary-counterexamples-and-transfer-20261107.md",
+          "locator": "lines 37-38"
+        },
+        {
+          "path": "knowledge/synthesis/triaxial-collective-evolution-across-mass-regions.md",
+          "locator": "lines 88-95"
+        }
+      ],
+      "note": "Confirmed: Lv 2022 (PLB 824, 136840; JUROGAM II) Table 1 actual values are delta(747.3) = -0.47 (+0.09/-0.22), delta(813.2) = -0.37 (+0.10/-0.14), delta(450.2) = -0.31 (+0.10/-0.13), and 755.1 keV has Rac=0.50(6) but NO polarization asymmetry. A comprehensive grep across the entire knowledge base confirmed zero leftover citations of invented PRL 128 242503 for Lv, delta <= 0.15, or uniform 98% M1. The synthesis contextualizes Lv2022 as specific transition-line counterevidence against one/two-phonon wobbling in 135Pr rather than an overarching proof that triaxial wobbling is impossible across all A~130 nuclei."
+    },
+    {
+      "item": "4. Exact single-j L4 seniority results, J=2 scalar C-symmetry preservation, v=4 upward doorway control, j=9/2 n-v parity condition, real Sn multi-orbit boundary",
+      "verdict": "supported",
+      "evidence": [
+        {
+          "path": "system/scripts/isomer_seniority_transfer_validation.py",
+          "locator": "lines 100-147"
+        },
+        {
+          "path": "knowledge/research-notes/seniority-mid-shell-cross-region-model-test-20261107.md",
+          "locator": "lines 35-75, 80-95"
+        },
+        {
+          "path": "knowledge/synthesis/high-spin-isomers-and-decay-modes-systematics.md",
+          "locator": "lines 60-85"
+        },
+        {
+          "path": "knowledge/projects/isomer-six-region-transfer-research.md",
+          "locator": "lines 75-85"
+        }
+      ],
+      "note": "Confirmed: In the exact single-j model (j=11/2, Omega=6, n=2,4,6,8,10, v=2, J=10->8), pure pairing ratios are exactly 1 / 0.25 / 0 / 0.25 / 1. Adding a rotationally scalar J=2 pair interaction leaves the mid-shell cancellation at numerical roundoff (~10^-30) because particle-hole conjugation C is preserved (C H C = H, C Q20 C = -Q20, both tracked states have C = -1). The opposite-signature v=4 negative control at n=6 shows an explicitly nonzero E2 strength (ratio 6.935 to unperturbed n=2 v=2->2) into the threefold-degenerate v=4 eigenspace; because the v=4 pairing energy is -1/3 (above v=2 energy -1), this transition is an upward excitation, NOT a radiative decay branch. For j=9/2 (Omega=5), since n-v must be a non-negative even integer, the v=2 even-n chain cannot contain n=5; nearest occupancies n=4 and n=6 yield analytic reduction factors +1/3 and -1/3 (strength ratio 1/9). The synthesis explicitly caveats that this finite single-j model does not predict real Sn lifetimes or imply all mid-shell E2 transitions vanish in multi-orbit nuclei."
+    },
+    {
+      "item": "5. K-isomer partial gamma lifetime formula with conversion electrons, f_nu multi-mechanism ambiguity, 192Os tau mean life, bare Ikeda vs gA quenching, SHE three-factor cascade",
+      "verdict": "supported",
+      "evidence": [
+        {
+          "path": "knowledge/observables/reduced-hindrance-factor.md",
+          "locator": "lines 25-55"
+        },
+        {
+          "path": "knowledge/sources/dracoulis-2013-192os-isomers-gamma-soft.md",
+          "locator": "lines 50-75 (Table 1, p.331)"
+        },
+        {
+          "path": "knowledge/synthesis/high-spin-isomers-and-decay-modes-systematics.md",
+          "locator": "lines 85-95, 130-145, 165-190"
+        }
+      ],
+      "note": "Confirmed: T_gamma,partial = T_total * (1 + alpha) / b_TOTAL is correctly formulated for b_TOTAL containing both photons and conversion electrons; when the photon branch fraction q_gamma is given, no extra (1 + alpha) factor is applied. The syntheses explicitly state that f_nu cannot uniquely determine triaxiality due to Coriolis alignment, chance near-degeneracy mixing, and initial/final wave-function interference. Dracoulis 2013 Table 1 explicitly uses mean life tau (not T_1/2). The bare Gamow-Teller Ikeda sum rule S_- - S_+ = 3(N-Z) is rigorously separated from effective in-medium g_A quenching. The superheavy element production cross section is formulated as a conditional three-factor reaction model with cascade averaging, and claims of zero macroscopic barriers or fixed survival ratios have been retracted."
+    },
+    {
+      "item": "6. Herzberg 2006 254No original data: 266 ms and 184 us isomers, tentative (16+) high state, intermediate K=3 bandhead (~988 keV) and g_K=0.87(14), 8- two-quasiparticle configuration ambiguity",
+      "verdict": "corrected_on_re-audit",
+      "previous_verdict": "supported (erroneous acceptance of 943-keV bandhead in prior G7 audit note)",
+      "audit_correction_record": {
+        "correction_date": "2026-11-07 (Task G9 reconciliation)",
+        "corrected_error": "Prior G7 audit note erroneously characterized 943 keV as the K^pi=3+ bandhead and marked the item as 'supported'. Primary source (Nature 442, 896-899, Fig. 3, p. 898) explicitly shows the intermediate K=3 bandhead is at ~988 keV; 841 keV and 943 keV are M1 gamma-ray transition energies de-exciting to the ground-state band 4+ and 2+ states, respectively.",
+        "primary_source_verification": "Nature 442, 896-899: Fig. 3 shows intermediate K=3 bandhead at ~988 keV decaying via 841 keV (to 4+) and 943 keV (to 2+) M1 transitions. Half-lives: low-lying 8- isomer T_1/2 = 266(2) ms at Ex = 1293 keV; higher-lying isomer T_1/2 = 184(3) us (microseconds, confirmed by visual inspection of printed p. 897). The higher state (J >= 14, tentatively 16+) is explicitly tentative on experimental grounds alone. For the 8- isomer, the author discusses two-quasiproton vs two-quasineutron interpretations without establishing a unique configuration assignment in literature. The g_K = 0.87(14) value belongs to the intermediate 3+ band (bandhead ~988 keV), not the 8- state itself.",
+        "retracted_assertions": [
+          "Retracted erroneous claim that 943 keV is the bandhead of the intermediate K=3 band",
+          "Retracted silent-support marking from G7; audit trail preserved with correction reason and timestamp",
+          "Retracted any claim of unique two-quasiproton configuration assignment for the 266 ms 8- isomer"
+        ]
+      },
+      "evidence": [
+        {
+          "path": "knowledge/sources/herzberg-2006-superheavy-isomers-stepping-stones.md",
+          "locator": "lines 45-75 (Nature 442, 896-899, p.2 / printed p.897, Fig. 3 p.898)"
+        },
+        {
+          "path": "knowledge/research-notes/isomer-shell-evolution-astrophysics-and-superheavy-transfer-20261107.md",
+          "locator": "lines 58-60"
+        },
+        {
+          "path": "knowledge/synthesis/high-spin-isomers-and-decay-modes-systematics.md",
+          "locator": "lines 191-196"
+        },
+        {
+          "path": "knowledge/projects/isomer-six-region-transfer-research.md",
+          "locator": "lines 50, 64"
+        }
+      ],
+      "note": "Audit corrected by primary source inspection during task G9: The previous G7 audit note mistakenly referred to 943 keV as the bandhead and marked it supported. Direct re-examination of Nature 442, 898 (Fig. 3) confirms the intermediate K=3 bandhead is at ~988 keV (987.9 keV), while 841 keV and 943 keV are M1 gamma-ray energies to the ground-state band 4+ and 2+ states. The 266(2) ms 8- isomer and 184(3) us tentative (16+) state are distinct in lifetime and configuration. The two-quasiparticle assignment (2-proton vs 2-neutron) of the 8- state remains open/non-unique in literature discussion."
+    },
+    {
+      "item": "7. Guo 2022 93mMo original counts (570 ROI vs 596 background), P_max ~ 2e-5 upper bound without 99% CL claim, 1.763e6 photon counts, Eqs 1-3 correction factors, no forensic proof of 2018 target environment or blanket NEEC refutation",
+      "verdict": "supported",
+      "evidence": [
+        {
+          "path": "knowledge/sources/guo-2022-mo93m-isomer-beam-depletion-limit.md",
+          "locator": "lines 45-75 (PRL 128, 242502)"
+        },
+        {
+          "path": "knowledge/synthesis/high-spin-isomers-and-decay-modes-systematics.md",
+          "locator": "lines 200-212"
+        },
+        {
+          "path": "knowledge/research-notes/mo93-neec-evidence-and-depletion-transfer-20261107.md",
+          "locator": "lines 25-60"
+        }
+      ],
+      "note": "Confirmed: Guo 2022 (PRL 128, 242502) observed 570 counts in the 266.5-269.5 keV ROI window against an estimated Compton background of 596 counts (3-sigma lower bound 523 counts; not zero ROI counts). The author approximate upper limit is P_max ~ 2e-5, derived without an explicit 99% CL statement. 1.763(1)e6 is the detected 263-keV isomer decay photon peak counts during beam-on, not implanted ions. Depletion rate derivation in Eqs. (1)-(3) includes detection efficiencies, internal conversion coefficients, peak-to-total fractions, deadtime, and time-gate factors. The synthesis presents Guo 2022 as clean experimental counterevidence under secondary isomer beam stopping conditions without claiming forensic proof of the exact 2018 ATLAS target contamination or disproving the NEEC mechanism in general."
+    },
+    {
+      "item": "8. 194-200Tl active TeX table Tab:Tcr parameters (beta .178/.168/.157/.157, gamma 30/29/31/34), 166Ta PNC-CSM axial input assumption, absence of 200Tl experimental N=126 termination boundary",
+      "verdict": "supported",
+      "evidence": [
+        {
+          "path": "knowledge/sources/jehangir-2020-high-spin-doublet-bands-194-200tl.md",
+          "locator": "lines 45-70 (active Tab:Tcr, lines 375-391)"
+        },
+        {
+          "path": "knowledge/sources/zhang-2016-two-quasiparticle-bands-166ta.md",
+          "locator": "lines 40-65 (Section II, Eq. eq:H_CSM)"
+        },
+        {
+          "path": "knowledge/synthesis/triaxial-collective-evolution-across-mass-regions.md",
+          "locator": "lines 48-50"
+        },
+        {
+          "path": "knowledge/projects/isomer-six-region-transfer-research.md",
+          "locator": "line 126"
+        }
+      ],
+      "note": "Confirmed: In jehangir-2020-high-spin-doublet-bands-194-200tl.md, the active, uncommented Table Tab:Tcr in the author TeX source is used, giving beta = 0.178, 0.168, 0.157, 0.157 and gamma = 30, 29, 31, 34 deg for 194, 196, 198, 200Tl; commented-out rows are explicitly excluded; the TPSM interaction incorporates quadrupole-quadrupole force plus monopole and quadrupole pairing without hexadecapole terms. In zhang-2016-two-quasiparticle-bands-166ta.md, the PNC-CSM Hamiltonian explicitly assumes an axially symmetric deformed core (gamma=0) as a model input, which means the model calculation cannot be used as an empirical proof to exclude triaxiality across the entire region or in normal-deformed 166Ta. In triaxial-collective-evolution-across-mass-regions.md, 200Tl short side-band and TPSM mismatch are noted as theoretical/experimental limits, not an experimental proof of chiral mode termination at N=126."
+    }
+  ],
+  "issues": [
+    {
+      "severity": "scientific-open",
+      "target_file": "knowledge/synthesis/octupole-and-chiral-coexistence-in-transitional-nuclei.md",
+      "target_line": 114,
+      "claim_quote": "| 静态CPQ | 本轮未建立完整认证链 | 两个不同组态双带或三带网络 | 四带自洽对应、宇称及手征两个方向的矩阵元网络和竞争模型比较 |",
+      "actual_source_locator": "Liu 2016 thesis PDF p.90 Ch.7; Xiao 2019 thesis PDF pp.45, 47; Xiao 2022 PRC 106, 064302 PDF pp.3-7",
+      "proposed_specific_fix": "Maintain as an acknowledged open scientific boundary: simultaneous chiral-parity quartet (CPQ) structure in 78Br or 74As is an open model hypothesis requiring partner-resolved absolute transition probabilities and comprehensive cross-parity linking spectroscopy before formal certification."
+    },
+    {
+      "severity": "scientific-open",
+      "target_file": "knowledge/synthesis/triaxial-collective-evolution-across-mass-regions.md",
+      "target_line": 46,
+      "claim_quote": "100Ru八极论文及98Mo后续是新检索支线，但本轮分别仅取得摘要/首页（[[timar-2019-transverse-wobbling-105pd]]；[[karmakar-2024-100ru-octupole-access-record]]）",
+      "actual_source_locator": "Karmakar 2024 PRC 110, L031301 (abstract only) and Karmakar 2025/2026 preview",
+      "proposed_specific_fix": "Maintain as an acknowledged access boundary: full-text extraction and transition probability data for 100Ru and 98Mo octupole-triaxial coupling remain open pending future acquisition of the complete articles."
+    },
+    {
+      "severity": "scientific-open",
+      "target_file": "knowledge/synthesis/high-spin-isomers-and-decay-modes-systematics.md",
+      "target_line": 155,
+      "claim_quote": "129Pd的中子衰变异能态在Yuan2016中是预测；是否在2026已得到验证需要额外检索。",
+      "actual_source_locator": "Yuan et al. PLB 762, 237-242 (2016) PDF p.240",
+      "proposed_specific_fix": "Maintain as an open research question: the predicted neutron-decaying isomer in 129Pd southeast of 132Sn remains a theoretical prediction whose experimental discovery status requires dedicated post-2016 decay spectroscopy verification."
+    }
+  ],
+  "summary": "Bounded evidence audit reconciled under Task G9 across master synthesis and ledger artifacts. Check item 6 was explicitly corrected from the prior G7 audit where 943 keV was erroneously marked as supported: primary source inspection (Nature 442, 898 Fig. 3) establishes that the intermediate K=3 bandhead is at ~988 keV, whereas 841 keV and 943 keV are M1 gamma-ray transition energies to the ground-state band 4+ and 2+ states, and the two-quasiparticle (proton vs neutron) assignment of the 266 ms 8- isomer is non-unique. The correction record, timestamps, and retracted assertions are explicitly retained. The remaining 7 checklist items are supported by local primary sources and exact numerical models, with zero occurrences of invented citations, uniform delta=0.15, or universal thresholds.",
+  "changed_paths": [
+    "outputs/l3/20261107-isomer-cross-region/final-gemini-evidence-audit.json"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "git",
+    "diff",
+    "--check"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "",
+  "local_publication_receipt_ignored": true,
+  "local_ignore_scope": "one exact task receipt path appended to repository-local info/exclude; no global Git configuration change"
+}

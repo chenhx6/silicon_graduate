@@ -1,0 +1,96 @@
+{
+  "audit_date": "2026-11-07T11:20:28.442962+00:00",
+  "auditor": "Gemini R1/R8/R11 with parent reconciliation",
+  "workspace": "/workspace/wiki",
+  "scope_definition": "Five supplied reviews/book; coverage is reading provenance, not independent-experiment count. Source pages hold current scientific claims.",
+  "coverage_summary": {
+    "document_count": 5,
+    "physical_pdf_pages": 226,
+    "reading_ledgers": [
+      "reviews/four-review-primary-reading-ledger.json",
+      "reviews/jain-primary-reading-ledger.json"
+    ],
+    "all_original_references_independently_verified": false
+  },
+  "documents": [
+    {
+      "id": "WD99",
+      "pdf_path": "raw/papers/isomer/isomer_review/1999_Walker_Dracoulis_Energy traps in atomic nuclei.pdf",
+      "sha256": "7eab17aa439b2e8c78aa0566626fa8725113eb95e6a2170eb296cdc09b8f6441",
+      "file_size_bytes": 216927,
+      "total_pages": 6,
+      "actually_read_page_ranges": "35-40",
+      "reading_depth": "read (bounded review audit)",
+      "wiki_source_file": "knowledge/sources/paper-walker-dracoulis-1999-energy-traps.md",
+      "reading_record": "outputs/l3/20261107-isomer-cross-region/reviews/four-review-primary-reading-ledger.json",
+      "chunk_ids": [
+        "WD99-CHUNK-1"
+      ],
+      "boundary": "Sequential text/topic reading and selected figures/equations; not all cited experiments, figures digitized, references cross-verified or raw events replayed."
+    },
+    {
+      "id": "DRA16",
+      "pdf_path": "raw/papers/isomer/isomer_review/2016_Dracoulis et al_Review of metastable states in heavy nuclei.pdf",
+      "sha256": "2cd8ce2189c4869295cb91737d9a98e9fa90a9e36897690ee5c09bfc82d17f00",
+      "file_size_bytes": 4744441,
+      "total_pages": 47,
+      "actually_read_page_ranges": "076301 (pp. 1-46 + IOP cover page)",
+      "reading_depth": "read (bounded review audit across 6 sequential chunks)",
+      "wiki_source_file": "knowledge/sources/paper-dracoulis-2016-metastable-states-heavy-nuclei.md",
+      "reading_record": "outputs/l3/20261107-isomer-cross-region/reviews/four-review-primary-reading-ledger.json",
+      "chunk_ids": [
+        "DRA16-CHUNK-1",
+        "DRA16-CHUNK-2",
+        "DRA16-CHUNK-3",
+        "DRA16-CHUNK-4",
+        "DRA16-CHUNK-5",
+        "DRA16-CHUNK-6"
+      ],
+      "boundary": "Sequential text/topic reading and selected figures/equations; not all cited experiments, figures digitized, references cross-verified or raw events replayed."
+    },
+    {
+      "id": "WP20",
+      "pdf_path": "raw/papers/isomer/isomer_review/2020_Walker_Podolyák_100 years of nuclear isomers—then and now.pdf",
+      "sha256": "3f2b864afd0be92afb5371484791f8a2df632ecd71c894b4fc015f6a816457fe",
+      "file_size_bytes": 803096,
+      "total_pages": 12,
+      "actually_read_page_ranges": "044004 (pp. 1-12)",
+      "reading_depth": "read (bounded review audit across 2 sequential chunks)",
+      "wiki_source_file": "knowledge/sources/paper-walker-podolyak-2020-100-years-isomers.md",
+      "reading_record": "outputs/l3/20261107-isomer-cross-region/reviews/four-review-primary-reading-ledger.json",
+      "chunk_ids": [
+        "WP20-CHUNK-1",
+        "WP20-CHUNK-2"
+      ],
+      "boundary": "Sequential text/topic reading and selected figures/equations; not all cited experiments, figures digitized, references cross-verified or raw events replayed."
+    },
+    {
+      "id": "CC24",
+      "pdf_path": "raw/papers/isomer/isomer_review/2024_Carroll_Chiara_Isomer depletion.pdf",
+      "sha256": "d56deaa1c5f273d063e225d8bfd23292695442486282a0b5cc28e0f14a534f44",
+      "file_size_bytes": 1127628,
+      "total_pages": 10,
+      "actually_read_page_ranges": "1151-1160",
+      "reading_depth": "read (bounded review audit across 2 sequential chunks)",
+      "wiki_source_file": "knowledge/sources/paper-carroll-chiara-2024-isomer-depletion.md",
+      "reading_record": "outputs/l3/20261107-isomer-cross-region/reviews/four-review-primary-reading-ledger.json",
+      "chunk_ids": [
+        "CC24-CHUNK-1",
+        "CC24-CHUNK-2"
+      ],
+      "boundary": "Sequential text/topic reading and selected figures/equations; not all cited experiments, figures digitized, references cross-verified or raw events replayed."
+    },
+    {
+      "id": "JAIN-2021",
+      "pdf_path": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+      "sha256": "994816561cfb6e89bd215b7fe23e37ecf12e8a3e8f5ce88eafbbd388d02ed74a",
+      "file_size_bytes": 3099781,
+      "total_pages": 151,
+      "actually_read_page_ranges": "physical PDF1–151 in19blocks; printed offsets vary; Ch3–5 core derivations, other chapters text/topic reading",
+      "reading_depth": "deep-read (Ch 3, 4, 5 algebra & derivations) / read (Ch 1, 2, 6, 7, 8, front matter, summary)",
+      "wiki_source_file": "knowledge/sources/book-jain-nuclear-isomers.md",
+      "reading_record": "outputs/l3/20261107-isomer-cross-region/reviews/jain-primary-reading-ledger.json",
+      "boundary": "No appendix; text identity of second PDF does not prove raster identity; cited experiments not independently replayed. N64+9 tension and state-dependent peaks preserved; source algebra conditioned on physically allowed states."
+    }
+  ]
+}

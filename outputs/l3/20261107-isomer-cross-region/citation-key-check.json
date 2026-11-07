@@ -1,0 +1,51 @@
+{
+  "checked_new_sources": 55,
+  "registered_bib_key_count": 524,
+  "unregistered_keys_cleared": [
+    {
+      "path": "knowledge/sources/herzberg-2006-superheavy-isomers-stepping-stones.md",
+      "unregistered_key_removed": "herzberg_2006_superheavy_isomers_stepping_stones"
+    },
+    {
+      "path": "knowledge/sources/martin-2016-mass-uncertainties-r-process.md",
+      "unregistered_key_removed": "martin_2016_mass_uncertainties_r_process"
+    },
+    {
+      "path": "knowledge/sources/paper-carroll-chiara-2024-isomer-depletion.md",
+      "unregistered_key_removed": "carroll_chiara_2024_isomer_depletion"
+    },
+    {
+      "path": "knowledge/sources/paper-dracoulis-2016-metastable-states-heavy-nuclei.md",
+      "unregistered_key_removed": "dracoulis_2016_metastable_states"
+    },
+    {
+      "path": "knowledge/sources/paper-walker-dracoulis-1999-energy-traps.md",
+      "unregistered_key_removed": "walker_1999_energy_traps"
+    },
+    {
+      "path": "knowledge/sources/paper-walker-podolyak-2020-100-years-isomers.md",
+      "unregistered_key_removed": "walker_podolyak_2020_100_years"
+    },
+    {
+      "path": "knowledge/sources/taprogge-2014-sn132-proton-hole-n82.md",
+      "unregistered_key_removed": "taprogge_2014_1p3_2_proton_hole_132sn"
+    },
+    {
+      "path": "knowledge/sources/watanabe-2013-128pd-126pd-isomers-n82.md",
+      "unregistered_key_removed": "watanabe_2013_isomers_128pd_126pd"
+    },
+    {
+      "path": "knowledge/sources/xu-2004-superheavy-high-spin-isomer-stability.md",
+      "unregistered_key_removed": "xu_2004_enhanced_stability_superheavy"
+    },
+    {
+      "path": "knowledge/sources/yang-2024-os160-w156-n82-stability.md",
+      "unregistered_key_removed": "yang_2024_discovery_160os_156w"
+    },
+    {
+      "path": "knowledge/sources/yuan-2016-southeast-132sn-129pd-isomer.md",
+      "unregistered_key_removed": "yuan_2016_isomerism_southeast_132sn_129pd"
+    }
+  ],
+  "note": "Blank key is retained until a real BibTeX entry is available; no user BibTeX modified"
+}

@@ -1,7 +1,7 @@
 ---
 type: system-memory
 graph-excluded: true
-updated: 2026-11-05
+updated: 2026-11-07
 ---
 
 # 长期记忆
@@ -11,6 +11,9 @@ updated: 2026-11-05
 这里只保存跨项目、跨会话仍应成立的规则。临时任务状态写入 `system/handoff.md`。
 
 ## 已确认规则
+
+- 2026-11-07 用户确立科研多模型分工，并再次强调Gemini承担大部分任务：`antigravity/gemini-3.8-flash-tiered`（Gemini 3.8 Flash Tiered，reasoning `high`）作为主力subagent；`codex/gpt-6.1-sol` reasoning `xhigh`负责领导/总控、证据核查与集成；相当复杂的任务交给`codex/gpt-6.1-terra` reasoning `xhigh`。两个worker模型均在本会话成功派发、调用终端并回传结果，运行model/effort记录已核对。用户要求给Gemini尽可能详细、易执行的提示词：明确单一问题、必要背景、必读原件/版本、页码与单位、常见误读、可写路径、输出schema、逐项验收和真实未完成边界，长任务拆成小批次并检查后再推进。派发数量或长提示词本身不保证科学质量，父代理仍按直接证据复核；不得把旧的GPT-5.6 subagent偏好当作当前默认。本条记录科研派发偏好，不声称已改写daily daemon的模型配置。
+- 2026-11-07 用户授权本轮`raw/papers/isomer/`学习、综述/学位论文重点核读、六大质量区集体/三轴机制迁移、新现象候选及L3/L4研究。原件、模型、推断、竞争解释和真实阅读范围仍须分别记录；不以过去“Master综合已完成”的标签免除原件核查。执行状态和开放问题见[[isomer-six-region-transfer-research]]及本轮handoff。
 
 - 2026-10-28：容器 `/opt/venv` 已验证 `crawl4ai 0.9.3`、`browser-use 0.13.10`、`browser-use-sdk 3.4.2`、Playwright/Patchright 与新增 `ponytail 0.9.3`；Crawl4AI/Playwright example.com 实测成功，pip check通过。Dockerfile.final已有前四项固定版本，但当前 runtime 目录只读，ponytail 持久化补丁未能写入；详见 `outputs/literature-acquisition/20261028-web-automation-runtime.json`。
 

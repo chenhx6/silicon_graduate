@@ -1,0 +1,1003 @@
+{
+  "schema": "isomer-reading-reconciliation-v2",
+  "created_at": "2026-11-07T11:20:36.030233+00:00",
+  "input_pdf_count": 51,
+  "input_pages_including_copies": 692,
+  "unique_input_byte_artifacts": 49,
+  "unmatched_reading_records": [],
+  "original_hash_changes": [],
+  "interpretation": "Per-file records are scope provenance, not automatic full-reading percentages or independent experiments. Canonical source pages hold current claims; embedded stale scientific drafts removed.",
+  "files": [
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2001_Walker et al_Interpretation of the excitation and decay of 180 Ta m through a K π = 5 + band.pdf",
+      "pages": 5,
+      "bytes": 79507,
+      "sha256": "fec644ea22c7f084661e36c25795e99531e86e39be81052d97f28569e080988b",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/walker-2001-180ta-k5-band-intermediate-depletion.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/depletion/coverage-ledger.json",
+          "record_index": 0,
+          "record_id": "2001_Walker et al_Interpretation of the excitation and decay of 180 Ta m through a K π = 5 + band.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2016_Volotka et al_Nuclear Excitation by Two-Photon Electron Transition.pdf",
+      "pages": 5,
+      "bytes": 292514,
+      "sha256": "f5e8286a8662e1d869dbff49d51877647c182e190c078c59a343b7724978026f",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/volotka-2016-two-photon-electron-transition-netp.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/depletion/coverage-ledger.json",
+          "record_index": 1,
+          "record_id": "2016_Volotka et al_Nuclear Excitation by Two-Photon Electron Transition.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2018_Chiara et al_Isomer depletion as experimental evidence of nuclear excitation by electron capture.pdf",
+      "pages": 10,
+      "bytes": 621987,
+      "sha256": "5a6d0f39b280e527fce655e37a894c49ce90720ac252915327d880425fcf16ee",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/chiara-2018-mo93m-isomer-depletion-neec.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/depletion/coverage-ledger.json",
+          "record_index": 2,
+          "record_id": "2018_Chiara et al_Isomer depletion as experimental evidence of nuclear excitation by electron capture.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2018_Vanacore et al_Attosecond coherent control of free-electron wave functions using semi-infinite light fields.pdf",
+      "pages": 11,
+      "bytes": 5817241,
+      "sha256": "f0cfef202d345d6d8cf9dcb15a91e0d6f0de18fe42de145bd60450a03a78dcfe",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/vanacore-2018-attosecond-coherent-control-free-electrons.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/depletion/coverage-ledger.json",
+          "record_index": 3,
+          "record_id": "2018_Vanacore et al_Attosecond coherent control of free-electron wave functions using semi-infinite light fields.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2019_Wu et al_Mo 93 m Isomer Depletion via Beam-Based Nuclear Excitation by Electron Capture.pdf",
+      "pages": 6,
+      "bytes": 817263,
+      "sha256": "65a948a1144b2745a83cf0888fba24fa2fcdd79aa786faed6723f768641daf45",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/wu-2019-mo93m-neec-stopping-theory.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/depletion/coverage-ledger.json",
+          "record_index": 4,
+          "record_id": "2019_Wu et al_Mo 93 m Isomer Depletion via Beam-Based Nuclear Excitation by Electron Capture.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2021_Guo et al_Possible overestimation of isomer depletion due to contamination.pdf",
+      "pages": 4,
+      "bytes": 1701216,
+      "sha256": "5e98a2700de3c7892fac86abe69475194aa4a7d7b74a2e9608f710c0436a9236",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/guo-2021-mo93m-depletion-contamination-challenge.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/depletion/coverage-ledger.json",
+          "record_index": 5,
+          "record_id": "2021_Guo et al_Possible overestimation of isomer depletion due to contamination.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2021_Rzadkiewicz et al_Novel Approach to Mo 93 m Isomer Depletion Nuclear Excitation by Electron Capture in Resonant Trans.pdf",
+      "pages": 6,
+      "bytes": 557577,
+      "sha256": "9d295acd2c1706088b1c8d10ae0a097af2b34dc3f338598a984a8a69a5481860",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/rzadkiewicz-2021-mo93m-neec-resonant-transfer.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/depletion/coverage-ledger.json",
+          "record_index": 6,
+          "record_id": "2021_Rzadkiewicz et al_Novel Approach to Mo 93 m Isomer Depletion Nuclear Excitation by Electron Capture in Resonant Trans.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2022_Gargiulo et al_Nuclear Excitation by Electron Capture in Excited Ions.pdf",
+      "pages": 17,
+      "bytes": 30856755,
+      "sha256": "dc0f0fe54e8637a088ba4e9f3b11e3b6d98c07de833a9bc6cb615dc6b29c183f",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/gargiulo-2022-neec-excited-ions.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/depletion/coverage-ledger.json",
+          "record_index": 7,
+          "record_id": "2022_Gargiulo et al_Nuclear Excitation by Electron Capture in Excited Ions.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2022_Guo et al_Probing Mo 93 m Isomer Depletion with an Isomer Beam.pdf",
+      "pages": 6,
+      "bytes": 526099,
+      "sha256": "ec3d4f308c1083124d5c8be87417c39ec2804f9568ba6f7901d84d15c7b24652",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/guo-2022-mo93m-isomer-beam-depletion-limit.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/depletion/coverage-ledger.json",
+          "record_index": 8,
+          "record_id": "2022_Guo et al_Probing Mo 93 m Isomer Depletion with an Isomer Beam.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2022_Wu et al_Dynamical Control of Nuclear Isomer Depletion via Electron Vortex Beams.pdf",
+      "pages": 6,
+      "bytes": 598756,
+      "sha256": "47ff862a3b55c3a0674c076d917e3b2ea8b16f209f375962ed71bd665a24e3f8",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/wu-2022-isomer-depletion-vortex-electron-beams.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/depletion/coverage-ledger.json",
+          "record_index": 9,
+          "record_id": "2022_Wu et al_Dynamical Control of Nuclear Isomer Depletion via Electron Vortex Beams.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear battery/2023_Feasibility study of nuclear excitation by electron capture using an electron beam ion trap.pdf",
+      "pages": 8,
+      "bytes": 1203986,
+      "sha256": "5f54811a552c6a5bcc01a80b50ac6c7cfe59a96783ccf31a9fd346dfd5941334",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/wang-2023-neec-ebit-feasibility.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/depletion/coverage-ledger.json",
+          "record_index": 10,
+          "record_id": "2023_Feasibility study of nuclear excitation by electron capture using an electron beam ion trap.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_astrophysics/2013_Watanabe et al_Isomers in Pd 128 and Pd 126  Evidence for a Robust Shell Closure at the Neutron Magic Number 82 in.pdf",
+      "pages": 5,
+      "bytes": 366537,
+      "sha256": "dc7d219ace89d0e16c99d2d044dfadce740c6d6c4ffb713c1ad2f854d4e65517",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/watanabe-2013-128pd-126pd-isomers-n82.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/astro-she/coverage_ledger.json",
+          "record_index": 0,
+          "record_id": "2013_Watanabe et al_Isomers in Pd 128 and Pd 126  Evidence for a Robust Shell Closure at the Neutron Magic Number 82 in.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_astrophysics/2014_Taprogge et al_1 p 3  2 Proton-Hole State in Sn 132 and the Shell Structure Along N = 82 1.pdf",
+      "pages": 6,
+      "bytes": 368491,
+      "sha256": "2be3b18534d83c40ae31d53eceaca0c65b6437a824f6f630e03fabdbbce42c86",
+      "original_bytes_unchanged": true,
+      "source_candidates": [],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/astro-she/coverage_ledger.json",
+          "record_index": 1,
+          "record_id": "2014_Taprogge et al_1 p 3  2 Proton-Hole State in Sn 132 and the Shell Structure Along N = 82.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        },
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/astro-she/coverage_ledger.json",
+          "record_index": 2,
+          "record_id": "2014_Taprogge et al_1 p 3  2 Proton-Hole State in Sn 132 and the Shell Structure Along N = 82 1.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_astrophysics/2014_Taprogge et al_1 p 3  2 Proton-Hole State in Sn 132 and the Shell Structure Along N = 82.pdf",
+      "pages": 6,
+      "bytes": 368491,
+      "sha256": "2be3b18534d83c40ae31d53eceaca0c65b6437a824f6f630e03fabdbbce42c86",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/taprogge-2014-sn132-proton-hole-n82.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/astro-she/coverage_ledger.json",
+          "record_index": 1,
+          "record_id": "2014_Taprogge et al_1 p 3  2 Proton-Hole State in Sn 132 and the Shell Structure Along N = 82.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        },
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/astro-she/coverage_ledger.json",
+          "record_index": 2,
+          "record_id": "2014_Taprogge et al_1 p 3  2 Proton-Hole State in Sn 132 and the Shell Structure Along N = 82 1.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_astrophysics/2016_Martin et al_Impact of Nuclear Mass Uncertainties on the r Process 1.pdf",
+      "pages": 7,
+      "bytes": 1708925,
+      "sha256": "c9045474ae93257657a0d20716a33d5bbc3417d77556ed57db4b8df83c226c09",
+      "original_bytes_unchanged": true,
+      "source_candidates": [],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/astro-she/coverage_ledger.json",
+          "record_index": 4,
+          "record_id": "2016_Martin et al_Impact of Nuclear Mass Uncertainties on the r Process 1.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_astrophysics/2016_Martin et al_Impact of Nuclear Mass Uncertainties on the r Process.pdf",
+      "pages": 6,
+      "bytes": 794047,
+      "sha256": "bcc1be2537c180ae5197cad0574b85402e34112e6c1ec6dd9625a7000123605b",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/martin-2016-mass-uncertainties-r-process.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/astro-she/coverage_ledger.json",
+          "record_index": 3,
+          "record_id": "2016_Martin et al_Impact of Nuclear Mass Uncertainties on the r Process.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_astrophysics/2016_Yuan et al_Isomerism in the “south-east” of 132Sn and a predicted neutron-decaying isomer in 129Pd 1.pdf",
+      "pages": 6,
+      "bytes": 517797,
+      "sha256": "cf9c983dc4f88bffc8e2d5041948b0c1e0aabf396a696edd710be3f8c8e1ade1",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/yuan-2016-southeast-132sn-129pd-isomer.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/astro-she/coverage_ledger.json",
+          "record_index": 5,
+          "record_id": "2016_Yuan et al_Isomerism in the “south-east” of 132Sn and a predicted neutron-decaying isomer in 129Pd 1.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_astrophysics/2024_Yang et al_Discovery of New Isotopes Os 160 and W 156  Revealing Enhanced Stability of the N = 82 Shell Closur.pdf",
+      "pages": 6,
+      "bytes": 626952,
+      "sha256": "24ab061dba50a348576d83e69a41fa9af465192e96c54dac8a524f187b4d5328",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/yang-2024-os160-w156-n82-stability.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/astro-she/coverage_ledger.json",
+          "record_index": 6,
+          "record_id": "2024_Yang et al_Discovery of New Isotopes Os 160 and W 156  Revealing Enhanced Stability of the N = 82 Shell Closur.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2007_Beck et al_Energy Splitting of the Ground-State Doublet in the NucleusTh229.pdf",
+      "pages": 4,
+      "bytes": 190549,
+      "sha256": "f60267e75d3748a95b3cad44e369bf3e2893001f6a9454f9dd1b93faf6ab845f",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/beck-2007-energy-splitting-th229.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 0,
+          "record_id": "2007_Beck et al_Energy Splitting of the Ground-State Doublet in the NucleusTh229.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2011_Tkalya_Proposal for a Nuclear Gamma-Ray Laser of Optical Range.pdf",
+      "pages": 4,
+      "bytes": 162165,
+      "sha256": "f92d851c421b6543a6a0d8a9671244fc0f050660415a9cdfb20e23d490c25e0c",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/tkalya-2011-nuclear-gamma-ray-laser.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 1,
+          "record_id": "2011_Tkalya_Proposal for a Nuclear Gamma-Ray Laser of Optical Range.pdf",
+          "reading_depth": "read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2015_Peik et al_Nuclear clocks based on resonant excitation of γ-transitions.pdf",
+      "pages": 8,
+      "bytes": 448524,
+      "sha256": "3f5c590befc027a5e9cb751846f7ce0e3bf1f70fc328ea148991ee54dc329617",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/peik-2015-nuclear-clocks-resonant-gamma.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 2,
+          "record_id": "2015_Peik et al_Nuclear clocks based on resonant excitation of γ-transitions.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2016_Von Der Wense et al_Direct detection of the 229Th nuclear clock transition.pdf",
+      "pages": 17,
+      "bytes": 4447024,
+      "sha256": "125d127a42d48f315a8dc70a2ce36f553aa0cd6ee41aa2a55bbbd7174d434d3d",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/von-der-wense-2016-direct-detection-229th.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 3,
+          "record_id": "2016_Von Der Wense et al_Direct detection of the 229Th nuclear clock transition.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2017_Seiferle et al_Lifetime Measurement of the Th229 nuclear isomer.pdf",
+      "pages": 5,
+      "bytes": 347788,
+      "sha256": "78d443a66a8c925ea826158ae94fd7d1c18f571a49edb9508146a48791dc0489",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/seiferle-2017-lifetime-229th-isomer.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 4,
+          "record_id": "2017_Seiferle et al_Lifetime Measurement of the Th229 nuclear isomer.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2018_Thielking et al_Laser spectroscopic characterization of the nuclear-clock isomer 229mTh.pdf",
+      "pages": 14,
+      "bytes": 5109945,
+      "sha256": "9f0636561c93d9a3fcf417966b73dc50b818cea36379ab247a256cd64d3c6b24",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/thielking-2018-laser-spectroscopy-229mth.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 5,
+          "record_id": "2018_Thielking et al_Laser spectroscopic characterization of the nuclear-clock isomer 229mTh.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2019_Burke_One tick closer to a nuclear clock.pdf",
+      "pages": 2,
+      "bytes": 224623,
+      "sha256": "9233f2e8ce2a06429d8250d628a05b4909216493d413d37e7c91e131fe8413a3",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/burke-2019-one-tick-closer-nuclear-clock.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 6,
+          "record_id": "2019_Burke_One tick closer to a nuclear clock.pdf",
+          "reading_depth": "read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2019_Masuda et al_X-ray pumping of the 229Th nuclear clock isomer.pdf",
+      "pages": 14,
+      "bytes": 3857901,
+      "sha256": "fbbbd1e86ca38411683c65c959499c39b3239c51226c444bf5cc16cb70eaf319",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/masuda-2019-x-ray-pumping-229th-isomer.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 7,
+          "record_id": "2019_Masuda et al_X-ray pumping of the 229Th nuclear clock isomer.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2019_Seiferle et al_Energy of the 229Th nuclear clock transition.pdf",
+      "pages": 19,
+      "bytes": 35299384,
+      "sha256": "8ac671af119c82adecdefd9beeb326d75d355d105ec1a97c521c7f986248111e",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/seiferle-2019-energy-229th-nuclear-clock.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 8,
+          "record_id": "2019_Seiferle et al_Energy of the 229Th nuclear clock transition.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2019_The 229-thorium isomer doorway to the road from the atomic clock to the nuclear clock.pdf",
+      "pages": 25,
+      "bytes": 3415107,
+      "sha256": "dc0af1798e3a61eda792099834d6763abc4e4b96826deced2f27e91fff0f2be4",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/thirolf-2019-229th-isomer-doorway-tutorial.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 9,
+          "record_id": "2019_The 229-thorium isomer doorway to the road from the atomic clock to the nuclear clock.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2019_Yamaguchi et al_Energy of the Th 229 Nuclear Clock Isomer Determined by Absolute γ -ray Energy Difference.pdf",
+      "pages": 6,
+      "bytes": 525170,
+      "sha256": "4367caad58e8a96618302c073318940188819442e43dfb786c608850f0d87f96",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/yamaguchi-2019-energy-229th-gamma-difference.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 10,
+          "record_id": "2019_Yamaguchi et al_Energy of the Th 229 Nuclear Clock Isomer Determined by Absolute γ -ray Energy Difference.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2020_Sikorsky et al_Measurement of the Th 229 Isomer Energy with a Magnetic Microcalorimeter.pdf",
+      "pages": 6,
+      "bytes": 1146569,
+      "sha256": "2fec41f47984db0268d1bfb5058298abfd6b70f4d5cd1a22e067ef441380fc1c",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/sikorsky-2020-th229-isomer-energy-mmc.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 11,
+          "record_id": "2020_Sikorsky et al_Measurement of the Th 229 Isomer Energy with a Magnetic Microcalorimeter.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2021_Beeks et al_The thorium-229 low-energy isomer and the nuclear clock.pdf",
+      "pages": 11,
+      "bytes": 2058402,
+      "sha256": "81490df7838c992a3614beff909616b84c1fe3a5182b79cc53b1ccce705b37c7",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/beeks-2021-thorium-229-isomer-nuclear-clock.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 12,
+          "record_id": "2021_Beeks et al_The thorium-229 low-energy isomer and the nuclear clock.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2021_LiangYu 等_Precision measurement with trapped ions.pdf",
+      "pages": 16,
+      "bytes": 2483464,
+      "sha256": "d979eb4f3705e2d4b8322ee0b17ba949f174ee464966fbef74d39be5e39a1665",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/liang-2021-precision-measurement-trapped-ions.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 13,
+          "record_id": "2021_LiangYu 等_Precision measurement with trapped ions.pdf",
+          "reading_depth": "targeted-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2021_Peik et al_Nuclear clocks for testing fundamental physics.pdf",
+      "pages": 38,
+      "bytes": 7426437,
+      "sha256": "89b7fc1d9b49802a99074ee9630d0a70bdbb9f1c3765aa3a0c80583912952668",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/peik-2021-nuclear-clocks-testing-fundamental-physics.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 14,
+          "record_id": "2021_Peik et al_Nuclear clocks for testing fundamental physics.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2021_Pupeza et al_Extreme-ultraviolet frequency combs for precision metrology and attosecond science.pdf",
+      "pages": 12,
+      "bytes": 3332677,
+      "sha256": "9062593b285102168400fdbc56cd320525b873c74e4263b35a415c9a08e77571",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/pupeza-2021-euv-frequency-combs.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 15,
+          "record_id": "2021_Pupeza et al_Extreme-ultraviolet frequency combs for precision metrology and attosecond science.pdf",
+          "reading_depth": "targeted-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2021_Wang et al_Exciting the Isomeric Th 229 Nuclear State via Laser-Driven Electron Recollision.pdf",
+      "pages": 6,
+      "bytes": 582772,
+      "sha256": "fc0c16a4c73e6dfd0d89554a376ad8e3e3c8326f856d969a4ed141b5194af672",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/wang-2021-exciting-229th-electron-recollision.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 16,
+          "record_id": "2021_Wang et al_Exciting the Isomeric Th 229 Nuclear State via Laser-Driven Electron Recollision.pdf",
+          "reading_depth": "read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2023_Kraemer et al_Observation of the radiative decay of the 229Th nuclear clock isomer.pdf",
+      "pages": 13,
+      "bytes": 2225755,
+      "sha256": "3fe040c7e0325de1f7edc71b52a404b97cb3fa91e47d0c6316bf0920f61e26a7",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/kraemer-2023-radiative-decay-229th-isomer.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 17,
+          "record_id": "2023_Kraemer et al_Observation of the radiative decay of the 229Th nuclear clock isomer.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2023_Qi et al_Isomeric Excitation of Th 229 in Laser-Heated Clusters.pdf",
+      "pages": 6,
+      "bytes": 662644,
+      "sha256": "3d133e8d1139255b43f9742a1fe6d7ffddb195eb9b91a5bca38fc7167f33fba6",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/qi-2023-isomeric-excitation-th229-laser-clusters.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 18,
+          "record_id": "2023_Qi et al_Isomeric Excitation of Th 229 in Laser-Heated Clusters.pdf",
+          "reading_depth": "read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2023_Shvyd’ko et al_Resonant X-ray excitation of the nuclear clock isomer 45Sc.pdf",
+      "pages": 10,
+      "bytes": 5768960,
+      "sha256": "d9b0eb2be22e05f573f5294bd71be467d576b46aead572d1918c49792769ae5e",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/shvydko-2023-resonant-xray-excitation-45sc.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 19,
+          "record_id": "2023_Shvyd’ko et al_Resonant X-ray excitation of the nuclear clock isomer 45Sc.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2024_Yamaguchi et al_Laser spectroscopy of triply charged 229Th isomer for a nuclear clock.pdf",
+      "pages": 12,
+      "bytes": 2854011,
+      "sha256": "49a2816777cff092857d86556f754750386e6a479f57ffbad6e13ca14bcbc2c8",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/yamaguchi-2024-laser-spectroscopy-th229-triply-charged.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 20,
+          "record_id": "2024_Yamaguchi et al_Laser spectroscopy of triply charged 229Th isomer for a nuclear clock.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2024_Zhang et al_229ThF4 thin films for solid-state nuclear clocks.pdf",
+      "pages": 10,
+      "bytes": 2021390,
+      "sha256": "7cf04907243399a4e20bc0959649c92bcb6379997366694561c6f9e699eb1b78",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/zhang-2024-thf4-thin-films-solid-state-clocks.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 21,
+          "record_id": "2024_Zhang et al_229ThF4 thin films for solid-state nuclear clocks.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2024_Zhang et al_Frequency ratio of the 229mTh nuclear isomeric transition and the 87Sr atomic clock.pdf",
+      "pages": 6,
+      "bytes": 178204,
+      "sha256": "630d2e01d7ead4f31ab7d5b2f188c7d57c4db628b7183f16031f3a67039c0796",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/zhang-2024-nature-peer-review-file-nuclear-clock.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 22,
+          "record_id": "2024_Zhang et al_Frequency ratio of the 229mTh nuclear isomeric transition and the 87Sr atomic clock.pdf",
+          "reading_depth": "targeted-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2026_Huang et al_A nuclear clock synchronized to 229Th.pdf",
+      "pages": 11,
+      "bytes": 11433536,
+      "sha256": "9fc65f07dd7dadf3aedcff90612d6af299ab327ee0a60d767f88cca78a4f0788",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/huang-2026-nuclear-clock-synchronized-229th.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 23,
+          "record_id": "2026_Huang et al_A nuclear clock synchronized to 229Th.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2026_Toscani De Col et al_A thorium-229 optical nuclear clock with feedback loop.pdf",
+      "pages": 10,
+      "bytes": 4863759,
+      "sha256": "dd965aab469469930f7d2d70b736ab61f334a65f436912df2600e6ff88968a61",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/toscani-de-col-2026-thorium-229-optical-nuclear-clock-feedback.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/clock/per_file_coverage_ledger.json",
+          "record_index": 24,
+          "record_id": "2026_Toscani De Col et al_A thorium-229 optical nuclear clock with feedback loop.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/superheavy_nuclei/2004_Xu et al_Enhanced Stability of Superheavy Nuclei Due to High-Spin Isomerism.pdf",
+      "pages": 4,
+      "bytes": 174665,
+      "sha256": "9e6cdfecc0bdf71547cc8eddc7d69489fab8e0361d63ad87bd64a2aea39a413c",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/xu-2004-superheavy-high-spin-isomer-stability.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/astro-she/coverage_ledger.json",
+          "record_index": 7,
+          "record_id": "2004_Xu et al_Enhanced Stability of Superheavy Nuclei Due to High-Spin Isomerism.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/superheavy_nuclei/2006_Herzberg et al_Nuclear isomers in superheavy elements as stepping stones towards the island of stability.pdf",
+      "pages": 4,
+      "bytes": 321125,
+      "sha256": "a18026abedc0a0ce7829bcdd1a74dd404f991ea2c16b265d1b0496c3b5511788",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/herzberg-2006-superheavy-isomers-stepping-stones.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/astro-she/coverage_ledger.json",
+          "record_index": 8,
+          "record_id": "2006_Herzberg et al_Nuclear isomers in superheavy elements as stepping stones towards the island of stability.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_application/superheavy_nuclei/2016_Review of metastable states in heavy nuclei.pdf",
+      "pages": 47,
+      "bytes": 4744441,
+      "sha256": "2cd8ce2189c4869295cb91737d9a98e9fa90a9e36897690ee5c09bfc82d17f00",
+      "original_bytes_unchanged": true,
+      "source_candidates": [],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/reviews/coverage_ledger.json",
+          "record_index": 1,
+          "record_id": "DRA16",
+          "reading_depth": "read (bounded review audit across 6 sequential chunks)",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        },
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/astro-she/coverage_ledger.json",
+          "record_index": 9,
+          "record_id": "2016_Review of metastable states in heavy nuclei.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_review/1999_Walker_Dracoulis_Energy traps in atomic nuclei.pdf",
+      "pages": 6,
+      "bytes": 216927,
+      "sha256": "7eab17aa439b2e8c78aa0566626fa8725113eb95e6a2170eb296cdc09b8f6441",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/paper-walker-dracoulis-1999-energy-traps.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/reviews/coverage_ledger.json",
+          "record_index": 0,
+          "record_id": "WD99",
+          "reading_depth": "read (bounded review audit)",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_review/2016_Dracoulis et al_Review of metastable states in heavy nuclei.pdf",
+      "pages": 47,
+      "bytes": 4744441,
+      "sha256": "2cd8ce2189c4869295cb91737d9a98e9fa90a9e36897690ee5c09bfc82d17f00",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/paper-dracoulis-2016-metastable-states-heavy-nuclei.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/reviews/coverage_ledger.json",
+          "record_index": 1,
+          "record_id": "DRA16",
+          "reading_depth": "read (bounded review audit across 6 sequential chunks)",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        },
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/astro-she/coverage_ledger.json",
+          "record_index": 9,
+          "record_id": "2016_Review of metastable states in heavy nuclei.pdf",
+          "reading_depth": "deep-read",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_review/2020_Walker_Podolyák_100 years of nuclear isomers—then and now.pdf",
+      "pages": 12,
+      "bytes": 803096,
+      "sha256": "3f2b864afd0be92afb5371484791f8a2df632ecd71c894b4fc015f6a816457fe",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/paper-walker-podolyak-2020-100-years-isomers.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/reviews/coverage_ledger.json",
+          "record_index": 2,
+          "record_id": "WP20",
+          "reading_depth": "read (bounded review audit across 2 sequential chunks)",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+      "pages": 151,
+      "bytes": 3099781,
+      "sha256": "994816561cfb6e89bd215b7fe23e37ecf12e8a3e8f5ce88eafbbd388d02ed74a",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/book-jain-nuclear-isomers.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/reviews/coverage_ledger.json",
+          "record_index": 4,
+          "record_id": "JAIN-2021",
+          "reading_depth": "deep-read (Ch 3, 4, 5 algebra & derivations) / read (Ch 1, 2, 6, 7, 8, front matter, summary)",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    },
+    {
+      "path": "raw/papers/isomer/isomer_review/2024_Carroll_Chiara_Isomer depletion.pdf",
+      "pages": 10,
+      "bytes": 1127628,
+      "sha256": "d56deaa1c5f273d063e225d8bfd23292695442486282a0b5cc28e0f14a534f44",
+      "original_bytes_unchanged": true,
+      "source_candidates": [
+        "knowledge/sources/paper-carroll-chiara-2024-isomer-depletion.md"
+      ],
+      "worker_reading_records": [
+        {
+          "ledger": "outputs/l3/20261107-isomer-cross-region/reviews/coverage_ledger.json",
+          "record_index": 3,
+          "record_id": "CC24",
+          "reading_depth": "read (bounded review audit across 2 sequential chunks)",
+          "note": "Detailed actual scope and unverified portions remain in referenced record/source."
+        }
+      ]
+    }
+  ]
+}

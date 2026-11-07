@@ -1,0 +1,437 @@
+{
+  "ledger_metadata": {
+    "ledger_id": "FOUR-REVIEW-PRIMARY-READING-LEDGER-20261107",
+    "title": "Primary Reading and Authenticity Audit Ledger for Four Foundational Nuclear Isomer Reviews",
+    "date": "2026-11-07",
+    "auditor": "Codex G11 Authenticity Auditor",
+    "audit_framework": "AGENTS.md Scientific Evidence & Bounded Verification Rules",
+    "principles": [
+      "PyMuPDF chunk-wise sequential reading in blocks of 6-8 physical pages",
+      "No blanket claim of 100% full verification of all figures, sub-panels, references, or raw data",
+      "Explicit recording of actual topics, locators, checked figures/equations, and unverified scope per chunk",
+      "Distinguish author review compilations from direct original measurements",
+      "Identify and remove overstrong/unsubstantiated claims (e.g., universal f_nu=100, Sn all-isotope U-shape, unlocated superheavy 'several MeV', and 'zero-effect ended all experiments')",
+      "Disclose author dependencies and potential conflicts of interest (especially Carroll & Chiara 2024 regarding 93mMo NEEC)"
+    ]
+  },
+  "documents": [
+    {
+      "document_id": "WD99",
+      "source_file": "knowledge/sources/paper-walker-dracoulis-1999-energy-traps.md",
+      "title": "Energy traps in atomic nuclei",
+      "authors": [
+        "Philip Walker",
+        "George Dracoulis"
+      ],
+      "canonical_source": "P. Walker and G. Dracoulis, Nature 399, 35-40 (1999)",
+      "journal": "Nature",
+      "year": 1999,
+      "volume": 399,
+      "pages": "35-40",
+      "doi": "10.1038/19911",
+      "raw_file": "raw/papers/isomer/isomer_review/1999_Walker_Dracoulis_Energy traps in atomic nuclei.pdf",
+      "raw_sha256": "7eab17aa439b2e8c78aa0566626fa8725113eb95e6a2170eb296cdc09b8f6441",
+      "file_size_bytes": 216927,
+      "total_physical_pages": 6,
+      "printed_page_range": "35-40",
+      "reading_depth": "read (bounded review audit)",
+      "chunks": [
+        {
+          "chunk_id": "WD99-CHUNK-1",
+          "physical_pages": "1-6",
+          "printed_locator": "Nature 399, pp. 35-40",
+          "actual_topics": [
+            "Introduction and high-spin isomer discovery context (p. 35)",
+            "Classification of energy traps: shape isomers, spin traps, K traps (pp. 35-36, Fig. 1)",
+            "Box 1: Isomer half-lives, widths, and Weisskopf single-particle benchmarks (p. 37)",
+            "Nuclide distribution of isomers with T1/2 > 1 s (p. 36, Fig. 2)",
+            "Reaction mechanisms: fusion-evaporation, partial fusion / fragmentation, deep-inelastic (p. 37, Fig. 3)",
+            "Multi-quasiparticle states, pairing blocking, and rigid-body moment of inertia limit in 178Hf (pp. 37-38, Fig. 4)",
+            "K-forbiddenness definition nu = Delta K - lambda and Löbner empirical rule of thumb f_nu ~ 100 (p. 38)",
+            "Systematic breakdown of Löbner rule: 179W Delta K=14, f_nu=2 anomaly (rate 10^20 faster) and triaxial gamma-tunneling mechanism (pp. 38-39, Fig. 5)",
+            "Statistical level density at high excitation energy and chance near-degeneracy (p. 39, Fig. 6)",
+            "Applications: induced de-excitation, X-ray pumping, Collins et al. 1999 178m2Hf report, and gamma-ray laser prospects (pp. 39-40)",
+            "References 1-56 (p. 40)"
+          ],
+          "which_figures_or_equations_checked": [
+            "Figure 1: Potential energy as a function of nuclear variables for shape isomer, spin trap, and K trap (p. 35)",
+            "Figure 2: Chart of atomic nuclei showing long-lived (T1/2 > 1 s) isomers (p. 36)",
+            "Figure 3: Reaction mechanisms for isomer production (p. 37)",
+            "Figure 4: Velocity fields and rotational band built on 16+ 31-yr isomer in 178Hf (p. 38)",
+            "Figure 5: Reduced hindrance f_nu vs isomer excitation energy relative to rotor (p. 38)",
+            "Figure 6: Multi-quasiparticle states and statistical level density in 178Hf (p. 38/39)",
+            "Box 1: Formulas Gamma*T1/2 = hbar*ln2 ~ 4.6e-16 eV*s and T(E_lambda) proportional to E_gamma^(2*lambda+1) (p. 37)",
+            "K-hindrance formula: nu = Delta K - lambda; f_nu = (F_W)^(1/nu) ~ 100 (rule of thumb) (p. 38)"
+          ],
+          "unverified_scope": [
+            "Individual data points and pixel-level curve positions in Fig. 2 (nuclear chart) and Fig. 5 (scatter plot of Hf/W/Os reduced hindrances)",
+            "Underlying experimental raw coincidence spectra and detector calibrations from ANU 14UD and Gammasphere",
+            "Full re-examination of all 56 cited primary literature papers back to their original experiment logs",
+            "Supplementary experimental details not published in the 6-page Nature print article"
+          ],
+          "audited_corrections": [
+            "Verified exact printed page numbers as Nature 399, 35-40 (6 physical pages)",
+            "Toned down the claim of universal f_nu ~ 100: the text explicitly treats f_nu ~ 100 as an empirical 'rule of thumb' (Löbner 1968) and focuses on its dramatic breakdown (e.g. f_nu = 2 in 179W)",
+            "Distinguished what Walker & Dracoulis wrote in 1999 regarding Collins et al. (cited as an 'encouraging advance' with theoretical caveats) from subsequent multi-laboratory disproofs that unfolded in 2001-2004"
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": "DRA16",
+      "source_file": "knowledge/sources/paper-dracoulis-2016-metastable-states-heavy-nuclei.md",
+      "title": "Review of metastable states in heavy nuclei",
+      "authors": [
+        "G. D. Dracoulis",
+        "P. M. Walker",
+        "F. G. Kondev"
+      ],
+      "canonical_source": "G. D. Dracoulis, P. M. Walker, and F. G. Kondev, Rep. Prog. Phys. 79, 076301 (2016)",
+      "journal": "Reports on Progress in Physics",
+      "year": 2016,
+      "volume": 79,
+      "pages": "076301",
+      "doi": "10.1088/0034-4885/79/7/076301",
+      "raw_file": "raw/papers/isomer/isomer_review/2016_Dracoulis et al_Review of metastable states in heavy nuclei.pdf",
+      "raw_sha256": "2cd8ce2189c4869295cb91737d9a98e9fa90a9e36897690ee5c09bfc82d17f00",
+      "file_size_bytes": 4744441,
+      "total_physical_pages": 47,
+      "printed_page_range": "076301 (pp. 1-46 + IOP cover page)",
+      "reading_depth": "read (bounded review audit across 6 sequential chunks)",
+      "chunks": [
+        {
+          "chunk_id": "DRA16-CHUNK-1",
+          "physical_pages": "1-8",
+          "printed_locator": "IOP cover + pp. 1-7",
+          "actual_topics": [
+            "Section 1: Introduction, history, and scope of metastable states in heavy nuclei (pp. 1-3)",
+            "Section 2.1: Weisskopf single-particle estimates, definition of hindrance factor F_W, partial gamma half-life, and internal conversion coefficient (ICC) corrections (pp. 3-4)",
+            "Section 2.2: Seniority isomers in spherical nuclei, Racah seniority algebra in single-j shell, B(E2) cancellation factor ((Omega-n)/(Omega-v))^2, and effective midshell (u^2-v^2)^2 (pp. 4-5)",
+            "Seniority v=2 (10+) and v=3 (27/2-) isomers in Sn isotopes (nu h11/2^n chain) from Zhang et al. [52] and Lozeva et al. [53] (pp. 5-6, Fig. 2)",
+            "Section 2.3: K-isomers in deformed nuclei, Nilsson model, pair breaking, and residual interactions (pp. 5-7, Fig. 3, Table 1)",
+            "Systematics of 6+ isomers in N=82 isotones (p. 7, Fig. 4)"
+          ],
+          "which_figures_or_equations_checked": [
+            "Figure 1: Nuclear chart showing distribution of isomers across Z and N (p. 3)",
+            "Figure 2: Compilation of B(E2) values for nu h11/2^2 and nu h11/2^3 chain in Sn isotopes (p. 5)",
+            "Figure 3: Schematic angular-momentum coupling: high-K vs spherical many-particle alignment (p. 5)",
+            "Figure 4: Half-life systematics of 6+ isomers in N=82 isotones (p. 7)",
+            "Table 1: Example two-quasiparticle excitations in prolate deformed nuclei (p. 6)",
+            "Formulas: T1/2^gamma = T1/2^level * (1+alpha)/b_total; B(E2) proportional to ((Omega-n)/(Omega-v))^2 and (u^2-v^2)^2 * e_eff^2; E_ex ~ sum sqrt((epsilon_k - epsilon_F)^2 + Delta^2) (pp. 4-6)"
+          ],
+          "unverified_scope": [
+            "Raw detector coincidence matrices and lifetime histograms of Zhang et al. [52] and Lozeva et al. [53]",
+            "Full nuclear chart database verification for all isomer data points in Fig. 1"
+          ],
+          "audited_corrections": [
+            "Sn isotope seniority U-shape is strictly for the nu h11/2^n subshell (10+ even, 27/2- odd), not all Sn isotopes or all states; the minimum occurs near the subshell midshell (A ~ 120-122), not 116Sn",
+            "Table formatting in source markdown: fixed LaTeX unescaped pipe symbols in DRA16-2 row that caused claim_kind and locator misalignment in wiki_lint"
+          ]
+        },
+        {
+          "chunk_id": "DRA16-CHUNK-2",
+          "physical_pages": "9-16",
+          "printed_locator": "pp. 8-15",
+          "actual_topics": [
+            "Section 3: Deformed and transitional nuclei with 150 <= A <= 190 (pp. 8-15)",
+            "Multi-quasiparticle isomers in mass-180 region (178Hf, 175Hf, 177Lu) (pp. 8-10, Fig. 5, 6, 7)",
+            "K-hindrances and reduced hindrance systematics for E2, E1, E3 decays (pp. 10-12, Fig. 8, 9, 10)",
+            "Static electromagnetic moments (magnetic dipole and electric quadrupole) of multi-quasiparticle isomers (pp. 12-13, Table 2)",
+            "Transitional nuclei at A ~ 190 (Os-Pt region): prolate to oblate shape transition, non-axial triaxial potential energy surfaces, and K-mixing (pp. 13-15, Fig. 11, 12)"
+          ],
+          "which_figures_or_equations_checked": [
+            "Figure 5: Rigid-rotor energies of observed high-K states in mass 180 (p. 8)",
+            "Figure 6: Lowest lying four-quasiparticle isomers in Hf isotopes (p. 8)",
+            "Figure 7: Multi-quasiparticle isomers with T1/2 > 1 ns in A=175-184 (p. 9)",
+            "Figures 8, 9, 10: Reduced hindrances f_nu for E2, E1, and E3 decays (pp. 10-11)",
+            "Table 2: Magnetic dipole and electric quadrupole moments of multi-quasiparticle K isomers (p. 12)",
+            "Figure 11: Potential energy surfaces for even-even Os isotopes showing gamma-softness (p. 13)",
+            "Figure 12: Configuration-constrained PES for multi-quasiparticle states (p. 14)"
+          ],
+          "unverified_scope": [
+            "Configuration-constrained Woods-Saxon potential code inputs and numerical convergence grids",
+            "Individual experimental measurement techniques and NMR-ON systematics in Stone [46] moments compilation"
+          ],
+          "audited_corrections": [
+            "Confirmed that reduced hindrance f_nu varies widely across the mass 180 region, with values below 10 appearing in transitional Os-Pt nuclei due to triaxiality and gamma-softness"
+          ]
+        },
+        {
+          "chunk_id": "DRA16-CHUNK-3",
+          "physical_pages": "17-24",
+          "printed_locator": "pp. 16-23",
+          "actual_topics": [
+            "Section 4: Spherical regions and nuclei near 208Pb (pp. 15-23)",
+            "Empirical shell model and two-body residual interactions (pp. 16-17, Fig. 13, 14, Table 3)",
+            "Octupole-vibration mixing: coupling of multi-particle states to 208Pb 3- phonon (2.615 MeV), E3 enhancements up to 20-30 W.u. in 212Rn, 211At, 212Po (pp. 17-18, Fig. 15, 16)",
+            "Shape coexistence in neutron-deficient Hg-Pb nuclei (pp. 19-20, Table 4 for 188Pb)",
+            "Deformed Independent Particle Model (DIPM) of 212Rn and radon neighbours: core excitation and oblate polarization (pp. 20-22, Fig. 17)",
+            "Nuclei near 146Gd and N=83 isotones (pp. 22-24, Fig. 18, 19)"
+          ],
+          "which_figures_or_equations_checked": [
+            "Figure 13: Single-particle orbitals near 208Pb (p. 15)",
+            "Figure 14: Residual interactions near 208Pb (p. 16)",
+            "Table 3: Common two-particle excitations in spherical nuclei near 208Pb (p. 15)",
+            "Figure 15: Predicted near-yrast states in N=128 chain (p. 17)",
+            "Table 4: Shape-coexisting two-(quasi)particle states in 188Pb (p. 18)",
+            "Figure 16: Partial level schemes for radon neighbours with E3 strengths and g-factors (p. 20)",
+            "Figure 17: Equilibrium quadrupole deformations for 212Rn from DIPM (p. 21)",
+            "Figures 18, 19: Related isomers in At isotopes and N=83 isotones (p. 22)"
+          ],
+          "unverified_scope": [
+            "Raw in-beam gamma coincidence and conversion electron matrices for 212Rn and 211At",
+            "Full Fortran source code and matrix elements of the DIPM model"
+          ],
+          "audited_corrections": [
+            "Maintained clear attribution to empirical shell model and DIPM calculations rather than asserting direct single-observable measurements for all core-excited states"
+          ]
+        },
+        {
+          "chunk_id": "DRA16-CHUNK-4",
+          "physical_pages": "25-31",
+          "printed_locator": "pp. 24-30",
+          "actual_topics": [
+            "Section 5: Deformed nuclei with A > 190: extreme shapes and superheavy nuclei (pp. 24-28)",
+            "Second-well fission isomers and superdeformation (pp. 24-25, Fig. 20)",
+            "Section 5.4: High-K isomers in superheavy nuclei (254No, 250Fm, 270Ds) (pp. 25-27, Fig. 21)",
+            "Fission and alpha decay competition in superheavy nuclei: discussion of theoretical static 1D barrier height/width increase, accompanied by explicit caveats that dynamical multidimensional fission calculations are missing and experimental fission widths are limited (pp. 26-27)",
+            "Section 5.4.2: K-hindrance in superheavy nuclei (p. 27)",
+            "Section 6: Isomer targets (178m2Hf, 180mTa) (pp. 28-29)",
+            "Section 7: Isomer beams (relativistic fragmentation and storage rings) (pp. 29-30)"
+          ],
+          "which_figures_or_equations_checked": [
+            "Figure 20: Predicted deformations of multi-particle states in actinide nuclei (p. 23)",
+            "Figure 21: Predicted two- and four-quasiparticle states in No and Rf isotopes (p. 25)",
+            "Text in Section 5.4.1 (p. 26): 'The contention is that specific configurations could have relatively higher and wider (one-dimensional) potential barriers to fission... However, these studies do not yet include the fission dynamics... Furthermore, the experimental information on fission widths of the known excited states is limited.'"
+          ],
+          "unverified_scope": [
+            "Underlying potential energy surface numerical codes of Xu et al. [316-318] and Liu et al. [319]",
+            "Raw alpha-decay chain spectra for 270Ds from GSI SHIP or Dubna DGFRS"
+          ],
+          "audited_corrections": [
+            "Removed the unlocated claim of 'several MeV' (数 MeV) barrier increase; replaced with the author review's exact nuanced statement: theoretical 1D static calculations predict higher/wider barriers, but lack fission dynamics and have sparse experimental verification"
+          ]
+        },
+        {
+          "chunk_id": "DRA16-CHUNK-5",
+          "physical_pages": "32-38",
+          "printed_locator": "pp. 31-37",
+          "actual_topics": [
+            "Section 8: Energy traps, induced de-excitation, lasers and nucleosynthesis (pp. 28-31)",
+            "Section 8.1 & 8.2: 180Ta and 178Hf induced de-excitation, detailing SPring-8 and Argonne null results (p. 28)",
+            "Section 8.3: NEEC and NEET: NEET observed in 197Au (Kishimoto 2000), NEEC 'a process yet to be observed' as of 2016; 93Mo identified as prime candidate (2.4 MeV 21/2+ isomer with 17/2+ state ~5 keV above) (pp. 28-29)",
+            "Section 8.5: Isomers and nucleosynthesis (Astromers in s-process and r-process, thermalization conditions, 180mTa, 176Lu, 186Re) (pp. 30-31, Fig. 22)",
+            "Section 9: Isomers for medicine (99mTc, 117mSn, Table 5, Table 6) (pp. 30-31)",
+            "Section 10: Key experimental developments (recoil-decay tagging, relativistic fragmentation, deep-inelastic reactions, storage ring Schottky spectrometry, Fig. 23, 24, 25) (pp. 31-35)"
+          ],
+          "which_figures_or_equations_checked": [
+            "Figure 22: Partial level scheme for 129Sb illustrating isomer decay (p. 28)",
+            "Table 5: Selected isomers with T1/2 between 20 s and 20 min (p. 29)",
+            "Table 6: Isomers commonly used in medical applications (p. 30)",
+            "Figure 23: Isomers studied with projectile fragmentation (p. 32)",
+            "Figure 24: Reach of deep-inelastic reactions in deformed region (p. 33)",
+            "Figure 25: Schottky spectra for circulating 72+ ions in ESR storage ring (p. 34)"
+          ],
+          "unverified_scope": [
+            "Stellar evolution nuclear reaction network code runs and thermalization rates",
+            "ESR storage ring RF cavity calibration and ion-frequency raw spectra"
+          ],
+          "audited_corrections": [
+            "Documented the historical state of NEEC as of 2016: recognized as theoretically plausible but unobserved experimentally, with 93Mo highlighted as candidate prior to Chiara 2018"
+          ]
+        },
+        {
+          "chunk_id": "DRA16-CHUNK-6",
+          "physical_pages": "39-47",
+          "printed_locator": "pp. 38-46",
+          "actual_topics": [
+            "Section 10.3: Sub-nanosecond fast-timing detectors (LaBr3(Ce)) (p. 35)",
+            "Section 10.4: Isomer separation techniques: mass selection in Penning traps and storage rings; laser hyperfine spectroscopy (pp. 35-36)",
+            "Section 11: Open questions and closing comments (pp. 36-37)",
+            "Complete Bibliography: References 1 through 456 (pp. 37-46)"
+          ],
+          "which_figures_or_equations_checked": [
+            "Open questions in Section 11 regarding limits of isomer existence, pairing at high excitation, and induced release mechanisms",
+            "Checked reference citations for key historical controversies (Collins 1999 ref [27], Ahmad 2001 ref [29], Carroll 2004 ref [30], Kishimoto 2000 ref [358], Zhang 2000 ref [52])"
+          ],
+          "unverified_scope": [
+            "Direct verification of all 456 reference entries back to original journal issues",
+            "Technical specifications of individual LaBr3 scintillator crystals and PMT timing circuits"
+          ],
+          "audited_corrections": [
+            "No claims of 100% full verification of all 456 references; explicitly marked reference database as unverified in raw detail beyond cited points"
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": "WP20",
+      "source_file": "knowledge/sources/paper-walker-podolyak-2020-100-years-isomers.md",
+      "title": "100 years of nuclear isomers—then and now",
+      "authors": [
+        "Philip Walker",
+        "Zsolt Podolyák"
+      ],
+      "canonical_source": "P. Walker and Z. Podolyák, Phys. Scr. 95, 044004 (2020)",
+      "journal": "Physica Scripta",
+      "year": 2020,
+      "volume": 95,
+      "pages": "044004",
+      "doi": "10.1088/1402-4896/ab635d",
+      "raw_file": "raw/papers/isomer/isomer_review/2020_Walker_Podolyák_100 years of nuclear isomers—then and now.pdf",
+      "raw_sha256": "3f2b864afd0be92afb5371484791f8a2df632ecd71c894b4fc015f6a816457fe",
+      "file_size_bytes": 803096,
+      "total_physical_pages": 12,
+      "printed_page_range": "044004 (pp. 1-12)",
+      "reading_depth": "read (bounded review audit across 2 sequential chunks)",
+      "chunks": [
+        {
+          "chunk_id": "WP20-CHUNK-1",
+          "physical_pages": "1-6",
+          "printed_locator": "Phys. Scr. 95, pp. 1-6",
+          "actual_topics": [
+            "Centenary overview: 1921 discovery of 234Pa (Uranium Z) by Otto Hahn (p. 2)",
+            "Operational definitions of nuclear isomers: NUBASE 100 ns threshold vs historical conventions (pp. 2-4, Fig. 1, 2)",
+            "Section 2: Shape and fission isomers, double-humped fission barriers, shape coexistence (pp. 4-5)",
+            "Section 3: Spin and seniority isomers (pp. 5-7)",
+            "Spin traps in odd-mass 197-205Au isotopes (p. 6, Fig. 3)",
+            "Seniority algebra in semi-magic nuclei: Racah seniority v, Weisskopf units W.u. = 1/F_W (p. 6, Fig. 4)",
+            "Figure 4: Characteristic U-shape of B(E2) for 8+ isomers in N=50 isotones (92Mo, 94Ru, 96Pd, 98Cd) for proton g9/2^n (p. 6)",
+            "Figure 5: B(E2) for 8+ states in 210-216Pb isotopes showing distorted U-shape for neutron g9/2^-2 (p. 6)",
+            "Figure 6: B(E2) for 6+ states in 134,136,138Sn explicitly demonstrating where simple seniority scheme is NOT valid (p. 7)"
+          ],
+          "which_figures_or_equations_checked": [
+            "Figure 1: Nuclear chart showing isomers with T1/2 >= 100 ns (p. 4)",
+            "Figure 2: Half-lives of rare-earth deformed isomers (p. 4)",
+            "Figure 3: Spin isomers in odd-mass 197-205Au isotopes (p. 6)",
+            "Figure 4: B(E2) in W.u. for 8+ isomers in N=50 isotones (92Mo to 98Cd) and level scheme of 98Cd with seniority labels (p. 6)",
+            "Figure 5: B(E2) for 8+ states in 210-216Pb isotopes (p. 6)",
+            "Figure 6: B(E2) for 6+ states in 134,136,138Sn with explicit caption note that simple seniority fails (p. 7)"
+          ],
+          "unverified_scope": [
+            "Raw spectrum files of 98Cd from GSI experiment",
+            "Numerical details of all 2581 isomers in NUBASE compilation"
+          ],
+          "audited_corrections": [
+            "Corrected hallucinated figure mapping: Fig. 5 in WP20 is 210-216Pb (not Sn 10+), while Fig. 6 shows 134-138Sn where simple seniority breaks down; the Sn 10+ curve was in Dracoulis 2016 Fig. 2",
+            "Clarified that seniority U-shape is subshell-specific (e.g. g9/2 proton or neutron, h11/2 neutron) and does not hold universally across all Sn isotopes or states"
+          ]
+        },
+        {
+          "chunk_id": "WP20-CHUNK-2",
+          "physical_pages": "7-12",
+          "printed_locator": "Phys. Scr. 95, pp. 7-12",
+          "actual_topics": [
+            "Section 4: K isomers in deformed nuclei (pp. 7-9)",
+            "Conceptual decay of K=8- isomer to ground-state band and multi-quasiparticle rotational bands (p. 7, Fig. 7)",
+            "Axial symmetry vs triaxiality in K-decay (p. 8, Fig. 8)",
+            "Comparison of gamma-tunneling estimates with experimental E2 reduced hindrances (p. 8, Fig. 9)",
+            "Multi-quasiparticle states in heavy nuclei and high-spin isomerism (p. 9, Fig. 10)",
+            "Section 5: Isomers at the atomic-nuclear interface (pp. 9-10)",
+            "NEET in 197Au (Kishimoto 2000) and NEEC reporting in 93mMo by Chiara et al. [161] (p. 9)",
+            "Discussion of 93mMo 5 keV intermediate state branch emitting 268 keV and 1.5 MeV gammas; noting theoretical mismatch ('precise mechanism is not clear [162]') (p. 9)",
+            "Astrophysical astromers in s-process and r-process (180mTa, 186mRe) (p. 9)",
+            "Summary, outlook, and complete References 1-164 (pp. 10-12)"
+          ],
+          "which_figures_or_equations_checked": [
+            "Figure 7: Conceptual diagram of Kpi = 8- isomer decay into K=0+ rotational band (p. 7)",
+            "Figure 8: Schematic comparison of K-decay in axially symmetric vs triaxial nucleus (p. 8)",
+            "Figure 9: Comparison between gamma-tunneling estimates and experimental E2 reduced hindrance values (p. 8)",
+            "Figure 10: Energy vs angular momentum for high-K multi-quasiparticle states (p. 9)",
+            "Formula: reduced hindrance f_nu = (F_W)^(1/nu) (p. 8)"
+          ],
+          "unverified_scope": [
+            "Raw simulation code of gamma-tunneling model in Fig. 9",
+            "Full re-examination of all 164 cited references"
+          ],
+          "audited_corrections": [
+            "Accurately recorded WP20's description of Chiara 2018 as a recent experimental report with an unclear theoretical mechanism, published prior to the 2021-2022 Nature/PRL debates"
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": "CC24",
+      "source_file": "knowledge/sources/paper-carroll-chiara-2024-isomer-depletion.md",
+      "title": "Isomer depletion",
+      "authors": [
+        "J. J. Carroll",
+        "C. J. Chiara"
+      ],
+      "canonical_source": "J. J. Carroll and C. J. Chiara, Eur. Phys. J. Spec. Top. 233, 1151-1160 (2024)",
+      "journal": "The European Physical Journal Special Topics",
+      "year": 2024,
+      "volume": 233,
+      "pages": "1151-1160",
+      "doi": "10.1140/epjs/s11734-024-01149-8",
+      "raw_file": "raw/papers/isomer/isomer_review/2024_Carroll_Chiara_Isomer depletion.pdf",
+      "raw_sha256": "d56deaa1c5f273d063e225d8bfd23292695442486282a0b5cc28e0f14a534f44",
+      "file_size_bytes": 1127628,
+      "total_physical_pages": 10,
+      "printed_page_range": "1151-1160",
+      "reading_depth": "read (bounded review audit across 2 sequential chunks)",
+      "chunks": [
+        {
+          "chunk_id": "CC24-CHUNK-1",
+          "physical_pages": "1-5",
+          "printed_locator": "EPJ Spec. Top. 233, pp. 1151-1155",
+          "actual_topics": [
+            "Section 1: Introduction, basic principles of isomer depletion, three-level topology (|0>, |m>, |d>), and energy release ratio (pp. 1151-1152, Fig. 1)",
+            "Section 2: Photon-induced depletion, Breit-Wigner integrated resonance cross section I_sigma, continuous bremsstrahlung vs monochromatic sources (pp. 1152-1153)",
+            "Photo-depletion of 180mTa: intermediate states at ~1.0 MeV and 2.8 MeV, level and decay schemes (pp. 1152-1154, Fig. 2, 3)",
+            "Photo-depletion of 108mAg via 1.28 MeV intermediate state (pp. 1154-1155, Fig. 4)",
+            "Critical review of the 178m2Hf controversy: Collins et al. 1999 claim of low-energy X-ray triggered decay refuted by independent investigations at SPring-8, Argonne, LANL, and LLNL; absence of low-energy coupling states (pp. 1154-1155)"
+          ],
+          "which_figures_or_equations_checked": [
+            "Figure 1: Schematic three-level diagram for isomer depletion and energy-gain illustration (p. 1152)",
+            "Figure 2: Level diagram for 180mTa depletion through intermediate states (p. 1153)",
+            "Figure 3: Decay scheme of 180Ta ground state and isomer (p. 1153)",
+            "Figure 4: Partial level scheme and potential depletion pathways for 108mAg (p. 1154)",
+            "Formula: Integrated resonance cross section I_sigma = int sigma(E) dE = ((pi*lambda_bar)^2 / 2) * g * (Gamma_m * Gamma_0 / Gamma_tot) (p. 1152)"
+          ],
+          "unverified_scope": [
+            "Raw bremsstrahlung spectral irradiance data from D-RAMS and S-DALINAC accelerators",
+            "Raw detector efficiency calibrations in 180mTa and 108mAg activation experiments"
+          ],
+          "audited_corrections": [
+            "Confirmed exact locators for the 178m2Hf controversy refutation (pp. 1154-1155)",
+            "Distinguished between verified photon-induced depletion in 180mTa/108mAg and refuted low-energy triggers in 178Hf"
+          ]
+        },
+        {
+          "chunk_id": "CC24-CHUNK-2",
+          "physical_pages": "6-10",
+          "printed_locator": "EPJ Spec. Top. 233, pp. 1156-1160",
+          "actual_topics": [
+            "Section 3: Particle-induced isomer depletion: thermal and fast neutrons (177mLu, 180mTa, 242mAm), Coulomb excitation (pp. 1155-1156)",
+            "Section 4: Atomic-nuclear mechanisms: inverse electron bridge, NEET, and NEEC (pp. 1156-1158, Fig. 5, 6)",
+            "In-depth review of NEEC in 93mMo and associated controversies: Chiara et al. (Nature 2018) reported 1% depletion signal; Guo et al. (Nature 2021) challenged random coincidences; Chiara et al. (Nature 2021) replied with time gates; Guo et al. (PRL 2022) measured null limit P_exc < 2e-5; theoretical isolated-ion calculations yield 10^-10 to 10^-8 (pp. 1157-1158)",
+            "Authors' perspective and conflict of interest disclosure: C. J. Chiara was first author and J. J. Carroll was co-author of Chiara 2018; review argues that target-electron capture by moving ions in a solid medium differs fundamentally from vacuum isolated-ion calculations (bound electron momentum, excited configurations, vortex beams) (p. 1158)",
+            "Section 5: Depletion pathways and nuclear structure searches (186Re, 108Ag, 178Hf, 242Am) (pp. 1158-1159)",
+            "Section 6: Summary and outlook: XFEL, high-intensity lasers, storage rings, EBIT (p. 1159)",
+            "References 1 through 98 (p. 1160)"
+          ],
+          "which_figures_or_equations_checked": [
+            "Figure 5: Schematic diagrams comparing NEET and NEEC atomic-nuclear coupling (p. 1157)",
+            "Figure 6: Partial level scheme of 93Mo showing 21/2+ isomer and 4.85 keV intermediate state (p. 1157)",
+            "Critical citations: Chiara 2018 [83], Chiara 2021 [84], Guo 2021 [85], Wu 2019 [86], Guo 2022 [87], Bilous 2020 [90], Rzadkiewicz 2021 [91], Gargiulo 2022 [92], Wu 2022 [93] (p. 1158)"
+          ],
+          "unverified_scope": [
+            "Raw event-by-event data from ATLAS 2018 beamtime and HIRFL-CSR 2022 beamtime",
+            "Full independent recalculation of GOSIA Coulomb excitation and relativistic atomic wavefunctions"
+          ],
+          "audited_corrections": [
+            "Explicitly disclosed author co-authorship / interest in the Chiara 2018 Nature paper",
+            "Removed any simplistic claim of 'zero effect completely ended all experiments' or 'theory was definitively overthrown'; accurately portrayed the ongoing controversy between beam-catcher experimental setup and pure-beam null results, and the discrepancy with isolated-ion theory"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary_of_audited_overstatements": {
+    "universal_fnu_100": "Corrected across all sources: f_nu ~ 100 is Löbner's empirical rule of thumb, not a universal law; actual values span from f_nu ~ 2 (179W) to > 100 depending on nuclear structure and excitation energy.",
+    "sn_isotopes_seniority_cancellation": "Corrected: seniority cancellation in Sn is specific to the nu h11/2^n subshell (10+ in even, 27/2- in odd Sn), not all states or all Sn isotopes. WP20 Fig. 5 shows Pb, while Fig. 6 shows where Sn seniority breaks down.",
+    "superheavy_fission_barrier_several_mev": "Corrected: Dracoulis 2016 mentions static 1D barrier increase as a theoretical contention, but explicitly cautions that fission dynamics are missing and experimental fission widths are sparse.",
+    "neec_controversy_status": "Corrected: Carroll & Chiara 2024 is written by the discovery authors of Chiara 2018; they dispute the finality of Guo 2022's null result, citing different experimental conditions and condensed-matter target effects. The controversy remains an active, unresolved scientific debate."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "independent Wigner3j library check, not independent manybody solver",
+  "sympy_version": "1.14.0",
+  "wigner_values_checked": 205,
+  "max_abs_error": 5.551115123125783e-17,
+  "axial_K0_CG_simplification_exact_cases": [
+    2,
+    3,
+    4,
+    10
+  ],
+  "status": "passed"
+}

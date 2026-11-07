@@ -3,7 +3,7 @@ type: source
 title: "肖骁 2019 硕士论文：奇奇核 74As 的高自旋态研究"
 aliases: [肖骁74As硕士论文, Xiao Xiao 74As high-spin thesis, 74As thesis]
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-11-07
 status: ai-draft
 review_status: unreviewed
 source_type: thesis-experiment
@@ -23,6 +23,7 @@ citation_key: "xiao_2019_74as"
 library_file: "raw/theses/degree-dissertation/肖骁_奇奇核~(74)As的高自旋态研究.pdf"
 raw_file: "raw/theses/degree-dissertation/肖骁_奇奇核~(74)As的高自旋态研究.pdf"
 raw_sha256: "bf0763004d98be5a540ab7802eb0baed7c11387224f1818426b891f5a3ef362b"
+archive_required: true
 nuclei: [74as]
 reactions: ["74Ge(4He,1p3n)74As"]
 experiments: [ithembalabs-afrodite-74as-he4-58-62mev]
@@ -33,6 +34,24 @@ tags: [degree-dissertation, 74as, high-spin, chirality, pseudospin, octupole-cor
 ---
 
 # 肖骁 2019：`74As` 高自旋态
+
+## 2026-11-07 原件回读与跨区综合纠正
+
+本次核对61页原件及SHA-256，重新读取题名/摘要/目录和PDF pp.43–49的
+组态比较、§4.2、Fig.4.8与总结。下列内容是本次定向原读，
+不把文本提取算成新的全文阅读完成记录。
+
+| ID | 原件支持的陈述 | claim_kind | locator | 对综合的影响 |
+|---|---|---|---|---|
+| XX19-R7-1 | 这是山东大学硕士学位论文，题名页日期为2019年5月23日。 | experimental-fact | PDF p.1 | 纠正“肖骁2015博士论文”的身份与年份；不据文件/作者同名猜测另一篇论文。 |
+| XX19-R7-2 | §4.2说明本工作没有74As寿命测量；作者用当时可获得的谱学指纹解释正宇称Bands1/2。 | author-interpretation + experimental-criterion | PDF p.45，印刷p.37；Fig.4.8在PDF p.46 | 相对B(M1)/B(E2)不等于伙伴分辨绝对矩阵元。 |
+| XX19-R7-3 | 原文认为负宇称Bands3/4不满足所采用的手征判据；总结将其保留为可能的赝自旋伙伴带。 | author-interpretation | PDF pp.45、47，印刷pp.37、39 | 不能把四条带直接重命名为两对已确证手征带或CPQ。 |
+| XX19-R7-4 | 后续2022期刊讨论的三条带和跨宇称E1网络须按期刊独立定位；不能倒写成2019论文已证明的八极/手征连续相变。 | synthesis | 本论文PDF pp.45–47；[[xiao-2022-chirality-octupole-correlations-74as]] PDF pp.3–7 | thesis/journal同实验谱系、负宇称带号映射和事件选择定义仍分别保留。 |
+
+**Knowledge Impact：revises。** 更新
+[[octupole-and-chiral-coexistence-in-transitional-nuclei]] 的身份、四带/三带边界和
+寿命缺口。P0：本次未发现未隔离的原件身份或归档问题。P1：负宇称带号的逐线跨版本映射、
+自旋修订与绝对跃迁矩阵元仍需按具体研究问题核查。
 
 ## Bibliographic Record
 

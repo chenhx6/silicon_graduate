@@ -1,0 +1,368 @@
+{
+  "metadata": {
+    "document_id": "JAIN-2021",
+    "title": "Nuclear Isomers: A Primer",
+    "authors": [
+      "Ashok Kumar Jain",
+      "Bhoomika Maheshwari",
+      "Alpana Goel"
+    ],
+    "affiliation": "Amity Institute of Nuclear Science and Technology, Amity University, Noida, India",
+    "publisher": "Springer Nature Switzerland AG",
+    "series": "SpringerBriefs in Physics",
+    "year": 2021,
+    "isbn_print": "978-3-030-78674-8",
+    "isbn_ebook": "978-3-030-78675-5",
+    "doi": "10.1007/978-3-030-78675-5",
+    "total_physical_pdf_pages": 151,
+    "total_printed_pages": 144,
+    "canonical_pdf_path": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+    "sha256": "994816561cfb6e89bd215b7fe23e37ecf12e8a3e8f5ce88eafbbd388d02ed74a",
+    "file_size_bytes": 3099781,
+    "duplicate_file_path": "raw/books/nuclear isomer - A Prime.pdf",
+    "duplicate_sha256": "20f88b84240637e10a6086eca6b9f6e80a28813ad1ecf14a795144a4d5c2ac34",
+    "duplicate_comparison_note": "PyMuPDF text-stream extraction comparison confirms 151/151 identical textual pages. Textual equivalence reflects an Acrobat 2024 linearization resave; this textual check does not assert identical raster graphics rendering, and both files represent a single intellectual work.",
+    "reading_depth": "deep-read (Ch 3, 4, 5 algebra & derivations) / read (Ch 1, 2, 6, 7, 8, front matter, summary)",
+    "appendix_status": "NO_APPENDIX_IN_BOOK (Table of contents ends at Summary, print pp. 143-144 / PDF pp. 150-151; previous references to an appendix were factually incorrect)."
+  },
+  "pdf_print_offset_analysis": {
+    "offset_is_constant": false,
+    "anchor_mappings": [
+      {
+        "pdf_page": 1,
+        "print_page": "Cover",
+        "offset": null
+      },
+      {
+        "pdf_page": 4,
+        "print_page": "Copyright (iv)",
+        "offset": null
+      },
+      {
+        "pdf_page": 10,
+        "print_page": "Contents (xiii)",
+        "offset": null
+      },
+      {
+        "pdf_page": 13,
+        "print_page": 1,
+        "offset": 12,
+        "chapter": "Chapter 1 start"
+      },
+      {
+        "pdf_page": 29,
+        "print_page": 17,
+        "offset": 12,
+        "chapter": "Chapter 2 start"
+      },
+      {
+        "pdf_page": 46,
+        "print_page": 35,
+        "offset": 11,
+        "chapter": "Chapter 3 start"
+      },
+      {
+        "pdf_page": 52,
+        "print_page": 41,
+        "offset": 11,
+        "note": "Wigner-Eckart odd-tensor scalar proof"
+      },
+      {
+        "pdf_page": 53,
+        "print_page": 42,
+        "offset": 11,
+        "note": "Eq. (3.15) even-tensor Delta_v=0 reduction"
+      },
+      {
+        "pdf_page": 54,
+        "print_page": 43,
+        "offset": 11,
+        "note": "Eqs. (3.20)-(3.21) B(EL) reduction formulas"
+      },
+      {
+        "pdf_page": 62,
+        "print_page": 51,
+        "offset": 11,
+        "chapter": "Chapter 4 start"
+      },
+      {
+        "pdf_page": 71,
+        "print_page": 60,
+        "offset": 11,
+        "note": "Fig. 4.3 and valence space argument (explicit arithmetic tension)"
+      },
+      {
+        "pdf_page": 90,
+        "print_page": 79,
+        "offset": 11,
+        "chapter": "Chapter 5 start"
+      },
+      {
+        "pdf_page": 107,
+        "print_page": 96,
+        "offset": 11,
+        "note": "Eq. (5.5) Projected Shell Model norm"
+      },
+      {
+        "pdf_page": 111,
+        "print_page": 101,
+        "offset": 10,
+        "chapter": "Chapter 6 start"
+      },
+      {
+        "pdf_page": 126,
+        "print_page": 117,
+        "offset": 9,
+        "chapter": "Chapter 7 start"
+      },
+      {
+        "pdf_page": 139,
+        "print_page": 131,
+        "offset": 8,
+        "chapter": "Chapter 8 start"
+      },
+      {
+        "pdf_page": 150,
+        "print_page": 143,
+        "offset": 7,
+        "chapter": "Summary start"
+      },
+      {
+        "pdf_page": 151,
+        "print_page": 144,
+        "offset": 7,
+        "chapter": "Summary end / Book final page"
+      }
+    ]
+  },
+  "reading_blocks": [
+    {
+      "block_id": "BLOCK-FM",
+      "pdf_pages": "1-12",
+      "printed_pages": "i-xv",
+      "chapter": "Front Matter",
+      "sections": "Cover, Series Page, Title, Copyright, Dedication, Foreword, Preface, Acknowledgements, Contents",
+      "content_actually_read": "Read complete publication metadata, Foreword by Philip Walker, Preface marking 100 years of nuclear isomers (1921-2021), scope based on the updated Atlas of Nuclear Isomers (2581 isomers with T1/2 >= 10 ns), Acknowledgements, and Table of Contents (Ch 1 to 8 plus Summary; no appendix listed).",
+      "key_formulas_or_figures": "Copyright info (ISBN 978-3-030-78674-8, DOI 10.1007/978-3-030-78675-5); TOC structure.",
+      "key_claims_and_methods": "Established isomer operational definition threshold as T1/2 >= 10 ns; outlined the 4 main hindrance mechanisms: spin traps, seniority, K-isomers, shape/fission isomers.",
+      "limitations_and_evidence_boundaries": "Front matter contains overview and acknowledgements, not primary experimental or algebraic proofs.",
+      "locators": "PDF pp. 1-12, print pp. i-xv"
+    },
+    {
+      "block_id": "BLOCK-01",
+      "pdf_pages": "13-20",
+      "printed_pages": "1-8",
+      "chapter": "Chapter 1: An Overview of Nuclear Isomers",
+      "sections": "1.1 Why a Primer; 1.2 What are Nuclear Isomers?; 1.3 Early History; 1.4 Where are the Isomers Found?; 1.5 Definition and Scope; 1.6 Half-Life of Isomers; 1.7 Classification of Isomers and Hindrance Mechanisms; 1.8 Systematic Features of Isomers",
+      "content_actually_read": "Read operational definitions, historical timeline from Soddy (1917) and Hahn (1921) to Weizsäcker (1936), Segrè & Helmholtz (1949); Atlas 2015 distribution across even-even (444), odd-odd (846), and odd-A (1291) nuclei; hindrance mechanisms and archetypal examples.",
+      "key_formulas_or_figures": "Fig. 1.1 (3D isomer landscape); Eq. (1.1) (T_1/2 proportional to 1 / [|<f|T_lambda|i>|^2 * E_gamma^(2lambda+1)]); Fig. 1.2 (archetypes: 72Kr shape, 180Hf K-isomer, 242Am fission, 180Ta spin trap); Fig. 1.3 (half-life distribution); Fig. 1.4 (long-lived isomers on beta-stability line).",
+      "key_claims_and_methods": "Half-life dependence on multipolarity lambda, transition energy E_gamma, and transition matrix element; classification of hindrance mechanisms with explicit recognition of mechanism overlap.",
+      "limitations_and_evidence_boundaries": "Empirical overview of isomer systematics; primary nuclear data compiled from Atlas of Nuclear Isomers 2015.",
+      "locators": "PDF pp. 13-20, print pp. 1-8"
+    },
+    {
+      "block_id": "BLOCK-02",
+      "pdf_pages": "21-28",
+      "printed_pages": "9-16",
+      "chapter": "Chapter 1: An Overview of Nuclear Isomers",
+      "sections": "1.8.1 Half-Life Systematic; 1.8.2 Spin Systematic; 1.8.3 Multipolarity Systematic; 1.8.4 Role of Pairing in Isomeric Energies; References 1-48",
+      "content_actually_read": "Read spin distributions (prominence of 9/2+, 11/2-, 13/2+ unique-parity intruder states, and 1/2 states); multipolarity systematics (parity-changing M2, E3, M4, E5 transitions); empirical pairing gap Delta approx 12/sqrt(A) MeV; excitation energy comparison between even-even, odd-odd, and odd-A isomers.",
+      "key_formulas_or_figures": "Fig. 1.5 (single-particle shell model scheme); Fig. 1.6 (isomer count vs spin); Fig. 1.7 (even-A excitation energy vs pairing gap: odd-odd lie below, even-even lie above, 7 E0 shape isomers lie below); Fig. 1.8 (odd-A excitation energies with 1-qp to 3-qp gap).",
+      "key_claims_and_methods": "Odd-odd nuclei possess uncoupled quasi-particles near ground state; even-even isomers require pair breaking (2-qp) except shape coexisting 0+ states; parity-changing transitions bridge intruder orbitals to opposite-parity normal states.",
+      "limitations_and_evidence_boundaries": "Reference list (48 citations) read for historical and methodological tracing; individual primary citations not reopened.",
+      "locators": "PDF pp. 21-28, print pp. 9-16"
+    },
+    {
+      "block_id": "BLOCK-03",
+      "pdf_pages": "29-36",
+      "printed_pages": "17-24",
+      "chapter": "Chapter 2: Spin Isomers",
+      "sections": "2.1 Isomeric Transitions; 2.2 Internal Conversion and Isomeric Half-Life; 2.3 Islands of Spin Isomers Near Magic Numbers (2.3.1 g_9/2, 2.3.2 h_11/2)",
+      "content_actually_read": "Read electromagnetic transition theory, angular momentum selection rules, electric/magnetic transition probabilities, Weisskopf single-particle estimates derivation; internal conversion process, total conversion coefficient alpha, BrIcc Dirac-Fock model limitations near shell binding energies; g_9/2 and h_11/2 isomer islands.",
+      "key_formulas_or_figures": "Eqs. (2.1)-(2.3) (transition probability and reduced transition probability B(alpha L)); Eqs. (2.4)-(2.5) (numerical constants for T(EL) and T(ML)); Table 2.1 (Weisskopf units B_W and T_W up to L=5); Eqs. (2.6)-(2.7) (single-particle formulas); Eqs. (2.8)-(2.9) (incorporating factor 1+alpha); Eqs. (2.10)-(2.11) (explicit T(E1) and T(E2)); Eqs. (2.12)-(2.14) (partial half-life and branching ratio); Fig. 2.1 (half-life of E1, E2, M1 vs E_gamma in 230Th with/without ICC); Fig. 2.2 (g_9/2 isomer clusters).",
+      "key_claims_and_methods": "Rigorous formulation of gamma and internal conversion decay; ICC significantly reduces half-life for low transition energies; high multipolarity and low energy create spin traps.",
+      "limitations_and_evidence_boundaries": "Weisskopf estimates assume single-particle transition and constant radial wavefunction; BrIcc calculations valid >= 1 keV above electron binding energy.",
+      "locators": "PDF pp. 29-36, print pp. 17-24"
+    },
+    {
+      "block_id": "BLOCK-04",
+      "pdf_pages": "37-45",
+      "printed_pages": "25-33/34",
+      "chapter": "Chapter 2: Spin Isomers",
+      "sections": "2.3.3 i_13/2 Spin Isomers; 2.4 High-Spin Isomers Near Proton Drip Line; 2.5 Spin Isomers in 180mTa; 2.6 Spin Isomers in 208Pb; 2.7 E5 Decaying Spin Isomers; References 1-54",
+      "content_actually_read": "Read i_13/2 isomers; core-excited spin traps 52Fe (12+, 45.9 s), 98Cd (12+, 224 ns), 96Cd (16+ spin gap); 180mTa (9-, 77.2 keV, T1/2 > 4.5x10^16 y, only naturally occurring isomer, 10 other isomers in 180Ta); 208Pb core-excited high-spin isomers up to 28- (13.67 MeV, 60 ns); pure E5 decaying isomers (186Re, 192Ir, 178Hf, 113Cd).",
+      "key_formulas_or_figures": "Fig. 2.3 (h_11/2 isomers); Fig. 2.4 (i_13/2 isomers); Table 2.2 (180Ta half-life measurements); Fig. 2.5 (180Ta decay level scheme); Table 2.3 (11 isomers in 180Ta); Fig. 2.6 (208Pb partial decay scheme).",
+      "key_claims_and_methods": "180mTa cannot decay directly via gamma due to lambda=7,8 hindrance; depopulation requires resonant photo-activation through intermediate states; 208Pb exhibits high-spin core-excited states well described by shell model.",
+      "limitations_and_evidence_boundaries": "Experimental half-life limits on 180mTa remain lower bounds; 208Pb higher-lying level discrepancies noted.",
+      "locators": "PDF pp. 37-45, print pp. 25-33/34"
+    },
+    {
+      "block_id": "BLOCK-05",
+      "pdf_pages": "46-53",
+      "printed_pages": "35-42",
+      "chapter": "Chapter 3: Seniority Isomers",
+      "sections": "3.1 Seniority and Seniority Isomers; 3.1.1 Single-j Quasi-spin Scheme; 3.1.2 Decay Properties",
+      "content_actually_read": "Deep algebraic read of Racah seniority v, quasi-spin SU(2) algebra (Kerman & Helmers), pairing Hamiltonian H_pair = -2G S_j^+ S_j^-, quasi-spin quantum numbers s = (Omega - v)/2 and S0 = (n - Omega)/2; Wigner-Eckart theorem in quasi-spin space; odd-rank single-particle tensor operators behave as quasi-spin scalars (s=0, Delta_v=0, particle-number independent); even-rank single-particle tensor operators behave as quasi-spin vectors (s=1, Delta_v=0, +-2).",
+      "key_formulas_or_figures": "Fig. 3.1 ((9/2)^2 level scheme); Fig. 3.2 (seniority mixing in (9/2)^4); Eqs. (3.1)-(3.2) (pair creation S_j^+ and annihilation S_j^-); Eq. (3.5)-(3.7) (SU(2) commutators); Eqs. (3.8)-(3.10) (pairing Hamiltonian eigenvalues H_pair(n,v) = -G[(n-v)/2](2Omega+2-n-v)); Eqs. (3.11)-(3.12) (odd-tensor scalar matrix elements); Eqs. (3.13)-(3.14) (even-tensor vector matrix elements); Eq. (3.15) (<j^n v l J M | Y^L_kappa | j^n v l' J' M'> = [(Omega-n)/(Omega-v)] * <j^v v l J M | Y^L_kappa | j^v v l' J' M'> for even L>0, Delta_v=0); Eqs. (3.16)-(3.18) (Delta_v = +-2 matrix elements).",
+      "key_claims_and_methods": "Rigorous proof that for single-j identical nucleons, even-rank Delta_v=0 one-body matrix elements vanish at exact half-shell n = Omega = (2j+1)/2 due to the geometric factor (Omega-n)/(Omega-v); odd-rank operators preserve v and their matrix elements are strictly independent of particle number n.",
+      "limitations_and_evidence_boundaries": "Algebra applies strictly to single-j pure configurations with identical nucleons; seniority mixing occurs for j > 7/2, though solvable states retain high purity.",
+      "locators": "PDF pp. 46-53, print pp. 35-42"
+    },
+    {
+      "block_id": "BLOCK-06",
+      "pdf_pages": "54-61",
+      "printed_pages": "43-50",
+      "chapter": "Chapter 3: Seniority Isomers",
+      "sections": "3.1.2 (cont.) B(EL) Reduction; 3.1.3 Magnetic Moments and g-Factors; 3.2 Examples of Seniority Isomers and Their Moments (3.2.1 N=50 isotones, 3.2.2 72,74Ni, 3.2.3 128,126Pd, 3.2.4 Pb isotopes); References 1-23",
+      "content_actually_read": "Read B(EL) parabolic dependence on n; g-factor particle-number invariance; N=50 isotones (92Mo, 94Ru, 96Pd, 98Cd) 8+ isomers (v=2, proton g_9/2, Omega=5); odd-A N=50 isotones (93Tc, 95Rh, 97Ag) 21/2+ isomers (v=3, minimum at n=5); lack of 8+ isomer in 72,74Ni due to mixing with second 6+ (v=4) state; 128Pd 8+ isomer (5.8 us, N=82 waiting point); 210-216Pb 8+ isomers (neutron g_9/2 beyond 208Pb core).",
+      "key_formulas_or_figures": "Eqs. (3.20)-(3.21) (B(EL) reduction formulas for Delta_v=0 and Delta_v=2); Fig. 3.3 (schematic matrix elements); Fig. 3.4 (schematic B(EL), B(ML) parabolas); Eqs. (3.22)-(3.24) (magnetic moment and g-factor number invariance); Fig. 3.5 (B(E2) in N=50 isotones); Fig. 3.6 (g-factors in N=50 isotones); Fig. 3.7 (B(E2) in odd-A N=50 isotones); Fig. 3.8 (B(E2) in Pb isotopes).",
+      "key_claims_and_methods": "Experimental validation of single-j seniority in semi-magic nuclei; 8+ isomers in N=50 isotones follow the (Omega-n)^2 parabola; 128Pd confirms N=82 shell robustness. Explicit removal of erroneous 130Sn/210Po half-shell claims: 130Sn has 2 neutron holes from N=82 and 210Po has 2 protons above Z=82, neither being a half-shell node.",
+      "limitations_and_evidence_boundaries": "210Pb g-factor deviates from Schmidt line, requiring core polarization or three-body forces (Gottardo 2012).",
+      "locators": "PDF pp. 54-61, print pp. 43-50"
+    },
+    {
+      "block_id": "BLOCK-07",
+      "pdf_pages": "62-69",
+      "printed_pages": "51-58",
+      "chapter": "Chapter 4: Generalized Seniority Isomers",
+      "sections": "4.1 Multi-j Quasi Spin Scheme (4.1.1 Decay Properties, 4.1.2 Group Theoretical Understanding, 4.1.3 Excitation Energies); 4.2 Generalized Seniority in the Sn Isotopes",
+      "content_actually_read": "Deep algebraic read of multi-j generalized seniority (Arima & Ichimura, Talmi); multi-j pair creation operator S^+ = sum_j S_j^+ and phase-modified operator S_1^+ = sum_j (-1)^(l_j) S_j^+; SU(2) algebra of total quasi-spin s = sum s_j = (Omega - v)/2 with total pair degeneracy Omega = (1/2) sum (2j+1); proof that in multi-j space, magnetic transitions (even and odd L) are quasi-spin scalars, while electric transitions (both even and odd L) are quasi-spin vectors; discovery of generalized seniority E1 isomers; constant excitation energy of good generalized seniority states; Sn even-even 0+ to 10+ energy systematics.",
+      "key_formulas_or_figures": "Eqs. (4.1)-(4.5) (multi-j quasi-spin operators and pairing Hamiltonian); Eqs. (4.6)-(4.9) (single-nucleon tensor commutator); Eq. (4.10) (phase factor); Eq. (4.11) (multi-j magnetic matrix elements); Eq. (4.12) (multi-j electric Delta_v=0 matrix elements); Eq. (4.13) (Delta_v=2 matrix elements); Eqs. (4.14)-(4.16) (B(EL) reduction formulas); Eqs. (4.17)-(4.18) (fractional parentage and radial integral); Eqs. (4.19)-(4.20) (two-body matrix elements and excitation energy constancy); Fig. 4.1 (experimental energy systematics of even-even Sn isotopes from 0+ to 10+).",
+      "key_claims_and_methods": "Generalization of seniority to multi-j degenerate and non-degenerate spaces; electric transitions of both even and odd multipolarities (including E1 and E3) have parabolic B(EL) variation with mid-shell minima for Delta_v=0; odd-tensor interactions yield constant 0+-2+ energy splitting across 28 neutrons in Sn.",
+      "limitations_and_evidence_boundaries": "Multi-j quasi-spin SU(2) dynamical symmetry assumes degenerate single-particle orbits or dominance of pairing over single-particle splitting.",
+      "locators": "PDF pp. 62-69, print pp. 51-58"
+    },
+    {
+      "block_id": "BLOCK-08",
+      "pdf_pages": "70-77",
+      "printed_pages": "59-66",
+      "chapter": "Chapter 4: Generalized Seniority Isomers",
+      "sections": "4.2.1 The 10+, 13-, and 15- Isomers in Sn isotopes; 4.2.2 Comparison of Sn, Pb and N=82 Isomers; 4.3 First 2+ and 3- States in Sn, Cd, Te (4.3.1 Twin Asymmetric B(E2) Parabola in Sn, 4.3.2 in Cd and Te)",
+      "content_actually_read": "Read excitation energy and half-life variations in Sn isotopes; 10+, 13-, 15- isomers; role of frozen g_7/2, d_5/2 core and active h_11/2 (x) d_3/2 (x) s_1/2 space; B(E1) and B(E2) calculations with Omega=9; comparison with Pb and N=82 isomers; twin asymmetric B(E2; 0+ -> 2+) parabolas in Sn, Cd, Te isotopes.",
+      "key_formulas_or_figures": "Fig. 4.2 (energy of 10+, 11/2-, 27/2- in Sn); Fig. 4.3 (half-life of 10+, 11/2-, 27/2- in Sn peaking at N=71); Fig. 4.4 (B(E1; 13- -> 12+) in Sn for Omega=9,8,7); Fig. 4.5 (B(E2; 10+ -> 8+) and B(E2; 15- -> 13-) in Sn for Omega=9,8,7,6); Fig. 4.6 (calculated vs experimental half-lives of 10+, 13-, 15- isomers); Fig. 4.7 (B(E2; 0+ -> 2+) in Sn: twin parabolas Omega=10 and Omega=12 crossing at 116Sn N=66); Figs. 4.8-4.9 (twin parabolas in Cd and Te).",
+      "key_claims_and_methods": "Discovery of E1 seniority isomers in 13- states of Sn; 10+ and 15- isomers well reproduced by Omega=9 mixed configuration; twin asymmetric B(E2; 0+ -> 2+) parabolas in Sn explainable by changing active valence space before/after mid-shell.",
+      "limitations_and_evidence_boundaries": "CRITICAL MULTI-LAYER TENSION ON PDF P. 71 / PRINT P. 60: (1) Author text narrative literally states frozen core N=64, active capacity 18 (h11/2, d3/2, s1/2), half-filled with 9 more neutrons, yet writes bottom touches at N=71 and all three support a peak around N=71. (2) Arithmetic discrepancy: 64 + 9 = 73 != 71. (3) Visual plot inspection of Fig. 4.3 reveals distinct physical peak shifts across multi-quasiparticle states rather than a single identical peak: blue 11/2- peaks near N=71 (121Sn), black 10+ peaks near N=72 (122Sn), red 27/2- peaks near N=73 (123Sn) (approximate visual reading). (4) Model vs empirical fit: ideal degenerate multi-j model places minimum at half-fill, but real subshell splittings and pairing dispersion cause state-dependent peak shifts. Disproved old note claim that 116Sn (N=66) was the minimum of Fig. 4.5; the minimum lies in the N=71-73 region while 116Sn corresponds to the twin parabola crossing in 0+ -> 2+ transitions (Fig. 4.7).",
+      "locators": "PDF pp. 70-77, print pp. 59-66"
+    },
+    {
+      "block_id": "BLOCK-09",
+      "pdf_pages": "78-89",
+      "printed_pages": "67-78",
+      "chapter": "Chapter 4: Generalized Seniority Isomers",
+      "sections": "4.3.3 Inverted B(E3) Parabola in Sn; 4.3.4 Inverted B(E3) Parabola in Cd and Te; 4.4 Isomeric Moments (4.4.1 Q-Moment of 11/2- States, 4.4.2 Generalized Seniority Schmidt Model [GSSM] and g-factors in Sn and Pb); References 1-53",
+      "content_actually_read": "Read B(E3; 0+ -> 3-) inverted parabolas (Delta_v=2); linear quadrupole moment Q(11/2-) crossing zero at N=73 in 123Sn, 121Cd, 125Te; GSSM formulation: g-factors of all states with same seniority in multi-j space equal the seniority v=1 single-nucleon g-factor; g-factor particle-number invariance in Sn 11/2-, 10+ and Pb 13/2+, 12+, 33/2+ isomers.",
+      "key_formulas_or_figures": "Fig. 4.10 (B(E3) in Sn); Figs. 4.11-4.12 (B(E3) in Cd and Te); Fig. 4.13 (Q-moments of 11/2- states in Cd, Sn, Te crossing zero at N=73); Eqs. (4.21)-(4.22) (GSSM magnetic dipole moment); Fig. 4.14 (g-factors of 11/2- and 10+ in Sn); Fig. 4.15 (g-factors of 13/2+, 12+, 33/2+ in Pb).",
+      "key_claims_and_methods": "GSSM demonstrates that configuration mixing across multi-j space explains empirical g-factors where pure single-j Schmidt values fail; linear Q-moment crossing zero at N=73 confirms generalized seniority particle-hole symmetry.",
+      "limitations_and_evidence_boundaries": "Reference list (53 citations) read for context; ENSDF and Stone compilation values adopted from secondary tables.",
+      "locators": "PDF pp. 78-89, print pp. 67-78"
+    },
+    {
+      "block_id": "BLOCK-10",
+      "pdf_pages": "90-97",
+      "printed_pages": "79-86",
+      "chapter": "Chapter 5: K-Isomers in Deformed Nuclei",
+      "sections": "5.1 The K-Quantum Number; 5.2 Deformed Nilsson Model and High-K States; 5.2.1 Quasi-particles; 5.2.2 High-K MQP States and Isomers; 5.3 Calculation of MQP States",
+      "content_actually_read": "Read physical definition of K as projection of total angular momentum on symmetry axis; K-hindrance condition Delta_K > lambda; degree of forbiddenness nu = Delta_K - lambda; historic example 180Hf 8- isomer (5.5 h); Nilsson single-particle levels Omega^pi[N n_z Lambda] in rare earths (A=150-190); quasi-particles and BCS pairing gap Delta approx 12/sqrt(A) MeV; 2-qp and 4-qp high-K states; 178Hf 16+ 31 y isomer at 2.44 MeV; Gallagher-Moszkowski (GM) triplet rule in odd-odd nuclei; Gallagher singlet rule in like-nucleon pairs.",
+      "key_formulas_or_figures": "Fig. 5.1 (vector geometry of K = Omega, I = R + j); Fig. 5.2 (Nilsson proton levels A=150-190); Fig. 5.3 (Nilsson neutron levels A=150-190); BCS quasiparticle energy E_i = sqrt((epsilon_i - lambda_F)^2 + Delta^2); Fig. 5.4 (178Hf partial level scheme); Fig. 5.5 (K_+ = Omega_1 + Omega_2 coupling); GM rule.",
+      "key_claims_and_methods": "K-isomerism arises from angular momentum reorientation hindrance; GM rule reliably predicts the lower-lying spin coupling state in deformed odd-odd nuclei; like-nucleon pairs favor singlet spin projection.",
+      "limitations_and_evidence_boundaries": "Nilsson model relies on axial symmetry; deviations occur when triaxiality or Coriolis decoupling becomes strong.",
+      "locators": "PDF pp. 90-97, print pp. 79-86"
+    },
+    {
+      "block_id": "BLOCK-11",
+      "pdf_pages": "98-105",
+      "printed_pages": "87-94",
+      "chapter": "Chapter 5: K-Isomers in Deformed Nuclei",
+      "sections": "5.3 (cont. Newby shift, 3-qp states, MQP states); 5.4 Some General Features of High-K States (5.4.1 250No, 5.4.2 K-Mixing, 5.4.3 K-Isomeric Rotational Band); 5.5 Theoretical Treatments",
+      "content_actually_read": "Read Newby shift in K=0 bands; 3-qp generalized GM rules; MQP states in Hf isotopes; pair blocking and Coriolis Anti-Pairing (CAP) effect; 94Se (first oblate K-isomer); 175Hf (highest confirmed MQP: 9-qp 57/2-, 22 ns, 7.45 MeV); 250No (K-isomer lives 34.9 us, longer than ground state 3.8 us); definition of hindrance factor F = T_1/2^gamma / T_1/2^W and reduced hindrance f_nu = F^(1/nu); partial gamma half-life formula; K-mixing mechanisms: Coriolis mixing (Delta_K = +-1), gamma-softness and triaxial tunneling (Delta_K = +-2 in W and Os isotopes), statistical mixing at high level density (f_nu < 5 in non-yrast states like 164Er), and chance near-degeneracies (174Lu 13+ isomer).",
+      "key_formulas_or_figures": "Fig. 5.6 (K_- = |Omega_1 - Omega_2| coupling); hindrance F = T_1/2^gamma / T_1/2^W; reduced hindrance f_nu = F^(1/nu); partial gamma half-life relation T_1/2^gamma = T_1/2^total * (1+alpha) / b_total (where b_total is total transition branch) or T_1/2^gamma = T_1/2^total / q_gamma (where q_gamma is photon branch); K-band energy spacing I(I+1).",
+      "key_claims_and_methods": "Quantitative formulation of K-hindrance and partial gamma lifetime; f_nu values span a broad range (typically 30-200, but dropping below 5 in statistical non-yrast states or triaxial/gamma-soft nuclei); K-mixing arises from distinct physical mechanisms, not a single universal factor.",
+      "limitations_and_evidence_boundaries": "Partial gamma half-life must strictly account for internal conversion without double-counting (1+alpha); reduced hindrance is empirical.",
+      "locators": "PDF pp. 98-105, print pp. 87-94"
+    },
+    {
+      "block_id": "BLOCK-12",
+      "pdf_pages": "106-110",
+      "printed_pages": "95-99/100",
+      "chapter": "Chapter 5: K-Isomers in Deformed Nuclei",
+      "sections": "5.5 (cont. Lipkin-Nogami, PES, TRS, PNC, Projected Shell Model [PSM]); References 1-90",
+      "content_actually_read": "Read configuration-constrained potential energy surfaces (PES), total Routhian surfaces (TRS), particle-number conserving (PNC) method, Projected Shell Model (PSM) of Hara and Sun; angular momentum projection operator; application to 178Hf 31-year isomer.",
+      "key_formulas_or_figures": "Eqs. (5.1)-(5.5) (PSM projected wavefunctions and eigenvalue matrix); Eqs. (5.6)-(5.7) (band energies); Eq. (5.8) (PSM Hamiltonian with quadrupole-quadrupole and quadrupole-pairing forces).",
+      "key_claims_and_methods": "PSM provides a quantum-mechanical laboratory-frame description of K-isomers by projecting MQP configurations and diagonalizing residual interactions, but requires further improvements for highly K-forbidden transitions.",
+      "limitations_and_evidence_boundaries": "Reference list (90 citations) read for theoretical lineages; external codes (PNC, PSM, TRS) evaluated based on published results.",
+      "locators": "PDF pp. 106-110, print pp. 95-99/100"
+    },
+    {
+      "block_id": "BLOCK-13",
+      "pdf_pages": "111-118",
+      "printed_pages": "101-108",
+      "chapter": "Chapter 6: Shape and Fission Isomers",
+      "sections": "6.1 Double-Hump Barrier and the Shell Corrections; 6.2 Discovery of the Fission Isomers; 6.3 Additional Features of Fission Isomers; 6.4 The Low-Lying 0+ Shape Isomers",
+      "content_actually_read": "Read Strutinsky shell-correction method, double-humped fission barrier, superdeformed secondary minimum (epsilon approx 0.6-0.8, 2:1 axis ratio); discovery of fission isomers (Polikanov 1962); 48 fission isomers in actinides; longest-lived 242Am (14 ms); intermediate resonance structure in subthreshold neutron-induced fission cross-sections (e.g. 240Pu intermediate spacing 650 eV vs compound spacing 14.9 eV, yielding 2.1 MeV second well depth).",
+      "key_formulas_or_figures": "Fig. 6.1 (schematic double-hump potential well); Fig. 6.2 (fission isomers map in actinides); Table 6.1 (list of 48 fission isomers decaying via spontaneous fission).",
+      "key_claims_and_methods": "Fission isomers are trapped in the superdeformed second potential well produced by quantal shell corrections to the liquid drop barrier; decay proceeds via fission barrier penetration or delayed gamma back-decay to the first well.",
+      "limitations_and_evidence_boundaries": "Table 6.1 compiled from updated Atlas data; experimental half-lives range from picoseconds to milliseconds with varying uncertainties.",
+      "locators": "PDF pp. 111-118, print pp. 101-108"
+    },
+    {
+      "block_id": "BLOCK-14",
+      "pdf_pages": "119-125",
+      "printed_pages": "109-115",
+      "chapter": "Chapter 6: Shape and Fission Isomers",
+      "sections": "6.4 (cont. Low-Lying 0+ Shape Isomers in Even-Even Nuclei); 6.5 Half-Lives of Shape Isomers (6.5.1 PSM, 6.5.2 Other microscopic models); References 1-51",
+      "content_actually_read": "Read 23 low-lying 0+ isomers in even-even and odd-odd nuclei; electric monopole (E0) transitions between 0+ states; detailed discussion of 12Be (2.25 MeV, 233 ns, 2p-2h and 4p-4h intruder mixing), 34Si (2.72 MeV, 19.4 ns, oblate 2h-omega intruder vs spherical ground state), 38K, 72Kr (oblate-prolate coexistence, 671 keV, 26.3 ns); triple shape coexistence in 186Pb (spherical, oblate, prolate 0+ states); PSM projection operator connecting different deformed shapes.",
+      "key_formulas_or_figures": "Table 6.2 (list of 23 low-lying 0+ isomers with T_1/2 >= 10 ns); Eq. (6.3) (PSM 1D projection operator connecting configurations at different deformations a and b).",
+      "key_claims_and_methods": "Low-lying 0+ isomers in even-even nuclei decay predominantly by E0 internal conversion or electron-positron pair creation, serving as spectroscopic signatures of shape coexistence; wavefunctions represent mixtures of states localized in different deformation minima.",
+      "limitations_and_evidence_boundaries": "Reference list (51 citations) read; half-life calculations for shape isomers require multidimensional potential surfaces and collective inertia tensors.",
+      "locators": "PDF pp. 119-125, print pp. 109-115"
+    },
+    {
+      "block_id": "BLOCK-15",
+      "pdf_pages": "126-133",
+      "printed_pages": "117-124",
+      "chapter": "Chapter 7: Unusual Isomers",
+      "sections": "7.1 Examples of Unusual Isomers (7.1.1 High Energy, 7.1.2 Extremely Low Energy [ELE], 7.1.3 High-Spin, 7.1.4 Long-Lived, 7.1.5 E5, 7.1.6 100% Proton Decaying, 7.1.7 Highest Quasiparticle); 7.2 ELE Isomers; 7.3 A Specific Case of ELE Isomer in 229Th",
+      "content_actually_read": "Read extreme isomers: 208Pb 28- (13.67 MeV, 60 ns), 178Hf 16+ (2.44 MeV, 31 y), 180mTa (>4.5x10^16 y), 175Hf 57/2- (9-qp, 7.45 MeV, 22 ns); ELE isomers with E* <= 2 keV (Table 7.1: 110Ag, 141Sm, 193Pt, 201Hg, 227Ra, 229Th, 235U); detailed history and spectroscopy of 229Th (from Erskine 1971, Kroger & Reich 1976, Reich & Helmer 1990 [1 eV], Beck 2007 [7.6 eV], Wense 2016 direct detection, Seiferle 2019 [8.28 eV, neutral IC half-life 7.0 us], Masuda 2019 synchrotron x-ray pumping of 29 keV state, Yamaguchi 2019 [8.30 eV]).",
+      "key_formulas_or_figures": "Table 7.1 (7 ELE isomers); Fig. 7.1 (229Th partial level scheme: 3/2+[631] bandhead at ~8 eV relative to 5/2+[633] ground state).",
+      "key_claims_and_methods": "229mTh is the lowest known nuclear excited state (~8.1-8.3 eV), connecting nuclear physics with laser optics and enabling prospective optical nuclear clocks. Chronological evaluation reflects research authored through 2020 (no post-2021 results like Kraemer 2023 or Zhang 2024 attributed to Jain).",
+      "limitations_and_evidence_boundaries": "Internal conversion dominates neutral 229mTh decay (T1/2 approx 7 us); radiative lifetime estimated at ~10^4 s; ionic states (Th+, Th2+, Th3+) suppress IC and drastically alter lifetime.",
+      "locators": "PDF pp. 126-133, print pp. 117-124"
+    },
+    {
+      "block_id": "BLOCK-16",
+      "pdf_pages": "134-138",
+      "printed_pages": "125-129/130",
+      "chapter": "Chapter 7: Unusual Isomers",
+      "sections": "7.4 Beta-Decaying Isomers; References 1-63",
+      "content_actually_read": "Read 100% beta-decaying isomers; JYFLTRAP Penning trap measurements on 128In (16+ spin trap at 1797.6 keV) and 130In ((10-) isomer at 58.6 keV); Table 7.2 (37 isomers with 100% beta+/EC decay); Table 7.3 (31 isomers with 100% beta- decay, including 130Sn 7- at 1946.88 keV, 1.7 min).",
+      "key_formulas_or_figures": "Table 7.2 (list of 37 100% beta+/EC isomers); Table 7.3 (list of 31 100% beta- isomers); Reference list (63 citations).",
+      "key_claims_and_methods": "Complete beta-decay occurs when gamma decay is totally spin-forbidden or energetic paths are suppressed; crucial inputs for r-process and rp-process nucleosynthesis calculations.",
+      "limitations_and_evidence_boundaries": "Tables compiled from Atlas; cases with unknown excitation energy or partial gamma branching excluded.",
+      "locators": "PDF pp. 134-138, print pp. 125-129/130"
+    },
+    {
+      "block_id": "BLOCK-17",
+      "pdf_pages": "139-149",
+      "printed_pages": "131-141/142",
+      "chapter": "Chapter 8: Experimental Methods, Applications, Future Prospects",
+      "sections": "8.1 Experimental Methods and Applications (8.1.1 Gamma Spectroscopy, 8.1.2 Recoil Analyzers, 8.1.3 Mass Spectrometry, 8.1.4 Storage Rings, 8.1.5 Isomeric Targets/Beams, 8.1.6 Medical Applications, 8.1.7 Isomer Depletion, 8.1.8 Moments & TDPAD); 8.2 Future Applications (8.2.1 Nuclear Batteries and Gamma Laser); References 1-62",
+      "content_actually_read": "Read experimental methods: prompt-delayed coincidence, HIRA/HYRA recoil separators, FRS MR-TOF-MS spatial isomer separation (210Po/210mPo), ESR storage ring Schottky mass spectrometry (212Bi 81+ ion lifetime > 30 min vs 7 min in neutral atom); isomeric targets (177mLu, 178m2Hf, 242mAm) and beams (68,70Cu); medical isomers (Table 8.1: 99mTc, 52mMn, 117mSn, etc.); isomer depletion: Chiara et al. (2018 Nature) NEEC claim in 93mMo vs Wu, Keitel & Palffy (2019 PRL) theoretical rebuttal (probability 9 orders of magnitude smaller); TDPAD g-factor and quadrupole moment measurements; energy storage in 178m2Hf (1.3 GJ/g) and prospective gamma-ray lasers.",
+      "key_formulas_or_figures": "Table 8.1 (16 medical isomers and generator pairs); TDPAD precession technique; Reference list (62 citations).",
+      "key_claims_and_methods": "Technical review of modern isomer measurement and manipulation; critical assessment of NEEC depletion in 93Mo acknowledging ongoing theoretical dispute; balanced presentation of isomer battery potential without premature commercial claims.",
+      "limitations_and_evidence_boundaries": "Reference list (62 citations) read; clinical medical protocols and energy storage engineering cited as prospective contexts rather than established operational blueprints.",
+      "locators": "PDF pp. 139-149, print pp. 131-141/142"
+    },
+    {
+      "block_id": "BLOCK-SUM",
+      "pdf_pages": "150-151",
+      "printed_pages": "143-144",
+      "chapter": "Summary",
+      "sections": "Summary of Chapters 1 to 8",
+      "content_actually_read": "Read comprehensive book summary synthesising all chapters: Chapter 1 overview and classification; Chapter 2 spin isomers and ICC; Chapter 3 seniority and quasi-spin; Chapter 4 generalized seniority in multi-j environments; Chapter 5 K-isomers and MQP states; Chapter 6 shape and fission isomers; Chapter 7 unusual and ELE isomers; Chapter 8 experimental methods and applications.",
+      "key_formulas_or_figures": "Print page 144 / PDF page 151 explicit concluding paragraphs.",
+      "key_claims_and_methods": "Reiterates the four fundamental hindrance mechanisms; emphasizes that nuclear isomers serve as unique laboratories for nuclear structure, symmetries, and emerging quantum technologies.",
+      "limitations_and_evidence_boundaries": "Final page of physical book (print p. 144 / PDF p. 151); confirms zero pages of appendix.",
+      "locators": "PDF pp. 150-151, print pp. 143-144"
+    }
+  ]
+}

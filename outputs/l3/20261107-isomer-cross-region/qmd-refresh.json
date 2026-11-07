@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-11-07T11:25:28.866280+00:00",
+  "collection_path_prechecked": "/workspace/wiki/knowledge",
+  "pattern": "**/*.md",
+  "command": [
+    "qmd",
+    "update"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 46.6146574820159,
+  "stdout": "Updating 1 collection(s)...\n\n[1/1] nuclear-knowledge (**/*.md)\nCollection: /workspace/wiki/knowledge (**/*.md)\n\nIndexed: 427 new, 280 updated, 771 unchanged, 0 removed\nCleaned up 280 orphaned content hash(es)\n\n✓ All collections updated.\n\nRun 'qmd embed' to update embeddings (1478 unique hashes need vectors)\n\n5999 orphaned embedding chunks (57% of vectors) — run 'qmd cleanup' to reclaim space\n",
+  "stderr": "",
+  "embedding": "No embed or qmd cleanup command run; existing vector backlog retained. Built-in content-hash cleanup by update is recorded in stdout.",
+  "new_note_smoke": {
+    "command": [
+      "qmd",
+      "get",
+      "qmd://nuclear-knowledge/research-notes/isomer-cross-region-hypothesis-discrimination-20261107.md"
+    ],
+    "exit_code": 0,
+    "matched_title": true,
+    "output_prefix": "qmd://nuclear-knowledge/research-notes/isomer-cross-region-hypothesis-discrimination-20261107.md  #4e6ce4\n---\n\n1: ---\n2: type: research-note\n3: title: \"同核异能态与六区动力学：候选判别和反方检验\"\n4: aliases: [isomer-cross-region-hypothesis-discrimination-20261107, 跨区异能态假说鉴别与反方审计]\n5: created: 2026-11-07\n6: updated: 2026-11-07\n7: status: active\n8: review_status: unreviewed\n9: reasoning_status: provisional\n10: created_from: \"Gemini candidate draft and Sol source-conditioned integration\"\n11: evidence_sources: [dracoulis-2013-192os-isomers-gamma-soft, hayes-2005-k-conservation-178hf, karmakar-2024-100ru-enhanced-e1-lif"
+  },
+  "status_after": "QMD Status\n\nIndex: /var/lib/qmd/cache/qmd/wiki.sqlite\nSize:  110.6 MB\n\nDocuments\n  Total:    1478 files indexed\n  Vectors:  10505 embedded\n  Orphaned: 5999 embedding chunks (57%) — run 'qmd cleanup'\n  Pending:  901 need embedding (run 'qmd embed')\n  Updated:  1m ago\n\nAST Chunking\n  Status:   active\n  Languages: typescript, tsx, javascript, python, go, rust\n\nCollections\n  nuclear-knowledge (qmd://nuclear-knowledge/)\n    Pattern:  **/*.md\n    Files:    1478 (updated 1m ago)\n\nExamples\n  # List files in a collection\n  qmd ls nuclear-knowledge\n  # Get a document\n  qmd get qmd://nuclear-knowledge/path/to/file.md\n  # Search within a collection\n  qmd search \"query\" -c nuclear-knowledge\n\nModels\n  Embedding:   https://huggingface.co/Qwen/Qwen3-Embedding-0.6B-GGUF\n  Reranking:   https://huggingface.co/ggml-org/Qwen3-Reranker-0.6B-Q8_0-GGUF\n  Generation:  https://huggingface.co/tobil/qmd-query-expansion-1.7B-gguf\n\nTips\n  Add context to collections for better search results: nuclear-knowledge\n    qmd context add qmd://<name>/ \"What this collection contains\"\n    qmd context add qmd://<name>/meeting-notes \"Weekly team meeting notes\"\n",
+  "l4_note_current_path_smoke": {
+    "exit_code": 0,
+    "contains_run_manifest": false
+  },
+  "final_followup_after_receipt_rename": {
+    "checked_at": "2026-11-07T11:28:07.511578+00:00",
+    "update_exit": 0,
+    "elapsed_seconds": 35.49225629901048,
+    "stdout": "Updating 1 collection(s)...\n\n[1/1] nuclear-knowledge (**/*.md)\nCollection: /workspace/wiki/knowledge (**/*.md)\n\nIndexed: 0 new, 1 updated, 1477 unchanged, 0 removed\nCleaned up 1 orphaned content hash(es)\n\n✓ All collections updated.\n\nRun 'qmd embed' to update embeddings (1478 unique hashes need vectors)\n\n5999 orphaned embedding chunks (57% of vectors) — run 'qmd cleanup' to reclaim space\n",
+    "stderr": "",
+    "smoke_exit": 0,
+    "contains_run_manifest": true
+  }
+}

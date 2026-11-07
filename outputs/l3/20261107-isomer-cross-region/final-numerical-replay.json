@@ -1,0 +1,11 @@
+{
+  "executed_at": "2026-11-07T11:03:59.910052+00:00",
+  "command": "OPENBLAS_NUM_THREADS=1 python3 system/scripts/isomer_seniority_transfer_validation.py --output tmp/runs/isomer-20261107/final-replay.json",
+  "exit_code": 0,
+  "rows": 20,
+  "max_strength_difference": 0.0,
+  "script_sha256_matches": true,
+  "archived_result_sha256": "ac617be8b7b3ea6dd2da5223573803556d5ed1580ced393d22b263c80d33c5ba",
+  "replay_sha256": "ac617be8b7b3ea6dd2da5223573803556d5ed1580ced393d22b263c80d33c5ba",
+  "scope": "fresh replay of same many-body implementation; independent Wigner checks recorded separately; not independent real-nucleus validation"
+}

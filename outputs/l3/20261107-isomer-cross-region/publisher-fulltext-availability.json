@@ -1,0 +1,19 @@
+{
+  "attempts": [
+    {
+      "doi": "10.1016/j.physletb.2012.02.008",
+      "url": "https://api.elsevier.com/content/article/doi/10.1016/j.physletb.2012.02.008?view=FULL&httpAccept=application%2Fpdf",
+      "availability": "one-page-preview again",
+      "sha256": "bc5a6f36c8aa5f8be097ae79591ffa941828e9f72c69de8037e2f8efdb0d4cff",
+      "size": 356044
+    },
+    {
+      "doi": "10.1016/j.nuclphysa.2025.123265",
+      "url": "https://api.elsevier.com/content/article/doi/10.1016/j.nuclphysa.2025.123265?view=FULL&httpAccept=application%2Fpdf",
+      "availability": "one-page-preview again",
+      "sha256": "0115e9990ab076ecf9beef861bf42885f99bf23f119acb9acac974f32dfcb98d",
+      "size": 8633409
+    }
+  ],
+  "preview_warning": "HTTP200 and PDF signature do not prove full text; inspect page counts/content"
+}

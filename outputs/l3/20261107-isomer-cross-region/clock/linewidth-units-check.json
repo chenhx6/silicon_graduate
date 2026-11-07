@@ -1,0 +1,9 @@
+{
+  "Gamma_eV": 1.4e-15,
+  "h_eV_s": 4.135667696e-15,
+  "Delta_nu_Hz": 0.3385184939675095,
+  "Q": 8.849707142857142e+18,
+  "tau_seconds": 0.4701513977857143,
+  "source": "Shvydko2023 Table1, energy linewidth and lifetime are distinct quantities; literature adopted nuclear parameters",
+  "status": "passed dimensional consistency"
+}

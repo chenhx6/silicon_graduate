@@ -1,0 +1,45 @@
+{
+  "schema": "bounded-hypothesis-audit-v2",
+  "updated_at": "2026-11-07T11:10:10.623905+00:00",
+  "worker_model": "antigravity/gemini-3.8-flash-tiered/high",
+  "integration": "source-conditioned parent correction; no new experimental result",
+  "canonical_note": "knowledge/research-notes/isomer-cross-region-hypothesis-discrimination-20261107.md",
+  "priority_basis": "next obtainable evidence that can change relative model support; not global novelty certification",
+  "priorities": [
+    {
+      "id": "C1",
+      "next": "100Ru lifetime and model comparison with preserved data dependence",
+      "stage": "L3; real-nucleus L4 inputs incomplete"
+    },
+    {
+      "id": "C2",
+      "next": "Os branch/ICC/tau data table then common-input model comparison",
+      "stage": "L3; experimental table is not a microscopic Hamiltonian"
+    },
+    {
+      "id": "C3",
+      "next": "state-specific search/data audit and orientation prediction",
+      "stage": "L3"
+    },
+    {
+      "id": "C4",
+      "next": "separate atomic/environmental/network inputs",
+      "stage": "L3"
+    }
+  ],
+  "parent_rejected_draft_assertions": [
+    "universal E3 thresholds and D0 saturation gate",
+    "fixed Ni critical spins and current global data absence",
+    "arbitrary Z scaling and rate extrapolation",
+    "Os microscopic overlap calculation inputs declared complete",
+    "NEEC contamination uniquely proven by 2022 upper bound",
+    "J=2 coupled-pair perturbation mislabeled Q dot Q",
+    "conditional symmetry selection presented as guaranteed nonzero transition",
+    "escaped LaTeX produced low control characters"
+  ],
+  "retained_reverse_tests": [
+    "g9/2 Omega5 excludes n5 v2 even-particle chain; nearest n4/6 normalized strength1/9",
+    "same particle-hole signature may protect mid-shell E2 despite nonpairing; opposite-signature control is an upward excitation"
+  ],
+  "new_l4_performed_by_this_candidate_worker": false
+}
