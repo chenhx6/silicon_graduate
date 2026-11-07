@@ -19,12 +19,11 @@ tags: [doctoral-foundations, collective-excitation, triaxiality, cross-region, r
 
 ### Agent active summary
 
-R1 六区/两翼与电子学案例已发布；R2 补入集体质量、空间/配对响应、
-时间奇场及实际 Lu 表重算。入口为
-[[doctoral-r2-collective-inertia-response-crosswalk-20261108]] 和
-[[doctoral-r2-inertia-evidence-and-band-reconstruction-20261108]]。
-总体 goal 仍 active、仍在第一阶段；当前没有清空 A130 或启动论文正文。
-下一步重点是形状振动与取向模的共同模型/实验接口及基础解释能力核查。
+R1 六区案例、R2惯量/配对与R3原始基础/解释检查已形成知识链。
+R3的逐项判断见[[doctoral-r3-readiness-evidence-matrix-20261108]]：
+基础已具备进入章节设计的条件，领域未决问题仍开放。
+本批执行验收与goal转换以R3最终回执为准；
+当前没有清空A130或启动论文正文，不以此矩阵代替后续逐段引用核验。
 
 用户要求先全力研学，再重建博士论文。当前阶段是核结构研究准备，不是正文扩写。
 总控负责问题选择、基础推导、原件核查、跨区综合与最终就绪判断；
@@ -111,6 +110,7 @@ Gemini Flash Tiered/high承担大部分分域研学；复杂理论交给Terra/xh
 | 电偶极与剪刀模式 | [[continuation-g14-ru102-si-thesis-20261107]] | 平移不变性、有效算符、独立响应及强度分布 | 联合Cov/未拟合预测；同数据依赖 |
 | Seniority与K异能态 | [[high-spin-isomers-and-decay-modes-systematics]] | 节点、粒子空穴、两端K混合、能量与矩阵元瓶颈 | 已有精确控制；转向真实多轨道证据 |
 | GT、禁戒β与gA | [[continuation-g19-cd-in-common-weak-operator-20261107]] | 总和规则、有限Q窗、分支、FF形状因子与有效算符 | 已读Zhi2013并有T04独立核查；真实核共同实现与留出仍待完成 |
+| β缓发粒子 | [[doctoral-r3-weak-operators-and-delayed-particles-20261108]] | feeding、阈值、分波/γ竞争、最终多重度与探测响应 | IAEA2021原件已定向学习；具体核的Pn需完整级联/效率，不由GT主题代答 |
 | 0νββ与形变/配对 | [[isomer-shell-evolution-astrophysics-and-superheavy-transfer-20261107]] | 矩阵元、模型空间、算符和形状匹配 | 已读2010/2013投影与配对原作；更近三轴/算符研究继续，不由GT淬灭直接外推 |
 | Astromer与热耦合 | [[isomer-shell-evolution-astrophysics-and-superheavy-transfer-20261107]] | 中间态网络、详细平衡、时间尺度及热化失效 | 已读176Lu K混合与等离子体整体瓶颈；实际轨迹与率输入逐任务补 |
 | NEEC与耗散 | [[mo93-neec-evidence-and-depletion-transfer-20261107]] | 通道、产额、污染反证与电子环境 | 不把理论截面增强当净实验耗散 |
@@ -121,6 +121,16 @@ Gemini Flash Tiered/high承担大部分分域研学；复杂理论交给Terra/xh
 
 若入口名称发生变化，应追踪真实source；导航不是证据。
 本矩阵不声称每一主题已经完成博士深度，也不要求先解决领域内所有开放争议。
+R3按每个主题的公式、实验链、反方和适用域重新对账，见
+[[doctoral-r3-readiness-evidence-matrix-20261108]]。R1/R2表中的开放producer、
+Cov与个别原文仍是具体研究边界，不作为无期限推迟基础准备的理由。
+
+R3新增解释入口：
+[[doctoral-r3-quantum-labels-and-model-boundaries-20261108]]、
+[[doctoral-r3-daq-spectroscopy-inverse-20261108]]、
+[[doctoral-r3-isomers-shell-and-survival-20261108]]、
+[[doctoral-r3-weak-operators-and-delayed-particles-20261108]]。
+核钟与NEEC旧页已原位修订无源门槛及过强因果，保留Git修订历史。
 
 ## Current Hypotheses
 
@@ -163,7 +173,9 @@ Gemini Flash Tiered/high承担大部分分域研学；复杂理论交给Terra/xh
    叙事引子不替代推导，不虚构个人成果或实验经历。
 7. 总控完成分域原件抽查、推导/数值核验及整体缺口复盘后，再记录是否就绪。
 
-当前判断：**尚在研究准备，未进入论文设计或正文写作。**
+当前判断：**已具备进入章节设计的科学基础；本批发布/执行验收以R3最终回执为准。**
+尚未清空旧稿或起草正文。七项条件、21项主题和六区原件见证已逐项列出，
+不是“整个核结构都已研究完毕”的声明。
 就绪不是“把所有争议解决”；未决争议可以成为高质量综述的一部分，
 前提是理解证据与竞争解释，而不是掩盖缺口。
 
@@ -177,20 +189,15 @@ Kumar1972全文、部分真实核的完整矩阵元/Cov、联合形状—取向�
 
 ## Next Actions
 
-R2已深化微观集体惯量、配对响应和时间奇均场，
-并保留实际原作版本、反方、输入标定和实验映射边界。
-七项Gemini任务（六域加一项窄审计）与一项Terra理论审计均回传；
-总控纠正页数、DOI、概率图/E0误读、响应定义及无源阈值后建立canonical知识。
-真实20行Lu表重算不等于原DSAM生产计算或模式确认。
-
-下一轮优先把形状振动与取向小振幅模的联系放到明确模型：
-回原始历史定义、核量子标签、集体坐标/非绝热近似和未拟合EM，
-找实际可运行的共同输入，避免不断生成没有区分力的同义toy。
-同时以初学者解释能力检查覆盖旋转对称恢复、形状涨落、惯量/配对、
-角关联/混合比/寿命以及吴论文电子学到物理观测的完整链。
-依据这些具体缺口复盘第一阶段就绪条件，而非无限扩张题录或等待所有争议消失。
-某条路径只有重复材料、没有区分观测或关键输入不可得时，记录边界并转向其它问题。
-每批结束更新覆盖状态、候选与下一步；保持原生goal，直到第一阶段准备目标实际达成。
+完成R3来源归档、数值/路径/A130保护、检索及发布验收后，
+第一阶段可收束并转向总控主理的章节设计研究。
+先比较组织论证的方案、教材先修关系和已有学位论文的具体薄弱处，
+形成有来源的章节/节级写作合同，再让Gemini按合同写作。
+不预设用户个人实验经历或结果，也不在设计前用旧目录机械改名。
+具体未决物理继续以D9–D12等问题推进，可与写作准备并行；
+阶段转换不结束长期研学，不把未知LEC/完整Cov/所有producer当无限门。
 过程回执在`outputs/l3/20261108-doctoral-foundations-r1/`，
 R2在`outputs/l3/20261108-doctoral-foundations-r2/`；
 执行计划为`outputs/plans/20261108-doctoral-foundations.md`及R2计划。
+R3过程在`outputs/l3/20261108-doctoral-foundations-r3/`，
+执行计划`outputs/plans/20261108-doctoral-foundations-r3.md`。

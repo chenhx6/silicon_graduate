@@ -1,0 +1,119 @@
+{
+  "recorded_at": "2026-11-07T22:53:57.096691+00:00",
+  "update_returncode": 0,
+  "mode": "BM25 text only",
+  "collection": "nuclear-knowledge",
+  "embeddings_requested": false,
+  "explicit_cleanup_requested": false,
+  "queries": [
+    {
+      "query": "doctoral phase one readiness evidence matrix",
+      "returncode": 0,
+      "results": [
+        {
+          "docid": "#2b3b99",
+          "score": 0.92,
+          "file": "qmd://nuclear-knowledge/research-notes/133ce-triaxial-core-collective-mode-route-20261101.md?index=wiki",
+          "line": 12,
+          "title": "`133Ce` triaxial core and collective-mode research route",
+          "snippet": "@@ -11,4 @@ (10 before, 336 after)\nreasoning_status: provisional\nevidence_sources: [userdata-133ce-southafrica-dataset, nuclearmap-jcnp-pc-pk1]\ncreated_from: \"User-authorized South Africa data cleanup and 133Ce collective-mode research\"\ntags: [133ce, triaxiality, collective-excitation, wobbling, potential-energy-surface, nuclear-m..."
+        },
+        {
+          "docid": "#e9984e",
+          "score": 0.91,
+          "file": "qmd://nuclear-knowledge/research-notes/doctoral-r3-readiness-evidence-matrix-20261108.md?index=wiki",
+          "line": 4,
+          "title": "以能解释、能核查、能指出失败处，判断是否进入论文设计",
+          "snippet": "@@ -3,4 @@ (2 before, 152 after)\ntitle: \"R3 博士前置研究就绪矩阵：七项条件、六区案例与全主题解释证据\"\naliases: [doctoral phase one readiness evidence matrix]\ncreated: 2026-11-08\nupdated: 2026-11-08"
+        },
+        {
+          "docid": "#aef2f2",
+          "score": 0.9,
+          "file": "qmd://nuclear-knowledge/index.md?index=wiki",
+          "line": 12,
+          "title": "Wiki Index",
+          "snippet": "@@ -11,4 @@ (10 before, 1896 after)\n\n- [[doctoral-r3-readiness-evidence-matrix-20261108]] — 六区、21项主题和七项条件的逐项依据，区分基础充分与前沿未决。\n- [[doctoral-r3-quantum-labels-and-model-boundaries-20261108]] — D₂、signature、反幺正手征、非正交投影、允许性/多根及历史模型对账。\n- [[doctoral-r3-daq-spectroscopy-inverse-20261108]] — 吴论文事件字、共同busy、光子/总分支、δ和寿命/CoulEx反演。"
+        },
+        {
+          "docid": "#f3ace0",
+          "score": 0.88,
+          "file": "qmd://nuclear-knowledge/overview.md?index=wiki",
+          "line": 12,
+          "title": "Knowledge Base Health Dashboard",
+          "snippet": "@@ -11,4 @@ (10 before, 393 after)\n\n[[doctoral-r3-readiness-evidence-matrix-20261108]]逐项连接六区、21个主题与七项准备条件；\n当前科学基础可支持进入章节设计，执行验收以R3最终回执为准。\nR3实际13个Gemini/high与2个Terra/xhigh任务均回传并关闭，runtime路由已核。"
+        }
+      ],
+      "stderr": ""
+    },
+    {
+      "query": "R3 DAQ spectroscopy inverse",
+      "returncode": 0,
+      "results": [
+        {
+          "docid": "#3d5c69",
+          "score": 0.94,
+          "file": "qmd://nuclear-knowledge/research-notes/doctoral-r3-daq-spectroscopy-inverse-20261108.md?index=wiki",
+          "line": 4,
+          "title": "事件字不是γ强度，γ强度也不是核形状",
+          "snippet": "@@ -3,4 @@ (2 before, 182 after)\ntitle: \"R3 实验解释：数字获取、联合接受度与电磁强度反演\"\naliases: [R3 DAQ spectroscopy inverse]\ncreated: 2026-11-08\nupdated: 2026-11-08"
+        },
+        {
+          "docid": "#88110b",
+          "score": 0.93,
+          "file": "qmd://nuclear-knowledge/projects/doctoral-nuclear-structure-foundations.md?index=wiki",
+          "line": 130,
+          "title": "博士论文前置研究：从核子运动到可测量的形变信息",
+          "snippet": "@@ -129,4 @@ (128 before, 72 after)\n[[doctoral-r3-quantum-labels-and-model-boundaries-20261108]]、\n[[doctoral-r3-daq-spectroscopy-inverse-20261108]]、\n[[doctoral-r3-isomers-shell-and-survival-20261108]]、\n[[doctoral-r3-weak-operators-and-delayed-particles-20261108]]。"
+        },
+        {
+          "docid": "#f60880",
+          "score": 0.93,
+          "file": "qmd://nuclear-knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md?index=wiki",
+          "line": 61,
+          "title": "吴鸿毅 2020：通用数字化获取系统的开发",
+          "snippet": "@@ -60,4 @@ (59 before, 119 after)\n通用联合接受度、共同busy及光子率反演为任务推导，见\n[[doctoral-r3-daq-spectroscopy-inverse-20261108]]，不是本论文已测得的用户系统参数。\n\n## Paper Question and Scientific Motivation"
+        },
+        {
+          "docid": "#df14b8",
+          "score": 0.93,
+          "file": "qmd://nuclear-knowledge/research-notes/doctoral-r3-isomers-shell-and-survival-20261108.md?index=wiki",
+          "line": 71,
+          "title": "一个态寿命长，不代表它必能形成，也不代表所有环境都保留它",
+          "snippet": "@@ -70,4 @@ (69 before, 124 after)\n\\(f_\\nu=F_W^{1/\\nu}\\)是常用表征。ν≤0时不能继续解释为该禁戒度根。\n光子分寿命、ICC和总分支关系见[[doctoral-r3-daq-spectroscopy-inverse-20261108]]。\n经验fν不是普适常数。\n"
+        }
+      ],
+      "stderr": ""
+    },
+    {
+      "query": "IAEA delayed neutron database",
+      "returncode": 0,
+      "results": [
+        {
+          "docid": "#114300",
+          "score": 0.96,
+          "file": "qmd://nuclear-knowledge/sources/dimitriou-2021-beta-delayed-neutron-reference-database.md?index=wiki",
+          "line": 4,
+          "title": "β 强度、粒子通道与探测计数之间的三层关系",
+          "snippet": "@@ -3,4 @@ (2 before, 58 after)\ntitle: \"Dimitriou 等 2021：β 缓发中子参考数据库与测量方法\"\naliases: [IAEA 2021 delayed neutron database]\ncreated: 2026-11-08\nupdated: 2026-11-08"
+        },
+        {
+          "docid": "#334c5d",
+          "score": 0.95,
+          "file": "qmd://nuclear-knowledge/research-notes/doctoral-r3-weak-operators-and-delayed-particles-20261108.md?index=wiki",
+          "line": 12,
+          "title": "同一个“弱强度”名称，可能指不同算符、空间和能窗",
+          "snippet": "@@ -11,4 @@ (10 before, 182 after)\npromotion_target: \"\"\nevidence_sources: [book-suhonen-from-nucleons-to-nucleus, doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives, engel-menendez-2017-double-beta-matrix-elements-review, cirigliano-2018-leading-short-range-double-beta, dimitriou-2021-beta-delayed-neutron-reference-database]\ntags..."
+        },
+        {
+          "docid": "#aef2f2",
+          "score": 0.84,
+          "file": "qmd://nuclear-knowledge/index.md?index=wiki",
+          "line": 20,
+          "title": "Wiki Index",
+          "snippet": "@@ -19,4 @@ (18 before, 1888 after)\n- [[kvasil-2006-dy156-yb162-crpa-wobbling]]、[[engel-menendez-2017-double-beta-matrix-elements-review]]、\n  [[cirigliano-2018-leading-short-range-double-beta]]、[[dimitriou-2021-beta-delayed-neutron-reference-database]]、\n  [[li-2026-isomer-depletion-neies]] — 五个定向原件入口，实际底本和理论/测量边界逐source保留。\n"
+        }
+      ],
+      "stderr": ""
+    }
+  ]
+}

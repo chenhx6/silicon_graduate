@@ -1,0 +1,196 @@
+{
+  "schema": "doctoral-foundations-spectroscopy-inverse-v1",
+  "task_id": "R3-G50",
+  "title": "在束γ谱/寿命反演的解释能力与准备核查",
+  "run_date": "2026-11-08",
+  "status": "parent-audited-completed",
+  "scope": "从在束γ计数、角分布、偏振与多普勒线形到约化电磁跃迁矩阵元及势能面/惯量张量可识别性反演链审计",
+  "primary_sources": [
+    {
+      "id": "Görgen2004",
+      "citation": "A. Görgen et al., Phys. Rev. C 69, 031301(R) (2004)",
+      "doi": "10.1103/PhysRevC.69.031301",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "raw_sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e",
+      "scope": "PDF pp. 1-4, Tables I-II, Figs. 1-4",
+      "verified_elements": [
+        "15 in-band lifetimes, B(E2), and Qt values (Table I)",
+        "5 interband connecting B(E2) and B(M1) values (Table II)",
+        "Uncertainty boundary: stopping power systematics excluded"
+      ]
+    },
+    {
+      "id": "Clément2007",
+      "citation": "E. Clément et al., Phys. Rev. C 75, 054313 (2007)",
+      "doi": "10.1103/PhysRevC.75.054313",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G27/clement-2007-74kr-76kr-coulex-prc.pdf",
+      "raw_sha256": "2ee6c7be8a2fbb72a9f647a0c284181b2fc197e167381be67685f3a15018c0e8",
+      "scope": "PDF pp. 7-11, 14-17; Sec. IV.A-B; Tables V, VI, X, XI",
+      "verified_elements": [
+        "GOSIA chi-square minimization with multi-angle Coulex yields",
+        "Reorientation effect diagonal matrix elements and Qs values",
+        "Kumar-Cline quadrupole sum rules for shape invariants"
+      ]
+    },
+    {
+      "id": "Hamilton1975_LKH1982",
+      "citation": "W. D. Hamilton (ed.), 1975 & J. Lange, K. Kumar, J. H. Hamilton, Rev. Mod. Phys. 54, 119 (1982)",
+      "doi": "10.1103/RevModPhys.54.119",
+      "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+      "raw_sha256": "93b32a8debb66ad036229d860ad56f0434dc49b56edd32f1628af1d71a21ae00",
+      "scope": "Hamilton 1975 Ch. 12, 14; LKH 1982 Sec. II.A-B, pp. 121-123",
+      "verified_elements": [
+        "Dual-root rational formula for directional distribution and polarization",
+        "Krane-Steffen, Rose-Brink, and Biedenharn-Rose phase convention mapping",
+        "Uk unobserved cascade deorientation and Qk finite solid-angle attenuation"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "title": "DCO/角分布加polarization不总唯一给δ，多根与相位/符号约定",
+      "locators": {
+        "hamilton1975": "Ch. 12 pp. 505-550 (Eqs. W(theta)), Ch. 14 pp. 600-615, 626-660 (Eqs. P(theta))",
+        "lange_kumar_hamilton1982": "Rev. Mod. Phys. 54 pp. 121-122, Eqs. 2.1-2.11"
+      },
+      "beginner_explanation": "角分布各向异性与线偏振度均为混合比δ的二次有理式，代数求解必定产生双实数根；有限探测计数与偏振灵敏度导致两根置信带重叠，且程序混用KS/RB约定会使干涉项符号反转。",
+      "reported_facts": [
+        "A_k(delta) = [F_k + 2*delta*F_k_prime + delta^2*F_k_double_prime] / (1 + delta^2)",
+        "P(theta) = +- [P_2(delta)*P_2^(2)(cos theta) + ...] / W(theta)",
+        "delta_KS(gamma1) = -delta_BR(gamma1) = -delta_RB(gamma1)",
+        "delta_KS(gamma2) = +delta_BR(gamma2) = -delta_RB(gamma2)"
+      ],
+      "inferred_limitations": [
+        "仅靠极化无法无条件消除双根，似然函数在小统计下常呈现典型双峰结构",
+        "约定混淆会造成矩阵元比值符号反向，导出B(E2)与B(M1)产生数十倍数值偏差"
+      ],
+      "competing_interpretation": "文献中宣称的大δ（E2为主）可能系拟合陷入虚假极小；若真实解为小δ，则跃迁为常规M1单粒子跃迁，摆动增强假说不成立。",
+      "real_uncovered_gap": "绝大多数在束高自旋文献未公开二维chi^2(A2, A4)轮廓，未报告偏振分析仪灵敏度Q(E)的实测能量依赖协方差。"
+    },
+    {
+      "id": "Q2",
+      "title": "反应alignment/feeding/几何响应怎样进似然，不把响应系数当常数真理",
+      "locators": {
+        "hamilton1975": "Ch. 12 pp. 520-545 (Bk, sigma/I, Qk), Ch. 14 pp. 580-605 (Uk deorientation)"
+      },
+      "beginner_explanation": "重离子碰撞自旋对齐随激发能量与中间级联演化；未观测旁路级联通过Uk系数持续冲淡取向度，探测器几何衰减Qk随能量连续变化，不可当固定经验常数。",
+      "reported_facts": [
+        "P(m) 正比于 exp(-m^2 / 2*sigma^2)，取向张量 B_k 由高斯宽度 sigma/I 决定",
+        "未观测跃迁去取向因子 U_k(I1, I2, L) 由 Wigner 6j 符号精确推导计算",
+        "有限立体角几何衰减因子 Q_k(E_gamma) 取决于光子在锗晶体内的穿透深度",
+        "实验观测系数 a_k = Q_k(E_gamma) * B_k(sigma/I, {U_k}) * R_k(delta)"
+      ],
+      "inferred_limitations": [
+        "人为假定恒定sigma/I=0.35会产生20%-50%系统偏差并人为低估拟合误差",
+        "响应参数必须与同级联已知纯E2跃迁在统一似然框架内联合原位标定"
+      ],
+      "competing_interpretation": "角各向异性减弱实际上来自高自旋连续态慢速旁路级联的强去取向效应，而非跃迁本身具有大M1混合成分。",
+      "real_uncovered_gap": "探测器有限角卷积响应矩阵与各级联旁路喂送时间分布在既有在束实验中均未公开原始数据。"
+    },
+    {
+      "id": "Q3",
+      "title": "tau/branch/ICC/delta怎样进绝对B(E2), B(M1)，给单位与上下行(2I+1)因子",
+      "locators": {
+        "bohr_mottelson1975": "Vol. I p. 382, Eq. 3-107",
+        "lange_kumar_hamilton1982": "Rev. Mod. Phys. 54 p. 121, Eqs. 2.1-2.6"
+      },
+      "beginner_explanation": "从测得寿命到约化跃迁几率，必须依次扣除全退激竞争分支、内转换电子损失与E2/M1能量五次方/三次方依赖；上下行自旋简并度差异要求乘除(2I+1)因子。",
+      "reported_facts": [
+        "T_gamma(E2) = 1.225e13 * [E_gamma(MeV)]^5 * B(E2_down; e^2 b^2) s^-1",
+        "B(E2_down; e^2 b^2) = 0.0816 / [E_gamma(MeV)^5 * tau_E2(ps)]",
+        "T_gamma(M1) = 1.758e13 * [E_gamma(MeV)]^3 * B(M1_down; mu_N^2) s^-1",
+        "B(M1_down; mu_N^2) = 0.0569 / [E_gamma(MeV)^3 * tau_M1(ps)]",
+        "B(sigma L_up; If -> Ii) = [(2*Ii + 1) / (2*If + 1)] * B(sigma L_down; Ii -> If)"
+      ],
+      "inferred_limitations": [
+        "低能区忽略内转换系数alpha_tot将导致推断出的B(E2)被严重低估数倍",
+        "混淆上下行自旋因子在0+到2+偶偶核跃迁中会导致恰好5倍的系统错误"
+      ],
+      "competing_interpretation": "低能跃迁的大部分电磁宽度由未测的E0转换电子通道分流，导致仅凭光子计数推断的B(E2)失真。",
+      "real_uncovered_gap": "各实验观测量（寿命、分支比、混合比）之间的非线性协方差在既有文献中均被简化为无规误差平方和。"
+    },
+    {
+      "id": "Q4",
+      "title": "DSAM stopping、side feeding、line shape与RDM/RDDS不同信息，Gorgen何项系统误差未计、薄靶delta/分支依赖",
+      "locators": {
+        "gorgen2004": "Phys. Rev. C 69, 031301(R) PDF p. 2 col. 1-2, Table I, Table II"
+      },
+      "beginner_explanation": "DSAM通过衬底连续减速多普勒展宽测飞秒寿命，高度敏感于阻止本领与旁路滞后；RDM通过真空飞行柱塞测皮秒寿命。Görgen明确声明不计阻止本领系统误差，且带间B值严重依赖先前薄靶实验的分支比与delta。",
+      "reported_facts": [
+        "DSAM减速模拟基于Northcliffe-Schilling电子阻止本领表并附加壳修正",
+        "明确声明: Systematic errors originating from the choice of stopping powers are not included",
+        "TSD2带内B(E2)所需出带分支比直接采自先前薄靶实验 (Jensen et al. 2002 [22])",
+        "Table II带间B(E2)与B(M1)计算采用全带固定的平均混合比 delta = -3.1 (Ødegård et al. 2001 [1])"
+      ],
+      "inferred_limitations": [
+        "阻止本领模型选择导致10%-15%的整体寿命平移，虽不改变带内比值但改变绝对四极矩定标",
+        "若薄靶分支比或delta随自旋演化，则Görgen声称的恒常B(E2)比与三轴度演化结论完全瓦解"
+      ],
+      "competing_interpretation": "高自旋区Qt的视在下降并非核芯三轴度gamma增加，而是由于高速离子阻止本领模拟失真或未测慢旁路滞后所致。",
+      "real_uncovered_gap": "未能实现同一厚靶实验下分支比、混合比与寿命的一体化自洽反演；缺乏低自旋端独立RDDS基准标定。"
+    },
+    {
+      "id": "Q5",
+      "title": "CoulEx带符号网络与对角矩阵元怎样增加形状约束，为什么仍不能唯一重建势/惯量",
+      "locators": {
+        "clement2007": "Phys. Rev. C 75, 054313 Sec. IV.A-B, Tables V, VI, X, XI"
+      },
+      "beginner_explanation": "库仑激发通过重取向效应测定对角矩阵元（直接定长扁椭符号），通过多步干涉测定带符号网络，由求和规则提取电荷形变不变量；但因算符期望值对动能质量张量缺乏约束且势阱刚度存在代偿，仍不能唯一反演势能面与集体惯量。",
+      "reported_facts": [
+        "重取向效应使二阶激发截面直接依赖对角矩阵元 <I||M(E2)||I>，决定谱四极矩 Q_s",
+        "多步激发闭合路径相干干涉确定了矩阵元网络的相对符号，形成规范不变闭合回路",
+        "Kumar-Cline求和规则直接计算模型无关的内禀形变不变量 <Q^2> 与 <Q^3 cos(3delta)>"
+      ],
+      "inferred_limitations": [
+        "相同形变矩可由静态三轴刚性势、动态gamma软涨落或微观离散双态混合共同复现",
+        "电多极算符矩阵元对微观动能惯量张量B_mu_nu缺乏直接一阶约束，存在质量-势能代偿冗余"
+      ],
+      "competing_interpretation": "74,76Kr的低激发谱特性由大范围动态gamma软涨落及微观配对涨落驱动，无须假设离散的长-扁双带刚性共存。",
+      "real_uncovered_gap": "有限低能级截断使求和规则存在10%-20%未闭合残差；实验对三维非对角微观集体惯量缺乏独立物理观测量。"
+    },
+    {
+      "id": "Q6",
+      "title": "同母态共同tau与跨母态误差如何处理，最小新增观测怎样改变解释排序",
+      "locators": {
+        "gorgen2004": "Phys. Rev. C 69, 031301(R) p. 3 col. 2, p. 4 col. 1, Fig. 4"
+      },
+      "beginner_explanation": "同母态出带与带内B(E2)之比完全消去母态寿命及其阻止本领系统误差；跨母态比较则保留了非平庸的速度依赖阻止本领系统漂移，严禁将全阵列系统误差假设为自动对消；二声子带绝对强度与逐态偏振测量是颠覆当前解释的最小判据。",
+      "reported_facts": [
+        "B(E2; out)/B(E2; in) 比值严格消去母态寿命 tau_i 及所有同能级整体因子",
+        "跨母态形变演化分析必须采用块状协方差矩阵 V_tau = sigma_syst^2 * J + D_stat"
+      ],
+      "inferred_limitations": [
+        "全阵列系统误差跨母态自动对消是严重物理谬误，会把仪器刻度弯曲错当核形状演化",
+        "Görgen利用常数比推断gamma从16度变到22度，高度脆弱地依赖全带delta恒为-3.1的假定"
+      ],
+      "competing_interpretation": "带间E2比值的近似恒定可由推转粒子转子模型中费米面特定准粒子受阻转动产生，无需引入摆动模式。",
+      "real_uncovered_gap": "163Lu缺乏对二声子带TSD3绝对跃迁几率的测量；缺乏带间逐能级delta(I)与偏振度的独立实验。"
+    }
+  ],
+  "doctoral_readiness_audit": {
+    "count_to_matrix_element_chain": "通过角分布、去取向、寿命与支路解耦，确立从探测器计数反演约化矩阵元的严格数学-实验链",
+    "matrix_element_to_shape_invariance": "明确矩阵元闭合求和与Kumar-Cline不变量的物理边界，阻断将电荷矩直接等同于微观集体势势阱的推断跃迁",
+    "reconstruction_non_uniqueness_defense": "掌握集体动能惯量与势能曲面的规范代偿自由度，完成反演解释能力的学术防御准备",
+    "audit_checks": [
+      "check_1_dual_root_degeneracy_verified_in_hamilton1975",
+      "check_2_alignment_feeding_geometry_verified_in_hamilton1975",
+      "check_3_rate_formulas_and_spin_factors_verified_in_bm1975_lkh1982",
+      "check_4_gorgen2004_stopping_and_thin_target_dependence_verified",
+      "check_5_clement2007_coulex_signed_network_and_inertia_limits_verified",
+      "check_6_common_parent_cancellation_and_covariance_rules_verified"
+    ],
+    "doctoral_defense_preparation": [
+      "掌握DCO与线偏振双根数学来源与破除条件，防止在答辩中将单一似然极小断言为唯一物理态",
+      "掌握DSAM阻止本领对整体形变标度的全局缩放机制，区分同母态对消与跨母态协方差",
+      "掌握CoulEx重取向效应与Kumar-Cline不变量对电荷形状的测量能力及其对动能惯量张量的不可识别性"
+    ]
+  },
+  "methodological_boundary": {
+    "prohibit_universal_thresholds": true,
+    "prohibit_automatic_cross_state_cancellation": true,
+    "prohibit_user_confirmation_gates": true,
+    "prohibit_thesis_ghostwriting": true,
+    "prohibit_inertia_recomputation": true
+  }
+}

@@ -3,6 +3,20 @@ graph-excluded: true
 updated: 2026-11-08
 ---
 
+
+## 2026-11-08 — 博士前置 R3：基础、解释能力与阶段转换依据
+
+- 第一阶段goal为01a1b53d-130f-7f42-985b-7a51dbc9f8d0。R1六区、R2惯量后，R3补原始基础、量子标签、两翼与实验反演；逐项科学就绪依据在knowledge/research-notes/doctoral-r3-readiness-evidence-matrix-20261108.md。基础足以进入总控章节设计；最终检查、发布和goal实际状态以R3最终任务回执为准，不将未决LEC/Cov/producer变成无限准备门。
+- R3实际13 Gemini Tiered/high（G45–G57）+2 Terra/xhigh（T06–T07），均回传关闭，本地turn_context路由核对。原工作稿本地tmp留存，公开report只留回执/canonical指针；worker JSON仍是自报，不当事实源。不触碰旧无关agent。
+- 7新source：Bohr1952、BM1953、Kvasil预印本、Engel2017、Cirigliano2018、IAEA2021、Li2026；五篇新note含就绪矩阵、量子标签、完整实验链、弱算符/β缓发、异能态/热网络/反应。核钟/NEEC旧页及Huang/Xu/Wu source原位校正，index/overview/项目/综合/问题D12同步。
+- BM1953实际选读7–32及89–96共34页，非全176页；总控视觉核TableXXIII：160Dy85keV/F140/βE.65/βQ.28，无表内误差。作者同时讨论Q几何映射与B不足，非唯一TV归因；旧暂定核态不当现代评价。
+- 核标签：C=TRy(pi)的C²=+1且反幺正±不能当普通宇称；D2限纯四极标量；同标签允许不强迫耦合；非正交投影保S；高阶八极E1只证允许。22项自有数学控制与producer/源/产物hash已核，不是实核拟合。
+- 弱/实验：Ikeda3来自sigma²=3，单体完整差和与总流/有限Q分开；β缓发用最终级联/多重度及联合效率，非阈上feeding；CVC不禁止所有有效矢量修正，0ν限定轻Majorana与方案相关短程项。事件位宽非精度、共同busy非单道live乘积、光子/总branch、ICC与共同τ/跨母态Cov分别处理。
+- 原件纠错：Huang12kHz为调制幅度，fm=.888kHz（附表视觉）；631s平均寿命不与568s半衰期等同，27kHz非实测T2。Li为PRC113,044329/DOI10.1103/slrl-9yfr的NEIES理论，非044607/NEEC测量。Xu四页确有Fig4–5，256Fm70ns总/0.8ms裂变部分须分开。
+- raw新增均本地原件/metadata；原件URL失败与实际机构原作分开。metadata manifest首次entries schema失败已保留初始字节并改files，最终结果见archive-validation-final.json。专题日期11月8日，actual UTC观测11月7日保留，不伪造获取时刻。馆藏旧catalog未冒称已刷新，已知新路径直接核验。
+- A130原34文件路径/SHA继续全部保留，本批不清空、不写论文章节；PLAN、其它手稿、daily课程/daemon/凭据不改。进入章节设计先做学位样本比较、论证组织和详细Gemini合同；用户个人结果未知时不虚构。
+- R3发布稳定指针预定main / research: establish doctoral foundations and readiness evidence；真实精确hash、push与post-commit reconciliation只写outputs/l3/20261108-doctoral-foundations-r3/publication-final-receipt.local.json。
+
 ## 2026-11-08 — 博士前置研学 R2（goal active，继续阶段一）
 
 - 原生goal仍为01a1b53d-130f-7f42-985b-7a51dbc9f8d0；完整任务是先充分研学A60–190及一核两翼/吴论文电子学，再进入总控主导章节设计与Gemini写作。R2是里程碑，不将论文数或局部检查当作整个goal完成。

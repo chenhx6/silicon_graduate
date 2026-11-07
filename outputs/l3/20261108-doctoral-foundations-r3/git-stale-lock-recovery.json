@@ -1,0 +1,9 @@
+{
+  "recorded_at": "2026-11-07T22:56:42.457634+00:00",
+  "path": ".git/index.lock",
+  "age_seconds": 1818.4681730270386,
+  "size": 0,
+  "git_processes_in_repository": [],
+  "identity_rechecked_before_unlink": true,
+  "action": "removed verified stale empty transient lock; no index or history rewrite"
+}

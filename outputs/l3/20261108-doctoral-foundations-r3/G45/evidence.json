@@ -1,0 +1,122 @@
+{
+  "task_id": "R3-G45",
+  "topic": "核对gamma形状振动与取向/wobbling模式的量子标签",
+  "retrieved_at": "2026-11-08T06:00:00Z",
+  "scope": "outputs/l3/20261108-doctoral-foundations-r3/G45/",
+  "primary_sources": [
+    {
+      "key": "matsuzaki-2004-prc69-034325",
+      "title": "Nuclear moments of inertia and wobbling motions in triaxial superdeformed nuclei",
+      "authors": [
+        "M. Matsuzaki",
+        "Y. R. Shimizu",
+        "K. Matsuyanagi"
+      ],
+      "journal": "Physical Review C 69, 034325 (2004)",
+      "doi": "10.1103/PhysRevC.69.034325",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/matsuzaki-2004-nuclear-moments-of-inertia-prc69-034306.pdf",
+      "pages": 22
+    },
+    {
+      "key": "bohr-mottelson-nuclear-structure-vol2",
+      "title": "Nuclear Structure, Volume II: Nuclear Deformations",
+      "authors": [
+        "A. Bohr",
+        "B. R. Mottelson"
+      ],
+      "publisher": "W. A. Benjamin / World Scientific reissue",
+      "year": 1975,
+      "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "sections": "§4-5 (pp. 175-181) and §4-5e (pp. 190-192)"
+    },
+    {
+      "key": "kvasil-nazmitdinov-2006-arxiv",
+      "title": "Wobbling excitations in 156Dy and 162Yb",
+      "authors": [
+        "J. Kvasil",
+        "R. G. Nazmitdinov"
+      ],
+      "arxiv": "nucl-th/0611059",
+      "year": 2006,
+      "raw_file": "raw/papers/gpt/query/20261108-r3-g45-quantum-labels/kvasil-nazmitdinov-2006-wobbling-dy156-yb162.pdf",
+      "pages": 17
+    }
+  ],
+  "items": [
+    {
+      "id": "item-1",
+      "question": "实验室Jπ、intrinsic K、signature α/r分别在何种Hamiltonian/参考态是好量子数",
+      "explanation_for_beginner": "在量子力学中，“好量子数”指物理算符与哈密顿量对易从而其本征值守恒。在无外场的真实原子核实验室系（H_lab），空间平移、旋转与反演完全对称，总角动量与宇称J^π是严格的好量子数；但在自洽微观平均场（如HFB/Nilsson）中，人为引入的形变破坏了SO(3)旋转对称性，单体态不再具有确定J，需经三维角动量投影算符恢复。内禀投影K（沿内禀对称轴的角动量分量）仅在轴对称参考态（γ=0°或-60°）且科氏解耦为零时守恒（[H_intr, J3]=0）；三轴形变（γ≠0°）或科氏相互作用通过ΔK=±1, ±2产生强烈混合，使K彻底丧失好量子数地位。转动旋称（signature）α与相因子r=exp(-iπα)描述绕曲柄转动主轴（通常为1轴/x轴）旋转180°的离散对称性R_x(π)=exp(-iπJx)；在一维主轴曲柄哈密顿量h'=h-ħω_rot Jx且平均场保持D2点群椭球对称性时，[h', R_x(π)]=0，α是严格守恒的好量子数。若发生倾斜轴转动（TAC/手征转动）或空间八极反射对称破缺，则单一主轴旋称破缺。",
+      "minimal_equation_with_units_or_phase": "[H_lab, J^2]=0, [H_lab, P]=0; [H_axial, J_3]=0 => J_3|Phi_K>=K ħ|Phi_K>; R_x(pi)=exp(-i pi J_x/ħ), R_x(pi)|alpha>=exp(-i pi alpha)|alpha>, r=exp(-i pi alpha), I = alpha mod 2",
+      "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "actual_pdf_page": "BM-II PDF pp. 199–201 (§4-5, printed pp. 177–179); Matsuzaki 2004 PDF p. 3 (Sec. II, printed p. 3)",
+      "eq_figure": "BM-II Eqs. (4-269), (4-274), (4-277); Matsuzaki 2004 Eqs. (1)–(4)",
+      "reported_vs_derived": "原件报告：BM-II §4-5严格证明了D2椭球对称转子波函数在R_k(π)下分为4种一维不可约表示，K=0分量仅存在于r3=+1且(-1)^I=r2的序列；Matsuzaki 2004 Eq. (1)-(4)直接报告曲轴h'保持宇称π与旋称α守恒。任务推导：将平均场角动量弥散、三轴科氏混杂与TAC倾斜轴破缺统一整合为好量子数适用条件分层。",
+      "strongest_counterexample": "奇奇核与奇A核中的非共面手征倾斜转动（TAC，如135Nd/134Pr手征双重带），转动轴脱离任一惯量主轴，离散旋称R_x(π)与K均动力学破缺；八极形变核中空间反演破坏使得宇称π在单体参考态中丧失。",
+      "unresolved_boundary": "中低自旋过渡区核中，科氏力与三轴形变软度处于中等强度，K发生部分混合（K-mixing）但未完全各态历经，此时既非纯K绝热带也非理想摆动带，解析表象无法单一分类。"
+    },
+    {
+      "id": "item-2",
+      "question": "为什么Matsuzaki2004明确说odd-spin gamma-band成员与小振幅wobbling同π=+和α=1，具体原句页码",
+      "explanation_for_beginner": "四极激发（L=2）由电四极算符Y_2μ张成，空间反演宇称π=(-1)^2=+1，故γ振动与wobbling态均具正宇称。在偶偶核中，基态yrast带（n_w=0）仅含偶自旋I=0, 2, 4,...，其旋称由I=α mod 2给出α=0（相因子r=+1）。γ振动带（K=2）包含全序列I=2, 3, 4, 5, 6,...，其中偶自旋成员（I=2, 4, 6,...）具有α=0，而奇自旋成员（I=3, 5, 7,...）则严格具有α=1（r=-1）。对于小振幅wobbling运动（1声子，n_w=1），它对应角动量矢量在垂直于转轴（x轴）平面的微小进动，声子算符c^†由横向算符构成（c^†∝J_z-iJ_y）。在绕x轴旋转180°（R_x(π)）下，横向分量同时变号（J_y->-J_y, J_z->-J_z），导致R_x(π) c^† R_x^†(π) = -c^† = exp(-iπ·1) c^†，因此一个wobbling声子严格携带Δα=1（r_ph=-1）。作用在α=0的基准带上，产生的1声子wobbling带总旋称必定为α=1（r=-1），在偶偶核中对应奇自旋序列I=1, 3, 5, 7,...。正因奇自旋γ带成员与1声子wobbling态具有完全相同且守恒的对称量子数（π=+, α=1），Mikhailov与Janssen（1978）早在微观理论初期就预言高转速下的wobbling是低自旋奇自旋γ振动带的高自旋延续。",
+      "minimal_equation_with_units_or_phase": "R_x(pi) c_wob^† R_x^†(pi) = -c_wob^† = exp(-i pi · 1) c_wob^† => alpha_wob = 1, r_wob = -1; I_gamma_odd in {3, 5, 7, ...} => alpha = I mod 2 = 1, pi = +",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/matsuzaki-2004-nuclear-moments-of-inertia-prc69-034306.pdf",
+      "actual_pdf_page": "PDF 第 2 页 (printed p. 2, Sec. I Introduction, left col., lines 17–23)",
+      "eq_figure": "Sec. I, text sentence citing Ref. [11] (I. N. Mikhailov & D. Janssen, Phys. Lett. 72B, 303 (1978))",
+      "reported_vs_derived": "原件报告原句（PDF p. 2）：\"Since the small-amplitude wobbling mode carries the same quantum numbers, parity π = + and signature α = 1, as the odd-spin members of the γ band, Ref.[11] anticipated that it would appear as a high-spin continuation of the γ band, but it has not been resolved that in what nuclei, at what spins, and with what γ wobbling modes would be observed.\" 任务推导：推导了横向玻色算符在R_x(π)下的变号相因子与偶自旋γ成员（α=0）不可与1声子wobbling等同的对称性机制。",
+      "strongest_counterexample": "奇A核（如163Lu），由于价质子占据高j的πi_13/2轨道产生内禀顺排，其基带TSD1的旋称为α=+1/2（I=13/2, 17/2, 21/2,...），此时1声子wobbling带TSD2的旋成为α=-1/2（I=15/2, 19/2, 23/2,...），表现为半整数自旋交错，不再是偶偶核的整数奇偶自旋。",
+      "unresolved_boundary": "虽然两者具有相同量子标签，但从大振幅γ软振动向稳定三轴刚性wobbling进动的转变在微观自洽多体框架中并非严格突变，中间态是否存在明确的振动/取向分界线在有限核体系中仍属开放理论边界。"
+    },
+    {
+      "id": "item-3",
+      "question": "局部实坐标qγ的反射偶性不等于一切QRPA gamma振动的signature，哪些假设才允许或禁止混合",
+      "explanation_for_beginner": "一维几何toy模型中，常将γ形变视作一个实坐标标量q_γ（如偏离平衡的位移），并假设势场具有q_γ->-q_γ的镜面反射对称性，从而得出偶/奇反射宇称，并武断得出偶奇禁戒混杂的伪选择律。但微观旋转核中的旋称（signature）是全空间多体坐标与自旋绕曲柄转轴作180°旋转的全局操作R_x(π)，绝不是内禀几何坐标的局部镜面反射。在QRPA微观理论中，四极算符由两准粒子激发张成；在旋转坐标系（ω_rot>0）下，原静止核中K=±2简并的γ振动自发投影分解为两个不同的旋称分支：α=0的偶分支Q_2^(+)∝(y^2-z^2)与α=1的奇分支Q_2^(-)∝xy。因此QRPA γ振动内禀地拥有α=1的物理分支。允许混合的物理假设：当原子核存在三轴形变（γ≠0°）且自转（ω_rot>0）时，主导wobbling的取向波动Q_1^(-)∝xz与主导奇自旋γ振动的Q_2^(-)∝xy具有完全相同的守恒量子数（π=+, α=1），微观残余四极相互作用H_int^(-)与科氏耦合必定使K=1和K=2分量发生强烈的动力学混合（Matsuzaki 2004 p. 11）。禁止混合的假设：若严格假设ω_rot=0且γ=0°（轴对称不转动），[H, J_3]=0使K为严格好量子数，ΔK≠0的矩阵元严格为零，两者解耦；若比较的是1声子wobbling（α=1）与偶自旋γ振动（α=0），则受旋称守恒严格禁戒混合。将局部1D坐标反射禁戒推广为普适选择律，是人为冻结转动自由度产生的错误外推。",
+      "minimal_equation_with_units_or_phase": "Q_K^(±) = (Q_K ± Q_-K)/sqrt(2(1+delta_K0)), R_x(pi) Q_K^(±) R_x^†(pi) = ±(-1)^K Q_K^(±); Q_1^(-) ~ xz (alpha=1), Q_2^(-) ~ xy (alpha=1); <alpha=1|H_int^(-)|alpha=1> != 0",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/matsuzaki-2004-nuclear-moments-of-inertia-prc69-034306.pdf",
+      "actual_pdf_page": "Matsuzaki 2004 PDF pp. 4, 11 (Sec. II & Sec. III.B.1)",
+      "eq_figure": "Matsuzaki 2004 Eqs. (5)–(7), Fig. 1(d)",
+      "reported_vs_derived": "原件报告：Matsuzaki 2004 p. 11直接说明，γ~0区主要呈现K=2为主的γ振动特征，而三轴度与转动介入后K=1成分强烈混入，诱发wobbling运动特征；跃迁振幅T_1与T_2的相对符号直接决定了B(E2)_out跨带跃迁的I->I±1交错规律。任务推导：系统对比揭示了1D局部坐标反射与微观转动旋称的数学区别，指明静止冻结转动是产生伪反射禁戒的根源。",
+      "strongest_counterexample": "在168Hf的TSD态微观RPA计算中（ε2=0.43, γ=20°），跃迁振幅T1与T2（Fig. 1(d)）同时显著非零，证明真实态微观波函数是K=1（取向）与K=2（形状振动）的深度混合体，并非单一坐标反射禁戒态。",
+      "unresolved_boundary": "在极软的三轴核（如131Ce或135Pr）中，大振幅形状涨落导致平衡点失去定域性，微观小振幅QRPA展开面临多体非简谐发散，定域简谐假定失效。"
+    },
+    {
+      "id": "item-4",
+      "question": "其RPA α=1残余相互作用、旋转NG伪模与物理模的分离条件",
+      "explanation_for_beginner": "转动平均场破坏了空间连续旋转对称性，根据Nambu-Goldstone定理，体系必然产生对应全核刚体自由转动的“旋转NG伪模”（在转动系频率严格为ω_rot，对应实验室零频）。在RPA计算中，若残余相互作用不自洽，伪模会污染真实的物理激发。Matsuzaki 2004采用双伸缩四极相互作用（doubly-stretched Q''·Q''），在旋称α=1扇区中仅保留两个有效分量Q''_1^(-)与Q''_2^(-)（式5）。分离条件：1) 平均场变形与双伸缩残余相互作用力常数κ_K^(-)严格满足自洽恢复力条件（Marshalek 1979）；2) 原子核具有非零三轴度γ≠0°。在此条件下，RPA久期方程行列式可严格解析因式分解为(ω_n^2 - ω_rot^2)与物理久期项的乘积（式11）。第一项严格剥离出ω_n = ω_rot的旋转NG伪模，第二项给出完全解耦的物理集体激发（包括wobbling模ω_wob），且方程形式完全独立于具体的相互作用强度κ_K^(-)！这保证了物理模纯净无伪模污染。",
+      "minimal_equation_with_units_or_phase": "H_int^(-) = -1/2 sum_{K=1,2} kappa_K^(-) Q''_K^(-)† Q''_K^(-); (omega_n^2 - omega_rot^2) * [omega_n^2 - omega_rot^2 * (Jx - Jy^(eff))(Jx - Jz^(eff))/(Jy^(eff) Jz^(eff))] = 0",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/matsuzaki-2004-nuclear-moments-of-inertia-prc69-034306.pdf",
+      "actual_pdf_page": "PDF 第 4 页 (Sec. II, printed p. 4, Eqs. 5–12)",
+      "eq_figure": "Matsuzaki 2004 Eqs. (5), (8), (11), (12)",
+      "reported_vs_derived": "原件报告：Matsuzaki 2004式 (11) 严格给出因子化形式，明确证明第一因子代表的Nambu-Goldstone伪模与第二因子代表的所有物理正常模完全解耦，且独立于κ_K^(-)；式 (12) 导出与Bohr-Mottelson宏观转子完全一致但惯量依赖于频率的微观摆动频率。任务推导：提炼出自洽双伸缩平均场条件、配对α=0正交性与γ≠0三轴性构成因子分解的充要条件。",
+      "strongest_counterexample": "若在计算中采用未经双伸缩的常规Q·Q相互作用或人为微调κ值，自洽条件破坏，式 (11) 无法因式分解，NG伪模偏离ω_rot并严重污染低能wobbling物理模的波函数与有效惯量。",
+      "unresolved_boundary": "Nilsson平均势自身具有非物理的速度依赖项（spurious velocity dependence），导致微观计算的J_x系统性偏大（Matsuzaki 2004 p. 5），虽然比值Jy^(eff)/Jx较为稳健，但完全消除单体势伪速度依赖并在微观三维泛函中保持全自洽仍是未完全闭合的难题。"
+    },
+    {
+      "id": "item-5",
+      "question": "有限I和shape-orientation耦合怎样破坏一声子语言而未必改变Jπ",
+      "explanation_for_beginner": "简谐单声子语言建立在渐近大自旋极限I^2>> <Iy^2+Iz^2>以及固定三轴几何的刚性转子假设上。在有限自旋I与真实原子核中，两个机制破坏了这一语言：1) 有限自旋的非谐效应：自旋有限时横向波动显著，Holstein-Primakoff玻色展开的高阶非谐项（如四玻色项）破坏简谐能梯（等间距消失，多声子B(E2)倍数关系破缺）；2) 形状–取向动态耦合：原子核并非刚体，自转与进动产生的离心力使核物质发生动态四极变形涨落（Δβ, Δγ）。在CRPA微观体系中，集体激发强度被求和规则sum sigma_n c_n^2 = 1分散到多个形状振动模与巨共振中，wobbling模的相干系数c_wob^2严格小于1（|c_wob|~0.6-0.8），实际激发态成为空间取向进动与内禀形状伸缩的深度纠缠态。破坏一声子语言却不改变J^π的原因：总角动量J和空间宇称π是实验室系由SO(3)旋转与空间反演严格保证的守恒对称量子数。所有非谐相互作用与形状–取向耦合均发生在同一个确定的(J, π)不可约对称子空间内部（ΔJ=0, Δπ=0, 旋称α=I mod 2不变）。因此物理能级在实验核能谱图上仍严格标记为确定的J^π分立态，但其内部波函数结构已脱离理想单声子，表现为跨带B(E2)_out跃迁强度大幅减弱（Matsuzaki 2004中计算值比宏观转子低2-3倍）以及wobbling频率随自旋出现异常下降。",
+      "minimal_equation_with_units_or_phase": "sum_{n != NG} sigma_n c_n^2 = 1, c_wob^2 < 1 (typically |c_wob| ~ 0.6-0.8); |J^pi>_phys = sum_{n_w, n_gamma} C(n_w, n_gamma) |J^pi; n_w, n_gamma>, Delta J = 0, Delta pi = 0",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/matsuzaki-2004-nuclear-moments-of-inertia-prc69-034306.pdf",
+      "actual_pdf_page": "Matsuzaki 2004 PDF pp. 6–7 (Eqs. 20–25), p. 18; BM-II PDF p. 214 (Eqs. 4-306–4-307)",
+      "eq_figure": "Matsuzaki 2004 Eqs. (21)–(25), Fig. 10; BM-II Eqs. (4-306), (4-307)",
+      "reported_vs_derived": "原件报告：Matsuzaki 2004式 (24)-(25)报告了微观RPA波函数中引入的折合振幅c_n，计算得到|c_wob|~0.6-0.8，导致B(E2)_out比宏观转子低2-3倍；BM-II式 (4-306)-(4-307)严格报告了谐振子摆动有效性要求I>>1的不等式边界。任务推导：阐明了有限多体系统内时空完全对称性（J^π守恒）与内禀模型表象（声子语言瓦解）的代数正交性。",
+      "strongest_counterexample": "A≈130区的低自旋所谓“wobbling”候选核（如135Pr与133La在I=17/2-25/2能区），实验能级严格标记为J^π=17/2^+, 21/2^+等，但微观TPSM/IBFM计算证实其本质主要为准质子与核芯γ振动的混杂，纯转子单声子wobbling图像完全失效。",
+      "unresolved_boundary": "实验探测二声子（n_w=2）甚至更高声子wobbling态极为困难且背景高，理论上微观多体两声子多准粒子相互作用的高阶截断在定量重现有限自旋全谱时仍未彻底闭合。"
+    }
+  ],
+  "d11_comparison_contract": {
+    "contract_name": "D11 科学比较合同：自洽旋转 RPA（CRPA）微观动态惯量机制 vs. 唯象宏观粒子–转子模型（PRM）反转惯量假说",
+    "target_system": "稀土区三轴超形变核（168Hf 及 163,165,167Lu）中正三轴形变（γ > 0°）下稳定 wobbling 激发与频率随转速下降反常",
+    "variable_inputs": "曲柄转动频率 ħω_rot（0.15–0.65 MeV 跨带扫描）、三轴形变度 γ（-30° 至 +30°）、单准粒子顺排组态（0QP vs 1QP πi_13/2 vs 2QP）、配对能隙 Δ_n, Δ_p（0.2–0.4 MeV 测试灵敏度）",
+    "fixed_inputs": "四极变形量 ε_2 = 0.43（由测定的跃迁电四极矩 Qt = 11.4 eb 绝对定标严格锁定）、双伸缩四极相互作用强度 κ_K^(-)（由谐振子势自洽完全确定）、Bengtsson-Ragnarsson 单粒子参数（5个主壳层）",
+    "strongest_rival": "唯象粒子–转子模型（PRM，Hamamoto 2002）：人为假定转子绕长轴旋转的水力学反转惯量（J_x > J_y for γ > 0），以经验参数直接重现带间 B(E2)_out 绝对强度；而 CRPA 微观计算由于求和规则分散导致 B(E2)_out 仅达实验值的约 50%（Matsuzaki 2004 p. 18），宏观模型在绝对强度数值上更契合数据。",
+    "unfitted_validation_observables": [
+      "带间跃迁的偶奇旋称交错比值：B(E2; I -> I-1)_out / B(E2; I -> I+1)_out（该比值对 γ 的正负符号具有决定性反演诊断力）；",
+      "带间磁偶极跃迁几率 B(M1; I -> I-1)_out 及其多极混合比 δ 的符号与绝对数值；",
+      "在 ħω_rot ≈ 0.45 MeV 处发生中子准粒子对带交叉（BC crossing）时，摆动能量 ħω_wob 出现的台阶式跳变与恢复特征；",
+      "偶偶核核芯 168Hf 中尚未完全测定的激发 TSD 带间分支比盲测数据。"
+    ],
+    "failure_and_pivot": "若在严格消除单体势虚假速度依赖后，自洽微观泛函仍无法解决带间 B(E2) 绝对强度的缺失，且新实验在偶偶核（168Hf/136Nd）中未观测到特征性的带间交错，则准粒子驱动的刚性三轴 wobbling 假说失效；必须转向非绝热五维集体哈密顿量（5DCH）或准粒子–玻色子弱耦合框架（IBFM），将该模式重新定性为大振幅三轴软度下的取向–形状复合波包。",
+    "new_physics_boundary": "本 CRPA 机制不包含任何超出标准微观多体核理论与单粒子轨道顺排动力学的新相互作用或新粒子；其科学增益完全在于消除了唯象模型中违反量子流体对称性的“人工惯量反转”假设，改善了对正 γ 形变有效惯量 J_x > J_y 与摆动频率下降的自洽物理微观解释，不能宣称为新物理。"
+  }
+}

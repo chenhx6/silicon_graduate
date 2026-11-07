@@ -7,6 +7,21 @@ updated: 2026-11-08
 
 # Wiki Index
 
+## 博士前置 R3：原始基础、解释能力与就绪证据
+
+- [[doctoral-r3-readiness-evidence-matrix-20261108]] — 六区、21项主题和七项条件的逐项依据，区分基础充分与前沿未决。
+- [[doctoral-r3-quantum-labels-and-model-boundaries-20261108]] — D₂、signature、反幺正手征、非正交投影、允许性/多根及历史模型对账。
+- [[doctoral-r3-daq-spectroscopy-inverse-20261108]] — 吴论文事件字、共同busy、光子/总分支、δ和寿命/CoulEx反演。
+- [[doctoral-r3-weak-operators-and-delayed-particles-20261108]] — Ikeda、FF/CVC、β缓发级联/多重度、轻Majorana及短程反项。
+- [[doctoral-r3-isomers-shell-and-survival-20261108]] — 四机制重叠、双端K振幅、开放热网络、占据反馈及逐分波存活。
+- [[nuclear-clock-isomer-learning-and-transfer-20261107]]、[[mo93-neec-evidence-and-depletion-transfer-20261107]] — 原位修订寿命/线宽、12kHz调制幅度、跨设置上限和电子过程身份。
+- [[bohr-1952-surface-particle-coupling]]、[[bohr-mottelson-1953-collective-individual-original]] — 原始模型及实际阅读范围；1953不是全176页通读。
+- [[kvasil-2006-dy156-yb162-crpa-wobbling]]、[[engel-menendez-2017-double-beta-matrix-elements-review]]、
+  [[cirigliano-2018-leading-short-range-double-beta]]、[[dimitriou-2021-beta-delayed-neutron-reference-database]]、
+  [[li-2026-isomer-depletion-neies]] — 五个定向原件入口，实际底本和理论/测量边界逐source保留。
+
+进入章节设计的科学依据已建立；执行验收以R3回执为准，本批未清空A130、未写论文正文。
+
 ## 博士前置 R2：集体惯量、配对与微观响应
 
 - [[doctoral-r2-collective-inertia-response-crosswalk-20261108]] — 坐标质量、PC/IB/TV、实/虚QRPA、空间与配对NG及正定比较的合同。

@@ -1,0 +1,93 @@
+{
+  "recorded_at": "2026-11-07T22:53:03.116537+00:00",
+  "returncode": 1,
+  "pages": 1598,
+  "counts": {
+    "error": 129,
+    "warning": 479,
+    "info": 5481
+  },
+  "baseline_counts": {
+    "error": 129,
+    "warning": 477,
+    "info": 5485
+  },
+  "new_issues": [
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/bohr-1952-surface-particle-coupling.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/bohr-mottelson-1953-collective-individual-original.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/cirigliano-2018-leading-short-range-double-beta.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/dimitriou-2021-beta-delayed-neutron-reference-database.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/engel-menendez-2017-double-beta-matrix-elements-review.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/kvasil-2006-dy156-yb162-crpa-wobbling.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/li-2026-isomer-depletion-neies.md",
+      "message": "source has no citation_key"
+    }
+  ],
+  "removed_issues": [
+    {
+      "severity": "warning",
+      "code": "ORPHAN_PAGE",
+      "path": "knowledge/sources/chiara-2018-mo93m-isomer-depletion-neec.md",
+      "message": "no inbound knowledge link outside index"
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHAN_PAGE",
+      "path": "knowledge/sources/gargiulo-2022-neec-excited-ions.md",
+      "message": "no inbound knowledge link outside index"
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHAN_PAGE",
+      "path": "knowledge/sources/rzadkiewicz-2021-mo93m-neec-resonant-transfer.md",
+      "message": "no inbound knowledge link outside index"
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHAN_PAGE",
+      "path": "knowledge/sources/wu-2019-mo93m-neec-stopping-theory.md",
+      "message": "no inbound knowledge link outside index"
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHAN_PAGE",
+      "path": "knowledge/sources/xu-2004-superheavy-high-spin-isomer-stability.md",
+      "message": "no inbound knowledge link outside index"
+    }
+  ],
+  "new_errors": 0,
+  "whole_repository_green": false
+}

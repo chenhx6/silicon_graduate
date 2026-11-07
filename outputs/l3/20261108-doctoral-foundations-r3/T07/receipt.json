@@ -1,0 +1,70 @@
+{
+  "task_id": "R3-T07",
+  "status": "completed-scoped",
+  "completed_at_utc": "2026-11-07T22:06:16Z",
+  "scope": "Wing2 foundational independent audit of one-body GT sum rule, CVC, light-Majorana exchange, and 2018 leading short-range EFT counterterm",
+  "report": "outputs/l3/20261108-doctoral-foundations-r3/T07/report.md",
+  "report_sha256": "49fad0e4f57cd4f580c0f0c2cf0f9ddf937287e776a8bf6c4d279493b953fef0",
+  "audited_material_not_scientific_source": "outputs/l3/20261108-doctoral-foundations-r3/G48/report.md",
+  "reference_note": "knowledge/research-notes/doctoral-r1-t04-first-forbidden-operator-audit-20261108.md",
+  "new_source_count": 1,
+  "new_source": {
+    "doi": "10.1103/PhysRevLett.120.202001",
+    "arxiv": "1802.10097v1",
+    "edition_read": "arXiv preprint v1",
+    "raw_file": "raw/papers/gpt/query/20261108-r3-t07-weak-renormalization/cirigliano-2018-prl120-202001-arxiv-1802.10097v1.pdf",
+    "sha256": "c15e22bdb9c811e986493ff2a0b01f2794c8a33a6493b4ba6d62701525304996",
+    "size": 743353,
+    "url": "https://arxiv.org/pdf/1802.10097v1",
+    "retrieved_at": "2026-11-07T22:03:17Z",
+    "manifest": "raw/papers/gpt/query/20261108-r3-t07-weak-renormalization/manifest.json",
+    "archive_required": true,
+    "local_check": "catalog snapshot missing; bounded filename search no match",
+    "metadata_check": "arXiv official API and Crossref DOI",
+    "archive_gate": "passed: explicit new manifest"
+  },
+  "existing_sources": [
+    {
+      "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "scope": "printed 541–543 / PDF 552–554, Eqs. 17.63–17.74"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261108-foundations-G34/Zhi_2013_PRC_87_025803_SM_halflives_first_forbidden.pdf",
+      "sha256": "eaedbd4539854e3d1f0e7860ef7ab9c647d4fa44cd8144b4989ba220ec639333",
+      "scope": "arXiv v1 PDF 2–4, Eqs. 4, 8–13, 16"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261108-r3-g48-weak-operators/engel-menendez-2017-rpp-0nubb-nme.pdf",
+      "sha256": "813111c10bab58d8d0f19ca91833383a8a521a33c0434b276eacd4fead195417",
+      "scope": "PDF 4, 17–18, Eqs. 6–10, Figs. 11–12"
+    }
+  ],
+  "findings": [
+    "Ikeda is a full-space one-body operator difference, not a universal sum rule for the physical two-body current",
+    "CVC fixes charge normalization and consistency relations under stated assumptions, not every finite-space vector matrix element",
+    "closure and quenching comparisons are mechanism-, model- and observable-dependent",
+    "2018 paper demonstrates LO contact in specified nonperturbative 1S0 channel; its finite LEC and long/contact split require matching and scheme"
+  ],
+  "remaining_boundaries": [
+    "No LEC determination, two-nucleon recalculation or whole-chart NME computation",
+    "2018 preprint only; no exhaustive later-literature or published-edition audit",
+    "T04 Zhi table-I discrepancy isolated without refit or attribution",
+    "2017 and 2018 sources not independent: 2018 cites review"
+  ],
+  "permissions": {
+    "knowledge_modified": false,
+    "plan_modified": false,
+    "shared_modified": false,
+    "git_mutated": false,
+    "credentials_accessed": false,
+    "messages_sent": false,
+    "external_code_executed": false
+  },
+  "outputs": [
+    "outputs/l3/20261108-doctoral-foundations-r3/T07/report.md",
+    "outputs/l3/20261108-doctoral-foundations-r3/T07/receipt.json",
+    "raw/papers/gpt/query/20261108-r3-t07-weak-renormalization/manifest.json",
+    "raw/papers/gpt/query/20261108-r3-t07-weak-renormalization/cirigliano-2018-prl120-202001-arxiv-1802.10097v1.pdf"
+  ]
+}

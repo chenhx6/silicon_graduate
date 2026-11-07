@@ -1,0 +1,254 @@
+{
+  "goal": "01a1b53d-130f-7f42-985b-7a51dbc9f8d0",
+  "task_date": "2026-11-08",
+  "started_at": "2026-11-07T21:36:22.882373+00:00",
+  "previous_turn_classification": "progress: R2 primary-source learning, canonical knowledge, verified numerical derivatives, committed and pushed",
+  "workers": [
+    {
+      "task": "G45",
+      "agent_id": "01a1b7ed-0944-7333-ad94-ae9b6f0f765c",
+      "topic": "gamma-orientation quantum labels",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "state": "returned-closed",
+      "admission": "parent-audit-required; canonical pointers and exclusions in parent-audit.md",
+      "observed_runtime_routes": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "runtime_route_boundary": "Only local turn_context; not provider billing, account balance, or backend implementation proof"
+    },
+    {
+      "task": "G46",
+      "agent_id": "01a1b7ed-501e-7b71-8dd5-e627999d3b79",
+      "topic": "finite-system chirality",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "state": "returned-closed",
+      "admission": "parent-audit-required; canonical pointers and exclusions in parent-audit.md",
+      "observed_runtime_routes": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "runtime_route_boundary": "Only local turn_context; not provider billing, account balance, or backend implementation proof"
+    },
+    {
+      "task": "G47",
+      "agent_id": "01a1b7ed-9721-7941-9d45-640a996eaa7b",
+      "topic": "parity octupole E1 E3 thesis teaching",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "state": "returned-closed",
+      "admission": "parent-audit-required; canonical pointers and exclusions in parent-audit.md",
+      "observed_runtime_routes": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "runtime_route_boundary": "Only local turn_context; not provider billing, account balance, or backend implementation proof"
+    },
+    {
+      "task": "G48",
+      "agent_id": "01a1b7ed-e0a1-77b3-8071-620cd8773eec",
+      "topic": "weak operators and closure",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "state": "returned-closed",
+      "admission": "parent-audit-required; canonical pointers and exclusions in parent-audit.md",
+      "observed_runtime_routes": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "runtime_route_boundary": "Only local turn_context; not provider billing, account balance, or backend implementation proof"
+    },
+    {
+      "task": "G49",
+      "agent_id": "01a1b7ee-2843-7062-8fb7-9f3edef0b9e7",
+      "topic": "Wu thesis DAQ acceptance chain",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "state": "returned-closed",
+      "admission": "parent-audit-required; canonical pointers and exclusions in parent-audit.md",
+      "observed_runtime_routes": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "runtime_route_boundary": "Only local turn_context; not provider billing, account balance, or backend implementation proof"
+    },
+    {
+      "task": "G50",
+      "agent_id": "01a1b7ee-777d-7983-8286-2b418d72a351",
+      "topic": "spectroscopy inverse and lifetime",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "state": "returned-closed",
+      "admission": "parent-audit-required; canonical pointers and exclusions in parent-audit.md",
+      "observed_runtime_routes": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "runtime_route_boundary": "Only local turn_context; not provider billing, account balance, or backend implementation proof"
+    },
+    {
+      "task": "T06",
+      "agent_id": "01a1b7fe-629b-7fb2-81df-abccc6263369",
+      "topic": "antiunitary, D2, parity projection, operator allowance and inverse roots",
+      "requested_model": "codex/gpt-6.1-terra",
+      "requested_effort": "xhigh",
+      "state": "returned-closed",
+      "admission": "parent-audit-required; canonical pointers and exclusions in parent-audit.md",
+      "observed_runtime_routes": [
+        {
+          "model": "codex/gpt-6.1-terra",
+          "effort": "xhigh"
+        }
+      ],
+      "runtime_route_boundary": "Only local turn_context; not provider billing, account balance, or backend implementation proof"
+    },
+    {
+      "task": "G51",
+      "agent_id": "01a1b7fe-ac78-7632-98e1-b82ef6308eeb",
+      "topic": "isomer mechanisms and thermal networks",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "state": "returned-closed",
+      "admission": "parent-audit-required; canonical pointers and exclusions in parent-audit.md",
+      "observed_runtime_routes": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "runtime_route_boundary": "Only local turn_context; not provider billing, account balance, or backend implementation proof"
+    },
+    {
+      "task": "G52",
+      "agent_id": "01a1b7fe-f72e-7a71-b343-dde1140a885c",
+      "topic": "beta-delayed particles",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "state": "returned-closed",
+      "admission": "parent-audit-required; canonical pointers and exclusions in parent-audit.md",
+      "observed_runtime_routes": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "runtime_route_boundary": "Only local turn_context; not provider billing, account balance, or backend implementation proof"
+    },
+    {
+      "task": "G53",
+      "agent_id": "01a1b7ff-81f7-73b0-a505-25217dc6d763",
+      "topic": "shell evolution and fusion survival",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "state": "returned-closed",
+      "admission": "parent-audit-required; canonical pointers and exclusions in parent-audit.md",
+      "observed_runtime_routes": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "runtime_route_boundary": "Only local turn_context; not provider billing, account balance, or backend implementation proof"
+    },
+    {
+      "task": "G54",
+      "agent_id": "01a1b802-fdec-7c22-bcc1-e088003ff717",
+      "topic": "nuclear clocks and electronic environment",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "state": "returned-closed",
+      "admission": "parent-audit-required; canonical pointers and exclusions in parent-audit.md",
+      "observed_runtime_routes": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "runtime_route_boundary": "Only local turn_context; not provider billing, account balance, or backend implementation proof"
+    },
+    {
+      "task": "G55",
+      "agent_id": "01a1b803-4991-72a1-ba15-00d735621574",
+      "topic": "NEEC mechanisms rates and controversy",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "state": "returned-closed",
+      "admission": "parent-audit-required; canonical pointers and exclusions in parent-audit.md",
+      "observed_runtime_routes": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "runtime_route_boundary": "Only local turn_context; not provider billing, account balance, or backend implementation proof"
+    },
+    {
+      "task": "T07",
+      "agent_id": "01a1b808-226a-7942-bb4f-7f735f049465",
+      "topic": "weak-operator and short-range renormalization audit",
+      "requested_model": "codex/gpt-6.1-terra",
+      "requested_effort": "xhigh",
+      "state": "returned-closed",
+      "admission": "parent-audit-required; canonical pointers and exclusions in parent-audit.md",
+      "observed_runtime_routes": [
+        {
+          "model": "codex/gpt-6.1-terra",
+          "effort": "xhigh"
+        }
+      ],
+      "runtime_route_boundary": "Only local turn_context; not provider billing, account balance, or backend implementation proof"
+    },
+    {
+      "task": "G56",
+      "agent_id": "01a1b81d-f63f-7771-8763-764c29b37bc4",
+      "topic": "six-region readiness evidence audit",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "state": "returned-closed",
+      "admission": "parent-audit-required; canonical pointers and exclusions in parent-audit.md",
+      "observed_runtime_routes": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "runtime_route_boundary": "Only local turn_context; not provider billing, account balance, or backend implementation proof"
+    },
+    {
+      "task": "G57",
+      "agent_id": "01a1b81e-2d4a-7df3-b906-349e35ff9ca2",
+      "topic": "Bohr-Mottelson 1953 historical experiment comparison",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "state": "returned-closed",
+      "admission": "parent-audit-required; canonical pointers and exclusions in parent-audit.md",
+      "observed_runtime_routes": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "runtime_route_boundary": "Only local turn_context; not provider billing, account balance, or backend implementation proof"
+    }
+  ],
+  "parent_immediate_work": "Original collective-model history and requirement-by-evidence readiness map",
+  "updated_at": "2026-11-07T21:59:27.604812+00:00",
+  "counts": {
+    "gemini_tasks": 13,
+    "terra_tasks": 2
+  }
+}

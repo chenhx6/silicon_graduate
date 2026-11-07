@@ -22,6 +22,14 @@ R2补入Se/Kr、110Pd、128Xe、稀土/Os的原作响应合同，
 精确定义和版本边界见
 [[doctoral-r2-collective-inertia-response-crosswalk-20261108]]、
 [[doctoral-r2-inertia-evidence-and-band-reconstruction-20261108]]。
+R3将相同π/signature的允许耦合与实际强度分开，补入原始历史对账、
+弱衰变/缓发级联及电子学到联合接受度的接口，见
+[[doctoral-r3-quantum-labels-and-model-boundaries-20261108]]、
+[[doctoral-r3-daq-spectroscopy-inverse-20261108]]、
+[[doctoral-r3-weak-operators-and-delayed-particles-20261108]]、
+[[doctoral-r3-isomers-shell-and-survival-20261108]]。
+[[doctoral-r3-readiness-evidence-matrix-20261108]]说明基础准备与前沿未决的区别；
+不把完整Cov/所有producer尚缺解释为基础永远不能完成。
 
 ## Question and Scope
 

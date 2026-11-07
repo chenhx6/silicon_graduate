@@ -1,0 +1,279 @@
+{
+  "metadata": {
+    "task_id": "R3-G47",
+    "title": "Wing1解释能力检查：八极、E1/E3及手征-宇称四带原件核验",
+    "run_date": "2026-11-08",
+    "execution_type": "L3-doctoral-foundations-wing1",
+    "auditor": "Codex L3 Autonomous Agent",
+    "target_report": "outputs/l3/20261108-doctoral-foundations-r3/G47/report.md",
+    "target_evidence": "outputs/l3/20261108-doctoral-foundations-r3/G47/evidence.json",
+    "referenced_research_note": "knowledge/research-notes/continuation-g20-thesis-e1-d0-contract-20261107.md",
+    "canonical_sources": [
+      "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+      "knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md",
+      "knowledge/sources/butler-nazarewicz-1996-intrinsic-reflection-asymmetry.md"
+    ]
+  },
+  "primary_sources_inventory": {
+    "liu_chen_2016_thesis": {
+      "title": "奇奇核78Br中手征对称性和空间反射对称性的联立自发破缺",
+      "degree": "山东大学博士学位论文",
+      "year": 2016,
+      "raw_file": "raw/theses/degree-dissertation/刘晨_奇奇核~(78)Br中手征...间反射对称性的联立自发破缺.pdf",
+      "raw_sha256": "5e00370aab205b689841cb58d65c7fad8829e3de74f084736a74f2d8658ab291",
+      "total_pdf_pages": 107,
+      "nucleus": "78Br",
+      "reaction": "70Zn(12C,p3n)78Br at 60/65 MeV",
+      "facility": "iThemba LABS, AFRODITE + DIAMANT",
+      "key_locators": {
+        "ch1_octupole": "PDF pp. 21-24 (printed pp. 10-13), Fig. 1.5",
+        "ch2_motivation": "PDF pp. 26-27 (printed pp. 15-16), Fig. 2.1, 78Br configuration",
+        "ch4_table": "PDF pp. 51-54 (printed pp. 40-43), Table 4.2",
+        "ch4_level_scheme": "PDF p. 48 (printed p. 37), Fig. 4.1",
+        "ch5_discussion": "PDF pp. 78-82 (printed pp. 67-71), Eqs. 5.1-5.2, Figs. 5.16-5.18",
+        "ch7_summary": "PDF p. 90 (printed p. 79)"
+      }
+    },
+    "xiao_xiao_2019_thesis": {
+      "title": "奇奇核74As的高自旋态研究",
+      "degree": "山东大学硕士学位论文",
+      "year": 2019,
+      "date": "2019-05-23",
+      "advisor": "王守宇",
+      "raw_file": "raw/theses/degree-dissertation/肖骁_奇奇核~(74)As的高自旋态研究.pdf",
+      "raw_sha256": "bf0763004d98be5a540ab7802eb0baed7c11387224f1818426b891f5a3ef362b",
+      "total_pdf_pages": 61,
+      "nucleus": "74As",
+      "reaction": "74Ge(alpha,1p3n)74As at 58/62 MeV",
+      "facility": "iThemba LABS, AFRODITE",
+      "key_locators": {
+        "title_and_abstract": "PDF pp. 1-8",
+        "ch3_summary": "PDF p. 33 (printed p. 25)",
+        "ch3_table": "PDF pp. 30-33 (printed pp. 22-25), Table 3.3 (766.0 keV and 909.9 keV upper limits)",
+        "ch3_level_scheme": "PDF p. 34 (printed p. 26), Fig. 3.8",
+        "ch4_chiral_criteria": "PDF pp. 45-47 (printed pp. 37-39), Fig. 4.8",
+        "ch5_summary": "PDF p. 47 (printed p. 39)"
+      }
+    },
+    "butler_nazarewicz_1996_rmp": {
+      "title": "Intrinsic reflection asymmetry in atomic nuclei",
+      "journal": "Reviews of Modern Physics 68, 349-421 (1996)",
+      "doi": "10.1103/RevModPhys.68.349",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1996_Butler_Nazarewicz_Intrinsic reflection asymmetry in atomic nuclei.pdf",
+      "raw_sha256": "40e915a556361cb472139fb683146d66c1385c3e87de5aaa16d2bd8628afe090",
+      "total_pdf_pages": 73,
+      "key_locators": {
+        "sec2_parity": "PDF pp. 3-5 (printed pp. 351-353), Eqs. 1-7",
+        "sec3_shell_driving": "PDF pp. 5-8 (printed pp. 353-356), Table I, Fig. 3",
+        "sec4_coulomb_e3": "PDF pp. 16-19 (printed pp. 364-367)",
+        "sec4_cg_alaga": "PDF pp. 19-20 (printed pp. 367-368), Eqs. 67-70",
+        "sec5_parity_projection": "PDF pp. 24-27 (printed pp. 372-375)",
+        "sec7_dipole_moments": "PDF pp. 43-46 (printed pp. 391-394), Eqs. 89-103, Fig. 41"
+      }
+    }
+  },
+  "six_core_answers_matrix": {
+    "Q1_parity_concepts": {
+      "title": "空间宇称、内禀反射不对称与有限体系宇称恢复",
+      "concepts": {
+        "spatial_parity": "实验室系时空反演变换下强相互作用守恒算符，孤立核态具确定良宇称 pi = +/- 1",
+        "intrinsic_reflection_asymmetry": "形变内禀系平均场自发对称破缺描述，梨形形变下内禀态非宇称本征态，产生简并双重态对 |Phi_+> 与 |Phi_->",
+        "finite_parity_restoration": "有限量子体系穿隧消除简并，宇称投影算符投影出良宇称态，引起有限穿隧能谱劈裂 Delta E_pi = E^- - E^+"
+      },
+      "minimal_formula": "P_hat psi(r) = psi(-r); P_hat^+/- = (I +/- P_hat)/2; |Psi^+/-> = N_+/- (I +/- P_hat)|Phi_int>; Delta E_pi = E^- - E^+ proportional to <Phi_+|H|Phi_->",
+      "locators": [
+        {
+          "source": "Butler_Nazarewicz_1996",
+          "pdf_page": "pp. 3-5, 24-27",
+          "printed_page": "pp. 351-353, 372-375",
+          "item": "Sec. II.A-B, Sec. V"
+        },
+        {
+          "source": "Liu_Chen_2016",
+          "pdf_page": "pp. 21-24, 26-27",
+          "printed_page": "pp. 10-13, 15-16",
+          "item": "Ch. 1.3, Ch. 2.1"
+        }
+      ],
+      "author_reported": "交替宇称能带序列与宇称双重带为八极形变核显著实验特征",
+      "agent_inference": "实验室态宇称期望值是严格常数（+/- 1），非连续变小的序参量；观测到的是穿隧恢复后的能谱与交替跃迁",
+      "strongest_alternative": "四极形变核芯表面耦合低能八极声子振动，负宇称态来自表面振动激发而非深双势阱穿隧",
+      "uncovered_items": "缺乏自洽含时密度泛函或GCM下的微观穿隧阻尼参数，穿隧时间尚无法直接测量"
+    },
+    "Q2_delta_lj_selection_and_limits": {
+      "title": "Delta l = Delta j = 3 的有利性与三大限制条件",
+      "why_favorable": "r^3 Y_3 为奇宇称秩 3 张量算符；Delta l = Delta j = 3 达到角动量耦合与三角定则几何极大，3j 符号达几何峰值，主量子数 Delta N = 1 径向重叠极大",
+      "three_limits": {
+        "occupation_limit": "八极关联为粒子-空穴相干激发，受 (u_1 v_2 +/- v_1 u_2) 控制；若两轨道同属全满或全空，泡利不相容原理使该通道完全关闭",
+        "energy_gap_limit": "二阶微扰与QRPA驱动正比于 |<1|Q3|2>|^2 / (eps_1 - eps_2)；单粒子能隙过大时微扰分母压低极化，无法克服恢复力",
+        "deformation_orientation_limit": "四极形变下球形壳层分裂为多个 Nilsson 轨道 Omega；需满足 |Omega_1 - Omega_2| <= 3，费米面取向失谐时矩阵元被稀释"
+      },
+      "minimal_formula": "<l1 j1 || r^3 Y_3 || l2 j2> = (-1)^(j1+1/2)/sqrt(4pi) * j1_hat * j2_hat * (j1 3 j2; 1/2 0 -1/2) * <n1 l1|r^3|n2 l2>; chi_3 proportional to sum |<1|r^3 Y3|2>|^2 (u1 v2 + v1 u2)^2 / (E1 + E2)",
+      "locators": [
+        {
+          "source": "Butler_Nazarewicz_1996",
+          "pdf_page": "pp. 5-8",
+          "printed_page": "pp. 353-356",
+          "item": "Sec. III.A, Table I, Fig. 3"
+        },
+        {
+          "source": "Liu_Chen_2016",
+          "pdf_page": "pp. 21-22, 27",
+          "printed_page": "pp. 10-11, 16",
+          "item": "Fig. 1.5, Ch. 2.1"
+        }
+      ],
+      "author_reported": "78Br 价核子占据 g9/2 与 p3/2 轨道，满足 Delta l = Delta j = 3，具八极关联潜能",
+      "agent_inference": "78Br 中 Z=35 使 p3/2 几近全满，N=43 中子深处 g9/2，且三轴四极形变破坏投影简并，故平均场仅给出 beta30=0 的软核而非稳定八极极小",
+      "strongest_alternative": "实验能谱表现为未形成长程集体相干的单准粒子破对耦合或弱粒子-声子微扰杂质态",
+      "uncovered_items": "缺少 78Br 形变基底下完全微观自洽的 QRPA 矩阵元逐态数值展开"
+    },
+    "Q3_translation_invariant_dipole_and_beta3": {
+      "title": "平移不变电偶极、质中分离与为何不能以 E1 定 beta3",
+      "translation_invariance": "电磁辐射由内部相对运动引起，有效算符相对于质心定义：D_hat = e * (N/A) * sum_p r_p - e * (Z/A) * sum_n r_n",
+      "neutron_proton_distribution_and_coupling": "若质子与中子密度同比例，宏观 D_0 恒等于 0；非零宏观 D_0 纯属对称能与库仑力引起的质中表面分离与中子皮；小滴模型展开最低阶要求电荷中心位移正比于 beta2 * beta3，无四极形变时纯八极宏观偶极矩为零",
+      "why_cannot_determine_beta3_by_e1": "总偶极矩 D_0 = D_0^macro + (1 - chi) D_0^shell 为宏观项与微观壳修正代数和；两项数值相当但符号常常相反发生剧烈抵消（如 224Ra 抵消极小对比 226Ra 显著增强），D_0 对 beta3 非单调",
+      "minimal_formula": "D_hat_10 = e(N/A) sum_p z_p - e(Z/A) sum_n z_n; D_0^macro = C_LD * A * Z * e * beta_2 * beta_3; D_0 = D_0^macro(beta_2, beta_3) + (1 - chi) D_0^shell",
+      "locators": [
+        {
+          "source": "Butler_Nazarewicz_1996",
+          "pdf_page": "pp. 43-46",
+          "printed_page": "pp. 391-394",
+          "item": "Sec. VII.A-B, Eqs. 89-103, Fig. 41"
+        },
+        {
+          "source": "Liu_Chen_2016",
+          "pdf_page": "pp. 78-79",
+          "printed_page": "pp. 67-68",
+          "item": "Ch. 5.3, comparison with 125Ba and 224Th"
+        }
+      ],
+      "author_reported": "78Br 的 B(E1)/B(E2) ~ 10^-5 b^-1，较 224Th 小一个量级，推断为八极关联而非稳定八极形变",
+      "agent_inference": "A~80 区 Z 较小且宏微观偶极抵消，即使存在相当大的 beta3 其 D_0 也内禀偏小，单凭 E1 绝对大小无法定量定出 beta3",
+      "strongest_alternative": "弱 E1 跃迁由单粒子宇称混合态或巨偶极共振拖尾的核芯极化贡献，无大块宏观八极形变",
+      "uncovered_items": "缺少 78Br 三轴形变势能面上考虑中子皮厚度修正的自洽微观偶极矩理论数值"
+    },
+    "Q4_d0_extraction_and_unclosed_inputs": {
+      "title": "D0 提取的选择定则、CG 展开、寿命消去与未闭合输入",
+      "cg_and_alaga": "强耦合转子极限下遵循 Alaga 规则：B(E1; I -> I-1) 正比于 D_0^2 <I K 1 0|I-1, K>^2，B(E2; I -> I-2) 正比于 Q_0^2 <I K 2 0|I-2, K>^2",
+      "lifetime_cancellation": "发自同一母态的光子相对强度比值 I_gamma(E1)/I_gamma(E2) 中初态寿命 tau 与初态粒子数完全对消，消除了对绝对跃迁寿命测量的依赖",
+      "unclosed_inputs": {
+        "level_identity": "两条谱线必须确凿来自同一初始能级，否则寿命无法对消",
+        "conversion_and_branching": "低能端需修正内转换系数 alpha，且需扣除同母态 M1 跃迁等强竞争分支",
+        "missing_q0": "分支比公式仅能提供 |D_0/Q_0|；在未测寿命下 Q_0 必来自模型预设或系统学，使提取的 D_0 纯属条件推导量",
+        "k_mixing_in_odd_odd": "奇奇核中角动量倾斜耦合使 K 强烈破缺，轴对称转子 CG 展开引入不可控模型误差"
+      },
+      "minimal_formula": "B(E1)/B(E2) = 0.77e-6 * (I_gamma1/I_gamma2) * (E_gamma2^5 / E_gamma1^3) b^-1; B(E1)/B(E2) = (12/5) * (D_0^2 / Q_0^2) * [<I K 1 0|I-1, K>^2 / <I K 2 0|I-2, K>^2]",
+      "locators": [
+        {
+          "source": "Butler_Nazarewicz_1996",
+          "pdf_page": "pp. 19-20",
+          "printed_page": "pp. 367-368",
+          "item": "Sec. IV.B, Eqs. 67-70"
+        },
+        {
+          "source": "Liu_Chen_2016",
+          "pdf_page": "p. 78, pp. 51-53",
+          "printed_page": "p. 67, pp. 40-42",
+          "item": "Eq. 5.1, Table 4.2"
+        },
+        {
+          "source": "Xiao_Xiao_2019",
+          "pdf_page": "pp. 31-32",
+          "printed_page": "pp. 23-24",
+          "item": "Table 3.3"
+        }
+      ],
+      "author_reported": "刘晨给出 B(E1)/B(E2) 提取公式并绘制随自旋演化，未给出绝对 D_0 数值；肖骁未提取此比值",
+      "agent_inference": "现有文献若有 78Br 绝对 D_0 报告，其 Q_0 必来自模型输入，绝不能计为独立实验测量",
+      "strongest_alternative": "单光子弱连接属于多极混合跃迁或源自局域杂质态衰变，转子纯态 CG 几何投影公式不适用",
+      "uncovered_items": "78Br 与 74As 均缺少该能带关键能级的直接皮秒级绝对寿命与直接测量的内禀四极矩 Q_0"
+    },
+    "Q5_br78_as74_four_bands_and_models": {
+      "title": "78Br 与 74As 四条带的实验事实与模型解释边界",
+      "br78_status": {
+        "spins_and_parities": "Band 1 (6+ to 15+), Band 2 (7+ to 14+); Band 3 (6- to 16-), Band 4 (8- to 15-)",
+        "reported_links": "测得连接 Band 3 与 Band 1 的 8 条 E1 跃迁（如 346.5 keV 7- -> 6+, 373.4 keV 6- -> 5+；注意 457.0 keV 7- -> 5(+) 为 Delta I=2 最低 M2 禁戒项不可混用）；delta E(I) -> 0, B(E1)/B(E2) ~ 10^-5 b^-1",
+        "model_interpretation": "Band 1/2 解释为正宇称手征双重带候选；Band 3/4 解释为负宇称手征候选；合称 MchiD 与八极关联共存；势能面为八极软核"
+      },
+      "as74_status": {
+        "spins_and_parities": "Band 1 (8+ to 17+), Band 2 (9+ to 15+); Band 3 (6- to 13-), Band 4 (7- to 13-)",
+        "reported_links": "Table 3.3 中跨宇称线仅为强度上限弱线（766.0 keV 7- -> 6+, 909.9 keV 8- -> 7+, I_gamma < 0.4），ADO/偏振空白；无确证 B(E1)/B(E2) 比值",
+        "model_interpretation": "Band 1/2 解释为手征候选；负宇称 Band 3/4 因带间 E2 连接过多且 M1 跃迁规律不同被正文明确否定为手征带，归结为赝自旋伙伴带；原件无八极或四重带结论"
+      },
+      "minimal_formula": "delta E(I) = E(I) - [(I+1)E(I-1) + I E(I+1)] / (2I+1); S(I) = [E(I) - E(I-1)] / (2I)",
+      "locators": [
+        {
+          "source": "Liu_Chen_2016",
+          "pdf_page": "pp. 51-53, 48, 78-82",
+          "printed_page": "pp. 40-42, 37, 67-71",
+          "item": "Table 4.2, Fig. 4.1, Fig. 5.16, Sec. 5.3"
+        },
+        {
+          "source": "Xiao_Xiao_2019",
+          "pdf_page": "pp. 31-32, 34, 45-47",
+          "printed_page": "pp. 23-24, 26, 37-39",
+          "item": "Table 3.3, Fig. 3.8, Fig. 4.8, Sec. 4.2"
+        }
+      ],
+      "author_reported": "刘晨报告 8 条 E1 仅连接 Band 3 与 Band 1；肖骁报告跨带弱线强度上限并否定负宇称带手征性",
+      "agent_inference": "两论文均未建立四条带之间闭合的双向 E1/M1/E2 跃迁网络，四重带仅属理论设想，绝不能当作已确证的手征-宇称四重带",
+      "strongest_alternative": "78Br 负宇称带为多准粒子破对激发或 gamma 软振动杂质态；74As 负宇称带由赝自旋对称破缺主导",
+      "uncovered_items": "缺少针对 Band 2 <-> Band 4 及 Band 1 <-> Band 4 交叉 E1 跃迁的探测灵敏度上限"
+    },
+    "Q6_cross_region_counterexamples_and_measurements": {
+      "title": "跨 A~80/130 迁移的最强反例与必须补测实验",
+      "counterexamples": {
+        "counter_1_as74": "肖骁 2019 对 74As 负宇称带应用手征判据，大量带间 E2 与非对称 M1 直接推翻手征假设，打破重核区双重带自动成对手征的推测",
+        "counter_2_a80_softness": "A~80 单粒子能级密度小、转动角速度大，平坦势能面上转动顺排极易导致有限自旋窗口内的偶然近简并伪装成手征几何或八极软化",
+        "counter_3_ra224_cancellation": "Butler-Nazarewicz 揭示 224Ra 八极刚度强但宏微观偶极抵消使 B(E1) 极小；若机械以 E1 门限迁移判据将严重误判"
+      },
+      "required_measurements": {
+        "lifetime": "伙伴分辨绝对寿命测量（DSAM / RDM），获得无歧义的绝对 B(E2)、B(M1) 与绝对 B(E1)",
+        "polarization": "高精度 Compton 散射线性偏振与混合比 delta 测量，严格确认弱线为纯 E1 辐射",
+        "closed_links": "利用新一代高分辨阵列搜索 Band 2 <-> Band 4 等其余带间跨宇称闭合连接",
+        "coulomb_excitation_e3": "低能库仑激发测定内禀 <3^-||M(E3)||0^+> 矩阵元（正比于 beta3^2），直接无偏判定八极形变"
+      },
+      "minimal_formula": "B(E2; I -> I-2) = 1 / [tau * 1.22e9 * E_gamma^5 * (1 + alpha) * (1 + sum branches)]; B(E3; 0+ -> 3-) = (3/(4pi) * Z * e * R_0^3)^2 * beta_3^2",
+      "locators": [
+        {
+          "source": "Xiao_Xiao_2019",
+          "pdf_page": "pp. 45-47",
+          "printed_page": "pp. 37-39",
+          "item": "Sec. 4.2"
+        },
+        {
+          "source": "Liu_Chen_2016",
+          "pdf_page": "p. 90",
+          "printed_page": "p. 79",
+          "item": "Ch. 7"
+        },
+        {
+          "source": "Butler_Nazarewicz_1996",
+          "pdf_page": "pp. 16-19, 46",
+          "printed_page": "pp. 364-367, 394",
+          "item": "Sec. IV.A, Sec. VII.B"
+        }
+      ],
+      "author_reported": "肖骁排除 74As 负宇称带手征解释；刘晨在 78Br 总结中明确将稳定手征-宇称四重带作为未决展望",
+      "agent_inference": "未测绝对寿命、绝对四极矩与库仑激发 E3 矩阵元前，不能将 A~80 候选核直接拔高为确证的反射对称破缺四重态",
+      "strongest_alternative": "观测到的能带特征完全受控于转动引起的准粒子顺排交叉和非集体势能面极小漂移",
+      "uncovered_items": "目前 78Br 与 74As 均无在束库仑激发测定的内禀 E3 跃迁几率数据"
+    }
+  },
+  "guardrails_and_contracts_compliance": {
+    "no_uncited_wu_or_delta": true,
+    "no_cross_band_e1_only_stable_octupole_claim": true,
+    "no_duplicate_citation_as_independent_experiment": true,
+    "no_user_itemized_confirmations": true,
+    "no_knowledge_or_system_or_plan_mutations": true,
+    "strict_target_directory_isolation": true,
+    "contract_corrections_applied": [
+      "Corrected D0/Q0 Clebsch-Gordan ratio prefactor from 5/16 to 12/5",
+      "Withdrew unclosed transition level accumulation lines from previous draft records",
+      "Isolated 457.0 keV transition in 78Br as Delta I = 2 minimum M2 forbidden transition, not E1",
+      "Isolated 766.0 keV and 909.9 keV transitions in 74As thesis as upper limits < 0.4 without ADO/polarization",
+      "Prevented back-projection of 2022 journal octupole interpretation into 2019 thesis"
+    ]
+  }
+}

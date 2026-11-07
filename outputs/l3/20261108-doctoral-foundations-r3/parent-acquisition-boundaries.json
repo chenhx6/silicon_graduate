@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2026-11-07T21:59:27.625700+00:00",
+  "exa": "No EXA_API_KEY in current env or authorized local key file; no authenticated query made",
+  "initial_routes": "Two unverified candidate paths failed; these do not prove target work inaccessible",
+  "successful_primary_routes": [
+    "https://gymarkiv.sdu.dk/MFM/kdvs/mfm%2020-29/mfm-26-14.pdf",
+    "https://gymarkiv.sdu.dk/MFM/kdvs/mfm%2020-29/mfm-27-16.pdf"
+  ],
+  "actual_physical_pages": {
+    "Bohr1952": 40,
+    "BohrMottelson1953": 176
+  },
+  "published_dates_basis": "PDF title pages, not search-engine indexing timestamps"
+}

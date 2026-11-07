@@ -1,0 +1,222 @@
+{
+  "task": "R3-G53",
+  "title": "微观壳演化与完全熔合/存活的基础解释能力",
+  "generated_at": "2026-11-07T22:05:00Z",
+  "status": "completed",
+  "scope": "doctoral-foundations-r3-g53",
+  "wing": "Wing 2: 同核异能态、弱相互作用衰变与微观壳演化",
+  "governance": {
+    "read_only_knowledge": true,
+    "no_git_modification": true,
+    "no_credential_exposure": true,
+    "boundary_check_passed": true,
+    "archive_gate_passed": true,
+    "allowed_outputs_only": [
+      "outputs/l3/20261108-doctoral-foundations-r3/G53/report.md",
+      "outputs/l3/20261108-doctoral-foundations-r3/G53/evidence.json"
+    ]
+  },
+  "primary_sources": [
+    {
+      "key": "otsuka-2022",
+      "canonical_title": "Emerging Concepts in Nuclear Structure Based on the Shell Model",
+      "author": "Takaharu Otsuka",
+      "year": 2022,
+      "journal": "Physics 4(1), 258–285",
+      "doi": "10.3390/physics4010018",
+      "note": "Legacy filename doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution.md references 2023 MDPI book reprint; actual article was published in Physics in 2022.",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-otsuka-article/otsuka-2022-physics-emerging-concepts-publisher.pdf",
+      "sha256": "83ddfab8989cdb0a23be1d5ca3e9f689c7e8d728823d0b7c6a21c5aecd3ca0c7",
+      "locators": [
+        "p. 7 / p. 264, Eq. (15): ESPE shift delta epsilon_{j1} = sum_{j2} V_{j1 j2}^{mono} delta n_{j2}",
+        "p. 8 / p. 265, Section 2.5, Figs. 4-5: Monopole tensor force attractive between j_> and j'_<, repulsive between j_> and j'_>",
+        "pp. 12-14 / pp. 269-271, Section 3.1-3.2, Figs. 9-10: Type-I vs Type-II shell evolution and self-organization in 68Ni and Zr isotopes",
+        "pp. 17-18 / pp. 274-275, Section 4.1, Figs. 13-14: Monopole-frozen analysis in 154Sm; spherical HF frozen reference yields triaxial ground state rather than destroying deformation"
+      ]
+    },
+    {
+      "key": "zagrebaev-2001",
+      "canonical_title": "Synthesis of superheavy nuclei: How accurately can we describe it and calculate the cross sections?",
+      "authors": [
+        "V. I. Zagrebaev",
+        "Y. Aritomo",
+        "M. G. Itkis",
+        "Yu. Ts. Oganessian",
+        "M. Ohta"
+      ],
+      "year": 2001,
+      "journal": "Phys. Rev. C 65, 014607",
+      "doi": "10.1103/PhysRevC.65.014607",
+      "raw_file": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.65.014607.pdf",
+      "sha256": "0fbce3d3faded1e072ce25eeb8a758cabb81d54b2df2eee71f55efd1686116c8",
+      "locators": [
+        "p. 1, Eq. (1) and right column: Three-stage partial-wave decomposition of evaporation residue cross section with time-scale separation approximation",
+        "pp. 6-7, Eqs. (7)-(9): Level density parameter with Ignatyuk shell damping, Kramers dissipation factor, and collective rotational/vibrational enhancement",
+        "p. 7, Eqs. (10)-(11): Multi-chance neutron kinetic energy integral, Gamma_n/Gamma_tot, and terminal dimensionless gamma-cascade probability G_{x gamma}",
+        "p. 7, Section V.A: Discussion of No region example, showing macroscopic liquid-drop barrier ~ 1.2 MeV is not identically zero",
+        "p. 9, Fig. 6: Angular momentum distribution for 254No at E* = 25 MeV, showing residue survival window is much narrower than capture partial waves",
+        "p. 11, Fig. 10: Comparison of 48Ca + 244Pu cross section predictions across different fission barriers (8.9 MeV vs 6.8 MeV) and collective factors"
+      ]
+    },
+    {
+      "key": "xu-2004",
+      "canonical_title": "Enhanced Stability of Superheavy Nuclei Due to High-Spin Isomerism",
+      "authors": [
+        "F. R. Xu",
+        "E. G. Zhao",
+        "R. Wyss",
+        "P. M. Walker"
+      ],
+      "year": 2004,
+      "journal": "Phys. Rev. Lett. 92, 252501",
+      "doi": "10.1103/PhysRevLett.92.252501",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-g53-shell-fusion/xu-2004-prl-superheavy-high-spin-isomer.pdf",
+      "sha256": "9e6cdfecc0bdf71547cc8eddc7d69489fab8e0361d63ad87bd64a2aea39a413c",
+      "size": 174665,
+      "locators": [
+        "pp. 1-2, Figs. 1-2: Systematics of low-lying high-K two-quasiparticle states in even-even Z >= 100 superheavy nuclei",
+        "p. 3, Fig. 3: Alpha-decay chains from ground state and high-K isomers in 270Ds to 266Hs",
+        "p. 4, Fig. 4: Configuration-constrained fission barrier calculation for 7- isomer in 256Fm, showing enhanced barrier height and width due to specialization energy",
+        "p. 4, Fig. 5: Potential energy surface of 256Fm in (beta2, gamma) plane showing triaxial fission path lowering barrier by 2.4-2.6 MeV",
+        "p. 4, text: Partial fission half-life of 7- isomer in 256Fm is 0.8 ms, 300 times longer than unhindered estimate; independence of gamma-decay half-life from fission penetration and reaction feeding"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "topic-1-monopole-tensor-shell-evolution",
+      "title": "单极/张量作用、Type I 与 Type II 壳演化机制及 154Sm 单极冻结分析",
+      "key_concepts": [
+        "monopole interaction",
+        "tensor force",
+        "ESPE",
+        "Type-I shell evolution",
+        "Type-II shell evolution",
+        "nuclear self-organization",
+        "154Sm monopole frozen analysis",
+        "triaxial deformation"
+      ],
+      "locators": [
+        "Otsuka 2022 p. 7 Eq. (15)",
+        "Otsuka 2022 p. 8 Figs. 4-5",
+        "Otsuka 2022 pp. 12-14 Sec. 3.1-3.2",
+        "Otsuka 2022 pp. 17-18 Figs. 13-14"
+      ]
+    },
+    {
+      "id": "topic-2-occupancy-pairing-deformation-probes",
+      "title": "价核子占据、配对与形变对能级/跃迁/异能态的不同物理效应及直接占据探针",
+      "key_concepts": [
+        "valence occupancy",
+        "pairing gap",
+        "deformation splitting",
+        "high-K isomers",
+        "seniority isomers",
+        "shape isomers",
+        "single-nucleon transfer reactions",
+        "spectroscopic factor",
+        "Macfarlane-French sum rules"
+      ],
+      "locators": [
+        "Otsuka 2022 p. 7 Eq. (15)",
+        "Otsuka 2022 p. 17 Fig. 13 right",
+        "Xu 2004 p. 1"
+      ]
+    },
+    {
+      "id": "topic-3-er-cross-section-factorization-units",
+      "title": "蒸发剩余核截面分波求和、三阶段因子化与参数纠缠的非唯一性",
+      "key_concepts": [
+        "partial-wave summation",
+        "transmission coefficient T_l",
+        "compound nucleus formation P_CN",
+        "survival probability W_sur",
+        "center-of-mass energy E_cm",
+        "reduced mass mu",
+        "de Broglie wavelength",
+        "cross section units (fm^2, pb)",
+        "non-unique factorization",
+        "parameter entanglement"
+      ],
+      "locators": [
+        "Zagrebaev 2001 p. 1 Eq. (1)",
+        "Zagrebaev 2001 p. 9 Fig. 6",
+        "Zagrebaev 2001 p. 11 Fig. 10",
+        "G36 research note Sec. 1"
+      ]
+    },
+    {
+      "id": "topic-4-evaporation-cascade-branching-fusion-failure",
+      "title": "逐步中子蒸发级联、无量纲存活概率与完全熔合失败的物理界定",
+      "key_concepts": [
+        "multi-chance fission cascade",
+        "neutron kinetic energy spectrum",
+        "terminal gamma cascade G_{x gamma}",
+        "dimensionless survival probability",
+        "capture barrier penetration",
+        "quasifission",
+        "fast fission",
+        "deep inelastic collision",
+        "fusion failure"
+      ],
+      "locators": [
+        "Zagrebaev 2001 pp. 6-7 Eqs. (7)-(11)",
+        "Zagrebaev 2001 p. 7 Sec. V.A",
+        "G36 research note Sec. 2"
+      ]
+    },
+    {
+      "id": "topic-5-high-k-shape-isomers-fission-barrier-path",
+      "title": "高 K 与形状同核异能态对裂变势垒/路径的改变及半衰期与截面推断的禁忌",
+      "key_concepts": [
+        "high-K multi-quasiparticle isomers",
+        "configuration-constrained PES",
+        "specialization energy",
+        "orbital blocking",
+        "fission barrier height and width",
+        "triaxial fission trajectory",
+        "shape isomers",
+        "K-forbiddenness",
+        "partial fission half-life vs gamma half-life",
+        "feeding branching ratio"
+      ],
+      "locators": [
+        "Xu 2004 pp. 1-4 Figs. 1-5",
+        "Zagrebaev 2001 p. 9 Fig. 6",
+        "G36 research note Sec. 3"
+      ]
+    },
+    {
+      "id": "topic-6-yield-chain-beam-target-detection",
+      "title": "从理论截面到实验事件数的完整探测链与输入物理量的严格分层",
+      "key_concepts": [
+        "experimental yield equation",
+        "beam particle flux Phi",
+        "areal target density N_tgt",
+        "target energy loss dE/dx",
+        "recoil separator acceptance epsilon_sep",
+        "detector efficiency epsilon_det",
+        "decay correlation efficiency epsilon_decay",
+        "data acquisition live time",
+        "measured vs predicted vs unacquired dynamic inputs"
+      ],
+      "locators": [
+        "Zagrebaev 2001 p. 1 Eq. (1)",
+        "Xu 2004 p. 4",
+        "G36 research note Sec. 4"
+      ]
+    }
+  ],
+  "missing_phase1_foundation": {
+    "unacquired_inputs": [
+      "Facility-specific beam intensity time profile Phi(t) and target degradation logs",
+      "Real-time recoil separator magnetic/gas transmission calibrations for specific superheavy runs",
+      "Full experimental correlation matrices and background counts for unmeasured channels"
+    ],
+    "boundary_rules": [
+      "No sourceless cross sections, error percentages, or beam times",
+      "Fitting of single 4n cross section point does not constitute independent validation of fission barriers",
+      "Monopole frozen at spherical HF in 154Sm yields triaxial deformation, not spherical shape"
+    ]
+  }
+}

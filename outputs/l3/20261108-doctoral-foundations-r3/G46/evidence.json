@@ -1,0 +1,244 @@
+{
+  "metadata": {
+    "task_id": "R3-G46",
+    "title": "有限核中手征性、对称性恢复与可测证据的解释能力研究",
+    "run_date": "2026-11-08",
+    "generated_at": "2026-11-07T21:50:29.051772+00:00",
+    "scope": "outputs/l3/20261108-doctoral-foundations-r3/G46/",
+    "query_archive_dir": "raw/papers/gpt/query/20261108-r3-g46-finite-chirality/",
+    "report_path": "outputs/l3/20261108-doctoral-foundations-r3/G46/report.md",
+    "governance": {
+      "knowledge_write_forbidden": true,
+      "plan_write_forbidden": true,
+      "git_commit_forbidden": true,
+      "credentials_exposure_forbidden": true
+    }
+  },
+  "primary_sources_inventory": [
+    {
+      "role": "primary-theory",
+      "citation_key": "frauendorf_2001_Spontaneoussymmetry",
+      "title": "Spontaneous Symmetry Breaking in Rotating Nuclei",
+      "authors": [
+        "Stefan Frauendorf"
+      ],
+      "journal": "Reviews of Modern Physics",
+      "year": 2001,
+      "volume": 73,
+      "pages": "463-514",
+      "doi": "10.1103/RevModPhys.73.463",
+      "local_pdf": "raw/papers/2001_Frauendorf_Spontaneous symmetry breaking in rotating nuclei.pdf",
+      "sha256": "d43c7290cf5899ebc9b94324af5e95eb40e488bacf1c70c89e0b3bd61d916172",
+      "identity_note": "Verified as RMP 73, 463 (2001); prompt mention of 'Frauendorf2001 PhysRevC?' is an intentional audit check/misattribution. Foundational chiral paper is Frauendorf & Meng 1997 NPA 617, 131."
+    },
+    {
+      "role": "primary-experiment-benchmark",
+      "citation_key": "Mukhopadhyay_2007",
+      "title": "From Chiral Vibration to Static Chirality in 135Nd",
+      "authors": [
+        "S. Mukhopadhyay",
+        "D. Almehed",
+        "U. Garg",
+        "S. Frauendorf",
+        "T. Li",
+        "P. V. Madhusudhana Rao",
+        "X. Wang",
+        "S. S. Ghugre",
+        "M. P. Carpenter",
+        "S. Gros",
+        "A. Hecht",
+        "R. V. F. Janssens",
+        "F. G. Kondev",
+        "T. Lauritsen",
+        "D. Seweryniak",
+        "S. Zhu"
+      ],
+      "journal": "Physical Review Letters",
+      "year": 2007,
+      "volume": 99,
+      "pages": "172501",
+      "doi": "10.1103/PhysRevLett.99.172501",
+      "local_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf",
+      "sha256": "9eccc9c2ad02cc10735d1aad0d76eb2fd8af0a4acc814bcaab8099f50e748425",
+      "reaction": "100Mo(40Ar, 5n)135Nd at 182 MeV",
+      "spectrometer": "Gammasphere (100 Compton-suppressed HPGe)",
+      "technique": "DSAM with LINESHAPE and BLUE database"
+    },
+    {
+      "role": "companion-experiment-counterpart",
+      "citation_key": "tonev_2007_134pr-question-dynamic",
+      "title": "Question of dynamic chirality in nuclei: The case of 134Pr",
+      "authors": [
+        "D. Tonev",
+        "G. de Angelis",
+        "S. Brant",
+        "S. Frauendorf",
+        "P. Petkov",
+        "A. Dewald",
+        "F. Dönau",
+        "D. L. Balabanski",
+        "Q. Zhong",
+        "P. Pejovic",
+        "D. Bazzacco",
+        "P. Bednarczyk",
+        "F. Camera",
+        "D. Curien",
+        "F. Della Vedova",
+        "A. Fitzler",
+        "A. Gadea",
+        "G. Lo Bianco",
+        "S. Lenzi",
+        "S. Lunardi",
+        "N. Marginean",
+        "O. Möller",
+        "D. R. Napoli",
+        "R. Orlandi",
+        "E. Sahin",
+        "A. Saltarelli",
+        "J. Valiente Dobon",
+        "K. O. Zell",
+        "Jing-ye Zhang",
+        "Y. H. Zhang"
+      ],
+      "journal": "Physical Review C",
+      "year": 2007,
+      "volume": 76,
+      "pages": "044313",
+      "doi": "10.1103/PhysRevC.76.044313",
+      "local_pdf": "raw/papers/2007_Tonev_134Pr_Dynamic_Chirality.pdf",
+      "sha256": "822780157dadbeac4adfa3cd34b919b855a3911c497c229b2216fb7697f1b8aa",
+      "reaction": "119Sn(19F, 4n)134Pr at 83/87 MeV",
+      "spectrometer": "EUROBALL IV + BGO ball + Cologne coincidence plunger",
+      "technique": "RDDS (DDCM) and DSAM"
+    }
+  ],
+  "six_core_answers_matrix": {
+    "Q1_c_operator_antiunitary_and_lab_restoration": {
+      "title": "C = TR_y(pi) 反幺正算符与有限核实验室态精确对称的相容性",
+      "concepts": [
+        "推转平均场中的手征自发破缺仅发生在内禀旋转随体参考系中",
+        "反幺正算符 C = T R_y(pi) 反转中轴分量 J_y，将左手解与右手解简并映射",
+        "有限核无环境退相干，有限穿隧势垒必然恢复空间旋转不变性与时间反演对称性",
+        "实验室态是总哈密顿量的确切角动量与宇称本征态，通过两态相干叠加恢复"
+      ],
+      "minimal_formula": "C = T R_y(pi); C|L> = |R>; |I M +- > = (1/sqrt(2))(|I M L> +- |I M R>); H_eff = [[E0, -t], [-t, E0]] => Delta E(I) = 2|t(I)|",
+      "locators": [
+        "Frauendorf 2001 RMP p. 476 Sec. II.F.5 (PDF p. 14)",
+        "Frauendorf 2001 RMP p. 484 Sec. III.C Eqs. (56)-(58), Fig. 17 (PDF pp. 22-23)",
+        "Frauendorf & Meng 1997 NPA pp. 138-142 Sec. 3.1, Fig. 6"
+      ],
+      "author_reported": "Frauendorf (2001) 证明非共面推转解破缺 T R_y(pi) 产生手征简并，在实验室系中通过两态叠加（Eq. 58）恢复对称性，形成 Delta I=1 双重带。",
+      "agent_inference": "反幺正算符缺乏相位不变特征值，实验室能级劈裂 Delta E(I) 是左右势阱穿隧振幅 2|t(I)| 的动力学表现；不能将有限穿隧态直接宣称为自发对称破缺在实验室系的物理定态。",
+      "strongest_alternative": "两条独立的单粒子准粒子顺排带或三轴形状共存带，因转动参数接近而产生能量邻近。",
+      "claim_kind": "task-inference-and-formal-algebra"
+    },
+    "Q2_chiral_vibration_tunneling_and_static_limit": {
+      "title": "手征振动、左右隧穿与静态极限的能标与适用条件",
+      "concepts": [
+        "手征振动：共面平衡形状（phi=0），势能面方位角软，激发单声子手征振动态（能标 300-500 keV）",
+        "穿隧过渡区：非共面双阱（+-phi_0）出现，有限势垒穿隧使 Delta E(I) 随中轴核芯惯量减小",
+        "静态手征极限：势垒与惯量趋于无穷大时的半经典渐近极限（t -> 0, Delta E -> 0），有限核中永远无法完全达到",
+        "零点角度展宽 Delta phi ~ 20-30 度，使静态极限仅为数学外推"
+      ],
+      "minimal_formula": "H_coll = - (hbar^2 / 2 B_phi) d^2/dphi^2 + V(phi); Delta E(I) = 2|t(I)| ~ (hbar omega_0 / pi) exp(- (1/hbar) int sqrt(2 B_phi (V-E)) dphi); [H_RPA, O_nu^dagger] = E_RPA O_nu^dagger",
+      "locators": [
+        "Mukhopadhyay 2007 PRL pp. 1-4, Eqs. (2)-(3), Fig. 4",
+        "Frauendorf 2001 RMP p. 485, p. 499 Sec. IV.B",
+        "Tonev 2007 PRC pp. 21-25"
+      ],
+      "author_reported": "Mukhopadhyay 等认为 135Nd 在 I < 39/2- 为手征振动（Delta E ~ 300-400 keV），在 I >= 39/2- 跨入静态手征区（Delta E ~ 40 keV）。",
+      "agent_inference": "在有限核中 Delta E ~ 40 keV 仍是有限穿隧量子态（t ~ 20 keV），不能确立为真正的静态相变；不存在跨核区适用的普适能差或势垒截断阈值，必须结合电磁跃迁检验。",
+      "strongest_alternative": "常规平面转动带的带交叉（Band Crossing），在交叉点自旋处偶然出现 Delta E(I) -> 0。",
+      "claim_kind": "model-result-and-task-inference"
+    },
+    "Q3_degeneracy_insufficiency_and_absolute_electromagnetics": {
+      "title": "双重带近简并为何不足、绝对电磁跃迁与波函数判据",
+      "concepts": [
+        "能级近简并为单值标量，带交叉或形状共存可轻易伪造简并假象",
+        "内禀手征镜像要求两带在所有自旋下具有相同的形变参数和微观核子流分布",
+        "KSH 准则：带内 B(E2) 高度一致（核心形变同等性，偏差 < 15%）",
+        "带内 B(M1) 严格同相奇偶交错，简并点带间 Delta I = 0 的 M1 跃迁出现相消极小值"
+      ],
+      "minimal_formula": "B(E2)_1 approx B(E2)_2; R_E2(I) = B(E2)_1 / B(E2)_2, |R_E2 - 1| <= 0.15; sign(S_1(I)-1) == sign(S_2(I)-1); B(M1; inter, Delta I=0) -> 0",
+      "locators": [
+        "Mukhopadhyay 2007 PRL p. 2 Table I, Figs. 2-3",
+        "Tonev 2007 PRC pp. 2, 12-14 Table II, pp. 22-24 Figs. 18-20"
+      ],
+      "author_reported": "Mukhopadhyay 2007 报道 135Nd 两带带内 B(E2) 均在 ~0.3 e^2 b^2 且 B(M1) 相似；Tonev 2007 在 134Pr 测得简并区两带 B(E2) 相差数倍且 M1 交错缺失。",
+      "agent_inference": "绝对电磁跃迁测量是判决手征性的唯一硬判据；Tonev 2007 的实测直接否定了 134Pr 静态手征，证明仅凭简并宣称手征是不可信的。",
+      "strongest_alternative": "三轴形状共存（两个极小对应不同 beta, gamma）或 IBFFM 核芯 gamma 振动声子耦合。",
+      "claim_kind": "experimental-fact-and-model-critique"
+    },
+    "Q4_c_squared_algebra_kramers_boundary_and_terra_handoff": {
+      "title": "整数与半整数 I 的 C^2、Kramers 简并代数边界与保留移交",
+      "concepts": [
+        "时间反演对半整数自旋满足 T^2 = (-1)^(2I) = -1，给出磁子能级 Kramers 简并",
+        "手征反幺正算符 C = R_y(pi) T 包含了自旋转动因子 e^(-i 2pi J_y) = (-1)^(2I)",
+        "C 的平方对整数和半整数 I 均恒等于 +1（[(-1)^(2I)]^2 = 1）",
+        "因为 C^2 = +1，Kramers 定理对 C 恒不成立，数学上完全允许单一非简并本征态",
+        "半整数核的 Kramers 简并只保护同一自旋多重态内 +-M 磁态，绝不保护两个独立转动带的简并"
+      ],
+      "minimal_formula": "T = exp(-i pi J_y) K => T^2 = (-1)^(2I); C = R_y(pi) T = (-1)^(2I) K => C^2 = [(-1)^(2I)]^2 K^2 == +1 (forall I); C = sigma_x K => [C, H] = 0 with t != 0 fully compatible",
+      "locators": [
+        "Frauendorf 2001 RMP p. 476 Sec. II.F.5 (PDF p. 14)",
+        "Bohr & Mottelson 1969 Nuclear Structure Vol. I, p. 17"
+      ],
+      "author_reported": "Frauendorf 2001 综述未诉诸半整数 Kramers 定理讨论双重带简并。",
+      "agent_inference": "手征双重带劈裂 Delta E(I) = 2|t(I)| 完全由空间几何取向穿隧决定，不受 Kramers 定理保护；若有理论试图以 Kramers 定理强行论证双带能量简并，必须坚决保留边界并交 Terra 处理。",
+      "strongest_alternative": "将单粒子能级的时间反演 Kramer 对偶机械混同为多体集体转动能谱的简并。",
+      "claim_kind": "formal-mathematical-derivation"
+    },
+    "Q5_unobserved_transitions_sensitivity_and_falsification": {
+      "title": "未观测伴随信号的有效反证条件与实验灵敏度界限",
+      "concepts": [
+        "跃迁几率强烈依赖能量（M1 propto E_gamma^3, E2 propto E_gamma^5）",
+        "近简并区带间跃迁能量极低（< 50 keV），分支比微弱且内转换系数 alpha >> 1，极易沉没于本底中",
+        "仅未观测到跃迁属于非信息性空证明，不能直接作为物理反证",
+        "有效反证条件：(1) 实验灵敏度上限 B_limit 严格低于模型预言下限；(2) 测得反相 M1 交错（标志平面旋称劈裂）；(3) 带内 B(E2) 显著失配"
+      ],
+      "minimal_formula": "B_limit(M1) = (56.6 / (E_gamma^3 * tau)) * (I_gamma_limit / sum(I_gamma)); I_gamma = T_gamma / (1 + alpha); R_E2(I) != 1.0",
+      "locators": [
+        "Tonev 2007 PRC pp. 2, 9-14 Table I-II, pp. 22-25",
+        "Mukhopadhyay 2007 PRL p. 2 Table I"
+      ],
+      "author_reported": "Tonev 2007 不仅指出带间弱连线，更以实测带内 B(E2) 严重失配与 M1 奇偶交错缺失排他性否定静态手征。",
+      "agent_inference": "未观测到弱跃迁必须经过谱仪响应函数和 3*sigma 探测上限校准；致死反证必须来自带内跃迁矩阵元的对称性违背。",
+      "strongest_alternative": "低能带间跃迁被强内转换电子屏蔽，或退激路径被复杂的多准粒子支路所高度碎裂。",
+      "claim_kind": "spectroscopy-experimental-audit"
+    },
+    "Q6_cross_region_transfer_and_frozen_inputs": {
+      "title": "跨核区迁移至 A~60、A~80、A~190 需冻结的输入与竞争机制",
+      "concepts": [
+        "手征三面体要求：短轴粒子 j_p、长轴空穴 j_n、中轴核芯转动 R 正交（标量三重积 V_chiral != 0）",
+        "A~60 (pi f7/2^-1 (x) nu g9/2^1)：j 较小，三面体体积小，转动惯量小（~10 hbar^2/MeV），取向角零点量子涨落巨大，静态手征被涨落冲垮",
+        "A~80 (pi g9/2 (x) nu g9/2^-1)：同壳粒子空穴，易受八极关联软性干扰",
+        "A~190 (pi h9/2 (x) nu i13/2^-1)：惯量大（~70 hbar^2/MeV），需高自旋驱动核芯中轴顺排，易受配对阻尼",
+        "必须冻结的输入：(1) 独立实验确认的三轴形变（gamma ~ 30度）；(2) 态级反演寿命所给出的绝对 B(M1), B(E2)；(3) 经偏振确定的纯正单组态"
+      ],
+      "minimal_formula": "J = j_p + j_n + R_core; V_chiral = R_core . (j_p x j_n) != 0; J_irrot_k propto sin^2(gamma - 2pi/3 k); Delta theta * Delta phi >= hbar / (2 |<J_y>|)",
+      "locators": [
+        "Ding 2025 CPC pp. 1-3, Figs. 1-4",
+        "Liu 2016 PRL pp. 1-4",
+        "Frauendorf 2001 RMP p. 485",
+        "Tonev 2007 PRC p. 1"
+      ],
+      "author_reported": "Ding 等在 A~60 计算表明残余质中力 V_pn 强烈调制劈裂与交错；Liu 2016 报道 78Br 存在八极竞争；Frauendorf 预言 A~105, 130, 190 存在候选。",
+      "agent_inference": "不能仅凭满足粒子-空穴构型就断言手征；在轻核区角动量矢量过短导致量子涨落支配，重核区则受制于准粒子顺排和配对相消。",
+      "strongest_alternative": "平面磁转动剪刀机构、赝自旋双重带或单粒子耦合轴对称核芯 gamma 振动。",
+      "claim_kind": "cross-region-comparative-synthesis"
+    }
+  },
+  "executable_next_step_and_failure_pivot": {
+    "executable_next_step": "开发伙伴带全电磁张量对账程序，将 Mukhopadhyay 2007（135Nd）与 Tonev 2007（134Pr）测得的带内/带间 B(M1), B(E2) 实验值及其协方差输入，计算带内四极比值 R_E2(I) 与 M1 奇偶交错同相因子 S_M1(I)，输出带置信区间的确定性裁决。",
+    "failure_pivot": "若候选核的双重带在简并区出现下列任一条件：(1) 带内 B(E2) 偏离大于实验 2*sigma（R_E2 != 1.0）；(2) 带内 M1 奇偶交错呈反相（sign(S_1-1) != sign(S_2-1)）；(3) 高灵敏度上限下缺失特征带间跃迁，则判定静态/动态手征解释失效，立即转向三轴 gamma 软核耦合模型（IBFFM）或不同轴比的三轴形状共存模型。"
+  },
+  "guardrails_and_contracts_compliance": {
+    "no_universal_threshold_invented": true,
+    "no_spontaneous_symmetry_breaking_proven_claimed": true,
+    "no_tripod_alone_novelty_claimed": true,
+    "no_paper_chapters_written": true,
+    "line_count_bounded_150_to_220": true,
+    "only_written_to_designated_g46_dir": true,
+    "knowledge_and_plan_untouched": true
+  }
+}

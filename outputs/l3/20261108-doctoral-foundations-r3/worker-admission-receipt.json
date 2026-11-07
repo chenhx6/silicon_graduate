@@ -1,0 +1,116 @@
+{
+  "recorded_at": "2026-11-07T22:49:06.213598+00:00",
+  "meaning": "Original drafts are process inputs, not canonical evidence; accepted content rewritten in knowledge; remaining worker JSON assertions require direct-source verification",
+  "workers": [
+    {
+      "task": "G45",
+      "original_report_sha256": "9b3ff3373f542abe175128cf320f8d46122004a030de5ce37d30244d9f06c29f",
+      "canonical_knowledge": [
+        "knowledge/research-notes/doctoral-r3-quantum-labels-and-model-boundaries-20261108.md",
+        "knowledge/sources/kvasil-2006-dy156-yb162-crpa-wobbling.md"
+      ]
+    },
+    {
+      "task": "G46",
+      "original_report_sha256": "b38fcf1cd6e77535f55d1184828e25c5057407ec9ed73c1e5a0d89127065f1dc",
+      "canonical_knowledge": [
+        "knowledge/research-notes/doctoral-r3-quantum-labels-and-model-boundaries-20261108.md"
+      ]
+    },
+    {
+      "task": "G47",
+      "original_report_sha256": "48a5384cf90fce0c720bc333dd0d5d6a37169b9dc19d4e8e3254b14bbc648b4e",
+      "canonical_knowledge": [
+        "knowledge/research-notes/doctoral-r3-quantum-labels-and-model-boundaries-20261108.md"
+      ]
+    },
+    {
+      "task": "G48",
+      "original_report_sha256": "68108a0b5b21d185191afe7794b0c5d1f080fb2c50e3c8ae4fa0b55fdca6f1e4",
+      "canonical_knowledge": [
+        "knowledge/research-notes/doctoral-r3-weak-operators-and-delayed-particles-20261108.md"
+      ]
+    },
+    {
+      "task": "G49",
+      "original_report_sha256": "900acd511e527362ecbefbb6dbe8d4cd08b9d9bb3c24806e748b80a985ad5710",
+      "canonical_knowledge": [
+        "knowledge/research-notes/doctoral-r3-daq-spectroscopy-inverse-20261108.md"
+      ]
+    },
+    {
+      "task": "G50",
+      "original_report_sha256": "22454b45a646b414650d669f6d39aedd209992af884d076e48e1e17abaada7c0",
+      "canonical_knowledge": [
+        "knowledge/research-notes/doctoral-r3-daq-spectroscopy-inverse-20261108.md"
+      ]
+    },
+    {
+      "task": "G51",
+      "original_report_sha256": "63a3e8b254c68b60797c1c06d9dcbbe812090d3ae8b6581d08076b3e635f327d",
+      "canonical_knowledge": [
+        "knowledge/research-notes/doctoral-r3-isomers-shell-and-survival-20261108.md"
+      ]
+    },
+    {
+      "task": "G52",
+      "original_report_sha256": "07957bb16dd391b5df935f14906b428eb9b1ba6041b5cefabcfb133740632597",
+      "canonical_knowledge": [
+        "knowledge/research-notes/doctoral-r3-weak-operators-and-delayed-particles-20261108.md"
+      ]
+    },
+    {
+      "task": "G53",
+      "original_report_sha256": "2c19f3181b8333b8b98de1418c1f73f6bed63a38fe39d031bed6016e49d559ec",
+      "canonical_knowledge": [
+        "knowledge/research-notes/doctoral-r3-isomers-shell-and-survival-20261108.md",
+        "knowledge/sources/xu-2004-superheavy-high-spin-isomer-stability.md"
+      ]
+    },
+    {
+      "task": "G54",
+      "original_report_sha256": "621d72b2e3c8c1ac1eed396eba9aea97998a81693490a1e7d34de3411c9c5c17",
+      "canonical_knowledge": [
+        "knowledge/research-notes/nuclear-clock-isomer-learning-and-transfer-20261107.md"
+      ]
+    },
+    {
+      "task": "G55",
+      "original_report_sha256": "310fcc620a00846a1a9256f9beb99bc9e93b14b03346db2f5a3a5b163e1b0125",
+      "canonical_knowledge": [
+        "knowledge/research-notes/mo93-neec-evidence-and-depletion-transfer-20261107.md",
+        "knowledge/sources/li-2026-isomer-depletion-neies.md"
+      ]
+    },
+    {
+      "task": "G56",
+      "original_report_sha256": "03a55b8d175ea90c595f387127dbc9e455e24073a85a07dc92826c97db60cc34",
+      "canonical_knowledge": [
+        "knowledge/research-notes/doctoral-r3-readiness-evidence-matrix-20261108.md"
+      ]
+    },
+    {
+      "task": "G57",
+      "original_report_sha256": "44fd99df99e9cb997de46c4813c818255d7581ba00e98be05585650c3867f33d",
+      "canonical_knowledge": [
+        "knowledge/sources/bohr-mottelson-1953-collective-individual-original.md",
+        "knowledge/research-notes/doctoral-r3-quantum-labels-and-model-boundaries-20261108.md"
+      ]
+    },
+    {
+      "task": "T06",
+      "original_report_sha256": "368cacd7714d82d9e7c0fcc13f0173fd7cc98f733835fc54264132091b45b12c",
+      "canonical_knowledge": [
+        "knowledge/research-notes/doctoral-r3-quantum-labels-and-model-boundaries-20261108.md"
+      ]
+    },
+    {
+      "task": "T07",
+      "original_report_sha256": "49fad0e4f57cd4f580c0f0c2cf0f9ddf937287e776a8bf6c4d279493b953fef0",
+      "canonical_knowledge": [
+        "knowledge/research-notes/doctoral-r3-weak-operators-and-delayed-particles-20261108.md",
+        "knowledge/sources/cirigliano-2018-leading-short-range-double-beta.md"
+      ]
+    }
+  ]
+}

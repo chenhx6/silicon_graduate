@@ -1,0 +1,397 @@
+{
+  "task_id": "R3-G56",
+  "topic": "第一阶段条件1六质量区证据复盘（A60/80/100/130/160/190实质案例）",
+  "retrieved_at": "2026-11-08",
+  "scope": "逐区核验已学习实质案例的测量数值、作者推断、最强替代解释、测量约束与模型输入分层、跨区迁移条件与初学者教学接口",
+  "condition_evaluated": {
+    "condition_id": 1,
+    "condition_text": "六区均有至少一个能重建'物理问题—原始测量—作者推断—替代解释'的实质案例；比较真正涉及壳占据、配对/惯量、形状涨落、激发与观测链，不只是模式名录。",
+    "assessment_result": "passed"
+  },
+  "reading_scope": {
+    "foundations_and_synthesis": [
+      "knowledge/projects/doctoral-nuclear-structure-foundations.md",
+      "knowledge/synthesis/six-region-shape-and-collective-dynamics-foundations.md",
+      "README.md"
+    ],
+    "research_notes": [
+      "knowledge/research-notes/doctoral-r1-g26-a60-collectivity-20261108.md",
+      "knowledge/research-notes/doctoral-r1-g27-a80-shape-coexistence-20261108.md",
+      "knowledge/research-notes/doctoral-r1-g28-a100-shell-shape-20261108.md",
+      "knowledge/research-notes/doctoral-r1-g29-a130-core-orientation-20261108.md",
+      "knowledge/research-notes/doctoral-r1-g30-a160-precession-wobbling-20261108.md",
+      "knowledge/research-notes/doctoral-r1-g31-a190-charge-shape-20261108.md"
+    ],
+    "primary_sources": [
+      {
+        "citation_key": "crider-2016-68ni",
+        "source_file": "knowledge/sources/doctoral-r1-g26-crider-2016-68ni-shape-coexistence.md",
+        "raw_file": "raw/papers/gpt/query/20261108-foundations-G26/crider-2016-68ni-shape-coexistence.pdf",
+        "raw_sha256": "923ce537b505cecd49cdf75901bdd1be76896da0326ce29e8b049f10143d4b28",
+        "total_pages": 6,
+        "verified_locators": [
+          "PDF p.4 / printed p.111 Table 1",
+          "PDF p.4 Fig. 3",
+          "PDF p.2-3 text"
+        ]
+      },
+      {
+        "citation_key": "starosta-2007-64ge",
+        "source_file": "knowledge/sources/doctoral-r1-g26-starosta-2007-64ge-rdm-e2.md",
+        "raw_file": "raw/papers/gpt/query/20261108-foundations-G26/starosta-2007-64ge-rdm-e2.pdf",
+        "raw_sha256": "715a4c8ada9a6e4bcc2be1df8c845e680d81b6f0c4f91bf70931fe7b10592ad8",
+        "total_pages": 4,
+        "verified_locators": [
+          "PDF p.3 Table I"
+        ]
+      },
+      {
+        "citation_key": "clement-2007-kr",
+        "source_file": "knowledge/sources/doctoral-r1-g27-clement-2007-prc-krypton-coulex.md",
+        "raw_file": "raw/papers/gpt/query/20261108-foundations-G27/clement-2007-74kr-76kr-coulex-prc.pdf",
+        "raw_sha256": "2ee6c7be8a2fbb7266b0a1d6f4c3beea0f4a4601b695123d493a105f2fa7a7b8",
+        "total_pages": 20,
+        "verified_locators": [
+          "PDF p.11 Tables V, VI",
+          "PDF p.15 Tables X, XI"
+        ]
+      },
+      {
+        "citation_key": "singh-2018-98zr",
+        "source_file": "knowledge/sources/doctoral-r1-g28-singh-2018-98zr-lifetimes.md",
+        "raw_file": "raw/papers/gpt/query/20261108-foundations-G28/singh-2018-98zr-coexisting-shapes.pdf",
+        "raw_sha256": "37f2d5ee16f799fe3845b40d6d5ef0f2b38870104dc45db59c19361a48ccefc6",
+        "total_pages": 6,
+        "verified_locators": [
+          "PDF p.3 / printed p.192501-3 Table I"
+        ]
+      },
+      {
+        "citation_key": "togashi-2016-zr",
+        "source_file": "knowledge/sources/doctoral-r1-g28-togashi-2016-zr-mcsm-qpt.md",
+        "raw_file": "raw/papers/gpt/query/20261108-foundations-G28/togashi-2016-zr-qpt.pdf",
+        "raw_sha256": "f43431ebad67addf9d6c29b9f7836ea4aa6203cf241bf8fbfb39d1b64a2b9933",
+        "total_pages": 6,
+        "verified_locators": [
+          "PDF p.2 text",
+          "PDF p.4 Fig. 3"
+        ]
+      },
+      {
+        "citation_key": "otsuka-2022-type-ii",
+        "source_file": "knowledge/sources/doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution.md",
+        "raw_file": "raw/papers/gpt/query/20261108-foundations-otsuka-article/otsuka-2022-physics-emerging-concepts-publisher.pdf",
+        "raw_sha256": "83ddfab8989cdb0a322ad19074ba04a2993b4a2c07dc767119f9d2bb52549aa6",
+        "total_pages": 36,
+        "verified_locators": [
+          "PDF p.114",
+          "PDF p.116"
+        ]
+      },
+      {
+        "citation_key": "chen-2019-130ba",
+        "source_file": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
+        "raw_file": "raw/papers/2019_Chen et al_Transverse wobbling in an even-even nucleus.pdf",
+        "raw_sha256": "26e305b496b2fdff4596670f772e3b030540b3c24d0830b8e4b4176c8070c768",
+        "total_pages": 5,
+        "verified_locators": [
+          "PDF p.2 / printed p.142501-2 Table I & left column"
+        ]
+      },
+      {
+        "citation_key": "wang-2024-130ba-wobbling",
+        "source_file": "knowledge/sources/doctoral-r1-g29-wang-2024-exploring-wobbling-even-even.md",
+        "raw_file": "raw/papers/gpt/query/20261108-foundations-G29/wang-2024-exploring-wobbling-even-even.pdf",
+        "raw_sha256": "77d21f7239346ea003ff56fa3860bb63aa09ea391512db404419515582f3ec02",
+        "total_pages": 12,
+        "verified_locators": [
+          "PDF p.4-5 Figs. 4-6"
+        ]
+      },
+      {
+        "citation_key": "nomura-2022-ibfm-wobbling",
+        "source_file": "knowledge/sources/doctoral-r1-g29-nomura-2022-questioning-wobbling-ibfm.md",
+        "raw_file": "raw/papers/gpt/query/20261108-foundations-G29/nomura-2022-questioning-wobbling-ibfm.pdf",
+        "raw_sha256": "127e2f814f743ead54497ffb7235a8bc317b9b1aa92e21bf1712a32eb5189eb8",
+        "total_pages": 11,
+        "verified_locators": [
+          "PDF p.3-4, 9 Table II"
+        ]
+      },
+      {
+        "citation_key": "gorgen-2004-163lu",
+        "source_file": "knowledge/sources/campaign-g07-gorgen-2004-163lu-quadrupole-moments.md",
+        "raw_file": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+        "raw_sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e",
+        "total_pages": 4,
+        "verified_locators": [
+          "PDF p.2-3 Tables I, II & Fig. 2"
+        ]
+      },
+      {
+        "citation_key": "purry-1997-178w",
+        "source_file": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+        "raw_file": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/purry-1997-phd-high-spin-multiparticle-178w-b8ee1308d487.pdf",
+        "raw_sha256": "b8ee1308d4871c1514d0ed54b3d523104da143bb346088a24eb008d97fc96753",
+        "total_pages": 112,
+        "verified_locators": [
+          "PDF p.68-70 / printed p.59-61 §4.2.10",
+          "PDF p.87 Table 5.4"
+        ]
+      },
+      {
+        "citation_key": "frauendorf-2000-tac",
+        "source_file": "knowledge/sources/doctoral-r1-g30-frauendorf-2000-npa-tilted-axis-cranking.md",
+        "raw_file": "raw/papers/gpt/query/20261108-foundations-G30/frauendorf-2000-npa677-tilted-axis-cranking.pdf",
+        "raw_sha256": "c7487e240ab561d9cf158913b5bf934b92b67d983ae410884d6b63795b9c488d",
+        "total_pages": 56,
+        "verified_locators": [
+          "PDF p.5 / printed p.119 Eqs. 15-24",
+          "PDF p.11 / printed p.125 Eqs. 40-46"
+        ]
+      },
+      {
+        "citation_key": "bree-2014-hg",
+        "source_file": "knowledge/sources/doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg.md",
+        "raw_file": "raw/papers/gpt/query/20261108-foundations-G31/Bree-2014-PRL-112-162701.pdf",
+        "raw_sha256": "c80dd7dc376378fa423f5b7aa21c8188e404bf530664e7a3ec02758416fb912c",
+        "total_pages": 6,
+        "verified_locators": [
+          "PDF p.4 / printed p.162701-3 Table I & Fig. 3",
+          "PDF p.5 text"
+        ]
+      }
+    ]
+  },
+  "regional_evaluations": {
+    "A60": {
+      "case_nuclei": "68Ni (with 64Ge)",
+      "verified_experimental_value": "68Ni BR(2_1+ -> 0_2+) = 0.12(3)%, t_1/2(0_3+) = 0.57(5) ns, B(E2; 2_1+ -> 0_1+) = 52.5(84) e^2 fm^4, B(E2; 2_1+ -> 0_2+) = 147(46) e^2 fm^4; 64Ge tau(2_1+) = 3.3(5) ps, B(E2; 2_1+ -> 0_1+) = 410(60) e^2 fm^4",
+      "theory_column_audit": "Starosta 2007 Table I 列出之 Qs(2_1+) = -18.6 e fm^2 与 Qs(2_2+) = +18.5 e fm^2 为 GXPF1A 理论计算列，绝非实验实测量。",
+      "author_interpretation": "球形基态、扁椭 0_2+ 与长椭 0_3+ 之三态形状共存；正交两态混合给出 cos^2(theta)=0.74(7)，方均电荷半径差 0.17(2) fm^2 与内禀 |Q_0|=93(5) e fm^2。",
+      "strongest_rival": "大振幅连续 beta-gamma 软四极振动与跨壳组态混合；无深势垒分隔静态势阱，跃迁由零点量子涨落生成。",
+      "constraints_vs_inputs": {
+        "measurement_constraints": [
+          "430 keV 与 478 keV 跃迁能量",
+          "分支比 0.12(3)%",
+          "半衰期 0.57(5) ns",
+          "采用之 rho^2(E0)=0.0076(4)"
+        ],
+        "model_inputs": [
+          "正交双组态截断",
+          "未混合态间单体交叉矩阵元为零",
+          "2_1+ 纯属于形变带假定",
+          "均匀带电旋转椭球内禀 Q_0 映射"
+        ]
+      },
+      "transfer_conditions": {
+        "feasibility": "适用于费米面跨越 N=40 次闭壳且侵入关联能可补偿单粒子能隙的中轻核。",
+        "invalidation_reasons": "迁移至价核子更多之 Kr 或 Zr 时因强质中张量力重排单粒子能级，四极相干性剧增，使简单两态模型崩溃。",
+        "discriminating_observables": [
+          "多步 CoulEx 对角项 M_22",
+          "绝对 E0 单极强度 rho^2(E0)",
+          "单核子转移反应 S 因子"
+        ]
+      },
+      "beginner_interface": {
+        "concept": "孤立原子核在实验室系中受空间各向同性保护，0+ 基态光谱四极矩恒为零；极弱分支比揭示出到激发 0_2+ 态之 E2 强度反而是基态的 3 倍，锁定微观组态混合。",
+        "conditional_formula": "B(E2; 2_1+ -> 0_1+) / B(E2; 2_1+ -> 0_2+) = tan^2(theta) (在忽略未混合基底间交叉跃迁条件下)",
+        "typical_misconception": "误以为测得基态光谱四极矩 Q_s(0_1+) = 0 就代表原子核是球形；事实上由 Wigner-Eckart 定理，任何 0+ 态之一阶四极矩恒为零。"
+      },
+      "readiness": "passed"
+    },
+    "A80": {
+      "case_nuclei": "74Kr, 76Kr",
+      "verified_experimental_value": "74Kr <0_1+||M(E2)||2_1+> = 0.782(7) eb (B(E2; 2_1+ -> 0_1+) = 0.122(2) e^2 b^2), <2_1+||M(E2)||2_1+> = -0.70(+0.33/-0.30) eb, <2_1+||M(E2)||0_2+> = 0.68(+0.04/-0.03) eb (B(E2; 0_2+ -> 2_1+) = 0.47(5) e^2 b^2); 76Kr M_22 = -0.9(3) eb",
+      "theory_column_audit": "76Kr Table VI 中 -0.78 eb 为理论 Qs，实验对角矩阵元为 -0.9(3) eb；反向向下 B(E2; 2_1+ -> 0_2+) 应除以统计因子 5（约为 0.094 e^2 b^2），不可混淆方向。",
+      "author_interpretation": "长椭基态带与扁椭激发带共存；负对角矩阵元在轴对称 K=0 假定下支持基态带长椭形变，伴随低自旋 K 混合。",
+      "strongest_rival": "大振幅三轴 gamma 软势能面动力学（如 Hinohara SCC-EDF）；无孤立双阱，波函数在 gamma 轴发生跨越 30 度的剧烈动力学涨落。",
+      "constraints_vs_inputs": {
+        "measurement_constraints": [
+          "重离子多步库仑激发多角度微分截面",
+          "粒子-gamma 符合产额",
+          "重取向效应干涉项",
+          "闭合路径乘积环"
+        ],
+        "model_inputs": [
+          "GOSIA 高自旋态与矩阵元截断",
+          "采用之辅助能级寿命",
+          "对角矩阵元折算 Q_0 所用之纯轴对称 K=0 假设"
+        ]
+      },
+      "transfer_conditions": {
+        "feasibility": "适用于中子/质子近半满、长扁椭能量高度简并之重核区（如 A~190 Hg/Pt）。",
+        "invalidation_reasons": "不可直接外推至奇奇核 78Br；奇质子与奇中子占据 g_9/2 产生强科氏反作用与不对称极化，改变势能曲率。",
+        "discriminating_observables": [
+          "闭合路径不变量 q_3 比例于 <Q^3 cos 3delta>",
+          "磁偶极矩 g(2_1+)",
+          "带间高自旋 E2 衰变分支"
+        ]
+      },
+      "beginner_interface": {
+        "concept": "库仑激发通过直接激发与多步间接激发的量子干涉，干涉符号由闭合跃迁环乘积锁定，从而测定激发态光谱四极矩正负号。",
+        "conditional_formula": "Q_s(2_1+) = sqrt(16pi/5) sqrt(2/35) <2_1+||M(E2)||2_1+> approx 0.758 M_22 = -2/7 Q_0 (在轴对称 K=0 转子假设下)",
+        "typical_misconception": "误以为单条非对角矩阵元 M_fi 的正负号有绝对物理意义；实际上单态相位重定义可改变其符号，只有闭合环乘积与对角矩阵元是规范不变量。"
+      },
+      "readiness": "passed"
+    },
+    "A100": {
+      "case_nuclei": "98Zr (with Zr chain)",
+      "verified_experimental_value": "98Zr tau(2_1+) = 3.8(8) ps, tau(4_1+) = 7.5(15) ps, tau(6_1+) = 2.6(9) ps; B(E2; 2_1+ -> 0_1+) = 2.9(0.6)_a(0.2)_b W.u., B(E2; 2_1+ -> 0_2+) = 28.3(6.0)_a(2.4)_b W.u., B(E2; 4_1+ -> 2_1+) = 43.3(8.7)_a(10.8)_b W.u., B(E2; 6_1+ -> 4_1+) = 103.0(35.7)_a W.u.",
+      "theory_column_audit": "Togashi 2016 图2 中 100Zr 跃迁强度箭头（如 73, 101 W.u.）均为 MCSM 模型预测值，并非本实验实测数。",
+      "author_interpretation": "II 型壳演化诱发的量子相变；质子跨 Z=40 激发至 pi 0g_9/2 导致强单极张量力下拉中子 0g_7/2 达 2 MeV，引发四极相干与 N=60 突变。",
+      "strongest_rival": "能量密度泛函（EDF）与配对涨落；有限体系不存在热力学严格奇点，突变可由平缓微观势能面穿越解释。",
+      "constraints_vs_inputs": {
+        "measurement_constraints": [
+          "VAMOS++ 离子鉴别与反冲速度矢量",
+          "Clover 多普勒频移峰形",
+          "外部分支比输入"
+        ],
+        "model_inputs": [
+          "JUN45 + SNBG3 + VMU 模型空间",
+          "经 90-96Zr 与 94-100Zr 经验微调之 T=1 两体矩阵元",
+          "有效电荷经验取值 ep=1.5e, en=0.5e"
+        ]
+      },
+      "transfer_conditions": {
+        "feasibility": "可迁移至具有相似高 j 相互吸引张量轨道之次闭壳反转岛区（如 N=28 或 N=40）。",
+        "invalidation_reasons": "不可迁移至同区 Mo/Ru/Pd 链；增加 2-4 个价质子打破 Z=40 亚壳钝化，使势能面呈现连续宽坦 gamma 软核，突变消失。",
+        "discriminating_observables": [
+          "单核子转移反应 (d,p)/(p,d) 测定质中轨道真实占据数",
+          "双中子分离能差分 Delta S_2n"
+        ]
+      },
+      "beginner_interface": {
+        "concept": "原子核单粒子轨道能级不是静态货架，核子跃迁跳跃自身的引力会拉垮货架，发生'粒子占据重排壳层、壳层重排诱发形变'的正反馈。",
+        "conditional_formula": "Delta epsilon_n(j) = sum_{j'} V^{mono}_{nn}(j,j') Delta n_n(j') + sum_{j'} tilde{V}^{mono}_{pn}(j',j) Delta n_p(j') (在单极分解定义下)",
+        "typical_misconception": "误以为 B(E2; 2_1+ -> 0_1+) 仅 2.9 W.u. 就代表 98Zr 是纯球形核；其实其激发态跃迁高达 103 W.u.，基态弱跃迁只是因为基态球形与激发形变态之重叠积分被正交性压低。"
+      },
+      "readiness": "passed"
+    },
+    "A130": {
+      "case_nuclei": "130Ba",
+      "verified_experimental_value": "4 角度角分布测量提取 S1' -> S1 混合比；I=13 -> 12 跃迁选取小模分支 delta = -0.58(13)，导出 B(E2_out)/B(E2_in) = 0.32(+0.18/-0.15) 与 B(M1_out)/B(E2_in) = 0.36(+0.19/-0.13) mu_N^2/(e^2 b^2)",
+      "theory_column_audit": "作者承认角分布无法单独排除大模分支 (|delta| 约 2-4)；且表中 I=19, 21 之 delta 实验无标注误差；PRM 列全为模型计算。",
+      "author_interpretation": "偶偶核两准质子横向摆动（TW）；两准质子 pi(h_11/2)^2 沿三轴短轴极化，核芯绕中轴转动，形成进动摆动声子。",
+      "strongest_rival": "基于两准粒子内禀态上的核芯四极 gamma 形状振动，或考虑剪刀模与 gamma 软势之 IBFM 耦合（Wang 2024, Nomura 2022）。",
+      "constraints_vs_inputs": {
+        "measurement_constraints": [
+          "4 个实验室探测角度之多普勒校正峰面积产额",
+          "双门符合级联相对强度"
+        ],
+        "model_inputs": [
+          "CDFT 极小点固定形变参数 (beta=0.24, gamma=21.5 deg)",
+          "PRM 转动惯量经验线性拟合 J_i = Theta_i(1+cI) 带 c=0.59",
+          "冻结准粒子 j=10 hbar 假设"
+        ]
+      },
+      "transfer_conditions": {
+        "feasibility": "可迁移至高 j 轨道处于低 Omega 且核芯具稳定三轴形变之奇 A 或偶偶核（如 163Lu）。",
+        "invalidation_reasons": "迁移至费米面处于高 Omega 轨道时粒子-空穴因子 (u_j^2 - v_j^2) 反号或抵消；且三轴软核中摆动与 gamma 振动杂化，冻结粒子转子模型失效。",
+        "discriminating_observables": [
+          "康普顿散射仪线偏振度 P(theta) 彻底排斥 delta 双根分支",
+          "DSAM 测定绝对能级寿命检验带间 B(E2) 是否具有集体增强"
+        ]
+      },
+      "beginner_interface": {
+        "concept": "三轴不对称陀螺旋转时自转轴绕空间角动量进动；实验通过退激角分布提取混合比 delta，但因方程二次性天然有两套解，大解未被偏振排斥。",
+        "conditional_formula": "Photon Fraction(E2) = delta^2 / (1 + delta^2) (代入 delta = -0.58 得 E2 份额仅约 25%，M1 占 75%)",
+        "typical_misconception": "误以为看到交替转动带就证明了空间摆动；核芯自身的表面四极波（gamma 振动）与摆动具有相同的多极跃迁通道，未测偏振时单凭能谱不可区分。"
+      },
+      "readiness": "passed"
+    },
+    "A160": {
+      "case_nuclei": "163Lu (with 178W high-K case)",
+      "verified_experimental_value": "163Lu DSAM 测定 TSD1 I=41/2+ 之 tau = 0.364(+0.073/-0.085) ps, Q_t = 9.93(+1.14/-0.99) b; TSD2 I=47/2+ 之 tau = 0.215(+0.037/-0.048) ps, Q_t = 8.51(+0.95/-0.73) b；整带平均 Q_t 分别为 10.7 b 与 10.3 b；两带连接 B(E2_out) = 0.54(+0.13/-0.11) e^2 b^2；178W K^pi=25+ 异能态 t_1/2 = 220 ns",
+      "theory_column_audit": "Purry 1997 Table 5.4 中 Exact 配对列为经验模型计算，非严格无近似全多体解；Frauendorf 2000 TAC 公式 45 为带内跃迁，非带间摆动判据。",
+      "author_interpretation": "TSD1 与 TSD2 具有几乎完全相同且极其巨大的内禀四极矩（约 10 b），证实它们共享相同超形变核芯，支持 TSD2 为单声子三轴摆动。",
+      "strongest_rival": "小 gamma 三轴超形变微观粒子-转子模型芯极化与科氏混杂；高 K 核中严格粒子数投影配对计算显示多粒子阻塞后配对并未彻底归零。",
+      "constraints_vs_inputs": {
+        "measurement_constraints": [
+          "金衬底中反冲核慢化时间谱与多普勒质心位移",
+          "侧喂时间修正",
+          "符合时间门宽度"
+        ],
+        "model_inputs": [
+          "侧喂四极矩比带内小若干百分点之经验假定",
+          "Wigner D 矩阵投影纯净准粒子 j=13/2 取向因子",
+          "单粒子推转势能参数"
+        ]
+      },
+      "transfer_conditions": {
+        "feasibility": "可迁移至高转动频率下具有微观壳能隙锁定之超形变三轴区。",
+        "invalidation_reasons": "不可直接外推至纯轴对称高 K 转子（如 178W）；纯轴对称刚体绕对称轴转动惯量被无旋流体模型设为零，横向小振幅摆动公式发生奇点。",
+        "discriminating_observables": [
+          "多声子摆动态 (n_w=2) 搜寻与带内/带间寿命测定",
+          "带间 B(E2)/B(M1) 随转速变化曲线"
+        ]
+      },
+      "beginner_interface": {
+        "concept": "旋转对称椭球在数学上依然可以拥有沿对称轴的不同角动量分量；物理上的零频率来自于无旋流场模型人为假设对称轴没有转动惯量，并非几何禁戒。",
+        "conditional_formula": "hbar omega_w = 2I sqrt((hbar^2/(2 J_2) - hbar^2/(2 J_1)) * (hbar^2/(2 J_3) - hbar^2/(2 J_1))) (在高自旋小振幅局域稳定极限下)",
+        "typical_misconception": "误以为带间跃迁强度大就足以宣称三轴摆动；必须证明两条带的绝对内禀四极矩 Q_t 严格一致（证明核芯形变完全相同），才能排除粒子重新组态跃迁。"
+      },
+      "readiness": "passed"
+    },
+    "A190": {
+      "case_nuclei": "182-188Hg",
+      "verified_experimental_value": "基态过渡矩阵元极平缓: <0_1+||M(E2)||2_1+> 在 182, 184, 186, 188Hg 分别为 1.29(+0.04/-0.03), 1.27(3), 1.31(10), 1.25(+0.10/-0.07) eb；而高自旋跃迁剧烈变化: <2_1+||M(E2)||4_1+> 在 182Hg 为 3.71(6) eb，降至 188Hg 的 2.07(8) eb；对角项 M_22 在 182Hg 为 -0.04(+1.30/-1.40) eb，184Hg 为 +1.5(+1.8/-1.2) eb，186Hg 缺失，188Hg 为 +1.0(+0.6/-0.4) eb",
+      "theory_column_audit": "186Hg 缺失基态对角矩阵元；184Hg 部分符号与双态拟合存在系统偏差；不可将对角项大误差略去而硬称纯轴对称扁椭。",
+      "author_interpretation": "弱形变扁椭基态（beta 约 0.15）与强形变长椭激发带（beta 约 0.30）形状共存；基态过渡矩阵元的平缓是由物理两态中混合几率演化代数相消补偿所致。",
+      "strongest_rival": "超越平均场（BMF）生成坐标法（GCM）所描述之宽坦浅谷连续 gamma 软势能面；关键对角项精度匮乏，无法统计排斥连续软性模型。",
+      "constraints_vs_inputs": {
+        "measurement_constraints": [
+          "Miniball HPGe 阵列分段探测效率与多角度能谱",
+          "DSSSD 记录之散射核反冲运动学",
+          "安全库仑激发能垒判定"
+        ],
+        "model_inputs": [
+          "假定未混合两构型间交叉矩阵元为零",
+          "全链统一拟合之未混合矩阵元参数 (m_I=1.2 eb, m_II=3.3 eb)",
+          "外来能级拟合文献之 VMI 混合振幅"
+        ]
+      },
+      "transfer_conditions": {
+        "feasibility": "可迁移至中子近中壳、具有 2p-2h 质子入侵带之 Pb 或 Pt 同位素链。",
+        "invalidation_reasons": "不可直接作为奇 A 核 191Ir 或高自旋异能核 192Os 之有效核芯；奇核子强耦合阻碍与六极形变 beta_4 介入彻底改变势能拓扑。",
+        "discriminating_observables": [
+          "补齐 186Hg 缺失对角项及 <0_2+||M(E2)||2_2+>",
+          "绝对 E0 单极矩阵元 rho(E0)"
+        ]
+      },
+      "beginner_interface": {
+        "concept": "基态跃迁强度的平缓不变往往是两种微观波函数成分代数相消补偿的假象；一旦向更高自旋测量，跃迁强度腰斩，暴露了底层结构的急剧重组。",
+        "conditional_formula": "M_{0_1 2_1} = alpha_0 alpha_2 m_I + beta_0 beta_2 m_{II} (在两态正交无交叉跃迁假设下，混合系数变化与内禀跃迁抵消产生恒定假象)",
+        "typical_misconception": "误以为测得光谱四极矩 Q_s > 0 就必然是刚性扁椭球；三轴度 gamma 约 30 度的软核在转动投影后同样产生弱正对角项，且实验误差跨越正负，绝不能直接断定。"
+      },
+      "readiness": "passed"
+    }
+  },
+  "genuine_gaps_inventory": [
+    {
+      "gap_id": "GAP-01-COV-MISSING",
+      "category": "experimental_covariance",
+      "description": "所有六区案例（Crider 2016、Clément 2007、Singh 2018、Chen 2019、Görgen 2004、Bree 2014）原始文献均未公开完整的多参数误差协方差矩阵，导致多步多参数提取的不确定度传播无法完成严格正交对角化。"
+    },
+    {
+      "gap_id": "GAP-02-POLARIZATION-MISSING-130BA",
+      "category": "polarization_measurement",
+      "description": "130Ba 仅具备 4 角度角分布数据，缺乏康普顿散射仪的线偏振度 P(theta) 测量，物理上尚无法独立排斥二次有理拟合的大 |delta| 分支（约 2-4）。"
+    },
+    {
+      "gap_id": "GAP-03-DIAGONAL-PRECISION-HG",
+      "category": "coulomb_excitation_matrix_elements",
+      "description": "186Hg 实验完全缺失基态带 2_1+ 的对角矩阵元，182,184Hg 对角项实验误差高达 100% 以上，目前实验精度尚不足以严格排除三轴 gamma 连续软势面解释。"
+    },
+    {
+      "gap_id": "GAP-04-MICROSCOPIC-INERTIA-RESPONSE",
+      "category": "microscopic_wavefunction_and_inertia",
+      "description": "现有三轴与形状共存分析大多基于单独电荷张量或唯象粒子-转子模型，微观质中配对与质量惯量张量的空间非均匀响应尚缺乏直接实验探针约束。"
+    }
+  ],
+  "condition_1_assessment": {
+    "status": "ready_for_stage_1_condition_1",
+    "summary": "六质量区均已确立具备原始文献穿透力（精确定位至物理 PDF 页、印刷页、图表号与数据列）的实质案例复盘，客观测量约束与主观模型输入边界清晰，理论预测列与实验直接测量严格分离，第一阶段条件1实质达成。",
+    "defense_criteria": "无理论列冒充实验、无未受检验的跨区强行移植、无自造任意门槛阈值、真实科学缺口诚实保留。"
+  }
+}

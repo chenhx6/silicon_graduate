@@ -1,0 +1,204 @@
+{
+  "schema": "doctoral-foundations-isomers-thermal-networks-v1",
+  "task_id": "R3-G51",
+  "title": "同核异能态四机制与热耦合网络的解释能力研究",
+  "run_date": "2026-11-08",
+  "status": "parent-audited-completed",
+  "scope": "同核异能态四大物理阻碍机制微观代数、K禁戒与三轴/科氏混合、恒星等离子体光子/电子热交换与开放源汇主方程解释能力审计",
+  "primary_sources": [
+    {
+      "id": "Jain2021",
+      "citation": "A. K. Jain, B. Maheshwari, and A. Goel, Nuclear Isomers: A Primer, Springer (2021)",
+      "isbn": "978-3-030-78674-8",
+      "doi": "10.1007/978-3-030-78675-5",
+      "raw_file": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+      "raw_sha256": "994816561cfb6e89bd215b7fe23e37ecf12e8a3e8f5ce88eafbbd388d02ed74a",
+      "scope": "Ch. 1 pp. 6-12 (overview/hindrance), Ch. 3 pp. 35-46 (single-j seniority), Ch. 4 pp. 51-57 (generalized seniority), Ch. 5 pp. 79-94 (K-isomers), Ch. 6 pp. 101-114 (shape isomers)",
+      "verified_elements": [
+        "Fourfold isomer classification and pair-breaking systematics (Delta ~ 12/sqrt(A) MeV)",
+        "Quasi-spin SU(2) algebra, odd-tensor v-conservation, and even-tensor Delta v = 0, +-2 selection rules",
+        "Single-j seniority conserving B(E2) reduction formula and mid-shell (n = Omega) vanishing node",
+        "Degree of forbiddenness nu = Delta K - lambda and reduced hindrance f_nu = (F_W)^(1/nu)",
+        "Strutinsky double-humped fission barrier, class II states, and shape coexistence tunneling hindrance"
+      ]
+    },
+    {
+      "id": "Dracoulis2016",
+      "citation": "G. D. Dracoulis, P. M. Walker, and F. G. Kondev, Rep. Prog. Phys. 79, 076301 (2016)",
+      "doi": "10.1088/0034-4885/79/7/076301",
+      "raw_file": "raw/papers/isomer/isomer_review/2016_Dracoulis et al_Review of metastable states in heavy nuclei.pdf",
+      "raw_sha256": "2cd8ce2189c4869295cb91737d9a98e9fa90a9e36897690ee5c09bfc82d17f00",
+      "scope": "Sec. 2 pp. 4-7, Sec. 3 pp. 7-15, Sec. 3.4 pp. 10-13, Sec. 3.6 pp. 13-15",
+      "verified_elements": [
+        "Weisskopf single-particle half-life formulas across multipolarities",
+        "Seniority isomer chains in Sn isotopes and mid-shell assumed sign inversion",
+        "K-hindered decay systematics, anomalous f_nu, and Coriolis mixing of high-j (i13/2) orbits",
+        "A ~ 190 transitional nuclei, triaxial potential calculations (191,193Ir), and surviving isomerism",
+        "Statistical level density mixing of high-K non-yrast states and pairing blocking effects"
+      ]
+    },
+    {
+      "id": "Gintautas2009",
+      "citation": "V. Gintautas, A. E. Champagne, F. G. Kondev, and R. Longland, Phys. Rev. C 80, 015806 (2009)",
+      "doi": "10.1103/PhysRevC.80.015806",
+      "arxiv": "0804.0223v1",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G33/gintautas-2009-176lu-thermal-equilibration.pdf",
+      "raw_sha256": "abb6c1656b00e5db22c1c4ea19f54dbdc3b9557d7a8665945a7c0400492770d8",
+      "scope": "PDF pp. 1-6, Eqs. (1)-(27), Table I, Figs. 2-3; companion Gosselin 2010 PRC 81, 055808 Sec. II/IV",
+      "verified_elements": [
+        "Thermal Planck photon bath absorption and stimulated emission detailed balance rates",
+        "Two-cluster master equation for ground-state and isomer manifolds with internal Boltzmann weights",
+        "176Lu candidate K-mixing at Ex = 725 keV (Delta Ex = 517 eV) and matrix element scan V <= 258.5 eV",
+        "Time scale separation: intra-cluster relaxation ~ 0.1 ns versus inter-cluster equilibration ~ 10^5 s",
+        "Open source-sink network competition: external beta decay and production vs internal EM exchange"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "title": "spin trap、seniority、K、shape isomer分别能量瓶颈/矩阵元/组态机制",
+      "locators": {
+        "jain2021": "Ch. 1 pp. 6-12 (Fig. 1.2, Fig. 1.3), Ch. 2 pp. 17-22, Ch. 3 pp. 35-37, Ch. 5 pp. 79-81, Ch. 6 pp. 101-104",
+        "dracoulis2016": "Sec. 2 pp. 4-7, Sec. 2.1-2.4, Sec. 4-5"
+      },
+      "beginner_explanation": "四类同核异能态由四种截然不同的物理阻碍机制导致：自旋陷阱由高自旋-低能瓶颈与大多极度压低驱动；seniority异能态由微小能隙与半满壳准自旋单体电偶极/四极矩阵元相消驱动；K异能态由轴对称空间角动量取向投影失配导致的波函数几何正交阻碍驱动；形状异能态由跨越双峰势垒两极小波函数极小交叠的量子多维隧穿几率指数压低驱动。",
+      "reported_facts": [
+        "Spin trap: 高自旋多准粒子构型能量低于同自旋集体态，仅能向低自旋态发射高阶多极辐射 (如 180mTa 的 9- 态到 1+ 需 lambda=8 跃迁)",
+        "Seniority isomer: 相同 seniority v 多重态内部能级极密 (Delta E 微小)，且一阶单体 E2 算符在准自旋空间满足 Delta v = 0, +-2 选择定则",
+        "K isomer: 轴对称形变核内禀多准粒子态具有大轴投影 K = sum Omega_i，向低 K 带退激需改变角动量取向，Delta K > lambda 时严格禁戒",
+        "Shape isomer: Strutinsky 壳修正产生深度第二势阱 (class II)，衰变需穿透厚重裂变势垒或形状共存势垒，WKB 穿透率 P 极微弱"
+      ],
+      "inferred_limitations": [
+        "不可将四种机制完全割裂孤立：真实核态常存在机制重叠 (如 180mTa 既是高自旋又是高 K 态，186-188Pb 兼有单粒子与形状共存)",
+        "半衰期大小不构成机制标签：各机制寿命均跨越纳秒至年级，唯有微观波函数结构和选择定则方能辨识物理本质"
+      ],
+      "competing_interpretation": "某些传统归类为纯自旋陷阱的高自旋态，微观计算表明其寿命主要受微弱形状异能态（小扁椭到大长椭形变突变）交叠阻碍控制。",
+      "real_uncovered_gap": "高自旋态微观波函数在两阱或多极展开下的重叠积分在绝大多数球形壳模型与形变平均场计算中未做统一对偶展开。"
+    },
+    {
+      "id": "Q2",
+      "title": "单j中B(E2)半满壳节点明定v守恒/一体算符/角动量，现实多轨道二体力如何破坏，禁止重跑已闭合seniority toy",
+      "locators": {
+        "jain2021": "Ch. 3 pp. 37-45, Eqs. (3.1)-(3.21), Figs. 3.1-3.4; Ch. 4 pp. 51-57",
+        "dracoulis2016": "Sec. 2.2 pp. 5-6, Fig. 2"
+      },
+      "beginner_explanation": "在纯单j壳层中，单体电多极算符在准自旋空间为张量算符零分量(s=1, kappa=0)，准自旋Wigner-Eckart定理使同seniority跃迁矩阵元正比于(Omega - n)/(Omega - v)；在半满壳n=Omega处，粒子-空穴反演对称性强迫3j符号归零，导致B(E2)严格相消；在真实核中，多轨道能级分裂破坏整体准自旋对称性，四极粒子-空穴二体力诱发seniority与组态混合，非均匀轨道占据使节点抹平为非零浅谷。",
+      "reported_facts": [
+        "准自旋代数: S+_j = sum_{m>0} (-1)^{j-m} a+_jm a+_j,-m, [S+, S-] = 2*S0, S0 = (n - Omega)/2, Omega = (2j+1)/2",
+        "单体偶阶张量算符: 在准自旋空间具有 rank s=1, kappa=0, 矩阵元遵循 Delta v = 0, +-2 选择定则",
+        "Seniority 守恒 B(E2) 公式: B(E2; j^n v J_i -> j^n v J_f) = [(Omega - n)/(Omega - v)]^2 * B(E2; j^v v J_i -> j^v v J_f)",
+        "半满壳零点: 当 n = Omega 时，S0 = 0，3j 符号 (s 1 s; 0 0 0) = 0，导致同 seniority 跃迁矩阵元严格消失"
+      ],
+      "inferred_limitations": [
+        "严格相消仅存在于严格单一简并 j 壳层与纯配对力极限；现实核无论 Sn 还是 Pb 均非孤立单 j",
+        "多轨道广义 seniority 只有在所有轨道对产生振幅 c_j 恒等时方保留严格对称性，真实轨道占据差必然破坏节点"
+      ],
+      "competing_interpretation": "Sn 同位素 10+ 异能态 B(E2) 的非零极小值不仅源于价轨道多 j 混合，更来自微观质子核芯极化与 2p-2h 虚激发带来的有效电荷非局域演化。",
+      "real_uncovered_gap": "壳模型有效相互作用中多体有效算符对准自旋破缺的微观分量缺乏实验可直接分离的独立谱学观测量。"
+    },
+    {
+      "id": "Q3",
+      "title": "K forbidden度ν=ΔK−λ和fν定义，partial gamma lifetime/ICC与两端K混合的条件",
+      "locators": {
+        "jain2021": "Ch. 1 pp. 6-7, Ch. 5 pp. 79-81, pp. 92-94",
+        "dracoulis2016": "Sec. 2.4 p. 7, Sec. 3.4 pp. 10-12, Figs. 8-10"
+      },
+      "beginner_explanation": "K禁戒度定义为角动量对称轴投影差超出跃迁多极度的数值nu = Delta K - lambda；折合阻碍度f_nu为总阻碍度F_W开nu次方根；计算必须使用扣除分支比和全内转换系数(ICC)后的纯光子部分衰变半衰期；衰变之所以发生依赖初态多准粒子偶然简并残余混合或末态转动带科里奥利反取向混合。",
+      "reported_facts": [
+        "禁戒度与阻碍因子: nu = Delta K - lambda, F_W = T_{1/2}^gamma / T_{1/2}^W = B_W(lambda) / B(lambda), f_nu = (F_W)^{1/nu}",
+        "部分光子半衰期定义: T_{1/2}^gamma = (T_{1/2}^{tot} / b_i) * (1 + alpha_T), 其中 b_i 为分支比, alpha_T 为总内转换系数",
+        "末态混合机制: 旋转基带态受科里奥利力 (-omega * I_x) 作用混入高 K 成分，杂质振幅随自旋急剧增长 (beta' ~ [I(I+1)]^{Delta K/2})",
+        "初态混合机制: 高 K 态与近邻同自旋低 K 态存在残余相互作用矩阵元 V，在能隙 Delta E 较小时诱发杂化 (beta ~ V / Delta E)"
+      ],
+      "inferred_limitations": [
+        "经验规则 f_nu ~ 30-300 仅为粗略经验区间，严禁作为确定自旋宇称的绝对判据",
+        "若在重核低能跃迁中遗漏 alpha_T，由于内转换系数可达数十至数百，将导致导出的 F_W 与 f_nu 产生数个数量级的人为谬误"
+      ],
+      "competing_interpretation": "某些测得极小 f_nu (如 f_nu < 5) 的反常 K 禁戒跃迁，并非两态波函数混合，而是原子核在激发态瞬时形成了非轴对称三轴形变通道。",
+      "real_uncovered_gap": "高自旋态内转换系数在复杂多准粒子异能衰变中极少有高分辨率电子谱学直接测定，多依赖理论筛算程序 (如 BrIcc)。"
+    },
+    {
+      "id": "Q4",
+      "title": "有限核K不是普适精确守恒，triaxiality/qp/残余作用的可能性与反例",
+      "locators": {
+        "jain2021": "Ch. 5 pp. 89-94 (Sec. 5.3.2, 5.4.2)",
+        "dracoulis2016": "Sec. 3.4 pp. 10-12, Sec. 3.6 pp. 13-15 (191,193Ir, 190,192Os)"
+      },
+      "beginner_explanation": "K守恒严格依赖轴对称刚性；有限核由于三轴形变(gamma非零)、准粒子科里奥利对齐及残余相互作用必然发生K破缺；但三轴破缺并不意味K阻碍瞬间归零，191,193Ir等显著三轴核中长寿命高K异能态顽强存在构成了最强反例。",
+      "reported_facts": [
+        "三轴形变打破轴对称: gamma 自由度使哈密顿量与 K 算符不对易，静态三轴或 gamma 软涨落直接诱发 Delta K = +-2 阶梯耦合",
+        "科里奥利准粒子对齐: 高 j 闯入轨道 (如 i13/2) 具有极强单粒子对齐算符 j_+-，转动推转迅速瓦解多准粒子 K 投影纯度",
+        "残余近简并混合: 能级密度升高时，偶然简并态与两体相互作用诱发局域强 K 混合 (如 176Lu 的 725 keV 候选 7- 双态)",
+        "三轴异能态反例: 191Ir (gamma ~ 27 deg, T_{1/2} = 5.7 s) 与 193Ir (gamma ~ 14 deg, T_{1/2} = 125 us) 仍展现出长寿命 31/2+ 异能态"
+      ],
+      "inferred_limitations": [
+        "不能从势能面具有三轴极小或软性直接断言异能态必将消失，几何多粒子结构仍保留强动量取向阻碍",
+        "两态偶然简并的能隙小仅给出混合振幅的数学可能，其物理重要性完全取决于未知的残余矩阵元 V"
+      ],
+      "competing_interpretation": "191,193Ir 的异能态寿命可能并非源自残余 K 阻碍，而是属于高角动量准粒子排列形成的纯非集体自旋陷阱 (oblate/triaxial spin trap)。",
+      "real_uncovered_gap": "目前缺乏能够在三轴微观框架下自洽处理准粒子多体组态阻碍与势能面动态涨落的统一全微观理论。"
+    },
+    {
+      "id": "Q5",
+      "title": "热环境中上激发/自发+受激退激、g_i exp(-Ei/kT)、detailed balance和开放源汇网络的区别",
+      "locators": {
+        "gintautas2009": "PDF pp. 4-6, Eqs. (18)-(27), Figs. 2-3",
+        "doctoral_note_g33": "knowledge/research-notes/doctoral-r1-g33-thermal-isomer-network-20261108.md Sec. 1-3"
+      },
+      "beginner_explanation": "在Planck光子浴中，光子吸收上激发与自发加受激退激通过微观详细平衡绑定，成对跃迁比值严格为统计权重比乘Boltzmann因子；但真实天体恒星网络是包含外源中子俘获生产与外向弱衰变破坏的开放系统，总体布居由内部交换与外部漏失的动力学竞争决定，绝不等于玻尔兹曼静态平衡。",
+      "reported_facts": [
+        "Planck 光子吸收率: lambda_{l->u} = (g_u / g_l) * A_{ul} / (exp(Delta / kT) - 1) = (g_u / g_l) * A_{ul} * n_gamma",
+        "总退激速率 (自发+受激): lambda_{u->l} = A_{ul} * [1 + n_gamma] = A_{ul} / (1 - exp(-Delta / kT))",
+        "微观详细平衡: lambda_{l->u} / lambda_{u->l} = (g_u / g_l) * exp(-Delta / kT)",
+        "双簇开放主方程: d/dt [N_g, N_m]^T = [-(a + D_g), b; a, -(b + D_m)] [N_g, N_m]^T + [P_g, P_m]^T",
+        "时间尺度分离: 簇内玻尔兹曼热化极快 (~0.1 ns)，跨簇有效交换缓慢 (~10^5 s)，形成拟稳态两阶段演化"
+      ],
+      "inferred_limitations": [
+        "严禁将微观详细平衡原理直接等同于核素总布居的玻尔兹曼平衡；外向 beta 衰变漏失在开放网络中打破平衡",
+        "两簇有效转移率 a, b 的分母依赖各簇内配分函数和 Z_g, Z_m，不能只用带头单能级简并度代换"
+      ],
+      "competing_interpretation": "在极强对流或爆发性天体热爆中，温度变化率 dT/dt 超过核态内部热化弛豫时标，详细平衡假设在基底层面即告失效。",
+      "real_uncovered_gap": "天体等离子体中非平衡辐射场（非普朗克光子流、高能中子次级散射光子）对跃迁细致平衡的偏离程度在网络计算中普遍被忽略。"
+    },
+    {
+      "id": "Q6",
+      "title": "176Lu/180Ta中间态瓶颈为何不能只看ΔE或单支NEEC增强宣称整体热化",
+      "locators": {
+        "gintautas2009": "PDF pp. 1-2, 4-6, Table I, Figs. 2-3",
+        "gosselin2010": "PRC 81, 055808 (arXiv:1005.2151v1) PDF pp. 1-3, 5; Sec. II/IV"
+      },
+      "beginner_explanation": "跨簇有效热化速率依赖中间态双向桥接强度的调和倒数形式Gamma_eff ~ Gamma_a*Gamma_b / (Gamma_a + Gamma_b)；即使单支跃迁受NEEC等离子体电子过程增强十倍，若另一支跨K跃迁仍受强K禁戒限制，木桶短板决定整体热化率几乎恒定不变；同理能隙Delta E小若无真实强混杂矩阵元也无法构成热化通道。",
+      "reported_facts": [
+        "有效桥接率瓶颈: 从基态簇经中间态 k 转移至异能态簇的有效速率正比于 Gamma_{k->g} * Gamma_{k->m} / (Gamma_{k->g} + Gamma_{k->m})",
+        "木桶短板极限定理: 当跨 K 分支 Gamma_{k->g} 远小于同带退激分支 Gamma_{k->m} 时，有效跨簇强度严格被弱支路锁定为 Gamma_{k->g}",
+        "Gosselin 2010 反例: 等离子体中电子过程 (NEEC/ICC) 使 180Ta 某低能跃迁增强 10 倍，但整体跨 K 交换率与 s 过程核丰度近乎恒定不变",
+        "176Lu 能隙假象: 725 keV 处 Delta Ex = 517 eV 的候选近简并态，其混合矩阵元 V 上限仅 258.5 eV，真实混合概率 beta^2 未测确定"
+      ],
+      "inferred_limitations": [
+        "严禁以单一通道截面测量或激发能差 Delta E 微小孤立宣称某核素‘已在某一固定温度实现热化’",
+        "等离子体热化判定必须结合完整的跨K分支比、实际核跃迁多极性、恒星动力学时标与同位素破坏率综合求解"
+      ],
+      "competing_interpretation": "176Lu 在低温区可能通过未被目前在束实验识别的高能低自旋连续态背底多步旁路级联实现热化，而非依赖特定的 725 keV 或 838 keV 孤立态。",
+      "real_uncovered_gap": "天体环境下 176Lu 与 180Ta 候选连接能级的极微弱退激分支比在实验室在束光核实验中受探测器本底限制至今未测定。"
+    }
+  ],
+  "doctoral_readiness_audit": {
+    "four_hindrance_mechanisms_clarified": "清晰分离并掌握自旋陷阱、Seniority、K异能态与形状异能态的微观组态起源、能量瓶颈与矩阵元阻碍机制",
+    "seniority_algebra_and_symmetry_breaking": "推导单j壳层准自旋SU(2)代数与B(E2)半满壳严格相消节点，明晰多轨道单粒子分裂与四极粒子-空穴二体力打破相消的物理机制",
+    "k_isomer_hindrance_and_mixing_conditions": "掌握K禁戒度nu与折合阻碍度f_nu的严格物理定义，明确部分光子半衰期扣除ICC的必要性及两端科氏/残余混合判据",
+    "thermal_network_master_equations": "建立Planck光子浴详细平衡与双簇开放主方程的严格数学联系，剖析跨簇有效速率与微观木桶短板瓶颈机制",
+    "readiness_defense_elements": [
+      "具备在博士答辩中严格推导准自旋一元二次/双极点矩阵元并论证多轨道微观破缺的能力",
+      "具备识破文献中以单纯能隙Delta E或单跃迁NEEC增强夸大天体同核异能态热化结论的审稿批判能力",
+      "确立Wing 2知识矩阵对后续前沿研究与论文撰写的完整支撑，不以开放核物理争议阻碍正向学术写作"
+    ]
+  },
+  "methodological_boundary": {
+    "prohibit_universal_thresholds": true,
+    "prohibit_seniority_toy_recomputation": true,
+    "prohibit_review_double_counting": true,
+    "prohibit_user_confirmation_gates": true,
+    "prohibit_thesis_ghostwriting": true
+  }
+}

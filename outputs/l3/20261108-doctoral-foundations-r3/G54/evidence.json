@@ -1,0 +1,299 @@
+{
+  "schema": "doctoral-foundations-nuclear-clock-evidence-v1",
+  "task_id": "R3-G54",
+  "title": "核钟与多相电子环境实质基础研学及旧笔记系统纠错证据链",
+  "run_date": "2026-11-08",
+  "status": "parent-audited-completed",
+  "scope": "outputs/l3/20261108-doctoral-foundations-r3/G54/",
+  "primary_sources_inventory": {
+    "beeks_2021_review": {
+      "id": "Beeks2021",
+      "title": "The thorium-229 low-energy isomer and the nuclear clock",
+      "authors": [
+        "Kjeld Beeks",
+        "Tomas Sikorsky",
+        "Thorsten Schumm",
+        "Johannes Thielking",
+        "Maxim V. Okhapkin",
+        "Ekkehard Peik"
+      ],
+      "journal": "Nature Reviews Physics 3, 238--248 (2021)",
+      "year": 2021,
+      "doi": "10.1038/s42254-021-00286-6",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear_clock/2021_Beeks et al_The thorium-229 low-energy isomer and the nuclear clock.pdf",
+      "raw_sha256": "81490df7838c992a3614beff909616b84c1fe3a5182b79cc53b1ccce705b37c7",
+      "total_pdf_pages": 11,
+      "verification_scope": "Verified from original PDF front matter and full text, covering nuclear properties (p. 239), charge states and solid-state matrices (pp. 240-241), inhomogeneous line broadening (p. 245), and fundamental constant sensitivity (p. 246)."
+    },
+    "huang_2026_clock": {
+      "id": "Huang2026",
+      "title": "A nuclear clock synchronized to 229Th",
+      "authors": [
+        "Beichen Huang",
+        "Gaowei Yan",
+        "Qi Xiao",
+        "Wenhao Bu",
+        "Chengchun Zhao",
+        "Zhen Zhang",
+        "Chao Yan",
+        "Zhi-Ang Chen",
+        "Peixiong Zhang",
+        "Gleb Penyazkov",
+        "Zhenhai Zhan",
+        "Lingfeng Yan",
+        "Yuefei Wang",
+        "Lin Li",
+        "Shanming Li",
+        "Dapeng Jiang",
+        "Xiaobo Qian",
+        "Xuegang Liu",
+        "Qiange He",
+        "Taoxiang Sun",
+        "Haochen Tian",
+        "Bingkun Lu",
+        "Ningyuan Ma",
+        "Juxian Li",
+        "Yanzhang Wu",
+        "Qiaorui Gong",
+        "Yuxiang Li",
+        "Haoyu Shi",
+        "Xiangliang Li",
+        "Longsheng Ma",
+        "Shining Zhu",
+        "Yuxiang Mo",
+        "Jun Lin",
+        "Li You",
+        "Yige Lin",
+        "Xibo Zhang",
+        "Yin Hang",
+        "Liangbi Su",
+        "Shiqian Ding"
+      ],
+      "journal": "Nature 658, 903--913 (22 October 2026; published online 7 October 2026)",
+      "year": 2026,
+      "doi": "10.1038/s41586-026-11122-1",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear_clock/2026_Huang et al_A nuclear clock synchronized to 229Th.pdf",
+      "raw_sha256": "9fc65f07dd7dadf3aedcff90612d6af299ab327ee0a60d767f88cca78a4f0788",
+      "total_pdf_pages": 11,
+      "verification_scope": "Verified from original PDF front matter, main text (pp. 903-907), Methods (pp. 908-911), Extended Data Fig. 1 (p. 912), and Extended Data Table 1 (p. 913). Audited Allan instability, systematic temperature uncertainty, absolute frequency of line b in S1 and TS1, inter-crystal difference, and JILA comparison."
+    },
+    "seiferle_2017_lifetime": {
+      "id": "Seiferle2017",
+      "title": "Lifetime Measurement of the 229Th Nuclear Isomer",
+      "authors": [
+        "Benedict Seiferle",
+        "Lars von der Wense",
+        "Peter G. Thirolf"
+      ],
+      "journal": "Physical Review Letters 118, 042501 (2017)",
+      "year": 2017,
+      "doi": "10.1103/PhysRevLett.118.042501",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear_clock/2017_Seiferle et al_Lifetime Measurement of the Th229 nuclear isomer.pdf",
+      "raw_sha256": "78d443a66a8c925ea826158ae94fd7d1c18f571a49edb9508146a48791dc0489",
+      "total_pdf_pages": 5,
+      "verification_scope": "Verified internal conversion half-life T1/2 = 7 +/- 1 mus for neutral 229mTh on metallic surface; alpha_IC ~ 10^9 (pp. 042501-1 to 042501-3)."
+    },
+    "kraemer_2023_radiative": {
+      "id": "Kraemer2023",
+      "title": "Observation of the radiative decay of the 229Th nuclear clock isomer",
+      "authors": [
+        "Sandro Kraemer et al."
+      ],
+      "journal": "Nature 617, 706--710 (2023)",
+      "year": 2023,
+      "doi": "10.1038/s41586-023-05894-z",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear_clock/2023_Kraemer et al_Observation of the radiative decay of the 229Th nuclear clock isomer.pdf",
+      "raw_sha256": "3fe040c7e0325de1f7edc71b52a404b97cb3fa91e47d0c6316bf0920f61e26a7",
+      "total_pdf_pages": 13,
+      "verification_scope": "Verified radiative decay in MgF2 (T1/2 = 670 +/- 102 s) and CaF2 (T1/2 = 568 +/- 142 s); wavelength lambda = 148.71 +/- 0.42 nm (8.338 +/- 0.024 eV) (pp. 706-708)."
+    },
+    "yamaguchi_2024_ion": {
+      "id": "Yamaguchi2024",
+      "title": "Laser spectroscopy of triply charged 229Th isomer for a nuclear clock",
+      "authors": [
+        "Atsushi Yamaguchi et al."
+      ],
+      "journal": "Nature 629, 527--531 (2024)",
+      "year": 2024,
+      "doi": "10.1038/s41586-024-07296-1",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear_clock/2024_Yamaguchi et al_Laser spectroscopy of triply charged 229Th isomer for a nuclear clock.pdf",
+      "raw_sha256": "49a2816777cff092857d86556f754750386e6a479f57ffbad6e13ca14bcbc2c8",
+      "total_pdf_pages": 12,
+      "verification_scope": "Verified single-ion 229Th3+ radiative half-life T1/2 = 1400 (+600/-300) s (mean tau ~ 2000 s), natural linewidth Delta nu_0 ~ 80 muHz, Q ~ 2.5e19 (pp. 527-529)."
+    },
+    "peik_2021_qst": {
+      "id": "Peik2021QST",
+      "title": "Nuclear clocks for testing fundamental physics",
+      "authors": [
+        "E. Peik",
+        "T. Schumm",
+        "M. S. Safronova",
+        "A. Palffy",
+        "J. Weitenberg",
+        "P. G. Thirolf"
+      ],
+      "journal": "Quantum Science and Technology 6, 034002 (2021)",
+      "year": 2021,
+      "doi": "10.1088/2058-9565/abe9c8",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear_clock/2021_Peik et al_Nuclear clocks for testing fundamental physics.pdf",
+      "raw_sha256": "89b7fc1d9b49802a99074ee9630d0a70bdbb9f1c3765aa3a0c80583912952668",
+      "total_pdf_pages": 38,
+      "verification_scope": "Verified model dependence of K_alpha = Delta E_C / E_n, cancellation between Coulomb and strong interaction energies, experimental limit Delta E_C = -0.29 +/- 0.43 MeV from hyperfine data, and Fadeev 2020 nuclear model K_alpha = -0.9(3)e4 (pp. 31-33)."
+    }
+  },
+  "question_evidence_ledger": [
+    {
+      "q_id": 1,
+      "title": "Eisomer/nu, mean tau vs T1/2, natural linewidth vs Q, and intrinsic properties vs operable clocks",
+      "locators": [
+        "Beeks 2021 p. 239 (PDF p. 2)",
+        "Yamaguchi 2024 pp. 527-529 (PDF pp. 1-3)",
+        "Kraemer 2023 pp. 706-708 (PDF pp. 1-3)",
+        "Huang 2026 p. 903, 905 (PDF pp. 1, 3)",
+        "Shvydko 2023 p. 472, Table 1"
+      ],
+      "minimal_equations": [
+        "E = h nu",
+        "T_{1/2} = tau * ln(2) approx 0.69315 * tau",
+        "Delta nu_0 = Gamma_0 / h = 1 / (2 pi tau) = ln(2) / (2 pi T_{1/2})",
+        "Q = nu_0 / Delta nu_0 = 2 pi nu_0 tau = E_0 / Gamma_0"
+      ],
+      "verified_parameters": {
+        "229mTh_vacuum_ion": {
+          "nu_0": "2,020,407 GHz (8.35574 eV, 148.38 nm)",
+          "T_half": "1400 (+600/-300) s",
+          "mean_tau": "~ 2000 s",
+          "natural_linewidth": "~ 80 muHz",
+          "natural_Q": "~ 2.5 x 10^19"
+        },
+        "229mTh_CaF2_crystal": {
+          "T_half": "568 +/- 142 s (Kraemer 2023) / tau_e = 631(2) s (Huang 2026)",
+          "experimental_linewidth_line_b": "Delta nu_b = 27(1) kHz (Huang 2026)",
+          "operating_Q": "~ 7.5 x 10^10"
+        },
+        "45Sc_XFEL": {
+          "E_0": "12389.59 +/- 0.15 eV",
+          "tau_0": "470(6) ms (T_half ~ 326 ms)",
+          "Gamma_0": "1.40(2) feV (Delta nu_0 ~ 0.338 Hz)",
+          "natural_Q": "8.85(10) x 10^18"
+        }
+      },
+      "distinction": "Natural Q is an upper bound on coherence in an isolated two-level system; an operable clock requires a narrow laser oscillator, frequency discriminator with adequate SNR, servo feedback loop, and traceability chain. In solid state, operating Q is ~ 10^11 due to inhomogeneous broadening (27 kHz), but clock operation is achieved by exploiting 10^14 ensemble absorbers to provide high bandwidth (12 kHz modulation) feedback."
+    },
+    {
+      "q_id": 2,
+      "title": "Decay channels across neutral atoms, isolated ions, and crystal hosts; non-sufficiency of bandgap > En",
+      "locators": [
+        "Seiferle 2017 pp. 042501-1 to 042501-3",
+        "Beeks 2021 pp. 240-241 (PDF pp. 3-4)",
+        "Kraemer 2023 pp. 706-708",
+        "Huang 2026 p. 905, Fig. 2f",
+        "Peik 2021 QST pp. 27-29 (Sec. 3.2.5)"
+      ],
+      "minimal_equations": [
+        "alpha_{IC} = Gamma_{IC} / Gamma_gamma",
+        "Gamma_{crystal}^{(M1)} approx n^3 Gamma_{vac}",
+        "T_2^* = 1 / (pi Delta nu_{inhom})"
+      ],
+      "key_findings": {
+        "neutral_atom": "IP_1 = 6.307 eV < E_n = 8.36 eV; internal conversion dominates, alpha_IC ~ 10^9, T1/2 = 7 +/- 1 mus.",
+        "isolated_3plus_ion": "IP_4 = 28.8 eV >> E_n; IC forbidden by energy conservation; pure radiative decay dominates, T1/2 = 1400 (+600/-300) s.",
+        "crystal_matrix": "Bandgap Eg (CaF2: 11.8 eV, MgF2: 12.4 eV) > E_n suppresses valence-to-conduction IC; refractive index n ~ 1.5 increases radiative rate by n^3 ~ 3.375, shortening lifetime to ~ 600 s.",
+        "why_bandgap_is_not_sufficient": "Bandgap > E_n is strictly necessary, not sufficient. Interstitial F- and charge compensation create localized electronic defect states and color centers inside the bandgap; non-radiative quenching, electron bridge through defect levels, radiation damage from alpha decay, and inhomogeneous EFG broadening (kHz) drastically reduce coherence time T2* to ~ 10 mus."
+      }
+    },
+    {
+      "q_id": 3,
+      "title": "Huang et al. 2026 exact measurements: Allan instability, systematic uncertainty, absolute frequency, and inter-crystal difference",
+      "locators": [
+        "Huang 2026 p. 903 (Abstract)",
+        "Huang 2026 p. 905 (Fig. 2f)",
+        "Huang 2026 p. 907 (Fig. 3, Fig. 4, main text)",
+        "Huang 2026 p. 909 (Methods, Eq. 28)",
+        "Huang 2026 p. 913 (Extended Data Table 1)"
+      ],
+      "minimal_equations": [
+        "sigma_y(tau) = 5 x 10^{-13} / sqrt(tau / s)",
+        "Delta nu / nu = (nu_{b,TS1} - nu_{b,S1}) / nu_0 = 2.8(6) x 10^{-13}",
+        "nu_{b,S1} = 2,020,407,298,798.077(63)_{stat}(185)_{sys} kHz",
+        "nu_{b,TS1} = 2,020,407,298,798.635(20)_{stat}(185)_{sys} kHz"
+      ],
+      "strict_separations": {
+        "allan_instability": "sigma_y(tau) = 5 x 10^-13 / sqrt(tau/s) for optimized TS1 + phototube, representing short-term statistical averaging precision under white frequency noise, within 2x of photon shot noise limit (3 x 10^-13 / sqrt(tau/s)).",
+        "systematic_uncertainty": "Evaluated specifically for temperature: 185 Hz (fractional 9.1 x 10^-14) arising from 0.1 K absolute temperature sensor uncertainty propagated through line b temperature slope.",
+        "inter_crystal_difference": "Delta nu = 5.6(13) x 10^2 Hz = 560(130) Hz, fractional 2.8(6) x 10^-13, where absolute 0.1 K sensor error cancels common-mode.",
+        "absolute_frequencies": "Determined via optical frequency comb and hydrogen maser calibrated against UTC.",
+        "locking_demonstration": "Continuous-wave 148.4 nm laser locked to line b using 12 kHz frequency modulation absorption spectroscopy with phototube.",
+        "superlatives_retraction": "No ungrounded claims of 'latest' or 'world first'; contextualized with simultaneous publication of Toscani De Col et al. 2026 (Nature 658, 897)."
+      }
+    },
+    {
+      "q_id": 4,
+      "title": "Model dependence of K_alpha and K_q; invalidity of naive eV division",
+      "locators": [
+        "Beeks 2021 p. 246 (PDF p. 9)",
+        "Peik 2021 QST pp. 31-33 (Sec. 4.1)",
+        "Thielking 2018 pp. 321-323",
+        "Litvinova 2009 PRC 79, 064303"
+      ],
+      "minimal_equations": [
+        "K_alpha = Delta E_C / E_n",
+        "Delta E_C = -485 MeV * (Delta <r^2> / <r^2>) + 11.6 MeV * (Delta Q_0 / Q_0)",
+        "Delta E_C(exp) = -0.29 +/- 0.43 MeV"
+      ],
+      "physics_breakdown": "The naive argument Delta E / E ~ 1 MeV / 8 eV ~ 10^5 fails because the isomer transition is an uncharged valence neutron transition (5/2+[633] <-> 3/2+[631]). In a frozen proton core, Delta E_C is strictly zero. Non-zero Delta E_C arises purely from core polarization. Hyperfine data from Thielking 2018 yield Delta E_C = -0.29 +/- 0.43 MeV, whose 1-sigma uncertainty spans zero and allows Delta E_C < 10 keV. Specific nuclear models (Fadeev 2020) obtain K_alpha = -0.9(3) x 10^4 by correlating charge radius and quadrupole changes. Strong interaction sensitivity K_q varies across nuclear EDF models by orders of magnitude (10^3 to 10^5) and can even flip sign."
+    },
+    {
+      "q_id": 5,
+      "title": "Necessary conditions for cross-region transfer to A ~ 130 and invalidity of prolate + high/low-j crossing as sufficient law",
+      "locators": [
+        "Beeks 2021 pp. 239-241",
+        "Peik 2021 QST pp. 5-7",
+        "Shvydko 2023 pp. 471-473"
+      ],
+      "necessary_conditions": [
+        "Energy match: Transition energy must fall in laser-accessible optical/VUV window (< 15 eV) or coherent XFEL window.",
+        "Favorable EM matrix element: Must be moderately hindered (e.g. B(M1) ~ 10^-2 W.u.) to provide narrow linewidth without making excitation cross section vanishingly small.",
+        "Electronic/chemical host compatibility: Host bandgap or ion ionization potential must exceed E_n, with high optical transparency, low defect density, and radiation hardness.",
+        "Production and sample preparation window: Long-lived parent or high-yield reaction channel must exist to accumulate sufficient nuclei (e.g. 10^14 for crystals, or continuous ion trap feeding)."
+      ],
+      "why_crossing_is_not_sufficient": "In A ~ 130 and other deformed regions, high-j intruder (h11/2) and low-j (d5/2, g7/2) orbitals cross as beta2 and gamma vary, but their energy differences are typically 100 keV to 1 MeV. Furthermore, high-j to low-j transitions involve opposite parity or large Delta j (M4, E3), resulting in keV-range high-spin isomers rather than eV-range optical transitions. In 229Th, the degeneracy is an accidental cancellation between two positive-parity Nilsson states (5/2+[633] and 3/2+[631]) within the same N=6 oscillator shell. Single-particle models cannot predict eV-scale splittings, making prolate + orbital crossing neither necessary nor sufficient for low-energy nuclear clocks."
+    }
+  ],
+  "corrections_ledger": [
+    {
+      "issue": "Fixed mK threshold (mK门)",
+      "old_note_text": "Failure Conditions 1: 如果固态晶体温度梯度大于 mK 量级或受到非均匀应变扰动，四极劈裂谱线的漂移（~kHz/K）将破坏时钟长期稳定度。",
+      "rectification": "Retracted. The 3 mK figure in Huang 2026 (p. 907) was the empirical root-mean-square temporal temperature fluctuation of their specific laboratory temperature control loop during that run, not a universal threshold. Line b exhibits a quadratic temperature dependence with a turning point near room temperature (~301.4 K), resulting in a vanishing linear slope, which is precisely why line b was chosen. No physical mK failure gate exists.",
+      "status": "rectified"
+    },
+    {
+      "issue": "Fixed 10 kHz threshold (10 kHz门)",
+      "old_note_text": "Falsification 1: 若未来跨实验室采用不同生长工艺制备的 229Th:CaF2 晶体进行零漂移比对时，绝对频差显著超出四极场不均匀估计（> 10 kHz），则证伪固态晶体作为独立可复现基准的可行性。",
+      "rectification": "Retracted. The > 10 kHz figure was completely fabricated without citation. Huang 2026 (p. 907) demonstrated that independently grown crystals (S1 and TS1) differ by only 560(130) Hz (2.8 x 10^-13), and agree with JILA C10/C13 data within combined 1.22 kHz uncertainty. The inhomogeneous linewidth of line b is 27(1) kHz. No 10 kHz falsification gate exists in primary literature.",
+      "status": "rectified"
+    },
+    {
+      "issue": "Material sufficiency fallacy (材料保证)",
+      "old_note_text": "Transfer Conditions 2: 只要宿主晶体满足禁带宽度显著大于核跃迁能，且掺杂核处于高配位局部对称格点，原子核即可在凝聚态介质中维持长寿命与低退相干...",
+      "rectification": "Corrected from sufficient ('只要...即可') to necessary. Host bandgap > E_n only suppresses valence-to-conduction band internal conversion. It does NOT guarantee long radiative lifetime or long coherence due to interstitial charge compensation defects, color centers, radiation damage, non-radiative quenching, electronic bridge mechanisms, and inhomogeneous quadrupole broadening.",
+      "status": "rectified"
+    },
+    {
+      "issue": "Dark matter pseudo-criterion (暗物质判断)",
+      "old_note_text": "Falsification 3: 若 Toscani De Col 2026 报告的暗物质排除边界在独立核钟或单离子核钟比对中出现正信号但不具备恒星时/周年多普勒调制特征，则判定为环境微扰引起的伪信号。",
+      "rectification": "Retracted. Dark matter searches via optical clocks look for coherent oscillations of fundamental constants (e.g. alpha) at the Compton frequency of ultralight fields or transient topological defect passages. Evaluating signals requires multi-clock ratio comparisons across systems with differing K_alpha sensitivities, phase coherence checks, and Doppler modulation analysis, rather than an arbitrary binary dismissal threshold.",
+      "status": "rectified"
+    },
+    {
+      "issue": "Infinite blocking fallacy (未决参数无限门)",
+      "old_note_text": "Implicitly treating unresolved single-ion clocking, crystal field shifts at 10^-18, and exact empirical K_alpha as blockers for thesis readiness.",
+      "rectification": "Clarified that ongoing metrology challenges (single-ion sub-Hz clocking, 10^-18 systematic uncertainty budgets, empirical determination of K_alpha) are active research frontiers. Foundational doctoral understanding requires mastering the underlying physical mechanisms, environmental coupling channels, and model dependencies, rather than awaiting future experimental resolution of all open frontiers.",
+      "status": "rectified"
+    }
+  ],
+  "doctoral_readiness_assessment": {
+    "stage_one_understanding": "Achieved. Complete physical clarity established across: (1) energy scales, natural vs operational Q, M1/E2 multipolarity; (2) electronic environmental decay channels (IC, EB, non-radiative quenching, local field effects); (3) Huang 2026 operational clock demonstration and metrological boundaries; (4) core-polarization model dependence of fundamental constant sensitivities; and (5) cross-region transfer constraints.",
+    "open_frontiers_distinction": "Unresolved experimental parameters (e.g., trapped ion 3+ closed-loop lock, sub-Hz systematic budgets) are properly categorized as active scientific research questions, not as blockers for thesis design."
+  }
+}

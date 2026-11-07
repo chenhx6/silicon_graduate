@@ -3,7 +3,7 @@ type: source
 title: "A nuclear clock synchronized to 229Th"
 aliases: ["huang-2026-nuclear-clock-synchronized-229th", "Beichen Huang 2026"]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-08
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
@@ -39,22 +39,37 @@ tags: ["229th", "isomer", "nuclear-clock", "vuv-spectroscopy"]
 
 本次对象为frontmatter指定的本地PDF，页数及实际读取范围见本轮clock逐文件台账。关键主张依下表原页定位；未在该PDF中实际检查的独立SI、原始计数和装置文件不自动包含在核验范围。
 
+2026-11-08 R3总控回读PDF1–5、8–9、11，并视觉核Extended Data Table 1。
+原印刷页与图位置重新对应：Fig.1在PDF3/905，Fig.2在PDF4/906，
+Fig.3在PDF5/907；本文主图止于Fig.3，不沿旧稿“Fig.4”。
+12kHz是优化配置的频率调制**幅度**δb，调制频率fm=0.888kHz，
+不是12kHz调制频率或反馈带宽。PDF11表1给Tm=10s、Tc=11.8s。
+
 ## Summary
 
-Huang et al. (published online 7 October 2026, Nature Vol. 658, pp. 903-913, 22 October 2026) demonstrated a 229Th solid-state nuclear clock by stabilizing a continuous-wave 148.4 nm laser (10 μW via Cd four-wave mixing) to a resolved, weakly temperature-sensitive quadrupole transition (line b) in 229Th:CaF2. Transmission readout used a phototube for fast frequency-modulation absorption spectroscopy (12 kHz modulation), while fluorescence was monitored with a separate PMT. The clock achieved an Allan deviation fractional frequency instability of 5 x 10^-13 / sqrt(tau/s), and inter-crystal comparison between two independently grown crystals (TS1 and S1) showed a frequency difference of 5.6(13) x 10^2 Hz (fractional difference 2.8(6) x 10^-13).
+Huang et al. (online 7 October 2026; Nature Vol.658, pp.903–913, 22 October 2026)
+report feedback locking of a continuous-wave 148.4nm probe to line b in 229Th:CaF2.
+The optimized configuration uses a phototube for transmission readout,
+fm=0.888kHz and frequency-modulation amplitude δb=12kHz.
+The in-loop frequency record gives fitted instability
+5×10⁻¹³/√(τ/s); independent-crystal comparison gives 5.6(13)×10²Hz difference.
+Neither quantity alone is a complete accuracy budget or a direct measurement of nuclear T2.
 
 ## Key Results
 
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| H26-1 | Operational solid-state nuclear clock achieved fractional frequency instability Allan deviation of sigma_y(tau) = 5 x 10^-13 / sqrt(tau/s). | observed-fact | direct | p. 903, Abstract; p. 906, Fig. 3 | true |
-| H26-2 | Inter-crystal comparison of line b between independent crystals TS1 and S1 yielded frequency difference of 5.6(13) x 10^2 Hz (2.8(6) x 10^-13 fractional). | observed-fact | direct | p. 903, Abstract; p. 907, Fig. 4 | true |
-| H26-3 | Fast absorption discriminator utilized a phototube with 12 kHz frequency modulation, separate from PMT fluorescence detection. | observed-fact | direct | p. 904, Fig. 1c, Methods | true |
-| H26-4 | Fluorescence lifetime in CaF2 crystal measured as tau_e = 631(2) s from single-exponential decay fit. | observed-fact | direct | p. 905, Fig. 2f | true |
+| H26-1 | In-loop overlapping Allan deviation fitted by 5×10⁻¹³/√(τ/s) over measured interval. | derived-measurement | direct | PDF5/907, Eq.(1), Fig.3 | false |
+| H26-2 | Independent-crystal line-b difference 5.6(13)×10²Hz. | derived-measurement | direct | PDF5/907 text; PDF9 Eqs.(28)–(30) | false |
+| H26-3 | Optimized phototube readout uses fm=0.888kHz, δb=12kHz, Tm=10s, Tc=11.8s. | apparatus-input | direct-visual | PDF11, Extended Data Table 1 | false |
+| H26-4 | Single-exponential fluorescence mean decay time τe=631(2)s, following QU excitation. | fitted-measurement | direct | PDF2/904 text; PDF4/906 Fig.2f | false |
 
 ## Competing Interpretations and Limitations
 
-Clock operates on a solid-state crystal subject to local crystal field shifts and inhomogeneous broadening (~kHz). Does not achieve the 10^-19 systematic uncertainty projected for future isolated single-ion trap standards. Temperature must be stabilized to mK levels to suppress residual line b thermal shifts.
+局域环境、谱展宽与温度进入结果。PDF5报告301.4(1)K，
+3mK为该次运行的RMS时间涨落，0.1K为传感器校准主导的系统标准不确定度；
+不是所有核钟的mK必要条件。27(1)kHz是TS1 b线FWHM（PDF2/904），
+不能直接反推均匀T2。本文未提供独立于环内记录的完整钟稳定性测量或10⁻¹⁹精度证明。
 
 ## Extracted Pages
 

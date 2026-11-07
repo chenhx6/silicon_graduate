@@ -1,0 +1,202 @@
+{
+  "schema": "doctoral-foundations-neec-depletion-v1",
+  "task_id": "R3-G55",
+  "title": "NEEC机制、产额与争议的基础解释与范围纠错",
+  "run_date": "2026-11-08",
+  "status": "parent-audited-completed",
+  "scope": "低能核物理中同核异能态耗散机制（NEEC/NEET/NEIES/CoulEx/光激发）对比、微观共振强度至宏观净产额的分层演化、Chiara 2018与Guo 2022实验证据与适用条件边界审计、原子-核退激动力学与最小确证判据",
+  "primary_sources": [
+    {
+      "id": "Chiara2018",
+      "citation": "C. J. Chiara et al., Nature 554, 216–219 (2018)",
+      "doi": "10.1038/nature25483",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear battery/2018_Chiara et al_Isomer depletion as experimental evidence of nuclear excitation by electron capture.pdf",
+      "raw_sha256": "972e2730cf958f265b7fc6d01d41829f074d2eb05b7fc2506509f61b1ea1023a",
+      "scope": "PDF pp. 216-219, Figs. 1-3, Methods pp. 1-4, Extended Data Figs. 1-4",
+      "verified_elements": [
+        "Inverse kinematics 7Li(90Zr, p3n)93Mo at ATLAS with Digital Gammasphere",
+        "2475 keV feeding peak area A_2475 = 1.54(3)e4 counts, 268 keV peak area A_268 = 5.1(16)e2 counts",
+        "Relative efficiency R = 0.28, ICC alpha = 0.0355, deduced P_exc = 1.0(3)%, sigma_bar = 40 b",
+        "GOSIA 208Pb Coulex probability 3e-6, FRESCO inelastic scattering 6e-8 (Li) and 2e-6 (C)"
+      ]
+    },
+    {
+      "id": "Guo2022",
+      "citation": "S. Guo et al., Phys. Rev. Lett. 128, 242502 (2022)",
+      "doi": "10.1103/PhysRevLett.128.242502",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear battery/2022_Guo et al_Probing Mo 93 m Isomer Depletion with an Isomer Beam.pdf",
+      "raw_sha256": "408ba1a88b584988019315d487cb17ec05a5a1f6a1e9ce1d2f7f989ae1262d3a",
+      "scope": "PDF pp. 1-6, Figs. 1-3, Table I, Eqs. 1-5",
+      "verified_elements": [
+        "HIRFL-CSR/RIBLL secondary isomer beam 93mMo^36+ at 460 MeV (35 m transport, 1.14 us TOF)",
+        "Implantation into 20 um carbon + plastic scintillator, 5 HPGe detectors with BGO shields",
+        "266.5-269.5 keV window: 570 observed counts vs 596 Compton background (3-sigma lower bound 523)",
+        "Extracted upper limit MaxID <= 50, N_isomer = 1.763(1)e6 (beam on) + 2.78(1)e5 (18.4 h beam off)",
+        "Upper limit P_max approx 2e-5; theoretical MCDF+CasP prediction 2.3e-12 (460 MeV) and 2.8e-11 (840 MeV)"
+      ]
+    },
+    {
+      "id": "Carroll_Chiara2024",
+      "citation": "J. J. Carroll and C. J. Chiara, Eur. Phys. J. Spec. Top. 233, 1151–1160 (2024)",
+      "doi": "10.1140/epjs/s11734-024-01149-8",
+      "raw_file": "raw/papers/isomer/isomer_review/2024_Carroll_Chiara_Isomer depletion.pdf",
+      "raw_sha256": "13ea67a0303ba677c737976e530bc5845eececa9d4c1daffdb19db5f9392e21b",
+      "scope": "Sec. 4 (pp. 1157-1158), Sec. 5-6 (pp. 1158-1159)",
+      "verified_elements": [
+        "Conceptual difference between stationary ion free-electron capture and moving ion target-electron capture (NEEC-RT)",
+        "Historical review of 93mMo controversy, acknowledging Wu 2019 theory gap and Guo 2022 null result",
+        "Discussion of theoretical developments: electron momentum distributions and excited atomic configurations"
+      ]
+    },
+    {
+      "id": "Li_Zhao_Pu_Wu2026",
+      "citation": "Z. Li, J. Zhao, X. Pu, and Y. Wu, Phys. Rev. C 113, 044607 (2026) / arXiv:2605.05783",
+      "doi": "10.1103/PhysRevC.113.044607",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-g55-neec-evidence/li-2026-isomer-depletion-inelastic-electron-scattering-93mmo.pdf",
+      "raw_sha256": "a9f26f8ae3e621e0f8c65688ec54f018044777306165c554d71ffb9a59ef4924",
+      "scope": "PDF pp. 1-9, Figs. 1-6, Eqs. 1-13",
+      "verified_elements": [
+        "DWBA theory for nuclear excitation by inelastic electron scattering (NEIES)",
+        "Isomer depletion cross sections for 93mMo (E2, B(E2)=3.5 W.u., Delta E=4.85 keV) yielding sigma_NEIES approx 10^-33 to 10^-32 cm^2",
+        "Non-resonant threshold continuum behavior contrasting with discrete bound-vacancy NEEC"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "title": "NEEC、NEET、电子散射/CoulEx、直接光激发的能量/占据/捕获区别",
+      "locators": {
+        "chiara2018": "Nature 554, 216 col. 1",
+        "carroll_chiara2024": "Eur. Phys. J. Spec. Top. 233, 1157-1158 (Sec. 4)",
+        "li_zhao_pu_wu2026": "Phys. Rev. C 113, 044607 / arXiv:2605.05783 Sec. I-II, Eqs. 1-11"
+      },
+      "beginner_explanation": "NEEC是自由电子被捕获到束缚态空穴中同时共振激发原子核（内转换的时间反转过程）；NEET是原子内层空穴被外层电子跃迁退激填充时、能量共振转移至原子核（束缚态到束缚态跃迁）；电子散射(NEIES)与CoulEx是非共振连续谱过程（电子或重离子入射后仍处于连续自由态飞离，无需任何束缚空穴）；直接光激发则是实光子被核能级共振吸收。",
+      "reported_facts": [
+        "NEEC共振能量守恒条件严格为 E_e + E_b = E_n，其中E_e为自由电子动能，E_b为捕获轨道结合能，必须存在未被占满的内层空穴",
+        "NEET要求原子束缚-束缚态跃迁能 Delta E_atomic 与核能级差 E_n 严格在态宽内近简并，且初始态必须存在内层空洞",
+        "NEIES为连续谱阈值激发（epsilon_i >= E_n），末态电子仍在连续态（epsilon_f = epsilon_i - E_n），对93mMo微观截面仅为10^-33至10^-32 cm^2",
+        "CoulEx由弹靶碰撞瞬态电磁场（虚光子谱）诱导，由卢瑟福散射双曲线轨道动力学主导，无电子捕获"
+      ],
+      "inferred_limitations": [
+        "将NEEC混同于电子碰撞激发或逆光电效应会完全忽视内层空穴占据数 p_alpha 与共振截面的极窄原子宽度限制",
+        "NEET受制于天然原子-核能级简并的极端严苛性，绝大多数核素中失谐过大导致一级微扰几率极小"
+      ],
+      "competing_interpretation": "在稠密等离子体或束靶阻止中，原子核激发往往是NEEC、NEIES与CoulEx多种通道的叠加，若无能量与空穴态选择性反演，极易发生机制误认。",
+      "real_uncovered_gap": "固体靶阻止过程中靶电子动量分布（Compton profile）破坏了理想单能自由电子假设，转化为共振电荷转移（NEEC-RT）。"
+    },
+    {
+      "id": "Q2",
+      "title": "共振strength、截面、电子分布折叠率、停靶概率和净depletion不同层与单位分支",
+      "locators": {
+        "guo2022": "Phys. Rev. Lett. 128, 242502 p. 4, Eqs. 4-5, Table I",
+        "wu2019": "Phys. Rev. Lett. 122, 212501 Eqs. 1-3"
+      },
+      "beginner_explanation": "共振强度是单共振微观内禀积分面积（单位b*eV）；共振截面是定域能量上的微观概率大小（单位b）；折叠截面是将窄共振与宽电子动量谱或靶电子Compton轮廓卷积后的等效截面（单位b，数值被稀释数个量级）；停靶概率是重离子在材料中减速冷却全过程的能量积分激发几率（无量纲数）；净耗散率则必须乘以中间态向下的物理分支比（扣除反向衰变回异构态的损失）。",
+      "reported_facts": [
+        "共振强度 S_alpha,q = int sigma(E) dE = (2*pi^2 / k_e^2) * [(2*I_d + 1) / (2*(2*I_i + 1))] * (Gamma_e * Gamma_n / Gamma_tot)，单位为 b*eV",
+        "微观峰值截面 sigma_peak = (2 / (pi * Gamma_tot)) * S_alpha,q，单位为 b",
+        "固体靶折叠截面 sigma_q^alpha(E) = sum_i sqrt(M_p / (2*E)) * J_i(Q) * S_alpha,q，单位为 b",
+        "停靶积分概率 P = n_c * sum_{q,alpha} int [f_q(E) * sigma_q^alpha(E) / (-dE/dx)] dE，无量纲",
+        "净耗散产额 Y_net = N_isomer * P_exc * b_down，其中 b_down = Gamma_down / (Gamma_down + Gamma_back)"
+      ],
+      "inferred_limitations": [
+        "混淆共振强度（b*eV）与截面（b）会导致理论产额高估10^4至10^6倍",
+        "忽略阻止本领 -dE/dx 的巨大分母效应，会将局部共振截面峰值误当宏观激发概率"
+      ],
+      "competing_interpretation": "作者若测得较高产额，常声称存在未知共振信道增强；但若无分支比 b_down 与电荷态比例 f_q 独立标定，产额无法直接对应截面。",
+      "real_uncovered_gap": "复杂开壳层重离子在介质中高激发电子态分布（NEEC-EXI）难以通过独立光谱学原位确定。"
+    },
+    {
+      "id": "Q3",
+      "title": "2018测得什么和作者如何归因，2022 clean-beam upper limit适用条件与普适性范围纠错",
+      "locators": {
+        "chiara2018": "Nature 554, 216-218, Fig. 2, Fig. 3",
+        "guo2022": "Phys. Rev. Lett. 128, 242502 pp. 1-5, Figs. 1-2, Table I",
+        "carroll_chiara2024": "Eur. Phys. J. Spec. Top. 233, 1157-1158"
+      },
+      "beginner_explanation": "2018年Chiara等在非分离靶实验中，通过双符合门测得268 keV峰面积510计数，归因为93mMo减速过程发生了NEEC并给出1.0(3)%激发几率；2022年郭松等利用RIBLL次级束线将93mMo36+异构体束流磁分离并传输35米后注入极低本底环境，未观察到268 keV峰，给出上限P_max <= 2e-5。不能说2022直接在普适意义下彻底证伪全部NEEC物理过程，因为两者入射能量（460 MeV vs 674/840 MeV）与电荷态分布不同，且2022上限与理论计算（~10^-11）完全自洽，否定的是2018在该阻止介质下的1%反常大几率。",
+      "reported_facts": [
+        "Chiara 2018测得 A_2475 = 1.54(3)e4，A_268 = 5.1(16)e2，推导 P_exc = 1.0(3)%，平均截面 40 b",
+        "Guo 2022在RIBLL输运35 m（飞行1.14 us），本底区观察570计数对比康普顿本底估算596计数，提取上限 MaxID <= 50，植入异构体 1.763(1)e6，上限 P_max <= 2e-5",
+        "理论MCDF计算：460 MeV时概率为 2.3e-12，840 MeV时概率为 2.8e-11，理论能谱依赖比值为 8%",
+        "Carroll & Chiara 2024综述承认Wu 2019理论预言比其实验小多个量级，且Guo 2022在不同条件下未观测到效应"
+      ],
+      "inferred_limitations": [
+        "Chiara 2018未磁分离初级束，未反应的90Zr直接轰击碳阻滞靶产生原位核反应巨额旁路符合污染",
+        "将Guo 2022判定为全局彻底终结NEEC理论是科学范围泛化；该实验直接推翻的是1%的实验宣称，确立了2e-5上限"
+      ],
+      "competing_interpretation": "Chiara 2018信号来自未分离90Zr+12C聚变蒸发直接布居(17/2)+态所产生的瞬发级联假符合与随机符合。",
+      "real_uncovered_gap": "在10^-11理论水平上，当前次级束流强与探测效率尚无法实现真实NEEC的统计确证。"
+    },
+    {
+      "id": "Q4",
+      "title": "charge state/vacancy/stopping/电子宽度与γ级联back-decay怎样进入实验接受度",
+      "locators": {
+        "guo2022": "Phys. Rev. Lett. 128, 242502 pp. 3-4, Eqs. 1-5",
+        "wu2019": "Phys. Rev. Lett. 122, 212501 pp. 2-4",
+        "chiara2018": "Nature 554, 216 col. 1-2, Methods p. 1"
+      },
+      "beginner_explanation": "重离子在固体靶减速时电荷态迅速下降并冷却至低价态，导致内层L壳空穴迅速闭合而使NEEC猝灭；巨大阻止本领让离子瞬间穿过共振能区（飞秒级）；微观电子宽度极窄，且若中间态发生反向内转换衰变回异构态则不产生净耗散；因此即便某特定能点截面发生局部增强，宏观积分后的总产额仍极其微小。",
+      "reported_facts": [
+        "93Mo要发生L壳NEEC要求结合能 E_b < 4.85 keV 且存在L空穴（q >= 33）",
+        "减速过程中平衡电荷态由初始 ~36 快速冷却至 20-25，L壳空穴迅速耗尽关闭通道",
+        "核能级 (17/2)+ 寿命 3.5 ns 对应自然线宽仅 0.13 ueV，原子空穴宽约 0.1-1 eV",
+        "中间态向下的268 keV E2辐射几率正比于 E^5，对比4.85 keV反向辐射宽度理论比值为 (4.85/268)^5 approx 1.8e-9"
+      ],
+      "inferred_limitations": [
+        "固体靶并非理想NEEC平台；快减速与低电荷态再结合是束-箔法固有的物理压低因素",
+        "理论提出的局部机制（如Compton折叠增强10^7-10^8倍）积分后总几率依然落在10^-11至10^-10量级"
+      ],
+      "competing_interpretation": "在低价态离子中，4.85 keV反向内转换系数显著增大，可能分流中间态退激，降低净耗散分支比。",
+      "real_uncovered_gap": "离子在固体物质穿行中非平衡动态电荷态与激发态布居演化的第一性原理模拟仍有较大不确定性。"
+    },
+    {
+      "id": "Q5",
+      "title": "最强污染/随机符合/错误谱线解释与最小区分观测",
+      "locators": {
+        "guo2021": "Nature 594, E1-E2",
+        "chiara2021": "Nature 594, E3-E4",
+        "guo2022": "Phys. Rev. Lett. 128, 242502 pp. 2-3, Fig. 2",
+        "carroll_chiara2024": "Eur. Phys. J. Spec. Top. 233, 1157-1158"
+      },
+      "beginner_explanation": "实验最强假象是未分离初级束在阻滞材料中诱发的原位核聚变蒸发旁路级联、以及6.85小时天然异构体衰变产生的随机符合；263 keV强衰变线与268 keV假想耗散线仅差5 keV极易混淆；由于束流微波结构、轫致辐射与束下本底随能量连续变化，绝不可假定离开共振后本底绝对恒定；必须采用物理分离的纯异构体束或EBIT单能扫描，结合全级联多重符合与激发函数线宽匹配，作为最小区分判据。",
+      "reported_facts": [
+        "Guo 2021证实 90Zr + 12C 在碳捕集靶中原位聚变产生 93Mo 的反应率高达 ~9.3 kHz",
+        "Chiara 2018符合谱中出现与268 keV面积比约为 2:1 的 263 keV 峰，被质疑为长寿命异构态衰变随机符合",
+        "Guo 2022利用RIBLL次级束将产生靶与探测靶物理隔离35米，完全消除了初级核反应旁路污染",
+        "HPGe在268 keV处能量分辨优异，在50 ns符合门下塑料探测器本底计数率达到 61 kHz，需精确死时间校正 P_dp = 0.24"
+      ],
+      "inferred_limitations": [
+        "单重符合或宽门符合无法排除复杂核素结构中的未知旁路跃迁；仅凭单条268 keV峰绝不可断言NEEC",
+        "调谐电子束离开共振时，空间电荷、束流电流与轫致辐射截面均改变，不可假设本底为简单刚性常数"
+      ],
+      "competing_interpretation": "2018观测信号实际上是探测器阵列中相邻晶体间康普顿散射串扰结合初级反应统计gamma光子的虚假叠加。",
+      "real_uncovered_gap": "微弱共振信号在超高本底压制下的双能调制差分实验尚未在EBIT或储存环中真正实现并产出数据。"
+    }
+  ],
+  "doctoral_readiness_audit": {
+    "mechanism_boundary_mastery": "彻底厘清NEEC（自由-束缚共振）、NEET（束缚-束缚共振）、NEIES/CoulEx（连续散射非共振）与直接光激发（实光子）在始末态电子轨道、能量匹配与空穴占据数上的本质区别",
+    "cross_section_to_depletion_hierarchy": "掌握从微观共振强度S(b*eV)到折叠截面sigma(b)、减速积分几率P与宏观净产额Y_net的分层数学结构与分支条件",
+    "controversy_epistemological_demarcation": "严格界定Chiara 2018未分离靶实验与Guo 2022纯次级束实验的观测事实、系统误差与适用条件，纠正非黑即白的普适翻案谬误",
+    "audit_checks": [
+      "check_1_q1_mechanisms_energy_occupancy_distinction_verified",
+      "check_2_q2_hierarchy_units_branching_verified_in_guo2022_wu2019",
+      "check_3_q3_chiara2018_and_guo2022_experimental_conditions_verified",
+      "check_4_q4_charge_state_stopping_backdecay_acceptance_verified",
+      "check_5_q5_contaminations_random_coincidence_minimal_observables_verified"
+    ],
+    "doctoral_defense_preparation": [
+      "在答辩中能够清晰推演重离子固体靶减速中电荷态冷却对L壳空穴的关闭机制，解释为何理论停靶概率仅为10^-11量级",
+      "准确陈述Guo 2022的2e-5上限及其对Chiara 2018的证伪边界，同时指出其未能触及10^-11微观理论预言的灵敏度极限",
+      "掌握EBIT与储存环中进行确定性NEEC验证的最小观测判据与非共振本底非平庸行为的防范方案"
+    ]
+  },
+  "methodological_boundary": {
+    "prohibit_universal_thresholds": true,
+    "prohibit_arbitrary_width_and_branching_gates": true,
+    "prohibit_overbroad_generalization": true,
+    "prohibit_user_confirmation_gates": true,
+    "prohibit_thesis_ghostwriting": true
+  }
+}

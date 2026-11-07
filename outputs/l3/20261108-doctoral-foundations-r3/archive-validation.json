@@ -1,0 +1,40 @@
+{
+  "returncode": 1,
+  "source_pages": 9,
+  "collection_manifests": 10,
+  "result": {
+    "checked_manifests": [
+      "/workspace/wiki/raw/papers/gpt/query/20261108-r3-bibliography-audit/manifest.json",
+      "/workspace/wiki/raw/papers/gpt/query/20261108-r3-bohr-1952/manifest.json",
+      "/workspace/wiki/raw/papers/gpt/query/20261108-r3-bohr-1952/originals/manifest.json",
+      "/workspace/wiki/raw/papers/gpt/query/20261108-r3-g45-quantum-labels/manifest.json",
+      "/workspace/wiki/raw/papers/gpt/query/20261108-r3-g46-finite-chirality/manifest.json",
+      "/workspace/wiki/raw/papers/gpt/query/20261108-r3-g48-weak-operators/manifest.json",
+      "/workspace/wiki/raw/papers/gpt/query/20261108-r3-g52-beta-delayed-particles/manifest.json",
+      "/workspace/wiki/raw/papers/gpt/query/20261108-r3-g53-shell-fusion/manifest.json",
+      "/workspace/wiki/raw/papers/gpt/query/20261108-r3-g55-neec-evidence/manifest.json",
+      "/workspace/wiki/raw/papers/gpt/query/20261108-r3-t07-weak-renormalization/manifest.json"
+    ],
+    "checked_sources": [
+      "/workspace/wiki/knowledge/sources/bohr-1952-surface-particle-coupling.md",
+      "/workspace/wiki/knowledge/sources/bohr-mottelson-1953-collective-individual-original.md",
+      "/workspace/wiki/knowledge/sources/cirigliano-2018-leading-short-range-double-beta.md",
+      "/workspace/wiki/knowledge/sources/dimitriou-2021-beta-delayed-neutron-reference-database.md",
+      "/workspace/wiki/knowledge/sources/engel-menendez-2017-double-beta-matrix-elements-review.md",
+      "/workspace/wiki/knowledge/sources/huang-2026-nuclear-clock-synchronized-229th.md",
+      "/workspace/wiki/knowledge/sources/kvasil-2006-dy156-yb162-crpa-wobbling.md",
+      "/workspace/wiki/knowledge/sources/li-2026-isomer-depletion-neies.md",
+      "/workspace/wiki/knowledge/sources/xu-2004-superheavy-high-spin-isomer-stability.md"
+    ],
+    "failure_count": 1,
+    "failures": [
+      {
+        "error": "manifest has no nonempty files list: /workspace/wiki/raw/papers/gpt/query/20261108-r3-bibliography-audit/manifest.json",
+        "kind": "manifest",
+        "manifest": "/workspace/wiki/raw/papers/gpt/query/20261108-r3-bibliography-audit/manifest.json"
+      }
+    ],
+    "ok": false,
+    "scope": "paths"
+  }
+}

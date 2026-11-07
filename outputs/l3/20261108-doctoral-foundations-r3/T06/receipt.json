@@ -1,0 +1,111 @@
+{
+  "task_id": "R3-T06",
+  "status": "completed_scoped",
+  "completed_utc": "2026-11-07T21:58:07Z",
+  "date_note": "Task directory label is user-specified 20261108; completed_utc is the actual system UTC clock.",
+  "deliverables": [
+    {
+      "path": "outputs/l3/20261108-doctoral-foundations-r3/T06/report.md",
+      "sha256": "368cacd7714d82d9e7c0fcc13f0173fd7cc98f733835fc54264132091b45b12c",
+      "lines": 104
+    },
+    {
+      "path": "outputs/l3/20261108-doctoral-foundations-r3/T06/receipt.json"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Bohr1952",
+      "path": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-1952-mfm26-14.pdf",
+      "sha256_at_readback": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d",
+      "verified_scope": "PDF/printed pp.19–21, Eqs.56–65"
+    },
+    {
+      "id": "BohrMottelson1953",
+      "path": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-mottelson-1953-mfm27-16.pdf",
+      "sha256_at_readback": "b0501e3e098869a7fb14527a3dc8c9b80444affdb265394a928e0794ae708945",
+      "verified_scope": "PDF/printed pp.10–12, definition and Eq.II.3"
+    },
+    {
+      "id": "Matsuzaki2004_v2",
+      "path": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/matsuzaki-2004-nuclear-moments-of-inertia-prc69-034306.pdf",
+      "sha256_at_readback": "9ea9fb2c8b9e73b0352a219ace7efc6182d6b5471b38d32cb96bc539e4aa6bf7",
+      "verified_scope": "PDF pp.3–8, Eqs.1–25; not full article or publisher comparison"
+    },
+    {
+      "id": "G45_review_object",
+      "path": "outputs/l3/20261108-doctoral-foundations-r3/G45/report.md",
+      "sha256_at_readback": "9b3ff3373f542abe175128cf320f8d46122004a030de5ce37d30244d9f06c29f",
+      "verified_scope": "sections 3–6, audit target not source"
+    },
+    {
+      "id": "G46_review_object",
+      "path": "outputs/l3/20261108-doctoral-foundations-r3/G46/report.md",
+      "sha256_at_readback": "b38fcf1cd6e77535f55d1184828e25c5057407ec9ed73c1e5a0d89127065f1dc",
+      "verified_scope": "sections 1 and 4, audit target not source"
+    },
+    {
+      "id": "G47_review_object",
+      "path": "outputs/l3/20261108-doctoral-foundations-r3/G47/report.md",
+      "sha256_at_readback": "48a5384cf90fce0c720bc333dd0d5d6a37169b9dc19d4e8e3254b14bbc648b4e",
+      "verified_scope": "sections 1–3 and 6, audit target not source"
+    },
+    {
+      "id": "G48_review_object",
+      "path": "outputs/l3/20261108-doctoral-foundations-r3/G48/report.md",
+      "sha256_at_readback": "68108a0b5b21d185191afe7794b0c5d1f080fb2c50e3c8ae4fa0b55fdca6f1e4",
+      "verified_scope": "target identified; weak-interaction and other content not audited"
+    },
+    {
+      "id": "G50_review_object",
+      "path": "outputs/l3/20261108-doctoral-foundations-r3/G50/report.md",
+      "sha256_at_readback": "22454b45a646b414650d669f6d39aedd209992af884d076e48e1e17abaada7c0",
+      "verified_scope": "sections 1 and 6, audit target not source"
+    }
+  ],
+  "outputs_written_only_in": "outputs/l3/20261108-doctoral-foundations-r3/T06/",
+  "independent_checks": [
+    {
+      "name": "D2 character",
+      "result": "m(I=0..4) = 1,0,2,1,3"
+    },
+    {
+      "name": "nonorthogonal parity projection",
+      "result": "E±=(h±k)/(1±S); E−−E+=2(hS−k)/(1−S²)"
+    },
+    {
+      "name": "axial cubic octupole",
+      "method": "exact Python fractions polynomial integration",
+      "result": "P3^3 has P1 coefficient 36/385; integral Y10 Y30^3 = 3 sqrt(21)/(55 pi)"
+    },
+    {
+      "name": "zero-m 3j comparison",
+      "method": "factorial expression for 3j at all m=0",
+      "result": "abs(1 3 2;0 0 0)=sqrt(3/35) > abs(1 3 4;0 0 0)=2/sqrt(63)"
+    },
+    {
+      "name": "rigid rotor",
+      "method": "NumPy eigvalsh of fixed I=4 D2 invariant 3x3 matrix in report",
+      "result": "E/epsilon=[26.60069744,43.15893517,70.24036739]; successive gaps unequal; toy, not real nucleus"
+    },
+    {
+      "name": "links",
+      "result": "all report relative local links resolved at validation time"
+    }
+  ],
+  "g45_added_audit": [
+    "same labels do not guarantee nonzero or strong coupling",
+    "Eq.11 gamma and explicit kappa qualification; axial NG possible",
+    "signed sum rule is not probability or entanglement entropy",
+    "standard 5DCH remains adiabatic"
+  ],
+  "limitations": [
+    "G48 weak interaction content not independently audited",
+    "Bohr–Mottelson 1953 historical main line not reviewed",
+    "Matsuzaki 2004 publisher-versus-preprint formula identity not checked",
+    "not a full RPA study, experiment waveform audit, or R1 42-projection repeat",
+    "No independent physical coefficients or experimental results inferred from toy algebra"
+  ],
+  "external_sources": "No new original downloaded; generic public-topic search returned no usable material; report relies on local originals and derivation. No repository materials sent externally.",
+  "git": "No staging, commit, push, or Git modifications."
+}

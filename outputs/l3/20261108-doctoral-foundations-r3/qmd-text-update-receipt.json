@@ -1,0 +1,8 @@
+{
+  "recorded_at": "2026-11-07T22:49:05.235812+00:00",
+  "command": "qmd update",
+  "returncode": 0,
+  "scope": "knowledge only; existing nuclear-knowledge collection",
+  "embeddings_requested": false,
+  "cleanup_requested": false
+}

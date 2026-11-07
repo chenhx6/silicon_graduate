@@ -3,7 +3,7 @@ type: source
 title: "Enhanced Stability of Superheavy Nuclei Due to High-Spin Isomerism"
 aliases: [Xu 2004 Superheavy High-Spin Isomers, Xu 2004 PRL]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-08
 status: active
 review_status: unreviewed
 source_type: journal-article-theory
@@ -40,26 +40,33 @@ The theoretical paper was published in *Physical Review Letters* 92, 252501 (200
 
 The 4-page article was read in full, including configuration-constrained potential-energy surface (PES) formulations, Figs. 1–2 (calculated 2-quasineutron and 2-quasiproton excitation energies), Fig. 3 (decay schemes in $^{270}\text{Ds} \to {}^{266}\text{Hs}$), Fig. 4 (fission barrier of $^{256}\text{Fm}$ $7^-$ isomer), and Fig. 5 (triaxial $(\beta_2, \gamma)$ PES trajectory).
 
+2026-11-08 R3总控再次回读四页。PDF3明确区分256Fm7⁻总半衰期70ns
+与裂变部分半衰期0.8ms；无阻碍对照2.5μs给约320倍，不能将0.8ms当总寿命。
+文中确实有Fig.4–5。固定组态PES是理论计算，作者提醒实际裂变未必保持该组态。
+本文未计算B∝Δ⁻²的普适动力学律，也未由测得γ寿命唯一反演裂变稳定性。
+
 ## Summary
 
-Xu et al. demonstrated through configuration-constrained PES calculations that high-$K$ multi-quasiparticle (multi-QP) states systematically occur at low excitation energies ($E_x \sim 1.0–1.5\text{ MeV}$) in deformed, axially symmetric even-even superheavy nuclei with $Z \ge 100$. Unlike conventional quantum systems where excited states are less stable than the ground state, high-$K$ multi-QP isomers in superheavy nuclei exhibit **enhanced stability** against both spontaneous fission and $\alpha$ decay:
-1. **Fission Barrier Elevation & Superfluidity Reduction**: The blocking of unpaired nucleons reduces pairing correlations (decreasing the superfluid gap $\Delta$), which increases the collective mass inertia $B_{\text{eff}} \propto \Delta^{-2}$. Furthermore, when configuration quantum numbers (like $K^\pi$) are conserved along the deformation path, the system incurs a substantial "specialization energy", elevating the fission barrier height and width (e.g. in $^{256}\text{Fm}$, the calculated $7^-$ fission barrier is higher than the ground-state barrier, accounting for the 3-orders-of-magnitude hindrance of the experimental partial fission half-life of $0.8\text{ ms}$). Nonaxial $\gamma$ deformation lowers both barriers by $\sim 2.5\text{ MeV}$, but preserves the relative specialization elevation.
-2. **Alpha Decay Suppression**: Reduced pair density at the Fermi surface inhibits $\alpha$-particle preformation, while the centrifugal barrier and reduced $Q_\alpha$ for transitions to excited daughter isomers further lengthen $\alpha$ lifetimes.
-3. **Isomeric Predictions in $^{254}\text{No}$ and $^{270}\text{Ds}$**: In $^{270}_{110}\text{Ds}$, low-lying $9^-$ ($1.39\text{ MeV}$), $10^-$ ($1.26\text{ MeV}$), and $\pi 10^-$ ($1.07\text{ MeV}$) isomers reproduce the observed $6.0\text{ ms}$ isomeric $\alpha$ decay to $^{266}\text{Hs}$. In $^{254}\text{No}$, the $8^-$ two-quasineutron configuration $\nu\{7/2^+[613] \otimes 9/2^-[734]\}$ was calculated at $1.12\text{ MeV}$, and the two-quasiproton configuration $\pi\{7/2^-[514] \otimes 9/2^+[624]\}$ was calculated at $1.48\text{ MeV}$.
+作者用组态约束Woods–Saxon/Strutinsky势能面及Lipkin–Nogami配对研究
+形变超重核中的低能多准粒子态。论文提出高K组态可能抑制γ、α及裂变的相关通路，
+结合当时已知事件讨论稳定性增强；不是逐核所有衰变率的实验认证。
+配对减弱影响α预形成，固定组态路径给裂变势垒增加；实际动力学可改变组态。
 
 ## Key Results
 
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| XU04-1 | Configuration-constrained PES calculations reveal that low-lying high-$K$ two-quasiparticle states ($K^\pi = 7^-, 8^-, 9^-, 10^-$) systematically exist at $E_x \sim 1.0–1.5\text{ MeV}$ in deformed even-even nuclei with $Z \ge 100$. | model-calculation | direct | PDF p. 1–2, Abstract, Figs. 1–2 | false |
-| XU04-2 | High-$K$ multi-quasiparticle isomers enhance superheavy nucleus stability by simultaneously decreasing the probability of spontaneous fission (via specialization energy barrier elevation and pairing-reduced collective inertia) and $\alpha$ decay (via pair-density blocking and centrifugal inhibition). | author-interpretation | direct | PDF p. 1, 3, text col. 1 | false |
-| XU04-3 | In $^{270}\text{Ds}$, calculated $9^-$ ($1.39\text{ MeV}$), $10^-$ ($1.26\text{ MeV}$), and $\pi 10^-$ ($1.07\text{ MeV}$) two-quasiparticle states quantitatively match the observed isomeric $\alpha$ decay ($E_\alpha = 10.95, 11.15, 12.15\text{ MeV}$, $T_{1/2} = 6.0\text{ ms}$). | model-calculation | direct | PDF p. 2–3, Fig. 3 | false |
-| XU04-4 | In $^{256}\text{Fm}$, the configuration-constrained fission barrier of the $7^-$ isomer ($\pi 7/2^-[514] \otimes \pi 7/2^+[633]$) exhibits enhanced barrier height and width relative to the ground state, explaining the observed $T_{1/2}(\text{SF}) = 0.8\text{ ms}$ (hindered by a factor of $\sim 300$ relative to unhindered estimate). | model-calculation | direct | PDF p. 3–4, Figs. 4–5 | false |
+| XU04-1 | 所算区域存在低能高K两准粒子候选，能量随核素与组态变化；不能把1–1.5MeV设为所有候选范围。 | model-calculation | direct | PDF1–2, Figs.1–2 | false |
+| XU04-2 | 固定组态、配对与α预形成等用于解释受抑通路；没有本文推出的普适B∝Δ⁻²动力学定律。 | author-interpretation-with-boundary | direct | PDF1–3 | false |
+| XU04-3 | 270Ds的9−/10−中子候选为1.39/1.26MeV，质子10−为1.07MeV；用α能量比较候选组态，不是算出了观测6ms的绝对寿命。 | model-versus-adopted-data | direct | PDF2–3, Fig.3 | false |
+| XU04-4 | 256Fm7−固定组态路径势垒高且宽；转引总半衰期70ns、裂变部分0.8ms及无阻碍对照2.5μs。 | model-and-cited-experiment-distinguished | direct | PDF3–4, Figs.4–5 | false |
+| XU04-5 | 该例非轴向PES相对轴向降低基态/异能态势垒2.4/2.6MeV。 | model-calculation | direct | PDF3, Fig.5 | false |
+
 ## Competing Interpretations and Limitations
 
 ### Intrinsic Decay Stabilization vs Heavy-Ion Reaction Yields
 A fundamental physical nuance must be distinguished between the **intrinsic half-life stabilization** of an isomer and its **formation cross section in heavy-ion reactions**:
-1. **Intrinsic Lifetime Stabilization**: Xu 2004 correctly shows that once a nucleus is in a cold, low-energy high-$K$ isomeric state, tunneling into the fission channel or $\alpha$ emission is strongly hindered by the specialization barrier and pairing blocking, provided $K$ is conserved during the tunneling process.
+1. **Intrinsic Lifetime Stabilization**: The calculations illustrate stabilization for specified configurations and paths; this is not a universal lifetime theorem for every high-K state.
 2. **Heavy-Ion Fusion Formation**:
    The synthesis cross section of a superheavy evaporation residue in complete fusion is:
    $$\sigma_{\text{ER}}(E_{\text{c.m.}}) = \frac{\pi}{k^2} \sum_{J=0}^{J_{\text{max}}} (2J+1) T(E_{\text{c.m.}}, J) P_{\text{CN}}(E_{\text{c.m.}}, J) W_{\text{surv}}(E^*, J)$$
@@ -67,12 +74,12 @@ A fundamental physical nuance must be distinguished between the **intrinsic half
    - In the hot compound nucleus, pairing correlations are weakened and level densities are high, while rotational energy modifies the effective fission barrier across the spin distribution. Fission competition during statistical de-excitation governs the overall survival probability.
    - Feeding into a specific isomeric state depends on the spin distribution of the evaporation residues and the branching ratios $b_{\text{iso}}(J)$ during the final $\gamma$-ray cascades near the yrast line.
    - **Conclusion**: Enhanced intrinsic half-life of a cold high-$K$ isomer does not directly translate into an increased formation cross section in heavy-ion reactions; the observed yield reflects the full convolution of entrance-channel dynamics, compound-nucleus survival, and yrast feeding branches.
-3. **K Conservation in Fission Models**: If the nucleus undergoes dynamic shape evolution involving triaxiality ($\gamma \ne 0$) or Coriolis mixing along the fission path, the $K$ projection is partially destroyed, allowing the nucleus to circumvent the specialization barrier by tunneling through non-$K$-conserving paths.
+3. **Configuration Conservation**: The paper explicitly notes that actual fission can involve more complex dynamics without fixed configuration. Triaxiality permits K mixing but does not alone determine its strength or a unique alternative tunneling rate. The stage-factorized reaction formula above is a cross-source comparison with [[zagrebaev-2001-superheavy-synthesis-survival]], not a new result of Xu2004.
 
 ## Source Self-Audit
 
-- Audit date: 2026-11-07 by Codex research agent (self-audit, not human-reviewed).
-- Consistency check: confirmed that calculated energies for $^{270}\text{Ds}$ ($1.39, 1.26, 1.07\text{ MeV}$), $^{254}\text{No}$ ($1.12, 1.48\text{ MeV}$), and $^{256}\text{Fm}$ ($1.01\text{ MeV}$) match PDF text and Figs. 1–3.
+- Audit dates: 2026-11-07 initial agent record; 2026-11-08 parent primary-text correction, not human-reviewed.
+- Consistency check: confirmed that calculated energies for $^{270}\text{Ds}$ ($1.39, 1.26, 1.07\text{ MeV}$), $^{254}\text{No}$ ($1.12, 1.48\text{ MeV}$), and $^{256}\text{Fm}$ ($1.1\text{ MeV}$) are model values discussed in the PDF; the 1.01MeV value belongs to 250Fm, not 256Fm.
 - Distinction confirmed: theoretical model calculation based on Woods-Saxon PES, not experimental synthesis.
 
 ## Extracted Pages

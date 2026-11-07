@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "task_id": "R3-G52",
+    "title": "β缓发粒子发射物理基础、探测谱学与结构解释能力研究",
+    "run_date": "2026-11-08",
+    "execution_type": "L3-doctoral-foundations-beta-delayed-particles",
+    "auditor": "Codex L3 Autonomous Agent",
+    "target_report": "outputs/l3/20261108-doctoral-foundations-r3/G52/report.md",
+    "target_evidence": "outputs/l3/20261108-doctoral-foundations-r3/G52/evidence.json",
+    "scientific_state": "provisional with exact experimental conditions and evidence boundaries"
+  },
+  "primary_sources": {
+    "iaea_crp_dimitriou_2021": {
+      "title": "Development of a Reference Database for Beta-Delayed Neutron Emission",
+      "authors": [
+        "P. Dimitriou",
+        "I. Dillmann",
+        "B. Singh",
+        "V. Piksaikin",
+        "K. P. Rykaczewski",
+        "J. L. Tain",
+        "S. Nishimura",
+        "et al."
+      ],
+      "journal": "Nuclear Data Sheets",
+      "year": 2021,
+      "volume": 173,
+      "pages": "144-238",
+      "doi": "10.1016/j.nds.2021.04.006",
+      "arxiv": "2102.01165",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-g52-beta-delayed-particles/dimitriou-2021-iaea-beta-delayed-neutron-database.pdf",
+      "raw_sha256": "ca0b475131704e33f6732163ef996467e630fbea88898dba73cc9f66e7f5684f",
+      "total_pdf_pages": 96,
+      "key_locators": {
+        "sec_II_A_experimental_methods": "PDF pp. 4-9, Section II.A, Eqs. (1)-(8)",
+        "sec_II_B_C_spectroscopy": "PDF pp. 9-13, Section II.B-C, 3He, recoil, TOF, TAGS",
+        "sec_III_standards_systematics": "PDF pp. 14-20, Section III.C-D, Table I, Eqs. (9)-(12)",
+        "sec_IV_theory_sn132": "PDF pp. 20-38, Section IV.A-E, Figs. 13-14, 20, 23"
+      }
+    },
+    "riken_eurica_taprogge_2014": {
+      "title": "1p3/2 Proton-Hole State in 132Sn and the Shell Structure Along N = 82",
+      "authors": [
+        "J. Taprogge",
+        "A. Jungclaus",
+        "H. Grawe",
+        "S. Nishimura",
+        "P. Doornenbal",
+        "G. Lorusso",
+        "et al."
+      ],
+      "journal": "Physical Review Letters",
+      "year": 2014,
+      "volume": 112,
+      "pages": "132501",
+      "doi": "10.1103/PhysRevLett.112.132501",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear_astrophysics/2014_Taprogge et al_1 p 3  2 Proton-Hole State in Sn 132 and the Shell Structure Along N = 82.pdf",
+      "raw_sha256": "2be3b18534d83c40ae31d53eceaca0c65b6437a824f6f630e03fabdbbce42c86",
+      "total_pdf_pages": 6,
+      "key_locators": {
+        "experimental_setup": "PDF p. 3, col. 1, 238U beam at 345 MeV/u, BigRIPS separator, WAS3ABi Si stack, EURICA Ge array",
+        "decay_spectra": "PDF p. 3, col. 2, Fig. 2, 988 keV line in 132Cd (T1/2 = 97(10) ms) and 131Cd (T1/2 = 68(3) ms)",
+        "single_particle_energy": "PDF pp. 3-4, 1353 keV state in 131In depopulating to (1/2-) isomer at 365(8) keV"
+      }
+    }
+  },
+  "question_evidence_ledger": [
+    {
+      "q_id": 1,
+      "topic": "β feeding above Sn/Sp vs final Pn/Pp, gamma competition, normalization",
+      "source_locators": [
+        "Dimitriou 2021 PDF p. 17, Section III.D, Eq. (9)",
+        "Dimitriou 2021 PDF pp. 20, 35, Section IV.A, IV.E, Hauser-Feshbach competition vs sharp cut-off"
+      ],
+      "core_distinction": "β feeding populates states in an open quantum system where particle decay width Γ_n (or Γ_p) competes directly with electromagnetic cascade width Γ_γ. Near threshold (E ~ Sn, Sp), particle kinetic energy approaches zero, suppressing Γ_n by centrifugal barrier and Γ_p by Coulomb barrier, resulting in Γ_n/p << Γ_γ. Consequently, feeding above threshold does not guarantee particle emission.",
+      "discrete_formula": "P_n = \\sum_{E_i > S_n} b_i \\frac{\\Gamma_n(E_i)}{\\Gamma_n(E_i) + \\Gamma_\\gamma(E_i)}",
+      "continuous_integral_formula": "P_n = \\frac{1}{\\lambda_{\\text{tot}}} \\int_{S_n}^{Q_\\beta} S_\\beta(E) f(Z', Q_\\beta - E) \\frac{\\Gamma_n(E)}{\\Gamma_n(E) + \\Gamma_\\gamma(E)} dE",
+      "normalization_definition": "\\lambda_{\\text{tot}} = \\frac{\\ln 2}{T_{1/2}} = \\int_0^{Q_\\beta} S_\\beta(E) f(Z', Q_\\beta - E) dE"
+    },
+    {
+      "q_id": 2,
+      "topic": "Single vs multi-neutron emission, Pn vs average neutron number, thresholds and cascade",
+      "source_locators": [
+        "Dimitriou 2021 PDF p. 4, Section II.A, Eq. (1)",
+        "Dimitriou 2021 PDF p. 7, Section II.A.1, multi-neutron counting",
+        "Dimitriou 2021 PDF p. 18, Section III.D.4, sequential emission"
+      ],
+      "definitions": {
+        "P_0n": "Probability of zero neutrons emitted (decay de-exciting purely by γ-rays to bound daughter states)",
+        "P_1n": "Probability of exactly 1 neutron emitted (yielding residual A-1)",
+        "P_2n": "Probability of exactly 2 neutrons emitted (yielding residual A-2)",
+        "total_Pn": "P_n = \\sum_{x \\ge 1} P_{xn} = 1 - P_{0n} = P_{1n} + P_{2n} + P_{3n} + \\dots",
+        "average_neutron_multiplicity": "\\bar{\\nu}_d = \\langle n \\rangle = \\sum_{x \\ge 1} x P_{xn} = P_{1n} + 2 P_{2n} + 3 P_{3n} + \\dots"
+      },
+      "distinction_hazard": "Counting only total neutrons per beta decay without multiplicity unfolding measures \\bar{\\nu}_d, not Pn. For exotic neutron-rich nuclei with sizable P2n (e.g., 11Li, 86Ga), \\bar{\\nu}_d > Pn; equating them distorts r-process network yields.",
+      "channel_thresholds_cascade": "Threshold for 1n is S_1n; threshold for 2n is S_2n = S_1n(A) + S_1n(A-1). Emission proceeds via sequential two-step cascade: intermediate state at Ex > S_2n emits first neutron leaving (A-1) at E'x; if E'x > S_1n(A-1) and Γ_n^(2) >> Γ_γ^(2), a second neutron is emitted. Direct dineutron emission is negligible in medium-heavy nuclei."
+    },
+    {
+      "q_id": 3,
+      "topic": "Q-value/mass uncertainties, Jπ selection rules, particle l, Coulomb barrier",
+      "source_locators": [
+        "Dimitriou 2021 PDF p. 17, Section III.D, Qβn window",
+        "Taprogge 2014 PDF p. 3, col. 2, selection rules to ground vs isomeric state"
+      ],
+      "mass_uncertainty_impact": "Energy window Qβn = Qβ - Sn = ΔM(Z,A) - ΔM(Z+1,A-1) - M_n. Because Fermi integral scales as (Qβ - E)^5, a 200-500 keV mass error near the window top alters calculated Pn by factors of 2-10, and can misclassify whether a nucleus is a delayed particle emitter.",
+      "angular_momentum_parity": "\\vec{J}_i = \\vec{J}_f + \\vec{l} + \\vec{s}, \\pi_i = \\pi_f (-1)^l. Parity strictly locks l to even or odd.",
+      "centrifugal_barrier": "V_cf = \\hbar^2 l(l+1)/(2\\mu r^2). Transmission T_l(ε_n) ~ ε_n^(l + 1/2). For high ΔJ (e.g. Ji = 11/2- to Jf = 0+ requiring l=5), neutron emission to ground state is heavily suppressed, forcing decay to excited states or γ competition.",
+      "coulomb_barrier": "For delayed protons, V_c = Z' e^2 / R creates a multi-MeV barrier. Gamow penetrability P ~ exp(-2πη) suppresses low-energy proton emission by orders of magnitude, imposing an effective threshold hundreds of keV to MeV above Sp."
+    },
+    {
+      "q_id": 4,
+      "topic": "Allowed GT vs First-Forbidden feeding, finite Q window, seniority and K-isomers",
+      "source_locators": [
+        "Dimitriou 2021 PDF pp. 28-29, Section IV.C.2, Figs. 13-14 (Sn isotopes %FF = 60-75%)",
+        "Dunlop 2016 PRC 93, 062801(R), 129Cd isomer (11/2-) vs ground state (3/2+)",
+        "Taprogge 2014 PRL 112, 132501, 131In (1/2-) isomer vs (9/2+) ground state"
+      ],
+      "gt_vs_ff_competition": "Gamow-Teller (ΔJ=0,±1, Δπ=no) Giant Resonance frequently lies near or above Qβ. First-Forbidden (ΔJ=0,±1,±2, Δπ=yes) transitions bridge opposite-parity shells across major gaps (N=50, 82, 126). In 133-140Sn, FF transitions contribute 60-75% of total decay; ignoring FF causes a factor of 4-5 overestimation of half-lives.",
+      "isomer_structural_fingerprints": "Seniority isomers (e.g. 129Cd 11/2- vs 3/2+) have distinct configurations and decay via fast GT ν1h11/2 -> π1h9/2 to high-spin daughter states, whereas ground states populate low-spin states. In deformed nuclei, K-isomers suffer hindrance f_ν = (T1/2/T1/2^W)^(1/ν), blocking low-K feeding and redirecting decay to high-lying multi-quasiparticle states above Sn."
+    },
+    {
+      "q_id": 5,
+      "topic": "Neutron efficiency, beta trigger/dead time, decay chain background, unobserved gamma feeding",
+      "source_locators": [
+        "Dimitriou 2021 PDF pp. 5-7, Section II.A.1, Eqs. (2)-(3), energy-dependent efficiency",
+        "Dimitriou 2021 PDF p. 11, Section II.C.1, Pandemonium effect and TAGS vs HPGe",
+        "Dimitriou 2021 PDF pp. 6-7, moderation delay and triggerless DAQ"
+      ],
+      "efficiency_systematics": "Moderated 3He detectors drop in efficiency above 1-2 MeV. Assuming constant efficiency introduces severe systematic biases if the measured isotope spectrum differs from calibrators (87Br, 95Rb, 137I); Eq. (3) requires spectrum-weighted convolution <ε_n>.",
+      "timing_and_deadtime": "Neutron thermalization in polyethylene requires hundreds of microseconds. Triggered event systems suffer extreme dead time and pileup; modern measurements require triggerless digital DAQ with nanosecond timestamps.",
+      "decay_chain_correction": "Implanted precursor decays into radioactive daughters that may also be βn emitters. Accurate Pn extraction requires solving full Bateman equations with independently validated half-lives and isomer ratios.",
+      "pandemonium_bias": "HPGe detectors miss fragmented weak γ-ray cascades at high level densities above Sn, artificially underestimating high-energy feeding. Data points from discrete γ-spectroscopy are not model-independent intensities without TAGS validation."
+    },
+    {
+      "q_id": 6,
+      "topic": "Real nuclear case: 132,131Cd -> 131In, data to interpretation, counter-arguments, boundaries",
+      "source_locators": [
+        "Taprogge 2014 PRL 112, 132501, p. 132501-3, Fig. 2",
+        "Dunlop 2016 PRC 93, 062801(R), Table I, 128-130Cd half-lives",
+        "Dimitriou 2021 NDS 173, 144, Section IV.C.2, Table I"
+      ],
+      "experimental_facts": "RIKEN BigRIPS + WAS3ABi + EURICA observed a single 988 keV γ line in prompt coincidence with 132Cd (T1/2 = 97(10) ms) βn decay, and the same 988 keV line in 131Cd (T1/2 = 68(3) ms) direct β decay. 131In has known ground state (9/2+) and β-emitting isomer at 365(8) keV (1/2-).",
+      "author_interpretation": "988 keV γ assigned as de-exciting the 1353 keV second excited state in 131In to the 365 keV (1/2-) isomer. Based on systematics and Duflo-Zuker monopole model, the 1353 keV state was tentatively assigned Jπ = (3/2-), representing the π1p3/2 hole state relative to 132Sn. Authors extrapolated a complete loss of proton subshell closures at Z=38, 40 along N=82 and predicted a 2.5 MeV quenching of the N=82 neutron shell gap from Sn to Zr.",
+      "counter_arguments": [
+        "Spin-parity ambiguity: experimental data cannot exclude Jπ = (5/2-) (π0f5/2 hole) or three-quasiparticle core-excited states; assignment is model-dependent.",
+        "Over-extrapolation of shell quenching: subsequent isomer spectroscopy in 128Pd (Watanabe 2013) demonstrated robust N=82 magicity, contradicting uniform catastrophic quenching.",
+        "Missing particle branch data: Taprogge 2014 only measured prompt γ-rays; absolute P1n and neutron energy spectrum were not measured, leaving unobserved direct feeding to 131In ground or other states unquantified."
+      ],
+      "transfer_conditions": "Findings at spherical closed-shell edge (131In) cannot be transferred to deformed nuclei (A ~ 130 Xe, Ba, Ce) where quadrupole/triaxial deformation splits single-particle orbitals into Nilsson levels with strong Coriolis mixing."
+    }
+  ],
+  "validation_experiment_proposal": {
+    "target_reaction": "Beta-decay of 132Cd produced via in-flight fission of 238U",
+    "instrumentation": "BRIKEN 4π high-efficiency moderated 3He array combined with segmented HPGe clover detectors and fast plastic β-counters with triggerless digital DAQ",
+    "measurable_quantities": "Absolute P1n and P2n branching ratios, and β-n-γ triple coincidences",
+    "falsification_criterion": "If measured absolute P1n is significantly larger than absolute intensity of the 988 keV γ-ray (P1n >> Iγ(988)), it proves that β-delayed neutron emission predominantly feeds other states (such as the 9/2+ ground state or 1/2- isomer) directly without emitting the 988 keV photon, falsifying the assumption of exclusive selective feeding through the 1353 keV hole state."
+  }
+}

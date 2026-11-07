@@ -1,0 +1,165 @@
+{
+  "task": "R3-G48",
+  "title": "Wing 2 Weak Interaction Operator Explanatory Power and Grounded Evidence",
+  "generated_at": "2026-11-08T05:50:00Z",
+  "status": "completed",
+  "scope": "doctoral-foundations-phase-1",
+  "wing": "Wing 2 (Hot Topics: Weak Decays, Isomers, Shell Evolution)",
+  "governance": {
+    "knowledge_write_forbidden": true,
+    "git_commit_forbidden": true,
+    "credentials_exposure_forbidden": true,
+    "isolated_discrepancy_policy": "Retain without refitting or fabricating values",
+    "evidence_tier": "doctoral-foundations-primary-source"
+  },
+  "operator_classes": [
+    "Allowed Fermi (tau_pm)",
+    "Allowed Gamow-Teller (sigma * tau_pm)",
+    "First-Forbidden non-unique (Rank 0, Rank 1)",
+    "First-Forbidden unique (Rank 2)",
+    "Neutrinoless double-beta decay two-body operator (0vbb)"
+  ],
+  "primary_sources": [
+    {
+      "key": "suhonen-2007",
+      "canonical_title": "From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory",
+      "author": "Jouni Suhonen",
+      "year": 2007,
+      "publisher": "Springer-Verlag Berlin Heidelberg",
+      "isbn": "978-3-540-48859-0",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "locators": [
+        "Chapter 17, Section 17.4.3, pp. 541-544 (Eqs. 17.62-17.74: Ikeda sum rule derivation)",
+        "Chapter 17, Section 17.4.3, pp. 544-548 (Eqs. 17.75-17.88, Table 17.7: pnQTDA sum rule tests)",
+        "Chapter 19, Section 19.6, pp. 621-624 (Eqs. 19.74-19.79, Table 19.2: pnQRPA closure and sum rule)",
+        "Chapter 7, Section 7.4, pp. 225-235 (Eqs. 7.50-7.55: Fermi phase space integral f and log ft)"
+      ]
+    },
+    {
+      "key": "vaquero-2013",
+      "canonical_title": "Shape and pairing fluctuations effects on neutrinoless double beta decay nuclear matrix elements",
+      "authors": ["Nuria López Vaquero", "Tomás R. Rodríguez", "J. Luis Egido"],
+      "year": 2013,
+      "journal": "Phys. Rev. Lett. 111, 142501",
+      "doi": "10.1103/PhysRevLett.111.142501",
+      "arxiv": "arXiv:1401.0650",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G35/vaquero-2013-prl111-142501-shape-pairing.pdf",
+      "sha256": "9069f66dd9ca177b816a606475e0907ae4b9c6735c8906850b0574c493a657fb",
+      "locators": [
+        "p. 2, Eqs. (1)-(3): HWG equation, GCM states, and constraint on particle-number fluctuation delta",
+        "p. 2, Fig. 1: 2D potential energy surfaces and collective wave functions in (beta2, delta) plane",
+        "p. 3, Eqs. (4)-(5), Fig. 2: Transition kernel for GT and Fermi parts across quadrupole and pairing grids",
+        "p. 4, Table I: Systematics across 0vbb emitters, demonstrating 10%-40% enhancement from pairing fluctuations"
+      ]
+    },
+    {
+      "key": "zhi-2013",
+      "canonical_title": "Shell-model half-lives for r-process waiting point nuclei including first-forbidden contributions",
+      "authors": ["Q. Zhi", "E. Caurier", "J. J. Cuenca-García", "K. Langanke", "G. Martínez-Pinedo", "K. Sieja"],
+      "year": 2013,
+      "journal": "Phys. Rev. C 87, 025803",
+      "doi": "10.1103/PhysRevC.87.025803",
+      "arxiv": "arXiv:1301.5225",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G34/Zhi_2013_PRC_87_025803_SM_halflives_first_forbidden.pdf",
+      "sha256": "eaedbd4539854e3d1f0e7860ef7ab9c647d4fa44cd8144b4989ba220ec639333",
+      "locators": [
+        "pp. 2-3, Eqs. (1)-(15): Shape factor C(W) = k + ka*W + kb/W + kc*W^2 and Rank 0, 1, 2 matrix elements",
+        "p. 3, Eqs. (11)-(13): CVC condition linking vector current to static dipole: xi'_y = E_gamma * x",
+        "p. 4, Eq. (16): Least-squares fitted operator amplitude factors q(xi'_v)=1.266, q(w)=0.66, q(x)=0.51, q(u)=0.38, q(z)=0.42",
+        "p. 5, Table I: 20 experimental lines and isolated theoretical print inconsistencies in 205Hg"
+      ]
+    },
+    {
+      "key": "engel-menendez-2017",
+      "canonical_title": "Status and future of nuclear matrix elements for neutrinoless double-beta decay",
+      "authors": ["Jonathan Engel", "Javier Menéndez"],
+      "year": 2017,
+      "journal": "Rep. Prog. Phys. 80, 046301",
+      "doi": "10.1088/1361-6633/aa5bc5",
+      "arxiv": "arXiv:1610.06548",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-g48-weak-operators/engel-menendez-2017-rpp-0nubb-nme.pdf",
+      "sha256": "813111c10bab58d8d0f19ca91833383a8a521a33c0434b276eacd4fead195417",
+      "locators": [
+        "p. 4, Section 2.1, Eqs. (6)-(8): Closure approximation validity under momentum transfer ~ 100 MeV",
+        "p. 17, Fig. 11: Normalized momentum transfer distribution of 136Xe peaking at 100-200 MeV/c",
+        "pp. 17-19, Section 5: Two-body meson exchange currents, short-range correlations, and reduced quenching at high q"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic_id": "T01-ikeda-sum-rule",
+      "question": "Derivation of Ikeda sum rule S_- - S_+ = 3(N-Z) from closure and [sigma, tau] commutators",
+      "pedagogical_analogy": "Bookkeeping of nucleon spin-isospin availability. Pauli blocking suppresses beta+ in neutron-rich nuclei while beta- exhausts full phase space.",
+      "algebraic_expression": "S_- - S_+ = sum_mu (-1)^mu <0_i^+ | [beta_GT^+(-mu), beta_GT^-(mu)] | 0_i^+> = 6 <T_3> = 3(N - Z)",
+      "operator_conventions": "tau_- |n> = |p>, tau_+ |p> = |n>, t3|n> = +1/2, t3|p> = -1/2 in standard nuclear convention. S_mp are dimensionless operator sums without gA^2. Physical rate sum involves (gA/gV)^2 * 3(N-Z).",
+      "key_finding": "Model-independent algebraic identity verified by closure and Clebsch-Gordan orthogonality. Retains validity across pnQTDA and pnQRPA as long as spin-orbit partner orbits are complete.",
+      "locator": "Suhonen 2007 pp. 541-544 Eqs. 17.62-17.74; pp. 621-624 Eqs. 19.74-19.79",
+      "counter_evidence": "Apparent missing GT strength in beta decay reflects Q-window cutoff and strength migration rather than sum rule violation.",
+      "methodological_boundary": "Exact for full nucleonic space; does not constrain spectral shape or non-nucleonic isobar degrees of freedom."
+    },
+    {
+      "topic_id": "T02-sum-rule-vs-q-window",
+      "question": "Difference between total sum rule and finite Q-window / single-branch half-life",
+      "pedagogical_analogy": "Total reservoir capacity vs narrow faucet opening. A large reservoir has little discharge if the valve is positioned above water level.",
+      "algebraic_expression": "lambda_if = ln(2)/t_if proportional to f(Z, W0) * B_if; W0 = 1 + (Q_beta - Ex)/(m_e c^2)",
+      "physical_mechanism": "Repulsive particle-hole interaction in spin-isospin channel pushes coherent Gamow-Teller Giant Resonance to 10-20 MeV, outside the narrow Q-value window (< 4 MeV) of beta decay.",
+      "experimental_probes": "Charge-exchange reactions (p,n), (3He,t), (d,2He) at 100-400 MeV/u and forward angles theta ~ 0 deg.",
+      "key_finding": "Single-branch beta decay only probes the fragmented tail (< 1% of total strength). Full sum rule requires (p,n) charge-exchange reactions where (d_sigma/d_Omega)_0deg proportional to B(GT).",
+      "locator": "Suhonen 2007 pp. 225-235; Zhi 2013 Table III; Gaarde 1983",
+      "counter_evidence": "208Pb is stable against beta decay (rate = 0), yet exhibits a massive GTGR at 19.2 MeV with strength approaching 3(N-Z) under (p,n) bombardment.",
+      "methodological_boundary": "Beta-decay lifetimes are sensitive only to states within the Q-value window, not to high-lying collective resonances."
+    },
+    {
+      "topic_id": "T03-effective-operators-and-boundaries",
+      "question": "Explanatory boundaries of effective operators, finite model space, two-body currents, and strength migration",
+      "pedagogical_analogy": "Accounting shortfall due to truncated ledger lines rather than missing currency. Strength is shifted to higher ledger lines.",
+      "physical_mechanism": "Phenomenological quenching is a composite surrogate for omitted 2p-2h tensor configurations (50-100 MeV), Delta-hole states (300 MeV), and chiral two-body currents (MEC).",
+      "key_finding": "Ikeda sum rule preserves total operator trace; strength is migrated to high excitation energies rather than destroyed. Effective coupling gA_eff is model-space and momentum dependent, precluding a universal constant.",
+      "locator": "Engel & Menendez 2017 pp. 17-19; Gysbers et al. 2019 Nat. Phys. 15, 428",
+      "counter_evidence": "Ab initio calculations with two-body currents in extended spaces reproduce experimental beta decay rates without empirical gA quenching.",
+      "methodological_boundary": "Model-space truncation factor cannot be transferred between shell model (0h-bar-omega) and ab initio frameworks."
+    },
+    {
+      "topic_id": "T04-first-forbidden-shape-factor",
+      "question": "First-forbidden multi-rank shape factor C(W) and why it cannot be scaled by a uniform gA^2",
+      "pedagogical_analogy": "Multi-instrument orchestra playing in anti-phase. Scaling the brass section does not scale the Woodwinds or preserve harmonic cancellation.",
+      "algebraic_expression": "C(W) = k + ka*W + kb/W + kc*W^2; kb = (2/3)*mu1*gamma1 * { -[zeta0*w]^(0) + [zeta1*(x+u)]^(1) }",
+      "key_finding": "FF decay couples Rank 0, 1, and 2 operators. Vector current is protected by CVC (xi'_y = E_gamma * x, gV = 1), axial charge xi'_v is enhanced (q = 1.266 > 1) by MEC, while spatial axial operators are quenched (0.38-0.66). Uniform gA^2 scaling distorts cross-term interference and spectral shape.",
+      "isolated_discrepancies": "205Hg -> 205Tl theoretical print mismatches in Zhi 2013 Table I (18.9 fm yields 6.41 but printed as 7.26; 10.3 fm yields 6.94 but printed as 6.32) isolated without refitting.",
+      "locator": "Zhi 2013 pp. 2-5 Eqs. 1-16, Table I; Warburton 1991; T04 audit",
+      "counter_evidence": "Only unique first-forbidden (Rank 2) admits single-operator scaling; non-unique channels fail catastrophically under scalar gA^2 multiplication.",
+      "methodological_boundary": "Non-unique FF spectral shapes depend critically on relative phases and interference between vector and axial matrix elements."
+    },
+    {
+      "topic_id": "T05-0nubb-closure-and-momentum-transfer",
+      "question": "0vbb vs single beta: closure approximation, high momentum transfer, and non-extrapolability of GT quench",
+      "pedagogical_analogy": "Internal sub-femtometer photon-like exchange between adjacent nucleons vs macroscopic emission of a free real particle.",
+      "algebraic_expression": "q ~ hbar / r_12 ~ 100-200 MeV/c >> |En - E_bar| ~ 10 MeV; H(r) = (2 R / pi r) int dq [j0(qr) q / (q + E_bar - E0)]",
+      "key_finding": "Virtual neutrino exchange occurs at short distances, validating closure approximation and generating neutrino potential H(r). Virtual intermediate states span all multipoles J^pi up to 5-6, and chiral two-body currents soften quenching to only ~20-30%, invalidating naive (gA_eff/gA)^4 suppression.",
+      "locator": "Engel & Menendez 2017 pp. 4, 17-19, Eqs. 6-8, Fig. 11",
+      "counter_evidence": "2vbb operates at q ~ 0 and is dominated by 1+ intermediate states, whereas 0vbb probes dense nuclear matter where short-range correlations dominate.",
+      "methodological_boundary": "Closure approximation breaks down in 2vbb but remains robust within 10% in 0vbb due to large energy denominator."
+    },
+    {
+      "topic_id": "T06-vaquero-pairing-fluctuation-coordinate",
+      "question": "Vaquero pairing coordinate delta as particle-number fluctuation, not BCS gap, and wave function restructuring",
+      "pedagogical_analogy": "Constraining quantum dispersion in particle number to sweep over superfluid Hilbert space rather than tuning an empirical gap parameter.",
+      "algebraic_expression": "delta = <phi | (Delta A_hat)^2 | phi>^(1/2) in PN-VAP constraint; M^0v = sum_{beta, delta} g_i * g_f * Kernel",
+      "key_finding": "delta measures particle-number standard deviation, avoiding BCS pairing gap collapse. NME is an off-diagonal transition matrix element connecting two distinct nuclei (not a directly measurable single-nucleus observable). Dynamic pairing fluctuations allow collective wave functions to sample broader superfluid configurations, increasing open-shell NMEs by 10%-40%.",
+      "locator": "Vaquero et al. 2013 PRL 111, 142501 pp. 2-4, Eqs. 2-5, Figs. 1-2, Table I",
+      "counter_evidence": "Doubly magic 48Ca decreases by -6% because its stiff ground state is constrained to weak pairing, proving nuclear structure selectivity.",
+      "methodological_boundary": "NME is not an experimentally measurable single-nucleus observable; pairing fluctuations modify wave function overlaps."
+    }
+  ],
+  "missing_phase1_foundation": {
+    "item": "Chiral EFT leading-order short-range two-nucleon contact counterterm g_nu^NN",
+    "rationale": "High-momentum transfer 0vbb exchange is UV-divergent at short distances without a contact operator C(r) to preserve renormalization group invariance. This counterterm cannot be constrained by low-energy single beta decay and remains the primary open theoretical operator foundation in Phase 1.",
+    "impact_on_nme": "Alters overall 0vbb nuclear matrix elements by 30% to 50% depending on regularisation scheme and cut-off scale.",
+    "references": [
+      "Cirigliano et al. 2018 PRL 120, 202001",
+      "Cirigliano et al. 2019 PRC 100, 055504"
+    ]
+  }
+}

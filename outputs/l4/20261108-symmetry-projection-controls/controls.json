@@ -1,0 +1,152 @@
+{
+  "antiunitary": [
+    {
+      "I": 0.5,
+      "T_squared": -1,
+      "C_squared": 1,
+      "T_error": 0.0,
+      "C_error": 0.0
+    },
+    {
+      "I": 1,
+      "T_squared": 1,
+      "C_squared": 1,
+      "T_error": 1.014906648254293e-15,
+      "C_error": 2.029813296508586e-15
+    },
+    {
+      "I": 1.5,
+      "T_squared": -1,
+      "C_squared": 1,
+      "T_error": 7.550656678610034e-16,
+      "C_error": 1.510131335722007e-15
+    },
+    {
+      "I": 2,
+      "T_squared": 1,
+      "C_squared": 1,
+      "T_error": 3.6607903736531525e-15,
+      "C_error": 7.321580747306307e-15
+    }
+  ],
+  "D2_multiplicities": [
+    {
+      "I": 0,
+      "fixed_M_K_channels": 1,
+      "trace": 1.0
+    },
+    {
+      "I": 1,
+      "fixed_M_K_channels": 0,
+      "trace": 5.551115123125783e-17
+    },
+    {
+      "I": 2,
+      "fixed_M_K_channels": 2,
+      "trace": 2.0
+    },
+    {
+      "I": 3,
+      "fixed_M_K_channels": 1,
+      "trace": 1.0000000000000002
+    },
+    {
+      "I": 4,
+      "fixed_M_K_channels": 3,
+      "trace": 3.0
+    },
+    {
+      "I": 5,
+      "fixed_M_K_channels": 2,
+      "trace": 2.0
+    },
+    {
+      "I": 6,
+      "fixed_M_K_channels": 4,
+      "trace": 4.000000000000001
+    }
+  ],
+  "half_integer_nonprojector_residual": 0.6123724356957945,
+  "parity_cases": [
+    {
+      "S": 0,
+      "E_plus": 11.0,
+      "E_minus": 9.0
+    },
+    {
+      "S": 0.2,
+      "E_plus": 9.166666666666668,
+      "E_minus": 11.25
+    },
+    {
+      "S": 0.7,
+      "E_plus": 6.470588235294118,
+      "E_minus": 29.999999999999996
+    }
+  ],
+  "cubic_octupole_P1_coefficient": "36/385",
+  "cubic_octupole_integral": "3 sqrt(21)/(55 pi)",
+  "three_j_squared": [
+    "3/35",
+    "4/63"
+  ],
+  "rigid_I4_matrix": [
+    [
+      30.0,
+      -6.708203932499369,
+      0.0
+    ],
+    [
+      -6.708203932499369,
+      40.0,
+      -2.6457513110645907
+    ],
+    [
+      0.0,
+      -2.6457513110645907,
+      70.0
+    ]
+  ],
+  "rigid_I4_energies": [
+    26.600697444626515,
+    43.15893516965035,
+    70.24036738572312
+  ],
+  "rigid_I4_gaps": [
+    16.558237725023833,
+    27.08143221607277
+  ],
+  "rational_roots": [
+    0.2679491924311228,
+    3.732050807568877
+  ],
+  "second_observable": [
+    0.06698729810778073,
+    0.9330127018922193
+  ],
+  "checks": {
+    "T_and_C_squared_I_0.5": true,
+    "T_and_C_squared_I_1": true,
+    "T_and_C_squared_I_1.5": true,
+    "T_and_C_squared_I_2": true,
+    "integer_D2_projector_I_0": true,
+    "integer_D2_projector_I_1": true,
+    "integer_D2_projector_I_2": true,
+    "integer_D2_projector_I_3": true,
+    "integer_D2_projector_I_4": true,
+    "integer_D2_projector_I_5": true,
+    "integer_D2_projector_I_6": true,
+    "integer_D2_average_is_not_spinor_projector": true,
+    "nonorthogonal_parity_S_0": true,
+    "nonorthogonal_parity_S_0.2": true,
+    "nonorthogonal_parity_S_0.7": true,
+    "nonzero_offdiagonal_does_not_force_parity_splitting": true,
+    "cubic_octupole_has_allowed_rank_one": true,
+    "delta_l_three_not_a_universal_three_j_maximum": true,
+    "rigid_rotor_matrix_from_full_J_operators": true,
+    "fixed_inertia_need_not_be_exactly_harmonic": true,
+    "two_roots_one_observable_second_can_distinguish": true,
+    "quadratic_can_have_no_real_root": true
+  },
+  "boundary": "Algebra controls in declared model spaces; no nuclear fit, coefficient or discovery"
+}
