@@ -149,29 +149,36 @@
 \end{enumerate}
 
 \begin{figure}[htbp]
-    \centering
-    \begin{tikzpicture}[scale=0.9]
-        % BGO 外壳
-        \draw[fill=yellow!20, draw=black, thick] (-3,-2) rectangle (3,2);
-        \node[above] at (0,1.4) {BGO 反康普顿屏蔽探测器 (高 $Z$)};
-
-        % HPGe 内部晶体
-        \draw[fill=blue!15, draw=black, thick] (-1.8,-1.2) rectangle (1.8,1.2);
-        \node at (0,0) {HPGe 晶体};
-
-        % 入射光子与散射光子
-        \draw[-{Latex[length=3mm]}, line width=1.5pt, red] (-4,0.5) -- (-0.5,0.5) node[midway, above] {入射 $\gamma$};
-        \filldraw[red] (-0.5,0.5) circle (2pt) node[below] {散射点};
-        \draw[-{Latex[length=2.5mm]}, line width=1.2pt, orange, dashed] (-0.5,0.5) -- (2.2,1.6) node[midway, sloped, above] {逃逸散射光子};
-        \filldraw[orange] (2.2,1.6) circle (2.5pt) node[right] {在 BGO 中被吸收};
-
-        % 逻辑框
-        \node[flow/proc, right=of BGO, xshift=3.5cm] (veto) {符合反选逻辑\\ $\text{HPGe} \cap \overline{\text{BGO}}$};
-        \draw[flow/arrow] (2.5,0) -- ++(1.5,0) node[above, font=\footnotesize] {HPGe 脉冲} -- (veto);
-        \draw[flow/arrow] (2.5,1.6) -| (veto);
-    \end{tikzpicture}
-    \caption{HPGe 探测器与环状 BGO 屏蔽探测器的反康普顿符合抑制物理原理}
-    \label{fig:bgo_suppression}
+	\centering
+	\begin{tikzpicture}[scale=0.9]
+		% 1. BGO 外壳
+		\draw[fill=yellow!20, draw=black, thick] (-3,-2) rectangle (3,2);
+		\node[above] at (0,1.4) {BGO 反康普顿屏蔽探测器 (高 \(Z\))};
+		
+		% 【修改点 1】：在 BGO 中心放一个隐形节点，起名为 bgoNode
+		\coordinate (bgoNode) at (0,0); 
+		
+		% HPGe 内部晶体
+		\draw[fill=blue!15, draw=black, thick] (-1.8,-1.2) rectangle (1.8,1.2);
+		\node at (0,0) {HPGe 晶体};
+		
+		% 入射光子与散射光子
+		\draw[-{Latex[length=3mm]}, line width=1.5pt, red] (-4,0.5) -- (-0.5,0.5) node[midway, above] {入射 \(\gamma\)};
+		\filldraw[red] (-0.5,0.5) circle (2pt) node[below] {散射点};
+		\draw[-{Latex[length=2.5mm]}, line width=1.2pt, orange, dashed] (-0.5,0.5) -- (2.2,1.6) node[midway, sloped, above] {逃逸散射光子};
+		\filldraw[orange] (2.2,1.6) circle (2.5pt) node[right] {在 BGO 中被吸收};
+		
+		% 逻辑框
+		% 【修改点 2】：把 right=of BGO 改成 right=of bgoNode，并调整 xshift
+		\node[flow/proc, right=of bgoNode, xshift=4.5cm] (veto) {符合反选逻辑\\ \(\text{HPGe} \cap \overline{\text{BGO}}\)};
+		
+		% 箭头连线
+		% 【修改点 3】：优化了箭头的连接路径，避免奇怪的折线
+		\draw[flow/arrow] (2.5,0) -- ++(1cm,0) node[above, font=\footnotesize] {HPGe 脉冲} -- (veto.west);
+		\draw[flow/arrow] (2.5,1.6) -| (veto.north); % 改成连到逻辑框的上方
+	\end{tikzpicture}
+	\caption{HPGe 探测器与环状 BGO 屏蔽探测器的反康普顿符合抑制物理原理}
+	\label{fig:bgo_suppression}
 \end{figure}
 
 反康普顿技术的引入，使探测器的\term{峰总比}（Peak-to-Total Ratio, $P/T$——全能峰计数占总谱计数的百分比）从裸锗的仅约 $15\%\sim 20\%$ 跃升至 $55\%\sim 60\%$。这在双重（$\gamma$-$\gamma$）符合谱中将两体本底压低了整整一个数量级，在三重（$\gamma$-$\gamma$-$\gamma$）符合中本底压低近百倍！
