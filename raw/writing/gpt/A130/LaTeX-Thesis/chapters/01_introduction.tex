@@ -1,0 +1,203 @@
+% 第 1 章 绪论
+
+\chapter{绪论}
+\label{ch:introduction}
+
+\section{原子核物理图像与微观对称性自发破缺}
+\label{sec:nuclear_physics_picture}
+
+原子核是由有限数目质子与中子通过强相互作用凝聚而成的强关联费米子多体量子系统。与宏观天体或固态晶体不同，原子核既没有固定的外部约束边界，也没有空间上定域的点状力心；其内部核子在自身平均场中运动，同时受到短程两体残余相互作用的深刻调控。
+
+在经典壳模型理论中，若仅考虑球对称的平均场势阱（如 Woods-Saxon 势加上自旋-轨道耦合），单粒子能级在特定的“幻数”（如 2, 8, 20, 28, 50, 82, 126）处形成巨大的能隙。当质子数与中子数刚好处于双闭壳时，原子核基态呈现高度稳定的球形对称（如 $^{208}\text{Pb}$ 或 $^{100}\text{Sn}$）。此时，体系的低能激发主要表现为单核子的跨壳跃迁或球形表面的微小多极振动（Vibration）。
+
+然而，一旦质子或中子远离闭壳，进入满壳之间的广大价核子过渡区，两体相互作用中长程四极相互作用（Quadrupole Interaction）的相干叠加迅速增强，并最终压倒偏好球对称的单极配对力（Pairing Force）。平均场为了降低体系总能量，自发破坏了三维空间转动不变性 $SO(3)$，使原子核在内禀坐标系下发生宏观形变（Deformation）。根据量子力学中 Goldstone 定理的微观表述，内禀空间连续对称性的自发破缺，必然在实验室坐标系下激发出能量极低的整齐转动带（Rotational Bands）。正是这种集体运动（Collective Motion）与单粒子自由度（Single-Particle Degrees of Freedom）之间的动态竞争，构成了低能核结构丰富动力学谱学的最核心物理画卷。
+
+在微观多体哈密顿量层面，核力可有效分解为球形自洽平均场单体项、单极配对力项以及多极相互作用项：
+\begin{equation}
+    H = H_0 + V_{\text{pair}} + V_{QQ}
+    \label{eq:schematic_hamiltonian}
+\end{equation}
+其中四极-四极相互作用 $V_{QQ} = -\frac{1}{2} \chi \sum_{\mu} Q_{2\mu}^\dagger Q_{2\mu}$ 诱导核子空间波函数发生各向异性极化，促使核形状在能量上偏好非球形椭球。如果价核子数较少，配对力占优，原子核呈现球形谐振子振动态；当价核子数充足时，四极相干关联压倒配对能，势能面极小点自发漂移至有限变形量处，原子核转变为稳定的形变转子。
+
+\section{原子核三轴非轴对称形变核心动力学}
+\label{sec:triaxial_core_dynamics}
+
+\subsection{三轴椭球的几何描述与刚软性本质}
+
+长期以来，教材和传统文献多将形变核简化为围绕单一轴旋转的轴对称椭球（长椭球 Prolate，形似橄榄球；或扁椭球 Oblate，形似铁饼）。但自然界中最普适的二次空间曲面是由三个不等长主轴决定的\term{三轴椭球}（Triaxial Ellipsoid）。Bohr 与 Mottelson 引入了两个内禀形变参量 $(\beta, \gamma)$，将核表面的径向展开参数化为：
+\begin{equation}
+    R(\theta, \phi) = R_0 \left[ 1 + \beta \cos\gamma \, Y_{20}(\theta, \phi) + \frac{1}{\sqrt{2}} \beta \sin\gamma \left( Y_{22}(\theta, \phi) + Y_{2,-2}(\theta, \phi) \right) \right]
+    \label{eq:bohr_surface}
+\end{equation}
+其中 $\beta$ 描述偏离球面的总形变幅度，而参数 $\gamma$（通常定义在 $0^\circ \le \gamma \le 60^\circ$）描述三轴不对称度：
+\begin{itemize}
+    \item $\gamma = 0^\circ$：严格的轴对称长椭球（Prolate），绕垂直于长轴旋转；
+    \item $\gamma = 60^\circ$：严格的轴对称扁椭球（Oblate）；
+    \item $\gamma = 30^\circ$：偏离轴对称最强烈的极大三轴形变（Triaxial）。
+\end{itemize}
+
+在理解三轴性时，初学者最容易产生的一个关键困惑是：究竟什么是\term{刚性三轴}（$\gamma$-Rigid），什么是\term{软核}（$\gamma$-Soft）？
+\begin{itemize}
+    \item \textbf{Davydov-Filippov 刚性转子模型}：假定原子核势能面在某个确定的 $\gamma_0$ 处具有深而陡峭的能量极小，核形状严格刚性，只允许空间取向做刚体转动。
+    \item \textbf{Wilets-Jean 伽马不稳定模型}：假定原子核势能对 $\gamma$ 的变化完全平坦不敏感，$\gamma$ 只是一个动力学涨落自由度，原子核在零点能量驱动下在全空间做大幅度动态呼吸振动。
+\end{itemize}
+尽管两类模型在低位能谱的质心比值（如 $E(2_2^+)/E(2_1^+)$）上十分接近，但它们在更高激发态的微观矩阵元上有着截然不同的物理断言。例如，刚性三轴核严格服从三态能量求和守恒恒等式 $E(2_1^+) + E(2_2^+) = E(3_1^+)$，而软核则严格禁戒 $B(E2; 2_2^+ \to 0_1^+)$ 衰变。明确区分三轴刚性与三轴软性，是当前核结构谱学研究的首要任务。
+
+在流体力学无旋流模型（Irrotational Flow Model）中，三轴椭球沿三个内禀主轴的集体转动惯量由形变参数 $(\beta, \gamma)$ 明确给出：
+\begin{equation}
+    \mathcal{J}_k = 4 B \beta^2 \sin^2\left(\gamma - \frac{2\pi}{3} k\right), \quad k = 1, 2, 3
+    \label{eq:irrotational_moi}
+\end{equation}
+当 $\gamma$ 处于第一六分仪（$0^\circ < \gamma < 60^\circ$）时，中间轴（$k=2$ 轴）的转动惯量在数学上严格大于短轴与长轴的转动惯量（$\mathcal{J}_2 > \mathcal{J}_1, \mathcal{J}_3$）。这一流体力学转动惯量主轴序，直接构成了后文讨论原子核摆动运动与手征转动动力学的微观物理基石。
+
+\subsection{摆动运动（Wobbling Mode）的物理图像与鉴别}
+
+在经典力学中，任何一个具有三个不同主转动惯量（$\mathcal{J}_x \ne \mathcal{J}_y \ne \mathcal{J}_z$）的不对称刚体陀螺，其最低能量的稳定转动必然发生在具有最大转动惯量的主轴上。若对其施加微小扰动，转动角速度矢量将围绕该主轴进动，形成著名的“庞索（Poinsot）进动”。
+
+将这一图像拓展到微观量子核体系，Bohr 与 Mottelson 预言了\term{原子核摆动运动}（Wobbling Motion）：
+\begin{equation}
+    \mathcal{J}_m > \mathcal{J}_s, \mathcal{J}_l
+\end{equation}
+当转动核芯绕中间惯量轴 $m$ 高速旋转时，总角动量偏离主轴诱发一系列谐振子声子激发序列（$n_w = 0, 1, 2, \dots$）。该声子带通过极具特征的集体跨带 $\Delta I = 1$ $E2$ 跃迁向 $n_w=0$ 基带退激，并展现出比单粒子内转换强数十倍的约化跃迁几率 $B(E2)_{\text{out}}$。
+
+在实际研究中，以 $^{135}\text{Pr}$ 为代表的奇 $A$ 核曾引发国际上长达十余年的激烈论战。其争论的核心在于：实验观测到的摆动能量 $E_w(I)$ 随自旋升高而单调下降（即所谓的横向摆动 TW）。然而，Elena Lawrie 等人通过粒子-转子模型指出，在势能面极其平缓的核区，准粒子角动量相对于核芯的倾斜进动（Tilted Axis Precession, TiP）与软核大振幅振动的耦合同样可以模拟出类似能级走势。因此，判定摆动运动绝不能仅看能量曲线，必须严格满足多极混合比 $\delta$ 的双实根排除、绝对跃迁寿命 $\tau$ 与线偏振测定。
+
+为此，Elena Lawrie 等人（2020）提出了区分纯声子摆动运动与准粒子倾斜进动（TiP）的七维判据：
+\begin{enumerate}
+    \item 摆动激发必须具有明确的多声子阶梯结构（$n_w = 0, 1, 2, \dots$），且声子激发能量应当相对稳定；
+    \item 跨带跃迁必须表现为强集体增强的电四极跃迁，约化跃迁几率比值 $B(E2)_{\text{out}}/B(E2)_{\text{in}}$ 达到 $0.2 \sim 0.5$ 宏观集体进动量级；
+    \item 跨带 $\Delta I = 1$ 跃迁的磁偶极成分 $B(M1)_{\text{out}}$ 应显著受到抑制；
+    \item 伴随的微观转动惯量必须自洽满足中间轴最大规律；
+    \item 必须排除单准粒子空间轨道重组效应；
+    \item 必须通过多极混合比 $\delta$ 的线偏振或内转换系数严格消除双根简并中的磁偶极小根解；
+    \item 微观平均场计算必须证实核芯具备抗拒大振幅 $\gamma$ 涨落的刚性三轴势阱。
+\end{enumerate}
+
+\subsection{核手征性（Nuclear Chirality）与非平面三脚架}
+
+手征性（Chirality）是自然界中最优雅的几何属性之一。当一个几何对象的镜像不能通过三维空间中的任何平移和旋转与其自身重合时，该对象便具备了手征性。
+
+在原子核中，Frauendorf 与孟杰（1997）提出，三轴奇奇核在特定微观组态下可以自发破缺手征对称性：
+\begin{enumerate}
+    \item 费米面靠近高 $j$ 壳层底部的质子准粒子（如 $\pi h_{11/2}$，粒子型）沿内禀短轴（$s$ 轴）取向；
+    \item 费米面靠近高 $j$ 壳层顶部的中子准粒子（如 $\nu h_{11/2}^{-1}$，空穴型）沿内禀长轴（$l$ 轴）取向；
+    \item 三轴变形核芯转动角动量由于中间轴惯量最大，倾向于沿中间轴（$m$ 轴）旋转。
+\end{enumerate}
+上述三个相互正交的角动量矢量在内禀系中构成了一个微观的\term{非平面手征三面体}（Chiral Trihedron），如图~\ref{fig:chiral_geometry}所示。在时间反演与转动空间变换下，体系自发分为左手系与右手系，在实验室能谱上表现为一对具有相同自旋宇称、能量高度简并且电磁衰变性质几乎完全一致的伙伴带——\term{手征双重带}（Chiral Doublet Bands）。
+
+\begin{figure}[htbp]
+    \centering
+    \begin{tikzpicture}[scale=1.2]
+        % 坐标轴
+        \draw[thick, ->] (0,0,0) -- (4,0,0) node[right] {短轴 $s$ ($\vec{j}_p$)};
+        \draw[thick, ->] (0,0,0) -- (0,3.5,0) node[above] {中间轴 $m$ ($\vec{R}_{\text{core}}$)};
+        \draw[thick, ->] (0,0,0) -- (0,0,4) node[below left] {长轴 $l$ ($\vec{j}_n$)};
+
+        % 矢量
+        \draw[-{Latex[length=3mm]}, line width=1.5pt, red] (0,0,0) -- (3,0,0) node[midway, below] {质子粒子};
+        \draw[-{Latex[length=3mm]}, line width=1.5pt, blue] (0,0,0) -- (0,2.8,0) node[midway, left] {核芯转动};
+        \draw[-{Latex[length=3mm]}, line width=1.5pt, green!60!black] (0,0,0) -- (0,0,3) node[midway, right] {中子空穴};
+
+        % 合角动量
+        \draw[-{Latex[length=4mm]}, dashed, line width=1.8pt, purple] (0,0,0) -- (3,2.8,3) node[above right] {总自旋 $\vec{I}$ (非平面)};
+        \draw[dotted, gray] (3,0,0) -- (3,2.8,0) -- (0,2.8,0);
+        \draw[dotted, gray] (3,0,0) -- (3,0,3) -- (0,0,3);
+        \draw[dotted, gray] (3,2.8,0) -- (3,2.8,3) -- (3,0,3);
+    \end{tikzpicture}
+    \caption{原子核手征对称性自发破缺的三维非平面角动量三面体示意图}
+    \label{fig:chiral_geometry}
+\end{figure}
+
+\section{空间反射对称性破缺与八极关联研究进展}
+\label{sec:octupole_correlations_progress}
+当原子核内中子或质子的费米面同时靠近具有 $\Delta l = 3, \Delta j = 3$ 特征的强耦合轨道对（如质子 $1d_{5/2} \leftrightarrow 1h_{11/2}$ 与中子 $2f_{7/2} \leftrightarrow 1i_{13/2}$）时，核力中的八极相关联将打破核的镜像反演对称性，形成形似鸭梨的非中心对称\term{八极形变}（Octupole Deformation）。在能谱上，这表现为正负宇称能级紧密相随的\term{交替宇称带}（Alternating Parity Bands）以及异常巨大的内禀电偶极矩 $|D_0|$。在特定过渡区核中，八极空间反射对称性与三轴手征对称性甚至会发生联立自发破缺，产生由四条平行的伙伴带构成的“手征-宇称四重带”。
+
+\section{同核异能态、弱衰变与微观壳演化}
+\label{sec:isomers_decay_shell_evolution}
+在结构演化中，某些亚稳态激发态因特殊的对称性或自旋差异导致寿命急剧延长数个量级，成为\term{同核异能态}（Isomers）。其中包括由高 $j$ 壳层半满壳粒子-空穴对称性相消主导的 Seniority 异能态，以及因轴对称性破缺产生 $K$-mixing 的高 $K$ 异能态。此外，深入研究远离稳定线前驱核向子核的 Gamow-Teller $\beta$ 衰变及轴矢量常数淬灭 $(g_A/g_V)_{\text{eff}}$，不仅为无中微子双贝塔衰变（$0\nu\beta\beta$）核矩阵元提供约束，更为理解超重核合成中的裂变与蒸发存活竞争提供了物理依据。
+
+\section{跨质量区系统学全景演化图谱}
+\label{sec:cross_mass_regions}
+
+三轴形变决不是局限在某一孤立核素上的偶发产物，而是遍布全核素图的普遍几何现象。本论文立足全景视角，统摄六大经典三轴演化核区：
+
+\subsection{A≈60 质量区：多形状共存与刚性三轴模式的微观禁戒}
+在 $A \approx 60 \sim 72$ 质量区（如 $^{64,66}\text{Zn}, ^{66,68}\text{Ge}, ^{70,72}\text{Se}$），质子数 $Z = 30 \sim 34$，中子数 $N = 32 \sim 38$。原子核费米面位于 $pf$ 壳层（$2p_{3/2}, 1f_{5/2}, 2p_{1/2}$）与自旋-轨道耦合深度下沉的高 $j$ 闯入轨道 $1g_{9/2}$ 交汇处。
+
+JCNP 核图网 MDC-CDFT 势能面计算表明，该区域内禀势能面上同时存在长椭球（$\beta_2 \approx +0.30, \gamma = 0^\circ$）与扁椭球（$\beta_2 \approx -0.25, \gamma = 60^\circ$）两个能量极小，两极小之间的三轴鞍点势垒极低（$\Delta V \le 250\text{ keV}$）。由于体系质量数小，核表面四极零点振动能量高达 $E_{\text{ZPE}} \sim 1.2\text{ MeV} \gg \Delta V$，势能屏障被量子涨落彻底淹没，基态波函数在全空间大振幅弥散，宏观上表现为剧烈的长-扁-三轴微观形状共存，并伴随异常巨大的电单极跃迁强度 $\rho^2(E0) \times 10^3 \sim 30 \sim 100$。
+
+**手征与摆动模式的微观禁戒机制**：在 A~60 区，质子与中子均处于 $1g_{9/2}$ 壳层底部，同属粒子型（Particle-like），四极形变势将两者角动量同时强力拉平至短轴（$s$ 轴），相互张角 $\theta_{pn} \to 0^\circ$，空间标量三重积 $\chi = \vec{R} \cdot (\vec{j}_p \times \vec{j}_n) \equiv 0$，手征三面体发生几何塌缩；同时平坦的势能面彻底摧毁了主轴转动惯量分立，使得手征转动与横向摆动在该核区在物理上被严格禁戒。
+
+\subsection{A≈80 质量区：手征对称性与空间反射对称性（八极）联立自发破缺}
+进入 $A \approx 74 \sim 84$ 质量区（如 $^{74}\text{As}, ^{78}\text{Br}, ^{78}\text{Kr}$），质子与中子同时深入填充高 $j$ $1g_{9/2}$ 轨道底部。由于强同位旋标量对力与长程质中四极力相干叠加，产生极大的四极超形变（$\beta_2 \approx 0.36 \sim 0.42$）与稳定的三轴形变（$\gamma \approx 22^\circ$），沿 $\gamma$ 约束势垒上升至 $\Delta V_\gamma \approx 1.0\text{ MeV}$。
+
+更为深刻的是，费米面恰好横跨正宇称侵入轨道 $1g_{9/2}$ 与负宇称基态轨道 $2p_{3/2}$。两轨道严格满足：
+\begin{equation}
+    \Delta l = |4 - 1| = 3, \quad \Delta j = |9/2 - 3/2| = 3
+\end{equation}
+单粒子八极张量跃迁矩阵元达到理论极值（较邻近通道增强 7 倍以上）。在奇奇核 $^{78}\text{Br}$（Liu 等 2016 PRL）与 $^{74}\text{As}$（Xiao 等 2022 PRC）中，非平面手征三面体与内禀反射不对称八极极化相干交织，在同一原子核内激发出由正负宇称成对出现的两对手征双重带——\term{手征-宇称四重带}（Parity-Chiral Quadruplet, PCQ），并由密集的跨宇称 $E1$ 跃迁级联所贯通。由于核质量较轻，转动惯量较小（$\mathcal{J} \approx 15\hbar^2/\text{MeV}$），Coriolis 力在自旋达到 $10\sim 12\hbar$ 时迅速撕裂准粒子对诱发回弯，因而无法维系多声子摆动运动。
+
+\subsection{A≈100 质量区：IBM O(6) 伽马平坦河谷、多手征带与八极新突破}
+在 $A \approx 100$ 质量区（如 $^{103,105,106}\text{Rh}, ^{104,106}\text{Ru}, ^{105,108}\text{Pd}$），质子填充在 $1g_{9/2}$ 壳层顶端（空穴型，角动量沿长轴），而中子刚跨入 $1h_{11/2}$ 壳层底端（粒子型，角动量沿短轴），构成完美正交的跨壳层粒子-空穴对。这使得该核区成为国际公认的\term{多重手征双重带}（Multiple Chiral Doublets, M$\chi$D）集中爆发区（如 $^{103}\text{Rh}$ 同一核内容纳多组手征对）。
+
+然而，该区偶偶核芯呈现出极其平坦的 IBM $O(6)$ 动力学对称河谷（沿 $\gamma$ 能量波动 $< 150\text{ keV}$），属于极度软核。由于主轴系统缺乏刚性，横向摆动声子被表面的大振幅四极涨落完全溶解，因而在 A~100 区严格不存在稳定的多声子摆动运动。
+
+2024 年，Karmakar 等在 $^{100}\text{Ru}$ 中通过微观 DSAM 测定寿命，发现带间存在 7 条强度较单粒子模型增强一个量级的跨带 $E1$ 跃迁，确立了质子 $\pi(2p_{1/2}-1g_{9/2})$ 与中子 $\nu(2d_{5/2}-1h_{11/2})$ 两组 $\Delta l=\Delta j=3$ 轨道对相干极化产生的八极关联，实现了空间反射对称性破缺在过渡区四极软核中的重大新突破。
+
+\subsection{A≈130 质量区：横向摆动（TW）争鸣、手征双重带金标准与赝自旋耦合}
+处于球形闭壳向稀土形变区过渡的 $A \approx 130$ 质量区（Xe, Ba, La, Ce, Pr, Nd），质子占据 $1h_{11/2}$ 底部，中子处于 $1h_{11/2}$ 顶部，构成了全核素图上手征三面体最经典的黄金发源地（如 $^{134}\text{Pr}, ^{126,128,130}\text{Cs}$）。
+
+与此同时，以 $^{135}\text{Pr}$ 为代表的奇核表现出摆动激发能随自旋下降的负斜率特征（横向摆动 TW）。然而，JYFL JUROGAM-II 高分辨线偏振测量证实带间跃迁由磁偶极 $M1$ 主导（$| \delta | \ll 1$），JCNP 势能面揭示其三轴限制势垒不足 $400\text{ keV}$。微观 3D-TAC 表明主轴 Hessian 矩阵在自旋升高时发生失稳分岔，摆动运动突变为大振幅准粒子倾斜进动（TiP）。此外，中子费米面附近的赝自旋双重态（$2d_{5/2}, 1g_{7/2}$）与三轴手征发生非阿贝尔复合破缺，在 $^{131}\text{Ba}$ 中催生了独特的\term{赝自旋-手征四重带}（PCQ）。
+
+\subsection{A≈160 质量区：第二势阱三轴超形变（TSD）多声子谐振摆动金标准}
+在稀土区（$^{161,163,165,167}\text{Lu}, ^{167}\text{Ta}$），基态虽为严格轴对称长椭球（$\gamma = 0^\circ$），但在超高自旋与质子 $\pi i_{13/2}$ 强形变驱动下，体系在 $(\beta_2 \approx 0.39, \gamma \approx 20^\circ)$ 处产生孤立的第二势阱——\term{三轴超形变}（TSD）。
+
+TSD 势阱与第一势阱之间存在高达 $1.5\text{ MeV}$ 的巨大绝缘势垒，流体力学转动惯量主轴序 $\mathcal{J}_m > \mathcal{J}_s \gg \mathcal{J}_l$ 被牢固锁定。体系测得了整齐的单声子（$n_w=1$）与双声子（$n_w=2$）摆动带，其摆动频率随自旋上升，带间跃迁几率满足谐振子二次增强定理 $B(E2; 2 \to 1) \approx 2 B(E2; 1 \to 0)$，确立为全核素图唯一的谐振摆动金标准；而常态下由于长椭轴对称性导致短轴与中轴退化，手征转动在此区域严格禁戒。
+
+\subsection{A≈190 质量区：微观空穴驱动与扁椭球三轴手征转动}
+在接近双闭壳 $^{208}\text{Pb}$ 的 $A \approx 190$ 质量区（Pt, Au, Tl, Hg），质子与中子费米面均位于高 $j$ 壳层（$1h_{11/2}, 1i_{13/2}$）顶端，空穴准粒子极化促使核芯势能面偏向扁椭球侧（$\gamma \approx 40^\circ \sim 55^\circ$）。
+
+在奇奇核 $^{194,198}\text{Tl}$ 中，微观构型 $\pi h_{9/2} \otimes \nu i_{13/2}^{-1}$ 在扁椭主盘面内构建出独特的“倒置扁盘型手征三面体”，形成了全核素图极其罕见的扁椭球手征双重带。而在 $^{187}\text{Au}$ 中，兰州 HIRFL 的 Clover 偏振实验证实带间为强 $M1$ 跃迁，确证所谓的低自旋“纵向摆动”本质上属于单粒子慢速进动。
+
+在中国核物理联合中心 JCNP 核图网数据库（\url{http://nuclearmap.jcnp.org/}）所提供的多维度约束协变密度泛函理论（MDC-CDFT）微观势能面体系中，可以清晰观测到这六大区域在 $(\beta, \gamma)$ 内禀平面上的系统演化：
+\begin{itemize}
+    \item 在 $A \approx 80$ 区，势能极小位于 $\beta \approx 0.35, \gamma \approx 25^\circ$，展现深势阱三轴性，解释了手征带在此区域的高度稳定性；
+    \item 在 $A \approx 130$ 区，势能谷沿 $\gamma$ 方向极度平缓延展（$\Delta V \le 0.4\text{ MeV}$），微观上表现出显著的 $\gamma$ 软性，阐明了该区摆动运动极易受到大振幅形状涨落溶解的本质原因；
+    \item 在 $A \approx 160$ 区，常态下为严格长椭球（$\gamma = 0^\circ$），但在超高自旋和强形变区形成孤立的第二势阱（$\beta \approx 0.4, \gamma \approx 20^\circ$），完美赋予了多声子摆动运动所需的刚性势能屏障。
+\end{itemize}
+
+表~\ref{tab:cross_region_summary}总结了六大三轴演化核区的微观特征与集体激发表现。
+
+\begin{table}[htbp]
+    \centering
+    \small
+    \caption{全核素图六大多区三轴形变核心动力学与集体激发横向系统学对照表}
+    \label{tab:cross_region_summary}
+    \begin{tabular}{cccccc}
+        \toprule
+        质量区 & 典型代表核 & 质中驱动轨道 & JCNP 势能面特征 & 核心集体模式 & 摆动/手征生存条件 \\
+        \midrule
+        $A \approx 60$ & $^{66}\text{Ge}, ^{68}\text{Se}$ & $\pi(fp), \nu(fp \otimes g_{9/2})$ & 多极小浅势阱 ($\Delta V \le 0.3$) & 形状共存、$E0$ 强跃迁 & 禁戒手征（同为粒子型） \\
+        $A \approx 80$ & $^{76}\text{Kr}, ^{78}\text{Br}$ & $\pi g_{9/2} \otimes \nu g_{9/2}^{-1}$ & 深三轴势阱 ($\beta \sim 0.36$) & 手征-八极联立破缺 & 稳定手征双重带 \\
+        $A \approx 100$ & $^{104}\text{Ru}, ^{106}\text{Rh}$ & $\pi g_{9/2}^{-1} \otimes \nu h_{11/2}$ & $O(6)$ 平坦谷 ($\Delta V_\gamma \le 0.15$) & 多手征带 M$\chi$D、八极增强 & 软核致摆动声子溶解 \\
+        $A \approx 130$ & $^{134}\text{Ce}, ^{135}\text{Pr}$ & $\pi h_{11/2} \otimes \nu h_{11/2}^{-1}$ & 浅三轴谷 ($\Delta V_\gamma \sim 0.4$) & 横向摆动 (TW) vs TiP、手征 & 易受准粒子进动竞争 \\
+        $A \approx 160$ & $^{163}\text{Lu}, ^{168}\text{Er}$ & $\pi i_{13/2} \otimes \nu(sd)$ & TSD 绝缘深阱 ($\Delta V > 1.5$) & 多声子谐振摆动金标准 & 刚性惯量稳定维系 \\
+        $A \approx 190$ & $^{194}\text{Pt}, ^{198}\text{Tl}$ & $\pi h_{9/2} \otimes \nu i_{13/2}^{-1}$ & 扁椭三轴谷 ($\gamma \sim 45^\circ$) & 扁椭手征双重带、扁椭进动 & 扁椭坐标系三脚架 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\section{本学位论文立题背景、研究主线与章节架构}
+\label{sec:thesis_outline}
+
+在低能实验核物理研究中，初学者常常苦恼于专业论文中繁复晦涩的唯象参数与千篇一律的套话描述，无法透过表面公式直击物理本质。为此，本学位论文以“易懂深入、逻辑严密、说人话”为最高写作信条，全面重构了在束谱学理论与实验方法的一般性章节。
+
+全书各章逻辑安排如下：
+\begin{itemize}
+    \item \textbf{第 1 章 绪论}（本章）：阐明原子核物理图像、三轴形变核心动力学、空间反射八极关联与衰变物理，并展开六大典型质量区系统学演化图景；
+    \item \textbf{第 2 章 原子核结构理论模型与方法}：系统推演 Nilsson 势变形基底、推转壳模型（CSM）、粒子-转子模型（PRM）、三维倾斜轴推转（3D-TAC）以及模型无关四极形状不变量，阐明准粒子对齐与回弯相互作用；
+    \item \textbf{第 3 章 在束核谱学实验装置与重离子反应技术}：系统剖析重离子熔合蒸发反应动力学、HPGe 探测器微观电荷收集、BGO 反康普顿屏蔽及数字脉冲梯形波形滤波消除弹道亏损的电路物理；
+    \item \textbf{第 4 章 伽马射线谱学离线数据处理与物理量提取方法}：详述 $\gamma$-$\gamma$ 符合矩阵分析、基于 Yamazaki $F$ 系数的方向角分布（ADO/DCO）严格代数双根求解、康普顿散射线偏振度测定以及皮秒能级寿命反演技术；
+    \item \textbf{第 5 章 A≈130 质量区核结构实验研究}：搭建标准规范的高自旋谱学研究成果展示与分析框架（预留实验成果专属槽位）；
+    \item \textbf{第 6 章 总结与展望}：概括全书理论方法创新，凝练未决核心问题，并展望强流重离子加速器装置（HIAF）时代核谱学研究新机遇。
+\end{itemize}

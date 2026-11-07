@@ -1,0 +1,262 @@
+% 第 3 章 在束核谱学实验装置与重离子反应技术
+
+\chapter{在束核谱学实验装置与重离子反应技术}
+\label{ch:experimental_techniques}
+
+\section{重离子熔合蒸发反应动力学与出射道规划}
+\label{sec:fusion_evaporation}
+
+要研究原子核在高自旋态下的集体激发模式（如摆动与手征转动），首要的前提是将原子核激发到角动量高达数十个 $\hbar$、激发能达数十 MeV 的极端状态。轻离子反应（如 $(p, \gamma)$ 或 $(\alpha, n)$）由于入射粒子质量过轻，动量臂小，带入的最大角动量往往被离心势垒限制在 $I \le 10\hbar$ 以内，无法布居高自旋结构。
+
+因此，在束核谱学普遍采用\term{重离子完全熔合蒸发反应}（Heavy-Ion Fusion-Evaporation Reaction）。例如利用 $^{16}\text{O}, ^{18}\text{O}, ^{36}\text{S}, ^{48}\text{Ca}$ 等中重质量离子轰击中重靶核，利用重核巨大的入射线动量与擦边碰撞距离，将 $30 \sim 60\hbar$ 甚至更高的巨额角动量直接注入反应复合核中。
+
+在经典两体相对论运动学中，入射束流实验室动能 $E_{\text{lab}}$ 与质心系可用有效碰撞能量 $E_{\text{cm}}$ 遵循精确质量比例：
+\begin{equation}
+    E_{\text{cm}} = E_{\text{lab}} \cdot \frac{M_{\text{target}}}{M_{\text{proj}} + M_{\text{target}}}
+    \label{eq:ecm_kinematics}
+\end{equation}
+克服库仑斥力完全熔合后，所形成的处于高度热平衡态的复合核（Compound Nucleus, CN），其内禀总激发能 $E^*$ 由质心能量与两体质量亏损反应 $Q$ 值精确给出：
+\begin{equation}
+    E^* = E_{\text{cm}} + Q_{\text{fus}} = E_{\text{cm}} + \left( M_{\text{proj}} + M_{\text{target}} - M_{\text{CN}} \right) c^2
+    \label{eq:compound_excitation}
+\end{equation}
+复合核沿束流方向的反冲初速度 $\beta_0 = v_0 / c$ 由动量守恒定理严格决定：
+\begin{equation}
+    \beta_0 = \frac{\sqrt{2 M_{\text{proj}} E_{\text{lab}}}}{(M_{\text{proj}} + M_{\text{target}}) c}
+    \label{eq:recoil_velocity}
+\end{equation}
+在中重核熔合反应中，$\beta_0$ 通常落在 $1.5\% \sim 3.0\%$ 之间；该反冲速度直接决定了后文多普勒频移校正与反冲距离寿命测量的物理时间尺度。
+
+\subsection{Wong 势垒穿透公式与截面计算}
+
+当入射核与靶核靠近时，它们在长程强库仑斥力与短程强核吸引力共同作用下形成一个总相互作用势垒。C. Y. Wong（1973）在倒置抛物线有效势垒近似下，给出了经典的分波熔合截面计算公式：
+\begin{equation}
+    \sigma_{\text{fus}}(E_{\text{cm}}) = \frac{\pi\hbar^2}{2\mu E_{\text{cm}}} \sum_{\ell=0}^{\ell_{\text{max}}} (2\ell + 1) T_\ell(E_{\text{cm}})
+    \label{eq:wong_sum}
+\end{equation}
+其中分波穿透几率 $T_\ell(E_{\text{cm}})$ 由 Hill-Wheeler 公式精确给出：
+\begin{equation}
+    T_\ell(E_{\text{cm}}) = \frac{1}{1 + \exp \left[ \frac{2\pi (V_\ell - E_{\text{cm}})}{\hbar\omega_\ell} \right]}
+\end{equation}
+这里 $V_\ell = V_B + \frac{\hbar^2 \ell(\ell+1)}{2\mu R_B^2}$ 为包含离心势能的有效势垒高度，$\hbar\omega_\ell \approx 3 \sim 5\text{ MeV}$ 代表抛物线势垒曲率。将分波求和转化为对角动量平滑积分后，得到著名的解析\term{Wong 公式}：
+\begin{equation}
+    \sigma_{\text{fus}}(E_{\text{cm}}) = \frac{R_B^2 \hbar\omega_0}{2 E_{\text{cm}}} \ln \left\{ 1 + \exp \left[ \frac{2\pi (E_{\text{cm}} - V_B)}{\hbar\omega_0} \right] \right\}
+    \label{eq:wong_analytic}
+\end{equation}
+当质心能量显著高于库仑势垒时（$E_{\text{cm}} \gg V_B$），该式自然退化为经典几何碰撞截面：$\sigma_{\text{fus}} \approx \pi R_B^2 (1 - V_B/E_{\text{cm}})$。
+
+\subsection{复合核统计退激与蒸发道能量窗口}
+
+克服势垒熔合形成的复合核（Compound Nucleus）处于极高温度与角动量平衡态。由于强相互作用的高效热化，核内能量迅速分配到全部核子自由度上。复合核按照统计模型（Hauser-Feshbach 理论）分步退激：
+\begin{enumerate}
+    \item \textbf{粒子蒸发阶段}：由于核力为中性核子提供的分离能最低（$S_n \sim 8\text{ MeV}$），且中子出射无需克服库仑势垒，在中重缺中子区复合核主要通过连续蒸发数个蒸发中子（$xn$ 道，如 $3n, 4n, 5n$）快速带走大量激发能（平均每个中子带走约 $10\text{ MeV}$）；
+    \item \textbf{高能连续 E1 $\gamma$ 跃迁阶段}：当激发能降至中子分离能以下（即粒子发射阈值以下）时，原子核只能通过发射巨偶极统计 $\gamma$ 射线（Statistical $\gamma$ Rays）向下退激至 Yrast 线附近的各分立能带；
+    \item \textbf{在束分立带跃迁阶段}：角动量主要通过沿能带顺序退激的集体四极（$E2$）与磁偶极（$M1$）级联跃迁带走，最终衰变至同核异能态或基态。
+\end{enumerate}
+
+在实验设计中，入射束流能量的选择至关重要。若能量过低，穿透截面过小；若能量过高，蒸发道向更多中子道迁移，甚至触发巨裂变（Fission）导致核芯彻底瓦解。必须利用 PACE4 或 CASCADE 等统计蒸发程序预先模拟出射道激发函数（Excitation Functions），精准锁定目标核产额最大的束流能量狭窄窗口。
+
+\section{高纯锗（HPGe）探测器工作原理与微观物理}
+\label{sec:hpge_detectors}
+
+在束 $\gamma$ 谱学能够精确分辨相距仅数个 keV 的复杂能级跃迁，其不可替代的硬件基石是\term{高纯锗半导体探测器}（High-Purity Germanium, HPGe）。
+
+\subsection{半导体能隙与极致能量分辨率}
+
+在气体探测器或闪烁体探测器（如 $\text{NaI}(\text{Tl})$ 或 $\text{LaBr}_3(\text{Ce})$）中，产生一个可收集的电荷载流子或光电子需要耗费 $30 \sim 100\text{ eV}$ 的能量。而在半导体锗晶体中，带隙仅为 $E_g \approx 0.7\text{ eV}$（在液氮温度 $77\text{ K}$ 下），平均产生一个电子-空穴对（Electron-Hole Pair）所需的平均电离能仅为：
+\begin{equation}
+    \epsilon_{\text{Ge}} \approx 2.96\text{ eV}
+\end{equation}
+
+对于一个 $E_\gamma = 1332\text{ keV}$ 的 $\gamma$ 光子，在锗晶体内完全沉积将激发出高达 $N = E_\gamma / \epsilon \approx 4.5 \times 10^5$ 个载流子！根据统计涨落理论（Fano 理论），其本征能量分辨率极限由 Fano 因子 $F \approx 0.08$ 决定：
+\begin{equation}
+    \text{FWHM}_{\text{intrinsic}} = 2.355 \sqrt{F \cdot \epsilon \cdot E_\gamma} \approx 1.3\text{ keV}
+\end{equation}
+这比最好的闪烁体探测器整整优越了近两个数量级，使得解析极端密集的核能级纲图成为可能。
+
+\subsection{同轴电场与 N 型 vs. P 型晶体耐辐照特性}
+
+大体积 HPGe 探测器通常制成同轴圆柱形（Coaxial geometry）。外加数千伏（$2000 \sim 4000\text{ V}$）的高压反向偏置电压，使极高纯度（净杂质浓度 $|N_A - N_D| \le 10^{10}\text{ cm}^{-3}$）的整个锗晶体完全耗尽，建立起强大的内禀电场。
+
+在柱坐标下求解一维 Poisson 方程：
+\begin{equation}
+    \frac{1}{r} \frac{d}{dr} \left( r \frac{d\Phi}{dr} \right) = -\frac{\rho}{\epsilon_{\text{Ge}}} = -\frac{e |N_{\text{net}}|}{\epsilon_{\text{Ge}}}
+    \label{eq:poisson_coaxial}
+\end{equation}
+其中 $\epsilon_{\text{Ge}} \approx 16 \epsilon_0$ 为高纯锗的相对介电常数。
+
+积分得到内径为 $r_1$、外径为 $r_2$ 的真同轴探测器内部电场分布：
+\begin{equation}
+    E(r) = -\frac{d\Phi}{dr} = \frac{e |N_{\text{net}}|}{2 \epsilon_{\text{Ge}}} r + \frac{C}{r}
+    \label{eq:coaxial_field}
+\end{equation}
+使整个晶体完全耗尽（即电场在任何半径处均大于零，$E(r) > 0$）所需的最低偏置电压称为\term{完全耗尽电压}（Depletion Voltage, $V_{\text{dep}}$）：
+\begin{equation}
+    V_{\text{dep}} = \frac{e |N_{\text{net}}|}{2 \epsilon_{\text{Ge}}} \left[ \frac{r_2^2 - r_1^2}{2} - r_1^2 \ln\left(\frac{r_2}{r_1}\right) \right]
+    \label{eq:depletion_voltage}
+\end{equation}
+实际实验操作中，工作偏置高压通常设定为 $1.2 \sim 1.5 V_{\text{dep}}$（通常为 $+3000\text{ V} \sim +4500\text{ V}$），以确保全晶体体积内的电场强度均超过饱和漂移临界阈值（$E \ge 1000\text{ V/cm}$），保证载流子以最大极限速度（$v_{\text{sat}} \approx 10^7\text{ cm/s}$）漂移，最大限度压制电荷复合损失。
+
+在重离子在束核物理实验中，伴随熔合蒸发的快中子对探测器的辐射损伤是极其致命的威胁。中子与锗晶格碰撞产生微观晶格位错，形成带负电的深能级\term{空穴捕获中心}（Hole Traps）。
+\begin{itemize}
+    \item \textbf{常规 P 型探测器}：高压加在中心负电极上，电离产生的空穴必须从晶体外表面穿过整个晶体厚度漂移至中心芯线。漫长的漂移路径使空穴被陷阱大量捕获，导致全能峰产生严重的低能侧“拖尾”（Tailing），能量分辨率迅速毁损；
+    \item \textbf{反向 N 型探测器}：电极反置，中心为正电极，外表面为负电极。由于外表面积远大于中心芯线面积，绝大部分 $\gamma$ 相互作用发生在晶体外半圈；空穴只需漂移极短的距离即可到达外壳电极被收集，被捕获概率压低一个数量级以上。因此，现代在束谱学阵列必须无条件选用\textbf{耐快中子辐照寿命提升 10 到 20 倍的 N 型同轴 HPGe 晶体}。
+\end{itemize}
+
+\subsection{Shockley-Ramo 定理与电荷收集动力学}
+
+电子与空穴在电场中漂移时，并非在到达电极瞬间才产生信号，而是在其运动全过程中通过空间静电感应连续输出电流。根据微观\term{Shockley-Ramo 定理}，电极上的瞬时感应电流由载流子速度 $\vec{v}$ 与假想无电荷条件下的权重电势（Weighting Potential）$\Phi_w$ 空间梯度决定：
+\begin{equation}
+    i(t) = q \vec{v}(t) \cdot \nabla \Phi_w(\vec{r}(t))
+    \label{eq:shockley_ramo}
+\end{equation}
+
+在液氮温度下，当电场大于 $1000\text{ V/cm}$ 时，锗中载流子漂移速度达到饱和（$v_{\text{sat}} \approx 10^7\text{ cm/s}$）。对于半径为数厘米的大体积探测器，最长电荷收集时间可达 $t_{c,\text{max}} \sim 300 \sim 500\text{ ns}$。这一电荷收集时间尺度是后续数字脉冲成形参数设计的刚性物理下界。
+
+在真同轴圆柱形电极几何中，求解无空间电荷 Laplace 方程得到的对数权重电势为：
+\begin{equation}
+    \Phi_w(r) = \frac{\ln(r/r_2)}{\ln(r_1/r_2)}
+    \label{eq:coaxial_weighting_pot}
+\end{equation}
+其空间梯度为：
+\begin{equation}
+    \nabla \Phi_w(r) = \frac{1}{r \ln(r_1/r_2)} \hat{r}
+    \label{eq:coaxial_weighting_field}
+\end{equation}
+对于在半径 $r_0$ 处由光电效应激发的电子-空穴对，电子向中心电极（$r=r_1$）漂移，空穴向外电极（$r=r_2$）漂移。两载流子贡献的瞬时总感应电流为：
+\begin{equation}
+    i(t) = i_e(t) + i_h(t) = \frac{e v_e(t)}{r_e(t) \ln(r_2/r_1)} + \frac{e v_h(t)}{r_h(t) \ln(r_2/r_1)}
+    \label{eq:coaxial_total_current}
+\end{equation}
+由于权重电场 $\nabla \Phi_w \propto 1/r$ 在中心小半径 $r_1$ 附近极其陡峭，绝大部分感应电荷是在电子极度靠近中心芯线时诱导产生的；而在大半径处漂移的空穴产生的感应电流较为微弱平缓。这种电荷收集动力学在微观上导致前置放大器的输出阶跃波形上升前沿呈现出复杂的“S 型”（双曲型）特征，其拐折点与初态相互作用深度 $r_0$ 密切相关。
+
+\section{反康普顿 BGO 屏蔽技术与峰总比提升}
+\label{sec:bgo_compton_suppression}
+
+尽管 HPGe 具有优异的能量分辨率，但锗原子序数中等（$Z = 32$）。入射高能 $\gamma$ 光子进入晶体后，发生一次康普顿散射将部分能量传递给反冲电子后，散射光子极易穿出晶体表面逃逸到周围空间。
+
+这种未能完全沉积全部能量的逃逸事件，在单能 $\gamma$ 能谱中留下一条连续平坦的低能本底，从零能量一直延伸到著名的\term{康普顿边缘}（Compton Edge）：
+\begin{equation}
+    E_C = E_\gamma \left( 1 - \frac{1}{1 + \frac{2 E_\gamma}{m_e c^2}} \right)
+\end{equation}
+在多重级联衰变中，数百条跃迁的康普顿本底相互叠加，形成巨大的“康普顿连续谱本底海”，将强度微弱的真实微弱信号彻底吞噬。
+
+为了解决这一难题，核谱学引入了\term{反康普顿散射 BGO 屏蔽探测器}（BGO Compton Suppression Shield）：
+\begin{enumerate}
+    \item 选用重晶体\term{铋锗酸盐}（$\text{Bi}_4\text{Ge}_3\text{O}_{12}$，BGO），其有效原子序数极高（$Z_{\text{eff}} \approx 74$），密度极大（$7.13\text{ g/cm}^3$），单位体积的光电吸收截面是传统 $\text{NaI}(\text{Tl})$ 的近十倍；
+    \item 将厚度数厘米的环状 BGO 探测器紧密包裹在每个 HPGe 晶体的圆周与后方（图~\ref{fig:bgo_suppression}）；
+    \item \textbf{反符合抑制逻辑}：当高纯锗探测器产生信号的同时，如果在纳秒级的时间窗内周围的 BGO 屏蔽体也探测到了信号，表明该光子必然发生了康普顿散射逃逸，采集系统硬件自动丢弃该事件。
+\end{enumerate}
+
+\begin{figure}[htbp]
+    \centering
+    \begin{tikzpicture}[scale=0.9]
+        % BGO 外壳
+        \draw[fill=yellow!20, draw=black, thick] (-3,-2) rectangle (3,2);
+        \node[above] at (0,1.4) {BGO 反康普顿屏蔽探测器 (高 $Z$)};
+
+        % HPGe 内部晶体
+        \draw[fill=blue!15, draw=black, thick] (-1.8,-1.2) rectangle (1.8,1.2);
+        \node at (0,0) {HPGe 晶体};
+
+        % 入射光子与散射光子
+        \draw[-{Latex[length=3mm]}, line width=1.5pt, red] (-4,0.5) -- (-0.5,0.5) node[midway, above] {入射 $\gamma$};
+        \filldraw[red] (-0.5,0.5) circle (2pt) node[below] {散射点};
+        \draw[-{Latex[length=2.5mm]}, line width=1.2pt, orange, dashed] (-0.5,0.5) -- (2.2,1.6) node[midway, sloped, above] {逃逸散射光子};
+        \filldraw[orange] (2.2,1.6) circle (2.5pt) node[right] {在 BGO 中被吸收};
+
+        % 逻辑框
+        \node[flow/proc, right=of BGO, xshift=3.5cm] (veto) {符合反选逻辑\\ $\text{HPGe} \cap \overline{\text{BGO}}$};
+        \draw[flow/arrow] (2.5,0) -- ++(1.5,0) node[above, font=\footnotesize] {HPGe 脉冲} -- (veto);
+        \draw[flow/arrow] (2.5,1.6) -| (veto);
+    \end{tikzpicture}
+    \caption{HPGe 探测器与环状 BGO 屏蔽探测器的反康普顿符合抑制物理原理}
+    \label{fig:bgo_suppression}
+\end{figure}
+
+反康普顿技术的引入，使探测器的\term{峰总比}（Peak-to-Total Ratio, $P/T$——全能峰计数占总谱计数的百分比）从裸锗的仅约 $15\%\sim 20\%$ 跃升至 $55\%\sim 60\%$。这在双重（$\gamma$-$\gamma$）符合谱中将两体本底压低了整整一个数量级，在三重（$\gamma$-$\gamma$-$\gamma$）符合中本底压低近百倍！
+
+\section{数字化脉冲获取系统（DDAQ）与波形算法}
+\label{sec:digital_acquisition}
+
+在传统模拟核电子学系统中，探测器微弱的前放电荷信号必须经过长距离电缆送入模拟主放大器进行 RC-CR 模拟微分积分滤波成形，再送入模拟单道或模数转换器（ADC）。这一结构在高计数率下具有致命的缺陷：模拟元件温漂明显、极零相消失调、模拟成形死时间巨大（数十微秒），导致谱峰严重展宽与堆积失真。
+
+现代核谱学全面采用了\term{全数字化数据获取系统}（Digital Data Acquisition, DDAQ）。前置放大器的原始阶跃波形直接接入高速超快闪烁式模数转换器（Flash ADC，采样率通常为 100 MHz 至 250 MHz，14-bit 精度），从第一级开始完成全流程数字波形计算。
+
+\subsection{数字梯形滤波器（Digital Trapezoidal Filter）消除弹道亏损}
+
+在数字信号处理算法中，最核心的能量提取算法是\term{数字梯形滤波器}（Trapezoidal Filter）：
+\begin{equation}
+    y[n] = y[n-1] + (x[n] - x[n-k]) - (x[n-l] - x[n-k-l]) + M \sum_{i=n-k}^{n} x[i]
+    \label{eq:trapezoidal_algo}
+\end{equation}
+该滤波算法将前放指数衰减的阶跃波形精确塑形为一个具有平坦顶部的对称等腰梯形。
+
+在频域 $z$ 变换下，前置放大器输出波形为单极点指数衰减信号：$X(z) = \frac{1}{1 - d \cdot z^{-1}}$，其中 $d = \exp(-\Delta t/\tau_{\text{pre}})$ 代表前放放电时间常数。梯形滤波器的脉冲响应传递函数构造为：
+\begin{equation}
+    H(z) = \frac{1}{k} (1 - z^{-k}) \cdot \frac{1}{l-k} (1 - z^{-(l-k)}) \cdot \frac{1 - d \cdot z^{-1}}{1 - z^{-1}}
+    \label{eq:trapezoidal_transfer}
+\end{equation}
+分子中的 $(1 - d \cdot z^{-1})$ 项精确抵消了前放信号的指数衰减分母（数字极零相消，Digital Pole-Zero Cancellation），随后的两次差分累加将信号精确重塑为上升沿为 $k$ 个采样点、平顶宽度为 $l-k$ 个采样点的对称梯形。
+
+其中包含两个关键参数：
+\begin{itemize}
+    \item 上升时间（Peaking Time, $k$）：决定了滤波器的低频噪声积分带，增大 $k$ 可压制高频电子学串联白噪声；
+    \item 平顶时间（Flat Top, $l-k$）：\textbf{必须严格大于 HPGe 晶体内的最长电荷收集时间}（$T_{\text{flat}} \ge t_{c,\text{max}} \sim 500\text{ ns}$）。
+\end{itemize}
+
+初学者应当透彻领会平顶时间的重大物理意义：由于不同 $\gamma$ 光子在锗晶体内部相互作用的位置随机分布，电荷收集时间 $t_c$ 具有剧烈涨落。如果成形波形像传统模拟高斯成形那样是尖顶的，收集较慢的事件尚未完全收集完毕波形已开始下落，导致测得的峰值幅度低于真实沉积能量，这种能量测量损失称为\term{弹道亏损}（Ballistic Deficit）。数字梯形滤波器的平顶为所有电荷载流子的收集完毕提供了一个绝对平坦的观察平台，彻底杜绝了电荷收集时间涨落造成的峰形拖尾，使高计数率下的系统能量分辨率达到物理理论极限。
+
+\subsection{数字化恒比定时（Digital CFD）消除幅度游走}
+
+为了进行精确的纳秒级多探测器符合测量，必须精准提取脉冲到达的时间起点。如果采用简单的前沿甄别（Leading Edge），不同幅度的脉冲达到同一电压阈值的时间不同，产生严重的\term{时间游走}（Time Walk，可达数十纳秒）。
+
+数字化获取系统通过算法软件实现\term{双极性恒比定时}（Digital Constant Fraction Discriminator, CFD）：
+\begin{equation}
+    V_{\text{CFD}}[n] = x[n - d] - f \cdot x[n]
+    \label{eq:digital_cfd}
+\end{equation}
+通过将原始波形乘以衰减系数 $f \approx 0.2 \sim 0.3$，并与延迟 $d$ 的原信号求差，其双极性输出信号的精确过零点（Zero-Crossing Point）在数学上完全独立于脉冲的幅度大小，彻底将定时游走压缩至皮秒至亚纳秒量级（$\le 1\text{ ns}$）。
+
+数学上设归一化前沿线性上升函数为 $x(t) = A \cdot \frac{t}{t_r}$（对于 $0 \le t \le t_r$），代入差分方程：
+\begin{equation}
+    V_{\text{CFD}}(t) = A \frac{t - d}{t_r} - f A \frac{t}{t_r} = 0 \implies t_{\text{zero}} = \frac{d}{1 - f}
+    \label{eq:cfd_zero_crossing}
+\end{equation}
+式中振幅 $A$ 在等式两边完全对消，求得的过零时间 $t_{\text{zero}}$ 严格由延迟时间 $d$ 与分数比 $f$ 唯一决定，与脉冲的幅度完全无关！只要选择延迟时间匹配上升前沿（$d = t_r(1-f)$），过零点便恒定落在前沿的固定比例处，彻底根除了幅度游走误差。
+
+\section{谱仪效率刻度与在束多普勒展宽纠正}
+\label{sec:efficiency_and_doppler}
+
+\subsection{全能峰探测效率绝对标定}
+
+高纯锗探测器对不同能量 $\gamma$ 光子的全能峰探测效率 $\epsilon_p(E_\gamma)$ 随能量剧烈变化：在低能区（$< 100\text{ keV}$）受死层与铝窗自吸收影响迅速下降；在中高能区（$> 200\text{ keV}$）随康普顿散射和穿透截面增大呈单调对数下降。
+
+实验前必须利用多放射性标准点源（如 $^{152}\text{Eu}, ^{133}\text{Ba}, ^{60}\text{Co}$）精确测量实验探测阵列在全能量范围内的相对与绝对效率，并采用分段多项式或双对数展开函数进行严格加权拟合：
+\begin{equation}
+    \ln \epsilon_p(E_\gamma) = \sum_{i=0}^4 a_i (\ln E_\gamma)^i
+\end{equation}
+一切未校正探测器相对效率曲线的分支强度与跃迁几率计算，在科学上均无任何物理意义。
+
+\subsection{在束多普勒效应与展宽微观机制}
+
+在重离子熔合反应中，由于入射束流的大动量转移，形成的复合核具有极高的前向质心反冲速度（在典型中重核反应中，$v/c = \beta \approx 1\% \sim 3\%$；在次级放射性束流反应中甚至可达 $10\%\sim 40\%$）。
+
+根据相对论多普勒频移公式，运动核发射的 $\gamma$ 光子在实验室坐标系下观测到的能量为：
+\begin{equation}
+    E_\gamma(\theta) = E_0 \frac{\sqrt{1 - \beta^2}}{1 - \beta \cos\theta} \approx E_0 (1 + \beta \cos\theta)
+    \label{eq:doppler_shift}
+\end{equation}
+其中 $\theta$ 为探测器主轴与反冲核飞行速度矢量之间的夹角。
+
+多普勒效应不仅引起能谱峰位的系统性频移，更重要的是引起严重的\term{多普勒展宽}（Doppler Broadening）：
+\begin{equation}
+    \Delta E_D = E_0 \beta \sin\theta \, \Delta\theta + E_0 \cos\theta \, \Delta\beta
+    \label{eq:doppler_broadening}
+\end{equation}
+展宽主要由两项微观机制构成：
+\begin{enumerate}
+    \item \textbf{探测器有限张角项（$\sin\theta \, \Delta\theta$）}：同轴 HPGe 晶体具有有限尺寸，前端电极张角通常为 $\Delta\theta \sim 5^\circ \sim 10^\circ$。在 $90^\circ$ 探测器处，$\sin 90^\circ = 1$ 达到最大，张角展宽达到极大；
+    \item \textbf{速度离散项（$\cos\theta \, \Delta\beta$）}：复合核穿过靶材料时由于电子与核阻止本领不断减速，导致激发态在不同速度下退激；同时中子各向同性蒸发也带来反冲速度方向的散角。
+\end{enumerate}
+为了消除多普勒展宽，在实验设计上必须权衡使用超薄自支撑靶（反冲核飞出靶进入真空退激，速度固定但需微观多普勒校正）还是带铅衬底的厚靶（反冲核在皮秒内完全停滞在衬底中在静止下退激，完全杜绝展宽，但丧失了测量皮秒激发态寿命的可能性）。

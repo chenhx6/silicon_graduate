@@ -12,15 +12,28 @@ Wiki 可在不同操作系统和 AI 工具环境中使用。Docker、Obsidian、
 
 A≈130 是当前研究锚点，不是 Wiki 的收录边界。v2 的设计决策与 `131Ce` pilot 见 [Continuous Research-Learning v2 architecture record](system/architecture-updates/2026-07-l3-autonomy-l4-foundation.md)；完整 L0–L4 状态机只在 [autonomous-research workflow](system/workflows/autonomous-research.md) 维护。Wiki 仍不是最终权威，也不保证文献完整覆盖；论文级结论由 Agent 自主核验，须回到 `knowledge/sources/`、`raw/` 原文、精确 locator 和Agent 直接证据核验，并遵循 [system/paper-evidence-gate.md](system/paper-evidence-gate.md)。
 
-## 研究范围
+## 研究范围与“一核两翼”专家架构
 
-- 基于熔合蒸发反应的低能原子核结构研究；
-- A≈130 质量区原子核；
-- 原子核转动与振动；
-- wobbling motion；
-- chiral doublet bands；
-- γ 形变、γ-soft deformation 和 γ-rigid deformation；
-- 相关实验判据、理论模型及竞争解释。
+知识库聚焦于低能原子核结构与在束 $\gamma$ 谱学，确立**“一核两翼、有所专长”**的专家体系：
+
+1. **核心专长（Primary Core）：三轴非轴对称形变与集体激发动力学**
+   - 三轴转子模型（Davydov-Filippov 刚性转子、Wilets-Jean $\gamma$-软核、PRM、TAC/3D-TAC、TPSM）；
+   - 摆动运动（Wobbling mode）：横向与纵向摆动微观声子动力学、Elena Lawrie 7 维 TiP 区分判据；
+   - 核手征性（Chiral doublet bands）：奇奇核与奇 A 核中的手征对称性自发破缺、非平面转动三脚架几何；
+   - 四极形状不变量与电荷闭合（$q_2, q_3, \cos(3\gamma)$）；
+   - 高自旋超形变（TSD）、带交叉与旋称反转。
+
+2. **前沿交叉翼（Wing 1）：空间反射不对称性与八极关联**
+   - $\Delta l=3, \Delta j=3$ 轨道相干耦合、交替宇称带、奇 A 核宇称双重态；
+   - 内禀电偶极矩 $|D_0|$ 提取与增强 $E1$ 跃迁机制；
+   - 手征性与八极空间反射对称性的联立自发破缺。
+
+3. **热点拓展翼（Wing 2）：同核异能态、弱相互作用衰变与微观壳演化**
+   - Seniority 代数方案半满壳 $B(E2)$ 相消与 $K$-isomers 阻碍因子 $f_\nu$；
+   - Gamow-Teller $\beta$ 衰变与轴矢量耦合常数淬灭 $(g_A/g_V)_{\text{eff}}$、$\beta$ 缓发粒子发射、无中微子双贝塔衰变（$0\nu\beta\beta$）；
+   - Otsuka 单极张量力驱动的壳结构演化、重离子熔合反应动力学与超重核合成。
+
+4. **六大多区全景坐标**：覆盖全核素图上的六大三轴形变与集体演化典型区（$A \approx 60, 80, 100, 130, 160, 190$）。
 
 ## 推荐阅读入口
 

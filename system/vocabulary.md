@@ -79,11 +79,25 @@ updated: 2026-07-03
 - abbreviation: `TPSM`
 - aliases: `triaxial projected-shell model`、`三轴角动量投影壳模型`
 - category: model
-- scope: 显式包含三轴本征组态的投影壳模型
-- ambiguity: 不应由泛称“壳模型”直接确定为 TPSM
-- do_not_merge_with: `projected shell model`、`cranked shell model`、`particle rotor model`
-- query_expansion: `三轴投影壳模型` ↔ `triaxial projected shell model` ↔ `TPSM`
-- notes: 与 PSM 保持上下位关系，不静默视为完全等价
+ - scope: 显式包含三轴本征组态的投影壳模型
+ - ambiguity: 不应由泛称“壳模型”直接确定为 TPSM
+ - do_not_merge_with: `projected shell model`、`cranked shell model`、`particle rotor model`
+ - query_expansion: `三轴投影壳模型` ↔ `triaxial projected shell model` ↔ `TPSM`
+ - notes: 与 PSM 保持上下位关系，不静默视为完全等价
+
+### pseudospin
+
+- canonical: `pseudospin`
+- zh: `赝自旋`
+- en: `pseudospin`
+- abbreviation: `PSS`
+- aliases: `pseudospin symmetry`、`赝自旋对称性`、`假自旋`（历史旧译，统一规范为赝自旋）
+- category: concept
+- scope: 原子核相对论对称性、单粒子能级简并与微观结构
+- ambiguity: 赝自旋由量子数 $\tilde{n}=n-1, \tilde{l}=l+1, \tilde{j}=\tilde{l}\pm 1/2$ 定义（如 $2d_{5/2}-1g_{7/2}$ 双重态），与真实自旋不同
+- do_not_merge_with: `isospin`、`spin`、`pseudospin doublet bands`
+- query_expansion: `赝自旋` ↔ `pseudospin` ↔ `PSS` ↔ `假自旋`
+- notes: 用户于 2026-11-07 明确指示规范中文译名为“赝自旋”，杜绝“假自旋”口语化表述
 
 ### particle rotor model
 
@@ -373,11 +387,13 @@ updated: 2026-07-03
 | covariant-density-functional-theory | 协变密度泛函理论 | CDFT; constrained CDFT; TAC-CDFT | 记录泛函、pairing 与约束 |
 | two-point-angular-correlation-ratio | 两点角关联比 | Rac; R_ac; two-point angular-correlation ratio | 与依赖 gate 多极性的 DCO 分开 |
 | multiple-chiral-doublets | 多重手征双重带 | multiple chiral doublets; MχD | 多对候选带不等于独立证据重复 |
+| pseudospin | 赝自旋 | pseudospin; PSS; 赝自旋对称性 | 历史旧译“假自旋”，规范归一为“赝自旋” |
 
 ## 禁止自动合并
 
 - `wobbling-motion` 与 `chiral-doublet-bands`
 - `gamma-soft-deformation` 与 `gamma-rigid-deformation`
+- `pseudospin`（赝自旋）与 `isospin`（同位旋）或普通 `spin`（自旋）
 - 实验“近简并双重带”与理论“手征双重带”
 - 某条带的观测标签与其组态或物理解读
 - γ 带 staggering 与奇 A signature splitting

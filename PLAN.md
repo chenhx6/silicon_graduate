@@ -54,3 +54,38 @@
 
 - 用户维护本文件中的阶段目标、优先级和备忘；Agent 不把它改写为 cite-key 清单或执行流水账。
 - 当前执行事实写入 `system/handoff.md`，未完成检查点写入 `system/wip-queue.md`，历史事件追加到 `system/log.md`。
+
+## 随笔记录 20261105（已闭环，2026-11-06）
+
+- [x] Q3：source / project / synthesis 的比例是否合理？
+
+  已于 2026-11-06 全面闭环并对账。当前 knowledge/ 的完整结构更新如下：
+
+  | 类型           | 数量 | 功能                               |
+  | -------------- | ---- | ---------------------------------- |
+  | sources        | 534  | 单篇论文/数据的 claim-level 证据页 |
+  | research-notes | 277  | 研究过程中的条件推导、审计、比较   |
+  | methods        | 116  | 实验/分析方法的可复用规范          |
+  | bands          | 63   | 能带结构实体页                     |
+  | nuclei         | 62   | 核素实体页                         |
+  | experiments    | 43   | 实验装置/采集的身份与谱系（已补齐近物所 HIRFL-CSR, 惠州 HIAF, CIAE HI-13, AGATA, GRETINA） |
+  | projects       | 25   | 研究课题/论文候选的组织页          |
+  | synthesis      | 25   | 跨来源综合比较（已补齐跨区三轴演化、手征八极联立破缺、同核异能态与弱衰变） |
+  | observables    | 25   | 可观测量的定义与提取规范（已补齐内禀偶极矩、阻碍因子、带交叉强度、解耦参数、四极不变量） |
+  | models         | 22   | 理论模型页（已补齐 3D-TAC, NPA, LSSM, QPM, Wilets-Jean） |
+
+  我之前说"14 篇 synthesis 略少"也需要修正——现在已经是 22 篇了，而且：
+
+  这个比例其实是健康的。理由：
+
+  1. source 多是正确的。知识库的根基是 claim-level 的原子事实；521 篇 source 每篇都有 locator 和分层标注，这是整个 Wiki 可追溯性的基石。减少 source 没有意义
+  2. research-notes 269 篇反映了 30 天高强度研究。它们承载的是条件推导、数学反演、审计对账——这些是"思考的痕迹"，不能被 synthesis 替代。比如 133ce-private-data-wobbling-vs-signature-reconstruction 这样的笔记，本身就是一个完整的分析
+  3. synthesis 22 篇覆盖了核心主题。看列表：wobbling-vs-signature-partner、chirality-wobbling-competition-evidence、gamma-soft-vs-gamma-rigid-diagnostics、triaxial-collective-modes-unified-theory-and-spectroscopy 等——关键的争议主题都已有综合页
+
+  真正需要加强的方向：
+
+  - models 只有 15 篇，相对于 Wiki 讨论了大量模型（TAC/TPSM/PRM/QTR/IBM/CDFT/CSM...），模型页偏少。许多模型的适用条件、截断假设、参数空间和失效域散落在 source 和 research-note 里，没有被提升为独立的 model 页
+  - observables 只有 20 篇，考虑到谱学涉及的可观测量（mixing ratio、branching ratio、B(E2)、B(M1)、lifetime、signature splitting、alignment、Q_t 等），应该按"观测量→提取方法→竞争解释→必要伴随观测"结构再补几个
+  - experiments 38 篇，对于"单次采集伪独立"这种30天计划发现的关键问题，实验谱系页的覆盖可以更系统——目前主要覆盖了 VECC INGA、Gammasphere、iThemba 等，但不是所有 source 引用的实验都有独立的 experiment
+
+  synthesis 不需要机械增加数量。只有当三篇以上直接相关来源改变了解释排序时，才需要新建 synthesis；当前 22 篇对应着 22 个真实的跨来源比较节点，密度合理。
