@@ -3,6 +3,17 @@ graph-excluded: true
 updated: 2026-11-07
 ---
 
+## 2026-11-07 — 同核异能态与六区迁移第二轮
+
+- 用户继续研究，5个Gemini/high与1个Terra/xhigh已回收；总控独立回查原表、访问边界及算符。
+- 新长期入口均由knowledge/projects/isomer-six-region-transfer-research.md连接：Ru100矩/Cov、Os192支路、三体节点/相空间、Sn136真实核桥接、N56 E3、Ru102 NRF及轻区/稀土窗口。
+- 已完成公开表数据条件L4与纯三体受控模型；没有真实核寿命/基本3N排他认证。Ru图有PDF/SVG/PNG及生成代码。
+- 正文缺口：98Mo期刊、102Ru、Ding2025尚未取得；Ding XML只是Crossref摘要/引文，非论文全文。学位材料新得为两页会刊摘要，不冒充整本博士论文。
+- 检查：全库137errors/425warnings，起点137/418，本轮新增error0；9source+7manifest归档与preflight通过。完整数值/检索/QMD/Git结果见outputs/l3/20261107-isomer-cross-region-round2/。
+- 持续路线：补关键正文/完整Cov，联合分支与共同算符模型；不重复已闭合toy控制，不将访问未命中当全球缺失。PLAN/课程/调度/原始证据保持。
+- 稳定发布指针main / research: quantify isomer branches and symmetry-breaking controls；精确hash与push只写本轮publication-final-receipt.local.json。
+
+
 ## 2026-11-07 — 同核异能态摄入与六区迁移：本轮有界交付
 
 本段取代下方同日Full-Spectrum条目的科学完成断言；旧条目保留历史。

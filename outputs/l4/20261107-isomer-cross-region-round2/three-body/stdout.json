@@ -1,0 +1,224 @@
+{
+  "checks": [
+    {
+      "two_m": 16,
+      "dimension": 28,
+      "hermiticity_frobenius": 0.0,
+      "jplus_commutator_frobenius": 2.5002767712640626e-14,
+      "c_unitarity_frobenius": 0.0,
+      "c_square_frobenius": 0.0,
+      "h0_c_commutator_frobenius": 2.603703785810335e-16,
+      "v3_c_commutator_frobenius": 5.455529472252663,
+      "c_odd_part_frobenius": 2.7277647361263315,
+      "q20_c_odd_error_frobenius": 1.9918372637938335e-16,
+      "v3_norm_frobenius": 16.850850052982466
+    },
+    {
+      "two_m": 18,
+      "dimension": 22,
+      "hermiticity_frobenius": 0.0,
+      "jplus_commutator_frobenius": 2.276647058068522e-14,
+      "c_unitarity_frobenius": 0.0,
+      "c_square_frobenius": 0.0,
+      "h0_c_commutator_frobenius": 2.0770370905276122e-16,
+      "v3_c_commutator_frobenius": 4.880269360781256,
+      "c_odd_part_frobenius": 2.440134680390628,
+      "q20_c_odd_error_frobenius": 1.9229626863835638e-16,
+      "v3_norm_frobenius": 16.107520607307492
+    },
+    {
+      "two_m": 20,
+      "dimension": 18,
+      "hermiticity_frobenius": 0.0,
+      "jplus_commutator_frobenius": 2.3570887995002016e-14,
+      "c_unitarity_frobenius": 0.0,
+      "c_square_frobenius": 0.0,
+      "h0_c_commutator_frobenius": 2.0770370905276122e-16,
+      "v3_c_commutator_frobenius": 4.4077094836561725,
+      "c_odd_part_frobenius": 2.2038547418280863,
+      "q20_c_odd_error_frobenius": 1.962615573354719e-16,
+      "v3_norm_frobenius": 15.566611211422392
+    }
+  ],
+  "slope": 0.003779396413781319,
+  "finite_difference": 0.0037793961580115387,
+  "B_coefficient": 0.00045232151299593143,
+  "selected": [
+    {
+      "model": "three_body_J27over2",
+      "lambda": -0.01,
+      "energy_J10": -1.0282543933558932,
+      "energy_J8": -1.0220921960541494,
+      "E10_minus_E8": -0.0061621973017438325,
+      "direction_10_to_8": "upward",
+      "C_J10": -0.9999840719254933,
+      "C_J8": -0.9999046049985474,
+      "overlap0_J10_squared": 0.9999775996619686,
+      "overlap0_J8_squared": 0.9999455271338129,
+      "overlap_previous_J10_squared": 0.9999944428976745,
+      "overlap_previous_J8_squared": 0.9999865126663496,
+      "gap_J10": 0.6678937211554439,
+      "gap_J8": 0.6634467298102562,
+      "residual_max": 1.0372605181161391e-15,
+      "highest_weight_max": 3.770467697381117e-15,
+      "components": [
+        {
+          "m_initial": 8,
+          "q": 0,
+          "amplitude": -3.646111250902445e-05,
+          "reduced_amplitude": -0.0009402443631249095,
+          "strength": 4.209806963753175e-08
+        },
+        {
+          "m_initial": 9,
+          "q": -1,
+          "amplitude": 9.175845425633643e-05,
+          "reduced_amplitude": -0.0009402443631252354,
+          "strength": 4.2098069637560935e-08
+        },
+        {
+          "m_initial": 10,
+          "q": -2,
+          "amplitude": -0.00020517814122765794,
+          "reduced_amplitude": -0.0009402443631260821,
+          "strength": 4.2098069637636744e-08
+        }
+      ],
+      "phase_reversal_strength_delta": 0.0,
+      "basis_reorder_rephase_amplitude_delta": 1.3877787807814457e-17,
+      "WE_reduced_amplitude_max_delta": 1.172564649543073e-15
+    },
+    {
+      "model": "three_body_J27over2",
+      "lambda": -0.001,
+      "energy_J10": -1.0028236502937513,
+      "energy_J8": -1.0022057162692681,
+      "E10_minus_E8": -0.0006179340244831799,
+      "direction_10_to_8": "upward",
+      "C_J10": -0.9999998379066117,
+      "C_J8": -0.99999903105519,
+      "overlap0_J10_squared": 0.9999997728677645,
+      "overlap0_J8_squared": 0.9999994456954813,
+      "overlap_previous_J10_squared": 0.9999999432608139,
+      "overlap_previous_J8_squared": 0.9999998615585398,
+      "gap_J10": 0.6667961094315913,
+      "gap_J8": 0.6663408070543841,
+      "residual_max": 1.5342829236864484e-15,
+      "highest_weight_max": 3.883023499796666e-15,
+      "components": [
+        {
+          "m_initial": 8,
+          "q": 0,
+          "amplitude": -3.766291616837114e-06,
+          "reduced_amplitude": -9.712359878594518e-05,
+          "strength": 4.4919016386348836e-10
+        },
+        {
+          "m_initial": 9,
+          "q": -1,
+          "amplitude": 9.478292714111538e-06,
+          "reduced_amplitude": -9.71235987868545e-05,
+          "strength": 4.491901638718994e-10
+        },
+        {
+          "m_initial": 10,
+          "q": -2,
+          "amplitude": -2.1194106819594274e-05,
+          "reduced_amplitude": -9.712359878777053e-05,
+          "strength": 4.491901638803725e-10
+        }
+      ],
+      "phase_reversal_strength_delta": 0.0,
+      "basis_reorder_rephase_amplitude_delta": 2.0816681711721685e-17,
+      "WE_reduced_amplitude_max_delta": 1.825349225069439e-15
+    },
+    {
+      "model": "three_body_J27over2",
+      "lambda": 0.001,
+      "energy_J10": -0.9971767505371982,
+      "energy_J8": -0.9977950709550795,
+      "E10_minus_E8": 0.0006183204178812352,
+      "direction_10_to_8": "downward",
+      "C_J10": -0.9999998372733626,
+      "C_J8": -0.9999990276770192,
+      "overlap0_J10_squared": 0.9999997721641921,
+      "overlap0_J8_squared": 0.9999994435339593,
+      "overlap_previous_J10_squared": 0.9999999429969743,
+      "overlap_previous_J8_squared": 0.9999998607479659,
+      "gap_J10": 0.6659427784279254,
+      "gap_J8": 0.6659747295077203,
+      "residual_max": 6.577438844500193e-16,
+      "highest_weight_max": 3.602730791505087e-15,
+      "components": [
+        {
+          "m_initial": 8,
+          "q": 0,
+          "amplitude": 3.7924500348035517e-06,
+          "reduced_amplitude": 9.779816144596059e-05,
+          "strength": 4.55451446771913e-10
+        },
+        {
+          "m_initial": 9,
+          "q": -1,
+          "amplitude": -9.544123288893863e-06,
+          "reduced_amplitude": 9.779816144554381e-05,
+          "strength": 4.554514467680312e-10
+        },
+        {
+          "m_initial": 10,
+          "q": -2,
+          "amplitude": 2.1341308459430563e-05,
+          "reduced_amplitude": 9.779816144474195e-05,
+          "strength": 4.5545144676056247e-10
+        }
+      ],
+      "phase_reversal_strength_delta": 0.0,
+      "basis_reorder_rephase_amplitude_delta": 6.938893903907228e-18,
+      "WE_reduced_amplitude_max_delta": 1.218643241873707e-15
+    },
+    {
+      "model": "three_body_J27over2",
+      "lambda": 0.01,
+      "energy_J10": -0.9717856918343765,
+      "energy_J8": -0.9779865342225519,
+      "E10_minus_E8": 0.0062008423881754204,
+      "direction_10_to_8": "downward",
+      "C_J10": -0.9999834385751849,
+      "C_J8": -0.9999012266034576,
+      "overlap0_J10_squared": 0.9999768959976717,
+      "overlap0_J8_squared": 0.9999433653469887,
+      "overlap_previous_J10_squared": 0.9999941789967419,
+      "overlap_previous_J8_squared": 0.9999857018793051,
+      "gap_J10": 0.6593577325310265,
+      "gap_J8": 0.6596987618189634,
+      "residual_max": 5.893626011114488e-16,
+      "highest_weight_max": 3.407347060180919e-15,
+      "components": [
+        {
+          "m_initial": 8,
+          "q": 0,
+          "amplitude": 3.9075622226956985e-05,
+          "reduced_amplitude": 0.0010076662780215797,
+          "strength": 4.835196799342208e-08
+        },
+        {
+          "m_initial": 9,
+          "q": -1,
+          "amplitude": -9.833815942285066e-05,
+          "reduced_amplitude": 0.0010076662780210367,
+          "strength": 4.8351967993369974e-08
+        },
+        {
+          "m_initial": 10,
+          "q": -2,
+          "amplitude": 0.00021989080925154163,
+          "reduced_amplitude": 0.0010076662780202853,
+          "strength": 4.835196799329786e-08
+        }
+      ],
+      "phase_reversal_strength_delta": 0.0,
+      "basis_reorder_rephase_amplitude_delta": 2.0816681711721685e-17,
+      "WE_reduced_amplitude_max_delta": 1.2943205535131952e-15
+    }
+  ]
+}

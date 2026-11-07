@@ -1,0 +1,120 @@
+{
+  "baseline_counts": {
+    "error": 137,
+    "warning": 418,
+    "info": 5484
+  },
+  "current_counts": {
+    "error": 137,
+    "warning": 425,
+    "info": 5494
+  },
+  "full_lint_exit": 1,
+  "elapsed_seconds": 109.79659857193474,
+  "new_errors": [],
+  "added": [
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/ding-2025-chiral-rotation-a60-residual-interactions.md",
+      "DC25-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/ding-2025-chiral-rotation-a60-residual-interactions.md",
+      "DC25-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/ding-2025-chiral-rotation-a60-residual-interactions.md",
+      "DC25-3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/karmakar-2025-2026-98mo-octupole-preview.md",
+      "KM-P3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/karmakar-2025-98mo-dae.md",
+      "KD25-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/karmakar-2025-98mo-dae.md",
+      "KD25-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/karmakar-2025-98mo-dae.md",
+      "KD25-3 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/saracino-2026-102ru-scissors-octupole-resonances.md",
+      "SR26-1 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/saracino-2026-102ru-scissors-octupole-resonances.md",
+      "SR26-2 historical needs_review annotation: true"
+    ],
+    [
+      "info",
+      "CLAIM_NEEDS_REVIEW",
+      "knowledge/sources/saracino-2026-102ru-scissors-octupole-resonances.md",
+      "SR26-3 historical needs_review annotation: true"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/ding-2025-chiral-rotation-a60-residual-interactions.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/karmakar-2025-98mo-dae.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/mach-1990-96zr.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/maheshwari-2015-sn-isomers-effective-interaction.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/saracino-2026-102ru-scissors-octupole-resonances.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "CITATION_KEY_MISSING",
+      "knowledge/sources/simpson-2014-136sn-138sn-seniority-isomers.md",
+      "source has no citation_key"
+    ],
+    [
+      "warning",
+      "ORPHAN_PAGE",
+      "knowledge/sources/karmakar-2024-100ru-octupole-access-record.md",
+      "no inbound knowledge link outside index"
+    ]
+  ],
+  "removed": []
+}

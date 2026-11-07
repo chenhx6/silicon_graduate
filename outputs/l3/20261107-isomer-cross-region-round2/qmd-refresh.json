@@ -1,0 +1,11 @@
+{
+  "updated_at": "2026-11-07T12:44:23.167663+00:00",
+  "update_exit": 0,
+  "elapsed_seconds": 32.761667481972836,
+  "stdout": "Updating 1 collection(s)...\n\n[1/1] nuclear-knowledge (**/*.md)\nCollection: /workspace/wiki/knowledge (**/*.md)\n\nIndexed: 13 new, 11 updated, 1467 unchanged, 0 removed\nCleaned up 11 orphaned content hash(es)\n\n✓ All collections updated.\n\nRun 'qmd embed' to update embeddings (1491 unique hashes need vectors)\n\n5999 orphaned embedding chunks (57% of vectors) — run 'qmd cleanup' to reclaim space\n",
+  "stderr": "",
+  "new_note_smoke_exit": 0,
+  "new_note_contains_title": true,
+  "status_after": "QMD Status\n\nIndex: /var/lib/qmd/cache/qmd/wiki.sqlite\nSize:  110.6 MB\n\nDocuments\n  Total:    1491 files indexed\n  Vectors:  10505 embedded\n  Orphaned: 5999 embedding chunks (57%) — run 'qmd cleanup'\n  Pending:  914 need embedding (run 'qmd embed')\n  Updated:  1m ago\n\nAST Chunking\n  Status:   active\n  Languages: typescript, tsx, javascript, python, go, rust\n\nCollections\n  nuclear-knowledge (qmd://nuclear-knowledge/)\n    Pattern:  **/*.md\n    Files:    1491 (updated 1m ago)\n\nExamples\n  # List files in a collection\n  qmd ls nuclear-knowledge\n  # Get a document\n  qmd get qmd://nuclear-knowledge/path/to/file.md\n  # Search within a collection\n  qmd search \"query\" -c nuclear-knowledge\n\nModels\n  Embedding:   https://huggingface.co/Qwen/Qwen3-Embedding-0.6B-GGUF\n  Reranking:   https://huggingface.co/ggml-org/Qwen3-Reranker-0.6B-Q8_0-GGUF\n  Generation:  https://huggingface.co/tobil/qmd-query-expansion-1.7B-gguf\n\nTips\n  Add context to collections for better search results: nuclear-knowledge\n    qmd context add qmd://<name>/ \"What this collection contains\"\n    qmd context add qmd://<name>/meeting-notes \"Weekly team meeting notes\"\n",
+  "scope": "text update only; no embedding or separate cleanup command"
+}

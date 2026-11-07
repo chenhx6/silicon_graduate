@@ -7,6 +7,16 @@ updated: 2026-11-07
 
 # Wiki Index
 
+## 2026-11-07 第二轮：实测分支与对称性破缺
+
+- [[ru100-e1-moments-and-covariance-round2-20261107]] — 六个有限E1点的D0/Q0条件重建、原表误差与相关性场景。
+- [[os192-branch-rates-and-shape-identifiability-round2-20261107]] — E2矩阵元、光子率和转换总率分开，同母态τ消去。
+- [[seniority-node-three-body-breaking-round2-20261107]] — 纯三体解除单j节点、两体PH恒等式、强度与能量相空间的不同扰动幂。
+- [[sn136-seniority-anomaly-and-three-body-identifiability-round2-20261107]] — [[simpson-2014-136sn-138sn-seniority-isomers]]与[[maheshwari-2015-sn-isomers-effective-interaction]]；真实多轨道两体解释不被单j定理排除。
+- [[mo98-e3-and-n56-octupole-evidence-round2-20261107]] — [[karmakar-2025-98mo-dae]]两页学位研究摘要与[[mach-1990-96zr]]直接E3原件；98Mo期刊全文仍未取得。
+- [[ru102-low-spin-dipole-and-high-spin-transfer-round2-20261107]] — [[saracino-2026-102ru-scissors-octupole-resonances]]，实际取得摘要/作者网页，保持正文与静态形变边界。
+- [[light-and-rare-earth-orientation-window-round2-20261107]] — 轻区/稀土后续窗口；[[ding-2025-chiral-rotation-a60-residual-interactions]]及既有151Eu来源，具体读取范围以source为准。
+
 ## 2026-11-07 同核异能态与六区机制研究
 
 - [[isomer-six-region-transfer-research]] — 本轮学习与L3/L4研究总入口，51个所给PDF的身份/覆盖、开放候选和停止条件。

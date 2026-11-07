@@ -1,0 +1,99 @@
+{
+  "schema": "l4-run-provenance-v1",
+  "task": "round-2-T2 scalar three-body particle-hole breaking",
+  "recorded_utc": "2026-11-07T11:57:57.034483+00:00",
+  "model": "j=11/2, n=6; H=-A00\u2020A00+lambda sum_M B\u2020(27/2,M) B(27/2,M)",
+  "status": "completed; independent parent validation outstanding",
+  "data_scope": "local source and dimensionless deterministic synthetic calculation; no new external source",
+  "seed": null,
+  "inputs": [
+    {
+      "path": "system/scripts/isomer_seniority_transfer_validation.py",
+      "size_bytes": 12746,
+      "sha256": "e09c5cb9d879044d7a5e6397795bc12b34aefd3f1c7f1e234d5a397c7342c10f"
+    },
+    {
+      "path": "knowledge/research-notes/seniority-mid-shell-cross-region-model-test-20261107.md",
+      "size_bytes": 20699,
+      "sha256": "d225a6c8d1d415587c46b899342e0783d602f9f103ea568b7d8767955ba38254"
+    },
+    {
+      "path": "knowledge/sources/book-jain-nuclear-isomers.md",
+      "size_bytes": 24688,
+      "sha256": "cd25c728ab09501f97d6f13edfe337226324eb75b5ed4f5df718c11deefb8635"
+    },
+    {
+      "path": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+      "size_bytes": 3099781,
+      "sha256": "994816561cfb6e89bd215b7fe23e37ecf12e8a3e8f5ce88eafbbd388d02ed74a"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "system/scripts/isomer_three_body_ph_breaking.py",
+      "size_bytes": 12794,
+      "sha256": "01dc900e18e0827409e797370a392531e9842843066acae3f541de087342c6f6"
+    },
+    {
+      "path": "knowledge/research-notes/seniority-node-three-body-breaking-round2-20261107.md",
+      "size_bytes": 14745,
+      "sha256": "e1b055fcd8d1e63a9c9b6f477d227d006ec11961e7c23e337366115f5ec5d944"
+    },
+    {
+      "path": "outputs/l4/20261107-isomer-cross-region-round2/three-body/results.json",
+      "size_bytes": 66231,
+      "sha256": "089c0c676807bd4be512ed39538bb39ce643c80e4749b87b559dbd7a2ac5c496"
+    },
+    {
+      "path": "outputs/l4/20261107-isomer-cross-region-round2/three-body/replay-results.json",
+      "size_bytes": 66231,
+      "sha256": "089c0c676807bd4be512ed39538bb39ce643c80e4749b87b559dbd7a2ac5c496"
+    },
+    {
+      "path": "outputs/l4/20261107-isomer-cross-region-round2/three-body/stdout.json",
+      "size_bytes": 7763,
+      "sha256": "c557e1fa7d2b84bebc8e37954c9f6663298522860b4915b98e28f43133615213"
+    },
+    {
+      "path": "system/scripts/isomer_three_body_rate_scaling.py",
+      "size_bytes": 4793,
+      "sha256": "3dee95e37efeeaba9c2624bf57733d16de1e363640beef81a1eab0116fea2497"
+    },
+    {
+      "path": "outputs/l4/20261107-isomer-cross-region-round2/three-body/rate-scaling.json",
+      "size_bytes": 6699,
+      "sha256": "c2fcc17b0890ab3b317cd98924082da22e7af7c2301149749e15061900908a82"
+    },
+    {
+      "path": "outputs/l4/20261107-isomer-cross-region-round2/three-body/parent-operator-check.json",
+      "size_bytes": 8010,
+      "sha256": "67b62651f33ddb864959e8d0fffd665dc9abfb279531861a6fbe2fcb3be34d7f"
+    },
+    {
+      "path": "outputs/l4/20261107-isomer-cross-region-round2/three-body/parent-replay-check.json",
+      "size_bytes": 356,
+      "sha256": "c6260ed98a00780ef5fed7aa4fe0932f58a5b73a416bcc1df3462c0075f92877"
+    }
+  ],
+  "receipt_self_hash": "not included; prevents self-referential hash",
+  "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "run_command": "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 system/scripts/isomer_three_body_ph_breaking.py --output outputs/l4/20261107-isomer-cross-region-round2/three-body/results.json",
+  "replay_command": "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 system/scripts/isomer_three_body_ph_breaking.py --output outputs/l4/20261107-isomer-cross-region-round2/three-body/replay-results.json",
+  "replay_byte_identical": true,
+  "book_scope": "Chapter 3 printed pp. 41\u201343, PDF pp. 52\u201354, Eqs. 3.15, 3.20\u20133.21",
+  "known_debugging": [
+    "First run: NumPy matrix-to-scalar conversion error; corrected with .item().",
+    "First rotated-degeneracy check: rounded eigenvalue used in denominator caused overly strict error; corrected using group mean eigenvalue."
+  ],
+  "notes": "No Git writes; no existing files or raw modified. Results are model calculations, not experimental measurements. No physical lifetime or 3N coupling inferred.",
+  "parent_integration_utc": "2026-11-07T12:28:03.599722+00:00",
+  "parent_verification": "Fresh40-row same-solver replay,42 all-pair PH centroid identities and924-state trimer trace. Additional finite-gap control distinguishes lambda^7 proxy from lambda^2; no physical lifetime."
+}

@@ -1,0 +1,24 @@
+{
+  "updated_at": "2026-11-07T12:46:14.594550+00:00",
+  "round_status": "bounded-delivery; scientific questions remain open",
+  "gemini_workers": 5,
+  "terra_workers": 1,
+  "new_sources": 6,
+  "new_research_notes": 7,
+  "new_lint_errors": 0,
+  "global_lint_errors": 137,
+  "global_lint_warnings": 425,
+  "archive_changed_sources": 9,
+  "archive_manifests": 7,
+  "archive_exit": 0,
+  "preflight_exit": 0,
+  "numerical_controls": "source-table reductions,44CG,40-row replay,42PH identities,924-state trace,2rate-scaling baselines",
+  "qmd_text_documents": 1491,
+  "qmd_new_note_retrieved": true,
+  "embedding": "deferred;914 pending in existing cache, text refreshed",
+  "missing_primary_fulltexts": [
+    "98Mo journal",
+    "Saracino2026 Ru102",
+    "Ding2025 CPC"
+  ]
+}

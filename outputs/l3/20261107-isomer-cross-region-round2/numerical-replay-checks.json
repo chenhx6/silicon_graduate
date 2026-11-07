@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-11-07T12:35:03.999667+00:00",
+  "os192_fresh_replay_equal": true,
+  "os192_rows": 11,
+  "three_body_parent_replay": "outputs/l4/20261107-isomer-cross-region-round2/three-body/parent-replay-check.json",
+  "CG_independent_receipt": "outputs/l4/20261107-isomer-cross-region-round2/ru100/independent-cg-check.json",
+  "rate_scaling_positive_coupling_cases": 2,
+  "scope": "published-table reductions and conditional finite-model validation; not original event reanalysis or an independent complete many-body solver",
+  "format_fix_checked_at": "2026-11-07T12:50:40.391572+00:00",
+  "CSV_LF_rows_unchanged": true,
+  "Os_values_unchanged_excluding_script_hash": true,
+  "SVG_well_formed_and_no_trailing_spaces": true,
+  "final_Os_replay_bytes_equal": true
+}

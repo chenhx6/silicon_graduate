@@ -1,0 +1,19 @@
+{
+  "updated_at": "2026-11-07T12:37:58.598357+00:00",
+  "task": "G15 bounded discovery with parent source-identity audit",
+  "status": "integrated-with-abstract-boundary",
+  "new_source": "knowledge/sources/ding-2025-chiral-rotation-a60-residual-interactions.md",
+  "ding_acquired_artifact": "Crossref query XML with JATS abstract and math processing instructions, not article full body",
+  "ding_unacquired": "paper PDF/full article text/SI",
+  "existing_experiment_reused": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
+  "Ni60_scope": "Peng2019 explicitly limits M4 to I13 in reused experiment; no all-nucleus maximum established here",
+  "parent_rejected": [
+    "Crossref query body treated as full JATS paper",
+    "unarchived 12-band maximum-spin table",
+    "global absence of rare-earth chirality",
+    "universal particle-hole/mass/barrier threshold",
+    "all current Eu lifetime data absent",
+    "shears/scissors terminology conflation"
+  ],
+  "canonical_note": "knowledge/research-notes/light-and-rare-earth-orientation-window-round2-20261107.md"
+}

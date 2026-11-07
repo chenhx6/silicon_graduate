@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-11-07T11:55:11.957302+00:00",
+  "initial_git_status": "clean main...origin/main",
+  "lint_baseline_path": "outputs/l3/20261107-isomer-cross-region/lint-final.json",
+  "lint_baseline_sha256": "fc5ae923b47f799e012fcfb99dbd175fb232895b52283dd80799e05b516f511c",
+  "counts": {
+    "error": 137,
+    "warning": 418,
+    "info": 5484
+  },
+  "note": "Previous committed final lint; starting tree is identical except graph-excluded closeout files. Final run compared by severity/code/path/message. No unrelated legacy repair."
+}

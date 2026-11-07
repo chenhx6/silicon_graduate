@@ -9,6 +9,23 @@ updated: 2026-11-07
 
 全库复习和研究选题入口：[[wiki-full-library-map-20261030]]。该页只做知识导航、证据分层和工作区整理边界，不替代各 `knowledge/sources/` 原件与 locator；代表性证据回链见 [[chakraborty-2023-131xe-wobbling-origin]] C23-D28-1 和 [[gaffney-2013-pear-shaped-rn-ra]] GA13-1。
 
+## Current Snapshot: 2026-11-07 second-round isomer research
+
+[[isomer-six-region-transfer-research]]第二轮新增6个source与7篇研究笔记，
+其中部分来源仍为摘要/会刊/访问边界，不等同6篇新全文论文。
+[[ru100-e1-moments-and-covariance-round2-20261107]]、
+[[os192-branch-rates-and-shape-identifiability-round2-20261107]]保存真实原表的条件换算；
+[[seniority-node-three-body-breaking-round2-20261107]]保存三体模型与有限能隙反向控制，
+[[sn136-seniority-anomaly-and-three-body-identifiability-round2-20261107]]保持真实多轨道与toy模型的区别。
+
+本次全库lint扫描1488篇类型页，137 errors / 425 warnings；
+上轮提交基线137/418，本轮新增error=0，新增缺citation_key6与孤页1警告保留。
+claims=6605，缺locator/kind=0/0。
+这些是结构计数，不代表实验独立性或知识质量资格。9个本轮source和7份规范manifest归档通过，
+preflight通过；数值与实际原件阅读边界见本轮回执。
+QMD更新结果以outputs/l3/20261107-isomer-cross-region-round2/qmd-refresh.json为准，
+文字刷新不等于向量全部重建。原始材料、用户PLAN和daily-learning状态保持。
+
 ## Current Snapshot: 2026-11-07 isomer and six-region research
 
 本轮入口为[[isomer-six-region-transfer-research]]。用户提供的51份PDF共692物理页、

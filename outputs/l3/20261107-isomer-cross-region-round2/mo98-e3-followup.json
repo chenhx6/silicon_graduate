@@ -1,0 +1,28 @@
+{
+  "task": "G13 with parent primary-page audit",
+  "updated_at": "2026-11-07T12:21:53.705141+00:00",
+  "status": "journal-fulltext-not-acquired; substantive substitute originals read",
+  "target_doi": "10.1016/j.nuclphysa.2025.123265",
+  "access_scope": "three categories attempted; non-discovery is not global absence or proof no lawful copy exists",
+  "archived_substitutes": [
+    {
+      "file": "raw/papers/gpt/query/20261107-round2-mo98-e3/karmakar2025-thesis-summary-dae.pdf",
+      "pages": 2,
+      "identity": "thesis research conference summary, not full dissertation"
+    },
+    {
+      "file": "raw/papers/gpt/query/20261107-round2-mo98-e3/mach1990-96zr-e3.pdf",
+      "pages": 4,
+      "identity": "original 1990 experiment with RPA/PES interpretation"
+    }
+  ],
+  "additional_candidate": "raw/papers/gpt/query/20261107-round2-mo98-e3/dae2025-103pd-octupole.pdf",
+  "parent_removed_unsupported_draft_claims": [
+    "precise 98Mo E3 state assignments absent from acquired sources",
+    "98Mo 65ps/43Wu/71Wu/E0 values without archived original",
+    "global absence of E1 or lifetime/g-factor measurements",
+    "Mach both PES variants lack nonzero beta3",
+    "1990 fastest-known claim presented as current global record"
+  ],
+  "canonical_note": "knowledge/research-notes/mo98-e3-and-n56-octupole-evidence-round2-20261107.md"
+}

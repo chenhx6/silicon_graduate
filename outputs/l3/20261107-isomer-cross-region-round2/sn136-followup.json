@@ -1,0 +1,32 @@
+{
+  "updated_at": "2026-11-07T12:26:29.734947+00:00",
+  "primary_sources": [
+    "knowledge/sources/simpson-2014-136sn-138sn-seniority-isomers.md",
+    "knowledge/sources/maheshwari-2015-sn-isomers-effective-interaction.md"
+  ],
+  "read_pages": {
+    "simpson": 6,
+    "maheshwari_actual_arxiv": 5
+  },
+  "parent_checked": [
+    "2014 TableI and model paragraphs",
+    "2015 p2 Fig1 rendered and pp3–4 model values"
+  ],
+  "two_state_conditional_diagnostic": {
+    "RCDB_sum": 67.6,
+    "RCDBMO_sum": 68.4,
+    "RCDB_B1_fraction": 0.21449704142011836,
+    "RCDBMO_B1_fraction": 0.3216374269005848,
+    "sum_relative_change": 0.01183431952662728,
+    "interpretation": "illustrative two-state sum/fraction, not a measured or uniquely extracted seniority probability"
+  },
+  "parent_removed_draft_claims": [
+    "25keV modification is a proof of perfect global model agreement",
+    "uncited alpha=.046 and exact 100% branch",
+    "136Sn4_2 misassigned from134Sn6 energies",
+    "all empirical three-body descriptions equated to microscopic normal ordering",
+    "physical mixed B2 reused as a pure-v4 reference"
+  ],
+  "not_run": "real-nucleus NuShell or ab-initio3N calculation",
+  "canonical_note": "knowledge/research-notes/sn136-seniority-anomaly-and-three-body-identifiability-round2-20261107.md"
+}

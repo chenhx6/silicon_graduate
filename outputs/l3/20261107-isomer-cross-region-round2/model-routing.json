@@ -1,0 +1,14 @@
+{
+  "gemini_high_workers": 5,
+  "terra_xhigh_workers": 1,
+  "agent_ids": {
+    "G13": "01a1b5d9-f69e-7a50-9d08-50e2834b5ae9",
+    "G14": "01a1b5d9-fa29-7c81-869a-4bae6f36a892",
+    "G15": "01a1b5d9-fca5-77a2-8dca-28add8e3d46d",
+    "G16": "01a1b5db-3805-7f51-aa4b-b40e8ca18932",
+    "G17": "01a1b5e3-d135-77b2-8dc6-415fe875054e",
+    "T2": "01a1b5d9-ffa9-76c0-857c-6d9e293e9ea3"
+  },
+  "all_closed": true,
+  "scope": "requested worker model routes; no leader or daemon configuration change"
+}

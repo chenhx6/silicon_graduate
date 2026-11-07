@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-11-07T12:01:37.419581+00:00",
+  "exit_code": 0,
+  "output_json_equal": true,
+  "output_byte_equal": true,
+  "replay_sha256": "089c0c676807bd4be512ed39538bb39ce643c80e4749b87b559dbd7a2ac5c496",
+  "row_count": 40,
+  "scope": "fresh parent replay of same solver; separate parent-operator-check adds algebraic/combinatorial controls"
+}

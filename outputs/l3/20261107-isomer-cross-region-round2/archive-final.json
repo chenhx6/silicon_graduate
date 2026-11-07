@@ -1,0 +1,29 @@
+{
+  "command": [
+    "python3",
+    "system/scripts/wiki_archive_gate.py",
+    "check",
+    "--root",
+    ".",
+    "--",
+    "knowledge/sources/ding-2025-chiral-rotation-a60-residual-interactions.md",
+    "knowledge/sources/dracoulis-2013-192os-isomers-gamma-soft.md",
+    "knowledge/sources/karmakar-2024-100ru-enhanced-e1-lifetimes.md",
+    "knowledge/sources/karmakar-2025-2026-98mo-octupole-preview.md",
+    "knowledge/sources/karmakar-2025-98mo-dae.md",
+    "knowledge/sources/mach-1990-96zr.md",
+    "knowledge/sources/maheshwari-2015-sn-isomers-effective-interaction.md",
+    "knowledge/sources/saracino-2026-102ru-scissors-octupole-resonances.md",
+    "knowledge/sources/simpson-2014-136sn-138sn-seniority-isomers.md",
+    "raw/papers/gpt/query/20261107-round2-mo98-e3/manifest.json",
+    "raw/papers/gpt/query/20261107-round2-orientation-window/manifest.json",
+    "raw/papers/gpt/query/20261107-round2-orientation-window/ding-full/manifest.json",
+    "raw/papers/gpt/query/20261107-round2-ru102-dipole/manifest.json",
+    "raw/papers/gpt/query/20261107-round2-ru102-dipole/verified-official/manifest.json",
+    "raw/papers/gpt/query/20261107-round2-ru102-dipole/verified-official/abstract-records/manifest.json",
+    "raw/papers/gpt/query/20261107-round2-sn136-seniority/manifest.json"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"checked_manifests\": [\n    \"/workspace/wiki/raw/papers/gpt/query/20261107-round2-mo98-e3/manifest.json\",\n    \"/workspace/wiki/raw/papers/gpt/query/20261107-round2-orientation-window/ding-full/manifest.json\",\n    \"/workspace/wiki/raw/papers/gpt/query/20261107-round2-orientation-window/manifest.json\",\n    \"/workspace/wiki/raw/papers/gpt/query/20261107-round2-ru102-dipole/manifest.json\",\n    \"/workspace/wiki/raw/papers/gpt/query/20261107-round2-ru102-dipole/verified-official/abstract-records/manifest.json\",\n    \"/workspace/wiki/raw/papers/gpt/query/20261107-round2-ru102-dipole/verified-official/manifest.json\",\n    \"/workspace/wiki/raw/papers/gpt/query/20261107-round2-sn136-seniority/manifest.json\"\n  ],\n  \"checked_sources\": [\n    \"/workspace/wiki/knowledge/sources/ding-2025-chiral-rotation-a60-residual-interactions.md\",\n    \"/workspace/wiki/knowledge/sources/dracoulis-2013-192os-isomers-gamma-soft.md\",\n    \"/workspace/wiki/knowledge/sources/karmakar-2024-100ru-enhanced-e1-lifetimes.md\",\n    \"/workspace/wiki/knowledge/sources/karmakar-2025-2026-98mo-octupole-preview.md\",\n    \"/workspace/wiki/knowledge/sources/karmakar-2025-98mo-dae.md\",\n    \"/workspace/wiki/knowledge/sources/mach-1990-96zr.md\",\n    \"/workspace/wiki/knowledge/sources/maheshwari-2015-sn-isomers-effective-interaction.md\",\n    \"/workspace/wiki/knowledge/sources/saracino-2026-102ru-scissors-octupole-resonances.md\",\n    \"/workspace/wiki/knowledge/sources/simpson-2014-136sn-138sn-seniority-isomers.md\"\n  ],\n  \"failure_count\": 0,\n  \"failures\": [],\n  \"ok\": true,\n  \"scope\": \"paths\"\n}\n",
+  "stderr": ""
+}

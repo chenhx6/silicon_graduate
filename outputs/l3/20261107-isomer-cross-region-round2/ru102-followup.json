@@ -1,0 +1,35 @@
+{
+  "task": "G16 with parent evidence audit",
+  "updated_at": "2026-11-07T12:15:41.900388+00:00",
+  "status": "abstract-and-author-webpage-read; paper-fulltext-not-acquired",
+  "doi": "10.1103/rcb1-gntj",
+  "online_date": "2026-06-23",
+  "issue_date": "2026-06-26",
+  "canonical_source": "knowledge/sources/saracino-2026-102ru-scissors-octupole-resonances.md",
+  "canonical_research_note": "knowledge/research-notes/ru102-low-spin-dipole-and-high-spin-transfer-round2-20261107.md",
+  "official_response_manifests": [
+    "raw/papers/gpt/query/20261107-round2-ru102-dipole/verified-official/manifest.json",
+    "raw/papers/gpt/query/20261107-round2-ru102-dipole/verified-official/abstract-records/manifest.json"
+  ],
+  "read_scope": [
+    "PubMed/EuropePMC actual primary abstract response",
+    "Crossref actual metadata response",
+    "UNC/TUNL author highlight HTML, Ru102 item"
+  ],
+  "not_read": [
+    "paper PDF",
+    "SI",
+    "level-by-level strength tables",
+    "full QRPA implementation"
+  ],
+  "parent_removed_unsupported_claims": [
+    "unverified/reversed E1/M1 asymmetry signs",
+    "unique exclusion of PDR and two-phonon alternatives",
+    "specific orbit occupation inferred from N alone",
+    "universal Ru-chain octupole mechanism",
+    "all cumulative strength treated as strict lower bound",
+    "unverified citation_key",
+    "copyrighted abstract/highlight copied in full into knowledge"
+  ],
+  "new_original_experiment_performed": false
+}

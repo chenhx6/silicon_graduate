@@ -1,0 +1,139 @@
+{
+  "checked_at": "2026-11-07T12:50:40.820988+00:00",
+  "artifact_checks": [
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/ru100/run-provenance.json",
+      "artifact": "outputs/l4/20261107-isomer-cross-region-round2/ru100/table1-transcription.json",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/ru100/run-provenance.json",
+      "artifact": "outputs/l4/20261107-isomer-cross-region-round2/ru100/results.json",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/ru100/run-provenance.json",
+      "artifact": "outputs/l4/20261107-isomer-cross-region-round2/ru100/independent-cg-check.json",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/ru100/run-provenance.json",
+      "artifact": "outputs/l4/20261107-isomer-cross-region-round2/ru100/ru100-moments-covariance.png",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/ru100/run-provenance.json",
+      "artifact": "outputs/l4/20261107-isomer-cross-region-round2/ru100/ru100-moments-covariance.pdf",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/ru100/run-provenance.json",
+      "artifact": "outputs/l4/20261107-isomer-cross-region-round2/ru100/ru100-moments-covariance.svg",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/ru100/run-provenance.json",
+      "artifact": "system/scripts/ru100_e1_moment_audit.py",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/ru100/run-provenance.json",
+      "artifact": "system/scripts/ru100_e1_moment_plot.py",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/os192/run-provenance.json",
+      "artifact": "/workspace/wiki/system/scripts/os192_branch_rate_audit.py",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/os192/run-provenance.json",
+      "artifact": "/workspace/wiki/outputs/l4/20261107-isomer-cross-region-round2/os192/table1-transcription.json",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/os192/run-provenance.json",
+      "artifact": "/workspace/wiki/outputs/l4/20261107-isomer-cross-region-round2/os192/os192_branch_rates.json",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/os192/run-provenance.json",
+      "artifact": "/workspace/wiki/outputs/l4/20261107-isomer-cross-region-round2/os192/os192_transitions.csv",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/three-body/run-provenance.json",
+      "artifact": "system/scripts/isomer_three_body_ph_breaking.py",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/three-body/run-provenance.json",
+      "artifact": "knowledge/research-notes/seniority-node-three-body-breaking-round2-20261107.md",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/three-body/run-provenance.json",
+      "artifact": "outputs/l4/20261107-isomer-cross-region-round2/three-body/results.json",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/three-body/run-provenance.json",
+      "artifact": "outputs/l4/20261107-isomer-cross-region-round2/three-body/replay-results.json",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/three-body/run-provenance.json",
+      "artifact": "outputs/l4/20261107-isomer-cross-region-round2/three-body/stdout.json",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/three-body/run-provenance.json",
+      "artifact": "system/scripts/isomer_three_body_rate_scaling.py",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/three-body/run-provenance.json",
+      "artifact": "outputs/l4/20261107-isomer-cross-region-round2/three-body/rate-scaling.json",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/three-body/run-provenance.json",
+      "artifact": "outputs/l4/20261107-isomer-cross-region-round2/three-body/parent-operator-check.json",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/three-body/run-provenance.json",
+      "artifact": "outputs/l4/20261107-isomer-cross-region-round2/three-body/parent-replay-check.json",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/three-body/run-provenance.json",
+      "artifact": "system/scripts/isomer_seniority_transfer_validation.py",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/three-body/run-provenance.json",
+      "artifact": "knowledge/research-notes/seniority-mid-shell-cross-region-model-test-20261107.md",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/three-body/run-provenance.json",
+      "artifact": "knowledge/sources/book-jain-nuclear-isomers.md",
+      "matches": true
+    },
+    {
+      "receipt": "outputs/l4/20261107-isomer-cross-region-round2/three-body/run-provenance.json",
+      "artifact": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+      "matches": true
+    }
+  ],
+  "hash_failures": [],
+  "script_ast_checks": [
+    "ru100_e1_moment_audit.py",
+    "ru100_e1_moment_plot.py",
+    "os192_branch_rate_audit.py",
+    "isomer_three_body_ph_breaking.py",
+    "isomer_three_body_rate_scaling.py"
+  ],
+  "scope": "computation artifacts and declared inputs; source raw archives checked separately"
+}

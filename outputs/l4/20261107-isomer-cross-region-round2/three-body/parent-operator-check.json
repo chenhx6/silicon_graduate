@@ -1,0 +1,408 @@
+{
+  "checked_at": "2026-11-07T12:01:37.258515+00:00",
+  "operator_identity": "C_n^T P_J(12-n) C_n = P_J(n) + (2J+1)(1-n/Omega)I, Omega=6",
+  "centroid_cases": [
+    {
+      "n": 0,
+      "pair_J": 0,
+      "centroid_identity_residual": 0.0
+    },
+    {
+      "n": 0,
+      "pair_J": 2,
+      "centroid_identity_residual": 8.881784197001252e-16
+    },
+    {
+      "n": 0,
+      "pair_J": 4,
+      "centroid_identity_residual": 0.0
+    },
+    {
+      "n": 0,
+      "pair_J": 6,
+      "centroid_identity_residual": 0.0
+    },
+    {
+      "n": 0,
+      "pair_J": 8,
+      "centroid_identity_residual": 0.0
+    },
+    {
+      "n": 0,
+      "pair_J": 10,
+      "centroid_identity_residual": 0.0
+    },
+    {
+      "n": 2,
+      "pair_J": 0,
+      "centroid_identity_residual": 3.1401849173675503e-16
+    },
+    {
+      "n": 2,
+      "pair_J": 2,
+      "centroid_identity_residual": 9.930136612989092e-16
+    },
+    {
+      "n": 2,
+      "pair_J": 4,
+      "centroid_identity_residual": 1.538370149106851e-15
+    },
+    {
+      "n": 2,
+      "pair_J": 6,
+      "centroid_identity_residual": 3.076740298213702e-15
+    },
+    {
+      "n": 2,
+      "pair_J": 8,
+      "centroid_identity_residual": 4.351167857633658e-15
+    },
+    {
+      "n": 2,
+      "pair_J": 10,
+      "centroid_identity_residual": 5.0242958677880805e-15
+    },
+    {
+      "n": 4,
+      "pair_J": 0,
+      "centroid_identity_residual": 4.1168171577819285e-16
+    },
+    {
+      "n": 4,
+      "pair_J": 2,
+      "centroid_identity_residual": 1.7199501139797033e-15
+    },
+    {
+      "n": 4,
+      "pair_J": 4,
+      "centroid_identity_residual": 2.0350724194510405e-15
+    },
+    {
+      "n": 4,
+      "pair_J": 6,
+      "centroid_identity_residual": 4.440892098500626e-15
+    },
+    {
+      "n": 4,
+      "pair_J": 8,
+      "centroid_identity_residual": 5.475099487534308e-15
+    },
+    {
+      "n": 4,
+      "pair_J": 10,
+      "centroid_identity_residual": 6.705600017716362e-15
+    },
+    {
+      "n": 6,
+      "pair_J": 0,
+      "centroid_identity_residual": 4.002966042486721e-16
+    },
+    {
+      "n": 6,
+      "pair_J": 2,
+      "centroid_identity_residual": 1.3229834214604202e-15
+    },
+    {
+      "n": 6,
+      "pair_J": 4,
+      "centroid_identity_residual": 2.1065000811460206e-15
+    },
+    {
+      "n": 6,
+      "pair_J": 6,
+      "centroid_identity_residual": 4.259554063523935e-15
+    },
+    {
+      "n": 6,
+      "pair_J": 8,
+      "centroid_identity_residual": 7.404446833684493e-15
+    },
+    {
+      "n": 6,
+      "pair_J": 10,
+      "centroid_identity_residual": 6.8510746500567485e-15
+    },
+    {
+      "n": 8,
+      "pair_J": 0,
+      "centroid_identity_residual": 5.633766544994711e-16
+    },
+    {
+      "n": 8,
+      "pair_J": 2,
+      "centroid_identity_residual": 4.725952219296117e-15
+    },
+    {
+      "n": 8,
+      "pair_J": 4,
+      "centroid_identity_residual": 7.844179409424477e-15
+    },
+    {
+      "n": 8,
+      "pair_J": 6,
+      "centroid_identity_residual": 8.747542958250513e-15
+    },
+    {
+      "n": 8,
+      "pair_J": 8,
+      "centroid_identity_residual": 1.3113797212790068e-14
+    },
+    {
+      "n": 8,
+      "pair_J": 10,
+      "centroid_identity_residual": 1.6852000649168165e-14
+    },
+    {
+      "n": 10,
+      "pair_J": 0,
+      "centroid_identity_residual": 3.1401849173675503e-16
+    },
+    {
+      "n": 10,
+      "pair_J": 2,
+      "centroid_identity_residual": 9.930136612989092e-16
+    },
+    {
+      "n": 10,
+      "pair_J": 4,
+      "centroid_identity_residual": 1.538370149106851e-15
+    },
+    {
+      "n": 10,
+      "pair_J": 6,
+      "centroid_identity_residual": 3.076740298213702e-15
+    },
+    {
+      "n": 10,
+      "pair_J": 8,
+      "centroid_identity_residual": 4.351167857633658e-15
+    },
+    {
+      "n": 10,
+      "pair_J": 10,
+      "centroid_identity_residual": 5.0242958677880805e-15
+    },
+    {
+      "n": 12,
+      "pair_J": 0,
+      "centroid_identity_residual": 0.0
+    },
+    {
+      "n": 12,
+      "pair_J": 2,
+      "centroid_identity_residual": 8.881784197001252e-16
+    },
+    {
+      "n": 12,
+      "pair_J": 4,
+      "centroid_identity_residual": 0.0
+    },
+    {
+      "n": 12,
+      "pair_J": 6,
+      "centroid_identity_residual": 0.0
+    },
+    {
+      "n": 12,
+      "pair_J": 8,
+      "centroid_identity_residual": 0.0
+    },
+    {
+      "n": 12,
+      "pair_J": 10,
+      "centroid_identity_residual": 0.0
+    }
+  ],
+  "maximum_centroid_identity_error": 1.6852000649168165e-14,
+  "three_body_full_n6_trace": 2352.0000000000014,
+  "independent_combinatorial_trace": 2352,
+  "basis_dimension": 924,
+  "M_sector_trace_details": [
+    {
+      "two_M": -36,
+      "dimension": 1,
+      "trace": 6.209054103790952
+    },
+    {
+      "two_M": -34,
+      "dimension": 1,
+      "trace": 6.209054103790952
+    },
+    {
+      "two_M": -32,
+      "dimension": 2,
+      "trace": 11.545173093160722
+    },
+    {
+      "two_M": -30,
+      "dimension": 3,
+      "trace": 15.885990170819909
+    },
+    {
+      "two_M": -28,
+      "dimension": 5,
+      "trace": 24.373075840568127
+    },
+    {
+      "two_M": -26,
+      "dimension": 7,
+      "trace": 31.660103054839933
+    },
+    {
+      "two_M": -24,
+      "dimension": 11,
+      "trace": 44.375359934183514
+    },
+    {
+      "two_M": -22,
+      "dimension": 13,
+      "trace": 50.12701076013774
+    },
+    {
+      "two_M": -20,
+      "dimension": 18,
+      "trace": 62.407023317240096
+    },
+    {
+      "two_M": -18,
+      "dimension": 22,
+      "trace": 70.2256381389509
+    },
+    {
+      "two_M": -16,
+      "dimension": 28,
+      "trace": 81.58812704323546
+    },
+    {
+      "two_M": -14,
+      "dimension": 32,
+      "trace": 87.1962155491568
+    },
+    {
+      "two_M": -12,
+      "dimension": 39,
+      "trace": 96.57909891965626
+    },
+    {
+      "two_M": -10,
+      "dimension": 42,
+      "trace": 99.64193855679929
+    },
+    {
+      "two_M": -8,
+      "dimension": 48,
+      "trace": 105.10434302539574
+    },
+    {
+      "two_M": -6,
+      "dimension": 51,
+      "trace": 106.90093961765795
+    },
+    {
+      "two_M": -4,
+      "dimension": 55,
+      "trace": 109.98592738530827
+    },
+    {
+      "two_M": -2,
+      "dimension": 55,
+      "trace": 109.98592738530824
+    },
+    {
+      "two_M": 0,
+      "dimension": 58,
+      "trace": 112.00000000000006
+    },
+    {
+      "two_M": 2,
+      "dimension": 55,
+      "trace": 109.98592738530826
+    },
+    {
+      "two_M": 4,
+      "dimension": 55,
+      "trace": 109.98592738530823
+    },
+    {
+      "two_M": 6,
+      "dimension": 51,
+      "trace": 106.90093961765793
+    },
+    {
+      "two_M": 8,
+      "dimension": 48,
+      "trace": 105.10434302539568
+    },
+    {
+      "two_M": 10,
+      "dimension": 42,
+      "trace": 99.64193855679926
+    },
+    {
+      "two_M": 12,
+      "dimension": 39,
+      "trace": 96.57909891965623
+    },
+    {
+      "two_M": 14,
+      "dimension": 32,
+      "trace": 87.19621554915675
+    },
+    {
+      "two_M": 16,
+      "dimension": 28,
+      "trace": 81.58812704323543
+    },
+    {
+      "two_M": 18,
+      "dimension": 22,
+      "trace": 70.22563813895084
+    },
+    {
+      "two_M": 20,
+      "dimension": 18,
+      "trace": 62.407023317240046
+    },
+    {
+      "two_M": 22,
+      "dimension": 13,
+      "trace": 50.1270107601377
+    },
+    {
+      "two_M": 24,
+      "dimension": 11,
+      "trace": 44.37535993418347
+    },
+    {
+      "two_M": 26,
+      "dimension": 7,
+      "trace": 31.6601030548399
+    },
+    {
+      "two_M": 28,
+      "dimension": 5,
+      "trace": 24.373075840568102
+    },
+    {
+      "two_M": 30,
+      "dimension": 3,
+      "trace": 15.885990170819895
+    },
+    {
+      "two_M": 32,
+      "dimension": 2,
+      "trace": 11.54517309316071
+    },
+    {
+      "two_M": 34,
+      "dimension": 1,
+      "trace": 6.209054103790947
+    },
+    {
+      "two_M": 36,
+      "dimension": 1,
+      "trace": 6.209054103790947
+    }
+  ],
+  "scope": "independent combinatorial/operator identities applied to reused matrix construction; not an independent complete many-body solver"
+}

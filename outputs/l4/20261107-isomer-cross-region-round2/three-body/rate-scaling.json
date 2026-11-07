@@ -1,0 +1,173 @@
+{
+  "model": "j=11/2,n=6,H=-P0+eta*P2+lambda*V3(J=27/2)",
+  "units": "dimensionless; single-particle reduced E2 element 1",
+  "proxy": "positive (E10-E8)^5 * B(10->8), omits physical radiation constant",
+  "cases": [
+    {
+      "eta_J2_baseline": 0.0,
+      "baseline_energy_gap": 0.0,
+      "baseline_B_roundoff": 5.488900341503623e-32,
+      "first_order_gap_slope": 0.6181269710681443,
+      "first_order_B_coefficient": 0.0004523215129959281,
+      "leading_proxy_exponent": 7,
+      "leading_proxy_coefficient": 4.0816495443344543e-05,
+      "rows": [
+        {
+          "lambda": 1e-06,
+          "E10_minus_E8": 6.181271642313746e-07,
+          "B": 4.523246521380157e-16,
+          "dimensionless_E5_B_proxy": 4.081684248837957e-47,
+          "B_over_lambda2": 0.00045232465213801567,
+          "proxy_over_expected_lambda_power": 4.081684248837958e-05
+        },
+        {
+          "lambda": 2e-06,
+          "E10_minus_E8": 1.2362547145983172e-06,
+          "B": 1.8093111285261917e-15,
+          "dimensionless_E5_B_proxy": 5.2246001506967255e-45,
+          "B_over_lambda2": 0.00045232778213154793,
+          "proxy_over_expected_lambda_power": 4.081718867731818e-05
+        },
+        {
+          "lambda": 5e-06,
+          "E10_minus_E8": 3.090639684844021e-06,
+          "B": 1.1308429204771944e-14,
+          "dimensionless_E5_B_proxy": 3.188923988282409e-42,
+          "B_over_lambda2": 0.0004523371681908777,
+          "proxy_over_expected_lambda_power": 4.081822705001481e-05
+        },
+        {
+          "lambda": 1e-05,
+          "E10_minus_E8": 6.181289031181869e-06,
+          "B": 4.5235282130699026e-14,
+          "dimensionless_E5_B_proxy": 4.08199585752868e-40,
+          "B_over_lambda2": 0.0004523528213069902,
+          "proxy_over_expected_lambda_power": 4.081995857528678e-05
+        },
+        {
+          "lambda": 2e-05,
+          "E10_minus_E8": 1.2362616702343843e-05,
+          "B": 1.8095365074271836e-13,
+          "dimensionless_E5_B_proxy": 5.225397956797558e-38,
+          "B_over_lambda2": 0.0004523841268567958,
+          "proxy_over_expected_lambda_power": 4.08234215374809e-05
+        },
+        {
+          "lambda": 5e-05,
+          "E10_minus_E8": 3.090683157580543e-05,
+          "B": 1.1311951135517354e-12,
+          "dimensionless_E5_B_proxy": 3.190141508377554e-35,
+          "B_over_lambda2": 0.00045247804542069414,
+          "proxy_over_expected_lambda_power": 4.083381130723268e-05
+        },
+        {
+          "lambda": 0.0001,
+          "E10_minus_E8": 6.18146293215327e-05,
+          "B": 4.526345738816793e-12,
+          "dimensionless_E5_B_proxy": 4.0851129634003415e-33,
+          "B_over_lambda2": 0.00045263457388167926,
+          "proxy_over_expected_lambda_power": 4.08511296340034e-05
+        }
+      ],
+      "neighboring_log_slopes": [
+        7.000012236197522,
+        7.000027763317091,
+        7.000061198393969,
+        7.000122385878202,
+        7.000277720519373,
+        7.000611742243676
+      ]
+    },
+    {
+      "eta_J2_baseline": 0.05,
+      "baseline_energy_gap": 0.012534915751767128,
+      "baseline_B_roundoff": 7.471003242602154e-32,
+      "first_order_gap_slope": 0.6241386003135885,
+      "first_order_B_coefficient": 0.0009376962053138936,
+      "leading_proxy_exponent": 2,
+      "leading_proxy_coefficient": 2.9018118866777694e-13,
+      "rows": [
+        {
+          "lambda": 1e-06,
+          "E10_minus_E8": 0.012535539890538905,
+          "B": 9.37700542908266e-16,
+          "dimensionless_E5_B_proxy": 2.902547820538531e-25,
+          "B_over_lambda2": 0.0009377005429082661,
+          "proxy_over_expected_lambda_power": 2.902547820538531e-13
+        },
+        {
+          "lambda": 2e-06,
+          "E10_minus_E8": 0.012536164029654073,
+          "B": 3.7508193563036745e-15,
+          "dimensionless_E5_B_proxy": 1.1613135108505734e-24,
+          "B_over_lambda2": 0.0009377048390759186,
+          "proxy_over_expected_lambda_power": 2.9032837771264335e-13
+        },
+        {
+          "lambda": 5e-06,
+          "E10_minus_E8": 0.01253803644906104,
+          "B": 2.3442944231219744e-14,
+          "dimensionless_E5_B_proxy": 7.263731704509653e-24,
+          "B_over_lambda2": 0.0009377177692487896,
+          "proxy_over_expected_lambda_power": 2.9054926818038607e-13
+        },
+        {
+          "lambda": 1e-05,
+          "E10_minus_E8": 0.012541157154940419,
+          "B": 9.377393288225489e-14,
+          "dimensionless_E5_B_proxy": 2.909177239590033e-23,
+          "B_over_lambda2": 0.0009377393288225488,
+          "proxy_over_expected_lambda_power": 2.909177239590033e-13
+        },
+        {
+          "lambda": 2e-05,
+          "E10_minus_E8": 0.012547398592455683,
+          "B": 3.751129795332663e-13,
+          "dimensionless_E5_B_proxy": 1.1666230792748601e-22,
+          "B_over_lambda2": 0.0009377824488331656,
+          "proxy_over_expected_lambda_power": 2.91655769818715e-13
+        },
+        {
+          "lambda": 5e-05,
+          "E10_minus_E8": 0.012566123111068972,
+          "B": 2.344779517899675e-12,
+          "dimensionless_E5_B_proxy": 7.346975013618132e-22,
+          "B_over_lambda2": 0.0009379118071598699,
+          "proxy_over_expected_lambda_power": 2.938790005447253e-13
+        },
+        {
+          "lambda": 0.0001,
+          "E10_minus_E8": 0.012597331329051165,
+          "B": 9.38127390286194e-12,
+          "dimensionless_E5_B_proxy": 2.9761483591339584e-21,
+          "B_over_lambda2": 0.000938127390286194,
+          "proxy_over_expected_lambda_power": 2.9761483591339584e-13
+        }
+      ],
+      "neighboring_log_slopes": [
+        2.000365756707718,
+        2.000830020911217,
+        2.0018283734173443,
+        2.0036554209306456,
+        2.008287635371879,
+        2.018224172412074
+      ]
+    }
+  ],
+  "interpretation": "B starts as lambda^2 in both tested cases. The rate proxy starts as lambda^7 only when the same perturbation also opens a zero baseline gap; a finite symmetry-preserving baseline gap instead gives lambda^2.",
+  "limitations": "Illustrative eta is not fitted to a nucleus; no total competing widths, internal conversion or physical lifetime.",
+  "scripts": [
+    {
+      "path": "/workspace/wiki/system/scripts/isomer_three_body_rate_scaling.py",
+      "sha256": "3dee95e37efeeaba9c2624bf57733d16de1e363640beef81a1eab0116fea2497"
+    },
+    {
+      "path": "/workspace/wiki/system/scripts/isomer_three_body_ph_breaking.py",
+      "sha256": "01dc900e18e0827409e797370a392531e9842843066acae3f541de087342c6f6"
+    },
+    {
+      "path": "/workspace/wiki/system/scripts/isomer_seniority_transfer_validation.py",
+      "sha256": "e09c5cb9d879044d7a5e6397795bc12b34aefd3f1c7f1e234d5a397c7342c10f"
+    }
+  ]
+}

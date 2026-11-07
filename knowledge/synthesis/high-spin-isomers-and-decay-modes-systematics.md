@@ -86,6 +86,23 @@ tags: [isomers, seniority, k-isomer, gamow-teller, superheavy-nuclei, cross-regi
 
 ## Counter-evidence
 
+### 第二轮：真正解除节点与真实核的反向约束
+
+[[seniority-node-three-body-breaking-round2-20261107]]构造归一的J=27/2三费米子通道，
+V3=ΣB†B为纯三体、旋转不变且破坏中壳粒子—空穴对称性。
+所跟踪10→8的B在小λ以λ²起始，而全部单j标量两体通道满足
+C_n†P_J(2Ω−n)C_n−P_J(n)=(2J+1)(1−n/Ω)I，在n=Ω处保PH。
+这限定了该单轨道、同种核子模型中的体数结论，不等于真实核必须以基本3N解除节点。
+
+若纯配对基线的两态简并，三体扰动又使Eγ∝λ，则无量纲Eγ⁵B代理以λ⁷起始。
+若先由保PH两体项形成有限能隙，B仍可被保护而为0；随后三体解除时代理则以λ²起始。
+矩阵元与相空间必须同时检查，两种幂都不提供物理单位的寿命。
+
+真实核对照见[[sn136-seniority-anomaly-and-three-body-identifiability-round2-20261107]]：
+136Sn相对132Sn的f7/2四粒子是理想中壳计数，但实际多轨道两体计算可给
+B(E2)从14.5到22.0e²fm⁴、与24(4)的实验值相容。因此非零B不是显式三体的唯一证据；
+需联合其它末态、算符及谱来比较解释。
+
 ### K异能态与三轴动力学
 
 用同一支路的辐射时间定义
@@ -108,6 +125,9 @@ Hayes2005的安全能量库仑激发研究，说明低K带可随旋转顺排混�
 （[[dracoulis-2013-192os-isomers-gamma-soft]]，Table1、Figs.3–5）。
 2012年191/193Ir作者提出spin trapping与三轴组态共存，
 本轮该篇仅取得首页，解释和数值细节保留访问边界。
+第二轮[[os192-branch-rates-and-shape-identifiability-round2-20261107]]进一步给出：
+两E2的约220倍强度比对应光子率比0.217、含原表转换系数的总跃迁率比0.806，
+并非220倍的衰变流。共同τ可消去，未知协方差、暂定指定和表文差异仍须保存。
 
 ## Evidence Matrix
 

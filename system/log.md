@@ -6102,3 +6102,11 @@ Actual record UTC: 2026-11-06T10:24:40.867670+00:00. User requested a phase clos
 - 输入51PDF身份/覆盖/哈希已对账；重点综述/书及学位论文回读，三主综合与相关观测量/迁移笔记更正，新增100Ru原文补证和有限单j L4。可复用事实及候选均在knowledge。
 - 全库lint137 errors/418 warnings，对比HEAD202/350无本轮新增error；62source+5规范manifest归档和边界检查通过。最终preflight/QMD/Git状态见本轮执行回执。
 - 交付入口：outputs/l3/20261107-isomer-cross-region/final-report.md；稳定发布指针main / research: ground isomer and six-region synthesis in primary evidence。开放问题不冒充全部完成，原件/PLAN/课程状态保持。
+
+
+## 2026-11-07T12:43:10.778546+00:00 — Isomer cross-region research round2
+
+- 5Gemini/high与1Terra/xhigh推进真实原表/新文献和三体模型，总控核对、纠正并集成7篇研究笔记和6个source入口。
+- 公开数据条件换算、40行三体结果重放、42算符恒等式与有限能隙控制通过；保留真实核与完整Cov/全文缺口。
+- lint137errors/425warnings，本轮新error0；9source/7manifest归档与preflight通过。QMD/Git实际状态见本轮回执。
+- 稳定指针main / research: quantify isomer branches and symmetry-breaking controls。可复用知识在knowledge，原件/用户PLAN/课程状态未变。

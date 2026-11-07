@@ -1,0 +1,61 @@
+{
+  "artifact_type": "conditional-data-reduction-run",
+  "created_at": "2026-11-07T11:59:17.296526+00:00",
+  "source_pdf": "raw/papers/gpt/query/20261107-a100-octupole-lifetimes/arxiv-2411.10976v1.pdf",
+  "source_sha256": "3370f77e28fa053f1ab2829588602a4fe9d6cb1ea5ccdf6350d82bd52624e8d5",
+  "replay_command": "python3 system/scripts/ru100_e1_moment_audit.py --input outputs/l4/20261107-isomer-cross-region-round2/ru100/table1-transcription.json --output tmp/runs/isomer-round2-ru100-replay.json",
+  "python": "3.12.3",
+  "matplotlib": "3.11.2",
+  "artifacts": [
+    {
+      "path": "outputs/l4/20261107-isomer-cross-region-round2/ru100/table1-transcription.json",
+      "size_bytes": 3926,
+      "sha256": "b7f36af42c2daac68b3946a281ffb6d189442cb5e6c29c3ea356f896d3a92a12"
+    },
+    {
+      "path": "outputs/l4/20261107-isomer-cross-region-round2/ru100/results.json",
+      "size_bytes": 16185,
+      "sha256": "4e355a3b2a5428b7ba99e324a1733c5e850432a670dff5321092c24fe8a15704"
+    },
+    {
+      "path": "outputs/l4/20261107-isomer-cross-region-round2/ru100/independent-cg-check.json",
+      "size_bytes": 5497,
+      "sha256": "59434d29ebf07b075d78dcab5240b93044130faceba87977842e004d240b251d"
+    },
+    {
+      "path": "outputs/l4/20261107-isomer-cross-region-round2/ru100/ru100-moments-covariance.png",
+      "size_bytes": 158208,
+      "sha256": "eccc598327cf6b66d3f5a9c6e6521f55a39c8a942ccc90048d4a7af284f37051"
+    },
+    {
+      "path": "outputs/l4/20261107-isomer-cross-region-round2/ru100/ru100-moments-covariance.pdf",
+      "size_bytes": 30780,
+      "sha256": "ba07db4444f665d4893ea6241d74c87841dab30f3625ddfac9eb745e992bf2b2"
+    },
+    {
+      "path": "outputs/l4/20261107-isomer-cross-region-round2/ru100/ru100-moments-covariance.svg",
+      "size_bytes": 50685,
+      "sha256": "39b2d222cf1f81e658d338fcd31c62c3c4a455b40aaeab9462cb090d399d353f"
+    },
+    {
+      "path": "system/scripts/ru100_e1_moment_audit.py",
+      "size_bytes": 8810,
+      "sha256": "56a3476d5fd048e9f2d140d850540c96a952c8dfb80f44bc7c30d1eb4d56ae7e"
+    },
+    {
+      "path": "system/scripts/ru100_e1_moment_plot.py",
+      "size_bytes": 3399,
+      "sha256": "031840da36d41493864f5e5ea93d750efc3772fde9e3c8a5e8477ebf5fb2e4d9"
+    }
+  ],
+  "boundaries": [
+    "rotor K scans are assumptions, not measured K assignments",
+    "no complete covariance, p-value, static octupole inference or raw DSAM refit",
+    "D0 from absolute B(E1) does not require Q0",
+    "D0/Q0 from same-parent strengths cancels common lifetime but not unknown branch covariance",
+    "group moments quoted by authors and fits here have different uncertainty constructions"
+  ],
+  "plot_scope": "Own derived figures; no original publication figures reproduced. Error bars and scenario covariance are labeled.",
+  "figure_replay_command": "python3 system/scripts/ru100_e1_moment_plot.py",
+  "formatting": "SVG line-end spaces stripped after rendering; plot semantics unchanged."
+}

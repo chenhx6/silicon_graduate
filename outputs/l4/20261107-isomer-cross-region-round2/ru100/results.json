@@ -1,0 +1,451 @@
+{
+  "analysis": "100Ru Table I conditional axial-rotor moment reduction",
+  "source_pdf": "raw/papers/gpt/query/20261107-a100-octupole-lifetimes/arxiv-2411.10976v1.pdf",
+  "source_sha256": "3370f77e28fa053f1ab2829588602a4fe9d6cb1ea5ccdf6350d82bd52624e8d5",
+  "input_sha256": "b7f36af42c2daac68b3946a281ffb6d189442cb5e6c29c3ea356f896d3a92a12",
+  "script_sha256": "56a3476d5fd048e9f2d140d850540c96a952c8dfb80f44bc7c30d1eb4d56ae7e",
+  "source_locator": "arXiv:2411.10976v1, PDF p.2 Table I; quoted moments PDF pp.2–3",
+  "units": {
+    "B1": "e2 fm2",
+    "B2": "e2 fm4",
+    "D0": "e fm",
+    "Q0": "e fm2"
+  },
+  "finite_rows_used": 6,
+  "upper_limit_rows_not_treated_as_zero": [
+    {
+      "spin": 20,
+      "parity": "+",
+      "band": 2,
+      "fit_e2_gamma_keV": 1229.5,
+      "dfit_e2_gamma_keV": 0.5,
+      "tau_ps": null,
+      "effective_tau_upper_ps": 0.14,
+      "b_e2_e2fm4": null,
+      "b_e2_lower_e2fm4": 2074,
+      "b_e1_e2fm2": null,
+      "db_e1_e2fm2": null,
+      "b1_b2_covariance": null,
+      "locator": "PDF p.2 Table I footnotes u,l"
+    },
+    {
+      "spin": 19,
+      "parity": "-",
+      "band": 3,
+      "fit_e2_gamma_keV": 1253.7,
+      "dfit_e2_gamma_keV": 0.5,
+      "tau_ps": null,
+      "effective_tau_upper_ps": 0.12,
+      "b_e2_e2fm4": null,
+      "b_e2_lower_e2fm4": 2194,
+      "b_e1_e2fm2": null,
+      "db_e1_e2fm2": null,
+      "b1_b2_covariance": null,
+      "locator": "PDF p.2 Table I footnotes u,l"
+    }
+  ],
+  "conditional_rotor_results": [
+    {
+      "spin": 14,
+      "parity": "+",
+      "assumed_K": 0,
+      "d0_efm": 0.034853251776384556,
+      "d0_linear_error_efm": 0.004979035968054937,
+      "d0_mapped_B_minus_error_efm": 0.029456374029935634,
+      "d0_mapped_B_plus_error_efm": 0.03951987282095731,
+      "q0_efm2": 264.044807419321,
+      "q0_linear_error_efm2": 11.684364927157711,
+      "abs_d0_over_q0_fm_inverse": 0.00013199748980874764,
+      "ratio_linear_relative_error_bounds_unknown_rho": [
+        0.09860569537988895,
+        0.1871085903343968
+      ],
+      "uncertainty_scope": "reported marginal B errors; delta method for ratios; covariance unknown"
+    },
+    {
+      "spin": 16,
+      "parity": "+",
+      "assumed_K": 0,
+      "d0_efm": 0.045535163899664,
+      "d0_linear_error_efm": 0.005691895487458,
+      "d0_mapped_B_minus_error_efm": 0.03943460870259711,
+      "d0_mapped_B_plus_error_efm": 0.05090986092312156,
+      "q0_efm2": 265.3658018089849,
+      "q0_linear_error_efm2": 12.487802438069878,
+      "abs_d0_over_q0_fm_inverse": 0.00017159394160533555,
+      "ratio_linear_relative_error_bounds_unknown_rho": [
+        0.07794117647058824,
+        0.17205882352941176
+      ],
+      "uncertainty_scope": "reported marginal B errors; delta method for ratios; covariance unknown"
+    },
+    {
+      "spin": 18,
+      "parity": "+",
+      "assumed_K": 0,
+      "d0_efm": 0.08142434557249525,
+      "d0_linear_error_efm": 0.013218237917612865,
+      "d0_mapped_B_minus_error_efm": 0.06691301299286101,
+      "d0_mapped_B_plus_error_efm": 0.093714976370031,
+      "q0_efm2": 275.2939668786644,
+      "q0_linear_error_efm2": 8.705965644179319,
+      "abs_d0_over_q0_fm_inverse": 0.00029577235743921324,
+      "ratio_linear_relative_error_bounds_unknown_rho": [
+        0.13071341084065635,
+        0.19396191383466832
+      ],
+      "uncertainty_scope": "reported marginal B errors; delta method for ratios; covariance unknown"
+    },
+    {
+      "spin": 13,
+      "parity": "-",
+      "assumed_K": 0,
+      "d0_efm": 0.04171281587404571,
+      "d0_linear_error_efm": 0.004171281587404572,
+      "d0_mapped_B_minus_error_efm": 0.037309076730919405,
+      "d0_mapped_B_plus_error_efm": 0.04569410038254881,
+      "q0_efm2": 238.83395099997094,
+      "q0_linear_error_efm2": 8.985110510420869,
+      "abs_d0_over_q0_fm_inverse": 0.00017465195253605625,
+      "ratio_linear_relative_error_bounds_unknown_rho": [
+        0.06237925775292324,
+        0.13762074224707677
+      ],
+      "uncertainty_scope": "reported marginal B errors; delta method for ratios; covariance unknown"
+    },
+    {
+      "spin": 15,
+      "parity": "-",
+      "assumed_K": 0,
+      "d0_efm": 0.04834609533634342,
+      "d0_linear_error_efm": 0.005371788370704823,
+      "d0_mapped_B_minus_error_efm": 0.042637248373661424,
+      "d0_mapped_B_plus_error_efm": 0.05344861943646738,
+      "q0_efm2": 247.73073248395735,
+      "q0_linear_error_efm2": 8.049222023204786,
+      "abs_d0_over_q0_fm_inverse": 0.0001951558244372213,
+      "ratio_linear_relative_error_bounds_unknown_rho": [
+        0.07861929250428548,
+        0.1436029297179367
+      ],
+      "uncertainty_scope": "reported marginal B errors; delta method for ratios; covariance unknown"
+    },
+    {
+      "spin": 17,
+      "parity": "-",
+      "assumed_K": 0,
+      "d0_efm": 0.06159992797632843,
+      "d0_linear_error_efm": 0.010499987723237798,
+      "d0_mapped_B_minus_error_efm": 0.05000954060658113,
+      "d0_mapped_B_plus_error_efm": 0.07133125613429508,
+      "q0_efm2": 275.7585983769944,
+      "q0_linear_error_efm2": 9.752689950084571,
+      "abs_d0_over_q0_fm_inverse": 0.00022338352580438518,
+      "ratio_linear_relative_error_bounds_unknown_rho": [
+        0.1350877789874796,
+        0.2058213119216113
+      ],
+      "uncertainty_scope": "reported marginal B errors; delta method for ratios; covariance unknown"
+    },
+    {
+      "spin": 14,
+      "parity": "+",
+      "assumed_K": 1,
+      "d0_efm": 0.03494250480799437,
+      "d0_linear_error_efm": 0.004991786401142054,
+      "d0_mapped_B_minus_error_efm": 0.02953180660934809,
+      "d0_mapped_B_plus_error_efm": 0.03962107624612794,
+      "q0_efm2": 265.50767073214195,
+      "q0_linear_error_efm2": 11.74909874621141,
+      "abs_d0_over_q0_fm_inverse": 0.00013160638527557345,
+      "ratio_linear_relative_error_bounds_unknown_rho": [
+        0.09860569537988895,
+        0.1871085903343968
+      ],
+      "uncertainty_scope": "reported marginal B errors; delta method for ratios; covariance unknown"
+    },
+    {
+      "spin": 16,
+      "parity": "+",
+      "assumed_K": 1,
+      "d0_efm": 0.04562436117202109,
+      "d0_linear_error_efm": 0.005703045146502636,
+      "d0_mapped_B_minus_error_efm": 0.03951185580640663,
+      "d0_mapped_B_plus_error_efm": 0.051009586505320566,
+      "q0_efm2": 266.4784515602371,
+      "q0_linear_error_efm2": 12.540162426364098,
+      "abs_d0_over_q0_fm_inverse": 0.0001712121971022027,
+      "ratio_linear_relative_error_bounds_unknown_rho": [
+        0.07794117647058824,
+        0.17205882352941176
+      ],
+      "uncertainty_scope": "reported marginal B errors; delta method for ratios; covariance unknown"
+    },
+    {
+      "spin": 18,
+      "parity": "+",
+      "assumed_K": 1,
+      "d0_efm": 0.0815502920446346,
+      "d0_linear_error_efm": 0.013238683773479643,
+      "d0_mapped_B_minus_error_efm": 0.06701651346151583,
+      "d0_mapped_B_plus_error_efm": 0.09385993388338205,
+      "q0_efm2": 276.1980545894564,
+      "q0_linear_error_efm2": 8.734556741320757,
+      "abs_d0_over_q0_fm_inverse": 0.0002952601971286575,
+      "ratio_linear_relative_error_bounds_unknown_rho": [
+        0.13071341084065635,
+        0.19396191383466832
+      ],
+      "uncertainty_scope": "reported marginal B errors; delta method for ratios; covariance unknown"
+    },
+    {
+      "spin": 13,
+      "parity": "-",
+      "assumed_K": 1,
+      "d0_efm": 0.041836776967161655,
+      "d0_linear_error_efm": 0.004183677696716166,
+      "d0_mapped_B_minus_error_efm": 0.037419950903228374,
+      "d0_mapped_B_plus_error_efm": 0.04582989295645402,
+      "q0_efm2": 240.3798179537555,
+      "q0_linear_error_efm2": 9.043267172637472,
+      "abs_d0_over_q0_fm_inverse": 0.00017404446564316085,
+      "ratio_linear_relative_error_bounds_unknown_rho": [
+        0.06237925775292324,
+        0.13762074224707677
+      ],
+      "uncertainty_scope": "reported marginal B errors; delta method for ratios; covariance unknown"
+    },
+    {
+      "spin": 15,
+      "parity": "-",
+      "assumed_K": 1,
+      "d0_efm": 0.048453890554528534,
+      "d0_linear_error_efm": 0.005383765617169836,
+      "d0_mapped_B_minus_error_efm": 0.04273231482027469,
+      "d0_mapped_B_plus_error_efm": 0.05356779153410556,
+      "q0_efm2": 248.918896290867,
+      "q0_linear_error_efm2": 8.08782762609409,
+      "abs_d0_over_q0_fm_inverse": 0.00019465734131292764,
+      "ratio_linear_relative_error_bounds_unknown_rho": [
+        0.07861929250428548,
+        0.1436029297179367
+      ],
+      "uncertainty_scope": "reported marginal B errors; delta method for ratios; covariance unknown"
+    },
+    {
+      "spin": 17,
+      "parity": "-",
+      "assumed_K": 1,
+      "d0_efm": 0.06170677962294173,
+      "d0_linear_error_efm": 0.010518201072092339,
+      "d0_mapped_B_minus_error_efm": 0.05009628748982816,
+      "d0_mapped_B_plus_error_efm": 0.07145498780774565,
+      "q0_efm2": 276.7780421434509,
+      "q0_linear_error_efm2": 9.788744379699143,
+      "abs_d0_over_q0_fm_inverse": 0.00022294680295108026,
+      "ratio_linear_relative_error_bounds_unknown_rho": [
+        0.1350877789874796,
+        0.2058213119216113
+      ],
+      "uncertainty_scope": "reported marginal B errors; delta method for ratios; covariance unknown"
+    },
+    {
+      "spin": 14,
+      "parity": "+",
+      "assumed_K": 2,
+      "d0_efm": 0.035214435016651495,
+      "d0_linear_error_efm": 0.005030633573807357,
+      "d0_mapped_B_minus_error_efm": 0.029761629582183872,
+      "d0_mapped_B_plus_error_efm": 0.03992941612015908,
+      "q0_efm2": 269.99544215012986,
+      "q0_linear_error_efm2": 11.947689127404423,
+      "abs_d0_over_q0_fm_inverse": 0.00013042603510718027,
+      "ratio_linear_relative_error_bounds_unknown_rho": [
+        0.09860569537988895,
+        0.1871085903343968
+      ],
+      "uncertainty_scope": "reported marginal B errors; delta method for ratios; covariance unknown"
+    },
+    {
+      "spin": 16,
+      "parity": "+",
+      "assumed_K": 2,
+      "d0_efm": 0.045895131271267445,
+      "d0_linear_error_efm": 0.005736891408908431,
+      "d0_mapped_B_minus_error_efm": 0.0397463495909392,
+      "d0_mapped_B_plus_error_efm": 0.051312316679415174,
+      "q0_efm2": 269.87321837455,
+      "q0_linear_error_efm2": 12.699916158802353,
+      "abs_d0_over_q0_fm_inverse": 0.00017006182216855172,
+      "ratio_linear_relative_error_bounds_unknown_rho": [
+        0.07794117647058824,
+        0.17205882352941176
+      ],
+      "uncertainty_scope": "reported marginal B errors; delta method for ratios; covariance unknown"
+    },
+    {
+      "spin": 18,
+      "parity": "+",
+      "assumed_K": 2,
+      "d0_efm": 0.08193166727559004,
+      "d0_linear_error_efm": 0.013300595336946433,
+      "d0_mapped_B_minus_error_efm": 0.06732992053411375,
+      "d0_mapped_B_plus_error_efm": 0.0942988759529291,
+      "q0_efm2": 278.94636162922137,
+      "q0_linear_error_efm2": 8.821469894337278,
+      "abs_d0_over_q0_fm_inverse": 0.00029371835788449726,
+      "ratio_linear_relative_error_bounds_unknown_rho": [
+        0.13071341084065635,
+        0.19396191383466832
+      ],
+      "uncertainty_scope": "reported marginal B errors; delta method for ratios; covariance unknown"
+    },
+    {
+      "spin": 13,
+      "parity": "-",
+      "assumed_K": 2,
+      "d0_efm": 0.042215398050733176,
+      "d0_linear_error_efm": 0.004221539805073318,
+      "d0_mapped_B_minus_error_efm": 0.0377585998954606,
+      "d0_mapped_B_plus_error_efm": 0.046244651572892356,
+      "q0_efm2": 245.14027648401608,
+      "q0_linear_error_efm2": 9.222359155982303,
+      "abs_d0_over_q0_fm_inverse": 0.00017220914757957268,
+      "ratio_linear_relative_error_bounds_unknown_rho": [
+        0.06237925775292324,
+        0.13762074224707677
+      ],
+      "uncertainty_scope": "reported marginal B errors; delta method for ratios; covariance unknown"
+    },
+    {
+      "spin": 15,
+      "parity": "-",
+      "assumed_K": 2,
+      "d0_efm": 0.04878165454306532,
+      "d0_linear_error_efm": 0.0054201838381183675,
+      "d0_mapped_B_minus_error_efm": 0.04302137548773834,
+      "d0_mapped_B_plus_error_efm": 0.05393014825736119,
+      "q0_efm2": 252.55294101803563,
+      "q0_linear_error_efm2": 8.205904348178343,
+      "abs_d0_over_q0_fm_inverse": 0.00019315417332471953,
+      "ratio_linear_relative_error_bounds_unknown_rho": [
+        0.07861929250428548,
+        0.1436029297179367
+      ],
+      "uncertainty_scope": "reported marginal B errors; delta method for ratios; covariance unknown"
+    },
+    {
+      "spin": 17,
+      "parity": "-",
+      "assumed_K": 2,
+      "d0_efm": 0.062030701951592396,
+      "d0_linear_error_efm": 0.010573415105385066,
+      "d0_mapped_B_minus_error_efm": 0.05035926193444535,
+      "d0_mapped_B_plus_error_efm": 0.07183008218450332,
+      "q0_efm2": 279.8821920175317,
+      "q0_linear_error_efm2": 9.898528123374529,
+      "abs_d0_over_q0_fm_inverse": 0.00022163147110019354,
+      "ratio_linear_relative_error_bounds_unknown_rho": [
+        0.1350877789874796,
+        0.2058213119216113
+      ],
+      "uncertainty_scope": "reported marginal B errors; delta method for ratios; covariance unknown"
+    }
+  ],
+  "K0_independent_B_error_fits": {
+    "one_dipole": {
+      "multipole": 1,
+      "assumed_K": 0,
+      "n": 6,
+      "moment_squared": 0.0017955398777505208,
+      "moment_squared_conditional_error": 0.0002008006459987801,
+      "moment": 0.0423738112252193,
+      "chi2": 11.633217062958456,
+      "dof": 5,
+      "scope": "independent Gaussian B errors; no raw-spectrum refit; no p-value assigned"
+    },
+    "spin_le16": {
+      "multipole": 1,
+      "assumed_K": 0,
+      "n": 4,
+      "moment_squared": 0.001702244929610928,
+      "moment_squared_conditional_error": 0.00020417677216077825,
+      "moment": 0.04125827104485751,
+      "chi2": 3.9925379946221193,
+      "dof": 3,
+      "scope": "independent Gaussian B errors; no raw-spectrum refit; no p-value assigned"
+    },
+    "spin_gt16": {
+      "multipole": 1,
+      "assumed_K": 0,
+      "n": 2,
+      "moment_squared": 0.004546845681346803,
+      "moment_squared_conditional_error": 0.001108783366148096,
+      "moment": 0.06743030239696989,
+      "chi2": 1.274676923819692,
+      "dof": 1,
+      "scope": "independent Gaussian B errors; no raw-spectrum refit; no p-value assigned"
+    },
+    "delta_chi2": 6.366002144516645,
+    "one_quadrupole": {
+      "multipole": 2,
+      "assumed_K": 0,
+      "n": 6,
+      "moment_squared": 66794.03006897388,
+      "moment_squared_conditional_error": 2023.2830673301082,
+      "moment": 258.4454102300404,
+      "chi2": 14.012892320225735,
+      "dof": 5,
+      "scope": "independent Gaussian B errors; no raw-spectrum refit; no p-value assigned"
+    }
+  },
+  "author_quoted_group_moment_covariance_sensitivity": [
+    {
+      "rho": -1,
+      "standardized_difference": 1.0000000000000002
+    },
+    {
+      "rho": -0.75,
+      "standardized_difference": 1.0606601717798214
+    },
+    {
+      "rho": -0.5,
+      "standardized_difference": 1.133893419027682
+    },
+    {
+      "rho": 0,
+      "standardized_difference": 1.341640786499874
+    },
+    {
+      "rho": 0.5,
+      "standardized_difference": 1.7320508075688776
+    },
+    {
+      "rho": 0.75,
+      "standardized_difference": 2.121320343559643
+    },
+    {
+      "rho": 1,
+      "standardized_difference": 3.0000000000000004
+    }
+  ],
+  "scope": [
+    "rotor K scans are assumptions, not measured K assignments",
+    "no complete covariance, p-value, static octupole inference or raw DSAM refit",
+    "D0 from absolute B(E1) does not require Q0",
+    "D0/Q0 from same-parent strengths cancels common lifetime but not unknown branch covariance",
+    "group moments quoted by authors and fits here have different uncertainty constructions"
+  ],
+  "checks": [
+    "archived source hash",
+    "missing/upper-limit rows excluded from finite estimates",
+    "low-spin CG references",
+    "K-sign symmetry",
+    "fm/barn unit conversion",
+    "direct and ratio moment formulas agree",
+    "common lifetime scale cancels in ratio",
+    "nested fit does not increase residual",
+    "quoted contrast changes sign on group swap",
+    "common B/error scale does not alter conditional shape chi-square"
+  ]
+}
