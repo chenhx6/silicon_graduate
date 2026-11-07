@@ -86,3 +86,8 @@ P1：总控以真实API响应取代整理JSON作为题录来源，撤回草案�
 ## Promotion or Rejection History
 
 2026-11-07：实际原文与元数据分层，保留组态依赖的迁移问题，不发布未计算的数值预报。
+
+
+## 后续原件取得更新
+
+当前续接已取得Görgen2004的4页DSAM出版正文，见[[continuation-g23-lu163-absolute-quadrupole-20261107]]；Qt、branching/δ依赖和误差以原文/当前source为准，旧metadata-only为历史边界。

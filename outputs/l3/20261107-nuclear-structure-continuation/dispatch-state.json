@@ -1,0 +1,155 @@
+{
+  "task": "Continue six-region nuclear structure research using Gemini as main workforce and configured literature APIs",
+  "status": "batch-milestone-complete",
+  "mode": "on-demand-research-not-daily-learning",
+  "date": "2026-11-07",
+  "baseline_worktree": "clean main...origin/main before workers",
+  "workers": {
+    "G14": "Ru102 SI/thesis",
+    "G15": "Hamamoto/Hagemann effective E1 originals",
+    "G16": "Chen2026 softness full text",
+    "G17": "Mo98 same-state absolute constraints",
+    "G18": "Ir/Os common EM models",
+    "G19": "Cd/In common weak operators"
+  },
+  "parent_work": "Derive and test E2-denominator-free E1/E3 constraints with actual same-parent branches; authenticated discovery for next primary-reading wave; evidence integration",
+  "preserve": [
+    "PLAN.md",
+    "daily-learning state",
+    "credentials",
+    "get-paper installation",
+    "existing raw bytes"
+  ],
+  "acceptance": [
+    "actual sources/reading bounds",
+    "durable knowledge",
+    "primary locator audit",
+    "reproducible scoped quantitative result",
+    "archive/preflight/lint delta",
+    "scoped authorized Git publication"
+  ],
+  "worker_runs": [
+    {
+      "task": "G14",
+      "agent_id": "01a1b6a0-c5d1-7792-b59b-2d69503d7dc4",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "returned": true,
+      "closed": true,
+      "revision_rounds": 0
+    },
+    {
+      "task": "G15",
+      "agent_id": "01a1b6a1-230b-7a71-a3c6-d7d2ca149da9",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "returned": true,
+      "closed": true,
+      "revision_rounds": 0
+    },
+    {
+      "task": "G16",
+      "agent_id": "01a1b6a1-715d-70f2-978c-790bf656010f",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "returned": true,
+      "closed": true,
+      "revision_rounds": 0
+    },
+    {
+      "task": "G17",
+      "agent_id": "01a1b6a1-c874-72a2-ab7e-2949fe79eda9",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "returned": true,
+      "closed": true,
+      "revision_rounds": 0
+    },
+    {
+      "task": "G18",
+      "agent_id": "01a1b6a2-26f1-7051-9f0b-7aebd0186ae6",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "returned": true,
+      "closed": true,
+      "revision_rounds": 0
+    },
+    {
+      "task": "G19",
+      "agent_id": "01a1b6a2-7f9f-7ff1-8330-c735adef9ec8",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "returned": true,
+      "closed": true,
+      "revision_rounds": 0
+    },
+    {
+      "task": "G20",
+      "agent_id": "01a1b6ae-bcff-7732-9d13-1c7f53d9ba3f",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "returned": true,
+      "closed": true,
+      "revision_rounds": 1
+    },
+    {
+      "task": "G21",
+      "agent_id": "01a1b6b3-bf25-7aa3-856e-1880818d81d5",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "returned": true,
+      "closed": true,
+      "revision_rounds": 1
+    },
+    {
+      "task": "G22",
+      "agent_id": "01a1b6b4-55d6-7531-af11-bb79597761c9",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "returned": true,
+      "closed": true,
+      "revision_rounds": 0
+    },
+    {
+      "task": "G23",
+      "agent_id": "01a1b6b5-b97d-7292-9599-f576212721df",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "returned": true,
+      "closed": true,
+      "revision_rounds": 0
+    },
+    {
+      "task": "G24",
+      "agent_id": "01a1b6b8-1a05-75b2-b56d-814f66cd25f8",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "returned": true,
+      "closed": true,
+      "revision_rounds": 0
+    },
+    {
+      "task": "G25",
+      "agent_id": "01a1b6b8-7b07-7972-99b3-59c234695250",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "returned": true,
+      "closed": true,
+      "revision_rounds": 0
+    },
+    {
+      "task": "T02",
+      "agent_id": "01a1b6ab-e2b2-7c33-8afa-f47d6d990942",
+      "requested_model": "codex/gpt-6.1-terra",
+      "requested_effort": "xhigh",
+      "returned": true,
+      "closed": true,
+      "revision_rounds": 0
+    }
+  ],
+  "overall_research_status": "active-L3",
+  "gemini_workers": 12,
+  "terra_workers": 1,
+  "background_daemon_created": false,
+  "publication_status": "Actual commit/push and reconciliation recorded only in local publication receipt."
+}

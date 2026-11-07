@@ -3,7 +3,7 @@ type: synthesis
 title: "六大质量区三轴与集体动力学：组态、证据及迁移条件"
 aliases: [跨质量区三轴演化, triaxial-evolution-across-mass-regions, multi-region-triaxial-systematics]
 created: 2026-11-06
-updated: 2026-11-07
+updated: 2026-11-08
 status: active
 review_status: unreviewed
 confidence: medium
@@ -130,7 +130,7 @@ Lu TSD的多声子基准同样有非谐性和惯量约定，不能写成“完�
 [[ru100-e1-moments-and-covariance-round2-20261107]]与
 [[os192-branch-rates-and-shape-identifiability-round2-20261107]]。
 N=56增加[[mach-1990-96zr]]的直接低自旋E3锚点，
-N=58的[[saracino-2026-102ru-scissors-octupole-resonances]]已补7页出版正文；SI/逐态完整分支仍缺。
+N=58的[[saracino-2026-102ru-scissors-octupole-resonances]]已补7页出版正文；本轮续接已取得SI逐态表；联合Cov与完整响应仍缺。
 低自旋共振、正常形变转动与高自旋多准粒子带不能只凭同一元素互相替代。
 轻区/稀土新搜索见[[light-and-rare-earth-orientation-window-round2-20261107]]；
 具体组态和来源范围优先于“某区从未出现”的全局表述。
@@ -166,3 +166,18 @@ P1：模式指认、惯量/轴序、实际搜索灵敏度、同一实验依赖�
 - [[odegard-2001-evidence-wobbling-163lu]]
 - [[jensen-2002-second-phonon-wobbling-163lu]]
 - [[dracoulis-2013-192os-isomers-gamma-soft]]
+
+
+## 续接增量：费米面、软核芯与两方向电磁网络
+
+[[campaign-g06-chen-2026-triaxial-softness-wobbling]]现有21页正文。
+PDF9、15、17–18比较h11/2单j、两费米面代表位置与TR/WJ核芯：
+同样表现为LW的midshell和low-shell高自旋解，电磁网络仍不同。
+因此，质量区或摆动能增减都不能替代占据、核芯极化和共同算符的比较。
+作者还指出未受扰动偶邻核芯近似过简，奇准粒子可改变其形状动力学；
+这给A100/A130/A160间迁移一个可检验的机制，而不是整区的软/刚标签。
+
+[[campaign-g07-gorgen-2004-163lu-quadrupole-moments]]的4页原文提供TSD1/TSD2绝对E2，
+同时明确Qt相近单独不足证明摆动。其新DSAM寿命与旧branching/δ各有来源依赖。
+跨区可比的对象是同态寿命、两方向带间E2/M1、占据及算符映射；
+不能只搬用某个Qt或γ数值作普适门槛。

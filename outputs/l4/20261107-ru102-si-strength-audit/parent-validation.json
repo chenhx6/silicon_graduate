@@ -1,0 +1,16 @@
+{
+  "byte_identical_numerical_replay": {
+    "table1_parsed_audit.csv": true,
+    "table1_parsed_audit.json": true,
+    "strength_windows_summary.json": true,
+    "leave_one_out_sensitivity.json": true,
+    "comparison_with_g14.json": true
+  },
+  "targeted_negative_and_parser_checks": "passed; actual stdout in parent-execution.log",
+  "producer_sha256": "4e1569c5e88dbfc0eb6dce7827da9ec84fcea1904ebdb3de87e3095e2d368644",
+  "rows": 106,
+  "raw_string_mismatches": 0,
+  "timestamp_policy": "Dynamic actual execution UTC; former manually fixed date removed.",
+  "parent_review": "Pinned original PDF hash and fail-on-mismatched reference; conditional uncertainty wording qualified.",
+  "CSV_serialization": "LF; raw reported fields still match G14"
+}

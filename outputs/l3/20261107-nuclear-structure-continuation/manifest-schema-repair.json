@@ -1,0 +1,20 @@
+[
+  {
+    "manifest": "raw/papers/gpt/query/20261107-continuation-api-discovery/manifest.json",
+    "prior_preserved": "raw/papers/gpt/query/20261107-continuation-api-discovery/manifest.v1-schema-draft.json",
+    "original_bytes_sha256": "fe5d19127900e8708fe5fe85b0aaa016a8e69555ac8f34656c38582856d232cc",
+    "primary_bytes_modified": false
+  },
+  {
+    "manifest": "raw/papers/gpt/query/20261107-continuation-gdr-calibration-discovery/manifest.json",
+    "prior_preserved": "raw/papers/gpt/query/20261107-continuation-gdr-calibration-discovery/manifest.v1-schema-draft.json",
+    "original_bytes_sha256": "670802653ffa4cd6d106d629e08f4ef929b2f937d50ba724e2d8cc35c6160308",
+    "primary_bytes_modified": false
+  },
+  {
+    "manifest": "raw/papers/gpt/query/20261107-continuation-parent-verification/manifest.json",
+    "prior_preserved": "raw/papers/gpt/query/20261107-continuation-parent-verification/manifest.v1-schema-draft.json",
+    "original_bytes_sha256": "a5cb9782180b5e399ae3f24580540698388ffa953f99699f6fcd689deaf84ffc",
+    "primary_bytes_modified": false
+  }
+]

@@ -1,7 +1,20 @@
 ---
 graph-excluded: true
-updated: 2026-11-07
+updated: 2026-11-08
 ---
+
+## 2026-11-08 — 六区续接：原有效E1、同态观测与共同模型
+
+- 按用户Gemini主力配置，派发12个Gemini/high与1个Terra/xhigh，含两项窄独立复核；G20/G21各返工一轮。本批worker均已回传并关闭。请求路由由工具接受，不冒称主会话配置已改变或统计到真实token余额。
+- 研究canonical入口仍为knowledge/projects/isomer-six-region-transfer-research.md。本批新增11source、12note，三主综合、三个旧研究入口及index更新；实际发布文件以显式清单/回执为准。
+- 关键原件：102Ru五页SI、Chen2026二十一页、Hamamoto1989五页、Hagemann1993十一页、Görgen2004四页，另补98Mo评价/实验、Ir/Os XML、Cd/In与124Cs/131Ba原件。全文可用与实际读取/数值重放分开。
+- 认识增量：同态E1/E3消去E2分母后98Mo/Ru100名义趋势不同；102Ru窗口名义E1约半来自大BR误差线；最简轴向[Q2⊗O3]1不逐项等于共同b，但一般协变补全可行。软核/费米面与两方向跃迁须共同比较；Qt相近单独非摆动证明。
+- 纠错：Hagemann耦合指数100倍、Saito总混合/母态归一与上限错配、Taprogge2014无源级联、D0系数/未闭合能级、rank1/rank3与静态形状越界已隔离或撤回。不把worker完成、历史review标注、转引或无源阈值当资格门。
+- 量化：E1/E3生产/重放与错误hash拒绝；102Ru106行零原报字符串差异、五个数值文件字节重放一致；Terra六个CG核查通过。没有真实QRPA共同谱拟合。14source/11manifest归档门通过，preflight通过；最终lint delta/QMD/Git以本批回执为准。
+- 开放：Saracino博士PDF、作者复响应/实现、完整Cov/feeding、98Mo目标绝对寿命、Ir/Os共同多极预测与GT+FF统一输入。本课题active-L3；不重复闭合的seniority/角向toy，不改课程/调度。
+- 保留：三篇用户原PDF哈希均不变；PLAN、凭据、get-paper与旧原件未改。本批三个新建manifest的schema修正保留原元数据字节；G16/G17/G19手填UTC偏移由伴随清单限定。会话日期8日与实际执行时钟7日差异在报告明示，不伪造精确时间。
+- 稳定发布指针：main / research: reconstruct dipole operators and cross-region constraints；实际精确hash、push与post-commit reconciliation仅写outputs/l3/20261107-nuclear-structure-continuation/publication-final-receipt.local.json。
+
 
 ## 2026-11-07 — 规模化核结构研究：首批正文与证据更新
 

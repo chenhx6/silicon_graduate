@@ -1,0 +1,143 @@
+{
+  "calls": [
+    {
+      "service": "wos-chiral-octupole",
+      "endpoint": "https://api.clarivate.com/apis/wos-starter/v1/documents",
+      "query_parameters": {
+        "q": "TS=((chirality OR chiral) AND (octupole OR \"reflection asymmetry\") AND nuclei)",
+        "limit": 10,
+        "page": 1
+      },
+      "credential_variable": "WEB_OF_SCIENCE_API_KEY_Institutional_Member_Plan",
+      "email_identification_used": true,
+      "retrieved_at": "2026-11-07T15:34:10.683779+00:00",
+      "status": 200,
+      "content_type": "application/json",
+      "size": 21050,
+      "path": "raw/papers/gpt/query/20261107-continuation-api-discovery/wos-chiral-octupole-response.json",
+      "sha256": "4a63b68b4e0915d8adedfcc668553e6cafe4c8fbabfb13d464f22f0b263ccaf5",
+      "archive_status": "actual-http-bytes",
+      "returned_rows": 10,
+      "candidates": [
+        {
+          "title": "ELECTROMAGNETIC MOMENTS OF THE BARYON DECUPLET",
+          "doi": "10.1103/PhysRevD.49.3459"
+        },
+        {
+          "title": "SIMULTANEOUS DESCRIPTION OF FOUR POSITIVE AND FOUR NEGATIVE PARITY BANDS",
+          "doi": "10.1142/9789812770417_0002"
+        },
+        {
+          "title": "Excited states in <SUP>99</SUP>Pd",
+          "doi": "10.1103/PhysRevC.83.024313"
+        },
+        {
+          "title": "Evidence for octupole correlation and chiral symmetry breaking in <SUP>124</SUP>Cs",
+          "doi": "10.1103/PhysRevC.92.064307"
+        },
+        {
+          "title": "Evidence for Octupole Correlations in Multiple Chiral Doublet Bands",
+          "doi": "10.1103/PhysRevLett.116.112501"
+        },
+        {
+          "title": "Fission barriers from multidimensionally-constrained covariant density functional theories",
+          "doi": "10.1051/epjconf/201716300034"
+        },
+        {
+          "title": "<i>Ab initio</i> electromagnetic observables with the in-medium similarity renormalization group",
+          "doi": "10.1103/PhysRevC.96.034324"
+        },
+        {
+          "title": "Possible candidate nuclei for chirality-parity quartet bands",
+          "doi": "10.1088/1674-1137/42/7/074105"
+        },
+        {
+          "title": "Multiple chiral doublet bands with octupole correlations in reflection-asymmetric triaxial particle rotor model",
+          "doi": "10.1016/j.physletb.2019.04.014"
+        },
+        {
+          "title": "Pseudospin symmetry and octupole correlations for multiple chiral doublets in <SUP>131</SUP>Ba",
+          "doi": "10.1103/PhysRevC.102.024313"
+        }
+      ]
+    },
+    {
+      "service": "scopus-light-chirality",
+      "endpoint": "https://api.elsevier.com/content/search/scopus",
+      "query_parameters": {
+        "query": "TITLE-ABS-KEY(\"chiral rotation\" AND nuclei AND \"60\")",
+        "count": 8,
+        "view": "STANDARD"
+      },
+      "credential_variable": "ELSEVIER_API_KEY",
+      "email_identification_used": true,
+      "retrieved_at": "2026-11-07T15:34:10.684392+00:00",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "size": 5722,
+      "path": "raw/papers/gpt/query/20261107-continuation-api-discovery/scopus-light-chirality-response.json",
+      "sha256": "3248d7d8cf31c9af6d8f3ee7e0ca60993913e12d66bec465b363693b00768049",
+      "archive_status": "actual-http-bytes",
+      "returned_rows": 3,
+      "candidates": [
+        {
+          "title": "Microscopic investigations of chiral rotation in 128−134La odd-odd nuclei using triaxial projected shell model",
+          "doi": "10.1016/j.nuclphysa.2026.123419"
+        },
+        {
+          "title": "Exploring chiral rotation in A ≈ 60 nuclei: Role of residual interactions",
+          "doi": "10.1088/1674-1137/adc3fd"
+        },
+        {
+          "title": "Multiple chiral doublets in four-j shells particle rotor model: Five possible chiral doublets in 60 136Nd76",
+          "doi": "10.1016/j.physletb.2018.06.030"
+        }
+      ]
+    },
+    {
+      "service": "openalex-lu163-lifetimes",
+      "endpoint": "https://api.openalex.org/works",
+      "query_parameters": {
+        "search": "163Lu wobbling quadrupole moments",
+        "per-page": 6
+      },
+      "credential_variable": "OPENALEX_API_KEY",
+      "email_identification_used": true,
+      "retrieved_at": "2026-11-07T15:34:10.685084+00:00",
+      "status": 200,
+      "content_type": "application/json",
+      "size": 128331,
+      "path": "raw/papers/gpt/query/20261107-continuation-api-discovery/openalex-lu163-lifetimes-response.json",
+      "sha256": "037df04326b9c1df7f818ffc963767dbd2c3017b05d3446bf9dc306a192af692",
+      "archive_status": "actual-http-bytes",
+      "returned_rows": 6,
+      "candidates": [
+        {
+          "title": "Quadrupole Moments And Gamma Deformation Of Wobbling Excitations In 163Ln",
+          "doi": "https://doi.org/10.1063/1.1905284"
+        },
+        {
+          "title": "Wobbling phonon excitations, coexisting with normal deformed structures in 163Lu",
+          "doi": "https://doi.org/10.1016/s0375-9474(01)01459-2"
+        },
+        {
+          "title": "Triaxial superdeformation in 163Lu",
+          "doi": "https://doi.org/10.1016/s0375-9474(99)00392-9"
+        },
+        {
+          "title": "Transverse wobbling: A collective mode in odd- A triaxial nuclei",
+          "doi": "https://doi.org/10.1103/physrevc.89.014322"
+        },
+        {
+          "title": "Parity partner bands in 163Lu: A novel approach for describing the negative parity states from a triaxial super-deformed band",
+          "doi": "https://doi.org/10.1142/s0218301321500336"
+        },
+        {
+          "title": "Wobbling motion in triaxial nuclei",
+          "doi": "https://doi.org/10.1201/9781032691633-2"
+        }
+      ]
+    }
+  ],
+  "scope": "discovery only; credentials and email not logged"
+}

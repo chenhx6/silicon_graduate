@@ -1,0 +1,13 @@
+{
+  "producer": "system/scripts/plot_e1_e3_same_parent_constraints.py",
+  "producer_sha256": "b2ebd843a6bbc31b9904f21b280175ba48e9f536e657fa082a6d10d7e851e90c",
+  "input_sha256": "f8b233ca8381bf329351e3037c42b2ab287709d54b659801ad249fad04e2157a",
+  "matplotlib": "3.11.2",
+  "outputs": {
+    "e1-e3-central-constraints.pdf": "5b8eab7652ed48faf3f2b8bb22dc90e8240ffe1e0abef92aba21614dd2c1ac8a",
+    "e1-e3-central-constraints.png": "9856a76ffad6db39dd84ba8a207fbcc7db8b097171d89b427f73d7252c9b6325",
+    "e1-e3-central-constraints.svg": "6b1806f54232feffda33350052acd4f4f97c954d382a3cc46d6a16359c93bc50"
+  },
+  "scope": "Central values only; segments guide the eye, no significance or interpolated spectrum. Parent visually checked PNG.",
+  "SVG_serialization": "Trailing line whitespace removed by producer; XML parse validated"
+}

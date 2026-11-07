@@ -1,0 +1,20 @@
+{
+  "worker": "G21",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "requested_reasoning_effort": "high",
+  "spawn_tool_accepted": true,
+  "revision_rounds": 1,
+  "status": "returned-and-closed; parent integration complete",
+  "canonical_knowledge": "knowledge/research-notes/continuation-g21-a80-a130-parity-chiral-transfer-20261107.md",
+  "parent_corrections": "No unresolved level sums or pure-orbital E1 mechanism are promoted; scientific claims are limited to the current canonical page.",
+  "worker_changed_files": [
+    "raw/papers/gpt/query/20261107-continuation-G21/Selvakumar-2015-PRC-92-064307-124Cs.pdf",
+    "raw/papers/gpt/query/20261107-continuation-G21/Wang-2020-PRC-102-024313-131Ba.pdf",
+    "raw/papers/gpt/query/20261107-continuation-G21/manifest.json",
+    "knowledge/sources/continuation-g21-selvakumar-2015-prc92-124cs-octupole-chiral.md",
+    "knowledge/sources/continuation-g21-wang-2020-prc102-131ba-pseudospin-octupole.md",
+    "knowledge/research-notes/continuation-g21-a80-a130-parity-chiral-transfer-20261107.md",
+    "outputs/l3/20261107-nuclear-structure-continuation/G21/report.md",
+    "outputs/l3/20261107-nuclear-structure-continuation/G21/receipt.json"
+  ]
+}

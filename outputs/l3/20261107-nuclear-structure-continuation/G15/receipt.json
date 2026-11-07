@@ -1,0 +1,23 @@
+{
+  "worker": "G15",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "requested_reasoning_effort": "high",
+  "spawn_tool_accepted": true,
+  "actual_runtime_identity": "Not independently exposed; requested routing recorded separately.",
+  "status": "returned-and-closed; parent integrated bounded conclusions",
+  "canonical_knowledge": "knowledge/research-notes/continuation-g15-effective-e1-origin-20261107.md",
+  "worker_changed_files": [
+    "raw/papers/gpt/query/20261107-continuation-G15/Hamamoto-1989-PLB-226-17.pdf",
+    "raw/papers/gpt/query/20261107-continuation-G15/Hamamoto-1989-PLB-226-17.xml",
+    "raw/papers/gpt/query/20261107-continuation-G15/Hagemann-1993-PRC-47-2008.pdf",
+    "raw/papers/gpt/query/20261107-continuation-G15/manifest.json",
+    "knowledge/sources/continuation-g15-hamamoto-1989-plb226-dipole-octupole.md",
+    "knowledge/sources/continuation-g15-hagemann-1993-prc47-octupole-softness.md",
+    "knowledge/research-notes/continuation-g15-effective-e1-origin-20261107.md",
+    "outputs/l3/20261107-nuclear-structure-continuation/G15/report.md",
+    "outputs/l3/20261107-nuclear-structure-continuation/G15/receipt.json"
+  ],
+  "acquisition_manifest": "raw/papers/gpt/query/20261107-continuation-G15/manifest.json",
+  "parent_audit": "outputs/l3/20261107-nuclear-structure-continuation/parent-audit.json",
+  "interpretation": "Canonical knowledge and primary originals supersede original worker prose. Public receipt makes no unverified statistical or universal physics claim."
+}

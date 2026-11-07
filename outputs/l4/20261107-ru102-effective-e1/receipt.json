@@ -1,0 +1,55 @@
+{
+  "task": "T02",
+  "status": "completed-with-evidence-boundaries",
+  "requested_model": "Terra",
+  "requested_effort": "xhigh",
+  "actual_model": "GPT-6 (system identity); precise serving route not exposed",
+  "actual_effort": null,
+  "actual_model_route_verified": false,
+  "actual_effort_verified": false,
+  "changes": [
+    "knowledge/research-notes/continuation-t02-ru102-covariant-effective-e1-20261107.md",
+    "outputs/l4/20261107-ru102-effective-e1/report.md",
+    "outputs/l4/20261107-ru102-effective-e1/cg_audit.py",
+    "outputs/l4/20261107-ru102-effective-e1/receipt.json",
+    "tmp/runs/20261107-nuclear-continuation/T02/"
+  ],
+  "checks": [
+    {
+      "command": "python3 outputs/l4/20261107-ru102-effective-e1/cg_audit.py",
+      "result": "pass; six coefficients, signs and exact rational squares"
+    },
+    {
+      "command": "python3 -m py_compile outputs/l4/20261107-ru102-effective-e1/cg_audit.py",
+      "result": "pass"
+    },
+    {
+      "command": "python3 system/scripts/wiki_archive_gate.py check --root . -- raw/papers/gpt/query/20261107-continuation-G14/manifest.json raw/papers/gpt/query/20261107-continuation-G15/manifest.json",
+      "result": "pass; 2 manifests, 0 failures"
+    },
+    {
+      "command": "git diff --check",
+      "result": "pass; untracked note separately checked"
+    },
+    {
+      "command": "python note frontmatter/display math/line-end assertions",
+      "result": "pass"
+    },
+    {
+      "command": "python3 system/scripts/wiki_lint.py --format json --fail-on never --output tmp/runs/20261107-nuclear-continuation/T02/lint.json",
+      "result": "interrupted after over 2 minutes while reading shared knowledge files; no lint result; exit 130"
+    },
+    {
+      "command": "pdftoppm -f 10 -l 10 -r 140 -png -singlefile Hagemann-1993-PRC-47-2008.pdf .../hagemann2017; inspect image",
+      "result": "pass; identified Eq.(8) 10^-5 factors in G15 review"
+    }
+  ],
+  "missing": [
+    "explicit 2026 operator/stretching and self-consistency definitions, model-space truncation, spurious-mode diagnostics, author solver",
+    "state amplitudes and phases, kappa response scans, full experimental covariance and detector response",
+    "independent matched-state E1/E2/E3 matrix elements and phase-sensitive observables"
+  ],
+  "git": "no staging, commit, or push",
+  "new_external_sources_acquired": false,
+  "g15_must_fix": "eight findings in research note and report; no edits to G15"
+}

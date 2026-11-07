@@ -1,0 +1,7 @@
+{
+  "exit": 0,
+  "elapsed_seconds": 270.524,
+  "reason": "Refresh existing cached catalogue after this batch of new primary artifacts; metadata indexing is not reading credit.",
+  "stdout": "{\n  \"status\": \"indexed\",\n  \"updated_at\": \"2026-11-07T16:22:19.652272+00:00\",\n  \"scan_roots\": [\n    \"raw/papers\",\n    \"raw/books\",\n    \"raw/theses\",\n    \"raw/reports\",\n    \"raw/notes\"\n  ],\n  \"works\": 1058,\n  \"artifacts\": 1076,\n  \"with_sources\": 615,\n  \"source_records\": 620,\n  \"published_editions_identified_locally\": 0,\n  \"publication_known_bibliographically\": 431,\n  \"local_edition_unclassified\": 1000,\n  \"preprint_only_locally\": 41,\n  \"attachments\": 22,\n  \"missing_paths\": 0,\n  \"unreadable\": 0,\n  \"warnings\": [\n    {\n      \"source\": \"knowledge/sources/userdata-133ce-southafrica-dataset.md\",\n      \"kind\": \"raw-pointer\",\n      \"error\": \"experimental data excluded\"\n    }\n  ],\n  \"refresh\": {\n    \"files_reextracted\": 20\n  }\n}\n",
+  "stderr": ""
+}

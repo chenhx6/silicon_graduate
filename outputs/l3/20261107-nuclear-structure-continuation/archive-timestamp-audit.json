@@ -1,0 +1,31 @@
+{
+  "verified_at": "2026-11-07T15:58:54.421431+00:00",
+  "companion_manifest": "raw/papers/gpt/query/20261107-continuation-parent-verification/manifest.json",
+  "corrections": [
+    {
+      "worker": "G16",
+      "original_manifest": "raw/papers/gpt/query/20261107-continuation-G16/manifest.json",
+      "original_reported_timestamp": "2026-11-07T23:32:00+00:00",
+      "issue": "Worker timestamp is approximately eight hours ahead of local final artifact write time; not accepted as verified UTC acquisition time.",
+      "resolution": "Original metadata preserved; use companion manifest final-artifact write proxy and explicit uncertainty.",
+      "observed_at": "2026-11-07T15:58:54.421431+00:00"
+    },
+    {
+      "worker": "G17",
+      "original_manifest": "raw/papers/gpt/query/20261107-continuation-G17/manifest.json",
+      "original_reported_timestamp": "2026-11-07T23:50:00+00:00",
+      "issue": "Worker timestamp is approximately eight hours ahead of local final artifact write time; not accepted as verified UTC acquisition time.",
+      "resolution": "Original metadata preserved; use companion manifest final-artifact write proxy and explicit uncertainty.",
+      "observed_at": "2026-11-07T15:58:54.421431+00:00"
+    },
+    {
+      "worker": "G19",
+      "original_manifest": "raw/papers/gpt/query/20261107-continuation-G19/manifest.json",
+      "original_reported_timestamp": "2026-11-07T23:42:00+00:00",
+      "issue": "Worker timestamp is approximately eight hours ahead of local final artifact write time; not accepted as verified UTC acquisition time.",
+      "resolution": "Original metadata preserved; use companion manifest final-artifact write proxy and explicit uncertainty.",
+      "observed_at": "2026-11-07T15:58:54.421431+00:00"
+    }
+  ],
+  "institution_attribution_G16": "Not independently verified; official PDF identity and bytes are verified."
+}

@@ -1,0 +1,86 @@
+{
+  "task": "G19 primary source verification and correction",
+  "worker": "Gemini/high worker G22",
+  "timestamp": "2026-11-08T00:05:00Z",
+  "status": "completed",
+  "audit_results": {
+    "item1_interactions_na14_vs_jj45pna": {
+      "verdict": "unsupported",
+      "primary_locators": [
+        "Saito 2020 PRC 102, 024337 p. 10 left col",
+        "Taprogge 2015 PRC 91, 054324 p. 9 right col",
+        "Taprogge 2014 PLB 738, 223 p. 225 right col",
+        "Nesterenko 2020 PLB 808, 135642 p. 3 left col & refs 45,47"
+      ],
+      "summary": "NA-14 uses CD-Bonn with Vlow-k and empirical multipole corrections in OXBASH; jj45pna uses CD-Bonn with perturbative G-matrix in NuShellX without local multipole tuning. Authors never treat them as the same interaction."
+    },
+    "item2_dunlop_quenching_scope": {
+      "verdict": "unsupported",
+      "primary_locators": [
+        "Dunlop 2016 PRC 93, 062801(R) p. 1-2, p. 4 right col, refs 9,10,12"
+      ],
+      "summary": "Scaling q from 0.66 to 0.75 was performed in large-scale shell-model calculations for N=82 waiting points (Zhi 2013, Lorusso 2015); it cannot be generalized to DF3+CQRPA or RHB+RQRPA global EDF/QRPA models."
+    },
+    "item3_saito_table2_halflives_origin": {
+      "verdict": "supported",
+      "primary_locators": [
+        "Saito 2020 PRC 102, 024337 p. 2 right col, p. 6 right col, refs 14,15"
+      ],
+      "summary": "Saito 2020 Table II half-lives 147(3) ms and 157(8) ms are adopted directly from Dunlop 2016 Table I from the same GRIFFIN dataset; they are independent of Taprogge 2015 EURICA data."
+    },
+    "item4_mass_evaluation_vintage_and_q_covariance": {
+      "verdict": "unsupported",
+      "primary_locators": [
+        "Saito 2020 PRC 102, 024337 p. 2 left col ref 12, p. 6 right col ref 32"
+      ],
+      "summary": "129Cd Ex=343(8) keV is from Manea 2020 PRL whereas Qbeta=9780(17) keV is from AME2016; without published experimental covariance, propagating error to 10123(19) keV in quadrature is unsupported."
+    },
+    "item5_pn_and_valence_gt_percentages": {
+      "verdict": "unsupported",
+      "primary_locators": [
+        "Saito 2020 PRC 102, 024337 throughout",
+        "Taprogge 2015 PRC 91, 054324 p. 6 right col"
+      ],
+      "summary": "Pn 10-15% and valence GT 2-5 losing 95% of Ikeda strength are not reported in the primary sources; G19 extrapolated them without authorization."
+    },
+    "item6_tags_unbiased_claim": {
+      "verdict": "unsupported",
+      "primary_locators": [
+        "TAGS unfolding principles, response matrix dependencies, delayed neutron backgrounds"
+      ],
+      "summary": "TAGS relies on level density / gamma strength unfolding and cannot cleanly separate near-equal half-life isomers (147 vs 157 ms) without pre-trap isomeric separation; claiming it is completely unbiased or fundamentally eliminates all Pandemonium is exaggerated."
+    },
+    "item7_ff_operator_treatment": {
+      "verdict": "unsupported",
+      "primary_locators": [
+        "Saito 2020 PRC 102, 024337 p. 6, p. 10 left col, Fig 8",
+        "Taprogge 2015 PRC 91, 054324 p. 9 right col"
+      ],
+      "summary": "NA-14 only calculated allowed GT transitions; FF transitions were not calculated via a microscopic weak operator, but were inferred from empirical logft ranges and parity selection rules."
+    },
+    "item8_table_129cd_feeding_csv_integrity": {
+      "verdict": "supported",
+      "primary_locators": [
+        "Saito 2020 PRC 102, 024337 Table II p. 10"
+      ],
+      "summary": "G19 CSV contained severe column misplacements (e.g. 1761 keV put 45(10)%, 1354 keV put 5.7(2)%), column swaps (2015 and 2058 keV), omitted the second (3347) keV level, and fabricated upper limits into blank cells. All 40 levels have been reconstructed exactly from Table II."
+    }
+  },
+  "changed_files": [
+    "outputs/l3/20261107-nuclear-structure-continuation/G19/table_129cd_feeding_comparison.csv",
+    "outputs/l3/20261107-nuclear-structure-continuation/G19/table_130in_isomers_energetics.csv",
+    "knowledge/sources/continuation-g19-dunlop-2016-cd-halflives.md",
+    "knowledge/sources/continuation-g19-saito-2020-129cd-spectroscopy.md",
+    "knowledge/sources/continuation-g19-taprogge-2014-129cd-isomer.md",
+    "knowledge/research-notes/continuation-g19-cd-in-common-weak-operator-20261107.md",
+    "outputs/l3/20261107-nuclear-structure-continuation/G22/audit.md",
+    "outputs/l3/20261107-nuclear-structure-continuation/G22/receipt.json"
+  ],
+  "drafts_backup_dir": "tmp/runs/20261107-nuclear-continuation/G22/drafts/",
+  "residual_issues_for_parent": [
+    "AME2020 covariance between 129Cd ground state and isomer is not in journal text; precision Q-window calculations require direct AME covariance matrix or PI-ICR frequency ratios.",
+    "Clarify 3150 keV normalization: 24.1(9)% is total 129Cd decays, 45(10)% is relative to 11/2- parent decays alone.",
+    "Operator limitations (absence of microscopic relativistic First-Forbidden treatment) strictly restricted to the papers read here, not extrapolated to global theory.",
+    "Single-level discrepancy of 130In(10-) by ~200 keV in jj45pna reflects local multipole/truncation limitations, not global falsification of the interaction."
+  ]
+}

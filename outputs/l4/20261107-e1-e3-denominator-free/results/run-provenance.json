@@ -1,0 +1,33 @@
+{
+  "producer": "/workspace/wiki/system/scripts/e1_e3_same_parent_constraints.py",
+  "producer_sha256": "f2b0f1820f559a6d37d1d3b55156dc56a9bb406083af32d7529544aeef05a688",
+  "input": "/workspace/wiki/outputs/l4/20261107-e1-e3-denominator-free/inputs.json",
+  "input_sha256": "c99373b7ea894828cb6715ed4f4e47f4f7437de84b7f5c2763980e0108766c99",
+  "outputs": {
+    "constraints.json": "f8b233ca8381bf329351e3037c42b2ab287709d54b659801ad249fad04e2157a",
+    "constraints.csv": "5b073922b95393b81d99842e3acdba86867bdf74c933fb801d7af25ef3e74aed"
+  },
+  "run_command": [
+    "python3",
+    "system/scripts/e1_e3_same_parent_constraints.py",
+    "--input",
+    "outputs/l4/20261107-e1-e3-denominator-free/inputs.json",
+    "--output",
+    "outputs/l4/20261107-e1-e3-denominator-free/results"
+  ],
+  "actual_original_files": [
+    {
+      "path": "raw/papers/⁹⁸Mo A possible candidate for octupole collectivity in A ≈ 100 region.pdf",
+      "sha256": "958364569a5a07aa7dee2fc8d44a150b1fa876b9cb5a8e3636bb6a4a84f970b1",
+      "locator": "PDF4 Table1, PDF6 Table2, PDF7 Table3",
+      "role": "98Mo primitive intensities; 100Ru reprinted branch ratios"
+    },
+    {
+      "path": "raw/books/nuclear structure Ⅰ_Bohr, Mottelson.pdf",
+      "sha256": "a31a158e0aff2ec6734d46f5aea5eb42dbebb82280835774f49350dd6f8c79df",
+      "locator": "PDF401 / printed382 Eqs3C-16 and3C-17",
+      "role": "General photon multipole rate; modern hbarc only affects ratios"
+    }
+  ],
+  "scope": "Derived quantities and explicitly conditional models, not original evidence"
+}

@@ -1,0 +1,14 @@
+{
+  "g14_csv_present": true,
+  "g14_csv_path": "outputs/l3/20261107-nuclear-structure-continuation/G14/table1_transitions_102Ru_NRF.csv",
+  "g14_sha256": "a21c2024237c6eae5e5a5c88c89313d139e8fff97b4886e4014a21a4928ec01c",
+  "total_rows_compared": 106,
+  "raw_string_mismatches_count": 0,
+  "raw_string_mismatches": [],
+  "treatment_differences_count": 67,
+  "treatment_differences_summary": {
+    "unbracketed_uncertainties_as_null": 67,
+    "omitted_downward_transitions": true,
+    "omitted_gamma_widths": true
+  }
+}

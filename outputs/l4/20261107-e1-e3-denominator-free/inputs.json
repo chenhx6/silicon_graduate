@@ -1,0 +1,95 @@
+{
+  "scope": "Parent transcription from Karmakar NPA1066 (2026) 123265; same-parent photon branches",
+  "originals": [
+    {
+      "path": "raw/papers/⁹⁸Mo A possible candidate for octupole collectivity in A ≈ 100 region.pdf",
+      "sha256": "958364569a5a07aa7dee2fc8d44a150b1fa876b9cb5a8e3636bb6a4a84f970b1",
+      "locator": "PDF4 Table1, PDF6 Table2, PDF7 Table3",
+      "role": "98Mo primitive intensities; 100Ru reprinted branch ratios"
+    },
+    {
+      "path": "raw/books/nuclear structure Ⅰ_Bohr, Mottelson.pdf",
+      "sha256": "a31a158e0aff2ec6734d46f5aea5eb42dbebb82280835774f49350dd6f8c79df",
+      "locator": "PDF401 / printed382 Eqs3C-16 and3C-17",
+      "role": "General photon multipole rate; modern hbarc only affects ratios"
+    }
+  ],
+  "limitations": [
+    "E3 assignments follow the source's lowest-allowed multipolarities; no measured DCO/polarization for these weak E3 branches.",
+    "98Mo intensity marginal errors include statistics/fitting only; approximately4% efficiency systematic is separately reported without covariance.",
+    "100Ru uses reprinted ratios to E2, so their correlation is unknown. They are not independent new measurements.",
+    "Energy uncertainty propagation is illustrative independent-error propagation; shared-level covariance was not supplied.",
+    "K=0 strong-coupling mapping is a declared conditional control, not an assignment inferred for these states.",
+    "No likelihood, p-value, absolute strength, lifetime, intrinsic shape, or exclusion of a full model family is inferred."
+  ],
+  "rows": [
+    {
+      "id": "98Mo_5",
+      "nucleus": "98Mo",
+      "initial_spin": 5,
+      "initial_energy_kev": 2620.4,
+      "e1_energy_kev": 1110.8,
+      "e1_energy_sigma_kev": 0.3,
+      "e3_energy_kev": 1833.3,
+      "e3_energy_sigma_kev": 0.5,
+      "e1_photon_input": 10.33,
+      "e1_input_sigma": 0.55,
+      "e3_photon_input": 0.24,
+      "e3_input_sigma": 0.09,
+      "input_kind": "primitive-intensities-table1",
+      "reported_b1_b2_fm_minus2": 5.17e-8,
+      "reported_b3_b2_fm2": 66.05,
+      "locator": "NPA PDF4 Table1; printed comparison PDF6 Table2 andPDF7 Table3"
+    },
+    {
+      "id": "98Mo_7",
+      "nucleus": "98Mo",
+      "initial_spin": 7,
+      "initial_energy_kev": 3095.4,
+      "e1_energy_kev": 752.4,
+      "e1_energy_sigma_kev": 0.3,
+      "e3_energy_kev": 1585.8,
+      "e3_energy_sigma_kev": 0.6,
+      "e1_photon_input": 8.52,
+      "e1_input_sigma": 0.40,
+      "e3_photon_input": 0.74,
+      "e3_input_sigma": 0.16,
+      "input_kind": "primitive-intensities-table1",
+      "reported_b1_b2_fm_minus2": 3.76e-8,
+      "reported_b3_b2_fm2": 153.81,
+      "locator": "NPA PDF4 Table1; printed comparison PDF6 Table2 andPDF7 Table3"
+    },
+    {
+      "id": "100Ru_5",
+      "nucleus": "100Ru",
+      "initial_spin": 5,
+      "initial_energy_kev": 2527.4,
+      "e1_energy_kev": 1300.9,
+      "e3_energy_kev": 1987.9,
+      "e1_photon_input": 12.34,
+      "e1_input_sigma": 1.51,
+      "e3_photon_input": 0.1643,
+      "e3_input_sigma": 0.0456,
+      "input_kind": "two-ratios-sharing-E2-reprinted-tables2-and3",
+      "reported_b1_b2_fm_minus2": 2.61e-8,
+      "reported_b3_b2_fm2": 17.39,
+      "locator": "NPA PDF6 Table2 (E3/E2 times10^-2), PDF7 Table3 (E1/E2)"
+    },
+    {
+      "id": "100Ru_7",
+      "nucleus": "100Ru",
+      "initial_spin": 7,
+      "initial_energy_kev": 2951.9,
+      "e1_energy_kev": 876.0,
+      "e3_energy_kev": 1725.2,
+      "e1_photon_input": 5.52,
+      "e1_input_sigma": 0.57,
+      "e3_photon_input": 0.0571,
+      "e3_input_sigma": 0.0177,
+      "input_kind": "two-ratios-sharing-E2-reprinted-tables2-and3",
+      "reported_b1_b2_fm_minus2": 8.63e-8,
+      "reported_b3_b2_fm2": 36.97,
+      "locator": "NPA PDF6 Table2 (E3/E2 times10^-2), PDF7 Table3 (E1/E2)"
+    }
+  ]
+}

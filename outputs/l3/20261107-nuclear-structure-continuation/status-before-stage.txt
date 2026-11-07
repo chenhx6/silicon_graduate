@@ -1,0 +1,109 @@
+## main...origin/main
+ M knowledge/index.md
+ M knowledge/projects/isomer-six-region-transfer-research.md
+ M knowledge/research-notes/campaign-g02-ru102-fulltext-20261107.md
+ M knowledge/research-notes/campaign-g06-a130-wobbling-discrimination-20261107.md
+ M knowledge/research-notes/campaign-g07-a160-tsd-kmix-20261107.md
+ M knowledge/sources/campaign-g06-chen-2026-triaxial-softness-wobbling.md
+ M knowledge/sources/campaign-g07-gorgen-2004-163lu-quadrupole-moments.md
+ M knowledge/sources/saracino-2026-102ru-scissors-octupole-resonances.md
+ M knowledge/synthesis/high-spin-isomers-and-decay-modes-systematics.md
+ M knowledge/synthesis/octupole-and-chiral-coexistence-in-transitional-nuclei.md
+ M knowledge/synthesis/triaxial-collective-evolution-across-mass-regions.md
+ M system/handoff.md
+ M system/log.md
+?? knowledge/research-notes/continuation-g14-ru102-si-thesis-20261107.md
+?? knowledge/research-notes/continuation-g15-effective-e1-origin-20261107.md
+?? knowledge/research-notes/continuation-g16-soft-core-wobbling-20261107.md
+?? knowledge/research-notes/continuation-g17-mo98-absolute-constraints-20261107.md
+?? knowledge/research-notes/continuation-g18-ir-os-common-model-20261107.md
+?? knowledge/research-notes/continuation-g19-cd-in-common-weak-operator-20261107.md
+?? knowledge/research-notes/continuation-g20-thesis-e1-d0-contract-20261107.md
+?? knowledge/research-notes/continuation-g21-a80-a130-parity-chiral-transfer-20261107.md
+?? knowledge/research-notes/continuation-g23-lu163-absolute-quadrupole-20261107.md
+?? knowledge/research-notes/continuation-t02-ru102-covariant-effective-e1-20261107.md
+?? knowledge/research-notes/mo98-ru100-same-parent-e1-e3-constraints-20261107.md
+?? knowledge/research-notes/ru102-si-strength-concentration-20261107.md
+?? knowledge/sources/continuation-g15-hagemann-1993-prc47-octupole-softness.md
+?? knowledge/sources/continuation-g15-hamamoto-1989-plb226-dipole-octupole.md
+?? knowledge/sources/continuation-g17-chen-singh-2020-nds-98mo.md
+?? knowledge/sources/continuation-g17-thomas-2016-96-98mo-coexistence.md
+?? knowledge/sources/continuation-g18-lukasiak-1979-191ir-triaxial-rotor.md
+?? knowledge/sources/continuation-g18-walker-2006-oblate-trs-a190.md
+?? knowledge/sources/continuation-g19-dunlop-2016-cd-halflives.md
+?? knowledge/sources/continuation-g19-saito-2020-129cd-spectroscopy.md
+?? knowledge/sources/continuation-g19-taprogge-2014-129cd-isomer.md
+?? knowledge/sources/continuation-g21-selvakumar-2015-prc92-124cs-octupole-chiral.md
+?? knowledge/sources/continuation-g21-wang-2020-prc102-131ba-pseudospin-octupole.md
+?? outputs/l3/20261107-nuclear-structure-continuation/G14/receipt.json
+?? outputs/l3/20261107-nuclear-structure-continuation/G14/report.md
+?? outputs/l3/20261107-nuclear-structure-continuation/G14/table1_transitions_102Ru_NRF.csv
+?? outputs/l3/20261107-nuclear-structure-continuation/G15/receipt.json
+?? outputs/l3/20261107-nuclear-structure-continuation/G15/report.md
+?? outputs/l3/20261107-nuclear-structure-continuation/G16/receipt.json
+?? outputs/l3/20261107-nuclear-structure-continuation/G16/report.md
+?? outputs/l3/20261107-nuclear-structure-continuation/G17/receipt.json
+?? outputs/l3/20261107-nuclear-structure-continuation/G17/report.md
+?? outputs/l3/20261107-nuclear-structure-continuation/G18/receipt.json
+?? outputs/l3/20261107-nuclear-structure-continuation/G18/report.md
+?? outputs/l3/20261107-nuclear-structure-continuation/G19/receipt.json
+?? outputs/l3/20261107-nuclear-structure-continuation/G19/report.md
+?? outputs/l3/20261107-nuclear-structure-continuation/G19/table_129cd_feeding_comparison-provenance.json
+?? outputs/l3/20261107-nuclear-structure-continuation/G19/table_129cd_feeding_comparison.csv
+?? outputs/l3/20261107-nuclear-structure-continuation/G19/table_130in_isomers_energetics.csv
+?? outputs/l3/20261107-nuclear-structure-continuation/G19/testable-contract.md
+?? outputs/l3/20261107-nuclear-structure-continuation/G20/receipt.json
+?? outputs/l3/20261107-nuclear-structure-continuation/G20/report.md
+?? outputs/l3/20261107-nuclear-structure-continuation/G21/receipt.json
+?? outputs/l3/20261107-nuclear-structure-continuation/G21/report.md
+?? outputs/l3/20261107-nuclear-structure-continuation/G22/audit.md
+?? outputs/l3/20261107-nuclear-structure-continuation/G22/receipt.json
+?? outputs/l3/20261107-nuclear-structure-continuation/G23/receipt.json
+?? outputs/l3/20261107-nuclear-structure-continuation/G23/report.md
+?? outputs/l3/20261107-nuclear-structure-continuation/G25/audit.md
+?? outputs/l3/20261107-nuclear-structure-continuation/G25/receipt.json
+?? outputs/l3/20261107-nuclear-structure-continuation/archive-check-initial.json
+?? outputs/l3/20261107-nuclear-structure-continuation/archive-check.json
+?? outputs/l3/20261107-nuclear-structure-continuation/archive-timestamp-audit.json
+?? outputs/l3/20261107-nuclear-structure-continuation/authenticated-api-discovery.json
+?? outputs/l3/20261107-nuclear-structure-continuation/credential-leak-check.json
+?? outputs/l3/20261107-nuclear-structure-continuation/dispatch-state.json
+?? outputs/l3/20261107-nuclear-structure-continuation/eol-check.json
+?? outputs/l3/20261107-nuclear-structure-continuation/final-report.md
+?? outputs/l3/20261107-nuclear-structure-continuation/git-fetch.json
+?? outputs/l3/20261107-nuclear-structure-continuation/lint-baseline.json
+?? outputs/l3/20261107-nuclear-structure-continuation/lint-before-schema-normalization.json
+?? outputs/l3/20261107-nuclear-structure-continuation/lint-delta.json
+?? outputs/l3/20261107-nuclear-structure-continuation/lint-final.json
+?? outputs/l3/20261107-nuclear-structure-continuation/local-catalogue-refresh.json
+?? outputs/l3/20261107-nuclear-structure-continuation/manifest-schema-repair.json
+?? outputs/l3/20261107-nuclear-structure-continuation/parent-audit.json
+?? outputs/l3/20261107-nuclear-structure-continuation/preflight.json
+?? outputs/l3/20261107-nuclear-structure-continuation/qmd-refresh.json
+?? outputs/l3/20261107-nuclear-structure-continuation/springer-api-discovery.json
+?? outputs/l3/20261107-nuclear-structure-continuation/user-originals-preserved.json
+?? outputs/l4/20261107-e1-e3-denominator-free/figures/e1-e3-central-constraints.png
+?? outputs/l4/20261107-e1-e3-denominator-free/figures/e1-e3-central-constraints.svg
+?? outputs/l4/20261107-e1-e3-denominator-free/figures/run-provenance.json
+?? outputs/l4/20261107-e1-e3-denominator-free/inputs.json
+?? outputs/l4/20261107-e1-e3-denominator-free/results/constraints.csv
+?? outputs/l4/20261107-e1-e3-denominator-free/results/constraints.json
+?? outputs/l4/20261107-e1-e3-denominator-free/results/run-provenance.json
+?? outputs/l4/20261107-e1-e3-denominator-free/validation.json
+?? outputs/l4/20261107-ru102-effective-e1/cg_audit.py
+?? outputs/l4/20261107-ru102-effective-e1/receipt.json
+?? outputs/l4/20261107-ru102-effective-e1/report.md
+?? outputs/l4/20261107-ru102-si-strength-audit/comparison_with_g14.json
+?? outputs/l4/20261107-ru102-si-strength-audit/leave_one_out_sensitivity.json
+?? outputs/l4/20261107-ru102-si-strength-audit/parent-execution.log
+?? outputs/l4/20261107-ru102-si-strength-audit/parent-validation.json
+?? outputs/l4/20261107-ru102-si-strength-audit/receipt.json
+?? outputs/l4/20261107-ru102-si-strength-audit/report.md
+?? outputs/l4/20261107-ru102-si-strength-audit/run-provenance.json
+?? outputs/l4/20261107-ru102-si-strength-audit/strength_windows_summary.json
+?? outputs/l4/20261107-ru102-si-strength-audit/table1_parsed_audit.csv
+?? outputs/l4/20261107-ru102-si-strength-audit/table1_parsed_audit.json
+?? outputs/plans/20261107-nuclear-structure-continuation.md
+?? system/scripts/e1_e3_same_parent_constraints.py
+?? system/scripts/plot_e1_e3_same_parent_constraints.py
+?? system/scripts/ru102_si_strength_audit.py

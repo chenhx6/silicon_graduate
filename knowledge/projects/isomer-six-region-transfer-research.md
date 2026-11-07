@@ -3,7 +3,7 @@ type: project
 title: "同核异能态与六区集体动力学：证据、机制迁移和研究队列"
 aliases: [isomer六区研究, isomer-six-region-transfer, 跨核区新现象研究]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-08
 status: active
 review_status: unreviewed
 research_status: active-L3
@@ -26,7 +26,40 @@ tags: [isomer, cross-region, triaxiality, octupole, hypothesis, l3, l4]
 Terra/xhigh处理复杂推导和精确数值；模型身份不替代来源与独立核验。
 本项目不是daily-learning课程，不改变学分或调度。
 
-## 本轮规模化续接：新增正文、跨区问题与精确控制
+## 当前续接：原始推导与共同观测合同
+
+继续按Gemini主力推进。执行计划与调度记录为
+`outputs/plans/20261107-nuclear-structure-continuation.md`及相应任务回执；
+可复用科学内容以以下知识页和直接source为准。worker草稿须经原件核查，
+返回状态或篇幅不代替实验独立性和推导正确性。
+
+- [[continuation-g14-ru102-si-thesis-20261107]]与
+  [[ru102-si-strength-concentration-20261107]]：已补5页SI、106行跃迁表和六项相互作用形式；
+  保留BR、括号多极性、强度集中度与完整Cov/响应缺口。
+- [[continuation-g15-effective-e1-origin-20261107]]、
+  [[continuation-t02-ru102-covariant-effective-e1-20261107]]：取得1989/1993原有效E1文献，
+  区分静态极化、QRPA态混合、有效顶角及旋转协变；最低阶轴向构造并不唯一。
+- [[continuation-g16-soft-core-wobbling-20261107]]：Chen2026的21页正文将核芯软度
+  与费米面位置一起比较；未扰动邻核芯近似不能直接裁决奇A核的真实动力学。
+- [[mo98-ru100-same-parent-e1-e3-constraints-20261107]]与
+  [[continuation-g17-mo98-absolute-constraints-20261107]]：相对E1/E3可消去E2分母，
+  低自旋名义趋势不同；绝对寿命与可靠联合误差仍需同态输入。
+- [[continuation-g18-ir-os-common-model-20261107]]：形状极小点、低能带EM比较
+  与高自旋异能态多极分支预测分开；未报告矩阵元不等于算符为零。
+- [[continuation-g19-cd-in-common-weak-operator-20261107]]：母态、Q窗、分支、GT/FF
+  与相互作用/淬灭须按同一版本映射；近等寿命不唯一固定有效gA。
+- [[continuation-g20-thesis-e1-d0-contract-20261107]]与
+  [[continuation-g21-a80-a130-parity-chiral-transfer-20261107]]：学位论文E1/D0依赖及
+  A130手征/八极关联案例，用于检验迁移条件而不是指定整区静态形状。
+- [[continuation-g23-lu163-absolute-quadrupole-20261107]]：163Lu的4页DSAM原件补齐
+  绝对E2基准；新寿命与旧分支/δ的依赖分别登记，Qt相近单独不是摆动证明。
+
+当前科学问题仍active-L3，并含可重放的有界L4分析。Saracino博士全文未取得，
+作者生产代码、理论复振幅与完整实验Cov也没有因SI出现就自动恢复。
+下一阶段按同态绝对多极矩阵元、两方向支路及未拟合预测的信息增益选择，
+不重复已有seniority或单轨道角向控制。
+
+## 上一批规模化续接：新增正文、跨区问题与精确控制
 
 用户补充Gemini可用额度并授权规模化研究；本轮实际派发13个Gemini/high任务与1个
 Terra/xhigh任务，包含独立原件核查，按运行器容量分波推进。工作状态见执行回执，
@@ -35,7 +68,7 @@ Terra/xhigh任务，包含独立原件核查，按运行器容量分波推进。
 - 三篇用户正文均已核读：[[campaign-g01-mo98-fulltext-20261107]]、
   [[campaign-g02-ru102-fulltext-20261107]]、[[campaign-g03-ding60-fulltext-20261107]]。
   98Mo低自旋弱E3多极性指定与相对强度现在可定位；绝对E3/寿命仍缺。102Ru的
-  有效算符和联合拟合参数已可核，SI/Cov尚缺。Ding揭示能谱指纹与取向概率不同响应。
+  有效算符和联合拟合参数已可核；本轮后续已补SI，完整Cov仍缺。Ding揭示能谱指纹与取向概率不同响应。
 - 新的N=56实验参照：[[campaign-g13-zr96-revised-e3-20261107]]。
   已核Iskra2019报告向下42(3)W.u.，Mach1990的65(10)保持历史；不认证2026全部评价。
 - 六区分支：[[campaign-g04-a60-a80-transfer-20261107]]、
@@ -57,7 +90,7 @@ Terra/xhigh任务，包含独立原件核查，按运行器容量分波推进。
 | 问题 | 已有输入 | 下一项可改变排序的证据 | 失败/转向条件 |
 |---|---|---|---|
 | 98Mo9−附近比值变化由E1还是E2驱动 | 新正文相对分支、E3/E2与E1/E2 | 同母态绝对寿命/完整分支，反射对称重排与八极模型共同预测 | 无绝对量与共同Hamiltonian时不造固定W.u.预言 |
-| 102Ru八极极化与残余力能否区分 | 正文Eq2与b/κ联合拟合 | SI、Cov、有效算符原始推导及未拟合E3/其它探针响应 | 不把拟合好或同曲线两参数自动称唯一/严格退化 |
+| 102Ru八极极化与残余力能否区分 | 正文Eq2、5页SI与两篇原有效算符文献 | 完整Cov/复响应、模型空间匹配及未拟合E3/其它探针 | 不把拟合好或同曲线两参数自动称唯一/严格退化 |
 | Ir/Os的瓶颈是否需形状/K混合 | Ir完整分支/PES、Os同母态率 | 共同算符的多分支预测和逐态响应 | 不以长寿命/低fν独立指定形状 |
 | 组态依赖β率能否用共同gA描述 | 129Cd门选母态、In独立质量 | 实际Q/母态排序、未见feeding、允许/禁戒联合算符与留出分支 | 不用有限Q窗强度除裸Ikeda总和反推通用淬灭 |
 
@@ -139,7 +172,7 @@ B(n)/B(2)=1/0.25/0/0.25/1，半满值只剩数值舍入。
 - [[mo98-e3-and-n56-octupole-evidence-round2-20261107]]与
   [[ru102-low-spin-dipole-and-high-spin-transfer-round2-20261107]]：
   补得学位研究会刊、96Zr原始E3及102Ru新摘要/作者网页，保持低/高自旋和E1/E3身份；
-  该段为第二轮历史边界；本轮已取得98Mo/102Ru正文，SI仍缺，见上方续接。
+  该段为第二轮历史边界；后续已取得98Mo/102Ru正文及102Ru SI，完整Cov仍缺，见上方续接。
 - [[light-and-rare-earth-orientation-window-round2-20261107]]追踪轻区残余力与稀土取向窗口，
   不从局部带的观测终点反推整核或全球实验上限。
 

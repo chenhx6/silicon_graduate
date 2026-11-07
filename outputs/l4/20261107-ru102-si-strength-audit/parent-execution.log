@@ -1,0 +1,33 @@
+[TEST] Running negative tests and error-handling checks...
+  [PASS] Successfully rejected line with missing tokens.
+  [PASS] Successfully rejected malformed numeric string.
+  [PASS] Successfully rejected truncated row count.
+  [PASS] Unstated uncertainty correctly returned as None (null).
+  [PASS] 5299.11(1.4) correctly parsed with decimal mismatch note.
+[TEST] All negative and sanity checks passed successfully!
+
+=== 102Ru SI Table I Strength Audit ===
+Target PDF: raw/papers/gpt/query/20261107-continuation-G14/102Ru-PRL-136-252501-Supplemental-Material.pdf
+PDF SHA256: 8b9fba94fd43ea2af1860029889c0cb3e30ebb3c2cc29a5e0d749649c93a2df0
+Extracting Table I text from PDF (pages 1-3) with pdftotext -layout...
+Parsing 106 rows from Table I...
+Successfully extracted 106 rows without exception.
+Comparing with existing G14 CSV: outputs/l3/20261107-nuclear-structure-continuation/G14/table1_transitions_102Ru_NRF.csv...
+G14 Comparison: 0 raw string mismatches, 67 standardized treatment refinements.
+Computing predetermined energy windows...
+  * E1 Total sum: 0.15408 e2 fm2 (N=72)
+  * 4.5-5.5 MeV E1 sum: 0.10137 e2 fm2 (N=38)
+  * 2.3-4.0 MeV M1 sum: 0.992 muN2 (N=17)
+  * Max row in 4.5-5.5 MeV: 5080.93(31) B=0.05, BR=0.12(11), share=49.32%, variance_share=98.17%
+Computing leave-one-line-out sensitivity diagnostics...
+  * Top influential line: 5080.93(31) B=0.05 BR=0.12(11) -> sum without line: 0.05137 e2 fm2 (-49.32%), delta centroid: -10.92 keV
+Wrote audited CSV: outputs/l4/20261107-ru102-si-strength-audit/table1_parsed_audit.csv (20136 bytes)
+Wrote audited JSON: outputs/l4/20261107-ru102-si-strength-audit/table1_parsed_audit.json (89316 bytes)
+Wrote windows summary: outputs/l4/20261107-ru102-si-strength-audit/strength_windows_summary.json (12452 bytes)
+Wrote LOO sensitivity: outputs/l4/20261107-ru102-si-strength-audit/leave_one_out_sensitivity.json (22821 bytes)
+Wrote comparison JSON: outputs/l4/20261107-ru102-si-strength-audit/comparison_with_g14.json (518 bytes)
+Wrote provenance JSON: outputs/l4/20261107-ru102-si-strength-audit/run-provenance.json (845 bytes)
+Wrote report Markdown: outputs/l4/20261107-ru102-si-strength-audit/report.md (8640 bytes)
+Wrote receipt JSON: outputs/l4/20261107-ru102-si-strength-audit/receipt.json (2574 bytes)
+
+[SUCCESS] Audit completed successfully.

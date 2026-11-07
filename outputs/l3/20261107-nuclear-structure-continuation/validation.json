@@ -1,0 +1,161 @@
+{
+  "archive": {
+    "ok": true,
+    "sources": 14,
+    "manifests": 11
+  },
+  "preflight_ok": true,
+  "lint": {
+    "baseline_counts": {
+      "error": 129,
+      "warning": 435,
+      "info": 5486
+    },
+    "final_counts": {
+      "error": 129,
+      "warning": 446,
+      "info": 5484
+    },
+    "new_errors": [],
+    "new_warnings": [
+      {
+        "severity": "warning",
+        "code": "CITATION_KEY_MISSING",
+        "path": "knowledge/sources/continuation-g15-hagemann-1993-prc47-octupole-softness.md",
+        "message": "source has no citation_key"
+      },
+      {
+        "severity": "warning",
+        "code": "CITATION_KEY_MISSING",
+        "path": "knowledge/sources/continuation-g15-hamamoto-1989-plb226-dipole-octupole.md",
+        "message": "source has no citation_key"
+      },
+      {
+        "severity": "warning",
+        "code": "CITATION_KEY_MISSING",
+        "path": "knowledge/sources/continuation-g17-chen-singh-2020-nds-98mo.md",
+        "message": "source has no citation_key"
+      },
+      {
+        "severity": "warning",
+        "code": "CITATION_KEY_MISSING",
+        "path": "knowledge/sources/continuation-g17-thomas-2016-96-98mo-coexistence.md",
+        "message": "source has no citation_key"
+      },
+      {
+        "severity": "warning",
+        "code": "CITATION_KEY_MISSING",
+        "path": "knowledge/sources/continuation-g18-lukasiak-1979-191ir-triaxial-rotor.md",
+        "message": "source has no citation_key"
+      },
+      {
+        "severity": "warning",
+        "code": "CITATION_KEY_MISSING",
+        "path": "knowledge/sources/continuation-g18-walker-2006-oblate-trs-a190.md",
+        "message": "source has no citation_key"
+      },
+      {
+        "severity": "warning",
+        "code": "CITATION_KEY_MISSING",
+        "path": "knowledge/sources/continuation-g19-dunlop-2016-cd-halflives.md",
+        "message": "source has no citation_key"
+      },
+      {
+        "severity": "warning",
+        "code": "CITATION_KEY_MISSING",
+        "path": "knowledge/sources/continuation-g19-saito-2020-129cd-spectroscopy.md",
+        "message": "source has no citation_key"
+      },
+      {
+        "severity": "warning",
+        "code": "CITATION_KEY_MISSING",
+        "path": "knowledge/sources/continuation-g19-taprogge-2014-129cd-isomer.md",
+        "message": "source has no citation_key"
+      },
+      {
+        "severity": "warning",
+        "code": "CITATION_KEY_MISSING",
+        "path": "knowledge/sources/continuation-g21-selvakumar-2015-prc92-124cs-octupole-chiral.md",
+        "message": "source has no citation_key"
+      },
+      {
+        "severity": "warning",
+        "code": "CITATION_KEY_MISSING",
+        "path": "knowledge/sources/continuation-g21-wang-2020-prc102-131ba-pseudospin-octupole.md",
+        "message": "source has no citation_key"
+      }
+    ],
+    "new_warning_scope": "Eleven newly registered sources without a verified generated-BibTeX key; not fabricated.",
+    "whole_wiki_green": false
+  },
+  "numerical": {
+    "e1_e3": {
+      "replay_byte_identical": {
+        "constraints.json": true,
+        "constraints.csv": true
+      },
+      "original_hashes_verified_by_producer": true,
+      "tampered_original_hash_rejected": true,
+      "negative_case_output_not_created": true,
+      "statistical_significance_not_calculated": true,
+      "CSV_serialization": "LF, producer and replay agree"
+    },
+    "ru102": {
+      "byte_identical_numerical_replay": {
+        "table1_parsed_audit.csv": true,
+        "table1_parsed_audit.json": true,
+        "strength_windows_summary.json": true,
+        "leave_one_out_sensitivity.json": true,
+        "comparison_with_g14.json": true
+      },
+      "targeted_negative_and_parser_checks": "passed; actual stdout in parent-execution.log",
+      "producer_sha256": "4e1569c5e88dbfc0eb6dce7827da9ec84fcea1904ebdb3de87e3095e2d368644",
+      "rows": 106,
+      "raw_string_mismatches": 0,
+      "timestamp_policy": "Dynamic actual execution UTC; former manually fixed date removed.",
+      "parent_review": "Pinned original PDF hash and fail-on-mismatched reference; conditional uncertainty wording qualified.",
+      "CSV_serialization": "LF; raw reported fields still match G14"
+    },
+    "tensor_CG": "Parent executed exact six-coefficient audit successfully"
+  },
+  "qmd_text_index_current": true,
+  "user_originals_preserved": true,
+  "producer_scripts_compile": true,
+  "no_new_daemon_or_daily_state_change": true,
+  "generated_format_repair": {
+    "format_fixes": [
+      {
+        "path": "outputs/l3/20261107-nuclear-structure-continuation/G14/table1_transitions_102Ru_NRF.csv",
+        "old_sha256": "72e49cda1e2cdb8a23efd751fb67a43c110740dd82f7139c2c2f78c633472021",
+        "new_sha256": "a21c2024237c6eae5e5a5c88c89313d139e8fff97b4886e4014a21a4928ec01c",
+        "change": "LF; G14 derived-spin label qualified without changing reported fields"
+      },
+      {
+        "path": "outputs/l3/20261107-nuclear-structure-continuation/G19/table_129cd_feeding_comparison.csv",
+        "old_sha256": "cd1a7628f3055f325547251963b4946b7e693ecbf58f27799db4931ce1ea1afb",
+        "new_sha256": "6fb9eac25382a7d0e948cdf44bbc3ae41be65e82546e0f07dcfbca648ee20348",
+        "change": "LF only"
+      },
+      {
+        "path": "outputs/l3/20261107-nuclear-structure-continuation/G19/table_130in_isomers_energetics.csv",
+        "old_sha256": "1948e7d419f993617878c049fd77336f93d7b719d7c08be847a0ff06364868f4",
+        "new_sha256": "d3956cdf76d4599a703c05c7f4fd4e3276a4ebc5287a70640b382a377f213d0b",
+        "change": "LF only"
+      }
+    ],
+    "e1_e3_byte_replay": {
+      "constraints.json": true,
+      "constraints.csv": true
+    },
+    "ru102_byte_replay": {
+      "table1_parsed_audit.csv": true,
+      "table1_parsed_audit.json": true,
+      "strength_windows_summary.json": true,
+      "leave_one_out_sensitivity.json": true,
+      "comparison_with_g14.json": true
+    },
+    "reported_numbers_changed": false,
+    "raw_originals_changed": false,
+    "SVG_XML_valid": true
+  }
+}

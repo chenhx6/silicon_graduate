@@ -1,0 +1,67 @@
+{
+  "exit": 0,
+  "source_paths": [
+    "knowledge/sources/continuation-g15-hagemann-1993-prc47-octupole-softness.md",
+    "knowledge/sources/continuation-g15-hamamoto-1989-plb226-dipole-octupole.md",
+    "knowledge/sources/continuation-g17-chen-singh-2020-nds-98mo.md",
+    "knowledge/sources/continuation-g17-thomas-2016-96-98mo-coexistence.md",
+    "knowledge/sources/continuation-g18-lukasiak-1979-191ir-triaxial-rotor.md",
+    "knowledge/sources/continuation-g18-walker-2006-oblate-trs-a190.md",
+    "knowledge/sources/continuation-g19-dunlop-2016-cd-halflives.md",
+    "knowledge/sources/continuation-g19-saito-2020-129cd-spectroscopy.md",
+    "knowledge/sources/continuation-g19-taprogge-2014-129cd-isomer.md",
+    "knowledge/sources/continuation-g21-selvakumar-2015-prc92-124cs-octupole-chiral.md",
+    "knowledge/sources/continuation-g21-wang-2020-prc102-131ba-pseudospin-octupole.md",
+    "knowledge/sources/saracino-2026-102ru-scissors-octupole-resonances.md",
+    "knowledge/sources/campaign-g06-chen-2026-triaxial-softness-wobbling.md",
+    "knowledge/sources/campaign-g07-gorgen-2004-163lu-quadrupole-moments.md"
+  ],
+  "manifest_paths": [
+    "raw/papers/gpt/query/20261107-continuation-G14/manifest.json",
+    "raw/papers/gpt/query/20261107-continuation-G15/manifest.json",
+    "raw/papers/gpt/query/20261107-continuation-G16/manifest.json",
+    "raw/papers/gpt/query/20261107-continuation-G17/manifest.json",
+    "raw/papers/gpt/query/20261107-continuation-G18/manifest.json",
+    "raw/papers/gpt/query/20261107-continuation-G19/manifest.json",
+    "raw/papers/gpt/query/20261107-continuation-G21/manifest.json",
+    "raw/papers/gpt/query/20261107-continuation-G23/manifest.json",
+    "raw/papers/gpt/query/20261107-continuation-api-discovery/manifest.json",
+    "raw/papers/gpt/query/20261107-continuation-gdr-calibration-discovery/manifest.json",
+    "raw/papers/gpt/query/20261107-continuation-parent-verification/manifest.json"
+  ],
+  "result": {
+    "checked_manifests": [
+      "/workspace/wiki/raw/papers/gpt/query/20261107-continuation-G14/manifest.json",
+      "/workspace/wiki/raw/papers/gpt/query/20261107-continuation-G15/manifest.json",
+      "/workspace/wiki/raw/papers/gpt/query/20261107-continuation-G16/manifest.json",
+      "/workspace/wiki/raw/papers/gpt/query/20261107-continuation-G17/manifest.json",
+      "/workspace/wiki/raw/papers/gpt/query/20261107-continuation-G18/manifest.json",
+      "/workspace/wiki/raw/papers/gpt/query/20261107-continuation-G19/manifest.json",
+      "/workspace/wiki/raw/papers/gpt/query/20261107-continuation-G21/manifest.json",
+      "/workspace/wiki/raw/papers/gpt/query/20261107-continuation-G23/manifest.json",
+      "/workspace/wiki/raw/papers/gpt/query/20261107-continuation-api-discovery/manifest.json",
+      "/workspace/wiki/raw/papers/gpt/query/20261107-continuation-gdr-calibration-discovery/manifest.json",
+      "/workspace/wiki/raw/papers/gpt/query/20261107-continuation-parent-verification/manifest.json"
+    ],
+    "checked_sources": [
+      "/workspace/wiki/knowledge/sources/campaign-g06-chen-2026-triaxial-softness-wobbling.md",
+      "/workspace/wiki/knowledge/sources/campaign-g07-gorgen-2004-163lu-quadrupole-moments.md",
+      "/workspace/wiki/knowledge/sources/continuation-g15-hagemann-1993-prc47-octupole-softness.md",
+      "/workspace/wiki/knowledge/sources/continuation-g15-hamamoto-1989-plb226-dipole-octupole.md",
+      "/workspace/wiki/knowledge/sources/continuation-g17-chen-singh-2020-nds-98mo.md",
+      "/workspace/wiki/knowledge/sources/continuation-g17-thomas-2016-96-98mo-coexistence.md",
+      "/workspace/wiki/knowledge/sources/continuation-g18-lukasiak-1979-191ir-triaxial-rotor.md",
+      "/workspace/wiki/knowledge/sources/continuation-g18-walker-2006-oblate-trs-a190.md",
+      "/workspace/wiki/knowledge/sources/continuation-g19-dunlop-2016-cd-halflives.md",
+      "/workspace/wiki/knowledge/sources/continuation-g19-saito-2020-129cd-spectroscopy.md",
+      "/workspace/wiki/knowledge/sources/continuation-g19-taprogge-2014-129cd-isomer.md",
+      "/workspace/wiki/knowledge/sources/continuation-g21-selvakumar-2015-prc92-124cs-octupole-chiral.md",
+      "/workspace/wiki/knowledge/sources/continuation-g21-wang-2020-prc102-131ba-pseudospin-octupole.md",
+      "/workspace/wiki/knowledge/sources/saracino-2026-102ru-scissors-octupole-resonances.md"
+    ],
+    "failure_count": 0,
+    "failures": [],
+    "ok": true,
+    "scope": "paths"
+  }
+}

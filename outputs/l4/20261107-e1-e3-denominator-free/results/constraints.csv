@@ -1,0 +1,5 @@
+id,nucleus,initial_spin,initial_energy_kev,B_E1_over_B_E3_fm_minus4,conditional_K0_intrinsic_amplitude_ratio_squared_fm_minus4,input_kind
+98Mo_5,98Mo,5,2620.4,7.845904314527311e-10,3.736144911679672e-10,primitive-intensities-table1
+98Mo_7,98Mo,7,3095.4,2.4469617501702246e-10,1.2833715472920755e-10,primitive-intensities-table1
+100Ru_5,100Ru,5,2527.4,1.5022228473184272e-09,7.153442130087748e-10,two-ratios-sharing-E2-reprinted-tables2-and3
+100Ru_7,100Ru,7,2951.9,2.347975543514039e-09,1.23145570464023e-09,two-ratios-sharing-E2-reprinted-tables2-and3

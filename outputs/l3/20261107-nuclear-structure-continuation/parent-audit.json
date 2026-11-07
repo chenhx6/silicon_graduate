@@ -1,0 +1,32 @@
+{
+  "status": "complete-with-explicit-open-scientific-questions",
+  "accepted_increment": [
+    "102Ru real five-page Supplemental Material and published-branch dataset",
+    "Hamamoto1989 and Hagemann1993 actual primary full texts",
+    "Chen2026 actual21-page full text and conditional core/occupancy comparison",
+    "Mo98/Ru100 same-parent E1/E3 derived constraint with original hashes and negative provenance check",
+    "Gorgen2004 actual4-page DSAM primary and input dependencies",
+    "Terra conditional covariant tensor derivation and exactCG audit"
+  ],
+  "corrections_already_integrated": [
+    "Hagemann1993 Eq8 couplings corrected from10^-3 to10^-5 MeV fm^-6",
+    "joint fitting does not establish strong correlation/strict degeneracy",
+    "not all106SI rows are statistically independent",
+    "UNC timeout does not establish embargo/firewall or no mirrors",
+    "missing electromagnetic prediction is not a zero operator",
+    "relative branches do not supply absoluteB without normalization/lifetime",
+    "Chen model cases do not establish universal wobbling exclusion",
+    "Gorgen original does not report a common8.2(5) band average",
+    "G19/TableII total versus mother-normalized feeding and blank/upper-limit columns",
+    "Taprogge2014 tentativeE3 to15/2− corrected; unsupported359/1423-keV cascade removed",
+    "G20 D0 prefactor and unclosed level sums: no assignment of source error",
+    "G21 bareE1/rank3 and g7/2-h11/2 orbital differences; no universal static exclusion",
+    "G25 96Zr relative12.8:100 intensity is not12.8percent total branch",
+    "Research-note/source schema normalized with explicit scope and no scientific promotion"
+  ],
+  "pending_independent_corrections": [],
+  "archive_metadata": "Original worker manifests preserved; parent companion qualifiesG16/G17/G19 manual UTC offsets.",
+  "evidence_policy": "Worker drafts in ignored tmp; canonical pages and primary locators supersede original worker prose.",
+  "publication": "Authorized explicit scope; actual Git outcome is recorded in local publication receipt.",
+  "manifest_schema_repair": "Three task-generated manifests corrected to files key, prior metadata bytes retained in versioned companions; no primary bytes changed."
+}

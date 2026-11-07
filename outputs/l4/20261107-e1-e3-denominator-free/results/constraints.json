@@ -1,0 +1,139 @@
+{
+  "checks": {
+    "K0_CG_independent_reference": {
+      "5_E1": true,
+      "5_E3": true,
+      "7_E1": true,
+      "7_E3": true
+    },
+    "coefficient_general_equals_closed_form": true,
+    "shared_E2_scale_invariance_cases": 20
+  },
+  "coefficient_C_E3_over_C_E1_MeV_minus4_fm_minus4": 3.589440607498104e-13,
+  "data_scope": "Published low-spin branches; no absolute B and no new measurement",
+  "limitations": [
+    "E3 assignments follow the source's lowest-allowed multipolarities; no measured DCO/polarization for these weak E3 branches.",
+    "98Mo intensity marginal errors include statistics/fitting only; approximately4% efficiency systematic is separately reported without covariance.",
+    "100Ru uses reprinted ratios to E2, so their correlation is unknown. They are not independent new measurements.",
+    "Energy uncertainty propagation is illustrative independent-error propagation; shared-level covariance was not supplied.",
+    "K=0 strong-coupling mapping is a declared conditional control, not an assignment inferred for these states.",
+    "No likelihood, p-value, absolute strength, lifetime, intrinsic shape, or exclusion of a full model family is inferred."
+  ],
+  "printed_column_comparisons": [
+    {
+      "id": "98Mo_5",
+      "relative_difference_from_printed_B_ratio_quotient": 0.002363597629649661,
+      "within_one_percent": true
+    },
+    {
+      "id": "98Mo_7",
+      "relative_difference_from_printed_B_ratio_quotient": 0.0009765606214953149,
+      "within_one_percent": true
+    },
+    {
+      "id": "100Ru_5",
+      "relative_difference_from_printed_B_ratio_quotient": 0.000906333902967571,
+      "within_one_percent": true
+    },
+    {
+      "id": "100Ru_7",
+      "relative_difference_from_printed_B_ratio_quotient": 0.005847692279420835,
+      "within_one_percent": true
+    }
+  ],
+  "rows": [
+    {
+      "B_E1_over_B_E3_fm_minus4": 7.845904314527311e-10,
+      "K0_CG_E1_squared": 0.45454545454545453,
+      "K0_CG_E3_squared": 0.21645021645021645,
+      "conditional_K0_intrinsic_amplitude_ratio_squared_fm_minus4": 3.736144911679672e-10,
+      "energy_relative_sigma_if_independent": 0.0020739402607335097,
+      "id": "98Mo_5",
+      "initial_energy_kev": 2620.4,
+      "initial_spin": 5,
+      "input_kind": "primitive-intensities-table1",
+      "locator": "NPA PDF4 Table1; printed comparison PDF6 Table2 andPDF7 Table3",
+      "nucleus": "98Mo",
+      "relative_sigma_scenarios": {
+        "-1.0": 0.42824298160697,
+        "0.0": 0.3787608943520967,
+        "0.5": 0.3514166999272892,
+        "1.0": 0.32175701839303
+      }
+    },
+    {
+      "B_E1_over_B_E3_fm_minus4": 2.4469617501702246e-10,
+      "K0_CG_E1_squared": 0.46666666666666673,
+      "K0_CG_E3_squared": 0.24475524475524477,
+      "conditional_K0_intrinsic_amplitude_ratio_squared_fm_minus4": 1.2833715472920755e-10,
+      "energy_relative_sigma_if_independent": 0.002906098649252395,
+      "id": "98Mo_7",
+      "initial_energy_kev": 3095.4,
+      "initial_spin": 7,
+      "input_kind": "primitive-intensities-table1",
+      "locator": "NPA PDF4 Table1; printed comparison PDF6 Table2 andPDF7 Table3",
+      "nucleus": "98Mo",
+      "relative_sigma_scenarios": {
+        "-1.0": 0.263164573023728,
+        "0.0": 0.22125460528943347,
+        "0.5": 0.1969837665780964,
+        "1.0": 0.16926785940870448
+      }
+    },
+    {
+      "B_E1_over_B_E3_fm_minus4": 1.5022228473184272e-09,
+      "K0_CG_E1_squared": 0.45454545454545453,
+      "K0_CG_E3_squared": 0.21645021645021645,
+      "conditional_K0_intrinsic_amplitude_ratio_squared_fm_minus4": 7.153442130087748e-10,
+      "energy_relative_sigma_if_independent": null,
+      "id": "100Ru_5",
+      "initial_energy_kev": 2527.4,
+      "initial_spin": 5,
+      "input_kind": "two-ratios-sharing-E2-reprinted-tables2-and3",
+      "locator": "NPA PDF6 Table2 (E3/E2 times10^-2), PDF7 Table3 (E1/E2)",
+      "nucleus": "100Ru",
+      "relative_sigma_scenarios": {
+        "-1.0": 0.39990737187676023,
+        "0.0": 0.3033192402823706,
+        "0.5": 0.24091676829876962,
+        "1.0": 0.15517479489134695
+      }
+    },
+    {
+      "B_E1_over_B_E3_fm_minus4": 2.347975543514039e-09,
+      "K0_CG_E1_squared": 0.46666666666666673,
+      "K0_CG_E3_squared": 0.24475524475524477,
+      "conditional_K0_intrinsic_amplitude_ratio_squared_fm_minus4": 1.23145570464023e-09,
+      "energy_relative_sigma_if_independent": null,
+      "id": "100Ru_7",
+      "initial_energy_kev": 2951.9,
+      "initial_spin": 7,
+      "input_kind": "two-ratios-sharing-E2-reprinted-tables2-and3",
+      "locator": "NPA PDF6 Table2 (E3/E2 times10^-2), PDF7 Table3 (E1/E2)",
+      "nucleus": "100Ru",
+      "relative_sigma_scenarios": {
+        "-1.0": 0.4132433564303663,
+        "0.0": 0.32672916819051684,
+        "0.5": 0.2733914559798517,
+        "1.0": 0.2067216172999315
+      }
+    }
+  ],
+  "schema": "same-parent-e1-e3-v1",
+  "spin_changes": [
+    {
+      "conditional_K0_proxy_spin7_over_spin5": 0.34350154440746933,
+      "nucleus": "98Mo",
+      "raw_ratio_spin7_over_spin5": 0.3118775927001151,
+      "reason": "Joint intensity/efficiency/gate covariance and K assignments unavailable.",
+      "statistical_significance": null
+    },
+    {
+      "conditional_K0_proxy_spin7_over_spin5": 1.7214869181099033,
+      "nucleus": "100Ru",
+      "raw_ratio_spin7_over_spin5": 1.5630008208870871,
+      "reason": "Joint intensity/efficiency/gate covariance and K assignments unavailable.",
+      "statistical_significance": null
+    }
+  ]
+}

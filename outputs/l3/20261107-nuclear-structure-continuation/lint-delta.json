@@ -1,0 +1,83 @@
+{
+  "baseline_counts": {
+    "error": 129,
+    "warning": 435,
+    "info": 5486
+  },
+  "final_counts": {
+    "error": 129,
+    "warning": 446,
+    "info": 5484
+  },
+  "new_errors": [],
+  "new_warnings": [
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/continuation-g15-hagemann-1993-prc47-octupole-softness.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/continuation-g15-hamamoto-1989-plb226-dipole-octupole.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/continuation-g17-chen-singh-2020-nds-98mo.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/continuation-g17-thomas-2016-96-98mo-coexistence.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/continuation-g18-lukasiak-1979-191ir-triaxial-rotor.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/continuation-g18-walker-2006-oblate-trs-a190.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/continuation-g19-dunlop-2016-cd-halflives.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/continuation-g19-saito-2020-129cd-spectroscopy.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/continuation-g19-taprogge-2014-129cd-isomer.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/continuation-g21-selvakumar-2015-prc92-124cs-octupole-chiral.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/continuation-g21-wang-2020-prc102-131ba-pseudospin-octupole.md",
+      "message": "source has no citation_key"
+    }
+  ],
+  "new_warning_scope": "Eleven newly registered sources without a verified generated-BibTeX key; not fabricated.",
+  "whole_wiki_green": false
+}

@@ -1,0 +1,11 @@
+{
+  "replay_byte_identical": {
+    "constraints.json": true,
+    "constraints.csv": true
+  },
+  "original_hashes_verified_by_producer": true,
+  "tampered_original_hash_rejected": true,
+  "negative_case_output_not_created": true,
+  "statistical_significance_not_calculated": true,
+  "CSV_serialization": "LF, producer and replay agree"
+}

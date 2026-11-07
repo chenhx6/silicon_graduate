@@ -3,7 +3,7 @@ type: source
 title: "Saracino等2026：102Ru低能偶极强度分布与剪刀模及八极共振共存（PRL全文7页）"
 aliases: [Saracino 2026 102Ru dipole response, PRL136252501, 10.1103/rcb1-gntj]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-08
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -21,6 +21,8 @@ raw_file: raw/papers/Low-Energy Dipole Strength Distribution in ¹⁰²Ru Coexis
 raw_sha256: 4bc6bb6c613b121bae9def9d9bedf37e9c02db89eca265c4c16d5dd9ecf43a89
 highlight_file: raw/papers/gpt/query/20261107-round2-ru102-dipole/verified-official/author-highlight.html
 highlight_sha256: 04b651d22a6e74c4b3e0d5abb798b2f1913c1e2d8ef73fc23943ac27c8b5692d
+supplemental_file: raw/papers/gpt/query/20261107-continuation-G14/102Ru-PRL-136-252501-Supplemental-Material.pdf
+supplemental_sha256: 8b9fba94fd43ea2af1860029889c0cb3e30ebb3c2cc29a5e0d749649c93a2df0
 archive_required: true
 nuclei: [102ru]
 experiments: [TUNL-HIGS-clover-array]
@@ -46,16 +48,16 @@ A. Saracino et al., PRL136,252501(2026)，DOI10.1103/rcb1-gntj。
 
 ### Not covered
 
-Supplemental Material[33]的逐态TableI与完整Hamiltonian未取得；
-本轮worker访问官方附件入口失败，不能据此说所有渠道均不可获取。
-没有原事件、逐态完整Cov或作者生产代码。PDF6 Data availability明确称
+此前附件入口失败的历史记录保留；本轮续接已取得5页Supplemental Material[33]，
+读取pp1–3 TableI、p3 Eqs1–4及pp3–5模型/吸收截面比较。
+尚无原事件、逐态完整Cov、效率/feeding响应或作者生产代码。PDF6 Data availability明确称
 支持数据不公开，作者可接受合理请求；本轮未向他人发送请求。
 
 ## Acquisition History
 
 早先实际只归档PubMed摘要XML、Crossref响应和作者网页；它们保持原字节，
 当前以用户提供的610850字节出版PDF为底本。全文的获取关闭了原正文缺口，
-没有关闭SI、分支修正及可重放生产输入缺口。
+当时未关闭SI、分支修正及可重放生产输入缺口；本轮续接SI已取得，后两项仍不完备。
 
 ## Experimental Setup
 
@@ -86,7 +88,7 @@ PDF3给塑闪监测、NaI(Tl)标定、0°HPGe束形与HORST响应处理。
 \]
 作者以八极声子在四极电荷分布上诱导的偶极极化解释第二项，并采用共同b。
 这不是未经旋转恢复即可在实验室把秩1、秩3算符相加的普适张量定义。
-完整Hamiltonian在未取得SI中；本文读到的拟合与机制解释不等于独立恢复其实现。
+SI3 Eqs1–4现已读到Hamiltonian的六项相互作用形式；这仍不等于独立恢复作者数值实现。
 M1用0.7倍自由自旋g因子和IS/IV项分解（PDF4 Eq1、PDF5）。
 
 ## Competing Interpretations and Limitations
@@ -97,7 +99,7 @@ M1用0.7倍自由自旋g因子和IS/IV项分解（PDF4 Eq1、PDF5）。
    一个孤立态解释失败也不把整个E1聚集指定为同一模式。
 3. PDF4提D0约.3 e fm是文献物理量级的比较，并非本研究独立测得的102Ru静态D0。
    NRF E1强度不等于直接E3、非零β3或高自旋手征证据。
-4. 没有SI逐态分支，不能声称全部分支/feeding已校正、窄束完全消除了feeding，
+4. SI已给逐态BR，但没有完整响应及联合误差，不能声称全部分支/feeding已校正、窄束完全消除了feeding，
    或每个报告强度都是严格下界。主文没有公开这些问题的完整可重放输入。
 5. 极化符号须带本实验几何/归一；不能无条件搬到Compton偏振不对称。
    A=(N∥−N⊥)/(N∥+N⊥)可作为与图注极限一致的重建，正文未单列这个公式。
@@ -116,11 +118,25 @@ M1用0.7倍自由自旋g因子和IS/IV项分解（PDF4 Eq1、PDF5）。
 
 ## Agent Self-audit Triage
 
-P0: none identified in source identity/hash。P1：SI缺失、分支/feeding、拟合参数退化、
+P0: none identified in source identity/hash。P1：联合Cov、分支/feeding、拟合参数可识别性、
 D0估计的身份及PDR/两声子排他性均按上述范围校准。
 总控撤回worker草案的“全部争论闭合”、纯IVDD普适禁戒、固定形变必要值与
 将拟合分解当独立实测贡献的说法。
 
 ## Extracted Pages
 
-本地出版PDF1–7；SI未读，作者原始数据与代码未取得。
+本地出版PDF1–7及本轮续接SI1–5；作者原始事件、完整联合Cov与代码未取得。
+
+
+## 2026-11-07 Continuation: Supplemental Material
+
+新附件5页、322835字节，路径及SHA见frontmatter。
+[[continuation-g14-ru102-si-thesis-20261107]]记录106行转录、上下跃迁方向、模型形式与读取边界。
+SI1–3 TableI有34个M1标签、72个E1标签（分别含1和6个括号标签）；
+总控表列求和含括号为1.660 μN²与.15408 e²fm²，属于本任务算术而非新实验。
+SI2的5081.22-keV母态/5080.93(31)-keV线有BR=.12(11)、B(E1)↑=.05(4)e²fm²，
+其误差与其它行的完整Cov未公开；不可把所有表行或累计点当独立。
+SI3 Eqs1–4提供六项IS/IV可分相互作用形式；SI3–4 SecIV/Fig2说明
+κIVDD标定依赖100Mo的IVGDR，附图QRPA洛伦兹宽度Δ=3.5MeV，
+SLO比较参数Eres15.5MeV、Γ7.0MeV、σres172mb。
+这些补充不等于作者数值实现、原始事件及模型识别问题全部恢复。

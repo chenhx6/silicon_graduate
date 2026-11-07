@@ -1,0 +1,16 @@
+{
+  "producer": "Gemini/high worker G24",
+  "execution_date": "2026-11-07T16:55:15.177959+00:00",
+  "script": "system/scripts/ru102_si_strength_audit.py",
+  "script_sha256": "4e1569c5e88dbfc0eb6dce7827da9ec84fcea1904ebdb3de87e3095e2d368644",
+  "input_pdf_path": "raw/papers/gpt/query/20261107-continuation-G14/102Ru-PRL-136-252501-Supplemental-Material.pdf",
+  "input_pdf_sha256": "8b9fba94fd43ea2af1860029889c0cb3e30ebb3c2cc29a5e0d749649c93a2df0",
+  "g14_csv_path": "outputs/l3/20261107-nuclear-structure-continuation/G14/table1_transitions_102Ru_NRF.csv",
+  "g14_csv_sha256": "a21c2024237c6eae5e5a5c88c89313d139e8fff97b4886e4014a21a4928ec01c",
+  "command": "system/scripts/ru102_si_strength_audit.py --run-tests",
+  "environment": {
+    "python_version": "3.12.3",
+    "pdftotext_path": "/usr/bin/pdftotext",
+    "cwd": "/workspace/wiki"
+  }
+}

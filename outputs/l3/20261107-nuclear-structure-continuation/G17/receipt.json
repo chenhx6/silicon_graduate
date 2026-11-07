@@ -1,0 +1,24 @@
+{
+  "worker": "G17",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "requested_reasoning_effort": "high",
+  "spawn_tool_accepted": true,
+  "actual_runtime_identity": "Not independently exposed; requested routing recorded separately.",
+  "status": "returned-and-closed; parent integrated bounded conclusions",
+  "canonical_knowledge": "knowledge/research-notes/continuation-g17-mo98-absolute-constraints-20261107.md",
+  "worker_changed_files": [
+    "raw/papers/gpt/query/20261107-continuation-G17/manifest.json",
+    "raw/papers/gpt/query/20261107-continuation-G17/nds-2020-chen-singh-98mo-adopted.pdf",
+    "raw/papers/gpt/query/20261107-continuation-G17/thomas-2016-96-98mo-coexistence.xml",
+    "raw/papers/gpt/query/20261107-continuation-G17/thomas-2016-96-98mo-coexistence.pdf",
+    "raw/papers/gpt/query/20261107-continuation-G17/wisniewski-2018-fipps-98mo.pdf",
+    "knowledge/sources/continuation-g17-thomas-2016-96-98mo-coexistence.md",
+    "knowledge/sources/continuation-g17-chen-singh-2020-nds-98mo.md",
+    "knowledge/research-notes/continuation-g17-mo98-absolute-constraints-20261107.md",
+    "outputs/l3/20261107-nuclear-structure-continuation/G17/report.md",
+    "outputs/l3/20261107-nuclear-structure-continuation/G17/receipt.json"
+  ],
+  "acquisition_manifest": "raw/papers/gpt/query/20261107-continuation-G17/manifest.json",
+  "parent_audit": "outputs/l3/20261107-nuclear-structure-continuation/parent-audit.json",
+  "interpretation": "Canonical knowledge and primary originals supersede original worker prose. Public receipt makes no unverified statistical or universal physics claim."
+}

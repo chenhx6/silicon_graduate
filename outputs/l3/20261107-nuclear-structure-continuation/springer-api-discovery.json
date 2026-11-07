@@ -1,0 +1,60 @@
+[
+  {
+    "service": "springer-meta",
+    "credential_variable": "SPRINGER_META_API_KEY",
+    "status": 200,
+    "returned_records": 5,
+    "candidates": [
+      {
+        "title": "Structural, Mechanical, and Electrochemical Characterization of NiCrCu Matrix Composites Reinforced with Co and Mo Additions",
+        "doi": "10.1007/s11665-026-13976-y"
+      },
+      {
+        "title": "Cross section measurements of the \n              $$^{100}$$\n              \n                \n                  \n                  \n                  100\n                \n              \n            Mo(\n              $$\\gamma $$\n              \n                γ\n              \n            ,n) and \n              $$^{59}$$\n              \n                \n                  \n                  \n                  59\n                \n              \n            Co(\n              $$\\gamma $$\n              \n                γ\n              \n            ,n) reactions using bremsstrahlung photons",
+        "doi": "10.1140/epja/s10050-026-01888-3"
+      },
+      {
+        "title": "Tiny samples for neutron transmission experiments with the DICER instrument at LANSCE",
+        "doi": "10.1007/s10967-025-10569-2"
+      },
+      {
+        "title": "Nickel metal matrix composites: from synthesis to sustainable applications",
+        "doi": "10.1007/s11696-025-04393-x"
+      },
+      {
+        "title": "Measurement of optical absorption in granular aluminum thin films at room temperature",
+        "doi": "10.1007/s00340-025-08482-3"
+      }
+    ],
+    "email_identification_used": true
+  },
+  {
+    "service": "springer-oa",
+    "credential_variable": "SPRINGER_OPEN_ACCESS_API_KEY",
+    "status": 200,
+    "returned_records": 5,
+    "candidates": [
+      {
+        "title": "Fundamentals and applications of altermagnetism",
+        "doi": "10.1007/s40042-026-01731-4"
+      },
+      {
+        "title": "Beam dynamics of a fixed field alternating gradient accelerators (FFAs)",
+        "doi": "10.1007/s43673-026-00196-8"
+      },
+      {
+        "title": "Role of Resonances in Total, Coulomb, and Nuclear Breakup Cross Sections for Light and Heavy Targets",
+        "doi": "10.1007/s13538-026-02164-x"
+      },
+      {
+        "title": "Non-magnetic ground state in A_2WCl_6, A = Cs, Rb, K: Face-centered cubic system with spin-orbit-entangled J = 2 states",
+        "doi": "10.1038/s41535-026-00945-w"
+      },
+      {
+        "title": "A pathway towards decentralized studies of radioactive post-lead elements and their applications in beyond standard model physics",
+        "doi": "10.1038/s41467-026-77082-2"
+      }
+    ],
+    "email_identification_used": true
+  }
+]

@@ -3,7 +3,7 @@ type: synthesis
 title: "同核异能态机制、弱衰变与超重合成：跨核区可迁移条件"
 aliases: [同核异能态与衰变系统学, isomer-and-decay-systematics, weak-decay-and-superheavy]
 created: 2026-11-06
-updated: 2026-11-07
+updated: 2026-11-08
 status: active
 review_status: unreviewed
 confidence: medium
@@ -258,3 +258,20 @@ P1：真实多轨道seniority破缺、K混合的两端、绝对弱衰变算符�
 不是同一GT率的复测。具体共同输入、禁戒算符与有限Q窗边界见
 [[campaign-g09-shell-weak-isomer-20261107]]。相近总率不能证明相同波函数，
 也不能由单一受阻分支或有限能窗强度对裸Ikeda总和的比例确定统一淬灭。
+
+
+## 续接增量：共同Hamiltonian与支路归一的实际检验
+
+[[continuation-g18-lukasiak-1979-191ir-triaxial-rotor]]的低能带EM比较与
+[[continuation-g18-walker-2006-oblate-trs-a190]]的TRS能量/形状比较提供不同输入层。
+未报告某个异能态矩阵元不等于算符为零；PES极小点不自动给多极竞争宽度。
+同母态支路比消去寿命只能得到B的比，绝对B仍需总寿命和完整转换/支路归一，
+见[[continuation-g18-ir-os-common-model-20261107]]。
+
+[[continuation-g19-saito-2020-129cd-spectroscopy]]的实际PDF8–10/TableII把
+总混合衰变归一与各母态归一分开；3150keV的24.1(9)%和45(10)%分母不同。
+Saito和[[continuation-g19-dunlop-2016-cd-halflives]]共用GRIFFIN采集，
+不计为独立寿命复测。Dunlop实际PDF5的q=.66→.75针对LSSM标定，
+不归给DF3/RHB，也不等于测定普适gA。
+NA-14、jj45pna及GT/FF处理不能凭共同壳区就当同一理论实现。
+这些边界决定下一步要预测哪些未拟合分支，而不是只再拟合总半衰期。

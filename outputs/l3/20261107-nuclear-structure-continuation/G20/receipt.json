@@ -1,0 +1,15 @@
+{
+  "worker": "G20",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "requested_reasoning_effort": "high",
+  "spawn_tool_accepted": true,
+  "revision_rounds": 1,
+  "status": "returned-and-closed; parent integration complete",
+  "canonical_knowledge": "knowledge/research-notes/continuation-g20-thesis-e1-d0-contract-20261107.md",
+  "parent_corrections": "No unresolved level sums or pure-orbital E1 mechanism are promoted; scientific claims are limited to the current canonical page.",
+  "worker_changed_files": [
+    "knowledge/research-notes/continuation-g20-thesis-e1-d0-contract-20261107.md",
+    "outputs/l3/20261107-nuclear-structure-continuation/G20/report.md",
+    "outputs/l3/20261107-nuclear-structure-continuation/G20/receipt.json"
+  ]
+}

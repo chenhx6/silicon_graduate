@@ -1,0 +1,58 @@
+{
+  "producer": "Gemini/high worker G24",
+  "timestamp": "2026-11-07T16:55:15.177959+00:00",
+  "script": "system/scripts/ru102_si_strength_audit.py",
+  "status": "completed",
+  "inputs": [
+    {
+      "path": "raw/papers/gpt/query/20261107-continuation-G14/102Ru-PRL-136-252501-Supplemental-Material.pdf",
+      "sha256": "8b9fba94fd43ea2af1860029889c0cb3e30ebb3c2cc29a5e0d749649c93a2df0",
+      "role": "primary_evidence_pdf"
+    },
+    {
+      "path": "outputs/l3/20261107-nuclear-structure-continuation/G14/table1_transitions_102Ru_NRF.csv",
+      "sha256": "a21c2024237c6eae5e5a5c88c89313d139e8fff97b4886e4014a21a4928ec01c",
+      "role": "reference_g14_transcription_csv"
+    }
+  ],
+  "key_reproduced_values": {
+    "total_rows_parsed": 106,
+    "multipolarity_counts": {
+      "M1_total": 34,
+      "M1_bracketed": 1,
+      "E1_total": 72,
+      "E1_bracketed": 6
+    },
+    "E1_sum_full_table_with_bracketed": 0.15408,
+    "E1_sum_4_5_to_5_5_MeV_38_lines": 0.10137,
+    "line_5080_93_keV": {
+      "Egamma_raw": "5080.93(31)",
+      "BR_raw": "0.12(11)",
+      "BE1_up_raw": "0.05(4)",
+      "share_of_4_5_to_5_5_MeV_window_pct": 49.32,
+      "share_of_4_5_to_5_5_MeV_variance_pct": 98.17
+    },
+    "leave_one_out_sensitivity": {
+      "sum_without_5080_keV": 0.05137,
+      "delta_sum_without_5080_keV": -0.05,
+      "centroid_shift_without_5080_keV": -10.92
+    }
+  },
+  "scientific_boundaries": [
+    "The 106 transitions share systematic calibrations and cannot be treated as statistically independent.",
+    "BR=1 cannot be assumed as a strict lower bound in all circumstances without complete cascade measurements.",
+    "Observed NRF elastic strengths cannot be equated directly to full photon absorption response.",
+    "Leave-one-out sensitivity is purely an analytical diagnostic, not an experimental data exclusion.",
+    "Study specifically highlights 5080.93 keV branching ratio as primary priority for future experimental improvement."
+  ],
+  "changed_files": [
+    "outputs/l4/20261107-ru102-si-strength-audit/table1_parsed_audit.csv",
+    "outputs/l4/20261107-ru102-si-strength-audit/table1_parsed_audit.json",
+    "outputs/l4/20261107-ru102-si-strength-audit/strength_windows_summary.json",
+    "outputs/l4/20261107-ru102-si-strength-audit/leave_one_out_sensitivity.json",
+    "outputs/l4/20261107-ru102-si-strength-audit/comparison_with_g14.json",
+    "outputs/l4/20261107-ru102-si-strength-audit/run-provenance.json",
+    "outputs/l4/20261107-ru102-si-strength-audit/report.md",
+    "outputs/l4/20261107-ru102-si-strength-audit/receipt.json"
+  ]
+}

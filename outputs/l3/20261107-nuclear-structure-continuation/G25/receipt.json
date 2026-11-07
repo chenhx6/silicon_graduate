@@ -1,0 +1,56 @@
+{
+  "task": "G17 primary source verification and correction",
+  "worker": "Gemini/high worker G25",
+  "timestamp": "2026-11-08T00:10:00Z",
+  "status": "completed",
+  "audit_results": {
+    "itemA_chen_singh_2020_nds_evaluation": {
+      "verdict": "corrected",
+      "primary_locators": [
+        "Chen & Singh 2020 NDS 164, 1 p. 1-51",
+        "NDS 164, 1 Adopted Levels p. 3, 2017.53 keV 3-",
+        "NDS 164, 1 Adopted Gammas p. 15, 2017.46 keV gamma"
+      ],
+      "summary": "Verified that NDS 164, 1 (2020) directly covers 98Mo specifically (51 pages of Adopted Levels, Gammas). Adopted T1/2 = 65(7) ps belongs strictly to the 2017.53 keV 3- state (mean lifetime 93.8(101) ps). Downward transition rate for 2017.46 keV gamma is evaluated as B(E3) = 30(+7-5) W.u. (upward B(E3) from ground state is 7 times larger in dimensional units). G17's claim of 37(6) W.u. in Coulex with locator coulex.pdf p.2 is fabricated/ungrounded and deleted."
+    },
+    "itemB_energy_matching_and_lifetime_blanks": {
+      "verdict": "corrected",
+      "primary_locators": [
+        "Chen & Singh 2020 NDS 164, 1 Adopted Levels p. 4, 5, 7, 8",
+        "Thomas 2016 NPA 947 Table 2 p. 211 & Sec 2.2",
+        "Karmakar 2026 NPA 1066 Table 1 p. 4, Table 2 p. 6, Table 3 p. 7"
+      ],
+      "summary": "Target levels correspond precisely across papers: 2620.78(5) keV (ENSDF) / 2620.56(17) keV (Thomas) / 2620.4(3) keV (Karmakar) 5-; 3096.26(16) keV (ENSDF) / 3095.74(19) keV (Thomas) / 3095.4(4) keV (Karmakar) 7-; 3656.7(3) keV (ENSDF) / 3655.7(4) keV (Karmakar) 9- (Band 2); 3768.7(6) keV (ENSDF) / 3767.5(4) keV (Karmakar) 9- (Band 3). Lifetimes for all negative parity states (5-, 7-, 9-) are blank in ENSDF Adopted Levels and Thomas Table 2. Thomas 2016 DSAM effective lifetimes (<0.1-0.6 ps) were obtained exclusively for positive-parity states. Refined framing to state that retrieved evaluation and spectroscopy materials report no lifetimes, avoiding sweeping claims of universal literature absence."
+    },
+    "itemC_pruning_icc_and_unverified_claims": {
+      "verdict": "corrected",
+      "primary_locators": [
+        "Karmakar 2026 Table 1 p. 4",
+        "Thomas 2016 Table 2 p. 211",
+        "Chen & Singh 2020 Adopted Gammas p. 15, 20, 24-25"
+      ],
+      "summary": "Stripped unverified theoretical ICC numbers (alpha = 2.77e-3, 4.8e-4, etc.) from the research note ledger table since primary experimental tables only report photon intensities I_gamma. Deleted fictitious 37(6) W.u. Coulex claim and nonexistent coulex.pdf locator. Verified citation_key is empty string across sources without fabricating keys."
+    },
+    "itemD_physics_errors_and_generalization_narrowing": {
+      "verdict": "corrected",
+      "primary_locators": [
+        "Iskra 2019 PLB 788, 396 p. 397 (PDF 2-3)",
+        "octupole-orbital-eligibility-and-collectivity-boundary-20261107",
+        "mo98-ru100-same-parent-e1-e3-constraints-20261107"
+      ],
+      "summary": "Corrected 4 major physics errors and narrowed broad generalizations: (1) Iskra 2019 adopted Horen 1993 T1/2 = 67.8(43) ps for the revised B(E3) = 42(3) W.u., while Mach 1990 T1/2 = 50(7) ps belonged to the older 65(10) W.u. evaluation; (2) for rank-3 octupole operator Y3, pi 1p1/2 <-> 0g9/2 has Delta j = 4 violating the triangle inequality with matrix element identically zero, while the true driving pair is pi 1p3/2 <-> 0g9/2 (Delta l = Delta j = 3); (3) eliminated unsourced 1-50 ps lifetime range, rephrasing in terms of experimental technique windows; (4) clarified that linear polarization only assists E/M parity discrimination and cannot standalone prove pure E3; (5) integrated parent note finding that same-parent B(E1)/B(E3) cancels common B(E2) denominator and lifetime, providing structural discrimination between 98Mo and 100Ru (S7/S5 = 0.31 vs 1.56) without requiring absolute lifetimes; (6) strictly isolated Band 2 9- (3655.7 keV) from Band 3 9- (3767.5 keV)."
+    }
+  },
+  "changed_files": [
+    "knowledge/sources/continuation-g17-chen-singh-2020-nds-98mo.md",
+    "knowledge/sources/continuation-g17-thomas-2016-96-98mo-coexistence.md",
+    "knowledge/research-notes/continuation-g17-mo98-absolute-constraints-20261107.md",
+    "outputs/l3/20261107-nuclear-structure-continuation/G25/audit.md",
+    "outputs/l3/20261107-nuclear-structure-continuation/G25/receipt.json"
+  ],
+  "drafts_backup_dir": "tmp/runs/20261107-nuclear-continuation/G25/drafts/",
+  "residual_issues_for_parent": [
+    "Absence of direct experimental lifetimes (plunger/RDM or thick-target DSAM) for 98Mo 5- and 7- states in the retrieved literature leaves absolute B(E3) and B(E2) unscaled, though same-parent E1/E3 ratio provides a valuable denominator-free structural constraint.",
+    "Multipole mixing and unobserved feeding in 98Mo negative-parity cascades remain open spectroscopic boundaries until high-statistics directional correlation and linear polarization experiments are performed on the weak 1833.3 keV and 1585.8 keV transitions."
+  ]
+}

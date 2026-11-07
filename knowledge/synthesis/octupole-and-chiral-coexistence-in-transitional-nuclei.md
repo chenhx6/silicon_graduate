@@ -3,7 +3,7 @@ type: synthesis
 title: "过渡核手征与八极关联：78Br、74As及宇称四重带的证据边界"
 aliases: [手征与八极共存, parity-chiral-symmetry-breaking, octupole-chiral-coexistence]
 created: 2026-11-06
-updated: 2026-11-07
+updated: 2026-11-08
 status: active
 review_status: unreviewed
 confidence: medium
@@ -153,7 +153,7 @@ D0绝对值既可能增强也可能相消，不存在统一0.1–0.3 e·fm的静
 
 [[saracino-2026-102ru-scissors-octupole-resonances]]把比较延伸到N=58的低自旋NRF。
 本轮已取得出版正文，M1/E1观测、作者八极解释与Eq2共同拟合依赖分别保存；
-SI/完整分支及直接E3仍缺，见[[campaign-g02-ru102-fulltext-20261107]]。
+SI已补逐态BR，完整响应/联合Cov及直接E3仍缺，见[[continuation-g14-ru102-si-thesis-20261107]]。
 这些结果提供跨组态研究动机，不构成手征—八极四带的新增确证。
 
 ## Limitations and Missing Evidence
@@ -181,3 +181,19 @@ D0阈值和未经原文支持的连续相变表述已撤回。
 作静态形变的通用门。新增Iskra2019直接原文给96Zr向下42(3)W.u.，
 见[[campaign-g13-iskra-2019-96zr-revised-e3]]；本页上方65(10)只代表Mach1990历史报告。
 这些更新强化逐态、逐算符与多观测量比较，未增加已确证CPQ实例。
+
+
+## 续接增量：相对强度中的可消除分母与有效算符
+
+[[karmakar-2025-2026-98mo-octupole-preview]]的PDF4、6–7支持同母态E1/E3分支重建。
+[[mo98-ru100-same-parent-e1-e3-constraints-20261107]]消去共同E2分母，
+得到98Mo与100Ru的5−→7−名义演化不同；这一差别不能单由E2分母变化造成。
+但绝对E1/E3、联合误差、K映射及多极指认仍需约束，不据名义比值认证静态形状。
+
+[[saracino-2026-102ru-scissors-octupole-resonances]]已补5页SI。
+同位素/同中子素迁移时，裸E1、QRPA态混合和有效E1顶角须分别处理。
+[[continuation-g15-hamamoto-1989-plb226-dipole-octupole]] p19及
+[[continuation-g15-hagemann-1993-prc47-octupole-softness]] p2011提供稀土极化的原始条件，
+不能不经电荷、能区、空间和旋转规范匹配就搬到102Ru。
+[[continuation-t02-ru102-covariant-effective-e1-20261107]]给出本任务的条件张量重建；
+它不是作者代码复现，E1响应也不是直接E3或非零静态D0测量。

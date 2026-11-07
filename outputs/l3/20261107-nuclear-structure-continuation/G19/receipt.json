@@ -1,0 +1,13 @@
+{
+  "worker": "G19",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "requested_reasoning_effort": "high",
+  "spawn_tool_accepted": true,
+  "actual_runtime_identity": "Not independently exposed; requested routing recorded separately.",
+  "status": "returned-and-closed; parent integrated bounded conclusions",
+  "canonical_knowledge": "knowledge/research-notes/continuation-g19-cd-in-common-weak-operator-20261107.md",
+  "worker_changed_files": [],
+  "acquisition_manifest": "raw/papers/gpt/query/20261107-continuation-G19/manifest.json",
+  "parent_audit": "outputs/l3/20261107-nuclear-structure-continuation/parent-audit.json",
+  "interpretation": "Canonical knowledge and primary originals supersede original worker prose. Public receipt makes no unverified statistical or universal physics claim."
+}

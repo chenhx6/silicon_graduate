@@ -1,0 +1,287 @@
+{
+  "full_table": {
+    "name": "Full Table",
+    "energy_min_keV": 0.0,
+    "energy_max_keV": 100000.0,
+    "multipolarities": {
+      "E1": {
+        "with_bracketed": {
+          "count_N": 72,
+          "sum_B_up": 0.15408,
+          "unit": "e2 fm2",
+          "centroid_keV": 4597.07,
+          "max_row": {
+            "row_id": 79,
+            "Egamma_reported_raw": "5080.93(31)",
+            "BR_reported_raw": "0.12(11)",
+            "B_up_reported_raw": "0.05(4)",
+            "B_up_val": 0.05,
+            "B_up_unc": 0.04,
+            "share_pct": 32.45,
+            "variance_share_pct_indep": 95.83
+          },
+          "uncertainty_scenarios": {
+            "assumed_independent_sigma": 0.04086,
+            "linear_correlated_upper_bound_sigma": 0.06935,
+            "methodology_caveat": "Uncertainties represent marginals and an assumed independent error propagation scenario. The complete covariance matrix is not published. Common calibration, feeding, and efficiency effects may correlate lines; independence is not established. The linear bound concerns only the supplied marginal errors."
+          }
+        },
+        "unbracketed_only": {
+          "count_N": 66,
+          "sum_B_up": 0.12713,
+          "unit": "e2 fm2",
+          "centroid_keV": 4909.22,
+          "max_row": {
+            "row_id": 79,
+            "Egamma_reported_raw": "5080.93(31)",
+            "BR_reported_raw": "0.12(11)",
+            "B_up_reported_raw": "0.05(4)",
+            "B_up_val": 0.05,
+            "B_up_unc": 0.04,
+            "share_pct": 39.33,
+            "variance_share_pct_indep": 97.83
+          },
+          "uncertainty_scenarios": {
+            "assumed_independent_sigma": 0.04044,
+            "linear_correlated_upper_bound_sigma": 0.06069,
+            "methodology_caveat": "Uncertainties represent marginals and an assumed independent error propagation scenario. The complete covariance matrix is not published. Common calibration, feeding, and efficiency effects may correlate lines; independence is not established. The linear bound concerns only the supplied marginal errors."
+          }
+        }
+      },
+      "M1": {
+        "with_bracketed": {
+          "count_N": 34,
+          "sum_B_up": 1.66,
+          "unit": "muN2",
+          "centroid_keV": 3853.34,
+          "max_row": {
+            "row_id": 13,
+            "Egamma_reported_raw": "3180.8(4)",
+            "BR_reported_raw": "1",
+            "B_up_reported_raw": "0.22(1)",
+            "B_up_val": 0.22,
+            "B_up_unc": 0.01,
+            "share_pct": 13.25,
+            "variance_share_pct_indep": 2.77
+          },
+          "uncertainty_scenarios": {
+            "assumed_independent_sigma": 0.06007,
+            "linear_correlated_upper_bound_sigma": 0.276,
+            "methodology_caveat": "Uncertainties represent marginals and an assumed independent error propagation scenario. The complete covariance matrix is not published. Common calibration, feeding, and efficiency effects may correlate lines; independence is not established. The linear bound concerns only the supplied marginal errors."
+          }
+        },
+        "unbracketed_only": {
+          "count_N": 33,
+          "sum_B_up": 1.646,
+          "unit": "muN2",
+          "centroid_keV": 3861.95,
+          "max_row": {
+            "row_id": 13,
+            "Egamma_reported_raw": "3180.8(4)",
+            "BR_reported_raw": "1",
+            "B_up_reported_raw": "0.22(1)",
+            "B_up_val": 0.22,
+            "B_up_unc": 0.01,
+            "share_pct": 13.37,
+            "variance_share_pct_indep": 2.77
+          },
+          "uncertainty_scenarios": {
+            "assumed_independent_sigma": 0.06006,
+            "linear_correlated_upper_bound_sigma": 0.275,
+            "methodology_caveat": "Uncertainties represent marginals and an assumed independent error propagation scenario. The complete covariance matrix is not published. Common calibration, feeding, and efficiency effects may correlate lines; independence is not established. The linear bound concerns only the supplied marginal errors."
+          }
+        }
+      }
+    }
+  },
+  "window_2_3_to_4_0_MeV": {
+    "name": "2.3 <= E_gamma < 4.0 MeV",
+    "energy_min_keV": 2300.0,
+    "energy_max_keV": 4000.0,
+    "multipolarities": {
+      "E1": {
+        "with_bracketed": {
+          "count_N": 16,
+          "sum_B_up": 0.03614,
+          "unit": "e2 fm2",
+          "centroid_keV": 3037.99,
+          "max_row": {
+            "row_id": 9,
+            "Egamma_reported_raw": "2953.2(1.9)",
+            "BR_reported_raw": "1",
+            "B_up_reported_raw": "0.016(5)",
+            "B_up_val": 0.016,
+            "B_up_unc": 0.005,
+            "share_pct": 44.27,
+            "variance_share_pct_indep": 71.34
+          },
+          "uncertainty_scenarios": {
+            "assumed_independent_sigma": 0.00592,
+            "linear_correlated_upper_bound_sigma": 0.01072,
+            "methodology_caveat": "Uncertainties represent marginals and an assumed independent error propagation scenario. The complete covariance matrix is not published. Common calibration, feeding, and efficiency effects may correlate lines; independence is not established. The linear bound concerns only the supplied marginal errors."
+          }
+        },
+        "unbracketed_only": {
+          "count_N": 13,
+          "sum_B_up": 0.01093,
+          "unit": "e2 fm2",
+          "centroid_keV": 3218.63,
+          "max_row": {
+            "row_id": 11,
+            "Egamma_reported_raw": "2970.5(1.4)",
+            "BR_reported_raw": "1",
+            "B_up_reported_raw": "0.0025(7)",
+            "B_up_val": 0.0025,
+            "B_up_unc": 0.0007,
+            "share_pct": 22.87,
+            "variance_share_pct_indep": 47.38
+          },
+          "uncertainty_scenarios": {
+            "assumed_independent_sigma": 0.00102,
+            "linear_correlated_upper_bound_sigma": 0.00263,
+            "methodology_caveat": "Uncertainties represent marginals and an assumed independent error propagation scenario. The complete covariance matrix is not published. Common calibration, feeding, and efficiency effects may correlate lines; independence is not established. The linear bound concerns only the supplied marginal errors."
+          }
+        }
+      },
+      "M1": {
+        "with_bracketed": {
+          "count_N": 17,
+          "sum_B_up": 0.992,
+          "unit": "muN2",
+          "centroid_keV": 3378.8,
+          "max_row": {
+            "row_id": 13,
+            "Egamma_reported_raw": "3180.8(4)",
+            "BR_reported_raw": "1",
+            "B_up_reported_raw": "0.22(1)",
+            "B_up_val": 0.22,
+            "B_up_unc": 0.01,
+            "share_pct": 22.18,
+            "variance_share_pct_indep": 6.24
+          },
+          "uncertainty_scenarios": {
+            "assumed_independent_sigma": 0.04002,
+            "linear_correlated_upper_bound_sigma": 0.13,
+            "methodology_caveat": "Uncertainties represent marginals and an assumed independent error propagation scenario. The complete covariance matrix is not published. Common calibration, feeding, and efficiency effects may correlate lines; independence is not established. The linear bound concerns only the supplied marginal errors."
+          }
+        },
+        "unbracketed_only": {
+          "count_N": 16,
+          "sum_B_up": 0.978,
+          "unit": "muN2",
+          "centroid_keV": 3386.5,
+          "max_row": {
+            "row_id": 13,
+            "Egamma_reported_raw": "3180.8(4)",
+            "BR_reported_raw": "1",
+            "B_up_reported_raw": "0.22(1)",
+            "B_up_val": 0.22,
+            "B_up_unc": 0.01,
+            "share_pct": 22.49,
+            "variance_share_pct_indep": 6.25
+          },
+          "uncertainty_scenarios": {
+            "assumed_independent_sigma": 0.04001,
+            "linear_correlated_upper_bound_sigma": 0.129,
+            "methodology_caveat": "Uncertainties represent marginals and an assumed independent error propagation scenario. The complete covariance matrix is not published. Common calibration, feeding, and efficiency effects may correlate lines; independence is not established. The linear bound concerns only the supplied marginal errors."
+          }
+        }
+      }
+    }
+  },
+  "window_4_5_to_5_5_MeV": {
+    "name": "4.5 <= E_gamma < 5.5 MeV",
+    "energy_min_keV": 4500.0,
+    "energy_max_keV": 5500.0,
+    "multipolarities": {
+      "E1": {
+        "with_bracketed": {
+          "count_N": 38,
+          "sum_B_up": 0.10137,
+          "unit": "e2 fm2",
+          "centroid_keV": 5069.71,
+          "max_row": {
+            "row_id": 79,
+            "Egamma_reported_raw": "5080.93(31)",
+            "BR_reported_raw": "0.12(11)",
+            "B_up_reported_raw": "0.05(4)",
+            "B_up_val": 0.05,
+            "B_up_unc": 0.04,
+            "share_pct": 49.32,
+            "variance_share_pct_indep": 98.17
+          },
+          "uncertainty_scenarios": {
+            "assumed_independent_sigma": 0.04037,
+            "linear_correlated_upper_bound_sigma": 0.05402,
+            "methodology_caveat": "Uncertainties represent marginals and an assumed independent error propagation scenario. The complete covariance matrix is not published. Common calibration, feeding, and efficiency effects may correlate lines; independence is not established. The linear bound concerns only the supplied marginal errors."
+          }
+        },
+        "unbracketed_only": {
+          "count_N": 37,
+          "sum_B_up": 0.10123,
+          "unit": "e2 fm2",
+          "centroid_keV": 5070.41,
+          "max_row": {
+            "row_id": 79,
+            "Egamma_reported_raw": "5080.93(31)",
+            "BR_reported_raw": "0.12(11)",
+            "B_up_reported_raw": "0.05(4)",
+            "B_up_val": 0.05,
+            "B_up_unc": 0.04,
+            "share_pct": 49.39,
+            "variance_share_pct_indep": 98.17
+          },
+          "uncertainty_scenarios": {
+            "assumed_independent_sigma": 0.04037,
+            "linear_correlated_upper_bound_sigma": 0.05395,
+            "methodology_caveat": "Uncertainties represent marginals and an assumed independent error propagation scenario. The complete covariance matrix is not published. Common calibration, feeding, and efficiency effects may correlate lines; independence is not established. The linear bound concerns only the supplied marginal errors."
+          }
+        }
+      },
+      "M1": {
+        "with_bracketed": {
+          "count_N": 10,
+          "sum_B_up": 0.395,
+          "unit": "muN2",
+          "centroid_keV": 5003.85,
+          "max_row": {
+            "row_id": 88,
+            "Egamma_reported_raw": "5231.78(31)",
+            "BR_reported_raw": "1",
+            "B_up_reported_raw": "0.09(2)",
+            "B_up_val": 0.09,
+            "B_up_unc": 0.02,
+            "share_pct": 22.78,
+            "variance_share_pct_indep": 27.72
+          },
+          "uncertainty_scenarios": {
+            "assumed_independent_sigma": 0.03799,
+            "linear_correlated_upper_bound_sigma": 0.093,
+            "methodology_caveat": "Uncertainties represent marginals and an assumed independent error propagation scenario. The complete covariance matrix is not published. Common calibration, feeding, and efficiency effects may correlate lines; independence is not established. The linear bound concerns only the supplied marginal errors."
+          }
+        },
+        "unbracketed_only": {
+          "count_N": 10,
+          "sum_B_up": 0.395,
+          "unit": "muN2",
+          "centroid_keV": 5003.85,
+          "max_row": {
+            "row_id": 88,
+            "Egamma_reported_raw": "5231.78(31)",
+            "BR_reported_raw": "1",
+            "B_up_reported_raw": "0.09(2)",
+            "B_up_val": 0.09,
+            "B_up_unc": 0.02,
+            "share_pct": 22.78,
+            "variance_share_pct_indep": 27.72
+          },
+          "uncertainty_scenarios": {
+            "assumed_independent_sigma": 0.03799,
+            "linear_correlated_upper_bound_sigma": 0.093,
+            "methodology_caveat": "Uncertainties represent marginals and an assumed independent error propagation scenario. The complete covariance matrix is not published. Common calibration, feeding, and efficiency effects may correlate lines; independence is not established. The linear bound concerns only the supplied marginal errors."
+          }
+        }
+      }
+    }
+  }
+}

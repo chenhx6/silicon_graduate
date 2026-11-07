@@ -1,0 +1,24 @@
+{
+  "worker": "G18",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "requested_reasoning_effort": "high",
+  "spawn_tool_accepted": true,
+  "actual_runtime_identity": "Not independently exposed; requested routing recorded separately.",
+  "status": "returned-and-closed; parent integrated bounded conclusions",
+  "canonical_knowledge": "knowledge/research-notes/continuation-g18-ir-os-common-model-20261107.md",
+  "worker_changed_files": [
+    "raw/papers/gpt/query/20261107-continuation-G18/lukasiak1979-191ir-triaxial-rotor-fulltext.xml",
+    "raw/papers/gpt/query/20261107-continuation-G18/lukasiak1979-191ir-preview.pdf",
+    "raw/papers/gpt/query/20261107-continuation-G18/walker2006-oblate-trs-fulltext.xml",
+    "raw/papers/gpt/query/20261107-continuation-G18/manifest.json",
+    "knowledge/sources/continuation-g18-lukasiak-1979-191ir-triaxial-rotor.md",
+    "knowledge/sources/continuation-g18-walker-2006-oblate-trs-a190.md",
+    "knowledge/research-notes/continuation-g18-ir-os-common-model-20261107.md",
+    "outputs/l3/20261107-nuclear-structure-continuation/G18/receipt.json",
+    "outputs/l3/20261107-nuclear-structure-continuation/G18/report.md",
+    "tmp/runs/20261107-nuclear-continuation/G18/run.json"
+  ],
+  "acquisition_manifest": "raw/papers/gpt/query/20261107-continuation-G18/manifest.json",
+  "parent_audit": "outputs/l3/20261107-nuclear-structure-continuation/parent-audit.json",
+  "interpretation": "Canonical knowledge and primary originals supersede original worker prose. Public receipt makes no unverified statistical or universal physics claim."
+}

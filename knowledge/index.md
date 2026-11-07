@@ -2,10 +2,23 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-11-07
+updated: 2026-11-08
 ---
 
 # Wiki Index
+
+## 六区续接：有效算符、绝对观测与共同模型
+
+- [[isomer-six-region-transfer-research]] — 当前专题入口与下一步共同输入合同。
+- [[continuation-g14-ru102-si-thesis-20261107]]、[[ru102-si-strength-concentration-20261107]] — 102Ru五页SI、逐态表与强度集中度；联合Cov/响应仍有边界。
+- [[continuation-g15-effective-e1-origin-20261107]]、[[continuation-t02-ru102-covariant-effective-e1-20261107]] — 原有效E1文献与条件协变推导，不把共同拟合当严格参数退化。
+- [[continuation-g16-soft-core-wobbling-20261107]]、[[continuation-g23-lu163-absolute-quadrupole-20261107]] — 软核/占据模型和163Lu绝对E2的原件、算符及采集依赖。
+- [[mo98-ru100-same-parent-e1-e3-constraints-20261107]]、[[continuation-g17-mo98-absolute-constraints-20261107]] — 消去E2分母后的比较与98Mo同态绝对量边界。
+- [[continuation-g18-ir-os-common-model-20261107]]、[[continuation-g19-cd-in-common-weak-operator-20261107]] — 多极异能态与允许/禁戒β衰变的模型合同。
+- [[continuation-g20-thesis-e1-d0-contract-20261107]]、[[continuation-g21-a80-a130-parity-chiral-transfer-20261107]] — 学位论文E1/D0依赖及A80到A130迁移比较。
+
+新原件来源：[[continuation-g15-hamamoto-1989-plb226-dipole-octupole]]、[[continuation-g15-hagemann-1993-prc47-octupole-softness]]、[[continuation-g17-chen-singh-2020-nds-98mo]]、[[continuation-g17-thomas-2016-96-98mo-coexistence]]、[[continuation-g18-lukasiak-1979-191ir-triaxial-rotor]]、[[continuation-g18-walker-2006-oblate-trs-a190]]、[[continuation-g19-saito-2020-129cd-spectroscopy]]、[[continuation-g19-dunlop-2016-cd-halflives]]、[[continuation-g19-taprogge-2014-129cd-isomer]]、[[continuation-g21-selvakumar-2015-prc92-124cs-octupole-chiral]]、[[continuation-g21-wang-2020-prc102-131ba-pseudospin-octupole]]。
+
 
 ## 2026-11-07 规模化续接：完整正文与跨区证据更新
 

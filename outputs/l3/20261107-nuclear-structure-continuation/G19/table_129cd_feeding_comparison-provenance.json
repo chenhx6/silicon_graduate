@@ -1,0 +1,12 @@
+{
+  "source": "knowledge/sources/continuation-g19-saito-2020-129cd-spectroscopy.md",
+  "actual_locator": "arXiv2008.02959v1 PDF10 TableII",
+  "rows": 40,
+  "meaning": "Lit columns are prior Taprogge values reprinted in Saito; curr columns are Saito. Total-Ibeta and mother-normalized-Ibeta have different denominators.",
+  "blank_cells": "Not reported, not zero or an invented upper limit.",
+  "inequalities": "Retained exactly as upper/lower limit strings.",
+  "interpretive_columns": "Removed; only reported numerical columns and state labels retained.",
+  "sha256": "6fb9eac25382a7d0e948cdf44bbc3ae41be65e82546e0f07dcfbca648ee20348",
+  "audit": "G22 column reconstruction; parent checked strong-state/upper-limit/blank examples.",
+  "serialization": "LF CSV; reported numerical cells unchanged"
+}
