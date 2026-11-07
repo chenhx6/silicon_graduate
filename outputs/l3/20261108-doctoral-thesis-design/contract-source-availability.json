@@ -1,0 +1,62 @@
+{
+  "recorded_at": "2026-11-07T23:08:12.438074+00:00",
+  "boundary": "Identity and bytes only; does not extend prior reading; stale historical deferred prose not used to claim absence",
+  "sources": [
+    {
+      "source": "knowledge/sources/cline-1986-nuclear-shapes-coulomb-excitation.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "exists": true,
+      "source_sha256": "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113",
+      "actual_sha256": "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113",
+      "hash_matches": true
+    },
+    {
+      "source": "knowledge/sources/poves-2020-limits-assigning-nuclear-shape.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/poves-2020-limits-assigning-nuclear-shape.pdf",
+      "exists": true,
+      "source_sha256": "ca188d5b2ac257edb8f616b2a055d2bd488f29d5d136baf540753ea049edf21a",
+      "actual_sha256": "ca188d5b2ac257edb8f616b2a055d2bd488f29d5d136baf540753ea049edf21a",
+      "hash_matches": true
+    },
+    {
+      "source": "knowledge/sources/bohr-1952-surface-particle-coupling.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-1952-mfm26-14.pdf",
+      "exists": true,
+      "source_sha256": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d",
+      "actual_sha256": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d",
+      "hash_matches": true
+    },
+    {
+      "source": "knowledge/sources/bohr-mottelson-1953-collective-individual-original.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-mottelson-1953-mfm27-16.pdf",
+      "exists": true,
+      "source_sha256": "b0501e3e098869a7fb14527a3dc8c9b80444affdb265394a928e0794ae708945",
+      "actual_sha256": "b0501e3e098869a7fb14527a3dc8c9b80444affdb265394a928e0794ae708945",
+      "hash_matches": true
+    },
+    {
+      "source": "knowledge/sources/matsuzaki-2004-nuclear-inertia-and-wobbling.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/matsuzaki-2004-nuclear-moments-of-inertia-prc69-034306.pdf",
+      "exists": true,
+      "source_sha256": "9ea9fb2c8b9e73b0352a219ace7efc6182d6b5471b38d32cb96bc539e4aa6bf7",
+      "actual_sha256": "9ea9fb2c8b9e73b0352a219ace7efc6182d6b5471b38d32cb96bc539e4aa6bf7",
+      "hash_matches": true
+    },
+    {
+      "source": "knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md",
+      "raw_file": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+      "exists": true,
+      "source_sha256": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b",
+      "actual_sha256": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b",
+      "hash_matches": true
+    },
+    {
+      "source": "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+      "raw_file": "raw/theses/degree-dissertation/刘晨_奇奇核~(78)Br中手征...间反射对称性的联立自发破缺.pdf",
+      "exists": true,
+      "source_sha256": "5e00370aab205b689841cb58d65c7fad8829e3de74f084736a74f2d8658ab291",
+      "actual_sha256": "5e00370aab205b689841cb58d65c7fad8829e3de74f084736a74f2d8658ab291",
+      "hash_matches": true
+    }
+  ]
+}

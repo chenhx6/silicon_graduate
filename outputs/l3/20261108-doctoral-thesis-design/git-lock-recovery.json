@@ -1,0 +1,9 @@
+{
+  "recorded_at": "2026-11-07T23:46:12.876143+00:00",
+  "age_seconds": 2603.304034948349,
+  "size": 0,
+  "active_git_processes_in_repo": [],
+  "identity_rechecked_before_unlink": true,
+  "action": "remove verified stale empty transient index.lock; no index/history rewrite",
+  "subsequent_read_commands": "git --no-optional-locks; invocation-only, no configuration changes"
+}

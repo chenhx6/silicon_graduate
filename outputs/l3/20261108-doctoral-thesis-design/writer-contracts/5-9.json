@@ -1,0 +1,58 @@
+{
+  "contract_status": "design-reviewed; manuscript execution not started",
+  "model": "antigravity/gemini-3.8-flash-tiered",
+  "reasoning_effort": "high",
+  "leader": "parent owns scientific and architectural decisions",
+  "canonical_architecture": "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md",
+  "canonical_common_contract": "knowledge/research-notes/doctoral-thesis-argument-and-writer-contract-20261108.md",
+  "canonical_filled_contracts": "knowledge/research-notes/doctoral-thesis-high-risk-section-contracts-20261108.md",
+  "current_write_permission": "Only assigned outputs rehearsal receipt; no raw manuscript writes during design goal",
+  "future_execution_requires": "Parent activates manuscript milestone after exact A130 protection/replacement procedure; this stored packet alone does not execute or authorize workers to clear directories",
+  "draft_language": "Simplified Chinese, coherent academic prose with bounded imaginative entry, no imitation of a specific work",
+  "required_return": [
+    "section argument skeleton",
+    "source/locator list and actual reading boundary",
+    "notation/units/assumptions",
+    "strongest rival and discriminating observable",
+    "figure provenance plan",
+    "reader self-check",
+    "unknown inputs and any contract defects"
+  ],
+  "prohibited": [
+    "fabricated personal experiment or result",
+    "universal delta/gamma/W.u. thresholds",
+    "bare worker JSON or abstract treated as full text",
+    "silent replacement of historical/printed ambiguities",
+    "claiming complete original producer or detector response without inputs"
+  ],
+  "section_id": "5.9",
+  "title": "由寿命、分支与内转换到绝对电磁强度",
+  "filled_contract": "F04",
+  "specific_source_inputs": [
+    {
+      "source_page": "knowledge/sources/campaign-g07-gorgen-2004-163lu-quadrupole-moments.md",
+      "locator": "PDF2–4, TablesI–II and adopted thin-target inputs"
+    },
+    {
+      "source_page": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "locator": "printed121–122"
+    },
+    {
+      "source_page": "knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+      "locator": "PDF133–136 / printed118–121 for rates/units; printed121–124 for operators; separate ICC source/rate derivation"
+    }
+  ],
+  "acceptance_focus": [
+    "mean lifetime versus half-life; Gamma=hbar*lambda",
+    "total branching b versus normalized photon intensity a",
+    "mixing fraction delta²/(1+delta²)",
+    "B up/down and declared units; no repeated hbar/ln2 in an already defined photon-rate coefficient",
+    "same-parent tau cancellation versus cross-parent covariance",
+    "Cancellation of tau does not eliminate delta/ICC/efficiency/gate/background/covariance",
+    "Actual application can also need state identity, spectra, lifetime, branches, feeding and acceptance",
+    "Suhonen PDF133-135 / printed118-120: Eq6.13 constants, Eq6.14 rate; IC not derived there"
+  ],
+  "future_draft_path": "raw/writing/gpt/A130/research-draft/section-5-9.md",
+  "current_rehearsal_path": "outputs/l3/20261108-doctoral-thesis-design/G62/contract-rehearsal.md",
+  "review_boundary": "Reception and outline are not scientific approval; parent verifies each consequential claim"
+}

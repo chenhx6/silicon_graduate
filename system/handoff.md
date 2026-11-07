@@ -4,6 +4,18 @@ updated: 2026-11-08
 ---
 
 
+
+## 2026-11-08 — 博士论文设计研究：五章/39节与Gemini合同
+
+- R1–R3第一阶段已完成研究、归档/数值/A130/检索核验及80文件提交推送核对，原生第一阶段goal已complete，累计约5h6m；精确hash仅R3本地publication-final-receipt.local.json。当前active goal是章节设计研究与写作合同，不是正文/清空操作。
+- 当前canonical架构为knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md，五章/39节，章内节数5/8/8/8/10；另三篇新note为论证/通用writer合同、六份具体F合同及五份学位样本观察。index/overview/前置项目和R3就绪矩阵更新阶段事实。
+- G58–G62五项Gemini Tiered/high均回传并关闭，路由turn_context核对；G62做三包接收/骨架演练并反馈一轮。实际接收不认证科学正确；原稿本地tmp，公开report只作回执，JSON仍自报。没有新Terra问题，未重复已核T06/T07。
+- 样本为刘晨2016博士、Alwaleedi2013博士、吴2020博士，肖骁2019和Wakudyanaye2022为硕士，不能混作博士统计。总控原件核目录与选页，保留计数/校准/反例等有效写法；不以少量样本证明全部论文同质化。Waku已明示高自旋、Liu已提隧穿；未做装置响应不能判原RAD错误，研究动机与结果声明分开。
+- 重要纠偏：不造手征±或普遍signature、q3含cos3gamma且不写q3^3，不给大q2/W.u.排球振动硬线；CoulEx约束网络非完整密度成像。Suhonen率在PDF133–135/印刷118–120，6.13列常数、6.14给率；以圆整数校1.2250e9的E2系数，平均tau使用后不再多乘hbar/ln2；IC本章不展开。事实/方法均同步knowledge，outputs只回执。
+- 三个具体包在outputs/l3/20261108-doctoral-thesis-design/writer-contracts/（1.2/3.5/5.9）；包的future_draft_path不是当前raw写权限。当前A130原34文件路径/SHA全同，尚未清空、尚未写正文。PLAN、其它手稿、daily课程/daemon/凭据不改。
+- 设计合同/来源/路径与发布验收实际结果以本目录最终回执为准；稳定提交指针预定main / research: design thesis arguments and section contracts。精确hash只写本地任务回执，post-commit核文件清单/状态/handoff。
+- 下一阶段在设计验收发布后，由总控按用户既有条件授权和逐文件可恢复基线替换精确A130目录，先让Gemini写1.2/3.5/5.9样节；总控逐claim审，复杂新推导交Terra，再推进其它节。保留源、约定、反方、图来源和读者检查，不虚构个人成果或套样本实验。不要无限重开已收束的第一阶段，也不要只派一个章名让Gemini大段填充。
+
 ## 2026-11-08 — 博士前置 R3：基础、解释能力与阶段转换依据
 
 - 第一阶段goal为01a1b53d-130f-7f42-985b-7a51dbc9f8d0。R1六区、R2惯量后，R3补原始基础、量子标签、两翼与实验反演；逐项科学就绪依据在knowledge/research-notes/doctoral-r3-readiness-evidence-matrix-20261108.md。基础足以进入总控章节设计；最终检查、发布和goal实际状态以R3最终任务回执为准，不将未决LEC/Cov/producer变成无限准备门。

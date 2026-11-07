@@ -1,0 +1,57 @@
+{
+  "contract_status": "design-reviewed; manuscript execution not started",
+  "model": "antigravity/gemini-3.8-flash-tiered",
+  "reasoning_effort": "high",
+  "leader": "parent owns scientific and architectural decisions",
+  "canonical_architecture": "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md",
+  "canonical_common_contract": "knowledge/research-notes/doctoral-thesis-argument-and-writer-contract-20261108.md",
+  "canonical_filled_contracts": "knowledge/research-notes/doctoral-thesis-high-risk-section-contracts-20261108.md",
+  "current_write_permission": "Only assigned outputs rehearsal receipt; no raw manuscript writes during design goal",
+  "future_execution_requires": "Parent activates manuscript milestone after exact A130 protection/replacement procedure; this stored packet alone does not execute or authorize workers to clear directories",
+  "draft_language": "Simplified Chinese, coherent academic prose with bounded imaginative entry, no imitation of a specific work",
+  "required_return": [
+    "section argument skeleton",
+    "source/locator list and actual reading boundary",
+    "notation/units/assumptions",
+    "strongest rival and discriminating observable",
+    "figure provenance plan",
+    "reader self-check",
+    "unknown inputs and any contract defects"
+  ],
+  "prohibited": [
+    "fabricated personal experiment or result",
+    "universal delta/gamma/W.u. thresholds",
+    "bare worker JSON or abstract treated as full text",
+    "silent replacement of historical/printed ambiguities",
+    "claiming complete original producer or detector response without inputs"
+  ],
+  "section_id": "1.2",
+  "title": "核形状指哪一种对象",
+  "filled_contract": "F01",
+  "specific_source_inputs": [
+    {
+      "source_page": "knowledge/sources/bohr-1952-surface-particle-coupling.md",
+      "locator": "pp.9–13,19–21"
+    },
+    {
+      "source_page": "knowledge/sources/cline-1986-nuclear-shapes-coulomb-excitation.md",
+      "locator": "PDF16–18 / printed698–700"
+    },
+    {
+      "source_page": "knowledge/sources/poves-2020-limits-assigning-nuclear-shape.md",
+      "locator": "v2 PDF2–6"
+    }
+  ],
+  "acceptance_focus": [
+    "0+ one-body quadrupole versus invariant information",
+    "charge versus mass shape",
+    "weighted moments versus unweighted angle",
+    "metaphor boundary and one counterexample",
+    "CoulEx constrains a matrix-element network, not direct full charge-density tomography",
+    "Use q2/q3 normalization from F01/R1-T03; cubic invariant contains cos(3 gamma)",
+    "No universal q2/Weisskopf threshold proves rigidity or excludes spherical vibrations"
+  ],
+  "future_draft_path": "raw/writing/gpt/A130/research-draft/section-1-2.md",
+  "current_rehearsal_path": "outputs/l3/20261108-doctoral-thesis-design/G62/contract-rehearsal.md",
+  "review_boundary": "Reception and outline are not scientific approval; parent verifies each consequential claim"
+}

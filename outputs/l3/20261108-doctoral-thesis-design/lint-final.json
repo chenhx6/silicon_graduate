@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-11-07T23:41:43.217274+00:00",
+  "returncode": 1,
+  "pages": 1602,
+  "counts": {
+    "error": 129,
+    "warning": 479,
+    "info": 5481
+  },
+  "baseline_counts": {
+    "error": 129,
+    "warning": 479,
+    "info": 5481
+  },
+  "new_issues": [],
+  "new_errors": 0,
+  "whole_repository_green": false
+}

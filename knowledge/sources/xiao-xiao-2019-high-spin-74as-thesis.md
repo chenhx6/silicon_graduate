@@ -3,7 +3,7 @@ type: source
 title: "肖骁 2019 硕士论文：奇奇核 74As 的高自旋态研究"
 aliases: [肖骁74As硕士论文, Xiao Xiao 74As high-spin thesis, 74As thesis]
 created: 2026-09-11
-updated: 2026-11-07
+updated: 2026-11-08
 status: ai-draft
 review_status: unreviewed
 source_type: thesis-experiment
@@ -58,6 +58,12 @@ tags: [degree-dissertation, 74as, high-spin, chirality, pseudospin, octupole-cor
 肖骁，*奇奇核 `74As` 的高自旋态研究*，山东大学硕士学位论文，2019，PDF 61 页，指导教师王守宇。原始文件 SHA-256 为 `bf0763004d98be5a540ab7802eb0baed7c11387224f1818426b891f5a3ef362b`。本页与 [[xiao-2022-chirality-octupole-correlations-74as]] 属于同一 iThemba LABS 实验谱系，不计为两个独立实验。
 
 ## Scope and Reading Depth
+
+2026-11-08设计选读：G58读目录/理论/方法选页；
+总控回PDF2–3、9–11、17、23–24。保持硕士身份及原件字节；
+PDF24的200/400keV、120ns是说明对称矩阵的教学例，后文另用150ns实际选择。
+PDF17图内/图题的反应符号差异仅记字面校对问题，不推断原因或判全实验错误。
+设计建议与原论文物理结果分开，见[[doctoral-thesis-sample-reading-design-findings-20261108]]。
 
 - Completed `reading_depth`: `deep-read`。
 - Covered scope: 题名页、中英文摘要和目录（PDF pp.1–8）；`74As` 手征背景、反应选择和 Pace4/PACE2 产额估计（pp.9–22）；iThemba LABS 实验、AFRODITE/符合与多极性方法（pp.23–34）；能级纲图、新跃迁/新能级和两条新带（pp.35–42）；Bands 1–4 的手征判据、`S(I)`、`B(M1)/B(E2)`、组态和结论（pp.42–54）。题名、摘要、能级/手征判据页面已视觉核对。

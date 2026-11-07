@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-11-07T23:24:58.871767+00:00",
+  "primary_source": "knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+  "locator": "PDF135 / printed120, Eq.(6.14); Eq.(6.13) lists constants, not branching/ICC",
+  "operation": "5.498e22 * (3/(2*15**2)) / 197.33**5",
+  "coefficient_from_printed_rounded_constants": 1225033307.7936976,
+  "units": "s^-1 / [MeV^5 * e^2 fm^4]",
+  "conditional_inverse": "B(E2 down)=lambda_gamma_E2/(coefficient*E_gamma_MeV**5)",
+  "mean_lifetime_rate": "lambda_total=1/tau; no additional hbar or ln(2) after using photon-rate coefficient",
+  "boundary": "Reconstruction of printed rounded constants, not a new precision constant or real-nucleus fit; branching and ICC require separate definitions"
+}

@@ -3,7 +3,7 @@ type: source
 title: "刘晨 2016 博士论文：奇奇核 78Br 中手征对称性和空间反射对称性的联立自发破缺"
 aliases: [刘晨 78Br 博士论文, 78Br chirality reflection-symmetry thesis]
 created: 2026-09-11
-updated: 2026-11-07
+updated: 2026-11-08
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-experiment
@@ -59,6 +59,13 @@ P0：本次未发现未隔离的来源身份或归档问题。P1：非轴向八�
 刘晨，*奇奇核 `78Br` 中手征对称性和空间反射对称性的联立自发破缺*，山东大学博士学位论文，2016，PDF 107 页。原始文件 SHA-256 为 `5e00370aab205b689841cb58d65c7fad8829e3de74f084736a74f2d8658ab291`。本页引用的期刊同实验论文为 [[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]]；论文与期刊来源属于同一 `70Zn(12C,p3n)78Br` 实验谱系，不计为两个独立实验。
 
 ## Scope and Reading Depth
+
+2026-11-08设计选读：G58读目录、PDF13–18、26–28及所述方法页；
+总控回PDF2、13–14、16–17、26–27，观察几何/隧穿引入、
+寿命判据历史和研究动机。原文PDF14已提及隧穿恢复，
+不能将未逐式推导表述成完全未提；也不从研究动机寻找CPQ反推作者已宣称得到CPQ。
+本次未将综述段落中对其它核的历史评价重新认证为现代唯一结论。
+写作设计用途见[[doctoral-thesis-sample-reading-design-findings-20261108]]。
 
 - Completed reading_depth: `deep-read`。
 - Covered scope: 题名页和摘要（PDF pp.1–10）；目录与研究背景（pp.4–33）；实验方法、Pace2 反应选择、AFRODITE/DIAMANT 和数据流程（pp.34–50）；`78Br` 能级图、ADO/线性偏振和新跃迁（pp.43–52）；组态、MχD、八极关联和 `A≈80` 系统学（pp.53–87）；总结（pp.88–91）；关键图像页面 PDF pp.1、8、34、48、64、88 视觉核对。

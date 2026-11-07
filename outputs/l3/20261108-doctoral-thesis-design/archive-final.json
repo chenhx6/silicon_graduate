@@ -1,0 +1,26 @@
+{
+  "returncode": 0,
+  "source_pages": 12,
+  "new_downloads": 0,
+  "result": {
+    "checked_manifests": [],
+    "checked_sources": [
+      "/workspace/wiki/knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+      "/workspace/wiki/knowledge/sources/bohr-1952-surface-particle-coupling.md",
+      "/workspace/wiki/knowledge/sources/bohr-mottelson-1953-collective-individual-original.md",
+      "/workspace/wiki/knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "/workspace/wiki/knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+      "/workspace/wiki/knowledge/sources/cline-1986-nuclear-shapes-coulomb-excitation.md",
+      "/workspace/wiki/knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+      "/workspace/wiki/knowledge/sources/matsuzaki-2004-nuclear-inertia-and-wobbling.md",
+      "/workspace/wiki/knowledge/sources/poves-2020-limits-assigning-nuclear-shape.md",
+      "/workspace/wiki/knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+      "/workspace/wiki/knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md",
+      "/workspace/wiki/knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md"
+    ],
+    "failure_count": 0,
+    "failures": [],
+    "ok": true,
+    "scope": "paths"
+  }
+}

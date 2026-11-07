@@ -1,0 +1,194 @@
+{
+  "task_id": "DESIGN-G58",
+  "date": "2026-11-08",
+  "scope": "Verification and comparative rhetorical audit of N=2 Chinese degree dissertations for doctoral chapter design",
+  "boundary_disclaimer": "Audit targets specific textual arguments and pedagogical structures in two physical samples. No generalization to all Chinese doctoral dissertations across history. Evaluation is strictly applied to argument structures and paragraph-level evidence chains, not author capabilities.",
+  "samples": {
+    "liu_chen_2016": {
+      "file": "raw/theses/degree-dissertation/刘晨_奇奇核~(78)Br中手征...间反射对称性的联立自发破缺.pdf",
+      "sha256": "5e00370aab205b689841cb58d65c7fad8829e3de74f084736a74f2d8658ab291",
+      "total_physical_pages": 107,
+      "total_printed_pages": 94,
+      "verified_metadata": {
+        "title": "奇奇核78Br中手征对称性和空间反射对称性的联立自发破缺",
+        "english_title": "Chiral and Reflection Symmetry Breaking in Odd-odd Nucleus 78Br",
+        "degree_level": "博士学位论文 (Doctoral Dissertation)",
+        "author": "刘晨",
+        "institution": "山东大学（威海）",
+        "defense_date": "2016年5月20日",
+        "advisors": [
+          "王守宇 教授",
+          "竺礼华 教授 (合作导师)"
+        ],
+        "major": "理论物理"
+      },
+      "existing_source_path": "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+      "page_mapping": {
+        "offset_formula": "printed_page = physical_page - 11",
+        "preliminary_pages": "Physical pp. 1-11 (Cover, title, statement, abstract, TOC i-vii)",
+        "chapter_1_start": "Physical p. 12 = Printed p. 1",
+        "chapter_2_start": "Physical p. 26 = Printed p. 15",
+        "chapter_3_start": "Physical p. 34 = Printed p. 23",
+        "chapter_4_start": "Physical p. 48 = Printed p. 37",
+        "chapter_5_start": "Physical p. 64 = Printed p. 53",
+        "chapter_6_start": "Physical p. 84 = Printed p. 73",
+        "chapter_7_start": "Physical p. 88 = Printed p. 77",
+        "references_start": "Physical p. 92 = Printed p. 81"
+      },
+      "deep_read_ranges": {
+        "background_theory": "Physical pp. 13-18 (Printed pp. 2-7, §1.2 原子核中的手征对称性)",
+        "personal_results_transition": "Physical pp. 26-28 (Printed pp. 15-17, §2.1 研究动机)"
+      },
+      "direct_observations": [
+        {
+          "locator": "PDF pp. 16-17, printed pp. 5-6, §1.2",
+          "text_summary": "Author reviews international status and highlights the contrast between 134Pr and 128Cs lifetime measurements: Tonev et al. proved 134Pr bands had distinct shapes ruling out chirality, while 128Cs confirmed chirality. Author explicitly concludes energy degeneracy alone is an insufficient criterion and absolute B(M1)/B(E2) from lifetimes are required."
+        },
+        {
+          "locator": "PDF pp. 26-27, printed pp. 15-16, §2.1",
+          "text_summary": "Motivation combines three ingredients: TAC predicted triaxiality (beta2=0.32, gamma=21.3 deg), high-j proton g9/2 and neutron orbitals (g9/2, f5/2, p3/2, p1/2), and an empirical gap where 74,76,80Br have doublet bands while 78Br lacked a positive-parity partner band."
+        },
+        {
+          "locator": "PDF pp. 13-14, printed pp. 2-3, §1.2",
+          "text_summary": "Jumps directly from body-fixed 3-vector tripod (jp, jn, R) and chiral operator X = T R_y(pi) to lab-frame delta-I=1 nearly degenerate doublet bands via 'quantum tunneling', without showing the symmetric/antisymmetric wave function superpositions or signature symmetry considerations."
+        },
+        {
+          "locator": "PDF pp. 26-27, printed pp. 15-16, §2.1 vs PDF p. 90, printed p. 79, Ch. 7",
+          "text_summary": "Front title and Ch. 2 claim simultaneous spontaneous breaking of chiral and reflection symmetries (Frauendorf 2001 CPQ), but actual observation is eight E1 transitions connecting distinct configurations Band 1 (pos-parity) and Band 3 (neg-parity), which Ch. 7 admits is coexistence of octupole correlation and chiral bands rather than true CPQ."
+        }
+      ],
+      "agent_interpretations": [
+        "Liu Chen demonstrates high pedagogical awareness in explaining why lifetime measurements are needed for chiral verification, using real historical setbacks (134Pr).",
+        "The transition from Chapter 1 general theory to Chapter 2 78Br background is structured logically around the empirical absence of partner bands in the bromine isotope chain.",
+        "There is conceptual drift between the thesis title / introductory claim ('联立自发破缺') and the physical reality ('八极关联共存'), where reflection symmetry breaking is over-claimed in introductory prose compared to the model/data limits acknowledged in the conclusion."
+      ],
+      "recommendations": [
+        "Retain the isotope systematics comparison chart (Fig 2.1) and pedagogical counter-examples (134Pr vs 128Cs) as an exemplar of motivated experimental design.",
+        "Supplement the microscopic derivation of quantum tunneling in the intro: write out parity and chiral signature eigenvalues for the doublet states to bridge the classical tripod to quantum observables.",
+        "Decouple true chiral-parity quadruplet (CPQ, identical configuration with static beta3) from configuration coexistence with octupole correlations early in Chapter 1."
+      ]
+    },
+    "xiao_xiao_2019": {
+      "file": "raw/theses/degree-dissertation/肖骁_奇奇核~(74)As的高自旋态研究.pdf",
+      "sha256": "bf0763004d98be5a540ab7802eb0baed7c11387224f1818426b891f5a3ef362b",
+      "total_physical_pages": 61,
+      "total_printed_pages": 53,
+      "verified_metadata": {
+        "title": "奇奇核74As的高自旋态研究",
+        "english_title": "Study on the high spin state in odd-odd nuclei 74As",
+        "degree_level": "硕士学位论文 (Master Degree Thesis)",
+        "author": "肖骁",
+        "institution": "山东大学（威海）",
+        "defense_date": "2019年5月23日",
+        "advisors": [
+          "王守宇 教授"
+        ],
+        "major": "物理学"
+      },
+      "existing_source_path": "knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md",
+      "page_mapping": {
+        "offset_formula": "printed_page = physical_page - 8",
+        "preliminary_pages": "Physical pp. 1-8 (Cover, title, statement, abstract, TOC i-x)",
+        "chapter_1_start": "Physical p. 9 = Printed p. 1",
+        "chapter_2_start": "Physical p. 15 = Printed p. 7",
+        "chapter_3_start": "Physical p. 21 = Printed p. 13",
+        "chapter_4_start": "Physical p. 37 = Printed p. 29",
+        "chapter_5_start": "Physical p. 47 = Printed p. 39",
+        "references_start": "Physical p. 49 = Printed p. 41"
+      },
+      "deep_read_ranges": {
+        "background_theory": "Physical pp. 9-14 (Printed pp. 1-6, §1.1 原子核中的手征对称性 & §1.2 74As的研究背景)",
+        "personal_results_transition": "Physical pp. 13-14 (Printed pp. 5-6, end of §1.2) and Physical pp. 15-17 (Printed pp. 7-9, §2.1)"
+      },
+      "direct_observations": [
+        {
+          "locator": "PDF pp. 23-24, printed pp. 15-16, §3.1.3",
+          "text_summary": "Explains 2D symmetric gamma-gamma matrix unsorting with concrete numerical example: a 120 ns coincidence window recording 200 keV and 400 keV events increments matrix bins (200, 400) and (400, 200) by 1, explaining total projection and gating transparently."
+        },
+        {
+          "locator": "PDF pp. 11-13, printed pp. 3-5, §1.2",
+          "text_summary": "Systematic chronological tracking of 74As research across five decades (1940s ground state T1/2=17.7 d, 1966 NDS, 1970 TOF, 1971 Ge(Li)-NaI DPAD g-factor on 273.8 keV isomer, 1973 conversion electrons, 2010 Cao et al. and 2014 Sun et al. heavy-ion fusion pushing spin to 14 hbar)."
+        },
+        {
+          "locator": "PDF pp. 10-11, printed pp. 2-3, §1.1",
+          "text_summary": "Asserts chirality requires high-j particle AND high-j hole, but then assigns 74As configuration to pi-g9/2 (Z=33, particle-like) and nu-g9/2 (N=41, bottom of shell, also particle-like), without explaining how two particles can satisfy mutually orthogonal tripod alignment or Fermi surface positioning."
+        },
+        {
+          "locator": "PDF p. 17, printed p. 9, Fig 2.2",
+          "text_summary": "Figure caption reads 'Pace2程序计算的 7Li + 74Ge 反应截面', but text states the reaction used was 74Ge(alpha, 1p3n)74As (4He beam), and the figure graph itself displays 2He2 + 32Ge42 -> 33As41 + 1p3n. The caption contains an uncorrected copy-paste artifact from prior literature."
+        }
+      ],
+      "agent_interpretations": [
+        "Xiao Xiao's explanation of coincidence matrix sorting is an exceptional pedagogical model for experimental thesis writing, rendering an algorithmic step accessible and physically tangible.",
+        "The literature review of 74As is meticulous in tracking experimental instruments across eras, clearly defining the exact spin ceiling (14 hbar) inherited from previous work.",
+        "The thesis exhibits a foundational leap in particle-hole assignment for chiral geometry: particle-particle orbitals are labeled chiral candidates without reconciling the classical tripod requirement. Furthermore, figure caption copy-paste discrepancies degrade data rigor."
+      ],
+      "recommendations": [
+        "Adopt the transparent 'numerical example' method for experimental data-processing sections (matrix sorting, background subtraction, efficiency fitting).",
+        "When introducing particle-hole configurations in odd-odd nuclei, explicitly discuss Fermi surface position relative to Nilsson orbitals to substantiate why a given orbital acts as quasi-particle or quasi-hole.",
+        "Implement automated multi-source verification checks between reaction equations in main text, figure graphs, and figure captions to eliminate copy-paste artifacts."
+      ]
+    }
+  },
+  "higher_order_concept_remediation": {
+    "concept_name": "手征-宇称四重带（CPQ）与多重手征带伴随八极关联（Chirality-Octupole Coexistence）的物理实质与判据解耦",
+    "identified_flaw": "在引言与论文标题中，往往将'在同一原子核中观测到正负宇称带间存在 E1 跃迁'直接等同于'手征对称性与空间反射对称性同时自发破缺'。这种表述模糊了刚性八极形变（静态梨形，两个宇称共享同一内禀准粒子组态）与软八极振动/多组态混合（不同组态之间因 Delta l = Delta j = 3 矩阵元导致的孤立 E1 跃迁）的本质区别。",
+    "evidence_in_samples": "刘晨论文题名为《...联立自发破缺》，且在 §2.1 引用 Frauendorf 2001 的手征-反射同时破缺四重带作为动机；但在第 5 章 §5.3 与第 7 章总结中，实际测量结果为 8 条 E1 连接正宇称 Band 1 (pi-g9/2 otimes nu-g9/2) 与负宇称 Band 3 (pi-g9/2 otimes nu-p3/2/f5/2)，MDC-CDFT 计算给出 beta30=0 极小，总结明确承认这是手征性与八极关联共存，而非真正的稳定八极形变四重带。",
+    "remediation_strategy": [
+      "在理论前置章明确定义四重带（CPQ）的必要充分条件：同一内禀组态、严格宇称简并对、四重双重带结构、带间增强且对称分布的交织 E1 网络。",
+      "将'八极关联（Octupole correlations / vibrations）'与'静态空间反射对称性自发破缺（Octupole deformation）'设立独立的判据对照表。",
+      "在章节标题与论文主张中严格恪守证据边界，不把两对独立组态手征带之间的 E1 连接夸大为空间反射对称性的自发破缺。"
+    ]
+  },
+  "chapter_design_decisions": [
+    {
+      "id": "DEC-01",
+      "name": "微观量子隧穿与双重带态矢叠加的显式推导",
+      "action": "保留宏观手性类比与经典角动量三脚架图景；加强内禀非平面转动自发破缺到实验室系能级分裂的严格量子力学推导（时间反演-旋转算符 T R_y(pi)、左右手波函数叠加 |+> 与 |->、手征宇称量子数）。",
+      "reader_difficulty": "读者困惑于为何内禀系的离散破缺不会直接在实验室系观测到单一手征态，而是表现为 Delta I = 1 的双重带；容易混淆空间宇称 P 与手征宇称。",
+      "source_evidence": "刘晨论文第 1 章（PDF pp. 13-14）与肖骁论文第 1 章（PDF pp. 9-10）均跳过量子隧穿叠加推导；Bohr-Mottelson Vol. II 与 Petrache 2025 提供微观对照。"
+    },
+    {
+      "id": "DEC-02",
+      "name": "手征实验判据的分层架构与反例警示前置",
+      "action": "保留实验判据条目化整理；加强将判据分层为'初筛必要条件'（能谱简并、S(I) 平缓）与'确证充分条件'（带内绝对 B(M1)/B(E2)、寿命测量、进动角分布），并在理论章前置引入历史反例。",
+      "reader_difficulty": "读者容易形成'能谱近简并即确证手征'的简单化思维；后续章节若只有相对强度而无寿命时，读者无法评估手征主张的置信度边界。",
+      "source_evidence": "刘晨论文 PDF pp. 16-17 运用 134Pr 寿命测量否定手征与 128Cs 确证手征的经典反思；肖骁论文 PDF p. 10 列举大量候选但未在前置章明确判据权重。"
+    },
+    {
+      "id": "DEC-03",
+      "name": "解耦静态反射破缺与跨组态八极关联的论述范式",
+      "action": "保留探索多模式共存的前沿科研动机；加强对 Frauendorf 2001 CPQ（同组态静态梨形破缺）与现实中多组态 E1 关联共存的概念解耦，统一全书措辞边界。",
+      "reader_difficulty": "读者易将两条不同单粒子组态的转动带之间的偶极 E1 跃迁，误认为原子核形成了刚性八极形变与手征-宇称四重带。",
+      "source_evidence": "刘晨论文题名、引言动机（PDF pp. 26-27）与结论展望（PDF p. 90）之间的主张漂移；Wiki source liu-chen-2016 (LC16-R7-1, LC16-R7-3)。"
+    },
+    {
+      "id": "DEC-04",
+      "name": "三轴势能面极小点到量子动力学软性的物理延展",
+      "action": "保留 TAC/CDFT 势能面极小值计算展示；加强对势能曲面沿 gamma 自由度势垒高度、零点振动能量以及 gamma 软性/刚性对非平面转动稳定性的敏感度讨论。",
+      "reader_difficulty": "读者误以为只要计算出 gamma != 0 极小点就证明了刚性三轴形变，忽视了 A~80 软核区形状涨落易使手性几何失稳的物理事实。",
+      "source_evidence": "肖骁论文 PDF p. 11 依据 TAC 计算在 epsilon2=0.3, gamma=34 deg 有极小点即断言'适合手征带建立'，未评估 gamma 势垒深度与涨落宽度。"
+    },
+    {
+      "id": "DEC-05",
+      "name": "数据处理算法教学化：符合矩阵与开窗反演的透明解构",
+      "action": "保留并推广肖骁论文 §3.1.3 的'具体事件计数数值举例法'；加强补充随机符合本底扣除（SNIP/谷底法）、多重级联开窗逻辑与非对称矩阵（DCO/线偏振度）构建算法。",
+      "reader_difficulty": "实验核物理初学者和跨领域读者常将在线获取软件视为黑盒，难以理解离散 gamma 符合计数如何映射为能级纲图中的级联路径。",
+      "source_evidence": "肖骁论文 PDF pp. 23-24（印刷 pp. 15-16）以 120 ns 时间窗、200 keV 与 400 keV 事件为例清晰解构二维矩阵填谱机制。"
+    },
+    {
+      "id": "DEC-06",
+      "name": "费米面准粒子性质与角动量空间排列的微观自洽闭环",
+      "action": "保留同位素能级系统学比对法；加强微观费米面轨道位置与准粒子顺排角动量 ix、转动惯量 J(1)/J(2) 和旋称反转点的多维交叉验证，严密论证准粒子/准空穴性质。",
+      "reader_difficulty": "在奇奇核中，读者难以确信未配对核子究竟是表现为粒子性还是空穴性，仅靠相邻奇 A 核指认缺乏对形变自洽极化效应的说明。",
+      "source_evidence": "肖骁论文 PDF pp. 10-11 声称质子与中子均处于 g9/2 底部却归为粒子-空穴手征候选；刘晨论文第 5 章 §5.1（PDF pp. 64-66）结合推转模型与邻核晕带。"
+    },
+    {
+      "id": "DEC-07",
+      "name": "图文/图题/截面公式自洽性的多源交叉防错机制",
+      "action": "建立章节写作中实验参数清单制度，严格审查束流离子、能量、靶核丰度、核反应道公式、截面计算图表与正文叙述的一致性。",
+      "reader_difficulty": "图题与正文矛盾（如正文 He 束流、图题 Li 束流）会严重分散读者注意力，降低整篇论文实验数据的可信度。",
+      "source_evidence": "肖骁论文 PDF p. 17（印刷 p. 9）图 2.2 图题标注'7Li + 74Ge'而正文与图内公式均为 74Ge(alpha, 1p3n)74As 反应的低级复制失误。"
+    }
+  ]
+}

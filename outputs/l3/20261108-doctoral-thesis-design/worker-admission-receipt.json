@@ -1,0 +1,43 @@
+{
+  "recorded_at": "2026-11-07T23:36:19.653730+00:00",
+  "workers": [
+    {
+      "task": "G58",
+      "file": "outputs/l3/20261108-doctoral-thesis-design/G58/report.md",
+      "original_sha256": "6a199482311fbbb47027940483633010679602ac05b91b2e144ddaa30bbbcc42",
+      "canonical": "knowledge/research-notes/doctoral-thesis-sample-reading-design-findings-20261108.md"
+    },
+    {
+      "task": "G59",
+      "file": "outputs/l3/20261108-doctoral-thesis-design/G59/report.md",
+      "original_sha256": "7a6c8edfdda1b3bf1855f0729ed275b711844b1880d49a5760df017909dbd93a",
+      "canonical": "knowledge/research-notes/doctoral-thesis-sample-reading-design-findings-20261108.md"
+    },
+    {
+      "task": "G60",
+      "file": "outputs/l3/20261108-doctoral-thesis-design/G60/report.md",
+      "original_sha256": "2c1e916fcf53a4702621af655f1896500d1666e5642f673b2ab88335e4abffd2",
+      "canonical": "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md"
+    },
+    {
+      "task": "G61",
+      "file": "outputs/l3/20261108-doctoral-thesis-design/G61/report.md",
+      "original_sha256": "6f1921d1a30854ef4d0d88b287d393a540cf1dff238bf3eb3d9eb8a536c0c735",
+      "canonical": "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md"
+    },
+    {
+      "task": "G62",
+      "file": "outputs/l3/20261108-doctoral-thesis-design/G62/contract-rehearsal.md",
+      "original_sha256": "93401b06a166f53cc87066eed957090cb45c57b60a05c7deeae329b3854728f6",
+      "canonical": "knowledge/research-notes/doctoral-thesis-high-risk-section-contracts-20261108.md"
+    },
+    {
+      "task": "G62",
+      "file": "outputs/l3/20261108-doctoral-thesis-design/G62/parent-corrections.md",
+      "original_sha256": "5827fa64a54dec15adbc5d05e8fe5a1fea07b6ead7a70cae356626d2d8dcdfcb",
+      "canonical": "knowledge/research-notes/doctoral-thesis-high-risk-section-contracts-20261108.md"
+    }
+  ],
+  "scientific_authority": "canonical knowledge and direct primary sources; not worker receipt flags",
+  "manuscript_execution_started": false
+}

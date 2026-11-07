@@ -1,0 +1,221 @@
+{
+  "task_id": "DESIGN-G60",
+  "topic": "Doctoral thesis experimental techniques chapter: section-level causal architecture and research contract",
+  "thesis_source": {
+    "author": "吴鸿毅",
+    "title": "通用数字化获取系统的开发",
+    "year": 2020,
+    "degree": "北京大学博士学位论文",
+    "canonical_file": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+    "raw_sha256": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b",
+    "total_pages": 143,
+    "page_offset": "printed_page = pdf_page - 12",
+    "inspected_pages_in_depth": [
+      {
+        "pdf_page": 54,
+        "printed_page": 42,
+        "topic": "Pixie-16 list mode event structure Fig 2.8 and header words"
+      },
+      {
+        "pdf_page": 55,
+        "printed_page": 43,
+        "topic": "Standard and custom firmware waveform FIFO overflow behavior"
+      },
+      {
+        "pdf_page": 71,
+        "printed_page": 59,
+        "topic": "MZTIO FPGA trigger logic and in-beam coincidence implementation"
+      },
+      {
+        "pdf_page": 83,
+        "printed_page": 71,
+        "topic": "CIAE in-beam gamma array setup (HPGe + BGO anti-Compton, Clover)"
+      },
+      {
+        "pdf_page": 109,
+        "printed_page": 97,
+        "topic": "Fast filter Eq 3.2 and pile-up limit under high rate"
+      },
+      {
+        "pdf_page": 123,
+        "printed_page": 111,
+        "topic": "Appendix A VME busy mode 1 timing and dead time breakdown"
+      },
+      {
+        "pdf_page": 124,
+        "printed_page": 112,
+        "topic": "Appendix A VME busy mode 2 and common array busy reset"
+      },
+      {
+        "pdf_page": 128,
+        "printed_page": 116,
+        "topic": "Appendix B non-paralyzable Eq B.1 and paralyzable Eq B.2 models"
+      }
+    ]
+  },
+  "prior_notes_read": [
+    "README.md",
+    "knowledge/index.md",
+    "knowledge/research-notes/doctoral-r1-g32-digital-daq-observable-chain-20261108.md",
+    "knowledge/research-notes/doctoral-r3-daq-spectroscopy-inverse-20261108.md",
+    "knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md"
+  ],
+  "seven_guardrails": {
+    "bit_depth_not_energy_resolution": {
+      "rule": "ADC bit depth (quantization granularity) is not energy resolution.",
+      "physical_basis": "Quantization noise variance Delta^2/12 is negligible compared to statistical Fano charge fluctuations (F~0.11 in HPGe), incomplete charge collection, and preamplifier equivalent noise charge (ENC)."
+    },
+    "cfd_fine_timing_field_encoding_varies": {
+      "rule": "CFD fine timing field is not encoded identically across digitizer models and firmwares.",
+      "physical_basis": "16-bit CFD word in Pixie-16 depends on clock rate (100/250/500 MSPS) and firmware logic; it contains flags and mode-specific fractional formats, not a universal fixed-unit picosecond field."
+    },
+    "live_time_not_clean_event_fraction": {
+      "rule": "Scaler live time fraction is not the total clean event acceptance rate.",
+      "physical_basis": "Hardware scaler live time accounts only for module acquisition state; it neglects pile-up rejection loss, anti-Compton BGO VETO vetoing, trigger threshold efficiency, and offline waveform cuts."
+    },
+    "common_busy_breaks_coincidence_factorization": {
+      "rule": "Common dead time breaks simple independent product factorization of coincidence efficiency.",
+      "physical_basis": "With shared trigger, shared backplane bus, or common veto, joint survival P(L1=1, L2=1) = p_c p_1 p_2 != P(L1=1)P(L2=1) = p_c^2 p_1 p_2; naive product double-penalizes common busy."
+    },
+    "delta_not_bare_rme_ratio": {
+      "rule": "Multipole mixing ratio delta(E2/M1) is not the bare ratio of reduced matrix elements.",
+      "physical_basis": "delta is a dimensionless photon emission amplitude ratio including wavenumber k=E_gamma/(hbar c), fundamental constants, and phase conventions (Hamilton vs Bohr-Mottelson vs Krane)."
+    },
+    "same_parent_state_tau_cancellation_preserves_systematics": {
+      "rule": "Canceling lifetime tau for same-parent-state branching ratios does not eliminate all systematic errors.",
+      "physical_basis": "Common lifetime tau and stopping power models cancel algebraically, but relative efficiency calibration, internal conversion coefficient (ICC) errors, feeder contamination, and background subtraction errors remain."
+    },
+    "two_phonon_doubling_not_universal_veto": {
+      "rule": "Two-phonon factor 2 B(E2) enhancement is not a universal veto gate for collective states.",
+      "physical_basis": "Harmonic doubling B(E2; 2_wob -> 1_wob) = 2 B(E2; 1_wob -> 0_wob) is an idealized harmonic limit; nuclear triaxiality, softness, quasiparticle alignment, and anharmonicity strongly modify this ratio in realistic nuclei."
+    }
+  },
+  "five_key_formulas_to_trace": [
+    {
+      "formula_id": "FORMULA-01",
+      "latex": "r[n] = p[n] + M d[n], \\quad s[n] = s[n-1] + r[n], \\quad M = (e^{T_s/\tau_d} - 1)^{-1}",
+      "description": "Jordanov recursive digital trapezoidal filter with pole-zero cancellation (PZC) and flat-top gain Ak(M+1)",
+      "primary_sources": [
+        "吴鸿毅论文 PDF 31-32, 式 (1.14)-(1.19)",
+        "Jordanov & Knoll 1994 NIM A 345:337",
+        "G32 research note derivation"
+      ]
+    },
+    {
+      "formula_id": "FORMULA-02",
+      "latex": "t_{zc} = n T_s - \frac{C[n]}{C[n+1] - C[n]} T_s, \\quad C[n] = F[n-d] - f F[n]",
+      "description": "Digital constant fraction discrimination (CFD) two-point zero-crossing sub-sample linear interpolation",
+      "primary_sources": [
+        "吴鸿毅论文 PDF 36, 式 (1.21)-(1.22)",
+        "Lipschutz 2016 NIM A 830:342",
+        "G32 research note"
+      ]
+    },
+    {
+      "formula_id": "FORMULA-03",
+      "latex": "P(L_1=1, L_2=1) = p_c p_1 p_2 \neq P(L_1=1)P(L_2=1) = p_c^2 p_1 p_2",
+      "description": "Non-factorizable joint coincidence live-time under common array busy logic",
+      "primary_sources": [
+        "吴鸿毅论文 附录 A/B, PDF 122-124, 127-128",
+        "R3 research note derivation"
+      ]
+    },
+    {
+      "formula_id": "FORMULA-04",
+      "latex": "\\lambda_{\\gamma i} = \frac{1}{\tau} \\cdot \frac{a_i}{\\sum_j a_j (1+\u0007lpha_j)} = \frac{b_i}{\tau (1+\u0007lpha_i)}",
+      "description": "Rigorous decoupling of experimental photon transition rate from parent level lifetime, total branching, and internal conversion coefficients",
+      "primary_sources": [
+        "Hamilton 1975",
+        "Suhonen 2007 From Nucleons to Nucleus, Eq. (6.10)-(6.13)",
+        "R3 research note"
+      ]
+    },
+    {
+      "formula_id": "FORMULA-05",
+      "latex": "B(E2; I_i \to I_f) = \frac{1}{\tau} \\cdot \frac{b_i}{1+\u0007lpha_i} \\cdot \frac{\\delta^2}{1+\\delta^2} \\cdot \frac{\\ln 2 \\cdot \\hbar}{1.2255 \times 10^9 E_\\gamma^5}",
+      "description": "Absolute reduced transition probability B(E2) experimental inversion from lifetime, branching, mixing ratio, and transition energy (E_gamma in MeV, tau in s, B(E2) in e^2 fm^4)",
+      "primary_sources": [
+        "Bohr & Mottelson 1975 Nuclear Structure Vol. I & II",
+        "Görgen 2004 Table I-II",
+        "R3 research note"
+      ]
+    }
+  ],
+  "section_research_contracts": [
+    {
+      "section_id": "2.1",
+      "title": "脉冲数字化与数字成形滤波（ADC量化、梯形滤波与极零相消）",
+      "core_question": "前放输出的指数衰减电荷脉冲如何通过有限差分离散滤波提取无弹道亏损的能谱幅度？",
+      "prerequisites": "双指数脉冲模型、LTI系统离散差分方程、z变换极零相消原理、ADC白噪声量化理论。",
+      "locators": "吴论文 PDF 28-33 (印刷 16-21) 式 (1.11)-(1.19), 图 1.19-1.21; PDF 38 (印刷 26); PDF 85-86 (印刷 73-74).",
+      "essential_formulas_units": "差分方程 d[n], p[n], r[n], s[n]; 极零因子 M=(exp(Ts/tau_d)-1)^(-1) [无量纲]; 理想量化方差 Delta^2/12 [LSB^2]; 平顶增益 Ak(M+1).",
+      "diagram_spec": "图2.1 梯形滤波与极零相消脉冲时序图：含双指数输入、四点延迟差分、极零补偿及梯形输出，标注上升区k*Ts和平顶区(l-k)*Ts，对比M欠补偿下凹与过补偿上翘。",
+      "spectroscopy_interface": "直接给出全能峰中心道位置与固有展宽，决定能谱信噪比与分支比峰面积统计误差。",
+      "firmware_vs_reader": "移入附录：FPGA DSP48流水线截断、定点数位移规则；读者必懂：成形时间与弹道亏损/串联并联噪声折衷物理。",
+      "beginner_check": "若探测器前放衰减常数50 us，采样周期10 ns，求M；若因前放受热实际衰减变快为40 us而M未调，梯形基线会出现上翘还是下凹？",
+      "common_misconception": "误认为选用14-bit或16-bit ADC就天然获得优于模拟放大器的能量分辨，忽略了前放ENC噪声与低频微声电噪声对宽滤波窗的恶化。"
+    },
+    {
+      "section_id": "2.2",
+      "title": "触发逻辑与高精度数字定时（快滤波、数字CFD与粗细时间戳）",
+      "core_question": "如何从离散采样波形中提取不受脉冲幅度游走影响的皮秒至纳秒级符合时间基准？",
+      "prerequisites": "恒比定时（CFD）模拟原理、有限差分快成形滤波、两点线性内插数学。",
+      "locators": "吴论文 PDF 33-38 (印刷 21-26) 式 (1.20)-(1.22), 图 1.23-1.27; PDF 54-55 (印刷 42-43) 图 2.8; PDF 104-109 (印刷 92-97) 式 (3.2), 图 3.35-3.43.",
+      "essential_formulas_units": "快滤波算符 LV_x,k; CFD差分序列 C[n]=F[n-d]-f*F[n]; 两点插值 t_zc=n*Ts - C[n]*Ts/(C[n+1]-C[n]) [ns]; 粗时间戳周期 T_clk [ns] 与48-bit字.",
+      "diagram_spec": "图2.2 数字CFD两点过零插值与事件字时序图：展示延迟波形、反相衰减波形及合成双极脉冲，标出过零采样样点与插值点tzc；下方绘制Pixie-16事件头48-bit粗时间戳与16-bit细定时排布。",
+      "spectroscopy_interface": "决定离线gamma-gamma符合时间窗口宽度，控制偶然符合本底扣除比率并设定快速定时寿命测量下限。",
+      "firmware_vs_reader": "移入附录：LVDS背板触发差分信号电平匹配与PLL时钟树布线；读者必懂：CFD定时抖动与脉冲信噪比及前沿斜率关系 sigma_t propto sigma_n / (dV/dt)。",
+      "beginner_check": "在250 MSPS (Ts=4 ns) 采集下，脉冲过零前后采样值分别为C[n]=-100与C[n+1]=+300，求插值时间相对于样点n的纳秒偏移；若脉冲幅度无噪声等比放大2倍，该插值结果是否改变？",
+      "common_misconception": "误以为48位粗时间加16位细时间编码直接等价于皮秒级时间分辨，混淆了数字编码最小有效位（量化粒度）与物理定时抖动。"
+    },
+    {
+      "section_id": "2.3",
+      "title": "事件字结构、触发选择与多道共同死时间（单道live到联合接受度）",
+      "core_question": "从通道局部事件到多探测器阵列，堆积拒绝、缓存溢出与公共忙如何破坏符合探测效率的独立因子分解？",
+      "prerequisites": "泊松过程事件间隔统计、可扩展与不可扩展死时间模型、联合概率与相关系统分析。",
+      "locators": "吴论文 PDF 54-56 (印刷 42-44) 图 2.8; PDF 109-113 (印刷 97-101) 图 3.44-3.48; PDF 122-125 (印刷 110-113) 附录 A; PDF 126-133 (印刷 114-121) 附录 B 式 (B.1)-(B.10).",
+      "essential_formulas_units": "不可扩展死时间 r_obs=r_in/(1+r_in*tau_d) [s^-1]; 可扩展死时间 r_obs=r_in*exp(-r_in*tau_d); 共同忙非因子化 P(L1=1, L2=1)=p_c*p_1*p_2 != p_c^2*p_1*p_2; 阵列联合接受度 eta_ij.",
+      "diagram_spec": "图2.3 阵列多通道共同死时间与符合损失因果流图：展示单道成形死时间、反康BGO抑制门、机箱背板共同busy总线与FIFO满丢弃事件之间的相互作用，标明独立相乘与联合存活差异。",
+      "spectroscopy_interface": "直接作为gamma-gamma矩阵符合强度归一化系数，消除高计数率下弱跃迁符合峰的非线性压低伪像。",
+      "firmware_vs_reader": "移入附录：PXI/CompactPCI总线DMA突发读出协议与轮询仲裁逻辑；读者必懂：单道计标器活时间与符合活时间的本质差异，以及共同死时间对双道效率的非乘积修正。",
+      "beginner_check": "若两路探测器各自独立死时间导致的活时间均为95%，但全阵列共享一个占用率为20%的公共硬件忙（如束流脉冲清零），求真实的双道瞬态联合活时间与简单相乘预测值的相对偏差。",
+      "common_misconception": "误以为数字获取系统无触发（triggerless）或自触发模式意味着零死时间，忽略了前端成形梯形内的堆积判决丢弃与后端总线带宽溢出造成的全局数据丢失。"
+    },
+    {
+      "section_id": "2.4",
+      "title": "实验光子分支比、内转换与电磁多极混合比 delta（从峰面积到跃迁几率）",
+      "core_question": "如何严谨将探测器全能峰面积反演为核能级内禀辐射跃迁几率，并消除多极混合比反演的多根与相位简并？",
+      "prerequisites": "辐射探测全能峰探测效率标定、角分布统计张量 B_k(I) 与几何系数 F_k、原子内转换系数理论（BrIcc）。",
+      "locators": "吴论文 PDF 82-86 (印刷 70-74); Hamilton 1975; Lange-Kumar-Hamilton 1982 pp. 121-122 式 (2.1)-(2.11); Krane-Bohr-Mottelson 相对相位约定。",
+      "essential_formulas_units": "光子跃迁几率 lambda_gamma_i = a_i / [tau * sum_j a_j(1+alpha_j)] [s^-1]; 总分支比 b_i 与光子分支比 b_gamma_i; 混合比 delta^2 = lambda_gamma(E2)/lambda_gamma(M1) [无量纲]; DCO比值二次有理函数 R_DCO(delta).",
+      "diagram_spec": "图2.4 能级衰变分支、内转换修正与DCO-偏振双根仲裁曲线：上部为含gamma光子与转换电子竞争退激纲图；下部为R_DCO随arctan(delta)变化的双根二次曲线，并绘制康普顿线偏振度P(theta)正交解简并示意。",
+      "spectroscopy_interface": "将宏观全能峰计数解耦为纯微观E2与M1跃迁分量，为核形变四极矩与磁跃迁矩提供无模型偏差的实验输入。",
+      "firmware_vs_reader": "移入附录：Geant4全阵列多角度网格几何立体角衰减因子Q_k计算源码；读者必懂：混合比delta的无量纲物理定义及其理论与实验相位符号对账准则。",
+      "beginner_check": "某400 keV跃迁的实验DCO拟合给出两个数学允许解 delta=+0.12与delta=+3.8。若该核理论预期该带内跃迁以磁偶极为主伴随微弱E2成分，物理上选择哪一根？若要在实验上独立确证，必须补充何种测量？",
+      "common_misconception": "误以为DCO测量必然单值确定多极混合比，或误将delta直接写为约化电磁矩阵元之比 <I_f||M(E2)||I_i>/<I_f||M(M1)||I_i>，遗漏了光子波矢k的幂次因次与单位转换常数。"
+    },
+    {
+      "section_id": "2.5",
+      "title": "激发态寿命测量、协方差传播与核结构模型边界（反演B(E2)/B(M1)与非谐性检验）",
+      "core_question": "如何结合实验寿命、衰变分支与混合比构建完整的核跃迁绝对约化几率矩阵，并在误差协方差下客观检验非谐性与集体性？",
+      "prerequisites": "多普勒频移衰减法（DSAM）离子阻止本领模型、反冲距离多普勒频移法（RDM）、Bateman方程级联feeding修正、多维协方差误差传播。",
+      "locators": "Görgen 2004 Table I-II; Clement 2007 PRC 75:054313 Table V-VI; Suhonen 2007 式 (6.13); Petrache 2025 Chirality and Wobbling in Atomic Nuclei.",
+      "essential_formulas_units": "约化跃迁几率 B(E2; I_i -> I_f) = [1/tau] * [b_i/(1+alpha_i)] * [delta^2/(1+delta^2)] * [ln2 * hbar / (1.2255e9 * E_gamma^5)] [e^2 fm^4]; 协方差传播 V_y = J V_x J^T + V_sys; 双声子与单声子强度比 R_2/1.",
+      "diagram_spec": "图2.5 激发态寿命、分支比与跃迁几率反演因果关联与误差协方差椭圆图：从谱形拟合tau、峰面积b_gamma、BrIcc内转换alpha与DCO/偏振delta汇聚至B(E2)/B(M1)的多源信息流；右侧展示绝对寿命与分支比由于共用峰面积导致的置信椭圆旋转。",
+      "spectroscopy_interface": "直接裁决核结构模型中转动惯量轴比、四极形变参数(beta, gamma)、手征双重带与摆动声子激发机制。",
+      "firmware_vs_reader": "移入附录：SRIM/Northcliffe-Schilling核与电子阻止本领经验插值代码；读者必懂：慢feeder对DSAM谱形拟合的人为寿命拉长效应，以及相同母态比值对tau抵消的适用边界。",
+      "beginner_check": "在同一母态退激的跃迁强度比分析中，为什么母态寿命tau的不确定度完全抵消，但两跃迁的探测效率标定误差与重叠峰本底误差依然独立贡献？",
+      "common_misconception": "误以为实验测得的双声子与单声子摆动跃迁比偏离严格的2倍即足以作为否决摆动激发模式的充要判据，忽略了三轴形变软度、四极势阱非谐性及微观顺排对声子谐振关系的剧烈调制。"
+    }
+  ],
+  "constraints_and_boundaries": {
+    "user_apparatus_fabricated": false,
+    "user_experimental_data_fabricated": false,
+    "reading_scope_strictly_delimited": true,
+    "toy_simulation_rerun": false,
+    "write_scope_strictly_respected": [
+      "outputs/l3/20261108-doctoral-thesis-design/G60/report.md",
+      "outputs/l3/20261108-doctoral-thesis-design/G60/evidence.json"
+    ]
+  }
+}

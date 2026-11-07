@@ -3,7 +3,7 @@ type: source
 title: Band Structures of 131Ce
 aliases: [Alwaleedi 2013 131Ce thesis]
 created: 2026-07-27
-updated: 2026-10-26
+updated: 2026-11-08
 status: active
 review_status: unreviewed
 source_type: phd-thesis-experiment
@@ -24,6 +24,7 @@ zotero_uri:
 library_file:
 raw_file: raw/theses/degree-dissertation/Band structures of 131Ce.pdf
 raw_sha256: B50C22877418DE560F06002588BB46D34F5BA670C6880E30A89D1509C79AD8C1
+archive_required: true
 nuclei: [131ce]
 reactions: [100Mo(36S,5n)131Ce]
 experiments: [atlas-gammasphere-131ce-s36-165mev]
@@ -43,9 +44,19 @@ Mohammed Abdullah Alwaleedi，*Band Structures of 131Ce*，University of Liverpo
 
 - Completed reading_depth: deep-read。
 - Covered scope: 全文 97 页；实验与 angular intensity ratio 方法；Figure 4.1、Tables 4.1–4.7；crossings、alignments、configuration assignments、Tables 5.1–5.4、Figure 5.5 和 B(M1)/B(E2) 推导。
-- Coverage caveat: 当前环境缺少 PyMuPDF，标准 preparation bundle 未成功生成；采用 chapter/section/figure/table/equation locator，关键实验页、Figure 4.1 和 Table 5.3 已由 Poppler 渲染并视觉复核。
+- Coverage caveat: 早期读取时缺少PyMuPDF，未生成标准preparation bundle；
+  当时用chapter/section/figure/table/equation locator及Poppler视觉核关键图表。
+  2026-11-08设计研究已用PyMuPDF回读实际页，不将早期环境限制当当前缺少原件。
 - Not covered: 本数据集没有寿命、绝对 B(E2)、线偏振或直接形变测量。
 - 2026-09-05 re-read: 复核 Abstract、Chapter 4 Figure 4.1/Tables 4.1–4.7、Chapter 5 Tables 5.1–5.4/Figure 5.5；确认 Bands 1–7、`δ=0`、Band 2 parity conflict 和 Band 5 duplicated `e⊗AEFG` mapping 与现有 source 记录一致，未发现需要改变 claim wording 的新证据。
+
+2026-11-08章节设计选读：G59核目录及理论/实验/结果选页；
+总控回PDF1、11–12、30、54、79、89–91。
+重点是式(2.25)连续/离散频率、式(3.7)本装置角度比、
+Harris参考和式(5.6)的δ假设。§5.3在PDF90/印刷86，
+不沿G59工作稿错误的PDF86定位。
+样本观察只支持具体设计建议，不推断全篇未讨论某个模式或总体写作质量。
+见[[doctoral-thesis-sample-reading-design-findings-20261108]]。
 
 ## Paper Question and Scientific Motivation
 

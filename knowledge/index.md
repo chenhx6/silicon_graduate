@@ -7,6 +7,15 @@ updated: 2026-11-08
 
 # Wiki Index
 
+## 博士论文设计研究：从样本到可执行的写作合同
+
+- [[doctoral-thesis-architecture-and-section-map-20261108]] — 总控选定五章/39节工作结构、来源包、附录/图表和实际派发边界。
+- [[doctoral-thesis-argument-and-writer-contract-20261108]] — 读者/科学标准、先修图和通用writer合同；不是正文模板清单。
+- [[doctoral-thesis-high-risk-section-contracts-20261108]] — 六份具体原件/推导合同，覆盖形状、惯量、模式、反演、八极及两翼。
+- [[doctoral-thesis-sample-reading-design-findings-20261108]] — 五份学位样本的选读、可保留写法、待补台阶与不能扩大之处；硕士/博士分别记录。
+
+第一阶段R1–R3已收束并发布；当前做设计与合同验收，尚未清空A130或起草正文。
+
 ## 博士前置 R3：原始基础、解释能力与就绪证据
 
 - [[doctoral-r3-readiness-evidence-matrix-20261108]] — 六区、21项主题和七项条件的逐项依据，区分基础充分与前沿未决。

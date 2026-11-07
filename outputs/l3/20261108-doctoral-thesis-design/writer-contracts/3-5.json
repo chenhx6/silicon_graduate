@@ -1,0 +1,53 @@
+{
+  "contract_status": "design-reviewed; manuscript execution not started",
+  "model": "antigravity/gemini-3.8-flash-tiered",
+  "reasoning_effort": "high",
+  "leader": "parent owns scientific and architectural decisions",
+  "canonical_architecture": "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md",
+  "canonical_common_contract": "knowledge/research-notes/doctoral-thesis-argument-and-writer-contract-20261108.md",
+  "canonical_filled_contracts": "knowledge/research-notes/doctoral-thesis-high-risk-section-contracts-20261108.md",
+  "current_write_permission": "Only assigned outputs rehearsal receipt; no raw manuscript writes during design goal",
+  "future_execution_requires": "Parent activates manuscript milestone after exact A130 protection/replacement procedure; this stored packet alone does not execute or authorize workers to clear directories",
+  "draft_language": "Simplified Chinese, coherent academic prose with bounded imaginative entry, no imitation of a specific work",
+  "required_return": [
+    "section argument skeleton",
+    "source/locator list and actual reading boundary",
+    "notation/units/assumptions",
+    "strongest rival and discriminating observable",
+    "figure provenance plan",
+    "reader self-check",
+    "unknown inputs and any contract defects"
+  ],
+  "prohibited": [
+    "fabricated personal experiment or result",
+    "universal delta/gamma/W.u. thresholds",
+    "bare worker JSON or abstract treated as full text",
+    "silent replacement of historical/printed ambiguities",
+    "claiming complete original producer or detector response without inputs"
+  ],
+  "section_id": "3.5",
+  "title": "手征几何、隧穿与有限核态",
+  "filled_contract": "F03",
+  "specific_source_inputs": [
+    {
+      "source_page": "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+      "locator": "PDF13–18,26–27"
+    },
+    {
+      "source_page": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "locator": "relevant quantum rotation conventions; use source reading boundary"
+    }
+  ],
+  "acceptance_focus": [
+    "antiunitary C=T Ry(pi), C²=+1",
+    "no phase-invariant ordinary chiral +/- eigenvalue",
+    "geometric reference versus finite laboratory state",
+    "conditional tunneling and EM rivals; no unique proof from near degeneracy",
+    "Declared y axis need not be the actual rotation axis",
+    "Signature is conditional on the stated Hamiltonian symmetry; not universal to chiral/TAC partners",
+    "No invented universal S(I); use the actual source definition"
+  ],
+  "future_draft_path": "raw/writing/gpt/A130/research-draft/section-3-5.md",
+  "current_rehearsal_path": "outputs/l3/20261108-doctoral-thesis-design/G62/contract-rehearsal.md",
+  "review_boundary": "Reception and outline are not scientific approval; parent verifies each consequential claim"
+}

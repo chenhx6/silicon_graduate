@@ -1,0 +1,156 @@
+{
+  "task_id": "DESIGN-G61",
+  "task_date": "2026-11-08",
+  "role": "controller_preliminary_thesis_design",
+  "target_deliverable": "Doctoral dissertation front matter / preliminary chapters design candidates",
+  "disclaimer": "This document and the accompanying report provide structural design candidates and writing contracts. They do not claim empirically validated reader effectiveness or global bibliographic novelty. No student original data or contributions are fabricated.",
+  "scope_boundaries": {
+    "a130_status": "unchanged_as_anchor",
+    "personal_research_contribution": "strictly_abstracted_interfaces_only",
+    "files_written": [
+      "outputs/l3/20261108-doctoral-thesis-design/G61/report.md",
+      "outputs/l3/20261108-doctoral-thesis-design/G61/evidence.json"
+    ]
+  },
+  "foundational_literature_grounding": [
+    {
+      "key": "bohr-1952-surface-particle-coupling",
+      "locator": "K. Dan. Vidensk. Selsk. Mat. Fys. Medd. 26, no. 14, pp. 9-21",
+      "contribution": "Core transformation from laboratory coordinates to intrinsic Euler angles and quadrupole shape invariants"
+    },
+    {
+      "key": "bohr-mottelson-1953-collective-individual-original",
+      "locator": "K. Dan. Vidensk. Selsk. Mat. Fys. Medd. 27, no. 16, pp. 1-34",
+      "contribution": "Unified collective rotational Hamiltonian, irrotational flow inertia limits vs experimental spectra"
+    },
+    {
+      "key": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "locator": "Annu. Rev. Nucl. Part. Sci. 36, 683-716",
+      "contribution": "Model-independent quadrupole shape invariant formalism (q2, q3, cos 3gamma)"
+    },
+    {
+      "key": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "locator": "Peking University Doctoral Dissertation, Fig. 2.8, Appendix dead-time model",
+      "contribution": "Digital pulse processing, CFD filter response, joint coincidence live-time constraints"
+    }
+  ],
+  "candidate_architectures": {
+    "scheme_1": {
+      "name": "Microscopic Causal Forward Chain",
+      "chain": "Occupancy -> Residual Force & Inertia -> PES & Shapes -> Collective Excitations -> Observables",
+      "cognitive_burden": "High (second quantization, micro-many-body theory)",
+      "vulnerability": "Late contact with experimental spectra; risk of abstract mathematical isolation"
+    },
+    "scheme_2": {
+      "name": "Experimental Inverse Problem Chain",
+      "chain": "Radiation Detection & Digital DAQ -> Level Schemes & Lifetimes -> Matrix Elements & Invariants -> Hamiltonian Inversion -> Microscopic Origin",
+      "cognitive_burden": "Medium (nuclear electronics, gamma spectroscopy data reduction)",
+      "vulnerability": "Fragmented hardware minutiae early on; delayed symmetry foundation"
+    },
+    "scheme_3": {
+      "name": "Symmetry Breaking & Regional Paradigm Evolution Chain",
+      "chain": "Spherical SO(3) Breaking -> Axial Rotors -> Triaxial Discrete D2 Breaking -> Reflection P Breaking -> Six-region Paradigm Shift",
+      "cognitive_burden": "Very High (tensor geometry, spontaneous symmetry breaking, group theory)",
+      "vulnerability": "Oversimplification of nuclear details into macro-philosophical concepts without quantitative uncertainty"
+    },
+    "recommended_hybrid": {
+      "name": "Two-way Convergent Three-Tier Architecture",
+      "tier_1": "Chapter 1: Global Nuclear Collective Excitation & Symmetry Breaking Panoramas",
+      "tier_2": "Chapter 2: Microscopic Interactions to Collective Dynamics (Forward Causal Engine)",
+      "tier_3": "Chapter 3: In-beam Gamma Spectroscopy Inversion Chain & Measurement Contracts (Empirical Reverse Engine)",
+      "result_interface": "Standard modular input/output contracts for downstream Chapters 4+"
+    }
+  },
+  "core_and_wings_balance": {
+    "primary_core_triaxiality_wobbling_chirality": {
+      "depth_weight": "50% - 55%",
+      "focal_topics": [
+        "Davydov-Filippov and Wilets-Jean collective models",
+        "PRM and TAC particle-rotor dynamics",
+        "Transverse and longitudinal wobbling phonon physics",
+        "Elena Lawrie 7-dimensional TiP discrimination criteria",
+        "Chiral doublet bands and spontaneous non-planar rotation"
+      ]
+    },
+    "wing_1_octupole_reflection_asymmetry": {
+      "depth_weight": "20% - 25%",
+      "focal_topics": [
+        "Delta l = Delta j = 3 coherent orbital coupling",
+        "Alternating parity bands and parity doublets",
+        "Intrinsic electric dipole moment |D0| extraction and enhanced E1",
+        "Simultaneous chiral and octupole symmetry breaking"
+      ]
+    },
+    "wing_2_isomers_weak_decay_shell_evolution": {
+      "depth_weight": "20% - 25%",
+      "focal_topics": [
+        "Seniority algebra B(E2) cancellation at half-filled shell",
+        "K-isomer reduced hindrance f_nu and triaxial-induced K-mixing",
+        "Gamow-Teller quenching (gA/gV)_eff and beta-delayed emission",
+        "0vbb matrix elements sensitivity to deformation and pairing",
+        "Monopole-tensor driven shell evolution and reaction survival"
+      ]
+    }
+  },
+  "six_regions_comparative_matrix": [
+    {
+      "region": "A~60",
+      "cases": ["64Ge", "68Ni"],
+      "key_condition": "Crossing N=40 harmonic oscillator shell; soft quadrupole potential; discrete 2-state coexistence vs anharmonic vibrator"
+    },
+    {
+      "region": "A~80",
+      "cases": ["74Kr", "76Kr", "78Br"],
+      "key_condition": "Both protons and neutrons occupying 1g9/2; prolate-oblate dual minima; multistep Coulomb excitation interference"
+    },
+    {
+      "region": "A~100",
+      "cases": ["98Zr", "102Ru"],
+      "key_condition": "pi(1g9/2)-nu(1g7/2) tensor monopole interaction; Type-II shell evolution; abrupt spherical-to-deformed phase change"
+    },
+    {
+      "region": "A~130",
+      "cases": ["130Ba", "135Nd"],
+      "key_condition": "Anchor region; pi(1h11/2) particle at shell bottom, nu(1h11/2) hole at shell top; stable triaxiality (gamma~20-30 deg); wobbling and chirality"
+    },
+    {
+      "region": "A~160",
+      "cases": ["163Lu", "178W"],
+      "key_condition": "Intruder nu(1i13/2); high level density; triaxial superdeformation (TSD) with large wobbling phonon energy vs stable axial rotor high-K traps"
+    },
+    {
+      "region": "A~190",
+      "cases": ["186Hg", "186Os", "193Ir"],
+      "key_condition": "Close to Z=82; nu(1i13/2) at top of shell; oblate ground states with prolate intruder states; K-hindrance breakdown via triaxiality"
+    }
+  ],
+  "result_chapter_interfaces": {
+    "interface_1_theoretical_solver": "Provides strictly constrained PRM/TAC/5DCH solver with frozen core parameters, leaving slots for candidate's quasiparticle configuration",
+    "interface_2_experimental_pipeline": "Delivers verified coincidence matrix processing, delta dual-root grid likelihood inversion, and DSAM/RDDS Doppler analysis tools",
+    "interface_3_hypothesis_arbitration": "Delivers mathematical discrimination equations (e.g. wobbling vs gamma-band, chiral vs near-degeneracy) for direct empirical input"
+  },
+  "narrative_guidelines": {
+    "principle": "Lucid, grounded, disciplined scientific explanations using classical analogies immediately bounded by quantum mechanics",
+    "prohibitions": [
+      "No sci-fi literary borrowing (e.g. no Three-Body Problem terminology, characters, or tones)",
+      "No psychological fiction of historical scientists",
+      "No hyperbolic popular science melodrama"
+    ],
+    "hooks_count": 6
+  },
+  "writer_contract_schema": [
+    "Claim",
+    "Locator",
+    "Conditions",
+    "Rival Explanations",
+    "Data Provenance",
+    "Reader Self-check"
+  ],
+  "counter_examples_analyzed": [
+    "Confusing zero laboratory expectation of 0+ state with spherical shape",
+    "Treating single-point average gamma=30 as rigid Davydov triaxiality",
+    "Arbitrating wobbling phonon mode solely on multipole mixing ratio delta value",
+    "Inferring invariant nuclear core shape from single flat B(E2) across spin",
+    "Conflating DAQ bit width/single-channel live time with true coincidence purity"
+  ]
+}

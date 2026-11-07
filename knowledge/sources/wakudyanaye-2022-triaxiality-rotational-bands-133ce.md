@@ -4,7 +4,7 @@ title: "Wakudyanaye 2022：133Ce三轴性与转动带硕士论文"
 title_original: "Triaxiality and Rotational Bands in 133Ce"
 aliases: [Wakudyanaye 2022 133Ce thesis, 133Ce硕士论文]
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-11-08
 status: ai-draft
 review_status: unreviewed
 source_type: masters-thesis
@@ -17,6 +17,7 @@ citation_key: "wakudyanaye_2022_133ce-triaxiality-rotational"
 canonical_source: "raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf"
 raw_file: "raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf"
 raw_sha256: "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080"
+archive_required: true
 nuclei: [133ce, 131ba]
 models: [QTR, Nilsson, BCS, frozen-alignment]
 methods: [gamma-coincidence, angular-distribution, signature-splitting]
@@ -36,6 +37,13 @@ Ignasio Wakudyanaye，*Triaxiality and Rotational Bands in 133Ce*，University o
 Covered：两实验来源/实际装置、Band1–4符合逻辑、AD与DCO/RAD区别、g7/2 signature/Coriolis主线、h11/2 TiP/FA主线、QTR basis/程序分工、逐线δ/两类相对B分母、图表内部差异与实际输入缺口。Not covered：引用74篇原件的独立全文、作者GAMPN/ASYMO/PROBMO版本与输入卡/输出、原event/效率/AD/P/协方差、目录/参考逐条中文翻译、用户独立数据重分析。
 
 `deep-read`表示本source主线和关键证据达到相应阅读深度；不表示用户要求的长期深入学习已完成。后续分析蓝本、推导、核对、反证及可复现练习在[[133ce-thesis-analysis-blueprint]]持续推进。
+
+2026-11-08设计选读：G59核目录和理论/实验/结果选页，
+总控回PDF1、6–8、44、47、59。该原件为2022年3月硕士论文，
+不能计为博士样本。PDF44明确高自旋摆动近似边界，
+不接受工作稿“作者未交代”的过宽评价；PDF59的RAD若要量化残余角关联，
+须有实际响应，不由设计讨论宣判其数据错误。
+具体可保留写法和待补读者台阶见[[doctoral-thesis-sample-reading-design-findings-20261108]]。
 
 ## Summary
 

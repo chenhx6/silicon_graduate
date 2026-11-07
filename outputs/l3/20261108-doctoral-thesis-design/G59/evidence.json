@@ -1,0 +1,143 @@
+{
+  "task": "DESIGN-G59",
+  "date": "2026-11-08",
+  "objective": "A~130三轴与高自旋博士论文架构设计研究与写作合同（前置基础至个人问题衔接、结构模板与跳步审计）",
+  "samples": {
+    "alwaleedi_2013": {
+      "raw_file": "raw/theses/degree-dissertation/Band structures of 131Ce.pdf",
+      "raw_sha256": "b50c22877418de560f06002588bb46d34f5ba670c6880e30a89d1509c79ad8c1",
+      "author": "Mohammed Abdullah Alwaleedi",
+      "title": "Band structures of 131Ce",
+      "institution": "University of Liverpool, Oliver Lodge Laboratory",
+      "degree": "Doctor in Philosophy (PhD)",
+      "year": 2013,
+      "total_pages": 97,
+      "page_mapping": "printed_page = pdf_page - 4",
+      "reading_scope": {
+        "toc": "PDF pp. 11-12 (printed pp. 7-8)",
+        "foundation_pre_matter": "PDF pp. 20, 30, 32, 34, 54 (printed pp. 16, 26, 28, 30, 50)",
+        "personal_results_transition": "PDF pp. 55-56, 78-79 (printed pp. 51-52, 74-75)",
+        "total_body_pages_read": 10,
+        "disclaimer": "严格局部选读，未重做物理精读，不声明通读全篇"
+      },
+      "preserved_evidence_chains": [
+        {
+          "id": "AW13-PRE-1",
+          "topic": "角度强度比（Angular Intensity Ratio）对多极性判据的实测标定",
+          "locator": "PDF p. 54 (printed p. 50), §3.11, Eq. (3.7); PDF pp. 63-69 (printed pp. 59-65), Tables 4.1-4.7",
+          "reason": "定义145°/35°与90°环探测器强度比R=Iγ(145°/35°)/Iγ(90°)，给出纯伸展偶极(~0.5)与纯伸展四极(~1.0)基准，直接约束纲图中能级跃迁的自旋与宇称。"
+        },
+        {
+          "id": "AW13-PRE-2",
+          "topic": "实验准粒子顺排量与Harris转动参考系的显式扣除",
+          "locator": "PDF p. 79 (printed p. 75), §5.1, Eqs. (5.1)-(5.2); Table 5.1",
+          "reason": "明确给出ix(ω) = Ix(ω) - Ix,ref(ω)公式，采用偶偶邻核130Ce超导S带Harris参数(J0, J1)建立转动惯量基准，把实验室能级E(I)清晰映射到转动频率ħω=Eγ/2与准粒子Routhian平面。"
+        }
+      ],
+      "prerequisite_gaps_and_jump_steps": [
+        {
+          "id": "AW13-GAP-1",
+          "kind": "公式推导跳步（微分算符到离散级联跃迁）",
+          "locator": "PDF p. 30 (printed p. 26), §2.9.2, Eq. (2.25)",
+          "details": "直接给出ħω = dE/dIx = Eγ/2，未定义Ix = √[(I+1/2)² - K²]，未区分ΔI=2四极带内跃迁与ΔI=1偶极跃迁的能量差差分关系，造成连续转动微积分到离散跃迁的先修跳步。"
+        },
+        {
+          "id": "AW13-GAP-2",
+          "kind": "竞争解释不足与未申明的物理假设边界",
+          "locator": "PDF p. 86 (printed p. 82), §5.3, Eqs. (5.6)-(5.7), Table 5.4",
+          "details": "在计算B(M1)/B(E2)比值时直接假定E2/M1混合比δ=0，未讨论δ非零时的系统性高估（|δ|~0.5时高估达25%），且未对可能的三轴摆动或剪刀手征竞争解释进行对比讨论。"
+        }
+      ]
+    },
+    "wakudyanaye_2022": {
+      "raw_file": "raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+      "raw_sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+      "author": "Ignasio Wakudyanaye",
+      "title": "Triaxiality and Rotational Bands in 133Ce",
+      "institution": "University of the Western Cape, Department of Physics and Astronomy",
+      "degree": "Magister Scientiae (MSc)",
+      "year": 2022,
+      "date": "March 2022",
+      "supervisors": [
+        "Dr. Elena A. Lawrie (iThemba LABS)",
+        "Prof José N. Orce (UWC)"
+      ],
+      "total_pages": 130,
+      "page_mapping": "printed_page = pdf_page - 11",
+      "reading_scope": {
+        "toc": "PDF pp. 6-8 (printed pp. v-vii)",
+        "foundation_pre_matter": "PDF pp. 36-37, 43-44, 47, 58 (printed pp. 25-26, 32-33, 36, 47)",
+        "personal_results_transition": "PDF pp. 60-61, 75-76 (printed pp. 49-50, 64-65)",
+        "total_body_pages_read": 11,
+        "disclaimer": "严格局部选读，未重做物理精读，不声明通读全篇"
+      },
+      "preserved_evidence_chains": [
+        {
+          "id": "WK22-PRE-1",
+          "topic": "三轴转子强耦合D2点群对称基与BCS准粒子规范表述",
+          "locator": "PDF p. 47 (printed p. 36), §3.3.1, Eq. (3.17)",
+          "reason": "给出满足D2空间反演与180°体轴旋转的对称波函数基矢|IMKν⟩，严格约束K-Ω为偶整数，并将单粒子产生算符代换为BCS准粒子，为非轴转子对角化提供严格数学表述。"
+        },
+        {
+          "id": "WK22-PRE-2",
+          "topic": "重叠门与平行支路的多重符合谱学拓扑逻辑",
+          "locator": "PDF p. 57 (printed p. 46), §4.6, Fig. 4.3; PDF pp. 62-63 (printed pp. 51-52), §5.2.2.1, Fig. 5.2",
+          "reason": "以608 keV双峰重叠门及871/936 keV互斥门为例，清晰展示从探测器符合计数峰到能级级联平行与串联拓扑逻辑的严格归纳推理，是谱学实验章节的优秀范例。"
+        }
+      ],
+      "prerequisite_gaps_and_jump_steps": [
+        {
+          "id": "WK22-GAP-1",
+          "kind": "宏观唯象摆动声子公式向微观数值QTR对角化的过渡跳步",
+          "locator": "PDF p. 44 (printed p. 33), §3.2.2, Eqs. (3.11)-(3.12) 至 PDF p. 47 (printed p. 36), §3.3.1",
+          "details": "在给出高自旋谐振子摆动唯象B(E2)正比于n/I的公式后，直接跳到三轴QTR多轨道对角化，未向读者交代低自旋非谐性、有限费米子轨道阻塞如何破坏1/I渐近规律，造成唯象声子与微观多轨道模型的概念脱节。"
+        },
+        {
+          "id": "WK22-GAP-2",
+          "kind": "实测角关联比（RAD）全探测器门消去假设的几何边界未闭合",
+          "locator": "PDF p. 59 (printed p. 48), §4.7.2, Eq. (4.6)",
+          "details": "宣称采用全探测器符合门（all-detectors gate）时RAD比值不依赖门跃迁多极性，但未给出AFRODITE阵列13个clover环分布（45°/90°/135°）在非4π立体角下的有限接收度修正与高阶张量残余检验。"
+        }
+      ]
+    }
+  },
+  "comparative_architecture": {
+    "common_template": [
+      "绪论（核区背景、核素物理问题、研究目的）",
+      "理论基础（壳模型、Nilsson单粒子势、转动与Coriolis耦合、准粒子顺排）",
+      "实验技术（重离子熔合蒸发反应、HPGe/Clover探测阵列、γ-γ符合、多极性判据）",
+      "实验结果（能级纲图、带结构、相对强度与能量分支）",
+      "讨论与解释（顺排、旋称劈裂、势能面/QTR模型计算、电磁跃迁比）",
+      "结论与展望"
+    ],
+    "divergences": {
+      "theoretical_depth": "Alwaleedi采用经典一维推转壳模型（CSM）与Woods-Saxon轴对称极小值，三轴性仅作为定性扰动讨论；Wakudyanaye设立独立的《三轴性》理论章，深入展开APRM、TiP、摆动运动声子动力学与QTR微观多轨道对角化。",
+      "discussion_structure": "Alwaleedi按正负宇称组织带结构，重在顺排带交叉与准粒子标定；Wakudyanaye按物理机制拆分为Part I（正宇称g7/2旋称劈裂与Coriolis衰减）与Part II（负宇称h11/2倾斜进动TiP、冷冻顺排FA与微观九轨道电磁比值检验）。"
+    }
+  },
+  "concept_dependency_architecture": {
+    "must_introduce_first": [
+      "实验室与内禀参考系变换、多极形变参量化（β2, γ及Lund约定）、D2点群离散对称性",
+      "形变场中的单粒子运动（Nilsson哈密顿量、自旋-轨道耦合、高j反常宇称轨道νh11/2/πh11/2与正常宇称轨道νg7/2）",
+      "核旋转与Coriolis相互作用、强耦合（DAL）与顺排耦合（RAL）两极限定理、旋称（Signature α, r）定义",
+      "在束核反应激发与去激发动力学、符合矩阵/立体门扣除方法、角分布/方向角关联（DCO/RAD/强度比）与多极混合比δ"
+    ],
+    "can_defer_to_appendices": [
+      "Wigner D-矩阵具体代数展开与Clebsch-Gordan系数表",
+      "数字采集电子学模块电路细节、滤波算法参数与死时间统计公式推导",
+      "未指定能级归属的弱γ跃迁能量强度测量原始普查表",
+      "历史遗留三轴转子程序（GAMPN/ASYMO/PROBMO）输入卡与控制参数字段规范"
+    ],
+    "review_contents_to_exclude": [
+      "脱离形变核体系的早期液滴模型纯经验质量公式（Bethe-Weizsäcker）详尽推导",
+      "普通半导体物理中与HPGe波形/能量分辨率无直接关联的p-n结漂移输运教科书段落",
+      "与A~130中等质量区三轴/高自旋完全无关的超重核合成动力学或球形重核裂变模型",
+      "A~150/190轴对称超形变（SD）历史发现细节（除非作为TSD三轴超形变对比参照）"
+    ]
+  },
+  "extrapolation_boundaries": {
+    "personal_results_status": "UNKNOWN",
+    "sample_data_non_appropriation": "样本中131Ce（Bands 1-7）与133Ce（Bands 1-4）的实验纲图、跃迁能量、顺排频率及QTR拟合曲线严格属于样本作者及合作组实验产物，绝非用户个人研究成果；新论文的个人实验核素、纲图数据与模型结果严格保持未知。",
+    "analysis_scope_limitation": "本研究仅针对博士论文前置理论、实验技术到个人问题的宏观叙事衔接与目录架构进行契约化设计，不涉及论文正文撰写与A130实证数据修改。"
+  }
+}

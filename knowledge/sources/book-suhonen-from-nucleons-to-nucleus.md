@@ -3,7 +3,7 @@ type: source
 title: "Jouni Suhonen 2007 - From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory"
 aliases: [Suhonen2007, Suhonen微观核理论, 从核子到原子核]
 created: 2026-11-01
-updated: 2026-11-07
+updated: 2026-11-08
 status: ai-draft
 review_status: unreviewed
 source_type: book
@@ -108,3 +108,16 @@ P0: none identified in this scoped unit。P1：公式相位受 `ls/sl` 与 CS/BR
 本轮独立比较约化元的模方，并以 CG/Gaunt 展开和 6j 重耦合核对；
 不能将只检验模方写成所有有符号相位已经认证。相关长期笔记为
 [[octupole-orbital-eligibility-and-collectivity-boundary-20261107]]。
+
+## 2026-11-08 弱算符与设计换算的定向回读
+
+- T07及总控核印刷541–543/PDF552–554的Eqs.(17.63)–(17.74)，
+  用于指定单体算符的Ikeda差和；不把总物理流或有限Q窗沿用为同一和。
+- 设计阶段总控再核PDF44–45/印刷29–30及PDF133–136/印刷118–121，
+  分别为Wigner–Eckart、率/寿命、算符单位和数值换算。
+  本书不同部分的物理/印刷页偏移不同，不能用一个全书常数。
+- Eq.(6.13)列基本常数，Eq.(6.14)才给实用率形式。
+  以所印圆整数重建E2系数约1.2250×10⁹，对应MeV、e²fm⁴与s⁻¹，
+  不是在该系数后再乘ħ或ln2。IC在本章明确不展开，不能冒引它为分支/ICC公式来源。
+- 具体合同与单位边界见[[doctoral-thesis-high-risk-section-contracts-20261108]] F04。
+  未重做完整电磁场量子化、原实验或其它未读章节。

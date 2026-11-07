@@ -7,6 +7,15 @@ updated: 2026-11-08
 
 # Knowledge Base Health Dashboard
 
+## 2026-11-08：博士论文架构设计研究
+
+[[doctoral-thesis-architecture-and-section-map-20261108]]给出总控选择的五章/39节工作结构，
+配套通用/六个重点合同、先修图与来源包。
+[[doctoral-thesis-sample-reading-design-findings-20261108]]将五份学位样本的观察与设计建议分开，
+不由少量样本概括全部博士论文。
+第一阶段goal已在R3发布核对后完成，当前goal为设计研究与合同；
+A130的34原文件继续保留，正文writer尚未启动。
+
 ## 2026-11-08：博士前置 R3 的原件与解释复盘
 
 [[doctoral-r3-readiness-evidence-matrix-20261108]]逐项连接六区、21个主题与七项准备条件；

@@ -1,0 +1,126 @@
+{
+  "update_returncode": 0,
+  "collection": "nuclear-knowledge",
+  "mode": "BM25 text only",
+  "embeddings_requested": false,
+  "explicit_cleanup_requested": false,
+  "queries": [
+    {
+      "query": "doctoral thesis architecture section map",
+      "returncode": 0,
+      "results": [
+        {
+          "docid": "#602165",
+          "score": 0.95,
+          "file": "qmd://nuclear-knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md?index=wiki",
+          "line": 4,
+          "title": "由问题驱动的前置五章：定义、机制、证据与实验互相回扣",
+          "snippet": "@@ -3,4 @@ (2 before, 226 after)\ntitle: \"博士论文设计：选定架构、39节证据映射与正文派发合同\"\naliases: [doctoral thesis architecture and section map]\ncreated: 2026-11-08\nupdated: 2026-11-08"
+        },
+        {
+          "docid": "#49e276",
+          "score": 0.94,
+          "file": "qmd://nuclear-knowledge/projects/doctoral-nuclear-structure-foundations.md?index=wiki",
+          "line": 26,
+          "title": "博士论文前置研究：从核子运动到可测量的形变信息",
+          "snippet": "@@ -25,4 @@ (24 before, 182 after)\n当前active goal是总控主理的章节设计与节级合同：\n[[doctoral-thesis-architecture-and-section-map-20261108]]选定五章/39节工作结构；\n[[doctoral-thesis-sample-reading-design-findings-20261108]]保存五份学位样本的观察。\n尚未清空A130或写正文，设计不代替后续逐段原件核验。"
+        },
+        {
+          "docid": "#22bda2",
+          "score": 0.94,
+          "file": "qmd://nuclear-knowledge/research-notes/doctoral-thesis-argument-and-writer-contract-20261108.md?index=wiki",
+          "line": 13,
+          "title": "先规定读者要学会怎样判断，再安排章节",
+          "snippet": "@@ -12,4 @@ (11 before, 178 after)\nevidence_sources: [bohr-1952-surface-particle-coupling, bohr-mottelson-1953-collective-individual-original, wu-hongyi-2020-general-purpose-digital-daq-thesis, cline-1986-nuclear-shapes-coulomb-excitation]\ntags: [doctoral-thesis, architecture, pedagogy, writing-contract, nuclear-structure]\n---\n"
+        },
+        {
+          "docid": "#0288e2",
+          "score": 0.94,
+          "file": "qmd://nuclear-knowledge/overview.md?index=wiki",
+          "line": 12,
+          "title": "Knowledge Base Health Dashboard",
+          "snippet": "@@ -11,4 @@ (10 before, 402 after)\n\n[[doctoral-thesis-architecture-and-section-map-20261108]]给出总控选择的五章/39节工作结构，\n配套通用/六个重点合同、先修图与来源包。\n[[doctoral-thesis-sample-reading-design-findings-20261108]]将五份学位样本的观察与设计建议分开，"
+        }
+      ],
+      "stderr": ""
+    },
+    {
+      "query": "doctoral thesis high risk section contracts",
+      "returncode": 0,
+      "results": [
+        {
+          "docid": "#1ca1f2",
+          "score": 0.95,
+          "file": "qmd://nuclear-knowledge/research-notes/doctoral-thesis-high-risk-section-contracts-20261108.md?index=wiki",
+          "line": 4,
+          "title": "不让熟悉的名词掩盖论证缺口",
+          "snippet": "@@ -3,4 @@ (2 before, 205 after)\ntitle: \"博士论文设计：六个易误写环节的原件与推导合同\"\naliases: [doctoral thesis high risk section contracts]\ncreated: 2026-11-08\nupdated: 2026-11-08"
+        },
+        {
+          "docid": "#602165",
+          "score": 0.93,
+          "file": "qmd://nuclear-knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md?index=wiki",
+          "line": 77,
+          "title": "由问题驱动的前置五章：定义、机制、证据与实验互相回扣",
+          "snippet": "@@ -76,4 @@ (75 before, 153 after)\n每节同时继承[[doctoral-thesis-argument-and-writer-contract-20261108]]的完整字段，\n以及[[doctoral-thesis-high-risk-section-contracts-20261108]]中指定F合同：\nF01有限核形状、F02占据/配对/惯量、F03模式、F04实验反演、F05八极/反射、\nF06异能/弱/反应。"
+        },
+        {
+          "docid": "#1d2084",
+          "score": 0.93,
+          "file": "qmd://nuclear-knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md?index=wiki",
+          "line": 122,
+          "title": "Jouni Suhonen 2007 - From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory",
+          "snippet": "@@ -121,4 @@ (120 before, 0 after)\n  不是在该系数后再乘ħ或ln2。IC在本章明确不展开，不能冒引它为分支/ICC公式来源。\n- 具体合同与单位边界见[[doctoral-thesis-high-risk-section-contracts-20261108]] F04。\n  未重做完整电磁场量子化、原实验或其它未读章节。\n"
+        },
+        {
+          "docid": "#dd5132",
+          "score": 0.91,
+          "file": "qmd://nuclear-knowledge/index.md?index=wiki",
+          "line": 14,
+          "title": "Wiki Index",
+          "snippet": "@@ -13,4 @@ (12 before, 1903 after)\n- [[doctoral-thesis-argument-and-writer-contract-20261108]] — 读者/科学标准、先修图和通用writer合同；不是正文模板清单。\n- [[doctoral-thesis-high-risk-section-contracts-20261108]] — 六份具体原件/推导合同，覆盖形状、惯量、模式、反演、八极及两翼。\n- [[doctoral-thesis-sample-reading-design-findings-20261108]] — 五份学位样本的选读、可保留写法、待补台阶与不能扩大之处；硕士/博士分别记录。\n"
+        }
+      ],
+      "stderr": ""
+    },
+    {
+      "query": "doctoral thesis sample reading design findings",
+      "returncode": 0,
+      "results": [
+        {
+          "docid": "#5f341d",
+          "score": 0.95,
+          "file": "qmd://nuclear-knowledge/research-notes/doctoral-thesis-sample-reading-design-findings-20261108.md?index=wiki",
+          "line": 4,
+          "title": "从具体段落决定怎样写，避免以样本证明预设",
+          "snippet": "@@ -3,4 @@ (2 before, 140 after)\ntitle: \"博士论文设计：五份学位样本的选读、可保留写法与待补台阶\"\naliases: [doctoral thesis sample reading design findings]\ncreated: 2026-11-08\nupdated: 2026-11-08"
+        },
+        {
+          "docid": "#49e276",
+          "score": 0.94,
+          "file": "qmd://nuclear-knowledge/projects/doctoral-nuclear-structure-foundations.md?index=wiki",
+          "line": 27,
+          "title": "博士论文前置研究：从核子运动到可测量的形变信息",
+          "snippet": "@@ -26,4 @@ (25 before, 181 after)\n[[doctoral-thesis-architecture-and-section-map-20261108]]选定五章/39节工作结构；\n[[doctoral-thesis-sample-reading-design-findings-20261108]]保存五份学位样本的观察。\n尚未清空A130或写正文，设计不代替后续逐段原件核验。\n"
+        },
+        {
+          "docid": "#985cf0",
+          "score": 0.93,
+          "file": "qmd://nuclear-knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md?index=wiki",
+          "line": 68,
+          "title": "刘晨 2016：`78Br` 手征与反射对称性破缺",
+          "snippet": "@@ -67,4 @@ (66 before, 111 after)\n本次未将综述段落中对其它核的历史评价重新认证为现代唯一结论。\n写作设计用途见[[doctoral-thesis-sample-reading-design-findings-20261108]]。\n\n- Completed reading_depth: `deep-read`。"
+        },
+        {
+          "docid": "#6edfac",
+          "score": 0.93,
+          "file": "qmd://nuclear-knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md?index=wiki",
+          "line": 66,
+          "title": "肖骁 2019：`74As` 高自旋态",
+          "snippet": "@@ -65,4 @@ (64 before, 113 after)\nPDF17图内/图题的反应符号差异仅记字面校对问题，不推断原因或判全实验错误。\n设计建议与原论文物理结果分开，见[[doctoral-thesis-sample-reading-design-findings-20261108]]。\n\n- Completed `reading_depth`: `deep-read`。"
+        }
+      ],
+      "stderr": ""
+    }
+  ]
+}

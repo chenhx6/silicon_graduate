@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-11-07T23:27:31.405002+00:00",
+  "section_count": 39,
+  "chapter_counts": [
+    5,
+    8,
+    8,
+    8,
+    10
+  ],
+  "section_ids_unique_and_complete": true,
+  "filled_F_contracts": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06"
+  ],
+  "concrete_writer_packets": [
+    "1.2",
+    "3.5",
+    "5.9"
+  ],
+  "current_raw_write_permission": false,
+  "boundary": "Routing/completeness check, not scientific or reader-effect validation"
+}

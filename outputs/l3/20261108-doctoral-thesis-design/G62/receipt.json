@@ -1,0 +1,133 @@
+{
+  "task": "DESIGN-G62",
+  "workspace": "/workspace/wiki",
+  "role": "writer-contract-recipient-argument-rehearsal",
+  "status": "completed",
+  "summary": "Successfully performed contract understanding and argumentative skeleton rehearsal for writer contract packets 1-2, 3-5, and 5-9 without drafting manuscript prose, modifying raw, or altering A130.",
+  "rehearsal_deliverables": [
+    "outputs/l3/20261108-doctoral-thesis-design/G62/contract-rehearsal.md",
+    "outputs/l3/20261108-doctoral-thesis-design/G62/receipt.json"
+  ],
+  "write_permission_enforcement": {
+    "current_write_permission": "Strictly outputs/l3/20261108-doctoral-thesis-design/G62/ only",
+    "future_draft_path_status": "Not granted; future draft_path in writer contracts is a placeholder and confers zero execution or writing authority",
+    "raw_integrity": "Unmodified",
+    "a130_status": "Untouched; no file writes or directory deletions performed"
+  },
+  "packages_rehearsed": [
+    {
+      "package_id": "1-2",
+      "section_id": "1.2",
+      "title": "核形状指哪一种对象",
+      "filled_contract": "F01",
+      "argument_steps_count": 5,
+      "acceptance_enforcement": "Strictly restricted to 0+ states; separated charge, matter, and intrinsic effective shape distributions; introduced scalar invariants Q^2 and Q^3 cos(3delta); demonstrated that weighted moments != unweighted angle with declared counterexample; metaphors bounded to avoid classical orientation delusions.",
+      "sources_locators": [
+        {
+          "source": "knowledge/sources/bohr-1952-surface-particle-coupling.md",
+          "locator": "pp.9–13,19–21"
+        },
+        {
+          "source": "knowledge/sources/cline-1986-nuclear-shapes-coulomb-excitation.md",
+          "locator": "printed 698 / PDF p.16"
+        },
+        {
+          "source": "knowledge/sources/poves-2020-limits-assigning-nuclear-shape.md",
+          "locator": "v2 PDF p.3 Eqs.(13)–(16)"
+        }
+      ],
+      "strongest_rival": "Perturbative spherical vibrational multiphonon hypothesis",
+      "reader_check": "Why does Q_s(0+)=0 not prove a rigid sphere, and what closed matrix element loops are required to distinguish dynamic fluctuations from rotational averaging of deformed states?",
+      "genuine_missing_inputs": "None for generic introductory section; user personal experimental data pending but not blocking this foundation chapter; requires only consistent isoscalar factor and effective charge convention in chapter frontmatter."
+    },
+    {
+      "package_id": "3-5",
+      "section_id": "3.5",
+      "title": "手征几何、隧穿与有限核态",
+      "filled_contract": "F03",
+      "argument_steps_count": 5,
+      "acceptance_enforcement": "Antiunitary C = T Ry(pi), C^2 = +1; no phase-invariant chiral +/- label due to rephasing lambda' = e^(-2iphi)*lambda; finite tunneling barrier restores symmetry into Delta I = 1 partner bands; identical parity only permits but does not guarantee strong coupling.",
+      "sources_locators": [
+        {
+          "source": "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+          "locator": "PDF pp.13–14, 26–27"
+        },
+        {
+          "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+          "locator": "printed 190–193"
+        },
+        {
+          "source": "knowledge/research-notes/doctoral-r3-quantum-labels-and-model-boundaries-20261108.md",
+          "locator": "§4"
+        }
+      ],
+      "strongest_rival": "Accidental near-degeneracy of non-chiral rotational bands (such as prolate-oblate crossings or distinct quasiparticle configurations)",
+      "reader_check": "Why do near-degenerate partner bands with identical I^pi not alone prove chirality, and why can antiunitary C not define a gauge-invariant +/- parity label?",
+      "genuine_missing_inputs": "None for generic mechanism section; detailed microscopic PES for specific nuclei (e.g. 78Br or 130Cs) deferred to Chapter 4 cross-region comparison without blocking Chapter 3 theoretical derivation."
+    },
+    {
+      "package_id": "5-9",
+      "section_id": "5.9",
+      "title": "由寿命、分支与内转换到绝对电磁强度",
+      "filled_contract": "F04",
+      "argument_steps_count": 5,
+      "acceptance_enforcement": "Strictly distinguished mean lifetime tau and half-life T_1/2, energy width Gamma and decay rate lambda in s^-1, total branching b (including conversion) and relative photon intensity a; delta explicitly defined as photon emission amplitude ratio; B(sigma L) = partial photon rate / (C_sigma L * E^(2L+1)) with dimensional coefficient; no spurious hbar or ln2; same-parent lifetime cancellation vs cross-parent stopping-power covariance.",
+      "sources_locators": [
+        {
+          "source": "knowledge/sources/campaign-g07-gorgen-2004-163lu-quadrupole-moments.md",
+          "locator": "PDF pp.2–4, Tables I–II"
+        },
+        {
+          "source": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+          "locator": "printed 121–122 / PDF pp.3–4"
+        },
+        {
+          "source": "knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+          "locator": "printed 121–124"
+        },
+        {
+          "source": "knowledge/research-notes/doctoral-r3-daq-spectroscopy-inverse-20261108.md",
+          "locator": "§4"
+        }
+      ],
+      "strongest_rival": "Pure multipole and zero-conversion approximation assigning all decay lifetimes directly to B(E2) with uncorrected shape interpretations",
+      "reader_check": "Why must rate not be written as ln 2 / tau given mean lifetime tau, and how does mistaking relative photon intensity a_i for total branching b_i bias extracted B(E2) when alpha is non-negligible?",
+      "genuine_missing_inputs": "None for generic spectroscopy inverse algebra; array full-energy peak efficiency curves and stopping power tables for specific experimental setups pending but not blocking this foundation chapter."
+    }
+  ],
+  "actual_physical_pages_read": [
+    {
+      "source": "poves-2020",
+      "locator": "v2 PDF p.3",
+      "topic": "Eqs.(13)-(16), mass vs charge quadrupole definition, angle variance"
+    },
+    {
+      "source": "cline-1986",
+      "locator": "printed 698 / PDF p.16",
+      "topic": "principal frame tensor scalar invariants Q^2, Q^3 cos 3delta"
+    },
+    {
+      "source": "liu-chen-2016",
+      "locator": "PDF p.13",
+      "topic": "chirality introduction and mirror non-superimposable definition"
+    },
+    {
+      "source": "liu-chen-2016",
+      "locator": "PDF p.14",
+      "topic": "three orthogonal angular momenta, C = T Ry(pi), tunneling recovery"
+    },
+    {
+      "source": "lange-kumar-hamilton-1982",
+      "locator": "printed 121–122 / PDF pp.3–4",
+      "topic": "multipole mixing ratio delta as photon amplitude ratio, sign conventions"
+    },
+    {
+      "source": "gorgen-2004",
+      "locator": "PDF pp.2–3",
+      "topic": "Tables I and II, lifetime to B(E2), out-of-band branching correction"
+    }
+  ],
+  "unread_boundary": "Excluded full book/thesis chapters beyond declared 6 pages, full simulation/fitting source codes (GOSIA, Ultimate Cranker), hardware firmware/registers, and user private experimental data.",
+  "reader_verification_caveat": "Passing argumentative skeleton rehearsal indicates writer contract comprehension of scientific logic, definitions, and boundary constraints; it does NOT constitute pedagogical or cognitive verification of actual reader effects.",
+  "external_actions": "Zero git operations, zero sub-agent dispatches, zero credential inspections."
+}

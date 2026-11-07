@@ -7,7 +7,7 @@ updated: 2026-11-08
 status: active
 review_status: unreviewed
 research_status: active-L3
-project_stage: L3-foundations-with-bounded-L4-before-thesis-design
+project_stage: phase2-thesis-architecture-research
 confidentiality: public
 sources: [cline-1986-nuclear-shapes-coulomb-excitation, poves-2020-limits-assigning-nuclear-shape, henderson-2020-quadrupole-invariant-convergence, wu-hongyi-2020-general-purpose-digital-daq-thesis]
 tags: [doctoral-foundations, collective-excitation, triaxiality, cross-region, research-design]
@@ -19,13 +19,16 @@ tags: [doctoral-foundations, collective-excitation, triaxiality, cross-region, r
 
 ### Agent active summary
 
-R1 六区案例、R2惯量/配对与R3原始基础/解释检查已形成知识链。
-R3的逐项判断见[[doctoral-r3-readiness-evidence-matrix-20261108]]：
-基础已具备进入章节设计的条件，领域未决问题仍开放。
-本批执行验收与goal转换以R3最终回执为准；
-当前没有清空A130或启动论文正文，不以此矩阵代替后续逐段引用核验。
+R1–R3第一阶段已完成知识、原件/数值核验及授权发布，
+原生第一阶段goal已完成。六区/21主题/七项依据见
+[[doctoral-r3-readiness-evidence-matrix-20261108]]，领域未决问题仍开放。
+当前active goal是总控主理的章节设计与节级合同：
+[[doctoral-thesis-architecture-and-section-map-20261108]]选定五章/39节工作结构；
+[[doctoral-thesis-sample-reading-design-findings-20261108]]保存五份学位样本的观察。
+尚未清空A130或写正文，设计不代替后续逐段原件核验。
 
-用户要求先全力研学，再重建博士论文。当前阶段是核结构研究准备，不是正文扩写。
+用户要求先全力研学，再重建博士论文。第一阶段已收束，当前是章节设计研究，
+后续具体物理研学继续按问题推进。
 总控负责问题选择、基础推导、原件核查、跨区综合与最终就绪判断；
 Gemini Flash Tiered/high承担大部分分域研学；复杂理论交给Terra/xhigh。
 模型路由与产量不能代替正确性。原生goal于本会话创建，任务状态保持active。
@@ -41,7 +44,8 @@ Gemini Flash Tiered/high承担大部分分域研学；复杂理论交给Terra/xh
 
 用户对旧稿的不满是新的研究触发，旧“完成”“Master”等标签不构成准备充足的证据。
 `raw/writing/gpt/A130/`当前保留；已作只读逐文件哈希基线。
-用户已明确授权准备充分后清空该精确目录并重写，条件尚未到达。
+用户已明确授权准备充分后清空该精确目录并重写；
+基础准备条件已建立，当前先完成可执行章节设计，尚未实施目录替换。
 本阶段不触碰其它手稿，不修改用户拥有的`PLAN.md`，不改变daily课程或调度。
 这项普通专题研究没有凭空设定的每日15:00截止。
 
@@ -173,7 +177,7 @@ R3新增解释入口：
    叙事引子不替代推导，不虚构个人成果或实验经历。
 7. 总控完成分域原件抽查、推导/数值核验及整体缺口复盘后，再记录是否就绪。
 
-当前判断：**已具备进入章节设计的科学基础；本批发布/执行验收以R3最终回执为准。**
+当前判断：**第一阶段已验证发布并收束，正在完成章节设计研究。**
 尚未清空旧稿或起草正文。七项条件、21项主题和六区原件见证已逐项列出，
 不是“整个核结构都已研究完毕”的声明。
 就绪不是“把所有争议解决”；未决争议可以成为高质量综述的一部分，
@@ -189,10 +193,10 @@ Kumar1972全文、部分真实核的完整矩阵元/Cov、联合形状—取向�
 
 ## Next Actions
 
-完成R3来源归档、数值/路径/A130保护、检索及发布验收后，
-第一阶段可收束并转向总控主理的章节设计研究。
-先比较组织论证的方案、教材先修关系和已有学位论文的具体薄弱处，
-形成有来源的章节/节级写作合同，再让Gemini按合同写作。
+R3来源归档、数值/路径/A130保护、检索及发布验收已完成。
+设计研究已形成五章/39节工作结构、通用合同及六个重点推导合同；
+五份学位样本同时记录优点、可补台阶和外推边界。
+实际派发合同的接收演练、结构/归档与发布验收结束后，再下发正文里程碑。
 不预设用户个人实验经历或结果，也不在设计前用旧目录机械改名。
 具体未决物理继续以D9–D12等问题推进，可与写作准备并行；
 阶段转换不结束长期研学，不把未知LEC/完整Cov/所有producer当无限门。
@@ -201,3 +205,5 @@ R2在`outputs/l3/20261108-doctoral-foundations-r2/`；
 执行计划为`outputs/plans/20261108-doctoral-foundations.md`及R2计划。
 R3过程在`outputs/l3/20261108-doctoral-foundations-r3/`，
 执行计划`outputs/plans/20261108-doctoral-foundations-r3.md`。
+当前设计过程在`outputs/l3/20261108-doctoral-thesis-design/`，
+计划在`outputs/plans/20261108-doctoral-thesis-design.md`。
