@@ -1,0 +1,6 @@
+{
+  "command": "qmd update",
+  "exit": 0,
+  "scope": "single nuclear-knowledge collection at /workspace/wiki/knowledge",
+  "embeddings_requested": false
+}

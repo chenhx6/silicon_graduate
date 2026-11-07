@@ -1,0 +1,23 @@
+{
+  "task_id": "G36",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "requested_reasoning_effort": "high",
+  "agent_id": "01a1b73d-0032-7680-8e45-75a011c740fa",
+  "canonical_knowledge": "knowledge/research-notes/doctoral-r1-g36-superheavy-reaction-survival-20261108.md",
+  "scientific_state": "provisional with exact conditions and evidence boundaries",
+  "process_state": "worker returned; parent corrected/integrated; agent closed",
+  "parent_verification": [
+    "original identity and selected primary pages",
+    "scope archive and structural checks",
+    "explicit separation of reported/model/task inference"
+  ],
+  "checks_receipts": [
+    "outputs/l3/20261108-doctoral-foundations-r1/archive-gate-final.json",
+    "outputs/l3/20261108-doctoral-foundations-r1/scoped-structure-final.json"
+  ],
+  "telemetry_boundary": "Routing requested through the tool; no supplier billing/token total asserted",
+  "isolation": "Shared workspace with protocol-only disjoint prefixes, not a separate worktree or sandbox",
+  "goal_boundary": "Phase1 native goal active; no thesis chapter design or A130 clearing",
+  "updated_at": "2026-11-07T19:54:34.880797+00:00",
+  "artifact_role": "process provenance, not a numerical simulation or source dataset"
+}

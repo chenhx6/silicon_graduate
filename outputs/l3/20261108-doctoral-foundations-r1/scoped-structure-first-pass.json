@@ -1,0 +1,95 @@
+{
+  "pages": 31,
+  "issues": [
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync.md",
+      "message": "missing ## Summary"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync.md",
+      "message": "missing ## Competing Interpretations and Limitations"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync.md",
+      "message": "missing ## Extracted Pages"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing.md",
+      "message": "missing ## Summary"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing.md",
+      "message": "missing ## Competing Interpretations and Limitations"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing.md",
+      "message": "missing ## Extracted Pages"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/wu-2021-general-purpose-digital-daq-waveform-analysis.md",
+      "message": "missing ## Summary"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/wu-2021-general-purpose-digital-daq-waveform-analysis.md",
+      "message": "missing ## Competing Interpretations and Limitations"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/wu-2021-general-purpose-digital-daq-waveform-analysis.md",
+      "message": "missing ## Extracted Pages"
+    },
+    {
+      "severity": "error",
+      "code": "FIELD_REQUIRED",
+      "path": "knowledge/projects/doctoral-nuclear-structure-foundations.md",
+      "message": "missing project_stage"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/projects/doctoral-nuclear-structure-foundations.md",
+      "message": "missing ## Research Question"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/projects/doctoral-nuclear-structure-foundations.md",
+      "message": "missing ## Current Hypotheses"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/projects/doctoral-nuclear-structure-foundations.md",
+      "message": "missing ## Evidence Available"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/projects/doctoral-nuclear-structure-foundations.md",
+      "message": "missing ## Risks and Blockers"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/projects/doctoral-nuclear-structure-foundations.md",
+      "message": "missing ## Next Actions"
+    }
+  ]
+}

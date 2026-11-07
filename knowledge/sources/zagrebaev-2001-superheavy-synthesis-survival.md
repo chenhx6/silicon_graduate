@@ -1,28 +1,28 @@
 ---
 type: source
-title: "Zagrebaev et al. 2001 - Synthesis of superheavy nuclei: How accurately can we describe it and calculate the cross sections?"
+title: 'Zagrebaev et al. 2001 - Synthesis of superheavy nuclei: How accurately can we describe it and calculate the cross sections?'
 aliases: [Zagrebaev 2001 superheavy survival, superheavy multi-chance fission survival, ZAG01]
 created: 2026-10-30
-updated: 2026-11-07
+updated: '2026-11-08'
 status: active
 review_status: unreviewed
 source_type: journal-article
-reading_depth: skimmed
-title_original: "Synthesis of superheavy nuclei: How accurately can we describe it and calculate the cross sections?"
+reading_depth: read
+title_original: 'Synthesis of superheavy nuclei: How accurately can we describe it and calculate the cross sections?'
 authors: [V. I. Zagrebaev, Y. Aritomo, M. G. Itkis, Yu. Ts. Oganessian, M. Ohta]
 journal: Physical Review C
 year: 2001
 volume: 65
 issue: 1
-pages: "014607"
-doi: "10.1103/PhysRevC.65.014607"
-canonical_source: "https://doi.org/10.1103/PhysRevC.65.014607"
+pages: '014607'
+doi: 10.1103/PhysRevC.65.014607
+canonical_source: https://doi.org/10.1103/PhysRevC.65.014607
 citation_key: zagrebaev2001superheavy
-raw_file: "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.65.014607.pdf"
+raw_file: raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.65.014607.pdf
 raw_sha256: 0fbce3d3faded1e072ce25eeb8a758cabb81d54b2df2eee71f55efd1686116c8
 archive_required: true
 nuclei: [208pb, 248cm, 292114, 294116, 298114, 304120]
-reactions: ["48Ca + 248Cm -> 296-x 116 + xn", "48Ca + 244Pu -> 292-x 114 + xn"]
+reactions: [48Ca + 248Cm -> 296-x 116 + xn, 48Ca + 244Pu -> 292-x 114 + xn]
 experiments: [Dubna-FLNR-DGAS]
 models: [multidimensional-langevin, statistical-model, Bohr-Wheeler-fission, Ignatyuk-level-density]
 observables: [evaporation-residue-cross-section, survival-probability, fission-barrier, gamma-f-over-gamma-n]
@@ -62,8 +62,10 @@ PRC 65, 014607 (2001), DOI `10.1103/PhysRevC.65.014607`.
 
 ## Scope and Reading Depth
 
-- Completed reading_depth: `skimmed`；本轮为定向原读，不沿用历史全篇保证。
-- Covered scope: PDF p.1及pp.6–7的阶段分解、宽度、级联积分和相关说明；
+2026-11-08本轮回读：G36及总控核14页底本的PDF1、6–7、9、11，补看Fig6的254No存活自旋选择与Fig10的多输入比较。新下载副本与本canonical原件SHA完全相同；重复source并回本页。更具体的分波、级联概率和产额推理见[[doctoral-r1-g36-superheavy-reaction-survival-20261108]]；仍未重跑作者反应程序。
+
+- Completed reading_depth: `read`；2026-11-08补读PDF9/11并核Eq1/7–11；2026-11-07的skimmed为历史记录，仍不声称整篇逐项复现。
+- Covered scope: PDF p.1、pp.6–7、p.9 Fig6、p.11 Fig10的阶段分解、宽度、级联积分、存活自旋及多参数比较；
   全部14页仅额外检查图表题注，未据此宣称正文全读。
 - Not covered: 其余正文逐项核查、反应程序与参数敏感性重放。
 - Coverage caveats: 旧数值表的认证已撤回，以下记录用于追踪本任务认识修订。
@@ -107,3 +109,10 @@ PRC 65, 014607 (2001), DOI `10.1103/PhysRevC.65.014607`.
 
 本轮定向读取PDF p.1、pp.6–7并检查14页图表题注；未重做其它正文、
 数值程序或实验比较，后续按具体claim补核。
+
+## 2026-11-08 补充原件核查
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ZAG01-R1-1 | E*=25MeV的254No 2n剩余自旋明显窄于计算capture分波，存活概率不能无条件提出求和 | model-versus-cited-experiment | direct-original | PDF9 Fig6 | false |
+| ZAG01-R1-2 | Fig10用不同势垒/集体增强及形成假设比较4n单点；近对称裂变也可含QF，不能单点唯一反演势垒 | model-comparison-and-limitation | direct-original | PDF11 Fig10及正文 | false |

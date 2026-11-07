@@ -1,38 +1,39 @@
 ---
 type: source
-title: "吴鸿毅等 2021：基于数字化的通用获取系统及波形分析算法"
+title: 吴鸿毅等 2021：基于数字化的通用获取系统及波形分析算法
 aliases: [Wu 2021 GDDAQ article, digital DAQ waveform analysis 2021]
 created: 2026-09-11
-updated: 2026-09-11
+updated: '2026-11-08'
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-method
 reading_depth: read
-title_original: "基于数字化的通用获取系统及波形分析算法"
+title_original: 基于数字化的通用获取系统及波形分析算法
 authors: [吴鸿毅, 李智焕, 吴婧, 华辉, 王翔, 李湘庆, 徐川]
-journal: "科学通报"
+journal: 科学通报
 year: 2021
 volume: 66
 pages: 3553-3560
-doi: "10.1360/TB-2021-0552"
-arxiv:
+doi: 10.1360/TB-2021-0552
+arxiv: null
 language: zh/en
-canonical_source: "科学通报 66 (2021) 3553–3560"
-zotero_item_key:
+canonical_source: 科学通报 66 (2021) 3553–3560
+zotero_item_key: null
 citation_key: Wu_2021
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
-zotero_uri:
-library_file: "raw/theses/degree-dissertation/基于数字化的通用获取系统及波形分析算法.pdf"
-raw_file: "raw/theses/degree-dissertation/基于数字化的通用获取系统及波形分析算法.pdf"
-raw_sha256: "c1a2bd226faf52cef144d00463414906c9e44c779075fde57d66f5161a697820"
+zotero_uri: null
+library_file: raw/theses/degree-dissertation/基于数字化的通用获取系统及波形分析算法.pdf
+raw_file: raw/theses/degree-dissertation/基于数字化的通用获取系统及波形分析算法.pdf
+raw_sha256: c1a2bd226faf52cef144d00463414906c9e44c779075fde57d66f5161a697820
 nuclei: [219th, 210ra, 211ra]
-reactions: ["Ar+W"]
+reactions: [Ar+W]
 experiments: []
 models: []
 observables: [energy-resolution, count-rate, pile-up-separation, alpha-energy, internal-conversion-electron]
 methods: [digital-data-acquisition, Pixie-16, FPGA-trigger, CFD, waveform-decomposition]
 tags: [method, digital-daq, waveform-analysis, pile-up, degree-dissertation-batch, related-source]
+archive_required: true
 ---
 
 # 吴鸿毅等 2021：数字化通用获取系统与波形分析
@@ -42,6 +43,8 @@ tags: [method, digital-daq, waveform-analysis, pile-up, degree-dissertation-batc
 吴鸿毅、李智焕、吴婧、华辉、王翔、李湘庆、徐川，*基于数字化的通用获取系统及波形分析算法*，科学通报 66 (2021) 3553–3560，DOI `10.1360/TB-2021-0552`。这是期刊方法论文，不是学位论文；本批次把它作为吴鸿毅 2020 博士论文的 related/dependent source。原始 PDF 8 页，SHA-256 为 `c1a2bd226faf52cef144d00463414906c9e44c779075fde57d66f5161a697820`。
 
 ## Scope and Reading Depth
+
+2026-11-08本轮回读：总控核原PDF首页页码3553–3560及其与吴2020学位论文的依赖。此前新增的G32期刊source重复本作品，已并回本canonical页；物理响应链见[[doctoral-r1-g32-digital-daq-observable-chain-20261108]]。没有把同图/同测试计为独立复现。
 
 - Completed reading_depth: `read`。
 - Covered scope: 题名页、摘要与英文摘要（PDF pp.1–2）；数字 DAQ 架构、Pixie-16/MZTIO、同步与触发（pp.2–3，Figs.1–2）；数字滤波、CFD、离线参数优化（pp.2–4，Figs.3–4）；高计数率 HPGe 对比和 pile-up 应用（pp.4–6，Figs.5–7）；中文/英文总结及参考文献（pp.6–8）。关键视觉页面 PDF pp.1、3、5、8 已核对。

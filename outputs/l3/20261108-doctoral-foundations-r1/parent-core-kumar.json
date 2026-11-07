@@ -1,0 +1,7 @@
+{
+  "endpoint": "https://api.core.ac.uk/v3/search/works",
+  "query": "\"10.1103/PhysRevLett.28.249\"",
+  "retrieved_at": "2026-11-07T17:59:31.442185+00:00",
+  "status": 500,
+  "boundary": "CORE request failed; response not exposed"
+}

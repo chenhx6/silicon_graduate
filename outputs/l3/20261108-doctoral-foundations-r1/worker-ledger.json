@@ -1,0 +1,557 @@
+{
+  "updated_at": "2026-11-07T19:54:34.952255+00:00",
+  "native_goal_thread_id": "01a1b53d-130f-7f42-985b-7a51dbc9f8d0",
+  "native_goal_state": "active",
+  "task_date": "2026-11-08",
+  "gemini_tasks": 12,
+  "terra_tasks": 2,
+  "all_batch_agents_closed": true,
+  "isolation": "shared workspace; disjoint path contracts protocol-only",
+  "tasks": [
+    {
+      "id": "G26",
+      "scope": "A60 absolute E2 and configuration transfer",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "depends_on": [],
+      "read_paths": [
+        "assigned primary originals",
+        "source/research-note templates"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/doctoral-r1-g26-a60-collectivity-20261108.md",
+        "knowledge/sources/doctoral-r1-g26-*",
+        "outputs/l3/20261108-doctoral-foundations-r1/G26/",
+        "raw/papers/gpt/query/20261108-foundations-G26/"
+      ],
+      "permissions": [
+        "read",
+        "topic-search",
+        "append-originals",
+        "write-assigned-scope"
+      ],
+      "retry": {
+        "max": 2,
+        "parent_revision_history": "See native task transcript; several queued messages may belong to one returned turn. Parent completed remaining reconstruction locally."
+      },
+      "verification": "parent original-byte/identity/locator/algebra audit and scoped archive/structure checks",
+      "agent_id": "01a1b71c-9268-75f3-a5c3-018f7b984814",
+      "status": "returned-parent-integrated-closed",
+      "contract_sha256": "67daf0edc9ee00734a9837d153ad96a4f8d76d1cdd96bf6c07eeaa3075a50d81",
+      "contract_hash_kind": "normalized scope contract, not the complete prompt transcript",
+      "lifecycle": [
+        "planned",
+        "running",
+        "returned",
+        "parent-audited",
+        "closed"
+      ],
+      "close_boundary": "Agent report had returned; close tool saw a queued follow-up running. Parent reconstructed the final assigned scope after closure."
+    },
+    {
+      "id": "G27",
+      "scope": "A80 signed CoulEx network",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "depends_on": [],
+      "read_paths": [
+        "assigned primary originals",
+        "source/research-note templates"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/doctoral-r1-g27-a80-shape-coexistence-20261108.md",
+        "knowledge/sources/doctoral-r1-g27-*",
+        "outputs/l3/20261108-doctoral-foundations-r1/G27/",
+        "raw/papers/gpt/query/20261108-foundations-G27/"
+      ],
+      "permissions": [
+        "read",
+        "topic-search",
+        "append-originals",
+        "write-assigned-scope"
+      ],
+      "retry": {
+        "max": 2,
+        "parent_revision_history": "See native task transcript; several queued messages may belong to one returned turn. Parent completed remaining reconstruction locally."
+      },
+      "verification": "parent original-byte/identity/locator/algebra audit and scoped archive/structure checks",
+      "agent_id": "01a1b71c-fea9-7d00-8112-998431fcf6b2",
+      "status": "returned-parent-integrated-closed",
+      "contract_sha256": "4d0495f55a33ae11db1fbe740e50c0020c8a4147d3946df985e6b934565e3a37",
+      "contract_hash_kind": "normalized scope contract, not the complete prompt transcript",
+      "lifecycle": [
+        "planned",
+        "running",
+        "returned",
+        "parent-audited",
+        "closed"
+      ]
+    },
+    {
+      "id": "G28",
+      "scope": "A100 Zr occupancy feedback",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "depends_on": [],
+      "read_paths": [
+        "assigned primary originals",
+        "source/research-note templates"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/doctoral-r1-g28-a100-shell-shape-20261108.md",
+        "knowledge/sources/doctoral-r1-g28-*",
+        "outputs/l3/20261108-doctoral-foundations-r1/G28/",
+        "raw/papers/gpt/query/20261108-foundations-G28/"
+      ],
+      "permissions": [
+        "read",
+        "topic-search",
+        "append-originals",
+        "write-assigned-scope"
+      ],
+      "retry": {
+        "max": 2,
+        "parent_revision_history": "See native task transcript; several queued messages may belong to one returned turn. Parent completed remaining reconstruction locally."
+      },
+      "verification": "parent original-byte/identity/locator/algebra audit and scoped archive/structure checks",
+      "agent_id": "01a1b71d-666d-75e2-aaf4-fb21c287f583",
+      "status": "returned-parent-integrated-closed",
+      "contract_sha256": "82a6ca491b4fb7a433e8748e60fc3b99e8d3b80f0e7e15f7509ce68dfdc66dbb",
+      "contract_hash_kind": "normalized scope contract, not the complete prompt transcript",
+      "lifecycle": [
+        "planned",
+        "running",
+        "returned",
+        "parent-audited",
+        "closed"
+      ]
+    },
+    {
+      "id": "G29",
+      "scope": "A130 core-orientation coupling",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "depends_on": [],
+      "read_paths": [
+        "assigned primary originals",
+        "source/research-note templates"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/doctoral-r1-g29-a130-core-orientation-20261108.md",
+        "knowledge/sources/doctoral-r1-g29-*",
+        "outputs/l3/20261108-doctoral-foundations-r1/G29/",
+        "raw/papers/gpt/query/20261108-foundations-G29/"
+      ],
+      "permissions": [
+        "read",
+        "topic-search",
+        "append-originals",
+        "write-assigned-scope"
+      ],
+      "retry": {
+        "max": 2,
+        "parent_revision_history": "See native task transcript; several queued messages may belong to one returned turn. Parent completed remaining reconstruction locally."
+      },
+      "verification": "parent original-byte/identity/locator/algebra audit and scoped archive/structure checks",
+      "agent_id": "01a1b71d-ced3-78d0-826a-eb122a34e3dd",
+      "status": "returned-parent-integrated-closed",
+      "contract_sha256": "822eba06a6eafd24ee1454357fc24c811b852edfdd205cfd2f1f78d420bfcbf9",
+      "contract_hash_kind": "normalized scope contract, not the complete prompt transcript",
+      "lifecycle": [
+        "planned",
+        "running",
+        "returned",
+        "parent-audited",
+        "closed"
+      ],
+      "close_boundary": "Agent report had returned; close tool saw a queued follow-up running. Parent reconstructed the final assigned scope after closure."
+    },
+    {
+      "id": "G30",
+      "scope": "rare-earth precession and wobbling contracts",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "depends_on": [],
+      "read_paths": [
+        "assigned primary originals",
+        "source/research-note templates"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/doctoral-r1-g30-a160-precession-wobbling-20261108.md",
+        "knowledge/sources/doctoral-r1-g30-*",
+        "outputs/l3/20261108-doctoral-foundations-r1/G30/",
+        "raw/papers/gpt/query/20261108-foundations-G30/"
+      ],
+      "permissions": [
+        "read",
+        "topic-search",
+        "append-originals",
+        "write-assigned-scope"
+      ],
+      "retry": {
+        "max": 2,
+        "parent_revision_history": "See native task transcript; several queued messages may belong to one returned turn. Parent completed remaining reconstruction locally."
+      },
+      "verification": "parent original-byte/identity/locator/algebra audit and scoped archive/structure checks",
+      "agent_id": "01a1b71e-30a7-7b72-b7f4-e6ff4d04e15b",
+      "status": "returned-parent-integrated-closed",
+      "contract_sha256": "924f3b6fb7736c797abbd1ec0ce4de69f62c97cd428b9eee5b77f806c08823d4",
+      "contract_hash_kind": "normalized scope contract, not the complete prompt transcript",
+      "lifecycle": [
+        "planned",
+        "running",
+        "returned",
+        "parent-audited",
+        "closed"
+      ]
+    },
+    {
+      "id": "G31",
+      "scope": "A190 Hg signed charge-shape network",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "depends_on": [],
+      "read_paths": [
+        "assigned primary originals",
+        "source/research-note templates"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/doctoral-r1-g31-a190-charge-shape-20261108.md",
+        "knowledge/sources/doctoral-r1-g31-*",
+        "outputs/l3/20261108-doctoral-foundations-r1/G31/",
+        "raw/papers/gpt/query/20261108-foundations-G31/"
+      ],
+      "permissions": [
+        "read",
+        "topic-search",
+        "append-originals",
+        "write-assigned-scope"
+      ],
+      "retry": {
+        "max": 2,
+        "parent_revision_history": "See native task transcript; several queued messages may belong to one returned turn. Parent completed remaining reconstruction locally."
+      },
+      "verification": "parent original-byte/identity/locator/algebra audit and scoped archive/structure checks",
+      "agent_id": "01a1b734-0fd8-7802-ad9b-084199c39c74",
+      "status": "returned-parent-integrated-closed",
+      "contract_sha256": "0a235677e9dbc5b07c866c4f3d9008bb2d5309b13f4c6e9cf3b6caccd652c8e6",
+      "contract_hash_kind": "normalized scope contract, not the complete prompt transcript",
+      "lifecycle": [
+        "planned",
+        "running",
+        "returned",
+        "parent-audited",
+        "closed"
+      ]
+    },
+    {
+      "id": "G32",
+      "scope": "Wu digital DAQ and observable response",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "depends_on": [],
+      "read_paths": [
+        "assigned primary originals",
+        "source/research-note templates"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/doctoral-r1-g32-digital-daq-observable-chain-20261108.md",
+        "knowledge/sources/doctoral-r1-g32-*",
+        "outputs/l3/20261108-doctoral-foundations-r1/G32/",
+        "raw/papers/gpt/query/20261108-foundations-G32/"
+      ],
+      "permissions": [
+        "read",
+        "topic-search",
+        "append-originals",
+        "write-assigned-scope"
+      ],
+      "retry": {
+        "max": 2,
+        "parent_revision_history": "See native task transcript; several queued messages may belong to one returned turn. Parent completed remaining reconstruction locally."
+      },
+      "verification": "parent original-byte/identity/locator/algebra audit and scoped archive/structure checks",
+      "agent_id": "01a1b726-b747-71e1-83ec-73b1cb987334",
+      "status": "returned-parent-integrated-closed",
+      "contract_sha256": "50ecb297cd5e9bafe76be0886fe9d12a29c94f0b8afc6e415b5797e97dd9db65",
+      "contract_hash_kind": "normalized scope contract, not the complete prompt transcript",
+      "lifecycle": [
+        "planned",
+        "running",
+        "returned",
+        "parent-audited",
+        "closed"
+      ]
+    },
+    {
+      "id": "G33",
+      "scope": "thermal isomer coupling and plasma",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "depends_on": [],
+      "read_paths": [
+        "assigned primary originals",
+        "source/research-note templates"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/doctoral-r1-g33-thermal-isomer-network-20261108.md",
+        "knowledge/sources/doctoral-r1-g33-*",
+        "outputs/l3/20261108-doctoral-foundations-r1/G33/",
+        "raw/papers/gpt/query/20261108-foundations-G33/"
+      ],
+      "permissions": [
+        "read",
+        "topic-search",
+        "append-originals",
+        "write-assigned-scope"
+      ],
+      "retry": {
+        "max": 2,
+        "parent_revision_history": "See native task transcript; several queued messages may belong to one returned turn. Parent completed remaining reconstruction locally."
+      },
+      "verification": "parent original-byte/identity/locator/algebra audit and scoped archive/structure checks",
+      "agent_id": "01a1b748-d330-7d01-99f0-d4e70cd26ae0",
+      "status": "returned-parent-integrated-closed",
+      "contract_sha256": "fe73d6d06379a32cfc15467ca3b29518b31dd2bca345331918fa96b453bf4aa4",
+      "contract_hash_kind": "normalized scope contract, not the complete prompt transcript",
+      "lifecycle": [
+        "planned",
+        "running",
+        "returned",
+        "parent-audited",
+        "closed"
+      ]
+    },
+    {
+      "id": "G34",
+      "scope": "GT and first-forbidden operator model",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "depends_on": [],
+      "read_paths": [
+        "assigned primary originals",
+        "source/research-note templates"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/doctoral-r1-g34-gt-first-forbidden-common-operator-20261108.md",
+        "knowledge/sources/doctoral-r1-g34-*",
+        "outputs/l3/20261108-doctoral-foundations-r1/G34/",
+        "raw/papers/gpt/query/20261108-foundations-G34/"
+      ],
+      "permissions": [
+        "read",
+        "topic-search",
+        "append-originals",
+        "write-assigned-scope"
+      ],
+      "retry": {
+        "max": 2,
+        "parent_revision_history": "See native task transcript; several queued messages may belong to one returned turn. Parent completed remaining reconstruction locally."
+      },
+      "verification": "parent original-byte/identity/locator/algebra audit and scoped archive/structure checks",
+      "agent_id": "01a1b737-709b-7583-8f01-0970d225b11e",
+      "status": "returned-parent-integrated-closed",
+      "contract_sha256": "326495301331c54070c6163d49d2345bb0d262682814111821f7bac97c6b7bce",
+      "contract_hash_kind": "normalized scope contract, not the complete prompt transcript",
+      "lifecycle": [
+        "planned",
+        "running",
+        "returned",
+        "parent-audited",
+        "closed"
+      ]
+    },
+    {
+      "id": "G35",
+      "scope": "deformation and pairing in double beta matrix elements",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "depends_on": [],
+      "read_paths": [
+        "assigned primary originals",
+        "source/research-note templates"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/doctoral-r1-g35-deformation-pairing-double-beta-20261108.md",
+        "knowledge/sources/doctoral-r1-g35-*",
+        "outputs/l3/20261108-doctoral-foundations-r1/G35/",
+        "raw/papers/gpt/query/20261108-foundations-G35/"
+      ],
+      "permissions": [
+        "read",
+        "topic-search",
+        "append-originals",
+        "write-assigned-scope"
+      ],
+      "retry": {
+        "max": 2,
+        "parent_revision_history": "See native task transcript; several queued messages may belong to one returned turn. Parent completed remaining reconstruction locally."
+      },
+      "verification": "parent original-byte/identity/locator/algebra audit and scoped archive/structure checks",
+      "agent_id": "01a1b739-b670-7c23-b541-442106866aa0",
+      "status": "returned-parent-integrated-closed",
+      "contract_sha256": "b14277420e18c41a8534355e1174feecee9a5b2438334407a3e191705b231efd",
+      "contract_hash_kind": "normalized scope contract, not the complete prompt transcript",
+      "lifecycle": [
+        "planned",
+        "running",
+        "returned",
+        "parent-audited",
+        "closed"
+      ]
+    },
+    {
+      "id": "G36",
+      "scope": "partial-wave formation and survival",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "depends_on": [],
+      "read_paths": [
+        "assigned primary originals",
+        "source/research-note templates"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/doctoral-r1-g36-superheavy-reaction-survival-20261108.md",
+        "knowledge/sources/doctoral-r1-g36-*",
+        "outputs/l3/20261108-doctoral-foundations-r1/G36/",
+        "raw/papers/gpt/query/20261108-foundations-G36/"
+      ],
+      "permissions": [
+        "read",
+        "topic-search",
+        "append-originals",
+        "write-assigned-scope"
+      ],
+      "retry": {
+        "max": 2,
+        "parent_revision_history": "See native task transcript; several queued messages may belong to one returned turn. Parent completed remaining reconstruction locally."
+      },
+      "verification": "parent original-byte/identity/locator/algebra audit and scoped archive/structure checks",
+      "agent_id": "01a1b73d-0032-7680-8e45-75a011c740fa",
+      "status": "returned-parent-integrated-closed",
+      "contract_sha256": "187391954dc8a6596501fde155d4d304306053257b17f8b2e71baeed3cb522f1",
+      "contract_hash_kind": "normalized scope contract, not the complete prompt transcript",
+      "lifecycle": [
+        "planned",
+        "running",
+        "returned",
+        "parent-audited",
+        "closed"
+      ]
+    },
+    {
+      "id": "G37",
+      "scope": "shape-orientation coupling history",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "depends_on": [],
+      "read_paths": [
+        "assigned primary originals",
+        "source/research-note templates"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/doctoral-r1-g37-shape-orientation-coupling-history-20261108.md",
+        "knowledge/sources/doctoral-r1-g37-*",
+        "outputs/l3/20261108-doctoral-foundations-r1/G37/",
+        "raw/papers/gpt/query/20261108-foundations-G37/"
+      ],
+      "permissions": [
+        "read",
+        "topic-search",
+        "append-originals",
+        "write-assigned-scope"
+      ],
+      "retry": {
+        "max": 2,
+        "parent_revision_history": "See native task transcript; several queued messages may belong to one returned turn. Parent completed remaining reconstruction locally."
+      },
+      "verification": "parent original-byte/identity/locator/algebra audit and scoped archive/structure checks",
+      "agent_id": "01a1b75b-57d7-79d1-9296-e69b30ff2e93",
+      "status": "returned-parent-integrated-closed",
+      "contract_sha256": "152e38cc2f0e27c216ec66f1f4b0dfe707dfccaf6113ce11d883ea185540cc14",
+      "contract_hash_kind": "normalized scope contract, not the complete prompt transcript",
+      "lifecycle": [
+        "planned",
+        "running",
+        "returned",
+        "parent-audited",
+        "closed"
+      ]
+    },
+    {
+      "id": "T03",
+      "scope": "shape moments and dynamical identifiability",
+      "model": "codex/gpt-6.1-terra",
+      "reasoning_effort": "xhigh",
+      "depends_on": [],
+      "read_paths": [
+        "assigned primary originals",
+        "source/research-note templates"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/doctoral-r1-t03-shape-invariants-and-softness-20261108.md",
+        "system/scripts/quadrupole_softness_identifiability.py",
+        "outputs/l4/20261108-shape-softness-identifiability/"
+      ],
+      "permissions": [
+        "read",
+        "topic-search",
+        "append-originals",
+        "write-assigned-scope"
+      ],
+      "retry": {
+        "max": 2,
+        "parent_revision_history": "See native task transcript; several queued messages may belong to one returned turn. Parent completed remaining reconstruction locally."
+      },
+      "verification": "parent original-byte/identity/locator/algebra audit and scoped archive/structure checks",
+      "agent_id": "01a1b71e-a7ad-7103-8ed5-6b15361b3a28",
+      "status": "returned-parent-integrated-closed",
+      "contract_sha256": "48774aa5002edda611a98792b810e8eba3099fdf09589c3ae26b6ba39c69e0b5",
+      "contract_hash_kind": "normalized scope contract, not the complete prompt transcript",
+      "lifecycle": [
+        "planned",
+        "running",
+        "returned",
+        "parent-audited",
+        "closed"
+      ]
+    },
+    {
+      "id": "T04",
+      "scope": "independent first-forbidden original-equation audit",
+      "model": "codex/gpt-6.1-terra",
+      "reasoning_effort": "xhigh",
+      "depends_on": [],
+      "read_paths": [
+        "assigned primary originals",
+        "source/research-note templates"
+      ],
+      "write_paths": [
+        "knowledge/research-notes/doctoral-r1-t04-first-forbidden-operator-audit-20261108.md",
+        "outputs/l3/20261108-doctoral-foundations-r1/T04/"
+      ],
+      "permissions": [
+        "read",
+        "topic-search",
+        "append-originals",
+        "write-assigned-scope"
+      ],
+      "retry": {
+        "max": 2,
+        "parent_revision_history": "See native task transcript; several queued messages may belong to one returned turn. Parent completed remaining reconstruction locally."
+      },
+      "verification": "parent original-byte/identity/locator/algebra audit and scoped archive/structure checks",
+      "agent_id": "01a1b74c-e95e-7e13-a03a-f45ca161328a",
+      "status": "returned-parent-integrated-closed",
+      "contract_sha256": "98032a2ebf4b2af116d9c6c9774a9cde67ec43a34da50c78224496de7cea874f",
+      "contract_hash_kind": "normalized scope contract, not the complete prompt transcript",
+      "lifecycle": [
+        "planned",
+        "running",
+        "returned",
+        "parent-audited",
+        "closed"
+      ]
+    }
+  ]
+}

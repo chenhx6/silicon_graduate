@@ -1,0 +1,7 @@
+{
+  "command": "qmd update, then two BM25 searches",
+  "exit": 0,
+  "scope": "knowledge only",
+  "embeddings_requested": false,
+  "cleanup_requested": false
+}

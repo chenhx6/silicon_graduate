@@ -3,6 +3,18 @@ graph-excluded: true
 updated: 2026-11-08
 ---
 
+## 2026-11-08 — 博士前置研学 R1（活动goal，继续第一阶段）
+
+- 用户要求先全力研学A≈60–190集体/核芯形变及一核两翼，再由总控主理博士论文章节设计、Gemini依详细合同写作；吴鸿毅数字电子学纳入前置。原生goal已创建并保持active，本批里程碑不等于目标完成。canonical项目knowledge/projects/doctoral-nuclear-structure-foundations.md；跨区综合six-region-shape-and-collective-dynamics-foundations；问题登记doctoral-foundations-research-question-register-20261108。
+- R1共12 Gemini Tiered/high（G26–G37）与2 Terra/xhigh（T03/T04），均回传并关闭。多数初稿经总控原件抽查后缩减重建；已撤整区禁戒、任意δ/角宽/W.u.阈值、理论列冒充实验、方向/统计权混淆及不实遥测。请求路由不能当供应商账单。worker-ledger和final-report在outputs/l3/20261108-doctoral-foundations-r1/。
+- 知识层新增20 source（含Kumar1972题录边界）、16研究笔记、1综合、1项目；扩读3个既有source与index。Wu2021和Zagrebaev2001已合回canonical，不保留重复source。Otsuka综述为Physics2022,4,258–285，DOI10.3390/physics4010018；已取得独立出版商28页主原件，2023书籍重印保留companion。Hennig正确DOI10.1016/j.nimb.2007.04.181，Lipschutz为10.1016/j.nima.2016.01.050。
+- T03有正确Bohr测度的形状/谱控制与PNG/PDF/SVG；15项控制通过。G32由总控重建PZC增益、解析CFD参考及采样检查，7项通过；2 producer/9产物哈希一致，CSV LF/SVG解析通过。原G32硬编码657.2238ns与手填时间未保留为事实。全部为模型，不是用户硬件或实核拟合。
+- T04独立核Zhi2013原件/静态TeX：实际14页、TableI20行；端点、GT含gA、FF多rank、拟合/留出与两行表内疑点已写回。没有核最终出版勘误，不猜修正数。G33区分单支电子增强和整体网络瓶颈；G35区分粒子数涨落坐标与能隙；G36保三阶段近似/逐分波；G37核Oi2001和Bhat2025，后者13页、前者质量公式因子2疑点及定性四态不可当CPQ或实验发现。
+- 验证：23 source/15 collection归档门0失败；局部science结构41页通过；整库lint129 errors/466 warnings，较基线129/446新增error=0、20空citation_key警告，不伪造键。QMD仅文本更新38新/4更新，BM25命中问题登记/模型说明；没有embed/cleanup。Preflight、边界通过。最终发布及post-commit reconciliation以本批publication-final-receipt.local.json为准，不把历史review标记作资格门。
+- 保护：raw/writing/gpt/A130原34文件SHA全同，未增删。准备充分后清空该精确目录的用户条件授权仍有效，当前未达到阶段2；未写论文章节或目录。PLAN、用户原件、凭据、get-paper、其它手稿与daily课程/调度不改。实际UTC时钟与11月8日专题会话日期差异在回执保留；5个worker manifest用本地观测/重哈希schema修复，原metadata字节保存，不猜远程下载时刻。
+- 下一步继续当前goal，优先微观集体惯量、配对与时间奇响应，连接已核的形状—取向框架；不要重复闭合的seniority/角向toy，也不要把仍开放Cov/producer或Kumar全文缺口转成用户确认。论文设计就绪按项目解释/证据条件判，不能要求先解决所有开放争议。
+- 稳定提交指针：main / research: connect nuclear shapes and collective dynamics；精确hash、push与post-commit reconciliation仅写任务回执。
+
 ## 2026-11-08 — 六区续接：原有效E1、同态观测与共同模型
 
 - 按用户Gemini主力配置，派发12个Gemini/high与1个Terra/xhigh，含两项窄独立复核；G20/G21各返工一轮。本批worker均已回传并关闭。请求路由由工具接受，不冒称主会话配置已改变或统计到真实token余额。

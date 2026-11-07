@@ -1,0 +1,15 @@
+{
+  "merges": [
+    {
+      "removed_new_draft": "knowledge/sources/doctoral-r1-g32-wu-hongyi-2021-gddaq-science-bulletin.md",
+      "canonical": "knowledge/sources/wu-2021-general-purpose-digital-daq-waveform-analysis.md",
+      "basis": "same work and identical raw artifact"
+    },
+    {
+      "removed_new_draft": "knowledge/sources/doctoral-r1-g36-zagrebaev-2001-prc-superheavy-synthesis.md",
+      "canonical": "knowledge/sources/zagrebaev-2001-superheavy-synthesis-survival.md",
+      "basis": "same DOI and identical PDF bytes at existing archive path"
+    }
+  ],
+  "raw_artifacts": "All original PDFs retained; duplicate download bytes were not removed or overwritten."
+}

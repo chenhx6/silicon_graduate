@@ -1,0 +1,46 @@
+[
+  {
+    "query": "doctoral foundations question register",
+    "exit": 0,
+    "results": [
+      {
+        "docid": "#a14cab",
+        "score": 0.94,
+        "file": "qmd://nuclear-knowledge/research-notes/doctoral-foundations-research-question-register-20261108.md?index=wiki",
+        "line": 4,
+        "title": "不按模式名称找空白，按可区分问题推进",
+        "snippet": "@@ -3,4 @@ (2 before, 122 after)\ntitle: \"博士前置研学的问题登记：从开放发散到可区分的研究\"\naliases: [doctoral foundations question register, 前置研学问题登记]\ncreated: 2026-11-08\nupdated: 2026-11-08"
+      },
+      {
+        "docid": "#bdb5ba",
+        "score": 0.93,
+        "file": "qmd://nuclear-knowledge/synthesis/six-region-shape-and-collective-dynamics-foundations.md?index=wiki",
+        "line": 28,
+        "title": "从占据到观测：六区为什么相似，又为什么不同",
+        "snippet": "@@ -27,4 @@ (26 before, 140 after)\n博士论文的研究准备见[[doctoral-nuclear-structure-foundations]]，\n候选而非已发现物理见[[doctoral-foundations-research-question-register-20261108]]。\n\n## Evidence Matrix"
+      },
+      {
+        "docid": "#06e937",
+        "score": 0.93,
+        "file": "qmd://nuclear-knowledge/projects/doctoral-nuclear-structure-foundations.md?index=wiki",
+        "line": 139,
+        "title": "博士论文前置研究：从核子运动到可测量的形变信息",
+        "snippet": "@@ -138,4 @@ (137 before, 36 after)\n候选、反方、输入可得性和失败/转向合同见\n[[doctoral-foundations-research-question-register-20261108]]，不以推测数量计完成度。\n\n## 进入论文设计的准备条件"
+      }
+    ]
+  },
+  {
+    "query": "shape-versus-dynamics",
+    "exit": 0,
+    "results": [
+      {
+        "docid": "#681798",
+        "score": 0.82,
+        "file": "qmd://nuclear-knowledge/research-notes/doctoral-r1-t03-shape-invariants-and-softness-20261108.md?index=wiki",
+        "line": 115,
+        "title": "T03：四极矩、γ 动力学及其可识别边界",
+        "snippet": "@@ -114,4 @@ (113 before, 59 after)\n\n![固定β模型的γ概率密度与低能0⁺谱](../../outputs/l4/20261108-shape-softness-identifiability/shape-versus-dynamics.png)\n\n左图画的是含Jacobian的\\(p(\\gamma)=3\\sin3\\gamma\\,|\\psi(\\cos3\\gamma)|^2\\)，"
+      }
+    ]
+  }
+]

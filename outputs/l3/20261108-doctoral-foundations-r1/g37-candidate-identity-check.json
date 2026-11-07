@@ -1,0 +1,49 @@
+[
+  {
+    "identifier": "nucl-th/0107051",
+    "url": "https://arxiv.org/abs/nucl-th/0107051",
+    "status": 200,
+    "fields": {
+      "citation_title": [
+        "Wobbling motion coupled to gamma vibration at high spin"
+      ],
+      "citation_author": [
+        "Oi, Makito",
+        "Walker, Philip M."
+      ],
+      "citation_doi": [],
+      "citation_arxiv_id": [
+        "nucl-th/0107051"
+      ],
+      "citation_date": [
+        "2001/07/17"
+      ]
+    },
+    "retrieved_at": "2026-11-07T18:53:31.659979+00:00"
+  },
+  {
+    "identifier": "2503.09204",
+    "url": "https://arxiv.org/abs/2503.09204",
+    "status": 200,
+    "fields": {
+      "citation_title": [
+        "Microscopic investigation of wobbling motion in even-even nuclei"
+      ],
+      "citation_author": [
+        "Bhat, S. A.",
+        "Jehangir, S.",
+        "Bhat, G. H.",
+        "Sheikh, J. A.",
+        "Vakil, G. B."
+      ],
+      "citation_doi": [],
+      "citation_arxiv_id": [
+        "2503.09204"
+      ],
+      "citation_date": [
+        "2025/03/12"
+      ]
+    },
+    "retrieved_at": "2026-11-07T18:53:31.022159+00:00"
+  }
+]

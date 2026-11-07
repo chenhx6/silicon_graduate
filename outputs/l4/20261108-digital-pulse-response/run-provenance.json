@@ -1,0 +1,81 @@
+{
+  "task_id": "doctoral-foundations-r1-G32",
+  "created_at": "2026-11-07T18:36:19.312620+00:00",
+  "command": "python3 system/scripts/doctoral_g32_digital_pulse_response.py",
+  "script_sha256": "bd70a7db208b62443a93c8258e18194e4d18f096a7e1160f2ed958fa0855e618",
+  "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "random_seed": null,
+  "units": "time ns; pulse amplitude arbitrary, not calibrated deposited energy",
+  "model": "noiseless double-exponential pulse; exact finite-tap delays; linear zero-crossing interpolation",
+  "boundaries": [
+    "No instrument calibration, nuclear decay fit or noise model",
+    "Rise parameter is not a finite maximum charge-collection time",
+    "CFD baseline reference is a numerically solved analytic continuation",
+    "Not a universal dead-time or detector-performance model"
+  ],
+  "parameters": {
+    "sampling_interval_ns": 10.0,
+    "decay_ns": 50000.0,
+    "rise_ns": 100,
+    "slow_rise_ns": 2000,
+    "slow_flat_ns": 500,
+    "fast_rise_ns": 100,
+    "fast_flat_ns": 50,
+    "cfd_delay_ns": 80,
+    "cfd_fraction": 0.4
+  },
+  "checks": {
+    "ideal_exponential_matches_independent_box_convolution": true,
+    "ideal_exponential_gain_is_unity": true,
+    "noiseless_cfd_amplitude_invariance": true,
+    "integer_sample_translation": true,
+    "analytic_reference_has_zero_residual": true,
+    "fine_sampling_improves_interpolation": true,
+    "flat_top_alleviates_but_does_not_remove_deficit": true
+  },
+  "amplitude_timestamp_spread_ns": 0.0,
+  "ideal_convolution_max_error": 2.3874235921539366e-12,
+  "sampling_convergence": [
+    {
+      "sampling_interval_ns": 10.0,
+      "reference_latency_ns": 157.12227044678656,
+      "max_abs_interpolation_error_ns": 0.25660756630634296
+    },
+    {
+      "sampling_interval_ns": 5.0,
+      "reference_latency_ns": 159.6536421660071,
+      "max_abs_interpolation_error_ns": 0.12969199252859198
+    },
+    {
+      "sampling_interval_ns": 2.5,
+      "reference_latency_ns": 160.84463798234748,
+      "max_abs_interpolation_error_ns": 0.01373717153785492
+    },
+    {
+      "sampling_interval_ns": 1.25,
+      "reference_latency_ns": 161.47159890703023,
+      "max_abs_interpolation_error_ns": 0.005996680482439842
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "outputs/l4/20261108-digital-pulse-response/ballistic_deficit_study.csv",
+      "sha256": "e76fd8c6f896aea49cdb3d1489b6ef398f023422ee7449d4dc97e43b7066b353"
+    },
+    {
+      "path": "outputs/l4/20261108-digital-pulse-response/cfd_phase_walk_analysis.csv",
+      "sha256": "fa67402db75b74cc78dabab173d0ce89e0ba6a77df1545ddd8a330a9ca4d7178"
+    },
+    {
+      "path": "outputs/l4/20261108-digital-pulse-response/pulse_filter_response.csv",
+      "sha256": "6e84c83ecccc9e58d4275964a9ccc009d68b8cd7d948c34710240ebd2e9564da"
+    },
+    {
+      "path": "outputs/l4/20261108-digital-pulse-response/sampling_convergence.csv",
+      "sha256": "fcbc5a3ebf68e5ef8f0cb5dabfc1be09484d4f99757f9f2f9db6909225469222"
+    }
+  ]
+}

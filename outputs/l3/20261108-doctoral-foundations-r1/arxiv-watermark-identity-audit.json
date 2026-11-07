@@ -1,0 +1,112 @@
+[
+  {
+    "source": "knowledge/sources/doctoral-r1-g26-starosta-2007-64ge-rdm-e2.md",
+    "declared": "nucl-ex/0703021",
+    "watermarks": [
+      {
+        "id": "nucl-ex/0703021v1",
+        "pdf_page": 1
+      }
+    ],
+    "parent_pinned_arxiv": "nucl-ex/0703021v1"
+  },
+  {
+    "source": "knowledge/sources/doctoral-r1-g28-singh-2018-98zr-lifetimes.md",
+    "declared": "1902.02637",
+    "watermarks": [
+      {
+        "id": "1902.02637v1",
+        "pdf_page": 1
+      }
+    ],
+    "parent_pinned_arxiv": "1902.02637v1"
+  },
+  {
+    "source": "knowledge/sources/doctoral-r1-g28-togashi-2016-zr-mcsm-qpt.md",
+    "declared": "1606.09056",
+    "watermarks": [
+      {
+        "id": "1606.09056v2",
+        "pdf_page": 1
+      }
+    ],
+    "parent_pinned_arxiv": "1606.09056v2"
+  },
+  {
+    "source": "knowledge/sources/doctoral-r1-g29-nomura-2022-questioning-wobbling-ibfm.md",
+    "declared": "2106.15384v3",
+    "watermarks": [
+      {
+        "id": "2106.15384v3",
+        "pdf_page": 1
+      }
+    ],
+    "parent_pinned_arxiv": "2106.15384v3"
+  },
+  {
+    "source": "knowledge/sources/doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing.md",
+    "declared": "1601.04579",
+    "watermarks": [
+      {
+        "id": "1601.04579v2",
+        "pdf_page": 1
+      }
+    ],
+    "parent_pinned_arxiv": "1601.04579v2"
+  },
+  {
+    "source": "knowledge/sources/doctoral-r1-g33-gintautas-2009-176lu-thermal-equilibration.md",
+    "declared": 804.0223,
+    "watermarks": [
+      {
+        "id": "0804.0223v1",
+        "pdf_page": 1
+      }
+    ],
+    "parent_pinned_arxiv": "0804.0223v1"
+  },
+  {
+    "source": "knowledge/sources/doctoral-r1-g33-gosselin-2010-plasma-isomers-176lu-180ta.md",
+    "declared": 1005.2151,
+    "watermarks": [
+      {
+        "id": "1005.2151v1",
+        "pdf_page": 1
+      }
+    ],
+    "parent_pinned_arxiv": "1005.2151v1"
+  },
+  {
+    "source": "knowledge/sources/doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives.md",
+    "declared": null,
+    "watermarks": [
+      {
+        "id": "1301.5225v1",
+        "pdf_page": 1
+      }
+    ],
+    "parent_pinned_arxiv": "1301.5225v1"
+  },
+  {
+    "source": "knowledge/sources/doctoral-r1-g35-rodriguez-2010-prl-0nubb-edf.md",
+    "declared": "1008.5260",
+    "watermarks": [
+      {
+        "id": "1008.5260v2",
+        "pdf_page": 1
+      }
+    ],
+    "parent_pinned_arxiv": "1008.5260v2"
+  },
+  {
+    "source": "knowledge/sources/doctoral-r1-g35-vaquero-2013-prl-shape-pairing-0nubb.md",
+    "declared": "1401.0650",
+    "watermarks": [
+      {
+        "id": "1401.0650v1",
+        "pdf_page": 1
+      }
+    ],
+    "parent_pinned_arxiv": "1401.0650v1"
+  }
+]

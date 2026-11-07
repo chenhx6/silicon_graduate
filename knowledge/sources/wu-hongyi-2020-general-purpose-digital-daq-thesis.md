@@ -3,7 +3,7 @@ type: source
 title: "吴鸿毅 2020 博士论文：通用数字化获取系统的开发"
 aliases: ["吴鸿毅博士论文", "Hongyi Wu 2020 GDDAQ thesis", "通用数字化获取系统"]
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-08
 status: ai-draft
 review_status: unreviewed
 source_type: thesis-method
@@ -25,6 +25,7 @@ zotero_uri:
 library_file: "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf"
 raw_file: "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf"
 raw_sha256: "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b"
+archive_required: true
 nuclei: []
 reactions: []
 experiments: ["CIAE in-beam gamma terminal", "IMP RIBLL1", "CSNS Back-n", "iThemba LABS"]
@@ -46,6 +47,12 @@ tags: [digital-daq, waveform-analysis, trigger, pixie-16, mztio, detector-method
 - Covered scope: 题名页、中文/英文摘要、目录；第 1 章模拟/数字采集、采样与数字滤波/触发/定时算法；第 2 章 Pixie-16/MZTIO 硬件、固件、软件和采集逻辑；第 3 章在束 γ、α 衰变、高精度时间和性能极限应用；第 4 章结论。
 - Not covered: 源代码、完整固件版本差异、所有实验原始波形和参考文献逐条独立复核。
 - Coverage caveats: 论文中的分辨、计数率和效率是特定模块、参数、探测器及测试条件下的结果；不得写成所有数字化系统的普适性能。
+
+2026-11-08专题回读：G32研学滤波、定时、性能及死时间章节；总控独立核PDF31–32
+（印刷19–20，含Eq1.14视觉核查）、PDF36（24）、PDF85–86（73–74）、
+PDF106（94）、PDF111–112（99–100）。
+实际读图/算法与任务模型见[[doctoral-r1-g32-digital-daq-observable-chain-20261108]]。
+没有取得用户硬件配置或原始波形，不把上述读取称固件/实验重放。
 
 ## Paper Question and Scientific Motivation
 
@@ -91,6 +98,7 @@ tags: [digital-daq, waveform-analysis, trigger, pixie-16, mztio, detector-method
 | DD-20260910-MT-016 | 当前 100M-14bit 模块单通道输出极限约 `80 k/s`，全 16 通道运行时每通道约 `20 k/s`；论文将限制归因于 DSP 数据传输/浮点处理，并提出 FPGA/并行读出升级。 | experimental-fact + author-interpretation | direct | single | Figs.3.46–3.48；第 3 章 pp.97–101 | true |
 | DD-20260910-MT-017 | 论文结论给出当前机箱传输上限约 `109 MB/s`、单模块事件输出率约 `250 k/s`，并计划采用模块级光纤、FPGA 和大缓存将机箱传输上限提升到约 `1.3 GB/s`；后者是升级设计目标。 | experimental-fact + model-result | direct | single | 第 4 章 pp.103–104 | true |
 | DD-20260910-MT-018 | 系统通用性在多个实验终端得到应用，但滤波参数、触发门、计数率、探测器上升时间和相位差必须按具体实验重新优化；采样率与垂直精度仍存在工程折衷。 | author-interpretation | direct | single | 第 3–4 章 pp.89–104 | true |
+| DD-20261108-MT-019 | Eq1.14与1.19末延迟项字面印为n[n−k−l]，正文只将v定义为输入。本任务按四延迟差分重建为v；该替换是有传递函数/理想指数控制的任务重建，不伪称逐字原文或正式勘误。 | literal-source-observation-and-task-reconstruction | direct-visual-plus-labeled-derivation | single | PDF32/printed20 Eqs1.14–1.19；G32研究笔记与自有脚本 | false |
 
 ## Nuclear Structure Information
 

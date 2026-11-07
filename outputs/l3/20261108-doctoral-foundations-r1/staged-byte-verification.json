@@ -1,0 +1,83 @@
+{
+  "verified_at": "2026-11-07T20:23:18.634928+00:00",
+  "state": "pass",
+  "explicit_file_count": 127,
+  "exact_manifest_match": true,
+  "producers_and_artifacts": [
+    {
+      "path": "system/scripts/quadrupole_softness_identifiability.py",
+      "staged": true,
+      "sha256": "70c33e4f97d681b39993629acce208361380e4b7092a65df1614a2e998a9a4de",
+      "expected": "70c33e4f97d681b39993629acce208361380e4b7092a65df1614a2e998a9a4de"
+    },
+    {
+      "path": "outputs/l4/20261108-shape-softness-identifiability/gamma-density.csv",
+      "staged": true,
+      "sha256": "67dc3c072dc25224b2a9ebd3a0978a771cd83dbec85caaf8411c1a5f891a043c",
+      "expected": "67dc3c072dc25224b2a9ebd3a0978a771cd83dbec85caaf8411c1a5f891a043c",
+      "boundary": "versioned"
+    },
+    {
+      "path": "outputs/l4/20261108-shape-softness-identifiability/results.csv",
+      "staged": true,
+      "sha256": "7f1e7e02b0f81f66f34e30408ba3140aa6e21a14146f798ccf7c7a53144d52a7",
+      "expected": "7f1e7e02b0f81f66f34e30408ba3140aa6e21a14146f798ccf7c7a53144d52a7",
+      "boundary": "versioned"
+    },
+    {
+      "path": "outputs/l4/20261108-shape-softness-identifiability/shape-versus-dynamics.pdf",
+      "staged": false,
+      "sha256": "5bc39b968209014d18f54e4e911707f1bb9dd70c12b59ffb11a193c69b1a4b6f",
+      "expected": "5bc39b968209014d18f54e4e911707f1bb9dd70c12b59ffb11a193c69b1a4b6f",
+      "boundary": "existing PDF ignore; local only"
+    },
+    {
+      "path": "outputs/l4/20261108-shape-softness-identifiability/shape-versus-dynamics.png",
+      "staged": true,
+      "sha256": "7b4f458f2b81f8de80462ed1bf73874e5c96323ac8bb12f483290f0521d0c5aa",
+      "expected": "7b4f458f2b81f8de80462ed1bf73874e5c96323ac8bb12f483290f0521d0c5aa",
+      "boundary": "versioned"
+    },
+    {
+      "path": "outputs/l4/20261108-shape-softness-identifiability/shape-versus-dynamics.svg",
+      "staged": true,
+      "sha256": "58e63ba8cdd29275ca5e24621bf1b80b35622bc8868ad7fa838293a5736664ca",
+      "expected": "58e63ba8cdd29275ca5e24621bf1b80b35622bc8868ad7fa838293a5736664ca",
+      "boundary": "versioned"
+    },
+    {
+      "path": "system/scripts/doctoral_g32_digital_pulse_response.py",
+      "staged": true,
+      "sha256": "bd70a7db208b62443a93c8258e18194e4d18f096a7e1160f2ed958fa0855e618",
+      "expected": "bd70a7db208b62443a93c8258e18194e4d18f096a7e1160f2ed958fa0855e618"
+    },
+    {
+      "path": "outputs/l4/20261108-digital-pulse-response/ballistic_deficit_study.csv",
+      "staged": true,
+      "sha256": "e76fd8c6f896aea49cdb3d1489b6ef398f023422ee7449d4dc97e43b7066b353",
+      "expected": "e76fd8c6f896aea49cdb3d1489b6ef398f023422ee7449d4dc97e43b7066b353",
+      "boundary": "versioned"
+    },
+    {
+      "path": "outputs/l4/20261108-digital-pulse-response/cfd_phase_walk_analysis.csv",
+      "staged": true,
+      "sha256": "fa67402db75b74cc78dabab173d0ce89e0ba6a77df1545ddd8a330a9ca4d7178",
+      "expected": "fa67402db75b74cc78dabab173d0ce89e0ba6a77df1545ddd8a330a9ca4d7178",
+      "boundary": "versioned"
+    },
+    {
+      "path": "outputs/l4/20261108-digital-pulse-response/pulse_filter_response.csv",
+      "staged": true,
+      "sha256": "6e84c83ecccc9e58d4275964a9ccc009d68b8cd7d948c34710240ebd2e9564da",
+      "expected": "6e84c83ecccc9e58d4275964a9ccc009d68b8cd7d948c34710240ebd2e9564da",
+      "boundary": "versioned"
+    },
+    {
+      "path": "outputs/l4/20261108-digital-pulse-response/sampling_convergence.csv",
+      "staged": true,
+      "sha256": "fcbc5a3ebf68e5ef8f0cb5dabfc1be09484d4f99757f9f2f9db6909225469222",
+      "expected": "fcbc5a3ebf68e5ef8f0cb5dabfc1be09484d4f99757f9f2f9db6909225469222",
+      "boundary": "versioned"
+    }
+  ]
+}

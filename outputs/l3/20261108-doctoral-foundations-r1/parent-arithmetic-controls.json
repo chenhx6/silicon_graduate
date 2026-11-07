@@ -1,0 +1,12 @@
+{
+  "kind": "dimension-and-arithmetic-control-only",
+  "electron_reduced_compton_wavelength_fm": 386.15926764,
+  "values": {
+    "q_gt_amplitude_0p66_to_strength": 0.43560000000000004,
+    "cbar18p9fm_logft": 6.409201871897606,
+    "cbar10p3fm_logft": 6.93645103083375,
+    "qs2_per_rme": 0.7579331478807476,
+    "k0_rme4to2_per_2to0": 1.6035674514745464,
+    "ge76_half_life_ratio": 0.6870083441399789
+  }
+}

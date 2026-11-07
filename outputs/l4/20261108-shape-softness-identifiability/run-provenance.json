@@ -1,0 +1,67 @@
+{
+  "timestamp_utc": "2026-11-07T18:46:51.136422+00:00",
+  "command": "python3 system/scripts/quadrupole_softness_identifiability.py",
+  "script_sha256": "70c33e4f97d681b39993629acce208361380e4b7092a65df1614a2e998a9a4de",
+  "artifacts": [
+    {
+      "path": "outputs/l4/20261108-shape-softness-identifiability/gamma-density.csv",
+      "sha256": "67dc3c072dc25224b2a9ebd3a0978a771cd83dbec85caaf8411c1a5f891a043c"
+    },
+    {
+      "path": "outputs/l4/20261108-shape-softness-identifiability/results.csv",
+      "sha256": "7f1e7e02b0f81f66f34e30408ba3140aa6e21a14146f798ccf7c7a53144d52a7"
+    },
+    {
+      "path": "outputs/l4/20261108-shape-softness-identifiability/shape-versus-dynamics.pdf",
+      "sha256": "5bc39b968209014d18f54e4e911707f1bb9dd70c12b59ffb11a193c69b1a4b6f"
+    },
+    {
+      "path": "outputs/l4/20261108-shape-softness-identifiability/shape-versus-dynamics.png",
+      "sha256": "7b4f458f2b81f8de80462ed1bf73874e5c96323ac8bb12f483290f0521d0c5aa"
+    },
+    {
+      "path": "outputs/l4/20261108-shape-softness-identifiability/shape-versus-dynamics.svg",
+      "sha256": "58e63ba8cdd29275ca5e24621bf1b80b35622bc8868ad7fa838293a5736664ca"
+    }
+  ],
+  "plotted_gamma_density_integrals": [
+    1.0000000000005413,
+    0.9999999999989149,
+    0.9999999999989149
+  ],
+  "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "matplotlib": "3.11.2",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "random_seed": null,
+  "units": "hbar=1, fixed charge Q=1; reference gamma mass M=1/2, lambda=1",
+  "basis": "n normalized Legendre polynomials; Gauss-Legendre quadrature",
+  "potential": "lambda*18*cos(3gamma)^2; lambda=1 or 3, M=1/(2 lambda)",
+  "checks": {
+    "normalization": true,
+    "regular_endpoint_flux_tends_to_zero": true,
+    "flat_legendre_spectrum": true,
+    "flat_x2_one_third": true,
+    "parity_same_q3": true,
+    "sixth_order_distinguishes": true,
+    "scalar_closure": true,
+    "scale_wavefunction": true,
+    "scale_all_shown_gaps": true,
+    "scale_energy_weighted_strength": true,
+    "double_commutator_sum_rule": true,
+    "deliberately_underresolved_fails_precision": true,
+    "galerkin_converged": true,
+    "gamma_quadrature_converged": true,
+    "plotted_gamma_densities_normalized_with_jacobian": true
+  },
+  "errors": {
+    "n4_minus_n32_x2": 0.00020831298393902964,
+    "n20_minus_n32_x2": 8.326672684688674e-16,
+    "nq256_minus_1024_gamma_rms_rad": 1.2928426051939113e-08,
+    "closure_abs": 6.2727600891321345e-15,
+    "scaled_ground_l2": 5.729590679599915e-17,
+    "endpoint_flux_eps_1e-4": 7.814326045998194e-05,
+    "endpoint_flux_eps_1e-8": 7.815180245414451e-09
+  }
+}

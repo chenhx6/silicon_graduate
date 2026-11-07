@@ -7,6 +7,32 @@ updated: 2026-11-08
 
 # Wiki Index
 
+## 博士论文前置研究：形变、集体动力学与观测链
+
+- [[doctoral-nuclear-structure-foundations]] — 六区与“一核两翼”学习范围、候选问题和论文设计准备条件；不以旧稿的完成标签代替证据。
+- [[six-region-shape-and-collective-dynamics-foundations]] — 代表案例的微观占据、测量链、跨区迁移与失败条件综合。
+- [[doctoral-foundations-laboratory-shape-and-dynamics-20261108]] — 实验室旋转对称、电荷形状矩与动力学响应的区别。
+- [[doctoral-r1-t03-shape-invariants-and-softness-20261108]] — 有正确体积元的γ动力学、静态矩与惯量/能标可识别性、可重放图。
+- [[doctoral-r1-g26-a60-collectivity-20261108]]、[[doctoral-r1-g27-a80-shape-coexistence-20261108]]、[[doctoral-r1-g28-a100-shell-shape-20261108]] — Ge/Ni、Kr和Zr原始矩阵元/寿命与组态反馈。
+- [[doctoral-r1-g29-a130-core-orientation-20261108]]、[[doctoral-r1-g30-a160-precession-wobbling-20261108]] — 两准粒子Ba、软核芯模型及高K进动/纯转子极限。
+- [[doctoral-r1-g31-a190-charge-shape-20261108]] — Hg矩阵元平缓与组态重构、宽误差及两构型模型边界。
+- [[doctoral-r1-g32-digital-daq-observable-chain-20261108]] — 吴鸿毅论文起点的滤波、定时、触发与物理观测量链。
+- [[doctoral-r1-t04-first-forbidden-operator-audit-20261108]] — GT/首禁戒算符、拟合输入、端点与表内一致性的独立原件核查。
+- [[doctoral-foundations-research-question-register-20261108]] — 跨区机制候选、反方、可区分观测和转向条件。
+- [[doctoral-r1-g33-thermal-isomer-network-20261108]]、[[doctoral-r1-g34-gt-first-forbidden-common-operator-20261108]] — 热交换网络与多rank弱算符。
+- [[doctoral-r1-g35-deformation-pairing-double-beta-20261108]]、[[doctoral-r1-g36-superheavy-reaction-survival-20261108]] — 投影/配对与0ν矩阵元、逐分波形成/存活。
+- [[doctoral-r1-g37-shape-orientation-coupling-history-20261108]] — 形状—取向耦合的历史原件与较新TPSM模型。
+
+本批来源入口（实际底本、范围和依赖以source为准）：
+
+- [[doctoral-r1-g26-starosta-2007-64ge-rdm-e2]]、[[doctoral-r1-g26-crider-2016-68ni-shape-coexistence]]、[[doctoral-r1-g27-clement-2007-prc-krypton-coulex]]。
+- [[doctoral-r1-g28-togashi-2016-zr-mcsm-qpt]]、[[doctoral-r1-g28-singh-2018-98zr-lifetimes]]、[[doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution]]。
+- [[doctoral-r1-g29-nomura-2022-questioning-wobbling-ibfm]]、[[doctoral-r1-g29-wang-2024-exploring-wobbling-even-even]]、[[doctoral-r1-g30-frauendorf-2000-npa-tilted-axis-cranking]]。
+- [[doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg]]、[[doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync]]、[[doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing]]。
+- [[doctoral-r1-g33-gintautas-2009-176lu-thermal-equilibration]]、[[doctoral-r1-g33-gosselin-2010-plasma-isomers-176lu-180ta]]、[[doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives]]。
+- [[doctoral-r1-g35-rodriguez-2010-prl-0nubb-edf]]、[[doctoral-r1-g35-vaquero-2013-prl-shape-pairing-0nubb]]。
+- [[doctoral-r1-g37-oi-2001-wobbling-gamma-coupling]]、[[doctoral-r1-g37-bhat-2025-microscopic-wobbling-even-even]]、[[kumar-1972-quadrupole-shapes-original-metadata]]（Kumar仍仅题录/访问边界）。
+
 ## 六区续接：有效算符、绝对观测与共同模型
 
 - [[isomer-six-region-transfer-research]] — 当前专题入口与下一步共同输入合同。

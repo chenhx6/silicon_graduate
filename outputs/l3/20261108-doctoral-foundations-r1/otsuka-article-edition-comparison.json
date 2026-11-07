@@ -1,0 +1,74 @@
+[
+  {
+    "path": "raw/papers/gpt/query/20261108-foundations-otsuka-article/otsuka-2022-physics-emerging-concepts-publisher.pdf",
+    "physical_pages": 28,
+    "selected_page_comparison": [
+      {
+        "journal_pdf_page": 1,
+        "book_pdf_page": 98,
+        "text_similarity_excluding_page_numbers": 0.9981251464729318
+      },
+      {
+        "journal_pdf_page": 7,
+        "book_pdf_page": 104,
+        "text_similarity_excluding_page_numbers": 0.9992834965369
+      },
+      {
+        "journal_pdf_page": 8,
+        "book_pdf_page": 105,
+        "text_similarity_excluding_page_numbers": 0.9490302210193956
+      },
+      {
+        "journal_pdf_page": 13,
+        "book_pdf_page": 110,
+        "text_similarity_excluding_page_numbers": 0.9633333333333334
+      },
+      {
+        "journal_pdf_page": 17,
+        "book_pdf_page": 114,
+        "text_similarity_excluding_page_numbers": 0.9546728201747157
+      },
+      {
+        "journal_pdf_page": 19,
+        "book_pdf_page": 116,
+        "text_similarity_excluding_page_numbers": 0.9582678540247949
+      }
+    ]
+  },
+  {
+    "path": "raw/papers/gpt/query/20261108-foundations-otsuka-article/otsuka-2022-physics-emerging-concepts-cdn.pdf",
+    "physical_pages": 28,
+    "selected_page_comparison": [
+      {
+        "journal_pdf_page": 1,
+        "book_pdf_page": 98,
+        "text_similarity_excluding_page_numbers": 0.9810561212408241
+      },
+      {
+        "journal_pdf_page": 7,
+        "book_pdf_page": 104,
+        "text_similarity_excluding_page_numbers": 0.9718060634658487
+      },
+      {
+        "journal_pdf_page": 8,
+        "book_pdf_page": 105,
+        "text_similarity_excluding_page_numbers": 0.9068730940652123
+      },
+      {
+        "journal_pdf_page": 13,
+        "book_pdf_page": 110,
+        "text_similarity_excluding_page_numbers": 0.6851952770208901
+      },
+      {
+        "journal_pdf_page": 17,
+        "book_pdf_page": 114,
+        "text_similarity_excluding_page_numbers": 0.6552746787176953
+      },
+      {
+        "journal_pdf_page": 19,
+        "book_pdf_page": 116,
+        "text_similarity_excluding_page_numbers": 0.776004032935641
+      }
+    ]
+  }
+]

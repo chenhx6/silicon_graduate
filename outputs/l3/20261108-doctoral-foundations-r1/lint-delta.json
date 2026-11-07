@@ -1,0 +1,138 @@
+{
+  "baseline_artifact": "outputs/l3/20261107-nuclear-structure-continuation/lint-final.json",
+  "baseline_artifact_sha256": "0fe2f3d2060ee3a782f473fa667ab5f131e709a4bdfe9684ef06ba0ca87df4eb",
+  "baseline_counts": {
+    "error": 129,
+    "warning": 446,
+    "info": 5484
+  },
+  "final_counts": {
+    "error": 129,
+    "warning": 466,
+    "info": 5485
+  },
+  "new_errors": [],
+  "new_warnings": [
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/doctoral-r1-g26-crider-2016-68ni-shape-coexistence.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/doctoral-r1-g26-starosta-2007-64ge-rdm-e2.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/doctoral-r1-g27-clement-2007-prc-krypton-coulex.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/doctoral-r1-g28-singh-2018-98zr-lifetimes.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/doctoral-r1-g28-togashi-2016-zr-mcsm-qpt.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/doctoral-r1-g29-nomura-2022-questioning-wobbling-ibfm.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/doctoral-r1-g29-wang-2024-exploring-wobbling-even-even.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/doctoral-r1-g30-frauendorf-2000-npa-tilted-axis-cranking.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/doctoral-r1-g33-gintautas-2009-176lu-thermal-equilibration.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/doctoral-r1-g33-gosselin-2010-plasma-isomers-176lu-180ta.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/doctoral-r1-g35-rodriguez-2010-prl-0nubb-edf.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/doctoral-r1-g35-vaquero-2013-prl-shape-pairing-0nubb.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/doctoral-r1-g37-bhat-2025-microscopic-wobbling-even-even.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/doctoral-r1-g37-oi-2001-wobbling-gamma-coupling.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/kumar-1972-quadrupole-shapes-original-metadata.md",
+      "message": "source has no citation_key"
+    }
+  ],
+  "command_exit": 0
+}

@@ -1,0 +1,16 @@
+{
+  "checked_nonempty_new_keys": [
+    {
+      "source": "knowledge/sources/doctoral-r1-g28-singh-2018-98zr-lifetimes.md",
+      "key": "singh2018evidence",
+      "verified_matching_generated_entry": false
+    },
+    {
+      "source": "knowledge/sources/doctoral-r1-g28-togashi-2016-zr-mcsm-qpt.md",
+      "key": "togashi2016quantum",
+      "verified_matching_generated_entry": false
+    }
+  ],
+  "protected_bib_modified": false,
+  "missing_keys_policy": "Leave blank rather than invent a bibliography key"
+}

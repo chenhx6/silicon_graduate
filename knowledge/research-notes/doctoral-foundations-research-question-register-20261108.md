@@ -1,0 +1,127 @@
+---
+type: research-note
+title: "博士前置研学的问题登记：从开放发散到可区分的研究"
+aliases: [doctoral foundations question register, 前置研学问题登记]
+created: 2026-11-08
+updated: 2026-11-08
+status: ai-draft
+review_status: unreviewed
+reasoning_status: provisional
+evidence_sources: [cline-1986-nuclear-shapes-coulomb-excitation, doctoral-r1-g29-wang-2024-exploring-wobbling-even-even, doctoral-r1-g29-nomura-2022-questioning-wobbling-ibfm, doctoral-r1-g28-togashi-2016-zr-mcsm-qpt, doctoral-r1-g27-clement-2007-prc-krypton-coulex, wu-hongyi-2020-general-purpose-digital-daq-thesis]
+created_from: "用户auto/brainstorm要求；分域独立发散、原件核查与总控反方筛选"
+promotion_target: ""
+tags: [doctoral-foundations, scientific-brainstorming, mechanism-transfer, identifiability, research-design]
+---
+
+# 不按模式名称找空白，按可区分问题推进
+
+## Research Trigger
+
+用户要求主动设goal防偏，并在六区及“一核两翼”学习中尽情头脑风暴。
+本页登记值得推进的科学问题及被撤回的过强设想，不把头脑风暴称发现。
+优先级依据是相关性、信息增益、输入可得性、可证伪性与零结果价值，
+不是论文数量、模型投票或任意综合分数。
+
+分域worker先在给定主题内各自提出问题，再由总控看原件和反方。
+它们共享质量区、问题背景与提示约束，不能称完全盲态；
+T04先独立核方程、后对照G34元数据，也不是另一份独立实验。
+本登记是在看过本批资料后形成，属于探索，不冒称预注册。
+
+## Grounded Evidence
+
+| 基础 | 知识与原件入口 | 本轮真正提供的信息 | 不能代答 |
+|---|---|---|---|
+| 形状与动力学 | [[doctoral-foundations-laboratory-shape-and-dynamics-20261108]]、[[doctoral-r1-t03-shape-invariants-and-softness-20261108]] | 形状矩、正确测度、响应与能标的分层及受控反例 | 真实核的唯一势面/惯量 |
+| 低自旋实测矩阵元 | [[doctoral-r1-g26-a60-collectivity-20261108]]、[[doctoral-r1-g27-a80-shape-coexistence-20261108]] | 绝对E2、方向、干涉符号与条件混合 | 别的核或别的自旋的固定核芯 |
+| 微观占据反馈 | [[doctoral-r1-g28-a100-shell-shape-20261108]] | 固定但有经验微调的Hamiltonian、Type-II及其限制 | 全区唯一机制或实验直接占据 |
+| 形状—取向与磁响应 | [[doctoral-r1-g29-a130-core-orientation-20261108]]、[[doctoral-r1-g30-a160-precession-wobbling-20261108]] | 不同模型合同、SCS边缘化、PES未固定的磁项 | 单个δ门、全区模式禁戒 |
+| 响应链 | [[doctoral-r1-g32-digital-daq-observable-chain-20261108]] | 滤波/CFD/选择与物理推断的接口 | 用户仪器的真实效率/live |
+| 弱算符 | [[doctoral-r1-t04-first-forbidden-operator-audit-20261108]] | 允许/禁戒、多rank、拟合与表内边界 | 通用gA或2026全部数据现状 |
+
+## Provisional Reasoning
+
+### 候选池与当前选择
+
+| ID / idea | 假设与可区分prediction | 最强竞争解释 | 下一步 / 失败或转向条件 |
+|---|---|---|---|
+| D1：联合形状—取向分析是否比单幅SCS增加物理辨别力 | 有同一Hamiltonian的联合波函数；先比较条件取向及未拟合EM，不能只比较图形 | 不同表示描述同一可测物理，或形状/组态混合产生同一边缘分布 | 查公开实现/波函数；若没有新增可测预言，保留为解释工具，不宣称新模式 |
+| D2：静态PES相似时，未固定的质中磁关联项是否改变M1 | 匹配模型空间、有效g和谱后，对留出M1/磁矩/剪刀强度前向预测 | 配对、其它轨道、有效算符或实验δ另一根 | 先建立共同算符合同；预测区间重叠则不可归因单一磁耦合 |
+| D3：跨壳反馈与四极容量如何分别影响集体性突变 | 同一分解中保留/干预单极项，并同时核未拟合E2、E0、占据相关反应强度 | 仅配对、价空间或有效相互作用变化也产生同样趋势 | 不预设Ni/Zr交换对偶；若输入不可比，改作机制类比而非定量迁移 |
+| D4：近似恒定的单条E2是否隐藏波函数重排 | 用完整带符号网络和明确混合模型预测其它连接；不把拟合内禀RME叫直接Q₀ | 连续形状分布、多构型投影或算符变化 | 从Hg/Kr真实网络出发；单点恒定不支持“形状不变”，同样不独立证明混合 |
+| D5：弱线是仪器接收还是核衰变瓶颈 | 有时间戳、触发效率、ICC及联合live；预测门宽/能量/计数率依赖 | feeding、随机符合、错态、多极性/内转换 | 先实际响应预算；没有用户数据时只做方法合同，不给固定损失百分比 |
+| D6：不同母态的β谱能否区分有效算符与相空间补偿 | 固定母态/Q及feeding后同时处理GT和FF形状因子，比较未拟合谱/分支 | 质量、母态排序、未见feeding、模型空间误差 | 不从总半衰期直接抽通用gA；原表疑点先隔离，不能拿不一致行调参 |
+| D7：形变与配对自由度何时对0ν矩阵元产生可分辨影响 | 使用明确机制、投影、算符及共同输入，对核结构辅助观测作联合预测 | 同位旋恢复、其它多体关联、短程/两体算符处理 | 不把E2、单β或双电荷交换当无模型NME量尺；原件学习/比较继续 |
+| D8：同一蒸发剩余激发函数能否区分形成与存活 | 保留共同分波、自旋/激发能及蒸发步骤，比较额外裂变/中子观测 | 准裂变、能级密度、壳阻尼、透过率与靶厚平均 | 无共同响应/多观测量时不唯一反演P_CN或势垒，不给固定截面误差 |
+
+当前优先继续D1/D2的核心原件与共同模型，以及D5的可复用实验链；
+D3/D4补实测网络；D6–D8继续相应原件与输入合同。
+这不是永久排序，取得新的可区分证据后可改变。
+热耦合接口已由[[doctoral-r1-g33-thermal-isomer-network-20261108]]推进：候选连接/上限须传播到开放网络及实际轨迹，不能只由能隙命名热化温度。
+
+### 形状与取向混合模式：允许怎样发散
+
+一个值得核对的局域想法是：若某个定态在倾角反射\(\theta\to-\theta\)下不变，
+而局部形状位移\(q_\gamma\)在该变换下为偶，则势展开的
+\(q_\gamma\theta\)项被此假设禁止，\(q_\gamma\theta^2\)可以允许。
+它提示耦合量子态的旋称/其它守恒标签必须先核对，不能把“一γ声子”与“一摆动声子”凭名字混合。
+RPA中称为γ振动的模还可能携带不同旋称，不能把它直接等同这个局部偶坐标。
+
+**这是任务条件推断，不是实核新预言。**
+总控已核早期Oi/Walker与新的Bhat等原件，详见[[doctoral-r1-g37-shape-orientation-coupling-history-20261108]]。即使模型显示模性质随自旋演化，也要比较具体波函数、EM和守恒标签。
+其新颖性、是否已有同样机制以及哪些核区可实现，均待原件而非先验宣称。
+
+## Assumptions
+
+- 全部候选使用真实可获得输入，不由质量数或一个平均γ指定运动模式。
+- 先规定拟合与留出、同采集依赖、相位与算符约定，再讨论区分力。
+- 尚未取得的联合波函数、Cov、装置参数和反应率不补成默认数。
+- 候选可因没有辨别力而结束；零结果及失败边界本身有研究价值。
+
+## Competing Explanations
+
+最常见的竞争不只是另一个模式名称，而是另一种状态映射、有效算符、
+截断或实验选择产生同样观测。多模型能拟合同一曲线不等于独立证据，
+也不自动证明参数严格退化；必须展示共同输入下的预测重叠。
+
+## Transfer Conditions
+
+迁移必须同时写出保留与改变的条件：壳占据、配对、形状分布、集体质量、
+旋转轴/准粒子取向、自旋窗口、探针及响应。
+“另一区可能出现”意味着存在满足这些条件的具体候选合同，
+不是把同名模式贴到整片核素图。
+
+## Failure Conditions
+
+本批已撤回的路径包括：普适δ/角宽/W.u.阈值；q₄测γ刚性；
+软核整区禁止手征/摆动；K守恒或零惯量的Pauli普适定理；
+低自旋核芯不加极化迁到高自旋；E0直接预言E3；
+单条截面/总半衰期唯一决定全部参数；任意机时、效率或丰度数字。
+这些撤回是研究推理的纠正，不代表相关原始论文均被否定。
+
+## Falsification or Reverse Tests
+
+每个候选先写最强反方，再找它也能解释的信号。
+保留同态分支、绝对量、相位、上限及共同误差；
+核查不同观察是否实际来自同一寿命/拟合。
+对T03/G32这样的控制模型用解析极限、独立表示和收敛；
+对实核则用未拟合观测与实际响应，不用toy“验证”实验发现。
+
+## Open Questions
+
+哪些公开代码/数据能直接闭合D1/D2的共同输入？
+哪些矩阵元最值得新增，取决于具体核的当前网络而非普适态数。
+哪些所谓“未发现特征”只是尚未搜索、布居困难或灵敏度不足？
+在完成具体搜索与响应预算前，只称候选，不称空白或不存在。
+
+## Human Review
+
+- Review scope: 用户指定研究目标与风格，总控负责本批科学选择；未发生用户逐项科学审核。
+- Decision: 候选保持provisional，当前goal为活动的研究准备。
+- Complete unresolved P0/P1 inventory: 原件身份错误在各source就地修正；
+  共同输入、部分版本、Cov与新颖性搜索仍有边界，不自动转成用户确认。
+
+## Promotion or Rejection History
+
+| Date | event | previous state | new state | reason / triggering evidence | target or successor |
+|---|---|---|---|---|---|
+| 2026-11-08 | 初始独立发散后的证据筛选 | worker ideas | provisional | 保留八类可区分问题，撤回无源阈值及唯一机制，继续核心耦合历史原读 | doctoral-nuclear-structure-foundations |

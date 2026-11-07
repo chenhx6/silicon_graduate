@@ -1,0 +1,39 @@
+{
+  "records": [
+    {
+      "task": "G30",
+      "prior_manifest_sha256": "8e4554a87e07bffc8feba1d21548b26aecdf80e5a72d4b0b270debf5fb1232bd",
+      "canonical_manifest_sha256": "2dd62aec019013a7e9d7418352674c2e232359162391643a41f0de3c2c76a4ae",
+      "verified_at": "2026-11-07T19:30:15.944982+00:00",
+      "original_pdf_unchanged": true
+    },
+    {
+      "task": "G31",
+      "prior_manifest_sha256": "0d68b93f3f35048127817b0628dd88d3bd6aeeb4324cb968f40394cc4240ff62",
+      "canonical_manifest_sha256": "4b4642ddcd0404dfc682e3a96f34296c4ad9acb750d3168848e940c0a447f34e",
+      "verified_at": "2026-11-07T19:30:16.048246+00:00",
+      "original_pdf_unchanged": true
+    },
+    {
+      "task": "G36",
+      "prior_manifest_sha256": "92d1c0f00b60a54428290e08236e4a954eb2c054e2dba6e519fc26725c0d3b42",
+      "canonical_manifest_sha256": "0dadd41f8d774e5b1bd5e0f2843eeccf4f0d14b3e92ab978f350a06f9d83e615",
+      "verified_at": "2026-11-07T19:33:55.135718+00:00",
+      "original_pdf_unchanged": true
+    },
+    {
+      "task": "G33",
+      "prior_manifest_sha256": "1c3348ed8a736dc139c65e8ed8795b10d8b259354d4c462354be7e00ee1ee21f",
+      "canonical_manifest_sha256": "e9c5eb4a6ad4135b1eb574b726fc33bbc3c4970b88c1d23660ce834067513ebc",
+      "verified_at": "2026-11-07T19:45:57.674199+00:00",
+      "original_pdf_unchanged": true
+    },
+    {
+      "task": "G37",
+      "prior_manifest_sha256": "1234b735fb4e14df1eeab22aba9ba196f6a278615928206efbb80629906e455e",
+      "canonical_manifest_sha256": "54248591aac61b08170fa7afa981a9766ee366784934817a2bea0c85c734a387",
+      "verified_at": "2026-11-07T19:50:47.292120+00:00",
+      "original_pdf_unchanged": true
+    }
+  ]
+}

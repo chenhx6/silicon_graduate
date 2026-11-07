@@ -1,0 +1,480 @@
+{
+  "checked": 20,
+  "rows": [
+    {
+      "source": "knowledge/sources/doctoral-r1-g26-crider-2016-68ni-shape-coexistence.md",
+      "doi": "10.1016/j.physletb.2016.10.020",
+      "status": 200,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-bibliography/doctoral-r1-g26-crider-2016-68ni-shape-coexistence.json",
+      "sha256": "0421a8f4f92471b9b1ccc60d550b73ad579463bb9e092065a8c6ef29c264a091",
+      "size": 23356,
+      "url": "https://api.crossref.org/works/10.1016/j.physletb.2016.10.020",
+      "retrieved_at": "2026-11-07T19:04:06.759943+00:00",
+      "expected_title": "Shape coexistence from lifetime and branching-ratio measurements in 68,70Ni",
+      "registered_title": "Shape coexistence from lifetime and branching-ratio measurements in 68,70Ni",
+      "similarity": 1.0,
+      "published": {
+        "date-parts": [
+          [
+            2016,
+            12
+          ]
+        ]
+      },
+      "registered_title_plain": "Shape coexistence from lifetime and branching-ratio measurements in 68,70Ni",
+      "parent_resolution": "Title identity inspected against registered title and primary PDF; MathML/isotope order and translated title are not a mismatch."
+    },
+    {
+      "source": "knowledge/sources/doctoral-r1-g26-starosta-2007-64ge-rdm-e2.md",
+      "doi": "10.1103/PhysRevLett.99.042503",
+      "status": 200,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-bibliography/doctoral-r1-g26-starosta-2007-64ge-rdm-e2.json",
+      "sha256": "47e042f3b6fa83b4885edfbbd91d05fcfc41fbdf1e43d47ca92ba8e163aeb275",
+      "size": 9194,
+      "url": "https://api.crossref.org/works/10.1103/PhysRevLett.99.042503",
+      "retrieved_at": "2026-11-07T19:04:06.757886+00:00",
+      "expected_title": "Shape and Structure of N=Z 64Ge: Electromagnetic Transition Rates from the Application of the Recoil Distance Method to a Knockout Reaction",
+      "registered_title": "Shape and Structure of<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mi>N</mml:mi><mml:mo>=</mml:mo><mml:mi>Z</mml:mi></mml:math><mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mmultiscripts><mml:mi>Ge</mml:mi><mml:mprescripts/><mml:none/><mml:mn>64</mml:mn></mml:mmultiscripts></mml:math>: Electromagnetic Transition Rates from the Application of the Recoil Distance Method to a Knockout Reaction",
+      "similarity": 0.44642857142857145,
+      "published": {
+        "date-parts": [
+          [
+            2007,
+            7,
+            26
+          ]
+        ]
+      },
+      "registered_title_plain": "Shape and Structure of N = Z Ge 64 : Electromagnetic Transition Rates from the Application of the Recoil Distance Method to a Knockout Reaction",
+      "parent_resolution": "Title identity inspected against registered title and primary PDF; MathML/isotope order and translated title are not a mismatch."
+    },
+    {
+      "source": "knowledge/sources/doctoral-r1-g27-clement-2007-prc-krypton-coulex.md",
+      "doi": "10.1103/PhysRevC.75.054313",
+      "status": 200,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-bibliography/doctoral-r1-g27-clement-2007-prc-krypton-coulex.json",
+      "sha256": "3ccd70d3a002b3aecdca1ee259cfdf9880b831b68a443fc54aca3478ae8db5a4",
+      "size": 9153,
+      "url": "https://api.crossref.org/works/10.1103/PhysRevC.75.054313",
+      "retrieved_at": "2026-11-07T19:04:06.765242+00:00",
+      "expected_title": "Shape coexistence in neutron-deficient krypton isotopes",
+      "registered_title": "Shape coexistence in neutron-deficient krypton isotopes",
+      "similarity": 1.0,
+      "published": {
+        "date-parts": [
+          [
+            2007,
+            5,
+            10
+          ]
+        ]
+      },
+      "registered_title_plain": "Shape coexistence in neutron-deficient krypton isotopes",
+      "parent_resolution": "Title identity inspected against registered title and primary PDF; MathML/isotope order and translated title are not a mismatch."
+    },
+    {
+      "source": "knowledge/sources/doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution.md",
+      "doi": "10.3390/physics4010018",
+      "status": 200,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-bibliography/doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution.json",
+      "sha256": "37f7c27de46b85fee5562285244a6aac68b1f1700ee5a2c469990f3a4cdaefa8",
+      "size": 31592,
+      "url": "https://api.crossref.org/works/10.3390/physics4010018",
+      "retrieved_at": "2026-11-07T19:04:07.747278+00:00",
+      "expected_title": "Emerging Concepts in Nuclear Structure Based on the Shell Model",
+      "registered_title": "Emerging Concepts in Nuclear Structure Based on the Shell Model",
+      "similarity": 1.0,
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            22
+          ]
+        ]
+      },
+      "registered_title_plain": "Emerging Concepts in Nuclear Structure Based on the Shell Model",
+      "parent_resolution": "Title identity inspected against registered title and primary PDF; MathML/isotope order and translated title are not a mismatch."
+    },
+    {
+      "source": "knowledge/sources/doctoral-r1-g28-singh-2018-98zr-lifetimes.md",
+      "doi": "10.1103/PhysRevLett.121.192501",
+      "status": 200,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-bibliography/doctoral-r1-g28-singh-2018-98zr-lifetimes.json",
+      "sha256": "235c8ae7cc39b022ac1eb91d734c5d47c7a0c6374a85c7f202f64d9b87c74dd3",
+      "size": 13622,
+      "url": "https://api.crossref.org/works/10.1103/PhysRevLett.121.192501",
+      "retrieved_at": "2026-11-07T19:04:07.756186+00:00",
+      "expected_title": "Evidence for coexisting shapes through lifetime measurements in 98Zr",
+      "registered_title": "Evidence for Coexisting Shapes through Lifetime Measurements in \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mmultiscripts><mml:mrow><mml:mi>Zr</mml:mi></mml:mrow><mml:mprescripts/><mml:none/><mml:mrow><mml:mn>98</mml:mn></mml:mrow></mml:mmultiscripts></mml:mrow></mml:math>",
+      "similarity": 0.38202247191011235,
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            11,
+            9
+          ]
+        ]
+      },
+      "registered_title_plain": "Evidence for Coexisting Shapes through Lifetime Measurements in Zr 98",
+      "parent_resolution": "Title identity inspected against registered title and primary PDF; MathML/isotope order and translated title are not a mismatch."
+    },
+    {
+      "source": "knowledge/sources/doctoral-r1-g28-togashi-2016-zr-mcsm-qpt.md",
+      "doi": "10.1103/PhysRevLett.117.172502",
+      "status": 200,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-bibliography/doctoral-r1-g28-togashi-2016-zr-mcsm-qpt.json",
+      "sha256": "1c486f09afce038b30b213a9d2a9248632e46f3c04132fe97553889b54789d25",
+      "size": 9242,
+      "url": "https://api.crossref.org/works/10.1103/PhysRevLett.117.172502",
+      "retrieved_at": "2026-11-07T19:04:07.758844+00:00",
+      "expected_title": "Quantum Phase Transition in the Shape of Zr isotopes",
+      "registered_title": "Quantum Phase Transition in the Shape of Zr isotopes",
+      "similarity": 1.0,
+      "published": {
+        "date-parts": [
+          [
+            2016,
+            10,
+            17
+          ]
+        ]
+      },
+      "registered_title_plain": "Quantum Phase Transition in the Shape of Zr isotopes",
+      "parent_resolution": "Title identity inspected against registered title and primary PDF; MathML/isotope order and translated title are not a mismatch."
+    },
+    {
+      "source": "knowledge/sources/doctoral-r1-g29-nomura-2022-questioning-wobbling-ibfm.md",
+      "doi": "10.1103/PhysRevC.105.024320",
+      "status": 200,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-bibliography/doctoral-r1-g29-nomura-2022-questioning-wobbling-ibfm.json",
+      "sha256": "0952303bc47391f95dd0f887fefe54b4cf6546336665a7cdea0a6c76ffd3f9b8",
+      "size": 9487,
+      "url": "https://api.crossref.org/works/10.1103/PhysRevC.105.024320",
+      "retrieved_at": "2026-11-07T19:04:08.762615+00:00",
+      "expected_title": "Questioning the wobbling interpretation of low-spin bands in γ-soft nuclei within the interacting boson-fermion model",
+      "registered_title": "Questioning the wobbling interpretation of low-spin bands in \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mi>γ</mml:mi></mml:math>\n-soft nuclei within the interacting boson-fermion model",
+      "similarity": 0.7540983606557377,
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            18
+          ]
+        ]
+      },
+      "registered_title_plain": "Questioning the wobbling interpretation of low-spin bands in γ -soft nuclei within the interacting boson-fermion model",
+      "parent_resolution": "Title identity inspected against registered title and primary PDF; MathML/isotope order and translated title are not a mismatch."
+    },
+    {
+      "source": "knowledge/sources/doctoral-r1-g29-wang-2024-exploring-wobbling-even-even.md",
+      "doi": "10.1016/j.physletb.2024.139131",
+      "status": 200,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-bibliography/doctoral-r1-g29-wang-2024-exploring-wobbling-even-even.json",
+      "sha256": "369468a0094d643e41cc0326bae3959e43b58272ff5ee97f23d81e85232d4620",
+      "size": 21981,
+      "url": "https://api.crossref.org/works/10.1016/j.physletb.2024.139131",
+      "retrieved_at": "2026-11-07T19:04:08.778311+00:00",
+      "expected_title": "Exploring wobbling motion in triaxial even-even nuclei",
+      "registered_title": "Exploring wobbling motion in triaxial even-even nuclei",
+      "similarity": 1.0,
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            12
+          ]
+        ]
+      },
+      "registered_title_plain": "Exploring wobbling motion in triaxial even-even nuclei",
+      "parent_resolution": "Title identity inspected against registered title and primary PDF; MathML/isotope order and translated title are not a mismatch."
+    },
+    {
+      "source": "knowledge/sources/doctoral-r1-g30-frauendorf-2000-npa-tilted-axis-cranking.md",
+      "doi": "10.1016/S0375-9474(00)00308-0",
+      "status": 200,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-bibliography/doctoral-r1-g30-frauendorf-2000-npa-tilted-axis-cranking.json",
+      "sha256": "2a0530fe4406ad99c02f5ad6ff049579e54ccca66508056be8f0962e14e759ee",
+      "size": 18451,
+      "url": "https://api.crossref.org/works/10.1016/S0375-9474(00)00308-0",
+      "retrieved_at": "2026-11-07T19:04:08.769691+00:00",
+      "expected_title": "Description of multi-quasiparticle bands by the tilted axis cranking model",
+      "registered_title": "Description of multi-quasiparticle bands by the tilted axis cranking model",
+      "similarity": 1.0,
+      "published": {
+        "date-parts": [
+          [
+            2000,
+            9
+          ]
+        ]
+      },
+      "registered_title_plain": "Description of multi-quasiparticle bands by the tilted axis cranking model",
+      "parent_resolution": "Title identity inspected against registered title and primary PDF; MathML/isotope order and translated title are not a mismatch."
+    },
+    {
+      "source": "knowledge/sources/doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg.md",
+      "doi": "10.1103/PhysRevLett.112.162701",
+      "status": 200,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-bibliography/doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg.json",
+      "sha256": "40edb6a0322bee1daccfea16ea3428ec0d32be0c1dfcc3984cd34d5248557e52",
+      "size": 15374,
+      "url": "https://api.crossref.org/works/10.1103/PhysRevLett.112.162701",
+      "retrieved_at": "2026-11-07T19:04:09.795300+00:00",
+      "expected_title": "Shape Coexistence in the Neutron-Deficient Even-Even 182-188Hg Isotopes Studied via Coulomb Excitation",
+      "registered_title": "Shape Coexistence in the Neutron-Deficient Even-Even<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mmultiscripts><mml:mrow><mml:mi>Hg</mml:mi></mml:mrow><mml:mprescripts/><mml:none/><mml:mrow><mml:mn>182</mml:mn><mml:mo>−</mml:mo><mml:mn>188</mml:mn></mml:mrow></mml:mmultiscripts></mml:mrow></mml:math>Isotopes Studied via Coulomb Excitation",
+      "similarity": 0.4424778761061947,
+      "published": {
+        "date-parts": [
+          [
+            2014,
+            4,
+            23
+          ]
+        ]
+      },
+      "registered_title_plain": "Shape Coexistence in the Neutron-Deficient Even-Even Hg 182 − 188 Isotopes Studied via Coulomb Excitation",
+      "parent_resolution": "Title identity inspected against registered title and primary PDF; MathML/isotope order and translated title are not a mismatch."
+    },
+    {
+      "source": "knowledge/sources/doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync.md",
+      "doi": "10.1016/j.nimb.2007.04.181",
+      "status": 200,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-bibliography/doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync.json",
+      "sha256": "8785e3df5258c9f12e7309a40e6d311e26a99d786a047c48aab63a90a964fdcb",
+      "size": 5037,
+      "url": "https://api.crossref.org/works/10.1016/j.nimb.2007.04.181",
+      "retrieved_at": "2026-11-07T19:04:09.791612+00:00",
+      "expected_title": "Clock and Trigger Synchronization between Several Chassis of Digital Data Acquisition Modules",
+      "registered_title": "Clock and trigger synchronization between several chassis of digital data acquisition modules",
+      "similarity": 1.0,
+      "published": {
+        "date-parts": [
+          [
+            2007,
+            8
+          ]
+        ]
+      },
+      "registered_title_plain": "Clock and trigger synchronization between several chassis of digital data acquisition modules",
+      "parent_resolution": "Title identity inspected against registered title and primary PDF; MathML/isotope order and translated title are not a mismatch."
+    },
+    {
+      "source": "knowledge/sources/doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing.md",
+      "doi": "10.1016/j.nima.2016.01.050",
+      "status": 200,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-bibliography/doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing.json",
+      "sha256": "3b6b31af06f72fee9e16723dbe5f622ad244f1a006dde89656734e07d4bcd452",
+      "size": 10932,
+      "url": "https://api.crossref.org/works/10.1016/j.nima.2016.01.050",
+      "retrieved_at": "2026-11-07T19:04:09.801874+00:00",
+      "expected_title": "Digital Data Acquisition For the Low Energy Neutron Detector Array (LENDA)",
+      "registered_title": "Digital data acquisition for the Low Energy Neutron Detector Array (LENDA)",
+      "similarity": 1.0,
+      "published": {
+        "date-parts": [
+          [
+            2016,
+            4
+          ]
+        ]
+      },
+      "registered_title_plain": "Digital data acquisition for the Low Energy Neutron Detector Array (LENDA)",
+      "parent_resolution": "Title identity inspected against registered title and primary PDF; MathML/isotope order and translated title are not a mismatch."
+    },
+    {
+      "source": "knowledge/sources/wu-2021-general-purpose-digital-daq-waveform-analysis.md",
+      "doi": "10.1360/TB-2021-0552",
+      "status": 200,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-bibliography/doctoral-r1-g32-wu-hongyi-2021-gddaq-science-bulletin.json",
+      "sha256": "ef64dbb7cd6a8f3c52ec00df1c2fe2a7f320d8c2a24891ee15af5c013652d3f4",
+      "size": 2509,
+      "url": "https://api.crossref.org/works/10.1360/TB-2021-0552",
+      "retrieved_at": "2026-11-07T19:04:10.917735+00:00",
+      "expected_title": "基于数字化的通用获取系统及波形分析算法",
+      "registered_title": "A general-purpose data acquisition system and a waveform analysis algorithm based on digitization",
+      "similarity": 0.0,
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            5
+          ]
+        ]
+      },
+      "registered_title_plain": "A general-purpose data acquisition system and a waveform analysis algorithm based on digitization",
+      "parent_resolution": "Title identity inspected against registered title and primary PDF; MathML/isotope order and translated title are not a mismatch."
+    },
+    {
+      "source": "knowledge/sources/doctoral-r1-g33-gintautas-2009-176lu-thermal-equilibration.md",
+      "doi": "10.1103/PhysRevC.80.015806",
+      "status": 200,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-bibliography/doctoral-r1-g33-gintautas-2009-176lu-thermal-equilibration.json",
+      "sha256": "fe52ce1846e7f376de4ae597a5e88de772e60ed7cf1fe989483d8f5649848ceb",
+      "size": 6125,
+      "url": "https://api.crossref.org/works/10.1103/PhysRevC.80.015806",
+      "retrieved_at": "2026-11-07T19:04:10.945143+00:00",
+      "expected_title": "Thermal equilibration of 176Lu via K mixing",
+      "registered_title": "Thermal equilibration of\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n                      <mml:mmultiscripts>\n                        <mml:mi mathvariant=\"normal\">Lu</mml:mi>\n                        <mml:mprescripts/>\n                        <mml:none/>\n                        <mml:mrow>\n                          <mml:mn>176</mml:mn>\n                        </mml:mrow>\n                      </mml:mmultiscripts>\n                    </mml:math>\n                    via\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n                      <mml:mrow>\n                        <mml:mi>K</mml:mi>\n                      </mml:mrow>\n                    </mml:math>\n                    mixing",
+      "similarity": 0.21158690176322417,
+      "published": {
+        "date-parts": [
+          [
+            2009,
+            7,
+            16
+          ]
+        ]
+      },
+      "registered_title_plain": "Thermal equilibration of Lu 176 via K mixing",
+      "parent_resolution": "Title identity inspected against registered title and primary PDF; MathML/isotope order and translated title are not a mismatch."
+    },
+    {
+      "source": "knowledge/sources/doctoral-r1-g33-gosselin-2010-plasma-isomers-176lu-180ta.md",
+      "doi": "10.1103/PhysRevC.81.055808",
+      "status": 200,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-bibliography/doctoral-r1-g33-gosselin-2010-plasma-isomers-176lu-180ta.json",
+      "sha256": "3b8a97628cd6879f594ad2358555e8bfd418da79bfce3f71ab1c1836a0334263",
+      "size": 8748,
+      "url": "https://api.crossref.org/works/10.1103/PhysRevC.81.055808",
+      "retrieved_at": "2026-11-07T19:04:10.925583+00:00",
+      "expected_title": "Modification of nuclear transitions in stellar plasma by electronic processes: K isomers in 176Lu and 180Ta under s-process conditions",
+      "registered_title": "Modification of nuclear transitions in stellar plasma by electronic processes:<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mi>K</mml:mi></mml:mrow></mml:math>isomers in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mmultiscripts><mml:mi mathvariant=\"normal\">Lu</mml:mi><mml:mprescripts/><mml:none/><mml:mrow><mml:mn>176</mml:mn></mml:mrow></mml:mmultiscripts></mml:math>and<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mmultiscripts><mml:mi mathvariant=\"normal\">Ta</mml:mi><mml:mprescripts/><mml:none/><mml:mrow><mml:mn>180</mml:mn></mml:mrow></mml:mmultiscripts></mml:math>under<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mi>s</mml:mi></mml:mrow></mml:math>-process conditions",
+      "similarity": 0.22972972972972974,
+      "published": {
+        "date-parts": [
+          [
+            2010,
+            5,
+            28
+          ]
+        ]
+      },
+      "registered_title_plain": "Modification of nuclear transitions in stellar plasma by electronic processes: K isomers in Lu 176 and Ta 180 under s -process conditions",
+      "parent_resolution": "Title identity inspected against registered title and primary PDF; MathML/isotope order and translated title are not a mismatch."
+    },
+    {
+      "source": "knowledge/sources/doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives.md",
+      "doi": "10.1103/PhysRevC.87.025803",
+      "status": 200,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-bibliography/doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives.json",
+      "sha256": "9a00c2c8b7c55ee61f37b4e37ba497d8d5134d38d85fbb57f6e889ebc4818151",
+      "size": 9292,
+      "url": "https://api.crossref.org/works/10.1103/PhysRevC.87.025803",
+      "retrieved_at": "2026-11-07T19:04:11.996705+00:00",
+      "expected_title": "Shell-model half-lives including first-forbidden contributions for r-process waiting-point nuclei",
+      "registered_title": "Shell-model half-lives including first-forbidden contributions for<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mi>r</mml:mi></mml:math>-process waiting-point nuclei",
+      "similarity": 0.6830985915492958,
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            2,
+            15
+          ]
+        ]
+      },
+      "registered_title_plain": "Shell-model half-lives including first-forbidden contributions for r -process waiting-point nuclei",
+      "parent_resolution": "Title identity inspected against registered title and primary PDF; MathML/isotope order and translated title are not a mismatch."
+    },
+    {
+      "source": "knowledge/sources/doctoral-r1-g35-rodriguez-2010-prl-0nubb-edf.md",
+      "doi": "10.1103/PhysRevLett.105.252503",
+      "status": 429,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-bibliography/doctoral-r1-g35-rodriguez-2010-prl-0nubb-edf.json",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "url": "https://api.crossref.org/works/10.1103/PhysRevLett.105.252503",
+      "retrieved_at": "2026-11-07T19:04:11.974182+00:00"
+    },
+    {
+      "source": "knowledge/sources/doctoral-r1-g35-vaquero-2013-prl-shape-pairing-0nubb.md",
+      "doi": "10.1103/PhysRevLett.111.142501",
+      "status": 200,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-bibliography/doctoral-r1-g35-vaquero-2013-prl-shape-pairing-0nubb.json",
+      "sha256": "8176da0272080eab66166d878d97ae792f3e6808cf75a6a3244c1b9de2a9a8a5",
+      "size": 7688,
+      "url": "https://api.crossref.org/works/10.1103/PhysRevLett.111.142501",
+      "retrieved_at": "2026-11-07T19:04:11.988106+00:00",
+      "expected_title": "Shape and pairing fluctuations effects on neutrinoless double beta decay nuclear matrix elements",
+      "registered_title": "Shape and Pairing Fluctuation Effects on Neutrinoless Double Beta Decay Nuclear Matrix Elements",
+      "similarity": 0.9947643979057592,
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            9,
+            30
+          ]
+        ]
+      },
+      "registered_title_plain": "Shape and Pairing Fluctuation Effects on Neutrinoless Double Beta Decay Nuclear Matrix Elements",
+      "parent_resolution": "Title identity inspected against registered title and primary PDF; MathML/isotope order and translated title are not a mismatch."
+    },
+    {
+      "source": "knowledge/sources/zagrebaev-2001-superheavy-synthesis-survival.md",
+      "doi": "10.1103/PhysRevC.65.014607",
+      "status": 200,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-bibliography/doctoral-r1-g36-zagrebaev-2001-prc-superheavy-synthesis.json",
+      "sha256": "34a3b55b59022cbbead6d0c15cf2e10334dc0c0ff2d84a60464604dc029b5593",
+      "size": 12315,
+      "url": "https://api.crossref.org/works/10.1103/PhysRevC.65.014607",
+      "retrieved_at": "2026-11-07T19:04:12.957228+00:00",
+      "expected_title": "Synthesis of superheavy nuclei: How accurately can we describe it and calculate the cross sections?",
+      "registered_title": "Synthesis of superheavy nuclei: How accurately can we describe it and calculate the cross sections?",
+      "similarity": 1.0,
+      "published": {
+        "date-parts": [
+          [
+            2001,
+            12,
+            12
+          ]
+        ]
+      },
+      "registered_title_plain": "Synthesis of superheavy nuclei: How accurately can we describe it and calculate the cross sections?",
+      "parent_resolution": "Title identity inspected against registered title and primary PDF; MathML/isotope order and translated title are not a mismatch."
+    },
+    {
+      "source": "knowledge/sources/kumar-1972-quadrupole-shapes-original-metadata.md",
+      "doi": "10.1103/PhysRevLett.28.249",
+      "status": 200,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-bibliography/kumar-1972-quadrupole-shapes-original-metadata.json",
+      "sha256": "118351e8238b90c1c0c6894debb63ea4d0068d31b7258ffe0feb7dcc0a7061ff",
+      "size": 4006,
+      "url": "https://api.crossref.org/works/10.1103/PhysRevLett.28.249",
+      "retrieved_at": "2026-11-07T19:04:12.963509+00:00",
+      "expected_title": "Intrinsic Quadrupole Moments and Shapes of Nuclear Ground States and Excited States",
+      "registered_title": "Intrinsic Quadrupole Moments and Shapes of Nuclear Ground States and Excited States",
+      "similarity": 1.0,
+      "published": {
+        "date-parts": [
+          [
+            1972,
+            1,
+            24
+          ]
+        ]
+      },
+      "registered_title_plain": "Intrinsic Quadrupole Moments and Shapes of Nuclear Ground States and Excited States",
+      "parent_resolution": "Title identity inspected against registered title and primary PDF; MathML/isotope order and translated title are not a mismatch."
+    }
+  ],
+  "bounded_retry": {
+    "path": "raw/papers/gpt/query/20261108-foundations-bibliography/doctoral-r1-g35-rodriguez-2010-prl-0nubb-edf-retry.json",
+    "url": "https://api.crossref.org/works/10.1103/PhysRevLett.105.252503",
+    "size": 5491,
+    "sha256": "cab340c110e2f2700cc9c99c23e46e167174c7489b83974d018531b05720e701",
+    "retrieved_at": "2026-11-07T19:09:56.357966+00:00",
+    "role": "crossref-bounded-retry-response",
+    "http_status": 200,
+    "archive_required": true,
+    "registered_title": [
+      "Energy Density Functional Study of Nuclear Matrix Elements for Neutrinoless<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mi>β</mml:mi><mml:mi>β</mml:mi></mml:math>Decay"
+    ],
+    "parent_resolution": "Registered title and author pairing match actual arXiv original."
+  }
+}
