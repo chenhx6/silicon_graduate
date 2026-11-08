@@ -62,6 +62,7 @@ def inspect_ast(tree: object) -> dict:
     counts: collections.Counter = collections.Counter()
     citations: set[str] = set()
     raw_tex: list[str] = []
+    misplaced_dollars: list[str] = []
 
     def walk(item: object) -> None:
         if isinstance(item, dict):
@@ -69,6 +70,10 @@ def inspect_ast(tree: object) -> dict:
             content = item.get("c")
             if kind == "Math":
                 counts[content[0]["t"]] += 1
+                if "$" in content[1]:
+                    misplaced_dollars.append(content[1][:140])
+            if kind == "Str" and "$" in content:
+                misplaced_dollars.append(content[:140])
             if kind == "Cite":
                 citations.update(c["citationId"] for c in content[0])
             if kind in {"RawInline", "RawBlock"} and content[0] in {"tex", "latex"}:
@@ -80,7 +85,10 @@ def inspect_ast(tree: object) -> dict:
                 walk(value)
 
     walk(tree)
-    return {"math": dict(counts), "citations": sorted(citations), "raw_tex": raw_tex}
+    return {
+        "math": dict(counts), "citations": sorted(citations), "raw_tex": raw_tex,
+        "misplaced_dollars": misplaced_dollars,
+    }
 
 
 def normalize_headings(text: str, section_id: str) -> str:
@@ -127,7 +135,7 @@ def main() -> None:
         if not path.resolve().is_relative_to(PAPER.resolve()):
             raise ValueError("Section path leaves the active manuscript")
         text = path.read_text(encoding="utf-8")
-        if re.search(r"[\x00-\x08\x0b\x0c\x0e-\x1f\r]", text):
+        if re.search(r"[\x00-\x09\x0b-\x1f]", text):
             raise ValueError(f"{sid}: control character in manuscript")
         ast = json.loads(pandoc(["-f", "markdown", "-t", "json"], text))
         if ast["meta"]:
@@ -137,6 +145,11 @@ def main() -> None:
             raise ValueError(
                 f"{sid}: raw TeX would disappear from HTML; use $/$$ math: "
                 + repr(inspected["raw_tex"][:2])
+            )
+        if inspected["misplaced_dollars"]:
+            raise ValueError(
+                f"{sid}: unexpected literal dollar; check shell expansion or math delimiters: "
+                + repr(inspected["misplaced_dollars"][:2])
             )
         missing = set(inspected["citations"]) - known
         if missing:

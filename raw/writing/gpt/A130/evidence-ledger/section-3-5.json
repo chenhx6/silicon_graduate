@@ -7,7 +7,7 @@
   "status": "research-draft-v3-complete",
   "scope_boundary": "本节系统阐述三轴核非共面角动量几何、反幺正手征对称性 C = T Ry(pi) 的代数结构、有限体系正交与非正交两态隧穿模型（附加实对称近似），以及电磁指纹与非手征竞争机制的实验判据；具体核区（如 A~130 与 A~80）的多重手征带与微观势能面对账转入第4章，更一般的复非正交两态广义本征方程待后续章节与附录讨论。",
   "draft_path": "raw/writing/gpt/A130/research-draft/section-3-5.md",
-  "draft_sha256": "16f2ad39e1f37f43003d48b1e72db0bb56865d98148fbdfd26769e96c15884d1",
+  "draft_sha256": "b0d58b8da2127d4aaa433bb1fc7bb88685338f767ad0b05365035befc9615820",
   "source_inputs": [
     {
       "source_id": "liu-chen-2016-78br-chirality-reflection-symmetry-thesis",
@@ -137,7 +137,7 @@
     "angular_momentum_units": "总角动量量子数I无量纲；算符\\hat{\\mathbf{J}}具\\hbar量纲，无量纲算符\\hat{\\mathbf{j}} = \\hat{\\mathbf{J}}/\\hbar",
     "declared_y_axis": "在粒子—转子模型与推转模型中声明的y轴定义为中间惯量轴；核瞬时实际转轴随转速在三维立体空间中倾斜，不与内禀y轴全局重合",
     "operator_action_on_J": "C = T Ry(pi) 在 y=m 时对角动量分量的显式作用为 (Js, Jm, Jl) -> (Js, -Jm, Jl)，即反转沿声明轴分量而保持垂直面分量，不普遍恢复总J原方向；明确声明轴与瞬时转轴不同",
-    "pseudoscalar_expectation": "对于C对称哈密顿量的非简并本征态，C奇的厄米标量算符其期望值严格为零；非零期望值仅适用于破缺对称性的内禀参考态，不可直接套用于精确实验室本征态",
+    "pseudoscalar_expectation": "对C对称H的非简并本征态，C奇厄米标量期望为0；破缺参考态或选定精确简并叠加可不同。非独立子角动量须处理次序/厄米性，不把只在内禀态非零作普遍定理。",
     "signature_applicability": "旋称alpha_sig与r = exp(-i*pi*alpha_sig)是严格条件对称性，仅在推转哈密顿量保留绕推转轴pi旋转对称时守恒；三维倾斜轴推转中该对称性自发破缺，不可为所有TAC/手征带强行赋统一signature标签",
     "geometric_vs_particle_chirality": "核转动几何手征性是三轴形变核在转动态下多体角动量非共面构型的宏观集体破缺，在强相互作用与电磁相互作用守恒宇称与时间反演的近似框架下讨论；严格区别于弱相互作用中由gamma^5投影定义的粒子手征性",
     "energy_staggering_S_I": "S(I) = [E(I) - E(I-1)] / (2I) 具能量量纲（keV或MeV），代数公式明确归引于 Meng 2010 PDF p.6 §3.1 Eq.(3.1)；不同文献中同名S(I)具有二阶能量差分比或无量纲定义，禁止跨文献混用"
@@ -191,15 +191,16 @@
     "No downloading of new external files"
   ],
   "parent_integration": {
-    "recorded_at": "2026-11-08T01:08:17.493616+00:00",
+    "recorded_at": "2026-11-08T02:19:40.075927+00:00",
     "version": "v3-parent-integrated",
-    "manuscript_sha256": "16f2ad39e1f37f43003d48b1e72db0bb56865d98148fbdfd26769e96c15884d1",
+    "manuscript_sha256": "b0d58b8da2127d4aaa433bb1fc7bb88685338f767ad0b05365035befc9615820",
     "corrections": [
       "Distinguish planar/general TAC from three-dimensional solution",
       "Remove universal degeneracy threshold and qualify same-symbol S(I)",
       "Petrache versus CPHC attribution separated; remove undefined pair-blocking phrase",
       "Remove absolute-lifetime/3D-model universal hard line",
-      "Correct 3.6/5.7 interfaces and conditional four-band outcome"
+      "Correct 3.6/5.7 interfaces and conditional four-band outcome",
+      "Restrict zero C-odd expectation to its nondegenerate/C-invariant assumptions; exact-degeneracy choices and Hermiticity retained"
     ],
     "boundary": "Complete returned text read and important formulas/attributions checked; research-draft acceptance only"
   }

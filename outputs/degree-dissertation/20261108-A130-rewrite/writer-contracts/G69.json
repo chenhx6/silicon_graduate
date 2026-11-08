@@ -1,0 +1,81 @@
+{
+  "root": "/workspace/wiki",
+  "model": "antigravity/gemini-3.8-flash-tiered",
+  "reasoning_effort": "high",
+  "permissions": {
+    "raw_draft_write": "explicitly authorized only for listed new section and matching ledger",
+    "git": false,
+    "subagents": false,
+    "credentials": false,
+    "external_messages": false
+  },
+  "read_first": [
+    "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-argument-and-writer-contract-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-high-risk-section-contracts-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-notation-and-evidence-style-20261108.md"
+  ],
+  "workflow": [
+    "先读给定canonical笔记和原件具体页，台账记录实际读取范围、SHA、版次、claim类别和locator；先在ledger记录5–8句论证骨架再起草，无需等用户确认。",
+    "写面向具有一般量子力学但不熟核结构的读者的连贯中文正文，定义→必要推导→物理解释→可测量量→竞争解释。标题按地图，通常3–5子节，篇幅按讲清问题而非凑字。",
+    "正文只引用真正读过的原作，[@source-basename]；内部知识页用于定位与校准，不冒充已发表论文。模型/教学假设与实际测量分开。未知个人数据/硬件/成果不补写。",
+    "不读取或复用旧归档稿，不改其它节、书目、索引、共享handoff或system；无并发共享写者。",
+    "仅用 $...$ 和 $$...$$ 数学，严禁原始TeX环境、label/ref、三连美元；长正文用apply_patch或python单引号heredoc，勿嵌在python -c单引号shell中。",
+    "写后实际检查JSON与Pandoc AST/HTML数学，任何math转换警告必须修；不能仅数DisplayMath自评通过。",
+    "receipt用datetime.now(timezone.utc)实际采样；只哈希其它文件不哈希自己。回传路径、真实检查和未解，不把完成或模型自评当科学通过。"
+  ],
+  "ledger_minimum": [
+    "section_id",
+    "title",
+    "version",
+    "recorded_at",
+    "argument_outline",
+    "sources: source_id/raw_file/raw_sha256/actual_read_pages",
+    "claims: text/kind/source_id/locator/conditions",
+    "equations: convention/derivation/limit",
+    "competing_explanations",
+    "unresolved"
+  ],
+  "format_boundary": "No PDF/school submission claim; MD+MathML preview is current rendering route",
+  "task_id": "G69",
+  "section_id": "1.1",
+  "title": "一个能谱为什么容许多种解释",
+  "depends_on": [
+    "three-pilot-parent-admission"
+  ],
+  "read_notes": [
+    "raw/writing/gpt/A130/research-draft/section-1-2.md",
+    "knowledge/research-notes/a130-rewrite-chiral-nonorthogonal-and-fingerprint-boundaries-20261108.md",
+    "knowledge/research-notes/a130-rewrite-absolute-rates-and-selection-boundaries-20261108.md"
+  ],
+  "must_explain": [
+    "作为引入节，以真实近简并/跃迁数据的意义提出一个中央问题：如何从有限谱学观测约束核形状和集体动力学，并区分同谱的竞争机制。不要一上来写完整模型或回顾所有质量区。",
+    "围绕134Pr critique和163Lu寿命两项已核原作，区分作者实测/采用输入/模型解释。不需要具体数值，若使用必须逐原表核验，不能从记忆给典型百分比。不能将两个同实验采用量当独立证据。",
+    "给一张自有概念表/简图：可记录的计数/能量→响应和态身份→不同模型预言→哪项未用于调参的新观测可能改变比较。示意不新增实测点，不把缺某测量当普通研究资格门。",
+    "初学者友好、保留观察尺度带来的兴趣，但不虚构历史对白/个人结果，不模仿三体原句，不用宏大口号；正文1500–2200汉字左右即可，按实际论证不硬凑。",
+    "与1.2形状对象接上，历史展开留1.3、六区地图留1.4；本节不要复制1.2/3.5/5.9证明或列合同/审计检查清单。",
+    "选择定则允许不等于实际存在；重定相不变不等于数据可唯一测出；模型吻合不等于唯一机制；用具体例子自然阐明，避免重复说严格/必须/全部/无一例外。"
+  ],
+  "exclusive_write_paths": [
+    "raw/writing/gpt/A130/research-draft/section-1-1.md",
+    "raw/writing/gpt/A130/evidence-ledger/section-1-1.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/G69/receipt.json"
+  ],
+  "source_inputs": [
+    {
+      "source_id": "petrache-2006-near-degenerate-chiral-misinterpretation",
+      "source_page": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+      "raw_sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f",
+      "required_locator": "PDF1–4，问题、具体证据与作者解释；不能把critique写成证明所有近简并均非手征"
+    },
+    {
+      "source_id": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "source_page": "knowledge/sources/campaign-g07-gorgen-2004-163lu-quadrupole-moments.md",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "raw_sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e",
+      "required_locator": "PDF2–4/TablesI–II，寿命/采用输入/Qt解释边界"
+    }
+  ],
+  "validated_at": "2026-11-08T01:25:29.744264+00:00"
+}

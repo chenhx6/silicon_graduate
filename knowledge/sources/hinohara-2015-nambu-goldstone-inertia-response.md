@@ -45,6 +45,15 @@ APS 发表记录为 2015-09-21。网页/题录和本次版本获取在 T05 colle
 
 ## Scope and Reading Depth
 
+2026-11-08配对正文定向回核：T10读APS PDF5的Eqs.(49)–(53)、
+PDF8–9的Eqs.(66)–(67)及Fig.4图注。
+Eq.(66)字面将B称binding energy并写正曲率，而Fig.4图注比较−Bexp且给负化学势；
+故写作者不能把本稿正束缚能 \(B_+=-E\) 静默当成原式同一B。
+这保留原文记法边界，不猜作者程序错误或具体成因。
+按 \(H-\lambda N\) 约定使用总能E的局部展开、再显式转为B+，
+详见[[a130-rewrite-bcs-convention-and-model-hamiltonian-boundaries-20261108]]。
+此单元不扩大其它因子/混合曲率的旧核查范围。
+
 - Completed reading_depth: skimmed，有界公式、版本与数值核查。
 - Covered scope: APS pp. 3,5–10 的实/虚 QRPA 分块、NG 零频响应、
   共轭坐标、IB、平移和配对应用；与 arXiv v1 的相应公式对读。

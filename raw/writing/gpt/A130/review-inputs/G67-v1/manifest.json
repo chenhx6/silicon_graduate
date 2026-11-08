@@ -1,0 +1,19 @@
+{
+  "archive_type": "research-archive-v1",
+  "archive_required": true,
+  "retrieved_at": "2026-11-08T01:19:46.947424+00:00",
+  "files": [
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G67-v1/section-2-3.md",
+      "sha256": "0f145322817587c8f17a38d516962d746765d68e18018c338a48f079e7e3b61b",
+      "size": 29241,
+      "source": "Frozen G67 first returned manuscript/ledger; review input, not original physical evidence"
+    },
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G67-v1/section-2-3.json",
+      "sha256": "166735b843e8faf23e8f25b8cde1ef8f9451133e14238f6ec4f3fb9e72791679",
+      "size": 14044,
+      "source": "Frozen G67 first returned manuscript/ledger; review input, not original physical evidence"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "task": "G66",
+  "section_id": "2.1",
+  "title": "实验室对称性与张量语言",
+  "version": "V2",
+  "recorded_at": "2026-11-08T01:28:19.511357+00:00",
+  "status": "completed",
+  "exclusive_write_paths": [
+    "raw/writing/gpt/A130/research-draft/section-2-1.md",
+    "raw/writing/gpt/A130/evidence-ledger/section-2-1.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/G66/receipt.json"
+  ],
+  "draft_sha256": "d029e5afca71d6e34553358deb0fb62f8cdaff2f0536b8a32ddef16ac31b8de8",
+  "ledger_sha256": "966ddd41e88447be093670a3ef56ab01693c78004188261b054b6f3f1a2dd090",
+  "metrics": {
+    "chinese_character_count": 4513,
+    "word_count": 1398,
+    "display_equations_count": 29,
+    "subsections_count": 4
+  },
+  "sources_verified": [
+    {
+      "key": "book-suhonen-from-nucleons-to-nucleus",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "actual_read_pages": "printed pp. 29–30 (PDF pp. 44–45), printed pp. 118–121 (PDF pp. 133–136)"
+    },
+    {
+      "key": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "raw_sha256": "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113",
+      "actual_read_pages": "printed pp. 698–700 (PDF pp. 16–18)"
+    }
+  ],
+  "v2_refinements_applied": {
+    "1_operator_notation_standardization": "全篇统一使用无量纲算符 j = J/hbar，I 严格限定为总自旋量子数；阶梯算符与球张量李代数对易子全部采用 j_± 与 [j_z, T_{lambda mu}] 等标准符号。",
+    "2_su2_covering_and_pv_boundary": "明确指出 SU(2) 万有覆盖 SO(3) 解释了整数与半整数两类自旋不可约表示；将空间反演宇称守恒明确为强/电磁相互作用主导的核结构近似框架，删除无普适依据的 10^-7 弱宇称数值，承认核物理中宇称不守恒（PV）实验存在。",
+    "3_substate_degeneracy_and_b_definition": "澄清 M 子态能量简并不等于实际核系综不可区分或必须各向同性（可通过反应或极化制备取向/顺排态）；将 B(sigma lambda) 的等权平均明确为理论定义的内禀标度，实际在束实验有限立体角与自旋顺排计数需结合取向张量 B_k(I) 反演（转第 5 章）。",
+    "4_intrinsic_reference_state_boundary": "严格限定内禀态为未投影的形变平均场参考态（如形变 HF、Nilsson 或推转波函数），指出其破缺旋转对称性为多自旋成分波包；渐近量子数 Omega 明确限定于轴对称大形变极限，删除普遍 |I, M, K> 展开。",
+    "5_time_reversal_and_discrete_symmetries": "明确时间反演反幺正性质与奇核两重 Kramers 简并，区分条件性空间旋转 signature 对称性与时间反演，消除强制由 Kramers 简并导出手征双带的推论，完整反演细节转 2.5/3.5 节。",
+    "6_3j_symbol_and_rme_observability": "更正 3j 符号为圆括号；精确界定单个孤立非对角 RME 的复相位/实正负号不可独立观测，其绝对模长与同态分支振幅比可测；澄清闭合环路相消不变性为可观测的必要条件，不保证任意环实验解唯一。",
+    "7_phase_convention_cleanup": "彻底删除关于 CS 与 BR 算符复相位泛化论述，统一采用标准厄米球张量约定 T^dagger = (-1)^mu T_{-,mu}，算符与几率振幅相位成套映射留待 5.7 与 5.9 节。",
+    "8_spectroscopic_quadrupole_moment": "称 Q_s 为‘实验室静四极矩’；明确 I >= 1 为产生非零静矩的必要而非充分条件；批驳普遍由 Q_s 符号判别长扁的误解，强调仅在理想轴对称 K=0 刚性转子模型下具有 Q_s(2_1^+) = -2/7 Q_0 映射。",
+    "9_coulomb_excitation_joint_inversion": "强调库仑激发中闭合乘积仅为核结构因子，截面包含轨道积分与角响应；说明 Q_s 符号确定依赖不同能量与散射角的多态联合拟合，严格区分代数规范不变性与实验反演解的唯一性。",
+    "10_invariant_operators_harmonization": "与全篇符号完全统一：定义 A = T·T = sqrt(5)[T×T]^0，q_2 = <A> = sum_r B(E2; s->r)；定义 B = -sqrt(35/2)[[T×T]^2×T]^0，q_3 = <B>，消除定义歧义。",
+    "11_recoupling_minimal_formula": "正文仅保留最小 q_2 求和与 I=0 基态 q_3 = -sqrt(7/10) sum_{r,t} R_{0r} R_{rt} R_{t0} 闭合网络，一般初态自旋 6j 重耦合展开归入附录 A。",
+    "12_cline_sum_rule_boundary": "撤回 Cline 70–95% 统一范围与高阶误差必然迅速增加的绝对化定理，指出其为特定集体核区域的观测；明确有效玻色子算符非对易性在截断空间中可能引入非微小偏差。",
+    "13_invariant_geometry_boundaries": "重申 q_2/q_3 有限网络不等于无模型直接测出唯一刚性三轴形变；保留 1.2 节关于矩比非几何平均、多解分支与实验协方差的边界说明。",
+    "14_measured_academic_tone": "彻底清除‘完全客观实在性、绝对守恒、最重要、严密数学基石’等自评用语与冗余清单，全文采用客观平实的学术中文论证，篇幅为 4,513 汉字。"
+  },
+  "formatting_verifications": {
+    "pandoc_ast_json": "Verified: pandoc raw/writing/gpt/A130/research-draft/section-2-1.md -t json -o /dev/null exits with 0 and zero warnings.",
+    "pandoc_html_mathml": "Verified: pandoc raw/writing/gpt/A130/research-draft/section-2-1.md --mathml -t html -o /dev/null exits with 0 and zero warnings.",
+    "json_ledger_syntax": "Verified: raw/writing/gpt/A130/evidence-ledger/section-2-1.json is valid JSON with verified hash and all minimum required fields."
+  },
+  "unresolved_scientific_frontiers": [
+    "高阶旋转不变量（四阶及以上）截断收敛性对微观核结构模型空间的依赖程度需结合微观大空间壳模型与高阶库仑激发实验进一步系统评估；",
+    "在截断有效玻色子或有效核子算符空间中，重整化有效单体算符的对易异质性对连续坐标恒等式成立精度的微观破缺程度仍待进一步定量约束。"
+  ]
+}

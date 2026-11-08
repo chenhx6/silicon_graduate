@@ -1,0 +1,87 @@
+{
+  "task": "T10 frozen G67-v1 focused mathematical and primary-source audit",
+  "completed_at_utc": "2026-11-08T01:25:19.140696+00:00",
+  "status": "completed_scoped_audit_findings_requiring_revision",
+  "scientific_auto_pass": false,
+  "scope": "Seven requested mathematical and source questions; no active draft, paper writing, or independent experimental claim",
+  "source_pages": {
+    "suhonen": "printed 399–404, 408–411; PDF physical 412–417, 421–424",
+    "hinohara": "APS PDF 5, 8–9; equations 49–53 and 66–67, Fig. 4 caption"
+  },
+  "files": {
+    "frozen_draft": {
+      "path": "raw/writing/gpt/A130/review-inputs/G67-v1/section-2-3.md",
+      "sha256": "0f145322817587c8f17a38d516962d746765d68e18018c338a48f079e7e3b61b",
+      "bytes": 29241
+    },
+    "frozen_ledger": {
+      "path": "raw/writing/gpt/A130/review-inputs/G67-v1/section-2-3.json",
+      "sha256": "166735b843e8faf23e8f25b8cde1ef8f9451133e14238f6ec4f3fb9e72791679",
+      "bytes": 14044
+    },
+    "frozen_manifest": {
+      "path": "raw/writing/gpt/A130/review-inputs/G67-v1/manifest.json",
+      "sha256": "b271aed8d518f3a77830c890818504a9df64f4cf70ec9a64e3011148b49b08b4",
+      "bytes": 745
+    },
+    "suhonen_pdf": {
+      "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "bytes": 6514067
+    },
+    "hinohara_aps_pdf": {
+      "path": "raw/papers/gpt/query/20261108-r2-t05-response-definitions/aps-publication.pdf",
+      "sha256": "764d644a2349235027e15c320d78f15fcd7d8fd264ebe6412fd2b80e1a625f86",
+      "bytes": 399622
+    },
+    "r2_crosswalk": {
+      "path": "knowledge/research-notes/doctoral-r2-collective-inertia-response-crosswalk-20261108.md",
+      "sha256": "965bd29e01a32609f1dc5882dfc0d97e3c3c3c19d83285d4325d90a9a35154f7",
+      "bytes": 12073
+    },
+    "producer": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/T10/control.py",
+      "sha256": "ce595d5510be1e05a642140a34c8750a71084907f07f7a0ca7cf309208c3f95b",
+      "bytes": 2295
+    },
+    "control_input": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/T10/control-input.json",
+      "sha256": "8d85c164a84ce91819bdef03affed273e43820dcfb6181bd1c3096bde1038027",
+      "bytes": 145
+    },
+    "control_artifact": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/T10/control-output.json",
+      "sha256": "4cbfdb3f5fdebd34d5b907d0c6bfc47ea96bf21a868fd9d4340aa5d549a43f48",
+      "bytes": 1143
+    },
+    "report": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/T10/report.md",
+      "sha256": "1ebdde503ecc35061d0c450ba0f66b2340316b70f689a10f522030498efdc181",
+      "bytes": 13308
+    }
+  },
+  "control": {
+    "command": "python3 outputs/degree-dissertation/20261108-A130-rewrite/T10/control.py outputs/degree-dissertation/20261108-A130-rewrite/T10/control-input.json > outputs/degree-dissertation/20261108-A130-rewrite/T10/control-output.json",
+    "exit_code": 0,
+    "assertions": "completed",
+    "scope": "16-dimensional seniority-zero pair basis; product-state energy and selected matrix and sign checks",
+    "results": {
+      "matrix_minus_residual": 1.6,
+      "matrix_plus_residual": 1.2412670766236366e-16,
+      "pair_only_Gcrit": 0.3333333333333333,
+      "suhonen_Gcrit": 0.2857142857142857
+    }
+  },
+  "restrictions": {
+    "active_draft_read": false,
+    "git_used": false,
+    "subagents_used": false,
+    "new_originals_downloaded": false,
+    "external_messages_sent": false
+  },
+  "limitations": [
+    "Does not establish the global BCS minimum or exact full-spectrum nuclear result.",
+    "Hinohara source convention ambiguity is identified, not adjudicated using author code.",
+    "No whole-section scientific certification."
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "root": "/workspace/wiki",
+  "model": "antigravity/gemini-3.8-flash-tiered",
+  "reasoning_effort": "high",
+  "permissions": {
+    "raw_draft_write": "explicitly authorized only for listed new section and matching ledger",
+    "git": false,
+    "subagents": false,
+    "credentials": false,
+    "external_messages": false
+  },
+  "read_first": [
+    "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-argument-and-writer-contract-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-high-risk-section-contracts-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-notation-and-evidence-style-20261108.md"
+  ],
+  "workflow": [
+    "先读给定canonical笔记和原件具体页，台账记录实际读取范围、SHA、版次、claim类别和locator；先在ledger记录5–8句论证骨架再起草，无需等用户确认。",
+    "写面向具有一般量子力学但不熟核结构的读者的连贯中文正文，定义→必要推导→物理解释→可测量量→竞争解释。标题按地图，通常3–5子节，篇幅按讲清问题而非凑字。",
+    "正文只引用真正读过的原作，[@source-basename]；内部知识页用于定位与校准，不冒充已发表论文。模型/教学假设与实际测量分开。未知个人数据/硬件/成果不补写。",
+    "不读取或复用旧归档稿，不改其它节、书目、索引、共享handoff或system；无并发共享写者。",
+    "仅用 $...$ 和 $$...$$ 数学，严禁原始TeX环境、label/ref、三连美元；长正文用apply_patch或python单引号heredoc，勿嵌在python -c单引号shell中。",
+    "写后实际检查JSON与Pandoc AST/HTML数学，任何math转换警告必须修；不能仅数DisplayMath自评通过。",
+    "receipt用datetime.now(timezone.utc)实际采样；只哈希其它文件不哈希自己。回传路径、真实检查和未解，不把完成或模型自评当科学通过。",
+    "任何数值、范围、表格单元格只能来自实际原件或可执行producer；禁止凭记忆填典型值、按两个锚点补其余行。模拟表明确输入、取幅/归一与原文件SHA。",
+    "只有Pandoc退出0不够；检测全文除换行外ASCII控制字符（含TAB）、未配对/错位美元、shell $$数字替换。正文长字符串用apply_patch或quoted heredoc+Python raw string；不得用unquoted heredoc。",
+    "实测、作者解释、模型和任务推导分开。选择允许≠实际存在，模型对称≠普适定义，驻点≠极小，模型相容≠解释唯一；在具体段落自然说明，不写警示清单。"
+  ],
+  "ledger_minimum": [
+    "section_id",
+    "title",
+    "version",
+    "recorded_at",
+    "argument_outline",
+    "sources: source_id/raw_file/raw_sha256/actual_read_pages",
+    "claims: text/kind/source_id/locator/conditions",
+    "equations: convention/derivation/limit",
+    "competing_explanations",
+    "unresolved"
+  ],
+  "format_boundary": "No PDF/school submission claim; MD+MathML preview is current rendering route",
+  "task_id": "G71",
+  "section_id": "2.4",
+  "title": "形状坐标、测度与集体量子化",
+  "depends_on": [
+    "pilot-parent-admission",
+    "wave2-parent-admission-of-prerequisites"
+  ],
+  "read_notes": [
+    "knowledge/research-notes/doctoral-r1-t03-shape-invariants-and-softness-20261108.md",
+    "knowledge/research-notes/doctoral-r2-collective-inertia-response-crosswalk-20261108.md",
+    "raw/writing/gpt/A130/research-draft/section-1-2.md"
+  ],
+  "must_explain": [
+    "从5个实四极自由度（复球分量有reality条件）到β、γ与3Euler角：a0=βcosγ、a±2=βsinγ/sqrt2、a±1=0；解释主轴重标记、0<=γ<=pi/3扇区和β0/轴对称端点的坐标退化。不是所有微观密度都被5坐标完整描述。",
+    "先明确采用常正B、五维欧氏四极坐标的教学Bohr模型，推经典T=B/2(dotβ²+β²dotγ²)+1/2sumJk ωk²，Jk=4Bβ²sin²(γ-2pi k/3)，轴编号须自己声明。j_k=Jop_k/hbar无量纲，B单位hbar²/energy，不混矩阵元Q带电量纲。",
+    "以Laplace-Beltrami/Podolsky-Pauli说明量子动能和β⁴|sin3γ|dβdγdΩ测度，Haar含sin Euler角；每一项hbar²/2B与β因子检查。完整复杂度规代数留附录C；不得把常B测度推广成所有坐标相关惯量的唯一measure，一般模型另有权重。",
+    "有限β/γ波函数按measure归一，不把|ψ(γ)|²无权当概率。常γ势的I0固定β控制基态关于x=cos3γ均匀、平均γ=30度，并非刚性30度；可引既有R1/T03计算，但只能实际CSV数据，勿造新的角宽/能标阈值。",
+    "端点是坐标奇点，需规则性、主轴对称/通量条件，不能把所有ψ强行设边界零；D2与D2h和24重标记区别。偶偶四极集体模型的自旋/边界不冒充奇核全波函数。",
+    "静态矩/波函数和绝对势能尺度/惯量是不同对象；给既有整体H缩放逻辑即可，详细微观惯量留2.6、形状/取向混合留3.6。既不要由窄幅度证明深阱，也不要说软核不能用内禀坐标。约3500–5000汉字，自然推理，不写审校合同口吻。"
+  ],
+  "exclusive_write_paths": [
+    "raw/writing/gpt/A130/research-draft/section-2-4.md",
+    "raw/writing/gpt/A130/evidence-ledger/section-2-4.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/G71/receipt.json"
+  ],
+  "source_inputs": [
+    {
+      "source_id": "bohr-1952-surface-particle-coupling",
+      "source_page": "knowledge/sources/bohr-1952-surface-particle-coupling.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-1952-mfm26-14.pdf",
+      "raw_sha256": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d",
+      "required_locator": "原件印刷/PDF9–13、19–21，坐标/无旋流的条件；主轴24种右手重标记不等于D2h阶8"
+    },
+    {
+      "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+      "source_page": "knowledge/sources/prochniak-rohozinski-2009-bohr-collective-hamiltonian.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/manifest.json",
+      "raw_sha256": "9afdb6573cb302fb18ae0eb3914d0c51afbbbdf5b9984f0400bf784e40b5ca63",
+      "required_locator": "实际53页v1 PDF2–5、12–16，Eqs3.1–3.15；一般六惯量函数、标量权重、动能与measure；不把发表于2009的研究状态外推今日"
+    }
+  ],
+  "validated_at": "2026-11-08T01:51:21.633139+00:00"
+}

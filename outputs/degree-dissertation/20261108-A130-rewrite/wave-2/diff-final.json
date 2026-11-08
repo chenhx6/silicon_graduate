@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-11-08T02:05:11.274709+00:00",
+  "command": [
+    "git",
+    "--no-optional-locks",
+    "diff",
+    "--check"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}

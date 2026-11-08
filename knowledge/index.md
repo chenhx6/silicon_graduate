@@ -14,10 +14,13 @@ updated: 2026-11-08
 - [[a130-rewrite-invariant-recoupling-and-width-boundaries-20261108]] — 二/三次重耦合、矩比超界反例，以及量子涨落、估计误差与模型差异。
 - [[a130-rewrite-chiral-nonorthogonal-and-fingerprint-boundaries-20261108]] — 复非正交两态、实化条件、反幺正与线性指纹对称的区别。
 - [[a130-rewrite-absolute-rates-and-selection-boundaries-20261108]] — 多极允许性与纯度、总/光子分支、教材率常数及163Lu采用输入。
+- [[a130-rewrite-bcs-convention-and-model-hamiltonian-boundaries-20261108]] — BCS相位、正束缚能差分及三种两壳模型的不同临界强度。
+- [[a130-rewrite-digital-pulse-gain-and-data-boundaries-20261108]] — 数值表逐行回canonical CSV，保留量纲、协方差和门宽概率的条件。
 - [[doctoral-thesis-architecture-and-section-map-20261108]] — 已选五章/39节及完整合同，继续作为writer输入。
 
 旧A130的34文件已完整移入可恢复归档且SHA/归档门通过；新目录启用。
-当前只有样节起草/核查，未完成全部正文，不将writer回执当科学通过。
+当前已整合1.1、1.2、2.1、2.3、3.5、5.3、5.9七节，其它节继续起草和核查；
+完整39节与附录尚未完成，不将writer回执当科学通过。
 
 ## 博士论文设计研究：从样本到可执行的写作合同
 

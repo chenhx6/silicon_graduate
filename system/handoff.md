@@ -3,6 +3,20 @@ graph-excluded: true
 updated: 2026-11-08
 ---
 
+## 2026-11-08 — A130第二批：7节已整合，四个Gemini作者继续
+
+- 完整五章/39节及附录的原生goal仍active。第一阶段研学和设计已完成；不把当前7节、篇幅或模型自评当完整论文完成。pilot已显式提交92文件、非force推送Gitee，post-commit路径一致且当时HEAD=origin/main。稳定指针main / thesis: rebuild A130 foundations with audited pilot sections；精确hash只在本地publication-final-receipt.local.json，不覆盖它。
+- 当前总控已整合1.1、1.2、2.1、2.3、3.5、5.3、5.9。新四节为G69/1.1、G66/2.1、G67/2.3、G68/5.3；整合稿与冻结worker返回版不同，最终SHA见wave-2/section-admission-receipt.json。第二批检查/发布仍待wave-2回执，不把pilot的通过偷换成这批已发布。
+- 活跃作者复用同代理、改新独占路径：G70=01a1b8b4-6893-7ba2-911c-b4057840fabc写2.2壳/占据；G71=01a1b8b4-a16f-72b1-a53d-092d1b3a3488写2.4坐标/测度；G72=01a1b8b4-e372-7f31-8d5c-a603c3e61b60写5.4定时；G73=01a1b8c2-e653-7d71-bfb5-deda493fc64b写1.3历史。均Gemini Tiered/high，合同在本批writer-contracts/G7x.json，各只写本节md/json和自己的receipt。旧任务已由总控接管，作者不得再改旧节。不要重复派发同一任务，也不要触碰旧无关agent。
+- T10=01a1b8bd-c091-73d2-8f74-f77b7ad27936 Terra/xhigh审冻结G67-v1，已回传关闭。关键修正：正束缚能三点符号；固定m pair不等于J0；正uv与2x2正非对角匹配；number-angle无hbar、固定N态kappa=0仍可有配对；E=-B+曲率反号与Hinohara原记法边界；pair-only Gc=eps/(2Omega-1)不能拼原书跨壳模型2eps/(4Omega-1)；驻点/极小及临界/无作用极限区分。
+- T10生产控制已由总控复制为canonical system/scripts/a130_rewrite_bcs_model_audit.py并实际重放，输出在outputs/l4/20261108-A130-bcs-model-controls/，与T10相同，16维seniority-zero积态期望非实核谱。新知识页a130-rewrite-bcs-convention-and-model-hamiltonian-boundaries-20261108及Suhonen/Hinohara source已回写；notation页补B定义/取向、RME可观测性和投影边界。
+- G68第一稿模拟表大部不符CSV，已逐行纠正8行24值并保原SHA；canonical CSV为outputs/l4/20261108-digital-pulse-response/ballistic_deficit_study.csv。本节取归一s_norm=s/[k(M+1)]后再取max，不能拿未归一s与1000比较。新知识页a130-rewrite-digital-pulse-gain-and-data-boundaries-20261108。Ramo/输运具体原理留5.2实质学习，不假称本轮读过历史原作；不将模型当固件/校准。
+- G66已由总控改正signature非T+R导出、实际M布居与B定义、投影非唯一构态、同初末算符比/不同分支相位、CoulEx RME次序/权重及q2静态项。G67剩余的全路径平滑/刚体惯量/轨道标签泛化已修并补E(t)驻点推导；active ledger已重建以免沿用V2旧系数。
+- G69第一稿受shell美元展开和Python反斜杠吞字损坏，冻结留档；V2纯文字已修并由总控限定物理解读/概念表。组稿器加强拒绝TAB等非换行控制字符和错位美元，并对损坏冻结稿在临时fixture实际调用main，按预期报control character。不要只把Pandoc退出0当内容/格式完整。
+- 当前CSL为20条本地身份、六节编译时实际引用20条；书目和身份ledger由父写，子不写Zotero。PDF/学校合规/实际读者效果仍未验证。当前TeX引擎缺失，使用MD+MathML HTML；7节组稿命令已执行，实际完成结果见assembly-receipt/当前工具session。下一批发布用wave-2目录保存独立检查与最终本地回执，不覆盖pilot最终回执。
+- 原34文件的可恢复归档保持。所有review-inputs冻结payload含原空白/坏输入，保留原字节本地；发布只收manifest，不清洗/覆盖raw以过diff。以后显式清单排除仍在写的1.3/2.2/2.4/5.4和其worker输出，不能目录全量git add。PLAN、其它稿、daily课程/daemon/凭据不动。
+
+
 ## 2026-11-08 — A130三个样节整合完成，继续全部39节
 
 - 完整五章/39节及必要附录的正文goal保持active；第一阶段研究和设计已发布，不重开。三样节仅为里程碑，非完整论文或学校送审就绪。

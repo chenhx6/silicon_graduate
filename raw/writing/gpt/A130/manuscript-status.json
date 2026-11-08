@@ -1,5 +1,5 @@
 {
-  "status": "pilot-admitted-next-wave-writing",
+  "status": "writing-and-parent-review",
   "scope": "non-personal-results chapters only",
   "architecture": "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md",
   "old_files_preserved": 34,
@@ -9,7 +9,8 @@
       "id": "1.1",
       "draft_file": "research-draft/section-1-1.md",
       "evidence_file": "evidence-ledger/section-1-1.json",
-      "state": "not-started"
+      "state": "parent-integrated-research-draft",
+      "manuscript_sha256": "5ac19639abde30ccf7f50f101dcd77a37c50918f70421efdef5d642e8e57a505"
     },
     {
       "id": "1.2",
@@ -22,7 +23,7 @@
       "id": "1.3",
       "draft_file": "research-draft/section-1-3.md",
       "evidence_file": "evidence-ledger/section-1-3.json",
-      "state": "not-started"
+      "state": "writing"
     },
     {
       "id": "1.4",
@@ -40,25 +41,27 @@
       "id": "2.1",
       "draft_file": "research-draft/section-2-1.md",
       "evidence_file": "evidence-ledger/section-2-1.json",
-      "state": "writing"
+      "state": "parent-integrated-research-draft",
+      "manuscript_sha256": "8bc02122cefecbfb4d865f7805443cd6524693847bb54947ff4a0d4345b04db0"
     },
     {
       "id": "2.2",
       "draft_file": "research-draft/section-2-2.md",
       "evidence_file": "evidence-ledger/section-2-2.json",
-      "state": "not-started"
+      "state": "writing"
     },
     {
       "id": "2.3",
       "draft_file": "research-draft/section-2-3.md",
       "evidence_file": "evidence-ledger/section-2-3.json",
-      "state": "writing"
+      "state": "parent-integrated-research-draft",
+      "manuscript_sha256": "05f41e53b0d6ed668eaf7a4f1d0304561b9ea7135aa144e55b38de844b78b945"
     },
     {
       "id": "2.4",
       "draft_file": "research-draft/section-2-4.md",
       "evidence_file": "evidence-ledger/section-2-4.json",
-      "state": "not-started"
+      "state": "writing"
     },
     {
       "id": "2.5",
@@ -113,7 +116,7 @@
       "draft_file": "research-draft/section-3-5.md",
       "evidence_file": "evidence-ledger/section-3-5.json",
       "state": "parent-integrated-research-draft",
-      "manuscript_sha256": "16f2ad39e1f37f43003d48b1e72db0bb56865d98148fbdfd26769e96c15884d1"
+      "manuscript_sha256": "b0d58b8da2127d4aaa433bb1fc7bb88685338f767ad0b05365035befc9615820"
     },
     {
       "id": "3.6",
@@ -197,13 +200,14 @@
       "id": "5.3",
       "draft_file": "research-draft/section-5-3.md",
       "evidence_file": "evidence-ledger/section-5-3.json",
-      "state": "writing"
+      "state": "parent-integrated-research-draft",
+      "manuscript_sha256": "514fd3ab6c968851eece090a54b1e875e99552d8b16fe20114738444af271dfc"
     },
     {
       "id": "5.4",
       "draft_file": "research-draft/section-5-4.md",
       "evidence_file": "evidence-ledger/section-5-4.json",
-      "state": "not-started"
+      "state": "writing"
     },
     {
       "id": "5.5",
@@ -245,6 +249,22 @@
   ],
   "reader_effect_validated": false,
   "school_submission_ready": false,
-  "updated_at": "2026-11-08T01:11:17.634956+00:00",
-  "admission_boundary": "Bounded research-draft text acceptance after source/math/reader-step scrutiny; not school submission or measured reader validation"
+  "updated_at": "2026-11-08T02:00:28.751451+00:00",
+  "admission_boundary": "Bounded research-draft text acceptance after source/math/reader-step scrutiny; not school submission or measured reader validation",
+  "integrated_sections": [
+    "1.1",
+    "1.2",
+    "2.1",
+    "2.3",
+    "3.5",
+    "5.3",
+    "5.9"
+  ],
+  "writing_sections": [
+    "1.3",
+    "2.2",
+    "2.4",
+    "5.4"
+  ],
+  "whole_manuscript_complete": false
 }

@@ -19,6 +19,8 @@ canonical_source: "J. Suhonen, From Nucleons to Nucleus: Concepts of Microscopic
 library_file: "raw/books/From nucleons to nucleus concepts of microscopic .pdf"
 raw_file: "raw/books/From nucleons to nucleus concepts of microscopic .pdf"
 raw_sha256: "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c"
+raw_storage_status: archived-local
+archive_required: true
 nuclei: []
 reactions: []
 experiments: []
@@ -59,6 +61,17 @@ tags: [angular-momentum-coupling, tensor-operators, wigner-eckart-theorem, elect
 ## Scope and Reading Depth
 
 覆盖全书核心章节与关键推导，结合在束谱学需求进行深度研学。
+
+2026-11-08配对写作的有界核查：T10实际回读印刷399–404、408–411，
+对应PDF412–417、421–424；总控核模型代数并重放有限pair占据空间控制。
+本地页序在此不连续，印刷408–411也在PDF396–399重复出现，
+PDF402–403为印刷414–415，PDF404回到印刷391。定位不能套固定偏移，
+这次局部回读不追加全书通读声明。
+§13.5.2/Eqs.(13.103)–(13.124)中的跨壳矩阵元与自能，
+不能和只写成对散射的pair-only Hamiltonian混用。
+原书 \(G_c=2\epsilon/(4\Omega-1)\) 保留其条件；
+本任务不同H的推导及相位/粒子数边界见
+[[a130-rewrite-bcs-convention-and-model-hamiltonian-boundaries-20261108]]。
 
 
 ## Summary

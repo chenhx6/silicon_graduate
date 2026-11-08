@@ -1,0 +1,63 @@
+{
+  "task": "G68",
+  "section_id": "5.3",
+  "title": "数字成形与能量估计",
+  "version": "V2",
+  "recorded_at": "2026-11-08T01:26:21.689775+00:00",
+  "status": "completed",
+  "exclusive_write_paths": [
+    "raw/writing/gpt/A130/research-draft/section-5-3.md",
+    "raw/writing/gpt/A130/evidence-ledger/section-5-3.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/G68/receipt.json"
+  ],
+  "metrics": {
+    "chinese_character_count": 4473,
+    "word_count": 1215,
+    "display_equations_count": 20,
+    "inline_math_count": 125,
+    "total_math_elements_count": 145,
+    "table_count": 1
+  },
+  "sources_verified": [
+    {
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "citation_key": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "raw_file": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+      "raw_sha256": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b",
+      "actual_read_pages": "PDF pages 29–38 (printed pages 17–26), especially PDF 31–32 (printed 19–20) Eqs. (1.10)–(1.19), Fig. 1.19–1.21; PDF pages 85–86 (printed 73–74) Figs. 3.4–3.5"
+    },
+    {
+      "source_id": "wu-2021-general-purpose-digital-daq-waveform-analysis",
+      "citation_key": "wu-2021-general-purpose-digital-daq-waveform-analysis",
+      "raw_file": "raw/theses/degree-dissertation/基于数字化的通用获取系统及波形分析算法.pdf",
+      "raw_sha256": "c1a2bd226faf52cef144d00463414906c9e44c779075fde57d66f5161a697820",
+      "actual_read_pages": "PDF pages 1–6 (printed 3553–3558), Figs. 1–5"
+    }
+  ],
+  "v2_physics_and_contract_corrections": {
+    "item_1_table_5_1_csv_recomputation": "Recomputed all rows of Table 5.1 directly from outputs/l4/20261108-digital-pulse-response/ballistic_deficit_study.csv; bound to run-provenance.json and script SHA bd70a7db; 100ns deficit computed as (1000 - flat_top_100ns_amp)/10; exactly verified 8 rows for rise=20/60/100/140/180/220/300/400 ns with percentage triplets matching canonical producer output; recorded model input A(1-exp(-t/tau_r))exp(-t/tau_d), arbitrary amplitude units, and max_n s[n] extraction rule; clarified that literature citations provide architectural context but do not endorse synthetic model numbers.",
+    "item_2_ramo_shockley_dimensions": "Corrected weighting field E_v = -grad Phi_v to have dimension length^-1 (rather than calling it a dimensionless field); clarified that weighting potential Phi_v is dimensionless; explicitly noted that induced current sign depends on carrier charge q and electrode reference convention.",
+    "item_3_5_3_1_scope_and_pruning": "Pruned unsubstantiated generic ranges (Fano 0.08-0.12, electric field/drift velocities, collection 100-500 ns, Cf/Rf/tau ranges); tightened Section 5.3.1 to ionization charge Q0 = e E_gamma / epsilon -> CSPA feedback integration -> exponential decay tail -> discrete sampling; referred detailed semiconductor solid-state physics to Section 5.2; used high-speed ADC rather than assuming all ADCs are flash.",
+    "item_4_gain_bias_calculation": "Corrected relative gain bias formula to exp(Ts/tau_d) - 1; noted Ts/tau_d = 1e-4 gives ~0.01% (not 0.02%); for the declared pedagogical model (Ts=10 ns, tau_d=50 us, Ts/tau_d=2e-4), evaluated exact bias ~0.0200%; explicitly labelled as a declared pedagogical choice rather than universal hardware.",
+    "item_5_baseline_variance_and_covariance": "Clarified that sigma_BL^2 = sigma_v^2 / N strictly assumes i.i.d. white noise; noted that low-frequency drift and filtering introduce sample autocorrelation; explicitly stated the net energy variance relation Var(s - BL) = Var(s) + Var(BL) - 2 Cov(s, BL), requiring statistical independence and common gain/energy unit mapping for simple quadratic addition.",
+    "item_6_pileup_probability_linearity": "Removed unconditioned claim of strictly linear pile-up probability; clarified that for Poisson arrivals with rate R, probability of >= 1 arrival in window T is 1 - exp(-RT), which approximates RT only in the low-rate limit RT << 1.",
+    "item_7_pur_window_and_pzc_baseline_qualifiers": "Qualified that PUR inspection window (k + ell)Ts is a declared pedagogical implementation rather than universal firmware logic; explicitly stated that PZC mismatch creating undershoot/overshoot and rate-dependent peak shifts is analyzed within the declared LTI recursive model and simple baseline subtraction, as advanced adaptive baseline algorithms may behave differently.",
+    "item_8_tone_and_asymptotic_deficit_wording": "Replaced universal assertion that asymptotic zero deficit is theoretically impossible with the factual statement that the declared double-exponential model retains deterministic residual deficit under the given sampling/extraction rules; pruned self-praising and prescriptive phrasing; converted conclusion into a natural connected paragraph.",
+    "item_9_literature_typo_neutrality": "Neutralized description of Wu Eq. (1.14)/(1.19) literal printed n[n-k-ell] to state it presents notation ambiguity with index variable n; documented our task reconstruction to v[n-k-ell] under LTI contract without asserting whether it was an author typo or unverified erratum.",
+    "item_10_removal_of_internal_code_history": "Removed all mentions of 旧程序 or legacy code history from the thesis text; clearly derived that unity gain requires dividing by k(M+1) while dividing by kM introduces gain bias; kept citations and mathematical proofs cleanly distinguished."
+  },
+  "formatting_verifications": {
+    "equation_format": "All 20 display equations use standalone $$...$$ separated by blank lines; inline math uses $...$.",
+    "no_raw_tex_environments": "Zero raw TeX environments (\\begin{equation}, \\begin{align}, \\label, \\ref) or triple-dollar markers.",
+    "pandoc_ast_and_html_render": "Verified via pandoc: 145 Math elements (20 DisplayMath, 125 InlineMath) cleanly parsed into AST; HTML MathML generated with exit code 0 without any warnings.",
+    "encoding_and_control_chars": "Clean UTF-8, zero raw control characters verified."
+  },
+  "file_hashes": {
+    "section_5_3_md_sha256": "e31196931258c85a376219dc49d643155fb0fe7575f2fbbfe18b452e26f5c8b6",
+    "section_5_3_ledger_json_sha256": "cb62d2fb962879e190f1a18be172d81b766611bb85320dd103245d9a4f3ed3d6"
+  },
+  "unresolved_and_open_boundaries": [
+    "Specific user detector crystal geometries, preamplifier RC time constants, ADC bit-depth/sampling rates, and online FPGA firmware versions remain unknown; draft maintains rigorous algorithmic and physical generality without fabricating personal experimental parameters.",
+    "Detailed digital CFD sub-sample interpolation and timing walk curves deferred to Section 5.4; multi-channel buffer dynamics, trigger validation, and joint live-time corrections deferred to Section 5.5."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "archive_type": "research-archive-v1",
+  "archive_required": true,
+  "retrieved_at": "2026-11-08T01:37:55.642317+00:00",
+  "files": [
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G69-v1/section-1-1.md",
+      "sha256": "8af7c50f9caae4feaadbbd9d257126691e4477d59409a984b50fe25e7131495d",
+      "size": 8601,
+      "source": "Frozen corrupted G69 first return for diagnosing shell/Python escaping; not admissible physical evidence"
+    },
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G69-v1/section-1-1.json",
+      "sha256": "8ad9848ceb4b4640232f1291adc22c60651b8ded41b4222305331a337ff57e69",
+      "size": 12873,
+      "source": "Frozen corrupted G69 first return for diagnosing shell/Python escaping; not admissible physical evidence"
+    }
+  ]
+}

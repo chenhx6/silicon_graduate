@@ -1,0 +1,59 @@
+{
+  "task": "G67",
+  "section_id": "2.3",
+  "title": "配对、准粒子与阻塞",
+  "version": "V3",
+  "recorded_at": "2026-11-08T01:29:38.467089+00:00",
+  "status": "completed",
+  "exclusive_write_paths": [
+    "raw/writing/gpt/A130/research-draft/section-2-3.md",
+    "raw/writing/gpt/A130/evidence-ledger/section-2-3.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/G67/receipt.json"
+  ],
+  "draft_sha256": "897f176fb865caffd61b1723f55f19810ceb55cad2c70b181041fedefc37476e",
+  "ledger_sha256": "5261de2047570531875927c528523cf90c1b630eee8409a5968c637cf630d730",
+  "metrics": {
+    "chinese_character_count": 6500,
+    "word_count": 1397,
+    "display_equations_count": 40,
+    "subsections_count": 5
+  },
+  "sources_verified": [
+    {
+      "key": "book-suhonen-from-nucleons-to-nucleus",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "actual_read_pages": "Ch. 13: printed pp. 391–405, 407–413 (local PDF pp. 404–418, 420–424, 399–401; anomalous page sequence inspected and mapped)"
+    },
+    {
+      "key": "book-jain-nuclear-isomers",
+      "raw_file": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+      "raw_sha256": "994816561cfb6e89bd215b7fe23e37ecf12e8a3e8f5ce88eafbbd388d02ed74a",
+      "actual_read_pages": "Ch. 3 (pp. 35–40 / PDF pp. 46–51); Ch. 5 (pp. 84–89 / PDF pp. 95–100)"
+    },
+    {
+      "key": "hinohara-2015-nambu-goldstone-inertia-response",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-t05-response-definitions/aps-publication.pdf",
+      "raw_sha256": "764d644a2349235027e15c320d78f15fcd7d8fd264ebe6412fd2b80e1a625f86",
+      "actual_read_pages": "APS printed pp. 3, 5, 7–10, Eqs. (51)–(55), (66)–(67), (75)"
+    }
+  ],
+  "t10_seven_items_fulfillments": {
+    "item_1_positive_binding_energy_differences": "正束缚能三点式采用 \\Delta_B^{(3)}(N) = \\frac{(-1)^{N+1}}{2}[B(N-1) - 2B(N) + B(N+1)]，四点式采用以 N-1 和 N 为中心的对称平均 \\Delta_B^{(4)}(N) = \\frac{\\Delta_B^{(3)}(N-1) + \\Delta_B^{(3)}(N)}{2}；严格证明对纯奇偶交错 B(N) = B_sm(N) + p(-1)^N (p>0) 两者均给出 +2p，若改用总能 E=-B 则三点式前置因子为 (-1)^N；明确指出经验差分混杂单粒子能级疏密与重排能，不等于单一微观配对能隙参数。",
+    "item_2_time_reversal_pair_vs_j0_state": "严格区分了单个时间反演磁轨道对 c_k^\\dagger c_{\\bar{k}}^\\dagger |0\\rangle（仅固定 M=0，是 J=0,2,4,... 的叠加）与全单 j 壳层角动量张量耦合的归一化球标量态 |j^2; J=0, M=0\\rangle = \\frac{1}{\\sqrt{\\Omega}} \\sum_{m>0} (-1)^{j-m} c_{jm}^\\dagger c_{j,-m}^\\dagger |0\\rangle（\\Omega = (2j+1)/2）；指出轴对称形变核中 J 破缺而时间反演保持，对算符对应内禀投影 K=0 的双核子态。",
+    "item_3_pair_only_hamiltonian_wick_selfenergy_and_matrix_phase": "正文贯穿纯配对哈密顿量 \\hat{H} = \\sum \\epsilon_k n_k - \\sum G_{kl} P_k^\\dagger P_l，保留完整的对角项与 Wick 自能 \\mu_k = G_{kk} v_k^2，并在单粒子有效能量 \\xi_k = \\epsilon_k - \\lambda - G_{kk} v_k^2 中自洽保留；采用与正积 u_k v_k = +\\Delta_k/(2E_k) > 0 严格相容的正非对角元 2x2 厄米本征矩阵 \\begin{pmatrix} \\xi_k & +\\Delta_k \\\\ +\\Delta_k & -\\xi_k \\end{pmatrix}；逐对归一条件 u_k^2 + v_k^2 = 1 声明为规范化约定；明确说明消去 H_20' 仅为一阶驻点，极小值需依赖二阶稳定性；2\\Delta 阈值仅为冻结独立准粒子理论下界。",
+    "item_4_particle_number_phase_angle_and_number_conserving_observables": "明确粒子数算符 \\hat{n} 与规范角 \\theta 均为无量纲量，角表象中 \\hat{n} = -i\\partial/\\partial\\theta（不含 \\hbar）；指出 QRPA 局域共轭对是线性化描述，有限核完整 Hilbert 空间不能假定全局自伴相角算符；明确指出在严格守恒粒子数的真实物理态 |N\\rangle 下，反常密度 \\kappa_k \\equiv 0 严格恒等于零，真实配对关联由两体密度矩阵关联与对转移矩阵元表征；粒子数投影态是好 N 近似态而非哈密顿量严格本征态。",
+    "item_5_hinohara_curvature_and_notation_boundary": "给出与 E=-B_+ 一致的展开式：E(N) = E(N_0) + \\lambda \\delta N + (\\delta N)^2/(2\\mathcal{J}_{\\text{pair}}) 与 B_+(N) = B_+(N_0) - \\lambda \\delta N - (\\delta N)^2/(2\\mathcal{J}_{\\text{pair}})，曲率 \\mathcal{J}_{\\text{pair}}^{-1} = \\partial^2 E/\\partial N^2 = -\\partial^2 B_+/\\partial N^2；在台账与正文中如实留档 Hinohara (2015) Eq. (66) 正号展开与 Fig. 4 实验采用 -B_{exp} 的原文记法边界；严格区分配对转动惯量 \\mathcal{J}_{\\text{pair}} (MeV^-1) 与三维物理空间转动惯量 \\mathcal{J}_{\\text{space}} (MeV^-1 \\hbar^2)。",
+    "item_6_two_level_model_derivation_under_pair_only_hamiltonian": "采用本任务对正文给定纯配对哈密顿量的独立推导：两壳半填充在保持 Wick 自能 \\mu_i = G v_i^2 下，严格导出 \\lambda = -G/2，t_* = \\varepsilon/[G(2\\Omega-1)]，G_{c,\\text{pair}} = \\varepsilon/(2\\Omega-1)，E = \\Omega G，|\\xi| = \\Omega\\varepsilon/(2\\Omega-1)，\\Delta = \\Omega G \\sqrt{1 - [\\varepsilon/(G(2\\Omega-1))]^2}（G > G_{c,\\text{pair}}）；加入短注说明 Suhonen 原书分母 4\\Omega-1 来自其包含的跨壳两体矩阵元与自能项，完整对账留待附录 B；严格区分能隙连续趋零的临界极限 G \\to G_{c,\\text{pair}}^+（G 有限正值）与无两体相互作用极限 G \\to 0。",
+    "item_7_limits_minima_and_nonanalyticities_qualified": "明确说明 G \\downarrow G_c 时 \\Delta \\sim \\text{const}\\sqrt{G - G_c} 连续趋零；强配对极限下饱和的是比值 \\Delta/G \\to \\Omega 而非绝对 \\Delta；指出有限核虽无无限大热力学相变，但仍可存在微观能级交叉；删除了‘纯假象、始终平滑、绝不会断裂、必强动态振动’等绝对化词汇；删除了所有自评修辞与粗体误区清单，文体全面回归客观学术连贯中文。"
+  },
+  "formatting_verifications": {
+    "pandoc_ast_json": "Verified: pandoc -f markdown -t json raw/writing/gpt/A130/research-draft/section-2-3.md exits with 0 and zero warnings.",
+    "pandoc_html_mathml": "Verified: pandoc -f markdown -t html --mathml raw/writing/gpt/A130/research-draft/section-2-3.md exits with 0 and zero warnings.",
+    "json_ledger_syntax": "Verified: raw/writing/gpt/A130/evidence-ledger/section-2-3.json is valid JSON with V3 schema and all required keys."
+  },
+  "unresolved_scientific_frontiers": [
+    "高自旋回弯区准粒子顺排动力学与动力学配对涨落的竞争在静态 BCS 框架下无法自洽闭合，需进入 Cranked HFB 与 QRPA 动力学框架；",
+    "形变三轴核中同位旋标量与等矢中质配对（pn 配对）在多准粒子高 K 态上的定量残余贡献仍依赖唯象参数标定。"
+  ]
+}

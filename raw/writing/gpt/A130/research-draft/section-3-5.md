@@ -28,7 +28,7 @@ $$
 $$
 这三个矢量在内禀系确定了一个非共面三维构型，存在右手系与左手系的空间手征对立[@liu-chen-2016-78br-chirality-reflection-symmetry-thesis]。
 
-此处明确物理边界：首先，三向正交矢量是粒子—转子模型在理想参数下的有利构型，不能断言所有手征核都必须严格互相正交或固定 $\gamma = 30^\circ$，残余作用与形状涨落会使夹角偏离 $90^\circ$。其次，总角动量在内禀系三分量非零仅是倾斜转动的运动学特征，并不是自发破缺或存在稳定极小的充分条件。最后，标量三重积非零仅适用于内禀破缺参考态；对 $\mathcal{C}$ 对称哈密顿量的非简并本征态，$\mathcal{C}$ 奇的厄米三重积算符期望值严格为零，在恢复转动不变性的精确实验室态中手征特征需通过量子涨落与关联体现。同时，算符期望值 $\langle \hat{\mathbf{j}}_p \cdot (\hat{\mathbf{j}}_h \times \hat{\mathbf{R}}) \rangle$ 与半经典因子化乘积 $\langle \hat{\mathbf{j}}_p \rangle \cdot (\langle \hat{\mathbf{j}}_h \rangle \times \langle \hat{\mathbf{R}} \rangle)$ 一般不同。
+此处明确物理边界：首先，三向正交矢量是粒子—转子模型在理想参数下的有利构型，不能断言所有手征核都必须严格互相正交或固定 $\gamma = 30^\circ$，残余作用与形状涨落会使夹角偏离 $90^\circ$。其次，总角动量在内禀系三分量非零仅是倾斜转动的运动学特征，并不是自发破缺或存在稳定极小的充分条件。最后，破缺参考态中可以出现非零三重积；对 $\mathcal{C}$ 对称哈密顿量的非简并本征态，相应 $\mathcal{C}$ 奇厄米标量的期望值为零。若有精确简并，则须说明所选择的叠加态，不能把零期望的结论无条件套入；具体算符实现还应先处理次序与厄米性。精确态中的手征关联也可通过涨落与相关量研究。同时，算符期望值 $\langle \hat{\mathbf{j}}_p \cdot (\hat{\mathbf{j}}_h \times \hat{\mathbf{R}}) \rangle$ 与半经典因子化乘积 $\langle \hat{\mathbf{j}}_p \rangle \cdot (\langle \hat{\mathbf{j}}_h \rangle \times \langle \hat{\mathbf{R}} \rangle)$ 一般不同。
 
 ## 3.5.2 手征反幺正算符与 $\mathcal{C}^2 = +1$ 的严格代数推导
 

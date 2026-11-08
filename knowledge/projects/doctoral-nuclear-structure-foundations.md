@@ -29,11 +29,16 @@ R1–R3第一阶段已完成知识、原件/数值核验及授权发布，
 旧34文件已完整移至可恢复归档，新目录启用三个样节。
 [[doctoral-thesis-notation-and-evidence-style-20261108]]统一符号/引用，
 各稿仍须逐主张、公式与读者台阶核查，尚未完成整部正文。
+三样节的92文件发布已经核对；第二批加入1.1、2.1、2.3、5.3，
+当前共七节整合，1.3、2.2、2.4、5.4由Gemini继续写作。
 写作暴露的原件与推导修正已分别保存为
 [[a130-rewrite-invariant-recoupling-and-width-boundaries-20261108]]、
 [[a130-rewrite-chiral-nonorthogonal-and-fingerprint-boundaries-20261108]]、
 [[a130-rewrite-absolute-rates-and-selection-boundaries-20261108]]；
 样节验收关注科学论证和读者台阶，不要求将所有开放争议先解决。
+第二批新增[[a130-rewrite-bcs-convention-and-model-hamiltonian-boundaries-20261108]]与
+[[a130-rewrite-digital-pulse-gain-and-data-boundaries-20261108]]：
+同一BCS字母不保证同一哈密顿量，形式正确的数字滤波式也不能替代逐行数据核对。
 
 用户要求先全力研学，再重建博士论文。前置研究和设计均已收束，当前进入正文，
 具体物理研学继续服务高价值问题与写作暴露的缺口。

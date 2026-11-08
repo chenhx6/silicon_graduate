@@ -62,6 +62,11 @@ A≈130 是当前研究锚点，不是 Wiki 的收录边界。v2 的设计决策
 
 ## 学术手稿与期刊投稿包 (Scientific Manuscripts & Writing)
 
+- **博士论文前置章节研究稿，重写中**：
+  [`raw/writing/gpt/A130/`](raw/writing/gpt/A130/README.md)。
+  [连读稿](raw/writing/gpt/A130/frontmatter-draft.md)与
+  [公式及参考文献预览](raw/writing/gpt/A130/frontmatter-preview.html)
+  当前包含已整合的七节；完整五章/39节与附录仍在推进，不含个人实验成果。
 - **束流申请与 proposal 初稿**：[`raw/proposal/`](raw/proposal/README.md)，独立于执行任务计划，允许随 Git 提交与推送。
 - **当前聚焦候选稿：奇 Ba 四极指标的自旋通道重分配**：
   [`raw/writing/gpt/odd-ba-quadrupole-closure/`](raw/writing/gpt/odd-ba-quadrupole-closure/)。

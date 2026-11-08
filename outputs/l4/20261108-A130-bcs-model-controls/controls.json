@@ -1,0 +1,40 @@
+{
+  "model": "pair-only Hamiltonian, 2*Omega binary pair sites; BCS product; energies in epsilon units",
+  "rows": [
+    {
+      "t": 0.0,
+      "direct_pair_basis_energy": -2.5,
+      "analytic_energy": -2.5
+    },
+    {
+      "t": 0.4,
+      "direct_pair_basis_energy": -3.0600000000000005,
+      "analytic_energy": -3.0599999999999996
+    },
+    {
+      "t": 0.6666666666666666,
+      "direct_pair_basis_energy": -3.1666666666666625,
+      "analytic_energy": -3.166666666666667
+    },
+    {
+      "t": 1.0,
+      "direct_pair_basis_energy": -3.0,
+      "analytic_energy": -3.0
+    }
+  ],
+  "stationary_t": 0.6666666666666666,
+  "stationary_slope_numeric": 8.881784197001251e-11,
+  "stationary_curvature_numeric": 2.9999469575159305,
+  "Gcrit_pair_only": 0.3333333333333333,
+  "Gcrit_Suhonen": 0.2857142857142857,
+  "lambda_pair_only": -0.25,
+  "lambda_Suhonen": -0.375,
+  "eigenvector_uv_positive": [
+    0.8944271909999159,
+    0.4472135954999579
+  ],
+  "matrix_minus_residual": 1.6,
+  "matrix_plus_residual": 1.2412670766236366e-16,
+  "positive_B_raw_three_point": -1.3999999999999773,
+  "positive_B_raw_four_point": 1.3999999999999773
+}

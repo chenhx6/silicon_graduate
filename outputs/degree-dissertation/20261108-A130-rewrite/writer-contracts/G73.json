@@ -1,0 +1,91 @@
+{
+  "root": "/workspace/wiki",
+  "model": "antigravity/gemini-3.8-flash-tiered",
+  "reasoning_effort": "high",
+  "permissions": {
+    "raw_draft_write": "explicitly authorized only for listed new section and matching ledger",
+    "git": false,
+    "subagents": false,
+    "credentials": false,
+    "external_messages": false
+  },
+  "read_first": [
+    "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-argument-and-writer-contract-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-high-risk-section-contracts-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-notation-and-evidence-style-20261108.md"
+  ],
+  "workflow": [
+    "先读给定canonical笔记和原件具体页，台账记录实际读取范围、SHA、版次、claim类别和locator；先在ledger记录5–8句论证骨架再起草，无需等用户确认。",
+    "写面向具有一般量子力学但不熟核结构的读者的连贯中文正文，定义→必要推导→物理解释→可测量量→竞争解释。标题按地图，通常3–5子节，篇幅按讲清问题而非凑字。",
+    "正文只引用真正读过的原作，[@source-basename]；内部知识页用于定位与校准，不冒充已发表论文。模型/教学假设与实际测量分开。未知个人数据/硬件/成果不补写。",
+    "不读取或复用旧归档稿，不改其它节、书目、索引、共享handoff或system；无并发共享写者。",
+    "仅用 $...$ 和 $$...$$ 数学，严禁原始TeX环境、label/ref、三连美元；长正文用apply_patch或python单引号heredoc，勿嵌在python -c单引号shell中。",
+    "写后实际检查JSON与Pandoc AST/HTML数学，任何math转换警告必须修；不能仅数DisplayMath自评通过。",
+    "receipt用datetime.now(timezone.utc)实际采样；只哈希其它文件不哈希自己。回传路径、真实检查和未解，不把完成或模型自评当科学通过。"
+  ],
+  "ledger_minimum": [
+    "section_id",
+    "title",
+    "version",
+    "recorded_at",
+    "argument_outline",
+    "sources: source_id/raw_file/raw_sha256/actual_read_pages",
+    "claims: text/kind/source_id/locator/conditions",
+    "equations: convention/derivation/limit",
+    "competing_explanations",
+    "unresolved"
+  ],
+  "format_boundary": "No PDF/school submission claim; MD+MathML preview is current rendering route",
+  "task_id": "G73",
+  "section_id": "1.3",
+  "title": "从早期统一模型到响应与波函数",
+  "depends_on": [
+    "parent-integrated1.1/1.2/2.1/2.3"
+  ],
+  "read_notes": [
+    "knowledge/research-notes/doctoral-r3-quantum-labels-and-model-boundaries-20261108.md",
+    "knowledge/research-notes/doctoral-r2-collective-inertia-response-crosswalk-20261108.md",
+    "knowledge/research-notes/a130-rewrite-bcs-convention-and-model-hamiltonian-boundaries-20261108.md",
+    "raw/writing/gpt/A130/research-draft/section-1-1.md",
+    "raw/writing/gpt/A130/research-draft/section-1-2.md"
+  ],
+  "must_explain": [
+    "这是一节友好的科学史与问题演化，不写人名年表或想象的私人心理。1500–2300汉字左右，围绕当时解决什么/做何近似/什么观测暴露限制/现代怎样推进。",
+    "区分独立粒子近似与完整相互作用壳模型，不能说壳模型原则上不能产生集体性。说明平均场单粒子与有效集体坐标为什么需联系，而不是把两个经典画面生硬拼接。",
+    "Bohr1952/BM1953的慢形状/取向与粒子耦合如何提供可计算坐标；保留流体/绝热等条件，不把无旋流说成非无旋环流，不称内禀图像是精确静态lab形状。",
+    "BM1953历史能量与E2两种形变映射的对照可作一例，但无需再列数值，不能将1953暂定能级与数据当2026评价；作者也讨论局限，勿虚构早期作者没意识到的问题。",
+    "静态电荷矩、集体惯量和残余响应是不同对象；现代线性响应/NG路线以Hinohara2015作一个例子，不说一切偏差唯一源自TV，也不说2015是2026最新终点。近年具体多坐标/配对研究留2.6/3章。",
+    "用连续段落和最多一张短概念表引出为什么后文要从占据/配对走到形状/响应和实验；不重复1.1的判据清单或1.2/2章完整公式。除年份/核素外不需要新数值/显示公式；如用则必须源内实际核验。",
+    "只引用实际原件，实测/原作者解释/模型和任务推断分开。禁止未经出处的首次/全面证明/所有人都错等绝对句；严禁shell展开美元或Python吞反斜杠。"
+  ],
+  "exclusive_write_paths": [
+    "raw/writing/gpt/A130/research-draft/section-1-3.md",
+    "raw/writing/gpt/A130/evidence-ledger/section-1-3.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/G73/receipt.json"
+  ],
+  "source_inputs": [
+    {
+      "source_id": "bohr-1952-surface-particle-coupling",
+      "source_page": "knowledge/sources/bohr-1952-surface-particle-coupling.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-1952-mfm26-14.pdf",
+      "raw_sha256": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d",
+      "required_locator": "原件9–13、19–21，坐标/假设/无旋流，不假称经典实时密度为精确lab态"
+    },
+    {
+      "source_id": "bohr-mottelson-1953-collective-individual-original",
+      "source_page": "knowledge/sources/bohr-mottelson-1953-collective-individual-original.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-mottelson-1953-mfm27-16.pdf",
+      "raw_sha256": "b0501e3e098869a7fb14527a3dc8c9b80444affdb265394a928e0794ae708945",
+      "required_locator": "实际原件12–25、90、94–95，TableXXIII等历史能量/E2形变比较；只按当前原件locator，不声称全文176页已读"
+    },
+    {
+      "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+      "source_page": "knowledge/sources/hinohara-2015-nambu-goldstone-inertia-response.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-t05-response-definitions/aps-publication.pdf",
+      "raw_sha256": "764d644a2349235027e15c320d78f15fcd7d8fd264ebe6412fd2b80e1a625f86",
+      "required_locator": "APS主底本1–5、8–9，NG/响应/惯量的物理作用；本稿E/正B约定按最新BCS note，不复制含混binding符号"
+    }
+  ],
+  "validated_at": "2026-11-08T01:56:02.920894+00:00"
+}

@@ -1,0 +1,92 @@
+{
+  "root": "/workspace/wiki",
+  "model": "antigravity/gemini-3.8-flash-tiered",
+  "reasoning_effort": "high",
+  "permissions": {
+    "raw_draft_write": "explicitly authorized only for listed new section and matching ledger",
+    "git": false,
+    "subagents": false,
+    "credentials": false,
+    "external_messages": false
+  },
+  "read_first": [
+    "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-argument-and-writer-contract-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-high-risk-section-contracts-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-notation-and-evidence-style-20261108.md"
+  ],
+  "workflow": [
+    "先读给定canonical笔记和原件具体页，台账记录实际读取范围、SHA、版次、claim类别和locator；先在ledger记录5–8句论证骨架再起草，无需等用户确认。",
+    "写面向具有一般量子力学但不熟核结构的读者的连贯中文正文，定义→必要推导→物理解释→可测量量→竞争解释。标题按地图，通常3–5子节，篇幅按讲清问题而非凑字。",
+    "正文只引用真正读过的原作，[@source-basename]；内部知识页用于定位与校准，不冒充已发表论文。模型/教学假设与实际测量分开。未知个人数据/硬件/成果不补写。",
+    "不读取或复用旧归档稿，不改其它节、书目、索引、共享handoff或system；无并发共享写者。",
+    "仅用 $...$ 和 $$...$$ 数学，严禁原始TeX环境、label/ref、三连美元；长正文用apply_patch或python单引号heredoc，勿嵌在python -c单引号shell中。",
+    "写后实际检查JSON与Pandoc AST/HTML数学，任何math转换警告必须修；不能仅数DisplayMath自评通过。",
+    "receipt用datetime.now(timezone.utc)实际采样；只哈希其它文件不哈希自己。回传路径、真实检查和未解，不把完成或模型自评当科学通过。",
+    "任何数值、范围、表格单元格只能来自实际原件或可执行producer；禁止凭记忆填典型值、按两个锚点补其余行。模拟表明确输入、取幅/归一与原文件SHA。",
+    "只有Pandoc退出0不够；检测全文除换行外ASCII控制字符（含TAB）、未配对/错位美元、shell $$数字替换。正文长字符串用apply_patch或quoted heredoc+Python raw string；不得用unquoted heredoc。",
+    "实测、作者解释、模型和任务推导分开。选择允许≠实际存在，模型对称≠普适定义，驻点≠极小，模型相容≠解释唯一；在具体段落自然说明，不写警示清单。"
+  ],
+  "ledger_minimum": [
+    "section_id",
+    "title",
+    "version",
+    "recorded_at",
+    "argument_outline",
+    "sources: source_id/raw_file/raw_sha256/actual_read_pages",
+    "claims: text/kind/source_id/locator/conditions",
+    "equations: convention/derivation/limit",
+    "competing_explanations",
+    "unresolved"
+  ],
+  "format_boundary": "No PDF/school submission claim; MD+MathML preview is current rendering route",
+  "task_id": "G72",
+  "section_id": "5.4",
+  "title": "数字定时、同步与CFD",
+  "depends_on": [
+    "pilot-parent-admission",
+    "wave2-parent-admission-of-prerequisites"
+  ],
+  "read_notes": [
+    "knowledge/research-notes/doctoral-r1-g32-digital-daq-observable-chain-20261108.md",
+    "knowledge/research-notes/doctoral-r3-daq-spectroscopy-inverse-20261108.md",
+    "raw/writing/gpt/A130/research-draft/section-5-3.md"
+  ],
+  "must_explain": [
+    "先解释时间戳编码粒度、采样周期、插值分辨、噪声和真实仪器/探测器时间分辨率是不同对象，不能用位宽直接宣称ps物理精度。",
+    "定义同一约定的CFD C[n]=F[n-d]-fF[n]与d样本/f无量纲，给两个邻点的线性零交叉式。固定同形波幅度缩放的理想过零不变，真实形状/噪声/基线/饱和/采样相位可有walk，不给所有低能固定方向幂律。",
+    "延迟/分数和快滤波参数明确单位；不同源采用等价不同符号时逐项映射。可用已有canonical producer phase/sampling CSV（逐行程序读取，不按锚点补表），解析参考不是硬编码657.2238ns；模型不是固件实测。",
+    "Lipschutz四点三次多项式不是三次样条；分路同信号测试不认证不同探测器随机到达响应。sigma(t1-t2)²=sigma1²+sigma2²-2Cov；相等独立Gaussian时FWHM/√2才可映单探测，不能用任意FWHM直接当方差。",
+    "同步分固定偏移、相对时钟变化/抖动、全局相位与事件相对采样网格相位；Hennig设计目标、同机箱测量与跨箱worstcase记录分开，2007不当今日硬件指标。",
+    "定时改变符合窗接受与弱线/DCO但不直接证明核寿命；真实寿命/背景/仪器响应需共同拟合。共同busy/live、缓存和事件构建留5.5。约3000–4500汉字，3–5子节，不复制5.3数学和无源典型数字。"
+  ],
+  "exclusive_write_paths": [
+    "raw/writing/gpt/A130/research-draft/section-5-4.md",
+    "raw/writing/gpt/A130/evidence-ledger/section-5-4.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/G72/receipt.json"
+  ],
+  "source_inputs": [
+    {
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "source_page": "knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md",
+      "raw_file": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+      "raw_sha256": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b",
+      "required_locator": "PDF35–38/printed23–26定时与Eq1.21，PDF104–109编码/插值与采样相位；位宽细节只按具体模块/版本"
+    },
+    {
+      "source_id": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "source_page": "knowledge/sources/doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G32/lipschutz-2016-lenda-ddas-timing.pdf",
+      "raw_sha256": "466c421c59f5c964b14de545f315c74c1d614a60b78192eb72efe427f75740cc",
+      "required_locator": "六页实际v2 PDF1–4，Eq2–6、Fig1–4；分路+2ns电子学测试与两LENDA棒四PMT随机事件测试分开"
+    },
+    {
+      "source_id": "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+      "source_page": "knowledge/sources/doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G32/hennig-2007-pixie16-clock-trigger-sync.pdf",
+      "raw_sha256": "e077cdcfd462610a80467024aac3446a562e2e4eaffbc813578a0b9bb86e0449",
+      "required_locator": "实际7页预印本PDF1、3–4，Fig3/4/5；同机箱FWHM与跨机箱示波器变化及设计目标分开"
+    }
+  ],
+  "validated_at": "2026-11-08T01:51:22.219560+00:00"
+}

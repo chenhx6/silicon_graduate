@@ -13,6 +13,8 @@ updated: 2026-11-08
 manifest归档门通过，新目录启用1.2/3.5/5.9三个Gemini样节。
 [[doctoral-thesis-notation-and-evidence-style-20261108]]给出统一约定；
 三个样节经过具体修订与总控审读，尚未形成全稿。
+其92文件发布已完成核对，第二批新增四节后当前共七节整合，
+完整39节及附录继续进行；这一节数不表示科学质量百分比或完整论文已就绪。
 [[a130-rewrite-invariant-recoupling-and-width-boundaries-20261108]]、
 [[a130-rewrite-chiral-nonorthogonal-and-fingerprint-boundaries-20261108]]、
 [[a130-rewrite-absolute-rates-and-selection-boundaries-20261108]]保存实际写作暴露的知识增量；
@@ -20,6 +22,11 @@ manifest归档门通过，新目录启用1.2/3.5/5.9三个Gemini样节。
 均为声明的代数/教学模型，不能当实核拟合或正文自动认可。
 具体稿件、引用台账和进度在raw写作目录，过程回执在degree-dissertation输出；
 知识层只保存可复用方法、解释和项目依据。
+
+第二批入口为[[a130-rewrite-bcs-convention-and-model-hamiltonian-boundaries-20261108]]与
+[[a130-rewrite-digital-pulse-gain-and-data-boundaries-20261108]]；
+原书跨壳模型和pair-only模型的临界系数须分别保留，
+数字表则按同一producer/CSV/取幅归一逐行复核。
 
 ## 2026-11-08：博士论文架构设计研究
 

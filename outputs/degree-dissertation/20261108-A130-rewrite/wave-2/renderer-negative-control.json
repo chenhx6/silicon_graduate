@@ -1,0 +1,8 @@
+{
+  "recorded_at": "2026-11-08T01:49:10.294164+00:00",
+  "source": "raw/writing/gpt/A130/review-inputs/G69-v1/section-1-1.md",
+  "actual_main_invoked_on_temporary_fixture": true,
+  "expected_failure": "1.1: control character in manuscript",
+  "raw_original_untouched": true,
+  "main_draft_untouched": true
+}

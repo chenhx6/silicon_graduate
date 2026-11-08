@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-11-08T00:07:46.361050+00:00",
-  "scope": "References actually used by the current pilot sections; local identity hashes rechecked",
+  "scope": "References in admitted pilot and next-wave drafts; actual metadata/local original hashes checked",
   "items": [
     {
       "citation_id": "ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce",
@@ -35,9 +35,19 @@
       "physical_book_pdf_page_count_omitted_from_bibliographic_pages": true
     },
     {
+      "citation_id": "book-jain-nuclear-isomers",
+      "source_page": "knowledge/sources/book-jain-nuclear-isomers.md",
+      "basis": "Canonical bibliographic identity and actual local original; no guessed DOI/pages",
+      "existing_zotero_key": "jain_2021_130sn-isomers-primer",
+      "manuscript_working_key_is_source_basename": true,
+      "source_metadata_sha256": "cd25c728ab09501f97d6f13edfe337226324eb75b5ed4f5df718c11deefb8635",
+      "raw_file": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+      "raw_sha256_verified": "994816561cfb6e89bd215b7fe23e37ecf12e8a3e8f5ce88eafbbd388d02ed74a"
+    },
+    {
       "citation_id": "book-suhonen-from-nucleons-to-nucleus",
       "source_page": "knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
-      "source_metadata_sha256": "1d20845b86fc6d4c894474a24dc12a5fad3518f3c2cbe134bd4f3cb7c43a95a2",
+      "source_metadata_sha256": "a99e3ae40f482019fcc21c5ae5d1e875e72ba0dedda26fcd9954eccb2c161099",
       "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
       "raw_sha256_verified": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
       "basis": "Existing canonical metadata and local original; no guessed DOI/author/date",
@@ -86,6 +96,16 @@
       "source_metadata_sha256": "a4326ff58662f7439acb0e2af0205271d19d4b03214b857bce145fef4555fa6a",
       "raw_file": "raw/papers/1997_Frauendorf et al_Tilted rotation of triaxial nuclei.pdf",
       "raw_sha256_verified": "9dc81b3147a786189dd0c2f31d79a56e9bb5d83e16fd0c8137bccaf2a43d81e2"
+    },
+    {
+      "citation_id": "hinohara-2015-nambu-goldstone-inertia-response",
+      "source_page": "knowledge/sources/hinohara-2015-nambu-goldstone-inertia-response.md",
+      "basis": "Canonical bibliographic identity and actual local original; no guessed DOI/pages",
+      "existing_zotero_key": "",
+      "manuscript_working_key_is_source_basename": true,
+      "source_metadata_sha256": "6d6ebcdb6a289ddd620c5e9fc6ceb56e174d367122cd17091219372a0ab47042",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-t05-response-definitions/aps-publication.pdf",
+      "raw_sha256_verified": "764d644a2349235027e15c320d78f15fcd7d8fd264ebe6412fd2b80e1a625f86"
     },
     {
       "citation_id": "koike-2004-chiral-bands-selection-rules",
@@ -169,8 +189,28 @@
       "source_metadata_sha256": "0aa2da5f29ef8ab90eaa123d0133a7c25392beee3d9865a414ffa5d5cc23a198",
       "raw_file": "raw/papers/2001_Starosta et al_Chiral Doublet Structures in Odd-Odd N = 75 Isotones Chiral Vibrations.pdf",
       "raw_sha256_verified": "9082c1e8ced3fbfeb2248f5b18c1b646f4dc1adc77af5c27c6a988855583cbf4"
+    },
+    {
+      "citation_id": "wu-2021-general-purpose-digital-daq-waveform-analysis",
+      "source_page": "knowledge/sources/wu-2021-general-purpose-digital-daq-waveform-analysis.md",
+      "basis": "Canonical bibliographic identity and actual local original; no guessed DOI/pages",
+      "existing_zotero_key": "Wu_2021",
+      "manuscript_working_key_is_source_basename": true,
+      "source_metadata_sha256": "324a098833596f02dcd210055e45bc51de995c16f8c684621fa5af0d28909a6d",
+      "raw_file": "raw/theses/degree-dissertation/基于数字化的通用获取系统及波形分析算法.pdf",
+      "raw_sha256_verified": "c1a2bd226faf52cef144d00463414906c9e44c779075fde57d66f5161a697820"
+    },
+    {
+      "citation_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "source_page": "knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md",
+      "basis": "Canonical bibliographic identity and actual local original; no guessed DOI/pages",
+      "existing_zotero_key": "wu_2020_digital-daq-waveform-analysis",
+      "manuscript_working_key_is_source_basename": true,
+      "source_metadata_sha256": "123421fabec804aee034c1aad6dfc49e5e4c9b56f5fa8b161e624064cb27c1a1",
+      "raw_file": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+      "raw_sha256_verified": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b"
     }
   ],
   "protected_zotero_inbox_modified": false,
-  "updated_at": "2026-11-08T00:54:08.856411+00:00"
+  "updated_at": "2026-11-08T01:44:39.813159+00:00"
 }

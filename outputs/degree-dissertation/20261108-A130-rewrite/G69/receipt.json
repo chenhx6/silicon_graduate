@@ -1,0 +1,45 @@
+{
+  "task": "G69",
+  "section_id": "1.1",
+  "title": "一个能谱为什么容许多种解释",
+  "version": "V2",
+  "recorded_at": "2026-11-08T01:41:24.252654+00:00",
+  "status": "completed",
+  "exclusive_write_paths": [
+    "raw/writing/gpt/A130/research-draft/section-1-1.md",
+    "raw/writing/gpt/A130/evidence-ledger/section-1-1.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/G69/receipt.json"
+  ],
+  "draft_sha256": "977eb398b63c265b267792163916ce2c382a37f5c7a53af0f0f30330103f315e",
+  "ledger_sha256": "7fc0c6b5c366d8e9f47de60a5625123be6440bb5b61c7a69735c850b66b44ded",
+  "metrics": {
+    "chinese_character_count": 2192,
+    "subsections_count": 3,
+    "tables_count": 1,
+    "display_equations_count": 0
+  },
+  "sources_verified": [
+    {
+      "key": "petrache-2006-near-degenerate-chiral-misinterpretation",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+      "raw_sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f",
+      "actual_read_pages": "printed pp. 112502-1–112502-4 (PDF pp. 1–4), Figs. 1–4, Table I"
+    },
+    {
+      "key": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "raw_sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e",
+      "actual_read_pages": "printed pp. 031301-1–031301-4 (PDF pp. 1–4), Tables I–II, Figs. 1–4"
+    }
+  ],
+  "formatting_verifications": {
+    "pandoc_ast_json": "Verified: pandoc raw/writing/gpt/A130/research-draft/section-1-1.md -t json exits with 0 and zero warnings.",
+    "pandoc_html_mathml": "Verified: pandoc raw/writing/gpt/A130/research-draft/section-1-1.md --mathml -t html exits with 0 and zero warnings.",
+    "json_ledger_syntax": "Verified: raw/writing/gpt/A130/evidence-ledger/section-1-1.json is valid JSON with verified hash and all minimum required fields.",
+    "byte_level_inspection": "Verified: zero ASCII control characters (other than LF), zero tab characters, zero formfeed characters, zero shell PID expansion artifacts (no 1132012)."
+  },
+  "unresolved_scientific_frontiers": [
+    "在134Pr解混合分析中，模型假定忽略非对角E2跃迁矩阵元；当两带波函数存在额外结构耦合时，可能存在未完全闭合的系统不确定度；",
+    "在163Lu厚衬底DSAM实验中，由于厚靶无法直接解谱弱带外跃迁，TSD2带内强度与带间多极分解依赖于外部薄靶分支与历史偏振测量输入，两带微观三轴演化仍需独立的多极偏振与多步库仑激发联合约束。"
+  ]
+}

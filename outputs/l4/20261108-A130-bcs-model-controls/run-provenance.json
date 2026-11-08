@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-11-08T01:27:29.522230+00:00",
+  "producer": "system/scripts/a130_rewrite_bcs_model_audit.py",
+  "producer_sha256": "ce595d5510be1e05a642140a34c8750a71084907f07f7a0ca7cf309208c3f95b",
+  "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+  "command": [
+    "python3",
+    "system/scripts/a130_rewrite_bcs_model_audit.py",
+    "outputs/l4/20261108-A130-bcs-model-controls/control-input.json"
+  ],
+  "exit_code": 0,
+  "context_inputs": [
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G67-v1/section-2-3.md",
+      "sha256": "0f145322817587c8f17a38d516962d746765d68e18018c338a48f079e7e3b61b"
+    },
+    {
+      "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261108-r2-t05-response-definitions/aps-publication.pdf",
+      "sha256": "764d644a2349235027e15c320d78f15fcd7d8fd264ebe6412fd2b80e1a625f86"
+    }
+  ],
+  "numeric_input": {
+    "path": "outputs/l4/20261108-A130-bcs-model-controls/control-input.json",
+    "sha256": "8d85c164a84ce91819bdef03affed273e43820dcfb6181bd1c3096bde1038027"
+  },
+  "artifacts": [
+    {
+      "path": "outputs/l4/20261108-A130-bcs-model-controls/controls.json",
+      "sha256": "4cbfdb3f5fdebd34d5b907d0c6bfc47ea96bf21a868fd9d4340aa5d549a43f48"
+    }
+  ],
+  "parent_replay_matches_T10": true,
+  "real_nucleus_calculation": false,
+  "boundary": "16-dimensional seniority-zero pair-basis BCS product-state energy, matrix phase and finite-difference signs; not global variational minimum or exact nuclear spectrum"
+}

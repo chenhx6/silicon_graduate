@@ -1,0 +1,19 @@
+{
+  "archive_type": "research-archive-v1",
+  "archive_required": true,
+  "retrieved_at": "2026-11-08T01:54:42.981085+00:00",
+  "files": [
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G69-v2/section-1-1.md",
+      "sha256": "977eb398b63c265b267792163916ce2c382a37f5c7a53af0f0f30330103f315e",
+      "size": 7547,
+      "source": "Frozen G69 V2 return before parent integration; not original physical evidence"
+    },
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G69-v2/section-1-1.json",
+      "sha256": "7fc0c6b5c366d8e9f47de60a5625123be6440bb5b61c7a69735c850b66b44ded",
+      "size": 11052,
+      "source": "Frozen G69 V2 return before parent integration; not original physical evidence"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-11-08T02:04:29.237013+00:00",
+  "command": [
+    "python3",
+    "system/scripts/wiki_archive_gate.py",
+    "check",
+    "--root",
+    ".",
+    "--",
+    "knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+    "knowledge/sources/hinohara-2015-nambu-goldstone-inertia-response.md",
+    "raw/writing/gpt/A130/review-inputs/G63-v1/manifest.json",
+    "raw/writing/gpt/A130/review-inputs/G63-v3/manifest.json",
+    "raw/writing/gpt/A130/review-inputs/G64-v1/manifest.json",
+    "raw/writing/gpt/A130/review-inputs/G64-v3/manifest.json",
+    "raw/writing/gpt/A130/review-inputs/G65-v1/manifest.json",
+    "raw/writing/gpt/A130/review-inputs/G65-v3/manifest.json",
+    "raw/writing/gpt/A130/review-inputs/G66-v1/manifest.json",
+    "raw/writing/gpt/A130/review-inputs/G66-v2/manifest.json",
+    "raw/writing/gpt/A130/review-inputs/G67-v1/manifest.json",
+    "raw/writing/gpt/A130/review-inputs/G67-v3/manifest.json",
+    "raw/writing/gpt/A130/review-inputs/G68-v1/manifest.json",
+    "raw/writing/gpt/A130/review-inputs/G68-v2/manifest.json",
+    "raw/writing/gpt/A130/review-inputs/G69-v1/manifest.json",
+    "raw/writing/gpt/A130/review-inputs/G69-v2/manifest.json"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"checked_manifests\": [\n    \"/workspace/wiki/raw/writing/gpt/A130/review-inputs/G63-v1/manifest.json\",\n    \"/workspace/wiki/raw/writing/gpt/A130/review-inputs/G63-v3/manifest.json\",\n    \"/workspace/wiki/raw/writing/gpt/A130/review-inputs/G64-v1/manifest.json\",\n    \"/workspace/wiki/raw/writing/gpt/A130/review-inputs/G64-v3/manifest.json\",\n    \"/workspace/wiki/raw/writing/gpt/A130/review-inputs/G65-v1/manifest.json\",\n    \"/workspace/wiki/raw/writing/gpt/A130/review-inputs/G65-v3/manifest.json\",\n    \"/workspace/wiki/raw/writing/gpt/A130/review-inputs/G66-v1/manifest.json\",\n    \"/workspace/wiki/raw/writing/gpt/A130/review-inputs/G66-v2/manifest.json\",\n    \"/workspace/wiki/raw/writing/gpt/A130/review-inputs/G67-v1/manifest.json\",\n    \"/workspace/wiki/raw/writing/gpt/A130/review-inputs/G67-v3/manifest.json\",\n    \"/workspace/wiki/raw/writing/gpt/A130/review-inputs/G68-v1/manifest.json\",\n    \"/workspace/wiki/raw/writing/gpt/A130/review-inputs/G68-v2/manifest.json\",\n    \"/workspace/wiki/raw/writing/gpt/A130/review-inputs/G69-v1/manifest.json\",\n    \"/workspace/wiki/raw/writing/gpt/A130/review-inputs/G69-v2/manifest.json\"\n  ],\n  \"checked_sources\": [\n    \"/workspace/wiki/knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md\",\n    \"/workspace/wiki/knowledge/sources/hinohara-2015-nambu-goldstone-inertia-response.md\"\n  ],\n  \"failure_count\": 0,\n  \"failures\": [],\n  \"ok\": true,\n  \"scope\": \"paths\"\n}\n",
+  "stderr": ""
+}

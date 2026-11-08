@@ -1,0 +1,73 @@
+{
+  "recorded_at": "2026-11-08T02:00:28.751451+00:00",
+  "new_sections": [
+    {
+      "section_id": "1.1",
+      "writer": "G69",
+      "frozen_return_manifest": "raw/writing/gpt/A130/review-inputs/G69-v2/manifest.json",
+      "manuscript": "raw/writing/gpt/A130/research-draft/section-1-1.md",
+      "sha256": "5ac19639abde30ccf7f50f101dcd77a37c50918f70421efdef5d642e8e57a505",
+      "evidence_ledger": "raw/writing/gpt/A130/evidence-ledger/section-1-1.json",
+      "evidence_sha256": "5abe629ca2cac514b91829c82b3c89a1bbfbbdc6f590c64461cf165f2fbfaa19",
+      "acceptance": "parent-integrated research draft; not school submission or audience validation"
+    },
+    {
+      "section_id": "2.1",
+      "writer": "G66",
+      "frozen_return_manifest": "raw/writing/gpt/A130/review-inputs/G66-v2/manifest.json",
+      "manuscript": "raw/writing/gpt/A130/research-draft/section-2-1.md",
+      "sha256": "8bc02122cefecbfb4d865f7805443cd6524693847bb54947ff4a0d4345b04db0",
+      "evidence_ledger": "raw/writing/gpt/A130/evidence-ledger/section-2-1.json",
+      "evidence_sha256": "09c3d5e8f1e3593062b403c80b8a0480b60b748fadb2c5b9f59cf35aa719c14b",
+      "acceptance": "parent-integrated research draft; not school submission or audience validation"
+    },
+    {
+      "section_id": "2.3",
+      "writer": "G67",
+      "frozen_return_manifest": "raw/writing/gpt/A130/review-inputs/G67-v3/manifest.json",
+      "manuscript": "raw/writing/gpt/A130/research-draft/section-2-3.md",
+      "sha256": "05f41e53b0d6ed668eaf7a4f1d0304561b9ea7135aa144e55b38de844b78b945",
+      "evidence_ledger": "raw/writing/gpt/A130/evidence-ledger/section-2-3.json",
+      "evidence_sha256": "3be6dea48d7411d1f666e44f716bdce25b86d60a4fb73535bcce459acb2a72c9",
+      "acceptance": "parent-integrated research draft; not school submission or audience validation"
+    },
+    {
+      "section_id": "5.3",
+      "writer": "G68",
+      "frozen_return_manifest": "raw/writing/gpt/A130/review-inputs/G68-v2/manifest.json",
+      "manuscript": "raw/writing/gpt/A130/research-draft/section-5-3.md",
+      "sha256": "514fd3ab6c968851eece090a54b1e875e99552d8b16fe20114738444af271dfc",
+      "evidence_ledger": "raw/writing/gpt/A130/evidence-ledger/section-5-3.json",
+      "evidence_sha256": "49387c8e0dff85855a6da4479f96b3b469d7c491de530a98ed95e5787a44d4f4",
+      "acceptance": "parent-integrated research draft; not school submission or audience validation"
+    }
+  ],
+  "integrated_total_section_ids": [
+    "1.1",
+    "1.2",
+    "2.1",
+    "2.3",
+    "3.5",
+    "5.3",
+    "5.9"
+  ],
+  "planned_sections": 39,
+  "next_writing_sections": [
+    "1.3",
+    "2.2",
+    "2.4",
+    "5.4"
+  ],
+  "goal_complete": false,
+  "reader_effect_validated": false,
+  "school_submission_ready": false,
+  "parent_replay": "outputs/l4/20261108-A130-bcs-model-controls/run-provenance.json",
+  "data_validation": "outputs/degree-dissertation/20261108-A130-rewrite/wave-2/data-and-identity-validation.json",
+  "renderer_negative_control": "outputs/degree-dissertation/20261108-A130-rewrite/wave-2/renderer-negative-control.json",
+  "additional_pilot_correction": {
+    "section_id": "3.5",
+    "scope": "C-odd zero expectation conditioned on symmetry/nondegeneracy; exact degeneracy and Hermiticity retained",
+    "manuscript_sha256": "b0d58b8da2127d4aaa433bb1fc7bb88685338f767ad0b05365035befc9615820"
+  },
+  "updated_at": "2026-11-08T02:24:50.778088+00:00"
+}

@@ -1,0 +1,13 @@
+Updating 1 collection(s)...
+
+[1/1] nuclear-knowledge (**/*.md)
+Collection: /workspace/wiki/knowledge (**/*.md)
+
+Indexed: 2 new, 6 updated, 1603 unchanged, 0 removed
+Cleaned up 6 orphaned content hash(es)
+
+✓ All collections updated.
+
+Run 'qmd embed' to update embeddings (1611 unique hashes need vectors)
+
+6010 orphaned embedding chunks (57% of vectors) — run 'qmd cleanup' to reclaim space

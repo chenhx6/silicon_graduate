@@ -1,12 +1,26 @@
 {
-  "recorded_at": "2026-11-08T01:08:18.298691+00:00",
+  "recorded_at": "2026-11-08T02:32:00.924925+00:00",
   "command_sections": [
+    "1.1",
     "1.2",
+    "2.1",
+    "2.3",
     "3.5",
+    "5.3",
     "5.9"
   ],
   "planned_total": 39,
   "inputs": [
+    {
+      "id": "1.1",
+      "path": "raw/writing/gpt/A130/research-draft/section-1-1.md",
+      "sha256": "5ac19639abde30ccf7f50f101dcd77a37c50918f70421efdef5d642e8e57a505",
+      "math": {},
+      "citations": [
+        "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+        "petrache-2006-near-degenerate-chiral-misinterpretation"
+      ]
+    },
     {
       "id": "1.2",
       "path": "raw/writing/gpt/A130/research-draft/section-1-2.md",
@@ -23,9 +37,36 @@
       ]
     },
     {
+      "id": "2.1",
+      "path": "raw/writing/gpt/A130/research-draft/section-2-1.md",
+      "sha256": "8bc02122cefecbfb4d865f7805443cd6524693847bb54947ff4a0d4345b04db0",
+      "math": {
+        "InlineMath": 154,
+        "DisplayMath": 29
+      },
+      "citations": [
+        "book-suhonen-from-nucleons-to-nucleus",
+        "cline-1986-nuclear-shapes-coulomb-excitation"
+      ]
+    },
+    {
+      "id": "2.3",
+      "path": "raw/writing/gpt/A130/research-draft/section-2-3.md",
+      "sha256": "05f41e53b0d6ed668eaf7a4f1d0304561b9ea7135aa144e55b38de844b78b945",
+      "math": {
+        "InlineMath": 168,
+        "DisplayMath": 41
+      },
+      "citations": [
+        "book-jain-nuclear-isomers",
+        "book-suhonen-from-nucleons-to-nucleus",
+        "hinohara-2015-nambu-goldstone-inertia-response"
+      ]
+    },
+    {
       "id": "3.5",
       "path": "raw/writing/gpt/A130/research-draft/section-3-5.md",
-      "sha256": "16f2ad39e1f37f43003d48b1e72db0bb56865d98148fbdfd26769e96c15884d1",
+      "sha256": "b0d58b8da2127d4aaa433bb1fc7bb88685338f767ad0b05365035befc9615820",
       "math": {
         "InlineMath": 184,
         "DisplayMath": 18
@@ -44,6 +85,19 @@
       ]
     },
     {
+      "id": "5.3",
+      "path": "raw/writing/gpt/A130/research-draft/section-5-3.md",
+      "sha256": "514fd3ab6c968851eece090a54b1e875e99552d8b16fe20114738444af271dfc",
+      "math": {
+        "InlineMath": 113,
+        "DisplayMath": 19
+      },
+      "citations": [
+        "wu-2021-general-purpose-digital-daq-waveform-analysis",
+        "wu-hongyi-2020-general-purpose-digital-daq-thesis"
+      ]
+    },
+    {
       "id": "5.9",
       "path": "raw/writing/gpt/A130/research-draft/section-5-9.md",
       "sha256": "c3da811fae74df463bc1742bf304c672c7874def3c591dc64d91e0653374b8ca",
@@ -58,15 +112,15 @@
       ]
     }
   ],
-  "bibliography_sha256": "de2f94f7d70e2d633b1b42b858b3f438564973418618eb79c717cc22881c6ac1",
+  "bibliography_sha256": "9621e242371048bce3da479b665173dfd51288d0bb99488e1f173dffd1582ee7",
   "outputs": [
     {
       "path": "raw/writing/gpt/A130/frontmatter-draft.md",
-      "sha256": "f593036d5bdf8f6eccb039c517267afc7cc9f264025af7339c2b090ce5929b39"
+      "sha256": "c1dd00270519b9db9a372abc80955af26e2d69bc5bba7702b1ebb06020a6a5fa"
     },
     {
       "path": "raw/writing/gpt/A130/frontmatter-preview.html",
-      "sha256": "831f8e7b6ef9051d7b38c0b45a01cc385e7041e0f718b6734b38a4c56cd09a25"
+      "sha256": "5e4e9eb0bb87bf2878cc92a489254fb52072486898cdc7e69f216e57f0e914d8"
     }
   ],
   "known_template_translation_warnings": [

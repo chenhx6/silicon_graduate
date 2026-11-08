@@ -523,5 +523,110 @@
     "container-title": "Physical Review Letters",
     "volume": "86",
     "page": "971-974"
+  },
+  {
+    "id": "book-jain-nuclear-isomers",
+    "type": "book",
+    "title": "Nuclear Isomers: A Primer",
+    "author": [
+      {
+        "literal": "Ashok Kumar Jain"
+      },
+      {
+        "literal": "Bhoomika Maheshwari"
+      },
+      {
+        "literal": "Alpana Goel"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-030-78675-5",
+    "publisher": "Springer Nature Switzerland AG",
+    "ISBN": "978-3-030-78674-8"
+  },
+  {
+    "id": "hinohara-2015-nambu-goldstone-inertia-response",
+    "type": "article-journal",
+    "title": "Collective inertia of the Nambu-Goldstone mode from linear response theory",
+    "author": [
+      {
+        "literal": "Nobuo Hinohara"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "DOI": "10.1103/PhysRevC.92.034321",
+    "container-title": "Physical Review C",
+    "volume": "92",
+    "page": "034321"
+  },
+  {
+    "id": "wu-2021-general-purpose-digital-daq-waveform-analysis",
+    "type": "article-journal",
+    "title": "基于数字化的通用获取系统及波形分析算法",
+    "author": [
+      {
+        "literal": "吴鸿毅"
+      },
+      {
+        "literal": "李智焕"
+      },
+      {
+        "literal": "吴婧"
+      },
+      {
+        "literal": "华辉"
+      },
+      {
+        "literal": "王翔"
+      },
+      {
+        "literal": "李湘庆"
+      },
+      {
+        "literal": "徐川"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "DOI": "10.1360/TB-2021-0552",
+    "container-title": "科学通报",
+    "volume": "66",
+    "page": "3553-3560"
+  },
+  {
+    "id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+    "type": "thesis",
+    "title": "通用数字化获取系统的开发",
+    "author": [
+      {
+        "literal": "吴鸿毅"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "genre": "博士学位论文",
+    "publisher": "北京大学"
   }
 ]

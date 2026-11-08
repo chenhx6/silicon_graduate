@@ -1,0 +1,60 @@
+{
+  "recorded_at": "2026-11-08T01:31:55.288770+00:00",
+  "items": [
+    {
+      "task": "G66",
+      "agent_id": "01a1b8b4-6893-7ba2-911c-b4057840fabc",
+      "observed_turn_contexts": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "boundary": "Local runtime routing metadata only; not provider billing or capacity evidence"
+    },
+    {
+      "task": "G67",
+      "agent_id": "01a1b8b4-a16f-72b1-a53d-092d1b3a3488",
+      "observed_turn_contexts": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "boundary": "Local runtime routing metadata only; not provider billing or capacity evidence"
+    },
+    {
+      "task": "G68",
+      "agent_id": "01a1b8b4-e372-7f31-8d5c-a603c3e61b60",
+      "observed_turn_contexts": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "boundary": "Local runtime routing metadata only; not provider billing or capacity evidence"
+    },
+    {
+      "task": "T10",
+      "agent_id": "01a1b8bd-c091-73d2-8f74-f77b7ad27936",
+      "observed_turn_contexts": [
+        {
+          "model": "codex/gpt-6.1-terra",
+          "effort": "xhigh"
+        }
+      ],
+      "boundary": "Local runtime routing metadata only; not provider billing or capacity evidence"
+    },
+    {
+      "task": "G69",
+      "agent_id": "01a1b8c2-e653-7d71-bfb5-deda493fc64b",
+      "observed_turn_contexts": [
+        {
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ],
+      "boundary": "Local runtime routing metadata only; not provider billing or capacity evidence"
+    }
+  ]
+}
