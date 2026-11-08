@@ -1,0 +1,81 @@
+{
+  "root": "/workspace/wiki",
+  "model": "antigravity/gemini-3.8-flash-tiered",
+  "reasoning_effort": "high",
+  "permissions": {
+    "raw_draft_write": "explicitly authorized only for listed new section and matching ledger",
+    "git": false,
+    "subagents": false,
+    "credentials": false,
+    "external_messages": false
+  },
+  "read_first": [
+    "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-argument-and-writer-contract-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-high-risk-section-contracts-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-notation-and-evidence-style-20261108.md"
+  ],
+  "workflow": [
+    "先读给定canonical笔记和原件具体页，台账记录实际读取范围、SHA、版次、claim类别和locator；先在ledger记录5–8句论证骨架再起草，无需等用户确认。",
+    "写面向具有一般量子力学但不熟核结构的读者的连贯中文正文，定义→必要推导→物理解释→可测量量→竞争解释。标题按地图，通常3–5子节，篇幅按讲清问题而非凑字。",
+    "正文只引用真正读过的原作，[@source-basename]；内部知识页用于定位与校准，不冒充已发表论文。模型/教学假设与实际测量分开。未知个人数据/硬件/成果不补写。",
+    "不读取或复用旧归档稿，不改其它节、书目、索引、共享handoff或system；无并发共享写者。",
+    "仅用 $...$ 和 $$...$$ 数学，严禁原始TeX环境、label/ref、三连美元；长正文用apply_patch或python单引号heredoc，勿嵌在python -c单引号shell中。",
+    "写后实际检查JSON与Pandoc AST/HTML数学，任何math转换警告必须修；不能仅数DisplayMath自评通过。",
+    "receipt用datetime.now(timezone.utc)实际采样；只哈希其它文件不哈希自己。回传路径、真实检查和未解，不把完成或模型自评当科学通过。"
+  ],
+  "ledger_minimum": [
+    "section_id",
+    "title",
+    "version",
+    "recorded_at",
+    "argument_outline",
+    "sources: source_id/raw_file/raw_sha256/actual_read_pages",
+    "claims: text/kind/source_id/locator/conditions",
+    "equations: convention/derivation/limit",
+    "competing_explanations",
+    "unresolved"
+  ],
+  "format_boundary": "No PDF/school submission claim; MD+MathML preview is current rendering route",
+  "task_id": "G66",
+  "section_id": "2.1",
+  "title": "实验室对称性与张量语言",
+  "depends_on": [
+    "three-pilot-parent-admission"
+  ],
+  "read_notes": [
+    "knowledge/research-notes/a130-rewrite-invariant-recoupling-and-width-boundaries-20261108.md",
+    "raw/writing/gpt/A130/research-draft/section-1-2.md",
+    "raw/writing/gpt/A130/research-draft/section-5-9.md"
+  ],
+  "must_explain": [
+    "从H旋转不变和I,M,宇称定义解释磁子态简并，声明J算符有hbar单位、I无量纲；不是把I强叫矢量算符。",
+    "给一般WE式及三角/磁投影条件。R_ab=<aIa||T||bIb>，R_ba=(-1)^(Ib-Ia)R_ab*；不要把单个RME符号叫直接物理观测。",
+    "从磁子态求和/平均推B(i→f)=|R_fi|²/(2Ii+1)，推倒易统计权；0→2/2→0因子5由此来。定义实Hermitian算符约定再解释复相位。",
+    "用态重定相展示闭合R_sr R_rt R_ts不变而单个非对角RME变；对角矩和干涉网络为何有测量意义。可用已审不变量note最小I0三次式，别重新猜6j。",
+    "解释奇偶核实验室态与内禀标签差异，空间宇称±为线性守恒量；反幺正细节留2.5/3.5，不重复长段。",
+    "正文适量推导且每式给解释，完整一般重耦合附录以后独立写，不在此复制全部T08审计；通常3000–4200汉字但以科学完整为准。"
+  ],
+  "exclusive_write_paths": [
+    "raw/writing/gpt/A130/research-draft/section-2-1.md",
+    "raw/writing/gpt/A130/evidence-ledger/section-2-1.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/G66/receipt.json"
+  ],
+  "source_inputs": [
+    {
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "source_page": "knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "required_locator": "Printed29–30/PDF44–45, WE and Hermitian convention; printed118–121/PDF133–136 for B direction and units"
+    },
+    {
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "source_page": "knowledge/sources/cline-1986-nuclear-shapes-coulomb-excitation.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "raw_sha256": "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113",
+      "required_locator": "Printed698–700/PDF16–18, scalar network and phase loops"
+    }
+  ],
+  "validated_at": "2026-11-08T01:05:29.535719+00:00"
+}

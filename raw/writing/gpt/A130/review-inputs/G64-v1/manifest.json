@@ -1,0 +1,22 @@
+{
+  "archive_type": "research-archive-v1",
+  "retrieved_at": "2026-11-08T00:24:22.371904+00:00",
+  "archive_required": true,
+  "files": [
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G64-v1/section-3-5.md",
+      "sha256": "d8456e402d8993bb0bb3742ae1f0eb900e34f8fa1637b662fa35934726523afc",
+      "size": 22247,
+      "source": "Frozen generated manuscript from raw/writing/gpt/A130/research-draft/section-3-5.md",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G64-v1/section-3-5.json",
+      "sha256": "69658ba0a7c50c4e6689bcda19e6e9449fdf6761d213f52d8aa7543a9bebb5e4",
+      "size": 14117,
+      "source": "Frozen generated manuscript from raw/writing/gpt/A130/evidence-ledger/section-3-5.json",
+      "archive_required": true
+    }
+  ],
+  "boundary": "Draft audit input, not admitted science"
+}

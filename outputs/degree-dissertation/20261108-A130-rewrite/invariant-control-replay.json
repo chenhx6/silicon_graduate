@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2026-11-08T00:33:35.569500+00:00",
+  "command": [
+    "python3",
+    "-B",
+    "system/scripts/a130_rewrite_invariant_angular_audit.py"
+  ],
+  "repository_local_dependency_path": "tmp/runs/20261108-A130-rewrite/sympy-runtime",
+  "returncode": 0,
+  "stdout": "{\"quadratic_channels\": 20, \"cubic_channels\": 61, \"all_pass\": true}\n",
+  "stderr": "",
+  "global_configuration_changed": false
+}

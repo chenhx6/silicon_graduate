@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-11-08T01:15:57.498959+00:00",
+  "scope": "Three integrated pilot sections and shared sources/scripts only",
+  "evidence_ledger_raw_hashes_checked": 17,
+  "unique_evidence_raw_files": 16,
+  "gate_commands": [
+    "archive-final.json",
+    "boundary-final.json",
+    "preflight-final.json",
+    "diff-final.json",
+    "lint-final.json"
+  ],
+  "all_required_bounded_checks_pass": true,
+  "whole_repository_green": false,
+  "goal_complete": false,
+  "pdf_or_school_compliance_claimed": false,
+  "stage_scope_adjustment": {
+    "reason": "Frozen V1 input includes original trailing whitespace. Retained original bytes locally; frozen draft/ledger payloads excluded from publication, collection manifests retained.",
+    "raw_bytes_changed": false,
+    "frozen_payloads_local_only": 12,
+    "staged_diff_check_after_scope_adjustment": 0
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "task_id": "WRITE-G63",
+  "timestamp": "2026-11-08T00:55:24.156989+00:00",
+  "status": "completed-v3-narrow-refined",
+  "section_id": "1.2",
+  "section_title": "核形状指哪一种对象",
+  "version": "v3",
+  "formatting_verification": {
+    "math_format": "独立行公式全部采用 $$...$$，行内公式采用 $...$；完全无 \\begin{equation}、\\label、\\ref 原始 TeX 环境与交叉引用宏",
+    "pandoc_ast_check": "DisplayMath=17, InlineMath=98, RawInline(tex)=0",
+    "encoding": "严格 UTF-8，彻底排除 \\beta, \\theta, \\rho, \\alpha 等反斜杠控制字符转义错误"
+  },
+  "files_written": [
+    {
+      "path": "raw/writing/gpt/A130/research-draft/section-1-2.md",
+      "sha256": "2dcd55c45ee71a1fe06a4624854fa9020b4dd6604cbf9306ff94cde6c7925f64",
+      "size_bytes": 17946,
+      "chinese_characters": 4155
+    },
+    {
+      "path": "raw/writing/gpt/A130/evidence-ledger/section-1-2.json",
+      "sha256": "a66e460fed04cf4a4cce4b0676969c3f961cc9506e69b2a95d5735688f84fa5f",
+      "size_bytes": 10104
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/G63/receipt.json",
+      "role": "task_completion_receipt"
+    }
+  ],
+  "verified_sources_and_actual_reading": [
+    {
+      "source_id": "bohr-1952-surface-particle-coupling",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-1952-mfm26-14.pdf",
+      "raw_sha256": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d",
+      "actual_read_pages": "printed pp. 9–13, 19–21 (PDF idx 8–12, 18–20)"
+    },
+    {
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "raw_sha256": "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113",
+      "actual_read_pages": "printed pp. 698–700 (PDF idx 15–17)"
+    },
+    {
+      "source_id": "poves-2020-limits-assigning-nuclear-shape",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/poves-2020-limits-assigning-nuclear-shape.pdf",
+      "raw_sha256": "ca188d5b2ac257edb8f616b2a055d2bd488f29d5d136baf540753ea049edf21a",
+      "actual_read_pages": "arXiv:1906.07542v2, PDF pp. 2–3 (Section II Eqs. 3–14, Section III Eqs. 15–16, Table I)"
+    },
+    {
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "actual_read_pages": "printed pp. 29–30 (PDF pp. 44–45, Section 2.2 The Wigner–Eckart Theorem, Section 2.2.1 Immediate Consequences)"
+    }
+  ],
+  "v3_refinements_completed": [
+    "点质子裸E2求和Z项（e_k=e，r_k相对核质心）与截断空间有效四极算符（sum至A，含en与ep）严格分开定义",
+    "明确矩比定义实有效角gamma_eff的充要范围（q2>0且|q3/q2^(3/2)|<=1）；给出一行正权可交换坐标教学控制反例（Q=1,2等权，gamma=0给出比值9sqrt(10)/25约1.138>1，反余弦无实数解）",
+    "按总控notation定义标量算符A=T·T，q2=<A>，相对宽度Delta A/<A>=sqrt(<A^2>-<A>^2)/<A>；声明其量化径向幅度量子涨落，不反映gamma定域，非实验误差；声明一般算符实现不能未声明就写Q（坐标实现A=Q^2）",
+    "撤回良好变形转动带必深势阱/闭壳必弥散的普遍化断言，以Poves考察的CI壳模型示例说明相对宽度的差异；强调不能从转动能谱或幅度窄反推深势阱",
+    "概念对比表中内禀坐标表述修正：内禀坐标在软核/振动核同样适用，定域条件限制固定几何参数赋值而非坐标本身；参考构型可不具轴对称性，精确态保持空间转动对称",
+    "删除结尾接口清单与核心粗体口号断言，改为自然学术衔接；彻底删除未定义概念'配对超流阻尼惯量'；明确瞬时主轴变换为Wigner D矩阵旋转变换；将gamma=30度表述为标准扇区中点对称几何",
+    "receipt时间戳采用当前真实UTC时刻，不列自身hash以避免不动点循环"
+  ],
+  "prohibitions_strictly_obeyed": [
+    "No deletion of directories",
+    "No reading or reuse of old archived drafts",
+    "No modification of other files",
+    "No git commands executed",
+    "No sub-agents dispatched",
+    "No credential inspection",
+    "No external messaging"
+  ]
+}

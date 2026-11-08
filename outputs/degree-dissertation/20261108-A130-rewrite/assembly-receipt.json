@@ -1,0 +1,78 @@
+{
+  "recorded_at": "2026-11-08T01:08:18.298691+00:00",
+  "command_sections": [
+    "1.2",
+    "3.5",
+    "5.9"
+  ],
+  "planned_total": 39,
+  "inputs": [
+    {
+      "id": "1.2",
+      "path": "raw/writing/gpt/A130/research-draft/section-1-2.md",
+      "sha256": "96514dd3beeabb9362c2837c6630dd36bdda6840ca2a4ad5ac98e794be26e20c",
+      "math": {
+        "InlineMath": 97,
+        "DisplayMath": 17
+      },
+      "citations": [
+        "bohr-1952-surface-particle-coupling",
+        "book-suhonen-from-nucleons-to-nucleus",
+        "cline-1986-nuclear-shapes-coulomb-excitation",
+        "poves-2020-limits-assigning-nuclear-shape"
+      ]
+    },
+    {
+      "id": "3.5",
+      "path": "raw/writing/gpt/A130/research-draft/section-3-5.md",
+      "sha256": "16f2ad39e1f37f43003d48b1e72db0bb56865d98148fbdfd26769e96c15884d1",
+      "math": {
+        "InlineMath": 184,
+        "DisplayMath": 18
+      },
+      "citations": [
+        "ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce",
+        "book-bohr-mottelson-nuclear-structure-vol2",
+        "frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei",
+        "frauendorf-meng-1997-tilted-rotation-chirality",
+        "koike-2004-chiral-bands-selection-rules",
+        "liu-chen-2016-78br-chirality-reflection-symmetry-thesis",
+        "meng-2010-open-problems-nuclear-chirality",
+        "petrache-2006-near-degenerate-chiral-misinterpretation",
+        "rohozinski-2011-cphc-s-symmetry-chirality",
+        "starosta-2001-n75-chiral-vibrations"
+      ]
+    },
+    {
+      "id": "5.9",
+      "path": "raw/writing/gpt/A130/research-draft/section-5-9.md",
+      "sha256": "c3da811fae74df463bc1742bf304c672c7874def3c591dc64d91e0653374b8ca",
+      "math": {
+        "InlineMath": 214,
+        "DisplayMath": 40
+      },
+      "citations": [
+        "book-suhonen-from-nucleons-to-nucleus",
+        "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+        "lange-kumar-hamilton-1982-multipole-admixtures"
+      ]
+    }
+  ],
+  "bibliography_sha256": "de2f94f7d70e2d633b1b42b858b3f438564973418618eb79c717cc22881c6ac1",
+  "outputs": [
+    {
+      "path": "raw/writing/gpt/A130/frontmatter-draft.md",
+      "sha256": "f593036d5bdf8f6eccb039c517267afc7cc9f264025af7339c2b090ce5929b39"
+    },
+    {
+      "path": "raw/writing/gpt/A130/frontmatter-preview.html",
+      "sha256": "831f8e7b6ef9051d7b38c0b45a01cc385e7041e0f718b6734b38a4c56cd09a25"
+    }
+  ],
+  "known_template_translation_warnings": [
+    "[WARNING] Could not load translations for zh-CN\n  data file translations/zh.yaml not found\n[WARNING] The term Abstract has no translation defined."
+  ],
+  "scientific_admission": false,
+  "school_submission_ready": false,
+  "scope": "Existing section preview; no automatic scientific or reader-effect approval"
+}

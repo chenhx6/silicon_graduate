@@ -1,0 +1,19 @@
+{
+  "archive_type": "research-archive-v1",
+  "archive_required": true,
+  "retrieved_at": "2026-11-08T01:06:45.835816+00:00",
+  "files": [
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G64-v3/section-3-5.md",
+      "sha256": "d7e4184f81f71784904dd0b25c39e22266eb980288da15970ce6976ff139a3ce",
+      "size": 22037,
+      "source": "Frozen G64 V3 on disk before parent integration; not original physical evidence"
+    },
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G64-v3/section-3-5.json",
+      "sha256": "7f5939ff9c035bb055f3cc290322dbba685e925e9427d49f02daccc7b61593f9",
+      "size": 18801,
+      "source": "Frozen G64 V3 on disk before parent integration; not original physical evidence"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "root": "/workspace/wiki",
+  "model": "antigravity/gemini-3.8-flash-tiered",
+  "reasoning_effort": "high",
+  "permissions": {
+    "raw_draft_write": "explicitly authorized only for listed new section and matching ledger",
+    "git": false,
+    "subagents": false,
+    "credentials": false,
+    "external_messages": false
+  },
+  "read_first": [
+    "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-argument-and-writer-contract-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-high-risk-section-contracts-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-notation-and-evidence-style-20261108.md"
+  ],
+  "workflow": [
+    "先读给定canonical笔记和原件具体页，台账记录实际读取范围、SHA、版次、claim类别和locator；先在ledger记录5–8句论证骨架再起草，无需等用户确认。",
+    "写面向具有一般量子力学但不熟核结构的读者的连贯中文正文，定义→必要推导→物理解释→可测量量→竞争解释。标题按地图，通常3–5子节，篇幅按讲清问题而非凑字。",
+    "正文只引用真正读过的原作，[@source-basename]；内部知识页用于定位与校准，不冒充已发表论文。模型/教学假设与实际测量分开。未知个人数据/硬件/成果不补写。",
+    "不读取或复用旧归档稿，不改其它节、书目、索引、共享handoff或system；无并发共享写者。",
+    "仅用 $...$ 和 $$...$$ 数学，严禁原始TeX环境、label/ref、三连美元；长正文用apply_patch或python单引号heredoc，勿嵌在python -c单引号shell中。",
+    "写后实际检查JSON与Pandoc AST/HTML数学，任何math转换警告必须修；不能仅数DisplayMath自评通过。",
+    "receipt用datetime.now(timezone.utc)实际采样；只哈希其它文件不哈希自己。回传路径、真实检查和未解，不把完成或模型自评当科学通过。"
+  ],
+  "ledger_minimum": [
+    "section_id",
+    "title",
+    "version",
+    "recorded_at",
+    "argument_outline",
+    "sources: source_id/raw_file/raw_sha256/actual_read_pages",
+    "claims: text/kind/source_id/locator/conditions",
+    "equations: convention/derivation/limit",
+    "competing_explanations",
+    "unresolved"
+  ],
+  "format_boundary": "No PDF/school submission claim; MD+MathML preview is current rendering route",
+  "task_id": "G68",
+  "section_id": "5.3",
+  "title": "数字成形与能量估计",
+  "depends_on": [
+    "three-pilot-parent-admission"
+  ],
+  "read_notes": [
+    "knowledge/research-notes/doctoral-r1-g32-digital-daq-observable-chain-20261108.md",
+    "system/scripts/doctoral_g32_digital_pulse_response.py"
+  ],
+  "must_explain": [
+    "从HPGe电荷收集/前放阶跃带指数尾→离散采样→四延迟差分→双累加/PZC→幅度估计，解释每步物理目的。",
+    "使用canonical note的n,k,ell,Ts,tau_d,M约定。原吴Eq1.14/1.19字面n[...]歧义与本任务LTI重建分开，不伪称原文无误原式。",
+    "给d[n],p[n],r[n],s[n],M=(exp(Ts/tau_d)-1)^-1，推理想指数alpha=M/(M+1)极点消去；平顶Ak(M+1)，不是kM。符号与零初始历史/ell>=k条件明确。",
+    "平顶/上升时间、PZC失配、弹道亏损、堆积和基线可影响能量及事件接受；不写平顶超过收集时间当且仅当零亏损。",
+    "可复用已有G32声明模型/producer结果，优先一个小图或表（自绘概念图可Markdown表，不复制原件图）；不重跑真实固件、不硬编码参考值为测量，不造当前硬件参数。",
+    "论证定时/触发接口但把CFD、live详细推导留5.4/5.5；不让技术章成为无物理用途的模块名录。通常3000–4500汉字。"
+  ],
+  "exclusive_write_paths": [
+    "raw/writing/gpt/A130/research-draft/section-5-3.md",
+    "raw/writing/gpt/A130/evidence-ledger/section-5-3.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/G68/receipt.json"
+  ],
+  "source_inputs": [
+    {
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "source_page": "knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md",
+      "raw_file": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+      "raw_sha256": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b",
+      "required_locator": "PDF29–38, especially31–32/printed19–20 Eqs1.11–1.18; PDF85–86 only if quoting actual performance"
+    },
+    {
+      "source_id": "wu-2021-general-purpose-digital-daq-waveform-analysis",
+      "source_page": "knowledge/sources/wu-2021-general-purpose-digital-daq-waveform-analysis.md",
+      "raw_file": "raw/theses/degree-dissertation/基于数字化的通用获取系统及波形分析算法.pdf",
+      "raw_sha256": "c1a2bd226faf52cef144d00463414906c9e44c779075fde57d66f5161a697820",
+      "required_locator": "Actual source locators; same research lineage, not independent new measurement"
+    }
+  ],
+  "validated_at": "2026-11-08T01:05:30.168275+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "archive_type": "research-archive-v1",
+  "retrieved_at": "2026-11-08T00:08:57.468115+00:00",
+  "archive_required": true,
+  "files": [
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G63-v1/section-1-2.md",
+      "sha256": "94f2f5cfe04bdd6d2a160ef68c3f7354f478c0567e341cd6659d22019648b940",
+      "size": 29447,
+      "source": "Frozen pre-review generated draft copied from raw/writing/gpt/A130/research-draft/section-1-2.md",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G63-v1/section-1-2.json",
+      "sha256": "6e283805a3342375f0c449b555d185507ed44fccba303a44f20f0cd4e4772792",
+      "size": 8067,
+      "source": "Frozen pre-review generated draft copied from raw/writing/gpt/A130/evidence-ledger/section-1-2.json",
+      "archive_required": true
+    }
+  ],
+  "boundary": "Generated draft review input, not admitted scientific evidence"
+}

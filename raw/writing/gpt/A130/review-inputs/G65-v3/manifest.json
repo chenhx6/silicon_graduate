@@ -1,0 +1,19 @@
+{
+  "archive_type": "research-archive-v1",
+  "archive_required": true,
+  "retrieved_at": "2026-11-08T00:57:59.169414+00:00",
+  "files": [
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G65-v3/section-5-9.md",
+      "sha256": "73ea19cea459b7b06da0c391a2646d0ceaa292535c914b4b23009bdc620302a2",
+      "size": 26647,
+      "source": "Frozen G65 V3 returned draft before parent integration; not original physical evidence"
+    },
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G65-v3/section-5-9.json",
+      "sha256": "ae45276d9b64b5f376b490a4b932d20bccafccb94a8ce2daa22e78169cf33435",
+      "size": 9415,
+      "source": "Frozen G65 V3 returned draft before parent integration; not original physical evidence"
+    }
+  ]
+}

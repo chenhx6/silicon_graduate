@@ -1,0 +1,114 @@
+{
+  "checks": {
+    "C_squared_one_and_H_C_symmetric": true,
+    "equal_diagonals_but_overlap_and_coupling_not_same_phase": true,
+    "general_pencil_recovers_original_real_spectrum": true,
+    "unqualified_real_branch_formula_fails": true,
+    "energy_shift_is_H_plus_cN": true,
+    "relative_phase_invariant": true,
+    "signed_branch_difference_is_not_positive_gap": true,
+    "constant_operator_in_nonorthogonal_basis": true,
+    "four_declared_complex_pencils": true,
+    "C_m_axis_does_not_restore_full_J_direction": true,
+    "three_nonzero_total_components_do_not_imply_nonzero_triple_product": true
+  },
+  "counterexample_eigenvalues": [
+    -1.0,
+    1.0
+  ],
+  "metric_eigenvalues": [
+    0.5,
+    1.4999999999999998
+  ],
+  "unqualified_branch_eigenvalues_real_imag": [
+    [
+      0.0,
+      -0.5773502691896257
+    ],
+    [
+      0.0,
+      1.7320508075688767
+    ]
+  ],
+  "complex_pencils": [
+    {
+      "h": 1.0,
+      "k_real_imag": [
+        0.4,
+        0.2
+      ],
+      "S_real_imag": [
+        0.0,
+        0.0
+      ],
+      "eigenvalues": [
+        0.5527864045000421,
+        1.4472135954999579
+      ]
+    },
+    {
+      "h": 0.3,
+      "k_real_imag": [
+        0.7,
+        -0.2
+      ],
+      "S_real_imag": [
+        0.3,
+        0.4
+      ],
+      "eigenvalues": [
+        -0.5721101760400086,
+        1.0254435093733418
+      ]
+    },
+    {
+      "h": -0.2,
+      "k_real_imag": [
+        -0.8,
+        0.3
+      ],
+      "S_real_imag": [
+        -0.2,
+        0.6
+      ],
+      "eigenvalues": [
+        -2.3,
+        0.5000000000000001
+      ]
+    },
+    {
+      "h": 0.5,
+      "k_real_imag": [
+        0.01,
+        0.02
+      ],
+      "S_real_imag": [
+        0.99,
+        0.0
+      ],
+      "eigenvalues": [
+        0.2558690393897498,
+        49.00041236764534
+      ]
+    }
+  ],
+  "vector_example": {
+    "J": [
+      1.0,
+      2.0,
+      3.0
+    ],
+    "C_J": [
+      1.0,
+      -2.0,
+      3.0
+    ],
+    "coplanar_vectors_total": [
+      2,
+      4,
+      2
+    ],
+    "triple_product": 0
+  },
+  "boundary": "Abstract finite Hilbert-space/vector controls; not measured nuclear inputs"
+}

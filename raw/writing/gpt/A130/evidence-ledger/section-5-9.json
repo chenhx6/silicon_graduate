@@ -1,0 +1,156 @@
+{
+  "section_id": "5.9",
+  "title": "由寿命、分支与内转换到绝对电磁强度",
+  "version": "V3",
+  "recorded_at": "2026-11-08T00:55:15.715157+00:00",
+  "manuscript_path": "raw/writing/gpt/A130/research-draft/section-5-9.md",
+  "chinese_character_count": 5209,
+  "sources": [
+    {
+      "citation_key": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "canonical_title": "Quadrupole moments of wobbling excitations in 163Lu",
+      "authors": [
+        "A. Görgen",
+        "R. M. Clark",
+        "M. Cromaz",
+        "P. Fallon",
+        "G. B. Hagemann",
+        "H. Hübel",
+        "I. Y. Lee",
+        "A. O. Macchiavelli",
+        "G. Sletten",
+        "D. Ward",
+        "R. Bengtsson"
+      ],
+      "journal": "Physical Review C",
+      "year": 2004,
+      "volume": "69",
+      "pages": "031301(R)",
+      "doi": "10.1103/PhysRevC.69.031301",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "raw_sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e",
+      "actual_read_pages": "PDF pages 2–4, Tables I–II and adopted thin-target inputs",
+      "evidence_role": "Case study for DSAM lifetime measurements, adopted thin-target branching ratios (Jensen 2002), adopted average delta (-3.10), and interpretation limits in wobbling candidates within authors specific model picture."
+    },
+    {
+      "citation_key": "lange-kumar-hamilton-1982-multipole-admixtures",
+      "canonical_title": "E0-E2-M1 multipole admixtures of transitions in even-even nuclei",
+      "authors": [
+        "J. Lange",
+        "Krishna Kumar",
+        "J. H. Hamilton"
+      ],
+      "journal": "Reviews of Modern Physics",
+      "year": 1982,
+      "volume": "54",
+      "pages": "119–194",
+      "doi": "10.1103/RevModPhys.54.119",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+      "raw_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+      "actual_read_pages": "printed pages 121–122 (PDF pages 3–4), Eqs. (2.1)–(2.6)",
+      "evidence_role": "Formal definition of real multipole mixing ratio delta(E2/M1) as photon emission amplitude ratio, multipole fractions delta²/(1+delta²) and 1/(1+delta²), and phase convention transformations."
+    },
+    {
+      "citation_key": "book-suhonen-from-nucleons-to-nucleus",
+      "canonical_title": "From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory",
+      "authors": [
+        "Jouni Suhonen"
+      ],
+      "publisher": "Springer-Verlag Berlin Heidelberg",
+      "year": 2007,
+      "isbn": "9783540488590",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "actual_read_pages": "printed pages 118–121 (PDF pages 133–136), Eqs. (6.1)–(6.4), (6.12)–(6.14)",
+      "evidence_role": "Downwards reduced transition probability B(XL) definition, Wigner-Eckart reciprocal relation (2Ii+1)B(i->f) = (2If+1)B(f->i), dimensioned transition rate formula, SI magnetic operator definition with mu_N/c, and reconstruction of textbook rounded rate constant C_E2 = 1.2250333078e9 s^-1 MeV^-5 (e² fm⁴)^-1 and C_M1 = 1.7583758801e13 s^-1 MeV^-3 [(mu_N/c)²]^-1."
+    }
+  ],
+  "key_claims_and_derivations": [
+    {
+      "claim_id": "time-observables",
+      "claim": "Mean lifetime tau is 1/lambda_tot; half-life T_1/2 = tau ln 2; resonance energy width Gamma_tot = hbar * lambda_tot. If given Gamma_tot, it must first be divided by hbar before entering rate equations. In rate formulas where the dimensioned constant already incorporates hbar and permittivity, neither hbar nor ln 2 may be multiplied again. Directional misidentification leads to factor 1/ln2 (~1.443, +44.3%) or ln2 (~0.693, -30.7%).",
+      "locator": "Suhonen 2007, printed p. 118, Eq. (6.1); thesis Section 5.9.1"
+    },
+    {
+      "claim_id": "branching-and-icc",
+      "claim": "Total transition rate is lambda_k = lambda_gamma,k * (1 + alpha_k), where alpha_k is total internal conversion coefficient. Total branching ratio b_k = lambda_k / lambda_tot yields lambda_gamma,k = b_k / [tau * (1 + alpha_k)]. Partial photon branching ratio b_gamma,k = lambda_gamma,k / lambda_tot satisfies sum b_gamma <= 1 (strictly < 1 with IC). Observed photon fraction r_k = a_k / sum a_j does not equal b_k or b_gamma,k. Normalization using relative photon intensities a_k requires complete decay channels with zero unobserved E0 conversion or particle emission.",
+      "locator": "Thesis Section 5.9.2"
+    },
+    {
+      "claim_id": "multipole-mixing",
+      "claim": "Real multipole mixing ratio delta(E2/M1) is the ratio of photon emission probability amplitudes, governed by triangular condition |Ii-If| <= L <= Ii+If and parity conservation. Photon fractions are delta²/(1+delta²) for E2 and 1/(1+delta²) for M1. The effective ICC alpha_mix must be weighted by the same photon fractions. RME relation requires consistent SI/Gaussian magnetic operator definition. Phase convention changes do not alter physical quantities delta² or partial rates.",
+      "locator": "Lange, Kumar & Hamilton 1982, printed pp. 121–122, Eqs. (2.1)–(2.6); thesis Section 5.9.3"
+    },
+    {
+      "claim_id": "b-xl-and-rate-constants",
+      "claim": "Downwards B(XL; i->f) = |<f||M(XL)||i>|² / (2Ii+1); reciprocal relation (2Ii+1)B(i->f) = (2If+1)B(f->i). Reconstructed textbook constants from Suhonen printed numbers: C_E2 = 1.2250333078e9 s^-1 MeV^-5 (e² fm⁴)^-1, C_M1 = 1.7583758801e13 s^-1 MeV^-3 [(mu_N/c)²]^-1.",
+      "locator": "Suhonen 2007, printed pp. 118–120, Eqs. (6.3), (6.4), (6.12)–(6.14); thesis Section 5.9.4"
+    },
+    {
+      "claim_id": "ratio-cancellation-and-covariance",
+      "claim": "In branching ratios from the same parent state, the mean lifetime tau algebraically cancels out. However, mixing ratio uncertainties, ICC model errors, detector efficiency curve slopes, and peak area covariances (positive or negative) remain. Across different parent states, lifetime and stopping-power uncertainties do not automatically cancel unless sensitivities match. Profile likelihood multimodality must not be conflated with posterior distribution (which requires explicit prior).",
+      "locator": "Thesis Section 5.9.6"
+    },
+    {
+      "claim_id": "gorgen-163lu-case-study",
+      "claim": "Görgen et al. (2004) DSAM measurement in 163Lu provided valuable new lifetimes, but interband absolute B(E2) and B(M1) strengths adopted thin-target branching ratios (Jensen 2002) and low-spin average mixing ratio delta = -3.10. Similar Qt was used by authors within their specific wobbling picture, but Table I Qt values show broad variation and the ~4% difference was their specific model estimate. Observed transition properties do not exclude quasiparticle-alignment or gamma-soft competing mechanisms.",
+      "locator": "Görgen et al. 2004, PDF pp. 2–4, Tables I–II; thesis Section 5.9.7"
+    }
+  ],
+  "pedagogical_example": {
+    "hypothetical_inputs": {
+      "parent_state": "I_i^pi = 4^+",
+      "mean_lifetime_tau": "5.00 ps",
+      "channel_1": {
+        "final_state": "3^+",
+        "multipolarity": "M1 + E2 (permitted by |4-3| <= L <= 4+3 and parity; both assumed contributing in teaching model)",
+        "energy_MeV": 0.8,
+        "relative_photon_intensity_a1": 100.0,
+        "mixing_ratio_delta1": 1.5,
+        "hypothetical_icc_M1": 0.003,
+        "hypothetical_icc_E2": 0.0015
+      },
+      "channel_2": {
+        "final_state": "2^+",
+        "multipolarity": "predominantly E2 (L=1 forbidden by |4-2| <= L <= 4+2; higher multipoles M3/E4 assumed negligible)",
+        "energy_MeV": 0.5,
+        "relative_photon_intensity_a2": 25.0,
+        "hypothetical_icc_E2": 0.005
+      }
+    },
+    "outputs": {
+      "lambda_tot_s_inv": 200000000000.0,
+      "alpha_mix_1": 0.0019615384615384616,
+      "total_weight": 125.32115384615386,
+      "lambda_gamma1_s_inverse": 159589976521.85922,
+      "lambda_gamma2_s_inverse": 39897494130.464806,
+      "b_gamma_1": 0.7979496733230919,
+      "b_gamma_2": 0.199487418330773,
+      "b_1_total": 0.7995150919944144,
+      "b_2_total": 0.2004849080055856,
+      "B_E2_channel_1_e2_fm4": 275.2370763459114,
+      "B_E2_channel_1_rounded_e2_fm4": 275.24,
+      "B_E2_channel_1_e2_b2": 0.0275,
+      "B_M1_channel_1_book_SI_unit": 0.005454319460297189,
+      "B_M1_channel_1_rounded_book_unit": 0.005454,
+      "B_E2_channel_2_e2_fm4": 1042.1919176012157,
+      "B_E2_channel_2_rounded_e2_fm4": 1042.19,
+      "B_E2_channel_2_e2_b2": 0.1042,
+      "B_E2_ratio_channel_1_to_2": 0.2640944265487739,
+      "B_E2_ratio_rounded": 0.2641
+    }
+  },
+  "boundaries_and_transition": {
+    "transition_scope": "Section 5.9 establishes the empirical rate-to-B(XL) causal chain. The B(XL) values provide squared moduli of matrix elements and serve as direct inputs for statistical inference in Section 5.10 and microscopic/collective dynamic model comparisons in Chapter 4.",
+    "unresolved_empirical_inputs": "Precise branchings when unobserved E0 or particle emission channels compete; experimental detector response waveforms outside scope of current section; stopping power model systematic errors in DSAM."
+  },
+  "parent_integration": {
+    "recorded_at": "2026-11-08T01:08:17.564318+00:00",
+    "version": "v3-parent-integrated",
+    "manuscript_sha256": "c3da811fae74df463bc1742bf304c672c7874def3c591dc64d91e0653374b8ca",
+    "scope": "Read full returned text; source/units/important claims checked; bounded research-draft acceptance, not school/reader validation",
+    "corrections": [
+      "M1/E2 require full triangle condition and nonzero matrix elements; two-component truncation explicit; rate constants limited to printed precision; SI nuclear magneton declared; non-photon closure includes neutron/pair channels"
+    ]
+  }
+}

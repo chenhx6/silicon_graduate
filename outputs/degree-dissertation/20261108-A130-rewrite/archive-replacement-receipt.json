@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2026-11-07T23:55:02.410053+00:00",
+  "authorization": "User explicitly requested clearing/rewrite of exact A130 after deep study; phase1 and design completed, replaced by reversible move instead of deletion",
+  "old_directory": "raw/writing/gpt/A130",
+  "archive_directory": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original",
+  "manifest": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/manifest.json",
+  "original_file_count": 34,
+  "all_34_hashes_preserved": true,
+  "symlinks_present": false,
+  "new_directory_initialized": true,
+  "other_manuscripts_modified": false,
+  "git_history_rewritten": false
+}

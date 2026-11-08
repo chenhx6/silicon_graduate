@@ -1,0 +1,527 @@
+[
+  {
+    "id": "bohr-1952-surface-particle-coupling",
+    "type": "article-journal",
+    "title": "The Coupling of Nuclear Surface Oscillations to the Motion of Individual Nucleons",
+    "author": [
+      {
+        "literal": "Aage Bohr"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1952
+        ]
+      ]
+    },
+    "container-title": "Det Kongelige Danske Videnskabernes Selskab, Matematisk-fysiske Meddelelser",
+    "volume": "26",
+    "issue": "14"
+  },
+  {
+    "id": "cline-1986-nuclear-shapes-coulomb-excitation",
+    "type": "article-journal",
+    "title": "Nuclear Shapes Studied by Coulomb Excitation",
+    "author": [
+      {
+        "literal": "Douglas Cline"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1986
+        ]
+      ]
+    },
+    "DOI": "10.1146/annurev.ns.36.120186.003343",
+    "container-title": "Annual Review of Nuclear and Particle Science",
+    "volume": "36",
+    "page": "683-716"
+  },
+  {
+    "id": "poves-2020-limits-assigning-nuclear-shape",
+    "type": "article-journal",
+    "title": "Limits on assigning a shape to a nucleus",
+    "author": [
+      {
+        "literal": "A. Poves"
+      },
+      {
+        "literal": "F. Nowacki"
+      },
+      {
+        "literal": "Y. Alhassid"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "DOI": "10.1103/PhysRevC.101.054307",
+    "container-title": "Physical Review C",
+    "volume": "101",
+    "page": "054307"
+  },
+  {
+    "id": "book-suhonen-from-nucleons-to-nucleus",
+    "type": "book",
+    "title": "From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory",
+    "author": [
+      {
+        "literal": "Jouni Suhonen"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "publisher": "Springer-Verlag Berlin Heidelberg",
+    "ISBN": "9783540488590"
+  },
+  {
+    "id": "liu-chen-2016-78br-chirality-reflection-symmetry-thesis",
+    "type": "thesis",
+    "title": "奇奇核78Br中手征对称性和空间反射对称性的联立自发破缺",
+    "author": [
+      {
+        "literal": "刘晨"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "genre": "博士学位论文",
+    "publisher": "山东大学"
+  },
+  {
+    "id": "book-bohr-mottelson-nuclear-structure-vol2",
+    "type": "book",
+    "title": "Nuclear Structure, Volume II: Nuclear Deformations",
+    "author": [
+      {
+        "literal": "Aage Bohr"
+      },
+      {
+        "literal": "Ben R. Mottelson"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1998
+        ]
+      ]
+    },
+    "publisher": "World Scientific Publishing Co. Pte. Ltd.",
+    "ISBN": "9810239807",
+    "original-date": {
+      "date-parts": [
+        [
+          1975
+        ]
+      ]
+    },
+    "edition": "Reissue",
+    "volume": "2",
+    "note": "Original first edition 1975, W. A. Benjamin; local World Scientific edition 1998, copyright page also lists reprinting 1999."
+  },
+  {
+    "id": "lange-kumar-hamilton-1982-multipole-admixtures",
+    "type": "article-journal",
+    "title": "E0-E2-M1 multipole admixtures of transitions in even-even nuclei",
+    "author": [
+      {
+        "literal": "J. Lange"
+      },
+      {
+        "literal": "Krishna Kumar"
+      },
+      {
+        "literal": "J. H. Hamilton"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1982
+        ]
+      ]
+    },
+    "DOI": "10.1103/RevModPhys.54.119",
+    "container-title": "Reviews of Modern Physics",
+    "volume": "54",
+    "page": "119-194"
+  },
+  {
+    "id": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+    "type": "article-journal",
+    "title": "Quadrupole moments of wobbling excitations in 163Lu",
+    "author": [
+      {
+        "literal": "A. Görgen"
+      },
+      {
+        "literal": "R. M. Clark"
+      },
+      {
+        "literal": "M. Cromaz"
+      },
+      {
+        "literal": "P. Fallon"
+      },
+      {
+        "literal": "G. B. Hagemann"
+      },
+      {
+        "literal": "H. Hübel"
+      },
+      {
+        "literal": "I. Y. Lee"
+      },
+      {
+        "literal": "A. O. Macchiavelli"
+      },
+      {
+        "literal": "G. Sletten"
+      },
+      {
+        "literal": "D. Ward"
+      },
+      {
+        "literal": "R. Bengtsson"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "DOI": "10.1103/PhysRevC.69.031301",
+    "container-title": "Physical Review C",
+    "volume": "69",
+    "page": "031301(R)"
+  },
+  {
+    "id": "ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce",
+    "type": "article-journal",
+    "title": "Evidence for Multiple Chiral Doublet Bands in 133Ce",
+    "author": [
+      {
+        "literal": "A. D. Ayangeakaa"
+      },
+      {
+        "literal": "U. Garg"
+      },
+      {
+        "literal": "M. D. Anthony"
+      },
+      {
+        "literal": "S. Frauendorf"
+      },
+      {
+        "literal": "J. T. Matta"
+      },
+      {
+        "literal": "B. K. Nayak"
+      },
+      {
+        "literal": "D. Patel"
+      },
+      {
+        "literal": "Q. B. Chen"
+      },
+      {
+        "literal": "S. Q. Zhang"
+      },
+      {
+        "literal": "P. W. Zhao"
+      },
+      {
+        "literal": "B. Qi"
+      },
+      {
+        "literal": "J. Meng"
+      },
+      {
+        "literal": "R. V. F. Janssens"
+      },
+      {
+        "literal": "M. P. Carpenter"
+      },
+      {
+        "literal": "C. J. Chiara"
+      },
+      {
+        "literal": "F. G. Kondev"
+      },
+      {
+        "literal": "T. Lauritsen"
+      },
+      {
+        "literal": "D. Seweryniak"
+      },
+      {
+        "literal": "S. Zhu"
+      },
+      {
+        "literal": "S. S. Ghugre"
+      },
+      {
+        "literal": "R. Palit"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "DOI": "10.1103/PhysRevLett.110.172504",
+    "container-title": "Physical Review Letters",
+    "volume": "110",
+    "page": "172504"
+  },
+  {
+    "id": "frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei",
+    "type": "article-journal",
+    "title": "Spontaneous Symmetry Breaking in Rotating Nuclei",
+    "author": [
+      {
+        "literal": "Stefan Frauendorf"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "DOI": "10.1103/RevModPhys.73.463",
+    "container-title": "Reviews of Modern Physics",
+    "volume": "73",
+    "page": "463-514"
+  },
+  {
+    "id": "frauendorf-meng-1997-tilted-rotation-chirality",
+    "type": "article-journal",
+    "title": "Tilted rotation of triaxial nuclei",
+    "author": [
+      {
+        "literal": "S. Frauendorf"
+      },
+      {
+        "literal": "J. Meng"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1997
+        ]
+      ]
+    },
+    "DOI": "10.1016/S0375-9474(97)00004-3",
+    "container-title": "Nuclear Physics A",
+    "volume": "617",
+    "page": "131-147"
+  },
+  {
+    "id": "koike-2004-chiral-bands-selection-rules",
+    "type": "article-journal",
+    "title": "Chiral Bands, Dynamical Spontaneous Symmetry Breaking, and the Selection Rule for Electromagnetic Transitions in the Chiral Geometry",
+    "author": [
+      {
+        "literal": "T. Koike"
+      },
+      {
+        "literal": "K. Starosta"
+      },
+      {
+        "literal": "I. Hamamoto"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "DOI": "10.1103/PhysRevLett.93.172502",
+    "container-title": "Physical Review Letters",
+    "volume": "93",
+    "page": "172502"
+  },
+  {
+    "id": "meng-2010-open-problems-nuclear-chirality",
+    "type": "article-journal",
+    "title": "Open Problems in Understanding the Nuclear Chirality",
+    "author": [
+      {
+        "literal": "Jie Meng"
+      },
+      {
+        "literal": "S. Q. Zhang"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "DOI": "10.1088/0954-3899/37/6/064025",
+    "container-title": "Journal of Physics G: Nuclear and Particle Physics",
+    "volume": "37",
+    "page": "064025"
+  },
+  {
+    "id": "petrache-2006-near-degenerate-chiral-misinterpretation",
+    "type": "article-journal",
+    "title": "Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in Nuclei",
+    "author": [
+      {
+        "literal": "C. M. Petrache"
+      },
+      {
+        "literal": "G. B. Hagemann"
+      },
+      {
+        "literal": "I. Hamamoto"
+      },
+      {
+        "literal": "K. Starosta"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "DOI": "10.1103/PhysRevLett.96.112502",
+    "container-title": "Physical Review Letters",
+    "volume": "96",
+    "page": "112502"
+  },
+  {
+    "id": "rohozinski-2011-cphc-s-symmetry-chirality",
+    "type": "article-journal",
+    "title": "Odd-odd nuclei as the core-particle-hole systems and chirality",
+    "author": [
+      {
+        "literal": "S. G. Rohoziński"
+      },
+      {
+        "literal": "L. Próchniak"
+      },
+      {
+        "literal": "K. Starosta"
+      },
+      {
+        "literal": "Ch. Droste"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "DOI": "10.1140/epja/i2011-11090-7",
+    "container-title": "The European Physical Journal A",
+    "volume": "47",
+    "page": "90"
+  },
+  {
+    "id": "starosta-2001-n75-chiral-vibrations",
+    "type": "article-journal",
+    "title": "Chiral Doublet Structures in Odd-Odd N = 75 Isotones: Chiral Vibrations",
+    "author": [
+      {
+        "literal": "K. Starosta"
+      },
+      {
+        "literal": "T. Koike"
+      },
+      {
+        "literal": "C. J. Chiara"
+      },
+      {
+        "literal": "D. B. Fossan"
+      },
+      {
+        "literal": "D. R. LaFosse"
+      },
+      {
+        "literal": "A. A. Hecht"
+      },
+      {
+        "literal": "C. W. Beausang"
+      },
+      {
+        "literal": "M. A. Caprio"
+      },
+      {
+        "literal": "J. R. Cooper"
+      },
+      {
+        "literal": "R. Krücken"
+      },
+      {
+        "literal": "J. R. Novak"
+      },
+      {
+        "literal": "N. V. Zamfir"
+      },
+      {
+        "literal": "K. E. Zyromski"
+      },
+      {
+        "literal": "D. J. Hartley"
+      },
+      {
+        "literal": "D. L. Balabanski"
+      },
+      {
+        "literal": "Jing-ye Zhang"
+      },
+      {
+        "literal": "S. Frauendorf"
+      },
+      {
+        "literal": "V. I. Dimitrov"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "DOI": "10.1103/PhysRevLett.86.971",
+    "container-title": "Physical Review Letters",
+    "volume": "86",
+    "page": "971-974"
+  }
+]

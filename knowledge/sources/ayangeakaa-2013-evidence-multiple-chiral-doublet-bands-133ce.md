@@ -3,7 +3,7 @@ type: source
 title: "Evidence for Multiple Chiral Doublet Bands in 133Ce"
 aliases: [Ayangeakaa 2013 133Ce MχD]
 created: 2026-07-13
-updated: 2026-10-26
+updated: 2026-11-08
 status: active
 review_status: human-reviewed
 source_type: journal-article-experiment
@@ -22,11 +22,14 @@ zotero_item_key:
 citation_key: ayangeakaa_2013_EvidenceMultiple
 zotero_uri:
 library_file:
-raw_file: "raw/papers/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 2.pdf"
-raw_sha256: 91EC60DFA43E7D8748276E18327028D8EABDF6C5047682726B0DA4A656D5E837
-alternate_version_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf"
-alternate_version_sha256: 3c5a3d7c543140ee25f7cb09376d5aeee760c8ac50c76edd466a010d610c2d0f
-alternate_version_identity: "PRL 110, 172504 electronic reprint; same title/DOI and five-page article"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf"
+raw_sha256: "3c5a3d7c543140ee25f7cb09376d5aeee760c8ac50c76edd466a010d610c2d0f"
+raw_storage_status: archived-local
+archive_required: true
+canonical_edition: published
+alternate_version_file: "raw/papers/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 2.pdf"
+alternate_version_sha256: "91ec60dfa43e7d8748276e18327028d8eabdf6c5047682726b0da4a656d5e837"
+alternate_version_identity: "Eight-page CHORUS accepted manuscript including its cover; same title/authors/DOI, different layout"
 nuclei: [133ce]
 reactions: [116Cd(22Ne,5n)133Ce]
 experiments: [atlas-133ce-ne22-112mev]
@@ -38,9 +41,26 @@ tags: [multiple-chiral-doublet, triaxial-shape-coexistence, high-spin-spectrosco
 
 # Ayangeakaa 等（2013）：`133Ce` 中多个手征双带证据
 
-## Day24 active source/version entry
+## 2026-11-08 写作底本与页码
 
-实际raw为8页CHORUS accepted（PDF1cover，正文PDF2–8），alternate为5页PRL reprint（PDF1–5对应printed172504-1…5）。旧PDF页码不能默认为当前raw物理页；本轮A13-D24-001–004按版本明确定位，旧人审范围/flags保留。Band4、37.2keV零点与跨版本label差见下方新节。
+本轮总控核两份首页/页数/哈希：主底本改为5物理页PRL出版reprint（PR5），
+8页CHORUS accepted（AS8）保留为alternate，两个原文件字节均不变。
+PR5物理页1–5对应printed172504-1…5；AS8第1页是cover、正文PDF2–8。
+本页A13-1…13的原始期刊定位使用PR5；下方Day24的明确accepted定位继续指AS8，
+历史checkpoint中未标版本的定位须逐项确认，不能全局加减一个偏移。
+
+T09回PR5 PDF3–5，总控核首页并复核选定内容。
+Fig.2展示S(I)但所核caption未打印代数定义，不能据图名认证它与另一文完全同式；
+当前写作的具体公式直接回[[meng-2010-open-problems-nuclear-chirality]] PDF6。
+G64-v1 ledger曾声明不存在的另一路径和不匹配哈希，不能作为取得/读过原件的记录；
+实际读版和本页路径/哈希应在修订ledger中准确绑定。
+两版身份核验留在`raw/papers/gpt/query/20261108-A130-citation-identities/manifest.json`。
+
+## Day24（2026-10-26）历史 source/version entry
+
+当时raw为8页CHORUS accepted（PDF1cover，正文PDF2–8），当时alternate为5页PRL reprint。
+该历史命名不替换上方2026-11-08的当前底本绑定。
+本节A13-D24-001–004按版本明确定位，旧人审范围/flags保留。Band4、37.2keV零点与跨版本label差见下方新节。
 
 > Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
 
@@ -126,6 +146,8 @@ tags: [multiple-chiral-doublet, triaxial-shape-coexistence, high-spin-spectrosco
 该文是支持方原始实验来源，但其 MχD 与 shape-coexistence 结论必须保留 author/model attribution 和 lifetime gap。
 
 ## Alternate-version self-audit (2026-09-20)
+
+本历史核查针对5页期刊reprint；其当年“alternate”称谓不指今日metadata中的AS8兼容字段。
 
 - The alternate reprint has the same PRL title, authors, DOI, five-page structure and reported values as the canonical source. It confirms the two candidate pairs (Bands 2–3 and 5–6), the `4.1×10^9` event total, the DCO/angular-distribution assignments, RMF/TPRM parameters and the absence of direct lifetimes.
 - It is an exact same-paper version audit, not an independent experiment; the existing human-review record remains limited to the prior page-level scope, while this alternate-version check is Codex self-audit.

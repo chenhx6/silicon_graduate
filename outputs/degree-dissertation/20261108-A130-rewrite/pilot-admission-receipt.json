@@ -1,0 +1,52 @@
+{
+  "recorded_at": "2026-11-08T01:08:52.691899+00:00",
+  "pilot_items": [
+    {
+      "section_id": "1.2",
+      "worker": "G63",
+      "returned_snapshot": "raw/writing/gpt/A130/review-inputs/G63-v3/manifest.json",
+      "integrated_manuscript": "raw/writing/gpt/A130/research-draft/section-1-2.md",
+      "sha256": "96514dd3beeabb9362c2837c6630dd36bdda6840ca2a4ad5ac98e794be26e20c",
+      "evidence_ledger": "raw/writing/gpt/A130/evidence-ledger/section-1-2.json",
+      "evidence_sha256": "466d9a99ac3eafbe39fc8c8c681a1dcbce6f6ab07f10f207d7262a6735a7d69a",
+      "chinese_characters": 4095
+    },
+    {
+      "section_id": "3.5",
+      "worker": "G64",
+      "returned_snapshot": "raw/writing/gpt/A130/review-inputs/G64-v3/manifest.json",
+      "integrated_manuscript": "raw/writing/gpt/A130/research-draft/section-3-5.md",
+      "sha256": "16f2ad39e1f37f43003d48b1e72db0bb56865d98148fbdfd26769e96c15884d1",
+      "evidence_ledger": "raw/writing/gpt/A130/evidence-ledger/section-3-5.json",
+      "evidence_sha256": "18130e38d079d837849c5c35ef74a3331905abb5d745756c880cf4a1fd7739a0",
+      "chinese_characters": 4744
+    },
+    {
+      "section_id": "5.9",
+      "worker": "G65",
+      "returned_snapshot": "raw/writing/gpt/A130/review-inputs/G65-v3/manifest.json",
+      "integrated_manuscript": "raw/writing/gpt/A130/research-draft/section-5-9.md",
+      "sha256": "c3da811fae74df463bc1742bf304c672c7874def3c591dc64d91e0653374b8ca",
+      "evidence_ledger": "raw/writing/gpt/A130/evidence-ledger/section-5-9.json",
+      "evidence_sha256": "5eb26d15148e9c1e44b2a23a8293cd1d1a427473908fcb70df10a3f32a2755e5",
+      "chinese_characters": 5227
+    }
+  ],
+  "all_pilots_read": true,
+  "parent_edits_distinct_from_frozen_worker_versions": true,
+  "checks": {
+    "angular_quadratic_channels": 20,
+    "angular_cubic_channels": 61,
+    "chiral_nonorthogonal_controls": 11,
+    "branch_rate_controls": 8,
+    "all_pass": true
+  },
+  "assembly_receipt": "outputs/degree-dissertation/20261108-A130-rewrite/assembly-receipt.json",
+  "full_manuscript_complete": false,
+  "planned_sections": 39,
+  "pilot_sections": 3,
+  "reader_effect_validated": false,
+  "school_submission_ready": false,
+  "remaining": "All other sections and necessary appendices, continuity/source/figure integration, proportional validation and publication",
+  "not_a_vendor_usage_receipt": true
+}

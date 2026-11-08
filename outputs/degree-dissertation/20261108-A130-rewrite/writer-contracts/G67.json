@@ -1,0 +1,87 @@
+{
+  "root": "/workspace/wiki",
+  "model": "antigravity/gemini-3.8-flash-tiered",
+  "reasoning_effort": "high",
+  "permissions": {
+    "raw_draft_write": "explicitly authorized only for listed new section and matching ledger",
+    "git": false,
+    "subagents": false,
+    "credentials": false,
+    "external_messages": false
+  },
+  "read_first": [
+    "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-argument-and-writer-contract-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-high-risk-section-contracts-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-notation-and-evidence-style-20261108.md"
+  ],
+  "workflow": [
+    "先读给定canonical笔记和原件具体页，台账记录实际读取范围、SHA、版次、claim类别和locator；先在ledger记录5–8句论证骨架再起草，无需等用户确认。",
+    "写面向具有一般量子力学但不熟核结构的读者的连贯中文正文，定义→必要推导→物理解释→可测量量→竞争解释。标题按地图，通常3–5子节，篇幅按讲清问题而非凑字。",
+    "正文只引用真正读过的原作，[@source-basename]；内部知识页用于定位与校准，不冒充已发表论文。模型/教学假设与实际测量分开。未知个人数据/硬件/成果不补写。",
+    "不读取或复用旧归档稿，不改其它节、书目、索引、共享handoff或system；无并发共享写者。",
+    "仅用 $...$ 和 $$...$$ 数学，严禁原始TeX环境、label/ref、三连美元；长正文用apply_patch或python单引号heredoc，勿嵌在python -c单引号shell中。",
+    "写后实际检查JSON与Pandoc AST/HTML数学，任何math转换警告必须修；不能仅数DisplayMath自评通过。",
+    "receipt用datetime.now(timezone.utc)实际采样；只哈希其它文件不哈希自己。回传路径、真实检查和未解，不把完成或模型自评当科学通过。"
+  ],
+  "ledger_minimum": [
+    "section_id",
+    "title",
+    "version",
+    "recorded_at",
+    "argument_outline",
+    "sources: source_id/raw_file/raw_sha256/actual_read_pages",
+    "claims: text/kind/source_id/locator/conditions",
+    "equations: convention/derivation/limit",
+    "competing_explanations",
+    "unresolved"
+  ],
+  "format_boundary": "No PDF/school submission claim; MD+MathML preview is current rendering route",
+  "task_id": "G67",
+  "section_id": "2.3",
+  "title": "配对、准粒子与阻塞",
+  "depends_on": [
+    "three-pilot-parent-admission"
+  ],
+  "read_notes": [
+    "knowledge/research-notes/doctoral-r2-collective-inertia-response-crosswalk-20261108.md",
+    "knowledge/research-notes/doctoral-r3-quantum-labels-and-model-boundaries-20261108.md"
+  ],
+  "must_explain": [
+    "解释时间反演成对、吸引配对和奇偶效应，但经验质量差不直接等于纯BCS参数。",
+    "在声明约束变分/静态BCS、一对k与bar k不重复计数下，给Bogoliubov变换、u²+v²、2×2对角化、E=sqrt(xi²+Delta²)、v²及数/能隙方程；相位/Δ符号与读过原书映射，不能凭记忆混因子2。",
+    "说明Δ是能量、配对振幅与规范角不同，HFB破粒子数参考不等于核真实粒子数不守恒；粒子数投影作为下一节接口。",
+    "阻塞排除特定成对散射并使自洽占据/场重排，不写多准粒子必使所有配对严格零；BCS解坍塌也非有限系统配对关联消失定理。",
+    "说明配对影响准粒子能量/相干因子与集体响应多个环节，不写改变Δ就唯一改变惯量，不将配对规范NG惯量等同空间J。",
+    "用自有两能级教学极限或Δ→0检查，仅给解析控制不冒称真实核；寿命阻碍seniority证明留4.6/附录，不复制整章。通常3000–4500汉字。"
+  ],
+  "exclusive_write_paths": [
+    "raw/writing/gpt/A130/research-draft/section-2-3.md",
+    "raw/writing/gpt/A130/evidence-ledger/section-2-3.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/G67/receipt.json"
+  ],
+  "source_inputs": [
+    {
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "source_page": "knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "required_locator": "BCS chapter13; actual local PDF404–418 starts printed391 (nearby PDF402–403 are printed414–415: do NOT apply fixed page offset; inspect actual pages). Read printed391–405 relevant derivation, exact physical ranges recorded."
+    },
+    {
+      "source_id": "book-jain-nuclear-isomers",
+      "source_page": "knowledge/sources/book-jain-nuclear-isomers.md",
+      "raw_file": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+      "raw_sha256": "994816561cfb6e89bd215b7fe23e37ecf12e8a3e8f5ce88eafbbd388d02ed74a",
+      "required_locator": "Source page gives Ch3 pair model/PDF46–61 and high-K blocking/PDF95; read only relevant actual original"
+    },
+    {
+      "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+      "source_page": "knowledge/sources/hinohara-2015-nambu-goldstone-inertia-response.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-t05-response-definitions/aps-publication.pdf",
+      "raw_sha256": "764d644a2349235027e15c320d78f15fcd7d8fd264ebe6412fd2b80e1a625f86",
+      "required_locator": "Source locators for particle-number symmetry/NG; only distinguish pairing rotation from amplitude and spatial rotation, do not reproduce unresolved factors"
+    }
+  ],
+  "validated_at": "2026-11-08T01:05:29.705662+00:00"
+}

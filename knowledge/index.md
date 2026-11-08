@@ -7,6 +7,18 @@ updated: 2026-11-08
 
 # Wiki Index
 
+## A130前置正文重写：样节与一致性
+
+- [[doctoral-nuclear-structure-foundations]] — 研究、设计均已发布，当前进入实际正文起草。
+- [[doctoral-thesis-notation-and-evidence-style-20261108]] — 统一角动量、形状/光子角符号、率/宽度、引用与图表证据。
+- [[a130-rewrite-invariant-recoupling-and-width-boundaries-20261108]] — 二/三次重耦合、矩比超界反例，以及量子涨落、估计误差与模型差异。
+- [[a130-rewrite-chiral-nonorthogonal-and-fingerprint-boundaries-20261108]] — 复非正交两态、实化条件、反幺正与线性指纹对称的区别。
+- [[a130-rewrite-absolute-rates-and-selection-boundaries-20261108]] — 多极允许性与纯度、总/光子分支、教材率常数及163Lu采用输入。
+- [[doctoral-thesis-architecture-and-section-map-20261108]] — 已选五章/39节及完整合同，继续作为writer输入。
+
+旧A130的34文件已完整移入可恢复归档且SHA/归档门通过；新目录启用。
+当前只有样节起草/核查，未完成全部正文，不将writer回执当科学通过。
+
 ## 博士论文设计研究：从样本到可执行的写作合同
 
 - [[doctoral-thesis-architecture-and-section-map-20261108]] — 总控选定五章/39节工作结构、来源包、附录/图表和实际派发边界。
@@ -14,7 +26,8 @@ updated: 2026-11-08
 - [[doctoral-thesis-high-risk-section-contracts-20261108]] — 六份具体原件/推导合同，覆盖形状、惯量、模式、反演、八极及两翼。
 - [[doctoral-thesis-sample-reading-design-findings-20261108]] — 五份学位样本的选读、可保留写法、待补台阶与不能扩大之处；硕士/博士分别记录。
 
-第一阶段R1–R3已收束并发布；当前做设计与合同验收，尚未清空A130或起草正文。
+第一阶段R1–R3与设计均已收束发布；下列设计页保存当时的阶段边界。
+当前已按既有授权可恢复替换精确A130目录并起草样节，实际状态以上方重写入口为准。
 
 ## 博士前置 R3：原始基础、解释能力与就绪证据
 

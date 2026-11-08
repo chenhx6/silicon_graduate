@@ -1,0 +1,13 @@
+{
+  "input": "raw/writing/gpt/A130/review-inputs/G63-v1/section-1-2.md",
+  "counts": {
+    "InlineMath": 131,
+    "RawInline:tex": 24
+  },
+  "raw_examples": [
+    "\\begin{equation}\n\\mathcal{M}(E2, \\mu) = \\int \\hat{\\rho}_c(\\mathbf{r}) \\, r^2 Y_{2\\mu}(\\theta, \\phi) ",
+    "\\begin{equation}\n\\mathcal{M}^\\dagger(E2, \\mu) = (-1)^\\mu \\mathcal{M}(E2, -\\mu).\n\\end{equation}",
+    "\\begin{equation}\nQ_s(I) \\equiv \\sqrt{\\frac{16\\pi}{5}} \\, \\langle I, M=I | \\mathcal{M}(E2, 0) | I, M="
+  ],
+  "meaning": "Pandoc AST inspection of frozen draft; no manuscript or formulas modified"
+}

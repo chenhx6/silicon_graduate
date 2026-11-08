@@ -1,0 +1,19 @@
+{
+  "archive_type": "research-archive-v1",
+  "archive_required": true,
+  "retrieved_at": "2026-11-08T00:57:58.738303+00:00",
+  "files": [
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G63-v3/section-1-2.md",
+      "sha256": "2dcd55c45ee71a1fe06a4624854fa9020b4dd6604cbf9306ff94cde6c7925f64",
+      "size": 17946,
+      "source": "Frozen G63 V3 returned draft before parent integration; not original physical evidence"
+    },
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G63-v3/section-1-2.json",
+      "sha256": "a66e460fed04cf4a4cce4b0676969c3f961cc9506e69b2a95d5735688f84fa5f",
+      "size": 10104,
+      "source": "Frozen G63 V3 returned draft before parent integration; not original physical evidence"
+    }
+  ]
+}

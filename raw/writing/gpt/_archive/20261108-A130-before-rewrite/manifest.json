@@ -1,0 +1,282 @@
+{
+  "archive_type": "research-archive-v1",
+  "retrieved_at": "2026-11-07T23:55:02.410053+00:00",
+  "archived_at": "2026-11-07T23:55:02.410053+00:00",
+  "archive_required": true,
+  "acquisition_context": "user-authorized reversible archive before A130 thesis rewrite",
+  "files": [
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/.gitignore",
+      "sha256": "298677961b4e27532031df29dbaac44ab401ba54d902e5467adbbb32f9c7fb4f",
+      "size": 106,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/.gitignore before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/.gitignore",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/Makefile",
+      "sha256": "efb8de9af62de755f6f9b65eaf2e72f96424661bea6abdd98bb023bb6bf2d3aa",
+      "size": 634,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/Makefile before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/Makefile",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/chapters/01_introduction.aux",
+      "sha256": "e551368eb0cf616fa985d603570b7e98f0012e56e22be746dbdf4cf37cb24117",
+      "size": 8696,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/chapters/01_introduction.aux before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/chapters/01_introduction.aux",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/chapters/01_introduction.tex",
+      "sha256": "505b3acbb0254360dd798267bb1a65b08b737b0add7be1529f66814bfebf0165",
+      "size": 24628,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/chapters/01_introduction.tex before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/chapters/01_introduction.tex",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/chapters/02_theoretical_models.aux",
+      "sha256": "3c3b09346920d6059e57184ea7fc9f91450a536b7482005382c455e1a4cb9d91",
+      "size": 9146,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/chapters/02_theoretical_models.aux before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/chapters/02_theoretical_models.aux",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/chapters/02_theoretical_models.tex",
+      "sha256": "87c1170769a6c47408dbacbc334d481d32d844193ec4b9112ff7f64de99e7ea9",
+      "size": 21482,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/chapters/02_theoretical_models.tex before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/chapters/02_theoretical_models.tex",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/chapters/03_experimental_techniques.aux",
+      "sha256": "b15952d0e7a2fb9b82fb2afa8e05453213e3956f36998855eacbaab3a965cc4a",
+      "size": 9628,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/chapters/03_experimental_techniques.aux before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/chapters/03_experimental_techniques.aux",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/chapters/03_experimental_techniques.tex",
+      "sha256": "09d1f5f2e53f882be42e00afed94279d518a37196095920a3c2dd5a8cf7d4069",
+      "size": 22832,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/chapters/03_experimental_techniques.tex before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/chapters/03_experimental_techniques.tex",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/chapters/04_data_analysis_methods.aux",
+      "sha256": "a8878ce5b715d41ddf2fe43a114b4c4d527b1832a33ab45f7a454bb689a7b471",
+      "size": 9859,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/chapters/04_data_analysis_methods.aux before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/chapters/04_data_analysis_methods.aux",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/chapters/04_data_analysis_methods.tex",
+      "sha256": "0e048d881bdf52b059bee68703a663039fd8832461774975a578c954f3fc6ec7",
+      "size": 21981,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/chapters/04_data_analysis_methods.tex before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/chapters/04_data_analysis_methods.tex",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/chapters/05_case_study.aux",
+      "sha256": "3f697b790caadf41e6cc98ceb126865265425cae2c93ba38b972de8a3ec31a01",
+      "size": 6639,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/chapters/05_case_study.aux before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/chapters/05_case_study.aux",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/chapters/05_case_study.tex",
+      "sha256": "ca97f1c23c572c32a2b3c0c03af9f6c8fe805eb2cf8065c30503995c246abc95",
+      "size": 9565,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/chapters/05_case_study.tex before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/chapters/05_case_study.tex",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/chapters/06_conclusion_outlook.aux",
+      "sha256": "2c1110c804fd4702e1cb14032dfe2d8524bbb837838234c3ca5648a897d42890",
+      "size": 5124,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/chapters/06_conclusion_outlook.aux before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/chapters/06_conclusion_outlook.aux",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/chapters/06_conclusion_outlook.tex",
+      "sha256": "a623bbe3b387dce9cab9ae8d6676862ac11e2afc5e01f3bb750c7d666f97477b",
+      "size": 7801,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/chapters/06_conclusion_outlook.tex before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/chapters/06_conclusion_outlook.tex",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/chapters/abstract.aux",
+      "sha256": "f1698174caf27dbe98d479dfc330d746aa58afd69a6f00d95fd0e9f9f95a3c9a",
+      "size": 4091,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/chapters/abstract.aux before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/chapters/abstract.aux",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/chapters/abstract.tex",
+      "sha256": "3c7761d4555090c8f108a291f20d2b7dcbf6f1a638c4a093510a091cb4ce6dfa",
+      "size": 7570,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/chapters/abstract.tex before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/chapters/abstract.tex",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/chapters/acknowledgement.aux",
+      "sha256": "844bf0fa4d2a77a647fedf8d7ecca3cf8875b841247edadb9b9d9d6d2e9935bd",
+      "size": 4192,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/chapters/acknowledgement.aux before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/chapters/acknowledgement.aux",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/chapters/acknowledgement.tex",
+      "sha256": "be2cc24d89d86b0356466b33d54a02c83907601b78d41b21dba09377db15ac43",
+      "size": 1757,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/chapters/acknowledgement.tex before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/chapters/acknowledgement.tex",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/refs.bib",
+      "sha256": "981b5134b38e5aa1bf93ac8ec0985aa1aeb4a5b13ab3b302490ea1dfe2be5919",
+      "size": 12376,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/refs.bib before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/refs.bib",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/setup/command.tex",
+      "sha256": "3e1f35fe1c45ab8ae0438c9f80b8de3a113011359db3a399c8e9f3900066add9",
+      "size": 3625,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/setup/command.tex before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/setup/command.tex",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/setup/format.tex",
+      "sha256": "b03442e3b09848d29d5663c7df20a5a24f35c98ea93c5ea9446cf90f4ba632e0",
+      "size": 10025,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/setup/format.tex before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/setup/format.tex",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/setup/package.tex",
+      "sha256": "ddd504a513f782e65f0da42fc5423e1cbcf670c1701e6e10f1959b3edc15b240",
+      "size": 1552,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/setup/package.tex before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/setup/package.tex",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/setup/titlepage.tex",
+      "sha256": "284c7bd8834cac0776679cb8e58e27b74fe223730f4da4d32f7ef4ad6af771ef",
+      "size": 3368,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/setup/titlepage.tex before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/setup/titlepage.tex",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/thesis.aux",
+      "sha256": "07a794b8f1f9c9dc2e07e0f2e0246cb77fd5b8298a15d6d448c8ca466af2a249",
+      "size": 980,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/thesis.aux before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/thesis.aux",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/thesis.bbl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/thesis.bbl before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/thesis.bbl",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/thesis.bcf",
+      "sha256": "68a34e1c9122e648af205996edac343c37d885050b83166ed35fc66cae72ce39",
+      "size": 107695,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/thesis.bcf before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/thesis.bcf",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/thesis.blg",
+      "sha256": "b96c82ef1c6848c55a62e69a5840fe4e503a3e9d6a4284f3d9ed999b832bc594",
+      "size": 1465,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/thesis.blg before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/thesis.blg",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/thesis.log",
+      "sha256": "3fd5dd8caae93f3c6617a5ba84632889cc6d83e2fe887c48d9debb96caebd2f7",
+      "size": 71942,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/thesis.log before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/thesis.log",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/thesis.out",
+      "sha256": "bdf6b34df189b17db00c2f5e43f6400f0b71fbf1d87af84a84c46af221eb2ff0",
+      "size": 13998,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/thesis.out before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/thesis.out",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/thesis.pdf",
+      "sha256": "3574f01b637da09590df40ea00df7da4ace3cf251d3823d113647ae635766064",
+      "size": 644515,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/thesis.pdf before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/thesis.pdf",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/thesis.run.xml",
+      "sha256": "c99692c72a6344e0d68ff5a88a259ca94cd028cf1fa0bd46bef42640560443ff",
+      "size": 2348,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/thesis.run.xml before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/thesis.run.xml",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/thesis.synctex.gz",
+      "sha256": "7c47eecf82b3c227130ae9787607f5c3676e2c35294187e0489b1455f5fa2b8b",
+      "size": 343310,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/thesis.synctex.gz before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/thesis.synctex.gz",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/thesis.tex",
+      "sha256": "74ed9b8b41ef504be4cae0e6c7b744141daf94044abdf77bb998531d1ef27cc1",
+      "size": 993,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/thesis.tex before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/thesis.tex",
+      "archive_required": true
+    },
+    {
+      "path": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/LaTeX-Thesis/thesis.toc",
+      "sha256": "20dc1dd2c02c44b82560103f590be1d00489b6256f2b58c35fbd3eeb043fd2d6",
+      "size": 8073,
+      "source": "Byte-preserving move from raw/writing/gpt/A130/LaTeX-Thesis/thesis.toc before user-authorized A130 rewrite",
+      "original_path": "raw/writing/gpt/A130/LaTeX-Thesis/thesis.toc",
+      "archive_required": true
+    }
+  ],
+  "boundary": "Old autogenerated manuscript preserved for recovery, not used as scientific evidence or new thesis text"
+}

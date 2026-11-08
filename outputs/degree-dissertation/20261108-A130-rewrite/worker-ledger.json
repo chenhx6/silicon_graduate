@@ -1,0 +1,118 @@
+{
+  "recorded_at": "2026-11-08T00:00:19.174772+00:00",
+  "native_goal": "A130 front-matter manuscript rewrite",
+  "phase1_and_design_published": true,
+  "archive_manifest": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/manifest.json",
+  "workers": [
+    {
+      "task": "G63",
+      "agent_id": "01a1b872-68d4-7051-848c-6dde82a34ea6",
+      "section_id": "1.2",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "state": "returned-v3-closed-parent-integrated",
+      "exclusive_write_paths": [
+        "raw/writing/gpt/A130/research-draft/section-1-2.md",
+        "raw/writing/gpt/A130/evidence-ledger/section-1-2.json",
+        "outputs/degree-dissertation/20261108-A130-rewrite/G63/receipt.json"
+      ],
+      "science_approved_by_worker_state": false
+    },
+    {
+      "task": "G64",
+      "agent_id": "01a1b872-d3be-75f0-b005-601f9cc8d1c2",
+      "section_id": "3.5",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "state": "v3-files-returned-closed-by-parent-followup-running-parent-integrated",
+      "exclusive_write_paths": [
+        "raw/writing/gpt/A130/research-draft/section-3-5.md",
+        "raw/writing/gpt/A130/evidence-ledger/section-3-5.json",
+        "outputs/degree-dissertation/20261108-A130-rewrite/G64/receipt.json"
+      ],
+      "science_approved_by_worker_state": false
+    },
+    {
+      "task": "G65",
+      "agent_id": "01a1b873-4d8b-70c2-ae58-805f43abf633",
+      "section_id": "5.9",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "state": "returned-v3-closed-parent-integrated",
+      "exclusive_write_paths": [
+        "raw/writing/gpt/A130/research-draft/section-5-9.md",
+        "raw/writing/gpt/A130/evidence-ledger/section-5-9.json",
+        "outputs/degree-dissertation/20261108-A130-rewrite/G65/receipt.json"
+      ],
+      "science_approved_by_worker_state": false
+    },
+    {
+      "task": "T08",
+      "agent_id": "01a1b87c-f6b3-72c0-b879-7bf9c481d633",
+      "requested_model": "codex/gpt-6.1-terra",
+      "requested_effort": "xhigh",
+      "state": "returned-closed-knowledge-integrated",
+      "scope": "Frozen G63-v1 independent scientific audit; no manuscript edits",
+      "science_approved_by_worker_state": false
+    },
+    {
+      "task": "T09",
+      "agent_id": "01a1b88b-1070-70b2-967d-658d5692ba75",
+      "requested_model": "codex/gpt-6.1-terra",
+      "requested_effort": "xhigh",
+      "state": "returned-closed-knowledge-integrated",
+      "scope": "Frozen G64-v1 independent complex nonorthogonal/source audit; no manuscript writes"
+    },
+    {
+      "task": "G66",
+      "agent_id": "01a1b8b4-6893-7ba2-911c-b4057840fabc",
+      "section_id": "2.1",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "state": "running",
+      "spawn_tool_accepted": true,
+      "contract": "outputs/degree-dissertation/20261108-A130-rewrite/writer-contracts/G66.json",
+      "exclusive_write_paths": [
+        "raw/writing/gpt/A130/research-draft/section-2-1.md",
+        "raw/writing/gpt/A130/evidence-ledger/section-2-1.json",
+        "outputs/degree-dissertation/20261108-A130-rewrite/G66/receipt.json"
+      ],
+      "concurrency_boundary": "Shared workspace; disjoint paths by protocol, no sandbox claim"
+    },
+    {
+      "task": "G67",
+      "agent_id": "01a1b8b4-a16f-72b1-a53d-092d1b3a3488",
+      "section_id": "2.3",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "state": "running",
+      "spawn_tool_accepted": true,
+      "contract": "outputs/degree-dissertation/20261108-A130-rewrite/writer-contracts/G67.json",
+      "exclusive_write_paths": [
+        "raw/writing/gpt/A130/research-draft/section-2-3.md",
+        "raw/writing/gpt/A130/evidence-ledger/section-2-3.json",
+        "outputs/degree-dissertation/20261108-A130-rewrite/G67/receipt.json"
+      ],
+      "concurrency_boundary": "Shared workspace; disjoint paths by protocol, no sandbox claim"
+    },
+    {
+      "task": "G68",
+      "agent_id": "01a1b8b4-e372-7f31-8d5c-a603c3e61b60",
+      "section_id": "5.3",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_effort": "high",
+      "state": "running",
+      "spawn_tool_accepted": true,
+      "contract": "outputs/degree-dissertation/20261108-A130-rewrite/writer-contracts/G68.json",
+      "exclusive_write_paths": [
+        "raw/writing/gpt/A130/research-draft/section-5-3.md",
+        "raw/writing/gpt/A130/evidence-ledger/section-5-3.json",
+        "outputs/degree-dissertation/20261108-A130-rewrite/G68/receipt.json"
+      ],
+      "concurrency_boundary": "Shared workspace; disjoint paths by protocol, no sandbox claim"
+    }
+  ],
+  "parent_critical_path": "Three pilot texts integrated and rendered; publish bounded pilot milestone, expand by G66–G68 detailed contracts; complete 39-section goal remains active",
+  "updated_at": "2026-11-08T01:11:17.634956+00:00",
+  "isolation": "Exclusive path protocol in shared workspace; not a filesystem sandbox"
+}

@@ -1,0 +1,21 @@
+{
+  "recorded_at": "2026-11-08T00:56:11.415416+00:00",
+  "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+  "producer": "system/scripts/a130_rewrite_branch_rate_audit.py",
+  "producer_sha256": "a7c669542ddaec4d2d370138ee5c940a5023023ebb70cd23b7bf1fdffa9d436b",
+  "context_inputs": [
+    {
+      "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "locator": "Printed pp.118–121; PDF pp.133–136; Eqs.6.1–6.18"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "outputs/l4/20261108-A130-branch-rate-controls/controls.json",
+      "sha256": "ea89798d994b215166a675f516ed2184c09a07cfac0083a17f8740d9f6ed431f"
+    }
+  ],
+  "check_count": 8,
+  "real_nucleus_calculation": false
+}

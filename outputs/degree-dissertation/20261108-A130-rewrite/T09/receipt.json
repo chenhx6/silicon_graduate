@@ -1,0 +1,173 @@
+{
+  "task_id": "WRITE-T09",
+  "status": "completed_with_evidence_boundaries",
+  "created_at_utc": "2026-11-08T00:31:45.406200+00:00",
+  "scope": "Frozen G64-v1 only; independent mathematics, specified physics claims, citations and ledger; no draft changes",
+  "frozen_inputs": [
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G64-v1/section-3-5.md",
+      "sha256": "d8456e402d8993bb0bb3742ae1f0eb900e34f8fa1637b662fa35934726523afc"
+    },
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G64-v1/section-3-5.json",
+      "sha256": "69658ba0a7c50c4e6689bcda19e6e9449fdf6761d213f52d8aa7543a9bebb5e4"
+    },
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G64-v1/manifest.json",
+      "sha256": "c312cbbf5f052bf4d1b3fb8341d528a31743d0ff27639edaa913145eb4d2f3ed"
+    }
+  ],
+  "manifest_entries_match": true,
+  "sources": [
+    {
+      "source_id": "liu-chen-2016-78br-chirality-reflection-symmetry-thesis",
+      "ledger_path": "raw/theses/degree-dissertation/刘晨_奇奇核~(78)Br中手征...间反射对称性的联立自发破缺.pdf",
+      "ledger_sha256": "5e00370aab205b689841cb58d65c7fad8829e3de74f084736a74f2d8658ab291",
+      "ledger_path_exists": true,
+      "actual_sha256": "5e00370aab205b689841cb58d65c7fad8829e3de74f084736a74f2d8658ab291",
+      "hash_matches_ledger": true,
+      "actual_read_pages": "PDF 13–18, 80–82, 90; extraction boundary for S(I)"
+    },
+    {
+      "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+      "ledger_path": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "ledger_sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "ledger_path_exists": true,
+      "actual_sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "hash_matches_ledger": true,
+      "actual_read_pages": "PDF 212–215, printed 190–193"
+    },
+    {
+      "source_id": "frauendorf-meng-1997-tilted-rotation-chirality",
+      "ledger_path": "raw/papers/1997_Frauendorf et al_Tilted rotation of triaxial nuclei.pdf",
+      "ledger_sha256": "9dc81b3147a786189dd0c2f31d79a56e9bb5d83e16fd0c8137bccaf2a43d81e2",
+      "ledger_path_exists": true,
+      "actual_sha256": "9dc81b3147a786189dd0c2f31d79a56e9bb5d83e16fd0c8137bccaf2a43d81e2",
+      "hash_matches_ledger": true,
+      "actual_read_pages": "PDF 8–12"
+    },
+    {
+      "source_id": "frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei",
+      "ledger_path": "raw/papers/2001_Frauendorf_Spontaneous symmetry breaking in rotating nuclei.pdf",
+      "ledger_sha256": "d43c7290cf5899ebc9b94324af5e95eb40e488bacf1c70c89e0b3bd61d916172",
+      "ledger_path_exists": true,
+      "actual_sha256": "d43c7290cf5899ebc9b94324af5e95eb40e488bacf1c70c89e0b3bd61d916172",
+      "hash_matches_ledger": true,
+      "actual_read_pages": "PDF 23–24, 34, 42"
+    },
+    {
+      "source_id": "starosta-2001-n75-chiral-vibrations",
+      "ledger_path": "raw/papers/2001_Starosta et al_Chiral Doublet Structures in Odd-Odd N = 75 Isotones Chiral Vibrations.pdf",
+      "ledger_sha256": "9082c1e8ced3fbfeb2248f5b18c1b646f4dc1adc77af5c27c6a988855583cbf4",
+      "ledger_path_exists": true,
+      "actual_sha256": "9082c1e8ced3fbfeb2248f5b18c1b646f4dc1adc77af5c27c6a988855583cbf4",
+      "hash_matches_ledger": true,
+      "actual_read_pages": "PDF 1–4"
+    },
+    {
+      "source_id": "petrache-2006-near-degenerate-chiral-misinterpretation",
+      "ledger_path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+      "ledger_sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f",
+      "ledger_path_exists": true,
+      "actual_sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f",
+      "hash_matches_ledger": true,
+      "actual_read_pages": "PDF 1–4"
+    },
+    {
+      "source_id": "koike-2004-chiral-bands-selection-rules",
+      "ledger_path": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/koike-2004-selection-rules.pdf",
+      "ledger_sha256": "f39816a5d2f3f3ec45098fc636371ee3e8e4dc721b0ced33e7c87b453b7f155e",
+      "ledger_path_exists": true,
+      "actual_sha256": "f39816a5d2f3f3ec45098fc636371ee3e8e4dc721b0ced33e7c87b453b7f155e",
+      "hash_matches_ledger": true,
+      "actual_read_pages": "PDF 1–4"
+    },
+    {
+      "source_id": "rohozinski-2011-cphc-s-symmetry-chirality",
+      "ledger_path": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/rohozinski-2011-cphc-s-symmetry.pdf",
+      "ledger_sha256": "94b2b3bc89c1d942f07f7c512c5aecc38c3cc08bbf48dac507ad373ace64b8c9",
+      "ledger_path_exists": true,
+      "actual_sha256": "94b2b3bc89c1d942f07f7c512c5aecc38c3cc08bbf48dac507ad373ace64b8c9",
+      "hash_matches_ledger": true,
+      "actual_read_pages": "PDF 1–2, 5, 7–9, 13–14; full-text search adiabat"
+    },
+    {
+      "source_id": "meng-2010-open-problems-nuclear-chirality",
+      "ledger_path": "raw/papers/2010_Meng et al_Open problems in understanding the nuclear chirality.pdf",
+      "ledger_sha256": "bc78014db4585e07b81b70192a054d2b7323584a9cc2b5552c2153175db4c5c2",
+      "ledger_path_exists": true,
+      "actual_sha256": "bc78014db4585e07b81b70192a054d2b7323584a9cc2b5552c2153175db4c5c2",
+      "hash_matches_ledger": true,
+      "actual_read_pages": "PDF 6–7"
+    },
+    {
+      "source_id": "ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce",
+      "ledger_path": "raw/papers/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in 133Ce.pdf",
+      "ledger_sha256": "724ec5f97d5402dae955cbf9236113b2c17a78fa8e57eeff0ea400f08a4628f4",
+      "ledger_path_exists": false,
+      "actual_read_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf",
+      "actual_sha256": "3c5a3d7c543140ee25f7cb09376d5aeee760c8ac50c76edd466a010d610c2d0f",
+      "actual_read_pages": "5-page journal reprint PDF 3–5",
+      "source_page_canonical_path": "raw/papers/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 2.pdf",
+      "source_page_canonical_sha256": "91ec60dfa43e7d8748276e18327028d8eabdf6c5047682726b0da4a656d5e837",
+      "issue": "ledger path absent; declared SHA cannot be verified against it; figure uses S(I), exact formula not established in inspected reprint"
+    }
+  ],
+  "source_count": 10,
+  "existing_ledger_paths_with_matching_hash": 9,
+  "key_findings": [
+    "C squared and rephasing arguments hold under stated representation assumptions",
+    "C symmetry alone does not simultaneously realify nonzero S and k; Im(k conjugate(S)) is invariant",
+    "real-symmetric two-state equations are valid with additional conditions; signed branch difference is not always the nonnegative energy gap",
+    "Rohozinski 2011 does not establish nonadiabatic attribution or prove absence of chiral geometry",
+    "Ayangeakaa 2013 ledger path is absent and inspected reprint does not explicitly define S(I) in its Fig.2 caption"
+  ],
+  "math_checks": {
+    "counterexample": "C=K, H=[[0,1],[1,0]], L=(sqrt(3)/2,i/2), R=L*",
+    "S": "1/2",
+    "k": "-i sqrt(3)/2",
+    "generalized_eigenvalues": [
+      -1,
+      1
+    ],
+    "zero_shift_cases": [
+      -3,
+      0,
+      4
+    ],
+    "method": "NumPy generalized eigenvalues via solve(N,H); direct algebra and phase-invariant calculation"
+  },
+  "limitations": [
+    "No complete experimental audit or real-nucleus fit",
+    "Liu formula not readable in inspected pages",
+    "Ayangeakaa Ref.40 not inspected; exact S(I) definition unconfirmed",
+    "Missing ledger path identity not established"
+  ],
+  "actions": {
+    "draft_modified": false,
+    "ledger_or_manifest_modified": false,
+    "git_invoked": false,
+    "new_literature_downloaded": false,
+    "agents_dispatched": false,
+    "credentials_read": false,
+    "system_installation": false,
+    "metadata_web_search_attempted": true
+  },
+  "deliverables": [
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/T09/report.md",
+      "sha256": "4080b4f94e272779211a43f3ebad030e32449b395adaa60d771f88726c7d6355",
+      "lines": 230
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/T09/receipt.json"
+    }
+  ],
+  "validation": [
+    "Frozen manifest hashes checked",
+    "Abstract counterexample and energy zero shifts checked numerically",
+    "PDF raw paths and SHA-256 checked",
+    "Report line count in requested 180–250 range",
+    "PDF local links verified"
+  ]
+}

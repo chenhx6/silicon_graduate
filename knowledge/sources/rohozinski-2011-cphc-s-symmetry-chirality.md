@@ -3,7 +3,7 @@ type: source
 title: "Rohoziński et al. 2011 - Odd-odd nuclei as core-particle-hole systems and chirality"
 aliases: [Prochniak Rohozinski 2011 CPHC follow-up, S-symmetry CPHC model 2011]
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-11-08
 status: ai-draft
 review_status: unreviewed
 source_type: theory
@@ -27,11 +27,20 @@ tags: [S-symmetry, CPHC, nuclear-chirality, M1-staggering, non-unique-fingerprin
 citation_key: "Rohozinski_2011"
 raw_file: "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/rohozinski-2011-cphc-s-symmetry.pdf"
 raw_sha256: "94b2b3bc89c1d942f07f7c512c5aecc38c3cc08bbf48dac507ad373ace64b8c9"
+archive_required: true
 ---
 
 # Odd-odd nuclei as core-particle-hole systems and chirality
 
 ## Bibliographic Record
+
+2026-11-08写作回核：T09读PDF1–2、5、7–9、13–14，
+总控另回PDF1、14的摘要/模型入口和结论。
+本文研究CPHC与组合S对称模型，未先假定手征几何；
+可重现若干通常称为手征指纹的性质，不等于证明几何不存在。
+本次所核原文没有支持G64-v1所加“非绝热”正面归属，撤回该写法；
+不能从一个模型无先验几何反推所有实验双带均非手征。
+相关数学与定义须同本文的线性S、Pα/Cπν条件区分，不与反幺正手征C同名合并。
 
 - S. G. Rohoziński, L. Próchniak, K. Starosta, and Ch. Droste, “Odd-odd nuclei as the core-particle-hole systems and chirality,” *Eur. Phys. J. A* **47**, 90 (2011), DOI 10.1140/epja/i2011-11090-7.
 - Crossref verifies title, authors, journal, volume, article number and 2011 publication. The 15-page Springer PDF is available under CC BY-NC; its SHA-256 is 94b2b3bc89c1d942f07f7c512c5aecc38c3cc08bbf48dac507ad373ace64b8c9.

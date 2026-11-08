@@ -3,7 +3,7 @@ type: source
 title: "Bohr–Mottelson Nuclear Structure II：非轴对称转子高自旋近似选段"
 aliases: [BM-II-high-spin-rotor]
 created: 2026-11-02
-updated: 2026-11-06
+updated: 2026-11-08
 status: ai-draft
 review_status: unreviewed
 source_type: book
@@ -12,7 +12,11 @@ title_original: "Nuclear Structure, Volume II: Nuclear Deformations"
 authors: [Aage Bohr, Ben R. Mottelson]
 year: 1975
 citation_key: "bohr_1975_volume-deformations"
-publisher: "World Scientific reissue of W. A. Benjamin original"
+publisher: "World Scientific Publishing Co. Pte. Ltd."
+original_publisher: "W. A. Benjamin, Inc."
+local_edition_year: 1998
+local_reprint_year: 1999
+isbn: "9810239807"
 pages: "772 PDF pages; initial printed pp.190–192 plus bounded attribution checks listed below"
 language: en
 canonical_source: "Local PDF, preface to reissue and section 4-5e"
@@ -32,6 +36,13 @@ tags: [books, wobbling, high-spin, approximation-validity]
 ## Bibliographic Record and Scope
 
 Vol. II 原版 1975；本地为 World Scientific 重印。此记录与 [[book-bohr-mottelson-nuclear-structure]] 的第一卷原件分开登记，避免用第一卷哈希声称已核验第二卷。
+
+2026-11-08重写书目核查：总控回PDF5–8的题名/版权/重印前言。
+PDF6明确原版1975由W. A. Benjamin出版，当前edition版权/首次出版1998，
+并列Reprinted1999，Vol.II ISBN9810239807；PDF7–8说明保留原文本重印，
+不是用1998日期认证其包含全部后来的研究。
+frontmatter的year=1975继续标识原作年，local_edition_year标本地版本。
+新稿书目应区分原作年、所读重印版和实际PDF/印刷定位，不把两个版本计作独立物理证据。
 
 初始阅读记录为前言／目录及 §4-5e 印刷 pp.190–192（物理 PDF212–214）的文字、推导和页面图像。2026-11-06 另对历史 BM2-5–13 作有界引用归属核查，实际核查页和范围列于 Scope and Reading Depth；这不增加整章或整卷阅读完成声明，`reading_depth` 保持 `skimmed`。
 

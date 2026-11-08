@@ -1,0 +1,37 @@
+{
+  "recorded_at": "2026-11-08T00:33:35.361496+00:00",
+  "producer": "system/scripts/a130_rewrite_invariant_angular_audit.py",
+  "producer_sha256": "01bbc5d4f4d569c9ef5fb4030671367241774ba0ba4b6cca9f1d29b0d3a5fe08",
+  "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+  "sympy": "1.13.3",
+  "context_inputs": [
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G63-v1/section-1-2.md",
+      "sha256": "94f2f5cfe04bdd6d2a160ef68c3f7354f478c0567e341cd6659d22019648b940"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-1952-mfm26-14.pdf",
+      "sha256": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d"
+    },
+    {
+      "path": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "sha256": "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113"
+    },
+    {
+      "path": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/poves-2020-limits-assigning-nuclear-shape.pdf",
+      "sha256": "ca188d5b2ac257edb8f616b2a055d2bd488f29d5d136baf540753ea049edf21a"
+    },
+    {
+      "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "outputs/l4/20261108-A130-invariant-angular-controls/controls.json",
+      "sha256": "cc1e36a063af14cd7dd5b669c349ba16f9851002896745b75fd02dac453ed0c9"
+    }
+  ],
+  "numeric_inputs": "Dimensionless spins I=0,1/2,1,3/2,2,5/2; rank-2 tensor; stated two-point model",
+  "real_nucleus_calculation": false
+}

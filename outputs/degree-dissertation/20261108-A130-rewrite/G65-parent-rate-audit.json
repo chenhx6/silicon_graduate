@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-11-08T00:19:25.604188+00:00",
+  "input_kind": "hypothetical teaching model; no measured nucleus",
+  "selection_rule_error_in_v1": "4+ -> 2+ forbids M1 by |Ji-Jf|=2 > 1; mixed first branch must use a compatible endpoint, e.g. 3+",
+  "valid_replacement_endpoints": {
+    "mixed_first": "4+ -> 3+",
+    "pure_E2_second": "4+ -> 2+"
+  },
+  "inputs": {
+    "tau_s": 5e-12,
+    "delta1": 1.5,
+    "a1": 100,
+    "a2": 25,
+    "alpha_M1_1": 0.003,
+    "alpha_E2_1": 0.0015,
+    "alpha_E2_2": 0.005
+  },
+  "coefficients_from_Suhonen_printed_constants": {
+    "C_E2": 1225033307.7936974,
+    "C_M1": 17583758801027.691,
+    "magnetic_unit_boundary": "Book Eq6.14 uses (mu_N_SI/c)^2; usual Gaussian magneton must be consistently defined, not blindly relabeled"
+  },
+  "alpha_mix1": 0.0019615384615384616,
+  "total_weight": 125.32115384615386,
+  "lambda_gamma1_s_inverse": 159589976521.85922,
+  "lambda_gamma2_s_inverse": 39897494130.464806,
+  "b_total1": 0.7995150919944144,
+  "b_total2": 0.2004849080055856,
+  "B_E2_first_e2_fm4": 275.2370763459114,
+  "B_M1_first_book_magneton_units": 0.005454319460297189,
+  "B_E2_second_e2_fm4": 1042.1919176012157,
+  "boundary": "Arithmetic and triangle-rule audit only; does not approve the rest of draft or assign real nuclear branching"
+}

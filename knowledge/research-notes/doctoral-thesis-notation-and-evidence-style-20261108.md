@@ -1,0 +1,149 @@
+---
+type: research-note
+title: "A130重写：符号、单位、引用与图表证据的一致性规范"
+aliases: [A130 thesis notation and evidence style]
+created: 2026-11-08
+updated: 2026-11-08
+status: ai-draft
+review_status: unreviewed
+reasoning_status: provisional
+created_from: "已发布章节合同及三个样节写作的总控一致性准备"
+promotion_target: ""
+evidence_sources: [book-suhonen-from-nucleons-to-nucleus, cline-1986-nuclear-shapes-coulomb-excitation, poves-2020-limits-assigning-nuclear-shape, wu-hongyi-2020-general-purpose-digital-daq-thesis, lange-kumar-hamilton-1982-multipole-admixtures]
+tags: [doctoral-thesis, notation, units, citations, evidence, writing]
+---
+
+# 给读者一套可跟随的约定，引用别人的式子时保留换算
+
+## Research Trigger
+
+不同原作重复使用γ、δ、α、Ω、τ和λ表示不同对象，
+还采用不同RME、磁单位与惯量记号。新稿需要固定工作约定，
+再明确说明怎样映射原作者；不能为了统一外观悄悄改变公式。
+本页与[[doctoral-thesis-architecture-and-section-map-20261108]]及F01–F06合同配套。
+
+## Grounded Evidence
+
+- [[book-suhonen-from-nucleons-to-nucleus]]：
+  印刷29–30/PDF44–45给Wigner–Eckart；
+  印刷118–121/PDF133–136给率、单位和相位。
+- [[cline-1986-nuclear-shapes-coulomb-excitation]]印刷698–700：
+  形状角符号、标量求和、算符/闭合条件。
+- [[poves-2020-limits-assigning-nuclear-shape]]实际v2：
+  质量形状与涨落的模型解释，不能与电荷矩无条件互换。
+- [[lange-kumar-hamilton-1982-multipole-admixtures]]印刷121–122：
+  光子混合比及相位。
+- [[wu-hongyi-2020-general-purpose-digital-daq-thesis]]：
+  事件字、采样/插值与不同时间常数；参数归具体模块/算法。
+
+下面是总控为新稿选择的记号，不声称原作都使用相同字母。
+
+## Provisional Reasoning
+
+### 符号表
+
+| 对象 | 新稿工作约定 | 必须保留的来源条件 |
+|---|---|---|
+| 总角动量 | 量子数I无量纲；算符\(\hat{\mathbf J}\)有ħ单位，\(\hat{\mathbf j}=\hat{\mathbf J}/\hbar\)无量纲 | 写Hamiltonian或频率时不把二者混用 |
+| 核芯/准粒子角动量 | 明确矢量是否已除ħ，单粒子j量子数与算符按上下文区分 | 不能从图上三向量就保证实际波函数严格正交 |
+| 主轴 | 优先s/m/l标短/中/长轴；数字1/2/3及x/y/z逐模型给映射 | 电荷轴、惯量排序与稳定转轴分别说明 |
+| 形状 | β为所声明的四极幅度，γ为形状角；度/弧度明确 | Cline使用的形状δ需声明映为γ，不与光子混合比混淆 |
+| 四极算符 | \(\mathcal M(E2)\)含电荷；质量/质子/中子算符分别标记 | 不普遍假设电荷算符=eZ/A乘质量算符；需质中结构/有效电荷假设 |
+| 形状矩 | 按F01/R1-T03归一，q₂、q₃分别为二/三次不变量 | q₃已含\(\cos3\gamma\)，不能再写q₃³；任意有效算符不自动满足坐标恒等式 |
+| 光子混合比 | δ指指定约定的M1+E2发射振幅比，通常采用标准实δ | 更一般复振幅用\(|\delta|^2\)；相位和辐射场因子一同转换 |
+| 内转换 | \(\alpha_{\rm IC}\)或明确支路α_i为IC系数 | 不与signature α或精细结构常数混用 |
+| 精细结构常数 | 需要时写\(\alpha_{\rm QED}\) | 核钟敏感度须定义自变量和模型 |
+| signature | \(\alpha_{\rm sig}\)、\(r=e^{-i\pi\alpha_{\rm sig}}\)随所选轴/模型定义 | 只有相应Hamiltonian保留π转动时使用，不给所有TAC/手征态普遍贴标签 |
+| 轴投影/对简并度 | Nilsson/内禀投影与seniority的\(\Omega_j=(2j+1)/2\)明确区分 | 同一个Ω字母不是同一物理对象 |
+| 频率 | \(\omega_{\rm rot},\omega_{\rm vib}\)为频率，核谱常画\(\hbar\omega\)能标 | \(\hbar\omega\simeq E_\gamma/2\)需相应ΔI=2与近似，非所有I精确恒等 |
+| 化学势/配对 | 化学势优先\(\mu_p,\mu_n\)，配对隙Δ_p,Δ_n | 若原作使用λ_F，明确其能量单位，避免与衰变率冲突 |
+| 集体惯量 | 明确\(\mathcal J_k\)与振动B_μν、D_μν及坐标 | β吸收因子、坐标变换、量纲、求和双计数分别说明 |
+| 平均寿命/半衰期 | τ为平均寿命，\(T_{1/2}=\tau\ln2\) | 默认单态指数率框架；不同平台/环境不自动同一τ |
+| 率/宽度 | λ_i为s⁻¹率，Γ_i=ħλ_i为能量宽度 | 数值率系数已含相应常数时不重复乘ħ或ln2 |
+| 电子学时间 | 前放衰减、成形、死时间分别给下标 | 不把原作τ_d的两种上下文混成同一个参数 |
+| 分支 | b_i为已说明总分支；a_i为相对光子强度 | 未计E0/粒子等通道时不能把a直接当含IC总分支 |
+| B与RME | 先声明方向，\(B=|RME|^2/(2I_i+1)\) | 上下行统计权、相位和电/磁单位都需一致 |
+| S(I) | 用具体论文定义并必要时加文献下标 | 不创造一个统一式或把不同staggering当同一观测 |
+| 缓发中子 | 分开P₁n、P≥₁n、P₀n和平均中子数 | 原文Pn简称先释义，β条件归一与母态全部衰变归一分别记 |
+| 反应量 | σ_ER为面积，T_ℓ/P_CN/W_sur为无量纲概率 | 逐分波/路径条件与探测计数另列 |
+
+### 单位和归一的核验
+
+每个关键式至少做一次以下检查：左右单位、零/纯多极极限、
+上下行Hermitian关系、概率归一及作者轴序/相位。
+这不是给每个式子制造一套重复测试，而是防止搬公式时改变物理对象。
+
+E2若以MeV、e²fm⁴、s⁻¹使用Suhonen印出的圆整数，
+其率系数重建约1.2250×10⁹；原书Eq.(6.14)，详见F04。
+若改用e²b²，B的数值相差10⁴，不能只改单位标签。
+磁算符的SI/Gaussian及μN/c或常用μN单位须随定义转换；
+不为统一外观照搬未经核验的磁率常数。
+
+经典Bohr坐标模型中常见β⁴|sin3γ|体积元，具体质量度量/坐标实现还须明示。
+不能把一个常质量教学模型的测度无条件推广到所有坐标相关惯量模型。
+初学者应先理解“积分权重来自坐标和动力学合同”，再进入附录C的完整推导。
+
+### 引用和台账
+
+正文使用明确的`[@source-basename]`工作键，键来自实际source文件名，
+不冒称它是既有Zotero item key。总控根据实际元数据生成本稿书目，
+不修改用户的`raw/zotero/wiki-inbox.bib`。
+仅`knowledge/sources/`中的外部作品进入参考文献；
+自有研究笔记/数学控制可做推导provenance，不伪装成已发表文献。
+
+台账至少区分：本篇新测、采用外部输入、作者解释、模型计算、本文条件推导。
+学位与期刊、同实验再分析、相同数据的矩阵元和派生量保留依赖，
+不由引用条数制造独立性。
+原件页码分PDF/印刷，不能给整书套单一偏移；
+引用时要说明实际版本，尤其预印本与勘误。
+
+### 图表和叙事
+
+概念示意由本稿自绘；教学模型写清输入及适用范围；
+真实数据重绘保留误差、方向、采用输入和source定位。
+未取得原始事件、波函数或producer时，不把概念图标为其重建结果。
+原图再分发权逐图核，当前默认用原创示意或可追溯事实重绘。
+
+叙事的工作是引出一个可回答的问题。几何、曝光、逃逸通道或时间尺度的类比
+必须在相应处回到算符/波函数/率和观测；无需编造经典瞬时姿态、
+科学家私人心理或宇宙级必然性。
+内部合同的警示语、调度状态和审核元数据不进入论文读者的正常正文。
+
+## Assumptions
+
+这是新稿内部工作约定，逐节发现更合适的记号时允许整体一致地修订。
+引用原式仍保留原作者符号及映射，不能以新稿规范改写原证据。
+
+## Competing Explanations
+
+符号统一不能消除真实模型差异，格式一致也不使近似相同。
+不把某个更短的记号选为“正确物理”，而把其它约定误判为错误。
+
+## Transfer Conditions
+
+每个writer与审读者共用此表；节间接口必须说明新增对象/下标，
+后续整合时检查同字异义和同义异字。
+
+## Failure Conditions
+
+单位标签替换、来源页码混用、把工作键当既有文献管理键、
+或将教学模型包装成实测结果，会破坏相应段落。
+
+## Falsification or Reverse Tests
+
+抽取一个式子，要求在不查上下文的情况下指出各量的单位/方向/归一；
+若做不到，回到该节补定义，而非只增加引用。
+自测不替代原件核查，也不自动认证writer已经理解。
+
+## Open Questions
+
+最终学校格式、作者/个人成果与特定装置的参数仍待真实输入。
+通用前置写作可以推进，未知部分保持边界。
+
+## Human Review
+
+总控的一致性规范和来源核查方法；没有用户人工审稿或学校规范确认事件。
+
+## Promotion or Rejection History
+
+- 2026-11-08：启动重写后建立统一工作约定，防止多writer把原文不同记号误并。

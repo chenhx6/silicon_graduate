@@ -3,7 +3,35 @@ graph-excluded: true
 updated: 2026-11-08
 ---
 
+## 2026-11-08 — A130三个样节整合完成，继续全部39节
 
+- 完整五章/39节及必要附录的正文goal保持active；第一阶段研究和设计已发布，不重开。三样节仅为里程碑，非完整论文或学校送审就绪。
+- G63/G64/G65 V3均已落盘并冻结到raw/writing/gpt/A130/review-inputs/Gxx-v3。总控读完整正文与关键原件后做小范围整合，最终稿/台账与冻结worker版本明确分开；pilot-admission-receipt.json保存最终SHA。1.2修活跃空间/角测度/自项/Poves质量算符边界，3.5修复非正交、无源硬线/反方归属/章节接口，5.9修选择规则/归一/率常数/磁单位与三连美元公式。
+- 三Gemini均已关闭。G64 V3后仍有排队followup，父代理关闭时状态running，最终由父代理补齐剩余修改；不伪造其完成状态。其长shell字符串发生引用失败，已纠偏为小patch/安全heredoc；后续writer合同明确这一点。T08/T09均已回传关闭，独立数学/原件审计写回knowledge，不把审阅者自评作认可。
+- 新知识入口：a130-rewrite-invariant-recoupling-and-width-boundaries-20261108、a130-rewrite-chiral-nonorthogonal-and-fingerprint-boundaries-20261108、a130-rewrite-absolute-rates-and-selection-boundaries-20261108。三个canonical producer实际通过20二次+61三次角动量通道、11复非正交控制、8分支率控制；全部输入/producer/产物SHA已匹配，是代数/教学模型而非实核拟合。
+- Pandoc已实际组1.2/3.5/5.9为raw/writing/gpt/A130/frontmatter-draft.md和frontmatter-preview.html。MathML转换/引用无未处理警告；当前Pandoc缺zh模板翻译的已知警告在assembly receipt保留，不掩盖数学fallback。无TeX引擎，不声称PDF。CSL扩为16条真实身份，实际引用14条；书目用source-basename工作键，Zotero inbox不改。
+- 下一批详细合同已准备并核原件SHA：outputs/degree-dissertation/20261108-A130-rewrite/writer-contracts/G66.json（2.1张量），G67.json（2.3配对），G68.json（5.3数字成形）。Gemini Tiered/high主写，独占各自正文/台账/回执；总控继续整合/验证，复杂新问题再用Terra。派发实际状态见worker-ledger，不能据合同存在冒称已运行。
+- G66–G68现已实际派发且工具接受：G66=01a1b8b4-6893-7ba2-911c-b4057840fabc，G67=01a1b8b4-a16f-72b1-a53d-092d1b3a3488，G68=01a1b8b4-e372-7f31-8d5c-a603c3e61b60，均Gemini Tiered/high；派发不等于产物已完成。父代理当前保存pilot发布里程碑，新节不混入该批显式清单。
+- 本地Suhonen PDF页序在BCS附近不连续：PDF402–403印刷414–415，PDF404起回到印刷391，不能套全书固定页偏移。G67要求实际回原页记录。新书目版本、PR5/AS8与064025前导零已核，不能回退为错误路径/页码。
+- 原34文件可恢复归档/SHA保持；不恢复旧A130或让旧稿当科学源。PLAN、其它稿、daily课程/daemon/凭据不动，不触碰旧无关agent。
+- 发布仍显式清单、非force Gitee。当前pilot发布最终检查/精确hash/push状态以本目录publication-final-receipt.local.json为准；下一波产物须单独纳入后续发布，不能被动态目录枚举混入。全库历史基线129error/479warning，本批最终仍129/479、新增issue/error均0；公式邻接方括号造成的3个误链接已修。归档8manifest/6source、boundary、preflight和diff检查通过。稳定发布指针main / thesis: rebuild A130 foundations with audited pilot sections；精确hash仅本地最终任务回执。
+
+
+
+
+
+## 2026-11-08 — A130实际重写：原稿已可恢复归档，三个Gemini样节与Terra审读
+
+- 第一阶段R1–R3与章节设计goal均已完成并发布；设计52文件的post-commit清单一致、HEAD=origin/main，精确hash仅设计本地publication-final-receipt.local.json。当前原生goal是完整五章/39节及必要附录的非个人成果正文重写，保持active，当前不把样节或字数当全goal完成。
+- 已依用户既有条件授权替换精确raw/writing/gpt/A130：先核原34文件路径/SHA且无symlink，然后整体rename到raw/writing/gpt/_archive/20261108-A130-before-rewrite/original，34 SHA全同；其manifest归档门0失败。新A130初始化README、research-draft、evidence-ledger、manuscript-status及参考文献。没有递归删除/历史重写，没有触碰其它大小写相近目录。早期“当前不清空”属于旧阶段边界，不能据此把旧稿恢复或撤销当前已授权重写；恢复可用归档，不把旧稿作科学源。
+- 活跃writer：G63=01a1b872-68d4-7051-848c-6dde82a34ea6 写1.2；G64=01a1b872-d3be-75f0-b005-601f9cc8d1c2 写3.5；G65=01a1b873-4d8b-70c2-ae58-805f43abf633 写5.9。均Gemini Tiered/high，独占相应raw正文/JSON台账和outputs/degree-dissertation/20261108-A130-rewrite/Gxx/receipt.json。详细合同包在已发布设计目录；本轮明确raw写权限已授，未授权其它节/文件、Git或子派生。
+- G63 v1已回传并冻结到raw/writing/gpt/A130/review-inputs/G63-v1（原文/台账/manifest）。初稿约6376汉字，有范围膨胀/套话/公式和模型泛化；已send_input让G63做V2范围/文体收缩，去通用6j/高阶方差及未核数据，不接受自称严密/通过。保留0+最小WE、正二次和、声明q2/q3、密度层次/反方。接口纠2.1角动量、2.4坐标、2.6惯量、5章实验。
+- 活跃Terra T08=01a1b87c-f6b3-72c0-b879-7bf9c481d633，xhigh，审冻结G63-v1的6j/高阶Q矩、Poves数值/方差近似、SU3、Cline饱和/低高频分离及其它强泛化；只写本批T08 outputs，可做有界代数控制，不改raw/knowledge/system。父代理负责文体与范围，等待实际审计后再把科学更正同步knowledge和稿件。不要让审读者读正在改的稿，以冻结输入为准。
+- 当前格式：Markdown+LaTeX math，Pandoc工作键为source-basename；references.csl.json先有8个实际source，raw/SHA和citeproc解析验证通过。工作键不冒充Zotero key，inbox未改。当前无Xe/Lua/TeX/tectonic，Pandoc有，不虚报PDF或学校合规，先写正文与证据；后续再按实际工具处理导出。
+- 新knowledge/research-notes/doctoral-thesis-notation-and-evidence-style-20261108.md已写统一约定并send_input三writer：角动量/轴、形状gamma与光子delta、q2/q3、IC alpha、signature条件、寿命/率/宽度、B方向/电磁单位、S(I)逐源、Pn含义与来源/图表。台账不能进入学术正文。全稿未知个人数据/装置/成果不编造。
+- Book BM-II在本轮回PDF5–8：原版1975 Benjamin，本地1998 WorldScientific edition，版权页列1999重印；源元数据已补local_edition等。本稿CSL按所读1998版并记original-date1975，既有Zotero key不改。主体未更新为所有现代概念，不能用该书190–193页背书全部手征反幺正结论。
+- 输出/计划：outputs/degree-dissertation/20261108-A130-rewrite/，outputs/plans/20261108-A130-frontmatter-rewrite.md。旧A130基线路径只代表替换前历史；现在保护用新归档manifest，不直接跑原路径对照并误判数据丢失。PLAN、其它手稿、daily课程/daemon/凭据不改，不触碰旧无关agent。
+- 下一步：审G64/G65实际正文与台账，G63 V2回来后与T08核查整合；对真正复杂新推导交Terra，父代理不按模型票数。样节科学/先修/叙事可接受后才扩其余节；阶段性显式暂存/检查/发布允许partial，完整goal仅在全前置稿和验证/授权发布完成后complete。保护未提交的写作变更与新归档，不用git restore或旧模板覆盖。
 
 ## 2026-11-08 — 博士论文设计研究：五章/39节与Gemini合同
 

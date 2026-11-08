@@ -4,7 +4,7 @@ title: "Poves2020：有效核形状、量子涨落与高阶不变量的限制"
 title_original: "Limits on assigning a shape to a nucleus"
 aliases: [Poves Nowacki Alhassid shape limits]
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-11-08
 status: ai-draft
 review_status: unreviewed
 source_type: theory-and-method
@@ -21,8 +21,9 @@ canonical_source: "https://doi.org/10.1103/PhysRevC.101.054307"
 source_url: "https://arxiv.org/pdf/1906.07542v2"
 raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/poves-2020-limits-assigning-nuclear-shape.pdf"
 raw_sha256: "ca188d5b2ac257edb8f616b2a055d2bd488f29d5d136baf540753ea049edf21a"
-raw_storage_status: reserved-unpopulated-arxiv-staging-only
-raw_archive_verified_at: 2026-10-23
+raw_storage_status: archived-local
+raw_archive_verified_at: 2026-11-08
+archive_required: true
 analysis_status: public-staging-original-read-raw-archive-verified
 public_staging_file: "tmp/day20-poves114/PDFs/Limits_on_assigning_a_shape_to_a_nucleus.pdf"
 nuclei: [20Ne, 24Mg, 34Si, 44S, 48Ca, 56Ni, 64Cr, 68Ni, 76Ge, 76Se]
@@ -41,6 +42,20 @@ A. Poves、F. Nowacki、Y. Alhassid，Physical Review C101，054307(2020)，DOI1
 下载沿公开arXiv/无SI配置，文件只在tmp，raw_file是未填归档槽；raw/PLAN/Bib未改，citation_key留空。此文由[[henderson-2020-quadrupole-invariant-convergence]] Ref11定位，是相关方法/计算来源，不是新增独立实验；114时Kumar/Cline正文未读；148已实际新读[[cline-1986-nuclear-shapes-coulomb-excitation]]，Kumar仍metadata-only；不经本文Ref1/5代读。
 
 ## Scope and Reading Depth
+
+2026-11-08写作回核：下方“仅tmp/未填raw槽”是早期读取时的历史状态；
+当前frontmatter原件实际存在，SHA与登记一致，有界归档门已核。
+总控回读实际v2 PDF2–4，T08独立读PDF1–4，核高阶定义、Table I和Eqs.(15)–(17)。
+这不增加“重新全篇通读”声明，亦未运行CI原程序。
+
+写作中的两项解释边界：
+原文\(\hat Q^3=[\hat Q\times\hat Q]\cdot\hat Q\)为带角度的三次标量，
+不是径向幅度立方；六阶\((\hat Q^3)^2\)是所选角涨落量，不是所有六阶的唯一选择。
+Eq.(16)确为原文打印形式，本任务通过一阶展开与正权反例说明，
+不能把它普遍解释为任意宽坐标分布的精确角方差恒等式。
+Table I四个已核相对宽度为指定CI质量四极结果，不是实验误差或深势阱的直接测量。
+推导、归一转换及模型/统计宽度区分见
+[[a130-rewrite-invariant-recoupling-and-width-boundaries-20261108]]。
 
 primed-recall-114在原件lookup前冻结，事先仅有Henderson的引用身份及113数学反例，非盲测。本session实际读PDF1–6全部正文/参考文献；视觉核PDF2–6的Fig1/2、TableI、Eq3–17及重要脚注14，阅读Eq1–17。没有运行作者CI代码、取得全部wavefunction/doorway向量、原矩阵元或原实验数据；没有逐篇阅读其引用的支持/反对实验论文。
 

@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-11-08T01:12:04.994865+00:00",
+  "command": [
+    "python3",
+    "system/scripts/wiki_archive_gate.py",
+    "check",
+    "--root",
+    ".",
+    "--",
+    "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md",
+    "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+    "knowledge/sources/cline-1986-nuclear-shapes-coulomb-excitation.md",
+    "knowledge/sources/meng-2010-open-problems-nuclear-chirality.md",
+    "knowledge/sources/poves-2020-limits-assigning-nuclear-shape.md",
+    "knowledge/sources/rohozinski-2011-cphc-s-symmetry-chirality.md",
+    "raw/writing/gpt/A130/review-inputs/G63-v1/manifest.json",
+    "raw/writing/gpt/A130/review-inputs/G63-v3/manifest.json",
+    "raw/writing/gpt/A130/review-inputs/G64-v1/manifest.json",
+    "raw/writing/gpt/A130/review-inputs/G64-v3/manifest.json",
+    "raw/writing/gpt/A130/review-inputs/G65-v1/manifest.json",
+    "raw/writing/gpt/A130/review-inputs/G65-v3/manifest.json",
+    "raw/writing/gpt/_archive/20261108-A130-before-rewrite/manifest.json",
+    "raw/papers/gpt/query/20261108-A130-citation-identities/manifest.json"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"checked_manifests\": [\n    \"/workspace/wiki/raw/papers/gpt/query/20261108-A130-citation-identities/manifest.json\",\n    \"/workspace/wiki/raw/writing/gpt/A130/review-inputs/G63-v1/manifest.json\",\n    \"/workspace/wiki/raw/writing/gpt/A130/review-inputs/G63-v3/manifest.json\",\n    \"/workspace/wiki/raw/writing/gpt/A130/review-inputs/G64-v1/manifest.json\",\n    \"/workspace/wiki/raw/writing/gpt/A130/review-inputs/G64-v3/manifest.json\",\n    \"/workspace/wiki/raw/writing/gpt/A130/review-inputs/G65-v1/manifest.json\",\n    \"/workspace/wiki/raw/writing/gpt/A130/review-inputs/G65-v3/manifest.json\",\n    \"/workspace/wiki/raw/writing/gpt/_archive/20261108-A130-before-rewrite/manifest.json\"\n  ],\n  \"checked_sources\": [\n    \"/workspace/wiki/knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md\",\n    \"/workspace/wiki/knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md\",\n    \"/workspace/wiki/knowledge/sources/cline-1986-nuclear-shapes-coulomb-excitation.md\",\n    \"/workspace/wiki/knowledge/sources/meng-2010-open-problems-nuclear-chirality.md\",\n    \"/workspace/wiki/knowledge/sources/poves-2020-limits-assigning-nuclear-shape.md\",\n    \"/workspace/wiki/knowledge/sources/rohozinski-2011-cphc-s-symmetry-chirality.md\"\n  ],\n  \"failure_count\": 0,\n  \"failures\": [],\n  \"ok\": true,\n  \"scope\": \"paths\"\n}\n",
+  "stderr": ""
+}

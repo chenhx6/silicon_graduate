@@ -1,0 +1,250 @@
+{
+  "status": "pilot-admitted-next-wave-writing",
+  "scope": "non-personal-results chapters only",
+  "architecture": "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md",
+  "old_files_preserved": 34,
+  "archive_manifest": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/manifest.json",
+  "sections": [
+    {
+      "id": "1.1",
+      "draft_file": "research-draft/section-1-1.md",
+      "evidence_file": "evidence-ledger/section-1-1.json",
+      "state": "not-started"
+    },
+    {
+      "id": "1.2",
+      "draft_file": "research-draft/section-1-2.md",
+      "evidence_file": "evidence-ledger/section-1-2.json",
+      "state": "parent-integrated-research-draft",
+      "manuscript_sha256": "96514dd3beeabb9362c2837c6630dd36bdda6840ca2a4ad5ac98e794be26e20c"
+    },
+    {
+      "id": "1.3",
+      "draft_file": "research-draft/section-1-3.md",
+      "evidence_file": "evidence-ledger/section-1-3.json",
+      "state": "not-started"
+    },
+    {
+      "id": "1.4",
+      "draft_file": "research-draft/section-1-4.md",
+      "evidence_file": "evidence-ledger/section-1-4.json",
+      "state": "not-started"
+    },
+    {
+      "id": "1.5",
+      "draft_file": "research-draft/section-1-5.md",
+      "evidence_file": "evidence-ledger/section-1-5.json",
+      "state": "not-started"
+    },
+    {
+      "id": "2.1",
+      "draft_file": "research-draft/section-2-1.md",
+      "evidence_file": "evidence-ledger/section-2-1.json",
+      "state": "writing"
+    },
+    {
+      "id": "2.2",
+      "draft_file": "research-draft/section-2-2.md",
+      "evidence_file": "evidence-ledger/section-2-2.json",
+      "state": "not-started"
+    },
+    {
+      "id": "2.3",
+      "draft_file": "research-draft/section-2-3.md",
+      "evidence_file": "evidence-ledger/section-2-3.json",
+      "state": "writing"
+    },
+    {
+      "id": "2.4",
+      "draft_file": "research-draft/section-2-4.md",
+      "evidence_file": "evidence-ledger/section-2-4.json",
+      "state": "not-started"
+    },
+    {
+      "id": "2.5",
+      "draft_file": "research-draft/section-2-5.md",
+      "evidence_file": "evidence-ledger/section-2-5.json",
+      "state": "not-started"
+    },
+    {
+      "id": "2.6",
+      "draft_file": "research-draft/section-2-6.md",
+      "evidence_file": "evidence-ledger/section-2-6.json",
+      "state": "not-started"
+    },
+    {
+      "id": "2.7",
+      "draft_file": "research-draft/section-2-7.md",
+      "evidence_file": "evidence-ledger/section-2-7.json",
+      "state": "not-started"
+    },
+    {
+      "id": "2.8",
+      "draft_file": "research-draft/section-2-8.md",
+      "evidence_file": "evidence-ledger/section-2-8.json",
+      "state": "not-started"
+    },
+    {
+      "id": "3.1",
+      "draft_file": "research-draft/section-3-1.md",
+      "evidence_file": "evidence-ledger/section-3-1.json",
+      "state": "not-started"
+    },
+    {
+      "id": "3.2",
+      "draft_file": "research-draft/section-3-2.md",
+      "evidence_file": "evidence-ledger/section-3-2.json",
+      "state": "not-started"
+    },
+    {
+      "id": "3.3",
+      "draft_file": "research-draft/section-3-3.md",
+      "evidence_file": "evidence-ledger/section-3-3.json",
+      "state": "not-started"
+    },
+    {
+      "id": "3.4",
+      "draft_file": "research-draft/section-3-4.md",
+      "evidence_file": "evidence-ledger/section-3-4.json",
+      "state": "not-started"
+    },
+    {
+      "id": "3.5",
+      "draft_file": "research-draft/section-3-5.md",
+      "evidence_file": "evidence-ledger/section-3-5.json",
+      "state": "parent-integrated-research-draft",
+      "manuscript_sha256": "16f2ad39e1f37f43003d48b1e72db0bb56865d98148fbdfd26769e96c15884d1"
+    },
+    {
+      "id": "3.6",
+      "draft_file": "research-draft/section-3-6.md",
+      "evidence_file": "evidence-ledger/section-3-6.json",
+      "state": "not-started"
+    },
+    {
+      "id": "3.7",
+      "draft_file": "research-draft/section-3-7.md",
+      "evidence_file": "evidence-ledger/section-3-7.json",
+      "state": "not-started"
+    },
+    {
+      "id": "3.8",
+      "draft_file": "research-draft/section-3-8.md",
+      "evidence_file": "evidence-ledger/section-3-8.json",
+      "state": "not-started"
+    },
+    {
+      "id": "4.1",
+      "draft_file": "research-draft/section-4-1.md",
+      "evidence_file": "evidence-ledger/section-4-1.json",
+      "state": "not-started"
+    },
+    {
+      "id": "4.2",
+      "draft_file": "research-draft/section-4-2.md",
+      "evidence_file": "evidence-ledger/section-4-2.json",
+      "state": "not-started"
+    },
+    {
+      "id": "4.3",
+      "draft_file": "research-draft/section-4-3.md",
+      "evidence_file": "evidence-ledger/section-4-3.json",
+      "state": "not-started"
+    },
+    {
+      "id": "4.4",
+      "draft_file": "research-draft/section-4-4.md",
+      "evidence_file": "evidence-ledger/section-4-4.json",
+      "state": "not-started"
+    },
+    {
+      "id": "4.5",
+      "draft_file": "research-draft/section-4-5.md",
+      "evidence_file": "evidence-ledger/section-4-5.json",
+      "state": "not-started"
+    },
+    {
+      "id": "4.6",
+      "draft_file": "research-draft/section-4-6.md",
+      "evidence_file": "evidence-ledger/section-4-6.json",
+      "state": "not-started"
+    },
+    {
+      "id": "4.7",
+      "draft_file": "research-draft/section-4-7.md",
+      "evidence_file": "evidence-ledger/section-4-7.json",
+      "state": "not-started"
+    },
+    {
+      "id": "4.8",
+      "draft_file": "research-draft/section-4-8.md",
+      "evidence_file": "evidence-ledger/section-4-8.json",
+      "state": "not-started"
+    },
+    {
+      "id": "5.1",
+      "draft_file": "research-draft/section-5-1.md",
+      "evidence_file": "evidence-ledger/section-5-1.json",
+      "state": "not-started"
+    },
+    {
+      "id": "5.2",
+      "draft_file": "research-draft/section-5-2.md",
+      "evidence_file": "evidence-ledger/section-5-2.json",
+      "state": "not-started"
+    },
+    {
+      "id": "5.3",
+      "draft_file": "research-draft/section-5-3.md",
+      "evidence_file": "evidence-ledger/section-5-3.json",
+      "state": "writing"
+    },
+    {
+      "id": "5.4",
+      "draft_file": "research-draft/section-5-4.md",
+      "evidence_file": "evidence-ledger/section-5-4.json",
+      "state": "not-started"
+    },
+    {
+      "id": "5.5",
+      "draft_file": "research-draft/section-5-5.md",
+      "evidence_file": "evidence-ledger/section-5-5.json",
+      "state": "not-started"
+    },
+    {
+      "id": "5.6",
+      "draft_file": "research-draft/section-5-6.md",
+      "evidence_file": "evidence-ledger/section-5-6.json",
+      "state": "not-started"
+    },
+    {
+      "id": "5.7",
+      "draft_file": "research-draft/section-5-7.md",
+      "evidence_file": "evidence-ledger/section-5-7.json",
+      "state": "not-started"
+    },
+    {
+      "id": "5.8",
+      "draft_file": "research-draft/section-5-8.md",
+      "evidence_file": "evidence-ledger/section-5-8.json",
+      "state": "not-started"
+    },
+    {
+      "id": "5.9",
+      "draft_file": "research-draft/section-5-9.md",
+      "evidence_file": "evidence-ledger/section-5-9.json",
+      "state": "parent-integrated-research-draft",
+      "manuscript_sha256": "c3da811fae74df463bc1742bf304c672c7874def3c591dc64d91e0653374b8ca"
+    },
+    {
+      "id": "5.10",
+      "draft_file": "research-draft/section-5-10.md",
+      "evidence_file": "evidence-ledger/section-5-10.json",
+      "state": "not-started"
+    }
+  ],
+  "reader_effect_validated": false,
+  "school_submission_ready": false,
+  "updated_at": "2026-11-08T01:11:17.634956+00:00",
+  "admission_boundary": "Bounded research-draft text acceptance after source/math/reader-step scrutiny; not school submission or measured reader validation"
+}

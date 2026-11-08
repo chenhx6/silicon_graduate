@@ -1,0 +1,57 @@
+{
+  "input_kind": "hypothetical teaching model; no experimental isotope",
+  "inputs": {
+    "tau_s": 5e-12,
+    "delta_first": 1.5,
+    "relative_photon_strengths": [
+      100.0,
+      25.0
+    ],
+    "energies_MeV": [
+      0.8,
+      0.5
+    ],
+    "alpha_first_M1_E2": [
+      0.003,
+      0.0015
+    ],
+    "alpha_second_E2": 0.005
+  },
+  "source_constants": {
+    "electric_prefactor": 5.498e+22,
+    "magnetic_prefactor": 6.08e+20,
+    "hbar_c_MeV_fm": 197.33
+  },
+  "C_E2": 1225033307.7936974,
+  "C_M1_book_SI": 17583758801027.691,
+  "magnetic_unit": "B(M1) numerical value in Suhonen's (mu_N_SI/c)^2",
+  "alpha_first_mixed": 0.0019615384615384616,
+  "normalizing_weight": 125.32115384615386,
+  "photon_rates_s_inverse": [
+    159589976521.85922,
+    39897494130.464806
+  ],
+  "total_branches": [
+    0.7995150919944144,
+    0.20048490800558563
+  ],
+  "B_E2_e2_fm4": [
+    275.2370763459114,
+    1042.1919176012157
+  ],
+  "B_M1_book_SI": 0.005454319460297189,
+  "ratio_E2": 0.2640944260817308,
+  "half_life_as_mean_life_rate_factor": 1.4426950408889634,
+  "mean_life_as_half_life_rate_factor": 0.6931471805599453,
+  "checks": {
+    "first_endpoint_allows_M1_and_E2": true,
+    "second_endpoint_forbids_M1": true,
+    "second_endpoint_also_allows_M3_so_pure_E2_is_an_assumption": true,
+    "total_branch_probabilities_close": true,
+    "photon_branch_probabilities_not_forced_to_sum_one": true,
+    "rate_reconstructed_from_B": true,
+    "same_parent_ratio_eliminates_lifetime": true,
+    "missing_positive_channel_biases_known_rate_up": true
+  },
+  "boundary": "Pure E2 and neglected higher multipoles are explicit model assumptions; no fit or real-nucleus inference."
+}

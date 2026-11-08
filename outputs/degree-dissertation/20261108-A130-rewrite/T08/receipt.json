@@ -1,0 +1,91 @@
+{
+  "task_id": "WRITE-T08",
+  "status": "completed",
+  "completed_utc": "2026-11-08T00:17:20.903619+00:00",
+  "scope": "independent scientific audit of frozen G63-v1; no draft edits, new literature downloads, commits, or dispatch",
+  "input": [
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G63-v1/manifest.json",
+      "size_bytes": 905,
+      "sha256": "560c6478492232e3015c49fdbf7ccb5569bb9662c8e0a3b7272847099f6a5784"
+    },
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G63-v1/section-1-2.md",
+      "size_bytes": 29447,
+      "sha256": "94f2f5cfe04bdd6d2a160ef68c3f7354f478c0567e341cd6659d22019648b940",
+      "matches_manifest": true
+    },
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G63-v1/section-1-2.json",
+      "size_bytes": 8067,
+      "sha256": "6e283805a3342375f0c449b555d185507ed44fccba303a44f20f0cd4e4772792",
+      "matches_manifest": true
+    }
+  ],
+  "sources": [
+    {
+      "path": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-1952-mfm26-14.pdf",
+      "size_bytes": 1324071,
+      "sha256": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d",
+      "source_id": "bohr-1952-surface-particle-coupling",
+      "matches_ledger": true,
+      "actual_pages_read": "PDF 1, 9–13, 19–21; printed 9–13, 19–21"
+    },
+    {
+      "path": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "size_bytes": 1930372,
+      "sha256": "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113",
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "matches_ledger": true,
+      "actual_pages_read": "PDF 1, 16–18; printed 698–700"
+    },
+    {
+      "path": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/poves-2020-limits-assigning-nuclear-shape.pdf",
+      "size_bytes": 143633,
+      "sha256": "ca188d5b2ac257edb8f616b2a055d2bd488f29d5d136baf540753ea049edf21a",
+      "source_id": "poves-2020-limits-assigning-nuclear-shape",
+      "matches_ledger": true,
+      "actual_pages_read": "arXiv v2 PDF 1–4; equations 3–17, table I and sections II–VIII"
+    },
+    {
+      "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "size_bytes": 6514067,
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "matches_ledger": true,
+      "actual_pages_read": "PDF 44–45; printed 29–30"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/T08/report.md",
+      "size_bytes": 21448,
+      "sha256": "c3e3dac1e7c1d2b6dc9071ed71ea8a961899c5fcd44e4882ba3cbf58f3c19ad3"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/T08/angular_control.py",
+      "size_bytes": 2788,
+      "sha256": "eff4f792ab86c8db65d072b542f8600bba186aa8c7888cd1b89bfb1e79bd4bf3"
+    }
+  ],
+  "report_lines": 221,
+  "validation": {
+    "angular_control": "passed using SymPy 1.13.3 exact arithmetic; 20 q2 and 61 q3 allowed channels, I=0,1/2,1,3/2,2,5/2",
+    "command": "PYTHONPATH=/tmp/wiki-t08-deps python3 outputs/degree-dissertation/20261108-A130-rewrite/T08/angular_control.py",
+    "assumptions": "Wigner–Eckart 3j convention as stated in report; finite angular algebra test only",
+    "positive_measure_counterexample": "q3/q2^(3/2)=9 sqrt(10)/25 > 1; actual angular variance 0; linearized variance 121/6250"
+  },
+  "key_findings": [
+    "q2 intermediate 6j phase fails for I=1 and half-integer channel; final positive expression correct",
+    "q3 I=0 coefficient 1/5 vs frozen 1/(5 sqrt(5)); corrected general 6j given",
+    "Poves higher invariants use cubic angular scalar; normalized angular width is linear error propagation, singular relative form near q3=0",
+    "four Poves numbers verified as model results; SU(3), potential, and rigidity generalizations overstate source",
+    "Cline 90–95% and >70% are author conditional estimates; high/low frequency separation has additional assumptions",
+    "Bohr irrotational flow, 24 coordinate redefinitions, and D2h are distinct"
+  ],
+  "limitations": [
+    "Angular checks are algebraic, not nuclear predictions.",
+    "Original Cline intermediate-state formula OCR is unclear; stated recoupling was independently derived and CG-tested.",
+    "No exhaustive literature survey or new experimental claims."
+  ]
+}

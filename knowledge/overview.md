@@ -7,14 +7,28 @@ updated: 2026-11-08
 
 # Knowledge Base Health Dashboard
 
+## 2026-11-08：A130正文重写已启动
+
+前置研究及章节设计goal已验证发布并收束。原A130的34文件完整移入可恢复归档，
+manifest归档门通过，新目录启用1.2/3.5/5.9三个Gemini样节。
+[[doctoral-thesis-notation-and-evidence-style-20261108]]给出统一约定；
+三个样节经过具体修订与总控审读，尚未形成全稿。
+[[a130-rewrite-invariant-recoupling-and-width-boundaries-20261108]]、
+[[a130-rewrite-chiral-nonorthogonal-and-fingerprint-boundaries-20261108]]、
+[[a130-rewrite-absolute-rates-and-selection-boundaries-20261108]]保存实际写作暴露的知识增量；
+81个角动量通道、11项复非正交控制和8项分支率控制均实际通过，
+均为声明的代数/教学模型，不能当实核拟合或正文自动认可。
+具体稿件、引用台账和进度在raw写作目录，过程回执在degree-dissertation输出；
+知识层只保存可复用方法、解释和项目依据。
+
 ## 2026-11-08：博士论文架构设计研究
 
 [[doctoral-thesis-architecture-and-section-map-20261108]]给出总控选择的五章/39节工作结构，
 配套通用/六个重点合同、先修图与来源包。
 [[doctoral-thesis-sample-reading-design-findings-20261108]]将五份学位样本的观察与设计建议分开，
 不由少量样本概括全部博士论文。
-第一阶段goal已在R3发布核对后完成，当前goal为设计研究与合同；
-A130的34原文件继续保留，正文writer尚未启动。
+这段是设计阶段记录；该goal已在随后发布核对后完成。
+当前正文状态以上方重写入口为准，原34文件已移入可恢复归档。
 
 ## 2026-11-08：博士前置 R3 的原件与解释复盘
 

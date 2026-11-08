@@ -3,7 +3,7 @@ type: source
 title: "Open Problems in Understanding the Nuclear Chirality"
 aliases: [Meng 2010 nuclear chirality review]
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-11-08
 status: active
 review_status: human-reviewed
 source_type: journal-article-theory-review
@@ -13,7 +13,7 @@ authors: [Jie Meng, S. Q. Zhang]
 journal: "Journal of Physics G: Nuclear and Particle Physics"
 year: 2010
 volume: 37
-pages: 064025
+pages: "064025"
 doi: 10.1088/0954-3899/37/6/064025
 arxiv: 1002.0907
 language: en
@@ -24,6 +24,7 @@ zotero_uri:
 library_file:
 raw_file: "raw/papers/2010_Meng et al_Open problems in understanding the nuclear chirality.pdf"
 raw_sha256: BC78014DB4585E07B81B70192A054D2B7323584A9CC2B5552C2153175DB4C5C2
+archive_required: true
 nuclei: []
 reactions: []
 experiments: []
@@ -40,6 +41,13 @@ tags: [nuclear-chirality, chiral-doublet, multiple-chiral-doublet, theory-review
 *Journal of Physics G* 37 (2010) 064025，DOI `10.1088/0954-3899/37/6/064025`。BibTeX key 由题名与 DOI 唯一匹配为 `meng_2010_Openproblems`。
 
 ## Scope and Reading Depth
+
+2026-11-08写作回读：总控核本地arXiv1002.0907v1 PDF1、6，
+T09读PDF6–7。PDF6 §3.1直接给
+\(S(I)=[E(I)-E(I-1)]/(2I)\)，I无量纲时S有能量单位；
+也明确“near degenerate”有主观/模型条件，不能把约200keV概括作判定阈值。
+pages字段改用带引号字符串保存064025，避免YAML1.1解析为八进制数字；
+这不是修改文章号。此回读不重新认证综述涉及的全部实验/所有文献。
 
 全文 deep-read。逐节核对核手征几何、倾斜轴推转（tilted-axis cranking, TAC）与粒子-转子模型（particle-rotor model, PRM）的功能边界、刚性与形变响应、multiple chiral doublet bands（MχD）背景、fingerprint 歧义、竞争解释和作者提出的理论发展方向。本文是 theory/review/open-problem source；对具体核素实验的叙述均作为 review/background，不替代原始实验论文。
 

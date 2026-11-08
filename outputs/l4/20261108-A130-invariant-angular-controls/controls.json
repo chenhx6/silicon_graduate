@@ -1,0 +1,517 @@
+{
+  "quadratic_channels": [
+    {
+      "I": "0",
+      "Ir": "2",
+      "Rsr_Rrs_coefficient": "sqrt(5)/5",
+      "absolute_square_coefficient": "sqrt(5)/5"
+    },
+    {
+      "I": "1/2",
+      "Ir": "3/2",
+      "Rsr_Rrs_coefficient": "-sqrt(5)/10",
+      "absolute_square_coefficient": "sqrt(5)/10"
+    },
+    {
+      "I": "1/2",
+      "Ir": "5/2",
+      "Rsr_Rrs_coefficient": "sqrt(5)/10",
+      "absolute_square_coefficient": "sqrt(5)/10"
+    },
+    {
+      "I": "1",
+      "Ir": "1",
+      "Rsr_Rrs_coefficient": "sqrt(5)/15",
+      "absolute_square_coefficient": "sqrt(5)/15"
+    },
+    {
+      "I": "1",
+      "Ir": "2",
+      "Rsr_Rrs_coefficient": "-sqrt(5)/15",
+      "absolute_square_coefficient": "sqrt(5)/15"
+    },
+    {
+      "I": "1",
+      "Ir": "3",
+      "Rsr_Rrs_coefficient": "sqrt(5)/15",
+      "absolute_square_coefficient": "sqrt(5)/15"
+    },
+    {
+      "I": "3/2",
+      "Ir": "1/2",
+      "Rsr_Rrs_coefficient": "-sqrt(5)/20",
+      "absolute_square_coefficient": "sqrt(5)/20"
+    },
+    {
+      "I": "3/2",
+      "Ir": "3/2",
+      "Rsr_Rrs_coefficient": "sqrt(5)/20",
+      "absolute_square_coefficient": "sqrt(5)/20"
+    },
+    {
+      "I": "3/2",
+      "Ir": "5/2",
+      "Rsr_Rrs_coefficient": "-sqrt(5)/20",
+      "absolute_square_coefficient": "sqrt(5)/20"
+    },
+    {
+      "I": "3/2",
+      "Ir": "7/2",
+      "Rsr_Rrs_coefficient": "sqrt(5)/20",
+      "absolute_square_coefficient": "sqrt(5)/20"
+    },
+    {
+      "I": "2",
+      "Ir": "0",
+      "Rsr_Rrs_coefficient": "sqrt(5)/25",
+      "absolute_square_coefficient": "sqrt(5)/25"
+    },
+    {
+      "I": "2",
+      "Ir": "1",
+      "Rsr_Rrs_coefficient": "-sqrt(5)/25",
+      "absolute_square_coefficient": "sqrt(5)/25"
+    },
+    {
+      "I": "2",
+      "Ir": "2",
+      "Rsr_Rrs_coefficient": "sqrt(5)/25",
+      "absolute_square_coefficient": "sqrt(5)/25"
+    },
+    {
+      "I": "2",
+      "Ir": "3",
+      "Rsr_Rrs_coefficient": "-sqrt(5)/25",
+      "absolute_square_coefficient": "sqrt(5)/25"
+    },
+    {
+      "I": "2",
+      "Ir": "4",
+      "Rsr_Rrs_coefficient": "sqrt(5)/25",
+      "absolute_square_coefficient": "sqrt(5)/25"
+    },
+    {
+      "I": "5/2",
+      "Ir": "1/2",
+      "Rsr_Rrs_coefficient": "sqrt(5)/30",
+      "absolute_square_coefficient": "sqrt(5)/30"
+    },
+    {
+      "I": "5/2",
+      "Ir": "3/2",
+      "Rsr_Rrs_coefficient": "-sqrt(5)/30",
+      "absolute_square_coefficient": "sqrt(5)/30"
+    },
+    {
+      "I": "5/2",
+      "Ir": "5/2",
+      "Rsr_Rrs_coefficient": "sqrt(5)/30",
+      "absolute_square_coefficient": "sqrt(5)/30"
+    },
+    {
+      "I": "5/2",
+      "Ir": "7/2",
+      "Rsr_Rrs_coefficient": "-sqrt(5)/30",
+      "absolute_square_coefficient": "sqrt(5)/30"
+    },
+    {
+      "I": "5/2",
+      "Ir": "9/2",
+      "Rsr_Rrs_coefficient": "sqrt(5)/30",
+      "absolute_square_coefficient": "sqrt(5)/30"
+    }
+  ],
+  "cubic_channels": [
+    {
+      "I": "0",
+      "Ir": "2",
+      "It": "2",
+      "Rsr_Rrt_Rts_coefficient": "1/5"
+    },
+    {
+      "I": "1/2",
+      "Ir": "3/2",
+      "It": "3/2",
+      "Rsr_Rrt_Rts_coefficient": "-sqrt(14)/40"
+    },
+    {
+      "I": "1/2",
+      "Ir": "3/2",
+      "It": "5/2",
+      "Rsr_Rrt_Rts_coefficient": "-1/20"
+    },
+    {
+      "I": "1/2",
+      "Ir": "5/2",
+      "It": "3/2",
+      "Rsr_Rrt_Rts_coefficient": "-1/20"
+    },
+    {
+      "I": "1/2",
+      "Ir": "5/2",
+      "It": "5/2",
+      "Rsr_Rrt_Rts_coefficient": "sqrt(6)/30"
+    },
+    {
+      "I": "1",
+      "Ir": "1",
+      "It": "1",
+      "Rsr_Rrt_Rts_coefficient": "sqrt(21)/90"
+    },
+    {
+      "I": "1",
+      "Ir": "1",
+      "It": "2",
+      "Rsr_Rrt_Rts_coefficient": "sqrt(21)/90"
+    },
+    {
+      "I": "1",
+      "Ir": "1",
+      "It": "3",
+      "Rsr_Rrt_Rts_coefficient": "sqrt(21)/315"
+    },
+    {
+      "I": "1",
+      "Ir": "2",
+      "It": "1",
+      "Rsr_Rrt_Rts_coefficient": "sqrt(21)/90"
+    },
+    {
+      "I": "1",
+      "Ir": "2",
+      "It": "2",
+      "Rsr_Rrt_Rts_coefficient": "-1/30"
+    },
+    {
+      "I": "1",
+      "Ir": "2",
+      "It": "3",
+      "Rsr_Rrt_Rts_coefficient": "-sqrt(14)/105"
+    },
+    {
+      "I": "1",
+      "Ir": "3",
+      "It": "1",
+      "Rsr_Rrt_Rts_coefficient": "sqrt(21)/315"
+    },
+    {
+      "I": "1",
+      "Ir": "3",
+      "It": "2",
+      "Rsr_Rrt_Rts_coefficient": "-sqrt(14)/105"
+    },
+    {
+      "I": "1",
+      "Ir": "3",
+      "It": "3",
+      "Rsr_Rrt_Rts_coefficient": "2*sqrt(6)/105"
+    },
+    {
+      "I": "3/2",
+      "Ir": "1/2",
+      "It": "3/2",
+      "Rsr_Rrt_Rts_coefficient": "-sqrt(14)/80"
+    },
+    {
+      "I": "3/2",
+      "Ir": "1/2",
+      "It": "5/2",
+      "Rsr_Rrt_Rts_coefficient": "-1/40"
+    },
+    {
+      "I": "3/2",
+      "Ir": "3/2",
+      "It": "1/2",
+      "Rsr_Rrt_Rts_coefficient": "-sqrt(14)/80"
+    },
+    {
+      "I": "3/2",
+      "Ir": "3/2",
+      "It": "3/2",
+      "Rsr_Rrt_Rts_coefficient": "0"
+    },
+    {
+      "I": "3/2",
+      "Ir": "3/2",
+      "It": "5/2",
+      "Rsr_Rrt_Rts_coefficient": "sqrt(14)/112"
+    },
+    {
+      "I": "3/2",
+      "Ir": "3/2",
+      "It": "7/2",
+      "Rsr_Rrt_Rts_coefficient": "sqrt(14)/280"
+    },
+    {
+      "I": "3/2",
+      "Ir": "5/2",
+      "It": "1/2",
+      "Rsr_Rrt_Rts_coefficient": "-1/40"
+    },
+    {
+      "I": "3/2",
+      "Ir": "5/2",
+      "It": "3/2",
+      "Rsr_Rrt_Rts_coefficient": "sqrt(14)/112"
+    },
+    {
+      "I": "3/2",
+      "Ir": "5/2",
+      "It": "5/2",
+      "Rsr_Rrt_Rts_coefficient": "-sqrt(6)/168"
+    },
+    {
+      "I": "3/2",
+      "Ir": "5/2",
+      "It": "7/2",
+      "Rsr_Rrt_Rts_coefficient": "-3*sqrt(6)/280"
+    },
+    {
+      "I": "3/2",
+      "Ir": "7/2",
+      "It": "3/2",
+      "Rsr_Rrt_Rts_coefficient": "sqrt(14)/280"
+    },
+    {
+      "I": "3/2",
+      "Ir": "7/2",
+      "It": "5/2",
+      "Rsr_Rrt_Rts_coefficient": "-3*sqrt(6)/280"
+    },
+    {
+      "I": "3/2",
+      "Ir": "7/2",
+      "It": "7/2",
+      "Rsr_Rrt_Rts_coefficient": "sqrt(3)/56"
+    },
+    {
+      "I": "2",
+      "Ir": "0",
+      "It": "2",
+      "Rsr_Rrt_Rts_coefficient": "1/25"
+    },
+    {
+      "I": "2",
+      "Ir": "1",
+      "It": "1",
+      "Rsr_Rrt_Rts_coefficient": "sqrt(21)/150"
+    },
+    {
+      "I": "2",
+      "Ir": "1",
+      "It": "2",
+      "Rsr_Rrt_Rts_coefficient": "-1/50"
+    },
+    {
+      "I": "2",
+      "Ir": "1",
+      "It": "3",
+      "Rsr_Rrt_Rts_coefficient": "-sqrt(14)/175"
+    },
+    {
+      "I": "2",
+      "Ir": "2",
+      "It": "0",
+      "Rsr_Rrt_Rts_coefficient": "1/25"
+    },
+    {
+      "I": "2",
+      "Ir": "2",
+      "It": "1",
+      "Rsr_Rrt_Rts_coefficient": "-1/50"
+    },
+    {
+      "I": "2",
+      "Ir": "2",
+      "It": "2",
+      "Rsr_Rrt_Rts_coefficient": "-3/350"
+    },
+    {
+      "I": "2",
+      "Ir": "2",
+      "It": "3",
+      "Rsr_Rrt_Rts_coefficient": "4/175"
+    },
+    {
+      "I": "2",
+      "Ir": "2",
+      "It": "4",
+      "Rsr_Rrt_Rts_coefficient": "2/175"
+    },
+    {
+      "I": "2",
+      "Ir": "3",
+      "It": "1",
+      "Rsr_Rrt_Rts_coefficient": "-sqrt(14)/175"
+    },
+    {
+      "I": "2",
+      "Ir": "3",
+      "It": "2",
+      "Rsr_Rrt_Rts_coefficient": "4/175"
+    },
+    {
+      "I": "2",
+      "Ir": "3",
+      "It": "3",
+      "Rsr_Rrt_Rts_coefficient": "-sqrt(6)/350"
+    },
+    {
+      "I": "2",
+      "Ir": "3",
+      "It": "4",
+      "Rsr_Rrt_Rts_coefficient": "-sqrt(2)/70"
+    },
+    {
+      "I": "2",
+      "Ir": "4",
+      "It": "2",
+      "Rsr_Rrt_Rts_coefficient": "2/175"
+    },
+    {
+      "I": "2",
+      "Ir": "4",
+      "It": "3",
+      "Rsr_Rrt_Rts_coefficient": "-sqrt(2)/70"
+    },
+    {
+      "I": "2",
+      "Ir": "4",
+      "It": "4",
+      "Rsr_Rrt_Rts_coefficient": "sqrt(22)/210"
+    },
+    {
+      "I": "5/2",
+      "Ir": "1/2",
+      "It": "3/2",
+      "Rsr_Rrt_Rts_coefficient": "-1/60"
+    },
+    {
+      "I": "5/2",
+      "Ir": "1/2",
+      "It": "5/2",
+      "Rsr_Rrt_Rts_coefficient": "sqrt(6)/90"
+    },
+    {
+      "I": "5/2",
+      "Ir": "3/2",
+      "It": "1/2",
+      "Rsr_Rrt_Rts_coefficient": "-1/60"
+    },
+    {
+      "I": "5/2",
+      "Ir": "3/2",
+      "It": "3/2",
+      "Rsr_Rrt_Rts_coefficient": "sqrt(14)/168"
+    },
+    {
+      "I": "5/2",
+      "Ir": "3/2",
+      "It": "5/2",
+      "Rsr_Rrt_Rts_coefficient": "-sqrt(6)/252"
+    },
+    {
+      "I": "5/2",
+      "Ir": "3/2",
+      "It": "7/2",
+      "Rsr_Rrt_Rts_coefficient": "-sqrt(6)/140"
+    },
+    {
+      "I": "5/2",
+      "Ir": "5/2",
+      "It": "1/2",
+      "Rsr_Rrt_Rts_coefficient": "sqrt(6)/90"
+    },
+    {
+      "I": "5/2",
+      "Ir": "5/2",
+      "It": "3/2",
+      "Rsr_Rrt_Rts_coefficient": "-sqrt(6)/252"
+    },
+    {
+      "I": "5/2",
+      "Ir": "5/2",
+      "It": "5/2",
+      "Rsr_Rrt_Rts_coefficient": "-sqrt(6)/252"
+    },
+    {
+      "I": "5/2",
+      "Ir": "5/2",
+      "It": "7/2",
+      "Rsr_Rrt_Rts_coefficient": "17*sqrt(6)/2520"
+    },
+    {
+      "I": "5/2",
+      "Ir": "5/2",
+      "It": "9/2",
+      "Rsr_Rrt_Rts_coefficient": "sqrt(6)/252"
+    },
+    {
+      "I": "5/2",
+      "Ir": "7/2",
+      "It": "3/2",
+      "Rsr_Rrt_Rts_coefficient": "-sqrt(6)/140"
+    },
+    {
+      "I": "5/2",
+      "Ir": "7/2",
+      "It": "5/2",
+      "Rsr_Rrt_Rts_coefficient": "17*sqrt(6)/2520"
+    },
+    {
+      "I": "5/2",
+      "Ir": "7/2",
+      "It": "7/2",
+      "Rsr_Rrt_Rts_coefficient": "-sqrt(3)/504"
+    },
+    {
+      "I": "5/2",
+      "Ir": "7/2",
+      "It": "9/2",
+      "Rsr_Rrt_Rts_coefficient": "-sqrt(66)/504"
+    },
+    {
+      "I": "5/2",
+      "Ir": "9/2",
+      "It": "5/2",
+      "Rsr_Rrt_Rts_coefficient": "sqrt(6)/252"
+    },
+    {
+      "I": "5/2",
+      "Ir": "9/2",
+      "It": "7/2",
+      "Rsr_Rrt_Rts_coefficient": "-sqrt(66)/504"
+    },
+    {
+      "I": "5/2",
+      "Ir": "9/2",
+      "It": "9/2",
+      "Rsr_Rrt_Rts_coefficient": "sqrt(462)/1260"
+    }
+  ],
+  "quadratic_channel_count": 20,
+  "cubic_channel_count": 61,
+  "I0_cubic_coefficient": "1/5",
+  "I0_frozen_draft_coefficient": "sqrt(5)/25",
+  "I1_Ir1_positive_coefficient": "sqrt(5)/15",
+  "positive_two_point_coordinate_model": {
+    "Q": [
+      1,
+      2
+    ],
+    "probabilities": [
+      "1/2",
+      "1/2"
+    ],
+    "gamma_degrees": [
+      0,
+      0
+    ],
+    "q2": "5/2",
+    "q3": "9/2",
+    "moment_ratio": "9*sqrt(10)/25",
+    "actual_cos3gamma_variance": "0",
+    "linearized_variance": "121/6250"
+  },
+  "boundary": "Exact finite angular-channel and declared coordinate-model checks, not real nuclear data"
+}

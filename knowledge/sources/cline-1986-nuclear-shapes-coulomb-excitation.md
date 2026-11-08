@@ -4,7 +4,7 @@ title: "Cline1986：多步库仑激发、形状不变量与有限求和边界"
 title_original: "Nuclear Shapes Studied by Coulomb Excitation"
 aliases: [Cline 1986 nuclear shapes, Cline rotational invariants]
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-11-08
 status: ai-draft
 review_status: unreviewed
 source_type: method-and-experimental-review
@@ -20,8 +20,9 @@ canonical_source: "https://doi.org/10.1146/annurev.ns.36.120186.003343"
 source_url: "https://www.pas.rochester.edu/~cline/Publications/annurev.ns.36.120186.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf"
 raw_sha256: "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113"
-raw_storage_status: reserved-unpopulated-public-author-copy-staging-only
-raw_archive_verified_at: 2026-10-23
+raw_storage_status: archived-local
+raw_archive_verified_at: 2026-11-08
+archive_required: true
 public_staging_file: "tmp/day20-cline148/PDFs/Nuclear_Shapes_Studied_by_Coulomb_Excitation.pdf"
 analysis_status: original-review-mainline-and-key-evidence-read-raw-archive-verified
 source_independence: method-review-and-secondary-reports-not-new-independent-experiments
@@ -41,6 +42,15 @@ Douglas Cline，Annual Review of Nuclear and Particle Science36，683–716(1986
 出版商PDF403、公开APS/Kumar入口403/401及OA查询失败均留在run的access记录。沿Rochester作者主页→Publications→1985–89的真实链接取得1930372bytes、35页PDF；前34页为683–716正文/参考，末页只有水印。文件有copyright与personal-use水印；公开作者副本可访问不等于开放再分发许可。只在tmp staging，raw归档deferred；不把PDF、Bib或PLAN带入Git。Kumar1972仍未获正文，本文Ref26不是代读。
 
 ## Scope and Reading Depth
+
+2026-11-08写作核验：下方“仅tmp、raw deferred”保留早期获取状态，
+当前frontmatter的raw原件已存在且SHA匹配，有界归档门核验通过。
+T08回PDF16–18/印刷698–700，总控结合已核原页检查写作表述，
+不增加对整篇或引用实验的新通读声明。
+印刷700的90–95%（强形变）及超过70%为作者模型语境下的有条件概括，
+不能写成所有核/初态/高阶不变量的统一70–95%饱和或误差保证。
+新稿6j展开另按声明WE约定重推与CG控制，不从OCR不清片段猜因子。
+详见[[a130-rewrite-invariant-recoupling-and-width-boundaries-20261108]]。
 
 checkpoint148的primed recall在lookup前冻结，已受HE20/PO20/AY23与147账本启发，非盲测。本session实际阅读PDF1–34全部主线/结论/参考，检查PDF35为水印页；视觉核全部Fig1–13及第695、698–700页关键误差/耦合公式，Fig4分母另放大。没有数值digitize全图、读完94项被引原文、运行原GOSIA或恢复任一实验的原产额/jointCov。
 

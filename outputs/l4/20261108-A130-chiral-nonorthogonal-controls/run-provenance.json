@@ -1,0 +1,34 @@
+{
+  "recorded_at": "2026-11-08T00:44:29.252074+00:00",
+  "producer": "system/scripts/a130_rewrite_chiral_nonorthogonal_audit.py",
+  "producer_sha256": "8026474ead1533e2c5309d8f9d8f54962eecc9bba6e1c8780050895e6f3e5ce5",
+  "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "context_inputs": [
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G64-v1/section-3-5.md",
+      "sha256": "d8456e402d8993bb0bb3742ae1f0eb900e34f8fa1637b662fa35934726523afc"
+    },
+    {
+      "path": "raw/papers/1997_Frauendorf et al_Tilted rotation of triaxial nuclei.pdf",
+      "sha256": "9dc81b3147a786189dd0c2f31d79a56e9bb5d83e16fd0c8137bccaf2a43d81e2"
+    },
+    {
+      "path": "raw/papers/2001_Frauendorf_Spontaneous symmetry breaking in rotating nuclei.pdf",
+      "sha256": "d43c7290cf5899ebc9b94324af5e95eb40e488bacf1c70c89e0b3bd61d916172"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "outputs/l4/20261108-A130-chiral-nonorthogonal-controls/controls.json",
+      "sha256": "36be9fa547dcd34422f6d1d2b473020c0d4ceb5aad8088f43023d7402a50ffd3"
+    }
+  ],
+  "check_count": 11,
+  "four_pencil_tolerances": {
+    "rtol": 1e-10,
+    "atol": 1e-11
+  },
+  "real_nucleus_calculation": false
+}

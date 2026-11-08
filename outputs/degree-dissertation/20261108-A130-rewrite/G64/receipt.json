@@ -1,0 +1,123 @@
+{
+  "task_id": "WRITE-G64",
+  "version": "v3",
+  "timestamp": "2026-11-08T01:06:03Z",
+  "status": "completed",
+  "section_id": "3.5",
+  "section_title": "手征几何、隧穿与有限核态",
+  "files_written": [
+    {
+      "path": "raw/writing/gpt/A130/research-draft/section-3-5.md",
+      "sha256": "d7e4184f81f71784904dd0b25c39e22266eb980288da15970ce6976ff139a3ce",
+      "size_bytes": 22037,
+      "chinese_characters": 4803
+    },
+    {
+      "path": "raw/writing/gpt/A130/evidence-ledger/section-3-5.json",
+      "sha256": "7f5939ff9c035bb055f3cc290322dbba685e925e9427d49f02daccc7b61593f9",
+      "size_bytes": 18801
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/G64/receipt.json",
+      "role": "task_completion_receipt"
+    }
+  ],
+  "verified_sources_and_actual_reading": [
+    {
+      "source_id": "liu-chen-2016-78br-chirality-reflection-symmetry-thesis",
+      "raw_file": "raw/theses/degree-dissertation/刘晨_奇奇核~(78)Br中手征...间反射对称性的联立自发破缺.pdf",
+      "raw_sha256": "5e00370aab205b689841cb58d65c7fad8829e3de74f084736a74f2d8658ab291",
+      "actual_read_pages": "PDF pp. 13–18; PDF pp. 80–82, 90 (八极软性与展望边界检查)"
+    },
+    {
+      "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+      "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "raw_sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "actual_read_pages": "printed pp. 190–193 (PDF pp. 212–215, Section 4-5e States with Large I)"
+    },
+    {
+      "source_id": "frauendorf-meng-1997-tilted-rotation-chirality",
+      "raw_file": "raw/papers/1997_Frauendorf et al_Tilted rotation of triaxial nuclei.pdf",
+      "raw_sha256": "9dc81b3147a786189dd0c2f31d79a56e9bb5d83e16fd0c8137bccaf2a43d81e2",
+      "actual_read_pages": "NPA 617 (1997) pp. 131–147, 重点读 PDF pp. 8–12 (平面/非平面解、Fig.5–6 及 PRM 劈裂)"
+    },
+    {
+      "source_id": "frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei",
+      "raw_file": "raw/papers/2001_Frauendorf_Spontaneous symmetry breaking in rotating nuclei.pdf",
+      "raw_sha256": "d43c7290cf5899ebc9b94324af5e95eb40e488bacf1c70c89e0b3bd61d916172",
+      "actual_read_pages": "Rev. Mod. Phys. 73 (2001) pp. 463–514, 定向核读 printed pp. 484–486 (PDF pp. 22–24, Section IV.D Rotating chiral shapes), 以及 pp. 34, 42"
+    },
+    {
+      "source_id": "starosta-2001-n75-chiral-vibrations",
+      "raw_file": "raw/papers/2001_Starosta et al_Chiral Doublet Structures in Odd-Odd N = 75 Isotones Chiral Vibrations.pdf",
+      "raw_sha256": "9082c1e8ced3fbfeb2248f5b18c1b646f4dc1adc77af5c27c6a988855583cbf4",
+      "actual_read_pages": "PRL 86 (2001) pp. 971–974, 重点读 PDF pp. 1–4"
+    },
+    {
+      "source_id": "petrache-2006-near-degenerate-chiral-misinterpretation",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+      "raw_sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f",
+      "actual_read_pages": "PRL 96 (2006) 112502, PDF pp. 1–4, 重点读 PDF pp. 1–3"
+    },
+    {
+      "source_id": "koike-2004-chiral-bands-selection-rules",
+      "raw_file": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/koike-2004-selection-rules.pdf",
+      "raw_sha256": "f39816a5d2f3f3ec45098fc636371ee3e8e4dc721b0ced33e7c87b453b7f155e",
+      "actual_read_pages": "PRL 93 (2004) 172502, PDF pp. 1–4, 重点读 PDF pp. 2–3 (线性算符 A 对称性与选择定则)"
+    },
+    {
+      "source_id": "rohozinski-2011-cphc-s-symmetry-chirality",
+      "raw_file": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/rohozinski-2011-cphc-s-symmetry.pdf",
+      "raw_sha256": "94b2b3bc89c1d942f07f7c512c5aecc38c3cc08bbf48dac507ad373ace64b8c9",
+      "actual_read_pages": "Eur. Phys. J. A 47 (2011) 90, PDF pp. 1–15, 重点读 PDF pp. 1–2, 5, 7–9, 13–14 (CPHC 模型软核对称性分析)"
+    },
+    {
+      "source_id": "meng-2010-open-problems-nuclear-chirality",
+      "raw_file": "raw/papers/2010_Meng et al_Open problems in understanding the nuclear chirality.pdf",
+      "raw_sha256": "bc78014db4585e07b81b70192a054d2b7323584a9cc2b5552c2153175db4c5c2",
+      "actual_read_pages": "J. Phys. G 37 (2010) 064025, PDF pp. 6–7 (Section 3.1 Eq.(3.1) S(I) 精确公式来源)"
+    },
+    {
+      "source_id": "ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf",
+      "raw_sha256": "3c5a3d7c543140ee25f7cb09376d5aeee760c8ac50c76edd466a010d610c2d0f",
+      "actual_read_pages": "PRL 110 (2013) 172504 (5页期刊 reprint), PDF pp. 3–5, 重点读 PDF p. 3 Fig.2/caption 及寿命讨论"
+    }
+  ],
+  "notation_and_contract_rules_applied": [
+    "总角动量量子数I无量纲；角动量算符\\hat{\\mathbf{J}}具\\hbar量纲，无量纲算符\\hat{\\mathbf{j}} = \\hat{\\mathbf{J}}/\\hbar",
+    "开头限定先讨论反射对称的纯四极三轴参考形状；强相互作用与电磁相互作用T守恒作为低能核物理近似框架，不宣称自然界严格无T破坏",
+    "中间轴惯量最大源于流体力学四极惯量模型，明确区别于绕最短轴惯量最大的均匀刚体椭球；Bohr-Mottelson专著定理指出最大惯量轴能量极小，不预先规定其必为几何中间轴m",
+    "删除高j壳底必低Omega/密度必长椭等普适宣称，指出三轴势场下Omega非好量子数；保留特定单j四极粒子-转子模型对角化所得的s/l顺排偏好",
+    "角动量三分量非零仅为倾斜转动运动学特征，非自发手征破缺充分条件；标量三重积期望非零仅适用于内禀破缺参考态，C对称精确实验室态的C奇厄米三重积期望为零",
+    "C = T Ry(pi) 在 y=m 时对角动量分量的显式作用为 (Js, Jm, Jl) -> (Js, -Jm, Jl)，即反转沿声明轴分量而保持垂直面分量，不普遍恢复总J原方向；明确声明轴与瞬时转轴不同",
+    "手征算符 C^2 = +1 严格对整数与半整数自旋恒成立；Kramers定理要求反幺正算符平方为-1，因C^2=+1故不能用于手征算符强迫双带简并；T^2=-1在半整数核中保护同一自旋多重态磁子能级简并，不强迫两条不同同I转动带简并",
+    "C|\\psi> = \\lambda |\\psi> 在定相变换 |\\psi'> = e^(i\\phi)|\\psi> 下按 \\lambda' = e^(-2i\\phi)\\lambda 变换，相位不具规范不变性，不能充当空间反演宇称式物理可观测量；严禁使用 (1 \\pm C)/2 作为复空间线性投影算符",
+    "旋称（signature）是严格条件对称性，仅在推转哈密顿量保留绕该轴pi转动时守恒；三维转动中该对称性自发破缺，不可为所有TAC/手征伴带强行赋统一signature标签",
+    "非正交两态模型明确设定实对称矩阵近似（S, k实且|S|<1），指出 Im(kS*)=0 为同时实化充要条件，非C反幺正单独保证；非负物理能隙取绝对值 \\Delta E = 2|hS - k|/(1 - S^2)；物理算符平移\\hat{H} -> \\hat{H} + c\\hat{1}对应非正交基下矩阵H -> H + cN，保持hS - k严格不变",
+    "严格区分基矢非正交性（具标准对偶基与线性投影，需广义久期方程）与(1 \\pm C)/2失效原因（算符反线性），纠正混淆陈述",
+    "删除势垒必随I单调上升、高自旋必回平面等普适断言，阐明态演化依赖势能面刚度与科里奥利相互作用的模型竞争",
+    "S(I) = [E(I) - E(I-1)]/(2I) 具能量量纲（keV/MeV），代数公式明确归引于 Meng 2010 PDF p.6 §3.1 Eq.(3.1)；Ayangeakaa 2013 与 Liu 2016 仅认证绘制相应曲线，提醒旋称裂距等主题有不同二阶差分定义",
+    "Rohoziński 2011 CPHC模型客观表述为软核动力学耦合可再现双带与M1交错，未先假定静态非共面几何，亦未证明瞬时非共面几何不存在，且全文未称此机制为非绝热（删除非绝热归属）；软核手征模式竞争不应等同于简单的非手征竞争",
+    "Koike 2004 明确指出A算符选择定则即使未完全实现手征几何仍在模型中成立，其质中交换算符C_pn为线性算符，不可等同于本节反幺正手征算符C",
+    "不把绝对寿命tau与三维微观模型设为唯一硬线判据，阐明多观测量在具体比较中的鉴别力及模型拟合/留出边界；明确DCO为方向角关联，其解混合比存在双根多解性，引申至第5章联合分析",
+    "正文去除大量加粗与自评断言，去除末尾问答自查（转入ledger JSON），以自然连贯段落结尾并衔接第3.6节（比较不同平衡轴局部取向模、摆动声子与进动）与第3.7节（八极与手征联立自发破缺附加条件）"
+  ],
+  "reader_checks_recorded": [
+    "为什么在宏观物体中手征性是一个静态几何属性，而在原子核中必须通过转动运动才能体现？",
+    "为什么无论总自旋I是整数还是半整数均有C^2 = +1？这为何排除了克喇默斯定理的直接适用？",
+    "为什么在复希尔伯特空间中严禁将(1 \\pm C)/2当作空间宇称式线性投影算符？",
+    "在非正交两态模型中，为什么反幺正手征对称性不能单独保证重叠S与耦合元k同时为实数？",
+    "如果实验上观测到两条能量近简并且自旋宇称相同的能带，为什么不能直接宣称为手征双重带？"
+  ],
+  "review_boundary": "本回执与 V3 稿件已依据总控与 Terra T09 独立数学及原件审计报告全面修正代数条件、引文底本、页码与模型边界；初稿与台账保持自审与任务代数定位，不自称自动通过，等待总控独立核验。",
+  "prohibitions_strictly_obeyed": [
+    "No deletion or movement of directories",
+    "No reading or reuse of old archived drafts",
+    "No modification of unauthorized files",
+    "No git commands executed",
+    "No sub-agents dispatched",
+    "No credential inspection",
+    "No downloading of new external files"
+  ]
+}
