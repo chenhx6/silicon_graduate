@@ -1,0 +1,9 @@
+{
+  "archive": "raw/writing/gpt/A130/review-inputs-20261113.tar.gz",
+  "sha256": "f1074dbcc57b06fcb61628e285eff51bc13950256fe73d33f064569611d00d45",
+  "files": 63,
+  "verification": "Every file member compared by SHA-256 to untouched local original.",
+  "restore": "Extract this archive at repository root to restore the archived paths. Extraction is a separate explicit action; do not overwrite newer files.",
+  "reason": "Byte-preserving archival packaging; original source whitespace retained inside bundle instead of editing evidence to pass diff checks.",
+  "created_at": "2026-11-13T03:42:49.588033+00:00"
+}

@@ -1,0 +1,200 @@
+{
+  "section_id": "2.4",
+  "title": "形状坐标、测度与集体量子化",
+  "version": "latex-v1.0",
+  "recorded_at": "2026-11-13T01:37:21.951360+00:00",
+  "worker": "G78",
+  "input_draft": {
+    "path": "raw/writing/gpt/A130/research-draft/section-2-4.md",
+    "sha256": "71f0a01d06cbed00317516bc59d1f4cc3f378041854b486e491b07d38c8b1d44"
+  },
+  "latex_output": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-4.tex",
+    "sha256": "7da9f4be6a5993defb52052ea928dcddbebb02822c3bae2cf672da38fbf9d9ef"
+  },
+  "migration_type": "faithful_latex_migration_with_targeted_fixes",
+  "targeted_fixes": [
+    "平直几何测度与微观动力学质量行列式严格分离：区分 \\beta^4 |\\sin 3\\gamma| 坐标微分因子与坐标依赖质量张量行列式 \\sqrt{\\det B(\\beta, \\gamma)}",
+    "一般概率权重与常 B 量子化方案解耦：指明微观/唯象集体哈密顿量中标量权重函数 W(\\beta, \\gamma) 可独立指定，不能无证明套用常 B 测度",
+    "澄清 \\langle\\gamma\\rangle \\approx 30^\\circ 几何来源：指明各向同性平坦势基态下该平均值完全源于 \\sin 3\\gamma 测度极大，不意味着存在三轴极小势阱或三轴刚性转子极限",
+    "澄清 \\kappa=18 模型性质：指明为有限曲率极小（中等三轴束缚），宽度 \\sigma_\\gamma 仅轻度收缩至 0.2054 rad，非深刚性转子极限",
+    "末尾逆问题推断边界精确化：明确仅凭实验静态四极矩不能唯一确定绝对势阱深度与惯量大小（但不推出在引入能谱或微观动力学能标后所有相对刚性均不可判）",
+    "表 2 数值保持：逐行保持父核验的 CSV 数值（\\kappa=0: 0.3333333333, 0.2279; \\kappa=18: 0.2799730035, 0.2054）",
+    "添加条件图接口：\\IfFileExists{Img/gamma-measure.pdf}{...}{}，用于展示平坦势下 x 与 \\gamma 变量的测度表象差异"
+  ],
+  "new_claims": [],
+  "sources": [
+    {
+      "source_id": "bohr-1952-surface-particle-coupling",
+      "source_page": "knowledge/sources/bohr-1952-surface-particle-coupling.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-1952-mfm26-14.pdf",
+      "version": "1952机构扫描本，40个PDF物理页",
+      "actual_read_pages": [
+        {
+          "pdf": "9–13",
+          "printed": "9–13",
+          "locator": "Eqs. (10)–(13), (18)–(27)"
+        },
+        {
+          "pdf": "19–21",
+          "printed": "19–21",
+          "locator": "Eqs. (56)–(66)；主轴变换、角向正规解"
+        }
+      ],
+      "reading_method": "V2逐页回读本地原件layout文字；不把OCR单符号当勘误。",
+      "raw_sha256": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d"
+    },
+    {
+      "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+      "source_page": "knowledge/sources/prochniak-rohozinski-2009-bohr-collective-hamiltonian.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/prochniak-rohozinski-2009-v1.pdf",
+      "version": "arXiv:0911.0366v1，53个PDF物理页",
+      "collection_manifest": "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/manifest.json",
+      "actual_read_pages": [
+        {
+          "pdf": "4–6",
+          "locator": "Eqs. (2.1), (2.3)–(2.11), Fig. 1, Table 1"
+        },
+        {
+          "pdf": "12–16",
+          "locator": "Eq. (2.37), Eqs. (3.1)–(3.15)"
+        }
+      ],
+      "reading_method": "V2逐页回读layout文字，并实际检查PDF14、15、16的渲染页图。",
+      "notation_crosswalk": {
+        "intrinsic_a2": "综述的实坐标a2=βsinγ；本节球分量a_{+2}=a_{-2}=βsinγ/√2。二者相差√2，非物理差异。",
+        "G": "原式(3.2)–(3.3)的G为实验室张量表示的质量行列式；(3.12)写为Bx By Bz G_vib。它不含内禀坐标变换Jacobian，不能冒称完整五维q坐标度规行列式。",
+        "W": "(3.13)–(3.15)的标量内积权重可与二阶系数张量A独立指定；(3.2)的PP构造在(3.15)后被明确列为W=√G且A为质量张量逆的特例。"
+      },
+      "raw_sha256": "4d7e6d3942230023061efd0032b3d1f9231e5d6f230219329ef984c458bb689b",
+      "collection_manifest_sha256": "9afdb6573cb302fb18ae0eb3914d0c51afbbbdf5b9984f0400bf784e40b5ca63"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "text": "四极集体坐标参数化参考构型；强四极关联不推出精确I=0实验室一体密度非球。",
+      "kind": "既有理论结论与本节模型边界",
+      "source_id": null,
+      "locator": "正文开头；1.2.1–1.2.2为已整合的先修推理。",
+      "conditions": "旋转对称孤立体系、确定I=0态；不将参考构型密度与实验室期望密度混同。"
+    },
+    {
+      "id": "C02",
+      "text": "满足实条件的球分量可取五个等距实坐标；非零磁分量的实部和虚部各乘√2后，实坐标平方和等于球张量范数。",
+      "kind": "坐标定义及本任务范数推导",
+      "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+      "locator": "PDF4 Eqs. (2.1), (2.3)–(2.5)；正文2.4.1。",
+      "conditions": "无量纲实四极张量；五个坐标不是精确核态密度的五个非零期望值。"
+    },
+    {
+      "id": "C03",
+      "text": "主轴/形状参数化有24重右手重标记；固定一般三轴构型的稳定子是D2，计入反演得到D2h；轴对称和β=0处的连续退化须另辨。",
+      "kind": "原作几何结果及群计数解释",
+      "source_id": "bohr-1952-surface-particle-coupling",
+      "locator": "PDF/印刷10,19–21，Eqs. (56)–(65)；综述PDF5–6 Fig.1/Table1。",
+      "conditions": "实对称无迹四极张量；选0≤γ≤π/3是本文扇区约定；中点不是普遍最大三轴度定义。"
+    },
+    {
+      "id": "C04",
+      "text": "常B欧氏动能变到主轴坐标后无形状—取向速度交叉项，但β²dotγ²和形状相关惯量仍有动力学耦合。",
+      "kind": "原作模型结果与本任务条件解释",
+      "source_id": "bohr-1952-surface-particle-coupling",
+      "locator": "PDF/印刷12–13，Eqs. (18)–(27)；正文2.4.2。",
+      "conditions": "常正B、五维四极欧氏空间；无旋流表面模型的惯量形式不自动成为实核惯量。"
+    },
+    {
+      "id": "C05",
+      "text": "常B模型的LB算符由既定Cartesian Laplacian变换而来；曲线坐标不产生原平直空间的内禀曲率。",
+      "kind": "本任务坐标变换推导",
+      "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+      "locator": "PDF5 Eq. (2.9)，PDF13–16 Eqs. (3.1)–(3.15)；正文2.4.3取常B。",
+      "conditions": "h为不含B的几何度规；仅在规则坐标图内使用其逆；端点由定义域处理。"
+    },
+    {
+      "id": "C06",
+      "text": "六个经典惯性函数不等于独立的标量内积权重；PP量子化联系质量和权重，更广量子二阶算符允许系数张量A与W独立指定。",
+      "kind": "原文理论结构",
+      "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+      "locator": "PDF12 Eq. (2.37)，PDF14 Eqs. (3.5)–(3.8)，PDF15–16 Eqs. (3.13)–(3.15)及其后段。",
+      "conditions": "采用文中所列旋转、时间反演及正定性等假定；不从经典动能宣称全部量子势和排序唯一。"
+    },
+    {
+      "id": "C07",
+      "text": "坐标端点不自动成为硬壁；自伴性需定义域与边界形式，在I=0平坦角向正则分支上Legendre解可以端点非零。",
+      "kind": "原作正规解与本任务定义域说明",
+      "source_id": "bohr-1952-surface-particle-coupling",
+      "locator": "PDF/印刷21 Eq. (66)；正文2.4.4。",
+      "conditions": "标准正则分支；零通量本身不足以选出唯一自伴域；不能将标量分支条件强加全部旋转分量。"
+    },
+    {
+      "id": "C08",
+      "text": "受约束固定β、I=0平坦角向模型的基态关于x=cos3γ均匀，在dγ下密度为(3/2)sin3γ；均值π/6不需要中心势阱。",
+      "kind": "既有教学模型及解析控制",
+      "source_id": null,
+      "locator": "T03 producer solve函数；正文2.4.5的角向算符与归一积分。",
+      "conditions": "固定β0>0角向流形、常角向质量、标准正则定义域；不把径向δ函数当完整五维归一态；无γ势不表示γ平移对称。"
+    },
+    {
+      "id": "C09",
+      "text": "q3/q2^(3/2)只在本例固定正Q的附加电荷映射下化为〈cos3γ〉；一般需保留β幂次权重。",
+      "kind": "模型假设与任务条件推导",
+      "source_id": null,
+      "locator": "正文2.4.5；1.2.3–1.2.4既有标量定义；R1/T03第1段坐标假定。",
+      "conditions": "可交换坐标算符M(E2,μ)=sα2μ，s>0；实有效角要求q2>0且|q3/q2^(3/2)|≤1。"
+    },
+    {
+      "id": "C10",
+      "text": "κ=0与18模型中心角宽分别约0.2279和0.2054 rad，后者仅有有限曲率中心极小；二者由x反射对称性有相同〈x〉=0。",
+      "kind": "既有任务模型计算",
+      "source_id": null,
+      "locator": "results.csv的数据行选择器见model_provenance.adopted_rows；正文唯一数表。",
+      "conditions": "I=0、Q=1、自定义能量单位、所列基维数和积分点；不是实验数据、不是实核刚性判据或深阱阈值。"
+    },
+    {
+      "id": "C11",
+      "text": "固定定义域及电四极算符时，H整体乘正数保持本征函数与全部静态矩，可同时改变质量、势尺度和谱间隔；有限矩不重建完整分布。",
+      "kind": "既有任务解析反例及producer重放",
+      "source_id": null,
+      "locator": "R1/T03第4段；producer solve(scale=...)；正文2.4.5。",
+      "conditions": "Mγ→Mγ/c、v→cv，c>0；波函数仍由同一H族决定，不主张静态与动力学互不相关。"
+    },
+    {
+      "id": "C12",
+      "text": "纯四极偶偶标量空间的D2对称化限制偶K基底，但三轴动力学可混合K；奇核全波函数需包含额外自由度后重新构造。",
+      "kind": "原作对称条件及适用范围",
+      "source_id": "bohr-1952-surface-particle-coupling",
+      "locator": "PDF/印刷19–21 Eqs. (56)–(65)；正文2.4.4。",
+      "conditions": "K是所选轴上的Wigner展开标签，不作为三轴全局好量子数。"
+    }
+  ],
+  "competing_explanations": [
+    {
+      "topic": "中心角与刚性",
+      "boundary": "受约束角向模型的平坦势与有限曲率对称势都可给〈γ〉=π/6及固定Q下的γ_eff=π/6；κ=18不是刚性或深势阱的标签。"
+    },
+    {
+      "topic": "静态分布与动力学",
+      "boundary": "波函数由同一Hamiltonian决定；整体正缩放保持本征函数却改变谱，说明逆推绝对惯量和势能尺度不唯一，不表示静态与动力学互不相关。"
+    },
+    {
+      "topic": "边界与定义域",
+      "boundary": "端点坐标退化并非物理硬壁；正则性、主轴重标记和作用域共同约束算符。只给有限流或零流不能独自证明唯一自伴延拓。"
+    }
+  ],
+  "unresolved": [
+    {
+      "topic": "广义动能的完整坐标代数",
+      "scope": "正文只区分六惯性函数、质量来源的PP权重及可独立指定权重的量子模型；完整一般算符和定义域构造留附录C，本轮未新推导。"
+    },
+    {
+      "topic": "真实核的动力学和观测映射",
+      "scope": "未进行真实核拟合或微观惯量计算；电荷与质量坐标映射、留出观测及竞争模型需逐核处理，分别衔接2.6和3.6。"
+    }
+  ],
+  "fidelity_verification": {
+    "display_equations_count": 19,
+    "math_fidelity": "100% display equations identical, inline math enriched with explicit metric/weight distinctions"
+  },
+  "target_sha256": "7da9f4be6a5993defb52052ea928dcddbebb02822c3bae2cf672da38fbf9d9ef"
+}

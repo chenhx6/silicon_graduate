@@ -1,0 +1,29 @@
+[
+  {
+    "agent_id": "01a1d2f0-bb5c-7a81-a39c-b1f41b3dc09a",
+    "contexts": [
+      {
+        "model": "antigravity/gemini-3.8-flash-tiered",
+        "effort": "high"
+      }
+    ]
+  },
+  {
+    "agent_id": "01a1d2f1-040b-7521-bb9a-44881cd9a381",
+    "contexts": [
+      {
+        "model": "antigravity/gemini-3.8-flash-tiered",
+        "effort": "high"
+      }
+    ]
+  },
+  {
+    "agent_id": "01a1d2f3-0970-7701-b24a-e761689e0ac5",
+    "contexts": [
+      {
+        "model": "codex/gpt-6.1-terra",
+        "effort": "xhigh"
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "reviewer": "parent-agent",
+  "checked_at": "2026-11-13T02:15:26.851633+00:00",
+  "decision": "accept-narrow-findings-for-G81-repair",
+  "report_sha256": "ca31596a030782807be3e5d257d22644cdbe64097476002705569f46c64120ba",
+  "accepted_findings": [
+    "P right-action index",
+    "single-parity representation class for Euler integral",
+    "ordered energy roots vs state symmetry",
+    "wrong-shift energy variable",
+    "Ritz-subspace scope"
+  ],
+  "already_passed": [
+    "complex discriminant",
+    "S=0 realification branch",
+    "proper cN shift and degenerate subspaces"
+  ],
+  "manuscript_acceptance_pending_application": true,
+  "integration_owner": "G81/Gemini"
+}

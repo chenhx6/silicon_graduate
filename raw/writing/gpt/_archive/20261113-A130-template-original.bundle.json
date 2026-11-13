@@ -1,0 +1,9 @@
+{
+  "archive": "raw/writing/gpt/_archive/20261113-A130-template-original.tar.gz",
+  "sha256": "dcc118ffec2360e292cb4569433ce01df439dc7c80d6c358d5805a3bee55ac73",
+  "files": 80,
+  "verification": "Every file member compared by SHA-256 to untouched local original.",
+  "restore": "Extract this archive at repository root to restore the archived paths. Extraction is a separate explicit action; do not overwrite newer files.",
+  "reason": "Byte-preserving archival packaging; original source whitespace retained inside bundle instead of editing evidence to pass diff checks.",
+  "created_at": "2026-11-13T03:42:47.227944+00:00"
+}

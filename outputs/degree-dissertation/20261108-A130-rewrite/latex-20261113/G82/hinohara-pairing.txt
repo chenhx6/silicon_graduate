@@ -1,0 +1,175 @@
+NOBUO HINOHARA                                                                                                  PHYSICAL REVIEW C 92, 034321 (2015)
+
+   TABLE I. The inertia for the center of mass motion of 26 Mg in units of MeV fm2 . The Thouless-Valatin inertia is computed from the energy
+weighted sum rule of the center-of-mass coordinate operator ( Q̂ c.m. )z with Eq. (55) with a radius RA1 = 2 MeV discretized with NA1 = 12
+points, and from the strength function at zero energy with the center-of-mass momentum operator ( P̂ c.m. )z with Eq. (51). The Inglis-Belyaev
+value of the inertia, the spurious excitation energy of the center of mass mode evaluated with Eq. (60), and the commutation of the coordinate
+and momentum operators are also listed.
+
+Nsh                        1/2m from ( Q̂ c.m. )z         1/2m from ( P̂ c.m. )z         Inglis-Belyaev          c.m. MeV          [( Q̂ c.m. )z ,( P̂ c.m. )z ]/ i
+5                               20.69748                         20.74676                     26.04977             1.346                     0.998836
+10                              20.78073                         20.82140                     25.87571             0.889                     0.999310
+15                              20.73573                         20.73232                     25.73650             0.151                     1.000026
+20                              20.73946                         20.73666                     25.74138             0.146                     1.000041
+exact                           20.73553                         20.73553                                            0                           1
+
+
+   From Eq. (53), we can derive the proton gauge angle                                   ground states of tin isotopes are known to form a neutron
+operator    ˆ p , which is the conjugate coordinate operator of                         pairing rotational band [11,53,54], which has been actively
+the proton pairing rotation. Although we can compute the                                 discussed recently in connection with the two-neutron transfer
+Thouless-Valatin inertia from S(N̂p ,ω = 0), to check the                                reaction [55–58]. The binding energy of the N -neutron
+consistency, The response to the coordinate operator of the                              isotope B(N,Z) from the nearby reference state with neutron
+proton pairing rotation is shown in Fig. 3. In the figure,                               N0 is written as
+the strength function computed from the FAM and Eq. (54)
+                                                                                                                                            (N )2
+with the Thouless-Valatin inertia determined from the proton                              B(N,Z0 ) = B(N0 ,Z0 ) + λn (N0 ,Z0 )N +                      ,
+number operator are compared. Both curves agree very well as                                                                              2Jn (N0 ,Z0 )
+expected. Note that this strength function S(   ˆ p ,ω) looks very                                                                                     (66)
+different from that of the center-of-mass coordinate operator
+S(( Q̂ c.m. )z ,ω) in Fig. 1. In the case of the pairing rotational                      where N = N − N0 , and λn (N0 ,Z0 ) is the neutron chemical
+mode, the symmetry is exact, and the position of the pole                                potential of the reference state. Under the assumption that the
+is exactly at zero energy. The Thouless-Valatin inertia from                             ground states of even-even nuclei form a pairing rotational
+the m1 (  ˆ p ) sum rule through Eq. (55) with RA1 = 1 MeV                              band, the last term can be regarded as the pairing rotational
+is 1.1545 MeV−1 , and is perfectly consistent with the inertia                           energy, and the neutron pairing rotational moment of inertia
+from the momentum operator N̂p .                                                         Jn (N0 ,Z0 ) at a reference state is computed with the FAM from
+                                                                                         the zero-energy response of the neutron particle-number field
+                             VII. REALISTIC EXAMPLES                                                      Jn (N0 ,Z0 ) = −S(N̂n ,ω = 0)                        (67)
+                   A. Pairing rotation in single-closed-shell nuclei                     at a reference state.
+   As for realistic examples of NG modes in nuclei, I                                        Again SLy4 with volume pairing in a Nsh = 20 model
+discuss pairing rotations in single-closed-shell nuclei. The                             space is used. The pairing strength is fixed to V0 =
+                                                                                         −178.81 MeV fm3 which reproduces the experimental av-
+                  30                                                                     eraged neutron pairing gap        (3)
+                                                                                                                             n (
+                                                                                                                                 116
+                                                                                                                                     Sn) = [(3)
+                                                                                                                                             n (
+                                                                                                                                                 115
+                                                                                                                                                     Sn) +
+                                              FAM with Θp operator                       n ( Sn)]/2 = 1.100 MeV [59]. This parameter setting is
+                                                                                           (3) 117
+                                                             -1 -2
+                                                         MTV ω
+                  25                                                                     used for all the calculations in Sec. VII. The neutron pairing
+                                                                                         rotational moment of inertia at the reference state 116 Sn
+S(Θp, ω) (MeV )
+
+
+
+
+                                                                                         (N = 66) that is located in the middle of the N = 50 and
+-1
+
+
+
+
+                  20
+                                                                                         82 shell gaps was calculated. The Thouless-Valatin moment
+                  15                                                                     of inertia for the neutron pairing rotation was Jn,TV = 5.95
+                                                                                         MeV−1 , while the Belyaev inertia was given by Jn,IB = 4.71
+                  10                                                                     MeV−1 , and in this case the residual interaction contributes to
+                                                                                         the inertia about 30%.
+                  5
+                                                                                             Figure 4 shows the neutron pairing rotational energy
+                                                                                         measured from 116 Sn as a function of neutron number.
+                  0
+                                                                                         The Thouless-Valatin inertia for the neutron pairing rotation
+                       0       0.5        1        1.5       2         2.5         3     explains the pairing rotational spectrum especially well in the
+                                                ω (MeV)                                  vicinity of the reference state. Agreement between the pairing
+                                                                                         rotational energy from the Thouless-Valatin inertia and the
+   FIG. 3. (Color online) The FAM strength function for the proton                       HFB energy shows the validity of the dielectric theorem far
+pairing-rotational angle operator S(ˆ p ,ω) for a real frequency ω                      from the reference state and at small anharmonicity. Note that
+for Mg, computed with a Nsh = 5 model space, plotted together
+    26                                                                                   inclusion of the one-body center-of-mass correction violates
+with the curve in Eq. (54) with the Thouless-Valatin inertia MTV =                       the dielectric theorem, because the correction term (1 − 1/A)
+1.1545 MeV−1 .                                                                           is not variational with respect to the change of particle
+
+                                                                                   034321-8
+COLLECTIVE INERTIA OF THE NAMBU-GOLDSTONE . . .                                                                                                          PHYSICAL REVIEW C 92, 034321 (2015)
+
+
+                                    10                                                                                                18
+                                               Thouless-Valatin                                                                                   Thouless-Valatin
+
+
+
+
+                                                                                                   Pairing rotational energy (MeV)
+Pairing rotational energy (MeV)
+
+
+
+                                                       Belyaev                                                                        16                  Belyaev
+                                     8                    HFB                                                                                                HFB
+                                                          EXP                                                                         14                     EXP
+                                                                                                                                      12                    N=82 isotones
+                                     6                 Sn isotopes                                                                    10                   SLy4+volume pairing
+                                                     SLy4+volume pairing
+                                                                                                                                       8
+                                     4
+                                                                                                                                       6
+
+                                     2                                                                                                 4
+                                                                                                                                       2
+                                     0                                                                                                 0
+                                          60    62    64   66     68   70    72   74    76                                                  52      54    56    58        60   62   64   66   68
+                                                                  N                                                                                                       Z
+
+     FIG. 4. (Color online) Neutron pairing rotational energy of even                                   FIG. 5. (Color online) Same as Fig. 4 but for the proton pair-
+Sn isotopes. The red solid (blue dashed) curve is the pairing                                      ing rotational energy for even N = 82 isotones measured from
+rotational energy (N − 66)2 /[2Jn,TV(B) (116 Sn)] with the Thouless-
+                                                                                                    142
+                                                                                                        Nd (Z = 60). The experimental proton chemical potential is
+Valatin (Belyaev) pairing rotational moment of inertia evaluated at                                λp,exp (142 Nd) = −5.761 MeV.
+ 116
+     Sn. The red squares are the HFB energy EHFB (N ) − EHFB (116 Sn) −
+λn,HFB (116 Sn)(N − 66), and the black circles are the experimental                                numbers. Thus the eigenmodes as solutions of the QRPA
+values evaluated with −Bexp (N ) − λn,exp (116 Sn)(N − 66), where the                              equations are generally the linear combination of the two
+binding energy is taken from Ref. [59]. The experimental neutron                                   pairing rotational modes. The momentum operators of the two
+chemical potential is evaluated with λn,exp (116 Sn) = [Bexp (118 Sn) −                            NG modes are written as
+Bexp (114 Sn)]/4 = −8.345 MeV.
+                                                                                                                                                  N̂1 = N̂n cos θ + α N̂p sin θ,
+                                                                                                                                                                                              (68)
+                                                                                                                                                  N̂2 = −N̂n sin θ + α N̂p cos θ,
+numbers [60]. As the neutron number changes from N = 66,
+deviation from the parabola curve is seen, both in the HFB                                         where θ is a mixing angle, and α is a scaling parameter.
+calculations and the experimental data, indicating a change of                                     The parameter α should be 1 under the isospin symmetry,
+the intrinsic structures as a function of the neutron number.                                      but we keep a general expression here. The overall scaling
+The deviation is larger in the neutron-deficient side.                                             of the operators N̂1 and N̂2 does not change the physics. The
+    The next example is the proton pairing rotation in N = 82                                      conjugate angle operators are written as
+isotones, where we take 142 Nd (Z = 60) as our reference state.                                                     ˆ1 =   ˆ n cos θ + 1 ˆ p sin θ,
+                                     (3)                                                                           
+The averaged proton pairing gap      p (
+                                          142
+                                              Nd) = 0.788 MeV is                                                                        α
+well reproduced with the same pairing functional parameters.                                                                                                  (69)
+                                                                                                                                          1 ˆ
+We can define the proton pairing rotational moment of inertia                                                       2 = −n sin θ + p cos θ,
+                                                                                                                    ˆ         ˆ
+                                                                                                                                         α
+Jp (N0 ,Z0 ) by repeating the same discussion with Eq. (66)
+but for protons. The Thouless-Valatin inertia for this proton                                      where          ˆ p are the neutron and proton two-quasiparticle
+                                                                                                           ˆ n and 
+pairing rotation is 2.35 MeV−1 , while the Belyaev inertia                                         parts of the operator. The operators in Eqs. (68) and (69)
+is 6.13 MeV−1 . The residual interaction changes the pairing                                       satisfy the commutation relations of Eq. (15) if the neutron
+rotational moment of inertia by a factor of about 2.6. This is                                     and proton parts of the operators are normalized with the same
+because of the residual Coulomb contribution: the Coulomb                                          commutation relation.
+interaction is known to affect the proton pairing energy and gap                                      The Thouless-Valatin inertias for the two NG modes are
+at the mean-field level [61–63]. Because the Coulomb energy                                        derived from Eq. (23):
+is proportional to Z 2 , its residual part directly contributes to
+the proton pairing rotational moment of inertia in the QRPA                                                                             M1 = −S(N̂n ,N̂n ) cos2 θ − α 2 S(N̂p ,N̂p ) sin2 θ
+level. Figure 5 shows the proton pairing rotational energy                                                                                       − 2αS(N̂n ,N̂p ) sin θ cos θ,                (70)
+measured from 142 Nd. To explain the experimental curve, the
+contribution of the residual interaction is essential in the case                                                                       M2 = −S(N̂n ,N̂n ) sin θ − α S(N̂p ,N̂p ) cos θ
+                                                                                                                                                                 2         2             2
+
+of the proton pairing rotation.                                                                                                                  + 2αS(N̂n ,N̂p ) sin θ cos θ,                (71)
+                                                                                                   where
+                                  B. Mixing of neutron and proton pairing rotational modes
+   When both the neutron and proton are in the superconduct-                                                                         S(N̂n ,N̂n ) = −2Nn (A + B)−1 Nn = S(N̂n ,ω = 0),        (72)
+ing phase, the neutron pairing and proton pairing rotational                                                                                                         −1
+                                                                                                                                      S(N̂n ,N̂p ) = −2Nn (A + B) Np = S(N̂p ,N̂n ),          (73)
+modes appear as NG modes. These zero-energy modes are                                                                                                                −1
+degenerate because they have the same K π = 0+ quantum                                                                               S(N̂p ,N̂p ) = −2Np (A + B) Np = S(N̂p ,ω = 0)           (74)
+
+                                                                                             034321-9
+

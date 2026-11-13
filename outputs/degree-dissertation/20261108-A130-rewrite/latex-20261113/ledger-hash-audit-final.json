@@ -1,0 +1,66 @@
+[
+  {
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/appendix-B.json",
+    "matches": true
+  },
+  {
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-1-1.json",
+    "matches": true
+  },
+  {
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-1-2.json",
+    "matches": true
+  },
+  {
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-1-3.json",
+    "matches": true
+  },
+  {
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-1-4.json",
+    "matches": true
+  },
+  {
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-1-5.json",
+    "matches": true
+  },
+  {
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-1.json",
+    "matches": true
+  },
+  {
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-2.json",
+    "matches": true
+  },
+  {
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-3.json",
+    "matches": true
+  },
+  {
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-4.json",
+    "matches": true
+  },
+  {
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-5.json",
+    "matches": true
+  },
+  {
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-6.json",
+    "matches": true
+  },
+  {
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-5.json",
+    "matches": true
+  },
+  {
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-3.json",
+    "matches": true
+  },
+  {
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-4.json",
+    "matches": true
+  },
+  {
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-9.json",
+    "matches": true
+  }
+]

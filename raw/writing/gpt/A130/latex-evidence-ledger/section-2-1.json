@@ -1,0 +1,149 @@
+{
+  "section_id": "2.1",
+  "title": "实验室对称性与张量语言",
+  "version": "latex-v1.0",
+  "recorded_at": "2026-11-13T02:16:27.381659+00:00",
+  "worker": "G78",
+  "input_draft": {
+    "path": "raw/writing/gpt/A130/research-draft/section-2-1.md",
+    "sha256": "8bc02122cefecbfb4d865f7805443cd6524693847bb54947ff4a0d4345b04db0"
+  },
+  "latex_output": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-1.tex",
+    "sha256": "f6f488ac71cce90a75be9742b4c1709d54af65d3298c68ce9d2869c7fd625f1f"
+  },
+  "migration_type": "faithful_latex_migration",
+  "targeted_fixes": [],
+  "new_claims": [],
+  "sources": [
+    {
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "source_page": "knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "actual_read_pages": "printed pp. 29–30 (PDF pp. 44–45), printed pp. 118–121 (PDF pp. 133–136)",
+      "claims_supported": [
+        "无量纲角动量算符j与不可约球张量对易子关系式 (2.17)",
+        "Wigner–Eckart定理的Racah/Edmonds标准定义与3j符号分解式 (2.27)",
+        "自旋三角条件Delta(j, L, j')与磁投影选择定则m + M = m' (2.29)",
+        "厄米张量算符的定义T_{LM}^dagger = (-1)^M T_{L,-M}与约化矩阵元共轭关系 (2.31)-(2.32)",
+        "初态磁子态统计平均与末态求和导出约化跃迁几率B(sigma lambda)定义 (6.4)",
+        "微观互易关系与自发辐射速率公式 (6.14)"
+      ]
+    },
+    {
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "source_page": "knowledge/sources/cline-1986-nuclear-shapes-coulomb-excitation.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "raw_sha256": "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113",
+      "actual_read_pages": "printed pp. 698–700 (PDF pp. 16–18)",
+      "claims_supported": [
+        "二阶与三阶电四极零耦合旋转不变量的定义及其在实验室系完备中间态下的展开",
+        "闭合矩阵元乘积在态重定相变换下的规范相消不变性",
+        "实验库仑激发通过再取向效应与多步干涉约束激发态静四极矩与闭合乘积",
+        "非能权求和规则中低激发态集体强度分布与有效算符对易异质性边界"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "text": "孤立原子核在强相互作用与电磁相互作用主导的近似框架下服从空间旋转与反演对称性；无量纲角动量算符j=J/hbar服从李代数对易子关系，SU(2)万有覆盖SO(3)解释了整数与半整数自旋本征表示；[H, j_±]=0导致2I+1个磁子态能量简并，空间宇称pi=±1为线性守恒量。",
+      "kind": "theoretical_foundation",
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "locator": "printed p. 29 (PDF p. 44)",
+      "conditions": "近似哈密顿量忽略弱相互作用宇称破坏；无外加打破空间各向同性的电磁场；不限制实验制备的初态自旋取向系综"
+    },
+    {
+      "text": "Wigner–Eckart定理将不可约球张量多体矩阵元因式分解为几何3j符号与包含微观动力学结构的约化矩阵元R_ab；在厄米球张量约定下，满足共轭对称关系R_ba = (-1)^(I_b - I_a) R_ab*。",
+      "kind": "mathematical_derivation",
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "locator": "printed pp. 29–30 (PDF pp. 44–45), Eqs. (2.27)-(2.32)",
+      "conditions": "Racah/Edmonds Condon–Shortley张量共轭约定"
+    },
+    {
+      "text": "孤立非对角约化矩阵元受波函数全局重定相自由度影响，其复相位或符号不具有独立可测量地位；对角矩阵元（实验室静矩）与闭合矩阵元乘积满足重定相规范不变性，这是物理可测性的必要条件。",
+      "kind": "theoretical_physics_principle",
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "locator": "printed pp. 698–700 (PDF pp. 16–18)",
+      "conditions": "任意正规化基矢相位变换；可测性必要条件不自动等同于实验反演解的唯一性"
+    },
+    {
+      "text": "B的统计定义及Hermitian倒易给出(2Ii+1)B(i->f)=(2If+1)B(f->i)；0与2之间因子5不表示任何实际装置等量布居五M态。全角/偏振积分率与取向独立，有限角计数仍需取向及响应。",
+      "kind": "deductive_derivation",
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "locator": "printed pp. 119–120 (PDF pp. 134–135), Eq. (6.4)",
+      "conditions": "理论定义的等权平均标度；在束实际角分布与有限立体角计数需结合取向张量B_k(I)展开"
+    },
+    {
+      "text": "张量标量积算符A=T·T=sqrt(5)[T×T]^0与B=-sqrt(35/2)[[T×T]^2×T]^0分别给出二阶形状不变量q_2=sum_r B(E2; s->r)与I=0基态三阶不变量q_3=-sqrt(7/10) sum_{r,t} R_0r R_{rt} R_{t0}；求和包含对角静矩与非对角跨带闭合干涉项。",
+      "kind": "analytical_formulation",
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "locator": "printed p. 698 (PDF p. 16)",
+      "conditions": "精确恒等式要求完备中间态，包括允许的静态对角项；实验有限截断另有误差。本稿系数按指定WE约定重推并用canonical角动量控制核对，不冒称Cline逐字同式。"
+    }
+  ],
+  "competing_explanations": [
+    {
+      "issue": "单个非对角约化矩阵元的符号与相位是否具有独立物理可测性？",
+      "misconception": "误将实验模型拟合输出的孤立非对角RME正负号视为客观直接观测量。",
+      "correct_understanding": "单个非对角RME在局域重定相|a> -> exp(i*phi_a)|a>下变换为exp[i(phi_b - phi_a)] R_ab，其相位差取决于基矢相位的人工选择。实验可测的是其模长|R_ab|（通过跃迁几率）或同态分支比振幅相对比值。闭合环路矩阵元乘积（如R_sr R_rt R_ts）由于相对相位相消具备规范不变性，但规范不变性仅是可测性的代数必要条件，实际反演解的唯一性仍受实验多通道与不确定度制约。"
+    },
+    {
+      "issue": "实验室静四极矩Q_s(2_1^+)符号能否普遍判定核的内禀长椭或扁椭形状？",
+      "misconception": "认为只要Q_s(2+) < 0则原子核必为长椭球，Q_s(2+) > 0必为扁椭球。",
+      "correct_understanding": "该简单符号对应仅在理想的轴对称刚性转子模型且基态带具有K=0时成立（此时Q_s(2_1^+) = -2/7 Q_0）。在三轴形变、gamma软振动涨落或多能带混合核中，Q_s不能直接等同于内禀形状的唯一定义，需通过旋转不变量网络与微观能级谱结构联合仲裁。"
+    },
+    {
+      "issue": "内禀参考系单粒子量子数与实验室好量子数的关系",
+      "misconception": "将内禀单粒子标号Omega或带头投影K视为实验室哈密顿量的严格运动守恒常数。",
+      "correct_understanding": "内禀坐标系是未投影形变平均场计算中自洽打破空间旋转对称性引入的辅助框架；渐近标号Omega仅在大轴对称形变极限下近似有效。实验室系中真实的定态严格由总角动量I与宇称pi表征，形变参考态实质上是包含多种自旋成分的取向波包，需通过角动量投影恢复实验室对称性。"
+    }
+  ],
+  "unresolved": [
+    "高阶旋转不变量（四阶及以上）截断收敛性对微观核结构模型空间的依赖程度需结合微观大空间壳模型与高阶库仑激发实验进一步评估；",
+    "在截断有效玻色子或有效核子算符空间中，重整化有效单体算符的对易异质性对连续坐标恒等式成立精度的微观破缺程度仍待进一步定量约束。"
+  ],
+  "reader_checks": [
+    {
+      "question": "为什么在核物理跃迁实验报告中，B(E2; 0+ -> 2+)与B(E2; 2+ -> 0+)数值相差5倍？",
+      "answer": "这是由初态磁子态统计平均因子1/(2I_i+1)所导致的统计权差异。从0+到2+吸收激发时初态只有一个磁子态（2*0+1=1），末态开放了5个简并磁取向通道；而从无极化2+态自发去激时初态几率平均分摊在5个简并磁子态上（2*2+1=5），导致去激跃迁几率被稀释为五分之一，因此B(E2; 0+ -> 2+) = 5 * B(E2; 2+ -> 0+)。"
+    },
+    {
+      "question": "库仑激发实验中如何通过再取向效应约束激发态的实验室静电四极矩符号？",
+      "answer": "库仑激发截面包含直接单步激发幅度与经由中间态的两步虚激发幅度的相干干涉。当两步激发中的中间态为末态自身时（再取向效应），干涉项正比于闭合乘积|R_{0r}|^2 R_{rr}，其中R_{rr}直接关联于激发态实验室静四极矩Q_s(r)。实验通过测量不同入射能量与大角度散射下的微分散射截面并开展多态联合拟合，利用干涉项对截面角分布的调制作用约束Q_s(r)的符号。"
+    }
+  ],
+  "fidelity_verification": {
+    "comparison_base": "parent-accepted G78 tex snapshot in G82/layout-baseline.json",
+    "baseline_sha256": "fe7f297fc4bdd8e92bbb657b38fd2ec934823aa38beea8475718f805580b9ea9",
+    "baseline_display_equations": 29,
+    "output_display_equations": 29,
+    "verbatim_display_bodies": 28,
+    "display_math_tokens_matching_after_allowed_layout_removal": 29,
+    "baseline_inline_blocks": 154,
+    "output_inline_blocks": 154,
+    "matched_baseline_inline_blocks": 154,
+    "inserted_inline_blocks": [],
+    "allowed_changes": [
+      "eq:2-1-21改equation内aligned两行"
+    ],
+    "acceptance_boundary": "仅格式比对；原有科学内容沿用父验收，不以计数替代科学审查"
+  },
+  "layout_revisions": [
+    {
+      "section": "2-1",
+      "recorded_at": "2026-11-13T02:03:07.644139+00:00",
+      "before_sha256": "fe7f297fc4bdd8e92bbb657b38fd2ec934823aa38beea8475718f805580b9ea9",
+      "after_sha256": "f6f488ac71cce90a75be9742b4c1709d54af65d3298c68ce9d2869c7fd625f1f",
+      "display_equations_compared": 29,
+      "display_math_tokens_unchanged": true,
+      "labels_unchanged": true,
+      "citations_unchanged": true,
+      "remaining_u208a": 0,
+      "allowed_changes": [
+        "eq:2-1-21改equation内aligned两行"
+      ]
+    }
+  ],
+  "target_sha256": "cce29838eadc2eb20dcaef4a795334cf625f12332caf8e4d9448e510ca1f34ba"
+}

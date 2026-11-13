@@ -1,0 +1,36 @@
+{
+  "reviewer": "parent-agent",
+  "scope": "Incremental migration control only; compilation and new scientific content reviewed separately.",
+  "results": [
+    {
+      "section": "2.1",
+      "output_sha256": "fe7f297fc4bdd8e92bbb657b38fd2ec934823aa38beea8475718f805580b9ea9",
+      "display_blocks_checked": 29,
+      "inline_spans_checked": 154,
+      "decision": "math-preserving-migration"
+    },
+    {
+      "section": "2.3",
+      "output_sha256": "715d8d24513b2426e67dfff759e23955189490160c58c4746ddcfa2286ee0a41",
+      "display_blocks_checked": 41,
+      "inline_spans_checked": 168,
+      "decision": "math-preserving-migration"
+    },
+    {
+      "section": "3.5",
+      "output_sha256": "5439b517623ae5142cd4711bfd849cc0df1db4574aac3dfd305a2963dabfdea8",
+      "display_blocks_checked": 18,
+      "inline_spans_checked": 184,
+      "decision": "math-preserving-migration"
+    },
+    {
+      "section": "2.2",
+      "output_sha256": "538c6da1788b6f520ace80e15f1dec561974b54efb2e5d7a32c21323daf9000c",
+      "display_blocks_checked": 14,
+      "inline_spans_checked": null,
+      "decision": "eleven-exact-and-three-authorized-algebraic-notation-changes"
+    }
+  ],
+  "2.2_specific_changes": "v_j→w_j,u_j→U_j to avoid BCS names; 1/2 formatting; centroid expanded to e0+w*n*(1−1/g)+U, consistent with T11.",
+  "not_a_whole_manuscript_acceptance": true
+}

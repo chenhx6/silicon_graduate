@@ -1,0 +1,30 @@
+{
+  "cover": 1,
+  "toc_candidates": [
+    7,
+    9
+  ],
+  "shape_invariant": [
+    19
+  ],
+  "gamma_figure": [
+    65
+  ],
+  "energy_table": [
+    95
+  ],
+  "timing_table": [
+    100
+  ],
+  "appendix_B": [
+    10,
+    119,
+    121,
+    123,
+    125
+  ],
+  "references": [
+    115
+  ],
+  "last_page": 128
+}

@@ -1,0 +1,88 @@
+\chapter{集体动能与响应的约定}\label{app:C}
+
+\section{响应变量与两准粒子计数}\label{app:C-response-counting}
+
+本附录补充第\ref{sec:2-6}节实际使用的单位、对计数和NG归一约定，限于所引来源的局部响应范围。它不构造一般坐标相关质量的唯一量子化方案。
+
+先用无量纲生成元 \(\hat F\) 定义减能微扰 \(H-f\hat F\)，其中 \(f\) 的单位为能量。其静态响应
+\begin{equation}\label{eq:app-c-static-susceptibility}
+\chi_F=\left.
+\frac{\partial\langle\hat F\rangle}{\partial f}
+\right|_{f=0}
+\end{equation}
+的单位是 \(\mathrm{MeV}^{-1}\)。对空间转动，取 \(\hat F=\hat j_k\)、\(f=\hbar\omega_k\)，则物理惯量为 \(\hbar^2\chi_{j_k}\)；对规范转动，取 \(\hat F=\hat N\)、\(f=\lambda\)，惯量为 \(\chi_N\)，不再乘空间作用量因子。
+
+在零温准粒子真空上，Hermitian外场的两准粒子部分可写为
+\begin{equation}\label{eq:app-c-field-components}
+\hat F=\sum_{\mu<\nu}\left[
+F^{20}_{\mu\nu}\alpha_\mu^\dagger\alpha_\nu^\dagger
++F^{02}_{\mu\nu}\alpha_\nu\alpha_\mu
+\right]+\hat F^{11}+F^{00},
+\qquad F^{02}_{\mu\nu}=(F^{20}_{\mu\nu})^* .
+\end{equation}
+当诱导场被舍去，独立两准粒子静态响应为
+\begin{equation}\label{eq:app-c-independent-response}
+\chi_F^{(0)}
+=2\sum_{\mu<\nu}
+\frac{|F^{20}_{\mu\nu}|^2}{E_\mu+E_\nu}.
+\end{equation}
+这里的2来自在这一不重复对基底上同时计入产生、湮灭响应。若改为全单粒子空间的BCS相干因子表达，应连同时间反演伙伴、相位及矩阵元一起变换；Próchniak与Rohoziński的Eq.~(4.44)已经声明全单粒子双和，不在其前再加一个2。\cite[Eq.~(4.44)]{prochniak-rohozinski-2009-bohr-collective-hamiltonian}\cite[APS~PDF~pp.~3--4, Eqs.~(25), (32)--(34)]{hinohara-2015-nambu-goldstone-inertia-response}
+
+\section{实QRPA分块与NG局部归一}\label{app:C-ng-normalization}
+
+沿Hinohara对 \(H+\eta\hat F\) 的约定，定义
+\begin{equation}\label{eq:app-c-qrpa-kernel}
+\mathsf K=
+\begin{pmatrix}
+A&B\\ B^*&A^*
+\end{pmatrix},
+\qquad
+\mathsf K
+\begin{pmatrix}X(0)\\Y(0)\end{pmatrix}
+=-\begin{pmatrix}F^{20}\\F^{02}\end{pmatrix}.
+\end{equation}
+本式以每单位微扰幅度的响应表示，\(A,B\) 与探测变量 \(z=\hbar\omega_{\mathrm{probe}}\) 均采用能量单位。相应强度函数为
+\begin{equation}\label{eq:app-c-strength-convention}
+S(\hat F;0)=\sum_{\mu<\nu}
+\left[(F^{20}_{\mu\nu})^*X_{\mu\nu}(0)
++(F^{02}_{\mu\nu})^*Y_{\mu\nu}(0)\right].
+\end{equation}
+对减能微扰的静态支，\(\chi_F=-S(\hat F;0)\)。此符号关系依赖外场约定，不是在别的文献中直接省去负号的理由。\cite[APS~PDF~pp.~4--5, Eqs.~(34), (41), (49)--(51)]{hinohara-2015-nambu-goldstone-inertia-response}
+
+若 \(A,B\) 为实矩阵，且 \(P^{20}=r+i s\)，原文的NG坐标和生成元满足
+\begin{equation}\label{eq:app-c-ng-local-equations}
+\begin{aligned}
+(A-B)Q^R&=\frac{s}{M_P},&
+(A+B)Q^I&=-\frac{r}{M_P},\\
+2\bigl[-(Q^I)^Tr+(Q^R)^Ts\bigr]&=1.&
+\end{aligned}
+\end{equation}
+第二行正是 \(\langle[\hat Q,\hat P]\rangle=i\) 的局部两准粒子归一。由同一组关系得到
+\begin{equation}\label{eq:app-c-ng-inertia}
+M_P=2\left[
+r^T(A+B)^{-1}r+s^T(A-B)^{-1}s
+\right].
+\end{equation}
+这只是Hinohara Eqs.~(20)--(23)的实、虚分量换写，不能将纯虚生成元继续按实生成元的 \(A+B\) 分块处理。\cite[APS~PDF~p.~3, Eqs.~(20)--(23)]{hinohara-2015-nambu-goldstone-inertia-response}
+
+若存在NG零方向，以上逆的含义限于相应可解的响应子空间；坐标还具有加入适当生成元成分的局部自由度。实践中须声明如何固定该自由度及如何分离伪模，不将全空间奇异矩阵直接当作普通可逆矩阵。复QRPA核、阻塞或有限推转参考不能只靠这组实分块替代完整响应。静态NG支 \(S(\hat P;0)=-M_P\) 也应与原文Eq.~(52)中的非零频率分支分别处理。\cite[APS~PDF~p.~5, Eqs.~(49)--(53)]{hinohara-2015-nambu-goldstone-inertia-response}
+
+\section{转动框架与适用边界}\label{app:C-rotating-response}
+
+在静止的破缺参考上检查NG零频，与在有限角速度的旋转坐标系中检查冗余根，是不同的频率合同。Matsuzaki等的推转RPA色散式含
+\begin{equation}\label{eq:app-c-matsuzaki-factorization}
+(\omega_n^2-\omega_{\mathrm{rot}}^2)
+\left[
+\omega_n^2-\omega_{\mathrm{rot}}^2
+\frac{
+(\mathcal J_x-\mathcal J_y^{\mathrm{eff}}(\omega_n))
+(\mathcal J_x-\mathcal J_z^{\mathrm{eff}}(\omega_n))
+}{
+\mathcal J_y^{\mathrm{eff}}(\omega_n)
+\mathcal J_z^{\mathrm{eff}}(\omega_n)
+}
+\right]=0 .
+\end{equation}
+第一因子给出该旋转框架中的冗余根，第二因子才用于寻找相应物理模。上式保留原文 \(\gamma\ne0\) 的推导条件；不将其直接当作所有轴对称极限的证明。横向有效惯量随待求频率及给定转动参考变化，沿带导数相同并不足以使这些函数相同。\cite[PDF~p.~4, Eqs.~(11)--(12)]{matsuzaki-2004-nuclear-inertia-and-wobbling}
+
+Kvasil与Nazmitdinov的Fig.~3比较的是自洽平均场解支的同方向动力学惯量与相应RPA的TV量，并要求极小点和伪模分离条件。该一致性检查不能替代横向色散根、电磁连接和组态对应的检查；其Eq.~(6)的配对隙处方也须保留。\cite[PDF~pp.~3--4, Eq.~(6), Fig.~3]{kvasil-2006-dy156-yb162-crpa-wobbling}

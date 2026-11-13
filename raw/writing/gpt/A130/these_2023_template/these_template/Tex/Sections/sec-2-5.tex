@@ -1,0 +1,213 @@
+\section{内禀参考与对称性恢复}\label{sec:2-5}
+
+在第2.1节中，我们建立了严格的球张量代数与角动量耦合规则；在第2.4节中，引入了刻画四极集体形状的玻尔坐标 $(\beta, \gamma)$、体轴欧拉角 $\Omega = (\phi, \theta, \psi)$ 以及相应的黎曼体积元测度。在低能核物理研究中，微观相互作用哈密顿量由强相互作用与电磁相互作用主导，宇称不守恒的弱相互作用效应极其微弱，因而在原子核结构研究中通常将空间反演不变性（宇称守恒）与空间各向同性（连续转动守恒）作为基本近似框架。
+
+在微观平均场近似（如形变 Hartree-Fock 或 Nilsson 势场）或唯象集体模型中，为了在有限基底中直观吸纳强四极变形与配对关联，通常引入随核整体转动的“内禀主轴参考系”。然而，所求得的形变单体参考态 $|\Phi\rangle$（例如形变 Slater 行列式或 HFB 准粒子真空态）破坏了三维空间连续转动不变性，在全空间中不再是总角动量平方 $\hat{\mathbf{J}}^2$ 与实验室 $z$ 轴分量 $\hat{J}_z$ 的共同本征态。需要强调的是，采用内禀坐标描述本身并不必然破坏转动对称性——例如包含全部取向角 $\Omega$ 积分的玻尔统合集体波函数 $\Psi_{IM}(\beta, \gamma, \Omega) = \sum_K \Phi_K(\beta, \gamma) \mathcal{D}^I_{MK}(\Omega)$ 完全具备严格的良自旋量子数 $I$ 与实验室磁量子数 $M$。此处被破缺的，仅仅是作为变分试探波包引入的微观单参考态 $|\Phi\rangle$。
+
+为了将这种破缺对称性的微观参考波包与在束 $\gamma$ 谱学直接观测到的分立能级和电磁跃迁对账，投影技术（Projection After Variation, PAV 或 Variation After Projection, VAP）是从该参考态构造具有确定好自旋与宇称态矢的一条明确理论路线（与准粒子无规相位近似 QRPA、生成坐标法 GCM 等并列）。本节系统阐述该参考波包对称破缺与实验室定态之间的物理关系，构建含 $\hbar$ 量纲规范的三维角动量投影算符与非正交度规核，推导 Hill-Wheeler 广义本征方程及其能标规范不变性，并深入剖析线性幺正宇称投影与反幺正手征操作的本质差别，最后给出两个最短可计算阶梯实例。关于群论投影乘法规则、复非正交两态久期矩阵因式分解及度规截断算法的严格数学推导，读者可进一步参阅附录~\ref{app:projection}。
+
+\subsection{微观破缺参考态与实验室定态的物理关系}\label{sec:2-5-1}
+
+在孤立原子核中，全同核子相互作用哈密顿量 $\hat{H}$ 满足严格的角动量对易关系：
+\begin{equation}\label{eq:2-5-H-J-commute}
+[\hat{H}, \hat{\mathbf{J}}] = 0, \quad [\hat{H}, \hat{\mathbf{J}}^2] = 0.
+\end{equation}
+实验室系中的真实物理本征态必须具有确定的良量子数 $|I, M\rangle$。然而，微观自洽场求得的静态形变参考态 $|\Phi\rangle$ 具备非零四极形变（如 $\beta > 0, \gamma \ne 0$），在三维空间有限转动下发生改变：
+\begin{equation}\label{eq:2-5-broken-state}
+\hat{R}(\Omega) |\Phi\rangle \ne |\Phi\rangle, \quad \hat{\mathbf{J}}^2 |\Phi\rangle \ne \hbar^2 I(I+1) |\Phi\rangle.
+\end{equation}
+因此，$|\Phi\rangle$ 并非实验室参考系的物理定态，而是不同总自旋 $I$、实验室取向 $M$ 和内禀主轴投影 $K$ 的物理态的相干叠加包：
+\begin{equation}\label{eq:2-5-superposition}
+|\Phi\rangle = \sum_{I, M, K} c_{IMK} |\Psi_{IM; K}\rangle.
+\end{equation}
+
+在此明确两项关键的理论边界：
+\begin{enumerate}
+\item \textbf{模型内禀形变参数绝非实验室直接测量算符}：微观势能面或唯象模型中引入的内禀四极形变参数 $(\beta, \gamma)$，仅仅是表征内禀参考波包几何构型的内部变分参数。在实验室系中，实验谱学直接观测的是跃迁矩阵元、能级寿命 $\tau$ 与静电四极矩 $Q$。从实验室可观测量反演内禀形变必须经过明确的波函数重叠与转动态展开假设（详见第1.5节），不能把理论计算中的内禀极小参数等同于实验室定域算符测得值；
+\item \textbf{对称破缺与恢复的理论定位}：在热力学极限下宏观体系可发生真正的自发对称破缺；而原子核是有限介观量子体系，连续对称性在实验室系中严格守恒。引入内禀变形参考态仅是以牺牲转动对称性为代价吸纳短程配对与长程多极关联的变分手段。通过投影算符从 $|\Phi\rangle$ 中提取确定自旋宇称的分量，是连通微观势阱结构与在束谱学定态的重要物理桥梁。
+\end{enumerate}
+
+\subsection{角动量投影算符、非正交重叠核与过完备性}\label{sec:2-5-2}
+
+恢复连续空间转动对称性的数学工具是李群 $\mathrm{SO}(3)$ 上的群投影算符。设欧拉角 $\Omega = (\phi, \theta, \psi)$ 定义了空间旋转，具有物理量纲 $\hbar$ 的空间有限转动算符严格写作：
+\begin{equation}\label{eq:2-5-rot-op}
+\hat{R}(\Omega) = \exp(-i \phi \hat{J}_z / \hbar) \exp(-i \theta \hat{J}_y / \hbar) \exp(-i \psi \hat{J}_z / \hbar).
+\end{equation}
+利用 Wigner 不可约表示矩阵 $D^I_{MK}(\Omega)$ 的紧致正交完备性，定义三维角动量投影算符（Peierls-Yoccoz 算符）为~\cite{book-suhonen-from-nucleons-to-nucleus,book-raduta-coherent-states}：
+\begin{equation}\label{eq:2-5-proj-op}
+P^I_{MK} = \frac{2I+1}{8\pi^2} \int d\Omega \, D^{I*}_{MK}(\Omega) \hat{R}(\Omega),
+\end{equation}
+其中不变 Haar 测度归一化为 $\int d\Omega = \int_0^{2\pi} d\phi \int_0^\pi \sin\theta d\theta \int_0^{2\pi} d\psi = 8\pi^2$。固定核子数奇偶的原子核状态空间分别只包含整数自旋（偶 $A$ 核）或半整数自旋（奇 $A$ 核）；式中的 $8\pi^2$ 欧拉角积分对该固定表示类使用。整数类对应李群 $\mathrm{SO}(3)$；半整数类使用覆盖群 $\mathrm{SU}(2)$ 上的单值表示，固定类内 $D^* D$ 与 $D^* \hat{R}$ 乘积在群中心元素作用下两次变号相互抵消，因而在 $8\pi^2$ 欧拉角域内单值积分。式~\eqref{eq:2-5-proj-algebra} 的代数关系在各固定表示类内严格成立，不声称跨整数与半整数混合同时具有单值正交性。
+
+算符 $P^I_{MK}$ 将内禀态 $|\Phi\rangle$ 中内禀轴分量为 $K$ 的部分，投影为实验室系具有确定自旋 $I$、外部分量为 $M$ 的物理态：
+\begin{equation}\label{eq:2-5-projected-state}
+|IM; K\rangle = P^I_{MK} |\Phi\rangle.
+\end{equation}
+投影算符满足如下结合代数规则（证明见附录~\ref{sec:appB-1}）：
+\begin{equation}\label{eq:2-5-proj-algebra}
+(P^I_{MK})^\dagger = P^I_{KM}, \quad P^I_{MK} P^{I'}_{M'K'} = \delta_{II'} \delta_{KM'} P^I_{MK'}.
+\end{equation}
+需向初学者澄清：并非所有双下标单元 $P^I_{MK}$ 均是各自独立的厄米正交投影算符。代数关系~\eqref{eq:2-5-proj-algebra} 严格表明：只有对角单元 $P^I_{MM}$ 才是标准的厄米幂等正交投影算符（满足 $(P^I_{MM})^\dagger = P^I_{MM} = (P^I_{MM})^2$）；对于一般的非对角单元 $M \ne K$，$P^I_{MK}$ 并不具备厄米性或幂等性，其实质是连接不同内禀取向分量 $K$ 到实验室分量 $M$ 的非厄米张量转移或阶梯算符。由全核哈密顿量的转动不变性 $[\hat{H}, \hat{R}(\Omega)] = 0$，立即可得：
+\begin{equation}\label{eq:2-5-H-P-commute}
+[\hat{H}, P^I_{MK}] = 0.
+\end{equation}
+
+对于同一个内禀波包 $|\Phi\rangle$，由不同 $K$ 投影生成的态矢在实验室系中并不正交。定义内积重叠度规（Norm kernel）为：
+\begin{equation}\label{eq:2-5-norm-kernel}
+N^I_{KK'} \equiv \langle IM; K | IM; K' \rangle = \langle \Phi | (P^I_{MK})^\dagger P^I_{MK'} | \Phi \rangle = \langle \Phi | P^I_{KK'} | \Phi \rangle.
+\end{equation}
+将式~\eqref{eq:2-5-proj-op} 代入，重叠核与哈密顿量核显式表示为内禀参考态在转动算符下的平均：
+\begin{align}
+N^I_{KK'} &= \frac{2I+1}{8\pi^2} \int d\Omega \, D^{I*}_{KK'}(\Omega) \langle \Phi | \hat{R}(\Omega) | \Phi \rangle, \label{eq:2-5-norm-integral} \\
+H^I_{KK'} &\equiv \langle IM; K | \hat{H} | IM; K' \rangle = \frac{2I+1}{8\pi^2} \int d\Omega \, D^{I*}_{KK'}(\Omega) \langle \Phi | \hat{H} \hat{R}(\Omega) | \Phi \rangle. \label{eq:2-5-hamiltonian-kernel}
+\end{align}
+
+\textbf{过完备性与零模冗余说明}：在多体组态空间中，由不同 $K$ 生成的态矢集合 $\{ |IM; K\rangle \}_K$ 并不自动构成线性无关基。内禀态自身的离散对称性可使某些 $K$ 态的范数严格为零，这些精确零范数冗余必须剔除；而在连续三轴演化中，重叠矩阵 $N^I$ 的某些本征值可能数值上极为接近零。在数值实现中，引入有限截断阈值 $\epsilon_{\text{cut}}$ 属于有界子空间截断近似，截断后的体系只在保留的主有效子空间内与原问题等价，必须做收敛性与数值稳定性检查（详见附录~\ref{sec:appB-2}）。
+
+\subsection{Hill-Wheeler 广义本征方程与能标规范不变性}\label{sec:2-5-3}
+
+为了在所选具有好角动量量子数（good-$I$）的投影试探空间中，变分求取包含不同 $K$ 混合的近似能谱与波函数，将试探态构建为线性叠加：
+\begin{equation}\label{eq:2-5-trial-state}
+|\Psi^{IM}\rangle = \sum_K c_K |IM; K\rangle = \sum_K c_K P^I_{MK} |\Phi\rangle.
+\end{equation}
+应用 Ritz 变分原理，要求能量期望值对展开矢量 $\mathbf{c}$ 变分为驻值：
+\begin{equation}\label{eq:2-5-variation}
+\delta \frac{\langle \Psi^{IM} | \hat{H} | \Psi^{IM} \rangle}{\langle \Psi^{IM} | \Psi^{IM} \rangle} = 0 \iff \delta \left( \sum_{K, K'} c_K^* H^I_{KK'} c_{K'} - E \sum_{K, K'} c_K^* N^I_{KK'} c_{K'} \right) = 0.
+\end{equation}
+对任意独立微元 $\delta c_K^*$，直接导出非正交基下的 Hill-Wheeler 广义本征方程：
+\begin{equation}\label{eq:2-5-hill-wheeler}
+\sum_{K'} \left( H^I_{KK'} - E N^I_{KK'} \right) c_{K'} = 0 \iff H^I \mathbf{c} = E N^I \mathbf{c}.
+\end{equation}
+非零解存在的充要条件是广义久期行列式为零：$\det(H^I - E N^I) = 0$（在剔除度规严格零模并限制于度规严格正定 $N^I > 0$ 的线性独立物理子空间中使用）。
+需要强调，角动量投影严格确保了非零态矢具有确定的总自旋与磁量子数 $I, M$；但在有限试探空间中通过 Ritz 变分求得的态矢，一般并非全微观哈密顿量 $\hat{H}$ 在全空间中的严格本征态，而是该受限投影子空间内的最佳变分近似。
+
+\textbf{能量零点规范平移定理}：全哈密顿量加上任意标量常数平移 $\hat{H} \to \hat{H} + c \hat{\mathbf{1}}$（$c \in \mathbb{R}$）时，只改变参考能标零点，物理能量间距 $\Delta E$ 与量子态本质必须严格不变。根据核积分定义式~\eqref{eq:2-5-hamiltonian-kernel}：
+\begin{equation}\label{eq:2-5-shift-kernel}
+\langle \Phi | (\hat{H} + c \hat{\mathbf{1}}) P^I_{KK'} | \Phi \rangle = \langle \Phi | \hat{H} P^I_{KK'} | \Phi \rangle + c \langle \Phi | P^I_{KK'} | \Phi \rangle = H^I_{KK'} + c N^I_{KK'}.
+\end{equation}
+因此在非正交基矢下，哈密顿量矩阵的严格变换规则为：
+\begin{equation}\label{eq:2-5-H-shift-matrix}
+H^I \to H^I + c N^I.
+\end{equation}
+代入 Hill-Wheeler 方程：
+\begin{equation}\label{eq:2-5-gauge-invariance}
+(H^I + c N^I) \mathbf{c}' = E' N^I \mathbf{c}' \iff H^I \mathbf{c}' = (E' - c) N^I \mathbf{c}'.
+\end{equation}
+这保证了物理特征能谱统一平移 $E' = E + c$，且本征子空间严格保持不变。在非简并情形下波函数矢量保持 $\mathbf{c}' = \mathbf{c}$；在简并子空间中亦可选定完全相同的正交基。
+
+反之，若在非正交基下因混淆基矢重叠而错误地执行对角平移 $H^I \to H^I + c \mathbf{1}$（$\mathbf{1}$ 为单位阵），设 $E'$ 为平移后的实际能量，久期方程变为 $\det(H^I + c \mathbf{1} - E' N^I) = 0$。若定义相对于平移量的能量 $\varepsilon \equiv E' - c$，方程则写作 $\det[H^I + c(\mathbf{1} - N^I) - \varepsilon N^I] = 0$。由于度规包含非对角元 $N^I_{KK'} \ne 0$，非对角扰动项 $c(\mathbf{1} - N^I)$ 在一般情况下会虚假改变能级相对间距，并可能引发非物理的态漂移或态混合。因此，“加能量常数必须 $H \to H + c N$，不能只改对角 $H$”是非正交量子力学中的基本定理。
+
+\subsection{线性幺正宇称投影与反幺正手征对称性的本质差别}\label{sec:2-5-4}
+
+在有限核分立对称性中，空间反演宇称 $\hat{\Pi}$ 与手征反转算符 $\mathcal{C} = \mathcal{T} R_y(\pi)$ 具有截然不同的代数本质。
+
+\subsubsection{线性幺正宇称投影}\label{sec:2-5-4-1}
+
+空间反演算符 $\hat{\Pi}$ 作用于空间坐标 $\mathbf{r} \to -\mathbf{r}$。在多体空间中，$\hat{\Pi}$ 是严格的线性幺正算符：
+\begin{equation}\label{eq:2-5-parity-unitary}
+\hat{\Pi}^2 = \hat{\mathbf{1}}, \quad \hat{\Pi}^\dagger = \hat{\Pi}^{-1} = \hat{\Pi}, \quad \hat{\Pi}(c_1 |\psi_1\rangle + c_2 |\psi_2\rangle) = c_1 \hat{\Pi}|\psi_1\rangle + c_2 \hat{\Pi}|\psi_2\rangle.
+\end{equation}
+对于具有反射不对称形变（如八极形变 $\beta_3 \ne 0$）的内禀参考态 $|\Phi_{\text{oct}}\rangle$，宇称发生破缺。定义线性宇称投影算符：
+\begin{equation}\label{eq:2-5-parity-proj}
+P^\pm \equiv \frac{\hat{\mathbf{1}} \pm \hat{\Pi}}{2}.
+\end{equation}
+由 $\hat{\Pi}^2 = \hat{\mathbf{1}}$ 易证其满足标准正交投影性质：
+\begin{equation}\label{eq:2-5-parity-projector-properties}
+(P^\pm)^\dagger = P^\pm, \quad (P^\pm)^2 = P^\pm, \quad P^+ P^- = P^- P^+ = 0, \quad P^+ + P^- = \hat{\mathbf{1}}.
+\end{equation}
+算符 $P^\pm$ 将任意物理态严格分解为正宇称（$\pi = +1$）与负宇称（$\pi = -1$）正交子空间，其本征值 $\pi = \pm 1$ 具有定相规范不变性。
+
+\subsubsection{反幺正手征对称性与反线性不可投影性}\label{sec:2-5-4-2}
+
+手征反转算符定义为时间反演与绕内禀参考轴转动的复合操作：
+\begin{equation}\label{eq:2-5-chiral-op-def}
+\mathcal{C} \equiv \mathcal{T} R_y(\pi) = \mathcal{T} \exp(-i\pi \hat{J}_y / \hbar).
+\end{equation}
+时间反演算符 $\mathcal{T}$ 包含复共轭操作 $K$，使得 $\mathcal{C}$ 具有反线性（anti-linear）特征：
+\begin{equation}\label{eq:2-5-C-anti-linear}
+\mathcal{C} \left( c_1 |\psi_1\rangle + c_2 |\psi_2\rangle \right) = c_1^* \mathcal{C}|\psi_1\rangle + c_2^* \mathcal{C}|\psi_2\rangle.
+\end{equation}
+尽管第3.5.2节严格证明了恒等式 $\mathcal{C}^2 = +1$ 对任意自旋均成立，但绝对不能照搬式~\eqref{eq:2-5-parity-proj} 构造形如 $(\hat{\mathbf{1}} \pm \mathcal{C}) / 2$ 的表达式：
+\begin{equation}\label{eq:2-5-non-linear-failure}
+\frac{\hat{\mathbf{1}} \pm \mathcal{C}}{2} (c |\psi\rangle) = \frac{1}{2} \left( c |\psi\rangle \pm c^* \mathcal{C}|\psi\rangle \right) \ne c \left( \frac{\hat{\mathbf{1}} \pm \mathcal{C}}{2} |\psi\rangle \right) \quad (\text{当 } \operatorname{Im}c \ne 0).
+\end{equation}
+该式表明 $(\hat{\mathbf{1}} \pm \mathcal{C})/2$ 对复标量乘法不封闭，无法在复希尔伯特空间中分解出正交子空间；且其特征相因子在全局重定相 $|\psi'\rangle = e^{i\phi}|\psi\rangle$ 下变为 $\lambda' = e^{-2i\phi}\lambda$，其符号不具备规范不变性。
+
+因此，手征对称性的恢复绝不能通过线性算符投影完成。在具有反幺正对称性（$[\hat{H}, \mathcal{C}] = 0$ 且 $\hat{H}$ 厄米）的前提下，左手波包 $|L\rangle$ 与右手波包 $|R\rangle = \mathcal{C}|L\rangle$ 具备相等的对角期望值 $h \equiv \langle L|\hat{H}|L\rangle = \langle R|\hat{H}|R\rangle$。在有限势垒下，两态通过非对角隧穿矩阵元 $k = \langle L|\hat{H}|R\rangle$ 发生动力学隧穿，其物理态完全由非正交基矢集合 $\{|L\rangle, |R\rangle\}$ 上的 $2 \times 2$ 广义本征方程 $H \mathbf{c} = E N \mathbf{c}$ 确定。
+
+\subsection{最短可计算阶梯实例：非正交双态模型与轴对称角动量恢复}\label{sec:2-5-5}
+
+\subsubsection{阶梯一：非正交双态隧穿模型的严格手算}\label{sec:2-5-5-1}
+
+设左右归一态矢存在非零实重叠积分 $S \in \mathbb{R}$（$|S| < 1$）：$\langle L|L\rangle = \langle R|R\rangle = 1, \langle L|R\rangle = S$。度规与哈密顿量矩阵为：
+\begin{equation}\label{eq:2-5-ladder1-matrices}
+N = \begin{pmatrix} 1 & S \\ S & 1 \end{pmatrix}, \quad H = \begin{pmatrix} h & k \\ k & h \end{pmatrix} \quad (h, k \in \mathbb{R}).
+\end{equation}
+广义久期方程 $\det(H - E N) = (h - E)^2 - (k - E S)^2 = 0$ 给出对称与反对称态的代数特征根：
+\begin{equation}\label{eq:2-5-ladder1-energies}
+E_s = \frac{h + k}{1 + S}, \quad E_a = \frac{h - k}{1 - S}.
+\end{equation}
+两根的相对代数差为 $E_a - E_s = \frac{2(h S - k)}{1 - S^2}$。按基矢对称/反对称分类，对称叠加态 $|\psi_s\rangle \propto (|L\rangle + |R\rangle)$ 对应能量 $E_s$，反对称叠加态 $|\psi_a\rangle \propto (|L\rangle - |R\rangle)$ 对应能量 $E_a$。在实轴上按能量从低到高排列：
+\begin{equation}\label{eq:2-5-ladder1-ordered-energies}
+E_{\text{low}} = \min(E_s, E_a), \quad E_{\text{high}} = \max(E_s, E_a).
+\end{equation}
+物理非负能级间距（能隙）恒由绝对值给出：
+\begin{equation}\label{eq:2-5-ladder1-gap}
+\Delta E_{\text{phys}} \equiv E_{\text{high}} - E_{\text{low}} = |E_a - E_s| = \frac{2|h S - k|}{1 - S^2}.
+\end{equation}
+
+显式验算规范不变性：
+\begin{enumerate}
+\item 若 $H \to H + c N$，则 $h' = h + c$，$k' = k + c S$。分子组合 $h' S - k' = (h + c) S - (k + c S) = h S - k$ 严格保持不变，能隙 $\Delta E_{\text{phys}}$ 独立于 $c$；
+\item 若体系相互作用为纯单位阵 $\hat{H} = h \hat{\mathbf{1}}$，则 $H = h N \implies k = h S$，能隙 $\Delta E_{\text{phys}} = 0$ 严格为零。基矢几何重叠 $S \ne 0$ 本身绝不产生虚假能级分裂。
+\end{enumerate}
+
+\subsubsection{阶梯二：轴对称变形波包的投影与离散对称性选择定则}\label{sec:2-5-5-2}
+
+设内禀波包 $|\Phi\rangle$ 具备绕内禀 $z$ 轴的连续轴对称性（主轴投影为 $K = 0$）：
+\begin{equation}\label{eq:2-5-axial-condition}
+\hat{J}_{z, \text{intr}} |\Phi\rangle = 0 \implies \hat{R}_{z, \text{intr}}(\psi) |\Phi\rangle = |\Phi\rangle.
+\end{equation}
+根据投影算符定义式~\eqref{eq:2-5-proj-op}，投影态矢为：
+\begin{equation}\label{eq:2-5-axial-proj-state}
+P^I_{M0} |\Phi\rangle = \frac{2I+1}{8\pi^2} \int_0^{2\pi} d\phi \int_0^\pi \sin\theta \, d\theta \int_0^{2\pi} d\psi \, D^{I*}_{M0}(\phi, \theta, \psi) \hat{R}(\phi, \theta, \psi) |\Phi\rangle.
+\end{equation}
+对于 $K = 0$，Wigner 函数化为：
+\begin{equation}\label{eq:2-5-D-axial-form}
+D^{I*}_{M0}(\phi, \theta, \psi) = d^I_{M0}(\theta) e^{i M \phi},
+\end{equation}
+对内禀角 $\psi$ 的积分直接给出因子 $2\pi$。态矢化简为：
+\begin{equation}\label{eq:2-5-axial-state-simplified}
+P^I_{M0} |\Phi\rangle = \frac{2I+1}{4\pi} \int_0^{2\pi} d\phi \, e^{i M \phi} e^{-i \phi \hat{J}_z / \hbar} \int_0^\pi \sin\theta \, d\theta \, d^I_{M0}(\theta) e^{-i \theta \hat{J}_y / \hbar} |\Phi\rangle.
+\end{equation}
+注意式中对实验室方位角 $\phi$ 的积分依然保留，它确保了态矢具有确切的实验室磁量子数 $M \in \{-I, -I+1, \dots, +I\}$。在各向同性空间中，全部 $2I+1$ 个 $M$ 态严格简并。
+
+\textbf{离散旋转对称性与自旋选择定则}：空间反演宇称 $\hat{\Pi}$ 本身不能单独导出能带只含偶自旋 $I$。自旋限制来源于内禀波包在绕垂直主轴（内禀 $y$ 轴）旋转 $\pi$ 下的离散对称性（离散 $D_2$ 转动点群中绕垂直轴的 $\pi$ 转动对称性）：
+\begin{equation}\label{eq:2-5-Ry-symmetry}
+\hat{R}_{y, \text{intr}}(\pi) |\Phi\rangle = \exp(-i\pi \hat{J}_{y, \text{intr}} / \hbar) |\Phi\rangle = + |\Phi\rangle.
+\end{equation}
+将该对称操作作用于投影态矢，利用角动量算符结合规则：
+\begin{equation}\label{eq:2-5-P-rot-commute}
+P^I_{MK} \hat{R}(\Omega) = \sum_{K'} D^I_{K K'}(\Omega) P^I_{MK'}.
+\end{equation}
+由此展开得到：
+\begin{align}\label{eq:2-5-spin-selection-derivation}
+P^I_{M0} |\Phi\rangle &= P^I_{M0} \hat{R}_{y, \text{intr}}(\pi) |\Phi\rangle \nonumber \\
+&= D^I_{00}(0, \pi, 0) P^I_{M0} |\Phi\rangle \nonumber \\
+&= d^I_{00}(\pi) P^I_{M0} |\Phi\rangle.
+\end{align}
+由于 $d^I_{00}(\pi) = (-1)^I$，上式直接给出严格恒等式：
+\begin{equation}\label{eq:2-5-even-spin-condition}
+P^I_{M0} |\Phi\rangle = (-1)^I P^I_{M0} |\Phi\rangle.
+\end{equation}
+由此得出明确选择定则：当 $I$ 为奇数时，$P^I_{M0} |\Phi\rangle \equiv 0$ 恒等于零；非零投影态只能具有偶数自旋（$I = 0, 2, 4, \dots$）。偶 $I$ 投影态是否实际非零，还取决于内禀参考态中该自旋分量的展开权重（若波包中某偶 $I$ 振幅为零，则投影仍为零）。
+
+在计算重叠度规核 $N^I_{00} \equiv \langle \Phi | P^I_{00} | \Phi \rangle$ 时，由于两端夹上轴对称态使得 $\phi$ 积分亦化简为 $2\pi$，度规核退化为一维转动重叠积分：
+\begin{equation}\label{eq:2-5-axial-norm-integral}
+N^I_{00} = \frac{2I+1}{2} \int_0^\pi \sin\theta \, d\theta \, d^I_{00}(\theta) \langle \Phi | \exp(-i \theta \hat{J}_y / \hbar) | \Phi \rangle.
+\end{equation}
+在单 $K$ 投影近似下，态能量为比值 $E(I) = H^I_{00} / N^I_{00}$。若额外引入强变形与绝热展开近似（即内禀态重叠函数 $\langle \Phi | e^{-i\theta \hat{J}_y/\hbar} | \Phi \rangle$ 随转角 $\theta$ 急剧衰减并允许转动能局域展开），该式可导出行如：
+\begin{equation}\label{eq:2-5-rot-band-emergence}
+E(I) \approx E_0 + \frac{\hbar^2}{2\mathcal{J}_{\text{eff}}} I(I+1)
+\end{equation}
+的转子能谱。然而，纯角动量投影本身不自动保证严格的刚体转子能谱；在实际核中，形变柔软度、科里奥利反配对效应与准粒子重排会导致能谱显著偏离理想转子。

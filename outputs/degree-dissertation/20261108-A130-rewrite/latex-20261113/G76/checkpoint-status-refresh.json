@@ -1,0 +1,55 @@
+{
+  "checkpoint": "G76-latex-engineering-status-refresh",
+  "refreshed_at_utc": "2026-11-13T03:46:53.057447+00:00",
+  "executor": "G76 (Gemini)",
+  "status": "ready-for-parent-acceptance-standby",
+  "audit_verdict": "CLEAN_PASS",
+  "thesis_pdf": {
+    "path": "/workspace/wiki/raw/writing/gpt/A130/these_2023_template/these_template/Thesis.pdf",
+    "size_bytes": 1676015,
+    "page_count": 128
+  },
+  "build_report_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G76/build_report.json",
+  "manuscript_status_path": "raw/writing/gpt/A130/manuscript-status.json",
+  "receipt_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G76/receipt.json",
+  "production_inputs": {
+    "tracked_files_count": 49,
+    "manifest_sha256": "152f30777a592c06ce0acb4b2632715bf23d00adb8d2d57841f0e365d741b33f"
+  },
+  "compilation_metrics": {
+    "fatal_errors": 0,
+    "missing_citations": 0,
+    "missing_references": 0,
+    "overfull_hboxes": 0,
+    "overfull_vboxes": 0,
+    "missing_glyphs": 0,
+    "bibtex_errors": 0,
+    "bibtex_warnings": 0,
+    "total_pdf_pages": 128
+  },
+  "visual_inspection_verification": {
+    "page_1_cover": "Title + subtitle '前置章节研究稿（写作中）' preserved; all personal fields blank.",
+    "page_100_even_header": "Single-line running header '原子核形状与集体激发' verified; crowding resolved.",
+    "page_115_bibliography": "33 verified entries formatted with GB/T 7714 numerical.",
+    "page_119_appendix_b": "Titled '附录 B 对称性恢复与非正交态' with eq. B.1-B.33.",
+    "page_127_appendix_c": "Titled '附录 C 集体动能与响应的约定' with eq. C.1-C.15."
+  },
+  "scope_and_boundary_declaration": {
+    "manuscript_scope": "15 active sections (1.1-1.5, 2.1-2.6, 3.5, 5.3, 5.4, 5.9) and Appendix B/C verified; 24 sections remain stub [未完成]; whole thesis incomplete; 128-page CLEAN_PASS.",
+    "provenance_boundary": "2.6/C 由恢复后 GPT 而非 Gemini 完成；旧 34 项本地已被用户删除、17 Git 源 blob 可恢复边界保持。",
+    "authorizations_respected": "No modifications to scientific text, build script, Thesis.tex, or non-owned ledgers. Cleaned files remain in archive."
+  },
+  "owned_ledgers_synced": {
+    "section-2-1.json": {
+      "target_sha256": "cce29838eadc2eb20dcaef4a795334cf625f12332caf8e4d9448e510ca1f34ba",
+      "diff_patch": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G76/diff_sec_2_1.patch"
+    },
+    "section-2-2.json": {
+      "target_sha256": "09a52f3931fdd421ba76114206b6c0d4093471a5d3f69523ee01d69195e5e1dc",
+      "diff_patch": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G76/diff_sec_2_2.patch"
+    }
+  },
+  "integrated_sections_count": 15,
+  "not_started_sections_count": 24,
+  "admission_boundary": "Content admission is based on direct evidence and explicit corrections; 15 sections (1.1-1.5, 2.1-2.6, 3.5, 5.3, 5.4, 5.9) and Appendices B/C are verified and admitted into the 128-page CLEAN_PASS build; remaining 24 sections are stubs [未完成] and whole thesis manuscript is incomplete. Historical review labels do not confer scientific eligibility."
+}

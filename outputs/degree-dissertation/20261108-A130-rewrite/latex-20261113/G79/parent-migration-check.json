@@ -1,0 +1,138 @@
+{
+  "reviewer": "parent-agent",
+  "results": [
+    {
+      "section": "5.3",
+      "sha256": "a1e9d28f032788c46f991fd83d27c71f719f20fb0c825a5c696e2a82b3a7cac0",
+      "display_input": 19,
+      "display_output": 19,
+      "exact_display_matches": 15,
+      "missing_display_samples": [
+        "d[n]=v[n]-v[n-k]-v[n-\\ell]+v[n-k-\\ell],",
+        "p[n]=p[n-1]+d[n],",
+        "r[n]=p[n]+Md[n],"
+      ],
+      "missing_inline": [
+        [
+          "e^{T_s/\\tau_d}-1",
+          1
+        ],
+        [
+          "100(1000-\\widehatA)/1000",
+          1
+        ],
+        [
+          "1-e^{-R\\Deltat}",
+          1
+        ]
+      ],
+      "missing_citation_keys": [
+        "wu-2021-general-purpose-digital-daq-waveform-analysis"
+      ],
+      "ledger_keys": [
+        "section_id",
+        "title",
+        "worker",
+        "recorded_at",
+        "input_draft",
+        "original_ledger",
+        "output_latex",
+        "sources",
+        "source_locators",
+        "migration_differences",
+        "scientific_integrity_checks",
+        "unresolved_items"
+      ]
+    },
+    {
+      "section": "5.4",
+      "sha256": "c3d400bc237dd6a00d2fa4de14ca075b87a0b62aa291cdf5c9250242f2c7d34a",
+      "display_input": 7,
+      "display_output": 9,
+      "exact_display_matches": 3,
+      "missing_display_samples": [
+        "\\widehatt_{\\mathrm{zc}}=t_n-\\frac{C[n]}{C[n+1]-C[n]}T_s.",
+        "\\widehatt_{\\mathrm{zc}}=t_n-\\frac{AC_g[n]}{A\\{C_g[n+1]-C_g[n]\\}}T_s=t_n-\\frac{C_g[n]}{C_g[n+1]-C_g[n]}T_s.",
+        "\\sigma_t\\simeq\\frac{\\sigma_C}{|\\barC'(t_\\times)|}."
+      ],
+      "missing_inline": [
+        [
+          "\\deltat_{\\mathrm{code}}=T_{\\mathrm{tick}}/2^b",
+          1
+        ],
+        [
+          "\\barC(t)",
+          1
+        ],
+        [
+          "t_{\\mathrm{ref}}",
+          1
+        ],
+        [
+          "\\widehatt_{\\mathrm{zc}}-(t_0+t_{\\mathrm{ref}})",
+          1
+        ]
+      ],
+      "missing_citation_keys": [],
+      "ledger_keys": [
+        "section_id",
+        "title",
+        "worker",
+        "recorded_at",
+        "input_draft",
+        "original_ledger",
+        "output_latex",
+        "sources",
+        "source_locators",
+        "migration_differences",
+        "scientific_integrity_checks",
+        "unresolved_items"
+      ]
+    },
+    {
+      "section": "5.9",
+      "sha256": "f5eb75333f08b179119e071d6e75c9788ef3a33e019492c41fca2abdb1e243f9",
+      "display_input": 40,
+      "display_output": 44,
+      "exact_display_matches": 0,
+      "missing_display_samples": [
+        "\\tau\\equiv\\frac{\\int_0^\\inftyte^{-\\lambda_{\\text{tot}}t}dt}{\\int_0^\\inftye^{-\\lambda_{\\text{tot}}t}dt}=\\frac{1}{\\lambda_",
+        "T_{1/2}=\\tau\\ln2\\approx0.69315\\tau",
+        "\\Gamma_{\\text{tot}}=\\hbar\\lambda_{\\text{tot}}=\\frac{\\hbar}{\\tau}"
+      ],
+      "missing_inline": [
+        [
+          "\\tau",
+          1
+        ],
+        [
+          "\\hbar",
+          2
+        ],
+        [
+          "\\lambda_{\\text{tot}}=1/\\tau",
+          1
+        ],
+        [
+          "\\ln2",
+          1
+        ]
+      ],
+      "missing_citation_keys": [],
+      "ledger_keys": [
+        "section_id",
+        "title",
+        "worker",
+        "recorded_at",
+        "input_draft",
+        "original_ledger",
+        "output_latex",
+        "sources",
+        "source_locators",
+        "migration_differences",
+        "scientific_integrity_checks",
+        "unresolved_items"
+      ]
+    }
+  ]
+}

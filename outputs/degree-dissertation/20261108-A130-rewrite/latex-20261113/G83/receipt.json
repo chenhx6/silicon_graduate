@@ -1,0 +1,25 @@
+{
+  "worker": "G83",
+  "role": "Gemini Tiered/high executor",
+  "recorded_at": "2026-11-13T03:02:38.244621+00:00",
+  "target_source": "knowledge/sources/duguet-2015-non-observable-nuclear-shell-structure.md",
+  "file_sha256": "4e4e0ad1d43e78473faf4b9c6167d263af8a67c2b3c097d7c30227ddc0ddecd3",
+  "schema_repairs_applied": [
+    "reading_depth: targeted -> skimmed",
+    "citation_key: added working key duguet-2015-non-observable-nuclear-shell-structure",
+    "added section: ## Summary (1 paragraph summary of existing knowledge)",
+    "renamed section: ## Grounded Definitions -> ## Key Results with 5-row governance claim table (claim_kind, evidence_level, locator, needs_review)",
+    "renamed section: ## Limitations and Rejected Extensions -> ## Competing Interpretations and Limitations",
+    "Scope and Reading Depth: recorded explicit Covered scope and Not covered"
+  ],
+  "lint_validation": {
+    "wiki_lint_target_issues": 0,
+    "archive_gate_ok": true
+  },
+  "git_commit_or_push_executed": false,
+  "derived_agents_created": false,
+  "pending_items": [
+    "INDEX_MISSING to be updated in knowledge/index.md by parent agent"
+  ],
+  "task_status": "scoped_schema_fix_complete_pending_parent_acceptance"
+}

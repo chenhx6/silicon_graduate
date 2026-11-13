@@ -1,0 +1,26 @@
+{
+  "observed_contexts": [
+    {
+      "agent_id": "01a1d28e-a982-7dd3-9f31-e3a98e49ddd4",
+      "latest_context": {
+        "model": "codex/gpt-6.1-terra",
+        "effort": "xhigh"
+      }
+    },
+    {
+      "agent_id": "01a1d2ab-8b16-7b61-9235-46c9f047bf46",
+      "latest_context": {
+        "model": "codex/gpt-6.1-terra",
+        "effort": "xhigh"
+      }
+    },
+    {
+      "agent_id": "01a1d274-9b24-7103-8c24-37eb7035f6c8",
+      "latest_context": {
+        "model": "codex/gpt-6.1-sol",
+        "effort": "xhigh"
+      }
+    }
+  ],
+  "boundary": "Observed execution model and effort, no billing assertion."
+}

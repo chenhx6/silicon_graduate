@@ -1,0 +1,28 @@
+%---------------------------------------------------------------------------%
+%->> Appendix
+%---------------------------------------------------------------------------%
+\thispagestyle{appendixheader}
+\ctexset{
+    chapter = {
+        numbering = true,
+        number = \Alph{chapter},
+        name = {附录~, },
+    }
+}
+\renewcommand{\theequation}{\Alph{chapter}.\arabic{equation}}
+\renewcommand{\thefigure}{\Alph{chapter}-\arabic{figure}}
+\renewcommand{\thetable}{\Alph{chapter}-\arabic{table}}
+
+\IfFileExists{Tex/Appendices/AppendixB.tex}{%
+    \setcounter{chapter}{1}% 保证附录编号为附录 B
+    \input{Tex/Appendices/AppendixB}%
+}{%
+    % 暂无已完成附录
+}
+
+\IfFileExists{Tex/Appendices/AppendixC.tex}{%
+    \input{Tex/Appendices/AppendixC}%
+}{%
+    % 暂无附录 C
+}
+%---------------------------------------------------------------------------%

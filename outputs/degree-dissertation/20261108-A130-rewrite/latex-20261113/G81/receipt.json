@@ -1,0 +1,94 @@
+{
+  "batch_id": "G81",
+  "executor": "gemini-execution-agent (G81)",
+  "task": "Section 3.5 fidelity LaTeX migration, Section 2.5 pedagogical draft, Appendix B projection & non-orthogonal appendix, T13 second-round review narrow repairs, research-note writeback, and LaTeX evidence ledgers",
+  "timestamp": "2026-11-13T02:50:14.975534+00:00",
+  "status": "completed-stage-deliverables-v6-schema-lint-certified",
+  "exclusive_paths_touched": [
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-5.tex",
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-5.tex",
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixB.tex",
+    "raw/writing/gpt/A130/latex-evidence-ledger/section-3-5.json",
+    "raw/writing/gpt/A130/latex-evidence-ledger/section-2-5.json",
+    "raw/writing/gpt/A130/latex-evidence-ledger/appendix-B.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G81/outline.json",
+    "knowledge/research-notes/a130-rewrite-projection-selection-and-metric-truncation-20261113.md",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G81/receipt.json"
+  ],
+  "prohibitions_respected": {
+    "template_entry_modified": false,
+    "chapter_wrapper_modified": false,
+    "bibtex_modified": false,
+    "img_dir_modified": false,
+    "old_research_drafts_modified": false,
+    "old_evidence_ledgers_modified": false,
+    "git_commit_or_push_executed": false,
+    "user_memory_or_plan_touched": false,
+    "no_pretended_completion_of_other_appendices": true
+  },
+  "t13_review_five_repairs_applied": {
+    "item_1_rotation_right_action": "eq:2-5-P-rot-commute 严格更正为 P^I_{MK} R(Omega) = sum_{K'} D^I_{K K'}(Omega) P^I_{M K'}；选择定则明确为'非零投影只能有偶 I，偶 I 是否实际出现还取决于参考态权重'。",
+    "item_2_representation_classes": "明确 8pi^2 角积分和 Peter-Weyl 正交性只在固定核子数奇偶对应的单一整数或半整数表示类内使用，同类乘积对中心元单值，不声称跨整数/半整数同时正交。",
+    "item_3_two_state_root_labels": "附录 B 复根式按 +- 号定义有序 E_{high/low}；实两态系统正文与附录 B 统一使用对称/反对称标签 E_s = (h+k)/(1+S)、E_a = (h-k)/(1-S)，能隙写为 Delta E_{phys} = |E_a - E_s| = 2|hS - k|/(1 - S^2)。",
+    "item_4_erroneous_diagonal_shift": "错误平移公式直接写 det(H + c 1 - E' N) = 0；若用 c(1 - N) 则明确引入相对于平移量的能量 epsilon = E' - c 写为 det[H + c(1 - N) - epsilon N] = 0；'必改变间距'纠正为'一般会虚假改变'。",
+    "item_5_trial_space_variational_status": "正文明确 Hill-Wheeler 方程为所选 good-I 投影试探空间中的 Ritz 变分近似，有限空间态一般非全 H 精确本征态；附录 B 明确截断后的标准厄米本征问题仅在保留子空间内部等价，不声称全空间残差逐行必为零。",
+    "raduta_locator_verification": "依据 T13 报告定向核对 Raduta 2016 专著 Section 3.3（印刷 p. 43，PDF p. 54）Eqs.(3.3.3)–(3.3.5) 作为标准三维投影算符真实 locator。"
+  },
+  "artifacts_manifest": {
+    "sec-3-5.tex": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-5.tex",
+      "sha256": "5439b517623ae5142cd4711bfd849cc0df1db4574aac3dfd305a2963dabfdea8",
+      "type": "migration",
+      "display_equations": 18,
+      "math_fidelity": "18/18 display equations and 184/184 inline math expressions strictly matched; citations mapped to \\cite"
+    },
+    "sec-2-5.tex": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-5.tex",
+      "sha256": "d63f29d8e491069876161d6dfe49f8997ad0ac0af514ea56c9c25b06a85b4fcb",
+      "type": "new-draft",
+      "section_title": "内禀参考与对称性恢复",
+      "display_equations": 29
+    },
+    "AppendixB.tex": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixB.tex",
+      "sha256": "93785f3c48c54b1cda81f146da0465be7de835267e5842c95c2735f386eef6f8",
+      "type": "new-draft",
+      "chapter_title": "对称性恢复与非正交态",
+      "chapter_label": "app:projection",
+      "display_equations": 34
+    },
+    "knowledge_writeback": {
+      "path": "knowledge/research-notes/a130-rewrite-projection-selection-and-metric-truncation-20261113.md",
+      "sha256": "abe45065385e026f83447068ea1185f47551a8f46060105533f85c4fdfaddb50",
+      "title": "A130重写研学：投影选择定则、度规子空间截断与对称性恢复边界"
+    },
+    "latex_evidence_ledgers": [
+      "raw/writing/gpt/A130/latex-evidence-ledger/section-3-5.json",
+      "raw/writing/gpt/A130/latex-evidence-ledger/section-2-5.json",
+      "raw/writing/gpt/A130/latex-evidence-ledger/appendix-B.json"
+    ],
+    "outline": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G81/outline.json"
+  },
+  "unresolved_items_for_parent": [
+    "AppendixB.tex 内部自含 \\chapter{对称性恢复与非正交态}\\label{app:projection}，由主工程 G76 在主控流程中配置 \\appendix 并将章节计数器设为 B。",
+    "Sec 2.5 与 Sec 3.5 均安全链接 \\ref{app:projection}，未引用未定义的不稳定标签。",
+    "新知识页 knowledge/research-notes/a130-rewrite-projection-selection-and-metric-truncation-20261113.md 已补齐 5 个必需小节（Competing Explanations, Transfer Conditions, Falsification or Reverse Tests, Open Questions, Human Review），待父级统一补 index/project 回链。",
+    "Worker 状态为 completed-stage-deliverables-v6-schema-lint-certified，不作为发布级认证，科学验收权限严格保留给父 GPT 审稿面板。"
+  ],
+  "next_section_prepared": {
+    "section_id": "3.2",
+    "contract_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G81/next-3-2-contract.json",
+    "contract_sha256": "a2c1e9cec937d2415b1384e9b2e80264a1f414430314ea36fbe343d54789e42a",
+    "staging_draft_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G81/sec-3-2-staging.tex",
+    "staging_draft_sha256": "071c70d01b28dc0043854a07df2e3b442cea23493b80a405d71f31cf749af7be",
+    "status": "staged-in-output-awaiting-parent-start-and-t14",
+    "t14_snippets_integrated": [
+      "BM Eq.(4-297) 体轴反常负对易匹配的玻色产生湮灭算符 a=(I_2+i I_3)/sqrt(2I)",
+      "BM Eq.(4-302) 纯转子摆动频率 hbar omega_wob 与转动能标 hbar omega_rot 严格自洽",
+      "BM Eq.(4-307) 大自旋局域展开有效判据 I >> (2n+1)(d_2+d_3)/(2 sqrt(d_2 d_3))",
+      "修正两种轴对称极限：J1=J2 为赤道简并面 (omega->0)；J2=J3 轴1为对称轴，对应高 K 进动机制 (Shimizu 2005)",
+      "经典稳定性区分最大惯量轴 (yrast 稳态)、最小惯量轴 (高能稳态) 与中间惯量轴 (鞍点 separatrix)",
+      "有限自旋非谐边界：R_21 不普遍等1不等于必严格不等，不能任意贴 n 声子标签"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "reviewer": "parent-agent",
+  "results": [
+    {
+      "section": "1.1",
+      "sha256": "375ff8b50ac5d3588a173bbf2a9446917bbe9ec9a27c30df33a8f08a57b62b67",
+      "original_display": 0,
+      "tex_display": 0,
+      "exact_display_present": 0,
+      "all_original_citekeys_present": true,
+      "original_math_variables_at_risk_restored": true
+    },
+    {
+      "section": "1.2",
+      "sha256": "cdc65bc8569ed15f8c4d32a28d17f64b1509929620e37d8d93054e140e3962fb",
+      "original_display": 17,
+      "tex_display": 17,
+      "exact_display_present": 17,
+      "all_original_citekeys_present": true,
+      "original_math_variables_at_risk_restored": true
+    },
+    {
+      "section": "1.3",
+      "sha256": "41e375449934242995f7a810b1224d5b7b8f96d018038d34a8de58d2d7dc6075",
+      "original_display": 0,
+      "tex_display": 0,
+      "exact_display_present": 0,
+      "all_original_citekeys_present": true,
+      "original_math_variables_at_risk_restored": true
+    },
+    {
+      "section": "1.4",
+      "sha256": "2871873b582e6583fc12c9e04827cfd311779db2e2ecde38a371ed43984b0d71",
+      "original_display": 0,
+      "tex_display": 0,
+      "exact_display_present": 0,
+      "all_original_citekeys_present": true,
+      "original_math_variables_at_risk_restored": true
+    }
+  ],
+  "decision": "accept-content-first-chapter-sections-1.1-to-1.5",
+  "checked_at": "2026-11-13T02:09:45.028324+00:00",
+  "new_section_1_5": {
+    "sha256": "0fa1b039649e21367d2e64b3a73705e3bcc1876f343bb851df967299e993d3f8",
+    "edits_verified": true,
+    "scope": "New chapter guide reviewed for inference layers, competing interpretations and no private-result fabrication; style cohesion remains a whole-draft task."
+  },
+  "compilation_pending": true,
+  "whole_manuscript_complete": false,
+  "hash_boundary": "Use actual computed files/ledgers; callback hash tables are not authoritative."
+}

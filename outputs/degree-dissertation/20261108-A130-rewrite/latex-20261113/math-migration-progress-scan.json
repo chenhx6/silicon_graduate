@@ -1,0 +1,54 @@
+{
+  "in_progress_only": true,
+  "interpretation": "Exact normalized mismatch signals a review item, not proof of incorrect physics; modifications may be legitimate and must be mapped.",
+  "sections": [
+    {
+      "section": "sec-1-1",
+      "original_blocks": 0,
+      "tex_environments": 0,
+      "exact_normalized_math_blocks_present": 0,
+      "unmatched_original_prefixes": []
+    },
+    {
+      "section": "sec-1-2",
+      "original_blocks": 17,
+      "tex_environments": 14,
+      "exact_normalized_math_blocks_present": 8,
+      "unmatched_original_prefixes": [
+        "\\langleI,M|\\mathcal{M}(E2,\\mu)|I,M'\\rangle=(-1)^{I-M}\\begin{pmatrix}I&2&I\\\\-M&\\mu&M'\\end{pmatrix}\\la",
+        "\\rho_{c,\\text{lab}}(\\mathbf{r})\\equiv\\langle0^+|\\hat{\\rho}_c(\\mathbf{r})|0^+\\rangle=\\rho_0(r)."
+      ]
+    },
+    {
+      "section": "sec-2-1",
+      "original_blocks": 29,
+      "tex_environments": 29,
+      "exact_normalized_math_blocks_present": 29,
+      "unmatched_original_prefixes": []
+    },
+    {
+      "section": "sec-2-2",
+      "original_blocks": 14,
+      "tex_environments": 14,
+      "exact_normalized_math_blocks_present": 11,
+      "unmatched_original_prefixes": [
+        "E_j(n)=\\epsilon^n_{0;j}n+\\frac12v_jn(n-1)+u_jn.",
+        "e_j^+=\\epsilon^n_{0;j}+v_jn+u_j,e_j^-=\\epsilon^n_{0;j}+v_j(n-1)+u_j,\\frac{\\partialE_j}{\\partialn}=\\e"
+      ]
+    },
+    {
+      "section": "sec-2-3",
+      "original_blocks": 41,
+      "tex_environments": 41,
+      "exact_normalized_math_blocks_present": 41,
+      "unmatched_original_prefixes": []
+    },
+    {
+      "section": "sec-3-5",
+      "original_blocks": 18,
+      "tex_environments": 18,
+      "exact_normalized_math_blocks_present": 18,
+      "unmatched_original_prefixes": []
+    }
+  ]
+}

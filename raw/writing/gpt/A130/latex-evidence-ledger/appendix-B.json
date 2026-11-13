@@ -1,0 +1,82 @@
+{
+  "appendix_id": "B",
+  "title": "对称性恢复与非正交态",
+  "appendix_label": "app:projection",
+  "type": "new-draft",
+  "status": "latex-draft-final-audited-v5",
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixB.tex",
+  "output_tex_sha256": "93785f3c48c54b1cda81f146da0465be7de835267e5842c95c2735f386eef6f8",
+  "scope_boundary": "严格给出含 hbar 量纲规范的三维角动量投影算符代数性质证明（定理B.1伴随性质、定理B.2乘法与幂等性质）、Ritz变分原理导出Hill-Wheeler广义本征方程的严格推导、能量规范平移不变性定理B.3证明、度规谱分解与子空间截断算法、反幺正算符C代数与C^2=+1严格证明、复非正交两态久期方程二次一元多项式严格解，以及定理B.4同时实化充要条件证明（含 S=0 分支补全）；仅限定于已充分核实的投影、非正交度规与反幺正内容，不假装其它附录完成。",
+  "source_inputs": [
+    {
+      "source_id": "book-raduta-coherent-states",
+      "canonical_source": "A. A. Raduta, Nuclear Structure with Coherent States, Springer (2016)",
+      "raw_file": "raw/books/nuclear structure with coherent states_Raduta.pdf",
+      "raw_sha256": "98b057e53e323b0f4781060ad5ae4a8c045ac36b32c0650033953360d951aca3",
+      "actual_read_pages": "PDF pp. 54–55 (Section 3.3, printed p. 43, Eqs.(3.3.3)–(3.3.5) defining projection operator P^J_MK); PDF pp. 189–195 (Chapter 6, Section 6.1 CSM and overlap integrals Eq.(6.1.17))",
+      "claims_supported": [
+        "Peierls-Yoccoz 投影算符正交与相乘规则的严格群论证明",
+        "度规矩阵酉对角化与规范正交基（canonical basis）构造算法"
+      ]
+    },
+    {
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "canonical_source": "J. Suhonen, From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory, Springer (2007)",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "actual_read_pages": "PDF pp. 38–41 (Section 2.1.2 Properties of Wigner D-functions)",
+      "claims_supported": [
+        "Wigner D 矩阵的 Peter-Weyl 正交性与群乘法定理",
+        "Haar 测度群积分不变性定理"
+      ]
+    },
+    {
+      "source_id": "knowledge/research-notes/a130-rewrite-chiral-nonorthogonal-and-fingerprint-boundaries-20261108.md",
+      "canonical_source": "Wiki Research Note (2026-11-08)",
+      "actual_read_pages": "§Provisional Reasoning (复非正交两态精确久期解与实化定理)",
+      "claims_supported": [
+        "复非正交两态久期行列式标准展开与判别式四分之一 (Delta / 4) 的配方因式分解",
+        "定相变换下 k S^* 的规范不变性与同时实化充要条件 Im(k S^*) = 0 证明（含 S=0 分支补全）",
+        "实两态解与一般复非正交能隙 Delta E_phys 解析公式推导"
+      ]
+    },
+    {
+      "source_id": "knowledge/research-notes/doctoral-r3-quantum-labels-and-model-boundaries-20261108.md",
+      "canonical_source": "Wiki Research Note (2026-11-08)",
+      "actual_read_pages": "§反幺正时间反演对易与 C^2 = +1 恒等式",
+      "claims_supported": [
+        "T R_y(theta) = R_y(theta) T 对易关系与 C^2 = T^2 R_y(2pi) = +1 对整数/半整数自旋恒成立的严格代数证明"
+      ]
+    }
+  ],
+  "notations_and_conventions": {
+    "rotation_operators": "所有空间转动算符指数均严格显式除以 \\hbar：\\exp(-i \\phi \\hat{J}_z / \\hbar) 等",
+    "metric_matrix": "度规矩阵 N 为厄米半正定矩阵，N_{ij} = <phi_i | phi_j>",
+    "canonical_basis": "规范正交基 |chi_alpha> = (1/sqrt(d_alpha)) sum_i (U_red)_{ialpha} |phi_i>",
+    "discriminant_quarter": "判别式的四分之一记为 \\Delta / 4 = [Re(k S^*) - h|S|^2]^2 + (1 - |S|^2)|h S - k|^2"
+  },
+  "claims_and_derivations": {
+    "theorem_B1_adjoint": "严格证明 (P^I_{MK})^\\dagger = P^I_{KM}",
+    "theorem_B2_product": "严格证明 P^I_{MK} P^{I'}_{M'K'} = \\delta_{II'} \\delta_{KM'} P^I_{MK'}",
+    "theorem_B3_gauge_shift": "严格证明 H -> H + c N 保证能量统一平移 E -> E + c 且本征子空间完全守恒",
+    "subspace_truncation_algorithm": "区分精确零模剔除与有限截断近似；截断后的标准厄米本征问题仅在保留子空间内部等价",
+    "C_squared_identity": "严格证明 C^2 = +1 对任意整数与半整数自旋均精确成立",
+    "complex_nonorthogonal_two_state_solution": "严格给出复参数一元二次久期多项式的实本征根无序对 E_+- 解析解",
+    "theorem_B4_realifiability": "严格证明同时实化 S 与 k 的充要条件为 Im(k S^*) = 0，显式补全 S=0 分支（取 phi = 1/2 arg k）与 k=S=0 平凡分支"
+  },
+  "competing_explanations_and_boundaries": {
+    "subspace_equivalence_boundary": "截断后的标准厄米本征方程只在保留有效子空间内部等价，不能误述为原全空间的严格数学等价",
+    "diagonal_shift_fallacy": "若误采用 H -> H + c 1，非对角度规元将人为破坏相对能级间距并引发非物理态漂移"
+  },
+  "reader_checks": [
+    "为什么判别式除以 4 保证复非正交两态系统恒具有两个实数本征根？",
+    "在 S=0 时，定理 B.4 的实化条件为何依然成立？",
+    "有限度规截断阈值 epsilon_cut 对物理能谱的影响应当如何通过数值收敛性检验？"
+  ],
+  "prohibitions_strictly_obeyed": [
+    "仅撰写充分核实的投影、非正交度规与反幺正内容，不假装其它附录完成",
+    "不使用无依据的经验通用阈值范围",
+    "不把微小非零范数态武断称为虚假零模"
+  ],
+  "open_issues": []
+}

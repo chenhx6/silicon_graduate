@@ -1,0 +1,76 @@
+{
+  "recorded_at": "2026-11-13T02:17:31.567214+00:00",
+  "syntax_checks": [
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-6.tex",
+      "nested_environments_balanced": true,
+      "no_markdown_residue": true
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixC.tex",
+      "nested_environments_balanced": true,
+      "no_markdown_residue": true
+    }
+  ],
+  "compile_check": {
+    "kind": "section_2_6_and_response_appendix_only",
+    "engine": "xelatex, ctexbook fontset=fandol, 146.6mm text width",
+    "bibliography": "read existing canonical BibTeX, no modification",
+    "bibliography_input": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Biblio/ref.bib",
+      "sha256": "cd371bb3a30f03e12e9fd990bd086147e3c5631ffe581735cdc5d9342ed47023",
+      "size_bytes": 11726
+    },
+    "commands": [
+      {
+        "command": [
+          "bibtex",
+          "smoke"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "xelatex",
+          "-interaction=nonstopmode",
+          "-halt-on-error",
+          "smoke.tex"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "xelatex",
+          "-interaction=nonstopmode",
+          "-halt-on-error",
+          "smoke.tex"
+        ],
+        "returncode": 0
+      }
+    ],
+    "overfull_hbox_count": 0,
+    "missing_character_count": 0,
+    "undefined_citation_count": 0,
+    "undefined_reference_count": 0,
+    "output": [
+      "Output written on smoke.pdf (9 pages)."
+    ],
+    "pdf": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G82/smoke.pdf",
+      "sha256": "0aca9dc38a6b1bf48ce482ab3143f1e799ccaae15d2b7d16d11f1adb570c899e",
+      "size_bytes": 326149
+    },
+    "limitation": "Local format/syntax check only; G76 owns integrated compilation, parent owns scientific acceptance"
+  },
+  "new_label_count": 40,
+  "equation_count": 29,
+  "protected_checks": {
+    "section_2_4_tex_and_ledger_unchanged": true,
+    "authorised_layout_exceptions": [
+      "2.1",
+      "2.2",
+      "2.3"
+    ],
+    "other_concurrent_changes_observed": []
+  }
+}

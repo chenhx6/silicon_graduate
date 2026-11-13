@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="396.72pt" height="345.6pt" viewBox="0 0 396.72 345.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-13T10:15:31.079072</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 345.6
+L 396.72 345.6
+L 396.72 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 24.01632 117.05904
+L 186.98976 117.05904
+Q 194.56992 117.05904 194.56992 110.50128
+L 194.56992 18.69264
+Q 194.56992 12.13488 186.98976 12.13488
+L 24.01632 12.13488
+Q 16.43616 12.13488 16.43616 18.69264
+L 16.43616 110.50128
+Q 16.43616 117.05904 24.01632 117.05904
+z
+" clip-path="url(#pba5bf487db)" style="fill: #e0f2fe; stroke: #0072b2; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 209.73024 117.05904
+L 372.70368 117.05904
+Q 380.28384 117.05904 380.28384 110.50128
+L 380.28384 18.69264
+Q 380.28384 12.13488 372.70368 12.13488
+L 209.73024 12.13488
+Q 202.15008 12.13488 202.15008 18.69264
+L 202.15008 110.50128
+Q 202.15008 117.05904 209.73024 117.05904
+z
+" clip-path="url(#pba5bf487db)" style="fill: #fef3c7; stroke: #e69f00; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 24.01632 225.26208
+L 186.98976 225.26208
+Q 194.56992 225.26208 194.56992 218.70432
+L 194.56992 126.89568
+Q 194.56992 120.33792 186.98976 120.33792
+L 24.01632 120.33792
+Q 16.43616 120.33792 16.43616 126.89568
+L 16.43616 218.70432
+Q 16.43616 225.26208 24.01632 225.26208
+z
+" clip-path="url(#pba5bf487db)" style="fill: #dcfce7; stroke: #009e73; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 209.73024 225.26208
+L 372.70368 225.26208
+Q 380.28384 225.26208 380.28384 218.70432
+L 380.28384 126.89568
+Q 380.28384 120.33792 372.70368 120.33792
+L 209.73024 120.33792
+Q 202.15008 120.33792 202.15008 126.89568
+L 202.15008 218.70432
+Q 202.15008 225.26208 209.73024 225.26208
+z
+" clip-path="url(#pba5bf487db)" style="fill: #f3e8ff; stroke: #cc79a7; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 24.01632 333.46512
+L 186.98976 333.46512
+Q 194.56992 333.46512 194.56992 326.90736
+L 194.56992 235.09872
+Q 194.56992 228.54096 186.98976 228.54096
+L 24.01632 228.54096
+Q 16.43616 228.54096 16.43616 235.09872
+L 16.43616 326.90736
+Q 16.43616 333.46512 24.01632 333.46512
+z
+" clip-path="url(#pba5bf487db)" style="fill: #ffedd5; stroke: #d55e00; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 209.73024 333.46512
+L 372.70368 333.46512
+Q 380.28384 333.46512 380.28384 326.90736
+L 380.28384 235.09872
+Q 380.28384 228.54096 372.70368 228.54096
+L 209.73024 228.54096
+Q 202.15008 228.54096 202.15008 235.09872
+L 202.15008 326.90736
+Q 202.15008 333.46512 209.73024 333.46512
+z
+" clip-path="url(#pba5bf487db)" style="fill: #f1f5f9; stroke: #222222; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #0072b2" x="29.70144" y="33.4476" transform="rotate(-0 29.70144 33.4476)">A ~ 60 (Selected Example)</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #222222" x="29.70144" y="53.12088" transform="rotate(-0 29.70144 53.12088)">Isotope: 64Ge</text>
+   </g>
+   <g id="text_3">
+    <text style="font-style: italic; font-size: 6.7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #222222" x="29.70144" y="72.79416" transform="rotate(-0 29.70144 72.79416)">Probe: RDM lifetime &amp; E2</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #1f2937" x="29.70144" y="92.46744" transform="rotate(-0 29.70144 92.46744)">Boundary: Qs is theoretical</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #e69f00" x="215.41536" y="33.4476" transform="rotate(-0 215.41536 33.4476)">A ~ 80 (Selected Example)</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #222222" x="215.41536" y="53.12088" transform="rotate(-0 215.41536 53.12088)">Isotopes: 74,76Kr</text>
+   </g>
+   <g id="text_7">
+    <text style="font-style: italic; font-size: 6.7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #222222" x="215.41536" y="72.79416" transform="rotate(-0 215.41536 72.79416)">Probe: Multistep CoulEx</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #1f2937" x="215.41536" y="92.46744" transform="rotate(-0 215.41536 92.46744)">Boundary: Mixing &amp; K-map assumptions</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #009e73" x="29.70144" y="141.65064" transform="rotate(-0 29.70144 141.65064)">A ~ 100 (Selected Example)</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #222222" x="29.70144" y="161.32392" transform="rotate(-0 29.70144 161.32392)">Isotope: 98Zr</text>
+   </g>
+   <g id="text_11">
+    <text style="font-style: italic; font-size: 6.7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #222222" x="29.70144" y="180.9972" transform="rotate(-0 29.70144 180.9972)">Probe: RDDS lifetime &amp; E2</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #1f2937" x="29.70144" y="200.67048" transform="rotate(-0 29.70144 200.67048)">Boundary: Adopted branching ratios</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #cc79a7" x="215.41536" y="141.65064" transform="rotate(-0 215.41536 141.65064)">A ~ 130 [Anchor Benchmark]</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #222222" x="215.41536" y="161.32392" transform="rotate(-0 215.41536 161.32392)">Isotope: 133Ce (Selected Example)</text>
+   </g>
+   <g id="text_15">
+    <text style="font-style: italic; font-size: 6.7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #222222" x="215.41536" y="180.9972" transform="rotate(-0 215.41536 180.9972)">Probe: Coincidence &amp; relative EM</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #1f2937" x="215.41536" y="200.67048" transform="rotate(-0 215.41536 200.67048)">Boundary: Lifetime absent in cited study</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #d55e00" x="29.70144" y="249.85368" transform="rotate(-0 29.70144 249.85368)">A ~ 160 (Selected Example)</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #222222" x="29.70144" y="269.52696" transform="rotate(-0 29.70144 269.52696)">Isotope: 163Lu</text>
+   </g>
+   <g id="text_19">
+    <text style="font-style: italic; font-size: 6.7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #222222" x="29.70144" y="289.20024" transform="rotate(-0 29.70144 289.20024)">Probe: DSAM &amp; in/out-band E2</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #1f2937" x="29.70144" y="308.87352" transform="rotate(-0 29.70144 308.87352)">Boundary: Shared branch &amp; delta inputs</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #222222" x="215.41536" y="249.85368" transform="rotate(-0 215.41536 249.85368)">A ~ 190 (Selected Example)</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #222222" x="215.41536" y="269.52696" transform="rotate(-0 215.41536 269.52696)">Isotopes: 182,184,186,188Hg</text>
+   </g>
+   <g id="text_23">
+    <text style="font-style: italic; font-size: 6.7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #222222" x="215.41536" y="289.20024" transform="rotate(-0 215.41536 289.20024)">Probe: CoulEx E2 network</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #1f2937" x="215.41536" y="308.87352" transform="rotate(-0 215.41536 308.87352)">Boundary: Wide errors &amp; missing terms</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pba5bf487db">
+   <rect x="8.856" y="8.856" width="379.008" height="327.888"/>
+  </clipPath>
+ </defs>
+</svg>

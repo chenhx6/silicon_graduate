@@ -6159,3 +6159,5 @@ Gemini下一波G66(2.1)、G67(2.3)、G68(5.3)已实际派发，独占正文/台�
 ## 2026-11-08T02:01:10.288682+00:00 — A130第二批正文与研学
 
 pilot92文件已推送并post-commit对账；第二批四节经原件/数学/数据修订，总计7节整合。T10复杂BCS核查回传关闭、canonical16维控制重放一致；数字成形8行表与原CSV逐值核对。知识同步BCS模型/符号、数字响应/数据链和B/RME/取向边界。G70–G73四Gemini新任务已实际发出，复用旧代理写新节；完整39节goal继续active。第二批发布以wave-2回执为准。
+
+2026-11-13 A130 LaTeX checkpoint: 15/39 sections, delivered appendices B/C, seven Python SVG/PDF figures; 128-page CLEAN_PASS, independent input/ledger hash reconciliation and sampled visual review. Scoped archive/boundary/preflight passed; task lint delta has no new errors (global132 retained). Goal remains active; Gemini next-section contracts and Terra narrow limit audit dispatched. Publication pointer: main / thesis: establish A130 LaTeX manuscript and audited figures.

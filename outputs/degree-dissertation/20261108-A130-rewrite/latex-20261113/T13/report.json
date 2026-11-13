@@ -1,0 +1,75 @@
+{
+  "reviewer": "T13",
+  "scope": "窄范围数学审查；供 G81 定点修正。未修改正文、知识、代码或证据账本。",
+  "reviewed_snapshot_sha256": {
+    "Tex/Sections/sec-2-5.tex": "c8e5cd50807feed6013c7e8a7ba4ce4f6c5b0ed61499336dcad723e3b03e5150",
+    "Tex/Appendices/AppendixB.tex": "6df9e783250c2062323f7df1762635252230052165d55e1e275cdedf3a96091c",
+    "latex-evidence-ledger/section-2-5.json": "9bdc999e1ba6529afc5c58341b03b9bb7e913f5077a0780b70476ad5fdf940d8",
+    "latex-evidence-ledger/appendix-B.json": "51206f4396ec654f61015f7eb690ff7afb7faf5c25302230f4cc560762d3ddec"
+  },
+  "findings": [
+    {
+      "id": "T13-1",
+      "location": "sec-2-5.tex, eq:2-5-P-rot-commute；eq:2-5-spin-selection-derivation；eq:2-5-even-spin-condition 后",
+      "issue": "右作用的 Wigner D 指标转置；偶 I 的非零性被说成充要条件。",
+      "minimal_fix": "改为 P^I_{MK} R(Ω)=∑_{K'} D^I_{K K'}(Ω) P^I_{M K'}。在 K=0、R_y(π) 情形，d^I_{0K'}(π)=(-1)^I δ_{K'0}，故奇 I 投影为零的结论不变。将“当且仅当 I 为偶数时，投影态非零”改成“非零投影态只能有偶 I；偶 I 是否非零还取决于参考态中该 I 分量的权重”。",
+      "derivation": "本审查：同一 I 的各重数空间中 P^I_{MK}=∑_α |IMα⟩⟨IKα|，所以 P^I_{MK}R=∑_{K'}⟨IK|R|IK'⟩P^I_{MK'}=∑_{K'}D^I_{K K'}P^I_{MK'}。K=0 本身要求整数 I；只保证允许偶 I，不保证对应分量存在。"
+    },
+    {
+      "id": "T13-2",
+      "location": "sec-2-5.tex, eq:2-5-proj-op 前后；AppendixB.tex, eq:appB-haar-measure 和 eq:appB-D-orthonormality",
+      "issue": "附录把 8π² SO(3) 测度和不加限制的 Peter–Weyl 正交性一起表述，且随后讨论半整数自旋；半整数 D 不是 SO(3) 的单值表示，不能把所列正交式不加限定地用于整数与半整数跨类。",
+      "minimal_fix": "在两处加入同一简短限定：固定核子数奇偶的空间分别只包含整数 I 或半整数 I；式中的 8π² 欧拉角积分对该固定表示类使用。整数类对应 SO(3)；半整数类使用 SU(2) 双覆盖上的表示，固定类内 D*D 及 D*R 的乘积对中心元单值，因而可按所示 8π² 约定积分。附录明确正交式只在 I、I' 同类时使用，Peter–Weyl 的群论陈述相应限定；不能声称该 8π² 角域的积分对两类混合同时给出正交完备性。",
+      "derivation": "本审查：半整数表示在 2π 转动下变号，单个 D 不能作为 SO(3) 上单值函数；同类乘积两次变号抵消。若选完整 SU(2) 域，也可用 16π² 总测度及相应 1/(16π²) 系数，不必同时更改当前约定。"
+    },
+    {
+      "id": "T13-3",
+      "location": "AppendixB.tex, eq:appB-exact-roots、eq:appB-unordered-roots 和其后 E_s/E_a；正文 eq:2-5-ladder1-energies",
+      "issue": "复根式 E_± 按显式 ± 号定义，E_+≥E_-；附录后文又把同一符号 E_+、E_- 分别固定为对称态和反对称态的能量，而其顺序会随参数颠倒。正文中仅按对称性定义 E_± 可自洽，但与附录前式不一致。",
+      "minimal_fix": "附录的复根式改名 E_high/low=[h−Re(kS*)±√(Δ/4)]/(1−|S|²)，且上号对应 high；后面实对称公式直接写 E_s=(h+k)/(1+S)、E_a=(h−k)/(1−S)，差和能隙均用 E_a−E_s、|E_a−E_s|。正文同样用 E_s/E_a，或明确把其 E_± 仅作为对称性标签，并避免与附录排序标签同名。",
+      "derivation": "本审查：h=1、S=0.3、k=0.1 时 E_s≈0.84615<E_a≈1.28571；改 k=0.5 时 E_s≈1.15385>E_a≈0.71429。故两套 ± 标签不能同时全局成立。"
+    },
+    {
+      "id": "T13-4",
+      "location": "AppendixB.tex, B.3 证明之后的注记，约第 127 行；sec-2-5.tex 错误对角平移的相应段落",
+      "issue": "附录若以 E' 表示错误平移后的实际能量，则 det[H+c(1−N)−E'N]=0 少了 cN；正文同形公式中的 E 未说明是实际能量还是已减去 c 的相对变量。",
+      "minimal_fix": "最直接写 det[H+c 1−E' N]=0；如想保留 c(1−N) 的形式，另定义 ε=E'−c，写 det[H+c(1−N)−εN]=0。正文同步明确同一变量约定。将“将虚假改变”改为“一般会虚假改变”，因为特定 N、H 或 c 的偶然情形可不改变间距。",
+      "derivation": "本审查：从 H_wrong'=H+c1 直接代入广义久期式；正确平移 H'=H+cN、E'=E+c 及简并本征子空间不变的现有证明成立。"
+    },
+    {
+      "id": "T13-5",
+      "location": "sec-2-5.tex 第 69 行、Hill–Wheeler 方程后；AppendixB.tex eq:appB-std-eigen 前后",
+      "issue": "正文“确定……物理能谱与波函数”未限定为所选投影试探空间的 Ritz 结果；小正本征值截断后，约化标准方程等价于保留空间内的投影驻值方程，通常不满足未约化全空间的每一行广义方程。",
+      "minimal_fix": "正文第 69 行改为“为在所选 good-I 投影试探空间中变分求取包含不同 K 混合的近似能谱与波函数……”。方程后补一句“投影确保非零态具有确定 I、M；有限试探空间中的 Ritz 态一般并非全哈密顿量的精确本征态。”附录将“原广义本征方程在保留子空间内等价”具体写为“保留空间的投影方程 U_red†(H−EN)U_red D_red^{-1/2}v=0 等价于下列标准方程”；不声称完整残差必为零。",
+      "derivation": "本审查：同一 I 的两个多重态若 H 本征值分别为 0 和 1，则仅保留两者等权叠加得到 good-I、Ritz 能量 1/2 的态，但它并非 H 的本征态。只有保留空间在 H 作用下闭合或残差恰为零等附加条件下才可作精确本征态判断。"
+    }
+  ],
+  "checks_passed": [
+    {
+      "topic": "复两态判别式、根及能量平移",
+      "result": "在 |S|<1 下，现版 Δ/4 的非负平方和、根值、实 S 复 k 的能隙公式均成立。用 h=1、S=0.3+0.2i、k=0.4+0.1i 的 2×2 核算：det N=0.87、Δ/4=0.0175，两个根约 0.83645107 和 1.14056042；H→H+2N 后各根恰加 2。"
+    },
+    {
+      "topic": "实化条件和 S=0 分支",
+      "result": "现版 Im(kS*)=0 为保留 R=C L 关系的重定相下同时实化 S、k 的充要条件；S=0、k≠0 和 S=k=0 两个分支均正确。能量平移 k→k+cS 不改变 Im(kS*)。"
+    },
+    {
+      "topic": "简并空间",
+      "result": "H→H+cN 时广义本征方程在对应能量的核相同；非简并态可固定相位，简并时只能保证子空间不变，并可选取相同基底。现版主结论成立。"
+    }
+  ],
+  "primary_source_actually_read": [
+    {
+      "source_id": "book-raduta-coherent-states",
+      "raw_file": "raw/books/nuclear structure with coherent states_Raduta.pdf",
+      "locator": "PDF 第 54 页，印刷第 43 页，§3.3，式 (3.3.3)–(3.3.5)",
+      "observed": "定义含 D*_{MK}、8π² 的角动量投影算符；以轴对称相干态的投影态计算能量期望值。",
+      "boundary": "该页支持当前投影定义及特定模型中的期望值表达，不作为半整数群论声明、右作用公式或本审查代数推论的直接证据。"
+    }
+  ],
+  "other_source_boundary": "Suhonen 与 Bohr–Mottelson II 的 source 记录及 raw_file 路由已查；本次未读取其相关原书定义或相位页，故不报相应原书 locator，也不把研究 note 当作原始来源。未补入 Ring–Schuck。",
+  "unresolved": [
+    "审查基于上述文件哈希对应快照；父进程和 G81 可能并行修改，请按公式标签核对当前版本后再应用。",
+    "本次未做全篇审核、编译验收或大规模数值测试；不对范围之外的内容下结论。"
+  ]
+}

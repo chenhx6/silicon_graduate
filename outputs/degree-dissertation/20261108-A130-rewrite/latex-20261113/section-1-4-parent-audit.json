@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-11-13T01:14:55.201809+00:00",
+  "section": "1.4",
+  "input": "raw/writing/gpt/A130/research-draft/section-1-4.md",
+  "input_sha256": "faa4e268f4aacd5b8a8d89fd329fb9400121060b67d4d84fb595fe5d98be00a8",
+  "reviewer": "parent-agent",
+  "review_method": "incremental review against previously verified source claims, adopted-input and uncertainty boundaries; no new full-paper reread",
+  "checks": [
+    {
+      "source": "knowledge/sources/doctoral-r1-g26-starosta-2007-64ge-rdm-e2.md",
+      "source_sha256": "08b57488c7a6bb3bb3ebf1cc4968b0cea25298ba445a6b3463dcd8e97159463b",
+      "locator_and_check": "PDF3 Table I；理论Qs不可实测化"
+    },
+    {
+      "source": "knowledge/sources/doctoral-r1-g27-clement-2007-prc-krypton-coulex.md",
+      "source_sha256": "84d2c15175bdfc35c28ed112e7567586acada394696bef57fb26d28ae3d73d3d",
+      "locator_and_check": "PDF11 Tables V–VII/PDF15 Tables X–XI；混合与K映射条件"
+    },
+    {
+      "source": "knowledge/sources/doctoral-r1-g28-singh-2018-98zr-lifetimes.md",
+      "source_sha256": "aa385502182016e99a6f1d49383d418d4af7362096ab43867cf44ea351b74262",
+      "locator_and_check": "PDF3 Table I；寿命与采用外部分支"
+    },
+    {
+      "source": "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md",
+      "source_sha256": "94fa5c8522a1ecb1cc741adf3a3f91cd847b9bb1d29e3c5c7da9c74776abc87e",
+      "locator_and_check": "reported relative EM and missing candidate-band lifetime"
+    },
+    {
+      "source": "knowledge/sources/campaign-g07-gorgen-2004-163lu-quadrupole-moments.md",
+      "source_sha256": "2fbe82786572c3b5a348ccac0d48aa83f68d18e682ea52752249b6b8b302e70c",
+      "locator_and_check": "PDF2 Table I/PDF3 Table II与Qt映射假设；相关输入"
+    },
+    {
+      "source": "knowledge/sources/doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg.md",
+      "source_sha256": "3071b3227210dbd5925e609b0cdbcd53cecbad3ad4ed6f19508c0a021cbd90ae",
+      "locator_and_check": "Table I与多步CoulEx；对角项宽误差/空项"
+    }
+  ],
+  "decision": "accept-for-faithful-latex-migration",
+  "conditions": [
+    "No regional-exclusive-mode claims",
+    "No neighbouring-nucleus lifetime substitution",
+    "No independent-evidence counting of derived shared inputs",
+    "No inference of nonexistence from unobserved structures"
+  ],
+  "whole_manuscript_accepted": false
+}

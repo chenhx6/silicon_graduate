@@ -1,0 +1,167 @@
+{
+  "purpose": "Deterministic input fingerprints for faithful LaTeX migration; no scientific re-approval by counts.",
+  "sections": [
+    {
+      "section": "1.1",
+      "path": "raw/writing/gpt/A130/research-draft/section-1-1.md",
+      "sha256": "5ac19639abde30ccf7f50f101dcd77a37c50918f70421efdef5d642e8e57a505",
+      "characters": 2703,
+      "display_math_delimiters": 0,
+      "citation_keys": [
+        "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+        "petrache-2006-near-degenerate-chiral-misinterpretation"
+      ],
+      "has_tab": false
+    },
+    {
+      "section": "1.2",
+      "path": "raw/writing/gpt/A130/research-draft/section-1-2.md",
+      "sha256": "96514dd3beeabb9362c2837c6630dd36bdda6840ca2a4ad5ac98e794be26e20c",
+      "characters": 8943,
+      "display_math_delimiters": 34,
+      "citation_keys": [
+        "bohr-1952-surface-particle-coupling",
+        "book-suhonen-from-nucleons-to-nucleus",
+        "cline-1986-nuclear-shapes-coulomb-excitation",
+        "poves-2020-limits-assigning-nuclear-shape"
+      ],
+      "has_tab": false
+    },
+    {
+      "section": "1.3",
+      "path": "raw/writing/gpt/A130/research-draft/section-1-3.md",
+      "sha256": "59603ea8c4627d8b45e8d203697efcff2788fede7a7fcb779dc96c1fcabf56ca",
+      "characters": 2557,
+      "display_math_delimiters": 0,
+      "citation_keys": [
+        "bohr-1952-surface-particle-coupling",
+        "bohr-mottelson-1953-collective-individual-original",
+        "hinohara-2015-nambu-goldstone-inertia-response"
+      ],
+      "has_tab": false
+    },
+    {
+      "section": "1.4",
+      "path": "raw/writing/gpt/A130/research-draft/section-1-4.md",
+      "sha256": "faa4e268f4aacd5b8a8d89fd329fb9400121060b67d4d84fb595fe5d98be00a8",
+      "characters": 2555,
+      "display_math_delimiters": 0,
+      "citation_keys": [
+        "ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce",
+        "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+        "doctoral-r1-g26-starosta-2007-64ge-rdm-e2",
+        "doctoral-r1-g27-clement-2007-prc-krypton-coulex",
+        "doctoral-r1-g28-singh-2018-98zr-lifetimes",
+        "doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg"
+      ],
+      "has_tab": false
+    },
+    {
+      "section": "2.1",
+      "path": "raw/writing/gpt/A130/research-draft/section-2-1.md",
+      "sha256": "8bc02122cefecbfb4d865f7805443cd6524693847bb54947ff4a0d4345b04db0",
+      "characters": 12581,
+      "display_math_delimiters": 58,
+      "citation_keys": [
+        "book-suhonen-from-nucleons-to-nucleus",
+        "cline-1986-nuclear-shapes-coulomb-excitation"
+      ],
+      "has_tab": false
+    },
+    {
+      "section": "2.2",
+      "path": "raw/writing/gpt/A130/research-draft/section-2-2.md",
+      "sha256": "3ff8bdf1c7fe4f8d64812f2b08b02c0108135061a34e39bd39f6b207340368f1",
+      "characters": 7815,
+      "display_math_delimiters": 28,
+      "citation_keys": [
+        "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+        "doctoral-r1-g28-togashi-2016-zr-mcsm-qpt"
+      ],
+      "has_tab": false
+    },
+    {
+      "section": "2.3",
+      "path": "raw/writing/gpt/A130/research-draft/section-2-3.md",
+      "sha256": "05f41e53b0d6ed668eaf7a4f1d0304561b9ea7135aa144e55b38de844b78b945",
+      "characters": 16039,
+      "display_math_delimiters": 82,
+      "citation_keys": [
+        "book-jain-nuclear-isomers",
+        "book-suhonen-from-nucleons-to-nucleus",
+        "hinohara-2015-nambu-goldstone-inertia-response"
+      ],
+      "has_tab": false
+    },
+    {
+      "section": "2.4",
+      "path": "raw/writing/gpt/A130/research-draft/section-2-4.md",
+      "sha256": "71f0a01d06cbed00317516bc59d1f4cc3f378041854b486e491b07d38c8b1d44",
+      "characters": 9644,
+      "display_math_delimiters": 38,
+      "citation_keys": [
+        "bohr-1952-surface-particle-coupling",
+        "prochniak-rohozinski-2009-bohr-collective-hamiltonian"
+      ],
+      "has_tab": false
+    },
+    {
+      "section": "3.5",
+      "path": "raw/writing/gpt/A130/research-draft/section-3-5.md",
+      "sha256": "b0d58b8da2127d4aaa433bb1fc7bb88685338f767ad0b05365035befc9615820",
+      "characters": 11512,
+      "display_math_delimiters": 36,
+      "citation_keys": [
+        "ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce",
+        "book-bohr-mottelson-nuclear-structure-vol2",
+        "frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei",
+        "frauendorf-meng-1997-tilted-rotation-chirality",
+        "koike-2004-chiral-bands-selection-rules",
+        "liu-chen-2016-78br-chirality-reflection-symmetry-thesis",
+        "meng-2010-open-problems-nuclear-chirality",
+        "petrache-2006-near-degenerate-chiral-misinterpretation",
+        "rohozinski-2011-cphc-s-symmetry-chirality",
+        "starosta-2001-n75-chiral-vibrations"
+      ],
+      "has_tab": false
+    },
+    {
+      "section": "5.3",
+      "path": "raw/writing/gpt/A130/research-draft/section-5-3.md",
+      "sha256": "514fd3ab6c968851eece090a54b1e875e99552d8b16fe20114738444af271dfc",
+      "characters": 8299,
+      "display_math_delimiters": 38,
+      "citation_keys": [
+        "wu-2021-general-purpose-digital-daq-waveform-analysis",
+        "wu-hongyi-2020-general-purpose-digital-daq-thesis"
+      ],
+      "has_tab": false
+    },
+    {
+      "section": "5.4",
+      "path": "raw/writing/gpt/A130/research-draft/section-5-4.md",
+      "sha256": "276cd22b3dfe627d6852eddb7ff6dbf12eaa1c66b223e4c9e982f8667915a69c",
+      "characters": 6164,
+      "display_math_delimiters": 14,
+      "citation_keys": [
+        "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+        "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+        "wu-hongyi-2020-general-purpose-digital-daq-thesis"
+      ],
+      "has_tab": false
+    },
+    {
+      "section": "5.9",
+      "path": "raw/writing/gpt/A130/research-draft/section-5-9.md",
+      "sha256": "c3da811fae74df463bc1742bf304c672c7874def3c591dc64d91e0653374b8ca",
+      "characters": 15325,
+      "display_math_delimiters": 80,
+      "citation_keys": [
+        "book-suhonen-from-nucleons-to-nucleus",
+        "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+        "lange-kumar-hamilton-1982-multipole-admixtures"
+      ],
+      "has_tab": false
+    }
+  ]
+}

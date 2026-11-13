@@ -3,7 +3,7 @@ type: project
 title: "博士论文前置研究：六区集体激发、核芯形变与实验观测链"
 aliases: [博士论文前置研学, doctoral-nuclear-structure-foundations]
 created: 2026-11-08
-updated: 2026-11-08
+updated: 2026-11-13
 status: active
 review_status: unreviewed
 research_status: active-L3
@@ -26,11 +26,13 @@ R1–R3第一阶段已完成知识、原件/数值核验及授权发布，
 [[doctoral-thesis-architecture-and-section-map-20261108]]选定五章/39节，
 [[doctoral-thesis-sample-reading-design-findings-20261108]]保存有限样本的观察。
 当前active goal为A130前置非个人成果正文重写：
-旧34文件已完整移至可恢复归档，新目录启用三个样节。
+11月8日旧34文件完成逐项归档；11月13日复核发现工作树归档已被后续外部操作移除，
+其中17项原正文/源文件及旧PDF仍可由Git历史精确恢复，保持用户删除现状。
 [[doctoral-thesis-notation-and-evidence-style-20261108]]统一符号/引用，
 各稿仍须逐主张、公式与读者台阶核查，尚未完成整部正文。
-三样节的92文件发布已经核对；第二批加入1.1、2.1、2.3、5.3，
-当前共七节整合，1.3、2.2、2.4、5.4由Gemini继续写作。
+三样节与第二批七节的发布已经核对。
+11月13日起改用用户提供的LaTeX工程，当前15节及附B/C的已交付内容正收束为阶段稿；
+全部39节和必要附录仍未完成，已写内容不等于未知个人成果或学校送审材料。
 写作暴露的原件与推导修正已分别保存为
 [[a130-rewrite-invariant-recoupling-and-width-boundaries-20261108]]、
 [[a130-rewrite-chiral-nonorthogonal-and-fingerprint-boundaries-20261108]]、
@@ -192,8 +194,8 @@ R3新增解释入口：
    叙事引子不替代推导，不虚构个人成果或实验经历。
 7. 总控完成分域原件抽查、推导/数值核验及整体缺口复盘后，再记录是否就绪。
 
-当前判断：**前置研究/设计均已验证发布，正文样节正在起草与核查。**
-旧稿可恢复归档，新A130已启用。七项条件、21项主题和六区原件见证已逐项列出，
+当前判断：**前置研究/设计均已验证发布，LaTeX正文正在迁移、增写与核查。**
+旧稿原正文/源文件及旧PDF可由Git历史恢复，新A130工程已启用。七项条件、21项主题和六区原件见证已逐项列出，
 不是“整个核结构都已研究完毕”的声明。
 就绪不是“把所有争议解决”；未决争议可以成为高质量综述的一部分，
 前提是理解证据与竞争解释，而不是掩盖缺口。
@@ -227,3 +229,28 @@ R3过程在`outputs/l3/20261108-doctoral-foundations-r3/`，
 正文过程在`outputs/degree-dissertation/20261108-A130-rewrite/`，
 计划在`outputs/plans/20261108-A130-frontmatter-rewrite.md`；
 实际分节稿/台账在精确A130目录，旧目录归档不作科学内容源。
+
+## 2026-11-13：LaTeX正文与执行分工
+
+用户指定以`raw/writing/gpt/A130/these_2023_template/these_template/Thesis.tex`
+为当前正文入口，分节内容写入`Tex/Sections/`。已有Markdown研究稿保留为迁移输入；
+此后的正文续写直接使用LaTeX。新图用Python生成，在工程`Img/`同时留存SVG和PDF，
+正文引用PDF，并记录输入、生产代码和模型/实验身份。
+
+当前GPT会话承担章节蓝图、详细执行合同、关键科学审查和接受/定点返修；
+Gemini Tiered/high承担主要阅读、正文迁移与续写、工程清理、绘图和编译修复。
+只有需要新的复杂独立推导时才安排Terra/xhigh。
+复用此前已核实的原表和约定，默认审查增量、冲突和确定性结果，不重复整篇改写。
+其中2.2节的谱重心、单极冻结及非正交重叠沿用
+[[a130-rewrite-espe-centroids-freezing-and-overlaps-20261108]]中的定义与限制。
+2.5节写作暴露的投影选择条件、度规截断和有限试探空间边界，
+同步保存于[[a130-rewrite-projection-selection-and-metric-truncation-20261113]]；
+投影本身不保证精确的全空间本征态或刚性转子能谱。
+数字定时的算法约定、离散采样及共享时钟误差见
+[[a130-rewrite-cfd-timing-and-clock-boundaries-20261113]]，与能量成形的增益/接受度边界分开使用。
+模板需先逐文件备份并验证哈希，再可恢复清理示例；未知作者、导师、装置及个人成果不填写。
+
+完整五章39节及附录目标继续有效。工程编译成功、迁移完成或worker返回
+都不能代替科学验收和全稿完成。
+本轮执行蓝图在`outputs/plans/20261113-A130-latex-execution.json`；
+验收与派发回执在`outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/`。

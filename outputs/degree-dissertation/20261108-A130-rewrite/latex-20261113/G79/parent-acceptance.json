@@ -1,0 +1,22 @@
+{
+  "reviewer": "parent-agent",
+  "checked_at": "2026-11-13T02:42:33.717303+00:00",
+  "decision": "body-content-admitted; knowledge-note-targeted-fixes-pending",
+  "actual_sha256": {
+    "5-3": "81f757b33a8ca0e0c65c025661b57e956c3f7d1d7df2972d3a35a89dccf76e04",
+    "5-4": "4a7ebc0e6534f55d061d9a76cf28b1f8aded830b826f3cf2d786b32978da3add",
+    "5-9": "c32d308174859de34759201898fdb5b54f7a5b7cfb4f39025e59f5bfb7a6cd04"
+  },
+  "checks": {
+    "coding_time_units": false,
+    "no_universal_positive_covariance": false,
+    "no_absolute_FWHM_inequality": true
+  },
+  "data_checks": "5.3 eight rows/24 values and5.4 four rows match canonical input;5.9 40/40 original math blocks restored, delta radiation units retained.",
+  "final_compilation_pending": true,
+  "pending_note_fixes": [
+    "Coding nominal step has time units",
+    "Positive split covariance is conditional",
+    "sigma_C is amplitude standard deviation, not variance"
+  ]
+}

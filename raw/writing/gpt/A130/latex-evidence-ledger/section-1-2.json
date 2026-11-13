@@ -1,0 +1,111 @@
+{
+  "section_id": "1.2",
+  "title": "核形状指哪一种对象",
+  "target_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-2.tex",
+  "input_draft_path": "raw/writing/gpt/A130/research-draft/section-1-2.md",
+  "input_sha256": "96514dd3beeabb9362c2837c6630dd36bdda6840ca2a4ad5ac98e794be26e20c",
+  "output_sha256": "cdc65bc8569ed15f8c4d32a28d17f64b1509929620e37d8d93054e140e3962fb",
+  "recorded_at": "2026-11-13T00:00:00+00:00",
+  "executor": "G77",
+  "migration_modifications": [
+    "严格按Markdown原稿1:1保真迁移全部段落与全部17个display math公式，逐式分配唯一标签eq:1-2-1至eq:1-2-17，数学原式标准化字符串与原稿0差异",
+    "完整保留原稿所有6处文献引用（book-suhonen-from-nucleons-to-nucleus, bohr-1952-surface-particle-coupling, cline-1986-nuclear-shapes-coulomb-excitation x3, poves-2020-limits-assigning-nuclear-shape）",
+    "将描述层次比较表按原稿位置（第1.2.4节）转换为tabularx表格环境，赋予唯一标签tab:1-2-shape-hierarchy",
+    "在1.2.3末尾插入图占位符\\IfFileExists{Img/shape-moments.pdf}{...}{}，并配以概念示意图caption",
+    "对后续第2.1、2.4、2.6节与第5章建立正式交叉引用\\ref",
+    "所有数学符号$保持严格成对平衡，无被吞或变量展开问题"
+  ],
+  "equations": [
+    {
+      "label": "eq:1-2-1",
+      "meaning": "裸点质子电荷四极张量算符M(E2, mu)积分与离散质子坐标定义"
+    },
+    {
+      "label": "eq:1-2-2",
+      "meaning": "截断模型空间中含有效电荷的一体电四极算符T(E2, mu)"
+    },
+    {
+      "label": "eq:1-2-3",
+      "meaning": "实验室静电四极矩Qs(I)定义为最大磁量子数M=I上的期望值"
+    },
+    {
+      "label": "eq:1-2-4",
+      "meaning": "Wigner-Eckart定理分解球张量矩阵元为3j符号与约化矩阵元"
+    },
+    {
+      "label": "eq:1-2-5",
+      "meaning": "角动量三角定则要求2I >= 2，即I >= 1为非零Qs的几何必要条件"
+    },
+    {
+      "label": "eq:1-2-6",
+      "meaning": "任意I=0基态与I=1/2态的实验室静电四极矩严格为零"
+    },
+    {
+      "label": "eq:1-2-7",
+      "meaning": "各向同性实验室系中0+态单粒子电荷密度期望值为纯径向球对称函数"
+    },
+    {
+      "label": "eq:1-2-8",
+      "meaning": "电四极标量算符A定义为M(E2)与自身的标量缩并积"
+    },
+    {
+      "label": "eq:1-2-9",
+      "meaning": "基态上四极标量期望值q2通过中介2+态完备展开表示为跃迁强度平方和"
+    },
+    {
+      "label": "eq:1-2-10",
+      "meaning": "二体关联函数展现内部相干空间角关联，突破单体密度各向同性限制"
+    },
+    {
+      "label": "eq:1-2-11",
+      "meaning": "总物质密度算符由质子密度与中子密度之和构成"
+    },
+    {
+      "label": "eq:1-2-12",
+      "meaning": "Bohr主轴参考系下5个四极变量变换为欧拉角与内部形变参数(beta, gamma)"
+    },
+    {
+      "label": "eq:1-2-13",
+      "meaning": "瞬时主轴系中四极张量非零分量由形变幅度Q与三轴不对称角gamma参数化"
+    },
+    {
+      "label": "eq:1-2-14",
+      "meaning": "二次旋转不变量q2由中间态完备求和表达为跃迁约化矩阵元绝对值平方和"
+    },
+    {
+      "label": "eq:1-2-15",
+      "meaning": "三次旋转不变量q3由重取向对角项与非对角项三重积和6j符号构成"
+    },
+    {
+      "label": "eq:1-2-16",
+      "meaning": "有效形状角cos(3gamma_eff)由三次矩与二次矩比值q3/q2^(3/2)定义及其适用区间[-1, 1]"
+    },
+    {
+      "label": "eq:1-2-17",
+      "meaning": "四极幅度标量算符相对涨落宽度Delta A/<A>，直接量化径向四极弥散的量子动力学涨落"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "locator": "printed pp. 29–30 (Wigner-Eckart theorem) and pp. 118–121"
+    },
+    {
+      "source_id": "bohr-1952-surface-particle-coupling",
+      "locator": "Mat. Fys. Medd. Dan. Vid. Selsk. 26 (14), pp. 1–40"
+    },
+    {
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "locator": "Ann. Rev. Nucl. Part. Sci. 36, pp. 683–716, especially pp. 698–700"
+    },
+    {
+      "source_id": "poves-2020-limits-assigning-nuclear-shape",
+      "locator": "Phys. Lett. B 807, 135541 (2020), Sec. 2 & 3"
+    }
+  ],
+  "unresolved_issues": [
+    "库仑激发中间态求和受限于实验可探测低能态窗口，高能未观测相干跃迁对q2与q3的系统截断误差需在第5章进一步评估",
+    "三重矩阵元求和中的相对相位需多步库仑激发量子干涉锁定，未定相交叉跃迁可能引起有效三轴角反演的多解性",
+    "相对涨落Delta A/<A>量化径向四极涨落，无法直接给出gamma方向势阱软硬度，需结合能谱staggering联合诊断"
+  ]
+}

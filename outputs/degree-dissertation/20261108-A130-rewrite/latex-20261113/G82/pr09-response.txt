@@ -1,0 +1,426 @@
+Bohr olle tive Hamiltonian                                                           27
+
+4. Mi ros opi theories of the Bohr Hamiltonian
+The present se tion fo uses on the derivation of the Bohr olle tive Hamiltonian from
+the mi ros opi theory based on an ee tive nu leon-nu leon intera tion. There are two
+main methods whi h an be used to a hieve this aim. The rst one is the adiabati
+approximation of the Time Dependent Hartree-Fo k-Bogolyubov theory (ATDHFB)
+and the se ond one is the Generator Coordinate Method with the Gaussian Overlap
+Approximation (GCM+GOA). Before dis ussing the details on erning the appli ation
+to the Bohr Hamiltonian ase, we briey re all basi assumptions underlying these
+methods and their general results.
+    In the following it is assumed that the nu lear many-body Hamiltonian is given by
+                       X                1 X
+              Hmicr =       Kµν d+
+                                 µ dν +           Vµναβ d+  +
+                                                         µ dν dβ dα              (4.1)
+                        µ,ν
+                                        4 µ,ν,α,β
+with the two-body intera tion term V that an depend on the nu lear density, while
+ µ and dν are the nu leon reation and annihilation operators. The methods presented
+d+
+below an be dire tly applied to most of the ee tive non-relativisti nu leon-nu leon
+intera tions. Some aspe ts of the Relativisti Mean Field (RMF) theory need, however,
+some additional dis ussion.
+     Within the mean eld approa h the ground state of a nu leus is des ribed by a
+generalized produ t state (in other words a BCS-type state, with the Slater determinant
+as a spe ial ase). To des ribe olle tive phenomena one needs a family of su h states
+whi h depend on properly hosen olle tive variables su h as quadrupole variables
+dis ussed in the previous se tions. In the next step the olle tive Hamiltonian is
+ onstru ted as an operator in the Hilbert spa e of fun tions of the olle tive variables.
+
+4.1. The ATDHFB method
+The ATDHFB method is onveniently formulated by using the notion of a generalized
+density matrix whi h for a given BCS-type state |Ψi and a given set of reation and
+                        m , dn is dened as follows
+annihilation operators d+
+                                  !
+                      R11 R12
+              R=                                                              (4.2)
+                      R21 R22
+where
+              R11       +
+               mn = hΨ|dn dm |Ψi = ρmn                                            (4.3a)
+              R12
+               mn = hΨ|dn dm |Ψi = κmn                                            (4.3b)
+              R21       + +           ∗
+               mn = hΨ|dn dm |Ψi = −κmn                                           (4.3 )
+              R22          +            ∗
+               mn = hΨ|dn dm Ψ|i = I − ρmn .                                      (4.3d)
+The dimension of the R matrix is twi e the dimension of the one-parti le spa e. A
+rigorous (but very abstra t) denition of a spa e wherein the density operator a ts an
+be found e.g. in [86℄. In this se tion we will all it the double spa e. One should note
+Bohr olle tive Hamiltonian                                                            28
+
+that there exist some slightly dierent sign onventions used to dene R. The R matrix
+ an be expressed in terms of the oe ients of the Bogolyubov transformation whi h
+ onne ts the d+m , dn operators with the quasiparti le reation and annihilation operators
+ orresponding to the |Ψi state, see [87, 15℄.
+     The Time Dependent HFB equation of motion reads
+              i~Ṙ = [W(R), R]                                                      (4.4)
+with W being the self- onsistent Hamiltonian (in the double spa e) indu ed by the
+density matrix R
+                                        !                  !
+                    K − λI        0              Γ     ∆
+              W=                          +                                  (4.5)
+                        0     −K ∗ + λI         −∆∗ −Γ ∗
+in whi h λ is the hemi al potential and
+                    X
+              Γµν =    Vµµ′ νν ′ ρν ′ µ′ + rearrangement terms                      (4.6)
+                        µ′ ,ν ′
+
+                         1X
+              ∆µν =            Vµνµ′ ν ′ κµ′ ν ′ .                                  (4.7)
+                         2 ′ ′
+                             µ ,ν
+
+The rearrangement terms in (4.6) appear if Hmicr depends on the density. Typi ally
+these terms are onsidered only for the density dependent intera tion in the parti le-
+hole hannel.
+     In the adiabati approximation the R matrix is expressed as R =
+exp(iχ(t))R0 (t) exp(−iχ(t)) = R0 + R1 + R2 + . . ., where χ is a `small' operator, f
+[16℄. The W operator an then be written as W = W0 + W1 + W2 + . . ., with Wk
+indu ed by the Rk terms. Note that for k > 0 only the se ond term in (4.5) is used.
+By inserting the expansions of R and W into (4.4) one obtains a sequen e of equations
+from whi h only the rst two are usually onsidered
+              i~Ṙ0 = [W0 , R1 ] + [W1 , R0 ]                                       (4.8)
+
+              i~Ṙ1 = [W0 , R2 ] + [W1 , R1 ] + [W2 , R0 ] + [W0 , R0 ] .           (4.9)
+
+From the se ond equation one an infer that [W0 , R0 ] must be of the se ond order in
+the smallness parameter. An important feature of the r.h.s of the rst equation (4.8) is
+its linear dependen e on the R1 matrix.
+      In the ase when R depends on time through several olle tive variables α =
+(α1 , ..., αn ) equation (4.8) leads to
+                      ∂R0
+              i~α˙k       = [W0 , Rk1 ] + [W1 (Rk1 ), R0 ], k = 1, ..., n         (4.10)
+                      ∂αk
+where, sin e R1 depends linearly on Ṙ0 ,
+                   X
+              R1 =    Rk1 .                                                       (4.11)
+                         k
+Bohr olle tive Hamiltonian                                                                29
+
+The olle tive lassi al Hamiltonian is dened as the expe tation value of the Hmicr
+Hamiltonian in the |Ψ(α)i state and an be written as a sum of the kineti and potential
+parts
+              Hcl = Tcl + Vcl                                                         (4.12)
+where
+              Vcl = hΨ0 (α)|Hmicr |Ψ0 (α)i                                            (4.13)
+with |Ψ0 i being the BCS-type state orresponding to the R0 matrix and
+                     1X
+               Tcl =       Bkj (α)α˙k α̇j .                                           (4.14)
+                     2 k,j
+
+The inertial fun tions (also alled mass parameters) Bkj read
+                           i~              ∂R0
+              Bkj (α) =        Tr2d (Rj1 [     , R0 ])                                (4.15)
+                          2α̇j             ∂αk
+where Tr2d denotes the tra e in the double spa e. It an be veried that Bkj = Bjk . The
+positive deniteness of the matrix B is not shown in the most general ase, however it
+ an be proved for several important instan es, e.g. for ranking inertial fun tions, see
+[87℄. The lassi al expression for Hcl needs to be quantized. Usually this is done by
+taking as the quantum me hani al kineti energy the Lapla e-Beltrami operator (times
+−~2 ) in the spa e of the variables α with B as the metri tensor and as the quantum
+potential energy the operator of multipli ation by the fun tion Vcl (this is the so alled
+Podolsky-Pauli method of quantization, see also se tion 3.1).
+     In the following it is assumed that (4.8) yields the unique solution for R1 in terms
+of Ṙ0 . For a dis ussion of the existen e and uniqueness of su h a solution see [87℄.
+However, one should remember that in pra ti e the al ulation of R1 an be quite a
+di ult task. In the ase of vibrational inertial fun tions only one olle tive variable
+(for axial symmetry systems) was onsidered, see [87℄ and [88℄ (for the ase without
+pairing). In [87℄ R1 was obtained by matrix inversion while the method proposed in [88℄
+(see also [89℄) was based on the fa t that (4.8) an be transformed into (for simpli ity
+we onsider here a single variable α)
+              [W0 + W1 − 2α̇P, R0 + R1 ] = 0                                          (4.16)
+where
+                    i~
+              P=       [∂α R0 , R0 ] .                                                 (4.17)
+                     2
+Equation (4.16) an be solved by a onstrained HFB al ulation. In the ase of a
+rotation (and in the limit of vanishing angular velo ity) it leads to the Thouless-Valatin
+expression for the moment of inertia [90℄. For this reason, the term [W1 , R0 ] is sometimes
+ alled the Thouless-Valatin (TV) orre tion.
+Bohr olle tive Hamiltonian                                                             30
+
+    The tra e in (4.15) is most easily al ulated in a quasiparti le basis (in the double
+spa e). It an be veried that both ∂k R0 := ∂R0 /∂αk and Rj1 have the antidiagonal
+form
+                                      !
+                               0 fk
+             (∂k R0 )qp =                                                          (4.18)
+                             −fk∗ 0
+                                   !
+                j           0 zj
+             (R1 )qp =                                                             (4.19)
+                           −zj∗ 0
+
+so that
+              Tr2d (Rj1 [∂k R0 , R0 ]) = Tr(zj fk∗ − zj∗ fk ) .                    (4.20)
+    Negle ting the TV term brings in a substantial simpli ation, be ause then
+              i~α˙k fk,µν = (Eµ + Eν )zk,µν                                        (4.21)
+where Eµ are quasiparti le energies, and to al ulate the inertial fun tions in this
+approximation one needs only ∂k R0 and Eµ :
+                                ∗      ∗
+                   ~2 X fj,µν fk,µν + fj,µν fk,µν
+             Bkj =                                .                          (4.22)
+                    2 µ,ν      (Eµ + Eν )
+Inertial fun tions al ulated without onsidering the Thouless-Valatin term are
+sometimes alled the ranking inertial fun tions.
+     Matrix elements fk,µν an be expressed in terms of the derivatives of the density
+matrix ρ and the pairing tensor κ in the anoni al basis
+              fk,µν = sν (∂k ρ)µν̄ (uµ vν + vµ uν ) + (∂k κ)µν (uµ uν − vµ vν ).   (4.23)
+In this formula sν is the phase fa tor with the properties sµ s∗µ = 1, sµ = −sµ̄ , while µ
+and µ̄ denote anoni ally onjugated states. Another, perhaps more familiar, expression
+with the expli it dependen e on the derivative of the BCS state is
+              fk,µν = hΨ0 |aν aµ |∂k Ψ0 i                                          (4.24)
+where aµ are the quasiparti le annihilation operators. If the ondition [W0 , R0 ] ≈ 0 is
+used one gets yet another, sometimes quite useful, form
+             1
+fk,µν = −         [sν (∂k h0 )µν̄ (uµ vν + vµ uν ) + (∂k ∆)µν (uµ uν − vµ vν )]   (4.25)
+          Eµ + Eν
+where h0 = K − λI + Γ , see (4.5). The referen es ited in se tion 4.3 ontain many
+examples of appli ation of formulae (4.22) to (4.25).
+Bohr olle tive Hamiltonian                                                              31
+
+4.2. The GCM+GOA method
+This method is based on the variational prin iple. Its simplest version onsists of taking
+                               R
+as test fun tions the integrals dαf (α)Φ(α) with the BCS-type states |Φ(α)i and the
+weights f (α) whi h are to be determined. The assumption of the Gaussian overlaps
+(GOA)
+                         X
+hΦ(α′′ )|Φ(α′ )i = exp(−     gkj (α)(αk′′ − αk′ )(αj′′ − αj′ )/2), α = (α′′ + α′ )/2 (4.26)
+                            k,j
+
+enables one to transform the Hill-Wheeler-Grin equation into the S hrodinger-like,
+se ond order dierential equation for the weight fun tions f (α)
+               ĤGCM f (α) = Ef (α) .                                               (4.27)
+Below, only some of the nal results for the GCM olle tive Hamiltonian ĤGCM are
+presented. Details an be found in e.g. [21℄ (see also [49, 23℄). A spe i appli ation to
+the Bohr Hamiltonian problem was studied in [22℄. The GCM Hamiltonian reads
+               ĤGCM = T̂GCM + VGCM                                                 (4.28)
+where
+                            ~2 1 X ∂ p                   ∂
+               T̂GCM = −      √                 −1
+                                        det g (BGCM )kj     .                       (4.29)
+                            2 det g ∂αk                 ∂αj
+                                         k,j
+
+Note that in the ase of the quadrupole olle tive variables the Hamiltonian (4.28) has
+                                                                    √
+the same stru ture as the Hamiltonian (3.13) dis ussed earlier, with det g = W and
+  −1
+BGCM  = A. The inverse of the inertial tensor is given by
+                           1
+                −1
+              (BGCM )kj = 2 (Re h12 − Re h11 )kj                               (4.30)
+                          2~
+where
+               h11,mn = Dα′′m Dα′′n h(α′′ , α′ )|α′′ =α′ =α                        (4.31a)
+               h12,mn = Dα′′m Dα′n h(α′′ , α′ )|α′′ =α′ =α                         (4.31b)
+with
+               h(α′′ , α′ ) = hΦ(α′′ )|Hmicr |Φ(α′ )i/hΦ(α′′ )|Φ(α′ )i .            (4.32)
+D denotes here a ovariant derivative and the indi es on the right hand side of (4.30)
+are raised using the inverse of the metri tensor gkj . The tensor gkj an be written as
+               gkj (α) = h∂αk Φ(α)|∂αj Φ(α)i .                                      (4.33)
+       The potential energy an be transformed into the form
+               VGCM = Vcl (α) + VZPE (α)                                            (4.34)
+where
+               Vcl (α) = hΦ(α)|Hmicr|Φ(α)i                                          (4.35)
+                            ~2 X kj −1           1 X kj
+               VZPE (α) = −        g (BGCM )kj −       g Dαk Dαj Vcl (α) .          (4.36)
+                             2 k,j               8 k,j
+Bohr olle tive Hamiltonian                                                               32
+
+The rst term Vcl (α) in (4.34) is essentially the same as in the ATDHFB method. The
+se ond one, VZPE (α), spe i for the GCM method, is alled the zero point energy
+ orre tion. One of the advantages of the GCM over the ATDHFB method is that it
+avoids ambiguities of the quantization pro edure.
+     Let us now add two omments. Firstly, the derivation of (4.28) is based on the
+assumption that the spa e with the metri tensor g is essentially at, whi h means that
+one an introdu e su h variables that g is onstant. In some referen es, e.g. [91℄, it
+is assumed from the very beginning that olle tive variables do already have su h a
+property. Se ondly, the overlaps (4.26) an in prin iple ontain imaginary terms linear
+in α′′ − α′ , whi h would lead to extra rst order derivative terms in (4.28), see [21, 92℄.
+     It seems that the GCM formulae for mass parameters, whi h in the ase of the Bohr
+Hamiltonian were dis ussed for the rst time in [22℄, have never been used in pra ti al
+ al ulations. There are two possible reasons for this. The rst one is their te hni al
+ omplexity as ompared to the ranking inertial fun tions of the ATDHFB method.
+The se ond one is the known de ien y of the simplest version of the GCM, whi h an
+be easily seen in the ase of the translational motion, for whi h the GCM fails to give
+the orre t mass. This de ien y an be amended by onsidering a ri her set of test
+fun tions with the so alled onjugate parameters. The even more sophisti ated version
+of the GCM presented in [93, 91℄ leads to the inertial fun tions whi h are the same as
+those in ATDHFB and to the potential energy ontaining the ZPE terms, see also [94℄.
+
+4.3. Appli ation to the Bohr Hamiltonian ase
+Studies on the mi ros opi foundation of the Bohr Hamiltonian have a long history.
+In fa t they were an important stimulus for the development of the ATDHFB method
+(see [6℄ and [15℄, where the general mi ros opi formulae for the inertial fun tions and
+potential energy entering the Bohr Hamiltonian were obtained). The rst attempt to
+apply these results to the real nu lei (in the W-Pt region) and to ompare them with
+experimental data was performed by Kumar and Baranger in [95℄, see also [74℄. They
+used a spheri al mean eld potential plus a separable quadrupole-quadrupole intera tion
+and the seniority ( onstant G) pairing. In the following years their quadrupole+pairing
+model has been applied to several regions of nu lei, to ite only the most re ent papers
+[96, 97℄.
+      The se ond attempt, based on a pi ture of nu leons moving in a deformed single-
+parti le Nilsson potential was presented in [98, 99℄. The olle tive potential energy
+was al ulated by means of ma ros opi -mi ros opi method using the Strutinsky shell
+  orre tion method. More re ently this model has been extended by an approximate
+in lusion of the ee ts of pairing vibrations [77, 100, 82℄.
+      There are several te hni al di ulties, in luding a substantial omputational eort,
+if one wishes to apply the theories presented in previous subse tions to the ase of a
+nu lear mean eld obtained self- onsistently from realisti ee tive intera tions, e.g. of
+the Gogny or Skyrme type. The rst results with the Gogny for e (GCM+GOA) were
+Bohr olle tive Hamiltonian                                                             33
+
+announ ed in [101℄, but more extensive al ulations were done only in the 90's [102, 78℄,
+see also more re ent [103, 104℄. The Skyrme intera tion was used in the framework of
+the ATDHFB in [76℄, and next, in a more extended way in [105, 106, 107℄. Let us also
+mention the papers [108, 109℄, where the Skyrme for e (with GCM+GOA) was used with
+an interesting, although somewhat simplied treatment of the Bohr Hamiltonian. In
+addition, re ent years brought appli ations of the RMF to des ribe quadrupole olle tive
+states [110, 111℄. The range of nu lei studied in the ited papers is quite wide: from the
+krypton isotopes to transa tinides.
+     An important advantage of the mi ros opi approa hes is a lear physi al
+interpretation of the quadrupole variables, whi h in most ases are simply proportional
+to the omponents of the quadrupole tensor of the mass distribution, that is in the
+laboratory frame
+                                 (mass)
+              α2µ ∼ hΦ|Q2µ                |Φi                                      (4.37)
+with
+                             A
+                             X
+                (mass)
+              Q2µ        =         ri2 Y2µ (θi , φi )                              (4.38)
+                             i=1
+where the sum runs over all nu leons and A is the mass number. A slightly dierent
+model is the one studied in [98, 99℄, where the olle tive variables des ribe an ellipti
+                                                                                  (mass)
+deformation of the single parti le potential. In the intrinsi frame, instead of Q2µ ,
+one often uses the Q0 , Q2 operators:
+                    A
+                    X                  p
+                                                                                (4.39a)
+                                               (mass)
+              Q0 =      (3zi2 − ri2 ) = 16π/5 Q20
+                     i=1
+                      A
+                     X       √
+              Q2 =               3(x2i − yi2) .                                   (4.39b)
+                     i=1
+The intrinsi oordinates (a0 , a2 ) and (β, γ) (see (2.5a), (2.5b), (2.6)) are given by the
+mean values of the Q0 , Q2 operators
+              a0 = β cos γ = cq0 = chΦ|Q0 |Φi                                     (4.40a)
+              a2 = β sin γ = cq2 = chΦ|Q2 |Φi                                     (4.40b)
+with the oe ient c onventionally hosen as
+                p
+            c = π/5/Ar 2                                                           (4.41)
+to get some orresponden e with phenomenologi al models (see e.g. [42℄). For r 2 the
+liquid drop model estimate 35 (r0 A1/3 )2 with r0 = 1.2 fm, is usually adopted.
+       All mi ros opi theories start with BCS-type states onstru ted in the intrinsi
+frame whi h are subsequently rotated to a desired orientation. In the self- onsistent
+theory a set of states parametrized by the quadrupole variables q0 , q2 (or equivalently
+β , γ ) is obtained from the HFB al ulations with onstraints on the mean values of Q0
+and Q2 operators
+              δhΦ|Hmicr − λ0 Q0 − λ2 Q2 |Φi = 0                                    (4.42)
+              hΦ|Q0 |Φi = q0 ,             hΦ|Q2 |Φi = q2 .                        (4.43)
+Bohr olle tive Hamiltonian                                                              34
+
+For the xed values of q0 , q2 the states |Φi in the intrinsi frame should be invariant
+against the dis rete symmetry group D2 ⊂ O, whi h is generated by rotations by π
+around three orthogonal axes. This property is obvious if one re alls that su h rotations
+do not hange the values of q0 and q2 . An extensive analysis of the onsequen es
+of this and other symmetries for various quantities of the mean eld theory an be
+found in [112, 113℄. Equation (4.42) is solved numeri ally by expanding the BCS-type
+states in a properly onstru ted basis. The basi ingredient of su h a onstru tion are
+the eigenstates of the three-dimensional harmoni os illator in Cartesian [114, 111℄ or
+ ylindri al oordinates [115℄.
+      Several properties of the kineti part of the Bohr Hamiltonian in the intrinsi frame,
+e.g. the blo k stru ture of the inertia tensor, an be inferred from the general theory
+ see formulae (3.5), (3.6). However, in view of the approximations adopted, it is
+instru tive to prove these properties dire tly using the denitions of inertial fun tions
+given in se tion 4.1. We sket h the proof for the ATDHFB inertial fun tions in the
+Appendix B, for the GCM+GOA ase f [22℄.
+      In the intrinsi frame the rotational part of the olle tive spa e is identi al with
+the SO(3) group. For the tangent spa e (in the dierential geometry sense) of the
+SO(3) group it is more onvenient to use a basis determined by the group stru ture
+itself, onsisting of elements of the Lie algebra (in other words the angular momentum
+operators), rather than the usual oordinate basis (e.g. derivatives with respe t to the
+Euler angles). The rotational part of the Hamiltonian (see (3.4)) is then expressed in
+terms of the olle tive angular momentum operators and the moments of inertia. The
+dependen e of the BCS-type state |Φ(β, γ, ϕ, ϑ, ψ)i on the Euler angles is expli itly
+known (see Appendix B), and if the TV term is negle ted, one arrives at the Inglis-
+Belyaev formula for the moment of inertia
+                         X |hν|Jk |µ̄i|2(uµ vν − uν vµ )2
+                Ik = ~ 2                                                             (4.44)
+                         µ,ν
+                                    (Eµ + Eν )
+where Jk is the angular momentum operator in the Fo k spa e. Note that the sum in
+(4.44) is over the whole one-parti le spa e basis.
+     The vibrational parameters are a bit more ompli ated, even if the TV orre tion
+term is negle ted. To nd them one an use (4.23) but the derivatives of ρ and κ have to
+be in this ase al ulated numeri ally, see papers [89, 105℄, where parameters obtained in
+this way were alled the M P masses. More frequently, another approximation is adopted,
+whi h onsists in using (4.25) but negle ting the derivative of ∆. The derivatives of R0
+with respe t to the Lagrange multipliers λi an be then al ulated as
+                            sν
+               fλi ,µν =         hµ|Qi |ν̄i(uµ vν + vµ uν )                       (4.45)
+                         Eµ + Eν
+and next the derivatives of qi with respe t to λj
+              ∂qi    X hµ|Qi |ν̄ihν̄|Qj |µi
+                  =                         (uµ vν + uν vµ )2 .                     (4.46)
+              ∂λj    µ,ν
+                             (Eµ + Eν )
+Bohr olle tive Hamiltonian                                                                 35
+
+As a result, one gets the widely used formula for the vibrational inertial fun tions
+               Bqi qj = ~2 (S(1)
+                             −1        −1
+                                 S(3) S(1) )ij                                         (4.47)
+where S(n) denotes the 2 × 2 matrix
+                         X hµ|Qi |ν̄ihν̄|Qj |µi
+             (S(n) )ij =                     n
+                                                (uµ vν + uν vµ )2 .                    (4.48)
+                         µ,ν
+                              (Eµ  +  E  ν )
+
+     The indi es µ, ν in (4.44), (4.46), (4.48) run over all one-parti le basis states, but in
+many ases, due to symmetry properties, their range an be limited to half of the basis,
+so one should take are when omparing formulae in various papers. The transition to
+the inertial fun tions for β and γ variables, entering e.g. (3.12) is straightforward. Note
+also that the symmetry properties of these fun tions, whi h an be inferred from the
+dis ussion of the symmetri quadrupole bitensors in se tion 2.3, provide useful tests for
+ orre tness of numeri al al ulations.
+     Let us make one remark about the two kinds of nu leons. As long as one does not
+ onsider the proton-neutron pairing, the state |Φi (see (4.42)) is a produ t of the BCS-
+type states for protons and neutrons and onsequently the ATDHFB mass parameters
+are simply the sum of the orresponding parameters for protons and neutrons.
+     On e the mass parameters and the potential energy are determined, the eigenvalue
+problem of the Bohr Hamiltonian is solved numeri ally yielding the olle tive wave
+fun tions and energies, whi h an be ompared dire tly with experimental data. The
+wave fun tions are then used to al ulate matrix elements of olle tive ele tromagneti
+transition operators, primarily of the E2 operator, whi h in the mi ros opi approa h is
+equal to
+                (charge)       P
+               q2µ       = hΦ|e Zi=1 ri2 Y2µ (θi , φi )|Φi                              (4.49)
+with the sum over protons only, and has the stru ture dis ussed in se tion 3.2. On
+the experimental side, modern te hniques provide a large amount of data about the
+ele tromagneti transitions. In several ases not only transition probabilities are
+measured but also relative signs of the matrix elements are determined, see e.g. [82℄. The
+ orre t interpretation of ri h experimental data is hallenging and provides a stringent
+test of theoreti al models.
+     A very general on lusion stemming from numerous papers on mi ros opi
+ al ulations of the Bohr Hamiltonian is that it leads to a good qualitative agreement with
+experiment, orre tly reprodu ing the main features of olle tive spe tra. These results
+are remarkable, espe ially if one remembers that they are obtained without any free
+parameters tted to olle tive quantities. At the quantitative level one nds, however,
+several substantial dis repan ies between the theory and measurement. For example,
+quite often the theoreti al spe trum is `stret hed' ompared to the experimental one,
+although the two are similar in their general patterns.
+     There are several possible reasons for su h dis repan ies. A natural question
+is what is the optimal nu leon-nu leon ee tive intera tion in both parti le-hole and
+parti le-parti le hannels. As it is easily seen in the ase of the Skyrme for es, various
+

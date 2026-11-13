@@ -1,0 +1,151 @@
+{
+  "updated_at": "2026-11-13T03:32:36.046701+00:00",
+  "native_goal_status": "active",
+  "plan": "outputs/plans/20261113-A130-latex-execution.json",
+  "plan_sha256": "819c15eedef7bb2f4b6ecf1d897bef4325a496ccb91fe3eb2047a4dd1ce0f068",
+  "isolation": "disjoint write prefixes; shared filesystem; protocol only",
+  "model_contract": "Gemini executes; parent plans, delegates and accepts/returns; no further child delegation",
+  "workers": [
+    {
+      "task_id": "G76",
+      "agent_id": "01a1d273-c747-7e72-a5af-01dbde04f26c",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "state": "checkpoint-content-and-typesetting-admitted-next-contract-preparation",
+      "scope": "逐文件备份模板及哈希；可恢复移走示例内容；安装或配置编译工具；建立无虚假身份、保留许可的入口/章包装/BibTeX及构建脚本。不得写Sections、新图。",
+      "retry_limit": 3,
+      "publish_permission": false
+    },
+    {
+      "task_id": "G77",
+      "agent_id": "01a1d274-30a3-72b2-8581-507d18ab4b49",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "state": "first-chapter-content-accepted-closed",
+      "scope": "迁移第1章1.1–1.4并按已有设计续写1.5；只写第1章Sections、对应latex evidence ledger和自己的receipt。",
+      "retry_limit": 3,
+      "publish_permission": false,
+      "parent_review": "17/17 math and citations restored; 1.5 overclaims corrected; two short edits pending",
+      "acceptance_receipt": "G77/parent-acceptance.json"
+    },
+    {
+      "task_id": "G78",
+      "agent_id": "01a1d274-9b24-7103-8c24-37eb7035f6c8",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "state": "accepted-content-closed",
+      "scope": "迁移第2章2.1–2.4；修正已知符号/测度边界；只写第2章Sections、对应latex evidence ledger和自己的receipt。",
+      "retry_limit": 3,
+      "publish_permission": false,
+      "parent_review": "2.1/2.3 math preserved; 2.2 approved notation changes; real UTC ledger fields and 2.4 caption specificity pending",
+      "acceptance_receipt": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G78/parent-acceptance.json"
+    },
+    {
+      "task_id": "G79",
+      "agent_id": "01a1d274-e82c-7bc0-af59-22fac97251d4",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "state": "checkpoint-content-and-typesetting-admitted-next-contract-preparation",
+      "scope": "迁移第5章5.3、5.4、5.9；只写这三节Sections、对应latex evidence ledger和自己的receipt。",
+      "retry_limit": 3,
+      "publish_permission": false,
+      "parent_review": "Preserve 5.3/5.4; restore radiation delta convention and allowed-vs-present/branch boundaries in 5.9"
+    },
+    {
+      "task_id": "G80",
+      "agent_id": "01a1d275-4f45-7da3-8391-6b216a48f37c",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "state": "repairing-v3",
+      "scope": "复用已核模型CSV和声明条件绘Python图；双格式Img、producer和图provenance；不得改正文。",
+      "retry_limit": 3,
+      "publish_permission": false,
+      "parent_review": "v2 improved; six-region mass-number drift and gamma footer/CFD labels returned"
+    },
+    {
+      "task_id": "G81",
+      "agent_id": "01a1d276-2d5c-7122-9a62-14cafff0adca",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "state": "checkpoint-content-and-typesetting-admitted-next-contract-preparation",
+      "scope": "3.5保真迁移、2.5及附录B对称性/非正交投影",
+      "retry_limit": 3,
+      "publish_permission": false,
+      "parent_review": "3.5 math preserved; new projection units, axial selection, dynamical spectrum and metric proofs returned"
+    },
+    {
+      "task_id": "T12",
+      "agent_id": "01a1d28e-a982-7dd3-9f31-e3a98e49ddd4",
+      "model": "codex/gpt-6.1-terra",
+      "reasoning_effort": "xhigh",
+      "state": "accepted-narrow-audit-closed",
+      "scope": "Narrow G74 ESPE/SRG audit; no manuscript writes",
+      "publish_permission": false,
+      "acceptance_receipt": "T12/parent-acceptance.json"
+    },
+    {
+      "task_id": "G82",
+      "reused_agent_id": "01a1d274-9b24-7103-8c24-37eb7035f6c8",
+      "model": "codex/gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "state": "content-admitted-closed",
+      "scope": "T12 source/knowledge integration followed by new2.6 from F02 and R2 source crosswalk",
+      "publish_permission": false,
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_reasoning_effort": "high",
+      "routing_exception": "Closed G78 was resumed without an override-capable API; observed resumed turn context inherited parent Sol/xhigh. Parent corrected the record and will explicitly spawn new Gemini workers for future batches.",
+      "acceptance_receipt": "G82/parent-acceptance.json"
+    }
+  ],
+  "pending_independent_audit": {
+    "task_id": "T12",
+    "state": "accepted-closed-knowledge-integration-by-G82",
+    "model": "codex/gpt-6.1-terra/xhigh",
+    "scope": "G74 ESPE matrix/conjugation, spherical radial blocks, SRG field convention and removal of false universal conditions",
+    "dispatch_note": "Spawn rejected by six-active-agent capacity; no runtime and no result claimed. Queue after current execution slots free.",
+    "manuscript_policy": "Do not ingest G74 unaudited claims; faithful G70-v3/T11 migration continues independently.",
+    "agent_id": "01a1d28e-a982-7dd3-9f31-e3a98e49ddd4"
+  },
+  "baseline_lint": {
+    "error": 132,
+    "warning": 481,
+    "boundary": "Existing repository baseline, not a task-scoped success claim. Task sources checked separately."
+  },
+  "future_dispatch_rule": "Explicitly spawn Gemini model/effort and verify turn_context; do not assume a closed-agent resume preserves override.",
+  "checkpoint": {
+    "sections": 15,
+    "planned_sections": 39,
+    "pdf_pages": 128,
+    "build_verdict": "CLEAN_PASS",
+    "source_manifest_matches": true,
+    "ledger_hashes_match": 16,
+    "native_goal_complete": false,
+    "production_input_count": 49
+  },
+  "next_workers": [
+    {
+      "id": "G84",
+      "agent_id": "01a1d2f0-bb5c-7a81-a39c-b1f41b3dc09a",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "effort": "high",
+      "scope": "2.7",
+      "state": "contract-preparation"
+    },
+    {
+      "id": "G85",
+      "agent_id": "01a1d2f1-040b-7521-bb9a-44881cd9a381",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "effort": "high",
+      "scope": "2.8",
+      "state": "contract-preparation"
+    },
+    {
+      "id": "T14",
+      "agent_id": "01a1d2f3-0970-7701-b24a-e761689e0ac5",
+      "model": "codex/gpt-6.1-terra",
+      "effort": "xhigh",
+      "scope": "3.2 dimensional and axial-limit narrow audit",
+      "state": "running"
+    }
+  ]
+}

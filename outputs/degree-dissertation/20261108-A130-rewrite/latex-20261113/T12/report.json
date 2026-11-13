@@ -1,0 +1,70 @@
+{
+  "task": "T12",
+  "date": "2026-11-13",
+  "status": "completed_scoped_review",
+  "scope": "独立审查G74冻结报告中的五项，供父任务与Gemini后续采用；未审查现稿、未全篇重读、未重跑toy。",
+  "carriers": [
+    {
+      "source": "raw/papers/gpt/query/20261108-a130-espe-primary/duguet-2015-non-observable-shell-structure.pdf",
+      "observed": "pdfinfo 16页；实际检查PDF第4–8页的相关部分；页码同时是文中印刷页码。"
+    },
+    {
+      "source": "raw/papers/gpt/query/20261108-a130-espe-primary/baranger-1970-publisher-fulltext.xml",
+      "observed": "rawtext为有损OCR，无MathML；只核了摘要可读文字，未以其核对公式或声称逐页核验。"
+    },
+    {
+      "source": "raw/papers/gpt/query/20261108-a130-espe-primary/baranger-1970-single-nucleon-potential.pdf",
+      "observed": "pdfinfo确认1页、79996字节；不是完整16页原作。manifest.parent-verified.json记录载体边界。"
+    }
+  ],
+  "findings": [
+    {
+      "id": 1,
+      "verdict": "必须校正复共轭、索引与球对称后的径向混合。",
+      "old": "G74/report.md §2.1–2.2；§2.3的一阶矩定义应与其实际振幅约定统一。 该报告第68、78行的U、V均是Duguet Eq.(4)振幅的复共轭，却照搬了原文第70、80行的乘积顺序。",
+      "source_locator": "Duguet PDF第4页Eq.(4a,b)、(5a,b)及脚注5；第5页Eq.(9)–(11)；第6页Eq.(13)–(14)。",
+      "source_to_claim": "采用原文U^p_μ=<A0|c_p|A+1,μ>、V^p_ν=<A0|c†_p|A−1,ν>时，S+pq=U^p(U^q)*，S−pq=(V^p)*V^q；hcent_pq=<A0|{[c_p,H],c†_q}|A0>=ΣS+pq E+ +ΣS−pq E−。严格ESPE是此Hermitian矩阵的本征值，不是任意基底的对角元。0+球对称约束守恒量j、m、宇称及粒子种类的块，仍可有同j、同宇称、同种类的不同径向轨道非对角元；须在相应块对角化。 若保留G74自身振幅定义，则应改写为S+pq=(U_G^p)*U_G^q、S−pq=V_G^p(V_G^q)*；对角强度不受此区别影响，但复非对角元会转置。",
+      "replacement": "见correction.tex第1–2段；可在centroid本征基底再用对角谱强度求加去粒加权和。"
+    },
+    {
+      "id": 2,
+      "verdict": "同轨扣除为特定约定下的代数结果，不是普适重心公式；撤回高j导致精确消失的说法。",
+      "old": "G74/report.md §3.3–3.4及§6.2；包含高j、<0.1 MeV和仅三条件的无证据断言。",
+      "source_locator": "Duguet PDF第4页Eq.(3b)，第6页Eq.(14)–(15)：包含反对称二体矩阵元与密度以及三体密度贡献；下述同轨化简是本审查在给定假设下的代数推论，非Duguet显式给出的普适公式。",
+      "source_to_claim": "固定同一基底与同一两体哈密顿量、球对称密度rho_jm,jm=n_j/g_j、同种粒子j壳、Vjj定义为g_j(g_j−1)个反对称有序m对的平均且g_j>1，则同轨贡献为Vjj(1−1/g_j)n_j；相对Vjj n_j的差为−Vjj n_j/g_j。推广到ESPE本征值还须矩阵在所选轨道基底对角；3N及其他非对角贡献须另计。比较两态时，若V、基底等固定，差为−Vjj Δn_j/g_j。",
+      "replacement": "见correction.tex第3段。高j仅在固定Δn及V时产生1/g因子；Δn可随g增长，绝对变化不必趋零，更无普适0.1 MeV界。"
+    },
+    {
+      "id": 3,
+      "verdict": "区分固定裸核子场与一致变换场；不可把ESPE的方案依赖等同于所有实验数据不可测。",
+      "old": "G74/report.md §4.1–4.2及§6.3。",
+      "source_locator": "Duguet PDF第7页Eq.(23)–(24)及相邻文字；第8页Eq.(25)–(29)及首段。",
+      "source_to_claim": "保持单粒子裸产生湮灭算符形式不变而演化Hamiltonian和态时，谱因子及重心一般可随SRG流变化；一致地对态和算符作精确幺正变换时，振幅、谱矩阵和相应重心保持不变，但演化场通常含高体项。非观测性不意味着每条流或每一能级的导数必非零。精确变换且反应算符等一致时能谱及截面不变；实际截断可能破坏精确不变，也不能声称必精确复现实验。实测能谱、分离能和截面可观测；以实测数值规定权重的重心是可构造的数据统计量，其选择、能窗与不确定度须声明；以反应模型提取谱因子作权重得到的重心也有模型依赖，不能直接等同完整Baranger ESPE。",
+      "replacement": "见correction.tex第4段。"
+    },
+    {
+      "id": 4,
+      "verdict": "撤回比较ESPE前必须选定λ=1.8–2.2 fm⁻¹、NO2B及Σdyn平缓等普适门槛。",
+      "old": "G74/report.md §4.4及§6.3；尤其把条件写成当且仅当。",
+      "source_locator": "Duguet PDF第6页Eq.(14)、(17)–(18)：一阶矩与静态自能及单核子能量分解；第8页Eq.(25)–(29)：分辨率依赖。",
+      "source_to_claim": "这些属于具体计算选择或需逐例检验的近似，不是定义或一般比较的必要充分条件；Eq.(18)分解分离能，不能推出该当且仅当门槛。比较须交代Hamiltonian、分辨率/方案、场算符和基底、相互作用与多体截断、谱强度覆盖及误差，必要时检查基底映射和径向混合。",
+      "replacement": "见correction.tex第5段。"
+    },
+    {
+      "id": 5,
+      "verdict": "撤回从一次请求外推2026-11-13权限或整个过刊库的判断。",
+      "old": "G74/carrier-followup.md第36–44行；其把单次响应扩大为当前机构凭据缺少整库权限。",
+      "source_locator": "本项是采集记录判断而非Duguet科学公式：G74/carrier-followup.md第36–44行；manifest.parent-verified.json载体记录；本地pdfinfo。",
+      "source_to_claim": "2026-11-08该次文章PDF请求返回未获entitlement并限第一页，只能说明那次请求的响应与本地取得的PDF载体；不能确定2026-11-13配置或整个过刊库权限。未重新联网，当前权限未知。",
+      "replacement": "见correction.tex末尾注释；后续载体说明仅记单次响应、取得版本及日期。"
+    }
+  ],
+  "remaining_uncertainties": [
+    "未核Otsuka 2022原件，不裁定其V的归一化和G74所引用附录的具体文字；不可据此声称此前文献出错。",
+    "未审查拟写现稿及其文献键，不能判断实际哪一处应插入；需Gemini根据上下文选择并补齐真实参考文献键。",
+    "Baranger OCR不支持公式逐项校对；不将同名1页PDF或有损XML描述为完整可核数学公式的原作。",
+    "有限能窗强度覆盖、具体体系的高j修正大小及截断误差均未定量评估。"
+  ],
+  "deliverable": "correction.tex：供后续人工或Gemini选择粘贴的最小LaTeX片段，不自动修改现稿。",
+  "constraints": "无互联网/下载、无API密钥或邮箱检索、无原文或knowledge写入、无commit。"
+}

@@ -1,0 +1,165 @@
+{
+  "actual_turn_contexts": [
+    {
+      "id": "01a1d273-c747-7e72-a5af-01dbde04f26c",
+      "contexts": [
+        {
+          "at": "2026-11-13T01:09:26.057Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "at": "2026-11-13T01:16:10.412Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "at": "2026-11-13T01:40:59.418Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "at": "2026-11-13T02:01:41.691Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ]
+    },
+    {
+      "id": "01a1d274-9b24-7103-8c24-37eb7035f6c8",
+      "contexts": [
+        {
+          "at": "2026-11-13T01:10:20.091Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "at": "2026-11-13T01:25:16.919Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "at": "2026-11-13T01:46:02.789Z",
+          "model": "codex/gpt-6.1-sol",
+          "effort": "xhigh"
+        }
+      ]
+    },
+    {
+      "id": "01a1d276-2d5c-7122-9a62-14cafff0adca",
+      "contexts": [
+        {
+          "at": "2026-11-13T01:12:04.487Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "at": "2026-11-13T01:30:29.203Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "at": "2026-11-13T01:32:17.755Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "at": "2026-11-13T01:44:47.398Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "at": "2026-11-13T02:14:40.129Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ]
+    },
+    {
+      "id": "01a1d274-30a3-72b2-8581-507d18ab4b49",
+      "contexts": [
+        {
+          "at": "2026-11-13T01:09:55.256Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "at": "2026-11-13T01:25:26.427Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "at": "2026-11-13T01:29:00.661Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "at": "2026-11-13T01:42:33.062Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "at": "2026-11-13T01:55:06.148Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ]
+    },
+    {
+      "id": "01a1d275-4f45-7da3-8391-6b216a48f37c",
+      "contexts": [
+        {
+          "at": "2026-11-13T01:11:07.870Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "at": "2026-11-13T01:30:29.262Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "at": "2026-11-13T01:35:11.451Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "at": "2026-11-13T01:54:52.753Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "at": "2026-11-13T02:11:53.111Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ]
+    },
+    {
+      "id": "01a1d274-e82c-7bc0-af59-22fac97251d4",
+      "contexts": [
+        {
+          "at": "2026-11-13T01:10:40.029Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "at": "2026-11-13T01:21:02.534Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "at": "2026-11-13T01:48:09.702Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        },
+        {
+          "at": "2026-11-13T02:12:28.856Z",
+          "model": "antigravity/gemini-3.8-flash-tiered",
+          "effort": "high"
+        }
+      ]
+    }
+  ],
+  "model_routing_requires_correction": true
+}

@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-13",
+  "objective": "在用户提供的LaTeX模板中持续完成五章39节及必要附录；正文canonical格式为tex，新图由Python同时输出SVG/PDF。",
+  "native_goal_remains_active": true,
+  "role_contract": {
+    "leader": "当前GPT会话：蓝图、详细执行合同、关键科学主张与增量验收、接受或定点返修、发布",
+    "primary_executor": "antigravity/gemini-3.8-flash-tiered / high：模板工程、迁移、续写、绘图、编译与修复",
+    "exceptional_complex_audit": "codex/gpt-6.1-terra / xhigh：只在新复杂推导需要独立核查时派发"
+  },
+  "project_root": "raw/writing/gpt/A130/these_2023_template/these_template",
+  "canonical_entry": "Thesis.tex",
+  "section_pattern": "Tex/Sections/sec-X-Y.tex",
+  "chapter_pattern": "Tex/ChapterX.tex",
+  "figure_pattern": "Img/<semantic-name>.svg and Img/<semantic-name>.pdf",
+  "citation_policy": "使用canonical source basename作为cite key；逐主张locator保留在evidence-ledger及适当脚注。复用已核CSL，再按source元数据补齐，不修改Zotero inbox。",
+  "science_contracts": [
+    "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-argument-and-writer-contract-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-high-risk-section-contracts-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-notation-and-evidence-style-20261108.md"
+  ],
+  "current_batch": {
+    "G76": "逐文件备份模板及哈希；可恢复移走示例内容；安装或配置编译工具；建立无虚假身份、保留许可的入口/章包装/BibTeX及构建脚本。不得写Sections、新图。",
+    "G77": "迁移第1章1.1–1.4并按已有设计续写1.5；只写第1章Sections、对应latex evidence ledger和自己的receipt。",
+    "G78": "迁移第2章2.1–2.4；修正已知符号/测度边界；只写第2章Sections、对应latex evidence ledger和自己的receipt。",
+    "G79": "迁移第5章5.3、5.4、5.9；只写这三节Sections、对应latex evidence ledger和自己的receipt。",
+    "G80": "复用已核模型CSV和声明条件绘Python图；双格式Img、producer和图provenance；不得改正文。",
+    "leader": "审核G75关键科学地图、核对章节覆盖/引用和跨节约定；记录验收/返修；整合时不整篇重写。"
+  },
+  "acceptance": [
+    "模板逐文件备份、原字节SHA及可恢复移动清单存在；不递归删除、不覆盖原始证据、不撤销用户删除。",
+    "不存在示例摘要、假作者/导师/成果、演示章节/文献/图；保留样式版权许可及真实格式资源。",
+    "所有返回正文为tex，章/节标签及引用一致，无静默改写已核物理。",
+    "图producer可运行，Img中SVG/PDF配对；真实实验、教学模型、概念示意明确区分。",
+    "实际编译完成并记录引擎/命令；无missing cite/ref、fatal、missing glyph，overfull及版面逐项检查。",
+    "状态明确区分已迁移、已核查、新起草、未完成；编译成功不等于39节或科学内容完成。",
+    "原有用户修改和PADO工件不纳入本任务提交；仅显式暂存本任务通过验收的路径。"
+  ],
+  "protected_paths": [
+    "PLAN.md",
+    "system/memory.md",
+    "raw/zotero/wiki-inbox.bib",
+    "raw/writing/gpt/_archive/20261108-A130-before-rewrite/manifest.json",
+    "raw/writing/gpt/a130-triaxial/",
+    "all unrelated PADO and daily-learning artifacts"
+  ],
+  "isolation": "Shared filesystem; disjoint write paths by protocol only, no sandbox claim.",
+  "stop_rule": "仅在完整目标达成或用户暂停时结束原生goal；局部编译和当前批完成仅为checkpoint。",
+  "dispatch_validation": {
+    "observed_exception": "Reopening the closed G78 agent for G82 inherited parent codex/gpt-6.1-sol/xhigh in this run, despite the requested Gemini routing. Corrected in receipts; valid work retained.",
+    "future_rule": "For a new Gemini task, explicitly spawn with antigravity/gemini-3.8-flash-tiered/high and verify actual turn_context; do not infer preserved override from closed-agent resume.",
+    "existing_live_workers": "send_input continuations on G76/G77/G79/G80/G81 remained Gemini/high in observed contexts."
+  },
+  "publication_checkpoint": {
+    "scope": "15 LaTeX sections, delivered portions of appendices B/C, seven Python SVG/PDF pairs; remaining24 sections and necessary appendix material stay active",
+    "new_sections_frozen_until_checkpoint_review": true,
+    "completion_is_not_whole_goal": true
+  },
+  "updated_at": "2026-11-13T02:49:58.318437+00:00"
+}

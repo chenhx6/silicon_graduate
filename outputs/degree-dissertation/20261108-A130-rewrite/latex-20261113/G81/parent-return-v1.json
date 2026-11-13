@@ -1,0 +1,15 @@
+{
+  "reviewer": "parent-agent",
+  "section": "2.5 and AppendixB",
+  "decision": "return-for-targeted-scientific-repair",
+  "checked_at": "2026-11-13T01:56:24.670350+00:00",
+  "issues": [
+    "Intrinsic coordinates do not inherently break symmetry; qualify reference and physical hbar",
+    "K=0 does not force lab M=0; parity alone does not force even I",
+    "Projection does not imply exact I(I+1) energy spectrum",
+    "Metric truncation is approximate for positive eigenvalues; remove unsupported universal cutoff",
+    "Distinguish ordered energy roots and symmetric/antisymmetric labels; add S=0 phase case",
+    "Remove nonexistent Ring-Schuck source and substantiate actual-read locators"
+  ],
+  "whole_manuscript_accepted": false
+}

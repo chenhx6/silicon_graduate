@@ -1,0 +1,14 @@
+{
+  "baseline_counts": {
+    "error": 132,
+    "warning": 481,
+    "info": 5481
+  },
+  "final_counts": {
+    "error": 132,
+    "warning": 480,
+    "info": 5481
+  },
+  "new_errors": [],
+  "task_scope_issues": []
+}

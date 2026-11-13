@@ -1,0 +1,909 @@
+{
+  "section_id": "2.6",
+  "title": "势能、惯量与微观响应",
+  "version": "G82-latex-v1",
+  "recorded_at": "2026-11-13T02:17:31.567214+00:00",
+  "worker": "G82",
+  "status": "submitted_for_parent_scientific_acceptance",
+  "latex_output": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-6.tex",
+    "sha256": "ad956ea0748a82b31e82a917df2d16fec1b744be1ce72f91c875eec0ae55ad64",
+    "size_bytes": 18051
+  },
+  "appendix_output": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixC.tex",
+    "sha256": "67eece7eea1d3d9693ab4e012147e126d2a00a8bee835d99855f5e1d205b1b76",
+    "size_bytes": 5366
+  },
+  "inputs": [
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G82/outline.json",
+      "sha256": "c460d65d18bbc7becd3a2d566bdfe57da19604f4de3f51925fc7393608075a58",
+      "size_bytes": 5938
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/next-wave-contracts.json",
+      "sha256": "75a6b959bdf94df47bf76821c0f762a3e297dccb0ea8c690bf99d6322a959d76",
+      "size_bytes": 3129
+    },
+    {
+      "path": "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md",
+      "sha256": "6021653222c92b5e115bdd84c259b943209b8e9177adefe41fccb525cd0ff41f",
+      "size_bytes": 21646
+    },
+    {
+      "path": "knowledge/research-notes/doctoral-thesis-notation-and-evidence-style-20261108.md",
+      "sha256": "077c0fbab10d281e5127cace6cfadbce430ed3a2a6ec075342b863401b5ce98a",
+      "size_bytes": 10561
+    },
+    {
+      "path": "knowledge/research-notes/doctoral-r2-collective-inertia-response-crosswalk-20261108.md",
+      "sha256": "965bd29e01a32609f1dc5882dfc0d97e3c3c3c19d83285d4325d90a9a35154f7",
+      "size_bytes": 12073
+    },
+    {
+      "path": "knowledge/research-notes/a130-rewrite-bcs-convention-and-model-hamiltonian-boundaries-20261108.md",
+      "sha256": "4978340a81f3515d742ea3706670f893cffb6c7d5382368a7ec60dcec91af728",
+      "size_bytes": 8619
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+      "source_page": {
+        "path": "knowledge/sources/prochniak-rohozinski-2009-bohr-collective-hamiltonian.md",
+        "sha256": "333cffa3a246f5265668bb9791a78a33b6d2dafe59cf6bd8738bb817a98a9c27",
+        "size_bytes": 10695
+      },
+      "raw_file": {
+        "path": "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/manifest.json",
+        "sha256": "9afdb6573cb302fb18ae0eb3914d0c51afbbbdf5b9984f0400bf784e40b5ca63",
+        "size_bytes": 1451
+      },
+      "archive_required": true,
+      "locator": "PDF14 Eqs.(3.5)–(3.8),PDF30 Eqs.(4.21)–(4.25),PDF34 Eq.(4.44)",
+      "actual_read_pages": [
+        14,
+        30,
+        34
+      ],
+      "actual_read_scope": "Selected kinetic and cranking formula passages; PDF13–16,27–35 extracted for local navigation, not claimed fully read",
+      "evidence_layer": "published theoretical definitions/model, not new experimental evidence",
+      "reading_carrier": {
+        "path": "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/prochniak-rohozinski-2009-v1.pdf",
+        "sha256": "4d7e6d3942230023061efd0032b3d1f9231e5d6f230219329ef984c458bb689b",
+        "size_bytes": 1011836
+      }
+    },
+    {
+      "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+      "source_page": {
+        "path": "knowledge/sources/hinohara-2015-nambu-goldstone-inertia-response.md",
+        "sha256": "6d6ebcdb6a289ddd620c5e9fc6ceb56e174d367122cd17091219372a0ab47042",
+        "size_bytes": 8611
+      },
+      "raw_file": {
+        "path": "raw/papers/gpt/query/20261108-r2-t05-response-definitions/aps-publication.pdf",
+        "sha256": "764d644a2349235027e15c320d78f15fcd7d8fd264ebe6412fd2b80e1a625f86",
+        "size_bytes": 399622
+      },
+      "archive_required": true,
+      "locator": "APS PDF3–5 Eqs.(15),(18)–(25),(32)–(34),(41),(49)–(53);PDF8–9 Eqs.(66)–(67),Fig.4",
+      "actual_read_pages": [
+        3,
+        4,
+        5,
+        8,
+        9
+      ],
+      "actual_read_scope": "Selected normalization, static-response and total/binding-energy passages; no full paper read or numerical replay",
+      "evidence_layer": "published theoretical definitions/model, not new experimental evidence",
+      "reading_carrier": {
+        "path": "raw/papers/gpt/query/20261108-r2-t05-response-definitions/aps-publication.pdf",
+        "sha256": "764d644a2349235027e15c320d78f15fcd7d8fd264ebe6412fd2b80e1a625f86",
+        "size_bytes": 399622
+      }
+    },
+    {
+      "source_id": "petrik-kortelainen-2018-rotational-tv-inertia",
+      "source_page": {
+        "path": "knowledge/sources/petrik-kortelainen-2018-rotational-tv-inertia.md",
+        "sha256": "d505fe85676ea073d69c83bf281cb235bfa9510330acbb386f37cf4f00d6a452",
+        "size_bytes": 5290
+      },
+      "raw_file": {
+        "path": "raw/papers/gpt/query/20261108-r2-g39-fam-ng/petrik-2018-thouless-valatin-rotational-inertia-fam.pdf",
+        "sha256": "6036ed6c1ccaae0800ce1632ecae0a51e4424613ab93d272f10dab5d5d61bb74",
+        "size_bytes": 4177986
+      },
+      "archive_required": true,
+      "locator": "PDF2 Inglis/Belyaev background;PDF4–5 Eqs.(12)–(18)",
+      "actual_read_pages": [
+        2,
+        4,
+        5
+      ],
+      "actual_read_scope": "Selected background and rotational NG/FAM passages; no quantitative reproduction",
+      "evidence_layer": "published theoretical definitions/model, not new experimental evidence",
+      "reading_carrier": {
+        "path": "raw/papers/gpt/query/20261108-r2-g39-fam-ng/petrik-2018-thouless-valatin-rotational-inertia-fam.pdf",
+        "sha256": "6036ed6c1ccaae0800ce1632ecae0a51e4424613ab93d272f10dab5d5d61bb74",
+        "size_bytes": 4177986
+      }
+    },
+    {
+      "source_id": "matsuzaki-2004-nuclear-inertia-and-wobbling",
+      "source_page": {
+        "path": "knowledge/sources/matsuzaki-2004-nuclear-inertia-and-wobbling.md",
+        "sha256": "4c76113fc26a3aefb1534edbb8da1fdb5f291e2155d5f5fb07284723b0c88c96",
+        "size_bytes": 5439
+      },
+      "raw_file": {
+        "path": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/matsuzaki-2004-nuclear-moments-of-inertia-prc69-034306.pdf",
+        "sha256": "9ea9fb2c8b9e73b0352a219ace7efc6182d6b5471b38d32cb96bc539e4aa6bf7",
+        "size_bytes": 279781
+      },
+      "archive_required": true,
+      "locator": "PDF3–5 Eqs.(8)–(12), subsequent Nilsson limitation",
+      "actual_read_pages": [
+        3,
+        4,
+        5
+      ],
+      "actual_read_scope": "Selected cranked RPA equations and limits, no rereading/recalculating full results",
+      "evidence_layer": "published theoretical definitions/model, not new experimental evidence",
+      "reading_carrier": {
+        "path": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/matsuzaki-2004-nuclear-moments-of-inertia-prc69-034306.pdf",
+        "sha256": "9ea9fb2c8b9e73b0352a219ace7efc6182d6b5471b38d32cb96bc539e4aa6bf7",
+        "size_bytes": 279781
+      }
+    },
+    {
+      "source_id": "kvasil-2006-dy156-yb162-crpa-wobbling",
+      "source_page": {
+        "path": "knowledge/sources/kvasil-2006-dy156-yb162-crpa-wobbling.md",
+        "sha256": "5d1a02aec781326cd19d4285c079daad047b2c52656cae3e93ec0318f0b2029a",
+        "size_bytes": 3091
+      },
+      "raw_file": {
+        "path": "raw/papers/gpt/query/20261108-r3-g45-quantum-labels/kvasil-nazmitdinov-2006-wobbling-dy156-yb162.pdf",
+        "sha256": "dee4d852c401c5d522b10655d26a477925f9e8da7b06c09190e66243f3fa2405",
+        "size_bytes": 725623
+      },
+      "archive_required": true,
+      "locator": "PDF3 Eq.(6),PDF4 Fig.3 and its self-consistency discussion",
+      "actual_read_pages": [
+        3,
+        4
+      ],
+      "actual_read_scope": "Selected pairing prescription, longitudinal inertia and alternative Dy/Yb mechanism; no full CRPA replay",
+      "evidence_layer": "published theoretical definitions/model, not new experimental evidence",
+      "reading_carrier": {
+        "path": "raw/papers/gpt/query/20261108-r3-g45-quantum-labels/kvasil-nazmitdinov-2006-wobbling-dy156-yb162.pdf",
+        "sha256": "dee4d852c401c5d522b10655d26a477925f9e8da7b06c09190e66243f3fa2405",
+        "size_bytes": 725623
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "2.6-C01",
+      "text": "局部常正质量、稳定单坐标谐振模型满足omega²=C/B；能量间隔hbar omega及基态宽度约束不同参数组合，PES曲率本身不足以定频率。",
+      "kind": "manuscript_derivation_in_declared_teaching_model",
+      "equation_labels": [
+        "local-hamiltonian",
+        "local-frequency",
+        "local-energy-units",
+        "local-width"
+      ],
+      "sources": [
+        {
+          "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locator": "Secs.3.1,4.1; R2 crosswalk“对低能谱的缩放”及坐标质量约定"
+        }
+      ],
+      "limits": [
+        "q无量纲、B>0、C>0、小振幅、局部常质量",
+        "电磁强度转换成q宽度另需算符映射；无实核数值"
+      ]
+    },
+    {
+      "id": "2.6-C02",
+      "text": "坐标质量随坐标变换；beta,gamma动能中的几何因子与实际绕轴惯量不能遗漏，量子势不自动等于未修正约束PES。",
+      "kind": "source_kinetic_form_and_manuscript_chain_rule",
+      "equation_labels": [
+        "coordinate-mass",
+        "mass-transform",
+        "bohr-vibrational-mass",
+        "bohr-rotational-mass"
+      ],
+      "sources": [
+        {
+          "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locator": "PDF14 Eqs.(3.5)–(3.8); Secs.4.1–4.3; R2 crosswalk"
+        }
+      ],
+      "limits": [
+        "gamma弧度；轴序与坐标约定固定",
+        "M_gamma_gamma=beta² B_gamma_gamma；不是直接实验反演"
+      ]
+    },
+    {
+      "id": "2.6-C03",
+      "text": "IB原式用全单粒子空间求和；不重复两准粒子对表示的2因子须结合F20、时间反演相位和相干因子换算。",
+      "kind": "source_original_formula_with_explicit_hbar_and_counting_conversion",
+      "equation_labels": [
+        "ib-full-sum",
+        "ib-pair-sum"
+      ],
+      "sources": [
+        {
+          "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locator": "PDF34 Eq.(4.44); PDF30 Eqs.(4.21)–(4.25)"
+        },
+        {
+          "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF3 Eqs.(25),(32)–(33); PDF4 Eq.(34),(41), omitting induced fields for independent response"
+        }
+      ],
+      "limits": [
+        "零温、指定canonical BCS型偶偶时间反演参考、正准粒子能量",
+        "未包含自洽诱导场；不将旋转IB式直接冒称完整振动质量"
+      ]
+    },
+    {
+      "id": "2.6-C04",
+      "text": "TV响应保留依赖X,Y的诱导场；实QRPA的NG归一涉及生成元实/虚分量及不同A±B分块。",
+      "kind": "source_equations_with_frequency_variable_renamed_to_energy_z",
+      "equation_labels": [
+        "fam-induced-field",
+        "ng-normalization",
+        "tv-real-imag"
+      ],
+      "sources": [
+        {
+          "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF3 Eqs.(15),(18)–(23),(32)–(33)"
+        }
+      ],
+      "limits": [
+        "z=hbar omega_probe；A,B为能量单位QRPA核，非集体质量B",
+        "只在相应可逆响应子空间使用逆；复参考、时间反演破缺用完整核",
+        "NG条件需真实连续对称性破缺及一致残余项，非任意gamma软极限"
+      ]
+    },
+    {
+      "id": "2.6-C05",
+      "text": "按H+eta F定义S，NG静态支S(P;0)=-M；减能外场H-hj的正响应恢复空间hbar²得到TV惯量。",
+      "kind": "source_static_branch_and_manuscript_units_conversion",
+      "equation_labels": [
+        "static-tv",
+        "tv-susceptibility"
+      ],
+      "sources": [
+        {
+          "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF4 Eq.(41); PDF5 Eqs.(49)–(53), including separate finite/nonzero-frequency branch"
+        },
+        {
+          "source_id": "petrik-kortelainen-2018-rotational-tv-inertia",
+          "locator": "PDF4–5 Eqs.(12)–(18)"
+        }
+      ],
+      "limits": [
+        "P=j或N无量纲；外场符号、归一和单位均声明",
+        "不以普通有限频率极限替代零频NG支；不宣称TV总大于IB"
+      ]
+    },
+    {
+      "id": "2.6-C06",
+      "text": "配对惯量dN/dlambda单位MeV^-1；本稿以总能量E写局部曲率，以正束缚能B_+=-E换号。",
+      "kind": "source_response_and_manuscript_total_energy_taylor_expansion",
+      "equation_labels": [
+        "pairing-response",
+        "pairing-curvature",
+        "positive-binding-sign"
+      ],
+      "sources": [
+        {
+          "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF5 Eqs.(49)–(53); PDF8–9 Eqs.(66)–(67),Fig.4；已核2.3与T10/R2记法边界"
+        }
+      ],
+      "limits": [
+        "固定其它粒子数、平滑HFB态族、非奇异局部响应",
+        "原文Eq.(66)的B与Fig.4 -Bexp记法差异保留，不猜作者程序错误",
+        "连续HFB延拓不等固定N质量差分；局部规范角不等全局自伴角"
+      ]
+    },
+    {
+      "id": "2.6-C07",
+      "text": "沿带J(1),J(2)及相邻Delta I=2跃迁能有限差分描述同一有序解支，Kvasil的TV比较是同方向自洽检查。",
+      "kind": "source_definitions_and_explicit_hbar_restoration",
+      "equation_labels": [
+        "band-inertias",
+        "band-finite-difference"
+      ],
+      "sources": [
+        {
+          "source_id": "kvasil-2006-dy156-yb162-crpa-wobbling",
+          "locator": "PDF4 Fig.3 caption and self-consistency paragraph"
+        },
+        {
+          "source_id": "matsuzaki-2004-nuclear-inertia-and-wobbling",
+          "locator": "PDF4–5 Eqs.(11)–(12) and Jx definition"
+        }
+      ],
+      "limits": [
+        "平滑驻定解支、正确自旋序列和对应",
+        "带交叉、混合处不能无条件连续化；不等一般横向响应"
+      ]
+    },
+    {
+      "id": "2.6-C08",
+      "text": "Matsuzaki式横向有效惯量取物理根频率，冗余根在旋转框架为omega_n²=omega_rot²；实根不保证电磁模式识别。",
+      "kind": "source_original_dispersion_relation_with_notation_mapping",
+      "equation_labels": [
+        "wobbling-response"
+      ],
+      "sources": [
+        {
+          "source_id": "matsuzaki-2004-nuclear-inertia-and-wobbling",
+          "locator": "PDF3 Eq.(8); PDF4 Eqs.(11)–(12); PDF5 Eq.(12)后Nilsson速度依赖与横向修正未给出的限制"
+        }
+      ],
+      "limits": [
+        "指定非轴cranked Nilsson+RPA，gamma!=0推导条件",
+        "不替代全部轴对称极限；不以沿带J(2)填入横向惯量",
+        "omega是角频率，hbar omega是激发能；未提供原程序或新计算"
+      ]
+    },
+    {
+      "id": "2.6-C09",
+      "text": "配对减弱不保证精确刚体；Kvasil的Dy/Yb带弯曲机制不同且带交叉附近使用指定配对隙处方。",
+      "kind": "source_model_boundary_and_conditional_synthesis",
+      "equation_labels": [],
+      "sources": [
+        {
+          "source_id": "petrik-kortelainen-2018-rotational-tv-inertia",
+          "locator": "PDF2 Inglis/Belyaev/TV背景；PDF5–7配对设置与比较；本节不引用数值"
+        },
+        {
+          "source_id": "kvasil-2006-dy156-yb162-crpa-wobbling",
+          "locator": "PDF3 Eq.(6),PDF3–4 Figs.2–3"
+        },
+        {
+          "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locator": "PDF34 Eq.(4.44)的模型依赖"
+        }
+      ],
+      "limits": [
+        "作者模型解释与新实验事实分开",
+        "不把所有QRPA、所有gamma软核视为同一极限；未声明普适阈值或增强倍率"
+      ]
+    }
+  ],
+  "equations": [
+    {
+      "label": "eq:2-6-local-hamiltonian",
+      "attribution": "manuscript_derivation_in_declared_teaching_model",
+      "claim_id": "2.6-C01",
+      "sources": [
+        {
+          "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locator": "Secs.3.1,4.1; R2 crosswalk“对低能谱的缩放”及坐标质量约定"
+        }
+      ],
+      "limits": [
+        "q无量纲、B>0、C>0、小振幅、局部常质量",
+        "电磁强度转换成q宽度另需算符映射；无实核数值"
+      ]
+    },
+    {
+      "label": "eq:2-6-local-frequency",
+      "attribution": "manuscript_derivation_in_declared_teaching_model",
+      "claim_id": "2.6-C01",
+      "sources": [
+        {
+          "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locator": "Secs.3.1,4.1; R2 crosswalk“对低能谱的缩放”及坐标质量约定"
+        }
+      ],
+      "limits": [
+        "q无量纲、B>0、C>0、小振幅、局部常质量",
+        "电磁强度转换成q宽度另需算符映射；无实核数值"
+      ]
+    },
+    {
+      "label": "eq:2-6-local-energy-units",
+      "attribution": "manuscript_derivation_in_declared_teaching_model",
+      "claim_id": "2.6-C01",
+      "sources": [
+        {
+          "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locator": "Secs.3.1,4.1; R2 crosswalk“对低能谱的缩放”及坐标质量约定"
+        }
+      ],
+      "limits": [
+        "q无量纲、B>0、C>0、小振幅、局部常质量",
+        "电磁强度转换成q宽度另需算符映射；无实核数值"
+      ]
+    },
+    {
+      "label": "eq:2-6-local-width",
+      "attribution": "manuscript_derivation_in_declared_teaching_model",
+      "claim_id": "2.6-C01",
+      "sources": [
+        {
+          "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locator": "Secs.3.1,4.1; R2 crosswalk“对低能谱的缩放”及坐标质量约定"
+        }
+      ],
+      "limits": [
+        "q无量纲、B>0、C>0、小振幅、局部常质量",
+        "电磁强度转换成q宽度另需算符映射；无实核数值"
+      ]
+    },
+    {
+      "label": "eq:2-6-coordinate-mass",
+      "attribution": "source_kinetic_form_and_manuscript_chain_rule",
+      "claim_id": "2.6-C02",
+      "sources": [
+        {
+          "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locator": "PDF14 Eqs.(3.5)–(3.8); Secs.4.1–4.3; R2 crosswalk"
+        }
+      ],
+      "limits": [
+        "gamma弧度；轴序与坐标约定固定",
+        "M_gamma_gamma=beta² B_gamma_gamma；不是直接实验反演"
+      ]
+    },
+    {
+      "label": "eq:2-6-mass-transform",
+      "attribution": "source_kinetic_form_and_manuscript_chain_rule",
+      "claim_id": "2.6-C02",
+      "sources": [
+        {
+          "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locator": "PDF14 Eqs.(3.5)–(3.8); Secs.4.1–4.3; R2 crosswalk"
+        }
+      ],
+      "limits": [
+        "gamma弧度；轴序与坐标约定固定",
+        "M_gamma_gamma=beta² B_gamma_gamma；不是直接实验反演"
+      ]
+    },
+    {
+      "label": "eq:2-6-bohr-vibrational-mass",
+      "attribution": "source_kinetic_form_and_manuscript_chain_rule",
+      "claim_id": "2.6-C02",
+      "sources": [
+        {
+          "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locator": "PDF14 Eqs.(3.5)–(3.8); Secs.4.1–4.3; R2 crosswalk"
+        }
+      ],
+      "limits": [
+        "gamma弧度；轴序与坐标约定固定",
+        "M_gamma_gamma=beta² B_gamma_gamma；不是直接实验反演"
+      ]
+    },
+    {
+      "label": "eq:2-6-bohr-rotational-mass",
+      "attribution": "source_kinetic_form_and_manuscript_chain_rule",
+      "claim_id": "2.6-C02",
+      "sources": [
+        {
+          "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locator": "PDF14 Eqs.(3.5)–(3.8); Secs.4.1–4.3; R2 crosswalk"
+        }
+      ],
+      "limits": [
+        "gamma弧度；轴序与坐标约定固定",
+        "M_gamma_gamma=beta² B_gamma_gamma；不是直接实验反演"
+      ]
+    },
+    {
+      "label": "eq:2-6-ib-full-sum",
+      "attribution": "source_original_formula_with_explicit_hbar_and_counting_conversion",
+      "claim_id": "2.6-C03",
+      "sources": [
+        {
+          "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locator": "PDF34 Eq.(4.44); PDF30 Eqs.(4.21)–(4.25)"
+        },
+        {
+          "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF3 Eqs.(25),(32)–(33); PDF4 Eq.(34),(41), omitting induced fields for independent response"
+        }
+      ],
+      "limits": [
+        "零温、指定canonical BCS型偶偶时间反演参考、正准粒子能量",
+        "未包含自洽诱导场；不将旋转IB式直接冒称完整振动质量"
+      ]
+    },
+    {
+      "label": "eq:2-6-ib-pair-sum",
+      "attribution": "source_original_formula_with_explicit_hbar_and_counting_conversion",
+      "claim_id": "2.6-C03",
+      "sources": [
+        {
+          "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locator": "PDF34 Eq.(4.44); PDF30 Eqs.(4.21)–(4.25)"
+        },
+        {
+          "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF3 Eqs.(25),(32)–(33); PDF4 Eq.(34),(41), omitting induced fields for independent response"
+        }
+      ],
+      "limits": [
+        "零温、指定canonical BCS型偶偶时间反演参考、正准粒子能量",
+        "未包含自洽诱导场；不将旋转IB式直接冒称完整振动质量"
+      ]
+    },
+    {
+      "label": "eq:2-6-fam-induced-field",
+      "attribution": "source_equations_with_frequency_variable_renamed_to_energy_z",
+      "claim_id": "2.6-C04",
+      "sources": [
+        {
+          "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF3 Eqs.(15),(18)–(23),(32)–(33)"
+        }
+      ],
+      "limits": [
+        "z=hbar omega_probe；A,B为能量单位QRPA核，非集体质量B",
+        "只在相应可逆响应子空间使用逆；复参考、时间反演破缺用完整核",
+        "NG条件需真实连续对称性破缺及一致残余项，非任意gamma软极限"
+      ]
+    },
+    {
+      "label": "eq:2-6-ng-normalization",
+      "attribution": "source_equations_with_frequency_variable_renamed_to_energy_z",
+      "claim_id": "2.6-C04",
+      "sources": [
+        {
+          "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF3 Eqs.(15),(18)–(23),(32)–(33)"
+        }
+      ],
+      "limits": [
+        "z=hbar omega_probe；A,B为能量单位QRPA核，非集体质量B",
+        "只在相应可逆响应子空间使用逆；复参考、时间反演破缺用完整核",
+        "NG条件需真实连续对称性破缺及一致残余项，非任意gamma软极限"
+      ]
+    },
+    {
+      "label": "eq:2-6-tv-real-imag",
+      "attribution": "source_equations_with_frequency_variable_renamed_to_energy_z",
+      "claim_id": "2.6-C04",
+      "sources": [
+        {
+          "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF3 Eqs.(15),(18)–(23),(32)–(33)"
+        }
+      ],
+      "limits": [
+        "z=hbar omega_probe；A,B为能量单位QRPA核，非集体质量B",
+        "只在相应可逆响应子空间使用逆；复参考、时间反演破缺用完整核",
+        "NG条件需真实连续对称性破缺及一致残余项，非任意gamma软极限"
+      ]
+    },
+    {
+      "label": "eq:2-6-static-tv",
+      "attribution": "source_static_branch_and_manuscript_units_conversion",
+      "claim_id": "2.6-C05",
+      "sources": [
+        {
+          "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF4 Eq.(41); PDF5 Eqs.(49)–(53), including separate finite/nonzero-frequency branch"
+        },
+        {
+          "source_id": "petrik-kortelainen-2018-rotational-tv-inertia",
+          "locator": "PDF4–5 Eqs.(12)–(18)"
+        }
+      ],
+      "limits": [
+        "P=j或N无量纲；外场符号、归一和单位均声明",
+        "不以普通有限频率极限替代零频NG支；不宣称TV总大于IB"
+      ]
+    },
+    {
+      "label": "eq:2-6-tv-susceptibility",
+      "attribution": "source_static_branch_and_manuscript_units_conversion",
+      "claim_id": "2.6-C05",
+      "sources": [
+        {
+          "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF4 Eq.(41); PDF5 Eqs.(49)–(53), including separate finite/nonzero-frequency branch"
+        },
+        {
+          "source_id": "petrik-kortelainen-2018-rotational-tv-inertia",
+          "locator": "PDF4–5 Eqs.(12)–(18)"
+        }
+      ],
+      "limits": [
+        "P=j或N无量纲；外场符号、归一和单位均声明",
+        "不以普通有限频率极限替代零频NG支；不宣称TV总大于IB"
+      ]
+    },
+    {
+      "label": "eq:2-6-pairing-response",
+      "attribution": "source_response_and_manuscript_total_energy_taylor_expansion",
+      "claim_id": "2.6-C06",
+      "sources": [
+        {
+          "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF5 Eqs.(49)–(53); PDF8–9 Eqs.(66)–(67),Fig.4；已核2.3与T10/R2记法边界"
+        }
+      ],
+      "limits": [
+        "固定其它粒子数、平滑HFB态族、非奇异局部响应",
+        "原文Eq.(66)的B与Fig.4 -Bexp记法差异保留，不猜作者程序错误",
+        "连续HFB延拓不等固定N质量差分；局部规范角不等全局自伴角"
+      ]
+    },
+    {
+      "label": "eq:2-6-pairing-curvature",
+      "attribution": "source_response_and_manuscript_total_energy_taylor_expansion",
+      "claim_id": "2.6-C06",
+      "sources": [
+        {
+          "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF5 Eqs.(49)–(53); PDF8–9 Eqs.(66)–(67),Fig.4；已核2.3与T10/R2记法边界"
+        }
+      ],
+      "limits": [
+        "固定其它粒子数、平滑HFB态族、非奇异局部响应",
+        "原文Eq.(66)的B与Fig.4 -Bexp记法差异保留，不猜作者程序错误",
+        "连续HFB延拓不等固定N质量差分；局部规范角不等全局自伴角"
+      ]
+    },
+    {
+      "label": "eq:2-6-positive-binding-sign",
+      "attribution": "source_response_and_manuscript_total_energy_taylor_expansion",
+      "claim_id": "2.6-C06",
+      "sources": [
+        {
+          "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF5 Eqs.(49)–(53); PDF8–9 Eqs.(66)–(67),Fig.4；已核2.3与T10/R2记法边界"
+        }
+      ],
+      "limits": [
+        "固定其它粒子数、平滑HFB态族、非奇异局部响应",
+        "原文Eq.(66)的B与Fig.4 -Bexp记法差异保留，不猜作者程序错误",
+        "连续HFB延拓不等固定N质量差分；局部规范角不等全局自伴角"
+      ]
+    },
+    {
+      "label": "eq:2-6-band-inertias",
+      "attribution": "source_definitions_and_explicit_hbar_restoration",
+      "claim_id": "2.6-C07",
+      "sources": [
+        {
+          "source_id": "kvasil-2006-dy156-yb162-crpa-wobbling",
+          "locator": "PDF4 Fig.3 caption and self-consistency paragraph"
+        },
+        {
+          "source_id": "matsuzaki-2004-nuclear-inertia-and-wobbling",
+          "locator": "PDF4–5 Eqs.(11)–(12) and Jx definition"
+        }
+      ],
+      "limits": [
+        "平滑驻定解支、正确自旋序列和对应",
+        "带交叉、混合处不能无条件连续化；不等一般横向响应"
+      ]
+    },
+    {
+      "label": "eq:2-6-band-finite-difference",
+      "attribution": "source_definitions_and_explicit_hbar_restoration",
+      "claim_id": "2.6-C07",
+      "sources": [
+        {
+          "source_id": "kvasil-2006-dy156-yb162-crpa-wobbling",
+          "locator": "PDF4 Fig.3 caption and self-consistency paragraph"
+        },
+        {
+          "source_id": "matsuzaki-2004-nuclear-inertia-and-wobbling",
+          "locator": "PDF4–5 Eqs.(11)–(12) and Jx definition"
+        }
+      ],
+      "limits": [
+        "平滑驻定解支、正确自旋序列和对应",
+        "带交叉、混合处不能无条件连续化；不等一般横向响应"
+      ]
+    },
+    {
+      "label": "eq:2-6-wobbling-response",
+      "attribution": "source_original_dispersion_relation_with_notation_mapping",
+      "claim_id": "2.6-C08",
+      "sources": [
+        {
+          "source_id": "matsuzaki-2004-nuclear-inertia-and-wobbling",
+          "locator": "PDF3 Eq.(8); PDF4 Eqs.(11)–(12); PDF5 Eq.(12)后Nilsson速度依赖与横向修正未给出的限制"
+        }
+      ],
+      "limits": [
+        "指定非轴cranked Nilsson+RPA，gamma!=0推导条件",
+        "不替代全部轴对称极限；不以沿带J(2)填入横向惯量",
+        "omega是角频率，hbar omega是激发能；未提供原程序或新计算"
+      ]
+    },
+    {
+      "label": "eq:app-c-static-susceptibility",
+      "attribution": "manuscript_definition_units",
+      "sources": [
+        {
+          "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF5 Eqs.(49)–(53); R2 crosswalk"
+        }
+      ]
+    },
+    {
+      "label": "eq:app-c-field-components",
+      "attribution": "source_operator_expansion",
+      "sources": [
+        {
+          "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF3 Eq.(25)"
+        }
+      ]
+    },
+    {
+      "label": "eq:app-c-independent-response",
+      "attribution": "manuscript_algebra_omitting_induced_fields",
+      "sources": [
+        {
+          "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF3 Eqs.(32)–(33), PDF4 Eq.(41)"
+        },
+        {
+          "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locator": "PDF34 Eq.(4.44), counting boundary"
+        }
+      ]
+    },
+    {
+      "label": "eq:app-c-qrpa-kernel",
+      "attribution": "source_static_response",
+      "sources": [
+        {
+          "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF4 Eq.(34); PDF5 Eq.(49)"
+        }
+      ]
+    },
+    {
+      "label": "eq:app-c-strength-convention",
+      "attribution": "source_strength_definition",
+      "sources": [
+        {
+          "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF4 Eq.(41)"
+        }
+      ]
+    },
+    {
+      "label": "eq:app-c-ng-local-equations",
+      "attribution": "source_real_imaginary_components",
+      "sources": [
+        {
+          "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF3 Eqs.(20)–(21)"
+        }
+      ]
+    },
+    {
+      "label": "eq:app-c-ng-inertia",
+      "attribution": "source_real_imaginary_components",
+      "sources": [
+        {
+          "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF3 Eqs.(22)–(23)"
+        }
+      ]
+    },
+    {
+      "label": "eq:app-c-matsuzaki-factorization",
+      "attribution": "source_dispersion_factorization",
+      "sources": [
+        {
+          "source_id": "matsuzaki-2004-nuclear-inertia-and-wobbling",
+          "locator": "PDF4 Eq.(11); gamma!=0 condition"
+        }
+      ]
+    }
+  ],
+  "new_complex_derivations": [],
+  "model_examples": [
+    {
+      "model": "positive-mass stable local oscillator",
+      "identity": "teaching model, not real nuclear data",
+      "equations": [
+        "eq:2-6-local-hamiltonian",
+        "eq:2-6-local-frequency",
+        "eq:2-6-local-width"
+      ]
+    }
+  ],
+  "evidence_layer_policy": "原作公式、本文单位/坐标换写、局部教学推导和作者具体模型解释分列；无新增实核数值/个人成果",
+  "competing_conditions": [
+    "低频可由曲率、质量、组态混合和算符/态对应差异产生",
+    "TV与IB比较需相同参考和方向，不采用普适固定增强倍率",
+    "沿带同方向自洽检查不能替代横向有效惯量色散根或电磁网络",
+    "有限推转冗余根频率不能与静止NG零频无变换相等"
+  ],
+  "source_internal_boundaries": [
+    "Hinohara Eq.(66) binding-energy B与Fig.4 -Bexp边界保留；本稿独立定义E=-B_+",
+    "Matsuzaki未给出Nilsson速度依赖的横向对应修正，不虚构该修正",
+    "Kvasil Eq.(6)配对处方保留；不将“自洽”理解为所有输入唯一无近似"
+  ],
+  "unresolved_for_parent": [
+    "未来具体核/阻塞或倾斜参考的NG归一、残余相互作用与横向修正需指定实现；本文未产生新的普适推导",
+    "附C仅补响应约定；一般坐标依赖质量、量子势和全体边界条件不在此处臆造"
+  ],
+  "knowledge_reuse": "本节复用已有R2 crosswalk、BCS约定页及各source；新增ESPE核查已在阶段A回写knowledge，不把本输出当唯一长期事实源",
+  "syntax_checks": [
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-6.tex",
+      "nested_environments_balanced": true,
+      "no_markdown_residue": true
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixC.tex",
+      "nested_environments_balanced": true,
+      "no_markdown_residue": true
+    }
+  ],
+  "compile_check": {
+    "kind": "section_2_6_and_response_appendix_only",
+    "engine": "xelatex, ctexbook fontset=fandol, 146.6mm text width",
+    "bibliography": "read existing canonical BibTeX, no modification",
+    "bibliography_input": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Biblio/ref.bib",
+      "sha256": "cd371bb3a30f03e12e9fd990bd086147e3c5631ffe581735cdc5d9342ed47023",
+      "size_bytes": 11726
+    },
+    "commands": [
+      {
+        "command": [
+          "bibtex",
+          "smoke"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "xelatex",
+          "-interaction=nonstopmode",
+          "-halt-on-error",
+          "smoke.tex"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "xelatex",
+          "-interaction=nonstopmode",
+          "-halt-on-error",
+          "smoke.tex"
+        ],
+        "returncode": 0
+      }
+    ],
+    "overfull_hbox_count": 0,
+    "missing_character_count": 0,
+    "undefined_citation_count": 0,
+    "undefined_reference_count": 0,
+    "output": [
+      "Output written on smoke.pdf (9 pages)."
+    ],
+    "pdf": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G82/smoke.pdf",
+      "sha256": "0aca9dc38a6b1bf48ce482ab3143f1e799ccaae15d2b7d16d11f1adb570c899e",
+      "size_bytes": 326149
+    },
+    "limitation": "Local format/syntax check only; G76 owns integrated compilation, parent owns scientific acceptance"
+  }
+}

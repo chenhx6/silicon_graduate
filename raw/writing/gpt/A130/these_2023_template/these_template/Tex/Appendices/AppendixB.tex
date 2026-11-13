@@ -1,0 +1,272 @@
+\chapter{对称性恢复与非正交态}\label{app:projection}
+
+本附录为正文第2.5节与第3.5节涉及的群论投影、非正交度规空间以及反幺正对称性提供自洽、严格的数学推导与证明补充。内容涵盖三维角动量投影算符代数、重叠核与哈密顿量核在三维旋转群上的展开、Hill-Wheeler 广义本征方程的 Ritz 变分推导、能量规范平移不变性定理的严格证明、度规谱分解与子空间截断算法，以及反幺正手征反转算符 $\mathcal{C}$ 在复非正交两态系统中的精确久期因式分解。
+
+\section{三维角动量投影群代数与重叠核展开}\label{sec:appB-1}
+
+\subsection{Wigner $D$ 矩阵正交完备性与 Haar 测度}
+
+设三维空间旋转由欧拉角 $\Omega = (\phi, \theta, \psi)$ 参数化，具有物理量纲 $\hbar$ 的空间有限旋转算符严格定义为：
+\begin{equation}\label{eq:appB-rot-def}
+\hat{R}(\Omega) = \exp(-i \phi \hat{J}_z / \hbar) \exp(-i \theta \hat{J}_y / \hbar) \exp(-i \psi \hat{J}_z / \hbar).
+\end{equation}
+李群 $\mathrm{SO}(3)$ 上的不变 Haar 测度定义为 $d\Omega = \sin\theta \, d\theta \, d\phi \, d\psi$。紧致群空间全积分为：
+\begin{equation}\label{eq:appB-haar-measure}
+\int d\Omega = \int_0^{2\pi} d\phi \int_0^\pi \sin\theta \, d\theta \int_0^{2\pi} d\psi = 8\pi^2.
+\end{equation}
+固定核子数奇偶的原子核状态空间分别只包含整数自旋（偶 $A$ 核）或半整数自旋（奇 $A$ 核）；式中的 $8\pi^2$ 欧拉角积分对该固定表示类使用。整数类对应李群 $\mathrm{SO}(3)$；半整数类使用覆盖群 $\mathrm{SU}(2)$ 上的单值表示，固定类内 $D^* D$ 与 $D^* \hat{R}$ 乘积在群中心元素作用下两次变号相互抵消，因而在 $8\pi^2$ 欧拉角域内单值。Wigner 不可约表示矩阵定义为 $D^I_{MK}(\Omega) \equiv \langle IM | \hat{R}(\Omega) | IK \rangle$。Peter-Weyl 定理给出表示矩阵在群流形上的严格正交性关系（仅在 $I, I'$ 属于同类表示时使用，不声称跨整数与半整数混合同时正交）：
+\begin{equation}\label{eq:appB-D-orthonormality}
+\int d\Omega \, D^{I*}_{MK}(\Omega) D^{I'}_{M'K'}(\Omega) = \frac{8\pi^2}{2I+1} \delta_{II'} \delta_{MM'} \delta_{KK'}.
+\end{equation}
+两步相继旋转 $\Omega_1$ 与 $\Omega_2$ 的表示矩阵满足群表示乘法规则：
+\begin{equation}\label{eq:appB-D-multiplication}
+\hat{R}(\Omega_1) \hat{R}(\Omega_2) = \hat{R}(\Omega_1 \Omega_2) \implies D^I_{MK}(\Omega_1 \Omega_2) = \sum_N D^I_{MN}(\Omega_1) D^I_{NK}(\Omega_2).
+\end{equation}
+同时逆转动的矩阵元满足：
+\begin{equation}\label{eq:appB-D-inverse}
+\hat{R}(\Omega^{-1}) = \hat{R}^\dagger(\Omega) \implies D^I_{MK}(\Omega^{-1}) = D^{I*}_{KM}(\Omega).
+\end{equation}
+
+\subsection{Peierls-Yoccoz 投影算符代数性质证明}
+
+定义角动量投影算符为：
+\begin{equation}\label{eq:appB-proj-def}
+P^I_{MK} \equiv \frac{2I+1}{8\pi^2} \int d\Omega \, D^{I*}_{MK}(\Omega) \hat{R}(\Omega).
+\end{equation}
+
+\textbf{定理 B.1（伴随性质）}：投影算符的厄米共轭满足：
+\begin{equation}\label{eq:appB-proj-adjoint}
+(P^I_{MK})^\dagger = P^I_{KM}.
+\end{equation}
+\textit{证明}：对定义式两边取厄米共轭，并利用 $\hat{R}^\dagger(\Omega) = \hat{R}(\Omega^{-1})$：
+\begin{align}
+(P^I_{MK})^\dagger &= \frac{2I+1}{8\pi^2} \int d\Omega \, D^I_{MK}(\Omega) \hat{R}^\dagger(\Omega) \nonumber \\
+&= \frac{2I+1}{8\pi^2} \int d\Omega \, D^I_{MK}(\Omega) \hat{R}(\Omega^{-1}).
+\end{align}
+在积分中作变量替换 $\Omega' = \Omega^{-1}$。由于 Haar 测度的双边不变性，有 $d\Omega = d\Omega'$。结合式~\eqref{eq:appB-D-inverse}，得到：
+\begin{equation}
+D^I_{MK}(\Omega) = D^I_{MK}((\Omega')^{-1}) = D^{I*}_{KM}(\Omega').
+\end{equation}
+代回积分式即得：
+\begin{equation}
+(P^I_{MK})^\dagger = \frac{2I+1}{8\pi^2} \int d\Omega' \, D^{I*}_{KM}(\Omega') \hat{R}(\Omega') = P^I_{KM}. \quad \square
+\end{equation}
+
+\textbf{定理 B.2（乘法与幂等性质）}：投影算符乘积满足：
+\begin{equation}\label{eq:appB-proj-product}
+P^I_{MK} P^{I'}_{M'K'} = \delta_{II'} \delta_{KM'} P^I_{MK'}.
+\end{equation}
+\textit{证明}：将两个算符的积分展开：
+\begin{equation}
+P^I_{MK} P^{I'}_{M'K'} = \frac{2I+1}{8\pi^2} \frac{2I'+1}{8\pi^2} \iint d\Omega_1 d\Omega_2 \, D^{I*}_{MK}(\Omega_1) D^{I'*}_{M'K'}(\Omega_2) \hat{R}(\Omega_1) \hat{R}(\Omega_2).
+\end{equation}
+利用群乘法作变量替换 $\Omega \equiv \Omega_1 \Omega_2 \implies \hat{R}(\Omega_1) \hat{R}(\Omega_2) = \hat{R}(\Omega)$，固定 $\Omega_2$ 对 $\Omega_1$ 积分变为对 $\Omega$ 积分。由式~\eqref{eq:appB-D-multiplication}，逆向展开有：
+\begin{equation}
+D^{I*}_{MK}(\Omega_1) = D^{I*}_{MK}(\Omega \Omega_2^{-1}) = \sum_N D^{I*}_{MN}(\Omega) D^{I*}_{NK}(\Omega_2^{-1}) = \sum_N D^{I*}_{MN}(\Omega) D^I_{KN}(\Omega_2).
+\end{equation}
+先对 $\Omega_2$ 实施群积分，应用正交性定理~\eqref{eq:appB-D-orthonormality}：
+\begin{align}
+\int d\Omega_2 \, D^I_{KN}(\Omega_2) D^{I'*}_{M'K'}(\Omega_2) &= \frac{8\pi^2}{2I+1} \delta_{II'} \delta_{KM'} \delta_{NK'}.
+\end{align}
+将克罗内克符号代入求和并对 $\Omega$ 积分：
+\begin{align}
+P^I_{MK} P^{I'}_{M'K'} &= \frac{2I+1}{8\pi^2} \frac{2I'+1}{8\pi^2} \delta_{II'} \delta_{KM'} \frac{8\pi^2}{2I+1} \int d\Omega \, D^{I*}_{MK'}(\Omega) \hat{R}(\Omega) \nonumber \\
+&= \delta_{II'} \delta_{KM'} P^I_{MK'}. \quad \square
+\end{align}
+
+\section{非正交度规、对偶基与 Hill-Wheeler 广义本征方程}\label{sec:appB-2}
+
+\subsection{Ritz 变分原理导出广义久期方程}
+
+设 $\{ |\phi_i\rangle \}_{i=1}^n$ 为非正交多体态矢基。定义度规矩阵（重叠矩阵）与哈密顿量矩阵为：
+\begin{equation}\label{eq:appB-metric-def}
+N_{ij} \equiv \langle \phi_i | \phi_j \rangle, \quad H_{ij} \equiv \langle \phi_i | \hat{H} | \phi_j \rangle.
+\end{equation}
+度规矩阵 $N$ 严格满足厄米半正定性（$N = N^\dagger$ 且对任意非零矢量 $\mathbf{c}$ 有 $\mathbf{c}^\dagger N \mathbf{c} = || \sum_i c_i |\phi_i\rangle ||^2 \ge 0$）。
+
+构造试探态矢 $|\Psi\rangle = \sum_{i=1}^n c_i |\phi_i\rangle$。能量泛函定义为 Rayleigh 商：
+\begin{equation}\label{eq:appB-energy-functional}
+\mathcal{E}[\mathbf{c}, \mathbf{c}^*] = \frac{\langle \Psi | \hat{H} | \Psi \rangle}{\langle \Psi | \Psi \rangle} = \frac{\mathbf{c}^\dagger H \mathbf{c}}{\mathbf{c}^\dagger N \mathbf{c}}.
+\end{equation}
+对复共轭矢量分量 $c_i^*$ 求驻值极值条件 $\partial \mathcal{E} / \partial c_i^* = 0$：
+\begin{equation}
+\frac{\partial \mathcal{E}}{\partial c_i^*} = \frac{(\mathbf{c}^\dagger N \mathbf{c}) \sum_j H_{ij} c_j - (\mathbf{c}^\dagger H \mathbf{c}) \sum_j N_{ij} c_j}{(\mathbf{c}^\dagger N \mathbf{c})^2} = 0.
+\end{equation}
+记定态能量本征值为 $E \equiv \mathcal{E}[\mathbf{c}] = (\mathbf{c}^\dagger H \mathbf{c}) / (\mathbf{c}^\dagger N \mathbf{c})$，分子直接导出：
+\begin{equation}\label{eq:appB-HW-derivation}
+\sum_j H_{ij} c_j - E \sum_j N_{ij} c_j = 0 \iff H \mathbf{c} = E N \mathbf{c}.
+\end{equation}
+这便是非正交基下的 Hill-Wheeler 广义本征方程。
+
+\subsection{能量规范平移不变性定理的严格证明}
+
+\textbf{定理 B.3（能量规范平移不变性）}：在非正交基矢下，若全物理哈密顿量增加恒定标量势能零点平移 $\hat{H}' = \hat{H} + c \hat{\mathbf{1}}$（$c \in \mathbb{R}$），则本征能量统一严格平移 $E' = E + c$，且本征态所张成的本征子空间严格保持不变。
+
+\textit{证明}：在平移后的哈密顿量 $\hat{H}'$ 下，矩阵元计算为：
+\begin{equation}
+H'_{ij} = \langle \phi_i | (\hat{H} + c \hat{\mathbf{1}}) | \phi_j \rangle = \langle \phi_i | \hat{H} | \phi_j \rangle + c \langle \phi_i | \phi_j \rangle = H_{ij} + c N_{ij}.
+\end{equation}
+写为紧致矩阵形式：
+\begin{equation}\label{eq:appB-H-matrix-shift}
+H' = H + c N.
+\end{equation}
+代入新的 Hill-Wheeler 广义本征方程：
+\begin{equation}
+H' \mathbf{c}' = E' N \mathbf{c}' \iff (H + c N) \mathbf{c}' = E' N \mathbf{c}'.
+\end{equation}
+将含有 $c N$ 的项移至等号右侧：
+\begin{equation}
+H \mathbf{c}' = (E' - c) N \mathbf{c}'.
+\end{equation}
+对比原方程 $H \mathbf{c} = E N \mathbf{c}$：
+\begin{enumerate}
+\item 能量本征值严格满足 $E' - c = E \implies E' = E + c$；
+\item 方程的零空间 $\ker(H' - E' N) = \ker(H - E N)$ 完全相同，本征子空间严格守恒。在非简并情形下，归一本征矢量在固定相位约定下满足 $\mathbf{c}' = \mathbf{c}$；在存在简并度时，可在该简并子空间中选取完全相同的正交基底使得基矢展开系数保持不变。 $\quad \square$
+\end{enumerate}
+
+\textit{注记}：若错误地在非正交基下执行正交基的对角平移 $H' = H + c \mathbf{1}$，设 $E'$ 为平移后的实际能量，久期方程变为 $\det(H + c \mathbf{1} - E' N) = 0$。若定义相对于平移量的能量 $\varepsilon \equiv E' - c$，方程则写作 $\det[H + c(\mathbf{1} - N) - \varepsilon N] = 0$。非对角项 $c(\mathbf{1} - N)$ 作为人为扰动，在度规矩阵非对角元显著时一般会虚假改变相对能级间距，并可能引发非物理的态漂移或态混合。
+
+\subsection{度规谱分解与子空间截断算法}
+
+由于多体基矢集合 $\{ |\phi_i\rangle \}$ 可能存在精确冗余或高度线性相关性，度规矩阵 $N$ 可能具有零或极小的本征值。为了构建数值稳定的计算空间，采用如下谱分解与截断方案：
+
+1. 对度规矩阵实施酉对角化：
+\begin{equation}\label{eq:appB-N-diag}
+N = U D U^\dagger, \quad D = \operatorname{diag}(d_1, d_2, \dots, d_n), \quad d_1 \ge d_2 \ge \dots \ge d_n \ge 0,
+\end{equation}
+其中 $U$ 为 $n \times n$ 酉矩阵，$d_\alpha$ 为基矢几何重叠本征值；
+
+2. 严格区分真零模与小范数截断：
+\begin{itemize}
+\item 若存在本征值精确为零（$d_\alpha = 0$），对应基矢间的严格线性相关性（范数为零的态矢），必须作为精确冗余严格剔除；
+\item 对于本征值极小但严格非零（$d_\alpha > 0$）的成分，其在有限数值精度下可能造成矩阵求逆的病态条件数放大。在实际计算中引入有界截断阈值 $\epsilon_{\text{cut}} > 0$，将本征空间划分为保留的主物理有效子空间（$d_\alpha \ge \epsilon_{\text{cut}}$，共 $m$ 个态）与舍弃的弱成分子空间（$d_\alpha < \epsilon_{\text{cut}}$）。这属于数值降维近似，截断后的解必须针对不同 $\epsilon_{\text{cut}}$ 取值做数值稳定性与能谱收敛性检查。
+\end{itemize}
+
+3. 构造 $m$ 维约化对角阵 $D_{\text{red}} = \operatorname{diag}(d_1, \dots, d_m)$ 与 $n \times m$ 半酉矩阵 $U_{\text{red}}$。定义保留子空间内的规范正交基（canonical basis）：
+\begin{equation}\label{eq:appB-canonical-basis}
+|\chi_\alpha\rangle = \frac{1}{\sqrt{d_\alpha}} \sum_{i=1}^n (U_{\text{red}})_{i\alpha} |\phi_i\rangle \quad (\alpha = 1, \dots, m).
+\end{equation}
+验算其正交归一性：
+\begin{equation}
+\langle \chi_\alpha | \chi_\beta \rangle = \frac{1}{\sqrt{d_\alpha d_\beta}} (U_{\text{red}}^\dagger N U_{\text{red}})_{\alpha\beta} = \delta_{\alpha\beta}.
+\end{equation}
+
+4. 在正交基 $\{ |\chi_\alpha\rangle \}$ 下，限制于保留子空间的哈密顿量矩阵为标准厄米矩阵：
+\begin{equation}\label{eq:appB-H-canonical}
+\mathcal{H}_{\alpha\beta} = \langle \chi_\alpha | \hat{H} | \chi_\beta \rangle = \left( D_{\text{red}}^{-1/2} U_{\text{red}}^\dagger H U_{\text{red}} D_{\text{red}}^{-1/2} \right)_{\alpha\beta}.
+\end{equation}
+保留空间的投影驻值方程 $U_{\text{red}}^\dagger (H - E N) U_{\text{red}} D_{\text{red}}^{-1/2} \mathbf{v} = 0$ 等价于下列标准的无度规厄米本征值问题：
+\begin{equation}\label{eq:appB-std-eigen}
+\mathcal{H} \mathbf{v} = E \mathbf{v}, \quad \mathbf{c} = U_{\text{red}} D_{\text{red}}^{-1/2} \mathbf{v}.
+\end{equation}
+需明确，式~\eqref{eq:appB-std-eigen} 仅在保留的主有效子空间内部等价；全空间中的残差矢 $(H - EN)\mathbf{c}$ 一般并不逐行精确为零，除非保留子空间在哈密顿量作用下恰好闭合。
+
+\section{反幺正算符代数与复非正交两态久期解}\label{sec:appB-3}
+
+\subsection{反幺正算符 $\mathcal{C} = \mathcal{T} R_y(\pi)$ 与 $\mathcal{C}^2 = +1$ 的严格代数证明}
+
+反幺正时间反演算符 $\mathcal{T}$ 满足：
+\begin{equation}\label{eq:appB-T-prop}
+\mathcal{T} i \mathcal{T}^{-1} = -i, \quad \mathcal{T} \hat{\mathbf{J}} \mathcal{T}^{-1} = -\hat{\mathbf{J}}, \quad \mathcal{T}^2 = (-1)^{2I} \hat{\mathbf{1}}.
+\end{equation}
+空间有限旋转算符定义为 $R_y(\theta) = \exp(-i \theta \hat{J}_y / \hbar)$。计算时间反演与绕 $y$ 轴转动的对易子：
+\begin{align}
+\mathcal{T} R_y(\theta) \mathcal{T}^{-1} &= \mathcal{T} \exp(-i \theta \hat{J}_y / \hbar) \mathcal{T}^{-1} = \exp\left( - \mathcal{T} (i \theta \hat{J}_y / \hbar) \mathcal{T}^{-1} \right) \nonumber \\
+&= \exp\left( - (-i) \theta (-\hat{J}_y) / \hbar \right) = \exp(-i \theta \hat{J}_y / \hbar) = R_y(\theta).
+\end{align}
+故反幺正算符与绕该轴旋转严格对易：$\mathcal{T} R_y(\theta) = R_y(\theta) \mathcal{T}$。
+
+利用此对易关系，计算手征反转算符 $\mathcal{C} \equiv \mathcal{T} R_y(\pi) = \mathcal{T} \exp(-i\pi \hat{J}_y / \hbar)$ 的平方：
+\begin{equation}
+\mathcal{C}^2 = [\mathcal{T} R_y(\pi)] [\mathcal{T} R_y(\pi)] = \mathcal{T}^2 R_y(2\pi).
+\end{equation}
+根据量子自旋角动量表示理论，绕任意轴转动 $2\pi$ 给出拓扑相因子 $R_y(2\pi) = (-1)^{2I} \hat{\mathbf{1}}$。相乘给出：
+\begin{equation}\label{eq:appB-C-sq-proof}
+\mathcal{C}^2 = (-1)^{2I} (-1)^{2I} \hat{\mathbf{1}} = (-1)^{4I} \hat{\mathbf{1}} = +\hat{\mathbf{1}}.
+\end{equation}
+由于整数或半整数 $I$ 总满足 $2I \in \mathbb{Z}$，故 $4I = 2(2I)$ 必为偶数，从而 $(-1)^{4I} = +1$。因此 $\mathcal{C}^2 = +1$ 对任意整数与半整数自旋均严格为正单位阵。
+
+\subsection{复非正交两态广义本征方程严格求解}
+
+在手征两阱模型中，设基矢为左手态 $|L\rangle$ 与右手态 $|R\rangle = \mathcal{C}|L\rangle$。在系统满足手征反转对称性（$[\hat{H}, \mathcal{C}] = 0$ 且 $\hat{H}^\dagger = \hat{H}$）的前提下，两对角元严格相等：
+\begin{equation}
+\langle R|\hat{H}|R\rangle = \langle \mathcal{C}L|\hat{H}|\mathcal{C}L\rangle = \langle L|\mathcal{C}^\dagger \hat{H} \mathcal{C}|L\rangle^* = \langle L|\hat{H}|L\rangle^* = \langle L|\hat{H}|L\rangle \equiv h \in \mathbb{R}.
+\end{equation}
+定义矩阵元：
+\begin{equation}\label{eq:appB-two-state-elements}
+\langle L|L\rangle = \langle R|R\rangle = 1, \quad S \equiv \langle L|R\rangle \in \mathbb{C}, \quad k \equiv \langle L|\hat{H}|R\rangle \in \mathbb{C}.
+\end{equation}
+度规矩阵与哈密顿量矩阵写为：
+\begin{equation}\label{eq:appB-two-state-matrices}
+N = \begin{pmatrix} 1 & S \\ S^* & 1 \end{pmatrix}, \quad H = \begin{pmatrix} h & k \\ k^* & h \end{pmatrix}.
+\end{equation}
+基矢线性无关要求度规行列式正定：$\det N = 1 - |S|^2 > 0 \implies |S| < 1$。
+
+广义特征久期方程为：
+\begin{equation}\label{eq:appB-two-state-det}
+\det(H - E N) = \det \begin{pmatrix} h - E & k - E S \\ k^* - E S^* & h - E \end{pmatrix} = (h - E)^2 - |k - E S|^2 = 0.
+\end{equation}
+将复数模方展开整理为关于 $E$ 的一元二次方程标准型：
+\begin{equation}\label{eq:appB-quadratic-standard}
+(1 - |S|^2) E^2 - 2 \left[ h - \operatorname{Re}(k S^*) \right] E + \left( h^2 - |k|^2 \right) = 0.
+\end{equation}
+计算判别式的四分之一（$\Delta / 4$）：
+\begin{align}\label{eq:appB-discriminant}
+\frac{\Delta}{4} &\equiv \left[ h - \operatorname{Re}(k S^*) \right]^2 - (1 - |S|^2)(h^2 - |k|^2) \nonumber \\
+&= h^2 - 2 h \operatorname{Re}(k S^*) + [\operatorname{Re}(k S^*)]^2 - \left( h^2 - |k|^2 - h^2 |S|^2 + |k|^2 |S|^2 \right) \nonumber \\
+&= [\operatorname{Re}(k S^*)]^2 - 2 h \operatorname{Re}(k S^*) + h^2 |S|^2 + |k|^2 (1 - |S|^2).
+\end{align}
+配凑完全平方项，严格化为两个非负实数之和：
+\begin{equation}\label{eq:appB-disc-sum-squares}
+\frac{\Delta}{4} = \left[ \operatorname{Re}(k S^*) - h |S|^2 \right]^2 + (1 - |S|^2) |h S - k|^2 \ge 0.
+\end{equation}
+由于 $|S| < 1$，判别式非负，方程恒有两个实数本征根：
+\begin{equation}\label{eq:appB-exact-roots}
+E_{\text{high}/\text{low}} = \frac{h - \operatorname{Re}(k S^*) \pm \sqrt{ \left[ \operatorname{Re}(k S^*) - h |S|^2 \right]^2 + (1 - |S|^2) |h S - k|^2 }}{1 - |S|^2},
+\end{equation}
+其中 $+$ 号对应能量上限 $E_{\text{high}}$，$-$ 号对应能量下限 $E_{\text{low}}$。
+
+\subsection{同时实化条件与两态极限谱结构}
+
+考查波函数全局重定相 $|L\rangle \to e^{i\phi} |L\rangle$。根据反幺正算符的反线性变换，右手态变换为 $|R\rangle = \mathcal{C}|L\rangle \to e^{-i\phi} |R\rangle$。重叠积分与耦合元变换为：
+\begin{equation}
+S \to e^{-2i\phi} S, \quad k \to e^{-2i\phi} k.
+\end{equation}
+组合积 $k S^* \to (e^{-2i\phi} k)(e^{-2i\phi} S)^* = k S^*$ 严格保持定相不变。
+
+\textbf{定理 B.4（同时实化充要条件）}：非正交两态系统存在全局相位 $\phi$ 使得重叠积分 $S'$ 与耦合元 $k'$ 同时为实数的充要条件为：
+\begin{equation}\label{eq:appB-realifiability-condition}
+\operatorname{Im}(k S^*) = 0.
+\end{equation}
+\textit{证明}：
+\begin{enumerate}
+\item \textbf{必要性}：若存在定相使 $S', k' \in \mathbb{R}$，则 $k' S'^* = k' S' \in \mathbb{R} \implies \operatorname{Im}(k' S'^*) = 0$。由定相不变性，原参数必满足 $\operatorname{Im}(k S^*) = 0$；
+\item \textbf{充分性}：若 $\operatorname{Im}(k S^*) = 0$，分类讨论：
+  \begin{itemize}
+  \item 若 $S \ne 0$：则 $k S^*$ 为实数，意味着 $k$ 与 $S$ 具有相同（或反向）复辐角。选取 $\phi = \frac{1}{2} \arg S$，则 $S' = e^{-i \arg S} S = |S| \in \mathbb{R}$，同时 $k' = e^{-i \arg S} k = (k S^*) / |S| \in \mathbb{R}$，两者同时实化；
+  \item 若 $S = 0$ 且 $k \ne 0$：此时 $S = 0 \in \mathbb{R}$ 已自动为实数，$\arg S$ 无定义，但 $\operatorname{Im}(k \cdot 0^*) = 0$ 平凡满足。选取 $\phi = \frac{1}{2} \arg k$，变换后 $k' = |k| \in \mathbb{R}$，且 $S' = 0 \in \mathbb{R}$，两者同时实化；
+  \item 若 $S = 0$ 且 $k = 0$：两态完全解耦且正交，对任意相位 $\phi$ 均有 $S' = 0, k' = 0$，平凡实化。 $\quad \square$
+  \end{itemize}
+\end{enumerate}
+
+当条件~\eqref{eq:appB-realifiability-condition} 满足并选定实相位时，设 $S \in \mathbb{R}, k \in \mathbb{R}$，判别式~\eqref{eq:appB-disc-sum-squares} 化简为：
+\begin{equation}
+\frac{\Delta}{4} = (k S - h S^2)^2 + (1 - S^2)(h S - k)^2 = (h S - k)^2 [S^2 + (1 - S^2)] = (h S - k)^2.
+\end{equation}
+对称态与反对称态的代数特征根直接解为：
+\begin{equation}\label{eq:appB-unordered-roots}
+E_s = \frac{h + k}{1 + S}, \quad E_a = \frac{h - k}{1 - S}.
+\end{equation}
+两根的相对代数差为 $E_a - E_s = \frac{2(h S - k)}{1 - S^2}$。按基矢对称/反对称分类，对称态 $|\psi_s\rangle$ 对应 $E_s$，反对称态 $|\psi_a\rangle$ 对应 $E_a$。在实轴上按能量从低到高排列：
+\begin{equation}\label{eq:appB-ordered-energies}
+E_{\text{low}} = \min(E_s, E_a), \quad E_{\text{high}} = \max(E_s, E_a).
+\end{equation}
+物理上的非负能量能隙恒由绝对值给出：
+\begin{equation}\label{eq:appB-physical-gap}
+\Delta E_{\text{phys}} \equiv E_{\text{high}} - E_{\text{low}} = |E_a - E_s| = \frac{2|h S - k|}{1 - S^2}.
+\end{equation}
+当复非正交两态满足 $S \in \mathbb{R}$ 但 $\operatorname{Im}k \ne 0$ 时，物理非负能隙显式解析式为：
+\begin{equation}\label{eq:appB-complex-gap}
+\Delta E_{\text{phys}} = \frac{2\sqrt{ (\operatorname{Re}k - h S)^2 + (1 - S^2)(\operatorname{Im}k)^2 }}{1 - S^2}.
+\end{equation}
+至此，非正交两态系统在复度规希尔伯特空间中的代数因式分解与实化条件完成了严格闭环。

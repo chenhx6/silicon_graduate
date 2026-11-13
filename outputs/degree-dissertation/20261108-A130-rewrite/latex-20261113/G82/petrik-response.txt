@@ -1,0 +1,143 @@
+                                                                                                                        4
+
+  To access a transition strength function one needs to           II.2.   Collective Thouless–Valatin inertia and
+obtain the FAM–QRPA amplitudes Xµν (ω) and Yµν (ω).                          Nambu–Goldstone modes
+By using the linear approximation (i.e. linear response)
+one can derive the FAM–QRPA equations, given as                   When some form of a mean–field approximation is
+                             20
+                           δHµν        20
+                                (ω) − Fµν (ω)                  introduced, a spontaneous symmetry breaking phe-
+             Xµν (ω) = −                        ,              nomenon that contains information about correlations
+                             Eµ + Eν − ω                       to the one–body approximation can occur. Continuous
+                             02        02
+                                                       (12)
+                           δHµν (ω) − Fµν (ω)                  symmetries conserved by the exact many–body Hamilto-
+             Yµν (ω) = −                      .
+                             Eµ + Eν + ω                       nian, which may be broken spontaneously, are the trans-
+                                                               lational, rotational and particle number gauge symme-
+                            20       02
+Since induced matrices δHµν    and δHµν  depend on Xµν         try [1]. In addition, the isospin symmetry is broken ex-
+and Yµν amplitudes, one has to employ an iterative, self–      plicitly by the presence of the Coulomb interaction and
+consistent scheme to solve the FAM–QRPA equations.             spontaneously due to the mean–field [32].
+  Formally, the FAM–QRPA system (12) is equivalent to             As a result, spontaneous breaking of any of the above
+the linear response theory,                                    continuous symmetries leads to the appearance of a
+                                  20                       new zero–energy mode that restores the given symmetry.
+                  −1 X(ω)           F
+              R(ω)             =−         ,         (13)       Such zero–energy restoration modes are called Nambu–
+                       Y (ω)        F 02
+                                                               Goldstone (NG) modes and are a consequence of the
+where the response function R(ω) can be expressed as           symmetry–broken mean–field and represent a special case
+                                                         of collective motion [1, 33, 34]. They are also associ-
+                      A B            1 0                       ated with the infinitesimal transformation of the frame
+        R(ω)−1 =               − ω           ,    (14)
+                      B ∗ A∗         0 −1                      of reference and since they do not represent real physical
+where A and B are the well–known QRPA matrices. If             excitations in the intrinsic frame, they are often called
+the external field is set to zero, the linear response equa-   spurious modes.
+tion (13) will transform to the standard matrix QRPA              It is well known that breaking of the translational sym-
+equation                                                       metry introduces the center of mass NG mode, rotational
+                                                         symmetry the rotational NG mode and particle number
+             A B         X(ω)            X(ω)                  gauge symmetry the pairing–rotational NG mode. In the
+               ∗    ∗            =ω               .     (15)
+            B A          Y (ω)           −Y (ω)                intrinsic frame, each NG mode can be associated with a
+                                                               collective inertia that has experimental correspondence
+Since matrices A and B have typically very large dimen-
+                                                               to an actual spectroscopy measurement in the laboratory
+sions in the deformed case, solving the above equation is
+                                                               frame. In the QRPA framework, such collective inertia
+computationally rather demanding. The essential asset
+                                                               coupled to the NG mode is called the Thouless–Valatin
+of the FAM–QRPA lies in the fact that instead of a very
+                                                               inertia [19, 31]. For the translational (center of mass)
+time–consuming construction and diagonalization of the
+                                                               NG mode the TV inertia is simply the total mass of
+large QRPA matrix within the standard MQRPA proce-
+                                                               the nucleus and is easily obtainable since the coordinate
+dure, one calculates the FAM–QRPA amplitudes itera-
+                                                               and momentum QRPA phonon operators, needed for the
+tively with respect to the response of the self–consistent
+                                                               estimation, are known in advance. In the case of the
+Hamiltonian, i.e. induced fields δH 20 and δH 02 , to the
+                                                               (pairing–)rotational NG mode the TV inertia represents
+external field. This significantly reduces the computa-
+                                                               the nuclear (pairing–)rotational moment of inertia of the
+tional cost in comparison to the MQRPA.
+                                                               nucleus.
+   The transition strength function of the operator F̂ at
+the frequency ω is defined as                                     With the exception of the center of mass NG mode,
+                                                               in order to obtain the TV inertia one has to fully solve
+               dB(F̂ ; ω)    1                                 the QRPA equations. Although all necessary expres-
+                          = − Im S(F̂ ; ω),            (16)    sions are known in the standard matrix QRPA formal-
+                 dω          π
+                                                               ism, the full evaluation of the QRPA A and B matrices
+where the FAM–QRPA strength function S(F̂ ; ω) can be          is computationally heavy, mostly due to their large di-
+expressed as                                                   mensions. Other equivalent approaches have been there-
+              X
+                  20∗            02∗
+                                                              fore employed to obtain this quantity. The most impor-
+  S(F̂ ; ω) =   Fµν   Xµν (ω) + Fµν  Yµν (ω) . (17)            tant ones are the perturbation expansion procedure in
+                µ<ν
+                                                               the adiabatic time–dependent HFB theory, the cranked
+In order to obtain a finite value for the FAM–QRPA tran-       mean–field calculations within the HFB theory and most
+sition strength, a small imaginary part, ω → ωγ = ω +iγ,       recently, the FAM–QRPA approach developed for the nu-
+is added to the excitation energy. This leads to a             clear density functional theory.
+Lorentzian smearing of transition strength function with          The FAM–QRPA has been already successfully formu-
+a width of Γ = 2γ. However, in order to access a Nambu–        lated for calculating the symmetry restoring NG modes
+Goldstone mode, one needs to evaluate strength function        of the translational and particle number gauge symme-
+(17) at the vanishing frequency ωγ = ω = 0. We will            tries [19, 35]. It has been shown that the TV inertia
+discuss this relation in the next subsection.                  calculated in this way provides crucial information about
+                                                                                                                             5
+
+
+
+
+FIG. 1. Thouless–Valatin rotational moment of inertia in erbium (a) and ytterbium (b) isotopic chains. Full lines indicate
+the volume pairing and vanishing pairing options; in the latter case, the values of the TV inertia are divided by 2 in order to
+make a comparison with other results. The dashed lines show the experimental data from the rotational bands (2+ states).
+For erbium isotopes, the volume pairing was adjusted to the experimental proton and neutron pairing gaps of 166 Er, while for
+ytterbium isotopes, the pairing gaps of 168 Yb were chosen.
+
+
+the ground state correlations to the relevant broken sym-        puter program HFBTHO [36], which is an HFB solver pro-
+metry and that the FAM–QRPA represents a very precise            viding axially symmetric solutions using the harmonic os-
+and effective method to study this quantity. Our present         cillator basis with the Skyrme energy density functional.
+work continues in this direction and extends the FAM–               For the HFB calculations, and subsequent FAM-QRPA
+QRPA also to the case of the rotational NG mode and              calculations, we have employed the Skyrme SkM* param-
+related rotational TV moment of inertia.                         eter set [37] at the particle–hole channel. This parameter
+   To obtain information about the given NG mode one             set is know to be stable to the linear response in infi-
+can use a relevant one–body operator as the external field       nite nuclear matter [38]. The standard definition of the
+and evaluate the value of the strength function at the           Skyrme EDF and associated densities can be found e.g.
+zero frequency. In the case of the translational symmetry,       in Ref. [5]. For the pairing part, the particle–particle
+which introduces the center of mass NG mode, both the            channel interaction was taken to be a simple contact
+coordinate Q̂ and momentum operators P̂ are known and            interaction without a density dependence, yielding the
+the TV inertia is simply the total mass of the studied           pairing energy density commonly called the volume pair-
+nucleus, MNG = Am, where A is the atomic mass number             ing. In all studied cases, this type of pairing provided
+and m mass of the nucleon. This is the only example              generally better reproduction of the data over the den-
+where it is not necessary to solve QRPA equations to             sity dependent mixed pairing. A specific nucleus in a
+obtain the TV inertia.                                           given isotopic chain was chosen to adjust the pairing
+   The aim of this work is to study the rotational               strengths separately for neutrons and protons in order
+Thouless–Valatin moment of inertia of the rotational NG          to reproduce the empirical pairing gaps. Due to the used
+mode, where the one–body operator of the interest is             zero–range pairing interaction, it was necessary to intro-
+the total angular momentum. Depending on the sym-                duce a pairing window to prevent divergent energy in the
+metries chosen, a specific component Jˆi of the angular          pairing channel. In this work, the quasiparticle cut–off
+momentum operator has to be selected. Such a compo-              energy was set to 60 MeV in all considered cases. The
+nent, when used as the external perturbation, leads to           deformed HFB ground state obtained through this setup
+the rotational TV inertia that can be extracted from the         breaks the translational, rotational and particle number
+strength function at zero frequency as                           symmetries.
+                 X                                                 One of the main assets of the FAM–QRPA formal-
+  S(Jˆi ; 0)NG =     (Ji20∗ )µν Xµν (0) + (Ji02∗ )µν Yµν (0)
+                                                            
+                                                                 ism is that no additional truncation or cut–offs of the
+                   µ<ν
+                                                                 two–quasiparticle space are imposed. This guarantees
+                  Ji
+              = −MNG .                                  (18)     the full self–consistency between the QRPA solution and
+                                                                 the HFB ground state. Even though the underlying HFB
+       Ji
+Here, MNG is the TV moment of inertia along the i-axis.          calculations have conserved the time–reversal symmetry,
+                                                                 the full time–odd part of the EDF was used at the FAM–
+                                                                 QRPA level. The FAM module implementation followed
+            III.    NUMERICAL RESULTS                            that of Ref. [20] and the FAM equations were solved in
+                                                                 the presence of the simplex–y symmetry [39].
+ Our calculations were carried out using the FAM–                   To ensure a satisfactory convergence, we have selected
+QRPA code on top of the HFB code, specifically the com-          20 major oscillator shells for the HO basis in all our cal-
+

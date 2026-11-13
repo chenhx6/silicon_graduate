@@ -1,0 +1,178 @@
+{
+  "task": "A130 PhD thesis Chapter 1 LaTeX migration and synthesis (Sections 1.1–1.5)",
+  "executor": "G77",
+  "status": "completed",
+  "completion_date": "2026-11-13T01:55:51.221636+00:00",
+  "sections_delivered": [
+    {
+      "section_id": "1.1",
+      "file": "sec-1-1.tex",
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-1.tex",
+      "is_new": false,
+      "input_draft_path": "raw/writing/gpt/A130/research-draft/section-1-1.md",
+      "input_sha256": "5ac19639abde30ccf7f50f101dcd77a37c50918f70421efdef5d642e8e57a505",
+      "output_sha256": "375ff8b50ac5d3588a173bbf2a9446917bbe9ec9a27c30df33a8f08a57b62b67",
+      "character_count_total": 3180,
+      "chinese_character_count": 2143,
+      "dollar_count": 32,
+      "dollar_balanced": true,
+      "equation_count": 0,
+      "citation_count": 2,
+      "citations": [
+        "petrache-2006-near-degenerate-chiral-misinterpretation",
+        "campaign-g07-gorgen-2004-163lu-quadrupole-moments"
+      ]
+    },
+    {
+      "section_id": "1.2",
+      "file": "sec-1-2.tex",
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-2.tex",
+      "is_new": false,
+      "input_draft_path": "raw/writing/gpt/A130/research-draft/section-1-2.md",
+      "input_sha256": "96514dd3beeabb9362c2837c6630dd36bdda6840ca2a4ad5ac98e794be26e20c",
+      "output_sha256": "cdc65bc8569ed15f8c4d32a28d17f64b1509929620e37d8d93054e140e3962fb",
+      "character_count_total": 10290,
+      "chinese_character_count": 4148,
+      "dollar_count": 194,
+      "dollar_balanced": true,
+      "equation_count": 17,
+      "citation_count": 6,
+      "citations": [
+        "book-suhonen-from-nucleons-to-nucleus",
+        "bohr-1952-surface-particle-coupling",
+        "cline-1986-nuclear-shapes-coulomb-excitation",
+        "cline-1986-nuclear-shapes-coulomb-excitation",
+        "cline-1986-nuclear-shapes-coulomb-excitation",
+        "poves-2020-limits-assigning-nuclear-shape"
+      ]
+    },
+    {
+      "section_id": "1.3",
+      "file": "sec-1-3.tex",
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-3.tex",
+      "is_new": false,
+      "input_draft_path": "raw/writing/gpt/A130/research-draft/section-1-3.md",
+      "input_sha256": "59603ea8c4627d8b45e8d203697efcff2788fede7a7fcb779dc96c1fcabf56ca",
+      "output_sha256": "41e375449934242995f7a810b1224d5b7b8f96d018038d34a8de58d2d7dc6075",
+      "character_count_total": 2980,
+      "chinese_character_count": 1860,
+      "dollar_count": 16,
+      "dollar_balanced": true,
+      "equation_count": 0,
+      "citation_count": 5,
+      "citations": [
+        "bohr-mottelson-1953-collective-individual-original",
+        "bohr-1952-surface-particle-coupling",
+        "bohr-mottelson-1953-collective-individual-original",
+        "bohr-mottelson-1953-collective-individual-original",
+        "hinohara-2015-nambu-goldstone-inertia-response"
+      ]
+    },
+    {
+      "section_id": "1.4",
+      "file": "sec-1-4.tex",
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-4.tex",
+      "is_new": false,
+      "input_draft_path": "raw/writing/gpt/A130/research-draft/section-1-4.md",
+      "input_sha256": "faa4e268f4aacd5b8a8d89fd329fb9400121060b67d4d84fb595fe5d98be00a8",
+      "output_sha256": "2871873b582e6583fc12c9e04827cfd311779db2e2ecde38a371ed43984b0d71",
+      "character_count_total": 3407,
+      "chinese_character_count": 1832,
+      "dollar_count": 64,
+      "dollar_balanced": true,
+      "equation_count": 0,
+      "citation_count": 6,
+      "citations": [
+        "doctoral-r1-g26-starosta-2007-64ge-rdm-e2",
+        "doctoral-r1-g27-clement-2007-prc-krypton-coulex",
+        "doctoral-r1-g28-singh-2018-98zr-lifetimes",
+        "ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce",
+        "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+        "doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg"
+      ]
+    },
+    {
+      "section_id": "1.5",
+      "file": "sec-1-5.tex",
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-5.tex",
+      "is_new": true,
+      "input_draft_path": null,
+      "input_sha256": null,
+      "output_sha256": "0fa1b039649e21367d2e64b3a73705e3bcc1876f343bb851df967299e993d3f8",
+      "character_count_total": 5539,
+      "chinese_character_count": 3167,
+      "dollar_count": 72,
+      "dollar_balanced": true,
+      "equation_count": 0,
+      "citation_count": 6,
+      "citations": [
+        "cline-1986-nuclear-shapes-coulomb-excitation",
+        "bohr-mottelson-1953-collective-individual-original",
+        "petrache-2006-near-degenerate-chiral-misinterpretation",
+        "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+        "petrache-2006-near-degenerate-chiral-misinterpretation",
+        "poves-2020-limits-assigning-nuclear-shape"
+      ]
+    }
+  ],
+  "packages_required_for_g76": [
+    {
+      "name": "amsmath",
+      "reason": "equation, align, pmatrix, Bmatrix in sec-1-2"
+    },
+    {
+      "name": "amssymb",
+      "reason": "mathematical symbols"
+    },
+    {
+      "name": "booktabs",
+      "reason": "toprule, midrule, bottomrule in all tables"
+    },
+    {
+      "name": "tabularx",
+      "reason": "tabularx environment with X columns in tables"
+    },
+    {
+      "name": "graphicx",
+      "reason": "includegraphics in figure placeholders"
+    },
+    {
+      "name": "hyperref",
+      "reason": "texorpdfstring in subsection headers and labels"
+    }
+  ],
+  "review_and_repair_audit": {
+    "sec_1_2": {
+      "status": "fully_repaired_and_verified",
+      "equations_verbatim_match": true,
+      "equation_count": 17,
+      "citations_complete": [
+        "book-suhonen-from-nucleons-to-nucleus",
+        "bohr-1952-surface-particle-coupling",
+        "cline-1986-nuclear-shapes-coulomb-excitation",
+        "cline-1986-nuclear-shapes-coulomb-excitation",
+        "cline-1986-nuclear-shapes-coulomb-excitation",
+        "poves-2020-limits-assigning-nuclear-shape"
+      ],
+      "table_present_at_1_2_4": true,
+      "dollars_balanced": true
+    },
+    "sec_1_5": {
+      "status": "fully_revised_according_to_critique",
+      "theorems_deleted_or_rephrased": "Deleted '模型无关地确定形状', '三惯量必分离并必摆动'; chiral symmetry correctly stated as intrinsic T*R_y(pi) break rather than spatial parity",
+      "data_chain_restructured": "Waveforms -> calibration/counts & coincidences -> spectroscopic quantities with adopted inputs (including BrIcc ICC citing 5.9) -> model interpretations",
+      "competing_hypotheses_revised": "Replaced single-metric arbitration with comparing additional as-independent-as-possible observable predictions under designated models",
+      "evidence_layers_restored": "Four canonical layers: (1)直接实验报告及分析依赖, (2)采用外部输入与共享依赖, (3)作者解释与模型计算, (4)本稿条件推导与综合分析",
+      "chapter_guide_streamlined": "One concrete reader question per chapter with bridge; 4.7 limited to GT/FF design; Ge does not assert unmeasured shape mutation; closing notes literature foundation without personal experiment",
+      "verbal_glitch_fixed": "Removed duplicate '实验实验室'",
+      "final_polish": [
+        "第2章读者问题中将‘具有良好角动量的核形状’修改为‘具有好角动量的量子态、内部四极关联与集体惯量’",
+        "删去未核引用的BrIcc专名，保留规范表述‘通常来自原子电子结构计算或评价数据’"
+      ]
+    }
+  },
+  "open_issues_and_boundaries": [
+    "三张概念图占位符（Img/shape-moments.pdf, Img/six-region-map.pdf, Img/chapter-dependency.pdf）由\\IfFileExists保护，等待G80生成矢量图",
+    "全章所有硬数据与实验量均严格归属于引证文献，无虚构个人实验与未核数字"
+  ]
+}

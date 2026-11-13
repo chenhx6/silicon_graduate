@@ -1,0 +1,73 @@
+{
+  "status": "planned-not-dispatched",
+  "parent_role": "blueprint, detailed tasking, incremental review, accept or return",
+  "shared_inputs": [
+    "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-high-risk-section-contracts-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-notation-and-evidence-style-20261108.md"
+  ],
+  "execution_model": "antigravity/gemini-3.8-flash-tiered/high",
+  "sections": [
+    {
+      "id": "2.6",
+      "question": "给出形状势面为何不足以决定频率与横向响应？",
+      "depends_on": [
+        "2.3",
+        "2.4"
+      ],
+      "source_route": "F02/S4: R2 response crosswalk, Matsuzaki2004 PDF2–8, Kvasil2006 PDF1–4/16",
+      "must_preserve": [
+        "区分势曲率、振动质量、纵/横转动惯量与配对转动响应",
+        "IB/TV/NG基于声明实现，不把A+B与A−B或能量/角频率单位随意替换",
+        "沿带J(2)不自动代替摆动横向有效惯量"
+      ],
+      "delivery": "单节tex+逐主张locator+新推导/原作复述分层；源内疑点明确保留"
+    },
+    {
+      "id": "2.7",
+      "question": "同一波函数为何需要与模型空间一致的电磁/弱算符？",
+      "depends_on": [
+        "2.1",
+        "2.3"
+      ],
+      "source_route": "F01/F06 S2/S9: Suhonen原书及已核有效E1/GT/FF资料",
+      "must_preserve": [
+        "裸点质子/物质张量与截断空间有效电荷分开",
+        "M1自旋/轨道与Eλ单位、向上/向下B统计权一致",
+        "GT、FF与0ν不共用无条件单一淬灭参数"
+      ],
+      "delivery": "推导和物理例子均进正文；不直接把模型强度写成实验"
+    },
+    {
+      "id": "5.5",
+      "question": "触发、缓存与clean选择怎样共同改变事件被保存的概率？",
+      "depends_on": [
+        "5.3",
+        "5.4"
+      ],
+      "source_route": "F04 S10: 吴鸿毅PDF53–56/127–128及doctoral-r3-daq-spectroscopy-inverse",
+      "must_preserve": [
+        "模块/时间字格式必须对上具体版本",
+        "共同busy下两个live边缘概率不可任意相乘",
+        "联合接受度、数据保存和后选clean样本不同"
+      ],
+      "delivery": "tex+一个声明假设下共同busy解析反例+来源账本；不编个人固件"
+    },
+    {
+      "id": "3.2",
+      "question": "稳定轴和小幅取向振荡如何由转子Hamiltonian产生？",
+      "depends_on": [
+        "2.4",
+        "2.6"
+      ],
+      "source_route": "F03 S5: Bohr–Mottelson II印刷190–193及既有有限I控制",
+      "must_preserve": [
+        "明确体坐标角动量代数符号及能量/频率单位",
+        "绕最大与最小惯量轴的局部稳定性与最低能量不同",
+        "不同轴对称极限不可概括成一律零频率"
+      ],
+      "delivery": "逐步二次展开+边界与竞争解释；固定惯量不等精确谐振谱"
+    }
+  ],
+  "acceptance": "父按新增关键公式和直接定位符验收；不以篇幅/格式/worker自评代替科学，发现问题只定点返修。"
+}

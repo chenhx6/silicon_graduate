@@ -1,0 +1,86 @@
+{
+  "goal": "Existing native A130 five-chapter/39-section non-personal-results rewrite; no replacement goal",
+  "created_at": "2026-11-13T03:45:02.492924+00:00",
+  "canonical_root": "raw/writing/gpt/A130/these_2023_template/these_template",
+  "checkpoint_integrated_sections": [
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "3.5",
+    "5.3",
+    "5.4",
+    "5.9"
+  ],
+  "ownership": "Shared worktree protocol-only. Every writer owns only assigned section TeX/ledger and unique output directory. G76 alone integrates common Bib/wrappers/build. Parent alone accepts/publishes.",
+  "queues": {
+    "G84": [
+      "2.7",
+      "4.6",
+      "4.7",
+      "AppendixA",
+      "AppendixD"
+    ],
+    "G85": [
+      "2.8",
+      "3.6",
+      "3.8",
+      "4.4",
+      "4.5"
+    ],
+    "G81": [
+      "3.2",
+      "3.1",
+      "3.3",
+      "3.4",
+      "3.7"
+    ],
+    "G79": [
+      "5.5",
+      "5.1",
+      "5.2",
+      "5.6",
+      "5.7",
+      "5.8",
+      "5.10",
+      "AppendixE"
+    ],
+    "G86": [
+      "4.1",
+      "4.2",
+      "4.3",
+      "4.8"
+    ],
+    "G76": [
+      "Engineering integration",
+      "AppendixF",
+      "AppendixB/C interface completion"
+    ]
+  },
+  "queue_authorization": "Only current contracted section is running. Each successor receives a detailed per-section contract and source readiness requirements before execution; queue is a plan, not a completion report.",
+  "acceptance": [
+    "Original source locator per load-bearing empirical/model claim and formula; independent evidence separated from same-collection derivatives.",
+    "Parent checks incremental critical claims, conventions/units and counter-explanations; no redundant whole-book reread.",
+    "New derivations beyond reliable direct reconstruction receive Terra narrow audit.",
+    "New reusable findings recorded in knowledge; new sources archived with actual access/reading limits.",
+    "Coherent reader steps, chapter interfaces and defined notation; no personal experiments/results invented.",
+    "Python figure producer and paired SVG/PDF in Img when useful; no synthetic result passed as experiment.",
+    "All 39 sections and necessary appendix scope integrated, citations and references resolved, scientific boundaries represented, build and visual checks appropriate, explicit Git publication."
+  ],
+  "incomplete_criteria": "Open questions, token usage or target page count do not define completion. Never mark native goal complete at an intermediate checkpoint.",
+  "protected": [
+    "PLAN.md",
+    "system/memory.md",
+    "user deletion of historical Nov8 archive manifest",
+    "PADO files",
+    "all differently cased or unrelated manuscripts",
+    "daily daemon and course state"
+  ]
+}

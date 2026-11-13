@@ -1,0 +1,67 @@
+{
+  "occupancy_centroids": {
+    "g": 8,
+    "V": 1.0,
+    "e0": 0.0,
+    "additions_n_0_7": [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0
+    ],
+    "removals_n_1_8": [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0
+    ],
+    "centroid_slope": 0.875,
+    "derivative_slope": 1.0,
+    "mid_shell_crossing_n4": 3.5
+  },
+  "gamma_measure": {
+    "integral_norm_gamma": 1.0,
+    "integral_norm_x": 1.0,
+    "x2_mean": 0.3333333333333333,
+    "p_gamma_peak_rad": 1.5,
+    "p_gamma_peak_deg": 0.026179938779914945
+  },
+  "digital_energy_response": {
+    "source_csv": "outputs/l4/20261108-digital-pulse-response/ballistic_deficit_study.csv",
+    "rise_time_range_ns": [
+      20,
+      400
+    ],
+    "deficit_pct_flat0_range": [
+      0.7144,
+      14.3807
+    ],
+    "deficit_pct_flat400_range": [
+      0.0508,
+      6.8916
+    ]
+  },
+  "cfd_phase_convergence": {
+    "source_csv": "outputs/l4/20261108-digital-pulse-response/sampling_convergence.csv",
+    "steps_ns": [
+      10.0,
+      5.0,
+      2.5,
+      1.25
+    ],
+    "max_abs_errors_ns": [
+      0.256608,
+      0.129692,
+      0.013737,
+      0.005997
+    ]
+  }
+}

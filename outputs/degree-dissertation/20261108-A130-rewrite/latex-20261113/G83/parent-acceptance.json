@@ -1,0 +1,17 @@
+{
+  "reviewer": "parent-agent",
+  "checked_at": "2026-11-13T03:05:51.750387+00:00",
+  "decision": "accept-schema-only-repair",
+  "checks": {
+    "Summary": true,
+    "Key Results": true,
+    "Competing Interpretations and Limitations": true,
+    "reading_depth_valid": true,
+    "work_key_present": true,
+    "claim_table_fields": true,
+    "raw_sha_matches": true
+  },
+  "source_sha256": "4e4e0ad1d43e78473faf4b9c6167d263af8a67c2b3c097d7c30227ddc0ddecd3",
+  "model_observed": "antigravity/gemini-3.8-flash-tiered/high",
+  "scientific_content_boundary": "Previously source-audited T12/G82 content; no new reading or whole-paper-deep-read assertion."
+}

@@ -1,0 +1,16 @@
+{
+  "reviewer": "parent-agent",
+  "decision": "return-for-targeted-figure-repair",
+  "viewed": "Seven-figure contact sheet and full-resolution CFD preview",
+  "issues": [
+    "six-region text overflow and clipping",
+    "chapter graph title/arrow overlap",
+    "quantitative panel title/axis/footer clipping",
+    "occupancy endpoint annotations hidden by legend",
+    "CFD sampled simulation mislabeled Measured; remove unsupported convergence-order guide",
+    "shape panel q2 definition and undefined Gaussian should be replaced by E2 scalar-sum concept"
+  ],
+  "data_check": "CSV sampling max errors match 0.25660756630634296/0.12969199252859198/0.01373717153785492/0.005996680482439842; no numerical correction requested.",
+  "version_manifest_sha256": "d364c1bceac177cfcb57f7437941196f3d186216f8abf4a844db6661f1aea6fa",
+  "science_status": "No entire-figure-suite acceptance yet."
+}

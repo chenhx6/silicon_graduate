@@ -1,0 +1,159 @@
+{
+  "worker": "G82",
+  "recorded_at": "2026-11-13T01:58:23.781156+00:00",
+  "section": "2.6 势能、惯量与微观响应",
+  "reader_question": "为什么PES不能单独决定激发频率或横向响应？",
+  "dependencies": [
+    "已核2.3 BCS",
+    "已核2.4测度；不依赖未验收2.5"
+  ],
+  "problem_chain": [
+    {
+      "subsection": "2.6.1",
+      "question": "给定同一局部PES曲率，频率为何还不唯一？",
+      "sources": [
+        {
+          "source": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locator": "PDF27–30, Eqs.(4.8),(4.11),(4.21)–(4.25); R2 crosswalk局域单模推论"
+        }
+      ],
+      "equations": [
+        "H=p²/(2B_q)+C_q q²/2, omega²=C_q/B_q, E_exc=hbar omega",
+        "q无量纲时 B_q 单位 hbar²/MeV，C_q单位MeV",
+        "坐标变换下B与C共同变换；局部M^-1 C本征值"
+      ],
+      "kind": "本稿近谐教学推导",
+      "boundaries": [
+        "稳定驻点、B>0、C>0、局部常质量、单模/局域线性化",
+        "量子集体势不自动等于未经零点修正的静态约束能面"
+      ]
+    },
+    {
+      "subsection": "2.6.2",
+      "question": "不同惯量到底响应什么扰动？",
+      "sources": [
+        {
+          "source": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locator": "Eqs.(3.5)–(3.8), R2 crosswalk坐标质量变换"
+        },
+        {
+          "source": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF5 Eqs.(49)–(53)"
+        }
+      ],
+      "equations": [
+        "T_vib(B_beta_beta,beta B_beta_gamma,beta² B_gamma_gamma)",
+        "T_rot=sum J_k omega_k²/2",
+        "d<N>/d lambda 与空间d<J>/d omega分开"
+      ],
+      "kind": "原式复述/单位换记号",
+      "boundaries": [
+        "质量依赖坐标和测度，不能由PES曲率或电荷矩替代",
+        "配对规范角不含空间hbar²因子"
+      ]
+    },
+    {
+      "subsection": "2.6.3",
+      "question": "IB能算出什么，又冻结了什么？",
+      "sources": [
+        {
+          "source": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locator": "PDF34 Eq.(4.44); PDF30 Eqs.(4.21)–(4.25)"
+        }
+      ],
+      "equations": [
+        "IB全单粒子空间双和，(u_mu v_nu-u_nu v_mu)^2/(E_mu+E_nu)",
+        "2 sum_(mu<nu)|j20|²/(E_mu+E_nu)需统一F20与对计数"
+      ],
+      "kind": "来源原式及R2已核计数换写",
+      "boundaries": [
+        "零温、偶偶时间反演准粒子参考与已声明canonical BCS条件",
+        "无自洽诱导残余场，振动质量不是用旋转算符名称直接替换",
+        "弱配对不保证精确刚体"
+      ]
+    },
+    {
+      "subsection": "2.6.4",
+      "question": "TV为何是自洽响应，NG零频又需要何种归一？",
+      "sources": [
+        {
+          "source": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF3 Eqs.(15),(18)–(23),(32)–(33); PDF5 Eqs.(49)–(53)"
+        },
+        {
+          "source": "petrik-kortelainen-2018-rotational-tv-inertia",
+          "locator": "PDF4–5 Eqs.(12)–(18)"
+        }
+      ],
+      "equations": [
+        "K(X,Y)^T=-(F20,F02)^T, z=hbar omega_probe",
+        "< [Q,P] >=i; M_P=2[r^T(A+B)^-1r+s^T(A-B)^-1s]",
+        "S(P;0)=-M_P，j响应恢复空间hbar²"
+      ],
+      "kind": "来源原式及实/虚分量换写",
+      "boundaries": [
+        "只在声明的实QRPA及可逆相关子空间分块",
+        "复参考/时间反演破缺需完整响应",
+        "NG必须正确破缺、残余项一致且伪模分离；不套所有gamma软核",
+        "静态分支不是任意有限频率极限"
+      ]
+    },
+    {
+      "subsection": "2.6.5",
+      "question": "配对转动怎样与粒子数和质量差联系？",
+      "sources": [
+        {
+          "source": "hinohara-2015-nambu-goldstone-inertia-response",
+          "locator": "APS PDF5 Eqs.(49)–(53); PDF8–9 Eqs.(66)–(67),Fig.4; 已核2.3与R2 crosswalk"
+        }
+      ],
+      "equations": [
+        "E(N)=E(N0)+lambda0 DeltaN+(DeltaN)^2/(2M_N)",
+        "M_N=dN/dlambda, E=-B_+"
+      ],
+      "kind": "本稿显式采用总能量约定，来源局域响应",
+      "boundaries": [
+        "HFB连续延拓和固定粒子数离散质量差不自动等价",
+        "保留原文binding-energy Eq.(66)和Fig.4 -B_exp记法边界",
+        "局部QRPA共轭不证明全局自伴规范角"
+      ]
+    },
+    {
+      "subsection": "2.6.6",
+      "question": "沿带J(2)为何不能直接填入摆动横向惯量？",
+      "sources": [
+        {
+          "source": "matsuzaki-2004-nuclear-inertia-and-wobbling",
+          "locator": "PDF3–5 Eqs.(8)–(12)与Eq.(12)后Nilsson限制"
+        },
+        {
+          "source": "kvasil-2006-dy156-yb162-crpa-wobbling",
+          "locator": "PDF3 Eq.(6); PDF4 Fig.3及自洽比较"
+        }
+      ],
+      "equations": [
+        "J(1)=<J_x>/omega_rot, J(2)=d<J_x>/domega_rot",
+        "J(2)≈4hbar²/DeltaE_gamma为指定能带有限差分",
+        "omega_wob²=omega_rot²[(Jx-Jy_eff)(Jx-Jz_eff)]/(Jy_eff Jz_eff)，响应取omega_wob",
+        "Matsuzaki Eq.(11)伪模根omega_n²=omega_rot²"
+      ],
+      "kind": "来源色散式复述/频率单位恢复",
+      "boundaries": [
+        "Kvasil同方向自洽TV与带内导数比较不等于横向普遍相等",
+        "指定非轴推转RPA，正根不保证集体性与正确E2",
+        "不把配对减弱等同刚体，不用单一gamma软极限统摄所有模式"
+      ]
+    }
+  ],
+  "appendix_c_scope": [
+    "两准粒子计数、hbar及实/虚QRPA归一对照",
+    "相关可逆子空间与静态分支边界；不新增普适正定定理或微观推导"
+  ],
+  "new_complex_theory": "none planned; unresolved implementation questions are handed to parent",
+  "protected_sections": [
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4"
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "section_id": "5.4",
+  "title": "数字定时、同步与CFD",
+  "worker": "G79",
+  "recorded_at": "2026-11-13T02:46:29.555927+00:00",
+  "input_draft": {
+    "path": "raw/writing/gpt/A130/research-draft/section-5-4.md",
+    "sha256": "276cd22b3dfe627d6852eddb7ff6dbf12eaa1c66b223e4c9e982f8667915a69c"
+  },
+  "original_ledger": {
+    "path": "raw/writing/gpt/A130/evidence-ledger/section-5-4.json",
+    "sha256": "d87bb04c193eb9ce57cb06434414763de0483f8c4bc2da86ca21e56cbbd8e036"
+  },
+  "output_latex": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-4.tex",
+    "sha256": "18960bdfb1c2e65304a42da6bb39ef3026061b6a6d25d4911dcfdb853f316c26",
+    "equations_count": 10,
+    "tables_count": 1,
+    "figures_count": 1,
+    "labels": [
+      "sec:5-4",
+      "eq:5-4-code-step",
+      "subsec:5-4-1",
+      "eq:5-4-cn",
+      "eq:5-4-linear-zc",
+      "eq:5-4-cfd-map",
+      "eq:5-4-amp-inv",
+      "eq:5-4-timing-jitter",
+      "subsec:5-4-2",
+      "tab:5-4-sampling-convergence",
+      "fig:5-4-cfd-phase-convergence",
+      "subsec:5-4-3",
+      "eq:5-4-var-dt",
+      "eq:5-4-fwhm-gauss",
+      "subsec:5-4-4",
+      "eq:5-4-st-conv"
+    ],
+    "citations": [
+      "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync"
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "source_page": "knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md",
+      "citation_key": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "raw_file": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+      "raw_sha256": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b",
+      "hash_matches_contract": true,
+      "actual_read_pages": {
+        "text": [
+          "PDF35–38 / 印刷23–26",
+          "PDF104–109 / 印刷92–97"
+        ],
+        "visual": [
+          "PDF37 / 印刷25 Eq1.22与Fig1.27"
+        ],
+        "version": "本地143页授权版博士论文，2020；以实际字节SHA固定"
+      },
+      "reading_scope": "本轮实际回读；不继承V1中未由工具阅读支持的页码"
+    },
+    {
+      "source_id": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "source_page": "knowledge/sources/doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing.md",
+      "citation_key": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G32/lipschutz-2016-lenda-ddas-timing.pdf",
+      "raw_sha256": "466c421c59f5c964b14de545f315c74c1d614a60b78192eb72efe427f75740cc",
+      "hash_matches_contract": true,
+      "actual_read_pages": {
+        "text": [
+          "PDF1–4，Eqs2–6、Figs1–4及§4–5参数"
+        ],
+        "visual": [
+          "PDF2 Eq3与Fig1"
+        ],
+        "version": "arXiv:1601.04579v2，六页底本，非重新取得的期刊排版"
+      },
+      "reading_scope": "本轮实际回读；不继承V1中未由工具阅读支持的页码"
+    },
+    {
+      "source_id": "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+      "source_page": "knowledge/sources/doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync.md",
+      "citation_key": "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G32/hennig-2007-pixie16-clock-trigger-sync.pdf",
+      "raw_sha256": "e077cdcfd462610a80467024aac3446a562e2e4eaffbc813578a0b9bb86e0449",
+      "hash_matches_contract": true,
+      "actual_read_pages": {
+        "text": [
+          "PDF1–4，§3–4及Figs3–5相关讨论"
+        ],
+        "visual": [],
+        "version": "arXiv:nucl-ex/0701016，七页底本；vN未独立核定"
+      },
+      "reading_scope": "本轮实际回读；不继承V1中未由工具阅读支持的页码"
+    }
+  ],
+  "source_locators": [
+    {
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "source_page": "knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md",
+      "citation_key": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "raw_file": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+      "raw_sha256": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b",
+      "hash_matches_contract": true,
+      "actual_read_pages": {
+        "text": [
+          "PDF35–38 / 印刷23–26",
+          "PDF104–109 / 印刷92–97"
+        ],
+        "visual": [
+          "PDF37 / 印刷25 Eq1.22与Fig1.27"
+        ],
+        "version": "本地143页授权版博士论文，2020；以实际字节SHA固定"
+      },
+      "reading_scope": "本轮实际回读；不继承V1中未由工具阅读支持的页码"
+    },
+    {
+      "source_id": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "source_page": "knowledge/sources/doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing.md",
+      "citation_key": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G32/lipschutz-2016-lenda-ddas-timing.pdf",
+      "raw_sha256": "466c421c59f5c964b14de545f315c74c1d614a60b78192eb72efe427f75740cc",
+      "hash_matches_contract": true,
+      "actual_read_pages": {
+        "text": [
+          "PDF1–4，Eqs2–6、Figs1–4及§4–5参数"
+        ],
+        "visual": [
+          "PDF2 Eq3与Fig1"
+        ],
+        "version": "arXiv:1601.04579v2，六页底本，非重新取得的期刊排版"
+      },
+      "reading_scope": "本轮实际回读；不继承V1中未由工具阅读支持的页码"
+    },
+    {
+      "source_id": "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+      "source_page": "knowledge/sources/doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync.md",
+      "citation_key": "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G32/hennig-2007-pixie16-clock-trigger-sync.pdf",
+      "raw_sha256": "e077cdcfd462610a80467024aac3446a562e2e4eaffbc813578a0b9bb86e0449",
+      "hash_matches_contract": true,
+      "actual_read_pages": {
+        "text": [
+          "PDF1–4，§3–4及Figs3–5相关讨论"
+        ],
+        "visual": [],
+        "version": "arXiv:nucl-ex/0701016，七页底本；vN未独立核定"
+      },
+      "reading_scope": "本轮实际回读；不继承V1中未由工具阅读支持的页码"
+    }
+  ],
+  "migration_differences": [
+    "表 5.2 前长输入脉冲波形由行内公式改为独立展示公式 eq:5-4-input-pulse，消除约 28pt 行末断行溢出",
+    "表 5.2 表头拆分为两行（参数名与单位/样本说明分行），消除约 70pt 表宽溢出，4 组参数与最大误差保持不变",
+    "无新增科学主张"
+  ],
+  "scientific_integrity_checks": {
+    "sampling_convergence_csv": "Ts: 10/5/2.5/1.25 ns, tref: 157.1223/159.6536/160.8446/161.4716 ns, sampled max error: 0.2566/0.1297/0.0137/0.0060 ns，数据严格一致",
+    "phase_samples_limitation": "明确说明仅采 20 个离散相位点，非全连续全局上界；编码位宽不等同于真实物理时间精度",
+    "new_scientific_claims": "无新增科学主张"
+  },
+  "unresolved_items": [
+    "待 G80 生成并注入 Img/cfd-phase-convergence.pdf，当前由 \\IfFileExists 条件块安全包裹兜底占位",
+    "跨机箱同步波形测试在 Hennig 等文献中仅有示波器包络最坏估计 (~1.5 ns)，正文已注明不可作为今日模块或用户装置保证指标"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent_checked_at": "2026-11-13",
+  "payload_count": 49,
+  "all_backup_sha256_match": true,
+  "failures": [],
+  "original_manifest_total_files": 49,
+  "boundary": "Checks backed-up payload against recorded snapshot digests; not a scientific or license audit."
+}

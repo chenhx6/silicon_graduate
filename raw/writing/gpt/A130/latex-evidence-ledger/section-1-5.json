@@ -1,0 +1,67 @@
+{
+  "section_id": "1.5",
+  "title": "本文问题、证据层与阅读路径",
+  "target_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-5.tex",
+  "input_draft_path": null,
+  "input_sha256": "new-written-section",
+  "output_sha256": "10d22975760ed742b44fdecd5be48cee7179e4bc404ed603d017e6c22ef716bb",
+  "recorded_at": "2026-11-13T01:55:51.221636+00:00",
+  "executor": "G77",
+  "new_claims_and_arguments": [
+    {
+      "id": "G77-15-C01",
+      "topic": "实验室矩阵元到内禀形状与取向的反演链条",
+      "argument": "阐述从直接记录物理事件（脉冲波形、能量通道、符合时间戳）经刻度与符合分析、带采用输入谱学量（寿命、混合比、评价数据库ICC）到旋转不变量（q2, q3）与取向动力学（候选非轴对称/非共面手征波函数）的逐级物理映射与适用条件；明确映射到beta/gamma需要几何模型与截断修正，手征对称性破缺为内禀系T*R_y(pi)反演破缺而非空间宇称破缺。",
+      "sources": [
+        {
+          "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+          "locator": "pp. 683–716"
+        },
+        {
+          "source_id": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+          "locator": "PRC 69, 031301(R) (2004)"
+        },
+        {
+          "source_id": "bohr-mottelson-1953-collective-individual-original",
+          "locator": "Mat. Fys. Medd. 27 (16)"
+        },
+        {
+          "source_id": "petrache-2006-near-degenerate-chiral-misinterpretation",
+          "locator": "PRL 96, 112502 (2006)"
+        }
+      ]
+    },
+    {
+      "id": "G77-15-C02",
+      "topic": "四层证据边界与可证伪性检验规范",
+      "argument": "严格划分物理论证四个证据层次：(1)实验直接报告及分析依赖；(2)采用外部输入与共享依赖；(3)作者解释与模型计算；(4)本稿条件推导与综合分析。强调不以单一指标或选择定则作为绝对裁决，而是针对指定模型系统比较额外且尽量独立的可观测预言（如横向/纵向摆动、手征双重带/能级交叉解混合、刚性三轴/gamma软振动）。",
+      "sources": [
+        {
+          "source_id": "petrache-2006-near-degenerate-chiral-misinterpretation",
+          "locator": "PRL 96, 112502 (2006)"
+        },
+        {
+          "source_id": "poves-2020-limits-assigning-nuclear-shape",
+          "locator": "PLB 807, 135541 (2020)"
+        }
+      ]
+    },
+    {
+      "id": "G77-15-C03",
+      "topic": "全篇五章逻辑架构与各章先修回扣关系",
+      "argument": "精炼提炼全书五章的核心读者问题与承接逻辑：第1章提出谱线多重解释与基本定义；第2章微观哈密顿量与张量响应基础；第3章非轴对称三轴取向模式推导；第4章六个质量区状态/组态经验对照（Ge不作未测突变宣称，4.7限制于GT/FF设计）；第5章在束实验技术链与不确定度溯源。明确声明本章不含未核个人实验成果。",
+      "figure": "Img/chapter-dependency.pdf",
+      "sources": [
+        {
+          "source_id": "bohr-mottelson-1953-collective-individual-original",
+          "locator": "Mat. Fys. Medd. 27 (16)"
+        }
+      ]
+    }
+  ],
+  "unresolved_issues": [
+    "章节依赖概念图Img/chapter-dependency.pdf尚待绘图worker G80生成实体矢量图，当前使用\\IfFileExists机制安全保护",
+    "个人实验成果由于当前处于前置导读与理论基础综述阶段，遵循边界合同未作虚构宣称，待后续特定核素专章接入真实实验数据"
+  ],
+  "target_sha256": "10d22975760ed742b44fdecd5be48cee7179e4bc404ed603d017e6c22ef716bb"
+}

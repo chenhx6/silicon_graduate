@@ -1,0 +1,214 @@
+{
+  "baseline_counts": {
+    "error": 132,
+    "warning": 481,
+    "info": 5481
+  },
+  "candidate_counts": {
+    "error": 148,
+    "warning": 481,
+    "info": 5481
+  },
+  "new_errors": [
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-cfd-timing-and-clock-boundaries-20261113.md",
+      "message": "missing ## Failure Conditions"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-cfd-timing-and-clock-boundaries-20261113.md",
+      "message": "missing ## Falsification or Reverse Tests"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-cfd-timing-and-clock-boundaries-20261113.md",
+      "message": "missing ## Open Questions"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-cfd-timing-and-clock-boundaries-20261113.md",
+      "message": "missing ## Human Review"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-cfd-timing-and-clock-boundaries-20261113.md",
+      "message": "missing ## Promotion or Rejection History"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-projection-selection-and-metric-truncation-20261113.md",
+      "message": "missing ## Competing Explanations"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-projection-selection-and-metric-truncation-20261113.md",
+      "message": "missing ## Transfer Conditions"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-projection-selection-and-metric-truncation-20261113.md",
+      "message": "missing ## Falsification or Reverse Tests"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-projection-selection-and-metric-truncation-20261113.md",
+      "message": "missing ## Open Questions"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-projection-selection-and-metric-truncation-20261113.md",
+      "message": "missing ## Human Review"
+    },
+    {
+      "severity": "error",
+      "code": "CLAIM_TABLE",
+      "path": "knowledge/sources/duguet-2015-non-observable-nuclear-shell-structure.md",
+      "message": "Key Results must expose claim_kind, evidence_level, and locator"
+    },
+    {
+      "severity": "error",
+      "code": "INDEX_MISSING",
+      "path": "knowledge/sources/duguet-2015-non-observable-nuclear-shell-structure.md",
+      "message": "not linked from knowledge/index.md"
+    },
+    {
+      "severity": "error",
+      "code": "READING_DEPTH",
+      "path": "knowledge/sources/duguet-2015-non-observable-nuclear-shell-structure.md",
+      "message": "invalid reading_depth 'targeted'"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/duguet-2015-non-observable-nuclear-shell-structure.md",
+      "message": "missing ## Summary"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/duguet-2015-non-observable-nuclear-shell-structure.md",
+      "message": "missing ## Key Results"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/duguet-2015-non-observable-nuclear-shell-structure.md",
+      "message": "missing ## Competing Interpretations and Limitations"
+    }
+  ],
+  "task_scope_errors_or_warnings": [
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-cfd-timing-and-clock-boundaries-20261113.md",
+      "message": "missing ## Failure Conditions"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-cfd-timing-and-clock-boundaries-20261113.md",
+      "message": "missing ## Falsification or Reverse Tests"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-cfd-timing-and-clock-boundaries-20261113.md",
+      "message": "missing ## Open Questions"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-cfd-timing-and-clock-boundaries-20261113.md",
+      "message": "missing ## Human Review"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-cfd-timing-and-clock-boundaries-20261113.md",
+      "message": "missing ## Promotion or Rejection History"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-projection-selection-and-metric-truncation-20261113.md",
+      "message": "missing ## Competing Explanations"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-projection-selection-and-metric-truncation-20261113.md",
+      "message": "missing ## Transfer Conditions"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-projection-selection-and-metric-truncation-20261113.md",
+      "message": "missing ## Falsification or Reverse Tests"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-projection-selection-and-metric-truncation-20261113.md",
+      "message": "missing ## Open Questions"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-projection-selection-and-metric-truncation-20261113.md",
+      "message": "missing ## Human Review"
+    },
+    {
+      "severity": "error",
+      "code": "CLAIM_TABLE",
+      "path": "knowledge/sources/duguet-2015-non-observable-nuclear-shell-structure.md",
+      "message": "Key Results must expose claim_kind, evidence_level, and locator"
+    },
+    {
+      "severity": "error",
+      "code": "INDEX_MISSING",
+      "path": "knowledge/sources/duguet-2015-non-observable-nuclear-shell-structure.md",
+      "message": "not linked from knowledge/index.md"
+    },
+    {
+      "severity": "error",
+      "code": "READING_DEPTH",
+      "path": "knowledge/sources/duguet-2015-non-observable-nuclear-shell-structure.md",
+      "message": "invalid reading_depth 'targeted'"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/duguet-2015-non-observable-nuclear-shell-structure.md",
+      "message": "missing ## Summary"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/duguet-2015-non-observable-nuclear-shell-structure.md",
+      "message": "missing ## Key Results"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/duguet-2015-non-observable-nuclear-shell-structure.md",
+      "message": "missing ## Competing Interpretations and Limitations"
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/duguet-2015-non-observable-nuclear-shell-structure.md",
+      "message": "source has no citation_key"
+    }
+  ]
+}

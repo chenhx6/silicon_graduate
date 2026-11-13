@@ -1,0 +1,111 @@
+{
+  "batch_id": "G78",
+  "executor": "gemini-3.8-flash-tiered / high",
+  "task": "Chapter 2 Sections 2.1-2.4 LaTeX migration and targeted fixes",
+  "timestamp": "2026-11-13T01:37:21.951360+00:00",
+  "status": "completed",
+  "exclusive_paths_touched": [
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-1.tex",
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-2.tex",
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-3.tex",
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-4.tex",
+    "raw/writing/gpt/A130/latex-evidence-ledger/section-2-1.json",
+    "raw/writing/gpt/A130/latex-evidence-ledger/section-2-2.json",
+    "raw/writing/gpt/A130/latex-evidence-ledger/section-2-3.json",
+    "raw/writing/gpt/A130/latex-evidence-ledger/section-2-4.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G78/receipt.json"
+  ],
+  "prohibitions_respected": {
+    "template_entry_modified": false,
+    "chapter_wrapper_modified": false,
+    "bibtex_modified": false,
+    "img_dir_modified": false,
+    "old_research_drafts_modified": false,
+    "old_evidence_ledgers_modified": false,
+    "git_commit_or_push_executed": false,
+    "user_memory_or_plan_touched": false
+  },
+  "artifacts_manifest": {
+    "sec-2-1.tex": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-1.tex",
+      "sha256": "fe7f297fc4bdd8e92bbb657b38fd2ec934823aa38beea8475718f805580b9ea9",
+      "input_draft_sha256": "8bc02122cefecbfb4d865f7805443cd6524693847bb54947ff4a0d4345b04db0",
+      "display_equations": 29,
+      "math_fidelity": {
+        "display_equations": "29/29 verbatim matching",
+        "inline_math": "154/154 verbatim matching",
+        "allowed_modifications": "None (pure faithful translation)"
+      }
+    },
+    "sec-2-2.tex": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-2.tex",
+      "sha256": "538c6da1788b6f520ace80e15f1dec561974b54efb2e5d7a32c21323daf9000c",
+      "input_draft_sha256": "3ff8bdf1c7fe4f8d64812f2b08b02c0108135061a34e39bd39f6b207340368f1",
+      "display_equations": 14,
+      "targeted_fixes": [
+        "w_j/U_j parameter rename with explicit energy dimension (MeV) to avoid clashing with BCS u/v",
+        "Strict distinction between spectral centroid e_0 + w_j n (1 - 1/g_j) + U_j and continuous derivative e_0 + w_j (n - 1/2) + U_j",
+        "Otsuka reference freezing formulated as reference ESPE expectation value becoming new SPE with active two-body monopole removed and multipole preserved",
+        "T-plot non-orthogonal overlap squared clarified as non-sum-to-one and non-squared-expansion-coefficient",
+        "Togashi (arXiv:1606.09056v2) Fig. 3 PDF p. 3 / text PDF p. 4 and Otsuka 2022 Physics 4, 258-285 locator updates",
+        "Conditional figure \\IfFileExists{Img/occupancy-centroids.pdf}{...}{}"
+      ],
+      "math_fidelity": {
+        "display_equations": "11/14 verbatim matching; 3 single-orbit equations modified by audited parameter rename w_j/U_j and expanded centroid form",
+        "inline_math": "Updated correspondingly for w_j, U_j, -w_j \\Delta n_j / g_j and Togashi PDF page citations",
+        "allowed_modifications": [
+          "v_j/u_j renamed to w_j/U_j with explicit MeV energy dimension",
+          "e_j^{cent} expanded as \\epsilon_{0;j}^n + w_j n (1 - 1/g_j) + U_j = e_j^+ - w_j n / g_j",
+          "State variation includes residual -w_j \\Delta n_j / g_j"
+        ]
+      }
+    },
+    "sec-2-3.tex": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-3.tex",
+      "sha256": "715d8d24513b2426e67dfff759e23955189490160c58c4746ddcfa2286ee0a41",
+      "input_draft_sha256": "05f41e53b0d6ed668eaf7a4f1d0304561b9ea7135aa144e55b38de844b78b945",
+      "display_equations": 41,
+      "math_fidelity": {
+        "display_equations": "41/41 verbatim matching",
+        "inline_math": "168/168 verbatim matching",
+        "allowed_modifications": "None (pure faithful translation, preserving BCS 2x2 matrix signs and two-level analytic limits)"
+      }
+    },
+    "sec-2-4.tex": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-4.tex",
+      "sha256": "8960e78b76ce70f4ada42dac7c653a73eb130fc0ed4e1e2a75d4607b7eddbd9a",
+      "input_draft_sha256": "71f0a01d06cbed00317516bc59d1f4cc3f378041854b486e491b07d38c8b1d44",
+      "display_equations": 19,
+      "targeted_fixes": [
+        "Strict separation between Euclidean coordinate measure beta^4 |sin 3gamma| and coordinate-dependent mass tensor determinant sqrt(det B(beta, gamma))",
+        "Decoupling of independent scalar weight W(beta, gamma) from constant B Bohr quantization",
+        "Clarification that <gamma> approx 30 deg in flat potential is purely driven by sin 3gamma measure peaking and does not imply triaxial rigidity",
+        "Clarification that kappa=18 represents a finite central minimum, not a deep rigid rotor limit",
+        "Precise inverse boundary stating static moments alone cannot fix absolute well depth or moments of inertia, without precluding relative rigidity checks once excitation spectra/dynamical scales are introduced",
+        "Table 2 verified CSV values preserved line-by-line",
+        "Conditional figure \\IfFileExists{Img/gamma-measure.pdf}{...}{}"
+      ],
+      "math_fidelity": {
+        "display_equations": "19/19 verbatim matching",
+        "inline_math": "143 source inline blocks verbatim preserved; 13 inline blocks added/updated strictly for \\beta^4 |\\sin 3\\gamma| vs \\sqrt{\\det B(\\beta, \\gamma)} metric separation, W(\\beta, \\gamma) weight decoupling, and restricted model ground state caption",
+        "allowed_modifications": [
+          "Explicit distinction between coordinate Jacobian beta^4 |sin 3gamma| and dynamical mass tensor determinant sqrt(det B(beta, gamma))",
+          "Decoupling of general scalar weight W(beta, gamma) from flat Bohr quantization",
+          "Clarification that <gamma> approx 30 deg in flat potential is purely driven by sin 3gamma measure peaking",
+          "Clarification that kappa=18 represents a finite central minimum, not a deep rigid limit",
+          "Precise boundary that static moments alone cannot determine absolute well depth or inertia, without ruling out relative rigidity checks given spectra",
+          "Caption specifies '固定 \\beta、自旋 I=0、常角向质量且 \\gamma 势平坦的受约束模型基态'"
+        ]
+      }
+    }
+  },
+  "syntax_check": {
+    "all_environments_balanced": true,
+    "unclosed_math_delimiters": 0,
+    "compilation_interface_compatible": true
+  },
+  "unresolved_items_for_parent": [
+    "Baranger (1970) original notation and spectral factor normalization under complex effective transfer operators remain documented as tasks for subsequent dedicated audits; no autonomous theorems declared.",
+    "General coordinate-dependent 5DCH mass tensor Pauli-Podolsky quantization choices remain deferred to Appendix C."
+  ]
+}

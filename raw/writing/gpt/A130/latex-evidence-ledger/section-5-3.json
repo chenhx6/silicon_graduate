@@ -1,0 +1,123 @@
+{
+  "section_id": "5.3",
+  "title": "数字成形与能量估计",
+  "worker": "G79",
+  "recorded_at": "2026-11-13T02:46:29.555927+00:00",
+  "input_draft": {
+    "path": "raw/writing/gpt/A130/research-draft/section-5-3.md",
+    "sha256": "514fd3ab6c968851eece090a54b1e875e99552d8b16fe20114738444af271dfc"
+  },
+  "original_ledger": {
+    "path": "raw/writing/gpt/A130/evidence-ledger/section-5-3.json",
+    "sha256": "49387c8e0dff85855a6da4479f96b3b469d7c491de530a98ed95e5787a44d4f4"
+  },
+  "output_latex": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-3.tex",
+    "sha256": "81f757b33a8ca0e0c65c025661b57e956c3f7d1d7df2972d3a35a89dccf76e04",
+    "equations_count": 20,
+    "tables_count": 1,
+    "figures_count": 1,
+    "labels": [
+      "sec:5-3",
+      "subsec:5-3-1",
+      "eq:5-3-q0",
+      "eq:5-3-vt",
+      "eq:5-3-vn",
+      "subsec:5-3-2",
+      "eq:5-3-m-pzc",
+      "eq:5-3-dn",
+      "eq:5-3-pn",
+      "eq:5-3-rn",
+      "eq:5-3-sn",
+      "eq:5-3-dz",
+      "eq:5-3-rz",
+      "eq:5-3-hz",
+      "eq:5-3-boxcar",
+      "eq:5-3-hz-boxcar",
+      "eq:5-3-alpha-m",
+      "eq:5-3-vz",
+      "eq:5-3-sz",
+      "eq:5-3-sflat",
+      "eq:5-3-snorm",
+      "eq:5-3-gain-bias",
+      "subsec:5-3-3",
+      "tab:5-3-ballistic-deficit",
+      "fig:5-3-digital-energy-response",
+      "subsec:5-3-4",
+      "eq:5-3-bl",
+      "eq:5-3-var-net",
+      "eq:5-3-pur-poisson"
+    ],
+    "citations": [
+      "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "wu-2021-general-purpose-digital-daq-waveform-analysis"
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "citation_key": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "canonical_title": "通用数字化获取系统的开发",
+      "authors": [
+        "吴鸿毅"
+      ],
+      "advisor": [
+        "华辉"
+      ],
+      "institution": "北京大学",
+      "year": 2020,
+      "pages": 143,
+      "raw_file": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+      "raw_sha256": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b",
+      "actual_read_pages": "PDF pages 29–38 (printed pages 17–26), especially PDF 31–32 (printed 19–20) Eqs. (1.10)–(1.19), Fig. 1.19–1.21; PDF pages 85–86 (printed 73–74) Figs. 3.4–3.5",
+      "evidence_role": "Core reference for digital DAQ architecture, preamplifier exponential decay correction, Jordanov recursive trapezoidal filter equations, baseline estimation, and HPGe 1408 keV energy resolution benchmark (0.17%). Note: cited literature provides architectural and algorithm background, but does not endorse the synthetic numerical study in Table 5.1."
+    },
+    {
+      "source_id": "wu-2021-general-purpose-digital-daq-waveform-analysis",
+      "citation_key": "wu-2021-general-purpose-digital-daq-waveform-analysis",
+      "canonical_title": "基于数字化的通用获取系统及波形分析算法",
+      "authors": [
+        "吴鸿毅",
+        "李智焕",
+        "吴婧",
+        "华辉",
+        "王翔",
+        "李湘庆",
+        "徐川"
+      ],
+      "journal": "科学通报",
+      "year": 2021,
+      "volume": "66",
+      "pages": "3553-3560",
+      "doi": "10.1360/TB-2021-0552",
+      "raw_file": "raw/theses/degree-dissertation/基于数字化的通用获取系统及波形分析算法.pdf",
+      "raw_sha256": "c1a2bd226faf52cef144d00463414906c9e44c779075fde57d66f5161a697820",
+      "actual_read_pages": "PDF pages 1–6 (printed 3553–3558), Figs. 1–5",
+      "evidence_role": "Dependent/related journal source establishing GDDAQ framework, HPGe count-rate stability comparison between analog and digital shapers (3–11 k/s), and pile-up decomposition application limits."
+    }
+  ],
+  "source_locators": [
+    {
+      "citation_key": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "actual_read_pages": "PDF pages 29–38 (printed pages 17–26), especially PDF 31–32 (printed 19–20) Eqs. (1.10)–(1.19), Fig. 1.19–1.21; PDF pages 85–86 (printed 73–74) Figs. 3.4–3.5"
+    },
+    {
+      "citation_key": "wu-2021-general-purpose-digital-daq-waveform-analysis",
+      "actual_read_pages": "PDF pages 1–6 (printed 3553–3558), Figs. 1–5"
+    }
+  ],
+  "migration_differences": [
+    "S(z) 传递函数由单行 equation 改为分步 align 等号断行，消除约 60pt 行宽溢出（无改动任何物理内容）",
+    "表 5.1 表头拆分为两行（上升时间/亏损量及平顶参数分行），消除约 122pt 列宽溢出，8 行 24 值全量保持不变",
+    "无新增科学主张"
+  ],
+  "scientific_integrity_checks": {
+    "normalization_rule": "s_norm[n] = s[n]/[k(M+1)] 严格遵守，取幅为 max_n s_norm[n]，未以未归一 s 比较 1000",
+    "ballistic_deficit_study": "8 行 24 值严格来自 ballistic_deficit_study.csv，数值未做任何修改",
+    "new_scientific_claims": "无新增科学主张"
+  },
+  "unresolved_items": [
+    "待 G80 生成并注入 Img/digital-energy-response.pdf，当前由 \\IfFileExists 条件块安全包裹兜底占位",
+    "Wu 论文印刷第 20 页式 (1.14)、(1.19) 末项印为 n[n-k-l]，文本已保留原文记录并明确 LTI 重建依据 v[n-k-l]"
+  ]
+}

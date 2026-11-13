@@ -1,0 +1,143 @@
+{
+  "section_id": "2.3",
+  "title": "配对、准粒子与阻塞",
+  "version": "latex-v1.0",
+  "recorded_at": "2026-11-13T02:16:27.381659+00:00",
+  "worker": "G78",
+  "input_draft": {
+    "path": "raw/writing/gpt/A130/research-draft/section-2-3.md",
+    "sha256": "05f41e53b0d6ed668eaf7a4f1d0304561b9ea7135aa144e55b38de844b78b945"
+  },
+  "latex_output": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-3.tex",
+    "sha256": "0cba2e7dbbae51d8e62b5f6f253fcc7b1584b1b99eaad8f7fec58564ad03b640"
+  },
+  "migration_type": "faithful_latex_migration",
+  "targeted_fixes": [],
+  "new_claims": [],
+  "sources": [
+    {
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "source_page": "knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "actual_read_pages": "Ch. 13: printed pp. 391–405, 407–413 (local PDF pp. 404–418, 420–424, 399–401; anomalous page sequence inspected and mapped)"
+    },
+    {
+      "source_id": "book-jain-nuclear-isomers",
+      "source_page": "knowledge/sources/book-jain-nuclear-isomers.md",
+      "raw_file": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+      "raw_sha256": "994816561cfb6e89bd215b7fe23e37ecf12e8a3e8f5ce88eafbbd388d02ed74a",
+      "actual_read_pages": "Ch. 3 (seniority / pair model, pp. 35–40 / PDF pp. 46–51); Ch. 5 (blocking in MQP states, pp. 84–89 / PDF pp. 95–100)"
+    },
+    {
+      "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+      "source_page": "knowledge/sources/hinohara-2015-nambu-goldstone-inertia-response.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-t05-response-definitions/aps-publication.pdf",
+      "raw_sha256": "764d644a2349235027e15c320d78f15fcd7d8fd264ebe6412fd2b80e1a625f86",
+      "actual_read_pages": "APS printed pp. 3, 5, 7–10; Eqs. (51)–(55), (66)–(67), (75)"
+    }
+  ],
+  "claims": [
+    {
+      "text": "时间反演伙伴与球形J0集体pair不同；正束缚能三点与中心明确的四点式均对正奇偶交错给正2p，经验质量差还含壳/重排。",
+      "kind": "task-derivation-and-model-boundary",
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "locator": "Printed399–404/PDF412–417 plus task sign/pair normalization derivation",
+      "conditions": "同类核子、所述基底/符号；不是所有短程作用的J排序定理"
+    },
+    {
+      "text": "对本稿pair-only Hamiltonian，保留Gkk对角项与mu_k=Gkk v_k²；正Delta的(u,v)采用正非对角2x2矩阵，消H20为驻点而非自动极小。",
+      "kind": "task-derivation",
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "locator": "Background printed399–402; manuscript-defined Hamiltonian independently Wick-contracted and checked by T10/parent replay",
+      "conditions": "实静态BCS、k>0每对一次；不冒引原书同一H"
+    },
+    {
+      "text": "固定N态内kappa=0仍可有数守恒两体配对关联；粒子数投影给好N试探态，未自动解动力学。E=-B+的曲率与配对惯量符号一致。",
+      "kind": "task-derivation-and-source-convention-audit",
+      "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+      "locator": "APS5 Eqs49–53; APS8–9 Eqs66–67/Fig4; source notation boundary retained",
+      "conditions": "局域平滑自洽路径、固定其它粒子数、非奇异响应；N/theta无量纲"
+    },
+    {
+      "text": "本稿pair-only、同简并两壳半填充及对角自能给Gc=eps/(2Omega-1)、lambda=-G/2；Suhonen原式2eps/(4Omega-1)来自其不同跨壳矩阵元/自能。",
+      "kind": "task-derivation-compared-to-source-model",
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "locator": "Printed408–411/PDF421–424 Eqs13.103–13.124; canonical a130_rewrite_bcs_model_audit.py",
+      "conditions": "非零配对镜像支；受限路径极小，不宣称全局或实核谱"
+    },
+    {
+      "text": "阻塞可削弱特定配对通道并引起重排，余下配对大小依模型；高K长寿还需实际退激阻碍。BCS塌缩不自动等于数守恒关联消失；有限体系可有能级交叉。",
+      "kind": "model-synthesis-with-boundaries",
+      "source_id": "book-jain-nuclear-isomers",
+      "locator": "Ch5/PDF95–100; task finite-model limits",
+      "conditions": "近轴对称K近似、给定退激网络；不要求自旋轨道作用弱，不保证所有路径平滑"
+    }
+  ],
+  "competing_explanations": [
+    {
+      "topic": "多准粒子激发与配对残留",
+      "misconception": "认为高 K 异能态或多准粒子激发因为阻塞了关键轨道，导致核内所有配对相互作用与配对能隙彻底消失，从而可直接采用无配对刚体惯量。",
+      "correct_physical_boundary": "阻塞仅仅切断被单占能级的对散射通道，周围其他价核子能级依然保留显著的配对关联；多准粒子态中微观配对依然存在，不能断言配对为零或直接等同于理想刚体。"
+    },
+    {
+      "topic": "BCS 塌缩与有限体系相变本质",
+      "misconception": "认为静态 BCS 能隙归零代表原子核发生了真实的热力学极限非解析宏观超流—正常相变。",
+      "correct_physical_boundary": "原子核是有限介观量子系统，不存在热力学极限下的非解析严格相变；静态 BCS 能隙在弱耦合下的突变为单一破缺对称性均场试探波函数的变分假象；在好粒子数投影或严格量子对角化下，配对关联平滑演化，虽可出现微观能级交叉，但并非均场塌缩截断。"
+    },
+    {
+      "topic": "经验奇偶质量差与微观纯配对参数",
+      "misconception": "将结合能差分公式计算值直接等同于微观哈密顿量中的纯配对能隙参数 \\Delta。",
+      "correct_physical_boundary": "经验奇偶质量差不仅包含配对能量，还直接混杂了费米面附近离散单粒子能级间距、壳层单极位移以及形状形变弛豫效应；直接等同会造成模型输入参数的虚假标定；差分前置符号需与具体能量正负号约定一致。"
+    },
+    {
+      "topic": "配对转动惯量与空间集体转动惯量",
+      "misconception": "将配对规范空间中的 Thouless–Valatin 配对转动惯量 \\mathcal{J}_{\\text{pair}}（量纲为 MeV^-1）与物理三维空间转动惯量 \\mathcal{J}_{\\text{space}}（量纲为 \\hbar^2/MeV 或 MeV^-1 \\hbar^2）混同，并断言改变配对即可唯一线性调节空间转动惯量。",
+      "correct_physical_boundary": "配对转动惯量是粒子数规范空间（U(1) 规范变换）中的能面曲率响应，描述同位素链结合能随粒子数的二次平滑变化；空间转动惯量是三维空间 SO(3) 旋转下的动能响应；转动惯量受单粒子能级、形变、配对及多极残余相互作用联合贡献，不能单一归因于配对变化。"
+    }
+  ],
+  "unresolved": [
+    "代数核心符号统一核准：3 点式正束缚能 B 差分前置符号、规范角生成元无量纲约定、2x2 均场矩阵非对角项 \\pm\\Delta_k 相对相位符号，正等待总控转发 Terra T10 的独立原件核查结果进行终态统一；",
+    "Suhonen 两能级模型中两体配对相互作用算符求和与常数 G 计数因子约定，正等待 T10 独立核查，正文暂按原书印刷本表述保留，不擅自拼接经验修正因子；",
+    "高自旋回弯区准粒子顺排与动力学配对涨落的竞争在静态 BCS 框架下无法完全闭合，需依赖 Cranked HFB 与 QRPA 动力学框架。"
+  ],
+  "fidelity_verification": {
+    "comparison_base": "parent-accepted G78 tex snapshot in G82/layout-baseline.json",
+    "baseline_sha256": "715d8d24513b2426e67dfff759e23955189490160c58c4746ddcfa2286ee0a41",
+    "baseline_display_equations": 41,
+    "output_display_equations": 41,
+    "verbatim_display_bodies": 40,
+    "display_math_tokens_matching_after_allowed_layout_removal": 41,
+    "baseline_inline_blocks": 168,
+    "output_inline_blocks": 169,
+    "matched_baseline_inline_blocks": 168,
+    "inserted_inline_blocks": [
+      [
+        "B_+"
+      ]
+    ],
+    "allowed_changes": [
+      "eq:2-3-2改aligned两行",
+      "一个正文Unicode B₊改为数学B_+，增加一个行内数学定界块"
+    ],
+    "acceptance_boundary": "仅格式比对；原有科学内容沿用父验收，不以计数替代科学审查"
+  },
+  "layout_revisions": [
+    {
+      "section": "2-3",
+      "recorded_at": "2026-11-13T02:03:07.644139+00:00",
+      "before_sha256": "715d8d24513b2426e67dfff759e23955189490160c58c4746ddcfa2286ee0a41",
+      "after_sha256": "0cba2e7dbbae51d8e62b5f6f253fcc7b1584b1b99eaad8f7fec58564ad03b640",
+      "display_equations_compared": 41,
+      "display_math_tokens_unchanged": true,
+      "labels_unchanged": true,
+      "citations_unchanged": true,
+      "remaining_u208a": 0,
+      "allowed_changes": [
+        "eq:2-3-2改aligned两行",
+        "一个正文Unicode B₊改为数学B_+，增加一个行内数学定界块"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "section_id": "2.5",
+  "title": "内禀参考与对称性恢复",
+  "section_label": "sec:2-5",
+  "reader_starting_point": "读者已在第2.1节掌握球张量与角动量代数，在第2.4节掌握玻尔集体坐标(beta, gamma)、欧拉角三维取向及体积元测度。",
+  "central_question": "在孤立原子核中，低能相互作用严格守恒宇称与连续空间转动不变性；为什么微观单体平均场参考态总表现出对称破缺？如何通过角动量投影与非正交广义本征方程在实验室系恢复好量子数，并理解线性幺正宇称投影与反幺正手征操作的本质差别？",
+  "pedagogical_question_chain": [
+    "Q1: 为什么被破缺的仅仅是微观平均场形变参考态 |Phi>，而非所有内禀坐标描述？在弱相互作用宇称破坏可忽略的前提下，引入该参考态的变分收益与理论代价是什么？",
+    "Q2: 如何构造具有物理量纲 \\hbar 的三维角动量投影算符 P^I_{MK}？不同 K 分量投影生成的态为何一般非正交，其重叠度规（Norm kernel）中的真零模冗余与数值子空间截断有何本质区别？",
+    "Q3: 非正交基下的 Ritz 变分如何导出行列式为零的 Hill-Wheeler 广义本征方程 H c = E N c？能标零点平移 H -> H + c 1 为何在非正交基下必须对应矩阵 H -> H + c N，才能保持能级间距与本征子空间的规范不变性？",
+    "Q4: 为什么空间反演宇称投影 P^+- = (1 +- Pi)/2 只对线性幺正算符成立，而绝对不能套用于反幺正手征反转算符 C = T R_y(pi)？有限体系中的手征对称性究竟是如何通过两阱非正交量子隧穿在实验室系恢复的？",
+    "Q5: 读者如何通过非正交两态隧穿模型与轴对称 K=0 态投影建立手算直觉？为什么离散 R_{y,intr}(pi) 对称性才是选择偶自旋 I 的原因，且角动量投影本身不自动保证严格的刚体转子谱？"
+  ],
+  "subsections": [
+    {
+      "id": "2.5.1",
+      "title": "微观破缺参考态与实验室定态的物理关系",
+      "label": "sec:2-5-1",
+      "argument": "低能原子核结构中弱相互作用宇称破缺极其微弱，核哈密顿量严格守恒连续转动与空间反演。微观自洽场近似引入变形单参考态 |Phi> 以吸纳四极与配对关联。该参考波包破坏转动不变性，不是实验室定态，而是不同 (I, M) 物理态的相干叠加。强调玻尔统合集体波函数使用内禀坐标仍具确定良量子数，破缺仅属于单参考波包。模型内禀形变 (beta, gamma) 是波包内部参数，绝非实验室直接测量算符。投影是从该参考波包构造好量子数态的一条明确理论路线。",
+      "key_equations": [
+        "[\\hat{H}, \\hat{\\mathbf{J}}] = 0, \\quad \\hat{\\mathbf{J}}^2 |\\Phi\\rangle \\ne \\hbar^2 I(I+1) |\\Phi\\rangle",
+        "|\\Phi\\rangle = \\sum_{I, M, K} c_{IMK} |\\Psi_{IM; K}\\rangle"
+      ],
+      "sources": [
+        {
+          "source_id": "bohr-1952-surface-particle-coupling",
+          "locator": "Dan. Mat. Fys. Medd. 26, no. 14 (1952), pp. 8–18 (Section II, 体轴参考系与动能分离)"
+        },
+        {
+          "source_id": "bohr-mottelson-1953-collective-individual-original",
+          "locator": "Dan. Mat. Fys. Medd. 27, no. 16 (1953), pp. 24–36 (强耦合绝热波函数与转动态展开)"
+        },
+        {
+          "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+          "locator": "World Scientific 1998 再版 (raw_file: raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf, SHA: 46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a), PDF pp. 23–27 (Section 4-1, 转动自由度与转动对称性破缺)"
+        }
+      ]
+    },
+    {
+      "id": "2.5.2",
+      "title": "角动量投影算符、非正交重叠核与过完备性",
+      "label": "sec:2-5-2",
+      "argument": "通过 SO(3) 群上的不变测度构建三维投影算符 P^I_{MK} = (2I+1)/(8pi^2) int dOmega D^{I*}_{MK}(Omega) R(Omega)，其中转动算符严格写为 R(Omega) = exp(-i phi J_z / hbar) exp(-i theta J_y / hbar) exp(-i psi J_z / hbar)。由不同 K 投影生成的态矢一般非正交，定义度规重叠核 N^I_{KK'} 与哈密顿量核 H^I_{KK'}。明确区分因对称性使范数精确为零的真冗余（必须剔除）与微小非零本征值的数值截断（有限阈值是近似截断，需做稳定性与收敛检查，标准问题仅在保留子空间等价）。",
+      "key_equations": [
+        "P^I_{MK} = \\frac{2I+1}{8\\pi^2} \\int d\\Omega \\, D^{I*}_{MK}(\\Omega) \\hat{R}(\\Omega)",
+        "(P^I_{MK})^\\dagger = P^I_{KM}, \\quad P^I_{MK} P^{I'}_{M'K'} = \\delta_{II'} \\delta_{KM'} P^I_{MK'}",
+        "N^I_{KK'} = \\frac{2I+1}{8\\pi^2} \\int d\\Omega \\, D^{I*}_{KK'}(\\Omega) \\langle \\Phi | \\hat{R}(\\Omega) | \\Phi \\rangle",
+        "H^I_{KK'} = \\frac{2I+1}{8\\pi^2} \\int d\\Omega \\, D^{I*}_{KK'}(\\Omega) \\langle \\Phi | \\hat{H} \\hat{R}(\\Omega) | \\Phi \\rangle"
+      ],
+      "sources": [
+        {
+          "source_id": "book-raduta-coherent-states",
+          "locator": "Springer 2016 (raw_file: raw/books/nuclear structure with coherent states_Raduta.pdf, SHA: 98b057e53e323b0f4781060ad5ae4a8c045ac36b32c0650033953360d951aca3), Section 3.3 (printed p. 43, PDF p. 54) Eqs.(3.3.3)–(3.3.5) 给出角动量投影算符定义；PDF pp. 189–195 (Chapter 6, Section 6.1 CSM相干态投影展开与矩阵元求解)"
+        },
+        {
+          "source_id": "book-suhonen-from-nucleons-to-nucleus",
+          "locator": "Springer 2007 (raw_file: raw/books/From nucleons to nucleus concepts of microscopic .pdf, SHA: 4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c), PDF pp. 38–41 (Section 2.1.2, Wigner D 矩阵定义与转动算符代数)"
+        }
+      ]
+    },
+    {
+      "id": "2.5.3",
+      "title": "Hill-Wheeler 广义本征方程与能标规范不变性",
+      "label": "sec:2-5-3",
+      "argument": "在非正交投影基矢下由 Ritz 变分导出 Hill-Wheeler 广义本征方程 H^I c = E N^I c。证明全哈密顿量平移 H -> H + c 1 在非正交基下对应矩阵 H -> H + c N，严格保持特征能谱 E -> E + c 与本征子空间不变（简并时可选定相同正交基）。指出错误采用对角平移 H -> H + c 1 会引入非对角扰动项 c(1 - N)，在非正交基下破坏相对能级间距并引起态漂移或混合。",
+      "key_equations": [
+        "H^I \\mathbf{c} = E N^I \\mathbf{c}",
+        "\\hat{H}' = \\hat{H} + c\\hat{\\mathbf{1}} \\implies H^I \\to H^I + c N^I",
+        "(H^I + c N^I) \\mathbf{c}' = E' N^I \\mathbf{c}' \\implies E' = E + c, \\quad \\mathbf{c}' = \\mathbf{c}"
+      ],
+      "sources": [
+        {
+          "source_id": "knowledge/research-notes/a130-rewrite-chiral-nonorthogonal-and-fingerprint-boundaries-20261108.md",
+          "locator": "§Provisional Reasoning (非正交矩阵规范平移与度规性质)"
+        },
+        {
+          "source_id": "knowledge/research-notes/doctoral-r3-quantum-labels-and-model-boundaries-20261108.md",
+          "locator": "§R3 投影与非正交广义本征方程"
+        }
+      ]
+    },
+    {
+      "id": "2.5.4",
+      "title": "线性幺正宇称投影与反幺正手征对称性的本质差别",
+      "label": "sec:2-5-4",
+      "argument": "空间反演 Pi 为线性幺正算符，可定义标准正交投影算符 P^+- = (1 +- Pi)/2，将希尔伯特空间分解为正负宇称正交子空间。手征反转算符 C = T R_y(pi) 为反线性反幺正算符，(1 +- C)/2 对复标量乘法不封闭，无法构成复投影算符。在有限体系中，手征对称性恢复是靠在满足 [H, C]=0 且 H 厄米前提下，左手阱 |L> 与右手阱 |R> = C|L> 之间的非正交量子隧穿，通过求解 2x2 Hill-Wheeler 广义本征方程动态实现的。",
+      "key_equations": [
+        "P^\\pm = \\frac{\\hat{\\mathbf{1}} \\pm \\hat{\\Pi}}{2}, \\quad (P^\\pm)^\\dagger = P^\\pm, \\quad (P^\\pm)^2 = P^\\pm, \\quad P^+ P^- = 0",
+        "\\mathcal{C} = \\mathcal{T} \\exp(-i\\pi \\hat{J}_y / \\hbar), \\quad \\mathcal{C}^2 = +1",
+        "\\frac{\\hat{\\mathbf{1}} \\pm \\mathcal{C}}{2} (c |\\psi\\rangle) \\ne c \\left( \\frac{\\hat{\\mathbf{1}} \\pm \\mathcal{C}}{2} |\\psi\\rangle \\right) \\quad (\\text{当 } \\operatorname{Im}c \\ne 0)"
+      ],
+      "sources": [
+        {
+          "source_id": "knowledge/research-notes/doctoral-r3-quantum-labels-and-model-boundaries-20261108.md",
+          "locator": "§手征反幺正与宇称线性投影的本质对立"
+        },
+        {
+          "source_id": "knowledge/research-notes/a130-rewrite-chiral-nonorthogonal-and-fingerprint-boundaries-20261108.md",
+          "locator": "§反幺正相位与规范重定相不变量"
+        }
+      ]
+    },
+    {
+      "id": "2.5.5",
+      "title": "最短可计算阶梯实例：非正交双态模型与轴对称角动量恢复",
+      "label": "sec:2-5-5",
+      "argument": "给出两个手算阶梯：(1) 实对称非正交两态模型：求出无序特征根 E_+- = (h +- k)/(1 +- S) 与有序能谱 E_low, E_high，物理能隙 Delta E_phys = 2|h S - k|/(1 - S^2)，显式验证 H -> H + c N 时分子 h S - k 严格不变，且 k = h S 时能隙精确为零；(2) 轴对称变形波包投影：指出 K=0 态矢中对 psi 积分平凡给出 2pi，但对方位角 phi 积分保留实验室磁量子数 M (-I <= M <= I)。严谨推导偶自旋选择定则来源于内禀 R_{y,intr}(pi) 离散二度轴对称性而非空间宇称。说明仅在计算度规核 N^I_00 时 phi 积分进一步化为倾角 theta 的一维紧致积分。强调转子谱 E(I) 约等于 E_0 + hbar^2/(2J_eff) I(I+1) 依赖于强变形与绝热展开假设，角动量投影本身不单独保证严格刚体转子谱。",
+      "key_equations": [
+        "N = \\begin{pmatrix} 1 & S \\\\ S & 1 \\end{pmatrix}, \\quad H = \\begin{pmatrix} h & k \\\\ k & h \\end{pmatrix}",
+        "E_s = \\frac{h + k}{1 + S}, \\quad E_a = \\frac{h - k}{1 - S}, \\quad \\Delta E_{\\text{phys}} = \\frac{2|h S - k|}{1 - S^2}",
+        "P^I_{M0} |\\Phi\\rangle = (-1)^I P^I_{M0} |\\Phi\\rangle \\implies \\text{非零投影只能有偶 } I",
+        "N^I_{00} = \\frac{2I+1}{2} \\int_0^\\pi \\sin\\theta \\, d\\theta \\, d^I_{00}(\\theta) \\langle \\Phi | \\exp(-i \\theta \\hat{J}_y / \\hbar) | \\Phi \\rangle"
+      ],
+      "sources": [
+        {
+          "source_id": "book-raduta-coherent-states",
+          "locator": "PDF pp. 189–195 (重叠函数积分与矩阵求解)"
+        },
+        {
+          "source_id": "bohr-mottelson-1953-collective-individual-original",
+          "locator": "Dan. Mat. Fys. Medd. 27, no. 16 (1953), pp. 24–30 (轴对称转动波函数与对易对称性)"
+        }
+      ]
+    }
+  ],
+  "boundaries_and_reader_checks": [
+    "采用内禀坐标描述不等于破缺转动不变性，破缺仅属于微观单体平均场参考波包",
+    "度规矩阵中真零范数冗余必须精确剔除，而微小非零本征值有限截断属于数值近似，需做收敛性与稳定性检查",
+    "反幺正算符 C^2=+1 但不能构造线性投影算符 (1 +- C)/2",
+    "内禀波包形变参数 (beta, gamma) 是模型参数，绝非实验室直接测量算符",
+    "纯角动量投影本身不自动保证严格 I(I+1) 刚体转子谱，需额外绝热与强形变动力学条件"
+  ],
+  "appendix_b_link": "附录B (\\ref{app:projection}) 给出定理 B.1–B.4 的严格数学证明、规范平移证明、同时实化证明及复非正交两态久期解析展开。"
+}

@@ -1,0 +1,12 @@
+{
+  "reviewer": "parent-agent",
+  "section": "5.9",
+  "decision": "return-for-targeted-scientific-repair",
+  "checked_at": "2026-11-13T01:56:24.649852+00:00",
+  "issues": [
+    "Restore original radiation-amplitude delta convention and energy/length prefactor",
+    "Allowed M1/E2 is not proof of nonzero mixture; retain higher-multipole conditions",
+    "Keep data-compatible delta branches; no universal model-based arbitration"
+  ],
+  "whole_manuscript_accepted": false
+}

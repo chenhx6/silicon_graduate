@@ -1,0 +1,66 @@
+{
+  "reviewer": "parent-agent",
+  "checked_at": "2026-11-13T02:43:27.163334+00:00",
+  "decision": "accept-seven-figure-suite-with-declared-source-and-model-conditions",
+  "figures": [
+    {
+      "id": "occupancy-centroids",
+      "svg_present": true,
+      "svg_hash_match": true,
+      "pdf_present": true,
+      "pdf_hash_match": true
+    },
+    {
+      "id": "gamma-measure",
+      "svg_present": true,
+      "svg_hash_match": true,
+      "pdf_present": true,
+      "pdf_hash_match": true
+    },
+    {
+      "id": "digital-energy-response",
+      "svg_present": true,
+      "svg_hash_match": true,
+      "pdf_present": true,
+      "pdf_hash_match": true
+    },
+    {
+      "id": "cfd-phase-convergence",
+      "svg_present": true,
+      "svg_hash_match": true,
+      "pdf_present": true,
+      "pdf_hash_match": true
+    },
+    {
+      "id": "shape-moments",
+      "svg_present": true,
+      "svg_hash_match": true,
+      "pdf_present": true,
+      "pdf_hash_match": true
+    },
+    {
+      "id": "six-region-map",
+      "svg_present": true,
+      "svg_hash_match": true,
+      "pdf_present": true,
+      "pdf_hash_match": true
+    },
+    {
+      "id": "chapter-dependency",
+      "svg_present": true,
+      "svg_hash_match": true,
+      "pdf_present": true,
+      "pdf_hash_match": true
+    }
+  ],
+  "final_text_checks": {
+    "uniform_in_x_rendered": true,
+    "no_phase_space_label": true,
+    "cited_study_boundary_rendered": true,
+    "verified_nuclear_examples": true
+  },
+  "visual_review": "Initial seven-figure sheet, corrected seven-figure sheet, full-resolution revised six-region and gamma panels, full-resolution initial CFD; final textual changes also verified in actual PDF text.",
+  "input_data_boundary": "Quantitative curves from cited model CSV or declared teaching formulas; no new experimental data.",
+  "science_scope": "Six-region examples refer to cited studies, not an exhaustive or latest regional survey.",
+  "whole_thesis_complete": false
+}

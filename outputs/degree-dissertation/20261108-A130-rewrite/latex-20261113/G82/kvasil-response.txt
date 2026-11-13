@@ -1,0 +1,310 @@
+                                                                                                                                      3
+
+The correction term restores the local Galilean invariance          prescription [28]
+broken in the rotating coordinate system and improves
+                                                                                   ∆τ (0) [1 − 12 ( ΩΩc )2 ]
+                                                                                 
+the description of the inertial properties in the Nilsson                                                               Ω < Ωc
+                                                                      ∆τ (Ω) =                                                   ,   (6)
+model (see Ref.13). The chemical potentials λτ (τ =n or                            ∆τ (0) 21 ( ΩΩc )2                   Ω > Ωc ,
+p) are determined so as to give correct average particle
+                                                                    where Ωc is the critical rotational frequency of the first
+numbers hN̂τ i. Hereafter, h...i means the averaging over
+                                                                    band crossing.
+the mean field vacuum (yrast) state at a given rotational
+                                                                       It is well known that for a deformed harmonic oscilla-
+frequency Ω.
+                                                                    tor the quadrupole fields in doubly-stretched coordinates
+   The two-body potential in Eq.(1) includes the                    fulfill the stability conditions
+monopole pairing,           doubly-stretched quadrupole-
+quadrupole and monopole-monopole interaction and                                      hQ̃µ i = 0,         µ = 0, 1, 2                (7)
+spin-spin interaction. The Hamiltonian (1) possesses
+an inversion and signature symmetries.             Using the        The tilde indicates that quadrupole fields are expressed
+generalized Bogoliubov transformation for quasiparticles            in terms of doubly-stretched coordinates x̃i = (ωi /ω0 ) xi
+and the variational principle (see details in Ref.25),              and contain different combinations of the √ non-stretched
+we obtain the Hartree-Bogoliubov (HB) equations for                 quadrupole Q0 ∝ (2z 2 −x2 −y 2 ), Q2 ∝ − 3(x2 −y 2 ) and
+the positive signature quasiparticle energies εi (protons           monopole M ∝ r2 operators quantized along the axis z
+or neutrons). The positive signature (r = +1) state                 (cf [22]). The condition Eq.(7) holds, if the nuclear self-
+is defined                                                          consistency
+        P according    to the Bogoliubov transformation
+α+i =
+                  +
+          k (Uki ck + Vk̄i ck̄ ) and e
+                                       iπjx + −iπjx
+                                           αi e     = −iα+i .                        ω12 hx21 i = ω22 hx22 i = ω32 hx23 i            (8)
+Here, |ki denotes a s.p. state of a Goodman spherical
+basis (see Ref.26). By diagonalizing the Hamiltonian                is satisfied in addition to the volume conserving con-
+at the rotational frequency Ω, we obtain quasiparticle              straint. In virtue of the condition (8) the doubly-
+states with a good parity π and signature r. It is enough           stretched residual interaction does not contribute to the
+to solve the HB equations for the positive signature,               mean field results in the Hartree procedure. Enforcing
+since the negative signature eigenvalues and eigenvectors           the stability conditions Eq.(7) in the Hatree-Bogoliubov
+are obtained from the positive ones                                 approximation, we search the HB minimum for the
+                                                                    Hamiltonian (1) at a given rotational frequency. While
+                 (−εi , Ui , Vi ) → (εī , Vī , Uī )     (4)      the mean field values of the quadrupole operators Q̂0 , Q̂2
+                                                                    are nonzero, the doubly-stretched quadrupole moments
+                                                                    hQ̃0 i and hQ̃2 i are zeros (see Fig.1) for equilibrium defor-
+The index ī denotes the negative signature (r = −1)                mations (see Fig.2). The deviation from the equilibrium
+state (eiπjx α+
+              ī
+                 e−iπjx = iα+ī
+                                 ). For a given value of the        values of the deformation parameters β and γ results into
+rotational frequency Ω the quasiparticle (HB) vacuum                a higher HB energy, indeed.
+state is defined as αi |i = αī |i = 0.
+  We solved a system nonlinear HB equations for 156 Dy
+and 162 Yb on the mesh of deformation parameters β and
+γ defined by dint of the oscillator frequencies in Eq.(2)
+
+         "        r                   #
+                     5           2π
+ωi2 = ω02 1 − 2β       cos(γ −      i) , i = 1, 2, 3 (or x, y, z)
+                    4π            3
+                                                           (5)
+The Nilsson-Strutinsky analysis of experimental data on
+high spins in 156 Dy [27] indicates that the positive parity
+yrast sequence undergoes a transition from the prolate (a
+collective rotation around the z-axes) towards an oblate
+(a non-collective rotation around the x-axes). In order
+to compare our results with available experimental data             FIG. 1: (Color online) The rotational behaviour of the cal-
+on excited states [27], in comparison with our previous             culated monopole and quadrupole moments. The ”double-
+work [13], we extended the range of the values for γ from           stretched” and standard values are connected by dashed and
+γ = 600 (an oblate rotation around the y-axes) to γ =               solid line, respectively.
+−600 (an oblate rotation around the x-axes). At each
+rotational frequency, in each mesh point we calculate self-            The results of our calculations conform to the results
+consistently the total mean field energy EHB = hĤΩ i.              of the Nilsson+Strutinsky shell correction method (com-
+In the vicinity of the backbending, the solution becomes            pare our Fig.2 with Fig.3c in Ref.27), although we ob-
+highly unstable. In order to avoid unwanted singularities           tain slightly different values for the equilibrium deforma-
+for certain values of Ω, we followed the phenomenological           tions. In the analysis of Ref.27 the pairing correlations
+                                                                                                                             4
+
+are omitted. In addition, in the Nilsson+Strutinsky shell        first order. One may expect the appearance of the wob-
+correction method the rigid body moment of inertia sim-          bling excitations near the transition point, since after a
+ulates the inertial nuclear properties, which is different       shape transition there is a strong nonaxiality in 156 Dy. In
+from the microscopic one, even at high spin region (see          contrast with 156 Dy, in 162 Yb the axially symmetric con-
+below). Moreover, the use of the Nilsson+Strutinsky re-          figuration is replaced by the two-quasiparticle one with
+sults destroys the self-consistency between the mean-field       a small negative γ-deformation. There, the backbending
+calculations and the RPA analysis. Therefore, to keep a          takes place due to the rotational alignment of a neutron
+self-consistency between the mean field and the RPA as           i13/2 quasiparticle pair. The nonaxiality evolves quite
+much as possible, we use the recipe described above.             smoothly, exhibiting the main features of the shape-phase
+                                                                 transition of the second order. The question arises how is
+                                                                 reliable our description or how self-consistently are done
+                                                                 our mean field calculations ?
+
+
+
+
+FIG. 2: Equilibrium deformations in β-γ plane as a func-
+tion of the angular momentum I = hJˆx i − 1/2 (in units of
+h̄). The equilibrium deformations for 156 Dy provide the lower
+mean field energies in the region −π/3 < γ < 0 (filled cir-
+cles) in comparison with those (open squares) obtained in
+Ref.13. The both branches of the equilibrium deformations        FIG. 3: (Color online) The rotational dependence of the
+                                                                             (2)
+are obtained enforcing the condition Eq.(7). The maximal         dynamic ℑHB = −d2 EHB /dΩ2 = dhJˆx i/dΩ (a solid line) and
+difference between the minimal HB energies at the positive       the Thouless-Valatin ℑT V moments of inertia (a dash line).
+and negative equilibrium γ-values does not exceed ∼ 1MeV         The experimental values ℑ(2) = 4/∆Eγ are denoted by filled
+for 156 Dy.                                                      square connected by a thin line to guide eye. Here, ∆Eγ is
+                                                                 the difference between two consecutive γ-transitions, and Eγ
+                                                                 is the γ-transition energy between two neighboring states that
+   The triaxiality of the mean field sets in at the crit-        differ on two units of the angular momentum
+ical rotational frequency Ωc which triggers the back-
+bending in the considered nuclei due to different mech-
+anisms. As shown in Fig.2, we obtain the critical ro-               One of the conclusive tests of the self-consistency mi-
+tational frequencies, at which the first band crossing           croscopic calculations is the comparison of the dynamic
+                                                                                       (2)
+occurs, h̄Ωc ≈ 0.25MeV (10h̄ → 12h̄) for 162 Yb and              moment of inertia ℑHB , calculated in the mean field ap-
+h̄Ωc ≈ 0.3MeV (14h̄ → 16h̄) for 156 Dy. The contribution         proximation, and the Thouless-Valatin moment of inertia
+of the additional term, Eq.(3), was crucial to achieve a         ℑT V , calculated in the RPA. They must coincide (see the
+good correspondence between the calculated and exper-            results for exactly solvable model in Ref.29 ), if one found
+imental values of the crossing frequency in each nucleus         a self-consistent mean field minimum and spurious solu-
+(see discussion in Ref.13).                                      tions are separated from the physical ones. Our results
+   In 156 Dy we obtain that the γ-vibrational excitations        (see Fig.3) demonstrate a good self-consistency between
+(K = 2) of the positive signature tends to zero in the           the mean field and the CRPA calculations, indeed (see
+rotating frame at the transition point, in close agree-          also the discussion in Ref.13). We emphasize that the in-
+ment with experimental data. At the transition point             clusion of the correction term, Eq.(3), is crucial to achieve
+there are two indistinguishable HB minima with different         a good description of the inertial nuclear properties.
+shapes: axially symmetric and strongly nonaxial. It is in-
+teresting to note that this behaviour is symmetric with
+                                                                           B.   Negative signature excitations
+respect to the sign of the γ-deformation, although the
+difference between the HB energy minima for γ = ±200
+is about ∼ 0.8MeV. The increase of the rotational fre-              To describe quantum oscillations around mean field
+quency changes the axial shape to the nonaxial one with          solutions the boson-like operators b+
+                                                                                                     kl̄
+                                                                                                         = α+    + +
+                                                                                                              k αl̄ , bkl =
+                                                                   + + +          + +
+a negative γ-deformation (γ ∼ −20o ). The transition             αk αl , bk̄l̄ = αk̄ αl̄ are used. The first equality in-
+possesses all features of the shape-phase transition of the      troduces the positive signature boson, while the other
+                                                                                                                                         5
+
+two determine the negative signature ones. These two-            has the following form
+quasiparticle operators are treated in the quasi-boson ap-
+proximation (QBA) as an elementary bosons, i.e., all                       (−)   1X ˜ +
+                                                                         Q̃1      = −f1µ (bµ + bµ ),                     f˜1µ = ξq1µ   (11)
+commutators between them are approximated by their                               2 µ
+expectation values with the uncorrelated HB vacuum                               iX ˜ +
+                                                                           (−)
+[30]. The corresponding commutation relations can be                     Q̃2 = −     f2µ (bµ − bµ ),                     f˜2µ = ηq2µ   (12)
+                                                                                 2 µ
+found in Ref.25. In this approximation the positive and
+negative signature boson spaces are not mixed, since the
+corresponding operators commute and HΩ = HΩ (r =                 Here, q1µ , q2µ are real matrix elements of the operators
+                                                                   (−)   (−)
++1) + HΩ (r = −1). The analysis of the positive signa-           Q̂1 , Q̂2 , respectively (the properties of matrix ele-
+ture term HΩ (r = +1) is done in Ref.13.                         ments of the operators involved in the Hamiltonian (9)
+  In the UR frame, the negative signature RPA Hamil-             can be found in Ref.26).
+tonian has the form                                                 We solve the RPA equations of motion
+
+                    1X             χ X                               [ĤΩ , P̂ν ] = i ων X̂ν ,            [ĤΩ , X̂ν ] = −i ων P̂ν ,
+   ĤΩ [r = −1] =       Eµ b+
+                            µ bµ −         Q̃(−)2 ,       (9)
+                    2 µ            2 µ =1,2 µ3                                          [X̂ν , P̂ ] = iδν ν ′ ,
+                                                                                               ν′                                      (13)
+                                         3
+
+
+
+where Eµ = εi + εj (Eīj̄ = εī + εj̄ ) are two-quasiparticle    where
+energies. Hereafter, we use the following definitions: the                 X                                    X
+index µ runs over ij, īj̄ and the index µ3 is a projection on     X̂ν =         Xµν (b+
+                                                                                       µ + bµ ),      P̂ν = i           Pµν (b+
+                                                                                                                              µ − bµ ) (14)
+                                                                            µ                                     µ
+the quantization axis z. The double stretched quadrupole
+            (−)          (−)                     (−)       (−)
+operators Q̃1 = ξ Q̂1 (ξ = ωx ωz /ω02 ), Q̃2 = η Q̂2             are, respectively, the collective coordinates and their
+              2
+(η = ωx ωy /ω0 ) are defined by means of the quadrupole          conjugate momenta (hereafter, we use in all equations
+            (r)
+operators Q̂m (m=0,1,2)                                          h̄ = 1). The RPA eigenfunction
+                                                                                              1               
+       i2+m+(r+3)/2
+                                                
+                                                                         |νi = Ôν† |RP Ai = √       X̂ν − iP̂ν |RP Ai
+ Q̂(r)
+   m = p                 Q̂2m + (−1)(r+3)/2
+                                            Q̂2−m , (10)                                       2
+         2(1 + δm0 )                                                           X
+                                                                             =       (ψµ bµ − φµ(ν) bµ )|RP Ai
+                                                                                       (ν) +
+                                                                                                                       (15)
+where Q̂λm = r̂λ Yλm . We recall that the residual doubly-                          µ
+
+stretched interaction does not distort the mean field de-                                           (ν)           (ν)
+formations found self-consistently for the Hamiltonian           defines the amplitudes ψµ and φµ by means of the
+(1). The violation of the self-consistency leads, however,       generalized coordinate and momentum amplitudes. The
+to unreliable description of the vibrational states.             ket vector | RP Ai denotes the RPA vacuum (yrast state)
+   The RPA Hamiltonian (9) contains only the isoscalar           at the rotational frequency Ω.
+part of the quadrupole interaction, since we would                 The solution of the above equations (13) determines
+like to establish a connection between the microscopic           the generalized coordinate and momentum amplitudes
+approach and the phenomenological ARM to see ev-
+idently similarities and differences. Moreover, in the                                     ων f˜1µ           Eµ f˜2µ
+                                                                            Xµν = χR̃1ν    2       2
+                                                                                                     + χR̃2ν 2
+considered nuclei the main contribution of the isovec-                                    Eµ − ων           Eµ − ων2
+tor quadrupole-quadrupole interaction is located in en-                                    Eµ f˜1µ           ων f˜2µ
+ergy region around ∼ 3MeV and is responsible for                               Pµν = χR̃1ν 2       2
+                                                                                                     + χR̃2ν 2                         (16)
+                                                                                          Eµ − ων           Eµ − ων2
+M1 excitations [21]. One should keep in mind, how-
+ever, that the isovector part of the quadrupole inter-           with unknown coefficients
+action may be important for the analysis of wobbling
+excitations in odd-odd nuclei, when there is a differ-                                           1 h       (−)
+                                                                                                               i
+                                                                                   f˜1µ Pµν ≡ − √ Ôν , Q̃1
+                                                                                X
+                                                                         R̃1ν =
+ent orientation of the neutron and proton s.p. high-j                           µ                 2
+orbitals and strong M 1-transitions are observed along
+                                                                            (ν)                   i h       (−)
+                                                                                                                i
+                                                                                      f˜2µ Xµν ≡ √ Ôν , Q̃2
+                                                                                 X
+yrast and/orP yrare states.
+                          P The   P spin-spin interaction,                R̃2 =                                                        (17)
+Vσσ = − 12 T =0,1 κσ (T ) r=± µ=0,1 (sµ [Tr ])2 (see the                          µ
+                                                                                                   2
+discussion in Refs.13, 21) is not essential for low-lying
+quadrupole vibrations and is omitted in our analysis.            and eigenvalues ων . To find the eigenvalues ων one trans-
+The pairing interaction does not contribute to the bo-           forms the system Eq.(16) to the form
+son Hamiltonian, ĤΩ [r = −1], since it is of the positive                                   
+                                                                            ν               1
+signature. Notice, however, that the matrix elements of                   R̃1 D11 (ων ) −       + R̃2ν D12 (ων ) = 0
+the operators depend on the pairing interaction which                                       χ
+                                                                                                             
+affects the RPA solutions.                                                  ν               ν               1
+                                                                          R̃1 D12 (ων ) + R̃2 D22 (ων ) −        = 0   (18)
+   The linear boson part of the double stretched operators                                                  χ
+                                                                                                                                    6
+
+The condition
+                                           1
+                   F (ων ) = det (D −        )=0            (19)
+                                           χ
+determines all negative signature     RPA solutions. The
+matrix elements Dkm (ων ) = µ f˜k,µ f˜m,µ Cµkm /(Eµ2 − ων2 )
+                              P
+
+involve the coefficients Cµkm = ων for k 6= m and Eµ
+otherwise. Although the determinant has a dimension
+n = 2, one obtains a huge family of RPA solutions with
+different degree of the collectivity. Among collective so-
+lutions there are solutions that correspond to the shape
+fluctuations of the system. Notice that the direction of
+the angular momentum is fixed in the UR frame.
+
+
+            III.    THE WOBBLING MODE
+
+            A.     Janssen-Mikhailov equation
+                                                                   FIG. 4: (Color online) The evolution of the negative signa-
+                                                                   ture RPA solution ων = Ω with (dashed line) and without
+   We recall that the doubly-stretched residual interac-           (solid line) the additional term Eq.(3) as function of the rota-
+tion restores in the RPA the rotational symmetry bro-              tional frequency, calculated at the equilibrium deformations
+ken at the mean field approximation. Therefore, for the            (see Fig.2). The straight dashed line, parallel to the h̄Ω-axis,
+cranking Hamiltonian the conservation laws imply in the            denotes the yrast line.
+RPA order
+
+             [ HΩ , Jˆy ∓ iJˆz ] = ±Ω(Jˆy ∓ iJˆz )          (20)     Based on this fact, we exploit the conservation laws
+                                                                   (20) for the Hamiltonian (9), that yield the following
+This condition is equivalent to the condition of the exis-         equations
+tence of the negative signature solution ων = Ω created
+by the operator (see Ref.31)                                                        ΩJµz + Eµ Jµy = χξAf˜1µ                      (23)
+                                                                                    ΩJ y + Eµ J z = χηB f˜2µ                     (24)
+       †   Jˆz + iJˆy               † †          †
+                                                                                       µ          µ
+      Γ̂ = q           ,    Γ̂ = (Γ̂ ) ,    [Γ̂, Γ̂ ] = 1   (21)
+                                                                   We will see below that these equations are fulfilled with
+               2hJˆx i
+                                                                   a good numerical accuracy, since the redundant mode is
+                                                                   separated from the other RPA solutions by our procedure
+This operator describes a collective rotational mode in
+                                                                   for the strength constant. The parameters A and B
+the subspace of ĤΩ (−)
+                                                                               (−)                              √
+                                                                                               f˜1µ Jµy = ξhQ2 + 3Q0 i (25)
+                                                                                            X
+                                                                     ξA = h [Q̃1 , iJy ]i =
+                      [ĤΩ (−), Γ̂† ] = ΩΓ̂† ,              (22)                                 µ
+                                                                                     (−)
+                                                                                                               f˜2µ Jµz = 2ηhQ2 i (26)
+                                                                                                          X
+arising from the symmetries broken by the external rota-                   ηB = h [Q̃2 , −iJz ]i =
+tional field (the cranking term).                                                                          µ
+   This is true for a pure harmonic oscillator model only
+[29]. However, our Hamiltonian (1) contains the addi-              are obtainedpwith the aid of the commutator [Jˆx ±
+tional term hadd , Eq.(3). Since the additional term hadd          iJˆy , Q̂λm ] = λ(λ + 1) − m(m ± 1)Q̂λm±1 (see Ref.32).
+has a term proportional to ˆ  lx -operator, the conservation       The above relations between the matrix elements,
+laws (20) are broken for the Hamiltonian (1). Never-               Eqs.(23),(24), are a key point for the analysis of the wob-
+theless, these laws can be fulfilled in the RPA order by           bling excitations at nonzero γ-deformation, i.e., hQ2 i 6=
+changing the strength constant in Eq.(19) in order to ob-          0. Moreover, in virtue of the definitions for the phonon
+tain the solution ων = Ω [13]. To check this fact, we              operator (Eqs.(15),(16)) and the operator Γ̂ (Eq.(21)),
+calculated the RPA secular equation (19) for the mode              employing Eqs.(23),(24), and Eq.(33) below, one can
+ων = Ω, with and without the additional term hadd , for            show that
+the same strength constant (see also Fig.10 in Ref.13)).
+The results evidently demonstrate that the conservation                                [Γ̂, Ôν ] = [Γ̂, Ôν† ] = 0              (27)
+laws (20), (22) are fulfilled with a good accuracy (see              Following the procedure described in Ref.5, with the
+Fig.4). In fact, due to a smallness of the term propor-            aid of Eqs.(23),(24), one arrives to the equation
+tional to the operator l̂x in the additional term, the vio-
+lation is almost negligible.                                                           (ων2 − Ω2 )∆(ων ) = 0                     (28)
+

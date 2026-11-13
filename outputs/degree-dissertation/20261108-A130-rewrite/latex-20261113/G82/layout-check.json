@@ -1,0 +1,46 @@
+[
+  {
+    "section": "2-1",
+    "recorded_at": "2026-11-13T02:03:07.644139+00:00",
+    "before_sha256": "fe7f297fc4bdd8e92bbb657b38fd2ec934823aa38beea8475718f805580b9ea9",
+    "after_sha256": "f6f488ac71cce90a75be9742b4c1709d54af65d3298c68ce9d2869c7fd625f1f",
+    "display_equations_compared": 29,
+    "display_math_tokens_unchanged": true,
+    "labels_unchanged": true,
+    "citations_unchanged": true,
+    "remaining_u208a": 0,
+    "allowed_changes": [
+      "eq:2-1-21改equation内aligned两行"
+    ]
+  },
+  {
+    "section": "2-2",
+    "recorded_at": "2026-11-13T02:03:07.644139+00:00",
+    "before_sha256": "538c6da1788b6f520ace80e15f1dec561974b54efb2e5d7a32c21323daf9000c",
+    "after_sha256": "0ccd5f43a450f1285b814ce644031cdb0012d4ff6fd457151209aa1d392de7a1",
+    "display_equations_compared": 14,
+    "display_math_tokens_unchanged": true,
+    "labels_unchanged": true,
+    "citations_unchanged": true,
+    "remaining_u208a": 0,
+    "allowed_changes": [
+      "eq:2-2-11改aligned三行",
+      "arXiv与英文单词可断行，不改任何字符数据"
+    ]
+  },
+  {
+    "section": "2-3",
+    "recorded_at": "2026-11-13T02:03:07.644139+00:00",
+    "before_sha256": "715d8d24513b2426e67dfff759e23955189490160c58c4746ddcfa2286ee0a41",
+    "after_sha256": "0cba2e7dbbae51d8e62b5f6f253fcc7b1584b1b99eaad8f7fec58564ad03b640",
+    "display_equations_compared": 41,
+    "display_math_tokens_unchanged": true,
+    "labels_unchanged": true,
+    "citations_unchanged": true,
+    "remaining_u208a": 0,
+    "allowed_changes": [
+      "eq:2-3-2改aligned两行",
+      "一个正文Unicode B₊改为数学B_+，增加一个行内数学定界块"
+    ]
+  }
+]

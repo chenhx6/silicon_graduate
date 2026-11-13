@@ -1,0 +1,53 @@
+{
+  "reviewer": "parent-agent",
+  "checked_at": "2026-11-13T02:22:14.012764+00:00",
+  "decision": "accept-bounded-content-2.6-and-AppendixC",
+  "sources": [
+    {
+      "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+      "reading_carrier_present": true,
+      "sha_matches": true,
+      "locator": "PDF14 Eqs.(3.5)–(3.8),PDF30 Eqs.(4.21)–(4.25),PDF34 Eq.(4.44)"
+    },
+    {
+      "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+      "reading_carrier_present": true,
+      "sha_matches": true,
+      "locator": "APS PDF3–5 Eqs.(15),(18)–(25),(32)–(34),(41),(49)–(53);PDF8–9 Eqs.(66)–(67),Fig.4"
+    },
+    {
+      "source_id": "petrik-kortelainen-2018-rotational-tv-inertia",
+      "reading_carrier_present": true,
+      "sha_matches": true,
+      "locator": "PDF2 Inglis/Belyaev background;PDF4–5 Eqs.(12)–(18)"
+    },
+    {
+      "source_id": "matsuzaki-2004-nuclear-inertia-and-wobbling",
+      "reading_carrier_present": true,
+      "sha_matches": true,
+      "locator": "PDF3–5 Eqs.(8)–(12), subsequent Nilsson limitation"
+    },
+    {
+      "source_id": "kvasil-2006-dy156-yb162-crpa-wobbling",
+      "reading_carrier_present": true,
+      "sha_matches": true,
+      "locator": "PDF3 Eq.(6),PDF4 Fig.3 and its self-consistency discussion"
+    }
+  ],
+  "tex_sha256": "ad956ea0748a82b31e82a917df2d16fec1b744be1ce72f91c875eec0ae55ad64",
+  "appendix_sha256": "67eece7eea1d3d9693ab4e012147e126d2a00a8bee835d99855f5e1d205b1b76",
+  "checked_scientific_items": [
+    "Local harmonic units, C/B and width; coordinate masses are coordinate dependent",
+    "IB full-index vs unique-pair count; dimensionless j and physical hbar^2",
+    "Real QRPA A+B/A−B and NG source-subspace inverse; no universal factor",
+    "Static energy probe z vs rotating frequency; residual rotating-frame root",
+    "Number response and positive binding sign; longitudinal vs transverse inertia"
+  ],
+  "source_internal_limits_preserved": true,
+  "full_document_compilation_pending": true,
+  "full_39_section_goal_complete": false,
+  "actual_executor_model": "codex/gpt-6.1-sol",
+  "actual_reasoning_effort": "xhigh",
+  "requested_executor_model": "antigravity/gemini-3.8-flash-tiered",
+  "routing_boundary": "Scientific content acceptance retained; model identity corrected from observed resumed turn context, not assumed from prior G78 task."
+}

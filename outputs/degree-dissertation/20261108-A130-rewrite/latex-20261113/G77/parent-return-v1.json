@@ -1,0 +1,25 @@
+{
+  "reviewer": "parent-agent",
+  "section": "1.2",
+  "decision": "return-for-targeted-repair",
+  "checked_output_sha256": "47ce07ed9402d77c06412ed58a3b047099c9ab6c54a28cc145638338beb5ca19",
+  "issues": [
+    {
+      "kind": "citation-loss",
+      "keys": [
+        "bohr-1952-surface-particle-coupling",
+        "poves-2020-limits-assigning-nuclear-shape"
+      ]
+    },
+    {
+      "kind": "math-content-corruption",
+      "examples": [
+        "三次矩 $ 的符号",
+        "内部形状坐标 $、度规"
+      ],
+      "cause": "Confirmed agent write used shell-double-quoted python3 -c containing literal dollar signs and backticks."
+    }
+  ],
+  "required_action": "Regenerate faithfully from unchanged Markdown input using apply_patch or single-quoted heredoc; compare formulas and citation keys; no broad scientific rewrite.",
+  "scope_boundary": "No user confirmation required for this reversible correction; this draft not accepted."
+}

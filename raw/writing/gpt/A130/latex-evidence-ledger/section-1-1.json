@@ -1,0 +1,74 @@
+{
+  "section_id": "1.1",
+  "title": "一个能谱为什么容许多种解释",
+  "target_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-1.tex",
+  "input_draft_path": "raw/writing/gpt/A130/research-draft/section-1-1.md",
+  "input_sha256": "5ac19639abde30ccf7f50f101dcd77a37c50918f70421efdef5d642e8e57a505",
+  "output_sha256": "375ff8b50ac5d3588a173bbf2a9446917bbe9ec9a27c30df33a8f08a57b62b67",
+  "recorded_at": "2026-11-13T00:00:00+00:00",
+  "executor": "G77",
+  "migration_modifications": [
+    "将Markdown主标题与子标题转换为标准LaTeX \\section{一个能谱为什么容许多种解释}\\label{sec:1-1}及相应\\subsection",
+    "将所有[@key]转换为标准\\cite{key}格式",
+    "将Markdown表格转换为包含booktabs规范的tabularx表格环境，并赋予唯一标签tab:1-1-inference-hierarchy",
+    "统一将¹³⁴Pr与¹⁶³Lu规范化为LaTeX数学排版$^{134}\\mathrm{Pr}$与$^{163}\\mathrm{Lu}$",
+    "为下一节引用赋予正规交叉引用标签\\ref{sec:1-2}"
+  ],
+  "sources": [
+    {
+      "source_id": "petrache-2006-near-degenerate-chiral-misinterpretation",
+      "source_page": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+      "raw_sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f",
+      "actual_read_pages": "printed pp. 112502-1–112502-4 (PDF pp. 1–4), Figs. 1–4, Table I",
+      "claims_supported": [
+        "134Pr在有限自旋区间的能带近简并受多准粒子带交叉影响，单纯能级近简并不能作为核手征性的充分标志",
+        "两带混合模型结合实验B(E2)分支比表明两带内禀四极矩显著不同，不支持两带共享相同三轴形状的理想手征伙伴解释",
+        "分支比引用先前发表数据，寿命与带内强度仅做定性比对，属于批判性再分析而非新测独立寿命"
+      ]
+    },
+    {
+      "source_id": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "source_page": "knowledge/sources/campaign-g07-gorgen-2004-163lu-quadrupole-moments.md",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "raw_sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e",
+      "actual_read_pages": "printed pp. 031301-1–031301-4 (PDF pp. 1–4), Tables I–II, Figs. 1–4",
+      "claims_supported": [
+        "厚衬底DSAM测量提取了163Lu三轴强形变带TSD1与TSD2多个激发态的平均寿命",
+        "TSD2寿命转换为带内跃迁强度需采用先前薄靶实验分支比，带间多极分解采用历史测量的平均多极混合比delta",
+        "由跃迁几率推算过渡四极矩Qt依赖于转子几何与准粒子顺排模型假设，两带相近Qt支持共享相似三轴核芯但非排他性摆动认证门"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "text": "134Pr的近简并需要与顺排及电磁证据共同分析；作者的带交叉/解混合解释受具体模型条件限制，不由此否定所有动态手征。",
+      "kind": "author-model-interpretation",
+      "source_id": "petrache-2006-near-degenerate-chiral-misinterpretation",
+      "locator": "PDF1–4，问题与模型分析",
+      "conditions": "本文综述用途，未重现原模型或将其当新独立测量"
+    },
+    {
+      "text": "163Lu寿命从多角度线形拟合，强度另采用薄靶分支和早期混合比，Qt映射含构型/K权重；共同输入不当多份独立证据。",
+      "kind": "experimental-report-and-adopted-input",
+      "source_id": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "locator": "PDF2–3，TablesI–II与Qt段",
+      "conditions": "本实验设置与作者解释，非所有摆动的通用阈值"
+    },
+    {
+      "text": "选择允许、重定相不变与模型吻合分别不保证实际强度、实验可识别性或机制唯一；潜在鉴别观测依具体模型与输入角色选择。",
+      "kind": "task-synthesis",
+      "task_provenance": [
+        "section2.1",
+        "section3.5",
+        "section5.9"
+      ],
+      "conditions": "概念表不添加实验点，不定义统一认证门"
+    }
+  ],
+  "unresolved_issues": [
+    "134Pr两能级混合模型的解混合假设忽略了带间直接非对角跃迁，其提取的过渡四极矩差异仍受两态假定限制",
+    "163Lu三轴超形变TSD2带寿命转换绝对跃迁强度依赖先前薄靶实验的分支比数据与历史多极混合比输入，共享采用量无法独立验证",
+    "角动量几何选择定则仅提供跃迁发生的必要条件，有限截断谱学数据下的矩阵元非对角项提取仍具有模型依赖性"
+  ]
+}

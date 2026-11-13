@@ -1,0 +1,209 @@
+Bohr olle tive Hamiltonian                                                                 13
+
+Noti e that be ause of the expli it dependen e on β and γ given in (2.39b) to (2.39d)
+the six ombination of the intrinsi omponents of M dened in (2.38) an be related
+to ea h other at some spe i values of β and γ . For instan e, at β = 0 one has
+Mx = My = Mz = M0 = M2 , M1 = 0, and at γ = 0 and arbitrary β it is Mx = My ,
+Mz = M2 and M1 = 0.
+
+3. The Bohr olle tive Hamiltonian
+The present-day notion of the Bohr Hamiltonian is not very pre ise. It en ompasses
+a large lass of Hamiltonians of whi h the original Bohr Hamiltonian [4℄ is only
+a very spe ial ase. Here, the general Bohr Hamiltonian means a generi se ond
+order dierential Hermitian operator in the Hilbert spa e of fun tions of quadrupole
+ oordinates α2µ , µ = −2, . . . , 2. Hamiltonians of a similar type but in the spa es
+of other olle tive oordinates, su h as, for instan e, the o tupole deformations [32℄ or
+the pairing variables [44℄, an be alled Bohr Hamiltonians as well, but they are not
+ onsidered in this review.
+
+3.1. General form of the Hamiltonian
+The olle tive model arose from a lassi al des ription of nu lear olle tive phenomena
+( f [3, 4℄). This is why a lassi al Hamiltonian is often a starting point for its formulation.
+Now we follow this approa h and onstru t the most general olle tive Hamiltonian
+using the quadrupole oordinates and making some natural assumptions. We assume
+the lassi al Hamiltonian to be:
+ (i) a real fun tion of oordinates α2µ and velo ities α̇2µ
+(ii) invariant under orthogonal transformations of the oordinate system (the O(3)
+     s alar)
+(iii) an isotropi eld (does not ontain material tensors)
+(iv) a positive-denite quadrati form in the real and imaginary part of velo ities ȧ2µ
+     and ḃ2µ .
+A general form of su h a Hamiltonian reads
+                               1X
+             Hcl (α2 , α̇2 ) =       α̇2µ B2 µ,2 ν (α2 )α̇2ν + Vcl (α2 )
+                               2 µ,ν
+                                1
+                              =   (α̇2 · B2,2 (α2 ) · α̇2 ) + Vcl (α2 ).                 (3.1)
+                                2
+The potential Vcl (α2 ) is a real and isotropi fun tion of s alars σ0 and χ0 . The inertial or
+mass bitensor B2,2 is an isotropi symmetri eld of the oordinates α2µ . The bitensor
+matrix is su h that the kineti energy is positive.
+       The quantum Hamiltonian orresponding to the lassi al one of (3.1) is obtained
+by the Podolsky-Pauli pres ription [45, 46℄:
+                      1      X µp
+Ĥcoll (α2 , π2 ) = p            π̂2     G(α2 )G2µ,2ν (α2 )π̂2 ν + Vcoll (α2 )           (3.2)
+                   2 G(α2 ) µ,ν
+Bohr olle tive Hamiltonian                                                                    14
+
+where G = | det(B2,2 )| and G2,2 is the inverse matrix of the inertial matrix B2,2 :
+              X µ ν
+                 B2 ,2 G2ν,2η = δηµ .                                                      (3.3)
+                  ν
+                                                            √
+The Hamiltonian Ĥcoll (3.2) is Hermitian with the weight G. Hofmann [47℄ proved that
+the dierential part of the Hamiltonian (3.2) is unique provided it has the properties
+whi h will be spe ied below for the quantum Hamiltonian Ĥquant , and fullls the
+ orresponden e prin iple to the lassi al kineti energy. However, the quantum kineti
+energy is given only up to an additive s alar fun tion ( f also [48℄). This means that
+the quantum potential Vcoll in (3.2) is, in general, not equal to the lassi al potential Vcl
+of (3.1) and an ontain quantum orre tions. Usually, it is ta itly assumed that the
+potentials before and after the quantization are related by: Vcoll (α2 ) = Vcl (α2 ) + const,
+but this does not have any reasonable justi ation. The inertial bitensor B2,2 and its
+inverse G2,2 are examples of symmetri matri es M2µ,2ν (2.37), whose properties have
+been already dis ussed in se tion 2.3. Thus, they are dened by spe ifying the six s alar
+fun tions.
+     There are two ways to express Ĥcoll in the intrinsi oordinates. One way is to
+ onvert the derivatives ∂/∂α2µ into derivatives with respe t to the intrinsi oordinates
+using (2.14), (2.21) (and, if ne essary, also (2.11), (2.20) (2.22)). The other way is to
+express the lassi al Hamiltonian Hcl (3.1) in terms of the intrinsi variables transforming
+the velo ities using (2.23) and (2.25). One then has
+                 Hcl = Hcl,rot + Hcl,vib                                                   (3.4)
+where
+          1                                                 
+Hcl,rot =    Ix (β, γ)ωx2 + Iy (β, γ)ωy2 + Iz (β, γ)ωz2                                     (3.5)
+          2
+          1                                                               
+Hcl,vib =    B0 (a0 , a2 )ȧ20 + 2B1 (a0 , a2 )ȧ0 ȧ2 + B2 (a0 , a2 )ȧ22 + Vcl (σ0 , χ0 )
+          2
+   1                                                             
+=      Bββ (β, γ)β̇ 2 + 2Bβγ (β, γ)β̇β γ̇ + Bγγ (β, γ)β 2γ̇ 2 + Vcl (β, ζ).                 (3.6)
+   2
+The vibrational inertial fun tions Bββ , Bβγ , Bγγ and B0 , B1 , B2 are interrelated in the
+following way:
+Bββ (β, γ) = B0 (β, γ) cos2 γ + 2B1 (β, γ) sin γ cos γ + B2 (β, γ) sin2 γ                 (3.7a)
+                                                                   2
+Bβγ (β, γ) = (B2 (β, γ) − B0 (β, γ)) sin γ cos γ + B1 (β, γ)(cos γ − sin γ)   2
+                                                                                          (3.7b)
+                            2
+Bγγ (β, γ) = B0 (β, γ) sin γ − 2B1 (β, γ) sin γ cos γ + B2 (β, γ) cos γ 2
+                                                                                          (3.7 )
+and the moments of inertia read:
+Iu (a0 , a2 ) = 4Bu (a0 , a2 )a2u = 4Bu (β, γ)β 2 sin2 γu   for u = x, y, z                (3.8)
+The fun tions B0 , B1 , B2 and Bx , By , Bz are the orresponding ombinations of the
+intrinsi omponents of inertial bitensor B2,2 ( f (2.38)). Expressed in this way, the
+ lassi al Hamiltonian (3.4) an be quantized with the Podolsky-Pauli pres ription ( f
+[7, 42℄).
+Bohr olle tive Hamiltonian                                                                                 15
+
+    Both ways lead to the olle tive Hamiltonian expressed in terms of the intrinsi
+ oordinates whi h onsists of two parts:
+                   Ĥcoll = Ĥrot + Ĥvib                                                               (3.9)
+The rotational Hamiltonian Ĥrot is given by
+                     1 X L̂2u (ϕ, ϑ, ψ)
+             Ĥrot =                                                                                  (3.10)
+                     2 u=x,y,z Iu (β, γ)
+
+and the vibrational Hamiltonian Ĥvib has the form
+                   
+            ~2 1       ∂   √ B2 ∂             ∂   √ B0 ∂
+Ĥvib = − √              X G              +     X G
+           2 G X ∂a0            Gvib ∂a0 ∂a2          Gvib ∂a2
+                                                            
+                    ∂    √   B1 ∂          ∂    √   B1 ∂
+                −      X G             −      X G             + Vcoll (σ0 , χ0 )                      (3.11)
+                  ∂a0       Gvib ∂a2 ∂a2           Gvib ∂a0
+            
+       ~2     1 ∂ 4 √ Bγγ ∂               1     ∂       √ Bββ ∂
+=− √           4
+                    β G            + 2            sin 3γ G
+     2 G β ∂β             Gvib ∂β β sin 3γ ∂γ               G ∂γ
+                                                           vib
+    1 ∂ 3 √ Bβγ ∂              1     ∂         √ Bβγ ∂
+− 4       β G            −              sin 3γ G            + Vcoll (β, ζ)                            (3.12)
+   β ∂β          Gvib ∂γ β sin 3γ ∂γ              Gvib ∂β
+with Gvib = B0 B2 − B12 = Bββ Bγγ − Bβγ
+                                     2
+                                        , G = Bx By Bz Gvib and X given by (2.9b).
+     If the orresponden e prin iple is not assumed i.e. if the onsidered nu lear
+ olle tive system does not have a lassi al ounterpart, one an onstru t a bit more
+general quantum Bohr Hamiltonian Ĥquant possessing the following properties:
+ (i) Ĥquant is a se ond order dierential operator in oordinates α2µ possessing the nite
+     lowest eigenvalue
+(ii) Ĥquant is a real operator (invariant under the time reversal) i.e. Ĥquant = Ĥquant
+                                                                                     ∗
+
+(iii) Ĥquant is a s alar operator with respe t to the rotation group O(3)
+(iv) Ĥquant is Hermitian with a weight W (σ0 , χ0 ) ≥ 0.
+Under above assumptions Ĥquant an always be presented in the form§:
+                          1 X µ
+             Ĥquant = −       π̂ W A2µ,2ν (α2 )π̂2ν + Vquant (σ0 , χ0 )                              (3.13)
+                         2W µ,ν 2
+where A2µ,2ν is a symmetri positive-denite bitensor matrix whi h does not need to be
+related to W . Converted into the intrinsi oordinates with the help of (2.14) and (2.21)
+and (2.11), (2.20) (2.22), the Hamiltonian Ĥquant takes again the form (3.9) with the
+rotational part (3.10). The moments of inertia are expressed by the intrinsi omponents
+Ax , Ay and Az of A2,2 (see (2.38)) as follows:
+                     4a2u             4
+Iu (a0 , a2 ) =                 =           β 2 sin2 γu      for u = x, y, z.                         (3.14)
+                  Au (a0 , a2 )   Au (β, γ)
+§ When assumption (ii) is given up (reality of the Hamiltonian is not demanded) one more term an
+be added on the right-hand side of (3.13), namely (1/W )(π̂2 · W T2 (α2 )) + (T2 (α2 ) · π̂2 ), where T2 is an
+arbitrary quadrupole eld ( f [22℄).
+Bohr olle tive Hamiltonian                                                                     16
+
+The weight W and the remaining intrinsi omponents of A2,2 , namely A0 , A1 and A2
+enter the vibrational Hamiltonian in the following way:
+                 
+            ~2      ∂              ∂       ∂         ∂
+Ĥvib = −              XW A0           +     XW A2
+          2W X ∂a0                ∂a0 ∂a2           ∂a2
+                                                       
+                   ∂              ∂       ∂         ∂
+               +      XW A1           +      XW A1
+                  ∂a0          ∂a2 ∂a2             ∂a0
+               +Vquant (σ0 , χ0 )
+               
+           ~2    1 ∂ 4               ∂        1    ∂               ∂
+      =−          4
+                       β W Aββ          + 2           sin 3γW Aγγ
+          2W β ∂β                   ∂β β sin 3γ ∂γ                ∂γ
+                                                                     
+                  1 ∂ 3               ∂       1    ∂               ∂
+               + 4      β W Aβγ          +            sin 3γW Aβγ
+                  β ∂β               ∂γ β sin 3γ ∂γ               ∂β
+               +Vquant (β, ζ)                                               (3.15)
+where the relations between Aββ , Aβγ , Aγγ and A0 , A1 , A2 are identi al with those
+between the vibrational inertial fun tions given in (3.7a) to (3.7 ).
+     The Hamiltonian (3.2) obtained from its lassi al ounterpart (3.1) by the Podolsky-
+                                                                                √
+Pauli quantization pro edure is a spe ial version of (3.13) in whi h W = G and
+A2,2 = G2,2 . In this ase W and A2,2 are related to ea h other and both ome from the
+ lassi al inertial bitensor B2,2 . Below, to the end of se tion 3, the Hamiltonians Ĥcoll
+and Ĥquant will not be distinguished from one another. Both of them will be denoted
+simply by Ĥ and their potential parts by V .
+
+3.2. Colle tive multipole operators
+Nu lear olle tive states are most often investigated experimentally by means of gamma
+spe tros opy. The olle tive model should therefore make it possible to al ulate
+measured quantities su h as the ele tromagneti transition probabilities as well as
+the spe tros opi and intrinsi moments. To this end the ele tromagneti multipole
+operators in the olle tive spa e should be onstru ted. It is assumed that the
+ele tri multipole operators are isotropi tensor elds dependent only on the olle tive
+ oordinates α2µ . Sin e the elds depending on α2 all have the positive parity, only the
+ele tri multipole operators with even multipolarities an be onstru ted. The ele tri
+multipole operator with an even multipolarity λ is proportional to the `dimensionless'
+                                             (charge)
+λ-pole moment of the harge distribution, Qλ           , and an be written in the following
+formk:
+                              1
+                                                                                          (3.16a)
+                                      (0)
+                M̂ (E0)    = √ ZeR02 q0 (σ0 , χ0 )
+                              4π
+for λ = 0 and                  r
+                                   2λ + 1        (charge)
+                M̂ (Eλ; µ) =              ZeR0λ Qλµ       (α2 )
+                                    16π
+k The ele tri multipole operators are not the dierential operators. They are denoted with the hat
+just to keep the notation for all ele tromagneti operators uniform.
+

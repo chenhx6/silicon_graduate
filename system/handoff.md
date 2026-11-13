@@ -1,7 +1,39 @@
 ---
 graph-excluded: true
-updated: 2026-11-08
+updated: 2026-11-13
 ---
+
+## 2026-11-13 — A130改用LaTeX，Gemini主体执行
+
+### 最新执行点：15节 LaTeX 检查点通过，继续完整39节目标
+
+- 完整五章39节及必要附录的原生goal仍active，不能把本批15节或128页预览当整部论文完成。当前正文为第一章1.1–1.5、第二章2.1–2.6、3.5、5.3/5.4/5.9，另有附B/C已交付范围；尚余24节及其它必要附录材料。不要继续生成Markdown正文。
+- 正文的关键内容已分别核准：G77第一章、G78的2.1–2.4及G82的2.6/C、G81的3.5与经T13订正的2.5/B、G79恢复原40式后的5.9及5.3/5.4数据表。最终数学/条件检查见各worker的parent-acceptance.json，不采用worker自称“certified”或聊天里的长哈希。G77回调曾出现错误的完整哈希字符串，文件台账的实际哈希核验通过；始终从真实文件计算。
+- 最新整稿128页，fatal/cite/ref/Bib错误、缺字、overfull均0；非致命underfull仍保留。父抽查封面、目录、公式、图、数据表、书目及附B/C；发现偶页页眉拥挤后由G76设置短标题并复编，页100已独立复看。49个实际编译输入指纹全部一致（含BibTeX样式）；16个LaTeX ledger输出哈希均实际匹配。
+- 7图已完成两轮实质返修并父验收：SVG/PDF实际哈希全部匹配；最终PDF文本核到正确六区核素、Ce仅指cited study无寿命、gamma为构型分布且使用dμγ。父已看七图contact sheet与关键单图，回执G80/parent-acceptance.json。图不能冒充实验；定量来自旧CSV或声明的教学公式。
+- 模板49项原件已独立逐项校大小/SHA；演示目录和外层readme可恢复移出活动工程。封面保留“前置章节研究稿（写作中）”，未知个人字段留空，真实附录B/C编号已核；无canonical来源的Ring–Schuck条目已移除。
+- 本轮7个来源及模板manifest的archive gate、boundary、automation preflight通过（protected inbox缺省不存在）。Wiki最终132 errors/480 warnings，对比基线132/481，本任务新增errors为0、task scope issues为空。之前16项新schema错误均已清零。不得宣称全库绿。
+- G76=`01a1d273-c747-7e72-a5af-01dbde04f26c`负责工程与编译，当前收束status根字段；G79=`01a1d274-e82c-7bc0-af59-22fac97251d4`的CFD三项科学修复及schema已实际验收，现准备5.5。G81=`01a1d276-2d5c-7122-9a62-14cafff0adca`的projection note和正文已验收，现准备3.2。均保留原代理send_input，不关闭后resume。
+- G80七图、G83 Duguet schema已接收关闭。Duguet只选读PDF4–8，reading_depth为skimmed；Baranger一页PDF/有损XML边界保留，不称完整逐式读原作。
+- 模型分工发生一次已查明并告用户的例外：关闭G78后resume作G82，实际turn_context变成`codex/gpt-6.1-sol/xhigh`，因此2.6/C和Duguet知识回写实际由GPT执行；已修worker-ledger和parent receipts，保留有效工件。G82已关闭。**后续Gemini新任务显式spawn并检查实际model/effort，不用关闭后resume来假定保留override**。其它6个初始worker及原代理send_input返修轮次均观察到Gemini/high。
+- T12=`01a1d28e-a982-7dd3-9f31-e3a98e49ddd4`、T13=`01a1d2ab-8b16-7b61-9235-46c9f047bf46`均Terra/xhigh、窄审已接受关闭。T12谱矩阵共轭/径向块/SRG边界已入ESPE note与Duguet source；T13右作用D指标、表示类、根标签、错误平移能量变量、Ritz空间范围已交G81并核关键修复。不要重复全篇审查或大toy。
+- README和knowledge项目/索引已转LaTeX入口。构建脚本`system/scripts/a130_latex_build.py`，图脚本`system/scripts/a130_latex_figures.py`。最终输入manifest见G76/build_report.json，post-build-source-reconciliation.json已确认无变化；核对调用须传字符串workdir，Path会因原函数root比较将输出PDF混入输入，不能据此误报源不一致。
+- 用户原`system/memory.md`修改、旧归档manifest删除及全部PADO文件保持不动、不暂存。旧34项本地归档0/34，17项源/PDF可从Git精确恢复，另17项中间产物未恢复；没有撤销用户删除。详old-archive-git-audit.local.json。
+- Git尚未暂存/提交本批。已fetch `origin main`且当时祖先检查通过。收束后用显式literal文件清单，保留用户更改；不`git add .`、不force、不维护GitHub。避免发布含全库私有路径的完整preflight stdout，发布精简门回执即可。精确commit hash只入local任务回执，稳定指针用branch+subject。
+- 下一批合同已派发：G84=`01a1d2f0-bb5c-7a81-a39c-b1f41b3dc09a`主写2.7，G85=`01a1d2f1-040b-7521-bb9a-44881cd9a381`主写2.8，均显式Gemini Tiered/high；G81准备3.2，G79准备5.5。父发现3.2合同轴对称极限和单位错误，已交T14=`01a1d2f3-0970-7701-b24a-e761689e0ac5` Terra/xhigh窄审。当前15节发布后才授权写canonical，准备合同不代表正文完成。不把本任务当daily daemon，不改PLAN/用户memory/课程状态。
+
+以下为本日初次恢复/派发时的历史快照，当前状态以上述最新执行点和本批worker-ledger为准。
+
+- 用户最新明确分工：本GPT会话负责蓝图、详细合同及接受/返修；Gemini Tiered/high承担主要执行，复杂新推导才交Terra/xhigh。实际六个worker的turn context均核到Tiered/high，记录在本批runtime-model-check.json。完整五章39节及附录的goal仍active。
+- 新canonical正文入口：`raw/writing/gpt/A130/these_2023_template/these_template/Thesis.tex`，分节`Tex/Sections/sec-X-Y.tex`；不再新增Markdown正文。新图必须Python生成并在工程`Img/`成对留存SVG/PDF，正文用PDF。执行蓝图：`outputs/plans/20261113-A130-latex-execution.json`；回执：`outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/`。
+- G76=`01a1d273-c747-7e72-a5af-01dbde04f26c`：模板备份/清演示/引擎与工程入口、BibTeX、构建。49项模板原文件备份已由父独立核大小/SHA全匹配；工程配置和包安装仍在推进，不能先报编译通过。原模板快照`raw/writing/gpt/_archive/20261113-A130-template-original/`，用户其它归档删除不恢复。
+- G77=`01a1d274-30a3-72b2-8581-507d18ab4b49`：1.1–1.4迁移、1.5新写。G75/1.4已父按六source关键边界核准保真迁移，回执section-1-4-parent-audit.json。
+- G78=`01a1d274-9b24-7103-8c24-37eb7035f6c8`：2.1–2.4迁移；保留T11、BCS原约定；2.2符号冲突及2.4末尾尺度/刚性表述只定点修。
+- G79=`01a1d274-e82c-7bc0-af59-22fac97251d4`：5.3/5.4/5.9保真迁移；不可混归一滤波增益、20相位采样极值或平均寿命/半衰期。
+- G80=`01a1d275-4f45-7da3-8391-6b216a48f37c`：7张Python图、Img双格式和producer/manifest。G81=`01a1d276-2d5c-7122-9a62-14cafff0adca`：3.5迁移、2.5与附B投影/非正交单元。所有writer独占前缀，禁止自行派生/commit/push；共享文件系统不是沙箱。
+- T12尚未开始：六active容量拒绝新spawn，待空位再安排Terra审G74的谱矩阵/球形径向非对角/SRG场算符及错误普适条件；不能把G74旧报告摄入正文。G70-v3/T11范围内的迁移可独立继续。
+- 保护用户`system/memory.md`修改、旧归档manifest删除和所有PADO文件。11月13日只读Git核明旧34文件工作树归档为0/34，而17项源正文/旧PDF可按历史manifest SHA从Git精确恢复；另17项编译产物不称已恢复，未实际恢复任何删除。详情old-archive-git-audit.local.json，不提交用户删除。
+- 当前结构基线132 errors/481 warnings，不声称全库绿。本轮知识页在基线中无error，ESPE页orphan警告已补project回链。后续只按增量与实际发布门报告。
 
 ## 2026-11-08 — A130第二批：7节已整合，四个Gemini作者继续
 

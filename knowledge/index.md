@@ -2,7 +2,7 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-11-08
+updated: 2026-11-13
 ---
 
 # Wiki Index
@@ -15,12 +15,25 @@ updated: 2026-11-08
 - [[a130-rewrite-chiral-nonorthogonal-and-fingerprint-boundaries-20261108]] — 复非正交两态、实化条件、反幺正与线性指纹对称的区别。
 - [[a130-rewrite-absolute-rates-and-selection-boundaries-20261108]] — 多极允许性与纯度、总/光子分支、教材率常数及163Lu采用输入。
 - [[a130-rewrite-bcs-convention-and-model-hamiltonian-boundaries-20261108]] — BCS相位、正束缚能差分及三种两壳模型的不同临界强度。
+- [[a130-rewrite-espe-centroids-freezing-and-overlaps-20261108]] — 完整谱重心与有限窗重心、添/移粒差分、单极冻结及非正交T-plot重叠的边界。
+- [[duguet-2015-non-observable-nuclear-shell-structure]] — 谱矩阵的共轭约定、ESPE本征值和算符流；实际核读PDF4–8的选定公式，保留全文阅读边界。
+- [[a130-rewrite-projection-selection-and-metric-truncation-20261113]] — 内禀K与实验室M、附加签名条件、投影试探空间与动力学谱、度规截断及复两态标签。
 - [[a130-rewrite-digital-pulse-gain-and-data-boundaries-20261108]] — 数值表逐行回canonical CSV，保留量纲、协方差和门宽概率的条件。
+- [[a130-rewrite-cfd-timing-and-clock-boundaries-20261113]] — CFD参数映射、插值与离散相位极值、时钟协方差及寿命卷积的区别。
 - [[doctoral-thesis-architecture-and-section-map-20261108]] — 已选五章/39节及完整合同，继续作为writer输入。
 
-旧A130的34文件已完整移入可恢复归档且SHA/归档门通过；新目录启用。
-当前已整合1.1、1.2、2.1、2.3、3.5、5.3、5.9七节，其它节继续起草和核查；
+旧A130的34文件于11月8日完成逐文件归档；11月13日只读复核发现本地归档已被后续外部操作移除。
+其中17项原正文、源文件与旧PDF仍能从Git历史逐字节恢复，另17项编译中间产物不声称已恢复；
+保持用户的归档manifest删除现状。新目录继续使用。
+11月8日发布时已整合1.1、1.2、2.1、2.3、3.5、5.3、5.9七节；
+11月13日的LaTeX迁移与新增内容正在逐节验收，实时覆盖见项目页及A130的`manuscript-status.json`。
 完整39节与附录尚未完成，不将writer回执当科学通过。
+
+11月13日起，按用户新要求将正文迁入
+`raw/writing/gpt/A130/these_2023_template/these_template/Thesis.tex`，
+以LaTeX为当前写作格式；旧分节Markdown只作已有研究输入。
+新图由Python生成，在工程`Img/`成对保存SVG/PDF，正文引用PDF。
+Gemini负责主体执行，总控负责蓝图、详细合同和接受/返修。
 
 ## 博士论文设计研究：从样本到可执行的写作合同
 

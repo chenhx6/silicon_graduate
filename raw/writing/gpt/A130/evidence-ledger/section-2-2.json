@@ -1,0 +1,322 @@
+{
+  "section_id": "2.2",
+  "title": "壳结构、费米面与占据反馈",
+  "version": "v3",
+  "recorded_at": "2026-11-08T03:07:45.663854+00:00",
+  "status": "revision-written-for-parent-review",
+  "manuscript_path": "raw/writing/gpt/A130/research-draft/section-2-2.md",
+  "manuscript_sha256": "3ff8bdf1c7fe4f8d64812f2b08b02c0108135061a34e39bd39f6b207340368f1",
+  "chinese_character_count": 3554,
+  "revision_history": [
+    {
+      "version": "v1",
+      "event": "用户已完整读取并冻结；原稿与台账含概念、约定和来源定位错误。",
+      "draft_sha256": "b23c9d2c830c3e1cb63ae83ed2ee3dfdedfd972f50c92f77bc9a2effbf0b74a8",
+      "ledger_sha256": "ae3be6e59714cde6df1a516bbd090c43efe0002a2e5f024aae9ede5540bf9b4c"
+    },
+    {
+      "version": "v2-scope-revision",
+      "event": "本轮先将范围、物理边界与文体修订写入活动正文，并在台账记录8句骨架；当时核心数学待父转发T11，未另发V2回执。",
+      "draft_sha256": "90e763421f6ca1f40e0ceea0898bd192ce85805340942587d1aea8c28e316382"
+    },
+    {
+      "version": "v3",
+      "event": "父转发T11后完整读取报告六项并回读Otsuka PDF15、16、25；合并ESPE约定、pn权重、冻结与T-plot说明。",
+      "boundary": "写入与格式检查不代表科学通过。"
+    }
+  ],
+  "argument_outline": [
+    "从球形独立粒子零温参考的Pauli填充引入费米面；关联与配对态采用占据分布及化学势，不用最高非零占据轨道定义边界，epsilon0为含核芯和模型空间输入的基准SPE。",
+    "有限观测通道和窗口的碎片平均保留为窗口重心；完整加/去谱重心需共同A核参考、能量零点、强度完备和规范反对易，二者不能混称。",
+    "规范反对称m基中的单极平均与实际Hamiltonian的不重复对计数分别定义；pn同轨与异轨沿Otsuka不同同位旋权重，不推广为任意pn作用的通式。",
+    "ESPE沿Otsuka添粒有限差定义，并对照移粒、连续导数和纯单极谱重心；同一固定Hamiltonian和约定下使用占据差式，谱重心修正不无条件消失。",
+    "Type-I和Type-II区分跨核子数与同核构型比较；中心、张量和多极贡献分开，吸排趋势依具体力、径向和通道。",
+    "用Togashi模型中98Zr占据和ESPE变化说明反馈；一体E2偶宇称通道、异宇称占据重排和总宇称允许的对激发分别解释。",
+    "154Sm冻结将参考ESPE编码为新SPE、移除活动Vmono并保留Vmulti；仍形变只限制普遍必要性断言，不消除参考态单极信息。",
+    "MCSM选基变分、T-plot非正交重叠与经验输入各有边界；保留作者未微调仍出现急变的报告，区分有限体系交叉、非解析选支和相变阶数判断，衔接2.3与2.6。"
+  ],
+  "sources": [
+    {
+      "source_id": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+      "source_page": "knowledge/sources/doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-otsuka-article/otsuka-2022-physics-emerging-concepts-publisher.pdf",
+      "raw_sha256": "83ddfab8989cdb0a23be1d5ca3e9f689c7e8d728823d0b7c6a21c5aecd3ca0c7",
+      "edition": "T. Otsuka, Emerging Concepts in Nuclear Structure Based on the Shell Model, Physics 4 (2022), 258–285, DOI 10.3390/physics4010018；出版商独立文章PDF28页。",
+      "actual_read_pages": "本轮完整文本读取PDF1、5–8、13、15–17、19、25；对应印刷258、262–265、270、272–274、276、282。",
+      "pdf_page_numbers": [1, 5, 6, 7, 8, 13, 15, 16, 17, 19, 25],
+      "important_locators": [
+        "PDF5–7 Eqs.(3)–(15)：SPE、单极平均、nn对计数、pn权重、添粒ESPE和态差。",
+        "PDF7–8 Sections2.3–2.5：中心和张量分量背景。",
+        "PDF13 Section3.1：Type-II同核粒子-空穴重排。",
+        "PDF15–16 Eqs.(16)–(17)、Fig.12：MCSM选基与T-plot。",
+        "PDF17 Fig.13：154Sm冻结操作、参考态与数值结果。",
+        "PDF19 Fig.15为另一个核166Er，本节不新增其数值或混作Sm结果。",
+        "PDF25 AppendixA：Baranger关系中的同类同轨修正。"
+      ],
+      "dependence": "2022综述为本节实际原件；2023为既有source键中的重印身份，非新原年。154Sm结果由该综述转引Ref.[71]，worker未独立读取该原始模型文章或程序，不计新测或独立重复。",
+      "reading_boundary": "未宣称整篇通读，未读Baranger原始论文或Otsuka2020 RMP相应章节。"
+    },
+    {
+      "source_id": "doctoral-r1-g28-togashi-2016-zr-mcsm-qpt",
+      "source_page": "knowledge/sources/doctoral-r1-g28-togashi-2016-zr-mcsm-qpt.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G28/togashi-2016-zr-qpt.pdf",
+      "raw_sha256": "f43431ebad67addfbefb521eed14c43f152fe5221ccc0d995d69a3d5aaa7b3e9",
+      "edition": "本地arXiv:1606.09056v2，2016-08-05，5页预印本；对应PRL117,172502。",
+      "actual_read_pages": "本轮完整文本读取PDF1–4；Fig.3在PDF3，定量说明在PDF4。",
+      "pdf_page_numbers": [1, 2, 3, 4],
+      "important_locators": [
+        "PDF1–2：组合相互作用身份、局部T=1调整和采用的Zr实验能级。",
+        "PDF2下部–PDF3上部：MCSM方法与T-plot重叠。",
+        "PDF3 Fig.3及PDF4开头：98Zr占据和指定中子轨道组ESPE展布。",
+        "PDF4：两种pi0g9/2-nu耦合的中心/张量相干与相消。",
+        "PDF3：作者不作局部调整仍有快速转变的报告；PDF3–4：QPT和弱混合构型解释。"
+      ],
+      "dependence": "占据、ESPE和形状均为同一模型计算；原图实验曲线为采用文献数据，本节不据其新增实验数值。"
+    }
+  ],
+  "audit_inputs": [
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/T11/report.md",
+      "actual_read_scope": "完整六项、张量条件和真实未解。",
+      "role": "父转发内部核查；不作正文发表引文。原作定义回PDF，新增代数明确记为任务推导。"
+    },
+    {
+      "path": "knowledge/research-notes/a130-rewrite-bcs-convention-and-model-hamiltonian-boundaries-20261108.md",
+      "actual_read_scope": "Failure Conditions及邻近范围，特别是有限体系交叉/非解析选支。",
+      "role": "T10知识校准，不新增两态toy，不作发表引文。"
+    },
+    {
+      "path": "raw/writing/gpt/A130/research-draft/section-2-1.md",
+      "role": "只读先修与记号，E2偶宇称选择的节间衔接；未修改。"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "text": "最高填充只界定独立粒子零温参考的费米边界；关联/配对态不能按最高非零占据轨道定义费米面；epsilon0是模型基准SPE。",
+      "kind": "pedagogical_scope_and_model_definition",
+      "source_id": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+      "locator": "PDF5 Eq.(4)及SPE正文；费米边界适用域按本轮明确反馈说明。",
+      "conditions": "区分独立粒子参考和关联态；mu_p,mu_n用于相应粒子数约束框架。"
+    },
+    {
+      "id": "C02",
+      "text": "有限窗碎片均值不等于完整谱重心；同A参考的完整规范加去强度分母为g_j。",
+      "kind": "task_definition_and_conditional_identity",
+      "source_id": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+      "locator": "PDF25 AppendixA为ESPE/Baranger关系边界；加去完备与反对易归一为任务推论，非声称原附录逐式推导。",
+      "conditions": "共同能量零点、规范单体算符、完整终态；实际反应C²S须另核归一及缺失强度。"
+    },
+    {
+      "id": "C03",
+      "text": "同种单极平均使用规范反对称Pauli允许基；同轨有序对分子分母双计，H中仍为n(n−1)/2。",
+      "kind": "source_definition_with_explicit_basis",
+      "source_id": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+      "locator": "PDF5 Eqs.(5)–(6)，任务补出反对称记号。",
+      "conditions": "正交单粒子基和规范费米产生算符；非裸直积矩阵元。"
+    },
+    {
+      "id": "C04",
+      "text": "pn同轨T权重不同于异轨半和；添粒、移粒、连续导数与谱重心自项不同。",
+      "kind": "source_convention_and_task_algebra",
+      "source_id": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+      "locator": "PDF5–7 Eqs.(7)–(15)，PDF25 AppendixA。",
+      "conditions": "沿原作归一；单轨谱重心对照限纯单极、固定其余占据和g−n/n强度，不证明一般关联谱函数。"
+    },
+    {
+      "id": "C05",
+      "text": "Type-I为跨核子数比较，Type-II为同核占据重排；中心/张量吸排依指定力、通道与径向条件，不是几何选择定则。",
+      "kind": "author_concept_and_force_component_trend",
+      "source_id": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+      "locator": "PDF7–8、PDF13 Section3.1。",
+      "conditions": "不是所有壳变化的穷尽分类，不把张量分量符号当总作用符号。"
+    },
+    {
+      "id": "C06",
+      "text": "98Zr占据0.4与3.5、轨道组展布和约2MeV特定轨道下移为模型输出；两种耦合分别相干与相消。",
+      "kind": "model_output_and_author_mechanism",
+      "source_id": "doctoral-r1-g28-togashi-2016-zr-mcsm-qpt",
+      "locator": "PDF3 Fig.3、PDF4说明。",
+      "conditions": "限定指定相互作用；组展布和单轨移动分开，不记新测或为未给轨道补表点。"
+    },
+    {
+      "id": "C07",
+      "text": "一体E2偶宇称，不能直接连接g7/2和h11/2；总宇称允许的对激发与同宇称四极相干分别处理。",
+      "kind": "task_deduction_from_parity",
+      "source_id": null,
+      "locator": "只读先修2.1.2的宇称选择关系及本轮用户明确反馈。",
+      "conditions": "单粒子态有好宇称，一体偶宇称四极算符；多体占据重排幅度另由两体矩阵元决定。"
+    },
+    {
+      "id": "C08",
+      "text": "154Sm冻结把参考ESPE编码为新SPE，去活动Vmono并保留Vmulti；参考单极信息仍在，仍形变只限制普遍必要性说法。",
+      "kind": "review_reported_model_intervention",
+      "source_id": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+      "locator": "PDF17 Fig.13及正文。",
+      "conditions": "指定参考与相互作用；C仅为可选态无关能量对齐，不推测原程序常数。"
+    },
+    {
+      "id": "C09",
+      "text": "MCSM选基变分不预知真实态最大重叠；T-plot面积是模型重叠，非互斥归一概率或系数模平方。",
+      "kind": "method_definition_and_linear_algebra_boundary",
+      "source_id": "doctoral-r1-g28-togashi-2016-zr-mcsm-qpt",
+      "locator": "PDF2下部–PDF3上部；Otsuka PDF15–16 Eqs.(16)–(17)、Fig.12。",
+      "conditions": "非正交投影基；连续角动量与离散宇称投影分别说明；未重建面积常数或能量方差外推。"
+    },
+    {
+      "id": "C10",
+      "text": "固定H仍含组合作用历史输入与局部T=1微调；作者报告未调整仍有急变，不能只据拟合否认机制。",
+      "kind": "adopted_inputs_and_author_robustness_report",
+      "source_id": "doctoral-r1-g28-togashi-2016-zr-mcsm-qpt",
+      "locator": "PDF1–2参数段，PDF3未调整比较段。",
+      "conditions": "输入能级非独立留出，作者报告不等于worker重算完整MCSM。"
+    },
+    {
+      "id": "C11",
+      "text": "谱学急变不单独认证相变阶数；有限体系仍可精确交叉和非解析选支，同轨道名不能保证跨区同模式。",
+      "kind": "author_interpretation_with_scope_boundary",
+      "source_id": "doctoral-r1-g28-togashi-2016-zr-mcsm-qpt",
+      "locator": "PDF3–4为作者QPT解释；有限体系边界按T10知识与父反馈校准。",
+      "conditions": "区分有限参数路径、选最低能支和热力学极限；未新增两态toy或实核阶数证明。"
+    }
+  ],
+  "equations": [
+    {
+      "name": "observed_channel_window_centroid",
+      "kind": "task_definition",
+      "formula": "Ebar_obs_plus(j,W)=sum_(mu in W)[C²S_plus(mu,j)*E_plus(mu)]/sum_(mu in W)C²S_plus(mu,j)",
+      "convention": "指定加粒通道、轨道、观测窗及反应权重。",
+      "derivation": "碎片加权均值定义，撤回完整Baranger归属。",
+      "limit": "只用残核激发能时仅为该坐标重心，不直接合并另一核或去粒支。"
+    },
+    {
+      "name": "complete_spectral_centroid_context",
+      "kind": "conditional_task_identity",
+      "formula": "E_plus(mu)=E^(A+1)_mu-E^A; E_minus(nu)=E^A-E^(A-1)_nu; sum_m[sum_mu S_plus(mu,jm)+sum_nu S_minus(nu,jm)]=g_j=2j+1",
+      "convention": "同一归一化A核参考、共同绝对能量基准、规范a/a†和完整终态。",
+      "derivation": "插入加去两支完备集，分母=sum_m <{a_jm,a†_jm}>=g_j；本节仅给短段，完整谱函数为附录接口。",
+      "limit": "不能沿用至任意约化C²S或不完整窗口；未读取Baranger原论文。"
+    },
+    {
+      "name": "antisymmetrized_monopole_average",
+      "kind": "source_definition_with_explicit_notation",
+      "formula": "V_mono(tau,tau;j,j')=sum_allowed <jm,j'm'|V|jm,j'm'>_A/D_jj'; D_jj'=g_j*g_j' for j!=j'; D_jj=g_j*(g_j-1)",
+      "convention": "|alpha beta>_A=a†_alpha*a†_beta|0>，alpha!=beta，正交基和Pauli允许有序对。",
+      "derivation": "同轨有序对在分子分母同时双计；无序对平均相同。",
+      "limit": "交换项与相位需匹配作用文件；未核实际JT矩阵元。",
+      "locator": "Otsuka PDF5 Eq.(5)。"
+    },
+    {
+      "name": "identical_particle_pair_count",
+      "kind": "source_equation",
+      "formula": "Hmono_nn=sum_j Vmono_nn(j,j)*n^n_j*(n^n_j-1)/2+sum_(j<j') Vmono_nn(j,j')*n^n_j*n^n_j'",
+      "convention": "同轨不同核子无重复对，异轨对一次计数。",
+      "derivation": "实际占据对数为n(n−1)/2和n_j*n_j'。",
+      "limit": "两体单极模型，不包含未声明的三体/密度依赖。",
+      "locator": "Otsuka PDF5 Eq.(6)。"
+    },
+    {
+      "name": "pn_isospin_weights",
+      "kind": "source_convention",
+      "formula": "Vtilde_pn(j,j')=[V0(j,j')+V1(j,j')]/2 for j!=j'; Vtilde_pn(j,j)=0.5*[(2j+2)/(2j+1)*V0(j,j)+(2j)/(2j+1)*V1(j,j)]",
+      "convention": "原作各T通道内归一重心，Hmono_pn=sum_jj' Vtilde_pn(j,j')*n^p_j*n^n_j'。",
+      "derivation": "沿Eq.(7)权重定义Eq.(8)的tilde系数，同轨不再乘额外1/2。",
+      "limit": "不自动推广到电荷依赖、不同JT归一或显式轨道间同位旋交换结构。",
+      "locator": "Otsuka PDF5–6 Eqs.(7)–(8)。"
+    },
+    {
+      "name": "addition_espe_and_state_shift",
+      "kind": "source_definition",
+      "formula": "epsilon^n_j=epsilon^n_(0;j)+sum_j' Vmono_nn(j,j')*n^n_j'+sum_j' Vtilde_pn(j',j)*n^p_j'; Delta epsilon^n_j=sum_j' Vmono_nn(j,j')*Delta n^n_j'+sum_j' Vtilde_pn(j',j)*Delta n^p_j'",
+      "convention": "Otsuka添粒有限差n->n+1，实际添粒须有空位；两态固定相同H、空间、SPE和单极定义。",
+      "derivation": "n(n−1)/2的添粒有限差为n；同一期望算符相减给态差。",
+      "limit": "模型/约定随态改变不能直接套；完整谱重心同轨修正不无条件取消。",
+      "locator": "Otsuka PDF6–7 Eqs.(12)–(15)、PDF25 AppendixA。"
+    },
+    {
+      "name": "single_orbit_convention_comparison",
+      "kind": "task_algebra_under_explicit_model",
+      "formula": "E_j(n)=epsilon0*n+v_j*n*(n-1)/2+u_j*n; e_plus=epsilon0+v_j*n+u_j; e_minus=epsilon0+v_j*(n-1)+u_j; derivative=epsilon0+v_j*(n-1/2)+u_j; e_cent=[(g_j-n)*e_plus+n*e_minus]/g_j=e_plus-v_j*n/g_j",
+      "convention": "v_j为同类同轨单极系数，u_j为固定其他占据贡献；球对称纯单极模型，加去总强度g_j−n与n。",
+      "derivation": "有限差、连续导数和加去强度加权分别计算；Delta(e_cent-e_plus)=−v_j*Delta n_j/g_j。",
+      "limit": "移粒须有粒子，导数不自动可测；不证明一般关联/多极或有效算符下的完整谱函数等价。",
+      "locator": "任务代数，依据Otsuka Eq.(6)、Eqs.(12)–(15)、AppendixA；T11只作内部核查输入。"
+    },
+    {
+      "name": "reference_dependent_monopole_freezing",
+      "kind": "task_operator_restatement_of_source",
+      "formula": "H_frozen[Phi_ref]=sum_(tau,j) <Phi_ref|epsilon^tau_j|Phi_ref>*n^tau_j+Vmulti+C",
+      "convention": "参考添粒ESPE编码新SPE，移除活动Vmono并保留Vmulti；C为可选态无关能量零点。",
+      "derivation": "按原作文字分开一体SPE与两体单极算符后重新求解。",
+      "limit": "参考单极信息仍在，C不影响同次计算激发能；未核原程序的绝对对齐。",
+      "locator": "Otsuka PDF17 Fig.13后正文。"
+    }
+  ],
+  "numeric_evidence": [
+    {
+      "value": "98Zr pi0g9/2 occupation 0.4 -> 3.5",
+      "kind": "model_output",
+      "locator": "Togashi PDF3 Fig.3(a)、PDF4首段。",
+      "conditions": "同核0_1^+与0_2^+，非实测占据。"
+    },
+    {
+      "value": "neutron 2s1/2-to-0g7/2 spread about 4 MeV -> within 2 MeV",
+      "kind": "model_output",
+      "locator": "Togashi PDF3 Fig.3(b)、PDF4第二段。",
+      "conditions": "指定轨道组展布，非所有中子轨道或实验分离能。"
+    },
+    {
+      "value": "pi0g9/2-nu0g7/2 central/tensor coherent lowering about 2 MeV",
+      "kind": "author_model_mechanism",
+      "locator": "Togashi PDF4具体耦合说明。",
+      "conditions": "净轨道下拉，非张量单独数值。"
+    },
+    {
+      "value": "154Sm ground-reference frozen 0_2^+ band rises about 0.5 MeV",
+      "kind": "review_reported_model_intervention",
+      "locator": "Otsuka PDF17 Fig.13(c)及正文。",
+      "conditions": "非新测；球形HF参考为另一模型对照。"
+    },
+    {
+      "value": "90–96Zr 2_1^+,4_1^+ and 94–100Zr 0_2^+",
+      "kind": "adopted_tuning_inputs",
+      "locator": "Togashi PDF2参数段。",
+      "conditions": "局部T=1微调的采用能级，不归为三套原作用整体重拟合。"
+    }
+  ],
+  "competing_explanations": [
+    {
+      "issue": "观测碎片与理论ESPE的对应",
+      "boundary": "反应模型、共同能量零点、缺失强度和有效算符影响对应，单峰或有限窗不保证恢复完整谱矩。"
+    },
+    {
+      "issue": "形状共存的机制",
+      "boundary": "配对、多极相干和构型混合共同影响谱，Type-II不是形状共存的普遍必要定义。"
+    },
+    {
+      "issue": "冻结的因果解释",
+      "boundary": "切断活动反馈而保留参考SPE不同于完全撤除单极影响；不同参考改变输入，不能给所有核统一排序驱动力。"
+    },
+    {
+      "issue": "谱学急变与相变阶数",
+      "boundary": "区分作者模型解释与观测急变；有限交叉/非解析选支不等同热力学极限相变，亦不因有限性一律被否定。"
+    }
+  ],
+  "unresolved": [
+    "未读Baranger原始论文或Otsuka2020 RMP相关章节；未声称完整原始谱函数推导或任一实验碎片已完备。",
+    "实际作用文件的JT两体矩阵元、有效转移算符与实验C²S归一未核；实测重心与模型ESPE逐项映射仍需共同约定。",
+    "154Sm原计算的冻结实现和绝对能量对齐未复算，结果保留综述转引依赖。",
+    "T-plot面积常数、投影归一和基矢实现未重建，不提供归一经典形状概率。",
+    "未重新运行完整MCSM或证明实核相变阶数；内部核查和格式验证不构成全节科学通过。"
+  ],
+  "interfaces_for_subsequent_sections": {
+    "section_2_1": "只读继承j=J/hbar、I量子数和偶宇称张量选择条件。",
+    "section_2_3": "占据、化学势与单粒子能标作为配对和准粒子输入。",
+    "section_2_6": "静态壳隙与形变能不单独确定动态响应和惯量。",
+    "appendix": "完整加去谱函数及约定映射可独立展开，本任务未新增附录。"
+  },
+  "format_validation": {
+    "report_path": "tmp/runs/20261108-A130-rewrite/G70/validation.json",
+    "scope": "JSON、控制字符、美元、Pandoc AST与HTML/MathML格式核查，不认证科学正确性。"
+  }
+}

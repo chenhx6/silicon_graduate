@@ -1,0 +1,209 @@
+\section{势能、惯量与微观响应}\label{sec:2-6}
+
+势能面标出不同约束构型的相对能量，却没有同时回答体系沿这些构型运动需要多大的动量。第2.3节的配对准粒子与第2.4节的集体坐标，恰好提供了补上这一环节的两端：前者决定哪些微观激发可以响应外场，后者规定如何用质量参数组织慢运动。因而，解释一个低能激发，既要问势能面是否容许这种偏离，也要问相应坐标如何响应扰动。较低的激发能、较大的沿带惯量和较宽的形状分布，不能只凭名称互相替代。
+
+本节先用局部谐振问题明确单位和可辨识的参数组合，再从冻结准粒子场的响应进入自洽残余响应，最后比较配对规范转动、沿带转动和摆动的横向响应。除明确给出的局部教学推导外，微观公式均限定在相应来源实际采用的参考态与近似中。\cite{prochniak-rohozinski-2009-bohr-collective-hamiltonian,hinohara-2015-nambu-goldstone-inertia-response,matsuzaki-2004-nuclear-inertia-and-wobbling}
+
+\subsection{从一个形状坐标的频率开始}\label{sec:2-6-1}
+
+在一个稳定极小点附近，令形状偏离量为无量纲坐标 \(q\)，并在这一小邻域将其质量参数近似为正常数 \(B_q\)。去掉不影响激发能的常数项，最小的局部模型是
+\begin{equation}\label{eq:2-6-local-hamiltonian}
+H_{\mathrm{loc}}=\frac{p_q^2}{2B_q}+\frac{C_q}{2}q^2,
+\qquad B_q>0,\quad C_q>0 .
+\end{equation}
+Hamilton方程给出 \(\dot q=p_q/B_q\) 与 \(\dot p_q=-C_q q\)，从而
+\begin{equation}\label{eq:2-6-local-frequency}
+\ddot q+\frac{C_q}{B_q}q=0,\qquad
+\omega_q^2=\frac{C_q}{B_q},\qquad
+\Delta E_q=\hbar\omega_q .
+\end{equation}
+这里 \(\omega_q\) 是角频率，\(\Delta E_q\) 是谐振相邻级间隔；不能把二者在恢复单位以后仍当作同一数值量。由于 \(q\) 无量纲，\(p_q\) 带作用量单位，故 \(B_q\) 的单位为 \(\hbar^2/\mathrm{MeV}\)，而 \(C_q\) 的单位为 \(\mathrm{MeV}\)。若写 \(B_q=\hbar^2 b_q\)，则
+\begin{equation}\label{eq:2-6-local-energy-units}
+[b_q]=\mathrm{MeV}^{-1},\qquad
+\Delta E_q=\sqrt{\frac{C_q}{b_q}} .
+\end{equation}
+这几式是本稿在声明局部模型下的直接推导，并非某个实核的计算结果。
+
+给出 \(C_q\) 尚不能确定 \(\Delta E_q\)：同一势曲率可与不同质量相配。反过来，只知道一个激发能也只限制 \(C_q/B_q\)，不能唯一决定曲率。即使进一步使用谐振基态的宽度
+\begin{equation}\label{eq:2-6-local-width}
+\langle q^2\rangle_0=\frac{\hbar}{2B_q\omega_q}
+=\frac{\hbar}{2\sqrt{B_qC_q}},
+\end{equation}
+也须先证明所用电磁探针确实测到与这个 \(q\) 对应的算符及其尺度，才能把强度信息转成第二个约束。低能的 \(\gamma\) 候选态究竟来自较小曲率、较大质量，还是组态混合，因而需要能谱与算符信息共同判断。
+
+这些关系仅适用于指定驻点附近的小振幅、局部常质量近似。若坐标改成有量纲的四极矩，质量与曲率都要随坐标变换；若出现大振幅混合、质量的明显坐标依赖或交叉动能项，便需处理相应集体Hamiltonian。进入该Hamiltonian的量子集体势也不自动等于未经零点修正的静态约束平均场能量。\cite[Secs.~3.1, 4.1--4.3]{prochniak-rohozinski-2009-bohr-collective-hamiltonian}
+
+\subsection{质量参数由坐标和扰动共同定义}\label{sec:2-6-2}
+
+对一组慢坐标 \(q^a\)，质量矩阵通过
+\begin{equation}\label{eq:2-6-coordinate-mass}
+T=\frac12\sum_{ab}M_{ab}(q)\dot q^a\dot q^b
+\end{equation}
+定义。保持同一个动能而改用坐标 \(Q^i\) 时，链式法则要求
+\begin{equation}\label{eq:2-6-mass-transform}
+M^{(Q)}_{ij}
+=\sum_{ab}\frac{\partial q^a}{\partial Q^i}
+M^{(q)}_{ab}
+\frac{\partial q^b}{\partial Q^j}.
+\end{equation}
+因此，不同坐标约定中都标成“质量”的数值，须先转换到同一动能表达后才能比较。这个变换规律也说明：势能曲率与质量各自的数值会随坐标变化，物理频率不能仅由其中一个数值判断。
+
+沿Próchniak与Rohoziński的 \(\beta,\gamma\) 约定，振动与空间转动的经典动能分别写成
+\begin{equation}\label{eq:2-6-bohr-vibrational-mass}
+\begin{aligned}
+T_{\mathrm{vib}}=\frac12\bigl[
+&B_{\beta\beta}\dot\beta^2
++2\beta B_{\beta\gamma}\dot\beta\dot\gamma\\
+&+\beta^2 B_{\gamma\gamma}\dot\gamma^2\bigr],
+\end{aligned}
+\end{equation}
+\begin{equation}\label{eq:2-6-bohr-rotational-mass}
+T_{\mathrm{rot}}=\frac12\sum_{k=1}^3\mathcal J_k\omega_k^2,
+\qquad
+\mathcal J_k=4B_k\beta^2
+\sin^2\!\left(\gamma-\frac{2\pi k}{3}\right).
+\end{equation}
+这里 \(\gamma\) 用弧度，轴标号须与所选主轴约定一致。式\eqref{eq:2-6-bohr-vibrational-mass}中，坐标质量矩阵的 \(\gamma\gamma\) 元是 \(\beta^2B_{\gamma\gamma}\)，而非单独的 \(B_{\gamma\gamma}\)；同样，\(B_k\) 也不是实际绕轴惯量 \(\mathcal J_k\) 本身。这是原综述Eqs.~(3.5)--(3.8)的动能约定，不能只看两个等高线图的色标单位就将它们等同。\cite[Eqs.~(3.5)--(3.8)]{prochniak-rohozinski-2009-bohr-collective-hamiltonian}
+
+“惯量”还用于几种不同的响应。形状振动质量联系形状速度与共轭动量；空间转动惯量联系角速度与角动量；沿能带的运动学、动力学惯量来自同一转动序列的能量关系；配对转动惯量则联系化学势变化与平均粒子数变化。它们可受同一配对场影响，却不是同一算符或同一方向的响应。实验上由带内能差提取一个数值，并没有同时测定全部形状质量或横向响应张量。
+
+\subsection{冻结场的Inglis--Belyaev响应}\label{sec:2-6-3}
+
+在零温、偶偶时间反演不变的BCS型参考中，准粒子真空的低阶响应可先由两准粒子激发构造。沿上述综述Eq.~(4.44)的全单粒子空间求和约定，将角动量恢复为 \(\hat J_k=\hbar\hat j_k\)，转动惯量的Inglis--Belyaev（IB）式为
+\begin{equation}\label{eq:2-6-ib-full-sum}
+\mathcal J_k^{\mathrm{IB}}
+=\hbar^2\sum_{\mu,\nu\ {\rm all}}
+\frac{|\langle\nu|\hat j_k|\bar\mu\rangle|^2
+(u_\mu v_\nu-u_\nu v_\mu)^2}
+{E_\mu+E_\nu}.
+\end{equation}
+\(\bar\mu\) 表示与 \(\mu\) 对应的时间反演伙伴；\(u_\mu,v_\mu\) 是第2.3节中无量纲的占据振幅，\(E_\mu>0\) 是准粒子能量。这里的求和遍及完整选定单粒子基底，不能在这一式前再无条件添加一个来自“正负磁态”的因子2。\cite[PDF~p.~34, Eq.~(4.44)]{prochniak-rohozinski-2009-bohr-collective-hamiltonian}
+
+另一种常用写法先把外场写成两准粒子产生、湮灭分量，并仅对不重复的 \(\mu<\nu\) 求和。若相应的无量纲角动量矩阵元为 \(j^{20}_{k,\mu\nu}\)，同一独立准粒子静态响应写为
+\begin{equation}\label{eq:2-6-ib-pair-sum}
+\frac{\mathcal J_k^{\mathrm{IB}}}{\hbar^2}
+=2\sum_{\mu<\nu}
+\frac{|j^{20}_{k,\mu\nu}|^2}{E_\mu+E_\nu}.
+\end{equation}
+式\eqref{eq:2-6-ib-full-sum}与式\eqref{eq:2-6-ib-pair-sum}采用不同的基底及对计数表示，转换须同时转换相干因子、时间反演相位和外场的 \(20\) 分量；不能只根据求和符号的外观判断是否少了一个2。附录\ref{app:C}给出本节使用的响应归一约定。
+
+IB近似保留的是给定准粒子能量和给定外场矩阵元的响应，没有把扰动诱导的平均场变化重新反馈进来。综述在ATDHFB的Eqs.~(4.21)--(4.25)中明确指出，舍去Thouless--Valatin项后才出现这一简化；振动质量还要用到密度与配对张量对形状坐标的导数，并非把转动式中的 \(\hat j_k\) 任意换成一个四极算符就已经得到完整振动质量。\cite[Eqs.~(4.21)--(4.25), (4.44)]{prochniak-rohozinski-2009-bohr-collective-hamiltonian}
+
+配对通过能量分母和相干因子改变这类响应，但实际比较还会伴随占据、参考态和场的重排。减弱配对可以增大某些计算中的转动惯量，却不保证得到精确的刚体值；无配对的独立粒子响应仍依赖壳结构、所选势与算符。在相同参考态上比较IB与含残余作用的响应，才可能辨认遗漏反馈的影响，不能将不同形状、不同配对输入的差值全归给某一种修正。\cite{petrik-kortelainen-2018-rotational-tv-inertia}
+
+\subsection{自洽残余响应与零频NG惯量}\label{sec:2-6-4}
+
+微小外场同时改变密度和平均场时，外场激起的两准粒子振幅与诱导场须联立求解。在Hinohara的有限振幅法（FAM）记号中，将原文自然单位下的频率变量显式改记为探测能量 \(z=\hbar\omega_{\mathrm{probe}}\)，方程为
+\begin{equation}\label{eq:2-6-fam-induced-field}
+\begin{aligned}
+(E_\mu+E_\nu-z)X_{\mu\nu}(z)
++\delta H^{20}_{\mu\nu}(z)&=-F^{20}_{\mu\nu},\\
+(E_\mu+E_\nu+z)Y_{\mu\nu}(z)
++\delta H^{02}_{\mu\nu}(z)&=-F^{02}_{\mu\nu}.
+\end{aligned}
+\end{equation}
+这里 \(X,Y\) 是每单位微扰幅度的线性响应，\(\delta H^{20},\delta H^{02}\) 本身依赖这些振幅。去掉诱导场才回到独立准粒子响应；保留它们所表示的残余响应，是Thouless--Valatin（TV）惯量区别于冻结场IB的重要内容。\cite[APS~PDF~p.~3, Eqs.~(32)--(33)]{hinohara-2015-nambu-goldstone-inertia-response}
+
+在一个连续对称性被平均场参考态破缺、且残余响应与同一理论处理一致的情形中，线性化方程还应包含相应的Nambu--Goldstone（NG）模。这个零频条件检验的是指定近似的对称性实现，不能仅由PES在某个形状方向较软便推得。原文在局部QRPA空间中用共轭算符归一
+\begin{equation}\label{eq:2-6-ng-normalization}
+\langle[\hat Q,\hat P]\rangle=i
+\end{equation}
+来固定NG惯量的尺度。此处暂采用 \(\hbar=1\) 的局部算符约定；对空间转动可取无量纲生成元 \(\hat P=\hat j_k\)，而对粒子数规范转动可取 \(\hat P=\hat N\)。\cite[APS~PDF~p.~3, Eqs.~(15), (18)--(23)]{hinohara-2015-nambu-goldstone-inertia-response}
+
+特别地，只有当QRPA矩阵 \(A,B\) 为实矩阵时，才能按 \(P^{20}=r+i s\) 的实、虚分量写出
+\begin{equation}\label{eq:2-6-tv-real-imag}
+M_P=2\left[
+r^T(A+B)^{-1}r+s^T(A-B)^{-1}s
+\right].
+\end{equation}
+这里的 \(A,B\) 是两准粒子QRPA核，\(B\) 不是前述集体质量。式中的逆只在相应源矢量支撑的可逆子空间使用，不能对含NG零方向的全空间无条件求普通矩阵逆。实 \(P^{20}\) 涉及 \(A+B\)，纯虚 \(P^{20}\) 涉及 \(A-B\)；复参考态或时间反演破缺时，应回到完整响应方程，不能一概指定某一分块。\cite[APS~PDF~p.~3, Eqs.~(20)--(23)]{hinohara-2015-nambu-goldstone-inertia-response}
+
+按原作 \(H+\eta F\) 的微扰符号定义强度函数，生成元的静态分支满足
+\begin{equation}\label{eq:2-6-static-tv}
+S(\hat P;0)=-M_P,\qquad
+\mathcal J_k^{\mathrm{TV}}=\hbar^2M_{j_k}.
+\end{equation}
+于是，对减能外场 \(H-h\hat j_k\)、\(h=\hbar\omega_k\)，同一局部静态惯量满足
+\begin{equation}\label{eq:2-6-tv-susceptibility}
+\mathcal J_k^{\mathrm{TV}}
+=\hbar^2\left.
+\frac{\partial\langle\hat j_k\rangle}{\partial h}
+\right|_{h=0}
+=\left.
+\frac{\partial\langle\hat J_k\rangle}{\partial\omega_k}
+\right|_{\omega_k=0}.
+\end{equation}
+减能外场的正响应与上式强度函数的负号是同一约定的两种表达。原文Eq.~(52)还区分了NG生成元在零频与非零频处的响应；这里求的是静态分支，不能把任意有限频率表达直接外推到原点而略去NG归一。\cite[APS~PDF~p.~5, Eqs.~(49)--(53)]{hinohara-2015-nambu-goldstone-inertia-response}\cite[PDF~pp.~4--5, Eq.~(18)]{petrik-kortelainen-2018-rotational-tv-inertia}
+
+实际计算中的零模位置、伪模分离和残余项完备程度，都需要检查。TV也不能被概括成所有核、所有坐标上固定倍数的IB增大：改变响应核与在同一个正定二次型中单纯释放一个冻结变量，是两种比较。相应实验问题是：同一套波函数与算符能否同时解释转动能标及有关电磁强度，而不是先把一个经验倍率当作独立的微观机制。
+
+\subsection{配对转动不是形状振动质量}\label{sec:2-6-5}
+
+对于破缺粒子数规范对称性的HFB参考态，局部配对转动响应可用
+\begin{equation}\label{eq:2-6-pairing-response}
+M_N=\left.
+\frac{\partial\langle\hat N\rangle}{\partial\lambda}
+\right|_{N_0},
+\qquad [M_N]=\mathrm{MeV}^{-1}
+\end{equation}
+定义。粒子数无量纲，故这里不再引入一个空间转动的 \(\hbar^2\) 因子。在指定其它粒子数、选择平滑自洽态族且局部响应非奇异时，内部总能量的二阶展开为
+\begin{equation}\label{eq:2-6-pairing-curvature}
+\begin{aligned}
+E(N)=E(N_0)&+\lambda_0\Delta N
++\frac{(\Delta N)^2}{2M_N}+\cdots,\\
+\frac{\partial^2E}{\partial N^2}
+&=M_N^{-1},\qquad \Delta N=N-N_0 .
+\end{aligned}
+\end{equation}
+这是本稿用总能量 \(E\) 写出的局部曲率关系。若采用正束缚能 \(B_+=-E\)，便有
+\begin{equation}\label{eq:2-6-positive-binding-sign}
+M_N^{-1}
+=-\frac{\partial^2B_+}{\partial N^2}.
+\end{equation}
+正束缚能的曲率不能在不换号的情况下代入总能量公式。\footnote{Hinohara原文Eq.~(66)将其 \(B\) 称为binding energy，而Fig.~4图注同时比较 \(-B_{\mathrm{exp}}\)。本节另行声明 \(B_+=-E\)，保留原作记号的这一解释边界，不把原式的字母 \(B\) 静默识别为本稿正束缚能，也不据此推断作者程序的错误。}\cite[APS~PDF~pp.~8--9, Eqs.~(66)--(67), Fig.~4]{hinohara-2015-nambu-goldstone-inertia-response}
+
+配对转动描述规范方向上的粒子数响应，配对振动则涉及配对幅度变化；二者都不同于空间取向或 \(\gamma\) 形状坐标。离散核质量可以对局部曲率提供约束，但离散差分、连续HFB延拓与粒子数恢复后的结果并不自动相等。这里的局部 \(\hat Q,\hat N\) 共轭归一，也不是在完整有限粒子数Hilbert空间中建立全局自伴规范角的证明。若配对破缺参考不再存在，便须重新判断所讨论的NG模式，而不能只将同一惯量公式机械延伸过去。\cite{hinohara-2015-nambu-goldstone-inertia-response}
+
+\subsection{沿带导数与摆动横向响应}\label{sec:2-6-6}
+
+在绕 \(x\) 轴平稳转动的指定解支上，常定义
+\begin{equation}\label{eq:2-6-band-inertias}
+\mathcal J^{(1)}
+=\frac{\langle\hat J_x\rangle}{\omega_{\mathrm{rot}}},
+\qquad
+\mathcal J^{(2)}
+=\frac{d\langle\hat J_x\rangle}{d\omega_{\mathrm{rot}}}.
+\end{equation}
+这两个量都沿同一解支改变转速。若用 \(h=\hbar\omega_{\mathrm{rot}}\) 与 \(\hat j_x=\hat J_x/\hbar\) 表示，
+\(\mathcal J^{(2)}=\hbar^2d\langle\hat j_x\rangle/dh\)。
+在平滑、驻定且自洽的推转解支上，也可由Routhian \(E'(h)=\langle H-h\hat j_x\rangle\) 的曲率求得它。Kvasil与Nazmitdinov的Fig.~3将这种同方向导数与RPA的TV惯量对照，作为其平均场极小点与伪模分离的一致性检查；这种比较有共同的参考态、扰动方向和实现条件。\cite[PDF~p.~4, Fig.~3及相邻正文]{kvasil-2006-dy156-yb162-crpa-wobbling}
+
+对已正确建立自旋序列、以 \(\Delta I=2\) 跃迁为主的平滑转动带，原文还采用带内相邻 \(\gamma\) 能量之差的估计
+\begin{equation}\label{eq:2-6-band-finite-difference}
+\mathcal J^{(2)}\simeq
+\frac{4\hbar^2}
+{E_\gamma(I+2\to I)-E_\gamma(I\to I-2)} .
+\end{equation}
+这是指定转动映射下的有限差分，跨越带交叉、混合或错配的序列时，其解释需另作检验。一个较大的带内 \(\mathcal J^{(2)}\)，只说明沿该序列的能量差变化，尚未给出转轴向 \(y,z\) 偏转时的回复响应。
+
+Matsuzaki等在指定非轴形变的推转Nilsson加RPA实现中得到
+\begin{equation}\label{eq:2-6-wobbling-response}
+\omega_{\mathrm{wob}}^2
+=\omega_{\mathrm{rot}}^2
+\frac{
+[\mathcal J_x-\mathcal J_y^{\mathrm{eff}}(\omega_{\mathrm{wob}})]
+[\mathcal J_x-\mathcal J_z^{\mathrm{eff}}(\omega_{\mathrm{wob}})]
+}{
+\mathcal J_y^{\mathrm{eff}}(\omega_{\mathrm{wob}})
+\mathcal J_z^{\mathrm{eff}}(\omega_{\mathrm{wob}})
+},
+\end{equation}
+其中 \(\mathcal J_x=\langle J_x\rangle/\omega_{\mathrm{rot}}\)，而横向有效惯量须在待求模频率处评价，并带着给定转速、形变与准粒子输入。式的结构虽类似三轴转子，却是一个含响应函数的隐式根条件，不能将沿带 \(\mathcal J^{(2)}\) 直接填入两个横向位置。\cite[PDF~pp.~3--5, Eqs.~(8)--(12)]{matsuzaki-2004-nuclear-inertia-and-wobbling}
+
+该式中的 \(\omega\) 均按角频率理解；在原式中出现 \(\hbar\omega_n\) 的准粒子激发能应与它区分。原文Eq.~(11)另含因子 \(\omega_n^2-\omega_{\mathrm{rot}}^2\)，分离旋转坐标系中的冗余转动根。因此，前述静止破缺参考上的NG零频条件，不能被不加变换地用来要求这一旋转框架中的伪模也在 \(\omega_n=0\)。
+
+即使式\eqref{eq:2-6-wobbling-response}右端允许实根，还须检查相应态的集体性和电磁连接。作者也指出Nilsson势的速度依赖会使其 \(\mathcal J_x\) 偏大，且未给出横向量的对应修正；这限制了将其惯量比作为无条件定量结果的用法。\cite[PDF~p.~5, Eq.~(12)后讨论]{matsuzaki-2004-nuclear-inertia-and-wobbling}
+
+Kvasil与Nazmitdinov的Dy、Yb例子还说明，相近的带弯曲现象在同一研究中可以分别涉及形状软模和中子对顺排；其带交叉附近的配对隙采用了明确的唯象处方。不能因为使用了“自洽”或“RPA”便省去这些输入，更不能将个别 \(\gamma\) 分支的演化推广为所有软核的同一个极限。\cite[PDF~pp.~3--4, Eq.~(6), Figs.~2--3]{kvasil-2006-dy156-yb162-crpa-wobbling}
+
+由此，PES、带内能差、带间激发能与绝对电磁跃迁提供的是相互补充的约束。对摆动或形状模的具体判断，需要同一组声明的形状、配对、残余响应和算符共同给出可比较预言；单独一个势谷、一个带内惯量或配对减弱趋势，都不足以完成横向模式的识别。

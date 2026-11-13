@@ -1,0 +1,179 @@
+{
+  "generator": "system/scripts/a130_latex_figures.py",
+  "producer": "G80 (Gemini Figure Producer)",
+  "version": "v2.2-round2",
+  "generated_utc": "2026-11-13T02:15:33.092756+00:00",
+  "target_directory": "raw/writing/gpt/A130/these_2023_template/these_template/Img",
+  "figures_count": 7,
+  "figures": [
+    {
+      "id": "occupancy-centroids",
+      "type": "teaching_model",
+      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/occupancy-centroids.svg",
+      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/occupancy-centroids.pdf",
+      "preview_png": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G80/occupancy-centroids.png",
+      "svg_sha256": "1e29a944808e0b37ca0a89ad1302a7902f8d86d3e3c35c0f6fa267f2e5ee9de9",
+      "pdf_sha256": "1c016d53943e8c3b59da407d4bafe4a9f44c1ffbf3eba284e05306a25d31ae14",
+      "inputs": [
+        "system/scripts/a130_rewrite_monopole_centroid_audit.py"
+      ],
+      "parameters": {
+        "g": 8,
+        "e0": 0.0,
+        "V": 1.0,
+        "B": 0.0,
+        "units": "Arbitrary Units"
+      },
+      "boundaries": [
+        "Single-orbit two-body monopole benchmark only",
+        "No configuration mixing, cross-shell monopole, or pairing residual force",
+        "Not an experimental single-particle state (ESPE) extraction",
+        "Removal only defined for n > 0; addition only defined for n < g"
+      ],
+      "caption": "Particle-occupancy dependence of addition/removal energies, continuous derivative, and spectral centroid in a single-j degenerate shell model."
+    },
+    {
+      "id": "gamma-measure",
+      "type": "analytical_geometry",
+      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/gamma-measure.svg",
+      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/gamma-measure.pdf",
+      "preview_png": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G80/gamma-measure.png",
+      "svg_sha256": "df58728835b86376aa6cb1a8ed0816a1099025a4e49450e13359c37cef3df7ba",
+      "pdf_sha256": "c3336dd781432a15b9fb8a2f24ff334327009e4d3098353ff3c7731cf4bc02f6",
+      "inputs": [
+        "Bohr-Mottelson 5D collective Hamiltonian volume element"
+      ],
+      "parameters": {
+        "gamma_domain": "[0, pi/3]",
+        "norm_gamma": 0.9999999999999999,
+        "norm_x": 1.0,
+        "x2_expectation": 0.3333333333333333
+      },
+      "boundaries": [
+        "Isotropic flat collective potential assumption",
+        "Density peak is a coordinate Jacobian projection, not a potential well",
+        "Does not include dynamic pairing or microscopic particle-rotor polarization"
+      ],
+      "caption": "Isotropic geometric phase-space volume measure and probability distribution for the triaxial shape coordinate."
+    },
+    {
+      "id": "digital-energy-response",
+      "type": "simulation_csv",
+      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/digital-energy-response.svg",
+      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/digital-energy-response.pdf",
+      "preview_png": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G80/digital-energy-response.png",
+      "svg_sha256": "8e000ce14eee67eda2dd9afe8c1f97531e5ddc40c66a439b4ae9edf258500e54",
+      "pdf_sha256": "41520bb253609d323090add64e02aa41564ee5c3b8a007df8c5fb39965a0df9b",
+      "inputs": [
+        "outputs/l4/20261108-digital-pulse-response/ballistic_deficit_study.csv"
+      ],
+      "input_sha256": "e76fd8c6f896aea49cdb3d1489b6ef398f023422ee7449d4dc97e43b7066b353",
+      "parameters": {
+        "decay_ns": 50000.0,
+        "shaping_rise_k_ns": 2000,
+        "tested_flat_tops": [
+          0,
+          100,
+          400
+        ],
+        "rise_time_range_ns": [
+          20,
+          400
+        ]
+      },
+      "boundaries": [
+        "Ideal noiseless double-exponential pulse response",
+        "No charge-carrier drift simulation or preamplifier noise profile",
+        "Not an in-situ nuclear detector calibration"
+      ],
+      "caption": "Digital trapezoidal filter ballistic deficit and flat-top mitigation under varying pulse collection rise times."
+    },
+    {
+      "id": "cfd-phase-convergence",
+      "type": "simulation_csv",
+      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/cfd-phase-convergence.svg",
+      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/cfd-phase-convergence.pdf",
+      "preview_png": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G80/cfd-phase-convergence.png",
+      "svg_sha256": "b2374a5af78a9e9347aa234c3172b75ae788d7245e1fc9a3fa406eddc56ad46a",
+      "pdf_sha256": "dbfbbdcd9cd39fb637f62e8cb58c9013535b1844a93bec75dad61243bcdbba29",
+      "inputs": [
+        "outputs/l4/20261108-digital-pulse-response/sampling_convergence.csv",
+        "outputs/l4/20261108-digital-pulse-response/cfd_phase_walk_analysis.csv"
+      ],
+      "input_sha256": {
+        "convergence": "fcbc5a3ebf68e5ef8f0cb5dabfc1be09484d4f99757f9f2f9db6909225469222",
+        "walk": "fa67402db75b74cc78dabab173d0ce89e0ba6a77df1545ddd8a330a9ca4d7178"
+      },
+      "parameters": {
+        "sampling_steps_ns": [
+          10.0,
+          5.0,
+          2.5,
+          1.25
+        ],
+        "cfd_fraction": 0.4,
+        "cfd_delay_ns": 80
+      },
+      "boundaries": [
+        "Reference latency (t_ref ~ 157-161 ns) is filter group delay, not timing jitter or walk",
+        "Error values are empirical maxima of 20 discrete phase samples, not an analytic continuous bound",
+        "No electronic noise, timing discriminator walk, or jitter included"
+      ],
+      "caption": "Digital CFD sub-clock phase walk timing error and interpolation convergence with sampling clock interval."
+    },
+    {
+      "id": "shape-moments",
+      "type": "concept",
+      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/shape-moments.svg",
+      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/shape-moments.pdf",
+      "preview_png": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G80/shape-moments.png",
+      "svg_sha256": "5bb89e143050cb1765f0bb994ca429e797a9854029ec07f15aeb1507fe598e36",
+      "pdf_sha256": "d174e5ac579b08a4bf4255ebe50006b9756530e91ca5507aea6c20fab9613097",
+      "inputs": [
+        "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md (Section 1.2/2.1)"
+      ],
+      "boundaries": [
+        "Conceptual schematic for laboratory frame vs intrinsic body-fixed frame",
+        "Isotropic ground state is a quantum angular momentum singlet, not an exposure time-average",
+        "Scalar sum q2 = sum B(E2; 0+ -> 2_n+) includes zero-point fluctuations and self-terms, not proving rigid deformation alone"
+      ],
+      "caption": "Conceptual distinction between isotropic laboratory state, deformed body-fixed reference spheroid, and scalar E2 quadrupole correlation network."
+    },
+    {
+      "id": "six-region-map",
+      "type": "concept_map",
+      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/six-region-map.svg",
+      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/six-region-map.pdf",
+      "preview_png": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G80/six-region-map.png",
+      "svg_sha256": "14f733c02ef57aecf6114624eb7cd64a69cac1a79ff1de64e6eeed79ccc83a8e",
+      "pdf_sha256": "1bbb37e7b35806a1f04bb7c63e49569ca88f35d5be4e58eb37533987778b7382",
+      "inputs": [
+        "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md (Section 1.4 & S6 Table I)"
+      ],
+      "boundaries": [
+        "Strictly restricted to Section 1.4 verified anchor examples (64Ge, 74/76Kr, 98Zr, 133Ce, 163Lu, 182-188Hg)",
+        "Annotated explicitly as selected examples / not exhaustive territory labels",
+        "Anchored on 133Ce triaxiality benchmark"
+      ],
+      "caption": "Comparative landscape of experimental probes, verified isotope examples, and observational boundaries across six nuclear mass regions."
+    },
+    {
+      "id": "chapter-dependency",
+      "type": "architecture_dependency",
+      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/chapter-dependency.svg",
+      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/chapter-dependency.pdf",
+      "preview_png": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G80/chapter-dependency.png",
+      "svg_sha256": "703e28eb4d60ab8ce1d31d72cae7753ba193a004109e40d3981f41fbae0dbd84",
+      "pdf_sha256": "c817f4776d702eb99f91d94f13c5ef6324aae5699cc943368e67e654ed5e4065",
+      "inputs": [
+        "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md (Section 1.5)"
+      ],
+      "boundaries": [
+        "Covers Chapters 1-5 structural workflow and evidence loops",
+        "Differentiates forward deductive path from backward empirical constraints",
+        "Does not substitute for section-level mathematical derivations"
+      ],
+      "caption": "Dependency and feedback architecture among the five thesis chapters, linking questions, microscopic models, triaxial modes, cross-region tests, and in-beam spectroscopy."
+    }
+  ]
+}

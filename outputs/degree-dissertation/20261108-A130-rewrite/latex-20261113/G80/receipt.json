@@ -1,0 +1,32 @@
+{
+  "status": "completed",
+  "version": "v2.2-round2",
+  "generated_utc": "2026-11-13T02:15:33.108830+00:00",
+  "repairs_applied_round2": [
+    "six-region-map: strictly restricted to Section 1.4 verified anchors (64Ge, 74,76Kr, 98Zr, 133Ce, 163Lu, 182-188Hg); card subtitles marked as selected examples / not exhaustive; eliminated all unverified isotopes and generic probes",
+    "gamma-measure: bottom warning wrapped into 2 short lines with bottom margin 0.24, completely eliminating side clipping",
+    "cfd-phase-convergence: only labeled top point 0.2566 ns in panel (b), removing crowded low-end labels"
+  ],
+  "figures": [
+    "occupancy-centroids",
+    "gamma-measure",
+    "digital-energy-response",
+    "cfd-phase-convergence",
+    "shape-moments",
+    "six-region-map",
+    "chapter-dependency"
+  ],
+  "quantitative_figures": [
+    "occupancy-centroids",
+    "gamma-measure",
+    "digital-energy-response",
+    "cfd-phase-convergence"
+  ],
+  "conceptual_figures": [
+    "shape-moments",
+    "six-region-map",
+    "chapter-dependency"
+  ],
+  "manifest_sha256": "6ed844620c04718173d7d76127744c789fb94f60196847cdb71c74d9a6738b27",
+  "producer_sha256": "6755b0da5dcb5f0ffb6d77995dadbb3a3203ddf71def85717b3e0f58aa11bc1b"
+}

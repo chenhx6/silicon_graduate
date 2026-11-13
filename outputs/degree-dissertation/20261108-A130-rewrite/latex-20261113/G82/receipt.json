@@ -1,0 +1,260 @@
+{
+  "worker": "G82 (formerly G78)",
+  "recorded_at": "2026-11-13T02:17:31.567214+00:00",
+  "stage_a": {
+    "status": "ready_for_parent_acceptance",
+    "source_original": "Duguet2015 16-page arXiv v3 PDF; T12 is review provenance only",
+    "actual_read_pages": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "artifacts": [
+      {
+        "path": "knowledge/sources/duguet-2015-non-observable-nuclear-shell-structure.md",
+        "sha256": "d5f903ffa11460f918c34bdc77ab7fe604b1e905cc87ac36953e30555c247111",
+        "size_bytes": 5731
+      },
+      {
+        "path": "knowledge/research-notes/a130-rewrite-espe-centroids-freezing-and-overlaps-20261108.md",
+        "sha256": "5b716da5104bf28acd600e447e72ceb7c84282b0ff268d4e470f6156ccbca6eb",
+        "size_bytes": 13351
+      },
+      {
+        "path": "raw/papers/gpt/query/20261108-a130-espe-primary/manifest.t12-verified.json",
+        "sha256": "bdf6773205f2268f77d3ab0349d40bdebc4022258adec714b3a26720f99ca77a",
+        "size_bytes": 4758
+      }
+    ],
+    "review_inputs": [
+      {
+        "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T12/correction.tex",
+        "sha256": "fbe78ca5752deefcb7632bd4396bcec30719d78b5369f97fb1e3e97f5f2e4508"
+      },
+      {
+        "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T12/report.json",
+        "sha256": "f2ec81b673145ca19e296ed4dff6621840956077debbeafaca041c6ac56ca585"
+      }
+    ],
+    "baranger_boundary": "1-page PDF + lossy OCR XML, no full-formula verification",
+    "new_complex_derivations": [],
+    "archive_gate": {
+      "ok": true,
+      "failure_count": 0,
+      "scope": "explicit new source; manifest hashes separately recorded"
+    },
+    "manifest_verification": {
+      "recorded_at": "2026-11-13T02:17:31.567214+00:00",
+      "file_hashes_and_sizes_checked": 4,
+      "original_pdf_xml_and_manifests_unchanged": true
+    }
+  },
+  "stage_b": {
+    "status": "ready_for_parent_acceptance",
+    "recorded_at": "2026-11-13T02:17:31.567214+00:00",
+    "artifacts": [
+      {
+        "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-6.tex",
+        "sha256": "ad956ea0748a82b31e82a917df2d16fec1b744be1ce72f91c875eec0ae55ad64",
+        "size_bytes": 18051
+      },
+      {
+        "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixC.tex",
+        "sha256": "67eece7eea1d3d9693ab4e012147e126d2a00a8bee835d99855f5e1d205b1b76",
+        "size_bytes": 5366
+      },
+      {
+        "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-6.json",
+        "sha256": "2487bf88b9c95e0a55a5ca60892d84112964b2d5e4426658dc709487281f72af",
+        "size_bytes": 35353
+      },
+      {
+        "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G82/outline.json",
+        "sha256": "c460d65d18bbc7becd3a2d566bdfe57da19604f4de3f51925fc7393608075a58",
+        "size_bytes": 5938
+      }
+    ],
+    "equation_count": {
+      "main": 21,
+      "appendix": 8
+    },
+    "compile_check": {
+      "kind": "section_2_6_and_response_appendix_only",
+      "engine": "xelatex, ctexbook fontset=fandol, 146.6mm text width",
+      "bibliography": "read existing canonical BibTeX, no modification",
+      "bibliography_input": {
+        "path": "raw/writing/gpt/A130/these_2023_template/these_template/Biblio/ref.bib",
+        "sha256": "cd371bb3a30f03e12e9fd990bd086147e3c5631ffe581735cdc5d9342ed47023",
+        "size_bytes": 11726
+      },
+      "commands": [
+        {
+          "command": [
+            "bibtex",
+            "smoke"
+          ],
+          "returncode": 0
+        },
+        {
+          "command": [
+            "xelatex",
+            "-interaction=nonstopmode",
+            "-halt-on-error",
+            "smoke.tex"
+          ],
+          "returncode": 0
+        },
+        {
+          "command": [
+            "xelatex",
+            "-interaction=nonstopmode",
+            "-halt-on-error",
+            "smoke.tex"
+          ],
+          "returncode": 0
+        }
+      ],
+      "overfull_hbox_count": 0,
+      "missing_character_count": 0,
+      "undefined_citation_count": 0,
+      "undefined_reference_count": 0,
+      "output": [
+        "Output written on smoke.pdf (9 pages)."
+      ],
+      "pdf": {
+        "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G82/smoke.pdf",
+        "sha256": "0aca9dc38a6b1bf48ce482ab3143f1e799ccaae15d2b7d16d11f1adb570c899e",
+        "size_bytes": 326149
+      },
+      "limitation": "Local format/syntax check only; G76 owns integrated compilation, parent owns scientific acceptance"
+    },
+    "unresolved": [
+      "未来具体核/阻塞或倾斜参考的NG归一、残余相互作用与横向修正需指定实现；本文未产生新的普适推导",
+      "附C仅补响应约定；一般坐标依赖质量、量子势和全体边界条件不在此处臆造"
+    ]
+  },
+  "protected_baseline": {
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-1.tex": "fe7f297fc4bdd8e92bbb657b38fd2ec934823aa38beea8475718f805580b9ea9",
+    "raw/writing/gpt/A130/latex-evidence-ledger/section-2-1.json": "a58720eda9aa19f215847d90239c9abb54262fc64781029b4ef400f8f3752e49",
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-2.tex": "538c6da1788b6f520ace80e15f1dec561974b54efb2e5d7a32c21323daf9000c",
+    "raw/writing/gpt/A130/latex-evidence-ledger/section-2-2.json": "b86fe2832409a1af0238f9f71b957feb72fccbcdb55ee8eeba375bbce13a5733",
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-3.tex": "715d8d24513b2426e67dfff759e23955189490160c58c4746ddcfa2286ee0a41",
+    "raw/writing/gpt/A130/latex-evidence-ledger/section-2-3.json": "dc9bd1af1e16abd30c221e4e912002f7af0dbde992b83f7e9c542f8114a58160",
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-4.tex": "8960e78b76ce70f4ada42dac7c653a73eb130fc0ed4e1e2a75d4607b7eddbd9a",
+    "raw/writing/gpt/A130/latex-evidence-ledger/section-2-4.json": "3b8f467a7052cfd32b0ce856a0527caec8b29d5fda9a3d43478e5ae2fc8d7e58",
+    "system/memory.md": "015965f5636f239aa4f26f66a58d2ccfbfa20366a377fe3a28d7d4858492ed89",
+    "PLAN.md": "769e038741f632f4cca9794f30e363d7bd7c0c838b23af4432069abd8e347ec3"
+  },
+  "git_commit_or_push_executed": false,
+  "derived_agents_created": false,
+  "layout_repair": {
+    "status": "ready_for_G76_recompile",
+    "recorded_at": "2026-11-13T02:03:07.644139+00:00",
+    "checks": [
+      {
+        "section": "2-1",
+        "recorded_at": "2026-11-13T02:03:07.644139+00:00",
+        "before_sha256": "fe7f297fc4bdd8e92bbb657b38fd2ec934823aa38beea8475718f805580b9ea9",
+        "after_sha256": "f6f488ac71cce90a75be9742b4c1709d54af65d3298c68ce9d2869c7fd625f1f",
+        "display_equations_compared": 29,
+        "display_math_tokens_unchanged": true,
+        "labels_unchanged": true,
+        "citations_unchanged": true,
+        "remaining_u208a": 0,
+        "allowed_changes": [
+          "eq:2-1-21改equation内aligned两行"
+        ]
+      },
+      {
+        "section": "2-2",
+        "recorded_at": "2026-11-13T02:03:07.644139+00:00",
+        "before_sha256": "538c6da1788b6f520ace80e15f1dec561974b54efb2e5d7a32c21323daf9000c",
+        "after_sha256": "0ccd5f43a450f1285b814ce644031cdb0012d4ff6fd457151209aa1d392de7a1",
+        "display_equations_compared": 14,
+        "display_math_tokens_unchanged": true,
+        "labels_unchanged": true,
+        "citations_unchanged": true,
+        "remaining_u208a": 0,
+        "allowed_changes": [
+          "eq:2-2-11改aligned三行",
+          "arXiv与英文单词可断行，不改任何字符数据"
+        ]
+      },
+      {
+        "section": "2-3",
+        "recorded_at": "2026-11-13T02:03:07.644139+00:00",
+        "before_sha256": "715d8d24513b2426e67dfff759e23955189490160c58c4746ddcfa2286ee0a41",
+        "after_sha256": "0cba2e7dbbae51d8e62b5f6f253fcc7b1584b1b99eaad8f7fec58564ad03b640",
+        "display_equations_compared": 41,
+        "display_math_tokens_unchanged": true,
+        "labels_unchanged": true,
+        "citations_unchanged": true,
+        "remaining_u208a": 0,
+        "allowed_changes": [
+          "eq:2-3-2改aligned两行",
+          "一个正文Unicode B₊改为数学B_+，增加一个行内数学定界块"
+        ]
+      }
+    ],
+    "delta_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G82/layout-fixes.diff",
+    "compilation_boundary": "G76负责整体编译；本回执不以词法检查声明整体溢出已消除",
+    "artifacts": [
+      {
+        "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-1.tex",
+        "sha256": "f6f488ac71cce90a75be9742b4c1709d54af65d3298c68ce9d2869c7fd625f1f",
+        "size_bytes": 24066
+      },
+      {
+        "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-1.json",
+        "sha256": "f3a8ceb63339bc06d01582863fba94d66533d146484c1d5cb24582ca77889272",
+        "size_bytes": 10507
+      },
+      {
+        "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-2.tex",
+        "sha256": "0ccd5f43a450f1285b814ce644031cdb0012d4ff6fd457151209aa1d392de7a1",
+        "size_bytes": 18750
+      },
+      {
+        "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-2.json",
+        "sha256": "f7108ff2effb33cf162ca571507c6cd1d1e5eebc831009be68765638c74e3d33",
+        "size_bytes": 13335
+      },
+      {
+        "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-3.tex",
+        "sha256": "0cba2e7dbbae51d8e62b5f6f253fcc7b1584b1b99eaad8f7fec58564ad03b640",
+        "size_bytes": 32601
+      },
+      {
+        "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-3.json",
+        "sha256": "9b4cb758c4667ce430aeb59af8b930c812a23759a32f7218d62398afb368c403",
+        "size_bytes": 9244
+      }
+    ]
+  },
+  "protected_checks": {
+    "section_2_4_tex_and_ledger_unchanged": true,
+    "authorised_layout_exceptions": [
+      "2.1",
+      "2.2",
+      "2.3"
+    ],
+    "other_concurrent_changes_observed": []
+  },
+  "validation": {
+    "recorded_at": "2026-11-13T02:17:31.567214+00:00",
+    "unique_new_labels": 40,
+    "equation_attributions_complete": true,
+    "canonical_citation_keys_found": [
+      "hinohara-2015-nambu-goldstone-inertia-response",
+      "kvasil-2006-dy156-yb162-crpa-wobbling",
+      "matsuzaki-2004-nuclear-inertia-and-wobbling",
+      "petrik-kortelainen-2018-rotational-tv-inertia",
+      "prochniak-rohozinski-2009-bohr-collective-hamiltonian"
+    ],
+    "integrated_compilation_owner": "G76"
+  },
+  "task_status": "scoped_delivery_complete_pending_parent_scientific_acceptance"
+}

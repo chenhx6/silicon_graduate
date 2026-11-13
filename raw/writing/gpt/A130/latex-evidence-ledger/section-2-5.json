@@ -1,0 +1,121 @@
+{
+  "section_id": "2.5",
+  "title": "内禀参考与对称性恢复",
+  "section_label": "sec:2-5",
+  "type": "new-draft",
+  "status": "latex-draft-final-audited-v5",
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-5.tex",
+  "output_tex_sha256": "d63f29d8e491069876161d6dfe49f8997ad0ac0af514ea56c9c25b06a85b4fcb",
+  "scope_boundary": "系统阐释微观单体平均场参考态自发对称破缺与实验室定态之间的物理关系，含 hbar 量纲规范的三维角动量投影算符代数与重叠核度规，Hill-Wheeler 广义本征方程与能标规范平移不变性定理，线性幺正宇称投影与反幺正手征反转算符的反线性不可投影性本质区别，并提供非正交双态模型与轴对称波包投影两个最短可计算手算阶梯；群论投影乘法规则、复久期分解、定理证明与度规截断算法链接至附录B。",
+  "source_inputs": [
+    {
+      "source_id": "bohr-1952-surface-particle-coupling",
+      "canonical_source": "A. Bohr, Dan. Mat. Fys. Medd. 26, no. 14 (1952)",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-1952-mfm26-14.pdf",
+      "raw_sha256": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d",
+      "actual_read_pages": "pp. 8–18 (Section II, Hamiltonian and transformation to body-fixed axes)",
+      "claims_supported": [
+        "内禀体轴参考系的引入与集体转动哈密顿量构建 (pp. 8–11)",
+        "实验室系总角动量守恒与内禀坐标表象的运动学分离 (pp. 12–18)"
+      ]
+    },
+    {
+      "source_id": "bohr-mottelson-1953-collective-individual-original",
+      "canonical_source": "A. Bohr & B. R. Mottelson, Dan. Mat. Fys. Medd. 27, no. 16 (1953)",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-mottelson-1953-mfm27-16.pdf",
+      "raw_sha256": "b0501e3e098869a7fb14527a3dc8c9b80444affdb265394a928e0794ae708945",
+      "actual_read_pages": "pp. 24–36 (Strong coupling wave functions, rotational states and symmetries)",
+      "claims_supported": [
+        "强变形核绝热波函数的分解与转动态展开 (pp. 24–28)",
+        "轴对称变形核 K=0 态的角动量投影波函数 (pp. 29–36)"
+      ]
+    },
+    {
+      "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+      "canonical_source": "A. Bohr & B. R. Mottelson, Nuclear Structure, Vol. II: Nuclear Deformations, World Scientific Publishing Co. Pte. Ltd. (1998 re-issue, local copy 1999 reprint)",
+      "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "raw_sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "actual_read_pages": "PDF pp. 23–27 (Chapter 4, Section 4-1 Occurence of Collective Rotational Motion in Quantal Systems), PDF pp. 197–215 (Section 4-5 Systems Without Axial Symmetry)",
+      "claims_supported": [
+        "转动自由度的出现起源于内禀形变参考对连续空间转动不变性的破缺 (PDF pp. 24–25)",
+        "内禀形变与跃迁多极电四极矩的物理关系 (PDF pp. 26–27)"
+      ],
+      "edition_note": "所读为本地 1998/1999 World Scientific 再版 PDF，扉页与前言核实；不假装阅读 1975 年首印版。"
+    },
+    {
+      "source_id": "book-raduta-coherent-states",
+      "canonical_source": "A. A. Raduta, Nuclear Structure with Coherent States, Springer (2016)",
+      "raw_file": "raw/books/nuclear structure with coherent states_Raduta.pdf",
+      "raw_sha256": "98b057e53e323b0f4781060ad5ae4a8c045ac36b32c0650033953360d951aca3",
+      "actual_read_pages": "PDF pp. 54–55 (Section 3.3, printed p. 43, Eqs.(3.3.3)–(3.3.5) defining projection operator P^J_MK); PDF pp. 189–195 (Chapter 6, Section 6.1 CSM and overlap integrals Eq.(6.1.17))",
+      "claims_supported": [
+        "相干态波包的角动量投影展开与重叠函数积分计算 (PDF pp. 189–192)",
+        "投影基矢矩阵元求解与广义特征方程对角化 (PDF pp. 192–195)"
+      ]
+    },
+    {
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "canonical_source": "J. Suhonen, From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory, Springer (2007)",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "actual_read_pages": "PDF pp. 38–41 (Section 2.1.2 Wigner D Functions and Spherical Tensors), PDF pp. 44–45 (Section 2.2 The Wigner-Eckart Theorem)",
+      "claims_supported": [
+        "空间有限转动算符的欧拉角参数化与不可约表示 Wigner D 矩阵定义 (PDF pp. 39–41)",
+        "Wigner D 矩阵的单张积性与结合对称性 (PDF pp. 40–41)"
+      ]
+    },
+    {
+      "source_id": "knowledge/research-notes/a130-rewrite-chiral-nonorthogonal-and-fingerprint-boundaries-20261108.md",
+      "canonical_source": "Wiki Research Note (2026-11-08)",
+      "actual_read_pages": "§Provisional Reasoning (非正交矩阵规范平移与两态解析解)",
+      "claims_supported": [
+        "非正交基矢下能标平移必须为 H -> H + c N 的严格定理与对角平移错误排除",
+        "实对称两态模型解析解 E_+- = (h +- k)/(1 +- S) 与物理非负能隙 Delta E_phys = 2|h S - k|/(1 - S^2)",
+        "纯度规重叠 k = h S 时物理能隙严格为零定理"
+      ]
+    },
+    {
+      "source_id": "knowledge/research-notes/doctoral-r3-quantum-labels-and-model-boundaries-20261108.md",
+      "canonical_source": "Wiki Research Note (2026-11-08)",
+      "actual_read_pages": "§手征反幺正与宇称线性投影的本质对立",
+      "claims_supported": [
+        "线性幺正宇称投影算符 P^+- = (1 +- Pi)/2 具有幂等性与正交子空间直和分解",
+        "反幺正算符 C = T R_y(pi) 的反线性特征导致 (1 +- C)/2 对复数乘法不封闭，无法构造复投影算符",
+        "有限体系手征对称性恢复是基于非正交两阱量子隧传的动态过程"
+      ]
+    }
+  ],
+  "notations_and_conventions": {
+    "angular_momentum_dimension": "总角动量算符 \\hat{\\mathbf{J}} 具有 \\hbar 量纲，本征值 \\hat{\\mathbf{J}}^2 = \\hbar^2 I(I+1)；所有转动算符指数均严格除以 \\hbar：\\exp(-i \\theta \\hat{J} / \\hbar)",
+    "euler_angles": "\\Omega = (\\phi, \\theta, \\psi)，Haar 测度 d\\Omega = \\sin\\theta d\\theta d\\phi d\\psi，群流形积分 8\\pi^2",
+    "overlap_metric": "度规核 N^I_{KK'} 与哈密顿量核 H^I_{KK'} 严格区分；非正交基矢下 Ritz 变分导出的广义本征方程为标准多体泛函变分代数推导",
+    "energy_shift": "算符平移 \\hat{H} -> \\hat{H} + c \\hat{\\mathbf{1}} 对应非正交矩阵变换 H -> H + c N，能量平移 E -> E + c 且特征子空间严格保持"
+  },
+  "claims_and_derivations": {
+    "broken_symmetry_not_laboratory_eigenstate": "被破缺的仅仅是作为变分试探波包引入的微观单参考态 |Phi>，而非所有内禀坐标描述；玻尔统合波函数使用内禀坐标仍具确定良量子数",
+    "peierls_yoccoz_projector_algebra": "三维投影算符严格具备物理量纲 \\hbar，满足伴随性质与群乘法幂等规则",
+    "hill_wheeler_generalized_equation": "Ritz 变分原理在非正交基下导出行列式久期方程 det(H^I - E N^I) = 0",
+    "energy_gauge_shift_invariance": "H -> H + c N 保证特征能谱统一平移 E -> E + c 且本征态子空间严格守恒；对角平移 H -> H + c 1 引入非对角扰动项 c(1 - N) 会导致能级间距虚假改变与态漂移",
+    "parity_unitary_vs_chiral_antiunitary": "空间反演为线性幺正算符，可定义正交投影算符；手征反转算符为反线性反幺正算符，在复数域不构成复投影算符，对称性恢复靠有限势垒下的两阱相干隧穿动力学实现",
+    "two_state_tunneling_stepping_stone": "实对称两态模型求出无序根对 E_+- 与有序能谱 E_low, E_high，物理能隙为非负绝对值 Delta E_phys = 2|h S - k|/(1 - S^2)",
+    "axial_emergence_stepping_stone": "轴对称 K=0 态矢中对 psi 积分给出 2pi，对 phi 积分保留实验室磁量子数 M (-I <= M <= I)；偶自旋选择定则由内禀 R_{y,intr}(pi) 对称性推导得出；度规核化为一维倾角积分；转子能谱依赖于强形变与绝热展开动力学假设，投影本身不自动保证严格刚体谱"
+  },
+  "competing_explanations_and_boundaries": {
+    "model_deformation_vs_observable": "内禀形变参数 (beta, gamma) 是模型参数，绝非实验室直接测量算符",
+    "truncation_vs_exact_redundancy": "度规矩阵真零模 (d_alpha = 0) 属于严格冗余必须剔除；微小非零本征值有限截断属于数值降维近似，标准问题仅在保留子空间内部等价，必须做收敛性与稳定性检查",
+    "rotational_band_dynamical_emergence": "转动能带是空间连续对称性恢复后的动力学涌现，并不要求微观核预先具备先验经典刚体结构"
+  },
+  "reader_checks": [
+    "为什么采用内禀坐标描述不等于破缺转动对称性？",
+    "为什么加能量常数时，非正交矩阵必须变换为 H -> H + c N 而不能只改对角 H？",
+    "为什么偶自旋选择定则是内禀 R_{y,intr}(pi) 离散二度轴对称性的结果，而非空间宇称的结果？",
+    "角动量投影为何不自动推出严格的 I(I+1) 刚体转子谱？"
+  ],
+  "prohibitions_strictly_obeyed": [
+    "不改已有模板/章入口/其它节/Bib/Img",
+    "不引用不存在的文献 (已彻底排除 ring-schuck-1980)",
+    "不把微小非零度规本征态武断称为虚假零模",
+    "不假装阅读未核查的 1975 年 BM II 首印版，如实标明 1998/1999 World Scientific 再版 PDF"
+  ],
+  "open_issues": []
+}

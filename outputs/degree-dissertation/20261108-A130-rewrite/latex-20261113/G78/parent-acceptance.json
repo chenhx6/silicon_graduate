@@ -1,0 +1,39 @@
+{
+  "reviewer": "parent-agent",
+  "checked_at": "2026-11-13T01:39:08.938048+00:00",
+  "decision": "accept-faithful-migration-and-listed-targeted-scientific-fixes",
+  "sections": [
+    {
+      "section": "2.1",
+      "sha256": "fe7f297fc4bdd8e92bbb657b38fd2ec934823aa38beea8475718f805580b9ea9",
+      "ledger_sha_matches": true,
+      "unchanged_since_prior_math_check": true,
+      "recorded_at": "2026-11-13T01:37:21.951360+00:00"
+    },
+    {
+      "section": "2.2",
+      "sha256": "538c6da1788b6f520ace80e15f1dec561974b54efb2e5d7a32c21323daf9000c",
+      "ledger_sha_matches": true,
+      "unchanged_since_prior_math_check": true,
+      "recorded_at": "2026-11-13T01:37:21.951360+00:00"
+    },
+    {
+      "section": "2.3",
+      "sha256": "715d8d24513b2426e67dfff759e23955189490160c58c4746ddcfa2286ee0a41",
+      "ledger_sha_matches": true,
+      "unchanged_since_prior_math_check": true,
+      "recorded_at": "2026-11-13T01:37:21.951360+00:00"
+    },
+    {
+      "section": "2.4",
+      "sha256": "8960e78b76ce70f4ada42dac7c653a73eb130fc0ed4e1e2a75d4607b7eddbd9a",
+      "ledger_sha_matches": true,
+      "unchanged_since_prior_math_check": "caption-only-change-after-19/19-check",
+      "recorded_at": "2026-11-13T01:37:21.951360+00:00"
+    }
+  ],
+  "compilation_pending": true,
+  "caption_specificity_verified": "固定β、自旋I=0、常角向质量且γ势平坦",
+  "whole_chapter_complete": false,
+  "boundary": "2.5–2.8 and remaining chapters/appendices remain active. Scope is admitted source content, not finished typesetting."
+}

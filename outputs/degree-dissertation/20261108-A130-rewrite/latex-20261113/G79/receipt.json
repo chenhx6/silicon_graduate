@@ -1,0 +1,120 @@
+{
+  "worker": "G79",
+  "task": "Chapter 5 Sections 5.3, 5.4, 5.9 LaTeX Migration",
+  "timestamp": "2026-11-13T03:14:27.096178+00:00",
+  "sections": {
+    "5.3": {
+      "source_markdown": "raw/writing/gpt/A130/research-draft/section-5-3.md",
+      "source_sha256": "514fd3ab6c968851eece090a54b1e875e99552d8b16fe20114738444af271dfc",
+      "target_latex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-3.tex",
+      "target_sha256": "81f757b33a8ca0e0c65c025661b57e956c3f7d1d7df2972d3a35a89dccf76e04",
+      "ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-3.json",
+      "equation_count": 20,
+      "table_count": 1,
+      "figure_count": 1,
+      "citation_keys": [
+        "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+        "wu-2021-general-purpose-digital-daq-waveform-analysis"
+      ],
+      "key_validations": [
+        "s_norm[n] = s[n]/[k(M+1)] 归一化后取极大值，未用未归一 s 与 1000 比较",
+        "ballistic_deficit_study.csv 8 行 24 值全量吻合",
+        "Img/digital-energy-response.pdf 采用 \\IfFileExists 兜底"
+      ],
+      "unresolved_items": [
+        "待 G80 生成 Img/digital-energy-response.pdf 替换占位",
+        "吴论文 p.20 n[n-k-l] 歧义已保留记录并按 LTI 因果律重建为 v[n-k-l]"
+      ],
+      "layout_modifications": [
+        "S(z) 式采用分步 align 断行消解 60pt 溢出",
+        "表 5.1 表头拆行消解 122pt 溢出，数据未变"
+      ]
+    },
+    "5.4": {
+      "source_markdown": "raw/writing/gpt/A130/research-draft/section-5-4.md",
+      "source_sha256": "276cd22b3dfe627d6852eddb7ff6dbf12eaa1c66b223e4c9e982f8667915a69c",
+      "target_latex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-4.tex",
+      "target_sha256": "18960bdfb1c2e65304a42da6bb39ef3026061b6a6d25d4911dcfdb853f316c26",
+      "ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-4.json",
+      "equation_count": 10,
+      "table_count": 1,
+      "figure_count": 1,
+      "citation_keys": [
+        "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+        "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+        "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync"
+      ],
+      "key_validations": [
+        "sampling_convergence.csv 4 组参数与最大误差完全吻合",
+        "明确标注 20 个离散相位点非连续全局上界，编码位宽不等于真实时间精度",
+        "Img/cfd-phase-convergence.pdf 采用 \\IfFileExists 兜底"
+      ],
+      "unresolved_items": [
+        "待 G80 生成 Img/cfd-phase-convergence.pdf 替换占位",
+        "跨机箱同步波形测试仅有时钟包络最坏估计 (~1.5 ns)，非统计 FWHM"
+      ],
+      "layout_modifications": [
+        "表前输入脉冲改为展示公式 eq:5-4-input-pulse 消解 28pt 溢出",
+        "表 5.2 表头拆行消解 70pt 溢出，数据未变"
+      ]
+    },
+    "5.9": {
+      "source_markdown": "raw/writing/gpt/A130/research-draft/section-5-9.md",
+      "source_sha256": "c3da811fae74df463bc1742bf304c672c7874def3c591dc64d91e0653374b8ca",
+      "target_latex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-9.tex",
+      "target_sha256": "637c5216b62cb9ed1790681e41dedafbb4f504df36f428e736ae7294dd095ab9",
+      "ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-9.json",
+      "equation_count": 40,
+      "table_count": 0,
+      "figure_count": 0,
+      "citation_keys": [
+        "book-suhonen-from-nucleons-to-nucleus",
+        "lange-kumar-hamilton-1982-multipole-admixtures",
+        "campaign-g07-gorgen-2004-163lu-quadrupole-moments"
+      ],
+      "key_validations": [
+        "tau 为平均寿命，未在实用跃迁率公式中混入 ln 2",
+        "总分支比 bk、偏光子分支比 b_gamma,k、ICC alpha 与混合比 delta 口径一致",
+        "C_E2 与 C_M1 率常数精确带单位重建",
+        "Wigner-Eckart 倒易统计权重 (2I_i + 1)/(2I_f + 1) 明确保留"
+      ],
+      "unresolved_items": [
+        "163Lu Görgen (2004) Table I 中 Qt 数值在自旋区间分散显著，正文已标明其两带间 ~4% 理论差异依赖特定假定",
+        "教学算例为两通道闭合模型，未包含粒子衰变与 E0 电子通道"
+      ],
+      "scientific_restoration": [
+        "完全保真恢复已核稿 section-5-9.md 全部文字叙事与 40 个数学块",
+        "严格恢复 delta(E2/M1) 能量系数前因子与辐射幅度算符约定",
+        "撤销多解裁决推断，保留全部数据相容分支"
+      ],
+      "layout_modifications": [
+        "Suhonen 前因子 C_E2 与 C_M1 转为 display align*，消除 0.64pt 溢出",
+        "通道 2 能量算式前分段，消除 15.46pt 溢出",
+        "40 个展示原式与所有数值单位完全保留"
+      ],
+      "glyph_fix": "align* 数学环境末尾句号改为 ASCII '.'，解决 2 处缺失字形"
+    }
+  },
+  "self_assessment": {
+    "latex_syntax_status": "PASS (all braces and environments verified and nested)",
+    "scientific_integrity_status": "HIGH_FIDELITY_MIGRATION (no new claims, exact preservation of formulas and tables)",
+    "scientific_acceptance_note": "格式转换已完成，科学合格性依据原核准稿及证据台账，不以格式通过作为自评科学终结"
+  },
+  "cfd_note": {
+    "path": "knowledge/research-notes/a130-rewrite-cfd-timing-and-clock-boundaries-20261113.md",
+    "sha256": "11980aa47f10dfdd5ea70fa8dee9e3b8e7fff4a2f9a192e6bd775e995a8a541d",
+    "verified_sentences": [
+      "line 22: 把编码对应的名义时间步长当成物理时间分辨率",
+      "line 87: 有效幅度噪声标准差",
+      "line 115: 同一测试脉冲的分路测量可能保留共享噪声或漂移的相关项；若 Cov(t1, t2) > 0，差值谱可以更窄，不能未经协方差检查便套用两路独立噪声的 sqrt(2) 换算",
+      "line 134: 单一时间谱的 FWHM 与平均寿命 tau 没有通用相等关系"
+    ],
+    "added_sections": [
+      "Failure Conditions",
+      "Falsification or Reverse Tests",
+      "Open Questions",
+      "Human Review",
+      "Promotion or Rejection History"
+    ]
+  }
+}

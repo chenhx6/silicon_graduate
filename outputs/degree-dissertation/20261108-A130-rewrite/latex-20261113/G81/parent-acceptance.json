@@ -1,0 +1,24 @@
+{
+  "reviewer": "parent-agent",
+  "checked_at": "2026-11-13T02:41:24.996021+00:00",
+  "decision": "accept-bounded-content-and-T13-repairs",
+  "checks": {
+    "right_action_indices": true,
+    "Ritz_scope": true,
+    "fixed_representation_class": true,
+    "ordered_roots": true,
+    "state_symmetry_energy_labels": true,
+    "S_zero_branch": true,
+    "wrong_shift_relative_energy": true,
+    "no_false_mod4_clause": true,
+    "point_group_terminology": true
+  },
+  "actual_sha256": {
+    "2-5": "d63f29d8e491069876161d6dfe49f8997ad0ac0af514ea56c9c25b06a85b4fcb",
+    "3-5": "5439b517623ae5142cd4711bfd849cc0df1db4574aac3dfd305a2963dabfdea8",
+    "AppendixB": "93785f3c48c54b1cda81f146da0465be7de835267e5842c95c2735f386eef6f8"
+  },
+  "worker_self_certification_adopted": false,
+  "scope": "Source-grounded projection/Ritz, metric and conditional two-state algebra; full text/remaining39 sections not certified.",
+  "final_compilation_pending": true
+}

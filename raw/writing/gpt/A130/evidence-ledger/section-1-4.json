@@ -1,0 +1,291 @@
+{
+  "section_id": "1.4",
+  "title": "六个质量区作为比较坐标",
+  "version": "v1",
+  "recorded_at": "2026-11-08T03:16:13.093588+00:00",
+  "status": "draft-for-parent-review",
+  "contract_file": "outputs/degree-dissertation/20261108-A130-rewrite/writer-contracts/G75.json",
+  "argument_outline": [
+    "承接1.3，将形状、惯量与响应的问题放回实际核素比较；质量数是导航坐标，A约130是研究锚点而非收录边界。",
+    "用Ge64反冲距离寿命、Kr74/76多步库仑激发和Zr98逐态E2分别示范绝对强度、对角/带间网络与结构变化的比较价值，保留Ge理论Qs和Zr外部分支的身份。",
+    "用Ce133高自旋符合与角关联，以及Lu163线形寿命/E2作为取向和组态问题的互补入口；Ce原文的候选带无寿命，Lu绝对量含外部分支、多极混合比与构型映射。",
+    "Hg182–188的低自旋电荷矩阵元网络显示单一连接平缓与条件混合解释的区别；宽误差和186Hg空对角项不能填造，也不替代Ir/Os高自旋核芯。",
+    "跨区比较应逐核对齐费米面与粒子/空穴占据、配对/核芯极化、形状势与惯量、所能布居自旋及探针算符，而非为六区分配互斥模式或统一阈值。",
+    "将未观测分开讨论为生产与feeding窗口、效率/分支/时间接受度、理论稳定性等不同问题，提出可检验的跨区问题，不把候选宣称成已发现的新现象。",
+    "六行短表只导航至第4章；八极、异能态和弱衰变等在其各自态/算符/通道条件下补充核心问题，不以Kr代Br、Zr代Mo/Ru、Hg代Ir/Os。"
+  ],
+  "sources": [
+    {
+      "source_id": "doctoral-r1-g26-starosta-2007-64ge-rdm-e2",
+      "source_page": "knowledge/sources/doctoral-r1-g26-starosta-2007-64ge-rdm-e2.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G26/starosta-2007-64ge-rdm-e2.pdf",
+      "raw_sha256": "715a4c8ada9a6e4bcc2be1df8c845e680d81b6f0c4f91bf70931fe7b10592ad8",
+      "required_locator": "PDF1–3/TableI：64Ge寿命/E2与模型解释，理论Qs不可说成实测；Ge集体性不直接等于已证共存",
+      "edition_read": "本地4页arXiv nucl-ex/0703021v1底本；题录对应2007论文，首页另有编译日期，不据此改变发表年。",
+      "actual_read_pages": "PDF1–3，Table I及线形、feeding和模型讨论；Table I图像核实验/理论列。",
+      "actual_read_pdf_pages": [
+        1,
+        2,
+        3
+      ],
+      "visual_read_pdf_pages": [
+        3
+      ],
+      "text_artifact": "tmp/runs/20261108-A130-rewrite/G75/doctoral-r1-g26-starosta-2007-64ge-rdm-e2-pages.txt",
+      "text_sha256": "062f813262e1c3ae5c094bb03e6e96cc9ab454bdfb4a401068dac198aec509fa",
+      "reading_method": "实际本地PDF抽取选页文本回读，关键列/表注另看页面图像；不继承source页面的全文阅读标签。",
+      "coverage_boundary": "不宣称原事件、原拟合程序、全部波函数或历史转引文献均已获取/重算。"
+    },
+    {
+      "source_id": "doctoral-r1-g27-clement-2007-prc-krypton-coulex",
+      "source_page": "knowledge/sources/doctoral-r1-g27-clement-2007-prc-krypton-coulex.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G27/clement-2007-74kr-76kr-coulex-prc.pdf",
+      "raw_sha256": "2ee6c7be8a2fbb72a9f647a0c284181b2fc197e167381be67685f3a15018c0e8",
+      "required_locator": "PDF11/15 TablesV–VI/X–XI，多步CoulEx矩阵网络与混合；不拿Kr数据证明Br手征/八极",
+      "edition_read": "HAL in2p3-00141102v1馆藏本，22物理页含封面；PDF2为印刷1，PDF11/15为印刷10/14。",
+      "actual_read_pages": "PDF1–2、11、15；PDF11/印刷10 Tables V–VI及PDF15/印刷14 Tables X–XI；两页表图像已核。",
+      "actual_read_pdf_pages": [
+        1,
+        2,
+        11,
+        15
+      ],
+      "visual_read_pdf_pages": [
+        11,
+        15
+      ],
+      "text_artifact": "tmp/runs/20261108-A130-rewrite/G75/doctoral-r1-g27-clement-2007-prc-krypton-coulex-pages.txt",
+      "text_sha256": "32c7819b6628a9677e6963afa731851944e7be7624224c41fde7d3c33f89a428",
+      "reading_method": "实际本地PDF抽取选页文本回读，关键列/表注另看页面图像；不继承source页面的全文阅读标签。",
+      "coverage_boundary": "不宣称原事件、原拟合程序、全部波函数或历史转引文献均已获取/重算。"
+    },
+    {
+      "source_id": "doctoral-r1-g28-singh-2018-98zr-lifetimes",
+      "source_page": "knowledge/sources/doctoral-r1-g28-singh-2018-98zr-lifetimes.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G28/singh-2018-98zr-coexisting-shapes.pdf",
+      "raw_sha256": "37f2d5ee16f799feb66617787d45d25c4f3e0cb4f0f996689a0576811c5a05e3",
+      "required_locator": "PDF2–3/TableI，RDDS寿命、外部分支与逐态E2；Zr急变不等于全A100均O6",
+      "edition_read": "arXiv:1902.02637v1六页底本，题录对应2018 PRL论文；区分预印本日期与发表年。",
+      "actual_read_pages": "PDF1–3，Table I及其寿命/分支误差注脚、RDDS方法和模型对照；PDF3图像已核。",
+      "actual_read_pdf_pages": [
+        1,
+        2,
+        3
+      ],
+      "visual_read_pdf_pages": [
+        3
+      ],
+      "text_artifact": "tmp/runs/20261108-A130-rewrite/G75/doctoral-r1-g28-singh-2018-98zr-lifetimes-pages.txt",
+      "text_sha256": "ce5b71a0e0ae1cc676e661cda0466a072d1e8b29b02da55029bf881618e87d42",
+      "reading_method": "实际本地PDF抽取选页文本回读，关键列/表注另看页面图像；不继承source页面的全文阅读标签。",
+      "coverage_boundary": "不宣称原事件、原拟合程序、全部波函数或历史转引文献均已获取/重算。"
+    },
+    {
+      "source_id": "ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce",
+      "source_page": "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf",
+      "raw_sha256": "3c5a3d7c543140ee25f7cb09376d5aeee760c8ac50c76edd466a010d610c2d0f",
+      "required_locator": "实际PR5 PDF1、3–5，多候选带谱、模型解释/本核无寿命边界；勿读AS8页码错版",
+      "edition_read": "PRL110,172504五页出版reprint（PR5）；未读或混用AS8排版。",
+      "actual_read_pages": "实际PR5 PDF1、3–5，Fig.2、Table I、模型输入与寿命缺口段；未读PDF2能级图的全部跃迁。",
+      "actual_read_pdf_pages": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "visual_read_pdf_pages": [],
+      "text_artifact": "tmp/runs/20261108-A130-rewrite/G75/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce-pages.txt",
+      "text_sha256": "be7a1d9ea2bf3051435d526b66c7711397d99db54b2a222156f2c7726e179439",
+      "reading_method": "实际本地PDF抽取选页文本回读，关键列/表注另看页面图像；不继承source页面的全文阅读标签。",
+      "coverage_boundary": "不宣称原事件、原拟合程序、全部波函数或历史转引文献均已获取/重算。"
+    },
+    {
+      "source_id": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "source_page": "knowledge/sources/campaign-g07-gorgen-2004-163lu-quadrupole-moments.md",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "raw_sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e",
+      "required_locator": "PDF2–4/TablesI–II，绝对E2/Qt、外部分支/delta与构型映射；非普适gold threshold",
+      "edition_read": "PRC69,031301(R)四页发表版；本轮定向读取PDF2–4。",
+      "actual_read_pages": "PDF2–4，Tables I–II、线形寿命、外部分支/混合比与Qt构型映射的讨论。",
+      "actual_read_pdf_pages": [
+        2,
+        3,
+        4
+      ],
+      "visual_read_pdf_pages": [],
+      "text_artifact": "tmp/runs/20261108-A130-rewrite/G75/campaign-g07-gorgen-2004-163lu-quadrupole-moments-pages.txt",
+      "text_sha256": "85207dd0ff0884b85be26dd40279046dec92c294d27ddf009d7eab9e87166370",
+      "reading_method": "实际本地PDF抽取选页文本回读，关键列/表注另看页面图像；不继承source页面的全文阅读标签。",
+      "coverage_boundary": "不宣称原事件、原拟合程序、全部波函数或历史转引文献均已获取/重算。"
+    },
+    {
+      "source_id": "doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg",
+      "source_page": "knowledge/sources/doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G31/Bree-2014-PRL-112-162701.pdf",
+      "raw_sha256": "c80dd7dc376378fad490adba41dd626fa7963dd334a43e18ec2a47307d1f913b",
+      "required_locator": "PDF3–4/TableI，Hg E2矩阵元与两构型解释/宽误差；186空项不能补，Hg低自旋不等于全部Ir/Os高自旋核芯",
+      "edition_read": "White Rose馆藏出版版，6物理页含仓储封面；PDF3–5对应印刷162701-2至162701-4。",
+      "actual_read_pages": "PDF1、3–5，Table I、矩阵元拟合及两态混合讨论；PDF4图像核空项和误差。",
+      "actual_read_pdf_pages": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "visual_read_pdf_pages": [
+        4
+      ],
+      "text_artifact": "tmp/runs/20261108-A130-rewrite/G75/doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg-pages.txt",
+      "text_sha256": "a513abb678406c2ab0858ff4a6c11b43a36afc5d4a4a75b511ea62c9c544e68b",
+      "reading_method": "实际本地PDF抽取选页文本回读，关键列/表注另看页面图像；不继承source页面的全文阅读标签。",
+      "coverage_boundary": "不宣称原事件、原拟合程序、全部波函数或历史转引文献均已获取/重算。"
+    }
+  ],
+  "claims": [
+    {
+      "id": "G75-C01",
+      "text": "64Ge通过敲出反应布居激发态并用反冲距离法提取寿命/E2；Table I的静四极矩位于理论列，不能称测得形状共存。",
+      "kind": "experimental-measurement-plus-model-column-boundary",
+      "source_id": "doctoral-r1-g26-starosta-2007-64ge-rdm-e2",
+      "locator": "PDF1–3，尤其PDF3 Table I实验/理论列及右栏GXPF1A/非谐模型讨论",
+      "conditions": "该实验的寿命及采用跃迁资料；静矩与相应非谐解释是模型输出，未抄任何数值。"
+    },
+    {
+      "id": "G75-C02",
+      "text": "74Kr和76Kr的多步库仑激发同时约束跃迁与对角电四极矩阵元，为混合和形状分析增加信息；内禀几何与K指认有条件。",
+      "kind": "experimental-joint-inference-and-author-interpretation",
+      "source_id": "doctoral-r1-g27-clement-2007-prc-krypton-coulex",
+      "locator": "PDF2/印刷1摘要；PDF11/印刷10 Tables V–VI；PDF15/印刷14 Tables X–XI和讨论",
+      "conditions": "GOSIA等联合分析与采用谱学输入；符号须按态相位/闭合干涉组合理解，不能把孤立非对角元绝对号当观测。"
+    },
+    {
+      "id": "G75-C03",
+      "text": "98Zr的RDDS寿命结合外部分支比给逐态E2强度，基态连接与激发结构连接不同，提供检验结构变化的案例。",
+      "kind": "new-lifetime-plus-adopted-branch-and-derived-strength",
+      "source_id": "doctoral-r1-g28-singh-2018-98zr-lifetimes",
+      "locator": "PDF2方法；PDF3 Table I及a/b注脚、Fig.2和讨论",
+      "conditions": "同一寿命派生量不作独立寿命计数；不由此给全A100或Mo/Ru指定同一动力学对称性。"
+    },
+    {
+      "id": "G75-C04",
+      "text": "133Ce原文建立多个耦合候选带并用角关联、能谱和跃迁比比较RMF/粒子转子解释；作者明确所报候选带未能进行寿命测量。",
+      "kind": "spectroscopic-data-plus-author-model-interpretation",
+      "source_id": "ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce",
+      "locator": "PR5 PDF1方法；PDF3 Fig.2与lifetime段；PDF4 Table I及模型输入/结论",
+      "conditions": "模型惯量按实验能量调整，形变取计算输入；无本核寿命不能由邻核输入补齐；不宣称已新发现或唯一几何重建。"
+    },
+    {
+      "id": "G75-C05",
+      "text": "163Lu线形寿命增加绝对E2信息；TSD2使用薄靶分支，带间多极分解采用历史混合比，Qt还有顺排组态/K分布映射。",
+      "kind": "measured-lineshape-lifetime-plus-adopted-input-and-model-map",
+      "source_id": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "locator": "PDF2 Table I及误差；PDF3 Table II和分支/混合比/Qt段；PDF4讨论",
+      "conditions": "不把相近Qt设为所有摆动模式普遍认证门；采用量不改称全新独立测量。"
+    },
+    {
+      "id": "G75-C06",
+      "text": "182–188Hg的电四极矩阵元网络与两态混合分析说明平缓的主连接并不足以固定波函数；对角项有宽误差，186Hg相应对角项空缺。",
+      "kind": "experimental-fit-plus-model-conditional-interpretation",
+      "source_id": "doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg",
+      "locator": "PDF3/印刷162701-2；PDF4/印刷162701-3 Table I；PDF5/印刷162701-4混合解释",
+      "conditions": "Table I空项不插值、不转成零；188Hg有限网络和186/188Hg精度边界保留，不映射为全部Ir/Os高自旋结构。"
+    },
+    {
+      "id": "G75-C07",
+      "text": "相近质量数或类似能谱不能替代费米面、占据、配对、核芯极化、势/惯量及可布居自旋与电磁探针的共同条件比较。",
+      "kind": "task-cross-source-synthesis",
+      "source_id": "ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce",
+      "additional_source_ids": [
+        "doctoral-r1-g27-clement-2007-prc-krypton-coulex",
+        "doctoral-r1-g28-singh-2018-98zr-lifetimes",
+        "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+        "doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg"
+      ],
+      "locator": "Kr PDF15的K/构型歧义；Zr PDF3模型比较；Ce PR5 PDF3–4组态/形变输入；Lu PDF3构型映射；Hg PDF5两态混合",
+      "conditions": "概念比较，不是已重跑的共同Hamiltonian/响应张量或对各区模式存在性的穷尽证明。"
+    },
+    {
+      "id": "G75-C08",
+      "text": "未观测需结合生产/feeding、效率/分支与时间接受度解释，不能直接等同于理论结构不存在。",
+      "kind": "task-observability-inference",
+      "source_id": "doctoral-r1-g26-starosta-2007-64ge-rdm-e2",
+      "additional_source_ids": [
+        "doctoral-r1-g28-singh-2018-98zr-lifetimes",
+        "ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce",
+        "campaign-g07-gorgen-2004-163lu-quadrupole-moments"
+      ],
+      "locator": "Ge PDF2–3的布居/feeding/靶-减速板线形；Zr PDF2–3的RDDS及feeding；Ce PDF3寿命不可行边界；Lu PDF2–3侧馈与弱分支依赖",
+      "conditions": "仅是具体实验可见性与理论稳定性的逻辑区别；不生成新实验灵敏度数值或跨区未见统计。"
+    },
+    {
+      "id": "G75-C09",
+      "text": "Kr不代证Br、Zr不概括Mo/Ru、Hg不概括Ir/Os；两翼只在各自证据链上提供互补约束。",
+      "kind": "task-scope-and-transfer-boundary",
+      "source_id": null,
+      "locator": "本节三组跨核对象边界，按G75合同及六原件实际核/态范围",
+      "conditions": "未引用或宣称Br/As、Mo/Ru、Ir/Os在本节取得任何具体新模式结果；两翼细节留第4章。"
+    }
+  ],
+  "equations": [],
+  "equation_scope": "本节不引入公式、显示数学或新物理数值；仅使用核素、质量区和E2/Qs等概念名称。",
+  "competing_explanations": [
+    {
+      "issue": "相近集体强度如何理解",
+      "alternatives": [
+        "连续形状涨落/非谐关联",
+        "不同组态与混合",
+        "相近电荷连接但不同取向响应"
+      ],
+      "boundary": "Ge模型静矩不实测；不同核素的模型结果不拼成同一个实验结论。"
+    },
+    {
+      "issue": "高自旋近邻带的归属",
+      "alternatives": [
+        "候选取向相关动力学",
+        "组态重排与耦合",
+        "形状与取向的联合变化"
+      ],
+      "boundary": "Ce和Lu保留各自输入与测量缺口，不规定普遍δ、γ或能隙认证线。"
+    },
+    {
+      "issue": "实验未见某类结构",
+      "alternatives": [
+        "未布居相应组态/自旋",
+        "feeding或弱分支使信号不显著",
+        "效率/时间窗口受限",
+        "所用模型该分支不稳定"
+      ],
+      "boundary": "这些因素需独立判别，未开展新实验或计算不宣布新现象。"
+    }
+  ],
+  "unresolved": [
+    "本节未恢复六篇原事件、寿命线形producer、GOSIA联合似然/协方差或完整模型波函数，未做跨区参数重拟合。",
+    "Ce所报候选带寿命在该原作中不可得；Ge静矩是理论输出；Hg186对角项留空及宽误差不能靠邻核补齐。",
+    "跨区“未见”没有本节新增的搜索效率/上限或统一生产窗口评估，因此只提出比较条件，不给全区排除或发现结论。",
+    "Br/As、Mo/Ru、Ir/Os及八极/异能态/弱衰变的具体结论未在本节另读原作，按章节范围留后文。"
+  ],
+  "concept_table": {
+    "columns": [
+      "质量区",
+      "代表案例与探针",
+      "比较价值与限制"
+    ],
+    "data_rows": 6,
+    "type": "自有导航地图，非实测点重绘或模式分类表",
+    "new_experimental_points": false
+  },
+  "interfaces_for_subsequent_sections": {
+    "section_1_3": "承接静态形状与动力学响应的区分",
+    "chapter_4": "逐态原表、机制竞争和两翼探针展开",
+    "chapters_2_and_3": "占据/配对/形状势/惯量/取向机制的条件",
+    "chapter_5": "生产、feeding、响应和时间窗口的实验分析"
+  },
+  "scientific_acceptance": "not-assessed-by-writer; parent-review-required",
+  "manuscript_path": "raw/writing/gpt/A130/research-draft/section-1-4.md",
+  "manuscript_sha256": "faa4e268f4aacd5b8a8d89fd329fb9400121060b67d4d84fb595fe5d98be00a8",
+  "chinese_character_count": 1758,
+  "prose_chinese_character_count_excluding_table": 1533,
+  "full_draft_reread": "本轮已cat回读落盘全文，核六锚点、测量/模型身份、迁移条件、未观测边界和章节衔接；这不等于读者试验或总控科学认可。",
+  "updated_at": "2026-11-08T03:20:18.015494+00:00"
+}

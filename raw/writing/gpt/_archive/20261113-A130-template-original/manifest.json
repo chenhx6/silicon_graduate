@@ -1,0 +1,502 @@
+{
+  "archive_id": "20261113-A130-template-original",
+  "created_at_utc": "2026-11-13T01:17:12.625653+00:00",
+  "source_directory": "raw/writing/gpt/A130/these_2023_template",
+  "total_files": 49,
+  "errors": [],
+  "files": [
+    {
+      "relative_path": "readme/README.md",
+      "size_bytes": 1288,
+      "sha256": "f75cf407c7599457f057a83c48ea79907a4b5171993019e4273ba7f0d174dbee",
+      "backed_up_at_utc": "2026-11-13T01:17:07.481476+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/readme/README.md",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/readme/README.md",
+      "source": "raw/writing/gpt/A130/these_2023_template/readme/README.md",
+      "size": 1288
+    },
+    {
+      "relative_path": "readme/README_user.md",
+      "size_bytes": 2269,
+      "sha256": "20229ed6d42ffdfe829eaeedee4c622e810cb52002ff5f040b5c03e68a08eee2",
+      "backed_up_at_utc": "2026-11-13T01:17:07.631008+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/readme/README_user.md",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/readme/README_user.md",
+      "source": "raw/writing/gpt/A130/these_2023_template/readme/README_user.md",
+      "size": 2269
+    },
+    {
+      "relative_path": "readme/中国科学院大学学位论文LaTeX模板2022.pdf",
+      "size_bytes": 697350,
+      "sha256": "e227a0bb2b68ea5fe0c8c55df00c3bf657a7a3c6ce8008e991e80bc5d66cc80c",
+      "backed_up_at_utc": "2026-11-13T01:17:07.746053+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/readme/中国科学院大学学位论文LaTeX模板2022.pdf",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/readme/中国科学院大学学位论文LaTeX模板2022.pdf",
+      "source": "raw/writing/gpt/A130/these_2023_template/readme/中国科学院大学学位论文LaTeX模板2022.pdf",
+      "size": 697350
+    },
+    {
+      "relative_path": "readme/修改记录.txt",
+      "size_bytes": 812,
+      "sha256": "263358ce994b25caff5b0779d2301e81261879657cf6bdbcc9dff4afa278c6ab",
+      "backed_up_at_utc": "2026-11-13T01:17:07.797820+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/readme/修改记录.txt",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/readme/修改记录.txt",
+      "source": "raw/writing/gpt/A130/these_2023_template/readme/修改记录.txt",
+      "size": 812
+    },
+    {
+      "relative_path": "readme/src/imgs/overleaf.png",
+      "size_bytes": 32760,
+      "sha256": "aa49422c475683296de5afff0ad6b977930710447319bc6d8037330bab8afaff",
+      "backed_up_at_utc": "2026-11-13T01:17:07.883596+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/readme/src/imgs/overleaf.png",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/readme/src/imgs/overleaf.png",
+      "source": "raw/writing/gpt/A130/these_2023_template/readme/src/imgs/overleaf.png",
+      "size": 32760
+    },
+    {
+      "relative_path": "these_template/.gitignore",
+      "size_bytes": 153,
+      "sha256": "39e240b9d424188ad0ed27a5e30325992ec6c981321ec41908bc8f9b8211bac5",
+      "backed_up_at_utc": "2026-11-13T01:17:07.939795+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/.gitignore",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/.gitignore",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/.gitignore",
+      "size": 153
+    },
+    {
+      "relative_path": "these_template/Thesis.aux",
+      "size_bytes": 13813,
+      "sha256": "8c29db93f381a6f124417c4b15ff07ea3d65bb804e410231db771248de44245e",
+      "backed_up_at_utc": "2026-11-13T01:17:07.989625+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Thesis.aux",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.aux",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.aux",
+      "size": 13813
+    },
+    {
+      "relative_path": "these_template/Thesis.bbl",
+      "size_bytes": 4518,
+      "sha256": "46b22492ba4ce87daaea0a46f853ccbce05d926e086cdafa0ba7bc4adaa6d7e2",
+      "backed_up_at_utc": "2026-11-13T01:17:08.039697+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Thesis.bbl",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.bbl",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.bbl",
+      "size": 4518
+    },
+    {
+      "relative_path": "these_template/Thesis.blg",
+      "size_bytes": 1375,
+      "sha256": "da64a32736a395602145672c1989ed53cf3850f55e61ba65c01fc78f71d95946",
+      "backed_up_at_utc": "2026-11-13T01:17:08.096194+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Thesis.blg",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.blg",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.blg",
+      "size": 1375
+    },
+    {
+      "relative_path": "these_template/Thesis.loappfig",
+      "size_bytes": 256,
+      "sha256": "acdb33dca5831715332069b95db4eabcda3deaed33a97f99272e98290538c0b9",
+      "backed_up_at_utc": "2026-11-13T01:17:08.152474+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Thesis.loappfig",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.loappfig",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.loappfig",
+      "size": 256
+    },
+    {
+      "relative_path": "these_template/Thesis.loapptab",
+      "size_bytes": 372,
+      "sha256": "83147daedb6847715b12997ea439f700b71d1a997f37b82ac358cfc5820887c6",
+      "backed_up_at_utc": "2026-11-13T01:17:08.261984+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Thesis.loapptab",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.loapptab",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.loapptab",
+      "size": 372
+    },
+    {
+      "relative_path": "these_template/Thesis.lof",
+      "size_bytes": 470,
+      "sha256": "07d371457c3627ff40bfd02297eae71207b3a6b089664681867683b6cb62c2b5",
+      "backed_up_at_utc": "2026-11-13T01:17:08.331232+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Thesis.lof",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.lof",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.lof",
+      "size": 470
+    },
+    {
+      "relative_path": "these_template/Thesis.log",
+      "size_bytes": 83815,
+      "sha256": "92cef1298eed8837fad2ab62b457f7384a03d9500a4678dfc327d6616be4638a",
+      "backed_up_at_utc": "2026-11-13T01:17:08.393973+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Thesis.log",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.log",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.log",
+      "size": 83815
+    },
+    {
+      "relative_path": "these_template/Thesis.lot",
+      "size_bytes": 503,
+      "sha256": "25132b9e13beb45418574e4ec1fea5bf1169652126bba56e3eb8be1fdbcdebfe",
+      "backed_up_at_utc": "2026-11-13T01:17:08.441590+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Thesis.lot",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.lot",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.lot",
+      "size": 503
+    },
+    {
+      "relative_path": "these_template/Thesis.out",
+      "size_bytes": 7077,
+      "sha256": "9d3026814df814c2a40e9116d20c69ee0fa37974b1369f500a802399eb91bf8a",
+      "backed_up_at_utc": "2026-11-13T01:17:08.493586+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Thesis.out",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.out",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.out",
+      "size": 7077
+    },
+    {
+      "relative_path": "these_template/Thesis.pdf",
+      "size_bytes": 495790,
+      "sha256": "2a65abf7402edb0ed1d58b89c7c4e700d37b59acf574b16ffefa9b6f7030dfba",
+      "backed_up_at_utc": "2026-11-13T01:17:08.569809+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Thesis.pdf",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.pdf",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.pdf",
+      "size": 495790
+    },
+    {
+      "relative_path": "these_template/Thesis.synctex.gz",
+      "size_bytes": 139110,
+      "sha256": "878894f185826e3295a3092195633c18ee709c2bfefb9e0879ab2d5a89338ba3",
+      "backed_up_at_utc": "2026-11-13T01:17:08.626789+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Thesis.synctex.gz",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.synctex.gz",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.synctex.gz",
+      "size": 139110
+    },
+    {
+      "relative_path": "these_template/Thesis.tex",
+      "size_bytes": 4296,
+      "sha256": "b7dd1b5c3eddc9b6672243f03da3991fde5c6b2d82ce82d60a9ba1b26282f9ea",
+      "backed_up_at_utc": "2026-11-13T01:17:08.675695+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Thesis.tex",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.tex",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.tex",
+      "size": 4296
+    },
+    {
+      "relative_path": "these_template/Thesis.toc",
+      "size_bytes": 4878,
+      "sha256": "4f32099260735d47c67a298e62d5b91037cac977d9c965c11a887e3bc919ff23",
+      "backed_up_at_utc": "2026-11-13T01:17:08.731281+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Thesis.toc",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.toc",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.toc",
+      "size": 4878
+    },
+    {
+      "relative_path": "these_template/artratex.bat",
+      "size_bytes": 2174,
+      "sha256": "993dc2747c500f9f20bd050fd0ea83f419a291ce9b9bdcc2cef6c5cf0f44bcae",
+      "backed_up_at_utc": "2026-11-13T01:17:08.804506+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/artratex.bat",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/artratex.bat",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/artratex.bat",
+      "size": 2174
+    },
+    {
+      "relative_path": "these_template/artratex.sh",
+      "size_bytes": 3662,
+      "sha256": "ac6f01320e70fc581a29ef63557aed4158b418d5928894dd3abbd858cae7ae17",
+      "backed_up_at_utc": "2026-11-13T01:17:08.860543+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/artratex.sh",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/artratex.sh",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/artratex.sh",
+      "size": 3662
+    },
+    {
+      "relative_path": "these_template/spine.docx",
+      "size_bytes": 27495,
+      "sha256": "66fd9bd411ef1f81770dfeeb20a2d9b68380a5cbe9ece66190b93d4513fb40ea",
+      "backed_up_at_utc": "2026-11-13T01:17:08.913008+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/spine.docx",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/spine.docx",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/spine.docx",
+      "size": 27495
+    },
+    {
+      "relative_path": "these_template/Biblio/gb7714-2015.bbx",
+      "size_bytes": 158183,
+      "sha256": "fa8ba095b1e1691bbf0da20e3420fac88a0c9649edad4a2b97af5cec47aa0988",
+      "backed_up_at_utc": "2026-11-13T01:17:08.994771+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Biblio/gb7714-2015.bbx",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Biblio/gb7714-2015.bbx",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Biblio/gb7714-2015.bbx",
+      "size": 158183
+    },
+    {
+      "relative_path": "these_template/Biblio/gb7714-2015.cbx",
+      "size_bytes": 12310,
+      "sha256": "4d569169aecea67ee8cfb0c65458f1a6c09450bb1aba018f640bfa31acce1dbd",
+      "backed_up_at_utc": "2026-11-13T01:17:09.047326+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Biblio/gb7714-2015.cbx",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Biblio/gb7714-2015.cbx",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Biblio/gb7714-2015.cbx",
+      "size": 12310
+    },
+    {
+      "relative_path": "these_template/Biblio/gb7714-2015ay.bbx",
+      "size_bytes": 153891,
+      "sha256": "d981d4303dfc33d8861224697fd53351df98698d5bebdefd5c1875d879d27c17",
+      "backed_up_at_utc": "2026-11-13T01:17:09.112979+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Biblio/gb7714-2015ay.bbx",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Biblio/gb7714-2015ay.bbx",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Biblio/gb7714-2015ay.bbx",
+      "size": 153891
+    },
+    {
+      "relative_path": "these_template/Biblio/gb7714-2015ay.cbx",
+      "size_bytes": 10902,
+      "sha256": "c4e33e4055984860c25cda5901cfc77c8f599c38c00a2686275ffa36e8f4fae6",
+      "backed_up_at_utc": "2026-11-13T01:17:09.175381+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Biblio/gb7714-2015ay.cbx",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Biblio/gb7714-2015ay.cbx",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Biblio/gb7714-2015ay.cbx",
+      "size": 10902
+    },
+    {
+      "relative_path": "these_template/Biblio/gbt7714-author-year.bst",
+      "size_bytes": 49877,
+      "sha256": "16e2be32fda0abfdec231e297f120f51f24af2b6dba9df41a15923ec9fe4f5dc",
+      "backed_up_at_utc": "2026-11-13T01:17:09.238810+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Biblio/gbt7714-author-year.bst",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Biblio/gbt7714-author-year.bst",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Biblio/gbt7714-author-year.bst",
+      "size": 49877
+    },
+    {
+      "relative_path": "these_template/Biblio/gbt7714-numerical.bst",
+      "size_bytes": 42460,
+      "sha256": "7ac131fa32605bf83084afb8aa7de49e5b0f28ba97145c503ada3c52a82ffeeb",
+      "backed_up_at_utc": "2026-11-13T01:17:09.380227+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Biblio/gbt7714-numerical.bst",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Biblio/gbt7714-numerical.bst",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Biblio/gbt7714-numerical.bst",
+      "size": 42460
+    },
+    {
+      "relative_path": "these_template/Biblio/ref.bib",
+      "size_bytes": 5922,
+      "sha256": "92c87aa28ae8e0bd9d7f07f0628fc41b8b2bac463320b6f372a5c21a7acb30db",
+      "backed_up_at_utc": "2026-11-13T01:17:09.456271+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Biblio/ref.bib",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Biblio/ref.bib",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Biblio/ref.bib",
+      "size": 5922
+    },
+    {
+      "relative_path": "these_template/Img/c06h06.png",
+      "size_bytes": 14801,
+      "sha256": "cf7bf7e9482ff0820588185bfdf4911b43eda0f70e184ee1ee30a7d16a19015b",
+      "backed_up_at_utc": "2026-11-13T01:17:09.517799+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Img/c06h06.png",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/c06h06.png",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Img/c06h06.png",
+      "size": 14801
+    },
+    {
+      "relative_path": "these_template/Img/oaspl_a.pdf",
+      "size_bytes": 12956,
+      "sha256": "14e3649036dfa3ce323d8f0c172c3e6fe0745836986416713bd482dbeb8975ac",
+      "backed_up_at_utc": "2026-11-13T01:17:09.863866+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Img/oaspl_a.pdf",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/oaspl_a.pdf",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Img/oaspl_a.pdf",
+      "size": 12956
+    },
+    {
+      "relative_path": "these_template/Img/oaspl_b.pdf",
+      "size_bytes": 12995,
+      "sha256": "41492c2cf02127f924dcb679a1827a8b3cfc44947abbd1e807cd49d8fe0b55d7",
+      "backed_up_at_utc": "2026-11-13T01:17:10.011956+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Img/oaspl_b.pdf",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/oaspl_b.pdf",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Img/oaspl_b.pdf",
+      "size": 12995
+    },
+    {
+      "relative_path": "these_template/Img/oaspl_c.pdf",
+      "size_bytes": 12985,
+      "sha256": "2eda2b76b44da51fe77d33343a5ea611010b912e6890ede16f208fec9c54a815",
+      "backed_up_at_utc": "2026-11-13T01:17:10.190673+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Img/oaspl_c.pdf",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/oaspl_c.pdf",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Img/oaspl_c.pdf",
+      "size": 12985
+    },
+    {
+      "relative_path": "these_template/Img/oaspl_d.pdf",
+      "size_bytes": 12975,
+      "sha256": "7be1548206b582ccf77a3c1397cb3d00ad10d6deb14cf9e050aaf6ecbbf1074d",
+      "backed_up_at_utc": "2026-11-13T01:17:10.382459+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Img/oaspl_d.pdf",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/oaspl_d.pdf",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Img/oaspl_d.pdf",
+      "size": 12975
+    },
+    {
+      "relative_path": "these_template/Img/ucas_logo.pdf",
+      "size_bytes": 695658,
+      "sha256": "291b04e61bc1a8515ffb585ba4cdb6d47a2156cc2c8bdf3b5fbeb31888410e34",
+      "backed_up_at_utc": "2026-11-13T01:17:10.622263+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Img/ucas_logo.pdf",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/ucas_logo.pdf",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Img/ucas_logo.pdf",
+      "size": 695658
+    },
+    {
+      "relative_path": "these_template/Style/artracom.sty",
+      "size_bytes": 8041,
+      "sha256": "8fa99053311c9ab9360eb7473452323ee97231e3c303d40870f2789d264f50b6",
+      "backed_up_at_utc": "2026-11-13T01:17:10.778126+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Style/artracom.sty",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Style/artracom.sty",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Style/artracom.sty",
+      "size": 8041
+    },
+    {
+      "relative_path": "these_template/Style/artratex.sty",
+      "size_bytes": 35467,
+      "sha256": "80214a8a9af11676fd0851864445a911a71146379a7fb673607d0a2e6698727a",
+      "backed_up_at_utc": "2026-11-13T01:17:10.917464+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Style/artratex.sty",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Style/artratex.sty",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Style/artratex.sty",
+      "size": 35467
+    },
+    {
+      "relative_path": "these_template/Style/ucasthesis.cfg",
+      "size_bytes": 6927,
+      "sha256": "2f78525eddf406a0ee1354ce4798ce659c140a15016ed4906a5ccd33d4ac6794",
+      "backed_up_at_utc": "2026-11-13T01:17:11.067794+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Style/ucasthesis.cfg",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Style/ucasthesis.cfg",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Style/ucasthesis.cfg",
+      "size": 6927
+    },
+    {
+      "relative_path": "these_template/Style/ucasthesis.cls",
+      "size_bytes": 26747,
+      "sha256": "617efb20b0ca657f5411f0c85b7b1e6fd5ccf763d5eee96fb61b5e25dd77d772",
+      "backed_up_at_utc": "2026-11-13T01:17:11.236623+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Style/ucasthesis.cls",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Style/ucasthesis.cls",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Style/ucasthesis.cls",
+      "size": 26747
+    },
+    {
+      "relative_path": "these_template/Tex/Appendix.tex",
+      "size_bytes": 14990,
+      "sha256": "01eedee53329d2416125469979583316ecdf9ce1750e7b13f7fd1d9f63b3eeb1",
+      "backed_up_at_utc": "2026-11-13T01:17:11.406119+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Tex/Appendix.tex",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendix.tex",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendix.tex",
+      "size": 14990
+    },
+    {
+      "relative_path": "these_template/Tex/Backmatter.tex",
+      "size_bytes": 1490,
+      "sha256": "2646c24a8242fe813a6a7a0f54aca6778960e9331e20fcd6882b7417dabaf2cb",
+      "backed_up_at_utc": "2026-11-13T01:17:11.556321+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Tex/Backmatter.tex",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Backmatter.tex",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Backmatter.tex",
+      "size": 1490
+    },
+    {
+      "relative_path": "these_template/Tex/Chap_Guide.tex",
+      "size_bytes": 12390,
+      "sha256": "11005f967d212df23b086bbc9b5e6ee28d6f60fbeeec5b68f545f3831b772642",
+      "backed_up_at_utc": "2026-11-13T01:17:11.688420+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Tex/Chap_Guide.tex",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Chap_Guide.tex",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Chap_Guide.tex",
+      "size": 12390
+    },
+    {
+      "relative_path": "these_template/Tex/Chap_Intro.tex",
+      "size_bytes": 3285,
+      "sha256": "c06b61cf4158344648e0d4862e8dd68e4d5644cbc0bada1fe8a3e66b25bfb2b4",
+      "backed_up_at_utc": "2026-11-13T01:17:11.847924+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Tex/Chap_Intro.tex",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Chap_Intro.tex",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Chap_Intro.tex",
+      "size": 3285
+    },
+    {
+      "relative_path": "these_template/Tex/Chap_UCAS.tex",
+      "size_bytes": 22837,
+      "sha256": "ea5dc9d5cf3fe97a3129c891f47e0867c769cfc1498b2bd4b5a0f79a330c35ae",
+      "backed_up_at_utc": "2026-11-13T01:17:12.009345+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Tex/Chap_UCAS.tex",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Chap_UCAS.tex",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Chap_UCAS.tex",
+      "size": 22837
+    },
+    {
+      "relative_path": "these_template/Tex/Frontinfo.tex",
+      "size_bytes": 1777,
+      "sha256": "d0ced985fef25fa8caedc8c9689904f3b73859af4e679ae09442efcb7ab7764a",
+      "backed_up_at_utc": "2026-11-13T01:17:12.200025+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Tex/Frontinfo.tex",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Frontinfo.tex",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Frontinfo.tex",
+      "size": 1777
+    },
+    {
+      "relative_path": "these_template/Tex/Frontmatter.tex",
+      "size_bytes": 1489,
+      "sha256": "ddd3f651903bf9ce440b556df385f00c4f050103315f75e40973e62dbe918921",
+      "backed_up_at_utc": "2026-11-13T01:17:12.387408+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Tex/Frontmatter.tex",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Frontmatter.tex",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Frontmatter.tex",
+      "size": 1489
+    },
+    {
+      "relative_path": "these_template/Tex/Mainmatter.tex",
+      "size_bytes": 487,
+      "sha256": "de4c1b377f501f328bab165cba71b1d7181b160015f16af3c15c4ea9758c3a1c",
+      "backed_up_at_utc": "2026-11-13T01:17:12.520733+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Tex/Mainmatter.tex",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Mainmatter.tex",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Mainmatter.tex",
+      "size": 487
+    },
+    {
+      "relative_path": "these_template/Tex/Prematter.tex",
+      "size_bytes": 1722,
+      "sha256": "bd06aa0628cdc904398c2704d431ef0a7d0cc9fb9dbe63fee00b24165e0ac554",
+      "backed_up_at_utc": "2026-11-13T01:17:12.579171+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Tex/Prematter.tex",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Prematter.tex",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Prematter.tex",
+      "size": 1722
+    },
+    {
+      "relative_path": "these_template/Tex/figuretable.tex",
+      "size_bytes": 763,
+      "sha256": "06dd434308d8b3de26724fcda08b05b6704244d0099e2af81df5b9d7bce9c3a2",
+      "backed_up_at_utc": "2026-11-13T01:17:12.625635+00:00",
+      "path": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Tex/figuretable.tex",
+      "original_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/figuretable.tex",
+      "source": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/figuretable.tex",
+      "size": 763
+    }
+  ],
+  "archive_required": true,
+  "acquisition_context": "user-provided-template",
+  "retrieved_at": "2026-11-13T01:17:12.625653+00:00"
+}

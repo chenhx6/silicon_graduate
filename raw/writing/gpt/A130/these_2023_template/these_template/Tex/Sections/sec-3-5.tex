@@ -1,0 +1,192 @@
+\section{手征几何、隧穿与有限核态}\label{sec:3-5}
+
+在经典几何中，手征性（chirality）描述物体无法通过平移与转动与其镜像重合，如人类左右手。在低能核物理中，若先取只含四极形变且具反射对称性的参考形状，不论轴对称还是三轴形变，静态质量密度在内禀主轴系下均满足空间反演与主轴镜面对称，静态形状本身不包含反射不对称；反射不对称八极形变与手征性的联立问题将在第 3.7 节专门讨论。
+
+转动态中的几何手征性，严格区别于弱相互作用中由狄拉克旋量 $\gamma^5$ 投影定义的粒子手征性。低能核物理通常将强相互作用与电磁相互作用守恒宇称与时间反演作为基本近似框架；核手征性是在该对称性守恒前提下，由三维转动态中多体角动量在内禀空间发生非共面矢量耦合所诱发的集体转动自发破缺现象\cite{frauendorf-meng-1997-tilted-rotation-chirality,frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei}。
+
+本节系统阐述核手征几何机制、反幺正算符代数性质、有限体系量子隧穿与两态模型，并结合电磁跃迁率、寿命反演与能量交错指标，剖析候选手征双带的最强竞争机制与实验判据。
+
+\subsection{三维转动与内禀非共面角动量的几何机制}\label{sec:3-5-1}
+
+理解核手征性的物理起点，是非轴对称变形核中的角动量耦合。在玻尔—莫特森框架下，四极形变由形变度 $\beta$ 与三轴参数 $\gamma$ 描述。在三轴扇区 $0^\circ < \gamma < 60^\circ$ 内，核椭球三个主轴标记为短轴（short, $s$ 轴）、中间轴（intermediate, $m$ 轴）和长轴（long, $l$ 轴），其中 $\gamma = 30^\circ$ 对应标准扇区中点。
+
+非轴对称转子转动响应具轴向依赖性。在典型流体力学惯量模型中，中间轴在 $\gamma \approx 30^\circ$ 附近具有最大惯量（$\mathcal{J}_m > \mathcal{J}_s, \mathcal{J}_l$），与绕最短轴惯量最大的均匀刚体椭球截然不同。Bohr 与 Mottelson 专著第二卷第 4-5e 节（印刷本第 190–193 页）指出纯转子在高自旋 $I$ 下沿最大惯量轴转动能量极小\cite{book-bohr-mottelson-nuclear-structure-vol2}，但原书最大惯量轴不必然等同于几何中间轴 $m$，二者重合依赖具体动力学模型。在中间轴惯量最大的模型条件下，核芯集体转动角动量 $\hat{\mathbf{R}} = \hat{\mathbf{J}}_{\text{core}} / \hbar$ 倾向沿中间轴 $m$ 取向。
+
+微观单核子的排布取决于费米面在变形势阱中的位置。在三轴势场中投影量子数 $\Omega$ 不再是好量子数。但在典型单 $j$ 壳层四极粒子—转子模型求解中展现出明确取向偏好：当奇价核子费米面位于该单 $j$ 壳层底部时，低能单粒子态优先使价粒子角动量 $\hat{\mathbf{j}}_p = \hat{\mathbf{J}}_p / \hbar$ 沿核芯最短轴 $s$ 顺排；反之，当另一价核子费米面位于单 $j$ 壳层顶部时，空穴型准粒子态优先使价空穴角动量 $\hat{\mathbf{j}}_h = \hat{\mathbf{J}}_h / \hbar$ 沿核芯最长轴 $l$ 顺排。
+
+当这两种微观排布与核芯集体转动同时出现时（如 $A \approx 130$ 核区 $\pi h_{11/2} \otimes \nu h_{11/2}^{-1}$ 组态），体系在内禀主轴系呈现三个优势取向分量：
+\begin{equation}\label{eq:3-5-triad}
+\hat{\mathbf{j}}_p \parallel s \text{ 轴}, \quad \hat{\mathbf{R}} \parallel m \text{ 轴}, \quad \hat{\mathbf{j}}_h \parallel l \text{ 轴}.
+\end{equation}
+体系无量纲总角动量算符为三者矢量和：
+\begin{equation}\label{eq:3-5-j-sum}
+\hat{\mathbf{j}} = \frac{\hat{\mathbf{J}}}{\hbar} = \hat{\mathbf{j}}_p + \hat{\mathbf{j}}_h + \hat{\mathbf{R}}.
+\end{equation}
+在半经典或破缺参考几何中，标量三重积具有非零期望值：
+\begin{equation}\label{eq:3-5-triple-prod}
+\langle \hat{\mathbf{j}}_p \cdot (\hat{\mathbf{j}}_h \times \hat{\mathbf{R}}) \rangle_{\text{intr}} \ne 0.
+\end{equation}
+这三个矢量在内禀系确定了一个非共面三维构型，存在右手系与左手系的空间手征对立\cite{liu-chen-2016-78br-chirality-reflection-symmetry-thesis}。
+
+此处明确物理边界：首先，三向正交矢量是粒子—转子模型在理想参数下的有利构型，不能断言所有手征核都必须严格互相正交或固定 $\gamma = 30^\circ$，残余作用与形状涨落会使夹角偏离 $90^\circ$。其次，总角动量在内禀系三分量非零仅是倾斜转动的运动学特征，并不是自发破缺或存在稳定极小的充分条件。最后，破缺参考态中可以出现非零三重积；对 $\mathcal{C}$ 对称哈密顿量的非简并本征态，相应 $\mathcal{C}$ 奇厄米标量的期望值为零。若有精确简并，则须说明所选择的叠加态，不能把零期望的结论无条件套入；具体算符实现还应先处理次序与厄米性。精确态中的手征关联也可通过涨落与相关量研究。同时，算符期望值 $\langle \hat{\mathbf{j}}_p \cdot (\hat{\mathbf{j}}_h \times \hat{\mathbf{R}}) \rangle$ 与半经典因子化乘积 $\langle \hat{\mathbf{j}}_p \rangle \cdot (\langle \hat{\mathbf{j}}_h \rangle \times \langle \hat{\mathbf{R}} \rangle)$ 一般不同。
+
+\subsection{手征反幺正算符与 $\mathcal{C}^2 = +1$ 的严格代数推导}\label{sec:3-5-2}
+
+在半经典或平均场近似下，左手系 $|L\rangle$ 与右手系 $|R\rangle$ 内禀参考态能量相等。空间反演 $P$ 作用于坐标 $\mathbf{r} \to -\mathbf{r}$，因角动量为轴矢量（$P \hat{\mathbf{J}} P^{-1} = +\hat{\mathbf{J}}$）且四极密度具反演对称，故空间反演无法反转非共面角动量的手征取向。
+
+实现手征反转的物理操作是反幺正时间反演算符 $T$（含复共轭 $K$），满足 $T i T^{-1} = -i$ 及 $T c |\psi\rangle = c^* T |\psi\rangle$。角动量在时间反演下变号（$T \hat{\mathbf{j}} T^{-1} = -\hat{\mathbf{j}}$），标量三重积反号：
+\begin{equation}\label{eq:3-5-T-triple}
+T \left[ \hat{\mathbf{j}}_p \cdot (\hat{\mathbf{j}}_h \times \hat{\mathbf{R}}) \right] T^{-1} = - \hat{\mathbf{j}}_p \cdot (\hat{\mathbf{j}}_h \times \hat{\mathbf{R}}).
+\end{equation}
+时间反演将右手三面角反转为左手三面角，但也反转了总角动量方向（$\hat{\mathbf{j}} \to -\hat{\mathbf{j}}$）。为构建旋转参考系中的离散对称操作，须在时间反演后附加绕声明内禀参考轴旋转 $\pi$ 的空间转动。
+
+设在内禀坐标系中选定参考轴为 $y$ 轴（粒子—转子模型中通常将中间惯量轴 $m$ 声明为量子化轴或推转参考轴 $y$）。绕声明 $y$ 轴旋转 $\theta$ 的转动算符定义为：
+\begin{equation}\label{eq:3-5-Ry}
+R_y(\theta) = \exp(-i \theta \hat{j}_y).
+\end{equation}
+在此基础上，定义手征反幺正算符 $\mathcal{C} \equiv T R_y(\pi)$。
+
+考察手征算符 $\mathcal{C}$ 对内禀角动量分量的显式作用。设坐标轴对应主轴 $(s, m, l)$，声明参考轴为 $y = m$。转动 $R_y(\pi)$ 给 $(J_s, J_m, J_l) \to (-J_s, J_m, -J_l)$，再施加时间反演 $T$ 给出：
+\begin{equation}\label{eq:3-5-C-action}
+(J_s, J_m, J_l) \xrightarrow{\mathcal{C}} (J_s, -J_m, J_l).
+\end{equation}
+可见 $\mathcal{C}$ 并不普遍恢复总角动量方向，而是反转了沿声明轴 $m$ 的分量，保留了垂直分量。这表明声明的参考轴 $y$ 属于模型坐标轴，在三维倾斜转动中并不等同于物理上的瞬时转轴。
+
+以下给出算符 $\mathcal{C}$ 代数性质的推导。根据反幺正算符对算符指数的作用规则：
+\begin{equation}\label{eq:3-5-T-Ry-commute}
+T R_y(\theta) T^{-1} = T \exp(-i \theta \hat{j}_y) T^{-1} = \exp\left( - T(i \theta \hat{j}_y) T^{-1} \right).
+\end{equation}
+因 $T i T^{-1} = -i$ 且 $T \hat{j}_y T^{-1} = -\hat{j}_y$，指数内部项变换为 $T (i \theta \hat{j}_y) T^{-1} = i \theta \hat{j}_y$。由此得到：
+\begin{equation}\label{eq:3-5-T-Ry-res}
+T R_y(\theta) T^{-1} = \exp(-i \theta \hat{j}_y) = R_y(\theta),
+\end{equation}
+即反幺正时间反演算符与绕声明轴的空间转动算符严格对易：$T R_y(\theta) = R_y(\theta) T$。
+
+利用对易关系计算手征算符平方：
+\begin{equation}\label{eq:3-5-C-sq-decomp}
+\mathcal{C}^2 = [T R_y(\pi)] [T R_y(\pi)] = T^2 R_y(2\pi).
+\end{equation}
+在自旋量子数为 $I$ 的体系中，$R_y(2\pi) = (-1)^{2I}$ 且 $T^2 = (-1)^{2I}$。相乘得到精确恒等式：
+\begin{equation}\label{eq:3-5-C-sq-identity}
+\mathcal{C}^2 = T^2 R_y(2\pi) = (-1)^{2I} (-1)^{2I} = (-1)^{4I} = +1.
+\end{equation}
+该恒等式表明：无论体系总自旋 $I$ 是整数（如偶偶核、奇奇核）还是半整数（如奇 $A$ 核），恒有 $\mathcal{C}^2 = +1$。
+
+\subsection{Kramers 定理的适用条件与反幺正相位}\label{sec:3-5-3}
+
+上述代数性质澄清了核物理讨论中的两个关键概念误区。
+
+\subsubsection{Kramers 简并定理不可套用于手征算符 $\mathcal{C}$}\label{sec:3-5-3-1}
+
+克喇默斯（Kramers）定理指出：若反幺正对称算符 $\Theta$ 满足 $\Theta^2 = -1$，则本征态至少两重简并。半整数体系中纯时间反演确实满足 $T^2 = -1$。
+
+然而，手征算符是复合算符 $\mathcal{C} = T R_y(\pi)$，前述推导证实 $\mathcal{C}^2 = +1$ 对任意自旋 $I$ 恒成立。因 $\mathcal{C}^2 \ne -1$，克喇默斯定理前提不成立，不能将手征双带能量近简并归因于克喇默斯定理保护。双带近简并属于动力学现象，并非定理强制要求，亦不排除偶然简并。
+
+此外，纯时间反演在半整数体系中的 $T^2 = -1$ 简并，保护的是同一自旋多重态内部磁子能级间的简并（$|I, M\rangle$ 与 $T|I, M\rangle \propto |I, -M\rangle$）。在各向同性空间中旋转不变性已保证全部 $2I+1$ 个磁子能级严格简并，并不额外强迫两个具有相同自旋 $I$ 的不同能带产生简并。
+
+\subsubsection{反幺正算符的重定相特征与量子标签}\label{sec:3-5-3-2}
+
+在空间反演中，宇称算符 $P$ 为线性幺正算符（$P^2 = 1$）。对本征态 $P|\psi\rangle = \pi |\psi\rangle$ 施加定相变换 $|\psi'\rangle = e^{i\phi}|\psi\rangle$，因线性性有 $P |\psi'\rangle = \pi |\psi'\rangle$，本征值 $\pi = \pm 1$ 具规范不变性，是可观测守恒量。
+
+然而，手征算符 $\mathcal{C}$ 是反幺正算符。设 $|\psi\rangle$ 为 $\mathcal{C}$ 的本征态：$\mathcal{C} |\psi\rangle = \lambda |\psi\rangle$。由 $\mathcal{C}^2 = +1$ 给出 $|\lambda|^2 = 1$，即本征值是模为 1 的复相因子 $\lambda = e^{i\alpha}$。
+
+对态矢实施任意全局重定相 $|\psi'\rangle = e^{i\phi}|\psi\rangle$，计算手征算符作用于新态矢的结果：
+\begin{equation}\label{eq:3-5-C-rephase}
+\mathcal{C} |\psi'\rangle = \mathcal{C}(e^{i\phi} |\psi\rangle) = e^{-i\phi} \mathcal{C}|\psi\rangle = e^{-i\phi} \lambda |\psi\rangle = \left( e^{-2i\phi} \lambda \right) |\psi'\rangle.
+\end{equation}
+在新态矢下，手征算符的本征值变换为：
+\begin{equation}\label{eq:3-5-lambda-prime}
+\lambda' = e^{-2i\phi} \lambda.
+\end{equation}
+由于波函数的全局相位 $\phi$ 是无法通过实验测定的人为约定，我们可以选取 $\phi = \alpha / 2$ 使 $\lambda' = +1$，亦可选取 $\phi = \alpha / 2 + \pi / 2$ 使 $\lambda' = e^{-i\pi}(+1) = -1$。
+
+这一推导表明：反幺正算符 $\mathcal{C}$ 的本征值正负号在定相变换下自由改变，不具备规范不变性，不能充当类似空间反演宇称那样独立、守恒的物理量子标签。这并不意味着具体模型中所有离散标签都无物理意义：特定模型可定义线性的坐标镜面反射算符或质中置换算符并给出线性对称标签，但那属于线性模型算符，不可与物理反幺正算符 $\mathcal{C}$ 混淆。
+
+在此基础上，不应使用 $(1 \pm \mathcal{C})/2$ 在复空间充当线性投影算符。因 $\mathcal{C}$ 具反线性特征（$\mathcal{C}(c_1 |1\rangle + c_2 |2\rangle) = c_1^* \mathcal{C}|1\rangle + c_2^* \mathcal{C}|2\rangle$），算符 $(1 \pm \mathcal{C})/2$ 对复标量乘法不满足线性封闭性，无法将希尔伯特空间分解为正交子空间。部分模型引入坐标镜面反射算符定义对称性，属于线性模型算符，不可与物理反幺正算符 $\mathcal{C}$ 混淆。
+
+\subsection{坐标轴声明、Signature 条件与瞬时转轴倾斜}\label{sec:3-5-4}
+
+在深入讨论核能态前，还需要明确坐标轴选择与旋称（signature）概念的适用边界。
+
+在推转模型或粒子—转子模型中，通常将内禀四极形变主轴取为主轴坐标系 $(x, y, z)$。公式中声明的 $y$ 轴是模型特定主轴（如中间惯量轴）。在真实转动过程中，瞬时角动量轴在实验室系与内禀系中均不普遍与声明的 $y$ 轴重合。三维非平面倾斜轴推转解的频率矢量 $\boldsymbol{\omega}$ 可有三个非零主轴分量；平面倾斜解只需两个，不能把所有倾斜轴解都归为非平面手征解。
+
+在此背景下，旋称对称性具严格条件限制：
+\begin{enumerate}
+\item 旋称量子数 $r = \exp(-i\pi\alpha_{\text{sig}})$ 仅在推转哈密顿量保留绕推转轴旋转 $\pi$ 对称时守恒；
+\item 转轴发生三维倾斜时，绕单一主轴旋转 $\pi$ 的对称性在旋转系被自发破缺；
+\item 实验室物理态具有确定自旋 $I$。转动带内相邻能级 $\Delta I = 1$ 跃迁使自旋以 $I \bmod 2$ 交错，属于多极跃迁运动学特征；
+\item 不能给所有倾斜轴推转态或手征伴带强行指定相同 signature。双带间是否存在特定 signature 关联，完全取决于哈密顿量是否在特定极限下保留残余对称性。
+\end{enumerate}
+
+\subsection{有限体系的量子隧穿与二态恢复模型}\label{sec:3-5-5}
+
+在有限原子核中，分隔左手态 $|L\rangle$ 与右手态 $|R\rangle$ 的势垒高度有限。在两个局域参考波包主导低能子空间的模型近似下，体系通过量子隧穿在两阱间动态振荡，在恢复转动不变性的实验室参考系中恢复了在内禀系自发破缺的手征对称性，分裂为自旋序列与宇称 $\pi$ 相同的两条平行能带，构成实验上的手征双重带。需注意这属于低能有效子空间截断下的物理图像，并非所有有限核精确谱的一般数学定理。
+
+\subsubsection{正交两态基矢模型}\label{sec:3-5-5-1}
+
+若两参考态通过手征对称变换关联 $|R\rangle = \mathcal{C}|L\rangle$，在 $\mathcal{C}H\mathcal{C}^{-1} = H$ 且 $H$ 厄米条件下，两阱能量期望值严格相等：$h \equiv \langle L|H|L\rangle = \langle R|H|R\rangle \in \mathbb{R}$。在两态正交归一的理想极限下（$\langle L|L\rangle = \langle R|R\rangle = 1, \langle L|R\rangle = 0$），设隧穿矩阵元为 $\langle L|H|R\rangle = -t$（选定相使 $t > 0$），哈密顿量矩阵为：
+\begin{equation}\label{eq:3-5-orth-two-state-H}
+H = \begin{pmatrix} E_0 & -t \\ -t & E_0 \end{pmatrix}.
+\end{equation}
+求解本征方程得到正交本征态及其能量：
+\begin{equation}\label{eq:3-5-orth-two-state-sol}
+E_\pm = E_0 \mp t, \quad |\psi_\pm\rangle = \frac{1}{\sqrt{2}}(|L\rangle \pm |R\rangle), \quad \Delta E = E_- - E_+ = 2|t|.
+\end{equation}
+能级劈裂 $\Delta E$ 直接反映隧穿矩阵元模长 $|t|$。态矢 $|\psi_\pm\rangle$ 上的正负号仅为基矢展开系数，非反幺正算符 $\mathcal{C}$ 的物理量子数。
+
+\subsubsection{非正交两态模型与广义本征方程}\label{sec:3-5-5-2}
+
+微观模型构造的左右参考态常存在非零内积重叠 $S \equiv \langle L|R\rangle$。当 $|R\rangle = \mathcal{C}|L\rangle$ 时，$S$ 与耦合元 $k \equiv \langle L|H|R\rangle$ 一般均为复数；在态矢定相变换 $|L\rangle \to e^{i\phi}|L\rangle$ 下，$S$ 与 $k$ 均乘以相同相因子 $e^{-2i\phi}$。因此，当 $S \ne 0$ 时，两者能同时通过重定相实化的充要条件是 $\text{Im}(kS^*) = 0$。反幺正对称性本身并不单独保证该条件成立。
+
+在此我们额外假定实对称两态模型（即近似设定重叠 $S \in \mathbb{R}$ 满足 $|S| < 1$ 以及非对角元 $k \in \mathbb{R}$，且等对角元 $h \in \mathbb{R}$ 由对称性保证；一般复数非正交广义本征方程详见附录~\ref{app:projection}）。在非正交基矢下求解广义本征方程 $H \mathbf{c} = E N \mathbf{c}$：
+\begin{equation}\label{eq:3-5-nonorth-matrices}
+N = \begin{pmatrix} 1 & S \\ S & 1 \end{pmatrix}, \quad H = \begin{pmatrix} h & k \\ k & h \end{pmatrix}.
+\end{equation}
+广义久期方程 $\det(H - E N) = 0$ 给出本征能量：
+\begin{equation}\label{eq:3-5-nonorth-energies}
+E_\pm = \frac{h \pm k}{1 \pm S}.
+\end{equation}
+若两态尚未按能量高低重排，代数差为 $E_- - E_+ = 2(hS - k)/(1 - S^2)$；物理上的非负正能隙由绝对值给出：
+\begin{equation}\label{eq:3-5-nonorth-gap}
+\Delta E = \frac{2|h S - k|}{1 - S^2}.
+\end{equation}
+该解满足重要自洽条件：若物理算符发生常数平移 $\hat{H} \to \hat{H} + c\hat{\mathbf{1}}$，在非正交基下哈密顿量矩阵变为 $H \to H + cN$（而非加上普通单位阵），对角元与非对角元分别变为 $h \to h + c$ 与 $k \to k + cS$，分子组合 $h S - k$ 严格保持不变；若在限制模型空间内相互作用为纯单位阵 $\hat{H} = h\hat{\mathbf{1}}$，则 $H = hN \implies k = h S$，能隙严格为零，证明基矢几何重叠不会虚假产生物理劈裂。需明确，非正交基矢本身拥有标准的对偶基与线性展开技术；不能使用 $(1 \pm \mathcal{C})/2$ 是因为 $\mathcal{C}$ 算符的反线性特征，而求解广义久期方程则是为了自洽计入非正交基矢的度规 $N$ 效应，两者来源不同，不可混淆。
+
+\subsubsection{三类物理态范畴与动力学演化}\label{sec:3-5-5-3}
+
+理论分析须清晰区分三类不同层次的物理态：
+\begin{itemize}
+\item \textbf{内禀参考态}：属于未投影平均场或准经典破缺范畴，由旋转参考系下自洽求解获得，具非共面角动量特征，但无确定的实验室自旋 $I$；在某些粒子—转子模型中，固定 $I$ 态亦可作为内禀参考；
+\item \textbf{精确实验室本征态}：全核哈密顿量在实验室系的真正量子本征态，具确定自旋 $I$ 与宇称 $\pi$；在指定模型近似中常设想由内禀波包在三维取向恢复后相干叠加形成，但实际物理态可包含更广泛涨落；
+\item \textbf{半经典近似与集体模型态}：介于前两者的简化方案，如三轴粒子—转子模型或一维集体角哈密顿量。
+\end{itemize}
+
+在自旋演化中，不能断言隧穿势垒必随自旋单调上升或高自旋必回平面。实际演化取决于势能曲面刚度、科里奥利作用与准粒子排列在全自旋区的动力学竞争，可能展现从振动向静态转动的过渡，亦可能经历组态交叉。
+
+\subsection{实验观测量、指纹特征与最强竞争机制}\label{sec:3-5-6}
+
+在束 $\gamma$ 谱学针对候选手征双带发展出系列指纹判据\cite{starosta-2001-n75-chiral-vibrations,meng-2010-open-problems-nuclear-chirality}：
+\begin{enumerate}
+\item \textbf{同宇称与能级接近}：在某个自旋窗口出现两条同宇称的 $\Delta I=1$ 序列，其同自旋能量、间距与转动响应可作比较；不存在跨所有核通用的简并能差数值门槛；
+\item \textbf{能量交错参数 $S(I)$ 平滑演化}：Meng 等人（2010）\cite{meng-2010-open-problems-nuclear-chirality}（PDF 第 6 页 Eq.(3.1)）明确给出了具能量量纲（keV/MeV）的定义：
+\end{enumerate}
+\begin{equation}\label{eq:3-5-SI-definition}
+S(I) = \frac{E(I) - E(I-1)}{2I}.
+\end{equation}
+对理想对称转子 $E(I) = A I(I+1)$，上式给出常数 $S(I) = A = \hbar^2 / (2\mathcal{J})$。理想手征伴带通常表现出相近且平滑的 $S(I)$ 曲线。Ayangeakaa 等人（2013）\cite{ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce} 与 Liu（2016）\cite{liu-chen-2016-78br-chirality-reflection-symmetry-thesis} 亦绘制了相应间距演化，其它主题也可能用 $S(I)$ 表示不同的差分指标，因此比较不同作品时须核对定义与量纲；
+\begin{enumerate}
+\item \textbf{带内跃迁相似性}：伙伴带内禀结构相近，带内 $B(M1)$ 与 $B(E2)$ 演化相似，比值 $B(M1)/B(E2)$ 数值可比且具交错趋势；
+\item \textbf{带间连接跃迁}：在振动或隧穿区存在显著带间 $M1$ 和 $E2$ 跃迁，在特定对称极限下呈现奇偶自旋竞争特征\cite{koike-2004-chiral-bands-selection-rules}。需注意该选择定则由线性质中交换及旋转算符 $A$ 决定，即使未完全实现手征几何仍可在模型中成立，不可将其等同于反幺正算符 $\mathcal{C}$。
+\end{enumerate}
+
+\subsubsection{最强反方假说与实验鉴别}\label{sec:3-5-6-1}
+
+Petrache 等人对近简并带的分析说明，能量接近还须与跃迁强度、顺排及带交叉共同考察，不能仅凭能谱认定两带具有相同内禀结构\cite{petrache-2006-near-degenerate-chiral-misinterpretation}。在具体候选中，不同组态、形状或带混合能否解释数据，均须由相应模型计算检验，不能先把这些机制逐一当作已经发生的事实。
+
+另一个有直接模型依据的比较来自软核芯。Rohoziński 等人在核芯—粒子—空穴耦合模型中，不先假设静态非共面几何，就能在所考察参数下再现双带和部分 $M1$ 交错\cite{rohozinski-2011-cphc-s-symmetry-chirality}。这提示需要比较刚、软核芯及其耦合；它也没有证明瞬时非共面几何不存在，所以不能简单将其排为“非手征”。
+
+不存在单一充要判据能独立确证核手征性。能谱或 $S(I)$ 吻合不足以排除非手征解释，测量绝对电磁跃迁几率可显著提升不同解释的鉴别力。利用高纯锗探测阵列结合多普勒位移衰减法（DSAM）或反冲距离法（RDM）测出能级寿命 $\tau$，结合方向角关联（DCO 比值）与偏振测量可约束多极混合比 $\delta$，进而提取绝对跃迁几率 $B(M1)$ 和 $B(E2)$。但需注意，单靠 DCO 或偏振由二次多极比方程反演 $\delta$ 时常存双根多解性，消除歧义依赖联合角关联拟合、分支比与寿命测量的综合约束，多根反演将在第5.7节讨论，寿命与绝对强度链分别见第5.8和5.9节。
+
+最终，手征候选带确立依赖实验电磁跃迁网络与自洽理论模型（如粒子—转子模型、倾斜轴推转协变密度泛函或三维投影计算）的联合对账。在检验理论预言时，须分清参数拟合区间与外推留出区间，评估形变自由度与转动惯量响应的模型敏感性。在共同输入下比较这些观测与波函数特征，尤其检验未用于调参的预言，可以提高解释的可信度；具体哪些观测最有区分力，取决于候选核、数据精度及其竞争模型。
+
+这里讨论的是三维取向及有限两态混合。第3.6节进一步比较形状模与取向模的耦合：相同的对称性标签允许耦合，但混合有多强仍由矩阵元和能量间距决定。第3.7节再加入八极和反射自由度，讨论何种附加条件可能使手征伙伴与宇称伙伴同时出现，以及四带图像需要怎样的电磁网络检验。

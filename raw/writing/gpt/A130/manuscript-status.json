@@ -2,269 +2,563 @@
   "status": "writing-and-parent-review",
   "scope": "non-personal-results chapters only",
   "architecture": "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md",
-  "old_files_preserved": 34,
-  "archive_manifest": "raw/writing/gpt/_archive/20261108-A130-before-rewrite/manifest.json",
+  "old_files_preserved": 17,
+  "archive_manifest": null,
   "sections": [
     {
       "id": "1.1",
-      "draft_file": "research-draft/section-1-1.md",
-      "evidence_file": "evidence-ledger/section-1-1.json",
-      "state": "parent-integrated-research-draft",
-      "manuscript_sha256": "5ac19639abde30ccf7f50f101dcd77a37c50918f70421efdef5d642e8e57a505"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-1-1.tex",
+      "evidence_file": "latex-evidence-ledger/section-1-1.json",
+      "state": "content-admitted-typesetting-verified",
+      "manuscript_sha256": "375ff8b50ac5d3588a173bbf2a9446917bbe9ec9a27c30df33a8f08a57b62b67",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-1-1.md",
+        "evidence_file": "evidence-ledger/section-1-1.json",
+        "state": "parent-integrated-research-draft",
+        "manuscript_sha256": "5ac19639abde30ccf7f50f101dcd77a37c50918f70421efdef5d642e8e57a505"
+      }
     },
     {
       "id": "1.2",
-      "draft_file": "research-draft/section-1-2.md",
-      "evidence_file": "evidence-ledger/section-1-2.json",
-      "state": "parent-integrated-research-draft",
-      "manuscript_sha256": "96514dd3beeabb9362c2837c6630dd36bdda6840ca2a4ad5ac98e794be26e20c"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-1-2.tex",
+      "evidence_file": "latex-evidence-ledger/section-1-2.json",
+      "state": "content-admitted-typesetting-verified",
+      "manuscript_sha256": "cdc65bc8569ed15f8c4d32a28d17f64b1509929620e37d8d93054e140e3962fb",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-1-2.md",
+        "evidence_file": "evidence-ledger/section-1-2.json",
+        "state": "parent-integrated-research-draft",
+        "manuscript_sha256": "96514dd3beeabb9362c2837c6630dd36bdda6840ca2a4ad5ac98e794be26e20c"
+      }
     },
     {
       "id": "1.3",
-      "draft_file": "research-draft/section-1-3.md",
-      "evidence_file": "evidence-ledger/section-1-3.json",
-      "state": "writing"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-1-3.tex",
+      "evidence_file": "latex-evidence-ledger/section-1-3.json",
+      "state": "content-admitted-typesetting-verified",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-1-3.md",
+        "evidence_file": "evidence-ledger/section-1-3.json",
+        "state": "writing"
+      },
+      "manuscript_sha256": "41e375449934242995f7a810b1224d5b7b8f96d018038d34a8de58d2d7dc6075"
     },
     {
       "id": "1.4",
-      "draft_file": "research-draft/section-1-4.md",
-      "evidence_file": "evidence-ledger/section-1-4.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-1-4.tex",
+      "evidence_file": "latex-evidence-ledger/section-1-4.json",
+      "state": "content-admitted-typesetting-verified",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-1-4.md",
+        "evidence_file": "evidence-ledger/section-1-4.json",
+        "state": "not-started"
+      },
+      "manuscript_sha256": "2871873b582e6583fc12c9e04827cfd311779db2e2ecde38a371ed43984b0d71"
     },
     {
       "id": "1.5",
-      "draft_file": "research-draft/section-1-5.md",
-      "evidence_file": "evidence-ledger/section-1-5.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-1-5.tex",
+      "evidence_file": "latex-evidence-ledger/section-1-5.json",
+      "state": "content-admitted-typesetting-verified",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-1-5.md",
+        "evidence_file": "evidence-ledger/section-1-5.json",
+        "state": "not-started"
+      },
+      "manuscript_sha256": "10d22975760ed742b44fdecd5be48cee7179e4bc404ed603d017e6c22ef716bb"
     },
     {
       "id": "2.1",
-      "draft_file": "research-draft/section-2-1.md",
-      "evidence_file": "evidence-ledger/section-2-1.json",
-      "state": "parent-integrated-research-draft",
-      "manuscript_sha256": "8bc02122cefecbfb4d865f7805443cd6524693847bb54947ff4a0d4345b04db0"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-2-1.tex",
+      "evidence_file": "latex-evidence-ledger/section-2-1.json",
+      "state": "content-admitted-typesetting-verified",
+      "manuscript_sha256": "cce29838eadc2eb20dcaef4a795334cf625f12332caf8e4d9448e510ca1f34ba",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-2-1.md",
+        "evidence_file": "evidence-ledger/section-2-1.json",
+        "state": "parent-integrated-research-draft",
+        "manuscript_sha256": "8bc02122cefecbfb4d865f7805443cd6524693847bb54947ff4a0d4345b04db0"
+      }
     },
     {
       "id": "2.2",
-      "draft_file": "research-draft/section-2-2.md",
-      "evidence_file": "evidence-ledger/section-2-2.json",
-      "state": "writing"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-2-2.tex",
+      "evidence_file": "latex-evidence-ledger/section-2-2.json",
+      "state": "content-admitted-typesetting-verified",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-2-2.md",
+        "evidence_file": "evidence-ledger/section-2-2.json",
+        "state": "writing"
+      },
+      "manuscript_sha256": "1c275f2433754fec67b723c554679457ab87b02e39ba32f382ad51daecb2d547"
     },
     {
       "id": "2.3",
-      "draft_file": "research-draft/section-2-3.md",
-      "evidence_file": "evidence-ledger/section-2-3.json",
-      "state": "parent-integrated-research-draft",
-      "manuscript_sha256": "05f41e53b0d6ed668eaf7a4f1d0304561b9ea7135aa144e55b38de844b78b945"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-2-3.tex",
+      "evidence_file": "latex-evidence-ledger/section-2-3.json",
+      "state": "content-admitted-typesetting-verified",
+      "manuscript_sha256": "0cba2e7dbbae51d8e62b5f6f253fcc7b1584b1b99eaad8f7fec58564ad03b640",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-2-3.md",
+        "evidence_file": "evidence-ledger/section-2-3.json",
+        "state": "parent-integrated-research-draft",
+        "manuscript_sha256": "05f41e53b0d6ed668eaf7a4f1d0304561b9ea7135aa144e55b38de844b78b945"
+      }
     },
     {
       "id": "2.4",
-      "draft_file": "research-draft/section-2-4.md",
-      "evidence_file": "evidence-ledger/section-2-4.json",
-      "state": "writing"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-2-4.tex",
+      "evidence_file": "latex-evidence-ledger/section-2-4.json",
+      "state": "content-admitted-typesetting-verified",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-2-4.md",
+        "evidence_file": "evidence-ledger/section-2-4.json",
+        "state": "writing"
+      },
+      "manuscript_sha256": "7da9f4be6a5993defb52052ea928dcddbebb02822c3bae2cf672da38fbf9d9ef"
     },
     {
       "id": "2.5",
-      "draft_file": "research-draft/section-2-5.md",
-      "evidence_file": "evidence-ledger/section-2-5.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-2-5.tex",
+      "evidence_file": "latex-evidence-ledger/section-2-5.json",
+      "state": "content-admitted-typesetting-verified",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-2-5.md",
+        "evidence_file": "evidence-ledger/section-2-5.json",
+        "state": "not-started"
+      },
+      "manuscript_sha256": "d63f29d8e491069876161d6dfe49f8997ad0ac0af514ea56c9c25b06a85b4fcb"
     },
     {
       "id": "2.6",
-      "draft_file": "research-draft/section-2-6.md",
-      "evidence_file": "evidence-ledger/section-2-6.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-2-6.tex",
+      "evidence_file": "latex-evidence-ledger/section-2-6.json",
+      "state": "content-admitted-typesetting-verified",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-2-6.md",
+        "evidence_file": "evidence-ledger/section-2-6.json",
+        "state": "not-started"
+      },
+      "manuscript_sha256": "ad956ea0748a82b31e82a917df2d16fec1b744be1ce72f91c875eec0ae55ad64",
+      "author_executor": "restored GPT (G82), not Gemini"
     },
     {
       "id": "2.7",
-      "draft_file": "research-draft/section-2-7.md",
-      "evidence_file": "evidence-ledger/section-2-7.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-2-7.tex",
+      "evidence_file": "latex-evidence-ledger/section-2-7.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-2-7.md",
+        "evidence_file": "evidence-ledger/section-2-7.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "2.8",
-      "draft_file": "research-draft/section-2-8.md",
-      "evidence_file": "evidence-ledger/section-2-8.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-2-8.tex",
+      "evidence_file": "latex-evidence-ledger/section-2-8.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-2-8.md",
+        "evidence_file": "evidence-ledger/section-2-8.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "3.1",
-      "draft_file": "research-draft/section-3-1.md",
-      "evidence_file": "evidence-ledger/section-3-1.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-3-1.tex",
+      "evidence_file": "latex-evidence-ledger/section-3-1.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-3-1.md",
+        "evidence_file": "evidence-ledger/section-3-1.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "3.2",
-      "draft_file": "research-draft/section-3-2.md",
-      "evidence_file": "evidence-ledger/section-3-2.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-3-2.tex",
+      "evidence_file": "latex-evidence-ledger/section-3-2.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-3-2.md",
+        "evidence_file": "evidence-ledger/section-3-2.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "3.3",
-      "draft_file": "research-draft/section-3-3.md",
-      "evidence_file": "evidence-ledger/section-3-3.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-3-3.tex",
+      "evidence_file": "latex-evidence-ledger/section-3-3.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-3-3.md",
+        "evidence_file": "evidence-ledger/section-3-3.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "3.4",
-      "draft_file": "research-draft/section-3-4.md",
-      "evidence_file": "evidence-ledger/section-3-4.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-3-4.tex",
+      "evidence_file": "latex-evidence-ledger/section-3-4.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-3-4.md",
+        "evidence_file": "evidence-ledger/section-3-4.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "3.5",
-      "draft_file": "research-draft/section-3-5.md",
-      "evidence_file": "evidence-ledger/section-3-5.json",
-      "state": "parent-integrated-research-draft",
-      "manuscript_sha256": "b0d58b8da2127d4aaa433bb1fc7bb88685338f767ad0b05365035befc9615820"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-3-5.tex",
+      "evidence_file": "latex-evidence-ledger/section-3-5.json",
+      "state": "content-admitted-typesetting-verified",
+      "manuscript_sha256": "5439b517623ae5142cd4711bfd849cc0df1db4574aac3dfd305a2963dabfdea8",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-3-5.md",
+        "evidence_file": "evidence-ledger/section-3-5.json",
+        "state": "parent-integrated-research-draft",
+        "manuscript_sha256": "b0d58b8da2127d4aaa433bb1fc7bb88685338f767ad0b05365035befc9615820"
+      }
     },
     {
       "id": "3.6",
-      "draft_file": "research-draft/section-3-6.md",
-      "evidence_file": "evidence-ledger/section-3-6.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-3-6.tex",
+      "evidence_file": "latex-evidence-ledger/section-3-6.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-3-6.md",
+        "evidence_file": "evidence-ledger/section-3-6.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "3.7",
-      "draft_file": "research-draft/section-3-7.md",
-      "evidence_file": "evidence-ledger/section-3-7.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-3-7.tex",
+      "evidence_file": "latex-evidence-ledger/section-3-7.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-3-7.md",
+        "evidence_file": "evidence-ledger/section-3-7.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "3.8",
-      "draft_file": "research-draft/section-3-8.md",
-      "evidence_file": "evidence-ledger/section-3-8.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-3-8.tex",
+      "evidence_file": "latex-evidence-ledger/section-3-8.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-3-8.md",
+        "evidence_file": "evidence-ledger/section-3-8.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "4.1",
-      "draft_file": "research-draft/section-4-1.md",
-      "evidence_file": "evidence-ledger/section-4-1.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-4-1.tex",
+      "evidence_file": "latex-evidence-ledger/section-4-1.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-4-1.md",
+        "evidence_file": "evidence-ledger/section-4-1.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "4.2",
-      "draft_file": "research-draft/section-4-2.md",
-      "evidence_file": "evidence-ledger/section-4-2.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-4-2.tex",
+      "evidence_file": "latex-evidence-ledger/section-4-2.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-4-2.md",
+        "evidence_file": "evidence-ledger/section-4-2.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "4.3",
-      "draft_file": "research-draft/section-4-3.md",
-      "evidence_file": "evidence-ledger/section-4-3.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-4-3.tex",
+      "evidence_file": "latex-evidence-ledger/section-4-3.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-4-3.md",
+        "evidence_file": "evidence-ledger/section-4-3.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "4.4",
-      "draft_file": "research-draft/section-4-4.md",
-      "evidence_file": "evidence-ledger/section-4-4.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-4-4.tex",
+      "evidence_file": "latex-evidence-ledger/section-4-4.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-4-4.md",
+        "evidence_file": "evidence-ledger/section-4-4.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "4.5",
-      "draft_file": "research-draft/section-4-5.md",
-      "evidence_file": "evidence-ledger/section-4-5.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-4-5.tex",
+      "evidence_file": "latex-evidence-ledger/section-4-5.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-4-5.md",
+        "evidence_file": "evidence-ledger/section-4-5.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "4.6",
-      "draft_file": "research-draft/section-4-6.md",
-      "evidence_file": "evidence-ledger/section-4-6.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-4-6.tex",
+      "evidence_file": "latex-evidence-ledger/section-4-6.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-4-6.md",
+        "evidence_file": "evidence-ledger/section-4-6.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "4.7",
-      "draft_file": "research-draft/section-4-7.md",
-      "evidence_file": "evidence-ledger/section-4-7.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-4-7.tex",
+      "evidence_file": "latex-evidence-ledger/section-4-7.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-4-7.md",
+        "evidence_file": "evidence-ledger/section-4-7.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "4.8",
-      "draft_file": "research-draft/section-4-8.md",
-      "evidence_file": "evidence-ledger/section-4-8.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-4-8.tex",
+      "evidence_file": "latex-evidence-ledger/section-4-8.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-4-8.md",
+        "evidence_file": "evidence-ledger/section-4-8.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "5.1",
-      "draft_file": "research-draft/section-5-1.md",
-      "evidence_file": "evidence-ledger/section-5-1.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-5-1.tex",
+      "evidence_file": "latex-evidence-ledger/section-5-1.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-5-1.md",
+        "evidence_file": "evidence-ledger/section-5-1.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "5.2",
-      "draft_file": "research-draft/section-5-2.md",
-      "evidence_file": "evidence-ledger/section-5-2.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-5-2.tex",
+      "evidence_file": "latex-evidence-ledger/section-5-2.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-5-2.md",
+        "evidence_file": "evidence-ledger/section-5-2.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "5.3",
-      "draft_file": "research-draft/section-5-3.md",
-      "evidence_file": "evidence-ledger/section-5-3.json",
-      "state": "parent-integrated-research-draft",
-      "manuscript_sha256": "514fd3ab6c968851eece090a54b1e875e99552d8b16fe20114738444af271dfc"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-5-3.tex",
+      "evidence_file": "latex-evidence-ledger/section-5-3.json",
+      "state": "content-admitted-typesetting-verified",
+      "manuscript_sha256": "81f757b33a8ca0e0c65c025661b57e956c3f7d1d7df2972d3a35a89dccf76e04",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-5-3.md",
+        "evidence_file": "evidence-ledger/section-5-3.json",
+        "state": "parent-integrated-research-draft",
+        "manuscript_sha256": "514fd3ab6c968851eece090a54b1e875e99552d8b16fe20114738444af271dfc"
+      }
     },
     {
       "id": "5.4",
-      "draft_file": "research-draft/section-5-4.md",
-      "evidence_file": "evidence-ledger/section-5-4.json",
-      "state": "writing"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-5-4.tex",
+      "evidence_file": "latex-evidence-ledger/section-5-4.json",
+      "state": "content-admitted-typesetting-verified",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-5-4.md",
+        "evidence_file": "evidence-ledger/section-5-4.json",
+        "state": "writing"
+      },
+      "manuscript_sha256": "18960bdfb1c2e65304a42da6bb39ef3026061b6a6d25d4911dcfdb853f316c26"
     },
     {
       "id": "5.5",
-      "draft_file": "research-draft/section-5-5.md",
-      "evidence_file": "evidence-ledger/section-5-5.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-5-5.tex",
+      "evidence_file": "latex-evidence-ledger/section-5-5.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-5-5.md",
+        "evidence_file": "evidence-ledger/section-5-5.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "5.6",
-      "draft_file": "research-draft/section-5-6.md",
-      "evidence_file": "evidence-ledger/section-5-6.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-5-6.tex",
+      "evidence_file": "latex-evidence-ledger/section-5-6.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-5-6.md",
+        "evidence_file": "evidence-ledger/section-5-6.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "5.7",
-      "draft_file": "research-draft/section-5-7.md",
-      "evidence_file": "evidence-ledger/section-5-7.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-5-7.tex",
+      "evidence_file": "latex-evidence-ledger/section-5-7.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-5-7.md",
+        "evidence_file": "evidence-ledger/section-5-7.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "5.8",
-      "draft_file": "research-draft/section-5-8.md",
-      "evidence_file": "evidence-ledger/section-5-8.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-5-8.tex",
+      "evidence_file": "latex-evidence-ledger/section-5-8.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-5-8.md",
+        "evidence_file": "evidence-ledger/section-5-8.json",
+        "state": "not-started"
+      }
     },
     {
       "id": "5.9",
-      "draft_file": "research-draft/section-5-9.md",
-      "evidence_file": "evidence-ledger/section-5-9.json",
-      "state": "parent-integrated-research-draft",
-      "manuscript_sha256": "c3da811fae74df463bc1742bf304c672c7874def3c591dc64d91e0653374b8ca"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-5-9.tex",
+      "evidence_file": "latex-evidence-ledger/section-5-9.json",
+      "state": "content-admitted-typesetting-verified",
+      "manuscript_sha256": "637c5216b62cb9ed1790681e41dedafbb4f504df36f428e736ae7294dd095ab9",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-5-9.md",
+        "evidence_file": "evidence-ledger/section-5-9.json",
+        "state": "parent-integrated-research-draft",
+        "manuscript_sha256": "c3da811fae74df463bc1742bf304c672c7874def3c591dc64d91e0653374b8ca"
+      }
     },
     {
       "id": "5.10",
-      "draft_file": "research-draft/section-5-10.md",
-      "evidence_file": "evidence-ledger/section-5-10.json",
-      "state": "not-started"
+      "draft_file": "these_2023_template/these_template/Tex/Sections/sec-5-10.tex",
+      "evidence_file": "latex-evidence-ledger/section-5-10.json",
+      "state": "not-started",
+      "legacy_markdown": {
+        "draft_file": "research-draft/section-5-10.md",
+        "evidence_file": "evidence-ledger/section-5-10.json",
+        "state": "not-started"
+      }
     }
   ],
   "reader_effect_validated": false,
   "school_submission_ready": false,
-  "updated_at": "2026-11-08T02:00:28.751451+00:00",
-  "admission_boundary": "Bounded research-draft text acceptance after source/math/reader-step scrutiny; not school submission or measured reader validation",
+  "updated_at": "2026-11-13T03:46:53.057447+00:00",
+  "admission_boundary": "Content admission is based on direct evidence and explicit corrections; 15 sections (1.1-1.5, 2.1-2.6, 3.5, 5.3, 5.4, 5.9) and Appendices B/C are verified and admitted into the 128-page CLEAN_PASS build; remaining 24 sections are stubs [未完成] and whole thesis manuscript is incomplete. Historical review labels do not confer scientific eligibility.",
   "integrated_sections": [
     "1.1",
     "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
     "2.1",
+    "2.2",
     "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
     "3.5",
     "5.3",
+    "5.4",
     "5.9"
   ],
-  "writing_sections": [
-    "1.3",
-    "2.2",
-    "2.4",
-    "5.4"
+  "writing_sections": [],
+  "whole_manuscript_complete": false,
+  "canonical_format": "latex",
+  "canonical_entry": "these_2023_template/these_template/Thesis.tex",
+  "canonical_pdf": "these_2023_template/these_template/Thesis.pdf",
+  "figure_directory": "these_2023_template/these_template/Img",
+  "figure_formats": [
+    "svg",
+    "pdf"
   ],
-  "whole_manuscript_complete": false
+  "build_command": "python3 system/scripts/a130_latex_build.py",
+  "old_archive_current_boundary": "Historical Nov8 archive externally removed; 17 source/PDF blobs match historical SHA in Git, 17 build intermediates not restored; user deletion preserved.",
+  "old_archive_audit": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/old-archive-git-audit.local.json",
+  "template_archive_manifest": "raw/writing/gpt/_archive/20261113-A130-template-original/manifest.json",
+  "legacy_markdown_outputs": "Historical inputs only; do not use old Markdown assembler as current thesis producer.",
+  "compilation": {
+    "audit_verdict": "CLEAN_PASS",
+    "status": "verified-128page-clean-pass",
+    "pdf_path": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.pdf",
+    "pages": 128,
+    "size_bytes": 1676015,
+    "fatal_errors": 0,
+    "missing_citations": 0,
+    "missing_references": 0,
+    "overfull_hboxes": 0,
+    "missing_glyphs": 0,
+    "bibtex_errors": 0,
+    "bibtex_warnings": 0,
+    "production_inputs_tracked": 49,
+    "production_inputs_manifest_sha256": "152f30777a592c06ce0acb4b2632715bf23d00adb8d2d57841f0e365d741b33f",
+    "build_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G76/build_report.json",
+    "manuscript_complete": false,
+    "active_sections_count": 15,
+    "planned_sections_count": 39
+  },
+  "appendices": [
+    {
+      "id": "AppendixB",
+      "title": "附录 B 对称性恢复与非正交态",
+      "draft_file": "these_2023_template/these_template/Tex/Appendices/AppendixB.tex",
+      "manuscript_sha256": "93785f3c48c54b1cda81f146da0465be7de835267e5842c95c2735f386eef6f8",
+      "state": "content-admitted-typesetting-verified"
+    },
+    {
+      "id": "AppendixC",
+      "title": "附录 C 集体动能与响应的约定",
+      "draft_file": "these_2023_template/these_template/Tex/Appendices/AppendixC.tex",
+      "manuscript_sha256": "67eece7eea1d3d9693ab4e012147e126d2a00a8bee835d99855f5e1d205b1b76",
+      "state": "content-admitted-typesetting-verified",
+      "author_executor": "restored GPT (G82), not Gemini"
+    }
+  ],
+  "provenance_boundary": {
+    "section_2_6_and_appendix_C": "Completed by restored GPT (G82), not Gemini.",
+    "historical_archives": "Historical Nov8 archive (34 items) was externally removed by user; 17 source/PDF blobs match historical SHA in Git and remain exact recoverable; 17 build intermediates not restored; user deletion preserved."
+  },
+  "not_started_sections": [
+    "2.7",
+    "2.8",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.6",
+    "3.7",
+    "3.8",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "4.7",
+    "4.8",
+    "5.1",
+    "5.2",
+    "5.5",
+    "5.6",
+    "5.7",
+    "5.8",
+    "5.10"
+  ]
 }

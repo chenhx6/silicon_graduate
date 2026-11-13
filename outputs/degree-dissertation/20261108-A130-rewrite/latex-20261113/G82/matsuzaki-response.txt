@@ -1,0 +1,170 @@
+deformation seems to contradict to an irrotational motion and that the unexpected behavior
+of the wobbling frequency has not been explained yet.
+      Thus in the preceding Rapid Communication [23] we presented an answer to these prob-
+lems. In the present paper, after summarizing the discussion there we extend numerical
+analyses to elucidate it. An emphasis is put on the behavior of the calculated dynamic
+moments of inertia.
+
+
+II.     WOBBLING MOTION IN TERMS OF THE RANDOM PHASE APPROXI-
+MATION
+
+
+      We start from a one-body Hamiltonian in the rotating frame,
+
+                                            h′ = h − ~ωrot Jx ,                             (1)
+
+                               h = hNil − ∆τ (Pτ† + Pτ ) − λτ Nτ ,                          (2)
+                                        2
+                                       p  1
+                            hNil =       + M(ωx2 x2 + ωy2 y 2 + ωz2z 2 )
+                                      2M  2
+                                     +vls l · s + vll (l2 − hl2 iNosc ).                    (3)
+
+In Eq.(2), τ = 1 and 2 stand for neutron and proton, respectively, and chemical potentials λτ
+are determined so as to give correct average particle numbers hNτ i. The oscillator frequencies
+in Eq.(3) are expressed by the quadrupole deformation parameters ǫ2 and γ in the usual way.
+They are treated as parameters as well as pairing gaps ∆τ . The orbital angular momentum
+                                                                 q
+                                                                    ωk
+l in Eq.(3) is defined in the singly-stretched coordinates x′k =       x , with k = 1 – 3
+                                                                    ω0 k
+
+denoting x – z, and the corresponding momenta. By diagonalizing h′ at each ωrot , we obtain
+quasiparticle (QP) orbitals and the nuclear yrast (0QP) state. Since h′ conserves parity π
+and signature α, nuclear states can be labeled by them. Nuclear states with QP excitations
+are obtained by exchanging the QP energy and wave functions such as
+
+                                (−e′µ , Vµ , Uµ ) → (e′µ̄ , Uµ̄ , Vµ̄ ),                    (4)
+
+where µ̄ denotes the signature partner of µ.
+      We perform the random phase approximation (RPA) to the residual pairing plus doubly-
+stretched quadrupole-quadrupole (Q′′ · Q′′ ) interaction between QPs. Since we are interested
+in the wobbling motion that has a definite quantum number, α = 1, only two components
+
+
+                                                    3
+out of five of the Q′′ · Q′′ interaction are relevant. They are given by
+
+                                  (−)      1 X (−) ′′(−)† ′′(−)
+                                Hint = −          κ Q    QK ,                               (5)
+                                           2 K=1,2 K K
+
+where the doubly-stretched quadrupole operators are defined by
+                                                                ωk
+                                  Q′′K = QK (xk → x′′k =           xk ),                    (6)
+                                                                ω0
+and those with good signature are
+
+                                 (±)     1
+                                QK = p            (QK ± Q−K ) .                             (7)
+                                      2(1 + δK0 )
+The residual pairing interaction does not contribute because Pτ is an operator with α = 0.
+The equation of motion,
+                                  h                i
+                                         (−)
+                                   h′ + Hint , Xn†           = ~ωn Xn† ,                    (8)
+                                                       RPA
+
+for the eigenmode
+                                  (α=±1/2)                                    
+                                    X
+                          Xn† =                ψn (µν)a†µ a†ν + ϕn (µν)aν aµ                (9)
+                                    µ<ν
+
+leads to a pair of coupled equations for the transition amplitudes
+                                              Dh       iE
+                                                 (−) †
+                                        TK,n = QK , Xn .                                   (10)
+
+Then, by assuming γ 6= 0, this can be cast [10] into the form
+                                                                    
+                                                (eff)            (eff)
+                            
+                                         Jx − Jy (ωn ) Jx − Jz (ωn )
+              (ωn2 − ωrot
+                      2
+                          ) ωn2 − ωrot
+                                    2
+                                                  (eff)    (eff)
+                                                                        
+                                               Jy (ωn )Jz (ωn )
+
+                                                   = 0,                                    (11)
+
+                          (−)
+which is independent of κK s. This expression proves that the spurious (Nambu–Goldstone)
+mode given by the first factor and all nomal modes given by the second are decoupled from
+                                                                                   (eff)
+each other. Here Jx = hJx i/ωrot as usual and the detailed expressions of Jy,z (ωn ) are given
+in Refs.[10, 14, 15]. Among normal modes, one obtains
+                                                                
+                                          (eff)            (eff)
+                                   Jx − Jy (ωwob ) Jx − Jz (ωwob )
+                       2     2
+                     ωwob = ωrot            (eff)    (eff)
+                                                                     ,                     (12)
+                                         Jy (ωwob )Jz (ωwob )
+by putting ωn = ωwob . Note that this gives a real excitation only when the right-hand side
+is positive and it is non-trivial whether a collective solution appears or not. Evidently this
+
+                                                   4
+coincides with the form derived by Bohr and Mottelson in a rotor model [8] and known
+in classical mechanics [7], aside from the crucial feature that the moments of inertia are
+ωrot -dependent in the present case.
+   One drawback in our formulation is that our Jx tends to be larger than corresponding
+experimental values because of the spurious velocity dependence of the Nilsson potential
+                                                                                    (eff)
+as discussed in Refs.[24, 25]. A remedy for this was discussed there but that for Jy,z      has
+not been devised yet. Therefore we assume for the present a similar discussion holds for
+                                           (eff)
+the latter and accordingly the ratio Jy,z (ωwob )/Jx which actually determines ωwob is more
+reliable than their absolute magnitudes.
+   Interband electric quadrupole transitions between the n-th excited band and the yrast
+are given as
+                                                    1  (E)    (E)
+                                                                   2
+                       B(E2 : In → (I ± 1)yrast ) =    T    ± T2,n ,                        (13)
+                                                    2 1,n
+in terms of
+                                            (E)    Z
+                                           TK,n = e TK,n .                                  (14)
+                                                   A
+They will be abbreviated to B(E2)out later for simplicity. In-band ones are given as
+                                         √ D                           E 2
+                                                                        !
+                                     1      3    (+)(E)
+                                                        E 1D
+                                                                (+)(E)
+                B(E2 : I → I − 2) =            Q0        +     Q2          ,                (15)
+                                     2    2                 2
+
+in terms of
+                                  D
+                                       (+)(E)
+                                                   E        Z D (+) E
+                                      QK               =e      QK ,                         (16)
+                                                            A
+and assumed to be common to all bands. They will be abbreviated to B(E2)in . Here we
+adopted a high-spin approximation [26]. The transition quadrupole moment Qt is extracted
+from B(E2)in by the usual rotor-model prescription.
+   To compare collectivities of these two types of E2 transitions, we introduce a pair of
+deformation parameters
+                              r                    *           √          +
+                                   15                  1  (+)     3   (+)
+                     R 2 αy =          x2 − z 2 =        Q2 −       Q0      ,
+                                  16π                  2        2
+                                      r
+                                         15                 D
+                                                              (+)
+                                                                  E
+                             R 2 αz =          x2 − y 2 = Q2        .                       (17)
+                                        16π
+Then it is evident that the in-band one is expressed as
+
+                                            1               2
+                         B(E2 : I → I − 2) = R4 αy(E) − αz(E) .                             (18)
+                                            2
+
+                                                       5
+

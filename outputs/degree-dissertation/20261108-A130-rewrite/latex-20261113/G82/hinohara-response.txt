@@ -1,0 +1,433 @@
+NOBUO HINOHARA                                                                                    PHYSICAL REVIEW C 92, 034321 (2015)
+
+Thouless-Valatin inertia has also been applied to symmetry          neutron and proton pairing rotations are shown in Sec. VII.
+breaking in quantum dots [20]. Given its usefulness, a              Last, conclusions and outlook are given in Sec. VIII.
+microscopic derivation of the inertia based on the nuclear
+energy density functional (EDF) would be helpful in making                  II. QRPA IN XY AND PQ REPRESENTATIONS
+systematic calculations with predictive power [21].
+    The expression for the Thouless-Valatin inertia is well            I recapitulate the QRPA matrix expression for later conve-
+known in terms of the QRPA A and B matrices [11,22–24].             nience [11]. The QRPA equation in XY representation is given
+However, its direct evaluation is not trivial due to the size       by
+of these matrices. Therefore, alternative approaches for com-
+                                                                                                    SX = 3 X O,                   (1)
+puting the Thouless-Valatin inertia have been proposed: the
+cranked mean-field calculation [19,25,26] and a perturbative        where
+expansion based on adiabatic time-dependent HFB [27].                                                         i         
+    An alternative approach to solving the QRPA equations                          A     B                      X     Y i∗
+                                                                     Sμν,μ ν  =                   , X      =               , (2)
+based on linear response theory has been developed for nuclear                     B ∗ A∗ μν,μ ν      μν,i
+                                                                                                                Y i Xi∗ μν
+density functional theory: it is called the finite amplitude                                                      
+                                                                                       1   0                      0
+method (FAM) [28]. In the FAM, the response function to                         3 =          , Oij =                    ,     (3)
+                                                                                       0 −1                  0 − ij
+an external one-body field can be evaluated only through a
+one-body induced field, and the calculation cost is significantly   where μν, μ ν  are the two-quasiparticle indices, ij are the
+reduced compared with the matrix diagonalization of the             indices for QRPA eigenmodes, and A and B are the QRPA
+QRPA equations. The FAM has been implemented on various             matrices. The indices of 3 can be either μν,μ ν  or ij . The
+versions of Skyrme-HFB codes [29–31] and within covariant           matrix  in O is ij = i δij , where i is the energy of the
+density functional theory [32,33]. Not only does the FAM serve      QRPA eigenmode. The amplitudes Xi and Y i are the two-
+as an efficient way to calculate strength functions [34,35], it     quasiparticle amplitudes of a QRPA phonon operator
+has also been used to improve upon solution methods of the                                
+                                                                                      †             †
+QRPA equations [36–38]. Up to now the FAM has been used                             Ôi =       i
+                                                                                              Xμν Âμν − Yμν
+                                                                                                           i
+                                                                                                             Âμν ,              (4)
+to find physical excitations, and has not been formulated for                                     μ<ν
+the symmetry restoration NG modes.
+                                                                            †
+    The NG mode sometimes gives an unphysical contribution          with Âμν = âμ† âν† ; they are normalized with
+to a physical excitation that has the same quantum numbers.
+                                                                                              †               †    †
+Its energy can be nonzero when a self consistency between the                       [Ôi ,Ôj ] = δij , [Ôi ,Ôj ] = 0,       (5)
+HFB and QRPA equations is broken, or when basis truncation
+violates the exact symmetry numerically. In Ref. [28], a            or equivalently
+prescription to remove such contamination from the FAM                                X † 3 X = 3 , X 3 X † = 3 .              (6)
+response function is proposed and demonstrated in the case
+of center-of-mass motion. A similar prescription is employed        The QRPA equations are written in the Hamiltonian expression
+in the iterative Arnoldi diagonalization [39]. To apply this        as
+prescription to other modes, however, we need full solutions                              †             †
+of the NG mode, which are not known in advance other than                   [ĤQRPA ,Ôi ] = i Ôi , [ĤQRPA ,Ôi ] = −i Ôi ,   (7)
+in the case of center-of-mass mode.
+                                                                    where ĤQRPA is the QRPA part of the Hamiltonian. We always
+    The aim of this paper is to present a formalism of the FAM
+                                                                    have pairs of solutions with positive and negative frequencies.
+that can be applicable in the presence of the NG mode and
+                                                                    This expression assures that the two-quasiparticle part of the
+give expressions for the Thouless-Valatin inertia and conjugate
+                                                                    Hermitian broken-symmetry operator P̂NG given by
+coordinate operator of the NG modes. The expression of the
+                                                                                                     †
+FAM response function in terms of the QRPA solutions [37]                       P̂NG =     (PNG )μν Âμν + (PNG )∗μν Âμν       (8)
+is based on the XY representation of the QRPA equation, and                                   μ<ν
+is not applicable to the NG mode. In this paper, I derive the
+spectral representation of the response function of the FAM in      is always a solution ÔNG of the equation with NG = 0. The
+terms of the momentum-coordinate (PQ) representation of the         problem with the XY representation of the QRPA equations
+QRPA [11,40]. This is done to handle both the NG modes and          for NG modes is that they cannot be normalized with Eq. (6).
+imaginary solutions of the QRPA in addition to the physical             We now switch to the PQ representation to handle NG
+modes.                                                              modes. We introduce Hermitian coordinate and momentum
+    This paper is organized as follows. In Sec. II, the QRPA        operators that describe the eigenmodes as
+equations in the PQ representation are recapitulated. Sec-                   
+tion III contains a brief introduction to the FAM, and its                        1             †
+                                                                                                                †
+response function is expressed in the PQ representation of             Q̂i =           (Ôi + Ôi ) =     Qiμν Âμν + Qi∗
+                                                                                                                        μν Âμν , (9)
+                                                                                2Mi i
+the QRPA in Sec. IV. Then in Sec. V, the expression for                        
+                                                                                                      μ<ν
+the Thouless-Valatin inertia is derived. Numerical tests of the              1 Mi i            †
+                                                                                                               †
+formalism for the center of mass motion and pairing rotations         P̂i =            (Ôi − Ôi ) =      i
+                                                                                                          Pμν Âμν + Pμν
+                                                                                                                       i∗
+                                                                                                                          Âμν , (10)
+                                                                             i     2                  μ<ν
+are presented in Sec. VI, and realistic calculations of the
+
+                                                              034321-2
+COLLECTIVE INERTIA OF THE NAMBU-GOLDSTONE . . .                                                      PHYSICAL REVIEW C 92, 034321 (2015)
+
+and regard these operators as a starting point. Here Mi is the          Computation of the Thouless-Valatin inertia from Eq. (23)
+inertia for each mode. The QRPA equations in terms of these             requires full evaluation of the A and B matrices of large di-
+operators are written as                                                mensions for recent nuclear density functional theory without
+                                                                        symmetry restrictions. In Sec. V, I derive expressions for the
+   A          B
+                              
+                                 Pi
+                                                      
+                                                       Qi               Thouless-Valatin inertia based on linear response theory.
+              ∗  ∗                   ∗       = ii Mi
+                                                 2
+                                                         ∗    , (11)
+            B   A    μν,μ ν 
+                                −P  i μ ν            Q i μν
+  μ <ν 
+    A          B
+                              
+                                 Qi
+                                                      
+                                                   i Pi                              III. FINITE-AMPLITUDE METHOD
+                                             =−              . (12)
+            B ∗ A∗ μν,μ ν  −Q∗i μ ν                 ∗
+                                                  Mi Pi μν
+     
+  μ <ν                                                                    In this section I introduce the FAM, and express the
+                                                                        response function in the PQ representation in Sec. IV following
+By defining the matrices
+                                                                        the notations in Ref. [30]. We start with an external time-
+          i                                  
+          P       Qi                0    −iM −1                         dependent field F̂ (t) with a frequency ω and a small finite
+ Vμν,i =                  , W   =                    ,                  amplitude parameter η,
+          −P i∗ −Qi∗ μν,i    ij
+                                    iM2   0      ij
+                                                 (13)
+                                                                                               F̂ (t) = η{F̂ e−iωt + F̂ † eiωt },       (24)
+with Mij = Mi δij , the QRPA equations in PQ representation
+are summarized as                                                       applied to the system. Here the one-body operator is written
+                                                                        in the quasiparticle basis
+                          SV = 3 VW.                           (14)
+                                                                                                                 11
+                                                                                               20 †
+                                                                             F̂ =             Fμν Âμν + Fμν
+                                                                                                          02
+                                                                                                             Âμν + Fμν B̂ μν ,         (25)
+The operators P̂i and Q̂j are normalized with
+                                                                                    μ<ν                                    μν
+
+    [Q̂i ,P̂j ] = iδij , [Q̂i ,Q̂j ] = [P̂i ,P̂j ] = 0,   (15)
+                                                                        where B̂ μν = âμ† âν . In the FAM, we solve the time-dependent
+or equivalently                                                         HFB (TDHFB) equations with the external field
+                  V † 3 V = 2 , V2 V † = 3 ,                (16)                          ∂
+                                                                                          i      âμ (t) = [Ĥ (t) + F̂ (t),âμ (t)].   (26)
+where                                                                                         ∂t
+                                        
+                                 0    −i                                The time dependence is governed by the forced oscillation of
+                        2 =              .                     (17)
+                                 i    0                                 the external field. The time-dependence of the quasiparticle
+                                                                        and the Hamiltonian is given by
+The solution for a zero-energy NG mode is written as
+                                 
+                   A     B      PNG                                                        âμ (t) = {âμ + δ âμ (t)}eiEμ t ,          (27)
+                                  ∗   = 0,                      (18)
+                   B ∗ A∗ −PNG                                                             
+                                                                       δ âμ (t) = η       âν† {Xνμ (ω)e−iωt + Yνμ
+                                                                                                                        ∗
+                                                                                                                           (ω)eiωt },   (28)
+           A      B      QNG          i    PNG
+             ∗      ∗       ∗   =−           ∗   ,              (19)                             ν
+                                                                                                         
+           B      A     −QNG        MNG PNG
+                                                                                              Ĥ (t) =       Eμ B̂ μμ + δ Ĥ (t),       (29)
+where MNG is the Thouless-Valatin inertia for the NG mode.                                               μ
+We assume that the A and B matrices are real. From the real                         δ Ĥ (t) = η{δ Ĥ (ω)e−iωt + δ Ĥ † (ω)eiωt },      (30)
+and imaginary parts of Eq. (19), we have
+                                                                                                            †
+                        I
+                       PNG                  PR                               δ Ĥ (ω) =        δHμν 20
+                                                                                                       (ω) Âμν + δHμν
+                                                                                                                     02
+                                                                                                                        (ω) Âμν ,      (31)
+   (A − B)QRNG =           , (A + B)QING = − NG ,               (20)                          μ<ν
+                       MNG                  MNG
+where we use QNG = QRNG + iQING and PNG = PNG   R
+                                                   + iPNG
+                                                        I
+                                                          .             where Eμ is the quasiparticle energy and Xμν (ω) and Yμν (ω)
+                                                                        are the FAM amplitudes. Using the expressions above and
+The normaization of the Q̂NG and P̂NG operators (15) can be
+                                                                        taking the terms linear to η (small-amplitude approximation),
+written as
+                                                                      the TDHFB equations are written as
+              2 −QING PNGR
+                           + QRNG PNG
+                                    I
+                                        = 1.           (21)
+                                                                                (Eμ + Eν − ω)Xμν (ω) + δHμν
+                                                                                                         20
+                                                                                                            (ω) = −Fμν
+                                                                                                                    20
+                                                                                                                       ,                (32)
+Substituting Eq. (20) into the equation above, we have the
+expression for the Thouless-Valatin inertia                                      (Eμ + Eν + ω)Yμν (ω) + δHμν
+                                                                                                          02
+                                                                                                             (ω) = −Fμν
+                                                                                                                     02
+                                                                                                                        .               (33)
+
+ MNG = 2 PNG
+          R
+             (A + B)−1 PNG
+                        R
+                           + PNG
+                              I
+                                 (A − B)−1 PNG
+                                            I
+                                               . (22)                   This expression does not involve the A and B matrices
+                                                                        explicitly, but through the one-body induced fields, δH 20 (ω)
+In many cases, PNG is either real or pure imaginary. Then the
+                                                                        and δH 02 (ω). This is the advantage of the FAM: the response
+expression reduces to
+                                                                        of the system to the external field F̂ can be evaluated from
+                                                  
+             2PNG (A + B)−1 PNG         PNG = PNG
+                                                R
+                                                    ,                   one-body quantities only. For more details on how to compute
+   MNG =                     −1
+                                                       (23)           the one-body induced field in nuclear density functional theory,
+             −2PNG (A − B) PNG PNG = iPNG .      I
+                                                                        see Ref. [30]. We also note that the FAM equation is formally
+
+                                                                  034321-3
+NOBUO HINOHARA                                                                                                PHYSICAL REVIEW C 92, 034321 (2015)
+
+equivalent to linear response theory, and can be written as                          QRPA in Ref. [37]. Using Eqs. (14) and (16), the response
+                                        −1  20                             function R(ω) is written as
+     X(ω)             A     B          1    0         F
+             =−                  − ω                                                          R(ω) = [S − ω3 ]−1 = V[W − ωI]−1 2 V † ,
+     Y (ω)            B ∗ A∗           0 −1           F 02                                                                                           (35)
+                         20 
+                          F                                                          where
+             = − R(ω) 02 ,                                 (34)                                                                           −1
+                          F
+                                                                                                              −1      −ω          −iM −1
+                                                                                                   [W − ωI]        =                             ,   (36)
+where R(ω) is the response function.                                                                                  iM2         −ω
+                                                                                     and I is a unit matrix. We note that this expression cannot be
+        IV. FAM RESPONSE FUNCTION IN THE PQ
+                                                                                     defined at ω = ±i . This excludes ω = 0 if a NG mode is
+                  REPRESENTATION
+                                                                                     present. This matrix has blocked structure for the same index
+   Now I derive the expression of the response function R(ω)                         in the four blocks, and we can take the inverse for each 2 × 2
+in terms of the PQ representation of the QRPA. A similar                             matrix. The response function and the FAM amplitudes with
+derivation has been done for the XY representation of the                            P and Q coefficients are now given as
+
+
+                        1
+    R(ω)μν,μν  =      2 − 2
+                   i
+                     ω       i
+                                         −1 i
+                                                          i∗                                                                            i 
+              i
+          iωPμν −Mi 2i Qiμν Qi∗ μ ν  + −Mi Pμν −iωQμν Pμ ν 
+                                                      i
+                                                                                            −iωPμνi
+                                                                                                    +Mi 2i Qiμν Qiμ ν  + M−1
+                                                                                                                              i Pμν +iωQμν Pμ ν 
+                                                                                                                                 i      i
+       ×                        i∗        −1 i∗        i∗                                                 i            −1 i∗
+                                                                                                                                            i     ,
+           −iωPμν
+                i∗
+                    +Mi 2i Qi∗
+                             μν Qμ ν  + Mi Pμν +iωQμν Pμ ν 
+                                                      i∗                                       i∗
+                                                                                           iωPμν  −Mi 2i Qi∗
+                                                                                                            μν Qμ ν  + −Mi Pμν −iωQμν Pμ ν 
+                                                                                                                                        i∗
+
+
+                                                                                                                             (37)
+                                                                                                                    
+  Xμν (ω)                           F 20        1      −iωPμνi
+                                                                   + Mi 2i Qiμν Qi |F̂ |0 + Mi−1 Pμν
+                                                                                                     i
+                                                                                                        + iωQiμν Pi |F̂ |0
+            =−         Rμνμ ν  (ω) μ02ν =                                                   −1
+                                                                                                                              ,
+  Yμν (ω)      μ <ν 
+                                     Fμ ν    i
+                                                 ω2 − i iωPμν − Mi i Qμν Qi |F̂ |0 + −Mi Pμν − iωQi∗
+                                                       2      i∗        2   i∗                       i∗
+                                                                                                              μν Pi |F̂ |0
+
+                                                                                                                                                     (38)
+where we define the transition strengths from the ground state to the states expressed with P̂i and Q̂i phonon operators as
+                                                                     
+                                         Pi |F̂ |0 ≡[P̂i ,F̂ ] =   Pμν Fμν − Pμν
+                                                                        i∗ 20     i   02
+                                                                                     Fμν ,                                  (39)
+                                                                                    μ<ν
+                                                                                    
+                                                      Qi |F̂ |0 ≡[Q̂i ,F̂ ] =          μν Fμν − Qμν Fμν .
+                                                                                          Qi∗  20    i   02
+                                                                                                                                                     (40)
+                                                                                    μ<ν
+
+We note that the FAM amplitudes X(ω) and Y (ω) are not Xi and Y i eigenvectors of the QRPA themselves, therefore they are
+well defined through the linear response equation even if there are NG modes. The FAM strength function is
+                                    
+                        S(F̂ ,ω) =       20∗
+                                       Fμν   Xμν (ω) + Fμν
+                                                        02∗
+                                                            Yμν (ω)
+                                            μ<ν
+                                                                                                                           
+                                                      1      1
+                                        =                      |Pi | F̂ |0| 2
+                                                                                + M i 2
+                                                                                       i |Q i | F̂ |0| 2
+                                                                                                           + ω[QP ] i ( F̂ )  ,                      (41)
+                                              i
+                                                   ω2 − 2i Mi
+
+
+
+where we define a real quantity [QP ]i (F̂ ) ≡ i(Qi |                               and by substituting these into Eq. (41), we can go back to the
+F̂ |0∗ Pi |F̂ |0 − Pi |F̂ |0∗ Qi |F̂ |0). When NG modes are                   original expression of the FAM strength function [37]
+not present (i = 0), the following transition strength can be                                                                          
+defined:                                                                                                 |i|F̂ |0|2       |0|F̂ |i|2
+                                                                                           S(F̂ ,ω) = −                   +                .   (44)
+                                                                                                                i − ω        i + ω
+                                             
+                                                                                                         i>0
+
+                         1                        Mi i                              Generally, the solutions of the QRPA equations consist of
+   i|F̂ |0 = i              Pi |F̂ |0 +             Qi |F̂ |0,      (42)
+                       2Mi i                      2                                 physical modes with 2i > 0, NG modes with 2i = 0, and
+                                                                                    imaginary modes with 2i < 0. Imaginary solutions of the
+                                                  
+                          1                           Mi i                          QRPA equations can occur when the HFB state does not
+    0|F̂ |i = i              Pi |F̂ |0 −                Qi |F̂ |0, (43)        correspond to a variational minimum. The PQ representation
+                        2Mi i                         2
+                                                                                     of the strength function (41) is valid for all three kinds of the
+
+
+
+                                                                            034321-4
+COLLECTIVE INERTIA OF THE NAMBU-GOLDSTONE . . .                                            PHYSICAL REVIEW C 92, 034321 (2015)
+
+modes. We consider the QRPA equations at a nonvariational          we have
+minimum mainly in two cases. When the HFB code has a
+symmetry restriction, we cannot take the variation against                      (A + B)[XR (0) + Y R (0)] = −2PNG
+                                                                                                               R
+                                                                                                                  ,           (50a)
+the restricted degrees of freedom, and unexpectedly the HFB
+state obtained with the symmetry-restricted code can be                          (A − B)[XI (0) − Y I (0)] = −2PNG
+                                                                                                                I
+                                                                                                                   ,          (50b)
+unstable. Typical examples are when a deformed nucleus is                                   X (0) − Y (0) = 0,
+                                                                                             R          R
+                                                                                                                              (50c)
+computed with a spherical HFB code, or when a triaxial
+state is computed with an axial HFB code. The transition                                    X (0) + Y (0) = 0.
+                                                                                              I         I
+                                                                                                                              (50d)
+to isoscalar pairing condensation with a HFB code with             The FAM strength function at ω = 0 is then
+proton-neutron symmetry and proton-neutron particle-particle
+                                                                                 
+RPA was recently discussed from this point of view [41].                             ∗
+                                                                    S(P̂NG ,0) =   (PNG )μν Xμν (0) + (PNG )μν Yμν (0)
+Another case is large-amplitude collective motion. The local                      μ<ν
+QRPA [16] based on the adiabatic theory of large-amplitude
+collective motion [42] requires the solutions of the QRPA                       = − 2PNG
+                                                                                      R
+                                                                                         (A + B)−1 PNG
+                                                                                                    R
+                                                                                                       − 2PNG
+                                                                                                           I
+                                                                                                              (A − B)−1 PNG
+                                                                                                                         I
+
+equations at nonequilibrium HFB states.                                         = − MNG ,                                      (51)
+   We can split the contributions of three modes to the strength
+function as                                                        where we use Eq. (22). Therefore the FAM strength function
+                                                                   for the momentum operator of the NG mode is summarized as
+   S(F̂ ,ω) = S(F̂ ,ω)phys + S(F̂ ,ω)NG + S(F̂ ,ω)imag ,   (45)                            
+                                                                                            0         (ω = ±i ),
+where the contribution from the NG mode is given by                           S(P̂NG ,ω) =                               (52)
+                                                                                           −MNG (ω = 0),
+                    |Pi |F̂ |0|2   [QP ]i (F̂ )
+   S(F̂ ,ω)NG =                     +                .     (46)    and the strength at zero frequency gives the Thouless-Valatin
+                 i, =0
+                           Mi ω 2         ω                        inertia. Using Eqs. (20), (50), and (52), the coordinate opeartor
+                     i
+                                                                   of the NG mode is then given by
+The same expression is found in Ref. [43]. When we compute
+the strength function distribution with the FAM, we replace                                         X(0) + Y ∗ (0)
+the real frequency ω by a complex value for the frequency                               QNG = −i                     .         (53)
+                                                                                                     2S(P̂NG ,0)
+ω + iγ where the imaginary part gives the width = 2γ . If
+the external field can excite the NG mode, there is a spurious     Except for the trivial case of the center-of-mass mode, the
+contribution                                                       coordinate operator of the NG mode is not known in advance,
+        1                                                          and this expression will be useful for removing spurious
+      − Im S(F,ω + iγ )NG                                          modes [28].
+        π
+                                                     
+            γ  2ω|Pi |F̂ |0|2        [QP ]i (F̂ )
+         =                           + 2                  (47)          B. Thouless-Valatin inertia from the coordinate operator
+            π i, =0 Mi (ω2 + γ 2 )2     ω + γ2
+                 i                                                    An alternative derivation of the Thouless-Valatin inertia
+to the strength distribution. The procedure to remove this         is found from the FAM calculation using the conjugate
+contribution from the center of mass mode has been proposed        coordinate operator of the NG mode Q̂NG as an external field.
+in Ref. [28].                                                      In this case, the strength function is derived from Eqs. (15)
+                                                                   and (46) as
+          V. THOULESS-VALATIN INERTIA FOR                                                           1
+              NAMBU-GOLDSTONE MODES
+                                                                                 S(Q̂NG ,ω) =               (ω = ±i ).       (54)
+                                                                                                  MNG ω2
+  A. Thouless-Valatin inertia from the momentum operator           Therefore the Thouless-Valatin inertia is given from the
+    The momentum operator P̂NG of a NG mode is a conse-            energy-weighted sum rule [11] as
+quence of a broken symmetry of the system. By using it as an                                      
+                                                                          −1                  2
+external field of the FAM, we can show that the contribution            MNG = 2m1 (Q̂NG ) =          ωS(Q̂NG ,ω)dω,    (55)
+to the strength function is zero                                                             2π i A1
+
+                         S(P̂NG ,ω) = 0                    (48)    where A1 is the counterclockwise half circle in the complex
+                                                                   energy plane from ω = −iRA1 to iRA1 centered at the
+from Eqs. (15), (41), and (46). Here we recall that the response   origin [38].
+function (37) is undefined at ω = 0 in the presence of the NG
+mode. From Eq. (34), the linear response equation at ω = 0 is
+                                                                           C. Thouless-Valatin inertia and the m−1 sum rule
+written as
+                                                                The expression for the Thouless-Valatin inertia (23) is same
+                A      B    X(0)          PNG
+                                    = −     ∗    .          (49)   as the inverse-energy-weighted sum rule given in Ref. [44]
+                B ∗ A∗ Y (0)              PNG
+                                                                   but for the momentum operator of the NG mode. Moreover
+Assuming that the A and B matrices are real, and decom-            the dielectric theorem [11,44] connects the inverse-energy-
+posing X(0) and Y (0) into their real and imaginary parts,         weighted sum rule through the constrained HFB state |φ(λ)
+
+                                                             034321-5
+

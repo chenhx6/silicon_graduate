@@ -1,0 +1,184 @@
+{
+  "results": [
+    {
+      "ledger": "appendix-B.json",
+      "actual_sha256": "6df9e783250c2062323f7df1762635252230052165d55e1e275cdedf3a96091c",
+      "recorded_output_hashes": [
+        [
+          "output_tex_sha256",
+          "6df9e783250c2062323f7df1762635252230052165d55e1e275cdedf3a96091c"
+        ]
+      ],
+      "keys": [],
+      "all_recorded_match": true
+    },
+    {
+      "ledger": "section-1-1.json",
+      "actual_sha256": "375ff8b50ac5d3588a173bbf2a9446917bbe9ec9a27c30df33a8f08a57b62b67",
+      "recorded_output_hashes": [
+        [
+          "output_sha256",
+          "375ff8b50ac5d3588a173bbf2a9446917bbe9ec9a27c30df33a8f08a57b62b67"
+        ]
+      ],
+      "keys": [],
+      "all_recorded_match": true
+    },
+    {
+      "ledger": "section-1-2.json",
+      "actual_sha256": "cdc65bc8569ed15f8c4d32a28d17f64b1509929620e37d8d93054e140e3962fb",
+      "recorded_output_hashes": [
+        [
+          "output_sha256",
+          "cdc65bc8569ed15f8c4d32a28d17f64b1509929620e37d8d93054e140e3962fb"
+        ]
+      ],
+      "keys": [],
+      "all_recorded_match": true
+    },
+    {
+      "ledger": "section-1-3.json",
+      "actual_sha256": "41e375449934242995f7a810b1224d5b7b8f96d018038d34a8de58d2d7dc6075",
+      "recorded_output_hashes": [
+        [
+          "output_sha256",
+          "41e375449934242995f7a810b1224d5b7b8f96d018038d34a8de58d2d7dc6075"
+        ]
+      ],
+      "keys": [],
+      "all_recorded_match": true
+    },
+    {
+      "ledger": "section-1-4.json",
+      "actual_sha256": "2871873b582e6583fc12c9e04827cfd311779db2e2ecde38a371ed43984b0d71",
+      "recorded_output_hashes": [
+        [
+          "output_sha256",
+          "2871873b582e6583fc12c9e04827cfd311779db2e2ecde38a371ed43984b0d71"
+        ]
+      ],
+      "keys": [],
+      "all_recorded_match": true
+    },
+    {
+      "ledger": "section-1-5.json",
+      "actual_sha256": "0fa1b039649e21367d2e64b3a73705e3bcc1876f343bb851df967299e993d3f8",
+      "recorded_output_hashes": [
+        [
+          "output_sha256",
+          "0fa1b039649e21367d2e64b3a73705e3bcc1876f343bb851df967299e993d3f8"
+        ]
+      ],
+      "keys": [],
+      "all_recorded_match": true
+    },
+    {
+      "ledger": "section-2-1.json",
+      "actual_sha256": "f6f488ac71cce90a75be9742b4c1709d54af65d3298c68ce9d2869c7fd625f1f",
+      "recorded_output_hashes": [
+        [
+          "latex_output.sha256",
+          "f6f488ac71cce90a75be9742b4c1709d54af65d3298c68ce9d2869c7fd625f1f"
+        ]
+      ],
+      "keys": [],
+      "all_recorded_match": true
+    },
+    {
+      "ledger": "section-2-2.json",
+      "actual_sha256": "0ccd5f43a450f1285b814ce644031cdb0012d4ff6fd457151209aa1d392de7a1",
+      "recorded_output_hashes": [
+        [
+          "latex_output.sha256",
+          "0ccd5f43a450f1285b814ce644031cdb0012d4ff6fd457151209aa1d392de7a1"
+        ]
+      ],
+      "keys": [],
+      "all_recorded_match": true
+    },
+    {
+      "ledger": "section-2-3.json",
+      "actual_sha256": "0cba2e7dbbae51d8e62b5f6f253fcc7b1584b1b99eaad8f7fec58564ad03b640",
+      "recorded_output_hashes": [
+        [
+          "latex_output.sha256",
+          "0cba2e7dbbae51d8e62b5f6f253fcc7b1584b1b99eaad8f7fec58564ad03b640"
+        ]
+      ],
+      "keys": [],
+      "all_recorded_match": true
+    },
+    {
+      "ledger": "section-2-4.json",
+      "actual_sha256": "8960e78b76ce70f4ada42dac7c653a73eb130fc0ed4e1e2a75d4607b7eddbd9a",
+      "recorded_output_hashes": [
+        [
+          "latex_output.sha256",
+          "8960e78b76ce70f4ada42dac7c653a73eb130fc0ed4e1e2a75d4607b7eddbd9a"
+        ]
+      ],
+      "keys": [],
+      "all_recorded_match": true
+    },
+    {
+      "ledger": "section-2-5.json",
+      "actual_sha256": "c8e5cd50807feed6013c7e8a7ba4ce4f6c5b0ed61499336dcad723e3b03e5150",
+      "recorded_output_hashes": [
+        [
+          "output_tex_sha256",
+          "c8e5cd50807feed6013c7e8a7ba4ce4f6c5b0ed61499336dcad723e3b03e5150"
+        ]
+      ],
+      "keys": [],
+      "all_recorded_match": true
+    },
+    {
+      "ledger": "section-3-5.json",
+      "actual_sha256": "5439b517623ae5142cd4711bfd849cc0df1db4574aac3dfd305a2963dabfdea8",
+      "recorded_output_hashes": [
+        [
+          "output_tex_sha256",
+          "5439b517623ae5142cd4711bfd849cc0df1db4574aac3dfd305a2963dabfdea8"
+        ]
+      ],
+      "keys": [],
+      "all_recorded_match": true
+    },
+    {
+      "ledger": "section-5-3.json",
+      "actual_sha256": "40f17ff3a0d99a39e28eddae19f5107010eafa0c11189742c01cbf64a8708a22",
+      "recorded_output_hashes": [
+        [
+          "output_latex.sha256",
+          "40f17ff3a0d99a39e28eddae19f5107010eafa0c11189742c01cbf64a8708a22"
+        ]
+      ],
+      "keys": [],
+      "all_recorded_match": true
+    },
+    {
+      "ledger": "section-5-4.json",
+      "actual_sha256": "1f4f8a04ea9afcfd4b8eb3fba9d9b7b487d91a1819c37641e36e5c190e494c1d",
+      "recorded_output_hashes": [
+        [
+          "output_latex.sha256",
+          "1f4f8a04ea9afcfd4b8eb3fba9d9b7b487d91a1819c37641e36e5c190e494c1d"
+        ]
+      ],
+      "keys": [],
+      "all_recorded_match": true
+    },
+    {
+      "ledger": "section-5-9.json",
+      "actual_sha256": "c32d308174859de34759201898fdb5b54f7a5b7cfb4f39025e59f5bfb7a6cd04",
+      "recorded_output_hashes": [
+        [
+          "output_latex.sha256",
+          "c32d308174859de34759201898fdb5b54f7a5b7cfb4f39025e59f5bfb7a6cd04"
+        ]
+      ],
+      "keys": [],
+      "all_recorded_match": true
+    }
+  ]
+}

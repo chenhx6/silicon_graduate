@@ -1,0 +1,60 @@
+{
+  "status": "checkpoint-accepted-goal-active",
+  "timestamp": "2026-11-13T03:50:06.111937+00:00",
+  "scope": "15 of 39 sections; delivered B/C scope; 7 paired Python SVG/PDF figures",
+  "canonical_entry": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.tex",
+  "canonical_pdf": "/workspace/wiki/raw/writing/gpt/A130/these_2023_template/these_template/Thesis.pdf",
+  "pdf_sha256": "963c05c09a972693f3eae60324fb0104548f9bf9680c8f8a592ee0df9a93abd1",
+  "build": {
+    "verdict": "CLEAN_PASS",
+    "pages": 128,
+    "errors_and_overfull": {
+      "fatal_errors_count": 0,
+      "missing_citations_count": 0,
+      "missing_references_count": 0,
+      "bibtex_errors_count": 0,
+      "missing_glyphs_count": 0,
+      "overfull_hboxes_count": 0,
+      "overfull_vboxes_count": 0
+    }
+  },
+  "inputs_and_evidence": "post-build-source-reconciliation.json and ledger-hash-audit-final.json",
+  "visual_review": {
+    "physical_pdf_pages": [
+      1,
+      7,
+      9,
+      19,
+      65,
+      95,
+      100,
+      115,
+      119,
+      123,
+      127
+    ],
+    "header_fix": "Single-line short title; page 100 rerendered and visually inspected after final build. Other reviewed pages preserved scientific content."
+  },
+  "checks": {
+    "archive_gate": "7 scoped sources and template manifest passed; original outputs retained locally",
+    "boundary": "passed",
+    "automation_preflight": "passed",
+    "wiki_lint": "132 errors/480 warnings, baseline132/481, no task scope errors; not globally clean",
+    "diff_check": "passed before publication; staged recheck required"
+  },
+  "scientific_boundary": [
+    "No personal experiment, identity, device or result invented.",
+    "Historical Nov8 archive removed externally:17 source/PDF blobs recoverable from Git;17 build intermediates not restored.",
+    "G82 executed 2.6/AppendixC as restored GPT rather than Gemini; observed runtime provenance preserved.",
+    "Reader effectiveness and school submission readiness unvalidated."
+  ],
+  "stable_publication_pointer": "main / thesis: establish A130 LaTeX manuscript and audited figures",
+  "next": "Continue 24 remaining sections and necessary appendices under existing goal; no completion claim.",
+  "production_input_count": 49,
+  "production_input_sha256": "152f30777a592c06ce0acb4b2632715bf23d00adb8d2d57841f0e365d741b33f",
+  "packaged_archives": [
+    "raw/writing/gpt/_archive/20261113-A130-template-original.tar.gz",
+    "raw/writing/gpt/A130/review-inputs-20261113.tar.gz"
+  ],
+  "whitespace_check": "New-file staged check caught source/template/generated SVG whitespace invisible to unstaged diff. Originals packaged without byte changes; active files normalized without non-whitespace TeX changes, then rebuilt. See whitespace-semantic-reconciliation.json."
+}

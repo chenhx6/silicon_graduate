@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-11-13",
+  "actual_turn_contexts": [
+    {
+      "id": "01a1d273-c747-7e72-a5af-01dbde04f26c",
+      "context": {
+        "model": "antigravity/gemini-3.8-flash-tiered",
+        "effort": "high"
+      }
+    },
+    {
+      "id": "01a1d274-9b24-7103-8c24-37eb7035f6c8",
+      "context": {
+        "model": "antigravity/gemini-3.8-flash-tiered",
+        "effort": "high"
+      }
+    },
+    {
+      "id": "01a1d276-2d5c-7122-9a62-14cafff0adca",
+      "context": {
+        "model": "antigravity/gemini-3.8-flash-tiered",
+        "effort": "high"
+      }
+    },
+    {
+      "id": "01a1d274-30a3-72b2-8581-507d18ab4b49",
+      "context": {
+        "model": "antigravity/gemini-3.8-flash-tiered",
+        "effort": "high"
+      }
+    },
+    {
+      "id": "01a1d275-4f45-7da3-8391-6b216a48f37c",
+      "context": {
+        "model": "antigravity/gemini-3.8-flash-tiered",
+        "effort": "high"
+      }
+    },
+    {
+      "id": "01a1d274-e82c-7bc0-af59-22fac97251d4",
+      "context": {
+        "model": "antigravity/gemini-3.8-flash-tiered",
+        "effort": "high"
+      }
+    }
+  ],
+  "boundary": "Model names and effort from local subagent turn context; no billing/remaining-token assertion."
+}
