@@ -1,0 +1,59 @@
+{
+  "recorded_at": "2026-11-13T12:28:00.014302+00:00",
+  "status": "accepted-narrow-audit-replayed",
+  "canonical_section_acceptance": "5.8 not accepted; G79 must revise from actual original and candidate corrections",
+  "runtime_observed": {
+    "timestamp": "2026-11-13T12:18:32.349Z",
+    "model": "codex/gpt-6.1-terra",
+    "effort": "xhigh"
+  },
+  "controls_replayed": true,
+  "control_results_identical": true,
+  "validated_scope": "Conditional algebra of singles and direct-gate DDCM; independent two-level feeding counterexample and DSAM response convolution diagnosis",
+  "conditions": [
+    "Time conventions may be fixed by explicitly declaring the low-velocity approximation, with its domain; exact relativistic treatment is not required for every teaching equation.",
+    "Do not turn the demonstrated toy bias into a correction factor for a real nucleus or instrument.",
+    "Unknown feeding, gate contamination and relative response remain experiment-specific."
+  ],
+  "files": [
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/report.json",
+      "sha256": "5b4f10e22cac3e66b91e7c63a41161ab045af219359e426ece43e00ece24217f"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/correction.tex",
+      "sha256": "eb3f7db71f6f3915803f82370b6d7c7eb1acc02eb9d02b64118bf38392ba07b4"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/validation.py",
+      "sha256": "e410933eac5749f177b48ad9ff9d737950dd7cd8d12d9cbf0842948dce344f5f"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/results.json",
+      "sha256": "572bc250876fae51a5de3ec6d3761ee9bfed155fc8547653f89b921f6ef03100"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/frozen-inputs.json",
+      "sha256": "70251388a47a251dc7f6c6b299fe3c1fd7d8ef7d0e5fc57ebd70372f7d23cace"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/dewald-source-review-input.snapshot.json",
+      "sha256": "304bc0fa190c0cd225c3a5ca607e1856f9056d050035f88641069ef2433ff6e6"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/source-snapshot-migration.json",
+      "sha256": "2ad2559186731cb433b8e77b8fc8f9f560ad7d566fb10c7fe6d2bdad010de8bf"
+    }
+  ],
+  "source_snapshot_representation": {
+    "recorded_at": "2026-11-13T13:03:19.660840+00:00",
+    "reason": "Path preflight correctly rejected a Markdown knowledge-page copy in outputs. Replaced it with an explicit audit-input receipt, preserving the exact original bytes.",
+    "original_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/dewald-2012-ddcm-recoil-distance.frozen.md",
+    "original_content_sha256": "4d4afb7bb41fb896328b07cc1a0d30b447aebf92509f974356df5aa22d384f49",
+    "current_container": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/dewald-source-review-input.snapshot.json",
+    "current_container_sha256": "304bc0fa190c0cd225c3a5ca607e1856f9056d050035f88641069ef2433ff6e6",
+    "decoded_payload_matches_original": true,
+    "original_frozen_manifest_retained_unchanged": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/frozen-inputs.json",
+    "historical_report_boundary": "The original frozen manifest and worker report describe the original snapshot at review time; this mapping supplies its current reversible representation. Numerical replay does not consume this source-page snapshot."
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "section_id": "5.8",
+  "title": "DSAM与RDDS的时间信息",
+  "worker": "G79",
+  "recorded_at": "2026-11-13T09:30:39.941354+00:00",
+  "output_latex": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-8.tex",
+    "sha256": "97d34cba179b1f904326b6029e155350972ec1e11c5df98861079c41f8e67665",
+    "equations_count": 8,
+    "tables_count": 0,
+    "figures_count": 1,
+    "labels": [
+      "sec:5-8",
+      "subsec:5-8-1",
+      "eq:5-8-doppler-rel",
+      "eq:5-8-doppler-approx",
+      "subsec:5-8-2",
+      "eq:5-8-rdds-ideal",
+      "eq:5-8-rate-eq",
+      "eq:5-8-ddcm-singles",
+      "eq:5-8-ddcm-gated",
+      "subsec:5-8-3",
+      "eq:5-8-velocity-history",
+      "eq:5-8-f-tau",
+      "fig:5-8-lifetime-response",
+      "subsec:5-8-4"
+    ],
+    "citations": [
+      "dewald-2012-ddcm-recoil-distance",
+      "book-wu-nuclear-experiment-methods",
+      "campaign-g07-gorgen-2004-163lu-quadrupole-moments"
+    ]
+  },
+  "sources": [
+    {
+      "citation_key": "dewald-2012-ddcm-recoil-distance",
+      "canonical_title": "Developing the Recoil Distance Doppler-Shift technique towards a versatile tool for lifetime measurements of excited nuclear states",
+      "raw_file": "raw/papers/2012_Dewald et al_Developing the Recoil Distance Doppler-Shift technique towards a versatile tool for lifetime measure.pdf",
+      "raw_sha256": "5c17814e531c70f151b8d183206f902b7c8f7168e977cb2118da9df05668db20",
+      "actual_read_pages": "printed pages 788–792 (PDF pages 3–7), Section 2, Doppler formulas, plunger setup, DDCM derivation, and gated-from-above feeding elimination"
+    },
+    {
+      "citation_key": "book-wu-nuclear-experiment-methods",
+      "canonical_title": "原子核物理实验方法（第三版）",
+      "raw_file": "raw/books/原子核物理实验方法--第三版 (吴治华) (Z-Library).pdf",
+      "raw_sha256": "e23f010ff8d3b4737405235c4aba920533f44e89409ebb7e2cb076b7ab4ee591",
+      "actual_read_pages": "printed pages 435–450 (PDF pages 443–458), Chapter 15, DSAM 停止本领模型、Blaugrund 多重散射发散与重心移动因子 F(tau)"
+    },
+    {
+      "citation_key": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "canonical_title": "Quadrupole moments of wobbling excitations in 163Lu",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "raw_sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e",
+      "actual_read_pages": "PDF pages 2–4, Table I, 163Lu DSAM lifetimes with thick gold backing, reporting statistical fitting uncertainties and noted stopping power systematics"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C58-relativistic-doppler-geometry",
+      "statement": "在实验室参考系中，多普勒频移严格满足相对论变换 E_obs = E_0 / [gamma (1 - beta * cos(theta_lab))]，低速近似为 E_0(1 + beta * cos(theta_lab))；观测角 theta_lab 为实验室系实际放置角，不可与原子核静止系发射角混淆。",
+      "source": "dewald-2012-ddcm-recoil-distance",
+      "pdf_pages": "3–4",
+      "printed_pages": "788–789",
+      "figure_or_equation": "Section 2, Relativistic kinematics",
+      "searchable_anchor": "Relativistic effects: Lifetime, observation angles and aberration effects"
+    },
+    {
+      "claim_id": "C58-rdds-and-ddcm-derivation",
+      "statement": "反冲距离多普勒频移法（RDDS）利用柱塞装置将飞行时间切片；单态理想衰变曲线为 R_u(x) = exp(-x/(v*tau))；在级联馈入下微分衰变曲线法（DDCM）给出精确微商方程，上方门选（Gated from above）可确定性消除级联馈入不确定度。",
+      "source": "dewald-2012-ddcm-recoil-distance",
+      "pdf_pages": "4–6",
+      "printed_pages": "789–791",
+      "figure_or_equation": "Section 2, Eqs. (6)–(7) and DDCM analysis",
+      "searchable_anchor": "The solution of the differential equation with respect to the decay curve then reads as follows"
+    },
+    {
+      "claim_id": "C58-dsam-line-shape-and-stopping-power",
+      "statement": "多普勒频移衰减法（DSAM）利用厚衬底中反冲核连续慢化（tau_stop 约 0.5-1.5 ps）形成多普勒谱线轮廓；谱形受电子/核阻止截面（10%-20% 系统不确定度）、多重散射发散与慢侧馈时间历史联合调制，忽略馈入将导致提取寿命显著偏大。",
+      "source": "book-wu-nuclear-experiment-methods",
+      "pdf_pages": "443–448",
+      "printed_pages": "435–440",
+      "figure_or_equation": "第 15 章式 (15.15)–(15.25)",
+      "searchable_anchor": "多普勒频移衰减法 ... 停止截面 ... Blaugrund"
+    },
+    {
+      "claim_id": "C58-method-complementarity-and-sensitivity-limits",
+      "statement": "DSAM 敏感于核态寿命与阻止时间相当的区间（10 fs - 2 ps），超短退化为全频移峰（仅给上限），超长退化为全静止峰（仅给下限）；RDDS 柱塞法敏感于 1 ps - 1 ns，免除微观阻止本领理论依赖；两类方法互补覆盖核态寿命测量敏感窗。",
+      "source": "dewald-2012-ddcm-recoil-distance",
+      "pdf_pages": "6–8",
+      "printed_pages": "791–793",
+      "figure_or_equation": "Section 2 & Table 2",
+      "searchable_anchor": "Comparison of lifetimes ... obtained using different analyzing techniques"
+    }
+  ],
+  "migration_differences": [
+    "新建第 5 章第 5.8 节规范 LaTeX 正文与证据台账",
+    "建立相对论多普勒几何与低速展开的严格对应，区分静止系发射角与实验室观测角",
+    "完整推导 RDDS 柱塞法单谱与上方门选 DDCM 微商方程，澄清单态指数率为声明教学极限",
+    "客观界定 DSAM 阻止本领模型系统误差与慢侧馈时间卷积机制",
+    "生成独立教学衰变曲线与谱形演化矢量图 SVG/PDF (Img/lifetime-response-rdds-dsam) 并由 \\IfFileExists 规范包裹",
+    "无新增科学主张",
+    "单谱 DDCM 寿命方程基于率方程积分严格推导，修正分母导数符号为正号 tau_i = +(U_i - sum b_ki U_k)/(v dS_i/dx)，要求 U,S 对能级出口总发射归一",
+    "上方门选 DDCM 精确规范为移位直接门选公式 tau_i = {B_s, A_u} / [v d{B_s, A_s}/dx]（Dewald 2012 式 34），澄清门选总产额随距离改变导致不可任意替换为负 d{B_s, A_u}，并给出间接门选额外扣除项（式 33）",
+    "DSAM 阻止本领明确正定 S(v, material) = -dE/dx > 0 与减速运动方程 dv/dt = -S/(Mv)",
+    "F(tau) 质心移动因子明确小角解耦条件与 90 度放置角分母为零不可定义之边界",
+    "纠正末段 B(M1) 为磁偶极跃迁几率，修正 RDDS 速度与距离尺度（v=0.02c 下 1 ns 对应 6 mm），说明有限箔慢化建模必要性",
+    "执行 C0 字符全量扫描清除 \\x08eta 引起的无效控制字符"
+  ]
+}

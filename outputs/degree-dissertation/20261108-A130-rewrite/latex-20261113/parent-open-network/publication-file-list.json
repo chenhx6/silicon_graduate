@@ -1,0 +1,35 @@
+{
+  "recorded_at": "2026-11-13T13:33:21.827270+00:00",
+  "subject": "research: clarify isomer decay and spectroscopy response conditions",
+  "paths": [
+    "knowledge/index.md",
+    "knowledge/projects/doctoral-nuclear-structure-foundations.md",
+    "knowledge/research-notes/a130-rewrite-forward-observables-and-cascade-consistency-20261113.md",
+    "knowledge/research-notes/a130-rewrite-open-network-and-entry-ensemble-20261113.md",
+    "knowledge/sources/nndc-176lu-isomer-beta-2006-snapshot-20261113.md",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/a130_lifetime_response_figure.frozen.py",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/correction.tex",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/dewald-source-review-input.snapshot.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/frozen-inputs.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/parent-acceptance.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/parent-replayed-results.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/parent-runtime-check.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/report.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/results-worker-original.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/results.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/sec-5-8.frozen.tex",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/section-5-8.frozen.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/source-snapshot-migration.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/validation.py",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/parent-open-network/controls.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/parent-open-network/gates-initial-rejected.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/parent-open-network/gates.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/parent-open-network/publication-file-list.json",
+    "system/scripts/a130_open_network_controls.py"
+  ],
+  "partial_index": {
+    "input": "tmp/a130-open-network-index-staged.md",
+    "sha256": "5ac998da7e9b6256d7a6e52633d164f1b046be4b4a22dd73dbef3d507aa121a7"
+  },
+  "boundary": "Source-bounded research and audit inputs only; no additional manuscript section accepted and no change to published27-section220-pagePDF. Preserve all user/unaccepted changes."
+}

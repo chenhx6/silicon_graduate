@@ -1,0 +1,39 @@
+{
+  "scope": [
+    "knowledge/sources/nndc-176lu-isomer-beta-2006-snapshot-20261113.md",
+    "knowledge/research-notes/a130-rewrite-open-network-and-entry-ensemble-20261113.md",
+    "knowledge/projects/doctoral-nuclear-structure-foundations.md",
+    "knowledge/research-notes/a130-rewrite-forward-observables-and-cascade-consistency-20261113.md"
+  ],
+  "gate_exit_codes": {
+    "archive": 0,
+    "lint": 0
+  },
+  "archive": {
+    "checked_manifests": [
+      "/workspace/wiki/raw/papers/gpt/query/20261113-A130-lu176-beta-evaluation/manifest.json"
+    ],
+    "checked_sources": [
+      "/workspace/wiki/knowledge/sources/nndc-176lu-isomer-beta-2006-snapshot-20261113.md"
+    ],
+    "failure_count": 0,
+    "failures": [],
+    "ok": true,
+    "scope": "paths"
+  },
+  "global_lint_counts": {
+    "error": 148,
+    "warning": 488,
+    "info": 5480
+  },
+  "scoped_issues": [],
+  "scoped_errors": 0,
+  "scientific_boundary": "Supports source-bounded data/selection-rule and algebra notes; does not accept any extra manuscript section.",
+  "recent_scope_delta": "Existing parent forward-observables note appended with estimator/sideband/gating conditions and accepted T18 algebra/response diagnosis; structural headers unchanged.",
+  "publication_preflight": {
+    "ok": true,
+    "source_dependency_archive_ok": true,
+    "boundary": "Initial frozenMD source-page copy in outputs was converted to an explicit reversible audit-input receipt. Raw original and canonical source remain unchanged."
+  },
+  "qmd": "Refresh deferred until next coherent manuscript integration; current directed checks use known canonical paths."
+}

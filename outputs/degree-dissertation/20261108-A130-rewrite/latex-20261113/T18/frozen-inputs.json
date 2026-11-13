@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-11-13T12:18:05.656521+00:00",
+  "scope": "T18 independent narrow review; snapshots only, canonical files remain G79-owned",
+  "files": [
+    {
+      "input_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-8.tex",
+      "snapshot_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/sec-5-8.frozen.tex",
+      "sha256": "97d34cba179b1f904326b6029e155350972ec1e11c5df98861079c41f8e67665",
+      "size_bytes": 18364
+    },
+    {
+      "input_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-8.json",
+      "snapshot_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/section-5-8.frozen.json",
+      "sha256": "be7f74aae5e34ed670091a6097fa66a269cb9f58098e321d17db0355d53fe1b4",
+      "size_bytes": 6881
+    },
+    {
+      "input_path": "knowledge/sources/dewald-2012-ddcm-recoil-distance.md",
+      "snapshot_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/dewald-2012-ddcm-recoil-distance.frozen.md",
+      "sha256": "4d4afb7bb41fb896328b07cc1a0d30b447aebf92509f974356df5aa22d384f49",
+      "size_bytes": 6407
+    },
+    {
+      "input_path": "system/scripts/a130_lifetime_response_figure.py",
+      "snapshot_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/a130_lifetime_response_figure.frozen.py",
+      "sha256": "bbb72340da37a2fa016b770dca75690650e7ad8570e75f6d0cb184223465b211",
+      "size_bytes": 3425
+    }
+  ]
+}

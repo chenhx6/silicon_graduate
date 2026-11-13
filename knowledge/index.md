@@ -1963,3 +1963,8 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[shimizu-2005-high-k-precession]]
 - [[wang-2026-axial-coupling-quenching-joint-effects]]
 - [[wolff-1982-poisson-arrivals-see-time-averages]]
+
+## 异能态与谱学观测条件的定向补缺
+
+- [[a130-rewrite-open-network-and-entry-ensemble-20261113]]
+- [[nndc-176lu-isomer-beta-2006-snapshot-20261113]]

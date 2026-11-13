@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-11-13T13:03:19.660840+00:00",
+  "reason": "Path preflight correctly rejected a Markdown knowledge-page copy in outputs. Replaced it with an explicit audit-input receipt, preserving the exact original bytes.",
+  "original_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/dewald-2012-ddcm-recoil-distance.frozen.md",
+  "original_content_sha256": "4d4afb7bb41fb896328b07cc1a0d30b447aebf92509f974356df5aa22d384f49",
+  "current_container": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/dewald-source-review-input.snapshot.json",
+  "current_container_sha256": "304bc0fa190c0cd225c3a5ca607e1856f9056d050035f88641069ef2433ff6e6",
+  "decoded_payload_matches_original": true,
+  "original_frozen_manifest_retained_unchanged": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/frozen-inputs.json",
+  "historical_report_boundary": "The original frozen manifest and worker report describe the original snapshot at review time; this mapping supplies its current reversible representation. Numerical replay does not consume this source-page snapshot."
+}

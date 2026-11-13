@@ -1,0 +1,66 @@
+{
+  "model": {
+    "description": "One initially populated B feeds i with probability 1; constant speed; ideal full-acceptance detection.",
+    "tau_B_ps": 2.0,
+    "tau_i_ps": 5.0,
+    "time_ps": 3.0,
+    "v_um_per_ps": 6.0,
+    "x_um": 18.0
+  },
+  "singles": {
+    "U_i": 0.7659326200577575,
+    "U_B": 0.22313016014842982,
+    "dS_i_dt": 0.10856049198186556,
+    "corrected_tau_ps": 5.0,
+    "omitting_feeding_tau_ps": 7.055353251215022,
+    "dS_dt_plus_dU_dt": 0.0
+  },
+  "direct_gate": {
+    "I_su": 0.5428024599093277,
+    "I_ss": 0.23406737994224247,
+    "gate_total": 0.7768698398515702,
+    "gate_total_derivative_per_ps": 0.11156508007421491,
+    "dI_ss_dt": 0.10856049198186556,
+    "minus_dI_su_dt": -0.003004588092349353,
+    "correct_tau_ps": 5.0,
+    "wrong_tau_from_negative_dI_su_ps": -180.6578616521437,
+    "per_distance_normalized_naive_tau_ps": 7.242538619177137,
+    "normalized_fraction_derivative_per_ps": 0.09647232077159178
+  },
+  "dsam": {
+    "description": "Gaussian resolution sigma=1.2 keV; linear velocity-to-energy over 0.8 ps, then stopped; unit total probability. Finite 990–1030 keV energy window.",
+    "grid_spacing_keV": 0.05006257822276439,
+    "producer_kernel_spacing_keV": 0.15,
+    "results": [
+      {
+        "tau_ps": 0.1,
+        "frozen_area_990_1030": 0.9467704956845954,
+        "correct_area_990_1030": 1.0,
+        "frozen_area_outside_flight_energy_interval": 0.00016633542841000727,
+        "correct_area_outside_flight_energy_interval": 0.14433049893701735,
+        "max_absolute_difference_per_keV": 0.13877350616816156
+      },
+      {
+        "tau_ps": 0.8,
+        "frozen_area_990_1030": 0.990001051833102,
+        "correct_area_990_1030": 1.0,
+        "frozen_area_outside_flight_energy_interval": 0.18240894621581705,
+        "correct_area_outside_flight_energy_interval": 0.21420127706777498,
+        "max_absolute_difference_per_keV": 0.02326697535192289
+      },
+      {
+        "tau_ps": 5.0,
+        "frozen_area_990_1030": 0.9978213956286942,
+        "correct_area_990_1030": 1.0,
+        "frozen_area_outside_flight_energy_interval": 0.4225260592837569,
+        "correct_area_outside_flight_energy_interval": 0.4295234966318074,
+        "max_absolute_difference_per_keV": 0.00387087804675068
+      }
+    ]
+  },
+  "provenance": {
+    "producer_sha256": "bbb72340da37a2fa016b770dca75690650e7ad8570e75f6d0cb184223465b211",
+    "script_sha256": "e410933eac5749f177b48ad9ff9d737950dd7cd8d12d9cbf0842948dce344f5f",
+    "numpy_version": "2.5.4"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "scope": [
+    "knowledge/sources/nndc-176lu-isomer-beta-2006-snapshot-20261113.md",
+    "knowledge/research-notes/a130-rewrite-open-network-and-entry-ensemble-20261113.md",
+    "knowledge/projects/doctoral-nuclear-structure-foundations.md"
+  ],
+  "gate_exit_codes": {
+    "archive": 1,
+    "lint": 0
+  },
+  "archive": {
+    "checked_manifests": [
+      "/workspace/wiki/raw/papers/gpt/query/20261113-A130-lu176-beta-evaluation/manifest.json"
+    ],
+    "checked_sources": [
+      "/workspace/wiki/knowledge/sources/nndc-176lu-isomer-beta-2006-snapshot-20261113.md"
+    ],
+    "failure_count": 2,
+    "failures": [
+      {
+        "error": "manifest entry 2 lacks url or source provenance: /workspace/wiki/raw/papers/gpt/query/20261113-A130-lu176-beta-evaluation/manifest.json",
+        "kind": "manifest",
+        "manifest": "/workspace/wiki/raw/papers/gpt/query/20261113-A130-lu176-beta-evaluation/manifest.json"
+      },
+      {
+        "error": "manifest entry 2 lacks url or source provenance: /workspace/wiki/raw/papers/gpt/query/20261113-A130-lu176-beta-evaluation/manifest.json",
+        "kind": "manifest",
+        "manifest": "/workspace/wiki/raw/papers/gpt/query/20261113-A130-lu176-beta-evaluation/manifest.json"
+      }
+    ],
+    "ok": false,
+    "scope": "paths"
+  },
+  "global_lint_counts": {
+    "error": 155,
+    "warning": 488,
+    "info": 5480
+  },
+  "scoped_issues": [
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-open-network-and-entry-ensemble-20261113.md",
+      "message": "missing ## Assumptions"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-open-network-and-entry-ensemble-20261113.md",
+      "message": "missing ## Competing Explanations"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-open-network-and-entry-ensemble-20261113.md",
+      "message": "missing ## Transfer Conditions"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-open-network-and-entry-ensemble-20261113.md",
+      "message": "missing ## Falsification or Reverse Tests"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-open-network-and-entry-ensemble-20261113.md",
+      "message": "missing ## Open Questions"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/a130-rewrite-open-network-and-entry-ensemble-20261113.md",
+      "message": "missing ## Human Review"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/nndc-176lu-isomer-beta-2006-snapshot-20261113.md",
+      "message": "missing ## Summary"
+    }
+  ],
+  "scoped_errors": 7,
+  "scientific_boundary": "Supports source-bounded data/selection-rule and algebra notes; does not accept any extra manuscript section."
+}

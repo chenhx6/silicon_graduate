@@ -10,7 +10,7 @@ reasoning_status: provisional
 created_from: "A130正文3.8、4.5、4.7与5.6至5.10逐式核查"
 promotion_target: ""
 tags: [doctoral-thesis, electromagnetic-transitions, beta-decay, coincidence, covariance, forward-model]
-evidence_sources: [book-suhonen-from-nucleons-to-nucleus, book-hamilton-electromagnetic-interaction, doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives, dimitriou-2021-beta-delayed-neutron-reference-database, xiao-xiao-2019-high-spin-74as-thesis, xiao-2022-chirality-octupole-correlations-74as, guo-2022-mo93m-isomer-beam-depletion-limit, dewald-2012-ddcm-recoil-distance, frauendorf-2014-transverse-wobbling, duguet-2015-non-observable-nuclear-shell-structure]
+evidence_sources: [book-suhonen-from-nucleons-to-nucleus, book-hamilton-electromagnetic-interaction, book-wu-nuclear-experiment-methods, doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives, dimitriou-2021-beta-delayed-neutron-reference-database, xiao-xiao-2019-high-spin-74as-thesis, xiao-2022-chirality-octupole-correlations-74as, guo-2022-mo93m-isomer-beam-depletion-limit, dewald-2012-ddcm-recoil-distance, frauendorf-2014-transverse-wobbling, duguet-2015-non-observable-nuclear-shell-structure]
 ---
 
 # 辐射强度、反演分支与级联概率不能各用一套定义
@@ -28,6 +28,12 @@ Suhonen印刷p.119 Eq.(6.7)提供辐射率起点，Hamilton专著提供取向与
 方向关联框架；本页的二次分母和误差传播是对这些定义的本任务推导。
 Zhi原PDF pp.5、7、10–12的定量范围及肖骁两个版本的带号证据
 另列在下文第4、5项，避免将推导当成实测。
+
+本轮另视觉核Hamilton原PDF532／印刷521、Chapter12 Eqs.(12.80–81)的
+高斯磁子布居与取向张量；原PDF355／印刷344实际是Chapter10内转换，
+不能引用为偏振章。Wu原PDF目录2–5页将光子相互作用定位到印刷54–65、
+半导体探测器定位到135–158、γ能量/效率定位到257–281；
+这只是经目录核实的导航，不代表已经核读所有这些正文页或数值。
 
 ## Provisional Reasoning
 
@@ -191,11 +197,14 @@ $$
 $$
 
 若 $a$ 是确知时间窗宽度之比，有限的R计数不会自动让 $a$ 不确定；
-若 $a$ 从同一数据拟合，就需考察交叉协方差。只有独立Poisson计数、
-固定 $a$ 等条件下，才简化为 $P+a^2R$。一个物理事件可向多个矩阵格
+若 $a$ 从同一数据拟合，就需考察交叉协方差。对于独立Poisson计数
+及固定 $a$，理论方差是 $\mu_P+a^2\mu_R$；常用的
+$\widehat{\mathrm{Var}}(S)=P+a^2R$ 是以观测计数代入的估计量，
+不能把观测随机量与总体方差不加说明地写成同一个恒等式。一个物理事件可向多个矩阵格
 填入相关计数，对称镜像格更不能当独立测量。
 扣除后的负值是有符号估计量，不是负辐射强度；
-它的期望在无信号零假设下才为零。
+在本底比例准确且没有未建模泄漏等条件下，它在无信号零假设下的期望才为零；
+用同一数据拟合背景比例并不自动保证这一性质。
 
 ### 7. DDCM导数的符号与归一
 
@@ -276,6 +285,65 @@ $\mathcal I_1\simeq I$ 的同一局域近似，不是有限I的精确恒等式�
 称作直接可观测量。Feshbach的正交P/Q消元是给定哈密顿量的一种构造，
 不是所有经验EDF与集体模型都已完成的字面投影。
 
+### 10. 响应概率、背景门宽与缺线证据
+
+若R是条件于已经记录到一个合格单光子事件的能量密度，
+其积分为1；峰总比须对应拟合扣本底后的完整FEP分量。
+对任意有限峰窗直接积分总R，通常还含窗内连续谱并截断峰尾，
+并不自动等于真正的FEP概率。探测总效率与这一条件分布的归一化是两层。
+
+令原始左右背景门投影为B_L、B_R，宽度w_L、w_R，中心e_L、e_R；
+峰门中心e_0、宽度w_P。若沿门轴的连续谱密度可用局部直线表示，
+取
+
+$$
+\lambda_L=\frac{e_R-e_0}{e_R-e_L},\qquad
+\lambda_R=1-\lambda_L,
+$$
+
+则峰门背景估计为
+
+$$
+\widehat B_P=w_P\left(\lambda_L\frac{B_L}{w_L}
+                         +\lambda_R\frac{B_R}{w_R}\right).
+$$
+
+这在各门关于其中心对称、密度对门坐标严格线性时可作为积分关系；
+一般使用时还须检验门内峰污染、曲率与响应变化。
+只有特定等宽条件下，才可把两个原始计数投影的系数和写成单一门宽比。
+不同门宽或已按宽度归一的投影不能混用同一组系数。
+
+某条线在有限门谱中未见，还需要效率、分支、门纯度和上限灵敏度才能
+约束反符合关系；理想无污染级联图上的“不存在共同路径”，
+不能替代真实数据中的缺线显著性。
+同样，符合关系本身不能排除反应伙伴、散射串扰或不同核素污染。
+长寿命态导致强度流入/流出不等时，要说明有限时间接受或非平衡布居，
+不能同时把总网络当严格稳态又把寿命本身解释成布居永久消失。
+
+### 11. DDCM馈入与卷积的独立模型控制
+
+声明初始仅有B态且数量为1，B以单位分支馈入i，再由i退激。
+取 $\tau_B=2$ ps、$\tau_i=5$ ps，非相对论恒速且检测理想完整。
+令a=1/τ_B、b=1/τ_i，则
+
+$$
+U_B=e^{-at},\qquad n_i=\frac{a(e^{-bt}-e^{-at})}{a-b},\qquad
+U_i=U_B+n_i,\qquad S_i=1-U_i.
+$$
+
+直接B移位门有I_su=n_i、I_ss=S_i，但它的总门产额是
+I_su+I_ss=1−U_B，通常随距离变化；这不等于目标态在t=0已被布居。
+在t=3 ps时，带完整馈入修正的单谱式与直接门式均回到输入5 ps。
+丢掉单谱馈入得到约7.06 ps；逐距离除以门产额后不改变原寿命式，
+则得到约7.24 ps。这些是本任务独立解析控制，不是实核寿命偏差系数。
+同一完整事件样本可有dS/dx=−dU/dx且仍有馈入；上述寿命式仍须扣馈入。
+
+另一个检查发现DSAM教学实现把0.15-keV核网格与约0.05006-keV信号网格
+按数组索引卷积，并将展宽输出限制在未展宽的飞行能窗。
+需要统一物理能量间距、按该间距归一核、保留窗外展宽尾，再单独计算有限窗接受度；
+只重标总面积不能修好错误的形状宽度。
+本轮冻结输入、独立连续积分与父重放记录位于T18回执，全部只是声明教学响应的检查。
+
 ## Assumptions
 
 电多极强度采用同一算符及单位；DCO推导固定门跃迁与响应；级联例子
@@ -319,3 +387,5 @@ $\mathcal I_1\simeq I$ 的同一局域近似，不是有限I的精确恒等式�
 ## Promotion or Rejection History
 
 2026-11-13：建立共同定义及反例记录；尚未接受的正文与图仍须各自返修和核验。
+同日追加：更正总控笔记中方差与其观测估计量的未加区分记法，
+补充非等宽背景门、原书扫描页定位和T18馈入/卷积控制；未将这些控制当作实核测量。

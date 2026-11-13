@@ -1,0 +1,303 @@
+{
+  "task": "T18 independent narrow review of frozen section 5.8",
+  "created_at_utc": "2026-11-13T12:21:54.599104+00:00",
+  "review_scope": "Only frozen section, ledger, source snapshot, figure producer, cited original Dewald targeted pages; no other section review or canonical edit.",
+  "runtime_observation": {
+    "declared_role_from_user": "Terra/xhigh",
+    "actual_model": "not independently exposed to this agent",
+    "actual_effort": "not independently exposed to this agent",
+    "checked_environment_fields": [
+      "CODEX_MODEL",
+      "OPENAI_MODEL",
+      "CODEX_REASONING_EFFORT"
+    ],
+    "parent_verification_required": true
+  },
+  "frozen_inputs_verification": [
+    {
+      "snapshot": "sec-5-8.frozen.tex",
+      "actual_sha256": "97d34cba179b1f904326b6029e155350972ec1e11c5df98861079c41f8e67665",
+      "actual_size_bytes": 18364,
+      "matches_manifest": true
+    },
+    {
+      "snapshot": "section-5-8.frozen.json",
+      "actual_sha256": "be7f74aae5e34ed670091a6097fa66a269cb9f58098e321d17db0355d53fe1b4",
+      "actual_size_bytes": 6881,
+      "matches_manifest": true
+    },
+    {
+      "snapshot": "dewald-2012-ddcm-recoil-distance.frozen.md",
+      "actual_sha256": "4d4afb7bb41fb896328b07cc1a0d30b447aebf92509f974356df5aa22d384f49",
+      "actual_size_bytes": 6407,
+      "matches_manifest": true
+    },
+    {
+      "snapshot": "a130_lifetime_response_figure.frozen.py",
+      "actual_sha256": "bbb72340da37a2fa016b770dca75690650e7ad8570e75f6d0cb184223465b211",
+      "actual_size_bytes": 3425,
+      "matches_manifest": true
+    }
+  ],
+  "dewald_original": {
+    "path": "raw/papers/2012_Dewald et al_Developing the Recoil Distance Doppler-Shift technique towards a versatile tool for lifetime measure.pdf",
+    "size_bytes": 4713767,
+    "sha256": "5c17814e531c70f151b8d183206f902b7c8f7168e977cb2118da9df05668db20",
+    "pdf_pages_read": [
+      3,
+      4,
+      37,
+      38,
+      39,
+      40
+    ],
+    "source_snapshot_hash_matches": true
+  },
+  "accepted_with_conditions": [
+    {
+      "frozen_line": "sec-5-8.frozen.tex:51–58",
+      "description": "率方程、积分正号和单谱寿命式在共同累计总退激归一、已知直接馈入、近似同速及最终衰尽的条件下代数正确。"
+    },
+    {
+      "frozen_line": "sec-5-8.frozen.tex:63–65",
+      "description": "直接 B_s 门公式与 Dewald Eq.(34) 一致；须采用同门、共同曝光和一致响应归一，不能对每个距离单独除门产额后忽略其导数。"
+    },
+    {
+      "frozen_line": "sec-5-8.frozen.tex:69",
+      "description": "理想公式下公共距离零点平移不影响导数比；相对位移、速度、几何和箔内效应仍需处理。"
+    },
+    {
+      "frozen_line": "sec-5-8.frozen.tex:75–79",
+      "description": "在非相对论 E=Mv²/2 与 S=-dE/dx 定义下 dv/dt=-S/M 成立；积分停滞过程须在 v=0 截止。"
+    },
+    {
+      "frozen_line": "a130_lifetime_response_figure.frozen.py:21–28",
+      "description": "RDDS 曲线为无馈入单速度教学输入，自身没有先归一再求导，也未构造导数恒等式。"
+    }
+  ],
+  "findings": [
+    {
+      "id": "F01",
+      "severity": "major",
+      "frozen_line": "sec-5-8.frozen.tex:61–62",
+      "finding": "直接移位馈入门被误述为反冲核离靶时已经处于目标态；馈入可以在整个飞行区任意时刻发生。绝对排除所有旁路及慢侧馈的文字忽略门纯度与未分辨路径。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/papers/2012_Dewald et al_Developing the Recoil Distance Doppler-Shift technique towards a versatile tool for lifetime measure.pdf",
+          "pdf_page": 40,
+          "printed_page": 825,
+          "locator": "Eqs. (30)–(34) and definitions of alpha(x)"
+        }
+      ],
+      "correct_equation_or_conditions": "纯净直接 B_s 门的目标态初次布居时间为跃迁 B 的发射时间 t_B，0≤t_B≤t；条件子样本不是 t=0 全部直接布居。",
+      "evidence_boundary": "理想直接级联下，门可排除不经过该跃迁的路径；上游延迟通过门条件保留，实际杂峰及重叠须评估。"
+    },
+    {
+      "id": "F02",
+      "severity": "major",
+      "frozen_line": "sec-5-8.frozen.tex:67",
+      "finding": "声称 dS/dx=-dU/dx 仅在无馈入且总强度守恒时成立；无馈入不是必要条件。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/papers/2012_Dewald et al_Developing the Recoil Distance Doppler-Shift technique towards a versatile tool for lifetime measure.pdf",
+          "pdf_page": 38,
+          "printed_page": 823,
+          "locator": "Eqs. (19)–(21), Fig. 41"
+        },
+        {
+          "raw_file": "raw/papers/2012_Dewald et al_Developing the Recoil Distance Doppler-Shift technique towards a versatile tool for lifetime measure.pdf",
+          "pdf_page": 40,
+          "printed_page": 825,
+          "locator": "Eqs. (30)–(34) and definitions of alpha(x)"
+        }
+      ],
+      "correct_equation_or_conditions": "对相同完整事件样本和距离无关总归一，S_i+U_i=constant 蕴含 dS_i/dx=-dU_i/dx；tau_i=[U_i−Σ b_ki U_k]/[v dS_i/dx] 仍需馈入扣除。直接 B_s 门的总量则随距离变化，不能将分母替换成 -dI_su/dx。",
+      "evidence_boundary": "控制是两级理想级联的代数反例，未拟合实验。"
+    },
+    {
+      "id": "F03",
+      "severity": "major",
+      "frozen_line": "sec-5-8.frozen.tex:58–59, 68; section-5-8.frozen.json:68–74",
+      "finding": "单谱部分未完整写出强度转换和未知馈入边界；间接门 alpha 未定义；冻结台账错误称上方门可确定性消除馈入不确定度。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/papers/2012_Dewald et al_Developing the Recoil Distance Doppler-Shift technique towards a versatile tool for lifetime measure.pdf",
+          "pdf_page": 38,
+          "printed_page": 823,
+          "locator": "Eqs. (19)–(21), Fig. 41"
+        },
+        {
+          "raw_file": "raw/papers/2012_Dewald et al_Developing the Recoil Distance Doppler-Shift technique towards a versatile tool for lifetime measure.pdf",
+          "pdf_page": 40,
+          "printed_page": 825,
+          "locator": "Eqs. (30)–(34) and definitions of alpha(x)"
+        }
+      ],
+      "correct_equation_or_conditions": "对每个能级的 gamma 峰校正分支（含内转换）、效率、角响应和共同曝光后再换成累计总退激数；或按 Eq.(20)–(21) 使用相对响应因子。间接门 alpha(x)=[{Cs,As}+{Cs,Au}]/[{Cs,Bs}+{Cs,Bu}]，按 Eq.(33) 取适用的距离平均并评估其稳定性。",
+      "evidence_boundary": "各馈入态需完整识别或独立约束，漏检分支、门污染、衰减曲线拟合与级联非唯一性限制精度。相关原文观测公式不是无条件物理等式。"
+    },
+    {
+      "id": "F04",
+      "severity": "major",
+      "frozen_line": "sec-5-8.frozen.tex:25,43–47,54–56,81–87",
+      "finding": "相对论精确多普勒公式与后面实验室时间中未声明近似的 e^(-t/tau)、t=x/v 混用。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/papers/2012_Dewald et al_Developing the Recoil Distance Doppler-Shift technique towards a versatile tool for lifetime measure.pdf",
+          "pdf_page": 4,
+          "printed_page": 789,
+          "locator": "Sec. 2, relativistic effects, velocity distributions and finite foil corrections"
+        },
+        {
+          "raw_file": "raw/papers/2012_Dewald et al_Developing the Recoil Distance Doppler-Shift technique towards a versatile tool for lifetime measure.pdf",
+          "pdf_page": 37,
+          "printed_page": 822,
+          "locator": "Sec. 7.1 and singles DDCM setup"
+        }
+      ],
+      "correct_equation_or_conditions": "tau 为本征平均寿命：s(t)=∫0^t dt′/γ(t′)，发射密度 w(t)=exp[-s(t)/tau]/[γ(t)tau]；恒速时 s=x/(γv)，t_lab=x/v。低速近似可将 γ 取1，并保持所有量同一约定。",
+      "evidence_boundary": "beta=0.02 时 γ−1约0.0002，通常可忽略但应标明；速度、角分布和效率关联时需联合加权。"
+    },
+    {
+      "id": "F05",
+      "severity": "major",
+      "frozen_line": "a130_lifetime_response_figure.frozen.py:38–55; sec-5-8.frozen.tex:103,112",
+      "finding": "DSAM 教学线形的 Gaussian 核步距 0.15 keV，而信号数组步距约 0.05006 keV；np.convolve 按索引叠加导致实际展宽尺度错误，并只把结果写入未卷积的飞行能窗而截掉窗外泄漏。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/papers/2012_Dewald et al_Developing the Recoil Distance Doppler-Shift technique towards a versatile tool for lifetime measure.pdf",
+          "pdf_page": 4,
+          "printed_page": 789,
+          "locator": "Sec. 2, relativistic effects, velocity distributions and finite foil corrections"
+        }
+      ],
+      "correct_equation_or_conditions": "用统一能量间隔在完整能域卷积并保留飞行谱线展宽至窗外；核按同一 dE 积分归一，再加停滞分量。仅最后为画图做峰高归一；有限窗接受率应单独计算。",
+      "evidence_boundary": "独立时间积分和 Gaussian 响应验证 tau=0.1 ps 时冻结形状总面积约0.94677，正确连续表达式在 990–1030 keV 窗约1；实际形状偏差还包括泄漏和错宽，不能仅用面积补偿。没有运行 producer.main，也没有改 Img。"
+    },
+    {
+      "id": "F06",
+      "severity": "moderate",
+      "frozen_line": "sec-5-8.frozen.tex:87,92,119–125",
+      "finding": "90度处公式分母为零的结论成立，但断言必须用全谱拟合过强；阻止本领误差必然线性同比传递、固定最佳窗口及进入衬底前几乎全衰等是依赖模型或装置的泛化。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/papers/2012_Dewald et al_Developing the Recoil Distance Doppler-Shift technique towards a versatile tool for lifetime measure.pdf",
+          "pdf_page": 4,
+          "printed_page": 789,
+          "locator": "Sec. 2, relativistic effects, velocity distributions and finite foil corrections"
+        }
+      ],
+      "correct_equation_or_conditions": "在90度该一阶归一质心不可用；使用其他角度或谱形须检验敏感性。通过模型扰动和重拟合传播阻止本领、馈入及响应不确定性；窗口和上下限由具体系统决定。",
+      "evidence_boundary": "本项为公式与声明边界审查；吴治华 PDF 443–448 为图像页，本次未逐页读图核实相应数值，也未查证163Lu实验细节。"
+    },
+    {
+      "id": "F07",
+      "severity": "moderate",
+      "frozen_line": "section-5-8.frozen.json:40,68–74,104",
+      "finding": "证据台账对 DDCM 引用页和当前速度方程记载不一致：冻结正文 dv/dt=-S/M，台账写 -S/(Mv)。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/papers/2012_Dewald et al_Developing the Recoil Distance Doppler-Shift technique towards a versatile tool for lifetime measure.pdf",
+          "pdf_page": 38,
+          "printed_page": 823,
+          "locator": "Eqs. (19)–(21), Fig. 41"
+        },
+        {
+          "raw_file": "raw/papers/2012_Dewald et al_Developing the Recoil Distance Doppler-Shift technique towards a versatile tool for lifetime measure.pdf",
+          "pdf_page": 40,
+          "printed_page": 825,
+          "locator": "Eqs. (30)–(34) and definitions of alpha(x)"
+        }
+      ],
+      "correct_equation_or_conditions": "对于非相对论 E=Mv²/2、S=-dE/dx，dv/dt=-S/M；DDCM 核心公式原件 PDF38 与 PDF40。",
+      "evidence_boundary": "正文式子在声明 S 为能量对长度的阻止本领且 v>0 时正确；实际还可能有随机散射或能量涨落。"
+    },
+    {
+      "id": "F08",
+      "severity": "minor",
+      "frozen_line": "sec-5-8.frozen.tex:112; a130_lifetime_response_figure.frozen.py:24–28",
+      "finding": "图注称 Ru 实线、Rs 虚线；producer 为 Ru 按寿命分别用实线、破折线、点划线，Rs 一律点线。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/papers/2012_Dewald et al_Developing the Recoil Distance Doppler-Shift technique towards a versatile tool for lifetime measure.pdf",
+          "pdf_page": 37,
+          "printed_page": 822,
+          "locator": "Sec. 7.1 and singles DDCM setup"
+        }
+      ],
+      "correct_equation_or_conditions": "按实际线型重写图注，或者统一 producer 的线型并重新生成图。",
+      "evidence_boundary": "仅审脚本及冻结图注，未读取或声称重新生成最终图。"
+    }
+  ],
+  "validation": {
+    "script": "validation.py",
+    "results": "results.json",
+    "status": "passed after correcting NumPy 2.x integration API",
+    "initial_run": "failed: NumPy 2.5.4 does not provide np.trapz; changed to np.trapezoid, subsequent execution succeeded",
+    "interpretation": "Analytic two-level cascade and independent continuous Gaussian convolution; neither certifies nuclear lifetime or hardware response.",
+    "reference_example": {
+      "tau_i_ps": 5.0,
+      "tau_singles_without_feeding_ps": 7.055353251215022,
+      "tau_gate_after_per_distance_normalization_ps": 7.242538619177137,
+      "dsam_true_vs_frozen_area_at_tau_0_1_ps": [
+        1.0,
+        0.9467704956845954
+      ]
+    },
+    "boundary": "代数及连续积分控制不认证任何实核寿命或具体探测器模型。"
+  },
+  "artifacts": [
+    "report.json",
+    "correction.tex",
+    "validation.py",
+    "results.json"
+  ],
+  "release_decision": "must_revise",
+  "limits": [
+    "No full thesis review; no user-specific detector or raw data requested.",
+    "No canonical files, evidence ledger, source, Img, Git, or outside T18 written.",
+    "Wu scanned pages and Gorgen experimental details not independently reviewed."
+  ],
+  "equation_checks": [
+    {
+      "line": "sec-5-8.frozen.tex:14–23",
+      "status": "correct_given_definitions",
+      "detail": "E_lab=E0/[gamma(1-beta cos theta_lab)]、低速展开和光行差式一致；E0 为静止系光子能量。"
+    },
+    {
+      "line": "sec-5-8.frozen.tex:25",
+      "status": "correct_with_frame_qualification",
+      "detail": "T_1/2=tau ln2 对同一时钟成立；实验室时间对应寿命 gamma*tau，变速轨迹须积分本征时间。"
+    },
+    {
+      "line": "sec-5-8.frozen.tex:43–47",
+      "status": "correct_ideal_limit",
+      "detail": "Ru=exp[-x/(v tau)] 需 t=x/v 低速近似、初始直接布居、单一 v、共同响应归一和理想停止；严格关系 exp[-x/(gamma v tau)]。"
+    },
+    {
+      "line": "sec-5-8.frozen.tex:51–58",
+      "status": "correct_conditionally",
+      "detail": "积分至无剩余布居得到 n_i=U_i−sum b_ki U_k，S_dot=n_i/tau_i，故正号正确；若 U,S 为计数，v dS/dx 为计数/时间，寿命量纲为时间。馈入全部计入或约束且共享飞行时间。"
+    },
+    {
+      "line": "sec-5-8.frozen.tex:63–68",
+      "status": "direct_correct_indirect_incomplete",
+      "detail": "直接门式及间接门扣项形式与原文一致；后者 alpha 和门条件需明确；I_ss、I_su 需同尺度、同门且逐距离归一的变化不可漏项。"
+    },
+    {
+      "line": "sec-5-8.frozen.tex:76–79",
+      "status": "correct_nonrelativistic",
+      "detail": "S=-dE/dx 为能量/长度、M 为质量时 dv/dt=-S/M；冻结台账的 -S/(Mv) 则不匹配这一 S 定义。"
+    },
+    {
+      "line": "sec-5-8.frozen.tex:84–87",
+      "status": "conditional",
+      "detail": "一阶质心式在实验室低速、轴对称散射且角分布/效率权重允许分离时成立；90度一阶归一失效；一般应对速度与方向的投影和响应作联合平均。"
+    },
+    {
+      "line": "a130_lifetime_response_figure.frozen.py:43–55",
+      "status": "incorrect_discrete_convolution",
+      "detail": "线性减速教学模型和停滞分量的物理输入可作为示例；有限域上数值卷积的网格、边界实现有误。"
+    }
+  ]
+}
