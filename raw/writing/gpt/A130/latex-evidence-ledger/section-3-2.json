@@ -1,0 +1,112 @@
+{
+  "section_id": "3.2",
+  "title": "稳定转轴与摆动的局域极限",
+  "section_label": "sec:3-2",
+  "type": "new-draft-canonical",
+  "status": "content-admitted",
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-2.tex",
+  "output_tex_sha256": "c14bf53d6d1d7cb8983ddbb7ab5d4a56fd3af33de7ca8ca2f973f00dfe261c69",
+  "scope_boundary": "系统阐释三轴形变转子几何主轴与坐标系映射、刚体与无旋流体转动惯量的本构机制对立、经典欧拉陀螺相空间极值与分离线、体轴无量纲角动量反常对易代数下大自旋小振幅双横向展开与纯转子摆动频率公式推导、两种轴对称极限下的频率行为与高 K 进动态界限，以及有限自旋非谐效应与多声子声子图景的破缺条件；高阶微观 CRPA 响应求和与奇 A 核非绝热粒子-核芯耦合留由 Terra 深度计算。",
+  "source_inputs": [
+    {
+      "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+      "canonical_source": "A. Bohr & B. R. Mottelson, Nuclear Structure, Vol. II: Nuclear Deformations, World Scientific (1998 reissue, local copy 1999 reprint)",
+      "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "raw_sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "actual_read_pages": "printed pp. 190–193 (PDF pp. 212–215, Section 4-5e States with Large I)",
+      "text_anchors": [
+        "printed p. 190: Eq.(4-296) [I_-, I_+] = 2 I_1 approx 2I where I_+- = I_2 +- i I_3; Eq.(4-297) c = (I_2 - i I_3)/sqrt(2I), c^dagger = (I_2 + i I_3)/sqrt(2I) matched to body-fixed negative commutation [I_2, I_3] = -i I_1",
+        "printed p. 191: Eq.(4-300) canonical Bogoliubov transformation c^dagger = x d^dagger + y d; Eq.(4-302) excitation quanta hbar omega = 2I sqrt((A_2 - A_1)(A_3 - A_1))",
+        "printed p. 192: Eq.(4-306) validity condition I^2 >> I_2^2 + I_3^2; Eq.(4-307) I >> (2n + 1) [ (A_2 - A_1) + (A_3 - A_1) ] / [ 2 sqrt((A_2 - A_1)(A_3 - A_1)) ]"
+      ],
+      "claims_supported": [
+        "大自旋下纯转子沿最大惯量轴转动能量最低（yrast 态），中间惯量轴转动为鞍点分离线 (printed p. 190)",
+        "体坐标反常负对易关系与玻色算符展开二次对角化导出摆动频率公式 (printed p. 191, Eq.(4-302))",
+        "局域大自旋简谐展开在靠近软模时有效性判据 Eq.(4-307) (printed p. 192)"
+      ]
+    },
+    {
+      "source_id": "shimizu-2005-high-k-precession",
+      "canonical_source": "Y. R. Shimizu, M. Matsuzaki, K. Matsuyanagi, Phys. Rev. C 72, 014306 (2005)",
+      "raw_file": "raw/papers/gpt/query/20261113-A130-precession-limits/shimizu-matsuzaki-matsuyanagi-2005-nucl-th-0412074v2.pdf",
+      "raw_sha256": "6566edd91dc5765a21241ac553f599faf0037d1cadf4113edbe1d969645e97c7",
+      "actual_read_pages": "PDF pp. 2–3 (Section II, Eqs.(1)–(11)), PDF pp. 5–6 (Section III B)",
+      "text_anchors": [
+        "PDF p. 3: Section II Eq.(11) and discussion: 'When the nucleus rotates about the symmetry axis, the wobbling motion transforms into a precession motion of the high-K state'",
+        "PDF p. 5: Section III B discussion on high-K intrinsic alignment vs transverse collective wobbling, with spacing E_K(K+1) - E_K(K) approx hbar^2 K / J_perp"
+      ],
+      "claims_supported": [
+        "J_2 = J_3 < J_1 极限下轴 1 为对称轴，公式给出的非零频率对应多准粒子单粒子角动量支撑的高 K 进动态",
+        "严格区分三维三轴核芯横向集体声子摆动与轴对称高 K 进动态的物理机制"
+      ]
+    },
+    {
+      "source_id": "bohr-1952-surface-particle-coupling",
+      "canonical_source": "A. Bohr, Dan. Mat. Fys. Medd. 26, no. 14 (1952)",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-1952-mfm26-14.pdf",
+      "raw_sha256": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d",
+      "actual_read_pages": "pp. 8–18 (Section II, Collective Hamiltonian and irrotational flow)",
+      "claims_supported": [
+        "四极表面波无旋流动转动动能张量推导"
+      ]
+    },
+    {
+      "source_id": "bohr-mottelson-1953-collective-individual-original",
+      "canonical_source": "A. Bohr & B. R. Mottelson, Dan. Mat. Fys. Medd. 27, no. 16 (1953)",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-mottelson-1953-mfm27-16.pdf",
+      "raw_sha256": "b0501e3e098869a7fb14527a3dc8c9b80444affdb265394a928e0794ae708945",
+      "actual_read_pages": "pp. 24–36, 102–110 (Appendix B)",
+      "claims_supported": [
+        "无旋流体转动惯量 J_k = 4 B beta^2 sin^2(gamma - 2pi/3 k) 形式与刚体对照"
+      ]
+    },
+    {
+      "source_id": "book-raduta-coherent-states",
+      "canonical_source": "A. A. Raduta, Nuclear Structure with Coherent States, Springer (2016)",
+      "raw_file": "raw/books/nuclear structure with coherent states_Raduta.pdf",
+      "raw_sha256": "98b057e53e323b0f4781060ad5ae4a8c045ac36b32c0650033953360d951aca3",
+      "actual_read_pages": "Chapter 4 (PDF pp. 115–142, Semiclassical top, Poincaré sections)",
+      "claims_supported": [
+        "经典三轴转子能量曲面鞍点与分离线拓扑性质"
+      ]
+    }
+  ],
+  "notations_and_conventions": {
+    "rotational_constants": "A_k = hbar^2 / (2 J_k) 具有能量量纲",
+    "body_fixed_algebra": "体轴无量纲算符 I_k = J_k / hbar 满足反常负对易关系 [I_a, I_b] = -i epsilon_{abc} I_c",
+    "rotational_frequency": "旋转角频率标度 hbar omega_rot = 2 A_1 I = hbar^2 I / J_1",
+    "wobbling_frequency": "hbar omega_wob = 2I sqrt((A_2 - A_1)(A_3 - A_1))"
+  },
+  "claims_and_derivations": {
+    "rigid_vs_irrotational_hierarchy": "刚体绕最短几何轴 s 惯量最大；无旋流在 gamma 约 30 度附近绕中间轴 m 惯量最大",
+    "euler_stationary_stability": "最大惯量轴为全域极小（线性稳定，yrast 分支），最小惯量轴为全域极大（线性稳定，高能分支），中间惯量轴为鞍点（双曲不稳定，分离线）",
+    "body_fixed_boson_mapping": "严格采用 T14/correction.tex 形式 a = (I_2 - i I_3)/sqrt(2I), a^dagger = (I_2 + i I_3)/sqrt(2I)，由于 [I_2, I_3] = -i I，给出 [a, a^dagger] = (i/I)(-i I) = 1",
+    "wobbling_frequency_formula": "通过 Bogoliubov 对角化导出纯转子摆动频率 hbar omega_wob = 2I sqrt(d_2 d_3)",
+    "large_I_validity_condition": "精确记录 BM Eq.(4-307) 有效性判据 I >> (2n+1)(d_2+d_3)/(2 sqrt(d_2 d_3))",
+    "axial_limits_demarcation": "J1=J2 为赤道简并面 (omega_wob -> 0)；J2=J3 轴1为对称轴，给出非零频率对应多准粒子单粒子角动量支撑的高 K 进动机制 (Shimizu 2005)",
+    "finite_I_anharmonicity": "有限自旋 R_21 不普遍等于 1 不等于必严格不等；不能在缺乏带间 E2 跃迁指纹时机械贴附 n=0, 1, 2 声子标签",
+    "casimir_baseline": "以固定自旋 Casimir 项 A_1 I(I+1) 为量子展开基线，结合 BM Eq.(4-302) 与 Eq.(4-307) 有效性判据",
+    "inertia_vs_geometry": "惯量张量横向简并 J_1=J_2 与绕轴1对称 J_2=J_3 严格与几何形状区分；高 K 进动态来源于内部价准粒子内禀总角动量（轨道加自旋）"
+  },
+  "competing_explanations_and_boundaries": {
+    "rotor_limits_vs_microscopic_response": "纯转子摆动频率属于固定惯量下的大自旋渐近展开，微观核中频率依赖有效惯量与科里奥利反配对会引入显著动力学偏离",
+    "transverse_wobbling_vs_high_K_precession": "三轴核芯横向集体声子摆动与轴对称高 K 进动态在物理机制、跃迁指纹与量子自由度上截然不同"
+  },
+  "reader_checks": [
+    "刚体模型与无旋流体模型在三主轴转动惯量最大轴的选取上为何存在方向性对立？",
+    "为什么绕中间惯量轴的转动在经典力学与相空间中是拓扑不稳定的？",
+    "为什么“轴对称必然给出零摆动频率”只在赤道简并极限成立，不能泛化为无条件断言？",
+    "固定转动惯量参数为何不能保证有限自旋下能级严格等间距？"
+  ],
+  "prohibitions_strictly_obeyed": [
+    "不改动已有模板、章节包装或主工程文件",
+    "不直接修改 ref.bib，新增 Shimizu 2005 引用放入 G81/new-references.bib 供 G76 整合",
+    "不覆盖已有 7 张图，新增 rotor-local-limits 图配备独占脚本、PDF/SVG 双格式与 manifest 片段",
+    "不把固定惯量推广成精确谐振谱，保留有限自旋非谐边界"
+  ],
+  "open_issues": [],
+  "review_notes": "父实查V1文件并核验证据，吸收全部T14及父3句微调（局域近似下对易子、二次近似下频率、高K进动与局域旋转系频率范畴解耦、内禀总角动量指定构型）；状态定为 content-admitted。",
+  "target_sha256": "c14bf53d6d1d7cb8983ddbb7ab5d4a56fd3af33de7ca8ca2f973f00dfe261c69",
+  "parent_final_tex_sha256": "c14bf53d6d1d7cb8983ddbb7ab5d4a56fd3af33de7ca8ca2f973f00dfe261c69",
+  "integration_status": "included-in27-section-clean-preview"
+}

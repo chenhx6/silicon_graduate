@@ -1,0 +1,28 @@
+% T17 最小候选段：仅供父审后选择性合并，引用/编号与相邻章节统一。
+% 替换原第 9--17 行的轴对称约束、角动量和能谱引入。
+对理想的轴对称形状转子，绕其对称轴（取为3轴）的形状取向是冗余坐标；模型以约束 $R_3=0$ 表达不存在独立的轴向形状转动。这个约束并不意味着任意轴对称微观体系的轴向推转响应或有效转动惯量必为零。以下 $I,K$ 和 $\boldsymbol{\mathcal I}=\boldsymbol I/\hbar$、$\boldsymbol j=\boldsymbol J_{\rm intr}/\hbar$ 均为无量纲角动量及投影；$\boldsymbol R$ 为具有角动量量纲的核芯角动量，$\mathcal J_\perp$ 为物理转动惯量，$\omega$ 为物理角频率。
+\begin{equation}
+ \boldsymbol R_\perp=\hbar(\boldsymbol{\mathcal I}_\perp-\boldsymbol j_\perp),\qquad
+ H_{\rm coll}=\frac{\boldsymbol R_\perp^2}{2\mathcal J_\perp}
+ =\frac{\hbar^2}{2\mathcal J_\perp}(\boldsymbol{\mathcal I}_\perp-\boldsymbol j_\perp)^2.
+\end{equation}
+对于固定内禀组态及确定 $K$ 的强耦合绝热近似，忽略与其他内禀组态的科里奥利混合与 $K=1/2$ 的退耦修正，并将固定内禀组态的常数项吸收到 $E_{\rm intr}$，有
+\begin{equation}
+ E_K(I)-E_{\rm intr}=\frac{\hbar^2}{2\mathcal J_\perp}[I(I+1)-K^2],\qquad I=K,K+1,\ldots .
+\end{equation}
+这里固定 $K$、常数 $\mathcal J_\perp$ 是模型条件；并非仅由单个对角矩阵元 $\langle K|j_\pm|K\rangle=0$ 即可推出忽略所有非对角耦合。相邻自旋差 $E_K(I)-E_K(I-1)=\hbar^2I/\mathcal J_\perp$ 只在两个态均属于所考虑能带时适用；若 $K+1$ 与 $K$ 均为允许能级，首个能级间距为 $\hbar^2(K+1)/\mathcal J_\perp$，其可观测跃迁尚须满足跃迁选择定则。
+
+% 替换原第 36--43 行中关于参考系和绝热条件的说明。
+共转系的局域模频率与实验室系的跨自旋能级差不能直接等同。在 Shimizu 等的轴对称高 $K$ RPA 条件下，对物理 $\Delta K=+1$ 模，实验室进动角频率与均匀推转系角频率满足
+\begin{equation}
+ \omega_{\rm wob}=\omega_{\rm prec}-\omega_{\rm rot},\qquad
+ \omega_{\rm prec}=\frac{\hbar K}{\mathcal J_\perp^{\rm eff}(\omega_{\rm prec})}.
+\end{equation}
+这里 $K=\langle\Phi|J_x|\Phi\rangle/\hbar$；$\mathcal J_\perp^{\rm eff}$ 一般依赖模式频率，后一式须自洽求解。该参考系关系来自轴对称和小振幅 RPA，不要求先取绝热极限；绝热近似进一步使有效惯量趋近相应推转惯量。$\omega_{\rm rot}$ 是所选推转系的角速度，只有在特定常惯量示意转子中才可直接使用 $\omega_{\rm rot}=\hbar I/\mathcal J_x$。在固定惯量强耦合谱和 $K\gg1$、低阶激发的共同适用域，$\hbar\omega_{\rm prec}\simeq\hbar^2K/\mathcal J_\perp$ 与首实验室能级差渐近相合；精确的首能级差仍为 $\hbar^2(K+1)/\mathcal J_\perp$。
+
+% 替换原第 66 行对中心节点与离散对称性的描述。
+在一维局域坐标 $x$ 上，若有效哈密顿量对 $x\mapsto-x$ 不变且所考察的态在该反射下为奇，则其波函数在固定点 $x=0$ 为零；这不局限于谐振势阱。理想谐振子的第一激发态还具有对称双峰。对有限自旋核态，具体角分布或边缘化后的概率密度是否在某一方向为零，需要按实际波函数、投影和定义的离散对称性计算；非简谐项或其他通道混合可能改变节点。两横向曲率不同本身不必破坏局域反射对称性；角向反射、空间宇称与旋称是不同操作，不能把它们的混合作为同一机制。一般有限 $I$ 态也不必具有高斯分布。
+
+% 替换原第 102--106 行中的根数及单位说明。
+在固定门条件和几何设置下，$R_{\rm DCO}(\delta)$ 一般是两个关于 $\delta$ 的二次式之比；实验方程整理为二次方程后可能有两个、一个或没有实数有限解，退化为一次方程或其他特殊情况时另论，且必须排除原分母为零的伪根。偏振信息有助于鉴别电磁多极成分，但考虑实验误差后不保证唯一解。
+$\delta(E2/M1)$ 定义为电四极与磁偶极辐射振幅之比，须与第~\ref{sec:5-9} 节采用相同的相位和 SI 算符规范。若 $M1$ 使用磁矩型约化矩阵元 $\mathcal M_\mu(M1)$（以 $\mu_N$ 表示），则电荷型算符为 $\mathcal M_S(M1)=\mathcal M_\mu(M1)/c$；因此式~\eqref{eq:5-9-delta-def} 中 $E_\gamma/(\hbar c)$ 应与 $\mathcal M_S$ 配对。采用 $\mathcal M_\mu$ 时，等价地使用 $E_\gamma/\hbar$。已以各自命名单位归一化的 $b_{M1}$ 数值相同，不应再额外施加 $c^2$。

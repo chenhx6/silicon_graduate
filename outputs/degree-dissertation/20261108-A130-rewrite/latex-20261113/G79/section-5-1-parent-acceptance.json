@@ -1,0 +1,18 @@
+{
+  "section": "5.1",
+  "status": "content-admitted-layout-pending",
+  "timestamp": "2026-11-13T06:12:30.987753+00:00",
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-1.tex",
+  "output_tex_sha256": "16c122d5650bbd3a99de032d8900d5fcfd45ee624b604c485428cbce02f486f9",
+  "checks": [
+    "Nonrelativistic target-rest fusion kinematics andconditionedE* relation.",
+    "Wong prefactor/cross-sectionunits/high-l sharp-cutoff domain checked; capturevsCNformationvssurvival distinguished.",
+    "No universalalignment/B2 sign, beta parent-spin limit orsafe-distance cutoff.",
+    "CoulEx amplitudepaths andmodel-dependent reorientation interpretation preserved.",
+    "Counting equation uses photonconditionaljointacceptance withconsistent s^-1 units; no singlesLive12 doublecount.",
+    "Feeding convolution normalized asdecaypdf; gate reducesselecteduncertainty butnot universalfeeding removal."
+  ],
+  "parent_scope": "Narrow semantic/dimensional corrections; remaining prose andsource study byGemini.",
+  "remaining": "Reference/Bibalias andcommoncompile/layout.",
+  "final_ledger_reconciliation": "Currentclaims matchcorrectedcapture/counting/feeding/selection scope; no olduniversalsleftpositive."
+}

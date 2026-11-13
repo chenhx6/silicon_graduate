@@ -1,0 +1,90 @@
+{
+  "task": "T15 independent narrow audit: M1 SI / Gaussian units and linkage of sections 2.7 and 5.9",
+  "status": "completed; replacement text prepared; canonical files not modified",
+  "primary_source": {
+    "title": "J. Suhonen, From Nucleons to Nucleus (2007)",
+    "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+    "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+    "locators": [
+      {
+        "pdf_page": 133,
+        "printed_page": 118,
+        "equations": "6.3",
+        "anchor": "transition probability; SI epsilon_0 factor"
+      },
+      {
+        "pdf_page": 134,
+        "printed_page": 119,
+        "equations": "6.4, 6.6–6.9; footnote 6",
+        "anchor": "magnetic multipole contains mu_N/(hbar c); footnote redefines nuclear magneton in Gaussian units"
+      },
+      {
+        "pdf_page": 135,
+        "printed_page": 120,
+        "equations": "6.10–6.14",
+        "anchor": "phase factors; B(Mλ) in (mu_N/c)^2 fm^(2λ−2); numerical magnetic rate 6.080×10^20"
+      },
+      {
+        "pdf_page": 137,
+        "printed_page": 122,
+        "equations": "6.19–6.21",
+        "anchor": "matrix-element ratio Delta and dimensionless radiation mixing ratio delta=0.835 E[MeV] Delta[e barn/(mu_N/c)]"
+      }
+    ]
+  },
+  "other_read": [
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-7.tex:114–128",
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-9.tex:98–110, 135–164, 225–238",
+    "raw/writing/gpt/A130/latex-evidence-ledger/section-2-7.json",
+    "raw/writing/gpt/A130/latex-evidence-ledger/section-5-9.json",
+    "knowledge/research-notes/a130-rewrite-absolute-rates-and-selection-boundaries-20261108.md"
+  ],
+  "derivation": [
+    "SI: mu_N,SI=e_SI*hbar/(2*m_p), dimensions A m^2; 2.7 M_mu=sqrt(3/4π)*mu_N,SI*sum(g_l*l/hbar+g_s*s/hbar). The hbar division is implicit when angular momenta are already dimensionless.",
+    "Book Eq. 6.7 has mu_N,SI/(hbar*c), with dimensionful l and s. Set lambda=1, use grad(r Y_1m)=sqrt(3/4π) e_m in the corresponding spherical convention and zeta(M1)=1 in both book CS and BR conventions. Then M_S=M_mu/c (subject to the same tensor-component convention). From Eq. 6.4, B_S=B_mu/c^2.",
+    "Let b=B_mu/(mu_N,SI)^2=B_S/(mu_N,SI/c)^2. Both are dimensionless numerical values and exactly equal. Physical B_mu=b*(mu_N,SI)^2, B_S=b*(mu_N,SI/c)^2. Their physical dimensions differ; b must not be multiplied or divided by a numerical c squared.",
+    "At the level of dimensional physical quantities, lambda=K_S B_S=(K_S/c^2) B_mu: the coefficient for B_mu equals K_S/c^2, or K_S=c^2 K_mu. The numeric 1.7584e13 already contains the respective named unit, and attaches to b in either notation; it is not a bare dimensional K_S.",
+    "In Gaussian units the book footnote defines mu_N,G=e_G*hbar/(2*m_p*c); e_G and magnetic moment units themselves differ from SI. The absence of an explicit 1/c in the Gaussian magnetic operator follows that separate definition. Equality of corresponding dimensionless b values requires fully consistent unit conversion; interpreting e_G as e_SI or inserting c in fm/s into 1.7584e13 is invalid.",
+    "Eq. 6.14 gives f(1)=2/9 and C_book=6.080e20*(2/9)/197.33^3=1.7583758801027691e13 s^-1 for E/MeV=1 and b=1. This is a reconstruction from printed rounded constants, not 11-digit precision.",
+    "Independent SI check: lambda(M1)=4*mu_0/(9*hbar)*(E_gamma/(hbar*c))^3*B_mu, using SI hbar, mu_0, c, E_gamma in J and B_mu in (A m^2)^2. At 1 MeV and 1 mu_N,SI^2, scipy.constants yields 1.7583661765972334e13 s^-1; its small difference from the book comes from rounded constants."
+  ],
+  "delta_check": {
+    "identity": "For corresponding phase convention and M_S denominator, delta=(sqrt(3)/10)*(E_gamma/(hbar*c))*<E2>/<M_S>; |delta|^2=lambda(E2)/lambda(M1). Using M_mu instead requires the explicit factor c multiplying the matrix-element ratio. The sqrt(3)/10 coefficient follows sqrt(f(2)/f(1)); phase/sign require radiation convention.",
+    "source_crosscheck": "Book Eq. 6.21 gives 0.835 E_gamma[MeV] times the numerical matrix-element ratio in e barn/(mu_N/c). Independently sqrt(C_E2/C_M1)*100=0.8346763 for B(E2) in e^2 fm^4 and B_mu in mu_N^2, consistent with rounded 0.835.",
+    "phase_boundary": "Book Eqs. 6.10–6.11 use zeta_E2=+1 (CS), -1 (BR), zeta_M1=+1 in both. The same amplitudes/geometrical coefficients must be transformed consistently; the present audit validates magnitude and convention dependence, not the signed equivalence of every Rose–Brink / Lange convention.",
+    "toy": "The input delta=1.50 is unchanged; its fractions and rates do not change. The toy magnetic strength numerical value 0.00545432 is unchanged, but if called B_mu its unit must be mu_N^2; alternatively retain B_S and (mu_N/c)^2 with explicit subscript."
+  },
+  "issues": [
+    {
+      "location": "5.9:164",
+      "severity": "must correct",
+      "finding": "Says coefficient multiplies c² then gives a division by a dimensional c², with c in fm/s. This conflates a physical-coefficient map and two normalized numerical coefficients; it conflicts with the 2.7 magnetic-moment convention."
+    },
+    {
+      "location": "5.9:156–162 and 2.7:114–128",
+      "severity": "must disambiguate",
+      "finding": "Same generic B(M1) and C_M1 are used for B_S and B_mu without defining the conversion; their numerical values match in respective named units, but physical dimensions do not."
+    },
+    {
+      "location": "5.9:106–110",
+      "severity": "companion edit required for whole-section consistency",
+      "finding": "Explicitly label the delta denominator M_S=M_mu/c, or replace it by M_mu with c in numerator; do not identify an SI magnetic moment operator with the SI charge-type operator. Specify signed radiation phase convention and preserve original delta definition."
+    },
+    {
+      "location": "5.9:234–238",
+      "severity": "companion edit required for whole-section consistency",
+      "finding": "Replace both (mu_N/c)^2 toy unit labels with mu_N^2 when B denotes B_mu; keep 0.005454 and 0.00545432. This location is outside the replacement block in correction.tex."
+    },
+    {
+      "location": "latex-evidence-ledger/section-5-9.json and research note",
+      "severity": "upstream follow-up",
+      "finding": "Existing source ledger labels C_M1 and B as book convention. If the parent adopts the replacement, update the related ledger and any note claims in its authorized domain, and distinguish named-unit numerical coefficients."
+    }
+  ],
+  "acceptance_boundary": [
+    "Correction.tex replaces only the 5.9 M1 rate passage and retains both existing equation labels; parent must perform the separately identified delta notation and toy-unit companion edits for complete consistency.",
+    "Accept if no physical-quantity coefficient is mistaken for an unnormalized numerical coefficient, 2.7 and 5.9 name the same B_mu, the numerical 1 MeV check is satisfied, and mixed-radiation amplitude conventions stay explicit.",
+    "Book expressions preserved as printed; no source misprint was established in the equations audited. No independent audit of all 40 expressions, sign conventions across all references, or downstream physics was performed.",
+    "No changes to canonical, knowledge, other workers, or Git history; all artifacts restricted to T15."
+  ]
+}

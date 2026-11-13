@@ -1,0 +1,152 @@
+{
+  "section_id": "4.3",
+  "title": "A100的急变、软性与低能响应",
+  "target_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-3.tex",
+  "staging_tex_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G86/staging/section-4-3.tex",
+  "tex_sha256": "78527004469893b277308d5115e15ddc09684478a5d6b537c74b89a1464ec7b8",
+  "recorded_at": "2026-11-13T05:43:34.746909+00:00",
+  "executor": "G86",
+  "sources": [
+    {
+      "source_id": "doctoral-r1-g28-singh-2018-98zr-lifetimes",
+      "source_page": "knowledge/sources/doctoral-r1-g28-singh-2018-98zr-lifetimes.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G28/singh-2018-98zr-coexisting-shapes.pdf",
+      "raw_sha256": "37f2d5ee16f799feb66617787d45d25c4f3e0cb4f0f996689a0576811c5a05e3",
+      "actual_scope": "Reuse prioraudited foundational section and canonical source; no new wholepaper read.",
+      "reading_boundary": "Selected-page or previously audited claim reuse; no new full-paper/deep-read certification."
+    },
+    {
+      "source_id": "continuation-g17-chen-singh-2020-nds-98mo",
+      "source_page": "knowledge/sources/continuation-g17-chen-singh-2020-nds-98mo.md",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G17/nds-2020-chen-singh-98mo-adopted.pdf",
+      "raw_sha256": "f98dc0ebd7a111083492fd25710268093d37c40bc45b33b1507704428d8c9bf6",
+      "actual_scope": "Parent actualadoptedPDF2 and edition-update boundary.",
+      "reading_boundary": "Selected-page or previously audited claim reuse; no new full-paper/deep-read certification."
+    },
+    {
+      "source_id": "continuation-g17-thomas-2016-96-98mo-coexistence",
+      "source_page": "knowledge/sources/continuation-g17-thomas-2016-96-98mo-coexistence.md",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G17/thomas-2016-96-98mo-coexistence.xml",
+      "raw_sha256": "f948e4ffd6292f3b4c807d2ae90ab410c0b4502dab73e35027cc55335a144a0d",
+      "actual_scope": "Parent directly parsed publisherXML ce:table id=tl0020 caption and low-energy rows;52.6keVline is adopted fromNDS and unobserved in that dataset; no fictitious PDFpages.",
+      "reading_boundary": "Selected-page or previously audited claim reuse; no new full-paper/deep-read certification."
+    },
+    {
+      "source_id": "karmakar-2025-2026-98mo-octupole-preview",
+      "source_page": "knowledge/sources/karmakar-2025-2026-98mo-octupole-preview.md",
+      "raw_file": "raw/papers/⁹⁸Mo A possible candidate for octupole collectivity in A ≈ 100 region.pdf",
+      "raw_sha256": "958364569a5a07aa7dee2fc8d44a150b1fa876b9cb5a8e3636bb6a4a84f970b1",
+      "actual_scope": "Published8pagePDF with tables4/6/7; earlierfulltext baseline reused; no newlifetimefit.",
+      "reading_boundary": "Selected-page or previously audited claim reuse; no new full-paper/deep-read certification."
+    },
+    {
+      "source_id": "saracino-2026-102ru-scissors-octupole-resonances",
+      "source_page": "knowledge/sources/saracino-2026-102ru-scissors-octupole-resonances.md",
+      "raw_file": "raw/papers/Low-Energy Dipole Strength Distribution in ¹⁰²Ru Coexistence of Scissors and Octupole Resonances.pdf",
+      "raw_sha256": "4bc6bb6c613b121bae9def9d9bedf37e9c02db89eca265c4c16d5dd9ecf43a89",
+      "actual_scope": "Parent actualpublishedPDF3/5/6 selected-strength/modelchecks.",
+      "reading_boundary": "Selected-page or previously audited claim reuse; no new full-paper/deep-read certification."
+    }
+  ],
+  "claims": [
+    {
+      "id": "P43-1",
+      "text": "Singh TableI报告98Zr2_1,4_1,6_1平均寿命分别3.8(.8),7.5(1.5),2.6(.9)ps，结合branching得到方向明确的B(E2)。",
+      "kind": "reported-lifetime-result",
+      "source_id": "doctoral-r1-g28-singh-2018-98zr-lifetimes",
+      "verified_locator": {
+        "actual_pdf_page": 3,
+        "table": "I",
+        "anchor": "Summary of results for the lifetime measurements"
+      },
+      "conditions": "No0_2 tau4.2ns value; model-coexistence interpretation separate from direct lifetime."
+    },
+    {
+      "id": "P43-2",
+      "text": "NDS adopted PDF2:98Mo0_2 E734.75(4)keV,T1/2=21.8(.9)ns;2_1 E787.384(17)keV,T1/2=3.47(.07)ps。",
+      "kind": "adopted-evaluated-data",
+      "source_id": "continuation-g17-chen-singh-2020-nds-98mo",
+      "verified_locator": {
+        "actual_pdf_page": 2,
+        "table": "Adopted Levels",
+        "anchor": "734.75 4 0+ 21.8 ns 9"
+      },
+      "conditions": "tau31.45(1.30)ns is task-derived by divisionln2, not new independent measurement. Lower0_2 cannot emit a downwardgamma to higher2_1."
+    },
+    {
+      "id": "P43-3",
+      "text": "Thomas完整XML Table2列52.6keV支路为NDS采用量并以横线表示本次未见；不作本次实验新观测或伪造PDF12。",
+      "kind": "version-and-inference-boundary",
+      "source_id": "continuation-g17-thomas-2016-96-98mo-coexistence",
+      "verified_locator": {
+        "artifact_type": "publisherXML",
+        "element_id": "tl0020",
+        "table": "2",
+        "position": "caption andlow-energy rows"
+      },
+      "conditions": "Qualitative structure discussion and source lineage only; no unsupported absolute-rate claim."
+    },
+    {
+      "id": "P43-4",
+      "text": "Karmakar出版8页正文Table1列1833.3/1585.8弱线，DCO/polarization空白，E3按state assignments为最低允许；Table2列B(E3)/B(E2)=66.05±27.01与153.81±33.31fm²。",
+      "kind": "reported-transitions-and-conditional-branch-derived-ratios",
+      "source_id": "karmakar-2025-2026-98mo-octupole-preview",
+      "verified_locator": {
+        "actual_pdf_pages": [
+          4,
+          6,
+          7
+        ],
+        "tables": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      "conditions": "No lifetime/absoluteB(E3) supplied; approximatefourfold ratio comparison not absoluteE3 enhancement; fullpublication supersedesDAE as main evidence."
+    },
+    {
+      "id": "P43-5",
+      "text": "Ru102原文PDF3所报2.95MeVE1 B=.016e²fm²，4.5–5.5MeV聚集和约.1；PDF5总M1=1.7muN²，与2–4MeV局部约1不同。",
+      "kind": "reported-observed-strength",
+      "source_id": "saracino-2026-102ru-scissors-octupole-resonances",
+      "verified_locator": {
+        "actual_pdf_pages": [
+          3,
+          5
+        ],
+        "figures": [
+          "2",
+          "3",
+          "4"
+        ],
+        "anchor": "The total observed strength of 1.7"
+      },
+      "conditions": "Observed/extraction-defined strengths and energy windows; no claim allunobservedstrength accounted for."
+    },
+    {
+      "id": "P43-6",
+      "text": "作者对2.95MeV提出可能四极—八极双声子解释，对约5MeV聚集结合TAC-QRPA作偶极—八极混合解释；不是直接实验测E3静态形变。",
+      "kind": "author-model-interpretation",
+      "source_id": "saracino-2026-102ru-scissors-octupole-resonances",
+      "verified_locator": {
+        "actual_pdf_page": 6,
+        "paragraph": "Two-phonon alternative and conclusion"
+      },
+      "conditions": "NRF from0+ mainlyE1/M1 to1± but highermultipoles can reachotherJ; no directhigh-spinmode certification."
+    }
+  ],
+  "unresolved_issues": [
+    "Common bibliography aliases and actual layout pending; reader-effect not tested."
+  ],
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-3.tex",
+  "output_tex_sha256": "78527004469893b277308d5115e15ddc09684478a5d6b537c74b89a1464ec7b8",
+  "parent_reconciliation": "Replaced stale positiveclaims and false locators with currentclaims matching actual canonical prose. Superseded failedledger kept only in rejected-ledger-history, not a factsource.",
+  "parent_final_patch": {
+    "at": "2026-11-13T05:47:59.418869+00:00",
+    "scope": "Corrected remaining angle endpoint/E0 charge factor, nonuniversal comparison/ranking, theory-columnQs, Ni shape assignment andE0bounds, Thomas adopted/unobserved branch; rebuilt stale canonical claims from primarychecks.; finalprimaryTableI/CriderTable1 bounds and shapeassignments, adoptedThomasXMLline clarified."
+  },
+  "target_sha256": "78527004469893b277308d5115e15ddc09684478a5d6b537c74b89a1464ec7b8",
+  "parent_final_tex_sha256": "78527004469893b277308d5115e15ddc09684478a5d6b537c74b89a1464ec7b8",
+  "integration_status": "included-in27-section-clean-preview"
+}

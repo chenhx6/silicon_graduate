@@ -187,5 +187,7 @@
   "unresolved_issues": [
     "1953年统一模型Table XXIII中160Dy等样本能级惯量形变与E2跃迁形变的不一致性，混杂了几何映射、质量参数与配对关联的多重影响",
     "Hinohara 2015有限振幅法求出的Thouless-Valatin转动惯量依赖于准粒子平均场自洽势与有效相互作用选取，模型空间截断会引入伪NG模频移"
-  ]
+  ],
+  "parent_final_tex_sha256": "41e375449934242995f7a810b1224d5b7b8f96d018038d34a8de58d2d7dc6075",
+  "integration_status": "included-in27-section-clean-preview"
 }

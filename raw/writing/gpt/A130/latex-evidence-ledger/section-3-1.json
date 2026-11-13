@@ -1,0 +1,96 @@
+{
+  "section_id": "3.1",
+  "title": "转动、振动和量子涨落",
+  "section_label": "sec:3-1",
+  "type": "new-draft-canonical",
+  "status": "content-admitted",
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-1.tex",
+  "output_tex_sha256": "957538630c5b82a62edd57ee60f7599a8918bb0700af7b763ba5492e21dd2286",
+  "scope_boundary": "系统阐述一维简谐振动教学模型（明确坐标、质量与刚度量纲）、量子基态零点涨落与势能极小点及跃迁矩阵元的本质区别、三维空间转动量子化与 Casimir 能标、基态电四极矩 Q_s(0+)=0 的角动量几何本质与 Kumar-Cline 形状不变量、内禀形状变量与欧拉取向角的分离条件及声子数标签的近似边界、浅软势能面多阱隧穿与量子波包概率密度分布，以及平滑引向第3章后续转动动力学展开的接口。",
+  "source_inputs": [
+    {
+      "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+      "canonical_source": "A. Bohr & B. R. Mottelson, Nuclear Structure, Vol. II: Nuclear Deformations, World Scientific (1998 reissue, local copy 1999 reprint)",
+      "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "raw_sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "actual_read_pages": "printed pp. 1–6 (PDF pp. 23–28, Section 4-1 / 4-2); printed pp. 345–365 (PDF pp. 367–387, Chapter 6 Section 6-2)",
+      "text_anchors": [
+        "printed p. 4: 'The condition that the fluctuations in shape be small compared with the average deformation, Delta R << R_0, is therefore equivalent to the adiabatic condition omega_rot << omega_vib'",
+        "printed p. 5: 'The intrinsic motion is described by coordinates q and conjugate momenta p... rotational Hamiltonian does not depend on orientation omega... product form Psi = D Phi'",
+        "printed p. 347: quadrupole collective Hamiltonian H = T + V with mass parameter B and stiffness C, zero-point fluctuation <0| q^2 |0> = hbar / (2 sqrt(B C))"
+      ],
+      "claims_supported": [
+        "旋转与振动的绝热分离条件 omega_rot << omega_vib (printed p. 4)",
+        "内禀运动变量 q 与取向角变量 omega 的正交分解及乘积波函数 (printed p. 5)",
+        "四极集体简谐振动动能与势能展开、特征频率及基态零点涨落均方根宽度公式 (printed p. 347)"
+      ]
+    },
+    {
+      "source_id": "bohr-1952-surface-particle-coupling",
+      "canonical_source": "A. Bohr, Dan. Mat. Fys. Medd. 26, no. 14 (1952)",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-1952-mfm26-14.pdf",
+      "raw_sha256": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d",
+      "actual_read_pages": "pp. 8–18 (Section II, Collective Hamiltonian)",
+      "text_anchors": [
+        "pp. 8–11: Transformation from laboratory alpha_{2mu} to intrinsic shape variables beta, gamma and Euler angles phi, theta, psi"
+      ],
+      "claims_supported": [
+        "五维四极坐标分解为 2 个内禀形状坐标与 3 个取向欧拉角的变换结构与动能张量"
+      ]
+    },
+    {
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "canonical_source": "D. Cline, Ann. Rev. Nucl. Part. Sci. 36 (1986) 683–716",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "raw_sha256": "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113",
+      "actual_read_pages": "pp. 685–692 (Section 2, Quadrupole rotational invariants)",
+      "text_anchors": [
+        "pp. 687–690: Kumar-Cline rotational scalar invariants <0+| [Q x Q]_0 |0+> proportional to q2^2 > 0 and comparison with vanishing spectroscopic quadrupole moment Q_s(0+) = 0"
+      ],
+      "claims_supported": [
+        "基态 0+ 静态四极矩 Q_s(0+)=0 是角动量几何耦合的恒等结论，绝不否定内禀形变；内禀四极度由转动标量不变量 q2^2 确定"
+      ]
+    }
+  ],
+  "notations_and_conventions": {
+    "1d_oscillator": "V(q) = V_0 + (1/2) C q^2, T = p^2/(2B)；坐标 q 量纲 [q]，质量参数 B 单位 hbar^2 / (MeV * [q]^2)，刚度 C 单位 MeV / [q]^2，hbar omega = hbar sqrt(C/B) (MeV)，零点涨落 <q^2>_0 = hbar / (2 sqrt(B C))",
+    "rotational_units": "E_rot(I) = hbar^2 I(I+1) / (2 J) = A I(I+1)，I 为无量纲总角动量，A = hbar^2 / (2 J) 具能量量纲 (MeV 或 keV)，与全篇第3章约定统一"
+  },
+  "claims_and_derivations": {
+    "zero_point_vs_observable": "基态零点涨落宽度由所选谐振势阱参数决定，通过完备性求和关系 <0| q^2 |0> = sum_n |<n| q |0>|^2 与跃迁响应网络强度联系，严密区分波包统计矩、单次非对角矩阵元与仪器测量误差",
+    "casimir_and_Q0": "Declared axialK0 model givesA I(I+1); additional intrinsic Ry(pi) condition selects evenI. Qs(0+)=0 and q2 uniform convention preserved; q2 alone does not prove unique intrinsicshape.",
+    "vibration_vs_orientation": "Time-scale separation plus small derivativecoupling supports specifiedadiabatic model; phonon labels and discriminating observables depend on that model, no universal absoluteB(E2) checklist.",
+    "soft_potentials_and_tunneling": "浅软势能面中零点涨落与平衡形变尺度相当，动态波包概率分布决定有效几何；有限介观体系严格保持空间转动守恒，自发对称破缺属于内禀单粒子波包属性",
+    "axial_signature_condition": "轴对称 K=0 转动带中仅出现偶自旋 I=0,2,4,... 的物理前提是内禀态额外具备正旋称 Ry(pi) 离散二度轴对称性，K=0 本身不迫使自旋取偶数",
+    "cline_invariant_2_1_reconciled": "与第2.1节定义严格统一：q2 = sqrt(5) <0+| [Q x Q]_0 |0+> = sum_i |<i|| M(E2) ||0+>|^2 >= 0",
+    "adiabatic_separation_condition": "删除假等价 iff，明确绝热分离是时间尺度与导数微扰耦合判定 hbar omega_rot << hbar omega_vib，几何形变幅度另行评估",
+    "symmetrized_product_wavefunction": "Schematic expansion uses rotationfunctions varphi_IMK withnorm/phase/discreteconditions definedin2.5/AppendixB; no unnormalized universalD-product asserted.",
+    "soft_potential_expansion_boundary": "软势面涨落与局部二次展开适用区间比较，消除 gamma_0=0 病态",
+    "projection_trial_space_variation": "投影在受限试探空间提取良好自旋态，通过 Ritz 变分求解近似本征态，不泛称全核严格定态",
+    "chiral_non_coplanarity_boundary": "手征非共面矢量耦合要求标量三重积非零，不强求三向量严格 90 度正交"
+  },
+  "competing_explanations_and_boundaries": {
+    "phonon_vs_anharmonic": "简单的整数能量比 (如 E(4+)/E(2+) 约 2.0 或 2.5) 不足以作为判定声子模式的充分条件，强非简谐势与科里奥利耦合可产生表观相似能谱",
+    "static_minimum_vs_wavepacket_density": "在 gamma 软核与浅势能面中，静态极小点不能代表物理构型，真实动力学受全流形上的波包概率密度分布主导"
+  },
+  "reader_checks": [
+    "一维教学振子中，质量参数 B、刚度 C 与零点涨落 <q^2>_0 的量纲如何严格自洽？",
+    "为什么偶偶核基态 Q_s(0+) = 0 的严格守恒不能用来否定核内禀形变的存在？",
+    "为什么不能仅靠在束激发谱线上的能量比值来认定振动声子模式？",
+    "在浅软势能面中，静态势阱极小与真实物理构型之间存在怎样的本质差异？"
+  ],
+  "prohibitions_strictly_obeyed": [
+    "不改动已有模板、章节包装或主工程文件",
+    "不重推第2章全套微观泛函，仅提供清晰教学入口",
+    "不引入无依据的背诵实验数值，保持可检验物理论证",
+    "严格统一能量标度 A = hbar^2 / (2J) 与无量纲角动量算符约定"
+  ],
+  "open_issues": [],
+  "parent_final_patch": {
+    "at": "2026-11-13T06:07:21.509626+00:00",
+    "scope": "Narrowed automaticadiabatic implication, q2 geometricinterpretation and product-wavefunction normalization/phase duplication."
+  },
+  "target_sha256": "957538630c5b82a62edd57ee60f7599a8918bb0700af7b763ba5492e21dd2286",
+  "parent_final_tex_sha256": "957538630c5b82a62edd57ee60f7599a8918bb0700af7b763ba5492e21dd2286",
+  "integration_status": "included-in27-section-clean-preview"
+}

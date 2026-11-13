@@ -17,12 +17,19 @@
     \setcounter{chapter}{1}% 保证附录编号为附录 B
     \input{Tex/Appendices/AppendixB}%
 }{%
-    % 暂无已完成附录
+    % 暂无附录 B
 }
 
 \IfFileExists{Tex/Appendices/AppendixC.tex}{%
     \input{Tex/Appendices/AppendixC}%
 }{%
     % 暂无附录 C
+}
+
+\IfFileExists{Tex/Appendices/AppendixF.tex}{%
+    \setcounter{chapter}{5}% 保证附录编号为附录 F (A=1, B=2, C=3, D=4, E=5, F=6)
+    \input{Tex/Appendices/AppendixF}%
+}{%
+    % 暂无附录 F
 }
 %---------------------------------------------------------------------------%

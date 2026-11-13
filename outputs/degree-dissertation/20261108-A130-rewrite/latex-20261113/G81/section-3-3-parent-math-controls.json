@@ -1,0 +1,63 @@
+{
+  "checks": [
+    {
+      "I": 20.0,
+      "j": 6.5,
+      "A": [
+        0.01,
+        0.008,
+        0.03
+      ],
+      "hessian_over_two_finite_difference": [
+        0.0012500000501347586,
+        0.023250000058538944
+      ],
+      "analytic_coefficients": [
+        0.0012500000000000002,
+        0.023249999999999996
+      ]
+    },
+    {
+      "I": 30.0,
+      "j": 6.5,
+      "A": [
+        0.01,
+        0.008,
+        0.03
+      ],
+      "hessian_over_two_finite_difference": [
+        0.0001666666804567285,
+        0.022166666688860914
+      ],
+      "analytic_coefficients": [
+        0.00016666666666666653,
+        0.022166666666666664
+      ]
+    },
+    {
+      "I": 15.0,
+      "j": 6.5,
+      "A": [
+        0.008,
+        0.01,
+        0.03
+      ],
+      "hessian_over_two_finite_difference": [
+        0.005466666768150219,
+        0.025466666766504886
+      ],
+      "analytic_coefficients": [
+        0.0054666666666666665,
+        0.025466666666666665
+      ]
+    }
+  ],
+  "method": "Centered finite difference of unexpanded classical Hamiltonian; separate squared-frequency factorization and transverse derivative-sign controls.",
+  "step": 0.005,
+  "TW_example_d_E2_over4_dI": {
+    "8.0": 0.0005300000000000002,
+    "20.0": -0.0004299999999999998
+  },
+  "TW_example_critical_spin": 32.5,
+  "boundary": "Arbitrary FA teaching parameters, no nucleus fit or finite-I quantum certification."
+}

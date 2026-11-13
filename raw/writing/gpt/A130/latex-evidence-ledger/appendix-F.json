@@ -1,0 +1,141 @@
+{
+  "appendix_id": "F",
+  "title": "可复现输入和来源表",
+  "appendix_label": "app:reproducible-inputs",
+  "type": "canonical-appendix",
+  "status": "content-admitted-typesetting-verified",
+  "recorded_at": "2026-11-13T09:30:59.554268+00:00",
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixF.tex",
+  "output_tex_sha256": "fcf308586879f103eb3fc71f77daa6eea9e24be691bdf172671b7e4be5b324c5",
+  "scope_boundary": "Nine accepted paired figures,3 audited CSVs, compiled with accepted27-section preview.",
+  "csv_verification_receipt": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G76/F-data-verification.json",
+  "figures_covered": [
+    {
+      "id": "occupancy-centroids",
+      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/occupancy-centroids.pdf",
+      "pdf_sha256": "1c016d53943e8c3b59da407d4bafe4a9f44c1ffbf3eba284e05306a25d31ae14",
+      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/occupancy-centroids.svg",
+      "svg_sha256": "1e29a944808e0b37ca0a89ad1302a7902f8d86d3e3c35c0f6fa267f2e5ee9de9",
+      "generator": "system/scripts/a130_latex_figures.py",
+      "generator_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
+    },
+    {
+      "id": "gamma-measure",
+      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/gamma-measure.pdf",
+      "pdf_sha256": "c3336dd781432a15b9fb8a2f24ff334327009e4d3098353ff3c7731cf4bc02f6",
+      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/gamma-measure.svg",
+      "svg_sha256": "df58728835b86376aa6cb1a8ed0816a1099025a4e49450e13359c37cef3df7ba",
+      "generator": "system/scripts/a130_latex_figures.py",
+      "generator_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
+    },
+    {
+      "id": "digital-energy-response",
+      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/digital-energy-response.pdf",
+      "pdf_sha256": "41520bb253609d323090add64e02aa41564ee5c3b8a007df8c5fb39965a0df9b",
+      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/digital-energy-response.svg",
+      "svg_sha256": "8e000ce14eee67eda2dd9afe8c1f97531e5ddc40c66a439b4ae9edf258500e54",
+      "generator": "system/scripts/a130_latex_figures.py",
+      "generator_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
+    },
+    {
+      "id": "cfd-phase-convergence",
+      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/cfd-phase-convergence.pdf",
+      "pdf_sha256": "dbfbbdcd9cd39fb637f62e8cb58c9013535b1844a93bec75dad61243bcdbba29",
+      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/cfd-phase-convergence.svg",
+      "svg_sha256": "b2374a5af78a9e9347aa234c3172b75ae788d7245e1fc9a3fa406eddc56ad46a",
+      "generator": "system/scripts/a130_latex_figures.py",
+      "generator_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
+    },
+    {
+      "id": "shape-moments",
+      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/shape-moments.pdf",
+      "pdf_sha256": "d174e5ac579b08a4bf4255ebe50006b9756530e91ca5507aea6c20fab9613097",
+      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/shape-moments.svg",
+      "svg_sha256": "5bb89e143050cb1765f0bb994ca429e797a9854029ec07f15aeb1507fe598e36",
+      "generator": "system/scripts/a130_latex_figures.py",
+      "generator_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
+    },
+    {
+      "id": "six-region-map",
+      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/six-region-map.pdf",
+      "pdf_sha256": "1bbb37e7b35806a1f04bb7c63e49569ca88f35d5be4e58eb37533987778b7382",
+      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/six-region-map.svg",
+      "svg_sha256": "14f733c02ef57aecf6114624eb7cd64a69cac1a79ff1de64e6eeed79ccc83a8e",
+      "generator": "system/scripts/a130_latex_figures.py",
+      "generator_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
+    },
+    {
+      "id": "chapter-dependency",
+      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/chapter-dependency.pdf",
+      "pdf_sha256": "c817f4776d702eb99f91d94f13c5ef6324aae5699cc943368e67e654ed5e4065",
+      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/chapter-dependency.svg",
+      "svg_sha256": "703e28eb4d60ab8ce1d31d72cae7753ba193a004109e40d3981f41fbae0dbd84",
+      "generator": "system/scripts/a130_latex_figures.py",
+      "generator_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
+    },
+    {
+      "id": "mode-mixing-avoided-crossing",
+      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/mode-mixing-avoided-crossing.pdf",
+      "pdf_sha256": "f8d50454af23da2fdd19308e7e844e02cc8b96a7b509cb3033cd021da8da5729",
+      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/mode-mixing-avoided-crossing.svg",
+      "svg_sha256": "d41d513936c73f835cc48152b6dfc7c714eede1f9be8a12027c922521419e484",
+      "generator": "system/scripts/a130_mode_mixing_figure.py",
+      "generator_sha256": "e9d7653744e7927157c3207a2acad30f514cc9f547c6711db8e5b5d895b8d7a7"
+    },
+    {
+      "id": "seniority-node-accessibility",
+      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/seniority-node-accessibility.pdf",
+      "pdf_sha256": "6f824e9d551556feb213b3c626f1b7b4d772eb361ae209608f74d09d48b420bb",
+      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/seniority-node-accessibility.svg",
+      "svg_sha256": "2c38768fc352826ad40600f9e194701c607b65762ad5b7f4bec3129887031df7",
+      "generator": "system/scripts/a130_seniority_node_figure.py",
+      "generator_sha256": "f9628363fd6c434c7066f60b4711258d83b4da2af8f94cd0f30c9f6acf281c1d"
+    }
+  ],
+  "datasets_covered": [
+    {
+      "file_path": "outputs/l4/20261108-digital-pulse-response/ballistic_deficit_study.csv",
+      "size_bytes": 1998,
+      "sha256": "e76fd8c6f896aea49cdb3d1489b6ef398f023422ee7449d4dc97e43b7066b353",
+      "header_columns": [
+        "rise_time_ns",
+        "flat_top_0ns_amp",
+        "flat_top_100ns_amp",
+        "flat_top_400ns_amp",
+        "deficit_flat0_pct",
+        "deficit_flat400_pct"
+      ],
+      "data_row_count": 20,
+      "column_count": 6
+    },
+    {
+      "file_path": "outputs/l4/20261108-digital-pulse-response/sampling_convergence.csv",
+      "size_bytes": 247,
+      "sha256": "fcbc5a3ebf68e5ef8f0cb5dabfc1be09484d4f99757f9f2f9db6909225469222",
+      "header_columns": [
+        "sampling_interval_ns",
+        "reference_latency_ns",
+        "max_abs_interpolation_error_ns"
+      ],
+      "data_row_count": 4,
+      "column_count": 3
+    },
+    {
+      "file_path": "outputs/l4/20261108-digital-pulse-response/cfd_phase_walk_analysis.csv",
+      "size_bytes": 2050,
+      "sha256": "fa67402db75b74cc78dabab173d0ce89e0ba6a77df1545ddd8a330a9ca4d7178",
+      "header_columns": [
+        "phase_ns",
+        "true_t0_ns",
+        "reference_zc_ns",
+        "extracted_zc_ns",
+        "timing_error_ns",
+        "amplitude_arb",
+        "amplitude_scan_zc_ns"
+      ],
+      "data_row_count": 20,
+      "column_count": 7
+    }
+  ],
+  "parent_source_and_data_check": "Existing seven artifact hashes reconciled; two new model figures visually inspected and independently controlled within stated scope."
+}

@@ -1,0 +1,16 @@
+{
+  "appendix": "F",
+  "status": "metadata-content-admitted-layout-pending",
+  "timestamp": "2026-11-13T04:52:10.134421+00:00",
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixF.tex",
+  "output_tex_sha256": "bf41ef8fedd12d92d8a6b0fd0b89ba15056c2497e0dc0df3df7ac383eb1df3cc",
+  "scope": "Current seven paired vector figures and three CSV datasets only. Future figures/data not automatically covered.",
+  "direct_verification": "G76/appendix-F-parent-data-check.json; actual CSV sizes, row/column counts, headers, first/last rows and hashes independently matched;14 current figure hashes matched;producer hash recomputed.",
+  "final_checks": [
+    "Correct current producer hash prefix",
+    "No undefined internal S6/task-contract reference",
+    "Reference crossing delay not mislabeled as group delay",
+    "Long paths and hash prefixes explicit; literal underscores escaped"
+  ],
+  "remaining": "Render tables and verify no overflow/unreadable font in common build."
+}

@@ -1,0 +1,36 @@
+{
+  "checked_records": 69,
+  "differences": [
+    {
+      "key": "book-bohr-mottelson-nuclear-structure-vol2",
+      "field": "year",
+      "bib": "1998",
+      "canonical": "1975",
+      "resolution": "Bibliography uses inspected local1998 edition/reprint; source year records original volume date. Deliberate edition distinction, not auto-replaced.",
+      "basis": {
+        "source_page": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+        "metadata_fields": {
+          "title_original": "Nuclear Structure, Volume II: Nuclear Deformations",
+          "original_publisher": "W. A. Benjamin, Inc.",
+          "local_edition_year": 1998,
+          "local_reprint_year": 1999
+        }
+      }
+    },
+    {
+      "key": "book-bohr-mottelson-nuclear-structure",
+      "field": "year",
+      "bib": "1998",
+      "canonical": "1969",
+      "resolution": "Bibliography uses inspected local1998 edition/reprint; source year records original volume date. Deliberate edition distinction, not auto-replaced.",
+      "basis": {
+        "source_page": "knowledge/sources/book-bohr-mottelson-nuclear-structure.md",
+        "metadata_fields": {
+          "title_original": "Nuclear Structure, Volume I: Single-Particle Motion"
+        }
+      }
+    }
+  ],
+  "scope": "Canonical local-source identity match for DOI/year; edition choices require interpretation, not automatic replacement.",
+  "unresolved_differences": 0
+}

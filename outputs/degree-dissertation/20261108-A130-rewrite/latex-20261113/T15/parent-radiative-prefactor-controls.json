@@ -1,0 +1,8 @@
+{
+  "operator": "standard spherical-tensor charge-type M1 = conventional magnetic M1/c",
+  "E_MeV": 1,
+  "b_M1": 1,
+  "rate_charge_SI_s-1": 17583661787303.377,
+  "rate_magnetic_SI_s-1": 17583661787303.379,
+  "boundary": "Task numerical unit/algebra control, not measurement. Rounded physical constants explicitly supplied."
+}

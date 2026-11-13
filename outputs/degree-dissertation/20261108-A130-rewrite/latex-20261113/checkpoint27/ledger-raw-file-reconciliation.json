@@ -1,0 +1,760 @@
+{
+  "recorded_at": "2026-11-13T11:34:44.469082+00:00",
+  "scope": "27 parent-accepted sections, delivered appendix ledgers B/F, frozen 64-input project collection and 9 SVG/PDF pairs",
+  "sections": [
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7",
+    "2.8",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.5",
+    "3.6",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.6",
+    "5.1",
+    "5.3",
+    "5.4",
+    "5.5",
+    "5.9"
+  ],
+  "checked_raw_hashes": 111,
+  "source_pages": [
+    "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md",
+    "knowledge/sources/ayangeakaa-2019-rigid-triaxial-ge76.md",
+    "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+    "knowledge/sources/bohr-1952-surface-particle-coupling.md",
+    "knowledge/sources/bohr-mottelson-1953-collective-individual-original.md",
+    "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+    "knowledge/sources/book-jain-nuclear-isomers.md",
+    "knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+    "knowledge/sources/campaign-g07-gorgen-2004-163lu-quadrupole-moments.md",
+    "knowledge/sources/cline-1986-nuclear-shapes-coulomb-excitation.md",
+    "knowledge/sources/continuation-g17-chen-singh-2020-nds-98mo.md",
+    "knowledge/sources/continuation-g17-thomas-2016-96-98mo-coexistence.md",
+    "knowledge/sources/continuation-g18-lukasiak-1979-191ir-triaxial-rotor.md",
+    "knowledge/sources/ding-2025-chiral-rotation-a60-residual-interactions.md",
+    "knowledge/sources/doctoral-r1-g26-crider-2016-68ni-shape-coexistence.md",
+    "knowledge/sources/doctoral-r1-g26-starosta-2007-64ge-rdm-e2.md",
+    "knowledge/sources/doctoral-r1-g27-clement-2007-prc-krypton-coulex.md",
+    "knowledge/sources/doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution.md",
+    "knowledge/sources/doctoral-r1-g28-singh-2018-98zr-lifetimes.md",
+    "knowledge/sources/doctoral-r1-g28-togashi-2016-zr-mcsm-qpt.md",
+    "knowledge/sources/doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg.md",
+    "knowledge/sources/doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync.md",
+    "knowledge/sources/doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing.md",
+    "knowledge/sources/doctoral-r1-g37-bhat-2025-microscopic-wobbling-even-even.md",
+    "knowledge/sources/doctoral-r1-g37-oi-2001-wobbling-gamma-coupling.md",
+    "knowledge/sources/duguet-2015-non-observable-nuclear-shell-structure.md",
+    "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+    "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+    "knowledge/sources/frauendorf-meng-1997-tilted-rotation-chirality.md",
+    "knowledge/sources/heyde-wood-2011-shape-coexistence-review.md",
+    "knowledge/sources/hinohara-2015-nambu-goldstone-inertia-response.md",
+    "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+    "knowledge/sources/karmakar-2025-2026-98mo-octupole-preview.md",
+    "knowledge/sources/koike-2004-chiral-bands-selection-rules.md",
+    "knowledge/sources/kvasil-2006-dy156-yb162-crpa-wobbling.md",
+    "knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+    "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+    "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+    "knowledge/sources/matsuzaki-2004-nuclear-inertia-and-wobbling.md",
+    "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+    "knowledge/sources/meng-2010-open-problems-nuclear-chirality.md",
+    "knowledge/sources/nndc-130sn-adopted-2001-snapshot-20261113.md",
+    "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+    "knowledge/sources/odegard-2001-evidence-wobbling-163lu.md",
+    "knowledge/sources/paper-walker-dracoulis-1999-energy-traps.md",
+    "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+    "knowledge/sources/poves-2020-limits-assigning-nuclear-shape.md",
+    "knowledge/sources/prochniak-rohozinski-2009-bohr-collective-hamiltonian.md",
+    "knowledge/sources/rohozinski-2011-cphc-s-symmetry-chirality.md",
+    "knowledge/sources/saracino-2026-102ru-scissors-octupole-resonances.md",
+    "knowledge/sources/starosta-2001-n75-chiral-vibrations.md",
+    "knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md"
+  ],
+  "project_inputs_checked": 64,
+  "figure_files_checked": 18,
+  "issues": [],
+  "raw_checks": [
+    {
+      "section": "1.1",
+      "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+      "where": "/sources/0",
+      "sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f"
+    },
+    {
+      "section": "1.1",
+      "path": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "where": "/sources/1",
+      "sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e"
+    },
+    {
+      "section": "1.3",
+      "path": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-1952-mfm26-14.pdf",
+      "where": "/sources/0",
+      "sha256": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d"
+    },
+    {
+      "section": "1.3",
+      "path": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-mottelson-1953-mfm27-16.pdf",
+      "where": "/sources/1",
+      "sha256": "b0501e3e098869a7fb14527a3dc8c9b80444affdb265394a928e0794ae708945"
+    },
+    {
+      "section": "1.3",
+      "path": "raw/papers/gpt/query/20261108-r2-t05-response-definitions/aps-publication.pdf",
+      "where": "/sources/2",
+      "sha256": "764d644a2349235027e15c320d78f15fcd7d8fd264ebe6412fd2b80e1a625f86"
+    },
+    {
+      "section": "1.4",
+      "path": "raw/papers/gpt/query/20261108-foundations-G26/starosta-2007-64ge-rdm-e2.pdf",
+      "where": "/sources/0",
+      "sha256": "715a4c8ada9a6e4bcc2be1df8c845e680d81b6f0c4f91bf70931fe7b10592ad8"
+    },
+    {
+      "section": "1.4",
+      "path": "raw/papers/gpt/query/20261108-foundations-G27/clement-2007-74kr-76kr-coulex-prc.pdf",
+      "where": "/sources/1",
+      "sha256": "2ee6c7be8a2fbb72a9f647a0c284181b2fc197e167381be67685f3a15018c0e8"
+    },
+    {
+      "section": "1.4",
+      "path": "raw/papers/gpt/query/20261108-foundations-G28/singh-2018-98zr-coexisting-shapes.pdf",
+      "where": "/sources/2",
+      "sha256": "37f2d5ee16f799feb66617787d45d25c4f3e0cb4f0f996689a0576811c5a05e3"
+    },
+    {
+      "section": "1.4",
+      "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf",
+      "where": "/sources/3",
+      "sha256": "3c5a3d7c543140ee25f7cb09376d5aeee760c8ac50c76edd466a010d610c2d0f"
+    },
+    {
+      "section": "1.4",
+      "path": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "where": "/sources/4",
+      "sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e"
+    },
+    {
+      "section": "1.4",
+      "path": "raw/papers/gpt/query/20261108-foundations-G31/Bree-2014-PRL-112-162701.pdf",
+      "where": "/sources/5",
+      "sha256": "c80dd7dc376378fad490adba41dd626fa7963dd334a43e18ec2a47307d1f913b"
+    },
+    {
+      "section": "2.1",
+      "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "where": "/sources/0",
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c"
+    },
+    {
+      "section": "2.1",
+      "path": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "where": "/sources/1",
+      "sha256": "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113"
+    },
+    {
+      "section": "2.2",
+      "path": "raw/papers/gpt/query/20261108-foundations-otsuka-article/otsuka-2022-physics-emerging-concepts-publisher.pdf",
+      "where": "/sources/0",
+      "sha256": "83ddfab8989cdb0a23be1d5ca3e9f689c7e8d728823d0b7c6a21c5aecd3ca0c7"
+    },
+    {
+      "section": "2.2",
+      "path": "raw/papers/gpt/query/20261108-foundations-G28/togashi-2016-zr-qpt.pdf",
+      "where": "/sources/1",
+      "sha256": "f43431ebad67addfbefb521eed14c43f152fe5221ccc0d995d69a3d5aaa7b3e9"
+    },
+    {
+      "section": "2.3",
+      "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "where": "/sources/0",
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c"
+    },
+    {
+      "section": "2.3",
+      "path": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+      "where": "/sources/1",
+      "sha256": "994816561cfb6e89bd215b7fe23e37ecf12e8a3e8f5ce88eafbbd388d02ed74a"
+    },
+    {
+      "section": "2.3",
+      "path": "raw/papers/gpt/query/20261108-r2-t05-response-definitions/aps-publication.pdf",
+      "where": "/sources/2",
+      "sha256": "764d644a2349235027e15c320d78f15fcd7d8fd264ebe6412fd2b80e1a625f86"
+    },
+    {
+      "section": "2.4",
+      "path": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-1952-mfm26-14.pdf",
+      "where": "/sources/0",
+      "sha256": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d"
+    },
+    {
+      "section": "2.4",
+      "path": "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/prochniak-rohozinski-2009-v1.pdf",
+      "where": "/sources/1",
+      "sha256": "4d7e6d3942230023061efd0032b3d1f9231e5d6f230219329ef984c458bb689b"
+    },
+    {
+      "section": "2.5",
+      "path": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-1952-mfm26-14.pdf",
+      "where": "/source_inputs/0",
+      "sha256": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d"
+    },
+    {
+      "section": "2.5",
+      "path": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-mottelson-1953-mfm27-16.pdf",
+      "where": "/source_inputs/1",
+      "sha256": "b0501e3e098869a7fb14527a3dc8c9b80444affdb265394a928e0794ae708945"
+    },
+    {
+      "section": "2.5",
+      "path": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "where": "/source_inputs/2",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a"
+    },
+    {
+      "section": "2.5",
+      "path": "raw/books/nuclear structure with coherent states_Raduta.pdf",
+      "where": "/source_inputs/3",
+      "sha256": "98b057e53e323b0f4781060ad5ae4a8c045ac36b32c0650033953360d951aca3"
+    },
+    {
+      "section": "2.5",
+      "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "where": "/source_inputs/4",
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c"
+    },
+    {
+      "section": "2.7",
+      "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "where": "/source_inputs/1",
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c"
+    },
+    {
+      "section": "2.7",
+      "path": "raw/books/nuclear structure Ⅰ_Bohr, Mottelson.pdf",
+      "where": "/source_inputs/2",
+      "sha256": "a31a158e0aff2ec6734d46f5aea5eb42dbebb82280835774f49350dd6f8c79df"
+    },
+    {
+      "section": "2.7",
+      "path": "raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf",
+      "where": "/source_inputs/3",
+      "sha256": "1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1"
+    },
+    {
+      "section": "2.7",
+      "path": "raw/papers/gpt/query/20261113-A130-axial-currents/gysbers-2019-arxiv1903.00047v1.pdf",
+      "where": "/source_inputs/4",
+      "sha256": "f11beb0975ed129c8bbd2addcf1485fb25fa248ec375cb804001a17a96e2e25e"
+    },
+    {
+      "section": "2.7",
+      "path": "raw/papers/gpt/query/20261113-A130-axial-currents/wang-2026-arxiv2605.21218v1.pdf",
+      "where": "/source_inputs/5",
+      "sha256": "64b8098517bdf4754ff71d80ab4256aab77102aaa9257390f99db1b3788c0c8d"
+    },
+    {
+      "section": "2.7",
+      "path": "raw/papers/gpt/query/20261108-foundations-G34/Zhi_2013_PRC_87_025803_SM_halflives_first_forbidden.pdf",
+      "where": "/source_inputs/6",
+      "sha256": "eaedbd4539854e3d1f0e7860ef7ab9c647d4fa44cd8144b4989ba220ec639333"
+    },
+    {
+      "section": "2.7",
+      "path": "raw/papers/gpt/query/20261108-r3-g48-weak-operators/engel-menendez-2017-rpp-0nubb-nme.pdf",
+      "where": "/source_inputs/7",
+      "sha256": "813111c10bab58d8d0f19ca91833383a8a521a33c0434b276eacd4fead195417"
+    },
+    {
+      "section": "2.8",
+      "path": "raw/papers/2022_Lv et al_Evidence against the wobbling nature of low-spin bands in 135Pr.pdf",
+      "where": "/sources/0",
+      "sha256": "4b87c540bf9da5141fa88ef8f00859162cb08918d56a5da74726c7537df5e26b"
+    },
+    {
+      "section": "2.8",
+      "path": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/poves-2020-limits-assigning-nuclear-shape.pdf",
+      "where": "/sources/1",
+      "sha256": "ca188d5b2ac257edb8f616b2a055d2bd488f29d5d136baf540753ea049edf21a"
+    },
+    {
+      "section": "2.8",
+      "path": "raw/papers/gpt/query/20261108-foundations-otsuka-article/otsuka-2022-physics-emerging-concepts-publisher.pdf",
+      "where": "/sources/2",
+      "sha256": "83ddfab8989cdb0a23be1d5ca3e9f689c7e8d728823d0b7c6a21c5aecd3ca0c7"
+    },
+    {
+      "section": "2.8",
+      "path": "raw/papers/gpt/query/20261108-foundations-G28/togashi-2016-zr-qpt.pdf",
+      "where": "/sources/3",
+      "sha256": "f43431ebad67addfbefb521eed14c43f152fe5221ccc0d995d69a3d5aaa7b3e9"
+    },
+    {
+      "section": "2.8",
+      "path": "raw/papers/2022_Nomura et al_Questioning the wobbling interpretation of low-spin bands in γ -soft nuclei within the interacting b.pdf",
+      "where": "/sources/4",
+      "sha256": "e61e3dd6fe5e67fb55543f3a136c7cce0fda98ad01f112d81d5eef70b613465f"
+    },
+    {
+      "section": "2.8",
+      "path": "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/manifest.json",
+      "where": "/sources/5",
+      "sha256": "9afdb6573cb302fb18ae0eb3914d0c51afbbbdf5b9984f0400bf784e40b5ca63"
+    },
+    {
+      "section": "2.8",
+      "path": "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/prochniak-rohozinski-2009-v1.pdf",
+      "where": "/sources/5",
+      "sha256": "4d7e6d3942230023061efd0032b3d1f9231e5d6f230219329ef984c458bb689b"
+    },
+    {
+      "section": "2.8",
+      "path": "raw/papers/2001_Frauendorf_Spontaneous symmetry breaking in rotating nuclei.pdf",
+      "where": "/sources/6",
+      "sha256": "d43c7290cf5899ebc9b94324af5e95eb40e488bacf1c70c89e0b3bd61d916172"
+    },
+    {
+      "section": "2.8",
+      "path": "raw/papers/2014_Frauendorf_Dönau_Transverse wobbling.pdf",
+      "where": "/sources/7",
+      "sha256": "36794ee1308adc1b34206ccdbf62353d6e79b3b485979e78709fd31efe5f57e3"
+    },
+    {
+      "section": "2.8",
+      "path": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "where": "/sources/8",
+      "sha256": "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113"
+    },
+    {
+      "section": "2.8",
+      "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf",
+      "where": "/sources/9",
+      "sha256": "660c376e493e638501bfc8596d4eda46f490becb811ba5f30259d6f78c652183"
+    },
+    {
+      "section": "3.1",
+      "path": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "where": "/source_inputs/0",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a"
+    },
+    {
+      "section": "3.1",
+      "path": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-1952-mfm26-14.pdf",
+      "where": "/source_inputs/1",
+      "sha256": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d"
+    },
+    {
+      "section": "3.1",
+      "path": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "where": "/source_inputs/2",
+      "sha256": "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113"
+    },
+    {
+      "section": "3.2",
+      "path": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "where": "/source_inputs/0",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a"
+    },
+    {
+      "section": "3.2",
+      "path": "raw/papers/gpt/query/20261113-A130-precession-limits/shimizu-matsuzaki-matsuyanagi-2005-nucl-th-0412074v2.pdf",
+      "where": "/source_inputs/1",
+      "sha256": "6566edd91dc5765a21241ac553f599faf0037d1cadf4113edbe1d969645e97c7"
+    },
+    {
+      "section": "3.2",
+      "path": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-1952-mfm26-14.pdf",
+      "where": "/source_inputs/2",
+      "sha256": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d"
+    },
+    {
+      "section": "3.2",
+      "path": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-mottelson-1953-mfm27-16.pdf",
+      "where": "/source_inputs/3",
+      "sha256": "b0501e3e098869a7fb14527a3dc8c9b80444affdb265394a928e0794ae708945"
+    },
+    {
+      "section": "3.2",
+      "path": "raw/books/nuclear structure with coherent states_Raduta.pdf",
+      "where": "/source_inputs/4",
+      "sha256": "98b057e53e323b0f4781060ad5ae4a8c045ac36b32c0650033953360d951aca3"
+    },
+    {
+      "section": "3.3",
+      "path": "raw/papers/2014_Frauendorf_Dönau_Transverse wobbling.pdf",
+      "where": "/sources/0",
+      "sha256": "36794ee1308adc1b34206ccdbf62353d6e79b3b485979e78709fd31efe5f57e3"
+    },
+    {
+      "section": "3.3",
+      "path": "raw/papers/2001_Ødegård et al_Evidence for the Wobbling Mode in Nuclei.pdf",
+      "where": "/sources/1",
+      "sha256": "0ff38adfcbe031fb21c43b3bba290ca44a21898564bb78cf335fbb47b05ba379"
+    },
+    {
+      "section": "3.3",
+      "path": "raw/papers/2002_Jensen et al_Evidence for Second-Phonon Nuclear Wobbling.pdf",
+      "where": "/sources/2",
+      "sha256": "c6fd99c17c09763f742cbe36443f7039f21b3e28a5caa548748bdf0718630a8a"
+    },
+    {
+      "section": "3.3",
+      "path": "raw/papers/2015_Matta et al_Transverse Wobbling in Pr 135.pdf",
+      "where": "/sources/3",
+      "sha256": "8db644705dccfd58016753b759d19314a65284c48efc1758f95f1b3ce23551d6"
+    },
+    {
+      "section": "3.3",
+      "path": "raw/papers/2019_Biswas et al_Longitudinal wobbling in 133La.pdf",
+      "where": "/sources/4",
+      "sha256": "579ecff6daa4cd8505c25966d15b998037930770e45382ccba90bae809707e03"
+    },
+    {
+      "section": "3.3",
+      "path": "raw/papers/2020_Lawrie et al_Tilted precession and wobbling in triaxial nuclei.pdf",
+      "where": "/sources/5",
+      "sha256": "777f935b0266fed8a9d9f2e1cc1f72995c84dd83e27ca1f5377ab2785b2ec405"
+    },
+    {
+      "section": "3.3",
+      "path": "raw/papers/2022_Lv et al_Evidence against the wobbling nature of low-spin bands in 135Pr.pdf",
+      "where": "/sources/6",
+      "sha256": "4b87c540bf9da5141fa88ef8f00859162cb08918d56a5da74726c7537df5e26b"
+    },
+    {
+      "section": "3.3",
+      "path": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/matsuzaki-2004-nuclear-moments-of-inertia-prc69-034306.pdf",
+      "where": "/sources/7",
+      "sha256": "9ea9fb2c8b9e73b0352a219ace7efc6182d6b5471b38d32cb96bc539e4aa6bf7"
+    },
+    {
+      "section": "3.5",
+      "path": "raw/theses/degree-dissertation/刘晨_奇奇核~(78)Br中手征...间反射对称性的联立自发破缺.pdf",
+      "where": "/source_inputs/0",
+      "sha256": "5e00370aab205b689841cb58d65c7fad8829e3de74f084736a74f2d8658ab291"
+    },
+    {
+      "section": "3.5",
+      "path": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "where": "/source_inputs/1",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a"
+    },
+    {
+      "section": "3.5",
+      "path": "raw/papers/1997_Frauendorf et al_Tilted rotation of triaxial nuclei.pdf",
+      "where": "/source_inputs/2",
+      "sha256": "9dc81b3147a786189dd0c2f31d79a56e9bb5d83e16fd0c8137bccaf2a43d81e2"
+    },
+    {
+      "section": "3.5",
+      "path": "raw/papers/2001_Frauendorf_Spontaneous symmetry breaking in rotating nuclei.pdf",
+      "where": "/source_inputs/3",
+      "sha256": "d43c7290cf5899ebc9b94324af5e95eb40e488bacf1c70c89e0b3bd61d916172"
+    },
+    {
+      "section": "3.5",
+      "path": "raw/papers/2001_Starosta et al_Chiral Doublet Structures in Odd-Odd N = 75 Isotones Chiral Vibrations.pdf",
+      "where": "/source_inputs/4",
+      "sha256": "9082c1e8ced3fbfeb2248f5b18c1b646f4dc1adc77af5c27c6a988855583cbf4"
+    },
+    {
+      "section": "3.5",
+      "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+      "where": "/source_inputs/5",
+      "sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f"
+    },
+    {
+      "section": "3.5",
+      "path": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/koike-2004-selection-rules.pdf",
+      "where": "/source_inputs/6",
+      "sha256": "f39816a5d2f3f3ec45098fc636371ee3e8e4dc721b0ced33e7c87b453b7f155e"
+    },
+    {
+      "section": "3.5",
+      "path": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/rohozinski-2011-cphc-s-symmetry.pdf",
+      "where": "/source_inputs/7",
+      "sha256": "94b2b3bc89c1d942f07f7c512c5aecc38c3cc08bbf48dac507ad373ace64b8c9"
+    },
+    {
+      "section": "3.5",
+      "path": "raw/papers/2010_Meng et al_Open problems in understanding the nuclear chirality.pdf",
+      "where": "/source_inputs/8",
+      "sha256": "bc78014db4585e07b81b70192a054d2b7323584a9cc2b5552c2153175db4c5c2"
+    },
+    {
+      "section": "3.5",
+      "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf",
+      "where": "/source_inputs/9",
+      "sha256": "3c5a3d7c543140ee25f7cb09376d5aeee760c8ac50c76edd466a010d610c2d0f"
+    },
+    {
+      "section": "3.6",
+      "path": "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/manifest.json",
+      "where": "/sources/0",
+      "sha256": "9afdb6573cb302fb18ae0eb3914d0c51afbbbdf5b9984f0400bf784e40b5ca63"
+    },
+    {
+      "section": "3.6",
+      "path": "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/prochniak-rohozinski-2009-v1.pdf",
+      "where": "/sources/0",
+      "sha256": "4d7e6d3942230023061efd0032b3d1f9231e5d6f230219329ef984c458bb689b"
+    },
+    {
+      "section": "3.6",
+      "path": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/matsuzaki-2004-nuclear-moments-of-inertia-prc69-034306.pdf",
+      "where": "/sources/1",
+      "sha256": "9ea9fb2c8b9e73b0352a219ace7efc6182d6b5471b38d32cb96bc539e4aa6bf7"
+    },
+    {
+      "section": "3.6",
+      "path": "raw/papers/gpt/query/20261108-r3-g45-quantum-labels/kvasil-nazmitdinov-2006-wobbling-dy156-yb162.pdf",
+      "where": "/sources/2",
+      "sha256": "dee4d852c401c5d522b10655d26a477925f9e8da7b06c09190e66243f3fa2405"
+    },
+    {
+      "section": "3.6",
+      "path": "raw/papers/gpt/query/20261108-foundations-G37/oi-2001-wobbling-gamma-coupling-nucl-th-0107051.pdf",
+      "where": "/sources/3",
+      "sha256": "fb12d13ffbd5af43b2519f4ee9605c47e6ecf8578837ca46e80095f410db9214"
+    },
+    {
+      "section": "3.6",
+      "path": "raw/papers/gpt/query/20261108-foundations-G37/bhat-2025-microscopic-wobbling-even-even-arxiv-2503-09204.pdf",
+      "where": "/sources/4",
+      "sha256": "128364b1a10add81dfcfcb1daa0e631778b3cbfb5c53bd4c9b45385fe019bc79"
+    },
+    {
+      "section": "4.1",
+      "path": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/poves-2020-limits-assigning-nuclear-shape.pdf",
+      "where": "/sources/0",
+      "sha256": "ca188d5b2ac257edb8f616b2a055d2bd488f29d5d136baf540753ea049edf21a"
+    },
+    {
+      "section": "4.1",
+      "path": "raw/papers/gpt/query/20261108-foundations-otsuka-article/otsuka-2022-physics-emerging-concepts-publisher.pdf",
+      "where": "/sources/1",
+      "sha256": "83ddfab8989cdb0a23be1d5ca3e9f689c7e8d728823d0b7c6a21c5aecd3ca0c7"
+    },
+    {
+      "section": "4.1",
+      "path": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "where": "/sources/2",
+      "sha256": "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113"
+    },
+    {
+      "section": "4.1",
+      "path": "raw/papers/gpt/query/20261108-a130-espe-primary/duguet-2015-non-observable-shell-structure.pdf",
+      "where": "/sources/3",
+      "sha256": "0b4547204e0f735f89361727551d86852fd65bbb769915598b2e1610f9184a67"
+    },
+    {
+      "section": "4.2",
+      "path": "raw/papers/gpt/query/20261108-foundations-G26/crider-2016-68ni-shape-coexistence.pdf",
+      "where": "/sources/0",
+      "sha256": "923ce537b505cecd49cdf75901bdd1be76896da0326ce29e8b049f10143d4b28"
+    },
+    {
+      "section": "4.2",
+      "path": "raw/papers/gpt/query/20261108-foundations-G26/starosta-2007-64ge-rdm-e2.pdf",
+      "where": "/sources/1",
+      "sha256": "715a4c8ada9a6e4bcc2be1df8c845e680d81b6f0c4f91bf70931fe7b10592ad8"
+    },
+    {
+      "section": "4.2",
+      "path": "raw/papers/gpt/query/20261108-foundations-G27/clement-2007-74kr-76kr-coulex-prc.pdf",
+      "where": "/sources/2",
+      "sha256": "2ee6c7be8a2fbb72a9f647a0c284181b2fc197e167381be67685f3a15018c0e8"
+    },
+    {
+      "section": "4.2",
+      "path": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/ayangeakaa-2019-rigid-triaxial-ge76.pdf",
+      "where": "/sources/3",
+      "sha256": "fd549c59e62774b43690a8ae3b5c4bf638982f6c9b888dd0f0aba83b3993b733"
+    },
+    {
+      "section": "4.2",
+      "path": "raw/papers/Exploring chiral rotation in A ≈ 60 nuclei  Role of residual interactions.pdf",
+      "where": "/sources/4",
+      "sha256": "5264bd9192b988021d2ee21f2861bce80f2f7ac04ba26f04ea3f0e8125be599e"
+    },
+    {
+      "section": "4.3",
+      "path": "raw/papers/gpt/query/20261108-foundations-G28/singh-2018-98zr-coexisting-shapes.pdf",
+      "where": "/sources/0",
+      "sha256": "37f2d5ee16f799feb66617787d45d25c4f3e0cb4f0f996689a0576811c5a05e3"
+    },
+    {
+      "section": "4.3",
+      "path": "raw/papers/gpt/query/20261107-continuation-G17/nds-2020-chen-singh-98mo-adopted.pdf",
+      "where": "/sources/1",
+      "sha256": "f98dc0ebd7a111083492fd25710268093d37c40bc45b33b1507704428d8c9bf6"
+    },
+    {
+      "section": "4.3",
+      "path": "raw/papers/gpt/query/20261107-continuation-G17/thomas-2016-96-98mo-coexistence.xml",
+      "where": "/sources/2",
+      "sha256": "f948e4ffd6292f3b4c807d2ae90ab410c0b4502dab73e35027cc55335a144a0d"
+    },
+    {
+      "section": "4.3",
+      "path": "raw/papers/⁹⁸Mo A possible candidate for octupole collectivity in A ≈ 100 region.pdf",
+      "where": "/sources/3",
+      "sha256": "958364569a5a07aa7dee2fc8d44a150b1fa876b9cb5a8e3636bb6a4a84f970b1"
+    },
+    {
+      "section": "4.3",
+      "path": "raw/papers/Low-Energy Dipole Strength Distribution in ¹⁰²Ru Coexistence of Scissors and Octupole Resonances.pdf",
+      "where": "/sources/4",
+      "sha256": "4bc6bb6c613b121bae9def9d9bedf37e9c02db89eca265c4c16d5dd9ecf43a89"
+    },
+    {
+      "section": "4.6",
+      "path": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+      "where": "/sources/0",
+      "sha256": "994816561cfb6e89bd215b7fe23e37ecf12e8a3e8f5ce88eafbbd388d02ed74a"
+    },
+    {
+      "section": "4.6",
+      "path": "raw/papers/isomer/isomer_review/1999_Walker_Dracoulis_Energy traps in atomic nuclei.pdf",
+      "where": "/sources/1",
+      "sha256": "7eab17aa439b2e8c78aa0566626fa8725113eb95e6a2170eb296cdc09b8f6441"
+    },
+    {
+      "section": "4.6",
+      "path": "raw/papers/gpt/query/20261107-continuation-G18/lukasiak1979-191ir-triaxial-rotor-fulltext.xml",
+      "where": "/sources/2",
+      "sha256": "d463a5c5d4a94fbf296b86f1ee29c692cd730066352ecca45e9d26fd93c77063"
+    },
+    {
+      "section": "4.6",
+      "path": "raw/papers/gpt/query/20261113-A130-seniority-check/nudat3-130sn-adopted.html",
+      "where": "/sources/3",
+      "sha256": "5ebd6fc678cdd6af703981f7e3fba424fb5bb5ae3f2fad6a6efacc4c9404932c"
+    },
+    {
+      "section": "5.1",
+      "path": "raw/books/Introduction to Nuclear Reactions (C.A. Bertulani P. Danielewicz) (Z-Library).pdf",
+      "where": "/sources/0",
+      "sha256": "ad1391abd781e2277433283b6635679cfc45efc9d9d5472d4aabcd172509cb71"
+    },
+    {
+      "section": "5.1",
+      "path": "raw/books/重离子核反应 (林承键) (Z-Library).pdf",
+      "where": "/sources/1",
+      "sha256": "792bfe7f7807623b7e1439b32eddb7320ab3ec6bf6be7e3894b436c1c9f65b2e"
+    },
+    {
+      "section": "5.1",
+      "path": "raw/papers/1966_Diamond et al_Nuclear Alignment in Heavy-Ion Reactions.pdf",
+      "where": "/sources/2",
+      "sha256": "06fb82ecebc0f1da5441caa5fb9272d481f469b1b39f402342ad31c8e55c8614"
+    },
+    {
+      "section": "5.3",
+      "path": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+      "where": "/sources/0",
+      "sha256": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b"
+    },
+    {
+      "section": "5.3",
+      "path": "raw/theses/degree-dissertation/基于数字化的通用获取系统及波形分析算法.pdf",
+      "where": "/sources/1",
+      "sha256": "c1a2bd226faf52cef144d00463414906c9e44c779075fde57d66f5161a697820"
+    },
+    {
+      "section": "5.4",
+      "path": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+      "where": "/sources/0",
+      "sha256": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b"
+    },
+    {
+      "section": "5.4",
+      "path": "raw/papers/gpt/query/20261108-foundations-G32/lipschutz-2016-lenda-ddas-timing.pdf",
+      "where": "/sources/1",
+      "sha256": "466c421c59f5c964b14de545f315c74c1d614a60b78192eb72efe427f75740cc"
+    },
+    {
+      "section": "5.4",
+      "path": "raw/papers/gpt/query/20261108-foundations-G32/hennig-2007-pixie16-clock-trigger-sync.pdf",
+      "where": "/sources/2",
+      "sha256": "e077cdcfd462610a80467024aac3446a562e2e4eaffbc813578a0b9bb86e0449"
+    },
+    {
+      "section": "5.4",
+      "path": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+      "where": "/source_locators/0",
+      "sha256": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b"
+    },
+    {
+      "section": "5.4",
+      "path": "raw/papers/gpt/query/20261108-foundations-G32/lipschutz-2016-lenda-ddas-timing.pdf",
+      "where": "/source_locators/1",
+      "sha256": "466c421c59f5c964b14de545f315c74c1d614a60b78192eb72efe427f75740cc"
+    },
+    {
+      "section": "5.4",
+      "path": "raw/papers/gpt/query/20261108-foundations-G32/hennig-2007-pixie16-clock-trigger-sync.pdf",
+      "where": "/source_locators/2",
+      "sha256": "e077cdcfd462610a80467024aac3446a562e2e4eaffbc813578a0b9bb86e0449"
+    },
+    {
+      "section": "5.5",
+      "path": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+      "where": "/sources/0",
+      "sha256": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b"
+    },
+    {
+      "section": "5.5",
+      "path": "raw/papers/gpt/query/20261113-A130-live-time/wolff-1982-poisson-arrivals-see-time-averages.pdf",
+      "where": "/sources/1",
+      "sha256": "42b994436fed08d86ddcc7dd7773dec34c0058ca505d9e0f65f92c5ec7b4e9f2"
+    },
+    {
+      "section": "5.9",
+      "path": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "where": "/sources/0",
+      "sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e"
+    },
+    {
+      "section": "5.9",
+      "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+      "where": "/sources/1",
+      "sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb"
+    },
+    {
+      "section": "5.9",
+      "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "where": "/sources/2",
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c"
+    },
+    {
+      "section": "appendix-B",
+      "path": "raw/books/nuclear structure with coherent states_Raduta.pdf",
+      "where": "/source_inputs/0",
+      "sha256": "98b057e53e323b0f4781060ad5ae4a8c045ac36b32c0650033953360d951aca3"
+    },
+    {
+      "section": "appendix-B",
+      "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "where": "/source_inputs/1",
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c"
+    }
+  ],
+  "boundary": "Checks byte identities and output reconciliation; scientific acceptance is documented separately. Optional style inputs are a declared collection, not a TeX read log."
+}

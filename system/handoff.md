@@ -3,9 +3,48 @@ graph-excluded: true
 updated: 2026-11-13
 ---
 
+## 2026-11-13 — A130：27节／220页检查点，原39节goal继续
+
+- canonical LaTeX入口为`raw/writing/gpt/A130/these_2023_template/these_template/Thesis.tex`，PDF同目录。纳入1.1–1.5、2.1–2.8、3.1/3.2/3.3/3.5/3.6、4.1/4.2/4.3/4.6、5.1/5.3/5.4/5.5/5.9及已交付附B/C/F范围。`checkpoint27/build_report.json`为CLEAN_PASS：220页，fatal/cite/ref/glyph/overfull/Bib问题0，13条非致命underfull。尚非全文完成或学校送审稿。
+- 最终工程对账：64项冻结工程输入集合（不声称可选样式全被TeX读取）、9组SVG/PDF及producer实际SHA一致；27节与B/F台账111个原件哈希核对0问题。2.8旧三处SHA和q3归一错误已修；不要沿用旧错误报告。相应回执在`outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/checkpoint27/`。
+- 本批稳定发布指针：`main / thesis: expand audited A130 foundations to 27 sections`；实际commit/push和精确hash只回本批`publication-final-receipt.local.json`，不得把未验章节混入此检查点。知识增量含FA曲率/稳定域、形状—取向耦合、seniority允许占据与K选择、多极M1单位、最终级联和DDCM门条件。
+- 活跃主写均Gemini Tiered/high：G79=`01a1d274-e82c-7bc0-af59-22fac97251d4`，5.2/5.6/5.7/5.8/5.10/E及后续4.7(T16)/3.8/A/D；G88=`01a1d461-d238-71e0-a12b-5a201d70f6bd`，3.7后返修3.4；G89=`01a1d469-e510-7fe3-9c8b-005d2362e820`，4.8；G90=`01a1d4a1-c1d0-76d1-9ea4-f16c26f8873c`，4.4后4.5。最新一写者清单见`outputs/plans/20261113-A130-remaining-sections.json`的current_ownership及G79 recovery queue；旧失败worker分配为历史。父独占Bib/wrappers/build/global figure manifest/index/Git；共享锁是protocol-only。
+- T17 Terra/xhigh已独立核runtime、父重放有理数控制并接受窄审后关闭。3.4仍待Gemini修有量纲R多乘hbar²、轴对称形状R3约束的范围、K单位及有限K进动差；一般一维反射奇态中心节点不限谐振子（父原合同过窄已纠正），角反射/空间宇称/signature不可混同。T17结果不是模型验证。3.4、4.8均未纳入220页预览。
+- WIP恢复包仅保存未验输入，不能当科学来源或自动覆盖canonical：`wip-revision-inputs-20261113T105251Z.tar.gz`(51项)及`wip-code-contracts-20261113T110512Z.tar.gz`(16项)，均在精确A130目录，manifest及逐成员SHA回checkpoint27/wip-recovery-snapshot.json。上游故障详情只留provider-incident.local.json；不得恢复旧线程后假定仍为Gemini。
+- 原生goal继续推进全部39节及必要附录，不能以本检查点标complete。保护用户system/memory.md、旧Nov8归档manifest删除、PADO、不同大小写手稿、PLAN、Zotero inbox和daily课程/daemon。旧34项仅17项源/PDF可按Git历史SHA恢复，另17编译中间物不称已恢复，不撤销用户删除。全库历史/WIP lint错误单独报告，不冒称全库绿。
+
 ## 2026-11-13 — A130改用LaTeX，Gemini主体执行
 
-### 最新执行点：15节 LaTeX 检查点通过，继续完整39节目标
+### 当前最新点：24节内容已核，35节有草稿，24节隔离快照正在排版
+
+- 完整39节与必要附录goal仍active。已接受内容：1.1–1.5、2.1–2.8、3.1/3.2/3.5、4.1–4.3、5.1/5.3/5.4/5.5/5.9，共24节；附B/C已交付范围及F元数据内容已核。页面数/文件存在/worker自称certified不代替实际证据核查。
+- 已发布的仍是15节128页检查点，`main / thesis: establish A130 LaTeX manuscript and audited figures`。G76正在`tmp/a130-release-24-20261113/project`制作只含24节、B/C/F及7组已验图的快照；未来草稿留在活动目录，不移动/删除。快照第一次编译194页、59输入，0fatal/0missing cite，但1missing ref、1glyph、148overfull仍须解决；当前`checkpoint24/build_report.json`不是最终通过报告，不能先报发布或全稿完成。
+- G76独占公共Bib、wrapper、已接收节纯引用/排版、构建脚本与release24快照。输入扫描已获授权修正“绝对路径含tmp就全跳过”的缺陷；按相对目录组件过滤。最终应核每个快照输入与主工程同名release候选哈希，而非把刻意排除的活稿当hash不一致。父负责显式暂存/commit/push，各writer不编译/不提交。
+- T15 Terra/xhigh已完成并父独立看原书PDF134印119核验：Suhonen电荷型`M_S=M_mu/c`，物理`B_S=B_mu/c²`，但按各自命名单位归一的数值相同。旧5.9裸乘/除数值c²段错误已由G76整合替换；δ分母区分M_S、toy的M1单位改μN²，数值不变。新单位note由G76写，待父索引/核最终差异。T15已关闭，不能把此科学改动叫纯排版。
+- 2.8局部raw cubic曾与全稿q3同名；G76获授权统一到2.1/2.4的归一几何q3，`R=q3/q2^(3/2)`，不要再额乘系数。4.1的P2/P3也已由父与此对齐。
+- 4.1–4.3的原G86 canonical ledger曾保留全部旧错数和假定位，父已重建actual-source/claim台账，最终回执`G86/parent-final-reconciliation.json`，旧worker报告明确superseded，`rejected-ledger-history/`不是事实源。父直接核StarostaPDF3、CriderPDF2/4、ClémentPDF11/15、Ge76PDF5/6、NDS2、Mo98完整NPA表及Ru102PDF3/5/6。Crider的0₁/0₂/0₃模型标签是球/扁/长，E0上限不可与强度混；Ge64理论Qs不能写实测；Thomas完整XML `tl0020`的52.6线是NDS采用且该次未见。不要用旧staging覆盖父最后修订。
+- 3.1与5.1父只作最后小幅概念/量纲补丁，均已接收并同步claims：3.1方差/闭合与绝热条件、K0不独选偶I、转动函数示意的规范化；5.1用`Ibeam*n_t*sigma_pop*b_gamma*A_joint`避免singles无条件乘Live12、Wong的capture/CN/ER分层、L与ell单位、feeding卷积为退激pdf。actualSHA各见parent-acceptance文件。
+- 当前执行者全部Gemini Tiered/high：G76=`01a1d273-c747-7e72-a5af-01dbde04f26c`；G79=`01a1d274-e82c-7bc0-af59-22fac97251d4`；G81=`01a1d276-2d5c-7122-9a62-14cafff0adca`；G84=`01a1d2f0-bb5c-7a81-a39c-b1f41b3dc09a`；G85=`01a1d2f1-040b-7521-bb9a-44881cd9a381`；新G87=`01a1d360-6c91-77f3-b41d-bea039a3bc00`（runtime实核high）。G86已关闭；后续不要resume关闭代理并假定保留Gemini。
+- 为充分推进，来源独立的下一单节已获顺序写作授权，不必等父审排版才写：G81为3.3→3.4→3.7；G85为3.8、回修3.6→4.5；G84为4.7及回修4.6；G79为5.2→5.6→5.7→5.8→5.10（详细JSON合同在`G79/queue/`）；G87为回修4.8→4.4。所有章节仍一文件一写者、每单节独立ledger/receipt；父反馈只定点修，不把未验新结论传播到后节。附A/D/E尚未下canonical写作合同，只可准备来源/合同。
+- 35节已有文件，当前尚缺3.7、4.5、5.8、5.10；此为文件快照，不是验收数。3.6/4.6/4.8初稿已退修，V1回来待父核：3.6的质量加权频率、二态复相位/atan2、B初态统计权、NG条件与动态横向响应、Oi2001只TAC-HFB+另设1D示意而非完整GCM/EM；4.6的v与BCS qp区分、允许n奇偶/半满节点、真实Sn态、Kmix两端和fν仅定义；4.8的开放网络/微观详细平衡、核钟来源与半衰期/平均寿命、NEEC不同设置、冷/热反应模型不能绝对化。
+- 新130Sn核查原件是`raw/papers/gpt/query/20261113-A130-seniority-check/nudat3-130sn-adopted.html`，2001评价、cutoff11-May-2001，不能用2026获取日期叫最新评价。实际(10+)2434.79keV/1.61(15)μs、96.54keV E2到(8+)2338.26，查明4.6原8+/400keV/.05W.u.混态；G84正按此修source/正文。`n=10,Ω=6,v=2`因子−1，不是半满节点；n=v,v+2…条件使j9/2的even-v家族不能取n=Ω=5。新source由G84登记，原件已下载不要覆盖。
+- 核心新知识：[[a130-rewrite-cross-region-comparison-and-e0-constraints-20261113]]、轴流note的归因路径/分辨率与WangTableI分母/零RPA基线、joint-live的参考测度与PASTA充分条件。父已修两轴流source的Python控制字符。后续全域机械检查须查C0与stale正向claims，不只看SHA/美元数。
+- 保护用户memory修改、旧Nov8归档manifest删除、PADO、PLAN及其它大小写稿件；本任务不是daily-learning，无15:00硬截止。精确提交hash只进local receipt。下一恢复先读`continuation-progress.json`、24节release报告和各新parent-return，再推进全部39节/附录，不能停在24节或误标完整goal达成。
+
+以下保留此前恢复点的历史记录；执行状态以上述最新点为准。
+
+### 当前续写点：128页检查点已发布，新增内容逐节返修
+
+- 原生五章39节goal仍active。已发布检查点为15节、128页、176个显式文件，稳定指针`main / thesis: establish A130 LaTeX manuscript and audited figures`；fetch、祖先检查、dry-run和非force push均通过，post-commit核对文件集、用户保护哈希及origin一致。
+- 新增3.2经父实际回读已接受，内容接受总数16；回执`G81/section-3-2-parent-acceptance.json`。G81现写3.1。未引用的新rotor图不在接受范围。5.5核心推导已核，最后统一`f_busy`与参考采样测度、瞬发共同门例后可接收；G79随后写5.1。
+- G84的2.7仍在最后返修：保留已核Ikeda/幺正教学推导，修Hamiltonian/EDF方法身份，去无依据的GT强度百分数、0ν弱流机制主次和有效电荷单调断言。现代原作Gysbers2019 v1、Wang2026 v1已实际下载到`raw/papers/gpt/query/20261113-A130-axial-currents/`，manifest门通过，source/note由G84写。Wang目前只核实2026-05-20预印本；父此前未核的“11月9日发表”已向用户明确撤回，不得再用。
+- G85的2.8返修：有效角不变量量纲、BH能依赖构造与幺正构造区别、MR-EDF实现边界、IBM χ不足以单独确定O(6)、135Pr各实验和近似条件。Lv2022真实对象已纠正为PLB824(2022)136840、负宇称和747/526比，不是正宇称绝对寿命结果。
+- G86三节4.1–4.3未接受，完整直接证据修复清单为`G86/parent-return-consolidated.json`，要求逐ID实际修tex/ledger与保留数值对照表。尤其Kr两核2₁静矩均负、64Ge寿命、98Mo 0₂半衰期和完整8页NPA正文、102Ru积分区间、Ding两种S(I)定义、Ge76高阶矩与角度涨落不能混淆；4.8尚未启动。
+- 附F的3CSV行列/字节/SHA和14个图文件哈希已父独立核对，见`G76/appendix-F-parent-data-check.json`；最终短哈希、普通LaTeX下划线、可读表宽和正文内部代号仍由G76收束。当前工作PDF可能含新返修稿，不能套用已发布128页的CLEAN_PASS；G76独占下一次统一构建，各writer不要自行latexmk。
+- 6个当前执行代理实际turn_context均为Gemini Tiered/high，记录`runtime-model-continuation.json`；T14 Terra窄审已完成关闭。Shimizu2005、Wolff1982与对应note已索引，新增永久知识不能只留outputs。
+- 下一步按`outputs/plans/20261113-A130-remaining-sections.json`推进全goal。当前精确状态`continuation-progress.json`；任务回执根仍为`outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/`。不把本批新稿文件数或工作PDF页数当科学完成，不改用户memory、旧归档删除、PADO、PLAN及其它大小写稿件。
+
+### 已发布的15节 LaTeX 检查点
 
 - 完整五章39节及必要附录的原生goal仍active，不能把本批15节或128页预览当整部论文完成。当前正文为第一章1.1–1.5、第二章2.1–2.6、3.5、5.3/5.4/5.9，另有附B/C已交付范围；尚余24节及其它必要附录材料。不要继续生成Markdown正文。
 - 正文的关键内容已分别核准：G77第一章、G78的2.1–2.4及G82的2.6/C、G81的3.5与经T13订正的2.5/B、G79恢复原40式后的5.9及5.3/5.4数据表。最终数学/条件检查见各worker的parent-acceptance.json，不采用worker自称“certified”或聊天里的长哈希。G77回调曾出现错误的完整哈希字符串，文件台账的实际哈希核验通过；始终从真实文件计算。
@@ -19,7 +58,7 @@ updated: 2026-11-13
 - T12=`01a1d28e-a982-7dd3-9f31-e3a98e49ddd4`、T13=`01a1d2ab-8b16-7b61-9235-46c9f047bf46`均Terra/xhigh、窄审已接受关闭。T12谱矩阵共轭/径向块/SRG边界已入ESPE note与Duguet source；T13右作用D指标、表示类、根标签、错误平移能量变量、Ritz空间范围已交G81并核关键修复。不要重复全篇审查或大toy。
 - README和knowledge项目/索引已转LaTeX入口。构建脚本`system/scripts/a130_latex_build.py`，图脚本`system/scripts/a130_latex_figures.py`。最终输入manifest见G76/build_report.json，post-build-source-reconciliation.json已确认无变化；核对调用须传字符串workdir，Path会因原函数root比较将输出PDF混入输入，不能据此误报源不一致。
 - 用户原`system/memory.md`修改、旧归档manifest删除及全部PADO文件保持不动、不暂存。旧34项本地归档0/34，17项源/PDF可从Git精确恢复，另17项中间产物未恢复；没有撤销用户删除。详old-archive-git-audit.local.json。
-- Git尚未暂存/提交本批。已fetch `origin main`且当时祖先检查通过。收束后用显式literal文件清单，保留用户更改；不`git add .`、不force、不维护GitHub。避免发布含全库私有路径的完整preflight stdout，发布精简门回执即可。精确commit hash只入local任务回执，稳定指针用branch+subject。
+- 本检查点已按显式literal清单提交并推送，保留用户更改；不`git add .`、不force、不维护GitHub。原始模板与冻结返回稿的空白原样保存在逐成员核SHA的tar归档中，活动工程空白正规化后复编。精确commit hash只入local任务回执，稳定指针用branch+subject。
 - 下一批合同已派发：G84=`01a1d2f0-bb5c-7a81-a39c-b1f41b3dc09a`主写2.7，G85=`01a1d2f1-040b-7521-bb9a-44881cd9a381`主写2.8，均显式Gemini Tiered/high；G81准备3.2，G79准备5.5。父发现3.2合同轴对称极限和单位错误，已交T14=`01a1d2f3-0970-7701-b24a-e761689e0ac5` Terra/xhigh窄审。当前15节发布后才授权写canonical，准备合同不代表正文完成。不把本任务当daily daemon，不改PLAN/用户memory/课程状态。
 
 以下为本日初次恢复/派发时的历史快照，当前状态以上述最新执行点和本批worker-ledger为准。

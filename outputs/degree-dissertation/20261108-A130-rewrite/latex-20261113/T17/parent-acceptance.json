@@ -1,0 +1,46 @@
+{
+  "recorded_at": "2026-11-13T11:17:50.291096+00:00",
+  "scope": "Terra narrow audit of frozen section 3.4; canonical section remains unaccepted pending Gemini revision.",
+  "verdict": "accepted-narrow-audit-and-replayed-controls",
+  "runtime": "codex/gpt-6.1-terra/xhigh independently observed in rollout metadata",
+  "replay": {
+    "energy_cases": 15,
+    "all_energy_cases_pass": true,
+    "SI_forms_equal": true
+  },
+  "limits": [
+    "Finite rational controls check algebra and do not validate a nuclear model.",
+    "Parent original harmonic-only node premise corrected: an odd state under a one-dimensional reflection has a node at the fixed point for a reflection-symmetric Hamiltonian.",
+    "For the same one-dimensional reflection-symmetric Hamiltonian and an odd state, anharmonicity alone does not remove the central node; any node-change statement needs the actual symmetry/state/projection conditions."
+  ],
+  "files": [
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T17/report.json",
+      "sha256": "e55e9ffe24024cf9a3c226e900eed61f9a5a5c9a867b51179652848225e79818"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T17/correction.tex",
+      "sha256": "86c6461998ca289cf355d3222fd2d7d0c70e292bec04f7a3c7fbe38173ea8cd7"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T17/validation.py",
+      "sha256": "ca7a34cea58433e74b1ea0eb36b9e601cfa3773c08e6795fe233e8328df54367"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T17/results.json",
+      "sha256": "95c4e0e46be23519f1e814aca715cc66999f2d1df987dc0814cd7937f1901860"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T17/sec-3-4.frozen.tex",
+      "sha256": "f010a62f3bbb988bf36ef2cf66bc19a5af8519fbd4d56e00cc4a7856032e5c74"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T17/section-3-4.frozen.json",
+      "sha256": "795956040c6c958dcf54249e5d1cec322901261f837f61372c4ea38b8d3c8803"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T17/parent-runtime-check.json",
+      "sha256": "109720e108a521a60b2b932722822e8633028365429d97b58e73938322f8a9ff"
+    }
+  ]
+}

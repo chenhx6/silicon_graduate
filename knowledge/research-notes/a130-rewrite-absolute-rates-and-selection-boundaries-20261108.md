@@ -126,3 +126,4 @@ B只约束约化矩阵元模平方；相同Qt可与多个具体结构模型相�
 ## Promotion or Rejection History
 
 - 2026-11-08：保存5.9修订中发现的选择规则、归一、率常数与来源依赖边界。
+- 2026-11-13：更正 M1 单位转换表述：经 Terra T15 独立审查确证，不可对已归一的无量纲数值 $b_{M1}$ 或实用常数 $C_{M1}$ 乘除光速 $c^2$；详细量纲映射与数值归一证明参见 [[a130-rewrite-magnetic-unit-and-numerical-normalization-20261113]]。

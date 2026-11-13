@@ -1,0 +1,150 @@
+%---------------------------------------------------------------------------%
+%- Appendix F: 可复现输入和来源表
+%---------------------------------------------------------------------------%
+\chapter{可复现输入和来源表}\label{app:reproducible-inputs}
+
+本附录记录当前已交付的9项自主矢量图件与3项数值仿真CSV数据集的输入依据、文件指纹、物理分类与模型边界。本稿严格区分理论解析推演、概念机制示意、无噪声教学模拟与真实谱学数据；明确声明解析几何图与教学模型图系由声明之参数与因果算法生成，其数学展示边界与文献原作所报告的事实数据具有不同属性，不将文献页码混同为数值生成输入。首批7图的输入与新增的两态混合、seniority图分别说明；其它尚未验收图件不在本附录收录范围内。
+
+\section{自主生成图件之来源依据与物理边界}\label{sec:appF-figures-sources}
+
+首批7项图件由以下Python脚本生成：
+\par\noindent\path{system/scripts/a130_latex_figures.py}
+\par
+脚本SHA-256前缀为\texttt{0d5d707202df}。物理分类、输入与边界见表~\ref{tab:appF-fig-sources}。
+
+\begin{table}[htbp]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\caption{首批7项自主生成图件的物理分类、输入依据与模型边界表}\label{tab:appF-fig-sources}
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabularx}{\textwidth}{p{2.8cm} p{2.4cm} >{\raggedright\arraybackslash}X}
+\toprule
+图件标识 & 节号 / 物理分类 & 输入依据与声明边界 \\
+\midrule
+\shortstack[l]{\texttt{shape-}\\\texttt{moments}} & 第 1.2 节 / 概念示意 & 输入依据：第 1.2/2.1 节架构；定性展示从核电荷密度到内禀/实验室多极矩与标量不变量的逻辑台阶，不替代具体核的一体密度数值积分。 \\
+\addlinespace
+\shortstack[l]{\texttt{six-region-}\\\texttt{map}} & 第 1.4 节 / 案例坐标 & 输入依据：第 1.4 节表~\ref{tab:1-4-six-regions}；严格限定于六区已核准锚点核素（$^{64}\mathrm{Ge}$、\allowbreak $^{74,76}\mathrm{Kr}$、\allowbreak $^{98}\mathrm{Zr}$、\allowbreak $^{133}\mathrm{Ce}$、\allowbreak $^{163}\mathrm{Lu}$、\allowbreak $^{182-188}\mathrm{Hg}$），属于案例比较坐标，非穷尽核素总表。 \\
+\addlinespace
+\shortstack[l]{\texttt{chapter-}\\\texttt{dependency}} & 第 1.5 节 / 架构逻辑 & 输入依据：第 1.5 节架构总览；展示全书五章前向演绎与后向实验约束的闭环关系，不替代节内推导。 \\
+\addlinespace
+\shortstack[l]{\texttt{occupancy-}\\\texttt{centroids}} & 第 2.2 节 / 教学模型 & 输入依据：第2.2节的单极质心脚本与声明参数；双轨道无噪声教学模型演示占据改变对单极能的影响，不是实测单粒子峰。脚本路径另列于本节正文。 \\
+\addlinespace
+\shortstack[l]{\texttt{gamma-}\\\texttt{measure}} & 第 2.4 节 / 解析几何 & 输入依据：Bohr--Mottelson 5D 集体哈密顿量度规体积元；解析展示体积元在 $\gamma = 30^\circ$ 的几何测度极大，不直接等同于微观势阱极小或刚性三轴形变。 \\
+\addlinespace
+\shortstack[l]{\texttt{digital-}\\\texttt{energy-}\\\texttt{response}} & 第 5.3 节 / 仿真数据 & 输入依据：第\ref{sec:appF-datasets}节的数据集1；理想因果递推差分滤波器的确定性数值响应，未包含连续电子白噪声。 \\
+\addlinespace
+\shortstack[l]{\texttt{cfd-phase-}\\\texttt{convergence}} & 第 5.4 节 / 仿真数据 & 输入依据：第\ref{sec:appF-datasets}节的数据集2、3；离散相位点的经验最大误差，参考延迟为给定波形与算法的参考过零延迟，不是随机抖动。 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+单极质心模型的输入脚本为：
+\par\noindent
+\path{system/scripts/a130_rewrite_monopole_centroid_audit.py}。
+
+\section{矢量资源文件与哈希指纹}\label{sec:appF-figures-hashes}
+
+所有自主图件均在工程目录 \path{Img/} 中实现 PDF（印刷矢量）与 SVG（网页矢量）双格式同步留档。各图件对应的主文件名及 SHA-256 前缀（前 12 位）见表~\ref{tab:appF-fig-hashes}；完整的 64 位哈希值已在清单 \path{Img/figure-manifest.json} 与独立台账 \path{latex-evidence-ledger/appendix-F.json} 中全量记录。
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{当前9项自主图件矢量文件及 SHA-256 前缀（前 12 位）}\label{tab:appF-fig-hashes}
+\begin{tabularx}{\textwidth}{p{3.1cm} c >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X}
+\toprule
+图件标识 & 矢量格式 & PDF 校验码（前12位） & SVG 校验码（前12位） \\
+\midrule
+\shortstack[l]{\texttt{occupancy-}\\\texttt{centroids}} & PDF / SVG & \texttt{1c016d53943e} & \texttt{1e29a944808e} \\
+\shortstack[l]{\texttt{gamma-}\\\texttt{measure}} & PDF / SVG & \texttt{c3336dd78143} & \texttt{df58728835b8} \\
+\shortstack[l]{\texttt{digital-}\\\texttt{energy-}\\\texttt{response}} & PDF / SVG & \texttt{41520bb25360} & \texttt{8e000ce14eee} \\
+\shortstack[l]{\texttt{cfd-}\\\texttt{phase-}\\\texttt{convergence}} & PDF / SVG & \texttt{dbfbbdcd9cd3} & \texttt{b2374a5af78a} \\
+\shortstack[l]{\texttt{shape-}\\\texttt{moments}} & PDF / SVG & \texttt{d174e5ac579b} & \texttt{5bb89e143050} \\
+\shortstack[l]{\texttt{six-}\\\texttt{region-}\\\texttt{map}} & PDF / SVG & \texttt{1bbb37e7b358} & \texttt{14f733c02ef5} \\
+\shortstack[l]{\texttt{chapter-}\\\texttt{dependency}} & PDF / SVG & \texttt{c817f4776d70} & \texttt{703e28eb4d60} \\
+\shortstack[l]{\texttt{mode-}\\\texttt{mixing-}\\\texttt{avoided-}\\\texttt{crossing}} & PDF / SVG & \texttt{f8d50454af23} & \texttt{d41d513936c7} \\
+\shortstack[l]{\texttt{seniority-}\\\texttt{node-}\\\texttt{accessibility}} & PDF / SVG & \texttt{6f824e9d5515} & \texttt{2c38768fc352} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+
+\section{新增局域模型图的输入}\label{sec:appF-additional-models}
+
+第3.6节的两态混合图由
+\par\noindent\path{system/scripts/a130_mode_mixing_figure.py}
+\par
+生成，取耦合强度0.8、平均能量5.0及失谐区间$-4$至$4$，能量均为任意单位。
+图中显示二态哈密顿量的能量与基底概率，不是耦合振子的频率平方或实测跃迁强度。
+
+第4.6节的占据可达性图由
+\par\noindent\path{system/scripts/a130_seniority_node_figure.py}
+\par
+生成，使用单j、同种核子、v=2的单体E2归约因子，分别取对简并度5与6。
+连续抛物线只作引导，允许的离散粒子数才属于所示多重态。
+独立Fock空间控制的代码为
+\par\noindent\path{system/scripts/a130_seniority_fock_controls.py}。
+\par
+该控制检查固定J、M的对角E2矩阵元比例，不是实核寿命或全部跃迁的复现。
+
+\section{数值模拟输入与 CSV 数据集清单}\label{sec:appF-datasets}
+
+第 5 章涉及的数字脉冲处理响应与定时误差分析依托于独立的标准仿真数据。数据文件由标准因果离散差分方程在离散时间网格上生成，公共存放于目录 \path{outputs/l4/20261108-digital-pulse-response/} 下。以下逐项记录各数据集的短文件名、结构规模、校验码与物理变量：
+
+\begin{enumerate}[label=(\arabic*),leftmargin=2em]
+    \item \textbf{成形滤波弹道亏损数值响应表}
+    \begin{itemize}[nosep]
+        \item 数据文件：\path{ballistic_deficit_study.csv}
+        \item 结构规模：20 个数据行、6 列，文件大小 1998 字节
+        \item 校验哈希：SHA-256 前缀 \texttt{e76fd8c6f896}
+        \item 物理变量：
+        \begin{tabular}{l}
+        \path{rise_time_ns}\\
+        \path{flat_top_0ns_amp}\\
+        \path{flat_top_100ns_amp}\\
+        \path{flat_top_400ns_amp}\\
+        \path{deficit_flat0_pct}\\
+        \path{deficit_flat400_pct}
+        \end{tabular}
+        \item 物理内容：梯形成形平顶宽度与成形时间对电荷收集衰减引起的弹道亏损与能量估计偏差数值表。
+    \end{itemize}
+    \vspace{1ex}
+    \item \textbf{数字 CFD 采样时钟周期走动收敛数据表}
+    \begin{itemize}[nosep]
+        \item 数据文件：\path{sampling_convergence.csv}
+        \item 结构规模：4 个数据行、3 列，文件大小 247 字节
+        \item 校验哈希：SHA-256 前缀 \texttt{fcbc5a3ebf68}
+        \item 物理变量：
+        \path{sampling_interval_ns}, \path{reference_latency_ns}, \\
+        \path{max_abs_interpolation_error_ns}
+        \item 物理内容：4 组离散采样步长（10, 5, 2.5, 1.25 ns）下的 CFD 最大定时走动误差收敛数据。
+    \end{itemize}
+    \vspace{1ex}
+    \item \textbf{数字 CFD 相位走动插值误差逐点追踪表}
+    \begin{itemize}[nosep]
+        \item 数据文件：\path{cfd_phase_walk_analysis.csv}
+        \item 结构规模：20 个数据行、7 列，文件大小 2050 字节
+        \item 校验哈希：SHA-256 前缀 \texttt{fa67402db75b}
+        \item 物理变量：
+        \begin{tabular}{l}
+        \path{phase_ns}\\
+        \path{true_t0_ns}\\
+        \path{reference_zc_ns}\\
+        \path{extracted_zc_ns}\\
+        \path{timing_error_ns}\\
+        \path{amplitude_arb}\\
+        \path{amplitude_scan_zc_ns}
+        \end{tabular}
+        \item 物理内容：20 个离散时钟相位点上的 CFD 线性过零插值误差与幅度扫描逐点追踪记录。
+    \end{itemize}
+\end{enumerate}
+
+\section{材料范围与版本边界说明}\label{sec:appF-scope-boundary}
+
+本研究稿在材料采用与版本管理上遵循以下边界：
+\begin{enumerate}[label=(\arabic*),leftmargin=2em]
+    \item \textbf{文献版本与原件类型：}本稿引用的文献严格依据实际核查登记的底本。正文部分方法与公式直接引自同行评议学术期刊（如 PRL、PRC、RPP、PLB 等），亦包括已登记核准的经典学位论文（如吴鸿毅 2020 年北京大学博士论文、刘晨 2016 年山东大学博士论文）以及公开预印本（如 arXiv 底本）。所有引文均标明实际阅读版本与定位边界，不虚构未取得的出版商重印校样。
+    \item \textbf{模型生成与实测数据隔离：}第 2.2 节的单极占据移动曲线与第 5.3/5.4 节的数字波形滤波及定时插值响应，均为声明参数下的因果算法数值模型，旨在展示物理机制与算法收敛行为，不代表实际在束探测器中的连续电荷收集弥散、电子学噪声抖动与硬件量化限制。
+    \item \textbf{增量维护约定：}本附录收录范围为上述已核图件与数据集。后续批次中新增的图件与数值数据集将依同等规范增量录入，不虚增未完成章节的假想输入。
+\end{enumerate}
+%---------------------------------------------------------------------------%

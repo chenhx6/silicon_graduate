@@ -1,0 +1,19 @@
+{
+  "section": "3.2",
+  "status": "content-admitted-layout-pending",
+  "timestamp": "2026-11-13T04:20:11.592714+00:00",
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-2.tex",
+  "output_tex_sha256": "03f03b94352ea0b4892f539f17dc3091a613a6f2752067156f24d0a6f103e622",
+  "review_basis": [
+    "Parent directly reread actual revised boson mapping, inverse transverse coordinate, Casimir baseline and Bogoliubov coefficients; checked sign/units and agreement with T14.",
+    "BM II printed192 Eq4-306/307 independently viewed; loss of small-fluctuation control near degeneracy retained.",
+    "Classical max/min/saddle distinctions and inertia-vs-shape limits kept separate.",
+    "Fixed-I local frame frequency distinguished explicitly from fixed-K lab spacing; no universal harmonic finite-I assertion."
+  ],
+  "excluded_from_acceptance": "Unreferenced new rotor figure/script not scientifically admitted; omitted from this section.",
+  "source_dependencies": [
+    "book-bohr-mottelson-nuclear-structure-vol2",
+    "shimizu-2005-high-k-precession"
+  ],
+  "provenance": "Gemini writer, Terra T14 narrow derivation review, parent incremental evidence audit; no human-review or real-nucleus identification claim."
+}

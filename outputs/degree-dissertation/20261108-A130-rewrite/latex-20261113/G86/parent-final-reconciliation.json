@@ -1,0 +1,42 @@
+{
+  "status": "parent-content-admitted-layout-pending",
+  "timestamp": "2026-11-13T05:50:55.853670+00:00",
+  "sections": [
+    {
+      "section": "4.1",
+      "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-1.tex",
+      "sha256": "ebf66c90b23e1baf4187f06d02c0959ce97c29f95387196aa3c149536a55ac64",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-1.json"
+    },
+    {
+      "section": "4.2",
+      "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-2.tex",
+      "sha256": "17cac95e5796a53c819db230eb8dc4eb2c2144d3e0cf758519da7d5a7d69f6e1",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-2.json"
+    },
+    {
+      "section": "4.3",
+      "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-3.tex",
+      "sha256": "2b865c639c434659808e7aa42f5f5794f495ca3e452438df9a5264d5fb38d886",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-3.json"
+    }
+  ],
+  "review_basis": [
+    "Direct checks ofStarostaPDF3,CriderPDF2/4,ClementPDF11/15,Ge76PDF5/6,NDSadoptedPDF2,Mo98publicationtables andRu102PDF3/5/6; canonical source/version scopes retained.",
+    "Two-state matrix phase, degenerate endpoint, E0 charge andZ normalization independently derived.",
+    "Removed unverifiedideal-model numeric degeneracy example and universal inertia/information-ranking assertions.",
+    "Failedworkerpositiveclaim-ledgers archived underrejected-ledger-history; newcanonical claims andactualraw hashes supersede them.",
+    "ThomasXMLTable2 caption/entry directly checked:52.6 line adopted/unobserved inthat experiment."
+  ],
+  "boundary": [
+    "No original-event reanalysis or newexperimentaldata.",
+    "No whole-corpus reading certification or universal mass-region shapeassignment.",
+    "Compilation/citation alias/layout checks remain to be done by commonengine."
+  ],
+  "next": "G86closed; G87explicitGemini spawn handles4.8 withnewcontract. Not a resume preserving-model assumption.",
+  "additional_primary_checks": [
+    "StarostaPDF3 TableI th.Q2_1=−18.6efm², not−.13/−.15eb; numericaltheoryQs removedfromprose.",
+    "CriderPDF4 Table1: E0rho²bounds<.0050/<.0258, author-modelshapeorder spherical/oblate/prolate; source/meanlife distinctions preserved.",
+    "ThomasXMLtl0020 caption: doublestarNDSadopted anddashunobserved; branch notnewmeasurement."
+  ]
+}

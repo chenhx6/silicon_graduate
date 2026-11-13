@@ -1,0 +1,146 @@
+{
+  "section_id": "3.3",
+  "status": "parent-content-accepted-integration-pending",
+  "worker": "G81 Gemini Tiered/high; final narrow correction by parent",
+  "recorded_at": "2026-11-13T08:44:48.764209+00:00",
+  "canonical_paths": {
+    "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-3.tex",
+    "tex_sha256": "33b913b52ea2f0a9533d321c53b0ffa1f27d3c12fbc8aef55cea2118a6d9c230"
+  },
+  "sources": [
+    {
+      "source_id": "frauendorf-2014-transverse-wobbling",
+      "source_page": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+      "raw_file": "raw/papers/2014_Frauendorf_Dönau_Transverse wobbling.pdf",
+      "raw_sha256": "36794ee1308adc1b34206ccdbf62353d6e79b3b485979e78709fd31efe5f57e3",
+      "doi": "10.1103/PhysRevC.89.014322",
+      "archive_required": true
+    },
+    {
+      "source_id": "odegard-2001-evidence-wobbling-163lu",
+      "source_page": "knowledge/sources/odegard-2001-evidence-wobbling-163lu.md",
+      "raw_file": "raw/papers/2001_Ødegård et al_Evidence for the Wobbling Mode in Nuclei.pdf",
+      "raw_sha256": "0ff38adfcbe031fb21c43b3bba290ca44a21898564bb78cf335fbb47b05ba379",
+      "doi": "10.1103/PhysRevLett.86.5866",
+      "archive_required": true
+    },
+    {
+      "source_id": "jensen-2002-second-phonon-wobbling-163lu",
+      "source_page": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+      "raw_file": "raw/papers/2002_Jensen et al_Evidence for Second-Phonon Nuclear Wobbling.pdf",
+      "raw_sha256": "c6fd99c17c09763f742cbe36443f7039f21b3e28a5caa548748bdf0718630a8a",
+      "doi": "10.1103/PhysRevLett.89.142503",
+      "archive_required": true
+    },
+    {
+      "source_id": "matta-2015-transverse-wobbling-135pr",
+      "source_page": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+      "raw_file": "raw/papers/2015_Matta et al_Transverse Wobbling in Pr 135.pdf",
+      "raw_sha256": "8db644705dccfd58016753b759d19314a65284c48efc1758f95f1b3ce23551d6",
+      "doi": "10.1103/PhysRevLett.114.082501",
+      "archive_required": true
+    },
+    {
+      "source_id": "biswas-2019-longitudinal-wobbling-133la",
+      "source_page": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+      "raw_file": "raw/papers/2019_Biswas et al_Longitudinal wobbling in 133La.pdf",
+      "raw_sha256": "579ecff6daa4cd8505c25966d15b998037930770e45382ccba90bae809707e03",
+      "doi": "10.1140/epja/i2019-12856-5",
+      "archive_required": true
+    },
+    {
+      "source_id": "lawrie-2020-tilted-precession-wobbling",
+      "source_page": "knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+      "raw_file": "raw/papers/2020_Lawrie et al_Tilted precession and wobbling in triaxial nuclei.pdf",
+      "raw_sha256": "777f935b0266fed8a9d9f2e1cc1f72995c84dd83e27ca1f5377ab2785b2ec405",
+      "doi": "10.1103/PhysRevC.101.034306",
+      "archive_required": true
+    },
+    {
+      "source_id": "lv-2022-evidence-against-wobbling-135pr",
+      "source_page": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "raw_file": "raw/papers/2022_Lv et al_Evidence against the wobbling nature of low-spin bands in 135Pr.pdf",
+      "raw_sha256": "4b87c540bf9da5141fa88ef8f00859162cb08918d56a5da74726c7537df5e26b",
+      "doi": "10.1016/j.physletb.2021.136840",
+      "archive_required": true
+    },
+    {
+      "source_id": "matsuzaki-2004-nuclear-inertia-and-wobbling",
+      "source_page": "knowledge/sources/matsuzaki-2004-nuclear-inertia-and-wobbling.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/matsuzaki-2004-nuclear-moments-of-inertia-prc69-034306.pdf",
+      "raw_sha256": "9ea9fb2c8b9e73b0352a219ace7efc6182d6b5471b38d32cb96bc539e4aa6bf7",
+      "doi": "10.1103/PhysRevC.69.034325",
+      "archive_required": true
+    }
+  ],
+  "claims_and_derivations": [
+    {
+      "id": "3.3-P01",
+      "kind": "definition-and-approximation",
+      "claim": "Physical total I and core R carry action units; mathcalI=I/hbar and qp j are dimensionless. A=hbar²/(2J). TW/LW refer to dominant qp orientation relative to core maximum-inertia axis, not fixed angle to total I/core R.",
+      "sources": [
+        "frauendorf-2014-transverse-wobbling"
+      ],
+      "locator": "raw PDF1–2 geometry; PDF6 Eqs11–24; section3.3 notation",
+      "conditions": "Axis order and configuration specified; no universally fluid inertia assumption."
+    },
+    {
+      "id": "3.3-P02",
+      "kind": "task-local-derivation-from-source-model",
+      "claim": "Frozen j along axis1 gives local leading-I coefficients C2=A2−A1+A1*j/I and C3=A3−A1+A1*j/I and hbar*omega=2I sqrt(C2 C3). Both C positive imply a positive-energy local minimum; real square root alone is weaker. Bosonic commutation uses mathcalI1≈I.",
+      "sources": [
+        "frauendorf-2014-transverse-wobbling"
+      ],
+      "locator": "raw PDF6 frozen-alignment model, axes relabeled; manuscript FA-H through stability-condition; parent independent unexpanded-H controls",
+      "conditions": "Constant positive inertias, fixed j, small amplitude, large I. Not finite-I exact spectrum."
+    },
+    {
+      "id": "3.3-P03",
+      "kind": "task-model-consequence",
+      "claim": "With fixed FA parameters LW energy increases; selected TW order J2>J1>=J3 softens at Ic=j/(1−J1/J2), but may first rise. Beyond Ic the frozen single-qp branch tilts in a principal plane, not a chiral trihedron.",
+      "sources": [
+        "frauendorf-2014-transverse-wobbling"
+      ],
+      "locator": "raw PDF6 model discussion; manuscript frequency-squared-factors/critical-spin; parent derivative-sign controls",
+      "conditions": "No universal inference from rising/falling real-nucleus energies; model j and inertias can vary."
+    },
+    {
+      "id": "3.3-P04",
+      "kind": "reference-definition",
+      "claim": "Ewob adjacent-yrast interpolation is for stated interleaved spin sequences; same-I difference is another legitimate reference. omega_rot=2A1(I−j)/hbar follows from leading branch energy.",
+      "locator": "eq:3-3-Ewob-exp-def; eq:3-3-rot-freq-diff",
+      "conditions": "Explicit band, spin, parity and reference; no identification of every empirical difference as unique eigenfrequency."
+    },
+    {
+      "id": "3.3-P05",
+      "kind": "experimental-report-and-model-interpretation",
+      "claim": "Lu TSD observations and strong interband E2 support wobbling interpretation; short-axis alignment and inertia order are model quantities, not direct fluid-inertia measurements.",
+      "sources": [
+        "odegard-2001-evidence-wobbling-163lu",
+        "jensen-2002-second-phonon-wobbling-163lu",
+        "frauendorf-2014-transverse-wobbling"
+      ],
+      "locator": "Odegard original mainPDF1–4; Jensen mainPDF1–4; Frauendorf PDF10 limitations",
+      "conditions": "No universal frequency slope/all-observable closure; quantitative comparison deferred to4.4."
+    },
+    {
+      "id": "3.3-P06",
+      "kind": "competing-interpretations",
+      "claim": "Pr/La require separate inputs. LvPr M1-dominant links challenge tested E2-dominant interpretation; multiple inverse branches require common data/response. TiP and qp reorientation provide alternatives; absolute EM depends on configuration and operator.",
+      "sources": [
+        "matta-2015-transverse-wobbling-135pr",
+        "biswas-2019-longitudinal-wobbling-133la",
+        "lv-2022-evidence-against-wobbling-135pr",
+        "lawrie-2020-tilted-precession-wobbling",
+        "matsuzaki-2004-nuclear-inertia-and-wobbling"
+      ],
+      "locator": "Lv rawPDF3 Table1/Fig2; Lawrie model comparison; Matsuzaki rawPDF3–6 Eqs1–24",
+      "conditions": "No obligatory two roots, universally small M1 or universal1/I absolute strength law."
+    }
+  ],
+  "parent_controls": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G81/section-3-3-parent-math-controls.json",
+  "superseded_ledger_history": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G81/rejected-ledger-history/section-3-3-before-parent-reconciliation.json",
+  "integration_boundary": "Common citations/layout and complete compilation pending; no new figure in this section.",
+  "parent_final_tex_sha256": "33b913b52ea2f0a9533d321c53b0ffa1f27d3c12fbc8aef55cea2118a6d9c230",
+  "integration_status": "included-in27-section-clean-preview"
+}

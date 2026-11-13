@@ -63,5 +63,7 @@
     "章节依赖概念图Img/chapter-dependency.pdf尚待绘图worker G80生成实体矢量图，当前使用\\IfFileExists机制安全保护",
     "个人实验成果由于当前处于前置导读与理论基础综述阶段，遵循边界合同未作虚构宣称，待后续特定核素专章接入真实实验数据"
   ],
-  "target_sha256": "10d22975760ed742b44fdecd5be48cee7179e4bc404ed603d017e6c22ef716bb"
+  "target_sha256": "10d22975760ed742b44fdecd5be48cee7179e4bc404ed603d017e6c22ef716bb",
+  "parent_final_tex_sha256": "10d22975760ed742b44fdecd5be48cee7179e4bc404ed603d017e6c22ef716bb",
+  "integration_status": "included-in27-section-clean-preview"
 }

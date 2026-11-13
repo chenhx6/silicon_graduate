@@ -1,0 +1,10 @@
+{
+  "observed": [
+    {
+      "timestamp": "2026-11-13T10:50:22.988Z",
+      "model": "codex/gpt-6.1-terra",
+      "effort": "xhigh"
+    }
+  ],
+  "boundary": "Observed runtime metadata, not scientific correctness."
+}

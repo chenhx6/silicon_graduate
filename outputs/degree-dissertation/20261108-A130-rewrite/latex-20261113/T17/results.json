@@ -1,0 +1,97 @@
+{
+  "kind": "finite exact rational spot checks, not a proof or model validation",
+  "energy_cases": [
+    {
+      "K": "1",
+      "n": 1,
+      "bandhead_difference": "18/7",
+      "equals_harmonic_plus_finite_K_correction": true
+    },
+    {
+      "K": "1",
+      "n": 2,
+      "bandhead_difference": "45/7",
+      "equals_harmonic_plus_finite_K_correction": true
+    },
+    {
+      "K": "1",
+      "n": 3,
+      "bandhead_difference": "81/7",
+      "equals_harmonic_plus_finite_K_correction": true
+    },
+    {
+      "K": "3/2",
+      "n": 1,
+      "bandhead_difference": "45/14",
+      "equals_harmonic_plus_finite_K_correction": true
+    },
+    {
+      "K": "3/2",
+      "n": 2,
+      "bandhead_difference": "54/7",
+      "equals_harmonic_plus_finite_K_correction": true
+    },
+    {
+      "K": "3/2",
+      "n": 3,
+      "bandhead_difference": "27/2",
+      "equals_harmonic_plus_finite_K_correction": true
+    },
+    {
+      "K": "8",
+      "n": 1,
+      "bandhead_difference": "81/7",
+      "equals_harmonic_plus_finite_K_correction": true
+    },
+    {
+      "K": "8",
+      "n": 2,
+      "bandhead_difference": "171/7",
+      "equals_harmonic_plus_finite_K_correction": true
+    },
+    {
+      "K": "8",
+      "n": 3,
+      "bandhead_difference": "270/7",
+      "equals_harmonic_plus_finite_K_correction": true
+    },
+    {
+      "K": "25/2",
+      "n": 1,
+      "bandhead_difference": "243/14",
+      "equals_harmonic_plus_finite_K_correction": true
+    },
+    {
+      "K": "25/2",
+      "n": 2,
+      "bandhead_difference": "36",
+      "equals_harmonic_plus_finite_K_correction": true
+    },
+    {
+      "K": "25/2",
+      "n": 3,
+      "bandhead_difference": "783/14",
+      "equals_harmonic_plus_finite_K_correction": true
+    },
+    {
+      "K": "100",
+      "n": 1,
+      "bandhead_difference": "909/7",
+      "equals_harmonic_plus_finite_K_correction": true
+    },
+    {
+      "K": "100",
+      "n": 2,
+      "bandhead_difference": "261",
+      "equals_harmonic_plus_finite_K_correction": true
+    },
+    {
+      "K": "100",
+      "n": 3,
+      "bandhead_difference": "2754/7",
+      "equals_harmonic_plus_finite_K_correction": true
+    }
+  ],
+  "SI_forms_equal": true,
+  "missing_c_produces_relative_factor": "1/299"
+}

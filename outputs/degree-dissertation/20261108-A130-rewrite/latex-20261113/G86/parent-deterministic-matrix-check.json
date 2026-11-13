@@ -1,0 +1,269 @@
+[
+  {
+    "row": 1,
+    "nucleus": "64Ge",
+    "observable": "mean lifetime tau",
+    "source_exists": true,
+    "page_count": 4,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 2,
+    "nucleus": "64Ge",
+    "observable": "reduced transition probability B(E2 downward)",
+    "source_exists": true,
+    "page_count": 4,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 3,
+    "nucleus": "64Ge",
+    "observable": "mean lifetime tau",
+    "source_exists": true,
+    "page_count": 4,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 4,
+    "nucleus": "64Ge",
+    "observable": "reduced transition probability B(E2 downward)",
+    "source_exists": true,
+    "page_count": 4,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 5,
+    "nucleus": "64Ge",
+    "observable": "reduced transition probability B(E2 downward)",
+    "source_exists": true,
+    "page_count": 4,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 6,
+    "nucleus": "64Ge",
+    "observable": "spectroscopic quadrupole moment Q(2+_1)",
+    "source_exists": true,
+    "page_count": 4,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 7,
+    "nucleus": "76Kr",
+    "observable": "spectroscopic quadrupole moment Q_s(2+_1)",
+    "source_exists": true,
+    "page_count": 22,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 8,
+    "nucleus": "74Kr",
+    "observable": "spectroscopic quadrupole moment Q_s(2+_1)",
+    "source_exists": true,
+    "page_count": 22,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 9,
+    "nucleus": "68Ni",
+    "observable": "half-life T_1/2",
+    "source_exists": true,
+    "page_count": 6,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 10,
+    "nucleus": "68Ni",
+    "observable": "electric monopole strength rho^2(E0) x 10^3",
+    "source_exists": true,
+    "page_count": 6,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 11,
+    "nucleus": "68Ni",
+    "observable": "half-life T_1/2",
+    "source_exists": true,
+    "page_count": 6,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 12,
+    "nucleus": "68Ni",
+    "observable": "branching ratio & B(E2)",
+    "source_exists": true,
+    "page_count": 6,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 13,
+    "nucleus": "68Ni",
+    "observable": "electric monopole strength rho^2(E0) x 10^3",
+    "source_exists": true,
+    "page_count": 6,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 14,
+    "nucleus": "70Ni",
+    "observable": "half-life T_1/2",
+    "source_exists": true,
+    "page_count": 6,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 15,
+    "nucleus": "76Ge",
+    "observable": "effective triaxial angle delta",
+    "source_exists": true,
+    "page_count": 7,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 16,
+    "nucleus": "98Mo",
+    "observable": "excitation energy E",
+    "source_exists": true,
+    "page_count": 51,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 17,
+    "nucleus": "98Mo",
+    "observable": "half-life T_1/2",
+    "source_exists": true,
+    "page_count": 51,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 18,
+    "nucleus": "98Mo",
+    "observable": "excitation energy E",
+    "source_exists": true,
+    "page_count": 51,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 19,
+    "nucleus": "98Mo",
+    "observable": "half-life T_1/2",
+    "source_exists": true,
+    "page_count": 51,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 20,
+    "nucleus": "98Mo",
+    "observable": "electric monopole strength rho^2(E0) x 10^3",
+    "source_exists": true,
+    "page_count": 1,
+    "locator_in_range": false,
+    "control_characters": []
+  },
+  {
+    "row": 21,
+    "nucleus": "98Mo",
+    "observable": "reduced transition probability B(E2)",
+    "source_exists": true,
+    "page_count": 1,
+    "locator_in_range": false,
+    "control_characters": []
+  },
+  {
+    "row": 22,
+    "nucleus": "98Mo",
+    "observable": "transition ratio B(E3)/B(E2)",
+    "source_exists": true,
+    "page_count": 8,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 23,
+    "nucleus": "98Mo",
+    "observable": "transition ratio B(E3)/B(E2)",
+    "source_exists": true,
+    "page_count": 8,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 24,
+    "nucleus": "102Ru",
+    "observable": "upward ground state transition probability B(E1)up",
+    "source_exists": true,
+    "page_count": 7,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 25,
+    "nucleus": "102Ru",
+    "observable": "summed upward electric dipole strength sum B(E1)up",
+    "source_exists": true,
+    "page_count": 7,
+    "locator_in_range": true,
+    "control_characters": [
+      7,
+      7
+    ]
+  },
+  {
+    "row": 26,
+    "nucleus": "102Ru",
+    "observable": "total observed magnetic dipole strength sum B(M1)up",
+    "source_exists": true,
+    "page_count": 7,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 27,
+    "nucleus": "102Ru",
+    "observable": "local observed magnetic dipole strength sum B(M1)up",
+    "source_exists": true,
+    "page_count": 7,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 28,
+    "nucleus": "98Zr",
+    "observable": "mean lifetime tau",
+    "source_exists": true,
+    "page_count": 6,
+    "locator_in_range": true,
+    "control_characters": []
+  },
+  {
+    "row": 29,
+    "nucleus": "100Zr",
+    "observable": "intrinsic quadrupole deformation beta_2",
+    "source_exists": true,
+    "page_count": 5,
+    "locator_in_range": true,
+    "control_characters": [
+      8,
+      7
+    ]
+  }
+]

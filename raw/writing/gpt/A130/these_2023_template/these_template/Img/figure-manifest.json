@@ -1,10 +1,10 @@
 {
   "generator": "system/scripts/a130_latex_figures.py",
   "producer": "G80 (Gemini Figure Producer)",
-  "version": "v2.2-round2",
+  "version": "parent-merged-nine-accepted-figures",
   "generated_utc": "2026-11-13T02:15:33.092756+00:00",
   "target_directory": "raw/writing/gpt/A130/these_2023_template/these_template/Img",
-  "figures_count": 7,
+  "figures_count": 9,
   "figures": [
     {
       "id": "occupancy-centroids",
@@ -30,7 +30,9 @@
         "Not an experimental single-particle state (ESPE) extraction",
         "Removal only defined for n > 0; addition only defined for n < g"
       ],
-      "caption": "Particle-occupancy dependence of addition/removal energies, continuous derivative, and spectral centroid in a single-j degenerate shell model."
+      "caption": "Particle-occupancy dependence of addition/removal energies, continuous derivative, and spectral centroid in a single-j degenerate shell model.",
+      "generator": "system/scripts/a130_latex_figures.py",
+      "generator_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
     },
     {
       "id": "gamma-measure",
@@ -54,7 +56,9 @@
         "Density peak is a coordinate Jacobian projection, not a potential well",
         "Does not include dynamic pairing or microscopic particle-rotor polarization"
       ],
-      "caption": "Isotropic geometric phase-space volume measure and probability distribution for the triaxial shape coordinate."
+      "caption": "Isotropic geometric phase-space volume measure and probability distribution for the triaxial shape coordinate.",
+      "generator": "system/scripts/a130_latex_figures.py",
+      "generator_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
     },
     {
       "id": "digital-energy-response",
@@ -86,7 +90,9 @@
         "No charge-carrier drift simulation or preamplifier noise profile",
         "Not an in-situ nuclear detector calibration"
       ],
-      "caption": "Digital trapezoidal filter ballistic deficit and flat-top mitigation under varying pulse collection rise times."
+      "caption": "Digital trapezoidal filter ballistic deficit and flat-top mitigation under varying pulse collection rise times.",
+      "generator": "system/scripts/a130_latex_figures.py",
+      "generator_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
     },
     {
       "id": "cfd-phase-convergence",
@@ -119,7 +125,9 @@
         "Error values are empirical maxima of 20 discrete phase samples, not an analytic continuous bound",
         "No electronic noise, timing discriminator walk, or jitter included"
       ],
-      "caption": "Digital CFD sub-clock phase walk timing error and interpolation convergence with sampling clock interval."
+      "caption": "Digital CFD sub-clock phase walk timing error and interpolation convergence with sampling clock interval.",
+      "generator": "system/scripts/a130_latex_figures.py",
+      "generator_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
     },
     {
       "id": "shape-moments",
@@ -137,7 +145,9 @@
         "Isotropic ground state is a quantum angular momentum singlet, not an exposure time-average",
         "Scalar sum q2 = sum B(E2; 0+ -> 2_n+) includes zero-point fluctuations and self-terms, not proving rigid deformation alone"
       ],
-      "caption": "Conceptual distinction between isotropic laboratory state, deformed body-fixed reference spheroid, and scalar E2 quadrupole correlation network."
+      "caption": "Conceptual distinction between isotropic laboratory state, deformed body-fixed reference spheroid, and scalar E2 quadrupole correlation network.",
+      "generator": "system/scripts/a130_latex_figures.py",
+      "generator_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
     },
     {
       "id": "six-region-map",
@@ -155,7 +165,9 @@
         "Annotated explicitly as selected examples / not exhaustive territory labels",
         "Anchored on 133Ce triaxiality benchmark"
       ],
-      "caption": "Comparative landscape of experimental probes, verified isotope examples, and observational boundaries across six nuclear mass regions."
+      "caption": "Comparative landscape of experimental probes, verified isotope examples, and observational boundaries across six nuclear mass regions.",
+      "generator": "system/scripts/a130_latex_figures.py",
+      "generator_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
     },
     {
       "id": "chapter-dependency",
@@ -173,7 +185,57 @@
         "Differentiates forward deductive path from backward empirical constraints",
         "Does not substitute for section-level mathematical derivations"
       ],
-      "caption": "Dependency and feedback architecture among the five thesis chapters, linking questions, microscopic models, triaxial modes, cross-region tests, and in-beam spectroscopy."
+      "caption": "Dependency and feedback architecture among the five thesis chapters, linking questions, microscopic models, triaxial modes, cross-region tests, and in-beam spectroscopy.",
+      "generator": "system/scripts/a130_latex_figures.py",
+      "generator_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
+    },
+    {
+      "id": "mode-mixing-avoided-crossing",
+      "type": "teaching_model",
+      "generator": "system/scripts/a130_mode_mixing_figure.py",
+      "generator_sha256": "bfaf8a30dbd2171c0fd105efc781079f4b1bcb324c7a203791ef6363244e66a9",
+      "producer": "G85 Gemini/high plus parent narrow geometry correction",
+      "parameters": {
+        "V_arbitrary_energy": 0.8,
+        "mean_energy_arbitrary": 5.0,
+        "detuning": [
+          -4.0,
+          4.0
+        ]
+      },
+      "boundaries": [
+        "Orthogonal quantum two-state teaching model, not oscillator frequency-squared spectrum",
+        "Basis probabilities, not measured EM intensities"
+      ],
+      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/mode-mixing-avoided-crossing.pdf",
+      "pdf_sha256": "f8d50454af23da2fdd19308e7e844e02cc8b96a7b509cb3033cd021da8da5729",
+      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/mode-mixing-avoided-crossing.svg",
+      "svg_sha256": "3b2a180bdc3342f50644677c8a31e695d2794d1e01bc7c8725fb4ca46396f5ac"
+    },
+    {
+      "id": "seniority-node-accessibility",
+      "type": "teaching_model",
+      "generator": "system/scripts/a130_seniority_node_figure.py",
+      "generator_sha256": "002f13cc18f66cc3f435baf9d79d4b985c110f9761fe4ad0fe83cf855082b971",
+      "producer": "G84 Gemini/high",
+      "parameters": {
+        "Omega": [
+          5,
+          6
+        ],
+        "v": 2
+      },
+      "boundaries": [
+        "Single-j same-seniority one-body E2 model",
+        "Allowed discrete particle numbers shown; continuous curve is only a guide",
+        "Not lifetime or real-nucleus prediction"
+      ],
+      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/seniority-node-accessibility.pdf",
+      "pdf_sha256": "6f824e9d551556feb213b3c626f1b7b4d772eb361ae209608f74d09d48b420bb",
+      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/seniority-node-accessibility.svg",
+      "svg_sha256": "10a90b217fb7a7a4b6ccf1411f5544c99e5524cadcf70d6f72d1a080bc83fbc1"
     }
-  ]
+  ],
+  "updated_utc": "2026-11-13T11:34:15.951987+00:00",
+  "generator_scope": "The base generator produces the first seven figures; additional figures use their own per-figure Python generators."
 }

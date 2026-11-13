@@ -1,0 +1,15 @@
+{
+  "section": "3.1",
+  "status": "content-admitted-layout-pending",
+  "timestamp": "2026-11-13T06:07:21.515150+00:00",
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-1.tex",
+  "output_tex_sha256": "abd35e720a06c5fdce590bfb16590362b4c01f3800c34610c47eb9fe54b854ce",
+  "checks": [
+    "ConstantpositiveB/C one-dimensionalflatmeasure oscillator units/frequency/Gaussian/variance checked.",
+    "Closure connection betweenq momentsandtransitionresponses retained; no falsevariance-vsRME opposition.",
+    "K0 not itselfevenI; additionalintrinsicRy(pi) condition explicit.",
+    "Removed falseamplitude-adiabatic equivalence; local expansionwidth/geometry discussed separately.",
+    "Projection constructs trialspace, not automatically exacteigenstates; no strict90deg chirality requirement."
+  ],
+  "parent_scope": "Three narrowly scoped introductory/notation paragraphs edited; coreprose byGemini."
+}

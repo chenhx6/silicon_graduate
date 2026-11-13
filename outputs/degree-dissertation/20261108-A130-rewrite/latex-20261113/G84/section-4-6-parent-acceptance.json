@@ -1,0 +1,12 @@
+{
+  "section_id": "4.6",
+  "verdict": "accepted-content-pending-common-bib-layout-and-compile",
+  "canonical_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-6.tex",
+  "sha256": "763b37de5295ec5bec7cc6bfdb89e730990322e4047435b1ede1ad0b57365c0a",
+  "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-6.json",
+  "ledger_sha256": "48c1a9aa877366a5b76e75003bfa619bb6fd02b596229d2774253c515f6b1016",
+  "figure_visual_checked": true,
+  "independent_Fock_control": "pass",
+  "goal_remains_active": true,
+  "integration": "27-section clean preview; final production collection and figures hash-matched"
+}

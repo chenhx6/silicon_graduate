@@ -196,5 +196,7 @@
     "display_equations_count": 19,
     "math_fidelity": "100% display equations identical, inline math enriched with explicit metric/weight distinctions"
   },
-  "target_sha256": "7da9f4be6a5993defb52052ea928dcddbebb02822c3bae2cf672da38fbf9d9ef"
+  "target_sha256": "7da9f4be6a5993defb52052ea928dcddbebb02822c3bae2cf672da38fbf9d9ef",
+  "parent_final_tex_sha256": "7da9f4be6a5993defb52052ea928dcddbebb02822c3bae2cf672da38fbf9d9ef",
+  "integration_status": "included-in27-section-clean-preview"
 }

@@ -1,0 +1,118 @@
+{
+  "agent": "T14",
+  "task": "G81 3.2 窄范围推导与来源核查",
+  "status": "completed-archive-gate-passed",
+  "contract": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G81/next-3-2-contract.json",
+  "deliverable": "correction.tex",
+  "scope": "未修改合同、主 tex、Bib、其他 ledger，未 commit；本结果为父任务与 G81 的可采纳修正，不是对真实核的实验证实。",
+  "sources": [
+    {
+      "id": "BM-II",
+      "path": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "verified": "本地原作 PDF 页 212–215，印页 190–193；重点查看 190–192 页：式 (4-296)–(4-307)，尤其原页图像核查 (4-296)、(4-297)、(4-299) 和 (4-307)。印页 193 已读，进入 (4-310) 后续跃迁式。",
+      "findings": [
+        "固定 I 的 Casimir 基线为 A1 I(I+1)；体固定 I_- 对应湮灭算符。",
+        "式 (4-302) 的频率是大 I 局域近似；(4-305) 对偶 A 的内禀离散对称性给出态筛选，(4-306)–(4-307) 给出靠近软模时更严格的有效条件。"
+      ]
+    },
+    {
+      "id": "Shimizu-Matsuzaki-Matsuyanagi-2005",
+      "title": "High-K Precession modes: Axially symmetric limit of wobbling motion",
+      "doi": "10.1103/PhysRevC.72.014306",
+      "version": "arXiv:nucl-th/0412074v2, 2004-12-27；公开预印本，与期刊版本分页可能不同",
+      "url": "https://arxiv.org/pdf/nucl-th/0412074",
+      "path": "raw/papers/gpt/query/20261113-A130-precession-limits/shimizu-matsuzaki-matsuyanagi-2005-nucl-th-0412074v2.pdf",
+      "sha256": "6566edd91dc5765a21241ac553f599faf0037d1cadf4113edbe1d969645e97c7",
+      "size_bytes": 478034,
+      "retrieved_at_utc": "2026-11-13T03:30:05.999109+00:00",
+      "archive_required": true,
+      "verified": "原作 PDF 第 2–3 页，Sec. II，式 (1)–(11) 及轴对称极限段；第 5–6 页 Sec. III B 对内禀高 K 与 RPA 极限的说明。全文以 hbar=1。",
+      "findings": [
+        "轴对称于主转轴时横向惯量相等，旋转系 wobbling 频率可非零；垂直于主轴的对称轴对应横向零模。",
+        "高 K 源于多准粒子内禀排列；进动带绕垂直轴集体旋转，实验室系相邻跃迁能与旋转系固定 I 频率不能混同。"
+      ],
+      "archive_status": "canonical raw 文件及 manifest 已建立；scoped archive gate 通过，详见 archive-receipt.json。",
+      "local_search": "按作者、arXiv 号、DOI 与相关文件名搜索本地馆藏，未定位该原件；取得 arXiv 公开原作全文，并非出版商最终排版版。",
+      "source_page": "knowledge/sources/shimizu-2005-high-k-precession.md",
+      "manifest": "raw/papers/gpt/query/20261113-A130-precession-limits/manifest.json",
+      "retrieved_at_basis": "T14 下载文件原始文件系统 mtime，近似"
+    }
+  ],
+  "items": [
+    {
+      "id": "units",
+      "contract_location": "3.2.2–3.2.3、Q3",
+      "issue": "同一 I 同时承载有量纲对易式、无量纲自旋与 A=ℏ²/(2J)，且旋转频率漏 ℏ。",
+      "correction": "L=ℏ I，I 为无量纲自旋量子数；[I_i,I_j]=−iε_ijk I_k，[L_i,L_j]=−iℏε_ijk L_k；H=ΣA_k I_k²，ω_rot=ℏ I/J1，ℏω_wob=2I√[(A2−A1)(A3−A1)]。",
+      "priority": "must-fix"
+    },
+    {
+      "id": "boson",
+      "contract_location": "3.2.3",
+      "issue": "须给出与体固定负对易匹配的产生湮灭算符，不能沿用正对易号的定义。",
+      "correction": "局部 I1≈I>0 时 a=(I2−iI3)/√(2I)，a†=(I2+iI3)/√(2I)，[a,a†]≈1。取 α=I(d2+d3), β=I(d2−d3)，b=cosh(r)a+sinh(r)a†，tanh(2r)=β/α。",
+      "priority": "must-fix"
+    },
+    {
+      "id": "baseline",
+      "contract_location": "3.2.3",
+      "issue": "A1 I² 可作为领先经典量，但缺少保留固定自旋 Casimir 的 I 项；局域零点能同为次阶，不能将该差别说成精确结果。",
+      "correction": "采用 A1 I(I+1)+ℏω(n+1/2) 的 BM 近似；频率保持领先 I 阶。",
+      "priority": "must-fix"
+    },
+    {
+      "id": "zero-limit",
+      "contract_location": "3.2.4 极限 (1)",
+      "issue": "J2→J1 时把主轴 1 称作对称轴。",
+      "correction": "若 J1=J2≠J3，惯量张量对称轴为 3，轴 1 在与 3 垂直的简并平面；频率趋零。Bogoliubov 变换在极限处奇异，不能继续将零频解释为受控独立振子。",
+      "priority": "must-fix"
+    },
+    {
+      "id": "nonzero-limit",
+      "contract_location": "3.2.4 极限 (2)",
+      "issue": "J2=J3 时将轴 1 说成非对称轴，并无条件宣称非零解被禁。",
+      "correction": "若 J2=J3≠J1，惯量张量对称轴为 1；J1>J2 时局域固定 I 间隔形式为 2I(A2−A1)>0。其物理实现须区分 K=0 纯集体、形式对称陀螺与高 K 内禀准粒子态。",
+      "priority": "must-fix"
+    },
+    {
+      "id": "geometry",
+      "contract_location": "3.2.4、3.2.1",
+      "issue": "惯量简并被直接等同于形状非对称度消失，几何轴和动力学轴可能混同。",
+      "correction": "轴对称内禀形状与保持同一旋转对称性的惯量张量给出横向惯量简并；仅凭惯量简并不能反推几何形状轴对称。刚体与无旋流惯量排序依赖模型及 gamma/轴约定。",
+      "priority": "must-fix"
+    },
+    {
+      "id": "high-K",
+      "contract_location": "3.2.4",
+      "issue": "高 K 进动不能作为 K=0 纯集体绕对称轴旋转，也不能把两种频率直接等同。",
+      "correction": "Shimizu 等式 (8) 是旋转系频率；高 K 由内禀排列提供，对称轴垂直方向发生集体进动。实验室系 E(K+1)−E(K)=ℏ²(K+1)/J_perp，大 K 的领先项是 ℏ²K/J_perp；区别固定 I 局域频率及实验室系跨 I 跃迁。",
+      "priority": "must-fix"
+    },
+    {
+      "id": "stability",
+      "contract_location": "3.2.2",
+      "issue": "稳定性须说明经典固定角动量模型、三个惯量互异及能量极值类型；不能把最小惯量轴的稳定状态说成 yrast。",
+      "correction": "最大惯量轴严格极小且线性稳定，最小惯量轴严格极大且线性稳定、中间惯量轴为不稳定鞍点；最小惯量轴是高能稳定分支。量子 yrast 的局域取向是大 I 对应，不能当作自动严格定理。",
+      "priority": "must-fix"
+    },
+    {
+      "id": "finite-I",
+      "contract_location": "3.2.5",
+      "issue": "R21≠1 被标为有限 I 严格普遍性质；n 不能随意贴到任意三个能级。",
+      "correction": "固定惯量一般不保证有限 I 等间距，也不排除特例等间距。明确离散对称性、态连续性和声子指认后再构造比值；靠近软模必须检查 BM (4-307)，n≪I 本身不充分。",
+      "priority": "must-fix"
+    }
+  ],
+  "checks": {
+    "algebra": "用 [I2,I3]=−iI1 得 [a,a†]=I1/I；α²−β²=4 I² d2 d3；变换 b=cosh(r)a+sinh(r)a†、tanh(2r)=β/α 消去反常二次项。",
+    "axisymmetric_exact": "形式对称陀螺 A2=A3=A⊥，E(I,K1)=A⊥I(I+1)+(A1−A⊥)K1²。令 K1=I−n，则 E=A1 I(I+1)+(A⊥−A1)[I+2In−n²]；有限 I 的 n² 项说明通常非谐，实际 n 须满足对称约束。",
+    "equal_spacing_counterexample": "独立用 NumPy 对未投影 I=1、(A1,A2,A3)=(1,2,3) 的 3×3 转子矩阵求本征值为 (3,4,5)，间距比约 1；仅为算符反例，不认定为物理多声子序列。",
+    "approximation": "d2,d3>0，I≫(2n+1)(d2+d3)/(2√(d2d3))；极小惯量轴可对 −H 做相同稳定性分析，其能量激发方向相反。",
+    "evidence_boundary": "未核其他原作中的刚体/无旋转子轴标签和全 gamma 区间排序，G81 不得把本窄审扩写为对这些内容的逐项证实。"
+  },
+  "parent_actions": [
+    "由父任务审查并转交 G81 的具体替换片段；本代理不修改章节。",
+    "父任务统筹索引与 Bib 更新；本代理未改 index、Bib 或主 tex。"
+  ]
+}

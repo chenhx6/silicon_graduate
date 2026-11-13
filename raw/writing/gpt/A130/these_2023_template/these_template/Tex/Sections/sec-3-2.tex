@@ -1,0 +1,168 @@
+\section{稳定转轴与摆动的局域极限}\label{sec:3-2}
+
+在第2.4节与第2.6节中，我们建立了非轴对称原子核的玻尔四极形状坐标、主轴参考系定义，以及微观动能响应与转动惯量的解耦分析；在第3.1节中，阐明了非轴对称转动态由大振幅集体转动与围绕特定取向的小振幅激发复合而成的动力学架构。在处理具有稳定三轴四极形变（$0^\circ < \gamma < 60^\circ$）的原子核体系时，一个首要的物理问题是：非轴对称核在角动量守恒的约束下，究竟倾向于绕哪一个内禀主轴转动？微观流体力学结构如何决定各主轴转动惯量的相对大小？围绕稳定主轴展开的小振幅横向摇摆（wobbling motion）如何通过局域大自旋代数求解，其振动频率与两种截然不同的轴对称极限又有何深刻联系？
+
+本节系统讨论三轴转子主轴标记体系、刚体与无旋流体转动惯量的对立机制、欧拉经典稳态与相空间拓扑分离线，并在体轴无量纲角动量反常对易代数下严格推导大自旋小振幅双横向展开与纯转子摆动频率公式。进一步辨析两种轴对称极限下的频率行为与高 $K$ 进动态界限，最后评估有限自旋非谐效应与多声子谐振假说的物理适用边界。
+
+\subsection{三轴形变转子的主轴标记与惯量机制对立}\label{sec:3-2-1}
+
+描述三轴形变核的几何与转动动力学，首先需要严格固定几何主轴与坐标轴的对应关系。在玻尔主轴参考系下，四极形变椭球的三个主半轴通常按几何尺度排序标记为短轴（short, $s$ 轴）、中间轴（intermediate, $m$ 轴）和长轴（long, $l$ 轴）：
+\begin{equation}\label{eq:3-2-axes-order}
+R_s < R_m < R_l.
+\end{equation}
+在标准扇区 $0^\circ < \gamma < 60^\circ$ 内，三轴形状由形变幅度 $\beta$ 与三轴不对称角 $\gamma$ 唯一确定，$\gamma = 30^\circ$ 对应最大三轴不对称度。为了开展动力学求解，通常将几何主轴映射为直角坐标轴 $(1, 2, 3)$ 或 $(x, y, z)$。定义各主轴上的转动惯量为 $\mathcal{J}_k > 0$（$k = 1, 2, 3$），相应的能量量纲转动常数定义为：
+\begin{equation}\label{eq:3-2-rot-constants}
+A_k \equiv \frac{\hbar^2}{2\mathcal{J}_k} \quad (k = 1, 2, 3).
+\end{equation}
+
+在低能核结构中，刚体转动与无旋流体转动代表了核质量传输的两种极端理想参考模型：
+\begin{enumerate}
+\item \textbf{经典刚体转动惯量模型}：若核内全部核子如同经典刚体一样随椭球形状做整体旋转，其局部速度场为 $\mathbf{v}(\mathbf{r}) = \boldsymbol{\omega} \times \mathbf{r}$。绕第 $k$ 主轴的刚体转动惯量直接由物质密度分布的二阶矩给出：
+\begin{equation}\label{eq:3-2-rigid-inertia}
+\mathcal{J}_k^{\text{rig}} = \int \rho(\mathbf{r}) (r^2 - x_k^2) \, d^3r \propto R_i^2 + R_j^2 \quad (i \ne j \ne k).
+\end{equation}
+根据几何半轴不等式~\eqref{eq:3-2-axes-order}，由两较大半轴平方和决定的转动惯量最大。因此刚体模型严格预言：绕最短几何轴 $s$ 的转动惯量最大，绕最长几何轴 $l$ 的转动惯量最小：
+\begin{equation}\label{eq:3-2-rigid-order}
+\mathcal{J}_s^{\text{rig}} > \mathcal{J}_m^{\text{rig}} > \mathcal{J}_l^{\text{rig}} \implies A_s^{\text{rig}} < A_m^{\text{rig}} < A_l^{\text{rig}} ,
+\end{equation}
+\item \textbf{流体力学无旋流转动惯量模型}：由于核子为费米子且具有强空间重叠与配对关联，原子核并非刚性刚体。在玻尔—莫特森经典集体模型中，原子核集体转动被视作不可压缩无旋理想流体的表面波运动，速度场满足无旋条件 $\nabla \times \mathbf{v} = 0$。微观动能积分直接给出无旋流体转动惯量（Bohr 1952，Bohr 与 Mottelson 1953）~\cite{bohr-1952-surface-particle-coupling,bohr-mottelson-1953-collective-individual-original}：
+\begin{equation}\label{eq:3-2-irrot-inertia}
+\mathcal{J}_k^{\text{irr}} = 4 B \beta^2 \sin^2\left(\gamma - \frac{2\pi}{3} k\right) \quad (k = 1, 2, 3),
+\end{equation}
+其中 $B$ 为四极质量参数。在标准扇区 $0^\circ < \gamma < 60^\circ$ 内，三轴惯量分布呈现强烈的 $\gamma$ 敏感性。特别地，在扇区中点 $\gamma = 30^\circ$ 附近：
+\begin{equation}\label{eq:3-2-irrot-order}
+\mathcal{J}_m^{\text{irr}} \propto \sin^2(90^\circ) = 1, \quad \mathcal{J}_s^{\text{irr}} \propto \sin^2(30^\circ) = \frac{1}{4}, \quad \mathcal{J}_l^{\text{irr}} \propto \sin^2(-30^\circ) = \frac{1}{4}.
+\end{equation}
+无旋流模型明确预言：绕几何中间轴 $m$ 的转动惯量最大，可达其余两轴惯量的 4 倍左右：
+\begin{equation}
+\mathcal{J}_m^{\text{irr}} > \mathcal{J}_s^{\text{irr}}, \mathcal{J}_l^{\text{irr}} \implies A_m^{\text{irr}} < A_s^{\text{irr}}, A_l^{\text{irr}}.
+\end{equation}
+\end{enumerate}
+
+上述对比表明：主转动惯量排序深刻依赖于核内质量传输机制。在真实原子核中，由于残余配对关联、单粒子轨道占据与科里奥利力的复杂交织，有效转动惯量并不存在逐轴介于刚体与无旋流之间的普遍上下界包络；有效惯量的大小和方向强烈依赖于微观准粒子组态与推转频率（详见第2.6节与第3.3节）。在后续推导中，我们直接将具有最大转动惯量（最小转动常数）的主轴声明为转动主轴 1，以保持数学体系的普遍自洽。
+
+\subsection{欧拉稳态转动与非主轴相空间分离线}\label{sec:3-2-2}
+
+为了确定三轴核在固定总角动量下的转动稳定性，首先考察经典欧拉陀螺动力学。设转子在主轴系下的无量纲角动量分量为 $\mathcal{I}_k$（$k = 1, 2, 3$），体系哈密顿量为无外力矩转动的动能：
+\begin{equation}\label{eq:3-2-classical-H}
+E = \sum_{k=1}^3 A_k \mathcal{I}_k^2 = \frac{1}{2} \sum_{k=1}^3 \frac{\hbar^2 \mathcal{I}_k^2}{\mathcal{J}_k}.
+\end{equation}
+在孤立体系中，总角动量模长严格守恒，角动量矢量端点被严格限制在半经典角动量球面上：
+\begin{equation}\label{eq:3-2-I-sphere}
+\mathcal{I}_1^2 + \mathcal{I}_2^2 + \mathcal{I}_3^2 = I^2.
+\end{equation}
+
+设主轴按惯量大小降序排列为 $\mathcal{J}_1 > \mathcal{J}_2 > \mathcal{J}_3$，即转动常数满足：
+\begin{equation}\label{eq:3-2-A-order}
+A_1 < A_2 < A_3.
+\end{equation}
+在固定总角动量模长且三个惯量互异的前提下，能量曲面在三条主轴上的极值与稳定性具有完全不同的拓扑性质：
+\begin{enumerate}
+\item \textbf{最大惯量轴 1}（$\mathcal{I}_1 = \pm I, \mathcal{I}_2 = \mathcal{I}_3 = 0$）：能量取全域严格局域极小值 $E_{\min} = A_1 I^2$。微小横向扰动受到正曲率恢复力的约束，角动量矢量在相空间中围绕该轴形成闭合的稳定轨道，属于线性稳定。在量子体系中，该状态对应给定自旋 $I$ 下能量最低的 yrast 态分支；
+\item \textbf{最小惯量轴 3}（$\mathcal{I}_3 = \pm I, \mathcal{I}_1 = \mathcal{I}_2 = 0$）：能量取全域严格局域极大值 $E_{\max} = A_3 I^2$。微小扰动同样受封闭轨道约束，线性稳定，但它对应高能分支，并非固定自旋的最低能（yrast）分支；
+\item \textbf{中间惯量轴 2}（$\mathcal{I}_2 = \pm I, \mathcal{I}_1 = \mathcal{I}_3 = 0$）：能量处于双曲鞍点，是线性不稳定的。在经典相空间中，通过该鞍点的能量等值线构成分离线（separatrix），将相空间严格划分为围绕轴 1 旋进与围绕轴 3 旋进的两类拓扑互不相交的动力学轨道~\cite{book-raduta-coherent-states}。
+\end{enumerate}
+
+\subsection{小振幅双横向展开与纯转子摆动频率}\label{sec:3-2-3}
+
+我们进而建立量子力学下围绕最大惯量轴 1 稳定转动的局域谐振微扰理论。设主转动轴为最大惯量轴 1，转动常数满足 $A_1 < A_2 \le A_3$，定义相对差：
+\begin{equation}\label{eq:3-2-d-params}
+d_2 \equiv A_2 - A_1 > 0, \quad d_3 \equiv A_3 - A_1 > 0.
+\end{equation}
+采用无量纲体轴角动量算符 $\mathcal{I}_k = \hat{J}_k / \hbar$，满足体坐标反常负对易关系（负号源于体坐标系相对于实验室系的相对逆旋转）~\cite{book-bohr-mottelson-nuclear-structure-vol2}：
+\begin{equation}\label{eq:3-2-body-fixed-commutation}
+[\mathcal{I}_a, \mathcal{I}_b] = -i \epsilon_{abc} \mathcal{I}_c \implies [\mathcal{I}_2, \mathcal{I}_3] = -i \mathcal{I}_1 \approx -i I.
+\end{equation}
+
+为了与体轴系的负对易号匹配，定义产生与湮灭算符为（Bohr 与 Mottelson 1975 专著第二卷第 190 页 Eq.(4-297)）~\cite{book-bohr-mottelson-nuclear-structure-vol2}：
+\begin{equation}\label{eq:3-2-boson-mapping}
+a \equiv \frac{\mathcal{I}_2 - i \mathcal{I}_3}{\sqrt{2I}}, \quad a^\dagger \equiv \frac{\mathcal{I}_2 + i \mathcal{I}_3}{\sqrt{2I}}.
+\end{equation}
+直接验算其玻色对易子：
+\begin{equation}\label{eq:3-2-boson-commutator}
+[a, a^\dagger] = \frac{1}{2I} [\mathcal{I}_2 - i \mathcal{I}_3, \mathcal{I}_2 + i \mathcal{I}_3] = \frac{i}{I} [\mathcal{I}_2, \mathcal{I}_3] \approx \frac{i}{I} (-i I) = 1.
+\end{equation}
+反演得到横向分量的算符表达：
+\begin{equation}\label{eq:3-2-transverse-coords}
+\mathcal{I}_2 = \sqrt{\frac{I}{2}} (a^\dagger + a), \quad \mathcal{I}_3 = i \sqrt{\frac{I}{2}} (a - a^\dagger).
+\end{equation}
+
+在大自旋极限下，将量子哈密顿量以固定自旋 Casimir 项 $A_1 I(I+1)$ 为基线展开：
+\begin{align}
+\hat{H} &\approx A_1 I(I+1) + d_2 \mathcal{I}_2^2 + d_3 \mathcal{I}_3^2 \nonumber \\
+&= A_1 I(I+1) + \alpha (a^\dagger a + a a^\dagger) + \beta (a^{\dagger 2} + a^2), \label{eq:3-2-boson-H}
+\end{align}
+其中展开系数为：
+\begin{equation}\label{eq:3-2-alpha-beta}
+\alpha = \frac{I}{2} (d_2 + d_3), \quad \beta = \frac{I}{2} (d_2 - d_3).
+\end{equation}
+
+引入 Bogoliubov 正规变换：
+\begin{equation}\label{eq:3-2-bogoliubov}
+b = \cosh r \, a + \sinh r \, a^\dagger, \quad \tanh(2r) = \frac{\beta}{\alpha},
+\end{equation}
+在同一局域近似下满足玻色对易子 $[b, b^\dagger] \approx 1$。哈密顿量对角化为局域谐振子形式：
+\begin{equation}\label{eq:3-2-diagonalized-H}
+\hat{H} \approx A_1 I(I+1) + \hbar \omega_{\text{wob}} \left( b^\dagger b + \frac{1}{2} \right),
+\end{equation}
+其中纯转子摆动声子能量在所保留的二次近似中由变换久期方程给出（Bohr 与 Mottelson 1975 专著第二卷第 191 页 Eq.(4-302)）~\cite{book-bohr-mottelson-nuclear-structure-vol2}：
+\begin{equation}\label{eq:3-2-wobbling-freq-constants}
+\hbar \omega_{\text{wob}} = 2 \sqrt{\alpha^2 - \beta^2} = 2I \sqrt{d_2 d_3} = 2I \sqrt{(A_2 - A_1)(A_3 - A_1)}.
+\end{equation}
+
+定义绕主轴 1 转动的经典转动角速度能量标度为 $\hbar \omega_{\text{rot}} = 2 A_1 I = \hbar^2 I / \mathcal{J}_1$。摆动激发能量可紧凑表示为惯量比值形式：
+\begin{equation}\label{eq:3-2-wobbling-freq-inertia}
+\hbar \omega_{\text{wob}} = \hbar \omega_{\text{rot}} \sqrt{\frac{(\mathcal{J}_1 - \mathcal{J}_2)(\mathcal{J}_1 - \mathcal{J}_3)}{\mathcal{J}_2 \mathcal{J}_3}}.
+\end{equation}
+
+\textbf{近似有效条件}：上述推导属于局域大自旋渐近近似。若采用经典能标 $|\boldsymbol{L}| = \hbar I$ 或固定角动量 Casimir 模长 $\hbar \sqrt{I(I+1)}$，须相应微调高阶零点能修正。对于 Bogoliubov 声子量子数 $n = b^\dagger b$，Bohr 与 Mottelson 专著第二卷第 192 页 Eq.(4-307) 给出了具体的有效性判据~\cite{book-bohr-mottelson-nuclear-structure-vol2}：
+\begin{equation}\label{eq:3-2-validity-condition}
+I \gg (2n + 1) \frac{d_2 + d_3}{2\sqrt{d_2 d_3}} = (2n + 1) \frac{(A_2 - A_1) + (A_3 - A_1)}{2\sqrt{(A_2 - A_1)(A_3 - A_1)}}.
+\end{equation}
+该判据深刻表明：当系统接近轴对称或软模极限（$d_2 \to 0$）时，比值分母发散，横向量子涨落急剧放大，要求自旋 $I$ 必须极大才能维持局域展开的自洽性；同时还应根据内禀态的离散点群对称性筛选实际允许的态矢。
+
+\subsection{两种轴对称极限与零频佯谬辨析}\label{sec:3-2-4}
+
+式~\eqref{eq:3-2-wobbling-freq-inertia} 展现了丰富的极限行为。在核物理讨论中，常出现“核形状一旦轴对称，摆动频率必然严格为零”的直观断言。我们通过两种截然不同的动力学惯量简并极限，辨析这一说法的精确适用条件。
+
+\subsubsection{极限一：惯量张量横向简并极限（$\mathcal{J}_1 = \mathcal{J}_2 \equiv \mathcal{J}_\perp > \mathcal{J}_3$）}
+
+设动力学惯量张量发生横向简并，使得轴 1 与轴 2 具有相等的转动惯量：
+\begin{equation}\label{eq:3-2-limit1-def}
+\mathcal{J}_1 = \mathcal{J}_2 \equiv \mathcal{J}_\perp \implies A_1 = A_2 \equiv A_\perp \implies d_2 = A_2 - A_1 = 0.
+\end{equation}
+代入式~\eqref{eq:3-2-wobbling-freq-constants} 与式~\eqref{eq:3-2-wobbling-freq-inertia}：
+\begin{equation}\label{eq:3-2-limit1-zero}
+\lim_{\mathcal{J}_2 \to \mathcal{J}_1} \hbar \omega_{\text{wob}} = 2I \sqrt{0 \cdot (A_3 - A_1)} = 0.
+\end{equation}
+物理机制十分清晰：当主轴 1 与主轴 2 的惯量完全相等时，横向恢复力常数 $\alpha - \beta = I(A_2 - A_1) = 0$ 严格为零。此时围绕轴 1 的小振幅束缚振动失去恢复力势阱，转动在 1-2 简并平面内做无阻碍的连续偏转，摆动运动退化为经典对称陀螺的自由进动。在此极限下，惯量各向异性驱动的摆动频率严格为零。需注意，惯量张量的简并不自动等价于质量密度几何形状的长椭或扁椭极限，形状几何与动力学惯量不可混同。
+
+\subsubsection{极限二：惯量绕主转动轴简并极限（$\mathcal{J}_2 = \mathcal{J}_3 \equiv \mathcal{J}_\perp < \mathcal{J}_1$）}
+
+设动力学惯量张量满足垂直于轴 1 的两个惯量相等：
+\begin{equation}\label{eq:3-2-limit2-def}
+\mathcal{J}_2 = \mathcal{J}_3 \equiv \mathcal{J}_\perp \implies A_2 = A_3 \equiv A_\perp > A_1 \implies d_2 = d_3 = A_\perp - A_1.
+\end{equation}
+代入频率公式~\eqref{eq:3-2-wobbling-freq-constants}：
+\begin{equation}\label{eq:3-2-limit2-nonzero}
+\lim_{\mathcal{J}_2 \to \mathcal{J}_3} \hbar \omega_{\text{wob}} = 2I \sqrt{(A_\perp - A_1)^2} = 2I (A_\perp - A_1) = \hbar \omega_{\text{rot}} \left( \frac{\mathcal{J}_1}{\mathcal{J}_\perp} - 1 \right) \ne 0.
+\end{equation}
+上式给出非零频率。然而，这并不意味着轴对称均质核可以产生真实的非零频横向集体摆动带。量子力学基本原理表明：无结构的连续轴对称介质绕其对称轴不存在集体量子转动自由度；在式~\eqref{eq:3-2-limit2-nonzero} 中，若描述自旋主要沿对称轴取向的状态，必须指定内禀角动量构型，其典型微观物理来源为内部价准粒子的内禀总角动量（轨道加自旋 $\mathbf{J}_{\text{intr}} = \sum_i (\mathbf{l}_i + \mathbf{s}_i)$）顺排提供（高 $K$ 异能态或单粒子进动态，参见 Shimizu 等人 2005）~\cite{shimizu-2005-high-k-precession}。在高 $K$ 进动带中，实验室系能级能量由 $E_K(I) = A_\perp I(I+1) + (A_1 - A_\perp) K^2$ 给出，相继自旋能差为 $E_K(K+1) - E_K(K) = \hbar^2 (K+1) / \mathcal{J}_\perp$，在大 $K$ 时才近似为 $\hbar^2 K / \mathcal{J}_\perp$。需要强调的是，固定自旋 $I$ 的局域旋转参考系激发频率与固定内禀投影 $K$ 的实验室系相邻能带跃迁能差属于不同的物理比较范畴，两者的数值与动力学定义不能直接等同。因此，极限二下的非零特征频率对应的是由内部角动量构型支撑的高 $K$ 进动现象，它在物理自由度与跃迁特征上严格有别于三维非轴对称核芯由形状各向异性驱动的横向集体摆动。
+
+\subsection{有限自旋非谐性与谐振声子图景的破缺}\label{sec:3-2-5}
+
+前述小振幅展开建立在渐近大自旋（$I \gg 1$）与低声子数（$n \ll I$）的简谐假说之上。在束 $\gamma$ 谱学实验中，摆动运动常被直观描述为一系列等间距的声子能带：$E(n, I) \approx E_0(I) + n \hbar \omega_{\text{wob}}$（$n = 0, 1, 2, \dots$），其中 $n=0$ 为基带（yrast 带），$n=1$ 为单声子带，$n=2$ 为双声子带。然而，这一简谐图景在有限自旋核中面临深刻的理论边界。
+
+\textbf{固定惯量不保证有限自旋严格简谐}：固定转动惯量 $\mathcal{J}_k$ 仅规定了唯象转子哈密顿量算符的形式。在有限自旋 $I$ 下，量子刚体三轴转子模型哈密顿量在有限矩阵基底下的对角化（Davydov-Filippov 模型）表明，能级间距并不恒定，它与基于微观波函数的粒子—转子模型（PRM）或自洽推转计算存在本质区别。定义相继激发能差比值为：
+\begin{equation}\label{eq:3-2-anharmonic-ratio}
+R_{21} \equiv \frac{E(n=2, I) - E(n=1, I)}{E(n=1, I) - E(n=0, I)}.
+\end{equation}
+在纯简谐声子模型中恒有 $R_{21} = 1$。然而对于有限自旋 $I$：
+\begin{enumerate}
+\item 运动学展开截断效应：高阶展开项引入了非简谐自作用，使得有效恢复力随激发数 $n$ 增加而偏离理想谐振；
+\item 相空间有限边界效应：当激发数 $n$ 增大并接近自旋 $I$ 时，摆动进动角大幅扩张，相轨迹逼近中间惯量轴的拓扑分离线，局域谐振微扰完全破缺；
+\item $R_{21}$ 不普遍等于 1 并不意味着在每组允许参数下必然严格不等：在某些特定的形变与惯量参数组合下，低能态的有限差分比值可能偶然接近 1（例如在未施加离散点群投影的转子数学矩阵对角化中，特定参数下低自旋本征值可恰好呈现等间距，但这并不赋予其物理摆动声子意义）；
+\item 绝不能在缺乏带间跃迁选择定则与电磁矩阵元检验的情况下，主观地将实测能谱中紧邻的任意三个能级机械命名为 $n=0, 1, 2$ 摆动声子态。必须先确立同一转动参考系、内禀离散对称性、态矢连续性以及带间 $\Delta I = 1$ 的 $E2$ 跃迁主导指纹，方可开展声子性质判定。
+\end{enumerate}
+
+最终，简谐摆动仅是非轴对称转子在高自旋极限下的渐近有效模型。在讨论实际原子核时，必须将这一局域展开置于自洽粒子—转子耦合与微观推转 RPA 响应的更广阔框架中进行检验（转入第3.3节与第3.6节）。

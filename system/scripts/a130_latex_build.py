@@ -39,12 +39,14 @@ def hash_file(fpath):
     return h.hexdigest()
 
 def scan_production_inputs(workdir):
-    workdir = str(workdir)
+    workdir = os.path.abspath(str(workdir))
     input_hashes = {}
     scan_exts = ('.tex', '.bib', '.bst', '.bbx', '.cbx', '.sty', '.cls', '.cfg', '.pdf', '.png', '.jpg', '.eps')
     for root, dirs, files in os.walk(workdir):
-        # Skip temporary build or inactive folders
-        if '_demo_inactive' in root or '.git' in root or 'tmp' in root:
+        # Skip temporary build or inactive subfolders relative to workdir
+        rel_root = os.path.relpath(root, workdir)
+        parts = rel_root.split(os.sep) if rel_root != '.' else []
+        if any(p in ('_demo_inactive', '.git', 'tmp') for p in parts):
             continue
         for fname in sorted(files):
             if fname.lower().endswith(scan_exts):

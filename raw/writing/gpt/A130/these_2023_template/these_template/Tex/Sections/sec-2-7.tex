@@ -1,0 +1,282 @@
+\section{有效电磁与弱算符}\label{sec:2-7}
+
+在第2.1节中，我们建立了不可约球张量代数与 Wigner-Eckart 严格定理；在第2.2节与第2.3节中，分别推演了自洽平均场、单极驱动壳演化以及 BCS 准粒子基态的构建方案；在第2.4节至第2.6节中，进一步将微观组态与宏观集体坐标 $(\beta, \gamma)$、欧拉角三维对称性恢复及微观响应惯量联系起来。然而，不论是通过大尺度组态相互作用（LSSM）对角化，还是通过投影平均场或准粒子无规相位近似（QRPA）计算，多体理论直接获得的本征态矢通常局限于一个人为截断的有界模型空间（如价壳层空间 $P$）。而在束 $\gamma$ 谱学与放射性衰变实验所直接测量的，是物理定态之间跃迁的绝对衰变几率、激发态寿命、分支比以及多极强度 $B(E2)$、$B(M1)$ 与 $B(GT)$。
+
+这便引出了本节需要回答的核心问题：\textbf{同一个微观多体波函数，为何需要配备与截断模型空间相容的有效电磁与弱跃迁算符？直接在截断价空间中使用自由核子的裸算符，会在何种层面上引入系统偏差？}
+
+本节将从全多体 Hilbert 空间的 $P/Q$ 正交划分与幺正解耦表象出发，阐明有效哈密顿量与有效跃迁算符协同重整化的微观机制，并揭示单体截断近似下诱导多体算符的物理含义；进而系统推演电多极巨共振核芯极化诱导的 $E2$ 有效电荷及其对空间径向波函数与轨道的敏感依赖，澄清其在不同模型空间下的非单调行为；剖析介子交换流与核芯一阶自旋极化对磁偶极 $M1$ 轨道 $g_l$ 与自旋 $g_s$ 因子的微观重整化；随后在完备状态空间中给出 Gamow-Teller (GT) 算符与 Ikeda 差和定则 $S_- - S_+ = 3(N-Z)$ 的严密对易子代数推导，严格区分裸算符几何差和定则与实测衰变率中轴矢量耦合常数 $g_A^2$ 的物理定义，并指明价空间截断对完备闭合性的破坏机制；最后剖析 $g_A$ 淬灭的核多体组态混合与亚核子自由度双重根源，指明将淬灭因子作普适标量常数外推的物理边界与反例。关于实用跃迁率常数与多极混合比 $\delta(E2/M1)$ 符号相位的在束角分布反演约定，移交第5.7节与第5.9节；单 $j$ 壳层 Seniority 代数半满壳 $B(E2)$ 相消定理与 $K$ 异能态阻碍度移交第4.6节；$\beta$ 缓发粒子发射与衰变能窗网络移交第4.7节。
+
+\subsection{Hilbert 空间截断、幺正解耦与有效算符自洽性}\label{sec:2-7-1}
+
+在完全严格的非相对论 $A$ 核子量子多体问题中，原子核系统的物理状态定义在无限维的完全 Hilbert 空间 $\mathcal{H}$ 内。强相互作用本征方程为：
+\begin{equation}\label{eq:2-7-full-schrodinger}
+\hat{H} |\Psi_\alpha\rangle = E_\alpha |\Psi_\alpha\rangle,
+\end{equation}
+其中 $\hat{H} = \hat{T} + \hat{V}_{NN} + \hat{V}_{3N}$ 包含动能、两体强核力及必要的三体力。由于 $\mathcal{H}$ 的自由度随粒子数与单粒子基矢基底呈指数级增长，实际核结构模型必须将全空间正交分解为低能模型空间（Model Space，亦称价空间，投影算符为 $P$）与其正交补空间（Excluded Space，投影算符为 $Q$）：
+\begin{equation}\label{eq:2-7-PQ-projectors}
+\begin{aligned}
+P &= \sum_{i \in P} |\phi_i\rangle \langle \phi_i|, \quad Q = \sum_{j \in Q} |\phi_j\rangle \langle \phi_j|, \\
+P^2 &= P, \quad Q^2 = Q, \quad P + Q = \mathbf{1}, \quad PQ = QP = 0.
+\end{aligned}
+\end{equation}
+模型空间 $P$ 通常由费米面附近的若干活跃单粒子轨道构成（例如 $sd$ 壳、$pf$ 壳或 $A\approx 130$ 区的 $50\text{--}82$ 质中子主壳），而深能隙下的满壳核芯与高激发连续谱自由度则被划入 $Q$ 空间。
+
+在形式多体理论中，Feshbach 或 Bloch-Horowitz 投影通过能量依赖的有效哈密顿量 $\hat{H}_{\mathrm{eff}}(E) = P\hat{H}P + P\hat{H}Q(E - Q\hat{H}Q)^{-1}Q\hat{H}P$ 建立价空间方程。其模型态投影 $|\Phi_\alpha\rangle = P|\Psi_\alpha\rangle$ 相互之间一般不满足正交性，具有非平庸的度规矩阵 $N_{\alpha\beta} = \langle \Phi_\alpha | \Phi_\beta \rangle = \langle \Psi_\alpha | P | \Psi_\beta \rangle \ne \delta_{\alpha\beta}$。
+
+现代多体物理（如李-铃木方法、大久保变换或介质相似重整化群 IMSRG）更普遍采用保范数的幺正解耦变换（Unitary Decoupling）框架~\cite{book-suhonen-from-nucleons-to-nucleus}。引入一个全局幺正变换算符 $\hat{U} = \exp(\hat{S})$，其中生成元满足反厄米性 $\hat{S}^\dagger = -\hat{S}$，算符满足：
+\begin{equation}\label{eq:2-7-unitary-U}
+\hat{U}^\dagger \hat{U} = \hat{U} \hat{U}^\dagger = \mathbf{1}.
+\end{equation}
+将全空间哈密顿量 $\hat{H}$ 与任意可观测物理跃迁算符 $\hat{\mathcal{O}}$ 作相容的幺正旋转：
+\begin{equation}\label{eq:2-7-unitary-transform}
+\hat{H}' = \hat{U}^\dagger \hat{H} \hat{U}, \quad \hat{\mathcal{O}}' = \hat{U}^\dagger \hat{\mathcal{O}} \hat{U}.
+\end{equation}
+要求变换算符 $\hat{U}$ 满足价空间解耦条件，即消去联系 $P$ 与 $Q$ 的非对角块哈密顿矩阵元：
+\begin{equation}\label{eq:2-7-decoupling-condition}
+Q \hat{H}' P = 0, \quad P \hat{H}' Q = 0.
+\end{equation}
+在此条件下，价空间 $P$ 成为变换后哈密顿量 $\hat{H}'$ 的不变子空间。在价空间内求解低能本征问题：
+\begin{equation}\label{eq:2-7-Heff-model}
+\hat{H}_{\mathrm{eff}} |\Phi_\alpha\rangle = E_\alpha |\Phi_\alpha\rangle, \quad \hat{H}_{\mathrm{eff}} \equiv P \hat{H}' P, \quad |\Phi_\alpha\rangle = P |\Phi_\alpha\rangle.
+\end{equation}
+全空间物理态 $|\Psi_\alpha\rangle$ 由 $|\Psi_\alpha\rangle = \hat{U} |\Phi_\alpha\rangle$ 给出，且由 $\hat{U}$ 的幺正性保证基底度规正交归一：$\langle \Phi_\alpha | \Phi_\beta \rangle = \langle \Psi_\alpha | \hat{U} \hat{U}^\dagger | \Psi_\beta \rangle = \delta_{\alpha\beta}$。
+
+考虑两物理本征态之间的真跃迁矩阵元：
+\begin{equation}\label{eq:2-7-true-matrix-element}
+\langle \Psi_\alpha | \hat{\mathcal{O}} | \Psi_\beta \rangle = \langle \Phi_\alpha | \hat{U}^\dagger \hat{\mathcal{O}} \hat{U} | \Phi_\beta \rangle = \langle \Phi_\alpha | \hat{\mathcal{O}}' | \Phi_\beta \rangle.
+\end{equation}
+由于模型态波函数完全处于价空间 $P$ 内（$|\Phi_\alpha\rangle = P |\Phi_\alpha\rangle$），上式可表述为价空间有效算符矩阵元：
+\begin{equation}\label{eq:2-7-Oeff-matrix-element}
+\langle \Psi_\alpha | \hat{\mathcal{O}} | \Psi_\beta \rangle = \langle \Phi_\alpha | P \hat{\mathcal{O}}' P | \Phi_\beta \rangle \equiv \langle \Phi_\alpha | \hat{\mathcal{O}}_{\mathrm{eff}} | \Phi_\beta \rangle, \quad \hat{\mathcal{O}}_{\mathrm{eff}} = P \left( \hat{U}^\dagger \hat{\mathcal{O}} \hat{U} \right) P.
+\end{equation}
+
+式~\eqref{eq:2-7-Oeff-matrix-element} 呈现出两个重要推论：
+\begin{enumerate}
+\item \textbf{哈密顿量与跃迁算符重整化的协同性：}
+使 $\hat{H}$ 解耦的同一个幺正变换算符 $\hat{U}$，原则上必须对称地施加于跃迁算符 $\hat{\mathcal{O}}$ 之上。若在模型空间求解有效哈密顿量 $\hat{H}_{\mathrm{eff}}$ 的本征态，却在计算跃迁矩阵元时直接使用自由核子的裸算符 $\hat{\mathcal{O}}_{\mathrm{bare}} = P \hat{\mathcal{O}} P$，相当于略去了变换算符 $\hat{U}$ 所携带的 $P\text{--}Q$ 空间关联修正。在守恒矢量流等受对称性保护的特殊跃迁中，裸算符可以是合理的精确近似；但在涉及强组态混合与介子交换流的通道中，直接使用裸算符属于需要显式评估其遗漏关联的单体截断近似。
+\item \textbf{截断近似与诱导多体算符（Induced Many-Body Operators）：}
+设初始物理算符 $\hat{\mathcal{O}} = \hat{\mathcal{O}}^{(1)}$ 为单体算符（例如单粒子电荷或自旋）。利用 Baker-Campbell-Hausdorff (BCH) 公式展开，旋转后的算符一般会产生高阶多体换位项：
+\begin{equation}\label{eq:2-7-BCH-expansion}
+\hat{\mathcal{O}}' = \hat{\mathcal{O}} + [\hat{\mathcal{O}}, \hat{S}] + \frac{1}{2!} [[\hat{\mathcal{O}}, \hat{S}], \hat{S}] + \dots = \hat{\mathcal{O}}^{(1)}_{\mathrm{eff}} + \hat{\mathcal{O}}^{(2)}_{\mathrm{eff}} + \hat{\mathcal{O}}^{(3)}_{\mathrm{eff}} + \dots.
+\end{equation}
+在传统壳模型实践中，计算通常局限于单体算符框架（$\hat{\mathcal{O}}_{\mathrm{eff}} \approx \hat{\mathcal{O}}^{(1)}_{\mathrm{eff}}$），将诱导的多体效应平均吸收为单体基矢下的有效电荷与淬灭因子。
+\end{enumerate}
+
+\subsection{电多极跃迁、核芯极化与 E2 有效电荷}\label{sec:2-7-2}
+
+在低能核结构谱学中，电四极跃迁 $E2$ 是揭示原子核集体形变与转动-振动行为的核心探针。在长波长、点状核子近似下，裸电多极算符定义为不可约球张量：
+\begin{equation}\label{eq:2-7-bare-E-op}
+\hat{\mathcal{M}}(E\lambda, \mu) = \sum_{i=1}^A e_i r_i^\lambda Y_{\lambda\mu}(\hat{\mathbf{r}}_i),
+\end{equation}
+其中核子坐标 $\mathbf{r}_i$ 相对原子核质心定义（在严格计算中需扣除质心假运动），在点核子表象下自由质子取裸电荷 $e_p = 1e$，自由中子取裸电荷 $e_n = 0e$（该设定在长波长电磁相互作用点核子近似下使用，不涉及有限分辨率下中子内禀电荷分布）。根据第2.1节已建立的统一 Wigner-Eckart 定理相位规范~\cite{book-suhonen-from-nucleons-to-nucleus}：
+\begin{equation}\label{eq:2-7-wigner-eckart-phase}
+\langle j_f m_f | T_{\lambda\mu} | j_i m_i \rangle = (-1)^{2\lambda} \frac{C_{j_i m_i \lambda\mu}^{j_f m_f}}{\sqrt{2j_f + 1}} \langle j_f || T_\lambda || j_i \rangle,
+\end{equation}
+对于整数多极度 $\lambda$，$(-1)^{2\lambda} \equiv 1$。从初态 $|I_i\rangle$ 向末态 $|I_f\rangle$ 的电磁辐射下行跃迁的约化跃迁几率 $B(E\lambda)$ 严格定义为：
+\begin{equation}\label{eq:2-7-BE2-def}
+B(E\lambda; I_i \to I_f) = \frac{1}{2I_i + 1} |\langle I_f || \hat{\mathcal{M}}(E\lambda) || I_i \rangle|^2.
+\end{equation}
+库仑激发中从基态向上跃迁的逆过程，由统计权重因子联系：
+\begin{equation}\label{eq:2-7-up-down-relation}
+\begin{aligned}
+B(E\lambda; I_f \to I_i) &= \frac{2I_i + 1}{2I_f + 1} B(E\lambda; I_i \to I_f), \\
+\text{例如 } B(E2; 0^+_{\mathrm{gs}} \to 2^+_1) &= 5 B(E2; 2^+_1 \to 0^+_{\mathrm{gs}}).
+\end{aligned}
+\end{equation}
+
+在辐射场量子理论中，电多极跃迁发射率 $T(E\lambda)$ 在国际单位制（SI）下表达为：
+\begin{equation}\label{eq:2-7-TE-rate-si}
+T(E\lambda) = \frac{2}{\varepsilon_0 \hbar} \frac{\lambda + 1}{\lambda [(2\lambda + 1)!!]^2} \left(\frac{E_\gamma}{\hbar c}\right)^{2\lambda + 1} B(E\lambda).
+\end{equation}
+式~\eqref{eq:2-7-TE-rate-si} 中前置因子含真空介电常数 $1/(4\pi\varepsilon_0)$，采用高斯单位制时该系数对应转换为 $4\pi$。正如第5.9节中所严格核验与统一的实用数值公式，利用精细结构常数 $\alpha = e^2/(4\pi\varepsilon_0 \hbar c) \approx 1/137.04$ 与 $\hbar c \approx 197.33\,\mathrm{MeV}\cdot\mathrm{fm}$，将物理常数完全吸收后，电四极发射跃迁几率写作实用标准式~\cite{book-suhonen-from-nucleons-to-nucleus}：
+\begin{equation}\label{eq:2-7-TE2-practical}
+T(E2) = C_{E2} [E_\gamma(\mathrm{MeV})]^5 B(E2), \quad C_{E2} \approx 1.2250 \times 10^9 \quad [\mathrm{s}^{-1}\,\mathrm{MeV}^{-5}\,(e^2\,\mathrm{fm}^4)^{-1}].
+\end{equation}
+当 $B(E2)$ 采用微观单位 $e^2\,\mathrm{fm}^4$ 时，代入上式直接给出以 $\mathrm{s}^{-1}$ 为单位的衰变几率；若改用宏观单位 $e^2\,\mathrm{b}^2$（注意 $1\,\mathrm{b}^2 = 10^4\,\mathrm{fm}^4$，故数值上 $B(E2)(e^2\mathrm{fm}^4) = 10^4 B(E2)(e^2\mathrm{b}^2)$），相应的速率系数转换为 $C_{E2} \approx 1.2250 \times 10^{13}\,\mathrm{s}^{-1}\mathrm{MeV}^{-5}(e^2\mathrm{b}^2)^{-1}$。有关由激发态实验平均寿命 $\tau$、光子分支比 $b_k$ 与内转换系数反演提取绝对 $B(E2)$ 的完整测量模型，统一对齐至第5.9节。
+
+若在模型空间 $P$ 中直接采用中子裸电荷 $e_n = 0$，则任何闭壳外单中子核素（例如 $^{209}\mathrm{Pb}$ 的中子单粒子跃迁）的预言电四极跃迁几率均恒等于零。然而实验上在单中子核中测得了明确的有限 $E2$ 跃迁，其强度常可达单粒子 Weisskopf 单位量级。
+
+这一物理现象的微观本质是核芯极化（Core Polarization）~\cite{book-bohr-mottelson-nuclear-structure}。价核子（无论是质子还是中子）通过长程同位旋标量与同位旋矢量四极残余核力，与满壳核芯发生粒子-空穴耦合，在核芯中感应出虚的四极电荷形变，微观上对应于将核芯质子虚激发至高能巨四极共振态（Giant Quadrupole Resonance, GQR，等标激发能 $E_{\mathrm{ISGQR}} \approx 64 A^{-1/3}\text{ MeV}$，等矢激发能 $E_{\mathrm{IVGQR}} \approx 130 A^{-1/3}\text{ MeV}$）。
+
+因此，在截断价空间中，单体算符吸收核芯极化后，核子获得单体有效电荷：
+\begin{equation}\label{eq:2-7-eff-charge-def}
+e_i^{\mathrm{eff}} = e_i^{\mathrm{bare}} + \delta e_i, \quad e_p^{\mathrm{eff}} = 1e + \delta e_p, \quad e_n^{\mathrm{eff}} = 0e + \delta e_n.
+\end{equation}
+极化电荷 $\delta e$ 在同位旋空间分解为等标（IS）与等矢（IV）两部分：
+\begin{equation}\label{eq:2-7-isospin-pol-charge}
+\delta e_i = \delta e^{(0)} + \tau_{3i} \delta e^{(1)}, \quad \tau_3 = \begin{cases} -1 & (\text{质子}) \\ +1 & (\text{中子}) \end{cases},
+\end{equation}
+使得 $\delta e_p = \delta e^{(0)} - \delta e^{(1)}$，$\delta e_n = \delta e^{(0)} + \delta e^{(1)}$。由于质中核力在标量道表现为强吸引，中子在核芯周围感应出质子核芯极化，导致常用经验参数中中子获得可观的有效电荷 $\delta e_n \approx 0.5e$，质子有效电荷则相应增强（在常见壳模型如 $sd$ 壳或 $A\approx 130$ 区空间中，常用经验参数为 $e_p^{\mathrm{eff}} \approx 1.5e\text{--}1.7e, e_n^{\mathrm{eff}} \approx 0.5e\text{--}0.7e$ 作为特定价空间的有效例）~\cite{book-nuclear-shell-model-70-years}。
+
+有效电荷的大小由价核子径向波函数与核芯粒子-空穴对的微观极化积分决定，并不存在“模型空间变大有效电荷普遍单调减小”的简单法则：
+\begin{enumerate}
+\item \textbf{空间径向波函数与弱束缚边界：} 极化电荷具有空间重叠敏感性。当原子核趋近中子滴线或处于低束缚能单粒子轨道时，价核子波函数向核外弥散（如晕态或低轨道角动量 $s, p$ 态），与紧致核芯质子云的空间重叠减少，极化电荷 $\delta e$ 因而受到压低。
+\item \textbf{单粒子轨道依赖性：} 不同的轨道 $(n, l, j)$ 具有不同的节点特征与空间局域性，其耦合核芯振动声子的微观矩阵元存在轨道差异。
+\item \textbf{模型空间扩大与非单调反馈：} 虽然从单粒子截断走向无截断从头算极限时，核芯激发自由度最终被显式包含而恢复裸电荷；但在实际壳模型截断下，由单主壳层扩充至包含特定跨壳侵入轨道时，新引入的轨道间相互作用或形变驱动力可能改变基态组态混合比，进而局部改变某些通道的有效电荷需求。因此，有效电荷对模型空间的依赖由微观核芯激发自由度的划分边界决定，需结合具体相互作用核验。
+\end{enumerate}
+
+\subsection{磁多极跃迁、有效 g 因子与介子交换流}\label{sec:2-7-3}
+
+磁多极跃迁算符探测的是原子核内的微观电流与自旋磁矩分布。自由核子的裸磁偶极算符写作：
+\begin{equation}\label{eq:2-7-M1-bare}
+\hat{\mathcal{M}}(M1, \mu) = \sqrt{\frac{3}{4\pi}} \mu_N \sum_{i=1}^A \left[ g_l^{\mathrm{bare}}(i) \hat{\mathbf{l}}_i + g_s^{\mathrm{bare}}(i) \hat{\mathbf{s}}_i \right]_\mu,
+\end{equation}
+其中 $\mu_N = \frac{e\hbar}{2 m_p}$ 为国际单位制（SI）下的核磁子（量纲为 $\mathrm{J}\cdot\mathrm{T}^{-1}$ 或 $\mathrm{A}\cdot\mathrm{m}^2$），角动量算符 $\hat{\mathbf{l}}$ 与 $\hat{\mathbf{s}}$ 均已无量纲化（已除以 $\hbar$）。自由核子的裸磁回旋比（$g$ 因子）精确测定值为：
+\begin{equation}\label{eq:2-7-free-gfactors}
+g_l^p = 1, \quad g_l^n = 0, \quad g_s^p \approx +5.5857, \quad g_s^n \approx -3.8261.
+\end{equation}
+磁偶极约化跃迁几率 $B(M1)$ 的单位为 $\mu_N^2$：
+\begin{equation}\label{eq:2-7-BM1-def}
+B(M1; I_i \to I_f) = \frac{1}{2I_i + 1} |\langle I_f || \hat{\mathcal{M}}(M1) || I_i \rangle|^2.
+\end{equation}
+统一对齐至第5.9节的换算体系，磁偶极辐射衰变跃迁几率实用式为：
+\begin{equation}\label{eq:2-7-TM1-rate}
+\begin{aligned}
+T(M1) &= C_{M1} [E_\gamma(\mathrm{MeV})]^3 B(M1)(\mu_N^2), \\
+C_{M1} &\approx 1.758 \times 10^{13} \quad [\mathrm{s}^{-1}\,\mathrm{MeV}^{-3}\,(\mu_N^2)^{-1}].
+\end{aligned}
+\end{equation}
+
+在介质重整化过程中，自旋磁因子 $g_s$ 在核内核子中通常发生淬灭，而轨道磁因子 $g_l$ 则出现微小的等矢位移。其微观物理机制源于两种物理过程~\cite{book-suhonen-from-nucleons-to-nucleus,book-bohr-mottelson-nuclear-structure}：
+\begin{enumerate}
+\item \textbf{介子交换流（MEC）驱动的轨道 $g_l$ 修正：} 强核力由虚介子交换传递。带电 $\pi$ 介子在质子与中子之间跃迁时产生空间跨核子对流，这一非单体电磁流无法简单归结为单点核子的轨道环流，相当于在有效单粒子磁矩中引入等矢修正项。在双闭壳核附近的特定模型空间中，常用经验参数表示为：
+\begin{equation}\label{eq:2-7-delta-gl}
+g_l^{\mathrm{eff}} = g_l^{\mathrm{bare}} + \delta g_l, \quad \delta g_l \approx -0.10 \tau_3, \quad \text{即 } g_l^{p,\mathrm{eff}} \approx 1.10, \quad g_l^{n,\mathrm{eff}} \approx -0.10.
+\end{equation}
+需强调，式~\eqref{eq:2-7-delta-gl} 中的数值属于特定单粒子空间的有效唯象参数，反映了介子流引起的等矢重整化趋势，不代表全核区普适恒定的常数。
+\item \textbf{一阶核芯自旋极化驱动的自旋 $g_s$ 淬灭：} 考虑自旋-轨道劈裂的单粒子轨道（$j_> = l + 1/2$ 与 $j_< = l - 1/2$）。价核子通过自旋-同位旋残余相互作用 $\hat{V}_{\sigma\tau} \sim \boldsymbol{\sigma}_1 \cdot \boldsymbol{\sigma}_2 \, \boldsymbol{\tau}_1 \cdot \boldsymbol{\tau}_2$ 激发核芯核子发生自旋翻转跃迁（$j_> \to j_<$），形成巨磁偶极共振（Giant $M1$ Resonance，激发能通常在 $8\text{--}10\text{ MeV}$）。这种 $1^+$ 粒子-空穴相干激发在价核子处感应出反向极化，削弱了自旋磁矩，导致有效自旋 $g$ 因子呈现淬灭：
+\begin{equation}\label{eq:2-7-gs-quench}
+g_s^{\mathrm{eff}} \approx (0.7\text{--}0.8) \, g_s^{\mathrm{bare}}.
+\end{equation}
+此外，高阶张量力重整化还在有效磁算符中诱导出一个二阶张量复合算符：
+\begin{equation*}
+g_p [\mathbf{Y}_2 \times \hat{\mathbf{s}}]_1 ,
+\end{equation*}
+体现了原子核内自旋磁化与空间四极形状的各向异性耦合。
+\end{enumerate}
+
+对于角动量和宇称均允许的同一条跃迁，$E2$ 与 $M1$ 辐射可以相干混合。相应的无量纲辐射振幅比记为 $\delta$。第5.7节和第5.9节分别讨论相位、角关联与偏振反演，以及辐射率和单位约定。
+
+\subsection{Gamow-Teller 算符与 Ikeda 差和定则的严格推导}\label{sec:2-7-4}
+
+弱相互作用 $\beta$ 衰变是连接同量异位素核态的关键探针。在无轨道角动量转移（$\Delta L = 0$）的允许跃迁中，微观单体衰变算符包含 Fermi 算符与 Gamow-Teller (GT) 算符：
+\begin{equation}\label{eq:2-7-weak-operators}
+\hat{\mathcal{O}}(F) = \sum_{k=1}^A t_\pm(k), \quad \hat{\mathcal{O}}(GT, \mu) = \sum_{k=1}^A \sigma_\mu(k) t_\pm(k),
+\end{equation}
+其中同位旋阶梯算符遵循核物理标准同位旋约定：
+\begin{equation}\label{eq:2-7-isospin-ladder-convention}
+\begin{aligned}
+t_3 |n\rangle &= +\frac{1}{2} |n\rangle, \quad t_3 |p\rangle = -\frac{1}{2} |p\rangle; \\
+t_- |n\rangle &= |p\rangle \quad (\beta^-\text{ 衰变}), \quad t_+ |p\rangle = |n\rangle \quad (\beta^+\text{/EC 衰变}).
+\end{aligned}
+\end{equation}
+单核子同位旋对易关系为：
+\begin{equation}\label{eq:2-7-isospin-commutator}
+[t_+(k), t_-(k')] = \delta_{kk'} 2 t_3(k).
+\end{equation}
+
+在球张量表象下，定义 $\beta^\mp$ 衰变方向的裸 Gamow-Teller 跃迁算符为：
+\begin{equation}\label{eq:2-7-beta-GT-pm}
+\hat{\beta}^-_{GT}(\mu) = \sum_{k=1}^A \sigma_\mu(k) t_-(k), \quad \hat{\beta}^+_{GT}(\mu) = \sum_{k=1}^A \sigma_\mu(k) t_+(k).
+\end{equation}
+其厄米共轭算符具有相因子转换：
+\begin{equation}\label{eq:2-7-hermitian-conjugate}
+[\hat{\beta}^-_{GT}(\mu)]^\dagger = \sum_{k=1}^A \sigma_\mu^\dagger(k) t_-^\dagger(k) = (-1)^\mu \sum_{k=1}^A \sigma_{-\mu}(k) t_+(k) = (-1)^\mu \hat{\beta}^+_{GT}(-\mu).
+\end{equation}
+定义总 Gamow-Teller 跃迁强度为对所有可能可达末态 $|f_\mp\rangle$ 的约化跃迁几率求和：
+\begin{equation}\label{eq:2-7-sum-definitions}
+S_- = \sum_{f_-} B(GT^-; 0^+_i \to 1^+_{f_-}), \quad S_+ = \sum_{f_+} B(GT^+; 0^+_i \to 1^+_{f_+}),
+\end{equation}
+其中单态间的 $B(GT)$ 按标准无因次算符矩阵元定义（\textbf{不包含耦合常数 $g_A^2$}）：
+\begin{equation}\label{eq:2-7-BGT-bare-def}
+B(GT^\mp; 0^+_i \to 1^+_{f_\mp}) = \sum_{M_f \mu} |\langle 1^+_{f_\mp} M_f | \hat{\beta}^\mp_{GT}(\mu) | 0^+_i \rangle|^2 = |\langle 1^+_{f_\mp} || \hat{\boldsymbol{\sigma}} t_\mp || 0^+_i \rangle|^2.
+\end{equation}
+
+现在我们在完全 Hilbert 空间中推导著名的 \textbf{Ikeda 差和定则（Ikeda Sum Rule）}~\cite{book-suhonen-from-nucleons-to-nucleus}。将 $S_-$ 展开，并利用完全末态空间的完备性闭合条件 $\sum_{f_-} |f_-\rangle \langle f_-| = \mathbf{1}$：
+\begin{align}\label{eq:2-7-Sminus-derivation}
+S_- &= \sum_{f_-} \sum_\mu \langle 0^+_i | [\hat{\beta}^-_{GT}(\mu)]^\dagger | f_-\rangle \langle f_- | \hat{\beta}^-_{GT}(\mu) | 0^+_i \rangle \nonumber\\
+&= \sum_\mu (-1)^\mu \langle 0^+_i | \hat{\beta}^+_{GT}(-\mu) \left( \sum_{f_-} |f_-\rangle \langle f_-| \right) \hat{\beta}^-_{GT}(\mu) | 0^+_i \rangle \nonumber\\
+&= \sum_\mu (-1)^\mu \langle 0^+_i | \hat{\beta}^+_{GT}(-\mu) \hat{\beta}^-_{GT}(\mu) | 0^+_i \rangle.
+\end{align}
+同理，对 $S_+$ 做相同的展开并变换求和角标 $\mu \to -\mu$，得到：
+\begin{equation}\label{eq:2-7-Splus-derivation}
+S_+ = \sum_\mu (-1)^\mu \langle 0^+_i | \hat{\beta}^-_{GT}(\mu) \hat{\beta}^+_{GT}(-\mu) | 0^+_i \rangle.
+\end{equation}
+两者相减，强度差直接转化为基态对易子的期望值：
+\begin{equation}\label{eq:2-7-diff-commutator}
+S_- - S_+ = \sum_\mu (-1)^\mu \langle 0^+_i | \left[ \hat{\beta}^+_{GT}(-\mu), \hat{\beta}^-_{GT}(\mu) \right] | 0^+_i \rangle.
+\end{equation}
+将微观坐标算符代入对易子：
+\begin{align}\label{eq:2-7-commutator-eval}
+\left[ \hat{\beta}^+_{GT}(-\mu), \hat{\beta}^-_{GT}(\mu) \right] &= \sum_{k, k'=1}^A \left[ \sigma_{-\mu}(k) t_+(k), \sigma_\mu(k') t_-(k') \right] \nonumber\\
+&= \sum_{k=1}^A \left\{ \sigma_{-\mu}(k) \sigma_\mu(k) t_+(k) t_-(k) - \sigma_\mu(k) \sigma_{-\mu}(k) t_-(k) t_+(k) \right\},
+\end{align}
+其中不同核子标号 $k \ne k'$ 的对易子严格为零。利用 Pauli 算符在同一核子上的代数性质，球分量求和满足收缩关系：
+\begin{equation}\label{eq:2-7-pauli-contraction}
+\sum_{\mu=-1}^1 (-1)^\mu \sigma_{-\mu}(k) \sigma_\mu(k) = \hat{\boldsymbol{\sigma}}(k) \cdot \hat{\boldsymbol{\sigma}}(k) = \sigma_x^2 + \sigma_y^2 + \sigma_z^2 = 3 \cdot \mathbf{1}_2.
+\end{equation}
+同时，由于同位旋对易子为标量，对 $\mu$ 求和后 Pauli 矩阵的反向项具有完全相同的缩并值 3。因此对易子对 $\mu$ 的加权和化简为：
+\begin{align}\label{eq:2-7-commutator-final}
+\sum_{\mu=-1}^1 (-1)^\mu \left[ \hat{\beta}^+_{GT}(-\mu), \hat{\beta}^-_{GT}(\mu) \right] &= \sum_{k=1}^A 3 \left( t_+(k) t_-(k) - t_-(k) t_+(k) \right) \nonumber\\
+&= 3 \sum_{k=1}^A [t_+(k), t_-(k)] = 3 \sum_{k=1}^A 2 t_3(k) \\
+&= 6 \sum_{k=1}^A t_3(k) = 6 \hat{T}_3.
+\end{align}
+原子核基态的总同位旋第三分量由中子数与质子数唯一确定：
+\begin{equation*}
+\langle 0^+_i | \hat{T}_3 | 0^+_i \rangle = \frac{1}{2}(N - Z) .
+\end{equation*}
+代入式~\eqref{eq:2-7-commutator-final}，得到完全不依赖于波函数相互作用细节的 \textbf{Ikeda 和定则}：
+\begin{equation}\label{eq:2-7-ikeda-result}
+S_- - S_+ = 6 \cdot \frac{N - Z}{2} = 3(N - Z).
+\end{equation}
+这一推导清晰地指出了系数 3 的物理根源：它来自三维空间 Pauli 自旋算符的标量平方和 $\hat{\boldsymbol{\sigma}}^2 = \sigma_x^2 + \sigma_y^2 + \sigma_z^2 = 3 \cdot \mathbf{1}_2$，既非“未配对中子数”，也非简单中子自旋投影态计数。
+
+在此需要澄清两个关键物理边界：
+\begin{enumerate}
+\item \textbf{算符代数和定则与实测衰变速率的严格解耦：}
+式~\eqref{eq:2-7-ikeda-result} 是无量纲单体算符在完备空间中的纯空间-同位旋几何代数恒等式，\textbf{其定义本身完全不包含轴矢量耦合常数 $g_A$}。在真实实验中，实测放射性衰变速率（或比较半衰期 $ft$ 值）包含弱相互作用拉氏量的耦合常数与轻子相空间积分 $f_0$：
+\begin{equation}\label{eq:2-7-ft-value}
+f_0 t_{1/2} = \frac{\kappa}{g_V^2 B(F) + g_A^2 B(GT)}, \quad \kappa = \frac{2\pi^3 \hbar^7 \ln 2}{m_e^5 c^4 G_F^2 |V_{ud}|^2} \approx 6147\text{ s}.
+\end{equation}
+若某些文献在定义跃迁几率时将耦合常数预先乘入（即令 $\widetilde{B}(GT) \equiv g_A^2 B(GT)$），则相应的强度差和必须同步带上该因子：$\widetilde{S}_- - \widetilde{S}_+ = 3 g_A^2 (N-Z)$。两者在概念定义上必须明确分开。
+\item \textbf{模型截断破坏闭合性与差和的非对称遗漏：}
+式~\eqref{eq:2-7-Sminus-derivation} 的数学基础是中间态求和在全 Hilbert 空间完备：$\sum_f |f\rangle \langle f| = \mathbf{1}$。然而在任何截断模型空间 $P$ 中，中间态求和仅限于有限个价空间基矢：$\sum_{f \in P} |f\rangle \langle f| = P \ne \mathbf{1}$。完备性被截断破坏。更重要的是，Ikeda 和定则是两个正通道 $S_-$ 与 $S_+$ 的差值。在模型空间截断下，$S_-$ 缺失了位于高能巨共振及高能连续谱的强度，而 $S_+$ 同样丢失了可能存在的未占据空穴激发通道强度。因此，截断空间中的强度差值 $\sum_{f_- \in P} B(GT^-) - \sum_{f_+ \in P} B(GT^+)$ 不保证满足 $3(N-Z)$，且在不同核素与截断方案下不具有单向必然偏小的简单单调性质。
+\end{enumerate}
+
+\subsection{轴矢量耦合常数淬灭的多源性与非普适性}\label{sec:2-7-5}
+
+通过电荷交换反应（如 $(p, n)$ 与 $(^3\mathrm{He}, t)$）在零度散射角下对原子核 Gamow-Teller 强度分布的测量表明，在低能离散态乃至局部巨共振能量窗口内，实测的 $\sum B(GT^-) - \sum B(GT^+)$ 强度通常低于自由单体 Ikeda 差和定则预言值 $3(N-Z)$。在传统大尺度壳模型等若干指定价空间的经验例中，为了复现实验低能离散跃迁的 $\log ft$ 值，通常需要引入一个有效淬灭因子 $q_A \approx 0.70\text{--}0.77$（即采用 $g_A^{\mathrm{eff}} = q_A g_A^{\mathrm{free}}$；例如 Gysbers 等在文献~\cite{gysbers-2019-ab-initio-beta-decay-quenching} 图 1 中所对比的传统模型唯象参考值 $q_A \approx 0.75$）作为特定模型空间与能窗下的有效参数。
+
+现代微观多体物理表明，强度在低能窗的不饱和不能归咎于单一物理机制，而是包含两类物理机制的共同贡献：
+\begin{enumerate}
+\item \textbf{核多体组态混合：} 核力中的非中心张量力与其他短程残余核力诱发核子间发生强烈的粒子-空穴激发（如高能 $2p\text{--}2h$ 组态），将相当一部分 Gamow-Teller 跃迁强度搬运至几十兆电子伏特的高激发能连续谱区域，超出了低能衰变乃至局部峰区测量的实验积分窗口。
+\item \textbf{介子交换与强子自由度：} 在核介质环境中，带电介子流的存在以及核子被虚激发为自旋-同位旋共振态（如 $\Delta_{33}(1232\text{ MeV})$ 共振态），产生弱两体电流（Two-Body Currents, 2BC），在单粒子轴矢量算符矩阵元中引入负相干贡献。
+\end{enumerate}
+
+近年基于手征有效场论的微观多体研究进一步考察了淬灭机制。Gysbers 等采用手征核力 Hamiltonian 结合从头算耦合簇（CC）与价空间 IMSRG 方法，研究轻核至 $^{100}\mathrm{Sn}$ 的 Gamow-Teller 衰变~\cite{gysbers-2019-ab-initio-beta-decay-quenching}；Wang 等则在双闭壳核（$^{56}\mathrm{Ni}$、$^{100}\mathrm{Sn}$、$^{132}\mathrm{Sn}$）中，基于 Skyrme 能量密度泛函（如 SGII、SkM* 等）采用 RPA 结合粒子-振动耦合（RPA+PVC）并计入手征弱两体流~\cite{wang-2026-axial-coupling-quenching-joint-effects}。多体波函数关联与弱两体流应在指定框架下配套处理。Gysbers 等的比较还表明，先加入关联或先加入两体流，会改变对淬灭“主要来源”的分配；这种归因依赖相互作用的分辨率与比较路径，不能提炼为跨模型固定的主次顺序。各计算框架还具有各自的截断、低能常数拟合输入与理论不确定度，不同模型之间的数值结果不能直接相加。
+
+更重要的是，\textbf{在科学论证上不能将低能唯象的 $q_A \approx 0.75$ 当作一个无条件的普适常数跨核区、跨过程随意套用}。这一边界具有明确的物理考量：
+\begin{itemize}
+\item \textbf{一阶禁戒（First-Forbidden, FF）弱衰变中的算符与动量非普适性：}
+在远离稳定线的中子丰富核区（如超新星 $r$-过程快中子俘获等待点核 $^{130}\mathrm{Cd}$ 或 $^{78}\mathrm{Ni}$ 邻区），一阶禁戒跃迁贡献了相当大甚至主导的衰变宽度。一禁戒算符包含不同张量秩与空间对称性的多个独立算符（例如秩为 0 的类时轴荷算符 $\gamma_5$；秩为 1 的空间矢量流 $\mathbf{r}$、$\boldsymbol{\alpha}$ 与 $\boldsymbol{\sigma}\times\mathbf{r}$；秩为 2 的张量算符 $[\boldsymbol{\sigma} \times \mathbf{r}]_2$）。Zhi 等人在特定价空间与有效相互作用下的微观计算表明~\cite{doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives}：由于软 $\pi$ 介子交换流在核介质中的特殊相干机制，一阶禁戒衰变中的类时轴荷算符表现出介质增强效应（拟合有效参数 $q_A > 1$），而空间流算符则呈现出不同程度的淬灭。尽管具体的有效拟合系数取决于所选用的价空间与相互作用模型，该结果明确表明弱衰变算符具有本质的秩与动量依赖性，不能将单一标量淬灭因子外推至所有禁戒通道。
+\item \textbf{无中微子双贝塔衰变（$0\nu\beta\beta$）的不同动量与多极权重：}
+通常的允许单 $\beta$ 跃迁采用外部动量转移 $q_{\mathrm{ext}}R/\hbar\ll1$ 的长波近似，相应多体波函数仍保留核内的费米运动。轻中微子交换机制下的 $0\nu\beta\beta$ 则涉及核子间的虚中微子传播，典型内部交换动量约为 $|\mathbf q_\nu|\sim100\text{--}200\,\mathrm{MeV}/c$，相应核矩阵元具有不同的动量和多极权重~\cite{engel-menendez-2017-double-beta-matrix-elements-review}。常用率公式可以外提 $g_A^4$，但核矩阵元及有效算符本身仍须在所用约定下一致处理。因此，低能单 $\beta$ 衰变拟合的淬灭因子不能直接移植到 $0\nu\beta\beta$ 中换算寿命。
+\end{itemize}
+
+\subsection{本节小结与后续章节接口}\label{sec:2-7-6}
+
+本节确立了连接微观模型波函数与实际在束谱学及衰变实验可观测量的算符一致性基础。主要物理结论与边界总结如下：
+\begin{enumerate}
+\item \textbf{模型截断与有效算符对偶：} 在所声明的幺正解耦构造中，有效哈密顿量与有效算符由同一变换得到，计算时应保持二者的截断精度相容。变换一般会诱导多体算符；有效电荷或淬灭因子只是把部分贡献压缩到单体形式的一种近似，具体方法是否需要这种参数化应另行判断。
+\item \textbf{电四极极化微观图像：} 在常用价空间中，经验参数 $e_p^{\mathrm{eff}} \approx 1.5e, e_n^{\mathrm{eff}} \approx 0.5e$ 反映了价核子与核芯巨四极共振粒子-空穴对的相干极化；有效电荷受单粒子径向波函数空间重叠与具体模型空间划分调制，不表现为机械的单调函数。
+\item \textbf{磁偶极双重机制：} 轨道磁矩 $g_l$ 在特定空间中通过荷电介子交换流获得微小等矢修正（$\delta g_l \approx -0.10\tau_3$）；自旋磁矩 $g_s$ 则由于一阶核芯自旋-轨道巨 $M1$ 共振激发而呈现淬灭（$g_s^{\mathrm{eff}} \approx (0.7\text{--}0.8) g_s^{\mathrm{bare}}$）。
+\item \textbf{Ikeda 和定则与完备性：} 裸 Gamow-Teller 算符在完备空间中的差和定则为 $S_- - S_+ = 3(N-Z)$，系数 3 来自 Pauli 自旋算符的标量平方和 $\hat{\boldsymbol{\sigma}}^2 = 3 \cdot \mathbf{1}_2$。此处的裸算符定义不含衰变率中的 $g_A^2$ 因子。截断中间态求和后，能否保留该差和取决于所保留空间与算符是否仍闭合相应代数；有限价空间并不自动违反、也不自动保证完整差和。
+\item \textbf{淬灭多源性与过程依赖：} 对低能跃迁拟合的 $g_A^{\mathrm{eff}}$ 同时反映所用多体波函数、被消去的空间及保留的弱流算符。组态关联与两体流的贡献应在指定实现中配套评估。一禁戒跃迁的不同秩算符可需要不同修正，其中类时轴荷存在增强的实例；这不等于所有禁戒算符具有同一增强因子。$0\nu\beta\beta$ 涉及不同的动量与多极权重，其弱流和核矩阵元修正须另行计算，不能直接移用低能单 $\beta$ 衰变拟合的单一因子。
+\end{enumerate}
+
+本节所确立的算符规范，为后续各章构筑了清晰的理论接口：
+\begin{itemize}
+\item \textbf{对第3章（三轴集体激发模式判定）：} 第3.2节（摆动运动横向与纵向分支）中带间 $E2_{\mathrm{out}}$ 与带内 $E2_{\mathrm{in}}$ 强度比、第3.5节（手征双重带对称性破缺）中特征 $B(M1)/B(E2)$ 锯齿交错选择定则，均严格建立在本节给出的多极有效电荷与有效 $g$ 因子框架之上。
+\item \textbf{对第4章（六区前沿比较与两翼探针）：} 第4.6节中单 $j$ 壳层 Seniority 代数半满壳 $B(E2)$ 严格相消证明，将承袭本节的有效单粒子矩阵元规范；第4.7节关于 $r$-过程快中子俘获等待点核的 $\beta$ 衰变与缓发中子发射概率，将直接应用本节确立的 Gamow-Teller 与一禁戒非普适淬灭理论。
+\item \textbf{对第5章（在束实验谱学技术链）：} 第5.7节关于方向角关联（DCO）与偏振测量反演多极混合比 $\delta(E2/M1)$、第5.9节关于由激发态绝对平均寿命 $\tau$、光子分支比与内转换系数提取绝对约化跃迁几率 $B(E2)$ 与 $B(M1)$ 的精确数值换算，将在本节量纲与初末态统计权定义下完全闭合。
+\end{itemize}

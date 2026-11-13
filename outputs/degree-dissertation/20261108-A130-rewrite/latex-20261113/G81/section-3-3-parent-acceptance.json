@@ -1,0 +1,11 @@
+{
+  "section_id": "3.3",
+  "verdict": "accepted-content-pending-common-bib-layout-and-compile",
+  "canonical_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-3.tex",
+  "sha256": "33b913b52ea2f0a9533d321c53b0ffa1f27d3c12fbc8aef55cea2118a6d9c230",
+  "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-3.json",
+  "ledger_sha256": "770ca1dc6925f0e5aefcac000c1e4806517841a987e92fef6ee9c9d27546d048",
+  "scope": "FA local mathematics, units, source-bounded comparisons and alternatives; no microscopic reproduction.",
+  "goal_remains_active": true,
+  "integration": "27-section clean preview; final production collection and figures hash-matched"
+}

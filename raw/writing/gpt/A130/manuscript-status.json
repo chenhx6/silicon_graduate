@@ -1,5 +1,5 @@
 {
-  "status": "writing-and-parent-review",
+  "status": "partial-research-draft",
   "scope": "non-personal-results chapters only",
   "architecture": "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md",
   "old_files_preserved": 17,
@@ -146,62 +146,71 @@
       "id": "2.7",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-2-7.tex",
       "evidence_file": "latex-evidence-ledger/section-2-7.json",
-      "state": "not-started",
+      "state": "content-admitted-typesetting-verified",
       "legacy_markdown": {
         "draft_file": "research-draft/section-2-7.md",
         "evidence_file": "evidence-ledger/section-2-7.json",
         "state": "not-started"
-      }
+      },
+      "status_note": "Accepted per G84/section-2-7-parent-acceptance.json with narrow concluding patch; citations verified.",
+      "manuscript_sha256": "bb7c2e470cf7656ed86431f835214545ceeb4486d9794fb45e6f0f1976616b83"
     },
     {
       "id": "2.8",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-2-8.tex",
       "evidence_file": "latex-evidence-ledger/section-2-8.json",
-      "state": "not-started",
+      "state": "content-admitted-typesetting-verified",
       "legacy_markdown": {
         "draft_file": "research-draft/section-2-8.md",
         "evidence_file": "evidence-ledger/section-2-8.json",
         "state": "not-started"
-      }
+      },
+      "status_note": "Accepted; citation aliases harmonized; Table 2-1 X columns; q3 normalized to match 2.1/2.4 standard ratio.",
+      "manuscript_sha256": "e99acbffce02a79342e65827729f06f3e612998c563471d5cf13f1637cde2c47"
     },
     {
       "id": "3.1",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-3-1.tex",
       "evidence_file": "latex-evidence-ledger/section-3-1.json",
-      "state": "not-started",
+      "state": "content-admitted-typesetting-verified",
       "legacy_markdown": {
         "draft_file": "research-draft/section-3-1.md",
         "evidence_file": "evidence-ledger/section-3-1.json",
         "state": "not-started"
-      }
+      },
+      "status_note": "Under draft writing by G81.",
+      "manuscript_sha256": "957538630c5b82a62edd57ee60f7599a8918bb0700af7b763ba5492e21dd2286"
     },
     {
       "id": "3.2",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-3-2.tex",
       "evidence_file": "latex-evidence-ledger/section-3-2.json",
-      "state": "not-started",
+      "state": "content-admitted-typesetting-verified",
       "legacy_markdown": {
         "draft_file": "research-draft/section-3-2.md",
         "evidence_file": "evidence-ledger/section-3-2.json",
         "state": "not-started"
-      }
+      },
+      "status_note": "Accepted per G81/section-3-2-parent-acceptance.json (unreferenced rotor figure excluded).",
+      "manuscript_sha256": "c14bf53d6d1d7cb8983ddbb7ab5d4a56fd3af33de7ca8ca2f973f00dfe261c69"
     },
     {
       "id": "3.3",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-3-3.tex",
       "evidence_file": "latex-evidence-ledger/section-3-3.json",
-      "state": "not-started",
+      "state": "content-admitted-typesetting-verified",
       "legacy_markdown": {
         "draft_file": "research-draft/section-3-3.md",
         "evidence_file": "evidence-ledger/section-3-3.json",
         "state": "not-started"
-      }
+      },
+      "manuscript_sha256": "33b913b52ea2f0a9533d321c53b0ffa1f27d3c12fbc8aef55cea2118a6d9c230"
     },
     {
       "id": "3.4",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-3-4.tex",
       "evidence_file": "latex-evidence-ledger/section-3-4.json",
-      "state": "not-started",
+      "state": "outside-current-preview-in-revision",
       "legacy_markdown": {
         "draft_file": "research-draft/section-3-4.md",
         "evidence_file": "evidence-ledger/section-3-4.json",
@@ -225,18 +234,20 @@
       "id": "3.6",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-3-6.tex",
       "evidence_file": "latex-evidence-ledger/section-3-6.json",
-      "state": "not-started",
+      "state": "content-admitted-typesetting-verified",
       "legacy_markdown": {
         "draft_file": "research-draft/section-3-6.md",
         "evidence_file": "evidence-ledger/section-3-6.json",
         "state": "not-started"
-      }
+      },
+      "status_note": "Drafting started by G85.",
+      "manuscript_sha256": "4abe8e596f107ef849fa7c8764ec185edab288785540b0acf120f6ddb8b6ff11"
     },
     {
       "id": "3.7",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-3-7.tex",
       "evidence_file": "latex-evidence-ledger/section-3-7.json",
-      "state": "not-started",
+      "state": "outside-current-preview-in-revision",
       "legacy_markdown": {
         "draft_file": "research-draft/section-3-7.md",
         "evidence_file": "evidence-ledger/section-3-7.json",
@@ -247,7 +258,7 @@
       "id": "3.8",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-3-8.tex",
       "evidence_file": "latex-evidence-ledger/section-3-8.json",
-      "state": "not-started",
+      "state": "outside-current-preview-in-revision",
       "legacy_markdown": {
         "draft_file": "research-draft/section-3-8.md",
         "evidence_file": "evidence-ledger/section-3-8.json",
@@ -258,40 +269,46 @@
       "id": "4.1",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-4-1.tex",
       "evidence_file": "latex-evidence-ledger/section-4-1.json",
-      "state": "not-started",
+      "state": "content-admitted-typesetting-verified",
       "legacy_markdown": {
         "draft_file": "research-draft/section-4-1.md",
         "evidence_file": "evidence-ledger/section-4-1.json",
         "state": "not-started"
-      }
+      },
+      "status_note": "Accepted per G86/parent-final-reconciliation.json; P2=q2, P3=q3 normalized to match 2.1/2.4.",
+      "manuscript_sha256": "7a02be95e87366009872a6395728341caf697f604dc99dcb2badc8d164831cfa"
     },
     {
       "id": "4.2",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-4-2.tex",
       "evidence_file": "latex-evidence-ledger/section-4-2.json",
-      "state": "not-started",
+      "state": "content-admitted-typesetting-verified",
       "legacy_markdown": {
         "draft_file": "research-draft/section-4-2.md",
         "evidence_file": "evidence-ledger/section-4-2.json",
         "state": "not-started"
-      }
+      },
+      "status_note": "Accepted per G86/parent-final-reconciliation.json; Starosta PRL 64Ge theory Qs, Crider 68Ni E0 rho^2 bounds and shape order verified.",
+      "manuscript_sha256": "fbbcef6bcc298c498e8c604889d3f4789ef63bdb6627ecbd4184d1f9d95aa41f"
     },
     {
       "id": "4.3",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-4-3.tex",
       "evidence_file": "latex-evidence-ledger/section-4-3.json",
-      "state": "not-started",
+      "state": "content-admitted-typesetting-verified",
       "legacy_markdown": {
         "draft_file": "research-draft/section-4-3.md",
         "evidence_file": "evidence-ledger/section-4-3.json",
         "state": "not-started"
-      }
+      },
+      "status_note": "Accepted per G86/parent-final-reconciliation.json; Thomas XML tl0020 adopted/unobserved branch corrected, Karmakar 2026 NPA 123265 verified.",
+      "manuscript_sha256": "78527004469893b277308d5115e15ddc09684478a5d6b537c74b89a1464ec7b8"
     },
     {
       "id": "4.4",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-4-4.tex",
       "evidence_file": "latex-evidence-ledger/section-4-4.json",
-      "state": "not-started",
+      "state": "outside-current-preview-in-revision",
       "legacy_markdown": {
         "draft_file": "research-draft/section-4-4.md",
         "evidence_file": "evidence-ledger/section-4-4.json",
@@ -302,7 +319,7 @@
       "id": "4.5",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-4-5.tex",
       "evidence_file": "latex-evidence-ledger/section-4-5.json",
-      "state": "not-started",
+      "state": "outside-current-preview-in-revision",
       "legacy_markdown": {
         "draft_file": "research-draft/section-4-5.md",
         "evidence_file": "evidence-ledger/section-4-5.json",
@@ -313,18 +330,20 @@
       "id": "4.6",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-4-6.tex",
       "evidence_file": "latex-evidence-ledger/section-4-6.json",
-      "state": "not-started",
+      "state": "content-admitted-typesetting-verified",
       "legacy_markdown": {
         "draft_file": "research-draft/section-4-6.md",
         "evidence_file": "evidence-ledger/section-4-6.json",
         "state": "not-started"
-      }
+      },
+      "status_note": "Under draft writing by G84.",
+      "manuscript_sha256": "763b37de5295ec5bec7cc6bfdb89e730990322e4047435b1ede1ad0b57365c0a"
     },
     {
       "id": "4.7",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-4-7.tex",
       "evidence_file": "latex-evidence-ledger/section-4-7.json",
-      "state": "not-started",
+      "state": "outside-current-preview-in-revision",
       "legacy_markdown": {
         "draft_file": "research-draft/section-4-7.md",
         "evidence_file": "evidence-ledger/section-4-7.json",
@@ -335,29 +354,32 @@
       "id": "4.8",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-4-8.tex",
       "evidence_file": "latex-evidence-ledger/section-4-8.json",
-      "state": "not-started",
+      "state": "outside-current-preview-in-revision",
       "legacy_markdown": {
         "draft_file": "research-draft/section-4-8.md",
         "evidence_file": "evidence-ledger/section-4-8.json",
         "state": "not-started"
-      }
+      },
+      "status_note": "Under draft writing by new G87."
     },
     {
       "id": "5.1",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-5-1.tex",
       "evidence_file": "latex-evidence-ledger/section-5-1.json",
-      "state": "not-started",
+      "state": "content-admitted-typesetting-verified",
       "legacy_markdown": {
         "draft_file": "research-draft/section-5-1.md",
         "evidence_file": "evidence-ledger/section-5-1.json",
         "state": "not-started"
-      }
+      },
+      "status_note": "Under draft writing by G79.",
+      "manuscript_sha256": "16c122d5650bbd3a99de032d8900d5fcfd45ee624b604c485428cbce02f486f9"
     },
     {
       "id": "5.2",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-5-2.tex",
       "evidence_file": "latex-evidence-ledger/section-5-2.json",
-      "state": "not-started",
+      "state": "outside-current-preview-in-revision",
       "legacy_markdown": {
         "draft_file": "research-draft/section-5-2.md",
         "evidence_file": "evidence-ledger/section-5-2.json",
@@ -393,18 +415,20 @@
       "id": "5.5",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-5-5.tex",
       "evidence_file": "latex-evidence-ledger/section-5-5.json",
-      "state": "not-started",
+      "state": "content-admitted-typesetting-verified",
       "legacy_markdown": {
         "draft_file": "research-draft/section-5-5.md",
         "evidence_file": "evidence-ledger/section-5-5.json",
         "state": "not-started"
-      }
+      },
+      "status_note": "Accepted per G79/section-5-5-parent-acceptance.json with PASTA boundary clauses.",
+      "manuscript_sha256": "4c717064a931962fca5ac0fb48c4f694764a648cb306363334d4b350ec084d98"
     },
     {
       "id": "5.6",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-5-6.tex",
       "evidence_file": "latex-evidence-ledger/section-5-6.json",
-      "state": "not-started",
+      "state": "outside-current-preview-in-revision",
       "legacy_markdown": {
         "draft_file": "research-draft/section-5-6.md",
         "evidence_file": "evidence-ledger/section-5-6.json",
@@ -415,7 +439,7 @@
       "id": "5.7",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-5-7.tex",
       "evidence_file": "latex-evidence-ledger/section-5-7.json",
-      "state": "not-started",
+      "state": "outside-current-preview-in-revision",
       "legacy_markdown": {
         "draft_file": "research-draft/section-5-7.md",
         "evidence_file": "evidence-ledger/section-5-7.json",
@@ -426,7 +450,7 @@
       "id": "5.8",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-5-8.tex",
       "evidence_file": "latex-evidence-ledger/section-5-8.json",
-      "state": "not-started",
+      "state": "outside-current-preview-in-revision",
       "legacy_markdown": {
         "draft_file": "research-draft/section-5-8.md",
         "evidence_file": "evidence-ledger/section-5-8.json",
@@ -438,19 +462,20 @@
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-5-9.tex",
       "evidence_file": "latex-evidence-ledger/section-5-9.json",
       "state": "content-admitted-typesetting-verified",
-      "manuscript_sha256": "637c5216b62cb9ed1790681e41dedafbb4f504df36f428e736ae7294dd095ab9",
+      "manuscript_sha256": "b534fb7493a4924737e5a368dec3c7583aee53b09a547943b65afb306ec91af7",
       "legacy_markdown": {
         "draft_file": "research-draft/section-5-9.md",
         "evidence_file": "evidence-ledger/section-5-9.json",
         "state": "parent-integrated-research-draft",
         "manuscript_sha256": "c3da811fae74df463bc1742bf304c672c7874def3c591dc64d91e0653374b8ca"
-      }
+      },
+      "status_note": "Accepted; T15 scientific correction integrated (exact dimensional M1 unit relation; delta M_S denominator; toy units mu_N^2)."
     },
     {
       "id": "5.10",
       "draft_file": "these_2023_template/these_template/Tex/Sections/sec-5-10.tex",
       "evidence_file": "latex-evidence-ledger/section-5-10.json",
-      "state": "not-started",
+      "state": "outside-current-preview-in-revision",
       "legacy_markdown": {
         "draft_file": "research-draft/section-5-10.md",
         "evidence_file": "evidence-ledger/section-5-10.json",
@@ -460,8 +485,8 @@
   ],
   "reader_effect_validated": false,
   "school_submission_ready": false,
-  "updated_at": "2026-11-13T03:46:53.057447+00:00",
-  "admission_boundary": "Content admission is based on direct evidence and explicit corrections; 15 sections (1.1-1.5, 2.1-2.6, 3.5, 5.3, 5.4, 5.9) and Appendices B/C are verified and admitted into the 128-page CLEAN_PASS build; remaining 24 sections are stubs [未完成] and whole thesis manuscript is incomplete. Historical review labels do not confer scientific eligibility.",
+  "updated_at": "2026-11-13T10:24:33.923724+00:00",
+  "admission_boundary": "27 sections and delivered B/C/F scope included in the clean source-fingerprinted preview;12bodysections and necessaryA/D/E appendixscope remain in drafting/revision. Full39-section goalactive. File presence and historical review labels do not confer scientific eligibility.",
   "integrated_sections": [
     "1.1",
     "1.2",
@@ -474,12 +499,37 @@
     "2.4",
     "2.5",
     "2.6",
+    "2.7",
+    "2.8",
+    "3.1",
+    "3.2",
+    "3.3",
     "3.5",
+    "3.6",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.6",
+    "5.1",
     "5.3",
     "5.4",
+    "5.5",
     "5.9"
   ],
-  "writing_sections": [],
+  "writing_sections": [
+    "3.4",
+    "3.7",
+    "3.8",
+    "4.4",
+    "4.5",
+    "4.7",
+    "4.8",
+    "5.2",
+    "5.6",
+    "5.7",
+    "5.8",
+    "5.10"
+  ],
   "whole_manuscript_complete": false,
   "canonical_format": "latex",
   "canonical_entry": "these_2023_template/these_template/Thesis.tex",
@@ -496,23 +546,27 @@
   "legacy_markdown_outputs": "Historical inputs only; do not use old Markdown assembler as current thesis producer.",
   "compilation": {
     "audit_verdict": "CLEAN_PASS",
-    "status": "verified-128page-clean-pass",
+    "scope": "accepted27-section preview, not all current worktree drafts",
     "pdf_path": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.pdf",
-    "pages": 128,
-    "size_bytes": 1676015,
+    "pdf_sha256": "1426d461d140cfa5737174751cd6baf538fae9f16f350833691a0c79a91c28fe",
+    "pages": 220,
+    "size_bytes": 2299946,
     "fatal_errors": 0,
     "missing_citations": 0,
     "missing_references": 0,
     "overfull_hboxes": 0,
+    "overfull_vboxes": 0,
     "missing_glyphs": 0,
     "bibtex_errors": 0,
     "bibtex_warnings": 0,
-    "production_inputs_tracked": 49,
-    "production_inputs_manifest_sha256": "152f30777a592c06ce0acb4b2632715bf23d00adb8d2d57841f0e365d741b33f",
-    "build_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G76/build_report.json",
+    "underfull_hboxes": 13,
+    "production_input_collection_files": 64,
+    "production_inputs_manifest_sha256": "9c8058e3bbe13eb3b3cec1d3d0c4fddc4cc1e6f7ac7dc3f203b3fd40c063e956",
+    "build_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/checkpoint27/build_report.json",
     "manuscript_complete": false,
-    "active_sections_count": 15,
-    "planned_sections_count": 39
+    "active_sections_count": 27,
+    "planned_sections_count": 39,
+    "local_worktree_boundary": "Unaccepted section files may exist locally. This preview was built from an isolated27-section copy; use its input manifest as the scope, rather than assuming every present draft is accepted."
   },
   "appendices": [
     {
@@ -520,7 +574,8 @@
       "title": "附录 B 对称性恢复与非正交态",
       "draft_file": "these_2023_template/these_template/Tex/Appendices/AppendixB.tex",
       "manuscript_sha256": "93785f3c48c54b1cda81f146da0465be7de835267e5842c95c2735f386eef6f8",
-      "state": "content-admitted-typesetting-verified"
+      "state": "content-admitted-typesetting-verified",
+      "acceptance_note": "Delivered scope included in27-section clean preview; no assumption that remaining appendices are complete."
     },
     {
       "id": "AppendixC",
@@ -528,37 +583,69 @@
       "draft_file": "these_2023_template/these_template/Tex/Appendices/AppendixC.tex",
       "manuscript_sha256": "67eece7eea1d3d9693ab4e012147e126d2a00a8bee835d99855f5e1d205b1b76",
       "state": "content-admitted-typesetting-verified",
-      "author_executor": "restored GPT (G82), not Gemini"
+      "author_executor": "restored GPT (G82), not Gemini",
+      "acceptance_note": "Delivered scope included in27-section clean preview; no assumption that remaining appendices are complete."
+    },
+    {
+      "id": "AppendixF",
+      "title": "附录 F 可复现输入和来源表",
+      "draft_file": "these_2023_template/these_template/Tex/Appendices/AppendixF.tex",
+      "manuscript_sha256": "fcf308586879f103eb3fc71f77daa6eea9e24be691bdf172671b7e4be5b324c5",
+      "state": "content-admitted-typesetting-verified",
+      "delivery_note": "Delivered independently for parent review with exact producers, original SHAs, and locators.",
+      "acceptance_note": "Delivered scope included in27-section clean preview; no assumption that remaining appendices are complete."
     }
   ],
   "provenance_boundary": {
     "section_2_6_and_appendix_C": "Completed by restored GPT (G82), not Gemini.",
     "historical_archives": "Historical Nov8 archive (34 items) was externally removed by user; 17 source/PDF blobs match historical SHA in Git and remain exact recoverable; 17 build intermediates not restored; user deletion preserved."
   },
-  "not_started_sections": [
+  "not_started_sections": [],
+  "updated_utc": "2026-11-13T11:23:59.222740+00:00",
+  "accepted_content_sections": [
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
     "2.7",
     "2.8",
     "3.1",
     "3.2",
     "3.3",
-    "3.4",
+    "3.5",
     "3.6",
-    "3.7",
-    "3.8",
     "4.1",
     "4.2",
     "4.3",
-    "4.4",
-    "4.5",
     "4.6",
-    "4.7",
-    "4.8",
     "5.1",
-    "5.2",
+    "5.3",
+    "5.4",
     "5.5",
-    "5.6",
-    "5.7",
-    "5.8",
-    "5.10"
-  ]
+    "5.9"
+  ],
+  "accepted_content_count": 27,
+  "preview": {
+    "sections": 27,
+    "pages": 220,
+    "build_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/checkpoint27/build_report.json",
+    "scope": "Accepted nonpersonal sections and B/C/F delivered scope; unfinished sections marked by wrappers. Full39-section goal active.",
+    "figures": 9,
+    "datasets": 3,
+    "pdf_sha256": "1426d461d140cfa5737174751cd6baf538fae9f16f350833691a0c79a91c28fe"
+  },
+  "native_goal_status": "active",
+  "publication_checkpoint": {
+    "sections": 27,
+    "pages": 220,
+    "stable_pointer": "main / thesis: expand audited A130 foundations to 27 sections",
+    "receipt": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/checkpoint27/publication-final-receipt.local.json"
+  }
 }

@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-11-13T11:34:16.180617+00:00",
+  "reason": "git diff --cached --check found Matplotlib SVG trailing spaces",
+  "method": "rstrip line endings only, XML parse and non-whitespace byte identity controls; PDF unchanged",
+  "changes": [
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/mode-mixing-avoided-crossing.svg",
+      "old_sha256": "d41d513936c73f835cc48152b6dfc7c714eede1f9be8a12027c922521419e484",
+      "sha256": "3b2a180bdc3342f50644677c8a31e695d2794d1e01bc7c8725fb4ca46396f5ac",
+      "producer": "system/scripts/a130_mode_mixing_figure.py",
+      "producer_sha256": "bfaf8a30dbd2171c0fd105efc781079f4b1bcb324c7a203791ef6363244e66a9",
+      "pdf_unchanged_sha256": "f8d50454af23da2fdd19308e7e844e02cc8b96a7b509cb3033cd021da8da5729"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/seniority-node-accessibility.svg",
+      "old_sha256": "2c38768fc352826ad40600f9e194701c607b65762ad5b7f4bec3129887031df7",
+      "sha256": "10a90b217fb7a7a4b6ccf1411f5544c99e5524cadcf70d6f72d1a080bc83fbc1",
+      "producer": "system/scripts/a130_seniority_node_figure.py",
+      "producer_sha256": "002f13cc18f66cc3f435baf9d79d4b985c110f9761fe4ad0fe83cf855082b971",
+      "pdf_unchanged_sha256": "6f824e9d551556feb213b3c626f1b7b4d772eb361ae209608f74d09d48b420bb"
+    }
+  ],
+  "rebuild_boundary": "No TeX/PDF build input changed, so no manuscript recompilation is needed."
+}

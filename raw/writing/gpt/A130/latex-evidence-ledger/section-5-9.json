@@ -13,7 +13,7 @@
   },
   "output_latex": {
     "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-9.tex",
-    "sha256": "637c5216b62cb9ed1790681e41dedafbb4f504df36f428e736ae7294dd095ab9",
+    "sha256": "b534fb7493a4924737e5a368dec3c7583aee53b09a547943b65afb306ec91af7",
     "equations_count": 40,
     "tables_count": 0,
     "figures_count": 0,
@@ -166,10 +166,14 @@
     "rate_constants_and_units": "C_E2 = 1.2250333078e9 s^-1 MeV^-5 (e^2 fm^4)^-1, C_M1 = 1.7583758801e13 s^-1 MeV^-3 [(mu_N/c)^2]^-1，量纲带齐",
     "statistical_weights": "明确给出上下行 Wigner-Eckart 倒易关系统计权重 (2I_i + 1) 与 (2I_f + 1)",
     "new_scientific_claims": "无新增科学主张",
-    "delta_definition_restored": "严格保持 delta(E2/M1) = sqrt(3)/10 * (E_gamma/hbar c) * RME(E2)/RME(M1)，解释辐射幅度与裸多极矩阵元不同维度及同初末态相位抵消"
+    "delta_definition_restored": "严格保持 delta(E2/M1) = sqrt(3)/10 * (E_gamma/hbar c) * RME(E2)/RME(M1)，解释辐射幅度与裸多极矩阵元不同维度及同初末态相位抵消",
+    "t15_m1_correction": "T15 M1 SI/Gaussian unit conversion corrected (2026-11-13): replaced erroneous standalone c^2 multiplication/division by exact dimensional relation b = B_S/(mu_N/c)^2 = B_mu/mu_N^2; delta denominator explicitly labeled as M_S=M_mu/c; toy example M1 units converted to mu_N^2 with unchanged numerical rate and value 0.00545432."
   },
   "unresolved_items": [
     "163Lu Görgen (2004) Table I 中 Qt 数值在自旋区间分散显著，正文已说明其两带间 ~4% 差异基于特定倾角假定，不可作为无条件几何直接测量",
     "教学算例为两支路规范模型，真实能级需核验 feeding、电子学门窗及未观测 E0/粒子衰变通道"
-  ]
+  ],
+  "target_sha256": "b534fb7493a4924737e5a368dec3c7583aee53b09a547943b65afb306ec91af7",
+  "parent_final_tex_sha256": "b534fb7493a4924737e5a368dec3c7583aee53b09a547943b65afb306ec91af7",
+  "integration_status": "included-in27-section-clean-preview"
 }

@@ -1,0 +1,102 @@
+{
+  "section_id": "4.1",
+  "title": "同一个问题怎样跨核区比较",
+  "target_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-1.tex",
+  "staging_tex_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G86/staging/section-4-1.tex",
+  "tex_sha256": "7a02be95e87366009872a6395728341caf697f604dc99dcb2badc8d164831cfa",
+  "recorded_at": "2026-11-13T05:43:34.358813+00:00",
+  "executor": "G86",
+  "sources": [
+    {
+      "source_id": "poves-2020-limits-assigning-nuclear-shape",
+      "source_page": "knowledge/sources/poves-2020-limits-assigning-nuclear-shape.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/poves-2020-limits-assigning-nuclear-shape.pdf",
+      "raw_sha256": "ca188d5b2ac257edb8f616b2a055d2bd488f29d5d136baf540753ea049edf21a",
+      "actual_scope": "Reuse prioraudited foundational section and canonical source; no new wholepaper read.",
+      "reading_boundary": "Selected-page or previously audited claim reuse; no new full-paper/deep-read certification."
+    },
+    {
+      "source_id": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+      "source_page": "knowledge/sources/doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-otsuka-article/otsuka-2022-physics-emerging-concepts-publisher.pdf",
+      "raw_sha256": "83ddfab8989cdb0a23be1d5ca3e9f689c7e8d728823d0b7c6a21c5aecd3ca0c7",
+      "actual_scope": "Reuse prioraudited foundational section and canonical source; no new wholepaper read.",
+      "reading_boundary": "Selected-page or previously audited claim reuse; no new full-paper/deep-read certification."
+    },
+    {
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "source_page": "knowledge/sources/cline-1986-nuclear-shapes-coulomb-excitation.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "raw_sha256": "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113",
+      "actual_scope": "Reuse prioraudited foundational section and canonical source; no new wholepaper read.",
+      "reading_boundary": "Selected-page or previously audited claim reuse; no new full-paper/deep-read certification."
+    },
+    {
+      "source_id": "duguet-2015-non-observable-nuclear-shell-structure",
+      "source_page": "knowledge/sources/duguet-2015-non-observable-nuclear-shell-structure.md",
+      "raw_file": "raw/papers/gpt/query/20261108-a130-espe-primary/duguet-2015-non-observable-shell-structure.pdf",
+      "raw_sha256": "0b4547204e0f735f89361727551d86852fd65bbb769915598b2e1610f9184a67",
+      "actual_scope": "Reuse prioraudited foundational section and canonical source; no new wholepaper read.",
+      "reading_boundary": "Selected-page or previously audited claim reuse; no new full-paper/deep-read certification."
+    }
+  ],
+  "claims": [
+    {
+      "id": "P41-1",
+      "text": "实验室0+一阶四极矩为零；从单内禀参考投影构造的是good-I试探空间，后续求谱仍需动力学。",
+      "kind": "mathematical-model-boundary",
+      "source_id": "poves-2020-limits-assigning-nuclear-shape",
+      "verified_locator": {
+        "route": "Previously audited Sec2.1/2.5 definitions and their direct primary-source locators"
+      },
+      "conditions": "No external field; strong/electromagnetic symmetry approximation; projection does not assert full-space exactness."
+    },
+    {
+      "id": "P41-2",
+      "text": "占据、残余相互作用、配对与核芯响应应共同比较；Omega或质量数不是独自决定形状的标签。",
+      "kind": "conditional-comparison",
+      "source_id": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+      "verified_locator": {
+        "route": "Audited Sec2.2 occupancy/ESPE and Sec2.6 response crosswalk"
+      },
+      "conditions": "Selected model space, orbitals and reference must be declared; no universal rigid-inertia bound."
+    },
+    {
+      "id": "P41-3",
+      "text": "沿既定归一P2=q2、P3=q3；有限低阶矩不唯一恢复完整gamma分布，不能直接由四阶矩写出角度方差。",
+      "kind": "tensor-identity-and-inverse-boundary",
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "verified_locator": {
+        "route": "Sec2.1/2.4 verified tensor convention; Cline source printed698–700"
+      },
+      "conditions": "Completeness and relative RME phases matter; geometric coordinate interpretation conditional."
+    },
+    {
+      "id": "P41-4",
+      "text": "探针和观测量的信息量无通用排名；转移截面与模型提取谱因子、同核E0与同位素半径位移分别登记。",
+      "kind": "experimental-inference-boundary",
+      "source_id": "duguet-2015-non-observable-nuclear-shell-structure",
+      "verified_locator": {
+        "route": "Audited Sec2.2 and ESPE/centroid note; original selectedPDF4–8"
+      },
+      "conditions": "Reaction/structure/resolution conventions retained; no claim every probe measures intrinsic density directly."
+    }
+  ],
+  "unresolved_issues": [
+    "Common bibliography aliases and actual layout pending; reader-effect not tested."
+  ],
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-1.tex",
+  "output_tex_sha256": "7a02be95e87366009872a6395728341caf697f604dc99dcb2badc8d164831cfa",
+  "parent_reconciliation": "Replaced stale positiveclaims and false locators with currentclaims matching actual canonical prose. Superseded failedledger kept only in rejected-ledger-history, not a factsource.",
+  "parent_final_patch": {
+    "at": "2026-11-13T05:47:59.376613+00:00",
+    "scope": "Corrected remaining angle endpoint/E0 charge factor, nonuniversal comparison/ranking, theory-columnQs, Ni shape assignment andE0bounds, Thomas adopted/unobserved branch; rebuilt stale canonical claims from primarychecks.; finalprimaryTableI/CriderTable1 bounds and shapeassignments, adoptedThomasXMLline clarified."
+  },
+  "parent_final_tex_sha256": "7a02be95e87366009872a6395728341caf697f604dc99dcb2badc8d164831cfa",
+  "integration_status": "included-in27-section-clean-preview",
+  "parent_table_reconciliation": {
+    "A60": "Ni68 E0 entries are limits and shape assignments are model interpretations, not measured strong E0 proving three shapes.",
+    "A160": "Selected Lu configuration usespi i13/2; no universal regional orbit occupation.",
+    "basis": "Crider2016原PDF2/4和existing Lu sources; agrees with body/source limits."
+  }
+}

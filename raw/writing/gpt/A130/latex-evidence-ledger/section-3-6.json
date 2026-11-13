@@ -1,0 +1,170 @@
+{
+  "section_id": "3.6",
+  "title": "gamma形状模与取向模的耦合",
+  "status": "parent-content-accepted-integration-pending",
+  "worker": "G85 Gemini Tiered/high; final narrow scientific corrections by parent",
+  "recorded_at": "2026-11-13T08:35:45.596285+00:00",
+  "canonical_paths": {
+    "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-6.tex",
+    "tex_sha256": "4abe8e596f107ef849fa7c8764ec185edab288785540b0acf120f6ddb8b6ff11"
+  },
+  "sources": [
+    {
+      "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+      "source_page": "knowledge/sources/prochniak-rohozinski-2009-bohr-collective-hamiltonian.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/manifest.json",
+      "raw_sha256": "9afdb6573cb302fb18ae0eb3914d0c51afbbbdf5b9984f0400bf784e40b5ca63",
+      "doi": "10.1088/0954-3899/36/12/123101",
+      "arxiv": "0911.0366v1",
+      "archive_required": true,
+      "reading_boundary": "Selected original pages; no reproduction of microscopic calculations or independent remeasurement.",
+      "collection_manifest": true,
+      "underlying_pdf": "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/prochniak-rohozinski-2009-v1.pdf",
+      "underlying_pdf_sha256": "4d7e6d3942230023061efd0032b3d1f9231e5d6f230219329ef984c458bb689b"
+    },
+    {
+      "source_id": "matsuzaki-2004-nuclear-inertia-and-wobbling",
+      "source_page": "knowledge/sources/matsuzaki-2004-nuclear-inertia-and-wobbling.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/matsuzaki-2004-nuclear-moments-of-inertia-prc69-034306.pdf",
+      "raw_sha256": "9ea9fb2c8b9e73b0352a219ace7efc6182d6b5471b38d32cb96bc539e4aa6bf7",
+      "doi": "10.1103/PhysRevC.69.034325",
+      "arxiv": "nucl-th/0310052v2",
+      "archive_required": true,
+      "reading_boundary": "Selected original pages; no reproduction of microscopic calculations or independent remeasurement."
+    },
+    {
+      "source_id": "kvasil-2006-dy156-yb162-crpa-wobbling",
+      "source_page": "knowledge/sources/kvasil-2006-dy156-yb162-crpa-wobbling.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-g45-quantum-labels/kvasil-nazmitdinov-2006-wobbling-dy156-yb162.pdf",
+      "raw_sha256": "dee4d852c401c5d522b10655d26a477925f9e8da7b06c09190e66243f3fa2405",
+      "doi": null,
+      "arxiv": "nucl-th/0611059v1",
+      "archive_required": true,
+      "reading_boundary": "Selected original pages; no reproduction of microscopic calculations or independent remeasurement."
+    },
+    {
+      "source_id": "doctoral-r1-g37-oi-2001-wobbling-gamma-coupling",
+      "source_page": "knowledge/sources/doctoral-r1-g37-oi-2001-wobbling-gamma-coupling.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G37/oi-2001-wobbling-gamma-coupling-nucl-th-0107051.pdf",
+      "raw_sha256": "fb12d13ffbd5af43b2519f4ee9605c47e6ecf8578837ca46e80095f410db9214",
+      "doi": "",
+      "arxiv": "nucl-th/0107051v2",
+      "archive_required": true,
+      "reading_boundary": "Selected original pages; no reproduction of microscopic calculations or independent remeasurement."
+    },
+    {
+      "source_id": "doctoral-r1-g37-bhat-2025-microscopic-wobbling-even-even",
+      "source_page": "knowledge/sources/doctoral-r1-g37-bhat-2025-microscopic-wobbling-even-even.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G37/bhat-2025-microscopic-wobbling-even-even-arxiv-2503-09204.pdf",
+      "raw_sha256": "128364b1a10add81dfcfcb1daa0e631778b3cbfb5c53bd4c9b45385fe019bc79",
+      "doi": "",
+      "arxiv": "2503.09204v1",
+      "archive_required": true,
+      "reading_boundary": "Selected original pages; no reproduction of microscopic calculations or independent remeasurement."
+    }
+  ],
+  "claims_and_derivations": [
+    {
+      "id": "3.6-P01",
+      "kind": "task-derivation",
+      "claim": "For dimensionless local coordinates, B has units energy*time^2, C energy, M=B^-1/2 C B^-1/2 time^-2. Positive determinant gives positive frequencies; zero determinant is marginal, negative determinant instability. Common-frequency squared splitting is 2|C12|/sqrt(B1 B2).",
+      "locator": "sec-3-6 Eqs two-coord-hamiltonian through min-gap",
+      "conditions": "Constant positive diagonal mass, quadratic potential, no gyroscopic coupling; pedagogical construction, not an exact QRPA reduction."
+    },
+    {
+      "id": "3.6-P02",
+      "kind": "task-derivation",
+      "claim": "In an orthonormal same-I/same-parity two-state basis with rephased V>=0, atan2(2V,Delta)/2 supplies the full detuning branch; zero V and zero detuning leave an arbitrary degenerate basis. Minimum gap 2V assumes fixed V and a zero-detuning crossing.",
+      "locator": "sec-3-6 Eqs two-state-h through mixed-states; parent math controls",
+      "conditions": "Transition operators rephase with basis; no empirical identification from energy agreement alone."
+    },
+    {
+      "id": "3.6-P03",
+      "kind": "task-derivation",
+      "claim": "The E2 interference term is 2cs Re(M1 M2*), which may vanish. B contains 1/(2Ii+1). The sum to a fixed final state is preserved by the stated unitary two-state rotation for fixed operator and same initial spin.",
+      "locator": "eq:3-6-be2-interference and immediately following paragraph",
+      "conditions": "Exact within the declared two-state model; real-nucleus omitted strength/operator changes need independent checks."
+    },
+    {
+      "id": "3.6-P04",
+      "kind": "task-angular-momentum-algebra-with-source-model-example",
+      "claim": "For rotational H, [H-prime,Jx]=0 and [H-prime,Jy±iJz]=∓hbar*omega_rot*(Jy±iJz). Rotating-frame spurious modes must be separated from physical normal modes. The generalized J-omega susceptibility is not automatically a unique scalar effective wobbling inertia.",
+      "locator": "eq:3-6-rotational-commutators; Matsuzaki raw PDF3–6, Eqs1,5–12,19–24",
+      "sources": [
+        "matsuzaki-2004-nuclear-inertia-and-wobbling"
+      ],
+      "conditions": "Full rotational invariance for algebra, compatible mean field/residual interaction/truncation for RPA implementation. Doubly stretched QQ is one model choice, not universal necessity."
+    },
+    {
+      "id": "3.6-P05",
+      "kind": "approximation-boundary",
+      "claim": "At fixed low phonon number and away from soft modes, high-spin expansions may organize relative 1/I corrections. Anharmonic spectra do not uniquely diagnose shape-orientation mixing.",
+      "locator": "sec:3-6-5; earlier sec3.2 local rotor expansion",
+      "conditions": "No universal numerical correction or obligatory interpretation of any three bands."
+    },
+    {
+      "id": "3.6-P06",
+      "kind": "original-author-model-and-task-algebra-audit",
+      "claim": "Oi–Walker use TAC-HFB for selected164Hf and a separately assumed one-dimensional quantization; model space did not reproduce expected TSD deformation. The mass relation following a=Mw*omega^2/2 has a factor-two algebra concern; this is a task consistency observation, not an independent experimental refutation.",
+      "sources": [
+        "doctoral-r1-g37-oi-2001-wobbling-gamma-coupling"
+      ],
+      "locator": "raw PDF2–3, Eqs1–4 and 1D quantization paragraph",
+      "conditions": "Not TAC+GCM, no full collective mass calculation or measured absolute EM confirmation; S/A local labels are not parity quantum numbers."
+    },
+    {
+      "id": "3.6-P07",
+      "kind": "original-author-model",
+      "claim": "Kvasil–Nazmitdinov compare gamma-softening and neutron alignment mechanisms in156Dy/162Yb within their cranked Nilsson+RPA implementation; pairing gaps use a phenomenological prescription near crossing.",
+      "sources": [
+        "kvasil-2006-dy156-yb162-crpa-wobbling"
+      ],
+      "locator": "raw PDF1–4, Eq6/Figs2–3; PDF16 appendix E2/M1 formulas",
+      "conditions": "Model-dependent interpretation and pairing inputs; no universal pairing insensitivity or experimental proof of all mode conversions."
+    },
+    {
+      "id": "3.6-P08",
+      "kind": "original-author-model-and-calibration-boundary",
+      "claim": "Bhat uses truncated vacuum/2qp/4qp TPSM with3D angular-momentum projection in six selected even-even nuclei. Five cases are interpreted as wobbling;232Th is a counterexample. Nonaxial deformation is selected against gamma-bandhead data, with adjusted pairing inputs.",
+      "sources": [
+        "doctoral-r1-g37-bhat-2025-microscopic-wobbling-even-even"
+      ],
+      "locator": "raw PDF2–3 Eqs1–2/TablesI–II and PDF9 EM discussion",
+      "conditions": "A preprint model calculation; no claimed universal observation or independent validation by reused fitting energies."
+    }
+  ],
+  "figures": {
+    "kind": "declared-orthonormal-quantum-two-state-teaching-model",
+    "producer": "system/scripts/a130_mode_mixing_figure.py",
+    "producer_sha256": "bfaf8a30dbd2171c0fd105efc781079f4b1bcb324c7a203791ef6363244e66a9",
+    "artifacts": [
+      {
+        "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/mode-mixing-avoided-crossing.pdf",
+        "sha256": "f8d50454af23da2fdd19308e7e844e02cc8b96a7b509cb3033cd021da8da5729"
+      },
+      {
+        "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/mode-mixing-avoided-crossing.svg",
+        "sha256": "3b2a180bdc3342f50644677c8a31e695d2794d1e01bc7c8725fb4ca46396f5ac"
+      }
+    ],
+    "parameters": {
+      "V_arbitrary_energy": 0.8,
+      "mean_energy_arbitrary": 5.0,
+      "detuning_range": [
+        -4.0,
+        4.0
+      ]
+    },
+    "boundary": "Not oscillator squared frequencies or experimental intensities; weights are basis probabilities."
+  },
+  "parent_validation": {
+    "math_controls": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G85/section-3-6-parent-math-controls.json",
+    "raw_identity_hashes_checked": true,
+    "visual_figure_checked": true,
+    "full_manuscript_compilation": "pending later integration"
+  },
+  "superseded_ledger_history": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G85/rejected-ledger-history/section-3-6-before-parent-reconciliation.json",
+  "parent_final_tex_sha256": "4abe8e596f107ef849fa7c8764ec185edab288785540b0acf120f6ddb8b6ff11",
+  "integration_status": "included-in27-section-clean-preview",
+  "publication_normalization": "Trailing whitespace removed from SVG path lines and future producer exports; XML parses, all non-whitespace bytes and PDF images unchanged. See checkpoint27/svg-whitespace-normalization.json."
+}

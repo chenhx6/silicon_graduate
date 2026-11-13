@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T03:32:36.046701+00:00",
+  "updated_at": "2026-11-13T11:25:29.320787+00:00",
   "native_goal_status": "active",
   "plan": "outputs/plans/20261113-A130-latex-execution.json",
   "plan_sha256": "819c15eedef7bb2f4b6ecf1d897bef4325a496ccb91fe3eb2047a4dd1ce0f068",
@@ -147,5 +147,81 @@
       "scope": "3.2 dimensional and axial-limit narrow audit",
       "state": "running"
     }
-  ]
+  ],
+  "current_workers": [
+    {
+      "task_id": "G79",
+      "agent_id": "01a1d274-e82c-7bc0-af59-22fac97251d4",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "state": "running",
+      "runtime": {
+        "timestamp": "2026-11-13T10:03:39.931Z",
+        "model": "antigravity/gemini-3.8-flash-tiered",
+        "effort": "high"
+      },
+      "ownership_plan": "outputs/plans/20261113-A130-remaining-sections.json",
+      "publish_permission": false,
+      "isolation": "protocol-only; shared filesystem"
+    },
+    {
+      "task_id": "G88",
+      "agent_id": "01a1d461-d238-71e0-a12b-5a201d70f6bd",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "state": "running",
+      "runtime": {
+        "timestamp": "2026-11-13T10:51:03.015Z",
+        "model": "antigravity/gemini-3.8-flash-tiered",
+        "effort": "high"
+      },
+      "ownership_plan": "outputs/plans/20261113-A130-remaining-sections.json",
+      "publish_permission": false,
+      "isolation": "protocol-only; shared filesystem"
+    },
+    {
+      "task_id": "G89",
+      "agent_id": "01a1d469-e510-7fe3-9c8b-005d2362e820",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "state": "running",
+      "runtime": {
+        "timestamp": "2026-11-13T11:15:45.679Z",
+        "model": "antigravity/gemini-3.8-flash-tiered",
+        "effort": "high"
+      },
+      "ownership_plan": "outputs/plans/20261113-A130-remaining-sections.json",
+      "publish_permission": false,
+      "isolation": "protocol-only; shared filesystem"
+    },
+    {
+      "task_id": "G90",
+      "agent_id": "01a1d4a1-c1d0-76d1-9ea4-f16c26f8873c",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "reasoning_effort": "high",
+      "state": "running",
+      "runtime": {
+        "timestamp": "2026-11-13T11:18:54.470Z",
+        "model": "antigravity/gemini-3.8-flash-tiered",
+        "effort": "high"
+      },
+      "ownership_plan": "outputs/plans/20261113-A130-remaining-sections.json",
+      "publish_permission": false,
+      "isolation": "protocol-only; shared filesystem"
+    }
+  ],
+  "current_checkpoint": {
+    "sections": 27,
+    "pages": 220,
+    "state": "accepted-build-and-reconciled",
+    "directory": "checkpoint27"
+  },
+  "historical_worker_boundary": "workers and next_workers preserve prior assignments; current_workers plus current_ownership in the remaining-sections plan are authoritative.",
+  "completed_narrow_audits": {
+    "T17": {
+      "state": "succeeded-and-closed",
+      "acceptance": "T17/parent-acceptance.json",
+      "model": "codex/gpt-6.1-terra/xhigh"
+    }
+  }
 }

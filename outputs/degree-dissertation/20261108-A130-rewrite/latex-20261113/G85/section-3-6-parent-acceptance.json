@@ -1,0 +1,39 @@
+{
+  "section_id": "3.6",
+  "verdict": "accepted-content-pending-common-bib-layout-and-compile",
+  "canonical_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-6.tex",
+  "sha256": "4abe8e596f107ef849fa7c8764ec185edab288785540b0acf120f6ddb8b6ff11",
+  "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-6.json",
+  "ledger_sha256": "86be978eb8ad48862b2361917ccf0d445b2065159fa3c3c58c1492ebc6ff37bd",
+  "scope": "Local mathematics, original-model claims, units, phase branches, competing explanations and figure; no microscopic calculations reproduced.",
+  "figure_hashes": [
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/mode-mixing-avoided-crossing.pdf",
+      "sha256": "f8d50454af23da2fdd19308e7e844e02cc8b96a7b509cb3033cd021da8da5729"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/mode-mixing-avoided-crossing.svg",
+      "sha256": "3b2a180bdc3342f50644677c8a31e695d2794d1e01bc7c8725fb4ca46396f5ac"
+    }
+  ],
+  "parent_corrections": [
+    "marginal vs negative stiffness",
+    "frequency-squared dimensions",
+    "interference phase and fixed-model sum",
+    "full rotational commutators and J units",
+    "Oi not TAC+GCM or TSD experimental proof",
+    "Kvasil pairing prescription and Bhat calibration/counterexample"
+  ],
+  "goal_remains_active": true,
+  "integration": "27-section clean preview; final production collection and figures hash-matched",
+  "publication_normalization_history": [
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/mode-mixing-avoided-crossing.svg",
+      "old_sha256": "d41d513936c73f835cc48152b6dfc7c714eede1f9be8a12027c922521419e484",
+      "sha256": "3b2a180bdc3342f50644677c8a31e695d2794d1e01bc7c8725fb4ca46396f5ac",
+      "producer": "system/scripts/a130_mode_mixing_figure.py",
+      "producer_sha256": "bfaf8a30dbd2171c0fd105efc781079f4b1bcb324c7a203791ef6363244e66a9",
+      "pdf_unchanged_sha256": "f8d50454af23da2fdd19308e7e844e02cc8b96a7b509cb3033cd021da8da5729"
+    }
+  ]
+}

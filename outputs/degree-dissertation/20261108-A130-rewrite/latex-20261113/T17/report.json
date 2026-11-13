@@ -1,0 +1,116 @@
+{
+  "worker": "T17",
+  "scope": "对冻结的 3.4 TeX 与 ledger 仅核指定四个接口及紧邻的 TiP/轨迹问题；不代表整节、全稿、全部引用、编译或实验数据通过。",
+  "runtime": {
+    "model": "codex/gpt-6.1-terra",
+    "effort": "xhigh",
+    "evidence": "当前线程 rollout 的 turn_context 元数据，2026-11-13T10:50:22.988Z",
+    "thread_id": "01a1d487-a760-7483-a645-ae4c361ca562",
+    "note": "运行时记录为执行环境元数据，不是能力或审核认证。"
+  },
+  "frozen_inputs": [
+    {
+      "original": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-4.tex",
+      "copy": "sec-3-4.frozen.tex",
+      "sha256": "f010a62f3bbb988bf36ef2cf66bc19a5af8519fbd4d56e00cc4a7856032e5c74",
+      "comparison_at_copy": "original and frozen SHA-256 matched"
+    },
+    {
+      "original": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-4.json",
+      "copy": "section-3-4.frozen.json",
+      "sha256": "795956040c6c958dcf54249e5d1cec322901261f837f61372c4ea38b8d3c8803",
+      "comparison_at_copy": "original and frozen SHA-256 matched"
+    }
+  ],
+  "original_sources_read": [
+    {
+      "path": "raw/papers/gpt/query/20261113-A130-precession-limits/shimizu-matsuzaki-matsuyanagi-2005-nucl-th-0412074v2.pdf",
+      "sha256": "6566edd91dc5765a21241ac553f599faf0037d1cadf4113edbe1d969645e97c7",
+      "identity": "PDF 首页明确 arXiv:nucl-th/0412074v2 27 Dec 2004；内部日期 May 10, 2018；14 页，不是已核出版商排版版。",
+      "actual_read": "PDF 首页，以及 PDF pp. 2–3 式(1),(5)–(11)、PDF pp. 5–6 式(29)–(40)与参考系段落；本报告不声称全篇核读。"
+    },
+    {
+      "path": "raw/papers/2020_Lawrie et al_Tilted precession and wobbling in triaxial nuclei.pdf",
+      "sha256": "777f935b0266fed8a9d9f2e1cc1f72995c84dd83e27ca1f5377ab2785b2ec405",
+      "actual_read": "PDF pp. 1–3，尤其 PDF p.2 式(1)–(4)、p.3 图2–3及经典轨迹；其他页文字检索，未作全篇审查。"
+    },
+    {
+      "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "actual_read": "PDF p.134 / 印刷 p.119，式(6.7)、(6.9)和脚注6；只核 SI/Gaussian 磁矩量纲。"
+    }
+  ],
+  "findings": [
+    {
+      "severity": "P1",
+      "where": "frozen TeX 13–16；ledger 3.4-P01",
+      "actual": "明确 R_perp=ħ(𝓘_perp−j_perp) 后又写 H=ħ²R_perp²/(2𝓙_perp)，比物理角动量表达式多 ħ²。",
+      "minimal_fix": "保留 physical R 定义，改 H=R_perp²/(2𝓙_perp)=ħ²(𝓘_perp−j_perp)²/(2𝓙_perp)；或者另定义无量纲 r=R/ħ，但不能混用。",
+      "basis": "量纲推导；Lawrie PDF p.2 式(1)中的投影采用无量纲旋转角动量而系数含 ħ²，不能与本文 physical R 混淆。"
+    },
+    {
+      "severity": "P1",
+      "where": "frozen TeX 9,11,17–21；ledger 3.4-P01",
+      "actual": "轴对称微观量子介质普遍断言 𝓙_parallel=0；以 ⟨K|j_±|K⟩=0 为理由解释科里奥利退耦。",
+      "minimal_fix": "将结论限定为纯轴对称形状转子的冗余旋转及约束 R_3=0，区分微观 cranking/准粒子轴向响应；内禀投影为 K，忽略跨组态科里奥利及可能的 K=1/2 退耦是额外假设。固定组态内常数项吸收进 E_intr 后谱式成立。",
+      "basis": "Shimizu PDF p.3 式(8)–(11)讨论 collective rotor、single-particle alignment；其后 RPA 是不同动力学模型。对角矩阵元为零不排除 ⟨K±1|j_±|K⟩ 等非对角项。"
+    },
+    {
+      "severity": "P1",
+      "where": "frozen TeX 39–43；ledger 3.4-P03",
+      "actual": "K=⟨Φ|J_x|Φ⟩ 与第11行无量纲 j 定义不一致；ω_prec=ħK/𝓙_eff 写得像普适、显式和必然绝热；ω_rot=ħI/𝓙_x 写成普遍推转频率。",
+      "minimal_fix": "设 K=⟨Φ|J_x|Φ⟩/ħ；限定轴对称、物理 ΔK=+1 与小振幅 RPA：ω_wob=ω_prec−ω_rot；𝓙_eff 一般取模式频率处，隐式自洽；绝热极限才将其近似为推转惯量。ω_rot 是所选参考系角速度，ħI/𝓙_x 是对应示意转子假设，非通用微观恒等式。",
+      "basis": "Shimizu PDF p.6 式(32),(38)–(40)及其参考系解释；该频率关系不必先取绝热近似；原文在 ħ=1 下书写。"
+    },
+    {
+      "severity": "P1",
+      "where": "frozen TeX 65–66；ledger 3.4-P06",
+      "actual": "将横向惯量不等、科里奥利非对角耦合和内禀宇称/旋称混合普遍视为破坏同一角向反射；ledger 还说中心节点仅在对称谐振子成立。",
+      "minimal_fix": "区分角坐标反射、空间宇称、旋称；具体确定哈密顿量对所选操作是否对称、态是否为奇及所用角概率表示。对称一维势中任何反射奇态在固定点都有零，不限谐振势；各向异性曲率本身不排除反射对称。多通道投影或积分概率须计算，不能普遍断言节点或其消失；有限 I 一般非高斯。",
+      "basis": "一维反射对称及奇波函数代数；这是任务内直接推论，不伪称指定原文已证明任意真实核分布。"
+    },
+    {
+      "severity": "P2",
+      "where": "frozen TeX 102–106；ledger 3.4-P08",
+      "actual": "TeX 只作概念性振幅定义，并未出现漏 c 的显式闭式，但把 μ_N 与 Eγ/(ħc) 并列可能引导读者漏除 c；ledger 同样缺算符约定。DCO 根数叙述遗漏线性退化和原分母为零。",
+      "minimal_fix": "与 5.9 明确一致：SI 电荷型 M_S=M_μ/c 时配 q=Eγ/(ħc)；如使用磁矩型 M_μ 则配 Eγ/ħ，相位约定一致。给出 DCO 一般二次式/二次式，求根需排除分母为零，退化情形单列。偏振不保证唯一。",
+      "basis": "Suhonen PDF 134 / 印刷119 式(6.7),(6.9)、脚注6；实际 5.9 TeX 行 98–110 的约定；比例关系由量纲推导。磁矩型 μ_N² 与电荷型 (μ_N/c)² 各自归一后的 b_M1 数值相同，不额外加 c²。"
+    },
+    {
+      "severity": "P2",
+      "where": "frozen TeX 23–33；ledger 3.4-P02/P03",
+      "actual": "固定 K 的常惯量谱推出 I→I−1 间距和首差 K+1 正确，但适用域、能级存在与实际电磁连接条件需要显式标明。",
+      "minimal_fix": "要求 I−1≥K、两个自旋均为所允许的能级；跃迁本身还需满足选择定则。K≫1 且低阶 n 时首差与 ħω_prec 的领先项一致，有限 K 的相对修正为 1/K；不把跨自旋差直接当作固定自旋模频率。",
+      "basis": "Shimizu PDF p.3 式(9)–(11)；15 个有理数检查见 results.json。"
+    },
+    {
+      "severity": "P2",
+      "where": "frozen TeX 50–54,62；ledger 3.4-P04/P05",
+      "actual": "把一般含动态准粒子的 PRM 轨迹直接写成总角动量球面与能量椭球交线，并称所有轨迹严格闭合；把 TiP 图景和严格线性跃迁强度当通用定义。",
+      "minimal_fix": "限定为纯转子或冻结内禀角动量等简化经典模型的示意；分离线等可非闭合。量子 QTR 的本征态和经典轨道是不同描述；以模型和自旋区间说明局域简谐判据，避免将精确线性或固定倾斜方向推广为定义。",
+      "basis": "Lawrie PDF p.2 式(1)–(2)及 PDF p.3 图2–3是所讨论的转子参数示意，不能无条件推广到动态准粒子 PRM。"
+    },
+    {
+      "severity": "P3",
+      "where": "ledger source shimizu-2005-high-k-precession 与 knowledge source bibliographic record",
+      "actual": "所列 arXiv v2 和 SHA-256 与实际首页/文件一致；内部 May 10, 2018 日期不是 arXiv 版本日。报告范围应注明 PDF 原件，而非冒称出版排版页码。",
+      "minimal_fix": "保留 v2，正确记 2004-12-27 和 PDF 14 页；本次只记录实际核读页。",
+      "basis": "Shimizu PDF 首页和 sha256sum；不凭文件名或 G88 自报判定版本。"
+    }
+  ],
+  "checks": {
+    "symbolic_or_numeric": "validation.py 标准库 Fraction：15 组整数及半整数 K 的有限差、SI 两种矩阵元约定；results.json，全部通过。原尝试 sympy 在环境缺失后改为标准库，有限例检验不是一般性证明。",
+    "general_analytic": "对谱式直接相减得 E(K+n)−E(K)=ħ²[nK+n(n+1)/2]/𝓙_perp；首差 = ħ²(K+1)/𝓙_perp。",
+    "build": "未编译，无权修改主稿及构建文件。",
+    "source_and_bib": "未修改 source、knowledge、Bib、正文或其他共享路径；只给父审建议。"
+  },
+  "disposition": "需要针对 P1 修正后由父审复核；不构成全文通过。",
+  "deliverables": [
+    "report.json",
+    "correction.tex",
+    "validation.py",
+    "results.json",
+    "sec-3-4.frozen.tex",
+    "section-3-4.frozen.json"
+  ]
+}

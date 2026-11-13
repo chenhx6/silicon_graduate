@@ -1,0 +1,52 @@
+{
+  "scope": [
+    "knowledge/research-notes/a130-rewrite-absolute-rates-and-selection-boundaries-20261108.md",
+    "knowledge/research-notes/a130-rewrite-alignment-frame-and-precession-20261113.md",
+    "knowledge/research-notes/a130-rewrite-axial-operator-scope-20261113.md",
+    "knowledge/research-notes/a130-rewrite-cross-region-comparison-and-e0-constraints-20261113.md",
+    "knowledge/research-notes/a130-rewrite-forward-observables-and-cascade-consistency-20261113.md",
+    "knowledge/research-notes/a130-rewrite-joint-live-and-arrival-sampling-20261113.md",
+    "knowledge/research-notes/a130-rewrite-magnetic-unit-and-numerical-normalization-20261113.md",
+    "knowledge/research-notes/a130-rewrite-seniority-k-selection-20261113.md",
+    "knowledge/research-notes/a130-rewrite-shape-orientation-mode-coupling-20261113.md",
+    "knowledge/research-notes/a130-rewrite-wobbling-local-limits-20261113.md",
+    "knowledge/sources/dewald-2012-ddcm-recoil-distance.md",
+    "knowledge/sources/gysbers-2019-ab-initio-beta-decay-quenching.md",
+    "knowledge/sources/nndc-130sn-adopted-2001-snapshot-20261113.md",
+    "knowledge/sources/shimizu-2005-high-k-precession.md",
+    "knowledge/sources/wang-2026-axial-coupling-quenching-joint-effects.md",
+    "knowledge/sources/wolff-1982-poisson-arrivals-see-time-averages.md",
+    "knowledge/projects/doctoral-nuclear-structure-foundations.md"
+  ],
+  "gate_exit_codes": {
+    "preflight": 0,
+    "boundary": 0,
+    "lint": 0,
+    "archive": 0
+  },
+  "global_lint_counts": {
+    "error": 147,
+    "warning": 487,
+    "info": 5480
+  },
+  "scoped_issues": [],
+  "scoped_errors": 0,
+  "boundary": "Whole-Wiki historical/WIP lint failures are reported separately from this explicit publication scope.",
+  "recorded_at": "2026-11-13T11:31:23.825476+00:00",
+  "archive": {
+    "ok": true,
+    "checked_sources": 58,
+    "checked_manifests": 0,
+    "failure_count": 0,
+    "explicit_recovery_manifests_checked": 2,
+    "recovery_tar_members_checked": 67,
+    "recovery_failure_count": 0,
+    "recovery_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/checkpoint27/wip-archive-verification.json"
+  },
+  "publication_link_closure": {
+    "scope": "proposed knowledge files against HEAD plus explicit publication set",
+    "issues": [],
+    "ok": true
+  },
+  "method_note": "Initial archive CLI invocation omitted the check subcommand; corrected invocation is archive-final.json. The unrelated Mukherjee72Se page belongs to a separate task, is not a manuscript dependency, and is excluded without modification."
+}

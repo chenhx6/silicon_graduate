@@ -1,0 +1,80 @@
+{
+  "created_at": "2026-11-13T09:35:45.836480+00:00",
+  "goal": "Complete existing five-chapter39-section A130 nonpersonal dissertation foundations; no replacement goal",
+  "owner": "G79 existing GeminiTiered/high thread, original method queue first",
+  "canonical_root": "raw/writing/gpt/A130/these_2023_template/these_template",
+  "ownership": "After its original method/E queue, G79 may revise the closed-worker body/ledger/unique figures/knowledge listed below, one section at a time. Parent owns commonBib/wrappers/build/index/Git and accepted3.3/3.6/4.6. No other manuscript/PLAN/memory/PADO/daily files.",
+  "method_queue": [
+    "5.2",
+    "5.6",
+    "5.7",
+    "5.8",
+    "5.10",
+    "AppendixE"
+  ],
+  "mandatory_shared_reading": [
+    "knowledge/research-notes/a130-rewrite-forward-observables-and-cascade-consistency-20261113.md",
+    "knowledge/research-notes/doctoral-thesis-notation-and-evidence-style-20261108.md",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T16/report.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T16/correction.tex"
+  ],
+  "delivery": "A section is not accepted merely because a file exists. Correct actual TeX, figure script+PDF/SVG if present, canonical ledger claims/locators/raw identity, corresponding knowledge claims. Save receipt with actual hashes and brief result, then continue next independent section. Never copy raw paths/hashes or long values from old ledgers without checking actual source. Use inline evidence_sources lists and research-note schema.",
+  "success": "Source-bounded physical reasoning, friendly reader steps and conditional models; no fabricated hardware/data/person or universal arbitrary thresholds; no internal contract/policy slogans in body. Parent acceptance plus later integration/compile required.",
+  "after_method_queue": [
+    {
+      "section": "4.7",
+      "requirements": [
+        "Apply T16 accepted narrow corrections by block, recheck actual latest source/TeX hashes and outer enumerate boundaries. Atomic QEC separate from hole energy, GF energy units and coupling-free B definitions, Ibeta=0..1 normalized to stated mother-decay branch, final cascade recursion not immediate widths.",
+        "0nu observation and m_beta_beta only in declared mechanism; long-range plus coherent short-range contribution under common gA/G/NME convention. Avoid expanding black-box theorem without its own sources.",
+        "Keep Zhi2013 N50 Z>=28 and N126 Z>=70 model ranges; WangNi56/Sn132 selected RPA windows not all shell-model states. Correct TAGS and forward multiplicity response. Synchronize weak-windows knowledge."
+      ]
+    },
+    {
+      "section": "3.8",
+      "requirements": [
+        "delta is dimensionless radiative amplitude with energy/length/magnetic convention, never bare E2/M1 RME ratio. B inversely proportionaltau for fixed branch. General DCO quadratic numerator/denominator, branches not necessarily one large/one small or equally likely; P/lifetime not guarantee unique root.",
+        "Phenomenological effective models can be testable without microscopicPES. Time reversal is antiunitary, not ordinary eigenlabel. Covariance/residual inference does not require Bayesprior; publishedy,V can support conditional inference without rawcounts.",
+        "98Mo fullNPA1066(2026)1232658p:1833.3/1585.8 are5-→2+ and7-→4+ weak links, DCO/P blank, E3 lowest allowed; absoluteB needs lifetime/branch/multipole assumptions. Method feasibility not guaranteed RDM/DSAM.",
+        "Ru1022.95MeV E1B=.016e²fm²,4.5–5.5 sum~.1; remove invented1e−5–1e−6 compulsory IVGDR suppression. NRF branching-width relation explicit.3- directE3 and1-[2+x3-]phonon-related E3/E2 decay paths are different measurements.",
+        "Pr experiment differences not proven caused by coordinates/shape priors. No continuous4pi coverage/guaranteed unique root/fictitious gasfilmRDM/actual observed trajectories. Diagram channels carry covariance, not orthogonal independent dimensions."
+      ]
+    },
+    {
+      "appendices": [
+        "AppendixA",
+        "AppendixD"
+      ],
+      "contracts": [
+        "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/appendix-contracts/AppendixA.json",
+        "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/appendix-contracts/AppendixD.json"
+      ],
+      "requirements": [
+        "Follow exact existing contracts, give useful necessary mathematical support, not new personal results. Use parent-accepted chapter conventions. Complex genuinely new derivation request narrowTerra via parent; standard sourced algebra reconstruct with actuallocators and limits."
+      ]
+    }
+  ],
+  "service_failure": "If current provider fails, record actual error and stop worker retries; no model substitution or credential/account changes. Parent will continue independently authorized audit/build and report dependency honestly.",
+  "reserved_to_other_workers": {
+    "3.4": {
+      "worker": "G88",
+      "agent_id": "01a1d461-d238-71e0-a12b-5a201d70f6bd"
+    },
+    "3.7": {
+      "worker": "G88",
+      "agent_id": "01a1d461-d238-71e0-a12b-5a201d70f6bd"
+    },
+    "4.8": {
+      "worker": "G89",
+      "agent_id": "01a1d469-e510-7fe3-9c8b-005d2362e820"
+    },
+    "4.4": {
+      "worker": "G90",
+      "agent_id": "01a1d4a1-c1d0-76d1-9ea4-f16c26f8873c"
+    },
+    "4.5": {
+      "worker": "G90",
+      "agent_id": "01a1d4a1-c1d0-76d1-9ea4-f16c26f8873c"
+    }
+  },
+  "updated_at": "2026-11-13T11:23:59.222740+00:00"
+}

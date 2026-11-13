@@ -10,7 +10,7 @@
   },
   "latex_output": {
     "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-1.tex",
-    "sha256": "f6f488ac71cce90a75be9742b4c1709d54af65d3298c68ce9d2869c7fd625f1f"
+    "sha256": "cce29838eadc2eb20dcaef4a795334cf625f12332caf8e4d9448e510ca1f34ba"
   },
   "migration_type": "faithful_latex_migration",
   "targeted_fixes": [],
@@ -145,5 +145,7 @@
       ]
     }
   ],
-  "target_sha256": "cce29838eadc2eb20dcaef4a795334cf625f12332caf8e4d9448e510ca1f34ba"
+  "target_sha256": "cce29838eadc2eb20dcaef4a795334cf625f12332caf8e4d9448e510ca1f34ba",
+  "parent_final_tex_sha256": "cce29838eadc2eb20dcaef4a795334cf625f12332caf8e4d9448e510ca1f34ba",
+  "integration_status": "included-in27-section-clean-preview"
 }

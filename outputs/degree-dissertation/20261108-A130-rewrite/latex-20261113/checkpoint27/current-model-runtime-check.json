@@ -1,0 +1,34 @@
+{
+  "G79": {
+    "agent_id": "01a1d274-e82c-7bc0-af59-22fac97251d4",
+    "latest_observed": {
+      "timestamp": "2026-11-13T10:03:39.931Z",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "effort": "high"
+    }
+  },
+  "G88": {
+    "agent_id": "01a1d461-d238-71e0-a12b-5a201d70f6bd",
+    "latest_observed": {
+      "timestamp": "2026-11-13T10:51:03.015Z",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "effort": "high"
+    }
+  },
+  "G89": {
+    "agent_id": "01a1d469-e510-7fe3-9c8b-005d2362e820",
+    "latest_observed": {
+      "timestamp": "2026-11-13T11:15:45.679Z",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "effort": "high"
+    }
+  },
+  "G90": {
+    "agent_id": "01a1d4a1-c1d0-76d1-9ea4-f16c26f8873c",
+    "latest_observed": {
+      "timestamp": "2026-11-13T11:18:54.470Z",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "effort": "high"
+    }
+  }
+}

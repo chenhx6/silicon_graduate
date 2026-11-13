@@ -31,8 +31,14 @@ R1–R3第一阶段已完成知识、原件/数值核验及授权发布，
 [[doctoral-thesis-notation-and-evidence-style-20261108]]统一符号/引用，
 各稿仍须逐主张、公式与读者台阶核查，尚未完成整部正文。
 三样节与第二批七节的发布已经核对。
-11月13日起改用用户提供的LaTeX工程，当前15节及附B/C的已交付内容正收束为阶段稿；
-全部39节和必要附录仍未完成，已写内容不等于未知个人成果或学校送审材料。
+11月13日起改用用户提供的LaTeX工程，15节、附B/C已交付范围与7组矢量图
+已作为128页检查点发布。当前内容接受范围扩展到27节：第一章全章、第二章全章、
+3.1/3.2/3.3/3.5/3.6、4.1/4.2/4.3/4.6以及5.1/5.3/5.4/5.5/5.9；
+附B/C和附F已交付范围随组稿核验。其余12节与必要附录继续写作和返修，
+尚未完成整部39节稿。本次27节检查点编译为220页，引用、交叉引用、缺字、
+越界排版及Bib问题均为0；64项工程输入集合和9组SVG/PDF已逐项核对。
+具体范围与保留的非致命提示回任务回执，不套用早期128页结果。
+已写内容不等于未知个人成果或学校送审材料。
 写作暴露的原件与推导修正已分别保存为
 [[a130-rewrite-invariant-recoupling-and-width-boundaries-20261108]]、
 [[a130-rewrite-chiral-nonorthogonal-and-fingerprint-boundaries-20261108]]、
@@ -41,6 +47,17 @@ R1–R3第一阶段已完成知识、原件/数值核验及授权发布，
 第二批新增[[a130-rewrite-bcs-convention-and-model-hamiltonian-boundaries-20261108]]与
 [[a130-rewrite-digital-pulse-gain-and-data-boundaries-20261108]]：
 同一BCS字母不保证同一哈密顿量，形式正确的数字滤波式也不能替代逐行数据核对。
+本轮新增的可复用修正见
+[[a130-rewrite-cross-region-comparison-and-e0-constraints-20261113]]、
+[[a130-rewrite-magnetic-unit-and-numerical-normalization-20261113]]、
+[[a130-rewrite-forward-observables-and-cascade-consistency-20261113]]与
+[[a130-rewrite-seniority-k-selection-20261113]]：
+模型输出与可观测量的映射、支路与ICC口径、最终级联概率、单j允许占据及
+独立Fock空间控制均须保持各自条件，不能从区域名称或一条能量曲线直接迁移。
+取向展开与参考系条件另见
+[[a130-rewrite-alignment-frame-and-precession-20261113]]，形状坐标与取向坐标的
+质量加权、混合及干涉边界见
+[[a130-rewrite-shape-orientation-mode-coupling-20261113]]。
 
 用户要求先全力研学，再重建博士论文。前置研究和设计均已收束，当前进入正文，
 具体物理研学继续服务高价值问题与写作暴露的缺口。
@@ -58,7 +75,7 @@ Gemini Flash Tiered/high承担大部分分域研学；复杂理论交给Terra/xh
 它比较已核代表案例，不能当作六区所有核已穷尽或论文准备已经结束。
 
 用户对旧稿的不满是新的研究触发，旧“完成”“Master”等标签不构成准备充足的证据。
-`raw/writing/gpt/A130/`的原34文件已逐一核SHA后完整移动到
+11月8日当时，`raw/writing/gpt/A130/`的原34文件逐一核SHA后完整移动到
 `raw/writing/gpt/_archive/20261108-A130-before-rewrite/original/`，
 集合manifest的归档门已通过；未递归删除或改写Git历史。
 用户已明确授权准备充分后清空该精确目录并重写；
@@ -248,6 +265,20 @@ Gemini Tiered/high承担主要阅读、正文迁移与续写、工程清理、�
 投影本身不保证精确的全空间本征态或刚性转子能谱。
 数字定时的算法约定、离散采样及共享时钟误差见
 [[a130-rewrite-cfd-timing-and-clock-boundaries-20261113]]，与能量成形的增益/接受度边界分开使用。
+3.2节的体固定负对易、两类惯量简并与近软模有效性条件，见
+[[a130-rewrite-wobbling-local-limits-20261113]]；其中高K进动采用
+[[shimizu-2005-high-k-precession]]的实际归档预印本，区分共转系与实验室系比较。
+联合活时间的参考测度、条件独立教学模型和到达采样边界，见
+[[a130-rewrite-joint-live-and-arrival-sampling-20261113]]与
+[[wolff-1982-poisson-arrivals-see-time-averages]]，不能把时间busy占比直接当任意符合事件的损失率。
+弱算符的多体关联与两体流问题，定向回到
+[[gysbers-2019-ab-initio-beta-decay-quenching]]、
+[[wang-2026-axial-coupling-quenching-joint-effects]]及
+[[a130-rewrite-axial-operator-scope-20261113]]的实际选读范围；
+这两项采用不同的结构与算符实现，Wang2026当前仅按已取得v1预印本使用。
+第四章的二态E0、相位、数据方向与跨区输入条件见
+[[a130-rewrite-cross-region-comparison-and-e0-constraints-20261113]]；
+形状共存的解释须保留构型假设，不能把一个寿命或能比当完整势面的直接测量。
 模板需先逐文件备份并验证哈希，再可恢复清理示例；未知作者、导师、装置及个人成果不填写。
 
 完整五章39节及附录目标继续有效。工程编译成功、迁移完成或worker返回

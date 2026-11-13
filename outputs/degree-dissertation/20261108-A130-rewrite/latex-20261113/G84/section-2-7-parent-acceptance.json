@@ -1,0 +1,20 @@
+{
+  "section": "2.7",
+  "status": "content-admitted-layout-pending",
+  "timestamp": "2026-11-13T04:49:51.180098+00:00",
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-7.tex",
+  "output_tex_sha256": "f51c7cc5676da0c8e073b89335c0987dda315d06437f08a042d7dc63b06e5b9f",
+  "basis": [
+    "Actual unitary decoupling and BCH/induced-operator algebra, with selected P-space eigenstates and anti-Hermitian generator conditions.",
+    "SI E2 coefficient unit conversion and SI nuclear magneton; dimensionless l/s; signed isospin and effective-g_l correction.",
+    "Ikeda closure and Pauli scalar contraction traced to actual SuhonenPDF552–554; bare sums distinguished from g_A² rates.",
+    "Modern Gysbers2019 and Wang2026 originals archived; parent sampled model assumptions/figures, requiring method-specific conclusions and preprint boundary.",
+    "Finite-space and process-dependence statements corrected by narrow parent patch; no universal low-q quenching extrapolation."
+  ],
+  "remaining": "Compile/citation-key harmonization and knowledge structural gate handled separately; no personal data/result claim.",
+  "followup": {
+    "at": "2026-11-13T05:09:54.409244+00:00",
+    "receipt": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G84/parent-modern-axial-source-audit.json",
+    "scope": "Attribution path/resolution dependence and external-vs-internal momentum clarified; final summary effective-operator wording narrowed."
+  }
+}

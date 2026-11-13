@@ -1,0 +1,158 @@
+{
+  "section_id": "5.5",
+  "title": "触发、缓存与联合活时间",
+  "worker": "G79",
+  "recorded_at": "2026-11-13T04:22:48.153737+00:00",
+  "input_draft": {
+    "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G79/staged-sec-5-5.tex",
+    "sha256": "0e78ce48891d8a3e1c9b1cf8d78936591b75dc6fbf38648a68806472d4dc9ec7"
+  },
+  "original_contract": {
+    "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G79/next-5-5-contract.json",
+    "sha256": "cc52f10367b188a6ce5c037cca2cf64ad8c7ee9350cf6bb6dc66c34ff2f3c004"
+  },
+  "output_latex": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-5.tex",
+    "sha256": "4c717064a931962fca5ac0fb48c4f694764a648cb306363334d4b350ec084d98",
+    "equations_count": 15,
+    "tables_count": 0,
+    "figures_count": 0,
+    "labels": [
+      "sec:5-5",
+      "subsec:5-5-1",
+      "eq:5-5-word0",
+      "eq:5-5-word1",
+      "eq:5-5-word2",
+      "eq:5-5-word3",
+      "subsec:5-5-2",
+      "subsec:5-5-3",
+      "eq:5-5-non-paralysable",
+      "eq:5-5-paralysable",
+      "subsec:5-5-4",
+      "eq:5-5-time-avg-live",
+      "eq:5-5-joint-live-ref",
+      "eq:5-5-joint-live-cov",
+      "eq:5-5-cond-indep",
+      "eq:5-5-joint-cond-derived",
+      "eq:5-5-joint-bias-ineq",
+      "subsec:5-5-5",
+      "eq:5-5-fbusy-def"
+    ],
+    "citations": [
+      "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "wolff-1982-poisson-arrivals-see-time-averages"
+    ]
+  },
+  "sources": [
+    {
+      "citation_key": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "canonical_title": "通用数字化获取系统的开发",
+      "raw_file": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+      "raw_sha256": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b",
+      "actual_read_pages": "PDF pages 53–56 (printed 41–44), Section 2.1.4 & 2.2, Fig. 2.8; PDF pages 127–129 (printed 115–117), Appendix B.1, Fig. B.1, Eqs. (B.1), (B.5)"
+    },
+    {
+      "citation_key": "wolff-1982-poisson-arrivals-see-time-averages",
+      "canonical_title": "Poisson Arrivals See Time Averages",
+      "raw_file": "raw/papers/gpt/query/20261113-A130-live-time/wolff-1982-poisson-arrivals-see-time-averages.pdf",
+      "raw_sha256": "42b994436fed08d86ddcc7dd7773dec34c0058ca505d9e0f65f92c5ec7b4e9f2",
+      "actual_read_pages": "printed pages 223–226 (PDF pages 2–5), Section 1, Definition of Lack of Anticipation Assumption (LAA), and Theorem 1"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C55-header-format",
+      "statement": "Pixie-16 列表模式事件数据头始终以固定的 4 字（32 位/字）开头，字 0 包含通道号、插槽号、机箱号、标头长度、事件长度与堆积标志；字 1 为时间戳低 32 位；字 2 为时间戳高 16 位与 CFD 结果；字 3 为 16 位能量与波形记录长度。",
+      "source": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "pdf_pages": "54–55",
+      "printed_pages": "42–43",
+      "figure_or_equation": "图 2.8 Pixie-16 数据头基本结构",
+      "searchable_anchor": "式事件数据头始终以4 字(words)（32 位）开头，其中包括事件标识信息、时间戳、能"
+    },
+    {
+      "claim_id": "C55-buffer-loss-strategy",
+      "statement": "硬件波形缓冲区满载时存在固件依赖的分层处理行为：标准 Pixie-16 固件在波形缓存满时无法存储任何后续事件（整事件丢失）；定制 GDDAQ 固件在波形缓存满时仅存储事件数据头而丢弃波形径迹（保头丢波形），保留总能谱计数但丧失离线波形甄别能力。",
+      "source": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "pdf_pages": "55–56",
+      "printed_pages": "43–44",
+      "figure_or_equation": "第 2.2 节标准固件与定制功能",
+      "searchable_anchor": "在标准Pixie-16 固件中，一旦在波形记录模式下波形缓冲区已满，则在清除缓冲区之前无法存储任何后续事件。"
+    },
+    {
+      "claim_id": "C55-custom-header-drop-anchor",
+      "statement": "定制固件在波形缓冲区高计数率满载时仅存储事件数据头信息而不记录波形，以避免整事件丢失。",
+      "source": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "pdf_pages": "56",
+      "printed_pages": "44",
+      "figure_or_equation": "第 2.2 节定制固件第 1 自然段",
+      "searchable_anchor": "专门为本系统开发了特殊的Pixie-16 固件，以便在高计数率下波形缓存满时，仅存储事件的数据头信息，而不记录波形。"
+    },
+    {
+      "claim_id": "C55-dead-time-models",
+      "statement": "经典不可扩展死时间传递函数为 R_out = R_in / (1 + R_in * tau_np)；可扩展死时间模型下输入事件被记录的充要条件为相继到达间隔大于 tau_p，传递函数为 R_out = R_in * exp(-R_in * tau_p)。二者均基于平稳泊松到达过程与固定死时间常数 tau 的理想化假设。",
+      "source": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "pdf_pages": "128–129",
+      "printed_pages": "116–117",
+      "figure_or_equation": "附录 B.1 图 B.1、式 (B.1) 与式 (B.5)",
+      "searchable_anchor": "图B.1\n可扩展和不可扩展死时间行为模型说明。"
+    },
+    {
+      "claim_id": "C55-pasta-laa-condition",
+      "statement": "连续时间均匀平均的 busy 占比不自动等同于离散物理事件到达时的存活概率；由 Wolff 1982 PASTA 定理，在平稳泊松输入满足无预知假设（LAA）——未来到达增量不依赖过去和当前系统状态（允许当前系统忙闲状态依赖过去的到达历史）时，到达平均与时间平均以概率 1 相等。泊松性为充分条件，非绝对排他条件。",
+      "source": "wolff-1982-poisson-arrivals-see-time-averages",
+      "pdf_pages": "3–4",
+      "printed_pages": "224–225",
+      "figure_or_equation": "Section 1, Lack of Anticipation Assumption (LAA) & Theorem 1",
+      "searchable_anchor": "the process being observed cannot anticipate the future jumps of the Poisson process."
+    },
+    {
+      "claim_id": "C55-laa-formal-definition-anchor",
+      "statement": "无预知假设（LAA）的数学定义为未来到达增量独立于系统过去和当前的状态历史。",
+      "source": "wolff-1982-poisson-arrivals-see-time-averages",
+      "pdf_pages": "4",
+      "printed_pages": "225",
+      "figure_or_equation": "LAA definition display equation",
+      "searchable_anchor": "Lack of Anticipation Assumption (LAA). For each t"
+    },
+    {
+      "claim_id": "C55-joint-live-covariance-and-counterexample",
+      "statement": "双通道联合活时间满足一般协方差恒等式 Live_12(Delta t) = Live_1 * Live_2 + Cov_ref(X_1(t), X_2(t + Delta t))。在共享公共阻塞 f_busy in (0, 1) 且非阻塞期两通道条件独立（Live_1|free > 0, Live_2|free > 0）的教学反例下，Live_12 = (Live_1 * Live_2) / (1 - f_busy) > Live_1 * Live_2（仅适用于共享同一公共门控变量的时差范围，不推广至任意大 Delta t）；多通道仲裁（轮询/令牌）可能引入负相关项抵消，绝不宣称所有忙逻辑必然正协方差。",
+      "source": "knowledge/research-notes/a130-rewrite-joint-live-and-arrival-sampling-20261113.md",
+      "pdf_pages": "N/A",
+      "printed_pages": "N/A",
+      "figure_or_equation": "式 (5.14) 与式 (5.18)",
+      "searchable_anchor": "Live_{12} = \\frac{Live_1 Live_2}{1 - f_{\\mathrm{busy}}} > Live_1 Live_2"
+    },
+    {
+      "claim_id": "C55-hardware-keep-vs-offline-clean",
+      "statement": "硬件数据保存几率（未记录事件未保存，不能逐事件重建，属于仪器传输效率损失）与离线干净样本挑选（PUR/饱和/时间差门选，属于分析相空间接受度过滤）必须严格解耦；仅凭协方差展开式并不代表在实际实验中容易实现无偏修正。",
+      "source": "knowledge/research-notes/a130-rewrite-joint-live-and-arrival-sampling-20261113.md",
+      "pdf_pages": "N/A",
+      "printed_pages": "N/A",
+      "figure_or_equation": "第 5.5.5 节",
+      "searchable_anchor": "该事件记录未保存，不能逐事件重建；其统计损失只能在已验证的响应模型条件下进行总体修正"
+    }
+  ],
+  "migration_differences": [
+    "从 outputs/ 暂存稿正式写盘至 canonical Tex/Sections/sec-5-5.tex",
+    "可扩展死时间推导定点修正为：到达前 tau_p 窗口无输入事件（即相继输入间隔 > tau_p）之概率 exp(-R_in * tau_p)",
+    "PASTA 定理严格引用 Wolff (1982) 无预知假设（LAA），澄清系统当前忙闲状态依赖过去到达历史而非整个到达过程全域独立",
+    "消除正文中所有 Markdown 加粗语法（**...** 改为 \\emph 或普通文字）",
+    "共同阻塞教学模型明确标注 0 < f_busy < 1 且 Live_1|free > 0, Live_2|free > 0 条件，并限定为两时刻共享同一公共门控变量之局域时差，声明不可推广至任意 Delta t",
+    "硬件丢失叙述纠正为学术中立表述（'该事件记录未保存，不能逐事件重建；其统计损失只能在已验证的响应模型条件下进行总体修正'），删除评价公式'形式上优美'之非客观措辞",
+    "无新增未经原件支持的科学主张",
+    "修正保头丢波形表述：说明仅减轻波形缓存瓶颈导致的头丢失，不能宣称全部计数无损，整体完整性仍需实测标定",
+    "统一正文文献定位为印刷页（图 2.8 为印刷第 42-43 页，附录 B 死时间为印刷第 115-116 页），台账保持 PDF 与印刷页并列",
+    "可扩展死时间推导修正为此前窗口无输入事件的概率，PASTA 补充稳态极限存在性说明",
+    "闭合教学反例测度定义：f_busy 改为参考到达测度下的阻塞概率 Pr_ref(B=1)，说明仅当参考测度为时间均匀分布或满足 PASTA 条件时才等于时间占空比；并将反例严格限定于瞬发符合 Delta t = 0，删去时差落在一个脉宽内的简化"
+  ],
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-5.tex",
+  "output_tex_sha256": "4c717064a931962fca5ac0fb48c4f694764a648cb306363334d4b350ec084d98",
+  "parent_final_patch": {
+    "at": "2026-11-13T04:51:17.504596+00:00",
+    "scope": "Time-vs-arrival equality conditions stated as sufficient; covariance identity does not identify causality."
+  },
+  "target_sha256": "4c717064a931962fca5ac0fb48c4f694764a648cb306363334d4b350ec084d98",
+  "parent_final_tex_sha256": "4c717064a931962fca5ac0fb48c4f694764a648cb306363334d4b350ec084d98",
+  "integration_status": "included-in27-section-clean-preview"
+}

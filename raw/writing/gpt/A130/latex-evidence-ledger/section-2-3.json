@@ -139,5 +139,7 @@
         "一个正文Unicode B₊改为数学B_+，增加一个行内数学定界块"
       ]
     }
-  ]
+  ],
+  "parent_final_tex_sha256": "0cba2e7dbbae51d8e62b5f6f253fcc7b1584b1b99eaad8f7fec58564ad03b640",
+  "integration_status": "included-in27-section-clean-preview"
 }

@@ -1,0 +1,67 @@
+% T14: 供 G81 核查及选用的推导片段；不是待直接纳入主文的完整章节。
+% 来源定位见同目录 report.json。下式假定 J_k > 0、固定主轴惯量。
+\paragraph{约定与局域展开。}
+令 $\hat L_k$ 为具有角动量量纲的体固定分量，定义无量纲算符
+$\hat I_k=\hat L_k/\hbar$，自旋量子数 $I$ 无量纲，并取
+\begin{equation}
+ [\hat I_i,\hat I_j]=-i\epsilon_{ijk}\hat I_k,\qquad
+ \hat{\boldsymbol I}^{2}=I(I+1),\qquad
+ H=\sum_{k=1}^3 A_k\hat I_k^2,\qquad
+ A_k=\frac{\hbar^2}{2\mathcal J_k}.
+\end{equation}
+相应的有量纲对易式为 $[\hat L_i,\hat L_j]=-i\hbar\epsilon_{ijk}\hat L_k$。
+假设 $\mathcal J_1>\mathcal J_2,\mathcal J_3$，即
+$d_2=A_2-A_1>0$、$d_3=A_3-A_1>0$，在局部取
+$\hat I_1\simeq I\gg1$。利用固定 $I$ 的 Casimir 精确重写
+\begin{equation}
+ H=A_1I(I+1)+d_2\hat I_2^2+d_3\hat I_3^2.
+\end{equation}
+以反常对易关系为准，选取
+\begin{equation}
+ a=\frac{\hat I_2-i\hat I_3}{\sqrt{2I}},\quad
+ a^\dagger=\frac{\hat I_2+i\hat I_3}{\sqrt{2I}},\quad
+ [a,a^\dagger]=\frac{\hat I_1}{I}\simeq1.
+\end{equation}
+于是保留横向二次项得到
+\begin{equation}
+ H\simeq A_1I(I+1)+\alpha\left(a^\dagger a+\tfrac12\right)
+ +\tfrac{\beta}{2}(a^2+a^{\dagger2}),\quad
+ \alpha=I(d_2+d_3),\quad\beta=I(d_2-d_3).
+\end{equation}
+令 $b=\cosh r\,a+\sinh r\,a^\dagger$，
+$\tanh(2r)=\beta/\alpha$，则 $[b,b^\dagger]\simeq1$，并有
+\begin{align}
+ H&\simeq A_1I(I+1)+\hbar\omega_{\rm wob}
+ (b^\dagger b+\tfrac12),\\
+ \hbar\omega_{\rm wob}&=\sqrt{\alpha^2-\beta^2}
+ =2I\sqrt{(A_2-A_1)(A_3-A_1)}\\
+ &=\hbar\omega_{\rm rot}
+ \sqrt{\frac{(\mathcal J_1-\mathcal J_2)(\mathcal J_1-\mathcal J_3)}
+ {\mathcal J_2\mathcal J_3}},\qquad
+ \omega_{\rm rot}=\frac{\hbar I}{\mathcal J_1}.
+\end{align}
+这里 $\omega_{\rm rot}$ 是以 $|\boldsymbol L|\simeq\hbar I$ 定义的经典局域旋转角频率。
+若采用 $|\boldsymbol L|=\hbar\sqrt{I(I+1)}$，须相应调整高阶项。该推导是局域大自旋近似，不是有限 $I$ 精确对角化。对于 Bogoliubov 量子数 $n$，比 $n\ll I$ 更具体的有效条件为
+\begin{equation}
+ I\gg(2n+1)\frac{d_2+d_3}{2\sqrt{d_2d_3}}.
+\end{equation}
+这反映了接近软模时横向涨落增大；还应根据内禀态的离散对称性筛选实际允许的态。
+
+\paragraph{两个简并极限。}
+当 $\mathcal J_2\to\mathcal J_1>\mathcal J_3$ 时，$\omega_{\rm wob}\to0$，
+简并的是轴 $1,2$，惯量张量的对称轴是轴 $3$，主转动轴位于垂直于轴 $3$ 的简并平面。恢复力趋零，前述局域玻色化的有效条件同时变坏；不能把其零频简单当作一个仍受控的独立谐振子。
+当 $\mathcal J_2=\mathcal J_3=\mathcal J_\perp<\mathcal J_1$ 时，惯量张量以轴 $1$ 为对称轴，形式上的局域频率是
+\begin{equation}
+ \hbar\omega_{\rm wob}=2I(A_\perp-A_1)>0.
+\end{equation}
+此结论是给定正惯量、绕轴 $1$ 的形式对称陀螺结果；几何轴对称要求形状或内禀密度本身具有相应旋转对称性，若惯量张量也保持该轴对称性，则横向惯量简并；反向并非仅凭两个惯量相等就可推出。严格 $K=0$、轴对称的纯集体形状自由度不提供绕对称轴的独立集体转动；这不构成对一切非零进动解的禁戒。高 $K$ 情况中，对称轴方向角动量可来自内禀准粒子排列，而绕垂直方向的集体转动构成进动带。Shimizu 等人的旋转系摆动频率与实验室系带间能量差须区分：其高 $K$ 理想带满足
+\begin{equation}
+ E_K(I)-E_{\rm intr}=\frac{\hbar^2}{2\mathcal J_\perp}
+ [I(I+1)-K^2],\qquad I=K+n,
+\end{equation}
+因此 $E_K(K+1)-E_K(K)=\hbar^2(K+1)/\mathcal J_\perp$，
+大 $K$ 时才近似为 $\hbar^2K/\mathcal J_\perp$。不能将该式无条件等同于上面的固定 $I$ 旋转系频率。
+
+\paragraph{经典稳定性与有限自旋。}
+固定 $|\boldsymbol L|$、三个惯量互异时，能量在最大惯量轴上为严格局域极小、在最小惯量轴上为严格局域极大，两者均线性稳定；中间惯量轴为鞍点且线性不稳定。最小惯量轴稳定对应高能分支，并非固定自旋的最低能（yrast）分支；惯量简并时严格极值与线性稳定性须单独分析。
+固定惯量不保证有限 $I$ 的精确等间距，但也不能断言每组允许参数与态必有 $R_{21}\ne1$。例如仅作为未作离散对称投影的数学反例，$I=1$、$(A_1,A_2,A_3)=(1,2,3)$ 的完整转子矩阵本征值为 $(3,4,5)$，两间隔相等；它们不能因此被认定为一组物理的 $n=0,1,2$ 摆动态。应先确定同一转动系、离散对称性、态连续性及适用的声子指认，再讨论间隔或 $R_{21}$。

@@ -1,0 +1,16 @@
+{
+  "section": "2.8",
+  "status": "content-admitted-layout-pending",
+  "timestamp": "2026-11-13T04:59:11.090152+00:00",
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-8.tex",
+  "output_tex_sha256": "2aa1a20f0a7d392f0217637ad757ebfcd915e6b3e0a1dead2940adf8e87e8e73",
+  "basis": [
+    "Direct reread of corrected q2/q3 definitions, dimensionless ratio/domain and finite-closure caveat.",
+    "BH construction distinguished from energy-independent unitary effective models; operator corrections not only core polarization.",
+    "General density-matrix EDF variation and conditional Hamiltonian representation corrected; MR-EDF pathology scoped to implementation.",
+    "IBM chi does not alone fix dynamical symmetry.",
+    "135Pr negative-parity transition identities/747-to526 ratio checked against originalLvPDF3; unspecified old delta value and incorrect source removed; frozen alignment not universal PRM assumption.",
+    "Eight-model comparison retained with explicit degrees of freedom/truncation rather than a universal hierarchy."
+  ],
+  "remaining": "Canonical citation aliases/Bib harmonization and actual rendered table width; scientific acceptance does not infer all sources read in full."
+}

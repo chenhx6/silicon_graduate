@@ -164,5 +164,7 @@
   "unresolved_items": [
     "待 G80 生成并注入 Img/cfd-phase-convergence.pdf，当前由 \\IfFileExists 条件块安全包裹兜底占位",
     "跨机箱同步波形测试在 Hennig 等文献中仅有示波器包络最坏估计 (~1.5 ns)，正文已注明不可作为今日模块或用户装置保证指标"
-  ]
+  ],
+  "parent_final_tex_sha256": "18960bdfb1c2e65304a42da6bb39ef3026061b6a6d25d4911dcfdb853f316c26",
+  "integration_status": "included-in27-section-clean-preview"
 }

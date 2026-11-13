@@ -1,0 +1,9 @@
+{
+  "bundle": "raw/writing/gpt/A130/wip-revision-inputs-20261113T105251Z.tar.gz",
+  "manifest": "raw/writing/gpt/A130/wip-revision-inputs-20261113T105251Z.tar.manifest.json",
+  "members": 51,
+  "not_accepted_evidence": true,
+  "companion_bundle": "raw/writing/gpt/A130/wip-code-contracts-20261113T110512Z.tar.gz",
+  "companion_manifest": "raw/writing/gpt/A130/wip-code-contracts-20261113T110512Z.tar.manifest.json",
+  "companion_members": 16
+}

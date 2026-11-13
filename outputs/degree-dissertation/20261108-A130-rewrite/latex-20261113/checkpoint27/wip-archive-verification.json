@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-11-13T11:32:06.397359+00:00",
+  "scope": "Explicit archive-gate check_manifest API for two noncanonical manifest filenames, plus tar-member byte audit; no extraction or overwrite",
+  "checks": [
+    {
+      "manifest": "raw/writing/gpt/A130/wip-revision-inputs-20261113T105251Z.tar.manifest.json",
+      "bundle": "raw/writing/gpt/A130/wip-revision-inputs-20261113T105251Z.tar.gz",
+      "sha256": "48576e1dbca6edfc39192666d7c2567430ead08a76d7e797bdaf9233be50eec4",
+      "members": 51
+    },
+    {
+      "manifest": "raw/writing/gpt/A130/wip-code-contracts-20261113T110512Z.tar.manifest.json",
+      "bundle": "raw/writing/gpt/A130/wip-code-contracts-20261113T110512Z.tar.gz",
+      "sha256": "179d08021178e6f9547bd4d54bb0dbc233219115c920188aaf5c26adbd68bdeb",
+      "members": 16
+    }
+  ],
+  "members_checked": 67,
+  "failure_count": 0,
+  "failures": [],
+  "ok": true,
+  "evidence_boundary": "Recovery inputs with known errors; not scientific evidence."
+}

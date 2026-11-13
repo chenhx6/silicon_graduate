@@ -103,11 +103,11 @@ b_{\gamma, k} \equiv \frac{\lambda_{\gamma, k}}{\lambda_{\text{tot}}} = \frac{b_
 \begin{equation}\label{eq:5-9-delta-sq}
 \delta^2 = \frac{\lambda_\gamma(E2)}{\lambda_\gamma(M1)}.
 \end{equation}
-多极混合比 $\delta$ 是出射光子场发射几率振幅之比，它不仅包含微观约化矩阵元，还内含了光子动量因子 $q = E_\gamma / (\hbar c)$ 与电磁耦合参数。当磁辐射算符采用国际单位制（SI）约定、显式包含 $\mu_N/c$ 因子时（如 Suhonen 专著与 Rose-Brink 体系），混合比与约化矩阵元的关系表述为：
+多极混合比 $\delta$ 是出射光子场发射几率振幅之比，它不仅包含微观约化矩阵元，还内含了光子动量因子 $q = E_\gamma / (\hbar c)$ 与电磁耦合参数。当磁辐射算符采用国际单位制（SI）约定、显式包含 $\mu_N/c$ 因子时（如 Suhonen 专著与 Rose-Brink 体系），将分母明确写作电荷型磁算符 $\mathcal{M}_S(M1)$，混合比与约化矩阵元的关系表述为：
 \begin{equation}\label{eq:5-9-delta-def}
-\delta(E2/M1) = \frac{\sqrt{3}}{10} \frac{E_\gamma}{\hbar c} \frac{\langle I_f \| \mathcal{M}(E2) \| I_i \rangle}{\langle I_f \| \mathcal{M}(M1) \| I_i \rangle}.
+\delta(E2/M1) = \frac{\sqrt{3}}{10} \frac{E_\gamma}{\hbar c} \frac{\langle I_f \| \mathcal{M}(E2) \| I_i \rangle}{\langle I_f \| \mathcal{M}_S(M1) \| I_i \rangle}.
 \end{equation}
-此时 $\mathcal{M}(M1)$ 的矩阵元量纲为 $\mu_N/c$（具有电荷乘长度量纲 $e\cdot\text{fm}$），与 $\mathcal{M}(E2)$（量纲 $e\cdot\text{fm}^2$）及动量因子 $q$（量纲 $\text{fm}^{-1}$）相配使得 $\delta$ 为无量纲纯数。若在常规高斯单位制下将磁算符直接定义在核磁子 $\mu_N$ 单位上，公式中的前因子需作相应调整。$\delta$ 不能视作初末态裸约化矩阵元的简单无量纲相除。
+此时电荷型磁算符满足 $\mathcal{M}_S(M1) = \mathcal{M}_\mu(M1)/c$，其矩阵元量纲为 $\mu_N/c$（具有电荷乘长度量纲 $e\cdot\text{fm}$），与 $\mathcal{M}(E2)$（量纲 $e\cdot\text{fm}^2$）及动量因子 $q$（量纲 $\text{fm}^{-1}$）相配使得 $\delta$ 为无量纲纯数。若在常规采用磁矩型算符 $\mathcal{M}_\mu(M1)$（量纲 $\mu_N$）的约定下，分母相应补入 $1/c$ 因子（或等价地将光速 $c$ 移至分子与 $E_\gamma/\hbar$ 搭配），数值比值与相位约定保持完全自洽。$\delta$ 不能视作初末态裸约化矩阵元的简单无量纲相除。
 
 在给定混合跃迁光子发射率 $\lambda_\gamma$ 下，电四极与磁偶极各自的光子发射份额由以下无量纲比例确定：
 \begin{equation}\label{eq:5-9-multipole-frac}
@@ -153,15 +153,23 @@ B(E2) = \frac{\lambda_\gamma(E2)}{C_{E2} E_\gamma^5} = \frac{b_k \delta^2}{\tau 
 \end{equation}
 式中 $E_\gamma$ 以 $\text{MeV}$ 输入，$\tau$ 以 $\text{s}$ 输入，反演所得 $B(E2)$ 单位为 $e^2\,\text{fm}^4$。若采用宏观单位 $e^2\,\text{b}^2$（$1\,\text{b} = 100\,\text{fm}^2 \implies 1\,e^2\,\text{b}^2 = 10^4\,e^2\,\text{fm}^4$），数值需相应除以 $10^4$。该常数已完全内含真空电磁常数与 $\hbar$，使用该实用公式时不应重复乘除 $\hbar$ 或 $\ln 2$。
 
-对于磁偶极跃迁（$\lambda = 1$），Suhonen 采用 SI 核磁子 $\mu_N=e\hbar/(2m_p)$，算符含 $\mu_N/c$，因此 $B(M1)$ 的单位为 $(\mu_N/c)^2$。原书 Eq.~(6.14) 印出常数给出的跃迁率前因子为：
+对于磁偶极跃迁，本节与第2.7节统一采用磁矩型算符 $\mathcal M_{\mu}(M1)$，其核磁子为 SI 量 $\mu_N=e\hbar/(2m_p)$，并记相应的约化跃迁几率为 $B_{\mu}(M1)$，单位为 $\mu_N^2$。Suhonen 的电荷型磁算符满足 $\mathcal M_{S}(M1)=\mathcal M_{\mu}(M1)/c$，故 $B_{S}(M1)=B_{\mu}(M1)/c^2$。但按各自单位表示的无量纲数值相同：
+\begin{equation}
+b_{M1}\equiv\frac{B_S(M1)}{(\mu_N/c)^2}=\frac{B_\mu(M1)}{\mu_N^2}.
+\end{equation}
+原书 Eq.~(6.14) 对 $\lambda=1$ 给出~\cite{book-suhonen-from-nucleons-to-nucleus}
 \begin{equation}\label{eq:5-9-cm1}
-C_{M1} = \frac{6.080 \times 10^{20} \times (2/9)}{(197.33)^3} \approx 1.7583758801 \times 10^{13}\,\text{s}^{-1}\,\text{MeV}^{-3}\,[(\mu_N/c)^2]^{-1}.
+\begin{aligned}
+\lambda_\gamma(M1) &= C_{M1}\left(\frac{E_\gamma}{\mathrm{MeV}}\right)^3 b_{M1}, \\
+C_{M1} &= \frac{6.080\times10^{20}(2/9)}{197.33^3}\,\mathrm{s}^{-1}\simeq 1.7584\times10^{13}\,\mathrm{s}^{-1}.
+\end{aligned}
 \end{equation}
-绝对 $B(M1)$ 的反演公式为：
+因此，原书采用 $(\mu_N/c)^2$ 单位时的 $b_{M1}$ 可直接作为常规 $\mu_N^2$ 单位下的数值使用。由光子分量反演磁矩型约化跃迁几率，得
 \begin{equation}\label{eq:5-9-bm1-extracted}
-B(M1) = \frac{\lambda_\gamma(M1)}{C_{M1} E_\gamma^3} = \frac{b_k}{\tau (1 + \alpha_k)(1 + \delta^2) C_{M1} E_\gamma^3}.
+B_{\mu}(M1)=\mu_N^2\frac{\lambda_\gamma(M1)}{C_{M1}(E_\gamma/\mathrm{MeV})^3}
+=\mu_N^2\frac{b_k}{\tau(1+\alpha_k)(1+\delta^2)C_{M1}(E_\gamma/\mathrm{MeV})^3}.
 \end{equation}
-若使用传统高斯单位制，磁算符不含 $1/c$ 因子，$B(M1)$ 单位为 $\mu_N^2$。在此约定下，跃迁几率前因子需乘以 $c^2$，数值变为 $\widetilde{C}_{M1} \approx 1.7584 \times 10^{13} / c^2$（其中 $c$ 以 $\text{fm/s}$ 计），使得数值率保持物理不变。在比对不同文献的微观模型计算时，必须核对所采用的磁单位制约定。
+高斯单位制中核磁子定义为 $e_{\mathrm G}\hbar/(2m_pc)$，其中电荷 $e_{\mathrm G}$ 亦须采用高斯单位；不可将该定义与 SI 电荷及带量纲的光速数值直接混用。比较文献时应先确认算符和所用核磁子，再比较以相应单位归一的数值。
 
 \subsection{理想教学算例：阶梯退激模型的全流程计算}\label{subsec:5-9-5}
 
@@ -233,9 +241,9 @@ B(E2; 4^+ \to 3^+) = \frac{1.10485 \times 10^{11}}{C_{E2} \times 0.32768} \appro
 计算值为 $275.2371\,e^2\,\text{fm}^4$，折合 $0.0275\,e^2\,\text{b}^2$。
 磁偶极成分在 $E_{\gamma, 1}^3 = 0.512\,\text{MeV}^3$ 下反演：
 \begin{equation}\label{eq:5-9-ped-bm1-1}
-B(M1; 4^+ \to 3^+) = \frac{4.91046 \times 10^{10}}{C_{M1} \times 0.512} \approx 0.005454\,[(\mu_N/c)^2],
+B_\mu(M1; 4^+ \to 3^+) = \frac{4.91046 \times 10^{10}}{C_{M1} \times 0.512} \approx 0.005454\,\mu_N^2,
 \end{equation}
-计算值为 $0.00545432\,[(\mu_N/c)^2]$。
+计算值为 $0.00545432\,\mu_N^2$。
 
 对通道 2（$4^+ \to 2^+$），$E_{\gamma, 2}^5 = (0.500)^5 = 0.03125\,\text{MeV}^5$：
 \begin{equation}\label{eq:5-9-ped-be2-2}

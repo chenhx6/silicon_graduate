@@ -1,0 +1,139 @@
+{
+  "section_id": "5.1",
+  "title": "反应与目标态布居",
+  "worker": "G79",
+  "recorded_at": "2026-11-13T05:00:33.635311+00:00",
+  "output_latex": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-1.tex",
+    "sha256": "16c122d5650bbd3a99de032d8900d5fcfd45ee624b604c485428cbce02f486f9",
+    "equations_count": 8,
+    "tables_count": 0,
+    "figures_count": 0,
+    "labels": [
+      "sec:5-1",
+      "subsec:5-1-1",
+      "subsec:5-1-2",
+      "eq:5-1-ecm",
+      "eq:5-1-estar",
+      "eq:5-1-wong",
+      "eq:5-1-lcrit",
+      "eq:5-1-j-coupling",
+      "subsec:5-1-3",
+      "eq:5-1-coulex-amp",
+      "subsec:5-1-4",
+      "eq:5-1-yield-gamma",
+      "subsec:5-1-5",
+      "eq:5-1-feeding-split",
+      "eq:5-1-feeding-conv"
+    ],
+    "citations": [
+      "book-bertulani-nuclear-reactions",
+      "book-lin-heavy-ion-reactions",
+      "diamond-1966-nuclear-alignment-heavy-ion-reactions"
+    ]
+  },
+  "sources": [
+    {
+      "citation_key": "book-bertulani-nuclear-reactions",
+      "canonical_title": "Introduction to Nuclear Reactions",
+      "raw_file": "raw/books/Introduction to Nuclear Reactions (C.A. Bertulani P. Danielewicz) (Z-Library).pdf",
+      "raw_sha256": "ad1391abd781e2277433283b6635679cfc45efc9d9d5472d4aabcd172509cb71",
+      "actual_read_pages": "printed pages 178–180 (PDF pages 189–191), Section 5.7, Eqs. (5.82)–(5.86) Hill-Wheeler & Wong fusion formula; printed pages 231–234 (PDF pages 242–245), Section 6.9, Eqs. (6.111)–(6.120) Coulomb excitation and reorientation effect"
+    },
+    {
+      "citation_key": "book-lin-heavy-ion-reactions",
+      "canonical_title": "重离子核反应",
+      "raw_file": "raw/books/重离子核反应 (林承键) (Z-Library).pdf",
+      "raw_sha256": "792bfe7f7807623b7e1439b32eddb7320ab3ec6bf6be7e3894b436c1c9f65b2e",
+      "actual_read_pages": "printed pages 110–115 (PDF pages 122–127), Chapter 4, Section 4.3, Eqs. (4.34)–(4.40) 熔合截面与抛物线势垒穿透模型"
+    },
+    {
+      "citation_key": "diamond-1966-nuclear-alignment-heavy-ion-reactions",
+      "canonical_title": "Nuclear Alignment in Heavy-Ion Reactions",
+      "raw_file": "raw/papers/1966_Diamond et al_Nuclear Alignment in Heavy-Ion Reactions.pdf",
+      "raw_sha256": "06FB82ECEBC0F1DA5441CAA5FB9272D481F469B1B39F402342AD31C8E55C8614",
+      "actual_read_pages": "printed pages 1205–1207 (PDF pages 1–3), Table I, spin alignment perpendicular to beam axis"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "P51-Wong",
+      "statement": "Declared singleparabolicbarrier/continuouspartial-wave model yieldsWongcapture form; attributingcapturetoCNformation andER requiresadditionalprobabilities.",
+      "source": "book-bertulani-nuclear-reactions",
+      "actual_pdf_pages": [
+        189,
+        190,
+        191
+      ],
+      "printed_pages": [
+        178,
+        179,
+        180
+      ],
+      "figure_or_equation": "Eqs5.82–5.86",
+      "searchable_anchor": "valid only in the proximity of the barrier",
+      "conditions": "Parent inspectedpageheaders andbarrier discussion; no universalcompound-formation/survival assumption."
+    },
+    {
+      "claim_id": "P51-align",
+      "statement": "Spinlessentrance classicalL=r×p istransverse toincidentmomentum; actualtargetstatealignment aftercoupling/evaporation/cascade mustbeconditioned, notfixedbyuniversalB2sign.",
+      "source": "diamond-1966-nuclear-alignment-heavy-ion-reactions",
+      "conditions": "Physicalangularmomentumvectors separated fromdimensionlessell; no fullnewalignmentfit."
+    },
+    {
+      "claim_id": "P51-coulex",
+      "statement": "CoulEx reorientationenters viamultipleexcitationpaths anddiagonal moments; fittedmatrixelements dependonselectedgeometry/adoptedconstraints. Nuclearcontributions mustbecontrolled ratherthandeclaredexactlyzero.",
+      "source": "book-bertulani-nuclear-reactions",
+      "actual_pdf_pages": [
+        242,
+        243,
+        244
+      ],
+      "printed_pages": [
+        231,
+        232,
+        233
+      ],
+      "searchable_anchor": "interaction of the charge",
+      "conditions": "Source-specificperturbativeimplementation; no intrinsicQs oruniversalsafedistanceclaim."
+    },
+    {
+      "claim_id": "P51-yield",
+      "statement": "Thin-target countingrate usesIbeam*n_t*sigma_pop*b_gamma*A_joint, withparticle/s, arealnucleardensity, areaunits andphotonconditionaljointacceptance; totalcounts requiretimeintegration.",
+      "source": "our-declared expected-count model; alignedwithacceptedSec5.5",
+      "conditions": "Conditionalprobabilityfactorization, notindependentmarginalefficiencyproduct; targetcompositionandenergyaveragingexplicit."
+    },
+    {
+      "claim_id": "P51-feed",
+      "statement": "Normalizedfeedingdensity convolvedwithexp(-t/tau)/tau givesdecaytimepdf, notpopulation. Ignoringfeedingcanbiasinferredtau/EM; sign/amplitudedepend onmeasurementmodel. Gatingselectsfeedingpathswithoutuniversalremoval.",
+      "source": "our-declared isolatedconstant-lifetime model andSec5.8measurement route",
+      "conditions": "No originaleventanalysisornewexperimentalbiasvalue."
+    },
+    {
+      "claim_id": "P51-complement",
+      "statement": "Reaction/decayprobes haveconditionalspinandenergywindows; beta parentcanhighspin, NRF multipolescanincludeE2, no fixedall-probe lowspinwindow.",
+      "source": "acceptedangular-momentum/multipole rulesandprimaryreactionbook",
+      "conditions": "No spectroscopicfactorasdirectobservable oruniversalproductionpath."
+    }
+  ],
+  "migration_differences": [
+    "明确 Q_s 为实验室系谱学静四极矩而非内禀 Q_0，库仑激发抑制强相互作用核力而非绝对免除模型依赖；重取向改为微扰振幅二次展开式并指明耦合通道拟合性质",
+    "澄清入射分波 l 经典垂直与量子 m_l=0 限制在零自旋弹靶体系，复合核自旋与级联退取向张量 Bk(I) 不先验断定恒正，须在束标定",
+    "sharp-cutoff l_crit^2 严格限定于 E > V_B 高分波情况，明确 l 为无量纲量、L 约等于 hbar l，Wong 公式为单势垒俘获截面近似；E* = E_cm + Q 明确限定于静止靶非相对论完全融合模型",
+    "修正 beta 衰变高自旋布居：指出高自旋异能态母核可布居高自旋能级；保留 NRF E2 直接布居 2+ 态通道",
+    "产额式严格定义物理量纲：I_beam 为粒子数流率 (s^-1)、rho x 为面质量密度、A_target 为摩尔质量、sigma_level 为该能级布居截面，声明薄靶能量平均假定，引入第 5.5 节联合活时间 Live_12 与数据清洗接受度 eta_clean",
+    "严格区分运动学反应阈能 E_th 与库仑排斥势垒高度 V_B；激发函数半高宽不假定普遍为几 MeV，说明束能选择综合折衷背景与自旋窗口而非盲目选截面极大值",
+    "侧向馈入卷积明确采用归一化馈入时间概率密度函数 f_feed(t) 与单态指数衰变核，说明慢馈入通常使寿命提取上偏，指出上方门选减少级联馈入但不自动排除未观测慢馈入",
+    "删除 30-60 hbar 粗略数值举例与'不得捏造机时'内部治理词句，代以客观物理可见性参数空间",
+    "无新增科学主张"
+  ],
+  "output_tex_sha256": "16c122d5650bbd3a99de032d8900d5fcfd45ee624b604c485428cbce02f486f9",
+  "parent_final_patch": {
+    "at": "2026-11-13T06:12:30.973503+00:00",
+    "scope": "Capture/fusion/ER classification; barrier-radius versus contact; dimensionalL versusell; thin-target counting withjointacceptance; normalizeddecaypdf versuspopulation."
+  },
+  "parent_claim_boundary": "Canonicalclaims replaced to matchcurrentprose; earliergeneric/overbroad templateclaims archivedlocally as superseded, notfactsource.",
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-1.tex",
+  "parent_final_tex_sha256": "16c122d5650bbd3a99de032d8900d5fcfd45ee624b604c485428cbce02f486f9",
+  "integration_status": "included-in27-section-clean-preview"
+}

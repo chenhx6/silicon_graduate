@@ -107,5 +107,7 @@
     "库仑激发中间态求和受限于实验可探测低能态窗口，高能未观测相干跃迁对q2与q3的系统截断误差需在第5章进一步评估",
     "三重矩阵元求和中的相对相位需多步库仑激发量子干涉锁定，未定相交叉跃迁可能引起有效三轴角反演的多解性",
     "相对涨落Delta A/<A>量化径向四极涨落，无法直接给出gamma方向势阱软硬度，需结合能谱staggering联合诊断"
-  ]
+  ],
+  "parent_final_tex_sha256": "cdc65bc8569ed15f8c4d32a28d17f64b1509929620e37d8d93054e140e3962fb",
+  "integration_status": "included-in27-section-clean-preview"
 }

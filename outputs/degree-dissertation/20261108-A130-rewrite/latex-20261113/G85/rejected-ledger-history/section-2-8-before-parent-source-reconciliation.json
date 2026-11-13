@@ -1,0 +1,362 @@
+{
+  "section_id": "2.8",
+  "title": "模型各自保留和消去了什么",
+  "section_label": "sec:2-8",
+  "status": "completed-canonical-delivered-final-v2",
+  "worker": "G85 (Gemini Tiered/high)",
+  "recorded_at": "2026-11-13T13:45:00+00:00",
+  "canonical_paths": {
+    "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-8.tex",
+    "tex_sha256": "e156f25495234e9a3441dda866a169fdf74e7dd9c72e8219cd04690f330ad6ec",
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-8.json"
+  },
+  "staging_paths": {
+    "tex": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G85/staging/sec-2-8.tex",
+    "ledger": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G85/staging/section-2-8.json"
+  },
+  "scope_boundary": "第2章总结节：多体截断尺度透视、八大核模型物理自由度与消去动力学交叉对比、五大认识论底线、135Pr与98-100Zr多模型解释具象剖析、留出检验准则与六质量区定位。严格遵循父级8条定点返修意见，不重复2.7节推导，不提前书写第3章正文。",
+  "sources": [
+    {
+      "source_id": "lv-2022-evidence-against-wobbling-135pr",
+      "canonical_source": "B. F. Lv, C. M. Petrache, E. A. Lawrie et al., Phys. Lett. B 824, 136840 (2022)",
+      "doi": "10.1016/j.physletb.2021.136840",
+      "raw_file": "raw/papers/2022_Lv et al_Evidence against the wobbling nature of low-spin bands in 135Pr.pdf",
+      "raw_sha256": "4b87c540bf9da514781498cffc1f010375a34e067c87c2b38038fe0d12e6900f",
+      "reading_depth": "deep_table_and_section_read",
+      "pdf_page": 3,
+      "printed_page": 3,
+      "item_label": "Table 1 & left-column text",
+      "text_anchor": "The presently measured ratio B(E2; 747)/B(E2; 526) =0.7+0.7 -0.5 indicates similar strengths of the two transitions",
+      "supports": "135Pr负宇称带间跃迁747.3 keV角分布双根解分析（小根delta=-0.47(+9/-22)，M1为主），实测比值B(E2; 747)/B(E2; 526)=0.7(+7/-5)，及非冻结单粒子向中间轴顺排倾斜进动的QTR模型条件约束"
+    },
+    {
+      "source_id": "poves-2020-limits-assigning-nuclear-shape",
+      "canonical_source": "A. Poves, F. Nowacki, and Y. Alhassid, Phys. Rev. C 101, 054307 (2020)",
+      "doi": "10.1103/PhysRevC.101.054307",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/poves-2020-limits-assigning-nuclear-shape.pdf",
+      "raw_sha256": "ca188d5b2ac257edb8f616b2a055d2bd488f29d5d136baf540753ea049edf21a",
+      "reading_depth": "targeted_section_read",
+      "pdf_page": 1,
+      "printed_page": "054307-1",
+      "item_label": "Eqs.(1)-(2) and surrounding text",
+      "text_anchor": "without also studying their fluctuations. Fluctuations in beta can be determined from the variance sigma^2 of Q^2",
+      "supports": "微观壳模型中Kumar-Cline高阶形状不变量计算、不变量比值定义有效形状角与形状涨落方差Delta q_2, Delta gamma的内在限制"
+    },
+    {
+      "source_id": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+      "canonical_source": "T. Otsuka, Physics 4, 258–285 (2022) / MDPI Book (2023)",
+      "doi": "10.3390/physics4010018",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-otsuka-article/otsuka-2022-physics-emerging-concepts-publisher.pdf",
+      "raw_sha256": "83ddfab8989cdb0a23be1d5ca3e9f689c7e8d728823d0b7c6a21c5aecd3ca0c7",
+      "reading_depth": "deep_section_read",
+      "pdf_page": 12,
+      "printed_page": 269,
+      "item_label": "Section 3.1 & Fig. 6",
+      "text_anchor": "type-II shell evolution, where changes of single-particle states occur within the same nucleus due to particle-hole excitations",
+      "supports": "大规模微观壳模型自旋-同位旋张量力、单极相互作用分解、Type-II壳演化驱动核自组织与98-100Zr急剧形状相变"
+    },
+    {
+      "source_id": "doctoral-r1-g28-togashi-2016-zr-mcsm-qpt",
+      "canonical_source": "T. Togashi, Y. Tsunoda, T. Otsuka, and N. Shimizu, Phys. Rev. Lett. 117, 172502 (2016)",
+      "doi": "10.1103/PhysRevLett.117.172502",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G28/togashi-2016-zr-qpt.pdf",
+      "raw_sha256": "f43431ebad67addfbefb521eed14c43f152fe5221ccc0d995d69a3d5aaa7b3e9",
+      "reading_depth": "deep_article_read",
+      "pdf_page": 1,
+      "printed_page": "172502-1",
+      "item_label": "Title & abstract",
+      "text_anchor": "Quantum Phase Transition in the Shape of Zr isotopes",
+      "supports": "MCSM在富中子Zr同位素中的量子相变计算、多粒子-多空穴激发构型反转与变形相图"
+    },
+    {
+      "source_id": "nomura_2022_Questioningwobbling",
+      "canonical_source": "K. Nomura and C. M. Petrache, Phys. Rev. C 105, 024320 (2022)",
+      "doi": "10.1103/PhysRevC.105.024320",
+      "raw_file": "raw/papers/2022_Nomura et al_Questioning the wobbling interpretation of low-spin bands in γ -soft nuclei within the interacting b.pdf",
+      "raw_sha256": "e61e3dd6fe5e67fb55543f3a136c7cce0fda98ad01f112d81d5eef70b613465f",
+      "reading_depth": "deep_article_read",
+      "pdf_page": 1,
+      "printed_page": "024320-1",
+      "item_label": "Abstract",
+      "text_anchor": "calculated B(E2; I -> I-1) transition rates for the bands previously interpreted as wobbling bands in 135Pr, 133La, 127Xe, and 105Pd are consistently smaller in magnitude",
+      "supports": "微观EDF映射至IBFM在A≈130奇A核（135Pr、133La）中的应用，展示gamma软核与准粒子耦合导致的类摆动假象"
+    },
+    {
+      "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+      "canonical_source": "L. Próchniak and S. G. Rohoziński, J. Phys. G: Nucl. Part. Phys. 36, 123101 (2009)",
+      "doi": "10.1088/0954-3899/36/12/123101",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/prochniak-rohozinski-2009-v1.pdf",
+      "raw_sha256": "4d7e6d3942230023061efd0032b3d1f9231e5d6f230219329ef984c458bb689b",
+      "reading_depth": "targeted_review_sections_read",
+      "pdf_page": 5,
+      "printed_page": "123101-5",
+      "item_label": "Section 2.1 & Eq.(2.12)",
+      "text_anchor": "Pauli-Podolsky prescription to quantize the classical Hamiltonian",
+      "supports": "5DCH玻尔五维集体哈密顿量的微观推导、动能逆质量张量及微观势能面输入与绝热限制"
+    },
+    {
+      "source_id": "frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei",
+      "canonical_source": "S. Frauendorf, Rev. Mod. Phys. 73, 463–514 (2001)",
+      "doi": "10.1103/RevModPhys.73.463",
+      "raw_file": "raw/papers/2001_Frauendorf_Spontaneous symmetry breaking in rotating nuclei.pdf",
+      "raw_sha256": "d43c7290cf5899eb7d00f73ee51ca8e9508935c15be36209be38ea4ba2330a13",
+      "reading_depth": "targeted_section_read",
+      "pdf_page": 2,
+      "printed_page": 464,
+      "item_label": "Section II Cranking Model",
+      "text_anchor": "The cranked mean field is a variational approximation to the eigenstates of the microscopic Hamiltonian",
+      "supports": "推转平均场TAC的理论基础、自发对称破缺与恢复、磁转动剪刀机构与非主轴旋转"
+    },
+    {
+      "source_id": "frauendorf_2014_Transversewobbling",
+      "canonical_source": "S. Frauendorf and F. Dönau, Phys. Rev. C 89, 014322 (2014)",
+      "doi": "10.1103/PhysRevC.89.014322",
+      "raw_file": "raw/papers/2014_Frauendorf_Dönau_Transverse wobbling.pdf",
+      "raw_sha256": "36794ee1308adc1b7fcf71a9ee079ae403487c6729a738c62c95fe1c4cae44f7",
+      "reading_depth": "deep_article_read",
+      "pdf_page": 1,
+      "printed_page": "014322-1",
+      "item_label": "Title & abstract",
+      "text_anchor": "Transverse wobbling: A collective mode in odd- A triaxial nuclei",
+      "supports": "PRM三轴刚体粒子-转子模型横向摆动运动学假定、流体惯量与准粒子横向耦合机制"
+    },
+    {
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "canonical_source": "D. Cline, Ann. Rev. Nucl. Part. Sci. 36, 683–716 (1986)",
+      "doi": "10.1146/annurev.ns.36.120186.003343",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "raw_sha256": "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113",
+      "reading_depth": "targeted_section_read",
+      "pdf_page": 15,
+      "printed_page": 697,
+      "item_label": "Section 3, Eq.(3.1)",
+      "text_anchor": "The expectation values of the rotational invariants can be determined directly from the Coulomb excitation cross sections",
+      "supports": "重离子库仑激发多极矩阵元求和规则与模型无关核形状不变量测度"
+    },
+    {
+      "source_id": "heyde-wood-2011-shape-coexistence-review",
+      "canonical_source": "K. Heyde and J. L. Wood, Rev. Mod. Phys. 83, 1467–1521 (2011)",
+      "doi": "10.1103/RevModPhys.83.1467",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf",
+      "raw_sha256": "660c376e493e638501bfc8596d4eda46f490becb811ba5f30259d6f78c652183",
+      "reading_depth": "targeted_review_read",
+      "pdf_page": 2,
+      "printed_page": 1468,
+      "item_label": "Section I",
+      "text_anchor": "Shape coexistence in atomic nuclei is a ubiquitous phenomenon occurring in many regions of the nuclear chart",
+      "supports": "核形状共存的多模型理论框架、微观壳模型与IBM组态混合对比"
+    }
+  ],
+  "claims_and_derivations": [
+    {
+      "id": "2.8-C01",
+      "text": "核物理模型均为特定能标与截断尺度下对全多体希尔伯特空间的有效投影；式(2.8.1)是低能核多体问题的常规近似起点（略去更高体与CM修正）；Feshbach-Bloch-Horowitz构造要求能量处于预解式非奇异区，而幺正变换/SRG可构造能量无关有效H；有效算符包含多体关联与非正交度规修正，不限于核芯极化。",
+      "kind": "theoretical_foundation_and_effective_field_perspective",
+      "equation_labels": [
+        "eq:2-8-bare-hamiltonian",
+        "eq:2-8-feshbach-projection"
+      ],
+      "sources": [
+        {
+          "source_id": "bohr-mottelson-1953-collective-individual-original",
+          "locators": "Section I–II"
+        },
+        {
+          "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+          "locators": "Chapter 4, Section 4-1"
+        }
+      ],
+      "conditions": "低能有效场论视角，能量截断远低于核子内部激发能标；回链2.7节度规与多体项。"
+    },
+    {
+      "id": "2.8-C02",
+      "text": "对大规模壳模型(CI/MCSM)、自洽泛函(EDF)、五维集体哈密顿量(5DCH)、投影GCM、相互作用玻色子模型(IBM)、粒子-转子模型(PRM)、倾斜轴推转(TAC)及QRPA八类主流模型进行自由度、消去动力学、参数来源及失效边界的全面透视。",
+      "kind": "systematic_cross_model_analysis",
+      "sources": [
+        {
+          "source_id": "book-suhonen-from-nucleons-to-nucleus",
+          "locators": "Chapters 17–18"
+        },
+        {
+          "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locators": "Sections 2–4"
+        },
+        {
+          "source_id": "frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei",
+          "locators": "Section II"
+        },
+        {
+          "source_id": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+          "locators": "Sections 2–3"
+        }
+      ],
+      "conditions": "严格基于各模型标准物理定义与公认文献实现。"
+    },
+    {
+      "id": "2.8-C03",
+      "text": "不按模型形式排座次；微观与唯象并非绝对二元对立，模型的有效性取决于其物理自由度的划分是否与所研究物理现象的特征能标自洽匹配。",
+      "kind": "epistemological_rule",
+      "sources": [
+        {
+          "source_id": "poves-2020-limits-assigning-nuclear-shape",
+          "locators": "Section I, introduction"
+        }
+      ],
+      "conditions": "科学方法论规范，剔除情绪化修饰词。"
+    },
+    {
+      "id": "2.8-C04",
+      "text": "自洽能量密度泛函中的总能量E[rho, kappa]是单体密度矩阵rho与配对张量kappa的泛函（可含非局域项），变分导出的单粒子哈密顿量h_ab = (partial E/partial rho_ba)|_kappa为泛函导数；由真实完全反对称多体算符导出的实现具有确定的哈密顿期望值表示，但一般经验EDF通常不自动具有微观反对称算符表示，不可将经验泛函能量作为微观二体相互作用矩阵元直接代入多体微扰级数中开展高阶展开。",
+      "kind": "physics_definition_and_derivation",
+      "equation_labels": [
+        "eq:2-8-edf-derivative"
+      ],
+      "sources": [
+        {
+          "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locators": "Section 2.1"
+        }
+      ],
+      "conditions": "能量密度泛函变分原理与单粒子平均场推导。"
+    },
+    {
+      "id": "2.8-C05",
+      "text": "对称性恢复投影受限于选定生成坐标流形完备性；一般经验EDF向非对角过渡密度的延拓在某些具体实现中会出现自相互作用误差或分支割线病态，需逐实现检验，这与源自真实反对称多体算符的变分后投影(PAV)存在本质区别。",
+      "kind": "boundary_clarification",
+      "sources": [
+        {
+          "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locators": "Section 2.3, p. 123101-5"
+        }
+      ],
+      "conditions": "MR-EDF非对角延拓病态检验，不泛化特指某一幂次。"
+    },
+    {
+      "id": "2.8-C06",
+      "text": "严格解耦四类同名异义的gamma概念：平均场几何坐标gamma_MF、转子惯量比值gamma_rigid、Kumar-Cline不变量比值有效角cos(3 gamma_inv) = -sqrt(7/2) q_3 / q_2^(3/2)（量纲均为Q^3；比值处于[-1,1]才对应实有效角，截断越界不强行clamp；有限矩阵元求和不等于全空间完备闭合）、及IBM四极算符参数chi（chi=0不自动等于O(6)动力学对称）。",
+      "kind": "concept_decoupling_and_formula_contract",
+      "equation_labels": [
+        "eq:2-8-gamma-inv-ratio"
+      ],
+      "sources": [
+        {
+          "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+          "locators": "Eqs.(3.1)–(3.14)"
+        },
+        {
+          "source_id": "poves-2020-limits-assigning-nuclear-shape",
+          "locators": "Eqs.(1)–(5)"
+        }
+      ],
+      "conditions": "回链2.1/2.4已验张量定义，严格平衡量纲。"
+    },
+    {
+      "id": "2.8-C07",
+      "text": "有效相互作用参数（有效电荷与GT淬灭因子）与微观截断空间绑定，不可跨模型先验迁移。",
+      "kind": "epistemological_rule",
+      "sources": [
+        {
+          "source_id": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+          "locators": "Section 2"
+        }
+      ],
+      "conditions": "模型空间有效算符重整化原理。"
+    },
+    {
+      "id": "2.8-C08",
+      "text": "在135Pr奇A核中，Frauendorf与Donau (PRC 2014) 提出了frozen alignment的教学简化近似；Lv et al. (PLB 2022) 重新分析角分布各向异性Rac，指出数学上容许大根|delta|>1与小根|delta|<1双解；线偏振度P实测与小根解兼容，测得比值B(E2; 747.3)/B(E2; 526.2) = 0.7(+0.7/-0.5)接近1；在假定Band 3为1-phonon纯横向摆动带的模型分析条件下，跃迁至签名伴带的526 keV理论上预期受压低，实测比值与此存在张力；非冻结QTR倾斜进动与IBFM软核耦合构成对冻结单粒子横向摆动假定的条件约束，不作排他性全称断言，具体实验争议历史留待第4.4节。",
+      "kind": "experimental_and_theoretical_arbitration_case",
+      "equation_labels": [
+        "eq:2-8-lv-ratio"
+      ],
+      "sources": [
+        {
+          "source_id": "frauendorf_2014_Transversewobbling",
+          "locators": "PRC 89, 014322, Table I & Fig. 3"
+        },
+        {
+          "source_id": "nomura_2022_Questioningwobbling",
+          "locators": "PRC 105, 024320, Figs. 1–4"
+        },
+        {
+          "source_id": "lv-2022-evidence-against-wobbling-135pr",
+          "locators": "PLB 824, 136840, Table 1, Figs. 2–3, p. 3 left column"
+        }
+      ],
+      "conditions": "严格核验原件数据，分开原始测量与重拟合，保留各方解释。"
+    },
+    {
+      "id": "2.8-C09",
+      "text": "在98-100Zr急剧形状相变中，MCSM微观单极张量力驱动Type-II壳演化、5DCH自洽势能面双极小与IBM-2配置混合展现出完全不同的物理机制，需通过绝对电磁跃迁寿命与谱因子进行严格检验。",
+      "kind": "microscopic_mechanism_comparison_case",
+      "sources": [
+        {
+          "source_id": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+          "locators": "Section 3"
+        },
+        {
+          "source_id": "doctoral-r1-g28-togashi-2016-zr-mcsm-qpt",
+          "locators": "Figs. 1–4"
+        },
+        {
+          "source_id": "heyde-wood-2011-shape-coexistence-review",
+          "locators": "Sections I–II"
+        }
+      ],
+      "conditions": "富中子锆同位素急剧相变实验与理论对比。"
+    },
+    {
+      "id": "2.8-C10",
+      "text": "建立参数留出检验（holdout validation）准则，并在六个代表性质量区（A≈70, 68, 100, 130, 160, 190）确立模型有效性边界，顺畅过渡到第3章三轴与高阶取向耦合动力学（特别是3.6节gamma形状模与取向模耦合）。",
+      "kind": "methodological_synthesis_and_chapter_transition",
+      "sources": [
+        {
+          "source_id": "poves-2020-limits-assigning-nuclear-shape",
+          "locators": "Section IV"
+        }
+      ],
+      "conditions": "方法论总结与全书宏观布局。"
+    }
+  ],
+  "competing_explanations_and_boundaries": [
+    {
+      "topic": "135Pr低自旋带间跃迁与摆动假说",
+      "competing_views": [
+        "PRM模型分析：在角分布拟合中选取|delta|>1，结合冻结准粒子取向的转子模型，解释为横向摆动模式。",
+        "QTR非冻结模型与IBFM软核耦合：角分布同时容许小根解|delta|<1（delta=-0.47(+9/-22)），与偏振测量兼容，跃迁以M1为主，单粒子向中间轴顺排的倾斜进动或软核混合。"
+      ],
+      "scientific_disposition": "指出单纯能谱拟合存在双根多解简并，客观阐释双方论证链条，采用条件约束表述，说明仅凭当前数据无法全面打破所有模型简并。"
+    },
+    {
+      "topic": "核形状与刚性三轴性",
+      "competing_views": [
+        "静态平均场与转子刚性三轴假定：固定形变参数gamma。",
+        "动力学涨落与Kumar-Cline不变量：全空间大振幅量子零点涨落加权平均。"
+      ],
+      "scientific_disposition": "严格解耦gamma_MF, gamma_rigid与通过不变量比值定义的gamma_inv，避免同名异义混淆。"
+    }
+  ],
+  "prohibitions_strictly_obeyed": [
+    "写入canonical正文与ledger，新增Bib由G85/new-references.bib提供给G76，不篡改ref.bib",
+    "不把EDF能量E[rho, kappa]与单粒子哈密顿量泛函导数混淆",
+    "明确MR-EDF经验泛函非对角延拓病态的边界，不泛化为PAV普遍病态，不强断特指某一幂次",
+    "不将gamma_inv统一称为均方根有效形状角，分母严格写q_2^(3/2)，明确越界不强行clamp，不把有限截断求和等同于全空间闭合",
+    "对Lv2022原件数据严格核实（负宇称17/2^- -> 15/2^-，747.3 keV比值0.7(+0.7/-0.5)），避免排他大词与心理揣测",
+    "526 keV压低说明基于假定Band 3为1-phonon摆动带的分析条件，不升级为普遍选择定则",
+    "3.6节正题严格使用《gamma形状模与取向模耦合》",
+    "全面剔除情绪化泛评价词汇",
+    "避免使用双引号shell，全部使用单引号heredoc python写入"
+  ],
+  "latex_math_verification": {
+    "equation_count": 6,
+    "table_count": 1,
+    "syntax_check": "PASSED_CANONICAL_RETURN_V1_FIXED",
+    "notation_consistency": "与第2章前七节张量算符、单极ESPE、玻尔坐标量度及惯量张量严格一致"
+  },
+  "target_sha256": "e156f25495234e9a3441dda866a169fdf74e7dd9c72e8219cd04690f330ad6ec",
+  "scientific_integrity_checks": {
+    "q3_convention_consistency": "Global notation consistency fix (2026-11-13): normalized q3 definition to match Sections 2.1 and 2.4 (incorporating -sqrt(7/2) prefactor directly into q3 definition), and simplified eq:2-8-gamma-inv-ratio to cos(3*gamma_inv) = q3 / q2^(3/2). Preserves physical ranges, clamping cautions, and finite-sum truncation boundaries."
+  },
+  "parent_final_tex_sha256": "e156f25495234e9a3441dda866a169fdf74e7dd9c72e8219cd04690f330ad6ec",
+  "integration_status": "included-in27-section-clean-preview"
+}

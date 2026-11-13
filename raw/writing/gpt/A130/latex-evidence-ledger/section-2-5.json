@@ -117,5 +117,7 @@
     "不把微小非零度规本征态武断称为虚假零模",
     "不假装阅读未核查的 1975 年 BM II 首印版，如实标明 1998/1999 World Scientific 再版 PDF"
   ],
-  "open_issues": []
+  "open_issues": [],
+  "parent_final_tex_sha256": "d63f29d8e491069876161d6dfe49f8997ad0ac0af514ea56c9c25b06a85b4fcb",
+  "integration_status": "included-in27-section-clean-preview"
 }

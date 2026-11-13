@@ -1,0 +1,111 @@
+{
+  "section_id": "3.3",
+  "title": "准粒子顺排与横/纵向分支",
+  "section_label": "sec:3-3",
+  "type": "new-draft-canonical",
+  "status": "canonical-complete",
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-3.tex",
+  "output_tex_sha256": "4578a6af939fbff376dde6cc9d451993d14094bcfd1c59e6eee0ce23e54cf844",
+  "scope_boundary": "系统阐释奇 A 核中角动量矢量耦合与主轴惯量参考坐标定义、冻结顺排 (FA) 教学模型、双横向曲率展开与有效常数 Abar、纵向摆动 (LW) 与横向摆动 (TW) 动力学分叉机制与临界自旋、163Lu TSD 原型与 A~130 正常形变区实验对比及 delta 双根/TiP 竞争解释、经验 Ewob(I) 内插扣除规范，以及微观重排自洽响应边界。",
+  "source_inputs": [
+    {
+      "source_id": "frauendorf-2014-transverse-wobbling",
+      "canonical_source": "S. Frauendorf & F. Dönau, Phys. Rev. C 89, 014322 (2014)",
+      "raw_file": "raw/papers/2014_Frauendorf_Dönau_Transverse wobbling.pdf",
+      "raw_sha256": "36794EE1308ADC1B34206CCDBF62353D6E79B3B485979E78709FD31EFE5F57E3",
+      "actual_read_pages": "PDF pp. 4–7 (Section III Harmonic Frozen Alignment Approximation, Eqs.(10)–(20))",
+      "text_anchors": [
+        "PDF p. 4: Eq.(10) E = A_3(J_3 - j)^2 + A_1 J_1^2 + A_2 J_2^2; discussion of frozen alignment (FA) and hydrodynamic ordering J_l < J_s < J_m",
+        "PDF p. 6: Eq.(11) H = A_3(J_3 - j)^2 + A_1 J_1^2 + A_2 J_2^2; Eq.(12) J_3 expansion; Eq.(13) HFA Hamiltonian with Abar_3 = A_3 (1 - j/J)",
+        "PDF p. 7: Eq.(14) wobbling frequency omega_wob = 2 J sqrt((A_1 - Abar_3)(A_2 - Abar_3)); Eq.(15) critical angular momentum J_c = j A_3 / (A_3 - A_2)"
+      ],
+      "claims_supported": [
+        "冻结顺排 FA 教学哈密顿量与体轴二次微扰展开 (PDF pp. 4, 6)",
+        "有效转动常数 Abar 与双横向恢复力曲率 C_2, C_3 严格推导 (PDF p. 6)",
+        "横向摆动频率软化与临界自旋分叉公式 (PDF p. 7)"
+      ]
+    },
+    {
+      "source_id": "odegard-2001-evidence-wobbling-163lu",
+      "canonical_source": "S. W. Ødegård et al., Phys. Rev. Lett. 86, 5866 (2001)",
+      "raw_file": "raw/papers/2001_Ødegård et al_Evidence for the Wobbling Mode in Nuclei.pdf",
+      "raw_sha256": "0FF38ADFCBE031FB21C43B3BBA290CA44A21898564BB78CF335FBB47B05BA379",
+      "actual_read_pages": "PRL 86, 5866–5869, PDF pp. 1–4",
+      "text_anchors": [
+        "PDF p. 2 Fig. 2: wobbling energy vs spin dropping from ~0.6 MeV down to ~0.2 MeV in TSD2 band",
+        "PDF p. 3 Table I: measured interband B(E2)/B(E2)_in values confirming collective wobbling"
+      ],
+      "claims_supported": [
+        "163Lu TSD 区横向摆动单声子带标志性频率下降特征与强 B(E2) 跃迁"
+      ]
+    },
+    {
+      "source_id": "matta-2015-transverse-wobbling-135pr",
+      "canonical_source": "J. T. Matta et al., Phys. Rev. Lett. 114, 082501 (2015)",
+      "raw_file": "raw/papers/2015_Matta et al_Transverse Wobbling in Pr 135.pdf",
+      "raw_sha256": "8DB644705DCCFD58016753B759D19314A65284C48EFC1758F95F1B3CE23551D6",
+      "actual_read_pages": "PRL 114, 082501, PDF pp. 1–6",
+      "text_anchors": [
+        "PDF p. 3 Fig. 3: wobbling energy decreasing with spin in 135Pr low-spin bands",
+        "PDF p. 4: PRM calculation with pi h_11/2 transverse alignment"
+      ],
+      "claims_supported": [
+        "135Pr 正常形变低自旋横向摆动候选带实验数据与粒子-转子模型分析"
+      ]
+    },
+    {
+      "source_id": "lv-2022-evidence-against-wobbling-135pr",
+      "canonical_source": "B. F. Lv et al., Phys. Rev. Lett. 129, 042501 (2022)",
+      "actual_read_pages": "PRL 129, 042501, PDF pp. 1–6",
+      "text_anchors": [
+        "PDF p. 3 Table I and Fig. 3: re-evaluated multipole mixing ratios delta showing predominant M1 character and challenging the wobbling interpretation in 135Pr"
+      ],
+      "claims_supported": [
+        "135Pr 伴带 delta 双根反演多解性与反驳纯横向摆动假说的实验重估证据"
+      ]
+    },
+    {
+      "source_id": "lawrie-2020-tilted-precession-wobbling",
+      "canonical_source": "E. A. Lawrie et al., Phys. Rev. Lett. 125, 102501 (2020)",
+      "actual_read_pages": "PRL 125, 102501, PDF pp. 1–6",
+      "text_anchors": [
+        "PDF pp. 2–4: Tilted Precession (TiP) model in triaxial nuclei providing alternative explanation for decreasing energy differences"
+      ],
+      "claims_supported": [
+        "三维倾斜进动 (TiP) 作为正常形变核能量差下降替代竞争机制"
+      ]
+    }
+  ],
+  "notations_and_conventions": {
+    "angular_momentum_vectors": "I = R/hbar + j，I 为实验室守恒总角动量，R 为核芯集体角动量，j 为未配对准粒子内禀角动量",
+    "rotational_constants": "A_k = hbar^2 / (2 J_k) 具能量量纲",
+    "effective_rotational_constant": "Abar_1 = A_1 (1 - j/I)，双横向曲率 C_2 = (A_2 - A_1) + A_1 j/I，C_3 = (A_3 - A_1) + A_1 j/I",
+    "wobbling_frequency": "hbar omega_wob = 2I sqrt(C_2 C_3)"
+  },
+  "claims_and_derivations": {
+    "tw_lw_coordinate_definition": "TW 与 LW 的区分严格取决于准粒子顺排方向相对于核芯最大惯量轴的取向，绝非 j 垂直于总角动量 I 或核芯 R",
+    "frozen_alignment_curvature": "在大自旋二次展开下严格导出有效常数 Abar 与横向恢复力曲率 C_2, C_3",
+    "longitudinal_branch_trend": "LW 中顺排轴即最大惯量轴，曲率恒正且随 I 增加，摆动能量单调上升",
+    "transverse_branch_softening_bifurcation": "TW 中核芯最大惯量处于中间轴 (A_2 < A_1)，顺排项随 I 稀释导致频率软化，在临界自旋 I_c = j / (1 - J_1/J_2) 处 C_2=0 发生拓扑分叉转入倾斜轴旋转",
+    "rotational_frequency_distinction": "正则转动角速度微商中 hbar omega_rot = 2 A_1 (I - j) = hbar^2 (I - j) / J_1，不能抹去核芯 I-j 与总 I 的差异",
+    "experiment_contrast_lu_vs_a130": "163Lu TSD 具备强三轴超形变与纯净 pi i13/2 顺排，为 TW 公认范例；A~130 正常形变核势面较软，受 delta 双根多解性与倾斜进动 TiP / 组态交叉竞争",
+    "empirical_Ewob_interpolation": "实验摆动能量提取严格采用两带插值公式 Ewob(I) = E(I, wob) - [E(I-1, yrast) + E(I+1, yrast)]/2，禁止无依据同自旋直接相减"
+  },
+  "competing_explanations_and_boundaries": {
+    "frozen_alignment_vs_quasiparticle_unfreezing": "真实核中准粒子角动量受科里奥利力作用发生动态重取向，惯量呈现转动频率依赖，频率升降曲线非单调",
+    "pure_wobbling_vs_tilted_precession_band_crossing": "能谱能量差下降非横向摆动唯一归宿，倾斜进动 TiP 与相邻多准粒子交叉是强竞争假说，确证必须依赖带间绝对 B(E2) 与选择定则"
+  },
+  "reader_checks": [
+    "为什么纵向摆动 (LW) 与横向摆动 (TW) 的区分必须严格相对于核芯最大转动惯量轴？",
+    "横向摆动中，为什么绕非最大惯量轴转动能在低自旋下保持稳定，且为何随自旋增加会发生模式软化与分叉？",
+    "在转动角速度正则定义 dE/dI 中，为什么必须保留核芯角动量 I-j 与总角动量 I 的差别？",
+    "为什么在 A~130 正常形变区不能将所有伴带直接贴附冻结顺排标签？"
+  ],
+  "prohibitions_strictly_obeyed": [
+    "不改动已有模板、章节包装或主工程文件",
+    "不直接修改 ref.bib，新增参考文献放入 G81/new-references-3-3.bib 供 G76 整合",
+    "正文中全无 literal **，全部采用标准 LaTeX \\textbf 语法",
+    "不预先声称未写各节已证明结果，保持近似边界严密"
+  ],
+  "open_issues": []
+}

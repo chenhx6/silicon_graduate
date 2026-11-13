@@ -119,5 +119,7 @@
   "unresolved_items": [
     "待 G80 生成并注入 Img/digital-energy-response.pdf，当前由 \\IfFileExists 条件块安全包裹兜底占位",
     "Wu 论文印刷第 20 页式 (1.14)、(1.19) 末项印为 n[n-k-l]，文本已保留原文记录并明确 LTI 重建依据 v[n-k-l]"
-  ]
+  ],
+  "parent_final_tex_sha256": "81f757b33a8ca0e0c65c025661b57e956c3f7d1d7df2972d3a35a89dccf76e04",
+  "integration_status": "included-in27-section-clean-preview"
 }

@@ -905,5 +905,7 @@
       "size_bytes": 326149
     },
     "limitation": "Local format/syntax check only; G76 owns integrated compilation, parent owns scientific acceptance"
-  }
+  },
+  "parent_final_tex_sha256": "ad956ea0748a82b31e82a917df2d16fec1b744be1ce72f91c875eec0ae55ad64",
+  "integration_status": "included-in27-section-clean-preview"
 }

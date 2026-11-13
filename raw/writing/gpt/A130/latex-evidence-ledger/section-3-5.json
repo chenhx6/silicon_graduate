@@ -198,5 +198,7 @@
     "citation_keys_count": 10,
     "audit_result": "18/18 display equations and 184/184 inline math expressions strictly matched; citations mapped to \\cite"
   },
-  "open_issues": []
+  "open_issues": [],
+  "parent_final_tex_sha256": "5439b517623ae5142cd4711bfd849cc0df1db4574aac3dfd305a2963dabfdea8",
+  "integration_status": "included-in27-section-clean-preview"
 }

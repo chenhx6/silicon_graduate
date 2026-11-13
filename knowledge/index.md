@@ -1945,3 +1945,21 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[casten-cross-source-microscopic-foundations]] — Casten—卢希庭—Bohr–Mottelson—Suhonen：壳模型到三轴集体模式的微观基础对账
 - [[heyde-giant-resonance-halo-dripline-bridge]] — Heyde 选段桥接：巨共振、连续谱、晕核与滴线实验接口
 - [[lu-ch08-shell-collective-highspin-bridge]] — 卢希庭第八章：壳模型、集体形变与高自旋观测量桥接
+
+## A130 前置章节本轮已核研究更新
+
+- [[a130-rewrite-alignment-frame-and-precession-20261113]]
+- [[a130-rewrite-axial-operator-scope-20261113]]
+- [[a130-rewrite-cross-region-comparison-and-e0-constraints-20261113]]
+- [[a130-rewrite-forward-observables-and-cascade-consistency-20261113]]
+- [[a130-rewrite-joint-live-and-arrival-sampling-20261113]]
+- [[a130-rewrite-magnetic-unit-and-numerical-normalization-20261113]]
+- [[a130-rewrite-seniority-k-selection-20261113]]
+- [[a130-rewrite-shape-orientation-mode-coupling-20261113]]
+- [[a130-rewrite-wobbling-local-limits-20261113]]
+- [[dewald-2012-ddcm-recoil-distance]]
+- [[gysbers-2019-ab-initio-beta-decay-quenching]]
+- [[nndc-130sn-adopted-2001-snapshot-20261113]]
+- [[shimizu-2005-high-k-precession]]
+- [[wang-2026-axial-coupling-quenching-joint-effects]]
+- [[wolff-1982-poisson-arrivals-see-time-averages]]

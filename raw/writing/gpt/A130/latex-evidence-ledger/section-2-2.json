@@ -227,5 +227,7 @@
       ]
     }
   ],
-  "target_sha256": "1c275f2433754fec67b723c554679457ab87b02e39ba32f382ad51daecb2d547"
+  "target_sha256": "1c275f2433754fec67b723c554679457ab87b02e39ba32f382ad51daecb2d547",
+  "parent_final_tex_sha256": "1c275f2433754fec67b723c554679457ab87b02e39ba32f382ad51daecb2d547",
+  "integration_status": "included-in27-section-clean-preview"
 }

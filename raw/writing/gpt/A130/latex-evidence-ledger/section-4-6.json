@@ -1,0 +1,128 @@
+{
+  "section_id": "4.6",
+  "status": "parent-content-accepted-integration-pending",
+  "worker": "G84 Gemini Tiered/high; final scientific/source corrections by parent after provider failure",
+  "recorded_at": "2026-11-13T09:28:29.325321+00:00",
+  "canonical_paths": {
+    "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-6.tex",
+    "tex_sha256": "763b37de5295ec5bec7cc6bfdb89e730990322e4047435b1ede1ad0b57365c0a"
+  },
+  "sources": [
+    {
+      "source_id": "book-jain-nuclear-isomers",
+      "source_page": "knowledge/sources/book-jain-nuclear-isomers.md",
+      "raw_file": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+      "raw_sha256": "994816561cfb6e89bd215b7fe23e37ecf12e8a3e8f5ce88eafbbd388d02ed74a",
+      "archive_required": true
+    },
+    {
+      "source_id": "paper-walker-dracoulis-1999-energy-traps",
+      "source_page": "knowledge/sources/paper-walker-dracoulis-1999-energy-traps.md",
+      "raw_file": "raw/papers/isomer/isomer_review/1999_Walker_Dracoulis_Energy traps in atomic nuclei.pdf",
+      "raw_sha256": "7eab17aa439b2e8c78aa0566626fa8725113eb95e6a2170eb296cdc09b8f6441",
+      "archive_required": true
+    },
+    {
+      "source_id": "continuation-g18-lukasiak-1979-191ir-triaxial-rotor",
+      "source_page": "knowledge/sources/continuation-g18-lukasiak-1979-191ir-triaxial-rotor.md",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G18/lukasiak1979-191ir-triaxial-rotor-fulltext.xml",
+      "raw_sha256": "d463a5c5d4a94fbf296b86f1ee29c692cd730066352ecca45e9d26fd93c77063",
+      "archive_required": true
+    },
+    {
+      "source_id": "nndc-130sn-adopted-2001-snapshot-20261113",
+      "source_page": "knowledge/sources/nndc-130sn-adopted-2001-snapshot-20261113.md",
+      "raw_file": "raw/papers/gpt/query/20261113-A130-seniority-check/nudat3-130sn-adopted.html",
+      "raw_sha256": "5ebd6fc678cdd6af703981f7e3fba424fb5bb5ae3f2fad6a6efacc4c9404932c",
+      "archive_required": true
+    }
+  ],
+  "claims_and_derivations": [
+    {
+      "id": "4.6-P01",
+      "kind": "definition-and-source-method",
+      "claim": "Four isomer mechanisms select different wavefunction, geometry and phase-space factors; they may coexist. Seniority is a quasi-spin label, not generic BCS quasiparticle number.",
+      "source": "book-jain-nuclear-isomers",
+      "locator": "Chapters2–6; manuscript sec4.6 mechanism comparison"
+    },
+    {
+      "id": "4.6-P02",
+      "kind": "source-algebra-and-task-reconstruction",
+      "claim": "Single-j identical-particle quasi-spin S=(Omega−v)/2 and S0=(n−Omega)/2 give same-seniority one-body even-L>0 matrix element ratio (Omega−n)/(Omega−v), v<Omega. Allowed n=v,v+2,...,2Omega−v and parity are essential; S=0 treated separately.",
+      "source": "book-jain-nuclear-isomers",
+      "locator": "rawPDF52–54/printed41–43 Eqs3.11–3.21",
+      "conditions": "Fixed one-body operator, same seniority, good single-j; no generalized/mixed-nucleus certainty."
+    },
+    {
+      "id": "4.6-P03",
+      "kind": "independent-task-control",
+      "claim": "Direct anticommuting single-j Fock construction with pair raising confirms diagonal E2 particle-number scaling for v2, Omega5/6 at fixed maximal J,M. It does not certify all transition values or real-nucleus lifetimes.",
+      "locator": "system/scripts/a130_seniority_fock_controls.py and G84/parent-seniority-fock-controls.json"
+    },
+    {
+      "id": "4.6-P04",
+      "kind": "evaluated-data-and-task-model",
+      "claim": "2001 Sn130 adopted snapshot gives (10+)2434.79(12)keV,1.61(15)us,96.54(5)keV E2 to(8+)2338.26(11),alpha1.829,B(E2).38(4)WU. In the pure h11/2 v2 n10 model the factor is−1, not the half-shell node; ICC accelerates total decay at fixed radiative rate.",
+      "source": "nndc-130sn-adopted-2001-snapshot-20261113",
+      "locator": "adopted HTML 2434.79-keV level and96.54-keV gamma; evaluationcutoff11-May-2001",
+      "conditions": "No new2026 evaluation, independent absolute measurement or exact real-nucleus occupation claim."
+    },
+    {
+      "id": "4.6-P05",
+      "kind": "definition-and-approximation",
+      "claim": "For specified axial strong-coupling states DeltaK>L defines nu>0 and reduced hindrance FW^(1/nu). Partial gamma lifetime depends on whether the reported branch is total or photon. Two-end K-mixed amplitudes add coherently, with overlap metric in nonorthogonal bases.",
+      "source": "book-jain-nuclear-isomers",
+      "locator": "Ch5 K-isomer definitions; manuscript FW-def/fnu-def/K-mixed-matrix-element",
+      "conditions": "No universal empirical fnu interval or unique triaxiality inverse; simple small-admixture-square scaling only when one path dominates."
+    },
+    {
+      "id": "4.6-P06",
+      "kind": "reviewed-evaluated-scheme-and-task-difference",
+      "claim": "Jain Fig5.4 labels178Hf16+2446.1keV31y and(13)−2433.3keV in K8 band. Their diagram difference≈12.8keV is not a495-keV direct E3 branch. Assuming lowest E3 and nominalK16→8 givesnu5 but no measured fnu without partial branch/ICC.",
+      "source": "book-jain-nuclear-isomers",
+      "locator": "rawPDF95–96/printed84–85 Fig5.4 visually read",
+      "conditions": "State/spin parentheses preserved; not primary remeasurement."
+    },
+    {
+      "id": "4.6-P07",
+      "kind": "source-model-scope-boundary",
+      "claim": "Lukasiak191Ir low-energy PRM scope is distinct from high-spin isomer lifetime/branch closure; original abstract reports>2MeV5.5(.7)s isomer, not microseconds.",
+      "source": "continuation-g18-lukasiak-1979-191ir-triaxial-rotor",
+      "locator": "original full XML abstract and low-energy model paragraphs",
+      "conditions": "No assertion of no later model globally; only this source/input range."
+    },
+    {
+      "id": "4.6-P08",
+      "kind": "review-history-and-semiclassical-model",
+      "claim": "Jain reviews Polikanov discovery and later242Am evaluation (~2.2MeV,14ms,fissionbranch~100%), distinct from low~48keV141y isomer. WKB exponential requires path, inertia and prefactor; shape isomerism broader than fission isomerism and not implied by two0+ energies alone.",
+      "source": "book-jain-nuclear-isomers",
+      "locator": "rawPDF114/printed104 Sec6.2; EqWKB-tunneling is standard selected-path task model",
+      "conditions": "Historical review citation, not claiming direct reading of1962original or measuring every value in one experiment."
+    }
+  ],
+  "figure": {
+    "producer": "system/scripts/a130_seniority_node_figure.py",
+    "producer_sha256": "002f13cc18f66cc3f435baf9d79d4b985c110f9761fe4ad0fe83cf855082b971",
+    "artifacts": [
+      {
+        "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/seniority-node-accessibility.pdf",
+        "sha256": "6f824e9d551556feb213b3c626f1b7b4d772eb361ae209608f74d09d48b420bb"
+      },
+      {
+        "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/seniority-node-accessibility.svg",
+        "sha256": "10a90b217fb7a7a4b6ccf1411f5544c99e5524cadcf70d6f72d1a080bc83fbc1"
+      }
+    ],
+    "boundary": "v2 algebraic guide, not experiment or lifetime prediction"
+  },
+  "parent_controls": {
+    "producer": "system/scripts/a130_seniority_fock_controls.py",
+    "results": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G84/parent-seniority-fock-controls.json"
+  },
+  "knowledge": "knowledge/research-notes/a130-rewrite-seniority-k-selection-20261113.md",
+  "superseded_ledger": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G84/rejected-ledger-history/section-4-6-before-parent-reconciliation.json",
+  "compilation": "common integration pending",
+  "parent_final_tex_sha256": "763b37de5295ec5bec7cc6bfdb89e730990322e4047435b1ede1ad0b57365c0a",
+  "integration_status": "included-in27-section-clean-preview",
+  "publication_normalization": "Trailing whitespace removed from SVG path lines and future producer exports; XML parses, all non-whitespace bytes and PDF images unchanged. See checkpoint27/svg-whitespace-normalization.json."
+}

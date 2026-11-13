@@ -1,0 +1,16 @@
+{
+  "section": "5.5",
+  "status": "content-admitted-layout-pending",
+  "timestamp": "2026-11-13T04:51:17.514291+00:00",
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-5.tex",
+  "output_tex_sha256": "2bd5b0a753cd28e8a8730376104b14e90df05dfd3b7004cb57a07d1a52541c55",
+  "basis": [
+    "Parent inspected Wu thesis actualPDF55–56 printed43–44:four-word base header, optional blocks and standard-vs-custom buffer behavior.",
+    "Poisson non-paralysable/paralysable count-rate formulas checked with preceding-input-window event condition.",
+    "General same-reference expectation/covariance identity distinguished from instantaneous common-busy conditional-independence example.",
+    "Wolff primary archive and actual reading limits retained; time fraction and arrival-weighted acceptance not silently equated.",
+    "No-loss waveform-head claims removed; offline clean selections and eventwise unrecoverability distinguished from statistical corrections."
+  ],
+  "parent_patch": "Two narrow explanatory sentences; main prose and derivations by Gemini.",
+  "remaining": "Common Bib/citation integration, build and layout verification."
+}

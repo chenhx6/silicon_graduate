@@ -1,0 +1,98 @@
+{
+  "archive_type": "research-archive-v1",
+  "archive_required": true,
+  "retrieved_at": "2026-11-13T11:05:12.674045+00:00",
+  "acquisition_context": "first-party A130 unaccepted code/contracts recovery snapshot",
+  "evidence_boundary": "Unaccepted or partially revised figure producers and execution contracts, NOT validated scientific results. Ongoing files may be at different revision stages; review before executing. No original paper, user memory, credential or unrelated manuscript included.",
+  "files": [
+    {
+      "path": "raw/writing/gpt/A130/wip-code-contracts-20261113T110512Z.tar.gz",
+      "size": 30656,
+      "size_bytes": 30656,
+      "sha256": "179d08021178e6f9547bd4d54bb0dbc233219115c920188aaf5c26adbd68bdeb",
+      "source": "authorized first-party local snapshot"
+    }
+  ],
+  "members": [
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G88/parent-delivered-contracts.json",
+      "size_bytes": 7782,
+      "sha256": "8349c9f88459eb8a0bf0476bfda8199453354302bd7fc041648a3ce486a43e60"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G89/parent-delivered-contracts.json",
+      "size_bytes": 7062,
+      "sha256": "70aecf3a25f32c712633d0dd5a859ec9174cf382244830822d458c15450697cc"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/appendix-contracts/AppendixA.json",
+      "size_bytes": 3284,
+      "sha256": "63421319a576396d56187d7cc86dce421668a9bb9b812ed6adc205fe6b8b1469"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/appendix-contracts/AppendixD.json",
+      "size_bytes": 4364,
+      "sha256": "34cab5598f5568123ad7797e8d8030ea70e99fbbd5426e2f3dcf2159cf5fd85c"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/appendix-contracts/AppendixE.json",
+      "size_bytes": 3317,
+      "sha256": "defc317c7bb4789e4ecff69aa2205434453d2a38131a5a85bc3d36def347b3cf"
+    },
+    {
+      "path": "outputs/plans/20261113-A130-G79-recovery-queue.json",
+      "size_bytes": 8208,
+      "sha256": "092a65067b1fe0eed77bebb1be48e8c18060ae4971e329c54e63e4832f7e21cd"
+    },
+    {
+      "path": "system/scripts/a130_angular_branch_figure.py",
+      "size_bytes": 4036,
+      "sha256": "8e3f23d3ca142887436c865ff0ffb43a636b4cce2abf4e67682a9bc3efa32591"
+    },
+    {
+      "path": "system/scripts/a130_br_as_network_figure.py",
+      "size_bytes": 5346,
+      "sha256": "159edddf96e057baf6aa37dfdc0f5183b5ff0725932144f00afd6322c3e1c85c"
+    },
+    {
+      "path": "system/scripts/a130_coincidence_topology_figure.py",
+      "size_bytes": 4231,
+      "sha256": "553fb6f97f6bc2bd4ee27885ad109c2c659e40a9faafda70891410ea9d16525e"
+    },
+    {
+      "path": "system/scripts/a130_detector_response_figure.py",
+      "size_bytes": 4289,
+      "sha256": "cce0703b107469ea785ac41b3543c51fbef26c49ff529473980d8a6e7f81b97c"
+    },
+    {
+      "path": "system/scripts/a130_environment_network_figure.py",
+      "size_bytes": 11842,
+      "sha256": "0f96e6fa971bfac9fa404bfcfd26bade4dc828fb9aca3f4f9b0b4d1c7ea80283"
+    },
+    {
+      "path": "system/scripts/a130_inference_profile_figure.py",
+      "size_bytes": 3487,
+      "sha256": "df1a922c807d65d81dd6d7fcf6c68af4552a11e14e8893ce3881b2dd6c9e19bf"
+    },
+    {
+      "path": "system/scripts/a130_joint_predictions_figure.py",
+      "size_bytes": 3658,
+      "sha256": "3752ee366a671ec43b1afdbfe2e8ec281d6ea39ebe3fc3676c4125f478deff66"
+    },
+    {
+      "path": "system/scripts/a130_lifetime_response_figure.py",
+      "size_bytes": 3425,
+      "sha256": "bbb72340da37a2fa016b770dca75690650e7ad8570e75f6d0cb184223465b211"
+    },
+    {
+      "path": "system/scripts/a130_orientation_comparison_figure.py",
+      "size_bytes": 7267,
+      "sha256": "d013b75a18a0fdf6372c192a6e96ae6eb05b194e3eed14869551fcaf06a6c17f"
+    },
+    {
+      "path": "system/scripts/a130_weak_cascade_figure.py",
+      "size_bytes": 4671,
+      "sha256": "321de42d876af3f6cf9cf8187821335aa409b2124bd96b77f3ace0dc8f760167"
+    }
+  ]
+}

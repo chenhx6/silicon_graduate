@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-11-13T05:09:54.382842+00:00",
+  "source_pages": {
+    "Gysbers2019v1": "actualPDF2 attribution-order/resolution-scale paragraph",
+    "Wang2026v1": "actualPDF4 TableI/Eq5,PDF5 conclusion"
+  },
+  "q_ratio_rechecks": [
+    {
+      "nucleus": "56Ni",
+      "numerator": 0.137,
+      "denominator": 0.212,
+      "q_recomputed": 0.8038820902933089,
+      "paper_rounded_q": 0.8
+    },
+    {
+      "nucleus": "100Sn",
+      "numerator": 8.93,
+      "denominator": 15.168,
+      "q_recomputed": 0.7672935888411901,
+      "paper_rounded_q": 0.77
+    },
+    {
+      "nucleus": "132Sn",
+      "numerator": 1.021,
+      "denominator": 1.892,
+      "q_recomputed": 0.7346023359384132,
+      "paper_rounded_q": 0.73
+    }
+  ],
+  "interpretation_boundary": "Published model inputs; central-value arithmetic only, no new uncertainty or independent experimental evidence. q baseline is source-defined, not universal Ikeda strength scaling.",
+  "control_escape_repair": "Two source pages contained backspace/bell/tab from non-raw Python LaTeX strings. Context-specific escapes restored; original PDF bytes untouched."
+}

@@ -1,0 +1,18 @@
+{
+  "status": "parent-accepted-narrow-unit-correction",
+  "timestamp": "2026-11-13T05:25:52.252708+00:00",
+  "deliverable_sha256": "79c465c1a435d24f07d6dcd2dfab4676ffd8302ab494c3f508163c0da190a2cf",
+  "review": [
+    "Parent independently viewed actualSuhonenPDF134 printed119 Eq6.7/6.9 and footnote6, confirming SI mu_N and operator1/c vs Gaussian nuclear-magneton definition.",
+    "Checked physicalB_S=B_mu/c² versus equality of numerical B values normalized to their respective named units.",
+    "Checked lambda(M1) SI prefactor transformation via mu_0=1/(epsilon_0 c²), and dimensional versus numerical rate constants.",
+    "Radiation-amplitude prefactor sqrt(f2/f1)=sqrt3/10 and corresponding conventional0.835 E(MeV) numerical relation retained, with phase convention boundary."
+  ],
+  "integration_required": [
+    "Replace only5.9M1 paragraph and preserve equation labels.",
+    "Label M_S in existing delta denominator or supply c if M_mu used.",
+    "Two teaching-example M1 units become mu_N²; numerical rate and0.00545432 value unchanged.",
+    "Document old mistaken standalonec² numerical conversion as corrected, not as a general unit-system rule."
+  ],
+  "scope": "Not a re-audit of all source pages, 40 equations or experimental delta branches."
+}

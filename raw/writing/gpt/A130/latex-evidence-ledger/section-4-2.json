@@ -1,0 +1,169 @@
+{
+  "section_id": "4.2",
+  "title": "轻区与A80的形状混合",
+  "target_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-2.tex",
+  "staging_tex_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G86/staging/section-4-2.tex",
+  "tex_sha256": "fbbcef6bcc298c498e8c604889d3f4789ef63bdb6627ecbd4184d1f9d95aa41f",
+  "recorded_at": "2026-11-13T05:43:34.522349+00:00",
+  "executor": "G86",
+  "sources": [
+    {
+      "source_id": "doctoral-r1-g26-crider-2016-68ni-shape-coexistence",
+      "source_page": "knowledge/sources/doctoral-r1-g26-crider-2016-68ni-shape-coexistence.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G26/crider-2016-68ni-shape-coexistence.pdf",
+      "raw_sha256": "923ce537b505cecd49cdf75901bdd1be76896da0326ce29e8b049f10143d4b28",
+      "actual_scope": "Parent actualPDF2/4 Table1/modelparagraph; selected-page check.",
+      "reading_boundary": "Selected-page or previously audited claim reuse; no new full-paper/deep-read certification."
+    },
+    {
+      "source_id": "doctoral-r1-g26-starosta-2007-64ge-rdm-e2",
+      "source_page": "knowledge/sources/doctoral-r1-g26-starosta-2007-64ge-rdm-e2.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G26/starosta-2007-64ge-rdm-e2.pdf",
+      "raw_sha256": "715a4c8ada9a6e4bcc2be1df8c845e680d81b6f0c4f91bf70931fe7b10592ad8",
+      "actual_scope": "Parent actualPDF3 TableI and immediately following lifetimeparagraph.",
+      "reading_boundary": "Selected-page or previously audited claim reuse; no new full-paper/deep-read certification."
+    },
+    {
+      "source_id": "doctoral-r1-g27-clement-2007-prc-krypton-coulex",
+      "source_page": "knowledge/sources/doctoral-r1-g27-clement-2007-prc-krypton-coulex.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G27/clement-2007-74kr-76kr-coulex-prc.pdf",
+      "raw_sha256": "2ee6c7be8a2fbb72a9f647a0c284181b2fc197e167381be67685f3a15018c0e8",
+      "actual_scope": "Parent actualPDF11/15 tables VI/XI and priorfirst-chapter baseline.",
+      "reading_boundary": "Selected-page or previously audited claim reuse; no new full-paper/deep-read certification."
+    },
+    {
+      "source_id": "ayangeakaa-2019-rigid-triaxial-ge76",
+      "source_page": "knowledge/sources/ayangeakaa-2019-rigid-triaxial-ge76.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/ayangeakaa-2019-rigid-triaxial-ge76.pdf",
+      "raw_sha256": "fd549c59e62774b43690a8ae3b5c4bf638982f6c9b888dd0f0aba83b3993b733",
+      "actual_scope": "Parent actualPDF5/6 Figs4/5; fittednetwork scope.",
+      "reading_boundary": "Selected-page or previously audited claim reuse; no new full-paper/deep-read certification."
+    },
+    {
+      "source_id": "ding-2025-chiral-rotation-a60-residual-interactions",
+      "source_page": "knowledge/sources/ding-2025-chiral-rotation-a60-residual-interactions.md",
+      "raw_file": "raw/papers/Exploring chiral rotation in A ≈ 60 nuclei  Role of residual interactions.pdf",
+      "raw_sha256": "5264bd9192b988021d2ee21f2861bce80f2f7ac04ba26f04ea3f0e8125be599e",
+      "actual_scope": "Reuse prioraudited foundational section and canonical source; no new wholepaper read.",
+      "reading_boundary": "Selected-page or previously audited claim reuse; no new full-paper/deep-read certification."
+    }
+  ],
+  "claims": [
+    {
+      "id": "P42-1",
+      "text": "声明的正交实二态模型有tan2theta=−2V/(EB−EA)；E0点质子电荷算符为e sum r_p²，忽略基底非对角项后rho²=Z² sin²(2theta)(Delta<r²>)²/(4R0⁴)。",
+      "kind": "our-declared-model-derivation",
+      "source_id": "doctoral-r1-g26-crider-2016-68ni-shape-coexistence",
+      "verified_locator": {
+        "route": "Own two-state diagonalization and charge normalization; originalCrider model comparisonPDF3–4"
+      },
+      "conditions": "Relative phase, degenerate endpoint, offdiagonal-E0 neglect and per-proton radius definition stated; no universal shape inversion."
+    },
+    {
+      "id": "P42-2",
+      "text": "Crider Table1:68Ni0_3 half-life=.57(5)ns, E2 branch to2_1>0.981 withB=39.0(34)e²fm⁴; E0 strength bounds to0_1 and0_2 are<.0050 and<.0258. Adopted68Ni0_2 half-life268(12)ns andrho²=.0076(4) are separate adopted inputs.",
+      "kind": "reported-experiment-and-adopted-input",
+      "source_id": "doctoral-r1-g26-crider-2016-68ni-shape-coexistence",
+      "verified_locator": {
+        "actual_pdf_page": 4,
+        "table": "Table1",
+        "anchor": "Half-lives, branching ratios, and either absolute B(E2)"
+      },
+      "conditions": "Upper limits are not nonzero measurements; adopted rows not independent new experiment."
+    },
+    {
+      "id": "P42-3",
+      "text": "作者将68Ni0_1,0_2,0_3分别与球形、扁椭、长椭模型构型联系；A3DA/LNPS对0_3的半衰期预言分别108ns/1.5ns。",
+      "kind": "author-model-comparison",
+      "source_id": "doctoral-r1-g26-crider-2016-68ni-shape-coexistence",
+      "verified_locator": {
+        "actual_pdf_page": 4,
+        "paragraph": "Following Fig3",
+        "anchor": "spherical, oblate, and prolate shapes"
+      },
+      "conditions": "Not direct density measurement; model uncertainty not supplied here and no new significance assigned."
+    },
+    {
+      "id": "P42-4",
+      "text": "Starosta TableI与表下文字:64Ge tau2_1=3.3(5)ps,tau2_2=8(+4/−2)ps; three downwardB=410(60),620(210),1.5(5)e²fm⁴ with stated transitions; Q values are theory-column predictions.",
+      "kind": "reported-experiment-and-column-boundary",
+      "source_id": "doctoral-r1-g26-starosta-2007-64ge-rdm-e2",
+      "verified_locator": {
+        "actual_pdf_page": 3,
+        "table": "TableI",
+        "anchor": "Comparison between the experimental data and the GXPF1A"
+      },
+      "conditions": "Mean lifetimes, correct downward direction and adopted branching dependence; no claimed measuredQs."
+    },
+    {
+      "id": "P42-5",
+      "text": "Clément所报76Kr2_1 Qs=−.7(2)eb、74Kr2_1 Qs=−.53(+.24/−.23)eb。",
+      "kind": "reported-fit-result",
+      "source_id": "doctoral-r1-g27-clement-2007-prc-krypton-coulex",
+      "verified_locator": {
+        "actual_pdf_pages": [
+          11,
+          15
+        ],
+        "tables": [
+          "VI",
+          "XI"
+        ],
+        "verification": "Parent independently inspected table text and prior visual baseline"
+      },
+      "conditions": "Spectroscopic2+ moment is not0+ first moment or unique intrinsicshape; covariance/model extraction retained."
+    },
+    {
+      "id": "P42-6",
+      "text": "Ge76原文Fig4/5讨论有效平均角约25–27deg及高阶不变量弥散，作者据此讨论rigidity。",
+      "kind": "reported-analysis-and-author-interpretation",
+      "source_id": "ayangeakaa-2019-rigid-triaxial-ge76",
+      "verified_locator": {
+        "actual_pdf_pages": [
+          5,
+          6
+        ],
+        "figures": [
+          "4",
+          "5"
+        ],
+        "anchor": "Statistical variance of the asymmetry"
+      },
+      "conditions": "No invented sigma(gamma)=13(4)deg; finite fitted network and adopted constraints retained."
+    },
+    {
+      "id": "P42-7",
+      "text": "Ding A60理想PRM的S(I)=[E(I)−E(I−1)]/(2I)与偶偶gamma-band二阶差分不同。",
+      "kind": "model-definition-boundary",
+      "source_id": "ding-2025-chiral-rotation-a60-residual-interactions",
+      "verified_locator": {
+        "route": "Canonical fulltext source model definitions/Figs4–9"
+      },
+      "conditions": "No newCo experiment or direct gamma-rigidity test implied."
+    },
+    {
+      "id": "P42-8",
+      "text": "70Ni候选(0_2)半衰期1.65(+.30/−.25)ns，到2_1分支>0.66，到基态E0仅上限。",
+      "kind": "reported-experiment-and-upper-bound",
+      "source_id": "doctoral-r1-g26-crider-2016-68ni-shape-coexistence",
+      "verified_locator": {
+        "actual_pdf_page": 4,
+        "table": "Table1"
+      },
+      "conditions": "Keep separate isotope/state; no combining with68Ni measurement."
+    }
+  ],
+  "unresolved_issues": [
+    "Common bibliography aliases and actual layout pending; reader-effect not tested."
+  ],
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-2.tex",
+  "output_tex_sha256": "fbbcef6bcc298c498e8c604889d3f4789ef63bdb6627ecbd4184d1f9d95aa41f",
+  "parent_reconciliation": "Replaced stale positiveclaims and false locators with currentclaims matching actual canonical prose. Superseded failedledger kept only in rejected-ledger-history, not a factsource.",
+  "parent_final_patch": {
+    "at": "2026-11-13T05:47:59.392820+00:00",
+    "scope": "Corrected remaining angle endpoint/E0 charge factor, nonuniversal comparison/ranking, theory-columnQs, Ni shape assignment andE0bounds, Thomas adopted/unobserved branch; rebuilt stale canonical claims from primarychecks.; finalprimaryTableI/CriderTable1 bounds and shapeassignments, adoptedThomasXMLline clarified."
+  },
+  "target_sha256": "fbbcef6bcc298c498e8c604889d3f4789ef63bdb6627ecbd4184d1f9d95aa41f",
+  "parent_final_tex_sha256": "fbbcef6bcc298c498e8c604889d3f4789ef63bdb6627ecbd4184d1f9d95aa41f",
+  "integration_status": "included-in27-section-clean-preview"
+}

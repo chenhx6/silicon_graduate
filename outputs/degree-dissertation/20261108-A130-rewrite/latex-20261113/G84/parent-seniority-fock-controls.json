@@ -1,0 +1,87 @@
+{
+  "kind": "task-owned-independent-fermion-algebra-control",
+  "operator": "dimensionless T20=sum_m (3m²-j(j+1)) n_m",
+  "method": "Anticommuting fermion creation in a sparse single-j Fock basis",
+  "cases": [
+    {
+      "omega": 5,
+      "j": 4.5,
+      "v": 2,
+      "rows": [
+        {
+          "n": 2,
+          "sparse_fock_components": 1,
+          "T20_expectation": 48.0,
+          "ratio_to_two_particles": 1.0,
+          "seniority_formula_ratio": 1.0
+        },
+        {
+          "n": 4,
+          "sparse_fock_components": 3,
+          "T20_expectation": 16.000000000000004,
+          "ratio_to_two_particles": 0.3333333333333334,
+          "seniority_formula_ratio": 0.3333333333333333
+        },
+        {
+          "n": 6,
+          "sparse_fock_components": 3,
+          "T20_expectation": -16.000000000000004,
+          "ratio_to_two_particles": -0.3333333333333334,
+          "seniority_formula_ratio": -0.3333333333333333
+        },
+        {
+          "n": 8,
+          "sparse_fock_components": 1,
+          "T20_expectation": -48.0,
+          "ratio_to_two_particles": -1.0,
+          "seniority_formula_ratio": -1.0
+        }
+      ]
+    },
+    {
+      "omega": 6,
+      "j": 5.5,
+      "v": 2,
+      "rows": [
+        {
+          "n": 2,
+          "sparse_fock_components": 1,
+          "T20_expectation": 80.0,
+          "ratio_to_two_particles": 1.0,
+          "seniority_formula_ratio": 1.0
+        },
+        {
+          "n": 4,
+          "sparse_fock_components": 4,
+          "T20_expectation": 40.0,
+          "ratio_to_two_particles": 0.5,
+          "seniority_formula_ratio": 0.5
+        },
+        {
+          "n": 6,
+          "sparse_fock_components": 6,
+          "T20_expectation": 0.0,
+          "ratio_to_two_particles": 0.0,
+          "seniority_formula_ratio": 0.0
+        },
+        {
+          "n": 8,
+          "sparse_fock_components": 4,
+          "T20_expectation": -40.0,
+          "ratio_to_two_particles": -0.5,
+          "seniority_formula_ratio": -0.5
+        },
+        {
+          "n": 10,
+          "sparse_fock_components": 1,
+          "T20_expectation": -80.0,
+          "ratio_to_two_particles": -1.0,
+          "seniority_formula_ratio": -1.0
+        }
+      ]
+    }
+  ],
+  "scope": "Diagonal E2 RME particle-number factor at fixed J,M in v=2 multiplets",
+  "boundary": "No nucleus fit, physical quadrupole scale, lifetime, or generalized-seniority claim",
+  "verdict": "pass"
+}

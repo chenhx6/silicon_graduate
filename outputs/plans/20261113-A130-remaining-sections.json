@@ -14,57 +14,53 @@
     "2.4",
     "2.5",
     "2.6",
+    "2.7",
+    "2.8",
+    "3.1",
+    "3.2",
+    "3.3",
     "3.5",
+    "3.6",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.6",
+    "5.1",
     "5.3",
     "5.4",
+    "5.5",
     "5.9"
   ],
-  "ownership": "Shared worktree protocol-only. Every writer owns only assigned section TeX/ledger and unique output directory. G76 alone integrates common Bib/wrappers/build. Parent alone accepts/publishes.",
+  "ownership": "Parent owns accepted27/common engineering/index/Git and finalDewaldsource reconciliation. G79 owns original method/E queue then remaining recovery queue excluding3.4/4.8. G88 owns3.4/ledger/angularnote; G89 owns4.8/ledger/environmentnote/figure. Protocol-only shared workspace; no sandbox isolation claimed.",
   "queues": {
-    "G84": [
-      "2.7",
-      "4.6",
-      "4.7",
-      "AppendixA",
-      "AppendixD"
-    ],
-    "G85": [
-      "2.8",
-      "3.6",
-      "3.8",
-      "4.4",
-      "4.5"
-    ],
-    "G81": [
-      "3.2",
-      "3.1",
-      "3.3",
-      "3.4",
-      "3.7"
+    "parent": [
+      "finalize accepted27 preview/source reconciliation",
+      "publication gates and explicit nonforce publish",
+      "audit new G79 revisions"
     ],
     "G79": [
-      "5.5",
-      "5.1",
       "5.2",
       "5.6",
       "5.7",
       "5.8",
       "5.10",
-      "AppendixE"
+      "AppendixE",
+      "4.7 T16 integration",
+      "3.7",
+      "4.4",
+      "3.8",
+      "4.5",
+      "AppendixA",
+      "AppendixD"
     ],
-    "G86": [
-      "4.1",
-      "4.2",
-      "4.3",
-      "4.8"
+    "G88": [
+      "3.4 source/physics revision"
     ],
-    "G76": [
-      "Engineering integration",
-      "AppendixF",
-      "AppendixB/C interface completion"
+    "G89": [
+      "4.8 source/physics revision"
     ]
   },
-  "queue_authorization": "Only current contracted section is running. Each successor receives a detailed per-section contract and source readiness requirements before execution; queue is a plan, not a completion report.",
+  "queue_authorization": "Detailed contracts delivered for eachlistedbody section; independentnextdrafts mayproceed withoutparentlayoutgate. Parentacceptance stillrequired beforepublisheduse ofclaims. Eachfile hasonewriter; parentnarrowpatches transferownershipexplicitly.",
   "acceptance": [
     "Original source locator per load-bearing empirical/model claim and formula; independent evidence separated from same-collection derivatives.",
     "Parent checks incremental critical claims, conventions/units and counter-explanations; no redundant whole-book reread.",
@@ -82,5 +78,88 @@
     "PADO files",
     "all differently cased or unrelated manuscripts",
     "daily daemon and course state"
-  ]
+  ],
+  "updated_at": "2026-11-13T11:23:59.222740+00:00",
+  "content_admitted_sections": [
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7",
+    "2.8",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.5",
+    "3.6",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.6",
+    "5.1",
+    "5.3",
+    "5.4",
+    "5.5",
+    "5.9"
+  ],
+  "parent_20261113_science_audit": "Detailed revision instructions delivered to all five body authors. Reusable mathematical/source findings in knowledge/research-notes/a130-rewrite-forward-observables-and-cascade-consistency-20261113.md. Existing files do not imply acceptance.",
+  "recovery_queue": "outputs/plans/20261113-A130-G79-recovery-queue.json",
+  "current_ownership": {
+    "G79": {
+      "agent_id": "01a1d274-e82c-7bc0-af59-22fac97251d4",
+      "sections": [
+        "5.2",
+        "5.6",
+        "5.7",
+        "5.8",
+        "5.10",
+        "4.7",
+        "3.8"
+      ],
+      "appendices": [
+        "A",
+        "D",
+        "E"
+      ]
+    },
+    "G88": {
+      "agent_id": "01a1d461-d238-71e0-a12b-5a201d70f6bd",
+      "sections": [
+        "3.7",
+        "3.4"
+      ]
+    },
+    "G89": {
+      "agent_id": "01a1d469-e510-7fe3-9c8b-005d2362e820",
+      "sections": [
+        "4.8"
+      ]
+    },
+    "G90": {
+      "agent_id": "01a1d4a1-c1d0-76d1-9ea4-f16c26f8873c",
+      "sections": [
+        "4.4",
+        "4.5"
+      ]
+    },
+    "parent": {
+      "shared": [
+        "BibTeX",
+        "wrappers",
+        "build",
+        "global figure manifest",
+        "index",
+        "Git"
+      ],
+      "locks": "protocol-only shared filesystem"
+    }
+  },
+  "ownership_boundary": "current_ownership and the recovery queue supersede historical failed-worker ownership entries; no silent model substitution"
 }
