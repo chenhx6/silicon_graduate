@@ -1,0 +1,168 @@
+\section{弱衰变与壳演化的互补探针}\label{sec:4-7}
+
+在第2.2节中，我们阐明了单极相互作用与张量力驱动单粒子轨道漂移的壳演化微观机制；在第2.3节与第2.7节中，分别确立了 BCS 准粒子配对表象以及截断模型空间中有效电磁与弱跃迁算符的重整化规范；在第4.6节中，推演了同核异能态对多体波函数特定微观对称性与几何取向的选择定则。然而，电磁衰变与同核异能跃迁本质上属于同核内部不同激发态之间的电荷与电流响应，其质子数与中子数严格保持守恒。与此截然不同，弱相互作用 $\beta$ 衰变直接改变核内的质中比（$Z \to Z \pm 1$），能够在整条同量异位素链上横向探测单粒子波函数的占据几率、费米面附近的泡利阻塞效应以及集体运动自由度的微观重组。
+
+这便引出了本节需要回答的核心问题：\textbf{弱相互作用衰变在何种机制下充当了原子核壳层演化、形状形变与超流配对的灵敏互补探针？实验观测到的有限衰变能窗、缓发粒子发射与双贝塔衰变矩阵元，如何对微观多体波函数施加严格的物理约束？}
+
+本节划分为三个循序渐进的子模块：
+\begin{enumerate}
+\item \textbf{4.7.1节：Gamow-Teller、一阶禁戒与有限 Q 衰变能窗。} 将全 Hilbert 空间的几何代数和定则与实际有限能窗内的实测衰变速率严格区分，剖析原子核形变、轨道占据与粒子-振动耦合对跃迁强度的重分配与解阻塞效应，推演微分衰变能谱并界定守恒矢量流（CVC）的适用边界；
+\item \textbf{4.7.2节：逐态 $\beta$ 缓发级联与中子多重度。} 阐述 $\beta$ 衰变前向馈送后高激发态在 $\gamma$ 辐射退激与中子发射之间的非相干统计级联竞争，给出发射几率的吸收级联概率分解，辨析不同文献中 $P_{1n}$、$P_{\ge 1n}$ 与平均多重度 $\langle M_n \rangle$ 的物理定义，纠正将 $Q_\beta - S_n$ 单纯当作充分预测公式的认识误区；
+\item \textbf{4.7.3节：形变、配对与轻中微子 $0\nu\beta\beta$ 矩阵元范围。} 聚焦标准轻 Majorana 中微子交换机制，对比低能单 $\beta$ 衰变与双贝塔衰变在特征虚动量转移上的本质差异，阐述手征有效场论中 $\Delta L = 2$ 短程接触算符的重整化自洽性，剖析配对相干与四极形变错位对核矩阵元的调制作用。
+\end{enumerate}
+
+\subsection{Gamow-Teller、一阶禁戒与有限 Q 衰变能窗}\label{sec:4-7-1}
+
+在第2.7节中，我们严格推导了完备状态空间中的单体 Ikeda 差和定则：$S_- - S_+ = 3(N - Z)$。该定则是基于裸算符在全状态空间完备闭合条件下导出的纯空间-同位旋几何代数恒等式，其定义本身完全独立于弱耦合常数 $g_A^2$，亦未包含任何轻子运动学相空间加权。
+
+在真实放射性衰变测量中，物理衰变速率严格受限于有限的衰变能释放窗（$Q$ 值）。采用中性原子质量 $M(A, Z)$，三类典型弱衰变过程的能量释放值具有不同的表达形式：
+\begin{align}
+Q_{\beta^-} &= [M(A, Z) - M(A, Z+1)] c^2 \quad (\text{发射 } e^- + \bar{\nu}_e), \label{eq:4-7-Q-betaminus}\\
+Q_{\beta^+} &= [M(A, Z) - M(A, Z-1) - 2 m_e] c^2 \quad (\text{发射 } e^+ + \nu_e, \text{ 阈值要求 } M(A, Z) - M(A, Z-1) > 2 m_e), \label{eq:4-7-Q-betaplus}\\
+Q_{\mathrm{EC}} &= [M(A, Z) - M(A, Z-1)] c^2 - B_j \quad (\text{捕获第 } j \text{ 壳层轨道电子并出射 } \nu_e), \label{eq:4-7-Q-EC}
+\end{align}
+其中 $B_j$ 为被俘获原子电子的结合能。在运动学上，$\beta^-$ 衰变出射反中微子 $\bar{\nu}_e$，而 $\beta^+$ 衰变与电子俘获（EC）出射中微子 $\nu_e$；二者不可混写，亦不可将 $\beta^+$ 的 $-2m_e c^2$ 阈值套用到电子俘获之上。
+
+根据弱相互作用有效拉氏量理论，出射带电轻子（动量为 $p_e$、总能量为 $E_e$）的微分发射速率公式写作：
+\begin{equation}\label{eq:4-7-differential-spectrum}
+\frac{d\lambda}{dW} = \frac{(G_F^{(E)})^2 |V_{ud}|^2 (m_e c^2)^5}{2\pi^3 \hbar} F(Z, W) p W (W_0 - W)^2 C(W),
+\end{equation}
+其中为了保持量纲透明，引入具有能量负二次方量纲的弱耦合常数 $G_F^{(E)} \equiv G_F / (\hbar c)^3 \approx 1.1663787 \times 10^{-11}\,\mathrm{MeV}^{-2}$，其余运动学变量均以电子静止能量 $m_e c^2$ 无量纲化：
+\begin{itemize}
+\item $W \equiv 1 + \frac{T_e}{m_e c^2} = \frac{E_e}{m_e c^2}$ 为轻子无量纲总能量（$T_e$ 为轻子动能，$W \ge 1$）；
+\item $p \equiv \frac{p_e c}{m_e c^2} = \sqrt{W^2 - 1}$ 为无量纲轻子动量；
+\item $W_0 \equiv 1 + \frac{Q_\beta - E_x}{m_e c^2}$ 为对应于子核激发能为 $E_x$ 的特定退激分支的无量纲最大端点能量；
+\item $F(Z, W)$ 为相对论 Fermi 函数，描述子核库仑势场对出射轻子波函数的连续态畸变；
+\item $C(W)$ 为谱形状因子（Shape Factor）。在无轨道角动量转移（$\Delta L = 0$）的允许跃迁中，若略去核子反冲修正、诱导流以及轻子波函数在核体积内的微小径向变化，形状因子可近似视为与能量无关的常数：
+\begin{equation}\label{eq:4-7-shape-factor-allowed}
+C_{\mathrm{allowed}}(W) \approx g_V^2 B(F) + g_A^2 B(GT),
+\end{equation}
+其中 $B(F) = \frac{|\langle 1 \rangle|^2}{2J_i + 1}$ 与 $B(GT) = \frac{|\langle \boldsymbol{\sigma} \rangle|^2}{2J_i + 1}$。对能量积分得到的标准 Fermi 相空间因子 $f_0(Z, W_0) = \int_1^{W_0} F(Z, W) p W (W_0 - W)^2 dW$，其呈现的 $f_0 \propto Q_\beta^5$ 标度仅在超相对论与无库仑极限（$Z \to 0, W_0 \gg 1$）下成立，并非在全能量与全电荷区普遍精确的幂次。
+\end{itemize}
+
+在此需要澄清\textbf{守恒矢量流假设（CVC 假说）的微观适用范围}。CVC 假说断言弱矢量流与电磁同位旋流构成同一同位旋三态矢量，因此在同位旋对称性极限下，全空间积分配对的零动量总矢量荷算符 $\hat{T}_\pm = \int V_0^\pm d^3r$ 在核介质中不发生微观重整化。对于同位旋多重态之间的 Fermi 超允许跃迁，其矩阵元由同位旋升降算符代数严格给出：
+\begin{equation}\label{eq:4-7-fermi-matrix-element}
+\langle T, T_z \pm 1 | \hat{T}_\pm | T, T_z \rangle = \sqrt{T(T+1) - T_z(T_z \pm 1)}.
+\end{equation}
+文献中常见的 $\sqrt{2}$ 因子仅对应于 $T=1$ 同位旋三态（$T=1, T_z = \mp 1 \to T_z = 0$，如 $0^+ \to 0^+$ 超允许衰变）的特殊取值，不能直接推广到一般多重态。更重要的是，\textbf{CVC 的保护仅针对零动量转移下的总矢量荷}；在有限动量转移、截断模型空间有效算符重整化以及库仑同位旋破缺效应下，弱矢量流矩阵元依然包含非平庸修正，不可将 CVC 外推为所有弱相互作用矩阵元在介质中均不受重整化。
+
+在实际原子核能谱中，微观壳演化、形变与配对关联深刻调控着 Gamow-Teller 强度的能量分布：
+\begin{enumerate}
+\item \textbf{激发能级拓扑与有限能窗截断：} 在球形双闭壳核附近，很大一部分 Gamow-Teller 跃迁强度相干聚集在巨共振峰（GTGR）中。当 $Q_\beta$ 能窗显著低于巨共振能量时，衰变仅能布居其低能尾部，实测衰变速率直接受制于低能态的组态波包，不能单纯依据 $3(N-Z)$ 预测实际半衰期。
+\item \textbf{四极形变与 Nilsson 轨道劈裂：} 原子核产生四极形变时，球形单粒子多重态劈裂为若干具有不同角动量投影 $\Omega$ 的 Nilsson 能级。这种单粒子谱的展宽使原本局域在高能区的 GT 强度向下碎裂，部分强度被拖拽进低能 $Q_\beta$ 衰变能窗之内，从而显著改变化学半衰期。
+\item \textbf{粒子-振动耦合（PVC）的解阻塞效应：} 在纯单粒子壳模型或静态 RPA 计算中，当母核中子的所有配对轨道与子核质子对应轨道被泡利不相容原理完全阻塞时，模型预言其低能能窗内的 GT 强度严格为零。然而正如 Wang 等在双闭壳核 $^{56}\mathrm{Ni}$ 与 $^{132}\mathrm{Sn}$ 中的微观计算所示~\cite{wang-2026-axial-coupling-quenching-joint-effects}，当引入粒子-振动耦合（PVC）计入多粒子-多空穴微观涨落后，核芯表面振动声子与单粒子的相互作用会打破纯基态的刚性阻塞，将高能成分向低能窗有效混合，从而在原本零强度的能窗内“解阻塞（Unblocking）”开通有限的衰变分支。这表明微观多体关联的作用不仅是单一方向的淬灭，更具有在特定组态下重塑能谱通道的重要物理功能。
+\end{enumerate}
+
+在远离稳定线的快中子俘获过程（$r$-过程）等待点核区，允许 Gamow-Teller 跃迁与一阶禁戒跃迁（First-Forbidden, FF，$\Delta \pi = -1$）的相对重要性随质量区发生显著演化。依据 Zhi 等人基于大尺度壳模型跨壳层计算的系统分析~\cite{doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives}：
+\begin{itemize}
+\item 在 $N=50$（$Z \ge 28$，包括 $^{78}\mathrm{Ni}$）与 $N=82$（如 $^{130}\mathrm{Cd}$）等待点核区，Gamow-Teller 衰变仍然是主导衰变模式。例如在 $^{130}\mathrm{Cd}$ 中，计算证实 GT 衰变贡献了主导份额（采用有效淬灭因子 $q(GT) = 0.66$），一阶禁戒跃迁对计算半衰期的缩短贡献仅约 $13\%$；而在 $^{78}\mathrm{Ni}$ 中，独立粒子模型下中子 $1g_{9/2} \to \text{质子 } 1f_{7/2}$ 的 rank-1 FF 跃迁受到泡利阻塞，多体组态混合虽部分解除了这一阻塞，但在 $N=50$ 同中子素中 FF 贡献总体依然微弱（通常低于 $5\%$）。
+\item 与此形成鲜明对照的是，在 $N=126$ 等待点核区（$Z \ge 70$），由于费米面跨越主壳层时可用单粒子轨道的空间宇称发生反转，一阶禁戒跃迁显著增强并反超 GT 衰变，成为决定核素总半衰期的关键通道。
+\end{itemize}
+按照非相对论约化分解，一阶禁戒算符包含不同张量秩与空间对称性的结构~\cite{doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives}：
+\begin{itemize}
+\item 秩为 0 的类时轴荷算符：$\hat{\mathcal{O}}_0 \propto \gamma_5 \to \frac{\boldsymbol{\sigma} \cdot \mathbf{p}}{m_N}$；
+\item 秩为 1 的空间矢量算符：$\hat{\mathcal{O}}_1 \propto \mathbf{r}, \boldsymbol{\alpha} \to \frac{\mathbf{p}}{m_N}, \boldsymbol{\sigma}\times\mathbf{r}$；
+\item 秩为 2 的空间张量算符：$\hat{\mathcal{O}}_2 \propto [\boldsymbol{\sigma} \times \mathbf{r}]_2$。
+\end{itemize}
+Zhi 等人在微观模型中表明：软 $\pi$ 介子交换流使类时轴荷算符表现出显著的介质增强（拟合有效参数 $q_A(\xi' v) = 1.266 > 1$），而空间矢量与张量算符则呈现出不同程度的淬灭（$q(x) = 0.51, q(u) = 0.38$）。在微分能谱公式~\eqref{eq:4-7-differential-spectrum} 中，形状因子 $C(W)$ 表现为包含电子动能与不同秩矩阵元交叉干涉的复杂能量函数，绝不能将单一标量淬灭常数机械推广至所有禁戒通道。
+
+\subsection{逐态 \beta 缓发级联与中子多重度}\label{sec:4-7-2}
+
+当原子核极度偏离稳定线走向极丰中子区时，核质量差 $Q_\beta$ 显著升高，而子核的中子分离能 $S_n$（以及多中子分离阈值 $S_{2n}, S_{3n}$）则因过剩中子结合减弱而降低。当满足动学条件 $Q_\beta > S_n$ 时，母核通过 $\beta$ 衰变能够布居到子核中子分离阈值之上的激发态。这些处于非束缚连续谱中的激发能级随后迅速退激，产生 \textbf{$\beta$ 缓发中子发射（$\beta$-delayed neutron emission）}~\cite{dimitriou-2021-iaea-beta-delayed-neutron-database}。
+
+微观动力学表明，$\beta$ 缓发粒子发射是一个严格的两阶段统计退激过程：
+\begin{enumerate}
+\item \textbf{第一阶段（弱相互作用前向馈送）：} 母核 $(Z, N)$ 通过允许或禁戒 $\beta$ 跃迁，将退激强度分配给子核 $(Z+1, N-1)$ 的各个激发态能级 $i$（能量为 $E_x(i)$）。设馈送到能级 $i$ 的分支比强度为 $I_\beta(i)$，满足对子核全部能级的归一化条件：
+\begin{equation}\label{eq:4-7-beta-feeding-normalization}
+\sum_{i} I_\beta(i) = 100\%.
+\end{equation}
+\item \textbf{第二阶段（统计非相干级联退激）：} 处于激发态 $i$ 的子核属于高激发复合态，其后续退激由各开放通道的部分衰变宽度决定：
+\begin{equation}\label{eq:4-7-total-width-def}
+\Gamma_{\mathrm{tot}}(i) = \Gamma_\gamma(i) + \sum_{x \ge 1} \Gamma_{xn}(i) + \dots,
+\end{equation}
+其中 $\Gamma_\gamma(i)$ 为退激到子核全部能量更低态（包括束缚态与阈上其他拟连续态）的总辐射电磁宽度，$\Gamma_{xn}(i)$ 为发射 $x$ 个中子并退激至孙核 $(Z+1, N-1-x)$ 的单步中子部分宽度。
+\end{enumerate}
+
+必须指出，激发态 $i$ 经辐射 $\gamma$ 衰变退激到的中间态可能仍然位于 $S_n$ 或 $S_{2n}$ 之上，进而发生相继的中子发射；同理，发射一个中子后到达的孙核能级若处于孙核分离阈 $S_n^{(A-1)}$ 之上，亦可继续发射第二束中子。因此，局域单步中子分支比 $\Gamma_{xn}(i) / \Gamma_{\mathrm{tot}}(i)$ 一般不等于该态最终产生 $x$ 个中子的净几率。定义自激发态 $i$ 出发、经过所有可能相继级联路径最终吸收并准确发射 $x$ 个中子的\textbf{级联吸收概率}为 $\Pi_x(i)$。总的 $x$ 中子发射几率由条件概率分解给出：
+\begin{equation}\label{eq:4-7-conditional-probability}
+P_{xn} = \sum_{i, E_x(i) > S_{xn}} I_\beta(i) \Pi_x(i).
+\end{equation}
+仅在略去多步连续谱相继发射且假定阈上 $\gamma$ 衰变全部直达束缚态的简化单步极限下，才有 $\Pi_1(i) \approx \frac{\Gamma_n(i)}{\Gamma_{\mathrm{tot}}(i)}$。
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.85\textwidth]{Img/weak-cascade-competition.pdf}
+\caption{前驱母核 $(Z, N)$ 经 $\beta^-$ 衰变馈送至子核 $(Z+1, N-1)$ 高激发态后，在能量窗口 $Q_\beta - S_n$ 内中子发射通道与辐射退激通道的非相干统计级联竞争示意图（教学原理模型，非特定实验装置原始计数）。}\label{fig:weak-cascade-competition}
+\end{figure}
+
+式~\eqref{eq:4-7-conditional-probability} 与图~\ref{fig:weak-cascade-competition} 澄清了理论分析中的一个\textbf{关键认识误区}：
+\begin{quote}
+\textbf{动学能量窗口 $Q_{\beta n} \equiv Q_\beta - S_n$ 仅设定了单中子发射在能量守恒意义上的理论上限，绝非预测中子发射几率 $P_n$ 的充分公式。}
+\end{quote}
+即便子核能级位于中子分离阈值之上（$E_x(i) > S_n$），发射中子也并不具有绝对的必然性。如果激发能仅仅略微高出 $S_n$（出射中子能量极低），而由于初态能级与孙核低激发态之间的自旋宇称匹配要求中子必须携带较高的轨道角动量（如 $l=2$ 或 $l=3$），出射中子波函数将遭受离心势垒（Centrifugal Barrier $V_l = \frac{\hbar^2 l(l+1)}{2\mu r^2}$）的显著阻碍，导致中子发射受到明显抑制。此时，辐射 $\gamma$ 衰变仍然能够有效竞争，使核退激回到子核的束缚基态。此外，当跨越壳层闭合点时，单粒子能隙突变会导致 $Q_\beta$ 与 $S_n$ 发生阶跃式变化，使实际测量的中子发射概率呈现出非连续突变。
+
+在核数据评估与实验测量中，必须严格区分国际原子能机构（IAEA）参考数据库所规范的不同物理定义~\cite{dimitriou-2021-iaea-beta-delayed-neutron-database}：
+\begin{enumerate}
+\item \textbf{单中子发射几率 $P_{1n}$：} 每次前驱母核衰变中，恰好只发射 1 个中子的净分支几率：
+\begin{equation}\label{eq:4-7-P1n-def}
+P_{1n} = \sum_{i} I_\beta(i) \Pi_1(i);
+\end{equation}
+\item \textbf{全缓发中子发射总几率 $P_{\ge 1n}$（文献中常通称 $P_n$）：} 母核衰变发射至少 1 个中子的总几率：
+\begin{equation}\label{eq:4-7-P-atleast-1n-def}
+P_{\ge 1n} = \sum_{x \ge 1} P_{xn} = P_{1n} + P_{2n} + P_{3n} + \dots;
+\end{equation}
+\item \textbf{平均缓发中子多重度 $\langle M_n \rangle$：} 每次母核衰变平均释放的中子数目：
+\begin{equation}\label{eq:4-7-mean-multiplicity-def}
+\langle M_n \rangle = \sum_{x \ge 1} x P_{xn} = P_{1n} + 2 P_{2n} + 3 P_{3n} + \dots.
+\end{equation}
+\end{enumerate}
+当多中子发射道闭合时（$Q_\beta < S_{2n}$），$P_{1n} = P_{\ge 1n} = \langle M_n \rangle$；但在极丰中子核区，$P_{2n}$ 与 $P_{3n}$ 通道开启，三者的数值产生系统性偏离，数据分析时必须根据具体实验观测量进行精确映射。
+
+在此特别澄清中子发射的\textbf{时间尺度特征}：缓发中子发射中的“缓发（Delayed）”时间尺度完全由前驱母核的弱相互作用 $\beta$ 衰变半衰期（$T_{1/2}^\beta \sim \text{ms--s}$）所控制。一旦母核通过 $\beta$ 跃迁布居了子核的阈上激发态，强相互作用中子发射（$\tau_n \sim 10^{-16}\text{--}10^{-20}\text{ s}$）与电磁 $\gamma$ 辐射退激（$\tau_\gamma \sim 10^{-12}\text{--}10^{-15}\text{ s}$）在核时间尺度上均属于瞬发过程。
+
+在核谱学实验中，探测器记录的中子计数事件还受到探测阵列响应函数的调制。若中子探测器的单中子本禀探测效率为 $\epsilon_n$，在理想且无串扰的独立计数假定下，真实发出 $x$ 个中子而记录到 $y$ 个响应信号的条件响应概率遵循二项分布 $R_{y|x} = \binom{x}{y} \epsilon_n^y (1 - \epsilon_n)^{x-y}$。在实际实验中，从测量计数谱提取物理发射几率既可通过多维响应矩阵的非折叠（Unfolding）展开，亦可通过前向似然响应建模（Forward Likelihood Modeling）实现，两者在控制探测系统不确定度上互为补充。而在采用全吸收 $\gamma$ 谱仪（TAGS）测定前向馈送分布 $I_\beta(E_x)$ 时，必须引入中子-伽马甄别技术或配备对中子非敏感的探测晶体，以消除出射中子在探测介质中非弹性散射感应的本底干扰。
+
+\subsection{形变、配对与轻中微子 0\nu\beta\beta 矩阵元范围}\label{sec:4-7-3}
+
+作为微观多体波函数最极端的检验探针之一，无中微子双贝塔衰变（$0\nu\beta\beta$）若被实验证实，不仅将确立轻中微子的 Majorana 属性与轻子数不守恒（$\Delta L = 2$），更能对中微子有效质量标度施加直接约束。在标准的轻 Majorana 中微子交换机制下，$0\nu\beta\beta$ 的理论衰变半衰期通常参数化为：
+\begin{equation}\label{eq:4-7-0nubb-halflife}
+\left[ T_{1/2}^{0\nu} \right]^{-1} = G_{0\nu} g_A^4 |M_{0\nu}|^2 \left| \frac{\langle m_{\beta\beta} \rangle}{m_e} \right|^2,
+\end{equation}
+其中 $\langle m_{\beta\beta} \rangle \equiv |\sum_{j} U_{ej}^2 m_j|$ 为有效 Majorana 质量，$m_e$ 为电子静止质量，$G_{0\nu}$ 为轻子相空间因子，$M_{0\nu}$ 为微观核矩阵元（Nuclear Matrix Element, NME）~\cite{engel-menendez-2017-double-beta-matrix-elements-review}。需指出，式~\eqref{eq:4-7-0nubb-halflife} 仅适用于轻 Majorana 中微子交换假定；若衰变由重中微子交换或超对称相互作用介导，则其与微观质量的标度形式截然不同。
+
+关于耦合常数与相空间约定的符号规范：式~\eqref{eq:4-7-0nubb-halflife} 采用的是将轴矢量常数因子 $g_A^4$ 显式外提的传统写法。在部分文献中，相空间因子被定义为已吸收耦合常数的整体：$\widetilde{G}_{0\nu} \equiv G_{0\nu} g_A^4$。采用此类文献的相空间数值时，严禁重复乘入 $g_A^4$。微观核矩阵元本身通常分解为三个物理通道的算符积分：
+\begin{equation}\label{eq:4-7-NME-decomposition}
+M_{0\nu} = M_{0\nu}^{GT} - \left(\frac{g_V}{g_A}\right)^2 M_{0\nu}^F + M_{0\nu}^T,
+\end{equation}
+其中各通道矩阵元包含核子形状因子 $g_V(q^2)$ 与 $g_A(q^2)$。
+
+必须从第一性原理辨析\textbf{普通允许单 $\beta$ 衰变与 $0\nu\beta\beta$ 衰变在动量标度与算符结构上的根本差别}：
+\begin{enumerate}
+\item \textbf{外在轻子波长与内在虚中微子动量传递：}
+在允许单 $\beta$ 衰变中，释放的电子与反中微子均为实粒子，其典型动量极低（$|\mathbf{p}_{\mathrm{ext}}| \sim \text{数 MeV}/c$）。外在轻子德布罗意波长远大于原子核半径（$|\mathbf{p}_{\mathrm{ext}}| R / \hbar \ll 1$），跃迁完全处于长波长极限，探测的是接近零动量转移（$|\mathbf{q}| \approx 0$）下的点状单体算符。
+而在无中微子双贝塔衰变中，中微子完全在原子核内部两个核子之间虚交换。轻中微子坐标空间势表现为长程类库仑核 $H(r) \sim 1/r$，其对动量空间的积分使得\textbf{特征虚动量传递达到 $|\mathbf{q}| \sim 100\text{--}200\text{ MeV}/c$}，对应于核子间费米动量附近的近距离相互作用（$r \sim 1\text{--}2\text{ fm}$）。这并不意味着核子处于静止，而是反映了虚中微子传播子对大虚拟动量的宽广积分。
+\item \textbf{手征有效场论短程接触算符的重整化自洽性：}
+Cirigliano 等人（2018）基于手征有效场论的研究表明~\cite{cirigliano-2018-leading-short-range-double-beta}：当在非微扰框架下处理两个核子的 $^1S_0$ 强散射态时，若仅计入长程单中微子交换势，普通的强相互作用两核子接触项不足以吸收由此引入的紫外发散。为了保证理论计算在微观重整化群下的自洽性，必须在领头阶显式引入一个 $\Delta L = 2$ 的两核子短程接触算符（以低能常数 $g_\nu^{NN}$ 标定）。该短程算符源自高能自由度积分收缩，是保证重整化群自洽的必需项。必须注意：该接触项属于轻中微子交换机制内禀的自洽项，不可将其升级为“数值上必然主导矩阵元”的绝对论断，亦不可将其与单 $\beta$ 衰变中的普通两体弱轴矢量电流（2BC）同名混淆。
+\end{enumerate}
+
+原子核的微观波函数——特别是配对与形变——对 $M_{0\nu}$ 起着关键的调制与选择作用：
+\begin{itemize}
+\item \textbf{超流配对关联的相干性：} 双贝塔衰变将两个初态配对核子转换为两个末态配对核子。超流 BCS 凝聚态中同位旋矢量（$T=1$）核子对的相干叠加能够有效增大矩阵元；然而，若体系中存在较强的同位旋标量（$T=0$）质中配对竞争，不同配对道之间的干涉反而可能对矩阵元产生削弱效应。
+\item \textbf{四极形变错位的微观压制：} 多数候选双贝塔衰变核处于球形到形变的过渡区。若母核与子核在自洽能量曲面上表现出不同的形变极小（例如长椭球母核衰变到扁椭球或弱形变子核），初末态微观内禀波函数在形状坐标空间中将出现波包错位。这种内禀波函数重叠的减弱，会对核矩阵元产生显著的压制效应，其具体压制幅度高度依赖于所选用的微观形变模型。
+\item \textbf{反演非唯一性与微观不确定度：} 实验上测量到的双贝塔半衰期下限，是相空间、有效 Majorana 质量、有效轴矢量耦合 $g_A$ 以及多体波函数重叠共同作用的标量结果。在科学上，严禁从单一的半衰期测量值唯象反演局域形变参数 $\beta, \gamma$ 或确定的 $g_A$ 淬灭数值，必须结合电荷交换反应、双 Gamow-Teller 激发实验以及双核子转移反应等独立手段，对初末态的组态波函数施加协同约束。
+\end{itemize}
+
+\subsection{本节小结与微观探针接口}\label{sec:4-7-4}
+
+本节确立了弱相互作用作为低能原子核结构、壳演化与微观关联多维探针的理论图像：
+\begin{enumerate}
+\item \textbf{有限能窗与强度分布重塑：} 实测 $\beta$ 衰变速率受限于有限能窗 $Q_\beta$ 与微分相空间谱。CVC 假说仅保护零动量弱矢量荷；四极形变引起 Nilsson 轨道劈裂重构 GT 巨共振分布，而粒子-振动耦合（PVC）在闭壳核中能够解除泡利阻塞并开通低能衰变通道。在 $N=50, 82$ 区 GT 跃迁依然主导，而在一阶禁戒算符显著增强的 $N=126$ 区 FF 跃迁跃居主导地位。
+\item \textbf{缓发级联的两阶段统计竞争：} $\beta$ 缓发中子发射遵循条件概率分解式 $P_{xn} = \sum_i I_\beta(i) \Pi_x(i)$。能量差 $Q_\beta - S_n$ 仅设定理论上限，高于 $S_n$ 的能级仍面临离心势垒阻碍下的辐射 $\gamma$ 竞争退激；必须在定义与测量上严格区分单中子发射率 $P_{1n}$、全发射率 $P_{\ge 1n}$ 与平均中子多重度 $\langle M_n \rangle$。
+\item \textbf{高动量转移下 $0\nu\beta\beta$ 矩阵元特征：} $0\nu\beta\beta$ 虚中微子交换的特征虚动量转移达到 $|\mathbf{q}| \sim 100\text{--}200\text{ MeV}/c$（对应短程 $1\text{--}2\text{ fm}$），理论自洽性要求引入领头阶 $\Delta L = 2$ 短程接触算符；配对与形变错位对核矩阵元产生竞争性调制，不可由单一寿命结果反向推断唯一的形变或淬灭参数。
+\end{enumerate}
+
+本节建立的弱衰变理论模型，构筑了以下跨章理论接口：
+\begin{itemize}
+\item \textbf{对第4.8节（核天体物理反应网络与开放系统演化）：} 极丰中子核素的实际 $\beta$ 衰变半衰期与缓发中子多重度 $\langle M_n \rangle$，直接决定了宇宙超新星或双中子星并合中 $r$-过程元素的快中子俘获路径走向与产额峰位置分布；
+\item \textbf{对第5章（在束实验谱学技术链）：} 纳秒至微秒级延迟中子前驱母核的寿命特征，要求全吸收谱仪（TAGS）与大型中子探测阵列必须采用严格的脉冲波形甄别（PSD）、符合时间窗拓展与前向似然/非折叠展开算法，本节的统计级联理论直接构成了第5章实验测量设计的物理基石。
+\end{itemize}

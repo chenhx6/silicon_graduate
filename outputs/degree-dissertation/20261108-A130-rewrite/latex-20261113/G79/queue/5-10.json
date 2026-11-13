@@ -1,0 +1,30 @@
+{
+  "worker": "G79 Gemini/high",
+  "canonical_root": "raw/writing/gpt/A130/these_2023_template/these_template",
+  "execution": "One section at a time. After a draft+ledger+receipt is delivered, proceed to next independent contract without waiting for parent layout/science review. Apply later feedback narrowly; never overwrite parent-fixed accepted text from staging.",
+  "protected": "No commonBib/wrappers/compile/PLAN/memory/PADO/otherwriterfiles. Newrefs only G79/new-references-SECTION.bib for G76.",
+  "evidence": "Read actualprimary selected pages; exactfile/page_count/printedpage/item/shortanchor for each newcriticalclaim or numericalinput. No fabricatedPDFpages, no model/adopted/experiment mixing. Source/knowledge schemas andactualreadingscope; reuse alreadychecked claims rather than wholebooks.",
+  "writing": "Coherent readersteps, assumptions/units/rivals/failureconditions, no invented personalsetup/data. LaTeX direct, no literalMarkdown**; rawPythonstrings andC0 checks. Use Python SVG/PDF in Img only if explanatorygain, withuniqueproducer/manifestfragment; not every section needsafigure.",
+  "acceptance": "Parent checksactualclaims andsource-dependentmath; worker selfcertification/compileralone do not confer scientificacceptance.",
+  "section": "5.10",
+  "title": "统计推断与结果章接口",
+  "goal": "Providea practicalcoherentforwardmodel/uncertainty/reportinginterface forfuturepersonalresults withoutinventingthem.",
+  "sources": [
+    "Zhuexperimentalstatistics actualchapters",
+    "Hamilton nonlinearδinversion andexistingprofile-likelihoodnotes",
+    "accepted5.3/5.4/5.5/5.9 declareddata/producers"
+  ],
+  "requirements": [
+    "Beginrawcounts/response/background/nuisanceforwardmodel, positivity, binning/Poisson assumptions. Backgroundsubtracted orsymmetrized/sharedgatedcounts notautomatically independentPoisson. Ratios centralvaluescannotreconstructrawlikelihood.",
+    "Explain likelihood/profiling/Hessian covariance withmodel/regularity limits, nonlinearerrorpropagation andcorrelatedtau/branch/ICC/efficiency. Explicit JacobianandfullCov whenappropriate, notquadratureeverythingasindependent.",
+    "Multimodalδbranches/discreteIpi hypotheses/physicalboundaryB>=0/weakpeak canbreakGaussianandnaiveWilks. Profilelikelihood/calibratedsimulations/FeldmanCousinsconstruction/Bayesianposterior haveassumptions anddifferentinterpretations; no universal2deltaLLthreshold foranymodel. Priors andordering rules ifused aredeclared.",
+    "Calibration/controlregions/leave-outpredictions/alternativefeedmodels andresponsefunctions testedonthesamecalibratedbasis; datareuse/source-dependence recorded. Modeldisagreement notnecessarily newphysics; systematics andstatisticalerroridentitydifferent.",
+    "Resulttabletemplate can liststate/transition/observable/value-or-limit/covariance/dependence/modelconventions/source/conditions, withunknownpersonaldata absent. Do notfillfuturemeasurement/placeholderswithinventedcounts orclaimschoolsubmissionready.",
+    "No pointlessunit-tests mirroringformulas; ifanillustrativecomputation addsvalue useindependentnormalization/coverage/limitcheck. ReuseauditedCSV ratherthanrecomputingclosedtoy studies. Keepstatisticssubstantive butavoidrepeatingentirebook."
+  ],
+  "outputs": [
+    "Tex/Sections/sec-5-10.tex",
+    "latex-evidence-ledger/section-5-10.json",
+    "G79/section-5-10-*"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "worker": "G84",
+  "task": "Section 4.7 contract and source locator readiness",
+  "section_id": "4.7",
+  "title": "弱衰变与壳演化的互补探针",
+  "section_label": "sec:4-7",
+  "recorded_at": "2026-11-13T06:10:37.089757+00:00",
+  "status": "canonical-delivered-and-audited",
+  "central_question": "弱相互作用衰变在何种机制下充当了原子核壳层演化、形状形变与超流配对的灵敏互补探针？实验观测到的有限衰变能窗、缓发粒子发射与双贝塔衰变矩阵元，如何对微观多体波函数施加严格的物理约束？",
+  "reader_starting_point": "读者已在第2.2节掌握微观壳演化，在第2.3节掌握BCS准粒子配对，在第2.7节掌握截断模型空间中有效电磁与弱算符的重整化规范，在第4.6节掌握同核异能态多体波函数选择定则，在第5.9节掌握绝对跃迁率测量模型。",
+  "scope_and_architecture": {
+    "chapter": "第四章 六区的条件比较与两翼探针",
+    "role_in_dissertation": "作为两翼拓展探针的核心支柱之一，以弱衰变（GT/一阶禁戒、beta 缓发粒子发射、无中微子双贝塔衰变）为探针，横向检验跨同量异位素的微观单粒子壳演化、形变对能级拓扑的重塑、高激发态粒子/辐射统计退激竞争以及轻 Majorana 中微子交换下的核多体关联。",
+    "target_word_count_or_length": "完整深入推导，包含严格代数、量纲核验、失效反例与反方，约 4000–5500 汉字当量 LaTeX 正文。"
+  },
+  "retained_and_delegated_content": {
+    "retained_in_section_4_7": [
+      "全空间几何差和定则 3(N-Z) 与实际有限 Q_beta 衰变能窗的物理区分，以电子质量无量纲化的微分发射能谱推导",
+      "CVC 假说仅保护弱矢量流通道（Fermi 跃迁），不保护轴矢量与空间张量算符的适用范围界定",
+      "四极形变引起 Nilsson 轨道劈裂重构 GT 巨共振分布，以及粒子-振动耦合（PVC）在闭壳核中的解阻塞开通效应",
+      "一阶禁戒跃迁算符秩与空间对称性依赖：类时轴荷算符受软介子流相干介质增强，空间流算符淬灭",
+      "beta 缓发中子发射两阶段物理模型与条件概率分解式 P_{xn} = sum_i I_beta(i) [Gamma_{xn}(i) / Gamma_{tot}(i)]",
+      "纠正将 Q_beta - S_n 当作充分预测公式的认识误区，阐明 S_n 以上离心位垒阻碍与辐射 gamma 强竞争退激",
+      "严格界定单中子发射几率 P_{1n}、全发射几率 P_{>=1n} 与平均多重度 <M_n> 的标准物理定义与数据映射",
+      "轻 Majorana 中微子交换 0nu beta beta 衰变标准半衰期公式与 G_0nu/g_A^4 约定解耦",
+      "对比单 beta 长波零动量转移 (|p| ~ 0) 与 0nu beta beta 虚中微子高动量传递 (|p| ~ 100-200 MeV/c, r ~ 1-2 fm) 的本质差异",
+      "手征 EFT 中 Delta L = 2 短程接触算符的重整化群自洽性阐释（不夸大为数值必然主导，不与普通两体轴流混淆）",
+      "超流配对相干增强与母子核四极形变错位压制核矩阵元机制，阐明单一寿命反演微观参数的非唯一性与多探针交叉约束边界"
+    ],
+    "delegated_to_other_chapters": [
+      "天体物理 r-过程元素快中子俘获网络的大规模动力学演化与元素丰度峰计算移交第4.8节",
+      "在束中子全吸收谱仪（TAGS）与大型中子探测阵列的脉冲波形甄别（PSD）、符合时间窗与非折叠展开算法移交第5章"
+    ]
+  },
+  "primary_source_locators": [
+    {
+      "source_id": "dimitriou-2021-beta-delayed-neutron-reference-database",
+      "citation_key": "dimitriou-2021-iaea-beta-delayed-neutron-database",
+      "canonical": "P. Dimitriou et al., Nuclear Data Sheets 173, 144–238 (2021)",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-g52-beta-delayed-particles/dimitriou-2021-iaea-beta-delayed-neutron-database.pdf",
+      "raw_sha256": "ca0b475131704e33f6732163ef996467e630fbea88898dba73cc9f66e7f5684f",
+      "locator": "PDF p. 8: Eq.(1) P1n definition; PDF p. 11: multiplicity definitions P_{>=1n} and <M_n>; PDF p. 24: dependence on Q_betan window and breakdown when crossing shell closures",
+      "text_anchor": "PDF p. 8: Eq.(1) P1n definition; PDF p. 11: P_{>=1n} and <M_n>; PDF p. 24: Q_betan window"
+    },
+    {
+      "source_id": "cirigliano-2018-leading-short-range-double-beta",
+      "citation_key": "cirigliano-2018-leading-short-range-double-beta",
+      "canonical": "V. Cirigliano et al., Phys. Rev. Lett. 120, 202001 (2018)",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-t07-weak-renormalization/cirigliano-2018-prl120-202001-arxiv-1802.10097v1.pdf",
+      "raw_sha256": "c15e22bdb9c811e986493ff2a0b01f2794c8a33a6493b4ba6d62701525304996",
+      "locator": "PDF p. 1: 'Delta L = 2 contact operator with coupling gNN'; PDF p. 2: 'need to introduce a leading-order short-range operator'",
+      "text_anchor": "Delta L = 2 contact operator with coupling gNN"
+    },
+    {
+      "source_id": "engel-menendez-2017-double-beta-matrix-elements-review",
+      "citation_key": "engel-menendez-2017-double-beta-matrix-elements-review",
+      "canonical": "J. Engel & J. Menéndez, Rep. Prog. Phys. 80, 046301 (2017)",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-g48-weak-operators/engel-menendez-2017-rpp-0nubb-nme.pdf",
+      "raw_sha256": "813111c10bab58d8d0f19ca91833383a8a521a33c0434b276eacd4fead195417",
+      "locator": "PDF p. 4: Eq.(1) half-life formula and momentum transfer peaking at q ~ 100-200 MeV/c; PDF pp. 17–18: pairing enhancement and deformation suppression",
+      "text_anchor": "typical momentum transferred is of the order of p ~ 100 MeV/c... short-range operator"
+    },
+    {
+      "source_id": "doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives",
+      "citation_key": "doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives",
+      "canonical": "Q. Zhi et al., Phys. Rev. C 87, 025803 (2013)",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G34/Zhi_2013_PRC_87_025803_SM_halflives_first_forbidden.pdf",
+      "raw_sha256": "eaedbd4539854e3d1f0e7860ef7ab9c647d4fa44cd8144b4989ba220ec639333",
+      "locator": "PDF p. 2: Eq.(4) differential spectrum; PDF p. 4: Eq.(16) first-forbidden operators of rank 0, 1, 2",
+      "text_anchor": "q(xi' v) = 1.266, q(x) = q(x') = 0.51, q(u) = q(u') = 0.38"
+    },
+    {
+      "source_id": "wang-2026-axial-coupling-quenching-joint-effects",
+      "citation_key": "wang-2026-axial-coupling-quenching-joint-effects",
+      "canonical": "Bin-Lei Wang et al., arXiv:2605.21218v1 (2026)",
+      "raw_file": "raw/papers/gpt/query/20261113-A130-axial-currents/wang-2026-arxiv2605.21218v1.pdf",
+      "raw_sha256": "64b8098517bdf4754ff71d80ab4256aab77102aaa9257390f99db1b3788c0c8d",
+      "locator": "PDF p. 4 Table I / Eq.(5) unblocking via PVC in closed-shell nuclei",
+      "text_anchor": "Summary– We have studied the quenching of the axial-vector current coupling constant gA in beta-decay"
+    }
+  ]
+}

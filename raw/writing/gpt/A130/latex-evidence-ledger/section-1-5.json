@@ -4,7 +4,7 @@
   "target_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-5.tex",
   "input_draft_path": null,
   "input_sha256": "new-written-section",
-  "output_sha256": "10d22975760ed742b44fdecd5be48cee7179e4bc404ed603d017e6c22ef716bb",
+  "output_sha256": "93927c6aff63b17821a41b8027741565e4bea86b1ad22fae7d1a1876e5029479",
   "recorded_at": "2026-11-13T01:55:51.221636+00:00",
   "executor": "G77",
   "new_claims_and_arguments": [
@@ -64,6 +64,8 @@
     "个人实验成果由于当前处于前置导读与理论基础综述阶段，遵循边界合同未作虚构宣称，待后续特定核素专章接入真实实验数据"
   ],
   "target_sha256": "10d22975760ed742b44fdecd5be48cee7179e4bc404ed603d017e6c22ef716bb",
-  "parent_final_tex_sha256": "10d22975760ed742b44fdecd5be48cee7179e4bc404ed603d017e6c22ef716bb",
-  "integration_status": "included-in27-section-clean-preview"
+  "parent_final_tex_sha256": "93927c6aff63b17821a41b8027741565e4bea86b1ad22fae7d1a1876e5029479",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-5.tex",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
 }

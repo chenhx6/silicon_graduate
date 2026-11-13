@@ -1,0 +1,33 @@
+{
+  "section_id": "4.5",
+  "title": "Br/As与其它核区的反射—手征问题",
+  "section_label": "sec:4-5",
+  "contract_status": "completed-canonical-delivered",
+  "executor": "G85 (Gemini Tiered/high)",
+  "timestamp": "2026-11-13T16:30:00+00:00",
+  "execution_domain": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G85/",
+  "target_canonical_paths": {
+    "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-5.tex",
+    "tex_sha256": "32bfc3d064ffc155e81a2563bb35b1d541add539ac397b5434b51e001a373d39",
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-5.json",
+    "ledger_sha256": "df52ad4cfc9416ed4b67d1d8c72779a906a39dda30bf2f2b2384c5cb988a443c"
+  },
+  "predecessor_sections": [
+    "2.5",
+    "3.5"
+  ],
+  "successor_sections": [
+    "4.7",
+    "5.9"
+  ],
+  "central_question": "四条带是否属于同一组四个伙伴状态？如何从实际观测网络拓扑、算符对称性本质与D0反演链条解剖反射-手征假象？",
+  "deliverables": [
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-5.tex",
+    "raw/writing/gpt/A130/latex-evidence-ledger/section-4-5.json",
+    "raw/writing/gpt/A130/these_2023_template/these_template/Img/br-as-network-topology.pdf",
+    "raw/writing/gpt/A130/these_2023_template/these_template/Img/br-as-network-topology.svg",
+    "system/scripts/a130_br_as_network_figure.py",
+    "knowledge/research-notes/a130-rewrite-br-as-parity-chiral-evidence-20261113.md",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G85/new-references-4-5.bib"
+  ]
+}

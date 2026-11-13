@@ -1,0 +1,88 @@
+{
+  "section": "4.7",
+  "status": "parent-content-accepted;typesetting-pending",
+  "session_date": "2026-11-14",
+  "observed_machine_utc": "2026-11-13T19:12:55.686334+00:00",
+  "source_hash_checks": [
+    {
+      "source": "dimitriou-2021-beta-delayed-neutron-reference-database",
+      "path": "raw/papers/gpt/query/20261108-r3-g52-beta-delayed-particles/dimitriou-2021-iaea-beta-delayed-neutron-database.pdf",
+      "sha256": "ca0b475131704e33f6732163ef996467e630fbea88898dba73cc9f66e7f5684f",
+      "match": true
+    },
+    {
+      "source": "cirigliano-2018-leading-short-range-double-beta",
+      "path": "raw/papers/gpt/query/20261108-r3-t07-weak-renormalization/cirigliano-2018-prl120-202001-arxiv-1802.10097v1.pdf",
+      "sha256": "c15e22bdb9c811e986493ff2a0b01f2794c8a33a6493b4ba6d62701525304996",
+      "match": true
+    },
+    {
+      "source": "engel-menendez-2017-double-beta-matrix-elements-review",
+      "path": "raw/papers/gpt/query/20261108-r3-g48-weak-operators/engel-menendez-2017-rpp-0nubb-nme.pdf",
+      "sha256": "813111c10bab58d8d0f19ca91833383a8a521a33c0434b276eacd4fead195417",
+      "match": true
+    },
+    {
+      "source": "doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives",
+      "path": "raw/papers/gpt/query/20261108-foundations-G34/Zhi_2013_PRC_87_025803_SM_halflives_first_forbidden.pdf",
+      "sha256": "eaedbd4539854e3d1f0e7860ef7ab9c647d4fa44cd8144b4989ba220ec639333",
+      "match": true
+    },
+    {
+      "source": "wang-2026-axial-coupling-quenching-joint-effects",
+      "path": "raw/papers/gpt/query/20261113-A130-axial-currents/wang-2026-arxiv2605.21218v1.pdf",
+      "sha256": "64b8098517bdf4754ff71d80ab4256aab77102aaa9257390f99db1b3788c0c8d",
+      "match": true
+    },
+    {
+      "source": "book-suhonen-from-nucleons-to-nucleus",
+      "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "match": true
+    }
+  ],
+  "primary_checks": [
+    "Suhonen actualPDF552/554/556,17.63–17.84 closure/activeparticles",
+    "ZhiPDF4Eq16 q factors,PDF5Cd13%,PDF7NiFF<5%,PDF9/11reportedN=82/126scope",
+    "Cirigliano actualPDF2Eq4/PDF3Eq15/PDF4C1+C2 mapping",
+    "Wang v1 source/nucleus/interaction/Qwindow boundaries inherited directly verified2.7 andT21",
+    "R3 maintextallread; beta/GTnormalization, ECthreshold,Pi_(x-r)terminaldelta andnonbetachannels checked",
+    "Finalweakfigure rerendered andvisuallychecked"
+  ],
+  "unit_control": "K0 usingdeclaredGF/Vud/me gives6291.768884s; differs fromeffectiveK6146bydefinition.",
+  "parent_narrow_changes": [
+    "AllS_mp/f_mp/t_mp same sign, initialRME average appears once.",
+    "FF operatorlist is schematic tensor/parity structure, c=1 withsource-specificradialnormalization, not sums ofdifferentunits.",
+    "Beta/post-beta markov cascade assumes separatedweakfeeding/incoherentnonnegativewidths; no universalpostbeta lifetime range.",
+    "Contactpotential useslocalt_-t_- andstripsweak/leptonicfactors, notratespacephasefactor.",
+    "Schematicfigure hasactualthresholdfeeding andterminatedneutronarrows, no numericalQoruniversallifetimes; separatecolumnenergyzero explicit."
+  ],
+  "artifacts": [
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-7.tex",
+      "sha256": "f7199940cc9592c2ab17f81570602d8186b7105f5dec764188ca97a2d8ca123f",
+      "size": 31785
+    },
+    {
+      "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-7.json",
+      "sha256": "cd1ed3da92858b49277c3b7e62efb8e6fa65eb8f4edd45021049fa6be9369b66",
+      "size": 18458
+    },
+    {
+      "path": "system/scripts/a130_weak_cascade_figure.py",
+      "sha256": "90664fadb7cde59535d500701ffc4aa6cb2f55cf8020fe930e7afae51ed0c75f",
+      "size": 6137
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/weak-cascade-competition.svg",
+      "sha256": "5b09178cf9b2699f73d0e5adad62943c0c2aeb61bef70bcc2b31f2fd0531b463",
+      "size": 87123
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/weak-cascade-competition.pdf",
+      "sha256": "edc6bf71af761fb2c486b9eb05b56d62e117098ec1ae6a52dfbee06d26c724c2",
+      "size": 42216
+    }
+  ],
+  "boundary": "No personal measurement, universalquenchingoruniquelyinferredNME; D remains separatelyunaccepted."
+}

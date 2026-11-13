@@ -1,0 +1,43 @@
+{
+  "task_id": "G99",
+  "agent_id": "01a1d4a1-c1d0-76d1-9ea4-f16c26f8873c",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "reasoning_effort": "high",
+  "state": "ready",
+  "rationale": "Disjoint final detector-response section in parallel with parent audit and G93 statistics/analysis sections; reuses open Gemini reader thread.",
+  "isolation": "protocol-only shared workspace; exact write scopes, no sandbox claim",
+  "section": "5.2",
+  "goal": "Repair current detector-response draft against actual primary pages and all six 52-* parent requirements. Deliver one scientifically traceable section, not generic textbook summary.",
+  "canonical_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-2.tex",
+  "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-2.json",
+  "write_scope": [
+    "G99 receipt/staging/new-reference files",
+    "sec-5-2.tex",
+    "section-5-2.json",
+    "new 5.2 knowledge note if needed"
+  ],
+  "read_only_dependencies": [
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G79/parent-return-methods-round2.json",
+    "sec-5-7.tex",
+    "appendix-F.tex",
+    "book source files and raw primary files"
+  ],
+  "forbidden": [
+    "public Bib",
+    "other sections",
+    "sources owned by parent",
+    "public PDF",
+    "git staging/commit/push",
+    "other manuscripts"
+  ],
+  "acceptance": [
+    "all 52-1..52-6 independently checked",
+    "precise existing raw/version/sha/page locator",
+    "conditional/full normalization and noise covariance correct",
+    "polarization a convention matches5.7",
+    "no unknown hardware/experiment claims",
+    "proposed references preserve actual metadata",
+    "independent receipt then stop"
+  ],
+  "created_at": "2026-11-13T17:52:22.603379+00:00"
+}

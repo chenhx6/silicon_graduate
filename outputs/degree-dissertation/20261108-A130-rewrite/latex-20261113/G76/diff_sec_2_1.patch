@@ -1,0 +1,8 @@
+--- a/Tex/Sections/sec-2-1.tex
++++ b/Tex/Sections/sec-2-1.tex
+@@ -1 +1,5 @@
+-根据矩阵元的共轭性质 $\langle a I_a M_a | T_{\lambda\mu} | b I_b M_b \rangle = (-1)^\mu \, \langle b I_b M_b | T_{\lambda, -\mu} | a I_a M_a \rangle^*$，代入 Wigner–Eckart 定理并结合 $3j$ 符号在列置换下的代数对称性 $\begin{pmatrix} I_b & \lambda & I_a \\ -M_b & -\mu & M_a \end{pmatrix} = \begin{pmatrix} I_a & \lambda & I_b \\ -M_a & \mu & M_b \end{pmatrix}$，可导出约化矩阵元在初末态互换下的共轭对称关系：+根据矩阵元的共轭性质 $\langle a I_a M_a | T_{\lambda\mu} | b I_b M_b \rangle = (-1)^\mu \, \langle b I_b M_b | T_{\lambda, -\mu} | a I_a M_a \rangle^*$，代入 Wigner–Eckart 定理并结合 $3j$ 符号在列置换下的代数对称性
++\begin{equation*}
++\begin{pmatrix} I_b & \lambda & I_a \\ -M_b & -\mu & M_a \end{pmatrix} = \begin{pmatrix} I_a & \lambda & I_b \\ -M_a & \mu & M_b \end{pmatrix},
++\end{equation*}
++可导出约化矩阵元在初末态互换下的共轭对称关系：

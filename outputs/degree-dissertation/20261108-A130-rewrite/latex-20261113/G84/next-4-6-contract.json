@@ -1,0 +1,60 @@
+{
+  "worker": "G84",
+  "task": "Section 4.6 preparatory contract (waiting for parent detailed contract)",
+  "section_id": "4.6",
+  "title": "异能态对波函数的选择",
+  "section_label": "sec:4-6",
+  "recorded_at": "2026-11-13T04:50:08.310915+00:00",
+  "status": "preparatory-contract-staged-waiting-for-parent-start",
+  "central_question": "同核异能态的四大物理机制（自旋陷阱、Seniority 异能态、K 异能态、形状异能态）如何对多体波函数的特定微观组态施加选择定则？三轴非轴对称形变引入 K 混合后，为何不必然消灭高 K 跃迁的阻碍度？",
+  "reader_starting_point": "读者已在第2章掌握了微观组态、有效电磁跃迁算符、球张量与角动量耦合；在第3章掌握了三轴转动、集体摆动与手征对称性；在第4.1–4.5节掌握了全核区质量坐标下的形变与集体演化比较。",
+  "scope_and_architecture": {
+    "chapter": "第四章 六区的条件比较与两翼探针",
+    "role_in_dissertation": "作为两翼拓展探针的核心支柱之一，以低能同核异能态（Nuclear Isomers）的长寿命成因为实验探针，反演微观波函数对单粒子轨道填充、Seniority 代数对称性、轴对称/三轴形变 K 量子数纯度以及核裂变位垒双峰结构的选择性响应。",
+    "target_word_count_or_length": "深度剖析与严谨代数，约 4000–5500 汉字当量 LaTeX 正文。"
+  },
+  "retained_and_delegated_content": {
+    "retained_in_section_4_6": [
+      "同核异能态的四大基本物理机制分类：自旋陷阱（Spin Traps）、Seniority 异能态、K 异能态与形状异能态（Shape Isomers）",
+      "单 j 壳层 Seniority 代数方案中一体 E2 跃迁矩阵元的半满壳相消定理推导：<j^n v J || M(E2) || j^n v J'> 正比于 (2j + 1 - 2n) / (2j + 1 - 2v)，在半满壳 n = (2j+1)/2 处严格为零，解释 130Sn (h_11/2) 与 214Pb (g_9/2) 8+ 异能态的长寿命",
+      "轴对称变形核中 K 守恒与电磁跃迁选择定则 Delta K <= lambda，禁戒度 nu = Delta K - lambda 与折合阻碍度 f_nu = (T_gamma / T_W)^{1/nu} 的幂律标度",
+      "三轴非轴对称形变与 K 混合动力学：说明三轴形变打破 K 守恒引入不同 K 分量混合，但阻碍度并不必然消失（阻碍度取决于初末态主组态之间低 K 杂化振幅的模方衰减）",
+      "形状异能态与斯楚廷斯基（Strutinsky）双峰裂变位垒：超形变第二极小（Ex ~ 2-3 MeV）中的隧穿阻碍与异能裂变/延迟 gamma 衰变分支竞争"
+    ],
+    "delegated_to_other_chapters": [
+      "准自旋 SU(2) 李代数多壳层广义 Seniority（Generalized Seniority）的严格张量证明与分数母系数递推公式移交附录 D",
+      "天体物理 r-过程等待点核异能态的热平衡激发与反应网络（如 180Ta 与 176Lu）移交第4.8节",
+      "激发态微秒至纳秒寿命的在束 RDM、DSAM 及电子学定时 DAQ 技术移交第5章"
+    ]
+  },
+  "key_formulas_and_conventions": {
+    "seniority_e2_cancellation": "<j^n v J || M(E2) || j^n v J'> = [(2j + 1 - 2n) / (2j + 1 - 2v)] <j^v v J || M(E2) || j^v v J'>",
+    "k_forbiddenness_degree": "nu = |K_i - K_f| - lambda = Delta K - lambda (nu > 0 时为 K 禁戒跃迁)",
+    "weisskopf_hindrance_factor": "F_W = T_{1/2}^gamma(exp) / T_{1/2}^gamma(W) = B_W(sigma lambda) / B(sigma lambda)",
+    "reduced_hindrance_per_degree": "f_nu = (F_W)^{1/nu} = [T_{1/2}^gamma(exp) / T_{1/2}^gamma(W)]^{1/nu} (经验上常落在 10–100 范围)"
+  },
+  "primary_source_locators": [
+    {
+      "source_id": "book-jain-nuclear-isomers",
+      "citation_key": "book-jain-nuclear-isomers",
+      "canonical": "A. K. Jain, B. Maheshwari, and A. Goel, Nuclear Isomers: A Primer (Springer Nature, 2021)",
+      "raw_file": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+      "raw_sha256": "994816561cfb6e89bd215b7fe23e37ecf12e8a3e8f5ce88eafbbd388d02ed74a",
+      "locator": "Chapter 3 (pp. 19–36) Spin traps; Chapter 4 (pp. 37–60) Seniority isomers & Eq.(4.18) mid-shell cancellation; Chapter 5 (pp. 61–88) K-isomers & Eq.(5.2) reduced hindrance; Chapter 6 (pp. 89–112) Shape isomers & double-humped barriers",
+      "text_anchor": "B(E2) values vanish at the middle of the shell for delta v = 0 transitions"
+    },
+    {
+      "source_id": "continuation-g18-lukasiak-1979-191ir-triaxial-rotor",
+      "citation_key": "continuation-g18-lukasiak-1979-191ir-triaxial-rotor",
+      "canonical": "A. Lukasiak et al., Nucl. Phys. A 313, 191 (1979)",
+      "raw_file": "raw/papers/gpt/query/20261108-continuation-G18/lukasiak-1979-191ir-triaxial.pdf",
+      "raw_sha256": "3e9b1bb54cb046d3e8e2eb3e4558e8b0931bbba5848bb0170a41753bb4b8b6e3",
+      "locator": "PDF pp. 3–7, triaxial rotor plus quasi-particle model in 191Ir and K-mixing amplitudes",
+      "text_anchor": "asymmetric rotor model with particle-core coupling"
+    }
+  ],
+  "reader_checks_and_failure_conditions": [
+    "反方检查1：三轴形变使 K 不再是严格好量子数，为什么实验上在三轴核或软变形核中仍能观察到高 K 异能态？（答：K 混合取决于非轴对称参数 gamma 诱导的非对角矩阵元大小；若主导组态间的波函数交叠很小，高 K 与低 K 基底间的隧穿杂化振幅平方仍然很弱，因而依然保持显著的有效阻碍）",
+    "反方检查2：原子核寿命长是否等同于在核反应中具有大合成产额？（答：否，寿命属于内禀激发态衰变动力学，产额由入射道反应势垒穿透截面与复合核中子蒸发/裂变竞争存活概率决定，二者物理机制完全独立）"
+  ]
+}

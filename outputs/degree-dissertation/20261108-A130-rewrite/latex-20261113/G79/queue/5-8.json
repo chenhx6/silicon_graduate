@@ -1,0 +1,30 @@
+{
+  "worker": "G79 Gemini/high",
+  "canonical_root": "raw/writing/gpt/A130/these_2023_template/these_template",
+  "execution": "One section at a time. After a draft+ledger+receipt is delivered, proceed to next independent contract without waiting for parent layout/science review. Apply later feedback narrowly; never overwrite parent-fixed accepted text from staging.",
+  "protected": "No commonBib/wrappers/compile/PLAN/memory/PADO/otherwriterfiles. Newrefs only G79/new-references-SECTION.bib for G76.",
+  "evidence": "Read actualprimary selected pages; exactfile/page_count/printedpage/item/shortanchor for each newcriticalclaim or numericalinput. No fabricatedPDFpages, no model/adopted/experiment mixing. Source/knowledge schemas andactualreadingscope; reuse alreadychecked claims rather than wholebooks.",
+  "writing": "Coherent readersteps, assumptions/units/rivals/failureconditions, no invented personalsetup/data. LaTeX direct, no literalMarkdown**; rawPythonstrings andC0 checks. Use Python SVG/PDF in Img only if explanatorygain, withuniqueproducer/manifestfragment; not every section needsafigure.",
+  "acceptance": "Parent checksactualclaims andsource-dependentmath; worker selfcertification/compileralone do not confer scientificacceptance.",
+  "section": "5.8",
+  "title": "DSAM与RDDS的时间信息",
+  "goal": "Derive what timinginformation isencodedinDopplerresponse orflightdistance andwhichnuisanceinputs preventdirectreading oflifetime.",
+  "sources": [
+    "ActualDSAM/RDDS/DDCMmethodpapers fromlocalarchive",
+    "Wu/nuclear-experimental-methods actualpages",
+    "accepted5.1feedkernel and5.9meanlife conventions"
+  ],
+  "requirements": [
+    "Definetau meanlife vsT1/2=tauln2. Doppler exactlabangleformula Eobs=E0/[gamma(1−beta cos(theta_lab))], lowbeta E≈E0(1+beta cosθ); do notmixrest-frameanglewithlabangleformula.",
+    "DSAM lineprofile isemissiontimeweighted slowing/straggling/velocityangle distribution convolvedwithdetectorresponse, geometry, branchandfeeding. Stoppingpower/material/density/targetdepth nuisance canmimictau; no universallifetimemeasuringrange orone-to-oneF(tau) withoutfixedmodel.",
+    "RDDS distance d/v mapsflighttime only withspecifiedvelocity anddistancezero. Stoppervsdegraderdifferent afterfoilvelocity; shifted/unshifted components notalwaysv/0. Idealonelevelconstantv survival R_u=exp[−d/(v tau)] isdeclaredteachinglimit, notfullDDCM analysis.",
+    "IfDDCMformula included derivefromactualpaperandnormalizeintensities/feeding/gates consistently; do notguessderivativeratio. Distance-dependent yield/attenuation/branchanddetectoracceptance needcontrol.",
+    "Above-state gate canselectknownfeedingroutes underDDCMconditions, notautomaticallyremoveallwaiting times/contamination. Compare DSAM/RDDS/fasttiming/controlsinappropriateunknownlifetimerange, notanysingletechnique asuniversalsolution.",
+    "Reportbroad/limited/no-sensitivity/upperorlowerlimits honestly; modelresolutiontime andphysicaltau aredifferent. Ifteachingplot useknown syntheticinput/producer butnotuserexperimentalprofile."
+  ],
+  "outputs": [
+    "Tex/Sections/sec-5-8.tex",
+    "latex-evidence-ledger/section-5-8.json",
+    "G79/section-5-8-*"
+  ]
+}

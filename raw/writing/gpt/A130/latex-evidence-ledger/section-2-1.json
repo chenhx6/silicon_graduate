@@ -147,5 +147,7 @@
   ],
   "target_sha256": "cce29838eadc2eb20dcaef4a795334cf625f12332caf8e4d9448e510ca1f34ba",
   "parent_final_tex_sha256": "cce29838eadc2eb20dcaef4a795334cf625f12332caf8e4d9448e510ca1f34ba",
-  "integration_status": "included-in27-section-clean-preview"
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-1.tex",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
 }

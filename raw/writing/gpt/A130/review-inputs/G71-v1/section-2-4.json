@@ -1,0 +1,119 @@
+{
+  "section_id": "2.4",
+  "title": "形状坐标、测度与集体量子化",
+  "version": "V1",
+  "recorded_at": "2026-11-08T01:55:09.344862+00:00",
+  "created_at": "2026-11-08T01:55:09.344862+00:00",
+  "updated_at": "2026-11-08T01:56:43.635087+00:00",
+  "status": "draft-completed",
+  "argument_outline": [
+    "在宏观集体模型中，原子核低能表面形变通常由五维二阶实张量 \\alpha_{2\\mu} 描述，通过引入瞬时内禀主轴系，五个实验室坐标被严格分解为表征内禀椭球形状的两个形变参数 (\\beta, \\gamma) 以及指定空间主轴取向的三个欧拉角 \\Omega = (\\phi, \\theta, \\psi)。",
+    "主轴系的选取存在 24 重分立右手系坐标标定冗余，结合反射对称性将全形变平面划分为 6 个等价的 60° 扇区，通常选取 0 \\le \\gamma \\le \\pi/3 作为基本形状物理扇区；在球形点 \\beta=0 与轴对称端点 \\gamma = 0, \\pi/3，主轴取向失去唯一定义，表现为坐标奇点。",
+    "在假定常数质量参数 B 的经典五维欧氏四极 Bohr 模型中，体系动能严格解耦为形状振动动能与绕瞬时主轴的转动动能，流体力学无旋流动导出的转动惯量张量 \\mathcal{J}_k = 4B\\beta^2 \\sin^2(\\gamma - 2\\pi k/3) 依赖于形变平方与形状角，且质量参数 B 具有 \\hbar^2/\\text{Energy} 的微观惯量量纲，严格区别于电荷四极矩的带电量纲。",
+    "依据 Pauli–Podolsky 微分几何量子化法则，曲面坐标变换的雅可比行列式自然诱导了弯曲流形上的不变黎曼测度 \\mathrm{d}\\tau \\propto \\beta^4 |\\sin 3\\gamma| \\mathrm{d}\\beta \\mathrm{d}\\gamma \\mathrm{d}\\Omega，使量子动能算符表述为该测度下的自伴 Laplace–Beltrami 算符；该测度是常 B 模型的特有形式，不能无条件推广至包含六个坐标相关质量函数的广义微观集体模型。",
+    "物理波函数在 (\\beta, \\gamma) 空间中的全概率归一必须严格包含几何测度因子，测度中 |\\sin 3\\gamma| 的存在使得在关于 \\gamma 完全平坦的极软势阱（Wilets–Jean 极限）中，基态几率密度天然在 \\gamma = 30° 处取得极大值，给出与刚性三轴核完全相同的 \\langle\\cos 3\\gamma\\rangle = 0 和 \\gamma_{\\text{eff}} = 30°，表明静态低阶矩与平均角不能单独作为判定三轴刚性或动力学软性的充分判据。",
+    "在轴对称端点 \\gamma = 0, \\pi/3，坐标微分方程退化为以 x = \\cos 3\\gamma 为自变量的 Legendre 型方程，边界处由于坐标奇点所施加的物理要求是波函数的解析正规性与边界概率流为零，而非人为强行令波函数为零；正确区分 24 重主轴标定变换群 O 与椭球二面体点群 D_2 或 D_{2h}，为偶偶核与奇 A 核集体量子态的对称性分类确立了精确的几何基础。"
+  ],
+  "sources": [
+    {
+      "source_id": "bohr-1952-surface-particle-coupling",
+      "source_page": "knowledge/sources/bohr-1952-surface-particle-coupling.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-1952-mfm26-14.pdf",
+      "raw_sha256": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d",
+      "actual_read_pages": "printed pp. 9–13, 19–21 (PDF pp. 9–13, 19–21); coordinate definitions (10)–(13), kinetic energy splitting (19)–(27), 24-fold coordinate transformations (56)–(64), I=0 ground state (65)–(71)"
+    },
+    {
+      "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+      "source_page": "knowledge/sources/prochniak-rohozinski-2009-bohr-collective-hamiltonian.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/manifest.json",
+      "raw_sha256": "9afdb6573cb302fb18ae0eb3914d0c51afbbbdf5b9984f0400bf784e40b5ca63",
+      "actual_read_pages": "prochniak-rohozinski-2009-v1.pdf pp. 2–5, 12–16; Eqs. (2.3)–(2.11), (3.1)–(3.15); general six inertia functions, metric determinant G, and Pauli-Podolsky quantization"
+    }
+  ],
+  "claims": [
+    {
+      "text": "五维四极坐标向内禀形状参数 (\\beta, \\gamma) 与三个欧拉角的变换存在 24 重分立右手系主轴标定冗余，将形变平面划分为 6 个等价的 60° 扇区；在 \\beta=0 与轴对称端点 \\gamma = 0, \\pi/3，主轴取向退化，属于坐标网格奇点而非真实物理边界截断。",
+      "kind": "geometric-and-coordinate-definition",
+      "source_id": "bohr-1952-surface-particle-coupling",
+      "locator": "Bohr 1952 printed pp. 9–11, 19–20; Eqs. (10)–(13), (56)–(61)",
+      "conditions": "假定四极形变为主导阶，核表面形状由二阶球谐展开表征，瞬时主轴系选为右手笛卡尔系"
+    },
+    {
+      "text": "常正质量参数 B 的经典五维欧氏 Bohr 模型中，体系动能严格解耦为形状振动动能与绕瞬时主轴的转动动能，流体转动惯量 \\mathcal{J}_k = 4B\\beta^2 \\sin^2(\\gamma - 2\\pi k/3)；惯量参数 B 具有 \\hbar^2/\\text{Energy} 的量纲，不含电荷四极矩的带电量纲。",
+      "kind": "classical-kinetic-energy-derivation",
+      "source_id": "bohr-1952-surface-particle-coupling",
+      "locator": "Bohr 1952 printed pp. 11–13; Eqs. (19)–(28)",
+      "conditions": "不可压缩液滴无旋流动假设，常数质量参数 B，忽略振动与转动交叉项（由主轴坐标消去）"
+    },
+    {
+      "text": "Pauli–Podolsky 量子化导出的黎曼不变测度在常 B 模型下为 \\mathrm{d}\\tau \\propto \\beta^4 |\\sin 3\\gamma| \\mathrm{d}\\beta \\mathrm{d}\\gamma \\mathrm{d}\\Omega；量子动能算符表述为自伴 Laplace–Beltrami 算符；该测度是常 B 欧氏空间的特有形式，广义含六个微观质量函数的模型中测度包含额外的微观质量行列式权重 \\sqrt{G}。",
+      "kind": "quantum-operator-and-measure",
+      "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+      "locator": "Próchniak & Rohoziński 2009 PDF pp. 4–5, 13–16; Eqs. (2.9), (3.1)–(3.15)",
+      "conditions": "五维流形上的微分几何量子化，假定算符在加权希尔伯特空间中保持厄米性"
+    },
+    {
+      "text": "波函数概率归一必须包含几何测度因子；在 \\gamma 极软势阱（Wilets–Jean 极限）中，基态波函数对 \\gamma 平坦，但测度中 |\\sin 3\\gamma| 使得概率密度在 \\gamma = 30° 处形成几何峰，给出 \\langle\\cos 3\\gamma\\rangle = 0 与 \\gamma_{\\text{eff}} = 30°；平均角 30° 并不唯一对应刚性三轴核。",
+      "kind": "measure-induced-statistical-softness",
+      "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+      "locator": "Próchniak & Rohoziński 2009 PDF pp. 5, 14–15; 结合 R1/T03 results.csv",
+      "conditions": "五维四极欧氏空间测度，I=0 标量基态"
+    },
+    {
+      "text": "在轴对称端点 \\gamma = 0, \\pi/3，坐标方程的微分算符呈现为 Legendre 型，边界处要求波函数满足解析正规性与边界流为零，不能人为将波函数强行截断为零；主轴标定变换群 O（阶数 24）严格区别于单椭球的二面体点对称群 D_2（阶数 4）与 D_{2h}（阶数 8）。",
+      "kind": "boundary-regularity-and-symmetry-groups",
+      "source_id": "bohr-1952-surface-particle-coupling",
+      "locator": "Bohr 1952 printed pp. 19–21; Eqs. (56)–(66)",
+      "conditions": "波函数在单值实验室四极坐标 \\alpha_{2\\mu} 下必须为单值且满足二阶自伴算符正规条件"
+    }
+  ],
+  "equations": [
+    {
+      "name": "Bohr 四极内禀坐标变换",
+      "convention": "a_0 = \\beta \\cos\\gamma, \\quad a_2 = a_{-2} = \\frac{1}{\\sqrt{2}}\\beta \\sin\\gamma, \\quad a_{\\pm 1} = 0",
+      "derivation": "由主轴坐标系消除剪切分量 a_{\\pm 1} = 0 及虚部 b_2 = 0 得到，满足 \\sum_\\mu |\\alpha_{2\\mu}|^2 = a_0^2 + 2 a_2^2 = \\beta^2",
+      "limit": "当 \\gamma = 0 时为绕 z' 轴对称的长椭球；当 \\gamma = \\pi/3 时为绕 y' 轴对称的扁椭球；当 \\gamma = \\pi/6 时为最大三轴形变"
+    },
+    {
+      "name": "经典动能与流体惯量张量",
+      "convention": "T = \\frac{1}{2}B(\\dot{\\beta}^2 + \\beta^2 \\dot{\\gamma}^2) + \\frac{1}{2} \\sum_{k=1}^3 \\mathcal{J}_k \\omega_k^2, \\quad \\mathcal{J}_k = 4B\\beta^2 \\sin^2(\\gamma - \\frac{2\\pi}{3}k)",
+      "derivation": "从 5D 欧氏四极动能 T = \\frac{1}{2}B \\sum |\\dot{\\alpha}|^2 经主轴坐标变换展开，交叉项 \\sum \\dot{a}_\\nu \\omega_k 自动相消",
+      "limit": "在轴对称极限 \\gamma = 0 时，绕对称轴 z' 的惯量 \\mathcal{J}_3 = 0，而垂直轴惯量 \\mathcal{J}_1 = \\mathcal{J}_2 = 3B\\beta^2"
+    },
+    {
+      "name": "Pauli-Podolsky 量子动能与黎曼测度",
+      "convention": "\\hat{T} = -\\frac{\\hbar^2}{2B} [ \\frac{1}{\\beta^4} \\frac{\\partial}{\\partial\\beta} \\beta^4 \\frac{\\partial}{\\partial\\beta} + \\frac{1}{\\beta^2 \\sin 3\\gamma} \\frac{\\partial}{\\partial\\gamma} \\sin 3\\gamma \\frac{\\partial}{\\partial\\gamma} ] + \\frac{\\hbar^2}{2} \\sum_{k=1}^3 \\frac{\\hat{j}_k^2}{4B\\beta^2 \\sin^2(\\gamma - 2\\pi k/3)}",
+      "derivation": "利用度规行列式 \\sqrt{g} \\propto \\beta^4 |\\sin 3\\gamma| \\sin\\theta 在自伴 Laplace-Beltrami 形式下展开",
+      "limit": "对于 I=0 态，角动量项消失；当势仅依赖于 \\beta 时，\\gamma 部分本征方程退化为 Legendre 多项式 P_\\lambda(\\cos 3\\gamma)"
+    }
+  ],
+  "competing_explanations": [
+    {
+      "topic": "平均形变角 30° 与三轴刚性",
+      "misconception": "认为实验测得或模型提取的有效形状角 \\gamma_{\\text{eff}} \\approx 30° 必然证明原子核具有稳定的三轴刚性几何形状。",
+      "correct_physical_boundary": "五维四极几何测度自带因子 |\\sin 3\\gamma|，导致在完全平坦的极软 \\gamma 势阱中，基态几率密度也天然在 \\gamma = 30° 处形成对称几何峰，产生严格的 \\langle\\cos 3\\gamma\\rangle = 0 与 \\gamma_{\\text{eff}} = 30°；低阶静态量不能区分刚性与极软动力学涨落。"
+    },
+    {
+      "topic": "坐标边界与波函数截断",
+      "misconception": "将 \\gamma = 0 与 \\gamma = \\pi/3 处的雅可比行列式归零误认为物理势垒边界，强行令波函数在边界处为零。",
+      "correct_physical_boundary": "\\sin 3\\gamma = 0 是球坐标极点类似的网格奇点，真正的物理要求是算符自伴性、波函数单值正规性与边界处无概率流损失；Legendre 多项式基底在端点处取有限非零值正是这一正规性的严格体现。"
+    },
+    {
+      "topic": "通用四极测度与坐标相关质量",
+      "misconception": "将常数 B 模型的测度 \\beta^4 |\\sin 3\\gamma| 推广为所有微观形变势能面与集体模型的普遍唯一测度。",
+      "correct_physical_boundary": "该测度严格源于 5D 欧氏平直空间的常质量张量；在微观自洽平均场导出的广义玻尔哈密顿量（如 5DCH）中，存在六个坐标相关的惯量函数，黎曼测度包含质量行列式 \\sqrt{\\det B_{2,2}} 与相应的标量权重函数 W(\\beta, \\gamma)。"
+    }
+  ],
+  "unresolved": [
+    "在极软 \\gamma 势阱向深三轴势阱的连续演化中，高自旋带交叉与动态取向涨落的微观相干性需要依赖显式微观五维玻尔哈密顿量（5DCH）或三轴投影计算；",
+    "形变空间中的高阶非谐动能项（如四极动能的高阶四阶动量项）在远离稳定线软核中的定量影响尚未完全闭合。"
+  ],
+  "reader_checks": [
+    "检查 \\beta^4 |\\sin 3\\gamma| 中 \\beta^4 幂次与角向因子的量纲与自伴性；",
+    "核对惯量张量 \\mathcal{J}_k 中轴编号声明与 \\sin^2(\\gamma - 2\\pi k/3) 的对应；",
+    "确认无量纲角动量 \\hat{j}_k 与 \\hbar^2/2B 能量因子的组合；",
+    "确认 R1/T03 数据引用仅采用既有 CSV 真实记录（\\kappa=0 与 18 的数值），不造新阈值。"
+  ],
+  "draft_path": "raw/writing/gpt/A130/research-draft/section-2-4.md",
+  "draft_sha256": "330ffa61bb2478717a98d125f7dd4fc22235b56b9d092696e791e210ae4a8846"
+}

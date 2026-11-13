@@ -1,0 +1,11 @@
+{
+  "status": "parent-stdlib-replayed-and-exact-consistency-crosschecked",
+  "observed_machine_utc": "2026-11-13T21:02:03.696084+00:00",
+  "worker_results_sha256": "0fe4593aee987687a1a69d43aea8f62ec84bf98f0d9a555a2114dcf062520f66",
+  "replay_results_sha256": "0fe4593aee987687a1a69d43aea8f62ec84bf98f0d9a555a2114dcf062520f66",
+  "unit_RME_squared_exact": "264/247",
+  "fock_squared_matches_exact_racah": true,
+  "sympy_check": "not-executed: local interpreter reports ModuleNotFoundError; no dependency installed or software check claimed",
+  "jordan_derivative_identity": "A=-2I+K,K²=0 verifies d[e^-2t(I+tK)]/dt=Ae^-2t(I+tK)",
+  "scope": "T23independentRacah/Fock actualreplay andexactpassivetwo-stateexamples; notanuclearmeasurement."
+}

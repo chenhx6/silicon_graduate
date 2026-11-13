@@ -1,0 +1,189 @@
+{
+  "section_id": "3.7",
+  "status": "parent-reconciled-content-admitted-pending-integration",
+  "worker": "G88 Gemini Tiered/high; revised per round 2 parent audit",
+  "recorded_at": "2026-11-13T15:14:13.433104+00:00",
+  "canonical_paths": {
+    "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-7.tex",
+    "tex_sha256": "261c7c61bb44861dbb3f3fabae3f0b06bde3f92219b5d6a630e50849d31410b3"
+  },
+  "sources": [
+    {
+      "source_id": "butler-nazarewicz-1996-intrinsic-reflection-asymmetry",
+      "source_page": "knowledge/sources/butler-nazarewicz-1996-intrinsic-reflection-asymmetry.md",
+      "canonical_source": "https://doi.org/10.1103/RevModPhys.68.349",
+      "doi": "10.1103/RevModPhys.68.349",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1996_Butler_Nazarewicz_Intrinsic reflection asymmetry in atomic nuclei.pdf",
+      "raw_sha256": "40e915a556361cb472139fb683146d66c1385c3e87de5aaa16d2bd8628afe090",
+      "archive_required": true,
+      "locator": "Actual PDF5/printed353 shell-region drivers as canonicalsource; other review context is source-scoped, not an assumedphysical-page offset.",
+      "reading_boundary": "Only targeted originals/canonical-source-located contexts above; no inherited claim of wholebook/wholepaper actualread.",
+      "actual_physical_pages": 73
+    },
+    {
+      "source_id": "bucher-2017-146ba-direct-octupole",
+      "source_page": "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+      "canonical_source": "https://doi.org/10.1103/PhysRevLett.118.152504",
+      "doi": "10.1103/PhysRevLett.118.152504",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
+      "raw_sha256": "c49cb44350cd24f25d172efe405cd9e78360692eb4087bb3eef1801534264beb",
+      "archive_required": true,
+      "locator": "Actual PDF3 TableI andE3 paragraph; PDF4–5 modeloccupancy andproton/neutron contributions. ExistingE1 tau/BR inputs notnew CoulEx observables.",
+      "reading_boundary": "Only targeted originals/canonical-source-located contexts above; no inherited claim of wholebook/wholepaper actualread.",
+      "actual_physical_pages": 6
+    },
+    {
+      "source_id": "liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br",
+      "source_page": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+      "canonical_source": "doi:10.1103/PhysRevLett.116.112501",
+      "doi": "10.1103/PhysRevLett.116.112501",
+      "raw_file": "raw/papers/2016_Liu et al_Evidence for Octupole Correlations in Multiple Chiral Doublet Bands.pdf",
+      "raw_sha256": "460051aed9af9d84bbfa09a51339e4d671f8abaaf511ff6b7e0a4fbc2a836ad4",
+      "archive_required": true,
+      "locator": "Canonical source-located78Br experimentalbands/modelinterpretation; detailedband/lineaudit assigned4.5. No new lifetime data.",
+      "reading_boundary": "Only targeted originals/canonical-source-located contexts above; no inherited claim of wholebook/wholepaper actualread.",
+      "actual_physical_pages": 6
+    },
+    {
+      "source_id": "liu-chen-2016-78br-chirality-reflection-symmetry-thesis",
+      "source_page": "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+      "canonical_source": "山东大学博士学位论文, 2016",
+      "doi": null,
+      "raw_file": "raw/theses/degree-dissertation/刘晨_奇奇核~(78)Br中手征...间反射对称性的联立自发破缺.pdf",
+      "raw_sha256": "5e00370aab205b689841cb58d65c7fad8829e3de74f084736a74f2d8658ab291",
+      "archive_required": true,
+      "locator": "Canonical thesis source andoriginal E1/E2 analysis atPDF78–80; sameexperimentdependency preserved; not an independentnewexperiment.",
+      "reading_boundary": "Only targeted originals/canonical-source-located contexts above; no inherited claim of wholebook/wholepaper actualread.",
+      "actual_physical_pages": 107
+    },
+    {
+      "source_id": "xiao-xiao-2019-high-spin-74as-thesis",
+      "source_page": "knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md",
+      "canonical_source": "肖骁. 奇奇核74As的高自旋态研究[D]. 山东大学, 2019.",
+      "doi": null,
+      "raw_file": "raw/theses/degree-dissertation/肖骁_奇奇核~(74)As的高自旋态研究.pdf",
+      "raw_sha256": "bf0763004d98be5a540ab7802eb0baed7c11387224f1818426b891f5a3ef362b",
+      "archive_required": true,
+      "locator": "Canonical thesis source-located74As spectraldata; detailedversion/bandmapping in4.5, not a claim of all later literature coverage.",
+      "reading_boundary": "Only targeted originals/canonical-source-located contexts above; no inherited claim of wholebook/wholepaper actualread.",
+      "actual_physical_pages": 61
+    },
+    {
+      "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+      "source_page": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "canonical_source": "Local PDF, preface to reissue and section 4-5e",
+      "doi": "",
+      "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "raw_sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "archive_required": true,
+      "locator": "Actual PDF212–215/printed190–193 selected pure-rotor local expansion; no full-volume or octupole chapter reread claimed.",
+      "reading_boundary": "Only targeted originals/canonical-source-located contexts above; no inherited claim of wholebook/wholepaper actualread.",
+      "actual_physical_pages": 772
+    },
+    {
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "source_page": "knowledge/sources/cline-1986-nuclear-shapes-coulomb-excitation.md",
+      "canonical_source": "https://doi.org/10.1146/annurev.ns.36.120186.003343",
+      "doi": "10.1146/annurev.ns.36.120186.003343",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "raw_sha256": "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113",
+      "archive_required": true,
+      "locator": "OriginalCoulEx/invariant framework; normalizedtensor algebra follows explicitlystated adopted2.1/2.4 definitions, not a fabricated literal equation anchor.",
+      "reading_boundary": "Only targeted originals/canonical-source-located contexts above; no inherited claim of wholebook/wholepaper actualread.",
+      "actual_physical_pages": 35
+    }
+  ],
+  "claims_and_derivations": [
+    {
+      "id": "3.7-P01",
+      "kind": "operator-distinction-and-model-mapping",
+      "claim": "Octupolecoordinatesalpha_3mu andM(E3) arerank3,parityodd; beta3 is a chosen amplitude. Normalizedq3 fromE2tensors is rank0,parityeven andhasunitse³fm6. ItsBohr-geometricmoment representation is modelmapped, not a uniqueclassicalshape. Thisoperator distinction doesnot implydynamicdecoupling. E3diagonalexpectation inagoodparitystate vanishes.",
+      "sources": [
+        "cline-1986-nuclear-shapes-coulomb-excitation",
+        "book-bohr-mottelson-nuclear-structure-vol2"
+      ],
+      "locator": "Explicit tensor/parityalgebra matchingadopted2.1/2.4; sourcecontextCline/Bohr. No invented Clineeqanchor.",
+      "conditions": "Exact operator definitions; parity conservation in strong/EM Hamiltonian."
+    },
+    {
+      "id": "3.7-P02",
+      "kind": "task-local-derivation-and-symmetry-analysis",
+      "claim": "When j_p, j_n, R act on mutually independent tensor product factor spaces, they commute, so the scalar triple product chi_geom = j_p . (j_n x R) is already Hermitian without additional symmetrization. Because all angular momenta are axial vectors, chi_geom is strictly P-even and T-odd, invariant under proper rotations SO(3). Under an orthogonal spatial reflection across a plane, axial vectors transform with det(M_axial) = +1, so ordinary spatial reflection does not reverse chi_geom; this handedness is not a parity-odd order parameter. Invariance of chi_geom does not prove the whole oriented state is reflection invariant. T alone also reverses chi_geom; C = T R_y(pi) is the standard convenient body-fixed chiral operation, not the unique possible sign-reversing transformation.",
+      "sources": [
+        "book-bohr-mottelson-nuclear-structure-vol2"
+      ],
+      "locator": "manuscript Eqs.(3-7-triple-product)-(3-7-reflection-preserve)",
+      "conditions": "Three angular momentum operators in disjoint tensor spaces; pure axial vector kinematics."
+    },
+    {
+      "id": "3.7-P03",
+      "kind": "algebraic-proof-and-parity-coupling",
+      "claim": "Standard nuclear chirality transformation C = T R_y(pi) acts on body angular momentum components as J1 -> J1, J2 -> -J2, J3 -> J3. C is anti-unitary; its eigenvalues are phase-dependent and cannot serve as good +/- chiral parity labels. For integer spin I (even fermion number), T^2 = +1 and R_y(pi)^2 = +1; for half-integer spin I (odd fermion number), T^2 = -1 and R_y(pi)^2 = -1; in both cases C^2 = T^2 R_y(pi)^2 = (-1)^(4I) = +1. C^2 = +1 does not protect Kramers degeneracy. In nuclei with both octupole and chiral rotation, the collective potential energy surface does not necessarily form 4 isolated physical wells. Parity projector P^+- defines mutually orthogonal subspaces (P+ P- = 0), but does not guarantee fourfold near-degeneracy (thetwo splittings neednot obey any fixedrelation; accidental equality remainspossible).",
+      "sources": [
+        "book-bohr-mottelson-nuclear-structure-vol2"
+      ],
+      "locator": "manuscript Eqs.(3-7-C-action)-(3-7-C-square)",
+      "conditions": "Anti-unitary quantum mechanics; multi-dimensional non-separable potential surfaces."
+    },
+    {
+      "id": "3.7-P04",
+      "kind": "microscopic-shell-structure",
+      "claim": "Delta l = Delta j = 3 is a common and strong coherent driver of octupole collectivity, but not mathematically strictly necessary; E3 allows Delta l = 1, 3 and Delta j <= 3 under parity and triangle selection rules. Near Z approx 56, N approx 88 (e.g. Ba, Ce), driving pairs are proton pi(d_5/2 - h_11/2) and neutron nu(f_7/2 - i_13/2). In actinides near Z approx 88, N approx 134-136 (e.g. 224Ra), driving pairs are proton pi(f_7/2 - i_13/2) and neutron nu(g_9/2 - j_15/2). The Ba pairs must not be applied to Ra.",
+      "sources": [
+        "butler-nazarewicz-1996-intrinsic-reflection-asymmetry"
+      ],
+      "locator": "Butler & Nazarewicz 1996 RMP 68, 349 PDF p. 5 (journal p. 353); manuscript Eqs.(3-7-delta-lj)-(3-7-favored-octupole)",
+      "conditions": "Spherical shell model single-particle levels near Fermi surface."
+    },
+    {
+      "id": "3.7-P05",
+      "kind": "experimental-measurement-and-model-interpretation",
+      "claim": "Multi-step Coulomb excitation in 146Ba (Bucher et al. 2017) directly measured ground-state E3 RME <3_1^-||M(E3)||0_1^+> = 0.65(+14/-20) e b^(3/2) and B(E3; 3^- -> 0^+) = 48(+21/-29) W.u., confirming strong octupole collectivity. E1 matrix elements largely rely on prior tau/BR data. D_0 = D_0^macro + D_0^micro is a phenomenological liquid-drop + shell decomposition convention. SCCM calculation specifically compares neutron and proton contributions (neutron high-j low-K occupancy cancellation). Macro and micro terms do not universally have opposite signs. Strong E3 does not alone prove a rigid static pear shape.",
+      "sources": [
+        "bucher-2017-146ba-direct-octupole"
+      ],
+      "locator": "Bucher actualPDF3 TableI andadjacentE3/previousE1inputsparagraph; actualPDF4–5 modelinterpretation. QuotedroundedRME/Berrorintervals are preserved, not recomputed as independentmeasurements.",
+      "conditions": "Multi-step Coulomb excitation with GRETINA and CHICO2; GOSIA analysis."
+    },
+    {
+      "id": "3.7-P06",
+      "kind": "electromagnetic-transition-analysis",
+      "claim": "Oppositeparity requires appropriateoddE/evenM multipoles. E1/M2 mixing is a low-order example only when bothranks allowed; E1/M1 orE1/E2 isnot onegoodparitytransition. For declaredsingleK rotor, ratio=(12/5)(D0/Q0)^2(CG1/CG2)^2; K0simplification gives(8/5)(2I−1)/(I−1). Ratio-toabsoluteD0needsQ0, while absoluteB(E1) can directlyfixD0withtheE1rotorformula. Allaremodeldependent andsame-parent covariance matters.",
+      "sources": [
+        "book-bohr-mottelson-nuclear-structure-vol2"
+      ],
+      "locator": "DeclaredAlaganormalizations; canonicalobservable intrinsic-dipole-moment andits Liu originalPDF78–80 support. Directrationalprefactor andCG reduction; no actualD0 measurement claimed.",
+      "conditions": "Axially symmetric single-K rotor limit; parity conservation in EM transitions."
+    },
+    {
+      "id": "3.7-P07",
+      "kind": "spectroscopic-evaluation-and-boundaries",
+      "claim": "In thespecifiedcitedBr/As data, candidateparity/chiral structures andjointEMnetworks motivate comparisons. These are model-specifictests, not across-model necessary/sufficient certificationlist; no newcompleteabsolute-lifetime/E3 data orglobal2026 absence claimed.",
+      "sources": [
+        "liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br",
+        "liu-chen-2016-78br-chirality-reflection-symmetry-thesis",
+        "xiao-xiao-2019-high-spin-74as-thesis"
+      ],
+      "locator": "Canonical Liu/Xiao originalsource-locatedspectra anddependency; detailed4.5 audit separatelyrequired.",
+      "conditions": "Data limitations in transitional A approx 70–80 nuclei."
+    }
+  ],
+  "integration_boundary": "Scientificcontent admitted in declaredlimits; newBibaliases/typesetting/fullbookphasebridge andintegratedPDF remainpending. Full39-sectiongoal staysactive.",
+  "parent_final_tex_sha256": "3c50a9b0f3812ac03daaab4bdbef706ddb06e864d5dc9c67c228e6d860c08b18",
+  "authorship_boundary": "Mainprose G88 GeminiTiered/high; parent source-identity/conditions/notation finalization. No author receipt independently certifies physical validity.",
+  "superseded_ledger": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G88/parent-finalization-inputs/section-3-7.json",
+  "latex_sha256": "3c50a9b0f3812ac03daaab4bdbef706ddb06e864d5dc9c67c228e6d860c08b18",
+  "parent_readability_revision_20261114": {
+    "receipt": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G97/parent-readability-acceptance.json",
+    "tex_sha256": "81c4571c23fa81226e1fa8cbb570751fb08595826b2b8f1626f7e94a11f92364",
+    "scope": "precise prose and conditional axis-map bridge; display equations unchanged"
+  },
+  "parent_layout_integration": {
+    "receipt": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G92/parent-format-integration.json",
+    "tex_sha256": "3c50a9b0f3812ac03daaab4bdbef706ddb06e864d5dc9c67c228e6d860c08b18",
+    "scope": "ReviewedexactG92formatdelta; stabledata/physicalconditions; G97titlepreserved."
+  },
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-7.tex",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
+}

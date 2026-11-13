@@ -1,0 +1,18 @@
+{
+  "scope": "actual failed 39-section build log",
+  "status": "pass",
+  "missing_bibliography_keys_detected": [
+    "akkoyun-2012-agata-instrument-response",
+    "baker-cousins-1984-histogram-fits",
+    "book-behnke-data-analysis-hep",
+    "book-bonamente-statistics-scientific-data",
+    "book-wu-nuclear-experiment-methods",
+    "book-zhu-probability-statistics-in-physics",
+    "cirigliano-2018-leading-short-range-double-beta",
+    "dewald-2012-ddcm-recoil-distance",
+    "dimitriou-2021-iaea-beta-delayed-neutron-database",
+    "wakudyanaye-2022-triaxiality-rotational-bands-133ce"
+  ],
+  "old_parser_count": 0,
+  "new_parser_distinct_count": 10
+}

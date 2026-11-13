@@ -1,0 +1,60 @@
+{
+  "worker": "G91 (Gemini Tiered/high)",
+  "section_id": "AppendixA",
+  "title": "角动量与张量约定",
+  "recorded_at": "2026-11-13T20:55:00+00:00",
+  "task_status": "appendix-A-v1-delivered",
+  "canonical_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixA.tex",
+  "canonical_tex_sha256": "5437aec7a38cb18021b3c6701ffd9078c29ced34d4b0bef3b65bd447102fbf10",
+  "canonical_ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/appendix-A.json",
+  "canonical_ledger_sha256": "f37432a2744b0a97866bc17404529c6379bba35baff0a97a0c1f22a83b5db1c1",
+  "mathematical_verification": {
+    "environments_balanced": true,
+    "math_mode_balanced": true,
+    "lines_count": 290,
+    "chars_count": 19503,
+    "fatal_syntax_errors": 0
+  },
+  "exact_algebraic_control": {
+    "benchmark_type": "Wigner 6j symbol standard orthogonality identity",
+    "quantum_numbers": {
+      "j1": 1,
+      "j2": 2,
+      "j3": 2,
+      "j4": 1,
+      "j5": 2,
+      "j6": 2
+    },
+    "intermediate_angular_momentum": [
+      1,
+      2,
+      3
+    ],
+    "exact_rational_terms": {
+      "x=1": {
+        "6j": "-1/10",
+        "(2x+1)*6j^2": "3/100"
+      },
+      "x=2": {
+        "6j": "1/6",
+        "(2x+1)*6j^2": "5/36"
+      },
+      "x=3": {
+        "6j": "1/15",
+        "(2x+1)*6j^2": "7/225"
+      }
+    },
+    "exact_rational_sum": "3/100 + 5/36 + 7/225 = (27 + 125 + 28)/900 = 180/900 = 1/5",
+    "theoretical_expectation": "1/(2j5+1) = 1/5",
+    "verified_identity_closure": "PASSED_EXACT_RATIONAL_EQUATION"
+  },
+  "prohibitions_strictly_obeyed": [
+    "未修改公共ref.bib，引用键与公共ref.bib完全对齐",
+    "未修改其它手稿章节，禁止自行派生/commit/push/递归删除",
+    "物理角动量算符矢显式携带hbar，量子数j, m无量纲，不凭想象反推原书公式页",
+    "独立控制算例声明采用Racah封闭公式与fractions有理数解析代数，不把浮点抽样当定理证明",
+    "详细平衡明确限制于厄米算符同态对，不外推至非厄米有效模型",
+    "M1算符单位换算澄清SI电荷型M_S与磁矩型M_mu关系，不额外施加c^2因子",
+    "交付独立回执，不越界修改其它章节或提交commit"
+  ]
+}

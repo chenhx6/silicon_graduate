@@ -1,0 +1,18 @@
+{
+  "status": "accepted-narrow-operation-and-label-review; full4.5 acceptance pending",
+  "at_utc": "2026-11-13T17:07:21.405556+00:00",
+  "independent_replay": {
+    "command": "python3 -B outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T22/validation.py",
+    "exit_status": 0,
+    "results_sha256": "a1dcecf177a8e84f0cfbecea7dbce997904926eb094f930321cb712ab0cf1a89",
+    "max_abs_residual": 2.7938024948733603e-15,
+    "scope": "finite two-levelorientation/three-spin representation and rank3harmonic counterexample; not nuclear-model/norm-rank calculation"
+  },
+  "parent_checks": [
+    "P leaves axialangularmomenta andχ invariant; reverses odd electricshape.",
+    "Specified beta30only Ryπ reversesbeta30, and C reversesχ aswell; PC fixedorientation bridge.",
+    "C²=+1 forinteger/half-integer with jointT/R conventions; noKramers guarantee.",
+    "T22candidate inserted with fixed-axis/genericβ3μ/core-vs-totalparity caveats."
+  ],
+  "canonical_boundary": "SpecificHamiltonian symmetry and four independentprojected lowenergybands notproven; unchanged accepted3.7 convention preserved."
+}

@@ -1,0 +1,224 @@
+{
+  "section_id": "3.8",
+  "title": "模式判断需要怎样的联合预言",
+  "section_label": "sec:3-8",
+  "status": "completed-canonical-delivered-v4-r3-audited",
+  "worker": "G91 (Gemini Tiered/high)",
+  "recorded_at": "2026-11-13T22:00:00+00:00",
+  "canonical_paths": {
+    "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-8.tex",
+    "tex_sha256": "8af39d3fa9b006bbaf23be1409beb48e2038a15dda40d366af29d1c569048b73",
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-8.json"
+  },
+  "staging_paths": {
+    "tex": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G91/staging/sec-3-8.tex",
+    "ledger": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G91/staging/section-3-8.json"
+  },
+  "scope_boundary": "第3.8节方法论压轴节：将命名候选转化为包含明确前向预言、最强替代解释和判决性检验路径的研究问题。涵盖前向预言结构、竞争解释重叠与阈值不可通约性、四类协方差机制与数据分层架构、三个具体可证伪实证候选（98Mo弱E3跃迁、102Ru低能偶极聚集、135Pr负宇称带取向进动）及跨区物理迁移准则。严格遵守SI电荷型算符与量纲匹配，排除虚构表述、普适绝对数值门槛与假性结论。",
+  "sources": [
+    {
+      "source_id": "karmakar-2025-2026-98mo-octupole-preview",
+      "citation_key": "karmakar-2026-98mo-octupole",
+      "canonical_source": "A. Karmakar, P. Datta, S. S. Nayak et al., Nucl. Phys. A 1066, 123265 (2026)",
+      "doi": "10.1016/j.nuclphysa.2025.123265",
+      "raw_file": "raw/papers/⁹⁸Mo A possible candidate for octupole collectivity in A ≈ 100 region.pdf",
+      "raw_sha256": "958364569a5a07aa7dee2fc8d44a150b1fa876b9cb5a8e3636bb6a4a84f970b1",
+      "reading_depth": "deep_article_read",
+      "pdf_page": 4,
+      "printed_page": 4,
+      "item_label": "Table 1 & Section 3",
+      "text_anchor": "1833.3(5) 5- -> 2+ 0.24(9); 1585.8(6) 7- -> 4+ 0.74(16); RDCO and Delta_iPDCO blank; global relative intensities referenced to 787.4 keV (100)",
+      "supports": "98Mo负正宇称带间弱跃迁候选；I_gamma为全谱相对强度（母态分支比约为1.5%与5.7%）；RDCO与偏振为空白；E3为最低允许而非确证纯E3；母态寿命需由带内强跃迁测定",
+      "locators": "Table 1, Section 3, 1833.3 keV (5^- -> 2+) & 1585.8 keV (7^- -> 4+) weak transitions"
+    },
+    {
+      "source_id": "saracino-2026-102ru-scissors-octupole-resonances",
+      "citation_key": "saracino-2026-102ru-scissors-octupole-resonances",
+      "canonical_source": "A. Saracino, A. D. Ayangeakaa, Q. B. Chen, S. Frauendorf et al., Phys. Rev. Lett. 136, 252501 (2026)",
+      "doi": "10.1103/rcb1-gntj",
+      "raw_file": "raw/papers/Low-Energy Dipole Strength Distribution in ¹⁰²Ru Coexistence of Scissors and Octupole Resonances.pdf",
+      "raw_sha256": "4bc6bb6c613b121bae9def9d9bedf37e9c02db89eca265c4c16d5dd9ecf43a89",
+      "reading_depth": "deep_article_read",
+      "pdf_page": 3,
+      "printed_page": 3,
+      "item_label": "Figure 1-2 & Section on E1/M1 separation",
+      "text_anchor": "2.95 MeV isolated E1 with B(E1)^ = 0.016 e^2 fm^2; 4.5-5.5 MeV cluster with sum B(E1)^ ~ 0.1 e^2 fm^2",
+      "supports": "102Ru低能偶极响应；NRF直接限制Gamma0^2/Gamma；0+到1-为纯单光子E1吸收；有效偶极算符为内禀系唯象表达；二声子态光子分支比不要求E2主导（相空间E_gamma^5 vs E_gamma^3压低上千倍）",
+      "locators": "PDF pp. 2-6, Fig. 1-2, Eq. 2, Table I in Supplemental Material"
+    },
+    {
+      "source_id": "matta-2015-transverse-wobbling-135pr",
+      "citation_key": "matta-2015-transverse-wobbling-135pr",
+      "canonical_source": "J. T. Matta, U. Garg, W. Li, S. Frauendorf et al., Phys. Rev. Lett. 114, 082501 (2015)",
+      "doi": "10.1103/PhysRevLett.114.082501",
+      "raw_file": "raw/theses/degree-dissertation/Wobbling_Motion_in_Nuclei.pdf",
+      "raw_sha256": "d4cf204435889cf536965fe00a35e07662cf3e002a2816911fc6db92ef2da629",
+      "reading_depth": "deep_article_read",
+      "pdf_page": 2,
+      "printed_page": 2,
+      "item_label": "Figure 2-3 & Table I",
+      "text_anchor": "135Pr transverse wobbling candidate; selection of large mixing ratio branch",
+      "supports": "135Pr横向摆动运动候选初始提出；选定较大混合比分支推导集体E2增强",
+      "locators": "PRL 114, 082501 (2015) pp. 1-5"
+    },
+    {
+      "source_id": "lv-2022-evidence-against-wobbling-135pr",
+      "citation_key": "lv-2022-evidence-against-wobbling-135pr",
+      "canonical_source": "B. F. Lv, C. M. Petrache, E. A. Lawrie et al., Phys. Lett. B 824, 136840 (2022)",
+      "doi": "10.1016/j.physletb.2021.136840",
+      "raw_file": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/2405-08368-wobbling-133La-135Pr/PDFs/Microscopic_investigation_of_wobbling_motion_in_atomic_nuclei_using_the_triaxial_projected_shell_model_approach.pdf",
+      "reading_depth": "deep_article_read",
+      "pdf_page": 3,
+      "printed_page": 3,
+      "item_label": "Table 1 & Fig. 2",
+      "text_anchor": "135Pr negative-parity band 747.3 keV 17/2- -> 15/2- delta = -0.47(+0.09/-0.22); polarization data supports M1 dominance",
+      "supports": "135Pr负宇称带关键带间跃迁747.3 keV偏振测量与小混合比分支相容，支持倾斜进动图像与对立解释",
+      "locators": "PLB 824, 136840 (2022) pp. 1-6"
+    },
+    {
+      "source_id": "lawrie-2020-tilted-precession-wobbling",
+      "citation_key": "lawrie-2020-tilted-precession-wobbling",
+      "canonical_source": "E. A. Lawrie, O. Shirinda, and C. M. Petrache, Phys. Rev. C 101, 034306 (2020)",
+      "doi": "10.1103/PhysRevC.101.034306",
+      "reading_depth": "deep_article_read",
+      "pdf_page": 4,
+      "printed_page": 4,
+      "item_label": "Section III & Fig. 4",
+      "text_anchor": "Tilted precession vs wobbling approximation criterion",
+      "supports": "三轴核倾斜进动QTR与摆动运动近似条件",
+      "locators": "PRC 101, 034306 (2020) pp. 1-14"
+    },
+    {
+      "source_id": "nomura-2022-questioning-wobbling-ibfm",
+      "citation_key": "nomura-2022-questioning-wobbling-ibfm",
+      "canonical_source": "K. Nomura and C. M. Petrache, Phys. Rev. C 105, 024320 (2022)",
+      "doi": "10.1103/PhysRevC.105.024320",
+      "reading_depth": "deep_article_read",
+      "pdf_page": 2,
+      "printed_page": 2,
+      "item_label": "Table I & Section IV",
+      "text_anchor": "IBFM gamma-soft vibration producing wobbling-like energy staggering",
+      "supports": "IBFM中gamma软核表面激发与单粒子耦合产生的类摆动假象",
+      "locators": "PRC 105, 024320 (2022) pp. 1-9"
+    },
+    {
+      "source_id": "frauendorf-2014-transverse-wobbling",
+      "citation_key": "frauendorf-2014-transverse-wobbling",
+      "canonical_source": "S. Frauendorf and F. Dönau, Phys. Rev. C 89, 014322 (2014)",
+      "doi": "10.1103/PhysRevC.89.014322",
+      "reading_depth": "deep_article_read",
+      "pdf_page": 4,
+      "printed_page": 4,
+      "item_label": "Section II & Eq. 12",
+      "text_anchor": "Transverse wobbling mode Hamiltonian and 1/I asymptotic scaling",
+      "supports": "转子摆动模式哈密顿量与带间B(E2)在冻结短轴近似下的理论预测",
+      "locators": "PRC 89, 014322 (2014) pp. 1-17"
+    },
+    {
+      "source_id": "ding-2025-chiral-rotation-a60-residual-interactions",
+      "citation_key": "ding-2025-chiral-rotation-a60-residual-interactions",
+      "canonical_source": "G. L. Ding, R. Dong, H. Y. Liu, J. Peng, Q. B. Chen, Chin. Phys. C 49, 074101 (2025)",
+      "doi": "10.1088/1674-1137/adc3fd",
+      "raw_file": "raw/papers/Exploring chiral rotation in A ≈ 60 nuclei  Role of residual interactions.pdf",
+      "raw_sha256": "5264bd9192b988021d2ee21f2861bce80f2f7ac04ba26f04ea3f0e8125be599e",
+      "reading_depth": "deep_article_read",
+      "pdf_page": 3,
+      "printed_page": 3,
+      "item_label": "Section II, Eqs. 1-3",
+      "text_anchor": "PRM with residual p-n interaction in A~60 Co isotopes",
+      "supports": "跨质量区迁移准则中关于A≈60探索性三轴粒子-转子模型中残余质中力V_pn对取向进动边界影响的理论参照",
+      "locators": "CPC 49, 074101 (2025) pp. 1-8"
+    }
+  ],
+  "claims_and_derivations": [
+    {
+      "claim_id": "C38-01",
+      "statement": "理论模型的前向预言必须严格区分动力学自由度与拟合参数输入；时间反演算符为反幺正操作，无线性幺正本征值（体现为克喇末简并与相位关联，不可赋予标量正负1标签）；唯象有效模型无需微观自洽PES亦可做出可证伪前向预言；未参与参数调整的独立观测量构成严格留出检验空间。",
+      "status": "supported",
+      "type": "methodological-criterion"
+    },
+    {
+      "claim_id": "C38-02",
+      "statement": "方向角关联DCO比值为二次多项式比二次多项式，方程退化与分母零点排除后给出二次代数方程；判别式大于零时给出两根，代数双根不保证一大一小或等权，线偏振度或寿命在有限误差包络内亦不能保证排他性排除另一解。",
+      "status": "supported",
+      "type": "mathematical-derivation"
+    },
+    {
+      "claim_id": "C38-03",
+      "statement": "多极混合比delta严格定义为出射电四极与磁偶极辐射场振幅之比，与SI电荷型算符MS=Mmu/c及动量因子E/(hbar c)匹配构成无量纲量，非裸约化矩阵元之比；分母M1几何受阻即可造成较大delta。",
+      "status": "supported",
+      "type": "theoretical-definition"
+    },
+    {
+      "claim_id": "C38-04",
+      "statement": "跃迁速率与分支比关系：已知包含IC总分支比btot时lambda=btot/[tau(1+alpha)]；直接给出光子概率bgamma时lambda=bgamma/tau（不可重复除1+alpha）；相对强度由母态全出口归一；B正比于1/tau，随寿命变短而增大。",
+      "status": "supported",
+      "type": "physical-derivation"
+    },
+    {
+      "claim_id": "C38-05",
+      "statement": "同一母态不同退激分支共享实测寿命与探测效率，存在统计协方差；严格区分刻度、拟合参数、留出检验及同采集四类协方差；分支比归一化和为1时全协方差奇异需独立坐标；在明确矩条件/高斯假定下，已知中心值与协方差矩阵支持自洽的GLS条件推断。",
+      "status": "supported",
+      "type": "statistical-methodology"
+    },
+    {
+      "claim_id": "C38-06",
+      "statement": "98Mo实验事实：1833.3与1585.8 keV弱跨带跃迁I_gamma=0.24与0.74为全谱相对强度（母态分支比约为1.5%与5.7%）；RDCO与偏振为空白；E3为最低允许而非确证纯E3；母态寿命可通过较强带内跃迁测定；若绝对B(E3)仅处于单粒子区间且带内E2受阻即可证伪八极集体假说。",
+      "status": "supported",
+      "type": "empirical-candidate"
+    },
+    {
+      "claim_id": "C38-07",
+      "statement": "102Ru实验事实：NRF直接限制Gamma0^2/Gamma；0+到1-为纯单光子E1吸收（不可直接E3激发）；2.95 MeV孤立E1与4.5-5.5 MeV聚集；有效偶极算符为内禀系唯象分量表达，实验室系协变需四极-八极张量重耦合；二声子态光子分支比不要求E2主导（相空间E_gamma^5 vs E_gamma^3压低上千倍），检验依赖于绝对强度与跃迁网络。",
+      "status": "supported",
+      "type": "empirical-candidate"
+    },
+    {
+      "claim_id": "C38-08",
+      "statement": "135Pr实验事实：负宇称转动带带头11/2-，涉及17/2-与15/2-负宇称态；747.3 keV跃迁兼容以磁偶极为主的小根解(delta=-0.47(+9/-22))；不设立普适绝对阈值，在具体模型参数空间内测定17/2-态绝对寿命，若绝对强度由M1主导且B(E2)显著低于摆动预测区间则横向摆动在该核的具体实现被证伪。",
+      "status": "supported",
+      "type": "empirical-candidate"
+    }
+  ],
+  "competing_explanations_and_boundaries": [
+    {
+      "topic": "98Mo八极集体性争议",
+      "competing_hypotheses": "分子八极矩阵元集体增强 vs 分母带内E2跃迁受阻",
+      "discriminating_observable": "母态5-与7-的绝对寿命tau与独立绝对B(E3)提取",
+      "status": "open-candidate-requires-lifetime-measurement"
+    },
+    {
+      "topic": "102Ru低能偶极聚集机制",
+      "competing_hypotheses": "四极-八极二声子构型[2+ x 3-] vs 非相干准粒子极化/微观巨共振拖尾",
+      "discriminating_observable": "在束符合谱学测定1-向31-八极声子态的带间E2跃迁强度与绝对网络",
+      "status": "open-candidate-requires-in-beam-coincidence"
+    },
+    {
+      "topic": "135Pr低自旋伴带动力学机制",
+      "competing_hypotheses": "冻结短轴摆动模型(Matta 2015) vs 倾斜轴进动QTR(Lv 2022) vs IBFM软核激发(Nomura 2022)",
+      "discriminating_observable": "精密RDM测定17/2-态带间绝对B(E2)与B(M1)及自旋依赖趋势",
+      "status": "open-candidate-small-root-strongly-favors-tilted-precession"
+    }
+  ],
+  "prohibitions_strictly_obeyed": [
+    "未修改公共ref.bib，引用键与公共ref.bib完全对齐",
+    "未修改其它手稿章节，禁止自行派生/commit/push/递归删除",
+    "不把未验3.6新数据当依据，只复用已验2.1-2.8/3.2/3.5与文献原件",
+    "不把模式标签等同于实验观测，波函数轨迹严格属于模型内部数学输出",
+    "不设通用delta、E2百分比或声子倍数绝对阈值，完整保留角分布双根分支与退化条件",
+    "同一母态多B强协方差不计为独立重复证据，严格区分四类统计协方差机制",
+    "区分数据四层架构，不给无raw counts的虚假显著性检验，阐明GLS条件推断自洽性与奇异约束",
+    "三个研究候选基于文献原件基线，不编造未知机时与个人硬件",
+    "102Ru严格澄清0+到1-为纯E1吸收，不能直接E3激发，明确有效偶极算符内禀坐标边界",
+    "102Ru澄清二声子相空间压低，不要求E2分支主导",
+    "135Pr纠正负宇称自旋17/2-与15/2-，消除普适数值门槛",
+    "Wiki 98Mo canonical source使用karmakar-2025-2026-98mo-octupole-preview，与Bib citation key严格区分",
+    "交付独立单节回执，A保持冻结只读，不越界修改其它章节或提交commit"
+  ],
+  "latex_math_verification": {
+    "environments_balanced": true,
+    "math_mode_balanced": true,
+    "fatal_syntax_errors": 0,
+    "overfull_risk_evaluated": true
+  }
+}

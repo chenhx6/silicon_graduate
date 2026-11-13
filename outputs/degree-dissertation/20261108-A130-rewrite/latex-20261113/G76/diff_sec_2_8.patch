@@ -1,0 +1,100 @@
+--- a/Tex/Sections/sec-2-8.tex (accepted-v1)
++++ b/Tex/Sections/sec-2-8.tex (canonical-keys-q3-normalized)
+@@ -55,9 +55,9 @@
+ \end{itemize}
+ 
+ \paragraph{4. 投影生成坐标法 (Projected GCM / PGCM / SCC-GCM)}
+-投影生成坐标法通过对破缺对称性的形变多体波函数连续流形进行相干叠加，并通过投影算符恢复实验室守恒对称性。\cite{Heyde_2011,prochniak-rohozinski-2009-bohr-collective-hamiltonian}
+-\begin{itemize}
+-\item \textbf{保留的自由度}：在选定的生成坐标空间（如四极形变 $\beta, \gamma$ 及对能隙 $\Delta$）构成的内禀态流形 $\{|\Phi(q)\rangle\}$ 上构建连续相干量子叠加；通过投影算符 $\hat{P}^N, \hat{P}^Z, \hat{P}^I_{MK}, \hat{P}^\pi$ 保留实验室守恒量子数。
++投影生成坐标法通过对破缺对称性的形变多体波函数连续流形进行相干叠加，并通过投影算符恢复实验室守恒对称性。\cite{heyde-wood-2011-shape-coexistence-review,prochniak-rohozinski-2009-bohr-collective-hamiltonian}
++\begin{itemize}
++\item \textbf{保留的自由度}：在选定的生成坐标空间（如四极形变 $\beta, \gamma$ 及对能隙 $\Delta$）构成的内禀态流形 $\{|\Phi(q)\rangle\}$ 上构建连续相干量子叠加；通过投影算符 $\hat{P}^N, \allowbreak \hat{P}^Z, \allowbreak \hat{P}^I_{MK}, \allowbreak \hat{P}^\pi$ 保留实验室守恒量子数。
+ \item \textbf{消去的动力学}：受限于选定的有限生成坐标集合 $\{q\}$，消去了未纳入该坐标流形的正交微观空间动力学自由度；变分后投影（PAV）忽略了转动态对内禀基底的反作用。
+ \item \textbf{参数来源}：由微观有效核相互作用或自洽能量泛函决定，无须唯象假定集体动能质量张量。
+ \item \textbf{主要可预测观测量}：好量子数 $(I^\pi, N, Z)$ 下的态能谱、形状共存构型的混合权重、形状跃迁矩阵元、电荷半径同位素移动。
+@@ -65,23 +65,23 @@
+ \end{itemize}
+ 
+ \paragraph{5. 相互作用玻色子模型 (Interacting Boson Model / IBM / IBFM)}
+-相互作用玻色子模型将价核子对映射为具有低角动量的单极与四极玻色子系统。\cite{casten_1990_simple-perspective,heyde_1999_basic-ideas-concepts,nomura_2022_Questioningwobbling}
++相互作用玻色子模型将价核子对映射为具有低角动量的单极与四极玻色子系统。\cite{book-casten-nuclear-structure-simple-perspective,book-heyde-nuclear-physics-concepts,nomura-2022-questioning-wobbling-ibfm}
+ \begin{itemize}
+ \item \textbf{保留的自由度}：标量 $s$ 玻色子（$L=0$）与五重四极 $d$ 玻色子（$L=2$）构成的代数空间，总玻色子数 $N_B = \Omega_{\mathrm{pair}}$ 守恒；在奇 $A$ 核（IBFM）中额外保留单费米子价轨道算符 $a^\dagger_j$。
+ \item \textbf{消去的动力学}：消去了费米子内禀泡利不相容原理的细致交换项（将其吸收到玻色子多体相互作用参数中）；冻结了费米子对拆开产生四准粒子及更高准粒子激发的动力学。
+-\item \textbf{参数来源}：动力学代数极限（$U(5)$ 球形振子、$SU(3)$ 轴对称转子、$O(6)$ $\gamma$ 不稳定）参数的拟合，或通过 Otsuka--Arima--Iachello (OAI) 微观映射由表面 $\delta$ 相互作用或微观 HFB 状态导出。\cite{nomura_2022_Questioningwobbling}
++\item \textbf{参数来源}：动力学代数极限（$U(5)$ 球形振子、$SU(3)$ 轴对称转子、$O(6)$ $\gamma$ 不稳定）参数的拟合，或通过 Otsuka--Arima--Iachello (OAI) 微观映射由表面 $\delta$ 相互作用或微观 HFB 状态导出。\cite{nomura-2022-questioning-wobbling-ibfm}
+ \item \textbf{主要可预测观测量}：低激发能带谱结构、特征能级比值 $R_{4/2}$、带内与带间相对跃迁强度比 $B(E2)$、$B(M1)/B(E2)$ 分支比、形状相变相图。
+ \item \textbf{典型失效边界}：无法自然重现高自旋下对拆开引起的顺排带交叉；对微观壳演化过程中由自旋-同位旋张量力引起的单极能级移动不敏感。
+ \end{itemize}
+ 
+ \paragraph{6. 粒子-转子模型 (Particle-Rotor Model / PRM / QTR)}
+-粒子-转子模型将原子核解耦为一个各向异性转子核芯与少数活跃的高 $j$ 价准粒子组成的耦合系统。\cite{book-bohr-mottelson-nuclear-structure-vol2,meyertervehn_1975_collective-description-transitional,frauendorf_2014_Transversewobbling}
++粒子-转子模型将原子核解耦为一个各向异性转子核芯与少数活跃的高 $j$ 价准粒子组成的耦合系统。\cite{book-bohr-mottelson-nuclear-structure-vol2,meyer-ter-vehn-1975-triaxial-rotor-particle-model,frauendorf-2014-transverse-wobbling}
+ \begin{itemize}
+ \item \textbf{保留的自由度}：转子核芯的三个空间转动自由度 $\mathbf{R}$，以及高 $j$ 价准粒子的内禀角动量 $\mathbf{j}$；总角动量为矢量耦合 $\hat{\mathbf{I}} = \hat{\mathbf{R}} + \hat{\mathbf{j}}$。
+ \item \textbf{消去的动力学}：通常将核芯形状假定为绝热的三轴椭球，冻结了核芯四极形变坐标 $(\beta, \gamma)$ 的动力学量子涨落；忽略了核芯内部核子的微观配对涨落与微观极化反馈。
+ \item \textbf{参数来源}：经验转动惯量参数 $\mathcal{J}_1, \mathcal{J}_2, \mathcal{J}_3$；平均场 Nilsson 单粒子参数 $(\kappa, \mu)$ 与经验形变度 $(\epsilon_2, \gamma)$；经验配对能隙 $\Delta$。
+-\item \textbf{主要可预测观测量}：奇 $A$ 核与奇奇核的高自旋转动带结构、签名裂变（signature splitting）、手征双重带、摆动激发能 $E_{\mathrm{wob}}(I)$ 与带间跃迁分支比 $B(E2)/B(M1)$。
+-\item \textbf{典型失效边界}：在低自旋区或软形变核中，固定形变的刚体核芯假设受限；忽略核芯对价核子取向的动力学微观反作用，可能影响对低自旋摆动跃迁强度的估计。\cite{nomura_2022_Questioningwobbling}
++\item \textbf{主要可预测观测量}：奇 $A$ 核与奇奇核的高自旋转动带结构、签名裂变（signature splitting）、手征双重带、摆动激发能 $E_{\mathrm{wob}}(I)$ 与带间跃迁分支比 $B(E2)/\allowbreak B(M1)$。
++\item \textbf{典型失效边界}：在低自旋区或软形变核中，固定形变的刚体核芯假设受限；忽略核芯对价核子取向的动力学微观反作用，可能影响对低自旋摆动跃迁强度的估计。\cite{nomura-2022-questioning-wobbling-ibfm}
+ \end{itemize}
+ 
+ \paragraph{7. 倾斜轴推转平均场理论 (Tilted Axis Cranking / TAC / 3D-TAC / CRHB)}
+@@ -126,9 +126,9 @@
+ \begin{enumerate}
+ \item \textbf{自洽平均场与 5DCH 中的静态几何坐标 $\gamma_{\mathrm{MF}}$}：描述自洽单体定域密度在内禀坐标系三个主轴方向上的几何延展比值，是势能曲面 $E(\beta, \gamma)$ 上的静态变分坐标；
+ \item \textbf{转子模型中的惯量三轴比值参数 $\gamma_{\mathrm{rigid}}$}：由核内核子流体或刚体惯量张量的主轴比值决定，反映的是质量与动能的动力学分布；在微观上，由于配对准粒子相互作用与速度依赖势的存在，惯量主轴比值与电荷分布的几何形变比值并不必然相等；
+-\item \textbf{Kumar--Cline 形状不变量比值导出的有效角 $\gamma_{\mathrm{inv}}$}：设四极不变量的二阶与三阶期望值分别为 $q_2 = \langle Q \cdot Q \rangle$ 与 $q_3 = \langle (Q \times Q)_2 \cdot Q \rangle$，有效形状角由张量不变量比值确定：
++\item \textbf{Kumar--Cline 形状不变量比值导出的有效角 $\gamma_{\mathrm{inv}}$}：设四极不变量的二阶与三阶期望值分别按第2.1节及第2.4节统一标量定义为 $q_2 = \langle Q \cdot Q \rangle$ 与 $q_3 = -\sqrt{\frac{7}{2}}\,\langle (Q \times Q)_2 \cdot Q \rangle$，有效形状角由张量不变量比值确定：
+ \begin{equation}\label{eq:2-8-gamma-inv-ratio}
+-\cos(3\gamma_{\mathrm{inv}}) = -\sqrt{\frac{7}{2}}\,\frac{q_3}{q_2^{3/2}} .
++\cos(3\gamma_{\mathrm{inv}}) = \frac{q_3}{q_2^{3/2}} .
+ \end{equation}
+ 这里分母 $q_2^{3/2}$ 与分子 $q_3$ 的量纲一致。仅当不变量比值严格处于 $[-1, 1]$ 区间时，式\eqref{eq:2-8-gamma-inv-ratio}才存在实数角 $\gamma_{\mathrm{inv}}$。在实际微观量子态计算或有限实验态截断估计中，由于大振幅零点涨落或态空间不完备，该比值在数值上可能越出 $[-1, 1]$ 区间；此时不应通过人为强行截断（clamping）去赋予其几何形状角，且通过有限低激发态矩阵元求和并不等同于全空间的完备闭合；
+ \item \textbf{代数模型 IBM 中的相图参数 $\chi$}：出现在代数四极算符 $\hat{Q}_\chi = (s^\dagger \tilde{d} + d^\dagger s)^{(2)} + \chi (d^\dagger \tilde{d})^{(2)}$ 中。仅凭 $\chi = 0$ 并不足以确立 $O(6)$ 动力学对称性；只有在特定的哈密顿量参数配置下，体系才对应于 $O(6)$ 极限。$\chi$ 应被严格理解为玻色子电四极算符的结构常数，而非独立的动力学对称性充要判据。
+@@ -144,9 +144,10 @@
+ 
+ \begin{table}[htbp]
+ \centering
+-\small
++\footnotesize
++\setlength{\tabcolsep}{3pt}
+ \caption{八类主流核结构模型的物理自由度、消去动力学、参数来源及失效边界交叉对比}\label{tab:2-8-cross-model-comparison}
+-\begin{tabularx}{\textwidth}{p{2.0cm}p{2.6cm}p{2.6cm}p{2.8cm}p{2.8cm}X}
++\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash\hsize=0.65\hsize}X >{\raggedright\arraybackslash\hsize=1.0\hsize}X >{\raggedright\arraybackslash\hsize=1.0\hsize}X >{\raggedright\arraybackslash\hsize=1.1\hsize}X >{\raggedright\arraybackslash\hsize=1.1\hsize}X >{\raggedright\arraybackslash\hsize=1.15\hsize}X}
+ \toprule
+ \textbf{理论模型} & \textbf{保留自由度} & \textbf{消去动力学} & \textbf{参数来源与输入} & \textbf{主要可预测量} & \textbf{特征失效边界} \\ \midrule
+ \textbf{微观壳模型} & 价空间单粒子算符 $a^\dagger_j, a_j$；全CI组态 & 冻结惰性核芯；截断高能虚激发与连续谱 & 自由核力微扰演化加闭壳实验单极修正 & 好量子数能谱 $E(I^\pi)$；单粒子谱因子；跃迁率 & 中重形变区维数爆炸；跨主壳强侵入态混合失效 \\ \addlinespace
+@@ -165,23 +166,23 @@
+ 理论模型在面对实验数据时，可能遇到模型解释简并：基于不同物理假设的模型，在包含自由可调参数的情况下，可能同时重现低激发能级谱。需要引入对微观动力学更为敏感的独立高阶观测量，对假定的运动机制形成条件约束。本小节通过两类具有实验证据支持的案例讨论这一过程。
+ 
+ \paragraph{案例一：$A \approx 130$ 奇 $A$ 核 $^{135}\mathrm{Pr}$ 低自旋带间跃迁的角分布双解与多模型约束}
+-在三轴奇 $A$ 核 $^{135}\mathrm{Pr}$（$Z=59, N=76$）中，实验观测到基于奇质子 $\pi h_{11/2}$ 组态的多条负宇称转动带。\cite{frauendorf_2014_Transversewobbling,nomura_2022_Questioningwobbling,lv_2022_Evidencewobbling}
+-\begin{itemize}
+-\item \textbf{粒子-转子模型（PRM）框架下的横向摆动分析}。在三轴转子耦合高 $j$ 准粒子的理论框架中，Frauendorf 与 Dönau 提出了一类冻结顺排（frozen alignment）的简化近似模型，即在特定强约束下将准粒子角动量固定在刚体核芯的短轴方向。\cite{frauendorf_2014_Transversewobbling} 在此简化近似下，模型预测低自旋区出现横向摆动模式，即随着自旋增加摆动激发能量单调下降，且一阶带（Band 3）向基带（Band 1）的带间跃迁表现为集体增强的四极跃迁，对应的多极混合比量级预期满足 $|\delta| > 1$。需要指出，将准粒子取向严格冻结在主轴方向仅属于特定教学近似，并不代表粒子-转子模型在更一般的数值求解中都不能包含顺排角动量的动态演化。
+-\item \textbf{重分析与多模型条件约束}。在后续关于 $^{135}\mathrm{Pr}$ 结构的研究中，Nomura 与 Petrache 采用微观自洽能量泛函映射的相互作用玻色子-费米子模型（IBFM），指出该核区的偶偶核芯在微观势能面上具有明显的 $\gamma$ 软性，低自旋带间跃迁可由单粒子激发与软核表面激发混合解释。\cite{nomura_2022_Questioningwobbling} 进一步，Lv 等人重新细致分析了既有实验中的两点角分布各向异性比 $R_{\mathrm{ac}}$ 与线偏振度测量：在所采用的角分布勒让德多项式二次展开下，数学上容许两组混合比解（即 $|\delta_1| > 1$ 的 $E2$ 主导解与 $|\delta_2| < 1$ 的 $M1$ 主导解）。\cite{lv_2022_Evidencewobbling} Lv 等人结合康普顿散射线偏振度 $P$ 的实测数据，指出同一实验数据同样与小根解兼容（对 $747.3\,\mathrm{keV}$ 跃迁提取出 $\delta = -0.47^{+0.09}_{-0.22}$）；在此小根解下，带间跃迁以磁偶极 $M1$ 性质为主导。更进一步，Lv 等人在假定 Band 3 为 1-phonon 纯横向摆动带的模型分析条件下指出，跃迁至签名伴带（Band 2）的 $526.2\,\mathrm{keV}$ 分支理论上预期受到压低；然而实测两带间跃迁的折合跃迁几率比值为：
++在三轴奇 $A$ 核 $^{135}\mathrm{Pr}$（$Z=59, N=76$）中，实验观测到基于奇质子 $\pi h_{11/2}$ 组态的多条负宇称转动带。\cite{frauendorf-2014-transverse-wobbling,nomura-2022-questioning-wobbling-ibfm,lv-2022-evidence-against-wobbling-135pr}
++\begin{itemize}
++\item \textbf{粒子-转子模型（PRM）框架下的横向摆动分析}。在三轴转子耦合高 $j$ 准粒子的理论框架中，Frauendorf 与 Dönau 提出了一类冻结顺排（frozen alignment）的简化近似模型，即在特定强约束下将准粒子角动量固定在刚体核芯的短轴方向。\cite{frauendorf-2014-transverse-wobbling} 在此简化近似下，模型预测低自旋区出现横向摆动模式，即随着自旋增加摆动激发能量单调下降，且一阶带（Band 3）向基带（Band 1）的带间跃迁表现为集体增强的四极跃迁，对应的多极混合比量级预期满足 $|\delta| > 1$。需要指出，将准粒子取向严格冻结在主轴方向仅属于特定教学近似，并不代表粒子-转子模型在更一般的数值求解中都不能包含顺排角动量的动态演化。
++\item \textbf{重分析与多模型条件约束}。在后续关于 $^{135}\mathrm{Pr}$ 结构的研究中，Nomura 与 Petrache 采用微观自洽能量泛函映射的相互作用玻色子-费米子模型（IBFM），指出该核区的偶偶核芯在微观势能面上具有明显的 $\gamma$ 软性，低自旋带间跃迁可由单粒子激发与软核表面激发混合解释。\cite{nomura-2022-questioning-wobbling-ibfm} 进一步，Lv 等人重新细致分析了既有实验中的两点角分布各向异性比 $R_{\mathrm{ac}}$ 与线偏振度测量：在所采用的角分布勒让德多项式二次展开下，数学上容许两组混合比解（即 $|\delta_1| > 1$ 的 $E2$ 主导解与 $|\delta_2| < 1$ 的 $M1$ 主导解）。\cite{lv-2022-evidence-against-wobbling-135pr} Lv 等人结合康普顿散射线偏振度 $P$ 的实测数据，指出同一实验数据同样与小根解兼容（对 $747.3\,\mathrm{keV}$ 跃迁提取出 $\delta = -0.47^{+0.09}_{-0.22}$）；在此小根解下，带间跃迁以磁偶极 $M1$ 性质为主导。更进一步，Lv 等人在假定 Band 3 为 1-phonon 纯横向摆动带的模型分析条件下指出，跃迁至签名伴带（Band 2）的 $526.2\,\mathrm{keV}$ 分支理论上预期受到压低；然而实测两带间跃迁的折合跃迁几率比值为：
+ \begin{equation}\label{eq:2-8-lv-ratio}
+ \frac{B(E2; 747.3\,\mathrm{keV})}{B(E2; 526.2\,\mathrm{keV})} = 0.7^{+0.7}_{-0.5} ,
+ \end{equation}
+-这一接近于 1 的实测比值与纯横向摆动假定的理论预期存在张力。在非冻结准粒子的 QTR 计算中，模型显示随着自旋增加单质子角动量呈现从短轴向中间轴的再顺排，表现为倾斜进动（tilted precession）特征。\cite{lv_2022_Evidencewobbling} 这一分析区分了同一组角分布数据在不同数学分支下的解释简并，构成了对冻结单粒子横向摆动模型假定的条件约束，而具体的实验测量历史演进将在第\ref{sec:4-4}节结合实测谱学数据进一步展开。
++这一接近于 1 的实测比值与纯横向摆动假定的理论预期存在张力。在非冻结准粒子的 QTR 计算中，模型显示随着自旋增加单质子角动量呈现从短轴向中间轴的再顺排，表现为倾斜进动（tilted precession）特征。\cite{lv-2022-evidence-against-wobbling-135pr} 这一分析区分了同一组角分布数据在不同数学分支下的解释简并，构成了对冻结单粒子横向摆动模型假定的条件约束，而具体的实验测量历史演进将在第\ref{sec:4-4}节结合实测谱学数据进一步展开。
+ \end{itemize}
+ 这一案例说明：单纯基于能级能量拟合与未受偏振充分鉴别的角分布大根解，不足以唯一确立特定模式。不同的模型假定通过不同参数选择均能拟合能级结构，而更严格的偏振测量与相对分支比对比，构成了对冻结单粒子横向摆动假设的物理检验与条件约束。
+ 
+ \paragraph{案例二：$A \approx 100$ 富中子锆同位素急剧形状相变的多模型透视}
+-在中子数 $N=60$ 附近的富中子锆同位素（$^{98}\mathrm{Zr}$ 到 $^{100}\mathrm{Zr}$）中，实验上观测到急剧的基态能级演化与低能 $0^+$ 态共存现象。\cite{doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution,doctoral-r1-g28-togashi-2016-zr-mcsm-qpt,Heyde_2011}
++在中子数 $N=60$ 附近的富中子锆同位素（$^{98}\mathrm{Zr}$ 到 $^{100}\mathrm{Zr}$）中，实验上观测到急剧的基态能级演化与低能 $0^+$ 态共存现象。\cite{doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution,doctoral-r1-g28-togashi-2016-zr-mcsm-qpt,heyde-wood-2011-shape-coexistence-review}
+ \begin{itemize}
+ \item \textbf{微观壳模型透视}：大规模蒙特卡洛壳模型（MCSM）计算揭示了微观单极相互作用驱动的“Type-II 壳演化”机制。当质子跃迁占据侵入轨道 $\pi g_{9/2}$ 时，质子与中子之间的自旋-同位旋张量相互作用显著降低了中子 $\nu g_{7/2}$ 轨道的有效单粒子能量（ESPE），使得中子能隙减小，诱发相干组态重构，使得 $^{100}\mathrm{Zr}$ 的基态转变为具有显著四极形变（$\beta_2 \approx 0.4$）的态。\cite{doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution,doctoral-r1-g28-togashi-2016-zr-mcsm-qpt}
+ \item \textbf{自洽集体动力学透视}：在基于微观有效相互作用的 5DCH 计算中，微观约束势能面上展现出形状共存特征：$^{98}\mathrm{Zr}$ 具有深球形极小与微弱形变浅谷，而 $^{100}\mathrm{Zr}$ 呈现深长椭极小；通过求解五维玻尔动能方程，两态波函数在形变空间呈现出局域化的量子重叠。\cite{prochniak-rohozinski-2009-bohr-collective-hamiltonian}
+-\item \textbf{代数模型透视}：IBM-2 配置混合模型则将该相变表述为规则组态 $[N]$ 玻色子态与跨壳质子对激发 $[N+2]$ 玻色子态之间的代数哈密顿量混合。\cite{Heyde_2011}
++\item \textbf{代数模型透视}：IBM-2 配置混合模型则将该相变表述为规则组态 $[N]$ 玻色子态与跨壳质子对激发 $[N+2]$ 玻色子态之间的代数哈密顿量混合。\cite{heyde-wood-2011-shape-coexistence-review}
+ \end{itemize}
+ 虽然三种模型均能描述 $^{98,100}\mathrm{Zr}$ 的能谱特征，但对低激发 $0_2^+ \to 2_1^+$ 弱跃迁与 $2_2^+ \to 0_2^+$ 的强电四极跃迁的定量重现，需要微观组态或微观势能面与动力学质量张量的结合，体现了微观相互作用在形状共存相变中的作用。
+ 

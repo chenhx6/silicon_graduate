@@ -1,0 +1,11 @@
+{
+  "status": "accepted_with_canonical_control_paths",
+  "note": "knowledge/research-notes/a130-rewrite-seniority-projection-open-network-boundaries-20261114.md",
+  "sha256": "f0182ca57bf3871b21425dc724d7cdb2c2b7810e43b80d7a010d1259f18bda7d",
+  "actual_utc": "2026-11-13T21:28:23.426416+00:00",
+  "old_notes_synchronized": [
+    "knowledge/research-notes/a130-rewrite-wing-derivations-and-network-conventions-20261113.md",
+    "knowledge/research-notes/a130-rewrite-weak-windows-cascades-and-operators-20261113.md",
+    "knowledge/research-notes/a130-rewrite-weak-operator-and-counting-network-audit-20261114.md"
+  ]
+}

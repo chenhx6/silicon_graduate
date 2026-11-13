@@ -165,6 +165,8 @@
   },
   "superseded_ledger_history": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G85/rejected-ledger-history/section-3-6-before-parent-reconciliation.json",
   "parent_final_tex_sha256": "4abe8e596f107ef849fa7c8764ec185edab288785540b0acf120f6ddb8b6ff11",
-  "integration_status": "included-in27-section-clean-preview",
-  "publication_normalization": "Trailing whitespace removed from SVG path lines and future producer exports; XML parses, all non-whitespace bytes and PDF images unchanged. See checkpoint27/svg-whitespace-normalization.json."
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "publication_normalization": "Trailing whitespace removed from SVG path lines and future producer exports; XML parses, all non-whitespace bytes and PDF images unchanged. See checkpoint27/svg-whitespace-normalization.json.",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-6.tex",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
 }

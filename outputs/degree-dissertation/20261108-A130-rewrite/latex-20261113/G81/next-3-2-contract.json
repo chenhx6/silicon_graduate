@@ -1,0 +1,160 @@
+{
+  "section_id": "3.2",
+  "title": "稳定转轴与摆动的局域极限",
+  "section_label": "sec:3-2",
+  "contract_status": "provisional-contract-audited-awaiting-t14-reconciliation",
+  "executor": "gemini-execution-agent (G81)",
+  "timestamp": "2026-11-13T03:30:07.545291+00:00",
+  "predecessor_sections": [
+    "2.4",
+    "2.6",
+    "3.1"
+  ],
+  "successor_sections": [
+    "3.3",
+    "3.4",
+    "3.6"
+  ],
+  "reader_starting_point": "读者已在第2.4节掌握四极玻尔坐标、主轴系统与黎曼体积元测度，在第2.6节理解势能曲面刚度、转动惯量与微观配对响应的解耦，并在第3.1节掌握大振幅转动与小振幅局部展开的理论架构。",
+  "central_question": "三轴非轴对称刚体转子与无旋流体转子在主轴惯量排序与转动取向偏好上有何根本对立？体系在欧拉经典动力学与量子转子哈密顿量下如何选择稳定转轴？小振幅双横向二次展开如何导出纯转子摆动频率，其单位约定、两种截然不同的轴对称极限以及有限自旋非谐效应的物理边界究竟是什么？",
+  "pedagogical_question_chain": [
+    "Q1: 为什么刚体模型与无旋流体模型对核主轴惯量排序的预言存在方向性截然对立？短/中/长轴 (s/m/l) 与坐标轴 (x/y/z 或 1/2/3) 的对应关系如何严格固定，以防止符号与结论混乱？",
+    "Q2: 在经典欧拉动力学与角动量守恒球面上，绕最大惯量轴、最小惯量轴与中间惯量轴的转动为何具有完全不同的动力学稳定性（两类极值点与鞍点分离线）？",
+    "Q3: 如何在体轴系无量纲角动量反常对易代数 [\\mathcal{I}_a, \\mathcal{I}_b] = -i \\epsilon_{abc} \\mathcal{I}_c 基础上，对绕最大惯量轴的转动进行小振幅双横向二次展开？转动常数 A_k = \\hbar^2 / (2\\mathcal{J}_k) 与转动角频率 \\hbar \\omega_{\\text{rot}} = \\hbar^2 I / \\mathcal{J}_1 的量纲如何严格统一，以导出纯转子摆动频率 \\hbar \\omega_{\\text{wob}}？",
+    "Q4: 两种轴对称极限的几何标签究竟如何严格界定？当 \\mathcal{J}_1 = \\mathcal{J}_2 时，为什么轴 3 为对称轴而主转动轴 1 位于简并赤道平面内，导致横向恢复力消失且 \\omega_{\\text{wob}} \\to 0？当 \\mathcal{J}_2 = \\mathcal{J}_3 时，为什么轴 1 本身退化为对称轴，此时出现的非零特征频率不能被断言为无物理意义，而是必须与高 K 态单粒子进动做出严格区分？",
+    "Q5: 为什么固定的转动惯量参数并不意味着体系在有限自旋 I 下必然呈现等间距的谐振子谱？R_{21} 偏离 1 的机制是什么，为什么不能在缺乏跃迁矩阵元指纹约束的情况下将任意三个能态机械命名为 n=0, 1, 2 摆动声子态？"
+  ],
+  "subsections_blueprint": [
+    {
+      "id": "3.2.1",
+      "title": "三轴形变转子的主轴标记与惯量机制对立",
+      "label": "sec:3-2-1",
+      "argument": "明确三轴椭球几何半轴 (R_s < R_m < R_l) 与转动惯量的本构关系。刚体模型下核子随核形状整体旋转，绕最短轴惯量最大 (J_s^rig > J_m^rig > J_l^rig)；无旋流体模型（Bohr 1952 / BM 1953）中只有表面波随体流动，惯量正比于 sin^2(gamma - 2pi/3 k)，在标准扇区 gamma 约 30 度附近，绕中间轴的惯量反而最大 (J_m^irr > J_s^irr, J_l^irr)。建立统一的转动常数 A_k = hbar^2 / (2 J_k) 符号体系，避免将中间轴与几何短轴混同。",
+      "key_equations": [
+        "\\mathcal{J}_k^{\\text{irr}} = 4 B \\beta^2 \\sin^2\\left(\\gamma - \\frac{2\\pi}{3} k\\right)",
+        "\\mathcal{J}_s^{\\text{rig}} > \\mathcal{J}_m^{\text{rig}} > \\mathcal{J}_l^{\text{rig}} \\quad \\text{vs.} \\quad \\mathcal{J}_m^{\\text{irr}} > \\mathcal{J}_s^{\\text{irr}}, \\mathcal{J}_l^{\\text{irr}} \\quad (\\text{在 } \\gamma \\approx 30^\\circ)"
+      ]
+    },
+    {
+      "id": "3.2.2",
+      "title": "欧拉稳态转动与非主轴相空间分离线",
+      "label": "sec:3-2-2",
+      "argument": "通过经典欧拉转动方程分析定常转动。在固定角动量模方球面上，动能面显示：绕最大惯量轴转动能量严格极小（yrast 态稳态）；绕最小惯量轴转动能量严格极大（高能稳态）；绕中间惯量轴转动能量处于鞍点，经典相空间存在拓扑分离线（separatrix），产生非线性不稳定进动。这奠定了量子 yrast 转动态优先绕最大惯量轴稳定取向的微观动力学基础。",
+      "key_equations": [
+        "E = \\frac{1}{2} \\sum_{k=1}^3 \\frac{I_k^2}{\\mathcal{J}_k}, \\quad \\sum_{k=1}^3 I_k^2 = I^2",
+        "\\text{稳定轴：最大惯量轴 (极小能) 与最小惯量轴 (极大能)；不稳定轴：中间惯量轴 (鞍点)}"
+      ]
+    },
+    {
+      "id": "3.2.3",
+      "title": "小振幅双横向展开与纯转子摆动频率",
+      "label": "sec:3-2-3",
+      "argument": "设主转动轴为最大惯量轴 1（A_1 < A_2, A_3）。采用能量量纲的转动常数 A_k = hbar^2 / (2 J_k) 与无量纲体轴角动量算符 I_k = J_k / hbar，严格满足体坐标反常对易关系 [I_a, I_b] = -i epsilon_{abc} I_c。在大自旋 I_1 展开下 I_1 约等于 I - (I_2^2 + I_3^2)/(2I)。通过双横向 Holstein-Primakoff 玻色化与 Bogoliubov 变换对角化，导出纯转子摆动频率 hbar omega_wob。转动角频率统一表述为 hbar omega_rot = 2 A_1 I = hbar^2 I / J_1，确保频率公式与能量量纲严格自洽。",
+      "key_equations": [
+        "[\\mathcal{I}_2, \\mathcal{I}_3] = -i \\mathcal{I}_1 \\approx -i I",
+        "H \\approx A_1 I^2 + \\hbar \\omega_{\\text{wob}} \\left( c^\\dagger c + \\frac{1}{2} \\right)",
+        "\\hbar \\omega_{\\text{wob}} = 2I \\sqrt{(A_2 - A_1)(A_3 - A_1)} = \\hbar \\omega_{\\text{rot}} \\sqrt{\\frac{(\\mathcal{J}_1 - \\mathcal{J}_2)(\\mathcal{J}_1 - \\mathcal{J}_3)}{\\mathcal{J}_2 \\mathcal{J}_3}} \\quad \\left( \\hbar \\omega_{\\text{rot}} = \\frac{\\hbar^2 I}{\\mathcal{J}_1} \\right)"
+      ]
+    },
+    {
+      "id": "3.2.4",
+      "title": "两种轴对称极限与零频佯谬辨析",
+      "label": "sec:3-2-4",
+      "argument": "严格辨析两种具有不同几何构型的轴对称极限：(1) 赤道惯量简并极限 J_1 = J_2 \\equiv J_perp > J_3：此时轴 3 为长椭球对称轴，主转动轴 1 位于简并赤道平面内，由于 A_1 = A_2 使得横向摆动恢复力完全消失，hbar omega_wob -> 0，摆动运动退化为经典对称陀螺的自由进动；(2) 绕对称轴极限 J_2 = J_3 \\equiv J_perp < J_1：此时轴 1 本身为主转动对称轴，公式给出 hbar omega_wob = 2I (A_perp - A_1) > 0。此非零频率不能被无条件斥为无物理意义，而是对应于绕对称轴转动的高 K 进动态（在纯集体模型中无结构波包禁止绕对称轴集体旋转，但真实核中由内部准粒子轨道角动量支撑，需与三轴横向声子摆动严格区分）。",
+      "key_equations": [
+        "\\mathcal{J}_1 = \\mathcal{J}_2 \\equiv \\mathcal{J}_\\perp > \\mathcal{J}_3 \\implies \\text{轴 3 为对称轴，轴 1 位于赤道面，} \\hbar \\omega_{\\text{wob}} \\to 0",
+        "\\mathcal{J}_2 = \\mathcal{J}_3 \\equiv \\mathcal{J}_\\perp < \\mathcal{J}_1 \\implies \\text{轴 1 为对称轴，} \\hbar \\omega_{\\text{wob}} = 2I(A_\\perp - A_1) \\ne 0 \\quad (\\text{对应高 } K \\text{ 进动机制})"
+      ]
+    },
+    {
+      "id": "3.2.5",
+      "title": "有限自旋非谐性与谐振声子图景的破缺",
+      "label": "sec:3-2-5",
+      "argument": "固定转动惯量只固定了哈密顿量算符形式，并不意味着有限自旋 I 下能级差普遍保持严格等间距。有限 I 下 Davydov-Filippov 严格解展现出随 I 和 gamma 变化的非谐性。明确 R_{21} 不普遍等于 1 不等于其必然严格不等；更重要的是，绝不能在缺乏带间 B(E2) 跃迁指纹和微观结构认证的情况下，机械地把能谱中任意三个能级贴上 n=0, 1, 2 声子标签。多声子谐振图景仅是渐近高自旋且低声子数下的局域有效模型。",
+      "key_equations": [
+        "R_{21} = \\frac{E(n=2, I) - E(n=1, I)}{E(n=1, I) - E(n=0, I)} \\not\\equiv 1 \\quad (\\text{有限自旋存在非谐性})",
+        "\\text{声子标签 } n \\text{ 必须受带间跃迁与电磁选择定则严格约束，不能仅凭能谱顺序臆断}"
+      ]
+    }
+  ],
+  "source_readiness_audit": [
+    {
+      "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+      "canonical_source": "A. Bohr & B. R. Mottelson, Nuclear Structure, Vol. II: Nuclear Deformations, World Scientific (1998 reissue)",
+      "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "raw_sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "read_locators": "PDF pp. 212–215 (printed pp. 190–193, Section 4-5e States with Large I, Eqs.(4-296)–(4-307))",
+      "status": "VERIFIED_READY",
+      "supports": "大自旋展开、体轴对易关系 [I_2, I_3] = -i I、二次玻色化对角化及纯转子摆动频率公式"
+    },
+    {
+      "source_id": "bohr-1952-surface-particle-coupling",
+      "canonical_source": "A. Bohr, Dan. Mat. Fys. Medd. 26, no. 14 (1952)",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-1952-mfm26-14.pdf",
+      "raw_sha256": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d",
+      "read_locators": "pp. 8–18 (Section II, Collective Hamiltonian and irrotational inertia)",
+      "status": "VERIFIED_READY",
+      "supports": "无旋流体四极动能项与流体力学转动惯量经典导出"
+    },
+    {
+      "source_id": "bohr-mottelson-1953-collective-individual-original",
+      "canonical_source": "A. Bohr & B. R. Mottelson, Dan. Mat. Fys. Medd. 27, no. 16 (1953)",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-mottelson-1953-mfm27-16.pdf",
+      "raw_sha256": "b0501e3e098869a7fb14527a3dc8c9b80444affdb265394a928e0794ae708945",
+      "read_locators": "pp. 24–36, 102–110 (Appendix B, Irrotational moments of inertia)",
+      "status": "VERIFIED_READY",
+      "supports": "无旋流体转动惯量 J_k = 4 B beta^2 sin^2(gamma - 2pi/3 k) 形式与刚体对照"
+    },
+    {
+      "source_id": "book-raduta-coherent-states",
+      "canonical_source": "A. A. Raduta, Nuclear Structure with Coherent States, Springer (2016)",
+      "raw_file": "raw/books/nuclear structure with coherent states_Raduta.pdf",
+      "raw_sha256": "98b057e53e323b0f4781060ad5ae4a8c045ac36b32c0650033953360d951aca3",
+      "read_locators": "PDF pp. 115–142 (Chapter 4, Semiclassical top, Poincaré sections and separatrix)",
+      "status": "VERIFIED_READY",
+      "supports": "经典三轴转子相空间极值点、能量鞍点与分离线拓扑性质"
+    },
+    {
+      "source_id": "matsuzaki-2004-nuclear-inertia-and-wobbling",
+      "canonical_source": "M. Matsuzaki et al., Phys. Rev. C 69, 034306 (2004)",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/matsuzaki-2004-nuclear-moments-of-inertia-prc69-034306.pdf",
+      "raw_sha256": "9ea9fb2c8b9e73b0352a219ace7efc6182d6b5471b38d32cb96bc539e4aa6bf7",
+      "read_locators": "PDF pp. 2–8 (Section II, RPA wobbling and dynamic inertia definition)",
+      "status": "VERIFIED_READY",
+      "supports": "摆动频率与推转有效惯量的关系边界，为与纯转子对比提供现代微观参照"
+    },
+    {
+      "source_id": "kvasil-2006-dy156-yb162-crpa-wobbling",
+      "canonical_source": "J. Kvasil & R. G. Nazmitdinov, arXiv:nucl-th/0611059v1 (2006)",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-g45-quantum-labels/kvasil-nazmitdinov-2006-wobbling-dy156-yb162.pdf",
+      "raw_sha256": "dee4d852c401c5d522b10655d26a477925f9e8da7b06c09190e66243f3fa2405",
+      "read_locators": "PDF pp. 1–4, 16 (CRPA equations for wobbling)",
+      "status": "VERIFIED_READY",
+      "supports": "微观推转 RPA 框架下的摆动频率响应及其与 Inglis 静态惯量的偏离边界"
+    }
+  ],
+  "terra_delegation_boundaries": [
+    {
+      "topic": "频率依赖微观有效惯量 J_eff(omega) 的自洽 CRPA 响应求和推导",
+      "reason": "超出经典与纯量子转子的教学局域展开范畴，涉及微观准粒子连续跃迁与残余相互作用求逆，由父交 Terra 独立计算处理",
+      "g81_boundary": "G81 在 3.2 节中仅引用已核文献结论作为对比参照，不自行编造微观响应函数"
+    },
+    {
+      "topic": "奇 A 核准粒子顺排与非对称核芯的非绝热动力学耦合",
+      "reason": "属于第 3.3 节与高阶粒子-转子模型专项内容，需详细处理冻结内禀 K 与科里奥利反转",
+      "g81_boundary": "G81 在 3.2 节严格限定于纯转子核芯的稳定转轴与局域摆动极限"
+    },
+    {
+      "topic": "有限自旋相空间分离线附近的量子隧穿与椭圆积分精确解",
+      "reason": "经典分离线处的相轨迹发散与非微扰量子隧穿属于高阶数理专题",
+      "g81_boundary": "G81 在 3.2 节仅做定性拓扑几何说明，不引入未核实的高阶椭圆函数展开"
+    }
+  ],
+  "prohibitions_strictly_obeyed": [
+    "现在仅写本合同，不改已有 tex、ledger、主工程或已发布的 15 节检查点",
+    "不重写已核准的 3.5、2.5 与附录 B",
+    "不把固定惯量推广成精确谐振谱，保留有限自旋非谐边界",
+    "在收到父级明确 START 指令前，绝不提前生成 sec-3-2.tex"
+  ],
+  "scientific_status_note": "本合同为预备性合同与来源就绪审计，明确标明就绪状态不等于科学最终正确；争议点与深层微观推导待 T14 审查报告及父级协调后最终对账。"
+}

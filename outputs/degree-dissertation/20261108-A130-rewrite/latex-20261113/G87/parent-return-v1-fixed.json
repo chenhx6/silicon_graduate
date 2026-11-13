@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "executor": "G87 (Gemini Tiered/high)",
+    "timestamp": "2026-11-13T14:30:00+00:00",
+    "batch": 1,
+    "scope": [
+      "4.8"
+    ],
+    "review_iteration": "v1-fixed",
+    "status": "parent-return-fixed-awaiting-parent-acceptance",
+    "execution_domain": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G87/",
+    "canonical_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-8.tex",
+    "canonical_tex_sha256": "11d7900a6214aefc391581dbef2e1a6deccddae98c422ac35d36f4b6a15098ff",
+    "staging_tex": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G87/staging/sec-4-8.tex",
+    "staging_tex_sha256": "11d7900a6214aefc391581dbef2e1a6deccddae98c422ac35d36f4b6a15098ff",
+    "evidence_ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-8.json",
+    "evidence_ledger_sha256": "5855d48ad886c4eb722681bf5c0f24a1a82ab3a016d28cae722e751d2cea210d",
+    "new_references_bib": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G87/new-references.bib",
+    "new_references_bib_sha256": "f170ad4da686e3bd76e14a6245b7cfaa508565fcaa892ae94675c72859cd47a4",
+    "research_note": "knowledge/research-notes/a130-rewrite-environment-formation-observability-20261113.md",
+    "research_note_sha256": "4cc9c431c4857ee3b50e462bf96f583bab68b659009c876491a90325a2545dce",
+    "figure_pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/environment-network-pathways.pdf",
+    "figure_pdf_sha256": "a23aff71ff038ba18a3366d072194699571666b462bf11b09558ad2cccf11684"
+  },
+  "parent_critique_resolutions": [
+    {
+      "point_id": 1,
+      "sol_critique": "无中微子/详细平衡只在声明环境；『恒星对中微子光学薄』不是所有恒星环境（核心坍缩/致密区可俘获），应限定所用开放网络而非普遍事实。",
+      "tex_repair_anchor": "sec-4-8.tex 第4.8.1小节第2小段『关键科学合同与适用边界声明』第(1)条",
+      "ledger_repair_anchor": "section-4-8.json -> notations_and_conventions['detailed_balance_em'], claims_and_derivations[0]",
+      "concrete_fix": "将原先泛化的『恒星内部中微子光学薄』明确限定为『在所声明的典型 s-过程氦燃烧壳层等非致密天体演化环境（与核心坍缩超新星或原中子星等极端高密度中微子被捕获扩散的致密区不同）中』；严密界定：微观成对电磁详细平衡严格受限于可逆电磁跃迁，在声明环境下由于弱衰变发射的中微子自由逃逸且不存在简并中微子海洋平衡逆吸收，导致弱衰变为单向非对称漏失，因此微观电磁平衡不等于全网宏观热平衡。"
+    },
+    {
+      "point_id": 2,
+      "sol_critique": "tau_therm=1/(a+b)只用于闭合两态交换/给定线性化；有β/俘获sinks、sources、T(t)和bridge时慢模由全A决定，不普适。Gosselin非瓶颈增强不加速只能是其指定网络结果。",
+      "tex_repair_anchor": "sec-4-8.tex 第4.8.1小节第3小段第(1)条『闭合无损失极限下的热化时间标度』及第4小段",
+      "ledger_repair_anchor": "section-4-8.json -> claims_and_derivations[0] 第5步，source_inputs[0, 1]",
+      "concrete_fix": "明确指出 tau_therm = 1/(a+b) 严格依赖于『闭合双态、恒定温度、无外部漏失』的理想化前提；在存在非对称漏失 (D_g != D_m)、随时间演化温度轨迹 T(t)、连续外源馈入 P(t) 以及多重中间桥态的真实开放网络中，系统最慢弛豫本征模由全转移矩阵 A(T, n_e, ...) 的本征谱决定。同时在分析 Gosselin 2010 时，明确指出 72 keV 低能电子增强不加速全网是『在其特定衰变网络拓扑与分支比结构下的固有属性』，不可盲目推论为所有核素网络均对电子过程免疫。"
+    },
+    {
+      "point_id": 3,
+      "sol_critique": "Th229中性~7us不是Kraemer2023这一项实验直接同时测的两个介质；半衰期vsmeanlife及CaF2那一时常何种定义必须各自原作核，核钟R3 note已有纠正版本。host折射率/缺陷/非辐射通道不可因bandgap就断『纯辐射/核波函数形变完全不变』。只能说该寿命差不足以推出intrinsic deformation变化，核/电子/光场环境作用分别列。",
+      "tex_repair_anchor": "sec-4-8.tex 第4.8.2小节第3小段『原件实例一：229Th 光学核钟的寿命重塑与本征形变不变性』",
+      "ledger_repair_anchor": "section-4-8.json -> source_inputs[2, 3], claims_and_derivations[1]",
+      "concrete_fix": "严格分别引用两项独立原件：中性原子表面沉积内转换半衰期 T_1/2 = 7(1) us 取自 Seiferle et al. (Nature 2017)；晶体环境取自 Kraemer et al. (Nature 2023, PDF p. 1, 3)，明确指出实测的是植入 MgF2 晶体中的辐射退激『半衰期』T_1/2 = 670(102) s，经折射率 (n=1.488) 局域场修正后推断真空半衰期为 2.21(34) x 10^3 s。补充指出固体晶格中存在折射率调制、晶格缺陷与潜在非辐射猝灭通道；将论断调整为：宏观寿命巨变纯由外部电子通道关闭驱动，不足以推出核本征四极形变或核矩阵元发生变化，核结构内禀矩阵元、原子外层电子占有态及介质介电场效应必须逐层独立解耦。"
+    },
+    {
+      "point_id": 4,
+      "sol_critique": "93Mo正信号/理论/假符合解释/上限必须同一可观测定义、靶/束/电子条件，不能将一个设置上限普遍排除所有NEEC，也不直接归因某个假符合机制为已证；每个1%、1e−11、2e−5都需实际PDF页/短anchor核。不需要数字就删，不靠记忆。",
+      "tex_repair_anchor": "sec-4-8.tex 第4.8.2小节第4小段『原件实例二：93mMo 的 NEEC 诱发退激争议与实验批判』",
+      "ledger_repair_anchor": "section-4-8.json -> source_inputs[4, 5, 6, 7], claims_and_derivations[1]",
+      "concrete_fix": "将 Chiara 2018（重离子熔合反冲核穿透碳膜慢化，P_exc = 0.010(3) 即 1.0(3)%，PDF p. 2, 5）、Wu 2019（相对论阻止本领计算，P_exc^theory ~ 2.3e-11 到 2.7e-11，PDF p. 2, 4）、Guo 2021（Matters Arising 竞争解释，指出瞬发强本底与假符合污染，PDF p. 1-2）以及 Guo 2022（ATLAS 纯净反冲异能束慢化，P_exc < 2e-5 at 95% CL，PDF p. 1, 5）严格置于同一可观测量框架下。明确指出 2e-5 上限是在阿贡 ATLAS 反冲异能束慢化这一特定实验装置与能量条件下测得的，它直接证伪了该特定条件下的宏观大截面声称，但并不等同于在所有物理平台（如储存环、EBIT）中全面排除了 NEEC 机制；未将假符合直接作为已证结论，而是作为合理竞争解释。"
+    },
+    {
+      "point_id": 5,
+      "sol_critique": "NEEC capture-vacancy共振与NEIES散射最终电子态区分正确，别将所有散射模型说成绝无resonance/固定能量形状。",
+      "tex_repair_anchor": "sec-4-8.tex 第4.8.2小节第2小段第(3)、(4)条",
+      "ledger_repair_anchor": "section-4-8.json -> notations_and_conventions['neec_resonance', 'neies_continuum']",
+      "concrete_fix": "严格依据末态电子状态进行物理区分：NEEC 末态电子被捕获为原子束缚态（E_e + E_b = E_nuc^*，时间反演内转换，严格单能共振）；NEIES 末态电子仍在连续谱空间（E_e' = E_e - E_nuc^* > 0，非弹性碰撞散射）。软化散射谱形表述：指出 NEIES 主要表现为平滑的连续阈值截面，但在复杂低能电子--离子碰撞中可能叠加坡形共振或 Feshbach 自电离共振结构，但其出射电子处于连续谱的基本物理图像与束缚态捕获 NEEC 绝非同义。"
+    },
+    {
+      "point_id": 6,
+      "sol_critique": "PCN=1e−2..1e−5、Ed15..20、barrier+1..3MeV若不指定核/反应/模型能区不是普遍常数，去非必要范围或完整定位条件。",
+      "tex_repair_anchor": "sec-4-8.tex 第4.8.3小节第2小段第(2)条、第3小段及第4小段",
+      "ledger_repair_anchor": "section-4-8.json -> notations_and_conventions, claims_and_derivations[2]",
+      "concrete_fix": "对所有参数严格补充反应体系与模型定位条件：(1) P_CN 明确指出中轻核反应 P_CN ~ 1，而在超重核大质量碰撞体系（如对称冷熔合 70Zn+208Pb 或使用锕系靶的热熔合 48Ca+244Pu，Z1 Z2 >= 1600-2000，Zagrebaev 2001 PDF pp. 5, 10-11）中因准裂变压低至 10^-2 到 10^-5，具有显著体系依赖性；(2) 壳阻尼常数 E_d 明确声明为 Ignatyuk 唯象模型针对锕系与超重核拟合的参数区间 E_d = 1/gamma_D ~ 15-20 MeV (gamma_D ~ 0.055-0.061 MeV^-1，Zagrebaev 2001 PDF p. 6, 8)；(3) 裂变位垒增高与展宽明确限定为 Xu 2004 (PDF pp. 1-3) 针对 256Fm 的 7- 异能态及变形超重核高 K 组态势能面微观计算结果。"
+    },
+    {
+      "point_id": 7,
+      "sol_critique": "Wsur连乘是声明statistical model/通道集合、E*/J步进条件，不是所有反应严格定理；cold highK barrier不保证hot Wsur，但你『壳完全阻尼/冷异能态位垒无贡献』过强，阻尼/形状/构型/配对记忆需模型核，改不能直接等同/须独立计算，别做相反方向的绝对排除。",
+      "tex_repair_anchor": "sec-4-8.tex 第4.8.3小节第2小段第(3)条及第4小段",
+      "ledger_repair_anchor": "section-4-8.json -> claims_and_derivations[2], competing_explanations_and_boundaries[3]",
+      "concrete_fix": "将 W_sur 严格表述为『在声明采用 Hauser-Feshbach 与 Weisskopf 统计蒸发模型、独立粒子发射假定以及声明开放通道集合的框架下』的近似连乘积；在讨论高 K 异能态裂变位垒时，将原先『壳完全阻尼/冷异能态位垒无贡献』的绝对化措辞修正为：复合核在 E* ~ 30-50 MeV 高温激发能区时，单粒子多准粒子构型面临强烈的多体残余阻尼与统计混合，宏观壳修正经历显著指数衰退，因此零温冷态下的离散异能态位垒不能直接等同于高温蒸发阶段的有效位垒，复合核存活几率必须在统计模型中随能量和角动量独立计算，不做相反方向的绝对排除。"
+    },
+    {
+      "point_id": 8,
+      "sol_critique": "请给G87/parent-return-v1-fixed.json按以上逐条实际tex/ledger修复锚点+所有保留数字的source/实际页/page_count/role核对；特别源内T1/2/τ、不同采集依赖，别填凭空locators。",
+      "tex_repair_anchor": "本文件 outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G87/parent-return-v1-fixed.json",
+      "ledger_repair_anchor": "section-4-8.json 完整同步",
+      "concrete_fix": "建立本表及下方详尽的保留数字与源内物理量核对矩阵，每个数字均标明物理定义（T_1/2 vs tau）、实验介质条件、所属文献实际 PDF 页、总页数与短原文 anchor。"
+    }
+  ],
+  "preserved_quantities_and_source_audit": [
+    {
+      "quantity": "T_9 = 0.25 (kT ≈ 21.5 keV)",
+      "physical_role": "天体等离子体温度模型算例条件",
+      "canonical_source": "V. Gintautas et al., Phys. Rev. C 80, 015806 (2009)",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G33/gintautas-2009-176lu-thermal-equilibration.pdf",
+      "page_count": 9,
+      "actual_read_pages": [
+        4,
+        5
+      ],
+      "text_anchor": "PDF p. 4, col. 2, Eq. (24) & text: 'Figure 3 shows the thermal equilibration of 176Lu at T9 = 0.25...'"
+    },
+    {
+      "quantity": "Delta E_x = 517 eV, V_max = 258.5 eV",
+      "physical_role": "176Lu 中 724.7 与 725.2 keV 双能级间距与微观混合矩阵元上限",
+      "canonical_source": "V. Gintautas et al., Phys. Rev. C 80, 015806 (2009)",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G33/gintautas-2009-176lu-thermal-equilibration.pdf",
+      "page_count": 9,
+      "actual_read_pages": [
+        4
+      ],
+      "text_anchor": "PDF p. 4, col. 2, Eq. (16): 'Delta E = 517 eV ... maximum possible value for V is 258.5 eV'"
+    },
+    {
+      "quantity": "tau_therm ~ 10^5 s (t ~ 10^5 s)",
+      "physical_role": "理想闭合无损失两簇模型下跨带平衡弛豫时间尺度",
+      "canonical_source": "V. Gintautas et al., Phys. Rev. C 80, 015806 (2009)",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G33/gintautas-2009-176lu-thermal-equilibration.pdf",
+      "page_count": 9,
+      "actual_read_pages": [
+        5
+      ],
+      "text_anchor": "PDF p. 5, Fig. 3: Abundances approach quasi-equilibrium plateau around t = 10^5 s"
+    },
+    {
+      "quantity": "Delta E = 72 keV",
+      "physical_role": "180Ta 中 594 keV 中间态向 522 keV 态的低能退激跃迁能量",
+      "canonical_source": "G. Gosselin et al., Phys. Rev. C 81, 055808 (2010)",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G33/gosselin-2010-176lu-180ta-plasma-transitions.pdf",
+      "page_count": 10,
+      "actual_read_pages": [
+        7
+      ],
+      "text_anchor": "PDF p. 7, col. 2: 'enhancement of more than a factor of two is found for the low-energy Delta E = 72 keV transition from the lowest IMS at 594 keV'"
+    },
+    {
+      "quantity": "T_1/2 = 7(1) us",
+      "physical_role": "中性 229Th 原子表面沉积内转换半衰期（非辐射，非同一实验）",
+      "canonical_source": "B. Seiferle et al., Nature 543, 622 (2017) (cited by Kraemer 2023, Beeks 2021)",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear_clock/2023_Kraemer et al_Observation of the radiative decay of the 229Th nuclear clock isomer.pdf",
+      "page_count": 13,
+      "actual_read_pages": [
+        1
+      ],
+      "text_anchor": "PDF p. 1, col. 2: 'A half-life of 7(1) us has been reported for 229mTh0 deposited onto a metal surface (ref. 13)'"
+    },
+    {
+      "quantity": "E_iso = 8.338(24) eV (lambda = 148.71(42) nm)",
+      "physical_role": "229mTh 异能态精密测定真空光子能量与波长",
+      "canonical_source": "S. Kraemer et al., Nature 617, 706 (2023)",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear_clock/2023_Kraemer et al_Observation of the radiative decay of the 229Th nuclear clock isomer.pdf",
+      "page_count": 13,
+      "actual_read_pages": [
+        1,
+        3
+      ],
+      "text_anchor": "PDF p. 1: 'The 229mTh isomer energy was determined to be 8.338(24) eV (148.71(42) nm)'"
+    },
+    {
+      "quantity": "T_1/2 = 670(102) s (MgF2)",
+      "physical_role": "229mTh 植入 MgF2 晶体中实测辐射退激半衰期 (Half-life)",
+      "canonical_source": "S. Kraemer et al., Nature 617, 706 (2023)",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear_clock/2023_Kraemer et al_Observation of the radiative decay of the 229Th nuclear clock isomer.pdf",
+      "page_count": 13,
+      "actual_read_pages": [
+        1,
+        3
+      ],
+      "text_anchor": "PDF p. 1: 'the radiative decay half-life of 229mTh embedded in MgF2 is determined to be 670(102) s'; PDF p. 3: 'a half-life value of 670(102) s for the decay of 229mTh'"
+    },
+    {
+      "quantity": "T_1/2^vac = 2.21(34) x 10^3 s",
+      "physical_role": "考虑 MgF2 折射率 n=1.488 局域场修正后推断的真空辐射半衰期",
+      "canonical_source": "S. Kraemer et al., Nature 617, 706 (2023)",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear_clock/2023_Kraemer et al_Observation of the radiative decay of the 229Th nuclear clock isomer.pdf",
+      "page_count": 13,
+      "actual_read_pages": [
+        4
+      ],
+      "text_anchor": "PDF p. 4, col. 2: 'Applying a n^3 dependence using the half-life value determined for MgF2 with n = 1.488 at 148.7 nm a half-life of 2.21(34) x 10^3 s can be inferred'"
+    },
+    {
+      "quantity": "P_exc = 0.010(3) (1.0(3)%)",
+      "physical_role": "Chiara 2018 碳膜慢化中宣称的 93mMo 耗散几率",
+      "canonical_source": "C. J. Chiara et al., Nature 554, 216 (2018)",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear battery/2018_Chiara et al_Isomer depletion as experimental evidence of nuclear excitation by electron capture.pdf",
+      "page_count": 10,
+      "actual_read_pages": [
+        2,
+        5
+      ],
+      "text_anchor": "PDF p. 2: 'to be Pexc = 0.010(3)'; PDF p. 5: 'Pexc = RA268(1+alpha)/A2475 = 1.0(3)%'"
+    },
+    {
+      "quantity": "P_exc^theory ≈ 2.3 x 10^-11 ~ 2.7 x 10^-11 (~ 10^-11)",
+      "physical_role": "Wu 2019 针对 Chiara 设置计算的相对论阻止本领 NEEC 理论几率",
+      "canonical_source": "Yuanbin Wu et al., Phys. Rev. Lett. 122, 212501 (2019)",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear battery/2019_Wu et al_Mo 93 m Isomer Depletion via Beam-Based Nuclear Excitation by Electron Capture.pdf",
+      "page_count": 6,
+      "actual_read_pages": [
+        2,
+        4
+      ],
+      "text_anchor": "PDF p. 2: 'probabilities of approximately 10^-11, 9 orders of magnitude smaller'; PDF p. 4, Table I: Total P ranges from 2.26 x 10^-11 to 2.73 x 10^-11"
+    },
+    {
+      "quantity": "P_exc < 2 x 10^-5 (95% C.L.)",
+      "physical_role": "Guo 2022 在 ATLAS 纯净反冲异能束慢化特定设置下确立的上限",
+      "canonical_source": "S. Guo et al., Phys. Rev. Lett. 128, 242502 (2022)",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear battery/2022_Guo et al_Probing Mo 93 m Isomer Depletion with an Isomer Beam.pdf",
+      "page_count": 6,
+      "actual_read_pages": [
+        1,
+        4,
+        5
+      ],
+      "text_anchor": "PDF p. 1: 'upper limit of 2 x 10^-5 is estimated for the excitation probability'; PDF p. 5: 'sets an upper limit of 2 x 10^-5 for the NEEC probability'"
+    },
+    {
+      "quantity": "gamma_D ≈ 0.055--0.061 MeV^-1 (E_d ~ 15--20 MeV)",
+      "physical_role": "Ignatyuk 唯象模型针对锕系/超重核拟合的壳阻尼常数",
+      "canonical_source": "V. I. Zagrebaev et al., Phys. Rev. C 65, 014607 (2001)",
+      "raw_file": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.65.014607.pdf",
+      "page_count": 14,
+      "actual_read_pages": [
+        6,
+        8
+      ],
+      "text_anchor": "PDF p. 6, Eq. (12): delta U(E*) = delta U exp(-gamma_D E*); PDF p. 8: 'with the damping factor gamma_D = 0.061 MeV^-1'"
+    },
+    {
+      "quantity": "256Fm 7- isomer T_1/2^SF = 0.8 ms (vs 2.5 us expected)",
+      "physical_role": "徐甫荣等人引用的多准粒子高 K 异能态自发裂变阻碍实例",
+      "canonical_source": "F. R. Xu et al., Phys. Rev. Lett. 92, 252501 (2004)",
+      "raw_file": "raw/papers/isomer/isomer_application/superheavy_nuclei/2004_Xu et al_Enhanced Stability of Superheavy Nuclei Due to High-Spin Isomerism.pdf",
+      "page_count": 4,
+      "actual_read_pages": [
+        3
+      ],
+      "text_anchor": "PDF p. 3, col. 2: 'In 256Fm, the observed partial fission half-life of the 7- isomer is 0.8 ms, which is remarkably longer than the expected value of 2.5 us...'"
+    }
+  ]
+}

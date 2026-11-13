@@ -2,14 +2,14 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
 # Wiki Index
 
 ## A130前置正文重写：样节与一致性
 
-- [[doctoral-nuclear-structure-foundations]] — 研究、设计均已发布，当前进入实际正文起草。
+- [[doctoral-nuclear-structure-foundations]] — 研究、设计与五章39节正文、A–F附录已形成前置非个人成果研究稿。
 - [[doctoral-thesis-notation-and-evidence-style-20261108]] — 统一角动量、形状/光子角符号、率/宽度、引用与图表证据。
 - [[a130-rewrite-invariant-recoupling-and-width-boundaries-20261108]] — 二/三次重耦合、矩比超界反例，以及量子涨落、估计误差与模型差异。
 - [[a130-rewrite-chiral-nonorthogonal-and-fingerprint-boundaries-20261108]] — 复非正交两态、实化条件、反幺正与线性指纹对称的区别。
@@ -20,20 +20,59 @@ updated: 2026-11-13
 - [[a130-rewrite-projection-selection-and-metric-truncation-20261113]] — 内禀K与实验室M、附加签名条件、投影试探空间与动力学谱、度规截断及复两态标签。
 - [[a130-rewrite-digital-pulse-gain-and-data-boundaries-20261108]] — 数值表逐行回canonical CSV，保留量纲、协方差和门宽概率的条件。
 - [[a130-rewrite-cfd-timing-and-clock-boundaries-20261113]] — CFD参数映射、插值与离散相位极值、时钟协方差及寿命卷积的区别。
+- [[shimizu-2005-high-k-precession]] — 已归档预印本的轴对称极限与高K进动；与期刊版、固定I旋转系频率的边界分开。
+- [[a130-rewrite-wobbling-local-limits-20261113]] — 体固定负对易、二次展开、两类惯量简并及靠近软模时的小涨落条件。
+- [[wolff-1982-poisson-arrivals-see-time-averages]] — 到达采样与时间平均的条件；原论文的不预知假设不等于系统状态与全部到达史独立。
+- [[a130-rewrite-joint-live-and-arrival-sampling-20261113]] — 指定参考测度的联合保存概率、共同busy教学反例及符合校正的边界。
+- [[gysbers-2019-ab-initio-beta-decay-quenching]] — 已归档v1中多体关联与一致两体轴流的配套计算；保留所考察核、相互作用和截断范围。
+- [[wang-2026-axial-coupling-quenching-joint-effects]] — 2026年v1预印本的RPA/PVC与两体流比较，期刊发表状态未核实。
+- [[a130-rewrite-axial-operator-scope-20261113]] — Ikeda一体差和、截断有效算符与动量/过程依赖的适用范围，区分EDF和手征哈密顿量实现。
+- [[a130-rewrite-cross-region-comparison-and-e0-constraints-20261113]] — 二态相位、简并端点、E0的电荷/质子数因子及跨区观测量身份。
+- [[a130-rewrite-magnetic-unit-and-numerical-normalization-20261113]] — 磁矩型与电荷型M1算符、命名单位和实用辐射率的统一。
+- [[a130-rewrite-forward-observables-and-cascade-consistency-20261113]] — 光子分支与ICC、DCO一般二次分母、缓发中子最终级联概率及FF跨壳层反例。
+- [[dewald-2012-ddcm-recoil-distance]] — RDDS与DDCM综述原件、直接和间接上门的寿命微分关系。
+- [[a130-rewrite-alignment-frame-and-precession-20261113]] — 固定顺排近似、取向模式与参考系的条件核查。
+- [[a130-rewrite-angular-convention-reference-20261113]] — 角动量与随体约定的跨章对账。
+- [[a130-rewrite-angular-momentum-appendix-audit-20261113]] — 附录A的约化矩阵元、相位、单位及有限控制边界。
+- [[lange-1982-multipole-admixtures-erratum]] — 仅题录和实际访问响应；未取得勘误正文，不用于支持公式。
+- [[a130-rewrite-br-as-parity-chiral-evidence-20261113]] — Br/As原件带号、跨宇称网络与实验谱系的版本边界。
+- [[a130-rewrite-environment-formation-observability-20261113]] — 热环境、形成布居与观测窗口的区分。
+- [[a130-rewrite-joint-predictions-and-discriminating-program-20261113]] — 模式联合预言、竞争解释和定向测量的条件与边界。
+- [[a130-rewrite-orientation-cross-region-conditions-20261113]] — Lu/Pr/Au跨核区取向模式比较的适用条件。
+- [[a130-rewrite-parity-chirality-and-e1-limits-20261113]] — 反射与手征操作、E1与八极关联的证据边界。
+- [[a130-rewrite-seniority-k-selection-20261113]] — seniority允许占据、K禁戒和混合的条件。
+- [[a130-rewrite-shape-orientation-mode-coupling-20261113]] — 形状与取向耦合、质量加权与两态干涉的区分。
+- [[a130-rewrite-weak-windows-cascades-and-operators-20261113]] — 弱衰变有限能窗、级联与过程相关算符的条件。
+- [[nndc-130sn-adopted-2001-snapshot-20261113]] — 130Sn的2001采用评价网页快照及所核高自旋支路。
 - [[doctoral-thesis-architecture-and-section-map-20261108]] — 已选五章/39节及完整合同，继续作为writer输入。
 
 旧A130的34文件于11月8日完成逐文件归档；11月13日只读复核发现本地归档已被后续外部操作移除。
 其中17项原正文、源文件与旧PDF仍能从Git历史逐字节恢复，另17项编译中间产物不声称已恢复；
 保持用户的归档manifest删除现状。新目录继续使用。
 11月8日发布时已整合1.1、1.2、2.1、2.3、3.5、5.3、5.9七节；
-11月13日的LaTeX迁移与新增内容正在逐节验收，实时覆盖见项目页及A130的`manuscript-status.json`。
-完整39节与附录尚未完成，不将writer回执当科学通过。
+本版已整合五章39节与附录A–F，完成逐节、原件及公式条件核查，并通过整稿编译；
+实际文件指纹、视觉抽查与发布结果见A130的`manuscript-status.json`及对应回执。
+这只界定前置非个人成果研究稿的有限范围，不代替个人研究成果或学校送审。
 
 11月13日起，按用户新要求将正文迁入
 `raw/writing/gpt/A130/these_2023_template/these_template/Thesis.tex`，
 以LaTeX为当前写作格式；旧分节Markdown只作已有研究输入。
 新图由Python生成，在工程`Img/`成对保存SVG/PDF，正文引用PDF。
 Gemini负责主体执行，总控负责蓝图、详细合同和接受/返修。
+
+- [[a130-rewrite-digital-appendix-consistency-20261113]] — 附录E递推、原图位域、取幅/噪声及到达测度的适用条件。
+
+- [[a130-rewrite-digital-implementation-reference-20261113]] — 离散参数、数据头与统一数字附录证据入口。
+- [[a130-rewrite-sec-5-7-angular-distribution-dco-polarization-reconciliation-20261114]] — 取向、KS混合比、偏振与DCO多根的条件对账。
+- [[a130-rewrite-detector-photon-response-audit-20261114]] — 探测器响应、Fano统计、净峰测度及相加协方差；实际教材页已父核。
+- [[a130-rewrite-spectroscopy-methods-20261113]] — 符合矩阵测度、非等宽门插值和检测限；父已更正教材locator。
+- [[a130-rewrite-lifetime-response-conditions-20261114]] — DDCM门条件、实际原件定位与DSAM谱形网格控制。
+- [[a130-rewrite-weak-operator-and-counting-network-audit-20261114]] — 弱算符约定与中子计数网络的条件核验。
+- [[a130-rewrite-wing-derivations-and-network-conventions-20261113]] — 两翼代数、开放网络与附D的同步边界。
+
+- [[a130-rewrite-statistical-model-and-covariance-audit-20261114]] — 条件化泊松模型、协方差、Hessian、物理边界与区间构造。
+- [[a130-rewrite-seniority-projection-open-network-boundaries-20261114]] — M3出口的允许性与能量条件、双端投影、FF秩分块与奇异网络。
+- [[maheshwari-jain-2016-even-odd-tensor-seniority]] — 实际OA出版原件；纯单j奇秩标量与多j电跃迁规律分开，非独立实验。
 
 ## 博士论文设计研究：从样本到可执行的写作合同
 
@@ -1945,26 +1984,5 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[casten-cross-source-microscopic-foundations]] — Casten—卢希庭—Bohr–Mottelson—Suhonen：壳模型到三轴集体模式的微观基础对账
 - [[heyde-giant-resonance-halo-dripline-bridge]] — Heyde 选段桥接：巨共振、连续谱、晕核与滴线实验接口
 - [[lu-ch08-shell-collective-highspin-bridge]] — 卢希庭第八章：壳模型、集体形变与高自旋观测量桥接
-
-## A130 前置章节本轮已核研究更新
-
-- [[a130-rewrite-alignment-frame-and-precession-20261113]]
-- [[a130-rewrite-axial-operator-scope-20261113]]
-- [[a130-rewrite-cross-region-comparison-and-e0-constraints-20261113]]
-- [[a130-rewrite-forward-observables-and-cascade-consistency-20261113]]
-- [[a130-rewrite-joint-live-and-arrival-sampling-20261113]]
-- [[a130-rewrite-magnetic-unit-and-numerical-normalization-20261113]]
-- [[a130-rewrite-seniority-k-selection-20261113]]
-- [[a130-rewrite-shape-orientation-mode-coupling-20261113]]
-- [[a130-rewrite-wobbling-local-limits-20261113]]
-- [[dewald-2012-ddcm-recoil-distance]]
-- [[gysbers-2019-ab-initio-beta-decay-quenching]]
-- [[nndc-130sn-adopted-2001-snapshot-20261113]]
-- [[shimizu-2005-high-k-precession]]
-- [[wang-2026-axial-coupling-quenching-joint-effects]]
-- [[wolff-1982-poisson-arrivals-see-time-averages]]
-
-## 异能态与谱学观测条件的定向补缺
-
-- [[a130-rewrite-open-network-and-entry-ensemble-20261113]]
-- [[nndc-176lu-isomer-beta-2006-snapshot-20261113]]
+- [[a130-rewrite-open-network-and-entry-ensemble-20261113]] — 开放网络守恒量词、归一化组分、初始/进入态自旋及延迟时间接受度。
+- [[nndc-176lu-isomer-beta-2006-snapshot-20261113]] — 176Lu异能态优势β支路、一级禁戒分类与2006评价归一化边界。

@@ -1,0 +1,410 @@
+{
+  "build_started_at_utc": "2026-11-13T19:23:16.499037+00:00",
+  "build_finished_at_utc": "2026-11-13T19:23:55.228094+00:00",
+  "workdir": "/workspace/wiki/tmp/a130-release-29-20261113/project",
+  "build_dir": "/workspace/wiki/tmp/a130-release-29-20261113/build",
+  "jobname": "Thesis",
+  "production_inputs": {
+    "total_files": 83,
+    "manifest_sha256": "fa2d69ae5050c03b9a5c01d6bc42d8bd2c18c64b8cd7a6966891fd56aaf4a928",
+    "files": {
+      "Thesis.tex": {
+        "size_bytes": 4339,
+        "sha256": "2d8d4821ef3b4524fa80e546b4bfa939757e9c62d606badff935ce4c63f9df97"
+      },
+      "Biblio/gb7714-2015.bbx": {
+        "size_bytes": 158312,
+        "sha256": "aace6f3bbf0d89e1cce2246f81c11ffc824837a626b82d3508f76584f1fbec50"
+      },
+      "Biblio/gb7714-2015.cbx": {
+        "size_bytes": 12310,
+        "sha256": "4d569169aecea67ee8cfb0c65458f1a6c09450bb1aba018f640bfa31acce1dbd"
+      },
+      "Biblio/gb7714-2015ay.bbx": {
+        "size_bytes": 154023,
+        "sha256": "15ec5e05820ddfba3882772b33a51c9d8510d7c96d1c15016090fff6c3bb5fb4"
+      },
+      "Biblio/gb7714-2015ay.cbx": {
+        "size_bytes": 10902,
+        "sha256": "c4e33e4055984860c25cda5901cfc77c8f599c38c00a2686275ffa36e8f4fae6"
+      },
+      "Biblio/gbt7714-author-year.bst": {
+        "size_bytes": 49878,
+        "sha256": "cb6c205bef43af09b49d76cec5aa40f7012a9ec1eccbdd37e9ca6d18d9757226"
+      },
+      "Biblio/gbt7714-numerical.bst": {
+        "size_bytes": 42460,
+        "sha256": "7ac131fa32605bf83084afb8aa7de49e5b0f28ba97145c503ada3c52a82ffeeb"
+      },
+      "Biblio/ref.bib": {
+        "size_bytes": 35044,
+        "sha256": "912bd06daf4b343f55806d8c9aabbad292c38cb88d868cb523fd00945cd2bd57"
+      },
+      "Img/angular-branch-delta-likelihood.pdf": {
+        "size_bytes": 27097,
+        "sha256": "d1911d5cb5273546f18caa0f0a2bb00e19f4c4682d08b05ed27cda064717a266"
+      },
+      "Img/br-as-network-topology.pdf": {
+        "size_bytes": 40923,
+        "sha256": "0c0eabbf10c17928972b68d576c7d3bc824e9897f2a525f5f784984245f14cc6"
+      },
+      "Img/cfd-phase-convergence.pdf": {
+        "size_bytes": 28205,
+        "sha256": "dbfbbdcd9cd39fb637f62e8cb58c9013535b1844a93bec75dad61243bcdbba29"
+      },
+      "Img/chapter-dependency.pdf": {
+        "size_bytes": 25268,
+        "sha256": "c817f4776d702eb99f91d94f13c5ef6324aae5699cc943368e67e654ed5e4065"
+      },
+      "Img/coincidence-level-scheme-model.pdf": {
+        "size_bytes": 37294,
+        "sha256": "fe44a04ad8f5e84d714d040494e5710bd8d7b1d48e64eac3786b25ed21cec320"
+      },
+      "Img/detector-response-simulation.pdf": {
+        "size_bytes": 68155,
+        "sha256": "eaff60a33f1ce010eca68b0965b3f88c657ac4e640c0b44ce0909a7f6df93400"
+      },
+      "Img/digital-energy-response.pdf": {
+        "size_bytes": 32424,
+        "sha256": "41520bb253609d323090add64e02aa41564ee5c3b8a007df8c5fb39965a0df9b"
+      },
+      "Img/environment-network-pathways.pdf": {
+        "size_bytes": 43679,
+        "sha256": "2a0af7164a819d6808df8740c4e31cfdc55dd26b3498f5e51022a813a26eee1b"
+      },
+      "Img/gamma-measure.pdf": {
+        "size_bytes": 40809,
+        "sha256": "c3336dd781432a15b9fb8a2f24ff334327009e4d3098353ff3c7731cf4bc02f6"
+      },
+      "Img/inference-profile-likelihood-boundary.pdf": {
+        "size_bytes": 34661,
+        "sha256": "198029e2ef586abc161deb7824c33ad130cbd8a5594a2d85a6810efedf3f79b7"
+      },
+      "Img/joint-predictions-workflow.pdf": {
+        "size_bytes": 37368,
+        "sha256": "d2cd2d625f5e385f65486c4c2e9f2b6c499cf4c53dcc8c55e9d9c0ac8aa13512"
+      },
+      "Img/lifetime-response-rdds-dsam.pdf": {
+        "size_bytes": 33560,
+        "sha256": "b9221cf894ae8b651096860ee2c89fa1501cfebe72b201f13125a351bfeab76f"
+      },
+      "Img/mode-mixing-avoided-crossing.pdf": {
+        "size_bytes": 26868,
+        "sha256": "f8d50454af23da2fdd19308e7e844e02cc8b96a7b509cb3033cd021da8da5729"
+      },
+      "Img/occupancy-centroids.pdf": {
+        "size_bytes": 24572,
+        "sha256": "1c016d53943e8c3b59da407d4bafe4a9f44c1ffbf3eba284e05306a25d31ae14"
+      },
+      "Img/orientation-comparison-modes.pdf": {
+        "size_bytes": 58959,
+        "sha256": "a4005dc33dce31e8a3087a5635c46b733988f5646afb1b7f879379e218f627fa"
+      },
+      "Img/rotor-local-limits.pdf": {
+        "size_bytes": 30104,
+        "sha256": "1e0ba988331e52460f5443218e88211082a6c99fd25563a537abe032d617594c"
+      },
+      "Img/seniority-node-accessibility.pdf": {
+        "size_bytes": 49487,
+        "sha256": "6f824e9d551556feb213b3c626f1b7b4d772eb361ae209608f74d09d48b420bb"
+      },
+      "Img/shape-moments.pdf": {
+        "size_bytes": 37089,
+        "sha256": "d174e5ac579b08a4bf4255ebe50006b9756530e91ca5507aea6c20fab9613097"
+      },
+      "Img/six-region-map.pdf": {
+        "size_bytes": 35462,
+        "sha256": "1bbb37e7b35806a1f04bb7c63e49569ca88f35d5be4e58eb37533987778b7382"
+      },
+      "Img/ucas_logo.pdf": {
+        "size_bytes": 695658,
+        "sha256": "291b04e61bc1a8515ffb585ba4cdb6d47a2156cc2c8bdf3b5fbeb31888410e34"
+      },
+      "Img/weak-cascade-competition.pdf": {
+        "size_bytes": 58673,
+        "sha256": "a95391f92bb0d8ab7e5bbe5566c394facefd5725d42364a0342e6373b306fe4c"
+      },
+      "Style/artracom.sty": {
+        "size_bytes": 8025,
+        "sha256": "066eba2f78745177ad9505575b763ab9d6c19e3b4291c8bc62faac8ac7f1fe01"
+      },
+      "Style/artratex.sty": {
+        "size_bytes": 35647,
+        "sha256": "7873eaf71bccde2f4ed4290e1e0de2baa5378b46f0b26a811f89f5f31d45be57"
+      },
+      "Style/ucasthesis.cfg": {
+        "size_bytes": 6934,
+        "sha256": "d9cda0704bad5cc48cccc45a0c7eb3ac15e6edab2703b934c56d5b202bb3719d"
+      },
+      "Style/ucasthesis.cls": {
+        "size_bytes": 26743,
+        "sha256": "fefe5c73e124de087351b92bddae8f02514375f38a735ed908253a33c0d17b39"
+      },
+      "Tex/Appendix.tex": {
+        "size_bytes": 1525,
+        "sha256": "ac41c1fdf57274eadbe1c518b43822a733d04788d26a6a088ac562396e5ef5ac"
+      },
+      "Tex/Backmatter.tex": {
+        "size_bytes": 458,
+        "sha256": "048d99fd4fa84f02649f0f344bc00c89235256bbc9821f0ccaa07a752222e6b1"
+      },
+      "Tex/Chapter1.tex": {
+        "size_bytes": 1655,
+        "sha256": "014727195d59875ed5fee709acf92737a7de1e05c5cb9a72b0c4f93dab1a8d46"
+      },
+      "Tex/Chapter2.tex": {
+        "size_bytes": 2426,
+        "sha256": "29d8998e236a9dcbba8b5f1a040ceb7ec58d10c2f1cc5ccd4f6520cc34b61d5e"
+      },
+      "Tex/Chapter3.tex": {
+        "size_bytes": 2486,
+        "sha256": "1f92d008008caac7fcc6380221e4dab7338e1df8652757d5fe38f19caed9c8dc"
+      },
+      "Tex/Chapter4.tex": {
+        "size_bytes": 2578,
+        "sha256": "c7bb378331ea3f4bfb2644d3dc23466780e192c340a9637a643a5a6b7672958d"
+      },
+      "Tex/Chapter5.tex": {
+        "size_bytes": 2890,
+        "sha256": "5fcc41c1a55ae5a84ff36deb1c0103f934dfaabe9aa067c80b70788082686ebe"
+      },
+      "Tex/Frontinfo.tex": {
+        "size_bytes": 1533,
+        "sha256": "c03947d20282e54b2748143068e9870e011085eb79b26bd8ac84dda2d5ee60cb"
+      },
+      "Tex/Frontmatter.tex": {
+        "size_bytes": 3751,
+        "sha256": "113d7904739e64a7cd7ff4cb58f1686d25441ad49de703adec70ad2661a13e15"
+      },
+      "Tex/Mainmatter.tex": {
+        "size_bytes": 525,
+        "sha256": "1e5bd0cc4a3e254a2c02685c19646f1481910eef11655ab7517b13c144a57a28"
+      },
+      "Tex/Prematter.tex": {
+        "size_bytes": 2549,
+        "sha256": "85d961be2dd185dd617f882c418ccfbbcf6d115b69be6b0e37788b421d785886"
+      },
+      "Tex/figuretable.tex": {
+        "size_bytes": 393,
+        "sha256": "901bec4443565b69610df5eed735e2d0476580f3e98647b3052db0c179994751"
+      },
+      "Tex/Appendices/AppendixA.tex": {
+        "size_bytes": 28829,
+        "sha256": "9d68fe0c9d48a9e2b5af71acb2ae5b5063042508666d10750422813cd831d2ac"
+      },
+      "Tex/Appendices/AppendixB.tex": {
+        "size_bytes": 20020,
+        "sha256": "93785f3c48c54b1cda81f146da0465be7de835267e5842c95c2735f386eef6f8"
+      },
+      "Tex/Appendices/AppendixC.tex": {
+        "size_bytes": 5366,
+        "sha256": "67eece7eea1d3d9693ab4e012147e126d2a00a8bee835d99855f5e1d205b1b76"
+      },
+      "Tex/Appendices/AppendixE.tex": {
+        "size_bytes": 26796,
+        "sha256": "f76188af699dcdc5e96c114850113c66fa8633af94e846d7e19a9a0c0780d132"
+      },
+      "Tex/Appendices/AppendixF.tex": {
+        "size_bytes": 10724,
+        "sha256": "fcf308586879f103eb3fc71f77daa6eea9e24be691bdf172671b7e4be5b324c5"
+      },
+      "Tex/Sections/sec-1-1.tex": {
+        "size_bytes": 7776,
+        "sha256": "375ff8b50ac5d3588a173bbf2a9446917bbe9ec9a27c30df33a8f08a57b62b67"
+      },
+      "Tex/Sections/sec-1-2.tex": {
+        "size_bytes": 19192,
+        "sha256": "cdc65bc8569ed15f8c4d32a28d17f64b1509929620e37d8d93054e140e3962fb"
+      },
+      "Tex/Sections/sec-1-3.tex": {
+        "size_bytes": 6968,
+        "sha256": "41e375449934242995f7a810b1224d5b7b8f96d018038d34a8de58d2d7dc6075"
+      },
+      "Tex/Sections/sec-1-4.tex": {
+        "size_bytes": 7387,
+        "sha256": "2871873b582e6583fc12c9e04827cfd311779db2e2ecde38a371ed43984b0d71"
+      },
+      "Tex/Sections/sec-1-5.tex": {
+        "size_bytes": 12339,
+        "sha256": "10d22975760ed742b44fdecd5be48cee7179e4bc404ed603d017e6c22ef716bb"
+      },
+      "Tex/Sections/sec-2-1.tex": {
+        "size_bytes": 24097,
+        "sha256": "cce29838eadc2eb20dcaef4a795334cf625f12332caf8e4d9448e510ca1f34ba"
+      },
+      "Tex/Sections/sec-2-2.tex": {
+        "size_bytes": 18734,
+        "sha256": "1c275f2433754fec67b723c554679457ab87b02e39ba32f382ad51daecb2d547"
+      },
+      "Tex/Sections/sec-2-3.tex": {
+        "size_bytes": 32601,
+        "sha256": "0cba2e7dbbae51d8e62b5f6f253fcc7b1584b1b99eaad8f7fec58564ad03b640"
+      },
+      "Tex/Sections/sec-2-4.tex": {
+        "size_bytes": 20260,
+        "sha256": "7da9f4be6a5993defb52052ea928dcddbebb02822c3bae2cf672da38fbf9d9ef"
+      },
+      "Tex/Sections/sec-2-5.tex": {
+        "size_bytes": 22027,
+        "sha256": "d63f29d8e491069876161d6dfe49f8997ad0ac0af514ea56c9c25b06a85b4fcb"
+      },
+      "Tex/Sections/sec-2-6.tex": {
+        "size_bytes": 18051,
+        "sha256": "ad956ea0748a82b31e82a917df2d16fec1b744be1ce72f91c875eec0ae55ad64"
+      },
+      "Tex/Sections/sec-2-7.tex": {
+        "size_bytes": 35343,
+        "sha256": "bb7c2e470cf7656ed86431f835214545ceeb4486d9794fb45e6f0f1976616b83"
+      },
+      "Tex/Sections/sec-2-8.tex": {
+        "size_bytes": 35601,
+        "sha256": "e99acbffce02a79342e65827729f06f3e612998c563471d5cf13f1637cde2c47"
+      },
+      "Tex/Sections/sec-3-1.tex": {
+        "size_bytes": 16852,
+        "sha256": "957538630c5b82a62edd57ee60f7599a8918bb0700af7b763ba5492e21dd2286"
+      },
+      "Tex/Sections/sec-3-2.tex": {
+        "size_bytes": 18320,
+        "sha256": "c14bf53d6d1d7cb8983ddbb7ab5d4a56fd3af33de7ca8ca2f973f00dfe261c69"
+      },
+      "Tex/Sections/sec-3-3.tex": {
+        "size_bytes": 17761,
+        "sha256": "33b913b52ea2f0a9533d321c53b0ffa1f27d3c12fbc8aef55cea2118a6d9c230"
+      },
+      "Tex/Sections/sec-3-4.tex": {
+        "size_bytes": 23904,
+        "sha256": "1993eff23b829c4e5a85c5009666d1ffbae772afa0a001258f589e728750a234"
+      },
+      "Tex/Sections/sec-3-5.tex": {
+        "size_bytes": 23387,
+        "sha256": "5439b517623ae5142cd4711bfd849cc0df1db4574aac3dfd305a2963dabfdea8"
+      },
+      "Tex/Sections/sec-3-6.tex": {
+        "size_bytes": 18587,
+        "sha256": "4abe8e596f107ef849fa7c8764ec185edab288785540b0acf120f6ddb8b6ff11"
+      },
+      "Tex/Sections/sec-3-7.tex": {
+        "size_bytes": 25007,
+        "sha256": "fb83af6418c753ab140b426f5ff672522d9c5a810c6563ec8b654f3279380181"
+      },
+      "Tex/Sections/sec-3-8.tex": {
+        "size_bytes": 28287,
+        "sha256": "9c135dcade2305ed2cf78b1c552ea015b14aa702a079d5317cbebe1fe632dd92"
+      },
+      "Tex/Sections/sec-4-1.tex": {
+        "size_bytes": 16761,
+        "sha256": "7a02be95e87366009872a6395728341caf697f604dc99dcb2badc8d164831cfa"
+      },
+      "Tex/Sections/sec-4-2.tex": {
+        "size_bytes": 17921,
+        "sha256": "fbbcef6bcc298c498e8c604889d3f4789ef63bdb6627ecbd4184d1f9d95aa41f"
+      },
+      "Tex/Sections/sec-4-3.tex": {
+        "size_bytes": 15893,
+        "sha256": "78527004469893b277308d5115e15ddc09684478a5d6b537c74b89a1464ec7b8"
+      },
+      "Tex/Sections/sec-4-4.tex": {
+        "size_bytes": 48997,
+        "sha256": "5b34e1d5d6e20d6abfc311c7cb8827eaefda0eb511c9b01a7953260647b2635b"
+      },
+      "Tex/Sections/sec-4-5.tex": {
+        "size_bytes": 33109,
+        "sha256": "25ba30fee7149b6bab770caafd82239fd35ab2c3ea8cc485b0fb314dbc0a9b10"
+      },
+      "Tex/Sections/sec-4-6.tex": {
+        "size_bytes": 31485,
+        "sha256": "763b37de5295ec5bec7cc6bfdb89e730990322e4047435b1ede1ad0b57365c0a"
+      },
+      "Tex/Sections/sec-4-8.tex": {
+        "size_bytes": 51367,
+        "sha256": "5c9da2c41aa91dd683bbfbb1e903e001e1ef2bf53d788bfad8cf2f3ab80e3374"
+      },
+      "Tex/Sections/sec-5-1.tex": {
+        "size_bytes": 17516,
+        "sha256": "16c122d5650bbd3a99de032d8900d5fcfd45ee624b604c485428cbce02f486f9"
+      },
+      "Tex/Sections/sec-5-3.tex": {
+        "size_bytes": 20224,
+        "sha256": "81f757b33a8ca0e0c65c025661b57e956c3f7d1d7df2972d3a35a89dccf76e04"
+      },
+      "Tex/Sections/sec-5-4.tex": {
+        "size_bytes": 16361,
+        "sha256": "18960bdfb1c2e65304a42da6bb39ef3026061b6a6d25d4911dcfdb853f316c26"
+      },
+      "Tex/Sections/sec-5-5.tex": {
+        "size_bytes": 20047,
+        "sha256": "43ee58210e6d816c93f747ef946054ff3d400df054d64c71309dad374298efd5"
+      },
+      "Tex/Sections/sec-5-9.tex": {
+        "size_bytes": 31036,
+        "sha256": "215f0098885db01f56504b6cb7aae277396188a55f8a74984c80d14a80cc5aec"
+      }
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "cmd": [
+        "xelatex",
+        "-output-directory=/workspace/wiki/tmp/a130-release-29-20261113/build",
+        "-interaction=nonstopmode",
+        "Thesis.tex"
+      ],
+      "returncode": 0
+    },
+    {
+      "pass": 2,
+      "cmd": [
+        "bibtex",
+        "Thesis"
+      ],
+      "returncode": 0
+    },
+    {
+      "pass": 3,
+      "cmd": [
+        "xelatex",
+        "-output-directory=/workspace/wiki/tmp/a130-release-29-20261113/build",
+        "-interaction=nonstopmode",
+        "Thesis.tex"
+      ],
+      "returncode": 0
+    },
+    {
+      "pass": 4,
+      "cmd": [
+        "xelatex",
+        "-output-directory=/workspace/wiki/tmp/a130-release-29-20261113/build",
+        "-interaction=nonstopmode",
+        "Thesis.tex"
+      ],
+      "returncode": 0
+    }
+  ],
+  "pdf_info": {
+    "path": "/workspace/wiki/tmp/a130-release-29-20261113/project/Thesis.pdf",
+    "size_bytes": 2865574,
+    "page_count": 310
+  },
+  "log_path": "/workspace/wiki/tmp/a130-release-29-20261113/build/Thesis.log",
+  "blg_path": "/workspace/wiki/tmp/a130-release-29-20261113/build/Thesis.blg",
+  "audit_verdict": "CLEAN_PASS",
+  "fatal_errors_count": 0,
+  "fatal_errors": [],
+  "missing_citations_count": 0,
+  "missing_citations": [],
+  "missing_references_count": 0,
+  "missing_references": [],
+  "overfull_hboxes_count": 0,
+  "overfull_hboxes": [],
+  "overfull_by_file": {},
+  "overfull_vboxes_count": 0,
+  "underfull_hboxes_count": 46,
+  "missing_glyphs_count": 0,
+  "missing_glyphs": [],
+  "bibtex_warnings_count": 0,
+  "bibtex_warnings": [],
+  "bibtex_errors_count": 0,
+  "bibtex_errors": []
+}

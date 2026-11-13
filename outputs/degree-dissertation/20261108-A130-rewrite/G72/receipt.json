@@ -1,0 +1,301 @@
+{
+  "task": "G72",
+  "section_id": "5.4",
+  "title": "数字定时、同步与CFD",
+  "version": "V2",
+  "recorded_at": "2026-11-08T03:12:37.298000+00:00",
+  "status": "revision-delivered-for-parent-original-source-review",
+  "scientific_admission": "not_claimed",
+  "exclusive_write_paths": [
+    "raw/writing/gpt/A130/research-draft/section-5-4.md",
+    "raw/writing/gpt/A130/evidence-ledger/section-5-4.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/G72/receipt.json"
+  ],
+  "temporary_root": "tmp/runs/20261108-A130-rewrite/G72/",
+  "file_hashes": {
+    "section_5_4_md_sha256": "b00c99e1139e53b5f289b6508d33bee8db7f8e3937f01e2cc68aee4d67bf0c48",
+    "section_5_4_ledger_json_sha256": "d3c2910f4b358f4a6af7d833d3156e3526a16ae787e5ae05d6d8f96e0f0d7e16"
+  },
+  "no_receipt_self_hash": true,
+  "metrics": {
+    "chinese_character_count": 3286,
+    "subsections": 4,
+    "display_math": 7,
+    "inline_math": 94,
+    "mathml_elements": 101,
+    "mathml_annotations_match_ast": true,
+    "table_count": 1,
+    "table_cells_compared": 16,
+    "citation_ids": [
+      "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+      "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "wu-hongyi-2020-general-purpose-digital-daq-thesis"
+    ],
+    "non_newline_ascii_controls": 0,
+    "non_newline_ascii_controls_include_TAB_and_DEL": true
+  },
+  "revision_items": [
+    "CFD倒数权重及独立参数/分支",
+    "删除48/16通用字段与亚ps硬件主张，采用有效b位条件式",
+    "有效sigma_C及小噪声局部斜率",
+    "20相位点最大值、Ts各自解析参考与无噪声幅扫解释",
+    "四点三次bracket选根、噪声/多根及删未读NN示例",
+    "分路相位差固定而绝对网格相位可随机，噪声成分条件化",
+    "Hennig设计目标、FWHM和包络分开，偏移持续监测",
+    "保Cov与相等独立Gaussian充分条件，高光输出区400ps",
+    "偶然符合近似线性的限定和walk方向边界",
+    "单级归一化寿命教学式、一般B及feeding/统计/响应限制",
+    "删口号结尾，自然衔接5.5"
+  ],
+  "sources_read_this_revision": [
+    {
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "source_page": "knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md",
+      "citation_key": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "raw_file": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+      "raw_sha256": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b",
+      "hash_matches_contract": true,
+      "actual_read_pages": {
+        "text": [
+          "PDF35–38 / 印刷23–26",
+          "PDF104–109 / 印刷92–97"
+        ],
+        "visual": [
+          "PDF37 / 印刷25 Eq1.22与Fig1.27"
+        ],
+        "version": "本地143页授权版博士论文，2020；以实际字节SHA固定"
+      },
+      "reading_scope": "本轮实际回读；不继承V1中未由工具阅读支持的页码"
+    },
+    {
+      "source_id": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "source_page": "knowledge/sources/doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing.md",
+      "citation_key": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G32/lipschutz-2016-lenda-ddas-timing.pdf",
+      "raw_sha256": "466c421c59f5c964b14de545f315c74c1d614a60b78192eb72efe427f75740cc",
+      "hash_matches_contract": true,
+      "actual_read_pages": {
+        "text": [
+          "PDF1–4，Eqs2–6、Figs1–4及§4–5参数"
+        ],
+        "visual": [
+          "PDF2 Eq3与Fig1"
+        ],
+        "version": "arXiv:1601.04579v2，六页底本，非重新取得的期刊排版"
+      },
+      "reading_scope": "本轮实际回读；不继承V1中未由工具阅读支持的页码"
+    },
+    {
+      "source_id": "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+      "source_page": "knowledge/sources/doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync.md",
+      "citation_key": "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G32/hennig-2007-pixie16-clock-trigger-sync.pdf",
+      "raw_sha256": "e077cdcfd462610a80467024aac3446a562e2e4eaffbc813578a0b9bb86e0449",
+      "hash_matches_contract": true,
+      "actual_read_pages": {
+        "text": [
+          "PDF1–4，§3–4及Figs3–5相关讨论"
+        ],
+        "visual": [],
+        "version": "arXiv:nucl-ex/0701016，七页底本；vN未独立核定"
+      },
+      "reading_scope": "本轮实际回读；不继承V1中未由工具阅读支持的页码"
+    }
+  ],
+  "model_artifacts": {
+    "classification": "任务教学模型；非吴/Lipschutz固件、非硬件测试、非核寿命拟合",
+    "producer": {
+      "path": "system/scripts/doctoral_g32_digital_pulse_response.py",
+      "sha256": "bd70a7db208b62443a93c8258e18194e4d18f096a7e1160f2ed958fa0855e618"
+    },
+    "run_provenance": {
+      "path": "outputs/l4/20261108-digital-pulse-response/run-provenance.json",
+      "sha256": "797068813711f005f7f937f3ebcae9d15cffef7f1ca4252c1add64ca3be78e78",
+      "original_created_at": "2026-11-07T18:36:19.312620+00:00"
+    },
+    "csv_files": [
+      {
+        "path": "outputs/l4/20261108-digital-pulse-response/sampling_convergence.csv",
+        "sha256": "fcbc5a3ebf68e5ef8f0cb5dabfc1be09484d4f99757f9f2f9db6909225469222"
+      },
+      {
+        "path": "outputs/l4/20261108-digital-pulse-response/cfd_phase_walk_analysis.csv",
+        "sha256": "fa67402db75b74cc78dabab173d0ce89e0ba6a77df1545ddd8a330a9ca4d7178"
+      }
+    ],
+    "input": {
+      "pulse": "v(t)=A[1-exp(-(t-t0)/tau_r)]exp(-(t-t0)/tau_d)u(t-t0)",
+      "time_unit": "ns",
+      "amplitude_unit": "arbitrary; no calibrated deposited energy",
+      "A": 1000.0,
+      "rise_ns": 100.0,
+      "decay_ns": 50000.0,
+      "t0_ns": "500 + phi",
+      "waveform_domain_ns": "[0,2000)",
+      "sampling_periods_ns": [
+        10.0,
+        5.0,
+        2.5,
+        1.25
+      ]
+    },
+    "fast_filter": {
+      "length_samples": "round(100/Ts)",
+      "gap_samples": "round(50/Ts)",
+      "kernel": "([1]*L + [0]*G + [-1]*L)/L",
+      "normalization": "two box sums differ, divided by L; no peak-height estimation in this timing study",
+      "rise_ns": 100.0,
+      "gap_ns": 50.0
+    },
+    "CFD": {
+      "formula": "C[n]=F[n-d]-fF[n]",
+      "delay_samples": "round(80/Ts)",
+      "delay_ns": 80.0,
+      "fraction": 0.4,
+      "branch": "first negative-to-nonnegative adjacent bracket with lower sample time >= t0",
+      "extraction": "two-point zero-crossing interpolation, not waveform maximum"
+    },
+    "reference": {
+      "definition": "analytic continuation of the same finite-tap filter for each Ts separately; first rising root found with brentq",
+      "absolute_reference": "t0 + reference_latency(Ts)",
+      "not_a_fixed_hardcoded_timestamp": true,
+      "different_tref": "finite-tap continuation changes with Ts; not measured hardware walk"
+    },
+    "phase_grid": {
+      "fractions": [
+        0.0,
+        0.05,
+        0.1,
+        0.15000000000000002,
+        0.2,
+        0.25,
+        0.30000000000000004,
+        0.35000000000000003,
+        0.4,
+        0.45,
+        0.5,
+        0.55,
+        0.6000000000000001,
+        0.65,
+        0.7000000000000001,
+        0.75,
+        0.8,
+        0.8500000000000001,
+        0.9,
+        0.9500000000000001
+      ],
+      "number_of_points": 20,
+      "maximum_scope": "max over sampled grid only; not continuous-phase supremum"
+    },
+    "sampling_rows_full_precision": [
+      {
+        "sampling_interval_ns": 10.0,
+        "reference_latency_ns": 157.12227044678656,
+        "max_abs_interpolation_error_ns": 0.25660756630634296
+      },
+      {
+        "sampling_interval_ns": 5.0,
+        "reference_latency_ns": 159.6536421660071,
+        "max_abs_interpolation_error_ns": 0.12969199252859198
+      },
+      {
+        "sampling_interval_ns": 2.5,
+        "reference_latency_ns": 160.84463798234748,
+        "max_abs_interpolation_error_ns": 0.01373717153785492
+      },
+      {
+        "sampling_interval_ns": 1.25,
+        "reference_latency_ns": 161.47159890703023,
+        "max_abs_interpolation_error_ns": 0.005996680482439842
+      }
+    ],
+    "table_5_2_rows": [
+      {
+        "sampling_interval_ns": 10.0,
+        "sample_rate_MSPS": 100.0,
+        "reference_latency_ns_display": "157.1223",
+        "sampled_max_abs_error_ns_display": "0.2566"
+      },
+      {
+        "sampling_interval_ns": 5.0,
+        "sample_rate_MSPS": 200.0,
+        "reference_latency_ns_display": "159.6536",
+        "sampled_max_abs_error_ns_display": "0.1297"
+      },
+      {
+        "sampling_interval_ns": 2.5,
+        "sample_rate_MSPS": 400.0,
+        "reference_latency_ns_display": "160.8446",
+        "sampled_max_abs_error_ns_display": "0.0137"
+      },
+      {
+        "sampling_interval_ns": 1.25,
+        "sample_rate_MSPS": 800.0,
+        "reference_latency_ns_display": "161.4716",
+        "sampled_max_abs_error_ns_display": "0.0060"
+      }
+    ],
+    "fixed_phase_amplitude_scan": {
+      "Ts_ns": 10.0,
+      "t0_ns": 500.0,
+      "amplitudes": [
+        100.0,
+        150.0,
+        200.0,
+        250.00000000000003,
+        300.0,
+        350.0,
+        400.00000000000006,
+        450.00000000000006,
+        500.0,
+        550.0,
+        600.0,
+        650.0,
+        700.0000000000001,
+        750.0,
+        800.0000000000001,
+        850.0,
+        900.0,
+        950.0000000000001,
+        1000.0,
+        1050.0
+      ],
+      "extracted_time_ns": 657.224409074663,
+      "reference_time_ns": 657.1222704467866,
+      "spread_ns": 0.0,
+      "interpretation": "noiseless numerical amplitude invariance; neither zero interpolation bias nor measured zero resolution"
+    },
+    "reuse_operation": "read all CSV rows and hash-bind existing artifacts; canonical main() not run or overwritten"
+  },
+  "verification": {
+    "format_and_integrity_only": true,
+    "pandoc_ast_and_mathml": "same math content in delimiters, AST and MathML TeX annotations; no conversion warnings",
+    "json": "ledger parsed and json.tool run; receipt parsed after writing",
+    "ascii_controls": "all text and decoded JSON strings scanned, excluding only LF; includes TAB and DEL",
+    "table": "all four rows and 16 numeric cells matched CSV-derived values",
+    "bounded_replay": "four reference roots and 80 phase estimates plus 20 amplitude estimates matched existing artifacts within 1e-9 ns",
+    "validation_record": {
+      "path": "tmp/runs/20261108-A130-rewrite/G72/v2-validation.json",
+      "sha256": "a9dc16bcb668412b99090c721b680ac5bad9f1f502cc7a3aa6d79aaa64b4d31f",
+      "classification": "format, artifact integrity and bounded model consistency only; no scientific admission"
+    }
+  },
+  "constraints": {
+    "git_commands_this_revision": false,
+    "subagents": false,
+    "credentials_access": false,
+    "external_messages": false,
+    "shared_files_written": false,
+    "frozen_old_drafts_read": false,
+    "canonical_model_outputs_overwritten": false,
+    "protected_5_3_files_unchanged_by_hash": true
+  },
+  "unresolved": [
+    "未取得用户实际模块/固件有效细位、tick映射、探测器波形与同步/能量相关响应校准；不填写个人性能或寿命值。",
+    "三篇来源未提供本任务可重放的完整实验波形和参数扫描，未据此生成新的原表读图点或性能保证。",
+    "本模型相位扫描只有20点，未给连续相位全局误差上界，也未加入噪声、饱和或真实时钟扰动。",
+    "四点三次法的多根/噪声质量控制为本文使用条件，尚无用户数据上的实现或测量验证。",
+    "核寿命教学卷积尚无feeding、响应和背景实际输入；具体寿命应用留5.8/5.10，事件构建和联合live留5.5。",
+    "Hennig本地底本的vN未独立核定；不声称已比较期刊最终版或今日全部模块。"
+  ]
+}

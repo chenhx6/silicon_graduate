@@ -1,0 +1,30 @@
+{
+  "status": "finite-nonpersonal-frontmatter-complete-publication-closeout",
+  "session_date": "2026-11-14",
+  "actual_utc": "2026-11-13T22:20:23.178678+00:00",
+  "body_sections": 39,
+  "appendices": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+  ],
+  "figure_pairs_referenced": 19,
+  "csv_datasets": 3,
+  "finite_control_groups": 6,
+  "build_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json",
+  "audit_verdict": "CLEAN_PASS",
+  "physical_pages": 374,
+  "pdf_sha256": "58a10454879db7e88de8674e83b20207082f0b8fe67ff4bb9233b51d6d588480",
+  "underfull_hbox_notes": 91,
+  "visual_check": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/visual-check.json",
+  "canonical_input_reconciliation": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/canonical-input-reconciliation.json",
+  "personal_research_results_included": false,
+  "school_submission_claim": false,
+  "publication_stable_pointer": "main / thesis: complete A130 nonpersonal foundations in LaTeX",
+  "publication_receipt": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/publication-final-receipt.local.json",
+  "script_equivalence_receipt": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/python-whitespace-equivalence.json",
+  "git_attribute_boundary": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/git-attribute-boundary.json"
+}

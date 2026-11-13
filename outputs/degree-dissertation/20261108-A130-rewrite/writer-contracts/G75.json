@@ -1,0 +1,111 @@
+{
+  "root": "/workspace/wiki",
+  "model": "antigravity/gemini-3.8-flash-tiered",
+  "reasoning_effort": "high",
+  "permissions": {
+    "raw_draft_write": "explicitly authorized only for listed new section and matching ledger",
+    "git": false,
+    "subagents": false,
+    "credentials": false,
+    "external_messages": false
+  },
+  "read_first": [
+    "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-argument-and-writer-contract-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-high-risk-section-contracts-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-notation-and-evidence-style-20261108.md"
+  ],
+  "workflow": [
+    "先读给定canonical笔记和原件具体页，台账记录实际读取范围、SHA、版次、claim类别和locator；先在ledger记录5–8句论证骨架再起草，无需等用户确认。",
+    "写面向具有一般量子力学但不熟核结构的读者的连贯中文正文，定义→必要推导→物理解释→可测量量→竞争解释。标题按地图，通常3–5子节，篇幅按讲清问题而非凑字。",
+    "正文只引用真正读过的原作，[@source-basename]；内部知识页用于定位与校准，不冒充已发表论文。模型/教学假设与实际测量分开。未知个人数据/硬件/成果不补写。",
+    "不读取或复用旧归档稿，不改其它节、书目、索引、共享handoff或system；无并发共享写者。",
+    "仅用 $...$ 和 $$...$$ 数学，严禁原始TeX环境、label/ref、三连美元；长正文用apply_patch或python单引号heredoc，勿嵌在python -c单引号shell中。",
+    "写后实际检查JSON与Pandoc AST/HTML数学，任何math转换警告必须修；不能仅数DisplayMath自评通过。",
+    "receipt用datetime.now(timezone.utc)实际采样；只哈希其它文件不哈希自己。回传路径、真实检查和未解，不把完成或模型自评当科学通过。"
+  ],
+  "ledger_minimum": [
+    "section_id",
+    "title",
+    "version",
+    "recorded_at",
+    "argument_outline",
+    "sources: source_id/raw_file/raw_sha256/actual_read_pages",
+    "claims: text/kind/source_id/locator/conditions",
+    "equations: convention/derivation/limit",
+    "competing_explanations",
+    "unresolved"
+  ],
+  "format_boundary": "No PDF/school submission claim; MD+MathML preview is current rendering route",
+  "task_id": "G75",
+  "section_id": "1.4",
+  "title": "六个质量区作为比较坐标",
+  "depends_on": [
+    "parent-integrated1.1/1.2/1.3"
+  ],
+  "read_notes": [
+    "knowledge/research-notes/doctoral-r3-readiness-evidence-matrix-20261108.md",
+    "knowledge/synthesis/six-region-shape-and-collective-dynamics-foundations.md",
+    "raw/writing/gpt/A130/research-draft/section-1-1.md",
+    "raw/writing/gpt/A130/research-draft/section-1-3.md"
+  ],
+  "must_explain": [
+    "这是全篇案例地图而非再写第4章。约1500–2200汉字，加六行短表，三到四自然主题段即可，不堆所有机制和数值。",
+    "六区A≈60/80/100/130/160/190按上述实质案例引出共同问题，质量数为坐标不自动定义模式。每区可以多种组态/形状/运动，同一现象也可跨区，但具体存在条件须重算/观测。",
+    "表列质量区/代表案例与探针/比较价值与限制；六锚点分别Ge64、Kr、Zr98、Ce133、Lu163、Hg182–188。不要把Ge理论Qs当实测共存，把Zr代表全Mo/Ru，把Hg代表所有Ir/Os高自旋。",
+    "共同条件用具体可理解关系：费米面/占据与粒子空穴、配对和核芯极化、形状势/惯量、可布居自旋及电磁探针。不能只说所有六区都三轴或给普遍delta/gamma/能隙阈值。",
+    "未观测不等于不存在：生产窗口/feeding、效率/分支/时间接受度与理论稳定性不同，提出比较问题而不宣称新模式已发现。没有新数值需求，核素/质量数除外；任何数据必须实际原表。",
+    "A130为重要锚点非物理收录边界；两翼的八极、异能态/弱衰变等提供互补约束，其具体论证第4章展开，不能用相邻主题代证。若提Br/As等具体结论须另回对应原件；此节不必细述其已证何模式。",
+    "接1.3和第4章，语气自然，不写研究合同/审校清单或每行同一个僵硬句式。不得把Master/完成标签当物理证据，不将几个代表案例说成全核区穷尽。"
+  ],
+  "exclusive_write_paths": [
+    "raw/writing/gpt/A130/research-draft/section-1-4.md",
+    "raw/writing/gpt/A130/evidence-ledger/section-1-4.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/G75/receipt.json"
+  ],
+  "source_inputs": [
+    {
+      "source_id": "doctoral-r1-g26-starosta-2007-64ge-rdm-e2",
+      "source_page": "knowledge/sources/doctoral-r1-g26-starosta-2007-64ge-rdm-e2.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G26/starosta-2007-64ge-rdm-e2.pdf",
+      "raw_sha256": "715a4c8ada9a6e4bcc2be1df8c845e680d81b6f0c4f91bf70931fe7b10592ad8",
+      "required_locator": "PDF1–3/TableI：64Ge寿命/E2与模型解释，理论Qs不可说成实测；Ge集体性不直接等于已证共存"
+    },
+    {
+      "source_id": "doctoral-r1-g27-clement-2007-prc-krypton-coulex",
+      "source_page": "knowledge/sources/doctoral-r1-g27-clement-2007-prc-krypton-coulex.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G27/clement-2007-74kr-76kr-coulex-prc.pdf",
+      "raw_sha256": "2ee6c7be8a2fbb72a9f647a0c284181b2fc197e167381be67685f3a15018c0e8",
+      "required_locator": "PDF11/15 TablesV–VI/X–XI，多步CoulEx矩阵网络与混合；不拿Kr数据证明Br手征/八极"
+    },
+    {
+      "source_id": "doctoral-r1-g28-singh-2018-98zr-lifetimes",
+      "source_page": "knowledge/sources/doctoral-r1-g28-singh-2018-98zr-lifetimes.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G28/singh-2018-98zr-coexisting-shapes.pdf",
+      "raw_sha256": "37f2d5ee16f799feb66617787d45d25c4f3e0cb4f0f996689a0576811c5a05e3",
+      "required_locator": "PDF2–3/TableI，RDDS寿命、外部分支与逐态E2；Zr急变不等于全A100均O6"
+    },
+    {
+      "source_id": "ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce",
+      "source_page": "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf",
+      "raw_sha256": "3c5a3d7c543140ee25f7cb09376d5aeee760c8ac50c76edd466a010d610c2d0f",
+      "required_locator": "实际PR5 PDF1、3–5，多候选带谱、模型解释/本核无寿命边界；勿读AS8页码错版"
+    },
+    {
+      "source_id": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "source_page": "knowledge/sources/campaign-g07-gorgen-2004-163lu-quadrupole-moments.md",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "raw_sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e",
+      "required_locator": "PDF2–4/TablesI–II，绝对E2/Qt、外部分支/delta与构型映射；非普适gold threshold"
+    },
+    {
+      "source_id": "doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg",
+      "source_page": "knowledge/sources/doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G31/Bree-2014-PRL-112-162701.pdf",
+      "raw_sha256": "c80dd7dc376378fad490adba41dd626fa7963dd334a43e18ec2a47307d1f913b",
+      "required_locator": "PDF3–4/TableI，Hg E2矩阵元与两构型解释/宽误差；186空项不能补，Hg低自旋不等于全部Ir/Os高自旋核芯"
+    }
+  ],
+  "validated_at": "2026-11-08T03:11:09.979052+00:00"
+}

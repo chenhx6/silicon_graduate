@@ -1,0 +1,14 @@
+{
+  "checked_manifests": [],
+  "checked_sources": [
+    "/workspace/wiki/knowledge/sources/doctoral-r1-g37-bhat-2025-microscopic-wobbling-even-even.md",
+    "/workspace/wiki/knowledge/sources/doctoral-r1-g37-oi-2001-wobbling-gamma-coupling.md",
+    "/workspace/wiki/knowledge/sources/kvasil-2006-dy156-yb162-crpa-wobbling.md",
+    "/workspace/wiki/knowledge/sources/matsuzaki-2004-nuclear-inertia-and-wobbling.md",
+    "/workspace/wiki/knowledge/sources/prochniak-rohozinski-2009-bohr-collective-hamiltonian.md"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "ok": true,
+  "scope": "paths"
+}

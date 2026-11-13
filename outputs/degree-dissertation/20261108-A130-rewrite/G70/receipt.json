@@ -1,0 +1,109 @@
+{
+  "task": "G70",
+  "section_id": "2.2",
+  "title": "壳结构、费米面与占据反馈",
+  "version": "V3",
+  "recorded_at": "2026-11-08T03:15:23.602169+00:00",
+  "timestamp_provenance": "最终回执元数据准备时实际调用datetime.now(timezone.utc)采样；不是计划时间或沿用旧回执时间。",
+  "status": "worker-revision-written-for-parent-review",
+  "scientific_pass_claim": false,
+  "exclusive_write_paths": [
+    "raw/writing/gpt/A130/research-draft/section-2-2.md",
+    "raw/writing/gpt/A130/evidence-ledger/section-2-2.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/G70/receipt.json"
+  ],
+  "temporary_root": "tmp/runs/20261108-A130-rewrite/G70/",
+  "write_scope": "本轮持久写入仅上述三文件，临时提取、检查脚本和产物均在指定G70临时目录；未修改2.1或其台账/回执、共享状态、书目、index、handoff或system；未运行Git、子代理、凭据读取或外发。",
+  "revision_lineage": [
+    "V1已由用户完整读取并冻结，本轮未读取或修改冻结稿。",
+    "先将V2范围修订写入活动正文并记录8句台账骨架，核心数学当时待T11；未另发布V2回执。",
+    "用户转发T11后完整读取六项报告，回读Otsuka PDF15–16及25，与此前所读原页一起合并为V3。"
+  ],
+  "draft_sha256": "3ff8bdf1c7fe4f8d64812f2b08b02c0108135061a34e39bd39f6b207340368f1",
+  "ledger_sha256": "9665f178d4b1d505c4eeb25712f602fc4d84b30bfd513baef09c07d29ea976f4",
+  "receipt_self_hash_computed": false,
+  "metrics": {
+    "chinese_character_count": 3554,
+    "chinese_character_count_method": "正则[\\u4e00-\\u9fff]计数",
+    "subsections_count": 4,
+    "display_math_count": 14,
+    "inline_math_count": 65,
+    "mathml_xml_fragments_count": 79
+  },
+  "read_first_completed": [
+    "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-argument-and-writer-contract-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-high-risk-section-contracts-20261108.md",
+    "knowledge/research-notes/doctoral-thesis-notation-and-evidence-style-20261108.md"
+  ],
+  "read_notes_completed": [
+    "knowledge/research-notes/doctoral-r1-g28-a100-shell-shape-20261108.md",
+    "raw/writing/gpt/A130/research-draft/section-2-1.md"
+  ],
+  "additional_internal_inputs": [
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/T11/report.md",
+      "scope": "完整报告六项、张量条件与未解。",
+      "use": "内部核查与父指令落实，不作为正文发表引文。"
+    },
+    {
+      "path": "knowledge/research-notes/a130-rewrite-bcs-convention-and-model-hamiltonian-boundaries-20261108.md",
+      "scope": "T10关于有限体系精确交叉和非解析选支的Failure Conditions及邻近段落。",
+      "use": "范围校准，未重造两态toy。"
+    }
+  ],
+  "sources_verified": [
+    {
+      "key": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-otsuka-article/otsuka-2022-physics-emerging-concepts-publisher.pdf",
+      "raw_sha256": "83ddfab8989cdb0a23be1d5ca3e9f689c7e8d728823d0b7c6a21c5aecd3ca0c7",
+      "edition": "Physics 4 (2022), 258–285，28页出版商独立文章；未按2023重印年份引用。",
+      "actual_read_pages": "PDF1、5–8、13、15–17、19、25；印刷258、262–265、270、272–274、276、282。",
+      "boundary": "154Sm结果为综述转引的模型计算；未独立读取其原始计算程序或Baranger原论文。"
+    },
+    {
+      "key": "doctoral-r1-g28-togashi-2016-zr-mcsm-qpt",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G28/togashi-2016-zr-qpt.pdf",
+      "raw_sha256": "f43431ebad67addfbefb521eed14c43f152fe5221ccc0d995d69a3d5aaa7b3e9",
+      "edition": "arXiv:1606.09056v2，2016-08-05，本地5页预印本。",
+      "actual_read_pages": "PDF1–4；Fig.3在PDF3，其占据/ESPE定量解释在PDF4。",
+      "boundary": "正文占据、ESPE和形状为模型输出；参数所采用实验能级与作者未微调比较分别标明。"
+    }
+  ],
+  "revision_changes": [
+    "费米面最高填充边界限独立粒子零温参考；关联/配对用占据与化学势，epsilon0改为模型基准SPE。",
+    "有限通道/窗口C²S均值撤完整Baranger归属；短段交代同A参考、共同能量零点、完整加去强度和反对易分母。",
+    "单极m基补规范反对称态与Pauli允许有序对，同轨分子分母双计和实际H中n(n−1)/2分别说明。",
+    "按Otsuka添粒有限差给ESPE，比较移粒、连续导数与纯单极谱重心同轨修正；态差公式限定同一固定H和约定。",
+    "写清Otsuka Eq.(7)–(8)的pn异轨半和与同轨T权重，并保留适用边界。",
+    "中心/张量吸排改为指定力、径向与通道趋势；保留Zr模型已核数字，区分轨道下移与轨道组展布。",
+    "说明一体E2偶宇称不直接连接g7/2和h11/2；占据重排、对激发与允许四极通道分开。",
+    "冻结写为参考ESPE编码新SPE、移除活动Vmono、保留Vmulti并允许态无关C；仍形变仅为指定模型反例。",
+    "MCSM按选基与变分叙述，区分连续角动量/离散宇称投影；删除无定位规模范围与最大重叠预知说法。",
+    "T-plot面积改为相应投影基与模型本征态的重叠，说明非正交、不互斥、不总和1、非系数模平方及非实测经典概率。",
+    "分别归属JUN45/SNBG3/VMU组合与局部T=1调整，补作者报告未作调整仍有快速转变。",
+    "删除原两态toy和有限维绝无非解析说法，保留精确交叉/选支非解析与热力学极限的区别。",
+    "修正Otsuka页码258–285和2022原年、Togashi图3的PDF3定位；按源事实/模型解释/任务推导同步台账，删口号、粗体和清单。"
+  ],
+  "formatting_verifications": {
+    "validation_report": "tmp/runs/20261108-A130-rewrite/G70/validation.json",
+    "validation_report_sha256": "c738761cb1594cc7716a10d447a35e611be4fdb01a923236c9f9c3a676147e19",
+    "validation_recorded_at": "2026-11-08T03:14:34.934702+00:00",
+    "producer": "tmp/runs/20261108-A130-rewrite/G70/validate_v3.py",
+    "ledger_json": "实际解析并核最小字段、8句骨架、V3、正文hash及字数。",
+    "ascii_controls": "正文和台账原文及台账解码字符串中，除LF外ASCII控制字符（含TAB和DEL）均为0。",
+    "math_delimiters": "逐字符核对单/双美元、成对与行内/独立陈列位置；与Pandoc AST的公式内容及类型逐一对照一致。",
+    "tex_restrictions": "原始TeX环境、label/ref、三连美元和AST raw TeX节点均未发现；未发现纯数字陈列块式shell PID替换迹象。",
+    "pandoc_ast": "实际退出0，stderr为空；完整命令、AST文件和日志见validation报告与G70临时目录。",
+    "pandoc_html_mathml": "实际退出0，stderr为空；79片MathML逐片XML解析、无merror，annotation与AST内容一致。",
+    "preview": "tmp/runs/20261108-A130-rewrite/G70/section-2-2.v3.mathml.html",
+    "limit": "这些是格式、解析和身份检查，不是全节科学通过、完整MCSM复算或学位版式认证。"
+  },
+  "unresolved": [
+    "未读Baranger原论文或Otsuka2020 RMP相关章节；完整谱函数深式仅留附录接口。",
+    "实际JT相互作用文件、实验C²S归一、有效转移算符与缺失强度未逐项核验。",
+    "154Sm原程序的冻结实现与绝对能量对齐常数未复算，保留综述转引边界。",
+    "T-plot实施层的投影归一、面积常数和基矢数据未取得，不能提供归一经典形状概率。",
+    "未重跑完整MCSM或认证实核相变阶数；最终章节科学判断留总控按原件和数学复核。"
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "appendix_id": "D",
+  "title": "两翼算符与开放网络的深入推导",
+  "worker": "G96",
+  "recorded_at": "2026-11-13T21:30:20.911936+00:00",
+  "output_latex": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixD.tex",
+    "sha256": "a62e402d04f2e050c558b9c5e7abb113c227e821254a4c1f6e2709cfb5661fbf",
+    "bytes": 34294
+  },
+  "sources": [
+    {
+      "source_id": "book-jain-nuclear-isomers",
+      "citation_key": "book-jain-nuclear-isomers",
+      "canonical_source": "A. K. Jain, B. Maheshwari, A. Goel, Nuclear Isomers: A Primer, Springer (2021)",
+      "raw_file": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+      "raw_sha256": "994816561cfb6e89bd215b7fe23e37ecf12e8a3e8f5ce88eafbbd388d02ed74a",
+      "historical_registered_copy": "raw/books/nuclear isomer - A Prime.pdf",
+      "historical_copy_sha256": "20f88b84240637e10a6086eca6b9f6e80a28813ad1ecf14a795144a4d5c2ac34",
+      "actual_read_pages": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        91,
+        103,
+        104,
+        105
+      ],
+      "text_anchor": "Ch3 PDF50–56/print39–45, Eqs3.10–3.22: pure pairing, even/odd ranks and seniority; Ch5 PDF91/print80 and PDF103–105/print92–94: K forbiddenness and mixing. Not a source for the task two-state network theorem."
+    },
+    {
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "citation_key": "book-suhonen-from-nucleons-to-nucleus",
+      "canonical_source": "J. Suhonen, From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory, Springer (2007)",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "actual_read_pages": [
+        552,
+        554,
+        556
+      ],
+      "text_anchor": "PDF p. 552: Eqs.(17.63)-(17.64) initial 0+ GT strength; PDF p. 554: Eqs.(17.70)-(17.74) commutator [t_+, t_-]=2 t_3 and Ikeda sum rule; PDF p. 556: Eqs.(17.83)-(17.84) requirement of complete spin-orbit partner orbits"
+    },
+    {
+      "source_id": "doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives",
+      "citation_key": "doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives",
+      "canonical_source": "Q. Zhi et al., Phys. Rev. C 87, 025803 (2013)",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G34/Zhi_2013_PRC_87_025803_SM_halflives_first_forbidden.pdf",
+      "raw_sha256": "eaedbd4539854e3d1f0e7860ef7ab9c647d4fa44cd8144b4989ba220ec639333",
+      "actual_read_pages": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        10,
+        11
+      ],
+      "text_anchor": "PDF p. 2: Eq.(2) phase space integral; PDF p. 3: Eq.(8) FF matrix elements (r is vector, [r x sigma]^1 is axial-vector); PDF p. 4: Eq.(16) quenching factors; PDF pp. 10-11: N=126 waiting points FF dominance"
+    },
+    {
+      "source_id": "cirigliano-2018-leading-short-range-double-beta",
+      "citation_key": "cirigliano-2018-leading-short-range-double-beta",
+      "canonical_source": "V. Cirigliano et al., Phys. Rev. Lett. 120, 202001 (2018)",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-t07-weak-renormalization/cirigliano-2018-prl120-202001-arxiv-1802.10097v1.pdf",
+      "raw_sha256": "c15e22bdb9c811e986493ff2a0b01f2794c8a33a6493b4ba6d62701525304996",
+      "actual_read_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "text_anchor": "PDF p. 1: light Majorana neutrino exchange between two nucleons; LO contact operator in 1S0 nn -> pp; PDF p. 3 Eq.(15): stripped counterterm potential V_{CT}; PDF p. 4: CIB data constrains C1+C2 combination"
+    },
+    {
+      "source_id": "book-bertulani-nuclear-reactions",
+      "citation_key": "book-bertulani-nuclear-reactions",
+      "canonical_source": "C. A. Bertulani & P. Danielewicz, Introduction to Nuclear Reactions, 2nd Edition, CRC Press (2021)",
+      "raw_file": "raw/books/Introduction to Nuclear Reactions (C.A. Bertulani P. Danielewicz) (Z-Library).pdf",
+      "raw_sha256": "ad1391abd781e2277433283b6635679cfc45efc9d9d5472d4aabcd172509cb71",
+      "actual_read_pages": [
+        145
+      ],
+      "text_anchor": "PDF p. 145, print p. 134: Section 4.6 Eq.(4.102) reduced width and channel penetrability Gamma_n = 2 gamma_l^2 P_l"
+    },
+    {
+      "source_id": "dimitriou-2021-beta-delayed-neutron-reference-database",
+      "citation_key": "dimitriou-2021-iaea-beta-delayed-neutron-database",
+      "canonical_source": "P. Dimitriou et al., Nuclear Data Sheets 173, 144–238 (2021)",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-g52-beta-delayed-particles/dimitriou-2021-iaea-beta-delayed-neutron-database.pdf",
+      "raw_sha256": "ca0b475131704e33f6732163ef996467e630fbea88898dba73cc9f66e7f5684f",
+      "actual_read_pages": [
+        4,
+        8,
+        11
+      ],
+      "text_anchor": "PDF p. 4: Section II.A Eq.(1) P1n event normalization and distinct Pxn decay channels"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C-appD-quasispin-e2-cancellation",
+      "statement": "Pure same-species single-j, fixed v: even-L>0 one-body electric RME has factor (Omega-n)/(Omega-v), v<Omega, only along allowed n=v,v+2,...,2Omega-v. Accessible half-filling cancels these amplitudes. Odd-rank magnetic operators are quasispin scalars; M1 proportional to J cannot be extended to all odd ranks. Unit single-particle M3 RME gives |RME|^2=264/247 for j11/2,n6,v2,10→8, but pure pairing degeneracy and unspecified actual energy ordering prohibit treating this as a measured decay.",
+      "source": "book-jain-nuclear-isomers",
+      "pdf_pages": "PDF50–56",
+      "printed_pages": "print39–45",
+      "figure_or_equation": "Eqs3.10–3.22; task M3 finite control",
+      "searchable_anchor": "quasispin ... seniority ... half-filled shell ... E2 cancellation ... reduction formula",
+      "evidence_kind": "book theory plus explicitly normalized task deduction"
+    },
+    {
+      "claim_id": "C-appD-k-forbiddenness-hindrance",
+      "statement": "nu=|Delta K|-L>0 and f_nu=FW^(1/nu); Tgamma=tau ln2 (1+alpha)/b_tot with total branch including conversion. No universal f_nu threshold identifies triaxiality; Coriolis/configuration/near-degenerate mixing and both-state interference remain alternatives.",
+      "source": "book-jain-nuclear-isomers",
+      "pdf_pages": "PDF91,103–105",
+      "printed_pages": "print80,92–94",
+      "figure_or_equation": "Eqs.(5.1)–(5.10)",
+      "searchable_anchor": "K-isomer ... degree of forbiddenness ... reduced hindrance",
+      "evidence_kind": "book definitions and model conditions"
+    },
+    {
+      "claim_id": "C-appD-first-forbidden-operators",
+      "statement": "FF ranks0,1,2 also obey spin triangles and parity reversal. Schematic operator structures require consistent natural units/radial factors. Unpolarized, magnetic-substate unobserved, angle-integrated spectrum sums separate nuclear ranks; same-rank operators can interfere. N126 FF>GT is limited to Zhi model and calculated Z>=70 range.",
+      "source": "doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives",
+      "pdf_pages": "PDF2–4,10–11",
+      "printed_pages": "preprint pages2–4,10–11",
+      "figure_or_equation": "Eqs5–8,16; N126 discussion",
+      "searchable_anchor": "first-forbidden ... shape factor ... N=126 waiting point ... quenching factors",
+      "evidence_kind": "primary theory plus scoped rank check"
+    },
+    {
+      "claim_id": "C-appD-0nubb-short-range-contact",
+      "statement": "标准轻 Majorana 中微子交换机制由核内两核子弱流顶点之间交换一条虚中微子传播子所驱动；手征 EFT 非微扰两核子 1S0 散射的紫外重整化要求引入领头阶 Delta L=2 短程接触相互作用势 V_{CT}^{(R)}(r_{12}) = -2 g_nu^{NN}(R) delta_R^{(3)}(r_{12}) t_{1,-} t_{2,-}；低能耦合受核子--核子散射中的 CIB 数据约束 counterterm 组合 (C1+C2)，不能单凭该数据唯一确定 g_nu^{NN}；该接触项专属于 0vbb 超弱通道，不可与普通两体轴流 (2BC) 淬灭混淆。",
+      "source": "cirigliano-2018-leading-short-range-double-beta",
+      "pdf_pages": "PDF1–4",
+      "printed_pages": "actual arXiv v1 pages1–4",
+      "figure_or_equation": "Eq.(4), Eq.(15)",
+      "searchable_anchor": "short-range contact operator ... neutrinoless double-beta decay ... renormalization",
+      "evidence_kind": "primary EFT result; isospin convention translated explicitly"
+    },
+    {
+      "claim_id": "C-appD-delayed-neutron-markov-chain",
+      "statement": "Under incoherent stationary branching, Pi_x(a)=sum_br [Gamma_ab^(r)/Gamma_tot(a)]Pi_(x-r)(b). Augmented count labels are one implementation; mass labels/generating functions can retain counts equivalently. Final absorption normalization is distinct from finite-window probability. Conditional beta normalization requires b_beta>0. Neutral R-matrix P_l=rho/(F_l^2+G_l^2) gives threshold power with a nonzero limiting reduced width for a nonzero leading coefficient; bounded width still implies vanishing neutron width; gamma competition depends on nonzero radiation width and model parameters.",
+      "source": "dimitriou-2021-beta-delayed-neutron-reference-database",
+      "pdf_pages": "Dimitriou PDF4,8,11; Bertulani PDF145",
+      "printed_pages": "Bertulani print134",
+      "figure_or_equation": "Dimitriou Eq1 for normalization context; Bertulani Eq4.102; task recursion not attributed as direct database formula",
+      "searchable_anchor": "Markov chain ... absorbing states ... delayed neutron ... penetrability",
+      "evidence_kind": "task Markov and threshold deductions; source context for beta multiplicities and R-matrix definition"
+    },
+    {
+      "claim_id": "C-appD-open-twostate-eigenmodes",
+      "statement": "For nonnegative rates d=aD2+bD1+D1D2>0 iff every fixed nonnegative source admits a unique globally attracting nonnegative steady state. d=0 can admit source-specific families. Delta=0 iff ab=0 and a-b+D1-D2=0, including one-way defective cases. Passive source-free positivity and total-population monotonicity give boundedness. Equal-loss fraction relaxation requires a+b>0 and nonzero total population. Born–Markov/secular weak-coupling assumptions are a conditional Lindblad derivation, not mathematical necessities.",
+      "source": null,
+      "pdf_pages": null,
+      "printed_pages": null,
+      "figure_or_equation": "Appendix D explicit 2x2 derivation and canonical finite control",
+      "searchable_anchor": "master equation ... two-state ... eigenvalues ... detailed balance ... reachable loss",
+      "evidence_kind": "task analytic deduction; not Jain Ch6",
+      "control_script": "system/scripts/a130_same_v_m3_open_network_control.py"
+    },
+    {
+      "claim_id": "C-appD-double-projection-and-we",
+      "statement": "Normalized projected states use f†Nf=1 and both Pf† and Pi in laboratory tensor matrix elements. Recover RME through a nonzero 3j coefficient under Appendix A conventions. Haar measure is not a norm kernel; projection does not automatically cure arbitrary small-deformation divergences.",
+      "evidence_kind": "task algebra from Appendix A/B definitions; finite I1→0 example",
+      "source": null,
+      "control_script": "system/scripts/a130_projection_ff_rank_control.py"
+    }
+  ],
+  "migration_differences": [
+    "T23/T24 boundaries incorporated; full current claims above supersede earlier worker prose."
+  ],
+  "status": "parent_scientific_content_accepted",
+  "session_date": "2026-11-14",
+  "parent_final_tex_sha256": "a62e402d04f2e050c558b9c5e7abb113c227e821254a4c1f6e2709cfb5661fbf",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixD.tex",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
+}

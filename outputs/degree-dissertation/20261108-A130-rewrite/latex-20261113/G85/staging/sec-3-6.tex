@@ -1,0 +1,115 @@
+\section{$\gamma$ 形状模与取向模的耦合}\label{sec:3-6}
+
+在非轴对称变形核的集体激发谱学中，经典与半经典图像通常将摆动运动（wobbling motion）与 $\gamma$ 振动视为两类在物理机制和自由度上截然不同的激发模式。前者描述原子核作为各向异性转子围绕其主转动轴发生的小振幅空间取向进动（取向模），主要由体系的欧拉取向角与体轴系角动量分量支配；后者则描述核椭球内禀四极形状偏离轴对称性的微振动（形状模），对应于四极玻尔坐标平面中内禀参数 $\gamma$ 在势能曲面极小附近的微小伸缩。在早期的纯转子模型或弱微扰代数模型中，这两类自由度通常被假定为相互正交解耦的独立物理通道。
+
+然而，第\ref{chap:2}章第\ref{sec:2-6}节建立的微观动能响应分析表明，核体系的三轴转动惯量并非外生给定的几何常数，而是单粒子运动与残余配对相互作用在随体参考系中自洽极化的动态产物；同时，第\ref{sec:3-2}节指出稳定转轴的选择严格依赖于角速度与惯量排布的动力学平衡。随着转动自旋增加，科里奥利力与离心力引发强烈的微观形状极化，内禀势能曲面的形状刚度随之演化，使得取向振动模与形状振动模的特征能标可能在特定自旋区间相互接近。本节的核心任务是探讨这两类自由度发生动力学耦合的物理条件：从双自由度局域正规模教学模型出发，阐述避免交叉与跃迁强度交换的联合预言判据；分析推转自洽响应中旋转 Nambu--Goldstone 模与转动赝模的微观剔除；澄清有限自旋非谐性与局域声子标签的适用界限；并结合微观模型案例与实验测量，评估这一模式耦合的实际辨识边界。\cite{prochniak-rohozinski-2009-bohr-collective-hamiltonian,matsuzaki-2004-nuclear-inertia-and-wobbling,kvasil-2006-dy156-yb162-crpa-wobbling,doctoral-r1-g37-oi-2001-wobbling-gamma-coupling,doctoral-r1-g37-bhat-2025-microscopic-wobbling-even-even}
+
+\subsection{双坐标耦合的正规模教学模型}\label{sec:3-6-1}
+
+为了在简明物理框架下展示形状偏离与取向进动的微振动耦合本构，本小节构建一个包含两个声明局域广义坐标的正则耦合振子模型。为了避免与四极形状不变量 $q_2, q_3$ 产生记号冲突，令标量坐标 $\xi_1$ 代表内禀形状参数偏离自洽极小的无量纲局域位移（形状模），标量坐标 $\xi_2$ 代表转动角动量矢量偏离主惯量转轴的小振幅角偏离（取向模）；$p_{\xi_1}$ 与 $p_{\xi_2}$ 分别为其共轭动量，满足标准正则对易关系 $[\xi_i, p_{\xi_j}] = i\hbar\delta_{ij}$。
+
+在稳定势阱极小邻域内，将动能与势能截断至二次项，系统的微观局域哈密顿量可形式表述为：
+\begin{equation}\label{eq:3-6-two-coord-hamiltonian}
+H_{\mathrm{local}} = \left(\frac{p_{\xi_1}^2}{2B_1} + \frac{p_{\xi_2}^2}{2B_2}\right) + \frac{1}{2} C_1 \xi_1^2 + \frac{1}{2} C_2 \xi_2^2 + C_{12} \xi_1 \xi_2 ,
+\end{equation}
+其中质量参数 $B_1, B_2 > 0$；$C_1, C_2$ 分别为两模式的非耦合弹性恢复刚度系数，交叉刚度项 $C_{12}$ 表征形状偏离对空间取向力矩的线性微扰耦合。为了保证局域极小的动力学稳定性，势能二次型刚度矩阵：
+\begin{equation}\label{eq:3-6-stiffness-matrix}
+\mathbf{C} = \begin{pmatrix} C_1 & C_{12} \\ C_{12} & C_2 \end{pmatrix}
+\end{equation}
+必须满足正定性条件，即：
+\begin{equation}\label{eq:3-6-positive-definite}
+C_1 > 0, \quad C_2 > 0, \quad \det\mathbf{C} = C_1 C_2 - C_{12}^2 > 0 \implies C_{12}^2 < C_1 C_2 .
+\end{equation}
+条件\eqref{eq:3-6-positive-definite}构成了该局部教学模型物理可解的前提；若 $C_{12}^2 \ge C_1 C_2$，体系将在坐标平面的特定方向失稳，简谐微振动假定即告失效。
+
+引入坐标归一化变换 $x_i = \sqrt{B_i}\,\xi_i$ 与微观未耦合特征固有角频率 $\omega_1 = \sqrt{C_1/B_1}$、$\omega_2 = \sqrt{C_2/B_2}$，系统运动方程可转化为无量纲对称动力学矩阵的本征值问题：
+\begin{equation}\label{eq:3-6-dynamic-matrix}
+\mathbf{M} = \mathbf{B}^{-1/2} \mathbf{C} \mathbf{B}^{-1/2} = \begin{pmatrix} \omega_1^2 & \dfrac{C_{12}}{\sqrt{B_1 B_2}} \\ \dfrac{C_{12}}{\sqrt{B_1 B_2}} & \omega_2^2 \end{pmatrix} .
+\end{equation}
+对角化矩阵 $\mathbf{M}$，即可解出耦合体系的两支正规模特征固有频率 $\omega_\pm$：
+\begin{equation}\label{eq:3-6-eigenfrequencies}
+\omega_\pm^2 = \frac{1}{2}\left(\omega_1^2 + \omega_2^2 \pm \sqrt{(\omega_1^2 - \omega_2^2)^2 + 4 \frac{C_{12}^2}{B_1 B_2}}\right) .
+\end{equation}
+式\eqref{eq:3-6-eigenfrequencies}表明：只要交叉耦合项 $C_{12} \neq 0$，正规模本征频率平方差便不会发生简并相交。在未微扰频率共振点（$\omega_1 = \omega_2$）处，两模式的本征频率平方差打开一个有限的能隙：
+\begin{equation}\label{eq:3-6-min-gap}
+\Delta(\omega^2)\big|_{\mathrm{res}} = \omega_+^2 - \omega_-^2 = \frac{2 |C_{12}|}{\sqrt{B_1 B_2}} .
+\end{equation}
+需要指出，式\eqref{eq:3-6-two-coord-hamiltonian}至\eqref{eq:3-6-min-gap}是在常质量与常恢复力下的正则教学振动模型，尚未包含推转旋转体系中普遍存在的科氏陀螺速度依赖耦合项（gyro-coupling），不宣称其为微观 QRPA 响应方程的精确约化，亦不能将该模型的局域参数拟合等同于对实际核多体系统的直接实测。
+
+\subsection{量子两态混合的对称性与相互作用条件}\label{sec:3-6-2}
+
+当从经典局域微振动推进至量子多体能态表述时，形状振动与取向摆动的模式耦合表现为具有确定实验室量子数的离散态之间的组态混合。
+
+设原子核在特定自旋 $I_i$ 下存在两个未微扰的正交基底态：未微扰的纯 $\gamma$ 振动态 $|1\rangle \equiv |I_i, \gamma\text{-vib}\rangle$（未耦合能量为 $\varepsilon_1^{(0)}$）与纯取向摆动态 $|2\rangle \equiv |I_i, \text{wob}\rangle$（未耦合能量为 $\varepsilon_2^{(0)}$）。利用两正交态相对相位的选取自由度，总可选取基底使得两态间的耦合相互作用矩阵元满足实数非负 $V \ge 0$。在此重定相基底中，总哈密顿矩阵形式写为：
+\begin{equation}\label{eq:3-6-two-state-h}
+\mathbf{H}_{\mathrm{two-state}} = \begin{pmatrix} \varepsilon_1^{(0)} & V \\ V & \varepsilon_2^{(0)} \end{pmatrix} .
+\end{equation}
+非零相互作用矩阵元（$V \neq 0$）存在的对称性先决条件，是两态必须具有相同的守恒总角动量 $I_i$ 与空间宇称 $\pi$。进一步，在随体推转体系中，若体系哈密顿量保持了特定的离散对称性（如绕转动轴的签名对称性），两基底态还必须属于相同的签名相容类。然而，“对称性允许”仅提供了矩阵元非零的相容性前提，并不自动等同于 $V \neq 0$ 或强混合。
+
+定义未微扰能差失谐量 $\Delta = \varepsilon_1^{(0)} - \varepsilon_2^{(0)}$（可正可负）。混合角通过四象限反正切函数无歧义地定义为：
+\begin{equation}\label{eq:3-6-mixing-ratio}
+2\theta = \operatorname{atan2}(2V, \Delta) \in [0, \pi] \implies \theta \in [0, \pi/2] .
+\end{equation}
+在此定义下，两个本征态表述为：
+\begin{equation}\label{eq:3-6-mixed-states}
+|+\rangle = \cos\theta\,|1\rangle + \sin\theta\,|2\rangle , \qquad
+|-\rangle = -\sin\theta\,|1\rangle + \cos\theta\,|2\rangle .
+\end{equation}
+当 $\Delta \to +\infty$ 时，$\theta \to 0$，$|+\rangle \to |1\rangle$；当未微扰能级发生简并（$\Delta = 0$）且 $V > 0$ 时，$\theta = \pi/4$，两态呈现等权重极大混合；当 $\Delta \to -\infty$ 时，$\theta \to \pi/2$，$|+\rangle \to |2\rangle$，波函数成分平滑反转。在奇异点 $V = 0$ 且 $\Delta = 0$ 处，子空间完全简并，$\operatorname{atan2}(0,0)$ 无法良定物理混合角，任意正交线性组合均构成合法基矢；而在 $V=0, \Delta \neq 0$ 时沿连续支路平滑读取（$\Delta > 0$ 时 $\theta = 0$，$\Delta < 0$ 时 $\theta = \pi/2$）。式\eqref{eq:3-6-mixed-states}的相位与能量零点设定，与第\ref{sec:2-5}节及附录~B 中的规范保持一致，相关的电磁跃迁约化矩阵元亦在同一重定相基底中定义。
+
+\subsection{避免交叉与跃迁强度的联合检验判据}\label{sec:3-6-3}
+
+图\ref{fig:3-6-mode-mixing}展示了在声明教学参数下独立的量子两态混合模型的特征行为。必须强调，该图反映的是离散二态哈密顿量式\eqref{eq:3-6-two-state-h}的数学特性，与前述连续坐标微振动谐振子的正规模特征频率 $\omega_\pm^2$ 属于不同层面的模型表述，亦不代表实核数据。由此图可知，理论上对 $\gamma$ 形状模与取向摆动模耦合的物理识别，依赖于一组协同的联合预言判据，而非孤立的单一观测指标。
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.75\textwidth]{Img/mode-mixing-avoided-crossing.pdf}
+\caption{声明参数两态量子混合教学模型中的避免交叉与基底成分权重交换示意图（由独占脚本 \texttt{system/scripts/a130\_mode\_mixing\_figure.py} 生成，采用声明教学参数 $V=0.8, \bar{\varepsilon}=5.0$ 任意单位）。(a) 未耦合能量本征值（虚线）与耦合后正规模本征能量 $E_\pm(\Delta)$（实线），两支在失谐量 $\Delta = \varepsilon_1^{(0)} - \varepsilon_2^{(0)} = 0$ 处打开能隙 $2V$；(b) 上能级态 $|+\rangle$ 中原始基底 $|1\rangle$（实线）与基底 $|2\rangle$（虚线）的几率权重随失谐量的平滑过渡交换。图示展示的是独立的二态模型数学特性，不代表实核数据。}\label{fig:3-6-mode-mixing}
+\end{figure}
+
+联合预言判据包含以下四个相互联系的物理环节：
+\begin{enumerate}
+\item \textbf{能级避免交叉 (Avoided Crossing)}：随着转动自旋或外加推转频率的增加，未耦合能级彼此逼近；在耦合项作用下，本征能谱呈现出避免交叉排斥特征，能隙极小值直接对应于耦合矩阵元大小 $2V$（见图\ref{fig:3-6-mode-mixing}(a)）。
+\item \textbf{波函数成分反转与重分布}：穿过避免交叉点前后，高能态与低能态中关于形状振动基底与取向摆动基底的几率成分发生连续交换（见图\ref{fig:3-6-mode-mixing}(b)）。
+\item \textbf{电磁跃迁几率的相干干涉与重新分配}：由于电四极算符 $\mathcal{M}(E2)$ 对形状改变和转轴转动态具有不同的跃迁选择定则与矩阵元结构，两态的相干叠加将导致向末态 $|f\rangle$ 的折合跃迁几率展现出特征干涉效应：
+\begin{equation}\label{eq:3-6-be2-interference}
+B(E2; |+\rangle \to |f\rangle) = \frac{1}{2I_i + 1} \left| \cos\theta\,\langle f || \mathcal{M}(E2) || 1 \rangle + \sin\theta\,\langle f || \mathcal{M}(E2) || 2 \rangle \right|^2 ,
+\end{equation}
+其中双竖线代表标准 Wigner--Eckart 约化矩阵元，式前严格包含初态统计权因子 $\frac{1}{2I_i+1}$。需要澄清，只要相干跃迁矩阵元非零，式\eqref{eq:3-6-be2-interference}所描述的相干干涉便必然存在，其本身并不要求二态子空间在全希尔伯特空间中严格完备封闭；只有当要求两态跃迁总强度满足无损守恒时，才依赖于初态统计权相同、算符固定且跃迁强度不泄漏至子空间之外等特定条件。
+\item \textbf{多极混合比 $\delta(E2/M1)$ 的演化}：伴随着波函数成分从摆动取向主导向形状振动主导的平滑过渡，带间跨带跃迁的多极混合比 $\delta$ 的数值和符号取决于微观电四极与磁偶极矩阵元的相对相位与干涉效应，并不必然表现为单调显著的变化。
+\end{enumerate}
+
+必须强调：单凭实验测得的能级排斥或能级间隔突变，不能唯一确定存在形状模与取向模的耦合。在快转动核结构中，单粒子准粒子顺排（如回弯现象）、带交叉退耦或科里奥利反转均能在能谱上表现为能级排斥。因此，在实验数据分析中，必须严格区分直接谱学测量（能级与分支比）、唯象模型拟合与物理机制解释三层界限。
+
+\subsection{微观自洽响应中旋转赝模的严格剔除}\label{sec:3-6-4}
+
+当在微观准粒子随机相位近似（QRPA）或推转 RPA（CRPA）框架下研究高自旋激发态时，必须处理自发对称破缺引起的零频模问题。\cite{prochniak-rohozinski-2009-bohr-collective-hamiltonian,matsuzaki-2004-nuclear-inertia-and-wobbling}
+
+在随体参考系中，推转平均场假定核单体势绕特定主轴（通常定义为 $x$ 轴）以角频率 $\omega_{\mathrm{rot}}$ 旋转，推转哈密顿量为 $\hat{H}_{\mathrm{crank}} = \hat{H}_0 - \omega_{\mathrm{rot}} \hat{J}_x$，其中角动量算符 $\hat{\mathbf{J}}$ 具有作用量量纲（带 $\hbar$ 单位），无量纲自旋算符写为 $\hat{\mathbf{j}} = \hat{\mathbf{J}}/\hbar$。该推转平均场破缺了全空间的各向同性转动对称性。当破缺参考态与自洽响应方程相容时，根据 Nambu--Goldstone 定理，该破缺在微观线性响应方程中伴随有零能量的 Nambu--Goldstone 模，其本征算符对应于角动量算符 $\hat{J}_x$。然而，在有限频率推转平均场下，绕转动轴垂直方向的横向转动赝模可能在推转频率 $\omega_{\mathrm{rot}}$ 附近表现为有限频率的运动学赝模。Matsuzaki 与 Shimizu 指出，在研究三轴超变形核的横向摆动运动时，微观残余力必须采用二次拉伸四极相互作用（doubly-stretched quadrupole interaction）以自洽恢复对称性，并在构建准玻色子激发基底时，显式将转动赝模对角分离并剔除。\cite{matsuzaki-2004-nuclear-inertia-and-wobbling} 若未严格剔除转动赝模，残余的假频成分将与真实的低激发四极形状振动模相互污染，可能导致虚假的非物理能带。
+
+进一步，微观自洽线性响应导出的有效横向转动响应张量是在参考频率 $\omega_{\mathrm{rot}}$ 的自洽基底上，对小振幅微扰探针角频率 $\Omega$ 导出的动态响应导数：
+\begin{equation}\label{eq:3-6-freq-dependent-inertia}
+\chi_{kl}^{J\omega}(\Omega; \omega_{\mathrm{rot}}) = \left. \frac{\delta \langle \hat{J}_k \rangle(\Omega)}{\delta \omega_l(\Omega)} \right|_{\omega_{\mathrm{rot}}} .
+\end{equation}
+该响应张量 $\chi_{kl}^{J\omega}$ 表现出对探针频率 $\Omega$ 与参考频率 $\omega_{\mathrm{rot}}$ 的动力学依赖性，它并不直接等同于宏观转子模型中通用的单标量转动惯量 $\mathcal{J}_{\perp}$，而是在小振幅摆动本征方程中作为动能响应系数矩阵出现。沿带动力学转动惯量 $\mathcal{J}^{(2)} = dI_x/d\omega_{\mathrm{rot}}$ 描述的是角动量随沿带转动角频率的变化率，它与垂直于转轴的横向有效惯量分属不同物理响应通道，不能用沿带动力学惯量直接代替横向响应惯量。\cite{matsuzaki-2004-nuclear-inertia-and-wobbling}
+
+\subsection{有限自旋非谐效应与局域声子标签边界}\label{sec:3-6-5}
+
+在简谐多声子近似下，摆动带与 $\gamma$ 振动带通常被赋予离散的整数声子量子数 $n_{\mathrm{wob}} = 0, 1, 2, \dots$ 或 $n_\gamma = 0, 1, 2, \dots$。然而，在实际有限核体系中，这种简谐性只是局域展开下的渐近近似。
+
+即使假定原子核具有固定的转动惯量参数，当总角动量 $I$ 处于有限值时，转子体轴系哈密顿量中角动量算符的高阶运动学项不可忽略，体系必然表现出非谐性展开修正。随着自旋 $I$ 的变化，转子摆动频率自身带有 $\mathcal{O}(1/I)$ 的特征非谐偏离。因此，声子量子数 $n$ 仅是低激发、特定自旋窗口内的局域有效标签；不能先验地将实验观测到的任意三个伴带机械地指认为 $n=0, 1, 2$ 声子态。更重要的是，能谱中间隔的不均匀性或非谐性偏离，既可能源于有限自旋下的转子运动学效应，也可能源于微观准粒子顺排引起的核芯极化，不能将实验谱中的非谐效应自动归因为形状模与取向模的模式混合。
+
+\subsection{微观模型案例与核区观测边界}\label{sec:3-6-6}
+
+为了审视真实核体系中形状模与取向模耦合的理论预言与实验现状，本小节梳理文献中代表性的微观计算与典型核区的观测边界。
+
+\paragraph{1. TAC-HFB 框架下的高自旋摆动与 $\gamma$ 坐标探索}
+Oi 与 Walker 在探索性微观模型中，对典型三轴超变形核 $^{164}\mathrm{Hf}$ 采用倾斜推转 HFB（TAC-HFB）方法，沿倾斜取向角自洽松弛内禀四极形状坐标 $\gamma$，并在倾斜角方向进行了示意性的 1 维局域量子化。\cite{doctoral-r1-g37-oi-2001-wobbling-gamma-coupling} 在其经典力学分析中，随着角动量矢量在主轴间的取向运动，能量曲面在相空间展现出分岔结构与分离线（separatrix）；而在其简化量子化模型中，通过两对局域态的相干叠加构造了对称（S）与反对称（A）四重局域标记态（这是基于局域波函数节点的代数标记，并非守恒的空间宇称）。作者讨论了在中高自旋区间内，原本能量较高的 $\gamma$ 振动模向倾斜角能量面靠近时的态混合可能性。\cite{doctoral-r1-g37-oi-2001-wobbling-gamma-coupling} 但需要明确，该文献并未提供绝对电磁跃迁几率的实验测量，其计算势能面亦未能重现该区 TSD 极小的基态形变，且模型中引入的质量参数归一因子 2 属于本知识库在数学推导中发现的理论疑点，而非原始文献中已认定的定论；因此该文献应严格定位为一项具有明确简化条件的历史性模型探索，而非实核谱学确证。
+
+\paragraph{2. 推转 HFB+CRPA 框架下的配对与对顺排响应}
+Kvasil 与 Nazmitdinov 在推转自洽 HFB 加无规相位近似（CRPA）框架下，系统分析了稀土区核素 $^{156}\mathrm{Dy}$ 与 $^{162}\mathrm{Yb}$ 的低能激发谱。\cite{kvasil-2006-dy156-yb162-crpa-wobbling} 其计算指出，基态附近的单对拆开与准粒子配对关联对纯转动摆动模式影响较弱，但体系对高 $j$ 准粒子的顺排过程表现出强烈的非谐敏感性。在回弯区附近，随着中子或质子对的退耦顺排，微观有效转动惯量发生剧烈改变，使得能谱表现出复杂的带交叉；这一计算清晰地表明，在分析高自旋能带时，必须通过准粒子顺排角动量 $i_x$ 与绝对电磁矩阵元的微观分析，区分单粒子顺排效应与形状-取向集体模式混合。\cite{kvasil-2006-dy156-yb162-crpa-wobbling}
+
+\paragraph{3. 三轴投影壳模型（TPSM）在偶偶核中的应用与限制}
+Bhat 等人采用微观三轴投影壳模型（TPSM），在包含真空带、两准粒子带（$2\nu, 2\pi$）与四准粒子带（$2\nu 2\pi$）的完全三维多壳层组态空间中，对 $^{76}\mathrm{Ge}, ^{112}\mathrm{Ru}, ^{188,192}\mathrm{Os}, ^{192}\mathrm{Pt}, ^{232}\mathrm{Th}$ 等偶偶核素展开了角动量投影计算。\cite{doctoral-r1-g37-bhat-2025-microscopic-wobbling-even-even} 他们指出，在这些核素中，传统的准 $\gamma$ 振动带在特定自旋窗口内表现出奇自旋成员相对偶自旋成员的能级交错反转，并在模型波函数中展现出多准粒子混合成分。\cite{doctoral-r1-g37-bhat-2025-microscopic-wobbling-even-even} 需要指出，该项研究属于特定唯象单粒子势基底下的微观组态对角化模型，其计算结果严格受限于各核素选取的固定形变输入参数 $(\epsilon, \epsilon')$（见其原文 Table~I）；不能将个别核素在特定自旋区间的模型符合结果，外推为所有中重偶偶核中普遍确立了由形状-取向模式混合支配的摆动带。
+
+综上所述，原子核内禀四极形状坐标与空间欧拉取向角是性质不同的物理自由度。两者耦合的发生，依赖于特征频率的充分接近与微观相互作用矩阵元在相容对称性下的非零重叠。在面对实验谱学数据时，单凭能谱排斥或非谐性不能作为识别两模混合的充分依据；唯有结合微观有效转动惯量的频率依赖性、带间绝对 $E2$ 与 $M1$ 跃迁强度的重分配、以及对单粒子准粒子顺排贡献的定量扣除，才能建立起关于形状模与取向模耦合的自洽物理图像。

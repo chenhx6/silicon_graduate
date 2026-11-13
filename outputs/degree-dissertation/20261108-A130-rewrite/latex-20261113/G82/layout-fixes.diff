@@ -1,0 +1,76 @@
+--- raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-1.tex (accepted)
++++ raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-1.tex (layout)
+@@ -138,9 +138,12 @@
+ Q_s(I) \equiv \sqrt{\frac{16\pi}{5}} \, \langle I, M=I | \mathcal{M}(E2, 0) | I, M=I \rangle.
+ \end{equation}
+ 利用 Wigner–Eckart 定理，该物理量可写为对角约化矩阵元的倍数：
+-\begin{align}\label{eq:2-1-21}
+-Q_s(I) = \sqrt{\frac{16\pi}{5}} \, \begin{pmatrix} I & 2 & I \\ -I & 0 & I \end{pmatrix} \langle I || \mathcal{M}(E2) || I \rangle = \sqrt{\frac{16\pi}{5}} \sqrt{\frac{2I(2I-1)}{(2I+3)(2I+2)(2I+1)}} \, R_{aa}.
+-\end{align}
++\begin{equation}\label{eq:2-1-21}
++\begin{aligned}
++Q_s(I) &= \sqrt{\frac{16\pi}{5}} \, \begin{pmatrix} I & 2 & I \\ -I & 0 & I \end{pmatrix} \langle I || \mathcal{M}(E2) || I \rangle \\
++&= \sqrt{\frac{16\pi}{5}} \sqrt{\frac{2I(2I-1)}{(2I+3)(2I+2)(2I+1)}} \, R_{aa}.
++\end{aligned}
++\end{equation}
+ 根据 $3j$ 符号的三角定则，自旋 $I \ge 1$ 是产生非零静四极矩的必要几何条件；对于 $I = 0$ 和 $I = 1/2$ 能级，$Q_s$ 恒为零。若 $I \ge 1$，其实际数值是否非零取决于核电荷分布的非球形偏离。需要澄清，静四极矩的代数符号不能简单直接地等同于内禀长椭球或扁椭球：仅在理想的轴对称刚性转子模型且基态带为 $K=0$ 时，存在解析几何映射 $Q_s(2_1^+) = -\frac{2}{7} Q_0$（此时内禀长椭形变 $Q_0 > 0$ 对应于 $Q_s < 0$）。在包含三轴形变、$\gamma$ 振动涨落或混合能带的复杂核中，该简单对应不再适用。
+ 
+ 进一步考察包含多个中间态的多步跃迁。对于由能态构成的闭合多边形跃迁路径 $s \to r \to t \to \dots \to s$，在态矢量重定相变换下，该闭合序列上约化矩阵元的乘积变换为：
+--- raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-2.tex (accepted)
++++ raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-2.tex (layout)
+@@ -80,9 +80,11 @@
+ \end{equation}
+ 由此可严格区分添粒能 $e_j^+$、正向定义的移粒能 $e_j^-$ 以及对粒子数连续延拓的多项式导数：
+ \begin{equation}\label{eq:2-2-11}
+-e_j^+ = \epsilon^n_{0;j} + w_j n + U_j,\qquad
+-e_j^- = \epsilon^n_{0;j} + w_j(n-1) + U_j,\qquad
+-\frac{\partial E_j}{\partial n} = \epsilon^n_{0;j} + w_j\left(n - \frac{1}{2}\right) + U_j.
++\begin{aligned}
++e_j^+ &= \epsilon^n_{0;j} + w_j n + U_j,\\
++e_j^- &= \epsilon^n_{0;j} + w_j(n-1) + U_j,\\
++\frac{\partial E_j}{\partial n} &= \epsilon^n_{0;j} + w_j\left(n - \frac{1}{2}\right) + U_j.
++\end{aligned}
+ \end{equation}
+ 添粒要求该轨道存在空位，移粒要求该轨道已占据核子，而连续导数并非离散整数多体体系中直接可测的单能级物理量。在简并度为 $g_j = 2j+1$ 的球对称壳层上，若归一的加粒与去粒谱强度总和分别为 $g_j - n$ 与 $n$，则两支联合的加权谱重心为：
+ \begin{equation}\label{eq:2-2-12}
+@@ -106,7 +108,7 @@
+ 
+ 中心、张量和两体自旋－轨道分量均可贡献单极矩阵元。径向波函数相近，可增强某些中心作用通道的吸引，但吸排符号与强度仍取决于所选力和通道。对张量部分，常用 $j_>=l+1/2$ 与 $j_<=l-1/2$ 区分自旋－轨道伙伴。Otsuka 所讨论的张量分量显示，异侧组合可有吸引、同侧组合可有排斥；这种趋势须连同同位旋通道与径向矩阵元使用，不能称为仅由几何决定的严格选择定则，更不能据此判断总有效作用的符号。\cite{doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution}
+ 
+-Togashi 等的 Zr 计算给出一个具体的同核比较。按 Togashi 等预印本图 3（arXiv:1606.09056v2 第 3 页）及其相邻正文说明（第 4 页），$^{98}\mathrm{Zr}$ 的 $0_1^+$ 与 $0_2^+$ 态分别具有近球形与长椭形变的模型特征，质子 $\pi0g_{9/2}$ 占据从 $0.4$ 变为 $3.5$。相应地，作者所比较的中子 $2s_{1/2}$ 至 $0g_{7/2}$ 轨道组，ESPE 展布由约 $4\ \mathrm{MeV}$ 收缩到 $2\ \mathrm{MeV}$ 以内。这些是给定 Hamiltonian 的占据期望值与模型重心，不表示实验直接测得了单粒子峰位移动。\cite{doctoral-r1-g28-togashi-2016-zr-mcsm-qpt}
++Togashi 等的 Zr 计算给出一个具体的同核比较。按 Togashi 等预印本图 3（arXiv:\allowbreak{}1606.\allowbreak{}09056v2 第 3 页）及其相邻正文说明（第 4 页），$^{98}\mathrm{Zr}$ 的 $0_1^+$ 与 $0_2^+$ 态分别具有近球形与长椭形变的模型特征，质子 $\pi0g_{9/2}$ 占据从 $0.4$ 变为 $3.5$。相应地，作者所比较的中子 $2s_{1/2}$ 至 $0g_{7/2}$ 轨道组，ESPE 展布由约 $4\ \mathrm{MeV}$ 收缩到 $2\ \mathrm{MeV}$ 以内。这些是给定 Hamil\-to\-nian 的占据期望值与模型重心，不表示实验直接测得了单粒子峰位移动。\cite{doctoral-r1-g28-togashi-2016-zr-mcsm-qpt}
+ 
+ 在这一计算中，$\pi0g_{9/2}$ 与 $\nu0g_{7/2}$ 的中心和张量贡献相干，作者报告后者出现约 $2\ \mathrm{MeV}$ 的下移；对于 $\pi0g_{9/2}$ 与 $\nu0h_{11/2}$，两种贡献相消，净效应仍为较弱的下拉。这里约 $2\ \mathrm{MeV}$ 的轨道移动，与前述一组 ESPE 的展布变化，是相关而不同的量。单极反馈的作用是改变构型的能量代价，四极多极关联则在允许通道中建立相干，二者在此模型中共同影响形变态的能量。
+ 
+@@ -128,7 +130,7 @@
+ 
+ 作者图 13 显示，以基态为参考时，建立在 $0_2^+$ 上的激发带上移约 $0.5\ \mathrm{MeV}$；以球形 Hartree–Fock 态为参考时，基态的模型形状从长椭变为三轴。后一个结果表明，在这组相互作用和参考输入下，活动单极反馈被切断后仍可出现形变。它限制了“没有活动单极重排就不能形变”的普遍断言，却不能把所有核中的驱动力一律排序为多极主导；参考态改变所得 SPE，本身就改变了比较的输入。这里引用的是综述中的模型干预结果，并非一项独立的新测量。
+ 
+-这类解释还须结合求解方法的边界。Togashi 等采用的蒙特卡罗壳模型（MCSM），以 Slater 行列式构造基矢，结合量子蒙特卡罗选基和变分优化，并将其投影到指定角动量与宇称后叠加。角动量投影涉及连续旋转，空间宇称则是离散对称，不能统称为连续群投影。选基依据可计算的能量等变分信息，不预先知道真实态并选择与其重叠最大的基矢。所选子空间中的求解也不等于完整价空间的精确对角化，计算精度仍须考察基组扩展和相应收敛信息。\cite{doctoral-r1-g28-togashi-2016-zr-mcsm-qpt}
++这类解释还须结合求解方法的边界。Togashi\allowbreak{} 等采用的蒙特卡罗壳模型（MCSM\allowbreak{}），以 Sla\-ter 行列式构造基矢，结合量子蒙特卡罗选基和变分优化，并将其投影到指定角动量与宇称后叠加。角动量投影涉及连续旋转，空间宇称则是离散对称，不能统称为连续群投影。选基依据可计算的能量等变分信息，不预先知道真实态并选择与其重叠最大的基矢。所选子空间中的求解也不等于完整价空间的精确对角化，计算精度仍须考察基组扩展和相应收敛信息。\cite{doctoral-r1-g28-togashi-2016-zr-mcsm-qpt}
+ 
+ 原文“固定 Hamiltonian”的含义，是确定相互作用后沿 Zr 链计算时不再逐核重调。JUN45 和 SNBG3 是已有的、含经验信息的有效相互作用，$V_{\mathrm{MU}}$ 用于其余部分；该研究另对指定 $T=1$ 通道作局部调整，并使用 $^{90-96}\mathrm{Zr}$ 的 $2_1^+,4_1^+$ 与 $^{94-100}\mathrm{Zr}$ 的 $0_2^+$ 能级微调相关矩阵元。这不等于三套相互作用整体均由这批数据重新拟合。作者还报告，未作这些调整时快速转变仍出现，调整改善了谱学描述；因此既须交代经验输入，也不能将机制简单归为拟合制造。参与构造的能级仍不能计为完全独立的预测检验。
+ 
+--- raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-3.tex (accepted)
++++ raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-3.tex (layout)
+@@ -18,7 +18,10 @@
+ 
+ 当两个处于相互时间反演轨道的同类核子（质子—质子或中子—中子）发生相互作用时，在特定磁子能级对上产生对态 $c_k^\dagger c_{\bar{k}}^\dagger |0\rangle$。需要明确区分单个磁轨道对态与全壳层角动量耦合态的物理表示：单个固定磁投影的轨道对态 $c_k^\dagger c_{\bar{k}}^\dagger |0\rangle$ 仅具有总磁投影 $M = m_k + (-m_k) = 0$，在空间三维旋转下并非单一总角动量 $J$ 的本征态，而是包含了允许的总角动量 $J = 0, 2, 4, \dots$ 的线性叠加。在球对称单 $j$ 壳层中，将同壳层核子对严格耦合为总角动量为零的球形标量态时，需要对该壳层内所有磁子能级进行角动量张量耦合求和。在真空归一化约定下，归一化的双核子 $J=0$ 态为：
+ \begin{equation}\label{eq:2-3-2}
+-|j^2; J=0, M=0\rangle = \frac{1}{\sqrt{2(2j+1)}} \sum_{m=-j}^j (-1)^{j-m} c_{jm}^\dagger c_{j,-m}^\dagger |0\rangle = \frac{1}{\sqrt{\Omega}} \sum_{m>0} (-1)^{j-m} c_{jm}^\dagger c_{j,-m}^\dagger |0\rangle,
++\begin{aligned}
++|j^2; J=0, M=0\rangle &= \frac{1}{\sqrt{2(2j+1)}} \sum_{m=-j}^j (-1)^{j-m} c_{jm}^\dagger c_{j,-m}^\dagger |0\rangle \\
++&= \frac{1}{\sqrt{\Omega}} \sum_{m>0} (-1)^{j-m} c_{jm}^\dagger c_{j,-m}^\dagger |0\rangle,
++\end{aligned}
+ \end{equation}
+ 其中 $\Omega = (2j+1)/2$ 为该单 $j$ 壳层的 Kramers 轨道对简并度。在轴对称形变核中，球形角动量 $J$ 被形变场破缺，但时间反演对称性依然保持，$c_k^\dagger c_{\bar{k}}^\dagger$ 对应于沿内禀对称轴投影 $K=0$ 的时间反演对产生算符。
+ 
+@@ -209,7 +212,7 @@
+ \begin{equation}\label{eq:2-3-30}
+ \mathcal{J}_{\text{pair}} \equiv \frac{\partial \bar{N}}{\partial \lambda} = -S(\hat{N}, \omega = 0) \quad (\text{单位：}\text{MeV}^{-1}).
+ \end{equation}
+-能面二次曲率满足 $\mathcal{J}_{\text{pair}}^{-1} = \partial^2 E/\partial N^2 = -\partial^2 B_+/\partial N^2$。此处始终以E表示内部总能，以B₊表示正束缚能；这一局部展开还要求指定平滑的自洽态族、固定其它粒子数的路径及非奇异响应。
++能面二次曲率满足 $\mathcal{J}_{\text{pair}}^{-1} = \partial^2 E/\partial N^2 = -\partial^2 B_+/\partial N^2$。此处始终以E表示内部总能，以$B_+$表示正束缚能；这一局部展开还要求指定平滑的自洽态族、固定其它粒子数的路径及非奇异响应。
+ 
+ 必须明确区分两类物理转动惯量：\textbf{配对转动惯量 $\mathcal{J}_{\text{pair}}$ 的量纲是 $\text{MeV}^{-1}$，反映的是能量随粒子数规范变量变化的微观曲率响应；而空间三维集体转动惯量 $\mathcal{J}_{\text{space}}$ 的量纲为 $\hbar^2/\text{MeV}$（或记为 $\text{MeV}^{-1}\hbar^2$），反映的是孤立体系绕真实空间几何轴旋转的动能响应。二者对应的微观自由度与动力学机制完全不同，绝对不能因名称相似而混同。}
+ 

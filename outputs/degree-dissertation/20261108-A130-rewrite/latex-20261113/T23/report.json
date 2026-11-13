@@ -1,0 +1,160 @@
+{
+  "task": "T23",
+  "status": "completed",
+  "scope": "Four requested frozen Appendix D statements only; no new experiment, source, rate, or canonical mutation.",
+  "inputs": {
+    "frozen": "T23/AppendixD.frozen.tex",
+    "sha256": "1c965db956321694ab52788af19ed90c1b016c614b1856034b215d10a6e1b5c7",
+    "prior": "T21/report.json and T21/correction.tex; retain T21 lowest-weight correction; T23 does not re-audit T21"
+  },
+  "source": {
+    "title": "Nuclear Isomers: A Primer, Jain et al. (2021), Chapter 3",
+    "raw_file": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+    "sha256": "994816561cfb6e89bd215b7fe23e37ecf12e8a3e8f5ce88eafbbd388d02ed74a",
+    "locators": [
+      {
+        "physical_pdf_page": 52,
+        "printed_page": 41,
+        "equations": [
+          "3.11",
+          "3.12"
+        ],
+        "content": "odd-rank single-particle operators are quasispin scalar; same-seniority matrix elements independent of n"
+      },
+      {
+        "physical_pdf_page": 55,
+        "printed_page": 44,
+        "locator": "Figure 3.3 and text",
+        "content": "single-j parity and electric/magnetic seniority selection rules"
+      },
+      {
+        "physical_pdf_page": 56,
+        "printed_page": 45,
+        "equations": [
+          "3.22"
+        ],
+        "content": "same-seniority magnetic multipole matrix element reduced to n=v"
+      }
+    ]
+  },
+  "findings": [
+    {
+      "id": "T23-01",
+      "line": 88,
+      "severity": "major",
+      "exact": false,
+      "claim": "All finite electromagnetic same-v decay exits at half filling require seniority change or shell mixing.",
+      "conditions": "For identical fermions in one j shell, odd-rank one-body operators are quasispin scalars and have n-independent same-v reduced matrix elements. M3 requires nonzero one-body RME, angular and parity selection, and energetic availability; M1 within one j is proportional to total J and has no off-diagonal transitions between distinct eigenstates. No physical nucleus or rate is asserted.",
+      "counterexample": {
+        "j": "11/2",
+        "Omega": 6,
+        "n": 6,
+        "v": 2,
+        "Ji": 10,
+        "Jf": 8,
+        "rank": "M3",
+        "one_body_rme": 1,
+        "six_j": "{11/2 8 11/2; 10 11/2 3} = sqrt(22/29393)",
+        "many_body_rme_absolute_squared": "264/247",
+        "n2_to_n6_factor": 1,
+        "parity": "unchanged: magnetic L=3 gives (-1)^(L+1)=+1",
+        "triangle": "2 <= 3 <= 18",
+        "energy": "assume Ji state above Jf state; selection rules do not establish energy ordering"
+      },
+      "source_physical_pages": [
+        52,
+        55,
+        56
+      ],
+      "validation": "Racah factorial formula and independently constructed antisymmetric Fock states; exact 6j squared and Fock numerical agreement; even-rank E2 control vanishes at n=6."
+    },
+    {
+      "id": "T23-02",
+      "line": 314,
+      "severity": "major",
+      "exact": false,
+      "claim": "det(-A)>0 is necessary and sufficient for existence of a finite nonnegative steady state for a particular source.",
+      "conditions": "det>0 iff for every fixed nonnegative source there is a unique nonnegative steady state globally attracting from arbitrary initial populations; equivalent to a loss channel reachable from each state. For det=0, a compatible special source may have a nonunique finite nonnegative steady state. For nonzero M=-A, compatibility is adj(M)S=0 for nonnegative source; if M=0 it is S=0.",
+      "counterexample": {
+        "a": 0,
+        "b": 0,
+        "D1": 1,
+        "D2": 0,
+        "S": [
+          1,
+          0
+        ],
+        "det": 0,
+        "steady_family": "(1,c), c>=0"
+      },
+      "source_physical_pages": [],
+      "validation": "Exact rational substitution; directly inspect positivity, nullspace, and column range."
+    },
+    {
+      "id": "T23-03",
+      "line": 279,
+      "severity": "major",
+      "exact": false,
+      "claim": "The listed a=b=0, D1=D2 example is a valid degeneracy but incomplete; the claim that Jordan blocks guarantee boundedness is false.",
+      "conditions": "For nonnegative rates Delta=0 iff ab=0 and a-b+D1-D2=0. A nontrivial Jordan block can occur with one directed edge, and t exp(-gamma t) is required; for passive nonnegative source-free populations boundedness follows from nonincreasing total population, not Jordan form. All eigenvalues real and <=0.",
+      "counterexample": {
+        "a": 0,
+        "b": 1,
+        "D1": 2,
+        "D2": 1,
+        "A": [
+          [
+            -2,
+            1
+          ],
+          [
+            0,
+            -2
+          ]
+        ],
+        "Delta": 0,
+        "propagator": "exp(-2t) [[1,t],[0,1]]"
+      },
+      "source_physical_pages": [],
+      "validation": "Exact nilpotent square and exponential; numerical trajectories plus total derivative."
+    },
+    {
+      "id": "T23-04",
+      "lines": [
+        292,
+        298,
+        302
+      ],
+      "exact": true,
+      "claim": "Closed and equal-loss fraction relaxation and first-order fast/slow roots.",
+      "conditions": "a+b>0; for equal-loss fraction, no source and nonzero total; for asymptotic roots, D_i/(a+b) small. Slow coefficient = (bD1+aD2)/(a+b), fast correction = (aD1+bD2)/(a+b); eigenmode ratio b/a only literal when a>0, with fractional form suitable for one-way limits.",
+      "source_physical_pages": [],
+      "validation": "Exact rational coefficient checks for two-way and one-way examples; fraction derivative independently checked."
+    },
+    {
+      "id": "T23-05",
+      "line": 321,
+      "exact": false,
+      "claim": "A long-lived thermal bath and Born-Markov/secular approximations are necessary for a Lindblad equation.",
+      "conditions": "A nonthermal environment does not itself require Lindblad dynamics. Born-Markov and secular approximations are a common conditional microscopic derivation route, not necessary mathematical conditions for the GKSL form. No open-systems review is attempted.",
+      "source_physical_pages": []
+    }
+  ],
+  "validation": {
+    "script": "T23/validation.py",
+    "results": "T23/results.json",
+    "command": "python3 -B outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T23/validation.py",
+    "independence": "Stdlib factorial Wigner formulas and newly constructed CG/Fock operators; no use of preexisting Fock control script or hardcoded M3 value as assertion."
+  },
+  "deliverables": [
+    "report.json",
+    "correction.tex",
+    "validation.py",
+    "results.json"
+  ],
+  "limitations": [
+    "Finite Fock calculations use floating arithmetic, with exact rational squared 6j; no experimentally observed decay, lifetime, or inferred ordering.",
+    "No external search needed; requested locally archived original consulted.",
+    "Only named passages were examined; no assurance about other appendices."
+  ]
+}

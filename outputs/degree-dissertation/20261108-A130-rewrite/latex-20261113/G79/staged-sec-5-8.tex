@@ -1,0 +1,130 @@
+\section{DSAM与RDDS的时间信息}\label{sec:5-8}
+
+在从微观能级结构向电磁约化跃迁几率 $B(XL)$ 反演的因果链中（第~5.9~节），激发能级的平均寿命 $\tau$ 构成了最为关键的时间标尺。跃迁率与寿命之间满足基本的反比关系 $\lambda_{\mathrm{tot}} = 1/\tau$；若无法精确测定激发能级的微观寿命，仅凭相对分支比与角分布无法解耦出绝对的微观跃迁矩阵元模平方。
+
+在飞秒（$\text{fs}$）至纳秒（$\text{ns}$）的极短寿命区间内，原子核的退激时间尺度远小于常规模拟或数字电子学系统的定时分辨极限（第~5.4~节讨论的亚纳秒时间戳）。为了测定这一极端时间窗口内的核态寿命，实验物理学发展了依托反冲核运动学多普勒效应的两种核心微观测时技术：多普勒频移衰减法（Doppler Shift Attenuation Method, DSAM）与反冲距离多普勒频移法（Recoil Distance Doppler Shift, RDDS，亦称 Plunger 柱塞法）。这两种方法并非直接测量时钟信号，而是将不可直接读取的微观寿命 $\tau$ 投影为反冲核在减速介质中的连续线形展宽，或者在真空飞行距离上的特征双峰强度比。
+
+若对多普勒几何变换、减速介质停止本领（Stopping Power）模型、微分衰变曲线法（DDCM）以及侧向馈入时间卷积缺乏清晰界定，极易在寿命反演中引入显著的系统性偏置：例如混淆静止系发射角与实验室观测角导致多普勒频移计算失真，或者在停止截面存在 $15\%$ 理论不确定度时错误低估 DSAM 寿命误差。本节从相对论多普勒几何出发，严格推导 RDDS 的飞行时间映射与 DDCM 解析方程，系统剖析 DSAM 谱形展宽的连续慢化与停止截面机制，界定各测时技术的敏感窗口与上下限判据，为第~5.9~节绝对跃迁强度的精确提取提供可追溯的时间信息基础。
+
+\subsection{多普勒效应与相对论变换几何}\label{subsec:5-8-1}
+
+考虑在核反应中获得反冲初速度 $\mathbf{v}$ 的激发态残核，其在实验室参考系中相对光速的比值为 $\boldsymbol{\beta} = \mathbf{v}/c$，对应的相对论 Lorentz 因子为 $\gamma = 1/\sqrt{1 - \beta^2}$。设该原子核在其静止参考系中退激发射一个固有能量为 $E_0$ 的单色 $\gamma$ 光子。
+
+在实验室参考系中，探测器位于相对于反冲速度矢量夹角为 $\theta_{\mathrm{lab}}$ 的方向。由四维波矢量的标准 Lorentz 协变变换，实验室系测得的光子能量 $E_{\mathrm{obs}}$ 严格满足相对论多普勒频移公式~\cite{dewald-2012-ddcm-recoil-distance}：
+\begin{equation}\label{eq:5-8-doppler-rel}
+E_{\mathrm{obs}} = \frac{E_0}{\gamma (1 - \beta \cos\theta_{\mathrm{lab}})}.
+\end{equation}
+必须特别注意角动量变换几何：式~\eqref{eq:5-8-doppler-rel} 中的极角 $\theta_{\mathrm{lab}}$ 是实验室系中的实际观测角度，绝对不可将其与原子核静止系中的发射角 $\theta_{\mathrm{rest}}$ 相混淆（二者满足相对论光行差关系 $\cos\theta_{\mathrm{rest}} = \frac{\cos\theta_{\mathrm{lab}} - \beta}{1 - \beta\cos\theta_{\mathrm{lab}}}$）。
+
+在典型的低能核结构重离子熔合反应中，反冲核速度通常较小（典型范围为 $\beta \sim 1\%$–$3\%$）。在低速非相对论极限（$\beta \ll 1$）下，对式~\eqref{eq:5-8-doppler-rel} 按 $\beta$ 进行一阶 Taylor 展开：
+\begin{equation}\label{eq:5-8-doppler-approx}
+E_{\mathrm{obs}} \approx E_0 (1 + \beta \cos\theta_{\mathrm{lab}}).
+\end{equation}
+当探测器放置在束流前向（$\theta_{\mathrm{lab}} = 0^\circ$）时，测得能量发生最大蓝移（$E_{\mathrm{obs}} \approx E_0 (1 + \beta)$）；当放置在后向（$\theta_{\mathrm{lab}} = 180^\circ$）时，测得能量发生最大红移（$E_{\mathrm{obs}} \approx E_0 (1 - \beta)$）；而在正交的 $90^\circ$ 方向上，一阶频移消失，仅残留极微弱的二阶横向多普勒频移（$\Delta E / E_0 \sim -\frac{1}{2}\beta^2 \approx -10^{-4}$）。
+
+在时间单位上，本节全篇严格采用平均寿命 $\tau$。平均寿命与半衰期满足严格转换关系 $T_{1/2} = \tau \ln 2 \approx 0.69315\,\tau$。后续凡涉及核态衰变指数律均以 $e^{-t/\tau}$ 表述，避免与半衰期产生任何混淆。
+
+\subsection{反冲距离多普勒频移法（RDDS）与微分衰变曲线法（DDCM）}\label{subsec:5-8-2}
+
+反冲距离多普勒频移法（RDDS）通常利用高精度的柱塞装置（Plunger）实现皮秒至纳秒量级核态寿命的测定。其基本构型是在薄反应靶后方相隔一段微米级可控距离 $x$ 处，精确平行放置一块阻挡箔。
+
+依据阻挡箔材质与物理功能的不同，RDDS 存在两类典型实验方案：
+\begin{enumerate}
+\item 靶--阻止箔构型（Target-Stopper）：
+阻挡箔采用足够厚的重金属箔（如 Au 或 Ta）。反冲核从靶中飞出后，在真空中以近似恒定的速度 $v$ 自由飞行；当击中阻止箔后，核在极短时间（$< 1\,\text{ps}$）内完全停停滞（$v \to 0$）。因此，能谱中分裂为两个分立的谱峰：
+\begin{itemize}
+\item 飞行峰（Shifted Peak, 强度为 $I_s(x)$）：反冲核在真空中飞行途中退激发射的光子，具有全多普勒频移能量 $E_0(1 + \beta \cos\theta_{\mathrm{lab}})$；
+\item 静止峰（Unshifted Peak, 强度为 $I_u(x)$）：反冲核进入阻止箔停滞后退激发射的光子，处于未移位的本征能量 $E_0$。
+\end{itemize}
+\item 靶--减速箔构型（Target-Degrader）：
+阻挡箔采用较薄的金属箔。反冲核穿过减速箔时仅损失部分动能，速度从 $v_1$ 降低至 $v_2$。能谱中形成分别对应速度 $v_1$ 与 $v_2$ 的两个多普勒频移峰 $I_{s1}(x)$ 与 $I_{s2}(x)$，此时不存在绝对未移位的静止峰。
+\end{enumerate}
+
+在最理想的单能级直接布居、无任何侧向或级联馈入的教学简化下，反冲核在飞行时间 $t = x/v$ 内尚未衰变的存活概率等于静止峰在总强度中所占的份额：
+\begin{equation}\label{eq:5-8-rdds-ideal}
+R_u(x) \equiv \frac{I_u(x)}{I_u(x) + I_s(x)} = \exp\left( - \frac{x}{v \tau} \right).
+\end{equation}
+式~\eqref{eq:5-8-rdds-ideal} 是一个高度理想化的解析极限，它假定飞行速度严格单一且无后发能级级联注入。
+
+在真实核反应中，目标能级必然受到上方高能级级联退激的持续馈入。为了在包含级联馈入的复杂谱图中精确提取寿命，Dewald 等人建立了微分衰变曲线法（Differential Decay Curve Method, DDCM）~\cite{dewald-2012-ddcm-recoil-distance}。对于目标能级 $i$，若其上方存在多个离散馈入能级 $k$（分支比为 $b_{ki}$），在单谱或总投影谱中，DDCM 严格微商方程表达为：
+对能级布居数 $n_i(t)$，其连续时间微分满足放射性级联率方程：
+\begin{equation}\label{eq:5-8-rate-eq}
+\frac{\mathrm{d}n_i(t)}{\mathrm{d}t} = -\frac{n_i(t)}{\tau_i} + \sum_{k=i+1}^N b_{ki} \frac{n_k(t)}{\tau_k}.
+\end{equation}
+设 $U_i(t) = \int_t^\infty \frac{n_i(t')}{\tau_i} \mathrm{d}t'$ 与 $S_i(t) = \int_0^t \frac{n_i(t')}{\tau_i} \mathrm{d}t'$ 分别代表能级 $i$ 全部退激通道在时刻 $t$ 之后与之前的归一化累计发射数（满足 $U_i(t) + S_i(t) = \text{const}$）。对式~\eqref{eq:5-8-rate-eq} 从 $t$ 积分至 $\infty$，得到瞬时布居为 $n_i(t) = U_i(t) - \sum_k b_{ki} U_k(t)$；而瞬时发射率为 $\frac{\mathrm{d}S_i}{\mathrm{d}t} = \frac{n_i(t)}{\tau_i}$。在反冲核速度 $v$ 恒定的条件下，由于随距离增加飞行发射增加（$\frac{\mathrm{d}S_i}{\mathrm{d}x} > 0$），单谱 DDCM 寿命方程的分母前为正号：
+\begin{equation}\label{eq:5-8-ddcm-singles}
+\tau_i(x) = \frac{U_i(x) - \sum_{k=i+1}^N b_{ki} U_k(x)}{v \frac{\mathrm{d} S_i(x)}{\mathrm{d}x}},
+\end{equation}
+式中 $U, S$ 必须对能级 $i$ 的全部退激出口进行总发射归一（若实验仅测定某一条分支，须除以其分支比予以折算）。
+分子中的扣除项 $\sum_k b_{ki} I_{u, k}(x)$ 严格补偿了上方级联馈入带来的时间延迟。
+
+若在多探测器阵列中采用\emph{上方门选（Gated from Above）}技术——即在能级 $i$ 紧邻上方已知的某一馈入跃迁设置符合门，则由该符合门筛选出的事件流在因果上完全排除了所有其他旁路馈入与未观测慢侧馈，DDCM 方程简化为极其优美的直接导数比值形式：
+依 Dewald 2012 综述规范（Dewald et al. 2012 式~(32)、(34)~\cite{dewald-2012-ddcm-recoil-distance}），若对紧邻目标态的直接馈入跃迁 $B$ 的移位成分 $B_s$ 设门，符合条件选取了在进入飞行区时刻即已处于目标能级 $i$ 的子集，此时直接门选 DDCM 方程精确表述为：
+\begin{equation}\label{eq:5-8-ddcm-gated}
+\tau_i(x) = \frac{\{B_s, A_u\}(x)}{v \frac{\mathrm{d}}{\mathrm{d}x} \{B_s, A_s\}(x)}.
+\end{equation}
+必须严格澄清两项方法学约束：
+其一，因为直接门选符合事件总数 $\{B_s, A_s\}(x) + \{B_s, A_u\}(x)$ 本身随距离 $x$ 发生改变（门跃迁本身的移位产额随距离变化），门选总计数并非与距离无关的常数，因此分母绝不可随意替换为 $-v \frac{\mathrm{d}}{\mathrm{d}x} \{B_s, A_u\}$（该等式仅在无馈入且总强度严格守恒的理想模型下成立）；
+其二，若门选置于更高能级的间接馈入跃迁 $C$ 的移位成分 $C_s$（中间经历中间态 $B$），分子中必须依 Dewald 式~(33) 额外扣除中间态静止分量：$\tau_i(x) = \frac{\{C_s, A_u\}(x) - \alpha \{C_s, B_u\}(x)}{v \frac{\mathrm{d}}{\mathrm{d}x} \{C_s, A_s\}(x)}$。
+在数据处理中，必须对一组离散距离点 $\{x_j\}$ 上的峰强度进行多项式或样条求导。为了保证 $\tau_i(x)$ 在不同距离点处保持平坦常数平台，必须严格控制靶--阻止箔零距离绝对校准（利用电容法测定 $x=0$ 点）、靶面平整度、探测器几何立体角随距离的微小变化以及反冲速度矢量分布。
+
+\subsection{多普勒频移衰减法（DSAM）与停止本领模型}\label{subsec:5-8-3}
+
+对于寿命在皮秒以下（$\tau \lesssim 1\,\text{ps}$）的超快跃迁，微米级的机械位移精度无法再提供足够细致的飞行时间切割。此时广泛采用多普勒频移衰减法（DSAM）。
+
+DSAM 采用带有厚衬底（如高纯 Au 或 Pb，厚度足以使反冲核完全停滞）的固体靶。反冲核在进入衬底介质后，在约 $\tau_{\mathrm{stop}} \sim 0.5$–$1.5\,\text{ps}$ 的减速时间内迅速慢化并停滞。定义离子在衬底材料中的全阻止本领为正定物理量 $S(v, \text{material}) \equiv -\frac{\mathrm{d}E}{\mathrm{d}x'} > 0$。由牛顿第二定律，离子的连续减速运动微分方程为：
+\begin{equation}\label{eq:5-8-velocity-history}
+\frac{\mathrm{d}v}{\mathrm{d}t} = -\frac{S(v, \text{material})}{M v},
+\end{equation}
+式中 $M$ 为反冲核质量。反冲核速度随时间积分单调递减至零。
+
+在连续慢化过程中，处于激发态的核群体按照指数律不断发生退激。在某一时刻 $t$ 发射的光子，其观测能量精确对应于该瞬时速度 $v(t)$ 下的多普勒频移。因此，最终记录在探测器中的谱峰不再分裂为两个独立峰，而是呈现为一个连续的多普勒展宽不对称谱线轮廓（Doppler Line Shape）。
+
+在无级联馈入的简化几何下，实验常利用表观多普勒平均移动因子 $F(\tau)$ 描述质心频移程度~\cite{book-wu-nuclear-experiment-methods}：
+\begin{equation}\label{eq:5-8-f-tau}
+F(\tau) \equiv \frac{\langle \Delta E_{\mathrm{obs}} \rangle}{\Delta E_{\max}} = \frac{1}{v_0 \tau \cos\theta_{\mathrm{det}}} \int_0^\infty v(t) \overline{\cos\phi(t)} \cos\theta_{\mathrm{det}} \, e^{-t/\tau} \, \mathrm{d}t,
+\end{equation}
+式中 $\Delta E_{\max} = E_0 \beta_0 \cos\theta_{\mathrm{det}}$。需要注意：只有在多次库仑散射引起的方向发散角 $\phi(t)$ 近似对称且小角散射时，方向发散因子 $\overline{\cos\phi(t)}$ 才能与探测器几何放置角 $\theta_{\mathrm{det}}$ 实现因式分离；在 $\theta_{\mathrm{det}} = 90^\circ$ 方向上，由于一阶频移 $\cos\theta_{\mathrm{det}} = 0$ 导致分母为零，此时 $F(\tau)$ 因子无法定义，寿命反演必须依赖全多普勒谱形拟合而非简单的峰质心移动。
+
+DSAM 谱形拟合与寿命反演的质量严格受制于以下系统性误差源：
+\begin{enumerate}
+\item 阻止本领模型的不确定度：
+离子的全阻止本领由核阻止（Nuclear Stopping, 低能区由屏蔽库仑势主导）与电子阻止（Electronic Stopping, 高能区由电子气体电离激发主导）构成。目前广泛采用的 ZBL 停止本领模型或 Northcliffe-Schilling 表在低速能区仍保留有约 $10\%$–$20\%$ 的系统不确定度。停止截面的整体高估或低估会直接线性传递为反演寿命的同比例偏置。
+\item 衬底微观密度与表面氧化：
+固体蒸发沉积衬底的真实微观密度往往低于标准块材密度，且靶衬接触界面的氧化或微观粗糙度会改变初始能损，需要在实验前通过离线 Rutherford 后向散射（RBS）精细测量。
+\item 侧向馈入时间历史的解谱重叠：
+正如第~5.1~节式~\eqref{eq:5-1-feeding-conv} 所阐明，高能连续谱存在的慢侧向馈入会使线形产生滞后拖尾，若未加独立约束，会将慢馈入时间误判为母态寿命，导致 $\tau$ 被人为严重高估。
+\end{enumerate}
+
+以 A. Görgen 等人（2004）在 $^{163}\mathrm{Lu}$ 中开展的厚金衬底（$12\,\text{mg/cm}^2$）DSAM 实验为例~\cite{campaign-g07-gorgen-2004-163lu-quadrupole-moments}，作者利用 Gammasphere 阵列测定了摆动激发带的寿命。作者在论文中明确强调：其给出的寿命统计误差仅包含 $\chi^2$ 拟合协方差及不同角度阵列的离散度，并未包含阻止本领模型选择所引入的全局系统误差；且带间分支比直接外源采用了先前薄靶实验数据。这一实例充分体现了 DSAM 分析必须明确标定模型依赖边界的科学准则。
+
+\subsection{测度敏感窗口、上下限判定与方法互补}\label{subsec:5-8-4}
+
+为直观展示 RDDS 与 DSAM 在处理不同时间尺度核态退激时的物理响应特征，图~\ref{fig:5-8-lifetime-response} 给出了基于标准教学模型的衰变曲线与多普勒线形演化图（计算参数、脚本与图工件见附录~F 与 \texttt{lifetime-response-rdds-dsam}）。
+
+\begin{figure}[!htbp]
+\centering
+\IfFileExists{Img/lifetime-response-rdds-dsam.pdf}{%
+  \includegraphics[width=0.92\textwidth]{Img/lifetime-response-rdds-dsam.pdf}%
+}{%
+  \fbox{\parbox{0.92\textwidth}{\centering\vspace{2.5cm}（图 5.3 寿命测量响应谱模拟图：\texttt{Img/lifetime-response-rdds-dsam.pdf}；展示 RDDS 衰变曲线与 DSAM 多普勒线形随核态寿命演化）\vspace{2.5cm}}}%
+}
+\caption{核态寿命测量物理响应模型对比（规范教学模型）。(a) 展示反冲速度 $v/c = 2.0\%$ 时，RDDS 柱塞法静止峰份额 $R_u(x)$（实线）与飞行峰份额 $R_s(x)$（虚线）随靶--阻止箔距离 $x$ 的演化规律，不同斜率严格对应核态平均寿命 $\tau = 2, 5, 15\text{ ps}$；(b) 展示厚衬底中反冲核在减速时间 $\tau_{\mathrm{stop}} = 0.8\text{ ps}$ 下的 DSAM 多普勒谱形演化：超短寿命（$\tau \ll \tau_{\mathrm{stop}}$）表现为全频移峰，中间寿命（$\tau \approx \tau_{\mathrm{stop}}$）形成连续展宽拖尾线形，超长寿命（$\tau \gg \tau_{\mathrm{stop}}$）退化为全停滞峰。注意此处为规范教学模型，非特定实验测量拟合）。}
+\label{fig:5-8-lifetime-response}
+\end{figure}
+
+图~\ref{fig:5-8-lifetime-response} 清晰阐明了核态寿命测量的敏感窗口与极限判定准则：
+\begin{enumerate}
+\item DSAM 的敏感窗口与极限：
+DSAM 的最佳敏感区间位于核态寿命与衬底阻止时间相当的狭窄窗口内（$\tau \sim 0.05 \tau_{\mathrm{stop}}$ 至 $2 \tau_{\mathrm{stop}}$，典型约为 $10\,\text{fs}$–$2\,\text{ps}$）：
+\begin{itemize}
+\item 超短极限（$\tau \ll \tau_{\mathrm{stop}}$）：几乎所有原子核在进入衬底前即已在真空或极表层完成退激，谱线表现为单一的全频移峰，线形对寿命丧失微分敏感性，此时实验仅能给出寿命的上限（$\tau < \tau_{\mathrm{upper}}$）；
+\item 超长极限（$\tau \gg \tau_{\mathrm{stop}}$）：几乎所有原子核均已完全减速停滞后才发生衰变，谱线退化为单一的未移位静止峰，多普勒展宽消失，实验仅能给出寿命的下限（$\tau > \tau_{\mathrm{lower}}$）。
+\end{itemize}
+\item RDDS 的敏感窗口与互补性：
+RDDS 依赖机械位移精度，其典型敏感窗口跨越 $1\,\text{ps}$ 至 $1\,\text{ns}$（对应距离在微米至数毫米范围（例如 $\beta = 2.0\%$ 时 $1\,	ext{ns}$ 对应飞行距离约 $6\,	ext{mm}$））。它不受衬底微观阻止截面理论模型不确定度的干扰，在特定皮秒能区与 DSAM 形成测量互补，但仍须对有限靶内慢化、减速箔穿透以及反冲速度空间分布进行细致建模。
+\item 电子学快定时的延伸：
+对于几十皮秒以上乃至微秒量级的较长寿命核态，第~5.4~节讨论的高性能探测器数字时间戳差分测量与符合时间谱指数衰减曲线拟合成为主导方案。
+\end{enumerate}
+
+在科学报告中，研究人员必须根据实际实验响应，如实给出确定寿命值或无敏感性上下限，绝不能将仪器极限或理论模型假设伪造成独立的高精度测定值。由 DSAM 与 RDDS 确定的自洽寿命参量，将直接输入第~5.9~节，用于反演微观电四极跃迁几率 $B(E2)$ 与磁偶极跃迁几率 $B(M1)$。

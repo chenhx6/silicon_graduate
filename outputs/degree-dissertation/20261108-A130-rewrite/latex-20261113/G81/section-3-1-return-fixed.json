@@ -1,0 +1,84 @@
+{
+  "batch_id": "G81",
+  "section": "3.1",
+  "task": "Section 3.1 Parent Review 9-Item Fix Report",
+  "timestamp": "2026-11-13T05:01:04.902462+00:00",
+  "target_file": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-1.tex",
+  "target_file_sha256": "0a7c0fba38b1154e47ba503110e773a536bb533c2b61bdc39cebd4aac62d8c4d",
+  "ledger_file": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-1.json",
+  "ledger_file_sha256": "2315bc80c0e4741ec57d556591d63d97e3c95f007a9fe7198a9599e094279c6a",
+  "fixes_applied": [
+    {
+      "item": 1,
+      "title": "完备性求和关系与零点涨落物理定位",
+      "issue": "声称方差与非对角 EM 根本对立过头，且误称宽度仅由不确定性原理强制",
+      "line_anchors": "Lines 35–46",
+      "text_snippet": "引入完备性求和关系 <0| q^2 |0> = sum_n |<n| q |0>|^2，说明波包统计矩受跃迁响应网络约束；明确宽度是特定哈密顿量基态的结果，不确定性原理仅给出乘积下界",
+      "status": "fixed"
+    },
+    {
+      "item": 2,
+      "title": "轴对称 K=0 偶自旋声明正旋称 / Ry(pi) 内禀条件",
+      "issue": "axial K0 式只列 I=0,2,4 未声明额外内禀对称性条件",
+      "line_anchors": "Lines 53–59",
+      "text_snippet": "明确 K=0 本身仅要求自旋在对称轴投影为零，可取任意整数 I；基带中仅出现偶数序列的物理前提是内禀参考态额外具备离散二度轴对称性（正旋称 R_{y,intr}(pi) |Phi> = +|Phi>）",
+      "status": "fixed"
+    },
+    {
+      "item": 3,
+      "title": "Cline 形状不变量定义与第 2.1 节严格对齐",
+      "issue": "cline-invariant 式末正比于 q2^2 与 2.1 冲突，且误标严格大于零",
+      "line_anchors": "Lines 68–74",
+      "text_snippet": "q2 = sqrt(5) <0+| [Q x Q]_0 |0+> = sum_i |<i|| M(E2) ||0+>|^2 >= 0，非负且与 2.1 归一和单位完全一致",
+      "status": "fixed"
+    },
+    {
+      "item": 4,
+      "title": "绝热条件删除假等价 iff 并澄清物理机制",
+      "issue": "omega_rot << omega_vib iff Delta R / R << 1 是假等价",
+      "line_anchors": "Lines 83–90",
+      "text_snippet": "删除 iff；定义 hbar omega_rot << hbar omega_vib 为时间尺度与非绝热导数耦合判定，说明大振幅不自动非绝热，小振幅在能级微观反交叉处也不自动充分",
+      "status": "fixed"
+    },
+    {
+      "item": 5,
+      "title": "乘积波函数采用对称化结构并标明单 K 示意性",
+      "issue": "Psi approx Phi D 未对称化，不能当一般三轴本征态",
+      "line_anchors": "Lines 91–98",
+      "text_snippet": "写作对称化乘积形式 Psi_IMK approx 1/sqrt(2(1+delta_K0)) [Phi_K D^I_MK + (-1)^{I+K} Phi_{-K} D^I_{M,-K}]，明确标注为保留单 K 的示意结构而非一般三轴态",
+      "status": "fixed"
+    },
+    {
+      "item": 6,
+      "title": "软势面涨落与局部展开有效域比较，消除 gamma_0=0 病态",
+      "issue": "gamma 宽度 ~ gamma_0 在长椭球 gamma_0=0 处病态",
+      "line_anchors": "Lines 110–118",
+      "text_snippet": "改写为零点涨落宽度与局部二次谐振展开的有效适用区间比较，特别指出在 gamma_0=0 处必须与势面曲率主导区开展比较，不设普遍软阈值",
+      "status": "fixed"
+    },
+    {
+      "item": 7,
+      "title": "纠正'投影恢复全核严格定态'为受限空间 Ritz 变分求解",
+      "issue": "误称投影恢复全核严格定态",
+      "line_anchors": "Lines 125–130",
+      "text_snippet": "改述为通过角动量投影提取 good-I 试探空间态矢，进而通过哈密顿量 Ritz 变分（Hill-Wheeler 方程）求得守恒物理近似本征态",
+      "status": "fixed"
+    },
+    {
+      "item": 8,
+      "title": "模式证据审慎化与手征非共面矢量几何界限",
+      "issue": "要求全套绝对 EM 过强，手征三脚架误写成严格正交",
+      "line_anchors": "Lines 102–106, Line 139",
+      "text_snippet": "模式判定按具体模型框架结合综合指标，不强求测齐全部绝对 EM；手征部分明确非共面条件为标量三重积非零，并不要求三矢量严格 90 度正交",
+      "status": "fixed"
+    },
+    {
+      "item": 9,
+      "title": "全节 literal ** 彻底替换为 LaTeX 格式",
+      "issue": "正文中残留 20 处 Markdown literal ** 标记",
+      "line_anchors": "全节 10 处段落与列表行",
+      "text_snippet": "全部替换为 \\textbf{...} 或标准文本，全节 ** 出现计数为 0",
+      "status": "fixed"
+    }
+  ]
+}

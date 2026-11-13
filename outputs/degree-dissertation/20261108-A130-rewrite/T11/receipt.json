@@ -1,0 +1,104 @@
+{
+  "task_id": "T11",
+  "scope": "Frozen G70-v1 section 2.2 only; targeted source and algebra review",
+  "created_at_utc": "2026-11-08T03:00:30.156587+00:00",
+  "scientific_status": "targeted_review_completed_not_full_scientific_approval",
+  "inputs": [
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G70-v1/section-2-2.md",
+      "sha256": "b23c9d2c830c3e1cb63ae83ed2ee3dfdedfd972f50c92f77bc9a2effbf0b74a8",
+      "size_bytes": 17362
+    },
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G70-v1/section-2-2.json",
+      "sha256": "ae3be6e59714cde6df1a516bbd090c43efe0002a2e5f024aae9ede5540bf9b4c",
+      "size_bytes": 14324
+    },
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G70-v1/manifest.json",
+      "sha256": "268f1245b8b9db9e5ddec563a374701dbf424578e284af67f3b13bd7267fbf60",
+      "size_bytes": 735
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/writer-contracts/G70.json",
+      "sha256": "e2658690d18e9bc27029a70b81361948eed505546b8d115072629835e54011a9",
+      "size_bytes": 6092
+    },
+    {
+      "path": "raw/papers/gpt/query/20261108-foundations-otsuka-article/otsuka-2022-physics-emerging-concepts-publisher.pdf",
+      "sha256": "83ddfab8989cdb0a23be1d5ca3e9f689c7e8d728823d0b7c6a21c5aecd3ca0c7",
+      "size_bytes": 3581748
+    },
+    {
+      "path": "raw/papers/gpt/query/20261108-foundations-G28/togashi-2016-zr-qpt.pdf",
+      "sha256": "f43431ebad67addfbefb521eed14c43f152fe5221ccc0d995d69a3d5aaa7b3e9",
+      "size_bytes": 1576695
+    }
+  ],
+  "sources_read": {
+    "Otsuka_2022_article_pdf_pages": [
+      1,
+      5,
+      6,
+      7,
+      8,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      25
+    ],
+    "Togashi_2016_preprint_pdf_pages": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "control_executed_at_utc": "2026-11-08T02:57:45.179633+00:00",
+  "artifacts": [
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/T11/report.md",
+      "sha256": "00df947cfab775a3596639051fa3c27a6e7a1882121673f8a4997816a7d4cbc2",
+      "size_bytes": 17009
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/T11/control.py",
+      "sha256": "91f1be89be1280736783fc637cd23acc89ef84e5e7a72dd1137169e39b6078d8",
+      "size_bytes": 1845
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/T11/control-input.json",
+      "sha256": "1f50aa8bac26a3fc823008403d14f093b2f02c8c17f10464e6d671284b7474f7",
+      "size_bytes": 102
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/T11/control-result.json",
+      "sha256": "d355d3e547dcfde00a178afcce35503079050410d82832d6e8be33bb97b6ec45",
+      "size_bytes": 853
+    }
+  ],
+  "checks": [
+    "Frozen manuscript and ledger hashes match manifest",
+    "PDF hashes match G70 contract",
+    "Control executed and assertions passed; producer/input hashes match",
+    "Report covers six requested issues; no unexpected ASCII controls",
+    "receipt JSON parses; does not hash itself"
+  ],
+  "limitations": [
+    "Baranger 1970 original and Otsuka 2020 RMP not read",
+    "Actual transfer data, continuous spectrum and MCSM implementation not recomputed",
+    "No full scientific approval"
+  ],
+  "actions": {
+    "new_downloads": false,
+    "active_draft_read": false,
+    "external_communications": false,
+    "subagents": false,
+    "git_status_read_only": true,
+    "git_staging_commit_push": false,
+    "writes_outside_T11": false
+  }
+}

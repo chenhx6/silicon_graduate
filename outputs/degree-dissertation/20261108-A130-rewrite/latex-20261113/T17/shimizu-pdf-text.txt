@@ -1,0 +1,1023 @@
+                                                High-K Precession modes: Axially symmetric limit of wobbling motion
+                                                              Yoshifumi R. Shimizu,1 Masayuki Matsuzaki,2 and Kenichi Matsuyanagi3
+                                                  1
+                                                      Department of Physics, Graduate School of Sciences, Kyushu University, Fukuoka 812-8581, Japan
+                                                       2
+                                                         Department of Physics, Fukuoka University of Education, Munakata, Fukuoka 811-4192, Japan
+                                                       3
+                                                         Department of Physics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan
+                                                                                          (Dated: May 10, 2018)
+                                                         The rotational band built on the high-K multi-quasiparticle state can be interpreted as a multi-
+                                                      phonon band of the precession mode, which represents the precessional rotation about the axis
+                                                      perpendicular to the direction of the intrinsic angular momentum. By using the axially symmet-
+                                                      ric limit of the random-phase-approximation (RPA) formalism developed for the nuclear wobbling
+                                                      motion, we study the properties of the precession modes in 178 W; the excitation energies, B(E2)
+                                                      and B(M 1) values. We show that the excitations of such a specific type of rotation can be well
+                                                      described by the RPA formalism, which gives a new insight to understand the wobbling motion in
+arXiv:nucl-th/0412074v2 27 Dec 2004
+
+
+
+
+                                                      the triaxial superdeformed nuclei from a microscopic view point.
+
+                                                      PACS numbers: 21.10.Re, 21.60.Jz, 23.20.Lv, 27.70.+q
+
+
+                                                         I.   INTRODUCTION                                   isomeric state, in analogy to the classical motion of the
+                                                                                                             symmetric top. The main purpose of the present paper
+                                         Rotation is one of typical collective motions in atomic             is to investigate the precession band from a microscopic
+                                      nuclei. It manifests itself as a rotational band, a sequence           view point.
+                                      of states connected by strong electromagnetic (e.g. E2)-                  In recent publications [11, 12], we have studied the nu-
+                                      transitions. Most of the rotational bands observed so                  clear wobbling motions associated with the triaxial su-
+                                      far are based on the uniform rotation about an axis per-               perdeformed (TSD) bands in Lu and Hf isotopes on the
+                                      pendicular to the symmetry axis of axially symmetric                   basis of the microscopic framework; the cranked mean-
+                                      deformation. The well known ground state rotational                    field and the random phase approximation (RPA) [13,
+                                      bands and the superdeformed rotational bands with axis                 14, 15, 16, 17, 18, 19]. It has been found that RPA
+                                      ratio about 2:1 are typical examples of this type of rota-             eigen-modes, which can be interpreted as the wobbling
+                                      tional motion. Quite recently, exotic rotational motions,              motions, appear naturally if appropriate mean-field pa-
+                                      in contrast to the normal ones mentioned above, have                   rameters are chosen. The deformation of the mean-field is
+                                      been issues under discussion, which are generally non-                 large (ǫ2 > 0.35) with a positive triaxial shape (γ ≈ +20◦
+                                      uniform nor rotating about one of three principal axes                 in the Lund convention), i.e., mainly rotating about the
+                                      of deformation, and clearly indicate possible existence                shortest axis, and the static pairing is small (∆n,p < 0.6
+                                      of three-dimensional rotations in atomic nuclei. The re-               MeV), both of which are in accordance with the poten-
+                                      cently observed wobbling rotational bands [1, 2, 3, 4, 5]              tial energy surface calculation [20]. It should be stressed
+                                      and the chiral rotation/vibration bands [6, 7, 8, 9] are               that the solution of the RPA eigen-value is uniquely de-
+                                      such examples.                                                         termined, once the mean-field is fixed, as long as the
+                                         Such exotic rotations are very interesting because they             “minimal coupling” residual interaction is adopted (see
+                                      give hints to a fundamental question: How does an                      Sec. III). Therefore, it is highly non-trivial that we could
+                                      atomic nucleus rotate as a three-dimensional object?                   obtain wobbling-like RPA solutions at correct excitation
+                                      They may also shed light on collective motions in nu-                  energies. However, the detailed rotational frequency de-
+                                      clei with triaxial deformation, which are characteristic               pendence of the observed excitation energy in Lu iso-
+                                      in these rotational bands, and are very scarce near the                topes, monotonically decreasing with frequency, could
+                                      ground state region. Although the triaxial deformation                 not be reproduced, and the out-of-band B(E2) values
+                                      is crucial for those exotic rotations, it is not a necessary           from the wobbling band were considerably underesti-
+                                      condition for three-dimensional rotations to occur. For                mated in our RPA calculation.
+                                      example, the chiral rotation is a kind of “magnetic ro-                   By restricting to the axially symmetric deformation
+                                      tation” or “tilted axis rotation” [10], where the axis of              with an uniform rotation about a principal axis, the an-
+                                      rotation is neither along a principal axis of deformation              gular momentum of high-spin states is built up either by a
+                                      nor in the plane of two principal axes, but is pointing                collective rotation, i.e., the rotation axis is perpendicular
+                                      inside a triangle composed of three principal axes. In                 to the symmetry axis, or by alignments of single-particle
+                                      the case of the typical magnetic rotation observed in the              angular momenta, i.e., the rotation axis is the same as the
+                                      Pb region, the so-called “shears band” [10], the deforma-              symmetry axis. Thus, four rotation schemes are possible;
+                                      tion is axially symmetric and of weakly oblate. Similarly,             oblate non-collective, prolate collective, oblate collective,
+                                      one can think of an axially symmetric limit of the wob-                and prolate non-collective rotations, corresponding to the
+                                      bling motion; the so-called “precession band”, which is                triaxiality parameter γ = 60◦ , γ = 0◦ , γ = −60◦ , and
+                                      nothing else but a rotational band excited on a high-K                 γ = −120◦ in the Lund convention, respectively. The ax-
+                                                                                                                                    2
+
+ially symmetric limit of the RPA wobbling formalism can        ated by a uniform rotation about the x-axis. Then, the
+be taken for the so-called non-collective rotation schemes     excited band at spin I can be described by the excitation
+with oblate or prolate deformation, namely γ = 60◦ or          of the wobbling phonon,
+γ = −120◦ cases. In both cases, long-lived isomers are
+observed, but the rotational bands starting from the iso-                           †      a       b
+                                                                                   Xwob = √ iIy + √ Iz ,                          (2)
+mers have not been observed in the oblate non-collective                                   2I      2I
+case. On the other hand, the high-K isomers and the
+associated rotational bands have been known for many           where a and b are the amplitude determined by the eigen-
+                                                                                        †                †
+years in the Hf and W region with prolate deformation.         mode equation, [Hrot , Xwob ] = ωwob (I)Xwob , at each spin
+Making full use of the axial symmetry, the RPA formal-         I in the harmonic approximation. The resultant eigen-
+ism has been developed [21, 22, 23, 24], which is capable      value ωwob (I) is given by the well-known formula,
+of describing the rotational band based on the high-K                               q
+state as a multi-phonon band, i.e., the precession band.             ωwob (I) = I (1/Jy − 1/Jx )(1/Jz − 1/Jx )
+Recently, the same kind of rotational bands built on high-                                s
+K isomers have also been studied by means of the tilted                                     (Jx − Jy )(Jx − Jz )
+                                                                               = ωrot (I)                        ,     (3)
+axis cranking model [25, 26, 27, 28].                                                              Jy Jz
+   In this paper, we would like to make a link between
+the two RPA formalisms, those for the (triaxial) wob-          with the rotational frequency of the main rotation,
+bling and for the (axially symmetric) precession motions.
+                                                                                                        I
+Moreover, by applying the formalism to the typical nu-                                    ωrot (I) ≡       .                      (4)
+cleus 178 W, where many high-K isomers have been ob-                                                    Jx
+served, the properties of the precession bands are stud-          It should be noted that the triaxial deformation of
+ied in detail; not only the excitation energies but also       the nuclear shape is directly related √to the intrinsic
+the B(E2) and B(M 1) values. This kind of study for            quadrupole moments, e.g. tan γ = − 2Q22 /Q20 , but
+the precession band sheds a new light on understanding         does not give a definite relation between three moments
+the recently observed wobbling motion. In order to ex-         of inertia: One has to introduce a model, e.g. the irrota-
+plain the limiting procedure, we review a schematic rotor      tional flow model, in order to relate the triaxiality param-
+model in Sec. II, while in Sec. III the RPA wobbling for-      eter γ of deformation to three inertia. Actually, if the ir-
+malism and the connection to the precession band in the        rotational moment of inertia is assumed, Jy > Jx , Jz for
+axially symmetric limit are considered. The result of cal-     the positive γ shape, and then the wobbling frequency (3)
+culations for 178 W is presented and discussed in Sec. IV.     becomes imaginary. In our microscopic RPA calculation,
+Sec. V is devoted to some concluding remarks. Prelimi-         the quasiparticle alignments contribute to the Jx inertia
+nary results for the magnetic property of the precession       and, as a result, the wobbling mode appears as a real
+band were already reported [29].                               mode even if the mean-field deformation has positive γ,
+                                                               see Refs. [11, 12] for details.
+                                                                  The spectra of the rotor near the yrast line are given,
+     II.   WOBBLING AND PRECESSION IN
+           SCHEMATIC ROTOR MODEL
+                                                               in the harmonic approximation, by
+
+                                                                                          I(I + 1)               1
+   The macroscopic rotor model is a basic tool to study                   Erot (I, n) =            + ωwob (I) n +    ,            (5)
+                                                                                            2Jx                   2
+the nuclear collective rotation, and its high-spin proper-
+ties have been investigated within a harmonic approxima-       and are composed of two sequences, the ∆I = 2 horizon-
+tion [30] or by including higher order effects [31, 32, 33].   tal ones,
+In this section we review the consequences of the sim-
+ple rotor model according to Ref. [30]. We use ~ = 1              En(hor) (I) = Erot (I, n),         I = n, n + 2, n + 4, ...     (6)
+unit throughout in this paper. The Hamiltonian of the
+simplest triaxial rotor model is given by                      with given phonon numbers n = 0, 1, 2, ..., and the ∆I =
+                                                               1 vertical ones,
+                         Ix2    Iy2   I2
+               Hrot =        +      + z ,               (1)       (ver)
+                                                                EI0       (I) = Erot (I, I − I0 ),    I = I0 , I0 + 1, I0 + 2, ... (7)
+                        2Jx    2Jy   2Jz
+where I’s are angular momentum operators in the body-          with given band head spins I0 = 0, 2, 4, ..., both of which
+fixed coordinate frame, and the three moments of inertia,      are connected by E2 transitions. The horizontal ones
+Jx , Jy and Jz , are generally different. We assume, for       are conventional rotational bands with transition energies
+definiteness, the rotor describes the even-even nucleus        Eγ ≈ 2ωrot , and the ∆I = −2 in-band B(E2) values are
+(integer spins).                                               proportional to the square of the quadrupole moment
+   Following the argument of Ref. [30], let us consider the    about the x-axis. The vertical ones look like phonon
+high-spin limit, I ≫ 1, and assume that the main rota-         bands with transition energies Eγ ≈ (ωwob + ωrot ) and
+tion is about the x-axis, namely the yrast band is gener-      the ∆I = −1 vertical B(E2) values are O(1/I) smaller
+                                                                                                                        3
+
+than the horizontal ones. These features are summarized         spin of the starting state I0 = K is composed of single-
+schematically in Fig. 1. In fact, the ∆I = −1 out-of-band       particle alignments, i.e., the band head state is a high-K
+transition was crucial to identify the wobbling motion in       isomeric state. The precession band is this remaining ver-
+Lu isotopes [1]. If the wobbling-phonon energy ωwob (I)         tical phonon band, which is actually based on a collective
+is larger than the ∆I = 2 rotational energy ∆Erot (I) =         rotation about the perpendicular axis, with large angular
+Erot (I+1, n)−Erot (I−1, n) = (2I+1)/Jx , both the ∆I =         momentum K along the symmetry axis. The rotational
+±1 transitions are possible. The ∆I = −1 transition is          energy of the band is
+much stronger than the ∆I = +1 one for the positive                                         1
+γ shape, and vice versa for the negative γ shape, which                    Ehigh−K (I) =       [I(I + 1) − K 2 ],     (9)
+                                                                                           2J⊥
+also supports that the TSD bands in the Lu region have
+positive γ shape.                                               which can be rewritten, by putting I = K + n, as
+                                                                                                         
+                                                                                              1 n(n + 1)
+                                                                     Ehigh−K (I) = ωprec n + +              ,        (10)
+                                                                                              2       K
+                                                                with
+                                                                                                K
+                                                                                      ωprec ≡      ,                 (11)
+                                                                                                J⊥
+                                                                leading to a harmonic phonon band structure with a
+                                                                one-phonon energy ωprec , when K is sufficiently large.
+                                                                This precession phonon energy coincides with the ver-
+                                                                tical transition energy given in Eq. (8) at the band
+                                                                head I = K. The spectra in this limit is drawn in
+                                                                Fig. 2. The harmonic picture holds not only for the
+                                                                energy spectra but also for the B(E2) values; for ex-
+                                                                ample, by using B(E2) ∝ hIf K20|Ii Ki2 , one finds, in
+FIG. 1: Schematic figure depicting the rotational spectra of    the leading order, B(E2; n → n − 1) ∝ 3(n/K) and
+a triaxial rotor Hamiltonian. The horizontal rotational bands   B(E2; n → n−2) ∝ (3/2)(n(n−1)/K 2 ), where n = I −K
+are connected by solid lines, while the vertical phonon bands   is the number of the precession phonon quanta, so that
+by dotted lines.                                                the two-phonon transition is prohibited when K is large.
+
+   Now, let us consider the axially symmetric limit [22].
+From symmetry argument, without specifying the γ-
+dependence of three inertia, if the system is axially sym-
+metric about one of the principal axes, then two inertia
+about other two axes should coincide. Since the main
+rotation takes place about the x-axis, there are two qual-
+itatively different cases; axially symmetric about the x-
+axis or about the other y, z-axes. In the latter case, the
+main rotation is about the axis perpendicular to the sym-
+metry axis like in the case of the ground state rotational
+band, and then, apparently, the wobbling frequency (3)
+vanishes; i.e., no wobbling motion takes place. In con-
+trast, if the system is axially symmetric about the main
+rotation axis x, Jy = Jz ≡ J⊥ , then the wobbling fre-          FIG. 2: Schematic figure depicting the precession bands
+quency (3) reads                                                excited on high-K isomeric states. Note that the whole
+                                                                ∆I = ±2 horizontal sequences shown in Fig. 1 shrink to one
+                               I                                such band in the axially symmetric limit.
+                 ωwob (I) =      − ωrot (I).             (8)
+                              J⊥
+
+Since the vertical transition energy is ≈ ωwob + ωrot , this
+result means that the slope of the vertical sequence is           III.   AXIALLY SYMMETRIC LIMIT OF RPA
+given by I/J⊥ , while the slope of the horizontal one by                    WOBBLING FORMALISM
+ωrot = I/Jx .
+   In reality, because the rotor model describes the col-       A.     Minimal coupling and RPA wobbling equation
+lective rotation restoring the broken symmetry, Jx → 0
+(no collective rotation) if the x-axis is a symmetry axis.        Microscopic RPA theories for nuclear wobbling motion
+Thus, each horizontal band shrinks to one state, leaving        have been developed in Refs. [14, 15, 17]. The most im-
+one vertical band, whose transition energy is I/J⊥ . The        portant among them is that of Marshalek [14], where the
+                                                                                                                         4
+
+transformation to the principal axis frame (body-fixed            For the wobbling modes in the yrast region, the mean-
+frame) is performed and the theory is formulated in that       field vacuum state |Φ(ωrot )i is obtained as the lowest
+frame. Moreover, it is shown that the RPA equation for         eigen-state of the cranked mean-field Hamiltonian,
+the wobbling mode can be cast into the same form as
+Eq. (3) if three moments of inertia are replaced with                               h′ = h − ωrot Jx ,                (15)
+those appropriately defined in the microscopic frame-
+work; we call this equation the wobbling form equation.        as a function of the rotational frequency ωrot . Assum-
+The adopted microscopic Hamiltonian in Ref. [14] is com-       ing the signature symmetry (with respect to a π-rotation
+posed of the spherical mean-field and the quadrupole-          about the x-axis) of the mean-field and the conventional
+quadrupole interaction (with the monopole pairing if nec-      phase convention that the matrix elements of the single-
+essary). In Ref. [17], however, it was pointed out that the    particle operators iJy and Jz are real in the mean-field
+RPA equation could not be reduced to the wobbling form         basis, it can be shown that the force-strength matrix χkl
+equation, if a most general residual interaction is used. A    is diagonal. The excitation of the wobbling phonon cor-
+closer look into the argument in Ref. [17] shows, however,     responds to the vertical ∆I = ±1 transitions in Sec. II,
+that the following “minimal coupling”, being used as a         therefore only the part of the RPA equations which trans-
+residual interaction, leads to the wobbling form equation      fer the signature quantum number by α = 1 is relevant;
+                                                                                                (m)
+as the RPA dispersion equation.                                i.e., only k, l = y, z parts of Hres in Eq. (12) contribute.
+   In Marshalek’s theory the rotational Nambu-Goldstone        It is now straightforward to follow the same procedure as
+(NG) modes (or spurious modes as conventionally called),       has been done in Ref. [14], but with modification that the
+Jy and Jz , play a crucial role. The RPA guarantees            quadrupole field of the interaction is replaced with Fk in
+the decoupling of these modes if the selfconsistency of        Eq. (12): Then one finds that the same RPA dispersion
+the mean-field is satisfied in the Hartree-Fock sense. In      equation can be derived:
+many cases, however, non-selfconsistent mean-fields are
+necessary; for example, the deformation is more prop-                                      Ay (ω) Bz (ω)
+                                                                           (ω 2 − ωrot
+                                                                                   2
+                                                                                       )                 = 0,         (16)
+erly determined by the Strutinsky procedure than by                                        By (ω) Az (ω)
+the Hartree-Fock calculations with simple interactions, or
+                                                               where
+one wants to study the system by hypothetically chang-
+ing the mean-field parameters, as has been done in our                    Ay (ω) = I − ωrot Jy (ω) + ωJyz (ω),
+previous calculations [12] for the nuclear wobbling mo-
+tions. Thus, we consider that the mean-field, h, rather                   Az (ω) = I − ωrot Jz (ω) + ωJyz (ω),
+than the interaction is given, and look for the residual                   By (ω) = ωJy (ω) − ωrot Jyz (ω),
+               (m)
+interaction, Hres , which fulfills the decoupling condition                Bz (ω) = ωJz (ω) − ωrot Jyz (ω),           (17)
+of the NG modes within the RPA [34]. The same idea has
+been formulated in the context of the particle-vibration       with the following definitions;
+coupling theory [30], where the rotational invariance is re-
+stored by considering the coupling resulting from a small                       I = hΦ(ωrot )|Jx |Φ(ωrot )i
+                                                                                        X
+rotation about either the x, y or z-axis. Thus the mini-                             =       2Jy (µν)Jz (µν),
+mum requirement is what we call the “minimal coupling”                                     µ<ν
+given by                                                                                   X 2Eµν Jy (µν)2
+                                                                              Jy (ω) =                       ,
+                  (m)     1 X                                                                     2 − (ω)2
+                                                                                                 Eµν
+               Hres   =−             χkl Fk Fl .       (12)                                µ<ν
+                          2                                                                X 2Eµν Jz (µν)2
+                            k,l=x,y,z
+                                                                              Jz (ω) =            2 − (ω)2
+                                                                                                             ,
+Here, the Hermitian operator Fk and the 3 × 3 symmetric                                    µ<ν
+                                                                                                 Eµν
+force-strength matrix χkl are defined as                                                X 2ωJy (µν)Jz (µν)
+                                                                            Jyz (ω) =             2 − (ω)2
+                                                                                                                 .    (18)
+                       Fk = i[h, Jk ],                 (13)                             µ<ν
+                                                                                                 Eµν
+              (χ−1 )kl = −hΦ|[[h, Jk ], Jl ]|Φi.       (14)
+                                                               In these expressions, ω is the phonon excitation energy,
+with the mean-field vacuum state |Φi (Slater determinant       while Eµν = Eµ + Eν are two-quasiparticle energies with
+if no pairing is included), on which RPA eigen-modes           α = 1, and Jy (µν) = hµν|iJy |Φi (Jz (µν) = hµν|Jz |Φi)
+are created. If the mean-field is given by the unisotropic     are two-quasiparticle matrix elements of the operator
+harmonic oscillator potential, the minimal coupling leads      iJy (Jz ), which are associated with the vacuum state
+to the doubly-stretched Q′′ Q′′ interaction combined with      |Φ(ωrot )i and determined by the mean-field Hamiltonian
+the Landau prescription [21, 35, 36, 37, 38, 39, 40, 41].      h′ in the rotating frame. It is now clear that once the
+One has to include the monopole pairing interaction in         mean-field Hamiltonian is given and the vacuum state
+realistic calculations. It should be stressed that the min-    |Φ(ωrot )i is obtained, the RPA eigen-modes can be cal-
+imal coupling can be used for any type of mean-fields,         culated without any ambiguity: This is precisely the con-
+e.g. the Woods-Saxon potential.                                sequence of the minimal coupling given by Eq. (12).
+                                                                                                                                       5
+
+                                                                                                                               (±)
+  The rotational NG mode appears as a decoupled ω =                     are introduced (see also Ref. [19][55]). Here Q2K (K =
+ωrot solution in the RPA dispersion equation (16);                      0, 1, 2) are electric quadrupole operators (z-axis quanti-
+                                                                        zation) with a good signature,
+            1                     1
+     Γ † = √ (iJy + Jz )RPA = √ (iJ− )RPA ,                      (19)
+            2I                    2I                                                                         Z
+                                                                                                     r
+                                                                                         (−)             15 X
+         J± ≡ Jy ± iJz , (x-axis quantization),                  (20)                   Q21    = −         e   (xz)(π)
+                                                                                                                   a ,
+                                                                                                         4π a=1
+where the subscript RPA means the two-quasiparticle
+                                                                                                     r       Z
+                                                                                         (−)             15 X
+transfer part (the particle-hole part if no pairing is in-                              Q22    = i         e   (xy)(π)
+                                                                                                                   a ,               (27)
+                                                                                                         4π a=1
+cluded) of the operator. Note that it is normalizable,
+[Γ, Γ † ]RPA = 1, because hΦ|[Jz , iJy ]|Φi = hΦ|Jx |Φi = I 6=
+                                                                        and µk (k = x, y, z) are magnetic dipole operators,
+0. The cranked mean-field (15) describes the rotating
+state, which has an angular momentum vector aligned                              r          A
+with the x-axis, and this NG mode plays a role to tilt                                3    X    (τ )
+                                                                          µk =          µN    (gl lk + gs(τ )sk )a ,     (τ = π, ν). (28)
+the whole system by changing the x component of the                                  4π    a=1
+angular momentum by −1 unit. The reason why the
+NG mode has a finite excitation energy is that there is a
+cranking term in the hamiltonian (15) (the Higgs mech-                   B.    Axially symmetric limit and RPA precession
+anism).                                                                                      equation
+   Finally, it has been shown by Marshalek [14] that the
+non-NG part of the RPA dispersion equation (16) is re-                     If the deformation is axially symmetric about the x-
+duced to the wobbling form,                                             axis, the angular momentum is generated not by the col-
+                           (eff)              (eff)                     lective rotation, but by the alignment of the angular mo-
+                    (Jx − Jy       (ω))(Jx − Jz       (ω))              menta of quasiparticles along the symmetry axis. The
+  (ω)2 = (ωrot )2          (eff)  (eff)
+                                                             ,   (21)
+                          Jy (ω) Jz (ω)                                 mean-field vacuum state |Φi, a high-K state, is a multi-
+                                                                        ple quasiparticle excited state, and its spin value is the
+if three moments of inertia are replaced with microscop-                sum of the projections, Ωµ , of their angular momenta on
+ically defined ones in the following way;                                                               P(occ)
+                                                                        the symmetry axis; I = K = µ Ωµ , i.e., the time re-
+                     I     hΦ(ωrot )|Jx |Φ(ωrot )i                      versal invariance is spontaneously broken in |Φi. In this
+            Jx =         =                         ,                    case, the cranking term in Eq. (15) does not change the
+                    ωrot            ωrot
+                                           Ay (ω)                       vacuum state |Φi, so that the rotational frequency ωrot is
+           Jy(eff) (ω) = Jy (ω) − Jyz (ω)          ,                    a redundant variable: All observables should not depend
+                                           Bz (ω)                       on ωrot . It is reflected in the fact that the quasiparticle
+                                           Az (ω)                       energies linearly depend on the rotational frequency:
+           Jz(eff) (ω) = Jz (ω) − Jyz (ω)          .             (22)
+                                           By (ω)
+                                                                                          Eµ (ωrot ) = Eµ0 − ωrot Ωµ ,               (29)
+Since the y- and z-effective inertia are ω-dependent, the
+equation is non-linear and they are determined only after               where Eµ0 are quasiparticle energies for the non-cranked
+solving it.                                                             mean-field Hamiltonian h. Since the eigen-value of Jx ,
+  As for the electromagnetic transition probabilities,                  Ω, is a good quantum number, it is convenient to rewrite
+Marshalek proposed a 1/I-expansion technique by utiliz-                 the RPA dispersion equation (16) in terms of the matrix
+ing the perturbative boson expansion method [13]. The                   elements of J± rather than iJy and Jz : After a little
+∆I = ∓1 E2 and M 1 vertical transitions from the one-                   algebra, the equation decouples into two equations,
+phonon wobbling band to the yrast band, discussed in
+Sec. II, can be calculated within the RPA, which is the                                 (ω ± ωrot ) S±1 (ω ± ωrot ) = 0,             (30)
+lowest order in 1/I, as
+                                                                        where the functions Sρ (ω) with ρ = ±1 determine the
+                                     †
+     B(E2; I ± 1 → I) ≈ |hΦ|[Q2∓1 , Xwob ]|Φi|2 ,                (23)   ∆Ω = ±1 solutions, respectively, and are given by
+                                      †
+     B(M 1; I ± 1 → I) ≈ |hΦ|[µ1∓1 , Xwob ]|Φi|2 ,               (24)              1 X (Eµν ± ωrot )|J± (µν)|2
+                                                                                         
+                                                                         S±1 (ω) =
+         †
+where Xwob  is the wobbling phonon creation operator,                              2 µ<ν      Eµν ± ωrot − ω
+and the E2 and M 1 operators quantized with respect to                                       (Eµν ∓ ωrot )|J∓ (µν)|2
+                                                                                                                     
+the x-axis,                                                                                −                           .  (31)
+                                                                                                 Eµν ∓ ωrot + ω
+                        i     (−)   (−)
+                Q2±1 = √ (Q21 ± Q22 ),                           (25)   The precession is a ∆Ω = +1 mode, as is clear from
+                         2                                              the rotor model in Sec. II, and then only the ∆I = −1
+                           i                                            E2 and M 1 transitions are allowed; i.e., their ∆I = +1
+                 µ1±1 = ± √ (iµy ∓ µz ),                         (26)
+                            2                                           probabilities vanish in Eqs. (23) and (24) because the
+                                                                                                                            6
+
+                                              †(−)
+two RPA transition amplitudes, hΦ|[Q21 , Xwob    ]|Φi and          dispersion equation and vice versa. For the physical
+       (−)  †
+hΦ|[Q22 , Xwob ]|Φi, are the same in their absolute value          ∆Ω = +1 modes, the eigen-energies of the wobbling dis-
+with the opposite sign; a corresponding relation holds for         persion equation (30) and the precession one (36) are
+the M 1 amplitudes.                                                related as
+  On the other hand, the y- and z-inertia are the same
+                                                                                      ωwob = ωprec − ωrot .              (38)
+due to the axial-symmetry about the x-axis, and then,
+just like Eq. (8), Eq. (21) reduces to                             By comparing it with Eq. (32), we obtain
+                         K                                                                           K
+           ω=±     (eff)
+                                 ∓ ωrot   (∆Ω = ±1),        (32)                          ωprec =    (eff)
+                                                                                                             ,           (39)
+                  J⊥ (ω)                                                                            J⊥
+
+where I=hΦ|Jx |Φi is denoted by K, and the perpendic-                     (eff)
+                                                                   with J⊥   being written as
+              (eff)       (eff)      (eff)
+ular inertia J⊥ (ω) ≡ Jy (ω) = Jz (ω) is simply
+                                                                                      |J+ (µν)|2     |J− (µν)|2
+                                                                                                               
+written as                                                             (eff) 1X
+                                                                      J⊥ =             0 −ω
+                                                                                                   + 0            ,      (40)
+                                                                             2 µ<ν Eµν        prec  Eµν + ωprec
+      (eff)
+     J⊥ (ω) = J⊥ (ω) ∓ Jyz (ω)             (∆Ω = ±1),       (33)
+                                                                   which is the microscopic RPA version of Eq. (11) in
+with J⊥ (ω) ≡ Jy (ω) = Jz (ω).                                                       (eff)
+                                                                   Sec. II. This J⊥ does not depend on ωrot , while both
+   The vibrational treatment of the rotational band built
+                                                                   J⊥ = Jy = Jz and Jyz in Eq. (33) do. This result can
+on the high-K isomeric state in terms of the RPA has
+                                                                   also be obtained directly from the precession dispersion
+been done for a harmonic oscillator model in Refs. [21,
+                                                                   Eq. (36). Note that the perpendicular inertia (40) re-
+22], and for realistic nuclei by employing the Nilsson
+                                                                   duces to the Inglis cranking inertia (or that of Belyaev if
+potential in Ref. [23], followed by calculations with the
+                                                                   pairing is included) in the adiabatic limit ωprec → 0.
+Woods-Saxon potential in Ref. [24]. The residual interac-
+                                                                      The reason why the ωrot -dependent wobbling eigen-
+tion adopted in Refs. [23, 24] is derived by applying the
+                                                                   energy and the ωrot -independent precession eigen-energy
+vibrating potential model of Bohr-Mottelson [30] to an
+                                                                   is related in a simple way (38) is that the RPA treatment
+infinitesimal rotation about the perpendicular axis, and
+                                                                   in Refs. [21, 22, 23, 24] is formulated in the laboratory
+equivalent to the minimal coupling (12): In the axially
+                                                                   frame, while Marshalek’s wobbling theory in the princi-
+symmetric case,
+                                                                   pal axis frame (body-fixed frame). The energies in the
+                      1                                            laboratory frame, E (L) , and in the uniformly rotating
+              Hint = − κ(F+† F+ + F−† F− ),                 (34)   frame described by the cranked mean-field, E (UR) , are
+                      4
+                                                                   related by E (UR) = E (L) − Ωωrot for the state which has
+with F± being defined by using J± in Eq. (20),                     a projection, Ω, of angular momentum on the rotation
+                                                                   axis. Moreover, the energies in the principal axis and the
+           i                      1                                uniformly rotating frames are the same under the small
+    F± =     [h, J± ],       κ = − hΦ|[[h, J− ], J+ ]|Φi.   (35)
+           κ                      2                                amplitude approximation in the RPA. Thus the differ-
+Note that the mean-field state |Φi is now a multi-                 ence of phonon energies in (38) comes from the difference
+quasiparticle excited state for the non-cranked mean-field         of coordinate frames where the two approaches are for-
+Hamiltonian h, and so ωrot does not appear, although               mulated. The rotational NG mode Γ † (19), appears at
+it can be used as the “sloping Fermi surface” to obtain            zero energy in the precession dispersion Eq. (36) by the
+optimal states [42]: The cranking procedure is totally             same reason. The transformation between the laboratory
+unnecessary in this approach.                                      and the principal axis frames have been discussed more
+   The resultant RPA dispersion equations are given for            thoroughly in Refs. [14] and [22].
+the parts associated with the fields F± separately;                   As for the electromagnetic transition probabilities in
+                                                                   the precession formalism [23, 24], the RPA vacuum state
+                         ω S±1 (ω) = 0,                     (36)   |RPAi is considered to be a stretched eigen-state of
+                                                                   the angular momentum, |I = K, M = Ki, because
+where the functions S±1 (ω) are defined by                         Γ |RPAi = 0 for the NG mode (19) (Γ ∝ (J+ )RPA ). In
+                                                                   the same way, the ∆Ω = +1 one-phonon precession state
+                                                                      †
+                  (                                 )
+            1 X Eµν  0
+                        |J± (µν)|2     0
+                                     Eµν |J∓ (µν)|2                Xprec  |RPAi corresponds to |I = K + 1, M = K + 1i, be-
+ S±1 (ω) =               0 −ω
+                                   −      0 +ω
+                                                      ,                        †
+                                                                   cause Γ Xprec                  †
+                                                                                  |RPAi = [Γ, Xprec   ]|RPAi = 0. Then, by
+            2 µ<ν     Eµν               Eµν
+                                                                   using the Wigner-Eckart theorem, we obtain, for exam-
+                                                    (37)           ple,
+which turn out to be the same functions as Eq. (31) be-                                                      √
+cause of the property (29) of quasiparticle energies in                     hI = K||M(E2)||I = K + 1i = 2K + 1
+the non-collective rotation scheme. It is worth mention-                                                †
+                                                                                           hRPA|Q2 −1 Xprec |RPAi
+ing S+1 (ω) = −S−1 (−ω), so that ∆Ω = −1 modes are                                    ×                           .      (41)
+obtained as negative energy solutions of the ∆Ω = +1                                      hK + 1 K + 1 2 − 1|K Ki
+                                                                                                                            7
+
+Thus, by inserting explicit expressions of the Clebsch-         quasiprotons), on which rotational bands are observed.
+Gordan coefficients, one finds                                  The quadrupole deformation is chosen to be ǫ2 = 0.240,
+                                                                which reproduces in a rough average the value Q0 = 7.0
+                            K +2                                b for the configurations in Table I assumed in the experi-
+  B(E2; K + 1 → K) =                           †
+                                 |hΦ|[Q2 −1 , Xprec ]|Φi|2 ,
+                             K                                  mental analyses [44, 45]. The pairing gap parameters are
+                                                         (42)   taken, for simplicity, to be 0.5 MeV for two-quasiparticle
+                                     †
+   B(M 1; K + 1 → K) = |hΦ|[µ1 −1 , Xprec ]|Φi|2 ,      (43)    configurations, and 0.01 MeV for those with more than
+                                                                or equal to four-quasiparticles, both for neutrons and
+which coincide, within the lowest order in 1/K, with            protons. Chemical potentials λτ (τ = ν, π) are always
+Eqs. (23) and (24) in the wobbling formalism.                   adjusted so as to give correct neutron and proton num-
+                                                                bers. These mean that the choice of parameters in this
+                                                                work is semi-quantitative. As is explained in detail in
+         IV.   RESULT AND DISCUSSION                            Sec. III, the final results do not depend on the cranking
+                                                                frequency ωrot at all for the non-collective rotation about
+    A.   Calculation of precession bands in 178 W               the x-axis. We have confirmed this fact numerically and
+                                                                used ωrot = 0.001 MeV in actual calculations (Note that
+   In the previous papers [11, 12], we have studied the         the wobbling RPA formalism requires a finite rotational
+wobbling motions in the triaxial superdeformed bands in         frequency in numerical calculations). No effective charge
+Hf and Lu isotopes. As it is demonstrated in the previ-                                                 (eff)        (free)
+                                                                is used for the E2 transitions, and gs        = 0.7gs       is
+ous section, the precession mode can be described as an         used for the M 1 transitions as usual.
+axially symmetric limit of the wobbling formalism. Thus
+we have performed calculations of the precession bands
+in 178 W, for which richest experimental information is
+available [43, 44, 45]. Exactly the same wobbling formal-
+ism is used, but taking the prolate non-collective limit
+suitable for high-K isomers, i.e., the triaxiality parame-
+ter γ = −120◦ in the Lund convention. The first result
+for this nucleus, concentrating on the magnetic property,
+was reported already in Ref. [29].
+   The procedure of the calculation is the same as in
+Refs. [11, 12, 29]: The standard Nilsson potential [46]
+is employed as a mean-field with the monopole pairing
+being included;
+                       X                   X
+  h = hNils (ǫ2 , γ) −    ∆τ (Pτ† + Pτ ) −     λτ Nτ . (44)
+                   τ =ν,π                  τ =ν,π
+
+Here the ǫ4 deformation is neglected and all the mean-
+field parameters are fixed for simplicity. There are a few
+refinements of calculation, however: 1) the difference of
+the oscillator frequencies for neutrons and protons in the
+Nilsson potential is taken into account, and the correct
+electric quadrupole operator is used, while Z/A times
+the mass quadrupole operator was used previously, 2) the
+model space is fully enlarged; Nosc =3−8 for neutrons and
+2−7 for protons, which guarantees the NG mode decou-            FIG. 3: Dependence of numerical results on the pairing gap
+pling with sufficient accuracy in numerical calculations.       parameter ∆ = ∆π = ∆ν . In the upper panel, the excitation
+As for the point 1), usually, Q(π) ≈ (Z/A)(Q(ν) + Q(π) )        energies are shown, while in the lower panel are shown the
+                                                                                                               (−)
+holds for static and RPA transitional quadrupole mo-            RPA transition amplitudes for the electric Q22 operator (27).
+ments in stable nuclei, and therefore, the simplification       The solid curves show the results for the precession modes
+in the previous paper was a good approximation. It is,          excited on the 25+ and 30+ high-K states in 178 W, and the
+however, found that Q(π) is appreciably smaller, by about       dotted, dashed and dot-dashed curves represent those for the
+4−8%, than (Z/A)(Q(ν) + Q(π) ) in 178 W. Thus, in this          γ-vibrations in 166 Er, 168 Yb and 178 Hf, respectively.
+paper, we make a more precise calculation using the elec-
+tric (proton) part of the quadrupole operator.                    We have checked the dependences of the results on the
+   The calculation is performed for the high-K isomeric         variations of the deformation parameter ǫ2 and pairing
+configurations listed in Table I; they cover almost all         gaps. Those on the pairing gaps are shown in Fig. 3.
+the multi-quasiparticle states higher than or equal to          In this figure, the excitation energy ω and the RPA
+                                                                                                       (−)
+four (more than or equal to two quasineutrons and two           transition amplitude for the electric Q22 operator (27),
+                                                                                                                            8
+
+
+TABLE I: Configurations assigned for high-K isomers in 178 W [43, 44, 45], which are used in the RPA calculations for
+                                                                                                         exp
+the precession bands excited on them. The experimental values of the precession one-phonon energy, ωprec     = EK (I = K +
+1) − EK (I = K), are also tabulated in the last column. The neutron states are 1/2− [521], 5/2− [512], 7/2− [514], 7/2+ [633],
+9/2+ [624], and 7/2−a [503]. The proton states are 1/2− [541], 5/2+ [402], 7/2+ [404], 9/2− [514], and 11/2− [505]. The bold
+letters indicate the h9/2 proton and the i13/2 neutron quasiparticles.
+
+Kπ                           Neutron configuration                         Proton configuration                    exp
+                                                                                                                  ωprec (keV)
+13−                               7/2+ , 7/2−                                    5/2+ , 7/2+                         164
+14+                               7/2+ , 7/2−                                    5/2+ , 9/2−                         150
+15+                               7/2+ , 7/2−                                    7/2+ , 9/2−                         207
+18−                               7/2+ , 7/2−                            1/2 , 5/2+ , 7/2+ , 9/2−
+                                                                             −
+                                                                                                                     184
+21−                        5/2 , 7/2+ , 7/2− , 9/2+
+                              −
+                                                                                 5/2+ , 9/2−                         362
+22−                        5/2− , 7/2+ , 7/2− , 9/2+                             7/2+ , 9/2−                         373
+25+                        5/2− , 7/2+ , 7/2− , 9/2+                     1/2 , 5/2+ , 7/2+ , 9/2−
+                                                                             −
+                                                                                                                     288
+28−                        5/2− , 7/2+ , 7/2− , 9/2+                     1/2− , 7/2+ , 9/2− , 11/2−                  328
+29+                 5/2 , 7/2+ , 7/2− , 9/2+ , 1/2− , 7/2−a
+                       −
+                                                                         1/2− , 5/2+ , 7/2+ , 9/2−                   437
+30+                        5/2− , 7/2+ , 7/2− , 9/2+                     5/2+ , 7/2+ , 9/2− , 11/2−                  559
+34+                 5/2− , 7/2+ , 7/2− , 9/2+ , 1/2− , 7/2−a             5/2+ , 7/2+ , 9/2− , 11/2−                  621
+
+
+
+                                                                 ences as pairing gap parameters reproduce the experi-
+TABLE II: Mean-field parameters used in the calculation
+                                                                 mental energies of the γ-vibration; see Table II for the
+for the γ-vibrations on the ground states (γ = 0◦ ), and ob-
+served excitation energies of γ-vibrations [47]. The ǫ2 values   parameters and data used. Then, with the use of the
+are taken from Ref. [48], where they are deduced from the        force strength thus fixed, calculations are performed with
+measured B(E2 : 0+        +
+                    g → 2g ) values. The even-odd mass dif-
+                                                                 varying the pairing gaps.
+ferences are calculated by the third order difference formula
+with using the binding energy data in Ref. [49].                    As is clearly seen in Fig. 3, the reduction of pair-
+                                                                 ing gaps makes the excitation energies of γ-vibration
+Nucleus       ǫ2     ∆ν (MeV)      ∆π (MeV)      ωγexp (MeV)     change in various ways depending on the shell struc-
+ 166
+     Er     0.272     0.966         0.877            0.786       ture near the Fermi surface; i.e., the distribution of
+ 168
+     Yb     0.258     1.039         0.983            0.984       the ∆Ω = ±2 quasiparticle excitations, which have
+ 178
+     Hf     0.227     0.694         0.824            1.175       large quadrupole matrix elements. The energy becomes
+                                                                 smaller and smaller in the case of 166 Er, and finally
+                                                                 leads to an instability (ωγ → 0); accordingly the tran-
+          (−)    †
+                                                                 sition amplitude Q diverges. No instability takes place
+Q ≡ |h[Q22 , Xprec   ]i|, which is a measure of the E2 collec-   in the case of 168 Yb and the excitation energy decreases
+tivity, for the precession modes excited on the K = 25+          with decreasing ∆, while it is almost constant for the γ-
+and K = 30+ configurations, are shown as functions               vibration in 178 Hf. However, the transition amplitudes Q
+of the pairing gap, ∆ = ∆π = ∆ν (the common value                reduce by about 40−60% with decreasing ∆ except for
+for protons and neutrons). For reference sake, are also          166
+                                                                     Er. These are well-known features for the low-lying
+included the results for the γ-vibrations on the ground          collective vibrations; namely, the collectivities of the vi-
+states, i.e., the ∆K = ±2 vibrational mode excited on            brational mode are sensitive to the pairing correlations;
+the γ = 0◦ prolate mean-field (without cranking), for            especially enhanced by them. In contrast, for the case
+166
+    Er, 168 Yb and 178 Hf nuclei. Note that the meaning of       of the precession modes, the excitation energies are sta-
+                 (−)
+the operator Q22 is different for γ = −120◦ and γ = 0◦           ble and transition amplitudes are surprisingly constant
+shapes, so that the comparison of the magnitude of the           against the change of the pairing gap. This is a feature
+amplitude Q is not meaningful between the precession             common to the wobbling mode excited on the triaxial su-
+mode and the γ-vibrational mode. As it is stressed in            perdeformed band [12]. Although both the precession (or
+Sec. III A, the precession mode is calculated without any        the wobbling) and the γ-vibration are treated as vibra-
+ambiguity once the mean-field is fixed; we have just used        tional modes in the RPA, the structures of their vacua
+the same parameters explained above with an exception            are quite different; the time reversal invariance is kept
+that the pairing gaps are varied. The situation for the          in the ground state while it is spontaneously broken in
+γ-vibration is different; one has to include components          the high-spin intrinsic states. Since the precession or
+other than the minimal coupling, (12) or (34). We have           the wobbling is a part of rotational degrees of freedom,
+used the K = 2 part of the doubly-stretched Q′′ Q′′ force,       this symmetry-breaking may be an important factor to
+and the force strength is determined in such a way that          generate these modes. It should be mentioned that the
+the calculations with adopting the even-odd mass differ-         transition amplitude Q for 166 Er leads to about a factor
+                                                                                                                                9
+
+of two larger B(E2 : 2+         +
+                          γ → 0g ) value than the observed        state is given. With a closer look, however, one finds
+one in the present calculation, in which the model space          deviations especially at K π = 18− , 25+ , 28− , and 29+ :
+employed is large enough. The RPA calculation overesti-           The precession energies on them are smaller in compar-
+mates the B(E2) transition probability for the low-lying          ison with others, but the calculated ones are too small.
+γ-vibration if are used the Nilsson potential as a mean-          Low calculated energies correspond to large perpendicu-
+field and the simple pairing plus Q′′ Q′′ force as a residual     lar moments of inertia as is clearly seen in Fig. 5. These
+interaction [50].                                                 four configurations contain the proton high-j decoupled
+   There are many RPA solutions in general, and it is             orbital (i.e. with Ω = ±1/2) π[541]1/2− originating from
+not always guaranteed that the collective solution ex-            the h9/2 , whose decoupling parameter is large. Occupa-
+ists. In some cases collective solutions split into two or        tion of such an orbital makes the Inglis moment of in-
+more, whose energies are close, and the collectivity is           ertia, which is given by Eq. (40) with setting ωprec = 0,
+fragmented (the Landau damping), or the character of              diverge due to the zero-energy excitation from an occu-
+the collective solution is exchanged. Moreover, in the            pied Ω = +1/2 quasiparticle state to an empty −1/2
+case of precession-like solutions, the Ω = ±1 modes in-           state. The reason of too large moment of inertia may be
+teract with each other, as it was shown in Ref. [23]. In          overestimation of this effect for the proton contribution
+fact, when the deformation is changed, it is found that           in the calculation. The large effect of this πh9/2 orbital
+the precession mode on the K π = 15+ configuration dis-           on the moment of inertia has been pointed out also in
+appears for ǫ2 > 0.250, and that on the K π = 14− splits          Refs. [25, 51].
+into two for ǫ2 > 0.245. Similar situations also occur
+when changing the pairing gap parameters in a few cases.
+Apart from these changes, the results are rather stable
+against the change of the mean-field parameters. The
+fact that we have been able to obtain collective solutions
+for all the cases listed in Table I indicates that our choice
+of mean-field parameters are reasonable if not the best.
+
+
+
+
+                                                                  FIG. 5: The moment of inertia associated with the precession
+                                                                  bands built on high-K configurations. The RPA effective in-
+                                                                  ertia (40) are shown by filled circles connected by solid lines,
+                                                                  the proton part of them by filled squares connected by dot-
+                                                                  ted lines, and the neutron part by filled triangles connected
+                                                                  by dashed lines. The crosses are those extracted from the
+                                                                  experimental spectra according to the simple relation (39).
+
+FIG. 4: Excitation energies of the one-phonon precession             Except for the case of four configurations including
+modes excited on high-K configurations. Calculated ones are       the π[541]1/2− orbital, the values of moment of iner-
+denoted by filled circles connected by solid lines, and experi-   tia are about 50−80 ~2 /MeV, which are smaller than
+mental ones by crosses. Data are taken from Refs. [44, 45].       the rigid-body value, Jrig =87.8 ~2 /MeV, and consid-
+                                                                  erably larger than the ground state value, Jgr =28.3
+   Figure 4 presents the calculated and observed relative         ~2 /MeV. Here Jrig is calculated by assuming the 178 W
+excitation energies of the first rotational band member,          nucleus as an ellipsoidal body with ǫ2 = 0.240 and
+EI=K+1 − EI=K , i.e., the one-phonon precession ener-             r0 = 1.2 fm, and Jgr by 3/E2+ . The pairing gaps are
+gies. Corresponding perpendicular moments of inertia,             already quenched in the calculation for more than or
+Eq. (39), are shown in Fig. 5, where the contributions            equal to eight-quasiparticles (four-quasiprotons and four-
+to the inertia from protons and neutrons are also dis-            quasineutrons) configurations (K ≥ 25+ ). The value 0.5
+played. Our RPA calculation reproduces the observed               MeV of the pairing gap used for two-quasiparticles con-
+trend rather well in a wide range of isomeric configura-          figurations is already small enough to make the moment
+tions, from four- to ten-quasiparticle excitations. This is       of inertia quite large. It is also noticed that the mo-
+highly non-trivial because, as was stressed in Sec. III, we       ment of inertia decreases with increasing K, which is op-
+have no adjustable parameter in the RPA for the calcula-          posite to the intuition, and clearly indicates the impor-
+tion of the precession modes once the mean-field vacuum           tance of the shell effect for the moment of inertia [52].
+                                                                                                                               10
+
+In Refs. [25, 44], the angular momentum of the preces-             and (48), we define the corresponding quantities in the
+sion band is divided into the collective and aligned ones;         RPA formalism by (K = hJx i)
+the inertia defined in Eq. (39) includes both of them. It                                 r
+is shown that the collective inertia, in which the effect                                16πK 1     †
+of the aligned angular momentum of the high-j decou-                         (Q0 )RPA =         h[Xprec , Q2 −1 ]i,          (51)
+                                                                                           15 e
+pled orbital is removed, takes the value 50−60 ~2 /MeV                                  r
+consistent with the other configurations. As is shown                                     4π 1       †
+                                                                        (gK − gR )RPA =          h[Xprec , µ1 −1 ]i.         (52)
+in Fig. 5 the proton contribution to the inertia is about                                 3K µN
+20−30% (except for the four configurations above), which
+is considerably smaller than Z/A, but consistent with the          Only their relative phase is meaningful, and the over-
+calculated value for the gR -factor in the ground state ro-        all phase is chosen in such a way that (Q0 )RPA is pos-
+tational band (see below).                                         itive. We compare calculated values of Q0 in the usual
+   As for the electromagnetic transitions in the rotational        mean-field approximation (49) and in the RPA formal-
+bands built on high-K isomers, the strong coupling rota-           ism (51) in Fig. 6 for all high-K configurations listed
+tional model [30] is utilized as a good description. The           in Table I. These two calculated Q0 ’s roughly coin-
+expressions for B(E2) and B(M 1) are well-known:                   cide with each other, but appreciable deviations are seen
+                                                                   for the K π = 18− , 25+ , 28− , and 29+ isomers: The
+     B(E2 : I = K + 1 → K)rot                                      high-j decoupled orbital π[541]1/2− has a large prolate
+                                                                   quadrupole moment, so that its occupation generally
+               5 2 2
+           =      e Q0 hK + 1 K 20|KKi2                     (45)   leads to a larger value of Q0 . This is clearly seen in
+              16π                                                  Fig. 6 even if ǫ2 is fixed in our calculation. See Ref. [53],
+                  15 1 2 2                                         for example, for the polarization effect of this high-j or-
+               ≈        e Q0 ,                              (46)
+                 16π K                                             bital on Q0 . It is, however, noticed that the effect is even
+                                                                   larger in the RPA calculation just like in the case of the
+                                                                   excitation energy in Fig. 4. For the 34+ isomer we have
+     B(M 1 : I = K + 1 → K)rot
+                                                                   found a less collective RPA solution at a lower energy, 560
+          3 2            2                                         keV, which has about 80% of the (Q0 )RPA value of the
+       =     µ (gK − gR ) K 2 hK + 1 K 10|KKi2 (47)
+         4π N                                                      most collective one presented in the figure. The reason
+                 3 2           2                                   why (Q0 )RPA for the 34+ isomer is considerably small is
+              ≈   µ (gK − gR ) K,              (48)
+                4π N                                               traced back to this fragmentation of the precession mode
+                                                                   in this particular case. This kind of fragmentation some-
+where, in the last lines, the Clebsch-Gordan coefficients          times happens in the RPA calculation.
+are replaced with their lowest order expressions in 1/K.
+Q0 and (gK − gR ) can be extracted from experiments;
+the sign of the mixing ratio is necessary to determine
+the relative sign of them. These quantities are calculated
+within the mean-field approximation,
+         r                    Z
+             16π 1          DX                        E
+  Q0 =             hQ20 i =     (2x2 − y 2 − z 2 )(π)
+                                                  a     ,
+              5 e            a=1
+                                                            (49)
+           r                          r
+               4π hµx i                   4π hµx igr
+    gK =                   ,   gR =                     ,   (50)
+                3 µN hJx i                 3 µN hJx igr
+
+where h i means that the expectation value is taken
+with respect to the high-K configuration (γ = −120◦),
+e.g. hJx i = K, while h igr with respect to the ground
+state rotational band (γ = 0◦ ). The latter expectation
+value is calculated by the cranking prescription (15), with        FIG. 6: Quadrupole moments Q0 for high-K configurations.
+the same ǫ2 , and with the even-odd mass differences as            Those calculated by the RPA, Eq. (51), are denoted by filled
+pairing gaps. The value of gR is thus ωrot -dependent,             circles connected by solid lines, while those by the mean-field
+but its dependence is weak at low frequencies, so that we          approximation, (49), by filled triangles connected by dotted
+take the value gR = 0.227 obtained at ωrot → 0, which is           lines.
+much smaller than the standard value, Z/A = 0.416.
+   On the other hand, B(E2) and B(M 1) are calculated                 In Fig. 7 we compare the effective (gK − gR ) factors
+by Eqs. (23) and (24), respectively, in the wobbling for-          extracted from the experimental data and those calcu-
+malism which is in the lowest order in 1/K. By equating            lated in two ways; Eq. (50) and Eq. (52). As for the
+these expressions with those of the rotational model, (46)         observed ones they were determined [44, 45] from the
+                                                                                                                                  11
+
+                                                                  sults indicate, however, that the RPA treatment of the
+                                                                  rotational excitations is valid; especially it gives a reliable
+                                                                  microscopic framework for studying the wobbling motion
+                                                                  recently observed.
+                                                                     The reason why the RPA precession mode gives the
+                                                                  B(E2) and B(M 1) similar to those calculated according
+                                                                  to the rotational model is inferred by taking the adiabatic
+                                                                  limit (ωprec → 0) of the RPA phonon creation operator.
+                                                                  It has been shown in Ref. [22] that the precession phonon
+                                                                  can be explicitly written up to the first order in ωprec as
+                                                                                      1
+                                                                             †
+                                                                            Xprec ≈ √   (J+ + ωprec J⊥cr iΘ+ )RPA
+                                                                                     2K
+                                                                                      1
+                                                                                  ≈ √   (J+ + K iΘ+ )RPA .                      (53)
+                                                                                     2K
+FIG. 7: Effective (gK −gR )-factors for high-K configurations.    Here the angle operator Θ+ is defined by
+Those calculated by the RPA, Eq. (52), are denoted by filled
+circles connected by solid lines, while those by the mean-field                           Θ± = Θy ± iΘz ,
+approximation (49) by filled triangles connected by dotted                                    1
+lines. Those extracted from the experimental data [44, 45]                       [h, iΘk ] = cr Jk , (k = y, z),                (54)
+                                                                                             J⊥
+are shown by crosses.
+                                                                  where J⊥cr is the Inglis cranking inertia and given from
+                                                                  the effective inertia (40) by setting ωprec = 0. These
+branching ratios of available lowest transitions in respec-       angle operators possess desired properties,
+tive rotational bands, by using the rotational model ex-                                   h[Θk , Jl ]i = iδkl .                (55)
+pressions (45) and (47) with Q0 = 7.0 b being assumed.
+In this way, absolute value |gK − gR | is obtained, and we        For the E2 transitions, the contribution of the Θ+ part
+assume that its sign is determined by that of the calcu-          in Eq. (53) is proved to be negligible, if the harmonic
+lated E2/M 1 mixing ratio in the RPA result. Accord-              oscillator potential is taken as a mean-field;
+ingly, some care is necessary to compare the experimen-                                                             r
+                                                                                              1                         3
+tally extracted g-factors with calculations. The agree-                  †
+                                                                     h[Xprec , Q2 −1 ]i ≈ √       h[J+ , Q2 −1 ]i =       hQ20 i,
+ment between the observed and calculated ones is semi-                                       2K                        K
+quantitative, but the RPA result follows the observed                                                                           (56)
+trend rather well. Compared to the RPA g-factors, those           which precisely means Q0 ≈ (Q0 )RPA in the adiabatic
+calculated by the mean-field approximation are poorer.            limit.
+Again, the two calculations deviate appreciably for the              As for the M 1 transitions, however, the Θ+ part also
+K π = 18− , 25+ , 28− , and 29+ configurations, where the         contributes:
+high-j decoupled orbital π[541]1/2−, which has a large                †                   1                                        
+                                                                  h[Xprec , µ1 −1 ]i ≈ √        h[J+ , µ1 −1 ]i + K h[iΘ+ , µ1 −1 ]i
+positive g-factor, is occupied. The difference between                                    2K
+the mean-field (gK − gR ) and (gK − gR )RPA is further                               1            K                  
+discussed in the next subsection by studying the adia-                         = √       hµx i − √ h[µ1 −1 , iΘ+ ]i ,           (57)
+                                                                                     K              2
+batic limit of the precession mode in the RPA.
+                                                                  which gives (gK − gR ) ≈ (gK − gR )RPA if we identify
+                                                                                        r
+                                                                                           2π 1
+  B.    Interpretation of the result in the adiabatic                       gR ↔ ĝR ≡           h[µ1 −1 , iΘ+ ]i.    (58)
+                                                                                            3 µN
+                          limit
+                                                                  This identification is reasonable: The magnetic moment
+                                                                  operator µ1 −1 possesses a property of angular momen-
+   As it is demonstrated in the previous subsection, the
+                                                                  tum and is approximately proportional to J− . Then the
+RPA calculation reproduces the precession phonon ener-
+                                                                  expectation value of the right hand side of Eq. (58) is
+gies without any kind of adjustments. The electromag-
+                                                                  expected to depend only weakly on the high-K configu-
+netic properties obtained through the RPA wobbling for-
+                                                                  ration because of Eq. (55). More precisely, if the opera-
+malism are in good agreement with those of the strong
+                                                                  tors J− , Θ+ and µ1 −1 are divided into the neutron and
+coupling rotational model, where the quadrupole mo-
+                                                                  proton parts like
+ments and the effective g-factors are calculated within
+the mean-field approximation. Since the rotational band                              (π)      (ν)                  (π)   (ν)
+                                                                            J− = J− + J− , Θ+ = Θ+ + Θ+ ,
+is described as multi-phonon excitations in the RPA wob-                            r
+bling (or precession) model, it is not apparent that two                               3            (π)        (ν)
+                                                                            µ1 −1 ≈      µN (g (π) J− + g (ν) J− ),             (59)
+models lead to similar results for observables. Our re-                               8π
+                                                                                                                                    12
+
+then the following relation is derived,                                  deduced gR -factors in Fig. 8 are similar to the ground
+                                  cr(π)               cr(ν)
+                                                                         state value, 0.227, though it is appreciably different from
+                         g (π) J⊥         + g (ν) J⊥                     the standard value, Z/A = 0.416. For reference, the
+                ĝR ≈             cr(π)       cr(ν)
+                                                              ,   (60)
+                             J⊥           + J⊥                           cranking moment of inertia for the ground state rota-
+                                                                         tional band calculated using the even-odd mass differ-
+                  (τ )     (τ )              cr(τ )
+because of h[J− , iΘ+ ]i = 2J⊥ /J⊥cr with J⊥cr =                         ences as pairing gaps is J⊥cr = 22.7 ~2 /MeV (about
+J⊥
+  cr(π)
+        + J⊥
+              cr(ν)
+                    (τ = π, ν). With a cruder estimate                   80% of the experimental value, see the previous subsec-
+   (τ )   (τ )                                                           tion). The proton contribution to it is 6.1 ~2 /MeV and
+h[J− , iΘ+ ]i ≈ 2Nτ /A (τ = π, ν), one finds a constant                     (cr)(π)    (cr)(π)     (cr)(ν)
+                                                                         J⊥         /(J⊥       + J⊥        ) = 0.269, which is slightly
+gR ≈ τ Nτ g (τ ) /A, which gives a classical result, Z/A,
+        P
+                                                                         larger but consistent with the calculated ground state gR
+by setting g (π) = 1 and g (ν) = 0.                                      value, 0.227.
+                                                                            The above results indicate that the rotor gR should
+                                                                         be considered to depend also on the intrinsic configura-
+                                                                         tions, but the dependence is conspicuous only for those
+                                                                         including the high-j decoupled orbit, which has a large
+                                                                         decoupling parameter as well as a large g-factor. The
+                                                                         reason why the effective (gK − gR )-factors of the RPA
+                                                                         calculation reproduce the experimentally extracted ones
+                                                                         better than those of the mean-field g-factors is inferred as
+                                                                         follows. Since, as is well known, the g-factors of proton
+                                                                         orbitals are much larger than those of neutron orbitals,
+                                                                         the amount of the proton contribution is overwhelming
+                                                                         for the mean-value hµx i in comparison with that for hJx i.
+                                                                         Considering this fact together with the overestimation of
+                                                                         the proton moments of inertia mentioned in the previ-
+                                                                         ous paragraph, it is likely that the calculated values of
+                                                                         gK (50) for the K π = 18− , 25+ , 28− , and 29+ configu-
+FIG. 8: Comparison of deduced gR from two calculations.                  rations with a proton high-j decoupled orbital are also
+The one from gK − (gK − gR )RPA is denoted by filled circles             overestimated. In the mean-field calculation, the calcu-
+connected by solid lines, while the quantity J⊥
+                                                (eff,π)    (eff,π)
+                                                        /(J⊥       +     lated values of (gK − gR ) for those configurations are
+J⊥
+  (eff,ν)
+          ) by filled squares connected by dotted lines.                 thus relatively large, because the common ground state
+                                                                         gR -factor (50) is used. This trend can be seen also in the
+                                                                         similar type of mean-field calculations in Refs. [44, 45]
+   An approximate relation gR = J (π) /(J (π) + J (ν) ),
+                                                                         (Note that different gR -factors are used in [44] and [45]).
+which corresponds to Eq. (60) with g (π) = 1 and
+                                                                         In the RPA calculation, however, the rotor g-factor is
+g (ν) = 0, has been used for the ground state rota-
+                                                                         given by ĝR , (58) or (60), which is overestimated for these
+tional band, i.e., the case of collective rotations [54].
+                                                                         four configurations (see Fig. 8). Thus, the overestimation
+It seems, however, difficult to justify a similar relation,
+                                                                         of two g-factors may largely cancel out in the resulting
+gR = ZJ (π) /(ZJ (ν) +N J (π) ), which is used in Ref. [44].
+                                                                         (gK − gR )RPA values, yielding a reasonable agreement
+Thus, the “rotor g-factor” gR is not a common constant,
+                                                                         with the experimental data seen in Fig. 7.
+but it also depends on the high-K configurations as the
+intrinsic g-factor gK does. In order to see how the ap-                     The realistic mean-field is not very different from the
+proximate relation (60) holds, we compare, in Fig. 8,                    harmonic oscillator potential so that the approximate
+the two calculated quantities, gK − (gK − gR )RPA and                    equality (56) for the E2 operator is expected to hold in
+   (eff,π)    (eff,π)    (eff,ν)                                         general cases. However, it is not very clear to what extent
+J⊥         /(J⊥       + J⊥       ), where the cranking inertia           this equality holds: It is a subtle problem whether or not
+   cr(τ )
+J⊥ , which diverges when the π[541]1/2− orbital is oc-                   the adiabatic approximation holds because the precession
+cupied, is replaced with the neutron or proton part of                   phonon energies are 200 to 600 keV, which are not neg-
+the effective inertia (40), see also Fig. 5. As is seen in               ligible compared to the quasiparticle excitation energies
+the figure, these two quantities are in good agreement                   (Note that the pairing gap is quenched in high-K con-
+with each other, again, except for the K π = 18− , 25+ ,                 figurations). In addition to the deviations caused by the
+28− , and 29+ configurations, where the high-j decou-                    non-adiabatic effects, it should also be noticed that the
+                                     (eff,π)    (eff,π)    (eff,ν)
+pled orbital is occupied and J⊥              /(J⊥       + J⊥       )     adiabatic approximation itself breaks down if one quasi-
+is very large. The excitation energies are underesti-                    particle in a pair of high-j decoupling orbits (Ωµ = ±1/2)
+mated for these high-K configurations. Therefore, the                    is occupied, because the Inglis cranking moment of iner-
+proton moments of inertia are overestimated for them;                    tia diverges due to the zero-denominator. In such cases,
+in fact the proton contributions are considerably larger                 the present RPA calculation eventually overestimates the
+than the neutron ones in these configurations as is shown                moment of inertia, although it does not diverge. This ef-
+in Fig. 5. Apart from these four configurations, the                     fect is also reflected in the calculated transition moments
+                                                                                                                         13
+
+(Q0 )RPA and the effective g-factors, which are rather dif-     Although we obtained the RPA solutions, which have ex-
+ferent from the values given by the mean-fields. Whether        pected properties of the wobbling motion, the calculated
+or not the RPA calculation gives reliable results for such      out-of-band over in-band B(E2) ratios were smaller than
+cases, where the non-adiabatic effect is large, is an im-       the measured ones by about a factor two to three; this
+portant future issue. The direct measurement of Q0 (i.e.        was the most serious problem in our microscopic calcu-
+B(E2)-value) for the precession band is desirable for this      lation. The measured ratio is almost reproduced by the
+purpose.                                                        simple rotor model. Both the out-of-band and in-band
+                                                                B(E2), which are vertical and horizontal transition dis-
+                                                                cussed in Sec. II, are expressed in terms of the intrinsic
+           V.   CONCLUDING REMARKS                              quadrupole moments, Q20 and Q22 [30] (or e.g. defor-
+                                                                mation parameters (ǫ2 , γ)), combined with the wobbling
+   We have investigated the precession bands, i.e., the         phonon amplitudes. In the RPA wobbling formalism, on
+strongly-coupled rotational bands excited on high-K in-         the other hand, the in-band transition is calculated by
+trinsic configurations by means of the random phase ap-         the intrinsic moments, while the out-of-band transition
+proximation, the microscopic theory for vibrations. It is       by the RPA phonon transition in Eq. (23). Thus the un-
+emphasized that this precession mode is related to the          derestimation of the B(E2) ratio above means that the
+three dimensional motion of the angular momentum vec-           RPA phonon transition amplitudes is smaller by about
+tor in the principal axis frame (body-fixed frame), and         50−70% than the expected ones.
+can be considered to be a limiting mode of the wobbling            The adiabatic approximation can also be considered
+motion in the triaxially deformed nucleus. It is demon-         for the case of the wobbling phonon [14]. Similar corre-
+strated that the observed trend of the precession phonon        spondence between the intrinsic moments and the RPA
+energies in 178 W is well reproduced by the RPA calcula-        transition amplitudes, like Q0 ≈ (Q0 )RPA in the present
+tion: This is highly non-trivial because we have employed       paper, is obtained with a non-trivial modification: There
+the minimal coupling interaction, which is determined by                                                          (−)
+                                                                are two amplitudes related to the operators Q21 and
+the mean-field and the vacuum state based on it, and so           (−)
+                                                                Q22 in Eq. (27), and the B(E2) is calculated by a linear
+there is no adjustable force parameters whatsoever.
+                                                                combination of them with coefficients involving the three
+   The electromagnetic properties, the E2 and M 1 tran-
+                                                                moments of inertia. Therefore, incorrect coefficients of
+sition probabilities, are also important for this kind of
+                                                                amplitudes would make B(E2) values to deviate consid-
+collective excitation modes. We have shown that the
+                                                                erably, even though the adiabatic approximation is ap-
+calculated B(E2) and B(M 1) in terms of the RPA cor-
+                                                                plicable and two amplitudes are obtained in a good ap-
+respond to those given by the conventional rotational
+                                                                proximation. There is, of course, another possibility that
+model expressions, where the intrinsic quadrupole mo-
+                                                                the adiabatic approximation itself is no longer valid. It
+ment and the effective g-factors are calculated within the
+                                                                should be noted that the wobbling excitation energies ob-
+mean-field approximation. The link between the RPA
+                                                                served in Lu isotopes are about 200−500 keV, which are
+and the rotational model expressions is given in the adi-
+                                                                not small if translated to the transition phonon energy
+abatic limit, where the precession phonon energy goes to
+                                                                in the laboratory frame, ωwob + ωrot ; see Eq. (38). In
+zero. Then the rotor gR -factor is not a common factor
+                                                                the light of the present investigation, it may be possible
+any more, but depends on the configurations, especially
+                                                                that the RPA approach yields the correct magnitude of
+on the occupation of the high-j decoupled proton orbital.
+                                                                out-of-band transitions also for the case of the wobbling
+Since the RPA formalism includes this effect properly, the
+                                                                mode, because it actually does in the case of the preces-
+calculated B(M 1) values reproduces the experimentally
+                                                                sion phonon bands. Thus, it is a very important future
+deduced ones rather well. It is, however, noticed that
+                                                                issue to examine whether or not the RPA wobbling for-
+the adiabatic approximation is not necessarily a good ap-
+                                                                malism can describe the observed B(E2) ratio in the Lu
+proximation because the precession energies are not very
+                                                                and Hf region.
+small; more crucially, if a high-j decoupled orbital with
+Ω = 1/2 is occupied, the approximation breaks down
+completely. Therefore, it is an important future task to
+examine how the non adiabatic effect plays a role in the
+                                                                                    Acknowledgments
+realistic cases. More experimental data, especially B(E2)
+and B(M 1) values, are necessary for this purpose.
+   Finally, it is worth mentioning the similar RPA calcu-         This work was supported by the Grant-in-Aid for Sci-
+lations for the wobbling motion in the Lu and Hf region.        entific Research (No. 16540249) from the Japan Society
+We have presented the result in the recent papers [11, 12].     for the Promotion of Science.
+
+
+
+
+ [1] S. W. Ødegård et al., Phys. Rev. Lett. 86, 5866 (2001).    [2] D. R. Jensen et al., Nucl. Phys. A 703, 3 (2002).
+                                                                                                                              14
+
+ [3] D. R. Jensen et al., Phys. Rev. Lett. 89, 142503 (2002).   [31] K. Tanabe and K. Sugawara-Tanabe, Phys. Lett. B 34,
+ [4] I. Hamamoto, Phys. Rev. C 65, 044305 (2002).                    575 (1971).
+ [5] I. Hamamoto and G. B. Hagemann, Phys. Rev. C 67,           [32] E. R. Marshalek, Phys. Rev. C 11, 1426 (1975).
+     014319 (2003).                                             [33] M. Yamamura, Prog. Theor. Phys. 64, 101 (1980).
+ [6] S. Frauendorf and J. Meng, Nucl. Phys. A 617, 131          [34] N. I. Pyatov and D. I. Salamov, Nukleonika 22, 127
+     (1997).                                                         (1977).
+ [7] K. Starosta et al., Phys. Rev. Lett. 86, 971 (2001).       [35] T. Kishimoto et al., Phys. Rev. Lett. 35, 552 (1975).
+ [8] T. Koike, K. Starosta, C. J. Chiara, D. B. Fossan, and     [36] H. Sakamoto and T. Kishimoto, Nucl. Phys. A 501, 205,
+     D. R. LaFosse, Phys. Rev. C 67, 044319 (2003).                  242 (1989).
+ [9] T. Koike, K. Starosta, and I. Hamamoto, Phys. Rev.         [37] T. Suzuki and D. J. Rowe, Nucl. Phys. A 289, 461 (1977).
+     Lett. 93, 172502 (2004).                                   [38] E. R. Marshalek, Phys. Rev. Lett. 51, 1534 (1983).
+[10] S. Frauendorf, Rev. Mod. Phys. 73, 463 (2001).             [39] E. R. Marshalek, Phys. Rev. C 29, 640 (1984).
+[11] M. Matsuzaki, Y. R. Shimizu, and K. Matsuyanagi, Phys.     [40] Y. R. Shimizu and K. Matsuyanagi, Prog. Theor. Phys.
+     Rev. C 65, 041303(R) (2002).                                    72, 799 (1984).
+[12] M. Matsuzaki, Y. R. Shimizu, and K. Matsuyanagi, Phys.     [41] S. Åberg, Phys. Lett. B 157, 9 (1985).
+     Rev. C 69, 034325 (2004).                                  [42] G. Andersson, S. E. Larsson, G. Leander, P. Möller, S. G.
+[13] E. R. Marshalek, Nucl. Phys. A 275, 416 (1977).                 Nilsson, I. Ragnarsson, S. Åberg, J. Dudek, B. Nerlo-
+[14] E. R. Marshalek, Nucl. Phys. A 331, 429 (1979).                 Pomorska, K. Pomorski, and Z. Szymański, Nucl. Phys.
+[15] D. Janssen and I. N. Mikhailov, Nucl. Phys. A 318, 390          A 268, 205 (1976).
+     (1979).                                                    [43] C. S. Purry et al., Phys. Rev. Lett. 75, 406 (1995).
+[16] J. L. Egido, H. J. Mang, and P. Ring, Nucl. Phys. A 339,   [44] C. S. Purry et al., Nucl. Phys. A 632, 229 (1998).
+     390 (1980).                                                [45] D. M. Cullen et al., Phys. Rev. C 60, 064301 (1999).
+[17] V. G. Zelevinsky, Nucl. Phys. A 344, 109 (1980).           [46] T. Bengtsson and I. Ragnarsson, Nucl. Phys. A 436, 14
+[18] Y. R. Shimizu and K. Matsuyanagi, Prog. Theor. Phys.            (1985).
+     70, 144 (1983).                                            [47] R. B. Firestone, V. S. Shirley, et al., Table of Isotopes,
+[19] Y. R. Shimizu and M. Matsuzaki, Nucl. Phys. A 588,              8th ed. (John Wiley & Sons, Inc., 1999).
+     559 (1995).                                                [48] K. E. G. Löbner, M. Vetter, and V. Hönig, Nucl. Data
+[20] R. Bengtsson, http://www.matfys.lth.se/˜ragnar/TSD.html.        Tables A7, 496 (1970).
+[21] H. Kurasawa, Prog. Theor. Phys. 64, 2055 (1980).           [49] G. Audi and A. Wapstra, Nucl. Phys. A 595, 409 (1995).
+[22] H. Kurasawa, Prog. Theor. Phys. 68, 1594 (1982).           [50] T. S. Dumitrescu and I. Hamamoto, Nucl. Phys. A 383,
+[23] C. G. Andersson, J. Krumlinde, G. Leander, and                  205 (1982).
+     Z. Szymański, Nucl. Phys. A 361, 147 (1981).              [51] G. D. Dracoulis, F. G. Kondev, and P. M. Walker, Phys.
+[24] J. Skalski, Nucl. Phys. A 473, 40 (1987).                       Lett. B 419, 7 (1998).
+[25] S. Frauendorf, K. Neergård, J. A. Sheikh, and P. M.       [52] M. A. Deleplanque, S. Frauendorf, V. V. Pashkevich,
+     Walker, Phys. Rev. C 61, 064324 (2000).                         S. Y. Chu, and A. Unzhakova, Phys. Rev. C 69, 044309
+[26] S. Frauendorf, Nucl. Phys. A 677, 115 (2000).                   (2004).
+[27] D. Almehed, S. Frauendorf, and F. Dönau, Phys. Rev. C     [53] F. R. Xu, P. M. Walker, J. A. Sheikh, and R. Wyss, Phys.
+     63, 044311 (2001).                                              Lett. B 435, 257 (1998).
+[28] S. -I. Ohtsubo and Y. R. Shimizu, Nucl. Phys. A 714, 44    [54] R. Bengtsson and S. Åberg, Phys. Lett. B 172, 277
+     (2003).                                                         (1986).
+[29] M. Matsuzaki and Y. R. Shimizu, submitted for publica-     [55] There are misprints in Ref. [19]: − sign is missing in front
+     tion; nucl-th/0412009.                                                 (+)
+                                                                     of 21 Q0 in Eq. (2.3a), and factors 21 should be deleted
+[30] A. Bohr and B. R. Mottelson, Nuclear Structure Vol. II          in Eq. (4.1).
+     (Benjamin, New York, 1975).
+

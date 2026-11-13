@@ -1,0 +1,71 @@
+{
+  "status": "accepted-narrow-review-findings; canonical AppendixA still revision-required",
+  "at_utc": "2026-11-13T15:42:22.368393+00:00",
+  "parent_original_check": [
+    {
+      "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "raw/books/nuclear structure Ⅰ_Bohr, Mottelson.pdf",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+      "size_matches": true,
+      "sha256_matches": true
+    }
+  ],
+  "parent_actual_pages": [
+    {
+      "source": "Suhonen",
+      "pdf_page": 134,
+      "printed_page": 119,
+      "method": "rendered visual inspection",
+      "anchors": [
+        "Eq6.7 μN/(ℏc)",
+        "Eq6.9 SI μN=eℏ/(2mp)",
+        "footnote6 Gaussian μN=eℏ/(2mpc)"
+      ]
+    },
+    {
+      "source": "BohrMottelsonI",
+      "pdf_page": 101,
+      "printed_page": 82,
+      "method": "text and rendered visual inspection",
+      "anchors": [
+        "Eq1A-60 includes1/sqrt(2If+1)",
+        "Eq1A-63 angular-momentum RME"
+      ]
+    },
+    {
+      "source": "Hamilton",
+      "pdf_page": 553,
+      "printed_page": 542,
+      "method": "rendered visual inspection",
+      "anchors": [
+        "Eq12.184 amplitude ratio",
+        "Eq12.185 positive F interference",
+        "text explicitly Krane and Steffen"
+      ]
+    }
+  ],
+  "independent_replay": {
+    "command": "python3 -B outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T20/validation.py",
+    "exit_status": 0,
+    "results_sha256": "49122dcaf8589e8d082aaf4e9a6167475b992de361567b6cf0b389510a2163fc",
+    "scope": "specific coupled-basis and6j finite controls; not all identities or experiment conventions"
+  },
+  "merge_disposition": {
+    "AppendixA": "G94 corrections required; not accepted",
+    "section5.9": "preserve main rate formula, update KS label/operator conditions and teaching-example units only; keep individual experimental δ unchanged"
+  },
+  "external_erratum": "Lange RMP54,673 erratum discovered; G94 will check original access and scope before any implied correction."
+}

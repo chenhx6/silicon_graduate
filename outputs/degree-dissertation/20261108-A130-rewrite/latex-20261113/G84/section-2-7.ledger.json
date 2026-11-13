@@ -1,0 +1,209 @@
+{
+  "section_id": "2.7",
+  "title": "有效电磁与弱算符",
+  "section_label": "sec:2-7",
+  "type": "new-canonical-section",
+  "status": "latex-canonical-delivered-final",
+  "recorded_at": "2026-11-13T04:27:46.504884+00:00",
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-7.tex",
+  "output_tex_sha256": "d1a504177b7dd1db24f825f9ffb318f4f8b49e0771624161224f45e429984a95",
+  "staging_tex": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G84/staging/sec-2-7.tex",
+  "scope_boundary": "建立模型空间截断下有效哈密顿量与有效跃迁算符的幺正解耦自洽重整化机制，阐释诱导多体算符与单体截断近似；推演核芯巨四极共振极化E2有效电荷及其对径向波函数弱束缚弥散的敏感依赖，澄清模型空间扩大的非单调性；剖析介子流与核芯自旋极化对M1 g因子的重整化；在完备空间严格推导Gamow-Teller与Ikeda差和定则3(N-Z)，明确系数3来自sigma^2=3标量平方和，严格解耦代数和定则与实测衰变率(含g_A^2与f_0)，揭示价空间截断破坏完备闭合性机制；剖析g_A淬灭的多体组态混合与弱两体流双重机制，以Gysbers 2019与Wang 2026为微观输入，阐述一阶禁戒衰变算符秩/动量依赖与0nu beta beta高动量转移解耦边界，拒绝伪共识。",
+  "source_inputs": [
+    {
+      "source_id": "pedagogical-task-derivation",
+      "citation_key": "book-suhonen-from-nucleons-to-nucleus",
+      "canonical_source": "本任务教学数学推导与第2.8节模型空间接口",
+      "raw_file": "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md",
+      "actual_read_pages": "Architecture map 2.7 & 2.8; Suhonen Ch. 6 pp. 118–120 (PDF pp. 133–135) for bare operator definitions",
+      "text_anchor": "The unperturbed initial state... transition mediated by one of the multipole terms",
+      "claims_supported": [
+        "全Hilbert空间P/Q投影分解与幺正解耦变换 H'=U^dagger H U, O'=U^dagger O U",
+        "解耦条件 Q H' P = 0 与真物理跃迁矩阵元严格守恒 <Psi_a|O|Psi_b> = <Phi_a|P O' P|Phi_b>",
+        "BCH换位展开生成诱导高阶两体项与三体项，单体有效算符截断产生有效电荷与淬灭因子"
+      ]
+    },
+    {
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "citation_key": "book-suhonen-from-nucleons-to-nucleus",
+      "canonical_source": "J. Suhonen, From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory, Springer-Verlag (2007)",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "actual_read_pages": "Chapter 6, Section 6.1, printed pp. 118–120 (PDF pp. 133–135), Eqs.(6.4), (6.6), (6.13)–(6.14); Chapter 6, Section 6.2, printed pp. 128–132 (PDF pp. 143–147), Eqs.(6.52)–(6.60); Chapter 7, Section 7.2.1, printed pp. 163–165 (PDF pp. 178–180), Eqs.(7.11)–(7.14); Chapter 17, Section 17.4.3, printed pp. 541–543 (PDF pp. 552–554), Eqs.(17.65)–(17.74)",
+      "text_anchor": "PDF 553: 'Derivation of the Ikeda Sum Rule', Eq.(17.65); PDF 554: '= 6t3(k)', Eq.(17.73) 'S_- - S_+ = 3(N - Z)'",
+      "claims_supported": [
+        "电多极跃迁算符M(Elambda, mu)与B(Elambda)定义，初末态统计权与上下行关系 (Eq. 6.4)",
+        "电磁辐射率SI制表达式与精细结构常数化简为第5.9节实用数值常数 C_E2 approx 1.2250e9 (Eq. 6.13–6.14)",
+        "磁偶极算符M(M1, mu)与轨道/自旋自由g因子 (Eq. 6.52–6.60)",
+        "Fermi与Gamow-Teller弱单体算符定义与衰变率常数 (Eq. 7.11–7.14)",
+        "Ikeda差和定则 S_- - S_+ = 3(N-Z) 完备状态闭合推导与系数3来自sigma^2=3 (Eq. 17.65–17.74)"
+      ]
+    },
+    {
+      "source_id": "book-bohr-mottelson-nuclear-structure",
+      "citation_key": "book-bohr-mottelson-nuclear-structure",
+      "canonical_source": "A. Bohr & B. R. Mottelson, Nuclear Structure, Vol. I: Single-Particle Motion, W. A. Benjamin (1969), World Scientific reissue (1998)",
+      "raw_file": "raw/books/nuclear structure Ⅰ_Bohr, Mottelson.pdf",
+      "raw_sha256": "a31a158e0aff2ec6734d46f5aea5eb42dbebb82280835774f49350dd6f8c79df",
+      "actual_read_pages": "Chapter 3, Section 3-3 'Electromagnetic Moments', printed pp. 331–338 (PDF pp. 350–357), Eq.(3-34) & Table 3-2; printed pp. 338–344 (PDF pp. 357–363) for magnetic moments, spin polarization, and MEC",
+      "text_anchor": "(e_{eff})_{E2} = 1/2 (1 - tau_z) + (e_{pol})_{E2}",
+      "claims_supported": [
+        "E2有效电荷定义与核芯巨四极共振(GQR)极化电荷分解 (Eq. 3-34, Table 3-2)",
+        "等标与等矢极化电荷、质中核力吸引导致中子极化电荷接近0.5e",
+        "极化电荷对单粒子轨道束缚能与空间径向弥散的物理依赖性",
+        "介子交换流诱导特定空间轨道g_l出现约-0.10 tau_3等矢位移与一阶核芯自旋极化淬灭g_s"
+      ]
+    },
+    {
+      "source_id": "book-nuclear-shell-model-70-years",
+      "citation_key": "book-nuclear-shell-model-70-years",
+      "canonical_source": "A. Gargano, G. De Gregorio, S. M. Lenzi (eds.), The Nuclear Shell Model 70 Years after Its Advent, MDPI (2023)",
+      "raw_file": "raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf",
+      "raw_sha256": "1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1",
+      "actual_read_pages": "Stuchbery & Wood article, PDF pp. 30, 36–37 (Section 3 & Table 4); Horoi article, PDF pp. 303, 312",
+      "text_anchor": "There are broadly two scenarios to explain the effective charge... coupling of the valence nucleons to collective excitations of the core",
+      "claims_supported": [
+        "壳模型中经验有效电荷的标准取值范围与微观核芯激发机制",
+        "模型空间扩大与有效电荷之间非单调关系的微观物理阐释",
+        "0nu beta beta微观矩阵元在高动量转移下与长程自旋极化解耦的理论依据"
+      ]
+    },
+    {
+      "source_id": "gysbers-2019-ab-initio-beta-decay-quenching",
+      "citation_key": "gysbers-2019-ab-initio-beta-decay-quenching",
+      "canonical_source": "P. Gysbers et al., Nature Physics 15, 428–431 (2019) / arXiv:1903.00047v1",
+      "raw_file": "raw/papers/gpt/query/20261113-A130-axial-currents/gysbers-2019-arxiv1903.00047v1.pdf",
+      "raw_sha256": "f11beb0975ed129c8bbd2addcf1485fb25fa248ec375cb804001a17a96e2e25e",
+      "actual_read_pages": "PDF pp. 1–4, Fig. 1 & Sec. II",
+      "text_anchor": "Missing nuclear correlations... as well as neglected contributions from meson-exchange currents",
+      "claims_supported": [
+        "从头算多体关联与手征弱两体流(2BC)在特定闭壳及邻近核上对GT强度的解释",
+        "弱两体流贡献相对温和稳定，大空间关联对淬灭修正具有主导调制作用",
+        "表明关联与电流必须自洽配套，属于特定模型序列结论非全核区终极共识"
+      ]
+    },
+    {
+      "source_id": "wang-2026-axial-coupling-quenching-joint-effects",
+      "citation_key": "wang-2026-axial-coupling-quenching-joint-effects",
+      "canonical_source": "Bin-Lei Wang et al., arXiv:2605.21218v1 (Dated 20 May 2026); preprint",
+      "raw_file": "raw/papers/gpt/query/20261113-A130-axial-currents/wang-2026-arxiv2605.21218v1.pdf",
+      "raw_sha256": "64b8098517bdf4754ff71d80ab4256aab77102aaa9257390f99db1b3788c0c8d",
+      "actual_read_pages": "PDF pp. 1–2, 4–5, Fig. 3, Table II",
+      "text_anchor": "Summary– We have studied the quenching of the axial-vector current coupling constant gA in beta-decay",
+      "claims_supported": [
+        "RPA+PVC多体关联与手征两体流在双闭壳核(56Ni, 100Sn, 132Sn)中共同调制GT跃迁",
+        "短程项在两体流中占据重要地位，动量依赖项相对次要",
+        "计算对Skyrme能密度泛函与低能常数选择具有一定模型依赖性"
+      ]
+    },
+    {
+      "source_id": "doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives",
+      "citation_key": "doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives",
+      "canonical_source": "Q. Zhi et al., Phys. Rev. C 87, 025803 (2013)",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G34/Zhi_2013_PRC_87_025803_SM_halflives_first_forbidden.pdf",
+      "raw_sha256": "eaedbd4539854e3d1f0e7860ef7ab9c647d4fa44cd8144b4989ba220ec639333",
+      "actual_read_pages": "PDF pp. 4–5, Section II.B, Eq.(16)",
+      "text_anchor": "q(xi' v) = 1.266, q(x) = q(x') = 0.51, q(u) = q(u') = 0.38",
+      "claims_supported": [
+        "一阶禁戒弱衰变算符具有秩与动量依赖性，非单一标量常数",
+        "特定模型空间下类时轴荷算符(gamma_5, rank 0)因软介子交换在介质中显现有效增强",
+        "空间流算符呈现出不同程度淬灭"
+      ]
+    },
+    {
+      "source_id": "engel-menendez-2017-double-beta-matrix-elements-review",
+      "citation_key": "engel-menendez-2017-double-beta-matrix-elements-review",
+      "canonical_source": "J. Engel & J. Menéndez, Rep. Prog. Phys. 80, 046301 (2017)",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-g48-weak-operators/engel-menendez-2017-rpp-0nubb-nme.pdf",
+      "raw_sha256": "813111c10bab58d8d0f19ca91833383a8a521a33c0434b276eacd4fead195417",
+      "actual_read_pages": "PDF pp. 4, 17–18",
+      "text_anchor": "the typical momentum transferred is of the order of p ~ 100 MeV/c... short-range operator",
+      "claims_supported": [
+        "0nu beta beta 特征虚动量转移为 q ~ 100-200 MeV/c",
+        "高动量转移下短程接触算符(Delta L = 2项)起关键作用，长程自旋极化受压制，不可简单套用低能q=0淬灭因子"
+      ]
+    }
+  ],
+  "notations_and_conventions": {
+    "rme_phase": "<j_f m_f | T_{lambda mu} | j_i m_i> = (-1)^{2 lambda} C_{j_i m_i lambda mu}^{j_f m_f} <j_f || T_lambda || j_i> / sqrt(2 j_f + 1), Suhonen Eq.(2.24), 对齐第2.1节",
+    "downward_reduced_probability": "B(sigma lambda; I_i -> I_f) = (2 I_i + 1)^{-1} |<I_f || M(sigma lambda) || I_i>|^2",
+    "e2_rate_constant": "C_E2 approx 1.2250e9 s^{-1} MeV^{-5} (e^2 fm^4)^{-1}, 对齐第5.9节",
+    "m1_rate_constant": "C_M1 approx 1.758e13 s^{-1} MeV^{-3} (mu_N^2)^{-1}, 对齐第5.9节",
+    "isospin_convention": "t_3 |n> = +1/2 |n>, t_3 |p> = -1/2 |p>, t_- |n> = |p>, t_+ |p> = |n>, [t_+, t_-] = 2 t_3"
+  },
+  "claims_and_derivations": [
+    {
+      "id": "CLAIM-2-7-1",
+      "topic": "幺正解耦与有效算符对偶重整化",
+      "derivation_steps": [
+        "定义保范数幺正旋转 H' = U^dagger H U, O' = U^dagger O U, 生成元反厄米 S^dagger = -S",
+        "施加P空间解耦条件 Q H' P = 0",
+        "证明真跃迁矩阵元严格守恒: <Psi_a|O|Psi_b> = <Phi_a|P O' P|Phi_b>",
+        "BCH展开揭示单体算符一般诱导高阶两体与三体项，单体截断产生有效电荷与有效耦合常数"
+      ]
+    },
+    {
+      "id": "CLAIM-2-7-2",
+      "topic": "电四极核芯极化与E2有效电荷微观物理",
+      "derivation_steps": [
+        "指出点核子长波长近似下单中子裸电荷e_n=0与实验测得有限E2强度相矛盾",
+        "引入价核子诱发核芯巨四极共振(GQR)虚激发极化机制",
+        "推导等标与等矢极化电荷分解 e_eff = e_i + delta e_0 + tau_3 delta e_1",
+        "澄清极化电荷对单粒子弱束缚径向弥散的敏感性及模型空间扩大的非单调性"
+      ]
+    },
+    {
+      "id": "CLAIM-2-7-3",
+      "topic": "磁多极M1重整化机制",
+      "derivation_steps": [
+        "分析自由核子g_l与g_s数值及M1跃迁几率定义",
+        "指出带电介子交换流产生空间对流修正，在特定空间中诱发轨道磁因子等矢位移 delta g_l approx -0.10 tau_3",
+        "推导一阶核芯自旋-轨道伴态激发诱发反向极化，导致自旋g_s因子淬灭20%-30%",
+        "将多极混合比delta(E2/M1)反演模型明确移交第5.7节与第5.9节"
+      ]
+    },
+    {
+      "id": "CLAIM-2-7-4",
+      "topic": "Gamow-Teller与Ikeda差和定则严格推导及闭合性破坏",
+      "derivation_steps": [
+        "在球张量表象下定义裸跃迁算符 beta^-_GT(mu) 与其厄米共轭 (-1)^mu beta^+_GT(-mu)",
+        "在全空间完备闭合条件 sum_f |f><f| = 1 下将强度差化为基态对易子期望值",
+        "利用Pauli矩阵在同核子上的标量平方和 sum_mu (-1)^mu sigma_{-mu} sigma_mu = sigma^2 = 3",
+        "求和同位旋对易子 [t_+, t_-] = 2 t_3 严格导出 S_- - S_+ = 6 <T_3> = 3(N - Z)",
+        "解耦纯几何代数和定则与实测衰变率(含g_A^2与f_0)",
+        "证明模型空间截断破坏中间态完备闭合性，且差和中S_-与S_+均有遗漏，非单向必然偏小"
+      ]
+    },
+    {
+      "id": "CLAIM-2-7-5",
+      "topic": "g_A淬灭多源性与非普适性反例",
+      "derivation_steps": [
+        "指出电荷交换反应证实实测GT强度在低能窗通常低于和定则3(N-Z)",
+        "多体组态混合将强度转移至高激发能连续谱区域",
+        "弱两体流(2BC)与Delta_33激发贡献相干负贡献",
+        "Gysbers 2019与Wang 2026指出波函数关联与弱两体流必须配套考虑，但对泛函与低能常数依然保持敏感依赖",
+        "反例1: 一阶禁戒衰变中类时轴荷算符(gamma_5)因软介子流在介质中增强，空间流算符淬灭，证伪单一标量淬灭",
+        "反例2: 0nu beta beta中虚动量转移达100-200 MeV/c，短程算符占优且长程自旋极化解耦，伴随Delta L = 2接触项，严禁直接套用低能单beta淬灭参数"
+      ]
+    }
+  ],
+  "competing_explanations_and_boundaries": [
+    "竞争观点1：历史曾争论g_A淬灭究竟由Delta-h共振单一主导还是纯核多体组态混合主导；现代多体理论确立两者协同作用，从头算与多体计算表明关联与两体流必须配套考虑，但具体贡献分配依模型与有效能标而异。",
+    "竞争观点2：唯象壳模型常采用全局统一的g_A^eff ~ 1.0拟合实验，本节通过一阶禁戒类时轴荷增强与0nu beta beta高动量转移两个严格微观物理反例，确立不能将g_A^eff作普适常数外推的科学边界。",
+    "竞争观点3：直觉常误以为扩大模型空间有效电荷必然单调减小；本节阐明特定侵入轨道引入时微观耦合改变，澄清非单调性。"
+  ],
+  "reader_checks": [
+    "单中子核B(E2)不为零为什么不能归因于中子携带电荷？（答：来自中子强核力诱发的质子核芯巨四极共振相干极化）",
+    "Ikeda和定则中的系数3从何而来？是否代表只有3个中子参与衰变？（答：来自三维空间Pauli自旋矩阵标量平方和sigma^2 = sigma_x^2 + sigma_y^2 + sigma_z^2 = 3，是三维旋转空间几何对称性，非中子数统计；其在旋量空间的代数迹为6）",
+    "为什么不能把低能beta衰变拟合得到的g_A^eff ~ 1.0直接用到0nu beta beta计算中？（答：0nu beta beta虚中微子交换特征动量转移高达100-200 MeV/c，探测1-2 fm短程接触电流，长程自旋极化受压制，长程低能淬灭机制在此解耦，且包含额外的Delta L = 2接触项）"
+  ],
+  "prohibitions_strictly_obeyed": [
+    "未引入任何虚构的个人实验数据或用户装置结果",
+    "未直接修改公共Biblio/ref.bib或公共工程配置，新条目独立写至G84/new-references.bib交G76整合",
+    "未改动其他章节文件或共享system/memory.md/PLAN.md",
+    "严格核验并纠正了E2率系数单位与SI制1/(4 pi epsilon_0)电荷约定的对应关系，并与第5.9节完全对齐",
+    "所有引文来源均具备真实核验的PDF页码与text anchor，未发明假冒教材页码",
+    "严格删除了所有夸大、煽情与绝对化措辞（如震撼、极其、剧烈、非人物理、自相矛盾等）"
+  ],
+  "open_issues": []
+}

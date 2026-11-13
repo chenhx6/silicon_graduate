@@ -1,0 +1,184 @@
+{
+  "executor": "G87 (Gemini Tiered/high)",
+  "timestamp": "2026-11-13T13:45:00+00:00",
+  "section_id": "4.8",
+  "title": "环境和形成路径怎样改变可见性",
+  "section_label": "sec:4-8",
+  "contract_status": "ready-for-execution",
+  "execution_domain": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G87/",
+  "canonical_targets": {
+    "canonical_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-8.tex",
+    "evidence_ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-8.json",
+    "staging_tex": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G87/staging/sec-4-8.tex",
+    "new_references_bib": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G87/new-references.bib"
+  },
+  "reader_starting_point": "读者在第4.6节中掌握了同核异能态的四大微观阻碍机制（自旋陷阱、Seniority相消、K禁戒与形状异能态），在第4.7节理解了弱衰变与有效算符。读者容易产生一种静态孤立假定：一个在冷真空环境下长寿命的异能态，是否在高温天体等离子体、强电离原子电荷态或重离子熔合反应中，必然表现出相同的寿命、存活性或大生成截面？本节打破这一静态假定，系统阐释环境条件与反应形成动力学如何动态重塑能态的物理可见性。",
+  "submodules": [
+    {
+      "id": "4.8.1",
+      "title": "热环境开放网络与有效存活",
+      "label": "sec:4-8-1",
+      "core_argument": "冷态真空寿命不等于高温等离子体中的有效存活。建立开放速率网络方程 dN/dt = A(T, n_e, ...) N + P(t)，非对角项表示成对跃迁率（>=0），对角项严格包含所有外流损耗与弱衰变/反应漏失（weak/reaction sinks）。严格推导成对可逆电磁跃迁在Planck热辐射浴下的微观详细平衡，揭示详细平衡严格受限于可逆电磁辐射场，不能向不可逆弱衰变与逃逸通道盲目推广；Boltzmann占据并不等价于全网络已达到热平衡。通过两簇/桥态模型导出有效弛豫特征值与热化时间尺度，阐明热化取决于桥态跃迁率与破坏/动力学输运时间的竞争，拒绝制造普适临界温度。",
+      "primary_sources": [
+        {
+          "key": "doctoral-r1-g33-gintautas-2009-176lu-thermal-equilibration",
+          "raw_path": "raw/papers/gpt/query/20261108-foundations-G33/gintautas-2009-176lu-thermal-equilibration.pdf",
+          "page_count": 9,
+          "pages": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "anchor": "PDF pp. 4-5, Eqs. (16)-(27), Table I, Fig. 3: 176Lu K-mixing via 838.6 keV (5-) and 724.7/725.2 keV (7-) intermediate states; delta Ex = 517 eV, V matrix element scan; T_9 = 0.25, mixing prob 9.40e-5, equilibration time ~ 10^5 s."
+        },
+        {
+          "key": "doctoral-r1-g33-gosselin-2010-plasma-isomers-176lu-180ta",
+          "raw_path": "raw/papers/gpt/query/20261108-foundations-G33/gosselin-2010-176lu-180ta-plasma-transitions.pdf",
+          "page_count": 10,
+          "pages": [
+            1,
+            2,
+            3,
+            7
+          ],
+          "anchor": "PDF pp. 1-3, 7, Sec. II, Sec. IV: plasma electronic process modifications in 176Lu and 180Ta; delta E = 72 keV transition from 594 keV IMS in 180Ta enhanced by > factor 2, but overall stellar rate lambda* governed by weak 357 keV branch (local enhancement != global network acceleration)."
+        }
+      ]
+    },
+    {
+      "id": "4.8.2",
+      "title": "核与电子通道竞争：核钟跃迁与诱发退激争议",
+      "label": "sec:4-8-2",
+      "core_argument": "区分核跃迁内禀矩阵元/辐射宽度与原子/电子环境决定的总可观测量（寿命、内转换系数ICC）。清晰分离自发辐射、受激辐射、内转换(IC)、电子俘获核激发(NEEC)、非弹性电子散射核激发(NEIES)与电子跃迁核激发(NEET)的物理机制与选择定则，明确NEEC（连续电子共振捕获至束缚态空轨道）与NEIES（连续电子非弹性散射，非共振阈值连续谱）在物理上绝非同义。以229Th核钟（8.34 eV极低激发能）在电中性原子（微秒级IC）与宽禁带晶体/高电荷态离子（数百秒级纯辐射衰变，Kraemer 2023）为范例，阐明环境改变量纲寿命10^8倍而核本征形变完全不改变；以93mMo NEEC争议（Chiara 2018最初报道1%诱发耗散率，Wu 2019理论预言仅10^-11，Guo 2021揭示复杂γ本底污染，Guo 2022反冲异能束实测给出上限 < 2e-5）为范例，严格区分理论计算可能性、历史初步信号与决定性实验上限，杜绝将模型推演包装为实验定论。",
+      "primary_sources": [
+        {
+          "key": "beeks-2021-thorium-229-isomer-nuclear-clock",
+          "raw_path": "raw/papers/isomer/isomer_application/nuclear_clock/2021_Beeks et al_The thorium-229 low-energy isomer and the nuclear clock.pdf",
+          "page_count": 11,
+          "pages": [
+            1,
+            4,
+            5,
+            6
+          ],
+          "anchor": "PDF pp. 4-6: 229Th 8.28(17) eV isomer, internal conversion in neutral Th atom (microsecond scale), electronic resonance mechanisms (NEET/EB) in Th+ and Th35+."
+        },
+        {
+          "key": "kraemer-2023-radiative-decay-229th-isomer",
+          "raw_path": "raw/papers/isomer/isomer_application/nuclear_clock/2023_Kraemer et al_Observation of the radiative decay of the 229Th nuclear clock isomer.pdf",
+          "page_count": 13,
+          "pages": [
+            1,
+            2,
+            3
+          ],
+          "anchor": "Nature 617, 706 (2023), PDF pp. 1-3: direct observation of 229mTh radiative decay in CaF2/MgF2 crystals; E_iso = 8.338(24) eV (lambda = 148.71(42) nm), radiative lifetime tau = 670(102) s (T_1/2 = 464(71) s); IC completely suppressed by crystal bandgap."
+        },
+        {
+          "key": "chiara-2018-mo93m-isomer-depletion-neec",
+          "raw_path": "raw/papers/isomer/isomer_application/nuclear battery/2018_Chiara et al_Isomer depletion as experimental evidence of nuclear excitation by electron capture.pdf",
+          "page_count": 10,
+          "pages": [
+            1,
+            2,
+            3
+          ],
+          "anchor": "Nature 554, 216 (2018), PDF pp. 1-3: reported 93mMo isomer depletion P_exc = 0.010(3) via 4.85 keV intermediate state using beam stopping in CH2/C foil."
+        },
+        {
+          "key": "wu-2019-mo93m-neec-stopping-theory",
+          "raw_path": "raw/papers/isomer/isomer_application/nuclear battery/2019_Wu et al_Mo 93 m Isomer Depletion via Beam-Based Nuclear Excitation by Electron Capture.pdf",
+          "page_count": 6,
+          "pages": [
+            1,
+            2,
+            3
+          ],
+          "anchor": "PRL 122, 212501 (2019), PDF pp. 1-3: theoretical calculation of beam-based NEEC depletion for 93mMo gives P_NEEC ~ 10^-11, 9 orders of magnitude smaller than Chiara et al."
+        },
+        {
+          "key": "guo-2021-mo93m-depletion-contamination-challenge",
+          "raw_path": "raw/papers/isomer/isomer_application/nuclear battery/2021_Guo et al_Possible overestimation of isomer depletion due to contamination.pdf",
+          "page_count": 4,
+          "pages": [
+            1,
+            2
+          ],
+          "anchor": "Nature 594, E1 (2021), PDF pp. 1-2: Matters Arising on Chiara 2018; demonstration of prompt gamma background, random coincidences, and unexcluded cascade feeding contaminating the 268 keV gate."
+        },
+        {
+          "key": "guo-2022-mo93m-isomer-beam-depletion-limit",
+          "raw_path": "raw/papers/isomer/isomer_application/nuclear battery/2022_Guo et al_Probing Mo 93 m Isomer Depletion with an Isomer Beam.pdf",
+          "page_count": 6,
+          "pages": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "anchor": "PRL 128, 242502 (2022), PDF pp. 1-2, 4-5: clean isomer beam experiment of 93mMo at ATLAS; no depletion observed, setting upper limit P_exc < 2e-5 (95% CL)."
+        },
+        {
+          "key": "book-jain-nuclear-isomers",
+          "raw_path": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+          "page_count": 151,
+          "pages": [
+            121,
+            144,
+            145
+          ],
+          "anchor": "PDF pp. 121, 144-145 (printed pp. 119, 136-137): Sec. 7.3 (229Th ELE isomer), Sec. 8.1.7 (Isomer depletion by external triggers, Chiara vs Wu discussion)."
+        }
+      ]
+    },
+    {
+      "id": "4.8.3",
+      "title": "重离子完全熔合形成与存活几率",
+      "label": "sec:4-8-3",
+      "core_argument": "在重离子熔合蒸发反应中建立蒸发剩余核(ER)截面的三阶段分波公式：sigma_ER(E) = sum_J sigma_cap(E, J) P_CN(E, J) W_sur(E*, J)。严格声明自旋耦合约束，若sigma_cap已含(2J+1)权重则绝不重复相乘；无自旋弹靶入射体系中J=l。逐阶段解构物理不确定度：入射势垒穿透(sigma_cap)受道耦合与静态/动力学形变控制；复合核形成几率(P_CN)受多维势能面耗散演化与准裂变(QF)剧烈竞争控制；存活几率(W_sur)在统计模型下由逐级中子蒸发分宽比 Gamma_n / (Gamma_n + Gamma_f + Gamma_p + Gamma_alpha + Gamma_gamma) 与裂变位垒壳修正阻尼控制，以 hbar lambda = Gamma 连接宽度与寿命，随蒸发步逐步更新剩余激发能与角动量 (E*, J)。基于Xu 2004超重高K异能态研究，深刻揭示一个常见认识误区：异能态的冷态长寿命或高裂变位垒（配对阻塞使 Delta B_f ~ 1-3 MeV）并不直接导致反应截面增大或天体丰度提高，必须严格区分布居截面、蒸发级联馈入(feeding)、不可逆损耗与探测时间窗口过滤。",
+      "primary_sources": [
+        {
+          "key": "zagrebaev-2001-superheavy-synthesis-survival",
+          "raw_path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.65.014607.pdf",
+          "page_count": 14,
+          "pages": [
+            1,
+            2,
+            6,
+            7,
+            10
+          ],
+          "anchor": "Phys. Rev. C 65, 014607 (2001), PDF pp. 1-2, 6-7: Eq. (1) three-stage partial-wave decomposition sigma_ER = pi hbar^2 / (2 mu E) sum_l (2l+1) T(E, l) P_CN(E, l) W_sur(E*, l); Eq. (10) stepwise neutron evaporation cascade convolution with Gamma_n/Gamma_tot."
+        },
+        {
+          "key": "xu-2004-superheavy-high-spin-isomer-stability",
+          "raw_path": "raw/papers/isomer/isomer_application/superheavy_nuclei/2004_Xu et al_Enhanced Stability of Superheavy Nuclei Due to High-Spin Isomerism.pdf",
+          "page_count": 4,
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "anchor": "Phys. Rev. Lett. 92, 252501 (2004), PDF pp. 1-4: multi-quasiparticle high-K isomers in superheavy nuclei (270Ds, 250No); enhanced fission barrier Delta B_f ~ 1-3 MeV due to pairing blocking and specialization energy; distinction between isomer intrinsic stability and compound nucleus synthesis cross section."
+        }
+      ]
+    }
+  ],
+  "prohibitions_strictly_obeyed": [
+    "绝对不派生子代理（no sub-agents）",
+    "绝对不自行执行 git commit 或 git push",
+    "绝对不自行执行主工程编译（no main engine compile）",
+    "绝对不修改公共包装文件（Thesis.tex, Chapter4.tex, Style/*, Biblio/ref.bib 等）",
+    "绝对不修改其他写者的独占文件与工作区",
+    "严禁将成对EM详细平衡泛化为全网络热平衡或向不可逆弱衰变外推",
+    "严禁虚构普适临界热化温度，严格基于特征时间尺度竞争判定",
+    "严禁混淆核内禀跃迁矩阵元与原子/电子环境决定的外在寿命/ICC",
+    "严禁混淆NEEC（共振捕获至束缚态空穴）与NEIES（非共振非弹性散射连续谱）",
+    "严禁将93mMo历史初步阳性信号或理论计算可能性升格为实验证实",
+    "严禁在分波熔合截面中将 (2J+1) 权重重复相乘两次",
+    "严禁从异能态冷态长寿命或高裂变位垒直接推论熔合截面增大或天体丰度增加",
+    "TeX正文中严禁出现 Markdown ** 语法，严格检查 C0 控制字符与 LaTeX 符号转义"
+  ]
+}

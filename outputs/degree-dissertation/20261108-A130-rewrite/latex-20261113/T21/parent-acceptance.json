@@ -1,0 +1,66 @@
+{
+  "status": "accepted-narrow-review-findings; canonical4.7/D not accepted",
+  "at_utc": "2026-11-13T16:06:02.533457+00:00",
+  "raw_verification": [
+    {
+      "source_id": "dimitriou-2021-beta-delayed-neutron-reference-database",
+      "path": "raw/papers/gpt/query/20261108-r3-g52-beta-delayed-particles/dimitriou-2021-iaea-beta-delayed-neutron-database.pdf",
+      "hash_matches": true,
+      "size_matches": true
+    },
+    {
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "hash_matches": true,
+      "size_matches": true
+    },
+    {
+      "source_id": "doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives",
+      "path": "raw/papers/gpt/query/20261108-foundations-G34/Zhi_2013_PRC_87_025803_SM_halflives_first_forbidden.pdf",
+      "hash_matches": true,
+      "size_matches": true
+    },
+    {
+      "source_id": "wang-2026-axial-coupling-quenching-joint-effects",
+      "path": "raw/papers/gpt/query/20261113-A130-axial-currents/wang-2026-arxiv2605.21218v1.pdf",
+      "hash_matches": true,
+      "size_matches": true
+    },
+    {
+      "source_id": "engel-menendez-2017-double-beta-matrix-elements-review",
+      "path": "raw/papers/gpt/query/20261108-r3-g48-weak-operators/engel-menendez-2017-rpp-0nubb-nme.pdf",
+      "hash_matches": true,
+      "size_matches": true
+    },
+    {
+      "source_id": "cirigliano-2018-leading-short-range-double-beta",
+      "path": "raw/papers/gpt/query/20261108-r3-t07-weak-renormalization/cirigliano-2018-prl120-202001-arxiv-1802.10097v1.pdf",
+      "hash_matches": true,
+      "size_matches": true
+    },
+    {
+      "source_id": "book-jain-nuclear-isomers",
+      "path": "raw/books/nuclear isomer - A Prime.pdf",
+      "hash_matches": true,
+      "size_matches": true
+    },
+    {
+      "source_id": "book-bertulani-nuclear-reactions",
+      "path": "raw/books/Introduction to Nuclear Reactions (C.A. Bertulani P. Danielewicz) (Z-Library).pdf",
+      "hash_matches": true,
+      "size_matches": true
+    }
+  ],
+  "independent_replay": {
+    "command": "python3 -B outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T21/validation.py",
+    "exit_status": 0,
+    "results_sha256": "796fdd3927a4e28818086ecc8d2812082c7288a8954e83b152eb66e8de4a7074"
+  },
+  "parent_reading": [
+    "SuhonenPDF556/printed545 Eqs17.83–84: active-nucleon pnQTDA sum and spin-orbit-partner closure requirement.",
+    "BertulaniPDF4–5 title/copyright:2021 second edition confirmed; source identitybook-bertulani-nuclear-reactions.",
+    "Explicit one-neutron path must shift counting index; arbitrary initial Ji requires statistical average inRME strength."
+  ],
+  "canonical_disposition": "GeminiG96 owns4.7/D repairs and exact2.7 convention bridge; frozenE retained only provenance, excluded from review.",
+  "boundary": "No claim that wholeD, unfrozen2.7 or any experimental spectrum has been certified."
+}

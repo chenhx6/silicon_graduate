@@ -1,0 +1,42 @@
+[
+  {
+    "source_id": "karmakar-2025-2026-98mo-octupole-preview",
+    "raw_file": "raw/papers/⁹⁸Mo A possible candidate for octupole collectivity in A ≈ 100 region.pdf",
+    "matches_canonical": true
+  },
+  {
+    "source_id": "saracino-2026-102ru-scissors-octupole-resonances",
+    "raw_file": "raw/papers/Low-Energy Dipole Strength Distribution in ¹⁰²Ru Coexistence of Scissors and Octupole Resonances.pdf",
+    "matches_canonical": true
+  },
+  {
+    "source_id": "matta-2015-transverse-wobbling-135pr",
+    "raw_file": "raw/papers/2015_Matta et al_Transverse Wobbling in Pr 135.pdf",
+    "matches_canonical": true
+  },
+  {
+    "source_id": "lv-2022-evidence-against-wobbling-135pr",
+    "raw_file": "raw/papers/2022_Lv et al_Evidence against the wobbling nature of low-spin bands in 135Pr.pdf",
+    "matches_canonical": true
+  },
+  {
+    "source_id": "lawrie-2020-tilted-precession-wobbling",
+    "raw_file": "raw/papers/2020_Lawrie et al_Tilted precession and wobbling in triaxial nuclei.pdf",
+    "matches_canonical": true
+  },
+  {
+    "source_id": "nomura-2022-questioning-wobbling-ibfm",
+    "raw_file": "raw/papers/2022_Nomura et al_Questioning the wobbling interpretation of low-spin bands in γ -soft nuclei within the interacting b.pdf",
+    "matches_canonical": true
+  },
+  {
+    "source_id": "frauendorf-2014-transverse-wobbling",
+    "raw_file": "raw/papers/2014_Frauendorf_Dönau_Transverse wobbling.pdf",
+    "matches_canonical": true
+  },
+  {
+    "source_id": "ding-2025-chiral-rotation-a60-residual-interactions",
+    "raw_file": "raw/papers/Exploring chiral rotation in A ≈ 60 nuclei  Role of residual interactions.pdf",
+    "matches_canonical": true
+  }
+]

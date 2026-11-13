@@ -1,0 +1,67 @@
+{
+  "test_jordanov": {
+    "M": 4999.500016666951,
+    "expected_peak": 1000100003.3333901,
+    "max_flat_top_dev": 5.245208740234375e-06,
+    "rel_flat_top_error": 5.244684254326364e-15,
+    "max_diff_conv": 5.602836608886719e-06,
+    "status": "passed"
+  },
+  "test_baseline": {
+    "BL": 250.0,
+    "baseline_residual": 0.0,
+    "flat_top_dev": 5.245208740234375e-06,
+    "rel_dev": 5.244684254326364e-15,
+    "status": "passed"
+  },
+  "test_cfd": {
+    "zc_amp1000": 230.99001300563455,
+    "zc_amp5000": 230.99001300563455,
+    "time_walk_ns": 0.0,
+    "status": "passed"
+  },
+  "test_mismatch": {
+    "inputs": "positive pure exponential; four-step trapezoid, no physical detector fit",
+    "cases": {
+      "0.8": {
+        "adopted_alpha": 0.9975037452142635,
+        "true_alpha": 0.9980019986673331,
+        "tail_sample": 109476.29816655116
+      },
+      "1.2": {
+        "adopted_alpha": 0.9983344442590125,
+        "true_alpha": 0.9980019986673331,
+        "tail_sample": -109476.29816655128
+      }
+    },
+    "status": "passed"
+  },
+  "test_secant_leading": {
+    "shape": "smooth quadratic C(t), root0; arbitrary compatible time units",
+    "samples": [
+      {
+        "Ts": 0.02,
+        "error": -3.349282296650699e-05,
+        "leading": -3.36e-05
+      },
+      {
+        "Ts": 0.01,
+        "error": -8.386581469648022e-06,
+        "leading": -8.4e-06
+      },
+      {
+        "Ts": 0.005,
+        "error": -2.09832134292565e-06,
+        "leading": -2.1e-06
+      }
+    ],
+    "status": "passed"
+  },
+  "all_passed": true,
+  "boundary": "Finite mathematical controls; no detector/FPGA/experimental certification.",
+  "provenance": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "script_sha256": "67280c67c236bcaa1848b83eb662ad5f7d846fbef6e597b6acc7329b4a3a99ad"
+  }
+}

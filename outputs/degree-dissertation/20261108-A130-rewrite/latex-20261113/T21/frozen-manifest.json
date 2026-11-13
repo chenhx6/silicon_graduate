@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-11-13T15:38:44.795451+00:00",
+  "files": [
+    {
+      "canonical": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-7.tex",
+      "snapshot": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T21/sec-4-7.frozen.tex",
+      "size": 24644,
+      "sha256": "5a1986c39b4557d02643a99c3f8797a642989323dd31569036ac99d02bb7f051"
+    },
+    {
+      "canonical": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-7.json",
+      "snapshot": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T21/section-4-7.frozen.json",
+      "size": 12047,
+      "sha256": "f64829712c7e1c3b176c98df6f9d055056b69eadace07512dd5eae668b406fb1"
+    },
+    {
+      "canonical": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixE.tex",
+      "snapshot": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T21/AppendixE.frozen.tex",
+      "size": 22761,
+      "sha256": "d7d29150e8737900e5f22675eff7f5f2d3aea1f64f0b59f9043fbeff4b2b8f03"
+    },
+    {
+      "canonical": "raw/writing/gpt/A130/latex-evidence-ledger/appendix-E.json",
+      "snapshot": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T21/appendix-E.frozen.json",
+      "size": 7002,
+      "sha256": "cce48c44f23d3031766e8954bf12c4adcbd0caea426221e392427c3ba857ab3d"
+    },
+    {
+      "canonical": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixD.tex",
+      "snapshot": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T21/AppendixD.frozen.tex",
+      "size": 27527,
+      "sha256": "dac7eae1a7f9aaaccbf00da28d14d90e87d3fdb16e24a412993c14b5b57a70f4"
+    },
+    {
+      "canonical": "raw/writing/gpt/A130/latex-evidence-ledger/appendix-D.json",
+      "snapshot": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T21/appendix-D.frozen.json",
+      "size": 8702,
+      "sha256": "7794bd1e5def8f37d5f2ce46d0cf43ffba0442b7f98fe4b0e5b5ebef4ea0c76b"
+    }
+  ],
+  "boundary": "Frozen technical review inputs, not scientific sources.",
+  "scope_correction": "Weak-operator and cascade appendix is D, not E; E frozen bytes retained for provenance but excluded from T21 physical audit."
+}

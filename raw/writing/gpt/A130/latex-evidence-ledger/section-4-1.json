@@ -93,10 +93,12 @@
     "scope": "Corrected remaining angle endpoint/E0 charge factor, nonuniversal comparison/ranking, theory-columnQs, Ni shape assignment andE0bounds, Thomas adopted/unobserved branch; rebuilt stale canonical claims from primarychecks.; finalprimaryTableI/CriderTable1 bounds and shapeassignments, adoptedThomasXMLline clarified."
   },
   "parent_final_tex_sha256": "7a02be95e87366009872a6395728341caf697f604dc99dcb2badc8d164831cfa",
-  "integration_status": "included-in27-section-clean-preview",
+  "integration_status": "included-in-final39-A-F-clean-build",
   "parent_table_reconciliation": {
     "A60": "Ni68 E0 entries are limits and shape assignments are model interpretations, not measured strong E0 proving three shapes.",
     "A160": "Selected Lu configuration usespi i13/2; no universal regional orbit occupation.",
     "basis": "Crider2016原PDF2/4和existing Lu sources; agrees with body/source limits."
-  }
+  },
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-1.tex",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
 }

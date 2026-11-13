@@ -1,0 +1,59 @@
+{
+  "section": "5.6",
+  "title": "符合矩阵与能级建立",
+  "worker": "G93",
+  "status": "ready_for_parent_review",
+  "target_latex": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-6.tex",
+    "sha256": "cf449908577027492e32a9d843fe4fd634023e9f464d6ad45d16b4d6e81a42f6"
+  },
+  "staged_latex": {
+    "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G93/staged-sec-5-6.tex",
+    "sha256": "cf449908577027492e32a9d843fe4fd634023e9f464d6ad45d16b4d6e81a42f6"
+  },
+  "ledger": {
+    "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-6.json",
+    "sha256": "55ee3a9dc3bb6757fe1880ae4040deca1540092e91e6529137ec16f90eb56fea"
+  },
+  "figure_producer": {
+    "path": "system/scripts/a130_coincidence_topology_figure.py",
+    "sha256": "553fb6f97f6bc2bd4ee27885ad109c2c659e40a9faafda70891410ea9d16525e"
+  },
+  "figures": {
+    "svg": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/coincidence-level-scheme-model.svg",
+      "sha256": "7765b0b7979cec8453be3c4e479ba5c5d75b0a823717a4a2bb82e61a943db177"
+    },
+    "pdf": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/coincidence-level-scheme-model.pdf",
+      "sha256": "fe44a04ad8f5e84d714d040494e5710bd8d7b1d48e64eac3786b25ed21cec320"
+    }
+  },
+  "figure_manifest_fragment": {
+    "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G93/figure-manifest-fragment-5-6.json",
+    "sha256": "f9ebfc3eeb1fbb1a9ac41bf369c3f1ffcbefee2e1424f97628eed22509ee9bde"
+  },
+  "new_references_bib": {
+    "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G93/new-references-5-6.bib",
+    "sha256": "3de00a326646abe9ccd5b6b0ac30191ab62f4069277069cd816685bcc9d6f8da"
+  },
+  "research_note": {
+    "path": "knowledge/research-notes/a130-rewrite-spectroscopy-methods-20261113.md",
+    "sha256": "8c68fe154ca12bf451e681263ff1bc8a9d47057c0a6a5dd9cd243b6754c99f1f"
+  },
+  "counts": {
+    "equations": 9,
+    "figures": 1,
+    "tables": 0,
+    "citations": 3,
+    "claims": 4
+  },
+  "parent_round2_items_addressed": {
+    "56-1": "Distinguished population theoretical variance Var(S)=mu_P + a^2 mu_R from sample plug-in estimator widehat{Var}(S)=P + a^2 R; formulated first-order Delta expansion when a is fitted from spectra; noted multi-event or weighted symmetric matrix grid counts are not automatically independent Poisson point processes.",
+    "56-2": "Formulated background gating subtraction with count densities B_L/w_L and B_R/w_R, linearly interpolated to peak center e0 with weights lambda_L and lambda_R and scaled by peak gate width w_p; demonstrated exact dimensional consistency (counts) and reduction to equal-width symmetric formula without unit ambiguity.",
+    "56-3": "Verified original physical PDF pp. 62–63 (printed pp. 51–52) of Wakudyanaye 2022 thesis (Fig. 5.2 & Sec. 5.2.2); distinguished ideal topological anti-coincidence in decay graph from experimental non-observation of peaks bounded by detection sensitivity, efficiency, and branching limits.",
+    "56-4": "Stated that true coincidence establishes network connectivity after controlling for reaction contaminants, accidental summing, and detector crosstalk, but does not prove same-nucleus origin alone or direct cascade adjacency; clarified that spin/parity assignment from angular distributions, DCO, and Compton polarization asymmetry does not universally require measuring absolute level lifetimes.",
+    "56-5": "Clarified that stationary total intensity balance holds in true closed steady state, whereas apparent inflow/outflow mismatches from long-lived isomers (tau > Delta T_coin) arise specifically from truncation by finite observation windows or non-stationary beam pulsing; defined recoil difference Delta E_recoil = E_crossover^2/(2Mc^2) - sum E_k^2/(2Mc^2) > 0 in Ritz combination principle.",
+    "56-6": "Verified Xiao Xiao 2019 Master thesis metadata and physical PDF pp. 23–26 (printed pp. 15–18); eliminated duplicate phrases (特定特定); updated figure producer and caption to clearly state educational model role and sensitivity boundaries."
+  }
+}

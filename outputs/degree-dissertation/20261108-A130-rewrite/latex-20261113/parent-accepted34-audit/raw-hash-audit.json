@@ -1,0 +1,23 @@
+{
+  "session_date": "2026-11-14",
+  "machine_at_utc": "2026-11-13T18:07:34.373402+00:00",
+  "accepted_body_sections": 34,
+  "appendix_ledger_files": [
+    "raw/writing/gpt/A130/latex-evidence-ledger/appendix-A.json",
+    "raw/writing/gpt/A130/latex-evidence-ledger/appendix-B.json",
+    "raw/writing/gpt/A130/latex-evidence-ledger/appendix-E.json",
+    "raw/writing/gpt/A130/latex-evidence-ledger/appendix-F.json"
+  ],
+  "raw_hash_occurrences": 184,
+  "unique_raw_paths": 91,
+  "issues": [],
+  "boundary": "Hash audit proves bytes match registered expected values only; no new source-identity or locator certification. Reused experiment dependence remains.",
+  "hex_case_only": [
+    {
+      "locator": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-1.json/sources/2",
+      "raw_file": "raw/papers/1966_Diamond et al_Nuclear Alignment in Heavy-Ion Reactions.pdf",
+      "expected": "06FB82ECEBC0F1DA5441CAA5FB9272D481F469B1B39F402342AD31C8E55C8614",
+      "actual": "06fb82ecebc0f1da5441caa5fb9272d481f469b1b39f402342ad31c8e55c8614"
+    }
+  ]
+}

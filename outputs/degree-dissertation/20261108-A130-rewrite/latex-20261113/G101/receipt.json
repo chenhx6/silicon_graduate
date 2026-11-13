@@ -1,0 +1,29 @@
+{
+  "task": "G101 R3 (Appendix F and 19-figure provenance staging for 39-section dissertation - R3 Section 5.10 update)",
+  "worker": "G90 (assigned to G101)",
+  "model": "Gemini Tiered/high",
+  "status": "COMPLETED_STAGING_R3",
+  "recorded_at": "2026-11-14T03:55:00Z",
+  "staging_files": {
+    "tex": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G101/AppendixF.staging.tex",
+      "sha256": "1b1747284179cd0cc0f7883964a16e936ab6da32b06de75487416f034915899e",
+      "lines_count": 215
+    },
+    "manifest": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G101/figure-manifest.staging.json",
+      "sha256": "580d39beed6e4820ae17fbdd66c4e81e7cb8cd1beb85193a1f1137e23736be1a",
+      "total_figures": 19
+    },
+    "ledger": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G101/appendix-F-ledger.staging.json",
+      "sha256": "d8fc3619a0c4d5e3af50d54891512986c59b2bd5b993605af0fead11cb59e6a0"
+    }
+  },
+  "updates_in_r3": {
+    "section_5_10_figure_refresh": "已精确捕获父接受后重绘的 inference-profile-likelihood-boundary 最终图件与 producer SHA (PDF: 397df4493748 / SVG: d5c97b908032 / 脚本: 6fb04929c007)；正文与台账严格保持『合成示意、没有 FC 覆盖仿真』的科学定性。",
+    "fourth_finite_control_added": "在附录 F 第 5 节有限算法控制层补充第 4 项控制：统计推断轮廓剖面代数控制 (a130_inference_figure_control.py 与 results.json，6 项测试全通)，明确声明其为绘制曲线数值代数控制，非置信区间覆盖检验。",
+    "angular_branch_status": "5.7 节刚由 G100 交待父验，当前清单已记录最新磁盘快照 SHA (PDF: e199e630eb4b / SVG: 7e9bd88736d7)，待父总控最终验收 5.7 时统一刷新归档。"
+  },
+  "twelve_parent_requirements_status": "全数保持严格闭合（longtable 跨页、12位短哈希、模式描述严谨无夸大、物理边界准确对齐正文图注）。"
+}

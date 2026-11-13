@@ -1,0 +1,165 @@
+{
+  "report_id": "G86-parent-return-v2-fixed",
+  "timestamp": "2026-11-13T12:45:00+00:00",
+  "executor": "G86",
+  "status": "corrections-applied-and-verified",
+  "summary": "针对父级对4.1、4.2、4.3初稿的专项抽查意见进行逐项原件核对、数据定点纠错与认识论边界重塑。彻底消除二手数据混淆，完全按照实际PDF原件表与正文订正。严禁执行根目录latexmk，统一交付G76集中编译；4.8按指示暂缓推进。",
+  "items_fixed": [
+    {
+      "item_id": "Item_A_Clement2007_Kr",
+      "section": "4.2",
+      "topic": "74,76Kr多步库仑激发静四极矩与两态混合模型",
+      "critique": "Clément2007原作PDF11 TableVI：76Kr2_1 Qs=−0.7(2)eb；PDF15 TableXI：74Kr2_1 Qs=−0.53(+0.24/-0.23)eb（RME−0.70...）。初稿写74Kr+0.59扁/76Kr−0.57并宣称长扁反转不符原表；不能将2+静矩直接当0+基态一阶矩。",
+      "original_paper": "E. Clement et al., Phys. Rev. C 75, 054313 (2007)",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G27/clement-2007-74kr-76kr-coulex-prc.pdf",
+      "raw_sha256": "2ee6c7be8a2fbb72a9f647a0c284181b2fc197e167381be67685f3a15018c0e8",
+      "pdf_pages": [
+        11,
+        15
+      ],
+      "print_pages": [
+        "054313-11",
+        "054313-15"
+      ],
+      "table_numbers": [
+        "Table VI (76Kr)",
+        "Table XI (74Kr)"
+      ],
+      "exact_text_anchor": "PDF 11 Table VI: Q_s(2+_1) = -0.7(2) eb, RME = -0.9(3) eb; PDF 15 Table XI: Q_s(2+_1) = -0.53(+0.24/-0.23) eb, RME = -0.70(+0.31/-0.30) eb",
+      "actual_tex_anchor": "sec-4-2.tex 第4.2.3小节：'在 76Kr 中，原件 PDF 第 11 页 Table VI 列出的实验结果为：2+_1 态的静四极矩为 Qs(2+_1) = -0.7(2) eb；在更缺中子的 74Kr 中，原件 PDF 第 15 页 Table XI 列出的实验拟合结果为：2+_1 态的静四极矩为 Qs(2+_1) = -0.53(+0.24/-0.23) eb。由此可见，实验直接测得的两核 2+_1 态静四极矩中心值均为负值。'",
+      "action_taken": "彻底删除虚假 +0.59 / -0.57 数值；明确 0+ 基态在实验室系由角动量守恒决定其一阶静四极矩严格为 0；按 Clément (2007) 原作真实能带混合模型解释，说明形状共存判定基于未微扰长椭与扁椭能带的全局多态混合反演，而非单个 2+ 态静矩的孤立正负符号。"
+    },
+    {
+      "item_id": "Item_B_Saracino2026_Ru102",
+      "section": "4.3",
+      "topic": "102Ru NRF 测量低能 E1/M1 强度分布与多尺度解耦",
+      "critique": "102Ru原作PDF3明确2.95MeV B(E1)↑=0.016 e²fm²、4.5–5.5MeV在4.9MeV聚集Σ≈0.1；PDF5总观测M1=1.7 muN²（PDF3约2–4MeV局部≈1，区间不可混）。初稿给0.36/13.8e−3/2.0–3.8MeV不是此文对应量。原作PDF6仅『2.95 may quadrupole-octupole two-phonon』，约5MeV八极解释是作者结合模型，不是E1本身直接实测E3静态变形。",
+      "original_paper": "A. Saracino et al., Phys. Rev. Lett. 136, 252501 (2026)",
+      "raw_file": "raw/papers/Low-Energy Dipole Strength Distribution in ¹⁰²Ru Coexistence of Scissors and Octupole Resonances.pdf",
+      "raw_sha256": "4bc6bb6c613b121bae9def9d9bedf37e9c02db89eca265c4c16d5dd9ecf43a89",
+      "pdf_pages": [
+        3,
+        5,
+        6
+      ],
+      "print_pages": [
+        "252501-3",
+        "252501-5",
+        "252501-6"
+      ],
+      "table_numbers": [
+        "Table I",
+        "Fig. 2",
+        "Fig. 4"
+      ],
+      "exact_text_anchor": "PDF 3: 'strong E1 transition at 2.95 MeV with B(E1)↑ = 0.016 e2 fm2 and a resonancelike accumulation of E1 strength centered at E_gamma \u0007pprox 4.9 MeV with a summed strength of \\sum B(E1)↑ \u0007pprox 0.1 e2 fm2'; PDF 5: 'total observed strength of 1.7 mu_N^2'; PDF 6: 'may instead arise from a quadrupole-octupole, two-phonon-like excitation'",
+      "actual_tex_anchor": "sec-4-3.tex 第4.3.4及4.3.5小节：'在 2.95 MeV 处观察到显著的单孤立 E1 跃迁（B(E1)↑ = 0.016 e2 fm2）；在 4.5-5.5 MeV 区间（中心 4.9 MeV）观察到共振峰状聚集，求和 E1 强度约 0.1 e2 fm2。总观测 M1 强度达 1.7 mu_N^2，在 2-4 MeV 局部区间约为 1.0 mu_N^2。2.95 MeV 态作者解释为可能源自 [2+_1 x 3-_1] 双声子型激发，约 5 MeV 处为 TAC-QRPA 结合变形诱导偶极-八极混合解释的低能八极共振，并非直接测得静态 E3 变形。'",
+      "action_taken": "全盘替换错误数值，核准 2.95 MeV 与 4.9 MeV 的两段 E1 结构以及总 M1=1.7 与局部 M1~1 mu_N^2；明确八极解释是作者结合多体模型的理论解释，非直接测定静态 E3 矩；严谨解耦低能四极 gamma 软性（数百 keV）、剪刀模（2.5-4 MeV）与八极共振（2-5.5 MeV），划清 NRF 低自旋选择定则界限。"
+    },
+    {
+      "item_id": "Item_C_Ding2025_A60",
+      "section": "4.2",
+      "topic": "A≈60奇奇核理想PRM模型中残余力V_pn与能级间隔S(I)",
+      "critique": "Ding2025 S(I)=[E(I)-E(I−1)]/(2I)是奇奇转动带能量间隔；与偶偶gamma-band二阶差分staggering不同，不能拿同名S符号的响应当rigid/soft gamma判据直接反例。必须分别定义；该文理想A60 PRM没有真实Co实验，不能写作已发现核素/实测能带。",
+      "original_paper": "G. L. Ding et al., Chin. Phys. C 49, 074101 (2025)",
+      "raw_file": "raw/papers/Exploring chiral rotation in A ≈ 60 nuclei  Role of residual interactions.pdf",
+      "raw_sha256": "5264bd9192b988021d2ee21f2861bce80f2f7ac04ba26f04ea3f0e8125be599e",
+      "pdf_pages": [
+        2,
+        3,
+        7,
+        8
+      ],
+      "print_pages": [
+        "074101-2",
+        "074101-3",
+        "074101-7",
+        "074101-8"
+      ],
+      "table_numbers": [
+        "Sec. II PRM",
+        "Sec. IV Discussion",
+        "Eq. (9) S(I)"
+      ],
+      "exact_text_anchor": "PDF 3: 'systematically investigate the configuration using a quantal triaxial PRM with one-particle-one-hole coupled to a triaxial core'; PDF 7-8: 'S(I) = [E(I) - E(I-1)] / (2I)'",
+      "actual_tex_anchor": "sec-4-2.tex 第4.2.5小节：'需要明确该论文的理论定位：该工作是一项基于 CDFT 微观输入构建的理想化 PRM 理论推演，并非报告新的实验测定或在钴同位素中发现了物理实测能带...在此必须在物理概念上做出严格区分：式中定义的 S(I) 是奇奇核转动带内相邻能级间隔除以 2I，而偶偶核 gamma 带交错参数定义为二阶差分比值，两者数学阶数与物理目标截然相异。'",
+      "action_taken": "明确该文为理想化微观 PRM 模型推导，无新 Co 实验数据；严格区分奇奇核转动能级间隔 S(I) 与偶偶核 gamma 振动带二阶差分交错参数 S(I)，消除概念混淆。"
+    },
+    {
+      "item_id": "Item_D_Crider2016_Ni68",
+      "section": "4.2",
+      "topic": "68Ni 0_3 态亚纳秒寿命与衰变分支比实测界限",
+      "critique": "Ni68 Crider2016是0_3半衰期0.57(5)ns、70Ni候选0_2=1.65(+.30/−.25)ns，E0到基态/0_2为上限，不能称两态纳秒寿命+强E0直接确立三形状。",
+      "original_paper": "B. P. Crider et al., Phys. Lett. B 763, 108 (2016)",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G26/crider-2016-68ni-shape-coexistence.pdf",
+      "raw_sha256": "923ce537b505cecd49cdf75901bdd1be76896da0326ce29e8b049f10143d4b28",
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "print_pages": [
+        110,
+        111
+      ],
+      "table_numbers": [
+        "Table 1: Measured half-lives and transition strengths"
+      ],
+      "exact_text_anchor": "PDF 4 Table 1: '0+_3 ... 0.57(5) ns ... 0+_3 -> 2+_1 ... > 0.981 ... 39.0(34); 0+_3 -> 0+_1 ... < 0.019 ... < 1.0; 70Ni (0+_2) ... 1.65(+0.30/-0.25) ns'",
+      "actual_tex_anchor": "sec-4-2.tex 第4.2.2小节：'Crider 等在该工作中重点测定了第二激发 0+_3 态（2511 keV）的寿命，测得其半衰期为亚纳秒量级的 T1/2 = 0.57(5) ns；该态绝大部分分支（>98.1%）通过 E2 跃迁退激至 2+_1 态，而其向基态与向 0+_2 的 E0 退激分支仅给出上限：rho^2(E0) x 10^3 < 1.0 与 < 0.28...0+_3 态并非通过强 E0 直接认证，其实验标志是纳秒以内的短寿命与占绝对优势的 E2 衰变。'",
+      "action_taken": "纠正初稿将 0_3 态误写作纳秒长寿命强 E0 的夸大陈述，如实陈述其实测半衰期为 0.57(5) ns，E2 退激占 >98.1%，E0 仅给出实验上限，形状共存判定系结合 MCSM 计算与寿命排除不合理相互作用。"
+    },
+    {
+      "item_id": "Item_E_Ayangeakaa2019_Ge76",
+      "section": "4.2",
+      "topic": "76Ge Kumar-Cline 不变量与弥散度 sigma 的模型依赖性",
+      "critique": "Ge76所谓sigma(delta)=13(4)°须原文按高阶矩/模型假设读取，不设若sigma某阈值直接确立rigid；回前面2.4边界。",
+      "original_paper": "A. D. Ayangeakaa et al., Phys. Rev. Lett. 123, 102501 (2019)",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/ayangeakaa-2019-rigid-triaxial-ge76.pdf",
+      "raw_sha256": "fd549c59e62774b43690a8ae3b5c4bf638982f6c9b888dd0f0aba83b3993b733",
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "print_pages": [
+        "102501-3",
+        "102501-4"
+      ],
+      "table_numbers": [
+        "Table I",
+        "Figs. 2(c), 2(d)"
+      ],
+      "exact_text_anchor": "PDF 4: 'The dispersion of the quadrupole deformation, \\sigma(Q^2), for the ground-state and \\gamma bands can be found in Figs. 2(c) and 2(d)'",
+      "actual_tex_anchor": "sec-4-2.tex 第4.2.4小节：'正如第 2.4 节所述，将几何不变量与刚性转子模型对接时必须牢记其适用边界：不变量求和规则在实际应用中受制于有限的能级截断与不可测的高能矩阵元；分散度参数 sigma 反映的是电荷分布高阶矩的统计涨落，不能将其设定为某种机械门槛去绝对宣称消除了全部软性。'",
+      "action_taken": "删除任何关于 sigma 分散度阈值直接宣布绝对刚性的断言，回链 2.4 节不变量求和截断误差与相对符号假设，客观评价其对三轴极小势能面的约束价值。"
+    },
+    {
+      "item_id": "Item_1_to_10_Section_4_1_Comprehensive",
+      "section": "4.1",
+      "topic": "4.1节关键理论边界全面订正（共10项意见）",
+      "critique": "1) 投影只构造试探态；2) 删假普适 IB 比值，回 2.6；3) 单极漂移回 2.2，不丢条件；4) Q2/Q3 不重新发明，删伪门槛；5) 高自旋去'唯一通道'，扩充寿命测量手段；6) S_j 非直接测量；7) 删 Markdown ** 语法；8) 删'严格科学合同'；9) 删无源 E(2_2) 例子，写 Davydov-Filippov 2.5 退化；10) 同步 ledger/合同。",
+      "original_paper": "Poves 2020 / Cline 1986 / Otsuka 2022 / Suhonen 2007 / Bohr & Mottelson Vol. II",
+      "raw_file": "多份已核基础专著与文献",
+      "raw_sha256": "已在section-4-1.json登记",
+      "pdf_pages": [
+        2,
+        16,
+        20,
+        134,
+        80
+      ],
+      "print_pages": [
+        2,
+        698,
+        277,
+        119,
+        58
+      ],
+      "table_numbers": [
+        "全节6个小节定位"
+      ],
+      "exact_text_anchor": "Poves: 'laboratory frame is spherical...intrinsic frame can exhibit'; Cline: 'evaluate expectation values of E2 invariants in laboratory frame'; Otsuka: 'monopole interaction is crucial also for collective band'",
+      "actual_tex_anchor": "sec-4-1.tex 全文：1) 投影试探态与真实态 GCM 构型叠加；2) 回链 2.6.3 Inglis-Belyaev 响应；3) 回链 2.2.1 单极展开；4) 回链 2.1/2.4 Kumar-Cline 不变量且无绝对门槛；5) 扩充重离子、转移、裂变及超快计时与偏振技术；6) 明确截面才是可观测量，S_j 依赖反应模型；7) 全面消除 Markdown 粗体；8) 正文使用'比较方法与物理判据'；9) 阐明 Davydov-Filippov gamma=30度与 Wilets-Jean 在能级比 2.5 处的简并；10) 台账与合同全部同步完毕。",
+      "action_taken": "按父级 10 项严正审查意见全面重写 4.1 节正文、台账与合同，经审查彻底消除全部违规陈述。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "actual_utc": "2026-11-13T22:02:47.086306+00:00",
+  "status": "task-scoped-validation-pass",
+  "gates": {
+    "archive-gate-changed.json": {
+      "ok": true,
+      "report_sha256": "5ff864f02dce7fa502727ba6eb8bc9bb576a39a457c022ebb44d97586bd4ad34",
+      "failure_count": 0
+    },
+    "automation-preflight.json": {
+      "ok": true,
+      "report_sha256": "463c7ae613968524dc588599f972d856f4d09411ce63cd29fcc9e34c460070aa",
+      "failure_count": 0
+    },
+    "boundary-check.json": {
+      "ok": true,
+      "report_sha256": "231a7a88757d0f9edb8643ac6f8bc78036f5a8f247cf8e2a614cbc1fc9fc72c5",
+      "failure_count": 0
+    }
+  },
+  "latex": "final39/final-build.json: CLEAN_PASS",
+  "wiki_lint": {
+    "global_exit": 1,
+    "global_counts": {
+      "error": 132,
+      "warning": 492,
+      "info": 5482
+    },
+    "task_selected_knowledge_errors": [],
+    "outside_task_error_count": 132,
+    "boundary": "Global lint is not green; all errors are outside explicit task paths."
+  },
+  "diff_check_worktree": "passed before staging; staged check still required",
+  "source_archive_boundary": "Original files checked locally; private/copyrighted raw originals not added by task staging.",
+  "credential_pattern_scan": "passed for selected text; .local/runtime diagnostics excluded",
+  "publication": "requires actual commit and exact non-force HEAD:main push; receipt records outcome",
+  "git_whitespace_policy": "Exact generated/frozen artifact attributes documented in .gitattributes and check.md; active Python whitespace normalized with identical AST.",
+  "scope_validation": "git-attribute-boundary.json",
+  "script_equivalence": "python-whitespace-equivalence.json"
+}

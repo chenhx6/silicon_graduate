@@ -4,7 +4,7 @@
   "target_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-2.tex",
   "input_draft_path": "raw/writing/gpt/A130/research-draft/section-1-2.md",
   "input_sha256": "96514dd3beeabb9362c2837c6630dd36bdda6840ca2a4ad5ac98e794be26e20c",
-  "output_sha256": "cdc65bc8569ed15f8c4d32a28d17f64b1509929620e37d8d93054e140e3962fb",
+  "output_sha256": "c3d0b685f7b111d39e676b6a6dd2ec0ad9efcfd596286fb7f70ea98bcab01105",
   "recorded_at": "2026-11-13T00:00:00+00:00",
   "executor": "G77",
   "migration_modifications": [
@@ -108,6 +108,8 @@
     "三重矩阵元求和中的相对相位需多步库仑激发量子干涉锁定，未定相交叉跃迁可能引起有效三轴角反演的多解性",
     "相对涨落Delta A/<A>量化径向四极涨落，无法直接给出gamma方向势阱软硬度，需结合能谱staggering联合诊断"
   ],
-  "parent_final_tex_sha256": "cdc65bc8569ed15f8c4d32a28d17f64b1509929620e37d8d93054e140e3962fb",
-  "integration_status": "included-in27-section-clean-preview"
+  "parent_final_tex_sha256": "c3d0b685f7b111d39e676b6a6dd2ec0ad9efcfd596286fb7f70ea98bcab01105",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-2.tex",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
 }

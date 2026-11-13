@@ -1,0 +1,128 @@
+{
+  "missing_bib_keys": {
+    "gysbers-2019-ab-initio-beta-decay-quenching": [
+      "Tex/Sections/sec-2-7.tex"
+    ],
+    "wang-2026-axial-coupling-quenching-joint-effects": [
+      "Tex/Sections/sec-2-7.tex"
+    ],
+    "Heyde_2011": [
+      "Tex/Sections/sec-2-8.tex",
+      "Tex/Sections/sec-2-8.tex",
+      "Tex/Sections/sec-2-8.tex"
+    ],
+    "casten_1990_simple-perspective": [
+      "Tex/Sections/sec-2-8.tex"
+    ],
+    "heyde_1999_basic-ideas-concepts": [
+      "Tex/Sections/sec-2-8.tex"
+    ],
+    "nomura_2022_Questioningwobbling": [
+      "Tex/Sections/sec-2-8.tex",
+      "Tex/Sections/sec-2-8.tex",
+      "Tex/Sections/sec-2-8.tex",
+      "Tex/Sections/sec-2-8.tex",
+      "Tex/Sections/sec-2-8.tex"
+    ],
+    "meyertervehn_1975_collective-description-transitional": [
+      "Tex/Sections/sec-2-8.tex"
+    ],
+    "frauendorf_2014_Transversewobbling": [
+      "Tex/Sections/sec-2-8.tex",
+      "Tex/Sections/sec-2-8.tex",
+      "Tex/Sections/sec-2-8.tex"
+    ],
+    "lv_2022_Evidencewobbling": [
+      "Tex/Sections/sec-2-8.tex",
+      "Tex/Sections/sec-2-8.tex",
+      "Tex/Sections/sec-2-8.tex"
+    ],
+    "crider-2016-68ni-shape-coexistence": [
+      "Tex/Sections/sec-4-2.tex"
+    ],
+    "ayangeakaa-2019-rigid-triaxial-ge76": [
+      "Tex/Sections/sec-4-2.tex"
+    ],
+    "ding-2025-chiral-rotation-a60-residual-interactions": [
+      "Tex/Sections/sec-4-2.tex"
+    ],
+    "thomas-2016-96-98mo-coexistence": [
+      "Tex/Sections/sec-4-3.tex",
+      "Tex/Sections/sec-4-3.tex"
+    ],
+    "chen-singh-2020-nds-98mo": [
+      "Tex/Sections/sec-4-3.tex",
+      "Tex/Sections/sec-4-3.tex"
+    ],
+    "saracino-2026-102ru-scissors-octupole-resonances": [
+      "Tex/Sections/sec-4-3.tex",
+      "Tex/Sections/sec-4-3.tex"
+    ],
+    "karmakar-2025-98mo-dae": [
+      "Tex/Sections/sec-4-3.tex"
+    ]
+  },
+  "literal_markdown_or_placeholder_markers": [
+    {
+      "file": "Tex/Sections/sec-3-1.tex",
+      "line": 35,
+      "marker": "式~\\eqref{eq:3-1-zero-point-fluc} 揭示了量子多体体系的一个核心本质：**波包宽度 $\\sqrt{\\langle q^2 \\rangle_0}$ 是量子不确定性原理强制规定的纯内禀零点运动涨落**。它在物理机制"
+    },
+    {
+      "file": "Tex/Sections/sec-3-1.tex",
+      "line": 73,
+      "marker": "\\item 2 个内禀几何形状变量 $(\\beta, \\gamma)$：刻画核椭球的径向四极拉长与三轴非轴对称横向剪切，对应核的**内禀形状振动**；"
+    },
+    {
+      "file": "Tex/Sections/sec-3-1.tex",
+      "line": 74,
+      "marker": "\\item 3 个欧拉取向角 $\\Omega = (\\phi, \\theta, \\psi)$：确定内禀主轴坐标系相对于实验室空间的欧拉转角，对应核的**大范围整体转动**。"
+    },
+    {
+      "file": "Tex/Sections/sec-3-1.tex",
+      "line": 88,
+      "marker": "\\item **势能面的强非简谐性**：真实核势能面包含高阶项（如 $\\beta^4$、$\\beta^3 \\cos(3\\gamma)$），微观质量参数与转动惯量亦强烈依赖于动态坐标 $(\\beta, \\gamma)$，破坏了严格简谐二次型；"
+    },
+    {
+      "file": "Tex/Sections/sec-3-1.tex",
+      "line": 89,
+      "marker": "\\item **转动—振动耦合效应**：当转动频率增加时，离心力拉伸形变（离心拉伸效应），科里奥利力引发内部准粒子顺排，诱导转动态与振动态发生剧烈动力学杂化；"
+    },
+    {
+      "file": "Tex/Sections/sec-3-1.tex",
+      "line": 90,
+      "marker": "\\item **整数能量比绝非模式判据**：在束谱学中，实验测得的激发能级比值（如 $E(4_1^+)/E(2_1^+) \\approx 2.0$ 对应简谐振动，$E(4_1^+)/E(2_1^+) \\approx 3.33$ 对应刚性转子"
+    },
+    {
+      "file": "Tex/Sections/sec-3-1.tex",
+      "line": 111,
+      "marker": "\\item **第 3.2 节（稳定转轴与摆动的局域极限）**：当四极形状势能变硬、内禀形状振动被有效冻结时，我们将坐标系完全固定于三轴椭球主轴系，深入探究经典欧拉陀螺的运动稳定性，并在局域大自旋展开下精确推导纯转子的三维摆动声子激发频率及"
+    },
+    {
+      "file": "Tex/Sections/sec-3-1.tex",
+      "line": 112,
+      "marker": "\\item **第 3.3 节（准粒子顺排与横/纵向摆动分支）**：将微观壳模型费米面与未配对价核子带入集体核芯，研究高 $j$ 准粒子轨道角动量顺排如何打破主轴旋转对称性，催生出具有丰富微观指纹的横向摆动（TW）与纵向摆动（LW）分支；"
+    },
+    {
+      "file": "Tex/Sections/sec-3-1.tex",
+      "line": 113,
+      "marker": "\\item **第 3.5 节（手征几何、隧穿与有限核态）**：当三轴非轴对称集体核芯与一个高 $j$ 价粒子和一个高 $j$ 价空穴实现非共面角动量空间正交耦合时，体系在旋转参考系诱发自发手征对称破缺，进而在有限量子隧穿作用下于实验室系形"
+    },
+    {
+      "file": "Tex/Sections/sec-3-1.tex",
+      "line": 114,
+      "marker": "\\item **第 3.6 节（$\\gamma$ 形状模与取向模的耦合）**：重新放宽形状冻结假设，系统探讨内禀 $\\gamma$ 形状振动与欧拉三维取向运动之间的非线性动力学杂化，阐明同自旋、同宇称能带在有限能隙下如何通过非对角矩阵元诱发"
+    },
+    {
+      "file": "Tex/Sections/sec-5-3.tex",
+      "line": 139,
+      "marker": "  \\fbox{\\parbox{0.85\\textwidth}{\\centering\\vspace{2cm}（图 5.1 待 G80 注入：\\texttt{Img/digital-energy-response.pdf}；展示理想双指数输入"
+    },
+    {
+      "file": "Tex/Sections/sec-5-4.tex",
+      "line": 79,
+      "marker": "  \\fbox{\\parbox{0.85\\textwidth}{\\centering\\vspace{2cm}（图 5.2 待 G80 注入：\\texttt{Img/cfd-phase-convergence.pdf}；展示不同采样周期下 C"
+    }
+  ],
+  "boundary": "Transient work snapshot, not final compile or scientific admission."
+}

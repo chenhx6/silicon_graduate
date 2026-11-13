@@ -323,7 +323,7 @@
     "q3_convention_consistency": "Global notation consistency fix (2026-11-13): normalized q3 definition to match Sections 2.1 and 2.4 (incorporating -sqrt(7/2) prefactor directly into q3 definition), and simplified eq:2-8-gamma-inv-ratio to cos(3*gamma_inv) = q3 / q2^(3/2). Preserves physical ranges, clamping cautions, and finite-sum truncation boundaries."
   },
   "parent_final_tex_sha256": "e99acbffce02a79342e65827729f06f3e612998c563471d5cf13f1637cde2c47",
-  "integration_status": "included-in27-section-clean-preview",
+  "integration_status": "included-in-final39-A-F-clean-build",
   "parent_metadata_reconciliation": {
     "date": "2026-11-13T09:55:49.537928+00:00",
     "three_hallucinated_ledger_hashes_replaced_from_actual_canonical_raw": true,
@@ -332,5 +332,7 @@
     "literal_fake_text_anchors_removed": true,
     "history": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G85/rejected-ledger-history/section-2-8-before-parent-source-reconciliation.json",
     "boundary": "No new whole-paper reading claim; specific Pr numbers checked in original source, framework claims source-located and task-defined."
-  }
+  },
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-8.tex",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
 }

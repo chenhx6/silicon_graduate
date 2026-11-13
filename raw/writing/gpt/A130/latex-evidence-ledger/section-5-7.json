@@ -1,0 +1,106 @@
+{
+  "section_id": "5.7",
+  "title": "角关联、偏振和 $\\delta$ 反演",
+  "worker": "G100",
+  "recorded_at": "2026-11-14T02:45:00Z",
+  "output_latex": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-7.tex",
+    "sha256": "5d34084101a4a7d7640bcbaa37aff8627d2633662ebfe541e9337343f14cb735",
+    "bytes": 25730
+  },
+  "sources": [
+    {
+      "citation_key": "book-hamilton-electromagnetic-interaction",
+      "canonical_title": "The Electromagnetic Interaction in Nuclear Spectroscopy",
+      "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+      "raw_sha256": "93b32a8debb66ad036229d860ad56f0434dc49b56edd32f1628af1d71a21ae00",
+      "actual_read_pages": "PDF pages 529/532 (printed 518/521, Eqs. 12.73, 12.80–12.81, orientation tensor B_k and Gaussian width), PDF page 550 (printed 539, Eq. 12.168, F_k coefficients), PDF page 553 (printed 542, Eqs. 12.180–12.186, A_k and KS positive interference), PDF page 555 (printed 544, Eqs. 12.188–12.189, unobserved helicity summation extinguishing odd k), PDF page 556 (printed 545, Eqs. 12.193–12.198, axial symmetric intensity and linear polarization), PDF page 557 (printed 546, Eq. 12.199, cascade time-ordering in DCO), PDF page 563 (printed 552, Eqs. 12.209–12.213, cascade deorientation factor U_k), PDF page 569 (printed 558, Eqs. 12.247–12.253, DCO and pure multipole endpoint), PDF pages 727–728 (printed 716–717, Ch. 15, Eqs. 15.9–15.15, linear polarization degree P(theta), associated Legendre normalization 2*sqrt((k-2)!/(k+2)!), and Compton polarimeter analyzing power Q(E)). Note: PDF page 355 is Chapter 10 internal conversion, not polarimetry."
+    },
+    {
+      "citation_key": "lange-kumar-hamilton-1982-multipole-admixtures",
+      "canonical_title": "E0, E2, and M1 multipole admixtures of transitions in even-even nuclei",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+      "raw_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+      "actual_read_pages": "printed pages 121–123 (PDF pages 3–5), Section 2, Eqs. 2.4–2.6 (KS RME definition with sqrt(3)/10 factor and magnetic moment operator), Eqs. 2.8–2.11 (rational quadratic expansion of A_k(delta) with positive interference term +2*delta*F_k in KS convention, and emission phase relation delta_KS = -delta_RB). Only the erratum bibliographic record/access responses were obtained; its content has not been read and does not support these formulas."
+    },
+    {
+      "citation_key": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "canonical_title": "Quadrupole moments of wobbling excitations in 163Lu",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "raw_sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e",
+      "actual_read_pages": "PDF pages 2–4, Tables I–II, adopted average delta = -3.10(+0.36/-0.44) for TSD2 interband transitions from previous thin-target experiment without independent high-spin polarization re-measurement."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C57-orientation-and-angular-distribution",
+      "statement": "在束角分布 W(theta) 由母态取向张量 B_k(I_i)、几何角分布系数 A_k(delta) 与有限立体角衰减因子 Q_k 共同确定；B_k(I_i) 已内含上游未观测级联退取向效应，在 a_k 展开中不可重复乘入 U_k；Clebsch-Gordan 次序使奇阶张量较 Hamilton 规范差一符号；未分析光子偏振时对两出射螺旋度求和严格消去奇阶辐射参数，故强度展开仅保留偶阶，且截断于 k <= min(2*I_i, 2*L_max)。",
+      "source": "book-hamilton-electromagnetic-interaction",
+      "pdf_pages": "529, 532, 553, 555, 556, 563",
+      "printed_pages": "518, 521, 542, 544, 545, 552",
+      "figure_or_equation": "Chapter 12, Eqs. (12.73), (12.80)–(12.81), (12.180)–(12.189), (12.197), (12.209)–(12.213)",
+      "searchable_anchor": "orientation tensor ... helicity summation ... deorientation factor"
+    },
+    {
+      "claim_id": "C57-phase-conventions-and-rational-ak",
+      "statement": "多极混合比 delta 采用 Krane-Steffen (KS) 规范，正文及附录统一对应于正相干干涉项 +2*delta*F_k(LL')，算符采用 M_S(M1) = M_mu(M1)/c 或 M_mu(M1) 均导出无量纲纯数；发射约定下 delta_KS = -delta_RB；角分布系数 A_k(delta) 为关于 delta 的标准二次有理函数。",
+      "source": "lange-kumar-hamilton-1982-multipole-admixtures",
+      "pdf_pages": "3–4",
+      "printed_pages": "121–122",
+      "figure_or_equation": "Section 2, Eqs. (2.4)–(2.6), (2.8)–(2.11)",
+      "searchable_anchor": "Krane and Steffen ... phase conventions ... rational quadratic"
+    },
+    {
+      "claim_id": "C57-dco-gated-conditioning",
+      "statement": "DCO 比值是两探测角度的条件门选强度比，受角组独立响应、双光子级联实际发射时间次序与门跃迁多极性质调制，绝非单谱比值；不存在通用的 1.0/0.5 绝对分界；母态取向宽度参数可由已知纯 E2 跃迁或系统误差包络独立评估。",
+      "source": "book-hamilton-electromagnetic-interaction",
+      "pdf_pages": "557, 569",
+      "printed_pages": "546, 558",
+      "figure_or_equation": "Chapter 12, Section 5.2.1, Eq. (12.199), Eqs. (12.247)–(12.253)",
+      "searchable_anchor": "directional correlation from oriented states ... cascade time-ordering"
+    },
+    {
+      "claim_id": "C57-polarimetry-parity-arbitration",
+      "statement": "线偏振度严格定义为 P = (W_parallel - W_perp)/(W_parallel + W_perp)，由第 k 阶缔合 Legendre 多项式展开并含伴随系数 2*sqrt((k-2)!/(k+2)!)；立体角因子 Q_k^pol 与偏振计灵敏度 Q(E) 为不同物理量；纯电/磁辐射偏振符号反转，但混合态偏振为正不代表必为纯 E2。",
+      "source": "book-hamilton-electromagnetic-interaction",
+      "pdf_pages": "556, 727–728",
+      "printed_pages": "545, 716–717",
+      "figure_or_equation": "Chapter 12, Eq. (12.198); Chapter 15, Eqs. (15.9)–(15.15)",
+      "searchable_anchor": "linear polarization ... associated Legendre ... analyzing power"
+    },
+    {
+      "claim_id": "C57-dual-roots-and-model-neutrality",
+      "statement": "DCO 比值反演交叉相乘后必须筛除分母为零的伪根；齐次坐标下纯多极端点 v=0 代表同一物理纯高阶态，非比值极点；在无独立偏振或内转换区分条件时必须如实保留双实根，理论模型偏好不得冒充实验裁决；163Lu 摆动带采用先前独立薄靶平均值而非自身重新测量。",
+      "source": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "pdf_pages": "2–4",
+      "printed_pages": "N/A (PRC 69 031301)",
+      "figure_or_equation": "Table II & discussion of adopted delta = -3.10",
+      "searchable_anchor": "adopted average delta = -3.10 ... branch retention"
+    }
+  ],
+  "migration_differences": [
+    "消除 a_k 中对去取向因子 U_k 的重复相乘，确立 a_k = B_k(I_i) Q_k A_k(delta) 唯一定义 (F01)",
+    "严格区分母态取向对称性 P(M)=P(-M) (B_odd=0) 与出射光子双螺旋度求和消去奇阶辐射参数的物理机制，说明单光子强度展开仅含偶阶的充分必要条件与 k 截断 (F02)",
+    "将正干涉项 +2*delta*F_k 与约化矩阵元混合比定义明确标为 Krane-Steffen (KS) 规范体系，澄清发射约定下 delta_KS = -delta_RB，禁止将正干涉式误标为 Rose-Brink，并与第 5.9 节及附录 A 统一 M_S = M_mu/c 算符约定 (F03)",
+    "澄清 Clebsch-Gordan 顺序相位：B_k = (-1)^k B_k^Hamilton，指出奇阶相差负号而偶阶完全一致，不影响未分析偏振强度 (F04)",
+    "补全线偏振度 P(theta) = (W_parallel - W_perp)/(W_parallel + W_perp) 形式定义、缔合 Legendre 因子 2*sqrt((k-2)!/(k+2)!)、区分几何角接受 Q_k^pol 与偏振计灵敏度 Q(E_gamma)，给出仪器几何不对称校正 a = N_perp^0 / N_parallel^0 (F05)",
+    "严格定义二次有理反演求解条件：交叉相乘后筛除分母为零的伪根，引入齐次投影坐标 delta=u/v 证明纯多极端点 v=0 为同一物理态且非比值极点，补全退化及一次退化讨论 (F06)",
+    "明晰 DCO 实验比值中效率因子乘积的可分解假定与多探测器对加权条件，明确门跃迁与待测跃迁的双光子角关联需按级联发射时序构造 (F07)",
+    "修订示意图脚本 a130_angular_branch_figure.py：严格解析证明多项式在实数域满足正定条件 W +/- H > 0 及 D > 0，移除掩盖非物理输入的 np.clip；图例将 Measured 改为 Hypothetical Band，图注明确该图为代数构造教学模型而非具体核态测量拟合 (F08)",
+    "彻底纠正证据台账 Hamilton 专著定位：将原误指为 Chapter 10 内转换的 PDF 355–386 修正为真实 Chapter 12 (PDF 529, 532, 550, 553, 555, 556, 557, 563, 569) 与 Chapter 15 (PDF 727–728) 确切物理页、印刷页及式号 (F09)",
+    "修正几何衰减因子 Q_k 标量性质要求探测器响应关于中心轴轴对称与 Q0=1、|Q_k|<=1 边界，消除取向宽度必须同步拟合的绝对措辞 (F10)"
+  ],
+  "status": "parent-content-accepted-typesetting-pending",
+  "parent_narrow_corrections": [
+    "Q(E)andQk bothdimensionless; Q(E)nonzeroandcalibratedrequired.",
+    "PolarizationnotuniquelymandatoryforEMassignment; shareddata/calibrationcaninducecovariance.",
+    "Apolprefactor defined explicitly relativeHamiltonAk2; endpointfiniteclaim requiresd2nonzero.",
+    "GLS is a declaredmodel with covariance/coverageconditions, notuniversallyexact.",
+    "Unobtainederratumcontentunverified; rejectcandidateBibclaimthatitdoesnotchangeformulas."
+  ],
+  "parent_acceptance_receipt": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G100/section-5-7-parent-acceptance.json",
+  "parent_final_tex_sha256": "5d34084101a4a7d7640bcbaa37aff8627d2633662ebfe541e9337343f14cb735",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-7.tex",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
+}

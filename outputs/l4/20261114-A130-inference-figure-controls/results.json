@@ -1,0 +1,26 @@
+{
+  "observed_machine_utc": "2026-11-13T19:51:31.676854+00:00",
+  "producer": "system/scripts/a130_inference_profile_figure.py",
+  "producer_sha256": "6fb04929c00747b96ac417e879e20d4e96a46d8739efa326593028be4ac58adf",
+  "control": "system/scripts/a130_inference_figure_control.py",
+  "minima_degrees": [
+    -40.0,
+    20.0
+  ],
+  "profile_values_at_minima": [
+    0.9,
+    0.0
+  ],
+  "local_parabola_max_error_vs_fitted_quartic_hessian": 4.263256414560601e-13,
+  "physical_profile_max_error_vs_gaussian_log_ratio": 1.7763568394002505e-15,
+  "checks": {
+    "two_local_minima": true,
+    "minima_at_declared_positions": true,
+    "local_parabola_matches_actual_hessian": true,
+    "physical_domain_includes_boundary": true,
+    "same_gaussian_likelihood_reference": true,
+    "finite_nonnegative_physical_profile": true
+  },
+  "passed": true,
+  "boundary": "Synthetic quartic profile and specified Gaussian observation only; no nuclear-response fit or Feldman-Cousins coverage construction."
+}

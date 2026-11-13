@@ -1,0 +1,58 @@
+{
+  "task_id": "G104",
+  "agent_id": "01a1d461-d238-71e0-a12b-5a201d70f6bd",
+  "model": "antigravity/gemini-3.8-flash-tiered",
+  "effort": "high",
+  "task": "Latest canonical39-body integrated engineering and finalbuild; D/F-expanded inclusion only onparentacceptance signal.",
+  "phase1_scope": {
+    "body_sections": 39,
+    "appendices": [
+      "A",
+      "B",
+      "C",
+      "E",
+      "F-current-delivered-scope"
+    ],
+    "unaccepted_appendix_D": "excluded untilparentaccepts",
+    "Fexpanded": "G101staging notcanonicaluntilparentaccepts"
+  },
+  "isolation": "onlynewtmp/a130-final39-20261114/project andbuild; G104outputprefix; canonicalchangesreturnedaspatchesforparent",
+  "read_paths": [
+    "raw/writing/gpt/A130/these_2023_template/these_template",
+    "raw/writing/gpt/A130/manuscript-status.json",
+    "G92/parent-format-integration.json",
+    "canonicalsourcepagesonlyifmissingBibmetadata"
+  ],
+  "write_paths": [
+    "tmp/a130-final39-20261114/",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G104/"
+  ],
+  "must_preserve": [
+    "Allscienceconditionsandvalues, G97prosebridge, parentM1units/KS",
+    "Actualsource versions, source hashes, records ofindependent/shareddata",
+    "No unknownauthorschool/experiment/results",
+    "No old33sourcebackflow; parent applieddifferences alreadyincanonical"
+  ],
+  "format_rules": [
+    "Aligned/multline forlongmath withoutdroppingterms",
+    "Readabletables, longtableorcontiguoussplits whenneeded; shortstackavailable, makecellnotloaded",
+    "Direct39bodyinputs; removeinactiveplaceholderwrapperbranchesonly",
+    "Directincludegraphicsfor19confirmedfigureswithoutchanginglabels/captions",
+    "F19 sourcehash andmetadata suppliedbyparentafterG101acceptance",
+    "ActualmachineUTC andusersessiondate recordedseparately"
+  ],
+  "verification": [
+    "originala130_latex_build.py withfullsourcecollection",
+    "fatal/cite/ref/glyph/overfull/Bibissues resolvedorconcretelyreported",
+    "all19figuresactuallyembedded, notfallbackboxes",
+    "frozeninputhashes matchreport",
+    "formatonlypatch comparedtomain; parentreviewsbeforecopy"
+  ],
+  "permissions": {
+    "git": false,
+    "publish": false,
+    "regenerate_figures": false,
+    "canonical_overwrite": false
+  },
+  "completion_boundary": "Diagnostic39body isnotfinalgoal; finalD/Fintegration andparentvisual/publication gates stillrequired."
+}

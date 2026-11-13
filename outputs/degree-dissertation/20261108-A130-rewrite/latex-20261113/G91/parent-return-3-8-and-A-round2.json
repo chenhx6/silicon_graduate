@@ -1,0 +1,88 @@
+{
+  "recorded_at": "2026-11-13T13:52:29.104445+00:00",
+  "status": "parent-return-targeted-revision",
+  "section_3_8_status": "Notaccepted; several original-data passagesarecorrect butcandidatecriteria reintroduceunsupporteduniversal thresholds.",
+  "appendix_A_status": "Frozen inT20 for planned independent conventionaudit; no workerdispatchedT20yet. LeavecanonicalA/ledger read-only untilparentreturn, preserve currentartifact hashes.",
+  "retain": [
+    "Actual98Mo reaction100Mo(4He,alpha2n),45MeV/11clovers is supported bysourcePDF2. Table1PDF4 weakE3 rows andTable2PDF6 ratios66.05/153.81 are correct as source-reported quantities under adoptedmultipoles.",
+    "Two-root discussion conditional on discriminant>0 is correct; keep it, do not generalize report-summary intoalways2roots.",
+    "NRF1-minus directabsorption E1 versusE3 selectiondistinction and .016/.1 upwardstrength values are supported bySaracinoPDF3."
+  ],
+  "section_3_8_required": [
+    {
+      "id": "38-1",
+      "severity": "hard-rate-normalization",
+      "where": "eq3-8-b-rate-relation",
+      "action": "Currentlambdaγ=b_gamma/[tau(1+alpha)] whileb_gamma describedphotonbranch double-countsICC. Ifb_tot isallgamma+ICbranch perparent, λγ=b_tot/[tau(1+alpha)]; ifb_gamma isphotonprobabilityperallparentdecays, λγ=b_gamma/tau. Ifonlyrelative photonintensitiesa_i, normalizewithΣ a_j(1+alpha_j) plusotheroutlets asdeclared, not standalone(1+alpha_i). Syncownnote/ledger."
+    },
+    {
+      "id": "38-2",
+      "severity": "hard-data-identity",
+      "where": "98Mo branches/feasibility paragraph",
+      "action": "I_gamma .24/.74 values are relativeintensities referencedtoanothergamma, not mother-state branchpercentages. Do notinferbothbranches<1% fromthose globalnormalizations. Use allsame-mother outlets plusICC andunobservedbranchboundary toobtainbranch probabilities."
+    },
+    {
+      "id": "38-3",
+      "severity": "unsupported-thresholds",
+      "where": "98Mo candidateexperimental route",
+      "action": "Delete mandatoryv/c>=2%, universalDSAMstopping<1ps, E3>=15–30WU establishescollectivity, andoneWU plusweakE2 universallyfalsifiesoctupole. Methodfeasibility uses predictedDopplersplitting Eγβcosθ vsresolution, accessiblevτ distance, population/feeding andcountbudget; lifetimemaycome fromstrongeroutlet ofsamemother ratherthanmeasuringweakE3itself. B(E3)weakens a specified band/operator implementation, not everyoctupolecorrelation."
+    },
+    {
+      "id": "38-4",
+      "severity": "hard-response-and-selection",
+      "where": "Ru102 candidate",
+      "action": "ScopepureE1 statementonly to0+->1-minus directsinglephoton absorption; NRFalso measures1+ M1scissors. TheintrinsicTAC-QRPA operator rY1+b_nu r^3Y3 is aframe-/component-dependentphenomenologicalexpression, not a laboratoryrank1 sphericaltensoridentity. Readcanonical continuation-t02-ru102-covariant-effective-e1-20261107 note forrotationcovariance/model/fit boundaries; do notassertgenericE3 admixtureintoE1 laboperator."
+    },
+    {
+      "id": "38-5",
+      "severity": "hard-falsifier",
+      "where": "two-phonon measurement criterion",
+      "action": "In declaredideal harmonic distinctQ2/O3 phononmodel, B(E2;[2x3]1->3) canbe comparedwithB(E2;2->0), but gamma-branch dominance isnotrequired: λ dependsdifferentEγ^(2L+1), radiationconstant andICC. AweakE2 branchcan coexistwithcollectiveB2. Test allowedE2to3-minus andE3to2-plus pathsandabsolute/model-strengthnetwork; onebranchnotdominant doesnotuniversallykill two-phononclass. Heavyiongamma is nottheonlypossibleprobe; no guaranteeallbranchconstraints feasible."
+    },
+    {
+      "id": "38-6",
+      "severity": "hard-model-domain",
+      "where": "Prcriterion",
+      "action": "Removeuniversal100WU, B(M1).1–1, E2ratio<<.1 and1/I failure asglobalwobblingdisproof. Parentaccepted3.3/3.6/forwardnotes state these are selectedmodel/parameter limits. Giveexplicit competingimplementations, predictedjointobservables ineligiblewindow, fit/holdoutinputs andwhatresultweakenswhichimplementation. Currentquoted17/2+ iswrong forPrnegativeparity case: use17/2− andactualLv/Table1/Si endpoints."
+    },
+    {
+      "id": "38-7",
+      "severity": "statistical-conditions",
+      "where": "GLS andindependence",
+      "action": "Publishedy,V allowconditionalfitunderstatedmoment/Gaussian/asymptoticmodel, not guaranteedexactsignificance solelyfrommean+Cov. IfnormalizedbranchesmakeVsingular chooseindependentcoordinates orproperconstrainedmetric. “AbsoluteB anddelta mustbemeasuredindependently” shouldmean complementaryabsolutescaleinformation, not assumedstatisticalindependence; theymaycome fromonejointfit. FourCov sourcesareexamplesandcanoverlap; sharedfactorsdo notforceallcorrelationsstrongoronesign."
+    },
+    {
+      "id": "38-8",
+      "severity": "source-identity",
+      "where": "ledgersandrefs",
+      "action": "SeparateactualWiki source_id/source_page fromBibcitation_key.98Mo canonicalpage isknowledge/sources/karmakar-2025-2026-98mo-octupole-preview.md, despitehistoricalfilename; itnowholdsfull2026NPAbody. Sourceidkarmakar-2026-98mo-octupoledoesnotexist asWiki page. Do notcreateaduplicate justtomatchcitationkey. UseactualcurrentrawSHA andlocators."
+    },
+    {
+      "id": "38-9",
+      "severity": "prose-and-figure",
+      "where": "whole3.8andworkflowfigure",
+      "action": "Avoidpolicy/contract/path jargon inbody andcaptions; figurecanstatePython schematic andappendFforcode. Allcandidatecards shouldnameassumption,prediction,strongrival,specificfailurewithinmodel, pluszero-resultvalue. No universal binarymode-approval checklist; no detector/hardwarecapability invented. Ensuregraph agrees withrevisedcriteria andchannelsarecorrelatedcomplementary,notorthogonal independentaxes."
+    }
+  ],
+  "appendix_A_known_hard_issues": [
+    {
+      "id": "A-U1",
+      "where": "muNdefinition",
+      "action": "CurrentSI muN=e*hbar/(2m_p*c) iswrongwhenquotingeV/T. UseSI muN=e*hbar/(2m_p),andmuN/c=e*hbar/(2m_p*c)=e*l_N. GaussianmuNhasdifferentunit convention; do notmixwithSI e andeV/T."
+    },
+    {
+      "id": "A-U2",
+      "where": "B_Sconversion",
+      "action": "Physical B_S=B_mu/c^2=e^2*l_N^2*b, b=B_mu/muN^2=B_S/(muN/c)^2. Currentright-hand l_N^2*(B_mu/muN^2) lacks e^2 if B_S isphysical e^2fm^2. A numericalvalueinunit e^2fm^2 may bequoted separately, clearlyasdimensionlessnumber."
+    },
+    {
+      "id": "A-SCOPE",
+      "action": "Do notclaimone3-termfinite6j arithmeticcontrol provesallappendixalgebraabsolutelyexact. Hermitianadjointrelation isacondition onself-adjointsphericalobservable, not allirreducibletensors. BM/otherbooknormclaimsand9j-to6j phasesneedactualoriginalvolume/page; pendingTerraT20 beforecanonicalAedits."
+    }
+  ],
+  "delivery": [
+    "Revise3.8 now andreturnonesinglereceiptwithactualsha/criticalclaimmap;leaveA frozenuntilparentnarrowaudit.",
+    "Updateownjoint-predictionsknowledge andfigureiflogicchanged; no publicBib/wrappers/globalmanifest/Git.",
+    "No newuniversalnumericthresholds. Newsourceifrequired must beactuallyread/archived; currentcanonicaloriginals covermostcorrections."
+  ]
+}

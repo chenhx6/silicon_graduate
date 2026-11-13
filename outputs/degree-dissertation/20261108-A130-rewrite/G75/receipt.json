@@ -1,0 +1,252 @@
+{
+  "task": "G75",
+  "section_id": "1.4",
+  "title": "六个质量区作为比较坐标",
+  "version": "V1",
+  "recorded_at": "2026-11-08T03:20:18.106779+00:00",
+  "status": "draft-delivered-for-parent-review",
+  "scientific_acceptance": "not-assessed-by-writer",
+  "exclusive_write_paths": [
+    "raw/writing/gpt/A130/research-draft/section-1-4.md",
+    "raw/writing/gpt/A130/evidence-ledger/section-1-4.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/G75/receipt.json"
+  ],
+  "temporary_directory": "tmp/runs/20261108-A130-rewrite/G75",
+  "draft_sha256": "faa4e268f4aacd5b8a8d89fd329fb9400121060b67d4d84fb595fe5d98be00a8",
+  "ledger_sha256": "61955c5048ee4e38baf3424499eda330b1c36b2211237b3fc2a635286bd1cd3f",
+  "validation_script": "tmp/runs/20261108-A130-rewrite/G75/validate.py",
+  "metrics": {
+    "chinese_character_count": 1758,
+    "prose_chinese_character_count_excluding_table": 1533,
+    "table_chinese_character_count": 225,
+    "subsections_count": 3,
+    "table_data_rows": 6,
+    "display_equations_count": 0
+  },
+  "checks": {
+    "utf8_decoded": true,
+    "non_lf_ascii_controls_including_tab_and_del": [],
+    "artifact_1132012_count": 0,
+    "dollar_count": 0,
+    "backslash_count": 0,
+    "json_ledger_parsed_and_required_fields_present": true,
+    "json_decoded_strings_checked_for_controls": true,
+    "citation_ids_in_text_and_ast": [
+      "ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce",
+      "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "doctoral-r1-g26-starosta-2007-64ge-rdm-e2",
+      "doctoral-r1-g27-clement-2007-prc-krypton-coulex",
+      "doctoral-r1-g28-singh-2018-98zr-lifetimes",
+      "doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg"
+    ],
+    "raw_source_hash_checks": [
+      {
+        "source_id": "doctoral-r1-g26-starosta-2007-64ge-rdm-e2",
+        "raw_sha256": "715a4c8ada9a6e4bcc2be1df8c845e680d81b6f0c4f91bf70931fe7b10592ad8",
+        "matches_contract": true
+      },
+      {
+        "source_id": "doctoral-r1-g27-clement-2007-prc-krypton-coulex",
+        "raw_sha256": "2ee6c7be8a2fbb72a9f647a0c284181b2fc197e167381be67685f3a15018c0e8",
+        "matches_contract": true
+      },
+      {
+        "source_id": "doctoral-r1-g28-singh-2018-98zr-lifetimes",
+        "raw_sha256": "37f2d5ee16f799feb66617787d45d25c4f3e0cb4f0f996689a0576811c5a05e3",
+        "matches_contract": true
+      },
+      {
+        "source_id": "ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce",
+        "raw_sha256": "3c5a3d7c543140ee25f7cb09376d5aeee760c8ac50c76edd466a010d610c2d0f",
+        "matches_contract": true
+      },
+      {
+        "source_id": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+        "raw_sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e",
+        "matches_contract": true
+      },
+      {
+        "source_id": "doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg",
+        "raw_sha256": "c80dd7dc376378fad490adba41dd626fa7963dd334a43e18ec2a47307d1f913b",
+        "matches_contract": true
+      }
+    ],
+    "pandoc": [
+      {
+        "format": "ast-json",
+        "command": [
+          "pandoc",
+          "--from=markdown",
+          "--to=json",
+          "/workspace/wiki/raw/writing/gpt/A130/research-draft/section-1-4.md"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "artifact": "tmp/runs/20261108-A130-rewrite/G75/section-1-4.ast.json"
+      },
+      {
+        "format": "html-mathml",
+        "command": [
+          "pandoc",
+          "--from=markdown",
+          "--to=html",
+          "--mathml",
+          "/workspace/wiki/raw/writing/gpt/A130/research-draft/section-1-4.md"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "artifact": "tmp/runs/20261108-A130-rewrite/G75/section-1-4.preview.html"
+      }
+    ],
+    "ast_table_count": 1,
+    "ast_table_columns": 3,
+    "ast_table_data_rows": 6,
+    "ast_math_nodes": 0,
+    "ast_raw_nodes": 0,
+    "html_table_rows_including_header": 7,
+    "html_math_nodes": 0
+  },
+  "sources_read": [
+    {
+      "source_id": "doctoral-r1-g26-starosta-2007-64ge-rdm-e2",
+      "source_page": "knowledge/sources/doctoral-r1-g26-starosta-2007-64ge-rdm-e2.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G26/starosta-2007-64ge-rdm-e2.pdf",
+      "raw_sha256": "715a4c8ada9a6e4bcc2be1df8c845e680d81b6f0c4f91bf70931fe7b10592ad8",
+      "required_locator": "PDF1–3/TableI：64Ge寿命/E2与模型解释，理论Qs不可说成实测；Ge集体性不直接等于已证共存",
+      "edition_read": "本地4页arXiv nucl-ex/0703021v1底本；题录对应2007论文，首页另有编译日期，不据此改变发表年。",
+      "actual_read_pages": "PDF1–3，Table I及线形、feeding和模型讨论；Table I图像核实验/理论列。",
+      "actual_read_pdf_pages": [
+        1,
+        2,
+        3
+      ],
+      "visual_read_pdf_pages": [
+        3
+      ],
+      "text_artifact": "tmp/runs/20261108-A130-rewrite/G75/doctoral-r1-g26-starosta-2007-64ge-rdm-e2-pages.txt",
+      "text_sha256": "062f813262e1c3ae5c094bb03e6e96cc9ab454bdfb4a401068dac198aec509fa",
+      "reading_method": "实际本地PDF抽取选页文本回读，关键列/表注另看页面图像；不继承source页面的全文阅读标签。",
+      "coverage_boundary": "不宣称原事件、原拟合程序、全部波函数或历史转引文献均已获取/重算。"
+    },
+    {
+      "source_id": "doctoral-r1-g27-clement-2007-prc-krypton-coulex",
+      "source_page": "knowledge/sources/doctoral-r1-g27-clement-2007-prc-krypton-coulex.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G27/clement-2007-74kr-76kr-coulex-prc.pdf",
+      "raw_sha256": "2ee6c7be8a2fbb72a9f647a0c284181b2fc197e167381be67685f3a15018c0e8",
+      "required_locator": "PDF11/15 TablesV–VI/X–XI，多步CoulEx矩阵网络与混合；不拿Kr数据证明Br手征/八极",
+      "edition_read": "HAL in2p3-00141102v1馆藏本，22物理页含封面；PDF2为印刷1，PDF11/15为印刷10/14。",
+      "actual_read_pages": "PDF1–2、11、15；PDF11/印刷10 Tables V–VI及PDF15/印刷14 Tables X–XI；两页表图像已核。",
+      "actual_read_pdf_pages": [
+        1,
+        2,
+        11,
+        15
+      ],
+      "visual_read_pdf_pages": [
+        11,
+        15
+      ],
+      "text_artifact": "tmp/runs/20261108-A130-rewrite/G75/doctoral-r1-g27-clement-2007-prc-krypton-coulex-pages.txt",
+      "text_sha256": "32c7819b6628a9677e6963afa731851944e7be7624224c41fde7d3c33f89a428",
+      "reading_method": "实际本地PDF抽取选页文本回读，关键列/表注另看页面图像；不继承source页面的全文阅读标签。",
+      "coverage_boundary": "不宣称原事件、原拟合程序、全部波函数或历史转引文献均已获取/重算。"
+    },
+    {
+      "source_id": "doctoral-r1-g28-singh-2018-98zr-lifetimes",
+      "source_page": "knowledge/sources/doctoral-r1-g28-singh-2018-98zr-lifetimes.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G28/singh-2018-98zr-coexisting-shapes.pdf",
+      "raw_sha256": "37f2d5ee16f799feb66617787d45d25c4f3e0cb4f0f996689a0576811c5a05e3",
+      "required_locator": "PDF2–3/TableI，RDDS寿命、外部分支与逐态E2；Zr急变不等于全A100均O6",
+      "edition_read": "arXiv:1902.02637v1六页底本，题录对应2018 PRL论文；区分预印本日期与发表年。",
+      "actual_read_pages": "PDF1–3，Table I及其寿命/分支误差注脚、RDDS方法和模型对照；PDF3图像已核。",
+      "actual_read_pdf_pages": [
+        1,
+        2,
+        3
+      ],
+      "visual_read_pdf_pages": [
+        3
+      ],
+      "text_artifact": "tmp/runs/20261108-A130-rewrite/G75/doctoral-r1-g28-singh-2018-98zr-lifetimes-pages.txt",
+      "text_sha256": "ce5b71a0e0ae1cc676e661cda0466a072d1e8b29b02da55029bf881618e87d42",
+      "reading_method": "实际本地PDF抽取选页文本回读，关键列/表注另看页面图像；不继承source页面的全文阅读标签。",
+      "coverage_boundary": "不宣称原事件、原拟合程序、全部波函数或历史转引文献均已获取/重算。"
+    },
+    {
+      "source_id": "ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce",
+      "source_page": "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf",
+      "raw_sha256": "3c5a3d7c543140ee25f7cb09376d5aeee760c8ac50c76edd466a010d610c2d0f",
+      "required_locator": "实际PR5 PDF1、3–5，多候选带谱、模型解释/本核无寿命边界；勿读AS8页码错版",
+      "edition_read": "PRL110,172504五页出版reprint（PR5）；未读或混用AS8排版。",
+      "actual_read_pages": "实际PR5 PDF1、3–5，Fig.2、Table I、模型输入与寿命缺口段；未读PDF2能级图的全部跃迁。",
+      "actual_read_pdf_pages": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "visual_read_pdf_pages": [],
+      "text_artifact": "tmp/runs/20261108-A130-rewrite/G75/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce-pages.txt",
+      "text_sha256": "be7a1d9ea2bf3051435d526b66c7711397d99db54b2a222156f2c7726e179439",
+      "reading_method": "实际本地PDF抽取选页文本回读，关键列/表注另看页面图像；不继承source页面的全文阅读标签。",
+      "coverage_boundary": "不宣称原事件、原拟合程序、全部波函数或历史转引文献均已获取/重算。"
+    },
+    {
+      "source_id": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "source_page": "knowledge/sources/campaign-g07-gorgen-2004-163lu-quadrupole-moments.md",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "raw_sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e",
+      "required_locator": "PDF2–4/TablesI–II，绝对E2/Qt、外部分支/delta与构型映射；非普适gold threshold",
+      "edition_read": "PRC69,031301(R)四页发表版；本轮定向读取PDF2–4。",
+      "actual_read_pages": "PDF2–4，Tables I–II、线形寿命、外部分支/混合比与Qt构型映射的讨论。",
+      "actual_read_pdf_pages": [
+        2,
+        3,
+        4
+      ],
+      "visual_read_pdf_pages": [],
+      "text_artifact": "tmp/runs/20261108-A130-rewrite/G75/campaign-g07-gorgen-2004-163lu-quadrupole-moments-pages.txt",
+      "text_sha256": "85207dd0ff0884b85be26dd40279046dec92c294d27ddf009d7eab9e87166370",
+      "reading_method": "实际本地PDF抽取选页文本回读，关键列/表注另看页面图像；不继承source页面的全文阅读标签。",
+      "coverage_boundary": "不宣称原事件、原拟合程序、全部波函数或历史转引文献均已获取/重算。"
+    },
+    {
+      "source_id": "doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg",
+      "source_page": "knowledge/sources/doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G31/Bree-2014-PRL-112-162701.pdf",
+      "raw_sha256": "c80dd7dc376378fad490adba41dd626fa7963dd334a43e18ec2a47307d1f913b",
+      "required_locator": "PDF3–4/TableI，Hg E2矩阵元与两构型解释/宽误差；186空项不能补，Hg低自旋不等于全部Ir/Os高自旋核芯",
+      "edition_read": "White Rose馆藏出版版，6物理页含仓储封面；PDF3–5对应印刷162701-2至162701-4。",
+      "actual_read_pages": "PDF1、3–5，Table I、矩阵元拟合及两态混合讨论；PDF4图像核空项和误差。",
+      "actual_read_pdf_pages": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "visual_read_pdf_pages": [
+        4
+      ],
+      "text_artifact": "tmp/runs/20261108-A130-rewrite/G75/doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg-pages.txt",
+      "text_sha256": "a513abb678406c2ab0858ff4a6c11b43a36afc5d4a4a75b511ea62c9c544e68b",
+      "reading_method": "实际本地PDF抽取选页文本回读，关键列/表注另看页面图像；不继承source页面的全文阅读标签。",
+      "coverage_boundary": "不宣称原事件、原拟合程序、全部波函数或历史转引文献均已获取/重算。"
+    }
+  ],
+  "unresolved": [
+    "本节未恢复六篇原事件、寿命线形producer、GOSIA联合似然/协方差或完整模型波函数，未做跨区参数重拟合。",
+    "Ce所报候选带寿命在该原作中不可得；Ge静矩是理论输出；Hg186对角项留空及宽误差不能靠邻核补齐。",
+    "跨区“未见”没有本节新增的搜索效率/上限或统一生产窗口评估，因此只提出比较条件，不给全区排除或发现结论。",
+    "Br/As、Mo/Ru、Ir/Os及八极/异能态/弱衰变的具体结论未在本节另读原作，按章节范围留后文。"
+  ],
+  "scope_record": {
+    "git_commands_run": false,
+    "subagents_used": false,
+    "external_messages_sent": false,
+    "credentials_read": false,
+    "archived_drafts_read": false,
+    "writes_outside_three_paths_and_task_tmp": false,
+    "basis": "本轮显式工具路径；未宣称扫描或整理共享工作树。"
+  }
+}

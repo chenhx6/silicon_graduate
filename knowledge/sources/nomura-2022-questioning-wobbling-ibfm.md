@@ -13,7 +13,7 @@ authors: [K. Nomura, C. M. Petrache]
 journal: Physical Review C
 year: 2022
 volume: 105
-pages: 024320
+pages: "024320"
 doi: 10.1103/PhysRevC.105.024320
 arxiv:
 language: en

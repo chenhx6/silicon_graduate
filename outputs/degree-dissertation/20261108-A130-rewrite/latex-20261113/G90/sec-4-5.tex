@@ -1,0 +1,204 @@
+\section{Br/As 与其它核区的反射---手征问题}\label{sec:4-5}
+
+在奇奇核与奇 $A$ 核的高自旋谱学中，当实验能级纲图上同时呈现出两对具有相近能量序列的正负宇称能带、且正负宇称带之间观测到相互交织的电偶极 $E1$ 连接跃迁时，一个极其引人瞩目的科学问题随之产生：这些在实验室系中呈现相近能级间隔的状态，是否真如早期文献标题所探讨的那样，属于内禀手征对称性与空间反射对称性同时发生自发破缺所形成的“手征---宇称四重简并带（Chiral-Reflection Quartet, CPQ）”？
+
+在理想的理论几何图像中，若原子核三轴非对称核芯（打破空间连续旋转对称性并诱发手征对称性破缺）同时具备稳定的梨形八极形变（打破空间反演对称性），其内禀离散对称性破缺流形将对应于手征左右取向与八极宇称正反朝向的四重离散状态。然而，第\ref{sec:2-5}节建立的量子投影恢复原理以及第\ref{sec:3-5}节对手征几何的微观解构明确指出：内禀平均场波函数的对称性破缺并不等价于实验室体系中四条能带的严格简并。特别是在 $A \approx 80$ 过渡核区中，单粒子自由度、三轴柔顺性与微观形状涨落紧密交织。本节以山东大学刘晨等人（2016年）关于 $^{78}\mathrm{Br}$ 的实验工作与肖骁等人（2019/2022年）关于 $^{74}\mathrm{As}$ 的实验工作为主线，从第一手测量链与实际跃迁网络出发，系统辨析该核区所谓的“四重带”假象，阐明实验室好宇称态与内禀反射不对称的本质区别，解离内禀电偶极矩 $D_0$ 的模型依赖性，并给出该前沿方向上可证伪的研究检验路径~\cite{liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br,liu-chen-2016-78br-chirality-reflection-symmetry-thesis,xiao-2022-chirality-octupole-correlations-74as,xiao-xiao-2019-high-spin-74as-thesis,butler-1996-octupole-shapes,wang-2019-rat-prm-78br-octupole-correlations}。
+
+\subsection{可追溯的能带结构与实际测量载荷}\label{sec:4-5-1}
+
+为了确保学术讨论完全建立在经过严格实验检验的客观事实之上，表~\ref{tab:4-5-bands-summary}汇总了 $^{78}\mathrm{Br}$ 与 $^{74}\mathrm{As}$ 在第一手在束实验中实际观测到的能带编号、自旋宇称范围、微观组态指派以及直接测得的特征跃迁参量。
+
+\begin{table}[!htbp]
+\centering
+\small
+\caption{$^{78}\mathrm{Br}$ 与 $^{74}\mathrm{As}$ 中相关能带的观测自旋范围、组态指派与实验测量载荷汇总（严格依据刘晨 2016 博士论文与 PRL 2016、肖骁 2019 硕士论文与 PRC 2022 原件核对）。}\label{tab:4-5-bands-summary}
+\begin{tabularx}{\textwidth}{llp{2.6cm}p{3.2cm}X}
+\hline\hline
+核素与反应条件 & 能带标识 & 自旋宇称范围 & 微观组态指派 & 实测跃迁网络与客观测量边界 \\
+\hline
+$^{78}\mathrm{Br}$ & Band 1 ($\pi=+$) & $I^\pi = 8^+ \to 16^+$ & $\pi g_{9/2} \otimes \nu g_{9/2}$ & 带内 $E2$ 级联；通过 $\Delta I=1$ 跃迁接收 Band 2 馈送；由 8 条 $E1$ 跃迁与 Band 3 互连；无能级寿命 \\
+$^{70}\mathrm{Zn}(^{12}\mathrm{C}, p3n)$ & Band 2 ($\pi=+$) & $I^\pi = 9^+ \to 14^+$ & $\pi g_{9/2} \otimes \nu g_{9/2}$ & 测得 ADO 比值与线偏振度；与 Band 1 构成手征候选双带；未测得任何连接至负宇称带的 $E1$ 跃迁 \\
+60, 65 MeV & Band 3 ($\pi=-$) & $I^\pi = 6^- \to 15^-$ & $\pi f_{5/2}(p_{3/2}) \otimes \nu g_{9/2}$ & 带内 $E2$ 级联；测得带间分支比 $B(E1)/B(E2)$；由 8 条 $E1$ 跃迁连接至 Band 1；无能级寿命 \\
+iThemba AFRODITE & Band 4 ($\pi=-$) & $I^\pi = 7^- \to 13^-$ & $\pi f_{5/2}(p_{3/2}) \otimes \nu g_{9/2}$ & 经 $404.3\ \mathrm{keV}$ 跃迁退激至 Band 3；与 Band 3 构成手征候选；未测得任何跨宇称 $E1$ 跃迁 \\
+\hline
+$^{74}\mathrm{As}$ & Band 1 ($\pi=+$) & $I^\pi = 6^+ \to 15^+$ & $\pi g_{9/2} \otimes \nu g_{9/2}$ & 带内 $E2$ 级联；与 Band 2 发生 $\Delta I=1$ 混合；由 3 条 $E1$ 跃迁接收 Band 3 馈送；无能级寿命 \\
+$^{74}\mathrm{Ge}(^4\mathrm{He}, 1p3n)$ & Band 2 ($\pi=+$) & $I^\pi = 7^+ \to 14^+$ & $\pi g_{9/2} \otimes \nu g_{9/2}$ & 测得 ADO 比值；$B(M1)/B(E2)$ 呈现奇偶交错；与 Band 1 构成手征双带；未见跨宇称连接 \\
+58.6, 62.6 MeV & Band 3 ($\pi=-$) & $I^\pi = 7^- \to 14^-$ & $\pi(f_{5/2}/p_{3/2}) \otimes \nu g_{9/2}$ & 带内 $E2$ 级联；由 $372.4, 919.4, 1293.4\ \mathrm{keV}$ 共 3 条 $E1$ 跃迁连接至 Band 1；无能级寿命 \\
+iThemba AFRODITE & Band 4 ($\pi=-$) & $I^\pi = 7^- \to 13^-$ & 2019 学位报告候选带 & 2019 硕士论文纲图观测并指认（判定不满足手征判据，归为候选赝自旋伙伴带）；2022 期刊聚焦 1--3 带 \\
+\hline\hline
+\end{tabularx}
+\end{table}
+
+\textbf{实验谱系与数据源依赖性声明}：
+必须明确澄清实验数据的谱系归属：刘晨的博士学位论文与对应期刊 PRL 论文（Liu et al. 2016），完全基于在南非 iThemba LABS 利用 AFRODITE 高分辨锗探测阵列与 DIAMANT 带电粒子阵列开展的 $^{70}\mathrm{Zn}(^{12}\mathrm{C}, p3n)^{78}\mathrm{Br}$ 反应在束测量数据；肖骁的硕士学位论文（2019年）与对应期刊 PRC 论文（Xiao et al. 2022），同样属于在 iThemba LABS 利用 AFRODITE 阵列开展的 $^{74}\mathrm{Ge}(^4\mathrm{He}, 1p3n)^{74}\mathrm{As}$ 反应同一次实验采集。同一研究组在同一实验谱系下发表的学位论文与期刊论文共享相同的符合计数矩阵、能量刻度与效率校正参数，绝不能作为相互独立的多次重复测量证据累加。
+
+特别需要指出，对于 $^{74}\mathrm{As}$ 的负宇称能带结构，学术界存在不同的文献呈现版本：肖骁在其 2019 年硕士学位论文中构建了包含 Band 4（自旋序列 $7^- \to 13^-$）的完整能级纲图，并通过细致的 $S(I)$ 与惯量计算，明确论证了 Band 3 与 Band 4 并不满足严格的手征双重带判据，进而将其提出为可能的赝自旋伙伴带；而在 2022 年发表的正式期刊论文中，作者团队为了突出手征性与八极关联，集中报道了满足手征判据的正宇称双重带（Bands 1--2）以及与之具有强 $E1$ 跃迁连接的负宇称带（Band 3），未在主文中重点展开 Band 4。因此，必须客观记录两个版本各自的学术侧重与原始报告，绝对不能武断宣称“Band 4 从未在实验中被观测到”。
+
+\subsection{实际观测宇称连接网络拓扑}\label{sec:4-5-2}
+
+根据原件测量数据绘制的能带连接网络如图~\ref{fig:4-5-network}所示。仔细审视实际跃迁网络的拓扑连接，可以彻底澄清文献中关于“四重简并带”的概念混淆。
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.88\textwidth]{Img/br-as-network-topology.pdf}
+\caption{$^{78}\mathrm{Br}$ 与 $^{74}\mathrm{As}$ 实验中实际观测到的能带结构与跃迁连接网络拓扑图（严格依据 Liu et al. PRL 2016、刘晨 2016 博士论文、Xiao et al. PRC 2022 及肖骁 2019 硕士论文绘制）。(a) $^{78}\mathrm{Br}$ 中观测到的 4 条主带：正宇称带 Band 1, 2 与负宇称带 Band 3, 4 属于不同的微观单粒子组态；8 条实测 $E1$ 跃迁（粗双向箭头）仅在 Band 1 与 Band 3 之间发生，Band 2 与 Band 4 之间未观测到任何 $E1$ 连接（虚线）；(b) $^{74}\mathrm{As}$ 中观测到的能带关联：正宇称双重带 Band 1, 2 与负宇称带 Band 3 通过 3 条实测 $E1$ 跃迁（$372.4, 919.4, 1293.4\ \mathrm{keV}$）互连；Band 4 在 2019 年学位论文中被报告为候选赝自旋伙伴带，在 2022 年期刊中未被作为手征伙伴带重点讨论。}\label{fig:4-5-network}
+\end{figure}
+
+从图~\ref{fig:4-5-network}展示的真实网络拓扑中，可以得出两点明确的物理结论：
+\begin{enumerate}
+\item \textbf{$^{78}\mathrm{Br}$ 中的“多手征带伴随八极关联”绝非单一构型四重简并带}：
+在 $^{78}\mathrm{Br}$ 中，正宇称能带（Band 1 与 Band 2）建立在 $\pi g_{9/2} \otimes \nu g_{9/2}$ 组态之上，由微观粒子--转子模型（TPRM）支持为一对正宇称手征双重带；而负宇称能带（Band 3 与 Band 4）建立在 $\pi f_{5/2}(p_{3/2}) \otimes \nu g_{9/2}$ 组态之上，被解释为另一对负宇称手征双重带。这两对能带在内禀组态上涉及不同的奇质子轨道占据。更关键的是，实验观测到的 8 条 $E1$ 连接跃迁\textbf{严格仅局限在正宇称基带 Band 1 与负宇称带 Band 3 之间}；在两个伴带 Band 2 与 Band 4 之间，以及 Band 2 与 Band 3、Band 1 与 Band 4 之间，实验上没有观测到任何交织的 $E1$ 跃迁。因此，$^{78}\mathrm{Br}$ 呈现的是由两套不同微观组态构成的多重手征双重带系统（Multiple Chiral Doublets, $M\chi D$）并伴随特定单侧能带间的八极关联，而不是在单一固定组态下由空间反射自发破缺严格对称产生的四重反射---手征简并态（CPQ）。
+\item \textbf{$^{74}\mathrm{As}$ 中缺乏闭合的四能带交织手征网络}：
+在 $^{74}\mathrm{As}$ 中，2022 年期刊论文确立的强连接网络展现为 $2+1$ 的三能带结构：满足手征指纹的正宇称双重带（Band 1 与 Band 2）以及一条由 3 条 $E1$ 跃迁（$372.4, 919.4, 1293.4\ \mathrm{keV}$）连接的负宇称能带（Band 3）。即便在 2019 年学位论文包含了负宇称 Band 4 的原始纲图中，Band 4 亦未表现出手征伴带的动力学特征，且跨宇称 $E1$ 跃迁同样严格局限在 Band 1 与 Band 3 之间。体系在实验上根本不存在由两对正负宇称手征双带对称交织构成的四重完全闭合网络。
+\end{enumerate}
+
+\subsection{理论概念桥梁：对称性、算符与几何误区}\label{sec:4-5-3}
+
+面对上述实验拓扑，理论分析必须严格厘清不同离散对称性、量子力学算符以及表象之间的本质区别：
+
+\subsubsection{实验室好宇称态与内禀反射不对称的区别}
+
+在孤立的原子核多体体系中，全空间反演算符 $\hat{\mathcal{P}}$（$\mathbf{r} \to -\mathbf{r}$）与核强相互作用及电磁相互作用哈密顿量严格对易：
+\begin{equation}\label{eq:4-5-parity-commute}
+[\hat{H}, \hat{\mathcal{P}}] = 0.
+\end{equation}
+因此，在实验室参考系中测得的任何束缚态能级都严格具有确定的守恒空间宇称 $\pi = \pm 1$。文献中所称的“空间反射对称性破缺”，纯粹属于随体内禀参考系下的自洽平均场近似概念。若微观平均场给出的极小处存在非零的内禀八极形变（$\beta_3 \neq 0$），则内禀波函数不具备确定的空间反射对称性：
+\begin{equation}\label{eq:4-5-intrinsic-parity-breaking}
+\hat{\mathcal{P}}\,|\Phi_{\mathrm{int}}(\beta_3)\rangle = |\Phi_{\mathrm{int}}(-\beta_3)\rangle \neq |\Phi_{\mathrm{int}}(\beta_3)\rangle .
+\end{equation}
+为了得到实验室系中具有守恒量子数的物理态，必须对内禀波函数执行严格的三维角动量与宇称投影：
+\begin{equation}\label{eq:4-5-parity-projection}
+|I^\pm M K\rangle = \frac{1}{\sqrt{2(1 \pm \langle \Phi_{\mathrm{int}} | \hat{\mathcal{P}} | \Phi_{\mathrm{int}} \rangle)}} \left( \hat{P}_{MK}^I \pm \hat{\mathcal{P}} \hat{P}_{MK}^I \right) |\Phi_{\mathrm{int}}\rangle .
+\end{equation}
+在有限量子体系中，正负宇称态之间的能量简并被跨越八极势垒的量子隧穿效应所打破，形成具有有限能隙的宇称双重态，其能量位移定义为：
+\begin{equation}\label{eq:4-5-parity-gap}
+\Delta E_{\text{parity}}(I) \equiv E^-(I) - E^+(I).
+\end{equation}
+在稳定八极形变核（如 $^{224}\mathrm{Th}$）中，八极势垒较深，随着自旋增加离心势压低势垒，能量位移迅速趋近于零（$\Delta E_{\text{parity}} \to 0$），表现出交替宇称单转动带；而在势能面极其平缓的八极软核中，$\Delta E_{\text{parity}}$ 表现出大幅度的涨落，本质上属于八极振动与大振幅形状混合。
+
+\subsubsection{时间反演、手征操作与手征双重态}
+
+核手征性源于转动三轴核中角动量矢量的非共面几何。在内禀主轴参考系下，手征对称性由时间反演操作 $\hat{\mathcal{T}}$ 与绕某一主轴旋转 $180^\circ$ 的复合操作：
+\begin{equation}\label{eq:4-5-chiral-op}
+\mathcal{C} \equiv \hat{\mathcal{T}} \hat{\mathcal{R}}_y(\pi)
+\end{equation}
+所表征。算符 $\mathcal{C}$ 属于反幺正算符。当价质子、价中子与三轴核芯集体角动量在三个主轴上同时具备非零分量时，总角动量矢量偏离三个主平面，手征操作将左手取向状态变换为右手取向状态：
+\begin{equation}\label{eq:4-5-chiral-breaking}
+\mathcal{C} |\Phi_{\mathrm{int}}(\text{left})\rangle = |\Phi_{\mathrm{int}}(\text{right})\rangle \neq |\Phi_{\mathrm{int}}(\text{left})\rangle .
+\end{equation}
+在实验室系中，左右手态通过手征势垒的量子隧穿产生同宇称的手征双重带（Chiral Doublet Bands），其能级劈裂为 $\Delta E_{\text{chiral}}(I) = E_2(I) - E_1(I)$。
+
+\subsubsection{四重简并与静态破缺确证的物理鸿沟}
+
+手征---宇称四重简并带（CPQ）要求体系具有极其严苛的物理前提：同一微观单粒子组态必须在内禀参考系下\textbf{同时自发破缺空间反演对称性（$\beta_3 \ne 0$）与手征对称性（非共面 $\mathbf{I}$）}，从而产生四个内禀简并态：$|\text{left}, +\rangle, |\text{right}, +\rangle, |\text{left}, -\rangle, |\text{right}, -\rangle$。
+
+在真实原子核中，四态近简并只是该机制的必要条件而非充要判据。有限量子多体系统存在强烈的组态混合、配对振动以及形状相涨落。如果所谓的四条带在微观上来自完全不同的单粒子占据（如 $^{78}\mathrm{Br}$ 中正负宇称带分别来自 $\pi g_{9/2}$ 与 $\pi f_{5/2}$），或者势能面在 $\beta_3$ 方向不存在稳定的非零深阱，那么这四条带的局域能量接近完全属于不同微观自由度在特定自旋下的偶然重叠或振动激发混合，绝不能直接断言为确证了静态反射与手征的同时自发破缺。
+
+\subsubsection{符号防混：三次四极标量不变量 $q_3$ 绝非八极算符}
+
+在核张量代数中，必须严格区分二阶四极张量与三阶八极张量：
+第\ref{sec:2-4}节定义的标量不变量 $q_3$ 为四极辐射张量 $\mathcal{M}(E2)$ 的三次完全自收缩：
+\begin{equation}\label{eq:4-5-q3-def}
+q_3 \equiv -\sqrt{\frac{7}{2}}\,\langle (\mathcal{M}(E2) \times \mathcal{M}(E2))_2 \cdot \mathcal{M}(E2) \rangle \propto \langle \beta_2^3 \cos(3\gamma) \rangle .
+\end{equation}
+式~\eqref{eq:4-5-q3-def} 描述的是核电荷四极分布偏离轴对称性的三轴不对称度（Triaxiality），在空间反演下具有偶宇称（$\hat{\mathcal{P}} q_3 \hat{\mathcal{P}}^{-1} = +q_3$）。它与描述质量或电荷奇多极梨形分布的电八极形变参数 $\beta_3$ 或八极跃迁算符 $\mathcal{M}(E3)$（在空间反演下具有奇宇称，$\hat{\mathcal{P}} \mathcal{M}(E3) \hat{\mathcal{P}}^{-1} = -\mathcal{M}(E3)$）属于完全不同维度的物理算符，绝对不能因符号下标均带有数字“3”而相互混淆。
+
+此外，微观约束自洽泛函（MDC-CDFT）或粒子--转子模型（TPRM）计算所给出的三维非共面角动量有效夹角（如价质子、价中子与核芯角动量夹角大于 $45^\circ$），是特定截断模型空间与唯象相互作用下的理论输出，并不等同于实验上直接观测到了经典角动量矢量在空间的三维取向。
+
+\subsection{竞争解释的强版本与 $E1$ 跃迁的物理机制}\label{sec:4-5-4}
+
+理解正负宇称能带之间强烈 $E1$ 连接跃迁的出现，必须深入到原子核电偶极辐射的微观动力学机制。
+
+\subsubsection{电偶极矩的宏观与微观驱动机制}
+
+原子核电偶极跃迁 $E1$ 受到强烈的中心对称压制。在微观多体体系中，$E1$ 辐射主要通过两种机制产生：
+\begin{enumerate}
+\item \textbf{宏观质心--电荷中心偏离（Myers-Swiatecki 宏观液滴效应）}：
+当核表面具备非零的八极形变 $\beta_3$ 时，四极形变 $\beta_2$ 与八极形变 $\beta_3$ 的非线性耦合破坏了核内质子流体与中子流体的空间对称分布，导致电荷中心相对于核质量质心发生微观位移，诱发出宏观内禀电偶极矩：
+\begin{equation}\label{eq:4-5-myers-dipole}
+D_0^{\text{macro}} = C_D A Z e \beta_2 \beta_3,
+\end{equation}
+其中 $C_D$ 为核液滴再极化系数。在剔除由于坐标原点选取引发的质心伪运动后，单质子与单中子的有效电偶极辐射电荷分别表示为：
+\begin{equation}\label{eq:4-5-effective-charge}
+e_{\text{eff}}^{\text{p}} = e \frac{N}{A}, \qquad e_{\text{eff}}^{\text{n}} = -e \frac{Z}{A}.
+\end{equation}
+\item \textbf{微观 $\Delta l = \Delta j = 3$ 轨道八极驱动耦合}：
+在微观壳模型中，强八极关联的产生严格依赖于费米面附近是否存在一对宇称相反、且角动量满足 $\Delta l = 3$ 与 $\Delta j = 3$ 的侵入与正常单粒子子壳层。在 $A \approx 80$ 核区，质子数 $Z=33$（As）与 $Z=35$（Br）高度贴近八极驱动幻数 $Z=34$。在该区域，质子侵入轨道 $1g_{9/2}$（$l=4, j=9/2$）与下层正常轨道 $2p_{3/2}$（$l=1, j=3/2$）恰好严格满足：
+\begin{equation}\label{eq:4-5-octupole-selection}
+\Delta l = 4 - 1 = 3, \qquad \Delta j = 9/2 - 3/2 = 3.
+\end{equation}
+质子在这两个轨道之间的虚激发以及与中子 $g_{9/2}$ 轨道的相互作用，构成了核内强八极驱动力与八极软性的微观本源。
+\end{enumerate}
+
+\subsubsection{微观势能面软度与相互竞争的物理图像}
+
+刘晨等人（2016）利用 PC-PK1 有效相互作用开展的微观约束多维协变密度泛函（MDC-CDFT）计算表明：$^{78}\mathrm{Br}$ 在 $\beta_{20}$--$\beta_{30}$ 势能面上的能量极小值点严格位于 $\beta_{30} = 0$ 处；但势能面沿 $\beta_{30}$ 方向表现出极其平坦的软势阱特征。这一结果表明：$^{78}\mathrm{Br}$ 中的八极效应属于大振幅的动态八极振动关联（Octupole Correlations），而非具有深双阱的刚性静态八极形变（Stable Octupole Deformation）。
+
+此外，在微观组态解释上存在强有力的替代机制：
+\begin{itemize}
+\item \textbf{赝自旋对称性伙伴带（Pseudospin Partner Bands）}：在 $A\approx 80$ 区，负宇称轨道 $\pi f_{5/2}$ 与 $\pi p_{3/2}$ 构成一对理想的赝自旋双重态（赝轨道角动量 $\tilde{l}=1$，赝自旋 $\tilde{s}=1/2$）。肖骁（2019）在对 $^{74}\mathrm{As}$ 的分析中明确指出，负宇称能带的劈裂完全可以由赝自旋对称性以及粒子--核芯四极振动耦合所自然解释，无须引入复杂的手征对称性破缺。
+\item \textbf{八极声子振动耦合}：正负宇称能带之间的 $E1$ 跃迁更自然地源于单个八极振动声子（$3^-$ 模式）与高自旋转动带的微扰耦合，而非静态反射不对称转子的刚性辐射。
+\end{itemize}
+
+\subsection{内禀电偶极矩 $D_0$ 的测量反演链条与模型依赖性}\label{sec:4-5-5}
+
+在评估反射不对称性与电偶极跃迁强度时，必须从实验数据反演链条中严格解离出哪些属于直接测量量，哪些属于外加模型假定。
+
+\subsubsection{实验反演代数公式}
+
+在束 $\gamma$ 谱学实验中，探测阵列直接测得的是特定初态能级发射 $E1$ 光子与带内退激 $E2$ 光子的实验计数峰面积之比，并由此导出约化跃迁几率的无量纲比值：
+\begin{equation}\label{eq:4-5-branching-ratio-exp}
+\frac{B(E1; I \to I-1)}{B(E2; I \to I-2)} = 0.77 \times \frac{I_\gamma(E1)}{I_\gamma(E2)} \frac{E_\gamma^5(E2)}{E_\gamma^3(E1)} \cdot \frac{1 + \alpha_{\mathrm{IC}}(E2)}{1 + \alpha_{\mathrm{IC}}(E1)} \times 10^{-6}\ \mathrm{fm}^{-2}.
+\end{equation}
+必须高度警惕：式~\eqref{eq:4-5-branching-ratio-exp} 仅仅给出了 $B(E1)$ 与 $B(E2)$ 的相对比例，\textbf{绝不等于测量到了绝对的 $B(E1)$ 跃迁强度}。
+
+为了从式~\eqref{eq:4-5-branching-ratio-exp} 中提取所谓的内禀电偶极矩 $|D_0|$，文献中普遍套用了基于轴对称变形转子强耦合极限下的 Clebsch-Gordan 几何投影公式（Leander 等人 1982，Butler 与 Nazarewicz 1996）~\cite{butler-1996-octupole-shapes}：
+\begin{equation}\label{eq:4-5-cg-formula}
+B(E1; I \to I-1) = \frac{3}{4\pi}\,D_0^2\,\langle I K 1 0 | I-1 K \rangle^2 , \qquad
+B(E2; I \to I-2) = \frac{5}{16\pi}\,Q_0^2\,\langle I K 2 0 | I-2 K \rangle^2 .
+\end{equation}
+联立上述两式，导出内禀电偶极矩绝对值的提取算式为：
+\begin{equation}\label{eq:4-5-d0-derived}
+|D_0| = \sqrt{\frac{5}{12}\,\frac{B(E1; I \to I-1)}{B(E2; I \to I-2)}\,\frac{\langle I K 2 0 | I-2 K \rangle^2}{\langle I K 1 0 | I-1 K \rangle^2}\,Q_0^2} .
+\end{equation}
+
+\subsubsection{模型依赖性与物理局限性剖析}
+
+公式~\eqref{eq:4-5-d0-derived} 清楚地揭示了 $|D_0|$ 提取过程中的严重模型依赖性：
+\begin{enumerate}
+\item \textbf{对理论内禀四极矩 $Q_0$ 输入的绝对依赖}：
+在 $^{78}\mathrm{Br}$ 与 $^{74}\mathrm{As}$ 实验中，相关能级缺乏直接的绝对寿命测量。因此，为了计算 $D_0$，公式中必须人为采用（adopt）由理论模型（如 RMF、CDFT 或宏观--微观模型）计算得出的内禀四极矩 $Q_0$（或借用邻近偶偶核的寿命外推）。提取出的 $D_0$ 数值大小与所选取的微观形变模型假定直接绑定，属于强模型依赖的衍生参量，绝非无模型假定的实验直接实测量。
+\item \textbf{轴对称强耦合假设在三轴柔顺核中的破缺}：
+公式~\eqref{eq:4-5-cg-formula} 中的 CG 系数比值假定核体系具有良好的轴对称轴以及确定的单粒子投影量子数 $K$。然而在 $^{78}\mathrm{Br}$ 与 $^{74}\mathrm{As}$ 这类具有明显三轴不对称度（$\gamma \approx 20^\circ$--$25^\circ$）且势能面极软的原子核中，$K$ 投影发生了强烈的动力学混合，经典强耦合公式在此处仅具有唯象估计意义。
+\item \textbf{能量位移 $\delta E(I)$ 与稳定八极基准的深刻偏离}：
+为了定量评估八极形变的刚性程度，定义正负宇称能带之间的能量位移参数：
+\begin{equation}\label{eq:4-5-delta-e-def}
+\delta E(I) \equiv E^-(I) - \frac{(I+1) E^-(I-1) + I E^-(I+1)}{2I + 1}.
+\end{equation}
+在具有稳定静态八极形变的经典重核 $^{224}\mathrm{Th}$ 中，$\delta E(I) \to 0$ 且其实测 $B(E1)/B(E2)$ 达到 $10^{-5}\ \mathrm{fm}^{-2}$ 量级；而在 $^{78}\mathrm{Br}$ 与 $^{74}\mathrm{As}$ 中，其实测 $B(E1)/B(E2)$ 仅约为 $10^{-6}\ \mathrm{fm}^{-2}$（比 $^{224}\mathrm{Th}$ 弱整整一个数量级），且其 $\delta E(I)$ 随自旋呈现出强烈的非零偏移与振荡（见刘晨 2016 论文图 5.16 与肖骁 2022 论文图 7）。这一显著差异无可辩驳地表明：$A\approx 80$ 核区的正负宇称连接跃迁绝非源于刚性的静态八极形变，而是反映了处于八极软势阱中的动态关联效应。
+\end{enumerate}
+
+\subsection{跨质量区物理迁移条件与可证伪研究候选卡}\label{sec:4-5-6}
+
+当我们将目光从 $A \approx 80$ 核区转向 $A \approx 130$（Ba-Ce-Pr 区）或稀土超形变区探讨手征性与八极关联的可能结合时，必须确立严谨的微观物理迁移条件：
+\begin{enumerate}
+\item \textbf{双重驱动单粒子轨道条件}：
+体系不仅要在费米面附近具备驱动非轴对称三轴性的高 $j$ 粒子型与空穴型轨道（如 $A\approx 130$ 区的质子 $h_{11/2}$ 壳底与中子 $h_{11/2}$ 壳顶），还必须在同一费米面附近具备满足 $\Delta l = \Delta j = 3$ 的偶奇宇称耦合轨道对（如中重区的 $h_{11/2} \leftrightarrow d_{5/2}$ 耦合，或锕系区的 $j_{15/2} \leftrightarrow g_{9/2}$ 耦合）；
+\item \textbf{微观三轴与八极势能面刚度条件}：
+体系势能面必须在三轴形变参数 $\gamma$ 与八极参数 $\beta_3$ 两个维度上同时具备具备足够深度的局域势阱极小，以抵御大振幅零点涨落和形状共存引起的模式瓦解；
+\item \textbf{强集体转动离心势条件}：
+体系总自旋必须显著超越内禀价核子角动量，保证角动量波包的高度空间局域化，使得有限体系的量子隧穿劈裂在实验可分辨的尺度下呈现出对称的四带近简并阶梯。
+\end{enumerate}
+
+\textbf{高信息增益的可证伪前沿实验候选方案}：
+为了从根本上消除上述实验反演链条中的模型依赖性，未来的实验研究应当聚焦于以下具有决定性鉴别力的物理观测量：
+\begin{enumerate}
+\item \textbf{$^{78}\mathrm{Br}$ 与 $^{74}\mathrm{As}$ 能级绝对寿命与绝对 $B(E1)$ 测量}：
+利用大型反冲距离多普勒频移法（RDM）或超快速定时转换探测器阵列，直接测量 $^{78}\mathrm{Br}$ 与 $^{74}\mathrm{As}$ 负宇称能带（Band 3）关键能级的平均寿命 $\tau$。通过绝对寿命直接给出跨宇称连接跃迁的绝对折合几率 $B(E1)$，从而彻底摆脱对理论计算 $Q_0$ 的输入依赖。若实测带间绝对强度达到 $B(E1) \sim 10^{-2}\ \mathrm{W.u.}$，则确证存在宏观集体增强；若其实测强度处于单粒子禁戒量级（$B(E1) \sim 10^{-4}$--$10^{-5}\ \mathrm{W.u.}$），则表明该跃迁纯属微观微扰混合，排他性证伪集体八极假说。
+\item \textbf{大立体角高灵敏度高自旋实验搜寻闭合 $E1$ 跃迁网络}：
+在新一代高探测效率的跟踪型锗探测阵列（如 GRETA 或 AGATA）上，利用更高统计量的重离子熔合蒸发反应，定向搜寻 $^{78}\mathrm{Br}$ 中正负宇称伴带（Band 2 与 Band 4）之间的可能交叉 $E1$ 连接跃迁。如果在极高探测灵敏度极限下确认 Band 2 与 Band 4 之间完全不存在交织连接，则从实验拓扑上彻底排除了静态对称手征---宇称四重带的假说。
+\item \textbf{放射性束流库仑激发直接提取电八极矩阵元 $\langle \mathcal{M}(E3) \rangle$}：
+利用重离子放射性核束设施（如 HIAF 或 FRIB）对 $A\approx 80$ 过渡核开展多步库仑激发实验，通过重离子库仑散射截面直接提取内禀八极跃迁矩阵元 $\langle 0^+ || \mathcal{M}(E3) || 3^- \rangle$，独立判定微观八极形变的刚性程度，为形状演化提供无模型依赖的直接度量。
+\end{enumerate}
+
+综上所述，原子核高自旋谱中的反射---手征问题，必须严格建立在真实的微观组态、客观的跃迁拓扑以及严谨的测量反演链条之上。绝不能将由不同单粒子组态构建的多手征带与单侧 $E1$ 跃迁，简单包装为静态手征---宇称四重简并带。唯有保持对模型依赖性的审慎剖析，并致力于推进无模型假定的绝对物理量测量，方能在微观核结构的前沿探索中确立坚实可靠的科学认知。

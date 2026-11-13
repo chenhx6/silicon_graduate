@@ -237,6 +237,8 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 
 ## H. Git 与文档同步门
 
+- [ ] A130 自动生成的 SVG、冻结返回稿及本任务审计载荷按 `.gitattributes` 中的精确路径保留字节；它们的空格不作源码风格改写。活动 Python、知识页与 LaTeX 源码仍执行普通空白检查。最终 SVG/PDF 和脚本指纹须回到图源清单核对。
+
 ### WIP ingest/review 与 safe suspend checkpoint
 
 - [ ] 文献摄入长任务、中断、技术 hard P0 或用户明确要求先审核时，HEAD 存在且仅存在一个 active `WIP ingest:` commit；Codex self-audit 完成且技术安全通过时已 amend/创建 final commit。

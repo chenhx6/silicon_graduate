@@ -1,0 +1,12 @@
+{
+  "figure_id": "fig:3-2-rotor-limits",
+  "section_id": "3.2",
+  "producer_script": "system/scripts/a130_rotor_limits_figure.py",
+  "producer_worker": "G81",
+  "pdf_path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/rotor-local-limits.pdf",
+  "pdf_sha256": "1e0ba988331e52460f5443218e88211082a6c99fd25563a537abe032d617594c",
+  "svg_path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/rotor-local-limits.svg",
+  "svg_sha256": "a8775072ee4ebf92d7d0325d4c5694609f4849b12461403638d7293226bd7f24",
+  "caption": "三轴形变转子主轴转动惯量与摆动频率极限对比图。(a) 刚体模型与无旋流体模型的三主轴转动惯量随三轴角 \\gamma（0度 <= \\gamma <= 60度）的相对演化 J_k/J_0；(b) 纯转子无量纲摆动激发频率比值 omega_wob/omega_rot 随 \\gamma 的演化曲线，清晰标明赤道简并极限（\\gamma -> 0度 下 omega_wob -> 0）与对称轴高 K 进动态界限。",
+  "status": "ready-for-g76-consolidation"
+}

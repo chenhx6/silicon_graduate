@@ -62,11 +62,12 @@ A≈130 是当前研究锚点，不是 Wiki 的收录边界。v2 的设计决策
 
 ## 学术手稿与期刊投稿包 (Scientific Manuscripts & Writing)
 
-- **博士论文前置章节研究稿，重写中**：
+- **博士论文前置章节研究稿（LaTeX）**：
   [`raw/writing/gpt/A130/`](raw/writing/gpt/A130/README.md)。
   [LaTeX入口](raw/writing/gpt/A130/these_2023_template/these_template/Thesis.tex)与
   [PDF预览](raw/writing/gpt/A130/these_2023_template/these_template/Thesis.pdf)
-  当前已写15节及附录B/C的已交付内容；完整五章39节与必要附录仍在推进，不含个人实验成果。
+  当前稿包含五章39节、附录A–F和19组Python矢量图，共374页；
+  已完成原件/公式条件核查、整稿编译与代表页视觉检查，不含个人实验成果。
 - **束流申请与 proposal 初稿**：[`raw/proposal/`](raw/proposal/README.md)，独立于执行任务计划，允许随 Git 提交与推送。
 - **当前聚焦候选稿：奇 Ba 四极指标的自旋通道重分配**：
   [`raw/writing/gpt/odd-ba-quadrupole-closure/`](raw/writing/gpt/odd-ba-quadrupole-closure/)。

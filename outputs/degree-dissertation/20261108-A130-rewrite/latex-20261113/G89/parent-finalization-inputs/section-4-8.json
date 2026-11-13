@@ -1,0 +1,417 @@
+{
+  "section_id": "4.8",
+  "title": "环境和形成路径怎样改变可见性",
+  "section_label": "sec:4-8",
+  "type": "latex-evidence-ledger",
+  "status": "completed",
+  "recorded_at": "2026-11-13T21:10:00+08:00",
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-8.tex",
+  "output_tex_sha256": "a2cea6eb2b64ca10f9a1d6b7785cfd4ac9328134aeaa6a231cbcf7dfa55e3420",
+  "staging_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-8.tex",
+  "scope_boundary": "严格覆盖博士论文第4.8节独占写作范围，解构天体热辐射浴开放速率网络、原子核外电子通道微观竞争（IC/NEEC/NEIES/NEET）以及重离子熔合蒸发三阶段分波形成框架；澄清冷态长寿命与高温天体存活及反应形成截面之间的物理脱耦。",
+  "source_inputs": [
+    {
+      "source_id": "doctoral-r1-g33-gintautas-2009-176lu-thermal-equilibration",
+      "citation": "V. Gintautas et al., Phys. Rev. C 80, 015806 (2009)",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G33/gintautas-2009-176lu-thermal-equilibration.pdf",
+      "raw_sha256": "abb6c1656b00e5db22c1c4ea19f54dbdc3b9557d7a8665945a7c0400492770d8",
+      "archive_required": true,
+      "reading_depth": "deep-read"
+    },
+    {
+      "source_id": "doctoral-r1-g33-gosselin-2010-plasma-isomers-176lu-180ta",
+      "citation": "G. Gosselin, P. Morel, P. Mohr, Phys. Rev. C 81, 055808 (2010)",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G33/gosselin-2010-176lu-180ta-plasma-transitions.pdf",
+      "raw_sha256": "ee1165a0508ddbab27d648f5a02e47e4ecc6c97ebe0f6ea53efb818b93c932fa",
+      "archive_required": true,
+      "reading_depth": "deep-read"
+    },
+    {
+      "source_id": "nndc-176lu-isomer-beta-2006-snapshot-20261113",
+      "citation": "M. S. Basunia, Nuclear Data Sheets 107, 791 (2006); NNDC ENSDF dataset 200602",
+      "raw_file": "raw/papers/gpt/query/20261113-A130-lu176-beta-evaluation/manifest.json",
+      "raw_sha256": "e0e1c858a7e0353c851bcb71a372ccf9b0cf13b54df7fb1222bdffa81cdeba29",
+      "archive_required": true,
+      "reading_depth": "deep-read"
+    },
+    {
+      "source_id": "seiferle-2017-lifetime-229th-isomer",
+      "citation": "B. Seiferle, L. von der Wense, P. G. Thirolf, Phys. Rev. Lett. 118, 042501 (2017)",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear_clock/2017_Seiferle et al_Lifetime Measurement of the Th229 nuclear isomer.pdf",
+      "raw_sha256": "78d443a66a8c925ea826158ae94fd7d1c18f571a49edb9508146a48791dc0489",
+      "archive_required": true,
+      "reading_depth": "deep-read"
+    },
+    {
+      "source_id": "beeks-2021-thorium-229-isomer-nuclear-clock",
+      "citation": "K. Beeks et al., Nat. Rev. Phys. 3, 238-248 (2021)",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear_clock/2021_Beeks et al_The thorium-229 low-energy isomer and the nuclear clock.pdf",
+      "raw_sha256": "81490df7838c992a3614beff909616b84c1fe3a5182b79cc53b1ccce705b37c7",
+      "archive_required": true,
+      "reading_depth": "deep-read"
+    },
+    {
+      "source_id": "kraemer-2023-radiative-decay-229th-isomer",
+      "citation": "S. Kraemer et al., Nature 617, 706-710 (2023)",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear_clock/2023_Kraemer et al_Observation of the radiative decay of the 229Th nuclear clock isomer.pdf",
+      "raw_sha256": "3fe040c7e0325de1f7edc71b52a404b97cb3fa91e47d0c6316bf0920f61e26a7",
+      "archive_required": true,
+      "reading_depth": "deep-read"
+    },
+    {
+      "source_id": "chiara-2018-mo93m-isomer-depletion-neec",
+      "citation": "C. J. Chiara et al., Nature 554, 216-219 (2018)",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear battery/2018_Chiara et al_Isomer depletion as experimental evidence of nuclear excitation by electron capture.pdf",
+      "raw_sha256": "5a6d0f39b280e527fce655e37a894c49ce90720ac252915327d880425fcf16ee",
+      "archive_required": true,
+      "reading_depth": "deep-read"
+    },
+    {
+      "source_id": "wu-2019-mo93m-neec-stopping-theory",
+      "citation": "Y. Wu, C. H. Keitel, A. Palffy, Phys. Rev. Lett. 122, 212501 (2019)",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear battery/2019_Wu et al_Mo 93 m Isomer Depletion via Beam-Based Nuclear Excitation by Electron Capture.pdf",
+      "raw_sha256": "65a948a1144b2745a83cf0888fba24fa2fcdd79aa786faed6723f768641daf45",
+      "archive_required": true,
+      "reading_depth": "deep-read"
+    },
+    {
+      "source_id": "guo-2021-mo93m-depletion-contamination-challenge",
+      "citation": "S. Guo et al., Nature 594, E1-E2 (2021)",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear battery/2021_Guo et al_Possible overestimation of isomer depletion due to contamination.pdf",
+      "raw_sha256": "5e98a2700de3c7892fac86abe69475194aa4a7d7b74a2e9608f710c0436a9236",
+      "archive_required": true,
+      "reading_depth": "deep-read"
+    },
+    {
+      "source_id": "guo-2022-mo93m-isomer-beam-depletion-limit",
+      "citation": "S. Guo et al., Phys. Rev. Lett. 128, 242502 (2022)",
+      "raw_file": "raw/papers/isomer/isomer_application/nuclear battery/2022_Guo et al_Probing Mo 93 m Isomer Depletion with an Isomer Beam.pdf",
+      "raw_sha256": "ec3d4f308c1083124d5c8be87417c39ec2804f9568ba6f7901d84d15c7b24652",
+      "archive_required": true,
+      "reading_depth": "deep-read"
+    },
+    {
+      "source_id": "zagrebaev-2001-superheavy-synthesis-survival",
+      "citation": "V. I. Zagrebaev et al., Phys. Rev. C 65, 014607 (2001)",
+      "raw_file": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.65.014607.pdf",
+      "raw_sha256": "0fbce3d3faded1e072ce25eeb8a758cabb81d54b2df2eee71f55efd1686116c8",
+      "archive_required": true,
+      "reading_depth": "deep-read"
+    },
+    {
+      "source_id": "xu-2004-superheavy-high-spin-isomer-stability",
+      "citation": "F. R. Xu et al., Phys. Rev. Lett. 92, 252501 (2004)",
+      "raw_file": "raw/papers/isomer/isomer_application/superheavy_nuclei/2004_Xu et al_Enhanced Stability of Superheavy Nuclei Due to High-Spin Isomerism.pdf",
+      "raw_sha256": "9e6cdfecc0bdf71547cc8eddc7d69489fab8e0361d63ad87bd64a2aea39a413c",
+      "archive_required": true,
+      "reading_depth": "deep-read"
+    },
+    {
+      "source_id": "book-jain-nuclear-isomers",
+      "citation": "A. K. Jain et al., Nuclear Isomers: A Primer (Springer, 2021)",
+      "raw_file": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+      "raw_sha256": "994816561cfb6e89bd215b7fe23e37ecf12e8a3e8f5ce88eafbbd388d02ed74a",
+      "archive_required": true,
+      "reading_depth": "deep-read"
+    },
+    {
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "citation": "J. Suhonen, From Nucleons to Nucleus (Springer, 2007)",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "archive_required": true,
+      "reading_depth": "deep-read"
+    }
+  ],
+  "notations_and_conventions": {
+    "population_vector": "\\mathbf{N}(t) = (N_1(t), \\dots, N_M(t))^T, 单位为粒子数密度 cm^{-3}",
+    "photon_occupation": "n_\\gamma(\\Delta) = [\\exp(\\Delta/kT) - 1]^{-1}, 相空间平均占据数, 可大于1",
+    "temperature_scale": "T_8 \\sim 1-3 (10^8 K) 与 T_9 \\sim 0.1-0.3 (10^9 K) 指称同一温区",
+    "m1_unit_system": "采用SI单位制与Suhonen电荷型磁算符 M_S(M1) = M_\\mu(M1)/c, B_S(M1) 单位为 (\\mu_N/c)^2",
+    "m1_practical_rate": "\\lambda_\\gamma(M1) = C_{M1} (E_\\gamma/MeV)^3 b_{M1}, C_{M1} \\approx 1.7584 \\times 10^{13} s^{-1}, 不重复乘除 c^2",
+    "shell_barrier_sign": "基态壳修正 \\delta U_{\\mathrm{gs}} < 0 (增加结合能), 对位垒贡献 \\Delta B_f^{\\mathrm{shell}} \\approx -\\delta U_{\\mathrm{gs}} > 0"
+  },
+  "claims_and_derivations": [
+    {
+      "claim_id": "CLAIM-4-8-1",
+      "topic": "开放速率网络主方程与核素粒子数密度守恒条件",
+      "claim_kind": "analytical-derivation",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [],
+      "locator": "Tex Eq.(4.8.1)-(4.8.4)",
+      "statement": "开放速率网络方程 dN/dt = A N + P 各列和为 -d_j^{sink}。闭合无外源（所有 d_i^{sink} = 0 且 P = 0）是系统粒子数在任意初值构型下均守恒的充分物理条件；特定开放稳态中产生与漏失平衡（sum P_i = sum d_i^{sink} N_i）亦可使净变化率为零。若要求对于固定的非负常数 P 与 d 对所有初值构型均守恒，则 P 与每个 d 必须为零。",
+      "derivation_steps": [
+        "定义核素各离散能级粒子数密度向量 N(t) (cm^{-3})",
+        "建立内部单向跃迁速率 lambda_{j->i} 与外部不可逆漏失率 d_i^{sink}",
+        "对微分方程组求和导出 dN_{tot}/dt = -sum d_i^{sink} N_i + sum P_i",
+        "明确无漏失闭合条件为任意初值守恒的充分条件与开放平稳轨迹量词的区别"
+      ]
+    },
+    {
+      "claim_id": "CLAIM-4-8-2",
+      "topic": "Planck 辐射场成对可逆电磁跃迁详细平衡与全局 Boltzmann 平衡破坏机制",
+      "claim_kind": "analytical-derivation",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [],
+      "locator": "Tex Eq.(4.8.5)-(4.8.9)",
+      "statement": "在平衡辐射浴中，光子平均占据数满足 Bose-Einstein 分布 n_gamma(Delta) = [exp(Delta/kT) - 1]^{-1}（低能极限下可大于1）。成对可逆电磁跃迁严格服从局域详细平衡 lambda_{l->u}/lambda_{u->l} = (2J_u+1)/(2J_l+1) exp(-Delta/kT)。然而，非对称外部漏失 (d_g^{sink} != d_m^{sink})、非热平衡外源馈入 P(t)、有限跨带热化时间尺度以及中微子非透明性均会打破全局 Boltzmann 平衡。",
+      "derivation_steps": [
+        "推导 Planck 辐射相空间光子平均占据数 n_gamma(Delta)",
+        "由自发/受激辐射及光共振吸收推导成对电磁跃迁率比值",
+        "界定成对微观详细平衡的严格局域性",
+        "剖析非对称漏失、非平衡馈入与有限热化速率破坏宏观 Boltzmann 分布的四大动力学机制",
+        "明确 s-过程典型壳层中微子透明性为忽略逆中微子流的前提假定"
+      ]
+    },
+    {
+      "claim_id": "CLAIM-4-8-3",
+      "topic": "双簇速率方程、归一化份额演化、解析传播与有限窗口热化边界",
+      "claim_kind": "analytical-derivation",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [],
+      "locator": "Tex Eq.(4.8.10)-(4.8.16)",
+      "statement": "双簇归一化份额 f = N_m / N_{tot} 满足 df/dt = a - (a+b)f - (D_m-D_g)f(1-f) + [P_m-f(P_g+P_m)]/N_{tot}。在等漏失 D_g = D_m 且 P = 0 下，共同漏失 D 严格相消，f 以速率 a + b 弛豫至 a/(a+b)，平均弛豫时间为 tau_{therm} = 1/(a + b)。常系数转移矩阵 A 在 P=0 时可完全解析展开为 N(t) = exp(At)N_0（不等漏失不强制数值积分）；时变 A(t) 需完整传播。微扰小根展开 r_- ~ D_{eff} 不自动保证在有限流体冷却或反应窗口内充分热化。",
+      "derivation_steps": [
+        "将带内能级快速局域配分归并为基态簇 g 与异能态簇 m",
+        "对高激发中间桥态绝热消去，导出有效双向交换率 a 与 b",
+        "推导归一化份额 f(t) 微分方程，证明 D_g = D_m 条件下 D 项严格相消且特征弛豫速率为 a + b",
+        "澄清常系数自治网络具备 exp(At) 解析传播，纠正'不等漏失必须数值积分'的过断言",
+        "在一阶微扰展开下导出快速热化有效破坏率 D_{eff}(T)，强调有限天体演化时间窗与初值模投影对实际平衡的物理制约"
+      ]
+    },
+    {
+      "claim_id": "CLAIM-4-8-4",
+      "topic": "176Lu s-过程理论速率模型与 838.6 keV 桥态微观机制",
+      "claim_kind": "author-theoretical-model",
+      "evidence_level": "derived-quantity",
+      "source_ids": [
+        "doctoral-r1-g33-gintautas-2009-176lu-thermal-equilibration",
+        "doctoral-r1-g33-gosselin-2010-plasma-isomers-176lu-180ta",
+        "nndc-176lu-isomer-beta-2006-snapshot-20261113"
+      ],
+      "locator": "Gintautas 2009 PDF p.2 Sec.II开头及838.6-keV段; Gosselin 2010 PDF p.2; NNDC ENSDF dataset 200602; Tex p.4",
+      "statement": "176Lu 属于基于 ENSDF 评估能级的速率与 K 混合理论模型计算（非新增直接实验测定）。基态为 J^pi = 7^- (K^pi = 7^-, T_{1/2} = 3.76e10 yr, tau approx 5.42e10 yr)；异能态 176mLu 为 J^pi = 1^- (K^pi = 0^-, E_x = 122.9 keV, T_{1/2} = 3.664 h, tau approx 5.29 h)，主要通过 beta^- 衰变到 176Hf（根据 NNDC 2006 评价快照，优势分支馈入 0+ 与 2+ 态，分支比分别约为 39(2)% 与 61(2)%，属于一阶禁戒非唯一型跃迁而非允许 GT，另含向 1247.62 keV 2- 态的极微弱允许跃迁 0.00146(4)% 与微小 EC 分支）。两态间直接跃迁最低允许多极为 E6（Delta J = 6, 宇称不变, nu = 1），在热模型中作可忽略近似。跨带热化由 E_x = 838.6 keV 处的 J^pi = 5^-、K^pi = 4^- 桥态主导介导。在 T_8 ~ 2-3 壳层中，桥态共振吸收加速热化，使有效半衰期缩短至数小时。",
+      "derivation_steps": [
+        "回读 Gintautas 2009 原件 PDF 第2页核对基态 7^-、异能态 1^- 与 838.6-keV 桥态 5^- (K=4) 的自旋宇称",
+        "阐明 1^- 到 7^- 的直接跃迁最低允许电多极为 E6，区分选择定则下界与直接测定纯 E6 跃迁的区别",
+        "结合 NNDC 2006 快照评估表核定 176mLu(1-) 优势衰变为一阶禁戒非唯一型 (Delta pi = yes)，消除普遍允许 GT 断言并核对弱负宇称分支为 0.00146(4)%",
+        "界定该工作为基于已知能级的理论跃迁速率模型"
+      ]
+    },
+    {
+      "claim_id": "CLAIM-4-8-5",
+      "topic": "核磁偶极 M1 跃迁率的 SI 电荷型算符与无量纲数值归一自洽性",
+      "claim_kind": "author-theoretical-model",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [
+        "book-suhonen-from-nucleons-to-nucleus"
+      ],
+      "locator": "Suhonen 2007 PDF pp.134-135, Eqs.(6.7)-(6.14); Tex Eq.(4.8.17)-(4.8.19)",
+      "statement": "在 SI 单位制与 Suhonen 电荷型磁算符体系下，自由空间真空 M1 辐射宽度为 Gamma_gamma(M1) = (16pi/9) (4pi epsilon_0)^{-1} (E_gamma / hbar c)^3 B_S(M1)。无量纲约化跃迁几率 b_{M1} = B_S(M1)/(\\mu_N/c)^2 = B_\\mu(M1)/\\mu_N^2 完全恒等，其实用跃迁率公式为 lambda_gamma(M1) = C_{M1} (E_gamma/MeV)^3 b_{M1}，常数 C_{M1} approx 1.7584e13 s^{-1}，不可重复乘除 c^2。介质局域场效应会改变此辐射宽度。",
+      "derivation_steps": [
+        "写出 Suhonen 电荷型磁偶极算符与真空介电常数配比标准式，注明为自由空间定式",
+        "代入 L=1 导出辐射宽度系数 16pi/9",
+        "通过归一化除以命名基准单位消除光速因子的量纲混淆",
+        "确立与博士论文第5.9节及微观笔记的严格代数自洽"
+      ]
+    },
+    {
+      "claim_id": "CLAIM-4-8-6",
+      "topic": "核与外在电子通道（IC/NEEC/NEIES/NEET）微观分类与边界条件",
+      "claim_kind": "analytical-derivation",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [],
+      "locator": "Tex Eq.(4.8.20)-(4.8.22)",
+      "statement": "固定激发初态的总衰变宽度 Gamma_{tot} 为该初态向所有开放末态下行自发退激与漏失通道的和 sum_f Gamma_{gamma, if} (1 + alpha_{if}) + Gamma_{loss}；向上过程（NEEC/激光泵浦）属于开放网络驱动，不属于单态固有退激宽度。在忽略反冲动能的近似下，IC 满足 E_e approx Delta E_{nuc} - E_b > 0 且要求相应轨道存在束缚电子，强剥离裸离子使内转换通道完全关闭；NEEC 是 IC 的时间反演，近似满足共振条件 E_e + E_b approx Delta E_{nuc} = E_t - E_i 且具有有限 Breit-Wigner 峰宽；NEIES 属于自由自由连续谱阈值过程；NEET 属于束缚束缚能级简并虚光子交换过程。",
+      "derivation_steps": [
+        "建立多末态下核固定初态单向退激与漏失总宽度的正确分解式",
+        "澄清向上泵浦与固有下行退激宽度的物理边界",
+        "给出 IC 能量关系及核/离子反冲忽略近似",
+        "导出 NEEC 初末核能级差共振条件及逆过程对应关系",
+        "严格区分 NEEC、NEIES 与 NEET 的微观物理本质"
+      ]
+    },
+    {
+      "claim_id": "CLAIM-4-8-7",
+      "topic": "229mTh 中性自由原子表面内转换半衰期独立实验测量与 alpha_IC 理论比对",
+      "claim_kind": "observed-fact",
+      "evidence_level": "direct",
+      "source_ids": [
+        "seiferle-2017-lifetime-229th-isomer"
+      ],
+      "locator": "PRL 118, 042501 (2017) p.042501-3, Figs.2-3; Tex Eq.(4.8.23)",
+      "statement": "Seiferle 等人（2017）在一项直接实验中测得中性 229mTh 原子沉积在金属/微通道板表面环境下的内转换半衰期为 T_{1/2} = 7 +- 1 us（对应平均寿命 tau approx 10 us）。将其与理论预期的真空光子辐射寿命（tau_gamma ~ 10^4 s）对比，推导出内转换系数 alpha_{IC} approx tau_gamma / tau_{IC} ~ 10^9，证实了理论对极高内转换压制的预言，而非在中性原子实验中直接同时观测到了微弱的光子辐射分支。",
+      "derivation_steps": [
+        "回读 Seiferle 2017 PRL 原件第3页及图2-3延迟飞行时间谱",
+        "记录直接实验测得的中性内转换半衰期数值 7 +- 1 us",
+        "明确 alpha_{IC} ~ 10^9 属于实测 IC 寿命与理论辐射寿命比较得出的推论参数"
+      ]
+    },
+    {
+      "claim_id": "CLAIM-4-8-8",
+      "topic": "宽禁带氟化物晶体中 229mTh 辐射波长、半衰期及真空外推条件",
+      "claim_kind": "observed-fact",
+      "evidence_level": "direct",
+      "source_ids": [
+        "kraemer-2023-radiative-decay-229th-isomer"
+      ],
+      "locator": "Nature 617, 706 (2023) PDF pp.1-4; Tex Eq.(4.8.24)",
+      "statement": "Kraemer 等人（2023）测得 229mTh 辐射波长为 148.71 +- 0.06_{stat} +- 0.41_{syst} nm (8.338 +- 0.003_{stat} +- 0.023_{syst} eV)。CaF2 与 MgF2 禁带宽度分别为 12.1 eV 与 12.4 eV（PDF p.2）。在 MgF2 晶体中直接测得半衰期为 670(102) s（对应晶体中平均寿命 tau approx 967 s，非 CaF2 数值或自由真空本征寿命）。采用宏观折射率虚腔模型（n=1.488, n^3 approx 3.3）推算估算真空辐射半衰期约为 2.21(0.34)e3 s，作者明确指出该宏观电介质模型对浅表面植入的适用性存在局限，属于模型推论；晶格缺陷淬灭仍须作为实验不确定度保留。",
+      "derivation_steps": [
+        "回读 Kraemer 2023 Nature 原件第1-4页，记录精确带隙（CaF2 12.1 eV, MgF2 12.4 eV）与跃迁波长能级数值",
+        "核验 MgF2 晶体半衰期 670(102) s 的直接测量属性",
+        "记录宏观折射率虚腔模型推算真空半衰期 2.21(0.34)e3 s 及其浅表面适用性局限",
+        "明确宽禁带抑制价带普通内转换并不保证晶格非辐射缺陷为零"
+      ]
+    },
+    {
+      "claim_id": "CLAIM-4-8-9",
+      "topic": "93mMo 逆运动学反冲慢化 NEEC 激发几率初次实验报道与真实束流设置",
+      "claim_kind": "observed-fact",
+      "evidence_level": "direct",
+      "source_ids": [
+        "chiara-2018-mo93m-isomer-depletion-neec"
+      ],
+      "locator": "Nature 554, 216 (2018) pp.216-218, Figs.1-3; Tex Eq.(4.8.25)",
+      "statement": "Chiara 等人（2018）在阿贡 ATLAS 利用 7Li(90Zr, p3n)93mMo 逆运动学反应产生反冲核在碳膜中慢化，报道观测到频移 2475 keV 馈入与未频移 268 keV 跃迁（中间态 T_{1/2} = 3.5 ns, tau approx 5.05 ns）符合，提取出耗散几率 P_{exc} = 1.0(3)%，归因为 NEEC 观测。",
+      "derivation_steps": [
+        "回读 Chiara 2018 Nature 原件核准反应为 7Li(90Zr, p3n)",
+        "记录阿贡 ATLAS 逆运动学实验设置与碳阻止薄膜参数",
+        "核查报告的激发几率 1.0(3)% 与触发中间能级半衰期 3.5 ns"
+      ]
+    },
+    {
+      "claim_id": "CLAIM-4-8-10",
+      "topic": "93mMo 相对论原子结构与阻止本领理论计算的 9 个量级分歧",
+      "claim_kind": "author-theoretical-model",
+      "evidence_level": "derived-quantity",
+      "source_ids": [
+        "wu-2019-mo93m-neec-stopping-theory"
+      ],
+      "locator": "PRL 122, 212501 (2019) pp.212501-2-4, Table I-II; Tex Eq.(4.8.26)",
+      "statement": "Wu 等人（2019）利用 MCDF 波函数与 CasP 阻止模型计算 93mMo 离子在碳膜慢化过程中的 648 个电子复合通道，理论总 NEEC 几率为 (2.26-2.73)e-11，与 Chiara 2018 报告相差 9 个数量级，揭示 L 层空穴在碳中快速冷却导致的物理淬灭机制。",
+      "derivation_steps": [
+        "回读 Wu 2019 PRL 原件第2-4页与表I-II",
+        "记录 648 个通道综合积分几率 (2.26-2.73)e-11",
+        "确立相对论微观原子物理理论对实验大截面宣称的严密挑战"
+      ]
+    },
+    {
+      "claim_id": "CLAIM-4-8-11",
+      "topic": "兰州 HIRFL/RIBLL 次级异能束实验确立的 93mMo 耗散几率上限与 95% 面积接受度定义",
+      "claim_kind": "observed-fact",
+      "evidence_level": "direct",
+      "source_ids": [
+        "guo-2022-mo93m-isomer-beam-depletion-limit"
+      ],
+      "locator": "PRL 128, 242502 (2022) pp.242502-2-4, Figs.1-2; Tex Eq.(4.8.27)",
+      "statement": "Guo 等人（2022）在兰州 HIRFL / RIBLL 35米束线利用 12C(86Kr, 5n) 初级反应（初束 559 MeV）产生 460 MeV 93mMo^{36+} 次级束（异能纯度 ~0.6%），在 266.5-269.5 keV 窗观测 570 计数（本底 596 计数，3sigma 下限 523 计数）。以中心 3 keV 能窗对假设高斯峰 95% 的面积接受度（acceptance）导出净峰计数上限 ~50，确立激发几率上限 P_{max} approx 2e-5（非 P_{max} 的 95% 置信水平）。该上限比 Chiara 结果低 500 倍，但受限于特定束流与慢化条件，不构成全物理平台排除。",
+      "derivation_steps": [
+        "回读 Guo 2022 PRL 原件核对装置为兰州 HIRFL/RIBLL 次级束流线",
+        "核对初级反应 12C+86Kr、次级束流能量 460 MeV、电荷态 36+ 与异能纯度 ~0.6%",
+        "查证 268 keV 能谱计数与 3sigma 本底下限（523 计数）",
+        "纠正 95% 为高斯能量窗口面积接受度（acceptance），明确其用于折算高斯边缘计数而非置信水平",
+        "客观界定该实验在特定束流条件下的严格判据价值与外推边界"
+      ]
+    },
+    {
+      "claim_id": "CLAIM-4-8-12",
+      "topic": "重离子完全熔合蒸发剩余截面分波展开式、通道自旋耦合与表观势垒曲率界限",
+      "claim_kind": "author-theoretical-model",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [
+        "zagrebaev-2001-superheavy-synthesis-survival"
+      ],
+      "locator": "PRC 65, 014607 (2001) p.014607-1-2; Tex Eq.(4.8.28)-(4.8.31)",
+      "statement": "总蒸发剩余截面分波展开为 sigma_{ER}(E) = sum_{J_0} sigma_{cap}(E, J_0) P_{CN}(E, J_0) W_{sur}(E^*, J_0)，为近似三阶段分解。若 sigma_{cap} 已显式包含 (2J_0+1)，求和中严禁重复乘入。非零自旋通道采用 T_{lS}^{J_0}(E) 矩阵元，简化为 T_l(E, J_0) 属于忽略通道自旋 S 依赖的近似。D_{fus}(E) = d^2(E sigma_{fus})/dE^2 为截面曲率表观量，在强准裂变或 P_{CN}(E) 具能量依赖的体系中不等于裸入射势垒几何分布，不可混淆俘获/完全熔合/ER各截面能量导数。P_{CN} 降至 10^{-2}-10^{-4} 属特定超重反应能窗示例，非全核区常数。",
+      "derivation_steps": [
+        "写出重离子分波反应框架标准式，使用 J_0 标识初始复合核分波",
+        "明确部分俘获截面自旋通道求和，防止重复乘入 (2J_0+1)",
+        "界定表观势垒曲率 D_{fus} 与几何接触势垒分布在重核准裂变体系中的物理差异",
+        "澄清 P_{CN} 数量级的反应能窗依赖性与非普适性"
+      ]
+    },
+    {
+      "claim_id": "CLAIM-4-8-13",
+      "topic": "多步中子级联连续能量积分与代表轨迹分宽乘积近似",
+      "claim_kind": "author-theoretical-model",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [
+        "zagrebaev-2001-superheavy-synthesis-survival"
+      ],
+      "locator": "PRC 65, 014607 (2001) PDF p.7 Eqs.(10)-(11); Tex Eq.(4.8.32)-(4.8.35)",
+      "statement": "严格多中子级联退激要求逐级对出射中子连续能谱积分并耦合终末 gamma 冷却（Zagrebaev 2001 PDF p.7 式(10)-(11)）。采用离散中心动能分宽比乘积近似 W_{sur} approx Delta_x prod [Gamma_n/Gamma_{tot}] 属于进一步简化（Delta_x 为落入末步 gamma 能窗的能量实现因子）。Hauser-Feshbach 中子宽度 Gamma_n 与 Bohr-Wheeler 裂变宽度 Gamma_f 分子积分项均为无量纲开放通道数，除以母核能级密度 rho (MeV^{-1}) 后严格具有能量量纲（MeV）。严禁在中子积分前拼入多余动能 epsilon。",
+      "derivation_steps": [
+        "指出严格 xn 退激包含连续动能能谱积分与终末 gamma 辐射冷却",
+        "推导 Hauser-Feshbach 中子发射率并在分母配平母核能级密度",
+        "执行积分量纲核对：T_l 无量纲，rho_R (MeV^{-1})，d epsilon (MeV)，除以 rho (MeV^{-1}) 给出能级宽度量纲 MeV",
+        "推导 Bohr-Wheeler 裂变鞍点过渡态开放通道数积分及裂变宽度",
+        "规范能量实现因子 Delta_x 与逐步动态更新关系"
+      ]
+    },
+    {
+      "claim_id": "CLAIM-4-8-14",
+      "topic": "微观壳修正对裂变位垒的正增强符号与宏观位垒非零事实",
+      "claim_kind": "author-theoretical-model",
+      "evidence_level": "derived-quantity",
+      "source_ids": [
+        "zagrebaev-2001-superheavy-synthesis-survival"
+      ],
+      "locator": "PRC 65, 014607 (2001) PDF p.7 Sec.V.A; Tex Eq.(4.8.36)-(4.8.37)",
+      "statement": "裂变位垒通用相减式为 B_f = B_f^{LD} + Delta B_f^{shell}，其中 Delta B_f^{shell} = delta U_{saddle} - delta U_{gs}。宏观液滴位垒 B_f^{LD} 并不能在全超重核区普遍设为零（Zagrebaev 2001 原件 PDF p.7 §V.A 254No 邻区计算例子中液滴位垒仍约 1.2 MeV）。在壳稳定体系中基态壳修正 delta U_{gs} < 0 增加结合能，鞍点处大形变冲刷壳效应（delta U_{saddle} approx 0），此时唯象导出微观增强为正贡献 Delta B_f^{shell} approx -delta U_{gs} > 0，这属于特定体系唯象近似非普遍定理。有效位垒指数阻尼模型 B_f(E^*) = B_f^{LD} + Delta B_f^{shell} exp(-gamma_D E^*) 属于参数化模型，Ignatyuk 原始模型针对能级密度参数 a(E^*)。",
+      "derivation_steps": [
+        "先给出总裂变位垒的通用相减式 B_f^{LD} + delta U_{saddle} - delta U_{gs}",
+        "撤回超重核全域宏观位垒为零的过度断言，以 Zagrebaev 2001 254No 例子 1.2 MeV 为界",
+        "阐明鞍点冲刷 delta U_{saddle} approx 0 与基态负值导致净增强为正的唯象适用条件",
+        "给出唯象指数阻尼表达式并阐明其在高温下的壳效应消失机制"
+      ]
+    },
+    {
+      "claim_id": "CLAIM-4-8-15",
+      "topic": "超重核冷态高 K 异能位垒与高温反应产额脱耦、进入态系综分布与时间窗接受几率",
+      "claim_kind": "author-theoretical-model",
+      "evidence_level": "derived-quantity",
+      "source_ids": [
+        "xu-2004-superheavy-high-spin-isomer-stability",
+        "zagrebaev-2001-superheavy-synthesis-survival"
+      ],
+      "locator": "Xu 2004 PRL 92, 252501 pp.1-4; Tex Eq.(4.8.38)-(4.8.42)",
+      "statement": "Xu 等人（2004）指出的超重核高 K 异能态冷裂变位垒增高源于冷态多准粒子阻止，但高温激发阶段壳修正指数阻尼，中子与裂变竞争由平均能级密度主导。初始分波 J_0 经中子蒸发后在准连续谱形成条件归一化分布 F(E_{entry}^*, J_{entry}, pi | E, J_0, surv)，异能态截面为全分波加权 sigma_{isomer}(E) = sum_{J_0} sigma_{ER}(E, J_0) bbar_{feed}(E, J_0)。整体有效分支比 b_{eff} 为截面加权平均。焦平面关联谱学理想接受概率为 P_{det}(tau) = exp(-t_f/tau) [1 - exp(-Delta t/tau)] epsilon_{decay} epsilon_{geom}；接受率受抑不等于物理不可探测，在途衰变谱仪与靶点阵列可在不同构型下捕获短寿命辐射。",
+      "derivation_steps": [
+        "区分微观冷态高 K 准粒子位垒阻止机制与高温统计复合核相空间",
+        "引入蒸发后进入态条件分布 F 并严格区分复合核初始分波 J_0 与进入态自旋 J_{entry}",
+        "推导级联平均分支比 bbar_{feed}(E, J_0) 及整体加权有效分支比 b_{eff}",
+        "给出双侧时间窗接受几率公式 P_{det}(tau)，消除绝对化'无法观测'断言"
+      ]
+    }
+  ],
+  "competing_explanations_and_boundaries": [
+    "176Lu 天体丰度演化：经典不可变宇宙时钟假设 vs 高激发桥态共振热化温度计模型",
+    "93mMo NEEC 争论：逆运动学慢化 NEEC 假说（Chiara 2018）vs 熔合瞬发级联/靶杂质污染竞争解释（Guo 2021）及次级束流上限严格检验（Guo 2022）",
+    "超重核异能态稳定性：零温冷态多准粒子阻止增强裂变位垒（Xu 2004）vs 高激发能相空间壳阻尼与中子/裂变竞争脱耦"
+  ],
+  "reader_checks": [
+    "检查第4.8.1小节热网络方程矩阵元、列和与总核素粒子数密度演化，确认守恒性与物理量纲严格自洽",
+    "检查光子平均占据数定义，确认纠正为相空间占据数（可大于1）而非概率",
+    "检查详细平衡局域性与开放网络非平衡机制，确认澄清了 Boltzmann 平衡适用边界",
+    "检查双簇特征值极限定理，确认证明了等漏失 D_g = D_m = D 条件下弛豫速率严格为 a + b",
+    "检查 SI 单位制与 Suhonen 电荷型磁算符 M1 辐射率，确认无量纲数值 b_{M1} 完全恒等且删除了错误光速因子 c^2",
+    "检查 229mTh 原件，确认直接引用 Seiferle 2017 原件中性内转换半衰期 7 +- 1 us，确认 Kraemer 2023 MgF2 辐射半衰期 670(102) s 区分了介质折射率推断与真空测量",
+    "检查 93mMo 实验原件，确认 Chiara 2018 实际反应为 7Li(90Zr, p3n)（删除了伪造的 82Se+16O），确认 Guo 2022 实际装置为兰州 HIRFL/RIBLL 次级束（非 ATLAS），异能纯度 ~0.6%，澄清 95% 为高斯面积接受度（删除了伪造的 95% 置信水平）",
+    "检查重离子熔合分波公式，确认消除了 (2J+1) 重复双重计数",
+    "检查 Hauser-Feshbach 中子宽度积分，确认删除了多余的动能因子 epsilon，确保了宽度的能量量纲",
+    "检查微观壳修正符号，明确基态壳修正负值 delta U_{gs} < 0 对应裂变位垒正增强 Delta B_f^{shell} approx -delta U_{gs} > 0",
+    "检查超重核异能态冷态位垒与高温反应形成截面的脱耦论证，补充了进入态系综馈入加权与实验时间窗选择"
+  ],
+  "prohibitions_strictly_obeyed": [
+    "严禁将微观成对电磁详细平衡直接泛化为全开网 Boltzmann 热平衡",
+    "严禁对已按基准单位归一的无量纲数值 b_{M1} 重复乘除光速 c^2",
+    "严禁混淆 NEEC、NEIES 与 NEET 的微观物理通道定义",
+    "严禁编造或混淆 93mMo 的初级反应、实验装置、次级束纯度与统计量定义",
+    "严禁在分波熔合截面中将统计因子 (2J+1) 重复相乘两次",
+    "严禁在中子蒸发分宽积分中错误拼入多余动能因子导致量纲破坏",
+    "严禁将零温冷态离散高 K 异能位垒直接套用为高温复合核存活几率",
+    "TeX正文中绝无口号式词汇（如‘科学合同’、‘无懈可击大厦’、‘严禁绝对’），语言客观严密"
+  ],
+  "open_issues": []
+}

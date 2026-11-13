@@ -1,0 +1,130 @@
+{
+  "recorded_at": "2026-11-13T12:33:45.672955+00:00",
+  "status": "returned-for-science-and-source-readiness",
+  "priority_order": [
+    "5.2",
+    "5.6",
+    "5.8 via acceptedT18",
+    "5.7 afterT19",
+    "5.10/E/D/4.7 pending further parent review"
+  ],
+  "working_mode": "One section per delivery; all previous delivered files remain pending parent acceptance. Keep 27 accepted sections and common files read-only.",
+  "section_5_2": [
+    {
+      "id": "52-1",
+      "severity": "hard-source",
+      "action": "Do not reuse false Hamilton page claims. Parent rendered rawPDF355=printed344, Chapter10 internal conversion, not polarimetry. Correct original-reading records and locators by actual image reading. Hamilton PDF956pages has bookmarks: chapter12 begins516; orientation529/532; F550; A553/555; W556; deorientation563; P/DCO569; linear polarization727/728. Do not call book355–371 chapters8/9."
+    },
+    {
+      "id": "52-2",
+      "severity": "hard-source",
+      "action": "Wu rawPDF243=printed235 is alpha range/absorption; PDF250=printed242 beta magnetic spectrometer. The claimed printed235–255 semiconductor/Fano/gamma efficiency range is not correct. Parent visually checked ToC: photon interactions printed54–65=>PDF62–73; semiconductor chapter5 printed135–158=>PDF143–166; HPGe structural/performance printed146–151=>PDF154–159; gamma shapes/efficiency printed257–272=>PDF265–280; antiCoinc printed278–281=>PDF286–289. These are navigation candidates, not automatic proof of every claim. Render only actual needed pages and record precise equations/tables/paragraphs."
+    },
+    {
+      "id": "52-3",
+      "severity": "definitions",
+      "action": "Use R=R_FEP+R_other if explaining P/T: integral over an uncorrected finite energy window includes continuum and may truncate Gaussian tails. Define peak as fitted/net full-energy component or state window-acceptance and background conditions. Avoid equality between window raw counts and trueFEP probability."
+    },
+    {
+      "id": "52-4",
+      "severity": "physical-conditions",
+      "action": "Photoelectric relaxation X-rays/Auger are not invariably fully reabsorbed: conditional reabsorption gives FEP, X-ray escape can occur near boundary. State approximate energy/Z scaling domain, not all Ge energies across edges. Resolve whether FWHMstat variance symbol counts pairs or energy, retaining correct Fano formula."
+    },
+    {
+      "id": "52-5",
+      "severity": "conditions-and-conventions",
+      "action": "Define a in A=(Nperp−aNparallel)/(Nperp+aNparallel) as Nperp0/Nparallel0, matching5.7; a reciprocal convention must transform formula. Add-back noise-only contribution can sum under independence, but complete sum variance needs covariance/energy partition. TCS rate-independent statement is per fixed decay ensemble, geometry and acceptance in ideal linear regime; absolute count rate scales with source, and actual pile-up/deadtime/gates may change observed summing."
+    },
+    {
+      "id": "52-6",
+      "severity": "source-boundary",
+      "action": "AGATA raw is41-page manuscript, so do not infer printed journal26–35 from physicalPDF1–10. Cite actual PDF pages/version and distinguish simulated full180-crystal design from installed configuration. Figure arbitrary synthetic amplitude1.45 is a chosen illustration, not measured or predicted add-back factor for unknown detector. Keep synthetic/y-axis declaration."
+    }
+  ],
+  "section_5_6": [
+    {
+      "id": "56-1",
+      "severity": "hard-statistics",
+      "action": "Var(S)=μP+a²μR for independentPoisson P,R and fixeda. P+a²R is its plug-in estimator, so label estimatedvariance or use hats, not an exact populationvariance identity. Multi-event/weighted matrix contributions are not automatically independentPoisson."
+    },
+    {
+      "id": "56-2",
+      "severity": "hard-definitions",
+      "action": "Gate background equation cL+cR=Wp/Wbackground is not general when side windows differ. Define raw side sums BL/BR with widths wL/wR and centers eL/eR; linear interpolation weights λL=(eR−e0)/(eR−eL),λR=1−λL; subtract Wp[λL BL/wL+λR BR/wR]. Equal width/central symmetry may reduce to familiar half-weights. Define whether integrated local linear approximation or exact integral is intended; no unit ambiguity."
+    },
+    {
+      "id": "56-3",
+      "severity": "inference",
+      "action": "Missing peak in a finite gated spectrum is not strict anticoincidence without sensitivity/upper limit/efficiency/branching/energyoverlap. Keep ideal teaching graph as graph property, but Wakudyanaye actualexample supports conditional placement, not deterministicproof from absence alone. Verify original pages62–63 rather than old ledger."
+    },
+    {
+      "id": "56-4",
+      "severity": "inference",
+      "action": "True coincidence alone does not prove same nucleus or one cascade; reaction partners/crosstalk/misidentification can correlate. State after isotope/contamination controls it supports a common decaynetwork, not automatic adjacent ordering. Do not claim spin/parity universallyrequires lifetimes andB as well asADO/P: many alternative absolute/selection/knownanchor constraints exist, and not all jointly guaranteeunique assignment."
+    },
+    {
+      "id": "56-5",
+      "severity": "conditions",
+      "action": "Under steady state use intensitybalance, but longisomer delay gives apparent in/out mismatch specifically with finite observation windows/nonstationary buildup. Do not simultaneously assume stationary totalbalance and explain loss by lifetime alone. Recoil term in Ritz relation must be defined as the difference between crossover and cascade recoil sums, or just state use recoil-corrected levelenergy differences."
+    },
+    {
+      "id": "56-6",
+      "severity": "source-and-prose",
+      "action": "Check Xiao2019 degree label against actual source cover/metadata, not inherited wording. Remove duplicated 特定特定 and avoid accident-summed common-scatter counts being called independent photons. Plot synthetic energies/allowedmultipoles look internally consistent but final arrayplot still needs a visual check."
+    }
+  ],
+  "section_5_8": {
+    "audit": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/report.json",
+    "candidate": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/correction.tex",
+    "parent_acceptance": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/parent-acceptance.json",
+    "required": "Apply F01–F08 with actualoriginals. Direct shifted gate does not mean targetpopulated atleavetarget. dS=−dU canholdwithfeeding but lifetimecorrection stillneedsfeeding; normalizewithconsistentgate/exposure, define indirectalpha. Repair DSAM convolution commonenergygrid and preserve broadenedtails outsideflightinterval, regeneratepairedSVG/PDF. Declare lowvelocity frameapproximation or proper-timeintegration consistently. Fix ledger dv/dt contradiction and figurecaption linestyles. No universal stoppingpowerlinearerror or methodwindow."
+  },
+  "section_5_7": {
+    "status": "Frozen for independentTerraT19; do not alter canonical until parent sends T19 return, apart from read-only prep.",
+    "known_issue": "a_k formula stillmultipliesU despite W using alreadyattenuatedBk. Parent originalsource locator changes mandatory. T19willcheck remainingtensor/geometry/polarization/domain details."
+  },
+  "source_delivery_requirement": "For eachloadbearingclaim provide canonicalsource_id/source_page, actualrawSHA, actualphysical/printedpage and equation/table/visibleanchor. Scannedbooks need image reading. Inherited locator not physicallyread must be labelled pending, never actual_read_pages. No quotes longer than necessary. Sync正文/ledger/ownknowledge and return realSHA persection; no commonBib/globalmanifest/Git.",
+  "updated_at": "2026-11-13T12:50:02.872523+00:00",
+  "section_5_10": [
+    {
+      "id": "510-1",
+      "severity": "hard-statistics",
+      "action": "Disjoint bins or event-level recording alone do not imply independentPoisson. State underlying Poissonpointprocess/appropriatePoissonization and independentthinning, or use fixedtotal multinomial/eventcluster model. Include calibration/sideband factors in a jointlikelihood with their actual distribution; one Poissonproduct is not automatically a full likelihood for Gaussianauxiliary calibration constraints."
+    },
+    {
+      "id": "510-2",
+      "severity": "hard-statistics",
+      "action": "As in5.6: populationVar(S)=μP+a²μR for independentPoisson/fixeda; P+a²R is a plug-in estimate. Parent sharedforward-observables note has now been corrected too; do not inherit its old unmarked notation. ScalarJacobian variance expansion is firstorderapproximate for nonlinear g, not an exact general equality."
+    },
+    {
+      "id": "510-3",
+      "severity": "hard-logic",
+      "action": "Remove “independent (i.e. covariancezero)” and “onlyindependence permits sumofsquares”. Uncorrelatedinputs are sufficient at firstorder; independence is stronger, while individual cross-terms can also cancel. Do not contradict your following correct sentence about zeroCov not implyingindependence."
+    },
+    {
+      "id": "510-4",
+      "severity": "causal-identity",
+      "action": "Distinguish raw fitted netpeakarea A_i (count) from efficiency/live-time correctedyield I_i. Shared efficiency calibration adds covariance to corrected quantities or an explicit generative/nuisance model, not automatically the fitting covariance of rawcountareas. Common calibration can generate either sign acrossenergies; table must not force all covariancepositive or branch covariance alwaysnegative outsideconditionalmultinomial."
+    },
+    {
+      "id": "510-5",
+      "severity": "inference-conditions",
+      "action": "Wilks df is number of tested interestparameters, not total dimension including profilednuisances. Multipeaks may need global branch reporting even when localHessian is valid within a branch; not every non-Gaussian finite curve invalidates asymptotic theory. Label Hessian as profile curvature if nuisance optimized. Do not imply a profile curve alone supplies confidence coverage without its reference/calibration distribution."
+    },
+    {
+      "id": "510-6",
+      "severity": "coverage",
+      "action": "Feldman-Cousins is fixed likelihood-ratio ordering Neyman acceptance-band inversion for a specified generative model, not just clipping a profileat2.71. Discrete interval endpoints may jump; no universal smoothness/emptyset/coverage guarantee with arbitrary nuisance treatment. State testedmethod/confidencelevel/ordering/nuisance procedure; textbook or actual Feldman-Cousins primary must have locator. MC error propagation is not automatically posterior, and merely adding an arbitraryprior is not sufficient; it is a posterior pushforward only if the input samples already have the appropriate conditionalposterior law."
+    },
+    {
+      "id": "510-7",
+      "severity": "source-scope",
+      "action": "Efficiency2–5% and stoppingpower10–20% need realexperiment/material/energy/source locator or should be removed. Do not attach generic budgets to unknown hardware or say every physicalmode hypothesis may only be proposed after all instrumental effects excluded; distinguish exploratory candidate from substantiatedclaim."
+    },
+    {
+      "id": "510-8",
+      "severity": "tables-and-synthetic-figure",
+      "action": "Keep data-interface examples clearly teachingonly, no fabricatedpersonaldata. A reference intensity normalized to itself is exact100 bydefinition, unlike a measured yield100(5); define which. Limits propagated together need joint uncertainty/coverage, not assumed95% from separate marginalbounds. Audit plot: constrained profile is defined on μ≥0 with constrainedMLE normalization; a flat extension to negativeμ is not data or a valid physicaldomain. Toy2.71line remains illustrative, not universalFC. Do not report95%CL without chosen construction."
+    }
+  ]
+}

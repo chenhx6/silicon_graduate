@@ -1,0 +1,58 @@
+%---------------------------------------------------------------------------%
+%- Appendix F: 可复现输入和来源表 (Staging draft for Wave-3 integration)
+%---------------------------------------------------------------------------%
+\chapter{可复现输入和来源表}\label{app:reproducible-inputs}
+
+本附录依据博士论文 39 节总体设计合同，集中记录正文各章涉及的所有自主生成图件、模型仿真数据集以及算法生成脚本的输入来源、版本边界与可复现哈希指纹。本论文坚持科学诚实原则，严格区分微观解析推导、唯象概念图景、无噪声教学模型以及真实实验数据，不捏造用户私有实验数据，亦不将未取得的前端硬件材料宣称为已验证事实。
+
+\section{矢量图件生产与哈希指纹}\label{sec:appF-figures}
+
+正文目前采用的 7 项矢量图件均由 Python 脚本 \texttt{system/scripts/a130\_latex\_figures.py}（SHA-256：\texttt{6755b0da5dcb}）全自动生成，且均在工程内部实现 PDF 矢量打印与 SVG 网页级呈现的双格式对应。表~\ref{tab:appF-figures} 详细列出了各图件的物理属性、所属章节、输入来源以及最终构建所冻结的精确 SHA-256 哈希值。
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{正文 7 项自主生成矢量图件的来源、分类与 SHA-256 哈希表}\label{tab:appF-figures}
+\begin{tabularx}{\textwidth}{llp{3.5cm}p{4.5cm}l}
+\toprule
+图件标识 & 节 & 物理分类 & 输入依据与数据源 & PDF SHA-256 (前8位) \\
+\midrule
+shape-moments & 1.2 & 概念示意 & 四极内禀系与实验室矩抽象阶梯 & \texttt{d174e5ac} \\
+six-region-map & 1.4 & 案例坐标 & 六区已核准实验与理论锚点核素 & \texttt{1bbb37e7} \\
+chapter-dependency & 1.5 & 架构逻辑 & 五章依赖与证据反馈闭环 & \texttt{c817f477} \\
+occupancy-centroids & 2.2 & 教学模型 & 单极相互作用与 ESPE 质心漂移 & \texttt{1c016d53} \\
+gamma-measure & 2.4 & 解析几何 & 5D 集体哈密顿量度规体积元 & \texttt{c3336dd7} \\
+digital-energy-response & 5.3 & 仿真数据 & 梯形滤波差分递推与弹道亏损表 & \texttt{41520bb2} \\
+cfd-phase-convergence & 5.4 & 仿真数据 & 采样时钟周期与过零插值误差表 & \texttt{dbfbbdcd} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{数值模型与仿真数据集清单}\label{sec:appF-datasets}
+
+第 5 章涉及的数字信号处理响应与定时误差分析依托于独立的标准仿真数据。所有数据均由因果离散差分算法在离散时间网格上生成，保存为结构化 CSV 格式。数据文件的路径与校验码如表~\ref{tab:appF-csv} 所示。
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{数值模拟输入与教学模型 CSV 数据集清单}\label{tab:appF-csv}
+\begin{tabularx}{\textwidth}{p{6.5cm}ccp{5.5cm}}
+\toprule
+数据集路径 & 维度 & 大小 & 物理意义与主要内容 \\
+\midrule
+\texttt{outputs/l4/.../ballistic\_deficit\_study.csv} & 8行24列 & 1998 B & 梯形滤波成形时间 $t_r$ 与平顶 $t_g$ 下的弹道亏损数值响应 \\
+\texttt{outputs/l4/.../sampling\_convergence.csv} & 4行5列 & 247 B & 4 组采样周期（10, 5, 2.5, 1.25 ns）下的最大定时走动误差收敛数据 \\
+\texttt{outputs/l4/.../cfd\_phase\_walk_analysis.csv} & 20行6列 & 2050 B & 20 个离散时钟相位点上的 CFD 线性过零插值误差跟踪 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{物理适用边界与未取得硬件材料声明}\label{sec:appF-boundaries}
+
+为了明确本前置研究稿的有效范围并为后续实验提供可信边界，在此作出如下具体声明：
+\begin{enumerate}[label=(\arabic*),leftmargin=2em]
+    \item \textbf{教学模型与实测边界：}第 2.2 节的单极占据质心移动图与第 5.3/5.4 节的数字滤波与定时图均基于声明的确定性数学公式（如双指数前放脉冲模型），不含实际探测器中普遍存在的电荷收集时间弥散、低频微音噪声以及硬件模数转换（ADC）积分非线性误差。
+    \item \textbf{未取得的原始硬件文件：}本阶段工作未包含商业商业数字化仪（如 Pixie-16 等）内部专有的 FPGA 门级网表、DSP 汇编驱动代码或私有硬件寄存器转储文件。正文中的算法实现均限制在公开文献刊印的通用因果递推差分方程范畴。
+    \item \textbf{私有实验数据隔离：}本前置稿未引入任何未经合法授权或未标定校准的用户课题组私有在束伽马符合矩阵；所有实测谱学讨论均严格以公开发表的经典同行评议文献为唯一依据。
+\end{enumerate}
+%---------------------------------------------------------------------------%

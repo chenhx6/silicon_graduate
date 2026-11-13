@@ -1,0 +1,40 @@
+% T22 候选 A：冻结稿第 5 行中，将“其内禀离散对称性破缺流形将对应于手征左右取向与八极宇称正反朝向的四重离散状态”替换为：
+在选定有向体轴且确有相关定域构型的理想图像中，可以用手征左右与八极朝向标记四个内禀构型；它们是否独立及是否形成四条投影低能带仍须检验
+
+% T22 候选 B：替换冻结稿第 81--99 行的两个 subsubsection，保留原有两个公式标签。
+\subsubsection{时间反演、手征操作与手征双重态}
+
+为明确操作与内禀标签的关系，先取一个受限模型：四极张量在固定右手主轴 $(1,2,3)=(x,y,z)$ 上对角，且三个本征值互异；奇宇称形变仅含 $\beta_{30}Y_{30}$。下表均为对态与密度的\emph{主动}操作，并在同一组有向坐标轴上比较；电四极形状及电荷八极坐标均取时间反演偶。记 $\mathbf{a}=(a_1,a_2,a_3)$ 为 $\mathbf j_p,\mathbf j_n,\mathbf R$ 中任一轴角动量，定义
+\begin{equation}\label{eq:4-5-chiral-op}
+\mathcal C\equiv\mathcal T\mathcal R_y(\pi),\qquad
+\mathcal D\equiv\hat{\mathcal P}\mathcal C.
+\end{equation}
+三矢量非共面的几何量是
+\begin{equation}\label{eq:4-5-chiral-triple-product}
+\chi=\mathbf j_p\cdot(\mathbf j_n\times\mathbf R)\ne0.
+\end{equation}
+其中各矢量可分别主要沿一个主轴，无需每个矢量的三个分量均非零。
+\begin{center}
+\begin{tabular}{c|c|c|c|c}
+操作 & 四极张量 & $\beta_{30}$ & $\mathbf a$ & $\chi$ \\
+\hline
+$\hat{\mathcal P}$ & 不变 & $-\beta_{30}$ & $(a_1,a_2,a_3)$ & $+\chi$ \\
+$\mathcal T$ & 不变 & $+\beta_{30}$ & $(-a_1,-a_2,-a_3)$ & $-\chi$ \\
+$\mathcal R_y(\pi)$ & 不变 & $-\beta_{30}$ & $(-a_1,a_2,-a_3)$ & $+\chi$ \\
+$\mathcal C$ & 不变 & $-\beta_{30}$ & $(a_1,-a_2,a_3)$ & $-\chi$ \\
+$\mathcal D=\hat{\mathcal P}\mathcal C$ & 不变 & $+\beta_{30}$ & $(a_1,-a_2,a_3)$ & $-\chi$
+\end{tabular}
+\end{center}
+这里 $\chi$ 对空间反演为偶：三个角动量都是轴矢量，故不能把它误称为空间宇称奇量；它对时间反演为奇。若把主动旋转后的形状再通过体轴重标转回标准朝向，则必须同步变换角动量分量，不能只改写 $\beta_{30}$ 而保留原先的分量标签。$\beta_{30}$ 的符号是此处所选有向体轴中的朝向标签，亦不能与波函数受宇称作用所得的相位或实验室宇称本征值混同。
+
+于是，以 $\eta=\pm$ 标记此坐标约定下的八极朝向、$L/R$ 标记 $\chi$ 的两种符号，可以选择态的相位，使对应关系在相位意义下写为
+\[
+\hat{\mathcal P}|L,\eta\rangle\sim|L,-\eta\rangle,\quad
+\mathcal C|L,\eta\rangle\sim|R,-\eta\rangle,\quad
+\mathcal D|L,\eta\rangle\sim|R,\eta\rangle.
+\]
+也就是说，本例中固定 $\eta$ 的左右手联系可由 $\mathcal D$ 实现，而第\ref{sec:3-7}节的标准 $\mathcal C$ 仍翻转手征符号；它们描述同一操作代数的不同组合。空间宇称与时间反演、旋转均对易，故 $[\hat{\mathcal P},\mathcal C]=0$。对整数或半整数总自旋 $I$，分别有 $\mathcal T^2=\mathcal R_y(\pi)^2=(-1)^{2I}$，从而 $\mathcal C^2=\mathcal D^2=+1$。$\mathcal C$ 与 $\mathcal D$ 均反幺正，态的重定相会改变其表观本征相位；$(1\pm\mathcal C)/2$ 不是复希尔伯特空间上的线性手征投影算符。相反，实验室良宇称由线性投影 $(1\pm\hat{\mathcal P})/2$ 分类。
+
+\subsubsection{四重结构与模型边界}
+
+上述表格只适用于指定的 $\beta_{30}$ 形状及坐标约定；一般八极张量的各分量在旋转下按三阶张量混合，不能一律赋予同一符号。Wang 等人的 RAT-PRM 另有核芯宇称、总宇称恢复和特定反射对称化，其基底与所选相互作用必须分别核查，不能将此表直接当成所有 RAT-PRM 的定义~\cite{wang-2019-rat-prm-78br-octupole-correlations}。即使四个对称相关内禀构型存在，也不能由标签数推出四个独立的投影低能态或四条近简并带：应检验角动量与宇称投影后的范数核秩、构型混合以及所保留的复合对称性，并考察相应哈密顿核。不同良宇称态具有不同主导轨道成分，也不能单凭这一点排除它们来自共同的反射不对称内禀态。

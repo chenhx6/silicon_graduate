@@ -1,0 +1,112 @@
+{
+  "worker": "G95",
+  "role": "Gemini Tiered/high executor",
+  "appendix_id": "E",
+  "title": "数字算法与模块实现的声明条件",
+  "recorded_at": "2026-11-14T02:10:00+08:00",
+  "task_status": "appendix_E_canonical_delivered_ready_for_parent_review",
+  "parent_contract_reference": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G95/parent-return-appendix-E.json",
+  "knowledge_note_reference": "knowledge/research-notes/a130-rewrite-digital-appendix-consistency-20261113.md",
+  "artifacts_manifest": {
+    "canonical_tex": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixE.tex",
+      "sha256": "723a4cc180145f75d05b7e7f849a4708fab608faca1a00cd51cbc0cbd53ffd57"
+    },
+    "staging_tex": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G95/staging/AppendixE.tex",
+      "sha256": "723a4cc180145f75d05b7e7f849a4708fab608faca1a00cd51cbc0cbd53ffd57"
+    },
+    "canonical_ledger": {
+      "path": "raw/writing/gpt/A130/latex-evidence-ledger/appendix-E.json",
+      "sha256": "17e6e8c6e43f45f474ef551703354340952f024391315598389dc8dd9139efe1"
+    },
+    "research_note": {
+      "path": "knowledge/research-notes/a130-rewrite-digital-appendix-consistency-20261113.md",
+      "sha256": "062cf16e7b04735c41f46893dba86787508491677a0f31ea6ff7660efa20f3f8"
+    },
+    "control_script": {
+      "path": "system/scripts/a130_digital_algorithms_control.py",
+      "sha256": "12311d30e8a97237f3b2d50aae873ba6e8178effe80bbfbbf7ef082085d75c32"
+    },
+    "control_output": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G95/controls_test_output.json",
+      "sha256": "207e3bd32c45e2e0797817c2e68b4ed044383ee96d2184b9cdd1517c55704de9"
+    },
+    "new_references_bib": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G95/new-references.bib",
+      "sha256": "797808a3c9b06d6a464e8659c3dfca940358584d10592c75fd8ae52cc720bd68"
+    }
+  },
+  "contract_audit_e1_to_e8": [
+    {
+      "id": "E1",
+      "topic": "极零相消精确解析参数与因果初值统一",
+      "status": "fully-corrected",
+      "locator": "Tex Eq.(E.2)-(E.5); Section 5.3 Eq.(5.3.1); Wu 2020 p.17-26",
+      "verification_details": "与正文第5.3节完全统一：极零匹配参数严格采用解析式 M = 1/[exp(Ts/tau_d) - 1] = alpha/(1-alpha)，其中 alpha = exp(-Ts/tau_d)，澄清 tau_d/Ts 仅为一阶展开近拟；递推式为 v_p[n] = v_p[n-1] + v[n] - alpha v[n-1]。对于因果纯指数脉冲输入 v[n] = A alpha^n u[n]，到达时刻 v[0] = A，因果初值表述为 v[n<0] = 0，消除同时设到达 v[0]=0 又纯指数的矛盾。"
+    },
+    {
+      "id": "E2",
+      "topic": "Jordanov 差分递推修正、参数换元与纯指数匹配响应",
+      "status": "fully-corrected",
+      "locator": "Tex Eq.(E.8)-(E.17); Section 5.3 Eq.(5.3.2)-(5.3.8)",
+      "verification_details": "沿正文第5.3节统一四级流水线差分方程组：d[n] = v[n] - v[n-k] - v[n-ell] + v[n-k-ell], p[n] = p[n-1] + d[n], r[n] = p[n] + M d[n], s[n] = s[n-1] + r[n]，参数 ell >= k，平顶宽度 (ell-k)Ts，总基宽 (k+ell)Ts。显式定义平顶点数换元 ell = k+l。证明总传递函数严格分解为 H(z) = [(M+1) - M z^-1] B_k(z) B_ell(z)，B_k B_ell 为纯 FIR 双移动平均滤波核。对纯指数脉冲输入，平顶区间 n in [k-1, ell-1] 响应严格为常数 A k (M+1)，必须以此归一化消除增益偏置；澄清该响应是对纯指数脉冲推导，非普遍针对单位阶跃。"
+    },
+    {
+      "id": "E3",
+      "topic": "弹道亏损物理机制、有限支撑与噪声带宽客观权衡",
+      "status": "fully-corrected",
+      "locator": "Tex Sec.E.1.2; Wu 2020 p.23-27",
+      "verification_details": "澄清电流具有限支撑 [0, tau_coll] 时平顶 (ell-k)Ts >= tau_coll 可消除弹道亏损；具慢双指数尾流时无硬上限 tau_coll^max，亏损仅渐近减小。彻底纠正平顶拉长'扩大通频带'的错误叙述，澄清其压缩低通等效噪声带宽；根据噪声功率谱密度建立串联白电压噪声 (~1/tau_shape)、并联白电流噪声 (~tau_shape) 与 1/f 噪声的折中关系。明确梯形滤波是白噪声及平顶约束下的最优 FIR 结构，非普适色噪声最优；IIR 滤波不必然带来无限累积误差。"
+    },
+    {
+      "id": "E4",
+      "topic": "CFD 延迟减衰减算子符号、快滤波区分与割线内插截断误差",
+      "status": "fully-corrected",
+      "locator": "Tex Eq.(E.18)-(E.23); Section 5.4 Eq.(5.4.1)-(5.4.4); Lipschutz 2016",
+      "verification_details": "与正文第5.4节完全对齐：双极性 CFD 序列定义为 C[n] = F[n-d] - f F[n]，有效触发点为负至非负过零区间 C[n0] < 0 <= C[n0+1]；严格区分快成形滤波输出 F[n] 与原始 ADC 采样 v[n]。线性亚采样割线内插误差领先阶严格推导为 varepsilon_trunc approx -0.5 Ts^2 phi(1-phi) C''(t_zc) / C'(t_zc)，明确其依赖于信号二次连续可微与局部非零斜率 C' != 0。指出 phi=0.5 仅为局部曲率固定时的相位调制极值，非全波形全局上界保证。"
+    },
+    {
+      "id": "E5",
+      "topic": "伪代码实现规范：因果零填充、统一基线扣除与前沿门限保护",
+      "status": "fully-corrected",
+      "locator": "Tex Alg.E.1 & Alg.E.2",
+      "verification_details": "教学参考伪代码规范：负索引 n < 0 统一执行显式零填充，彻底消除 v[max(0, n-k)] 伪填充；基线扣除对当前样本与所有历史延迟样本统一执行；CFD 采用延迟减衰减算子，配合快波形前沿越阈装锁保护（Armed）与负至非负有效割线内插；声明教学参考实现不等于商业 FPGA 定点网表逐位等价复刻。"
+    },
+    {
+      "id": "E6",
+      "topic": "Pixie-16 列表模式单通道击中事件头与高水位丢迹边界",
+      "status": "fully-corrected",
+      "locator": "Wu 2020 Fig 2.8 (p.42-43) & App B.3.2 (p.115-116); Section 5.5",
+      "verification_details": "明确 Pixie-16 列表模式数据包严格对应单通道击中（Single-Channel Hit）事件，非整核碰撞事件。基于吴鸿毅博士论文图 2.8 核准 4 字基础头位域（Word 0 通道/槽位/机箱/长度/完成码，Word 1 时间戳低32位，Word 2 时间戳高16位及CFD插值，Word 3 慢滤波能量及波形长度），说明位域与 CFD 范围受硬件采样率及固件版本调控。澄清附录 B.3.2 保头丢迹策略仅缓解读出总线带宽瓶颈，不消除前端探测器物理死时间、过载基线下陷或脉冲堆积。"
+    },
+    {
+      "id": "E7",
+      "topic": "Wolff PASTA 定理条件、无前瞻性与双时符合边界",
+      "status": "fully-corrected",
+      "locator": "Wolff 1982 pp.223-226; Section 5.5",
+      "verification_details": "明确 PASTA 定理针对到达前瞬时系统状态 X(t^-)；无前瞻性假设（LAA）要求未来到达增量独立于系统过去与当前状态。澄清偏离泊松过程不代表到达平均必然显著偏离时间平均（取决于协方差结构）；单点 PASTA 不自动推广至双时间点联合相关函数 X_1(t) X_2(t+Delta t)（Delta t > 0 时依赖未来到达历史）。指出 Cov = 0 仅代表线性不相关非一般独立；公模共享忙正协方差严格建立在条件独立与零时间延迟设定下，非所有系统任意延迟恒为正。"
+    },
+    {
+      "id": "E8",
+      "topic": "规范 Wiki 证据链、真实原件路径哈希与有限输入控制测试通过",
+      "status": "fully-corrected",
+      "locator": "appendix-E.json; a130_digital_algorithms_control.py",
+      "verification_details": "台账中所有来源均核对为 Wiki canonical source ID，真实 raw_file、raw_sha256 与定位符已逐项对账；推导性主张采用空 source_ids 数组。提供有限输入控制脚本（a130_digital_algorithms_control.py）：实现纯指数输入直接卷积与流水线递推（相对误差 < 1e-12）、非零基线动态扣除测试（基线残差为零）以及 CFD 双极性负至非负过零与幅度不变性测试，全部测试均通过。"
+    }
+  ],
+  "prohibitions_respected": [
+    "未改动已接受正文（第 5.3、5.4、5.5 节）及前述 4.8 节",
+    "未改动公共主工程 Thesis.tex 或公共 Biblio/ref.bib",
+    "未执行 git add, commit, tag 或 push 操作",
+    "未执行 LaTeX 整体编译",
+    "未派发其他 agent 或发送网络邮件",
+    "未编造任何未发表或无原件支持的实验数值"
+  ],
+  "runtime_model_metadata": {
+    "executor_agent": "G95",
+    "model_tier": "Gemini 3.8 Flash Tiered/high",
+    "runtime_environment": "Docker container /workspace/wiki",
+    "status": "appendix_E_completed-ready-for-parent-review"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "checked_manifests": [
+    "/workspace/wiki/raw/papers/gpt/query/20261113-A130-live-time/manifest.json"
+  ],
+  "checked_sources": [
+    "/workspace/wiki/knowledge/sources/wolff-1982-poisson-arrivals-see-time-averages.md"
+  ],
+  "failure_count": 1,
+  "failures": [
+    {
+      "error": "manifest lacks retrieved_at: /workspace/wiki/raw/papers/gpt/query/20261113-A130-live-time/manifest.json",
+      "kind": "manifest",
+      "manifest": "/workspace/wiki/raw/papers/gpt/query/20261113-A130-live-time/manifest.json"
+    }
+  ],
+  "ok": false,
+  "scope": "paths"
+}

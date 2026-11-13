@@ -1,0 +1,16 @@
+{
+  "observed": [
+    {
+      "timestamp": "2026-11-13T12:18:32.349Z",
+      "model": "codex/gpt-6.1-terra",
+      "effort": "xhigh"
+    },
+    {
+      "timestamp": "2026-11-13T12:30:21.268Z",
+      "model": "codex/gpt-6.1-terra",
+      "effort": "xhigh"
+    }
+  ],
+  "recorded_at": "2026-11-13T12:44:47.730903+00:00",
+  "boundary": "Model selection observation only."
+}

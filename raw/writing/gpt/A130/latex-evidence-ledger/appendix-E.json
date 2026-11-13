@@ -1,0 +1,229 @@
+{
+  "appendix_id": "E",
+  "title": "数字算法与模块实现的声明条件",
+  "worker": "G95",
+  "recorded_at": "2026-11-14T02:00:00+08:00",
+  "output_latex": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixE.tex",
+    "sha256": "f76188af699dcdc5e96c114850113c66fa8633af94e846d7e19a9a0c0780d132",
+    "equations_count": 31,
+    "tables_count": 1,
+    "algorithms_count": 2,
+    "figures_count": 0,
+    "citations": [
+      "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "wu-2021-general-purpose-digital-daq-waveform-analysis",
+      "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+      "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "wolff-1982-poisson-arrivals-see-time-averages"
+    ],
+    "bytes": 26796
+  },
+  "sources": [
+    {
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "source_page": "knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md",
+      "title": "吴鸿毅 2020 博士论文：通用数字化获取系统的开发",
+      "year": 2020,
+      "doi": null,
+      "raw_file": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+      "raw_sha256": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b",
+      "raw_size_bytes": 16274132,
+      "pdf_total_pages": 143,
+      "archive_required": true,
+      "reading_boundary": "Actualsource identity checked; boundedpage/formula comparison, no wholebookreread.",
+      "locators": [
+        "Printed20/PDF32 equations1.14/1.19 inputdelayreconstruction asdeclared5.3; printed25/PDF37 Eq1.22CFDnotation.",
+        "PDF54–55/printed42–43 Fig2.8 andheaderfields; PDF55–56/printed43–44 bufferfull standard/custombehavior.",
+        "PDF127–128/printed115–116 aredeadtime models, notFIFOstrategy.",
+        "Timing test sections retain canonicalsource boundedreadingrecord."
+      ]
+    },
+    {
+      "source_id": "wu-2021-general-purpose-digital-daq-waveform-analysis",
+      "source_page": "knowledge/sources/wu-2021-general-purpose-digital-daq-waveform-analysis.md",
+      "title": "吴鸿毅等 2021：基于数字化的通用获取系统及波形分析算法",
+      "year": 2021,
+      "doi": "10.1360/TB-2021-0552",
+      "raw_file": "raw/theses/degree-dissertation/基于数字化的通用获取系统及波形分析算法.pdf",
+      "raw_sha256": "c1a2bd226faf52cef144d00463414906c9e44c779075fde57d66f5161a697820",
+      "raw_size_bytes": 3986225,
+      "pdf_total_pages": 8,
+      "archive_required": true,
+      "reading_boundary": "Actualsource identity checked; boundedpage/formula comparison, no wholebookreread."
+    },
+    {
+      "source_id": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "source_page": "knowledge/sources/doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing.md",
+      "title": "Lipschutz等 2016: 基于Pixie-16的数字获取系统（DDAS）定时与时间游走修正（NIM A）",
+      "year": 2016,
+      "doi": "10.1016/j.nima.2016.01.050",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G32/lipschutz-2016-lenda-ddas-timing.pdf",
+      "raw_sha256": "466c421c59f5c964b14de545f315c74c1d614a60b78192eb72efe427f75740cc",
+      "raw_size_bytes": 1647286,
+      "pdf_total_pages": 6,
+      "archive_required": true,
+      "reading_boundary": "Actualsource identity checked; boundedpage/formula comparison, no wholebookreread.",
+      "locators": [
+        "Actual6-pagePDF; Eq3operator andlinear/cubicoptimization, not inventedpp45–52; input/parameterbridge followsaccepted5.4."
+      ]
+    },
+    {
+      "source_id": "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+      "source_page": "knowledge/sources/doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync.md",
+      "title": "Hennig等 2007: Pixie-16数字数据获取模块多机箱时钟与触发背板同步技术（NIM B）",
+      "year": 2007,
+      "doi": "10.1016/j.nimb.2007.04.181",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G32/hennig-2007-pixie16-clock-trigger-sync.pdf",
+      "raw_sha256": "e077cdcfd462610a80467024aac3446a562e2e4eaffbc813578a0b9bb86e0449",
+      "raw_size_bytes": 472408,
+      "pdf_total_pages": 7,
+      "archive_required": true,
+      "reading_boundary": "Actualsource identity checked; boundedpage/formula comparison, no wholebookreread."
+    },
+    {
+      "source_id": "wolff-1982-poisson-arrivals-see-time-averages",
+      "source_page": "knowledge/sources/wolff-1982-poisson-arrivals-see-time-averages.md",
+      "title": "Wolff 1982 - Poisson Arrivals See Time Averages",
+      "year": 1982,
+      "doi": "10.1287/opre.30.2.223",
+      "raw_file": "raw/papers/gpt/query/20261113-A130-live-time/wolff-1982-poisson-arrivals-see-time-averages.pdf",
+      "raw_sha256": "42b994436fed08d86ddcc7dd7773dec34c0058ca505d9e0f65f92c5ec7b4e9f2",
+      "raw_size_bytes": 251098,
+      "pdf_total_pages": 10,
+      "archive_required": true,
+      "reading_boundary": "Actualsource identity checked; boundedpage/formula comparison, no wholebookreread.",
+      "locators": [
+        "Actual10-pagecarrier; Section1, LAA/Theorem1 andcanonicalsource print223–226/PDF2–5:prearrival sampling and declaredlimit assumptions."
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C-appE-pzc-recurrence",
+      "topic": "离散时间极零相消精确因式分解与因果初值",
+      "claim_kind": "analytical-derivation",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [
+        "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+        "wu-2021-general-purpose-digital-daq-waveform-analysis"
+      ],
+      "locator": "Tex Eq.(E.3)-(E.5); Wu 2020 p.17-26",
+      "statement": "极零相消参数精确定义为 M = [exp(Ts/tau_d) - 1]^{-1} = alpha/(1-alpha)，M approx tau_d/Ts 仅为一阶展开；递推式 v_p[n] = v_p[n-1] + v[n] - alpha v[n-1] 在 alpha = M/(M+1) 时对纯指数脉冲输入 v[n] = A alpha^n u[n] 实现零极点严格代数对消，输出阶跃高度恒为 A。因果初值为 v[n<0]=0，v[0]=A。"
+    },
+    {
+      "claim_id": "C-appE-trapezoid-recurrence",
+      "topic": "Jordanov 梯形滤波四级流水线差分方程与 FIR 分解",
+      "claim_kind": "analytical-derivation",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [
+        "wu-hongyi-2020-general-purpose-digital-daq-thesis"
+      ],
+      "locator": "Tex Eq.(E.8)-(E.17); Section 5.3",
+      "statement": "梯形滤波差分方程统一为 d[n] = v[n] - v[n-k] - v[n-ell] + v[n-k-ell], p[n] = p[n-1] + d[n], r[n] = p[n] + M d[n], s[n] = s[n-1] + r[n]，满足 ell >= k，平顶宽度 (ell-k)Ts，基底宽度 (k+ell)Ts。换元 ell = k+l 下平顶为 lTs。传递函数严格分解为 H(z) = [(M+1) - M z^-1] B_k(z) B_ell(z)，B_k B_ell 为纯 FIR 双移动平均核。纯指数输入下平顶区间 n in [k-1, ell-1] 幅度严格等于 A k (M+1)，必须以此归一化消除增益偏置。"
+    },
+    {
+      "claim_id": "C-appE-ballistic-deficit-noise",
+      "topic": "弹道亏损条件与成形平顶噪声带宽权衡",
+      "claim_kind": "analytical-derivation",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [
+        "wu-hongyi-2020-general-purpose-digital-daq-thesis"
+      ],
+      "locator": "Tex Sec.E.1.2",
+      "statement": "Idealmatchedflat-topwindowcoveringfinitecurrent support is a sufficient no-ballistic-loss condition in stated estimator; exponentialtails have nohardbound. Noise follows the actual linearfilter/PSD; fixed-shape scaling differs from increasingflatlengthalone. No universalwhite/colored-noise optimaltrapezoid theorem isclaimed."
+    },
+    {
+      "claim_id": "C-appE-cfd-interpolation",
+      "topic": "数字双极性 CFD 延迟相减算子与割线内插截断误差",
+      "claim_kind": "analytical-derivation",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [
+        "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+        "wu-hongyi-2020-general-purpose-digital-daq-thesis"
+      ],
+      "locator": "Tex Eq.(E.19)-(E.23); Section 5.4",
+      "statement": "数字 CFD 双极性序列统一为 C[n] = F[n-d] - f F[n]，其中 F[n] 为快成形滤波输出（非原始宽带波形 v[n]）；过零参考点为脉冲前沿后由负至非负的第一个过零区间 C[n0] < 0 <= C[n0+1]。线性内插截断误差领先阶为 varepsilon_trunc approx -0.5 Ts^2 phi(1-phi) C''(t_zc) / C'(t_zc)，要求光滑信号且 C' != 0；phi=0.5 仅为局部曲率固定时的相位调制极值，非全波形全局上界。"
+    },
+    {
+      "claim_id": "C-appE-pixie-header-hit",
+      "topic": "Pixie-16 列表模式单通道击中事件头与高水位丢迹边界",
+      "claim_kind": "observed-fact",
+      "evidence_level": "direct",
+      "source_ids": [
+        "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+        "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync"
+      ],
+      "locator": "Wu2020PDF54–56/print42–44,Fig2.8andcontinuation; source-specificversiononly.",
+      "statement": "WuFig2.8documentedversion:Word0EventLength30:17,pileupbit31;Word2wholeCFDResult31:16;Word3TraceLength30:16insamples/16bitwords,rangeflag31. Base4words with optionalheaders. Bufferstrategyisprinted43–44/PDF55–56 customfirmware, notB115–116 andnoinventedhighwater/statusflag."
+    },
+    {
+      "claim_id": "C-appE-pasta-theorem-limits",
+      "topic": "Wolff PASTA 定理、到达采样测度与非前瞻性假设边界",
+      "claim_kind": "author-theoretical-model",
+      "evidence_level": "derived-quantity",
+      "source_ids": [
+        "wolff-1982-poisson-arrivals-see-time-averages"
+      ],
+      "locator": "Wolff 1982 pp.223-226; Tex Sec.E.5.2",
+      "statement": "Poisson/LAA withstatedlongtime-limitassumptions permits prearrival sampling/timeaverage equivalence, notfinite-sampleidentity orautomaticfuturetwo-timecorrelationequality."
+    },
+    {
+      "claim_id": "C-appE-shared-busy-covariance",
+      "topic": "公模忙门控下正协方差反例推导与适用条件",
+      "claim_kind": "analytical-derivation",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [],
+      "locator": "Tex Eq.(E.26)-(E.31); Section 5.5",
+      "statement": "For fixedmeasure/lag, binaryXi haveCov0 iffthispairfactorizes; thisdoesnotestablishwholeprocessindependence. Sharedbusypositivecounterexample assumeszero-lag,freeconditionalindependence,fbetween0and1,positivefreeprobabilities; no universalhardwarecovariancesign."
+    },
+    {
+      "claim_id": "C-appE-pseudocode-spec",
+      "topic": "梯形滤波与 CFD 伪代码规范与定点因果零填充",
+      "claim_kind": "analytical-derivation",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [
+        "wu-hongyi-2020-general-purpose-digital-daq-thesis"
+      ],
+      "locator": "Tex Alg.E.1 & Alg.E.2",
+      "statement": "Causalzero-fill and same baseline definition forcurrent/historysamples. CFDreference handlesoneisolatedwaveform, armsataqualifiedthresholdcrossingandreturnsfirstvalidnegative-to-nonnegativezero; nofictitiousholdoff/resetimplementation orhardwareequivalence claimed."
+    }
+  ],
+  "status": "parent-content-accepted-awaiting-integrated-typesetting",
+  "output_tex_sha256": "f76188af699dcdc5e96c114850113c66fa8633af94e846d7e19a9a0c0780d132",
+  "parent_corrections": [
+    "FixedM/alphamonotonicityandseparatedstep/trapezoidmismatch.",
+    "Removedunsupportednoiseoptimalityandflatlengthscalingclaims.",
+    "SourceFig2.8full16-bitCFDresult andproperbufferpages.",
+    "BernoulliCov0exceptionandPASTAlimitexistence.",
+    "Single-eventCFDpseudocode withrealfirst-rootreturn.",
+    "Rebuilt5 actualsourcepaths/hashes; oldinventedthesispath andwronglocatorssuperseded."
+  ],
+  "controls": {
+    "producer": "system/scripts/a130_digital_algorithms_control.py",
+    "results": "outputs/l4/20261114-A130-digital-algorithms-controls/results.json",
+    "scope": "fiveboundedmathematicalcontrols; noinstrument/FPGAcertification"
+  },
+  "worker_history_not_current_findings": [
+    "E1: 统一极零相消参数为精确解析式 M = alpha/(1-alpha)，明确 M approx tau_d/Ts 仅为一阶展开；规范初值因果条件与纯指数输入幅值。",
+    "E2: 修正梯形滤波差分方程组为 Section 5.3 统一的四级因果递推，消除原草稿方程与传递函数不匹配的代数缺陷；显式定义平顶换元 ell = k+l，证明纯指数输入平顶高度严格为 A k (M+1)。",
+    "E3: 纠正平顶拉长'扩大通频带'的错误物理叙述，澄清其压缩等效低通噪声带宽；建立消除弹道亏损与串/并联噪声之间的客观权衡。",
+    "E4: 统一 CFD 双极性定义为 C[n] = F[n-d] - f F[n] 与负至非负过零判定；严格区分快滤波输出 F[n] 与原始 ADC 采样 v[n]；导出割线内插领先阶截断误差负号与平滑适用条件。",
+    "E5: 修正伪代码中的基线扣除逻辑与因果边界，消除 v[max(0, n-k)] 伪填充；引入前沿门限装锁判定。",
+    "E6: 明确 Pixie-16 数据头为单通道 hit 事件头；基于吴鸿毅论文图 2.8 修正位域说明；澄清 FIFO 保头丢迹策略仅缓解读出带宽瓶颈，不解决物理死时间与基线下陷。",
+    "E7: 明确 PASTA 针对到达前瞬时状态 X(t^-)；澄清非泊松到达不必然显著偏离时间平均，单点 PASTA 不自动推广至双时符合；限定共享忙正协方差反例的条件独立与零延迟边界。",
+    "E8: 将所有来源规范为 Wiki canonical source ID，并提供有限输入控制脚本验证通过。"
+  ],
+  "migration_differences": [
+    "FixedM/alphamonotonicityandseparatedstep/trapezoidmismatch.",
+    "Removedunsupportednoiseoptimalityandflatlengthscalingclaims.",
+    "SourceFig2.8full16-bitCFDresult andproperbufferpages.",
+    "BernoulliCov0exceptionandPASTAlimitexistence.",
+    "Single-eventCFDpseudocode withrealfirst-rootreturn.",
+    "Rebuilt5 actualsourcepaths/hashes; oldinventedthesispath andwronglocatorssuperseded."
+  ],
+  "parent_final_tex_sha256": "f76188af699dcdc5e96c114850113c66fa8633af94e846d7e19a9a0c0780d132",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixE.tex",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
+}

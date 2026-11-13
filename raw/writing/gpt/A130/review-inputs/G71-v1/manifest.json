@@ -1,0 +1,19 @@
+{
+  "archive_type": "research-archive-v1",
+  "archive_required": true,
+  "retrieved_at": "2026-11-08T02:52:45.121579+00:00",
+  "files": [
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G71-v1/section-2-4.md",
+      "sha256": "330ffa61bb2478717a98d125f7dd4fc22235b56b9d092696e791e210ae4a8846",
+      "size": 22691,
+      "source": "Frozen G71 first return for parent/independent audit; not original physical evidence"
+    },
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G71-v1/section-2-4.json",
+      "sha256": "d275762b808d89683d39cf3d037a9f3a77e5dbe66f5d5abe2b47a758a03fe935",
+      "size": 12205,
+      "source": "Frozen G71 first return for parent/independent audit; not original physical evidence"
+    }
+  ]
+}

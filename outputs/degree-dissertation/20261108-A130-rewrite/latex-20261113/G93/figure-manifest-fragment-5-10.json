@@ -1,0 +1,18 @@
+{
+  "figure_id": "fig:5-10-inference-profile",
+  "section": "5.10",
+  "type": "educational-model",
+  "description": "Educational profile likelihood and physical boundary inference model illustrating multi-root degeneracy in angular distributions and constrained likelihood profile on physical domain mu >= 0",
+  "producer_script": "system/scripts/a130_inference_profile_figure.py",
+  "producer_sha256": "d1d8e075013ccd4170c54f00c819e84ab35267326cf14cba2ee99901f419c700",
+  "svg": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/inference-profile-likelihood-boundary.svg",
+    "sha256": "dfb9fdc501329020fb4351d85de495e8b8502a443b6389454073627628890361",
+    "size_bytes": 96032
+  },
+  "pdf": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/inference-profile-likelihood-boundary.pdf",
+    "sha256": "a07cef76601dae5f055e32d7588bcee6ffc993c690fe8ad94dab086b02218309",
+    "size_bytes": 34875
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "figure_id": "fig:5-10-inference-profile",
+  "section": "5.10",
+  "type": "educational-model",
+  "description": "Educational model of profile likelihood bimodal profile and physical boundary upper limit construction",
+  "producer_script": "system/scripts/a130_inference_profile_figure.py",
+  "producer_sha256": "df1a922c807d65d81dd6d7fcf6c68af4552a11e14e8893ce3881b2dd6c9e19bf",
+  "svg": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/inference-profile-likelihood-boundary.svg",
+    "sha256": "263f520843423a1d5cc0f5d846570c40a95e61d4f370882984772e6b70b126e1",
+    "size_bytes": 95493
+  },
+  "pdf": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/inference-profile-likelihood-boundary.pdf",
+    "sha256": "198029e2ef586abc161deb7824c33ad130cbd8a5594a2d85a6810efedf3f79b7",
+    "size_bytes": 34661
+  }
+}

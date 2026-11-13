@@ -1,0 +1,115 @@
+{
+  "figure": {
+    "extracted_coefficients": {
+      "n0": "13/20",
+      "n1": "-3/10",
+      "n2": "11/10",
+      "d0": "21/20",
+      "d1": "3/20",
+      "d2": "19/20",
+      "w0": "1",
+      "w1": "1/10",
+      "w2": "4/5",
+      "p0": "-9/20",
+      "p1": "3/5",
+      "p2": "13/20",
+      "exp_val": "4/5",
+      "exp_err": "1/20"
+    },
+    "R_numerator": {
+      "coefficients_constant_first": [
+        "13/20",
+        "-3/10",
+        "11/10"
+      ],
+      "discriminant": "-277/100",
+      "minimum": "277/440",
+      "strictly_positive": true
+    },
+    "R_denominator": {
+      "coefficients_constant_first": [
+        "21/20",
+        "3/20",
+        "19/20"
+      ],
+      "discriminant": "-1587/400",
+      "minimum": "1587/1520",
+      "strictly_positive": true
+    },
+    "polarization_W": {
+      "coefficients_constant_first": [
+        "1",
+        "1/10",
+        "4/5"
+      ],
+      "discriminant": "-319/100",
+      "minimum": "319/320",
+      "strictly_positive": true
+    },
+    "linear_analyser_plus": {
+      "coefficients_constant_first": [
+        "11/20",
+        "7/10",
+        "29/20"
+      ],
+      "discriminant": "-27/10",
+      "minimum": "27/58",
+      "strictly_positive": true
+    },
+    "linear_analyser_minus": {
+      "coefficients_constant_first": [
+        "29/20",
+        "-1/2",
+        "3/20"
+      ],
+      "discriminant": "-31/50",
+      "minimum": "31/30",
+      "strictly_positive": true
+    },
+    "delta_roots": [
+      -0.3520495012843845,
+      1.5873436189314432
+    ],
+    "polarizations": [
+      -0.54576959349325,
+      0.6741882250673443
+    ],
+    "clip_required_on_real_delta": false,
+    "boundary": "Positivity checks of freely chosen algebraic functions, not a nuclear-transition or detector calculation."
+  },
+  "orientation": {
+    "I": "1/2",
+    "P_plus": "1",
+    "P_minus": "0",
+    "CG_k0": "1/sqrt(2)",
+    "CG_k1": "1/sqrt(2)",
+    "B0": "1",
+    "B1": "1",
+    "helicity_sums_k0_to_k4": {
+      "0": 2,
+      "1": 0,
+      "2": 2,
+      "3": 0,
+      "4": 2
+    },
+    "boundary": "Helicity cancellation requires electromagnetic good-parity assumptions in Hamilton Eqs. 12.180–12.189; B1 remains nonzero."
+  },
+  "inversion": {
+    "cleared_equation_example": "(delta-1) - (1/2)*(delta^2-1) = -(delta-1)^2/2",
+    "crossed_root": "1",
+    "original_denominator_at_root": "0",
+    "conclusion": "delta=1 is excluded even though it is a double root after cross multiplication",
+    "projective_equation": "(n2-R*d2)u^2+(n1-R*d1)u*v+(n0-R*d0)v^2=0, delta=u/v",
+    "endpoint_condition": "v=0 is admissible if n2-R*d2=0 and d2 != 0; +infinity and -infinity are the same pure high-multipole direction",
+    "degenerate_examples": {
+      "all_zero": "N=2D, R=2: all delta with D!=0 are solutions",
+      "constant_nonzero": "N=D+1, R=1: no finite solutions",
+      "linear": "coefficient of delta^2 vanishes but coefficient of delta does not: solve the linear equation and separately test the pure endpoint"
+    }
+  },
+  "provenance": {
+    "producer_sha256": "8e3f23d3ca142887436c865ff0ffb43a636b4cce2abf4e67682a9bc3efa32591",
+    "script_sha256": "97f55c45fda496e68379bf14a5bcbad2400bfec03b8f6c347131e5d771e4d3b1",
+    "calculation": "Python fractions.Fraction and math; no imported producer execution"
+  }
+}

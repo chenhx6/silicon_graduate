@@ -1,0 +1,12 @@
+{
+  "checked_manifests": [
+    "/workspace/wiki/raw/papers/gpt/query/20261114-lange-1982-erratum/manifest.json"
+  ],
+  "checked_sources": [
+    "/workspace/wiki/knowledge/sources/lange-1982-multipole-admixtures-erratum.md"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "ok": true,
+  "scope": "paths"
+}

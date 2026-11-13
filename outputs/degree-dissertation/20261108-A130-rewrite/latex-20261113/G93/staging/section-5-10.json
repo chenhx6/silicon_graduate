@@ -1,0 +1,195 @@
+{
+  "section_id": "5.10",
+  "title": "统计推断与实验结果接口",
+  "target_latex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-10.tex",
+  "latex_summary": {
+    "sections_count": 1,
+    "subsections_count": 5,
+    "equations_count": 6,
+    "tables_count": 3,
+    "figures_count": 1,
+    "labels": [
+      "sec:5-10",
+      "subsec:5-10-1",
+      "eq:5-10-poisson-likelihood",
+      "eq:5-10-mu-expectation",
+      "subsec:5-10-2",
+      "eq:5-10-covariance-prop",
+      "eq:5-10-var-sum",
+      "subsec:5-10-3",
+      "fig:5-10-inference-profile",
+      "eq:5-10-profile-likelihood",
+      "subsec:5-10-4",
+      "subsec:5-10-5",
+      "tab:5-10-transitions-template",
+      "tab:5-10-strengths-template",
+      "tab:5-10-method-cov-template"
+    ],
+    "citations": [
+      "book-zhu-probability-statistics-in-physics",
+      "book-behnke-data-analysis-hep",
+      "book-bonamente-statistics-scientific-data",
+      "baker-cousins-1984-histogram-fits"
+    ]
+  },
+  "citations": [
+    {
+      "key": "book-zhu-probability-statistics-in-physics",
+      "canonical_source_id": "book-zhu-probability-statistics-in-physics",
+      "title": "实验物理中的概率和统计（第二版）",
+      "type": "book",
+      "author": "朱永生",
+      "publisher": "科学出版社",
+      "year": 2006,
+      "isbn": "7030166523",
+      "raw_file": "raw/books/实验物理中的概率和统计_朱永生著.pdf",
+      "raw_sha256": "e97062665497c597609d58c23dfa977824c43e73d3ae8cb4ca3c0855e381894b",
+      "locators": [
+        "第 3 章 §3.9 误差传播公式，印刷第 67–70 页（PDF 第 83–86 页）：一阶 Taylor 展开、线性协方差传播矩阵 V_y ≈ J V_x J^T 与不相关条件，式 (3.9.4)–(3.9.15)",
+        "第 11 章 §11.2 似然比顺序求和方法，印刷第 377–379 页（PDF 第 393–395 页）：Feldman-Cousins 统一似然比排序原理 R = P(n|mu)/P(n|mu_best)、mu_best = max(0, n-b) 与非负边界接受带构建，式 (11.2.2)–(11.2.4)",
+        "第 12 章 §12.2.2 复合假设的似然比检验，印刷第 394–398 页（PDF 第 410–414 页）：渐近 Wilks 定理（自由度等于被检验物理参数维数 m = dim(theta)）"
+      ]
+    },
+    {
+      "key": "book-behnke-data-analysis-hep",
+      "canonical_source_id": "book-behnke-data-analysis-hep",
+      "title": "Data Analysis in High Energy Physics: A Practical Guide to Statistical Methods",
+      "type": "book",
+      "author": "Olaf Behnke, Kevin Kröninger, Grégory Schott, Thomas Schörner-Sadenius",
+      "publisher": "Wiley-VCH",
+      "year": 2013,
+      "raw_file": "raw/books/Data Analysis in High Energy Physics, A Practical Guide to Statistical Methods (Olaf Behnke, Kevin Kroninger, Gregory Schott etc.) (Z-Library).pdf",
+      "raw_sha256": "18cf194b5cd4e86d8413244cf913fe5699de211a68e4a5d1164709e92fcbe84c",
+      "locators": [
+        "Chapter 2 §2.3 Parameter Estimation，印刷第 37–38 页（PDF 第 55 页）：Wilks 定理自由度等于被检验物理参数维数 m，轮廓似然比检验统计量与局部 Hessian 比较",
+        "Chapter 4 §4.3 Frequentist Methods，印刷第 122–123 页（PDF 第 138–139 页）：Table 4.2 泊松均值 Feldman-Cousins 统一区间构建与似然比排序规则"
+      ]
+    },
+    {
+      "key": "book-bonamente-statistics-scientific-data",
+      "canonical_source_id": "book-bonamente-statistics-scientific-data",
+      "title": "Statistics and Analysis of Scientific Data (3rd Edition)",
+      "type": "book",
+      "author": "Massimiliano Bonamente",
+      "publisher": "Springer",
+      "year": 2022,
+      "raw_file": "raw/books/Statistics and Analysis of Scientific Data (Graduate Texts in Physics), 3rd Edition (Massimiliano Bonamente) (Z-Library).pdf",
+      "raw_sha256": "e5197dffd54d527b9d6925b92eeae34e0859e0062063861f2e54abf333d2b2ca",
+      "locators": [
+        "Chapter 3 §3.3 The Poisson Distribution，印刷第 55–59 页（PDF 第 76–80 页）：泊松过程性质、独立随机稀疏化与事件泊松化物理条件",
+        "Chapter 5 §5.2 The Variance of Functions of Random Variables and Error Propagation Formulas，印刷第 83–87 页（PDF 第 103–107 页）：一阶 Taylor 截断方差公式、不相关退化条件及例 5.3（印刷第 86 页 / PDF 第 106 页）本底扣除方差传播"
+      ]
+    },
+    {
+      "key": "baker-cousins-1984-histogram-fits",
+      "canonical_source_id": "baker-cousins-1984-histogram-fits",
+      "title": "Clarification of the use of chi-square and likelihood functions in fits to histograms",
+      "type": "article",
+      "author": "Steve Baker, Robert D. Cousins",
+      "journal": "Nuclear Instruments and Methods in Physics Research 221 (1984) 437–442",
+      "year": 1984,
+      "raw_file": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/baker-cousins-1984-histogram-fits-kekscan.pdf",
+      "raw_sha256": "e687601ebec8241a46db58aeeccffa2b4b252fe62c79db5b44ec51092e7c245a",
+      "locators": [
+        "Section 2 & 4, pp. 437–442: 计数直方图泊松似然原理、似然比偏离度统计量与最小二乘拟合偏差"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C510-forward-model-and-nonindependent-counts",
+      "statement": "前向生成测量模型将微观物理参数与伴随参数通过泊松点过程与独立稀疏化映射至离散能谱，联合似然统一纳入侧带背景与辅助标定测量；总计数约束下各道计数服从多项分布。",
+      "source": "baker-cousins-1984-histogram-fits",
+      "pdf_pages": "1–6",
+      "printed_pages": "437–442",
+      "figure_or_equation": "Section 2, Eqs. (1)–(4)",
+      "searchable_anchor": "likelihood function ... Poisson probability ... multinomial",
+      "raw_file": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/baker-cousins-1984-histogram-fits-kekscan.pdf",
+      "raw_sha256": "e687601ebec8241a46db58aeeccffa2b4b252fe62c79db5b44ec51092e7c245a"
+    },
+    {
+      "claim_id": "C510-nonlinear-covariance-propagation",
+      "statement": "线性化误差传播 V_y ≈ J V_x J^T 是一阶均值 Taylor 展开近似；不相关性（协方差为零）弱于独立性但足以使交叉项消失；原始拟合峰面积协方差源自解谱，效率校正后相对强度协方差由共享效率参数传递且在不同能区可正可负。",
+      "source": "book-zhu-probability-statistics-in-physics",
+      "pdf_pages": "83–86",
+      "printed_pages": "67–70",
+      "figure_or_equation": "第 3 章 §3.9, 式 (3.9.4)–(3.9.15)",
+      "searchable_anchor": "误差传播公式 ... 协方差矩阵 ... 偏导数矩阵",
+      "raw_file": "raw/books/实验物理中的概率和统计_朱永生著.pdf",
+      "raw_sha256": "e97062665497c597609d58c23dfa977824c43e73d3ae8cb4ca3c0855e381894b"
+    },
+    {
+      "claim_id": "C510-gaussian-breakdown-and-physical-boundaries",
+      "statement": "渐近 Wilks 定理自由度等于被检验物理参数维数（不含轮廓扰动参数）；混合比双根需报告相容分支；Feldman-Cousins 方法为基于似然比排序的 Neyman 接受带反演，离散计数呈现阶梯状过覆盖，不可等同于连续曲线截断；前向蒙特卡罗推演分布需在合法条件后验下赋予贝叶斯解释。",
+      "source": "book-behnke-data-analysis-hep",
+      "pdf_pages": "55, 138–139",
+      "printed_pages": "37–38, 122–123",
+      "figure_or_equation": "Chapter 2 §2.3 & Chapter 4 §4.3",
+      "searchable_anchor": "Profile likelihood ... degrees of freedom ... Feldman and Cousins",
+      "raw_file": "raw/books/Data Analysis in High Energy Physics, A Practical Guide to Statistical Methods (Olaf Behnke, Kevin Kroninger, Gregory Schott etc.) (Z-Library).pdf",
+      "raw_sha256": "18cf194b5cd4e86d8413244cf913fe5699de211a68e4a5d1164709e92fcbe84c"
+    },
+    {
+      "claim_id": "C510-systematic-vs-statistical-discrimination",
+      "statement": "严格区分统计随机误差与系统不确定度；系统误差评估依托效率参数化、停止本领唯象离散及物理公差；区分提出探索性物理候选与确立集体模式主张的证据边界要求。",
+      "source": "book-bonamente-statistics-scientific-data",
+      "pdf_pages": "76–80, 103–107",
+      "printed_pages": "55–59, 83–87",
+      "figure_or_equation": "Chapter 3 §3.3 & Chapter 5 §5.2",
+      "searchable_anchor": "Poisson process ... systematic uncertainties ... error propagation",
+      "raw_file": "raw/books/Statistics and Analysis of Scientific Data (Graduate Texts in Physics), 3rd Edition (Massimiliano Bonamente) (Z-Library).pdf",
+      "raw_sha256": "e5197dffd54d527b9d6925b92eeae34e0859e0062063861f2e54abf333d2b2ca"
+    },
+    {
+      "claim_id": "C510-standardized-results-interface",
+      "statement": "确立核结构跃迁观测表、微观强度反演表与协方差网络记录规范模板；明确基准归一强度为定义恒等于 100（无误差）或实测带误差，分支比总和归一，多极限联合报告时给出联合覆盖区域。",
+      "source": "knowledge/research-notes/a130-rewrite-forward-observables-and-cascade-consistency-20261113.md",
+      "pdf_pages": "N/A",
+      "printed_pages": "N/A",
+      "figure_or_equation": "规范数据接口定义与表模板",
+      "searchable_anchor": "辐射强度、混合比多解与缓发中子级联的前向一致性",
+      "raw_file": "knowledge/research-notes/a130-rewrite-forward-observables-and-cascade-consistency-20261113.md",
+      "raw_sha256": "721e9c5aa81ec79ae14bf7656dd3d97f37473ba2bbd06d4e8beae09a1a457494"
+    }
+  ],
+  "verification_status": {
+    "math_verified": true,
+    "physics_consistent": true,
+    "citations_anchored": true,
+    "figure_producer_synced": true
+  },
+  "parent_round3_items_resolved": [
+    {
+      "id": "510-r3-1",
+      "action_taken": "表 5.10.1 多极混合比统一标为 Krane--Steffen 约定，数值与符号保持不变；表 5.10.2 磁偶极约化跃迁几率明确为 B_mu(M1) 并统一单位为 mu_N^2（与 5.9 实用辐射跃迁几率接口对齐），说明其与无量纲自旋算符约化几率的关系为 B_mu(M1) = mu_N^2 B_S(M1)。"
+    },
+    {
+      "id": "510-r3-2",
+      "action_taken": "表 5.10.2 列标题修正为总分支比 b_tot (含内转换)，说明纯辐射光子份额为 b_gamma = b_tot / (1 + alpha_IC)，消除总分支比与表 5.10.1 未计内转换的相对光子强度 I_gamma 的混同。"
+    },
+    {
+      "id": "510-r3-3",
+      "action_taken": "表 5.10.3 修正分支比协方差表述，指明 sum b = 1 给出线性行和约束 sum_j Cov(b_i, b_j) = 0，仅在指定条件多项分布模型下各对协方差方恒为负；修正原始峰面积 A_i 协方差表述，说明重叠峰通常负相关但共同本底可能变号。"
+    },
+    {
+      "id": "510-r3-4",
+      "action_taken": "明确式 (5.10.1) 联合泊松乘积为条件独立分箱近似，底层反应泊松点过程不自动推出分箱独立（因单次退激发射多光子）；固定 DAQ 容量受死时间与多项选择影响；辅助项采用联合密度 p_aux(a | nu)；删除‘自动捕获所有协方差’断言，指明共享扰动参数仅表征参数诱导相关，多光子事件聚类须单独建模。"
+    },
+    {
+      "id": "510-r3-5",
+      "action_taken": "指明轮廓似然曲线不自动产生具备精确覆盖的置信区间，精确覆盖依赖参考分布或 Neyman 构造（小样本可精确枚举或 MC 校准）；严格定义二阶导数：若目标函数为 -ln L，协方差近似为 H_1^-1；若为 -2ln L，协方差近似为 2 H_2^-1，避免遗漏系数 2。"
+    },
+    {
+      "id": "510-r3-6",
+      "action_taken": "修正蒙特卡罗推演分布表述，明确要求输入样本本身已经来自于相应的条件后验分布，单加先验不足以等同后验；跃迁强度定义 I = A / (epsilon * LT) 中明确 LT 为无量纲活时间份额及因式分解独立性前提，重申联合符合接受度依 5.5 节不自动标量积相乘。"
+    },
+    {
+      "id": "510-r3-7",
+      "action_taken": "修复 LaTeX 语法错误，将 enumerate 内裸字数字标号改为 \\item；将图 5.4 路径改为相对路径 Img/inference-profile-likelihood-boundary.pdf，防止工作目录解析为空占位；末段消除矛盾口号，阐明确证主张需要相称检验，探索候选可先提出并列边界。"
+    },
+    {
+      "id": "510-r3-8",
+      "action_taken": "全文统一使用‘代入估计量’，剔除‘插桩估计量’用词；生成 R3 独立回执并以真实渲染检验的精确 locator（朱书偏移+16，FC为§11.2印377–379/PDF393–395，Wilks为§12.2.2印394–398/PDF410–414；Behnke Wilks为PDF55，FC为PDF138–139 Table4.2；Bonamente误差传播为印83–87/PDF103–107及例5.3）完成校正。"
+    }
+  ]
+}

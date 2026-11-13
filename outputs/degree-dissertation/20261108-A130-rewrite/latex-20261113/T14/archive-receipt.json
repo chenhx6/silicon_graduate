@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "scope": "paths",
+  "archive_gate": {
+    "checked_manifests": [
+      "/workspace/wiki/raw/papers/gpt/query/20261113-A130-precession-limits/manifest.json"
+    ],
+    "checked_sources": [
+      "/workspace/wiki/knowledge/sources/shimizu-2005-high-k-precession.md"
+    ],
+    "failure_count": 0,
+    "failures": [],
+    "ok": true,
+    "scope": "paths"
+  },
+  "archive_gate_command": "python3 system/scripts/wiki_archive_gate.py check --root . -- knowledge/sources/shimizu-2005-high-k-precession.md raw/papers/gpt/query/20261113-A130-precession-limits/manifest.json",
+  "new_files": [
+    "raw/papers/gpt/query/20261113-A130-precession-limits/shimizu-matsuzaki-matsuyanagi-2005-nucl-th-0412074v2.pdf",
+    "raw/papers/gpt/query/20261113-A130-precession-limits/manifest.json",
+    "knowledge/sources/shimizu-2005-high-k-precession.md",
+    "knowledge/research-notes/a130-rewrite-wobbling-local-limits-20261113.md"
+  ],
+  "sha256": "6566edd91dc5765a21241ac553f599faf0037d1cadf4113edbe1d969645e97c7",
+  "source_version": "arXiv:nucl-th/0412074v2，公开作者预印本；非出版商版",
+  "reading_depth": "skimmed，PDF pp. 2–3 and 5–6",
+  "other_notes": "未更新索引、Bib、主 tex 或其他 ledger；未提交。"
+}

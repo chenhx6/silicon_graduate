@@ -1,0 +1,79 @@
+{
+  "task": "G100",
+  "status": "passed",
+  "checks": {
+    "latex": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-7.tex",
+      "sha256": "72b505266509f2bb51e5e003f73fb537e738a10fe0a574b1bb6a58b0e9318d9d",
+      "environments_balanced": true,
+      "label_count": 23,
+      "labels": [
+        "sec:5-7",
+        "subsec:5-7-1",
+        "eq:5-7-bk-def",
+        "eq:5-7-deorientation",
+        "eq:5-7-w-theta-general",
+        "eq:5-7-w-theta-fit",
+        "eq:5-7-ak-apparent",
+        "subsec:5-7-2",
+        "eq:5-7-delta-def",
+        "eq:5-7-ak-rational",
+        "eq:5-7-ak-m1e2",
+        "subsec:5-7-3",
+        "eq:5-7-dco-def",
+        "subsec:5-7-4",
+        "eq:5-7-asym-exp",
+        "eq:5-7-pol-degree",
+        "eq:5-7-pol-def",
+        "eq:5-7-pol-theor",
+        "subsec:5-7-5",
+        "eq:5-7-dco-rational",
+        "eq:5-7-quadratic-roots",
+        "eq:5-7-projective-form",
+        "fig:5-7-angular-branch"
+      ],
+      "citations": [
+        "book-hamilton-electromagnetic-interaction",
+        "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+        "lange-kumar-hamilton-1982-multipole-admixtures"
+      ]
+    },
+    "ledger": {
+      "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-7.json",
+      "sha256": "1325844ea32104ef2b76e6350014aba7449fc3f38b8a514d83b3d40d6dc96d88",
+      "claims_count": 5,
+      "sources_verified": 3,
+      "migration_differences_count": 10
+    },
+    "figure": {
+      "script_path": "system/scripts/a130_angular_branch_figure.py",
+      "script_sha256": "a24371444952b207bb428d911b54b8f39a833292f536f4a4de4e64e1b258a35c",
+      "svg_path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/angular-branch-delta-likelihood.svg",
+      "svg_sha256": "7e9bd88736d711ee085d657c7a4e5f6534c14d7208fbe6ca94e8e883c528c55b",
+      "pdf_path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/angular-branch-delta-likelihood.pdf",
+      "pdf_sha256": "e199e630eb4b614a159390f9bc8a348b46f1ed964f67f0ccb076b1f5ea4778ca",
+      "delta_root1": -0.35204950128438445,
+      "delta_root2": 1.587343618931443,
+      "theta_deg1": -19.394592009855685,
+      "theta_deg2": 57.78975651310171,
+      "pol_root1": -0.54576959349325,
+      "pol_root2": 0.6741882250673442,
+      "np_clip_absent": true,
+      "positivity_verified": true
+    },
+    "knowledge_note": {
+      "path": "knowledge/research-notes/a130-rewrite-sec-5-7-angular-distribution-dco-polarization-reconciliation-20261114.md",
+      "sha256": "a17bc1818af61206e7d84092cac935bf8da55d46c565abb67bfd814538c8c69c"
+    },
+    "findings_mapping": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G100/findings-mapping.json",
+      "sha256": "ced113f2bc9f30ecab0603eb1a14e317a1cc945defe23f1d3b04737dc2722758",
+      "total_findings": 10,
+      "all_resolved": true
+    },
+    "new_references_bib": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G100/new-references.bib",
+      "sha256": "569b2be41907657173f68592b764288cac2a83c22c9f54b94b22808a1224d98f"
+    }
+  }
+}

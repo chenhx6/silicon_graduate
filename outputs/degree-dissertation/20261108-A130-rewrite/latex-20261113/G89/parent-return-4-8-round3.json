@@ -1,0 +1,16 @@
+{
+  "section": "4.8",
+  "owner": "G89",
+  "status": "delivered-not-accepted",
+  "requirements": [
+    "Weak allowed1247.62keV branch0.00146(4)%, not0.009%; correct report boundary.",
+    "Separate isolated nuclear operator from neutral-atom environment.",
+    "IC/NEEC energy matching neglects recoil and environmental shifts unless explicitly included.",
+    "Sum fixed-initial-state decay widths over final states; external upward excitation or refeeding belongs in network.",
+    "Ground negative and saddle negligible shell correction are conditions, not all-nucleus facts.",
+    "Small exchange rates require a stated observation-time comparison for independent-population approximation.",
+    "Canonical source IDs, actual Suhonen raw/hash and locator, no sourceMD posing as raw."
+  ],
+  "recorded_at": "2026-11-13T15:54:49.859061+00:00",
+  "delivery_boundary": "Detailed instructions delivered in same-agent message; this JSON indexes obligations, not source evidence."
+}

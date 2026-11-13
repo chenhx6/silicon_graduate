@@ -1,0 +1,577 @@
+{
+  "appendix_id": "app-F",
+  "title": "可复现输入和来源表",
+  "appendix_label": "app:reproducible-inputs",
+  "type": "reproducible_inputs_provenance_ledger",
+  "status": "staged_provisional_complete_R3",
+  "worker": "G101 (Gemini Tiered/high R3)",
+  "recorded_at": "2026-11-14T03:55:00Z",
+  "staging_paths": {
+    "tex": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G101/AppendixF.staging.tex",
+    "manifest": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G101/figure-manifest.staging.json",
+    "ledger": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G101/appendix-F-ledger.staging.json"
+  },
+  "output_tex_sha256": "1b1747284179cd0cc0f7883964a16e936ab6da32b06de75487416f034915899e",
+  "scope_boundary": "本台账完整记录 39 节规划中正文实际引用的全部 19 项自主矢量图件、3 项离散时间仿真 CSV 数据集以及 4 项算法控制包的输入依据与文件哈希。不包含未被正文引用的 rotor-local-limits。严格区分 3 项 CSV 数据集层与有限算法控制层（附 E 数字脉冲控制、5.8 寿命响应网格控制、4.6 Seniority Fock 控制及 5.10 轮廓似然剖面控制），明确其为有限数值/代数控制而非实验硬件、实核寿命认证或置信区间覆盖检验。记录活跃修订中图件的当前快照 SHA 作为暂存输入，供总控最终统一刷新归档。",
+  "csv_verification_receipt": [
+    {
+      "filename": "ballistic_deficit_study.csv",
+      "relative_path": "outputs/l4/20261108-digital-pulse-response/ballistic_deficit_study.csv",
+      "file_size_bytes": 1998,
+      "data_rows": 20,
+      "columns_count": 6,
+      "sha256": "e76fd8c6f896aea49cdb3d1489b6ef398f023422ee7449d4dc97e43b7066b353",
+      "sha256_prefix12": "e76fd8c6f896",
+      "columns": [
+        "rise_time_ns",
+        "flat_top_0ns_amp",
+        "flat_top_100ns_amp",
+        "flat_top_400ns_amp",
+        "deficit_flat0_pct",
+        "deficit_flat400_pct"
+      ],
+      "physical_meaning": "梯形成形平顶宽度与成形时间对电荷收集衰减引起的弹道亏损与能量估计偏差数值表"
+    },
+    {
+      "filename": "sampling_convergence.csv",
+      "relative_path": "outputs/l4/20261108-digital-pulse-response/sampling_convergence.csv",
+      "file_size_bytes": 247,
+      "data_rows": 4,
+      "columns_count": 3,
+      "sha256": "fcbc5a3ebf68e5ef8f0cb5dabfc1be09484d4f99757f9f2f9db6909225469222",
+      "sha256_prefix12": "fcbc5a3ebf68",
+      "columns": [
+        "sampling_interval_ns",
+        "reference_latency_ns",
+        "max_abs_interpolation_error_ns"
+      ],
+      "physical_meaning": "4 组离散采样步长（10, 5, 2.5, 1.25 ns）下的 CFD 最大定时走动误差收敛数据"
+    },
+    {
+      "filename": "cfd_phase_walk_analysis.csv",
+      "relative_path": "outputs/l4/20261108-digital-pulse-response/cfd_phase_walk_analysis.csv",
+      "file_size_bytes": 2050,
+      "data_rows": 20,
+      "columns_count": 7,
+      "sha256": "fa67402db75b74cc78dabab173d0ce89e0ba6a77df1545ddd8a330a9ca4d7178",
+      "sha256_prefix12": "fa67402db75b",
+      "columns": [
+        "phase_ns",
+        "true_t0_ns",
+        "reference_zc_ns",
+        "extracted_zc_ns",
+        "timing_error_ns",
+        "amplitude_arb",
+        "amplitude_scan_zc_ns"
+      ],
+      "physical_meaning": "20 个离散时钟相位点上的 CFD 线性过零插值误差与幅度扫描逐点追踪记录"
+    }
+  ],
+  "figures_covered": [
+    {
+      "id": "shape-moments",
+      "citing_sections": [
+        "sec-1-2"
+      ],
+      "producer_script": "system/scripts/a130_latex_figures.py",
+      "classification": "概念机制示意",
+      "basis_and_boundaries": "依据第 1.2/2.1 节形式化；定性展示从微观核电荷密度到内禀/实验室多极矩与标量不变量的逻辑台阶，不替代具体核的一体密度数值积分。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/shape-moments.pdf",
+          "size_bytes": 37089,
+          "sha256": "d174e5ac579b08a4bf4255ebe50006b9756530e91ca5507aea6c20fab9613097",
+          "sha256_prefix12": "d174e5ac579b"
+        },
+        "svg": {
+          "path": "Img/shape-moments.svg",
+          "size_bytes": 35416,
+          "sha256": "5bb89e143050cb1765f0bb994ca429e797a9854029ec07f15aeb1507fe598e36",
+          "sha256_prefix12": "5bb89e143050"
+        }
+      }
+    },
+    {
+      "id": "six-region-map",
+      "citing_sections": [
+        "sec-1-4"
+      ],
+      "producer_script": "system/scripts/a130_latex_figures.py",
+      "classification": "案例比较坐标",
+      "basis_and_boundaries": "依据第 1.4 节表 1.1；严格限定于六区已核准锚点核素（$^{64}\\mathrm{Ge}$、$^{74,76}\\mathrm{Kr}$、$^{98}\\mathrm{Zr}$、$^{133}\\mathrm{Ce}$、$^{163}\\mathrm{Lu}$、$^{182-188}\\mathrm{Hg}$），属于典型案例比较坐标，非穷尽核素总表。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/six-region-map.pdf",
+          "size_bytes": 35462,
+          "sha256": "1bbb37e7b35806a1f04bb7c63e49569ca88f35d5be4e58eb37533987778b7382",
+          "sha256_prefix12": "1bbb37e7b358"
+        },
+        "svg": {
+          "path": "Img/six-region-map.svg",
+          "size_bytes": 10480,
+          "sha256": "14f733c02ef57aecf6114624eb7cd64a69cac1a79ff1de64e6eeed79ccc83a8e",
+          "sha256_prefix12": "14f733c02ef5"
+        }
+      }
+    },
+    {
+      "id": "chapter-dependency",
+      "citing_sections": [
+        "sec-1-5"
+      ],
+      "producer_script": "system/scripts/a130_latex_figures.py",
+      "classification": "全书架构逻辑",
+      "basis_and_boundaries": "依据第 1.5 节架构总览；展示全书五章前向演绎与后向实验约束的闭环关系，不替代节内具体推导。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/chapter-dependency.pdf",
+          "size_bytes": 25268,
+          "sha256": "c817f4776d702eb99f91d94f13c5ef6324aae5699cc943368e67e654ed5e4065",
+          "sha256_prefix12": "c817f4776d70"
+        },
+        "svg": {
+          "path": "Img/chapter-dependency.svg",
+          "size_bytes": 10945,
+          "sha256": "703e28eb4d60ab8ce1d31d72cae7753ba193a004109e40d3981f41fbae0dbd84",
+          "sha256_prefix12": "703e28eb4d60"
+        }
+      }
+    },
+    {
+      "id": "occupancy-centroids",
+      "citing_sections": [
+        "sec-2-2"
+      ],
+      "producer_script": "system/scripts/a130_latex_figures.py",
+      "classification": "微观教学模型",
+      "basis_and_boundaries": "第 2.2 节单极质心模型；双轨道无噪声教学模型演示占据数改变对单极能的影响，非实验单粒子激发谱。输入模型：\\path{system/scripts/a130_rewrite_monopole_centroid_audit.py}。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/occupancy-centroids.pdf",
+          "size_bytes": 24572,
+          "sha256": "1c016d53943e8c3b59da407d4bafe4a9f44c1ffbf3eba284e05306a25d31ae14",
+          "sha256_prefix12": "1c016d53943e"
+        },
+        "svg": {
+          "path": "Img/occupancy-centroids.svg",
+          "size_bytes": 64349,
+          "sha256": "1e29a944808e0b37ca0a89ad1302a7902f8d86d3e3c35c0f6fa267f2e5ee9de9",
+          "sha256_prefix12": "1e29a944808e"
+        }
+      }
+    },
+    {
+      "id": "gamma-measure",
+      "citing_sections": [
+        "sec-2-4"
+      ],
+      "producer_script": "system/scripts/a130_latex_figures.py",
+      "classification": "解析几何测度",
+      "basis_and_boundaries": "依据第 2.4 节 Bohr--Mottelson 5D 集体哈密顿量度规体积元 $\\beta^4 |\\sin 3\\gamma|$；解析展示几何测度在 $\\gamma = 30^\\circ$ 处的极值，不直接等同于微观动力学势阱极小或三轴刚性转子。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/gamma-measure.pdf",
+          "size_bytes": 40809,
+          "sha256": "c3336dd781432a15b9fb8a2f24ff334327009e4d3098353ff3c7731cf4bc02f6",
+          "sha256_prefix12": "c3336dd78143"
+        },
+        "svg": {
+          "path": "Img/gamma-measure.svg",
+          "size_bytes": 82368,
+          "sha256": "df58728835b86376aa6cb1a8ed0816a1099025a4e49450e13359c37cef3df7ba",
+          "sha256_prefix12": "df58728835b8"
+        }
+      }
+    },
+    {
+      "id": "mode-mixing-avoided-crossing",
+      "citing_sections": [
+        "sec-3-6"
+      ],
+      "producer_script": "system/scripts/a130_mode_mixing_figure.py",
+      "classification": "两态能量哈密顿量",
+      "basis_and_boundaries": "取交叉耦合强度 $0.8$、两模式解耦平均能量 $5.0$、失谐区间 $[-4, 4]$（能量均为任意单位）；展示双态能量哈密顿量的本征值随失谐的避免交叉与基底概率混合，不是耦合振子的频率平方或实测跃迁强度。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/mode-mixing-avoided-crossing.pdf",
+          "size_bytes": 26868,
+          "sha256": "f8d50454af23da2fdd19308e7e844e02cc8b96a7b509cb3033cd021da8da5729",
+          "sha256_prefix12": "f8d50454af23"
+        },
+        "svg": {
+          "path": "Img/mode-mixing-avoided-crossing.svg",
+          "size_bytes": 75539,
+          "sha256": "3b2a180bdc3342f50644677c8a31e695d2794d1e01bc7c8725fb4ca46396f5ac",
+          "sha256_prefix12": "3b2a180bdc33"
+        }
+      }
+    },
+    {
+      "id": "joint-predictions-workflow",
+      "citing_sections": [
+        "sec-3-8"
+      ],
+      "producer_script": "system/scripts/a130_joint_predictions_figure.py",
+      "classification": "方法学流程",
+      "basis_and_boundaries": "依据共同输入、保留竞争模型、检验可区分性的联合预言流程，展示前向预言结构、模型空间划分与留出检验步骤，不保证消除所有模型简并。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/joint-predictions-workflow.pdf",
+          "size_bytes": 37368,
+          "sha256": "d2cd2d625f5e385f65486c4c2e9f2b6c499cf4c53dcc8c55e9d9c0ac8aa13512",
+          "sha256_prefix12": "d2cd2d625f5e"
+        },
+        "svg": {
+          "path": "Img/joint-predictions-workflow.svg",
+          "size_bytes": 134262,
+          "sha256": "0ee6ab393a3dfcf6c9d5b5c74b12a3890ed3e50c11d999f526764d71ce19561e",
+          "sha256_prefix12": "0ee6ab393a3d"
+        }
+      }
+    },
+    {
+      "id": "orientation-comparison-modes",
+      "citing_sections": [
+        "sec-4-4"
+      ],
+      "producer_script": "system/scripts/a130_orientation_comparison_figure.py",
+      "classification": "实测原表与条件对照",
+      "basis_and_boundaries": "(a) $^{163}\\mathrm{Lu}$ TSD1/2 带内 $Q_t$ 由 Görgen et al. 2004 Table I 实测寿命导出；(b) 带间 $B(E2)$ 由实测寿命结合分支比与采用历史平均 $\\delta$ 等输入导出，非直接实测核形状；(c) 横向摆动（TW $s=2, m=1$）、轴对称高 $K$ 进动（形状冗余约束 $R_3=0$）以及平面转动重对准的文字与条件对照（非三维矢量图）。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/orientation-comparison-modes.pdf",
+          "size_bytes": 58959,
+          "sha256": "a4005dc33dce31e8a3087a5635c46b733988f5646afb1b7f879379e218f627fa",
+          "sha256_prefix12": "a4005dc33dce"
+        },
+        "svg": {
+          "path": "Img/orientation-comparison-modes.svg",
+          "size_bytes": 186241,
+          "sha256": "8ef033ccc73e938d8e1ea90b37e8dea5f48118b91f9763b811fffe07a5379ceb",
+          "sha256_prefix12": "8ef033ccc73e"
+        }
+      }
+    },
+    {
+      "id": "br-as-network-topology",
+      "citing_sections": [
+        "sec-4-5"
+      ],
+      "producer_script": "system/scripts/a130_br_as_network_figure.py",
+      "classification": "实测网络拓扑",
+      "basis_and_boundaries": "客观区分 2016、2019、2022 版本的已报告跃迁网络；(a) $^{78}\\mathrm{Br}$ 中 8 条实测 $E1$ 严格单侧连接 Band 1 与 Band 3；(b) $^{74}\\mathrm{As}$ 呈现 3 条实测 $E1$ 跃迁（$372.4, 919.4, 1293.4\\ \\mathrm{keV}$），Band 4 在 2019 学位报告中被指认为候选赝自旋带，2022 期刊聚焦于前三带；保留跨版本映射未闭合的客观边界，不作新定义定论，不绘制未测假连线。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/br-as-network-topology.pdf",
+          "size_bytes": 40923,
+          "sha256": "0c0eabbf10c17928972b68d576c7d3bc824e9897f2a525f5f784984245f14cc6",
+          "sha256_prefix12": "0c0eabbf10c1"
+        },
+        "svg": {
+          "path": "Img/br-as-network-topology.svg",
+          "size_bytes": 134731,
+          "sha256": "9b7f348b8004f785f2b7f53a06e4526c0846b3ac4fc7ee8dff758b1a7e2b3c6e",
+          "sha256_prefix12": "9b7f348b8004"
+        }
+      }
+    },
+    {
+      "id": "seniority-node-accessibility",
+      "citing_sections": [
+        "sec-4-6"
+      ],
+      "producer_script": "system/scripts/a130_seniority_node_figure.py",
+      "classification": "Seniority 代数模型",
+      "basis_and_boundaries": "单 $j$ 壳层同种核子 $v=2$ 单体 $E2$ 归约因子，取对简并度 $\\Omega=5, 6$；连续抛物线仅为引导线，允许的离散占据数为 $n = v, v+2, \\dots, 2\\Omega - v$（对 $v=2, \\Omega=5$ 半满点 $n=5$ 不允许）；配套 Fock 空间代数代码为 \\path{system/scripts/a130_seniority_fock_controls.py}，核对对角 $E2$ 矩阵元比例，非实核寿命复现。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/seniority-node-accessibility.pdf",
+          "size_bytes": 49487,
+          "sha256": "6f824e9d551556feb213b3c626f1b7b4d772eb361ae209608f74d09d48b420bb",
+          "sha256_prefix12": "6f824e9d5515"
+        },
+        "svg": {
+          "path": "Img/seniority-node-accessibility.svg",
+          "size_bytes": 134925,
+          "sha256": "10a90b217fb7a7a4b6ccf1411f5544c99e5524cadcf70d6f72d1a080bc83fbc1",
+          "sha256_prefix12": "10a90b217fb7"
+        }
+      }
+    },
+    {
+      "id": "weak-cascade-competition",
+      "citing_sections": [
+        "sec-4-7"
+      ],
+      "producer_script": "system/scripts/a130_weak_cascade_figure.py",
+      "classification": "级联衰变原理示意",
+      "basis_and_boundaries": "声明宽度与概率结构的原理示意；展示多级串联退激中的分支比竞争拓扑（依据父最终重绘图件与第 4.7 节正文，未做探测门限或旁路损失拟合仿真，保持 $b_\\beta$ 与 $\\Pi_x$ 递推）。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/weak-cascade-competition.pdf",
+          "size_bytes": 42216,
+          "sha256": "edc6bf71af761fb2c486b9eb05b56d62e117098ec1ae6a52dfbee06d26c724c2",
+          "sha256_prefix12": "edc6bf71af76"
+        },
+        "svg": {
+          "path": "Img/weak-cascade-competition.svg",
+          "size_bytes": 87123,
+          "sha256": "5b09178cf9b2699f73d0e5adad62943c0c2aeb61bef70bcc2b31f2fd0531b463",
+          "sha256_prefix12": "5b09178cf9b2"
+        }
+      }
+    },
+    {
+      "id": "environment-network-pathways",
+      "citing_sections": [
+        "sec-4-8"
+      ],
+      "producer_script": "system/scripts/a130_environment_network_figure.py",
+      "classification": "开放网络概念区分",
+      "basis_and_boundaries": "概念性区分形成截面、内部转移、旁路漏失与观测接受通道，非声子浴计算或 Lindblad 动力学仿真。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/environment-network-pathways.pdf",
+          "size_bytes": 43679,
+          "sha256": "2a0af7164a819d6808df8740c4e31cfdc55dd26b3498f5e51022a813a26eee1b",
+          "sha256_prefix12": "2a0af7164a81"
+        },
+        "svg": {
+          "path": "Img/environment-network-pathways.svg",
+          "size_bytes": 150855,
+          "sha256": "6ed4cd1a7fa95aa24f7375adc1c3a0304ea6346d00bb495c2d37bc7c931f8706",
+          "sha256_prefix12": "6ed4cd1a7fa9"
+        }
+      }
+    },
+    {
+      "id": "inference-profile-likelihood-boundary",
+      "citing_sections": [
+        "sec-5-10"
+      ],
+      "producer_script": "system/scripts/a130_inference_profile_figure.py",
+      "classification": "合成剖面似然模型",
+      "basis_and_boundaries": "合成示意剖面；左图显式展示双局部极小（$-40^\\circ$ 与 $20^\\circ$）与局域真实 Hessian 展开，右图保持同一高斯观测 $\\hat{\\mu}=-0.6, q_{\\mathrm{phys}} = \\mu^2 + 1.2\\mu$ 的受限剖面示意，无 Feldman--Cousins 覆盖率模拟。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/inference-profile-likelihood-boundary.pdf",
+          "size_bytes": 33137,
+          "sha256": "397df449374830ffbc60d82f9668e562e26a9d9d96e80fc1b42908c66a238a3d",
+          "sha256_prefix12": "397df4493748"
+        },
+        "svg": {
+          "path": "Img/inference-profile-likelihood-boundary.svg",
+          "size_bytes": 93055,
+          "sha256": "d5c97b908032fa4d001816fe0b17872a47a07044dcf5ae5cfabab74990c934aa",
+          "sha256_prefix12": "d5c97b908032"
+        }
+      }
+    },
+    {
+      "id": "detector-response-simulation",
+      "citing_sections": [
+        "sec-5-2"
+      ],
+      "producer_script": "system/scripts/a130_detector_response_figure.py",
+      "classification": "教学谱响应仿真",
+      "basis_and_boundaries": "展示 $1500\\ \\mathrm{keV}$ 光子在单晶 HPGe、BGO 反康普顿屏蔽及 Clover Add-back 模式下的教学合成谱（Add-back 增益因数约 1.45 为教学展示设定参数，纵轴为对数任意单位计数）。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/detector-response-simulation.pdf",
+          "size_bytes": 68155,
+          "sha256": "eaff60a33f1ce010eca68b0965b3f88c657ac4e640c0b44ce0909a7f6df93400",
+          "sha256_prefix12": "eaff60a33f1c"
+        },
+        "svg": {
+          "path": "Img/detector-response-simulation.svg",
+          "size_bytes": 189627,
+          "sha256": "7a8ccec7f244e59f13e092b5c7e76e2b6682c33c487a843ca2c70f94ba63d560",
+          "sha256_prefix12": "7a8ccec7f244"
+        }
+      }
+    },
+    {
+      "id": "digital-energy-response",
+      "citing_sections": [
+        "sec-5-3"
+      ],
+      "producer_script": "system/scripts/a130_latex_figures.py",
+      "classification": "离散因果滤波仿真数据",
+      "basis_and_boundaries": "基于数据集 1 (\\path{ballistic_deficit_study.csv}) 的梯形成形平顶宽度与成形时间响应数值表，不含连续白噪声。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/digital-energy-response.pdf",
+          "size_bytes": 32424,
+          "sha256": "41520bb253609d323090add64e02aa41564ee5c3b8a007df8c5fb39965a0df9b",
+          "sha256_prefix12": "41520bb25360"
+        },
+        "svg": {
+          "path": "Img/digital-energy-response.svg",
+          "size_bytes": 77610,
+          "sha256": "8e000ce14eee67eda2dd9afe8c1f97531e5ddc40c66a439b4ae9edf258500e54",
+          "sha256_prefix12": "8e000ce14eee"
+        }
+      }
+    },
+    {
+      "id": "cfd-phase-convergence",
+      "citing_sections": [
+        "sec-5-4"
+      ],
+      "producer_script": "system/scripts/a130_latex_figures.py",
+      "classification": "离散时钟定时仿真数据",
+      "basis_and_boundaries": "基于数据集 2 (\\path{sampling_convergence.csv}) 与数据集 3 (\\path{cfd_phase_walk_analysis.csv}) 的 CFD 采样周期与相位插值过零误差分析。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/cfd-phase-convergence.pdf",
+          "size_bytes": 28205,
+          "sha256": "dbfbbdcd9cd39fb637f62e8cb58c9013535b1844a93bec75dad61243bcdbba29",
+          "sha256_prefix12": "dbfbbdcd9cd3"
+        },
+        "svg": {
+          "path": "Img/cfd-phase-convergence.svg",
+          "size_bytes": 55622,
+          "sha256": "b2374a5af78a9e9347aa234c3172b75ae788d7245e1fc9a3fa406eddc56ad46a",
+          "sha256_prefix12": "b2374a5af78a"
+        }
+      }
+    },
+    {
+      "id": "coincidence-level-scheme-model",
+      "citing_sections": [
+        "sec-5-6"
+      ],
+      "producer_script": "system/scripts/a130_coincidence_topology_figure.py",
+      "classification": "级联拓扑教学模型",
+      "basis_and_boundaries": "展示 5 节点 / 6 跃迁级联、旁路与 $250\\ \\mathrm{keV}$ 双重峰的教学拓扑结构，非双重门控或假符合环路消除算法。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/coincidence-level-scheme-model.pdf",
+          "size_bytes": 37294,
+          "sha256": "fe44a04ad8f5e84d714d040494e5710bd8d7b1d48e64eac3786b25ed21cec320",
+          "sha256_prefix12": "fe44a04ad8f5"
+        },
+        "svg": {
+          "path": "Img/coincidence-level-scheme-model.svg",
+          "size_bytes": 92278,
+          "sha256": "7765b0b7979cec8453be3c4e479ba5c5d75b0a823717a4a2bb82e61a943db177",
+          "sha256_prefix12": "7765b0b7979c"
+        }
+      }
+    },
+    {
+      "id": "angular-branch-delta-likelihood",
+      "citing_sections": [
+        "sec-5-7"
+      ],
+      "producer_script": "system/scripts/a130_angular_branch_figure.py",
+      "classification": "统计拟合曲面示意",
+      "basis_and_boundaries": "展示方向角关联比值 $R_{\\mathrm{DCO}}(\\delta)$ 的二次有理曲面特征、代数双根相交形态与线偏振度符号鉴别（当前记录工程快照 SHA，待最终刷新）。",
+      "is_provisional_snapshot": true,
+      "formats": {
+        "pdf": {
+          "path": "Img/angular-branch-delta-likelihood.pdf",
+          "size_bytes": 27756,
+          "sha256": "e199e630eb4b614a159390f9bc8a348b46f1ed964f67f0ccb076b1f5ea4778ca",
+          "sha256_prefix12": "e199e630eb4b"
+        },
+        "svg": {
+          "path": "Img/angular-branch-delta-likelihood.svg",
+          "size_bytes": 87708,
+          "sha256": "7e9bd88736d711ee085d657c7a4e5f6534c14d7208fbe6ca94e8e883c528c55b",
+          "sha256_prefix12": "7e9bd88736d7"
+        }
+      }
+    },
+    {
+      "id": "lifetime-response-rdds-dsam",
+      "citing_sections": [
+        "sec-5-8"
+      ],
+      "producer_script": "system/scripts/a130_lifetime_response_figure.py",
+      "classification": "微观卷积与衰减模型",
+      "basis_and_boundaries": "依据吴治华专著第 15 章第 2 节（印刷第 437–440 页，PDF 第 445–448 页，式 15.26）的微观阻止本领与速度剖面卷积原理；采用零居中奇数长度卷积核，经 $3\\tau \\times 3\\text{grid}$（$\\tau=0.1, 0.8, 5.0\\ \\mathrm{ps}$；$h=0.05, 0.025, 0.0125\\ \\mathrm{keV}$）加宽支持域有限验证通过，原始未归一概率面积相对偏差 $\\le 1.92 \\times 10^{-9}$，图件峰高归一化仅作展示目的，非硬件或实测核素数据。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/lifetime-response-rdds-dsam.pdf",
+          "size_bytes": 33163,
+          "sha256": "c1445f44c5b8dd2e6725e3890e770bd045d2c259f70f44234da5029715706177",
+          "sha256_prefix12": "c1445f44c5b8"
+        },
+        "svg": {
+          "path": "Img/lifetime-response-rdds-dsam.svg",
+          "size_bytes": 93899,
+          "sha256": "105e59aca985dbd3337710b39516dc6085278e41871bfb4918d842aff9d827f7",
+          "sha256_prefix12": "105e59aca985"
+        }
+      }
+    }
+  ],
+  "finite_controls_covered": [
+    {
+      "name": "附录 E / 5.3 节数字脉冲处理算法控制",
+      "script": "system/scripts/a130_digital_algorithms_control.py",
+      "script_sha256": "67280c67c236bcaa1848b83eb662ad5f7d846fbef6e597b6acc7329b4a3a99ad",
+      "results_json": "outputs/l4/20261114-A130-digital-algorithms-controls/results.json",
+      "all_passed": true,
+      "tests": [
+        "test_jordanov (direct 卷积 vs 递推差分方程实现对齐，M=4999.500016666951，相对平顶误差 5.24e-15，绝对偏差 5.25e-6)",
+        "test_baseline (非零常基线恢复测试，残差为零)",
+        "test_cfd (CFD 脉冲幅度缩放不变性，过零时间误差为零)",
+        "test_mismatch (M/alpha 极零时间常数失配亏损分析，M +/- 10% 相对幅度偏差 9.09e-5 与 -1.00e-4)",
+        "test_secant_leading (二次曲线割线过零插值领先误差项验证，Ts=0.02, 0.01, 0.005 验证 O(Ts^2) 渐近项)"
+      ],
+      "boundary": "有限数学算法测试，不构成探测器硬件或 FPGA 实验认证"
+    },
+    {
+      "name": "第 5.8 节 DSAM 速度剖面卷积核有限收敛控制",
+      "script": "system/scripts/a130_lifetime_response_figure.py",
+      "script_sha256": "3db01dfcbe293956354e1f278bcb2263ec463a478818152d38b789929c71404f",
+      "results_json": "outputs/l4/20261114-A130-lifetime-response-controls/results.json",
+      "all_passed": true,
+      "details": "采用零居中奇数核，3tau x 3grid (tau=0.1, 0.8, 5.0 ps; h=0.05, 0.025, 0.0125 keV) 加宽支持域有限验证通过，原始未归一概率面积相对偏差 <= 1.92e-9，峰高归一仅为展示",
+      "boundary": "数值卷积核离散化有效性控制，非实测核寿命数据"
+    },
+    {
+      "name": "第 4.6 节 Seniority 粒子数守恒 Fock 空间矩阵元控制",
+      "script": "system/scripts/a130_seniority_fock_controls.py",
+      "details": "在全反对称多费米子 Fock 基底下，精确核对单 j 壳层对角 E2 矩阵元在粒子--空穴共轭及半满壳处的对称性定理与比例因子",
+      "boundary": "代数自洽性校验，非实核寿命复现"
+    },
+    {
+      "name": "第 5.10 节统计推断轮廓似然剖面代数控制",
+      "script": "system/scripts/a130_inference_figure_control.py",
+      "script_sha256": "b0f207de08ab1fea3b6d4e86e16a2e5ba038b694e34352548c222cfccccc95c3",
+      "results_json": "outputs/l4/20261114-A130-inference-figure-controls/results.json",
+      "all_passed": true,
+      "details": "双局部极小位置 (-40 deg, 20 deg) 与深度 (0.9, 0.0) 精确对齐，局域抛物线与四次 Hessian 拟合偏差 <= 4.27e-13，物理受限剖面与高斯对数似然比理论偏差 <= 1.78e-15",
+      "boundary": "绘制曲线的数值代数控制，非置信区间覆盖率或 Neyman 带检验"
+    }
+  ],
+  "prohibitions_strictly_obeyed": [
+    "未修改 canonical Tex/Appendices/AppendixF.tex、Img/figure-manifest.json 或任何其他正式文件",
+    "未触碰公共 Bib 文件、Git 状态、编译管线或生成新 commit/push",
+    "未重新生成图件或用 writer staging 覆盖 canonical Img",
+    "正文表格仅显示 12 位短哈希，JSON 保留完整 64 位 SHA-256",
+    "长表采用 longtable 规范跨页，避免溢出；数学变量规范使用 LaTeX 数学符号",
+    "客观记录活跃修改中图件的暂存快照状态，不隐瞒父总控后续刷新需求"
+  ]
+}

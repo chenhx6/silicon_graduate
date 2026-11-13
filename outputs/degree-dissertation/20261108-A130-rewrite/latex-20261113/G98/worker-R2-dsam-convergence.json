@@ -1,0 +1,89 @@
+{
+  "tau_0.1_ps": {
+    "exact_centroid_shift_keV": 17.50083865656976,
+    "grid_refinements": [
+      {
+        "h_keV": 0.05,
+        "area": 0.9999999980274867,
+        "centroid_keV": 1017.5257449580872,
+        "centroid_shift_keV": 17.525744958087216,
+        "error_vs_exact_keV": 0.024906301517457763
+      },
+      {
+        "h_keV": 0.025,
+        "area": 0.9999999980274867,
+        "centroid_keV": 1017.5133116299069,
+        "centroid_shift_keV": 17.513311629906866,
+        "error_vs_exact_keV": 0.012472973337107618
+      },
+      {
+        "h_keV": 0.0125,
+        "area": 0.9999999980274867,
+        "centroid_keV": 1017.507079346287,
+        "centroid_shift_keV": 17.507079346287014,
+        "error_vs_exact_keV": 0.006240689717255776
+      }
+    ],
+    "L1_diff_h05_to_h025": 0.004826978035998311,
+    "L1_diff_h025_to_h0125": 0.002419669298960781,
+    "L1_convergence_ratio": 1.9948916317082834
+  },
+  "tau_0.8_ps": {
+    "exact_centroid_shift_keV": 7.357588823428847,
+    "grid_refinements": [
+      {
+        "h_keV": 0.05,
+        "area": 0.9999999987527153,
+        "centroid_keV": 1007.3733839909776,
+        "centroid_shift_keV": 7.3733839909775725,
+        "error_vs_exact_keV": 0.015795167548725786
+      },
+      {
+        "h_keV": 0.025,
+        "area": 0.9999999987527153,
+        "centroid_keV": 1007.365487422449,
+        "centroid_shift_keV": 7.36548742244895,
+        "error_vs_exact_keV": 0.007898599020103703
+      },
+      {
+        "h_keV": 0.0125,
+        "area": 0.9999999987527155,
+        "centroid_keV": 1007.3615379035745,
+        "centroid_shift_keV": 7.361537903574458,
+        "error_vs_exact_keV": 0.003949080145611461
+      }
+    ],
+    "L1_diff_h05_to_h025": 0.001084985251288999,
+    "L1_diff_h025_to_h0125": 0.0005409916931086307,
+    "L1_convergence_ratio": 2.0055488191592894
+  },
+  "tau_5.0_ps": {
+    "exact_centroid_shift_keV": 1.5179736207764183,
+    "grid_refinements": [
+      {
+        "h_keV": 0.05,
+        "area": 0.9999999997082538,
+        "centroid_keV": 1001.5216694848764,
+        "centroid_shift_keV": 1.5216694848763836,
+        "error_vs_exact_keV": 0.0036958640999653625
+      },
+      {
+        "h_keV": 0.025,
+        "area": 0.9999999997082537,
+        "centroid_keV": 1001.5198214670623,
+        "centroid_shift_keV": 1.519821467062343,
+        "error_vs_exact_keV": 0.0018478462859246036
+      },
+      {
+        "h_keV": 0.0125,
+        "area": 0.9999999997082538,
+        "centroid_keV": 1001.5188974119503,
+        "centroid_shift_keV": 1.51889741195032,
+        "error_vs_exact_keV": 0.0009237911739017335
+      }
+    ],
+    "L1_diff_h05_to_h025": 0.0002813684359378876,
+    "L1_diff_h025_to_h0125": 0.00012008413877481202,
+    "L1_convergence_ratio": 2.343094090598628
+  }
+}

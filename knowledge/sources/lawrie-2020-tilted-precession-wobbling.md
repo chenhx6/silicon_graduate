@@ -13,7 +13,7 @@ authors: [E. A. Lawrie, O. Shirinda, C. M. Petrache]
 journal: Physical Review C
 year: 2020
 volume: 101
-pages: 034306
+pages: "034306"
 doi: 10.1103/PhysRevC.101.034306
 arxiv:
 language: en

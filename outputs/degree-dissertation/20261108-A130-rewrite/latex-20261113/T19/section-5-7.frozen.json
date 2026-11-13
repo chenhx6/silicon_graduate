@@ -1,0 +1,124 @@
+{
+  "section_id": "5.7",
+  "title": "角关联、偏振和 $\\delta$ 反演",
+  "worker": "G79",
+  "recorded_at": "2026-11-13T09:21:33.770398+00:00",
+  "output_latex": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-7.tex",
+    "sha256": "2aadea260f57991b1a1c4d0171de63f125a15ac9083f0763d4237eefb892566d",
+    "equations_count": 14,
+    "tables_count": 0,
+    "figures_count": 1,
+    "labels": [
+      "sec:5-7",
+      "subsec:5-7-1",
+      "eq:5-7-bk-def",
+      "eq:5-7-deorientation",
+      "eq:5-7-w-theta-general",
+      "eq:5-7-w-theta-fit",
+      "subsec:5-7-2",
+      "eq:5-7-delta-def",
+      "eq:5-7-ak-rational",
+      "eq:5-7-ak-m1e2",
+      "subsec:5-7-3",
+      "eq:5-7-dco-def",
+      "subsec:5-7-4",
+      "eq:5-7-asym-exp",
+      "eq:5-7-pol-degree",
+      "eq:5-7-pol-theor",
+      "subsec:5-7-5",
+      "eq:5-7-dco-rational",
+      "eq:5-7-quadratic-roots",
+      "fig:5-7-angular-branch"
+    ],
+    "citations": [
+      "book-hamilton-electromagnetic-interaction",
+      "lange-kumar-hamilton-1982-multipole-admixtures",
+      "campaign-g07-gorgen-2004-163lu-quadrupole-moments"
+    ]
+  },
+  "sources": [
+    {
+      "citation_key": "book-hamilton-electromagnetic-interaction",
+      "canonical_title": "The Electromagnetic Interaction in Nuclear Spectroscopy",
+      "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+      "raw_sha256": "93b32a8debb66ad036229d860ad56f0434dc49b56edd32f1628af1d71a21ae00",
+      "actual_read_pages": "printed pages 339–370 (PDF pages 355–386), Chapter 8 & 9, Statistical orientation tensor B_k, deorientation coefficients U_k, and directional correlation from oriented states"
+    },
+    {
+      "citation_key": "lange-kumar-hamilton-1982-multipole-admixtures",
+      "canonical_title": "E0, E2, and M1 multipole admixtures of transitions in even-even nuclei",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+      "raw_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+      "actual_read_pages": "printed pages 121–123 (PDF pages 3–5), Section 2, Phase conventions (Rose-Brink, Biedenharn-Rose, Krane-Steffen) and rational quadratic expansion of A_k(delta)"
+    },
+    {
+      "citation_key": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "canonical_title": "Quadrupole moments of wobbling excitations in 163Lu",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "raw_sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e",
+      "actual_read_pages": "PDF pages 2–4, Tables I–II, adopted average delta = -3.10(+0.36/-0.44) for TSD2 interband transitions"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C57-orientation-and-angular-distribution",
+      "statement": "在束角分布 W(theta) 由母态取向张量 B_k(I)、未观测级联去取向因子 U_k、几何角分布系数 A_k(delta) 与探测器有限立体角衰减因子 Q_k 共同确定，对于多极性不超过四极的跃迁截断于 k <= 4。",
+      "source": "book-hamilton-electromagnetic-interaction",
+      "pdf_pages": "355–360",
+      "printed_pages": "339–344",
+      "figure_or_equation": "Chapter 8, Eqs. (8.1)–(8.12)",
+      "searchable_anchor": "orientation tensor ... deorientation coefficient ... angular distribution"
+    },
+    {
+      "claim_id": "C57-phase-conventions-and-rational-ak",
+      "statement": "多极混合比 delta 为无量纲辐射发射几率振幅比，变换相位体系（如 Rose-Brink 与 Krane-Steffen）必须同步转换几何系数定义，不可单独翻转 delta 符号；混合角分布系数 A_k(delta) 为关于 delta 的标准二次有理函数。",
+      "source": "lange-kumar-hamilton-1982-multipole-admixtures",
+      "pdf_pages": "3–5",
+      "printed_pages": "121–123",
+      "figure_or_equation": "Section 2, Eqs. (2.1)–(2.6)",
+      "searchable_anchor": "phase conventions ... E2/M1 multipole admixtures ... Rose and Brink"
+    },
+    {
+      "claim_id": "C57-dco-gated-conditioning",
+      "statement": "DCO 比值是两特定角度的条件门选强度比，门跃迁的多极性质对中间核态重新施加取向选择，绝非单谱比值 W(theta1)/W(theta2)；不存在通用的 DCO=1.0 为四极、0.5 为偶极的分界线，数值依赖门跃迁性质、探测角度几何与剩余取向宽度。",
+      "source": "book-hamilton-electromagnetic-interaction",
+      "pdf_pages": "360–370",
+      "printed_pages": "344–354",
+      "figure_or_equation": "Chapter 8 & 9 Directional correlation from oriented states",
+      "searchable_anchor": "directional correlation from oriented states ... gating transition"
+    },
+    {
+      "claim_id": "C57-polarimetry-parity-arbitration",
+      "statement": "康普顿散射不对称度正比于线偏振度 P，偏振理论公式关于辐射电磁性质取相反符号（电性取正、磁性取负）；偏振度 P 为正不等于证明跃迁必为 E2，其符号受自旋序列与混合比 delta 联合控制。",
+      "source": "book-hamilton-electromagnetic-interaction",
+      "pdf_pages": "370–385",
+      "printed_pages": "354–369",
+      "figure_or_equation": "Chapter 9 Compton polarimeters & linear polarization",
+      "searchable_anchor": "linear polarization ... Compton scattering polarimeter"
+    },
+    {
+      "claim_id": "C57-dual-roots-and-model-neutrality",
+      "statement": "由于 DCO 比值关于 delta 为二次有理函数，单项角分布测量通常存在两个数学上相容的实数解分支；在缺乏偏振或内转换独立实验数据时，必须如实保留两个解分支，理论模型的构型偏好不能作为剔除实验相容根的依据。",
+      "source": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "pdf_pages": "2–4",
+      "printed_pages": "N/A (PRC 69 031301)",
+      "figure_or_equation": "Table II & discussion of adopted delta = -3.10",
+      "searchable_anchor": "multipole mixing ratio ... delta = -3.10"
+    }
+  ],
+  "migration_differences": [
+    "新建第 5 章第 5.7 节规范 LaTeX 正文与证据台账",
+    "建立符合 Rose-Brink 与 5.9 节一致体系的辐射几率振幅实 delta 定义与二次有理展开",
+    "阐明 DCO 条件门选本质，澄清不存在通用 1.0/0.5 绝对分界",
+    "生成独立教学双根反演与偏振裁决矢量图 SVG/PDF (Img/angular-branch-delta-likelihood) 并由 \\IfFileExists 规范包裹",
+    "无新增科学主张",
+    "澄清 B0=1 对任意归一分布成立，明确非极化对齐 P(M)=P(-M) 是 k 仅为偶数的充要条件，消除二次去取向因子重复",
+    "明确 Q_k 标量因数为轴对称同轴探测器近似，满足 |Q_k| <= 1",
+    "按 T15 规范统一磁算符记号为 M_S(M1) = M_mu(M1)/c",
+    "修正 DCO 效率因式为两光子双通道全效率比值，纠正 E1 宇称改变为 Delta pi = yes",
+    "将 DCO 比值规范为分子分母均为 delta 二次式的普遍形式，澄清双根不必一小一大且可呈现极点",
+    "明确线偏振度 P(theta) 理论形式来自 Hamilton 偏振张量，澄清混合态偏振度正号不代表纯 E2",
+    "修正 163Lu 案例表述：指明该文采用先前独立薄靶实验均值而非自身重新测量"
+  ]
+}

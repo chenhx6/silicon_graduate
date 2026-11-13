@@ -1,0 +1,324 @@
+\section{环境和形成路径怎样改变可见性}\label{sec:4-8}
+
+在前述各节的讨论中，原子核的多体波函数、集体形变与电磁跃迁率通常是在孤立原子核（冷态、电中性原子或真空自由空间）的理想物理边界下定义的。在第4.6节中，我们建立了同核异能态的四大微观阻碍机制——自旋陷阱、Seniority 相消、高 $K$ 空间取向禁戒以及超形变第二极小波函数在变形空间中的位垒穿透压制~\cite{book-jain-nuclear-isomers}；在第4.7节中，探讨了弱衰变算符在有限相空间中的求和定则与有效衰变常数。当读者带着这些由微观模型导出的核态性质走向真实的物理世界时，极易产生一种先入为主的静态直觉：既然一个同核异能态在实验室真空或冷靶环境中拥有长达数小时、数年乃至数亿年的本征半衰期，或者拥有更高的微观裂变位垒，那么它在高温天体等离子体中是否必然能够长久存活并沉淀为显著的天体丰度？在重离子熔合蒸发反应中，这种长寿命的核态是否必然对应着更大的截面与更容易被观测到的信号？
+
+答案是否定的。原子核在真实物理环境中的\textbf{有效寿命}与在实验谱学中的\textbf{物理可见性}，并不是由核多体哈密顿量孤立决定的内禀常数，而是由原子核内禀结构、周围热力学与电磁场环境（辐射场光子密度、原子电离度、电子轨道占有数、晶格介电环境）以及动力学反应形成路径共同塑造的开放动力学过程。同一个原子核态，在冷真空环境中可能是几乎不可衰变的异能态，但在高温恒星内部的光子浴中，却可以通过高能中间桥态的热共振激发起发生剧烈的跨带混合，使其有效寿命急剧缩短数个至十数个数量级；在原子内转换通道被强电离剥离或受晶格介电禁带压制的环境中，其寿命又可能因电子通道的关闭而显著反向延长；而在重离子熔合反应中，高自旋异能态即使在基态具有更高的自发裂变位垒，也绝不意味着复合核在高温激发能下的存活几率或最终蒸发剩余核截面会随之等同增大。
+
+为了建立严谨、清晰且不相互含混的科学物理图景，本节将环境与反应形成对原子核可见性的动态重塑解构为三个物理本质完全不同、必须独立推演的子模块：第\ref{sec:4-8-1}小节推演天体等离子体热辐射浴中的开放速率网络、成对可逆电磁跃迁的微观详细平衡边界以及跨簇热化时间尺度；第\ref{sec:4-8-2}小节解构原子核与核外电子通道的微观竞争，系统梳理自发辐射、内转换、电子俘获核激发（NEEC）、非弹性电子散射（NEIES）等不同过程，并以 $^{229}\mathrm{Th}$ 光学核钟与 $^{93m}\mathrm{Mo}$ 的 NEEC 诱发退激争议为原件实例，确立理论计算与实验证据的边界；第\ref{sec:4-8-3}小节推导重离子完全熔合蒸发反应的三阶段截面分波框架，明确入射势垒穿透、复合核形成与逐级蒸发存活的物理不确定度，并深刻辨析异能态冷态微观位垒与高温反应生成截面之间的逻辑脱耦。图~\ref{fig:4-8-environment-network}给出了这三个子模块的物理机制与特征通道示意图。
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\textwidth]{Img/environment-network-pathways.pdf}
+\caption{环境与形成路径改变原子核可见性的三个典型物理机制示意图（教学物理路径与动力学通道示意，不承诺定量实验产额）。(a) 高温等离子体热辐射浴中的开放速率网络：低 $K$ 基态簇与高 $K$ 异能态簇通过高能中间桥态 $|i\rangle$ 发生光子共振跃迁，不可逆弱衰变与中子俘获构成外流漏失 $D_g, D_m$，全网有效弛豫取决于桥态跃迁率与破坏/输运时间尺度的动力学竞争；(b) 原子核与核外电子相互作用通道：清晰区分自发辐射、内转换（IC）、电子俘获核激发（NEEC，连续电子共振捕获至束缚态空穴，满足严格单能共振条件 $E_e + E_b = \Delta E_{\mathrm{nuc}}$）与非弹性电子散射核激发（NEIES，连续电子非弹性散射，主要为连续阈值截面，末态电子仍在连续谱）；(c) 重离子完全熔合蒸发反应的三阶段截面解构：入射势垒穿透 $\sigma_{\mathrm{cap}}$、复合核形成 $P_{\mathrm{CN}}$（与准裂变 QF 竞争）以及去激发蒸发级联存活 $W_{\mathrm{sur}}$（在统计模型下逐级中子蒸发 $\Gamma_n$ 与裂变 $\Gamma_f$ 竞争），高自旋异能态的冷态长寿命不直接提升高温复合核存活几率，其生成受限于进入态统计级联馈入分支比 $b_{\mathrm{feed}}$。}\label{fig:4-8-environment-network}
+\end{figure}
+
+\subsection{热环境开放网络与有效存活}\label{sec:4-8-1}
+
+在天体物理环境（如渐近巨星分支 AGB 恒星的氦燃烧壳层、$s$-过程核合成温区）中，等离子体温度通常达到 $T_8 \sim 1$--$3$（即 $10^8\ \mathrm{K}$，对应能量标度 $kT \sim 8.6$--$25.9\ \mathrm{keV}$）甚至 $T_9 \sim 0.1$--$0.3$（$10^9\ \mathrm{K}$）。在这样极端的热力学环境中，原子核不再孤立存在，而是浸润在高密度的 Planck 热辐射光子浴以及高温自由电子气体之中。
+
+\subsubsection{开放速率网络方程与流动损失}
+
+设某一核素内部存在 $M$ 个离散量子能级（包括基态、低激发态、高自旋或高 $K$ 异能态，以及能量更高的高激发中间态）。以 $\mathbf{N}(t) = (N_1(t), N_2(t), \dots, N_M(t))^T$ 表示各能级的粒子数密度布居向量。在声明的恒星核反应网络中，整个原子核能级系统的演化服从一阶非齐次常微分方程组所描述的\textbf{开放速率网络}（Open Rate Network）：
+\begin{equation}\label{eq:4-8-network-master}
+\frac{d \mathbf{N}(t)}{dt} = \mathbf{A}(T, n_e, \dots) \mathbf{N}(t) + \mathbf{P}(t),
+\end{equation}
+其中 $\mathbf{P}(t) = (P_1(t), P_2(t), \dots, P_M(t))^T$ 为外部输入流向量（例如上一级核反应链或中子俘获对具体能级的直接馈入），而转移矩阵 $\mathbf{A}$ 包含了所有内部能级跃迁与外部破坏漏失：
+\begin{equation}\label{eq:4-8-matrix-elements}
+A_{ij} = \lambda_{j \to i} \quad (i \ne j), \qquad
+A_{ii} = -\sum_{j \ne i} \lambda_{i \to j} - d_i^{\mathrm{sink}}.
+\end{equation}
+在此严格声明矩阵元素的物理约束：
+\begin{enumerate}
+\item \textbf{非对角元非负性}：对于所有 $i \ne j$，$A_{ij} \ge 0$，表示从能级 $j$ 向能级 $i$ 跃迁的单向跃迁速率常数（单位为 $\mathrm{s}^{-1}$）。该跃迁率可由光子共振吸收、受激/自发辐射以及电子诱发过程共同贡献。
+\item \textbf{对角元的外流与漏失}：对角项 $A_{ii} < 0$ 严格由流向其他内部能级的总跃迁率以及向核素外部的净漏失率 $d_i^{\mathrm{sink}}$ 构成：
+\begin{equation}\label{eq:4-8-sink-def}
+d_i^{\mathrm{sink}} \equiv \lambda_{\beta}^{(i)} + \lambda_{\mathrm{EC}}^{(i)} + \lambda_{(n,\gamma)}^{(i)} + \dots \ge 0.
+\end{equation}
+在此，$d_i^{\mathrm{sink}}$ 包含了从该能级出发导致原子核种类发生改变的所有不可逆弱衰变（$\beta^-$、$\beta^+$、轨道电子俘获）或中子/带电粒子诱发核反应。对式~\eqref{eq:4-8-network-master}在所有能级上求和，可得总核素布居 $N_{\mathrm{tot}}(t) = \sum_i N_i(t)$ 的净变化：
+\begin{equation}\label{eq:4-8-total-pop-rate}
+\frac{d N_{\mathrm{tot}}}{dt} = -\sum_{i=1}^M d_i^{\mathrm{sink}} N_i(t) + \sum_{i=1}^M P_i(t).
+\end{equation}
+若将所有外流漏失关闭（$d_i^{\mathrm{sink}} = 0$ 且 $\mathbf{P} = 0$），矩阵 $\mathbf{A}$ 的每一列之和恒等于零（$\sum_i A_{ij} = 0$），系统总核子数守恒；而在存在真实弱衰变或反应漏失的开放物理网络中，对角元必须完整扣除 $d_i^{\mathrm{sink}}$。
+\end{enumerate}
+
+\subsubsection{成对可逆电磁跃迁的微观详细平衡及其适用边界}
+
+在高温等离子体中，核能级之间的跃迁主要由 Planck 黑体辐射场的光子吸收与发射驱动。考虑任意两个离散核能级：较低能级 $|l\rangle$（自旋为 $J_l$）与较高能级 $|u\rangle$（自旋为 $J_u$），能级能量差为 $\Delta \equiv E_u - E_l > 0$。设从能级 $|u\rangle$ 向 $|l\rangle$ 发射单光子的真空自发辐射跃迁几率为 $A_{ul}$（其对应部分辐射能量宽度为 $\Gamma_{\gamma, ul} = \hbar A_{ul}$）。
+
+在热力学温度为 $T$ 的平衡辐射浴中，能量为 $\Delta$ 的光子占有几率满足 Planck 统计分布：
+\begin{equation}\label{eq:4-8-planck-dist}
+n_\gamma(\Delta) = \frac{1}{\exp\left(\frac{\Delta}{kT}\right) - 1}.
+\end{equation}
+从高能级 $|u\rangle$ 向低能级 $|l\rangle$ 的退激过程由自发辐射与受激辐射共同贡献，其实际总退激跃迁率为：
+\begin{equation}\label{eq:4-8-down-trans-rate}
+\lambda_{u \to l} = A_{ul} \left[ 1 + n_\gamma(\Delta) \right] = A_{ul} \frac{\exp\left(\frac{\Delta}{kT}\right)}{\exp\left(\frac{\Delta}{kT}\right) - 1}.
+\end{equation}
+与之对应，从低能级 $|l\rangle$ 吸收环境光子跃迁至高能级 $|u\rangle$ 的光共振吸收跃迁率，由 Einstein 吸收系数与辐射场光子相空间密度导出：
+\begin{equation}\label{eq:4-8-up-trans-rate}
+\lambda_{l \to u} = \frac{2J_u + 1}{2J_l + 1} A_{ul} n_\gamma(\Delta) = \frac{2J_u + 1}{2J_l + 1} A_{ul} \frac{1}{\exp\left(\frac{\Delta}{kT}\right) - 1}.
+\end{equation}
+将式~\eqref{eq:4-8-up-trans-rate}与式~\eqref{eq:4-8-down-trans-rate}直接相除，即可得到成对电磁跃迁率的严格比例关系：
+\begin{equation}\label{eq:4-8-detailed-balance-em}
+\frac{\lambda_{l \to u}}{\lambda_{u \to l}} = \frac{2J_u + 1}{2J_l + 1} \exp\left(-\frac{\Delta}{kT}\right) = \frac{2J_u + 1}{2J_l + 1} \exp\left(-\frac{E_u - E_l}{kT}\right).
+\end{equation}
+
+\textbf{关键科学合同与适用边界声明}：式~\eqref{eq:4-8-detailed-balance-em}表述的是在 Planck 热辐射浴中，\textbf{成对、可逆电磁跃迁}（Pairwise Reversible Electromagnetic Transitions）所严格遵循的微观详细平衡。然而，在诸多核天体物理和异能态教学讨论中，常存在一个严重的逻辑泛化误区——错误地将成对电磁详细平衡等同于“整个原子核网络必定服从宏观热平衡”，甚至认为只要温度足够高，异能态与基态的布居之比就必然等于经典 Boltzmann 统计权重比：
+\begin{equation}\label{eq:4-8-boltzmann-naive}
+\frac{N_m}{N_g} \stackrel{?}{=} \frac{2J_m + 1}{2J_g + 1} \exp\left(-\frac{E_m - E_g}{kT}\right).
+\end{equation}
+必须指明，这种等同在物理上并不普遍成立，其适用条件与失效根源必须明确界定：
+\begin{enumerate}
+\item \textbf{声明天体环境下的弱衰变不可逆单向漏失}：详细平衡要求微观过程与其时间反演逆过程具有完全相等的统计平衡通量。在所声明的典型 $s$-过程氦燃烧壳层等天体演化环境（与核心坍缩超新星或原中子星等极端高密度中微子被捕获扩散的致密区不同）中，等离子体对中微子通常是光学薄的，核弱衰变释放的中微子 $\nu_e$ 或反中微子 $\bar{\nu}_e$ 几乎自由逃逸至外层空间，环境并不存在一个处于化学平衡的高密度简并中微子海洋。因此，在此类声明环境下，不存在时间反演的“中微子逆吸收诱发逆 $\beta$ 过程”来平衡弱衰变漏失，$d_i^{\mathrm{sink}}$ 是单向非对称的外部吸收宿。
+\item \textbf{内部电磁转移速率与外部漏失速率的竞争}：虽然成对光子吸收与光子发射之间满足式~\eqref{eq:4-8-detailed-balance-em}的电磁详细平衡，但如果从某一能级簇流向另一能级簇的有效内部转移速率较慢，或者其速率未远大于能级各自向核外的弱衰变速率（即 $\lambda_{\mathrm{transfer}} \lesssim d_i^{\mathrm{sink}}$），则高能级在尚未与低能级通过充分多次双向交换建立统计平衡分布之前，就已经被外部弱衰变漏失持续排空。此时整个网络处于远离热平衡的非平衡定常流动分布之中。
+\end{enumerate}
+
+\subsubsection{高 $K$ 异能态的跨簇热化动力学与时间尺度}
+
+在变形原子核（如第4.6节中详述的稀土区高 $K$ 异能态 $^{176}\mathrm{Lu}$ 与 $^{180}\mathrm{Ta}$）中，低自旋基态与高 $K$ 异能态之间通常存在极大的自旋与投影角动量差（例如 $^{176}\mathrm{Lu}$ 基态为 $K^\pi = 7^-$，其异能态为 $K^\pi = 1^-$，激发能为 $122.8\ \mathrm{keV}$，$\Delta K = 6$）。由于高阶多极辐射场的强烈阻碍，基态与异能态之间的直接跃迁几率在冷态下严格为零（$\lambda_{g \leftrightarrow m}^{\mathrm{direct}} \approx 0$）~\cite{gintautas-2009-176lu-thermal-equilibration}。
+
+然而，在等离子体温度达到数千万至数亿开尔文时，原子核可以通过热光子共振吸收到达位于高激发能区（例如 $E_x \sim 600$--$1000\ \mathrm{keV}$）的\textbf{中间桥态}（Intermediate State, IMS，记为 $|i\rangle$）。这类中间态通常具有中等的 $K$ 量子数，或者由于高能区能级密度增高而发生强烈的局部 $K$ 混合（例如邻近具有相同自旋宇称的双能级发生微观耦合）~\cite{gintautas-2009-176lu-thermal-equilibration,gosselin-2010-plasma-isomers-176lu-180ta}。中间态 $|i\rangle$ 既能以有限的分支退激回基态带，也能退激到异能态带，从而在两带之间架起连通的退激桥梁。
+
+当中间桥态 $|i\rangle$ 的微观总退激宽度 $\Gamma_i^{\mathrm{tot}} = \hbar / \tau_i$ 极大（寿命极短，通常在皮秒至纳秒量级），且远离任何外部核反应共振时，中间态布居处于高度亚稳态的准定常流动状态（$dN_i/dt \approx 0$）。对中间态执行绝热消去（Adiabatic Elimination），可导出基态与异能态之间的\textbf{有效双向转移速率}：
+\begin{align}
+\lambda_{g \to m}^{\mathrm{eff}} &\simeq \sum_i \lambda_{g \to i} \cdot p_{i \to m} = \sum_i \lambda_{g \to i} \frac{\Gamma_{i \to m}}{\Gamma_i^{\mathrm{tot}}}, \label{eq:4-8-gtom-eff}\\
+\lambda_{m \to g}^{\mathrm{eff}} &\simeq \sum_i \lambda_{m \to i} \cdot p_{i \to g} = \sum_i \lambda_{m \to i} \frac{\Gamma_{i \to g}}{\Gamma_i^{\mathrm{tot}}}, \label{eq:4-8-mtog-eff}
+\end{align}
+其中 $p_{i \to m} = \Gamma_{i \to m} / \Gamma_i^{\mathrm{tot}}$ 为中间态退激到异能态簇的无量纲分支比。
+
+在物理上，我们可以将属于基态转动带的所有快速热平衡能级归并为“基态簇”（Ground Cluster，总布居记为 $N_g$），将属于异能态转动带的所有快速热平衡能级归并为“异能态簇”（Isomer Cluster，总布居记为 $N_m$）。带内能级由于极强的微观 $M1/E2$ 级联，在纳秒乃至皮秒量级（$\tau_{\mathrm{intra}} \sim 0.1$--$1\ \mathrm{ns}$）即可在其内部建立局域配分分布。定义有效簇交换率 $a \equiv \lambda_{g \to m}^{\mathrm{eff}}$ 与 $b \equiv \lambda_{m \to g}^{\mathrm{eff}}$，以及各簇的内部热加权有效破坏漏失率 $D_g$ 与 $D_m$（主要由各态的 $\beta$ 衰变贡献），双簇开网络方程可写为：
+\begin{equation}\label{eq:4-8-two-cluster-master}
+\frac{d}{dt}\begin{pmatrix} N_g(t) \\ N_m(t) \end{pmatrix} =
+\begin{pmatrix} -(a + D_g) & b \\ a & -(b + D_m) \end{pmatrix}
+\begin{pmatrix} N_g(t) \\ N_m(t) \end{pmatrix} +
+\begin{pmatrix} P_g(t) \\ P_m(t) \end{pmatrix}.
+\end{equation}
+
+在恒定环境条件且无外部连续产生（$\mathbf{P} = 0$）的理想线性化条件下，式~\eqref{eq:4-8-two-cluster-master}的演化由双态有效转移矩阵的特征值决定。设解的形式为 $e^{-r t}$，特征方程给出两个衰减特征值 $r_\pm$：
+\begin{equation}\label{eq:4-8-cluster-eigenvalues}
+r_\pm = \frac{1}{2}\left\{ (a + b + D_g + D_m) \pm \sqrt{(a + D_g - b - D_m)^2 + 4ab} \right\}.
+\end{equation}
+对式~\eqref{eq:4-8-cluster-eigenvalues}进行深入的物理极限与边界条件分析：
+\begin{enumerate}
+\item \textbf{闭合无损失极限下的热化时间标度}：严格在体系不存在外部弱衰变漏失（$D_g = D_m = 0$）且无外源输入的理想闭合两态交换极限下，根号内部化简为 $\sqrt{(a-b)^2 + 4ab} = a+b$。此时两个特征值为：
+\begin{equation}\label{eq:4-8-lossless-limits}
+r_- = 0, \qquad r_+ = a + b.
+\end{equation}
+特征值 $r_- = 0$ 对应于总粒子数守恒的定常基态解；而特征值 $r_+$ 决定了两态布居偏离平衡后的特征弛豫速率。因此，仅在该闭合无损失双态交换模型下，其特征热化时间尺度严格表示为：
+\begin{equation}\label{eq:4-8-therm-timescale}
+\tau_{\mathrm{therm}} = \frac{1}{a + b} = \frac{1}{\lambda_{g \to m}^{\mathrm{eff}} + \lambda_{m \to g}^{\mathrm{eff}}}.
+\end{equation}
+\textbf{适用条件与局限性声明}：必须强调，式~\eqref{eq:4-8-therm-timescale}的倒数和形式严格依赖于“闭合双态、恒定温度、无外部漏失”的前提假定。在真实的开放核反应网络中，一旦存在显著的非对称漏失（$D_g \ne D_m$）、随时间演化的恒星温度轨迹 $T(t)$、连续外部馈入流 $\mathbf{P}(t)$ 以及多重高能中间桥态，系统的长期演化特征弛豫速率将由全阶转移矩阵 $\mathbf{A}(T, n_e, \dots)$ 的非对角与对角本征谱联合决定，系统的最慢非零衰减本征模将偏离简单的 $a+b$。
+\item \textbf{快速热化弱漏失极限下的有效衰变率}：当温度升高使得通过桥态的热激发交换率远大于两簇的弱衰变差异（即 $a + b \gg |D_g - D_m|$）时，较小特征值 $r_-$ 可以通过摄动展开近似为：
+\begin{equation}\label{eq:4-8-effective-decay-approx}
+r_- \simeq D_{\mathrm{eff}} = \frac{b D_g + a D_m}{a + b}.
+\end{equation}
+在此极限下，成对电磁跃迁建立微观详细平衡，跨簇有效交换率之比趋向于簇配分函数加权比：
+\begin{equation}\label{eq:4-8-partition-ratio}
+\frac{a}{b} = \frac{\lambda_{g \to m}^{\mathrm{eff}}}{\lambda_{m \to g}^{\mathrm{eff}}} \simeq \frac{Z_m(T)}{Z_g(T)} \exp\left(-\frac{E_m - E_g}{kT}\right),
+\end{equation}
+其中 $Z_g(T) = \sum_{j \in g} (2J_j + 1) e^{-(E_j - E_g)/kT}$ 与 $Z_m(T) = \sum_{k \in m} (2J_k + 1) e^{-(E_k - E_m)/kT}$ 分别为基态簇与异能态簇的内部转动配分函数。将式~\eqref{eq:4-8-partition-ratio}代入式~\eqref{eq:4-8-effective-decay-approx}，全系统的宏观有效衰变破坏率表现为著名的热加权平均形式：
+\begin{equation}\label{eq:4-8-therm-decay-average}
+D_{\mathrm{eff}}(T) \simeq \frac{Z_g(T) D_g + Z_m(T) e^{-(E_m - E_g)/kT} D_m}{Z_g(T) + Z_m(T) e^{-(E_m - E_g)/kT}}.
+\end{equation}
+这一经典公式成立的前提是跨带交换时间必须远短于体系的弱衰变破坏寿命以及恒星流体运动/冷却时间尺度（$\tau_{\mathrm{therm}} \ll \min\{D_g^{-1}, D_m^{-1}, \tau_{\mathrm{hydro}}\}$）。
+\item \textbf{拒绝虚构普适临界温度}：在诸多早期唯象讨论中，常试图为某一核素定义一个普适的“临界热化温度”（如声称 $^{176}\mathrm{Lu}$ 在某固定温度下“必然热化”）。然而由前述动力学推导可知，系统能否实现充分热平衡，根本上取决于微观转移时间尺度 $\tau_{\mathrm{therm}}(T)$ 与宏观天体物理输运/膨胀冷却时间 $\tau_{\mathrm{hydro}} = |T / \dot{T}|$ 的动力学竞争。若恒星对流循环或抛射物膨胀极为迅速（$\tau_{\mathrm{hydro}} < \tau_{\mathrm{therm}}$），则即便在原本被认为能够热化的温区，原子核各态也来不及建立平衡，必须将基态与异能态作为两个独立的流体组分参与核反应网络演化。
+\end{enumerate}
+
+\subsubsection{原件实例：$^{176}\mathrm{Lu}$ 的两态混合与 $^{180}\mathrm{Ta}$ 的局域增强反例}
+
+为了给上述理论推导提供直接的原件证据针脚，考察 Gintautas 等人（2009）~\cite{gintautas-2009-176lu-thermal-equilibration}对经典天体物理核素 $^{176}\mathrm{Lu}$ 的具体计算。在 $^{176}\mathrm{Lu}$ 中，已确认的一个重要高激发中间态为位于 $838.6\ \mathrm{keV}$（$J^\pi = 5^-, K \approx 4$）的能级；此外，作者在理论模型中提出，位于 $724.7\ \mathrm{keV}$ 与 $725.2\ \mathrm{keV}$ 的两个邻近 $7^-$ 能级（能量间距极小，$\Delta E_x = 517\ \mathrm{eV}$）可能通过微观相互作用矩阵元 $V$ 发生局域两态 $K$ 混合（$V$ 的数学上限为 $\Delta E_x / 2 = 258.5\ \mathrm{eV}$）~\cite{gintautas-2009-176lu-thermal-equilibration}。在其算例中（PDF pp.~4--5, Fig.~3），当假定等离子体温度为 $T_9 = 0.25$（$kT \approx 21.5\ \mathrm{keV}$）、相互作用取为 $V = 5\ \mathrm{eV}$（对应 $K$ 混合几率为 $9.40 \times 10^{-5}$）、初始条件仅为基态且人为关闭弱衰变漏失时，数值解显示：两簇各自内部在纳秒量级迅速平衡，随后跨簇布居在大约 $t \sim 10^5\ \mathrm{s}$ 时才逼近两带间的统计平衡。这一真实原件结果直观证明：快中间态存在且带内电磁跃迁极快，并不自动保证跨带可以瞬间热化；在经历天体物理动态演化时，必须根据具体输运时间独立核验。
+
+更为深刻的是 Gosselin 等人（2010）~\cite{gosselin-2010-plasma-isomers-176lu-180ta}针对 $^{180}\mathrm{Ta}$ 与 $^{176}\mathrm{Lu}$ 的等离子体电子过程研究所揭示的\textbf{局域增强不等于全网增强反例}。在等离子体环境中，原子电离与束缚态电子跃迁可能显著加速中间态向某一低能级的退激跃迁（例如在 $^{180}\mathrm{Ta}$ 的特定网络模型中，位于 $594\ \mathrm{keV}$ 的最低中间态向邻近能级有一个能量为 $\Delta E = 72\ \mathrm{keV}$ 的低能跃迁，其局部衰变几率在等离子体中可被增强两倍以上）~\cite{gosselin-2010-plasma-isomers-176lu-180ta}。然而，Gosselin 等人明确指出，在其所研究的特定网络参数下，整个跨簇有效转移速率 $\lambda^*$ 是由该中间态向另一侧高 $K$ 带的极弱分支（向 $357\ \mathrm{keV}$ 态的弱跃迁）所瓶颈控制的。从式~\eqref{eq:4-8-gtom-eff}可知，双侧桥接的有效强度由 $\frac{\Gamma_a \Gamma_b}{\Gamma_a + \Gamma_b}$ 决定；当 $\Gamma_a \gg \Gamma_b$ 时，该式退化为 $\Gamma_b$。因此，在该特定网络的结构约束下，外部等离子体环境哪怕将本已较强的低能支路 $\Gamma_a$ 增强数倍，由于决定全网跨越瓶颈的弱支路 $\Gamma_b$ 保持不变，整个核素在天体环境下的有效热化速率几乎没有任何显著改变。必须注意，这一结论是该特定衰变网络拓扑与分支比结构的固有属性，不可盲目推论为所有核素网络均对电子过程免疫。
+
+\subsection{核与电子通道竞争：核钟跃迁与诱发退激争议}\label{sec:4-8-2}
+
+第\ref{sec:4-8-1}小节聚焦于宏观热平衡辐射场对原子核布居的驱动。然而在微观层面，即便在冷态或单一原子尺度下，原子核与核外电子壳层的量子力学耦合也能颠覆性地重塑原子核的退激通道，从而改变其在实验中的可观测寿命与衰变特征。
+
+\subsubsection{核跃迁矩阵元与宏观总宽度的物理分离}
+
+在量子电动力学框架下，原子核初态 $|\psi_i\rangle$ 向末态 $|\psi_f\rangle$ 的电磁跃迁，其\textbf{内禀核约化跃迁几率} $B(\sigma L; I_i \to I_f) = \frac{1}{2I_i + 1} |\langle \psi_f || \hat{\mathcal{M}}(\sigma L) || \psi_i \rangle|^2$ 完全由核子多体波函数的空间积分与同位旋/自旋重叠决定，是纯粹的核结构物理量。相应地，单光子自发发射辐射宽度为：
+\begin{equation}\label{eq:4-8-rad-width-intrinsic}
+\Gamma_\gamma(\sigma L) = \frac{8\pi (L+1)}{L [(2L+1)!!]^2} \left(\frac{E_\gamma}{\hbar c}\right)^{2L+1} B(\sigma L; I_i \to I_f).
+\end{equation}
+然而，实验上所测得的该激发能级的\textbf{总衰变能级宽度} $\Gamma_{\mathrm{tot}}$ 与\textbf{实验寿命} $\tau = \hbar / \Gamma_{\mathrm{tot}}$（或半衰期 $T_{1/2} = \tau \ln 2$），是由核内禀通道与原子/介质外在通道共同决定的宏观物理量：
+\begin{equation}\label{eq:4-8-tot-width-decompose}
+\Gamma_{\mathrm{tot}} = \Gamma_\gamma + \Gamma_{\mathrm{IC}} + \Gamma_{\mathrm{ext}} = \Gamma_\gamma (1 + \alpha_{\mathrm{IC}}) + \Gamma_{\mathrm{ext}},
+\end{equation}
+其中 $\Gamma_{\mathrm{IC}}$ 为原子内转换宽度，$\alpha_{\mathrm{IC}} = \sum_x \alpha_x$ 为全壳层总内转换系数（ICC），而 $\Gamma_{\mathrm{ext}}$ 代表可能存在的外部介质耗散或诱发跃迁宽度。
+
+当核能级跃迁能量较低（数 $\mathrm{keV}$ 至数 $\mathrm{eV}$）时，电磁辐射相空间因子 $(E_\gamma / \hbar c)^{2L+1}$ 急剧减小，使得纯光子辐射宽度 $\Gamma_\gamma$ 极其微弱；相反，内转换系数 $\alpha_{\mathrm{IC}}$ 随着跃迁能量降低而急剧增大（在低能下 $\alpha_{\mathrm{IC}} \propto E_\gamma^{-(L+1/2)}$，常可达到 $10^2$--$10^9$ 以上）。此时，内转换成为绝对主导的衰变通道，真空辐射光子衰变被淹没在电子转换的背景之中。
+
+\subsubsection{微观原子--核物理通道的严格解构}
+
+为了杜绝文献与概念中普遍存在的通道混淆，在此对原子核与核外电子相互作用的微观过程确立严格的物理定义：
+\begin{enumerate}
+\item \textbf{自发辐射（Spontaneous Radiative Decay, $\gamma$）}：核初态通过量子真空电磁起伏向辐射场发射单个实光子并退激到末态，无需核外电子参与。
+\item \textbf{内部转换（Internal Conversion, IC）}：激发态原子核通过虚光子交换将其跃迁能量传递给某个束缚态电子轨道上的原子电子（结合能为 $E_b$）。该电子吸收全部能量后被电离并发射至连续谱空间，其出射动能满足严格的能量守恒：
+\begin{equation}\label{eq:4-8-ic-energy-cons}
+E_e = E_{\mathrm{nuc}}^* - E_b.
+\end{equation}
+内转换发生的前提是核激发能必须严格高于该电子壳层的电离结合能（$E_{\mathrm{nuc}}^* > E_b$）。若原子被强电离剥离掉该壳层电子，或者 $E_{\mathrm{nuc}}^* < E_b$，则该内转换分通道在运动学上被严格关闭。
+\item \textbf{电子俘获核激发（Nuclear Excitation by Electron Capture, NEEC）}：微观上为内部转换过程在量子力学时间反演下的逆过程。一个处于连续谱、具有动能 $E_e$ 的入射自由电子，被具有内层电子空穴的离子所捕获，落入结合能为 $E_b$ 的束缚态空轨道中；在此捕获过程中释放的多余能量通过虚光子耦合传递给原子核，将核从初态（通常为基态或长寿命异能态）共振激发到高能触发能级 $E_{\mathrm{nuc}}^*$。
+NEEC 的最核心物理特征在于其\textbf{严格的单能共振性}：
+\begin{equation}\label{eq:4-8-neec-resonance-cond}
+E_e + E_b = E_{\mathrm{nuc}}^*.
+\end{equation}
+只有当入射电子动能与原子空穴结合能之和精确匹配核跃迁能量时，NEEC 的微观跃迁矩阵元才非零。其共振激发截面在数学上表现为由共振态总宽度所展宽的 Breit-Wigner 单峰，在能量失配时截面急剧截断。
+\item \textbf{非弹性电子散射核激发（Nuclear Excitation by Inelastic Electron Scattering, NEIES）}：处于连续谱的入射自由电子与原子核发生非弹性库仑碰撞，电子将其一部分动能传递给原子核并诱发核激发，但电子自身\textbf{最终仍留在连续谱出射空间}，以较小的动能 $E_e' = E_e - E_{\mathrm{nuc}}^* > 0$ 出射。
+\textbf{物理机制严格辨析}：NEEC（末态电子被捕获为原子束缚态，严格单能共振）与 NEIES（初末态电子皆为连续谱波函数，非捕获非弹性散射）在相互作用矩阵元、末态相空间归一化以及能量匹配机制上存在本质区别。对于 NEIES，只要入射电子动能高于激发阈值（$E_e > E_{\mathrm{nuc}}^*$），其非弹性散射通道在运动学上即行开放，通常表现为平滑的连续阈值激发函数。需要说明的是，在特定的复杂低能电子--离子碰撞模型中，非弹性散射连续谱可能叠加坡形共振（Shape Resonances）或 Feshbach 自电离共振结构，但其出射电子处于连续谱的基本物理图像与作为束缚态捕获的 NEEC 绝非同义，不可混为一谈。
+\item \textbf{电子跃迁核激发（Nuclear Excitation by Electron Transition, NEET）}：核外束缚电子从一个高能束缚态轨道跃迁到一个低能内层空穴轨道，若其原子跃迁能量 $\Delta E_{\mathrm{atomic}}$ 与核激发能 $E_{\mathrm{nuc}}^*$ 近似匹配，则电子通过非辐射虚光子耦合将其能量传递给核并诱发核激发。
+\end{enumerate}
+
+\subsubsection{原件实例一：$^{229}\mathrm{Th}$ 光学核钟的寿命重塑与本征形变不变性}
+
+$^{229}\mathrm{Th}$ 原子核的第一激发能态 $^{229m}\mathrm{Th}$ 是目前已知激发能最低的同核异能态，被称为连接低能核物理与超高精度量子频标的光学“核钟”（Nuclear Clock）候选态~\cite{beeks-2021-thorium-229-isomer-nuclear-clock,kraemer-2023-radiative-decay-229th-isomer}。
+
+核钟研究的实验突破展现了原子与介质环境对衰变可见性的巨大调控力，但必须对不同测量平台、介质与物理量定义保持严格的溯源区分：
+\begin{enumerate}
+\item \textbf{激发能的测定}：Kraemer 等人（2023）在 CERN ISOLDE 装置通过 $^{229}\mathrm{Ac}$ 的 $\beta^-$ 衰变将 $^{229m}\mathrm{Th}$ 注入晶体，利用真空紫外（VUV）光谱学首次直接观测到其辐射退激单光子谱，测得其精确激发能为 $E_{\mathrm{iso}} = 8.338(24)\ \mathrm{eV}$（对应光子真空波长为 $\lambda = 148.71(42)\ \mathrm{nm}$，Nature 617, 706，PDF p.~1）~\cite{kraemer-2023-radiative-decay-229th-isomer}。此前基于内转换电子谱测得的值为 $8.28(17)\ \mathrm{eV}$~\cite{beeks-2021-thorium-229-isomer-nuclear-clock}。
+\item \textbf{不同介质下衰变寿命的原作区分}：
+首先，在电中性自由 $^{229}\mathrm{Th}$ 原子环境中，钍的第一电离能约为 $I_1 \approx 6.3\ \mathrm{eV} < E_{\mathrm{iso}}$，外层价电子的内转换通道完全开放且处于强烈主导地位。Seiferle 等人（2017）在一项独立的实验中，测得沉积在金属表面或微通道板环境下的中性 $^{229m}\mathrm{Th}$ 的内转换\textbf{半衰期}为 $T_{1/2} = 7 \pm 1\ \mu\mathrm{s}$（对应平均寿命 $\tau \approx 10\ \mu\mathrm{s}$）~\cite{beeks-2021-thorium-229-isomer-nuclear-clock,kraemer-2023-radiative-decay-229th-isomer}。
+其次，Kraemer 等人（2023）的实验并非在同一次测量中直接对比中性原子与晶体，而是专门针对植入宽带隙氟化物晶体（$\mathrm{MgF}_2$ 与 $\mathrm{CaF}_2$）中的 $^{229m}\mathrm{Th}$ 进行测量。由于 $\mathrm{MgF}_2$（禁带宽度约 $10\ \mathrm{eV}$）与 $\mathrm{CaF}_2$（禁带宽度约 $12\ \mathrm{eV}$）的价带电子电离到导带所需的能量均显著大于核激发能 $8.34\ \mathrm{eV}$，使得最外层电子的普通内转换在能量守恒上被有效抑制。在此晶格屏蔽环境下，Kraemer 等人直接测得植入 $\mathrm{MgF}_2$ 晶体中的 $^{229m}\mathrm{Th}$ 辐射退激\textbf{半衰期}为：
+\begin{equation}\label{eq:4-8-th-rad-lifetime}
+T_{1/2}(\mathrm{MgF}_2) = 670 \pm 102\ \mathrm{s}
+\end{equation}
+（Nature 617, 706，PDF p.~1 与 p.~3）。作者进一步指出，固体晶格介质具有大于 1 的折射率（在 $148.7\ \mathrm{nm}$ 下 $\mathrm{MgF}_2$ 的折射率为 $n = 1.488$），介质局域场效应（通常引入约 $n^3$ 比例因子）会修正晶体中的实际跃迁速率；扣除介质折射率贡献后，所推断的真实\textbf{真空辐射半衰期}约为 $T_{1/2}^{\mathrm{vac}} = 2.21(34) \times 10^3\ \mathrm{s}$（对应平均寿命 $\tau_{\mathrm{rad}}^{\mathrm{vac}} \approx 3.2 \times 10^3\ \mathrm{s}$）~\cite{kraemer-2023-radiative-decay-229th-isomer}。
+此外，必须严密指出，固体晶格中还可能存在晶格缺陷猝灭或微弱非辐射耗散通道，不能在未经检验的情况下断言其为绝对理想的单光子发射源。
+\end{enumerate}
+
+从微秒量级（$\sim 7\ \mu\mathrm{s}$）到数百秒量级（$670\ \mathrm{s}$），外部电子通道的开放与关闭将宏观可测寿命拉伸了整整\textbf{八个数量级}。然而，从原子核微观多体理论来看，无论是处于中性原子还是处于氟化物晶格，$^{229}\mathrm{Th}$ 原子核内部由核力支配的多体波函数、Nilsson 轨道占据（基态为 $5/2^+[633]$，异能态为 $3/2^+[631]$）以及微观约化跃迁几率 $B(M1; 3/2^+ \to 5/2^+)$ 并未发生实质性变化。这为我们提供了一个关键的科学判据：\textbf{宏观衰变寿命与测量可见性的戏剧性变化，不能作为推论原子核内禀四极形变或核多体结构发生改变的依据}；必须将核结构内禀矩阵元、原子外层电子占有态以及周围介质介电场效应逐层独立解构。
+
+\subsubsection{原件实例二：$^{93m}\mathrm{Mo}$ 的 NEEC 诱发退激争议与实验批判}
+
+如果说 $^{229}\mathrm{Th}$ 展示了电子环境压制退激通道的确定性突破，那么围绕 $^{93m}\mathrm{Mo}$ 异能态耗散的学术交锋，则为理解原子--核耦合诱发过程的证据强度与实验局限提供了不可多得的科学案例。
+
+$^{93}\mathrm{Mo}$ 原子核拥有一个著名的长寿命高自旋同核异能态 $^{93m}\mathrm{Mo}$（自旋宇称为 $I^\pi = 21/2^+$，激发能为 $E_{\mathrm{iso}} = 2425\ \mathrm{keV}$，半衰期长达 $T_{1/2} = 6.85\ \mathrm{h}$）。在其上方仅 $4.85\ \mathrm{keV}$ 处，存在一个激发能为 $2429.8\ \mathrm{keV}$ 的中间触发能级（Triggering State，记为 $|t\rangle$，$I^\pi = 17/2^+$, $\tau \approx 3.5\ \mathrm{ns}$）。触发态 $|t\rangle$ 不受高自旋阻碍限制，能以近 $100\%$ 的分支比发射能量为 $268\ \mathrm{keV}$ 的 $\gamma$ 射线并极速级联退激至 $13/2^+$ 态与基态。因此，若能利用外部自由电子通过 NEEC 共振吸收将其从 $21/2^+$ 激发到 $17/2^+$，就能将异能态中储存数小时的高能量在纳秒内瞬间释放，这被称为“异能态受控耗散”（Isomer Depletion）或核电池技术原型~\cite{book-jain-nuclear-isomers}。
+
+围绕这一过程，核物理界在不同的实验与理论设置下展开了深入的批判性检验：
+\begin{enumerate}
+\item \textbf{Chiara 等人（2018）的束流慢化实验宣称}：Chiara 等人在 Nature 发表论文~\cite{chiara-2018-mo93m-isomer-depletion-neec}，利用 $^{82}\mathrm{Se}(^{16}\mathrm{O}, 5n)$ 重离子熔合蒸发反应产生反冲的 $^{93m}\mathrm{Mo}$ 离子，使其穿透置于靶后的碳减速薄膜。作者假定在离子穿透碳膜慢化至特定电荷态与动能并满足共振捕获条件时，通过探测特征性的 $268\ \mathrm{keV}$ $\gamma$ 跃迁与上游瞬发馈入谱线的符合，提取出激发几率为：
+\begin{equation}\label{eq:4-8-chiara-value}
+P_{\mathrm{exc}} = 0.010(3) \quad (\text{即 } 1.0 \pm 0.3\%)
+\end{equation}
+（Nature 554, 216，PDF p.~2 与 p.~5），并将其归因为 NEEC 过程的首次实验观测。
+\item \textbf{Wu 等人（2019）的离子阻止本领理论计算}：这一极大的激发几率引发了理论物理学界的严密推演。Wu、Keitel 与 P\'alffy（2019）在 PRL 发表了针对该束流慢化设置的相对论原子结构与阻止本领理论计算~\cite{wu-2019-mo93m-neec-stopping-theory}。他们结合微观 Dirac-Fock 束缚态波函数、相对论扭曲波连续谱以及多种高精度的离子阻止本领模型（CasP 模型等），计算了 $^{93m}\mathrm{Mo}$ 离子在穿透碳膜减速过程中的电荷态分布演化与 NEEC 共振截面积分。在所考虑的所有阻止模型与电荷态分布下，计算得到的理论 NEEC 激发几率约为：
+\begin{equation}\label{eq:4-8-wu-theory-value}
+P_{\mathrm{exc}}^{\mathrm{theory}} \approx 2.3 \times 10^{-11} \sim 2.7 \times 10^{-11} \quad (\sim 10^{-11})
+\end{equation}
+（PRL 122, 212501，PDF p.~2 与 p.~4 表 I），与 Chiara 等人声称的 $10^{-2}$ 相比，存在整整\textbf{九个数量级}的巨大理论鸿沟。
+\item \textbf{Guo 等人（2021）指出的熔合瞬发本底污染机制}：Guo 等人在 Nature 发表的 Matters Arising 评论中指出了该实验分析中的潜在本底竞争解释~\cite{guo-2021-mo93m-depletion-contamination-challenge}。重离子熔合蒸发反应是一种伴随极强瞬发 $\gamma$ 射线的强辐射本底环境。触发能级发出的 $268\ \mathrm{keV}$ 光子不仅可以来自异能态耗散，绝大部分直接来自于熔合反应本身的瞬发退激级联；此外，靶杂质反应、未识别的旁路级联以及极高计数率下的随机偶然符合在探测器时间门内形成了密集的连续本底。评论指出，Chiara 等人在处理复杂的 $\gamma$ 本底时所采用的平滑连续谱假定低估了假符合污染，残留的本底峰可能模拟出虚假的净计数（Nature 594, E1，PDF pp.~1--2）。
+\item \textbf{Guo 等人（2022）纯净异能束实验设立的上限}：为了消除原级核反应瞬发强本底的干扰，Guo 等人（2022）在阿贡国家实验室 ATLAS 装置上利用\textbf{纯净反冲异能态束流}（Isomer Beam）开展了关键检验~\cite{guo-2022-mo93m-isomer-beam-depletion-limit}。该实验首先利用电磁分离器将 $^{93m}\mathrm{Mo}$ 纯净离子束从初级核反应靶处完全分离出来，引导至超低本底测量站再打入碳阻挡层。在该纯净束流实验中，作者在 $268\ \mathrm{keV}$ 处未观测到任何统计显著的诱发耗散信号，从而在该实验的特定束流与慢化靶条件下，确立了严格的实验激发几率上限：
+\begin{equation}\label{eq:4-8-guo-limit-value}
+P_{\mathrm{exc}}^{\mathrm{exp}} < 2 \times 10^{-5} \quad (95\%\ \mathrm{C.L.})
+\end{equation}
+（PRL 128, 242502，PDF p.~1 与 p.~5）。
+\end{enumerate}
+
+\textbf{证据边界与方法论启示}：郭松等人（2022）给出的 $2 \times 10^{-5}$ 上限直接在实验证据上排除了 Chiara 等人最初报道的 $1\%$ 耗散结果。然而，科学的评价要求我们明确其证据边界：该上限是在阿贡 ATLAS 反冲异能束慢化这一\textbf{特定实验装置与能量条件}下测得的，它直接证伪了该特定条件下的宏观大截面声称，但并不等同于在所有物理平台（如重离子储存环、高电荷态电子束离子阱 EBIT 或强激光场环境）中全面排除了 NEEC 机制的存在。该争论确立了低能谱学与诱发退激研究的核心准则：\textbf{实验设置、本底污染分析与模型计算必须置于同一可观测量定义下进行交叉核验；不能将某一特定环境下的初步阳性信号或理论计算可行性升格为已被证实的普遍现象}。
+
+\subsection{重离子完全熔合形成与存活几率}\label{sec:4-8-3}
+
+在前两小节中，我们探讨了核态在合成之后，如何在外部热场或电子环境中改变其寿命与耗散特征。而在在束实验谱学（第5章）与超重核人工合成的前沿探索中，原子核是如何被实际创造并存活下来的？在重离子熔合蒸发反应中，原子核能级的形成截面如何计算？长寿命异能态的高裂变位垒是否意味着反应产额的必然提升？本小节将推演重离子完全熔合反应的分波框架，并对这些问题给出微观解答。
+
+\subsubsection{完全熔合蒸发剩余核截面的三阶段分波公式}
+
+重离子完全熔合反应是将两个重核（弹核 $A_1$ 与靶核 $A_2$）碰撞形成复合核，并通过发射轻粒子（主要是中子 $x\mathrm{n}$）冷却生成目标蒸发剩余核（Evaporation Residue, ER）的物理过程。在现代重核与超重核反应理论中，该过程通常在机制与时间尺度上解构为三个连续阶段（Zagrebaev 等人 2001~\cite{zagrebaev-2001-superheavy-synthesis-survival}）：
+\begin{enumerate}
+\item \textbf{第一阶段：碰撞接触与势垒穿透（Capture Stage）}；
+\item \textbf{第二阶段：接触双核演化为紧致复合核（Compound Nucleus Formation Stage）}；
+\item \textbf{第三阶段：高激发复合核去激发蒸发存活（Survival Stage）}。
+\end{enumerate}
+
+在质心系入射动能为 $E$ 时，合成冷基态或特定长寿命蒸发剩余核 $B$ 的产生截面可对全角动量 $J$ 进行分波展开：
+\begin{equation}\label{eq:4-8-er-master}
+\sigma_{\mathrm{ER}}(E) = \sum_{J=0}^\infty \sigma_{\mathrm{cap}}(E, J) P_{\mathrm{CN}}(E, J) W_{\mathrm{sur}}(E^*, J).
+\end{equation}
+在此严格声明公式各因子的物理含义、量纲与自旋耦合规范：
+\begin{itemize}
+\item $\sigma_{\mathrm{cap}}(E, J)$ 为入射体系在总角动量为 $J$ 时的\textbf{部分俘获截面}（Partial Capture Cross Section），其量纲为面积（$1\ \mathrm{fm}^2 = 10\ \mathrm{mb} = 10^{10}\ \mathrm{pb}$）。
+对于\textbf{自旋为零的弹靶入射体系}（$I_1 = 0, I_2 = 0$），体系总角动量完全由轨道角动量提供（$J = l$）。此时部分俘获截面的标准表达式为：
+\begin{equation}\label{eq:4-8-sigma-cap-spin0}
+\sigma_{\mathrm{cap}}(E, J) = \frac{\pi \hbar^2}{2\mu E} (2J + 1) T(E, J),
+\end{equation}
+其中 $\mu = \frac{m_1 m_2}{m_1 + m_2}$ 为弹靶约化质量，$\lambdabar = \frac{\hbar}{\sqrt{2\mu E}}$ 为质心系相对运动 de Broglie 减缩波长，$T(E, J)$ 为总角动量为 $J$ 时的入射相互作用势垒穿透几率。
+\textbf{公式严密性合同}：若公式中定义的部分俘获截面 $\sigma_{\mathrm{cap}}(E, J)$ 已经明确包含了统计权重因子 $(2J + 1)$（如式~\eqref{eq:4-8-sigma-cap-spin0}所示），则在式~\eqref{eq:4-8-er-master}的总截面求和中，\textbf{绝对不得再次乘以 $(2J+1)$}，否则将导致统计权重被重复双重计数！
+\item 若弹核或靶核具有\textbf{非零内禀基态自旋} $I_1$ 与 $I_2$，则进入通道的角动量耦合为：
+\begin{equation}\label{eq:4-8-spin-coupling-detail}
+\mathbf{S} = \mathbf{I}_1 + \mathbf{I}_2, \qquad \mathbf{J} = \mathbf{l} + \mathbf{S}.
+\end{equation}
+在无极化的统计平均系综下，部分俘获截面必须引入进入通道内禀自旋投影态的统计平均因子：
+\begin{equation}\label{eq:4-8-sigma-cap-general-spin}
+\sigma_{\mathrm{cap}}(E, J) = \frac{\pi \hbar^2}{2\mu E} \frac{2J + 1}{(2I_1 + 1)(2I_2 + 1)} \sum_{S=|I_1 - I_2|}^{I_1 + I_2} \sum_{l=|J-S|}^{J+S} T_l(E, J),
+\end{equation}
+显式保证了在任意自旋构型下的相空间正规归一化。
+\item $P_{\mathrm{CN}}(E, J)$ 为\textbf{无量纲条件概率}，表示克服入射势垒并在接触点 $R_{\mathrm{cont}} = R_1 + R_2$ 形成接触双核系统后，该系统克服排斥性势能面并成功演化为空间紧致的单体复合核的几率。
+\item $W_{\mathrm{sur}}(E^*, J)$ 为\textbf{无量纲存活几率}，表示初始激发能为 $E^*$、总角动量为 $J$ 的复合核，在经历粒子蒸发级联冷却并与裂变竞争后，最终存活并落入冷蒸发剩余核的几率。其中复合核的初始热力学激发能由质心动能与反应 $Q$ 值固定：
+\begin{equation}\label{eq:4-8-excitation-energy-def}
+E^* = E - Q_{\mathrm{fus}}, \qquad Q_{\mathrm{fus}} \equiv M(C)c^2 - M(A_1)c^2 - M(A_2)c^2,
+\end{equation}
+其中 $M(C)$ 为复合核基态质量。
+\end{itemize}
+
+\subsubsection{各阶段物理不确定度与反应微观机制}
+
+在实际核理论推演与实验预言中，式~\eqref{eq:4-8-er-master}的三个因子分别由完全不同的微观物理机制所支配，且各自承载着不同的理论不确定度（Zagrebaev 等人 2001~\cite{zagrebaev-2001-superheavy-synthesis-survival}）：
+\begin{enumerate}
+\item \textbf{俘获阶段的不确定度（$\sigma_{\mathrm{cap}}$）}：
+在近垒与深次垒能区，势垒穿透几率 $T(E, J)$ 绝不能简化为一维静电库仑势垒的简单 WKB 积分。它受到多体道耦合动力学（Channel Coupling）的支配：弹靶原子核的低能集体转动（如四极形变 $\beta_2$、十六极形变 $\beta_4$）、表面低频多极振动（如八极声子 $3^-$）以及多核子转移通道，将原本单一的一维势垒分裂为一个宽广的多维势垒分布函数 $D(B) = \frac{d^2(E \sigma_{\mathrm{fus}})}{dE^2}$。在势垒下方，道耦合效应能够显著提升俘获截面。其理论不确定度主要来自于核势深度、扩散度以及动态颈部形成参数的唯象选取。
+\item \textbf{复合核形成阶段的不确定度（$P_{\mathrm{CN}}$）与体系依赖性}：
+接触后的双核系统是一个高度激发的巨型两体体系。在库仑斥力、核力以及耗散摩擦力的共同作用下，系统在由质量不对称度 $\eta = (A_1 - A_2)/(A_1 + A_2)$、形变伸长量与颈部厚度组成的多维势能面上发生复杂的随机演化。
+对于较轻的核体系（如库仑参数 $Z_1 Z_2 \lesssim 1000$ 的中重核反应），接触后系统迅速自发融合为单体复合核，此时形成几率近似接近于 1（$P_{\mathrm{CN}} \approx 1$）。
+然而，在超重核合成的大质量体系中（例如对称冷熔合体系 $^{70}\mathrm{Zn} + ^{208}\mathrm{Pb}$ 或使用中子富集锕系靶的热熔合反应 $^{48}\mathrm{Ca} + ^{244}\mathrm{Pu}$，其库仑乘积高达 $Z_1 Z_2 \gtrsim 1600$--$2000$），接触双核面临着极其强烈的\textbf{准裂变}（Quasifission, QF）竞争——即两个核在尚未融合成完全热化的紧致单核之前，就在强库仑斥力驱动下发生快速质量交换并重新碎裂为两瓣碎片。在 Zagrebaev 等人（2001）的模型计算中（PDF pp.~5, 10--11），对于超重合成反应，准裂变占据了绝对主导地位，导致真正形成紧致复合核的几率 $P_{\mathrm{CN}}$ 在不同入射能量与角动量下可急剧降至 $10^{-2}$、$10^{-4}$ 乃至更低。由于势能面的多维驱动势垒、形状依赖的核摩擦阻尼张量以及动力学涨落难以从微观严格固化，$P_{\mathrm{CN}}$ 是重体系截面计算中不确定度最大的一环。
+\item \textbf{统计模型下的去激发存活几率（$W_{\mathrm{sur}}$）}：
+在声明采用 Hauser-Feshbach 与 Weisskopf 统计蒸发模型的框架下，若复合核去激发主要由发射中子主导（$x\mathrm{n}$ 通道），且假定每次粒子发射相互独立，则存活几率可表示为各逐级蒸发步中子分宽比的连乘积：
+\begin{equation}\label{eq:4-8-wsur-product}
+W_{\mathrm{sur}}(E^*, J) \simeq P_{x\mathrm{n}}(E^*, J) \prod_{k=1}^x \left[ \frac{\Gamma_n(E_k^*, J_k)}{\Gamma_{\mathrm{tot}}(E_k^*, J_k)} \right],
+\end{equation}
+其中分母中的总能级宽度 $\Gamma_{\mathrm{tot}} = \Gamma_n + \Gamma_f + \Gamma_\alpha + \Gamma_p + \Gamma_\gamma$ 包含了该步所声明的所有开放物理通道。能级宽度与物理衰变率通过量子力学关系 $\Gamma_i = \hbar \lambda_i$ 连接。在易裂变重核中，主导竞争项是中子宽度 $\Gamma_n$ 与裂变宽度 $\Gamma_f$。
+根据统计蒸发理论与 Bohr-Wheeler 裂变过渡态理论，中子蒸发宽度与裂变宽度分别表述为：
+\begin{align}
+\Gamma_n(E^*, J) &= \frac{2s_n + 1}{2\pi \rho(E^*, J)} \sum_{J'} \sum_{l} \int_0^{E^* - S_n} \epsilon \rho_R(E^* - S_n - \epsilon, J') T_l(\epsilon) d\epsilon, \label{eq:4-8-gamma-n-stat}\\
+\Gamma_f(E^*, J) &= \frac{1}{2\pi \rho(E^*, J)} \int_0^{E^* - B_f(J)} \rho_{\mathrm{saddle}}(E^* - B_f(J) - \epsilon) d\epsilon, \label{eq:4-8-gamma-f-stat}
+\end{align}
+其中 $S_n$ 为单中子分离能，$\rho_R$ 为残余核能级密度，$\rho_{\mathrm{saddle}}$ 为裂变鞍点过渡态能级密度，而 $B_f(J)$ 为对应角动量下的有效裂变位垒。
+\textbf{动力学逐级更新条件}：式~\eqref{eq:4-8-wsur-product}的连乘积必须在每一步蒸发后，根据出射粒子带走的动能与角动量执行逐级动态更新：
+\begin{equation}\label{eq:4-8-stepwise-dyn-update}
+E_k^* = E_{k-1}^* - S_n^{(k)} - \epsilon_k, \qquad \mathbf{J}_k = \mathbf{J}_{k-1} - \mathbf{j}_n^{(k)},
+\end{equation}
+其中 $\epsilon_k$ 为第 $k$ 步发射中子所带走的动能，其谱分布服从 Maxwellian 形式。
+\end{enumerate}
+
+\subsubsection{裂变位垒的壳修正阻尼与高激发存活特征}
+
+在式~\eqref{eq:4-8-gamma-f-stat}中，决定中子与裂变竞争的关键量是裂变位垒 $B_f$。在超重核区域，经典的液滴模型宏观裂变位垒极小甚至接近消失（$B_f^{\mathrm{LD}} \approx 0$），超重核的束缚主要依赖于微观量子壳修正能量 $\delta U$ 所形成的局部势阱。在唯象模型（如 Ignatyuk 壳阻尼模型，Zagrebaev 等人 2001，PDF p.~6 与 p.~8）中，有效裂变位垒随激发能的变化通常参数化为：
+\begin{equation}\label{eq:4-8-bf-shell-decomp}
+B_f(E^*) = B_f^{\mathrm{LD}} + \delta U \exp\left(-\frac{E^*}{E_d}\right) = B_f^{\mathrm{LD}} + \delta U \exp(-\gamma_D E^*),
+\end{equation}
+其中 $E_d = 1/\gamma_D$ 为壳阻尼能量常数。在文献中，针对锕系与超重核能级密度的唯象拟合通常取 $\gamma_D \approx 0.055$--$0.061\ \mathrm{MeV}^{-1}$，对应阻尼常数大约位于 $E_d \sim 15$--$20\ \mathrm{MeV}$ 这一特定唯象模型区间内（Zagrebaev 等人 2001，PDF p.~8）。
+由式~\eqref{eq:4-8-bf-shell-decomp}可知，随着复合核初始激发能的增高（如在热熔合反应中 $E^* \sim 30$--$50\ \mathrm{MeV}$），费米面附近的壳层结构效应发生剧烈阻尼，壳修正位垒显著减小。这导致在去激发蒸发链的前几步中，裂变相空间积分相对于中子发射急剧膨胀，存活比 $\Gamma_n / \Gamma_{\mathrm{tot}}$ 受到极大压制。
+
+\subsubsection{异能态长寿命与熔合产额脱耦：Xu 2004 机制辨析}
+
+基于上述微观反应链，我们终于能够直面并在严格的科学证据下审视一个在异能态应用领域中流传的朴素归纳——\textbf{“异能态在冷态具有长寿命或更高裂变位垒，因此重离子合成该核素时的截面必然更大，或者在宇宙中必然存留更多丰度”}。
+
+徐甫荣（F.~R.~Xu）等人（2004）在 PRL 发表了关于超重核中高自旋多准粒子异能态物理的开创性理论工作~\cite{xu-2004-superheavy-high-spin-isomer-stability}。该理论工作指出，在超重核区域（如 $^{256}\mathrm{Fm}$、$^{250}\mathrm{No}$ 与 $^{270}\mathrm{Ds}$），特定高自旋、高 $K$ 的多准粒子组态（例如在 $^{256}\mathrm{Fm}$ 中实验观测到的 $70\ \mathrm{ns}$、$7^-$ 异能态，其部分自发裂变半衰期实测为 $0.8\ \mathrm{ms}$，显著长于无阻碍单核子所预期的微秒级裂变寿命；在 $^{270}\mathrm{Ds}$ 中观测到的半衰期为毫秒级的异能态）展现出了显著的微观自发裂变稳定性增强（Xu 等人 2004，PDF pp.~1--3）。其物理机制在于：
+\begin{enumerate}
+\item \textbf{配对阻塞效应（Pairing Blocking）}：未配对准粒子的单占据降低了系统的超流配对间隙 $\Delta$，从而增大了自发裂变穿透过程中的集体惯量；
+\item \textbf{特异化能（Specialization Energy）}：高自旋与高 $K$ 态具有严格的对称性与轨道单粒子运动常数。当原子核沿着裂变形变路径拉长时，为保持特定非配对费米子构型，系统能量必须沿着特定的激发势能面演化，使得冷态下的微观构型约束裂变位垒在特定核素计算中相比于冷基态有明显的提升（在徐甫荣等人的非轴对称势能面计算中，例如在 $^{256}\mathrm{Fm}$ 的 $7^-$ 态或超重多准粒子态中，位垒增高与展宽对应裂变寿命显著延长，Xu 等人 2004，PDF p.~3）~\cite{xu-2004-superheavy-high-spin-isomer-stability}。
+\end{enumerate}
+
+因此，\textbf{冷基态或接近冷态的多准粒子异能态，其抵御自发裂变的微观本征位垒确实可高于基态}。然而，反应动力学与统计物理深刻证明，\textbf{不能将冷异能态的高裂变位垒直接等同于复合核在高温蒸发阶段的高存活几率}：
+\begin{itemize}
+\item \textbf{能量阶段与物理机制的脱耦}：
+从式~\eqref{eq:4-8-er-master}与式~\eqref{eq:4-8-wsur-product}可知，决定熔合蒸发剩余截面 $\sigma_{\mathrm{ER}}$ 的是复合核在高温激发能（$E^* \sim 30$--$50\ \mathrm{MeV}$）下的存活几率 $W_{\mathrm{sur}}$。在这一高激发能区，原子核处于极高温的多体连续能级密度谱中，单核子准粒子纯构型面临强烈的残余两体多步阻尼与统计混合，且宏观壳修正根据式~\eqref{eq:4-8-bf-shell-decomp}经历了显著的指数衰退。决定前几个中子发射与裂变竞争的是该激发能量下的全核能级密度积分与有效裂变位垒，必须在统计模型中随能量和角动量独立计算，而不能直接代入零温冷态下的离散异能态裂变位垒。
+\item \textbf{馈入分支比（Feeding Fraction）的约束}：
+即使复合核成功蒸发完最后一个中子并降落到粒子发射阈值下方（$E^* < S_n$），原子核才进入离散能级谱区，并通过统计 $\gamma$ 级联向基态和异能态分流。最终生成特定异能态的截面仅为总蒸发剩余截面的一部分：
+\begin{equation}\label{eq:4-8-isomer-feeding-frac}
+\sigma_{\mathrm{isomer}} = b_{\mathrm{feed}}(J_{\mathrm{entry}}) \cdot \sigma_{\mathrm{ER}} \le \sigma_{\mathrm{ER}},
+\end{equation}
+其中 $b_{\mathrm{feed}} \in [0, 1]$ 为退激级联灌注到该异能态的分支比。如果反应体系引入的角动量偏低，无法有效布居高自旋进入态，则绝大部分级联流将旁路汇入低自旋基态，使得异能态的实际产生截面极低。
+\item \textbf{实验探测时间窗口的过滤}：
+在重离子实验中，反冲核从反应靶飞行至焦平面探测器的飞行时间通常为 $\tau_{\mathrm{TOF}} \sim 1\ \mu\mathrm{s}$。若某异能态寿命短于飞行时间，它将在飞行中衰变损失；而若其寿命极长，其衰变事件无法在数据采集系统（DAQ）设定的时间窗内与前置注入事件实现反冲--衰变关联。
+\end{itemize}
+
+综上所述，原子核在微观冷态下的长寿命与本征位垒，与其在宏观环境中的存活性、在反应中的形成截面以及在探测器中的可见性之间，存在着清晰、独立且互不重叠的动力学台阶。必须在每一步推导中保持严密的物理条件边界，彻底摒弃将孤立本征寿命直接线性外推为环境存活或反应产额的朴素归纳，方能在实验谱学与微观核结构之间架起无懈可击的理性桥梁。

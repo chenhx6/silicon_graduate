@@ -1,0 +1,31 @@
+{
+  "section": "5.2",
+  "status": "parent-content-accepted;typesetting-pending",
+  "session_date": "2026-11-14",
+  "observed_machine_utc": "2026-11-13T18:41:00.535359+00:00",
+  "checks": [
+    "ActualrawSHA of3sources match",
+    "Scanned WuPDF149 Fano,PDF154HPGe,PDF266–267PT,PDF287BGO read; chapter labels corrected",
+    "AGATA actualPDF3–6 design and actual41page version checked",
+    "R conditional normalization separated from synthetic counts; mixture not orthogonality",
+    "Fano energy units and optional netpeak extraction methods stated",
+    "Covariance does not imply universal loss ofAddback resolution",
+    "Conditional photon branching includes ICC fraction; TCS assumptions explicit",
+    "Synthetic 1500keV figure visuallychecked and doesnot claimactual efficiency"
+  ],
+  "artifacts": [
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-2.tex",
+      "sha256": "9fa7006fc4a040fd1074f0b0a002e99d32f616c64c391792ff45900207cbbdc7"
+    },
+    {
+      "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-2.json",
+      "sha256": "4e16ef1cd3a794093337bb9611584199a78d1fe96404e4dfa2ac0ae5367ab579"
+    },
+    {
+      "path": "knowledge/research-notes/a130-rewrite-detector-photon-response-audit-20261114.md",
+      "sha256": "71fbc232a9f4d30536a6ba8ef7b07701add410afd17a8fd994cc67a5fd741deb"
+    }
+  ],
+  "boundary": "No unknown detector performance, present installation status or experimental calibration claim."
+}

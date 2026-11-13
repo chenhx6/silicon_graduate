@@ -3,7 +3,7 @@ type: source
 title: "Observation of the radiative decay of the 229Th nuclear clock isomer"
 aliases: ["kraemer-2023-radiative-decay-229th-isomer", "Sandro Kraemer 2023"]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-13
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
@@ -41,7 +41,7 @@ tags: ["229th", "isomer", "nuclear-clock", "vuv-spectroscopy"]
 
 ## Summary
 
-Kraemer et al. observed the radiative photonic decay of 229mTh in CaF2 and MgF2 crystals following online implantation of 229Ac at CERN-ISOLDE. The vacuum ultraviolet fluorescence wavelength was measured as lambda = 148.71 ± 0.42 nm (E = 8.338 ± 0.024 eV), with half-lives of 670 ± 102 s in MgF2 and 568 ± 142 s in CaF2.
+Kraemer et al. observed VUV fluorescence from 229mTh in MgF2 and CaF2 after implantation of 229Ac at CERN-ISOLDE. The reported wavelength is148.71±0.42nm (8.338±0.024eV). The actual main-text half-life result independently rechecked here is670(102)s for MgF2; it must not be called a CaF2 mean lifetime or a vacuum radiative lifetime.
 
 ## Key Results
 
@@ -49,7 +49,7 @@ Kraemer et al. observed the radiative photonic decay of 229mTh in CaF2 and MgF2 
 |---|---|---|---|---|---|
 | K23-1 | Observation of radiative photonic decay of 229mTh in MgF2 and CaF2 crystals at CERN-ISOLDE. | observed-fact | direct | pp. 706-708, Figs. 1-2 | true |
 | K23-2 | Radiative decay wavelength determined as lambda = 148.71 ± 0.42 nm (E = 8.338 ± 0.024 eV). | observed-fact | direct | p. 708, Fig. 4 | true |
-| K23-3 | Half-life in host crystals measured as T1/2 = 670 ± 102 s (MgF2) and 568 ± 142 s (CaF2). | observed-fact | direct | pp. 707-708, Fig. 3 | true |
+| K23-3 | 所持原件首页及主文明确给出MgF2中229mTh的半衰期670(102)s。早期笔记另写的CaF2中568±142s未在本次原文定位中取得支持，撤下该正向数值，不推断其为同一测量。 | reported-host-half-life-and-source-boundary | direct-original-parent-check | 实际PDF1摘要、PDF3主文半衰期段（printed706/708）；不是平均寿命或真空固有宽度 | false |
 
 ## Competing Interpretations and Limitations
 
@@ -59,3 +59,7 @@ Decay observed in solid crystals; crystal local field effects (macroscopic n^3 a
 
 - [[kraemer-2023-radiative-decay-229th-isomer]]
 - [[nuclear-clock-isomer-learning-and-transfer-20261107]]
+
+## 2026-11-13 原件增量核对
+
+总控直接回读归档PDF第1、3页，区分MgF2半衰期、CaF2荧光观察和中性原子IC实验。不同宿主、半衰期/平均寿命及介质光场效应须分别登记；本次未据荧光衰减常数宣布所有非辐射通道为零。原PDF字节未改。

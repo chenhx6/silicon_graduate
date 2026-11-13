@@ -1,0 +1,44 @@
+{
+  "section_id": "2.8",
+  "title": "模型各自保留和消去了什么",
+  "section_label": "sec:2-8",
+  "contract_status": "contract-prepared-awaiting-start",
+  "executor": "G85 (Gemini Tiered/high)",
+  "timestamp": "2026-11-13T12:00:00+00:00",
+  "execution_domain": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G85/",
+  "target_files_after_start": {
+    "section_latex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-8.tex",
+    "evidence_ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-8.json",
+    "local_scratch": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G85/sec-2-8.tex"
+  },
+  "reader_starting_point": "读者在第2章前七节已建立严密的微观与宏观基础：在2.1节掌握实验室角动量、宇称与张量约化矩阵元约定；在2.2节理解单极相互作用驱动的ESPE与Type-I/II壳演化；在2.3节掌握BCS/HFB准粒子混合与配对相变；在2.4节掌握四极玻尔坐标、黎曼体积元测度与Kumar-Cline几何不变量；在2.5节掌握对称性恢复投影机制与非正交核求逆；在2.6节理解PES、微观惯量响应（IB与TV）以及时间奇残余相互作用；在2.7节掌握有效电荷、弱流重整化与算符模型空间修正。读者面临的紧迫核心问题是：面对文献中对同一原子核结构的大量竞争模型（壳模型、EDF、5DCH、PGCM、IBM、PRM、TAC、QRPA），它们在物理假设、微观截断、输入参数和预言边界上究竟保留了什么、消去了什么？为何绝不能仅凭能谱拟合断言模式？",
+  "central_question": "各主流核结构模型在多体希尔伯特空间中各自保留了哪些有效自由度、消去了哪些内部动力学？为什么不同的物理模型能够通过参数调整拟合出极为相似的实验能级谱，却在更深层的跃迁矩阵元、形状涨落分布或高自旋演化上给出截然相反的机制预言？如何确立不可越过的认识论底线（非同构性、非排座次性、投影非精确解、同名异义区分、参数不可自由迁移），并通过六质量区的留出检验与独立高阶观测量打破多模型解释简并？",
+  "predecessor_sections": [
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7"
+  ],
+  "successor_sections": [
+    "3.1",
+    "3.2",
+    "3.5",
+    "3.6",
+    "4.1",
+    "4.2",
+    "4.3"
+  ],
+  "prohibitions_strictly_obeyed": [
+    "在收到父级明确START指令前，绝对不动主Tex、BibTeX、其它节、PLAN或memory，不执行git commit/push",
+    "严禁按模型‘优劣’排座次，不得采用‘微观模型绝对优越于唯象模型’或相反的粗暴评判，坚持各模型是对不同尺度和截断下的有效描述",
+    "严格区分能量密度泛函(EDF)与哈密顿量算符(Hamiltonian)，严禁将泛函能量E[rho]与多体真空哈密顿算符期望值混同，严禁将其任意代入多体微扰求和",
+    "严格禁止将对称性投影(PAV/VAP)自动等同于多体薛定谔方程的精确解，必须明确其严格受限于选定内禀生成坐标流形的截断边界",
+    "严格禁止将跨模型相同的gamma数值混淆为同一物理对象：严格区分平均场自洽静态坐标gamma_MF、PRM刚体惯量参量gamma_rigid、Kumar-Cline矩阵元导出的有效均方根形状角gamma_inv以及代数模型相图参量chi",
+    "严格禁止将有效相互作用参数（有效电荷e_eff、GT淬灭因子q、转动惯量J_k）的可迁移性当作先验假设，必须明确模型空间截断与算符重整化的绑定关系",
+    "严格避免重复2.7节关于有效电荷与GT淬灭因子的微观求和推导，仅保留连贯的物理接口",
+    "严格禁止虚构任何数值或文献，所有比较案例必须来自真实存在且已验证的本地PDF原件与精确locator"
+  ]
+}

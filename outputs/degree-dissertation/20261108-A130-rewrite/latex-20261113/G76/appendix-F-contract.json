@@ -1,0 +1,165 @@
+{
+  "appendix_id": "F",
+  "title": "可复现输入和来源表",
+  "architecture_reference": "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md (Appendix F)",
+  "scope_statement": "记录当前批次 15 节已验正文所依附的 7 项矢量图件、3 项仿真数据 CSV 及其对应 Python 生产脚本的精确输入指纹；明确指出模型边界与未取得硬件材料，不捏造私有数据或不存在附件。",
+  "generated_at_utc": "2026-11-13T03:41:01.417669+00:00",
+  "producer_scripts": [
+    {
+      "path": "system/scripts/a130_latex_figures.py",
+      "sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd",
+      "purpose": "生产 7 项矢量 PDF/SVG 图件的全自动绘图脚本"
+    },
+    {
+      "path": "system/scripts/a130_rewrite_monopole_centroid_audit.py",
+      "sha256": "b59b26989d2fbaa1e1b48a904edd799969f290b5bda4fa6cd17ff4542111d50b",
+      "purpose": "单极占据与 ESPE 质心演化数值推演脚本"
+    }
+  ],
+  "figures": [
+    {
+      "id": "shape-moments",
+      "title": "核电荷密度与多极矩在实验室/内禀系的抽象阶梯",
+      "section": "1.2",
+      "type": "concept",
+      "pdf_path": "Img/shape-moments.pdf",
+      "pdf_sha256": "d174e5ac579b08a4bf4255ebe50006b9756530e91ca5507aea6c20fab9613097",
+      "svg_path": "Img/shape-moments.svg",
+      "svg_sha256": "6bbe66af24eb1814322a4bcaf78216614069ccb8bda43f0e3a79ec6bee10b5c5",
+      "producer": "system/scripts/a130_latex_figures.py",
+      "producer_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd",
+      "inputs": [
+        "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md (Section 1.2/2.1)"
+      ],
+      "boundaries": "概念图件；展示一体密度与两体矩的逻辑阶梯，不替代具体核的微观波函数数值密度。"
+    },
+    {
+      "id": "six-region-map",
+      "title": "六个代表性核区的形状与集体模式对比坐标图",
+      "section": "1.4",
+      "type": "concept_map",
+      "pdf_path": "Img/six-region-map.pdf",
+      "pdf_sha256": "1bbb37e7b35806a1f04bb7c63e49569ca88f35d5be4e58eb37533987778b7382",
+      "svg_path": "Img/six-region-map.svg",
+      "svg_sha256": "9449fba90c60e4abd08ceb7391b15589e99fcad4d707605e8162e244ccdefa12",
+      "producer": "system/scripts/a130_latex_figures.py",
+      "producer_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd",
+      "inputs": [
+        "Section 1.4 Table tab:1-4-six-regions"
+      ],
+      "boundaries": "严格限定于已核准的六区锚点核素（64Ge, 74,76Kr, 98Zr, 133Ce, 163Lu, 182-188Hg）；为案例坐标地图而非穷尽表。"
+    },
+    {
+      "id": "chapter-dependency",
+      "title": "博士论文五章逻辑架构与证据闭环依赖图",
+      "section": "1.5",
+      "type": "architecture_dependency",
+      "pdf_path": "Img/chapter-dependency.pdf",
+      "pdf_sha256": "c817f4776d702eb99f91d94f13c5ef6324aae5699cc943368e67e654ed5e4065",
+      "svg_path": "Img/chapter-dependency.svg",
+      "svg_sha256": "4980aea5a6ffd6e3ffcf873e92b3af86a6815a31b889da5b72d56088894b3d69",
+      "producer": "system/scripts/a130_latex_figures.py",
+      "producer_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd",
+      "inputs": [
+        "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md (Section 1.5)"
+      ],
+      "boundaries": "区分前向演绎推导与后向实验约束；展示章间逻辑，不替代各节数学推导。"
+    },
+    {
+      "id": "occupancy-centroids",
+      "title": "单极占据移动与有效单粒子能质心演化机制图",
+      "section": "2.2",
+      "type": "teaching_model",
+      "pdf_path": "Img/occupancy-centroids.pdf",
+      "pdf_sha256": "1c016d53943e8c3b59da407d4bafe4a9f44c1ffbf3eba284e05306a25d31ae14",
+      "svg_path": "Img/occupancy-centroids.svg",
+      "svg_sha256": "a9f604af2695ba6477f99cbfe6ddb3748a0ba29aec0c13f73ba878ec9ce02421",
+      "producer": "system/scripts/a130_latex_figures.py",
+      "producer_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd",
+      "inputs": [
+        "system/scripts/a130_rewrite_monopole_centroid_audit.py (sha256: b59b26989d2fbaa1e1b48a904edd799969f290b5bda4fa6cd17ff4542111d50b)"
+      ],
+      "boundaries": "基于双轨道无噪声教学模型；质心移动为多体相互作用重整化理论演示，非特定核直接实测峰位。"
+    },
+    {
+      "id": "gamma-measure",
+      "title": "Bohr-Mottelson 四极形变空间度规体积元与不对称角测度分布",
+      "section": "2.4",
+      "type": "analytical_geometry",
+      "pdf_path": "Img/gamma-measure.pdf",
+      "pdf_sha256": "c3336dd781432a15b9fb8a2f24ff334327009e4d3098353ff3c7731cf4bc02f6",
+      "svg_path": "Img/gamma-measure.svg",
+      "svg_sha256": "be1881a25da0af3ff3e777ef53525974c39bd8bbfd5547dbb17cf36b52c1de4d",
+      "producer": "system/scripts/a130_latex_figures.py",
+      "producer_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd",
+      "inputs": [
+        "Bohr-Mottelson 5D collective Hamiltonian volume element dtau = beta^4 |sin 3gamma| dbeta dgamma dOmega"
+      ],
+      "boundaries": "解析黎曼体积元推导结果；说明平均 gamma 接近 30 度主要源自测度极大，并非必然对应三轴刚性势阱深核。"
+    },
+    {
+      "id": "digital-energy-response",
+      "title": "前放指数衰减脉冲的数字梯形成形响应与弹道亏损收敛曲线",
+      "section": "5.3",
+      "type": "simulation_csv",
+      "pdf_path": "Img/digital-energy-response.pdf",
+      "pdf_sha256": "41520bb253609d323090add64e02aa41564ee5c3b8a007df8c5fb39965a0df9b",
+      "svg_path": "Img/digital-energy-response.svg",
+      "svg_sha256": "60acb4bd837b42fa01958089448c3f55b4d65d873d8e2fb08fc85221e2dad770",
+      "producer": "system/scripts/a130_latex_figures.py",
+      "producer_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd",
+      "inputs": [
+        "outputs/l4/20261108-digital-pulse-response/ballistic_deficit_study.csv (sha256: e76fd8c6f896aea49cdb3d1489b6ef398f023422ee7449d4dc97e43b7066b353)"
+      ],
+      "boundaries": "理想因果递推差分滤波器确定性数值响应；未引入白噪声与低频 1/f 噪声抖动。"
+    },
+    {
+      "id": "cfd-phase-convergence",
+      "title": "数字恒定比定时（CFD）插值时间抖动与采样时钟周期收敛性",
+      "section": "5.4",
+      "type": "simulation_csv",
+      "pdf_path": "Img/cfd-phase-convergence.pdf",
+      "pdf_sha256": "dbfbbdcd9cd39fb637f62e8cb58c9013535b1844a93bec75dad61243bcdbba29",
+      "svg_path": "Img/cfd-phase-convergence.svg",
+      "svg_sha256": "042e7e01b98aca0a5b0881caaebfb5f8d6ea60bc104479b1bab2ea865f5741e6",
+      "producer": "system/scripts/a130_latex_figures.py",
+      "producer_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd",
+      "inputs": [
+        "outputs/l4/20261108-digital-pulse-response/sampling_convergence.csv (sha256: fcbc5a3ebf68e5ef8f0cb5dabfc1be09484d4f99757f9f2f9db6909225469222)",
+        "outputs/l4/20261108-digital-pulse-response/cfd_phase_walk_analysis.csv (sha256: fa67402db75b74cc78dabab173d0ce89e0ba6a77df1545ddd8a330a9ca4d7178)"
+      ],
+      "boundaries": "误差值为 20 个离散相位点经验最大值；参考延迟 157-161 ns 为滤波器群延迟；不包含前端模拟成形与探头时间抖动。"
+    }
+  ],
+  "simulation_datasets": [
+    {
+      "path": "outputs/l4/20261108-digital-pulse-response/ballistic_deficit_study.csv",
+      "size_bytes": 1998,
+      "sha256": "e76fd8c6f896aea49cdb3d1489b6ef398f023422ee7449d4dc97e43b7066b353",
+      "rows": 8,
+      "columns": 24,
+      "description": "梯形滤波成形时间与平顶宽度对电荷收集时间衰减造成的弹道亏损与能量分辨测量响应表。"
+    },
+    {
+      "path": "outputs/l4/20261108-digital-pulse-response/sampling_convergence.csv",
+      "size_bytes": 247,
+      "sha256": "fcbc5a3ebf68e5ef8f0cb5dabfc1be09484d4f99757f9f2f9db6909225469222",
+      "rows": 4,
+      "columns": 5,
+      "description": "数字 CFD 在 10.0 ns, 5.0 ns, 2.5 ns, 1.25 ns 采样周期下的最大插值相位走动误差收敛表。"
+    },
+    {
+      "path": "outputs/l4/20261108-digital-pulse-response/cfd_phase_walk_analysis.csv",
+      "size_bytes": 2050,
+      "sha256": "fa67402db75b74cc78dabab173d0ce89e0ba6a77df1545ddd8a330a9ca4d7178",
+      "rows": 20,
+      "columns": 6,
+      "description": "20 个离散采样时钟相位点上的 CFD 线性过零插值误差逐点追踪记录。"
+    }
+  ],
+  "unobtained_materials_and_boundaries": [
+    "真实实验探测器前端连续波形脉冲流（如 Pixie-16 原始二进制原始数据文件未在当前批次公开，正文分析限于已发表文献与教学模型）",
+    "硬件 FPGA 在线固件 bitstream 与定点 DSP 寄存器配置文件未取得，正文使用浮点因果差分方程进行纯算法级推导",
+    "用户实验室私有束流时间未定标数据与未公开探测器本底标定源不在本工作范围内，不作虚构填充"
+  ]
+}

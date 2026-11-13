@@ -1,0 +1,108 @@
+{
+  "section_id": "AppendixA",
+  "title": "角动量与张量约定",
+  "section_label": "app:angular-momentum-tensors",
+  "status": "completed-canonical-delivered-v1",
+  "worker": "G91 (Gemini Tiered/high)",
+  "recorded_at": "2026-11-13T20:50:00+00:00",
+  "canonical_paths": {
+    "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixA.tex",
+    "tex_sha256": "5437aec7a38cb18021b3c6701ffd9078c29ced34d4b0bef3b65bd447102fbf10",
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/appendix-A.json"
+  },
+  "staging_paths": {
+    "tex": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G91/staging/AppendixA.tex",
+    "ledger": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G91/staging/appendix-A.json"
+  },
+  "scope_boundary": "附录A角动量与张量约定：角动量李代数对易子显式携带hbar、球张量有限旋转与李代数对易子、Wigner-Eckart定理Edmonds/Suhonen标准约定与Bohr-Mottelson归一化对比、共轭对称性、张量积与单体作用6j退化、非平凡6j正交恒等式有理数精确解析控制、折合跃迁几率B与详细平衡互易条件、电磁多极单位与SI电荷型M_S算符量纲匹配法则、全书各章节符号对齐矩阵。",
+  "sources": [
+    {
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "canonical_source": "Jouni Suhonen, From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory (Springer-Verlag, Berlin Heidelberg, 2007)",
+      "isbn": "978-3-540-48859-0",
+      "reading_depth": "deep_book_read",
+      "item_label": "Chapters 1-4 & Chapters 6-7",
+      "text_anchor": "Spherical tensors, Wigner-Eckart theorem phase, 6j and 9j symbols, multipole operators and SI M_S convention",
+      "supports": "不可约球张量李代数对易子、Wigner-Eckart定理标准相位与CG形式、6j与9j重耦合、电磁多极算符单粒子矩阵元、SI电荷型M_S算符定义",
+      "locators": "Chapters 1-4 (pp. 1-88) & Chapters 6-7 (pp. 119-158)"
+    },
+    {
+      "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+      "canonical_source": "Aage Bohr and Ben R. Mottelson, Nuclear Structure, Volume II: Nuclear Deformations (World Scientific, 1998)",
+      "reading_depth": "deep_book_read",
+      "item_label": "Chapter 4 & Appendix 1A in Vol. I",
+      "text_anchor": "Definition of reduced matrix elements without 1/sqrt(2jf+1) factor",
+      "supports": "Bohr-Mottelson宏观转动振动模型约化矩阵元与Edmonds/Suhonen体系缺少根号(2jf+1)因子对比",
+      "locators": "Vol. I Appendix 1A & Vol. II Chapter 4"
+    },
+    {
+      "source_id": "lange-kumar-hamilton-1982-multipole-admixtures",
+      "canonical_source": "J. Lange, K. Kumar, and J. H. Hamilton, Rev. Mod. Phys. 54, 119 (1982)",
+      "doi": "10.1103/RevModPhys.54.119",
+      "reading_depth": "deep_article_read",
+      "item_label": "Section II & Eq. 2.1",
+      "text_anchor": "Multipole mixing ratio delta(E2/M1) amplitude definition and sign conventions",
+      "supports": "辐射振幅比与多极混合比delta(E2/M1)严格无量纲化定义与相位体系",
+      "locators": "Rev. Mod. Phys. 54, 119 (1982) pp. 119-125"
+    }
+  ],
+  "claims_and_derivations": [
+    {
+      "claim_id": "CA-01",
+      "statement": "物理总角动量算符矢显式携带hbar，本征方程给出无量纲量子数j, m。",
+      "status": "supported",
+      "type": "fundamental-definition"
+    },
+    {
+      "claim_id": "CA-02",
+      "statement": "不可约球张量对易子显式包含hbar因子，厄米共轭采用Condon-Shortley/Rose标准规范[T_q^(k)]^dagger = (-1)^q T_{-q}^(k)。",
+      "status": "supported",
+      "type": "tensor-algebra"
+    },
+    {
+      "claim_id": "CA-03",
+      "statement": "Wigner-Eckart定理采用Edmonds/Suhonen标准约定，矩阵元分解给出分母sqrt(2jf+1)；与Bohr-Mottelson体系存在明确的sqrt(2jf+1)比例因子换算式。",
+      "status": "supported",
+      "type": "tensor-algebra"
+    },
+    {
+      "claim_id": "CA-04",
+      "statement": "双子系统复合态单体算符约化矩阵元推导给出标准Wigner 6j符号退化公式，为PRM带内与带间跃迁提供代数支撑。",
+      "status": "supported",
+      "type": "mathematical-derivation"
+    },
+    {
+      "claim_id": "CA-05",
+      "statement": "独立精确基准：选定非平凡四极-偶极自旋组态，由Racah公式计算有理数解6j(1,2,1;1,2,2)=-1/10, 6j(1,2,2;1,2,2)=1/6, 6j(1,2,3;1,2,2)=1/15，解析求和精确得1/5，与1/(2j5+1)恒等闭合。",
+      "status": "supported",
+      "type": "exact-algebraic-control"
+    },
+    {
+      "claim_id": "CA-06",
+      "statement": "折合跃迁几率B标准形式推导严格表明分母2Ji+1源自初态简并子态等权统计平均；详细平衡微观互易仅对满足厄米伴随的多极跃迁算符同态对成立。",
+      "status": "supported",
+      "type": "physical-derivation"
+    },
+    {
+      "claim_id": "CA-07",
+      "statement": "严格区分传统磁矩型M_mu(量纲mu_N)与SI电荷型M_S(量纲mu_N/c=e*fm)；在delta中分别与E/hbar和E/(hbar c)匹配，无量纲数值完全相同，消除多极混合比换算混乱。",
+      "status": "supported",
+      "type": "units-and-dimensions"
+    }
+  ],
+  "prohibitions_strictly_obeyed": [
+    "未修改公共ref.bib，引用键与公共ref.bib完全对齐",
+    "未修改其它手稿章节，禁止自行派生/commit/push/递归删除",
+    "严格区分hbar量纲与无量纲量子数，不凭想象反推原书公式页",
+    "独立控制算例声明采用Racah封闭公式与fractions有理数解析代数，不把浮点抽样当定理证明",
+    "详细平衡明确限制于厄米算符同态对，不外推至非厄米有效模型",
+    "M1算符单位换算澄清SI电荷型M_S与磁矩型M_mu关系，不额外施加c^2因子",
+    "交付独立回执，不越界修改其它章节或提交commit"
+  ],
+  "latex_math_verification": {
+    "environments_balanced": true,
+    "math_mode_balanced": true,
+    "fatal_syntax_errors": 0,
+    "overfull_risk_evaluated": true
+  }
+}

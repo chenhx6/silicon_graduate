@@ -1,0 +1,124 @@
+{
+  "status": "pass",
+  "method": "factorial Racah 3j and exact rational-radical 6j; independently construct antisymmetric two-particle CG states, apply two normalized J=0 pair creators, and evaluate one-body matrices in bitmask Fock basis; floating arithmetic for Fock amplitudes",
+  "m3": {
+    "j": "11/2",
+    "omega": 6,
+    "n_reference": 2,
+    "n_half_filled": 6,
+    "seniority": 2,
+    "Ji": 10,
+    "Jf": 8,
+    "operator_rank": 3,
+    "one_particle_reduced_matrix_element": 1,
+    "convention": "<Jf Mf|T(k,q)|Ji Mi> = (-1)^(Jf-Mf) (Jf k Ji; -Mf q Mi) <Jf||T(k)||Ji>",
+    "six_j_layout": "{11/2 8 11/2; 10 11/2 3}",
+    "six_j_rational_coefficient": "10140443913600",
+    "six_j_radicand": "1/137383687321261094836362240000",
+    "six_j_value": 0.027358317358040996,
+    "rme_n2": 1.0338403701399816,
+    "rme_n6": 1.033840370139982,
+    "absolute_rme_from_6j": 1.0338403701399816,
+    "rme_squared_exact": "264/247",
+    "rme_ratio": 1.0000000000000004,
+    "e2_rme_n2_control": 0.5726562866782001,
+    "e2_rme_n6_control": 7.154551474632565e-17,
+    "J_pair_state_components": [
+      1,
+      2,
+      6,
+      12
+    ],
+    "physical_boundary": "same parity; energy ordering and physical one-particle M3 RME assumed, no actual nucleus or rate"
+  },
+  "singular_stationary": {
+    "a": 0,
+    "b": 0,
+    "D1": 1,
+    "D2": 0,
+    "S": [
+      1,
+      0
+    ],
+    "det": "0",
+    "family": "(1,c), c>=0"
+  },
+  "jordan": {
+    "a": 0,
+    "b": 1,
+    "D1": 2,
+    "D2": 1,
+    "discriminant": "0",
+    "A": [
+      [
+        -2,
+        1
+      ],
+      [
+        0,
+        -2
+      ]
+    ],
+    "propagator": "exp(-2t)[[1,t],[0,1]]",
+    "initial": [
+      0,
+      1
+    ],
+    "trajectory": [
+      {
+        "t": 0.0,
+        "N1": 0.0,
+        "N2": 1.0,
+        "total": 1.0
+      },
+      {
+        "t": 0.5,
+        "N1": 0.18393972058572117,
+        "N2": 0.36787944117144233,
+        "total": 0.5518191617571635
+      },
+      {
+        "t": 1.0,
+        "N1": 0.1353352832366127,
+        "N2": 0.1353352832366127,
+        "total": 0.2706705664732254
+      },
+      {
+        "t": 2.0,
+        "N1": 0.03663127777746836,
+        "N2": 0.01831563888873418,
+        "total": 0.054946916666202536
+      }
+    ]
+  },
+  "first_order_roots_and_equal_loss_checks": [
+    {
+      "a": "2",
+      "b": "3",
+      "d1": "5",
+      "d2": "7",
+      "slow_first_order": "-29/5",
+      "fast_first_order": "-31/5",
+      "equal_loss_fraction_derivative": "-19/18"
+    },
+    {
+      "a": "1",
+      "b": "0",
+      "d1": "4",
+      "d2": "9",
+      "slow_first_order": "-9",
+      "fast_first_order": "-4",
+      "equal_loss_fraction_derivative": "7/18"
+    },
+    {
+      "a": "0",
+      "b": "2",
+      "d1": "3",
+      "d2": "8",
+      "slow_first_order": "-3",
+      "fast_first_order": "-8",
+      "equal_loss_fraction_derivative": "-11/9"
+    }
+  ],
+  "claim_scope": "finite controls validate examples, not a physical decay measurement"
+}

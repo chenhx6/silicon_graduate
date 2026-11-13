@@ -1,0 +1,161 @@
+\section{统计推断与实验结果接口}\label{sec:5-10}
+
+在在束 $\gamma$ 谱学分析中，研究人员经历了探测器物理响应（第~5.2~节）、数字波形滤波（第~5.3~节）、高精度定时（第~5.4~节）、硬件活时间与符合选择（第~5.5~节）、符合矩阵与能级拓扑构建（第~5.6~节）、角分布与偏振反演（第~5.7~节）以及微观寿命测量（第~5.8~节）的全流程处理。最终，这些宏观测量必须被综合转化为原子核微观结构的确定物理量——能级激发能 $E_x$、自旋宇称 $I^\pi$、多极混合比 $\delta$、能级平均寿命 $\tau$ 以及绝对电磁约化跃迁几率 $B(XL)$。
+
+然而，由离散计数直方图到连续物理参数的提取并非简单的代数代入，而是一个面临多重不确定度耦合的统计推断反问题。若在分析中机械套用高斯近似或简单忽略系统协方差，极易产生严重的推断失真：其一，在角分布二次反演产生多解双峰、或者微弱谱线处于物理非负边界（$B(XL) \ge 0$）附近时，盲目套用线性误差传播（$J V J^T$）或标准渐近 Wilks 定理，会导致置信区间侵入非物理负值区，或者虚假排除相容解分支；其二，将不同测量通道的系统误差与统计涨落混同处理，在模型与实验存在微小偏离时轻率宣称发现了“新物理”。本节构建面向在束谱学的前向测量统计模型，阐明非独立计数似然与非线性协方差传递机制，深入剖析高斯正则性破缺下的轮廓似然与 Feldman-Cousins 物理边界区间构建方法，严格区分统计与系统误差的因果属性，并最终确立标准化的核结构实验结果数据接口。
+
+\subsection{前向测量模型与非独立计数似然}\label{subsec:5-10-1}
+
+在统计物理学中，严谨的实验推断应当建立在前向生成模型（Forward Measurement Model）的基础之上。设系统待求解的微观核结构参数集合为 $\boldsymbol{\theta}$（如各能级 $B(E2)$、$B(M1)$、寿命 $\tau$ 及混合比 $\delta$），实验伴随参数（Nuisance Parameters，如探测器效率刻度参数、本底比例因子与停止截面缩放系数等）集合为 $\boldsymbol{\nu}$（如探测器绝对效率曲线参数、偶然符合归一因子 $a$、衬底停止本领修正系数及侧向馈入时间分布参数）。
+
+在束实验中，探测器阵列记录的原始数据是各能量通道与时间仓中的离散计数值序列 $\mathbf{n} = \{n_1, n_2, \dots, n_K\}$。原始计数在满足独立物理事件或不重叠探测通道的前提下服从泊松似然（完整的实验似然函数还应联合包含本底控制样本与刻度约束项）~\cite{book-zhu-experimental-statistics, book-behnke-data-analysis}：
+\begin{equation}\label{eq:5-10-poisson-likelihood}
+\mathcal{L}(\boldsymbol{\theta}, \boldsymbol{\nu} \mid \mathbf{n}) = \prod_{k=1}^K \frac{\mu_k(\boldsymbol{\theta}, \boldsymbol{\nu})^{n_k} e^{-\mu_k(\boldsymbol{\theta}, \boldsymbol{\nu})}}{n_k!},
+\end{equation}
+其中 $\mu_k(\boldsymbol{\theta}, \boldsymbol{\nu})$ 为在给定微观参数 $\boldsymbol{\theta}$ 与扰动参数 $\boldsymbol{\nu}$ 下，第 $k$ 个测量仓中理论预期的平均粒子计数：
+\begin{equation}\label{eq:5-10-mu-expectation}
+\mu_k(\boldsymbol{\theta}, \boldsymbol{\nu}) = Y_{\gamma, k}(\boldsymbol{\theta}, \boldsymbol{\nu}) + B_k(\boldsymbol{\nu}),
+\end{equation}
+$Y_{\gamma, k}$ 为由第~5.1~节式~\eqref{eq:5-1-yield-gamma} 决定的物理特征信号产额，$B_k$ 为伴随的连续谱与偶然符合本底。
+
+必须在数据处理源头强调两项核心统计事实：
+\begin{enumerate}
+\item 扣除本底或对称化后的计数不再服从独立泊松分布：
+在第~5.6~节中，净真符合矩阵由瞬发--偶然符合时间投影相减给出（$S = P - aR$），对称矩阵的填充引入了 $n(n-1)$ 的数对相关性。经过线性组合后的单元格计数 $S$ 具有放大的方差 $\mathrm{Var}(S) = P + a^2 R$，其概率分布不再是简单的单参数泊松分布，单元格之间亦存在非零协方差。
+\item 比值中心值丢弃了原始似然形状：
+在实验文献中，常将测量结果压缩报告为单峰面积比值（如相对光子强度比 $a_1/a_2$ 或 DCO 强度比 $R_{\mathrm{DCO}}$）。仅凭比值的中心值与一阶对称误差，根本无法还原多维空间中由于泊松涨落与效率非线性传递引起的非对称似然曲面。
+\end{enumerate}
+
+\subsection{非线性误差传递、Jacobian矩阵与协方差网络}\label{subsec:5-10-2}
+
+当从中间实验观测向量 $\mathbf{x}$（如峰面积 $A_\gamma$、门选比值、寿命 $\tau$、转换系数 $\alpha_{\mathrm{IC}}$）向最终物理参数向量 $\mathbf{y} = \mathbf{g}(\mathbf{x})$（如绝对 $B(E2)$ 几率）转换时，普遍采用基于一阶 Taylor 展开的线性化误差传播：
+\begin{equation}\label{eq:5-10-covariance-prop}
+\mathbf{V}_y \approx \mathbf{J} \mathbf{V}_x \mathbf{J}^T,
+\end{equation}
+其中 $\mathbf{J}$ 为函数的一阶偏导数 Jacobian 矩阵，元素满足 $J_{ik} = \frac{\partial g_i}{\partial x_k}$，$\mathbf{V}_x$ 为输入参量的协方差矩阵。对任一标量输出物理量 $y_i$，其总方差展开式为：
+\begin{equation}\label{eq:5-10-var-sum}
+\sigma_{y_i}^2 = \sum_k J_{ik}^2 \sigma_{x_k}^2 + 2 \sum_{k < l} J_{ik} J_{il} \mathrm{Cov}(x_k, x_l).
+\end{equation}
+
+在核物理反演实践中，必须严格审查式~\eqref{eq:5-10-var-sum} 的适用边界：
+\begin{itemize}
+\item 必须保留非零协方差项：
+只有当输入参量 $x_k$ 与 $x_l$ 统计独立（即协方差 $\mathrm{Cov}(x_k, x_l) = 0$）时，总方差才退化为简单的方和根加和 $\sigma_{y_i} = \sqrt{\sum_k J_{ik}^2 \sigma_k^2}$。在在束谱学中，相邻谱峰往往共享相同的探测效率刻度曲线、相同的偶然符合本底归一以及相同的总束流活时间；在第~5.9~节中，同一母能级的各下行分支强度 $a_1, a_2$ 在总通量归一化下天生具备负相关协方差。无声明地丢弃协方差项会严重歪曲最终跃迁几率的总不确定度。需要指出：单道协方差为零并不等价于完全统计独立。在总计数归一化的分支比中，多项分布约束使得各分支边缘呈现负协方差；但在包含共同探测效率刻度与全局活时间的复杂实验中，共同因子的不确定度可能在所有通道之间引入正协方差，总协方差矩阵的正负取决于物理通道与仪器响应的综合竞争。
+\item 非线性强曲率截断效应：
+强非线性截断不仅取决于函数形式（如 $B(E2) \propto E_\gamma^{-5}$），更取决于测量不确定度在局部泰勒展开高阶曲率与物理边界上的相对尺度；当采用 Monte Carlo 抽样进行误差传递时，得到的是输出变量的前向推演分布（pushforward distribution），在显式引入先验假定后方可作为贝叶斯后验解释。
+\end{itemize}
+
+\subsection{高斯正则性破缺：多峰似然、物理边界与Feldman-Cousins构建}\label{subsec:5-10-3}
+
+传统统计学常假定参数估计量渐近服从正态高斯分布，并依据标准 Wilks 定理假定似然比检验统计量 $-2\Delta\ln\mathcal{L}$ 在单参数（自由度为 1）、远离物理边界的双侧渐近正则条件下近似服从自由度为 1 的 $\chi^2$ 分布（即单参数 $1\sigma$ 对应 $\Delta\chi^2 = 1.0$，$95\%$ 双侧置信度对应 $\Delta\chi^2 = 3.84$）；然而在多参数、非高斯或存在物理边界的情形下，该简单临界值不能直接泛化。然而，在真实的在束核谱学分析中，高斯正则性条件（Gaussian Regularity）频繁被物理机制彻底打破~\cite{book-zhu-experimental-statistics, book-behnke-data-analysis, book-bonamente-statistics}：
+\begin{enumerate}
+\item 多极混合比的多模态双峰结构（Multimodal Likelihood）：
+第~5.7~节明确阐明，由于 DCO 比值关于混合比 $\delta$ 表现为二次有理函数，单项角分布测量通常给出两个完全相容的数学根分支 $\delta_1$ 与 $\delta_2$。此时整体似然剖面呈现显著的双极小值谷底（见图~\ref{fig:5-10-inference-profile}(a)）。若强行在某一极小值点计算二次导数 Hessian 矩阵并宣称获得高斯对称误差（$\sigma = 1/\sqrt{-\frac{\partial^2\ln\mathcal{L}}{\partial\delta^2}}$），将完全掩盖另一个并存的候选物理分支。
+\item 物理非负边界截断（Physical Boundaries）：
+核物理中的跃迁强度、约化几率与能级寿命在物理学本质上满足严格的非负约束：$B(XL) \ge 0$、$\tau \ge 0$、$b_k \ge 0$。在极弱谱线或高本底统计涨落下，原始拟合得到的净面积点估计可能由于统计下涨落出现微弱的负值（$\widehat{\mu} < 0$）。若套用标准高斯置信区间 $[\widehat{\mu} - 1.96\sigma, \widehat{\mu} + 1.96\sigma]$，区间极易延伸进非物理的负值区；更严重的是，若盲目截断负值，可能导致置信区间覆盖概率（Coverage）严重不足甚至出现空集。
+\item 泊松小样本极限：
+在极弱反应通道中，峰区仅记录数个计数，高斯中心极限定理完全失效，不对称的泊松单边置信分布占主导。
+\end{enumerate}
+
+为直观展示上述高斯破缺机制及规范统计处理方法，图~\ref{fig:5-10-inference-profile} 给出了基于标准教学模型的全局似然剖面与物理边界置信带对比图。
+
+\begin{figure}[!htbp]
+\centering
+\IfFileExists{Img/inference-profile-likelihood-boundary.pdf}{%
+  \includegraphics[width=0.92\textwidth]{Img/inference-profile-likelihood-boundary.pdf}%
+}{%
+  \fbox{\parbox{0.92\textwidth}{\centering\vspace{2.5cm}（图 5.4 统计似然剖面与物理边界推断示意图：\texttt{Img/inference-profile-likelihood-boundary.pdf}；展示双峰似然破缺与非负边界上限构建）\vspace{2.5cm}}}%
+}
+\caption{核谱学高斯正则性破缺与统计推断模型对比（规范教学模型）。(a) 展示多极混合比 $\delta$ 在有界坐标 $\arctan\delta$ 上的整体轮廓似然曲线（实线），呈现清晰的双极小值结构；虚线展示了仅在某一极小点处采用局部 Hessian 二阶导数近似导致的高斯抛物线失效，说明对称高斯假设完全丢弃了第二解分支；(b) 展示信号参数处于物理非负边界（$\mu \ge 0$）时的置信区间构建：虚线为允许负值的无约束抛物线（中心处于负涨落点 $\widehat{\mu} < 0$），绿色实线展示了基于约束轮廓似然与 Feldman-Cousins 思想构建的物理剖面，说明物理非负约束下避免置信区间陷入负值区的机制（注意此处展示为教学连续似然剖面，严格的 Feldman-Cousins 统一构建需要对各假设参数进行蒙特卡罗抽样排序构建接受带，且离散泊松计数可能出现过覆盖）。注意此处为规范教学模型展示，非特定未知用户硬件实测拟合）。}
+\label{fig:5-10-inference-profile}
+\end{figure}
+
+针对图~\ref{fig:5-10-inference-profile} 所示的非正则场景，必须采用经过严密数学检验的统计推断方法：
+\begin{itemize}
+\item 轮廓似然方法（Profile Likelihood）：
+对于包含众多扰动参数 $\boldsymbol{\nu}$ 的复杂模型，通过在固定感兴趣物理参数 $\boldsymbol{\theta}$ 的条件下对所有扰动参数进行受限极大似然优化（$\hat{\hat{\boldsymbol{\nu}}}(\boldsymbol{\theta})$），构建单变量或双变量的轮廓似然比检验统计量：
+\begin{equation}\label{eq:5-10-profile-likelihood}
+\lambda(\boldsymbol{\theta}) \equiv \frac{\mathcal{L}(\boldsymbol{\theta}, \hat{\hat{\boldsymbol{\nu}}}(\boldsymbol{\theta}))}{\mathcal{L}(\hat{\boldsymbol{\theta}}, \hat{\boldsymbol{\nu}})}.
+\end{equation}
+通过绘制 $-2\Delta\ln\mathcal{L}(\boldsymbol{\theta})$ 曲线提取非对称置信区间，如实反映多极小值与长尾特征。
+\item Feldman-Cousins 统一物理区间构建：
+在存在物理非负边界（如 $B(XL) \ge 0$）时，采用 Feldman 与 Cousins 建立的似然比排序原则，在测量出现下涨落时平滑、无缝地由双边置信区间过渡为单边物理置信上限（Upper Limit），彻底消除传统方法中置信度翻转或空置信区间的弊病。
+\item 贝叶斯后验推断（Bayesian Posterior）：
+在全贝叶斯框架下，通过对伴随参数进行边缘积分计算物理参数的边际后验概率密度 $\mathcal{P}(\boldsymbol{\theta} \mid \mathbf{n}) \propto \int \mathcal{L}(\boldsymbol{\theta}, \boldsymbol{\nu} \mid \mathbf{n}) \pi(\boldsymbol{\theta}, \boldsymbol{\nu}) \, \mathrm{d}\boldsymbol{\nu}$。必须严肃声明先验分布 $\pi(\boldsymbol{\theta})$ 的选择（例如在非负区间采用均匀平坦先验 $\pi(\mu) = \Theta(\mu)$，或在角变量采用 $\pi(\arctan\delta) = \text{const}$）；严禁将先验依赖性隐瞒为客观实验测量。
+\end{itemize}
+
+\subsection{系统误差、统计涨落与模型假象的甄别}\label{subsec:5-10-4}
+
+在科学写作与理论比对中，必须严格区分两类性质根本不同的实验不确定度来源：
+\begin{enumerate}
+\item 统计涨落误差（Statistical Uncertainty）：
+源于核衰变发射与探测器电荷电离过程的本征微观量子随机性。在渐近独立平稳泊松极限下，计数的绝对统计标准差按 $\sigma \sim \sqrt{N_{\mathrm{counts}}}$ 增长，而相对统计精度按 $1/\sqrt{N_{\mathrm{counts}}}$ 改善；通过延长束流照射时间可以在统计涨落层面提高信噪比。
+\item 系统不确定度（Systematic Uncertainty）：
+源于物理模型假设偏差、仪器刻度基准偏移以及探测环境的全局畸变。系统不确定度并不必然在所有探测通道呈现相同方向，且不能通过简单延长机时来消除；部分系统偏差可通过增加辅助刻度实验予以缩小。在低能核物理在束谱学中，典型的系统误差包括：
+\begin{itemize}
+\item 探测器绝对全能峰效率曲线的拟合不确定度（通常在 $2\%$–$5\%$ 范围）；
+\item 第~5.8~节 DSAM 谱形拟合中所采用的固体衬底微观电子/核停止本领理论模型偏差（通常在 $10\%$–$20\%$ 范围）；
+\item 反应靶真实厚度、同位素纯度与靶面平整度公差；
+\item 符合时间窗口截断与偶然本底扣除归一化比例因子 $a$ 的参数不确定度。
+\end{itemize}
+\end{enumerate}
+
+在核结构科学推断中，必须树立极其严密的证据辩证观：
+当实验测得的电磁矩阵元比值（如 $B(M1)/B(E2)$）或能级交错函数 $S(I)$ 与某一特定集体动力学模型（如刚性三轴粒子-转子模型或简单摆动微扰解）出现显著偏离时，在科学推断中，不应在排查常规实验偏差前轻易下断言。研究人员应在声明的竞争模型集合（如刚性三轴粒子-转子耦合、准粒子顺排带交叉以及 $\gamma$ 软相干态等）内进行客观比较，优先核对探测效率、侧向馈入以及多解分支等已知方法学因素对观测量的影响。
+研究人员必须首先建立零假设（Null Hypothesis），严格核查以下竞争性仪器与方法学因素：
+1. 观察到的弱支路偏离是否完全处于探测器全能峰效率曲线与偶然相加校正的系统误差包络之内；
+2. 提取的能级寿命是否受到了未被观测的慢速侧向馈入（Side-Feeding）或未知同核异能态的滞后卷积（见第~5.1~节与第~5.8~节）；
+3. 角分布多极混合比反演中是否存在另一个完全相容的数学解分支尚未被排除（见第~5.7~节）；
+4. 微观理论模型本身是否由于冻结了准粒子对齐、采用了单态平均场惯量参数或忽略了 $\gamma$ 自由度的大振幅涨落而导致模型自身预测失真。
+唯有在完全排除所有已知的实验系统偏差与经典核结构微观机制之后，提出非传统的全新集体模式假说才具备科学依据。
+
+\subsection{核结构实验结果标准输出数据接口}\label{subsec:5-10-5}
+
+为了将第 5 章所建立的在束谱学因果链条严密固化为可供理论模型（第 2、3、4 章）直接检验的高保真实验结果，本节确立了一套标准化的核结构实验输出数据接口。
+
+在正式的学位论文与学术成果报告中，任何一条关于能级与电磁强度的陈述，均应在数据表中完整列出其初末态量子数、观测谱学量、中间修正因子、反演物理量及其不确定度分解。表~\ref{tab:5-10-transitions-template} 与表~\ref{tab:5-10-strengths-template} 分别给出了跃迁观测与强度反演接口的规范格式模板。
+
+\begin{table}[!htbp]
+\centering\footnotesize
+\caption{低能核结构在束谱学特征跃迁与探测观测数据接口模板（格式规范模板，各条目展示数据字段结构与单位约定；对于存在多解相容分支的多极混合比，必须完整并列报告各候选根分支）。}
+\label{tab:5-10-transitions-template}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ccccccc@{}}
+\toprule
+跃迁标记 & 初态 $E_i (I_i^{\pi})$ & 末态 $E_f (I_f^{\pi})$ & 跃迁能量 $E_\gamma$ & 相对强度 $I_\gamma$ & 多极性 & 混合比 $\delta$ \\
+& (keV) & (keV) & (keV) & (相对光子) & $XL$ & (Rose-Brink 约定) \\
+\midrule
+$\gamma_1$ & $E_1 (I_1^{\pi_1})$ & $E_0 (I_0^{\pi_0})$ & $E_{\gamma 1}$ & $100.0(5)$ & $E2$ & 纯 $E2$ \\
+$\gamma_2$ & $E_2 (I_2^{\pi_2})$ & $E_1 (I_1^{\pi_1})$ & $E_{\gamma 2}$ & $25.0(3)$ & $M1+E2$ & 根 1: $-0.37(5)$ \\
+& & & & & & 根 2: $+2.24(12)$ \\
+$\gamma_3$ & $E_3 (I_3^{\pi_3})$ & $E_2 (I_2^{\pi_2})$ & $E_{\gamma 3}$ & $< 1.2$ & 弱跃迁 & 待仲裁 \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\footnotesize
+\caption{微观核态寿命、分支比与绝对电磁跃迁几率数据接口模板（格式规范模板，各项物理量明确标注量纲单位与协方差传递结果；若由于探测灵敏度限制仅能确定物理边界，如实标注具有指定置信度的单边上限或下限）。}
+\label{tab:5-10-strengths-template}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ccccccc@{}}
+\toprule
+能级 $E_i(I_i^{\pi})$ & 寿命 $\tau$ & 测时方法 & 总分支 $b_{\mathrm{tot}}$ & 内转换 $\alpha_{\mathrm{IC}}$ & $B(E2)$ & $B(M1)$ \\
+(keV) & (ps) & & (含内转换) & (理论值) & ($e^2\text{fm}^4$) & ($[(\mu_N/c)^2]$) \\
+\midrule
+$E_1(I_1^{\pi_1})$ & $5.00(15)$ & RDDS & $0.798(4)$ & $0.0080$ & $1042(32)$ & --- \\
+$E_2(I_2^{\pi_2})$ & $3.2(2)$ & DSAM & $0.202(3)$ & $0.0020$ & 根 1: $275(18)$ & 根 1: $0.045(6)$ \\
+& & & & & 根 2: $310(25)$ & 根 2: $0.012(3)$ \\
+$E_3(I_3^{\pi_3})$ & $> 12.0$ & 快定时下限 & $< 0.015$ & $0.0015$ & $< 15.0$ & --- \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+表~\ref{tab:5-10-transitions-template} 与表~\ref{tab:5-10-strengths-template} 直观展示了从谱学实验到物理结果的自洽接口规范：
+\begin{itemize}
+\item 相对光子强度 $I_\gamma$ 与总跃迁分支比 $b_k$ 明确分开，后者必须依第~5.9~节计入理论内转换系数 $\alpha_{\mathrm{IC}}$；
+\item 多极混合比 $\delta$ 在偏振未解简并前，完整保留相容的两个数值解分支；
+\item 能级寿命 $\tau$ 清晰标明测量方法（如 DSAM、RDDS 或快定时），在灵敏度之外如实标注确定置信度水平的单边上下限；
+\item 约化跃迁几率 $B(XL)$ 必须明确注明下行（Downwards）定义及量纲单位（电四极为 $e^2\text{fm}^4$ 或 $e^2\text{b}^2$，磁偶极为 $(\mu_N/c)^2$ 或 $\mu_N^2$），并附带经由式~\eqref{eq:5-10-var-sum} 完整协方差传播的不确定度。
+\end{itemize}
+必须严肃说明：上述两表中所列条目为展示数据结构规范的教学格式模板，不代表任何未经实测的虚构用户项目数据；针对具体核素（如 $^{130, 131, 133}\mathrm{Ce}$ 或 $^{74}\mathrm{As}$）的实际测量填报，必须完全基于真实实验台账与已公开原始文献定位符逐项核录。
+
+通过本章从探测物理（第~5.2~节）到统计推断接口（第~5.10~节）的层层递进，低能原子核结构在束 $\gamma$ 谱学建立起了一套完全闭合、因果透明且具备可追溯性的实验测量方法学大厦，为检验全篇微观形状共存、非轴对称转动动力学与电磁跃迁定则提供了坚实可靠的数据基石。

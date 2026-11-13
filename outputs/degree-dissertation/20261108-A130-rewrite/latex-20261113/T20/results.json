@@ -1,0 +1,76 @@
+{
+  "coupled_basis": {
+    "quantum_numbers": "j1=j2=J=1, jprime=Jprime=2, k=1, M=Mprime=1, q=0; subsystem RME=1",
+    "subsystem_1": {
+      "coupled_component": "sqrt(30)/20",
+      "WE_factor": "sqrt(10)/10",
+      "direct_rme": "sqrt(3)/2",
+      "one_body_6j_rme": "sqrt(3)/2",
+      "tensor_product_9j_rme": "sqrt(3)/2",
+      "9j": "sqrt(5)/30",
+      "6j": "-sqrt(5)/10",
+      "9j_reduction_frozen": "-sqrt(5)/30",
+      "9j_reduction_correct": "sqrt(5)/30"
+    },
+    "subsystem_2": {
+      "coupled_component": "sqrt(30)/20",
+      "WE_factor": "sqrt(10)/10",
+      "direct_rme": "sqrt(3)/2",
+      "one_body_6j_rme": "sqrt(3)/2",
+      "tensor_product_9j_rme": "sqrt(3)/2",
+      "9j": "sqrt(5)/30",
+      "6j": "-sqrt(5)/10",
+      "9j_reduction_frozen": null,
+      "9j_reduction_correct": null
+    },
+    "interpretation": "The 9j reduction is sign-inconsistent; both separately printed 6j one-body formulas match direct component sums for these cases."
+  },
+  "cg_phase": {
+    "case_A": "ji=k=jf=mi=mf=1, q=0",
+    "three_j": "sqrt(6)/6",
+    "frozen_first": "-sqrt(6)/6",
+    "correct_first": "sqrt(6)/6",
+    "case_B": "ji=k=mi=mf=1, jf=2, q=0",
+    "three_j_B": "-sqrt(10)/10",
+    "frozen_second_B": "sqrt(10)/10",
+    "correct_second_B": "-sqrt(10)/10",
+    "correct_relations_for_integer_k": "3j=(-1)^(jf-mf) C(ji mi,k q|jf mf)/hat(jf) =(-1)^(ji+k-mf) C(k q,ji mi|jf mf)/hat(jf)"
+  },
+  "hermitian": {
+    "example": "spin 1/2, T=J, k=1; hbar=1",
+    "diagonal_rme": "sqrt(6)/2",
+    "frozen_relation_rhs": "-sqrt(6)/2",
+    "correct_relation_rhs": "sqrt(6)/2",
+    "correct_exchange_phase": "(-1)^(jf-ji)"
+  },
+  "sixj": {
+    "original_example_values": [
+      "-1/10",
+      "1/6",
+      "1/15"
+    ],
+    "original_weighted_sum": "1/5",
+    "unequal_bottom_case": "{1,2,x;2,1,1} versus {1,2,x;2,1,2}, x=1,2,3",
+    "diagonal_values": [
+      "-sqrt(5)/10",
+      "sqrt(5)/30",
+      "sqrt(5)/15"
+    ],
+    "weighted_diagonal": "1/3",
+    "weighted_cross": "0",
+    "boundary": "Two exact examples only; neither proves all identities or applications."
+  },
+  "magnetic": {
+    "si_input_constants": "e=1.602176634e-19 C, hbar=1.054571817e-34 J s, mp=1.67262192595e-27 kg, c=299792458 m/s",
+    "mu_N_J_per_T": 5.050783736177185e-27,
+    "mu_N_eV_per_T": 3.1524512522488736e-08,
+    "length_hbar_over_2mpc_fm": 0.10515445496126768,
+    "B_S_per_e2fm2_for_b_1": 0.011057459398201274,
+    "numeric_b_equal_in_named_units": true
+  },
+  "provenance": {
+    "sympy_version": "1.14.0",
+    "sympy_path": "/workspace/wiki/tmp/a130-network-control-deps/sympy/__init__.py",
+    "script_sha256": "14a8d09ec6a5f4b01a8b7f465f0faa63e91e87ee24341134bbb2e4dbf92d90ae"
+  }
+}

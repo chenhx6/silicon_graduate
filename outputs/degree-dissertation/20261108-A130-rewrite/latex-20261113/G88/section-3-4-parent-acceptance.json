@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-11-13T15:22:17.450250+00:00",
+  "section_id": "3.4",
+  "status": "parent-content-admitted-pending-bib-and-typesetting",
+  "main_executor": "G88 GeminiTiered/high",
+  "parent_scope": "Originalsource identity/targeted empiricaltable, algebra, conventions, readerconditions, competitiveinterpretations andlast narrowprose fixes",
+  "manuscript": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-4.tex",
+    "sha256": "1993eff23b829c4e5a85c5009666d1ffbae772afa0a001258f589e728750a234"
+  },
+  "ledger": {
+    "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-4.json",
+    "sha256": "6fa042d9001e7a334063794b2760ceab85248a7aa9f11c83e907c5c77ca26963"
+  },
+  "source_record_checks": 9,
+  "issues": [],
+  "known_boundary": "Not a full39-section manuscript acceptance or school-readyclaim. Integratedbuild,globalphase-namebridge andaliases remain distinct tasks. Mathematicaltests are not realnucleusmode validation.",
+  "superseded_inputs": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G88/parent-finalization-inputs",
+  "knowledge": [
+    "knowledge/research-notes/a130-rewrite-angular-convention-reference-20261113.md"
+  ]
+}

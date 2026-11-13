@@ -1,0 +1,166 @@
+{
+  "worker": "G84",
+  "role": "Gemini Tiered/high executor",
+  "section_id": "2.7",
+  "title": "有效电磁与弱算符",
+  "recorded_at": "2026-11-13T08:39:18.775054+00:00",
+  "task_status": "section_4_7_canonical_delivered_ready_for_parent_review",
+  "artifacts_manifest": {
+    "contract": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G84/contract.json",
+      "sha256": "5ef5ed222a647190cfad991a4661ae23c66dcfb65b495be2db37bbfff7942504"
+    },
+    "canonical_tex": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-7.tex",
+      "sha256": "d1a504177b7dd1db24f825f9ffb318f4f8b49e0771624161224f45e429984a95"
+    },
+    "staging_tex": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G84/staging/sec-2-7.tex",
+      "sha256": "d1a504177b7dd1db24f825f9ffb318f4f8b49e0771624161224f45e429984a95"
+    },
+    "canonical_ledger": {
+      "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-7.json",
+      "sha256": "28e200f2770baf56587570317823b04cb66f3016f7a460a8c5c3ff40f78ac7c8"
+    },
+    "local_ledger": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G84/section-2-7.ledger.json",
+      "sha256": "28e200f2770baf56587570317823b04cb66f3016f7a460a8c5c3ff40f78ac7c8"
+    },
+    "new_references_bib": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G84/new-references.bib",
+      "sha256": "ac59ffb2adcee61939e0f33d2f13cd3de30e785b287f0ce5bcfc4eb83cc87bf4"
+    },
+    "source_gysbers": {
+      "path": "knowledge/sources/gysbers-2019-ab-initio-beta-decay-quenching.md",
+      "sha256": "1e59b96093dceaca0635b11f4ad8c4b73e080ee4ccd6dd70e118bed7b1977ea3"
+    },
+    "source_wang": {
+      "path": "knowledge/sources/wang-2026-axial-coupling-quenching-joint-effects.md",
+      "sha256": "756d740b23259969a68d87348e33d846ba1e155a213dacb37df17829e5c5a1fc"
+    },
+    "research_note_axial": {
+      "path": "knowledge/research-notes/a130-rewrite-axial-operator-scope-20261113.md",
+      "sha256": "65835973ce14fe124f857ef3760342127089becb8bf1edc424eb87260fcc978f"
+    },
+    "canonical_tex_4_6": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-6.tex",
+      "sha256": "9971a1f160d90b9fa029b9735543a20f0e8cb6f675b9bc3fd5c4aabf2d47cc7e"
+    },
+    "staging_tex_4_6": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G84/staging/sec-4-6.tex",
+      "sha256": "9971a1f160d90b9fa029b9735543a20f0e8cb6f675b9bc3fd5c4aabf2d47cc7e"
+    },
+    "canonical_ledger_4_6": {
+      "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-6.json",
+      "sha256": "ff309173fa6dee41ae53ab61c674695a4a43648d11e43b4e7c4994513be7274d"
+    },
+    "local_ledger_4_6": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G84/section-4-6.ledger.json",
+      "sha256": "ff309173fa6dee41ae53ab61c674695a4a43648d11e43b4e7c4994513be7274d"
+    },
+    "new_references_4_6_bib": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G84/new-references-4-6.bib",
+      "sha256": "693881ef5990b0c23ae75923370238e79f1ec65615238e19d690af9f5d719dce"
+    },
+    "research_note_4_6": {
+      "path": "knowledge/research-notes/a130-rewrite-seniority-k-selection-20261113.md",
+      "sha256": "04d55bf03f87bd83bb657a6a294ed0eec01c7910ff2b3de06f5dccff77072375"
+    },
+    "canonical_tex_4_7": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-7.tex",
+      "sha256": "f2d5c82f1ea2f4a377ebb09b07f7aaee2d4332b8535aff0c6de38f273c36f103"
+    },
+    "staging_tex_4_7": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G84/staging/sec-4-7.tex",
+      "sha256": "f2d5c82f1ea2f4a377ebb09b07f7aaee2d4332b8535aff0c6de38f273c36f103"
+    },
+    "canonical_ledger_4_7": {
+      "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-7.json",
+      "sha256": "e5538d1e2ec7a3798ef296aeaa10b6444c9fb605fcf17358dd6903bc08158de3"
+    },
+    "local_ledger_4_7": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G84/section-4-7.ledger.json",
+      "sha256": "e5538d1e2ec7a3798ef296aeaa10b6444c9fb605fcf17358dd6903bc08158de3"
+    },
+    "contract_4_7": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G84/section-4-7.contract.json",
+      "sha256": "e21f102502be214b57d36f56df8ab9e494dffe7b3df7973c3922ef106341570d"
+    },
+    "new_references_4_7_bib": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G84/new-references-4-7.bib",
+      "sha256": "6566458f338fe8b0d5d1666b8b942dd6b314f0262c258a98b1498606b0dabf66"
+    },
+    "research_note_4_7": {
+      "path": "knowledge/research-notes/a130-rewrite-weak-windows-cascades-and-operators-20261113.md",
+      "sha256": "98cd3247087f71ef6dee19f59dd0a349f41ff9ccfb750fe7654654b1ef38603c"
+    },
+    "figure_weak_cascade_pdf": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/weak-cascade-competition.pdf",
+      "sha256": "5470f99fa7dfe25f1db272e96e72892b5b349ce55d585d14cf4e2608a85fcbe4"
+    },
+    "section_4_6_return_fixed": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G84/section-4-6-return-fixed.json",
+      "sha256": "f47cd6e561386e9939c209b6aeb37ffc6026f1c1d95441da884630dab258ee1a"
+    },
+    "source_nndc_130sn": {
+      "path": "knowledge/sources/nndc-130sn-adopted-2001-snapshot-20261113.md",
+      "sha256": "25b06c1d3c9120e52db6e68c23a44bd15998811cc6f16c067b9a5ecd108aa98e"
+    },
+    "figure_manifest_4_6": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G84/figure-manifest-4-6.json",
+      "sha256": "d3f117073a0d8ab46f5278448d11acdbf006ecf4fa3ab08e0e9d2a3b35a47ef8"
+    },
+    "figure_seniority_node_pdf": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/seniority-node-accessibility.pdf",
+      "sha256": "6f824e9d551556feb213b3c626f1b7b4d772eb361ae209608f74d09d48b420bb"
+    }
+  },
+  "substantive_repairs_verified": [
+    "A. delta-g_l 修正: 明确写为 -0.10 tau_3 (使得 p 对应 +0.10, n 对应 -0.10), 并明确声明为特定单粒子空间经验有效参数, 非普适定律",
+    "B. sigma^2 = 3*1 消除'迹'字样: 明确为 Pauli 矩阵标量平方和 (三维笛卡尔自旋平方求和), 澄清其在旋量空间的代数迹为 6",
+    "C. 幺正解耦算符与截断近似: U=exp(S)生成元反厄米 (S^dagger = -S), BCH展开说明诱导多体算符一般出现, 单体截断为有效近似, 剔除'数学自相矛盾'等绝对化评述",
+    "D. 电多极算符坐标规范: 明确 r_i 相对原子核质心定义并扣除质心假运动, 指出长波长点核子定义不否定有限分辨率下中子内禀非零电荷分布",
+    "E. 淬灭数据与机理断言纠正: 剔除未经验证的全核区 50-60%、2p2h 搬运 30-40% 等无指定核/窗口证据的固定比例断言, q~0.70-0.77 明确为特定壳模型与能窗拟合参数",
+    "F. 一阶禁戒跃迁算符非普适性: 指明 Zhi et al. 2013 是指定模型空间的拟合有效参数, 类时轴荷因软介子流在介质中显现有效增强, 空间流淬灭, 强调张量秩与动量依赖",
+    "G. 0nu beta beta 物理边界纠正: 明确 g_nu^{NN} 是 Delta L = 2 短程接触贡献, 澄清外提 g_A^4 为代数约定, 寿命不能简单因低能淬灭夸大 4 倍, 说明高动量转移下短程占优且长程自旋极化解耦, 当前学界仍在探索, 不做伪共识",
+    "H. 措辞去煽情化: 彻底删除'震撼'、'极其'、'剧烈'、'非人物理'、'自相矛盾'等煽情和夸大词汇",
+    "I. 纳入 Gysbers 2019 与 Wang 2026 现代微观输入: 建立对应两篇 sources 与一篇 research-note, 强调多体波函数关联与弱两体流必须配套自洽考虑, 同时指出其依然依赖核能密度泛函与两体流低能常数",
+    "SI制核磁子无c定义: mu_N = e hbar / (2 m_p), 量纲为 J/T 或 A m^2, 保持B(M1)单位为 mu_N^2 与实用常数 1.758e13 完全自洽",
+    "q_A唯象范围边界收束: 明确为若干指定价空间的经验例, 并以 Gysbers 2019 Fig.1 传统模型 q~0.75 为直接参考"
+  ],
+  "prohibitions_respected": [
+    "未改动公共工程主文件 Thesis.tex 或公共 Biblio/ref.bib (新条目已放入 new-references.bib 委托 G76 整合)",
+    "未改动其他章节文件、PLAN.md 或 system/memory.md",
+    "未执行 git add, commit, tag 或 push",
+    "未编造用户或未发表个人实验数据"
+  ],
+  "section_2_7_status": "frozen-canonical-and-ledger-no-concurrent-writes",
+  "parent_handover_note": "Parent personally applies the three narrow conclusion patch sentences (sum-rule truncation, two-body currents/space insufficiency, 0nu beta beta correlation) and updates ledger SHA. G84 does not touch sec-2-7.tex or ledger.",
+  "schema_lint_status": "verified-0-errors-on-new-sources-and-note",
+  "active_section": "4.7",
+  "section_4_6_derivations_verified": [
+    "四大机制电磁标度统一: lambda_gamma(sigma L) 正比于 (E_gamma)^{2L+1} B(sigma L) 串联自旋陷阱、Seniority 异能态、K 异能态与形状异能态",
+    "单 j 壳层准自旋 SU(2) 代数与配对算符归一化对齐第2.3节: S_+ = sqrt{Omega_j} P^dagger, 对简并度 Omega_j = (2j+1)/2 明确区分欧拉角 Omega 与全壳 2j+1",
+    "Seniority 守恒 Delta v=0 一体正偶极电跃迁归约式严格推导: RME(n, v) = [(Omega_j - n)/(Omega_j - v)] RME(v, v), 导出半满壳 n = Omega_j 处微观矩阵元严格相消 (B(E2) -> 0), 明确非两实验寿命相减",
+    "相消定理适用边界限定: v = Omega_j 单态分母发散边界排除; 排除无条件推广至 E0 或对角 Expectation <N>; 阐明多 j 混合与核芯极化微扰使零点变为深抛物线下凹 (130Sn 8+ 1.61 us 案例)",
+    "轴对称 K 选择定则与折合阻碍度幂律: nu = Delta K - lambda > 0 (nu <= 0 不套用), f_nu = (F_W)^{1/nu} 经验标度 10–100, 178Hf 16+ 31 y 异能态案例",
+    "三轴形变 K 混合动力学: 证明跃迁速率正比于杂化微弱振幅模方 |c_K|^2, 阐明三轴形变不必然消灭高 K 阻碍; 反向从微小 f_nu 推断三轴形变的不唯一性 (Coriolis 与高能态密度统计混合竞争); 191Ir 案例对照",
+    "双峰裂变位垒形状异能态: 斯楚廷斯基壳修正超形变第二极小 (beta_2 ~ 0.6) 内/外位垒隧穿竞争与 WKB 指数压制 (242Am 14 ms 案例); 严格区分位垒隧穿与反应合成截面, 区分超形变形状异能态与低激发双 0+ 形状共存",
+    "控制字符与格式洁净度核验: 0 个 C0 控制字符, 0 个 Markdown ** 标记, 数学环境严格对称闭合 (22/22)",
+    "准自旋阶梯离散粒子数同奇偶性条件 (n = v, v+2, ..., 2Omega_j - v => n 与 v 严格同奇偶); 证明 n=Omega_j 相消点仅在 Omega_j 与 v 同奇偶时物理可达 (j=9/2, v=2 无法取 n=5; j=11/2, v=2 可取 n=6), 标为教学推论"
+  ],
+  "section_4_7_derivations_verified": [
+    "有限 Q_beta 能窗与裸算符差和 3(N-Z) 严格解耦; 推导电子质量标度下无量纲微分发射能谱式",
+    "界定 CVC 假说仅保护矢量流, 不保护轴矢量与空间张量算符的在介质重整化",
+    "形变引起 Nilsson 轨道劈裂重塑 GT 巨共振分布, 以及粒子-振动耦合(PVC)在闭壳核中的解阻塞效应",
+    "一阶禁戒衰变算符秩与空间对称性依赖: 类时轴荷算符受软介子流在介质中显现增强, 空间流算符淬灭",
+    "beta 缓发中子发射两阶段物理模型与条件概率分解式: P_{xn} = sum_i I_beta(i) [Gamma_{xn}(i) / Gamma_{tot}(i)]",
+    "驳斥将 Q_beta - S_n 当作充分预测公式的认识误区, 揭示 S_n 以上离心位垒阻碍与辐射 gamma 强竞争退激",
+    "严格界定单中子发射几率 P_{1n}、全发射几率 P_{>=1n} 与平均多重度 <M_n> 的标准物理定义与数据映射",
+    "轻 Majorana 中微子交换 0nu beta beta 衰变半衰期公式与相空间 G_0nu/g_A^4 约定解耦",
+    "对比单 beta 长波零动量转移 (|p| ~ 0) 与 0nu beta beta 虚中微子高动量传递 (|p| ~ 100-200 MeV/c, r ~ 1-2 fm) 的本质差异",
+    "手征 EFT 中 Delta L = 2 短程接触算符的重整化群自洽性阐释 (不夸大为数值必然主导, 不与普通两体轴流混淆)",
+    "超流配对相干增强与母子核四极形变错位压制机制, 阐明单一寿命反演微观参数的非唯一性与多探针交叉约束边界",
+    "格式与控制字符洁净度核验: 0 个 C0 控制字符, 0 个 Markdown ** 标记, 数学环境严格对称闭合 (11/11)"
+  ]
+}

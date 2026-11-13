@@ -1,0 +1,76 @@
+% 以下为冻结附录 A 与 5.9 的定点替换候选；公式标签保留供合并。
+
+% 附录 A 第34--38行：
+对满足球张量自伴条件的算符，其分量满足
+\begin{equation}\label{eq:appA-hermitian-tensor}
+[T_q^{(k)}]^\dagger=(-1)^qT_{-q}^{(k)}.
+\end{equation}
+这是一项附加的厄米性条件，并非不可约旋转变换性质本身的推论。例如，电多极算符中 $Y_{L\mu}^*=(-1)^\mu Y_{L,-\mu}$，对于实电荷及自伴坐标，电多极算符满足上述关系。
+
+% 附录 A 第44--54行：保留3j与CG版Wigner--Eckart定理，但用以下3j--CG对应替换原式50和其后相位说明，k为整数：
+\begin{equation}\label{eq:appA-3j-cg-relation}
+\begin{pmatrix}j_f&k&j_i\\-m_f&q&m_i\end{pmatrix}
+=\frac{(-1)^{j_f-m_f}}{\sqrt{2j_f+1}}C_{j_i m_i kq}^{j_fm_f}
+=\frac{(-1)^{j_i+k-m_f}}{\sqrt{2j_f+1}}C_{kq j_i m_i}^{j_fm_f}.
+\end{equation}
+对于此处的整数阶电磁张量，这两种耦合次序都与式\eqref{eq:appA-we-3j}和式\eqref{eq:appA-we-cg}一致。
+
+% 附录 A 第58--85行：
+约化矩阵元的归一必须连同其定义一起使用。Bohr--Mottelson 卷 I 式~(1A-60) 与本附录式\eqref{eq:appA-we-cg}均在 CG 系数前使用 $(2j_f+1)^{-1/2}$。也可抽象定义另一种量 $\mathcal R_C$，令矩阵元等于 $C_{j_i m_i kq}^{j_fm_f}\mathcal R_C$；则本附录的约化矩阵元与其关系为 $\mathcal R=\sqrt{2j_f+1}\,\mathcal R_C$。不同定义间比较必须先核实各文献的具体符号和公式。
+% 删除原表中 BM 与 Suhonen 不同的断言以及未经逐书核验的 Rose、Brink--Satchler、Varshalovich 归类；如需保留表，只列本次实际核对的 BM I 和 Suhonen。
+
+% 附录 A 第87--97行，替换整个推导及交换公式：
+对于满足式\eqref{eq:appA-hermitian-tensor}的自伴球张量，由矩阵元共轭及 $3j$ 对称性得到
+\begin{equation}\label{eq:appA-rme-exchange}
+\langle j_f\|T^{(k)}\|j_i\rangle
+=(-1)^{j_f-j_i}\langle j_i\|T^{(k)}\|j_f\rangle^* .
+\end{equation}
+更一般的不可约张量应先定义其伴随张量，再讨论正逆跃迁；约化矩阵元是否实数还取决于算符的时间反演性质和态的相位约定。
+% 原 eq:appA-rme-adjoint-deriv 如需保留，须用相同交换相位重新推导，不要保留旧的 +k 指数。
+
+% 附录 A 第113--116行：
+\begin{equation}\label{eq:appA-9j-to-6j}
+\begin{Bmatrix}j_1'&j_1&k\\j_2'&j_2&0\\J'&J&k\end{Bmatrix}
+=\frac{(-1)^{j_1'+j_2+J+k}}{\sqrt{(2j_2+1)(2k+1)}}\,
+\delta_{j_2j_2'}\begin{Bmatrix}j_1'&J'&j_2\\J&j_1&k\end{Bmatrix}.
+\end{equation}
+式\eqref{eq:appA-single-op-1}及式\eqref{eq:appA-single-op-2}维持原定义，前提是两个张量分别作用于可区分的两个张量积子空间。
+
+% 附录 A 第138及145--148行：
+令 $\chi(a,b,c)$ 为三角允许性指示函数：角动量非负且为整数或半整数，$|a-b|\le c\le a+b$，并且 $a+b+c$ 为整数时取 1，否则为 0。正交式\eqref{eq:appA-6j-ortho-theorem}中的两个 $\Delta$ 应改记为 $\chi$，以免与 Racah 求和中的三角系数混淆。后者为
+\[
+\Delta_R(a,b,c)=\left[\frac{(a+b-c)!(a-b+c)!(-a+b+c)!}{(a+b+c+1)!}\right]^{1/2}.
+\]
+式\eqref{eq:appA-racah-formula}中的四个 $\Delta$ 应改记为 $\Delta_R$。令
+\[
+(v_1,v_2,v_3,v_4)=(a+b+c,a+e+f,d+b+f,d+e+c),\quad
+(w_1,w_2,w_3)=(a+b+d+e,a+c+d+f,b+c+e+f),
+\]
+$z$ 取使各阶乘参数非负的整数。原有 $1/5$ 算例只核验所选恒等式，不能据此声称整个附录绝对精确。
+
+% 附录 A 第221--243行，替换 SI 与高斯单位段：
+采用 SI 电荷 $e$ 和 SI 核磁子，
+\begin{equation}\label{eq:appA-mun-def}
+\mu_N^{\rm SI}=\frac{e\hbar}{2m_p}\simeq3.15245\times10^{-8}\,\mathrm{eV/T},\qquad
+\ell_N=\frac{\hbar}{2m_pc}\simeq0.10515\,\mathrm{fm},\qquad
+\frac{\mu_N^{\rm SI}}{c}=e\ell_N.
+\end{equation}
+设磁矩型 $\mathcal M_\mu$ 与电荷型 $\mathcal M_S=\mathcal M_\mu/c$ 的物理约化跃迁几率分别为 $B_\mu$ 与 $B_S$。令 $b_{M1}=B_\mu/\mu_N^2$，则
+\begin{equation}\label{eq:appA-bs-bmu-trans}
+B_\mu=b_{M1}\mu_N^2,\qquad
+B_S=\frac{B_\mu}{c^2}=b_{M1}(e\ell_N)^2,\qquad
+b_{M1}=\frac{B_S}{(\mu_N/c)^2}=\frac{B_\mu}{\mu_N^2}.
+\end{equation}
+故以 $e^2\mathrm{fm}^2$ 度量的 $B_S$ 数值是 $b_{M1}(0.10515)^2$，而以 $(\mu_N/c)^2$ 度量的数值是 $b_{M1}$。按各自命名单位归一后的数值无需额外乘除 $c^2$。在高斯单位制中核磁子写作 $e_G\hbar/(2m_pc)$，其中 $e_G$ 也是高斯电荷；比较不同单位制时必须同时转换电荷及场的定义。
+% 第235--237行类似“mu_N/c=e fm”应改为“mu_N/c是电荷乘长度量纲，且实际等于0.10515 e fm”；第253行中含c的SI核磁子推导同步删除或按上式重写。
+
+% 5.9 第106--110行和附录A式(appA-delta-def)后增加：
+本书在发射过程选用 Krane--Steffen 混合比约定：式\eqref{eq:5-9-delta-def}中的矩阵元、算符相位和几何系数按同一约定配套。对于 Hamilton 的 $F_k$ 和其定义的 $\delta$，角分布混合项写为 $+2\delta F_k(LL')$；这与上述矩阵元比的约定一致。Lange 等给出的发射约定中 $\delta_{\rm KS}=-\delta_{\rm RB}$，转换文献时还必须同步转换几何干涉系数并区分发射与吸收。已发表数据保留来源原有符号及其约定；只有核实来源约定并需要统一比较时才显式换算，$\delta^2$ 与由其确定的多极份额不受此符号变换影响。
+
+% 5.9 第232--246行保持同一 C_M1 定义：
+对于能量和强度均先按各自单位归一的式\eqref{eq:5-9-cm1}，$C_{M1}=1.7583758801\times10^{13}\,\mathrm{s}^{-1}$。教学算例写为
+\[
+B_\mu(M1)=\mu_N^2\,
+\frac{4.91046\times10^{10}\,\mathrm{s}^{-1}}
+{C_{M1}(0.800)^3}\simeq0.005454\,\mu_N^2.
+\]

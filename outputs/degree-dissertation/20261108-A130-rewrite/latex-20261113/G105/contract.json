@@ -1,0 +1,32 @@
+{
+  "task_id": "G105",
+  "model": "antigravity/gemini-3.8-flash-tiered",
+  "effort": "high",
+  "task": "One exactprimarypaper archival/identity/selected-reading support forsingle-jodd-rankquasispinscalar boundary exposedbyD; no breadth expansion.",
+  "doi": "10.1016/j.physletb.2015.11.079",
+  "title": "Seniority and reduced transition probabilities of even and odd tensor operators",
+  "local_check": "CatalogueDOIcheck missing(snapshot20261107); narrowfilenamefallbackMaheshwari/odd-tensor/DOI no matches. Absenceonlythisscope.",
+  "raw_destination": "raw/papers/gpt/query/20261114-single-j-magnetic-exits/",
+  "source_path": "knowledge/sources/maheshwari-jain-2016-even-odd-tensor-seniority.md",
+  "write_paths": [
+    "raw/papers/gpt/query/20261114-single-j-magnetic-exits/",
+    "knowledge/sources/maheshwari-jain-2016-even-odd-tensor-seniority.md",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G105"
+  ],
+  "forbidden": [
+    "canonicalthesis",
+    "sharedBib",
+    "otherknowledge",
+    "git",
+    "derivingTerraT23counterexample"
+  ],
+  "checks": [
+    "get-paper/local-archive/research-archive skills",
+    "publisher/Crossrefidentity andlegalOA PDF",
+    "manifestfileslist withactualSHA/size/retrievedUTC; userdate14 distinctmachineclock13",
+    "preciseactualPDFpages/eqs forsingle-joddscalar vsdifferentgeneralizedelectrictensorstatement",
+    "source readingdepth truthful; authorsbook not independentexperiment",
+    "archivegate fornewsource/manifest andshortreceipt"
+  ],
+  "scope_limit": "Exactlythispaper; ifunavailable recordrealboundary andstopthisretrieval, notwholegoal."
+}

@@ -1,0 +1,31 @@
+{
+  "task_id": "T23",
+  "status": "narrow-audit-accepted;notAppendixDacceptance",
+  "observed_machine_utc": "2026-11-13T21:05:15.955103+00:00",
+  "source": {
+    "path": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+    "sha256": "994816561cfb6e89bd215b7fe23e37ecf12e8a3e8f5ce88eafbbd388d02ed74a",
+    "actual_parent_read_pages": [
+      52,
+      55,
+      56
+    ],
+    "equations": [
+      "3.11",
+      "3.12",
+      "3.22"
+    ]
+  },
+  "actual_replay": "python3 -B outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T23/validation.py returned0",
+  "parent_crosscheck": "T23/parent-replay-crosscheck.json; noSympycheckclaimed",
+  "canonical_control": "system/scripts/a130_same_v_m3_open_network_control.py",
+  "canonical_results": "outputs/l4/20261114-A130-m3-open-network-controls/results.json",
+  "accepted_findings": [
+    "same-voddmagnetictensorsneednotshareE2midnode;M3unit-RMEcounterallowedconditionally",
+    "Unique globallyattractingSSforallnonnegativesources differsfromexistenceforcompatibleparticularsource",
+    "Repeated-rootdirectedmatrixcanbeJordan; passiveno-sourceboundcomesfromtotalnonincrease",
+    "Equal-lossfractionsneedA=a+b>0; fast/slowfirstorderweights retained",
+    "NonthermaldoesnotimplyLindblad; usualmicroscopicderivationconditionsnotmathematicalnecessities"
+  ],
+  "boundary": "No actualM3decay/nucleus/energyordering/rate claim; no statementthatotherDpassagesareverified. T24separatelychecksprojectionandFFrank."
+}

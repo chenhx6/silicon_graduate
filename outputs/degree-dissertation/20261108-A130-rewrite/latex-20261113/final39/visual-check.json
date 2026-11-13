@@ -1,0 +1,38 @@
+{
+  "status": "parent-representative-visual-pass",
+  "pdf_sha256": "58a10454879db7e88de8674e83b20207082f0b8fe67ff4bb9233b51d6d588480",
+  "physical_pages": 374,
+  "whole_pdf_media_box_scan": {
+    "outside_text_blocks": 0,
+    "pages_checked": 374
+  },
+  "representative_pages": [
+    1,
+    17,
+    25,
+    132,
+    195,
+    216,
+    221,
+    247,
+    275,
+    282,
+    291,
+    295,
+    307,
+    309,
+    310,
+    311,
+    342,
+    344,
+    349,
+    363,
+    366,
+    368,
+    371
+  ],
+  "specific_check": "Cover neutral fields; chapter samples; formula breaks; vector figures; 5.10 tables reflowed after visual check; Appendix F continuation and hashes.",
+  "actual_unique_embedded_figures": 19,
+  "boundary": "Representative visual inspection, not an empirical reader study or exhaustive figure-semantics certification.",
+  "final_refresh": "Only same-width code hashes and provenance prose changed after representative inspection; final whole-page text boundary scan repeated. Original vector figure bytes retained."
+}

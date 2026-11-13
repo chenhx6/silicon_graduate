@@ -1,0 +1,142 @@
+\section{符合矩阵与能级建立}\label{sec:5-6}
+
+在在束 $\gamma$ 谱学与核衰变测量中，单探测器的单谱仅能提供反应产生的各特征光子的一维发射能量与总产额。然而，核反应通常布居了极为复杂的能级网络，数十条甚至上百条 $\gamma$ 跃迁同时发生，造成一维能谱严重重叠。为了从错综复杂的谱线中重构出原子核的量子能级序列并建立自洽的衰变纲图，核心的实验手段是利用多探测器阵列记录的\emph{$\gamma\text{-}\gamma$ 符合关系}。
+
+第~5.4~节讨论了基于 CFD 过零插值的高精度纳秒级时间戳提取，第~5.5~节阐明了硬件触发、FIFO 缓存与联合活时间的因果界限。当数据流成功记录至存储介质后，离线物理分析的第一步便是通过时间对准构建物理符合事件，并将多重事件填充为二维或高维符合矩阵。若对矩阵填充测度、偶然符合扣除、非对称门选背景以及级联拓扑逻辑缺乏严格把握，容易引入两类代表性的系统假象：其一，将同一多重事件对称填充产生的统计相关性错误当成各独立格点的独立泊松起伏；其二，混淆符合关联与级联因果次序，将旁路跃迁或能量重叠偶极对（Doublet）误判为直接级联。本节从离线事件重构与符合时间窗出发，推导二维对称与非对称矩阵的填充测度，建立瞬发--偶然符合扣除与误差协方差传播公式，剖析能谱门选背景扣除与假符合排除方法，并阐明建立原子核能级纲图的拓扑闭合准则。
+
+\subsection{事件构建、时间对准与符合窗口}\label{subsec:5-6-1}
+
+在数字化数据获取中，各探测通道由独立的 ADC 和 FPGA 独立运行并输出带有局域时间戳的列表模式数据字（见第~5.5~节）。离线分析的首要任务是进行事件构建（Event Building）：
+\begin{enumerate}
+\item 相对时间对准（Time Alignment）：
+不同探测器晶体的线缆长度、前置放大器上升时间以及高压漂移会导致各通道之间存在固有时间偏差 $t_{\mathrm{off}}$。利用第~5.4~节式~\eqref{eq:5-4-linear-zc} 提取的高精度 CFD 时间戳，必须首先选定一个参考通道（或利用双道符合峰位）对各探测器的相对时间延迟进行软件离线对齐，使得同时到达不同探测器的物理瞬发光子在相对时间差谱 $\Delta t_{ij} = t_i - t_j - t_{\mathrm{off}, ij}$ 上对齐于零时刻。
+\item 符合时间窗口（Coincidence Time Window）的选取：
+在对齐后的时间差分布上，真实的级联符合事件表现为一个具有有限宽度的瞬发时间峰（Prompt Peak）。符合时间窗口 $\Delta T_{\mathrm{coin}}$ 规定了被判定为属于同一次核碰撞退激事件的时间范围：
+\begin{itemize}
+\item 窗口宽度的下限受到探测系统本征时间分辨率（第~5.4~节的 FWHM 展宽）的物理制约，过窄的窗口会截断瞬发符合峰的两翼，导致特定能量或角度的有效符合计数发生不对称损失；
+\item 窗口宽度的上限受到束流微观时间结构（如加速器高频射频束团周期 $T_{\mathrm{RF}}$）与偶然符合本底率的约束；
+\item 若被测核态包含寿命在纳秒量级的同核异能态，级联光子之间存在微观时间延迟，此时必须设置延迟时间门（Delayed Gate）以分离瞬发退激与滞后馈入。
+\end{itemize}
+\end{enumerate}
+
+必须强调：离线事件构建是在计算机中对已记录物理流进行的关联重构，它不同于第~5.5~节讨论的前端硬件死时间丢失。在硬件保存阶段未被记录的事件在前端已物理灭失；而在事件构建阶段，时间窗的选取是在真符合效率与偶然本底污染之间寻求的最佳统计平衡。
+
+\subsection{二维对称与非对称符合矩阵的填充测度}\label{subsec:5-6-2}
+
+当一个物理事件在符合时间窗口 $\Delta T_{\mathrm{coin}}$ 内包含 $M_\gamma = n$ 个被成功鉴别的特征光子，其观测能量集合为 $\{E_1, E_2, \dots, E_n\}$。离线分析通常将这些事件填充到二维矩阵 $M(E_x, E_y)$ 中。
+
+依据分析目标的不同，矩阵填充遵循两种截然不同的拓扑规则：
+\begin{enumerate}
+\item 二维对称符合矩阵（Symmetric $\gamma\text{-}\gamma$ Matrix）：
+用于分析核能级纲图的共性级联关系与相对跃迁强度。为了保证 $x$ 轴与 $y$ 轴对于探测器身份的等价性，对于包含多重度 $M_\gamma = n$ 的单次物理事件，其无序数对共有 $n(n - 1)/2$ 对。在构建对称矩阵时，对每一对指标 $i < j$，分别在坐标点 $(E_i, E_j)$ 与转置镜像点 $(E_j, E_i)$ 处各填入计数 1，使总填入条目数恰为：
+\begin{equation}\label{eq:5-6-ordered-pairs}
+N_{\mathrm{entries}} = 2 \times \frac{n(n - 1)}{2} = n (n - 1).
+\end{equation}
+在此规则下，矩阵满足严格的转置对称性 $M(E_x, E_y) = M(E_y, E_x)$（例如肖骁硕士论文第~2.2~节~\cite[印刷第~14~页，PDF 第~24~页]{xiao-xiao-2019-high-spin-74as-thesis}所述的对称矩阵反演方案）。需要注意对角线判定：同一个物理探头测得的单一脉冲命中不允许与自身形成虚假自符合；但若两个不同的物理探测单元在同一次事件中恰好测得两个能量简并的独立特征光子，该物理符合点完全可以合法落于矩阵对角元 $(E_i, E_i)$ 上。
+
+\emph{统计相关性与独立性界限}：统计推断的独立基本单位是物理碰撞事件（Event），而非矩阵单元格。尽管单个单元格在一事件至多贡献一次命中的条件下其边缘计数仍可近似服从泊松分布，但同一次多重事件向不同单元格填入数对导致各格点之间存在统计相关，对角线两侧的转置镜像格点更是完全确定性相关。在进行能谱门选积分与误差估计时，不可将对称矩阵对角线两侧的镜像计数当作两个独立测量样本（若直接累加镜像格点，其标准误差会被低估，导致方差评估失真）。
+\item 二维非对称符合矩阵（Asymmetric Matrices）：
+用于提取特定几何角度的物理各向异性或偏振信息。例如在方向角关联（DCO）或定向角分布（ADO）测量中（肖骁论文印刷第~14~页~\cite{xiao-xiao-2019-high-spin-74as-thesis}）：
+\begin{itemize}
+\item 矩阵 $x$ 轴限定为全部探测器测得的光子能量，而 $y$ 轴严格限定为特定特定角度（如 $90^\circ$ 或 $135^\circ$）探测器记录的光子能量；
+\item 在 Clover 散射偏振测量中，$y$ 轴限定为垂直于或平行于核反应平面的晶体间康普顿散射能量；
+\item 非对称矩阵不再具有转置对称性（$M(E_x, E_y) \ne M(E_y, E_x)$），其非对称比值直接携带着微观辐射多极性与核取向信息（详见第~5.7~节）。
+\end{itemize}
+\end{enumerate}
+
+\subsection{瞬发--偶然符合扣除与误差协方差传播}\label{subsec:5-6-3}
+
+在束实验中，符合时间窗口内捕获的光子对不仅包含源自同一次核退激的真符合事件，还叠加了两次不相干核反应发射的光子偶然落入同一时间窗的偶然符合（Random Coincidence）事件。
+
+为了消除偶然符合对矩阵峰面积与连续本底的污染，广泛采用二维瞬发--偶然符合时间投影扣除算法（如 Radware 软件包与吴治华实验方法规范~\cite{book-wu-nuclear-experiment-methods}）：
+在相对时间差谱 $\Delta t$ 上，分别设置瞬发时间窗（Prompt Window, 宽度为 $\Delta T_P$）与位于瞬发峰外侧较远处平坦区域的偶然时间窗（Random Window, 宽度为 $\Delta T_R$）。分别填充生成二维瞬发矩阵 $P(E_x, E_y)$ 与二维偶然矩阵 $R(E_x, E_y)$。
+净真符合矩阵的统计估计量定义为：
+\begin{equation}\label{eq:5-6-prompt-random}
+S(E_x, E_y) = P(E_x, E_y) - a R(E_x, E_y),
+\end{equation}
+其中时间归一化比例因子为：
+\begin{equation}\label{eq:5-6-norm-factor}
+a \equiv \frac{\Delta T_P}{\Delta T_R}.
+\end{equation}
+
+在误差传播与统计推断中，必须遵守以下严格原则：
+\begin{enumerate}
+\item 误差传递与 Delta 方法展开：
+若归一化因子 $a = \Delta T_P / \Delta T_R$ 由预设的时间门宽比例确知，则有限的偶然计数 $R$ 本身并不引起 $a$ 的统计不确定度；仅当 $a$ 依赖于从实测能谱中拟合的本底因子时，其方差 $\mathrm{Var}(a)$ 才进入误差链。在更一般的非线性参数设定下，由一阶 Delta 方法导出的全协方差传递式为：
+\begin{equation}\label{eq:5-6-var-cov-expanded}
+\mathrm{Var}(S) \simeq \mathrm{Var}(P) + a^2 \mathrm{Var}(R) + R^2 \mathrm{Var}(a) - 2a \mathrm{Cov}(P, R) - 2R \mathrm{Cov}(P, a) + 2a R \mathrm{Cov}(R, a).
+\end{equation}
+当 $a$ 为确定常数、且瞬发窗与偶然窗源自不重叠时间片且服从独立原始泊松计数时，后四项全部消失，总方差简化为经典形式：
+\begin{equation}\label{eq:5-6-var-net}
+\mathrm{Var}(S) = P + a^2 R.
+\end{equation}
+\item 负计数的统计属性认知：
+在弱谱线区域，本底扣除后的估计量 $S = P - aR$ 出现负值属于正常的统计下涨落。需要明确：仅在假定本底扣除比例 $a$ 准确且无通道泄漏的理想条件下，$S$ 在纯本底无信号的零假设（Null Hypothesis）下期望才为零；若 $a$ 源于拟合估计并包含相关性，其实际估计值可能存在残余偏置。在弱谱线能区出现负估计值绝不能将其当成物理负强度，亦不能在解谱前将负值强制置零（强制截断会导致正向系统偏置）。
+\end{enumerate}
+
+\subsection{能谱门选、背景扣除与假符合排除}\label{subsec:5-6-4}
+
+建立了二维符合矩阵后，研究人员通过在一维轴上对特定能量的谱峰设置门窗（Gate），截取并投影出与其存在符合级联关系的退激能谱。
+
+设对能级上方或下方的跃迁 $\gamma_1$（峰位为 $E_1$）设置总峰门（Gross Peak Gate），门宽区间为 $[E_1 - \delta_1, E_1 + \delta_1]$。投影到另一能量轴上得到的总门谱 $G(E_y)$ 包含了两个物理成分：
+$$
+G(E_y) = \text{与全能峰 } E_1 \text{ 级联的真符合谱} + \text{与 } E_1 \text{ 峰下连续康普顿本底符合的伪符合谱}.
+$$
+为了扣除康普顿本底贡献，必须在 $E_1$ 峰位的左侧与右侧无特征峰平坦区分别设置左背景门 $B_L$ 与右背景门 $B_R$。背景扣除后的一维净门谱由双侧线性内插给出：
+\begin{equation}\label{eq:5-6-gate-sub}
+S_{\mathrm{gated}}(E_y) = G(E_y) - \left[ c_L B_L(E_y) + c_R B_R(E_y) \right],
+\end{equation}
+其中权重系数满足 $c_L + c_R = \text{Peak Gate Width} / \text{Background Gate Width}$。
+
+在执行门谱分析时，必须高度警惕以下导致假符合（False Coincidence）的复杂陷阱：
+\begin{enumerate}
+\item 本底形状的非线性结构：
+第~5.2~节阐明了康普顿边缘与散射峰的微观机理。在实际锗谱中，全能峰下方的本底并非平坦直线；若背景门正好跨越了邻近某强跃迁的康普顿边缘或后向散射峰，线性内插式~\eqref{eq:5-6-gate-sub} 将严重失效，导致净门谱中出现虚假下凹或假峰。
+\item 重叠双重峰（Doublet）的解谱污染：
+门选背景扣除并不必须强制限定为双侧直线内插，在能谱本底平缓且无台阶时双侧线性插值有效，但当邻近强峰边缘时须采用非线性连续本底模型。此外，当两个能量相近的跃迁存在于不同谱带中形成重叠双重峰时，对其中一个峰设门必然同时接收另一个峰的符合通道。
+例如在 $^{133}\mathrm{Ce}$ 的实验研究中（Wakudyanaye 2022 硕士论文第~62--63~页~\cite{wakudyanaye-2022-triaxiality-rotational-bands-133ce}），带 4 中存在一组极为接近的能量双峰 $608\,\text{keV}$ 与 $609\,\text{keV}$。实验分析表明，当对 $608\,\text{keV}$ 设门时，谱图中观察到了 $209\,\text{keV}$ 与 $399\,\text{keV}$ 跃迁，作者通过精细反推证明该符合关系并非源自与 $608\,\text{keV}$ 的级联，而是由于双重峰污染，实际上与 $609\,\text{keV}$ 跃迁符合。如果不具备这种双重峰判别意识，极易将两条完全独立的能级结构错误拼接为一个混乱的假带。
+\item 平行分支与反符合排除（Anti-Coincidence Verification）：
+符合关系的逻辑证伪同样重要。Wakudyanaye 论文第~62~页详细给出了反符合判定逻辑：当对 $871\,\text{keV}$ 设门时未观察到 $490\,\text{keV}$ 与 $380\,\text{keV}$ 跃迁，但对 $936\,\text{keV}$ 设门时这两条跃迁清晰可见；这确定性证明 $490\,\text{keV}$ 与 $380\,\text{keV}$ 跃迁与 $936\,\text{keV}$ 强符合、而与 $871\,\text{keV}$ 严格反符合（Anti-Coincidence），从而证明它们处于与 $871\,\text{keV}$ 平行的旁路退激支路上。
+\end{enumerate}
+
+图~\ref{fig:5-6-coincidence-topology} 给出了一个规范的教学模型，直观展示了交叉跃迁（Crossover）、平行旁路分支以及双重峰在符合矩阵门谱分析中的判据逻辑。
+
+\begin{figure}[!htbp]
+\centering
+\IfFileExists{Img/coincidence-level-scheme-model.pdf}{%
+  \includegraphics[width=0.92\textwidth]{Img/coincidence-level-scheme-model.pdf}%
+}{%
+  \fbox{\parbox{0.92\textwidth}{\centering\vspace{2.5cm}（图 5.2 能级符合拓扑与门选反符合判据示意图：\texttt{Img/coincidence-level-scheme-model.pdf}；展示交叉跃迁、平行旁路以及多重峰在符合门谱中的鉴别逻辑）\vspace{2.5cm}}}%
+}
+\caption{典型核能级符合拓扑与门选反符合判据模型（教学模型，基于合成逻辑生成）。(a) 展示包含主带（$0^+ \to 2^+ \to 4^+ \to 6^+$）与侧带（$3^+$ 态）的能级拓扑结构，包含级联跃迁 $\gamma_1(200), \gamma_2(400), \gamma_3(500)$、侧向跃迁 $\gamma_a(250), \gamma_c(250)$ 以及交叉跃迁 $\gamma_b(650)$；(b) 给出符合门选逻辑：对 $\gamma_1$ 设门可见全部相连级联；对 $\gamma_2$ 设门可见 $\gamma_1, \gamma_3, \gamma_a$，但与交叉跃迁 $\gamma_b$ 严格反符合（平行旁路）；对交叉跃迁 $\gamma_b$ 设门与 $\gamma_2$ 反符合；同时标示了 $\gamma_a$ 与 $\gamma_c$ 同为 $250\text{ keV}$ 时的双重峰（Doublet）门选消歧判据。注意此处为规范教学模型，非特定实验测量计数拟合）。}
+\label{fig:5-6-coincidence-topology}
+\end{figure}
+
+\subsection{符合拓扑、级联排序与能级纲图建立原则}\label{subsec:5-6-5}
+
+在谱学反演中必须牢记核心逻辑边界：\emph{两个特征 $\gamma$ 射线在谱图中存在符合关联，仅能证明二者同处于一个级联退激网络之中，并不自动确定二者的空间相对次序，更不代表二者是直接相连的相邻跃迁}。
+
+从符合计数上升为可信能级纲图，必须同时满足以下四大拓扑闭合准则：
+\begin{enumerate}
+\item 能量守恒与 Ritz 组合原理（Ritz Combination Principle）：
+在同一核素衰变网络中，两能级之间的能量差在计入微小的核反冲修正与实验刻度误差后，经由多步级联退激的跃迁能量代数和必须与交叉单跃迁（Crossover Transition）在测量不确定度内精确吻合：
+\begin{equation}\label{eq:5-6-ritz-combination}
+E_{\mathrm{crossover}} = \sum_{k=1}^m E_k - \Delta E_{\mathrm{recoil}}.
+\end{equation}
+能量符合精度由具体的探测器能量刻度与统计量决定，不可泛化为先验常数范围。此外，单一门谱中观测到符合峰并不必然证明二者属于同核衰变，必须首先排除偶然符合、真符合相加、邻近强线康普顿散射串扰（Cross-Talk）以及多核反应产物污染。
+\item 强度平衡与开闭流分析：
+在稳定衰变平衡下，对中间能级 $|i\rangle$，其净布居速率由直接反应布居、侧向未观测馈入、离散级联注入与全部退激分支共同维持平衡：
+\begin{equation}\label{eq:5-6-intensity-balance}
+I_{\mathrm{direct}}(i) + I_{\mathrm{side}}(i) + \sum_{k} I_{\mathrm{tot}, k}^{\mathrm{in}} = \sum_{j} I_{\mathrm{tot}, j}^{\mathrm{out}} + I_{\mathrm{loss}}(i).
+\end{equation}
+仅在无直接输入且无未观测漏支的理想闭合子体系中，才近似有 $\sum I_{\mathrm{in}} \approx \sum I_{\mathrm{out}}$。总跃迁强度 $I_{\mathrm{tot}}$ 必须严格计入内转换系数 $\alpha_{\mathrm{IC}}$：
+\begin{equation}\label{eq:5-6-itot-expansion}
+I_{\mathrm{tot}, k} = a_k (1 + \alpha_{\mathrm{IC}, k}),
+\end{equation}
+若某能级观测到的光子流入明显小于流出，常暗示存在来自高能连续区或侧带的未分辨馈入；若流入显著大于流出，则往往指示存在强内转换的未观测低能跃迁（$\alpha_{\mathrm{IC}} \gg 1$）或较长寿命的异能态阻碍。
+\item 级联次序的时间与自旋反演：
+单靠两个相互符合的光子能量无法确定“谁在上、谁在下”。确定级联跃迁的上下次序依赖于强度单调递减规律（在无严重侧向注入的前提下，沿转动带自上而下退激时跃迁总强度单调累增）、从不同侧带分支汇入点的几何连接特征，以及第~5.4~节讨论的亚纳秒时间差符合测量（若两态寿命差异足以在符合时间谱上分辨因果先后）。
+\item 自旋宇称指定的独立证据输入：
+能级纲图中每个激发态的自旋与宇称 $I^\pi$ 不能仅凭符合谱能量直接指认。能量符合建立的是能级拓扑连通图；而能级自旋宇称的最终锁定，必须输入第~5.7~节的在束角分布 $W(\theta)$（确定多极阶数 $L$）、第~5.7~节的 Compton 偏振不对称度（确定电磁宇称性质 $\pi$），以及第~5.8~节与第~5.9~节的能级绝对寿命与 $B(XL)$ 跃迁几率约束。
+\end{enumerate}
+通过符合拓扑、能量封闭、强度守恒与角分布偏振的多维交叉印证，才能将实验离线数据最终固化为经得起理论检验的确定核结构能级纲图。

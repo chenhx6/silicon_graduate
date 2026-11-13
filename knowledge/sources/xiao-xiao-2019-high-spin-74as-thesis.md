@@ -3,7 +3,7 @@ type: source
 title: "肖骁 2019 硕士论文：奇奇核 74As 的高自旋态研究"
 aliases: [肖骁74As硕士论文, Xiao Xiao 74As high-spin thesis, 74As thesis]
 created: 2026-09-11
-updated: 2026-11-08
+updated: 2026-11-14
 status: ai-draft
 review_status: unreviewed
 source_type: thesis-experiment
@@ -178,3 +178,9 @@ TPRM 和邻近核系统学用于讨论组态和手征几何；这些是模型/�
 ## Non-source Notes and Follow-up
 
 论文正文已实际读取，关键题名页、摘要、能级/手征判据页已视觉核对；并与 2022 journal 的 Table I、Fig.1–3、Fig.7 和 pp.3–7 做了只读 crosswalk。OCR 只用于检索，未修改 raw、期刊 source、核素页或审核状态。
+
+### 本次写作回读补充：2019与2022的负宇称组态不能互换
+
+回PDF40（印刷32）页面图像，原文明确以“中子组态角动量可能差1”讨论thesis Bands3/4，并将thesis Band4写为 $\pi g_{9/2}\otimes\nu(p_{3/2},f_{5/2})$。PDF47总结同样保留赝自旋伙伴候选。这与2022期刊PDF7对其Band3给出的暂定 $\pi(f_{5/2}/p_{3/2})\otimes\nu g_{9/2}$ 不是同一句组态指派；本次未完成两版负宇称带的唯一逐线映射，不能用相同带号替换质子/中子角色。
+
+轨道 $p_{3/2}$、$f_{5/2}$ 的赝自旋标记按 $j=\tilde l\pm1/2$ 给 $\tilde l=2$；这是本次角动量标记核对，不是据此证明该核精确赝自旋对称。

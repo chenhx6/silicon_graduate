@@ -1,0 +1,94 @@
+{
+  "section_id": "1.2",
+  "title": "核形状指哪一种对象",
+  "created_at": "2026-11-08",
+  "status": "research-draft-complete",
+  "filled_contract": "F01",
+  "source_inputs": [
+    {
+      "source_id": "bohr-1952-surface-particle-coupling",
+      "source_page": "knowledge/sources/bohr-1952-surface-particle-coupling.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-1952-mfm26-14.pdf",
+      "raw_sha256": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d",
+      "actual_read_pages": "printed pp. 9–13, 19–21 (PDF idx 8–12, 18–20)",
+      "claims_supported": [
+        "Bohr集体坐标变换：将实验室5个四极参数alpha_mu正交变换为主轴系3个欧拉角theta_i与2个固有形状参数(beta, gamma)",
+        "动能分离为形状振动能量与转动能量，推导出转动惯量J_kappa形式",
+        "主轴坐标系取向的多值性导致波函数在24种离散坐标变换下必须保持不变（D2h点群对称性）",
+        "对于自旋为0的量子态，波函数完全独立于欧拉角，其在gamma上的依赖性严格为cos(3*gamma)的单值函数"
+      ]
+    },
+    {
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "source_page": "knowledge/sources/cline-1986-nuclear-shapes-coulomb-excitation.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "raw_sha256": "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113",
+      "actual_read_pages": "printed pp. 698–700 (PDF idx 15–17)",
+      "claims_supported": [
+        "电四极旋转不变量法：构造零耦合标量算符乘积P2, P3及其在主轴坐标系下的表象",
+        "利用中间态展开将不变量期望值表示为实验可测约化矩阵元网络的完备求和（式698）",
+        "三次不变量明确依赖于激发态之间的跃迁矩阵元以及静态重取向矩阵元和相对代数相位",
+        "高阶不变量耦合恒等式依赖于电四极算符的可交换性",
+        "非能量加权求和规则（NEWSR）在低能态呈现高度饱和（70%–95%），低能模式与高频巨四极共振（GQR）弱耦合分离",
+        "明确实验认知边界：多步库仑激发约束离散低能E2矩阵元网络，不等于直接三维电荷密度连续断层扫描重构"
+      ]
+    },
+    {
+      "source_id": "poves-2020-limits-assigning-nuclear-shape",
+      "source_page": "knowledge/sources/poves-2020-limits-assigning-nuclear-shape.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/poves-2020-limits-assigning-nuclear-shape.pdf",
+      "raw_sha256": "ca188d5b2ac257edb8f616b2a055d2bd488f29d5d136baf540753ea049edf21a",
+      "actual_read_pages": "arXiv:1906.07542v2, PDF pp. 2–3 (Section II Eqs. 3–14, Section III Eqs. 15–16, Table I)",
+      "claims_supported": [
+        "四阶、五阶与六阶高阶旋转不变量算符定义（Q^4, Q^5, Q^6）及Lanczos投影门态算法",
+        "四极形变相对涨落sigma(q2)/<q2>的定义与物理意义",
+        "cos(3*gamma)方差公式包含由五阶不变量给出的二阶矩与三阶矩协方差项",
+        "Elliott SU(3)刚性代数极限下相对涨落严格为零，强形变核（20Ne, 24Mg）相对涨落约24%，内禀形状定义良好",
+        "双闭壳与近闭壳核基态（34Si, 68Ni）的相对涨落大于100%（分别为1.07与1.10），赋予单一内禀形状几何语言彻底失效"
+      ]
+    },
+    {
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "source_page": "knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "actual_read_pages": "printed pp. 29–30 (PDF pp. 44–45, Section 2.2 The Wigner–Eckart Theorem, Section 2.2.1 Immediate Consequences)",
+      "claims_supported": [
+        "Wigner–Eckart定理标准相位约定与球张量算符约化矩阵元分解",
+        "Clebsch–Gordan选择定则与三角条件Delta(j, L, j')的严格要求",
+        "对于I < 1（特别地I=0与I=1/2）量子态，三角条件Delta(I, 2, I)不成立，对角一阶静电四极矩Qs严格为零"
+      ]
+    }
+  ],
+  "notations_and_conventions": {
+    "q2": "q_2 \\equiv \\sqrt{5} \\langle [M(E2) \\times M(E2)]^0 \\rangle = \\langle Q^2 \\rangle, 单位 e^2 fm^4",
+    "q3": "q_3 \\equiv -\\sqrt{35/2} \\langle [[M(E2) \\times M(E2)]^2 \\times M(E2)]^0 \\rangle = \\langle Q^3 \\cos(3\\gamma) \\rangle, 单位 e^3 fm^6（Cline原文使用delta，本稿映射为gamma以与后文光子混合比delta严格区分）",
+    "cubic_invariant_rule": "q_3本身即是三次相干不变量，绝对不能写为q_3^3，定义严格包含cos(3*gamma)且不任意更改正负号",
+    "cos3gamma_eff_warning": "q_3 / q_2^(3/2)是复合加权统计量而非无权几何平均<cos 3gamma>，未验范围不可随意取arccos反演绝对三轴角",
+    "charge_vs_mass": "一般电荷四极不等于eZ/A乘质量四极，比例近似须明确声明微观或唯象假设；电荷形状由质子电荷网络及有效电荷定义；物质形状包含全体核子强相互作用分布；微观模型通过等标/等矢因子与核芯极化对齐",
+    "cognitive_scaffolding": "经典长时间曝光圆影类比仅作认知辅助脚手架，单个孤立定态绝不等同于暗中旋转的经典刚体椭球"
+  },
+  "competing_explanations_and_boundaries": {
+    "zero_quadrupole_moment": "偶偶核0+基态一阶Qs=0来自旋转对称性与三角定则，不等于刚性球体；二阶标量积展开展示多体强相关性",
+    "rigidity_misconception": "大q2或跃迁强度超过Weisskopf单粒子参考值不能作为证明刚性形状的充分判据；谐振子双声子态、形状共存离散混合与gamma软势面涨落同样可诱导大矩阵元",
+    "coulex_boundary": "多步库仑激发测量的是低激发能区有限离散E2矩阵元网络，不直接等于三维连续电荷密度断层扫描重构"
+  },
+  "reader_checks": [
+    {
+      "question": "偶偶核0+基态在实验室测得的静电四极矩Qs为何严格为零？增加哪一类实验可观测量才能打破球对称的假象？",
+      "answer": "由Wigner-Eckart定理中角动量三角定则Delta(0, 2, 0)禁止二阶张量非零对角矩所致。必须测量二阶及以上旋转标量不变量（如包含向2+态跃迁的B(E2)强度以及2+激发态之间的非对角/对角跃迁矩阵元网络），才能提取核子内部相干四极空间关联。"
+    },
+    {
+      "question": "微观壳模型计算表明34Si和68Ni基态形变相对涨落sigma(q2)/<q2>大于100%，这一结论对核形状几何描述意味着什么？",
+      "answer": "意味着波函数在形变势面上极度弥散，不存在定位良好的平衡形变极小值。在此类状态下，赋予原子核一个确定的有效内禀几何参数(beta, gamma)完全失去了物理意义，其大q2本质上是大振幅零点振动或组态混合的统计表现。"
+    }
+  ],
+  "interfaces_for_subsequent_sections": {
+    "section_2_1": "从Bohr 1952微分几何出发，严格推导Pauli–Podolsky量子化动能算符、内部体积元dtau_0 = beta^4 |sin 3gamma| dbeta dgamma，以及D2h点群波函数边界条件",
+    "section_2_4": "严格推导Kumar–Cline多极不变量代数恒等式、算符非对易性对高阶矩的影响、非能量加权求和规则的收敛性与巨四极共振截断解耦条件，以及GOSIA程序中的矩阵元网络反演"
+  },
+  "unknowns_and_open_questions": [
+    "库仑激发实验中对更高激发能级和未探测弱级联衰变分支的截断截断对高阶矩（四阶及以上）带来的系统不确定度评估",
+    "在远离稳定线的极端丰中子区，价中子晕或皮结构与核芯质子分布在空间四极形变上的去耦合微观机制"
+  ]
+}

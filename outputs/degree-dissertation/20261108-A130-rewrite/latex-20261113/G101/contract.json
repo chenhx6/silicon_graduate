@@ -1,0 +1,92 @@
+{
+  "task_id": "G101",
+  "agent_id": "01a1d4a1-c1d0-76d1-9ea4-f16c26f8873c",
+  "model": "antigravity/gemini-3.8-flash-tiered",
+  "effort": "high",
+  "state": "ready",
+  "task": "Prepare final AppendixF and19figure provenance manifests in staging only; canonical files parent locked until allscience accepted.",
+  "depends_on": "Existing acceptedF model/CSVcontract; actual final hashes of changing5.7/5.8/4.7figures refresh once after writers handoff.",
+  "isolation": "protocol-only exact staging prefix",
+  "read_paths": [
+    "canonicalAppendixF",
+    "Img/figure-manifest.json",
+    "all19referencedPDF/SVG",
+    "corresponding system/scripts/a130_*figure*.py",
+    "3CSVfiles listed inF",
+    "acceptedE controls and currentlifetimeconvergence control"
+  ],
+  "write_paths": [
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G101"
+  ],
+  "canonical_writes": false,
+  "publish": false,
+  "figure_references": {
+    "Img/shape-moments.pdf": [
+      "sec-1-2"
+    ],
+    "Img/six-region-map.pdf": [
+      "sec-1-4"
+    ],
+    "Img/chapter-dependency.pdf": [
+      "sec-1-5"
+    ],
+    "Img/occupancy-centroids.pdf": [
+      "sec-2-2"
+    ],
+    "Img/gamma-measure.pdf": [
+      "sec-2-4"
+    ],
+    "Img/mode-mixing-avoided-crossing.pdf": [
+      "sec-3-6"
+    ],
+    "Img/joint-predictions-workflow.pdf": [
+      "sec-3-8"
+    ],
+    "Img/orientation-comparison-modes.pdf": [
+      "sec-4-4"
+    ],
+    "Img/br-as-network-topology.pdf": [
+      "sec-4-5"
+    ],
+    "Img/seniority-node-accessibility.pdf": [
+      "sec-4-6"
+    ],
+    "Img/weak-cascade-competition.pdf": [
+      "sec-4-7"
+    ],
+    "Img/environment-network-pathways.pdf": [
+      "sec-4-8"
+    ],
+    "Img/inference-profile-likelihood-boundary.pdf": [
+      "sec-5-10"
+    ],
+    "Img/detector-response-simulation.pdf": [
+      "sec-5-2"
+    ],
+    "Img/digital-energy-response.pdf": [
+      "sec-5-3"
+    ],
+    "Img/cfd-phase-convergence.pdf": [
+      "sec-5-4"
+    ],
+    "Img/coincidence-level-scheme-model.pdf": [
+      "sec-5-6"
+    ],
+    "Img/angular-branch-delta-likelihood.pdf": [
+      "sec-5-7"
+    ],
+    "Img/lifetime-response-rdds-dsam.pdf": [
+      "sec-5-8"
+    ]
+  },
+  "acceptance": [
+    "LaTeXcontinuousreadableF; noMarkdownmanuscript",
+    "all19pair actualhash/producermapping and honestparameters/boundaries",
+    "keep3CSVactualrows/columns/sizes/SHAfromrealbytes",
+    "displayphenomenologicalspectra vsnormalizedpdf separated",
+    "newcontrols arefinitealgorithmsnotmeasurements",
+    "recordpendingmutablefigures scopeexplicitly",
+    "no regenerating plots or pulling writerstaging overcanonical",
+    "returnstagingFtex/manifestjson/appendixFledgerjson/receipt; parent appliesafteraudit"
+  ]
+}

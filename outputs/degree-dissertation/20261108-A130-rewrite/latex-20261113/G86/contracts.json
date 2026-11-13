@@ -1,0 +1,386 @@
+{
+  "executor": "G86 (Gemini Tiered/high)",
+  "timestamp": "2026-11-13T12:15:00+00:00",
+  "batch": 1,
+  "scope": [
+    "4.1",
+    "4.2",
+    "4.3"
+  ],
+  "contract_status": "corrected-and-verified-awaiting-parent-acceptance",
+  "execution_domain": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G86/",
+  "staging_files": {
+    "contracts_file": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G86/contracts.json",
+    "new_references_bib": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G86/new-references.bib",
+    "staging_dir": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G86/staging/"
+  },
+  "canonical_targets": {
+    "section_4_1_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-1.tex",
+    "section_4_2_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-2.tex",
+    "section_4_3_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-3.tex",
+    "section_4_1_ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-1.json",
+    "section_4_2_ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-2.json",
+    "section_4_3_ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-3.json"
+  },
+  "prohibitions_strictly_obeyed": [
+    "绝对不修改公共包装文件（Thesis.tex, Chapter4.tex, Style/*, Biblio/ref.bib 等），新增Bib条目仅通过G86/new-references.bib交付G76集中集成",
+    "绝对不触碰其他writer工作目录（G84, G85, G81, G79等），绝对不修改根目录PLAN.md、system/memory.md、system/handoff.md",
+    "绝对不执行任何git commit或git push，恪守工作树隔离协议",
+    "绝对不触碰用户PADO等无关未跟踪文件",
+    "正文绝不虚构个人测量数据、定量阈值、新实验点或未观测能级",
+    "4.1节严禁把质量数A或单一gamma参数作为孤立排他决定因素，必须完整声明比较对象、对称性、占据、配对、gamma软刚分布、自旋窗口、可观测算符、形成选择与可迁移/不可迁移条件合同",
+    "4.2节用有原件的60/80具体案例严格区分多极值形状共存与单极小软势；严禁将理论计算列中的静四极矩当作实验实测值（如64Ge Table I）；与74As/78Br手征-反射联立破缺严格接口，不越界抢写4.5节内容",
+    "4.3节以本地优先核实98Mo/102Ru/Ding2025原件，严禁将交错参数S(I)符号单独宣布为刚性/软性排他证明，严禁将IBM O(6)极限生搬硬套到整个A~100区，严禁将低能NRF偶极响应直接认证为高自旋手征四重带"
+  ],
+  "sections": {
+    "4.1": {
+      "section_id": "4.1",
+      "title": "同一个问题怎样跨核区比较",
+      "section_label": "sec:4-1",
+      "reader_starting_point": "读者在第1章（尤其是1.4节六区坐标）建立了比较宏观视野，在第2章掌握了微观壳结构、配对、形状坐标投影与有效算符，在第3章理解了转动、手征与摆动等集体运动模式。当读者进入第4章面对跨核区现象时，极易产生一种朴素直觉：既然不同核区都报告了‘三轴性’、‘带交叉’或‘形状共存’，是否可以根据质量数A或某个唯象参数（如E(2+_2)/E(2+_1)或gamma）直接类比甚至断言相同机制？",
+      "central_question": "在跨越不同质量区比较原子核低能结构时，如何确立严谨的比较科学合同？为什么绝不能把质量数A或单一的gamma参量作为决定物理模式的排他因素？哪些物理量、对称性与微观机制是可迁移的，哪些参数与壳结构边界是不可自由迁移的？",
+      "predecessor_sections": [
+        "1.4",
+        "2.1",
+        "2.2",
+        "2.3",
+        "2.4",
+        "2.6",
+        "2.7",
+        "3.1",
+        "3.5"
+      ],
+      "successor_sections": [
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5",
+        "4.6",
+        "4.7",
+        "4.8"
+      ],
+      "subsections_blueprint": [
+        {
+          "id": "4.1.1",
+          "title": "比较对象、内禀组态与实验室对称性",
+          "label": "sec:4-1-1",
+          "core_argument": "明确跨核区比较的实体是具体的内部多体组态、形变参考态及其在实验室系通过角动量投影恢复SO(3)对称性后的实际态与跃迁网络，而非泛称的元素名或质量区间。区分平均场内禀对称性破缺与有限多体量子叠加。"
+        },
+        {
+          "id": "4.1.2",
+          "title": "单极占据演化与配对微观响应",
+          "label": "sec:4-1-2",
+          "core_argument": "比较轨道占据与微观动力学：费米面所处高j独特宇称轨道（如A~80的1g9/2，A~130的1h11/2）是产生形变驱动的核心；单极相互作用驱动ESPE演化（Otsuka Type-I/II）；单极配对力导致两流体流动与惯量大幅削减（Inglis-Belyaev vs 刚体），高自旋阻塞与对拆裂的跨区差异。"
+        },
+        {
+          "id": "4.1.3",
+          "title": "形变空间测度、γ软刚性质与高阶形状不变量",
+          "label": "sec:4-1-3",
+          "core_argument": "澄清gamma自由度的刚性极小（Davydov-Filippov，局域深阱）与gamma软性（Wilets-Jean / 5DCH，沿gamma方向平坦势能面）的本质区别。说明单一能级比或交错度存在简并，必须依赖Kumar-Cline高阶电四极不变量<Q^2>与<Q^3 cos 3delta>及涨落sigma(delta)进行模型无关判定。"
+        },
+        {
+          "id": "4.1.4",
+          "title": "实验探针、自旋窗口与截面选择定则",
+          "label": "sec:4-1-4",
+          "core_argument": "分析不同实验探针（库仑激发、在束重离子熔合蒸发、深部非弹性散射、自发裂变、beta衰变、NRF光核反应）对自旋窗口、激发能量和衰变路径的选择定则。指出低自旋高精度探针与高自旋转动带探针各自的灵敏度界限。"
+        },
+        {
+          "id": "4.1.5",
+          "title": "可迁移与不可迁移条件的科学合同",
+          "label": "sec:4-1-5",
+          "core_argument": "正式建立跨区比较合同：可迁移者为普适量子几何、不可约张量代数（Racah/Wigner-Eckart）、多极电磁跃迁率物理法则与模型无关不变量方法；不可迁移者为有效单粒子能级、微观有效电荷、唯象相互作用参数、惯性参数数值及模型拟合系数。给出六区比较框架总表，严谨区分‘未见’、‘未搜索’、‘不稳定’与‘灵敏度不足’四类边界。"
+        }
+      ],
+      "verified_sources_and_locators": [
+        {
+          "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+          "canonical_source": "D. Cline, Annu. Rev. Nucl. Part. Sci. 36, 683 (1986)",
+          "required_locators": "pp. 688-693: Kumar-Cline四极几何不变量<Q^2>与<Q^3 cos 3delta>定义、质心系坐标与多步库仑激发模型无关提取"
+        },
+        {
+          "source_id": "poves-2020-limits-assigning-nuclear-shape",
+          "canonical_source": "A. Poves, F. Nowacki, and Y. Alhassid, Phys. Rev. C 101, 054307 (2020)",
+          "required_locators": "pp. 2-5: 实验室球对称态与内禀形状涨落分布的关系，形状分配的理论边界"
+        },
+        {
+          "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+          "canonical_source": "A. Bohr and B. R. Mottelson, Nuclear Structure, Vol. II (1975)",
+          "required_locators": "Ch. 4, pp. 64-135: 轴对称与三轴形变转子转动能谱、惯量张量与电磁多极约化跃迁几率"
+        },
+        {
+          "source_id": "book-suhonen-from-nucleons-to-nucleus",
+          "canonical_source": "J. Suhonen, From Nucleons to Nucleus (Springer, 2007)",
+          "required_locators": "pp. 29-30, 118-121: Wigner-Eckart定理张量约化矩阵元标准相位约定、跃迁几率与多极算符定义"
+        },
+        {
+          "source_id": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+          "canonical_source": "T. Otsuka, Physics 4, 258 (2022) / 2023",
+          "required_locators": "pp. 260-268: 单极相互作用驱动的单粒子能量漂移与Type-I/II壳演化机制"
+        }
+      ],
+      "existing_bib_keys": [
+        "cline-1986-nuclear-shapes-coulomb-excitation",
+        "poves-2020-limits-assigning-nuclear-shape",
+        "book-bohr-mottelson-nuclear-structure-vol2",
+        "book-suhonen-from-nucleons-to-nucleus",
+        "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+        "doctoral-r1-g26-starosta-2007-64ge-rdm-e2",
+        "doctoral-r1-g27-clement-2007-prc-krypton-coulex",
+        "doctoral-r1-g28-togashi-2016-zr-mcsm-qpt"
+      ],
+      "new_bib_keys": [],
+      "prohibitions_strictly_obeyed": [
+        "严禁将角动量投影试探态等同于真实核态必然精确，明确有限核中多构型叠加与GCM/多参考EDF物理图像",
+        "严禁使用IB惯量普遍为刚体1/3到1/2等虚假普适界或强不等号，严格回链2.6.3冻结场响应",
+        "严禁重造单极漂移孤立标量公式，严格回链2.2.1的微观张量力与自旋-同位旋单极展开",
+        "严禁宣称低阶矩可唯一决定连续gamma分布或设定任何刚性阈值门槛，严格回链2.1/2.4不变量求和截断误差",
+        "严禁将高自旋反应称为唯一通道，严禁将绝对跃迁测量局限于DSAM/RDDS，涵盖库激大自旋及超快计时等互补探针",
+        "严禁将光谱因子S_j称为直接测量的投影振幅，明确反应截面才是观测量，S_j高度依赖反应模型与碎片求和窗口（Duguet边界）",
+        "严禁在TeX正文中使用Markdown粗体**语法",
+        "严禁在TeX正文中使用'严格科学合同'等内部治理词汇，改为'比较方法与物理判据'",
+        "严禁给出无直接来源的能级求和猜想，准确表述Davydov-Filippov刚性转子(gamma=30度)与Wilets-Jean软核在能级比2.5处的简并"
+      ]
+    },
+    "4.2": {
+      "section_id": "4.2",
+      "title": "轻区与A80的形状混合",
+      "section_label": "sec:4-2",
+      "reader_starting_point": "读者通过4.1节掌握了跨区比较的共同合同与形状不变量方法。在A~60与A~80区域（如Ge, Ni, Kr同位素），文献中频繁出现‘剧烈形状共存’、‘反转侵入态’与‘三轴形变’的报道。读者面临的核心疑惑是：能谱上出现低激发0^+态或交错带，究竟是真正存在两个以上不同形变势阱的‘构型共存与混合’，还是仅仅源于一个浅而平坦的大振幅gamma软势？实验上哪些独立观测量能够彻底破除这种能谱简并？",
+      "central_question": "怎样在A~60与A~80核区从实验数据中严格区分多极值形状共存与单极小宽涨落软势？电单极跃迁强度rho^2(E0)、同位素位移均方电荷半径、静四极矩Qs符号网络与双核子转移反应各自提供了哪些破除能谱退化的决定性约束？",
+      "predecessor_sections": [
+        "1.4",
+        "2.2",
+        "2.4",
+        "2.7",
+        "4.1"
+      ],
+      "successor_sections": [
+        "4.3",
+        "4.5"
+      ],
+      "subsections_blueprint": [
+        {
+          "id": "4.2.1",
+          "title": "两态与多态混合模型：能谱简并与物理可观测量",
+          "label": "sec:4-2-1",
+          "core_argument": "建立两态混合严格代数公式：未微扰基态与激发基态|0_A>, |0_B>通过矩阵元V混合为物理态|0_1>, |0_2>。推导电单极跃迁单粒子约化强度rho^2(E0)与混合角theta的关系，证明仅凭能量间距不能唯一定出混合强度，强E0跃迁是电荷径向分布差异构型混合的最直接指纹。"
+        },
+        {
+          "id": "4.2.2",
+          "title": "68Ni与64Ge：次闭壳破缺、反冲距离寿命与形状证据边界",
+          "label": "sec:4-2-2",
+          "core_argument": "以68Ni（Crider 2016）为例，分析Z=28闭壳与N=40次闭壳处的典型三形状共存（球形0_1^+、长椭0_2^+ 1605 keV、扁椭0_3^+ 2511 keV），说明极强rho^2(E0)与被阻碍的E2跃迁如何打破能谱退化。以64Ge（Starosta 2007）为例，分析敲出反应+RDM测定的2_1^+寿命tau=2.4(7) ps与强B(E2)，特别指出原件Table I中的静四极矩Q(2_1^+)属于理论计算列而非实验实测，集体性强绝不等于形状共存已被实验证实。"
+        },
+        {
+          "id": "4.2.3",
+          "title": "74,76,78Kr：多步库仑激发、静四极矩符号与长扁反转",
+          "label": "sec:4-2-3",
+          "core_argument": "以Clement等（2007）多步库仑激发重离子实验为案例，剖析74,76Kr中数十个E2跃迁矩阵元与对角静四极矩Qs(2_1^+), Qs(2_2^+)的网络反演。证实74Kr基态发生长扁反转（扁椭基态与低激发长椭构型强烈混合），而76Kr基态为长椭构型主导。静四极矩正负符号的直接测定提供了破除能谱退化的关键物理判据。"
+        },
+        {
+          "id": "4.2.4",
+          "title": "72,74,76Ge：刚性三轴 vs 软势竞争与Kumar-Cline不变量提取",
+          "label": "sec:4-2-4",
+          "core_argument": "以Ayangeakaa等（2019）GRETINA+CHICO2实验为案例，展示76Ge中如何通过模型无关的四极不变量<Q^2>与<cos 3delta>及涨落sigma(delta)确定刚性三轴形变特征；对比72Ge中低于第一2^+态的0_2^+侵入态（691 keV vs 834 keV）及极强E0跃迁，揭示Ge同位素链从低能形状共存向稳定三轴转动的演化。"
+        },
+        {
+          "id": "4.2.5",
+          "title": "与奇奇核（74As与78Br）的物理接口界定",
+          "label": "sec:4-2-5",
+          "core_argument": "明确本节与4.5节的分工接口：本节仅讨论轻区奇奇核中价质子与价中子（如pi 1g9/2与nu 1g9/2或负宇称轨道）占据对偶偶核芯形状的极化效应与低能组态混合；关于74As与78Br手征双重带与八极反射不对称四重带的联立破缺论证留待4.5节展开，本节不越界做前置断言。"
+        },
+        {
+          "id": "4.2.6",
+          "title": "A≈60奇奇核手征探索与残余质中力：Ding 2025与能级交错参数反思",
+          "label": "sec:4-2-6",
+          "core_argument": "以Ding等（2025 CPC）关于A≈60（60Ni/Co同位素）的微观PRM研究为依据，探讨轻区由于价轨道较少、自旋窗口有限时残余质中力V_pn对准粒子对齐和集体转动的强烈重整化效应。推导交错参数S(I)=[E(I)-E(I-1)]/2I在微观V_pn调节下的符号演化，阐明在轻区与中重区不能单凭S(I)符号判定三轴刚性与伽马软核的排他性。"
+        }
+      ],
+      "verified_sources_and_locators": [
+        {
+          "source_id": "doctoral-r1-g26-starosta-2007-64ge-rdm-e2",
+          "canonical_source": "K. Starosta et al., Phys. Rev. Lett. 99, 042503 (2007)",
+          "raw_file": "raw/papers/gpt/query/20261108-foundations-G26/starosta-2007-64ge-rdm-e2.pdf",
+          "raw_sha256": "715a4c8ada9a6e4bcc2be1df8c845e680d81b6f0c4f91bf70931fe7b10592ad8",
+          "required_locators": "PDF 1-3, Table I: 64Ge敲出反应RDM寿命tau=2.4(7) ps, B(E2; 0_1^+ -> 2_1^+)=420(120) e^2 fm^4; Table I的静四极矩位于理论列（GXPF1A与非谐模型），严禁当作实验测定"
+        },
+        {
+          "source_id": "crider-2016-68ni-shape-coexistence",
+          "canonical_source": "B. P. Crider et al., Phys. Lett. B 763, 108 (2016)",
+          "raw_file": "raw/papers/gpt/query/20261108-foundations-G26/crider-2016-68ni-shape-coexistence.pdf",
+          "raw_sha256": "923ce537b505cecd49cdf75901bdd1be76896da0326ce29e8b049f10143d4b28",
+          "required_locators": "PDF 108-113, Table 1, Fig. 2: 68Ni 0_2^+ 1605 keV, 0_3^+ 2511 keV寿命与分支比测定，rho^2(E0)与两态混合模型三形状共存"
+        },
+        {
+          "source_id": "ayangeakaa-2019-rigid-triaxial-ge76",
+          "canonical_source": "A. D. Ayangeakaa et al., Phys. Rev. Lett. 123, 102501 (2019)",
+          "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/ayangeakaa-2019-rigid-triaxial-ge76.pdf",
+          "raw_sha256": "fd549c59e62774b43690a8ae3b5c4bf638982f6c9b888dd0f0aba83b3993b733",
+          "required_locators": "PDF 1-6, Table I, Fig. 2: 76Ge多步库仑激发提取Kumar-Cline四极几何不变量<Q^2>与<cos 3delta>及涨落sigma(delta)，证实刚性三轴形变特征"
+        },
+        {
+          "source_id": "doctoral-r1-g27-clement-2007-prc-krypton-coulex",
+          "canonical_source": "E. Clement et al., Phys. Rev. C 75, 054313 (2007)",
+          "raw_file": "raw/papers/gpt/query/20261108-foundations-G27/clement-2007-74kr-76kr-coulex-prc.pdf",
+          "raw_sha256": "2ee6c7be8a2fbb72a9f647a0c284181b2fc197e167381be67685f3a15018c0e8",
+          "required_locators": "PDF 1-17, Table IV, VI, Figs. 10-14: 74,76Kr放射性与稳定束多步库仑激发，长扁两态混合模型，对角静四极矩Qs(2_1^+)符号证实74Kr扁椭基态反转与76Kr长椭基态"
+        },
+        {
+          "source_id": "liu-chen-2016-78br-chirality-reflection-symmetry-thesis",
+          "canonical_source": "刘晨, 北京大学博士学位论文 (2016)",
+          "raw_file": "raw/papers/gpt/query/20261108-foundations-G27/liu-chen-2016-78br-thesis.pdf",
+          "required_locators": "PDF 78-82, 90: 78Br实验能级图与奇奇核价核子组态接口，作为与4.5节分工边界"
+        },
+        {
+          "source_id": "ding-2025-chiral-rotation-a60-residual-interactions",
+          "canonical_source": "G. L. Ding et al., Chin. Phys. C 49, 074101 (2025)",
+          "raw_file": "raw/papers/Exploring chiral rotation in A ≈ 60 nuclei  Role of residual interactions.pdf",
+          "raw_sha256": "5264bd9192b988021d2ee21f2861bce80f2f7ac04ba26f04ea3f0e8125be599e",
+          "required_locators": "PDF 2-9 / CPC 49 (2025) 074101 pp. 1-8: PRM模型中V_pn对A≈60手征带能量与跃迁的调节，交错参数S(I)演化及微观机制"
+        }
+      ],
+      "existing_bib_keys": [
+        "doctoral-r1-g26-starosta-2007-64ge-rdm-e2",
+        "doctoral-r1-g27-clement-2007-prc-krypton-coulex",
+        "liu-chen-2016-78br-chirality-reflection-symmetry-thesis"
+      ],
+      "new_bib_keys": [
+        "crider-2016-68ni-shape-coexistence",
+        "ayangeakaa-2019-rigid-triaxial-ge76",
+        "ding-2025-chiral-rotation-a60-residual-interactions"
+      ],
+      "prohibitions_strictly_obeyed": [
+        "严禁将二手笔记中的+0.59与-0.57错误数值套入74,76Kr，严格按Clément 2007原件PDF 11 Table VI (76Kr Qs=-0.7(2) eb)与PDF 15 Table XI (74Kr Qs=-0.53(+0.24/-0.23) eb)报告，严禁将2+静矩等同于0+基态矩",
+        "严禁将Crider 2016 68Ni 0_3态夸大为纳秒长寿命强E0，严格按Table 1报告其半衰期为0.57(5) ns，E2退激占>98.1%，E0向基态仅为上限",
+        "严禁将Ayangeakaa 2019 76Ge的sigma弥散度作为绝对刚性阈值门槛，严格回链2.4节截断误差与模型约束性质",
+        "严禁将Ding 2025关于奇奇转动带能级间隔S(I)=[E(I)-E(I-1)]/2I与偶偶gamma带二阶差分交错参数混淆，严禁将该文理想PRM理论计算写成已发现物理实测能带",
+        "严禁将Starosta 2007 64Ge Table I理论列中的静四极矩当作实验实测值",
+        "严格与4.5节74As/78Br手征-反射多重带划分分工接口，引用刘晨博士论文第90页关于实验数据有限尚无定论的客观声明"
+      ]
+    },
+    "4.3": {
+      "section_id": "4.3",
+      "title": "A100的急变、软性与低能响应",
+      "section_label": "sec:4-3",
+      "reader_starting_point": "读者在4.2节理解了A~60与A~80区域中的形状共存与多步库仑激发判据。进入A~100核区时，读者往往受到教科书中两类经典范式的强烈影响：一是Zr同位素在N=56到N=60处的‘突发量子相变’，二是将该区域广泛视作相互作用玻色子模型（IBM）O(6) gamma软对称性极限的标准范例。同时，近期文献在奇奇核与偶偶核中广泛报道了手征候选与偶极/八极响应。读者需要澄清：A~100区内部的N与Z非均质性究竟如何体现？为什么绝不能将O(6)极限生套全区，也不能单凭交错参数S(I)的符号宣布刚性/软性排他？低能NRF偶极探针与高自旋转动带之间存在怎样的证据界限？",
+      "central_question": "A~100核区形状演化的微观根源是什么？质子与中子亚壳演化怎样造成质量区内的严重非均质性？在98Mo与102Ru等具体核中，低能电偶极、八极与剪刀振动响应如何被实际观测所约束？为什么低能NRF反应不能直接充当高自旋手征四重带的认证证据？",
+      "predecessor_sections": [
+        "1.4",
+        "2.2",
+        "2.6",
+        "2.7",
+        "3.5",
+        "4.1"
+      ],
+      "successor_sections": [
+        "4.4",
+        "4.5",
+        "4.6"
+      ],
+      "subsections_blueprint": [
+        {
+          "id": "4.3.1",
+          "title": "Zr同位素链的一阶形状量子相变与Type-II壳演化",
+          "label": "sec:4-3-1",
+          "core_argument": "采用Togashi等（2016 PRL）大规模MCSM计算与Singh等（2018 PRL）98Zr RDDS寿命测量原件，剖析Zr链从90-96Zr球形闭壳到100Zr超大形变长椭球（beta_2约0.4）的微观机理。推导质子1g9/2与中子高j轨道间强烈的单极张量及自旋-同位旋吸引，阐明Type-II壳演化驱动的形变占据自强化反馈。"
+        },
+        {
+          "id": "4.3.2",
+          "title": "质量区内N与Z的非均质性：从Zr到Mo、Ru的势能演化与IBM O(6)极限适用边界",
+          "label": "sec:4-3-2",
+          "core_argument": "纠正将整个A~100区均质化为IBM O(6)伽马软对称性极限的简单化倾向。比较Z=40(Zr), Z=42(Mo), Z=44(Ru)随质子数增加引起的费米面提升与有效单粒子能级漂移，证明从陡峭双势阱相变向宽平坦伽马软势与三轴转动的非均质演化路径。"
+        },
+        {
+          "id": "4.3.3",
+          "title": "98Mo的低能结构与形状共存：0_2^+态性质、E0单极跃迁与八极关联初探",
+          "label": "sec:4-3-3",
+          "core_argument": "以Thomas等（2016 NPA）与Chen & Singh（2020 NDS）为实测基准，辅以Karmakar等（2025）八极探索，深入分析98Mo中紧贴第一2_1^+态（787 keV）的第二0_2^+态（736 keV）。核查rho^2(E0)电单极强度与衰变分支比，严格区分四极形状共存与多声子振动激发。"
+        },
+        {
+          "id": "4.3.4",
+          "title": "102Ru的核共振荧光测量：M1剪刀模与E1八极共振的共存",
+          "label": "sec:4-3-4",
+          "core_argument": "以Saracino等（2026 PRL原件及补充材料）为核心依据，详细分析102Ru在2-4 MeV区间的光核共振荧光（NRF）测量结果。展示绝对跃迁宽度Gamma_0、B(M1)与B(E1)的激发分布，确证低能等矢M1剪刀振动模式与八极共振在同一原子核中的物理共存。"
+        },
+        {
+          "id": "4.3.5",
+          "title": "不同物理尺度响应的严格解耦：低能γ软性、剪刀模与八极激发不可混同",
+          "label": "sec:4-3-5",
+          "core_argument": "确立核心认识论边界：低能伽马软性（几百keV尺度的四极表面低自旋集体波函数弥散）、剪刀模式（2-3 MeV尺度的质子-中子两流体磁偶极角向振荡）与八极共振（负宇称反射不对称表面电八极关联与粒子-空穴激发）属于截然不同的物理能量尺度、多极序参量与内部自由度。一核中多模式可以共存，但绝不能混为同一种简并序参量；低能偶极NRF测量严格受限于自旋1态的选择定则，绝不能直接等同于高自旋手征四重带或转动摆动模式的证实。"
+        }
+      ],
+      "verified_sources_and_locators": [
+        {
+          "source_id": "doctoral-r1-g28-togashi-2016-zr-mcsm-qpt",
+          "canonical_source": "T. Togashi et al., Phys. Rev. Lett. 117, 172502 (2016)",
+          "raw_file": "raw/papers/gpt/query/20261108-foundations-G28/togashi-2016-zr-qpt.pdf",
+          "raw_sha256": "f43431ebad67addfbefb521eed14c43f152fe5221ccc0d995d69a3d5aaa7b3e9",
+          "required_locators": "PDF 1-5, Figs. 1-4: Zr同位素N=56到N=60急剧相变，MCSM计算揭示Type-II壳演化中质子1g9/2与中子高j轨道自旋-同位旋单极力反馈"
+        },
+        {
+          "source_id": "doctoral-r1-g28-singh-2018-98zr-lifetimes",
+          "canonical_source": "V. Singh et al., Phys. Rev. Lett. 121, 192501 (2018)",
+          "raw_file": "raw/papers/gpt/query/20261108-foundations-G28/singh-2018-98zr-coexisting-shapes.pdf",
+          "raw_sha256": "37f2d5ee16f799feb66617787d45d25c4f3e0cb4f0f996689a0576811c5a05e3",
+          "required_locators": "PDF 1-6, Table I, Fig. 3: 98Zr能级寿命RDDS测量，0_2^+与高自旋态寿命，证实球形与长椭构型共存"
+        },
+        {
+          "source_id": "thomas-2016-96-98mo-coexistence",
+          "canonical_source": "T. Thomas et al., Nucl. Phys. A 947, 203 (2016)",
+          "raw_file": "raw/papers/gpt/query/20261107-continuation-G17/thomas-2016-96-98mo-coexistence.pdf",
+          "raw_sha256": "1479836585e8d85f5244585c5b96495bf41f43fc1638848d1e21b212f4581f1c",
+          "required_locators": "PDF 203-233, Table 2, Figs. 3, 5: 98Mo能级图、0_2^+ 736 keV寿命、分支比、rho^2(E0)与混合对称态模型比较"
+        },
+        {
+          "source_id": "chen-singh-2020-nds-98mo",
+          "canonical_source": "J. Chen and B. Singh, Nucl. Data Sheets 164, 1 (2020)",
+          "raw_file": "raw/papers/gpt/query/20261107-continuation-G17/nds-2020-chen-singh-98mo-adopted.pdf",
+          "raw_sha256": "f98dc0ebd7a111083492fd25710268093d37c40bc45b33b1507704428d8c9bf6",
+          "required_locators": "PDF 1-15: 98Mo推荐能级（Adopted Levels and Gammas），736 keV 0_2^+、787 keV 2_1^+态半衰期与跃迁分支比"
+        },
+        {
+          "source_id": "saracino-2026-102ru-scissors-octupole-resonances",
+          "canonical_source": "A. Saracino et al., Phys. Rev. Lett. 136, 252501 (2026)",
+          "raw_file": "raw/papers/Low-Energy Dipole Strength Distribution in ¹⁰²Ru Coexistence of Scissors and Octupole Resonances.pdf",
+          "raw_sha256": "4bc6bb6c613b121bae9def9d9bedf37e9c02db89eca265c4c16d5dd9ecf43a89",
+          "required_locators": "PDF 1-7, Figs. 1-4, Table I: 102Ru NRF实验测定M1剪刀模与E1八极共振，绝对衰变宽度Gamma_0、B(M1)与B(E1)分布；低能偶极选择定则与高自旋转动带证据边界"
+        },
+        {
+          "source_id": "karmakar-2025-98mo-dae",
+          "canonical_source": "S. Karmakar et al., DAE Symp. Nucl. Phys. 68 (2025) / preview",
+          "raw_file": "raw/papers/gpt/query/20261107-triaxial-isomer-transfer/karmakar2025-98mo.pdf",
+          "raw_sha256": "3cbdf755c3c0efbf1e89cfecbc97d98348d2fc7f9cc2467d1656096538b7ef64",
+          "required_locators": "PDF 1-2: 98Mo低能电偶极与负宇称八极关联探索，微观准粒子混合"
+        }
+      ],
+      "existing_bib_keys": [
+        "doctoral-r1-g28-togashi-2016-zr-mcsm-qpt",
+        "doctoral-r1-g28-singh-2018-98zr-lifetimes",
+        "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution"
+      ],
+      "new_bib_keys": [
+        "thomas-2016-96-98mo-coexistence",
+        "chen-singh-2020-nds-98mo",
+        "saracino-2026-102ru-scissors-octupole-resonances",
+        "karmakar-2025-98mo-dae"
+      ],
+      "prohibitions_strictly_obeyed": [
+        "严禁将Saracino 2026 102Ru的偶极测量数值错写，严格按原件PDF 3报告2.95 MeV (B(E1)↑=0.016 e2 fm2)、4.9 MeV共振峰 (求和B(E1)↑约0.1 e2 fm2)及PDF 5总M1=1.7 mu_N^2 (2-4 MeV局部约1.0 mu_N^2)",
+        "严禁将约5 MeV处的偶极-八极混合LEOR理论解释直接写成静态E3变形实测，原件PDF 6明确2.95 MeV为可能双声子激发、5 MeV为TAC-QRPA模型结合解释",
+        "严格解耦数百keV四极gamma软性、2.5-4 MeV等矢磁偶极剪刀模与2-5.5 MeV八极共振三个不同物理尺度与多极自由度，严禁混淆为单一序参量",
+        "严禁将NRF低自旋选择定则(J=1)直接认证为高自旋手征四重带或转动摆动模式",
+        "严禁将Karmakar 2025两页会刊摘要探索性线索夸大为证实了高自旋稳定八极形变",
+        "严禁将Zr同位素陡峭一阶相变与IBM O(6)极限生搬硬套至整个A~100区，阐明沿Z的微观非均质性"
+      ]
+    }
+  },
+  "scientific_acceptance_criteria": [
+    "三节正文全部采用严谨连贯的博士论文学术论述，包含直观物理图像、最短必要数学推导、微观与宏观机制接驳、实验探针选择定则及竞争模型反驳",
+    "所有主张严格区分实验直接测量（实测）、采用输入、作者解释、理论模型预测与本任务综合推论",
+    "4.1节必须完整阐释比较对象、对称性、占据、配对、gamma软刚/分布、自旋窗口、可观测量层级、形成/选择定则及可迁移/不可迁移条件合同",
+    "4.2节用Starosta 2007 (64Ge), Crider 2016 (68Ni), Clement 2007 (74,76Kr), Ayangeakaa 2019 (76Ge)原件深入阐述形状共存与软势判据，严格区分实测与理论列；与4.5节74As/78Br手征-反射联立破缺严格接口",
+    "4.3节以Togashi 2016 (Zr), Singh 2018 (98Zr), Thomas 2016 (98Mo), Saracino 2026 (102Ru), Ding 2025 (CPC)为原件，深入推演N/Z非均质性、低能偶极响应界限与S(I)判据反思",
+    "每节均配备独立完备的latex-evidence-ledger/section-4-X.json，包含精确的source元数据、raw_sha256、真实PDF locator及逐项claim追踪"
+  ],
+  "parent_return_v2_reference": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G86/parent-return-v2-fixed.json"
+}

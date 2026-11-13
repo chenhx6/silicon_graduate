@@ -1,0 +1,46 @@
+{
+  "appendix": "E",
+  "status": "parent-content-accepted; integrated typesetting pending",
+  "at_utc": "2026-11-13T17:42:17.584709+00:00",
+  "parent_checks": [
+    "Read full323-line deliveredE and corrected remainingoperator,codeandformatissues.",
+    "ActualWuPDF55/printed43Fig2.8visualmatch;bufferstrategyPDF55–56/print43–44, notB115–116.",
+    "Fiveactualsourcepaths/hashesreconciled; nonexistentthesispath andLipschutzPDF45–52removed.",
+    "M/alpha same-direction mapping; step/PZ versusfour-steptrapezoidtailsseparated.",
+    "No universalnoiseoptimality/flatlengthscaling; linearstationaryPSDformula stated.",
+    "Single-event CFDpseudocode returnsfirstroot; noimaginaryholdoffinacomment.",
+    "Bernoulli Cov0pairindependenceexceptionandprocessboundary;PASTAprearrival/limitconditions.",
+    "Ran fivefinitecontrols includingdirectconvolution,baseline,mismatch andsecantsign;provenanceSHA/versionmatches.",
+    "Knowledge note/directlinks scopedlint0errors,TexC0/braces/dollarschecked."
+  ],
+  "source_checks": "parent-source-checks.json",
+  "related_body_patch": "parent-pixie-digital-finalization/section-5-5-parent-narrow-acceptance.json",
+  "artifacts": [
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixE.tex",
+      "sha256": "f76188af699dcdc5e96c114850113c66fa8633af94e846d7e19a9a0c0780d132",
+      "size": 26796
+    },
+    {
+      "path": "raw/writing/gpt/A130/latex-evidence-ledger/appendix-E.json",
+      "sha256": "8c15e1b17cb8e4014cfb7eccbf5636f8cf37ccd07a47cf8a6414b70566c4040a",
+      "size": 14034
+    },
+    {
+      "path": "knowledge/research-notes/a130-rewrite-digital-appendix-consistency-20261113.md",
+      "sha256": "02f740889dba744de6d79fde89078b51b2c295a69a4e201286c6de4f45002fd8",
+      "size": 8652
+    },
+    {
+      "path": "system/scripts/a130_digital_algorithms_control.py",
+      "sha256": "67280c67c236bcaa1848b83eb662ad5f7d846fbef6e597b6acc7329b4a3a99ad",
+      "size": 9374
+    },
+    {
+      "path": "outputs/l4/20261114-A130-digital-algorithms-controls/results.json",
+      "sha256": "4933908b9e704bfa11fa981febaf30f60ba742187d4f16807412b42fd4abf826",
+      "size": 1796
+    }
+  ],
+  "boundary": "No instrument validation, FPGA fixedpointequivalence oruserhardware protocol claimed. Numerical controlsarefinite examples."
+}

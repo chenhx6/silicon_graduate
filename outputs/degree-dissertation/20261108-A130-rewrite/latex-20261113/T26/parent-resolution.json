@@ -1,0 +1,19 @@
+{
+  "status": "parent_scientific_content_accepted",
+  "session_date": "2026-11-14",
+  "actual_utc": "2026-11-13T21:42:37.326117+00:00",
+  "canonical_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixD.tex",
+  "sha256": "a62e402d04f2e050c558b9c5e7abb113c227e821254a4c1f6e2709cfb5661fbf",
+  "T23_T24_controls": "parent replay passed; canonical scripts registered in Appendix F",
+  "T26_resolutions": [
+    "nonzero leading neutron threshold coefficient now requires gamma_l^2→gamma_l0^2>0; bounded-width limit distinguished",
+    "three legacy notes synchronized; old false exclusion/CIB/unique-augmentation statements replaced",
+    "bare one-body Ikeda identity distinguished from effective-operator commutator sum"
+  ],
+  "remaining_scientific_blockers": [],
+  "boundaries": [
+    "finite analytic controls are not experimental decay predictions",
+    "source-specific FF and EFT models not generalized to all nuclei",
+    "final PDF/version hashes reconciled separately"
+  ]
+}

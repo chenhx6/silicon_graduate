@@ -1,0 +1,36 @@
+{
+  "worker": "G91 (Gemini Tiered/high)",
+  "section_id": "4.5",
+  "title": "Br/As与其它核区的反射—手征问题",
+  "recorded_at": "2026-11-14T00:35:00+00:00",
+  "task_status": "section-4-5-v4-r3-audited-delivered",
+  "canonical_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-5.tex",
+  "canonical_tex_sha256": "1651704dd6c615873885b1b6bd1858741bb34ab9a1af4e4a2da0a29108826f8b",
+  "canonical_ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-5.json",
+  "canonical_ledger_sha256": "130698b23b055f298d1949eb5291f1dee8e48b77cf1d700603c895b7bfee347f",
+  "figure_pdf_path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/br-as-network-topology.pdf",
+  "figure_svg_path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/br-as-network-topology.svg",
+  "figure_script_path": "system/scripts/a130_br_as_network_figure.py",
+  "research_note_path": "knowledge/research-notes/a130-rewrite-br-as-parity-chiral-evidence-20261113.md",
+  "r3_corrections_executed": [
+    "1. 修正引言与正文：明确三轴形变本身不自动破缺手征，核手征性要求j_p, j_n, R三维非共面；将四重带假象等绝对口号替换为数据尚不足以确立同一构型静态四重带、未观测线给出分支比上限而非物理绝对为零；",
+    "2. 修正宇称守恒条件：明确[H, P]=0为忽略弱作用采用强+电磁哈密顿量下的好宇称，内禀反射不对称属于平均场近似；",
+    "3. 纠正三维角动量+宇称复合投影式：分母采用完整角动量-宇称范数核与Hill-Wheeler本征方程归一及K混合，消除一维纯宇称投影分母；",
+    "4. 纠正手征算符代数性质：明确C=T Ry(pi)为反幺正算符无标量本征值，不可用(1±C)/2做线性投影；非共面条件为标量三重积不为零，不要求每个矢量全部分量非零；",
+    "5. 规范四极不变量q3：与2.4同归一，说明含beta2^3量纲需以q2^(3/2)归一化，严格区分q3与八极参数beta3及电八极算符M(E3)；",
+    "6. 修正宏观偶极矩公式：D0=C_D A Z e beta2 beta3中C_D具有长度量纲；阐明均匀同比例质中流体梨形亦D0=0；保留平移不变有效电荷；",
+    "7. 澄清八极驱动条件：Delta l=Delta j=3为有利微观驱动轨道对，非E3通用选择定则；严格区分g9/2 <-> p3/2驱动对与f5/2组态；",
+    "8. 修正B(E1)/B(E2)比值：明确量纲为fm^-2；采用光子强度时公式无需乘(1+alpha)因子；速率常数之比给出通用式3/[100(hbar c)^2]约7.71e-7 MeV^2 fm^-2；",
+    "9. 澄清D0反演边界：说明利用B(E1)/B(E2)需采用Q0与强耦合假设，但若测得绝对寿命提取绝对B(E1)可直接在转子模型下提取D0而摆脱对理论Q0依赖；",
+    "10. 纠正能级位移公式：delta E(I) = E^-(I) - [(I+1)E^+(I-1) + I E^+(I+1)]/(2I+1)，参考态严格为正宇称态E^+；",
+    "11. 澄清比值与位移物理意义：10^-6 vs 10^-5为定量比较，不能脱离壳修正反向相消单独证明动态/静态；",
+    "12. 规范未来实验判据：未观测跃迁给出的是上限，不能证明完全不存在；奇奇核库仑激发给出实际自旋宇称允许矩阵元，指出GOSIA多步耦合拟合的模型依赖性；",
+    "13. 核准实验反应与能带拓扑：78Br 8条E1跃迁局限于Band 1与Band 3；74As 3条E1跃迁；客观记录2019硕士论文Band 4候选与2022期刊侧重；",
+    "14. 纠正证据台账与真实source_id：采用真实Wiki source_id与原件路径/实际SHA-256，消除local-reference假hash。"
+  ],
+  "prohibitions_strictly_obeyed": [
+    "未修改公共ref.bib，新条目提供至outputs/degree-dissertation/.../G91/new-references.bib",
+    "未修改其它手稿章节，禁止自行派生/commit/push/递归删除",
+    "交付独立R3回执4-5-r3-receipt.json，A保持冻结只读，3.8Tex交父审不再改动"
+  ]
+}

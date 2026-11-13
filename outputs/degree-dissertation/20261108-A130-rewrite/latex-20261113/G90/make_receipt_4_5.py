@@ -1,0 +1,85 @@
+import json, hashlib
+
+def get_sha256(path):
+    with open(path, 'rb') as f:
+        return hashlib.sha256(f.read()).hexdigest()
+
+files_to_hash = [
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-5.tex",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G90/sec-4-5.tex",
+    "raw/writing/gpt/A130/latex-evidence-ledger/section-4-5.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G90/section-4-5.json",
+    "knowledge/research-notes/a130-rewrite-br-as-parity-chiral-evidence-20261113.md",
+    "system/scripts/a130_br_as_network_figure.py",
+    "raw/writing/gpt/A130/these_2023_template/these_template/Img/br-as-network-topology.svg",
+    "raw/writing/gpt/A130/these_2023_template/these_template/Img/br-as-network-topology.pdf",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G90/new-references.bib"
+]
+
+file_hashes = {p: get_sha256(p) for p in files_to_hash}
+
+receipt = {
+  "worker": "G90",
+  "section": "4.5",
+  "title": "Br/As 与其它核区的反射---手征问题",
+  "status": "COMPLETED",
+  "timestamp": "2026-11-13T20:15:00Z",
+  "file_hashes": file_hashes,
+  "canonical_tex_sha256": file_hashes["raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-5.tex"],
+  "canonical_ledger_sha256": file_hashes["raw/writing/gpt/A130/latex-evidence-ledger/section-4-5.json"],
+  "scientific_checks": {
+    "source_verification": "核实刘晨 2016 博士论文与 PRL 2016 (78Br)，肖骁 2019 硕士论文与 PRC 2022 (74As) 原件；纠正旧稿中反应束流/靶核错误与 74As CIAE 误传 (实际均为 iThemba LABS AFRODITE 实验)；明确学位与期刊同源共享数据流",
+    "74As_thesis_vs_journal_distinction": "客观区分 2019 硕士论文报告 Band 4 (自旋 7- -> 13-，计算检验后判定不符合手征判据，归为候选赝自旋伙伴带) 与 2022 期刊聚焦 Bands 1-3，彻底纠正『Band 4 从未观测』的盲目断言",
+    "network_topology_checks": "严格按原件实测跃迁绘制，78Br 仅 8 条 E1 跃迁 (严格连接 Band 1 与 Band 3)，74As 仅 3 条 E1 跃迁 (Band 3 -> Band 1: 372.4, 919.4, 1293.4 keV)；两核伴带 Band 2 与 Band 4 之间完全缺失 E1 连接，绝无闭合对称四重网络；绝不在能级图与网络图中脑补未测边",
+    "discrete_symmetries_and_operators": [
+      "实验室系空间反演守恒 [H, P] = 0，物理态具有好宇称 pi = +/- 1；内禀反射不对称 (beta3 != 0) 经投影产生宇称双重态，隧穿能隙为 Delta E_parity(I)",
+      "手征操作 C = T R_y(pi) 为反幺正算符，非平面几何自发破缺经隧穿产生同宇称手征双重带，隧穿能隙为 Delta E_chiral(I)",
+      "静态四重手征--八极简并带 (CPQ) 严格要求相同微观组态同时在空间反演与手征变换下静态破缺，78Br 与 74As 正负宇称带源于不同单粒子轨道 (pi g9/2 vs pi f5/2)，不符合该条件",
+      "严格证明三次四极标量不变量 q3 propto beta2^3 cos(3 gamma) (宇称偶) 为四极张量，绝非八极算符 beta3 或 M(E3) (宇称奇)"
+    ],
+    "d0_extraction_and_model_dependence": [
+      "给出实验分支比提取 B(E1)/B(E2) 的代数公式，明确其为相对比值非绝对 B(E1)",
+      "给出轴对称强耦合 Clebsch-Gordan 展开式提取 D0，指出其对理论计算 Q0 输入与轴对称无 K 混合假定的强依赖性",
+      "对比稳定八极核 224Th (B(E1)/B(E2) ~ 10^-5 fm^-2, delta E -> 0) 与 78Br/74As (比值小一个数量级，delta E 剧烈偏离零)，明确八极软性与振动关联本质"
+    ],
+    "microscopic_and_macroscopic_dipole_origins": [
+      "宏观 Myers-Swiatecki 液滴电荷中心与质心分离诱发电偶极矩 D0 = C_D A Z e beta2 beta3，有效电荷 e N/A 与 -e Z/A",
+      "微观八极相互作用源于 Delta l = Delta j = 3 轨道耦合，A ≈ 80 区 Z=33, 35 贴近八极驱动幻数 34 (g9/2 <-> p3/2, f5/2 强耦合)"
+    ],
+    "transfer_and_falsifiable_predictions": [
+      "确立手征与八极共存的微观迁移充要条件 (双重驱动轨道、势能面双重刚度深度、强集体离心势)",
+      "提出利用 RDM 测定 78Br 与 74As 负宇称能级绝对寿命以脱离 Q0 依赖提取绝对 B(E1) 的方案",
+      "提出在大阵列上高灵敏搜寻 Band 2 与 Band 4 闭合交叉跃迁以排他性检验静态 CPQ 假说的方案",
+      "提出利用放射性核束库仑激发直接测定内禀 E3 矩阵元的方案"
+    ]
+  },
+  "parent_review_questions": [
+    "78Br 与 74As 关键负宇称能级寿命完全空缺，建议在全论文后续总结中将 RDM/DSAM 寿命测量列为判定单粒子受阻 vs 集体八极增强的核心课题。",
+    "Band 2 与 Band 4 之间是否存在极微弱的交叉 E1 跃迁，有待新一代高探测效率跟踪锗阵列（GRETA/AGATA）给出更严格的实验上限。"
+  ],
+  "new_bib_candidates": [
+    "liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br",
+    "xiao-2022-chirality-octupole-correlations-74as",
+    "xiao-xiao-2019-high-spin-74as-thesis",
+    "butler-1996-octupole-shapes",
+    "wang-2019-rat-prm-78br-octupole-correlations"
+  ],
+  "modified_files": [
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-5.tex",
+    "raw/writing/gpt/A130/latex-evidence-ledger/section-4-5.json",
+    "knowledge/research-notes/a130-rewrite-br-as-parity-chiral-evidence-20261113.md",
+    "system/scripts/a130_br_as_network_figure.py",
+    "raw/writing/gpt/A130/these_2023_template/these_template/Img/br-as-network-topology.svg",
+    "raw/writing/gpt/A130/these_2023_template/these_template/Img/br-as-network-topology.pdf",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G90/new-references.bib",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G90/sec-4-5.tex",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G90/section-4-5.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G90/receipt-sec-4-5.json"
+  ]
+}
+
+receipt_path = "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G90/receipt-sec-4-5.json"
+with open(receipt_path, 'w', encoding='utf-8') as f:
+    json.dump(receipt, f, indent=2, ensure_ascii=False)
+
+print(f"Receipt written successfully to {receipt_path}!")

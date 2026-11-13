@@ -1,0 +1,179 @@
+{
+  "section_id": "5.9",
+  "title": "由寿命、分支与内转换到绝对电磁强度",
+  "worker": "G79",
+  "recorded_at": "2026-11-13T03:14:27.096178+00:00",
+  "input_draft": {
+    "path": "raw/writing/gpt/A130/research-draft/section-5-9.md",
+    "sha256": "c3da811fae74df463bc1742bf304c672c7874def3c591dc64d91e0653374b8ca"
+  },
+  "original_ledger": {
+    "path": "raw/writing/gpt/A130/evidence-ledger/section-5-9.json",
+    "sha256": "5eb26d15148e9c1e44b2a23a8293cd1d1a427473908fcb70df10a3f32a2755e5"
+  },
+  "output_latex": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-9.tex",
+    "sha256": "b534fb7493a4924737e5a368dec3c7583aee53b09a547943b65afb306ec91af7",
+    "equations_count": 40,
+    "tables_count": 0,
+    "figures_count": 0,
+    "labels": [
+      "sec:5-9",
+      "subsec:5-9-1",
+      "eq:5-9-tau",
+      "eq:5-9-thalf",
+      "eq:5-9-gamma-tot",
+      "eq:5-9-gamma-to-lambda",
+      "subsec:5-9-2",
+      "eq:5-9-lambda-sum",
+      "eq:5-9-lambda-branch",
+      "eq:5-9-icc-def",
+      "eq:5-9-lambda-k-icc",
+      "eq:5-9-bk",
+      "eq:5-9-lambda-gamma-k",
+      "eq:5-9-b-gamma-k",
+      "eq:5-9-ntot-flux",
+      "eq:5-9-bk-from-a",
+      "eq:5-9-b-gamma-k-from-a",
+      "eq:5-9-lambda-gamma-k-from-a",
+      "eq:5-9-alpha-mix",
+      "subsec:5-9-3",
+      "eq:5-9-triangular",
+      "eq:5-9-delta-def",
+      "eq:5-9-multipole-frac",
+      "eq:5-9-lambda-multipole",
+      "subsec:5-9-4",
+      "eq:5-9-b-down",
+      "eq:5-9-wigner-eckart",
+      "eq:5-9-lambda-el",
+      "eq:5-9-suhonen-e",
+      "eq:5-9-ce2",
+      "eq:5-9-lambda-e2-c",
+      "eq:5-9-be2-extracted",
+      "eq:5-9-cm1",
+      "eq:5-9-bm1-extracted",
+      "subsec:5-9-5",
+      "eq:5-9-ped-tot",
+      "eq:5-9-ped-fe2",
+      "eq:5-9-ped-fm1",
+      "eq:5-9-ped-alpha-mix",
+      "eq:5-9-ped-ntot",
+      "eq:5-9-ped-branching",
+      "eq:5-9-ped-photon-branch",
+      "eq:5-9-ped-lambda-gamma",
+      "eq:5-9-ped-lambda-e2-1",
+      "eq:5-9-ped-lambda-m1-1",
+      "eq:5-9-ped-be2-1",
+      "eq:5-9-ped-bm1-1",
+      "eq:5-9-ped-be2-2",
+      "subsec:5-9-6",
+      "eq:5-9-ratio-branch",
+      "eq:5-9-ratio-be2",
+      "subsec:5-9-7"
+    ],
+    "citations": [
+      "book-suhonen-from-nucleons-to-nucleus",
+      "lange-kumar-hamilton-1982-multipole-admixtures",
+      "campaign-g07-gorgen-2004-163lu-quadrupole-moments"
+    ]
+  },
+  "sources": [
+    {
+      "citation_key": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "canonical_title": "Quadrupole moments of wobbling excitations in 163Lu",
+      "authors": [
+        "A. Görgen",
+        "R. M. Clark",
+        "M. Cromaz",
+        "P. Fallon",
+        "G. B. Hagemann",
+        "H. Hübel",
+        "I. Y. Lee",
+        "A. O. Macchiavelli",
+        "G. Sletten",
+        "D. Ward",
+        "R. Bengtsson"
+      ],
+      "journal": "Physical Review C",
+      "year": 2004,
+      "volume": "69",
+      "pages": "031301(R)",
+      "doi": "10.1103/PhysRevC.69.031301",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "raw_sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e",
+      "actual_read_pages": "PDF pages 2–4, Tables I–II and adopted thin-target inputs",
+      "evidence_role": "Case study for DSAM lifetime measurements, adopted thin-target branching ratios (Jensen 2002), adopted average delta (-3.10), and interpretation limits in wobbling candidates within authors specific model picture."
+    },
+    {
+      "citation_key": "lange-kumar-hamilton-1982-multipole-admixtures",
+      "canonical_title": "E0-E2-M1 multipole admixtures of transitions in even-even nuclei",
+      "authors": [
+        "J. Lange",
+        "Krishna Kumar",
+        "J. H. Hamilton"
+      ],
+      "journal": "Reviews of Modern Physics",
+      "year": 1982,
+      "volume": "54",
+      "pages": "119–194",
+      "doi": "10.1103/RevModPhys.54.119",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+      "raw_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+      "actual_read_pages": "printed pages 121–122 (PDF pages 3–4), Eqs. (2.1)–(2.6)",
+      "evidence_role": "Formal definition of real multipole mixing ratio delta(E2/M1) as photon emission amplitude ratio, multipole fractions delta²/(1+delta²) and 1/(1+delta²), and phase convention transformations."
+    },
+    {
+      "citation_key": "book-suhonen-from-nucleons-to-nucleus",
+      "canonical_title": "From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory",
+      "authors": [
+        "Jouni Suhonen"
+      ],
+      "publisher": "Springer-Verlag Berlin Heidelberg",
+      "year": 2007,
+      "isbn": "9783540488590",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "actual_read_pages": "printed pages 118–121 (PDF pages 133–136), Eqs. (6.1)–(6.4), (6.12)–(6.14)",
+      "evidence_role": "Downwards reduced transition probability B(XL) definition, Wigner-Eckart reciprocal relation (2Ii+1)B(i->f) = (2If+1)B(f->i), dimensioned transition rate formula, SI magnetic operator definition with mu_N/c, and reconstruction of textbook rounded rate constant C_E2 = 1.2250333078e9 s^-1 MeV^-5 (e² fm⁴)^-1 and C_M1 = 1.7583758801e13 s^-1 MeV^-3 [(mu_N/c)²]^-1."
+    }
+  ],
+  "source_locators": [
+    {
+      "citation_key": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "actual_read_pages": "PDF pages 2–4, Tables I–II and adopted thin-target inputs"
+    },
+    {
+      "citation_key": "lange-kumar-hamilton-1982-multipole-admixtures",
+      "actual_read_pages": "printed pages 121–122 (PDF pages 3–4), Eqs. (2.1)–(2.6)"
+    },
+    {
+      "citation_key": "book-suhonen-from-nucleons-to-nucleus",
+      "actual_read_pages": "printed pages 118–121 (PDF pages 133–136), Eqs. (6.1)–(6.4), (6.12)–(6.14)"
+    }
+  ],
+  "migration_differences": [
+    "完全定点恢复已核稿 section-5-9.md 原始叙事与全部 40 个数学展示块，撤销此前非授权的重写与裁决推断",
+    "恢复 eq:5-9-delta-def 包含辐射能量因子 sqrt(3)/10 * E_gamma/(hbar c) 及核结构算符相位/单位约定之标准定义",
+    "恢复选择定则严格陈述：允许 M1/E2 不等于两者必存在，纯 E2 依赖动力学压低依据与异能态阻碍条件",
+    "保留所有与数据相容之多极混合比解分支，澄清偏振区分灵敏度与微观转子理论解释之证据边界",
+    "无新增科学主张",
+    "第 5 步 Suhonen 前因子 C_E2 与 C_M1 长行内公式提升为 display align* 环境，并在通道 2 算式前增加空行分段，彻底消除 lines 224 与 234-235 处的 0.64pt 与 15.46pt 排版溢出（保留 40 个原式及所有数值与单位）",
+    "将 align* 数学环境内末尾全角中文句号 U+3002 替换为数学 ASCII 句点 '.'，消除西文字体无对应字形造成的 2 处 Missing Glyphs 警告"
+  ],
+  "scientific_integrity_checks": {
+    "mean_lifetime_vs_thalf": "严格保持 tau 为平均寿命，lambda_tot = 1/tau，在带量纲实用跃迁率常数计算中未重复乘除 ln 2 或 hbar",
+    "accounting_consistency": "总分支比 bk、偏光子分支比 b_gamma,k、内转换 ICC alpha 与多极混合比 delta 统一归一化口径",
+    "rate_constants_and_units": "C_E2 = 1.2250333078e9 s^-1 MeV^-5 (e^2 fm^4)^-1, C_M1 = 1.7583758801e13 s^-1 MeV^-3 [(mu_N/c)^2]^-1，量纲带齐",
+    "statistical_weights": "明确给出上下行 Wigner-Eckart 倒易关系统计权重 (2I_i + 1) 与 (2I_f + 1)",
+    "new_scientific_claims": "无新增科学主张",
+    "delta_definition_restored": "严格保持 delta(E2/M1) = sqrt(3)/10 * (E_gamma/hbar c) * RME(E2)/RME(M1)，解释辐射幅度与裸多极矩阵元不同维度及同初末态相位抵消",
+    "t15_m1_correction": "T15 M1 SI/Gaussian unit conversion corrected (2026-11-13): replaced erroneous standalone c^2 multiplication/division by exact dimensional relation b = B_S/(mu_N/c)^2 = B_mu/mu_N^2; delta denominator explicitly labeled as M_S=M_mu/c; toy example M1 units converted to mu_N^2 with unchanged numerical rate and value 0.00545432."
+  },
+  "unresolved_items": [
+    "163Lu Görgen (2004) Table I 中 Qt 数值在自旋区间分散显著，正文已说明其两带间 ~4% 差异基于特定倾角假定，不可作为无条件几何直接测量",
+    "教学算例为两支路规范模型，真实能级需核验 feeding、电子学门窗及未观测 E0/粒子衰变通道"
+  ],
+  "target_sha256": "b534fb7493a4924737e5a368dec3c7583aee53b09a547943b65afb306ec91af7",
+  "parent_final_tex_sha256": "b534fb7493a4924737e5a368dec3c7583aee53b09a547943b65afb306ec91af7",
+  "integration_status": "included-in27-section-clean-preview"
+}

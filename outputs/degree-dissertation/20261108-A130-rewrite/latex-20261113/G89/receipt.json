@@ -1,0 +1,176 @@
+{
+  "worker": "G89",
+  "role": "Gemini Tiered/high executor",
+  "section_id": "4.8",
+  "title": "环境和形成路径怎样改变可见性",
+  "recorded_at": "2026-11-13T21:20:00+08:00",
+  "task_status": "section_4_8_round3_canonical_delivered_ready_for_parent_review",
+  "parent_contract_reference": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G89/parent-review-4-8-round2.json",
+  "knowledge_anchor_reference": "knowledge/research-notes/a130-rewrite-open-network-and-entry-ensemble-20261113.md",
+  "artifacts_manifest": {
+    "canonical_tex": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-8.tex",
+      "sha256": "a2cea6eb2b64ca10f9a1d6b7785cfd4ac9328134aeaa6a231cbcf7dfa55e3420"
+    },
+    "staging_tex": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G89/staging/sec-4-8.tex",
+      "sha256": "a2cea6eb2b64ca10f9a1d6b7785cfd4ac9328134aeaa6a231cbcf7dfa55e3420"
+    },
+    "canonical_ledger": {
+      "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-8.json",
+      "sha256": "2c95acf162107fb03fb84dd05b3f81b9cbea4757bdc22717b74b760958ac9e93"
+    },
+    "research_note": {
+      "path": "knowledge/research-notes/a130-rewrite-environment-formation-observability-20261113.md",
+      "sha256": "f1acca7e6dc2d10efda34fce49df053ab88c808f0e696df140b1e6a9034a2b42"
+    },
+    "figure_script": {
+      "path": "system/scripts/a130_environment_network_figure.py",
+      "sha256": "b9d54df91e9bbd5e3e6533791cb58013448774738c7bc3f10afca4a014245994"
+    },
+    "figure_pdf": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/environment-network-pathways.pdf",
+      "sha256": "10afa187b45005b142691412d52ab8423bc110e305a35aa2c6d6dd6b1aba4a0d"
+    },
+    "figure_svg": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/environment-network-pathways.svg",
+      "sha256": "d170228797c4451f42c3b46065cdcc67569e71e09e8455adc1ae941faf751ac7"
+    },
+    "new_references_bib": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G89/new-references.bib",
+      "sha256": "b3769ab3d55c68f83df9b906174b0da4b8267a26277414fa628144fd218069ba"
+    }
+  },
+  "self_audit_r1_to_r12": [
+    {
+      "id": "R1",
+      "topic": "176Lu 自旋宇称与 838.6 keV 桥态纠错",
+      "status": "fully-corrected",
+      "locator": "Gintautas 2009 PRC 80, 015806 原件 PDF 第2页 Sec.II 开头及 838.6-keV 段 (SHA: abb6c1656b00e5db22c1c4ea19f54dbdc3b9557d7a8665945a7c0400492770d8)",
+      "canonical_tex_location": "Sec.4.8.1, 原第116行前后",
+      "ledger_claim": "CLAIM-4-8-4",
+      "changes_made": "核定 176Lu 基态为 J^pi = 7^- (K^pi = 7^-), 异能态 176mLu 为 J^pi = 1^- (K^pi = 0^-), 838.6-keV 桥态明确为 J^pi = 5^-、K^pi = 4^-（删除捏造的 3^-/4+ 桥态）。明确直接跃迁最低允许电多极为 E6（Delta J = 6, 宇称不变, nu = |7-6| = 1），说明最低允许级次不同于测得纯 E6 跃迁事实，热模型中作可忽略近似。"
+    },
+    {
+      "id": "R2",
+      "topic": "176mLu beta 衰变类型规范与文献属性界定",
+      "status": "fully-corrected",
+      "locator": "Gintautas 2009 PDF p.2 Sec.II; NNDC ENSDF dataset 200602 (M. S. Basunia 2006; raw/papers/gpt/query/20261113-A130-lu176-beta-evaluation/manifest.json, SHA e0e1c858...; frozen 42-page adopted.pdf pp.1-2)",
+      "canonical_tex_location": "Sec.4.8.1, 原第116行",
+      "ledger_claim": "CLAIM-4-8-4",
+      "changes_made": "彻底删除未经验证的‘允许 Gamow-Teller’描述。依据 NNDC/ENSDF 2006 评价快照（dataset 200602），明确 176mLu(1-) 优势衰变馈入 176Hf 的 0+ 基态 (39(2)%) 与 88.4 keV 2+ 激发态 (61(2)%)，因宇称改变属于一阶禁戒非唯一型跃迁而非允许 GT；同时指出存在向 1247.5 keV 2- 态的极微弱允许跃迁 (0.009%) 及 ~0.095% 的 EC 分支，保留不同归一化约定边界。明确声明 Gintautas (2009) 属于基于 ENSDF 已知能级的理论速率与 K 混合模型，非新增直接实验测定。"
+    },
+    {
+      "id": "R3",
+      "topic": "总粒子数守恒方程的量词与充要条件界定",
+      "status": "fully-corrected",
+      "locator": "Tex Eq.(4.8.1)-(4.8.4), a130-rewrite-open-network-and-entry-ensemble-20261113.md",
+      "canonical_tex_location": "Sec.4.8.1, 列和与演化段落",
+      "ledger_claim": "CLAIM-4-8-1",
+      "changes_made": "写出 dN_{tot}/dt = -sum d_i N_i + sum P_i。澄清闭合无外源（所有 d_i = 0 且 P = 0）是任意初值构型下总数均严格守恒的充分物理条件；特定开放稳态中产生与漏失平衡（sum P_i = sum d_i N_i）亦可使净变化率为零；若要求对于固定的非负常数 P 与 d 对所有初值构型均守恒，则 P 与每个 d 必须为零。彻底纠正无量词机械写‘iff / 当且仅当’的逻辑缺陷。"
+    },
+    {
+      "id": "R4",
+      "topic": "自治常系数网络解析传播与时变传播区别",
+      "status": "fully-corrected",
+      "locator": "Tex Eq.(4.8.10)-(4.8.16), a130-rewrite-open-network-and-entry-ensemble-20261113.md",
+      "canonical_tex_location": "Sec.4.8.1, 等漏失极限段落",
+      "ledger_claim": "CLAIM-4-8-3",
+      "changes_made": "澄清常系数转移矩阵 A 在 P = 0 时，即便 D_g != D_m 仍可完全解析展开为 N(t) = exp(At)N_0（有外源时加上 Duhamel 卷积项）；纠正‘不等漏失必须数值积分’的过度断言。指出瞬时单一有效寿命通常不足以描述布居动力学，时变环境 A(t) 应求解完整微分方程（数值或适当解析）。"
+    },
+    {
+      "id": "R5",
+      "topic": "等漏失归一化相消与有限观测窗口热化制约",
+      "status": "fully-corrected",
+      "locator": "Tex Eq.(4.8.10)-(4.8.16), a130-rewrite-open-network-and-entry-ensemble-20261113.md",
+      "canonical_tex_location": "Sec.4.8.1, 式(4.8.10)与(4.8.16)后",
+      "ledger_claim": "CLAIM-4-8-3",
+      "changes_made": "显式推导归一化份额 f = N_m / N_{tot} 的演化方程，证明等漏失 D_g = D_m 条件下共同漏失 D 项严格相消，相对布居以速率 a + b 弛豫至 a/(a+b)。强调快速交换微扰小根展开 r_- ~ D_{eff} 仅描述渐近衰减率，系统能否在有限天体脉冲温区或观测窗口内真正达到平衡，还取决于初始投影以及交换时间 tau_{therm} = 1/(a+b) 相对天体流体冷却或反应时间的大小。"
+    },
+    {
+      "id": "R6",
+      "topic": "区分初始复合核分波 J_0 与蒸发后进入态 J_{entry}",
+      "status": "fully-corrected",
+      "locator": "Tex Eq.(4.8.28), (4.8.38)-(4.8.40), a130-rewrite-open-network-and-entry-ensemble-20261113.md",
+      "canonical_tex_location": "Sec.4.8.3, 熔合主方程与异能态馈入段落",
+      "ledger_claim": "CLAIM-4-8-12, CLAIM-4-8-15",
+      "changes_made": "在分波展开式中严格采用 J_0 标识初始复合核分波。引入条件归一化分布 F(E_{entry}^*, J_{entry}, pi | E, J_0, surv)，定义由初始分波 J_0 级联平均的馈入分支比 bbar_{feed}(E, J_0) = sum int F b_{feed} dE_{entry}^*。异能态产生截面表达为 sigma_{isomer}(E) = sum_{J_0} sigma_{ER}(E, J_0) bbar_{feed}(E, J_0)。有效分支比 b_{eff} 明确为截面加权的系综平均值（分母要求总截面非零）。"
+    },
+    {
+      "id": "R7",
+      "topic": "Zagrebaev 2001 三阶段近似性质与多中子级联连续积分",
+      "status": "fully-corrected",
+      "locator": "Zagrebaev 2001 PRC 65, 014607 原件 PDF p.1 Eq.(1), p.7 Eqs.(10)-(11)",
+      "canonical_tex_location": "Sec.4.8.3, 存活几率与分宽段落",
+      "ledger_claim": "CLAIM-4-8-12, CLAIM-4-8-13",
+      "changes_made": "明确三阶段截面分解 sigma_{ER} = sum sigma_{cap} P_{CN} W_{sur} 属于近似分解。指出严格的 xn 级联退激包含连续中子动能谱积分与终末 gamma 辐射冷却，代表性中心动能的单轨迹分宽比乘积 prod [Gamma_n/Gamma_{tot}] 属于进一步简化。删除全核区普适 Z_1 Z_2 阈值或 P_{CN} 固定区间断言，明确其为特定重核能窗示例。"
+    },
+    {
+      "id": "R8",
+      "topic": "超重核宏观液滴位垒非零事实与壳修正位垒增强符号",
+      "status": "fully-corrected",
+      "locator": "Zagrebaev 2001 PDF p.7 Sec.V.A (No邻区例子)",
+      "canonical_tex_location": "Sec.4.8.3, 裂变位垒段落",
+      "ledger_claim": "CLAIM-4-8-14",
+      "changes_made": "纠正超重核宏观液滴位垒全域为零的断言：Zagrebaev 2001 §V.A 254No 邻区计算例子中液滴位垒仍约 1.2 MeV。基态微观量子壳修正取负值（delta U_{gs} < 0），而在鞍点处大形变冲刷壳效应（delta U_{saddle} approx 0），对总裂变位垒的微观增强贡献为正值 Delta B_f^{shell} approx -delta U_{gs} > 0。有效位垒指数阻尼模型 B_f(E^*) = B_f^{LD} + Delta B_f^{shell} exp(-gamma_D E^*) 属于宏观--微观统计参数化处理。"
+    },
+    {
+      "id": "R9",
+      "topic": "非零自旋通道穿透矩阵元与表观势垒分布 D_{fus} 曲率界限",
+      "status": "fully-corrected",
+      "locator": "Tex Eq.(4.8.31), 反应理论多道耦合",
+      "canonical_tex_location": "Sec.4.8.3, 俘获与形成阶段",
+      "ledger_claim": "CLAIM-4-8-12",
+      "changes_made": "写出严格的通道自旋矩阵元 T_{lS}^{J_0}(E)，说明忽略通道自旋 S 依赖为简化近似。明确 D_{fus}(E) = d^2(E sigma_{fus})/dE^2 是由截面曲率定义的唯象表观量，在强准裂变或 P_{CN}(E) 具显著能量依赖的体系中不等于裸入射势垒几何分布，严格区分俘获/完全熔合/ER各截面能量导数。"
+    },
+    {
+      "id": "R10",
+      "topic": "焦平面双侧时间窗口理想接受几率公式与在途谱学边界",
+      "status": "fully-corrected",
+      "locator": "Tex Eq.(4.8.41), 实验谱学几何定时模型",
+      "canonical_tex_location": "Sec.4.8.3, 探测时间窗段落",
+      "ledger_claim": "CLAIM-4-8-15",
+      "changes_made": "给出实验室系单态寿命 tau、飞行时间 t_f、后续关联窗 Delta t 下的焦平面理想接受概率公式 P_{det}(tau) = exp(-t_f/tau) [1 - exp(-Delta t/tau)] epsilon_{decay} epsilon_{geom}。删除绝对化‘超短寿命只能靶点捕获’或‘长寿命绝对不可关联’表述，指出接受率受抑不等于物理不可探测，在途衰变谱仪与靶点瞬发探测可在不同构型下捕获短寿命辐射。"
+    },
+    {
+      "id": "R11",
+      "topic": "Kraemer 2023 精确晶体带隙、跃迁波长能级与真空寿命外推条件",
+      "status": "fully-corrected",
+      "locator": "Kraemer 2023 Nature 617, 706 原件 PDF pp.1-4",
+      "canonical_tex_location": "Sec.4.8.2, 案例一段落",
+      "ledger_claim": "CLAIM-4-8-8",
+      "changes_made": "补齐 Kraemer 2023 原件精确带隙（CaF2 12.1 eV, MgF2 12.4 eV，代替粗略10 eV）与实测波长能量（148.71 +- 0.06_{stat} +- 0.41_{syst} nm, 8.338 +- 0.003_{stat} +- 0.023_{syst} eV）。MgF2 晶体半衰期严格为 670(102) s（tau approx 967 s）。记录宏观折射率虚腔模型（n=1.488, n^3 approx 3.3）推导估算的真空辐射半衰期 2.21(0.34)e3 s，保留作者关于浅表面植入局域场适用性受限的明确科学条件。"
+    },
+    {
+      "id": "R12",
+      "topic": "NEEC/IC 原件核查：反应道、装置、95% 接受度与 alpha_{IC} 推论性质",
+      "status": "fully-corrected",
+      "locator": "Chiara 2018 Nature 554, 216; Guo 2022 PRL 128, 242502; Seiferle 2017 PRL 118, 042501",
+      "canonical_tex_location": "Sec.4.8.2, 案例一与案例二段落",
+      "ledger_claim": "CLAIM-4-8-7, CLAIM-4-8-9, CLAIM-4-8-11",
+      "changes_made": "保持 Chiara 2018 实际反应为 ATLAS 7Li(90Zr, p3n)；Guo 2022 实际装置为兰州 HIRFL/RIBLL 35米束流线 12C(86Kr, 5n) 初束 559 MeV 选出 460 MeV 93mMo^{36+}（纯度 ~0.6%），95% 明确为中心 3-keV 窗对高斯峰面积的截断接受度（acceptance，用于折算边缘计数），非 P_{max} approx 2e-5 的 95% 置信水平。Seiferle 2017 alpha_{IC} ~ 10^9 明确为实测 IC 半衰期与理论辐射寿命比较得出的推论参数。正文、账本、研学笔记与绘图脚本全版本严格对齐。"
+    }
+  ],
+  "prohibitions_respected": [
+    "未改动公共主工程 Thesis.tex 或公共 Biblio/ref.bib（新条目放入独占 new-references.bib）",
+    "未改动其他任何章节文件、PLAN.md、system/memory.md 或其他手稿",
+    "未执行 git add, commit, tag 或 push 操作",
+    "未执行 LaTeX 整体编译",
+    "未派发其他 agent 或发送网络邮件",
+    "未编造任何未发表或无原件支持的实验数值"
+  ],
+  "runtime_model_metadata": {
+    "executor_agent": "G89",
+    "model_tier": "Gemini 3.8 Flash Tiered/high",
+    "runtime_environment": "Docker container /workspace/wiki",
+    "status": "round2-completed-ready-for-parent-review"
+  },
+  "r3_boundary_refinements": {
+    "opening_paragraph": "Distinguished nuclear intrinsic operators/models in zero-temperature free space from experimental decay measurements in neutral-atom and dielectric medium environments.",
+    "ic_neec_recoil": "Marked E_e approx Delta E - E_b and E_e + E_b approx Delta E as approximations neglecting nuclear/ionic recoil (~1e-3 eV in mid-heavy nuclei) and environmental shifts.",
+    "gamma_tot_multichannel": "Formulated Gamma_{tot}^{(i)} = sum_f Gamma_{gamma, if} (1 + alpha_{if}) + Gamma_{loss}^{(i)} as the sum of downward de-excitation and loss branches from a fixed initial state; clarified upward processes (NEEC, laser pumping) belong in rate network, not single-state decay width; noted Gamma_gamma is the free-space vacuum formula.",
+    "fission_barrier_shell_condition": "Gave general subtraction formula Delta B_f^{shell} = delta U_{saddle} - delta U_{gs} first, then specified delta U_{gs} < 0 and delta U_{saddle} approx 0 as phenomenological approximations for shell-stabilized systems rather than universal theorems.",
+    "timescale_qualification": "Rephrased from '完全独立' to '在相关时间尺度内可近似分别演化' under a, b << D_m.",
+    "canonical_sources_in_ledger": "Replaced non-canonical strings with canonical source IDs across all ledger claims; derivations use source_ids: []; added book-suhonen-from-nucleons-to-nucleus to source_inputs with real path and SHA."
+  }
+}

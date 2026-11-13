@@ -1,0 +1,86 @@
+{
+  "section_id": "5.1",
+  "title": "反应与目标态布居",
+  "worker": "G79",
+  "timestamp_utc": "2026-11-13T05:00:33.635311+00:00",
+  "status": "scientific_hard_boundaries_fixed_and_verified",
+  "files": {
+    "latex_section": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-1.tex",
+      "sha256": "f80869fb5165891a6b9a3ec5276207a7c5d2051046988de44fe3d2b7007a984f"
+    },
+    "latex_evidence_ledger": {
+      "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-1.json",
+      "sha256": "35af152a4fcca3fe60730f8290de7858303fad4ca34c1b34ef372c84e9fcc9bd"
+    },
+    "bibtex": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G79/new-references-5-1.bib",
+      "sha256": "e6d1c542e63bd61c3f6b596d3a45d30b96ec97b27209bc555ac13f5011c4b833"
+    }
+  },
+  "fixed_boundaries": [
+    "1. Q_s 为实验室系谱学静电四极矩（非内禀 Q_0），库仑激发重取向采用二次微扰振幅 a = a^(1) + a^(2) + ... 展开，明确耦合通道多路径拟合属性；去经验 d_min 数值，改以相互作用力程抑制表述",
+    "2. 入口 l 垂直与 m_l = 0 仅限零自旋弹靶体系，去复合核恒定 M=0 与 B2 恒正假定，明确级联退取向与自旋序列依赖性，交 5.7 节在束标定",
+    "3. l_crit^2 锐截止限定 E > V_B 高分波条件，明确 l 无量纲、L 约等于 hbar l；Wong 公式限定为单势垒俘获截面近似；E* = E_cm + Q 限定非相对论静止靶完全融合运动学",
+    "4. 澄清高自旋异能态 beta 衰变可布居高自旋态；NRF 保留 E2 激发 2+ 态；不做排他性唯一路径陈述",
+    "5. 产额公式物理量纲与概念完备化：I_beam 为粒子数流率 (s^-1)、rho x 为面质量密度 (g/cm^2)、A_target 为摩尔质量 (g/mol)、sigma_level 为能级截面，声明薄靶能量平均假定，联合活时间 Live_12 引用 5.5 节联合测度",
+    "6. 严格区分运动学反应阈能 E_th 与静电库仑势垒 V_B；激发函数峰宽依相空间而变，束能选择不盲目取截面极大值",
+    "7. 侧向馈入卷积明确采用时间概率密度函数 f_feed(t) 与单态指数衰减核，说明慢馈入常见上偏而非普适方向，上方门选不自动消除未观测慢馈入",
+    "8. 清理 30-60 hbar 粗略数值例与内部管理措辞，转为客观物理参数空间讨论",
+    "9. 独立排版实测 0 fatal errors, 0 overfull hboxes, 0 missing glyphs"
+  ],
+  "raw_sources_locators_and_anchors": [
+    {
+      "citation_key": "book-bertulani-nuclear-reactions",
+      "canonical_title": "Introduction to Nuclear Reactions (2nd Ed., 2021)",
+      "raw_file": "raw/books/Introduction to Nuclear Reactions (C.A. Bertulani P. Danielewicz) (Z-Library).pdf",
+      "raw_sha256": "ad1391abd781e2277433283b6635679cfc45efc9d9d5472d4aabcd172509cb71",
+      "locators": [
+        {
+          "content": "Wong 熔合截面与抛物线势垒穿透",
+          "pdf_pages": "189–191",
+          "printed_pages": "178–180",
+          "formula": "Section 5.7, Eqs. (5.82)–(5.86)",
+          "anchor": "The above Hill-Wheeler expression for Tl, Eq. (5.82), is valid only in the proximity of the barrier"
+        },
+        {
+          "content": "库仑激发微扰展开与二阶重取向效应",
+          "pdf_pages": "242–245",
+          "printed_pages": "231–234",
+          "formula": "Section 6.9, Eqs. (6.111)–(6.120)",
+          "anchor": "Coulomb excitation is a process of inelastic scattering in which a charged particle transmits energy to the nucleus through the electromagnetic field. This process can happen at a much lower energy than the necessary for the particle to overcome the Coulomb barrier"
+        }
+      ]
+    },
+    {
+      "citation_key": "diamond-1966-nuclear-alignment-heavy-ion-reactions",
+      "canonical_title": "Nuclear Alignment in Heavy-Ion Reactions (PRL 16, 1205)",
+      "raw_file": "raw/papers/1966_Diamond et al_Nuclear Alignment in Heavy-Ion Reactions.pdf",
+      "raw_sha256": "06FB82ECEBC0F1DA5441CAA5FB9272D481F469B1B39F402342AD31C8E55C8614",
+      "locators": [
+        {
+          "content": "重离子反应复合核大轨道角动量垂直取向",
+          "pdf_pages": "1–2",
+          "printed_pages": "1205–1206",
+          "formula": "Section 1, Table I",
+          "anchor": "The large orbital angular momentum carried into the compound nucleus by the incident projectile is perpendicular to the beam direction"
+        }
+      ]
+    },
+    {
+      "citation_key": "book-lin-heavy-ion-reactions",
+      "canonical_title": "重离子核反应 (林承键 2017)",
+      "raw_file": "raw/books/重离子核反应 (林承键) (Z-Library).pdf",
+      "raw_sha256": "792bfe7f7807623b7e1439b32eddb7320ab3ec6bf6be7e3894b436c1c9f65b2e",
+      "locators": [
+        {
+          "content": "熔合截面与临界分波角动量截断",
+          "pdf_pages": "122–127",
+          "printed_pages": "110–115",
+          "formula": "第 4.3 节式 (4.34)–(4.40)",
+          "anchor": "抛物线势垒穿透 Wong 公式及临界角动量截断"
+        }
+      ]
+    }
+  ]
+}

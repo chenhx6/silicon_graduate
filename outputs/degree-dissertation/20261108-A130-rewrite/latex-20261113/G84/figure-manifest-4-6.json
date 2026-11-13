@@ -1,0 +1,58 @@
+{
+  "worker": "G84",
+  "section_id": "4.6",
+  "recorded_at": "2026-11-13T08:38:09.758549+00:00",
+  "figure_id": "fig:seniority-node-accessibility",
+  "figure_title": "Quasi-spin Seniority Node Accessibility (Single-j Identical Fermions)",
+  "producer_script": "system/scripts/a130_seniority_node_figure.py",
+  "producer_script_sha256": "f9628363fd6c434c7066f60b4711258d83b4da2af8f94cd0f30c9f6acf281c1d",
+  "output_svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/seniority-node-accessibility.svg",
+  "output_svg_sha256": "2c38768fc352826ad40600f9e194701c607b65762ad5b7f4bec3129887031df7",
+  "output_pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/seniority-node-accessibility.pdf",
+  "output_pdf_sha256": "6f824e9d551556feb213b3c626f1b7b4d772eb361ae209608f74d09d48b420bb",
+  "model_data": {
+    "formula": "B(E2; n, v) / B(E2; v, v) = [(Omega_j - n) / (Omega_j - v)]^2",
+    "fixed_seniority": 2,
+    "panel_a": {
+      "Omega_j": 5,
+      "j": "9/2",
+      "physical_states_n": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "normalized_ratios": [
+        1.0,
+        0.1111111111111111,
+        0.1111111111111111,
+        1.0
+      ],
+      "algebraic_zero_n": 5,
+      "physically_accessible": false,
+      "reason": "n and v must have same parity (even-even: n in {2,4,6,8}), odd n=5 is unreachable"
+    },
+    "panel_b": {
+      "Omega_j": 6,
+      "j": "11/2",
+      "physical_states_n": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "normalized_ratios": [
+        1.0,
+        0.25,
+        0.0,
+        0.25,
+        1.0
+      ],
+      "algebraic_zero_n": 6,
+      "physically_accessible": true,
+      "reason": "Omega_j=6 is even, matching v=2 parity; n=6 is physically reachable, exact cancellation"
+    }
+  },
+  "disclaimer": "Pedagogical model generated strictly from analytical quasi-spin formula; no external experimental data or unverified error bars; not a direct half-life prediction."
+}

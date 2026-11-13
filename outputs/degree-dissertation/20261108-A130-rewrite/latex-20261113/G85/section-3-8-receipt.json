@@ -1,0 +1,25 @@
+{
+  "worker": "G85 (Gemini Tiered/high)",
+  "section_id": "3.8",
+  "title": "模式判断需要怎样的联合预言",
+  "recorded_at": "2026-11-13T15:20:00+00:00",
+  "task_status": "section-3-8-v2-fixed-delivered",
+  "canonical_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-8.tex",
+  "canonical_tex_sha256": "7a170a2d943fb32e44e16a2649e53b00c19d8c196b874a214156c96700b02b7d",
+  "canonical_ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-8.json",
+  "canonical_ledger_sha256": "51aeebcb13f1642e530a9661cd68dc10db8131086056f38acefd4433fa366fa5",
+  "math_and_syntax_verification": "PASSED_100_PERCENT_BALANCED",
+  "prohibitions_strictly_obeyed": [
+    "未修改公共ref.bib，新条目提供至new-references-3-8.bib供G76合并",
+    "不把未验3.6新数据当依据，只复用已验2.1-2.8/3.2/3.5与原件",
+    "不把模式标签等同于实验观测，波函数轨迹严格属于模型内部数学输出",
+    "不设通用delta、E2百分比或声子倍数绝对阈值，完整保留角分布双根分支",
+    "同一母态多B强协方差不计为独立重复证据，能谱重拟不等于留出验证",
+    "区分数据四层架构，不给无raw counts的虚假显著性检验",
+    "三个研究候选基于文献原件基线，不编造未知机时与个人硬件",
+    "102Ru严格澄清0+到1-不能直接E3激发，明确J/pi与K投影联系",
+    "跨区迁移基于微观占据与配对条件，不凭文献缺乏宣称首次发现",
+    "最终回复严禁使用Markdown加粗符号**",
+    "交付后停步交父审，绝不自动推进第4章"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "model": "Discrete Markov decay paths, transition-independent full absorption; no fit to a measured nucleus.",
+  "cascade_paths": {
+    "pure_1n": {
+      "('stable', 1)": "1"
+    },
+    "gamma_competition": {
+      "('stable', 0)": "1/4",
+      "('stable', 1)": "3/4"
+    },
+    "sequential_2n": {
+      "('stable', 1)": "1/3",
+      "('stable', 2)": "2/3"
+    },
+    "fission_joint_terminal": {
+      "('fission', 2)": "1/2",
+      "('stable', 1)": "1/2"
+    }
+  },
+  "frozen_recursion_failure": "For a --1n--> stable, frozen formula returns Pi_0(a)=1 and Pi_1(a)=0 because x is never decremented.",
+  "markov_memory": {
+    "network": "a --1n--> b --gamma--> stable",
+    "path_result": {
+      "('stable', 1)": "1"
+    },
+    "without_count_augmented_state": "terminal exit of b alone is a 0n step; it cannot encode the earlier 1n without remembering history",
+    "boundary": "A total neutron count or an equivalent sufficient history must be part of the state or represented by a generating function."
+  },
+  "seniority": {
+    "j": "9/2",
+    "Omega": 5,
+    "v": 1,
+    "allowed_n": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "frozen_top_denominator_ratios": [
+      "-1",
+      "-1/2",
+      "0",
+      "1/2",
+      "1"
+    ],
+    "lowest_reference_correct_ratios": [
+      "1",
+      "1/2",
+      "0",
+      "-1/2",
+      "-1"
+    ],
+    "v2_allowed_n": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "v2_half_filling_accessible": false
+  },
+  "normalization": {
+    "beta_branch": "4/5",
+    "beta_conditional_gamma_competition": {
+      "0": "1/4",
+      "1": "3/4",
+      "sum": "1"
+    },
+    "beta_delayed_per_parent": {
+      "0": "1/5",
+      "1": "3/5",
+      "sum": "4/5"
+    },
+    "all_parent_neutron_multiplicity_with_other_alpha": {
+      "0": "2/5",
+      "1": "3/5"
+    },
+    "all_parent_neutron_multiplicity_with_other_fission_one_neutron": {
+      "0": "1/5",
+      "1": "4/5"
+    },
+    "boundary": "Other neutron-producing channels are not beta-delayed even if they contribute to ungated counts."
+  },
+  "ikeda_one_neutron": {
+    "spin_up_strength_minus": 3.0,
+    "spin_down_strength_minus": 3.0,
+    "strength_plus": 0,
+    "initial_M_sum_without_division": 6.0,
+    "two_Ji_plus_one": 2,
+    "initial_M_average": 3,
+    "N_minus_Z": 1,
+    "bare_difference": 3,
+    "q": "7/10",
+    "q_scaled_difference": "147/100",
+    "boundary": "Single-nucleon test of convention, not a proof of many-body sum rule."
+  },
+  "beta_prefactor": {
+    "GF_MeV_minus_2": 1.16638e-11,
+    "Vud_illustrative": 0.974,
+    "electron_rest_energy_MeV": 0.51099895,
+    "hbar_MeV_s": 6.582119569e-22,
+    "K_uncorrected_seconds": 6291.7688841113495,
+    "boundary": "Leading-order illustrative normalization with gV=1; do not equate this constant to tabulated K without matching electroweak and radiative correction conventions."
+  },
+  "provenance": {
+    "script_sha256": "ee1d3f9a7919b93146fb4083a7333e06479fb55ae4438a6794029d3577baf64a",
+    "runtime": "Python standard library only"
+  }
+}

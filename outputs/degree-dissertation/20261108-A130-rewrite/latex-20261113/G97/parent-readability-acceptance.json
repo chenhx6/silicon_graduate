@@ -1,0 +1,85 @@
+{
+  "task_id": "G97",
+  "verdict": "selective-acceptance-with-corrections",
+  "patch_results": [
+    {
+      "patch_id": "PATCH-G97-01",
+      "verdict": "accepted-exact-context",
+      "changed": true
+    },
+    {
+      "patch_id": "PATCH-G97-02",
+      "verdict": "rewritten-conditionally; general-H-and-LW-not-assigned-TW-only-axes",
+      "changed": true
+    },
+    {
+      "patch_id": "PATCH-G97-03",
+      "verdict": "accepted-exact-context",
+      "changed": true
+    },
+    {
+      "patch_id": "PATCH-G97-04",
+      "verdict": "accepted-exact-context",
+      "changed": true
+    },
+    {
+      "patch_id": "PATCH-G97-05",
+      "verdict": "accepted-prose-only-preserving-inline-equation",
+      "changed": true
+    },
+    {
+      "patch_id": "PATCH-G97-06",
+      "verdict": "accepted-prose-preserving-iff-and-equations",
+      "changed": true
+    },
+    {
+      "patch_id": "PATCH-G97-07",
+      "verdict": "adapted-to-actual-current-line; retained-physical-limit",
+      "changed": true
+    },
+    {
+      "patch_id": "PATCH-G97-08",
+      "verdict": "title-only; proposal-body-stale-and-removed-useful-boundary-conditions",
+      "changed": true
+    },
+    {
+      "patch_id": "PATCH-G97-09",
+      "verdict": "rejected; TiP-not-universally-confined-to-principal-plane; nonzero-vector-components-alone-do-not-establish-all-broken-symmetries",
+      "changed": false
+    },
+    {
+      "patch_id": "PATCH-G97-10",
+      "verdict": "title-only; current-text-already-covers-integer-and-half-integer",
+      "changed": true
+    },
+    {
+      "patch_id": "PATCH-G97-11",
+      "verdict": "rejected-stale-or-invented-context; actual-eq2-1-6-is-angular-momentum-commutator",
+      "changed": false
+    },
+    {
+      "patch_id": "PATCH-G97-12",
+      "verdict": "adapted-short-clause; retained-energy-units-and-BCS-symbol-distinction",
+      "changed": true
+    }
+  ],
+  "changed_sections": [
+    "2.2",
+    "2.3",
+    "2.5",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.7",
+    "3.8"
+  ],
+  "math_boundary": "Display equation and align bodies unchanged. No wholesale polishing or proposal-source adoption.",
+  "reviewer_flag_adjudication": {
+    "FLAG-PHYS-01": "Existing zero-norm and positive-metric condition retained; suggested source locators not accepted without direct reading.",
+    "FLAG-PHYS-02": "Actual3.3 already distinguishes energy minimum from merely real frequency; no change needed.",
+    "FLAG-PHYS-03": "Actual3.7 already treats both spin parities: T commutes with rotations and C²=(-1)^(2I)(-1)^(2I)=+1. Reviewer implication of a different C² algebra rejected.",
+    "count_boundary": "Reviewer numerical prose counts/scores not used as acceptance criteria."
+  },
+  "recorded_at": "2026-11-13T17:57:55.805448+00:00"
+}

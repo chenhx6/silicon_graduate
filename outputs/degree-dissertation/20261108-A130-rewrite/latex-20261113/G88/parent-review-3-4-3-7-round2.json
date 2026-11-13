@@ -1,0 +1,79 @@
+{
+  "recorded_at": "2026-11-13T11:57:06.805505+00:00",
+  "status": "returned-after-parent-reading",
+  "sections": [
+    "3.7",
+    "3.4"
+  ],
+  "instruction": "Preserve accepted fixes and original-reading progress; targeted revisions only. Neither section is accepted or in the 220-page release.",
+  "knowledge_ownership": "G88 owns general parity-chirality-and-e1-limits note. G90 owns separate br-as-parity-chiral-evidence note; no shared writes.",
+  "section_3_7": [
+    {
+      "id": "37-1",
+      "severity": "hard-algebra",
+      "action": "Your BE1=3/(4π)D0² CG1² and BE2=5/(16π)Q0² CG2² imply ratio12/5, not8/5 in eq3-7-D0-Q0-ratio. Correct equation, any inversion, ledger and own knowledge. Show exact rational prefactor control, no fitted physics."
+    },
+    {
+      "id": "37-2",
+      "severity": "hard-algebra",
+      "action": "For integer I/even fermion number, T²=+1 and Ry(π)²=+1. For half-integer I/odd fermion number, both−1. With T commuting with rotations, C²=T²Ry²=(-1)^(4I)=+1 in either case. Current sentence says integer/even yet T²=−1: wrong. Do not replace Kramers theorem itself: this C does not force a Kramers pair, but other symmetries can have degeneracies."
+    },
+    {
+      "id": "37-3",
+      "severity": "logical-scope",
+      "action": "Invariance of scalarχ under spatial reflection does not prove the whole oriented state or three-vector configuration is reflection invariant. Replace that inference by the precise statement that ordinary spatial reflection does not reverseχ, hence this handedness is not a parity-odd order parameter. T alone also reversesχ; TRy(π) is the standard convenient body-fixed chiral operation, not the unique possible sign-reversing transformation."
+    },
+    {
+      "id": "37-4",
+      "severity": "operator-versus-dynamics",
+      "action": "q3 is constructed from E2 tensors, not an E3/octupole observable. This distinction does not prove dynamical decoupling of quadrupole/octupole sectors or require beta3=0. In a coupled state q3 can vary through wavefunction changes. Remove overstrong strict-decoupling language; retain normalized q3 convention and units."
+    },
+    {
+      "id": "37-5",
+      "severity": "source-dependence",
+      "action": "Bucher146Ba E1 constraints largely use previous τ/BR, whereas this CoulEx constrains E3; do not present every E1 entry as a new independent measurement. Report B(E3) and RME as source-rounded values with asymmetric errors, not exact converted equality. Original TableI and figs must be physically read."
+    },
+    {
+      "id": "37-6",
+      "severity": "model-interpretation",
+      "action": "If giving Dmacro+Dmicro, label as one macroscopic+shell decomposition convention. The cited SCCM explanation specifically compares neutron and proton contributions; do not identify these as the same macro/micro terms or claim universal opposite signs. Strong E3 does not alone establish a rigid static pear; keep soft-octupole alternative. E1/M2 mixture text can remain with actual angular momentum/rank domain."
+    }
+  ],
+  "section_3_4": [
+    {
+      "id": "34-1",
+      "severity": "hard-units",
+      "action": "New first comparison item quotes hbarω=sqrt[(hbar I/Jy−hbarωrot)(hbar I/Jz−hbarωrot)], mixing frequency with energy. For dimensionless I and physical J, use ω=sqrt[(hbar I/Jy−ωrot)(hbar I/Jz−ωrot)] or hbarω=sqrt[(hbar² I/Jy−hbarωrot)(hbar² I/Jz−hbarωrot)], with declared model/domain. Better reference canonical3.2 instead of copying a different general formula under eq3-2-limit2-nonzero."
+    },
+    {
+      "id": "34-2",
+      "severity": "physical-conditions",
+      "action": "Do not make quasiparticle self-consistent rearrangement much slower than oscillation an universal phonon/RPA requirement, or compare a rate with a period. Separate parameter evolution along a spin sequence from actual time evolution, frozen-alignment assumptions from frequency-dependent microscopic response, and adiabatic elimination from isolated stable small-amplitude mode. Read accepted3.6; a coupled RPA mode can still be harmonic."
+    },
+    {
+      "id": "34-3",
+      "severity": "data-interpretation",
+      "action": "Level energies plus relative branches alone do not give absoluteB. A direct lifetime measurement is not the only possible absolute constraint: CoulEx/other absoluteRME data can provide it. Clarify conditional lack-of-input statement rather than a universal lifetime prerequisite."
+    },
+    {
+      "id": "34-4",
+      "severity": "model-interpretation",
+      "action": "Do not impose smallM1 as a universal consequence even of frozen-alignment wobbling; it depends on magnetic operator/g factors and microscopic polarization. Frauendorf2014 QTR itself has M1 limitations. 1/I is a stated large-I local limit with fixed parameters, not all spin domains."
+    },
+    {
+      "id": "34-5",
+      "severity": "scope",
+      "action": "Replace final claim that judgment must rely on one enumerated microscopic/QTR class. Phenomenological effective models can also give falsifiable joint predictions. Polarization gives complementary electric/magnetic character, not by itself direct level parity, and same-event DCO/P are not automatically statistically independent."
+    },
+    {
+      "id": "34-6",
+      "severity": "terminology-and-boundary",
+      "action": "Egamma/(hbar c) is photon wave number, not photon momentum kinetic-energy factor. Preserve T17 finite-K, R units, axial gauge and frame corrections. In 1D reflection-symmetric odd state, anharmonicity alone does not remove central node; finite-spin projected/marginal distributions need their own definitions."
+    }
+  ],
+  "delivery": [
+    "Revise3.7 first and return single-section receipt mapping37-1..6, then3.4 mapping34-1..6.",
+    "Synchronize canonicalTeX/ledger/own note and actual SHA.",
+    "Do not write globalBib, wrappers, figures of other owners or Git. No new child agents."
+  ]
+}

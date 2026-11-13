@@ -1,0 +1,72 @@
+{
+  "section_id": "4.6",
+  "worker": "G84",
+  "recorded_at": "2026-11-13T08:39:18.775054+00:00",
+  "status": "ten-return-items-fully-repaired",
+  "repairs_itemized": [
+    {
+      "item": 1,
+      "topic": "Seniority v 与配对算符归一化",
+      "resolution": "明确 v 为纯单 j 壳层/指定配对哈密顿量下的准自旋量子数标签，非一般形变场 BCS 准粒子数；明确全壳层集体对产生算符归一化 S_+ = sqrt{Omega_j} P^dagger，与第2.3节单轨道对产生算符 P_k^dagger 区分；其余简并度标签 alpha 在同一多重态比较中固定。"
+    },
+    {
+      "item": 2,
+      "topic": "v = Omega_j 准自旋单态边界",
+      "resolution": "澄清 v = Omega_j 对应总准自旋 S = 0（准自旋单态），准自旋空间 Wigner-Eckart 矢积系数 C_{0010}^{00} = 0，Delta v = 0 跃迁矩阵元在物理上受自旋代数选择定则限制，物理矩阵元不发散，亦不意味着该核素仅存在唯一的量子态。"
+    },
+    {
+      "item": 3,
+      "topic": "Delta v = 2 跃迁代数特征",
+      "resolution": "解释 rank-1 准自旋张量算符在准自旋空间允许耦合 S 与 S pm 1，导致改变未配对数 Delta v = pm 2 的非零矩阵元，其在半满壳并不相消，删除未定义初末态 conventions 的无条件根式。"
+    },
+    {
+      "item": 4,
+      "topic": "多 j 混合与有效两体算符修正",
+      "resolution": "阐明多 j 壳层组态混合、有效两体电算符与核芯极化微扰会改变相消的精确节点位置与曲率，真实能谱中零点演化为局域极小值，区分纯单 j 抛物线与真实复杂核行为。"
+    },
+    {
+      "item": 5,
+      "topic": "130Sn 采用数据与粒子-空穴对称性反向核验",
+      "resolution": "依据 NNDC NuDat 3 快照（Singh 2001 NDS 评价），130Sn 1.61(15) us 异能态为 (10+) 态（Ex = 2434.79 keV），通过 96.54(5) keV E2 射线退激至 (8+) 态（2338.26 keV），B(E2) = 0.38(4) W.u.，alpha = 1.829；在 pure h_11/2 (Omega_j=6, n=10, v=2) 下 reduction 因子为 -1，属于粒子-空穴对称态而非处于半满相消零点（相消零点在 n=6 的 122,124Sn 区域），长寿命源自 96.54 keV 低能相空间极度压制与大内转换分流。"
+    },
+    {
+      "item": 6,
+      "topic": "Nilsson 轨道投影 Omega_i 与 K 量子数",
+      "resolution": "纠正 Omega_i = Lambda_i + Sigma_i，其中 Sigma_i = pm 1/2 为带符号自旋投影；K 为选定体轴强耦合内禀投影，不同于实验室 M；指出轴对称转动核中 Coriolis 耦合仍会引起微扰破缺，不能说 gamma=0 自动使 K 绝对严格。"
+    },
+    {
+      "item": 7,
+      "topic": "178Hf 16+ 案例与 f_nu 操作定义",
+      "resolution": "保留 178Hf 16+ 四准粒子态（Ex = 2446 keV, 31 y）微观组态，删去直达基态带的假想未测分支，聚焦其实测退激至 K^pi = 8^- 带的 495 keV E3 分支（Delta K = 8, nu = 5）；明确 f_nu = (F_W)^{1/nu} 是谱学操作定义，非准自旋 SU(2) 推导的普适微观幂律预言。"
+    },
+    {
+      "item": 8,
+      "topic": "三轴 K 混合双端干涉求和与基矢正交性",
+      "resolution": "严格保留双端混合求和式 sum_{K, K'} c_{K'}^{(f)*} c_K^{(i)} M_{K' K}；指出单项 |c|^2 仅为主导路径近似；明确 |IMK> 为正交粒子-转子模型（PRM）基底，非正交投影基底须计入度规重叠矩阵归一化。"
+    },
+    {
+      "item": 9,
+      "topic": "双峰裂变位垒 WKB 隧穿与 242Am 状态区分",
+      "resolution": "保留 WKB 作用量指数积分，删除未指明势垒质量参数却宣称 10^-10..10^-15 的范围断言；指出真实寿命受双峰门态共振杂化与内外位垒分支比调制；明确 242Am 14 ms 裂变异能态位于 Ex ~ 2.2 MeV，严格区分于 48.6 keV 的 5^- 长寿自旋异能态（141 y）；不把超形变毫秒裂变概括为全部形状异能态定义。"
+    },
+    {
+      "item": 10,
+      "topic": "台账与源文件真同步",
+      "resolution": "建立新源 knowledge/sources/nndc-130sn-adopted-2001-snapshot-20261113.md，更新 new-references-4-6.bib，canonical 与 local ledger 完全对齐更新后的实际 tex SHA。"
+    },
+    {
+      "item": 11,
+      "topic": "准自旋阶梯离散粒子数同奇偶条件 (n 与 v 同奇偶)",
+      "resolution": "导出阶梯 n = v, v+2, ..., 2Omega_j - v 使得 n 与 v 必须同奇偶；代数相消点 n = Omega_j 只有当 Omega_j 与 v 同奇偶时物理可达。例如 j=9/2 (Omega_j=5) 偶数 v=2 永远无法取到奇数 n=5；j=11/2 (Omega_j=6) 的 v=2 可取到 n=6。标明为教学推论非新实验发现，说明不限制 j=9/2 其他机制，平均场非整数占据数不可直接套用。"
+    }
+  ],
+  "figure_added": {
+    "figure_id": "fig:seniority-node-accessibility",
+    "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/seniority-node-accessibility.pdf",
+    "pdf_sha256": "6f824e9d551556feb213b3c626f1b7b4d772eb361ae209608f74d09d48b420bb",
+    "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/seniority-node-accessibility.svg",
+    "svg_sha256": "2c38768fc352826ad40600f9e194701c607b65762ad5b7f4bec3129887031df7",
+    "producer": "system/scripts/a130_seniority_node_figure.py",
+    "producer_sha256": "f9628363fd6c434c7066f60b4711258d83b4da2af8f94cd0f30c9f6acf281c1d"
+  }
+}

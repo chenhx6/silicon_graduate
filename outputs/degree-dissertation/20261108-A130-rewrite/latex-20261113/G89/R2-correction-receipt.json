@@ -1,0 +1,15 @@
+{
+  "receipt_type": "r2-correction-and-boundary-audit",
+  "worker": "G89",
+  "section_id": "4.8",
+  "recorded_at": "2026-11-13T21:15:00+08:00",
+  "findings": {
+    "error_identified": "G89 previous commentary report inadvertently stated that the weak negative-parity beta branch of 176mLu to the 2- level was 0.009%. The correct intensity evaluated in NNDC dataset 200602 for the 1247.62(6)-keV 2- state is 0.00146(4)%.",
+    "tex_text_status": "Clean. In raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-8.tex, the text only stated '极微弱允许分支' without quoting the erroneous numerical figure 0.009%, so no numerical corruption occurred in the dissertation TeX.",
+    "research_note_status": "Corrected. In knowledge/research-notes/a130-rewrite-environment-formation-observability-20261113.md line 26, the erroneous 0.009% was present and has been corrected to 0.00146(4)%.",
+    "ledger_status": "Synchronized. In raw/writing/gpt/A130/latex-evidence-ledger/section-4-8.json CLAIM-4-8-4, the branch intensity is recorded as 0.00146(4)%, referencing canonical source nndc-176lu-isomer-beta-2006-snapshot-20261113.",
+    "normalization_boundary": "In the NNDC 200602 dataset, the dominant beta branches to 176Hf ground band 0+ (39(2)%) and 2+ (61(2)%) sum to 100% under the decay dataset normalization convention BR=1, NB=1. In the Adopted Lu levels, a small electron capture (EC) branch of 0.095(16)% and beta- branch of 99.905(16)% are noted. This difference in normalization conventions is retained as an evidence boundary.",
+    "evaluation_temporal_boundary": "The evaluated dataset header is 200602 with literature cutoff 15-Sep-2005 (M. S. Basunia, Nuclear Data Sheets 107, 791 (2006)); retrieval date 2026-11-13 does not represent a new 2026 evaluation.",
+    "carrier_locator_audit": "The local frozen adopted.pdf contains 42 physical pages (verified via PyMuPDF), of which physical pages 1-2 were inspected. The beta decay data itself derives from the frozen text extract (lines 25-38, 60-62) with provenance tracked in manifest.json."
+  }
+}

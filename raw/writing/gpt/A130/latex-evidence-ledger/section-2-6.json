@@ -907,5 +907,7 @@
     "limitation": "Local format/syntax check only; G76 owns integrated compilation, parent owns scientific acceptance"
   },
   "parent_final_tex_sha256": "ad956ea0748a82b31e82a917df2d16fec1b744be1ce72f91c875eec0ae55ad64",
-  "integration_status": "included-in27-section-clean-preview"
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-6.tex",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
 }

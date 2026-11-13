@@ -1,16 +1,81 @@
 ---
 graph-excluded: true
-updated: 2026-11-13
+updated: 2026-11-14
 ---
+
+## 2026-11-14 session — A130 五章39节与A–F附录最终研究稿
+
+- 沿用原生goal `01a1b53d-130f-7f42-985b-7a51dbc9f8d0`，有限前置非个人成果范围已完成内容、整稿工程与核验；实际提交推送结果见 `outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/publication-final-receipt.local.json`。稳定指针为 `main / thesis: complete A130 nonpersonal foundations in LaTeX`。
+- canonical仍为精确`raw/writing/gpt/A130/these_2023_template/these_template/Thesis.tex`，PDF374物理页；五章39节、附录A–F、19组实际引用SVG/PDF图、3项CSV与6组有限控制。全稿不含未知个人实验、装置或成果，不声称学校送审就绪。旧Markdown只保留为历史输入。
+- 最终隔离编译 `final39/final-build.json` 为CLEAN_PASS：致命、缺失引用、越界、缺字及BibTeX错误/警告全0；保留91项underfull提示。89项实际工程输入已与canonical逐字节核对；45份正文/附录ledger输出绑定已刷新。附C独立ledger已补建，来源继承已接受2.6的实际底本和locator。
+- 374页文字块边界扫描全通过；21个代表页及长表额外抽查，5.10表头按视觉结果重排并明确数字仅是教学设置。19组图均实际载入，没有缺图回退框。未开展真实初学者阅读试验。
+- D已接受：M3准自旋标量出口不由偶E相消关闭，但非零RME不意味着有能量释放；双端投影与范数/W–E约定；FF未极化角积分能谱分秩相加、同秩干涉；NN散射CIB约束；有限窗未吸收质量；中子阈值非零领先系数条件；奇异特定源定态族、单向Jordan反例与Lindblad条件。T23/T24实际重放，T26两项发现已由父解决；旧wing/weak笔记同步。
+- 新永久知识入口为统计协方差note与seniority/projection/open-network note。G105已取得并归档2016 Maheshwari/Jain实际OA出版原件（DOI 10.1016/j.physletb.2015.11.079），总控核读前三页；合同临时题名误标已纠正，不声称作者曾使用该题名。多j电奇阶与纯单j磁奇阶规律分开，不计新独立实验。
+- 主体执行继续按Gemini/high既有交付验收；最终工程G104报告provider账户停用403后，父接管有限集成，未绕过服务停用。全部worker写域已关闭。复杂窄审仍为Terra/xhigh。
+- 归档门、boundary与automation preflight通过。全库lint为132项范围外错误；本任务所涉知识页错误清零，不宣称全库绿。正式发布仍检查显式staged清单、diff及非force精确refspec。
+- 原11月8日34项归档后来被外部移除：17项正文/源/PDF可按历史SHA从Git恢复，17项编译中间物未恢复；保持用户manifest删除。模板原始49项仍由已发布bundle保护。不要扩大至其它大小写手稿、PADO、PLAN、system/memory、Zotero inbox或daily状态。
+- 日历采用用户会话2026-11-14；实际执行UTC为2026-11-13，具体时间逐回执保存，不虚造未来获取时刻。后续高价值物理问题是新的研究路线，不作为此有限写作goal的未完成门。
+
+以下保留此前检查点历史；恢复本任务时以本段及final39实际回执为准。
+
+## 2026-11-14 — A130：39节正文均已父验，D/F与最终工程继续
+
+- 原native39节goal仍active。5.10父验收在G93/section-5-10-parent-acceptance.json，5.7在G100/section-5-7-parent-acceptance.json；rootstatus已39，全部正文先标typesettingpending，不能把这当wholegoal完成。
+- 5.10父最终修B_S=B_mu/c²（不是无量纲spin）、PPP条件、Hessian完整/剖面条件与同时/边际覆盖；重构错误的统计图：旧左曲线没有保住第二极小/假Hessian，旧右图错误把观测均值搬到0；现保两极小、实际二阶近似、同一Gaussian观测下qphys=mu²+1.2mu。system/scripts/a130_inference_figure_control.py实际执行6项检查通过，结果outputs/l4/20261114-A130-inference-figure-controls/results.json；不是FC覆盖模拟。
+- G1005.7全文已读，父补Q/Qk同无量纲、Q非零、偏振非唯一、电磁观测共享事件的相关性、GLS/端点条件；复跑G100/validation.py通过，图根与P吻合、视觉核过；勘误无全文，不采候选Bib‘不改公式’注释。G100/G98都已关闭，不resume假定模型。
+- G92诊断33节工程已CLEAN_PASS/310页，83输入哈希实配；父看物理页183Lu大表/194BrAs表，已审核合入5文件格式差异（G92/parent-format-integration.json），保G97标题/n_w解释标签/旧tablealias，没回灌旧PDF。public PDF仍27/220。
+- 新G104（仍Peirce/G92 sameopen Gemini）按G104/contract.json处理最新39正文隔离工程，路径tmp/a130-final39-20261114/{project,build}，只写tmp/G104；不要用旧33原文覆盖新science。先39+A/B/C/E/F旧范围排版，D/Fexpanded解锁后再全稿必要重编，交patch和inputmanifest供父最终验。
+- G96仍仅D+旧wing/weaknotes；G101仍F19图R2staging（已明确12项错误分类与表格/哈希要求）；G102为原G93线程，只写永久统计研学note与G102receipt，canonical5.10已父接管。current_ownership已正式改输出plan，不再只靠附加override。
+- 接下来：验D与旧notes（C0、同v偶L/IC/M1、n/v允许占据、Γn重复能因子、开放网络退化/稳态/快慢根等）；验F19图实际producer/params/claims，不能把weak概念图叫门限仿真、inference图叫FC覆盖、env图叫声子浴计算；验G102note并索引；然后统一39/fullA-F编译、source/hash与notation/phase/labels/嵌图检查、视觉、publication gates、显式commit/非forcepush。
+- 本轮尚未commit/push。memory/PLAN/PADO/daily/旧归档manifest删除及其它大小写稿保护不变；userdate14与机器UTC13分开记录。
+
+## 2026-11-14 — A130续接：37节已父验，余5.7/5.10与D/F收束
+
+- 原生39节goal保持active，不创建新目标。public PDF仍27节/220页；新33节隔离工程的最后G92报告为FATAL_FAILURE（310页文件不可当合格预览），不要复制。
+- 本轮新增父接受5.6、5.2、5.8、4.7，分别见latex-20261113下G93/G99/G98/G96的section-*-parent-acceptance.json。5.8父修零居中奇数卷积核，实际控制outputs/l4/20261114-A130-lifetime-response-controls/results.json全通过；图已视觉核。4.7初态GT统计平均一次、S/f/t同号、t_-接触势映射及Pi_(x-r)正确，图已父最终重画，均已接管。
+- G97读者建议已选择性合入九节，显示公式未改；3.1前向引用、3.3局部/几何轴映射修正，不采不实TiP普适平面或虚构2.1引文。原current37项与全部最新SHA需最终编译后统一reconcile。
+- 活跃Gemini：G92=01a1d461-d238-71e0-a12b-5a201d70f6bd，仅冻结33工程格式；G93=01a1d586-2e67-7a52-b4f0-6b9e62701eb3，仅5.10 R3；G96=01a1d5a4-12b2-71d0-bae5-1e99d32ceb23，仅D及旧wing/weaknotes；G100=01a1d61b-c001-7332-9941-10bbe85ae145，仅5.7/T19；G101=01a1d4a1-c1d0-76d1-9ea4-f16c26f8873c，仅F19图staging。G98已交父接管并关闭，不resume假定model。6路已实际核turn_context为GeminiTiered/high，回runtime-model-20261114-continuation.json。
+- G92当前fatal根因已读日志：4.5新引入makecell未加载宏包，改本工程已有shortstack[l]即可；只余4.4约10pt单元格需定点修。已interrupt要求再一轮交diff与report。父随后须按精确patch合入，不能回灌冻结老正文而擦掉G97/新science。封面旧logo已逐字节比原模板备份后可恢复移出active，Frontinfo schoollogo已空；新compile须纳入。
+- 5.10 R3已交，仍需父最终核：PPP低每束团概率不自动成立；文末把B_S误当无量纲自旋几率，须沿已接受A/5.9的M_S=M_mu/c、B_S=B_mu/c²或直接只报B_mu(muN²)，不要用muN²*B_S新错式。总分支b_tot/光子份额与KS表头R3已修。父实核Zhu PDF393–395/印377–379 §11.2是FC，PDF396/印380 §11.3是Roe-Woodroofe，父前一条导航已明确撤回；Wilks在PDF410起/印394。BehnkePDF55/印37为Wilks§2.3.4.1，PDF138/印122 Table4.2及139/印123为FC；BonamentePDF103–107/印83–87误差传播。4个rawSHA均实配。
+- G101 F第一版不接受，已给12点R2：19行表需longtable（主工程已有），长id/path断行，TeX只12位SHA；mode是二态能量、workflow不保正交/消简并、BrAs不新增轨道/跨版本唯一映射、seniority需允许n/v、weak只是示意非门限仿真、environment非声子浴计算、inference非实际FC覆盖模拟、coincidence非双门环路消除；5数字控制只能报实际卷积/递推、常基线、幅度缩放、失配和割线项。当前19图根只按正文引用提取，不纳未引用rotor图。
+- 已核accepted34 raw集合91个不同路径/184次登记，实际字节hash全匹配（1项仅大小写，非差异）；新增5.2三源/5.8三源/4.7六源亦核。changed archive gate和boundary通过；full lint当前137 errors，其中5个本任务未索引页已补链接，最终仍需跑并报告历史基线，不宣称全库绿。digital-implementation旧note的C0/假FIFO页已父重建为一致性入口；oldwing/oldweak仍由G96随D修。
+- 本轮未commit/push；保护用户memory/PLAN/PADO/daily、旧归档manifest删除与其它大小写稿。旧17源/PDF可Git恢复、17中间物不称已恢复。session_date为用户2026-11-14，机器实测UTC仍2026-11-13，回执分别登记，不伪造采集时间。
+
+## 2026-11-14 — A130续接：34节科学验收，原39节goal仍active
+
+- 本轮接受5.6，回执`outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G93/section-5-6-parent-acceptance.json`。父实际看Wu PDF300–302/印292–294/Fig10.38，更正worker错误的α磁谱页引文；方差与门密度插值标为本稿条件推导。
+- G97读者建议已选择性合入九节，显示公式保持；拒绝TiP必在主平面、无条件轴号映射及虚构2.1原句。详见G97/parent-readability-acceptance.json。这些修改尚需统一编译。
+- 当前余正文4.7、5.2、5.7、5.8、5.10及附D；A/B/C/E/F科学范围已验。分工：G93仅5.10→5.7；G98仅5.8；G96先4.7后D；G99独占5.2；G92工程编译。旧队列重叠以新ownership记录为准。公开PDF仍27节/220页，不能把34节未编译科学状态当新PDF。
+- 本轮尚未commit/push；保护既有memory/PLAN/PADO/daily/原归档删除与其它大小写手稿。原生goal不替换、不因检查点标complete。
+
+## A130续接：32节科学接受，公开PDF仍27节
+
+- 原五章39节goal继续active；新增3.8/4.4/4.8已父核原件、重建ledger与知识页并验图，连同3.4/3.7共32节。接受回执G91/G90/G89；不能报32节已编译。公开入口仍27节220页。
+- T20已父验窄审；5.9主率式保留、KS/F相位标签及算例单位由G92精确修，另有旧Rose–Brink并列句须同改。G92工程只纳父接受白名单，最新32及B/C/F。
+- T21弱算符/中子计数窄审已父重放；正文及AppendixD仍待改。T21原误冻E保持provenance，不再误称弱算符附录。Terra线程已完成关闭，新GeminiG96（01a1d5a4-12b2-71d0-bae5-1e99d32ceb23）负责4.7/D并核accepted2.7相位桥。
+- 其余Gemini写域：G93五方法节5.2/5.6/5.7/5.8/5.10；G91仅4.5R3；G94（同G90）仅A；G95（同G89）仅E。3.8/4.4/4.8及对应notes/图已父接管。当前所有权plan是唯一调度入口。
+- 原件复核澄清：102Ru Fig2确有2953.2(19)keV，保留；98Mo原表带内603.1/475.1keV与787.2keV参考已核，假母态1.5%/5.7%已从实际正文/台账/note清除。Bertulani本地PDF4–5确为2021第二版，非版本错误。
+- Gemini一旧turn有403，当前多个原配置turn有实际进展；没有变更凭据/端点或宣称全服务恢复。保护memory/PADO/PLAN/旧归档删除及其它手稿；未将候选或页数作为完成标准。
+
+## 2026-11-13 — A130：29节科学接受，公开PDF仍27节；Gemini主写续接
+
+- 原生五章39节goal继续active。3.4/3.7见G88父验收；尚未编入公开PDF。十节及附A/D/E待验，不能把草稿文件存在当通过。
+- G79终态403账号禁用后已关闭，原产物保留；新Gemini G93接5.2/5.6/5.7/5.8/5.10。G88同配置ACK成功后转G92工程准备；尚未核其最新runtime，不宣称全服务恢复。
+- G91的3.8 R2有新增实核数字错误，已发R3并给98Mo原表603.1/475.1keV、8.94(45)/9.89(25)等核定数据；Ru102无原件依据的精确数值须移除或核实。G89收4.8R3最后边界意见。
+- T20窄审发现A的SI核磁子定义、物理B_S漏e²、BM归一、自伴RME和9j降阶相位等错误，父已重放控制；G94（同G90）专修A。5.9主率公式保留，KS/RB标签与教学例单位须窄修，不统一翻实验δ。T21审核冻结4.7/E的计数级联、Ikeda与弱算符接口。
+- 唯一当前所有权见outputs/plans/20261113-A130-remaining-sections.json；旧worker队列仅历史，5.10归G93。归档原34项外部删除边界不变，保护memory/PADO/PLAN和其它稿。
 
 ## 2026-11-13 — A130：27节／220页检查点，原39节goal继续
 
 - canonical LaTeX入口为`raw/writing/gpt/A130/these_2023_template/these_template/Thesis.tex`，PDF同目录。纳入1.1–1.5、2.1–2.8、3.1/3.2/3.3/3.5/3.6、4.1/4.2/4.3/4.6、5.1/5.3/5.4/5.5/5.9及已交付附B/C/F范围。`checkpoint27/build_report.json`为CLEAN_PASS：220页，fatal/cite/ref/glyph/overfull/Bib问题0，13条非致命underfull。尚非全文完成或学校送审稿。
 - 最终工程对账：64项冻结工程输入集合（不声称可选样式全被TeX读取）、9组SVG/PDF及producer实际SHA一致；27节与B/F台账111个原件哈希核对0问题。2.8旧三处SHA和q3归一错误已修；不要沿用旧错误报告。相应回执在`outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/checkpoint27/`。
 - 本批稳定发布指针：`main / thesis: expand audited A130 foundations to 27 sections`；实际commit/push和精确hash只回本批`publication-final-receipt.local.json`，不得把未验章节混入此检查点。知识增量含FA曲率/稳定域、形状—取向耦合、seniority允许占据与K选择、多极M1单位、最终级联和DDCM门条件。
-- 活跃主写均Gemini Tiered/high：G79=`01a1d274-e82c-7bc0-af59-22fac97251d4`，5.2/5.6/5.7/5.8/5.10/E及后续4.7(T16)/3.8/A/D；G88=`01a1d461-d238-71e0-a12b-5a201d70f6bd`，3.7后返修3.4；G89=`01a1d469-e510-7fe3-9c8b-005d2362e820`，4.8；G90=`01a1d4a1-c1d0-76d1-9ea4-f16c26f8873c`，4.4后4.5。最新一写者清单见`outputs/plans/20261113-A130-remaining-sections.json`的current_ownership及G79 recovery queue；旧失败worker分配为历史。父独占Bib/wrappers/build/global figure manifest/index/Git；共享锁是protocol-only。
+- 活跃主写均Gemini Tiered/high（当前五路）：G79=`01a1d274-e82c-7bc0-af59-22fac97251d4`，5.2/5.6/5.7/5.8/5.10/E及后续4.7(T16)/D；G88=`01a1d461-d238-71e0-a12b-5a201d70f6bd`，3.7后返修3.4；G89=`01a1d469-e510-7fe3-9c8b-005d2362e820`，4.8；G90=`01a1d4a1-c1d0-76d1-9ea4-f16c26f8873c`，4.4后4.5；G91=`01a1d4b3-f63a-7771-98e1-37077c9940a9`，3.8后附A。最新一写者清单见`outputs/plans/20261113-A130-remaining-sections.json`的current_ownership及G79 recovery queue；旧失败worker分配为历史。父独占Bib/wrappers/build/global figure manifest/index/Git；共享锁是protocol-only。
 - T17 Terra/xhigh已独立核runtime、父重放有理数控制并接受窄审后关闭。3.4仍待Gemini修有量纲R多乘hbar²、轴对称形状R3约束的范围、K单位及有限K进动差；一般一维反射奇态中心节点不限谐振子（父原合同过窄已纠正），角反射/空间宇称/signature不可混同。T17结果不是模型验证。3.4、4.8均未纳入220页预览。
 - WIP恢复包仅保存未验输入，不能当科学来源或自动覆盖canonical：`wip-revision-inputs-20261113T105251Z.tar.gz`(51项)及`wip-code-contracts-20261113T110512Z.tar.gz`(16项)，均在精确A130目录，manifest及逐成员SHA回checkpoint27/wip-recovery-snapshot.json。上游故障详情只留provider-incident.local.json；不得恢复旧线程后假定仍为Gemini。
+- 后续父实读3.4/3.7后再次退修，统一合同`G88/parent-review-3-4-3-7-round2.json`：修BE1/BE2系数12/5、整数/半整数的T平方、标量不变不等全态不变，以及新复制公式的频率/能量混减；两节仍未接受。G89以`parent-review-4-8-round2.json`集中处理12项反馈。通用parity/E1 note归G88，Br/As专用note归G90，避免写权重叠。G79后续只4.7/D，3.8/A归G91。
+- 定向补缺已取得NNDC200602快照（文献截止2005-09-15，非2026新评价），实际HTTP原件支持176mLu优势beta到0+/2+为一级禁戒非唯一型，不能称主要允许GT；另有极弱2−支路，不能过度纠成全部GT禁止。新source为`nndc-176lu-isomer-beta-2006-snapshot-20261113`，raw集合`20261113-A130-lu176-beta-evaluation`。新父note保存开放守恒的量词、条件组分方程、J0/entryJe区分和时间接受度；`parent-open-network/controls.json`符号检查通过。尚待正文回写后验收，不给4.8计数。
+- G79已交回5.2/5.6/5.7/5.8/5.10、4.7及附D/E，均仍待验收。父实读方法章后以`G79/parent-return-methods-round2.json`退修：Hamilton错把PDF355/印344内转换页当偏振，Wu错把printed235–255带电粒子磁谱页当Fano/γ效率；实际导航由扫描目录/bookmarks给出。5.7 a_k仍重复乘U；5.6背景门权重/方差估计量及由未见峰断严格反符合亦须修。T18 Terra/xhigh已父重放且结果一致，接受DDCM窄审；5.8须修直接门布居时间、馈入/归一和DSAM卷积错网格/切尾。当前同一未关闭Terra线程`01a1d4d8-5d13-7602-89e2-5d78d3b25f61`转T19，仅审冻结5.7。
 - 原生goal继续推进全部39节及必要附录，不能以本检查点标complete。保护用户system/memory.md、旧Nov8归档manifest删除、PADO、不同大小写手稿、PLAN、Zotero inbox和daily课程/daemon。旧34项仅17项源/PDF可按Git历史SHA恢复，另17编译中间物不称已恢复，不撤销用户删除。全库历史/WIP lint错误单独报告，不冒称全库绿。
 
 ## 2026-11-13 — A130改用LaTeX，Gemini主体执行

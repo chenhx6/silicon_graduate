@@ -1,0 +1,588 @@
+{
+  "section_id": "5.4",
+  "title": "数字定时、同步与CFD",
+  "version": "V2",
+  "recorded_at": "2026-11-08T03:12:37.239897+00:00",
+  "status": "v2-body-revised-pending-parent-source-review",
+  "manuscript_path": "raw/writing/gpt/A130/research-draft/section-5-4.md",
+  "argument_outline": [
+    "先区分编码粒度、采样周期、插值误差、噪声与实测分辨；有效细位关系只在均匀分数编码教学假设下成立。",
+    "固定本任务延迟减分数算子与上升过零分支，再逐项映射吴论文和Lipschutz的当前减延迟权重算子，说明倒数权重条件及实验参数的区别。",
+    "同形正幅度缩放保留零点；形状、基线、非线性与CFD有效噪声会破坏理想定时，平均walk与随机展宽需分别估计。",
+    "沿用已哈希绑定的四行CSV，只报告20个相位点的最大残差，并以每个Ts各自同一离散算子的解析延拓根为参考。",
+    "四点三次插值须在主过零bracket选根，改善仅按Lipschutz已报告设置陈述；分路相位差固定不等于绝对采样相位固定。",
+    "分开同步设计目标、同机箱相对时间FWHM和跨机箱示波器包络；协方差保留，根二换算采用相等独立高斯假设。",
+    "时间窗接受影响弱线与DCO；以声明的单级响应卷积教学式说明寿命推断条件，再自然衔接5.5事件保存与联合live。"
+  ],
+  "sources": [
+    {
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "source_page": "knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md",
+      "citation_key": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "raw_file": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+      "raw_sha256": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b",
+      "hash_matches_contract": true,
+      "actual_read_pages": {
+        "text": [
+          "PDF35–38 / 印刷23–26",
+          "PDF104–109 / 印刷92–97"
+        ],
+        "visual": [
+          "PDF37 / 印刷25 Eq1.22与Fig1.27"
+        ],
+        "version": "本地143页授权版博士论文，2020；以实际字节SHA固定"
+      },
+      "reading_scope": "本轮实际回读；不继承V1中未由工具阅读支持的页码"
+    },
+    {
+      "source_id": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "source_page": "knowledge/sources/doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing.md",
+      "citation_key": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G32/lipschutz-2016-lenda-ddas-timing.pdf",
+      "raw_sha256": "466c421c59f5c964b14de545f315c74c1d614a60b78192eb72efe427f75740cc",
+      "hash_matches_contract": true,
+      "actual_read_pages": {
+        "text": [
+          "PDF1–4，Eqs2–6、Figs1–4及§4–5参数"
+        ],
+        "visual": [
+          "PDF2 Eq3与Fig1"
+        ],
+        "version": "arXiv:1601.04579v2，六页底本，非重新取得的期刊排版"
+      },
+      "reading_scope": "本轮实际回读；不继承V1中未由工具阅读支持的页码"
+    },
+    {
+      "source_id": "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+      "source_page": "knowledge/sources/doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync.md",
+      "citation_key": "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G32/hennig-2007-pixie16-clock-trigger-sync.pdf",
+      "raw_sha256": "e077cdcfd462610a80467024aac3446a562e2e4eaffbc813578a0b9bb86e0449",
+      "hash_matches_contract": true,
+      "actual_read_pages": {
+        "text": [
+          "PDF1–4，§3–4及Figs3–5相关讨论"
+        ],
+        "visual": [],
+        "version": "arXiv:nucl-ex/0701016，七页底本；vN未独立核定"
+      },
+      "reading_scope": "本轮实际回读；不继承V1中未由工具阅读支持的页码"
+    }
+  ],
+  "pedagogical_controls": {
+    "classification": "任务教学模型；非吴/Lipschutz固件、非硬件测试、非核寿命拟合",
+    "producer": {
+      "path": "system/scripts/doctoral_g32_digital_pulse_response.py",
+      "sha256": "bd70a7db208b62443a93c8258e18194e4d18f096a7e1160f2ed958fa0855e618"
+    },
+    "run_provenance": {
+      "path": "outputs/l4/20261108-digital-pulse-response/run-provenance.json",
+      "sha256": "797068813711f005f7f937f3ebcae9d15cffef7f1ca4252c1add64ca3be78e78",
+      "original_created_at": "2026-11-07T18:36:19.312620+00:00"
+    },
+    "csv_files": [
+      {
+        "path": "outputs/l4/20261108-digital-pulse-response/sampling_convergence.csv",
+        "sha256": "fcbc5a3ebf68e5ef8f0cb5dabfc1be09484d4f99757f9f2f9db6909225469222"
+      },
+      {
+        "path": "outputs/l4/20261108-digital-pulse-response/cfd_phase_walk_analysis.csv",
+        "sha256": "fa67402db75b74cc78dabab173d0ce89e0ba6a77df1545ddd8a330a9ca4d7178"
+      }
+    ],
+    "input": {
+      "pulse": "v(t)=A[1-exp(-(t-t0)/tau_r)]exp(-(t-t0)/tau_d)u(t-t0)",
+      "time_unit": "ns",
+      "amplitude_unit": "arbitrary; no calibrated deposited energy",
+      "A": 1000.0,
+      "rise_ns": 100.0,
+      "decay_ns": 50000.0,
+      "t0_ns": "500 + phi",
+      "waveform_domain_ns": "[0,2000)",
+      "sampling_periods_ns": [
+        10.0,
+        5.0,
+        2.5,
+        1.25
+      ]
+    },
+    "fast_filter": {
+      "length_samples": "round(100/Ts)",
+      "gap_samples": "round(50/Ts)",
+      "kernel": "([1]*L + [0]*G + [-1]*L)/L",
+      "normalization": "two box sums differ, divided by L; no peak-height estimation in this timing study",
+      "rise_ns": 100.0,
+      "gap_ns": 50.0
+    },
+    "CFD": {
+      "formula": "C[n]=F[n-d]-fF[n]",
+      "delay_samples": "round(80/Ts)",
+      "delay_ns": 80.0,
+      "fraction": 0.4,
+      "branch": "first negative-to-nonnegative adjacent bracket with lower sample time >= t0",
+      "extraction": "two-point zero-crossing interpolation, not waveform maximum"
+    },
+    "reference": {
+      "definition": "analytic continuation of the same finite-tap filter for each Ts separately; first rising root found with brentq",
+      "absolute_reference": "t0 + reference_latency(Ts)",
+      "not_a_fixed_hardcoded_timestamp": true,
+      "different_tref": "finite-tap continuation changes with Ts; not measured hardware walk"
+    },
+    "phase_grid": {
+      "fractions": [
+        0.0,
+        0.05,
+        0.1,
+        0.15000000000000002,
+        0.2,
+        0.25,
+        0.30000000000000004,
+        0.35000000000000003,
+        0.4,
+        0.45,
+        0.5,
+        0.55,
+        0.6000000000000001,
+        0.65,
+        0.7000000000000001,
+        0.75,
+        0.8,
+        0.8500000000000001,
+        0.9,
+        0.9500000000000001
+      ],
+      "number_of_points": 20,
+      "maximum_scope": "max over sampled grid only; not continuous-phase supremum"
+    },
+    "sampling_rows_full_precision": [
+      {
+        "sampling_interval_ns": 10.0,
+        "reference_latency_ns": 157.12227044678656,
+        "max_abs_interpolation_error_ns": 0.25660756630634296
+      },
+      {
+        "sampling_interval_ns": 5.0,
+        "reference_latency_ns": 159.6536421660071,
+        "max_abs_interpolation_error_ns": 0.12969199252859198
+      },
+      {
+        "sampling_interval_ns": 2.5,
+        "reference_latency_ns": 160.84463798234748,
+        "max_abs_interpolation_error_ns": 0.01373717153785492
+      },
+      {
+        "sampling_interval_ns": 1.25,
+        "reference_latency_ns": 161.47159890703023,
+        "max_abs_interpolation_error_ns": 0.005996680482439842
+      }
+    ],
+    "table_5_2_rows": [
+      {
+        "sampling_interval_ns": 10.0,
+        "sample_rate_MSPS": 100.0,
+        "reference_latency_ns_display": "157.1223",
+        "sampled_max_abs_error_ns_display": "0.2566"
+      },
+      {
+        "sampling_interval_ns": 5.0,
+        "sample_rate_MSPS": 200.0,
+        "reference_latency_ns_display": "159.6536",
+        "sampled_max_abs_error_ns_display": "0.1297"
+      },
+      {
+        "sampling_interval_ns": 2.5,
+        "sample_rate_MSPS": 400.0,
+        "reference_latency_ns_display": "160.8446",
+        "sampled_max_abs_error_ns_display": "0.0137"
+      },
+      {
+        "sampling_interval_ns": 1.25,
+        "sample_rate_MSPS": 800.0,
+        "reference_latency_ns_display": "161.4716",
+        "sampled_max_abs_error_ns_display": "0.0060"
+      }
+    ],
+    "fixed_phase_amplitude_scan": {
+      "Ts_ns": 10.0,
+      "t0_ns": 500.0,
+      "amplitudes": [
+        100.0,
+        150.0,
+        200.0,
+        250.00000000000003,
+        300.0,
+        350.0,
+        400.00000000000006,
+        450.00000000000006,
+        500.0,
+        550.0,
+        600.0,
+        650.0,
+        700.0000000000001,
+        750.0,
+        800.0000000000001,
+        850.0,
+        900.0,
+        950.0000000000001,
+        1000.0,
+        1050.0
+      ],
+      "extracted_time_ns": 657.224409074663,
+      "reference_time_ns": 657.1222704467866,
+      "spread_ns": 0.0,
+      "interpretation": "noiseless numerical amplitude invariance; neither zero interpolation bias nor measured zero resolution"
+    },
+    "reuse_operation": "read all CSV rows and hash-bind existing artifacts; canonical main() not run or overwritten"
+  },
+  "claims": [
+    {
+      "claim_id": "C54-01",
+      "text": "编码粒度、采样周期、插值误差、随机噪声与真实时间分辨是不同对象；只在有效b细位均匀覆盖一个tick时有delta_t_code=T_tick/2^b。",
+      "kind": "task-conditional-definition",
+      "source_id": null,
+      "locator": "本节导言；吴PDF104–109用于采样/插值语境，不支持通用字宽结论",
+      "conditions": [
+        "b为有效细位",
+        "无通用48/16字段主张",
+        "不从LSB推断物理精度"
+      ]
+    },
+    {
+      "claim_id": "C54-02",
+      "text": "吴Eq1.22印为x[n]-a x[n-k]，Fig1.27为主下降过零；本文CFD采用延迟减当前分数及主上升过零，两者须按输入、权重和分支分别定义。",
+      "kind": "literal-source-formula-and-task-comparison",
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "locator": "PDF36–37 / 印刷24–25，Eqs1.21–1.22，Fig1.27；PDF37实际视觉回读",
+      "conditions": [
+        "x=F且k=d仅为比较条件",
+        "同零点映射需a=1/f并整体乘-f",
+        "非同参整体反号等价"
+      ]
+    },
+    {
+      "claim_id": "C54-03",
+      "text": "Lipschutz Eq3令n=i+D后为FF[n]-wFF[n-D]；分路测试优化线性和三次分别用(6,2,4,5/8)及(2,0,4,1/8)。",
+      "kind": "reported-algorithm-and-parameters",
+      "source_id": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "locator": "六页v2底本PDF2–3，Eqs2–4，§4，Fig1",
+      "conditions": [
+        "前三参数单位为samples，对应Ts=4ns",
+        "w无量纲",
+        "源w<1不等于本文1/f>1",
+        "源图主分支为下降穿越"
+      ]
+    },
+    {
+      "claim_id": "C54-04",
+      "text": "固定形状、相位、线性算子和过零分支下，正幅度缩放在两点过零比值中相消；局部小噪声固定斜率近似采用有效sigma_C。",
+      "kind": "task-conditional-derivation",
+      "source_id": null,
+      "locator": "5.4.1幅度相消和噪声线性化；producer.cfd_samples/timestamp作为示例",
+      "conditions": [
+        "无饱和和形状改变",
+        "sigma_C不是原始ADC噪声",
+        "有效噪声含滤波和相关传播",
+        "walk均值与随机展宽分开"
+      ]
+    },
+    {
+      "claim_id": "C54-05",
+      "text": "表5.2四行数值逐CSV读取，只是各Ts下20个已采相位点的最大误差，各自参考来自同一有限抽头算子的解析延拓根。",
+      "kind": "existing-task-model-artifact",
+      "source_id": null,
+      "locator": "pedagogical_controls中的producer/CSV/provenance SHA与全部原精度行",
+      "conditions": [
+        "非连续相位上界",
+        "t_ref变化不认作硬件walk",
+        "无噪声幅扫0散布不等于0偏差或实测0分辨"
+      ]
+    },
+    {
+      "claim_id": "C54-06",
+      "text": "Lipschutz四点三次多项式不是三次样条；其优化后电子学比较为该输入和参数下的实验结果，不能保证任意波形更准确。",
+      "kind": "reported-method-plus-task-use-boundary",
+      "source_id": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "locator": "PDF2–3，Eq4、Figs1–3、§4",
+      "conditions": [
+        "在包围主过零的相邻点区间内选根为本文实施边界",
+        "多根与噪声需质量控制",
+        "四点严格插值不等于真实连续波形已知"
+      ]
+    },
+    {
+      "claim_id": "C54-07",
+      "text": "单PMT分路加2ns延迟检验半个4ns周期的相对相位；固定相位差不固定事件绝对采样相位，分路保留共同波形变化及可能的共模/独立噪声。",
+      "kind": "reported-test-and-task-boundary",
+      "source_id": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "locator": "PDF2–3，§4、Figs2–3",
+      "conditions": [
+        "原文在宽度比较前先作幅度相关walk修正",
+        "不假定全部高频噪声强相干",
+        "不作为两个独立探测器响应"
+      ]
+    },
+    {
+      "claim_id": "C54-08",
+      "text": "Hennig四机箱超过600通道、小于1ns为设计目标；同机箱三模块33通道700组波形的相对时间FWHM<300ps；跨箱约1.5ns为数秒示波器包络最坏估计。",
+      "kind": "design-target-and-two-distinct-reported-tests",
+      "source_id": "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+      "locator": "七页预印本PDF1摘要；PDF3 §3 Fig3/4讨论；PDF4结论",
+      "conditions": [
+        "未增加独立触发抖动<300ps测量",
+        "包络非FWHM或RMS",
+        "含探头反射失真",
+        "跨箱同步波形进一步测试为后续计划",
+        "2007非今日保证"
+      ]
+    },
+    {
+      "claim_id": "C54-09",
+      "text": "时间差方差保留-2Cov；相等独立Gaussian响应为用差谱FWHM除根二估计单路FWHM的充分条件。",
+      "kind": "task-statistical-derivation",
+      "source_id": null,
+      "locator": "5.4.3；与Lipschutz PDF4 Eq5后的根二换算分开",
+      "conditions": [
+        "方差存在",
+        "不先假定独立再写协方差",
+        "非Gaussian FWHM不当作方差",
+        "不称充分必要定理"
+      ]
+    },
+    {
+      "claim_id": "C54-10",
+      "text": "两棒22Na测试以四PMT时间形成各棒两端均值之差；走动校正和根二换算后最高光输出区单棒FWHM约400ps，作者解释其平台来自探测器。",
+      "kind": "reported-measurement-and-author-interpretation",
+      "source_id": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "locator": "PDF3–4 §5、Eq5、Fig4",
+      "conditions": [
+        "非全能量统一性能",
+        "真实两棒测试与分路不同",
+        "不可把keVee光输出等同任意中子能量",
+        "本任务未获得原始波形或完整误差"
+      ]
+    },
+    {
+      "claim_id": "C54-11",
+      "text": "同一时间窗可能对各能量/角度响应保留不同比例的真符合，影响弱支路与DCO；偶然符合随窗近似线性依赖稳定、独立、低占有率。",
+      "kind": "task-response-reasoning",
+      "source_id": null,
+      "locator": "5.4.4；不是三篇电子学原作的新核结构测量",
+      "conditions": [
+        "RF、相关背景和共同忙可改变关系",
+        "walk无统一低能方向",
+        "宽窗平台不能单独确认walk已消除"
+      ]
+    },
+    {
+      "claim_id": "C54-12",
+      "text": "归一化单级指数等待时间与瞬发响应卷积构成条件教学时间谱；背景一般非平坦，寿命推断须受响应、统计及feeding约束。",
+      "kind": "task-teaching-response-model",
+      "source_id": null,
+      "locator": "5.4.4归一化响应式",
+      "conditions": [
+        "瞬时单级布居，忽略feeding",
+        "已校准R及不确定度",
+        "A_sig为计数",
+        "不归于吴/Lipschutz/Hennig核寿命实测",
+        "FWHM不等于寿命可辨硬界线"
+      ]
+    }
+  ],
+  "equations": [
+    {
+      "id": "E54-code",
+      "formula": "\\delta t_{\\mathrm{code}}=T_{\\mathrm{tick}}/2^b",
+      "convention": "tick和步长单位ns；b为无量纲有效细位",
+      "derivation": "均匀分数编码将单个tick分成2^b格",
+      "limit": "非均匀编码或含状态位的word不能无条件套用；不是物理分辨"
+    },
+    {
+      "id": "E54-cfd",
+      "formula": "C[n]=F[n-d]-fF[n]",
+      "convention": "n样本索引；d正整数；dTs为ns；f无量纲0<f<1；F,C同幅度单位",
+      "derivation": "本任务选择的延迟/比例相减算子",
+      "limit": "仅在已选上升主过零存在并通过质量条件时使用；不是所有源同参形式"
+    },
+    {
+      "id": "E54-source-mapping",
+      "formula": "Y_a[n]=F[n]-aF[n-d],\\quad C[n]=-fY_{1/f}[n]",
+      "convention": "同输入F、同延迟d；吴原k与Lipschutz D在此条件下均映成d",
+      "derivation": "展开-f(F[n]-(1/f)F[n-d])；Lipschutz w对应a而非f",
+      "limit": "源实际w=5/8或1/8不满足1/f>1的同参映射；整体因子可反转穿越方向"
+    },
+    {
+      "id": "E54-linear-zc",
+      "formula": "\\widehat t_{\\mathrm{zc}}=t_n-C[n]T_s/(C[n+1]-C[n])",
+      "convention": "tn=nTs，ns；本文C[n]<0<=C[n+1]且分母非零",
+      "derivation": "相邻采样两点割线的零截距",
+      "limit": "有限曲率、噪声或选错branch使估计有偏；不把插值根等同真实到达时间"
+    },
+    {
+      "id": "E54-scale",
+      "formula": "F[n]=Ag[n]\\Rightarrow C[n]=AC_g[n]",
+      "convention": "A>0为幅度，g单位形状；同相位同线性算子",
+      "derivation": "两点过零公式的分子和分母幅度因子约去",
+      "limit": "需固定branch；有幅度依赖形状、阈值选择、非线性等不保证不变"
+    },
+    {
+      "id": "E54-jitter",
+      "formula": "\\delta t\\simeq-\\delta C/\\bar C'(t_\\times),\\quad \\sigma_t\\simeq\\sigma_C/|\\bar C'(t_\\times)|",
+      "convention": "barC为无噪声CFD曲线，t_cross为零点，sigma_C为有效幅度噪声，sigma_t为ns",
+      "derivation": "固定非零局部斜率下展开零点方程；插值有效噪声应含滤波和协方差传播",
+      "limit": "小噪声、固定斜率和branch；不能直接拿raw ADC sigma_V替代"
+    },
+    {
+      "id": "E54-variance",
+      "formula": "\\sigma_{\\Delta t}^2=\\sigma_1^2+\\sigma_2^2-2\\mathrm{Cov}(t_1,t_2)",
+      "convention": "Delta t=t1-t2；sigma为ns，Cov为ns²",
+      "derivation": "两随机变量差的方差恒等式，方差存在",
+      "limit": "不预先假定两路独立；不能把任意FWHM当sigma"
+    },
+    {
+      "id": "E54-gaussian",
+      "formula": "\\mathrm{FWHM}=2\\sqrt{2\\ln2}\\,\\sigma,\\quad W_{\\mathrm{single}}=W_{\\mathrm{diff}}/\\sqrt2",
+      "convention": "W为对应时间FWHM，ns",
+      "derivation": "相等独立Gaussian时sigma_diff²=2sigma²，再用相同Gaussian常数",
+      "limit": "这些为充分条件，不宣称普遍iff；不适用于未约束相关性/非Gaussian拖尾"
+    },
+    {
+      "id": "E54-lifetime-teaching",
+      "formula": "S(t)=A_{\\mathrm{sig}}\\int_0^\\infty [e^{-u/\\tau}/\\tau]R(t-t_{\\mathrm{off}}-u)\\,\\mathrm{d}u+B(t)",
+      "convention": "t,u,t_off,tau同单位ns；A_sig计数；R单位ns^-1且归一；S,B为counts/ns",
+      "derivation": "单级指数等待时间密度与独立平稳测量误差响应卷积",
+      "limit": "瞬时布居、忽略feeding；feeding需增加分布/核级联响应；R和B须由实际校准及拟合约束"
+    }
+  ],
+  "competing_explanations": [
+    {
+      "observation": "时间差谱偏移或不对称拖尾",
+      "alternatives": [
+        "真实有限寿命或feeding",
+        "能量/形状相关walk",
+        "采样插值与相对时钟变化",
+        "相关背景"
+      ],
+      "discrimination": "匹配能量/通道/选择的瞬发响应、计数统计、窗口扫描和时间稳定性共同约束；三篇来源不是核寿命报告"
+    },
+    {
+      "observation": "分路测试比两棒符合窄",
+      "alternatives": [
+        "共同波形变化在差分中部分抵消",
+        "噪声共模和独立成分不同",
+        "实际探测响应与相对到达分布不同"
+      ],
+      "discrimination": "分别报告源设置与优化参数；保存Cov，不预设绝对采样相位固定或全部噪声完全共模"
+    },
+    {
+      "observation": "改变符合窗后弱线或DCO强度比变化",
+      "alternatives": [
+        "响应被门截断",
+        "随机或相关本底变化",
+        "实际级联/feeding差异"
+      ],
+      "discrimination": "比较匹配能量和角度组合的响应与背景；单独的计数平台不唯一认证仪器解释"
+    }
+  ],
+  "unresolved": [
+    "未取得用户实际模块/固件有效细位、tick映射、探测器波形与同步/能量相关响应校准；不填写个人性能或寿命值。",
+    "三篇来源未提供本任务可重放的完整实验波形和参数扫描，未据此生成新的原表读图点或性能保证。",
+    "本模型相位扫描只有20点，未给连续相位全局误差上界，也未加入噪声、饱和或真实时钟扰动。",
+    "四点三次法的多根/噪声质量控制为本文使用条件，尚无用户数据上的实现或测量验证。",
+    "核寿命教学卷积尚无feeding、响应和背景实际输入；具体寿命应用留5.8/5.10，事件构建和联合live留5.5。",
+    "Hennig本地底本的vN未独立核定；不声称已比较期刊最终版或今日全部模块。"
+  ],
+  "draft_sha256": "b00c99e1139e53b5f289b6508d33bee8db7f8e3937f01e2cc68aee4d67bf0c48",
+  "metrics": {
+    "chinese_character_count": 3286,
+    "subsections": 4,
+    "display_math": 7,
+    "inline_math": 94,
+    "mathml_elements": 101,
+    "mathml_annotations_match_ast": true,
+    "table_count": 1,
+    "table_cells_compared": 16,
+    "citation_ids": [
+      "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+      "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "wu-hongyi-2020-general-purpose-digital-daq-thesis"
+    ],
+    "non_newline_ascii_controls": 0,
+    "non_newline_ascii_controls_include_TAB_and_DEL": true
+  },
+  "evidence_policy": {
+    "source_report": "仅由实际读取原件支持的算法、参数、测试设置与结果",
+    "author_interpretation": "如LENDA最高光输出区400ps平台的探测器限制解释",
+    "task_derivation": "编码教学式、参数映射、噪声线性化、协方差及寿命卷积；不声称由三篇原文测得",
+    "task_model": "既有G32合成波形产物；不作为固件、仪器性能或寿命校准",
+    "null_source_id": "表示本任务条件推导，定位到本节而非虚构外部作品"
+  },
+  "terminology_and_conventions": {
+    "T_s": "ADC采样周期，ns；不必等于粗计数周期",
+    "T_tick": "均匀分数编码教学关系的粗周期，ns",
+    "b": "有效细编码位数，无量纲；不等于一个word的全部位数",
+    "F_C": "快滤波输出与CFD波形，任意同一幅度单位",
+    "n_d": "样本索引与正整数延迟样本数",
+    "f": "本任务当前项乘数，0<f<1，无量纲",
+    "a_w": "吴及Lipschutz源式中延迟项乘数，不与f同参混用",
+    "sigma_C": "过零插值所感受的CFD有效幅度噪声，含滤波及样本相关性",
+    "phi": "事件相对本地采样网格的时间相位，ns；不等于模块间相位差",
+    "FWHM_sigma": "FWHM为半高全宽，sigma为标准差；Gaussian关系需声明",
+    "R_tau": "归一化瞬发响应R，单位ns^-1；tau为平均寿命，ns"
+  },
+  "lipschutz_test_parameter_sets": {
+    "source_id": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+    "units": "Tr,Tg,D: samples at Ts=4ns; w dimensionless",
+    "split_test": {
+      "added_delay_ns": 2.0,
+      "optimized_linear": [
+        6,
+        2,
+        4,
+        "5/8"
+      ],
+      "optimized_cubic": [
+        2,
+        0,
+        4,
+        "1/8"
+      ],
+      "locator": "PDF2–3 §4"
+    },
+    "two_bar_test": {
+      "optimized_linear": [
+        2,
+        2,
+        4,
+        "1/8"
+      ],
+      "optimized_cubic": [
+        2,
+        0,
+        2,
+        "1/8"
+      ],
+      "bar_time": "mean of top and bottom PMT times",
+      "difference": "(T1_top+T1_bottom)/2-(T2_top+T2_bottom)/2",
+      "locator": "PDF3–4 §5, Eq5, Fig4"
+    }
+  },
+  "revision_items": [
+    "CFD倒数权重及独立参数/分支",
+    "删除48/16通用字段与亚ps硬件主张，采用有效b位条件式",
+    "有效sigma_C及小噪声局部斜率",
+    "20相位点最大值、Ts各自解析参考与无噪声幅扫解释",
+    "四点三次bracket选根、噪声/多根及删未读NN示例",
+    "分路相位差固定而绝对网格相位可随机，噪声成分条件化",
+    "Hennig设计目标、FWHM和包络分开，偏移持续监测",
+    "保Cov与相等独立Gaussian充分条件，高光输出区400ps",
+    "偶然符合近似线性的限定和walk方向边界",
+    "单级归一化寿命教学式、一般B及feeding/统计/响应限制",
+    "删口号结尾，自然衔接5.5"
+  ],
+  "validation_boundary": "JSON/Pandoc仅检验文件格式；数值一致性仅检验产物与已读原件的记录，不构成独立科学接收。",
+  "validation": {
+    "path": "tmp/runs/20261108-A130-rewrite/G72/v2-validation.json",
+    "sha256": "a9dc16bcb668412b99090c721b680ac5bad9f1f502cc7a3aa6d79aaa64b4d31f",
+    "classification": "format, artifact integrity and bounded model consistency only; no scientific admission"
+  }
+}

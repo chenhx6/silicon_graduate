@@ -27,7 +27,7 @@ def parse_args():
                         help="Main TeX file name")
     parser.add_argument("--passes", type=int, default=4,
                         help="Number of compilation passes (1: xelatex, 2: bibtex, 3: xelatex, 4: xelatex)")
-    parser.add_argument("--report-json", default="outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G76/build_report.json",
+    parser.add_argument("--report-json", default="outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/latest-build-report.json",
                         help="Path to save structured JSON build report")
     return parser.parse_args()
 
@@ -126,6 +126,27 @@ def analyze_log(log_path):
             curr_file = os.path.basename(file_stack[-1]) if file_stack else "unknown"
             issues["missing_glyphs"].append({"file": curr_file, "message": line.strip()})
 
+    # natbib warnings may wrap before "undefined". Scan the full log so a
+    # successful TeX run cannot hide unresolved bibliography keys.
+    warning_text = "\n".join(
+        block.replace("\n", "")
+        for block in content.split("\n\n")
+        if " Warning:" in block
+    )
+    for key, page in re.findall(
+        r"(?:LaTeX|Package natbib) Warning: Citation [`']([^']+)['`] on page (\d+)\s+undefined",
+        warning_text,
+    ):
+        item = {"key": key, "page": int(page)}
+        if item not in issues["missing_citations"]:
+            issues["missing_citations"].append(item)
+    for ref, page in re.findall(
+        r"LaTeX Warning: Reference [`']([^']+)['`] on page (\d+)\s+undefined",
+        warning_text,
+    ):
+        item = {"ref": ref, "page": int(page)}
+        if item not in issues["missing_references"]:
+            issues["missing_references"].append(item)
     return issues
 
 def analyze_blg(blg_path):
@@ -223,9 +244,8 @@ def main():
 
     pdf_info = None
     if os.path.exists(pdf_in_build):
-        shutil.copy2(pdf_in_build, pdf_in_workdir)
-        pdf_info = get_pdf_info(pdf_in_workdir)
-        print(f"\nSUCCESS: Generated PDF copied to {pdf_in_workdir}")
+        pdf_info = get_pdf_info(pdf_in_build)
+        print(f"\nDiagnostic PDF generated at {pdf_in_build}")
         print(f"Size: {pdf_info['size_bytes']} bytes, Pages: {pdf_info['page_count']}")
     else:
         print(f"\nFAILURE: PDF was not generated at {pdf_in_build}", file=sys.stderr)
@@ -239,14 +259,25 @@ def main():
     overfull_cnt = len(log_analysis["overfull_hboxes"])
     missing_glyph_cnt = len(log_analysis["missing_glyphs"])
 
-    if fatal_cnt > 0 or not pdf_info:
+    missing_bib_entries = [
+        warning for warning in blg_analysis["warnings"]
+        if "didn't find a database entry" in warning
+    ]
+    if (fatal_cnt > 0 or not pdf_info
+            or any(result["returncode"] != 0 for result in pass_results)
+            or blg_analysis["errors"]):
         audit_verdict = "FATAL_FAILURE"
-    elif missing_cite_cnt > 0 or missing_ref_cnt > 0:
+    elif missing_cite_cnt > 0 or missing_ref_cnt > 0 or missing_bib_entries:
         audit_verdict = "INCOMPLETE_REFERENCES"
-    elif overfull_cnt > 0 or missing_glyph_cnt > 0:
+    elif overfull_cnt > 0 or missing_glyph_cnt > 0 or log_analysis["overfull_vboxes"]:
         audit_verdict = "COMPILED_WITH_LAYOUT_ISSUES"
     else:
         audit_verdict = "CLEAN_PASS"
+
+    if audit_verdict == "CLEAN_PASS":
+        shutil.copy2(pdf_in_build, pdf_in_workdir)
+        pdf_info = get_pdf_info(pdf_in_workdir)
+        print(f"Clean PDF copied to {pdf_in_workdir}")
 
     report = {
         "build_started_at_utc": start_time.isoformat(),
@@ -297,7 +328,7 @@ def main():
     print(f"  BibTeX Errors:      {len(blg_analysis['errors'])}")
     print(f"  BibTeX Warnings:    {len(blg_analysis['warnings'])}")
 
-    return 0 if (pdf_info and fatal_cnt == 0) else 1
+    return 0 if audit_verdict == "CLEAN_PASS" else 1
 
 if __name__ == "__main__":
     sys.exit(main())

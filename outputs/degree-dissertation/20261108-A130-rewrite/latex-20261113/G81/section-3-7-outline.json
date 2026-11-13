@@ -1,0 +1,97 @@
+{
+  "section_id": "3.7",
+  "title": "八极与反射不对称的联立问题",
+  "section_label": "sec:3-7",
+  "status": "canonical-complete",
+  "timestamp": "2026-11-13T07:26:39.281455+00:00",
+  "reader_starting_point": "读者已在第2.5节理解角动量与宇称投影，在第3.5节掌握三轴手征几何、反幺正算符代数与有限隧穿两态恢复。本节探讨空间反射不对称八极形变与手征非轴对称转动的联立物理机制。",
+  "central_question": "当三轴非共面手征转动与反射不对称八极形变在同一微观体系中同时出现时，空间反演与时间反演如何分别作用于角动量标量三重积？线性幺正宇称投影与反幺正手征反转算符在代数上有何根本对立，为什么不能凭微弱 E1 连接与表观四重带直接断言联立自发破缺已完全确立，电偶极矩 |D_0| 的提取依赖哪些强烈的理论假定？",
+  "pedagogical_question_chain": [
+    "Q1: 为什么八极形变 (beta_3, M(E3)) 作为 3 阶奇宇称张量，与全篇定义的 2 阶三次四极不变量 q_3 必须严格解耦？为什么在实验室良宇称定态中静态八极矩期望值恒为零？",
+    "Q2: 为什么空间反演 P 无法反转由轴矢量构成的标量三重积 j_p . (j_n x R) 的手征旋向，而只有时间反演 T 才能反转其旋向？非共面几何为什么不要求三矢量处于严格 90 度正交？",
+    "Q3: 线性幺正宇称投影算符 P^+- = (1 +- P)/2 与反幺正手征算符 C = T R_y(pi) 有何本质代数差别？算符相容为什么绝不意味着有限原子核中自动出现四重简并，奇奇核候选四重带与偶偶核 K=0 交替宇称带又有何根本区别？",
+    "Q4: 为什么存在 Delta l = Delta j = 3 轨道对仅是八极相干的必要条件而非静态梨形的充分保证？八极软性与振动耦合如何与静态形变激烈竞争？",
+    "Q5: 宏观液滴电荷位移与单粒子极化偶极的相消效应如何使得弱 E1 并不排除八极关联？在转子模型提取 |D_0| 时，三轴度与 K 混合如何引入多重分量，为什么未测寿命时只能提取比值 |D_0/Q_0| 而绝对不能虚构绝对 |D_0|？"
+  ],
+  "subsections": [
+    {
+      "id": "3.7.1",
+      "title": "八极形变、反演破坏与四极不变量的严格解耦",
+      "label": "sec:3-7-1",
+      "argument": "严格解耦 rank-3 负宇称八极算符 M(E3) 与 rank-2 正宇称三次四极不变量 q3 约等于 beta^3 cos(3gamma)。阐明实验室良宇称定态中奇宇称算符对角期望值严格为零，八极形变在实验上表现为相反宇称态之间的强约化 E3 跃迁网络。",
+      "key_equations": [
+        "q_3 \\equiv 3 \\sqrt{\\frac{6}{35}} \\langle [\\hat{Q} \\times \\hat{Q} \\times \\hat{Q}]_0 \\rangle \\propto \\beta^3 \\cos(3\\gamma)",
+        "\\langle \\pi | \\hat{\\mathcal{M}}(E3, 0) | \\pi \\rangle \\equiv 0"
+      ]
+    },
+    {
+      "id": "3.7.2",
+      "title": "标量三重积在空间反演与时间反演下的变换性质",
+      "label": "sec:3-7-2",
+      "argument": "推导角动量作为轴矢量的反演性质：P J P^{-1} = +J，T J T^{-1} = -J。严格证明空间反演保持标量三重积不变，手征反转必须依赖包含时间反演的反幺正算符 C。指出非共面条件仅要求标量三重积非零，并不要求严格 90 度正交。",
+      "key_equations": [
+        "\\hat{\\Pi} \\left[ \\mathbf{j}_p \\cdot (\\mathbf{j}_n \\times \\mathbf{R}) \\right] \\hat{\\Pi}^{-1} = + \\mathbf{j}_p \\cdot (\\mathbf{j}_n \\times \\mathbf{R})",
+        "\\mathcal{T} \\left[ \\mathbf{j}_p \\cdot (\\mathbf{j}_n \\times \\mathbf{R}) \\right] \\mathcal{T}^{-1} = - \\mathbf{j}_p \\cdot (\\mathbf{j}_n \\times \\mathbf{R})"
+      ]
+    },
+    {
+      "id": "3.7.3",
+      "title": "线性幺正 P 与反幺正 C 的代数对立及有限态恢复",
+      "label": "sec:3-7-3",
+      "argument": "剖析线性幺正宇称投影算符与反线性反幺正手征算符的代数对立。明确 C^2 = +1 不强迫克喇默斯简并，算符相容不等于有限核自动四倍简并。阐明有限体系双重势垒量子隧穿与非正交两态恢复机制，区分奇奇核候选四带与偶偶核 K=0 交替宇称序列。",
+      "key_equations": [
+        "P^\\pm = \\frac{\\hat{\\mathbf{1}} \\pm \\hat{\\Pi}}{2}, \\quad \\mathcal{C} = \\mathcal{T} R_y(\\pi), \\quad \\mathcal{C}^2 = +1"
+      ]
+    },
+    {
+      "id": "3.7.4",
+      "title": "微观八极关联驱动机制：Delta l = Delta j = 3 轨道对与软核竞争",
+      "label": "sec:3-7-4",
+      "argument": "阐述 Delta l = Delta j = 3 轨道对（如 p3/2 与 g9/2，d5/2 与 h11/2）耦合的微观机制。强调轨道对存在仅是必要条件而非充分保证，八极软势与表面振动构成强烈竞争。",
+      "key_equations": [
+        "\\Delta l = 3, \\quad \\Delta j = 3"
+      ]
+    },
+    {
+      "id": "3.7.5",
+      "title": "电偶极矩 |D_0| 提取模型假设与综合实验判定准则",
+      "label": "sec:3-7-5",
+      "argument": "分析宏观液滴偶极与单粒子极化偶极的相消机制。阐明转子公式提取 |D_0| 依赖强耦合近轴对称与指定 K 假设；未测寿命时只能得到比值 |D_0/Q_0|，不能确定正负号，绝不虚构绝对 |D_0|。确立包含能谱、四带完整跃迁网络、寿命测量与微观泛函对账的综合裁决准则。",
+      "key_equations": [
+        "B(E1; I \\to I-1) = \\frac{3}{4\\pi} D_0^2 \\, (I \\, 1 \\, K \\, 0 | I-1 \\, K)^2"
+      ]
+    }
+  ],
+  "source_inputs": [
+    {
+      "source_id": "liu-chen-2016-78br-chirality-reflection-symmetry-thesis",
+      "canonical_source": "刘晨, 山东大学博士学位论文 (2016)",
+      "read_locators": "PDF pp. 13–18, 78–82, 90",
+      "supports": "78Br 候选四重带实验网络与八极软性势能面理论计算"
+    },
+    {
+      "source_id": "liu-2016-simultaneous-chiral-reflection-78br",
+      "canonical_source": "C. Liu et al., Phys. Rev. Lett. 116, 112501 (2016)",
+      "read_locators": "PRL 116, 112501, PDF pp. 1–6",
+      "supports": "78Br 实验跃迁分枝比 B(E1)/B(E2) 与反射不对称微观密度泛函对照"
+    },
+    {
+      "source_id": "xiao-xiao-2019-high-spin-74as-thesis",
+      "canonical_source": "肖骁, 山东大学硕士学位论文 (2019)",
+      "read_locators": "PDF pp. 43–49",
+      "supports": "74As 激发带结构与微观势能面八极软性分析"
+    },
+    {
+      "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+      "canonical_source": "A. Bohr & B. R. Mottelson, Nuclear Structure, Vol. II, World Scientific (1998 reissue)",
+      "read_locators": "PDF pp. 23–28",
+      "supports": "轴矢量反演性质、转子偶极跃迁选择定则与模型提取"
+    },
+    {
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "canonical_source": "D. Cline, Ann. Rev. Nucl. Part. Sci. 36 (1986) 683–716",
+      "read_locators": "PDF pp. 685–692",
+      "supports": "三次四极不变量 q3 严格与八极算符解耦"
+    }
+  ]
+}

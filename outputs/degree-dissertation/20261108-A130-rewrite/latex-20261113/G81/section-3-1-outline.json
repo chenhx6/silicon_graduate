@@ -1,0 +1,87 @@
+{
+  "section_id": "3.1",
+  "title": "转动、振动和量子涨落",
+  "section_label": "sec:3-1",
+  "status": "planned",
+  "timestamp": "2026-11-13T04:22:57.243225+00:00",
+  "reader_starting_point": "读者已在第2.4节掌握四极玻尔坐标、主轴参考系与黎曼体积元测度，在第2.6节理解势能曲面刚度、转动惯量与微观配对响应的解耦；第3.2节已先行给出刚转子小振幅摆动展开。本节作为第3章新手入口，系统澄清大范围集体转动、局部内禀振动与有限量子波包零点涨落的物理与概念界限。",
+  "central_question": "如何从一维简谐教学模型到三维多体玻尔集体哈密顿量，清晰区分大范围空间取向转动、局部内禀形状振动与量子波包零点涨落？能谱自旋标签与经典轨道有何本质不同，为什么不能仅凭能谱能级比值判定声子模式或将浅软势面等同于刚性静态形状？",
+  "pedagogical_question_chain": [
+    "Q1: 在一维教学振子 V(q) = V_0 + (1/2) C q^2 中，坐标 q、质量参数 B 与恢复力常数 C 的物理量纲是什么？基态零点涨落幅度 <q^2>_0 与实验室测得的跃迁矩阵元及经典平衡构型有何本质区别？",
+    "Q2: 转动能级 E_rot = hbar^2 I(I+1) / (2 J) = A I(I+1) 的单位与能量标度如何严格约定？(2I+1) 重磁简并在各向同性空间中意味着什么，为什么基态 Q_s(0^+) = 0 的严格守恒绝对不能否定内禀变形的存在？",
+    "Q3: 内禀形状振动 (beta, gamma) 与欧拉取向角 Omega = (phi, theta, psi) 为何是彼此正交独立的动力学自由度？声子数 n 作为简谐近似标签的物理局限是什么，为什么不能仅靠整数能量比认定振动模式？",
+    "Q4: 浅软势能面、多阱共存与量子隧穿为何容易与静态刚性形变混淆？如何严格分离势能面的静态极值参考点与物理态的真实波包概率分布？",
+    "Q5: 本节建立的几何与涨落图像如何平滑引出后续第3.2节（纯转子摆动极限）、第3.3节（准粒子顺排与横纵摆动分支）、第3.5节（手征几何与有限隧穿）以及第3.6节（gamma形状振动与取向模耦合）？"
+  ],
+  "subsections": [
+    {
+      "id": "3.1.1",
+      "title": "一维教学振子：恢复力、质量参数与零点涨落",
+      "label": "sec:3-1-1",
+      "argument": "引入一维简谐振动教学模型 V(q) = V_0 + (1/2) C q^2 (C > 0) 与动能 T = p^2 / (2B)。明确坐标 q 的物理量纲（如无量纲四极变形或长度）、质量参数 B 的单位（hbar^2 / (MeV * [q]^2)）与刚度系数 C 的单位（MeV / [q]^2）。量子化给出激发频率 hbar omega = hbar sqrt(C/B) 与基态零点涨落宽度 <q^2>_0 = hbar / (2 B omega) = hbar / (2 sqrt(B C))。深刻区分量子波包的内禀零点涨落宽度与实验室可观测跃迁矩阵元及经典静态极小点。",
+      "key_equations": [
+        "V(q) = V_0 + \\frac{1}{2} C q^2, \\quad T = \\frac{p^2}{2B} \\quad (C > 0, B > 0)",
+        "\\hbar \\omega = \\hbar \\sqrt{\\frac{C}{B}} \\quad (\\mathrm{MeV})",
+        "\\langle q^2 \\rangle_0 = \\frac{\\hbar}{2 B \\omega} = \\frac{\\hbar}{2 \\sqrt{B C}}"
+      ]
+    },
+    {
+      "id": "3.1.2",
+      "title": "转动量子化、Casimir 标度与谱学不变量",
+      "label": "sec:3-1-2",
+      "argument": "三维空间转动动能 H_rot = sum_k A_k I_k^2，统一采用能量量纲常数 A_k = hbar^2 / (2 J_k) 与无量纲算符 I_k。轴对称极限下转动能谱严格表述为 E_rot(I) = hbar^2 I(I+1) / (2 J) = A I(I+1)，每个自旋包含 (2I+1) 重磁简并 (M = -I, ..., +I)。指出轴对称 K 投影与三轴 K 混合属于模型化内禀标签。重点回扣第1.2节：根据 Wigner-Eckart 定理，任意 0+ 态的电四极矩 Q_s(0+) 严格为零，绝不否定内禀强变形的存在，真实内禀四极度由 Kumar-Cline 旋转不变量 <0+| [Q x Q]_0 |0+> > 0 确立。",
+      "key_equations": [
+        "E_{\\text{rot}}(I) = \\frac{\\hbar^2}{2\\mathcal{J}} I(I+1) = A I(I+1) \\quad (I = 0, 2, 4, \\dots)",
+        "Q_s(0^+) = 0 \\quad (\\text{由角动量耦合严格保证，与变形与否无关})",
+        "\\langle 0^+ | [\\hat{Q} \\times \\hat{Q}]_0 | 0^+ \\rangle \\propto q_2^2 > 0 \\quad (\\text{Kumar-Cline 形状不变量})"
+      ]
+    },
+    {
+      "id": "3.1.3",
+      "title": "形状振动与取向运动的坐标解耦及声子标签界限",
+      "label": "sec:3-1-3",
+      "argument": "五维玻尔集体坐标分解为 2 个内禀形状坐标 (beta, gamma) 与 3 个欧拉取向角 Omega = (phi, theta, psi)。前者描述椭球形状伸缩与轴对称不对称偏转（内禀振动），后者描述空间取向改变（整体转动）。在强形变与小涨落条件下满足绝热分离 omega_rot << omega_vib (Bohr-Mottelson Vol. II p. 4)。指出声子数 n (如 n_beta, n_gamma) 仅是极小点展开下的简谐近似标签；核多体哈密顿量中存在强非简谐势与科里奥利耦合，能谱能量比（如 E(4+)/E(2+) 约 2.0 或 2.5）绝不能作为判定振动或转动模式的充要依据，判定必须依赖于带间 B(E2) 跃迁矩阵元、多声子选择定则与分枝比。",
+      "key_equations": [
+        "\\omega_{\\text{rot}} \\ll \\omega_{\\text{vib}} \\iff \\frac{\\Delta R}{R_0} \\ll 1 \\quad (\\text{绝热分离条件})",
+        "\\text{声子数 } n \\text{ 仅为二次近似标签，模式判定必须基于绝对跃迁强度与选择定则}"
+      ]
+    },
+    {
+      "id": "3.1.4",
+      "title": "浅软势能面、多阱隧穿与量子波包分布",
+      "label": "sec:3-1-4",
+      "argument": "在浅势、平坦势（如 Wilets-Jean gamma 软核）或多极小势能面中，量子零点涨落幅度和量子隧穿效应可与平衡形变尺度相当。此时势能面的静态极小点不能代表体系的实际有效几何构型，真实物理特性完全由空间波包概率密度分布 |Psi(beta, gamma)|^2 主导。重申有限体系自洽定态与宏观连续对称性破缺的界限：原子核在实验室系中严格守恒角动量，内禀自发破缺仅是微观变分参考波包的内部属性。",
+      "key_equations": [
+        "\\Delta \\beta \\sim \\beta_0, \\quad \\Delta \\gamma \\sim \\gamma_0 \\quad (\\text{软模强量子涨落区})",
+        "P(\\beta, \\gamma) = |\\Psi(\\beta, \\gamma)|^2 \\quad (\\text{动态有效构型})"
+      ]
+    },
+    {
+      "id": "3.1.5",
+      "title": "章节脉络与后续动力学演化接口",
+      "label": "sec:3-1-5",
+      "argument": "平滑引出第3章后续推导：当形状势变硬且内禀振动冻结时，进入第3.2节纯转子的局部摆动运动；当核芯转动耦合高j价准粒子时，演化为第3.3节纵向与横向摆动分支；当三轴核芯进一步与一粒子一空穴非共面矢量耦合时，诱发第3.5节手征几何与有限隧穿双重带；当重新计入内禀 gamma 振动与取向模式的相互作用时，引出第3.6节同对称性标签诱导的动力学混合。",
+      "key_equations": []
+    }
+  ],
+  "source_inputs": [
+    {
+      "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+      "canonical_source": "A. Bohr & B. R. Mottelson, Nuclear Structure, Vol. II: Nuclear Deformations, World Scientific (1998 reissue)",
+      "read_locators": "PDF pp. 23–28 (printed pp. 1–6, Section 4-1 / 4-2 Rotational degrees of freedom, adiabatic condition, intrinsic vs collective coordinates); PDF pp. 367–387 (Chapter 6, Section 6-2 Quadrupole vibrations, mass parameter B, stiffness C, and zero-point amplitudes)",
+      "supports": "绝热旋转-振动分离条件、四极简谐振子哈密顿量、质量参数与刚度定义、零点涨落公式"
+    },
+    {
+      "source_id": "bohr-1952-surface-particle-coupling",
+      "canonical_source": "A. Bohr, Dan. Mat. Fys. Medd. 26, no. 14 (1952)",
+      "read_locators": "pp. 8–18 (Section II, Hamiltonian in collective coordinates)",
+      "supports": "集体坐标变换、内禀变形变量与体轴欧拉角的分离"
+    },
+    {
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "canonical_source": "D. Cline, Ann. Rev. Nucl. Part. Sci. 36 (1986) 683–716",
+      "read_locators": "pp. 685–692 (Section 2, Quadrupole rotational invariants)",
+      "supports": "Kumar-Cline 形状不变量 q2^2, q3 与基态 0+ 电四极矩 Q_s=0 的严格对比"
+    }
+  ]
+}

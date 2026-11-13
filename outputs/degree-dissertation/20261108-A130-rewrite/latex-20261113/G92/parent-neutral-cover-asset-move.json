@@ -1,0 +1,9 @@
+{
+  "action": "recoverable move of unused template school logo",
+  "source": "raw/writing/gpt/A130/these_2023_template/these_template/Img/ucas_logo.pdf",
+  "destination": "raw/writing/gpt/_archive/20261113-A130-template-original/removed-demo/Img/ucas_logo.pdf",
+  "sha256": "291b04e61bc1a8515ffb585ba4cdb6d47a2156cc2c8bdf3b5fbeb31888410e34",
+  "matched_existing_original_backup": "raw/writing/gpt/_archive/20261113-A130-template-original/these_template/Img/ucas_logo.pdf",
+  "reason": "User requested template traces removed; institution not provided, neutral Frontinfo now uses empty schoollogo. Template license/class retained.",
+  "boundary": "No unrelated manuscript or original research evidence touched."
+}

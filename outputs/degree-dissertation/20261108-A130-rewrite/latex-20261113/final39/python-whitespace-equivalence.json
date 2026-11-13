@@ -1,0 +1,42 @@
+{
+  "status": "pass",
+  "scope": "only actual staged whitespace offenders; literals and syntax tree preserved",
+  "files": [
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G92/apply_table_and_box_fixes.py",
+      "before_sha256": "b53c22b9f29f12b41aa706b5f170ef1187a12d879d43a1bcb677d22f3e3551b0",
+      "AST_identical": true,
+      "after_sha256": "ad808ffab5c3928cafb5dd4bba0190d5a8c60dfbd2ad081fcc7c00b662cb0c4b"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G92/fix_last_5_overfulls.py",
+      "before_sha256": "a968a6cafc0044128c5b273f35a630dc5349dfe8012f6d41d070ccc90db6817c",
+      "AST_identical": true,
+      "after_sha256": "5e0833036ebe9c8a88ec5fbf00d4b4d139617be96049e9505ec38f6039652729"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/parent-pixie-digital-finalization/a130_digital_algorithms_control.py",
+      "before_sha256": "12311d30e8a97237f3b2d50aae873ba6e8178effe80bbfbbf7ef082085d75c32",
+      "AST_identical": true,
+      "after_sha256": "fb24bb0126ad97cd43a1b36689e09f37539fb1e9174467c6a06679cec97d9c7d"
+    },
+    {
+      "path": "system/scripts/a130_digital_algorithms_control.py",
+      "before_sha256": "67280c67c236bcaa1848b83eb662ad5f7d846fbef6e597b6acc7329b4a3a99ad",
+      "AST_identical": true,
+      "after_sha256": "fd1cbe5f02da3224dd3dbbdfe07bbd0d2ebed7eed58790270a650166e42c6807"
+    },
+    {
+      "path": "system/scripts/a130_lifetime_response_figure.py",
+      "before_sha256": "3db01dfcbe293956354e1f278bcb2263ec463a478818152d38b789929c71404f",
+      "AST_identical": true,
+      "after_sha256": "c93ea4565ca67c60dbe167e54529effb2e1e5ed8926cf0aea5b94e3e0914aaff"
+    },
+    {
+      "path": "system/scripts/a130_rotor_limits_figure.py",
+      "before_sha256": "05820ddd5b849b21e57647b87ea7fbcdbb7b9cb61b12410115300a0d67cf6b5f",
+      "AST_identical": true,
+      "after_sha256": "9a907c2aad5b69b2ecdc1a3e278313a5a1b4043b1201b8f5e63bf6f24caa047f"
+    }
+  ]
+}

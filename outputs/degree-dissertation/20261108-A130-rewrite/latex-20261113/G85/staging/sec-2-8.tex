@@ -1,0 +1,212 @@
+\section{模型各自保留和消去了什么}\label{sec:2-8}
+
+原子核是一个强相互作用有限量子多体系统。直接求解包含核子间基本微观核力的全空间薛定谔方程，在微观上受限于指数增加的基矢维度，在宏观上难以直观展现体系在低激发能区呈现出的相干集体运动。为此，核结构理论发展出了涵盖微观组态展开、自洽能量密度泛函、代数玻色子映射、绝热集体哈密顿量与推转转子模型的理论谱系。在实际研究中，若简单地将模型划分为“全微观”与“唯象”，或仅凭模型能对个别低激发能级给出符合曲线便断言运动模式已确立，往往会掩盖不同物理图像背后的自由度假设与局限性。
+
+第\ref{chap:2}章前七节从实验室张量对称性（第\ref{sec:2-1}节）、单极相互作用驱动的壳演化（第\ref{sec:2-2}节）、准粒子配对与相变（第\ref{sec:2-3}节）、玻尔形状坐标与测度（第\ref{sec:2-4}节）、对称性恢复投影（第\ref{sec:2-5}节）、微观动能响应与惯量张量（第\ref{sec:2-6}节）以及有效电磁与弱算符重整化（第\ref{sec:2-7}节），建立了从核子微观运动到集体量子形状的描述基础。作为本章的总结，本节对主流核结构模型展开比较分析：明确各模型保留了哪些活跃自由度、消去或冻结了哪些动力学过程；分析不同模型对同一套实验能级展现拟合简并的物理原因；确立在模型比较中适用的认识论界限；并结合具体的实验测量案例与六质量区的特征，讨论如何借助留出检验（holdout validation）与独立高阶观测量约束模型，为后续讨论三轴非轴对称转动与高阶耦合动力学提供参照。\cite{bohr-mottelson-1953-collective-individual-original,book-bohr-mottelson-nuclear-structure-vol2,prochniak-rohozinski-2009-bohr-collective-hamiltonian,poves-2020-limits-assigning-nuclear-shape}
+
+\subsection{有效自由度的分离与希尔伯特空间的截断尺度}\label{sec:2-8-1}
+
+在低能核物理中，理论模型通常是对全多体希尔伯特空间在特定能标和截断尺度下的有效映射。在低能核多体问题中，常规的微观近似起点通常写为包含单体动能、两体相互作用与三体相互作用的非相对论形式：
+\begin{equation}\label{eq:2-8-bare-hamiltonian}
+\hat{H} = \sum_{i} \hat{t}_i + \sum_{i<j} \hat{v}_{ij} + \sum_{i<j<k} \hat{v}_{ijk} .
+\end{equation}
+式\eqref{eq:2-8-bare-hamiltonian}略去了更高阶的多体相互作用，且质心运动（Center-of-Mass, CM）的分离与修正须按具体微观模型进行专门处理。在微观计算中，其组态维度随核子数和价空间急剧增加；若采用基于自由核子散射的传统唯象核力，须处理短程排斥效应，而若采用现代手征有效场论核力配合相似重整化群（SRG）软化演化，单粒子势矩阵元虽更为平滑，但会诱导产生多体有效力。
+
+物理上，原子核表现出特征能标的分离：核子内部自由度激发的能标处于数百 $\mathrm{MeV}$ 以上；核芯单核子跨主壳激发的能标在 $\hbar\omega_0 \approx 41 A^{-1/3}\,\mathrm{MeV}$ 量级（数至十数 $\mathrm{MeV}$）；表面四极振动与准粒子拆对的能标在 $1\sim 2\,\mathrm{MeV}$；而中重形变核的集体转动激发能标则通常低于数百 $\mathrm{keV}$。这种特征能标的层级，决定了不同物理问题需要选取相适应的模型空间。
+
+理论建模的基本思路，是通过代数截断、有效算符投影或绝热分离，将多体希尔伯特空间划分为活跃的模型空间（$P$ 空间）与被积掉或冻结的环境空间（$Q$ 空间）。在 Feshbach--Bloch--Horowitz 投影体系中，消去 $Q$ 空间内部动力学可以通过引入能量依赖的有效相互作用算符 $\hat{H}_{\mathrm{eff}}(E)$ 来表达：
+\begin{equation}\label{eq:2-8-feshbach-projection}
+\hat{H}_{\mathrm{eff}}(E) = \hat{P}\hat{H}\hat{P} + \hat{P}\hat{H}\hat{Q}\frac{1}{E - \hat{Q}\hat{H}\hat{Q}}\hat{Q}\hat{H}\hat{P} .
+\end{equation}
+这里式\eqref{eq:2-8-feshbach-projection}是一个特定的能量依赖构造，其有效定义要求能量 $E$ 处于 $Q$ 空间预解式 $(E - \hat{Q}\hat{H}\hat{Q})^{-1}$ 存在的非奇异能量区间。需要指出，并非所有有效哈密顿量都必须依赖能量，例如第\ref{sec:2-7}节提及的通过正则幺正变换、Lee--Suzuki 相似变换或 SRG 演化构建的模型空间有效哈密顿量，可以在模型空间内消除能量依赖性。相应物理观测量算符 $\hat{\mathcal{O}}$ 在投影空间中的有效算符 $\hat{\mathcal{O}}_{\mathrm{eff}}$，其重整化修正不仅包含微观核芯极化贡献，还包含多体有效算符项与非正交基底变换诱导的度规修正（如第\ref{sec:2-7}节所讨论），不能简化为单一的核芯极化项。不同的核结构模型，正是由于在划分 $P$ 空间与消去 $Q$ 空间时选取了不同的物理变量，才在理论表述、可预测观测量和适用边界上表现出不同的特征。
+
+\subsection{八类主流核结构模型的物理透视}\label{sec:2-8-2}
+
+为了给后续章节关于三轴形变、手征进动与取向耦合激发模式的讨论提供系统参照，本小节梳理低能核结构领域中八类代表性模型体系在自由度保留、动力学截断、参数来源及适用区域上的特征。\cite{book-bohr-mottelson-nuclear-structure-vol2,book-suhonen-from-nucleons-to-nucleus,prochniak-rohozinski-2009-bohr-collective-hamiltonian,frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei,doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution}
+
+\paragraph{1. 大规模微观壳模型 (Shell Model / CI / MCSM)}
+大规模壳模型以球形单粒子平均场单核子轨道为基底，在选定的单或多价壳层空间内建立完全反对称的多费米子组态空间。
+\begin{itemize}
+\item \textbf{保留的自由度}：价轨道上每个核子的独立产生与湮灭算符 $a^\dagger_j, a_j$；自旋-轨道耦合与两体单极、多极残余相互作用；多粒子-多空穴激发的微观相干叠加。
+\item \textbf{消去的动力学}：冻结深束缚的惰性核芯（inert core）；截断价空间以外的高能虚激发与连续谱耦合；核芯极化效应被吸收到价空间两体有效相互作用矩阵元（TBME）中。
+\item \textbf{参数来源}：自由核力经微扰 $G$ 矩阵、$V_{\mathrm{low}-k}$ 或 SRG 演化，结合闭壳邻近核实验单粒子与两粒子能级修正单极相互作用基元（如USD、GXPF1、JUN45相互作用），或采用自洽张量单极相互作用（$V_{\mathrm{MU}}$）。\cite{doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution}
+\item \textbf{主要可预测观测量}：实验室好角动量与好宇称下的能级 $E(I^\pi)$、单核子谱因子 $S_j$、电磁约化跃迁几率 $B(E2)$ 和 $B(M1)$、核电四极矩 $Q(I)$ 与磁偶极矩 $\mu(I)$；结合求和规则可计算核形状不变量。
+\item \textbf{典型失效边界}：随着价核子数和价轨道数增加，组态矩阵维度呈指数增加，在中重变形区计算受限；当跨壳粒子-空穴侵入态与正常组态强混合时，单一固定价空间截断失效。
+\end{itemize}
+
+\paragraph{2. 自洽平均场与能量密度泛函 (Self-Consistent Mean Field / EDF / HFB / CDFT)}
+自洽能量密度泛函理论将多体基态能量表述为单体局域密度、动能密度、自旋-轨道密度及反常配对张量的泛函。
+\begin{itemize}
+\item \textbf{保留的自由度}：全空间核子的空间定域单体密度 $\rho(\mathbf{r})$、动能密度 $\tau(\mathbf{r})$、自旋-轨道密度 $\mathbf{J}(\mathbf{r})$ 以及反常配对密度 $\kappa(\mathbf{r})$；保留了全核子微观平均场对约束多极外场的自洽极化重构。
+\item \textbf{消去的动力学}：在单参考态（SR-EDF）近似下，消去了静态势能极小之外的大振幅形状量子涨落；自发破缺了实验室转动不变量、宇称及粒子数守恒对称性。
+\item \textbf{参数来源}：全局拟合核素图的基本性质（结合能、电荷半径、核物质饱和密度、不可压缩模 $K_0$、对称能及其斜率参数 $L$，如Skyrme SLy4、Gogny D1S/D1M、相对论微观泛函PC-PK1/DD-PC1）。
+\item \textbf{主要可预测观测量}：结合能、电荷半径演化、壳层弥散度、多极约束势能曲面 $E(\beta, \gamma)$、静态变分极小处的形变参数 $(\beta_0, \gamma_0)$、单粒子有效能级 ESPE。
+\item \textbf{典型失效边界}：在势能面平坦的 $\gamma$ 软核或多极形状共存核中，单参考态自发对称破缺可能将平坦的量子涨落识别为孤立的静态形变；无法直接给出具有实验室好量子数的激发能谱与带间跃迁率；且泛函能量 $E[\rho, \kappa]$ 不是多体真空哈密顿算符期望值，不能任意代入多体微扰展开。
+\end{itemize}
+
+\paragraph{3. 五维玻尔集体哈密顿量 (5DCH / Bohr Collective Hamiltonian 基于自洽微观输入)}
+五维玻尔集体哈密顿量在大振幅四极形变空间与空间转动欧拉角空间建立绝热动力学方程。\cite{prochniak-rohozinski-2009-bohr-collective-hamiltonian}
+\begin{itemize}
+\item \textbf{保留的自由度}：内禀四极形变标量坐标 $(\beta, \gamma)$ 与描述空间取向的三个欧拉角 $\Omega = (\phi, \theta, \psi)$ 共五个集体坐标。
+\item \textbf{消去的动力学}：绝热近似下消去了非平衡单粒子跃迁与内禀准粒子激发的解对动力学；冻结了除四极外的更高极自由度；忽略了转动下科里奥利力引起的准粒子非绝热顺排。
+\item \textbf{参数来源}：源自微观约束 HFB/EDF 计算给出的二维 $(\beta, \gamma)$ 势能曲面（经零点能 ZPE 修正）以及微观 Inglis--Belyaev (IB) 或 Thouless--Valatin (TV) 动能逆质量张量 $B_{\mu\nu}(\beta, \gamma)$ 与转动惯量 $\mathcal{J}_k(\beta, \gamma)$。
+\item \textbf{主要可预测观测量}：偶偶核低激发正宇称态能谱（基态带、$\gamma$ 振动带、$\beta$ 振动带）、态波函数在形变平面的概率分布 $|\Psi_I(\beta, \gamma)|^2$、绝对跃迁几率 $B(E2)$ 与跃迁四极矩。
+\item \textbf{典型失效边界}：无法直接描述高自旋下单核子高 $j$ 轨道顺排引起的带回弯（backbending）与高 $K$ 异能态费米子阻塞；在配对相变临界点（$\Delta \to 0$）或基态能级交叉处，微观 IB 质量张量出现奇异性，绝热分离假设受限。
+\end{itemize}
+
+\paragraph{4. 投影生成坐标法 (Projected GCM / PGCM / SCC-GCM)}
+投影生成坐标法通过对破缺对称性的形变多体波函数连续流形进行相干叠加，并通过投影算符恢复实验室守恒对称性。\cite{Heyde_2011,prochniak-rohozinski-2009-bohr-collective-hamiltonian}
+\begin{itemize}
+\item \textbf{保留的自由度}：在选定的生成坐标空间（如四极形变 $\beta, \gamma$ 及对能隙 $\Delta$）构成的内禀态流形 $\{|\Phi(q)\rangle\}$ 上构建连续相干量子叠加；通过投影算符 $\hat{P}^N, \hat{P}^Z, \hat{P}^I_{MK}, \hat{P}^\pi$ 保留实验室守恒量子数。
+\item \textbf{消去的动力学}：受限于选定的有限生成坐标集合 $\{q\}$，消去了未纳入该坐标流形的正交微观空间动力学自由度；变分后投影（PAV）忽略了转动态对内禀基底的反作用。
+\item \textbf{参数来源}：由微观有效核相互作用或自洽能量泛函决定，无须唯象假定集体动能质量张量。
+\item \textbf{主要可预测观测量}：好量子数 $(I^\pi, N, Z)$ 下的态能谱、形状共存构型的混合权重、形状跃迁矩阵元、电荷半径同位素移动。
+\item \textbf{典型失效边界}：在包含非对角过渡密度的多参考经验泛函实现中需注意自相互作用与正则化检验；同时高自旋三维欧拉角投影数值积分计算量大。
+\end{itemize}
+
+\paragraph{5. 相互作用玻色子模型 (Interacting Boson Model / IBM / IBFM)}
+相互作用玻色子模型将价核子对映射为具有低角动量的单极与四极玻色子系统。\cite{casten_1990_simple-perspective,heyde_1999_basic-ideas-concepts,nomura_2022_Questioningwobbling}
+\begin{itemize}
+\item \textbf{保留的自由度}：标量 $s$ 玻色子（$L=0$）与五重四极 $d$ 玻色子（$L=2$）构成的代数空间，总玻色子数 $N_B = \Omega_{\mathrm{pair}}$ 守恒；在奇 $A$ 核（IBFM）中额外保留单费米子价轨道算符 $a^\dagger_j$。
+\item \textbf{消去的动力学}：消去了费米子内禀泡利不相容原理的细致交换项（将其吸收到玻色子多体相互作用参数中）；冻结了费米子对拆开产生四准粒子及更高准粒子激发的动力学。
+\item \textbf{参数来源}：动力学代数极限（$U(5)$ 球形振子、$SU(3)$ 轴对称转子、$O(6)$ $\gamma$ 不稳定）参数的拟合，或通过 Otsuka--Arima--Iachello (OAI) 微观映射由表面 $\delta$ 相互作用或微观 HFB 状态导出。\cite{nomura_2022_Questioningwobbling}
+\item \textbf{主要可预测观测量}：低激发能带谱结构、特征能级比值 $R_{4/2}$、带内与带间相对跃迁强度比 $B(E2)$、$B(M1)/B(E2)$ 分支比、形状相变相图。
+\item \textbf{典型失效边界}：无法自然重现高自旋下对拆开引起的顺排带交叉；对微观壳演化过程中由自旋-同位旋张量力引起的单极能级移动不敏感。
+\end{itemize}
+
+\paragraph{6. 粒子-转子模型 (Particle-Rotor Model / PRM / QTR)}
+粒子-转子模型将原子核解耦为一个各向异性转子核芯与少数活跃的高 $j$ 价准粒子组成的耦合系统。\cite{book-bohr-mottelson-nuclear-structure-vol2,meyertervehn_1975_collective-description-transitional,frauendorf_2014_Transversewobbling}
+\begin{itemize}
+\item \textbf{保留的自由度}：转子核芯的三个空间转动自由度 $\mathbf{R}$，以及高 $j$ 价准粒子的内禀角动量 $\mathbf{j}$；总角动量为矢量耦合 $\hat{\mathbf{I}} = \hat{\mathbf{R}} + \hat{\mathbf{j}}$。
+\item \textbf{消去的动力学}：通常将核芯形状假定为绝热的三轴椭球，冻结了核芯四极形变坐标 $(\beta, \gamma)$ 的动力学量子涨落；忽略了核芯内部核子的微观配对涨落与微观极化反馈。
+\item \textbf{参数来源}：经验转动惯量参数 $\mathcal{J}_1, \mathcal{J}_2, \mathcal{J}_3$；平均场 Nilsson 单粒子参数 $(\kappa, \mu)$ 与经验形变度 $(\epsilon_2, \gamma)$；经验配对能隙 $\Delta$。
+\item \textbf{主要可预测观测量}：奇 $A$ 核与奇奇核的高自旋转动带结构、签名裂变（signature splitting）、手征双重带、摆动激发能 $E_{\mathrm{wob}}(I)$ 与带间跃迁分支比 $B(E2)/B(M1)$。
+\item \textbf{典型失效边界}：在低自旋区或软形变核中，固定形变的刚体核芯假设受限；忽略核芯对价核子取向的动力学微观反作用，可能影响对低自旋摆动跃迁强度的估计。\cite{nomura_2022_Questioningwobbling}
+\end{itemize}
+
+\paragraph{7. 倾斜轴推转平均场理论 (Tilted Axis Cranking / TAC / 3D-TAC / CRHB)}
+倾斜轴推转平均场理论在绕三维空间定向旋转的随体参考系中自洽求解微观单体平均场。\cite{frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei,frauendorf-meng-1997-tilted-rotation-chirality}
+\begin{itemize}
+\item \textbf{保留的自由度}：在随体参考系中自洽保留了科里奥利力与离心力驱动的全核子准粒子顺排、反常配对破缺以及多准粒子极化效应。
+\item \textbf{消去的动力学}：将角速度矢量 $\boldsymbol{\omega}$ 经典化，破缺了空间各向同性角动量守恒量子数；消去了垂直于经典转动轴的横向量子摇摆涨落；消去了带间非对角跃迁的时间反演恢复。
+\item \textbf{参数来源}：相对论微观能量泛函（CDFT）或非相对论 Skyrme/Nilsson--Strutinsky 单体势与自洽对相互作用。
+\item \textbf{主要可预测观测量}：倾斜转动下的自旋空间取向矢量 $(I_x, I_y, I_z)$、磁转动剪刀带的剪切角演化、静态手征取向角、面内与面外磁偶极及电四极跃迁强度分支比 $B(M1)/B(E2)$。
+\item \textbf{典型失效边界}：在经典能量面的分叉点（如手征转动临界自旋）附近，经典平均场无法直接给出非对角隧穿能劈裂 $\Delta E(I)$（须借助 RPA 或投影方法）；小振幅摆动模式下的经典零点能发散。
+\end{itemize}
+
+\paragraph{8. 准粒子随机相位近似 (Quasiparticle Random Phase Approximation / QRPA / CRPA)}
+准粒子随机相位近似在自洽平均场或推转基态之上引入小振幅简谐模式。\cite{book-suhonen-from-nucleons-to-nucleus,matsuzaki-2004-nuclear-inertia-and-wobbling,kvasil-2006-dy156-yb162-crpa-wobbling}
+\begin{itemize}
+\item \textbf{保留的自由度}：双准粒子产生与湮灭振幅 $X_{mi}, Y_{mi}$ 的自洽线性响应，保留了基态关联与简谐振动模式。
+\item \textbf{消去的动力学}：受限于小振幅谐振展开，消去了高阶非谐模式耦合（mode-mode coupling）；消去了跨势垒的大振幅形状重构与形变相变。
+\item \textbf{参数来源}：自洽 HFB 准粒子基底与两体残余配对相互作用及粒子-空穴相互作用强度矩阵元。
+\item \textbf{主要可预测观测量}：巨多极共振强度分布（GDR, GQR, 剪刀模）、低激发 $2_1^+, 3_1^-$ 声子态能量与跃迁强度、快转动态之上的微小摆动频率 $\hbar\omega_{\mathrm{wob}}$ 与 $\gamma$ 振动激发。
+\item \textbf{典型失效边界}：当体系接近形变相变或配对相变临界点时，微观稳定极小失稳，Hessian 矩阵出现零频或虚频解，简谐展开受限；无法描述多形状共存与大振幅量子隧穿。
+\end{itemize}
+
+\subsection{理论比较中的五大认识论底线}\label{sec:2-8-3}
+
+在对跨越微观组态、自洽泛函与代数模型的理论谱系进行比较时，需要确立明确的评价界限：
+
+\paragraph{1. 不按模型形式排座次}
+在学术评价中，不宜简单建立微观模型与唯象模型之间的优劣次序。大规模壳模型受限于价空间截断和核芯极化有效电荷的引入；自洽能量密度泛函受限于单参考态静态近似与泛函参数的全局拟合；而粒子-转子模型与代数玻色子模型则能够抓住转动对称性破缺与相变的关键代数特征。每一个模型都是对多体量子体系在特定能标尺度与观测视角下的有效抽象。衡量一个模型的有效性，主要取决于其物理自由度的划分是否与所研究现象的特征能标自洽匹配，以及能否做出可检验的独立预言。
+
+\paragraph{2. 严格区分能量密度泛函 $E[\rho, \kappa]$ 与多体哈密顿算符}
+自洽能量密度泛函中的总能量 $E[\rho, \kappa]$ 是核单体密度矩阵 $\rho$ 与反常配对张量 $\kappa$ 的泛函（在一般表象中可包含非局域项），其变分导出的自洽单粒子哈密顿量为泛函导数：
+\begin{equation}\label{eq:2-8-edf-derivative}
+h_{ab} = \left. \frac{\partial E[\rho, \kappa]}{\partial \rho_{ba}} \right|_{\kappa} \quad \text{或抽象写为} \quad h = \frac{\delta E[\rho, \kappa]}{\delta \rho} ,
+\end{equation}
+其中 $a, b$ 为单粒子基底指标，变分时保持配对张量 $\kappa$ 等独立自由度不变。必须指出，由真实的完全反对称多体哈密顿算符经微观变分导出的实现，在数学上具有确定的哈密顿期望值表示；但一般经验能量密度泛函通常不自动具有微观反对称多体算符表示。在经验泛函框架下，其参数多通过核素基态全局性质整体拟合确定，已隐式吸收了高阶关联效应。因此，不能将经验泛函能量作为微观二体相互作用矩阵元直接代入多体微扰级数中开展高阶展开。
+
+\paragraph{3. 变分后投影 (PAV) 的流形受限与特定 MR-EDF 投影病态边界}
+对称性恢复投影算符（如角动量投影 $\hat{P}^I_{MK}$ 与粒子数投影 $\hat{P}^N$）能够消除内禀破缺态带来的伪激发，但投影本身的物理质量严格受限于初始内禀波函数流形 $\{|\Phi(q)\rangle\}$ 的完备性。如果内禀态未包含关键的动力学自由度（例如缺乏多对拆开的多准粒子组态），投影后的态依然缺失正交空间的关联动力学。更进一步，需要区分真实算符投影与经验能量密度泛函的外推：一般经验能量密度泛函最初是针对单参考局域密度构造的，当将其推广至多参考能量密度泛函（MR-EDF）计算时，由于计算非对角能量核函数需要处理不同取向或形变内禀态之间的过渡密度，某些经验泛函实现会出现自相互作用误差或分支割线病态，需要针对具体的泛函实现进行技术检验。这一现象属于经验泛函非对角延拓问题，与源自真实反对称多体哈密顿算符的变分后投影（PAV）存在本质区别。
+
+\paragraph{4. 解耦同名异义的四类 $\gamma$ 参量与独立物理定义}
+三轴非轴对称形变参数 $\gamma$ 在不同模型中指代着内涵不同的物理量，须在概念上予以解耦：
+\begin{enumerate}
+\item \textbf{自洽平均场与 5DCH 中的静态几何坐标 $\gamma_{\mathrm{MF}}$}：描述自洽单体定域密度在内禀坐标系三个主轴方向上的几何延展比值，是势能曲面 $E(\beta, \gamma)$ 上的静态变分坐标；
+\item \textbf{转子模型中的惯量三轴比值参数 $\gamma_{\mathrm{rigid}}$}：由核内核子流体或刚体惯量张量的主轴比值决定，反映的是质量与动能的动力学分布；在微观上，由于配对准粒子相互作用与速度依赖势的存在，惯量主轴比值与电荷分布的几何形变比值并不必然相等；
+\item \textbf{Kumar--Cline 形状不变量比值导出的有效角 $\gamma_{\mathrm{inv}}$}：设四极不变量的二阶与三阶期望值分别为 $q_2 = \langle Q \cdot Q \rangle$ 与 $q_3 = \langle (Q \times Q)_2 \cdot Q \rangle$，有效形状角由张量不变量比值确定：
+\begin{equation}\label{eq:2-8-gamma-inv-ratio}
+\cos(3\gamma_{\mathrm{inv}}) = -\sqrt{\frac{7}{2}}\,\frac{q_3}{q_2^{3/2}} .
+\end{equation}
+这里分母 $q_2^{3/2}$ 与分子 $q_3$ 的量纲一致。仅当不变量比值严格处于 $[-1, 1]$ 区间时，式\eqref{eq:2-8-gamma-inv-ratio}才存在实数角 $\gamma_{\mathrm{inv}}$。在实际微观量子态计算或有限实验态截断估计中，由于大振幅零点涨落或态空间不完备，该比值在数值上可能越出 $[-1, 1]$ 区间；此时不应通过人为强行截断（clamping）去赋予其几何形状角，且通过有限低激发态矩阵元求和并不等同于全空间的完备闭合；
+\item \textbf{代数模型 IBM 中的相图参数 $\chi$}：出现在代数四极算符 $\hat{Q}_\chi = (s^\dagger \tilde{d} + d^\dagger s)^{(2)} + \chi (d^\dagger \tilde{d})^{(2)}$ 中。仅凭 $\chi = 0$ 并不足以确立 $O(6)$ 动力学对称性；只有在特定的哈密顿量参数配置下，体系才对应于 $O(6)$ 极限。$\chi$ 应被严格理解为玻色子电四极算符的结构常数，而非独立的动力学对称性充要判据。
+\end{enumerate}
+上述四个参数在特定核素的计算中数值可能接近，但其物理测度与实验反演链条是相互独立的。
+
+\paragraph{5. 否定有效参数的先验可迁移性}
+微观壳模型中引入的经验有效电荷（如质子有效电荷 $e_p^{\mathrm{eff}} \approx 1.5e$、中子有效电荷 $e_n^{\mathrm{eff}} \approx 0.5e$）以及弱相互作用轴矢流 Gamow--Teller 淬灭因子（$q \approx 0.74$），是为了补偿价空间之外的高能核芯极化效应；而在全空间自洽能量密度泛函理论中，由于包含了全核子的自洽电荷极化响应，电磁算符使用的是真实自由核子电荷。因此，不能脱离具体的模型空间，将一个模型中调试好的有效参数直接移植到另一个模型中。
+
+\subsection{核结构多模型综合要素交叉对比}\label{sec:2-8-4}
+
+基于前述各小节的梳理，表\ref{tab:2-8-cross-model-comparison}对八类核结构模型在保留自由度、消去动力学、参数来源、可预测物理观测及特征失效区域五个维度进行了系统交叉比对。
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{八类主流核结构模型的物理自由度、消去动力学、参数来源及失效边界交叉对比}\label{tab:2-8-cross-model-comparison}
+\begin{tabularx}{\textwidth}{p{2.0cm}p{2.6cm}p{2.6cm}p{2.8cm}p{2.8cm}X}
+\toprule
+\textbf{理论模型} & \textbf{保留自由度} & \textbf{消去动力学} & \textbf{参数来源与输入} & \textbf{主要可预测量} & \textbf{特征失效边界} \\ \midrule
+\textbf{微观壳模型} & 价空间单粒子算符 $a^\dagger_j, a_j$；全CI组态 & 冻结惰性核芯；截断高能虚激发与连续谱 & 自由核力微扰演化加闭壳实验单极修正 & 好量子数能谱 $E(I^\pi)$；单粒子谱因子；跃迁率 & 中重形变区维数爆炸；跨主壳强侵入态混合失效 \\ \addlinespace
+\textbf{自洽泛函 (EDF)} & 全空间局域密度 $\rho(\mathbf{r})$、$\tau(\mathbf{r})$、配对张量 $\kappa(\mathbf{r})$ & 单参考态消去形状涨落；自发破缺转动守恒 & 全局拟合双重闭壳结合能、半径与物质参数 & 结合能；电荷半径演化；多极约束势能面 & 平坦势面无法给出孤立极小；无实验室好能谱 \\ \addlinespace
+\textbf{5D集体哈密顿} & 四极形变 $(\beta, \gamma)$ 与转动欧拉角 $\Omega$ & 绝热近似消去非平衡激发；冻结高阶形变 & 微观约束势能面加自洽动能逆质量张量 & 偶偶核振转态谱；波函数分布；带间 $B(E2)$ & 快转动准粒子顺排带交叉失效；配对相变点发散 \\ \addlinespace
+\textbf{投影生成坐标} & 形变态流形 $\{|\Phi(q)\rangle\}$ 相干叠加；群投影 & 局限于生成坐标集合 $\{q\}$，消去正交动力学 & 底层微观有效两体核力或泛函，无额外参数 & 守恒态谱；共存态混合权重；绝对跃迁率 & 分式密度依赖MR-EDF极点发散；三轴投影维数灾难 \\ \addlinespace
+\textbf{相互作用玻色子} & $s(L=0)$ 与 $d(L=2)$ 玻色子空间，总数守恒 & 消去泡利交换细致项；冻结破对高阶准粒子 & 代数极限参数插值，或经OAI微观映射 & 声子带谱；相对跃迁比；量子形状相变相图 & 无法自然重现对拆开回弯；对单极张量移动不敏感 \\ \addlinespace
+\textbf{粒子-转子模型} & 宏观刚体转子 $\mathbf{R}$ 加上少数价准粒子 $\mathbf{j}$ & 冻结核芯形状坐标 $(\beta, \gamma)$ 的动力学量子涨落 & 经验主轴惯量 $\mathcal{J}_k$；经验配对隙与Nilsson参数 & 奇 $A$ 核高自旋转动态；签名裂变；摆动激发能 & 低自旋区量子涨落强烈，刚体假设失效；忽略极化 \\ \addlinespace
+\textbf{倾斜推转 (TAC)} & 随体参考系中单体势场、离心力与科氏力极化 & 经典化矢量 $\boldsymbol{\omega}$，破缺角动量；消去横向摇摆 & 相对论/非相对论自洽单体势场加对相互作用 & 倾斜取向角；磁转动剪切角；面内/外跃迁比 & 经典分叉点无法给出隧穿能劈裂；小振幅摇摆发散 \\ \addlinespace
+\textbf{准粒子RPA} & 基态之上双准粒子激发振幅 $X, Y$ 线性响应 & 受限于小振幅谐振，消去非谐模式耦合 & 自洽HFB单粒子能级加残余两体相互作用 & 巨多极共振强度；低激发 $2_1^+$ 能；微小摆动频率 & 接近相变点极小失稳出现虚频崩溃；无大振幅相变 \\ \bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{多模型解释简并与打破机制的具象剖析}\label{sec:2-8-5}
+
+理论模型在面对实验数据时，可能遇到模型解释简并：基于不同物理假设的模型，在包含自由可调参数的情况下，可能同时重现低激发能级谱。需要引入对微观动力学更为敏感的独立高阶观测量，对假定的运动机制形成条件约束。本小节通过两类具有实验证据支持的案例讨论这一过程。
+
+\paragraph{案例一：$A \approx 130$ 奇 $A$ 核 $^{135}\mathrm{Pr}$ 低自旋带间跃迁的角分布双解与多模型约束}
+在三轴奇 $A$ 核 $^{135}\mathrm{Pr}$（$Z=59, N=76$）中，实验观测到基于奇质子 $\pi h_{11/2}$ 组态的多条负宇称转动带。\cite{frauendorf_2014_Transversewobbling,nomura_2022_Questioningwobbling,lv_2022_Evidencewobbling}
+\begin{itemize}
+\item \textbf{粒子-转子模型（PRM）框架下的横向摆动分析}。在三轴转子耦合高 $j$ 准粒子的理论框架中，Frauendorf 与 Dönau 提出了一类冻结顺排（frozen alignment）的简化近似模型，即在特定强约束下将准粒子角动量固定在刚体核芯的短轴方向。\cite{frauendorf_2014_Transversewobbling} 在此简化近似下，模型预测低自旋区出现横向摆动模式，即随着自旋增加摆动激发能量单调下降，且一阶带（Band 3）向基带（Band 1）的带间跃迁表现为集体增强的四极跃迁，对应的多极混合比量级预期满足 $|\delta| > 1$。需要指出，将准粒子取向严格冻结在主轴方向仅属于特定教学近似，并不代表粒子-转子模型在更一般的数值求解中都不能包含顺排角动量的动态演化。
+\item \textbf{重分析与多模型条件约束}。在后续关于 $^{135}\mathrm{Pr}$ 结构的研究中，Nomura 与 Petrache 采用微观自洽能量泛函映射的相互作用玻色子-费米子模型（IBFM），指出该核区的偶偶核芯在微观势能面上具有明显的 $\gamma$ 软性，低自旋带间跃迁可由单粒子激发与软核表面激发混合解释。\cite{nomura_2022_Questioningwobbling} 进一步，Lv 等人重新细致分析了既有实验中的两点角分布各向异性比 $R_{\mathrm{ac}}$ 与线偏振度测量：在所采用的角分布勒让德多项式二次展开下，数学上容许两组混合比解（即 $|\delta_1| > 1$ 的 $E2$ 主导解与 $|\delta_2| < 1$ 的 $M1$ 主导解）。\cite{lv_2022_Evidencewobbling} Lv 等人结合康普顿散射线偏振度 $P$ 的实测数据，指出同一实验数据同样与小根解兼容（对 $747.3\,\mathrm{keV}$ 跃迁提取出 $\delta = -0.47^{+0.09}_{-0.22}$）；在此小根解下，带间跃迁以磁偶极 $M1$ 性质为主导。更进一步，Lv 等人在假定 Band 3 为 1-phonon 纯横向摆动带的模型分析条件下指出，跃迁至签名伴带（Band 2）的 $526.2\,\mathrm{keV}$ 分支理论上预期受到压低；然而实测两带间跃迁的折合跃迁几率比值为：
+\begin{equation}\label{eq:2-8-lv-ratio}
+\frac{B(E2; 747.3\,\mathrm{keV})}{B(E2; 526.2\,\mathrm{keV})} = 0.7^{+0.7}_{-0.5} ,
+\end{equation}
+这一接近于 1 的实测比值与纯横向摆动假定的理论预期存在张力。在非冻结准粒子的 QTR 计算中，模型显示随着自旋增加单质子角动量呈现从短轴向中间轴的再顺排，表现为倾斜进动（tilted precession）特征。\cite{lv_2022_Evidencewobbling} 这一分析区分了同一组角分布数据在不同数学分支下的解释简并，构成了对冻结单粒子横向摆动模型假定的条件约束，而具体的实验测量历史演进将在第\ref{sec:4-4}节结合实测谱学数据进一步展开。
+\end{itemize}
+这一案例说明：单纯基于能级能量拟合与未受偏振充分鉴别的角分布大根解，不足以唯一确立特定模式。不同的模型假定通过不同参数选择均能拟合能级结构，而更严格的偏振测量与相对分支比对比，构成了对冻结单粒子横向摆动假设的物理检验与条件约束。
+
+\paragraph{案例二：$A \approx 100$ 富中子锆同位素急剧形状相变的多模型透视}
+在中子数 $N=60$ 附近的富中子锆同位素（$^{98}\mathrm{Zr}$ 到 $^{100}\mathrm{Zr}$）中，实验上观测到急剧的基态能级演化与低能 $0^+$ 态共存现象。\cite{doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution,doctoral-r1-g28-togashi-2016-zr-mcsm-qpt,Heyde_2011}
+\begin{itemize}
+\item \textbf{微观壳模型透视}：大规模蒙特卡洛壳模型（MCSM）计算揭示了微观单极相互作用驱动的“Type-II 壳演化”机制。当质子跃迁占据侵入轨道 $\pi g_{9/2}$ 时，质子与中子之间的自旋-同位旋张量相互作用显著降低了中子 $\nu g_{7/2}$ 轨道的有效单粒子能量（ESPE），使得中子能隙减小，诱发相干组态重构，使得 $^{100}\mathrm{Zr}$ 的基态转变为具有显著四极形变（$\beta_2 \approx 0.4$）的态。\cite{doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution,doctoral-r1-g28-togashi-2016-zr-mcsm-qpt}
+\item \textbf{自洽集体动力学透视}：在基于微观有效相互作用的 5DCH 计算中，微观约束势能面上展现出形状共存特征：$^{98}\mathrm{Zr}$ 具有深球形极小与微弱形变浅谷，而 $^{100}\mathrm{Zr}$ 呈现深长椭极小；通过求解五维玻尔动能方程，两态波函数在形变空间呈现出局域化的量子重叠。\cite{prochniak-rohozinski-2009-bohr-collective-hamiltonian}
+\item \textbf{代数模型透视}：IBM-2 配置混合模型则将该相变表述为规则组态 $[N]$ 玻色子态与跨壳质子对激发 $[N+2]$ 玻色子态之间的代数哈密顿量混合。\cite{Heyde_2011}
+\end{itemize}
+虽然三种模型均能描述 $^{98,100}\mathrm{Zr}$ 的能谱特征，但对低激发 $0_2^+ \to 2_1^+$ 弱跃迁与 $2_2^+ \to 0_2^+$ 的强电四极跃迁的定量重现，需要微观组态或微观势能面与动力学质量张量的结合，体现了微观相互作用在形状共存相变中的作用。
+
+\subsection{面向实验验证的留出检验与参数可辨识性界限}\label{sec:2-8-6}
+
+上述案例表明：当模型中唯象参数或拟合基元较多时，理论对实验能级的拟合能力被放大，可能出现基于不同物理图像均能符合数据的简并现象。为了对模型形成有效约束，需要采用面向实验测量的留出检验（holdout validation）方法。
+
+\paragraph{1. 留出检验的基本原则}
+当一个理论模型利用某个核素的基带能级或个别低自旋比值调整了其可调参数（如转动惯量、对能隙或唯象相互作用强度）后，这些参数应被固定。该模型须在未参与拟合的独立观测量上接受留出检验：
+\begin{enumerate}
+\item \textbf{高阶跃迁强度与支额}：带间绝对跃迁几率 $B(E2)$ 和 $B(M1)$，以及通过探测阵列测得的精密多极混合比 $\delta$；
+\item \textbf{高自旋演化}：发生准粒子顺排（带交叉/回弯）时能级转动常数的微观变化；
+\item \textbf{对角物理观测量}：通过高能库仑激发测得的非零激发态电四极矩 $Q(I)$ 与核磁偶极矩 $\mu(I)$；
+\item \textbf{同核异能态性质}：微秒至纳秒量级高 $K$ 异能态或形状异能态的衰变宽度与阻碍因子。
+\end{enumerate}
+
+\paragraph{2. 六个代表性质量区的检验定位}
+在全书架构中，第\ref{chap:1}章第\ref{sec:1-4}节选取的六个代表性质量区，为上述模型提供了跨区域的系统留出检验平台：
+\begin{itemize}
+\item $A \approx 70$（$\mathrm{Ge, Se}$ 区域）：质子与中子同时填充相同的自旋-轨道伴对轨道（$f_{5/2}, p_{3/2}, g_{9/2}$），检验壳模型与 5DCH 对三轴柔顺性及快速形状过渡的微观预言；
+\item $A \approx 68$（$\mathrm{Ni}$ 同位素反转岛）：检验微观张量单极演化对传统中子闭壳破坏的描述能力；
+\item $A \approx 100$（$\mathrm{Zr, Mo}$ 区域）：具有明显的球形-大变形相变特征，是区分 MCSM 单极演化、5DCH 自洽双势谷与 IBM 构型混合的参照体系；
+\item $A \approx 130$（$\mathrm{Ba, Ce, Pr, Nd}$ 区域，本论文核心锚点）：三轴非轴对称、$\gamma$ 软性、手征双重带与高阶取向模式集中呈现，是检验 PRM 假定、IBFM 软核耦合及三维推转平均场（TAC）的关键区域；
+\item $A \approx 160$（稀土稳定强变形区）：刚性轴对称转子与三轴超变形（TSD）体系，检验纯转子展开与微观 RPA 响应的有效极限；
+\item $A \approx 190$（$\mathrm{Pt, Hg, Pb}$ 区域）：典型的两态形状共存，检验多极库仑激发矩阵元求和与投影 GCM 的波函数描述。
+\end{itemize}
+
+综上所述，核结构模型是对有限量子多体系统在不同尺度与运动模式下的理论逼近。当研究推进到非轴对称三轴形变、角动量空间取向以及手征与取向自由度的微观相干耦合时，深入把握各模型保留与消去的动力学，有助于在后续第\ref{chap:3}章对大振幅转动与局部展开（第\ref{sec:3-1}节）、稳定转轴（第\ref{sec:3-2}节）、手征几何（第\ref{sec:3-5}节）以及 $\gamma$ 形状模与取向模耦合（第\ref{sec:3-6}节）开展自洽的理论分析与实验判决。

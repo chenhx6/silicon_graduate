@@ -1,0 +1,91 @@
+{
+  "section_id": "3.4",
+  "title": "进动、TiP与声子语言的边界",
+  "section_label": "sec:3-4",
+  "status": "canonical-complete",
+  "timestamp": "2026-11-13T06:21:05.380748+00:00",
+  "reader_starting_point": "读者已在第3.2节理解纯转子稳定主轴与局域摆动极限，在第3.3节掌握准粒子顺排与横向/纵向摆动分叉。本节进一步深入轴对称高 K 进动机制、倾斜进动 (TiP) 替代模型、有限自旋量子波函数与经典相轨迹的区分，以及多声子谐振假说的适用与失效边界。",
+  "central_question": "轴对称高 K 态的实验室能级差与固定自旋局域旋转系摆动频率有何本质区别？倾斜进动 (TiP) 模型如何在不借助纯简谐假说的情况下描述伴带能量差下降？为什么在有限介观核中不能将示意性经典陀螺轨道直接等同于量子波函数，多声子声子图景在何种动力学条件下必然破缺？",
+  "pedagogical_question_chain": [
+    "Q1: 轴对称高 K 能带在实验室系中的能级公式 E_K(I) = hbar^2 [I(I+1)-K^2]/(2 J_perp) + E_intr 及其首跃迁间距 Delta E_lab = hbar^2 (K+1)/J_perp 是如何导出的？为什么固定 K 跨自旋实验室能差与固定 I 旋转系摆动激发频率是完全不同的物理比较对象？",
+    "Q2: 倾斜进动 (TiP) 模型如何通过三维空间转轴向主轴平面内倾斜来描述取向动力学？为什么在学术评价中不应强行设定跨核区通用的 delta 或 B(E2) 阈值，亦不能将术语差异误判为测量矛盾？",
+    "Q3: 有限自旋量子波函数的空间弥散度、角向节面（nodal line）与经典相空间连续闭合轨迹有何本质区别？为什么经典陀螺图示不能充当严格的微观物理证据？",
+    "Q4: 简谐摆动声子数标签 n_w = 0, 1, 2 在何种高自旋与刚性条件下近似有效，何时因非简谐拉伸、相空间分离线逼近与去配对而完全失效？普通旋称带、多准粒子组态交叉与软核形状涨落如何构成平行竞争解释？",
+    "Q5: 面对类似 131Ce 等能谱完备但缺少纳秒/皮秒绝对寿命测量的体系，如何在谱学分析中恪守客观证据边界而不凭空臆造绝对矩阵元？多维综合裁决准则包含哪些关键支柱？"
+  ],
+  "subsections": [
+    {
+      "id": "3.4.1",
+      "title": "轴对称高 K 能带进动与转动态能量间距",
+      "label": "sec:3-4-1",
+      "argument": "阐述轴对称强变形核高 K 能带公式 E_K(I) = hbar^2 [I(I+1) - K^2]/(2 J_perp) + E_intr 及其首跃迁间距 Delta E_lab = hbar^2 (K+1)/J_perp 约等于 hbar^2 K / J_perp。严格区分高 K 态与 K=0 轴对称态的本质物理差异（内部准粒子总角动量锁定 vs 无结构流体对称轴集体自转禁戒）。严格解耦固定 I 旋转系小振幅摆动频率与固定 K 实验室系相邻能差。",
+      "key_equations": [
+        "E_K(I) - E_{\\text{intr}} = \\frac{\\hbar^2}{2\\mathcal{J}_\\perp} \\left[ I(I+1) - K^2 \\right]",
+        "\\Delta E_{\\text{lab}}(K+1 \\to K) = \\frac{\\hbar^2 (K+1)}{\\mathcal{J}_\\perp} \\approx \\frac{\\hbar^2 K}{\\mathcal{J}_\\perp}",
+        "\\text{旋转系局域频率 } \\hbar \\omega_{\\text{wob}}(I) \\text{ 与实验室能差 } \\Delta E_{\\text{lab}} \\text{ 属于不同物理范畴}"
+      ]
+    },
+    {
+      "id": "3.4.2",
+      "title": "倾斜进动（TiP）模型的取向动力学描述",
+      "label": "sec:3-4-2",
+      "argument": "系统阐释 Lawrie 等人 (2020) 倾斜进动 TiP 模型。总角动量围绕倾斜于几何主轴的方向进动，解释能量差随自旋下降。指出 TiP 是具体粒子-转子耦合下的唯象描述，不设跨核区通用阈值，不把术语差异当作测量矛盾。",
+      "key_equations": []
+    },
+    {
+      "id": "3.4.3",
+      "title": "有限自旋波函数分布与经典轨迹的几何区分",
+      "label": "sec:3-4-3",
+      "argument": "严格区分经典力学连续相轨迹与有限自旋多体量子波函数的空间弥散度和特征节面（nodal line）。基态具有 1/sqrt(I) 的高斯涨落宽度，第一激发态呈现特征节面与双峰分布，分离线附近发生大范围量子隧穿。经典陀螺图示仅供定性引导，不能作为微观物理证据。",
+      "key_equations": []
+    },
+    {
+      "id": "3.4.4",
+      "title": "谐振声子语言的适用界限与替代机制竞争",
+      "label": "sec:3-4-4",
+      "argument": "划定声子标签 n_w = 0, 1, 2 的有效边界（高自旋渐近、深势阱、准粒子极化稳定）。深入分析低自旋区、带交叉区及非简谐势下的声子图像失效。阐释普通旋称带、多准粒子组态交叉与软核核芯耦合的多重竞争机制。恪守实验测量边界（如 131Ce 仅有能谱缺寿命时不虚构绝对 B 值）。",
+      "key_equations": []
+    },
+    {
+      "id": "3.4.5",
+      "title": "实验观测量裁决能力与三轴谱学分析准则",
+      "label": "sec:3-4-5",
+      "argument": "确立多维综合裁决准则：能谱间距 Delta E(I)、方向角关联 DCO 与偏振保留 delta 双根解、能级寿命测定提取绝对 B(E2) 与 B(M1)、微观模型自洽波函数与跃迁网络全面对账。",
+      "key_equations": [
+        "B(E2)_{\\text{inter}} \\sim \\frac{1}{I}"
+      ]
+    }
+  ],
+  "source_inputs": [
+    {
+      "source_id": "shimizu-2005-high-k-precession",
+      "canonical_source": "Y. R. Shimizu et al., Phys. Rev. C 72, 014306 (2005)",
+      "read_locators": "PDF pp. 2–3, 5–6 (Section II, Section III B)",
+      "supports": "高 K 态轴对称进动能量公式与实验室跃迁能差"
+    },
+    {
+      "source_id": "lawrie-2020-tilted-precession-wobbling",
+      "canonical_source": "E. A. Lawrie et al., Phys. Rev. Lett. 125, 102501 (2020)",
+      "read_locators": "PDF pp. 1–6",
+      "supports": "三维倾斜进动 TiP 模型动力学与能差演化"
+    },
+    {
+      "source_id": "lv-2021-tilted-precession-135nd",
+      "canonical_source": "B. F. Lv et al., Phys. Rev. C 103, 044308 (2021)",
+      "read_locators": "PDF pp. 1–8",
+      "supports": "135Nd 中倾斜进动带的实验测量与 QTR 对账"
+    },
+    {
+      "source_id": "lv-2022-evidence-against-wobbling-135pr",
+      "canonical_source": "B. F. Lv et al., Phys. Rev. Lett. 129, 042501 (2022)",
+      "read_locators": "PDF pp. 1–6",
+      "supports": "135Pr delta 双根反演与反驳横向摆动解释"
+    },
+    {
+      "source_id": "book-petrache-chirality-and-wobbling",
+      "canonical_source": "C. M. Petrache (ed.), Chirality and Wobbling in Atomic Nuclei, CRC Press (2025)",
+      "read_locators": "Relevant chapters on TiP and wobbling phenomenology",
+      "supports": "三轴进动模式与声子语言的综合述评"
+    }
+  ]
+}

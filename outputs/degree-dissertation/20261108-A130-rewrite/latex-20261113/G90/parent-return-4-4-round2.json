@@ -1,0 +1,84 @@
+{
+  "recorded_at": "2026-11-13T13:16:06.346200+00:00",
+  "status": "returned-after-parent-actual-text-and-original-reading",
+  "section": "4.4",
+  "priority": "Finish current4.5 independent delivery, then revise4.4; do not propagate unaccepted4.4 claims.",
+  "retain": [
+    "Corrected radius ordering R2<R1<R3 and s2/m1/l3 mapping for the declared positive-beta0<gamma<60 parameterization.",
+    "Rigid versus irrotational response distinction and the accepted3.3 fixed-FA energy-trend limitations.",
+    "Lu20-row original data scope15+5 is correct as a count; actual values still need final row check."
+  ],
+  "required": [
+    {
+      "id": "44-1",
+      "severity": "hard-dynamics",
+      "where": "currentline82",
+      "action": "C2<0,C3<0 is an energymaximum, but not necessarily linear dynamicalinstability in the declared Hamiltonian spinproblem: both factors give an elliptic stable linear system. Classical minimuminertia-axis rotation is highenergymaximum yet linearlystable; intermediate-axis saddle is unstable. Distinguish energeticminimum/positiveenergyphononvacuum from real-frequencylinearstability. Canonical knowledge/research-notes/a130-rewrite-wobbling-local-limits-20261113.md TransferConditions already states this correctly. Do not equate every “hilltop” with exponentialgrowth."
+    },
+    {
+      "id": "44-2",
+      "severity": "hard-physics",
+      "where": "currentline232 andallaxialparagraphs",
+      "action": "Remove claim J3→0 makes alltransverse bands infinite and collapses to one intrinsicK level. Pure axialshape R3=0 is a gaugeconstraint, not allmicroscopicaxialresponsezero. With fixedintrinsicK there remains I=K,K+1,... and finite E_K(I)=Eintr+hbar²[I(I+1)−K²]/(2Jperp), so your next firstgap equation itself contradicts collapse. Use acceptedT17/correction/report and latest3.4 contract, not oldG87 explanation. Map symmetryaxis x or3 explicitly."
+    },
+    {
+      "id": "44-3",
+      "severity": "hard-source-data",
+      "where": "Prparagraphsline184/813 andledger/note/table",
+      "action": "Father read actual localLv2022 PDF3 Table1/text.747.3: P=.04(+.08/−.13),Rac=.37(.04),δ=−.47(+.09/−.22).813.2: P=−.03(+.05/−.12),Rac=.48(.06),δ=−.37(+.10/−.14).450.2: Rac=.49(.04),δ=−.31(+.10/−.13). YourRac.98(.07)/1.01(.08) and813δ−.46(+.11/−.19) are not that Table1. Correct everyinstance. M1 fractions82/88/91% are conditional transforms ofthoseδ, not independentmeasurements; do not keep88%withδ−.46."
+    },
+    {
+      "id": "44-4",
+      "severity": "hard-inference",
+      "where": "ratio.7 andparagraphfollowing",
+      "action": "B(E2) ratio.7(+.7/−.5) is not directly equal wavefunctionprojection ratio and does not unconditionally prove allwobbling impossible. State Lv authorinterpretation under proposedbandassignment/operator/selectionconditions, adopted526.2 multipolarity andrelativeintensities. Remove unsupported generic10–100 threshold and 毫无争议. Same-nucleus derivedδ/E2fraction/derivedB are dependent; do not count as repeated experiments."
+    },
+    {
+      "id": "44-5",
+      "severity": "hard-model-identity",
+      "where": "IBFMparagraph",
+      "action": "Nomura2022 actualPDF2 Fig1caption/method: GognyD1M isfor132Ba/128Xe;134Ce core of135Pr uses relativistic DD-PC1 and separablepairing. Correct your135Pr GognyD1M statement. Keep mappedEDF inputs and any fitted bosonfermion couplings; it is not parameterfree abinitio. Actual QTRLv holds gamma=26 degrees and epsilon_2=0.16, so no explicitdynamicgamma coordinate: do not attribute deepgamma-vibrationmixing to that fixed-gamma QTR. Separate IBFMsoftness andQTRrealignment implementations."
+    },
+    {
+      "id": "44-6",
+      "severity": "hard-generalization",
+      "where": "coreR andmigration conditions",
+      "action": "R=|Ivector−jvector| is an operator/vectorrelation, not measuredscalarI−j for arbitraryorientation. Label R~1hbar as a specifiedmodel/alignment estimate, not empiricalcoremeasurement. LowR/I alone does not establish zero curvature or impossibility ofeveryquantumwobbling. LargeI and transversefluctuation/localization conditions belong to selectedharmonicapproximation; preserve fullquantum/QRPA/othermodels andcontroversy."
+    },
+    {
+      "id": "44-7",
+      "severity": "model-conditions",
+      "where": "LWdefinition andminimumnecessaryconditions",
+      "action": "LW meansqp alignedalongmaxinertiaaxis; half-filledshell is not definitionalornecessary. Bottom/topparticle/holepreferences are selectedhighj singleparticle-model trends, not alltriaxialBCSstates. Gamma-vibration/qp modecoupling need not eliminate allphononconcepts; an isolatedpurephonon approximation has strongerconditions than a couplednormalmode. Remove “cross-region necessaryandsufficient” claims or arbitraryR>>1 as a universalnuclearadmissiontest."
+    },
+    {
+      "id": "44-8",
+      "severity": "hard-mathematics",
+      "where": "DCO/P-Rac paragraph",
+      "action": "No theoremguarantees twofinite realroots, nor oneabsdelta>1 andonesmall. General quadratic/quadratic response may0/1/2finite roots, degenerateequations, excludeddenominatorzeros andpure-E2ratio endpoints. Relate specificLv/Matta branchpair only to actualresponse+uncertainty. Psign alone notsufficient, but do notinventuniversalreasonable sigma/I .25–.35 as a criterion."
+    },
+    {
+      "id": "44-9",
+      "severity": "data-versus-model",
+      "where": "Lu/Au tableandphysics prose",
+      "action": "TSDn_w labels are authorinterpretation; Qt similar alone doesnotfixwavefunctionortriaxialrigidity. B(E2)/B(M1) inferredusingadoptedδ are not fullyindependent measurements. Coreinertias may be fittedphenomenologicalor calculatedmicroresponse, not allnecessarilycomputedQRPA. Au B estimatesadopt186Pt input; do notpromotetoindependentabsoluteB nor stateallOsPtHgPES universallyextremelyflat."
+    },
+    {
+      "id": "44-10",
+      "severity": "conditions-and-prose",
+      "where": "wholebodyandnote",
+      "action": "Microscopicinertia is not universallybounded by rigid/irrot envelopes; it maylieinsideoroutside, not necessarilyoutside. Current chapterlogic mustretain opposingpublishedinterpretations andcitedscope. Absencelifetimes means absenceincompareddatasets, not verifiedglobalNov2026absence. Use physicalangles/action units/dimensionlessI,j consistently withnotationcontract; no manuscriptclaimexperimentalR=I−j scalar. Stripscientificpolicy/historyslogans and “strictly/absolutely” rhetoric whereconditionsare whatmatter."
+    },
+    {
+      "id": "44-11",
+      "severity": "hard-axis-convention",
+      "where": "FAfrequency/Ic formula after geometricaxis assignment",
+      "action": "The corrected geometric mapping is k1=m,k2=s,k3=l in thisgamma sector. But accepted3.3 uses localFA axis1 alongfrozenj and axis2 maxinertia; selectedTW therefore localFA1->geometric s2, localFA2->m1, localFA3->l3. Do not silently reuse A1/A2 as identical between these conventions. State permutation explicitly or rewrite the formula with a=s,b=m,c=l: C_b=A_b−A_a+A_a j/I,C_c=A_c−A_a+A_a j/I;Ic=j/(1−J_a/J_b). Do not claim allnumeric-axis labels are automatically globallyidentical. Check figure/table/note/ledger too."
+    }
+  ],
+  "delivery": [
+    "For eachid provideactualTeX/ledger/note/plotinstance repairor locatedboundary; allfour artifacts coherent.",
+    "RecheckPrTable1directly from actualPDF andNomuraPDF2; usecanonicalknowledge sources ratherthan oldunacceptedstaging.",
+    "Do nottouchpublicBib/wrappers/globalmanifest/Git; returnonesingle4.4receiptwithactualSHA."
+  ]
+}

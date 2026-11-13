@@ -1,241 +1,489 @@
 {
-  "generator": "system/scripts/a130_latex_figures.py",
-  "producer": "G80 (Gemini Figure Producer)",
-  "version": "parent-merged-nine-accepted-figures",
-  "generated_utc": "2026-11-13T02:15:33.092756+00:00",
+  "generator": "Gemini G101 R3; parent verified final files",
+  "task": "Appendix F and 19-figure provenance staging manifest (R3 update with 5.10 accepted & 4th control)",
+  "status": "parent_audited_inputs",
+  "generated_utc": "2026-11-13T21:18:13.366423+00:00",
   "target_directory": "raw/writing/gpt/A130/these_2023_template/these_template/Img",
-  "figures_count": 9,
+  "total_figures_count": 19,
   "figures": [
     {
-      "id": "occupancy-centroids",
-      "type": "teaching_model",
-      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/occupancy-centroids.svg",
-      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/occupancy-centroids.pdf",
-      "preview_png": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G80/occupancy-centroids.png",
-      "svg_sha256": "1e29a944808e0b37ca0a89ad1302a7902f8d86d3e3c35c0f6fa267f2e5ee9de9",
-      "pdf_sha256": "1c016d53943e8c3b59da407d4bafe4a9f44c1ffbf3eba284e05306a25d31ae14",
-      "inputs": [
-        "system/scripts/a130_rewrite_monopole_centroid_audit.py"
-      ],
-      "parameters": {
-        "g": 8,
-        "e0": 0.0,
-        "V": 1.0,
-        "B": 0.0,
-        "units": "Arbitrary Units"
-      },
-      "boundaries": [
-        "Single-orbit two-body monopole benchmark only",
-        "No configuration mixing, cross-shell monopole, or pairing residual force",
-        "Not an experimental single-particle state (ESPE) extraction",
-        "Removal only defined for n > 0; addition only defined for n < g"
-      ],
-      "caption": "Particle-occupancy dependence of addition/removal energies, continuous derivative, and spectral centroid in a single-j degenerate shell model.",
-      "generator": "system/scripts/a130_latex_figures.py",
-      "generator_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
-    },
-    {
-      "id": "gamma-measure",
-      "type": "analytical_geometry",
-      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/gamma-measure.svg",
-      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/gamma-measure.pdf",
-      "preview_png": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G80/gamma-measure.png",
-      "svg_sha256": "df58728835b86376aa6cb1a8ed0816a1099025a4e49450e13359c37cef3df7ba",
-      "pdf_sha256": "c3336dd781432a15b9fb8a2f24ff334327009e4d3098353ff3c7731cf4bc02f6",
-      "inputs": [
-        "Bohr-Mottelson 5D collective Hamiltonian volume element"
-      ],
-      "parameters": {
-        "gamma_domain": "[0, pi/3]",
-        "norm_gamma": 0.9999999999999999,
-        "norm_x": 1.0,
-        "x2_expectation": 0.3333333333333333
-      },
-      "boundaries": [
-        "Isotropic flat collective potential assumption",
-        "Density peak is a coordinate Jacobian projection, not a potential well",
-        "Does not include dynamic pairing or microscopic particle-rotor polarization"
-      ],
-      "caption": "Isotropic geometric phase-space volume measure and probability distribution for the triaxial shape coordinate.",
-      "generator": "system/scripts/a130_latex_figures.py",
-      "generator_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
-    },
-    {
-      "id": "digital-energy-response",
-      "type": "simulation_csv",
-      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/digital-energy-response.svg",
-      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/digital-energy-response.pdf",
-      "preview_png": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G80/digital-energy-response.png",
-      "svg_sha256": "8e000ce14eee67eda2dd9afe8c1f97531e5ddc40c66a439b4ae9edf258500e54",
-      "pdf_sha256": "41520bb253609d323090add64e02aa41564ee5c3b8a007df8c5fb39965a0df9b",
-      "inputs": [
-        "outputs/l4/20261108-digital-pulse-response/ballistic_deficit_study.csv"
-      ],
-      "input_sha256": "e76fd8c6f896aea49cdb3d1489b6ef398f023422ee7449d4dc97e43b7066b353",
-      "parameters": {
-        "decay_ns": 50000.0,
-        "shaping_rise_k_ns": 2000,
-        "tested_flat_tops": [
-          0,
-          100,
-          400
-        ],
-        "rise_time_range_ns": [
-          20,
-          400
-        ]
-      },
-      "boundaries": [
-        "Ideal noiseless double-exponential pulse response",
-        "No charge-carrier drift simulation or preamplifier noise profile",
-        "Not an in-situ nuclear detector calibration"
-      ],
-      "caption": "Digital trapezoidal filter ballistic deficit and flat-top mitigation under varying pulse collection rise times.",
-      "generator": "system/scripts/a130_latex_figures.py",
-      "generator_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
-    },
-    {
-      "id": "cfd-phase-convergence",
-      "type": "simulation_csv",
-      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/cfd-phase-convergence.svg",
-      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/cfd-phase-convergence.pdf",
-      "preview_png": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G80/cfd-phase-convergence.png",
-      "svg_sha256": "b2374a5af78a9e9347aa234c3172b75ae788d7245e1fc9a3fa406eddc56ad46a",
-      "pdf_sha256": "dbfbbdcd9cd39fb637f62e8cb58c9013535b1844a93bec75dad61243bcdbba29",
-      "inputs": [
-        "outputs/l4/20261108-digital-pulse-response/sampling_convergence.csv",
-        "outputs/l4/20261108-digital-pulse-response/cfd_phase_walk_analysis.csv"
-      ],
-      "input_sha256": {
-        "convergence": "fcbc5a3ebf68e5ef8f0cb5dabfc1be09484d4f99757f9f2f9db6909225469222",
-        "walk": "fa67402db75b74cc78dabab173d0ce89e0ba6a77df1545ddd8a330a9ca4d7178"
-      },
-      "parameters": {
-        "sampling_steps_ns": [
-          10.0,
-          5.0,
-          2.5,
-          1.25
-        ],
-        "cfd_fraction": 0.4,
-        "cfd_delay_ns": 80
-      },
-      "boundaries": [
-        "Reference latency (t_ref ~ 157-161 ns) is filter group delay, not timing jitter or walk",
-        "Error values are empirical maxima of 20 discrete phase samples, not an analytic continuous bound",
-        "No electronic noise, timing discriminator walk, or jitter included"
-      ],
-      "caption": "Digital CFD sub-clock phase walk timing error and interpolation convergence with sampling clock interval.",
-      "generator": "system/scripts/a130_latex_figures.py",
-      "generator_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
-    },
-    {
       "id": "shape-moments",
-      "type": "concept",
-      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/shape-moments.svg",
-      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/shape-moments.pdf",
-      "preview_png": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G80/shape-moments.png",
-      "svg_sha256": "5bb89e143050cb1765f0bb994ca429e797a9854029ec07f15aeb1507fe598e36",
-      "pdf_sha256": "d174e5ac579b08a4bf4255ebe50006b9756530e91ca5507aea6c20fab9613097",
-      "inputs": [
-        "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md (Section 1.2/2.1)"
+      "citing_sections": [
+        "sec-1-2"
       ],
-      "boundaries": [
-        "Conceptual schematic for laboratory frame vs intrinsic body-fixed frame",
-        "Isotropic ground state is a quantum angular momentum singlet, not an exposure time-average",
-        "Scalar sum q2 = sum B(E2; 0+ -> 2_n+) includes zero-point fluctuations and self-terms, not proving rigid deformation alone"
-      ],
-      "caption": "Conceptual distinction between isotropic laboratory state, deformed body-fixed reference spheroid, and scalar E2 quadrupole correlation network.",
-      "generator": "system/scripts/a130_latex_figures.py",
-      "generator_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
+      "producer_script": "system/scripts/a130_latex_figures.py",
+      "classification": "概念机制示意",
+      "basis_and_boundaries": "依据第 1.2/2.1 节形式化；定性展示从微观核电荷密度到内禀/实验室多极矩与标量不变量的逻辑台阶，不替代具体核的一体密度数值积分。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/shape-moments.pdf",
+          "size_bytes": 37089,
+          "sha256": "d174e5ac579b08a4bf4255ebe50006b9756530e91ca5507aea6c20fab9613097",
+          "sha256_prefix12": "d174e5ac579b"
+        },
+        "svg": {
+          "path": "Img/shape-moments.svg",
+          "size_bytes": 35416,
+          "sha256": "5bb89e143050cb1765f0bb994ca429e797a9854029ec07f15aeb1507fe598e36",
+          "sha256_prefix12": "5bb89e143050"
+        }
+      },
+      "producer_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
     },
     {
       "id": "six-region-map",
-      "type": "concept_map",
-      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/six-region-map.svg",
-      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/six-region-map.pdf",
-      "preview_png": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G80/six-region-map.png",
-      "svg_sha256": "14f733c02ef57aecf6114624eb7cd64a69cac1a79ff1de64e6eeed79ccc83a8e",
-      "pdf_sha256": "1bbb37e7b35806a1f04bb7c63e49569ca88f35d5be4e58eb37533987778b7382",
-      "inputs": [
-        "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md (Section 1.4 & S6 Table I)"
+      "citing_sections": [
+        "sec-1-4"
       ],
-      "boundaries": [
-        "Strictly restricted to Section 1.4 verified anchor examples (64Ge, 74/76Kr, 98Zr, 133Ce, 163Lu, 182-188Hg)",
-        "Annotated explicitly as selected examples / not exhaustive territory labels",
-        "Anchored on 133Ce triaxiality benchmark"
-      ],
-      "caption": "Comparative landscape of experimental probes, verified isotope examples, and observational boundaries across six nuclear mass regions.",
-      "generator": "system/scripts/a130_latex_figures.py",
-      "generator_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
+      "producer_script": "system/scripts/a130_latex_figures.py",
+      "classification": "案例比较坐标",
+      "basis_and_boundaries": "依据第 1.4 节表 1.1；严格限定于六区已核准锚点核素（$^{64}\\mathrm{Ge}$、$^{74,76}\\mathrm{Kr}$、$^{98}\\mathrm{Zr}$、$^{133}\\mathrm{Ce}$、$^{163}\\mathrm{Lu}$、$^{182-188}\\mathrm{Hg}$），属于典型案例比较坐标，非穷尽核素总表。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/six-region-map.pdf",
+          "size_bytes": 35462,
+          "sha256": "1bbb37e7b35806a1f04bb7c63e49569ca88f35d5be4e58eb37533987778b7382",
+          "sha256_prefix12": "1bbb37e7b358"
+        },
+        "svg": {
+          "path": "Img/six-region-map.svg",
+          "size_bytes": 10480,
+          "sha256": "14f733c02ef57aecf6114624eb7cd64a69cac1a79ff1de64e6eeed79ccc83a8e",
+          "sha256_prefix12": "14f733c02ef5"
+        }
+      },
+      "producer_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
     },
     {
       "id": "chapter-dependency",
-      "type": "architecture_dependency",
-      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/chapter-dependency.svg",
-      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/chapter-dependency.pdf",
-      "preview_png": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G80/chapter-dependency.png",
-      "svg_sha256": "703e28eb4d60ab8ce1d31d72cae7753ba193a004109e40d3981f41fbae0dbd84",
-      "pdf_sha256": "c817f4776d702eb99f91d94f13c5ef6324aae5699cc943368e67e654ed5e4065",
-      "inputs": [
-        "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md (Section 1.5)"
+      "citing_sections": [
+        "sec-1-5"
       ],
-      "boundaries": [
-        "Covers Chapters 1-5 structural workflow and evidence loops",
-        "Differentiates forward deductive path from backward empirical constraints",
-        "Does not substitute for section-level mathematical derivations"
+      "producer_script": "system/scripts/a130_latex_figures.py",
+      "classification": "全书架构逻辑",
+      "basis_and_boundaries": "依据第 1.5 节架构总览；展示全书五章前向演绎与后向实验约束的闭环关系，不替代节内具体推导。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/chapter-dependency.pdf",
+          "size_bytes": 25268,
+          "sha256": "c817f4776d702eb99f91d94f13c5ef6324aae5699cc943368e67e654ed5e4065",
+          "sha256_prefix12": "c817f4776d70"
+        },
+        "svg": {
+          "path": "Img/chapter-dependency.svg",
+          "size_bytes": 10945,
+          "sha256": "703e28eb4d60ab8ce1d31d72cae7753ba193a004109e40d3981f41fbae0dbd84",
+          "sha256_prefix12": "703e28eb4d60"
+        }
+      },
+      "producer_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
+    },
+    {
+      "id": "occupancy-centroids",
+      "citing_sections": [
+        "sec-2-2"
       ],
-      "caption": "Dependency and feedback architecture among the five thesis chapters, linking questions, microscopic models, triaxial modes, cross-region tests, and in-beam spectroscopy.",
-      "generator": "system/scripts/a130_latex_figures.py",
-      "generator_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
+      "producer_script": "system/scripts/a130_latex_figures.py",
+      "classification": "微观教学模型",
+      "basis_and_boundaries": "第 2.2 节单极质心模型；双轨道无噪声教学模型演示占据数改变对单极能的影响，非实验单粒子激发谱。输入模型：\\path{system/scripts/a130_rewrite_monopole_centroid_audit.py}。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/occupancy-centroids.pdf",
+          "size_bytes": 24572,
+          "sha256": "1c016d53943e8c3b59da407d4bafe4a9f44c1ffbf3eba284e05306a25d31ae14",
+          "sha256_prefix12": "1c016d53943e"
+        },
+        "svg": {
+          "path": "Img/occupancy-centroids.svg",
+          "size_bytes": 64349,
+          "sha256": "1e29a944808e0b37ca0a89ad1302a7902f8d86d3e3c35c0f6fa267f2e5ee9de9",
+          "sha256_prefix12": "1e29a944808e"
+        }
+      },
+      "producer_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
+    },
+    {
+      "id": "gamma-measure",
+      "citing_sections": [
+        "sec-2-4"
+      ],
+      "producer_script": "system/scripts/a130_latex_figures.py",
+      "classification": "解析几何测度",
+      "basis_and_boundaries": "依据第 2.4 节 Bohr--Mottelson 5D 集体哈密顿量度规体积元 $\\beta^4 |\\sin 3\\gamma|$；解析展示几何测度在 $\\gamma = 30^\\circ$ 处的极值，不直接等同于微观动力学势阱极小或三轴刚性转子。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/gamma-measure.pdf",
+          "size_bytes": 40809,
+          "sha256": "c3336dd781432a15b9fb8a2f24ff334327009e4d3098353ff3c7731cf4bc02f6",
+          "sha256_prefix12": "c3336dd78143"
+        },
+        "svg": {
+          "path": "Img/gamma-measure.svg",
+          "size_bytes": 82368,
+          "sha256": "df58728835b86376aa6cb1a8ed0816a1099025a4e49450e13359c37cef3df7ba",
+          "sha256_prefix12": "df58728835b8"
+        }
+      },
+      "producer_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
     },
     {
       "id": "mode-mixing-avoided-crossing",
-      "type": "teaching_model",
-      "generator": "system/scripts/a130_mode_mixing_figure.py",
-      "generator_sha256": "bfaf8a30dbd2171c0fd105efc781079f4b1bcb324c7a203791ef6363244e66a9",
-      "producer": "G85 Gemini/high plus parent narrow geometry correction",
-      "parameters": {
-        "V_arbitrary_energy": 0.8,
-        "mean_energy_arbitrary": 5.0,
-        "detuning": [
-          -4.0,
-          4.0
-        ]
-      },
-      "boundaries": [
-        "Orthogonal quantum two-state teaching model, not oscillator frequency-squared spectrum",
-        "Basis probabilities, not measured EM intensities"
+      "citing_sections": [
+        "sec-3-6"
       ],
-      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/mode-mixing-avoided-crossing.pdf",
-      "pdf_sha256": "f8d50454af23da2fdd19308e7e844e02cc8b96a7b509cb3033cd021da8da5729",
-      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/mode-mixing-avoided-crossing.svg",
-      "svg_sha256": "3b2a180bdc3342f50644677c8a31e695d2794d1e01bc7c8725fb4ca46396f5ac"
+      "producer_script": "system/scripts/a130_mode_mixing_figure.py",
+      "classification": "两态能量哈密顿量",
+      "basis_and_boundaries": "取交叉耦合强度 $0.8$、两模式解耦平均能量 $5.0$、失谐区间 $[-4, 4]$（能量均为任意单位）；展示双态能量哈密顿量的本征值随失谐的避免交叉与基底概率混合，不是耦合振子的频率平方或实测跃迁强度。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/mode-mixing-avoided-crossing.pdf",
+          "size_bytes": 26868,
+          "sha256": "f8d50454af23da2fdd19308e7e844e02cc8b96a7b509cb3033cd021da8da5729",
+          "sha256_prefix12": "f8d50454af23"
+        },
+        "svg": {
+          "path": "Img/mode-mixing-avoided-crossing.svg",
+          "size_bytes": 75539,
+          "sha256": "3b2a180bdc3342f50644677c8a31e695d2794d1e01bc7c8725fb4ca46396f5ac",
+          "sha256_prefix12": "3b2a180bdc33"
+        }
+      },
+      "producer_sha256": "bfaf8a30dbd2171c0fd105efc781079f4b1bcb324c7a203791ef6363244e66a9"
+    },
+    {
+      "id": "joint-predictions-workflow",
+      "citing_sections": [
+        "sec-3-8"
+      ],
+      "producer_script": "system/scripts/a130_joint_predictions_figure.py",
+      "classification": "方法学流程",
+      "basis_and_boundaries": "依据共同输入、保留竞争模型、检验可区分性的联合预言流程，展示前向预言结构、模型空间划分与留出检验步骤，不保证消除所有模型简并。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/joint-predictions-workflow.pdf",
+          "size_bytes": 37368,
+          "sha256": "d2cd2d625f5e385f65486c4c2e9f2b6c499cf4c53dcc8c55e9d9c0ac8aa13512",
+          "sha256_prefix12": "d2cd2d625f5e"
+        },
+        "svg": {
+          "path": "Img/joint-predictions-workflow.svg",
+          "size_bytes": 134262,
+          "sha256": "0ee6ab393a3dfcf6c9d5b5c74b12a3890ed3e50c11d999f526764d71ce19561e",
+          "sha256_prefix12": "0ee6ab393a3d"
+        }
+      },
+      "producer_sha256": "34cebd8e536c4c9c918561cf614182eb07f2a447a0572f20c2ed22731d0d6f02"
+    },
+    {
+      "id": "orientation-comparison-modes",
+      "citing_sections": [
+        "sec-4-4"
+      ],
+      "producer_script": "system/scripts/a130_orientation_comparison_figure.py",
+      "classification": "实测原表与条件对照",
+      "basis_and_boundaries": "(a) $^{163}\\mathrm{Lu}$ TSD1/2 带内 $Q_t$ 由 Görgen et al. 2004 Table I 实测寿命导出；(b) 带间 $B(E2)$ 由实测寿命结合分支比与采用历史平均 $\\delta$ 等输入导出，非直接实测核形状；(c) 横向摆动（TW $s=2, m=1$）、轴对称高 $K$ 进动（形状冗余约束 $R_3=0$）以及平面转动重对准的文字与条件对照（非三维矢量图）。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/orientation-comparison-modes.pdf",
+          "size_bytes": 58959,
+          "sha256": "a4005dc33dce31e8a3087a5635c46b733988f5646afb1b7f879379e218f627fa",
+          "sha256_prefix12": "a4005dc33dce"
+        },
+        "svg": {
+          "path": "Img/orientation-comparison-modes.svg",
+          "size_bytes": 186241,
+          "sha256": "8ef033ccc73e938d8e1ea90b37e8dea5f48118b91f9763b811fffe07a5379ceb",
+          "sha256_prefix12": "8ef033ccc73e"
+        }
+      },
+      "producer_sha256": "07a8ec32676e16cf548adf52cb13003c2206bb539e52bd73d0f286ba80c8aef2"
+    },
+    {
+      "id": "br-as-network-topology",
+      "citing_sections": [
+        "sec-4-5"
+      ],
+      "producer_script": "system/scripts/a130_br_as_network_figure.py",
+      "classification": "实测网络拓扑",
+      "basis_and_boundaries": "客观区分 2016、2019、2022 版本的已报告跃迁网络；(a) $^{78}\\mathrm{Br}$ 中 8 条实测 $E1$ 严格单侧连接 Band 1 与 Band 3；(b) $^{74}\\mathrm{As}$ 呈现 3 条实测 $E1$ 跃迁（$372.4, 919.4, 1293.4\\ \\mathrm{keV}$），Band 4 在 2019 学位报告中被指认为候选赝自旋带，2022 期刊聚焦于前三带；保留跨版本映射未闭合的客观边界，不作新定义定论，不绘制未测假连线。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/br-as-network-topology.pdf",
+          "size_bytes": 40923,
+          "sha256": "0c0eabbf10c17928972b68d576c7d3bc824e9897f2a525f5f784984245f14cc6",
+          "sha256_prefix12": "0c0eabbf10c1"
+        },
+        "svg": {
+          "path": "Img/br-as-network-topology.svg",
+          "size_bytes": 134731,
+          "sha256": "9b7f348b8004f785f2b7f53a06e4526c0846b3ac4fc7ee8dff758b1a7e2b3c6e",
+          "sha256_prefix12": "9b7f348b8004"
+        }
+      },
+      "producer_sha256": "350bc2ffcbb250917e5fe47199d2e96c83a3b19cb95cb80055e4bd0c178e9757"
     },
     {
       "id": "seniority-node-accessibility",
-      "type": "teaching_model",
-      "generator": "system/scripts/a130_seniority_node_figure.py",
-      "generator_sha256": "002f13cc18f66cc3f435baf9d79d4b985c110f9761fe4ad0fe83cf855082b971",
-      "producer": "G84 Gemini/high",
-      "parameters": {
-        "Omega": [
-          5,
-          6
-        ],
-        "v": 2
-      },
-      "boundaries": [
-        "Single-j same-seniority one-body E2 model",
-        "Allowed discrete particle numbers shown; continuous curve is only a guide",
-        "Not lifetime or real-nucleus prediction"
+      "citing_sections": [
+        "sec-4-6"
       ],
-      "pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/seniority-node-accessibility.pdf",
-      "pdf_sha256": "6f824e9d551556feb213b3c626f1b7b4d772eb361ae209608f74d09d48b420bb",
-      "svg": "raw/writing/gpt/A130/these_2023_template/these_template/Img/seniority-node-accessibility.svg",
-      "svg_sha256": "10a90b217fb7a7a4b6ccf1411f5544c99e5524cadcf70d6f72d1a080bc83fbc1"
+      "producer_script": "system/scripts/a130_seniority_node_figure.py",
+      "classification": "Seniority 代数模型",
+      "basis_and_boundaries": "单 $j$ 壳层同种核子 $v=2$ 单体 $E2$ 归约因子，取对简并度 $\\Omega=5, 6$；连续抛物线仅为引导线，允许的离散占据数为 $n = v, v+2, \\dots, 2\\Omega - v$（对 $v=2, \\Omega=5$ 半满点 $n=5$ 不允许）；配套 Fock 空间代数代码为 \\path{system/scripts/a130_seniority_fock_controls.py}，核对对角 $E2$ 矩阵元比例，非实核寿命复现。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/seniority-node-accessibility.pdf",
+          "size_bytes": 49487,
+          "sha256": "6f824e9d551556feb213b3c626f1b7b4d772eb361ae209608f74d09d48b420bb",
+          "sha256_prefix12": "6f824e9d5515"
+        },
+        "svg": {
+          "path": "Img/seniority-node-accessibility.svg",
+          "size_bytes": 134925,
+          "sha256": "10a90b217fb7a7a4b6ccf1411f5544c99e5524cadcf70d6f72d1a080bc83fbc1",
+          "sha256_prefix12": "10a90b217fb7"
+        }
+      },
+      "producer_sha256": "002f13cc18f66cc3f435baf9d79d4b985c110f9761fe4ad0fe83cf855082b971"
+    },
+    {
+      "id": "weak-cascade-competition",
+      "citing_sections": [
+        "sec-4-7"
+      ],
+      "producer_script": "system/scripts/a130_weak_cascade_figure.py",
+      "classification": "级联衰变原理示意",
+      "basis_and_boundaries": "声明宽度与概率结构的原理示意；展示多级串联退激中的分支比竞争拓扑（依据第 4.7 节正文，未做探测门限或旁路损失拟合仿真，保持 $b_\\beta$ 与 $\\Pi_x$ 递推）。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/weak-cascade-competition.pdf",
+          "size_bytes": 42216,
+          "sha256": "edc6bf71af761fb2c486b9eb05b56d62e117098ec1ae6a52dfbee06d26c724c2",
+          "sha256_prefix12": "edc6bf71af76"
+        },
+        "svg": {
+          "path": "Img/weak-cascade-competition.svg",
+          "size_bytes": 87123,
+          "sha256": "5b09178cf9b2699f73d0e5adad62943c0c2aeb61bef70bcc2b31f2fd0531b463",
+          "sha256_prefix12": "5b09178cf9b2"
+        }
+      },
+      "producer_sha256": "90664fadb7cde59535d500701ffc4aa6cb2f55cf8020fe930e7afae51ed0c75f"
+    },
+    {
+      "id": "environment-network-pathways",
+      "citing_sections": [
+        "sec-4-8"
+      ],
+      "producer_script": "system/scripts/a130_environment_network_figure.py",
+      "classification": "开放网络概念区分",
+      "basis_and_boundaries": "概念性区分形成截面、内部转移、旁路漏失与观测接受通道，非声子浴计算或 Lindblad 动力学仿真。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/environment-network-pathways.pdf",
+          "size_bytes": 43679,
+          "sha256": "2a0af7164a819d6808df8740c4e31cfdc55dd26b3498f5e51022a813a26eee1b",
+          "sha256_prefix12": "2a0af7164a81"
+        },
+        "svg": {
+          "path": "Img/environment-network-pathways.svg",
+          "size_bytes": 150855,
+          "sha256": "6ed4cd1a7fa95aa24f7375adc1c3a0304ea6346d00bb495c2d37bc7c931f8706",
+          "sha256_prefix12": "6ed4cd1a7fa9"
+        }
+      },
+      "producer_sha256": "3517a3860d72550bc2521b2210e2c2c7b1c203f8bb915122f4b88fe08f3f1183"
+    },
+    {
+      "id": "inference-profile-likelihood-boundary",
+      "citing_sections": [
+        "sec-5-10"
+      ],
+      "producer_script": "system/scripts/a130_inference_profile_figure.py",
+      "classification": "合成剖面似然模型",
+      "basis_and_boundaries": "合成示意剖面；左图显式展示双局部极小（$-40^\\circ$ 与 $20^\\circ$）与局域真实 Hessian 展开，右图保持同一高斯观测 $\\hat{\\mu}=-0.6, q_{\\mathrm{phys}} = \\mu^2 + 1.2\\mu$ 的受限剖面示意，无 Feldman--Cousins 覆盖率模拟。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/inference-profile-likelihood-boundary.pdf",
+          "size_bytes": 33137,
+          "sha256": "397df449374830ffbc60d82f9668e562e26a9d9d96e80fc1b42908c66a238a3d",
+          "sha256_prefix12": "397df4493748"
+        },
+        "svg": {
+          "path": "Img/inference-profile-likelihood-boundary.svg",
+          "size_bytes": 93055,
+          "sha256": "d5c97b908032fa4d001816fe0b17872a47a07044dcf5ae5cfabab74990c934aa",
+          "sha256_prefix12": "d5c97b908032"
+        }
+      },
+      "producer_sha256": "6fb04929c00747b96ac417e879e20d4e96a46d8739efa326593028be4ac58adf"
+    },
+    {
+      "id": "detector-response-simulation",
+      "citing_sections": [
+        "sec-5-2"
+      ],
+      "producer_script": "system/scripts/a130_detector_response_figure.py",
+      "classification": "教学谱响应仿真",
+      "basis_and_boundaries": "展示 $1500\\ \\mathrm{keV}$ 光子在单晶 HPGe、BGO 反康普顿屏蔽及 Clover Add-back 模式下的教学合成谱（Add-back 增益因数约 1.45 为教学展示设定参数，纵轴为对数任意单位计数）。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/detector-response-simulation.pdf",
+          "size_bytes": 68155,
+          "sha256": "eaff60a33f1ce010eca68b0965b3f88c657ac4e640c0b44ce0909a7f6df93400",
+          "sha256_prefix12": "eaff60a33f1c"
+        },
+        "svg": {
+          "path": "Img/detector-response-simulation.svg",
+          "size_bytes": 189627,
+          "sha256": "7a8ccec7f244e59f13e092b5c7e76e2b6682c33c487a843ca2c70f94ba63d560",
+          "sha256_prefix12": "7a8ccec7f244"
+        }
+      },
+      "producer_sha256": "cce0703b107469ea785ac41b3543c51fbef26c49ff529473980d8a6e7f81b97c"
+    },
+    {
+      "id": "digital-energy-response",
+      "citing_sections": [
+        "sec-5-3"
+      ],
+      "producer_script": "system/scripts/a130_latex_figures.py",
+      "classification": "离散因果滤波仿真数据",
+      "basis_and_boundaries": "基于数据集 1 (\\path{ballistic_deficit_study.csv}) 的梯形成形平顶宽度与成形时间响应数值表，不含连续白噪声。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/digital-energy-response.pdf",
+          "size_bytes": 32424,
+          "sha256": "41520bb253609d323090add64e02aa41564ee5c3b8a007df8c5fb39965a0df9b",
+          "sha256_prefix12": "41520bb25360"
+        },
+        "svg": {
+          "path": "Img/digital-energy-response.svg",
+          "size_bytes": 77610,
+          "sha256": "8e000ce14eee67eda2dd9afe8c1f97531e5ddc40c66a439b4ae9edf258500e54",
+          "sha256_prefix12": "8e000ce14eee"
+        }
+      },
+      "producer_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
+    },
+    {
+      "id": "cfd-phase-convergence",
+      "citing_sections": [
+        "sec-5-4"
+      ],
+      "producer_script": "system/scripts/a130_latex_figures.py",
+      "classification": "离散时钟定时仿真数据",
+      "basis_and_boundaries": "基于数据集 2 (\\path{sampling_convergence.csv}) 与数据集 3 (\\path{cfd_phase_walk_analysis.csv}) 的 CFD 采样周期与相位插值过零误差分析。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/cfd-phase-convergence.pdf",
+          "size_bytes": 28205,
+          "sha256": "dbfbbdcd9cd39fb637f62e8cb58c9013535b1844a93bec75dad61243bcdbba29",
+          "sha256_prefix12": "dbfbbdcd9cd3"
+        },
+        "svg": {
+          "path": "Img/cfd-phase-convergence.svg",
+          "size_bytes": 55622,
+          "sha256": "b2374a5af78a9e9347aa234c3172b75ae788d7245e1fc9a3fa406eddc56ad46a",
+          "sha256_prefix12": "b2374a5af78a"
+        }
+      },
+      "producer_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd"
+    },
+    {
+      "id": "coincidence-level-scheme-model",
+      "citing_sections": [
+        "sec-5-6"
+      ],
+      "producer_script": "system/scripts/a130_coincidence_topology_figure.py",
+      "classification": "级联拓扑教学模型",
+      "basis_and_boundaries": "展示 5 节点 / 6 跃迁级联、旁路与 $250\\ \\mathrm{keV}$ 双重峰的教学拓扑结构，非双重门控或假符合环路消除算法。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/coincidence-level-scheme-model.pdf",
+          "size_bytes": 37294,
+          "sha256": "fe44a04ad8f5e84d714d040494e5710bd8d7b1d48e64eac3786b25ed21cec320",
+          "sha256_prefix12": "fe44a04ad8f5"
+        },
+        "svg": {
+          "path": "Img/coincidence-level-scheme-model.svg",
+          "size_bytes": 92278,
+          "sha256": "7765b0b7979cec8453be3c4e479ba5c5d75b0a823717a4a2bb82e61a943db177",
+          "sha256_prefix12": "7765b0b7979c"
+        }
+      },
+      "producer_sha256": "553fb6f97f6bc2bd4ee27885ad109c2c659e40a9faafda70891410ea9d16525e"
+    },
+    {
+      "id": "angular-branch-delta-likelihood",
+      "citing_sections": [
+        "sec-5-7"
+      ],
+      "producer_script": "system/scripts/a130_angular_branch_figure.py",
+      "classification": "统计拟合曲面示意",
+      "basis_and_boundaries": "展示方向角关联比值 $R_{\\mathrm{DCO}}(\\delta)$ 的二次有理曲面特征、代数双根相交形态与线偏振度符号鉴别。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/angular-branch-delta-likelihood.pdf",
+          "size_bytes": 27756,
+          "sha256": "e199e630eb4b614a159390f9bc8a348b46f1ed964f67f0ccb076b1f5ea4778ca",
+          "sha256_prefix12": "e199e630eb4b"
+        },
+        "svg": {
+          "path": "Img/angular-branch-delta-likelihood.svg",
+          "size_bytes": 87708,
+          "sha256": "7e9bd88736d711ee085d657c7a4e5f6534c14d7208fbe6ca94e8e883c528c55b",
+          "sha256_prefix12": "7e9bd88736d7"
+        }
+      },
+      "producer_sha256": "a24371444952b207bb428d911b54b8f39a833292f536f4a4de4e64e1b258a35c"
+    },
+    {
+      "id": "lifetime-response-rdds-dsam",
+      "citing_sections": [
+        "sec-5-8"
+      ],
+      "producer_script": "system/scripts/a130_lifetime_response_figure.py",
+      "classification": "微观卷积与衰减模型",
+      "basis_and_boundaries": "依据吴治华专著第 15 章第 2 节第 3 小节（印刷第 437–438 页，PDF 第 445–446 页；式 15.26 在 PDF 第 446 页）的微观阻止本领与速度剖面卷积原理；采用零居中奇数长度卷积核，经 $3\\tau \\times 3\\text{grid}$（$\\tau=0.1, 0.8, 5.0\\ \\mathrm{ps}$；$h=0.05, 0.025, 0.0125\\ \\mathrm{keV}$）加宽支持域有限验证通过，原始未归一概率面积相对偏差 $\\le 1.92 \\times 10^{-9}$，图件峰高归一化仅作展示目的，非硬件或实测核素数据。",
+      "is_provisional_snapshot": false,
+      "formats": {
+        "pdf": {
+          "path": "Img/lifetime-response-rdds-dsam.pdf",
+          "size_bytes": 33163,
+          "sha256": "c1445f44c5b8dd2e6725e3890e770bd045d2c259f70f44234da5029715706177",
+          "sha256_prefix12": "c1445f44c5b8"
+        },
+        "svg": {
+          "path": "Img/lifetime-response-rdds-dsam.svg",
+          "size_bytes": 93899,
+          "sha256": "105e59aca985dbd3337710b39516dc6085278e41871bfb4918d842aff9d827f7",
+          "sha256_prefix12": "105e59aca985"
+        }
+      },
+      "producer_sha256": "c93ea4565ca67c60dbe167e54529effb2e1e5ed8926cf0aea5b94e3e0914aaff",
+      "original_generation_script_sha256": "3db01dfcbe293956354e1f278bcb2263ec463a478818152d38b789929c71404f",
+      "current_script_equivalence_receipt": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/python-whitespace-equivalence.json"
     }
   ],
-  "updated_utc": "2026-11-13T11:34:15.951987+00:00",
-  "generator_scope": "The base generator produces the first seven figures; additional figures use their own per-figure Python generators."
+  "mutable_figures_note": "19 canonical figure pairs verified; no pending snapshots.",
+  "session_date": "2026-11-14"
 }

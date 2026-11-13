@@ -1,0 +1,31 @@
+{
+  "status": "archived_parent_targeted_reading",
+  "actual_utc": "2026-11-13T21:36:02.283722+00:00",
+  "session_date": "2026-11-14",
+  "pdf": {
+    "path": "raw/papers/gpt/query/20261114-single-j-magnetic-exits/maheshwari2016-plb-odd-tensor.pdf",
+    "sha256": "c88f73e26aac50aa434395b6c7458515a706ae9f05520de5f4b7cc195c45c8e0",
+    "size": 296493,
+    "url": "https://scoap3-prod-backend.s3.cern.ch/media/files/12985/10.1016/j.physletb.2015.11.079.pdf",
+    "retrieved_at": "2026-11-13T21:19:09.791552+00:00",
+    "retrieval_time_basis": "file mtime; worker reported PDF fetch 2026-11-13T21:19:09Z",
+    "archive_required": true,
+    "learning_candidate": true,
+    "learning_topic": "single-j odd-rank scalar versus generalized multi-j electric transitions",
+    "collection_reason": "Appendix D audit exposed a false exclusion of same-v M3 exits.",
+    "license": "CC BY 4.0 on publisher PDF"
+  },
+  "source": "knowledge/sources/maheshwari-jain-2016-even-odd-tensor-seniority.md",
+  "parent_read_pages": [
+    1,
+    2,
+    3
+  ],
+  "worker_report_full_pages": 4,
+  "corrections": [
+    "contract title was incorrect, author use of that title not established",
+    "odd rank scalar does not imply nonzero M1 or M3 matrix element",
+    "multi-j E1 fit distinguished from pure single-j M3"
+  ],
+  "manuscript_changes_required": false
+}

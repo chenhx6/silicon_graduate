@@ -1,0 +1,227 @@
+{
+  "section_id": "5.3",
+  "title": "数字成形与能量估计",
+  "version": "V1",
+  "recorded_at": "2026-11-08T01:14:58.850560+00:00",
+  "manuscript_path": "raw/writing/gpt/A130/research-draft/section-5-3.md",
+  "argument_outline": [
+    "在低能核物理与在束伽马谱学中，探测器记录的光子能量是构建能级纲图、确定能级间距与提取绝对跃迁几率B(XL)的物理基石，但探测器实际输出的是携带前放电荷积分与长指数尾的连续模拟电压脉冲。",
+    "数字化数据获取系统通过快速模数转换（ADC）对前放信号进行均匀离散采样，使得传统的模拟成形与极零消除（PZC）得以转化为高稳定度、抗参数漂移的离散时域递推线性时不变（LTI）滤波算法。",
+    "递归梯形滤波器（Jordanov算法）利用四延迟差分算子与双累加器结构，在离散极点消除参数M=(exp(Ts/tau_d)-1)^(-1)的匹配下精确消除指数衰减尾部，推导证明其理想纯指数输入的平顶输出幅度为Ak(M+1)（而非AkM），确立了严格的单位增益归一化控制。",
+    "有限电荷收集过程产生的脉冲上升时间涨落是导致弹道亏损的核心微观机制，平顶的引入可显著平抑取幅对收集波形的敏感性，但平顶长度超过收集时间当且仅当零亏损在具有连续响应或极零失配的实际探测器中并不构成普适充要条件。",
+    "极零失配引起的欠补偿下冲与过补偿上冲、以及有限基线平均窗口与噪声方差的权衡，在高计数率下会演化为计数率依赖的能量漂移与能峰不对称畸变。",
+    "结合快触发通道的堆积判弃（PUR）能够滤除能量严重畸变的重叠脉冲，但在核谱学中会引入与计数率相关的有效计数损失、改变不同探测角度处的事件接收几率，甚至通过真符合相加直接扭曲级联跃迁分支比与角分布。",
+    "数字化能量滤波参数因此不仅决定单道能量分辨，更通过响应非线性、弹道亏损残留与堆积判弃机制直接介入物理观测量的测量链条，其系统性效应必须通过前向响应建模与联合活时间校准加以约束。"
+  ],
+  "sources": [
+    {
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "citation_key": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "canonical_title": "通用数字化获取系统的开发",
+      "authors": [
+        "吴鸿毅"
+      ],
+      "advisor": [
+        "华辉"
+      ],
+      "institution": "北京大学",
+      "year": 2020,
+      "pages": 143,
+      "raw_file": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+      "raw_sha256": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b",
+      "actual_read_pages": "PDF pages 29–38 (printed pages 17–26), especially PDF 31–32 (printed 19–20) Eqs. (1.10)–(1.19), Fig. 1.19–1.21; PDF pages 85–86 (printed 73–74) Figs. 3.4–3.5",
+      "evidence_role": "Core reference for digital DAQ architecture, preamplifier exponential decay correction, Jordanov recursive trapezoidal filter equations, baseline estimation, and HPGe 1408 keV energy resolution benchmark (0.17%)."
+    },
+    {
+      "source_id": "wu-2021-general-purpose-digital-daq-waveform-analysis",
+      "citation_key": "wu-2021-general-purpose-digital-daq-waveform-analysis",
+      "canonical_title": "基于数字化的通用获取系统及波形分析算法",
+      "authors": [
+        "吴鸿毅",
+        "李智焕",
+        "吴婧",
+        "华辉",
+        "王翔",
+        "李湘庆",
+        "徐川"
+      ],
+      "journal": "科学通报",
+      "year": 2021,
+      "volume": "66",
+      "pages": "3553-3560",
+      "doi": "10.1360/TB-2021-0552",
+      "raw_file": "raw/theses/degree-dissertation/基于数字化的通用获取系统及波形分析算法.pdf",
+      "raw_sha256": "c1a2bd226faf52cef144d00463414906c9e44c779075fde57d66f5161a697820",
+      "actual_read_pages": "PDF pages 1–6 (printed 3553–3558), Figs. 1–5",
+      "evidence_role": "Dependent/related journal source establishing GDDAQ framework, HPGe count-rate stability comparison between analog and digital shapers (3–11 k/s), and pile-up decomposition application limits."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C53-01",
+      "text": "高纯锗前置放大器输出信号由有限电荷收集时间决定的快上升沿与由反馈电阻电容决定的长指数衰减尾部构成，长衰减时间（典型数十微秒）在高计数率下产生脉冲重叠与基线波动。",
+      "kind": "physical-and-instrumental-fact",
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "locator": "PDF 30–31 (printed 18–19)",
+      "conditions": "电荷灵敏型前置放大器；探测器高压耗尽；无前置限幅饱和。"
+    },
+    {
+      "claim_id": "C53-02",
+      "text": "梯形滤波通过四延迟差分与双累加递归算法在离散域实现，参数M=(exp(Ts/tau_d)-1)^(-1)实现极零消除，将长尾指数脉冲转化为对称或平顶梯形。",
+      "kind": "algorithmic-derivation-and-source-reconstruction",
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "locator": "PDF 31–32 (printed 19–20), Eqs. (1.14)–(1.18)",
+      "conditions": "线性时不变系统；采样周期Ts；输入信号零初始历史；原文末项字面印为n[n-k-l]，本任务重构为输入信号v[n-k-l]。"
+    },
+    {
+      "claim_id": "C53-03",
+      "text": "对理想纯指数阶跃输入，梯形滤波平顶输出峰值为Ak(M+1)而非AkM，归一化除以k(M+1)可保证严格无偏单位增益。",
+      "kind": "mathematical-derivation-and-controlled-model",
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "locator": "task LTI z-transform derivation; doctoral_g32_digital_pulse_response.py",
+      "conditions": "理想输入v[n]=A exp(-n Ts / tau_d) u[n]；离散极点精确匹配alpha=M/(M+1)。"
+    },
+    {
+      "claim_id": "C53-04",
+      "text": "平顶长度可缓解因载流子收集时间涨落导致的弹道亏损，但在实际具有连续响应或极零失配的系统中，平顶超过名义收集时间并不构成完全消除弹道亏损的充要条件。",
+      "kind": "controlled-numerical-model-and-physical-boundary",
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "locator": "task controlled simulation (doctoral_g32_digital_pulse_response.py); PDF 31 (printed 19)",
+      "conditions": "双指数脉冲模型；tau_r从20 ns增至400 ns；平顶长度0 ns至400 ns；极零可能失配。"
+    },
+    {
+      "claim_id": "C53-05",
+      "text": "基线校正常用事件前滑动平均窗口实现，窗口长度受到事件到达率的限制，有限窗口长度引入的基线方差会展宽能量分辨率。",
+      "kind": "instrumental-fact-and-error-propagation",
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "locator": "PDF 33–34 (printed 21–22), Eq. (1.20)",
+      "conditions": "高斯白噪声近似；基线在滑动窗内近似恒定。"
+    },
+    {
+      "claim_id": "C53-06",
+      "text": "极零消除失配导致脉冲后沿出现欠补偿下冲或过补偿上冲，高计数率下后续脉冲叠加在该失配尾部上导致幅度估计的系统性偏移与非对称峰展宽。",
+      "kind": "physical-and-instrumental-mechanism",
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "locator": "PDF 30–32 (printed 18–20)",
+      "conditions": "前放衰减常数漂移或离线校准参数未准确匹配。"
+    },
+    {
+      "claim_id": "C53-07",
+      "text": "堆积判弃通过快通道触发分离邻近脉冲并拒绝重叠事件，从而压低谱学求和峰，但会引入非泊松死时间并扭曲强级联伽马跃迁的角分布与分支比。",
+      "kind": "spectroscopic-inverse-chain",
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "locator": "PDF 34–35 (printed 22–23), Fig. 1.25; wu-2021 PDF 4–5, Fig. 5",
+      "conditions": "在束伽马级联衰变；真符合相加（TCS）；有限立体角阵列。"
+    }
+  ],
+  "equations": [
+    {
+      "id": "EQ-53-01",
+      "name": "四延迟差分递推算子",
+      "formula": "d[n] = v[n] - v[n-k] - v[n-\\ell] + v[n-k-\\ell]",
+      "convention": "离散时间索引n，上升采样点数k，平顶终止参数\\ell (\\ell >= k)，输入采样v[n]，零初始历史v[n]=0 (n<0)",
+      "derivation": "Z域变换 D(z) = (1 - z^(-k))(1 - z^(-\\ell)) V(z)",
+      "limit": "当k=\\ell时退化为三角形滤波差分算子"
+    },
+    {
+      "id": "EQ-53-02",
+      "name": "一级累加器递推式",
+      "formula": "p[n] = p[n-1] + d[n]",
+      "convention": "初值p[-1]=0，Z域积分器 P(z) = D(z) / (1 - z^(-1))",
+      "derivation": "单极点积分累加",
+      "limit": "对应对四延迟差分信号的一阶滑动积分"
+    },
+    {
+      "id": "EQ-53-03",
+      "name": "极零消除（PZC）加权算子",
+      "formula": "r[n] = p[n] + M d[n], \\quad M = (e^{T_s / \tau_d} - 1)^{-1}",
+      "convention": "采样周期Ts，前放指数衰减常数tau_d，极零匹配因子M",
+      "derivation": "R(z) = P(z) + M D(z) = \frac{(M+1) - M z^(-1)}{1 - z^(-1)} D(z)",
+      "limit": "当Ts << tau_d时，M \u0007pprox tau_d / Ts"
+    },
+    {
+      "id": "EQ-53-04",
+      "name": "二级累加器输出递推式",
+      "formula": "s[n] = s[n-1] + r[n]",
+      "convention": "初值s[-1]=0，输出成形梯形波形s[n]",
+      "derivation": "S(z) = \frac{R(z)}{1 - z^(-1)} = \frac{(M+1) - M z^(-1)}{(1 - z^(-1))^2} (1 - z^(-k))(1 - z^(-\\ell)) V(z)",
+      "limit": "双重移动平均与去卷积极点消去的组合"
+    },
+    {
+      "id": "EQ-53-05",
+      "name": "理想单指数脉冲梯形滤波极点消去与平顶幅值",
+      "formula": "s_{\text{flat}} = A k (M + 1)",
+      "convention": "输入v[n] = A \u0007lpha^n u[n]，其中\u0007lpha = e^{-T_s/\tau_d} = M/(M+1)",
+      "derivation": "V(z) = \frac{A}{1 - \u0007lpha z^{-1}} = \frac{A(M+1)}{(M+1) - M z^{-1}}。分子项与分母项精确相消，使得输出为两个长度为k和\\ell的矩形序列卷积乘A(M+1)。在平顶区k-1 <= n <= \\ell-1内，矩形重叠和为k，故s_{flat} = A k (M+1)",
+      "limit": "归一化系数应取 k(M+1)；若误取kM，引入系统偏差 (M+1)/M = exp(Ts/tau_d)"
+    },
+    {
+      "id": "EQ-53-06",
+      "name": "滑动平均基线估计",
+      "formula": "BL = \frac{1}{N} \\sum_{m=1}^N v[n_{\text{trig}} - m]",
+      "convention": "触发时刻n_trig之前的N个无脉冲基线采样点",
+      "derivation": "最小方差无偏估计（白噪声假设下）",
+      "limit": "高计数率下N受到脉冲平均间距约束；方差为 \\sigma_v^2 / N"
+    }
+  ],
+  "competing_explanations": [
+    {
+      "phenomenon": "高计数率下全能峰位移与低能侧非对称拖尾",
+      "instrumental_explanation": "极零消除参数M失配导致脉冲后沿下冲（欠补偿）或基线恢复窗口受高频事件污染，导致后续脉冲幅值被低估；弹道亏损随上升时间展宽。",
+      "nuclear_explanation": "弱多极跃迁分支、短寿命同核异能态衰变伴随的延迟转换电子或复杂核素污染。",
+      "discrimination_criterion": "检查峰位与峰形对在束束流强度（计数率）的依赖性；扫描数字化滤波平顶长度与PZC参数；对比放射源离线测试能谱。"
+    },
+    {
+      "phenomenon": "级联跃迁全能峰强度与理论预测分支比偏离",
+      "instrumental_explanation": "高计数率下快通道堆积判弃逻辑剔除了紧邻事件，或者真符合相加（TCS）使得级联光子在同一探测晶体中被同时吸收并被误判为堆积或进入求和峰。",
+      "nuclear_explanation": "核态波函数组态混合导致跃迁矩阵元减小，或存在未被观测到的弱旁路退激支路。",
+      "discrimination_criterion": "通过调节源-探测器立体角（改变真符合相加几率）并分析不同符合门宽下的活时间与剔除率，反演本底与堆积损失。"
+    }
+  ],
+  "unresolved": [
+    "未知具体在束实验中采用的特定探头与数字化模块参数（如实际前放反馈电容阻抗、实际ADC位数与主频、在线FPGA固件版本号等），正文保持方法论与物理机理通用性，不伪造具体硬件参数。",
+    "复杂的数字恒比定时（CFD）相位插值算法与纳秒级时间走动留至第5.4节展开；多机箱同步、触发符合矩阵及联合活时间修正留至第5.5节系统讨论。"
+  ],
+  "pedagogical_controls": {
+    "script": "system/scripts/doctoral_g32_digital_pulse_response.py",
+    "checks_verified": [
+      "ideal_exponential_matches_independent_box_convolution",
+      "ideal_exponential_gain_is_unity",
+      "noiseless_cfd_amplitude_invariance",
+      "integer_sample_translation",
+      "analytic_reference_has_zero_residual",
+      "fine_sampling_improves_interpolation",
+      "flat_top_alleviates_but_does_not_remove_deficit"
+    ],
+    "ballistic_deficit_summary": [
+      {
+        "rise_time_ns": 20,
+        "flat_0ns_deficit_pct": 0.81,
+        "flat_100ns_deficit_pct": 0.11,
+        "flat_400ns_deficit_pct": 0.02
+      },
+      {
+        "rise_time_ns": 100,
+        "flat_0ns_deficit_pct": 3.84,
+        "flat_100ns_deficit_pct": 1.15,
+        "flat_400ns_deficit_pct": 0.44
+      },
+      {
+        "rise_time_ns": 220,
+        "flat_0ns_deficit_pct": 8.0,
+        "flat_100ns_deficit_pct": 3.86,
+        "flat_400ns_deficit_pct": 2.07
+      },
+      {
+        "rise_time_ns": 400,
+        "flat_0ns_deficit_pct": 13.56,
+        "flat_100ns_deficit_pct": 8.65,
+        "flat_400ns_deficit_pct": 5.86
+      }
+    ]
+  },
+  "chinese_character_count": 5255,
+  "word_count": 1417,
+  "display_equations_count": 19,
+  "draft_sha256": "f1b60b596016e18fc8238ebbff73f1f1879253ccb291c2c63896b4beef34f031"
+}

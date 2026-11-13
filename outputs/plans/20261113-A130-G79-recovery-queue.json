@@ -3,7 +3,7 @@
   "goal": "Complete existing five-chapter39-section A130 nonpersonal dissertation foundations; no replacement goal",
   "owner": "G79 existing GeminiTiered/high thread, original method queue first",
   "canonical_root": "raw/writing/gpt/A130/these_2023_template/these_template",
-  "ownership": "After its original method/E queue, G79 may revise the closed-worker body/ledger/unique figures/knowledge listed below, one section at a time. Parent owns commonBib/wrappers/build/index/Git and accepted3.3/3.6/4.6. No other manuscript/PLAN/memory/PADO/daily files.",
+  "ownership": "G79 owns only5.2/5.6/5.7/5.8/5.10 and AppendixE; after these only4.7 and AppendixD. Other body sections and AppendixA are reserved to current workers. Parent owns commonBib/wrappers/build/index/globalfiguremanifest/Git, accepted sections and Dewald source.",
   "method_queue": [
     "5.2",
     "5.6",
@@ -30,22 +30,10 @@
       ]
     },
     {
-      "section": "3.8",
-      "requirements": [
-        "delta is dimensionless radiative amplitude with energy/length/magnetic convention, never bare E2/M1 RME ratio. B inversely proportionaltau for fixed branch. General DCO quadratic numerator/denominator, branches not necessarily one large/one small or equally likely; P/lifetime not guarantee unique root.",
-        "Phenomenological effective models can be testable without microscopicPES. Time reversal is antiunitary, not ordinary eigenlabel. Covariance/residual inference does not require Bayesprior; publishedy,V can support conditional inference without rawcounts.",
-        "98Mo fullNPA1066(2026)1232658p:1833.3/1585.8 are5-→2+ and7-→4+ weak links, DCO/P blank, E3 lowest allowed; absoluteB needs lifetime/branch/multipole assumptions. Method feasibility not guaranteed RDM/DSAM.",
-        "Ru1022.95MeV E1B=.016e²fm²,4.5–5.5 sum~.1; remove invented1e−5–1e−6 compulsory IVGDR suppression. NRF branching-width relation explicit.3- directE3 and1-[2+x3-]phonon-related E3/E2 decay paths are different measurements.",
-        "Pr experiment differences not proven caused by coordinates/shape priors. No continuous4pi coverage/guaranteed unique root/fictitious gasfilmRDM/actual observed trajectories. Diagram channels carry covariance, not orthogonal independent dimensions."
-      ]
-    },
-    {
       "appendices": [
-        "AppendixA",
         "AppendixD"
       ],
       "contracts": [
-        "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/appendix-contracts/AppendixA.json",
         "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/appendix-contracts/AppendixD.json"
       ],
       "requirements": [
@@ -74,7 +62,24 @@
     "4.5": {
       "worker": "G90",
       "agent_id": "01a1d4a1-c1d0-76d1-9ea4-f16c26f8873c"
+    },
+    "3.8": {
+      "worker": "G91",
+      "agent_id": "01a1d4b3-f63a-7771-98e1-37077c9940a9"
+    },
+    "appendix-A": {
+      "worker": "G91",
+      "agent_id": "01a1d4b3-f63a-7771-98e1-37077c9940a9"
     }
   },
-  "updated_at": "2026-11-13T11:23:59.222740+00:00"
+  "updated_at": "2026-11-13T12:11:53.269652+00:00",
+  "final_phase_status": "completed-finite-writing-and-validation-publication-closeout",
+  "updated_utc": "2026-11-13T21:50:48.017656+00:00",
+  "remaining_sections": [],
+  "current_ownership": {
+    "parent": "accepted39+A–F; final gates and authorized publication",
+    "workers": "write domains closed; G104 formatting completed by parent after provider403",
+    "Terra": "T23/T24/T26 narrow controls and boundaries accepted"
+  },
+  "final_delivery": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/delivery-summary.json"
 }

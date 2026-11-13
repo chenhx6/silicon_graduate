@@ -1,0 +1,64 @@
+{
+  "nature": "Synthetic arithmetic examples, not experimental numbers.",
+  "ec": {
+    "Q_EC_MeV": 3.0,
+    "daughter_hole_energy_MeV": 0.03,
+    "excitation_MeV": 0.4,
+    "neutrino_energy_before_recoil_MeV": 2.5700000000000003,
+    "beta_plus_Q_MeV_using_me_c2_0_511": 1.978
+  },
+  "spectrum_dimensional_powers": {
+    "GF_energy_power": -2,
+    "GF_squared": -4,
+    "electron_rest_energy_fifth": 5,
+    "hbar_energy_power": 1,
+    "hbar_time_power": 1,
+    "overall_energy_power": 0,
+    "overall_time_power": -1
+  },
+  "cascade": {
+    "single_step_neutron_width_fraction_at_i": 0.5,
+    "pi_0_1_2_at_i": [
+      0.26,
+      0.54,
+      0.2
+    ],
+    "beta_branch": 0.8,
+    "beta_only_P0_P1_P2": [
+      0.356,
+      0.324,
+      0.12
+    ],
+    "non_beta_zero_neutron_branch": 0.2,
+    "P_at_least_1": 0.444,
+    "mean_neutron_count": 0.5640000000000001,
+    "epsilon": 0.5,
+    "observed_y0_y1_y2_all_parent_decays": [
+      0.748,
+      0.222,
+      0.03
+    ],
+    "explicit_paths": [
+      {
+        "neutrons": 1,
+        "probability": 0.24
+      },
+      {
+        "neutrons": 0,
+        "probability": 0.06
+      },
+      {
+        "neutrons": 2,
+        "probability": 0.2
+      },
+      {
+        "neutrons": 1,
+        "probability": 0.3
+      },
+      {
+        "neutrons": 0,
+        "probability": 0.2
+      }
+    ]
+  }
+}

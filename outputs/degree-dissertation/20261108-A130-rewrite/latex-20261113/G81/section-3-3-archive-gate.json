@@ -1,0 +1,17 @@
+{
+  "checked_manifests": [],
+  "checked_sources": [
+    "/workspace/wiki/knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+    "/workspace/wiki/knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+    "/workspace/wiki/knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+    "/workspace/wiki/knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+    "/workspace/wiki/knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+    "/workspace/wiki/knowledge/sources/matsuzaki-2004-nuclear-inertia-and-wobbling.md",
+    "/workspace/wiki/knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+    "/workspace/wiki/knowledge/sources/odegard-2001-evidence-wobbling-163lu.md"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "ok": true,
+  "scope": "paths"
+}

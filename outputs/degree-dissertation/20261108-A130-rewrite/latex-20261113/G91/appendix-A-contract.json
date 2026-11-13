@@ -1,0 +1,31 @@
+{
+  "section_id": "AppendixA",
+  "title": "角动量与张量约定",
+  "section_label": "app:angular-momentum-tensors",
+  "contract_status": "completed-canonical-delivered-v1",
+  "executor": "G91 (Gemini Tiered/high)",
+  "timestamp": "2026-11-13T20:55:00+00:00",
+  "execution_domain": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G91/",
+  "target_canonical_paths": {
+    "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixA.tex",
+    "tex_sha256": "5437aec7a38cb18021b3c6701ffd9078c29ced34d4b0bef3b65bd447102fbf10",
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/appendix-A.json",
+    "ledger_sha256": "f37432a2744b0a97866bc17404529c6379bba35baff0a97a0c1f22a83b5db1c1"
+  },
+  "predecessor_sections": [
+    "2.1",
+    "2.7"
+  ],
+  "successor_sections": [
+    "5.7",
+    "5.8",
+    "5.9",
+    "app:reproducible-inputs"
+  ],
+  "central_question": "如何建立自洽统一的角动量代数、不可约张量算符规范、Wigner-Eckart相位、6j重耦合基准与M1电荷型单位体系，消除跨专著定义分歧？",
+  "deliverables": [
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixA.tex",
+    "raw/writing/gpt/A130/latex-evidence-ledger/appendix-A.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G91/new-references.bib"
+  ]
+}

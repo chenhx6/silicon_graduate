@@ -1,0 +1,76 @@
+{
+  "section": "5.8",
+  "status": "parent-content-accepted;integratedtypesetting-pending",
+  "session_date": "2026-11-14",
+  "observed_machine_utc": "2026-11-13T18:56:11.040161+00:00",
+  "source_hash_checks": [
+    {
+      "source": "dewald-2012-ddcm-recoil-distance",
+      "path": "raw/papers/2012_Dewald et al_Developing the Recoil Distance Doppler-Shift technique towards a versatile tool for lifetime measure.pdf",
+      "sha256": "5c17814e531c70f151b8d183206f902b7c8f7168e977cb2118da9df05668db20",
+      "match": true
+    },
+    {
+      "source": "book-wu-nuclear-experiment-methods",
+      "path": "raw/books/原子核物理实验方法--第三版 (吴治华) (Z-Library).pdf",
+      "sha256": "e23f010ff8d3b4737405235c4aba920533f44e89409ebb7e2cb076b7ab4ee591",
+      "match": true
+    },
+    {
+      "source": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "path": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e",
+      "match": true
+    }
+  ],
+  "source_checks": [
+    "Dewald PDF40 Eqs30–34 actualrender; direct/indirectgate conditions andalpha matched",
+    "Wu actualPDF445 subsection3,PDF446Eq15.26 andPDF447ending; corrected earlier parent-navigation error",
+    "Gorgen actualPDF2–4 backing/error/branch dependencies verified"
+  ],
+  "parent_changes": [
+    "Zero-centred odd kernel removes half-bin convolutionoffset; no forceddensitynormalization",
+    "Finite totalmass/mean/nonnegative/support convergence checks actually executed andpassed",
+    "Finitecase convergence result updated inknowledge andcanonicalledger",
+    "Probability normalization separated fromenergyconservation; infinite-time endpoint clarified"
+  ],
+  "controls": "outputs/l4/20261114-A130-lifetime-response-controls/results.json",
+  "artifacts": [
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-8.tex",
+      "sha256": "a9050405b01594bcbec07d7df9017797a45719d8d6aca56b6c3fe932578540c9",
+      "size": 21763
+    },
+    {
+      "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-8.json",
+      "sha256": "553186d38141bde2019a21f6c859dc958a4aa025f8439f9590e1c747d5680977",
+      "size": 9046
+    },
+    {
+      "path": "knowledge/research-notes/a130-rewrite-lifetime-response-conditions-20261114.md",
+      "sha256": "283e33b3cb7ae748041bd5f38097faa1c5694b7a6cc1f6b815499713d1f21dee",
+      "size": 14473
+    },
+    {
+      "path": "system/scripts/a130_lifetime_response_figure.py",
+      "sha256": "3db01dfcbe293956354e1f278bcb2263ec463a478818152d38b789929c71404f",
+      "size": 8616
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/lifetime-response-rdds-dsam.pdf",
+      "sha256": "c1445f44c5b8dd2e6725e3890e770bd045d2c259f70f44234da5029715706177",
+      "size": 33163
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/lifetime-response-rdds-dsam.svg",
+      "sha256": "105e59aca985dbd3337710b39516dc6085278e41871bfb4918d842aff9d827f7",
+      "size": 93899
+    },
+    {
+      "path": "outputs/l4/20261114-A130-lifetime-response-controls/results.json",
+      "sha256": "5ab205a3752ae3b79a04ce54b8ffc686c984ec7e77eeb8435b071b30b2bd1abd",
+      "size": 5077
+    }
+  ],
+  "boundary": "No measurement, absolute detectorperformance or universalmethodwindow; plots reflectdeclaredlinear-decelerationmodel."
+}

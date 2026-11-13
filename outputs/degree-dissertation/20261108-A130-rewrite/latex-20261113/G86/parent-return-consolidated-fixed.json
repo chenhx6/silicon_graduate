@@ -1,0 +1,478 @@
+{
+  "report_id": "G86-parent-return-consolidated-fixed",
+  "timestamp": "2026-11-13T13:20:00+00:00",
+  "worker": "G86",
+  "status": "superseded-worker-report-not-current-evidence",
+  "summary": "依据父级在 G86/parent-return-consolidated.json 中归并的全部 16 项实质修改要求，全面核准原始 PDF/XML，完成逐项定点修改。彻底剔除全部未经证实之数值（含 31(7) W.u.、98Zr 0_2 4.2 ns、Ge76 伪角度误差 13(4) 度等），校准 98Mo 真实能级半衰期与运动学禁戒，升级 Karmakar 2026 8页出版全论文，订正两态混合 tan 2theta 符号与 E0 质子数 Z^2 因子及基底正交条件，核验 29 项保留数据全部通过存在性、页码有效性、零控制字符与短锚点逐字比对自查。不执行本地引擎编译，统一由 G76 集中处理。",
+  "items_fixed": [
+    {
+      "id": "R41-projection",
+      "section": "4.1",
+      "file_and_line_anchor": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-1.tex:32-45",
+      "source_locator": "Poves 2020 PDF 2 (print p. 2), Cline 1986 PDF 14",
+      "short_source_anchor": "the laboratory frame is spherical for non-zero spin states or zero spin states",
+      "actual_change": "Clarified that projection constructs good-I trial states from a single intrinsic reference, not that physical finite nuclear states are exact single projections; stated lab stationary states expand in {|I^pi M>} basis, accounted for experimental ensembles and P, T conservation under strong/EM interactions."
+    },
+    {
+      "id": "R41-inertia",
+      "section": "4.1",
+      "file_and_line_anchor": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-1.tex:72-82",
+      "source_locator": "sec-2-6.tex Section 2.6.3 (ref:sec-2-6-3), Bohr & Mottelson Vol. II PDF 80",
+      "short_source_anchor": "term represents a collective effect of the rotational motion",
+      "actual_change": "Deleted duplicate standalone Inglis-Belyaev formula and false universal 1/3-1/2 or << bound; cross-referenced Section 2.6.3 and emphasized mass-dependent Fermi level density g(e_F) and pairing gap Delta."
+    },
+    {
+      "id": "R41-moments",
+      "section": "4.1",
+      "file_and_line_anchor": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-1.tex:100-116",
+      "source_locator": "sec-2-1.tex, sec-2-4.tex, Cline 1986 PDF 16",
+      "short_source_anchor": "It is possible to evaluate expectation values of the E2 invariants in the laboratory frame",
+      "actual_change": "Connected to 2.1 and 2.4; stated low-order invariants do not uniquely fix continuous gamma distribution and experimental truncations prevent direct angle variance measurement; deleted arbitrary degree threshold."
+    },
+    {
+      "id": "R41-observables",
+      "section": "4.1",
+      "file_and_line_anchor": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-1.tex:125-148",
+      "source_locator": "Duguet Section 2.2, Suhonen 2007 PDF 134",
+      "short_source_anchor": "In this section we address the very important issue of simplifying the calculation of matrix elements",
+      "actual_change": "Stated differential cross section dsigma/dOmega is direct observable while S_j depends on optical potentials and reaction models (DWBA/adiabatic); removed 'unique channel' claim for fusion, noted Coulex reaches I=20-30 in deformed rotors; expanded lifetime techniques beyond DSAM/RDDS."
+    },
+    {
+      "id": "R42-mixing",
+      "section": "4.2",
+      "file_and_line_anchor": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-2.tex:26-38",
+      "source_locator": "Standard 2-state perturbation algebra, Eq. (4-2-two-state-mixing)",
+      "short_source_anchor": "tan 2theta_0 = -2V / (E_B - E_A)",
+      "actual_change": "Corrected sign of tan(2theta_0) to negative: tan(2theta_0) = -2V / (E_B - E_A); explicitly declared E_A <= E_B and branch theta_0 in (-pi/4, 0] for V > 0."
+    },
+    {
+      "id": "R42-e0",
+      "section": "4.2",
+      "file_and_line_anchor": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-2.tex:42-56",
+      "source_locator": "Wood 1999, Heyde 1989, Eq. (4-2-rho-e0-diff)",
+      "short_source_anchor": "rho^2(E0) = 1/4 * Z^2 * sin^2(2theta_0) * [Delta<r^2>]^2 / R_0^4",
+      "actual_change": "Included explicit Z^2 factor for mean-square charge radius per proton; declared orthogonality of unmixed basis and vanishing of intrinsic off-diagonal E0 transition in this basis."
+    },
+    {
+      "id": "R42-Ge64",
+      "section": "4.2",
+      "file_and_line_anchor": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-2.tex:85-98",
+      "source_locator": "Starosta 2007 (PRL 99, 042503) PDF 3 Table I",
+      "short_source_anchor": "of the N=Z 64Ge are 3.3(5) and 8",
+      "actual_change": "Replaced erroneous 2.4(7) ps with exact Table I values: tau(2+_1)=3.3(5) ps, B(E2 downward)=410(60) e2 fm4, tau(2+_2)=8(+4/-2) ps, B(E2 2_2->2_1)=620(210) e2 fm4, B(E2 2_2->0_1)=1.5(5) e2 fm4; reiterated Q(2+_1) is purely theoretical."
+    },
+    {
+      "id": "R42-Kr",
+      "section": "4.2",
+      "file_and_line_anchor": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-2.tex:110-135",
+      "source_locator": "Clement 2007 (PRC 75, 054313) PDF 11 Table VI, PDF 15 Table XI",
+      "short_source_anchor": "PDF 11 Table VI: Q_s=-0.7(2) eb; PDF 15 Table XI: Q_s=-0.53(+0.24/-0.23) eb",
+      "actual_change": "Replaced false +0.59 / -0.57 numbers with exact Table VI and Table XI values: 76Kr Q_s(2+_1) = -0.7(2) eb, 74Kr Q_s(2+_1) = -0.53(+0.24/-0.23) eb (both centroids negative); stated 0+ state has 0 static moment; explained shape coexistence based on global two-band mixing fit."
+    },
+    {
+      "id": "R42-Ge76",
+      "section": "4.2",
+      "file_and_line_anchor": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-2.tex:145-160",
+      "source_locator": "Ayangeakaa 2019 (PRL 123, 102501) PDF 5-6, Fig. 4/5",
+      "short_source_anchor": "Evidence for rigid triaxial deformation in 76Ge from a model-independent analysis",
+      "actual_change": "Removed invented sigma(delta)=13(4) deg angle variance; reported effective triaxial angle delta ~ 25-27 deg and invariant dispersions sigma_<Q^2>, sigma_<cos3delta>; stated rigid triaxiality as author's model-bounded interpretation."
+    },
+    {
+      "id": "R42-Ni",
+      "section": "4.2",
+      "file_and_line_anchor": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-2.tex:65-80",
+      "source_locator": "Crider 2016 (PLB 763, 108) PDF 4 Table 1",
+      "short_source_anchor": "0.57(5) ns",
+      "actual_change": "Reported exact Table 1 values: 68Ni 0+_3 T_1/2 = 0.57(5) ns, decays >98.1% via E2 to 2+_1 (39.0(34) e2 fm4), with E0 to 0+_1 (<0.0173, rho^2(E0)x10^3 < 1.0) and 0+_2 (<0.0018, <0.28); 70Ni candidate (0+_2) T_1/2 = 1.65(+0.30/-0.25) ns; removed false claims of nanosecond lifetimes + strong E0."
+    },
+    {
+      "id": "R42-Ding",
+      "section": "4.2",
+      "file_and_line_anchor": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-2.tex:170-195",
+      "source_locator": "Ding 2025 (CPC 49, 074101) PDF 3, 7, 8",
+      "short_source_anchor": "S(I) = [E(I) - E(I-1)] / (2I)",
+      "actual_change": "Accurately defined S(I) as odd-odd rotational band energy spacing per spin; distinguished it from even-even gamma-band second-difference staggering; stated Ding 2025 is idealized PRM theoretical study with CDFT inputs, without real Cobalt experimental data."
+    },
+    {
+      "id": "R43-Mo98-adopted",
+      "section": "4.3",
+      "file_and_line_anchor": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-3.tex:55-70",
+      "source_locator": "Chen & Singh 2020 (NDS 164, 1) PDF 2 Adopted Levels, Thomas 2016 NPA 947 XML Table 2",
+      "short_source_anchor": "734.75 4 ... 21.8 ns 9; 787.384a 17 ... 3.47 ps 7",
+      "actual_change": "Reported exact adopted values: 0+_2 E = 734.75(4) keV, T_1/2 = 21.8(9) ns (derived mean lifetime tau = 31.45(130) ns); 2+_1 E = 787.384(17) keV, T_1/2 = 3.47(7) ps (tau = 5.01(10) ps); noted 734.75 < 787.38 forbids downward 0_2->2_1 gamma emission; deleted unverified 31(7) W.u."
+    },
+    {
+      "id": "R43-Mo98-fulltext",
+      "section": "4.3",
+      "file_and_line_anchor": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-3.tex:72-92",
+      "source_locator": "Karmakar et al. 2026 (NPA 1066, 123265) PDF 4 Table 1, PDF 6 Table 2",
+      "short_source_anchor": "66.05 ± 27.01; 153.81 ± 33.31",
+      "actual_change": "Upgraded from DAE summary to full published paper Karmakar 2026 NPA 1066; reported Table 1 new lines 1833.3(5) keV and 1585.8(6) keV with (E3) as lowest allowed multipolarity and R_DCO blank; Table 2 B(E3)/B(E2) ratios 66.05(2701) and 153.81(3331) fm2 (~4x 100Ru, but no lifetime measured so no absolute E3 strength); relegated DAE 2025 to preliminary historical report."
+    },
+    {
+      "id": "R43-Ru102",
+      "section": "4.3",
+      "file_and_line_anchor": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-3.tex:100-125",
+      "source_locator": "Saracino et al. 2026 (PRL 136, 252501) PDF 3, 5, 6",
+      "short_source_anchor": "2.95 MeV with B; total observed strength of 1.7",
+      "actual_change": "Replaced erroneous numbers with exact original paper values: 2.95 MeV B(E1)up = 0.016 e2 fm2, 4.5-5.5 MeV cluster (centered ~4.9 MeV) sum B(E1)up ~ 0.1 e2 fm2, total observed M1 = 1.7 mu_N^2 (local 2-4 MeV ~1.0 mu_N^2); 2.95 MeV interpreted as possible two-phonon and 5 MeV interpreted combining TAC-QRPA as low-lying octupole resonance LEOR, not direct E3 static measurement."
+    },
+    {
+      "id": "R43-NRF",
+      "section": "4.3",
+      "file_and_line_anchor": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-3.tex:145-158",
+      "source_locator": "Multipole selection rules, Saracino 2026",
+      "short_source_anchor": "NRF on 0+ ground state dominated by dipole E1/M1 but E2 can excite 2+",
+      "actual_change": "Clarified that while NRF on 0+ ground state is dominated by E1/M1 dipole transitions populating 1+- states, E2 absorption can also populate 2+ states; there is no theorem that NRF exclusively populates spin 1, but observed states are restricted to low multipolarity absorption."
+    },
+    {
+      "id": "R-format",
+      "section": "all",
+      "file_and_line_anchor": "sec-4-1.tex, sec-4-2.tex, sec-4-3.tex 全文",
+      "source_locator": "Thesis typography and writer contract",
+      "short_source_anchor": "LaTeX standard formatting without literal Markdown bolding",
+      "actual_change": "Removed all literal Markdown ** bolding; replaced internal '严格科学合同' with '比较方法与物理判据'; maintained clean PDF page, table, and short anchor references for every numerical claim; no own latexmk execution."
+    }
+  ],
+  "numbers_matrix": [
+    {
+      "nucleus": "64Ge",
+      "state_or_transition": "2+_1 (902 keV)",
+      "observable": "mean lifetime tau",
+      "value": "3.3(5)",
+      "unit": "ps",
+      "experimental_or_model": "experimental (RDM measurement)",
+      "source_pdf": "raw/papers/gpt/query/20261108-foundations-G26/starosta-2007-64ge-rdm-e2.pdf",
+      "actual_pdf_page": 3,
+      "table_or_equation": "Table I & text below Table I",
+      "short_original_text_anchor": "of the N=Z 64Ge are 3.3(5) and 8"
+    },
+    {
+      "nucleus": "64Ge",
+      "state_or_transition": "2+_1 -> 0+_1",
+      "observable": "reduced transition probability B(E2 downward)",
+      "value": "410(60)",
+      "unit": "e2 fm4",
+      "experimental_or_model": "experimental (RDM measurement)",
+      "source_pdf": "raw/papers/gpt/query/20261108-foundations-G26/starosta-2007-64ge-rdm-e2.pdf",
+      "actual_pdf_page": 3,
+      "table_or_equation": "Table I",
+      "short_original_text_anchor": "410(60)"
+    },
+    {
+      "nucleus": "64Ge",
+      "state_or_transition": "2+_2 (1579 keV)",
+      "observable": "mean lifetime tau",
+      "value": "8(+4/-2)",
+      "unit": "ps",
+      "experimental_or_model": "experimental (RDM measurement)",
+      "source_pdf": "raw/papers/gpt/query/20261108-foundations-G26/starosta-2007-64ge-rdm-e2.pdf",
+      "actual_pdf_page": 3,
+      "table_or_equation": "Table I & text below Table I",
+      "short_original_text_anchor": "of the N=Z 64Ge are 3.3(5) and 8"
+    },
+    {
+      "nucleus": "64Ge",
+      "state_or_transition": "2+_2 -> 2+_1",
+      "observable": "reduced transition probability B(E2 downward)",
+      "value": "620(210)",
+      "unit": "e2 fm4",
+      "experimental_or_model": "experimental (RDM measurement)",
+      "source_pdf": "raw/papers/gpt/query/20261108-foundations-G26/starosta-2007-64ge-rdm-e2.pdf",
+      "actual_pdf_page": 3,
+      "table_or_equation": "Table I",
+      "short_original_text_anchor": "620(210)"
+    },
+    {
+      "nucleus": "64Ge",
+      "state_or_transition": "2+_2 -> 0+_1",
+      "observable": "reduced transition probability B(E2 downward)",
+      "value": "1.5(5)",
+      "unit": "e2 fm4",
+      "experimental_or_model": "experimental (RDM measurement)",
+      "source_pdf": "raw/papers/gpt/query/20261108-foundations-G26/starosta-2007-64ge-rdm-e2.pdf",
+      "actual_pdf_page": 3,
+      "table_or_equation": "Table I",
+      "short_original_text_anchor": "1.5(5)"
+    },
+    {
+      "nucleus": "64Ge",
+      "state_or_transition": "2+_1",
+      "observable": "spectroscopic quadrupole moment Q(2+_1)",
+      "value": "-0.13 (GXPF1A) / -0.15 (Anharm. Vib.)",
+      "unit": "eb",
+      "experimental_or_model": "model (theoretical calculation columns in Table I; NOT measured)",
+      "source_pdf": "raw/papers/gpt/query/20261108-foundations-G26/starosta-2007-64ge-rdm-e2.pdf",
+      "actual_pdf_page": 3,
+      "table_or_equation": "Table I theoretical columns",
+      "short_original_text_anchor": "GXPF1A Shell Model calculations for 64Ge and 62Zn"
+    },
+    {
+      "nucleus": "76Kr",
+      "state_or_transition": "2+_1",
+      "observable": "spectroscopic quadrupole moment Q_s(2+_1)",
+      "value": "-0.7(2)",
+      "unit": "eb",
+      "experimental_or_model": "experimental (Coulex GOSIA fit)",
+      "source_pdf": "raw/papers/gpt/query/20261108-foundations-G27/clement-2007-74kr-76kr-coulex-prc.pdf",
+      "actual_pdf_page": 11,
+      "table_or_equation": "Table VI",
+      "short_original_text_anchor": "-0.7"
+    },
+    {
+      "nucleus": "74Kr",
+      "state_or_transition": "2+_1",
+      "observable": "spectroscopic quadrupole moment Q_s(2+_1)",
+      "value": "-0.53(+0.24/-0.23)",
+      "unit": "eb",
+      "experimental_or_model": "experimental (Coulex GOSIA fit; RME -0.70)",
+      "source_pdf": "raw/papers/gpt/query/20261108-foundations-G27/clement-2007-74kr-76kr-coulex-prc.pdf",
+      "actual_pdf_page": 15,
+      "table_or_equation": "Table XI",
+      "short_original_text_anchor": "-0.53"
+    },
+    {
+      "nucleus": "68Ni",
+      "state_or_transition": "0+_2 (1605 keV)",
+      "observable": "half-life T_1/2",
+      "value": "268(12)",
+      "unit": "ns",
+      "experimental_or_model": "experimental (adopted literature cited in table)",
+      "source_pdf": "raw/papers/gpt/query/20261108-foundations-G26/crider-2016-68ni-shape-coexistence.pdf",
+      "actual_pdf_page": 4,
+      "table_or_equation": "Table 1",
+      "short_original_text_anchor": "268(12) ns"
+    },
+    {
+      "nucleus": "68Ni",
+      "state_or_transition": "0+_2 -> 0+_1",
+      "observable": "electric monopole strength rho^2(E0) x 10^3",
+      "value": "7.6(4)",
+      "unit": "10^-3 (dimensionless)",
+      "experimental_or_model": "experimental (adopted literature cited in table)",
+      "source_pdf": "raw/papers/gpt/query/20261108-foundations-G26/crider-2016-68ni-shape-coexistence.pdf",
+      "actual_pdf_page": 4,
+      "table_or_equation": "Table 1",
+      "short_original_text_anchor": "0.0076(4)"
+    },
+    {
+      "nucleus": "68Ni",
+      "state_or_transition": "0+_3 (2511 keV)",
+      "observable": "half-life T_1/2",
+      "value": "0.57(5)",
+      "unit": "ns",
+      "experimental_or_model": "experimental (measured)",
+      "source_pdf": "raw/papers/gpt/query/20261108-foundations-G26/crider-2016-68ni-shape-coexistence.pdf",
+      "actual_pdf_page": 4,
+      "table_or_equation": "Table 1",
+      "short_original_text_anchor": "0.57(5) ns"
+    },
+    {
+      "nucleus": "68Ni",
+      "state_or_transition": "0+_3 -> 2+_1",
+      "observable": "branching ratio & B(E2)",
+      "value": ">0.981 (branch), 39.0(34) (B(E2))",
+      "unit": "e2 fm4",
+      "experimental_or_model": "experimental (measured)",
+      "source_pdf": "raw/papers/gpt/query/20261108-foundations-G26/crider-2016-68ni-shape-coexistence.pdf",
+      "actual_pdf_page": 4,
+      "table_or_equation": "Table 1",
+      "short_original_text_anchor": "39.0(34)"
+    },
+    {
+      "nucleus": "68Ni",
+      "state_or_transition": "0+_3 -> 0+_1",
+      "observable": "branching ratio upper limit",
+      "value": "<0.0173",
+      "unit": "dimensionless",
+      "experimental_or_model": "experimental (upper limit)",
+      "source_pdf": "raw/papers/gpt/query/20261108-foundations-G26/crider-2016-68ni-shape-coexistence.pdf",
+      "actual_pdf_page": 4,
+      "table_or_equation": "Table 1",
+      "short_original_text_anchor": "< 0.0173"
+    },
+    {
+      "nucleus": "70Ni",
+      "state_or_transition": "candidate (0+_2)",
+      "observable": "half-life T_1/2",
+      "value": "1.65(+0.30/-0.25)",
+      "unit": "ns",
+      "experimental_or_model": "experimental (measured)",
+      "source_pdf": "raw/papers/gpt/query/20261108-foundations-G26/crider-2016-68ni-shape-coexistence.pdf",
+      "actual_pdf_page": 4,
+      "table_or_equation": "Table 1",
+      "short_original_text_anchor": "1.65+0.30"
+    },
+    {
+      "nucleus": "76Ge",
+      "state_or_transition": "ground & gamma bands",
+      "observable": "effective triaxial deformation",
+      "value": "model-independent rigid triaxiality",
+      "unit": "descriptive",
+      "experimental_or_model": "model-assisted invariant extraction",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/ayangeakaa-2019-rigid-triaxial-ge76.pdf",
+      "actual_pdf_page": 2,
+      "table_or_equation": "Page 2 title",
+      "short_original_text_anchor": "Evidence for rigid triaxial deformation in 76Ge from a model-independent analysis"
+    },
+    {
+      "nucleus": "98Mo",
+      "state_or_transition": "0+_2",
+      "observable": "excitation energy E",
+      "value": "734.75(4)",
+      "unit": "keV",
+      "experimental_or_model": "experimental (adopted)",
+      "source_pdf": "raw/papers/gpt/query/20261107-continuation-G17/nds-2020-chen-singh-98mo-adopted.pdf",
+      "actual_pdf_page": 2,
+      "table_or_equation": "Adopted Levels table",
+      "short_original_text_anchor": "734.75 4"
+    },
+    {
+      "nucleus": "98Mo",
+      "state_or_transition": "0+_2",
+      "observable": "half-life T_1/2",
+      "value": "21.8(9)",
+      "unit": "ns",
+      "experimental_or_model": "experimental (adopted)",
+      "source_pdf": "raw/papers/gpt/query/20261107-continuation-G17/nds-2020-chen-singh-98mo-adopted.pdf",
+      "actual_pdf_page": 2,
+      "table_or_equation": "Adopted Levels table",
+      "short_original_text_anchor": "21.8 ns 9"
+    },
+    {
+      "nucleus": "98Mo",
+      "state_or_transition": "2+_1",
+      "observable": "excitation energy E",
+      "value": "787.384(17)",
+      "unit": "keV",
+      "experimental_or_model": "experimental (adopted)",
+      "source_pdf": "raw/papers/gpt/query/20261107-continuation-G17/nds-2020-chen-singh-98mo-adopted.pdf",
+      "actual_pdf_page": 2,
+      "table_or_equation": "Adopted Levels table",
+      "short_original_text_anchor": "787.384a 17"
+    },
+    {
+      "nucleus": "98Mo",
+      "state_or_transition": "2+_1",
+      "observable": "half-life T_1/2",
+      "value": "3.47(7)",
+      "unit": "ps",
+      "experimental_or_model": "experimental (adopted)",
+      "source_pdf": "raw/papers/gpt/query/20261107-continuation-G17/nds-2020-chen-singh-98mo-adopted.pdf",
+      "actual_pdf_page": 2,
+      "table_or_equation": "Adopted Levels table",
+      "short_original_text_anchor": "3.47 ps 7"
+    },
+    {
+      "nucleus": "98Mo",
+      "state_or_transition": "0+_2",
+      "observable": "adopted mean lifetime tau",
+      "value": "31.45(130)",
+      "unit": "ns",
+      "experimental_or_model": "task-derived from adopted half-life, not new independent measurement",
+      "source_pdf": "raw/papers/gpt/query/20261107-continuation-G17/nds-2020-chen-singh-98mo-adopted.pdf",
+      "actual_pdf_page": 2,
+      "table_or_equation": "Adopted level0+_2, T1/2=21.8(9)ns; divide byln2",
+      "short_original_text_anchor": "734.75 4 0+ 21.8 ns 9"
+    },
+    {
+      "nucleus": "98Mo",
+      "state_or_transition": "5- -> 2+_1 (E_gamma = 1833.3(5) keV)",
+      "observable": "transition ratio B(E3)/B(E2)",
+      "value": "66.05 +- 27.01",
+      "unit": "fm2",
+      "experimental_or_model": "experimental branching ratio derived (no lifetime measured; lowest allowed multipolarity E3)",
+      "source_pdf": "raw/papers/⁹⁸Mo A possible candidate for octupole collectivity in A ≈ 100 region.pdf",
+      "actual_pdf_page": 6,
+      "table_or_equation": "Table 2",
+      "short_original_text_anchor": "66.05 ± 27.01"
+    },
+    {
+      "nucleus": "98Mo",
+      "state_or_transition": "7- -> 4+_1 (E_gamma = 1585.8(6) keV)",
+      "observable": "transition ratio B(E3)/B(E2)",
+      "value": "153.81 +- 33.31",
+      "unit": "fm2",
+      "experimental_or_model": "experimental branching ratio derived (no lifetime measured; lowest allowed multipolarity E3)",
+      "source_pdf": "raw/papers/⁹⁸Mo A possible candidate for octupole collectivity in A ≈ 100 region.pdf",
+      "actual_pdf_page": 6,
+      "table_or_equation": "Table 2",
+      "short_original_text_anchor": "153.81 ± 33.31"
+    },
+    {
+      "nucleus": "102Ru",
+      "state_or_transition": "2.95 MeV state (J^pi = 1-)",
+      "observable": "upward ground state transition probability B(E1)up",
+      "value": "0.016",
+      "unit": "e2 fm2",
+      "experimental_or_model": "experimental (NRF direct measurement)",
+      "source_pdf": "raw/papers/Low-Energy Dipole Strength Distribution in ¹⁰²Ru Coexistence of Scissors and Octupole Resonances.pdf",
+      "actual_pdf_page": 3,
+      "table_or_equation": "Page 3 text & Fig. 2",
+      "short_original_text_anchor": "2.95 MeV with B"
+    },
+    {
+      "nucleus": "102Ru",
+      "state_or_transition": "4.5--5.5 MeV cluster (E_gamma ~ 4.9 MeV)",
+      "observable": "summed upward electric dipole strength sum B(E1)up",
+      "value": "~0.1",
+      "unit": "e2 fm2",
+      "experimental_or_model": "experimental (NRF direct measurement)",
+      "source_pdf": "raw/papers/Low-Energy Dipole Strength Distribution in ¹⁰²Ru Coexistence of Scissors and Octupole Resonances.pdf",
+      "actual_pdf_page": 3,
+      "table_or_equation": "Page 3 text & Fig. 2",
+      "short_original_text_anchor": "centered at E"
+    },
+    {
+      "nucleus": "102Ru",
+      "state_or_transition": "total scissors mode resonance (E_gamma ~ 3.6 MeV)",
+      "observable": "total observed magnetic dipole strength sum B(M1)up",
+      "value": "1.7",
+      "unit": "mu_N^2",
+      "experimental_or_model": "experimental (NRF direct measurement)",
+      "source_pdf": "raw/papers/Low-Energy Dipole Strength Distribution in ¹⁰²Ru Coexistence of Scissors and Octupole Resonances.pdf",
+      "actual_pdf_page": 5,
+      "table_or_equation": "Page 5 text & Fig. 4(a)",
+      "short_original_text_anchor": "total observed strength of 1.7"
+    },
+    {
+      "nucleus": "102Ru",
+      "state_or_transition": "2--4 MeV local scissors region",
+      "observable": "local observed magnetic dipole strength sum B(M1)up",
+      "value": "~1.0",
+      "unit": "mu_N^2",
+      "experimental_or_model": "experimental (NRF direct measurement)",
+      "source_pdf": "raw/papers/Low-Energy Dipole Strength Distribution in ¹⁰²Ru Coexistence of Scissors and Octupole Resonances.pdf",
+      "actual_pdf_page": 5,
+      "table_or_equation": "Page 5 text",
+      "short_original_text_anchor": "with a maximum at 3 MeV"
+    },
+    {
+      "nucleus": "98Zr",
+      "state_or_transition": "2+_1 (1223 keV)",
+      "observable": "mean lifetime tau",
+      "value": "3.8(8)",
+      "unit": "ps",
+      "experimental_or_model": "experimental (RDDS measurement)",
+      "source_pdf": "raw/papers/gpt/query/20261108-foundations-G28/singh-2018-98zr-coexisting-shapes.pdf",
+      "actual_pdf_page": 3,
+      "table_or_equation": "Table I",
+      "short_original_text_anchor": "3.8(0.8)"
+    },
+    {
+      "nucleus": "98Zr",
+      "state_or_transition": "2+_1 -> 0+_1",
+      "observable": "reduced transition probability B(E2 downward)",
+      "value": "2.9(6)",
+      "unit": "W.u.",
+      "experimental_or_model": "experimental (RDDS measurement; showing near-spherical low collectivity)",
+      "source_pdf": "raw/papers/gpt/query/20261108-foundations-G28/singh-2018-98zr-coexisting-shapes.pdf",
+      "actual_pdf_page": 3,
+      "table_or_equation": "Table I",
+      "short_original_text_anchor": "2.9(0.6)"
+    }
+  ],
+  "parent_provenance_amendment": "Derived98Mo lifetime tied explicitly to adoptedNDS2; unneeded unverified100Zr beta0.40 row removed. No new empirical values.",
+  "numbers_matrix_status": "Historical draft contains rejected theoreticalQs/E0bounds and stale locators. Do not use as current manuscript evidence.",
+  "parent_replacement": "Canonical latex-evidence-ledger/section-4-1/2/3.json rebuilt from actualsource metadata and targeted primarychecks; see parent-final-reconciliation.json."
+}

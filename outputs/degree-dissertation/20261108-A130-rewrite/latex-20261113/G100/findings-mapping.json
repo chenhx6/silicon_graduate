@@ -1,0 +1,97 @@
+{
+  "task": "G100",
+  "audit_reference": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T19/report.json",
+  "mapping_count": 10,
+  "findings": [
+    {
+      "id": "F01",
+      "severity": "major",
+      "title": "Bk与Uk重复相乘",
+      "frozen_problem": "sec-5-7.frozen.tex在式(36)中a_k = B_k(I_i) U_k Q_k A_k / (B_0 U_0 Q_0 A_0)，将已包含上游未观测级联退取向的目标态B_k(I_i)再次乘以U_k，与前面第24行声明及ledger声称消除重复不符。",
+      "actual_raw_locator": "Hamilton raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf, PDF 553 (printed 542, Eqs. 12.182–12.185), PDF 556 (printed 545, Eq. 12.197), PDF 563 (printed 552, Eqs. 12.209–12.213)",
+      "g100_resolution": "在sec-5-7.tex式(eq:5-7-ak-apparent)中修正为 a_k = [B_k(I_i) Q_k A_k(delta)] / [B_0(I_i) Q_0 A_0] = B_k(I_i) Q_k A_k(delta)，严格使用B_0=Q_0=A_0=1归一。正文明确：一旦使用目标态B_k(I_i)，不可再次乘入相同的U_k；仅在由复合核基准B_k(J_CN)经未观测级联传递时使用B_k(I_i) = B_k(J_CN)*prod(U_k)。ledger中Claim C57-orientation-and-angular-distribution与migration_differences同步修正。",
+      "status": "resolved"
+    },
+    {
+      "id": "F02",
+      "severity": "major",
+      "title": "奇阶消失物理机制混淆",
+      "frozen_problem": "由P(M)=P(-M)直接断言观测强度W只含0、2、4偶阶，将取向张量本身的奇阶消失与未偏振单光子电磁跃迁对两螺旋度求和导致的奇阶相消混为一谈。",
+      "actual_raw_locator": "Hamilton PDF 553 (printed 542, Eqs. 12.180–12.186), PDF 555 (printed 544, Eqs. 12.188–12.189), PDF 556 (printed 545, Eqs. 12.193–12.198)",
+      "g100_resolution": "sec-5-7.tex第15行明确区分两个物理机制：(1) 在轴对称量子化基下，P(M)=P(-M)蕴含B_odd=0，若P(M)!=P(-M)则B_odd可非零；(2) 对具有确定宇称的核态间通常单光子电磁跃迁，未分析光子偏振时对两个出射螺旋度(lambda = +/-1)求和，产生sum lambda^k = 1+(-1)^k = 0，从而严格消除强度级数中的奇阶辐射参数，即使B_odd非零亦然；(3) 阶数受k <= min(2*I_i, 2*L_max)限制，L_max=2时仅出现k=0,2,4。ledger Claim 0与migration_differences同步更新。",
+      "status": "resolved"
+    },
+    {
+      "id": "F03",
+      "severity": "major",
+      "title": "正干涉公式与KS/RB约定命名矛盾及M1算符单位",
+      "frozen_problem": "正文将sqrt(3)/10约化矩阵元比值及+2*delta*F_k正交叉项称为Rose-Brink (RB)，而被引原文明确标为Krane-Steffen (KS)；RB在发射约定下差一负号(delta_KS = -delta_RB)。",
+      "actual_raw_locator": "Hamilton PDF 553 (printed 542, Eqs. 12.184–12.185); Lange et al. 1982 PDF 3 (printed 121, Eqs. 2.4–2.6), PDF 4 (printed 122, Eqs. 2.8–2.11 & page bottom relations)",
+      "g100_resolution": "sec-5-7.tex全面统一采用Krane--Steffen (KS)规范体系，明示式(eq:5-7-ak-rational)与式(eq:5-7-ak-m1e2)中的正交叉项+2*delta*F_k严格对应于KS约定，绝不可标为Rose-Brink；指出发射约定下delta_KS = -delta_RB，转换体系必须同步转换几何系数定义；与第5.9节及附录A完全对齐，采用M_S(M1) = M_mu(M1)/c配合k_gamma = E_gamma/(hbar*c)或M_mu(M1)配合E_gamma/hbar，均为纯无量纲数，不进行重复折算。ledger Claim 1与migration_differences同步修正。",
+      "status": "resolved"
+    },
+    {
+      "id": "F04",
+      "severity": "moderate",
+      "title": "Clebsch-Gordan次序与Hamilton张量奇阶相位差",
+      "frozen_problem": "冻结B_k公式的CG系数自变量次序与Hamilton Eq. 12.73存在次序差异，使奇阶相差(-1)^k符号，偶阶相同，但正文直接称Hamilton规范。",
+      "actual_raw_locator": "Hamilton PDF 529 (printed 518, Eq. 12.73), PDF 532 (printed 521, Eq. 12.81)",
+      "g100_resolution": "sec-5-7.tex在式(eq:5-7-bk-def)后显式说明：CG系数次序规定了统计张量相位约定，按此定义奇阶满足B_k = (-1)^k B_k^Hamilton，偶阶严格相同；对于未分析偏振的强度级数W(theta)仅使用偶阶分量，该相位差不改变物理强度；且B_0=1在任意归一布居下恒成立。ledger Claim 0与migration_differences同步更新。",
+      "status": "resolved"
+    },
+    {
+      "id": "F05",
+      "severity": "major",
+      "title": "线偏振度形式定义、缔合Legendre因子与Q_k vs Q(E)混淆",
+      "frozen_problem": "偏振度定义式未写出(W_parallel - W_perp)/(W_parallel + W_perp)；关联Legendre展开缺少Hamilton A_k2所含2*sqrt((k-2)!/(k+2)!)因子；几何衰减Q_k^pol与偏振分析能力Q(E_gamma)混同；错误声称Hamilton第9章。",
+      "actual_raw_locator": "Hamilton PDF 556 (printed 545, Eq. 12.198); PDF 569 (printed 558, Eqs. 12.247–12.253); PDF 727 (printed 716, Ch. 15 Eqs. 15.9–15.13); PDF 728 (printed 717, Eqs. 15.14–15.15)",
+      "g100_resolution": "sec-5-7.tex补充显式定义式P(theta) = (W_parallel - W_perp)/(W_parallel + W_perp) (eq:5-7-pol-def)；缔合Legendre展开式(eq:5-7-pol-theor)给出因子2*sqrt((k-2)!/(k+2)!)（k=2为1/sqrt(6)，k=4为1/sqrt(90)）；明确Q_k^pol为有限立体角衰减因子，Q(E_gamma)为康普顿偏振计分析本领，严禁混同；实验不对称度补充a(E_gamma) = N_perp^0 / N_parallel^0；引用修正为第12章与第15章。ledger Claim 3同步修正。",
+      "status": "resolved"
+    },
+    {
+      "id": "F06",
+      "severity": "major",
+      "title": "DCO二次有理反演去分母伪根与纯多极端点分析",
+      "frozen_problem": "交叉相乘后未声明排除分母零点伪根；无限远端点误称渐近极点；未讨论退化为一次方程及全简并情形。",
+      "actual_raw_locator": "Hamilton PDF 553 (printed 542, Eq. 12.185); PDF 569 (printed 558, Eq. 12.253)",
+      "g100_resolution": "sec-5-7.tex建立完整求解四项准则：(1) 筛除伪根：有限解delta*必须满足D(delta*)!=0，使分母为零的代数根必须剔除；(2) 齐次坐标与纯多极端点：delta=u/v改写为齐次二次型(eq:5-7-projective-form)，v=0对应纯高多极极限，当d2!=0且R=n2/d2时满足，纯端点非极点，物理比值在无穷远有良极限n2/d2，且+/-90度代表同一纯高多极态；(3) 退化与一次方程：c2=0退化为一次方程解delta=-c0/c1并验端点，全零完全简并，常数非零无解；(4) 双实根保留准则：判别式大于等于零时如实保留双实根，严禁以理论偏好人为剪除。ledger Claim 4与migration_differences同步修正。",
+      "status": "resolved"
+    },
+    {
+      "id": "F07",
+      "severity": "moderate",
+      "title": "DCO双光子效率因式与级联时序条件",
+      "frozen_problem": "DCO效率比值写成单探测器效率乘积未明示探测器对独立响应假定；门选笼统解释为对后续态重新取向，忽视门跃迁位于待测跃迁之后的情形。",
+      "actual_raw_locator": "Hamilton PDF 557 (printed 546, Sec. 5.2.1 Eq. 12.199)",
+      "g100_resolution": "sec-5-7.tex明示式(eq:5-7-dco-def)适用于角组计数曝光一致、单探测效率可因式分解且背景门选一致情形，多探测器对需实际加权；明确门跃迁可位于待测跃迁之前或之后，双光子角关联函数必须依据实际级联发射时序由Racah统计重耦合理论严格构造。ledger Claim 2同步更新。",
+      "status": "resolved"
+    },
+    {
+      "id": "F08",
+      "severity": "moderate",
+      "title": "教学图脚本诚实性与正定物理响应",
+      "frozen_problem": "脚本标示教学模型但图例写Measured；图注称双螺旋度正定响应但脚本使用了np.clip(-1, 1)；人工二次函数未说明非微观核态计算。",
+      "actual_raw_locator": "Hamilton PDF 727 (printed 716, Eqs. 15.9–15.13)",
+      "g100_resolution": "修订system/scripts/a130_angular_branch_figure.py：(1) 解析验证N(delta)>0, D(delta)>0, W(delta)>0恒成立；(2) 证明正交偏振强度W+H = 2*W_parallel > 0及W-H = 2*W_perp > 0在全实数域恒严格正定，绝对值|P(delta)| < 1恒成立，完全移除np.clip；(3) 图例Measured修改为Hypothetical Band R_DCO = 0.80 +/- 0.05；(4) 正文图注明确该图为代数构造规范教学模型，阐释方法学原理，非特定核态或仪器实测拟合；(5) 重新生成SVG与PDF矢量图。ledger与migration_differences同步更新。",
+      "status": "resolved"
+    },
+    {
+      "id": "F09",
+      "severity": "moderate",
+      "title": "证据台账Hamilton定位严重漂移（PDF 355内转换错误）",
+      "frozen_problem": "原台账将PDF 355–386描述为Chapter 8 & 9的取向、DCO与偏振，实际PDF 355为印刷页344 Chapter 10内转换系数测量。",
+      "actual_raw_locator": "Hamilton PDF 355 (printed 344, Chapter 10 internal conversion); PDF 529, 532, 550, 553, 555, 556, 557, 563, 569 (Chapter 12); PDF 727, 728 (Chapter 15)",
+      "g100_resolution": "彻底重写section-5-7.json证据台账：清除PDF 355–386内转换错误，准确登记Chapter 12中PDF 529/532 (B_k), 550 (F_k), 553 (A_k), 555 (helicity), 556 (intensity), 557 (DCO timing), 563 (U_k), 569 (DCO pure multipole)以及Chapter 15中PDF 727/728 (linear polarization, analyzing power Q)。逐条核对实际印刷页码与式号。",
+      "status": "resolved"
+    },
+    {
+      "id": "F10",
+      "severity": "moderate",
+      "title": "有限立体角衰减因子Q_k轴对称前提与取向宽度",
+      "frozen_problem": "未指明Q_k化为标量衰减因子要求探测器响应绕对称轴轴对称且非负；声称取向宽度必须同步拟合措辞过强。",
+      "actual_raw_locator": "Hamilton PDF 532 (printed 521, Eqs. 12.80–12.81); PDF 727 (printed 716, Eq. 15.10)",
+      "g100_resolution": "sec-5-7.tex明确Q_k = int w(Omega)P_k(cos alpha) dOmega / int w(Omega) dOmega，标量简化仅在探测效率w(Omega)>=0绕晶体对称轴轴对称时成立，满足Q0=1与|Qk|<=1；取向宽度sigma/I在反演中可通过已知纯E2标定、理论反应道约束、联合拟合或系统误差包络评估，避免绝对化措辞。ledger Claim 0与Claim 2同步更新。",
+      "status": "resolved"
+    }
+  ]
+}

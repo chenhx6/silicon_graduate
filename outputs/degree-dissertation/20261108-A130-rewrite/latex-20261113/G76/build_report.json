@@ -1,12 +1,12 @@
 {
-  "build_started_at_utc": "2026-11-13T03:45:59.368047+00:00",
-  "build_finished_at_utc": "2026-11-13T03:46:25.203888+00:00",
+  "build_started_at_utc": "2026-11-13T04:18:02.094948+00:00",
+  "build_finished_at_utc": "2026-11-13T04:18:28.967326+00:00",
   "workdir": "/workspace/wiki/raw/writing/gpt/A130/these_2023_template/these_template",
   "build_dir": "/workspace/wiki/tmp/a130-latex-build",
   "jobname": "Thesis",
   "production_inputs": {
-    "total_files": 49,
-    "manifest_sha256": "152f30777a592c06ce0acb4b2632715bf23d00adb8d2d57841f0e365d741b33f",
+    "total_files": 58,
+    "manifest_sha256": "6e6d2ac2133a77fdb3eba35d063fa104d3f8d92f9d56d8fd14fb36d55ec9b889",
     "files": {
       "Thesis.tex": {
         "size_bytes": 4339,
@@ -37,8 +37,8 @@
         "sha256": "7ac131fa32605bf83084afb8aa7de49e5b0f28ba97145c503ada3c52a82ffeeb"
       },
       "Biblio/ref.bib": {
-        "size_bytes": 11726,
-        "sha256": "cd371bb3a30f03e12e9fd990bd086147e3c5631ffe581735cdc5d9342ed47023"
+        "size_bytes": 13822,
+        "sha256": "ca9307371ce2eebc80336f685e0a1eb62cfd51ab63f377950864b0d80c1627db"
       },
       "Img/cfd-phase-convergence.pdf": {
         "size_bytes": 28205,
@@ -59,6 +59,10 @@
       "Img/occupancy-centroids.pdf": {
         "size_bytes": 24572,
         "sha256": "1c016d53943e8c3b59da407d4bafe4a9f44c1ffbf3eba284e05306a25d31ae14"
+      },
+      "Img/rotor-local-limits.pdf": {
+        "size_bytes": 30104,
+        "sha256": "1e0ba988331e52460f5443218e88211082a6c99fd25563a537abe032d617594c"
       },
       "Img/shape-moments.pdf": {
         "size_bytes": 37089,
@@ -89,8 +93,8 @@
         "sha256": "fefe5c73e124de087351b92bddae8f02514375f38a735ed908253a33c0d17b39"
       },
       "Tex/Appendix.tex": {
-        "size_bytes": 866,
-        "sha256": "8f4e3915cf0834af5a1fab4e326b3c844199f866ee328a442ecb0becb9f6a180"
+        "size_bytes": 1061,
+        "sha256": "f15b190a37b8214d1eae6134b2732281ec4773df3fd957aaf8e50258b1e334e5"
       },
       "Tex/Backmatter.tex": {
         "size_bytes": 458,
@@ -144,6 +148,10 @@
         "size_bytes": 5366,
         "sha256": "67eece7eea1d3d9693ab4e012147e126d2a00a8bee835d99855f5e1d205b1b76"
       },
+      "Tex/Appendices/AppendixF.tex": {
+        "size_bytes": 8366,
+        "sha256": "7b69d1c0de3b0bcea0f9f6b51b3a877f7897046cdedbe4a6d4b209f2a5d0d266"
+      },
       "Tex/Sections/sec-1-1.tex": {
         "size_bytes": 7776,
         "sha256": "375ff8b50ac5d3588a173bbf2a9446917bbe9ec9a27c30df33a8f08a57b62b67"
@@ -188,9 +196,33 @@
         "size_bytes": 18051,
         "sha256": "ad956ea0748a82b31e82a917df2d16fec1b744be1ce72f91c875eec0ae55ad64"
       },
+      "Tex/Sections/sec-2-7.tex": {
+        "size_bytes": 35371,
+        "sha256": "ff864b7a36fe361673a5289eb088b5053733749f26c17f21d54d3eb5849c2101"
+      },
+      "Tex/Sections/sec-2-8.tex": {
+        "size_bytes": 38877,
+        "sha256": "d2383e8ab68cc0bd7b2649a4eeb37bb59a96cd61c93e986c49b4fc3762bf79e1"
+      },
+      "Tex/Sections/sec-3-2.tex": {
+        "size_bytes": 18321,
+        "sha256": "03f03b94352ea0b4892f539f17dc3091a613a6f2752067156f24d0a6f103e622"
+      },
       "Tex/Sections/sec-3-5.tex": {
         "size_bytes": 23387,
         "sha256": "5439b517623ae5142cd4711bfd849cc0df1db4574aac3dfd305a2963dabfdea8"
+      },
+      "Tex/Sections/sec-4-1.tex": {
+        "size_bytes": 18409,
+        "sha256": "bbe7c5a47929f1f46c48851925ed756dcabf28781fb126b033fc2b45e49f11ac"
+      },
+      "Tex/Sections/sec-4-2.tex": {
+        "size_bytes": 17970,
+        "sha256": "67df9f63abd457647928391e1816fdb752da471fcdf3fe14fef1a17d37401dbc"
+      },
+      "Tex/Sections/sec-4-3.tex": {
+        "size_bytes": 14721,
+        "sha256": "98221fd149592d1463a81348a49222a575841f89dcaca738f235a7d182945fcf"
       },
       "Tex/Sections/sec-5-3.tex": {
         "size_bytes": 20224,
@@ -199,6 +231,10 @@
       "Tex/Sections/sec-5-4.tex": {
         "size_bytes": 16361,
         "sha256": "18960bdfb1c2e65304a42da6bb39ef3026061b6a6d25d4911dcfdb853f316c26"
+      },
+      "Tex/Sections/sec-5-5.tex": {
+        "size_bytes": 19202,
+        "sha256": "2701839fadfde75e9d2ded4bb7f87a9447046ff07c051a26c976f083ae87e8d9"
       },
       "Tex/Sections/sec-5-9.tex": {
         "size_bytes": 29492,
@@ -215,7 +251,7 @@
         "-interaction=nonstopmode",
         "Thesis.tex"
       ],
-      "returncode": 0
+      "returncode": 1
     },
     {
       "pass": 2,
@@ -233,7 +269,7 @@
         "-interaction=nonstopmode",
         "Thesis.tex"
       ],
-      "returncode": 0
+      "returncode": 1
     },
     {
       "pass": 4,
@@ -243,32 +279,518 @@
         "-interaction=nonstopmode",
         "Thesis.tex"
       ],
-      "returncode": 0
+      "returncode": 1
     }
   ],
   "pdf_info": {
     "path": "/workspace/wiki/raw/writing/gpt/A130/these_2023_template/these_template/Thesis.pdf",
-    "size_bytes": 1676015,
-    "page_count": 128
+    "size_bytes": 1960451,
+    "page_count": 174
   },
   "log_path": "/workspace/wiki/tmp/a130-latex-build/Thesis.log",
   "blg_path": "/workspace/wiki/tmp/a130-latex-build/Thesis.blg",
-  "audit_verdict": "CLEAN_PASS",
-  "fatal_errors_count": 0,
-  "fatal_errors": [],
+  "audit_verdict": "FATAL_FAILURE",
+  "fatal_errors_count": 187,
+  "fatal_errors": [
+    "! Missing $ inserted.\n<inserted text> \n                $\nl.78 \\end{tabularx}",
+    "! Extra }, or forgotten $.\n<recently read> \\egroup \n                        \nl.78 \\end{tabularx}",
+    "! Missing $ inserted.\n<inserted text> \n                $\nl.78 \\end{tabularx}",
+    "! Extra }, or forgotten $.\n\\textdef@ ...th {#1}\\let \\f@size #2\\selectfont #3}\n                                                  }\nl.78 \\end{tabularx}",
+    "! Extra }, or forgotten $.\n\\textdef@ ...h {#1}\\let \\f@size #2\\selectfont #3}}\n                                                  \nl.78 \\end{tabularx}",
+    "! Extra }, or forgotten $.\n\\text@ ...e {\\textdef@ \\displaystyle \\f@size {#1}}\n                                                  {\\textdef@ \\textstyle \\f@s...\nl.78 \\end{tabularx}",
+    "! Missing $ inserted.\n<inserted text> \n                $\nl.78 \\end{tabularx}",
+    "! Extra }, or forgotten $.\n\\textdef@ ...th {#1}\\let \\f@size #2\\selectfont #3}\n                                                  }\nl.78 \\end{tabularx}",
+    "! Extra }, or forgotten $.\n\\textdef@ ...h {#1}\\let \\f@size #2\\selectfont #3}}\n                                                  \nl.78 \\end{tabularx}",
+    "! Extra }, or forgotten $.\n\\text@ ...xtstyle \\f@size {\\firstchoice@false #1}}\n                                                  {\\textdef@ \\textstyle \\sf@...\nl.78 \\end{tabularx}"
+  ],
   "missing_citations_count": 0,
   "missing_citations": [],
-  "missing_references_count": 0,
-  "missing_references": [],
-  "overfull_hboxes_count": 0,
-  "overfull_hboxes": [],
-  "overfull_by_file": {},
+  "missing_references_count": 4,
+  "missing_references": [
+    {
+      "ref": "eq:4-2-qs-2plus",
+      "page": 109
+    },
+    {
+      "ref": "eq:4-1-monopole-drift",
+      "page": 113
+    },
+    {
+      "ref": "tab:appF-fig-hashes",
+      "page": 163
+    },
+    {
+      "ref": "tab:appF-csv",
+      "page": 163
+    }
+  ],
+  "overfull_hboxes_count": 54,
+  "overfull_hboxes": [
+    {
+      "file": "sec-2-7.tex",
+      "message": "Overfull \\hbox (39.05904pt too wide) detected at line 18"
+    },
+    {
+      "file": "sec-2-7.tex",
+      "message": "Overfull \\hbox (30.49336pt too wide) detected at line 79"
+    },
+    {
+      "file": "sec-2-7.tex",
+      "message": "Overfull \\hbox (4.61693pt too wide) detected at line 129"
+    },
+    {
+      "file": "sec-2-7.tex",
+      "message": "Overfull \\hbox (0.8247pt too wide) in paragraph at lines 141--143"
+    },
+    {
+      "file": "sec-2-7.tex",
+      "message": "Overfull \\hbox (6.27673pt too wide) in paragraph at lines 145--146"
+    },
+    {
+      "file": "sec-2-7.tex",
+      "message": "Overfull \\hbox (37.82887pt too wide) detected at line 156"
+    },
+    {
+      "file": "sec-2-7.tex",
+      "message": "Overfull \\hbox (21.46869pt too wide) detected at line 206"
+    },
+    {
+      "file": "sec-2-7.tex",
+      "message": "Overfull \\hbox (2.986pt too wide) in paragraph at lines 206--208"
+    },
+    {
+      "file": "sec-2-8.tex",
+      "message": "Overfull \\hbox (4.40326pt too wide) in paragraph at lines 61--62"
+    },
+    {
+      "file": "sec-2-8.tex",
+      "message": "Overfull \\hbox (3.25667pt too wide) in paragraph at lines 161--161"
+    },
+    {
+      "file": "sec-2-8.tex",
+      "message": "Overfull \\hbox (3.25667pt too wide) in paragraph at lines 161--161"
+    },
+    {
+      "file": "sec-2-8.tex",
+      "message": "Overfull \\hbox (3.25667pt too wide) in paragraph at lines 161--161"
+    },
+    {
+      "file": "sec-2-8.tex",
+      "message": "Overfull \\hbox (8.84253pt too wide) in paragraph at lines 161--161"
+    },
+    {
+      "file": "sec-2-8.tex",
+      "message": "Overfull \\hbox (9.36949pt too wide) in paragraph at lines 161--161"
+    },
+    {
+      "file": "sec-2-8.tex",
+      "message": "Overfull \\hbox (3.25667pt too wide) in paragraph at lines 161--161"
+    },
+    {
+      "file": "sec-2-8.tex",
+      "message": "Overfull \\hbox (3.25667pt too wide) in paragraph at lines 161--161"
+    },
+    {
+      "file": "sec-2-8.tex",
+      "message": "Overfull \\hbox (3.24612pt too wide) in paragraph at lines 161--161"
+    },
+    {
+      "file": "sec-2-8.tex",
+      "message": "Overfull \\hbox (3.25667pt too wide) in paragraph at lines 161--161"
+    },
+    {
+      "file": "sec-2-8.tex",
+      "message": "Overfull \\hbox (3.25667pt too wide) in paragraph at lines 161--161"
+    },
+    {
+      "file": "sec-2-8.tex",
+      "message": "Overfull \\hbox (3.25667pt too wide) in paragraph at lines 161--161"
+    },
+    {
+      "file": "sec-2-8.tex",
+      "message": "Overfull \\hbox (29.6177pt too wide) in alignment at lines 161--161"
+    },
+    {
+      "file": "sec-4-1.tex",
+      "message": "Overfull \\hbox (66.61407pt too wide) detected at line 50"
+    },
+    {
+      "file": "sec-4-1.tex",
+      "message": "Overfull \\hbox (3.60182pt too wide) in paragraph at lines 118--118"
+    },
+    {
+      "file": "sec-4-3.tex",
+      "message": "Overfull \\hbox (23.69585pt too wide) in paragraph at lines 68--69"
+    },
+    {
+      "file": "sec-4-3.tex",
+      "message": "Overfull \\hbox (23.63223pt too wide) in paragraph at lines 68--69"
+    },
+    {
+      "file": "sec-4-3.tex",
+      "message": "Overfull \\hbox (26.53581pt too wide) in paragraph at lines 76--78"
+    },
+    {
+      "file": "sec-4-3.tex",
+      "message": "Overfull \\hbox (9.68604pt too wide) in paragraph at lines 80--82"
+    },
+    {
+      "file": "sec-5-5.tex",
+      "message": "Overfull \\hbox (91.09305pt too wide) detected at line 30"
+    },
+    {
+      "file": "sec-5-5.tex",
+      "message": "Overfull \\hbox (2.65857pt too wide) in paragraph at lines 109--113"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (67.33336pt too wide) in paragraph at lines 34--34"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (67.33336pt too wide) in paragraph at lines 34--34"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (8.78984pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (10.53937pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (3.50961pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (3.50961pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (9.59082pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (10.53937pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (3.50961pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (3.50961pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Overfull \\hbox (203.46927pt too wide) in alignment at lines 57--57"
+    }
+  ],
+  "overfull_by_file": {
+    "sec-2-7.tex": [
+      "Overfull \\hbox (39.05904pt too wide) detected at line 18",
+      "Overfull \\hbox (30.49336pt too wide) detected at line 79",
+      "Overfull \\hbox (4.61693pt too wide) detected at line 129",
+      "Overfull \\hbox (0.8247pt too wide) in paragraph at lines 141--143",
+      "Overfull \\hbox (6.27673pt too wide) in paragraph at lines 145--146",
+      "Overfull \\hbox (37.82887pt too wide) detected at line 156",
+      "Overfull \\hbox (21.46869pt too wide) detected at line 206",
+      "Overfull \\hbox (2.986pt too wide) in paragraph at lines 206--208"
+    ],
+    "sec-2-8.tex": [
+      "Overfull \\hbox (4.40326pt too wide) in paragraph at lines 61--62",
+      "Overfull \\hbox (3.25667pt too wide) in paragraph at lines 161--161",
+      "Overfull \\hbox (3.25667pt too wide) in paragraph at lines 161--161",
+      "Overfull \\hbox (3.25667pt too wide) in paragraph at lines 161--161",
+      "Overfull \\hbox (8.84253pt too wide) in paragraph at lines 161--161",
+      "Overfull \\hbox (9.36949pt too wide) in paragraph at lines 161--161",
+      "Overfull \\hbox (3.25667pt too wide) in paragraph at lines 161--161",
+      "Overfull \\hbox (3.25667pt too wide) in paragraph at lines 161--161",
+      "Overfull \\hbox (3.24612pt too wide) in paragraph at lines 161--161",
+      "Overfull \\hbox (3.25667pt too wide) in paragraph at lines 161--161",
+      "Overfull \\hbox (3.25667pt too wide) in paragraph at lines 161--161",
+      "Overfull \\hbox (3.25667pt too wide) in paragraph at lines 161--161",
+      "Overfull \\hbox (29.6177pt too wide) in alignment at lines 161--161"
+    ],
+    "sec-4-1.tex": [
+      "Overfull \\hbox (66.61407pt too wide) detected at line 50",
+      "Overfull \\hbox (3.60182pt too wide) in paragraph at lines 118--118"
+    ],
+    "sec-4-3.tex": [
+      "Overfull \\hbox (23.69585pt too wide) in paragraph at lines 68--69",
+      "Overfull \\hbox (23.63223pt too wide) in paragraph at lines 68--69",
+      "Overfull \\hbox (26.53581pt too wide) in paragraph at lines 76--78",
+      "Overfull \\hbox (9.68604pt too wide) in paragraph at lines 80--82"
+    ],
+    "sec-5-5.tex": [
+      "Overfull \\hbox (91.09305pt too wide) detected at line 30",
+      "Overfull \\hbox (2.65857pt too wide) in paragraph at lines 109--113"
+    ],
+    "AppendixF.tex": [
+      "Overfull \\hbox (67.33336pt too wide) in paragraph at lines 34--34",
+      "Overfull \\hbox (67.33336pt too wide) in paragraph at lines 34--34",
+      "Overfull \\hbox (8.78984pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (10.53937pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (3.50961pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (3.50961pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (9.59082pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (10.53937pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (3.50961pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (3.50961pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (65.34409pt too wide) in paragraph at lines 57--57",
+      "Overfull \\hbox (203.46927pt too wide) in alignment at lines 57--57"
+    ]
+  },
   "overfull_vboxes_count": 0,
-  "underfull_hboxes_count": 10,
-  "missing_glyphs_count": 0,
-  "missing_glyphs": [],
-  "bibtex_warnings_count": 0,
-  "bibtex_warnings": [],
+  "underfull_hboxes_count": 52,
+  "missing_glyphs_count": 39,
+  "missing_glyphs": [
+    {
+      "file": "sec-3-2.tex",
+      "message": "Missing character: There is no ； (U+FF1B) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 。 (U+3002) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 梯 (U+68AF) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 形 (U+5F62) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 成 (U+6210) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 形 (U+5F62) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 不 (U+4E0D) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 同 (U+540C) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 平 (U+5E73) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 顶 (U+9876) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 下 (U+4E0B) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 的 (U+7684) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 弹 (U+5F39) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 道 (U+9053) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 亏 (U+4E8F) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 损 (U+635F) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 数 (U+6570) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 值 (U+503C) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 表 (U+8868) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 。 (U+3002) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 。 (U+3002) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 组 (U+7EC4) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 采 (U+91C7) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 样 (U+6837) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 步 (U+6B65) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 长 (U+957F) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 下 (U+4E0B) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 的 (U+7684) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 最 (U+6700) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 大 (U+5927) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 走 (U+8D70) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 动 (U+52A8) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 误 (U+8BEF) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 差 (U+5DEE) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 收 (U+6536) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 敛 (U+655B) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 数 (U+6570) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 据 (U+636E) in font TeX Gyre Termes/OT:script=lat"
+    },
+    {
+      "file": "AppendixF.tex",
+      "message": "Missing character: There is no 。 (U+3002) in font TeX Gyre Termes/OT:script=lat"
+    }
+  ],
+  "bibtex_warnings_count": 16,
+  "bibtex_warnings": [
+    "Warning--I didn't find a database entry for \"gysbers-2019-ab-initio-beta-decay-quenching\"",
+    "Warning--I didn't find a database entry for \"wang-2026-axial-coupling-quenching-joint-effects\"",
+    "Warning--I didn't find a database entry for \"Heyde_2011\"",
+    "Warning--I didn't find a database entry for \"casten_1990_simple-perspective\"",
+    "Warning--I didn't find a database entry for \"heyde_1999_basic-ideas-concepts\"",
+    "Warning--I didn't find a database entry for \"nomura_2022_Questioningwobbling\"",
+    "Warning--I didn't find a database entry for \"meyertervehn_1975_collective-description-transitional\"",
+    "Warning--I didn't find a database entry for \"frauendorf_2014_Transversewobbling\"",
+    "Warning--I didn't find a database entry for \"lv_2022_Evidencewobbling\"",
+    "Warning--I didn't find a database entry for \"crider-2016-68ni-shape-coexistence\"",
+    "Warning--I didn't find a database entry for \"ayangeakaa-2019-rigid-triaxial-ge76\"",
+    "Warning--I didn't find a database entry for \"ding-2025-chiral-rotation-a60-residual-interactions\"",
+    "Warning--I didn't find a database entry for \"thomas-2016-96-98mo-coexistence\"",
+    "Warning--I didn't find a database entry for \"chen-singh-2020-nds-98mo\"",
+    "Warning--I didn't find a database entry for \"saracino-2026-102ru-scissors-octupole-resonances\"",
+    "Warning--I didn't find a database entry for \"karmakar-2025-98mo-dae\""
+  ],
   "bibtex_errors_count": 0,
   "bibtex_errors": []
 }

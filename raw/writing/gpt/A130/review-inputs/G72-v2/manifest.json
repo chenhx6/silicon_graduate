@@ -1,0 +1,19 @@
+{
+  "archive_type": "research-archive-v1",
+  "archive_required": true,
+  "retrieved_at": "2026-11-08T03:18:10.615860+00:00",
+  "files": [
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G72-v2/section-5-4.md",
+      "sha256": "b00c99e1139e53b5f289b6508d33bee8db7f8e3937f01e2cc68aee4d67bf0c48",
+      "size": 13362,
+      "source": "Frozen G72 V2 before parent integration; not original physical evidence"
+    },
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G72-v2/section-5-4.json",
+      "sha256": "d3c2910f4b358f4a6af7d833d3156e3526a16ae787e5ae05d6d8f96e0f0d7e16",
+      "size": 25924,
+      "source": "Frozen G72 V2 before parent integration; not original physical evidence"
+    }
+  ]
+}

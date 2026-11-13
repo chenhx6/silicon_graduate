@@ -1,0 +1,826 @@
+                                      PHYSICAL REVIEW C 101, 034306 (2020)
+
+
+
+                                    Tilted precession and wobbling in triaxial nuclei
+                                    E. A. Lawrie ,1,2,* O. Shirinda ,1,† and C. M. Petrache           3,‡
+                      1
+                       iThemba LABS, National Research Foundation, PO Box 722, Somerset West 7129, South Africa
+                  2
+                     Department of Physics, University of the Western Cape, Private Bag X17, 7535 Bellville, South Africa
+3
+  Centre de Sciences Nucléaires et de Sciences de la Matière, CNRS/IN2P3, Université Paris-Saclay, Bâtiment 104-108, 91405 Orsay, France
+
+                               (Received 16 October 2019; accepted 24 February 2020; published 16 March 2020)
+
+                 The rotation of a triaxial nucleus can be represented (in a semiclassical description) as a precession of the
+              total angular momentum around a certain axis and at a given tilt, producing tilted precession (TiP) bands. Such
+              bands are described by rotational models and can in principle be approximated with wobbling. We studied for
+              which TiP bands such an approximation is justified. It was found that TiP bands become approximately similar
+              to wobbling bands at high spins for both zero-seniority bands in even-even nuclei, and one-quasiparticle bands
+              with longitudinal coupling of the angular momenta in odd-mass nuclei. Contrary to that, the precession for
+              transverse coupling of the angular momenta in one-quasiparticle configurations giving rise to TiP bands cannot
+              be approximated with wobbling either at low or at high spins. This suggests that the interpretation of a band
+              in terms of transverse wobbling cannot be justified only by particle-rotor-type model, as this model implies a
+              different, TiP, nature. Contrary to TiP bands, the transverse wobbling bands exhibit quantized excitation energies
+              and transition probabilities which is typical for bands involving phonon excitations.
+
+              DOI: 10.1103/PhysRevC.101.034306
+
+
+
+                      I. INTRODUCTION                                    were suggested as one-phonon and two-phonon transverse
+                                                                         wobbling excitations, respectively, with respect to the yrast
+    When collective degrees of freedom are dominant the
+                                                                         π h11/2 band [1–3]. One band in 105 Pd, built on a νh11/2
+complex many-body nuclear system can show surprisingly
+                                                                         configuration, was also interpreted as having a one-phonon
+simple excitation spectra. For instance a rotating even-even
+                                                                         transverse wobbling nature [4]. Furthermore, the triaxial su-
+nucleus shows a regular sequence of excited states with
+                                                                         perdeformed bands (TSD) in the odd-mass Lu isotopes, built
+excitation energy of E ∝ I (I + 1), called a rotational band.
+                                                                         on π i13/2 configurations [5–15], were recently reinterpreted as
+If the nuclear shape is triaxial the rotational spectrum be-
+                                                                         also caused by transverse wobbling [1].
+comes more complex: in addition to the ground-state rota-
+                                                                             However, the bands discussed in these recent works have
+tional band, a series of excited rotational bands, often called
+                                                                         been compared not with the transverse wobbling equations as
+γ bands, are generated. These excited bands result from
+                                                                         given in Ref. [1], but with a quasiparticle-plus-triaxial-rotor
+the more complicated three-dimensional (3D) rotation of the
+                                                                         (QTR) model. As this rotational model describes 3D rotation
+nucleus, proceeding simultaneously around the three nuclear
+                                                                         and not wobbling, it is not obvious whether it is an adequate
+axes.
+                                                                         tool to justify transverse wobbling.
+    In the last few years a very interesting new phenomenon,
+                                                                             The transverse wobbling approximation in Ref. [1] was
+called transverse wobbling, was introduced [1]. It occurs
+                                                                         derived in the same way as Bohr and Mottelson derived
+under the constraining assumption that the angular momen-
+                                                                         the wobbling approximation for a simple wobbler (a zero-
+tum of a valence nucleon is frozen along the nuclear axis
+                                                                         quasiparticle configuration in even-even nuclei) [16]. In this
+with intermediate moment of inertia, and is associated with
+                                                                         work the wobbling approximation in even-even nuclei is first
+the coupling of rotational and vibrational degrees of free-
+                                                                         presented as in previous textbooks like, e.g., Ref. [16], also
+dom. It was derived through an approximation of the ro-
+                                                                         evaluating the values of the approximation condition function
+tating Hamiltonian, where the 3D rotation was replaced by
+                                                                         in order to judge on the adequacy of the wobbling approxima-
+a simple 1D rotation, coupled to an excitation of wobbling
+                                                                         tion. Then the wobbling in odd-mass nuclei assuming frozen
+phonons.
+                                                                         angular momentum of the valence particle is investigated,
+    Recently a number of rotational bands have been inter-
+                                                                         with the aim to establish to what extent and under which con-
+preted as generated by transverse wobbling. For instance two
+                                                                         ditions the particle-rotor Hamiltonian can be approximated
+rotational bands in 135 Pr, built on a π h11/2 configuration,
+                                                                         with wobbling phonon excitations. We found that the QTR
+                                                                         model and the transverse wobbling approximation describe
+                                                                         rotational bands with different properties. In addition, the
+ *
+   elena@tlabs.ac.za                                                     present analysis highlights the characteristic features of the
+ †
+   obed@tlabs.ac.za                                                      transverse wobbling bands, and shows how to distinguish
+ ‡
+   petrache@csnsm.in2p3.fr                                               transverse wobbling from 3D rotation.
+
+2469-9985/2020/101(3)/034306(12)                                  034306-1                                  ©2020 American Physical Society
+LAWRIE, SHIRINDA, AND PETRACHE                                                                                               PHYSICAL REVIEW C 101, 034306 (2020)
+
+
+                                                     (a) tilted precession                                                  (b) wobbling
+                                                b0                                                                 n=0
+             Energy (arb. units)   45           b1                                                            45   n=1
+
+
+
+
+                                                                                        Energy (arb. units)
+                                                b2                                                                 n=2
+                                   35           b3                                                            35   n=3
+                                                b4                                                                 n=4
+                                               b5                                                                  n=5
+                                   25          b6                                                             25   n=6
+                                               b7                                                                  n=7
+                                   15          b8                                                             15   n=8
+
+
+                                       5                                                                       5
+
+                                              2           6             10   14                                    2           6            10          14
+                                                          Spin I ( )                                                          Spin I ( )
+   FIG. 1. Excitation energy vs spin in even-even nuclei with rotational parameters of A1 = 1, A2 = 4, and A3 = 4, for (a) 3D rotation
+[Eq. (2)], and (b) wobbling [Eq. (9)].
+
+       II. TILTED PRECESSION AND WOBBLING IN                                                Therefore the excitation energy of the rotational state with
+                   EVEN-EVEN NUCLEI                                                      angular momentum I and projection i on the 1 axis is
+     A deformed triaxial nucleus rotates around each of its three
+                                                                                                                                    3h̄2
+axes. Therefore                                                                                                        E (I, i) =        {4I (I + 1) − 3i2 }.   (4)
+                                                                                                                                    80
+                   H = A1 R12 + A2 R22 + A3 R32 ,               (1)
+where the rotational parameters A1 , A2 , and A3 depend on the                               The ground-state band, b0 in Fig. 1, corresponds to
+corresponding moments of inertia (MoI), for instance A1 =                                E (I, i = I ), that is, to rotation with maximum angular mo-
+h̄2 /21 , and the projections of the rotational angular momen-                          mentum projection on the intermediate axis. Contrary to that,
+tum along the three axes are R1 , R2 , and R3 , respectively. For a                      the excited γ bands are generated when R1 < I, that is when
+rotating even-even nucleus (with no valence nucleons outside                             the rotational angular momentum is tilted away from the
+the core) the projections of the rotational angular momenta are                          intermediate axis. For instance the odd and the even signatures
+equal to those of the total angular momentum, thus                                       of the first γ -band correspond to i = I − 1 and i = I − 2,
+                                       H = A1 I12 + A2 I22 + A3 I32 .             (2)    respectively. These are the b1 and b2 bands in Fig. 1(a).
+                                                                                         Similarly the odd- and even-spin sequences of the next γ
+    The solutions of this Hamiltonian describe a series of                               band, bands b3 and b4 in Fig. 1(a), correspond to a further
+rotational bands, including the ground-state (gs) band and                               tilt away of the rotational angular momentum, with projec-
+what is often called the γ bands; see, for example, Fig. 1(a),                           tions on the intermediate axis of i = I − 3 and i = I − 4,
+which shows the 3D rotational Hamiltonian, solved with an                                respectively.
+irrotational flow type of the MoI, (where k = 0 43 sin2 (γ −                               Note that the nature of the γ bands within the rotational
+2
+3
+  π k), k = 1, 2, 3), and triaxiality parameter γ = 30◦ . The                            model is different from the K = 2, K = 4, etc., γ bands
+choice of an irrotational flow MoI is supported by a previous                            produced by the Bohr Hamiltonian. In the latter case the K =
+work showing that the empirical MoI follows closely the trend                            2 γ band, for instance, is produced by a zero-phonon vibration
+of the irrotational flow MoI as a function of the γ deformation                          coupled with K = 2 rotation, where K is the projection of the
+[17]. For such MoI the intermediate axis (1 axis) is the axis                            total angular momentum on the symmetry axis of an axially
+with largest MoI, while for γ = 30◦ the MoI along the short                              symmetric nucleus. Contrary to that, the γ bands produced
+and long axes are identical.                                                             by 3D rotation exist for triaxial nuclei only, and cannot be
+    To understand the nature of the rotational bands we discuss                          associated with a sharp quantum number K. To highlight
+in more detail the example shown in Fig. 1(a). Due to the                                the difference between these two types of γ bands, the 3D
+symmetry of the Hamiltonian (for γ = 30◦ , 2 = 3 ) the pro-                            rotational bands in triaxial nuclei are called, in the following,
+jection of the rotational angular momentum R1 along the                                  tilted precession (TiP) bands. More details on the nature of
+intermediate axis is a good quantum number, i, and an even                               these bands are given below.
+integer. The Hamiltonian is [18]                                                             Three-dimensional rotation can be visualized in a semiclas-
+                                        3h̄2  2                                      sical description (as suggested in Ref. [1]), as a precession of
+              H=                              R1 + 4 R22 + R32                           the total angular momentum vector around the intermediate
+                                        80                                              axis. For instance, the classical rotational angular momentum
+                                        3h̄2  2                                      R (in this case equal to the total angular momentum I) is
+                                   =          R1 + 4 I (I + 1) − R12 .            (3)    confined by the conservation of the momentum and energy
+                                        80
+
+                                                                                  034306-2
+TILTED PRECESSION AND WOBBLING IN TRIAXIAL …                                                    PHYSICAL REVIEW C 101, 034306 (2020)
+
+
+
+
+    FIG. 2. Schematic illustration of the trajectory of the rotational        FIG. 3. As in Fig. 2, but for rotational parameters of A1 = 1,
+angular momentum. It moves along the intersection of the angular           A2 = 3, and A3 = 6.
+momentum sphere (in blue) and the energy ellipsoid (in red). Panels
+(a)–(c) correspond to a band (e.g., b1) and illustrate the precession
+                                                                               This description is in agreement with Eq. (4) which
+as the spin I increases. Panels (d)–(f) represent an excited band (e.g.,
+                                                                           suggests that the excited TiP bands (with i < I) correspond
+b2) as a function of spin. The rotational parameters are A1 = 1, A2 =
+4, and A3 = 4.
+                                                                           to a tilting of the rotational angular momentum vector away
+                                                                           from the intermediate axis, since for the same I the projection
+                                                                           on the intermediate axis i is smaller. This is not surprising, as
+laws to the intersection of the total angular momentum sphere:             it is clear that the only way to produce an excited rotational
+                                                                           band (without introducing other degrees of freedom) is by
+                         I 2 = I12 + I22 + I32 ,                    (5)    tilting the rotational angular momentum away from the axis
+                                                                           with largest MoI.
+and the energy ellipsoid:                                                      There is an alternative way to visualize the orientation of
+                                                                           the total angular momentum, by plotting the probability distri-
+                    E = A1 I12 + A2 I22 + A3 I32 .                  (6)    bution of the total angular momentum angles (θ , φ) calculated
+                                                                           with the QTR model; see [19,20]. In these works calculations
+   For the example shown in Fig. 1 the energy ellipsoid is
+                                                                           were carried out for two-quasiparticle chiral configurations,
+a spheroid (A2 = A3 ) and intersects the angular momentum
+                                                                           and showed specific peaks of the probability distributions at
+sphere as shown in Fig. 2(a). The intersection curve is a circle.
+                                                                           particular (θ , φ) values. These peaks suggest that the total
+Therefore the 3D rotation in this case looks like a precession
+                                                                           angular momentum does not precess around a major nuclear
+of the total angular momentum around the intermediate axis,
+                                                                           axis, because such a precession would show as a ridge. For
+producing TiP bands.
+                                                                           instance a precession around the 3 axis (long axis), would
+   To generate rotational states at higher spins the radius
+                                                                           correspond to a vertical ridge at a specific θ , covering all
+of the angular momentum sphere should increase. The cor-
+                                                                           angles of φ = (0◦ , 180◦ ).
+responding energy ellipsoid will also be larger, while the
+                                                                               One could question whether the TiP bands produced by
+intersection curve will again be a circle; see Figs. 2(b)
+                                                                           3D rotation might not have a similar nature as what is known
+and 2(c). One can estimate
+                     √       the tilt angle for the yrast rotational
+                                                                           as wobbling bands. Indeed, wobbling bands are generated by
+band as cosθ = I/ I (I + 1), therefore θ decreases at higher
+                                                                           tilting the rotational angular momentum away from the axis
+spins, as illustrated in Figs. 2(b) and 2(c).
+                                                                           of rotation. However, contrary to TiP, the wobbling motion
+   If the three rotational parameters have nonequal values,
+                                                                           is commonly defined as a coupling of a 1D rotation with an
+for instance A1 = 1, A2 = 3, and A3 = 6, the energy ellipsoid
+                                                                           excitation of wobbling phonons. Can these two different types
+intersects with the angular momentum sphere as shown in
+                                                                           of motion be, in some cases, similar?
+Fig. 3(a). The angular momentum vector in this case is con-
+                                                                               The approximation of 3D rotation in even-even triaxial
+fined on an elliptic curve lying on the surface of the sphere.
+                                                                           nuclei with wobbling was first studied by Bohr and Mottel-
+For higher-spin states the intersection curve remains similar,
+                                                                           son [16]. They found that it was possible to make such an
+with a decreasing tilt angle θ , as shown in Figs. 3(b) and 3(c),
+                                                                           approximation:
+corresponding to TiP bands.
+   To generate excited rotational bands one has to increase the                     H = A1 I12 + A2 I22 + A3 I32 ≈ A1 I 2
+rotational energy while keeping the magnitude of the angular
+momentum the same. The larger-size energy ellipsoid will                                  + 21 α(c+ c + cc+ ) + 21 β(c+ c+ + cc),       (7)
+intersect with the same-size angular momentum sphere in a                  where the wobbling phonons were described by the creation
+similar way as in Figs. 2(a) and 3(a), but at a larger precession          (c+ ) and annihilation (c) operators, and the coefficients α and
+angle θ ; see panels (d)–(f) of Figs. 2 and 3, respectively.               β (assuming A1 ⩽ A2 ⩽ A3 ) were
+Therefore the excited TiP bands correspond to a larger tilt of
+the rotational angular momentum.                                                    α = (A2 + A3 − 2A1 )I,       β = (A2 − A3 )I.       (8)
+
+                                                                     034306-3
+LAWRIE, SHIRINDA, AND PETRACHE                                                                 PHYSICAL REVIEW C 101, 034306 (2020)
+
+
+
+                                            e-e                                               e-e
+                                                               (a)                                               (b)
+                            1.1            TSD-l                                              TSD-l
+                                           TSD-t
+                                                              n=1                                               n=2
+                                                                                              TSD-t
+
+                            0.9
+                   f(n,I)
+
+
+
+                            0.7
+
+
+                            0.5
+
+
+                            0.3
+
+
+                            0.1
+
+                                  5          15     25        35               5         15         25          35
+                                              Spin I ( )                                   Spin I ( )
+    FIG. 4. Approximation condition function f (n, I ) for (a) the n = 1 and (b) n = 2 wobbling phonon bands, and for even-even (e-e) nuclei
+and for the TSD bands in the Lu isotopes assuming longitudinal (TSD-l) and transverse (TSD-t) coupling of the angular momenta, respectively.
+Rotational parameters of A1 = 1, A2 = 4, and A3 = 4 are used for even-even nuclei. The rotational parameters for TSD-t and TSD-l are listed
+in Table I as (vii) and (viii), respectively.
+
+
+   The wobbling approximation produces a set of rotational              where Q0 and Q2 are the intrinsic quadrupole moments of the
+bands, called wobbling bands. The excitation energy of the              nuclear charge density with respect to the 1 axis, and x and y
+band with n excited phonons is                                          are
+                                                
+            E (n, I ) = A1 I (I + 1) + h̄ω n + 21 ,    (9)                               1 α                   1 α
+                                                                                   x=           +1 , y=                −1 .        (14)
+                                                                                         2 h̄ω                 2 h̄ω
+where the wobbling frequency is
+                                                                         Therefore while both 3D rotation and wobbling describe
+    h̄ω = (α 2 − β 2 ) = 2I (A2 − A1 )(A3 − A1 ).             (10)      excited rotational bands for which the rotational angular mo-
+                                                                        mentum tilts away from the 1 axis, the wobbling description
+    Each wobbling band corresponds to the excitation of an              demands specific quantization of the excitation energies and
+additional wobbling phonon. Each phonon causes an addi-                 transition probabilities of the wobbling bands which is not
+tional tilt of the rotational angular momentum away from                required in the case of TiP bands. Nevertheless, it is possible
+the 1 axis. There is a quantization rule for the energies and           that in some cases the two models predict bands with approx-
+transition probabilities of the wobbling bands, for instance:           imately the same nature.
+(i) the energy of the band depends linearly on n, see Eq. (9);             The wobbling approximation is valid if the rotational an-
+(ii) the intraband B(E 2) transition probabilities are identical        gular momenta around the two axes with lower MoI is small
+for all wobbling bands, as they correspond to the rotation              [16]:
+around the 1 axis, see Eq. (11); and (iii) the interband B(E 2)
+probabilities show a linear dependence on n, as they link                                           I22 + I32   I 2,                   (15)
+phonon excitations with a different number of phonons, see
+                                                                        a condition that can be rewritten as
+Eqs. (12) and (13) [16]:
+                                                                                                   (A2 + A3 − 2A1 )
+                                       5 2 2                                f (n, I ) = (2n + 1) √                               1.    (16)
+    B(E 2; n, I → n, I ± 2) =             e Q2 ,              (11)                              2I (A2 − A1 )(A3 − A1 )
+                                      16π
+                                                                           The function f (n, I ) is shown in Fig. 4 for the example
+                               5 2n √       √                           of Fig. 1 (rotational parameters of A1 = 1, A2 = 4, and A3 =
+B(E 2; n, I → n − 1, I − 1) =    e ( 3Q0 x − 2Q2 y)2,
+                              16π I                                     4) and for the n = 1 and n = 2 wobbling bands. It is clear
+                                                (12)                    that the approximation condition f (n, I )    1 is not fulfilled
+                                                                        at low spins, where the values of f (n, I ) are comparable to
+           B(E 2; n, I → n + 1, I + 1)                                  1. However, the function has a decreasing trend for higher I,
+                                                                        for instance f (n, I ) < 0.15 for (n = 1, I > 20) and (n = 2,
+                   5 2n +1 √           √                                I > 34). Therefore, wobbling phonon excitations can exist at
+             =         e     ( 3Q0 y − 2Q2 x)2 ,              (13)
+                 16π      I                                             high spins, as pointed out in [16].
+
+                                                                 034306-4
+TILTED PRECESSION AND WOBBLING IN TRIAXIAL …                                              PHYSICAL REVIEW C 101, 034306 (2020)
+
+   One thus concludes that at low and medium spins the
+wobbling is a poor approximation for the TiP bands in even-
+even triaxial nuclei. However, at high angular momenta they
+start showing the characteristic features of wobbling phonon
+excitations, such as quantization of the excitation energies and
+transition probabilities. To illustrate the difference at low and
+medium spins the excitation energies calculated with the 3D
+rotating Hamiltonian and with the wobbling approximation
+equation are compared in Fig. 1. For a given spin I the
+wobbling bands show a regular energy spacing equal to the
+wobbling frequency h̄ω, highlighting the characteristic energy
+quantization of a phonon excitation; see Fig. 1(b). Contrary to
+that, the 3D rotation produces TiP bands with irregular relative
+excitation energy; see Fig. 1(a).
+   It is interesting to note that for the case shown in Fig. 1,        FIG. 5. As in Fig. 2, but for longitudinal coupling where the
+one can assign a quantum number m to the TiP bands:                 particle angular momentum j is aligned along 1 axis, thus the energy
+                                                                    spheroid is moved by j along that axis.
+                          m = I − i,                        (17)
+which is a counterpart to the wobbling quantum number n             a given subshell (particle nature and alignment along the short
+[18]. Bands b0, b1, b2, etc., see Fig. 1, which are associated      axis) or an orbital at the top of a given subshell (hole nature
+with projections of the rotational angular momentum on the 1        and alignment along the long axis). For longitudinal coupling
+axis of I, I − 1, I − 2, etc., are thus assigned m = 0, m = 1,      the single-particle angular momentum should align along the
+m = 2, etc. Following Eq. (4) the energies of the levels of the     intermediate axis, thus the valence nucleon should occupy an
+rotational bands are                                                orbital near the middle of the shell.
+                       3h̄2                                            The rotational Hamiltonian has a particle-hole symmetry,
+          E (I, m) =        {I (I + 4) + 3m(2I − m)}.       (18)    that is a band that corresponds to a configuration of a valence
+                       80
+                                                                    nucleon from the bottom of a subshell coupled to a core with
+This once again highlights the difference between wobbling          nonaxiality of γ is identical to a band that corresponds to a
+and TiP rotation; the former requires quantization of the           nucleon from the top of the subshell coupled to a core with
+excitation energy with respect to the number of excited             nonaxiality of 60◦ − γ . Therefore for γ = 30◦ the rotational
+phonons n, Eq. (9), thus the energy should increase linearly        bands for a particle configuration are identical to those for the
+with n, while the latter obeys a quadratic dependence on m,         corresponding hole configuration. In the following transverse
+Eq. (18).                                                           coupling involving an odd nucleon with particle nature will
+   It has been suggested that the observation of wobbling           be considered, as the results for the hole configuration are
+bands can be used as a proof that the nuclear shape is              identical.
+nonaxially symmetric. In fact the observation of TiP bands             The rotational Hamiltonians for longitudinal and trans-
+(such as the sets of rotational bands shown in Fig. 1, or the       verse coupling of the angular momenta are
+rotational bands calculated for instance in Ref. [18]), seems
+a better evidence for triaxial nuclear shape; indeed wobbling                      H = A1 (I1 − j)2 + A2 I22 + A3 I32 ,            (19)
+occurs at high spins only, while TiP is present in the whole        and
+spin range.
+                                                                                   H = A2 (I2 − j)2 + A1 I12 + A3 I32 ,            (20)
+      III. TILTED PRECESSION AND WOBBLING IN                        respectively, as the largest MoI is along the 1 axis.
+                   ODD-MASS NUCLEI                                     The 3D rotation in odd-mass nuclei can also be visualized
+   In odd-mass triaxial nuclei the 3D rotation of the core is       using the intersection of the angular momentum sphere [see
+coupled with the angular momentum of the valence nucleon.           Eq. (5)] and the energy ellipsoid, which in this case is
+There are two simple coupling schemes, where the angular                            E = A1 (I1 − j)2 + A2 I22 + A3 I32             (21)
+momentum of the valence nucleon is aligned with respect
+to a nuclear axis; it could be aligned (i) along the axis with      and
+largest MoI, the 1 axis, or (ii) perpendicular to it. These two                     E = A2 (I2 − j)2 + A1 I12 + A3 I32             (22)
+couplings, recently called longitudinal and transverse, respec-
+tively [1], generate rotational bands with different properties.    for longitudinal and transverse coupling, respectively. There-
+   Assuming irrotational flow MoI the angular momentum              fore the energy ellipsoid for these two couplings will be
+of the core is largest along the intermediate axis. Therefore       shifted by j along the 1 axis and along the 2 axis, respectively,
+for transverse coupling the single-particle angular momentum        as shown in Figs. 5 and 6. The intersection between the
+should be orthogonal to the intermediate axis, thus aligned ei-     angular momentum sphere and the energy spheroid is a circle
+ther along the short or along the long nuclear axes. In that case   and represents the curve along which the total angular mo-
+the valence nucleon should occupy an orbital at the bottom of       mentum precesses. As in even-even nuclei the 3D rotation in
+
+                                                              034306-5
+LAWRIE, SHIRINDA, AND PETRACHE                                                                 PHYSICAL REVIEW C 101, 034306 (2020)
+
+
+
+
+   FIG. 6. As in Fig. 2, but for transverse coupling where the            FIG. 8. As in Fig. 7, but for rotational parameters of A1 = 1,
+particle angular momentum j is aligned along 2 axis, thus the energy   A2 = 3, and A3 = 6.
+spheroid is moved by j along that axis.
+                                                                       axis, producing TiP bands. However, not all TiP bands can
+odd-mass nuclei can be represented as a precession of the total        be approximated with wobbling. For instance the TiP bands
+angular momentum along the axis where the single-particle              that are produced by tilting the single-particle angular mo-
+angular momentum is aligned, producing TiP bands. (Note                mentum away from the corresponding axis are by default
+that as shown in Figs. 5 and 6 for transverse wobbling the             incompatible with wobbling. They correspond to a change
+axis of precession changes at high spins.) Figures 7 and 8             in the single-particle configuration where the odd nucleon
+illustrate 3D rotation for longitudinal and transverse coupling        changes into an orbital with a smaller alignment. Only the
+with rotational parameters of A1 = 1, A2 = 3, A3 = 6. The              second type of TiP bands, those formed by tilting the rota-
+intersection curve in this case is not a circle but an ellipse         tional angular momentum, could in principle be compared
+lying on a sphere.                                                     with wobbling. Therefore to avoid excitations due to changes
+    To create excited rotational states for the same I one             of the alignment of the valence nucleon its angular momentum
+could tilt the total angular momentum away from the 1 axis             has to be fixed to the corresponding axis [1]. The freezing of
+(2 axis), for longitudinal (transverse) coupling, as shown in          the single-particle angular momentum has been questioned.
+panels (d)–(f) of Figs. 5–8. For odd-mass nuclei there are two         It has been pointed out that with increasing the spin the
+distinct ways to produce such a tilt: (i) by tilting the angular       single-particle angular momentum changes orientation from
+momentum of the valence nucleon, or (ii) by tilting the                perpendicular to parallel to the intermediate axis, where the
+rotational angular momentum. In both cases the intersection            angular momentum of the core is aligned [21]. It was therefore
+of the angular momentum sphere with the energy ellipsoid               suggested that the wobbling motion is unstable for transverse
+corresponds to a precession of the total angular momentum              wobbling and one-quasiparticle configurations. This issue was
+around the corresponding axis with a larger tilt angle θ ,             further discussed [22,23], but it is beyond the scope of the
+producing TiP bands.                                                   present study. In this work we intend to test whether the
+    In fact, all 3D nuclear rotations can be visualized as a           TiP bands for transverse coupling can be approximated with
+precession of the total angular momentum around a certain              wobbling, thus in the following we adopt the description
+                                                                       in which the angular momentum of the valence nucleon is
+                                                                       frozen.
+                                                                           For transverse coupling the Hamiltonian of Eq. (20) can be
+                                                                       rewritten as [1]
+                                                                              H ≈ A2 (I − j)2 + (A1 − A2 )I12 + (A3 − A2 )I32 ,        (23)
+                                                                       where
+                                                                                                A2 = A2 (1 − j/I ),                    (24)
+                                                                       and
+                                                                                                                                       
+                                                                                                                            I12 + I32
+                                                                            I2 =   I (I + 1) − I12 − I32 ≈    I (I + 1) 1 −             .
+                                                                                                                            2I (I + 1)
+                                                                                                                                       (25)
+                                                                          The rotations around the 1 and 3 axes were ap-
+   FIG. 7. As in Fig. 5, but for rotational parameters of A1 = 1,      proximated with the excitation of harmonic phonons, de-
+A2 = 3, and A3 = 6.                                                    scribed with the phonon creation (c+ ) and annihilation (c)
+
+                                                                 034306-6
+TILTED PRECESSION AND WOBBLING IN TRIAXIAL …                                                  PHYSICAL REVIEW C 101, 034306 (2020)
+
+operators, [1]:                                                         of an irrotational flow, [17]. However, for irrotational flow
+                                                                        MoI, γ = 30◦ , and j = 11/2, A1 − A3 is positive only for
+ H ≈ A2 (I − j)   2
+                      + 21 α(c+ c + cc+ ) + 21 β(c+ c+ + cc),   (26)
+                                                                        states with I = 11/2 and 13/2. In order to extend the spin
+where the coefficients α and β were                                     range where wobbling might occur, the relative magnitude of
+                                                                        the three MoI were arbitrary modified, in particular the MoI
+     α = (A1 + A3 − 2A2 )I        and   β = (A3 − A1 )I.        (27)    around the 2 axis was considerably increased [1–4].
+This approximation generates wobbling bands with energies                   As for even-even nuclei the wobbling in odd-mass nu-
+of                                                                      clei was introduced as an approximation; it replaced the 3D
+                                                                      rotation of the triaxial nucleus with a 1D rotation around
+     E (n, I ) = A2 (I − j)(I − j + 1) + h̄ω n + 21 , (28)              a certain axis (the axis along which the single-particle an-
+where the wobbling frequency is                                         gular momentum is aligned) coupled with an excitation of
+                                                                       wobbling phonons. This approximation required that the ro-
+    h̄ω = (α 2 − β 2 ) = 2I (A1 − A2 )(A3 − A2 ).               (29)    tations around the other two axes were small. Therefore,
+                                                                        for longitudinal coupling the rotation around the 2 and 3
+   The B(E 2) reduced transition probabilities for the intra-           axes should be small, a condition that is equivalent to the
+band and for the interband transitions with n = 1 are equiv-            corresponding requirement in even-even nuclei; see Fig. 4. For
+alent to those for even-even nuclei [see Eqs. (11), (13), and           transverse wobbling, however, the approximation requires that
+(12)] [1], but with Q0 and Q2 being the intrinsic quadrupole            the rotations around the 1 and 3 axes are small:
+moments of the nuclear charge density with respect to the 2
+axis.                                                                                               I12 + I32   I 2.                 (33)
+   The B(M1) reduced transition probabilities for interband
+transitions with n = 1 were calculated as [1]                           However, as 1 is largest, the projection of the rotational
+                                                                        angular momentum along the 1 axis is largest and therefore
+                                3 n                                     this condition can hardly be satisfied. It can also be written as
+  B(M1, n, I → n − 1, I − 1) =      [ j(g j − gR )x]2 , (30)
+                               4π I                                     [1]
+                                3 n+1
+  B(M1, n, I → n + 1, I + 1) =           [ j(g j − gR )y]2 ,                                            A1 + A3 − 2A2
+                               4π I                                          f (n, I ) = (2n + 1)                             1.    (34)
+                                                         (31)                                       2I (A1 − A2 )(A3 − A2 )
+where g j and gR are the g factors for the valence nucleon and              We tested this condition for several MoI parameters pre-
+the rotation, respectively.                                             viously assigned to bands with proposed transverse wobbling
+   As for even-even nuclei the wobbling motion in odd-mass              nature; see Table I. The calculated values of the approximation
+nuclei shows features characteristic of its phonon nature,              condition function f (n, I ), for the n = 1 and n = 2 phonon
+that is                                                                 bands are shown in Fig. 9.
+     (i) the relative excitation energy of two wobbling bands               For each set of MoI parameters the values of f (n, I )
+         is E = E (n, I ) − E (0, I ) ∝ n;                              were calculated for the corresponding spin range of up to
+    (ii) the interband transition probability B(E 2; n, I → n −         Imax . The values of the approximation condition function
+         1, I − 1) ∝ n;                                                 are large for all cases listed in Table I. For sets (i) and
+   (iii) the interband transition probability B(M1; n, I → n −          (ii) the values of f (n, I ) are larger than 0.76. As seen in
+         1, I − 1) ∝ n.                                                 Fig. 9(a) the values of f (n, I ) for the n = 1 wobbling bands
+                                                                        are larger than 0.58 for cases (iii)–(v), and larger than 0.45
+   Note that while the quantization with respect to n is a char-        for case (vi). These large values are incompatible with the
+acteristic feature of a phonon excitation, it is not necessary for      approximation condition f (n, I )      1. As f (n, I ) ∝ (2n + 1),
+TiP rotation.                                                           the values of f (n, I ) for the n = 2 wobbling bands are even
+   It should be noted that the equations above can be applied           higher, as shown in Fig. 9(b). They are larger than 0.75 for
+for the case of longitudinal wobbling too, by changing the 2            all cases listed in Table I. Such large values suggest that the
+and 1 axes.                                                             approximation condition does not hold for the bands in 135 Pr
+   For transverse wobbling the expression under the square              and 105 Pd, previously interpreted as transverse wobbling
+root in Eq. (29) must be positive:                                      [1–4].
+                                                                            We tested the approximation condition for the TSD bands
+                      (A1 − A2 )(A3 − A2 ) > 0.                 (32)
+                                                                        too, see Fig. 4, using parameters of case (vii) in Table I. For
+For longitudinal wobbling this expression reads (A2 −                   the n = 1 wobbling band the values of the function f (n, I )
+A1 )(A3 − A1 ) > 0 and, as in the case of even-even nuclei, is          are larger than 0.32, and for the n = 2 wobbling band they are
+always fulfilled. For transverse wobbling, however, A1 < A2             larger than 0.53, suggesting that the approximation condition
+and A1 < A3 . In the cases where transverse wobbling was                is not met for these bands too. As a comparison we also plotted
+proposed the rotational parameters were A1 < A2 < A3 , so               in Fig. 4 the approximation condition, assuming longitudinal
+A3 − A2 was positive for all I, A1 − A2 was negative, but               wobbling (the valence i13/2 proton and the dominant rotation
+A1 − A2 could be positive in some spin range. The empirical             are aligned along the short nuclear axis, and the MoI are
+evaluation of the MoI of triaxial even-even nuclei suggested            of rigid body type; see case (viii) in Table I according to
+that the γ dependence of the nuclear MoI is similar to that             the original interpretation of these bands, for instance [21]).
+
+                                                                  034306-7
+LAWRIE, SHIRINDA, AND PETRACHE                                                                              PHYSICAL REVIEW C 101, 034306 (2020)
+
+    TABLE I. Sets of MoI used for the suggested transverse wobbling bands. For each set the rotational parameters, together with the
+introduced spin dependence, are listed. In addition the angular momentum of the valence nucleon, j, and the maximal value, Imax [see Eq. (32)],
+are listed.
+
+Set              MoI                   A1                  A2         A3                    (I )                 j        Imax        Nucleus   Ref.
+(i)        irrotational flow             1                4         4                                         11/2         13/2
+(ii)            modified                 1                3         6                                         11/2         15/2                   [1]
+(iii)           modified                 1             1.6          4                                         11/2         29/2                   [1]
+(iv)         fitted to 135 Pr         0.024            0.039     0.125                                        11/2         27/2         135
+                                                                                                                                            Pr    [1]
+             fitted to 135 Pr                                                       √ ∝1 + cI
+                                                                                                                                        135
+(v)                                   0.068            0.093     0.278                                        11/2         45/2             Pr   [2,3]
+(vi)        fitted to 105 Pd          0.085            0.134     0.394             ∝ 1 + bI (I + 1)           11/2         29/2         105
+                                                                                                                                            Pd    [4]
+(vii)       fitted to 163 Lu          0.0078           0.0089    0.0385                                       13/2         85/2         163
+                                                                                                                                            Lu    [1]
+                                                                                                                                        163
+(viii)          rigid MoI             0.033            0.030     0.036                                        13/2                          Lu   [21]
+
+
+In this case the values of f (n, I ) are similar to those for                     2 = 1 ; see the dashed red line in Fig. 9(a). (Note that in this
+even-even nuclei and show a steady decrease; they are smaller                     case the nucleus has axially symmetric shape, which means
+than 0.15 (i) for n = 1 and I > 19.5, and (ii) for n = 2 and                      that the bands cannot be associated with wobbling.) However,
+I > 33.5. Note that contrary to the one-quasiparticle bands                       even in this case the values of f (n, I ) are high at low spins,
+in 135 Pr and 105 Pd, the TSD bands are observed up to very                       reaching a value of f (n, I ) = 0.34 at spin of I = 29/2 for the
+high spins, e.g., up to I = 97/2 in 163 Lu [6], where the                         n = 1 band. The absolute minimum of the f (n, I ) function is
+approximation condition (assuming the original interpretation                     obtained when all three MoI are equal, 1 = 2 = 3 ; see the
+as longitudinal wobbling) is satisfied.                                           solid black line in Fig. 9(a) with values between 0.55 and 0.21
+   Contrary to the case of longitudinal wobbling, the approx-                     in the spin range of (11/2, 29/2). It is obvious that even in
+imation condition for transverse wobbling is not satisfied for                    that case, where the nucleus is spherical, the values of f (n, I )
+the cases in Table I because it demands the rotation around                       are still large.
+the axis with largest MoI to be small. We examined the                               The lowest possible values of the approximation condition
+function f (n, I ) trying to evaluate its lowest possible values                  function f (n, I ) for n = 2 correspond to dashed-dotted red
+for j = 11/2. It is noticeable that assuming a larger MoI along                   and the dashed black lines in Fig. 9(b) calculated with the
+the 2 axis increases the spin range of the wobbling band,                         assumptions of 2 = 1 and 1 = 2 = 3 , respectively. For
+Imax , and somewhat decreases the values of f (n, I ) at medium                   the spin range of (11/2, 29/2) the function f (n, I ) has values
+spins; compare for instance cases (i) and (iii) in Fig. 9(a). We                  larger than 0.57 for the former case, and larger then 0.34 for
+thus calculated f (n, I ) with the maximum value of 2 , that is                  the latter case. It is therefore evident that the approximation
+
+
+
+
+                            1.8          135
+                                               Pr, (iii)               (a)                                                  (b)
+                                         135
+                                               Pr, (iv)               n=1                                                  n=2
+                                         135
+                                               Pr, (v)
+                            1.4          105
+                                               Pd, (vi)
+                   f(n,I)
+
+
+
+
+                            1.0
+
+
+
+                            0.6
+
+
+
+                            0.2
+
+
+                                  6            10          14    18          22         6           10       14       18          22
+                                                    Spin I ( )                                           Spin I ( )
+   FIG. 9. Approximation condition function f (n, I ) for j = 11/2, various sets of MoI listed in Table I and for (a) n = 1 and (b) n = 2
+phonon excitations. The dotted and dashed-dotted red lines correspond to 2 = 1 and the solid and dashed black lines to 1 = 2 = 3.
+
+                                                                           034306-8
+TILTED PRECESSION AND WOBBLING IN TRIAXIAL …                                                                                            PHYSICAL REVIEW C 101, 034306 (2020)
+
+
+                                                                tilted precession                                                     transverse wobbling
+
+                                               13000           b0                                                                     n=0
+                                                               b1                                                      600            n=1
+                                                   11000       b2                                                                     n=2
+            Energy (arb. units)
+
+
+
+
+                                                                                            Energy (arb. units)
+                                                               b3                                                      500            n=3
+                                                   9000
+                                                                                                                       400
+                                                   7000
+
+                                                                                                                       300
+                                                   5000
+
+                                                   3000                                                                200
+
+                                                                                    (a)                                                                     (b)
+                                                   1000                                                                  100
+                    Relative energy (arb. units)
+
+
+
+
+                                                   2500
+
+
+                                                                                                    Frequency (arb. units)
+                                                                                                                             70
+
+
+
+                                                                                                                             50
+                                                   1500
+
+
+                                                                                                                             30
+
+
+                                                    500                                                                                                     (d)
+                                                                                    (c)                                      10
+
+                                                           6        10       14     18                                            6         10      14       18
+                                                                    Spin I ( )                                                              Spin I ( )
+    FIG. 10. Excitation energy vs spin for rotational bands with j = 11/2, transverse coupling of the angular momenta, and (a) tilted precession
+rotation and (b) wobbling phonon approximation. Panels (c) and (d) illustrate the relative excitation energy of the bands with respect to the
+yrast band for the TiP and wobbling bands, respectively. The calculations assume the same rotational parameters, case (iii) of Table I.
+
+
+condition f (n, I )    1 cannot be fulfilled for typical j = 11/2                           bands (the wobbling frequency) decreases smoothly for all
+bands, reasonable MoI values, and within the spin range                                     bands until near Imax where all wobbling bands become de-
+where these bands are observed.                                                             generate in energy, as shown in Figs. 10(b) and 10(d). Above
+   Therefore for transverse coupling of the angular momenta                                 Imax the wobbling ceases. Contrary to that, the TiP bands (cal-
+the wobbling approximation is a bad approximation for the                                   culated with the QTR model [24]) are grouped in pairs of E 2
+3D rotating Hamiltonian. This suggests that the transverse                                  sequences with opposite signature; see Fig. 10(a). The partner
+wobbling approximation is obtained with simplifying assump-                                 bands in each pair show a considerable energy difference at
+tions that ignore something that is not negligible. It indicates                            low spins, which remains almost unchanged, until the two
+that the wobbling motion and the TiP rotation are not similar,                              partner bands become degenerate. Note that the bands in each
+that they should be considered as bands with fundamentally                                  pair become degenerate, but the different pairs remain well
+different nature.                                                                           separated in energy. The relative excitation energy of the TiP
+   To illustrate the difference between the TiP rotation and the                            bands with respect to b0, shown in Fig. 10(c), reflects again
+transverse wobbling approximations, the corresponding bands                                 the fact that the bands couple in pairs.
+are compared for j = 11/2 and with the same MoI parameters                                     Considerable differences between the TiP and the
+[of case (iii), see Table I]. The excitation energies of the                                wobbling bands are also observed in the trends of the reduced
+bands produced by the two models are shown in Figs. 10(a)                                   interband B(E 2) and B(M1) transition probabilities, as shown
+and 10(b). The wobbling approximation generates distinct                                    in Fig. 11. For instance the wobbling bands show interband
+phonon-type features of the bands, such as the same relative                                reduced transition probabilities B(n, I → n − 1, I − 1) that
+excitation energy between bands with n = 1; see Fig. 10(b).                                 are proportional to the number of excited phonons n; see
+For transverse wobbling the relative excitation energy of the                               Figs. 11(b) and 11(d). For instance, the ratio of B(M1; n =
+
+                                                                                      034306-9
+LAWRIE, SHIRINDA, AND PETRACHE                                                                                    PHYSICAL REVIEW C 101, 034306 (2020)
+
+
+                                               tilted precession                                              transverse wobbling
+
+
+                             1.4
+                                                                                              2.5
+              )
+
+
+
+
+                                                                                )
+             2
+
+
+
+
+                                                                              2
+            N
+
+
+
+
+                                                                             N
+                             1.0
+             B(M1)out (
+
+
+
+
+                                                                              B(M1)out (
+                                                                                              1.5
+
+                             0.6
+
+                                                                                                                                     1 0
+                                                                                              0.5                                    2 1
+                             0.2                                   (a)                                  (b)
+                                                                                                                                     3 2
+                                   6    8       10    12     14    16                               6         8    10    12     14   16
+                                                Spin I ( )                                                         Spin I ( )
+
+
+                                                                                              1.1
+
+
+                        0.15                                                                  0.9
+            B(E2)out (eb2)
+
+
+
+
+                                                                             B(E2)out (eb2)
+
+
+
+
+                                                                                              0.7
+                             0.1
+                                                                                              0.5
+
+                                       b1 b0
+                        0.05                                                                  0.3
+                                       b2 b1
+                                       b3 b2                       (c)                        0.1
+                                                                                                                                     (d)
+
+                                   6    8       10    12     14    16                               6         8    10    12     14   16
+                                                Spin I ( )                                                         Spin I ( )
+   FIG. 11. Transition probabilities calculated with QTR for TiP bands and with the wobbling equations for transverse wobbling bands and
+with the same rotational parameters as in Fig. 10 and the same quadrupole moments.
+
+2, I → n = 1, I − 1)/B(M1; n = 1, I → n = 0, I − 1) = 2                          proceeds mainly through an unstretched E 2 component. Fur-
+and       B(M1; n = 3, I → n = 2, I − 1)/B(M1; n = 1, I →                        thermore large mixing ratios are also a characteristic feature
+n = 0, I − 1) = 3. Similarly, B(E 2; n = 2, I → n = 1, I −                       for the TiP bands. In fact the calculated B(E 2) transition
+1)/B(E 2; n = 1, I → n = 0, I − 1) = 2 and B(E 2; n =                            probabilities for the unstretched E 2 component of the b1 →
+3, I → n = 2, I − 1)/B(E 2; n = 1, I → n = 0, I − 1) = 3.                        b0, b2 → b1, b3 → b2 linking transitions are large and sim-
+Contrary to that, these ratios are not integer numbers for the                   ilar to those of the intraband transitions (b0 → b0, b1 →
+TiP bands, as seen in Figs. 11(a) and 11(c). The difference                      b1, etc.).
+in the transition probability ratios for the two types of bands                      Therefore there is, in general, a distinct difference in the
+is due to their different nature—phonon excitations for the                      nature of the TiP bands (tilted procession bands, calculated
+wobbling bands and tilted precession for the TiP bands.                          with QTR model) and the wobbling bands (phonon exci-
+    It is known that the interband I = 1 transitions that                        tations, calculated with the wobbling approximation equa-
+link wobbling bands with n = 1 have a large unstretched                          tions). However (i) at high spins and for even-even nu-
+E 2 contribution. A large mixing ratio exhibited by such                         clei with zero-quasiparticle configurations, and (ii) at high
+transitions has been considered as an observation supporting                     spins and for one-quasiparticle bands with longitudinal cou-
+the wobbling nature of the bands. However, large mixing                          pling of the angular momenta, the TiP becomes approxi-
+ratios are a characteristic feature of other types of bands too,                 mately similar to the wobbling phonon description, as in
+for instance, the decays of the K = 2 γ bands towards the                        that case the wobbling approximation condition is satisfied.
+ground-state band in even-even axially symmetric nuclei                          Contrary to that for typical one-quasiparticle configurations
+
+                                                                        034306-10
+TILTED PRECESSION AND WOBBLING IN TRIAXIAL …                                                     PHYSICAL REVIEW C 101, 034306 (2020)
+
+with transverse coupling of the angular momenta the ap-                   bands as this model produces TiP bands and not wobbling.
+proximation is not valid, suggesting different underlying                 This suggests that the bands observed previously in 135 Pr and
+                                                                           105
+physics.                                                                       Pd that were at the time interpreted as transverse wobbling
+                                                                          based on a comparison with the QTR model, are in fact TiP
+                                                                          bands. The transverse wobbling bands, contrary to TiP bands,
+                          IV. SUMMARY                                     should exhibit the quantization (that is characteristic for all
+                                                                          phonon excitations) of their excitation energies and transition
+   All rotations in a triaxial nucleus can be represented as a            probabilities. It has been discussed that the observation of
+precession of the total angular momentum around a certain                 wobbling bands is an evidence for the presence of a stable
+axis. The excited bands represent a tilted precession of the              triaxial deformation, but the presence of TiP bands seems an
+angular momentum away from that axis. In this work the                    easier criterion, because the wobbling (when possible) forms
+bands produced by such a rotation are called tilted preces-               at high spins only, while TiP bands can appear for both low
+sion (TiP) bands. Their features are predicted by the QTR                 and high spins.
+model. Only in some cases, for instance, at high spins and
+for zero-quasiparticle bands in even-even nuclei or for one-
+                                                                                               ACKNOWLEDGMENTS
+quasiparticle bands with longitudinal coupling of the angular
+momenta, the TiP bands can be approximated with a coupling                   This work was based on research supported in part by the
+of rotation and excitation of wobbling phonons. For transverse            National Research Foundation of South Africa (Grants No.
+coupling of the angular momenta and for one-quasiparticle                 116666, No. 109134, No. 103478, and No. 91446), and by the
+configurations the TiP and the wobbling bands have distinctly             French Ministry of Foreign Affairs and the Ministry of Higher
+different nature. Therefore it is not justified to use the QTR            Education and Research, France (PHC PROTEA Grant No.
+model as a theoretical description of transverse wobbling                 42417SE).
+
+
+
+
+ [1] S. Frauendorf and F. Dönau, Phys. Rev. C 89, 014322 (2014).               B. Herskind, D. R. Jensen, D. T. Joss, Th. Kröll, G. Lo Bianco,
+ [2] J. T. Matta, U. Garg, W. Li, S. Frauendorf, A. D. Ayangeakaa,             S. Lunardi, W. C. Ma, N. Nenoff, A. Neußer-Neffgen, C. M.
+     D. Patel, K. W. Schlax, R. Palit, S. Saha, J. Sethi, T. Trivedi,          Petrache, G. Schönwasser, J. Simpson et al., Eur. Phys. J. A 24,
+     S. S. Ghugre, R. Raut, A. K. Sinha, R. V. F. Janssens, S. Zhu,            167 (2005).
+     M. P. Carpenter, T. Lauritsen, D. Seweryniak, C. J. Chiara et al.,    [9] H. Amro, W. C. Ma, G. B. Hagemann, R. M. Diamond, J.
+     Phys. Rev. Lett. 114, 082501 (2015).                                      Domscheit, P. Fallon, A. Görgen, B. Herskind, H. Hübel, D. R.
+ [3] N. Sensharma, U. Garg, S. Zhu, A. D. Ayangeakaa, S.                       Jensen, Y. Li, A. O. Macchiavelli, D. Roux, G. Sletten, J.
+     Frauendorf, W. Li, G. H. Bhat, J. A. Sheikh, M. P. Carpenter,             Thompson, D. Ward, I. Wiedenhöver, J. N. Wilson, and J. A.
+     Q. B. Chen, J. L. Cozzi, S. S. Ghugre, Y. K. Gupta, D. J. Hartley,        Winger, Phys. Lett. B 553, 197 (2003).
+     K. B. Howard, R. V. F. Janssens, F. G. Kondev, T. C. McMaken,        [10] G. Hagemann, Eur. Phys. J. A 20, 183 (2004).
+     R. Palit, J. Sethi et al., Phys. Lett. B 792, 170 (2019).            [11] D. J. Hartley, R. V. F. Janssens, L. L. Riedinger, M. A. Riley,
+ [4] J. Timár, Q. B. Chen, B. Kruzsicz, D. Sohler, I. Kuti, S. Q.              A. Aguilar, M. P. Carpenter, C. J. Chiara, P. Chowdhury, I. G.
+     Zhang, J. Meng, P. Joshi, R. Wadsworth, K. Starosta, A. Algora,           Darby, U. Garg, Q. A. Ijaz, F. G. Kondev, S. Lakshmi, T.
+     P. Bednarczyk, D. Curien, Zs. Dombrádi, G. Duchêne, A.                    Lauritsen, A. Ludington, W. C. Ma, E. A. McCutchan, S.
+     Gizon, J. Gizon, D. G. Jenkins, T. Koike, A. Krasznahorkay                Mukhopadhyay, R. Pifer, E. P. Seyfried et al., Phys. Rev. C 80,
+     et al., Phys. Rev. Lett. 122, 062501 (2019).                              041304(R) (2009).
+ [5] S. W. Ødegård, G. B. Hagemann, D. R. Jensen, M. Bergström,           [12] D. J. Hartley, R. V. F. Janssens, L. L. Riedinger, M. A. Riley, X.
+     B. Herskind, G. Sletten, S. Törmänen, J. N. Wilson, P. O. Tjøm,           Wang, A. Aguilar, M. P. Carpenter, C. J. Chiara, P. Chowdhury,
+     I. Hamamoto, K. Spohr, H. Hübel, A. Görgen, G. Schönwasser,               I. G. Darby, U. Garg, Q. A. Ijaz, F. G. Kondev, S. Lakshmi,
+     A. Bracco, S. Leoni, A. Maj, C. M. Petrache, P. Bednarczyk,               T. Lauritsen, A. Ludington, W. C. Ma, E. A. McCutchan, S.
+     and D. Curien, Phys. Rev. Lett. 86, 5866 (2001).                          Mukhopadhyay, R. Pifer et al., Phys. Rev. C 83, 064307(R)
+ [6] D. R. Jensen, D. R. Jensen, G. B. Hagemann, I. Hamamoto,                  (2011).
+     S. W. Ødegård, M. Bergström, B. Herskind, G. Sletten, S.             [13] I. Hamamoto, Phys. Rev. C 65, 044305 (2002).
+     Törmänen, J. N. Wilson, P. O. Tjøm, K. Spohr, H. Hübel, A.           [14] I. Hamamoto and G. B. Hagemann, Phys. Rev. C 67, 014319
+     Görgen, G. Schönwasser, A. Bracco, S. Leoni, A. Maj, C. M.                (2003).
+     Petrache, and P. Bednarczyk, and D. Curien, Nucl. Phys. A 703,       [15] K. Tanabe and K. Sugawara-Tanabe, Phys. Rev. C 73, 034305
+     3 (2002).                                                                 (2006).
+ [7] G. Schönwaßer, H. Hübel, G. B. Hagemann, P. Bednarczykc,             [16] A. Bohr and B. Mottelson, Nuclear Structure Volume II (W. A.
+     G. Benzoni, A. Bracco, P. Bringel, R. Chapman, D. Curien, J.              Benjamin, New York, 1975).
+     Domscheit, B. Herskind, D. R. Jensen, S. Leoni, G. Lo Bianco,        [17] J. M. Allmond and J. L. Wood, Phys. Lett. B 767, 226
+     W. C. Ma, A. Maj, A. Neußer, S. W. Ødegård, C. M. Petrache,               (2017).
+     D. Roßbach et al., Phys. Lett. B 552, 9 (2003).                      [18] J. Meyer-ter-Vehn, Nucl. Phys. A 249, 111 (1975).
+ [8] P. Bringel, G. B. Hagemann, H. Hübel, A. Al-khatib,                  [19] F. Q. Chen, J. Meng, and S. Q. Zhang, Phys. Lett. B 785, 211
+     P. Bednarczyk, A. Bürger, D. Curien, G. Gangopadhyay,                     (2018).
+
+
+                                                                   034306-11
+LAWRIE, SHIRINDA, AND PETRACHE                                                             PHYSICAL REVIEW C 101, 034306 (2020)
+
+[20] F. Q. Chen, Q. B. Chen, Y. A. Luo, J. Meng, and S. Q. Zhang,   [24] P. B. Semmes and I. Ragnarsson, in Proceedings of the Inter-
+     Phys. Rev. C 96, 051303(R) (2017).                                  national Conference on High-Spin Physics and Gamma-Soft
+[21] K. Tanabe and K. Sugawara-Tanabe, Phys. Rev. C 95, 064315           Nuclei, Pittsburg, 1990, edited by J. X. Saladin, R. A. Sorenson,
+     (2017).                                                             and C. M. Vincent (World Scientific, Singapore, 1991), p. 500;
+[22] S. Frauendorf, Phys. Rev. C 97, 069801 (2018).                      in Future Directions in Nuclear Physics with 4π Gamma Detec-
+[23] K. Tanabe and K. Sugawara-Tanabe, Phys. Rev. C 97, 069802           tion Systems of the New Generation, AIP Conf. Proc. 259, edited
+     (2018).                                                             by J. Dudek and B. Haas (AIP, Woodbury, NY, 1992), p. 566.
+
+
+
+
+                                                              034306-12
+

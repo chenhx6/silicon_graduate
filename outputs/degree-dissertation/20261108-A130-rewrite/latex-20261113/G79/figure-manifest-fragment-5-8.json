@@ -1,0 +1,18 @@
+{
+  "figure_id": "fig:5-8-lifetime-response",
+  "section": "5.8",
+  "type": "educational-model",
+  "description": "Educational model of RDDS decay curves and DSAM Doppler line shape evolution vs stopping time",
+  "producer_script": "system/scripts/a130_lifetime_response_figure.py",
+  "producer_sha256": "bbb72340da37a2fa016b770dca75690650e7ad8570e75f6d0cb184223465b211",
+  "svg": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/lifetime-response-rdds-dsam.svg",
+    "sha256": "8b2bc64730555a7b25ee8a1e7484d09bffabc19d4f96655fbd1ac3f32216b305",
+    "size_bytes": 92012
+  },
+  "pdf": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/lifetime-response-rdds-dsam.pdf",
+    "sha256": "4ccdd307318736c0928a50b12a15d0743586896a7facfed7e679a786b6eb0dd4",
+    "size_bytes": 32494
+  }
+}

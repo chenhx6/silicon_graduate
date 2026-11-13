@@ -1,12 +1,12 @@
-# 博士论文前置章节研究稿（LaTeX，重写中）
+# 博士论文前置章节研究稿（LaTeX）
 
 当前正文入口为
 [Thesis.tex](these_2023_template/these_template/Thesis.tex)，
 编译预览为[Thesis.pdf](these_2023_template/these_template/Thesis.pdf)。
 分节正文位于工程的`Tex/Sections/`，证据台账位于本目录`latex-evidence-ledger/`。
-当前预览含未完成章节标记；编译结果与逐节科学验收分别记录，不代表全稿完成。
-本次预览纳入27节、附录B/C/F的已交付范围，共220页；另12节正文与必要附录
-仍在返修或写作。9组Python图均保留SVG/PDF；3项已有CSV用于声明参数的教学模拟。
+当前研究稿已整合五章39节与附录A–F，共374个物理页。19组正文图件均由Python生成，
+保留SVG/PDF双格式；3项CSV和6组有限数学控制分别说明模型与算法的适用条件。
+全稿完成逐节科学核验、整稿编译与代表页视觉检查；编译结果不替代原件证据。
 
 工作架构仍为五章39节及必要附录，见
 [章节合同](../../../../knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md)。
@@ -15,13 +15,19 @@ Gemini承担主体阅读、写作、Python绘图和工程修复；当前GPT会�
 覆盖与验收状态见`manuscript-status.json`。
 
 新图全部由Python生成，SVG与PDF成对保存于工程`Img/`，正文引用PDF。
-图源清单为`Img/figure-manifest.json`，生产代码为
-`system/scripts/a130_latex_figures.py`，新增两图的独立脚本见附录F及图源清单。
+
+SVG路径属性、冻结返回稿与本任务审计载荷按精确Git属性保留原始空格和文件指纹；
+Python、知识页及活动LaTeX源码仍接受普通空白检查。仅格式变化的Python代码同时核对AST不变，
+生产脚本指纹随之刷新，既有数值结果的原始运行记录保持原来的身份。
+图源清单为`Img/figure-manifest.json`；各图件采用的通用或专用生成脚本逐项记入附录F及清单。
 构建入口为`python3 system/scripts/a130_latex_build.py`。
-本次在隔离的27节工程副本中完成多遍编译，实际命令、64项工程输入集合的指纹及
-日志结果见`outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/checkpoint27/`。
-本地工作树还可能存在未验收草稿，普通根目录构建会读取其中现存文件；
-文件存在本身不代表已纳入本次预览。已发布版本的文件集合以对应Git检查点为准。
+本次在隔离工程中完成整稿编译，再核对全部输入与当前canonical工程字节一致。
+最终报告为`outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json`，
+输入、45份分节/附录证据台账与PDF指纹的核对记录见同批`final39/`。
+致命错误、缺失引用、越界排版、缺字及BibTeX错误/警告均为0；保留91项underfull排版提示。
+实际使用的39节和19组图均直接载入，没有未完成章节或缺图回退框。
+授权发布的稳定指针为`main / thesis: complete A130 nonpersonal foundations in LaTeX`，
+实际commit/push结果以`final39/publication-final-receipt.local.json`为准。
 
 `research-draft/`、`evidence-ledger/`、`frontmatter-draft.md`与HTML预览
 保留为先前阶段的研究输入及历史工件，此后正文直接用LaTeX续写。
@@ -41,3 +47,5 @@ Gemini承担主体阅读、写作、Python绘图和工程修复；当前GPT会�
 保持用户删除现状，没有恢复旧归档或改写Git历史。
 
 本稿只写前置非个人成果内容；未知的作者、导师、用户装置、实验数据与成果不填造。
+
+本次有限范围是前置非个人成果研究稿，并非整部含个人成果的学位论文。尚未进行真实初学者阅读试验，未声明学校送审就绪。

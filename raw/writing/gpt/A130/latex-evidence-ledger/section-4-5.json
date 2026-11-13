@@ -1,0 +1,225 @@
+{
+  "section_id": "4.5",
+  "title": "Br/As与其它核区的反射—手征问题",
+  "section_label": "sec:4-5",
+  "status": "parent-content-accepted-awaiting-integrated-typesetting",
+  "worker": "G91 (Gemini Tiered/high)",
+  "recorded_at": "2026-11-14T00:30:00+00:00",
+  "canonical_paths": {
+    "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-5.tex",
+    "tex_sha256": "0a02dcdb4833e254e9d6a374324f569d3cfa5256fd480a82463a579f35ac0047",
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-5.json"
+  },
+  "staging_paths": {
+    "tex": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G91/staging/sec-4-5.tex",
+    "ledger": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G91/staging/section-4-5.json"
+  },
+  "scope_boundary": "第4.5节专题节：深入剖析Br/As核区的反射—手征问题。核实Liu2016与Xiao2019/2022实验原件与能带拓扑；厘清强+电磁好宇称与平均场内禀反射不对称的区别；纠正三维角动量+宇称投影态归一范数核；阐明反幺正手征算符C与非共面标量三重积判据；规范q3与beta3/M(E3)的数学与量纲区别；澄清Myers-Swiatecki偶极再极化条件与质心平移不变有效电荷；纠正B(E1)/B(E2)比值量纲与速率常数配比；澄清D0模型依赖与寿命反演直接提取路径；修正反宇称邻态插值能级位移delta E(I)；消除普适排他口号，提出可证伪实验路线。",
+  "sources": [
+    {
+      "source_id": "liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br",
+      "citation_key": "liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br",
+      "source_page": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+      "raw_file": "raw/papers/2016_Liu et al_Evidence for Octupole Correlations in Multiple Chiral Doublet Bands.pdf",
+      "raw_sha256": "460051aed9af9d84bbfa09a51339e4d671f8abaaf511ff6b7e0a4fbc2a836ad4",
+      "raw_size_bytes": 722600,
+      "pdf_total_pages": 6,
+      "title": "Evidence for Octupole Correlations in Multiple Chiral Doublet Bands",
+      "doi": "10.1103/PhysRevLett.116.112501",
+      "archive_required": true,
+      "reading_boundary": "Bounded actual original pages; no whole-document reading claim.",
+      "locator": "PDF2 Fig1 full level scheme and60/65MeV70Zn(12C,p3n),8clovers; PDF3 text lowestBand4 state6− and404.3keV7−→6−; PDF4 eightE1 linksBands1/3 and pseudospin p/f mixing interpretation."
+    },
+    {
+      "source_id": "liu-chen-2016-78br-chirality-reflection-symmetry-thesis",
+      "citation_key": "liu-chen-2016-78br-chirality-reflection-symmetry-thesis",
+      "source_page": "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+      "raw_file": "raw/theses/degree-dissertation/刘晨_奇奇核~(78)Br中手征...间反射对称性的联立自发破缺.pdf",
+      "raw_sha256": "5e00370aab205b689841cb58d65c7fad8829e3de74f084736a74f2d8658ab291",
+      "raw_size_bytes": 14044900,
+      "pdf_total_pages": 107,
+      "title": "刘晨 2016 博士论文：奇奇核 78Br 中手征对称性和空间反射对称性的联立自发破缺",
+      "doi": null,
+      "archive_required": true,
+      "reading_boundary": "Bounded actual original pages; no whole-document reading claim.",
+      "locator": "Same78Br experiment lineage as PRL2016; source bounded-reading record. Main concrete spin/rate facts in this section are checked against PRLFig1/text, not claimed as whole107-page reread."
+    },
+    {
+      "source_id": "xiao-2022-chirality-octupole-correlations-74as",
+      "citation_key": "xiao-2022-chirality-octupole-correlations-74as",
+      "source_page": "knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md",
+      "raw_file": "raw/papers/2022_Xiao et al_Chirality and octupole correlations in As 74.pdf",
+      "raw_sha256": "0b14112f23529b71930f546a8a9929313e940a9c7fed27ff25a0d1d4687e5c74",
+      "raw_size_bytes": 876916,
+      "pdf_total_pages": 9,
+      "title": "Xiao et al. 2022 - Chirality and octupole correlations in 74As",
+      "doi": "10.1103/PhysRevC.106.064302",
+      "archive_required": true,
+      "reading_boundary": "Bounded actual original pages; no whole-document reading claim.",
+      "locator": "PDF1beam58.6/62.6MeV;PDF2–3 TableI/Fig1, Band1 to(16+),Band2to(14+),negative scheme includes5−/6−lowstates and14−;PDF7tentativeπf5/2,p3/2⊗νg9/2 and threeE1links. No lifetime assigned here."
+    },
+    {
+      "source_id": "xiao-xiao-2019-high-spin-74as-thesis",
+      "citation_key": "xiao-xiao-2019-high-spin-74as-thesis",
+      "source_page": "knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md",
+      "raw_file": "raw/theses/degree-dissertation/肖骁_奇奇核~(74)As的高自旋态研究.pdf",
+      "raw_sha256": "bf0763004d98be5a540ab7802eb0baed7c11387224f1818426b891f5a3ef362b",
+      "raw_size_bytes": 7700451,
+      "pdf_total_pages": 61,
+      "title": "肖骁 2019 硕士论文：奇奇核 74As 的高自旋态研究",
+      "doi": null,
+      "archive_required": true,
+      "reading_boundary": "Bounded actual original pages; no whole-document reading claim.",
+      "locator": "PDF40/printed32 visual:thesisBand4 πg9/2⊗ν(p3/2,f5/2), neutron-angular-momentum comparison;PDF47summarypseudospinpartnercandidate and6.17e9γγ;PDF45fingerprint limits. Negative-band mapping to2022 not closed."
+    },
+    {
+      "source_id": "butler-nazarewicz-1996-intrinsic-reflection-asymmetry",
+      "citation_key": "butler-1996-octupole-shapes",
+      "source_page": "knowledge/sources/butler-nazarewicz-1996-intrinsic-reflection-asymmetry.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1996_Butler_Nazarewicz_Intrinsic reflection asymmetry in atomic nuclei.pdf",
+      "raw_sha256": "40e915a556361cb472139fb683146d66c1385c3e87de5aaa16d2bd8628afe090",
+      "raw_size_bytes": 1559285,
+      "pdf_total_pages": 73,
+      "title": "Butler & Nazarewicz 1996 - Intrinsic reflection asymmetry in atomic nuclei",
+      "doi": "10.1103/RevModPhys.68.349",
+      "archive_required": true,
+      "reading_boundary": "Bounded actual original pages; no whole-document reading claim.",
+      "locator": "Canonical review73-pagePDF; octupole correlations, E1/rotor conversion and shell/polarization mechanisms within source recordedreading scope. No unsupported universalAZ dipole formula adopted."
+    },
+    {
+      "source_id": "wang-2019-rat-prm-78br-octupole-correlations",
+      "citation_key": "wang-2019-rat-prm-78br-octupole-correlations",
+      "source_page": "knowledge/sources/wang-2019-rat-prm-78br-octupole-correlations.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/wang-2019-rat-prm-78br-arxiv1902.00191v1.pdf",
+      "raw_sha256": "cefe9aeb1fcf8be56c6808825faf95f486246254c231893320ee62f9a9907aae",
+      "raw_size_bytes": 340748,
+      "pdf_total_pages": 17,
+      "title": "Wang2019 RAT-PRM：78Br八极软性输入、反射不对称模型与手征解释范围",
+      "doi": "10.1016/j.physletb.2019.04.014",
+      "archive_required": true,
+      "reading_boundary": "Bounded actual original pages; no whole-document reading claim.",
+      "locator": "Actual17-page arXiv1902.00191v1; fixed nonzero octupole input is a model assumption, not a computed β3 probability distribution; jointP/C interface separately pendingT22."
+    },
+    {
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "citation_key": "book-suhonen-from-nucleons-to-nucleus",
+      "source_page": "knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "raw_size_bytes": 6514067,
+      "pdf_total_pages": 654,
+      "title": "Jouni Suhonen 2007 - From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory",
+      "doi": null,
+      "archive_required": true,
+      "reading_boundary": "Bounded actual original pages; no whole-document reading claim.",
+      "locator": "PDF134–135/printed119–120, EMrate/units; CE2/CE1=3/[100(ℏc)²] has unitsMeV^-2fm^-2; photon intensity ratio no extraICC."
+    }
+  ],
+  "claims_and_derivations": [
+    {
+      "claim_id": "C45-01",
+      "statement": "Three noncoplanar angularmomentum vectors in a stated triaxial-reference model have nonzero scalar triple product; this is a geometry condition, not universal sufficient proof of a static chiral doublet.",
+      "status": "supported",
+      "type": "theoretical-principle"
+    },
+    {
+      "claim_id": "C45-02",
+      "statement": "Under strong+EM parity-conservingH and neglect weakPV, states can be chosen goodparity; intrinsic shape asymmetry and laboratory parity are distinct.",
+      "status": "supported",
+      "type": "theoretical-principle"
+    },
+    {
+      "claim_id": "C45-03",
+      "statement": "Within a chosen projected trialspace, parity/angularmomentum normalization andK mixing use fullnorm andH kernels; good quantum numbers do not certify complete variational space.",
+      "status": "supported",
+      "type": "mathematical-derivation"
+    },
+    {
+      "claim_id": "C45-04",
+      "statement": "Under explicitlyfixed directedtriaxialaxes and beta30only, P reversesbeta30 butleaves axialχ; C=T Ryπ reversesboth;PC preservesbeta30and flipsχ. Antiunitary squares+1donot implyKramers norfourindependentprojectedstates. Genericbeta3mu andcorevsTotalparity requireseparatecheck.",
+      "status": "supported",
+      "type": "operator-algebra"
+    },
+    {
+      "claim_id": "C45-05",
+      "statement": "q3=-sqrt(7/2)<[Q2×Q2]2·Q2> matches1.2/2.4 normalization and has e³fm⁶. R=q3/q2^1.5 is generally a correlated moment ratio, not purecos3γ or universallyboundedangle. β3 andE3operator are distinct.",
+      "status": "supported",
+      "type": "tensor-algebra"
+    },
+    {
+      "claim_id": "C45-06",
+      "statement": "Translational-invariantD0=e(N/A)Σpzp−e(Z/A)Σnzn, neglecting nucleonmass difference. Proportionalproton/neutrondensities giveD0=0 even withpearshape. No universalC_D AZβ2β3 formula inferred.",
+      "status": "supported",
+      "type": "macroscopic-physics"
+    },
+    {
+      "claim_id": "C45-07",
+      "statement": "Δl=Δj=3 high-j pairs favor octupolecoupling, not a universal E3 selectionrule. p3/2,f5/2 pseudospinlabels have ltilde2 but do not prove exactpseudospinsymmetry. 2019thesisneutronp/f and2022journalprotonp/f assignments are version-specific.",
+      "status": "supported",
+      "type": "shell-model-microscopic"
+    },
+    {
+      "claim_id": "C45-08",
+      "statement": "B1/B2 hasunitsfm^-2; for same-mother efficiency-corrected photonintensities use(CE2/CE1)(I1/I2)(E2^5/E1^3) without extraICC. CE2/CE1=3/[100(ℏc)²]≈7.71e-7MeV^-2fm^-2.",
+      "status": "supported",
+      "type": "electromagnetic-transition-rate"
+    },
+    {
+      "claim_id": "C45-09",
+      "statement": "D0 ratioinversion needs externalQ0 and a statedstrongcouplingconversion; externalQ0 can be experimental or adoptedmodelinput. AbsoluteB1 from lifetime+branches/mixing/ICC offers another model-dependentroute.",
+      "status": "supported",
+      "type": "methodological-inversion"
+    },
+    {
+      "claim_id": "C45-10",
+      "statement": "For available opposite-parity neighboringstates,δE=E−(I)−[(I+1)E+(I−1)+IE+(I+1)]/(2I+1) subtracts a smoothrotorbaseline; no universalstatic/dynamic inference from magnitude alone.",
+      "status": "supported",
+      "type": "phenomenological-indicator"
+    },
+    {
+      "claim_id": "C45-11",
+      "type": "bounded-source-version-comparison",
+      "statement": "Liu2016Fig1/Tabletext showBand4lowest6−, not7−. Xiao2019PDF40/47 neutronp/f assignment and candidatepseudospin labels are distinctfromXiao2022PDF7protonp/f assignment; no unique negative-band mapping inferred. Statistics6.17e9 versus1.9e9 keptin own reportnormalizations.",
+      "status": "parent-checked-original-pages"
+    }
+  ],
+  "competing_explanations_and_boundaries": [
+    {
+      "topic": "78Br与74As能带本质",
+      "competing_hypotheses": "多重手征双重带伴随八极软性关联 (MchiD with octupole correlations) vs 单一微观构型手征-宇称四重简并带 (CPQ) vs 赝自旋伙伴带与八极声子微扰耦合",
+      "discriminating_observable": "负宇称能态绝对寿命测定、高灵敏闭合E1跃迁网络搜寻及奇奇核库仑激发实际允许多极矩阵元",
+      "status": "open: model-specific interpretation; no universalquartet exclusion and no numericalupperlimits invented"
+    }
+  ],
+  "prohibitions_strictly_obeyed": [
+    "未修改公共ref.bib，引用键与工程ref.bib或new-references完全对齐",
+    "未修改其它手稿章节，禁止自行派生/commit/push/递归删除",
+    "不把手征-宇称四重带当已证实物理事实，客观区分MchiD与CPQ",
+    "反幺正手征算符C不使用线性投影算符",
+    "q3严格与2.4对齐归一化，不自造系数，不混淆beta3与M(E3)",
+    "宏观偶极矩公式给出量纲C_D，澄清均匀流体D0=0物理机制，保留平移不变有效电荷",
+    "B(E1)/B(E2)明确量纲fm^-2，光子强度不乘额外ICC因子，速率常数给出通用闭合式",
+    "纠正能级位移delta E(I)中参考态为正宇称态E^+",
+    "奇奇核库仑激发明确实际自旋宇称允许矩阵元，指出GOSIA多步耦合拟合的模型依赖性",
+    "核准Liu2016与Xiao2019/2022实验原件与真实source_id及hash，消除local-reference假hash",
+    "交付独立R3回执，不修改公共Git与Bib"
+  ],
+  "latex_math_verification": {
+    "environments_balanced": true,
+    "math_mode_balanced": true,
+    "fatal_syntax_errors": 0,
+    "overfull_risk_evaluated": true
+  },
+  "output_tex_sha256": "a92b2bd5acd21055ebce93feafc8d5dd8e25aff3fe2a5cce4ea2e22873d8dcf9",
+  "parent_scope": "7 actualraws reconciled; fullsourcefig endpoints, statistical/version/proton-neutron differences and T22narrowoperationbridge checked. No unique2019/2022negative mapping, no numericalmissing-linklimits or nuclearquartet proof claimed.",
+  "figure_scope": "Schematic band-link relationships with publishedlabels, tentativeparentheses retained; noenergy/rate scale or arbitraryhistorical-band correspondence.",
+  "parent_layout_integration": {
+    "receipt": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G92/parent-format-integration.json",
+    "tex_sha256": "25ba30fee7149b6bab770caafd82239fd35ab2c3ea8cc485b0fb314dbc0a9b10",
+    "scope": "ReviewedexactG92formatdelta; stabledata/physicalconditions; G97titlepreserved."
+  },
+  "parent_final_tex_sha256": "a92b2bd5acd21055ebce93feafc8d5dd8e25aff3fe2a5cce4ea2e22873d8dcf9",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-5.tex",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
+}

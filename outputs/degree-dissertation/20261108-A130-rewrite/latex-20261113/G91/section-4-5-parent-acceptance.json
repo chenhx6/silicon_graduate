@@ -1,0 +1,50 @@
+{
+  "section": "4.5",
+  "status": "parent-content-accepted; integrated typesetting pending",
+  "at_utc": "2026-11-13T17:11:53.946965+00:00",
+  "parent_checks": [
+    "Read entireR3 and correctedremainingq3normalization, CE2/CE1unit andunsupportedAZdipoleformula.",
+    "VisualoriginalLiu2016PDF2/3 andXiao2022PDF3Fig1:correctspinpointersandtentativeassignments.",
+    "VisualXiao2019PDF40/47:neutronp/f role andcandidatepseudospin keptapartfrom2022protonp/f role.",
+    "Thesis/journalreported6.17e9 versus1.9e9 statsnotpresumedidentical;uniquenegative-labelmappingleftopen.",
+    "T22operationtableandconditionalstate-map inserted; parentreplaypassed, noquartet/normrankcertification.",
+    "Projectedtrialspace/Kmetric, labparity/intrinsicorientation, same-Igap versusalternatingparityinterpolation clarified.",
+    "D0absolute orratioreconstruction retainsbranch/mixing/ICC/Q0andstrongcouplingconditions.",
+    "Knowledge schema/directlinks0errors; PythonpairedSVG/PDFregeneratedandvisualchecked."
+  ],
+  "source_checks": "parent-4-5-source-checks.json",
+  "narrow_audit": "T22/parent-acceptance.json",
+  "artifacts": [
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-5.tex",
+      "sha256": "0a02dcdb4833e254e9d6a374324f569d3cfa5256fd480a82463a579f35ac0047",
+      "size": 32990
+    },
+    {
+      "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-5.json",
+      "sha256": "6a0c76399148c0fa9485960a300ac1666653dbe918c62bab65f164e32bcca842",
+      "size": 14429
+    },
+    {
+      "path": "knowledge/research-notes/a130-rewrite-br-as-parity-chiral-evidence-20261113.md",
+      "sha256": "42fd65b756b6312ae7d985670f6f849998a5dc11589f448807f10182823f267a",
+      "size": 8487
+    },
+    {
+      "path": "system/scripts/a130_br_as_network_figure.py",
+      "sha256": "350bc2ffcbb250917e5fe47199d2e96c83a3b19cb95cb80055e4bd0c178e9757",
+      "size": 3775
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/br-as-network-topology.pdf",
+      "sha256": "0c0eabbf10c17928972b68d576c7d3bc824e9897f2a525f5f784984245f14cc6",
+      "size": 40923
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/br-as-network-topology.svg",
+      "sha256": "9b7f348b8004f785f2b7f53a06e4526c0846b3ac4fc7ee8dff758b1a7e2b3c6e",
+      "size": 134731
+    }
+  ],
+  "boundary": "No fullRAT-PRM calculation, newmeasurement, complete2019/2022negative-band mapping or staticquartet identification."
+}

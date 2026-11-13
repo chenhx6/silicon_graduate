@@ -1,0 +1,148 @@
+\section{触发、缓存与联合活时间}\label{sec:5-5}
+
+在在束核物理与多探测器阵列实验中，第~5.3~节讨论的慢滤波成形参数决定了单个脉冲的能量估计与弹道亏损，第~5.4~节讨论的快滤波与过零插值则提供了微观事件的时间戳。然而，一个物理电离事件能否最终被转化为磁盘上的有效实验数据，并被正确用于符合谱重构与绝对截面提取，还取决于数字化系统的多通道触发判定、数据字打包、硬件缓存流转以及系统死时间响应。
+
+在多探测器阵列的高计数率运行环境下，不同探测通道往往承受不均匀的瞬时计数率。如果对通道独立死时间、机箱总线共同阻塞、缓冲区溢出丢弃逻辑以及离线数据清洗门选缺乏清晰区分，容易产生两类典型的分析偏差：其一，将不同角度探测器的硬件计数损失误归因于核跃迁的角分布各向异性；其二，在双道符合分析中简单套用各单道活时间边缘概率的直接乘积，忽略共同阻塞对联合接受几率的系统性偏置。本节结合数字化数据获取系统的架构，从单道触发与事件字头打包出发，分析硬件缓存满载时的事件丢弃机制，对比经典死时间模型及其局限，并给出多通道联合活时间的一般协方差恒等式与条件独立反例，确立从硬件数据流到离线干净样本的证据分层。
+
+\subsection{通道触发机制与事件数据头格式}\label{subsec:5-5-1}
+
+在数字化谱仪中，探测器前置放大器输出波形被高速 ADC 连续采样并写入流水线。通道内部逻辑首先进行实时滤波以产生触发信号：
+\begin{enumerate}
+\item 独立通道触发：快成形通道输出越过预设甄别阈值，或 CFD 算子满足由负至非负的上升过零条件时，生成通道局域触发脉冲。该脉冲用于锁存当前的系统高频时间戳，并启动慢通道梯形滤波器的峰值搜索或固定平顶取幅。
+\item 全局符合触发：在多重符合物理实验中，各通道的局域触发信号可通过机箱背板总线或专用逻辑模块（例如可编程逻辑模块 MZ-TrigIO~\cite{wu-hongyi-2020-general-purpose-digital-daq-thesis}）进行实时多重性求和（Multiplicity）或符合逻辑判定，生成阵列级的主触发门信号（Master Gate）。
+\end{enumerate}
+
+一旦触发条件满足，通道处理单元将该物理事件的信息组装为标准格式的事件数据块。以低能核物理中通用的 Pixie-16 模块列表模式（List Mode）固件规范为例（参见吴鸿毅博士论文第~2.2~节及图~2.8~\cite[印刷第~42--43~页]{wu-hongyi-2020-general-purpose-digital-daq-thesis}），每个记录事件均以固定的 4 字（32 位/字）数据头开始：
+\begin{align}
+\text{字 } 0 &: [\text{通道号 } (3:0), \, \text{插槽号 } (7:4), \, \text{机箱号 } (11:8), \, \text{标头长度 } (16:12), \nonumber \\
+&\quad\quad \text{事件长度 } (29:17), \, \text{保留位 } (30), \, \text{堆积标志 } (31)]; \label{eq:5-5-word0} \\
+\text{字 } 1 &: [48\text{ 位事件时间戳低 } 32\text{ 位}]; \label{eq:5-5-word1} \\
+\text{字 } 2 &: [48\text{ 位事件时间戳高 } 16\text{ 位 } (15:0), \, \text{CFD 插值时间结果 } (31:16)]; \label{eq:5-5-word2} \\
+\text{字 } 3 &: [16\text{ 位梯形能量提取值 } (15:0), \, \text{波形记录长度 } (29:16), \, \text{超量程标志 } (30)]. \label{eq:5-5-word3}
+\end{align}
+在固定 4 字标头之后，使用者可配置可选数据块，包括用于基线监控的 4 字梯形积分段、8 字电荷积分段（QDC）以及 2 字外部时钟戳。若启用了原始脉冲波形记录，两个 12/14/16 位 ADC 采样点被压缩打包为一个 32 位字，紧随事件头之后保存。事件总长度由字 0 的字段引导，使得数据流具有可变长度自解释特性。
+
+\subsection{缓存流转、波形丢弃与整事件损失}\label{subsec:5-5-2}
+
+组装完毕的事件数据块并不能瞬时写入存储介质，而是必须经过多级缓存流转：
+\begin{align*}
+\text{ADC 实时采样} &\longrightarrow \text{通道 FPGA FIFO} \longrightarrow \text{模块全局缓冲内存} \\
+&\longrightarrow \text{PXI/PCI 背板传输} \longrightarrow \text{主机磁盘}.
+\end{align*}
+在束实验的束流突发或高活度放射性衰变下，输入事件率可能在短时内超过后端读出总线的平均传输带宽，导致硬件缓存水位迅速上涨。
+
+在此物理过程中，必须严格依据硬件固件版本区分两类本质不同的缓冲区满载（Buffer Full）处理行为（参见吴鸿毅博士论文第~2.2~节~\cite[印刷第~43--44~页]{wu-hongyi-2020-general-purpose-digital-daq-thesis}）：
+\begin{enumerate}
+\item 标准固件的整事件丢弃：在 Pixie-16 的标准列表固件中，若配置了波形记录模式，当波形存储缓冲区填满时，在控制软件读取并清空该缓冲区之前，系统无法写入任何新事件。在此阻塞时段内到达的所有后续脉冲，无论其能量大小，均在硬件前端被完全否决，导致整个物理事件（包含时间戳、能量及波形）彻底丢失。
+\item 定制固件的“保头丢波形”机制：为在高计数率实验中最大程度保留有效核谱学信息，定制的数据获取固件对波形缓存满载逻辑进行了重构——当波形缓冲区达到预设高水位时，系统仅禁止波形数据的保存（将字 3 中的波形长度字段置 0），但依然完整记录 4 字（或配置的可选字）事件数据头。
+\end{enumerate}
+这一固件层面的差异对核结构数据质量具有截然不同的影响：在“保头丢波形”配置下，系统主要减少了波形缓冲区瓶颈所导致的头信息丢失；但系统仍承受前端物理死时间、FIFO 传输争用、触发阈值效应以及离线清洗等其他损失环节，实际谱线面积与时间符合计数的整体完整性仍须依赖实测标定，不能仅因保留了数据头便断言全部计数完全无损。此外，丢失波形的事件无法再进行离线的数字脉冲形状甄别（PSD）或离线双脉冲堆积解卷积。因此，在评估数据获取效率与死时间时，必须基于具体的硬件固件协议确定丢失的物理量层次，不能未经原件依据将其泛化为单一形式的事件丢失。
+
+\subsection{单通道死时间物理模型与计数率传递}\label{subsec:5-5-3}
+
+当探测通道处理一个物理脉冲时，无论是前放电荷泄放、主成形滤波器积分，还是模拟量化与字打包，系统在一段时间内无法对后续到达的粒子进行同等响应。这段最小处理时间间隔即为设备的死时间。
+
+在统计物理中，单通道死时间行为通常依据相继事件到达时的重触发特性划分为两类经典理想模型（参见吴鸿毅博士论文附录~B.1~\cite[印刷第~115--116~页]{wu-hongyi-2020-general-purpose-digital-daq-thesis}）：
+\begin{enumerate}
+\item 不可扩展死时间模型（Non-paralysable）：系统每处理一个事件引入固定长度为 $\tau_{\mathrm{np}}$ 的死时间。在此死时间窗口内到达的后续粒子被直接忽略，不延长既有的死时间窗口。设输入脉冲序列服从平均率为 $R_{\mathrm{in}}$ 的平稳泊松分布，系统输出计数率 $R_{\mathrm{out}}$ 与有效活时间比例 $Live_{\mathrm{np}}$ 满足：
+\begin{equation}\label{eq:5-5-non-paralysable}
+R_{\mathrm{out}} = \frac{R_{\mathrm{in}}}{1 + R_{\mathrm{in}} \tau_{\mathrm{np}}}, \qquad Live_{\mathrm{np}} \equiv \frac{R_{\mathrm{out}}}{R_{\mathrm{in}}} = \frac{1}{1 + R_{\mathrm{in}} \tau_{\mathrm{np}}}.
+\end{equation}
+随着输入率 $R_{\mathrm{in}} \to \infty$，输出计数率单调趋近于饱和渐近线 $1/\tau_{\mathrm{np}}$。
+\item 可扩展死时间模型（Paralysable）：每个到达的粒子（不论其自身是否被成功记录）均使系统从其到达时刻起产生长度为 $\tau_{\mathrm{p}}$ 的死时间窗口。在平稳泊松输入到达假设下，一个输入事件能够被系统记录的充要条件，是在其到达前长度为 $\tau_{\mathrm{p}}$ 的时间窗口内没有其它输入事件到达（即相继输入事件的时间间隔大于 $\tau_{\mathrm{p}}$）。此前窗口无输入事件的概率为 $e^{-R_{\mathrm{in}} \tau_{\mathrm{p}}}$，输出率与活时间比例满足：
+\begin{equation}\label{eq:5-5-paralysable}
+R_{\mathrm{out}} = R_{\mathrm{in}} e^{-R_{\mathrm{in}} \tau_{\mathrm{p}}}, \qquad Live_{\mathrm{p}} \equiv \frac{R_{\mathrm{out}}}{R_{\mathrm{in}}} = e^{-R_{\mathrm{in}} \tau_{\mathrm{p}}}.
+\end{equation}
+当输入率超过极值点 $1/\tau_{\mathrm{p}}$ 后，由于相继粒子不断级联延长死时间，系统输出计数率将急剧崩溃并反向趋近于零（系统发生深麻痹阻塞）。
+\end{enumerate}
+
+必须指出上述解析公式的方法学适用边界：式~\eqref{eq:5-5-non-paralysable} 与式~\eqref{eq:5-5-paralysable} 严格依赖“平稳泊松到达过程”与“固定单一死时间常数 $\tau$”的理想化假设。在现代数字化系统中：
+\begin{itemize}
+\item 第~5.3~节讨论的梯形滤波基底总宽 $(k+\ell)T_s$ 决定了脉冲防堆积（PUR）窗口，属于局部波形层面的重叠判决；
+\item 通道 FIFO 与读出总线由离散数据包驱动，具有动态容量与周期性读取节拍，其溢出行为受事件猝发长度（Burstiness）支配；
+\item 数字系统的总死时间是模拟电路弛豫、滤波成形时宽与动态数据缓存延迟的综合响应，无法在所有计数率工况下简单缩略为一个恒定的单一标量 $\tau$。
+\end{itemize}
+
+\subsection{多通道联合活时间与共同阻塞机制}\label{subsec:5-5-4}
+
+在在束 $\gamma\text{-}\gamma$ 符合或带电粒子重构实验中，核心物理量是由两个或多个独立探测通道关联测得的真符合计数。讨论联合活时间之前，首先必须严格定义活时间期望所依托的\emph{采样测度}（Sampling Measure）。
+
+设 $t$ 时刻通道 1 与通道 2 处于可接受物理事件状态的二值指示变量分别为 $X_1(t) \in \{0, 1\}$ 与 $X_2(t) \in \{0, 1\}$（通道存活时为 1，死时间阻塞时为 0）。在连续时间域中，通道处于存活态的时间均匀平均分数（Lebesgue 测度平均）为：
+\begin{equation}\label{eq:5-5-time-avg-live}
+\overline{X}_i \equiv \lim_{T \to \infty} \frac{1}{T} \int_0^T X_i(t) \, \mathrm{d}t.
+\end{equation}
+然而，物理实验中的粒子是以离散时间点到达的。时间均匀平均的 busy 时间占比，并不能自动等同于真实符合级联事件被探测系统联合保存的物理几率。二者的等价性受制于排队论中的 PASTA 定理~\cite{wolff-1982-poisson-arrivals-see-time-averages}（Poisson Arrivals See Time Averages）：当外部事件为无前瞻反馈的平稳泊松过程且长期时间平均极限存在时，在无预知假设（Lack of Anticipation Assumption, LAA，即未来到达增量不依赖过去和当前的系统状态）下，离散到达时刻所采样到的长期统计存活概率以概率 1 趋于连续时间平均分数 $\overline{X}_i$。泊松到达是在 LAA 下保证该稳态极限相等的充分条件，它不代表有限时间样本内的精确无差，更不能未经校验将时间平均 busy 占比推广至存在时间结构或关联级联的任意输入过程。
+
+对于真实的核退激级联过程，核反应通常受加速器束团微观时间结构调制，且同核相继发射的两个光子在时域上受中间能级平均寿命 $\tau$ 约束，事件到达本身存在时间关联与门宽错开。因此，一般的双通道联合活时间指标必须显式相对于给定的\emph{参考到达测度}（Reference Arrival Measure）定义：
+\begin{equation}\label{eq:5-5-joint-live-ref}
+Live_{12}(\Delta t) \equiv \mathbb{E}_{\mathrm{ref}}[X_1(t) X_2(t + \Delta t)].
+\end{equation}
+式中 $\mathbb{E}_{\mathrm{ref}}$ 表示在指定参考事件到达时刻点集上的统计平均，$\Delta t$ 为通道 2 相对通道 1 的真实物理到达时差：
+\begin{itemize}
+\item 若参考测度选取为外部周期性或随机测试脉冲发生器（Pulser），其到达时刻与物理核反应解耦，用于离散采样系统的背景时间平均阻塞态；
+\item 若参考测度选取为目标物理级联事件（例如初态衰变至中间态并发射光子 1，经寿命等待 $u$ 后发射光子 2 并到达通道 2），则该期望是在特定两体到达时空点上的条件采样；
+\item 经典的瞬发符合（Prompt Coincidence）仅对应 $\Delta t = 0$ 的零时差特例。
+\end{itemize}
+
+在同一参考测度 $\mathrm{ref}$ 下，利用随机变量协方差的一般数学恒等式，双通道联合活时间严格满足：
+\begin{equation}\label{eq:5-5-joint-live-cov}
+Live_{12}(\Delta t) = Live_1 Live_2 + \mathrm{Cov}_{\mathrm{ref}}(X_1(t), X_2(t + \Delta t)),
+\end{equation}
+其中单道边缘活时间分别为 $Live_1 = \mathbb{E}_{\mathrm{ref}}[X_1(t)]$ 与 $Live_2 = \mathbb{E}_{\mathrm{ref}}[X_2(t + \Delta t)]$。
+
+式~\eqref{eq:5-5-joint-live-cov} 揭示了单道活时间直接相乘之失效根源。为了向初学者清晰说明其机制，在此构建一个针对瞬发符合（$\Delta t = 0$）的教学分析反例（非零 $\Delta t$ 的一般情形已由式~\eqref{eq:5-5-joint-live-cov} 的时差协方差给出）：
+在同一参考到达测度 $\mathrm{ref}$ 下，设系统受到一个二值公共阻塞变量 $B(t) \in \{0, 1\}$ 门控，其在参考测度下的阻塞概率定义为：
+\begin{equation}\label{eq:5-5-fbusy-def}
+f_{\mathrm{busy}} \equiv \mathrm{Pr}_{\mathrm{ref}}(B(t) = 1) \in (0, 1).
+\end{equation}
+参考测度为时间均匀分布，或到达过程满足前述 PASTA 条件时，可将 $f_{\mathrm{busy}}$ 与连续时间的硬件忙占比对应；一般到达测度下则须另行估计这种对应关系。在公共阻塞状态（$B = 1$）下两通道强制同时关闭（$X_1 = X_2 = 0$）；而在非阻塞状态（$B = 0$）下，明确假设两通道处于条件独立状态：
+\begin{equation}\label{eq:5-5-cond-indep}
+\mathbb{E}_{\mathrm{ref}}[X_1(t) X_2(t) \mid B = 0] = Live_{1|B=0} Live_{2|B=0}.
+\end{equation}
+在上述条件独立假设下，若两通道在非阻塞期均具有非零存活几率（$Live_{1|B=0} > 0$ 且 $Live_{2|B=0} > 0$），由全期望公式可得单道活时间满足：
+\begin{equation*}
+Live_i = (1 - f_{\mathrm{busy}}) Live_{i|B=0} ,
+\end{equation*}
+而瞬发联合活时间表达为：
+\begin{align}\label{eq:5-5-joint-cond-derived}
+Live_{12} &= (1 - f_{\mathrm{busy}}) \mathbb{E}_{\mathrm{ref}}[X_1(t) X_2(t) \mid B = 0] + f_{\mathrm{busy}} \times 0 \nonumber \\
+&= (1 - f_{\mathrm{busy}}) Live_{1|B=0} Live_{2|B=0} \nonumber \\
+&= \frac{Live_1 Live_2}{1 - f_{\mathrm{busy}}}.
+\end{align}
+因为 $0 < f_{\mathrm{busy}} < 1$，故有：
+\begin{equation}\label{eq:5-5-joint-bias-ineq}
+Live_{12} = \frac{Live_1 Live_2}{1 - f_{\mathrm{busy}}} > Live_1 Live_2.
+\end{equation}
+在此特定教学模型中，公共阻塞使两道死时间同步起落，瞬发真实重叠接受区间的比例高于边缘概率相乘，直接套用 $Live_1 \times Live_2$ 会低估系统联合活时间。
+
+必须强调该教学结论的物理普适性边界：
+式~\eqref{eq:5-5-joint-bias-ineq} 中 $Live_{12} > Live_1 Live_2$ 的严格不等式不仅需要 $0 < f_{\mathrm{busy}} < 1$ 且两道在自由态均有非零存活几率（\allowbreak{}$Live_{1|B=0} > 0$, \allowbreak{}$Live_{2|B=0} > 0$），而且仅严格推导于瞬发符合 $\Delta t = 0$。它不可直接推广至任意非零时差 $\Delta t$，后者由包含动态时间响应的一般协方差函数 $\mathrm{Cov}_{\mathrm{ref}}(X_1(t), X_2(t+\Delta t))$ 支配。
+在任意真实的多通道数字化获取硬件中：
+\begin{itemize}
+\item 各通道通过总线仲裁、循环轮询（Round-Robin）或令牌竞争有限的读出带宽，一个通道的优先数据流出可能瞬时推迟或抑制邻近通道的响应，从而在两道之间引入局部负相关项；
+\item 局部负相关项（$\mathrm{Cov} < 0$）与公共阻塞正相关项（$\mathrm{Cov} > 0$）相互竞争，可能部分抵消甚至改变协方差的总符号；
+\item 协方差的符号须由具体响应与采样条件确定。式~\eqref{eq:5-5-joint-live-cov} 可用于组织联合损失的统计核查，其本身不识别造成相关性的硬件机制。
+\end{itemize}
+
+更重要的是，拥有协方差展开式并不代表在实际实验中容易实现无偏修正。在真实的在束多探测器阵列中，探测器对之间存在复杂的立体角依赖与飞行时间展宽，实验上精确标定两两通道随时间延迟 $\Delta t$ 变化的微观协方差函数 $\mathrm{Cov}_{\mathrm{ref}}(X_1, X_2)$ 极其困难。单纯依赖式~\eqref{eq:5-5-joint-live-cov} 无法自动消除由于束流突发打乱泊松性或死时间随计数率动态漂移带来的系统偏置。
+
+\subsection{数据保存概率与离线物理清洗门选的解耦}\label{subsec:5-5-5}
+
+基于上述测度与相关性分析，在从原始核反应到最终物理谱形反演的因果链条中，必须建立严密的证据分层，将“硬件层面的事件保存（Hardware Keep）”与“分析层面的离线干净样本挑选（Offline Clean Selection）”彻底分开：
+\begin{enumerate}
+\item 硬件数据保存几率（Hardware Keep Probability）：由模拟成形恢复、快触发阈值、通道 FIFO 深度、总线竞争以及真实微观联合活时间 $Live_{12}(\Delta t)$ 共同决定。凡是在硬件流水线中由于死时间阻塞或 FIFO 满载而未被记录的事件，该事件记录未保存，不能逐事件重建；其统计损失只能在已验证的响应模型条件下进行总体修正。硬件保存效率代表了探测系统对入射物理流的客观接收极限。
+\item 离线干净样本挑选（Offline Clean Selection）：是在数据已经成功持久化保存至存储介质之后，分析人员为净化物理谱峰施加的纯软件门选条件。典型操作包括：
+\begin{itemize}
+\item 读取字 0 的 Finish Code 标志以剔除包含脉冲堆积的事件（PUR 门选）；
+\item 读取字 3 的 Out-of-Range 标志以剔除 ADC 饱和畸变事件；
+\item 依据第~5.4~节提取的时间差构建符合时间门 $|t_1 - t_2 - t_{\mathrm{off}}| \le \Delta T_{\mathrm{coin}}$，并扣除偶然符合时间窗内的连续本底；
+\item 基于梯形能量积分与基线稳定性判别进行波形质量甄别。
+\end{itemize}
+\end{enumerate}
+
+这两类机制具有截然不同的统计与物理属性：
+\begin{itemize}
+\item 硬件丢失改变了粒子计数的时间间隔分布与联合保存权重，属于仪器传输效率（Transmission Efficiency）损失；
+\item 离线门选是对已捕获事件在多维相空间（能量、时间、脉冲形状）中实施的条件截断，其否决份额属于分析接受度（Analysis Acceptance），在原理上可以通过探测效率模拟或控制样本标定进行补偿；
+\item 绝不能因为协方差恒等式的存在，就简单承诺离线软件能够无偏还原被硬件丢弃或被门选过度过滤的级联退激流。如果不同角度的探测器承受不同计数率，其硬件联合活时间的差异会直接污染测得的 $\gamma$ 射线角分布系数 $W(\theta)$ 与方向角关联（DCO）比值，进而使第~5.7~节的多极混合比反演及第~5.9~节的绝对约化跃迁几率 $B(XL)$ 产生不可逆的系统偏置。
+\end{itemize}

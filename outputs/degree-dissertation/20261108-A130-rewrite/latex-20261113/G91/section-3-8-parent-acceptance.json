@@ -1,0 +1,49 @@
+{
+  "section": "3.8",
+  "status": "parent-content-accepted; integrated typesetting pending",
+  "at_utc": "2026-11-13T16:20:44.921690+00:00",
+  "parent_checks": [
+    "Read fullR3 and repaired ratios with duplicate×100.",
+    "Verified98MoPDF4/6 weak/stronglines, conditionalE3 and same-mother branching boundaries.",
+    "Verified102RuPDF3Fig2/text2953.2(19),.016,.1 andM1≈1; PDF5Eq2/PDF6two-phonon scope.",
+    "Rebuilt8 canonicalraw sourceidentities/hashes, removing thesis-as-Matta andTPSM-as-Lv substitutions.",
+    "SeparatedLawrie frozenqp/LvQTR/Nomura models and input uncertainties.",
+    "No universal DSAM lifetime, standaloneM1fraction or one-transition rejection of everyoctupolecorrelation.",
+    "Knowledge note rebuilt and page-schema/directlinks passed.",
+    "PythonSVG/PDF redesigned and visually inspected withoutclippedtext."
+  ],
+  "source_checks": "parent-source-checks.json",
+  "artifacts": [
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-8.tex",
+      "sha256": "9c135dcade2305ed2cf78b1c552ea015b14aa702a079d5317cbebe1fe632dd92",
+      "size": 28287
+    },
+    {
+      "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-8.json",
+      "sha256": "64e2c8cef3880967895d32ffdce36e3a4f080683f765192bf0f677563f6db2f1",
+      "size": 15455
+    },
+    {
+      "path": "knowledge/research-notes/a130-rewrite-joint-predictions-and-discriminating-program-20261113.md",
+      "sha256": "93332334fcdfcd57a9bb8090cf616705e6b10410ec1e3369dc9a628e9ac528dc",
+      "size": 7522
+    },
+    {
+      "path": "system/scripts/a130_joint_predictions_figure.py",
+      "sha256": "34cebd8e536c4c9c918561cf614182eb07f2a447a0572f20c2ed22731d0d6f02",
+      "size": 3318
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/joint-predictions-workflow.pdf",
+      "sha256": "d2cd2d625f5e385f65486c4c2e9f2b6c499cf4c53dcc8c55e9d9c0ac8aa13512",
+      "size": 37368
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/joint-predictions-workflow.svg",
+      "sha256": "0ee6ab393a3dfcf6c9d5b5c74b12a3890ed3e50c11d999f526764d71ce19561e",
+      "size": 134262
+    }
+  ],
+  "boundary": "No new measurement, experimental feasibility certification or universal mode threshold."
+}

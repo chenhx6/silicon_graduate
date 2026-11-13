@@ -1,0 +1,182 @@
+{
+  "section_id": "4.5",
+  "title": "Br/As与其它核区的反射—手征问题",
+  "section_label": "sec:4-5",
+  "status": "completed-canonical-delivered-v4-r3-audited",
+  "worker": "G91 (Gemini Tiered/high)",
+  "recorded_at": "2026-11-14T00:30:00+00:00",
+  "canonical_paths": {
+    "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-5.tex",
+    "tex_sha256": "1651704dd6c615873885b1b6bd1858741bb34ab9a1af4e4a2da0a29108826f8b",
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-5.json"
+  },
+  "staging_paths": {
+    "tex": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G91/staging/sec-4-5.tex",
+    "ledger": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G91/staging/section-4-5.json"
+  },
+  "scope_boundary": "第4.5节专题节：深入剖析Br/As核区的反射—手征问题。核实Liu2016与Xiao2019/2022实验原件与能带拓扑；厘清强+电磁好宇称与平均场内禀反射不对称的区别；纠正三维角动量+宇称投影态归一范数核；阐明反幺正手征算符C与非共面标量三重积判据；规范q3与beta3/M(E3)的数学与量纲区别；澄清Myers-Swiatecki偶极再极化条件与质心平移不变有效电荷；纠正B(E1)/B(E2)比值量纲与速率常数配比；澄清D0模型依赖与寿命反演直接提取路径；修正反宇称邻态插值能级位移delta E(I)；消除普适排他口号，提出可证伪实验路线。",
+  "sources": [
+    {
+      "source_id": "liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br",
+      "citation_key": "liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br",
+      "canonical_source": "C. Liu, S. Y. Wang, R. A. Bark et al., Phys. Rev. Lett. 116, 112501 (2016)",
+      "doi": "10.1103/PhysRevLett.116.112501",
+      "raw_file": "raw/papers/2016_Liu et al_Evidence for Octupole Correlations in Multiple Chiral Doublet Bands.pdf",
+      "raw_sha256": "460051aed9af9d84bbfa09a51339e4d671f8abaaf511ff6b7e0a4fbc2a836ad4",
+      "pdf_page": 4,
+      "printed_page": 4,
+      "item_label": "Fig. 1-3 & Fig. 5-6",
+      "text_anchor": "70Zn(12C, p3n)78Br at 60 and 65 MeV; Bands 1-2 (pi g9/2 (x) nu g9/2, 8+ -> 16+ and 9+ -> 14+); Bands 3-4 (pi f5/2(p3/2) (x) nu g9/2, 6- -> 15- and 7- -> 13-); 8 E1 transitions strictly connecting Band 1 and Band 3; MDC-CDFT beta30 soft PES; interpreted as MchiD with octupole correlations.",
+      "supports": "78Br中两对正负宇称能带建立在不同单粒子组态上；8条实测E1跃迁局限于Band 1与Band 3；未观测线给出分支比上限，表明当前数据尚不足以确立同一构型静态四重带"
+    },
+    {
+      "source_id": "liu-chen-2016-78br-chirality-reflection-symmetry-thesis",
+      "citation_key": "liu-chen-2016-78br-chirality-reflection-symmetry-thesis",
+      "canonical_source": "刘晨, 奇奇核78Br中手征对称性与空间反射对称性的联立自发破缺, 山东大学博士学位论文 (2016)",
+      "raw_file": "raw/theses/degree-dissertation/刘晨_奇奇核~(78)Br中手征...间反射对称性的联立自发破缺.pdf",
+      "raw_sha256": "5e00370aab205b689841cb58d65c7fad8829e3de74f084736a74f2d8658ab291",
+      "pdf_page": 78,
+      "printed_page": 67,
+      "item_label": "Section 5.4, Eqs. (5.1)-(5.2), Fig. 5.16",
+      "text_anchor": "B(E1)/B(E2) formula; delta E formula; comparison with 125Ba and 224Th; Ch. 7 summary: confirms 78Br exhibits MchiD and octupole correlations rather than stable octupole deformation.",
+      "supports": "刘晨博士论文与PRL 2016同源实验谱系；B(E1)/B(E2)与delta E计算结果；区分MchiD与未来稳定三轴/八极真正CPQ"
+    },
+    {
+      "source_id": "xiao-2022-chirality-octupole-correlations-74as",
+      "citation_key": "xiao-2022-chirality-octupole-correlations-74as",
+      "canonical_source": "X. Xiao, S. Y. Wang, C. Liu et al., Phys. Rev. C 106, 064302 (2022)",
+      "doi": "10.1103/PhysRevC.106.064302",
+      "raw_file": "raw/papers/2022_Xiao et al_Chirality and octupole correlations in As 74.pdf",
+      "raw_sha256": "0b14112f23529b71930f546a8a9929313e940a9c7fed27ff25a0d1d4687e5c74",
+      "pdf_page": 3,
+      "printed_page": 3,
+      "item_label": "Table I & Fig. 1",
+      "text_anchor": "74Ge(4He, 1p3n)74As at 58.6 and 62.6 MeV; Band 1 (6+ -> 15+), Band 2 (7+ -> 14+), Band 3 (7- -> 14-); 3 E1 transitions linking Band 3 to Band 1 (372.4, 919.4, 1293.4 keV); no lifetimes measured.",
+      "supports": "74As 2022期刊集中报道Bands 1-3；测得3条E1连接Band 3与Band 1；无能级寿命"
+    },
+    {
+      "source_id": "xiao-xiao-2019-high-spin-74as-thesis",
+      "citation_key": "xiao-xiao-2019-high-spin-74as-thesis",
+      "canonical_source": "肖骁, 奇奇核74As的高自旋态研究, 山东大学硕士学位论文 (2019)",
+      "raw_file": "raw/theses/degree-dissertation/肖骁_奇奇核~(74)As的高自旋态研究.pdf",
+      "raw_sha256": "bf0763004d98be5a540ab7802eb0baed7c11387224f1818426b891f5a3ef362b",
+      "pdf_page": 35,
+      "printed_page": 25,
+      "item_label": "Fig. 3.8 & Section 4.2",
+      "text_anchor": "Level scheme containing Band 1 (6+ -> 15+), Band 2 (7+ -> 14+), Band 3 (7- -> 14-), Band 4 (7- -> 13-); Section 4.2 evaluated chiral criteria for Bands 3-4, proposed candidate pseudospin partner bands.",
+      "supports": "74As 2019硕士论文实测Band 4并归为候选赝自旋伙伴带；与2022期刊论文代表不同阶段侧重"
+    },
+    {
+      "source_id": "butler-nazarewicz-1996-intrinsic-reflection-asymmetry",
+      "citation_key": "butler-1996-octupole-shapes",
+      "canonical_source": "P. A. Butler and W. Nazarewicz, Rev. Mod. Phys. 68, 349 (1996)",
+      "doi": "10.1103/RevModPhys.68.349",
+      "reading_depth": "deep_article_read",
+      "item_label": "Sec. II-IV, Eqs. (2.1)-(2.8)",
+      "text_anchor": "Intrinsic reflection asymmetry review; Myers-Swiatecki droplet model for D0; Delta l = Delta j = 3 coupling; parity displacement delta E; CG rotor extraction formulas.",
+      "supports": "宏观偶极再极化、有效电荷、轨道驱动对、delta E严格定义与强耦合转子模型边界"
+    },
+    {
+      "source_id": "wang-2019-rat-prm-78br-octupole-correlations",
+      "citation_key": "wang-2019-rat-prm-78br-octupole-correlations",
+      "canonical_source": "Y. Y. Wang, S. Q. Zhang, P. W. Zhao, and J. Meng, Phys. Lett. B 792, 454 (2019)",
+      "doi": "10.1016/j.physletb.2019.04.014",
+      "raw_file": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/wang-2019-rat-prm-78br-arxiv1902.00191v1.pdf",
+      "raw_sha256": "cefe9aeb1fcf8be56c6808825faf95f486246254c231893320ee62f9a9907aae",
+      "pdf_page": 6,
+      "printed_page": 456,
+      "item_label": "Sec. III, Eqs. (13)-(21)",
+      "text_anchor": "RAT-PRM with fixed beta3=0.02 to model soft octupole correlations; non-planar effective angles; configuration sensitivity.",
+      "supports": "反射不对称三轴粒子-转子模型在78Br中的应用；模型有效角度输出与八极软性关联表征"
+    }
+  ],
+  "claims_and_derivations": [
+    {
+      "claim_id": "C45-01",
+      "statement": "三轴形变本身不自动破缺手征对称性；核手征性充要几何判据是奇质子、奇中子与核芯转动角动量的非共面排列，即标量三重积不为零。",
+      "status": "supported",
+      "type": "theoretical-principle"
+    },
+    {
+      "claim_id": "C45-02",
+      "statement": "忽略弱作用时强与电磁哈密顿量满足[H, P]=0，实验室束缚态具有确定的好宇称pi=±1；内禀反射不对称是平均场近似下的物理图像。",
+      "status": "supported",
+      "type": "theoretical-principle"
+    },
+    {
+      "claim_id": "C45-03",
+      "statement": "三维角动量与宇称复合投影波函数的归一化与K混合必须由全角动量-宇称范数核及Hill-Wheeler方程决定，单纯一维宇称归一因子不适用于3D角动量投影态。",
+      "status": "supported",
+      "type": "mathematical-derivation"
+    },
+    {
+      "claim_id": "C45-04",
+      "statement": "手征算符C=T Ry(pi)为反幺正算符，不存在线性本征值，不可用(1±C)/2构造线性投影手征态。",
+      "status": "supported",
+      "type": "operator-algebra"
+    },
+    {
+      "claim_id": "C45-05",
+      "statement": "四极不变量q3为M(E2)三次完全收缩，含beta2^3量纲，需经q2^(3/2)归一化为R=q3/q2^(3/2)方为纯三轴不对称度指标；beta3为无量纲形状参数，M(E3)为电八极算符，二者物理属性与量纲完全不同。",
+      "status": "supported",
+      "type": "tensor-algebra"
+    },
+    {
+      "claim_id": "C45-06",
+      "statement": "宏观偶极矩D0=C_D A Z e beta2 beta3中C_D具有长度量纲；若质子与中子密度在各处严格成比例，即便具备梨形八极形变，D0亦恒等于零；平移不变有效电荷为e N/A与-e Z/A。",
+      "status": "supported",
+      "type": "macroscopic-physics"
+    },
+    {
+      "claim_id": "C45-07",
+      "statement": "Delta l = Delta j = 3为费米面附近强驱动高j轨道对有利条件，非E3跃迁通用选择定则；严格区分g9/2 <-> p3/2驱动对与f5/2组态。",
+      "status": "supported",
+      "type": "shell-model-microscopic"
+    },
+    {
+      "claim_id": "C45-08",
+      "statement": "分支比B(E1)/B(E2)具有量纲fm^-2；光子强度比值公式为(C_E2/C_E1) (I_E1/I_E2) (E_E2^5/E_E1^3)，无需乘(1+alpha)因子；常数之比为3/[100(hbar c)^2]约7.71e-7 MeV^2 fm^-2。",
+      "status": "supported",
+      "type": "electromagnetic-transition-rate"
+    },
+    {
+      "claim_id": "C45-09",
+      "statement": "从分支比反演D0需采用外部Q0与强耦合假设；若测得绝对寿命提取绝对B(E1)，则可直接在转子模型下提取D0而摆脱对理论Q0的依赖。",
+      "status": "supported",
+      "type": "methodological-inversion"
+    },
+    {
+      "claim_id": "C45-10",
+      "statement": "负宇称态能级位移严格定义为delta E(I) = E^-(I) - [(I+1)E^+(I-1) + I E^+(I+1)]/(2I+1)，参考项由相邻正宇称态E^+插值给出；10^-6与10^-5 fm^-2为定量强弱比较，不能脱离壳相消单独断言动态/静态。",
+      "status": "supported",
+      "type": "phenomenological-indicator"
+    }
+  ],
+  "competing_explanations_and_boundaries": [
+    {
+      "topic": "78Br与74As能带本质",
+      "competing_hypotheses": "多重手征双重带伴随八极软性关联 (MchiD with octupole correlations) vs 单一微观构型手征-宇称四重简并带 (CPQ) vs 赝自旋伙伴带与八极声子微扰耦合",
+      "discriminating_observable": "负宇称能态绝对寿命测定、高灵敏闭合E1跃迁网络搜寻及奇奇核库仑激发实际允许多极矩阵元",
+      "status": "open-evidence-strongly-favors-MchiD-with-octupole-softness"
+    }
+  ],
+  "prohibitions_strictly_obeyed": [
+    "未修改公共ref.bib，引用键与工程ref.bib或new-references完全对齐",
+    "未修改其它手稿章节，禁止自行派生/commit/push/递归删除",
+    "不把手征-宇称四重带当已证实物理事实，客观区分MchiD与CPQ",
+    "反幺正手征算符C不使用线性投影算符",
+    "q3严格与2.4对齐归一化，不自造系数，不混淆beta3与M(E3)",
+    "宏观偶极矩公式给出量纲C_D，澄清均匀流体D0=0物理机制，保留平移不变有效电荷",
+    "B(E1)/B(E2)明确量纲fm^-2，光子强度不乘额外ICC因子，速率常数给出通用闭合式",
+    "纠正能级位移delta E(I)中参考态为正宇称态E^+",
+    "奇奇核库仑激发明确实际自旋宇称允许矩阵元，指出GOSIA多步耦合拟合的模型依赖性",
+    "核准Liu2016与Xiao2019/2022实验原件与真实source_id及hash，消除local-reference假hash",
+    "交付独立R3回执，不修改公共Git与Bib"
+  ],
+  "latex_math_verification": {
+    "environments_balanced": true,
+    "math_mode_balanced": true,
+    "fatal_syntax_errors": 0,
+    "overfull_risk_evaluated": true
+  }
+}

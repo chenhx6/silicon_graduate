@@ -1,0 +1,244 @@
+{
+  "section_id": "3.8",
+  "title": "模式判断需要怎样的联合预言",
+  "section_label": "sec:3-8",
+  "status": "parent-content-accepted-awaiting-integrated-typesetting",
+  "worker": "G91 (Gemini Tiered/high)",
+  "recorded_at": "2026-11-13T22:00:00+00:00",
+  "canonical_paths": {
+    "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-8.tex",
+    "tex_sha256": "9c135dcade2305ed2cf78b1c552ea015b14aa702a079d5317cbebe1fe632dd92",
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-8.json"
+  },
+  "staging_paths": {
+    "tex": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G91/staging/sec-3-8.tex",
+    "ledger": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G91/staging/section-3-8.json"
+  },
+  "scope_boundary": "第3.8节方法论压轴节：将命名候选转化为包含明确前向预言、最强替代解释和判决性检验路径的研究问题。涵盖前向预言结构、竞争解释重叠与阈值不可通约性、四类协方差机制与数据分层架构、三个具体可证伪实证候选（98Mo弱E3跃迁、102Ru低能偶极聚集、135Pr负宇称带取向进动）及跨区物理迁移准则。严格遵守SI电荷型算符与量纲匹配，排除虚构表述、普适绝对数值门槛与假性结论。",
+  "sources": [
+    {
+      "source_id": "karmakar-2025-2026-98mo-octupole-preview",
+      "source_page": "knowledge/sources/karmakar-2025-2026-98mo-octupole-preview.md",
+      "citation_key": "karmakar-2026-98mo-octupole",
+      "title": "Karmakar et al.：98Mo的A≈100八极集体性候选（Nucl. Phys. A 1066 (2026) 123265 出版全文精读）",
+      "year": 2026,
+      "doi": "10.1016/j.nuclphysa.2025.123265",
+      "raw_file": "raw/papers/⁹⁸Mo A possible candidate for octupole collectivity in A ≈ 100 region.pdf",
+      "raw_sha256": "958364569a5a07aa7dee2fc8d44a150b1fa876b9cb5a8e3636bb6a4a84f970b1",
+      "raw_size_bytes": 8676647,
+      "pdf_total_pages": 8,
+      "archive_required": true,
+      "locator": "PDF2 experimental reaction45MeValpha/11clovers; PDF4Table1:787.2(3)reference;603.1(2),475.1(2)E2 and weak1833.3(5),1585.8(6)lines with blankDCO/P; PDF6Table2 ratios. No conversion of globalIγ directly to mother-state branches.",
+      "evidence_boundary": "Specific original pages and canonical source conditions; no entire-document reading assertion."
+    },
+    {
+      "source_id": "saracino-2026-102ru-scissors-octupole-resonances",
+      "source_page": "knowledge/sources/saracino-2026-102ru-scissors-octupole-resonances.md",
+      "citation_key": "saracino-2026-102ru-scissors-octupole-resonances",
+      "title": "Saracino等2026：102Ru低能偶极强度分布与剪刀模及八极共振共存（PRL全文7页）",
+      "year": 2026,
+      "doi": "10.1103/rcb1-gntj",
+      "raw_file": "raw/papers/Low-Energy Dipole Strength Distribution in ¹⁰²Ru Coexistence of Scissors and Octupole Resonances.pdf",
+      "raw_sha256": "4bc6bb6c613b121bae9def9d9bedf37e9c02db89eca265c4c16d5dd9ecf43a89",
+      "raw_size_bytes": 610850,
+      "pdf_total_pages": 7,
+      "archive_required": true,
+      "locator": "PDF3Fig2 caption:2953.2(19)keV line; textB1up=.016 e²fm², E1sum≈.1, M1sum≈1μN² over2–4MeV. PDF5Eq2 intrinsic effectiveoperator; PDF6 E2++E3−=2518keV and two-phonon interpretation.",
+      "evidence_boundary": "Specific original pages and canonical source conditions; no entire-document reading assertion."
+    },
+    {
+      "source_id": "matta-2015-transverse-wobbling-135pr",
+      "source_page": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+      "citation_key": "matta-2015-transverse-wobbling-135pr",
+      "title": "Transverse wobbling in 135Pr",
+      "year": 2015,
+      "doi": "10.1103/PhysRevLett.114.082501",
+      "raw_file": "raw/papers/2015_Matta et al_Transverse Wobbling in Pr 135.pdf",
+      "raw_sha256": "8db644705dccfd58016753b759d19314a65284c48efc1758f95f1b3ce23551d6",
+      "raw_size_bytes": 3832299,
+      "pdf_total_pages": 7,
+      "archive_required": true,
+      "locator": "Actual PRL article PDF, not generic thesisWobblingMotionInNuclei. Large-|δ| reported branch and wobbling interpretation as in canonical source.",
+      "evidence_boundary": "Specific original pages and canonical source conditions; no entire-document reading assertion."
+    },
+    {
+      "source_id": "lv-2022-evidence-against-wobbling-135pr",
+      "source_page": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "citation_key": "lv-2022-evidence-against-wobbling-135pr",
+      "title": "Evidence against the wobbling nature of low-spin bands in 135Pr",
+      "year": 2022,
+      "doi": "10.1016/j.physletb.2021.136840",
+      "raw_file": "raw/papers/2022_Lv et al_Evidence against the wobbling nature of low-spin bands in 135Pr.pdf",
+      "raw_sha256": "4b87c540bf9da5141fa88ef8f00859162cb08918d56a5da74726c7537df5e26b",
+      "raw_size_bytes": 512670,
+      "pdf_total_pages": 6,
+      "archive_required": true,
+      "locator": "Actual PLB824,136840 PDF3Table1/Fig2; not the unrelated triaxial projected-shell-model paper.747.3 δ=−.47(+.09/−.22) and fixed-γQTR interpretation with dynamicqp orientation.",
+      "evidence_boundary": "Specific original pages and canonical source conditions; no entire-document reading assertion."
+    },
+    {
+      "source_id": "lawrie-2020-tilted-precession-wobbling",
+      "source_page": "knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+      "citation_key": "lawrie-2020-tilted-precession-wobbling",
+      "title": "Tilted precession and wobbling in triaxial nuclei",
+      "year": 2020,
+      "doi": "10.1103/PhysRevC.101.034306",
+      "raw_file": "raw/papers/2020_Lawrie et al_Tilted precession and wobbling in triaxial nuclei.pdf",
+      "raw_sha256": "777f935b0266fed8a9d9f2e1cc1f72995c84dd83e27ca1f5377ab2785b2ec405",
+      "raw_size_bytes": 1730162,
+      "pdf_total_pages": 12,
+      "archive_required": true,
+      "locator": "PhysRevC101,034306; canonical sourceLAW20-6/7 and articleSecIII(PDF5–6): frozenqp control for harmonic approximation; not equivalent to unrestrictedqp realignment.",
+      "evidence_boundary": "Specific original pages and canonical source conditions; no entire-document reading assertion."
+    },
+    {
+      "source_id": "nomura-2022-questioning-wobbling-ibfm",
+      "source_page": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+      "citation_key": "nomura-2022-questioning-wobbling-ibfm",
+      "title": "Questioning the wobbling interpretation of low-spin bands in gamma-soft nuclei within the interacting boson-fermion model",
+      "year": 2022,
+      "doi": "10.1103/PhysRevC.105.024320",
+      "raw_file": "raw/papers/2022_Nomura et al_Questioning the wobbling interpretation of low-spin bands in γ -soft nuclei within the interacting b.pdf",
+      "raw_sha256": "e61e3dd6fe5e67fb55543f3a136c7cce0fda98ad01f112d81d5eef70b613465f",
+      "raw_size_bytes": 2221656,
+      "pdf_total_pages": 11,
+      "archive_required": true,
+      "locator": "PRC 105, 024320 (2022) pp. 1-9",
+      "evidence_boundary": "Specific original pages and canonical source conditions; no entire-document reading assertion."
+    },
+    {
+      "source_id": "frauendorf-2014-transverse-wobbling",
+      "source_page": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+      "citation_key": "frauendorf-2014-transverse-wobbling",
+      "title": "Transverse wobbling: A collective mode in odd-A triaxial nuclei",
+      "year": 2014,
+      "doi": "10.1103/PhysRevC.89.014322",
+      "raw_file": "raw/papers/2014_Frauendorf_Dönau_Transverse wobbling.pdf",
+      "raw_sha256": "36794ee1308adc1b34206ccdbf62353d6e79b3b485979e78709fd31efe5f57e3",
+      "raw_size_bytes": 1496816,
+      "pdf_total_pages": 12,
+      "archive_required": true,
+      "locator": "PRC 89, 014322 (2014) pp. 1-17",
+      "evidence_boundary": "Specific original pages and canonical source conditions; no entire-document reading assertion."
+    },
+    {
+      "source_id": "ding-2025-chiral-rotation-a60-residual-interactions",
+      "source_page": "knowledge/sources/ding-2025-chiral-rotation-a60-residual-interactions.md",
+      "citation_key": "ding-2025-chiral-rotation-a60-residual-interactions",
+      "title": "Ding等2025：A≈60手征与残余质中力（PRM正文精读）",
+      "year": 2025,
+      "doi": "10.1088/1674-1137/adc3fd",
+      "raw_file": "raw/papers/Exploring chiral rotation in A ≈ 60 nuclei  Role of residual interactions.pdf",
+      "raw_sha256": "5264bd9192b988021d2ee21f2861bce80f2f7ac04ba26f04ea3f0e8125be599e",
+      "raw_size_bytes": 3159427,
+      "pdf_total_pages": 9,
+      "archive_required": true,
+      "locator": "CPC 49, 074101 (2025) pp. 1-8",
+      "evidence_boundary": "Specific original pages and canonical source conditions; no entire-document reading assertion."
+    }
+  ],
+  "claims_and_derivations": [
+    {
+      "claim_id": "C38-01",
+      "statement": "Separate dynamical degrees of freedom, fitted inputs and independently tested predictions. Model representations and intrinsic paths are not direct observables. Antiunitary operations require phase-aware treatment; no genericKramers claim is inferred from a model label.",
+      "status": "supported",
+      "type": "methodological-criterion"
+    },
+    {
+      "claim_id": "C38-02",
+      "statement": "方向角关联DCO比值为二次多项式比二次多项式，方程退化与分母零点排除后给出二次代数方程；判别式大于零时给出两根，代数双根不保证一大一小或等权，线偏振度或寿命在有限误差包络内亦不能保证排他性排除另一解。",
+      "status": "supported",
+      "type": "mathematical-derivation"
+    },
+    {
+      "claim_id": "C38-03",
+      "statement": "多极混合比delta严格定义为出射电四极与磁偶极辐射场振幅之比，与SI电荷型算符MS=Mmu/c及动量因子E/(hbar c)匹配构成无量纲量，非裸约化矩阵元之比；分母M1几何受阻即可造成较大delta。",
+      "status": "supported",
+      "type": "theoretical-definition"
+    },
+    {
+      "claim_id": "C38-04",
+      "statement": "跃迁速率与分支比关系：已知包含IC总分支比btot时lambda=btot/[tau(1+alpha)]；直接给出光子概率bgamma时lambda=bgamma/tau（不可重复除1+alpha）；相对强度由母态全出口归一；B正比于1/tau，随寿命变短而增大。",
+      "status": "supported",
+      "type": "physical-derivation"
+    },
+    {
+      "claim_id": "C38-05",
+      "statement": "同一母态不同退激分支共享实测寿命与探测效率，存在统计协方差；严格区分刻度、拟合参数、留出检验及同采集四类协方差；分支比归一化和为1时全协方差奇异需独立坐标；在明确矩条件/高斯假定下，已知中心值与协方差矩阵支持自洽的GLS条件推断。",
+      "status": "supported",
+      "type": "statistical-methodology"
+    },
+    {
+      "claim_id": "C38-06",
+      "statement": "98Mo Table1 weak lines have globalIγ=.24(9),.74(16); strong same-mother E2 lines603.1 and475.1keV haveI8.94(45),9.89(25); E3 minimum allowed but DCO/P absent. Table2 author-pureE3 ratios are conditional. Lifetime plus complete branching distinguishes numerator enhancement from denominator hindrance; a failure tests the specified transition/model implementation, not every octupole correlation.",
+      "status": "supported",
+      "type": "empirical-candidate"
+    },
+    {
+      "claim_id": "C38-07",
+      "statement": "102Ru NRF constrainsΓ0²/Γ;0+→1− isE1 in the stated single-photon experiment. PDF3supports2953.2(19)keV andB1up=.016 plus E1cluster≈.1. Intrinsic rank1/rank3 effective expression is model-specific; a covariantlab expansion may contain[Q2⊗O3]1. Harmonic B2 strength does not force dominant photonE2 branching; rates include constants,energy powers andICC.",
+      "status": "supported",
+      "type": "empirical-candidate"
+    },
+    {
+      "claim_id": "C38-08",
+      "statement": "135Pr specific negative-parity747.3 line supports small-|δ| in Lv dataset; compare complete electromagnetic predictions with consistent inputs and uncertainty. Lawrie frozen-qp TiP test, LvQTR reorientation and NomuraIBFM are distinct implementations. No universalE2fraction or low-spin threshold follows.",
+      "status": "supported",
+      "type": "empirical-candidate"
+    }
+  ],
+  "competing_explanations_and_boundaries": [
+    {
+      "topic": "98Mo八极集体性争议",
+      "competing_hypotheses": "分子八极矩阵元集体增强 vs 分母带内E2跃迁受阻",
+      "discriminating_observable": "母态5-与7-的绝对寿命tau与独立绝对B(E3)提取",
+      "status": "open-candidate-requires-lifetime-measurement"
+    },
+    {
+      "topic": "102Ru低能偶极聚集机制",
+      "competing_hypotheses": "四极-八极二声子构型[2+ x 3-] vs 非相干准粒子极化/微观巨共振拖尾",
+      "discriminating_observable": "在束符合谱学测定1-向31-八极声子态的带间E2跃迁强度与绝对网络",
+      "status": "open-candidate-requires-in-beam-coincidence"
+    },
+    {
+      "topic": "135Pr低自旋伴带动力学机制",
+      "competing_hypotheses": "冻结短轴摆动模型(Matta 2015) vs 倾斜轴进动QTR(Lv 2022) vs IBFM软核激发(Nomura 2022)",
+      "discriminating_observable": "精密RDM测定17/2-态带间绝对B(E2)与B(M1)及自旋依赖趋势",
+      "status": "model-specific-comparison; small-rootalone doesnotuniquelyselectTiP"
+    }
+  ],
+  "prohibitions_strictly_obeyed": [
+    "未修改公共ref.bib，引用键与公共ref.bib完全对齐",
+    "未修改其它手稿章节，禁止自行派生/commit/push/递归删除",
+    "不把未验3.6新数据当依据，只复用已验2.1-2.8/3.2/3.5与文献原件",
+    "不把模式标签等同于实验观测，波函数轨迹严格属于模型内部数学输出",
+    "不设通用delta、E2百分比或声子倍数绝对阈值，完整保留角分布双根分支与退化条件",
+    "同一母态多B强协方差不计为独立重复证据，严格区分四类统计协方差机制",
+    "区分数据四层架构，不给无raw counts的虚假显著性检验，阐明GLS条件推断自洽性与奇异约束",
+    "三个研究候选基于文献原件基线，不编造未知机时与个人硬件",
+    "102Ru严格澄清0+到1-为纯E1吸收，不能直接E3激发，明确有效偶极算符内禀坐标边界",
+    "102Ru澄清二声子相空间压低，不要求E2分支主导",
+    "135Pr纠正负宇称自旋17/2-与15/2-，消除普适数值门槛",
+    "Wiki 98Mo canonical source使用karmakar-2025-2026-98mo-octupole-preview，与Bib citation key严格区分",
+    "交付独立单节回执，A保持冻结只读，不越界修改其它章节或提交commit"
+  ],
+  "latex_math_verification": {
+    "environments_balanced": true,
+    "math_mode_balanced": true,
+    "fatal_syntax_errors": 0,
+    "overfull_risk_evaluated": true
+  },
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-8.tex",
+  "output_tex_sha256": "335d0360f88f9d19d503e0e2d7bb7b70883b68b2d7377ddf6dcdcf86be3b7611",
+  "parent_reconciliation": "Source raw identities rebuilt from canonical metadata; discarded thesis/TPSM mismatches and stale1.5%/5.7% claims.102Ru exact2953.2(19) validated against actualFig2, retained.",
+  "latex_sha256": "335d0360f88f9d19d503e0e2d7bb7b70883b68b2d7377ddf6dcdcf86be3b7611",
+  "parent_readability_revision_20261114": {
+    "receipt": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G97/parent-readability-acceptance.json",
+    "tex_sha256": "60ebc7a676a8974a4744685a48efdaae93ffdb4df7ae18ce6f435120371a80e1",
+    "scope": "precise prose and conditional axis-map bridge; display equations unchanged"
+  },
+  "parent_final_tex_sha256": "335d0360f88f9d19d503e0e2d7bb7b70883b68b2d7377ddf6dcdcf86be3b7611",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-8.tex",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
+}

@@ -1,0 +1,40 @@
+{
+  "section": "5.6",
+  "verdict": "accepted-with-parent-source-and-conditions-corrections",
+  "target_latex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-6.tex",
+  "target_sha256": "5f2d2ca5e77f31bb4fd7356059d1fd05cd8a883dd7b6def632dbed24f705f8f4",
+  "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-6.json",
+  "ledger_sha256": "ca56505c757ac64a20ce814c87c86af77f5bb67d96e7d404804c09053fd20217",
+  "source_hash_checks": [
+    {
+      "source": "xiao-xiao-2019-high-spin-74as-thesis",
+      "raw_file": "raw/theses/degree-dissertation/肖骁_奇奇核~(74)As的高自旋态研究.pdf",
+      "expected": "bf0763004d98be5a540ab7802eb0baed7c11387224f1818426b891f5a3ef362b",
+      "actual": "bf0763004d98be5a540ab7802eb0baed7c11387224f1818426b891f5a3ef362b",
+      "match": true
+    },
+    {
+      "source": "book-wu-nuclear-experiment-methods",
+      "raw_file": "raw/books/原子核物理实验方法--第三版 (吴治华) (Z-Library).pdf",
+      "expected": "e23f010ff8d3b4737405235c4aba920533f44e89409ebb7e2cb076b7ab4ee591",
+      "actual": "e23f010ff8d3b4737405235c4aba920533f44e89409ebb7e2cb076b7ab4ee591",
+      "match": true
+    },
+    {
+      "source": "wakudyanaye-2022-triaxiality-rotational-bands-133ce",
+      "raw_file": "raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+      "expected": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+      "actual": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+      "match": true
+    }
+  ],
+  "source_correction": "Removed false Wu pages and textbook-formula attribution; actually rendered print292–294/PDF300–302 Fig10.38.",
+  "math_checks": [
+    "dS Jacobian and full covariance signs correct",
+    "unequal gate widths normalized before interpolation; integration assumptions explicit",
+    "positive recoil difference for positive photon cascade under declared common-M leading approximation",
+    "educational 5-node6-edge graph paths/multipoles checked; rendered PDF visually inspected"
+  ],
+  "boundary": "No unknown experiment, actual sensitivity limit or universal independence inferred.",
+  "recorded_at": "2026-11-13T17:56:45.169260+00:00"
+}

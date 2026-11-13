@@ -1,0 +1,61 @@
+% T16：供父任务按锚点局部替换；各块不是可单独编译的全文。
+% 块 A：替换原第18--24行，保留原有三个公式标签。
+采用中性基态原子质量 $M(A,Z)$，并暂略原子反冲与微小质量修正，有
+\begin{align}
+Q_{\beta^-}&=[M(A,Z)-M(A,Z+1)]c^2,\label{eq:4-7-Q-betaminus}\\
+Q_{\beta^+}&=[M(A,Z)-M(A,Z-1)-2m_e]c^2,\label{eq:4-7-Q-betaplus}\\
+Q_{\mathrm{EC}}&=[M(A,Z)-M(A,Z-1)]c^2.\label{eq:4-7-Q-EC}
+\end{align}
+前两式分别是 $\beta^-$、$\beta^+$ 的可用动能；$\beta^+$ 的开放条件为 $Q_{\beta^+}>0$。对捕获电子壳层 $j$、布居核激发能 $E_x$ 的分支，最终原子具有相应空穴，近似产生能量
+\begin{equation}
+E_{\nu,j}\simeq Q_{\mathrm{EC}}-E_x-B_j^{(\mathrm{daughter})}-E_{\mathrm{recoil}},
+\end{equation}
+其中 $B_j^{(\mathrm{daughter})}$ 是末态原子相对于中性子原子基态的空穴激发能；精确值还依赖原子组态和伴随激发。该分支仅在可用能量为正时开放。$\beta^-$ 放出 $\bar\nu_e$，$\beta^+$ 与 EC 放出 $\nu_e$；EC 不要求 $\beta^+$ 的 $2m_ec^2$ 阈值。
+
+% 块 B：第27--40行：保留原微分式和 C_allowed 式；替换第30行定义及第40行B定义。
+% 在原微分式之后替换第30行：
+这里 $G_F^{(E)}$ 是自然单位制中以 $\mathrm{MeV}^{-2}$ 表示的费米常数，约为 $1.16638\times10^{-11}\,\mathrm{MeV}^{-2}$。式中 $m_ec^2$ 用能量单位，$\hbar$ 用能量乘时间单位，故前因子量纲为 $\mathrm{s}^{-1}$。若另用量纲为能量乘体积的 $G_F^{(\mathrm{SI})}$，才有 $G_F^{(E)}=G_F^{(\mathrm{SI})}/(\hbar c)^3$；不得对已用 $\mathrm{MeV}^{-2}$ 表示的常数再次除以 $(\hbar c)^3$。各运动学量定义如下：
+% 原 W、p、W0、F 条目保留；原 C_allowed 式之后的B定义改为：
+其中 $B(F)=|\langle f\Vert\sum_k\tau_\pm(k)\Vert i\rangle|^2/(2J_i+1)$，$B(GT)=|\langle f\Vert\sum_k\boldsymbol\sigma(k)\tau_\pm(k)\Vert i\rangle|^2/(2J_i+1)$，均不含 $g_V$ 或 $g_A$；因而式中耦合常数只计一次。若引用已把 $(g_A/g_V)^2$ 吸收到 $B(GT)$ 的资料，则应转换约定，不能再乘同一个因子。此式针对指定 $\beta^\mp$ 分支；EC 应采用束缚电子波函数和离散中微子能量，不能直接套用连续 $\beta$ 谱。
+
+% 块 C：替换第75--90行。枚举环境仍由正文外层保留。
+\item \textbf{弱馈送：} 令 $I_\beta(i)$ 为每次母态总衰变中直接馈送子核状态 $i$ 的无量纲概率，离散态求和并包含连续谱积分后
+\begin{equation}\label{eq:4-7-beta-feeding-normalization}
+\sum_i I_\beta(i)=b_\beta\leq1.
+\end{equation}
+若 $\beta^-$ 是唯一母态衰变模式，则 $b_\beta=1$。若采用以百分数表示的强度，须先除以 $100$；若采用以 $\beta^-$ 分支为条件且归一为一的馈送，则下式须乘 $b_\beta$。
+\item \textbf{级联退激：} 对每个初态，$\Gamma_{\mathrm{tot}}$ 为所有开放通道宽度之和，\begin{equation}\label{eq:4-7-total-width-def}\Gamma_{\mathrm{tot}}=\Gamma_\gamma+\sum_{k\geq1}\Gamma_{kn}+\cdots.\end{equation} 在可用非相干分支描述时，设 $b_{a\to b}^{(k)}$ 是状态 $a$ 经一次跃迁到 $b$ 并放出 $k$ 个中子的概率，包含 $k=0$ 的 $\gamma$ 或其他无中子通道；每个非终止态对所有开放末态与通道的分支之和为一。记从 $a$ 出发最终恰放出 $x$ 个中子的概率为 $\Pi_x(a)$，则
+\begin{equation}
+\Pi_x(a)=\sum_{b,k\geq0}b_{a\to b}^{(k)}\Pi_{x-k}(b),\quad
+\Pi_{x<0}(a)=0,\quad \Pi_x(t)=\delta_{x0}
+\end{equation}
+对吸收终态 $t$ 成立；连续态的求和包含积分。于是 $\sum_{x\geq0}\Pi_x(a)=1$，而按每次母态总衰变归一的最终分支为
+\begin{equation}\label{eq:4-7-conditional-probability}
+P_{xn}=\sum_i I_\beta(i)\Pi_x(i).
+\end{equation}
+该和包含全部可及初态；能量守恒使禁闭通道的 $\Pi_x(i)$ 自动为零。阈上 $\gamma$ 跃迁可先馈送另一阈上态，中子发射后也可能继续发射中子，故局域单步宽度比一般不等于最终 $\Pi_x$。只有忽略相继发射、并令所有相关单中子跃迁和零中子跃迁均在该步之后终止时，才有 $\Pi_1\simeq\Gamma_n/\Gamma_{\mathrm{tot}}$。
+\end{enumerate}
+% 以下原 P1n、P>=1n、Mn 公式可保留；补充说明：
+这里各 $P$ 为无量纲概率；乘 $100$ 才得到百分数。$P_{\geq1n}=\sum_{x\geq1}P_{xn}$ 与 $\langle M_n\rangle=\sum_{x\geq1}xP_{xn}$ 分别描述至少一个中子的事件分支和每次母态衰变的平均中子数。文献中 $P_n$ 的含义应按该文具体定义核对。
+% 块 D：替换第123行；R按母态总衰变归一。
+设 $R_{y|x}$ 为真实发射 $x$ 个中子后记录 $y$ 个信号的条件概率，则观测多重度分布满足 $p_y^{\mathrm{obs}}=\sum_xR_{y|x}P_{xn}$；若母态还有其他无中子衰变模式，应将它们加入 $x=0$ 贡献。理想独立、相同单中子效率 $\epsilon_n$ 且无串扰或偶然计数时，$R_{y|x}=\binom{x}{y}\epsilon_n^y(1-\epsilon_n)^{x-y}$。实际响应可依赖中子能谱、几何、时间窗与串扰，宜以标定和模拟建立响应并通过前向似然或展开方法提取发射几率。TAGS 中的中子响应与本底也须建模、校准或以适用的甄别方法约束，不能假定某一种硬件方案总能消除全部中子效应。
+
+% 块 E：替换第127--137行及143--145行；保持两个原公式标签。
+若确认 $0\nu\beta\beta$，在通常局域量子场论框架下将表明轻子数不守恒，并通过黑盒论证意味着中微子具有非零 Majorana 质量项；单凭观测不能确定轻中微子交换占主导，也不能独立确定有效 Majorana 质量。在轻 Majorana 中微子交换占主导的假设下，可采用配套约定
+\begin{equation}\label{eq:4-7-0nubb-halflife}
+[T_{1/2}^{0\nu}]^{-1}=G_{0\nu}g_A^4|M_{0\nu}|^2\left|\frac{m_{\beta\beta}}{m_e}\right|^2,\qquad m_{\beta\beta}=\left|\sum_jU_{ej}^2m_j\right|.
+\end{equation}
+这里 $G_{0\nu}$ 按本式定义为不含外提 $g_A^4$，$m_j$ 与 $m_e$ 采用同一质量或静止能量单位；$M_{0\nu}$ 的算符归一、核半径与相空间因子必须来自相容约定。若另定义 $\widetilde G_{0\nu}=G_{0\nu}g_A^4$，则不再外乘 $g_A^4$。该机制成立时，寿命或寿命下限结合相空间和矩阵元可约束 $m_{\beta\beta}$，矩阵元及机制的不确定度必须保留。
+传统长程部分可写成
+\begin{equation}\label{eq:4-7-NME-decomposition}
+M_{0\nu}^{\mathrm{long}}=M_{GT}-\left(\frac{g_V}{g_A}\right)^2M_F+M_T.
+\end{equation}
+此式中各通道势及形状因子须按同一 $g_A$ 归一约定定义，不能将已吸收相应耦合的矩阵元再次乘入。需要纳入短程项的有效场论计算中，完整 $M_{0\nu}$ 还包含按同一约定定义的接触贡献及其相干干涉。
+% 以下两段分别替换原第143行和第145行，保留原 enumerate 的对应 item。
+轻中微子交换在坐标空间具有长程近似 $1/r$ 的传播核，但闭合能、核子形状因子及短程物理会修饰实际势；核矩阵元涉及宽广的虚动量积分，典型贡献约为 $|\mathbf q|\sim100$--$200\,\mathrm{MeV}/c$，并非固定动量。
+Cirigliano 等在所研究的轻 Majorana 中微子交换、非微扰 $^1S_0$ 两核子散射框架中指出，仅用长程势会产生需重整化的紫外依赖，因而领头阶须加入 $\Delta L=2$ 的两核子短程接触算符，其低能常数记为 $g_\nu^{NN}$~\cite{cirigliano-2018-leading-short-range-double-beta}。该项是此机制的重整化一致性所需贡献，其有限系数须由匹配或独立输入确定；不能仅由发散消除得出其数值或断言其必然主导，也不应与单 $\beta$ 的两体轴流混同。
+
+% 块 F：替换第59行；在第159行小结中同步采用同一限定（不复制 \item）。
+\item 在 Zhi 等所研究的 $N=126$ 壳模型核素中，随质子数增加，GT 道因相关轨道的泡利阻塞而减弱；对于所算 $Z\geq70$ 核素，FF 对半衰期的贡献超过 GT。这是该模型与核素范围内的结果，不是所有 $N=126$ 核素的普适结论。
+% 块 G：替换第100行加粗句，避免把能量说成几率的数值上限。
+\textbf{$Q_{\beta n}\equiv Q_\beta-S_n$ 给出单中子通道的可用能量窗口；它本身并不能充分预测中子发射几率 $P_n$。}

@@ -1,0 +1,195 @@
+{
+  "appendix_id": "E",
+  "title": "数字算法与模块实现的声明条件",
+  "worker": "G95",
+  "recorded_at": "2026-11-14T02:00:00+08:00",
+  "output_latex": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixE.tex",
+    "sha256": "723a4cc180145f75d05b7e7f849a4708fab608faca1a00cd51cbc0cbd53ffd57",
+    "equations_count": 31,
+    "tables_count": 1,
+    "algorithms_count": 2,
+    "figures_count": 0,
+    "citations": [
+      "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "wu-2021-general-purpose-digital-daq-waveform-analysis",
+      "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+      "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "wolff-1982-poisson-arrivals-see-time-averages"
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "title": "通用数字化获取系统的开发",
+      "authors": [
+        "吴鸿毅"
+      ],
+      "year": 2020,
+      "raw_file": "raw/theses/2020_吴鸿毅_通用数字化获取系统的开发.pdf",
+      "raw_sha256": "64beeb74c05b149b062ca3ca274a1e9ce183a693b4a20b784aee2d93e5066e44",
+      "locators": [
+        "第2.1节印刷第17–26页/PDF第29–38页：梯形滤波成形算法与极零相消递推",
+        "第2.2节图2.8（印刷第42–43页/PDF第48–49页）：Pixie-16 4字标准单通道hit事件头位域定义与扩展数据块",
+        "附录B.3.2印刷第115–116页/PDF第127–128页：FIFO缓存拥塞分析、整事件丢弃历史与固件保头丢迹策略边界",
+        "第4.2节印刷第92–97页/PDF第104–109页：数字恒比定时CFD算法与过零插值"
+      ]
+    },
+    {
+      "source_id": "wu-2021-general-purpose-digital-daq-waveform-analysis",
+      "title": "通用数字核数据获取系统中的波形分析算法",
+      "authors": [
+        "吴鸿毅",
+        "等"
+      ],
+      "year": 2021,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G32/wu-2021-general-purpose-digital-daq-waveform-analysis.pdf",
+      "raw_sha256": "1645009b02fcb0255b11ba90caad33c94f5bb53f93c042ef3a6ccceeb7bc56b2",
+      "locators": [
+        "第2节：极零相消与离散递推因果实现"
+      ]
+    },
+    {
+      "source_id": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "title": "Timing measurements with the Pixie-16 digital data acquisition system",
+      "authors": [
+        "S. Lipschutz",
+        "et al."
+      ],
+      "year": 2016,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G32/lipschutz-2016-lenda-ddas-timing.pdf",
+      "raw_sha256": "466c421c59f5c964b14de545f315c74c1d614a60b78192eb72efe427f75740cc",
+      "locators": [
+        "Section 3 & 4 (pp. 45–52): Sub-sample CFD timing interpolation and deterministic phase walk"
+      ]
+    },
+    {
+      "source_id": "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+      "title": "Multi-chassis synchronization and trigger distribution in Pixie-16",
+      "authors": [
+        "W. Hennig",
+        "et al."
+      ],
+      "year": 2007,
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G32/hennig-2007-pixie16-clock-trigger-sync.pdf",
+      "raw_sha256": "e077cdcfd462610a80467024aac3446a562e2e4eaffbc813578a0b9bb86e0449",
+      "locators": [
+        "Section II & III: Distributed clock, 48-bit timestamping and module synchronization"
+      ]
+    },
+    {
+      "source_id": "wolff-1982-poisson-arrivals-see-time-averages",
+      "title": "Poisson Arrivals See Time Averages",
+      "authors": [
+        "Ronald W. Wolff"
+      ],
+      "year": 1982,
+      "raw_file": "raw/papers/gpt/query/20261113-A130-live-time/wolff-1982-poisson-arrivals-see-time-averages.pdf",
+      "raw_sha256": "42b994436fed08d86ddcc7dd7773dec34c0058ca505d9e0f65f92c5ec7b4e9f2",
+      "locators": [
+        "Section 1 & Theorem 1 (pp. 223–226): Lack of Anticipation Assumption (LAA) and limit theorem"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C-appE-pzc-recurrence",
+      "topic": "离散时间极零相消精确因式分解与因果初值",
+      "claim_kind": "analytical-derivation",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [
+        "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+        "wu-2021-general-purpose-digital-daq-waveform-analysis"
+      ],
+      "locator": "Tex Eq.(E.3)-(E.5); Wu 2020 p.17-26",
+      "statement": "极零相消参数精确定义为 M = [exp(Ts/tau_d) - 1]^{-1} = alpha/(1-alpha)，M approx tau_d/Ts 仅为一阶展开；递推式 v_p[n] = v_p[n-1] + v[n] - alpha v[n-1] 在 alpha = M/(M+1) 时对纯指数脉冲输入 v[n] = A alpha^n u[n] 实现零极点严格代数对消，输出阶跃高度恒为 A。因果初值为 v[n<0]=0，v[0]=A。"
+    },
+    {
+      "claim_id": "C-appE-trapezoid-recurrence",
+      "topic": "Jordanov 梯形滤波四级流水线差分方程与 FIR 分解",
+      "claim_kind": "analytical-derivation",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [
+        "wu-hongyi-2020-general-purpose-digital-daq-thesis"
+      ],
+      "locator": "Tex Eq.(E.8)-(E.17); Section 5.3",
+      "statement": "梯形滤波差分方程统一为 d[n] = v[n] - v[n-k] - v[n-ell] + v[n-k-ell], p[n] = p[n-1] + d[n], r[n] = p[n] + M d[n], s[n] = s[n-1] + r[n]，满足 ell >= k，平顶宽度 (ell-k)Ts，基底宽度 (k+ell)Ts。换元 ell = k+l 下平顶为 lTs。传递函数严格分解为 H(z) = [(M+1) - M z^-1] B_k(z) B_ell(z)，B_k B_ell 为纯 FIR 双移动平均核。纯指数输入下平顶区间 n in [k-1, ell-1] 幅度严格等于 A k (M+1)，必须以此归一化消除增益偏置。"
+    },
+    {
+      "claim_id": "C-appE-ballistic-deficit-noise",
+      "topic": "弹道亏损条件与成形平顶噪声带宽权衡",
+      "claim_kind": "analytical-derivation",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [
+        "wu-hongyi-2020-general-purpose-digital-daq-thesis"
+      ],
+      "locator": "Tex Sec.E.1.2",
+      "statement": "电荷收集电流具有限支撑 [0, tau_coll] 时，平顶 (ell-k)Ts >= tau_coll 消除弹道亏损；具慢尾流时无硬上限 tau_coll^max，亏损仅渐近减小。延长平顶与成形时间压缩低通等效噪声带宽（抑制串联白电压噪声），但延长积分时间使并联白电流噪声线性增加；平顶选取属于客观权衡，梯形滤波是白噪声及平顶约束下的最优 FIR 结构，非任意色噪声最优。"
+    },
+    {
+      "claim_id": "C-appE-cfd-interpolation",
+      "topic": "数字双极性 CFD 延迟相减算子与割线内插截断误差",
+      "claim_kind": "analytical-derivation",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [
+        "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+        "wu-hongyi-2020-general-purpose-digital-daq-thesis"
+      ],
+      "locator": "Tex Eq.(E.19)-(E.23); Section 5.4",
+      "statement": "数字 CFD 双极性序列统一为 C[n] = F[n-d] - f F[n]，其中 F[n] 为快成形滤波输出（非原始宽带波形 v[n]）；过零参考点为脉冲前沿后由负至非负的第一个过零区间 C[n0] < 0 <= C[n0+1]。线性内插截断误差领先阶为 varepsilon_trunc approx -0.5 Ts^2 phi(1-phi) C''(t_zc) / C'(t_zc)，要求光滑信号且 C' != 0；phi=0.5 仅为局部曲率固定时的相位调制极值，非全波形全局上界。"
+    },
+    {
+      "claim_id": "C-appE-pixie-header-hit",
+      "topic": "Pixie-16 列表模式单通道击中事件头与高水位丢迹边界",
+      "claim_kind": "observed-fact",
+      "evidence_level": "direct",
+      "source_ids": [
+        "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+        "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync"
+      ],
+      "locator": "Wu 2020 Fig 2.8 (p.42-43) & App B.3.2 (p.115-116); Tex Tab.E.1",
+      "statement": "Pixie-16 列表模式数据包严格对应单通道击中（Single-Channel Hit）事件，非整核碰撞事件。4 字基础头包含通道号、槽位号、机箱号、48 位时间戳、CFD 小数插值及慢滤波能量。高计数率下固件保头丢迹策略（丢弃波形、保留 4 字头）仅缓解板卡至上位机的总线传输瓶颈，不消除前端探测器物理死时间、过载基线下陷或脉冲堆积。"
+    },
+    {
+      "claim_id": "C-appE-pasta-theorem-limits",
+      "topic": "Wolff PASTA 定理、到达采样测度与非前瞻性假设边界",
+      "claim_kind": "author-theoretical-model",
+      "evidence_level": "derived-quantity",
+      "source_ids": [
+        "wolff-1982-poisson-arrivals-see-time-averages"
+      ],
+      "locator": "Wolff 1982 pp.223-226; Tex Sec.E.5.2",
+      "statement": "齐次泊松到达在无预知假设（LAA）下满足到达平均等于时间平均（针对到达前瞬间状态 X(t_k^-)）。偏离泊松过程不代表到达平均必然显著偏离时间平均；单点 PASTA 不自动推广至双时间点联合相关函数 X_1(t) X_2(t+Delta t)（Delta t > 0 时依赖未来到达历史）。"
+    },
+    {
+      "claim_id": "C-appE-shared-busy-covariance",
+      "topic": "公模忙门控下正协方差反例推导与适用条件",
+      "claim_kind": "analytical-derivation",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [],
+      "locator": "Tex Eq.(E.26)-(E.31); Section 5.5",
+      "statement": "Cov(X1, X2) = 0 仅代表线性不相关非一般独立。在公模忙信号 B(t) 存在时，在声明的条件独立与零时间延迟（Delta t = 0）设定下，真实联合活时间为 L12 = (1-f_busy) p1 p2，单道乘积为 L1 L2 = (1-f_busy)^2 p1 p2，导致正协方差 Cov(X1, X2) = f_busy (1-f_busy) p1 p2 > 0，机械套用单道乘积将系统性低估符合接收率。正协方差严格建立在声明设定下，非所有系统任意延迟恒为正。"
+    },
+    {
+      "claim_id": "C-appE-pseudocode-spec",
+      "topic": "梯形滤波与 CFD 伪代码规范与定点因果零填充",
+      "claim_kind": "analytical-derivation",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [
+        "wu-hongyi-2020-general-purpose-digital-daq-thesis"
+      ],
+      "locator": "Tex Alg.E.1 & Alg.E.2",
+      "statement": "教学参考伪代码规范：因果序列负索引显式零填充；基线扣除对当前样本与所有历史延迟样本统一执行，消除伪填充；CFD 采用延迟减衰减算子，配合前沿门限装锁保护与割线内插。声明其为教学参考实现，与 FPGA 专用补码定点硬件网表保持边界区分。"
+    }
+  ],
+  "migration_differences": [
+    "E1: 统一极零相消参数为精确解析式 M = alpha/(1-alpha)，明确 M approx tau_d/Ts 仅为一阶展开；规范初值因果条件与纯指数输入幅值。",
+    "E2: 修正梯形滤波差分方程组为 Section 5.3 统一的四级因果递推，消除原草稿方程与传递函数不匹配的代数缺陷；显式定义平顶换元 ell = k+l，证明纯指数输入平顶高度严格为 A k (M+1)。",
+    "E3: 纠正平顶拉长'扩大通频带'的错误物理叙述，澄清其压缩等效低通噪声带宽；建立消除弹道亏损与串/并联噪声之间的客观权衡。",
+    "E4: 统一 CFD 双极性定义为 C[n] = F[n-d] - f F[n] 与负至非负过零判定；严格区分快滤波输出 F[n] 与原始 ADC 采样 v[n]；导出割线内插领先阶截断误差负号与平滑适用条件。",
+    "E5: 修正伪代码中的基线扣除逻辑与因果边界，消除 v[max(0, n-k)] 伪填充；引入前沿门限装锁判定。",
+    "E6: 明确 Pixie-16 数据头为单通道 hit 事件头；基于吴鸿毅论文图 2.8 修正位域说明；澄清 FIFO 保头丢迹策略仅缓解读出带宽瓶颈，不解决物理死时间与基线下陷。",
+    "E7: 明确 PASTA 针对到达前瞬时状态 X(t^-)；澄清非泊松到达不必然显著偏离时间平均，单点 PASTA 不自动推广至双时符合；限定共享忙正协方差反例的条件独立与零延迟边界。",
+    "E8: 将所有来源规范为 Wiki canonical source ID，并提供有限输入控制脚本验证通过。"
+  ]
+}

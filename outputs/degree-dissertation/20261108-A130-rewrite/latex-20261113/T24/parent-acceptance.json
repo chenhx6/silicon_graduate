@@ -1,0 +1,20 @@
+{
+  "status": "accepted_narrow_audit",
+  "session_date": "2026-11-14",
+  "actual_utc": "2026-11-13T21:13:55.373481+00:00",
+  "scope": [
+    "normalized double-end angular momentum projection",
+    "unpolarized angle-integrated FF spectral rank separation"
+  ],
+  "parent_replayed": "validation.py: pass",
+  "primary_pdf": "raw/papers/gpt/query/20261108-foundations-G34/Zhi_2013_PRC_87_025803_SM_halflives_first_forbidden.pdf",
+  "primary_sha256": "eaedbd4539854e3d1f0e7860ef7ab9c647d4fa44cd8144b4989ba220ec639333",
+  "primary_locator": "PDF 2–3, Eqs. (6)–(8)",
+  "canonical_4_7_narrow_correction": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-7.tex",
+  "canonical_4_7_sha256": "3c97aa74887822c9aeb702c57451c374a2d330655e9401e1cf0926bff02516d1",
+  "limitations": [
+    "finite angular control is not full FF derivation",
+    "no conclusion for polarization/angular correlation observables",
+    "Appendix D pending integration and parent acceptance"
+  ]
+}

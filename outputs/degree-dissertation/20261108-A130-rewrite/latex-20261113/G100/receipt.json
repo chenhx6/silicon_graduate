@@ -1,0 +1,133 @@
+{
+  "task_id": "G100",
+  "status": "completed",
+  "recorded_at": "2026-11-13T19:44:36.479681+00:00",
+  "worker": "G100 (Gemini Tiered/high executor)",
+  "section": "5.7",
+  "title": "角关联、偏振和 $\\delta$ 反演",
+  "contract": {
+    "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G100/contract.json",
+    "sha256": "1f412dbd8f8654041d5fd34a812ecf43806941f7f052be9b26c7e21cfa25d17e",
+    "size_bytes": 1636,
+    "description": "G100 worker contract"
+  },
+  "delivered_files": [
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-7.tex",
+      "sha256": "72b505266509f2bb51e5e003f73fb537e738a10fe0a574b1bb6a58b0e9318d9d",
+      "size_bytes": 25379,
+      "description": "Section 5.7 revised LaTeX text"
+    },
+    {
+      "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-7.json",
+      "sha256": "1325844ea32104ef2b76e6350014aba7449fc3f38b8a514d83b3d40d6dc96d88",
+      "size_bytes": 10103,
+      "description": "Section 5.7 evidence ledger"
+    },
+    {
+      "path": "system/scripts/a130_angular_branch_figure.py",
+      "sha256": "a24371444952b207bb428d911b54b8f39a833292f536f4a4de4e64e1b258a35c",
+      "size_bytes": 5105,
+      "description": "Figure generator script with analytical positivity and no artificial clipping"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/angular-branch-delta-likelihood.svg",
+      "sha256": "7e9bd88736d711ee085d657c7a4e5f6534c14d7208fbe6ca94e8e883c528c55b",
+      "size_bytes": 87708,
+      "description": "Regenerated didactic figure SVG"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/angular-branch-delta-likelihood.pdf",
+      "sha256": "e199e630eb4b614a159390f9bc8a348b46f1ed964f67f0ccb076b1f5ea4778ca",
+      "size_bytes": 27756,
+      "description": "Regenerated didactic figure PDF"
+    },
+    {
+      "path": "knowledge/research-notes/a130-rewrite-sec-5-7-angular-distribution-dco-polarization-reconciliation-20261114.md",
+      "sha256": "a17bc1818af61206e7d84092cac935bf8da55d46c565abb67bfd814538c8c69c",
+      "size_bytes": 7938,
+      "description": "Unique 5.7 knowledge note documenting reconciliation and original page anchors"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G100/findings-mapping.json",
+      "sha256": "ced113f2bc9f30ecab0603eb1a14e317a1cc945defe23f1d3b04737dc2722758",
+      "size_bytes": 10233,
+      "description": "Detailed mapping of T19 findings F01..F10 to G100 implementations"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G100/new-references.bib",
+      "sha256": "569b2be41907657173f68592b764288cac2a83c22c9f54b94b22808a1224d98f",
+      "size_bytes": 1807,
+      "description": "BibTeX reference proposals and notes for Section 5.7"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G100/validation.py",
+      "sha256": "c47013376f48dd56bd3666f32281a953f226bbb6b7b57d48a01f901bdee519ca",
+      "size_bytes": 7321,
+      "description": "G100 validation script"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G100/results.json",
+      "sha256": "6392ac68853f8451ac3f991a9d6e6f0f9a39214673fc271ce46081fb9633d3bc",
+      "size_bytes": 3118,
+      "description": "G100 validation run results"
+    }
+  ],
+  "findings_resolved": {
+    "F01": "Resolved: Removed duplicate U_k in a_k; a_k = B_k(I_i) Q_k A_k(delta) using B0=Q0=A0=1.",
+    "F02": "Resolved: Separated orientation P(M)=P(-M) (B_odd=0) from unpolarized helicity summation extinguishing odd ranks in W(theta); rank truncated by min(2I_i, 2L_max).",
+    "F03": "Resolved: Standardized on Krane--Steffen (KS) convention with positive interference +2*delta*F_k; delta_KS = -delta_RB in emission; M1 unit aligned with 5.9 and Appendix A (M_S = M_mu/c).",
+    "F04": "Resolved: Clebsch-Gordan ordering in B_k documented: B_k = (-1)^k B_k^Hamilton; odd ranks differ by sign, even ranks identical; B0=1 holds for all normalized populations.",
+    "F05": "Resolved: Explicit polarization definition P = (W_parallel - W_perp)/(W_parallel + W_perp); associated Legendre factor 2*sqrt((k-2)!/(k+2)!); separated Q_k^pol from analyzing power Q(E); instrumental asymmetry a = N_perp^0 / N_parallel^0; Hamilton Ch. 12 & 15 cited.",
+    "F06": "Resolved: Spurious roots from cleared denominators screened via D(delta*) != 0; projective coordinates delta = u/v with pure multipole endpoint v=0 analyzed; degenerate and linear cases categorized; all physical branches preserved without model pruning.",
+    "F07": "Resolved: DCO single-detector efficiency factorization and multidetector pair weighting stated; cascade time-ordering in directional correlation formulated via Racah recoupling.",
+    "F08": "Resolved: Figure script positivity proven analytically (W +/- H > 0, D > 0); artificial np.clip removed; legend labeled Hypothetical Band; caption states algebraic didactic model.",
+    "F09": "Resolved: Hamilton locators corrected in ledger: PDF 529/532, 550, 553, 555, 556, 557, 563, 569 (Ch. 12) and PDF 727–728 (Ch. 15); PDF 355 identified as Ch. 10 internal conversion and purged.",
+    "F10": "Resolved: Q_k scalar attenuation requires axially symmetric detector response w(Omega) >= 0 with Q0=1, |Q_k| <= 1; spin orientation width determined by calibration or systematic envelope."
+  },
+  "actual_raw_locators": [
+    {
+      "source": "Hamilton (1975) The Electromagnetic Interaction in Nuclear Spectroscopy",
+      "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+      "raw_sha256": "93b32a8debb66ad036229d860ad56f0434dc49b56edd32f1628af1d71a21ae00",
+      "total_physical_pages": 956,
+      "verified_pages": {
+        "PDF_529_532": "Orientation parameters B_k, Eq. 12.73 and Gaussian width Eqs. 12.80–12.81 (printed 518, 521)",
+        "PDF_550": "F_k coefficients, Eq. 12.168 (printed 539)",
+        "PDF_553": "Angular distribution coefficients A_k, Eqs. 12.180–12.186, KS convention (printed 542)",
+        "PDF_555": "Unobserved photon helicity summation extinguishing odd ranks, Eqs. 12.188–12.189 (printed 544)",
+        "PDF_556": "Axially symmetric intensity and linear polarization, Eqs. 12.193–12.198 (printed 545)",
+        "PDF_557": "Cascade time-ordering in two-photon directional correlations, Eq. 12.199 (printed 546)",
+        "PDF_563": "Unobserved cascade deorientation factor U_k, Eqs. 12.209–12.213 (printed 552)",
+        "PDF_569": "DCO ratio and pure multipole limit, Eqs. 12.247–12.253 (printed 558)",
+        "PDF_727_728": "Chapter 15 Compton linear polarimetry, Eqs. 15.9–15.15, analyzing power Q(E) (printed 716–717)",
+        "PDF_355": "Chapter 10 experimental methods in internal conversion (printed 344), not polarimetry"
+      }
+    },
+    {
+      "source": "Lange, Kumar, and Hamilton (1982) Rev. Mod. Phys. 54, 119",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+      "raw_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+      "verified_pages": {
+        "PDF_3": "Section 2, Eqs. 2.4–2.6: KS RME definition with sqrt(3)/10 factor (printed 121)",
+        "PDF_4": "Section 2, Eqs. 2.8–2.11: rational quadratic A_k with positive interference +2*delta*F_k in KS convention; phase relations delta_KS = -delta_RB in emission (printed 122)",
+        "erratum_note": "1982 erratum (RMP 54, 1194) is metadata only, does not alter Section 2 formulas"
+      }
+    },
+    {
+      "source": "Görgen et al. (2004) Phys. Rev. C 69, 031301",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "raw_sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e",
+      "verified_pages": {
+        "PDF_2_4": "Table II and interband transition delta = -3.10(+0.36/-0.44) adopted from previous thin-target experiments"
+      }
+    }
+  ],
+  "evidence_boundaries": [
+    "Single section (5.7) delivery only; no modifications to Section 5.9, Appendix A, or other dissertation sections.",
+    "No modifications to public Bib (wiki-auto-generated.bib or ref.bib); suggested additions placed in G100/new-references.bib.",
+    "No modifications to canonical source pages under knowledge/sources/.",
+    "No git index/commit/push operations executed.",
+    "Didactic figure explicitly maintained as an algebraic illustrative model with verified non-negative physical intensities, without fabricating user experimental data."
+  ]
+}

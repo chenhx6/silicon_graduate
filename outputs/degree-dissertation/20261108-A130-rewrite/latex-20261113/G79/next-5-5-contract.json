@@ -1,0 +1,104 @@
+{
+  "section_id": "5.5",
+  "canonical_title": "触发、缓存与联合活时间",
+  "blueprint_title_ref": "knowledge/research-notes/doctoral-thesis-architecture-and-section-map-20261108.md: '5.5 触发、缓存与联合live'",
+  "worker": "G79",
+  "created_at_utc": "2026-11-13T03:27:14.560013+00:00",
+  "status": "contract_staged_ready_for_start",
+  "primary_objective": "推导多通道数字化获取中事件触发、字头打包、缓存溢出与死时间模型，解析论证共同busy下双道联合活时间不可随意相乘的数学机制，严格区分硬件保存概率与离线clean样本选择。",
+  "local_raw_locator_readiness": [
+    {
+      "citation_key": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "canonical_title": "通用数字化获取系统的开发",
+      "local_raw_path": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+      "raw_sha256": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b",
+      "sha_verified": true,
+      "locators": [
+        {
+          "pages": "PDF pages 53–56 (printed 41–44)",
+          "section": "2.1.4 可编程逻辑模块 MZ-TrigIO 与 2.2 数据格式与数据头",
+          "content": "背板触发分发、机箱时钟同步、图 2.8 Pixie-16 固定 4 字事件头结构（字 0: 通道/槽/机箱/长度/堆积标志；字 1: 48 位时间戳低 32 位；字 2: 时间戳高 16 位 + CFD 结果；字 3: 16 位能量 + 径迹长度 + 超量程标志）；FIFO 满时丢弃波形仅留数据头或整事件丢弃之固件行为"
+        },
+        {
+          "pages": "PDF pages 127–128 (printed 115–116)",
+          "section": "附录 B 死时间模型",
+          "content": "图 B.1 可扩展（paralysable）与不可扩展（non-paralysable）死时间行为模型说明；不可扩展系统速率传递方程与输入输出关系"
+        }
+      ]
+    },
+    {
+      "citation_key": "doctoral-r3-daq-spectroscopy-inverse",
+      "canonical_title": "在束数字化谱学测量反演链与事件重构约定",
+      "evidence_role": "符合窗口时间对准、双道重叠判决与活时间校正接口"
+    }
+  ],
+  "pedagogical_controls": {
+    "step_1_trigger": "从第 5.3 节快通道微分越阈或第 5.4 节 CFD 过零出发，定义通道独立触发判据；区分局部硬件触发与阵列全局符合触发逻辑。",
+    "step_2_buffering_and_words": "梳理采样波形进入高速缓存（FIFO）与通道事件字打包过程，基于吴鸿毅论文图 2.8 严格定义 4 字固定头与可选数据块。严格依据原件 PDF 55–56 区分固件行为：标准 Pixie-16 固件在波形缓存满时无法存储任何后续事件（整事件丢失）；而针对本系统定制的固件则在波形缓存满时仅存储数据头而丢弃波形径迹（保头丢波形），未注明的硬件配置不得随意混淆或推广。",
+    "step_3_dead_time_physics": "明确经典不可扩展与可扩展死时间模型基于泊松平稳到达与固定死时间 tau 的理想假定。指出实际数字系统中的堆积剔除（PUR）、多级 FIFO 溢出、总线带宽竞争与 DSP 处理延迟，非通用单 tau 所能完全涵盖。",
+    "step_4_joint_live_time_analytical_proof": "以一般协方差恒等式 Live_12 = Live_1 * Live_2 + Cov(1_live1, 1_live2) 为基础基础关系。指出仅在假设共享阻塞期间两道全忙、且在非阻塞期间两道局部条件独立的教学简化下，才有 Live_12 = (1-f) L_1|free L_2|free > Live_1 * Live_2；真实系统中不同多路复用或轮询仲裁逻辑可能引入局部负相关而部分抵消，严禁断言所有多通道忙逻辑必然表现为单向正协方差。",
+    "step_5_clean_selection_separation": "严格区分数据流硬件保存阶段的真实活时间损失（未记录事件不可恢复）与离线物理分析阶段的数据清洗门选（如堆积剔除、超量程剔除、波形拟合质量判弃）。"
+  },
+  "key_equations_and_units": [
+    {
+      "name": "不可扩展死时间传递方程（泊松平稳假设）",
+      "latex": "R_{\\mathrm{out}} = \\frac{R_{\\mathrm{in}}}{1 + R_{\\mathrm{in}} \\tau_{\\mathrm{np}}}, \\qquad Live_{\\mathrm{np}} = \\frac{1}{1 + R_{\\mathrm{in}} \\tau_{\\mathrm{np}}}",
+      "units": "R_in, R_out 为 s^-1; tau_np 为 s; Live 为无量纲概率",
+      "limit": "基于泊松到达与固定不可扩展处理时间 tau_np，不涵盖动态缓存溢出与复杂堆积判决"
+    },
+    {
+      "name": "可扩展死时间传递方程（泊松平稳假设）",
+      "latex": "R_{\\mathrm{out}} = R_{\\mathrm{in}} e^{-R_{\\mathrm{in}} \\tau_{\\mathrm{p}}}, \\qquad Live_{\\mathrm{p}} = e^{-R_{\\mathrm{in}} \\tau_{\\mathrm{p}}}",
+      "units": "R_in, R_out 为 s^-1; tau_p 为 s; Live 为无量纲概率",
+      "limit": "连续事件到达级联延长死时间，极高计数率下输出率向零崩溃"
+    },
+    {
+      "name": "联合活时间一般协方差恒等式",
+      "latex": "Live_{12} \\equiv \\mathbb{E}[\\mathbf{1}_{\\mathrm{live}, 1} \\mathbf{1}_{\\mathrm{live}, 2}] = Live_1 Live_2 + \\mathrm{Cov}(\\mathbf{1}_{\\mathrm{live}, 1}, \\mathbf{1}_{\\mathrm{live}, 2})",
+      "units": "无量纲概率与二值随机变量协方差",
+      "condition": "一般数学恒等式，Cov > 0、Cov < 0 或 Cov = 0 依具体读出仲裁与物理耦合决定"
+    },
+    {
+      "name": "条件独立共享阻塞教学反例",
+      "latex": "Live_{12} = (1 - f_{\\mathrm{busy}}) Live_{1|\\mathrm{free}} Live_{2|\\mathrm{free}} = \\frac{Live_1 Live_2}{1 - f_{\\mathrm{busy}}}",
+      "condition": "仅在系统存在公共阻塞时段 f_busy > 0、且非阻塞时段两道局部条件独立的特定教学模型下成立，用于证明边缘活时间直接相乘之失效"
+    }
+  ],
+  "cross_section_interfaces": {
+    "upstream_5_3": "慢梯形滤波成形时间与堆积判弃（PUR）时间窗 (k+l)Ts 作为单通道死时间的重要来源。",
+    "upstream_5_4": "快触发时间标记与 CFD 过零插值时间戳作为符合对准与联合活时间窗判定的时间基准。",
+    "downstream_5_6": "符合矩阵构建中事件合并与门选依赖 5.5 节给出的联合存活几率，防止将死时间不对称伪造为核退激拓扑不对称。",
+    "downstream_5_7": "角分布系数 W(theta) 与 DCO 强度比提取依赖各角度探测器通道的相对有效活时间校正。"
+  },
+  "competing_explanations": [
+    "特定探测器角位置的计数偏低可能源自核反应物理角分布各向异性，也可能源自该通道更高的局部计数率导致的不可扩展死时间损失，或机箱共享总线拥堵导致的事件丢弃。",
+    "符合能谱中弱级联分支的缺失可能源自物理跃迁强度微弱，也可能源自双通道联合死时间高估导致扣除过度，或离线门选判弃规则对大脉冲堆积的不对称否决。"
+  ],
+  "negative_controls_and_authorizations": {
+    "no_fictitious_experiments": "严禁虚构个人探测器硬件、私有固件实现或未记录的在线机时数据。",
+    "firmware_truthfulness": "字头结构与固件行为严格限制在吴鸿毅 (2020) 博士论文公开记录的 Pixie-16 与 GDDAQ 架构范围内。",
+    "waiting_rule": "本文件落盘后严格等待父流程发送 'START' 指令后方可开始编写 sec-5-5.tex，当前不触动主工程任何现有 tex、ledger 或索引。"
+  },
+  "staged_draft": {
+    "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G79/staged-sec-5-5.tex",
+    "sha256": "0e78ce48891d8a3e1c9b1cf8d78936591b75dc6fbf38648a68806472d4dc9ec7",
+    "size_bytes": 17685,
+    "status": "staged_in_output_domain_waiting_parent_START",
+    "canonical_target": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-5.tex (NOT TOUCHED)"
+  },
+  "sampling_measure_definition": {
+    "time_average_measure": "overline{X}_i = lim_{T->inf} (1/T) int_0^T X_i(t) dt，为连续时间域均匀 Lebesgue 平均",
+    "arrival_reference_measure": "Live_{12}(Delta t) = E_ref[X_1(t) X_2(t + Delta t)]，为离散到达点集上的事件采样期望",
+    "pasta_property_boundary": "仅在外部输入为严格无记忆平稳泊松过程时，时间平均分数才等于到达采样概率；核退激级联受能级寿命 tau 与束团微观结构约束，到达时间存在关联与门宽错开，不可混同",
+    "reference_ensemble_types": [
+      "随机测试脉冲/时钟源（Pulser）：与核物理反应解耦，采样背景时间平均阻塞态",
+      "目标物理级联事件（Cascade）：光子 1 在 t 到达、光子 2 在 t + Delta t 到达的条件采样",
+      "瞬发符合（Prompt）：仅为 Delta t = 0 的零时差特例"
+    ]
+  },
+  "covariance_correction_limits": {
+    "identity_nature": "Live_{12}(Delta t) = Live_1 Live_2 + Cov_ref(X_1(t), X_2(t + Delta t)) 为严格数学恒等式，非无偏校正经验保证",
+    "correction_boundary": "不能仅凭拥有协方差恒等式即承诺可对真实实验符合数据做无偏还原；多探测器对之间存在立体角、束流突发打乱泊松性及动态死时间漂移，必须配套真实注入标定",
+    "separation_of_mechanisms": "硬件在线保存损失（未记录则物理湮灭）与离线物理清洗门选（PUR/饱和/时间窗相空间过滤）必须明确解耦"
+  }
+}

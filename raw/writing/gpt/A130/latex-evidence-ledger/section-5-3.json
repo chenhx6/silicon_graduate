@@ -13,7 +13,7 @@
   },
   "output_latex": {
     "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-3.tex",
-    "sha256": "81f757b33a8ca0e0c65c025661b57e956c3f7d1d7df2972d3a35a89dccf76e04",
+    "sha256": "18691f5600b22093032d725fbeb6cf74c9a5fbf816e075ead598f0109b340960",
     "equations_count": 20,
     "tables_count": 1,
     "figures_count": 1,
@@ -51,7 +51,8 @@
     "citations": [
       "wu-hongyi-2020-general-purpose-digital-daq-thesis",
       "wu-2021-general-purpose-digital-daq-waveform-analysis"
-    ]
+    ],
+    "bytes": 20095
   },
   "sources": [
     {
@@ -120,6 +121,8 @@
     "待 G80 生成并注入 Img/digital-energy-response.pdf，当前由 \\IfFileExists 条件块安全包裹兜底占位",
     "Wu 论文印刷第 20 页式 (1.14)、(1.19) 末项印为 n[n-k-l]，文本已保留原文记录并明确 LTI 重建依据 v[n-k-l]"
   ],
-  "parent_final_tex_sha256": "81f757b33a8ca0e0c65c025661b57e956c3f7d1d7df2972d3a35a89dccf76e04",
-  "integration_status": "included-in27-section-clean-preview"
+  "parent_final_tex_sha256": "18691f5600b22093032d725fbeb6cf74c9a5fbf816e075ead598f0109b340960",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-3.tex",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
 }

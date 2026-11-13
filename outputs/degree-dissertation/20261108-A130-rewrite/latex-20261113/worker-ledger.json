@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T11:25:29.320787+00:00",
+  "updated_at": "2026-11-13T17:16:15.781086+00:00",
   "native_goal_status": "active",
   "plan": "outputs/plans/20261113-A130-latex-execution.json",
   "plan_sha256": "819c15eedef7bb2f4b6ecf1d897bef4325a496ccb91fe3eb2047a4dd1ce0f068",
@@ -150,70 +150,108 @@
   ],
   "current_workers": [
     {
-      "task_id": "G79",
-      "agent_id": "01a1d274-e82c-7bc0-af59-22fac97251d4",
-      "requested_model": "antigravity/gemini-3.8-flash-tiered",
-      "reasoning_effort": "high",
-      "state": "running",
-      "runtime": {
-        "timestamp": "2026-11-13T10:03:39.931Z",
-        "model": "antigravity/gemini-3.8-flash-tiered",
-        "effort": "high"
-      },
-      "ownership_plan": "outputs/plans/20261113-A130-remaining-sections.json",
-      "publish_permission": false,
-      "isolation": "protocol-only; shared filesystem"
-    },
-    {
-      "task_id": "G88",
+      "task_id": "G104",
       "agent_id": "01a1d461-d238-71e0-a12b-5a201d70f6bd",
+      "engineering_only": true,
       "requested_model": "antigravity/gemini-3.8-flash-tiered",
-      "reasoning_effort": "high",
-      "state": "running",
-      "runtime": {
-        "timestamp": "2026-11-13T10:51:03.015Z",
-        "model": "antigravity/gemini-3.8-flash-tiered",
-        "effort": "high"
-      },
-      "ownership_plan": "outputs/plans/20261113-A130-remaining-sections.json",
+      "requested_reasoning_effort": "high",
+      "runtime_boundary": "Explicit selected model; no new independent turn_context measurement in this continuation.",
       "publish_permission": false,
-      "isolation": "protocol-only; shared filesystem"
+      "alias": "G92 clean33format reviewedandparentintegrated",
+      "contract": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G104/contract.json",
+      "scope": "newfinal39isolatedengineeringonly",
+      "state": "running"
     },
     {
-      "task_id": "G89",
+      "task_id": "G102",
+      "agent_id": "01a1d586-2e67-7a52-b4f0-6b9e62701eb3",
+      "sections": [],
+      "current_single_section": "5.10",
+      "queue_after_delivery": [],
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_reasoning_effort": "high",
+      "runtime_boundary": "Explicit selected model; no new independent turn_context measurement in this continuation.",
+      "publish_permission": false,
+      "alias": "G93 5.6/5.10 accepted-parentowned",
+      "scope": "Onlystatisticalknowledge-noteandG102receipt"
+    },
+    {
+      "task_id": "G98",
       "agent_id": "01a1d469-e510-7fe3-9c8b-005d2362e820",
+      "alias": "G89/G95 completed",
+      "appendices": [],
+      "sections": [],
       "requested_model": "antigravity/gemini-3.8-flash-tiered",
-      "reasoning_effort": "high",
-      "state": "running",
-      "runtime": {
-        "timestamp": "2026-11-13T11:15:45.679Z",
-        "model": "antigravity/gemini-3.8-flash-tiered",
-        "effort": "high"
-      },
-      "ownership_plan": "outputs/plans/20261113-A130-remaining-sections.json",
+      "requested_reasoning_effort": "high",
+      "runtime_boundary": "Explicit selected model; no new independent turn_context measurement in this continuation.",
       "publish_permission": false,
-      "isolation": "protocol-only; shared filesystem"
+      "current_single_section": "5.8",
+      "state": "R2delivered-parent-finalized-and-closed",
+      "closed": true,
+      "scope": "No furtherwrites; parentowns5.8final"
     },
     {
-      "task_id": "G90",
-      "agent_id": "01a1d4a1-c1d0-76d1-9ea4-f16c26f8873c",
+      "task_id": "G96",
+      "agent_id": "01a1d5a4-12b2-71d0-bae5-1e99d32ceb23",
+      "sections": [],
+      "appendices": [
+        "D"
+      ],
       "requested_model": "antigravity/gemini-3.8-flash-tiered",
-      "reasoning_effort": "high",
-      "state": "running",
-      "runtime": {
-        "timestamp": "2026-11-13T11:18:54.470Z",
-        "model": "antigravity/gemini-3.8-flash-tiered",
-        "effort": "high"
-      },
-      "ownership_plan": "outputs/plans/20261113-A130-remaining-sections.json",
+      "requested_reasoning_effort": "high",
+      "current_single_section": "4.7",
+      "appendixD": "queuedafter4.7",
+      "runtime_boundary": "Explicit selected model; no new independent turn_context measurement in this continuation.",
       "publish_permission": false,
-      "isolation": "protocol-only; shared filesystem"
+      "scope": "D andspecifiedweak/wingnotes only; parentowns4.7"
+    },
+    {
+      "task_id": "G101",
+      "agent_id": "01a1d4a1-c1d0-76d1-9ea4-f16c26f8873c",
+      "scope": "AppendixF 19figures stagingonly",
+      "canonical_writes": false,
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_reasoning_effort": "high",
+      "runtime_boundary": "Explicit selected model; no new independent turn_context measurement in this continuation.",
+      "publish_permission": false,
+      "alias": "G99 5.2 accepted; G97 reader assessment complete",
+      "sections": [],
+      "contract": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G101/contract.json"
+    },
+    {
+      "task_id": "G100",
+      "agent_id": "01a1d61b-c001-7332-9941-10bbe85ae145",
+      "sections": [],
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_reasoning_effort": "high",
+      "contract": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G100/contract.json",
+      "state": "parentaccepted-and-closed",
+      "publish_permission": false,
+      "canonical_writes": false,
+      "scope": "All5.7filesnowparentowned",
+      "closed": true
+    },
+    {
+      "task_id": "T24",
+      "agent_id": "01a1d69f-d2fb-7700-b9b9-5bc05e534d28",
+      "scope": "readonlyDprojectionandFFrank, T24outputs",
+      "requested_model": "codex/gpt-6.1-terra",
+      "requested_reasoning_effort": "xhigh",
+      "publish_permission": false
+    },
+    {
+      "task_id": "G105",
+      "agent_id": "01a1d6a3-ebbd-7423-887a-be4e3020e897",
+      "scope": "oneprimary2016senioritypaperarchive/source/G105receipt",
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_reasoning_effort": "high",
+      "publish_permission": false
     }
   ],
   "current_checkpoint": {
     "sections": 27,
     "pages": 220,
-    "state": "accepted-build-and-reconciled",
+    "state": "published-and-reconciled",
     "directory": "checkpoint27"
   },
   "historical_worker_boundary": "workers and next_workers preserve prior assignments; current_workers plus current_ownership in the remaining-sections plan are authoritative.",
@@ -222,6 +260,49 @@
       "state": "succeeded-and-closed",
       "acceptance": "T17/parent-acceptance.json",
       "model": "codex/gpt-6.1-terra/xhigh"
+    },
+    "T18": {
+      "state": "succeeded",
+      "acceptance": "T18/parent-acceptance.json",
+      "runtime": "codex/gpt-6.1-terra/xhigh independently observed; exact replay matched worker JSON",
+      "thread_continuation": "T19 in same still-open agent; not resumed from closed state"
+    },
+    "T23": {
+      "state": "parent-replayed-and-accepted-narrow",
+      "acceptance": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T23/parent-acceptance.json",
+      "model": "codex/gpt-6.1-terra/xhigh",
+      "continued_as": "T24sameopenagent"
     }
+  },
+  "science_acceptance_now": {
+    "sections": 39,
+    "appendices": [
+      "A",
+      "B",
+      "C",
+      "E",
+      "F"
+    ],
+    "integration_pending": true
+  },
+  "current_ownership_plan": "outputs/plans/20261113-A130-remaining-sections.json",
+  "final_phase": {
+    "status": "accepted-and-integrated; parent publication closeout",
+    "actual_utc": "2026-11-13T21:58:32.571705+00:00",
+    "body_sections": 39,
+    "appendices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "workers_current_write_permission": "closed",
+    "G104": "parent completed after reported provider account-disabled403; no bypass",
+    "G105": "Gemini acquired OA originals; parent registered manifest/source and read PDF1–3",
+    "T23_T24_T26": "narrow theory/control reviews incorporated; finite-control limits retained",
+    "G101_G102": "parent accepted with targeted corrections",
+    "current_task_goal": "01a1b53d-130f-7f42-985b-7a51dbc9f8d0"
   }
 }

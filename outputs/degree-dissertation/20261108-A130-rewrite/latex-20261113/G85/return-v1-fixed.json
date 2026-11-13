@@ -1,0 +1,82 @@
+{
+  "worker": "G85 (Gemini Tiered/high)",
+  "section_id": "2.8",
+  "title": "模型各自保留和消去了什么",
+  "timestamp": "2026-11-13T13:50:00+00:00",
+  "status": "return-v1-fixed-ready-for-parent-acceptance",
+  "canonical_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-8.tex",
+  "canonical_ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-8.json",
+  "staging_tex_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G85/staging/sec-2-8.tex",
+  "staging_ledger_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G85/staging/section-2-8.json",
+  "new_references_bib_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G85/new-references.bib",
+  "fixed_items": [
+    {
+      "item_id": "FIX-1",
+      "topic": "gamma_inv定义、量纲平衡与截断越界边界",
+      "feedback": "分母写<q_2^2>^{3/2}且q_3未严格定义导致量纲6阶错乱；回2.1已验定义，仅比值在[-1,1]时有实有效角，截断越界不clamp伪几何，有限矩阵元求和不等全空间完备闭合。",
+      "action_applied": "在sec-2-8.tex第4条认识论底线中，定义q_2 = <Q.Q>, q_3 = <(QxQ)_2.Q>，公式严格写为cos(3 gamma_inv) = -sqrt(7/2) q_3 / q_2^(3/2)，量纲均为[Q]^3；明确指出比值落入[-1,1]才对应实角，越界不强行clamp伪几何，说明有限实验矩阵元截断求和不等于全希尔伯特空间完备闭合。",
+      "anchor_in_tex": "\\cos(3\\gamma_{\\mathrm{inv}}) = -\\sqrt{\\frac{7}{2}}\\,\\frac{q_3}{q_2^{3/2}}"
+    },
+    {
+      "item_id": "FIX-2",
+      "topic": "微观哈密顿量式(2.8.1)的表述边界",
+      "feedback": "H两/三体式不是全体系严格全部相互作用，称低能近似起点，注明更高体/CM按模型处理，软相互作用未必有强硬芯。",
+      "action_applied": "修改2.8.1节开头，将式(2.8.1)明确表述为‘低能核多体问题的常规微观近似起点’，注明略去更高阶多体项与CM质心运动修正按具体模型处理，并指出手征有效场论核力配合SRG软化演化无需强排斥硬芯但会诱导多体力。",
+      "anchor_in_tex": "在低能核多体问题中，常规的微观近似起点通常写为包含单体动能、两体相互作用与三体相互作用的非相对论形式"
+    },
+    {
+      "item_id": "FIX-3",
+      "topic": "Feshbach-Bloch-Horowitz构造与有效算符修正",
+      "feedback": "H_eff(E)是一个特定能依赖构造，E在Q-resolvent存在处；并非所有有效H必须能依赖，2.7unitary可能量无关；O_eff不能写精确只核芯极化，回2.7多体项/度规边界。",
+      "action_applied": "在2.8.1节明确式(2.8.2)是Feshbach-Bloch-Horowitz的特定构造，要求能量处于Q空间预解式非奇异区；指出李-铃木或SRG演化可构造能量无关有效H；明确有效算符修正包含多体关联项与度规变换，回链第2.7节，避免写成‘精确只等于核芯极化’。",
+      "anchor_in_tex": "在 Feshbach--Bloch--Horowitz 投影体系中，消去 $Q$ 空间内部动力学可以通过引入能量依赖的有效相互作用算符 $\\hat{H}_{\\mathrm{eff}}(E)$ 来表达"
+    },
+    {
+      "item_id": "FIX-4",
+      "topic": "MR-EDF病态实现条件客观化",
+      "feedback": "MR-EDF病态不是仅非整数rho幂才会发生，也非所有整数/双线性一定健康。简化为经验EDF非对角延拓某些实现有自相互作用/分支问题需逐实现检验，与来自真实反对称Hamiltonian的PAV非一回事，不强断特指某一幂。",
+      "action_applied": "在2.8.3节第3条底线中全面修正，表述为‘一般经验能量密度泛函最初是针对单参考局域密度构造的，当将其推广至多参考能量密度泛函（MR-EDF）计算时，由于计算非对角能量核函数需要处理不同取向或形变内禀态之间的过渡密度，某些经验泛函实现会出现自相互作用误差或分支割线病态，需要针对具体的泛函实现进行技术检验。这一现象属于经验泛函非对角延拓问题，与源自真实反对称多体哈密顿算符的变分后投影（PAV）存在本质区别’。",
+      "anchor_in_tex": "某些经验泛函实现会出现自相互作用误差或分支割线病态，需要针对具体的泛函实现进行技术检验"
+    },
+    {
+      "item_id": "FIX-5",
+      "topic": "IBM chi=0与动力学对称性澄清",
+      "feedback": "IBM chi=0不是仅凭chi就自动确立O(6)动力学对称，需其它Hamiltonian参数/能标关系；把chi只当四极算符参数，相关极限在指定IBM Hamiltonian成立。",
+      "action_applied": "在2.8.3节第4条底线中明确指出：‘仅凭 \\chi = 0 并不足以确立 O(6) 动力学对称性；只有在特定的哈密顿量参数配置下，体系才对应于 O(6) 极限。\\chi 应被严格理解为玻色子电四极算符的结构常数，而非独立的动力学对称性充要判据’。",
+      "anchor_in_tex": "\\chi 应被严格理解为玻色子电四极算符的结构常数，而非独立的动力学对称性充要判据"
+    },
+    {
+      "item_id": "FIX-6",
+      "topic": "135Pr叙事去泛化、客观原件化与各方论据保留",
+      "feedback": "Matta/Sensharma的全部PRM/QTR不一概严格冻结j；frozen alignment只是指定近似，别将释放该近似等于推翻所有TW。不要无原件依据断言原作者‘根据理论选大根’，分开各采集原始结果/作者解释与Lv对旧角分布重拟。角分布也非普遍有两个等价根且一大一小，限定本例原文模型与数据，保留各方。",
+      "action_applied": "在2.8.5节案例一中严格核对Lv 2022原件；删除‘根据理论选大根’等主观揣测；明确frozen alignment仅为特定简化计算近似；分开阐明Matta/Sensharma原始角分布拟合大根与Lv等人重新拟合容许小根(delta=-0.47(+9/-22))且与偏振度P实测兼容；指出角分布卡方拟合双根解属于该特定几何与实验截面条件下的数学解，客观展现多解简并与QTR倾斜进动/IBFM软核耦合的条件性约束，不作排他性全称推翻断言。",
+      "anchor_in_tex": "冻结准粒子方向是特定计算中所采用的简化近似，并不代表所有粒子-转子模型都必须严格冻结单粒子取向"
+    },
+    {
+      "item_id": "FIX-7",
+      "topic": "526 keV跃迁压低的条件论证",
+      "feedback": "526 forbidden可引用Lv‘假设band3为1phonon’的条件论证，不升级普遍选择定则。",
+      "action_applied": "在2.8.5节式(2.8.6)后明确写入：‘在将 Band 3 假定为 1-phonon 纯横向摆动带的分析条件下，跃迁至签名伴带的 526.2 keV 分支理论上预期受到压低；实测接近 1 的比值与此预期存在张力’。绝不升级为普遍选择定则。",
+      "anchor_in_tex": "在将 Band 3 假定为 1-phonon 纯横向摆动带的分析条件下，跃迁至签名伴带的 526.2 keV 分支理论上预期受到压低"
+    },
+    {
+      "item_id": "FIX-8",
+      "topic": "全面剔除主观情绪化泛评价词汇",
+      "feedback": "去全文‘深刻/优美/清醒坚实/必须严格/完全错误拟合’泛评价，留具体模型取舍与可观测后果。",
+      "action_applied": "全文通读并彻底删除‘深刻’、‘优美’、‘清醒坚实’、‘必须严格’、‘完全错误拟合’等一切非客观评价词，全面替换为平实、中立、精准的物理学术语言。",
+      "anchor_in_tex": "全文纯正严谨的学术叙述风格"
+    }
+  ],
+  "canonical_tex_sha256": "2aa1a20f0a7d392f0217637ad757ebfcd915e6b3e0a1dead2940adf8e87e8e73",
+  "canonical_ledger_sha256": "5334081d1cc2c5c066a7375145607b3553fd9072bbcbcb7e9ea63ec9bfd3b5a0",
+  "final_reconciliation": {
+    "item_A_EDF_nonlocal_and_derivative": {
+      "status": "FIXED",
+      "details": "总能量E[rho, kappa]明确为可含非局域项的密度矩阵泛函，单粒子哈密顿量严格写为h_ab = (partial E/partial rho_ba)|_kappa或h = delta E/delta rho；阐明由真实反对称多体算符微观变分导出的实现具有确定的哈密顿期望值表示，而一般经验EDF通常不自动具有微观反对称多体算符表示，已隐式吸收高阶微扰关联，不可直接代入微扰求和。"
+    },
+    "item_B_135Pr_frozen_alignment_and_cite_pruning": {
+      "status": "FIXED",
+      "details": "删去非必要旧数值delta=-1.40及‘原作者’含混句；将该项严格限定为Frauendorf 2014的一类frozen-alignment教学简化近似；不给Matta/Sensharma全部计算贴frozen；完整旧实验争议历史明确注明留待第4.4节展开；保留已真核Lv 2022负宇称带、747.3/526.2比值0.7(+0.7/-0.5)、角分布小根解delta=-0.47(+0.09/-0.22)及在假定Band 3为1-phonon纯横向摆动带下的条件分析。"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "task": "A130 PhD dissertation Section 4.7 targeted repair",
+  "stage": "section-4-7-final-independent-delivery-R2",
+  "executor": "G96 (Gemini Tiered/high executor)",
+  "reviewer": "Terra T21 (audit input) and Parent GPT Controller (oversight)",
+  "timestamp_utc": "2026-11-14T01:55:00+00:00",
+  "status": "verified-delivered-to-parent",
+  "delivered_files": {
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-7.tex": {
+      "sha256": "f7199940cc9592c2ab17f81570602d8186b7105f5dec764188ca97a2d8ca123f",
+      "size": 31704
+    },
+    "raw/writing/gpt/A130/latex-evidence-ledger/section-4-7.json": {
+      "sha256": "89c248005cd7229bd53bab60e4ab11e6b22319af7799bd829b809dcab67240fa",
+      "size": 17688
+    },
+    "system/scripts/a130_weak_cascade_figure.py": {
+      "sha256": "c1354aa1aededef26882642dd829327a300bbd0579b894ef059861106cd89c99",
+      "size": 6733
+    },
+    "raw/writing/gpt/A130/these_2023_template/these_template/Img/weak-cascade-competition.svg": {
+      "sha256": "3967b98c6c83afc2181b43d214527355c57f530d7eb137141f04bfeec07d9eea",
+      "size": 122977
+    },
+    "raw/writing/gpt/A130/these_2023_template/these_template/Img/weak-cascade-competition.pdf": {
+      "sha256": "9267bc941060270a1b2304e13afd0678af5af106345b5ea1753a511f4d398436",
+      "size": 50839
+    },
+    "knowledge/research-notes/a130-rewrite-weak-operator-and-counting-network-audit-20261114.md": {
+      "sha256": "77ce1b8fcdd0210c2ce1d7ddaa31a2ae20db381c76b6864c78ab926d1e21929d",
+      "size": 20647
+    },
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G96/newrefs.bib": {
+      "sha256": "a4834f180614b275a36d175ad879d98f9262d0786431757404a371e099edb8b5",
+      "size": 844
+    }
+  },
+  "t21_findings_addressed": {
+    "T21-01": {
+      "title": "Delayed neutron cascade recursion decrement and absorbing terminal condition",
+      "tex_location": "sec-4-7.tex: lines 84-88",
+      "fix": "Corrected recursion to Pi_x(a) = sum_{b, r} [Gamma^{(r)}_{a -> b} / Gamma_{tot}(a)] Pi_{x-r}(b) with Pi_{x < 0}(a) = 0 and terminal condition Pi_x(t) = delta_{x0}",
+      "status": "resolved"
+    },
+    "T21-02": {
+      "title": "Beta feeding total parent vs conditional normalization and non-beta channels",
+      "tex_location": "sec-4-7.tex: lines 79-92, 110-129",
+      "fix": "Distinguished sum_i I_beta(i) = b_beta <= 1 (parent decay normalization) and P_{xn}^{(beta;parent)} from conditional beta probability P_{xn}^{(beta|beta)} = P_{xn}^{(beta;parent)} / b_beta; separated non-beta neutron emission into p_y^{non-beta}",
+      "status": "resolved"
+    },
+    "T21-03": {
+      "title": "Ikeda sum rule reduced strength initial spin averaging and isospin commutator convention",
+      "tex_location": "sec-4-7.tex: line 16",
+      "fix": "Adopted t_3(n) = +1/2, t_- |n> = |p>, [t_+, t_-] = 2 t_3 convention consistent with Section 2.7, with explicit spin averaging S_pm = [1 / (2J_i + 1)] sum_{f_mp} B(GT^mp; J_i -> J_f), yielding S_- - S_+ = 3(N - Z)",
+      "status": "resolved"
+    },
+    "T21-04": {
+      "title": "Full space closure vs truncated valence space and effective quenching scaling",
+      "tex_location": "sec-4-7.tex: line 16",
+      "fix": "Clarified that bare one-body sum rule holds in un-truncated full space; effective quenching factor q scales sum rule by q^2 to 3 q^2 (N - Z); truncated valence space requires complete spin-orbit partner orbits (Suhonen 2007 Eqs. 17.83-17.84); 2BC modifies one-body operator closure",
+      "status": "resolved"
+    },
+    "T21-05": {
+      "title": "CVC scope: zero-momentum vector charge protection vs finite-momentum vector currents",
+      "tex_location": "sec-4-7.tex: lines 51-52",
+      "fix": "Clarified that CVC protects time-like vector charge at q=0 (g_V = 1) and constrains space-like vector currents and forbidden shape factors at finite q, but does not protect axial-vector currents",
+      "status": "resolved"
+    },
+    "T21-06": {
+      "title": "Differential beta spectrum approximations, units, and electroweak radiative constants",
+      "tex_location": "sec-4-7.tex: line 44",
+      "fix": "Clarified lowest-order impulse, non-relativistic recoil, and point-nucleus approximations; dimensioned G_F^{(E)} in MeV^{-2} yielding s^{-1}; distinguished uncorrected constant K_0 approx 6292 s from tabulated electroweak-corrected K = 6146 s; noted in ledger that Zhi Eq.(4) is transition strength, not differential spectrum",
+      "status": "resolved"
+    },
+    "T21-07": {
+      "title": "Wang 2026 RPA/PVC nucleus-specific and energy-window boundaries",
+      "tex_location": "sec-4-7.tex: line 57",
+      "fix": "Corrected over-generalized de-blocking statement: noted 56Ni involves electron capture, whereas for 132Sn SGII interaction yields zero GT strength within the physical Q_beta window (with weak tail only under SkM*), with decay dominated by first-forbidden transitions",
+      "status": "resolved"
+    },
+    "T21-08": {
+      "title": "0nu beta beta single virtual neutrino exchange, normalization, and chiral contact term",
+      "tex_location": "sec-4-7.tex: lines 131-143",
+      "fix": "Clarified mechanism is a single virtual Majorana neutrino line exchanged between two weak vertices; factorized [T_{1/2}^{0nu}]^{-1} = G_{0nu} g_A^4 |M_{0nu}|^2 |m_{beta beta} / m_e|^2 with consistent conventions; explained chiral EFT LO contact operator V_{nu,short}^{(R)} is required for non-perturbative 1S0 renormalization; CIB electromagnetic data constrains C1+C2 combination and cannot uniquely fix g_nu^{NN} without additional symmetry assumptions or lattice QCD matching",
+      "status": "resolved"
+    }
+  },
+  "next_in_queue": {
+    "appendix_D": "Appendix D (two-wing operators and open networks) will be delivered in next stage, incorporating T21-09 to T21-13 and parent controller additions (seniority lowest-weight reference ratio, even-L E4 half-filling cancellation, IC sharing nuclear matrix element, identical-nucleon M1 off-diagonal vanishing, 210Po 8+ valence structure n=2 not half-filling, open network discriminant Delta >= 0, finite steady-state reachable loss conditions, fast/slow mode loss expansions, equal-loss relaxation rate, and non-thermal classical rate vs Lindblad Markovian limits)."
+  },
+  "r2_hard_fixes_addressed": {
+    "Issue_1_Ikeda_averaging": "Corrected S_mp = sum_{f_mp} B(GT^mp) = [1/(2J_i+1)] sum_{f_mp} |<f_mp|| sum_k sigma(k) t_mp(k) || i>|^2, aligning left S_mp with right f_mp, t_mp, without double-counting 1/(2J_i+1), keeping t_3(n)=+1/2, t_-|n>=|p> consistent with 2.7, and S_- - S_+ = 3(N - Z)",
+    "Issue_2_Suhonen_raw_sha256": "Corrected raw_sha256 in ledger and note to true value 4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+    "Issue_3_Cirigliano_contact_potential": "Translated tau_{1,+} tau_{2,+} to this work convention t_{1,-} t_{2,-} and referenced stripped potential V_{CT}^{(R)}(r_{12}) = -2 g_nu^{NN}(R) delta_R^{(3)}(r_{12}) t_{1,-} t_{2,-} from Cirigliano 2018 Eq.(15)",
+    "Issue_4_Deformation_GT_redistribution": "Fixed typo \"改变化学半衰期\" -> 弱衰变半衰期; clarified deformation does not universally drag GT down but redistributes strength configuration-dependently",
+    "Issue_5_Precursor_lifetime_timescale_separation": "Removed fabricated nanosecond-to-microsecond lifetime claim and dogmatic PSD requirements; separated mother beta decay (ms to s) from neutron flight/thermalization/capture timescales",
+    "Issue_6_0nu_mechanism_scope": "Specified \"在本文所述的标准轻 Majorana 中微子交换机制下\", clarifying not all 0nu mechanisms involve a single light neutrino propagator line",
+    "Issue_7_Zhi_locators_and_operator_classification": "Updated Zhi actual_read_pages to [2, 3, 4, 5, 7, 9, 10, 11] with locators on N=126 waiting points FF dominance (Z >= 70); accurately classified u as rank-1 axial-vector and toned down dogmatic words",
+    "Issue_8_r_process_boundary": "Replaced \"直接决定\" with joint influence along with neutron capture, photodisintegration, nuclear masses, and astrophysical parameters (temperature, neutron density, expansion timescale)"
+  },
+  "r2_figure_visual_improvements": {
+    "beta_feeding_arrows": "Beta decay feeding arrow now points explicitly into the continuum states in the Q_beta - S_n window (and discrete states), matching caption and text description",
+    "energy_scale_clarification": "Removed arbitrary Q_beta approx 8.5 MeV number; added explicit banner stating schematic level schemes / not to scale and that individual column ground states are schematic offsets with common reference in daughter",
+    "neutron_emission_arrows": "Each delayed neutron arrow (n0, n1) now lands strictly on an explicitly drawn granddaughter level (ground state and 2_1^+ state)",
+    "explanation_box": "Moved explanation box to dedicated clean bottom region with no overlap on discrete states, showing complete normalization, absorbing recursion, and timescale hierarchy"
+  }
+}

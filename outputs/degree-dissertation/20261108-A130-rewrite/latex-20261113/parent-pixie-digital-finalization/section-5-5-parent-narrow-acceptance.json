@@ -1,0 +1,22 @@
+{
+  "section": "5.5",
+  "status": "parent-narrow-scientific-correction-accepted; newtypesettingpending",
+  "at_utc": "2026-11-13T17:30:59.447733+00:00",
+  "tex_sha256": "43ee58210e6d816c93f747ef946054ff3d400df054d64c71309dad374298efd5",
+  "ledger_sha256": "d48ced9c5ef22fd517e66b4ef35ed33c9b5a943264b4689463fce632a096cf0a",
+  "actual_primary_check": {
+    "path": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+    "pdf_page": 55,
+    "printed_page": 43,
+    "figure": "2.8",
+    "method": "renderedvisualandtext; buffercontinuationPDF56printed44"
+  },
+  "corrections": [
+    "EventLengthbit30included,nofictitiousreservebit.",
+    "TraceLengthbits30:16andrangeflag31.",
+    "CFD16-bitresultopaque,notinventedforcedflag.",
+    "FinishCodepileupmeaningandtrace sample/32-bitpackingunits.",
+    "Periodicpulserdoesnotautomaticallytime-samplewithoutphaseconditions."
+  ],
+  "boundary": "Thisdocumentedfirmwareversiononly; noactualuserhardware protocolcertification. Old27PDFnotupdated."
+}

@@ -1,0 +1,11 @@
+{
+  "requested": "Gemini3.8FlashTiered/high",
+  "observed": [
+    {
+      "timestamp": "2026-11-13T10:09:03.559Z",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "effort": "high"
+    }
+  ],
+  "boundary": "Confirms actual model selection and current tool activity, not future provider reliability or scientific correctness."
+}

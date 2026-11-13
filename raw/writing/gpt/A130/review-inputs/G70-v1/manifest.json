@@ -1,0 +1,19 @@
+{
+  "archive_type": "research-archive-v1",
+  "archive_required": true,
+  "retrieved_at": "2026-11-08T02:52:44.875032+00:00",
+  "files": [
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G70-v1/section-2-2.md",
+      "sha256": "b23c9d2c830c3e1cb63ae83ed2ee3dfdedfd972f50c92f77bc9a2effbf0b74a8",
+      "size": 17362,
+      "source": "Frozen G70 first return for parent/independent audit; not original physical evidence"
+    },
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G70-v1/section-2-2.json",
+      "sha256": "ae3be6e59714cde6df1a516bbd090c43efe0002a2e5f024aae9ede5540bf9b4c",
+      "size": 14324,
+      "source": "Frozen G70 first return for parent/independent audit; not original physical evidence"
+    }
+  ]
+}

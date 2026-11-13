@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-11-13T15:03:36.237856+00:00",
+  "scope": "First-party finalization inputs; unaccepted prior versions, not scientific sources",
+  "files": [
+    {
+      "canonical": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-4.tex",
+      "snapshot": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G88/parent-finalization-inputs/sec-3-4.tex",
+      "sha256": "74deea66c3101c8ffb9c2993264692a912e9db2497f8b5bce01ddc7c837cdc8a"
+    },
+    {
+      "canonical": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-4.json",
+      "snapshot": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G88/parent-finalization-inputs/section-3-4.json",
+      "sha256": "4be9acbafcb9c10365d9f0c32fe1cc911f89ae9d180a6b469c6fd4efde5e806d"
+    },
+    {
+      "canonical": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-7.tex",
+      "snapshot": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G88/parent-finalization-inputs/sec-3-7.tex",
+      "sha256": "ef5eb74bb57cd5c59d7024a6ccbe512f019e5e7c2f65ac654b2f81d02fc43d6f"
+    },
+    {
+      "canonical": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-7.json",
+      "snapshot": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G88/parent-finalization-inputs/section-3-7.json",
+      "sha256": "c67752575329e96a119fa50710dc21b6a49f02b85433204ce4449db7339cfa34"
+    }
+  ]
+}

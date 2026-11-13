@@ -1,0 +1,62 @@
+{
+  "executor": "G87 (Gemini Tiered/high)",
+  "timestamp": "2026-11-13T14:45:00+00:00",
+  "section_id": "4.4",
+  "title": "A ≈ 130、稀土与重区的取向对照",
+  "section_label": "sec:4-4",
+  "contract_status": "ready-for-execution",
+  "execution_domain": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G87/",
+  "canonical_targets": {
+    "canonical_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-4.tex",
+    "staging_tex": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G87/staging/sec-4-4.tex",
+    "evidence_ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-4.json",
+    "new_references_bib": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G87/new-references-4-4.bib"
+  },
+  "reader_starting_point": "读者在第3.2节理解了三轴不对称刚体摆动与手征对称性破缺的经典与半经典图像，在第2.6节与第2.7节掌握了转动惯量的微观响应（流体无辐散流 vs 刚体流 vs 配对微观cranking）以及电磁约化跃迁几率的定义规范。当读者跨入第4章比较不同质量区时，容易产生朴素归约论倾向：既然不同核区都被赋予了三轴形变参量 gamma，或者测得了相近的跃迁四极矩 Qt，甚至奇核子占据了相似的高 j 入侵轨道，是否它们就必然表现出相同的取向运动模式？本节通过严格的跨区对照打破这一直觉，揭示取向运动的微观选择机制。",
+  "central_question": "在 A ≈ 130、稀土区（A ≈ 160）以及超铪/重区（A ≈ 180–190）中，同样具有三轴形变指标或相近 Qt 的原子核，为何会表现出横向摆动（TW）、纵向摆动（LW）、手征双重带、高 K 进动以及平面转动/gamma振动混合等截然不同的取向运动？哪些微观物理量与边界条件决定了取向模式的稳定与失稳？",
+  "comparison_modules": [
+    {
+      "id": "4.4.1",
+      "title": "取向自由度、主轴惯量排序与准粒子对准几何",
+      "label": "sec:4-4-1",
+      "core_argument": "区分内禀电荷坐标主轴 (s/m/l) 与转动惯量主轴及最大惯量轴。在三轴转子哈密顿量中，最大转动惯量轴并不由几何长短简单固定：无辐散流模型下中轴具有最大惯量 (J_m > J_s > J_l)，而刚体转子下短轴惯量最大；微观配对相互作用随旋转频率动态重整化各轴惯量。明确奇费米子的粒子型 (底壳，对准短轴 s) 与空穴型 (顶壳，对准长轴 l) 几何，建立粒子--转子取向势能与横向摆动 (TW) / 纵向摆动 (LW) 的模型内定义，强调 LW/TW 是特定模型假设下的几何关系而非绝对普适分类。"
+    },
+    {
+      "id": "4.4.2",
+      "title": "经典三轴超形变摆动基准：163Lu 的 20 行原表证据",
+      "label": "sec:4-4-2",
+      "core_argument": "以稀土区 163Lu (以及 165,167Lu) 的三轴超形变 (TSD) 带作为经典全实验证据基线。基于 Görgen et al. (2004, PRC 69, 031301(R)) Table I 与 Table II 的 20 行实测数据（8条 TSD1 带内、7条 TSD2 带内以及 5条 TSD2 -> TSD1 带间连接跃迁），核对 Qt ≈ 7.4–9.9 b 的高稳定性与带间强烈集体增强 B(E2)_out ≈ 0.54–0.70 e^2b^2 (delta ≈ -3.10)。分析 Matsuzaki (2004) 微观频率依赖惯量与 Frauendorf (2014) TW 模型对该带的解释，指出虽然 163Lu 积累了最完整的实验证据，但绝不能推论出『所有 TSD 态必然具有摆动模式』的教条假定。"
+    },
+    {
+      "id": "4.4.3",
+      "title": "A ≈ 130 区域的低自旋摆动争议与极化双根仲裁",
+      "label": "sec:4-4-3",
+      "core_argument": "深入剖析 135Pr (以及 130Ba, 133La) 围绕横向摆动的学术交锋。对比 Matta et al. (2015, PRL) 最初基于角分布给出 |delta| > 1 与极化正符号声称的横向摆动，与 Lv et al. (2022, PLB 824, 136840) 和 Guo et al. (2021) 揭示的角分布双根多义性 (|delta_1| > 1 与 |delta_2| < 1)。实测表明负宇称带间跃迁与小根 delta (如 747.3 keV 跃迁) 并不伴随 B(E2) 强集体增强，支持平面转动与单粒子对准重新取向或 gamma 振动带混合解释。严密区分不同实验测量与理论引文，不擅删实验相容的 delta 根，也不制造 Ce 等核的虚假绝对 B 值。"
+    },
+    {
+      "id": "4.4.4",
+      "title": "A ≈ 180–190 邻区：高 K 进动极限与重区形状共存的取向演化",
+      "label": "sec:4-4-4",
+      "core_argument": "阐述 Shimizu, Matsuzaki, Matsuyanagi (2005, PRC 72, 014306) 确立的高 K 进动模式（High-K Precession）作为摆动运动的轴对称极限：在 178W 与 178,179Hf 等多准粒子高 K 异能带中，当核芯恢复轴对称且 J_z -> 0 时，水平转动带收缩为孤立单态，而垂直的摆动声子激发序列严格退化为绕对称轴以 J_perp 进动的经典高 K 转动带。进而在重核区 187Au 中，对比 Sensharma et al. (2020) 声称的纵向摆动与 Guo et al. (2022, PLB 828, 137010) 的实验否决（带头自旋 J=j+1 对应极低核芯转动 R ~ 1 违反摆动谐振子大转动近似，底壳 h9/2 质子为粒子型倾向对准短轴与 LW 矛盾，实测 B(E2)_out 极小）。分析 Os/Pt/Hg 区软三轴、扁椭与形状共存的取向动力学，拒绝给整区贴单一固定标签。"
+    },
+    {
+      "id": "4.4.5",
+      "title": "跨区迁移条件、物理不变量映射与失效反例",
+      "label": "sec:4-4-5",
+      "core_argument": "总结取向运动跨质量区迁移的充要物理条件：(1) 稳定的微观非轴对称形状位阱；(2) 足够大的核芯集体角动量 R >> 1 以满足恢复力谐振子展开；(3) 明确的准粒子费米面位置及主轴对准几何；(4) 与内禀单粒子激发或准粒子重整对准保持足够的动力学解耦能隙。提出具体的失败反例（如低自旋能区单粒子自由度未冻结导致的模式坍塌）。严格区分 Qt, Qs, q2, q3 几何三次矩与微观横向响应惯量，指出相同 Qt 绝不意味着相同核芯，相同 j 也绝不固定对准与惯量。"
+    }
+  ],
+  "prohibitions_strictly_obeyed": [
+    "未派生任何子代理",
+    "未执行 git commit 或 git push",
+    "未执行主工程编译",
+    "未修改公共包装文件（Thesis.tex, Chapter4.tex, Style/*, Biblio/ref.bib 等）",
+    "未越界修改4.5节及其他写者工作区",
+    "严禁将质量区作为互斥排他标签",
+    "严禁删改实验允许的相容 delta 双根",
+    "严禁将不同实验的测量结果混淆为同一次测量",
+    "严禁虚构未测量的绝对 B 跃迁值",
+    "严禁给 A ≈ 190 区贴上单一固定的稳扁或强八极标签",
+    "TeX正文中严禁出现 Markdown ** 语法，严格检查 C0 控制字符与 LaTeX 符号转义"
+  ]
+}

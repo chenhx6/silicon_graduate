@@ -1,0 +1,20 @@
+{
+  "task_id": "G92",
+  "section": "5.9",
+  "status": "completed-interface-alignment-submitted-for-parent-acceptance",
+  "timestamp": "2026-11-14T00:15:00.000000+00:00",
+  "manuscript": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-9.tex",
+    "sha256": "93d6a476734b8ee1006cbdb9cd673dea0a7d25f8e1881ea38613ac42b2b0139d"
+  },
+  "ledger": {
+    "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-9.json",
+    "sha256": "c3254e50ad2ab9257c95af73606657fe23df1cb1c4928074b168d5f7da3d6964"
+  },
+  "diff_file": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G92/section-5-9-interface-diff.txt",
+  "interface_revisions": {
+    "si_charge_type_operator": "Explicitly defined SI charge-type magnetic dipole operator M_S(M1) = M_mu(M1)/c (matrix element units mu_N/c, dimension e fm) separately from Rose-Brink notation. Removed confusing RB/Suhonen collocation in line 106.",
+    "krane_steffen_convention": "Explicitly declared adoption of the Krane-Steffen phase convention matching the +2*delta*F_k(LL') Hamilton angular correlation interference term. Noted delta_KS = -delta_RB in emission, and preserved experimental delta without arbitrary global sign flips.",
+    "toy_example_cm1_harmonization": "Harmonized toy example with rate constant C_M1 = 1.7583758801e13 s^-1 multiplying (E_gamma/MeV)^3 * b_M1. Explicitly expressed B_mu(M1) as mu_N^2 * dimensionless ratio. Removed hanging text '教学算例写为'."
+  }
+}

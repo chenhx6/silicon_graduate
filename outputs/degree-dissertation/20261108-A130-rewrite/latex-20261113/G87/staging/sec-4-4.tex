@@ -1,0 +1,258 @@
+\section{$A\approx 130$、稀土与重区的取向对照}\label{sec:4-4}
+
+在前述章节中，我们系统考察了原子核非轴对称形变与转动运动的微观响应与宏观表象：在第2.6节中，推演了转动惯量对空间形变坐标 $(\beta, \gamma)$、微观超流配对以及四极冻结场的多体响应，指明微观惯量既非纯粹无旋流体亦非简单刚体；在第3.2节中，推演了经典与半经典三轴不对称转子中围绕主惯量轴的微扰摆动几何；在第3.3节与第3.5节中，分别讨论了奇核子--转子模型中的转动轴倾斜以及三维非共面旋转诱发的手征对称性自发破缺~\cite{book-bohr-mottelson-nuclear-structure-vol2,frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei}。当读者从孤立能带走向跨质量区的宏观谱学比较时，面对不同核区所报告的非轴对称取向现象，极易产生一种朴素的归约论倾向：既然在微观势能面计算中，不同质量区的原子核都被赋予了非零的三轴形变角 $\gamma$（或非轴对称四极幅度 $q_2, q_3$），或者在寿命测量中测得了相近的跃迁四极矩 $Q_t$，甚至其奇核子都占据了相似的高 $j$ 唯一宇称入侵轨道（如稀土区的 $\pi i_{13/2}$ 与 $A\approx 130$ 区的 $\pi h_{11/2}$），那么这些原子核在旋转时是否必然展现出相同的集体取向运动模式？
+
+答案是否定的。实验与微观理论的深入发展表明，非零的三轴形变参数 $\gamma$ 或相近的跃迁四极矩 $Q_t$，绝不自动唯一锁定原子核的动力学取向运动（Orientation Motion）。在稀土区（如 $^{163}\mathrm{Lu}$）的三轴超形变带中，体系表现出经典而充分的横向摆动（Transverse Wobbling, TW）证据，其带间 $\Delta I = 1$ 跃迁展现出强烈的集体 $E2$ 增强；然而在 $A\approx 130$ 区（如 $^{135}\mathrm{Pr}$），最初被赋予横向摆动的低自旋带在经过严格的极化双根检验与分支比重测后，却呈现出以 $M1$ 为主的退激特征，其机制更自然地指向平面转动（Planar Rotation）、单粒子对准重新取向或 $\gamma$ 振动带混合~\cite{lv-2022-evidence-against-wobbling-135pr}；在 $A\approx 180$ 邻区的超铪/钨同核异能态中，当三轴度退化时，看似属于三轴摆动的声子激发序列在几何上平滑退化为经典的高 $K$ 进动转动带（High-$K$ Precession）~\cite{shimizu-2005-high-k-precession}；而在更重的金/汞区（如 $^{187}\mathrm{Au}$ 与 $^{190}\mathrm{Hg}$），原子核又深陷于三轴软度、扁椭球演化以及形状共存的多构型竞争之中~\cite{guo-2022-low-spin-wobbling-187au}。
+
+同一个三轴哈密顿量，为何会在不同核区诱导出横向摆动、纵向摆动、高 $K$ 进动以及平面转动等截然不同的动力学表现？决定取向运动稳定与失稳的微观控制旋钮究竟是什么？作为比较章节，本节不重复第二、三章已完成的基础流体或半轴公式推导，而是将重点聚焦于跨核区取向动力学的物理对照：第\ref{sec:4-4-1}小节在统一约定下解构三轴惯量主轴排序、准粒子费米面位置（粒子型 vs 空穴型）以及摆动模式的模型内定义；第\ref{sec:4-4-2}小节基于 $^{163}\mathrm{Lu}$ 的实测原表数据，确立经典三轴超形变摆动的基准证据；第\ref{sec:4-4-3}小节剖析 $A\approx 130$ 区围绕 $^{135}\mathrm{Pr}$ 展开的极化双根多义性与低自旋摆动论争；第\ref{sec:4-4-4}小节阐述高 $K$ 进动作为摆动运动的轴对称极限，并探讨重区 $^{187}\mathrm{Au}$ 的实验检验与形状共存演化；第\ref{sec:4-4-5}小节提炼取向运动跨区迁移的充分条件与失效反例，并系统区分 $Q_t, Q_s, q_2, q_3$ 与微观横向惯量的物理内涵。图~\ref{fig:4-4-orientation-modes}给出了 $^{163}\mathrm{Lu}$ 的实测原表数据与跨核区取向对准几何示意图。
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\textwidth]{Img/orientation-comparison-modes.pdf}
+\caption{跨核区原子核取向运动模式与实验证据对照图。(a) 经典稀土区三轴超形变核 $^{163}\mathrm{Lu}$ 带内跃迁四极矩 $Q_t$（数据取自 Görgen et al. 2004 Table I 实测原表，包含实验误差棒），TSD1 ($n_w=0$) 与 TSD2 ($n_w=1$) 的 $Q_t$ 均分布在约 $6.7$--$9.9\ \mathrm{b}$ 区间，体现了二者基于相近超形变核芯的特征；(b) $^{163}\mathrm{Lu}$ TSD2 $\to$ TSD1 带间连接跃迁的 $B(E2)_{\mathrm{out}}$ 绝对值（数据取自 Görgen et al. 2004 Table II 实测原表），带间强度达到 $0.54$--$0.70\ e^2\mathrm{b}^2$（若按标准单粒子估计 $B_{\mathrm{W}}(E2) \approx 0.0053\ e^2\mathrm{b}^2$ 换算，相当于约 $100$--$130\ \mathrm{W.u.}$），展现了摆动声子模型所预期的强烈集体 $E2$ 辐射特征；(c) 跨核区取向运动模式的几何对准示意图（教学物理图像，不承诺定量实验产额）：清晰区分横向摆动（TW，奇核子对准短轴，核芯绕模型指定的最大惯量轴旋转）、高 $K$ 进动（Shimizu 2005，轴对称极限 $\gamma \to 0$，单粒子产生轴向 $K$，总自旋绕对称轴进动）以及低自旋平面转动/单粒子重对准模式（如 $^{135}\mathrm{Pr}$ 与 $^{187}\mathrm{Au}$ 在小根 $|\delta|<1$ 下由 $M1$ 主导的非摆动退激）。}\label{fig:4-4-orientation-modes}
+\end{figure}
+
+\subsection{取向自由度、主轴惯量排序与准粒子对准几何}\label{sec:4-4-1}
+
+为了在同一物理约定下跨越不同质量区比较取向运动，首先必须明确电荷空间几何主轴与转动惯量主轴的关系，并厘清准粒子对准的微观驱动力。
+
+\subsubsection{电荷几何主轴与惯量主轴排序}
+
+在内禀参考系中，非轴对称变形核的电荷表面在小形变近似展开下由形变参数 $\beta_2$ 与三轴角 $\gamma$ 描述。在标准的 Lund 约定下，空间电荷几何半径的三轴标度为：
+\begin{equation}\label{eq:4-4-radii-def}
+R_k = R_0 \left[ 1 + \sqrt{\frac{5}{4\pi}}\beta_2 \cos\left(\gamma - \frac{2\pi}{3} k\right) \right], \qquad k = 1, 2, 3.
+\end{equation}
+在三轴扇区 $\gamma \in (0^\circ, 60^\circ)$ 内，几何半径满足 $R_1 < R_2 < R_3$，在后文中采用物理意义明确的字母标签：
+\begin{itemize}
+\item \textbf{短轴（Short Axis, 记为 $s$）}：对应 $k=1$，$R_s = R_1$ 具有最小的内禀空间几何尺度；
+\item \textbf{中轴（Intermediate Axis, 记为 $m$）}：对应 $k=2$，$R_m = R_2$ 具有中等的内禀空间几何尺度；
+\item \textbf{长轴（Long Axis, 记为 $l$）}：对应 $k=3$，$R_l = R_3$ 具有最大的内禀空间几何尺度。
+\end{itemize}
+
+然而，主导转动哈密顿量 $\hat{H}_{\mathrm{rot}} = \sum_{k} \frac{\hat{R}_k^2}{2\mathcal{J}_k}$ 动能谱的是转动惯量张量的主轴分量。最大转动惯量轴并不由几何轴的长短简单决定，而是由核子流动的微观动力学机制支配：
+\begin{enumerate}
+\item \textbf{无辐散流体模型（Irrotational Flow）}：转动惯量形式为 $\mathcal{J}_k^{\mathrm{irr}} = 4 B \beta_2^2 \sin^2\left(\gamma - \frac{2\pi}{3} k\right)$。
+在整个 $\gamma \in (0^\circ, 60^\circ)$ 扇区内，中轴惯量始终最大（$\mathcal{J}_m^{\mathrm{irr}} > \mathcal{J}_s^{\mathrm{irr}}$ 且 $\mathcal{J}_m^{\mathrm{irr}} > \mathcal{J}_l^{\mathrm{irr}}$）。但在短轴与长轴之间：在 $\gamma < 30^\circ$ 的典型三轴长椭侧扇区中，呈现 $\mathcal{J}_s^{\mathrm{irr}} > \mathcal{J}_l^{\mathrm{irr}}$；在 $\gamma = 30^\circ$ 处，$\mathcal{J}_s^{\mathrm{irr}} = \mathcal{J}_l^{\mathrm{irr}}$；而在 $\gamma > 30^\circ$ 的三轴扁椭侧扇区中，则转为 $\mathcal{J}_l^{\mathrm{irr}} > \mathcal{J}_s^{\mathrm{irr}}$。因此，仅在 $\gamma < 30^\circ$ 的三轴长椭例中才具备 $\mathcal{J}_m > \mathcal{J}_s > \mathcal{J}_l$ 排序。
+\item \textbf{刚体转子模型（Rigid Rotor）}：刚体转动惯量与垂直截面积成正比，在小 $\beta_2$ 近似下满足 $\mathcal{J}_k^{\mathrm{rig}} \propto [1 - \sqrt{\frac{5}{4\pi}}\beta_2 \cos(\gamma - \frac{2\pi}{3} k)]$。此时短轴因截面积最大而具有最大惯量（$\mathcal{J}_s > \mathcal{J}_m > \mathcal{J}_l$）。
+\item \textbf{微观配对与动力学响应}：微观 BCS 配对相互作用大幅压低了转动惯量（约为刚体值的 $30\%$--$50\%$）。如 Matsuzaki、Shimizu 与 Matsuyanagi（2004）在 QRPA 推演中所指出的~\cite{matsuzaki-2004-nuclear-inertia-and-wobbling}，伴随微观摆动响应时，粒子数守恒与质心隔离使得动力学横向惯量呈现出强烈的频率依赖性 $\mathcal{J}_k(\omega)$，不能简单视为固定的宏观常数。
+\end{enumerate}
+
+\subsubsection{准粒子费米面位置与对准驱动力}
+
+当三轴核芯外存在一个占据高 $j$ 唯一宇称轨道的奇准粒子时，微观能量极小化决定了准粒子角动量 $\mathbf{j}$ 在核芯主轴系中的取向倾向：
+\begin{itemize}
+\item \textbf{粒子型准粒子（Particle-like，处于高 $j$ 壳层底端）}：
+核子波函数呈现紧致形态，为最大化与三轴核芯物质的重叠，准粒子角动量 $\mathbf{j}$ 在模型势能面极小处倾向于\textbf{对准最短轴（$s$ 轴）}（如 $^{163}\mathrm{Lu}$ 的 $\pi i_{13/2}$ 壳底态）。
+\item \textbf{空穴型准粒子（Hole-like，处于高 $j$ 壳层顶端）}：
+有效空穴波函数表现为沿对称轴拉长形态，为最小化排斥，空穴角动量优先\textbf{对准最长轴（$l$ 轴）}。
+\item \textbf{半满壳准粒子（Mid-shell）}：
+费米面位于壳层中央附近时，准粒子倾向于在中轴（$m$ 轴）方向形成平衡取向分量。
+\end{itemize}
+
+\subsubsection{横向摆动（TW）与纵向摆动（LW）的模型内几何关系}
+
+Frauendorf 与 Dönau（2014）在粒子--转子模型（PRM）框架下提出了\textbf{横向摆动}（TW）与\textbf{纵向摆动}（LW）的概念分类~\cite{frauendorf-2014-transverse-wobbling}。必须明确，\textbf{LW 与 TW 的严格定义是准粒子角动量 $\mathbf{j}$ 相对模型所指定的最大转动惯量轴的几何对准关系}，而非绝对的几何中轴标签：
+\begin{enumerate}
+\item \textbf{横向摆动（TW）}：在模型设定下，核芯主旋转角动量 $\mathbf{R}$ 沿着最大转动惯量轴旋转（例如在无辐散流排序下的中轴 $m$），而奇核子角动量 $\mathbf{j}$ 垂直于该旋转轴取向（例如对准短轴 $s$）。总角动量 $\mathbf{I} = \mathbf{R} + \mathbf{j}$ 发生偏离主旋转轴的微扰进动。
+\item \textbf{纵向摆动（LW）}：奇核子角动量 $\mathbf{j}$ 与核芯主旋转轴平行（例如共线对准最大惯量轴），总角动量围绕该主旋转轴进动。
+\end{enumerate}
+
+\textbf{模型局限性声明}：TW 与 LW 是特定粒子--转子模型在准粒子冻结对准与固定核芯惯量假定下的几何概念。实验中测得的摆动能量随自旋下降或某一个电磁比值，不能直接孤立作为判定某种摆动模式成立的排他性定理；必须结合准粒子对准是否冻结、核芯是否具有足够的转动角动量以及电磁多极强度的综合证据进行判断。
+
+\subsection{经典三轴超形变摆动基准：$^{163}\mathrm{Lu}$ 的实测数据分析}\label{sec:4-4-2}
+
+稀土区奇 $A$ 核素 $^{163}\mathrm{Lu}$（以及邻近的 $^{165,167}\mathrm{Lu}$）的三轴超形变带（Triaxial Superdeformed, TSD），是目前实验证据积累较为完备的核摆动参照案例~\cite{odegard-2001-evidence-wobbling-163lu,jensen-2002-second-phonon-wobbling-163lu,campaign-g07-gorgen-2004-163lu-quadrupole-moments}。
+
+\subsubsection{Görgen 2004 实验原表与四极矩数据}
+
+Görgen 等人（2004）利用 Gammasphere 阵列测定了 $^{163}\mathrm{Lu}$ TSD1 与 TSD2 激发态的多普勒展宽线形（DSAM）数据~\cite{campaign-g07-gorgen-2004-163lu-quadrupole-moments}。表~\ref{tab:4-4-lu163-sample}给出了其 Table I 与 Table II 中所报告的代表性能级寿命、跃迁四极矩以及带间连接跃迁强度。
+
+\begin{table}[!htbp]
+\centering
+\small
+\caption{$^{163}\mathrm{Lu}$ 三轴超形变带代表性能级寿命、带内 $Q_t$ 与带间跃迁强度（数据取自 Görgen et al. 2004 Table I 与 Table II 实测原表）。}\label{tab:4-4-lu163-sample}
+\begin{tabularx}{\textwidth}{llcccc}
+\hline\hline
+能带与跃迁 & 初态自旋 $I_i^\pi$ & 光子能量 $E_\gamma$ [keV] & 平均寿命 $\tau$ [ps] & 跃迁四极矩 $Q_t$ [b] & 跃迁几率 \\
+\hline
+\textbf{TSD1} ($n_w=0$) & $41/2^+$ & 578.6 & $0.364_{-0.085}^{+0.073}$ & $9.93_{-0.99}^{+1.14}$ & $B(E2) = 3.45_{-0.69}^{+0.80}\ e^2\mathrm{b}^2$ \\
+带内 $\Delta I = 2$ & $53/2^+$ & 752.6 & $0.119_{-0.010}^{+0.009}$ & $8.93_{-0.35}^{+0.38}$ & $B(E2) = 2.84_{-0.22}^{+0.24}\ e^2\mathrm{b}^2$ \\
+& $61/2^+$ & 857.7 & $0.088_{-0.011}^{+0.010}$ & $7.45_{-0.43}^{+0.49}$ & $B(E2) = 1.99_{-0.23}^{+0.26}\ e^2\mathrm{b}^2$ \\
+& $69/2^+$ & 962.5 & $0.047_{-0.011}^{+0.017}$ & $7.63_{-0.88}^{+1.46}$ & $B(E2) = 2.10_{-0.48}^{+0.80}\ e^2\mathrm{b}^2$ \\
+\hline
+\textbf{TSD2} ($n_w=1$) & $47/2^+$ & 654.6 & $0.215_{-0.048}^{+0.037}$ & $8.51_{-0.73}^{+0.95}$ & $B(E2) = 2.56_{-0.44}^{+0.57}\ e^2\mathrm{b}^2$ \\
+带内 $\Delta I = 2$ & $55/2^+$ & 766.2 & $0.095_{-0.018}^{+0.013}$ & $8.88_{-0.64}^{+0.83}$ & $B(E2) = 2.81_{-0.41}^{+0.53}\ e^2\mathrm{b}^2$ \\
+& $63/2^+$ & 872.9 & $0.064_{-0.021}^{+0.013}$ & $7.91_{-0.84}^{+1.32}$ & $B(E2) = 2.25_{-0.48}^{+0.75}\ e^2\mathrm{b}^2$ \\
+& $71/2^+$ & 980.2 & $0.056_{-0.029}^{+0.017}$ & $6.68_{-1.02}^{+1.70}$ & $B(E2) = 1.61_{-0.49}^{+0.82}\ e^2\mathrm{b}^2$ \\
+\hline
+\textbf{TSD2} $\to$ \textbf{TSD1} & $47/2^+ \to 45/2^+$ & 658.9 & — & — & $B(E2) = 0.54_{-0.11}^{+0.13}\ e^2\mathrm{b}^2$ \\
+带间 $\Delta I = 1$ & $55/2^+ \to 53/2^+$ & 686.8 & — & — & $B(E2) = 0.70_{-0.15}^{+0.18}\ e^2\mathrm{b}^2$ \\
+连接跃迁 & $63/2^+ \to 61/2^+$ & 716.3 & — & — & $B(E2) = 0.66_{-0.24}^{+0.29}\ e^2\mathrm{b}^2$ \\
+\hline\hline
+\end{tabularx}
+\end{table}
+
+\subsubsection{实验数据特征与物理推论边界}
+
+从 Görgen 等人（2004）的完整数据中，可以提炼出支持 $^{163}\mathrm{Lu}$ 摆动模式解释的关键特征，同时明确其客观证据边界：
+\begin{enumerate}
+\item \textbf{四极形变数值分布}：TSD1 的跃迁四极矩在实验自旋范围内从低自旋端的 $9.93_{-0.99}^{+1.14}\ \mathrm{b}$ 变化到高自旋端的 $7.63_{-0.88}^{+1.46}\ \mathrm{b}$（中间最低点约 $7.37\ \mathrm{b}$）；TSD2 的四极矩从 $8.88_{-0.64}^{+0.83}\ \mathrm{b}$ 变化至 $6.68_{-1.02}^{+1.70}\ \mathrm{b}$（最低点约 $6.66\ \mathrm{b}$）。两带的 $Q_t$ 均分布在约 $6.7$--$9.9\ \mathrm{b}$ 区间内，且随自旋呈现类似的微弱下降趋势。这一相似性与作者建立在相近超形变核芯（$\varepsilon_2 \approx 0.38, \gamma \approx +20^\circ$）上的理论模型吻合；但从反演逻辑出发，相近的 $Q_t$ 是摆动模型的必要条件而非唯一充要证据，不能单凭 $Q_t$ 的相近就绝对排除其他微观组态混合的可能性。
+\item \textbf{带间连接跃迁的电四极辐射强度}：连接 TSD2 与 TSD1 的 $\Delta I = 1$ 跃迁测得 $B(E2)_{\mathrm{out}} = 0.54$--$0.70\ e^2\mathrm{b}^2$。采用标准半径常数 $R_0 = 1.2 A^{1/3}\ \mathrm{fm}$，对于 $A=163$，单个核子的 Weisskopf 单粒子估计为：
+\begin{equation}\label{eq:4-4-weisskopf-e2}
+B_{\mathrm{W}}(E2) = \frac{1}{4\pi}\left(\frac{3}{5}\right)^2 R_0^4 = 0.05940\, A^{4/3}\ e^2\mathrm{fm}^4 \approx 53.0\ e^2\mathrm{fm}^4 = 0.00530\ e^2\mathrm{b}^2.
+\end{equation}
+据此换算，实测带间强度 $0.54$--$0.70\ e^2\mathrm{b}^2$ 相当于约 $100$--$130\ \mathrm{W.u.}$ 的集体增强；同时薄靶实验测得平均混合比为 $\delta = -3.10_{-0.44}^{+0.36}$（表明在 $\Delta I = 1$ 连接线中 $E2$ 成分占据主导地位，约占 $90\%$）。这种强度的集体增强与大混合比支持了整个核芯参与横向进动辐射的理论图像。
+\end{enumerate}
+
+应当指出，$^{163}\mathrm{Lu}$ 发生在很高的自旋区间（$I \sim 20$--$35\hbar$），此时核芯自身的集体转动动量达到 $R \sim 15$--$30\hbar$，满足强转动极限。它作为实验积累较为完整的经典参照，展示了摆动模型在具备特定条件时的物理图景，但不应推论为所有超形变能带均必然出现摆动现象。
+
+\subsection{$A\approx 130$ 区域的低自旋摆动争议与极化双根仲裁}\label{sec:4-4-3}
+
+在 $A\approx 130$ 区域（以 $^{135}\mathrm{Pr}$ 为代表），近年来关于“低自旋横向摆动”的实验与理论论争，展示了实验数据反演中的多义性以及不同物理机制之间的激烈竞争。
+
+\subsubsection{Matta 等人（2015）的横向摆动解释}
+
+在 $^{135}\mathrm{Pr}$ 中，奇质子占据 $1h_{11/2}$ 轨道；推转计算表明其基态具有中等的三轴形变（$\varepsilon_2 \approx 0.16, \gamma \approx 26^\circ$）。Matta 等人（2015）报道在负宇称基带（Band 1，自旋序列 $11/2^-, 15/2^-, 19/2^-, \dots$）旁观测到一条激发带（Band 3，自旋序列 $13/2^-, 17/2^-, 21/2^-, \dots$），并提出其为一声子横向摆动带~\cite{matta-2015-transverse-wobbling-135pr}。作者给出的证据包括：有效摆动能量呈现下降趋势；对连接 Band 3 与 Band 1 的跃迁测得角分布并拟合出绝对值大于 1 的多极混合比（例如对 $747.3\ \mathrm{keV}$ 跃迁提取出 $\delta = -2.0(4)$）；以及测得特征跃迁的线偏振度呈现正值，据此推断这些跃迁为 $E2$ 主导并支持横向摆动模型。
+
+\subsubsection{Lv 等人（2022）的实验再核查与角分布双根多义性}
+
+Lv 等人（2022）在芬兰于韦斯屈莱实验室利用 JUROGAM 阵列对 $^{135}\mathrm{Pr}$ 进行了高统计量重测，郭松等人（2021）亦指出了分析中的双根多义性问题~\cite{lv-2022-evidence-against-wobbling-135pr,guo-2021-comment-transverse-wobbling-135pr}：
+
+\begin{enumerate}
+\item \textbf{角分布二次有理式的代数双根}：
+在在束 $\gamma$ 谱学中，$\Delta I = 1$ 跃迁的角分布各向异性函数 $W(\theta) = 1 + A_2(\delta) P_2(\cos\theta) + A_4(\delta) P_4(\cos\theta)$ 中，系数 $A_k$ 是关于多极混合比 $\delta$ 的二次有理式。因此，从实验角关联比值反演 $\delta$ 时，在数学上通常存在两个相容的实数根解：一个绝对值较大（$|\delta_1| > 1$，对应电四极 $E2$ 主导），另一个绝对值较小（$|\delta_2| < 1$，对应磁偶极 $M1$ 主导）。
+\item \textbf{偏振正符号与双根的相容性}：
+Guo 等人（2021）与 Lv 等人（2022）明确指出，线偏振度 $P(\theta)$ 的符号取决于核态的去取向程度与几何系数。当混合比较小（如 $\delta \approx -0.4$ 附近）时，结合特定的布居取向张量，小根解同样完全可以给出\textbf{正的线偏振度}。因此，仅凭偏振度的正符号本身并不能排他性地排除小根解。
+\item \textbf{能级跃迁核对与实测分支比}：
+严格核对能级跃迁身份（Lv 等人 2022，PLB 824, 136840，PDF p.~3 与 Table 1）：
+\begin{itemize}
+\item 关键跃迁 $747.3\ \mathrm{keV}$ 的真实能级跃迁为 $17/2^- \to 15/2^-$（连接 Band 3 与 Band 1）；实验角关联比值 $R_{\mathrm{ac}} = 0.98(7)$ 所拟合出的小根解为：
+\begin{equation}\label{eq:4-4-pr135-small-delta}
+\delta = -0.47_{-0.22}^{+0.09}.
+\end{equation}
+\item 另一条连接跃迁 $813.2\ \mathrm{keV}$ 的能级跃迁为 $21/2^- \to 19/2^-$，对应的小根解为 $\delta = -0.46_{-0.19}^{+0.11}$。
+\item 从同一个初态 $17/2^-$（位于 Band 3）出发，存在两条竞争退激支路：能量为 $747.3\ \mathrm{keV}$ 的跃迁落入 Band 1 的 $15/2^-$ 态，而能量为 $526.2\ \mathrm{keV}$ 的跃迁落入签名伙伴带 Band 2 的 $13/2^-$ 态。Lv 等人实测其约化跃迁几率之比为：
+\begin{equation}\label{eq:4-4-pr135-branch-ratio}
+\frac{B(E2; 747.3\ \mathrm{keV})}{B(E2; 526.2\ \mathrm{keV})} = 0.7_{-0.5}^{+0.7}.
+\end{equation}
+\end{itemize}
+如果 Band 3 是建立在 Band 1 之上的纯一声子摆动激发，理论上其向签名伙伴带 Band 2 的跃迁受到强烈阻碍，上述比值应当远大于 1；实测比值约为 0.7 表明退激向两带具有相近的几率，直接反映出其波函数的混合特征，与纯摆动声子图像产生冲突。
+\end{enumerate}
+
+\subsubsection{替代机制与单粒子重对准}
+
+在小根解（$\delta \approx -0.47$）下，$747.3\ \mathrm{keV}$ 跃迁中磁偶极辐射占据了超过 $80\%$ 的主导成分。虽然 $M1$ 主导本身并不等价于缺乏集体性（例如磁转动或剪刀振动模式亦由集体 $M1$ 驱动），但对于所检验的摆动模型而言，带间缺乏强烈的集体 $E2$ 辐射与摆动理论的特征预言不符。
+
+Lv 等人（2022）利用放开单粒子自由度的准粒子--三轴转子模型（QTR）进行了微观计算。结果表明：在带头自旋 $I=13/2^-$ 处，由于单粒子奇核子占有高达 $j=11/2\hbar$ 的角动量，核芯所分配到的集体转动角动量极为微弱（$R = |\mathbf{I} - \mathbf{j}| \sim 1\hbar$），此时很难构筑起强转动极限下的谐振子摆动势；随着自旋增加，奇质子角动量并非刚性冻结在短轴上，而是向主转动轴发生重新对准（Planar Rotation）。因此，激发带更自然地被解释为包含单粒子重对准的平面转动或与 $\gamma$ 振动带的混合，而非经典摆动激发。
+
+在此确立方法论准则：\textbf{在角分布拟合存在多义性时，必须完整保留相容的 $\delta$ 根与置信区间，不能依据理论模型的偏好人为剔除另一个在实验上自洽的根；在缺乏绝对寿命测量的核态中，应当如实保留实验空缺，不可为迎合模型而编造绝对跃迁强度}。
+
+\subsection{$A\approx 180$--$190$ 邻区：高 $K$ 进动极限与重区形状共存的取向演化}\label{sec:4-4-4}
+
+迈向更重的超铪/钨（$A\approx 180$ 邻区）以及金/铂/汞（$A\approx 187$--$196$）过渡区时，取向运动展现出两种不同的演化方向：轴对称形变下的高 $K$ 进动极限，以及三轴软度下的形状共存与失稳。
+
+\subsubsection{高 $K$ 进动模式：三轴摆动的轴对称退化极限（Shimizu 2005）}
+
+清水（Y.~R.~Shimizu）、松崎（M.~Matsuzaki）与松柳（K.~Matsuyanagi）（2005）利用 RPA 理论探讨了高 $K$ 转动带与三轴摆动运动之间的几何联系~\cite{shimizu-2005-high-k-precession}。在 $^{178}\mathrm{W}$（如 $K^\pi = 25^+$）与 $^{178,179}\mathrm{Hf}$ 等体系中，多个准粒子在轴对称变形场下发生取向叠加，沿对称轴（$z$ 轴）产生大角动量投影 $K = \sum_i \Omega_i$。
+
+在三轴转子模型中，考察其在 $\gamma \to 0^\circ$ 轴对称极限下的演化行为：
+\begin{enumerate}
+\item \textbf{对称轴集体惯量的退化}：
+当核芯恢复轴对称时，垂直于对称轴的两个主轴等价，惯量简并为 $\mathcal{J}_x = \mathcal{J}_y \equiv \mathcal{J}_\perp$。由于绕对称轴不存在破坏量子对称性的集体密度转动流，核芯绕对称轴的集体转动惯量趋近于零（$\mathcal{J}_z \to 0$）。
+\item \textbf{能谱结构的退化特征}：
+绕对称轴的集体转动由于 $\mathcal{J}_z \to 0$ 而无法容纳除单粒子投影 $K$ 以外的集体激发，平行横向转动带收缩为单个内禀单粒子对准能态。与此同时，微观进动频率在恢复标准作用量单位后表述为：
+\begin{equation}\label{eq:4-4-precession-freq}
+\omega_{\mathrm{prec}}(I) = \frac{\hbar I}{\mathcal{J}_\perp}.
+\end{equation}
+在实验室系下跨越自旋观测时，原本连接不同摆动声子态的垂直退激序列退化为绕对称轴发生宏观进动的高 $K$ 转动谱：
+\begin{equation}\label{eq:4-4-high-k-energy-formula}
+E_{\mathrm{high-}K}(I) = \frac{\hbar^2}{2\mathcal{J}_\perp} \left[ I(I+1) - K^2 \right].
+\end{equation}
+\end{enumerate}
+
+应当说明，不能简单断言所有横向摆动与高 $K$ 进动在拓扑上完全等同：摆动运动是在随体坐标系下讨论总角动量绕主惯量轴的小振幅进动，而高 $K$ 进动在轴对称极限下描述的是在实验室参考系中绕内禀对称轴的旋转。这一理论展示了三轴摆动模型向轴对称边界演化时的连续退化关系。
+
+\subsubsection{重区 $^{187}\mathrm{Au}$ 的实验检验与作者争议（Guo 2022）}
+
+在重核过渡区核素 $^{187}\mathrm{Au}$ 中，围绕所谓“纵向摆动（LW）”展开了明确的学术争论。Sensharma 等人（2020）报道在 $^{187}\mathrm{Au}$ 中基于奇质子 $h_{9/2}$ 轨道存在纵向摆动带（Band 2，带头自旋 $11/2^-$）~\cite{sensharma-2020-longitudinal-wobbling-187au}。
+
+郭松（S.~Guo）等人（2022）利用 HIRFL 加速器与探测阵列开展了独立测量，并对该指派提出了深入的质疑与替代解释~\cite{guo-2022-low-spin-wobbling-187au}：
+\begin{enumerate}
+\item \textbf{对准几何与费米面的微观分析}：
+在 $^{187}\mathrm{Au}$（$Z=79$）中，奇质子占据 $1h_{9/2}$ 轨道。Guo 等人指出，质子费米面靠近 $h_{9/2}$ 子壳底端，属于粒子型准粒子，在三轴平均场势能面计算中微观能量倾向于支持对准最短轴（$s$ 轴）；而 Sensharma 等人的纵向摆动模型则假定准粒子角动量对准中轴（$m$ 轴）。这是两组作者基于不同微观模型假设所产生的基本分歧。
+\item \textbf{低自旋下的核芯转动动量}：
+在带头 $I = 11/2^-$ 处，扣除单粒子自旋 $j = 9/2\hbar$ 后，核芯集体转动动量仅约为 $R \sim 1\hbar$。在这样微弱的转动离心势下应用简谐进动模型，存在理论近似适用性不足的问题。
+\item \textbf{带间跃迁混合比与采用强度的依赖}：
+严格核查 Guo 等人（2022，PLB 828, 137010，PDF pp.~2--4）的测量数据：
+\begin{itemize}
+\item 连接 Band 2 与 Band 1 的两条关键连接跃迁分别为 $376\ \mathrm{keV}$（$11/2^- \to 9/2^-$）与 $462\ \mathrm{keV}$（$15/2^- \to 13/2^-$）。
+\item 内转换系数 $\alpha_K$ 与角关联测量表明，实验数据支持小混合比解（对于 $376\ \mathrm{keV}$ 与 $462\ \mathrm{keV}$ 分别给出 $\delta \approx -0.26$ 与 $-0.28$），与 Sensharma 等人基于大根得出的强 $E2$ 结论对立。
+\item 由于实验中缺乏 Band 2 能级的直接寿命测量，Guo 等人通过\textbf{采用邻近 $^{186}\mathrm{Pt}$ 核芯或带内已知的 $B(E2)_{\mathrm{in}} \sim 100$--$200\ \mathrm{W.u.}$ 进行模型估算}，导出带间跃迁强度 $B(E2)_{\mathrm{out}}$ 仅为几个单粒子 Weisskopf 单位，表现出 $B(E2)_{\mathrm{out}}/B(E2)_{\mathrm{in}} < 0.1$。
+\end{itemize}
+基于此，Guo 等人提出 Band 2 并非纵向摆动带，而更自然地属于包含单粒子激发以及长椭--扁椭三轴形状共存（Shape Coexistence）的多构型混合能带。这一论争展现了实验采用量依赖性与模型假设在物理推论中的深层影响。
+\end{enumerate}
+
+\subsubsection{重区 Os/Pt/Hg 的 $\gamma$ 软度与多重形状共存}
+
+在更广阔的重核区（$^{188,190,192}\mathrm{Os}$、$^{192,194}\mathrm{Pt}$ 与 $^{190}\mathrm{Hg}$），微观势能面在 $\gamma$ 方向通常极度平坦，表现出强烈的 $\gamma$ 振动软化（$\gamma$-Softness）与长椭--扁椭形状共存特征。因此，\textbf{不能简单给整个 $A\approx 190$ 区域贴上统一固定为扁椭球或刚性三轴的单一定性标签}。任何取向分析均需结合具体核态所属的微观构型、电荷不变量矩以及低能截面独立判断。
+
+\subsection{跨区迁移条件、物理不变量映射与失效反例}\label{sec:4-4-5}
+
+通过以上跨越稀土区、中重区与重核区的系统比较，可以提炼出取向运动在不同质量区迁移的物理充要条件，并明确相关物理量之间的映射界限。
+
+\subsubsection{取向运动跨区迁移的物理条件}
+
+一个原子核若要在宏观谱学中稳定展现出摆动等特定取向运动模式，通常需要满足以下综合物理条件：
+\begin{enumerate}
+\item \textbf{势能面刚性条件}：核芯在内禀形变空间中具备相对稳定的三轴势阱（通常需要明显的四极形变 $\beta_2$ 与稳定的非轴对称角度），避免被大幅度的 $\gamma$ 软振动或多重形状共存所掩盖；
+\item \textbf{集体转动动量条件}：体系总自旋必须显著高于奇核子内禀自旋，即核芯分配到的纯转动动量应当较大（$R = |\mathbf{I} - \mathbf{j}| \gg 1$），以构筑起简谐摆动恢复力势阱；
+\item \textbf{准粒子取向稳定性条件}：准粒子费米面应当稳定处于子壳层底部（粒子型）或顶端（空穴型），其对准几何在低频下能够抵御科里奥利力引起的向主旋转轴的过快重对准；
+\item \textbf{激发能级解耦条件}：摆动声子能量需与局域准粒子破对激发、签名伙伴态交叉以及核芯 $\gamma$ 振动态保持足够的解耦能隙，避免带间强烈的态混合。
+\end{enumerate}
+
+\subsubsection{低自旋下的模式演化反例}
+
+低自旋体系（如 $^{135}\mathrm{Pr}$ 与 $^{187}\mathrm{Au}$ 的低激发带）之所以难以呈现出 $^{163}\mathrm{Lu}$ 那样典型的摆动特征，关键原因之一在于其违背了条件 (2)：在带头 $I \sim j+1$ 处核芯转动极弱（$R \sim 1\hbar$），且奇核子角动量容易在推转作用下向转动轴发生重新对准。这导致体系在低自旋下更容易表现为由单粒子磁偶极驱动的平面转动或能带混合，从而无法维持以集体电四极增强为标志的宏观摆动。
+
+\subsubsection{物理不变量与微观响应量的映射边界}
+
+在跨核区比较中，必须严格区分不同物理量的定义与适用范围：
+\begin{enumerate}
+\item \textbf{跃迁四极矩 $Q_t$ 与光谱四极矩 $Q_s$}：$Q_t$ 由带内 $\Delta I = 2$ 跃迁强度反演，反映带内非对角电四极形变尺度；$Q_s$ 是核态本身的对角静态电四极矩。相同的 $Q_t$ 并不等价于核芯具有完全相同的微观组态或相同的转动惯量张量。
+\item \textbf{无量纲不变量比值 $R = q_3 / q_2^{3/2}$}：在第2.4节中已严格阐明，通过多步库仑激发求和规则提取的标量几何三次矩 $q_3 \propto \langle Q^3 \cos 3\delta \rangle$ 与二次矩 $q_2 \propto \langle Q^2 \rangle$，包含了多体波函数在全形变空间中的动态积分。其比值 $R$ 不能普遍直接等同于固定刚性角度下的 $\cos 3\gamma$；当势能面存在显著的形状涨落或非轴对称软度时，动态关联效应会导致 $R$ 呈现出与刚体模型不同的加权演化。
+\item \textbf{微观惯量与横向响应}：沿能带按间距提取的运动学惯量 $\mathcal{J}^{(1)}$ 与动力学惯量 $\mathcal{J}^{(2)}$ 描述的是静态角动量对频率的微商；而决定摆动模式稳定性的横向动力学响应受微观配对相互作用与科里奥利力的综合调控，不能仅凭带内能级间距相同就推断出相同的横向动力学行为。
+\item \textbf{电磁单位约定}：在磁偶极跃迁中，传统原子核物理单位 $\mu_N^2$ 与电荷型微观算符表述中的 $(\mu_N/c)^2$ 在标准定义下数值完全相同，切勿进行重复多余的除以 $c^2$ 的单位换算。
+\end{enumerate}
+
+\subsubsection{跨核区典型取向动力学对照总结}
+
+表~\ref{tab:4-4-cross-region-comparison}汇总了跨越四大典型质量区的核态配置、形变假设、实测电磁特征以及当前主要竞争解释。
+
+\begin{table}[!htbp]
+\centering
+\small
+\caption{跨核区非轴对称取向动力学核心案例比较矩阵（严格基于已核原件数据与物理模型条件整理）。}\label{tab:4-4-cross-region-comparison}
+\begin{tabularx}{\textwidth}{lXXXXX}
+\hline\hline
+核素与带 & 准粒子构型及费米面位置 & 形变与惯量模型条件 & 自旋窗口与带头核芯自旋 $R$ & 实测关键电磁特征 & 作者解释 vs 主要竞争解释 \\
+\hline
+$^{163}\mathrm{Lu}$ & 奇质子 $\pi i_{13/2}$ & $\varepsilon_2 \approx 0.38, \gamma \approx +20^\circ$; & $I = 41/2^+$--$71/2^+$; & $Q_t \approx 6.7$--$9.9\ \mathrm{b}$; & 作者：经典横向摆动 (TW); \\
+TSD1/2 & 壳底粒子型对准短轴 & 满足 $\gamma < 30^\circ$ 扇区无辐散 & $R \sim 15$--$30\hbar \gg 1$ & 带间 $B(E2)_{\mathrm{out}} \approx 0.54$--$0.70\ e^2\mathrm{b}^2$ & 理论评述：具备强超形变与强 \\
+& & 流排序 $\mathcal{J}_m > \mathcal{J}_s > \mathcal{J}_l$ & & (约 $100$--$130\ \mathrm{W.u.}$); $\delta \approx -3.10$ & 转动离心势的经典参照 \\
+\hline
+$^{135}\mathrm{Pr}$ & 奇质子 $\pi h_{11/2}$ & $\varepsilon_2 \approx 0.16, \gamma \approx 26^\circ$; & $I = 11/2^-$--$25/2^-$; & $747.3\ \mathrm{keV}$ 跃迁小根 & 原作者 (Matta 2015)：低自旋 TW; \\
+Band 1/3 & 壳底粒子型 & QTR 模型，单粒子自由度 & 带头自旋 $13/2^-$, & $\delta \approx -0.47$, $M1$ 主导; & 竞争解释 (Lv 2022)：双根多义性， \\
+& & 放开（未完全冻结） & 核芯转动 $R \sim 1\hbar$ 极微弱 & $B(E2; 747)/B(E2; 526) \approx 0.7$ & 单粒子重对准平面转动/$\gamma$ 振动混合 \\
+\hline
+$^{178}\mathrm{W}$ & 多准粒子高 $K$ & 轴对称极限 $\gamma \to 0^\circ$; & $I \ge K = 25^+$; & 带内强烈回转 $\Delta I = 1, 2$; & 作者 (Shimizu 2005)：高 $K$ 进动; \\
+$K^\pi=25^+$ & 费米子对准对称轴 $z$ & 垂直惯量 $\mathcal{J}_\perp$, 对称轴 $\mathcal{J}_z \to 0$ & 绕轴对称 $z$ 轴进动 & $E(I) \propto \frac{\hbar^2}{2\mathcal{J}_\perp}[I(I+1)-K^2]$; & 物理联系：三轴摆动在轴对称下 \\
+& 生成纯单粒子 $K$ & & & 无横向分支跃迁 & 的连续退化极限 \\
+\hline
+$^{187}\mathrm{Au}$ & 奇质子 $\pi h_{9/2}$ & $\beta_2 \approx 0.15, \gamma \approx 18^\circ$; & $I = 9/2^-$--$21/2^-$; & $376, 462\ \mathrm{keV}$ 跃迁小根 & 原作者 (Sensharma 2020)：纵向摆动; \\
+Band 1/2 & 壳底粒子型倾向短轴 & 处于三轴软度与扁椭 & 带头自旋 $11/2^-$, & $\delta \approx -0.26, -0.28$; 采用 & 竞争解释 (Guo 2022)：对准几何矛盾， \\
+& (与 LW 中轴对准冲突) & 形状共存区 & 核芯转动 $R \sim 1\hbar$ 极微弱 & $^{186}\mathrm{Pt}$ 估计 $B(E2)_{\mathrm{out}}$ 仅几 W.u. & 带头缺乏转动恢复力，形状共存 \\
+\hline\hline
+\end{tabularx}
+\end{table}
+
+综上所述，原子核在三轴形变空间中的动力学取向，并不由单一的标量形变参数所唯一支配，而是由宏观集体转动势能、核子费米面的代数结构、转动惯量的微观动力学响应以及自旋相空间所共同决定的开放量子过程。在跨核区谱学研究中，唯有结合严格的实验多义性检验与微观多体模型边界，才能在实验谱线与深层核结构机制之间建立起真实可靠的科学联系。

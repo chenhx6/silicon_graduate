@@ -1,0 +1,49 @@
+{
+  "section": "4.8",
+  "status": "parent-content-accepted; integrated typesetting pending",
+  "at_utc": "2026-11-13T16:10:17.581009+00:00",
+  "parent_checks": [
+    "Read fullR2 andR3 increments; corrected remaining stale note.",
+    "Verified14 actualraw hashes; NNDC200602 beta versus Adopted normalization and42-page carrier scope retained.",
+    "Re-read GintautasPDF2 bridge; KraemerPDF3–4 lifetime/n³ caveat; Guo2022PDF4 energy-window95% definition.",
+    "Fixed-initial-state widths sum over final channels; separateE0 caveat and no universal recoil scale.",
+    "ν=1 distinguished from high-multipole suppression; no cold-state-to-hot-yield inference.",
+    "Python pairedSVG/PDF redesigned and visually checked: thermal exchange, four electron channels and formation/entry/acceptance stages.",
+    "Note scoped schema/directlinks0errors; TeXcontrols/braces/dollars checked."
+  ],
+  "source_checks": "parent-source-checks.json",
+  "figure_boundary": "Conceptual only; box positions/arrows do not encode measured energies,rates orbranchingfractions.",
+  "artifacts": [
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-8.tex",
+      "sha256": "8c1516ec5ac9279e3f6bd5ac97603ff2ead921fd8ca125089204016f544dd4d8",
+      "size": 51317
+    },
+    {
+      "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-8.json",
+      "sha256": "ccf2161c292fb80164d0e7f9a73e8a7e81a2a1c0d3771f844dec108b9e5f6ec6",
+      "size": 34058
+    },
+    {
+      "path": "knowledge/research-notes/a130-rewrite-environment-formation-observability-20261113.md",
+      "sha256": "b35f5e4f43132fe0308d9258c597e1548eedd0851673769b70267eac9ba210a0",
+      "size": 24580
+    },
+    {
+      "path": "system/scripts/a130_environment_network_figure.py",
+      "sha256": "3517a3860d72550bc2521b2210e2c2c7b1c203f8bb915122f4b88fe08f3f1183",
+      "size": 4908
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/environment-network-pathways.pdf",
+      "sha256": "2a0af7164a819d6808df8740c4e31cfdc55dd26b3498f5e51022a813a26eee1b",
+      "size": 43679
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/environment-network-pathways.svg",
+      "sha256": "6ed4cd1a7fa95aa24f7375adc1c3a0304ea6346d00bb495c2d37bc7c931f8706",
+      "size": 150855
+    }
+  ],
+  "stale_worker_report": "Worker self_audit0.009% is historical error; parent note/ledger use original0.00146(4)%."
+}

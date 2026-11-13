@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-11-13T14:28:21.927184+00:00",
+  "status": "accepted-narrow-audit-replayed",
+  "canonical_section_status": "5.7 stillrequiresGemini revision",
+  "results_identical": true,
+  "runtime_evidence": "T19/parent-runtime-check.json observed codex/gpt-6.1-terra/xhigh",
+  "accepted_scope": [
+    "TargetBk alreadycontainsdeorientation, so no duplicatedUk inak.",
+    "Goodparity unobservedpolarization helicityselection, notpopulation symmetryalone, restrictsevenranks.",
+    "ActualHamilton/Lange pagesidentify workingRME+positiveinterference asKS, notRB; global5.9phase-name bridge deferredtoT20.",
+    "Toypositive responseandDCOprojective/finite-root controls arealgebraonly."
+  ],
+  "boundaries": [
+    "No newnumericalexperimentalclaim orwholebookreadcertification.",
+    "Keep formula,operatornormalization,absorption/emissionandphasepairs coherent when changingconventions; do notblindlyflip sourceexperimentalnumbers."
+  ],
+  "files": [
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T19/report.json",
+      "sha256": "e8b40d0935bd34c8f636ab5e3973b20e2025b76d86ac269d23d16cc3e6f61984"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T19/correction.tex",
+      "sha256": "328ad6451432321c7c9bf8c0046015f0d77bd2640159ddd1dbd1f98c320c3ade"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T19/validation.py",
+      "sha256": "97f55c45fda496e68379bf14a5bcbad2400bfec03b8f6c347131e5d771e4d3b1"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T19/results.json",
+      "sha256": "bfdb5f0e2a82947a3916af30275d35da6a45d0edbeb58607a049f19792c88f57"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T19/frozen-inputs.json",
+      "sha256": "34c48702d226e42818bab55cc375321423330c09ea0d30f29dad49aebb080f61"
+    }
+  ]
+}

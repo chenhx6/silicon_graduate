@@ -1,0 +1,396 @@
+{
+  "task": "T19 independent narrow review of frozen section 5.7",
+  "created_at_utc": "2026-11-13T12:36:04.433173+00:00",
+  "scope": "Frozen T19 section, ledger, producer, and targeted cited originals. No other thesis section or canonical file edited.",
+  "runtime": {
+    "user_report": "Parent independently verified T18 as Terra/xhigh and requested same runtime for T19",
+    "independent_model_and_effort": "not exposed by runtime to this reviewer; parent to verify"
+  },
+  "frozen_inputs_verification": [
+    {
+      "snapshot": "sec-5-7.frozen.tex",
+      "actual_sha256": "2aadea260f57991b1a1c4d0171de63f125a15ac9083f0763d4237eefb892566d",
+      "actual_size_bytes": 18716,
+      "matches_manifest": true
+    },
+    {
+      "snapshot": "section-5-7.frozen.json",
+      "actual_sha256": "3c1b563c868114963448f5ba14c5b046d6241bf8166809f471b0c0f0c294b2c8",
+      "actual_size_bytes": 7438,
+      "matches_manifest": true
+    },
+    {
+      "snapshot": "a130_angular_branch_figure.frozen.py",
+      "actual_sha256": "8e3f23d3ca142887436c865ff0ffb43a636b4cce2abf4e67682a9bc3efa32591",
+      "actual_size_bytes": 4036,
+      "matches_manifest": true
+    }
+  ],
+  "originals": [
+    {
+      "path": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+      "size_bytes": 45113419,
+      "sha256": "93b32a8debb66ad036229d860ad56f0434dc49b56edd32f1628af1d71a21ae00"
+    },
+    {
+      "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+      "size_bytes": 4188525,
+      "sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb"
+    }
+  ],
+  "read_original_pages": {
+    "Hamilton": {
+      "visual_pdf_pages": [
+        355,
+        529,
+        532,
+        550,
+        553,
+        555,
+        556,
+        557,
+        563,
+        569,
+        727,
+        728
+      ],
+      "pdf_pages_total": 956
+    },
+    "Lange": {
+      "visual_pdf_pages": [
+        3,
+        4
+      ],
+      "pdf_pages_total": 76
+    }
+  },
+  "accepted_with_conditions": [
+    {
+      "frozen_line": "sec-5-7.frozen.tex:11–15",
+      "finding": "B0=1 and symmetry P(M)=P(-M) implies odd Bk=0; odd-k phase differs from Hamilton as F04."
+    },
+    {
+      "frozen_line": "sec-5-7.frozen.tex:21–30",
+      "finding": "Even-rank expansion and k≤min(2Ii,2Lmax) are correct in stated electromagnetic, good-parity, axial and finite detector symmetry conditions."
+    },
+    {
+      "frozen_line": "sec-5-7.frozen.tex:56–64",
+      "finding": "Hamilton F coefficients and plus interference are consistent with KS convention; fix RB label and verify RME units."
+    },
+    {
+      "frozen_line": "sec-5-7.frozen.tex:95–104",
+      "finding": "The asymmetry correction a=N_perp^unpol/N_parallel^unpol and P=A_exp/Q are consistent when identical scatter-plane convention and Q≠0 apply."
+    },
+    {
+      "frozen_line": "a130_angular_branch_figure.frozen.py:22–32",
+      "finding": "For these frozen coefficients the DCO numerator/denominator and the two linear-analyser intensities are positive for all real delta; the clip does not activate, but this is an algebraic toy."
+    }
+  ],
+  "findings": [
+    {
+      "id": "F01",
+      "severity": "major",
+      "frozen_line": "sec-5-7.frozen.tex:15–18,20–24,32–36; section-5-7.frozen.json:116",
+      "finding": "已将目标态 B_k 定义为包含未观测级联 U_k，却在 a_k 中再次乘 U_k；台账声称已消除重复与冻结正文不符。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 553,
+          "printed_page": 542,
+          "equation_or_anchor": "Eqs.12.182–12.185",
+          "examined": "visual scan"
+        },
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 556,
+          "printed_page": 545,
+          "equation_or_anchor": "Eq.12.197",
+          "examined": "visual scan"
+        },
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 563,
+          "printed_page": 552,
+          "equation_or_anchor": "Eqs.12.209–12.213",
+          "examined": "visual scan"
+        }
+      ],
+      "correct_equation_or_conditions": "a_k=B_k(I_i)Q_k A_k/(B_0 Q_0 A_0)；B_0=Q_0=A_0=1 时 a_k=B_k Q_k A_k。若改用级联之前的取向才另乘一次适当 U_k。",
+      "evidence_boundary": "单一路径、未观测级联的乘积需各环节可用相应传递系数；多路径须依布居加权。"
+    },
+    {
+      "id": "F02",
+      "severity": "major",
+      "frozen_line": "sec-5-7.frozen.tex:15,20–23,30; section-5-7.frozen.json:116",
+      "finding": "由 P(M)=P(-M) 直接推得观测强度只含 0、2、4 阶，把取向的奇阶消失与未分析偏振强度的螺旋度选择混为一谈。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 553,
+          "printed_page": 542,
+          "equation_or_anchor": "Eqs.12.180–12.186，确定宇称条件",
+          "examined": "visual scan"
+        },
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 555,
+          "printed_page": 544,
+          "equation_or_anchor": "Eqs.12.188–12.189，螺旋度求和",
+          "examined": "visual scan"
+        },
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 556,
+          "printed_page": 545,
+          "equation_or_anchor": "Eqs.12.193–12.198",
+          "examined": "visual scan"
+        }
+      ],
+      "correct_equation_or_conditions": "P(M)=P(-M) 蕴含 B_odd=0；但轴对称、确定宇称的通常电磁单光子强度对两个螺旋度求和本身只保留偶 k，即使 B_odd 非零。k≤min(2I_i,2Lmax)，Lmax=2 时最多 0、2、4。",
+      "evidence_boundary": "此论断限定普通电磁、确定宇称和未分析光子偏振；涉及宇称混合或偏振观测须另用完整张量公式。"
+    },
+    {
+      "id": "F03",
+      "severity": "major",
+      "frozen_line": "sec-5-7.frozen.tex:42–44,53–64; section-5-7.frozen.json:74–80,112",
+      "finding": "正文把 sqrt(3)/10 约化矩阵元定义及 F_k 正干涉式称为 Rose–Brink；两篇被引原文将这一搭配明确标为 Krane–Steffen。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 553,
+          "printed_page": 542,
+          "equation_or_anchor": "Eqs.12.184–12.185，后文声明 KS",
+          "examined": "visual scan"
+        },
+        {
+          "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+          "pdf_page": 3,
+          "printed_page": 121,
+          "equation_or_anchor": "Eqs.2.4–2.6，KS 符号与矩阵元",
+          "examined": "visual scan"
+        },
+        {
+          "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+          "pdf_page": 4,
+          "printed_page": 122,
+          "equation_or_anchor": "Eqs.2.8–2.11 及页末 RB、BR、KS 关系",
+          "examined": "visual scan"
+        }
+      ],
+      "correct_equation_or_conditions": "若保留所示 Lange 矩阵元和 Hamilton F 系数/正干涉项，将约定标为 KS；Lange 所述发射约定的 δ_KS=-δ_RB，换系时同时换相关系数及算符、吸收/发射约定。",
+      "evidence_boundary": "未核查全文第5.9节或用户磁算符 SI 换算；公式中的 M_S=M_mu/c 需要结合全稿实际单位独立核实，不能仅凭这些原页断言单位完全一致。"
+    },
+    {
+      "id": "F04",
+      "severity": "moderate",
+      "frozen_line": "sec-5-7.frozen.tex:11–15",
+      "finding": "冻结 B_k 的 CG 自变量次序与 Hamilton Eq.12.73 不完全相同；偶阶相同，奇阶差一相位，却直接称 Hamilton 规范。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 529,
+          "printed_page": 518,
+          "equation_or_anchor": "Eq.12.73，B0=1及其他相位说明",
+          "examined": "visual scan"
+        },
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 532,
+          "printed_page": 521,
+          "equation_or_anchor": "Eq.12.81",
+          "examined": "visual scan"
+        }
+      ],
+      "correct_equation_or_conditions": "标准 CG 约定下 B_k^frozen=(-1)^k B_k^Hamilton；尤其 I=1/2、仅 M=+1/2 时前者 B1=+1，后者 B1=-1。B0=1 在任意归一布居下成立。",
+      "evidence_boundary": "未分析光子偏振的 W 仅用偶阶，故该奇阶相位差本身不改变本文偶阶公式。"
+    },
+    {
+      "id": "F05",
+      "severity": "major",
+      "frozen_line": "sec-5-7.frozen.tex:106–111; section-5-7.frozen.json:92–98",
+      "finding": "偏振系数、伴随 Legendre 归一、正负偏振基底及 Q_k 与 Q(E) 的关系未定义，且正文声称 Hamilton 第9章。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 556,
+          "printed_page": 545,
+          "equation_or_anchor": "Eq.12.198",
+          "examined": "visual scan"
+        },
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 727,
+          "printed_page": 716,
+          "equation_or_anchor": "Eqs.15.9–15.13",
+          "examined": "visual scan"
+        },
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 728,
+          "printed_page": 717,
+          "equation_or_anchor": "Eqs.15.14–15.15",
+          "examined": "visual scan"
+        },
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 569,
+          "printed_page": 558,
+          "equation_or_anchor": "Eqs.12.247–12.253",
+          "examined": "visual scan"
+        }
+      ],
+      "correct_equation_or_conditions": "P=(W_parallel−W_perp)/(W_parallel+W_perp)；若用 Hamilton A_{k2}，系数应包含 2 sqrt[(k−2)!/(k+2)!]，并固定偏振基底、P_k^2 定义、响应和符号。实验式 A_exp/Q 需已知非零灵敏度及一致散射平面约定。",
+      "evidence_boundary": "Q_k^pol 可吸收角接受处理，但不得与分析器灵敏度 Q(E) 混为一项；纯 E/M 符号的实际判断依赖角度、取向和符号约定。"
+    },
+    {
+      "id": "F06",
+      "severity": "major",
+      "frozen_line": "sec-5-7.frozen.tex:115–123,140–145",
+      "finding": "交叉相乘后没有筛掉分母为零的伪根；无限远端点误称渐近极点；完全退化和一次方程未完整讨论。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 553,
+          "printed_page": 542,
+          "equation_or_anchor": "Eq.12.185，对单一混合比为二次有理式",
+          "examined": "visual scan"
+        },
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 569,
+          "printed_page": 558,
+          "equation_or_anchor": "Eq.12.253，纯多极端点",
+          "examined": "visual scan"
+        }
+      ],
+      "correct_equation_or_conditions": "令 c_j=n_j−R d_j，逐一处理二次、一次、非零常数及 c0=c1=c2=0；有限根必须满足 D(δ)≠0。齐次化 δ=u/v 后 v=0 是纯高多极端点，d2≠0 且 R=n2/d2 时有效；±∞ 是同一纯态方向，不是有限分母零点。",
+      "evidence_boundary": "若 d2=0，端点是否有定义须查实际计数和极限；更一般门跃迁混合比/响应参数若同时改变，不能只称一个已知系数的二次式。"
+    },
+    {
+      "id": "F07",
+      "severity": "moderate",
+      "frozen_line": "sec-5-7.frozen.tex:70–74,78–87",
+      "finding": "DCO 效率乘积式及门选解释未明示探测器对的独立响应和级联时序；将门描述为对后续态重新取向不适用于所有门序。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 557,
+          "printed_page": 546,
+          "equation_or_anchor": "Sec.5.2.1 Eq.12.199，按级联时序构造两光子关联",
+          "examined": "visual scan"
+        }
+      ],
+      "correct_equation_or_conditions": "表达式在两角组计数曝光一致、效率可因子分解、背景及门选一致时适用；多探测器对及其相关效率应加权计算。给出观察条件后按实际先后顺序计算联合关联。",
+      "evidence_boundary": "未重建用户硬件和符合矩阵；该项不宣称实际阵列违反简化。"
+    },
+    {
+      "id": "F08",
+      "severity": "moderate",
+      "frozen_line": "sec-5-7.frozen.tex:125–134; a130_angular_branch_figure.frozen.py:22–38,61–74",
+      "finding": "producer 标示教学模型但图例写 Measured；图注称双螺旋度物理响应，实际是人工选定 DCO 与偏振二次函数，未从同一核态/跃迁的密度矩阵计算。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 727,
+          "printed_page": 716,
+          "equation_or_anchor": "Eqs.15.9–15.13，正交线偏振与统计张量",
+          "examined": "visual scan"
+        }
+      ],
+      "correct_equation_or_conditions": "改图例为假设观测带，图注说明人为参数、非核态计算；正交线偏振响应 W±H 均正只说明示意式 |P|<1，不证明这些曲线可由某个具体级联实现。避免把模型示例差异说成总能破简并。",
+      "evidence_boundary": "精确有理数判别式证明给定曲线正值且 clip 不会触发；根与 P 数值吻合图注的四舍五入。"
+    },
+    {
+      "id": "F09",
+      "severity": "moderate",
+      "frozen_line": "section-5-7.frozen.json:42–46,64–71,83–98; sec-5-7.frozen.tex:107",
+      "finding": "Hamilton 证据台账将 PDF355–386 描述为第8、9章的取向、DCO和偏振；直接查看 PDF355 为印344，第10章内转换。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 355,
+          "printed_page": 344,
+          "equation_or_anchor": "Chapter 10 internal conversion",
+          "examined": "visual scan"
+        },
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 529,
+          "printed_page": 518,
+          "equation_or_anchor": "Eq.12.73 orientation",
+          "examined": "visual scan"
+        },
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 550,
+          "printed_page": 539,
+          "equation_or_anchor": "Eq.12.168 F coefficients",
+          "examined": "visual scan"
+        },
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 556,
+          "printed_page": 545,
+          "equation_or_anchor": "Eqs.12.197–12.198",
+          "examined": "visual scan"
+        },
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 727,
+          "printed_page": 716,
+          "equation_or_anchor": "Chapter 15 Eqs.15.9–15.13",
+          "examined": "visual scan"
+        }
+      ],
+      "correct_equation_or_conditions": "证据台账应改为真实物理页与印刷页，并单独记录实际阅读的式号；线偏振相关原件见第12章和第15章。",
+      "evidence_boundary": "仅审定位，不代表指定外部引用的整本扫描书已通读；Lange 第3–4物理页已视觉核查。"
+    },
+    {
+      "id": "F10",
+      "severity": "moderate",
+      "frozen_line": "sec-5-7.frozen.tex:28,86–87",
+      "finding": "Q_k 的结论仅对角响应经过非负权重归一且关于探测器指向轴对称时成立；声称取向宽度必须同步拟合亦过强。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 532,
+          "printed_page": 521,
+          "equation_or_anchor": "Eq.12.80–12.81，高斯分布示例",
+          "examined": "visual scan"
+        },
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 727,
+          "printed_page": 716,
+          "equation_or_anchor": "Eq.15.10 和几何响应",
+          "examined": "visual scan"
+        }
+      ],
+      "correct_equation_or_conditions": "Q_k=∫w(Ω)P_k(cosα)dΩ/∫w(Ω)dΩ，w≥0 时 Q0=1 且 |Qk|≤1；取向宽度可用外部标定、独立约束、联合拟合或系统误差评估。",
+      "evidence_boundary": "非轴对称响应或不同偏振响应需做多极/角响应积分；未针对具体阵列计算 Q_k。"
+    }
+  ],
+  "validation": {
+    "script": "validation.py",
+    "results": "results.json",
+    "status": "passed",
+    "initial_execution_notes": [
+      "First attempt could not import sympy in supplied environment.",
+      "Second attempt needed AST extraction to include tuple-assigned exp_val and exp_err.",
+      "Final version uses only Python standard library and runs successfully."
+    ],
+    "boundary": "Example responses and exact-rational checks are not a physical determination of a nucleus, transition or apparatus."
+  },
+  "artifacts": [
+    "report.json",
+    "correction.tex",
+    "validation.py",
+    "results.json"
+  ],
+  "release_decision": "must_revise",
+  "not_reviewed": [
+    "Görgen 163Lu example and Wu textbook",
+    "5.2, 5.6, 5.9 or other canonical section consistency",
+    "Full hardware response and shared-event covariance"
+  ]
+}

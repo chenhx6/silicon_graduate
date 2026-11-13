@@ -1,0 +1,24 @@
+{
+  "test_jordanov": {
+    "M": 4999.500016666951,
+    "expected_peak": 1000100003.3333901,
+    "max_flat_top_dev": 5.245208740234375e-06,
+    "rel_flat_top_error": 5.244684254326364e-15,
+    "max_diff_conv": 5.602836608886719e-06,
+    "status": "passed"
+  },
+  "test_baseline": {
+    "BL": 250.0,
+    "baseline_residual": 0.0,
+    "flat_top_dev": 5.245208740234375e-06,
+    "rel_dev": 5.244684254326364e-15,
+    "status": "passed"
+  },
+  "test_cfd": {
+    "zc_amp1000": 230.99001300563455,
+    "zc_amp5000": 230.99001300563455,
+    "time_walk_ns": 0.0,
+    "status": "passed"
+  },
+  "all_passed": true
+}

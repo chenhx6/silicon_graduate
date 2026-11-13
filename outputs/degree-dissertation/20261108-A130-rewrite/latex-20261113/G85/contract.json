@@ -1,0 +1,391 @@
+{
+  "section_id": "2.8",
+  "title": "模型各自保留和消去了什么",
+  "section_label": "sec:2-8",
+  "contract_status": "contract-prepared-awaiting-start",
+  "executor": "G85 (Gemini Tiered/high)",
+  "timestamp": "2026-11-13T12:00:00+00:00",
+  "execution_domain": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G85/",
+  "target_files_after_start": {
+    "section_latex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-8.tex",
+    "evidence_ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-8.json",
+    "local_scratch": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G85/sec-2-8.tex"
+  },
+  "reader_starting_point": "读者在第2章前七节已建立严密的微观与宏观基础：在2.1节掌握实验室角动量、宇称与张量约化矩阵元约定；在2.2节理解单极相互作用驱动的ESPE与Type-I/II壳演化；在2.3节掌握BCS/HFB准粒子混合与配对相变；在2.4节掌握四极玻尔坐标、黎曼体积元测度与Kumar-Cline几何不变量；在2.5节掌握对称性恢复投影机制与非正交核求逆；在2.6节理解PES、微观惯量响应（IB与TV）以及时间奇残余相互作用；在2.7节掌握有效电荷、弱流重整化与算符模型空间修正。读者面临的紧迫核心问题是：面对文献中对同一原子核结构的大量竞争模型（壳模型、EDF、5DCH、PGCM、IBM、PRM、TAC、QRPA），它们在物理假设、微观截断、输入参数和预言边界上究竟保留了什么、消去了什么？为何绝不能仅凭能谱拟合断言模式？",
+  "central_question": "各主流核结构模型在多体希尔伯特空间中各自保留了哪些有效自由度、消去了哪些内部动力学？为什么不同的物理模型能够通过参数调整拟合出极为相似的实验能级谱，却在更深层的跃迁矩阵元、形状涨落分布或高自旋演化上给出截然相反的机制预言？如何确立不可越过的认识论底线（非同构性、非排座次性、投影非精确解、同名异义区分、参数不可自由迁移），并通过六质量区的留出检验与独立高阶观测量打破多模型解释简并？",
+  "predecessor_sections": [
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7"
+  ],
+  "successor_sections": [
+    "3.1",
+    "3.2",
+    "3.5",
+    "3.6",
+    "4.1",
+    "4.2",
+    "4.3"
+  ],
+  "prohibitions_strictly_obeyed": [
+    "在收到父级明确START指令前，绝对不动主Tex、BibTeX、其它节、PLAN或memory，不执行git commit/push",
+    "严禁按模型‘优劣’排座次，不得采用‘微观模型绝对优越于唯象模型’或相反的粗暴评判，坚持各模型是对不同尺度和截断下的有效描述",
+    "严格区分能量密度泛函(EDF)与哈密顿量算符(Hamiltonian)，严禁将泛函能量E[rho]与多体真空哈密顿算符期望值混同，严禁将其任意代入多体微扰求和",
+    "严格禁止将对称性投影(PAV/VAP)自动等同于多体薛定谔方程的精确解，必须明确其严格受限于选定内禀生成坐标流形的截断边界",
+    "严格禁止将跨模型相同的gamma数值混淆为同一物理对象：严格区分平均场自洽静态坐标gamma_MF、PRM刚体惯量参量gamma_rigid、Kumar-Cline矩阵元导出的有效均方根形状角gamma_inv以及代数模型相图参量chi",
+    "严格禁止将有效相互作用参数（有效电荷e_eff、GT淬灭因子q、转动惯量J_k）的可迁移性当作先验假设，必须明确模型空间截断与算符重整化的绑定关系",
+    "严格避免重复2.7节关于有效电荷与GT淬灭因子的微观求和推导，仅保留连贯的物理接口",
+    "严格禁止虚构任何数值或文献，所有比较案例必须来自真实存在且已验证的本地PDF原件与精确locator"
+  ],
+  "subsections_blueprint": [
+    {
+      "id": "2.8.1",
+      "title": "有效自由度的分离与希尔伯特空间的截断尺度",
+      "label": "sec:2-8-1",
+      "argument": "阐明多体薛定谔方程在核物理中的有效场论透视：任何可解模型本质上都是对全希尔伯特空间的特定投影与自由度积分。从微观费米子算符到集体四极坐标、转动欧拉角或代数玻色子，说明截断与消去内部高能动力学的必然代价。引出模型比较的核心准则：不是比较参数拟合的优美程度，而是审视其假定的主导自由度与消去的物理过程是否与所关心的能标和实验可观测相匹配。",
+      "pedagogical_focus": "为什么没有一个绝对普适的‘全能模型’？低能有效自由度的选择如何决定了模型的预测能力与盲区。"
+    },
+    {
+      "id": "2.8.2",
+      "title": "八类主流核结构模型的自由度透视与结构对比",
+      "label": "sec:2-8-2",
+      "argument": "系统剖析大规模壳模型(CI/MCSM)、自洽平均场与能量密度泛函(EDF/CDFT)、五维玻尔集体哈密顿量(5DCH)、投影生成坐标法(PGCM)、相互作用玻色子模型(IBM/IBFM)、粒子-转子模型(PRM/QTR)、倾斜轴推转平均场(TAC/CRHB)以及准粒子随机相位近似(QRPA/CRPA)。逐一明确各模型保留的显式自由度、冻结或消去的微观/动力学自由度、参数的物理来源以及典型的失效边界。",
+      "pedagogical_focus": "建立规范的八大模型物理透视结构，为后续表格提供连贯深入的段落叙述。"
+    },
+    {
+      "id": "2.8.3",
+      "title": "模型比较与解释中的五大认识论底线",
+      "label": "sec:2-8-3",
+      "argument": "建立严密的理论批判底线：(1) 不按模型形式排座次，摒弃纯唯象与全微观的虚假二元对立；(2) 区分EDF与哈密顿量算符，论证泛函自洽极小与薛定谔本征态的范式差异；(3) 投影并非万能精确解，指明PAV在受限流形下的残余关联遗失与非物理能量极点风险；(4) 解构‘同名异义’的gamma参量，区分静态变分极小gamma_MF、刚体惯量参量gamma_rigid、Kumar-Cline高阶矩涨落统计均值gamma_inv与代数相图参量chi；(5) 否定有效参数的先验可迁移性，阐明有效电荷和淬灭因子与选定模型空间的不可分割性。",
+      "pedagogical_focus": "破除博士研究中常见的模型认知误区，确立扎实审慎的理论评价标准。"
+    },
+    {
+      "id": "2.8.4",
+      "title": "核结构多模型综合要素交叉对比矩阵",
+      "label": "sec:2-8-4",
+      "argument": "设计一张信息密度极高、概念严谨的综合对比表，横跨八大模型，沿‘保留的自由度’、‘消去/冻结的动力学’、‘微观/唯象输入与参数来源’、‘主要可预测观测量’与‘典型失效机制与反例’五个维度进行系统对照。表格与前后正文紧密呼应，作为第2章从微观到宏观量子形状知识谱系的结构化索引。",
+      "pedagogical_focus": "一张可供读者和同行快速查验各模型适用边界的物理信息图表。"
+    },
+    {
+      "id": "2.8.5",
+      "title": "多模型解释简并与打破机制的具象剖析：以A≈130与A≈100为例",
+      "label": "sec:2-8-5",
+      "argument": "通过两类具有真实原件证据支撑的代表性案例，展示不同模型对同一谱学数据的解释简并及其被打破的过程：(1) 在A≈130奇A核（135Pr与133La）中，PRM三轴刚体转子与IBFM伽马软核耦合均能拟合低自旋转动带能级，PRM声称发现了横向wobbling，但微观寿命实验测定带间B(E2)极其微弱，排除了纯PRM刚体机制；(2) 在A≈100富中子锆同位素（98,100Zr）中，MCSM微观单极张量力驱动的Type-II壳演化、5DCH微观自洽双极小势面与IBM-2配置混合展现出完全不同的形状相变图像，唯有结合高自旋能级、绝对电四极矩与两核子转移才能实现机制辨识。",
+      "pedagogical_focus": "通过真实历史争议和严格实验判决，演示理论解释的简并性与打破简并的科学方法。"
+    },
+    {
+      "id": "2.8.6",
+      "title": "面向实验验证的留出检验与参数可辨识性界限",
+      "label": "sec:2-8-6",
+      "argument": "讨论理论模型与前沿核谱学实验交互的认识论闭环：参数过度调整（overfitting）带来的虚假解释力。提出留出检验（holdout validation）方法论：用基带能级拟合参数的模型，必须在其未参与拟合的高自旋态、带间绝对跃迁几率B(E2)/B(M1)、同核异能态寿命或多极库仑激发矩阵元上接受独立检验。总结全章并无缝衔接至第3章非轴对称三轴转动与高阶耦合动力学。",
+      "pedagogical_focus": "如何设计具有判决力的物理测试？从第2章的基础理论走向第3章的具体激发模式。"
+    }
+  ],
+  "cross_model_comparison_matrix_blueprint": [
+    {
+      "model_name": "大规模微观壳模型 (Shell Model / CI / MCSM)",
+      "retained_degrees_of_freedom": "球形单粒子价轨道上的费米子算符 a_j^dagger, a_j；完整的自旋-轨道耦合与张量相互作用；多粒子-多空穴组态空间完全组态相互作用。",
+      "eliminated_dynamics": "冻结惰性核芯（inert core）内部的高能激发；截断更高主壳的虚激发（通过两体有效相互作用重整化吸收）；消去了连续谱解耦。",
+      "parameter_origins": "自由核子真实力经微扰G-矩阵/V_low-k/SRG演化，结合闭壳邻近核实验能级经验修正单极基元（如USD、GXPF1、JUN45等相互作用）。",
+      "predictable_observables": "实验室精确能级谱 E(I^pi)、单核子谱因子 S_j、绝对电磁跃迁几率 B(E2), B(M1)、核磁偶极矩 mu 与电四极矩 Q；通过矩阵元求和规则导出Kumar-Cline形状不变量 q_2, q_3。",
+      "characteristic_failures": "在中重核大形变区和超形变区遭遇维数灾难（基矢维度爆炸）；跨主壳粒子-空穴侵入态强混合时单一价空间截断失效；对深部核芯极化缺乏动力学自洽响应。"
+    },
+    {
+      "model_name": "自洽平均场与能量密度泛函 (Mean Field / HFB / Skyrme / Gogny / CDFT)",
+      "retained_degrees_of_freedom": "全核子定域/非定域单体密度 rho(r)、动能密度 tau(r)、自旋-轨道密度 J(r) 与反常配对张量 kappa(r)；全空间自洽平均场响应。",
+      "eliminated_dynamics": "单参考态（SR-EDF）完全消去了大振幅形状涨落和超出静态势阱的量子涨落；自发破缺了实验室转动、宇称与粒子数守恒对称性。",
+      "parameter_origins": "全局唯象拟合核素图基本基态性质（幻数核双重结合能、电荷半径、核物质饱和密度、不可压缩模 K_0、对称能斜率 L，如SLy4、D1S/D1M、DD-PC1）。",
+      "predictable_observables": "基态结合能、电荷半径、壳层弥散度、多极约束势能曲面 E(beta, gamma)、静态极小形变参数 (beta_0, gamma_0)、单核子有效单粒子能级 ESPE。",
+      "characteristic_failures": "在势面平坦的gamma软核或形状共存核中无法提供孤立极小；静态平均场对称破缺不能直接给出好角动量实验室态能级；泛函能量非哈密顿算符期望值，无法直接开展高阶微扰求和。"
+    },
+    {
+      "model_name": "五维玻尔集体哈密顿量 (5DCH / Bohr Collective Hamiltonian 基于自洽微观输入)",
+      "retained_degrees_of_freedom": "大振幅四极形变内禀坐标 (beta, gamma) 与三个空间转动欧拉角 Omega = (phi, theta, psi) 共五个集体自由度。",
+      "eliminated_dynamics": "绝热近似下消去了非平衡单粒子激发及内禀准粒子组态跳跃；冻结了八极等高阶多极形变；消去了核芯与价核子的非绝热微观耦合。",
+      "parameter_origins": "完全源自微观约束HFB/EDF势能曲面（经零点能ZPE修正）及Inglis-Belyaev (IB) 或 Thouless-Valatin (TV) 动能逆质量张量 B_mu_nu 与转动惯量 J_k(beta, gamma)。",
+      "predictable_observables": "偶偶核实验室低激发能谱（基态带、gamma振动带、beta振动带）、态波函数在形变空间概率分布 |Psi_I(beta, gamma)|^2、带内与带间绝对 B(E2) 跃迁几率。",
+      "characteristic_failures": "无法描述单核子高j轨道顺排带交叉（backbending）与高K异能态费米子阻塞；在配对相变临界点（Delta -> 0）或绝热基态交叉点IB惯量发散，绝热假设崩溃。"
+    },
+    {
+      "model_name": "投影生成坐标法 (Projected GCM / PGCM / SCC-GCM)",
+      "retained_degrees_of_freedom": "一组形变内禀态流形 {|Phi(q)>} 上的连续相干量子叠加，通过显式投影算符 P^N, P^Z, P^I_MK, P^pi 完全恢复实验室守恒对称性。",
+      "eliminated_dynamics": "受限于预选的生成坐标集 {q}（如 beta, gamma, Delta），消去了未纳入流形的正交微观组态自由度；变分后投影 (PAV) 消去了转动态对内禀态的反作用。",
+      "parameter_origins": "底层自洽微观有效两体核力或定域泛函（Skyrme/Gogny/CDFT），无额外唯象集体质量参数。",
+      "predictable_observables": "良好实验室量子数 (I^pi, N, Z) 下的绝对能级、多形变共存态混合权重、形状跃迁矩阵元、电荷半径同位素移动。",
+      "characteristic_failures": "在密度依赖泛函投影中存在非物理能量极点发散（kernel divergences / poles）；高自旋三维欧拉角投影数值积分维数灾难；基矢网格受限导致不完备性。"
+    },
+    {
+      "model_name": "相互作用玻色子模型 (Interacting Boson Model / IBM / IBFM)",
+      "retained_degrees_of_freedom": "价核子单极对 (s 玻色子, L=0) 与四极对 (d 玻色子, L=2) 的代数空间，总玻色子数 N_B 守恒；IBFM中额外保留单费米子算符 a_j^dagger。",
+      "eliminated_dynamics": "消去了费米子内禀泡利不相容原理的细致组态交换项；冻结了破对激发的四准粒子及更高准粒子自由度。",
+      "parameter_origins": "动力学对称性代数极限（U(5), SU(3), O(6)）唯象插值拟合，或通过OAI映射由微观表面delta相互作用或HFB态导出。",
+      "predictable_observables": "多声子激发带能级结构、跃迁比 B(E2)、B(M1)/B(E2) 分支比、原子核形状相变相图。",
+      "characteristic_failures": "无法自然解释高自旋破对回弯与单粒子顺排（需引入解对扩展）；对微观壳演化、单极自旋-轨道移动细节不敏感。"
+    },
+    {
+      "model_name": "粒子-转子模型 (Particle-Rotor Model / PRM / QTR)",
+      "retained_degrees_of_freedom": "宏观三轴转子核芯的三个空间欧拉转动自由度 R，加上一个或少数几个高j价准粒子的内禀角动量 j，总角动量 I = R + j。",
+      "eliminated_dynamics": "将核芯形状假定为完全绝热的刚性三轴椭球，冻结了核心形变坐标 (beta, gamma) 的动力学量子涨落；消去了核心核子的微观极化与对激发。",
+      "parameter_origins": "经验主轴转动惯量 J_1, J_2, J_3（刚体或流体流取向），平均场单粒子Nilsson势参数 (kappa, mu, epsilon, gamma)，经验配对能隙 Delta。",
+      "predictable_observables": "奇A核与奇奇核的高自旋转动带谱、签名裂变（signature splitting）、手征双重带、横向/纵向摆动激发能 E_wob 与带间跃迁比 B(E2)/B(M1)。",
+      "characteristic_failures": "低自旋区核心形变涨落剧烈（如gamma软核），刚体核心假设崩溃；忽略核心反作用极化，导致对低自旋摆动跃迁强度的虚假夸大预言。"
+    },
+    {
+      "model_name": "倾斜推转平均场理论 (Tilted Axis Cranking / TAC / 3D-TAC / CRHB)",
+      "retained_degrees_of_freedom": "在绕三维空间任意定向转动的随体坐标系中，自洽保留单体平均场、科里奥利力与离心力引起的全部准粒子顺排与多准粒子极化。",
+      "eliminated_dynamics": "经典化转动矢量 omega，破缺了实验室角动量守恒量子数；消去了垂直于转轴的横向摆动量子涨落；消去了带间非对角跃迁的时间反演恢复。",
+      "parameter_origins": "相对论微观泛函 (CDFT) 或非相对论Skyrme/Nilsson-Strutinsky势与对相互作用。",
+      "predictable_observables": "空间倾斜转动下的自旋分量 I_x, I_y, I_z、磁转动剪刀带剪切角演化、静态手征取向角、面内/面外跃迁强度比 B(M1)/B(E2)。",
+      "characteristic_failures": "在经典转动能面分叉点附近无法给出带间非对角量子隧穿能劈裂 Delta E(I)（需借助RPA或投影）；小振幅摆动区零点能发散。"
+    },
+    {
+      "model_name": "准粒子随机相位近似 (Quasiparticle Random Phase Approximation / QRPA / CRPA)",
+      "retained_degrees_of_freedom": "在自洽基态（或推转平均场态）之上的双准粒子产生与湮灭振幅 X_mi, Y_mi 线性响应，保留小振幅简谐玻色子振动模式。",
+      "eliminated_dynamics": "完全限制在小振幅线性响应区间，消去了非谐模式耦合（mode-mode coupling）；消去了大振幅形状重构与跨势垒隧穿。",
+      "parameter_origins": "底层自洽HFB平均场单粒子态及残余两体对相互作用与粒子-空穴相互作用强度。",
+      "predictable_observables": "巨多极共振能区强度分布（GDR, GQR, 剪刀模）、低激发 2_1^+, 3_1^- 振动态能量与跃迁强度、快转动态之上的微小摆动频率 hbar omega_wob。",
+      "characteristic_failures": "在形变相变或配对相变临界点附近，Hessian矩阵失稳出现零频或虚频解（QRPA发散崩溃）；无法描述远离能量极小的大振幅共存态。"
+    }
+  ],
+  "concrete_case_studies_blueprint": [
+    {
+      "case_id": "case_1_A130_pr135",
+      "title": "A≈130奇A核（135Pr）低自旋带间跃迁的角分布双解与多模型条件约束",
+      "physical_system": "135Pr (Z=59, N=76) 负宇称 pi h_11/2 结构",
+      "competing_models": [
+        {
+          "model": "PRM (粒子-转子模型，冻结单粒子假定)",
+          "citation_keys": [
+            "frauendorf-2014-transverse-wobbling"
+          ],
+          "assumptions": "假设刚性三轴核芯（beta ≈ 0.17, gamma ≈ 26°）加上冻结在短轴的 h_11/2 准质子；在此强约束下，角分布拟合选取大根 |delta| > 1，解释为绕短轴进动的横向摆动（transverse wobbling），预测带间存在集体增强的 E2 跃迁。"
+        },
+        {
+          "model": "QTR / IBFM (非冻结准粒子转子与代数玻色子-费米子耦合)",
+          "citation_keys": [
+            "nomura_2022_Questioningwobbling"
+          ],
+          "assumptions": "QTR模型在释放单粒子角动量冻结后，展现出单粒子角动量向中间轴的再顺排；IBFM则从微观泛函自洽映射出gamma软核芯与准质子耦合，二者均表明带间跃迁主要由单粒子机制或取向变化主导。"
+        }
+      ],
+      "experimental_arbitration": {
+        "experiment_ref": "Lv et al., Phys. Lett. B 824, 136840 (2022)",
+        "canonical_source": "https://doi.org/10.1016/j.physletb.2021.136840",
+        "measured_observable": "对135Pr中Band 3到Band 1的 747.3 keV (17/2^- -> 15/2^-) 跃迁及跃迁至签名伴带Band 2的 526.2 keV 跃迁，进行联合线偏振度 P 与两点各向异性比 Rac 拟合",
+        "result": "测得相对跃迁强度比 B(E2; 747)/B(E2; 526) = 0.7(+0.7/-0.5)，提取出小根解 delta(747.3) = -0.47(+0.09/-0.22)；表明角分布存在大根与小根双解简并，且线偏振度完全兼容以M1为主的小根解。该实测比值与PRM强横向摆动预期的显著集体E2增强并不一致，而与非冻结单粒子向中间轴顺排的QTR模型及IBFM软核耦合更为兼容，构成了对冻结单粒子横向摆动强假定的关键条件约束。"
+      }
+    },
+    {
+      "case_id": "case_2_A100_zr98_100",
+      "title": "A≈100富中子锆同位素（98,100Zr）急剧形状相变的多模型透视",
+      "physical_system": "98Zr (Z=40, N=58) 与 100Zr (Z=40, N=60)",
+      "competing_models": [
+        {
+          "model": "MCSM (蒙特卡洛大规模壳模型)",
+          "citation_keys": [
+            "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+            "doctoral-r1-g28-togashi-2016-zr-mcsm-qpt"
+          ],
+          "mechanism": "微观单极驱动Type-II壳演化：质子跃迁占据pi g_9/2通过自旋-同位旋张量相互作用引起中子nu g_7/2单粒子能量急剧下降，费米面能隙塌缩诱发核自组织，基态球形与大形变四极态（beta ≈ 0.4）急剧共存反转。"
+        },
+        {
+          "model": "5DCH (五维玻尔集体哈密顿量)",
+          "citation_keys": [
+            "prochniak-rohozinski-2009-bohr-collective-hamiltonian"
+          ],
+          "mechanism": "在微观自洽Gogny/Skyrme势能曲面上展现出从98Zr的球形极小加微弱扁椭鼓包，到100Zr突变为深大形变三轴极小；通过求解5D玻尔集体波函数获得能量零点涨落下的相变混合。"
+        },
+        {
+          "model": "IBM-2 配置混合",
+          "citation_keys": [
+            "Heyde_2011"
+          ],
+          "mechanism": "将常态规则组态 [N] 玻色子空间与质子跨壳对激发侵入态 [N+2] 玻色子空间通过 2x2 代数哈密顿量混合，唯象描述球形与形变带交叉。"
+        }
+      ],
+      "experimental_arbitration": {
+        "experiment_ref": "Singh et al., PRL 121, 192501 (2018)",
+        "measured_observable": "98Zr中低激发0_2^+, 2_1^+, 2_2^+态的绝对寿命与 B(E2) 跃迁强度",
+        "result": "测得0_2^+ -> 2_1^+极小跃迁与2_2^+ -> 0_2^+的大形变增强跃迁，直接证实了球形与高变形共存构型的微小混合，唯有具有精确微观单极相互作用的壳模型或微观约束5DCH才能定量重现跃迁矩阵元。"
+      }
+    }
+  ],
+  "epistemological_red_lines": [
+    {
+      "rule_id": "NO_RANKING",
+      "title": "严禁按模型形式与‘纯粹性’排座次",
+      "physics_reason": "避免‘全微观至上’或‘唯象唯美’的片面偏见。微观壳模型受限于价空间截断和有效电荷修正，自洽EDF受限于单参考态静态近似和唯象泛函拟合，代数模型受限于玻色子截断。各模型均是对多体薛定谔方程在不同特征能标与特定物理重点下的有效场映射，其价值由其解释特定物理现象时的内洽性与自洽性决定。"
+    },
+    {
+      "rule_id": "EDF_NOT_HAMILTONIAN",
+      "title": "严格区分能量密度泛函 E[rho, kappa] 与多体哈密顿算符",
+      "physics_reason": "自洽密度泛函能量 E[rho, kappa] 是单体密度与配对张量的泛函，而单粒子自洽哈密顿量 h = delta E / delta rho 才是泛函导数。尽管部分泛函来自定域伪势（如微观Skyrme零程力或有限程Gogny力）或微观多体哈密顿量，但在无底层算符的唯象泛函中，E[rho, kappa] 并不能直接等同于多体薛定谔方程中微观算符的严格矩阵元期望值，更不可任意代入多体微扰论求和。"
+    },
+    {
+      "rule_id": "PROJECTION_NOT_EXACT",
+      "title": "变分后投影 (PAV) 的流形受限与特定 MR-EDF 投影病态边界",
+      "physics_reason": "投影操作 P^I 从破缺对称性的内禀态流形中滤出实验室物理态，其物理精度严格受限于选定生成坐标流形的完备性。若内禀态未包含破对激发或多体张量关联，PAV 依然遗失正交组态空间的动力学。必须澄清：文献中发现的非物理能量极点发散与自相互作用误差，主要出现于具有非整数次分式密度依赖项（fractional density dependence，如 rho^alpha）的多参考能量密度泛函 (MR-EDF) 特定实现中，而非基于真实算符或双线性伪势的变分后投影 (PAV) 的普遍病态。"
+    },
+    {
+      "rule_id": "GAMMA_POLYSEMY",
+      "title": "解耦同名异义的四类 gamma 参量与独立物理定义",
+      "physics_reason": "必须在正文中对四类物理内涵截然不同的 gamma 进行严格的符号与概念解耦：(1) 自洽平均场与5DCH中的静态几何坐标 gamma_MF（自洽单体密度的空间不对称度）；(2) 转子模型中的惯量三轴比值参数 gamma_rigid（由核内核子流体或刚体惯量张量的主轴比值决定，与电荷四极分布几何 gamma 物理上不必等同）；(3) 由Kumar-Cline多极张量闭合求和导出的不变量比值有效角 gamma_inv，例如通过不变量比值 cos(3 gamma_inv) = -sqrt(7/2) q_3 / q_2^(3/2) 或形变分布加权平均定义，不可统一简称为“均方根有效形状角”；(4) 代数模型IBM中的相图参量 chi 或四极玻色子算符参数。四者即使在特定数值上恰好接近，其定义、物理测度与涨落敏感度截然不同。"
+    },
+    {
+      "rule_id": "PARAMETER_NON_TRANSFERABILITY",
+      "title": "不把有效相互作用参数的可迁移性当先验",
+      "physics_reason": "壳模型中的有效电荷 e_eff（如质子1.5e、中子0.5e）和弱轴矢流GT淬灭因子 q（约0.74）是对价空间之外高能核芯极化和高阶非对组态的唯象吸收；在全空间自洽EDF或相对论泛函中，算符本身使用自由电荷；在PRM中转动惯量直接取自实验带能级。绝不能将壳模型中调试好的有效参数原封不动地移植到集体模型中，参数必须与特定的基矢截断空间相绑定。"
+    }
+  ],
+  "six_mass_region_validation_map": {
+    "A_approx_70": "Ge, Se 同位素：质子与中子同时填充相同的 f_5/2, p_3/2, g_9/2 轨道，长程四极相互作用剧烈竞争，展现出急剧的形状演化与扁椭-三轴相变；检验模型对三轴柔顺性与准粒子顺排的描述。",
+    "A_approx_68": "Ni 同位素反转岛：自旋-同位旋张量力导致单极ESPE移动，弱束缚与连续谱耦合，检验大规模壳模型与微观平均场对破闭壳与核子自组织的预言。",
+    "A_approx_100": "Zr, Mo 富中子同位素：基态由极球形突变到极形变（98Zr -> 100Zr），检验MCSM单极驱动Type-II壳演化、5DCH双极小势面与IBM-2配置混合的判定性较量。",
+    "A_approx_130": "Ba, Ce, Pr, Nd 区域（本论文核心锚点）：三轴非轴对称、gamma-soft、准粒子顺排与多重手征/摆动带集中爆发区；检验PRM刚体假说、IBFM软核耦合与微观5DCH的多模型辨识。",
+    "A_approx_160": "稀土稳定变形区（Er, Dy, Lu）：典型的大变形刚性轴对称转子与三轴超形变 (TSD)；检验经典转子展开、大自旋摆动声子激发与准粒子微观响应模型。",
+    "A_approx_190": "Pt, Hg, Pb 形状共存区：扁椭与长椭双带交错共存；检验多极重离子库仑激发对角/非对角矩阵元、投影GCM与IBM组态混合的反演能力。"
+  },
+  "verified_sources_and_locators": [
+    {
+      "source_id": "poves-2020-limits-assigning-nuclear-shape",
+      "canonical_source": "A. Poves, F. Nowacki, and Y. Alhassid, Phys. Rev. C 101, 054307 (2020)",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/poves-2020-limits-assigning-nuclear-shape.pdf",
+      "raw_sha256": "ca188d5b2ac257edb8f616b2a055d2bd488f29d5d136baf540753ea049edf21a",
+      "read_locators": "PDF pp. 1–6 (printed pp. 054307-1–6, Eqs.(1)–(5), Figs. 1–3)",
+      "status": "VERIFIED_READY",
+      "supports": "壳模型波函数中Kumar-Cline高阶形状不变量计算、形状涨落方差Delta q_2, Delta gamma与有效形状角定义限制"
+    },
+    {
+      "source_id": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+      "canonical_source": "T. Otsuka, Physics 4, 258–285 (2022) / MDPI Book (2023)",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-otsuka-article/otsuka-2022-physics-emerging-concepts-publisher.pdf",
+      "raw_sha256": "83ddfab8989cdb0a23be1d5ca3e9f689c7e8d728823d0b7c6a21c5aecd3ca0c7",
+      "read_locators": "PDF pp. 3–15 (printed pp. 260–272, Section 3 Type-II Shell Evolution, Figs. 4–8)",
+      "status": "VERIFIED_READY",
+      "supports": "大规模壳模型单极相互作用分解、自旋-同位旋张量力、Type-II壳演化与核自组织概念、98-100Zr急剧形状相变微观机制"
+    },
+    {
+      "source_id": "doctoral-r1-g28-togashi-2016-zr-mcsm-qpt",
+      "canonical_source": "T. Togashi et al., Science 354, 1238 (2016) / PRL 117, 172502 (2016)",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G28/togashi-2016-zr-qpt.pdf",
+      "raw_sha256": "f43431ebad67addfbefb521eed14c43f152fe5221ccc0d995d69a3d5aaa7b3e9",
+      "read_locators": "PDF pp. 1–5 (printed pp. 172502-1–5, Figs. 1–4)",
+      "status": "VERIFIED_READY",
+      "supports": "MCSM蒙特卡洛壳模型在Zr同位素链中的量子相变计算、多粒子-空穴激发与能级反转"
+    },
+    {
+      "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+      "canonical_source": "L. Próchniak and S. G. Rohoziński, J. Phys. G: Nucl. Part. Phys. 36, 123101 (2009)",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/prochniak-rohozinski-2009-v1.pdf",
+      "raw_sha256": "4d7e6d3942230023061efd0032b3d1f9231e5d6f230219329ef984c458bb689b",
+      "read_locators": "PDF pp. 2–18 (Sections 2–4, Eqs.(1)–(48), ATDHFB与GCM-GOA质量张量、IB与TV惯量比对、Pauli-Podolsky黎曼量子化)",
+      "status": "VERIFIED_READY",
+      "supports": "5DCH五维玻尔集体哈密顿量的微观推导、动能质量张量与自洽平均场势面输入接口"
+    },
+    {
+      "source_id": "nomura_2022_Questioningwobbling",
+      "canonical_source": "K. Nomura and C. M. Petrache, Phys. Rev. C 105, 024320 (2022)",
+      "raw_file": "raw/papers/2022_Nomura et al_Questioning the wobbling interpretation of low-spin bands in γ -soft nuclei within the interacting b.pdf",
+      "raw_sha256": "e61e3dd6fe5e67fb55543f3a136c7cce0fda98ad01f112d81d5eef70b613465f",
+      "read_locators": "PDF pp. 1–8 (Sections I–IV, Figs. 1–6, Table I, 135Pr与133La IBFM能谱与微弱带间E2强度)",
+      "status": "VERIFIED_READY",
+      "supports": "IBFM与PRM在A≈130奇A核低自旋摆动带解释中的竞争、gamma软核低能激发与准粒子耦合导致的虚假摆动假象"
+    },
+    {
+      "source_id": "lv-2022-evidence-against-wobbling-135pr",
+      "canonical_source": "B. F. Lv, C. M. Petrache, E. A. Lawrie et al., Phys. Lett. B 824, 136840 (2022)",
+      "raw_file": "raw/papers/2022_Lv et al_Evidence against the wobbling nature of low-spin bands in 135Pr.pdf",
+      "raw_sha256": "4b87c540bf9da514781498cffc1f010375a34e067c87c2b38038fe0d12e6900f",
+      "read_locators": "PDF pp. 2–3 (Table 1, Figs. 2–3, Section on 747.3 keV 17/2^- -> 15/2^- & 526.2 keV transitions, B(E2; 747)/B(E2; 526) = 0.7(+0.7/-0.5))",
+      "status": "VERIFIED_READY",
+      "supports": "135Pr负宇称带间跃迁747.3 keV角分布双根解分析（小根delta=-0.47(+9/-22)，M1为主），实测比值B(E2; 747)/B(E2; 526)=0.7(+7/-5)，及非冻结单粒子向中间轴顺排倾斜进动的QTR模型条件约束"
+    },
+    {
+      "source_id": "frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei",
+      "canonical_source": "S. Frauendorf, Rev. Mod. Phys. 73, 463–514 (2001)",
+      "raw_file": "raw/papers/2001_Frauendorf_Spontaneous symmetry breaking in rotating nuclei.pdf",
+      "raw_sha256": "d43c7290cf5899eb7d00f73ee51ca8e9508935c15be36209be38ea4ba2330a13",
+      "read_locators": "PDF pp. 2–20 (printed pp. 464–482, Section II Cranking Model and Symmetries, Figs. 1–8)",
+      "status": "VERIFIED_READY",
+      "supports": "推转平均场TAC的理论基础、自发对称破缺与恢复、磁转动剪刀机构、主轴与非主轴旋转"
+    },
+    {
+      "source_id": "frauendorf-2014-transverse-wobbling",
+      "canonical_source": "S. Frauendorf and F. Dönau, Phys. Rev. C 89, 014322 (2014)",
+      "raw_file": "raw/papers/2014_Frauendorf_Dönau_Transverse wobbling.pdf",
+      "raw_sha256": "36794ee1308adc1b7fcf71a9ee079ae403487c6729a738c62c95fe1c4cae44f7",
+      "read_locators": "PDF pp. 1–12 (Eqs.(1)–(25), Figs. 1–6, PRM粒子转子横向摆动模型与能谱展开)",
+      "status": "VERIFIED_READY",
+      "supports": "PRM横向摆动运动学假定、体轴系各向异性惯量与高j准粒子横向耦合机制"
+    },
+    {
+      "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+      "canonical_source": "A. Bohr & B. R. Mottelson, Nuclear Structure, Vol. II: Nuclear Deformations, Benjamin (1975) / World Scientific (1998)",
+      "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "raw_sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "read_locators": "PDF pp. 212–215 (printed pp. 190–193, Chapter 4 Rotational Spectra, Section 4-5e)",
+      "status": "VERIFIED_READY",
+      "supports": "纯转子高自旋展开、粒子转子耦合基础方程与对称性约束"
+    },
+    {
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "canonical_source": "J. Suhonen, From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory, Springer (2007)",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "read_locators": "PDF pp. 310–335 (printed pp. 295–320, Chapter 18 Quasiparticle Random-Phase Approximation, Eqs.(18.1)–(18.35))",
+      "status": "VERIFIED_READY",
+      "supports": "QRPA双准粒子激发矩阵、非谐截断极限与自洽配对相互作用"
+    },
+    {
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "canonical_source": "D. Cline, Ann. Rev. Nucl. Part. Sci. 36, 683–716 (1986)",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "raw_sha256": "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113",
+      "read_locators": "PDF pp. 15–22 (printed pp. 697–704, Section 3 Zero-Degree Invariants, Eqs.(3.1)–(3.14))",
+      "status": "VERIFIED_READY",
+      "supports": "多极矩阵元闭合求和与模型无关的核形状不变量测度"
+    },
+    {
+      "source_id": "heyde-wood-2011-shape-coexistence-review",
+      "canonical_source": "K. Heyde and J. L. Wood, Rev. Mod. Phys. 83, 1467–1521 (2011)",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf",
+      "raw_sha256": "660c376e493e638501bfc8596d4eda46f490becb811ba5f30259d6f78c652183",
+      "read_locators": "PDF pp. 2–15 (printed pp. 1468–1481, Sections I–II, 形状共存的多模型理论框架与组态混合)",
+      "status": "VERIFIED_READY",
+      "supports": "核形状共存的微观壳模型与IBM组态混合对比框架"
+    }
+  ],
+  "existing_bib_keys": [
+    "poves-2020-limits-assigning-nuclear-shape",
+    "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+    "doctoral-r1-g28-togashi-2016-zr-mcsm-qpt",
+    "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+    "nomura_2022_Questioningwobbling",
+    "frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei",
+    "frauendorf-meng-1997-tilted-rotation-chirality",
+    "book-bohr-mottelson-nuclear-structure-vol2",
+    "book-suhonen-from-nucleons-to-nucleus",
+    "cline-1986-nuclear-shapes-coulomb-excitation",
+    "Heyde_2011",
+    "casten_1990_simple-perspective",
+    "greiner_1996_models",
+    "meyertervehn_1975_collective-description-transitional",
+    "meyertervehn_1975_133ce-collective-description"
+  ],
+  "scientific_acceptance_criteria": [
+    "1. 范围与完整性：全面深入覆盖八大主流模型（SM/CI/MCSM, MF/EDF/CDFT, 5DCH, PGCM, IBM/IBFM, PRM, TAC/CRHB, QRPA），无遗漏。",
+    "2. 物理透视深度：准确刻画各模型保留的显式自由度与消去的隐式动力学，严格阐释各模型的微观/唯象输入机制与特征失效边界。",
+    "3. 认识论红线合规：通篇贯彻五大认识论底线，绝对不按模型优劣排座次；严格区分EDF与哈密顿算符；明确对称性投影的变分流形局限；严格解耦四种同名异义的gamma概念；否定有效参数的先验可迁移性。",
+    "4. 交叉对比矩阵质量：提供一张信息高度凝练、包含物理内涵的多模型要素综合对比表，满足博士论文对理论宏观全景的高标准要求。",
+    "5. 实测证据与打破简并：详细展示A≈130（135Pr wobbling争端）与A≈100（98,100Zr形状共存）两个具象案例，通过真实实验寿命与多极矩阵元说明模型简并性及其打破机制。",
+    "6. 来源与定位真实性：所有引述事实均回链至真实存在的本地PDF原件与精确页码/公式/图表locator，无虚构文献，无重复综述代证。",
+    "7. 章节接口平滑连贯：上承2.1–2.7节建立的对称性、单极ESPE、准粒子配对、玻尔测度、投影机制、微观惯量与有效算符，下启第3章三轴与手征高阶激发动力学，不重写前节公式。",
+    "8. 留出检验设计明确：提出清晰可操作的留出检验判据，阐明如何利用高阶独立观测量防止参数过拟合。",
+    "9. 六质量区宏观视野：结合六个代表性质量区的实验现状，说明模型在不同核结构演化环境下的有效性与辨识边界。",
+    "10. 写作独立与安全执行：严格限定在G85工作域内产出，不动主Tex工程与公共文件，静待父级START指令。"
+  ]
+}

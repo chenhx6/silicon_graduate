@@ -1,0 +1,151 @@
+{
+  "section_id": "5.2",
+  "title": "探测器与光子响应",
+  "section_label": "sec:5-2",
+  "worker": "G99",
+  "status": "parent-content-accepted-typesetting-pending",
+  "recorded_at": "2026-11-14T02:00:00Z",
+  "canonical_paths": {
+    "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-2.tex",
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-2.json"
+  },
+  "staging_paths": {
+    "tex": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G99/sec-5-2.tex",
+    "ledger": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G99/section-5-2.json"
+  },
+  "output_latex": {
+    "file": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-2.tex",
+    "sha256": "53c5b0f3cedd04bc64debd378daa0312001c4c3e96e37718152df3f059e53fb7",
+    "lines_count": 152,
+    "figures_count": 1,
+    "labels": [
+      "sec:5-2",
+      "subsec:5-2-1",
+      "eq:5-2-compton-electron",
+      "eq:5-2-compton-edge",
+      "subsec:5-2-2",
+      "eq:5-2-norm-cond",
+      "eq:5-2-peak-to-total",
+      "eq:5-2-eff-decomp",
+      "eq:5-2-eff-geom",
+      "fig:5-2-detector-response",
+      "subsec:5-2-3",
+      "eq:5-2-fwhm-stat",
+      "eq:5-2-fwhm-quad",
+      "subsec:5-2-4",
+      "eq:5-2-summing-out",
+      "subsec:5-2-5",
+      "eq:5-2-klein-nishina-pol",
+      "eq:5-2-asymmetry"
+    ],
+    "citations": [
+      "book-wu-nuclear-experiment-methods",
+      "book-hamilton-electromagnetic-interaction",
+      "akkoyun-2012-agata-instrument-response"
+    ],
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-2.tex",
+    "bytes": 25420
+  },
+  "sources": [
+    {
+      "source_id": "book-wu-nuclear-experiment-methods",
+      "citation_key": "book-wu-nuclear-experiment-methods",
+      "canonical_source": "吴治华, 《原子核物理实验方法》（第三版）, 原子能出版社 (2005)",
+      "raw_file": "raw/books/原子核物理实验方法--第三版 (吴治华) (Z-Library).pdf",
+      "raw_sha256": "e23f010ff8d3b4737405235c4aba920533f44e89409ebb7e2cb076b7ab4ee591",
+      "locators": [
+        "第2章第4节印54–65/PDF62–73：光子相互作用（按原章导航；本次没有重申逐页通读）。",
+        "第5章第三节印141/PDF149 Eqs5.14–5.15：Fano方差、Ge77K电离能2.96eV、书中F=.13并提醒不同文献值有差异。",
+        "第5章第四节印146–151/PDF154–159：HPGe结构与性能。",
+        "第10章第一节印258–259/PDF266–267：峰总比和峰康比定义；条件响应函数分解是本稿的概率表述。",
+        "第10章第五节印279/PDF287：BGO反符合环文字与Fig10.27；不将该图NaI环当全部现代BGO性能实测。"
+      ]
+    },
+    {
+      "source_id": "book-hamilton-electromagnetic-interaction",
+      "citation_key": "book-hamilton-electromagnetic-interaction",
+      "canonical_source": "W. D. Hamilton (ed.), The Electromagnetic Interaction in Nuclear Spectroscopy, North-Holland (1975)",
+      "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+      "raw_sha256": "93b32a8debb66ad036229d860ad56f0434dc49b56edd32f1628af1d71a21ae00",
+      "locators": [
+        "Chapter 15 §5 by P. J. Twin印刷第716–717页/PDF第727–728页：康普顿散射偏振计原理、Klein-Nishina截面方位角非对称性与散射不对称度线偏振测量",
+        "Chapter 12印刷第505–558页/PDF第516–569页：核自旋取向张量与方向关联角分布理论"
+      ]
+    },
+    {
+      "source_id": "akkoyun-2012-agata-instrument-response",
+      "citation_key": "akkoyun-2012-agata-instrument-response",
+      "canonical_source": "S. Akkoyun et al., AGATA—Advanced GAmma Tracking Array, Nucl. Instrum. Methods Phys. Res. A 668, 26 (2012) [41-page manuscript arXiv:1111.5731v1]",
+      "raw_file": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/akkoyun-2012-agata-overview.pdf",
+      "raw_sha256": "13882c8bb1dbebb02db5df3300f9cf5981a1ffb519b3731dab099647be168d8b",
+      "locators": [
+        "41页手稿PDF第1–10页：高度电分段HPGe探测器规范、脉冲形状分析（PSA）反演三维空间击中点坐标与正向径迹重构架构（设计4pi构型由180块六角晶体组成，实际在束实验按Demonstrator等子阵列运行）"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-5-2-1",
+      "statement": "光电效应在能量高于锗K吸收边11.1 keV的给定能区下主要由K壳层贡献，空穴退激特征X射线在晶体表面或电极附近存在逃逸概率导致锗逃逸峰；远离吸收边光电截面近似遵循经验标度 sigma_pe propto Z^n / E^3.5 (Ge中n≈4-5)。",
+      "status": "supported",
+      "source_id": "book-wu-nuclear-experiment-methods"
+    },
+    {
+      "claim_id": "CLAIM-5-2-2",
+      "statement": "仪器响应函数在条件概率测度下严格归一化为1；总响应密度按事件机制分解为净全能吸收峰分量R_FEP与其余不完全能量沉积分量R_other，峰总比定义为P/T = int_0^infty R_FEP dE，全能峰面积须通过局部本底扣除提取净面积A_peak，不能将有限窗未经本底扣除的原始总计数等同于真全能吸收概率；绝对峰效率满足 epsilon_p = epsilon_tot * (P/T)。",
+      "status": "supported",
+      "source_id": "book-wu-nuclear-experiment-methods",
+      "evidence_type": "task_probability_definition_with_textbook_PT_context"
+    },
+    {
+      "claim_id": "CLAIM-5-2-3",
+      "statement": "Wu印141/PDF149 Eqs5.14–5.15给σ_N²=FN及Gaussian统计展宽，Ge77K ε=2.96eV，书中取F=.13并提醒文献差异。采用同一能量单位时σ_E²=FεE；Gaussian FWHM=2sqrt(2ln2)σ≈2.355σ。",
+      "status": "supported",
+      "source_id": "book-wu-nuclear-experiment-methods",
+      "locator": "PDF149/print141 Eqs5.14–5.15",
+      "evidence_type": "source_report_and_unit_conversion"
+    },
+    {
+      "claim_id": "CLAIM-5-2-4",
+      "statement": "Clover探测器Add-back多通道能量相加重构总能量方差不仅包含两晶叶固有噪声，还受晶体间能量分配起伏与接触层电容串扰协方差调控：sigma_add^2 = sigma_A^2 + sigma_B^2 + 2 Cov(E_A, E_B)；纯前放电子学噪声独立时方差线性相加。",
+      "status": "supported",
+      "source_id": "book-wu-nuclear-experiment-methods",
+      "evidence_type": "task_variance_identity_under_declared_energy_partition_and_noise_model",
+      "source_boundary": "Book gives detector background, not a direct measured Clover covariance result."
+    },
+    {
+      "claim_id": "CLAIM-5-2-5",
+      "statement": "真符合相加（TCS）发生在同核级联退激中，在理想线性响应、固定立体角几何与无死时间阻塞下，单事件发生概率与放射源活度或宏观计数率无关，取决于条件光子分支、级联角关联、几何、光子探测响应及时间接受等条件；但在实际高计数率下，脉冲堆积与死时间门控会非线性改变观测相加损失。",
+      "status": "supported",
+      "source_id": "book-wu-nuclear-experiment-methods",
+      "evidence_type": "task_conditional_probability_model"
+    },
+    {
+      "claim_id": "CLAIM-5-2-6",
+      "statement": "Clover微型康普顿偏振计利用Klein-Nishina截面方位角非对称性测定散射不对称度A = (N_perp - a N_parallel) / (N_perp + a N_parallel) = Q P，参数a = N_perp^0 / N_parallel^0约定与第5.7节式(eq:5-7-asym-exp)完全一致；偏振度符号与电磁性质对应关系依赖自旋序列与放置角。",
+      "status": "supported",
+      "source_id": "book-hamilton-electromagnetic-interaction"
+    },
+    {
+      "claim_id": "CLAIM-5-2-7",
+      "statement": "Akkoyun2012的41页手稿PDF3–6讨论full4pi180hexagonalcrystal设计及分阶段实施，PDF5给36foldsegmentation。是该文设计/运行范围，不是当前AGATA或GRETINA装机状态表。",
+      "status": "supported",
+      "source_id": "akkoyun-2012-agata-instrument-response",
+      "locator": "PDF3–6, Fig1/Fig2; local41page manuscript"
+    }
+  ],
+  "parent_narrow_corrections": [
+    "Actual scanned Wu chapter/section labels corrected; Fano actualPDF149/print141 checked.",
+    "Netpeak fitting is one method, not uniquely mandatory Gaussian fit.",
+    "FET series/parallel mislabel removed; noise and covariance do not imply universal Addback degradation.",
+    "b1j explicitly conditional photon emission probability, including conversion effects."
+  ],
+  "output_tex_sha256": "53c5b0f3cedd04bc64debd378daa0312001c4c3e96e37718152df3f059e53fb7",
+  "parent_review_reconciliations_52_boundary": "Worker closure notes are superseded where inconsistent by parent_narrow_corrections and actual locators in sources; final claims follow actual TeX.",
+  "parent_acceptance_receipt": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G99/section-5-2-parent-acceptance.json",
+  "worker_history_receipt": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G99/receipt.json",
+  "parent_final_tex_sha256": "53c5b0f3cedd04bc64debd378daa0312001c4c3e96e37718152df3f059e53fb7",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-2.tex",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
+}

@@ -5,7 +5,7 @@
   "type": "new-draft-canonical",
   "status": "content-admitted",
   "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-1.tex",
-  "output_tex_sha256": "957538630c5b82a62edd57ee60f7599a8918bb0700af7b763ba5492e21dd2286",
+  "output_tex_sha256": "535f1896e36bab4806725dd8e0ec17b07a6f2458f1d677b890a419b1796e9a6f",
   "scope_boundary": "系统阐述一维简谐振动教学模型（明确坐标、质量与刚度量纲）、量子基态零点涨落与势能极小点及跃迁矩阵元的本质区别、三维空间转动量子化与 Casimir 能标、基态电四极矩 Q_s(0+)=0 的角动量几何本质与 Kumar-Cline 形状不变量、内禀形状变量与欧拉取向角的分离条件及声子数标签的近似边界、浅软势能面多阱隧穿与量子波包概率密度分布，以及平滑引向第3章后续转动动力学展开的接口。",
   "source_inputs": [
     {
@@ -90,7 +90,15 @@
     "at": "2026-11-13T06:07:21.509626+00:00",
     "scope": "Narrowed automaticadiabatic implication, q2 geometricinterpretation and product-wavefunction normalization/phase duplication."
   },
-  "target_sha256": "957538630c5b82a62edd57ee60f7599a8918bb0700af7b763ba5492e21dd2286",
-  "parent_final_tex_sha256": "957538630c5b82a62edd57ee60f7599a8918bb0700af7b763ba5492e21dd2286",
-  "integration_status": "included-in27-section-clean-preview"
+  "target_sha256": "535f1896e36bab4806725dd8e0ec17b07a6f2458f1d677b890a419b1796e9a6f",
+  "parent_final_tex_sha256": "535f1896e36bab4806725dd8e0ec17b07a6f2458f1d677b890a419b1796e9a6f",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "latex_sha256": "535f1896e36bab4806725dd8e0ec17b07a6f2458f1d677b890a419b1796e9a6f",
+  "parent_readability_revision_20261114": {
+    "receipt": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G97/parent-readability-acceptance.json",
+    "tex_sha256": "535f1896e36bab4806725dd8e0ec17b07a6f2458f1d677b890a419b1796e9a6f",
+    "scope": "precise prose and conditional axis-map bridge; display equations unchanged"
+  },
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-1.tex",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
 }

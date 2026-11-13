@@ -13,7 +13,7 @@
   },
   "output_latex": {
     "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-5.tex",
-    "sha256": "4c717064a931962fca5ac0fb48c4f694764a648cb306363334d4b350ec084d98",
+    "sha256": "43ee58210e6d816c93f747ef946054ff3d400df054d64c71309dad374298efd5",
     "equations_count": 15,
     "tables_count": 0,
     "figures_count": 0,
@@ -41,7 +41,8 @@
     "citations": [
       "wu-hongyi-2020-general-purpose-digital-daq-thesis",
       "wolff-1982-poisson-arrivals-see-time-averages"
-    ]
+    ],
+    "bytes": 20047
   },
   "sources": [
     {
@@ -62,7 +63,7 @@
   "claims": [
     {
       "claim_id": "C55-header-format",
-      "statement": "Pixie-16 列表模式事件数据头始终以固定的 4 字（32 位/字）开头，字 0 包含通道号、插槽号、机箱号、标头长度、事件长度与堆积标志；字 1 为时间戳低 32 位；字 2 为时间戳高 16 位与 CFD 结果；字 3 为 16 位能量与波形记录长度。",
+      "statement": "Wu2020documented version:fixed4-wordbase plusoptionalheaderblocks. Word0EventLength[30:17] andpileupflag31;word2CFDResult[31:16]aswhole;word3Energy[15:0],TraceLength[30:16]in samples/16bitwords andOutOfRange31. EffectiveCFDbits/clockunits remainversion-specific.",
       "source": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
       "pdf_pages": "54–55",
       "printed_pages": "42–43",
@@ -71,7 +72,7 @@
     },
     {
       "claim_id": "C55-buffer-loss-strategy",
-      "statement": "硬件波形缓冲区满载时存在固件依赖的分层处理行为：标准 Pixie-16 固件在波形缓存满时无法存储任何后续事件（整事件丢失）；定制 GDDAQ 固件在波形缓存满时仅存储事件数据头而丢弃波形径迹（保头丢波形），保留总能谱计数但丧失离线波形甄别能力。",
+      "statement": "Wu2020PDF55–56 describesstandardbuffer-fullwhole-eventloss andcustomhead-onlyrecording; reducingthisbottleneck doesnoteliminate otheracceptancelosses.",
       "source": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
       "pdf_pages": "55–56",
       "printed_pages": "43–44",
@@ -98,7 +99,7 @@
     },
     {
       "claim_id": "C55-pasta-laa-condition",
-      "statement": "连续时间均匀平均的 busy 占比不自动等同于离散物理事件到达时的存活概率；由 Wolff 1982 PASTA 定理，在平稳泊松输入满足无预知假设（LAA）——未来到达增量不依赖过去和当前系统状态（允许当前系统忙闲状态依赖过去的到达历史）时，到达平均与时间平均以概率 1 相等。泊松性为充分条件，非绝对排他条件。",
+      "statement": "Under homogeneousPoisson/LAAanddeclaredlong-runtimeaveragelimits, prearrivalaveraging approaches timeaveraging; notfinite-runidentity andnotautomatic forfuturetwo-timeacceptance.",
       "source": "wolff-1982-poisson-arrivals-see-time-averages",
       "pdf_pages": "3–4",
       "printed_pages": "224–225",
@@ -116,7 +117,7 @@
     },
     {
       "claim_id": "C55-joint-live-covariance-and-counterexample",
-      "statement": "双通道联合活时间满足一般协方差恒等式 Live_12(Delta t) = Live_1 * Live_2 + Cov_ref(X_1(t), X_2(t + Delta t))。在共享公共阻塞 f_busy in (0, 1) 且非阻塞期两通道条件独立（Live_1|free > 0, Live_2|free > 0）的教学反例下，Live_12 = (Live_1 * Live_2) / (1 - f_busy) > Live_1 * Live_2（仅适用于共享同一公共门控变量的时差范围，不推广至任意大 Delta t）；多通道仲裁（轮询/令牌）可能引入负相关项抵消，绝不宣称所有忙逻辑必然正协方差。",
+      "statement": "For binaryavailability under fixedreference, exactcovariance identity holds; sharedbusy positivecounterexample requireszero-lag, conditionalindependence whenfree andpositivefreeprobabilities. No universalhardwarecovariancesign.",
       "source": "knowledge/research-notes/a130-rewrite-joint-live-and-arrival-sampling-20261113.md",
       "pdf_pages": "N/A",
       "printed_pages": "N/A",
@@ -147,12 +148,11 @@
     "闭合教学反例测度定义：f_busy 改为参考到达测度下的阻塞概率 Pr_ref(B=1)，说明仅当参考测度为时间均匀分布或满足 PASTA 条件时才等于时间占空比；并将反例严格限定于瞬发符合 Delta t = 0，删去时差落在一个脉宽内的简化"
   ],
   "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-5.tex",
-  "output_tex_sha256": "4c717064a931962fca5ac0fb48c4f694764a648cb306363334d4b350ec084d98",
-  "parent_final_patch": {
-    "at": "2026-11-13T04:51:17.504596+00:00",
-    "scope": "Time-vs-arrival equality conditions stated as sufficient; covariance identity does not identify causality."
-  },
-  "target_sha256": "4c717064a931962fca5ac0fb48c4f694764a648cb306363334d4b350ec084d98",
-  "parent_final_tex_sha256": "4c717064a931962fca5ac0fb48c4f694764a648cb306363334d4b350ec084d98",
-  "integration_status": "included-in27-section-clean-preview"
+  "output_tex_sha256": "43ee58210e6d816c93f747ef946054ff3d400df054d64c71309dad374298efd5",
+  "parent_final_patch": "Re-read actualWu2020PDF55/printed43Fig2.8 visually:Word0EventLength30:17;Word2CFD31:16opaque;Word3TraceLength30:16 andRangeFlag31. Headerlengthandtrace units clarified; pulser-reference samplingconditions retained.",
+  "target_sha256": "43ee58210e6d816c93f747ef946054ff3d400df054d64c71309dad374298efd5",
+  "parent_final_tex_sha256": "43ee58210e6d816c93f747ef946054ff3d400df054d64c71309dad374298efd5",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-5.tex",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
 }

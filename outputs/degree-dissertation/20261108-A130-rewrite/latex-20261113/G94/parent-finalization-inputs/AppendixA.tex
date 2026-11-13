@@ -1,0 +1,300 @@
+%---------------------------------------------------------------------------%
+%- Appendix A: 角动量与张量约定
+%---------------------------------------------------------------------------%
+\chapter{角动量与张量约定}\label{app:angular-momentum-tensors}
+
+本附录系统梳理并严格形式化全书贯通采用的角动量量子力学代数、不可约球张量算符规范、Wigner-Eckart 定理的选定相位与归一化约定、Racah 重耦合代数与 $6j$ 符号恒等式、上下行跃迁统计权与详细平衡条件、以及电多极与磁偶极算符的单位体系。作为全书基础数学物理参考，本附录旨在为第\ref{chap:2}章（特别是第\ref{sec:2-1}节的实验室空间对称性与张量语言、第\ref{sec:2-7}节的有效电磁跃迁算符）、第\ref{chap:3}章（第\ref{sec:3-4}节与第\ref{sec:3-8}节的联合预言与多极混合比定义）、第\ref{chap:5}章（第\ref{sec:5-7}至\ref{sec:5-9}节的在束角分布、偏振与寿命绝对反演技术链）以及附录\ref{app:reproducible-inputs}提供统一且自洽的数学物理基准，消除由于不同经典专著（如 Suhonen、Bohr-Mottelson、Hamilton、Lange-Kumar-Hamilton、Rose-Brink 等）在定义细节上的微妙分歧所可能引入的系统性混淆~\cite{book-suhonen-from-nucleons-to-nucleus,book-bohr-mottelson-nuclear-structure,lange-kumar-hamilton-1982-multipole-admixtures}。
+
+\section{角动量代数、不可约球张量与李代数对易子}\label{sec:appA-1}
+
+在低能核结构物理中，严格区分具有物理量纲的角动量动量矩算符与其无量纲本征量子数，是消除量纲换算错误的前提。空间三维旋转群 $\mathrm{SO}(3)$ 及其泛覆叠群 $\mathrm{SU}(2)$ 的物理生成元为角动量算符矢 $\hat{\mathbf{J}} = (\hat{J}_x, \hat{J}_y, \hat{J}_z)$，其本身具有作用量量纲，显式携带约化普朗克常数 $\hbar$。生成元满足标准李代数对易关系：
+\begin{equation}\label{eq:appA-lie-comm}
+[\hat{J}_i, \hat{J}_j] = i \hbar \epsilon_{ijk} \hat{J}_k \quad (i, j, k \in \{x, y, z\}) .
+\end{equation}
+体系的角动量本征定态由总自旋量子数 $j$（或在宏观核态中记为 $I$）及沿实验室空间固定 $z$ 轴的磁量子数 $m$（或 $M$）表征，它们是严格的无量纲数：
+\begin{equation}\label{eq:appA-j-eigen}
+\hat{\mathbf{J}}^2 |j m\rangle = \hbar^2 j(j+1) |j m\rangle , \quad \hat{J}_z |j m\rangle = \hbar m |j m\rangle .
+\end{equation}
+升降算符定义为 $\hat{J}_\pm \equiv \hat{J}_x \pm i \hat{J}_y$，满足 $[\hat{J}_z, \hat{J}_\pm] = \pm \hbar \hat{J}_\pm$ 以及 $[\hat{J}_+, \hat{J}_-] = 2\hbar \hat{J}_z$，对本征态的作用严格给出：
+\begin{equation}\label{eq:appA-ladder-action}
+\hat{J}_\pm |j m\rangle = \hbar \sqrt{j(j+1) - m(m \pm 1)} \, |j, m \pm 1\rangle .
+\end{equation}
+
+在球表象中，多极跃迁算符以不可约球张量（Irreducible Spherical Tensor）形式构建。阶数为 $k$ 的不可约球张量算符 $\mathbf{T}^{(k)}$ 包含 $2k+1$ 个分量 $T_q^{(k)}$（$q = -k, -k+1, \dots, +k$）。在由欧拉角 $\Omega = (\phi, \theta, \psi)$ 描述的空间有限刚体旋转算符 $\hat{R}(\Omega) = \exp(-i \phi \hat{J}_z / \hbar) \exp(-i \theta \hat{J}_y / \hbar) \exp(-i \psi \hat{J}_z / \hbar)$ 作用下，张量算符分量按 Wigner $D$ 矩阵发生协变变换：
+\begin{equation}\label{eq:appA-tensor-rotation}
+\hat{R}(\Omega) T_q^{(k)} \hat{R}^\dagger(\Omega) = \sum_{q'=-k}^k D^k_{q' q}(\Omega) T_{q'}^{(k)} .
+\end{equation}
+由式\eqref{eq:appA-tensor-rotation}取无穷小微元旋转，等价导出球张量算符分量与物理角动量算符在李代数层面的严格对易子定义：
+\begin{align}\label{eq:appA-tensor-comm}
+[\hat{J}_z, T_q^{(k)}] &= \hbar q \, T_q^{(k)} , \\
+[\hat{J}_\pm, T_q^{(k)}] &= \hbar \sqrt{(k \mp q)(k \pm q + 1)} \, T_{q \pm 1}^{(k)} .
+\end{align}
+式\eqref{eq:appA-tensor-comm}显式保留了因子 $\hbar$，确保对易子两端的作用量量纲严格自洽。
+
+对满足球张量自伴条件的算符，其分量满足：
+\begin{equation}\label{eq:appA-hermitian-tensor}
+[T_q^{(k)}]^\dagger = (-1)^q T_{-q}^{(k)} .
+\end{equation}
+这是一项附加的厄米性条件，并非不可约旋转变换性质本身的推论。例如，电多极算符中球谐函数满足 $Y_{L\mu}^*(\hat{\mathbf{r}}) = (-1)^\mu Y_{L,-\mu}(\hat{\mathbf{r}})$，对于实电荷及自伴坐标，电多极算符满足上述自伴关系。
+
+\section{Wigner-Eckart 定理、相位约定与跨教材对比}\label{sec:appA-2}
+
+Wigner-Eckart 定理是角动量空间旋转不变性在量子态跃迁矩阵元上的根本体现。它将不可约球张量算符在角动量本征基底之间的多体矩阵元，严格因式分解为仅依赖于空间几何取向的 Clebsch-Gordan 几何耦合系数，以及完全独立于磁量子数 $m$ 的物理动力学约化矩阵元（Reduced Matrix Element, RME）。
+
+本论文全文严格采用 Racah、Edmonds、Rose 与 Suhonen 专著的通用定义体系。在此体系中，矩阵元用 Wigner $3j$ 符号表述为：
+\begin{equation}\label{eq:appA-we-3j}
+\langle j_f m_f | T_q^{(k)} | j_i m_i \rangle = (-1)^{j_f - m_f} \begin{pmatrix} j_f & k & j_i \\ -m_f & q & m_i \end{pmatrix} \langle j_f \| T^{(k)} \| j_i \rangle .
+\end{equation}
+Wigner $3j$ 符号与 Clebsch-Gordan 系数之间满足标准代数对应关系：
+\begin{equation}\label{eq:appA-3j-cg-relation}
+\begin{pmatrix} j_f & k & j_i \\ -m_f & q & m_i \end{pmatrix} = \frac{(-1)^{j_f - m_f}}{\sqrt{2j_f + 1}} C_{j_i m_i k q}^{j_f m_f} = \frac{(-1)^{j_i + k - m_f}}{\sqrt{2j_f + 1}} C_{k q j_i m_i}^{j_f m_f} .
+\end{equation}
+对于此处的整数阶电磁辐射张量（$k$ 为整数，相因子 $(-1)^{2k} = 1$），这两种耦合次序都与式\eqref{eq:appA-we-3j}和式\eqref{eq:appA-we-cg}一致：
+\begin{equation}\label{eq:appA-we-cg}
+\langle j_f m_f | T_q^{(k)} | j_i m_i \rangle = \frac{1}{\sqrt{2j_f + 1}} \, C_{j_i m_i k q}^{j_f m_f} \, \langle j_f \| T^{(k)} \| j_i \rangle .
+\end{equation}
+在式\eqref{eq:appA-we-3j}与式\eqref{eq:appA-we-cg}中，双线约化矩阵元 $\langle j_f \| T^{(k)} \| j_i \rangle$ 与投影取向完全解耦，凝聚了核多体波函数全部的内禀结构与径向重叠信息。
+
+约化矩阵元的归一化必须连同其具体定义式一起使用。核物理文献中，A.~Bohr 与 B.~R.~Mottelson 在其经典专著《Nuclear Structure》卷一式~(1A-60) 中给出的定义为：
+\begin{equation}\label{eq:appA-we-bm}
+\langle \beta I_2 M_2 | T_{\lambda\mu} | \alpha I_1 M_1 \rangle = (2I_2 + 1)^{-1/2} C_{I_1 M_1 \lambda \mu}^{I_2 M_2} \langle \beta I_2 \| T_\lambda \| \alpha I_1 \rangle ,
+\end{equation}
+该式在 Clebsch-Gordan 系数之前同样明确包含因子 $(2I_2 + 1)^{-1/2}$，与 Suhonen 式~(2.27) 及 Edmonds 标准式形式严格一致。若在某些特定代数讨论中定义另一种未归一形式 $\mathcal{R}_C$，令物理矩阵元等于单纯的 Clebsch-Gordan 系数乘积 $C_{j_i m_i k q}^{j_f m_f} \mathcal{R}_C$，则其与本附录采用的标准约化矩阵元之间的数值比例因子为 $\langle j_f \| T^{(k)} \| j_i \rangle = \sqrt{2j_f + 1}\,\mathcal{R}_C$。比较不同专著或计算程序包（如壳模型代码与转动模型代码）时，必须首先核实其原始公式中是否包含该统计因数，避免在跃迁几率或有效电荷提取中引入偏差。表\ref{tab:appA-convention-comparison}汇总了经原件严格核对的定义约定。
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{主流理论专著中 Wigner-Eckart 定理归一化与定义对照表（经原件逐项核对）}\label{tab:appA-convention-comparison}
+\begin{tabularx}{\textwidth}{p{3.8cm} p{5.0cm} p{2.8cm} >{\raggedright\arraybackslash}X}
+\toprule
+专著 / 文献体系 & 矩阵元表象分解定义式 & 与本附录 RME 关系 & 原始文献定位符 \\
+\midrule
+Edmonds / Suhonen（本论文采用） & $\frac{1}{\sqrt{2j_f+1}} C_{j_i m_i k q}^{j_f m_f} \langle j_f \| T^{(k)} \| j_i \rangle$ & $\langle \| T^{(k)} \| \rangle \times 1$ & Suhonen Eq.~(2.27)；微观壳模型与在束谱学 \\
+\addlinespace
+Bohr-Mottelson 卷 I（1969） & $(2I_2 + 1)^{-1/2} C_{I_1 M_1 \lambda \mu}^{I_2 M_2} \langle I_2 \| T_\lambda \| I_1 \rangle$ & $\langle \| T^{(k)} \| \rangle \times 1$ & Bohr-Mottelson Vol.~I Eq.~(1A-60)；与 Suhonen 同归一 \\
+\addlinespace
+未归一耦合定义 $\mathcal{R}_C$ & $C_{j_i m_i k q}^{j_f m_f} \mathcal{R}_C(j_f, k, j_i)$ & $\frac{1}{\sqrt{2j_f+1}} \langle \| T^{(k)} \| \rangle$ & 抽象代数中间定义；相差 $\sqrt{2j_f+1}$ \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+对于满足式\eqref{eq:appA-hermitian-tensor}的自伴球张量，由矩阵元共轭及 $3j$ 符号在第一列与第三列对调时的对称相因子 $(-1)^{j_f + k + j_i}$：
+\begin{align}\label{eq:appA-rme-adjoint-deriv}
+\langle j_i m_i | [T_q^{(k)}]^\dagger | j_f m_f \rangle^* &= (-1)^q \langle j_i m_i | T_{-q}^{(k)} | j_f m_f \rangle^* \notag \\
+&= (-1)^q (-1)^{j_i - m_i} \begin{pmatrix} j_i & k & j_f \\ -m_i & -q & m_f \end{pmatrix} \langle j_i \| T^{(k)} \| j_f \rangle^* \notag \\
+&= (-1)^{j_f - m_f} \begin{pmatrix} j_f & k & j_i \\ -m_f & q & m_i \end{pmatrix} (-1)^{j_f - j_i} \langle j_i \| T^{(k)} \| j_f \rangle^* .
+\end{align}
+与式\eqref{eq:appA-we-3j}对比，立即给出自伴球张量约化矩阵元在初末态交换时的共轭对称性定理：
+\begin{equation}\label{eq:appA-rme-exchange}
+\langle j_f \| T^{(k)} \| j_i \rangle = (-1)^{j_f - j_i} \, \langle j_i \| T^{(k)} \| j_f \rangle^* .
+\end{equation}
+更一般的不可约张量算符应先定义其伴随张量再行讨论正逆跃迁关系。约化矩阵元是否为实数，还取决于算符的时间反演性质与核态的基底相位约定。在时间反演不变的标准 Condon-Shortley 实基底且算符为实张量时，式\eqref{eq:appA-rme-exchange}表现为符号反转关系 $\langle j_f \| T^{(k)} \| j_i \rangle = (-1)^{j_f - j_i} \langle j_i \| T^{(k)} \| j_f \rangle$。
+
+\section{张量积、Racah 重耦合与 $6j$ 符号}\label{sec:appA-3}
+
+在微观粒子-转子模型（PRM）以及组态相互作用理论中，原子核系统通常被划分为若干相互作用的子空间（如价准粒子系统与三轴形变核心）。处理多体张量相互作用与复合态电磁跃迁，需要依托不可约张量积与 Racah 重耦合代数。
+
+两个作用于不同动力学子系统的球张量算符 $\mathbf{T}^{(k_1)}$ 与 $\mathbf{U}^{(k_2)}$，其耦合不可约球张量积定义为：
+\begin{equation}\label{eq:appA-tensor-product-def}
+[\mathbf{T}^{(k_1)} \otimes \mathbf{U}^{(k_2)}]_Q^{(K)} \equiv \sum_{q_1=-k_1}^{k_1} \sum_{q_2=-k_2}^{k_2} C_{k_1 q_1 k_2 q_2}^{K Q} T_{q_1}^{(k_1)} U_{q_2}^{(k_2)} .
+\end{equation}
+设两子系统各自的角动量态矢分别为 $|j_1 m_1\rangle$ 与 $|j_2 m_2\rangle$，耦合总角动量基矢为 $|(j_1 j_2) J M\rangle = \sum_{m_1, m_2} C_{j_1 m_1 j_2 m_2}^{J M} |j_1 m_1\rangle |j_2 m_2\rangle$。根据 Racah 重耦合定理，张量积算符在耦合基矢间的约化矩阵元由 Wigner $9j$ 符号精确给出：
+\begin{equation}\label{eq:appA-9j-rme}
+\langle (j_1' j_2') J' \| [\mathbf{T}^{(k_1)} \otimes \mathbf{U}^{(k_2)}]^{(K)} \| (j_1 j_2) J \rangle = \hat{J} \hat{J}' \hat{K} \begin{Bmatrix} j_1' & j_1 & k_1 \\ j_2' & j_2 & k_2 \\ J' & J & K \end{Bmatrix} \langle j_1' \| \mathbf{T}^{(k_1)} \| j_1 \rangle \langle j_2' \| \mathbf{U}^{(k_2)} \| j_2 \rangle ,
+\end{equation}
+其中约定简记符 $\hat{x} \equiv \sqrt{2x + 1}$。
+
+在绝大多数核谱学实际应用中，跃迁算符仅单体作用于其中一个子系统。利用 $9j$ 符号在包含标量算符（第二行或列阶数为 0）时的标准退化定理：
+\begin{equation}\label{eq:appA-9j-to-6j}
+\begin{Bmatrix} j_1' & j_1 & k \\ j_2' & j_2 & 0 \\ J' & J & k \end{Bmatrix} = \frac{(-1)^{j_1' + j_2 + J + k}}{\sqrt{(2j_2 + 1)(2k + 1)}} \delta_{j_2 j_2'} \begin{Bmatrix} j_1' & J' & j_2 \\ J & j_1 & k \end{Bmatrix} ,
+\end{equation}
+式\eqref{eq:appA-9j-rme}退化为由 Wigner $6j$ 符号表述的单体算符约化矩阵元公式：
+\begin{enumerate}
+\item \textbf{算符仅作用于子系统 1}（如粒子-转子模型中单核子跃迁算符）：
+\begin{equation}\label{eq:appA-single-op-1}
+\langle (j_1' j_2) J' \| \mathbf{T}^{(k)} \| (j_1 j_2) J \rangle = (-1)^{j_1' + j_2 + J + k} \, \hat{J} \hat{J}' \begin{Bmatrix} j_1' & J' & j_2 \\ J & j_1 & k \end{Bmatrix} \langle j_1' \| \mathbf{T}^{(k)} \| j_1 \rangle .
+\end{equation}
+\item \textbf{算符仅作用于子系统 2}（如转子核芯集体四极跃迁算符）：
+\begin{equation}\label{eq:appA-single-op-2}
+\langle (j_1 j_2') J' \| \mathbf{U}^{(k)} \| (j_1 j_2) J \rangle = (-1)^{j_1 + j_2 + J' + k} \, \hat{J} \hat{J}' \begin{Bmatrix} j_2' & J' & j_1 \\ J & j_2 & k \end{Bmatrix} \langle j_2' \| \mathbf{U}^{(k)} \| j_2 \rangle .
+\end{equation}
+\end{enumerate}
+式\eqref{eq:appA-single-op-1}与式\eqref{eq:appA-single-op-2}为正文第\ref{sec:3-2}节与第\ref{sec:3-4}节中计算奇 $A$ 核转动带内与带间电四极跃迁提供了严密的代数解析支撑。
+
+\section{独立精确基准：$6j$ 符号正交恒等式的有理数解析控制}\label{sec:appA-4}
+
+为落实学位论文的严谨性规范，本附录引入一个确定角动量量子数下的非平凡代数恒等式作为独立控制基准。我们明确声明：本算例通过 Racah 封闭求和公式及 Python 标准库 \texttt{fractions} 进行严格的有理数纯符号代数演算，用于核实特定代数恒等式与指标实现的自洽性，不代表对全附录公式提供全局无条件的数学证明。
+
+Wigner $6j$ 符号满足标准正交完备性定理：
+\begin{equation}\label{eq:appA-6j-ortho-theorem}
+\sum_x (2x + 1) \begin{Bmatrix} j_1 & j_2 & x \\ j_4 & j_3 & j_5 \end{Bmatrix} \begin{Bmatrix} j_1 & j_2 & x \\ j_4 & j_3 & j_6 \end{Bmatrix} = \frac{\delta_{j_5 j_6}}{2j_5 + 1} \, \chi(j_1, j_5, j_3) \, \chi(j_4, j_5, j_2) ,
+\end{equation}
+其中 $\chi(a, b, c)$ 为三角允许性指示函数：当且仅当角动量 $a, b, c$ 均为非负整数或半整数、满足角动量三角定则 $|a - b| \le c \le a + b$、且角动量之和 $a + b + c$ 为整数时，$\chi(a, b, c) = 1$，否则为 0。
+
+我们选取核结构四极-偶极耦合中典型的非平凡自旋组态作为解析测试：
+设 $j_1 = 1, j_2 = 2, j_3 = 2, j_4 = 1, j_5 = 2, j_6 = 2$。此时中间耦合角动量 $x$ 受到两个角动量三角形的联合限制：
+\begin{equation}
+|j_1 - j_2| = |1 - 2| = 1 \le x \le j_1 + j_2 = 3 \implies x \in \{1, 2, 3\} .
+\end{equation}
+利用 Racah 解析封闭展开公式：
+\begin{equation}\label{eq:appA-racah-formula}
+\begin{Bmatrix} a & b & c \\ d & e & f \end{Bmatrix} = \Delta_R(a,b,c) \Delta_R(a,e,f) \Delta_R(d,b,f) \Delta_R(d,e,c) \sum_z \frac{(-1)^z (z+1)!}{\prod_{i=1}^4 (z - v_i)! \prod_{k=1}^3 (w_k - z)!} ,
+\end{equation}
+其中三角系数定义为：
+\begin{equation}\label{eq:appA-delta-r-def}
+\Delta_R(a,b,c) \equiv \left[ \frac{(a+b-c)!(a-b+c)!(-a+b+c)!}{(a+b+c+1)!} \right]^{1/2} ,
+\end{equation}
+线性组合参量定义为 $(v_1, v_2, v_3, v_4) = (a+b+c, a+e+f, d+b+f, d+e+c)$ 以及 $(w_1, w_2, w_3) = (a+b+d+e, a+c+d+f, b+c+e+f)$，求和变量 $z$ 取使各阶乘参数非负的所有整数。
+
+对 $x=1, 2, 3$ 三个离散分支进行严格有理化计算，精确得出数值：
+\begin{align}\label{eq:appA-exact-rational-roots}
+x=1: \quad &\begin{Bmatrix} 1 & 2 & 1 \\ 1 & 2 & 2 \end{Bmatrix} = -\frac{1}{10} , \\
+x=2: \quad &\begin{Bmatrix} 1 & 2 & 2 \\ 1 & 2 & 2 \end{Bmatrix} = +\frac{1}{6} , \\
+x=3: \quad &\begin{Bmatrix} 1 & 2 & 3 \\ 1 & 2 & 2 \end{Bmatrix} = +\frac{1}{15} .
+\end{align}
+将式\eqref{eq:appA-exact-rational-roots}代入左端加权正交求和式中：
+\begin{align}\label{eq:appA-rational-verification}
+\sum_{x=1}^3 (2x + 1) \begin{Bmatrix} 1 & 2 & x \\ 1 & 2 & 2 \end{Bmatrix}^2 &= (2\times 1 + 1) \left(-\frac{1}{10}\right)^2 + (2\times 2 + 1) \left(\frac{1}{6}\right)^2 + (2\times 3 + 1) \left(\frac{1}{15}\right)^2 \notag \\
+&= 3 \times \frac{1}{100} + 5 \times \frac{1}{36} + 7 \times \frac{1}{225} \notag \\
+&= \frac{3}{100} + \frac{5}{36} + \frac{7}{225} .
+\end{align}
+通分至公分母 900 进行精确有理数求和：
+\begin{equation}\label{eq:appA-rational-closure}
+\frac{3 \times 9 + 5 \times 25 + 7 \times 4}{900} = \frac{27 + 125 + 28}{900} = \frac{180}{900} = \frac{1}{5} .
+\end{equation}
+式\eqref{eq:appA-rational-closure}给出的精确有理数值 $\frac{1}{5}$，与理论公式右端的统计权倒数 $\frac{1}{2j_5 + 1} = \frac{1}{2\times 2 + 1} = \frac{1}{5}$ 严格恒等。此独立解析闭合算例证实了本附录所给张量代数实现的自洽性。
+
+\section{约化跃迁几率 $B(\sigma\lambda)$、统计权与详细平衡}\label{sec:appA-5}
+
+在在束伽马射线谱学测量中，原子核从初态 $|i I_i\rangle$ 自发辐射一个多极阶数为 $\lambda$ 的光子（$\sigma = E$ 表示电多极，$\sigma = M$ 表示磁多极）退激至末态 $|f I_f\rangle$。在各向同性无极化的系综假设下，实验测得的宏观跃迁强度并不区分初态各个磁子态 $M_i$，而是对所有 $2I_i + 1$ 个简并初态进行统计等权平均，并对末态所有可能的磁子态 $M_f$ 及出射光子的偏振自由度 $\mu$ 进行完全求和。
+
+折合跃迁几率（Reduced Transition Probability）定义为：
+\begin{equation}\label{eq:appA-b-def}
+B(\sigma\lambda; I_i \to I_f) \equiv \frac{1}{2I_i + 1} \sum_{M_i=-I_i}^{I_i} \sum_{M_f=-I_f}^{I_f} \sum_{\mu=-\lambda}^\lambda |\langle f I_f M_f | \mathcal{M}(\sigma\lambda, \mu) | i I_i M_i \rangle|^2 .
+\end{equation}
+将 Wigner-Eckart 定理式\eqref{eq:appA-we-3j}代入式\eqref{eq:appA-b-def}，可将动力学约化矩阵元提取到磁求和之外：
+\begin{equation}\label{eq:appA-b-extraction}
+B(\sigma\lambda; I_i \to I_f) = \frac{|\langle f I_f \| \mathcal{M}(\sigma\lambda) \| i I_i \rangle|^2}{2I_i + 1} \sum_{M_i, M_f, \mu} \begin{pmatrix} I_f & \lambda & I_i \\ -M_f & \mu & M_i \end{pmatrix}^2 .
+\end{equation}
+根据 Wigner $3j$ 符号关于后两列的正交归一性定理：
+\begin{equation}\label{eq:appA-3j-ortho-sum}
+\sum_{M_i=-I_i}^{I_i} \sum_{\mu=-\lambda}^\lambda \begin{pmatrix} I_f & \lambda & I_i \\ -M_f & \mu & M_i \end{pmatrix}^2 = \frac{1}{2I_f + 1} .
+\end{equation}
+将其代入式\eqref{eq:appA-b-extraction}并对 $M_f$ 进行显式求和，几何因数精确求和为 1：
+\begin{equation}\label{eq:appA-b-sum-unity}
+\sum_{M_f=-I_f}^{I_f} \left[ \frac{1}{2I_f + 1} \right] = (2I_f + 1) \times \frac{1}{2I_f + 1} = 1 .
+\end{equation}
+由此导出退激方向约化跃迁几率与微观约化矩阵元之间的标准关系式：
+\begin{equation}\label{eq:appA-b-standard-down}
+B(\sigma\lambda; I_i \to I_f) = \frac{1}{2I_i + 1} \, |\langle f I_f \| \mathcal{M}(\sigma\lambda) \| i I_i \rangle|^2 .
+\end{equation}
+分母中的因子 $2I_i + 1$ 严格来源于初态磁子态的等权统计平均。
+
+类似地，考虑基态或低激发态通过吸收外来光子（如核共振荧光 NRF）或带电粒子库仑场（库仑激发 Coulex）逆向布居高自旋态的上行跃迁（Upward Transition）$I_f \to I_i$。此时初态为态 $f$，统计平均分母对应为 $2I_f + 1$：
+\begin{equation}\label{eq:appA-b-standard-up}
+B(\sigma\lambda; I_f \to I_i) = \frac{1}{2I_f + 1} \, |\langle i I_i \| \mathcal{M}(\sigma\lambda) \| f I_f \rangle|^2 .
+\end{equation}
+根据式\eqref{eq:appA-rme-exchange}导出的约化矩阵元伴随关系，自伴随电磁算符满足 $|\langle i I_i \| \mathcal{M}(\sigma\lambda) \| f I_f \rangle|^2 = |\langle f I_f \| \mathcal{M}(\sigma\lambda) \| i I_i \rangle|^2$。对比式\eqref{eq:appA-b-standard-down}与式\eqref{eq:appA-b-standard-up}，立即确立著名的微观可逆性与详细平衡（Detailed Balance）互易公式：
+\begin{equation}\label{eq:appA-detailed-balance}
+(2I_i + 1) \, B(\sigma\lambda; I_i \to I_f) = (2I_f + 1) \, B(\sigma\lambda; I_f \to I_i) .
+\end{equation}
+\textbf{适用边界与限制声明}：式\eqref{eq:appA-detailed-balance}给出的详细平衡关系，严格仅对同一对满足厄米伴随关联的多极跃迁算符同态对成立。在微观能量密度泛函截断投影、复投影空间度规非幺正化、或引入唯象非对称有效转移核导致厄米性破缺时，不能强行套用这一简单的微观互易恒等式。
+
+\section{电磁多极算符单位体系与 $M1$ 量纲约定}\label{sec:appA-6}
+
+在处理多极混合比 $\delta$ 及电磁跃迁强度时，由于历史上高斯单位制（CGS）与国际单位制（SI）的混用，磁算符的量纲表述经常产生重大分歧。本小节明确阐明本论文全文采用的算符量纲与单位换算规范。
+
+\subsection{电多极算符体系}
+对于电多极跃迁算符 $\mathcal{M}(EL, \mu)$，约化矩阵元量纲为电子电荷乘长度的 $L$ 次方：
+\begin{equation}\label{eq:appA-el-units}
+[\mathcal{M}(EL)] = e \cdot \mathrm{fm}^L , \quad [B(EL)] = e^2 \cdot \mathrm{fm}^{2L} .
+\end{equation}
+单粒子 Weisskopf 估计值（单核子跃迁强度标尺，半径常数取 $R_0 = 1.2\,A^{1/3}\,\mathrm{fm}$）定义为：
+\begin{equation}\label{eq:appA-weisskopf-el}
+B_{\mathrm{W.u.}}(EL) = \frac{1.2^{2L}}{4\pi} \left( \frac{3}{L+3} \right)^2 A^{2L/3} \quad [e^2 \cdot \mathrm{fm}^{2L}] .
+\end{equation}
+对于低能核结构高自旋谱学中最核心的四极跃迁 $L=2$：
+\begin{equation}\label{eq:appA-be2-wu}
+B_{\mathrm{W.u.}}(E2) = 5.9407 \times 10^{-2} \, A^{4/3} \quad [e^2 \cdot \mathrm{fm}^4] .
+\end{equation}
+
+\subsection{磁多极算符体系与电荷型约定}
+对于磁偶极算符 $M1$，核物理实验界长期采用磁矩型约化矩阵元，以核磁子 $\mu_N$ 为度量单位。在国际单位制（SI）下，核磁子定义为：
+\begin{equation}\label{eq:appA-mun-def}
+\mu_N^{\mathrm{SI}} \equiv \frac{e \hbar}{2 m_p} \approx 3.15245 \times 10^{-8} \, \mathrm{eV} \cdot \mathrm{T}^{-1} ,
+\end{equation}
+其中 $m_p$ 为质子静止质量。引入质子康普顿特征长度参数：
+\begin{equation}\label{eq:appA-ell-n-def}
+\ell_N \equiv \frac{\hbar}{2 m_p c} \approx 0.105155 \, \mathrm{fm} ,
+\end{equation}
+则核磁子除以光速满足：
+\begin{equation}\label{eq:appA-mun-over-c}
+\frac{\mu_N^{\mathrm{SI}}}{c} = e \ell_N \approx 0.105155 \, e \cdot \mathrm{fm} .
+\end{equation}
+传统的磁矩型算符记为 $\hat{\mathcal{M}}_\mu(M1)$，其折合跃迁几率记为 $B_\mu(M1)$，单位为 $\mu_N^2$。
+
+而在现代微观电动力学与自洽多极辐射理论中（如 Suhonen 专著与 Rose-Brink 体系），电磁辐射相互作用哈密顿量统一写作电荷流密度与矢量势的缩并。为使磁算符与电算符保持对称的长度量纲，引入 SI 电荷型磁算符：
+\begin{equation}\label{eq:appA-ms-def}
+\hat{\mathcal{M}}_S(M1) \equiv \frac{\hat{\mathcal{M}}_\mu(M1)}{c} .
+\end{equation}
+该算符具有严格的电荷乘长度量纲 $e\cdot\mathrm{fm}$，与电偶极算符量纲相同。其对应的物理折合跃迁几率记为 $B_S(M1)$，量纲为 $e^2\cdot\mathrm{fm}^2$。两套单位体系下导出的折合跃迁几率严格满足物理换算关系：
+\begin{equation}\label{eq:appA-bs-bmu-trans}
+B_\mu(M1) = b_{M1} \mu_N^2 , \qquad
+B_S(M1) = \frac{B_\mu(M1)}{c^2} = b_{M1} (e \ell_N)^2 = b_{M1} e^2 (0.105155\,\mathrm{fm})^2 ,
+\end{equation}
+无量纲跃迁强度系数定义为：
+\begin{equation}\label{eq:appA-b-m1-dimensionless}
+b_{M1} \equiv \frac{B_\mu(M1)}{\mu_N^2} = \frac{B_S(M1)}{(\mu_N/c)^2} .
+\end{equation}
+因此，以 $e^2\mathrm{fm}^2$ 为单位的 $B_S(M1)$ 数值等于 $b_{M1} \times (0.105155)^2 \approx 0.0110575 \times b_{M1}$；而以 $(\mu_N/c)^2$ 为度量单位的数值直接等于无量纲数 $b_{M1}$。在各自命名单位归一化后的数值相同，严禁在无量纲强度之间多余地乘除光速因子 $c^2$。
+
+在高斯单位制（CGS）中，核磁子写作 $\mu_N^{\mathrm{Gauss}} = \frac{e_G \hbar}{2 m_p c}$（其中 $e_G$ 为静电电荷），公式中显式包含 $c$。比较不同单位制专著时，必须同时转换电荷体系与电磁场的代数定义。
+
+\subsection{多极混合比 $\delta(E2/M1)$ 中的动能因子配对与相位体系}
+根据多极辐射振幅理论，多极混合比定义为出射电四极与磁偶极辐射场发射几率振幅之比：
+\begin{equation}\label{eq:appA-delta-def}
+\delta(E2/M1) \equiv \frac{\mathrm{Amp}(E2)}{\mathrm{Amp}(M1)} = \frac{\sqrt{3}}{10} \frac{E_\gamma}{\hbar c} \frac{\langle I_f \| \hat{\mathcal{M}}(E2) \| I_i \rangle}{\langle I_f \| \hat{\mathcal{M}}_S(M1) \| I_i \rangle} = \frac{\sqrt{3}}{10} \frac{E_\gamma}{\hbar} \frac{\langle I_f \| \hat{\mathcal{M}}(E2) \| I_i \rangle}{\langle I_f \| \hat{\mathcal{M}}_\mu(M1) \| I_i \rangle} .
+\end{equation}
+在式\eqref{eq:appA-delta-def}中：
+\begin{itemize}
+\item 当分母采用 SI 电荷型算符 $\hat{\mathcal{M}}_S(M1)$ 时，其量纲为 $e\cdot\mathrm{fm}$；分子 $\hat{\mathcal{M}}(E2)$ 量纲为 $e\cdot\mathrm{fm}^2$；此时动量动能因子配备光速 $c$，即 $E_\gamma / (\hbar c)$（量纲为 $\mathrm{fm}^{-1}$），实现量纲的严格对消，得到纯无量纲的 $\delta$。
+\item 当分母采用磁矩型算符 $\hat{\mathcal{M}}_\mu(M1)$ 时，其量纲为 $\mu_N$；动能前缀相应采用 $E_\gamma / \hbar$，同样导出纯无量纲数。
+\end{itemize}
+
+\textbf{相位约定与文献换算规则}：
+本书在发射退激过程中统一选用 Krane-Steffen（KS）多极混合比约定：式\eqref{eq:appA-delta-def}中的跃迁矩阵元、算符相位与角分布几何系数按同一约定配套。在 Hamilton 专著体系中，对于所定义的 $F_k$ 系数与混合比，角分布多极干涉项写作正交叉项 $+2\delta F_k(LL')$，这与式\eqref{eq:appA-delta-def}给出的矩阵元比值符号完全自洽。而在 Rose-Brink（RB）体系中，发射约定的混合比与 KS 约定相差一个负号：$\delta_{\mathrm{KS}} = -\delta_{\mathrm{RB}}$。转换文献发表数据时，必须同步核验几何干涉系数并严格区分发射与吸收过程；已发表实验数据应保留来源原有符号及声明的约定，只有在核实来源约定并需要横向统一比较时才显式执行换算。多极平方项 $\delta^2$ 以及由此确定的辐射多极份额不受该相位的正负反转影响。
+
+\section{全书符号体系与各章节对齐矩阵}\label{sec:appA-7}
+
+为了方便全书交叉核验与读者查阅，表\ref{tab:appA-alignment-matrix}总结了本附录所确立的核心数学符号、定义式及其与各正文章节的逻辑对应关系。
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{附录 A 核心数学物理符号、定义与正文章节对应矩阵表}\label{tab:appA-alignment-matrix}
+\begin{tabularx}{\textwidth}{p{2.5cm} p{4.5cm} p{2.2cm} >{\raggedright\arraybackslash}X}
+\toprule
+符号标识 & 物理含义与定义式 & 规范量纲 / 单位 & 支撑与对应正文章节 \\
+\midrule
+$\hat{\mathbf{J}}$ & 物理总角动量算符矢，显式携带 $\hbar$ & $\mathrm{J}\cdot\mathrm{s}$（作用量） & 第\ref{sec:2-1}节、第\ref{sec:2-5}节、附录\ref{app:projection} \\
+\addlinespace
+$j, m$ 或 $I, M$ & 自旋本征量子数与磁量子数 & 无量纲标量 & 全书各章能谱与态矢标识 \\
+\addlinespace
+$\mathbf{T}^{(k)}$ & $k$ 阶不可约球张量算符分量 & 依物理算符而定 & 第\ref{sec:2-1}节、第\ref{sec:2-7}节 \\
+\addlinespace
+$\langle j_f \| T^{(k)} \| j_i \rangle$ & Edmonds/Suhonen 标准约化矩阵元 & 依算符量纲而定 & 第\ref{sec:2-1}节式\eqref{eq:2-1-7}、第\ref{sec:5-9}节 \\
+\addlinespace
+$B(EL)$ & 电多极折合跃迁几率，式\eqref{eq:appA-b-standard-down} & $e^2\cdot\mathrm{fm}^{2L}$ & 第\ref{sec:2-1}节、第\ref{sec:3-4}节、第\ref{sec:5-9}节 \\
+\addlinespace
+$B_\mu(M1)$ & 磁矩型磁偶极折合跃迁几率 & $\mu_N^2$ & 第\ref{sec:2-7}节、第\ref{sec:3-4}节、第\ref{sec:3-8}节 \\
+\addlinespace
+$B_S(M1)$ & SI 电荷型磁偶极跃迁几率，式\eqref{eq:appA-bs-bmu-trans} & $e^2\cdot\mathrm{fm}^2$ & 第\ref{sec:5-9}节式\eqref{eq:5-9-delta-def} \\
+\addlinespace
+$\delta(E2/M1)$ & 多极混合比（辐射几率振幅比），式\eqref{eq:appA-delta-def} & 无量纲标量 & 第\ref{sec:3-8}节式\eqref{eq:3-8-delta-def}、第\ref{sec:5-7}节、第\ref{sec:5-9}节 \\
+\addlinespace
+$\begin{Bmatrix} a & b & c \\ d & e & f \end{Bmatrix}$ & Wigner $6j$ 符号与重耦合正交性，式\eqref{eq:appA-6j-ortho-theorem} & 无量纲代数数 & 第\ref{sec:3-2}节、第\ref{sec:3-4}节、附录 A 解析基准 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+综上所述，本附录所确立的角动量代数、张量算符规范、Wigner-Eckart 相位基准以及 $M1$ 电荷型量纲匹配法则，在全书范围内构建了完全自洽、无歧义的理论计算与实验反演基准，为解决低能核结构高自旋动力学中的模式判别与多维实验联合检验提供了坚实稳固的数学物理基石。

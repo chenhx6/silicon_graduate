@@ -13,7 +13,7 @@
   },
   "output_latex": {
     "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-4.tex",
-    "sha256": "18960bdfb1c2e65304a42da6bb39ef3026061b6a6d25d4911dcfdb853f316c26",
+    "sha256": "bd56ec80cffcb490cc9d6c2af3bcb5c9f97dd2d62d88acfa78a9c6786a615424",
     "equations_count": 10,
     "tables_count": 1,
     "figures_count": 1,
@@ -39,7 +39,8 @@
       "wu-hongyi-2020-general-purpose-digital-daq-thesis",
       "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
       "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync"
-    ]
+    ],
+    "bytes": 16232
   },
   "sources": [
     {
@@ -165,6 +166,8 @@
     "待 G80 生成并注入 Img/cfd-phase-convergence.pdf，当前由 \\IfFileExists 条件块安全包裹兜底占位",
     "跨机箱同步波形测试在 Hennig 等文献中仅有示波器包络最坏估计 (~1.5 ns)，正文已注明不可作为今日模块或用户装置保证指标"
   ],
-  "parent_final_tex_sha256": "18960bdfb1c2e65304a42da6bb39ef3026061b6a6d25d4911dcfdb853f316c26",
-  "integration_status": "included-in27-section-clean-preview"
+  "parent_final_tex_sha256": "bd56ec80cffcb490cc9d6c2af3bcb5c9f97dd2d62d88acfa78a9c6786a615424",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-4.tex",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
 }

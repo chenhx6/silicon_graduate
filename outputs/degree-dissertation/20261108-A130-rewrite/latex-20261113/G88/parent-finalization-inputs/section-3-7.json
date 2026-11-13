@@ -1,0 +1,152 @@
+{
+  "section_id": "3.7",
+  "status": "submitted-for-parent-acceptance",
+  "worker": "G88 Gemini Tiered/high; revised per round 2 parent audit",
+  "recorded_at": "2026-11-13T12:05:00.000000+00:00",
+  "canonical_paths": {
+    "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-7.tex",
+    "tex_sha256": "ef5eb74bb57cd5c59d7024a6ccbe512f019e5e7c2f65ac654b2f81d02fc43d6f"
+  },
+  "sources": [
+    {
+      "source_id": "butler-nazarewicz-1996-intrinsic-reflection-asymmetry",
+      "canonical_source": "P. A. Butler, W. Nazarewicz, Rev. Mod. Phys. 68, 349 (1996)",
+      "source_page": "knowledge/sources/butler-nazarewicz-1996-intrinsic-reflection-asymmetry.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1996_Butler_Nazarewicz_Intrinsic reflection asymmetry in atomic nuclei.pdf",
+      "raw_sha256": "40e915a556361cb472139fb683146d66c1385c3e87de5aaa16d2bd8628afe090",
+      "doi": "10.1103/RevModPhys.68.349",
+      "actual_read_pages": "PDF p. 5 (journal p. 353, Delta l = Delta j = 3 shell couplings across mass regions); pp. 355–365",
+      "archive_required": true
+    },
+    {
+      "source_id": "bucher-2017-146ba-direct-octupole",
+      "canonical_source": "B. Bucher et al., Phys. Rev. Lett. 118, 152504 (2017)",
+      "source_page": "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
+      "raw_sha256": "c49cb44350cd24f25d172efe405cd9e78360692eb4087bb3eef1801534264beb",
+      "doi": "10.1103/PhysRevLett.118.152504",
+      "actual_read_pages": "PDF pp. 2–5, Table I, Figs. 3–5 (Coulomb excitation B(E3) measurement and SCCM D0 cancellation)",
+      "archive_required": true
+    },
+    {
+      "source_id": "liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br",
+      "canonical_source": "C. Liu et al., Phys. Rev. Lett. 116, 112501 (2016)",
+      "source_page": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+      "raw_file": "raw/papers/2016_Liu et al_Evidence for Octupole Correlations in Multiple Chiral Doublet Bands.pdf",
+      "raw_sha256": "460051aed9af9d84bbfa09a51339e4d671f8abaaf511ff6b7e0a4fbc2a836ad4",
+      "doi": "10.1103/PhysRevLett.116.112501",
+      "actual_read_pages": "PDF pp. 1–6 (78Br candidate chiral-parity quartet level scheme and RAT-PRM calculations)",
+      "archive_required": true
+    },
+    {
+      "source_id": "liu-chen-2016-78br-chirality-reflection-symmetry-thesis",
+      "canonical_source": "刘晨, 奇奇核 78Br 中手征对称性和空间反射对称性的联立自发破缺, 山东大学博士学位论文 (2016)",
+      "source_page": "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+      "raw_file": "raw/theses/degree-dissertation/刘晨_奇奇核~(78)Br中手征...间反射对称性的联立自发破缺.pdf",
+      "raw_sha256": "5e00370aab205b689841cb58d65c7fad8829e3de74f084736a74f2d8658ab291",
+      "actual_read_pages": "PDF pp. 13–18, 78–82, 90 (chiral-parity geometry, octupole potential surface, and lifetime measurement requirement)",
+      "archive_required": true
+    },
+    {
+      "source_id": "xiao-xiao-2019-high-spin-74as-thesis",
+      "canonical_source": "肖骁, 奇奇核 74As 的高自旋态研究, 山东大学硕士学位论文 (2019)",
+      "source_page": "knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md",
+      "raw_file": "raw/theses/degree-dissertation/肖骁_奇奇核~(74)As的高自旋态研究.pdf",
+      "raw_sha256": "bf0763004d98be5a540ab7802eb0baed7c11387224f1818426b891f5a3ef362b",
+      "actual_read_pages": "PDF pp. 43–49 (74As experimental bands, candidate chiral structures, and level crossing discussions)",
+      "archive_required": true
+    },
+    {
+      "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+      "canonical_source": "A. Bohr, B. R. Mottelson, Nuclear Structure, Vol. II: Nuclear Deformations (1975)",
+      "source_page": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "doi": "10.1142/3530",
+      "actual_read_pages": "Vol. II Chapter 4 (reflection-asymmetric shapes and parity doublets)",
+      "archive_required": true
+    },
+    {
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "canonical_source": "D. Cline, Ann. Rev. Nucl. Part. Sci. 36, 683 (1986)",
+      "source_page": "knowledge/sources/cline-1986-nuclear-shapes-coulomb-excitation.md",
+      "doi": "10.1146/annurev.ns.36.120186.003343",
+      "actual_read_pages": "pp. 685–692 (quadrupole invariants q2, q3 definitions and properties)",
+      "archive_required": true
+    }
+  ],
+  "claims_and_derivations": [
+    {
+      "id": "3.7-P01",
+      "kind": "definition-and-tensor-decoupling",
+      "claim": "Octupole deformation beta_3 and transition operator M(E3) are rank-3 parity-odd spherical tensors, giving transition rates B(E3) in e^2 fm^6. Quadrupole cubic invariant q3 = -sqrt(7/2) <(Q2 x Q2)_2 . Q2> = <Q^3 cos 3gamma> is a rank-0 parity-even scalar invariant formed entirely from quadrupole operators, with charge-length units e^3 fm^6, not energy. The operator-level distinction does not imply dynamical decoupling of quadrupole/octupole sectors or require beta3=0; in coupled states q3 evolves through wavefunction changes. Diagonal expectation values of M(E3) in good-parity laboratory stationary states vanish identically.",
+      "sources": [
+        "cline-1986-nuclear-shapes-coulomb-excitation",
+        "book-bohr-mottelson-nuclear-structure-vol2"
+      ],
+      "locator": "Cline 1986 p. 687; BM-II Chapter 4; manuscript Eqs.(3-7-q3-def)-(3-7-E3-diag-zero)",
+      "conditions": "Exact operator definitions; parity conservation in strong/EM Hamiltonian."
+    },
+    {
+      "id": "3.7-P02",
+      "kind": "task-local-derivation-and-symmetry-analysis",
+      "claim": "When j_p, j_n, R act on mutually independent tensor product factor spaces, they commute, so the scalar triple product chi_geom = j_p . (j_n x R) is already Hermitian without additional symmetrization. Because all angular momenta are axial vectors, chi_geom is strictly P-even and T-odd, invariant under proper rotations SO(3). Under an orthogonal spatial reflection across a plane, axial vectors transform with det(M_axial) = +1, so ordinary spatial reflection does not reverse chi_geom; this handedness is not a parity-odd order parameter. Invariance of chi_geom does not prove the whole oriented state is reflection invariant. T alone also reverses chi_geom; C = T R_y(pi) is the standard convenient body-fixed chiral operation, not the unique possible sign-reversing transformation.",
+      "sources": [
+        "book-bohr-mottelson-nuclear-structure-vol2"
+      ],
+      "locator": "manuscript Eqs.(3-7-triple-product)-(3-7-reflection-preserve)",
+      "conditions": "Three angular momentum operators in disjoint tensor spaces; pure axial vector kinematics."
+    },
+    {
+      "id": "3.7-P03",
+      "kind": "algebraic-proof-and-parity-coupling",
+      "claim": "Standard nuclear chirality transformation C = T R_y(pi) acts on body angular momentum components as J1 -> J1, J2 -> -J2, J3 -> J3. C is anti-unitary; its eigenvalues are phase-dependent and cannot serve as good +/- chiral parity labels. For integer spin I (even fermion number), T^2 = +1 and R_y(pi)^2 = +1; for half-integer spin I (odd fermion number), T^2 = -1 and R_y(pi)^2 = -1; in both cases C^2 = T^2 R_y(pi)^2 = (-1)^(4I) = +1. C^2 = +1 does not protect Kramers degeneracy. In nuclei with both octupole and chiral rotation, the collective potential energy surface does not necessarily form 4 isolated physical wells. Parity projector P^+- defines mutually orthogonal subspaces (P+ P- = 0), but does not guarantee fourfold near-degeneracy (Delta E+ != Delta E-).",
+      "sources": [
+        "book-bohr-mottelson-nuclear-structure-vol2"
+      ],
+      "locator": "manuscript Eqs.(3-7-C-action)-(3-7-C-square)",
+      "conditions": "Anti-unitary quantum mechanics; multi-dimensional non-separable potential surfaces."
+    },
+    {
+      "id": "3.7-P04",
+      "kind": "microscopic-shell-structure",
+      "claim": "Delta l = Delta j = 3 is a common and strong coherent driver of octupole collectivity, but not mathematically strictly necessary; E3 allows Delta l = 1, 3 and Delta j <= 3 under parity and triangle selection rules. Near Z approx 56, N approx 88 (e.g. Ba, Ce), driving pairs are proton pi(d_5/2 - h_11/2) and neutron nu(f_7/2 - i_13/2). In actinides near Z approx 88, N approx 134-136 (e.g. 224Ra), driving pairs are proton pi(f_7/2 - i_13/2) and neutron nu(g_9/2 - j_15/2). The Ba pairs must not be applied to Ra.",
+      "sources": [
+        "butler-nazarewicz-1996-intrinsic-reflection-asymmetry"
+      ],
+      "locator": "Butler & Nazarewicz 1996 RMP 68, 349 PDF p. 5 (journal p. 353); manuscript Eqs.(3-7-delta-lj)-(3-7-favored-octupole)",
+      "conditions": "Spherical shell model single-particle levels near Fermi surface."
+    },
+    {
+      "id": "3.7-P05",
+      "kind": "experimental-measurement-and-model-interpretation",
+      "claim": "Multi-step Coulomb excitation in 146Ba (Bucher et al. 2017) directly measured ground-state E3 RME <3_1^-||M(E3)||0_1^+> = 0.65(+14/-20) e b^(3/2) and B(E3; 3^- -> 0^+) = 48(+21/-29) W.u., confirming strong octupole collectivity. E1 matrix elements largely rely on prior tau/BR data. D_0 = D_0^macro + D_0^micro is a phenomenological liquid-drop + shell decomposition convention. SCCM calculation specifically compares neutron and proton contributions (neutron high-j low-K occupancy cancellation). Macro and micro terms do not universally have opposite signs. Strong E3 does not alone prove a rigid static pear shape.",
+      "sources": [
+        "bucher-2017-146ba-direct-octupole"
+      ],
+      "locator": "Bucher 2017 PRL 118, 152504 PDF pp. 2–5, Table I, Figs. 3–5; manuscript Sec. 3.7.5.1",
+      "conditions": "Multi-step Coulomb excitation with GRETINA and CHICO2; GOSIA analysis."
+    },
+    {
+      "id": "3.7-P06",
+      "kind": "electromagnetic-transition-analysis",
+      "claim": "In a single transition connecting states of opposite parity, lowest allowed multipole mixing is E1 + M2 (Delta pi = -1); E1 + M1 or E1 + E2 mixing in a single transition is strictly forbidden by parity. Energy overlap of E1 with M1/E2 is an unresolved experimental doublet. Under strong-coupling single-K rotor models, ratio is B(E1; I -> I-1) / B(E2; I -> I-2) = (12/5) (D0^2 / Q0^2) (CG_1^2 / CG_2^2), where 12/5 = (3/(4pi)) / (5/(16pi)). Extracting |D0| requires independent Q0 from same-nucleus intraband B(E2)/Qt or model mapping. When lacking lifetime and CoulEx/absolute RME data, branching ratios alone give only |D0/Q0|.",
+      "sources": [
+        "book-bohr-mottelson-nuclear-structure-vol2"
+      ],
+      "locator": "manuscript Eqs.(3-7-BE1-axial-formula)-(3-7-D0-Q0-ratio)",
+      "conditions": "Axially symmetric single-K rotor limit; parity conservation in EM transitions."
+    },
+    {
+      "id": "3.7-P07",
+      "kind": "spectroscopic-evaluation-and-boundaries",
+      "claim": "Comprehensive spectroscopic evaluation requires: (1) quartet level scheme; (2) intra-band E2, interband M1/E2 between chiral partners, and alternating E1 between parity partners; (3) independent E3 collectivity constraints. In 78Br and 74As, current experimental data provide candidate chiral-parity structures, but lack complete lifetime and B(E3) precision to establish rigid quartets; detailed data and potential surfaces are deferred to Section 4.5.",
+      "sources": [
+        "liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br",
+        "liu-chen-2016-78br-chirality-reflection-symmetry-thesis",
+        "xiao-xiao-2019-high-spin-74as-thesis"
+      ],
+      "locator": "Liu 2016 PRL 116, 112501; Liu Chen 2016 thesis; Xiao Xiao 2019 thesis; manuscript Sec. 3.7.5.3",
+      "conditions": "Data limitations in transitional A approx 70–80 nuclei."
+    }
+  ],
+  "integration_boundary": "Only Section 3.7 Tex, section-3-7.json, research-note a130-rewrite-parity-chirality-and-e1-limits-20261113.md and G88/section-3-7-receipt.json were modified. No other chapters, shared Bib, or git state touched."
+}

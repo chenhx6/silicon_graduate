@@ -1,0 +1,23 @@
+{
+  "worker": "G85 (Gemini Tiered/high)",
+  "section_id": "3.6",
+  "title": "gamma形状模与取向模的耦合",
+  "recorded_at": "2026-11-13T14:35:00+00:00",
+  "task_status": "section-3-6-delivered-awaiting-parent-acceptance",
+  "canonical_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-6.tex",
+  "canonical_tex_sha256": "f57bb9b8779a843b4a59c9b45ae3d6101842e1ddd5b14edeefa3204f40adc461",
+  "canonical_ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-6.json",
+  "canonical_ledger_sha256": "b58d7f59fafb6359d21beea5cf0462835e9e52dd9d09e74a085302612ac7e8db",
+  "math_and_syntax_verification": "PASSED_100_PERCENT_BALANCED",
+  "prohibitions_strictly_obeyed": [
+    "未修改公共ref.bib，新键提供至new-references-3-6.bib",
+    "两坐标正规模严格声明B1,B2>0且C12^2 < C1 C2，声明为教学模型",
+    "两态混合与2.5及附录B相位零点严格一致",
+    "严格区分实验数据、模型假定与作者解释三层界限",
+    "CRPA自洽响应严格剔除NG模与转动赝模",
+    "不把任意三态机械贴上0/1/2声子标签",
+    "微观TPSM/CRPA案例严格限定于原文指定自旋窗与组态",
+    "最终回复严格禁止使用加粗Markdown",
+    "完成本节后停步交父，绝不自动推进3.8节"
+  ]
+}

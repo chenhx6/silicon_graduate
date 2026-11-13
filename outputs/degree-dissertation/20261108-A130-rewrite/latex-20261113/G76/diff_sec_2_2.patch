@@ -1,0 +1,4 @@
+--- a/Tex/Sections/sec-2-2.tex
++++ b/Tex/Sections/sec-2-2.tex
+@@ -1 +1 @@
+-这类解释还须结合求解方法的边界。Togashi\allowbreak{} 等采用的蒙特卡罗壳模型（MCSM\allowbreak{}），以 Sla\-ter 行列式构造基矢，结合量子蒙特卡罗选基和变分优化，并将其投影到指定角动量与宇称后叠加。+这类解释还须结合求解方法的边界。Togashi 等采用的蒙特卡罗壳模型（\allowbreak{}MCSM），以 Slater 行列式构造基矢，结合量子蒙特卡罗选基和变分优化，并将其投影到指定角动量与宇称后叠加。

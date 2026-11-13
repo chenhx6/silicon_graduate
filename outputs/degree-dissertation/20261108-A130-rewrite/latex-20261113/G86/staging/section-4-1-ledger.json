@@ -1,0 +1,241 @@
+{
+  "section_id": "4.1",
+  "title": "同一个问题怎样跨核区比较",
+  "target_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-1.tex",
+  "staging_tex_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G86/staging/section-4-1.tex",
+  "tex_sha256": "e622d08523e2abb039858184b00d19217e28c8b14d408e58875776403ab3e25f",
+  "recorded_at": "2026-11-13T12:20:00+00:00",
+  "executor": "G86",
+  "sources": [
+    {
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "source_page": "knowledge/sources/cline-1986-nuclear-shapes-coulomb-excitation.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "raw_sha256": "8d6be7ca7b58c73087227bf791f4ae8b7ee0eb90562e84742a781d4512918804",
+      "reading_depth": "deep-read",
+      "verified_locators": {
+        "pdf_pages": [
+          14,
+          15,
+          16
+        ],
+        "print_pages": [
+          696,
+          697,
+          698
+        ],
+        "items": [
+          "Section 4: Quadrupole Invariants",
+          "Equations (4.1)-(4.4)"
+        ],
+        "text_anchor": "It is possible to evaluate expectation values of the E2 invariants in the laboratory frame using experimental E2 matrix elements"
+      }
+    },
+    {
+      "source_id": "poves-2020-limits-assigning-nuclear-shape",
+      "source_page": "knowledge/sources/poves-2020-limits-assigning-nuclear-shape.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/poves-2020-limits-assigning-nuclear-shape.pdf",
+      "raw_sha256": "42aa4618e87ad620a2e58882ca63caae5a60e865f3f0ae91f132e4d0dff3bf44",
+      "reading_depth": "deep-read",
+      "verified_locators": {
+        "pdf_pages": [
+          1,
+          2,
+          3
+        ],
+        "print_pages": [
+          1,
+          2,
+          3
+        ],
+        "items": [
+          "Sec. I Introduction",
+          "Sec. II Shape Invariants"
+        ],
+        "text_anchor": "the laboratory frame is spherical for non-zero spin states or zero spin states, but the intrinsic frame can exhibit quadrupole deformation"
+      }
+    },
+    {
+      "source_id": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+      "source_page": "knowledge/sources/doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-otsuka-article/otsuka-2022-physics-emerging-concepts-publisher.pdf",
+      "raw_sha256": "fc134b281f62d64f02fa5bcbe8673a110a1205391a3be982d6006f1ae2fb9882",
+      "reading_depth": "deep-read",
+      "verified_locators": {
+        "pdf_pages": [
+          3,
+          20,
+          27
+        ],
+        "print_pages": [
+          260,
+          277,
+          284
+        ],
+        "items": [
+          "Section 2: Monopole interaction",
+          "Section 5: Type II shell evolution"
+        ],
+        "text_anchor": "It has been shown in this section that the monopole interaction is crucial also for the collective band structure"
+      }
+    },
+    {
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "source_page": "knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "reading_depth": "deep-read",
+      "verified_locators": {
+        "pdf_pages": [
+          44,
+          45,
+          134,
+          135
+        ],
+        "print_pages": [
+          29,
+          30,
+          119,
+          120
+        ],
+        "items": [
+          "Section 2.2: Wigner-Eckart Theorem",
+          "Eq. (6.8): B(sigma lambda)"
+        ],
+        "text_anchor": "In this section we address the very important issue of simplifying the calculation of matrix elements"
+      }
+    },
+    {
+      "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+      "source_page": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "raw_sha256": "252f5394beee742461d36a88b5ef8fa4d03923a12ebf0fb97cf1e0eb764f6916",
+      "reading_depth": "deep-read",
+      "verified_locators": {
+        "pdf_pages": [
+          80,
+          81
+        ],
+        "print_pages": [
+          58,
+          59
+        ],
+        "items": [
+          "Chapter 4: Rotational Spectra",
+          "Sec. 4-1"
+        ],
+        "text_anchor": "term represents a collective effect of the rotational motion"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "G86-4-1-C01",
+      "text": "实验室定态严格具备SO(3)旋转对称性，其0+基态一体电荷密度严格为球对称；内禀形变是多体各向异性关联的内部表象，真实实验室态须通过角动量投影算符积分恢复。",
+      "kind": "theoretical-derivation-and-quantum-principle",
+      "source_id": "poves-2020-limits-assigning-nuclear-shape",
+      "verified_locator": {
+        "pdf_page": 2,
+        "print_page": 2,
+        "item_id": "Sec. I",
+        "text_anchor": "the laboratory frame is spherical for non-zero spin states or zero spin states, but the intrinsic frame can exhibit quadrupole deformation"
+      },
+      "conditions": "有限多体系统无外场自约束状态下的严格薛定谔方程本征态。"
+    },
+    {
+      "id": "G86-4-1-C02",
+      "text": "高j独特宇称轨道在费米面所处的填充深度决定了其驱动核芯发生长椭（底部）、扁椭（顶部）或三轴不稳定性（中部）的微观力学趋势。",
+      "kind": "microscopic-model-deduction",
+      "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+      "verified_locator": {
+        "pdf_page": 80,
+        "print_page": 58,
+        "item_id": "Chapter 4",
+        "text_anchor": "term represents a collective effect of the rotational motion"
+      },
+      "conditions": "粒子-转子耦合与准粒子占据投影角动量受配对与科里奥利力竞争。"
+    },
+    {
+      "id": "G86-4-1-C03",
+      "text": "单极相互作用驱动有效单粒子能量ESPE随组态占据动态漂移，在跨主壳激发时可引发Type-II壳演化与形变自强化反馈。",
+      "kind": "microscopic-calculation-claim",
+      "source_id": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+      "verified_locator": {
+        "pdf_page": 20,
+        "print_page": 277,
+        "item_id": "Section 2",
+        "text_anchor": "It has been shown in this section that the monopole interaction is crucial also for the collective band structure"
+      },
+      "conditions": "多核子有效相互作用包含张量力与自旋-同位旋单极积分。"
+    },
+    {
+      "id": "G86-4-1-C04",
+      "text": "配对关联由于准粒子混合因子(uk vl - vk ul)^2的作用，将低自旋强迫转动惯量压低至刚体值的1/3到1/2，高自旋对拆裂速度在各区非均质。",
+      "kind": "theoretical-derivation",
+      "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+      "verified_locator": {
+        "pdf_page": 80,
+        "print_page": 58,
+        "item_id": "Sec. 4-1",
+        "text_anchor": "term represents a collective effect of the rotational motion"
+      },
+      "conditions": "BCS准粒子平均场近似与Inglis-Belyaev线性响应假设。"
+    },
+    {
+      "id": "G86-4-1-C05",
+      "text": "Davydov-Filippov刚性三轴与Wilets-Jean gamma软核势在低激发能级比和交错度上存在解释简并，单凭能量比不能作为排他判据。",
+      "kind": "epistemological-red-line-and-model-boundary",
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "verified_locator": {
+        "pdf_page": 16,
+        "print_page": 698,
+        "item_id": "Sec. 4",
+        "text_anchor": "It is possible to evaluate expectation values of the E2 invariants in the laboratory frame using experimental E2 matrix elements"
+      },
+      "conditions": "唯象几何模型通过参数调整可复制相近低能谱，需高阶不变量打破简并。"
+    },
+    {
+      "id": "G86-4-1-C06",
+      "text": "Kumar-Cline模型无关电四极几何不变量<Q^2>与<Q^3 cos 3delta>及涨落sigma(delta)可通过多步库仑激发实验完全矩阵元网络直接提取，能够严格区分刚性三轴与宽软分布。",
+      "kind": "model-independent-experimental-methodology",
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "verified_locator": {
+        "pdf_page": 16,
+        "print_page": 698,
+        "item_id": "Eqs. (4.1)-(4.4)",
+        "text_anchor": "It is possible to evaluate expectation values of the E2 invariants in the laboratory frame using experimental E2 matrix elements"
+      },
+      "conditions": "要求多步库仑激发测量具有完整的对角静四极矩和非对角E2跃迁矩阵元网络及正确相对符号。"
+    },
+    {
+      "id": "G86-4-1-C07",
+      "text": "低自旋探针（库激、beta衰变、NRF）受狭窄自旋窗口限制，高自旋在束反应探针若缺绝对寿命测量则仅能测相对分支；可观测量中rho^2(E0)与同位素位移对构型混合最敏感。",
+      "kind": "experimental-selection-rule-and-observable-hierarchy",
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "verified_locator": {
+        "pdf_page": 134,
+        "print_page": 119,
+        "item_id": "Eq. (6.8)",
+        "text_anchor": "In this section we address the very important issue of simplifying the calculation of matrix elements"
+      },
+      "conditions": "基于电磁跃迁多极算符选择定则与反应通道分波布居限制。"
+    },
+    {
+      "id": "G86-4-1-C08",
+      "text": "量子角动量几何、约化张量法则与不变量方法普适可迁移；但具体ESPE、有效电荷、唯象相互作用参数与惯量数值严格不可自由迁移。",
+      "kind": "scientific-contract-and-epistemological-boundary",
+      "source_id": "poves-2020-limits-assigning-nuclear-shape",
+      "verified_locator": {
+        "pdf_page": 2,
+        "print_page": 2,
+        "item_id": "Sec. II",
+        "text_anchor": "the laboratory frame is spherical for non-zero spin states or zero spin states, but the intrinsic frame can exhibit quadrupole deformation"
+      },
+      "conditions": "跨质量区比较合同约束，禁止凭区名或单一参数直接宣判新物理模式。"
+    }
+  ],
+  "unresolved_issues": [
+    "在极端丰中子或丰质子边缘核区，多步库仑激发受放射性束强度与截面限制，无法获得完备的高阶矩阵元网络，使得形状不变量测定面临较大不确定度",
+    "部分中间过渡核区存在大振幅形状共存与强对振动的非绝热耦合，两态混合简单公式需要向微观生成坐标法（GCM）或5DCH扩展"
+  ]
+}

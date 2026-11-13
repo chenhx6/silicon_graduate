@@ -1,0 +1,48 @@
+{
+  "section": "4.4",
+  "status": "parent-content-accepted; integrated build pending",
+  "at_utc": "2026-11-13T15:52:06.088221+00:00",
+  "parent_checks": [
+    "Read full355-line prose and stale ledger; repaired unsupported kernel-axis equivalence and universal half-filling rule.",
+    "Re-read Gorgen2004PDF2–3 TablesI/II; Lv2022PDF3 Table1; Nomura2022PDF2 EDF mapping; Guo2022PDF3 Pt186 adopted scale.",
+    "Matched14 source raw identities/hashes against canonical metadata; corrected Jensen/Nomura/Matsuzaki identities and Lawrie alias.",
+    "Rebuilt source records; removed stale single-level-collapse and universal necessary-and-sufficient claims.",
+    "Regenerated Python SVG/PDF; visually reviewed paired data panels and mode panel; explicit adoptedδ, no clipped right-hand text.",
+    "Control characters0, braces/dollars balanced; no Markdown backticks inTeX.",
+    "Knowledge note flattened to repository YAML subset; required scientific-conditions sections added with substantive content."
+  ],
+  "source_checks": "parent-4-4-source-checks.json",
+  "narrow_scope": "No universal low-spin or M1 fraction exclusion; no proof of all model identities or whole-chapter verification.",
+  "artifacts": [
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-4.tex",
+      "sha256": "7a284e6e0bf07ba914c51540285575d49891991117eaf6afe9d87252e5ce6442",
+      "size": 48252
+    },
+    {
+      "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-4.json",
+      "sha256": "2f3e0c6b9c9fcc9ffc9f911c8b93845691bde252b401cbf5a62a9b881129fdd4",
+      "size": 29173
+    },
+    {
+      "path": "knowledge/research-notes/a130-rewrite-orientation-cross-region-conditions-20261113.md",
+      "sha256": "09c8822f175b6d646ba9c900dda56559d220433c18cb3694d5ad0483009e7d0f",
+      "size": 15995
+    },
+    {
+      "path": "system/scripts/a130_orientation_comparison_figure.py",
+      "sha256": "07a8ec32676e16cf548adf52cb13003c2206bb539e52bd73d0f286ba80c8aef2",
+      "size": 7564
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/orientation-comparison-modes.pdf",
+      "sha256": "a4005dc33dce31e8a3087a5635c46b733988f5646afb1b7f879379e218f627fa",
+      "size": 58959
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/orientation-comparison-modes.svg",
+      "sha256": "8ef033ccc73e938d8e1ea90b37e8dea5f48118b91f9763b811fffe07a5379ceb",
+      "size": 186241
+    }
+  ]
+}

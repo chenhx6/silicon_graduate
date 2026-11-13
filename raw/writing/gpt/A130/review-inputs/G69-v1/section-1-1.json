@@ -1,0 +1,142 @@
+{
+  "section_id": "1.1",
+  "title": "一个能谱为什么容许多种解释",
+  "version": "v1",
+  "recorded_at": "2026-11-08T01:35:02.106418+00:00",
+  "argument_outline": [
+    "在束gamma谱学实验记录的原生数据仅是探测器的脉冲计数、能量沉积与时间符合，而离散能级方案、自旋宇称与跃迁分支是通过多步间接反演构建的中间响应量。",
+    "理论模型通常能通过调节有限相互作用参数拟合激发能级，但相同能谱特征（如规则转动带或近简并双带）可源于本质不同的微观动力学机制，纯能级间距不能作为机制唯一性的充分判据。",
+    "在134Pr双带研究中，四准粒子带交叉使两条带在有限自旋区间（I=13–19）呈现小于50 keV的小能隙（I=15与16能隙分别为36 keV与44 keV），但结合带间与带内B(E2)分支比的解混合分析表明其跃迁四极矩比值达到2.0(4)（允许区间1.6–2.4），证实两带具有显著相异的内禀四极形状，否定了理想手征伙伴带解释。",
+    "在163Lu三轴超形变带寿命测量中，尽管DSAM法提取的两带跃迁四极矩Qt在误差范围内相近（6.66–9.93 b）并支持共同三轴形变，但提取带外跃迁几率与多极混合比深度依赖先前独立实验的采用输入，且四极矩推算依赖于纯单粒子角动量取向的模型假设。",
+    "从实验观测到核结构推断必须严格区分作者实测原始量、引用的外部输入与依赖模型的几何映射，不能将来自同一实验体系的多个采用量误当作多重独立实验证据。",
+    "选择定则允许不等于物理跃迁必然显著存在，重定相规范不变不等于矩阵元在有限实验数据中可独立提取，模型与能谱的良好吻合更不等于微观动力学机制的排他性确立。",
+    "通过建立从实验室探测计数、态响应属性、竞争模型预言到未调参鉴别量的分层推断阶梯，本篇论文确立了其核心研究问题：如何依靠高阶电磁可观测量与严格的物理边界约束低能核结构模型，并以此自然过渡至对量子核形状物理本质的探讨。"
+  ],
+  "sources": [
+    {
+      "source_id": "petrache-2006-near-degenerate-chiral-misinterpretation",
+      "source_page": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+      "raw_sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f",
+      "actual_read_pages": "printed pp. 112502-1–112502-4 (PDF pp. 1–4), Figs. 1–4, Eqs. (1)–(5), Table I",
+      "claims_supported": [
+        "134Pr在自旋13<I<19区间的能级近简并受4准粒子带交叉影响，能隙压缩至小于200 keV（I=15与16能隙分别为36 keV与44 keV），不能单凭能量简并作为手征判据",
+        "两带解混合模型结合实验B(E2)分支比提取出跃迁四极矩比值Q_{0,1}/Q_{0,2}在1.6–2.4之间（最佳估计2.0(4)），显示两带具有显著不同的内禀形状",
+        "134Pr实验分支比来自Ref. [11]，带内寿命与B(E2)对比引用Ref. [9]，属于对已有实验数据的批判性再分析而非新测独立寿命"
+      ]
+    },
+    {
+      "source_id": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "source_page": "knowledge/sources/campaign-g07-gorgen-2004-163lu-quadrupole-moments.md",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "raw_sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e",
+      "actual_read_pages": "printed pp. 031301-1–031301-4 (PDF pp. 1–4), Tables I–II, Figs. 1–4",
+      "claims_supported": [
+        "利用Gammasphere与DSAM厚衬底测量163Lu三轴强形变带TSD1的8个态和TSD2的7个态平均能级寿命，提取跃迁四极矩中心值分布在6.66–9.93 b区间",
+        "TSD2能级寿命反演带内B(E2)需采用先前薄靶实验的分支比输入（Ref. [22]），带间E2/M1分解需采用先前角分布测量的多极混合比均值delta = -3.10(+0.36/-0.44)",
+        "从B(E2)映射至过渡四极矩Qt依赖于转子模型与i13/2质子顺排K分布假设，两带Qt相近支持共同三轴形变但不足以作为排他性摆动模式判据"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "text": "在束gamma谱学实验直接记录的物理量是探测器在特定立体角下的事件计数、脉冲幅度与多重符合时间，能级方案中的能级位置、自旋宇称与跃迁分支属于多步间接反演的响应量。",
+      "kind": "experimental_methodology",
+      "source_id": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "locator": "PDF pp. 1–2",
+      "conditions": "重离子熔合蒸发反应与多探测器阵列符合测量"
+    },
+    {
+      "text": "134Pr双带在I=13–19区间的能级近简并（I=15, 16能隙仅为36 keV和44 keV）是由多准粒子带交叉压缩能隙所致，能谱近简并并不构成核手征性的充分判据。",
+      "kind": "critical_reanalysis",
+      "source_id": "petrache-2006-near-degenerate-chiral-misinterpretation",
+      "locator": "PDF pp. 1–2, Fig. 1",
+      "conditions": "N=75奇奇如同位素，带混合模型"
+    },
+    {
+      "text": "在两带两能级混合框架下，利用测量得到的B(E2)带外与带内分支比反演得到134Pr两带的跃迁四极矩比值Q_{0,1}/Q_{0,2}处于1.6–2.4区间（标称值2.0(4)），排除了形状完全相同的理想手征对称双重带解释。",
+      "kind": "model_dependent_extraction",
+      "source_id": "petrache-2006-near-degenerate-chiral-misinterpretation",
+      "locator": "PDF pp. 2–3, Eqs. (1)–(5), Table I",
+      "conditions": "忽略非对角E2矩阵元，假定短自旋段内带间耦合相互作用量V无自旋依赖"
+    },
+    {
+      "text": "163Lu的多普勒频移衰减法实验直接提取的物理量是多角度下的多普勒展宽线形与态平均寿命；提取TSD2带内B(E2)需采用先前薄靶实验的分支比，带间多极分解需采用既有测量给出的多极混合比delta = -3.10(+0.36/-0.44)。",
+      "kind": "experimental_data_chain",
+      "source_id": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "locator": "PDF pp. 2–3, Tables I–II",
+      "conditions": "厚衬底Gammasphere实验，结合历史薄靶符合与偏振测量输入"
+    },
+    {
+      "text": "将测得的B(E2)转换为跃迁四极矩Qt依赖于特定的转子几何与K量子数分布假设（如纯i13/2准质子顺排）；两带相近的Qt支持二者具有相近的内禀形变，但不能作为排他的摆动声子模式证明。",
+      "kind": "theoretical_interpretation_boundary",
+      "source_id": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "locator": "PDF pp. 3–4, Figs. 3–4",
+      "conditions": "三轴强形变波函数假设，单带转动投影映射"
+    }
+  ],
+  "equations": [
+    {
+      "name": "two_band_energy_splitting",
+      "convention": "两能级两能带混合模型",
+      "formula": "\\Delta E_I = \\sqrt{(E_{1,I} - E_{2,I})^2 + 4V^2} \\ge 2|V|",
+      "derivation": "两态正交耦合矩阵求特征值之差，最小能隙给出带间耦合强度上限",
+      "limit": "假定带间相互作用V在短自旋区间常数且无自旋依赖；非对角项非零时给出下限"
+    },
+    {
+      "name": "branching_ratio_quadrupole_moment_ratio",
+      "convention": "无非对角E2跃迁矩阵元下的两带混合跃迁比",
+      "formula": "\frac{B(E2; I_{\\mathrm{ny}} \to [I-2]_{\\mathrm{y}})}{B(E2; I_{\\mathrm{ny}} \to [I-2]_{\\mathrm{ny}})} = \\left[ \frac{Q_{0,1} \u0007lpha_{I-2} \\sqrt{1-\u0007lpha_I^2} - Q_{0,2} \u0007lpha_I \\sqrt{1-\u0007lpha_{I-2}^2}}{Q_{0,1} \\sqrt{(1-\u0007lpha_I^2)(1-\u0007lpha_{I-2}^2)} + Q_{0,2} \u0007lpha_I \u0007lpha_{I-2}} \right]^2",
+      "derivation": "将初态与末态的两带混合波函数代入电四极过渡算符矩阵元，并忽略带间非对角跃迁矩q12",
+      "limit": "当Q_{0,1} = Q_{0,2}时与手征对称预测一致；若引入非对角E2将引入额外干涉自由度"
+    },
+    {
+      "name": "transition_quadrupole_moment_mapping",
+      "convention": "三轴强形变核转动模型映射",
+      "formula": "B(E2; I \to I-2) = \frac{5}{16\\pi} e^2 Q_t^2 \\sum_K c_K^2 \\langle I K 2 0 | I-2, K \rangle^2",
+      "derivation": "非轴对称体系中对内禀多极张量进行角动量投影与K分量统计求和",
+      "limit": "仅在纯高j准粒子轨道顺排及固定三轴形变波函数假设下成立，非无模型几何测量"
+    }
+  ],
+  "competing_explanations": [
+    {
+      "issue": "134Pr中自旋13<I<19能带表观小能隙的物理根源",
+      "misconception": "认为能级能量近简并直接证实了手征双重带的左手与右手自发对称破缺构型。",
+      "correct_understanding": "表观能隙是由双准粒子带与四准粒子带交叉相继发生所致的偶然压缩；两带顺排角动量相差约2hbar，且解混合得出的内禀四极矩相差约两倍，排除了理想手征伙伴解释。"
+    },
+    {
+      "issue": "163Lu中TSD2与TSD1的相近Qt是否排他性证明了摆动激发机制",
+      "misconception": "认为实验测得两带相近的四极矩即可独立闭环证明TSD2是TSD1的单摆动声子激发。",
+      "correct_understanding": "相近的Qt仅支持两带具有相似的三轴形变内禀核芯；提取该矩深度依赖先前实验的分支比与多极混合比输入，且转子几何模型映射假设了纯单粒子态，不能排他性排除其它准粒子激发或微观形状涨落机制。"
+    },
+    {
+      "issue": "能谱拟合良好是否意味着微观动力学机制的排他性确立",
+      "misconception": "认为只要模型能够以高精度重现实验测得的能级位置与转动惯量，其物理假设即被实验唯一证实。",
+      "correct_understanding": "有限自旋能谱是哈密顿量的宏观能量本征值，不同物理模型（轴对称准粒子对准、三轴转动、形状共存或微观振动）通过调节相互作用参数通常均能重现能级间距；甄别竞争机制必须依赖未经调参的绝对跃迁几率、分支比及混合比等高阶敏感量。"
+    }
+  ],
+  "unresolved": [
+    "在缺乏带间非对角E2跃迁矩先验信息的情况下，仅凭测量分支比解混合得到的四极矩比值存在模型简化假设引起的残余系统不确定度。",
+    "厚衬底DSAM实验未能独立测定TSD2弱带外分支，使绝对带间B(E2)与B(M1)的提取对早期薄靶分支与混合比采用值高度敏感。"
+  ],
+  "reader_checks": [
+    {
+      "question": "为什么在134Pr中仅有36 keV与44 keV的能级小能隙不能作为核手征性的充分判据？",
+      "answer": "因为多准粒子能带交叉可以在频率平面的特定自旋区间偶然压缩两带间距，产生类似简并的表观能谱；只有进一步检查两带的转动对齐角动量、自旋交错相位以及内禀电四极跃迁矩比值（解混合显示比值约为2.0(4)），才能揭示两带实际具有截然不同的微观组态与几何形状。"
+    },
+    {
+      "question": "为什么不能把163Lu中Görgen实验提取的TSD2能带B(E2)称为完全独立的实验测量？",
+      "answer": "因为从测得的厚靶能级寿命tau提取TSD2带内B(E2)时，无法在厚靶多普勒峰中直接分离弱分支，必须采用先前独立薄靶实验测得的带外分支比，且分离带间E2与M1跃迁还采用了历史测量的平均多极混合比delta；这些来自其它实验的采用输入将最终物理量与前人测量紧密绑定，不能作为独立的第二套实验证据。"
+    }
+  ],
+  "interfaces_for_subsequent_sections": {
+    "section_1_2": "从能谱的多重解释性直接过渡到“核形状”在量子力学各向同性实验室参考系中的严格物理定义",
+    "section_1_3": "为早期集体模型（如Bohr–Mottelson模型）从能比映射形变的成功与局限性提供问题入口",
+    "section_1_4": "作为A130核区多重带交叉与手征竞争的引入案例，连接六个质量区的比较坐标",
+    "section_3_5": "为手征双重带反幺正对称性破缺、复非正交两态矩阵铅笔及特征指纹提供实验判据背景",
+    "section_5_9": "为在束gamma谱学中从能级寿命、分支比与内转换系数反演微观绝对跃迁几率提供方法学链条接口"
+  },
+  "manuscript_path": "raw/writing/gpt/A130/research-draft/section-1-1.md",
+  "manuscript_sha256": "8af7c50f9caae4feaadbbd9d257126691e4477d59409a984b50fe25e7131495d",
+  "chinese_character_count": 2186
+}

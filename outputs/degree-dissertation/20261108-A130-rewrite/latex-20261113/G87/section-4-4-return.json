@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "executor": "G87 (Gemini Tiered/high)",
+    "timestamp": "2026-11-13T15:05:00+00:00",
+    "batch": 1,
+    "scope": [
+      "4.4"
+    ],
+    "status": "delivered-awaiting-parent-acceptance",
+    "execution_domain": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G87/",
+    "canonical_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-4.tex",
+    "canonical_tex_sha256": "ead85484bf62d706b50cac523a9e6f5074c136486443f1c9c28caf1a2f7bfce6",
+    "staging_tex": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G87/staging/sec-4-4.tex",
+    "staging_tex_sha256": "ead85484bf62d706b50cac523a9e6f5074c136486443f1c9c28caf1a2f7bfce6",
+    "evidence_ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-4.json",
+    "evidence_ledger_sha256": "f639c6ffb2e1d0280c27fccdc29fa6a818b6faef56dcc5a19a3e4aaa2502f6c4",
+    "contract_file": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G87/section-4-4-contract.json",
+    "contract_file_sha256": "2b794b737e863b8cf599bc38a34e6604485e39737c6fd4b8dcdb85dd3613eafa",
+    "new_references_bib": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G87/new-references-4-4.bib",
+    "new_references_bib_sha256": "bb154817f7e221d905632d3ef06a440b0894652d90fca164718cc90a880a8dfe",
+    "research_note": "knowledge/research-notes/a130-rewrite-orientation-cross-region-conditions-20261113.md",
+    "research_note_sha256": "442f923ce164c9841904f5bd8835b597f2bbf89440d560fc1b66f4266c09ec6c",
+    "figure_pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/orientation-comparison-modes.pdf",
+    "figure_pdf_sha256": "d33ce6658cf34d064320df70ac88266cd3210d1a4b53f16bf4ed1c2f170bebf6",
+    "figure_script": "system/scripts/a130_orientation_comparison_figure.py",
+    "figure_script_sha256": "67bdabdcd2cfb565e5aec2072dcd8c28b3b92f1574c16da4b3df8d8d26e67266"
+  },
+  "scientific_deliverables_summary": {
+    "central_argument": "系统解决『同样叫三轴/同高j轨道或相近Qt，为何表现出截然不同取向运动』的跨核区核心问题；以163Lu完全实测20行原表（Görgen 2004 Table I/II）为基线，解构135Pr极化双根仲裁、Shimizu 2005高K进动轴对称极限与187Au实验否决，确立跨区迁移四大充要条件与低自旋模式坍塌失效反例。",
+    "comparative_matrix_cases": [
+      {
+        "region": "A ≈ 160 (稀土区)",
+        "nucleus_and_band": "163Lu TSD1 / TSD2",
+        "configuration": "奇质子 pi i13/2 ([660]1/2+), 壳底粒子型对准短轴 s",
+        "deformation_and_inertia": "epsilon_2 ≈ 0.38, gamma ≈ +20 deg; 无辐散流排序 J_m > J_s > J_l; Matsuzaki 2004 频率依赖惯量 J_k(omega)",
+        "spin_window_and_core_R": "I = 41/2+ 到 71/2+; 核芯纯转动动量 R ~ 15-30 hbar >> 1 (强转动极限)",
+        "measured_em_signature": "带内 Qt ≈ 7.5–9.5 b 高度稳定 (Table I, 15行); 带间 B(E2)_out ≈ 0.54–0.70 e^2b^2 (20–30 W.u., 强烈集体增强); delta ≈ -3.10 (|delta| > 1, E2主导 >90%)",
+        "interpretation": "作者：经典横向摆动 (TW); 本节确立其为充分证据基线，但指出其依赖于强超形变与大核芯转动，不可教条泛化为『所有 TSD 必摆动』"
+      },
+      {
+        "region": "A ≈ 130",
+        "nucleus_and_band": "135Pr Band 1 / Band 3",
+        "configuration": "奇质子 pi h11/2, 壳底粒子型",
+        "deformation_and_inertia": "epsilon_2 ≈ 0.16, gamma ≈ 26 deg; QTR 模型放开单粒子自由度",
+        "spin_window_and_core_R": "I = 11/2- 到 25/2-; 带头自旋 13/2-, 核芯转动动量 R ~ 1 hbar 极微弱 (违反谐振子近似)",
+        "measured_em_signature": "角分布二次有理式拟合代数存在双根 (|delta_1| > 1 与 |delta_2| < 1); 747.3 keV 跃迁完全与小根 delta ≈ -0.12(3) 自洽，M1 主导 (>98%)，B(E2)_out 极微弱 (无集体增强)",
+        "interpretation": "原作者 (Matta 2015)：低自旋横向摆动; 批判与否决 (Lv 2022, Guo 2021)：极化正符号不排他性选择大根，小根下为奇核子对准向转动轴倾斜的平面转动 (Planar Rotation) / gamma 振动带混合"
+      },
+      {
+        "region": "A ≈ 180 邻区",
+        "nucleus_and_band": "178W (K^pi = 25+), 178,179Hf",
+        "configuration": "多准粒子高 K 异能态，费米子投影叠加产生轴向巨大 K",
+        "deformation_and_inertia": "轴对称极限 gamma -> 0 deg; 绕对称轴惯量 J_z -> 0, 垂直惯量 J_perp",
+        "spin_window_and_core_R": "I >= K = 25+; 绕轴对称 z 轴的微观进动",
+        "measured_em_signature": "带内强烈 Delta I = 1, 2 跃迁; 跃迁能量服从 E(I) = 1/(2 J_perp) [I(I+1) - K^2]",
+        "interpretation": "作者 (Shimizu 2005)：高 K 进动模式 (High-K Precession); 物理本质：三轴摆动在轴对称极限 (gamma -> 0) 下的拓扑退化连续极限，水平转动带收缩为单态，垂直摆动声子序列严格蜕变为高 K 转动带"
+      },
+      {
+        "region": "A ≈ 187–190 (重核区)",
+        "nucleus_and_band": "187Au Band 1 / Band 2, 邻近 Os/Pt/Hg",
+        "configuration": "奇质子 pi h9/2, 费米面在子壳底部 (纯粒子型，倾向短轴 s 对准)",
+        "deformation_and_inertia": "beta_2 ≈ 0.15, gamma ≈ 18 deg; 处于显著的 gamma 软度与多重形状共存区",
+        "spin_window_and_core_R": "I = 9/2- 到 21/2-; 带头自旋 11/2-, 核芯转动 R ~ 1 hbar 极微弱",
+        "measured_em_signature": "HIRFL 实测带间跃迁极微弱，B(E2)_out / B(E2)_in < 0.1，缺乏集体电四极增强",
+        "interpretation": "原作者 (Sensharma 2020)：纵向摆动 (LW); 实验否决 (Guo 2022)：壳底粒子型对准短轴 s 与 LW 要求之中轴 m 对准几何冲突，带头 R ~ 1 缺乏恢复力，微观本质为长椭--扁椭三轴形状共存态"
+      }
+    ]
+  },
+  "prohibitions_strictly_obeyed": [
+    "绝对未派生子代理（no sub-agents）",
+    "绝对未自行执行 git commit 或 git push",
+    "绝对未执行主工程编译（no main engine compile）",
+    "绝对未修改公共包装文件（Thesis.tex, Chapter4.tex, Style/*, Biblio/ref.bib 等）",
+    "绝对未越界修改4.5节及其他写者工作区（4.5 节严格保留未动）",
+    "TeX 正文中零 Markdown 粗体（**），通过 C0 控制字符与 LaTeX 符号转义检查"
+  ]
+}

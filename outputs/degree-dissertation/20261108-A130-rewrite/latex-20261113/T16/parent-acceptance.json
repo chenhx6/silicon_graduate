@@ -1,0 +1,8 @@
+{
+  "verdict": "accepted-narrow-findings-and-candidate-corrections",
+  "scope": "Q and atomic holes; GF/B conventions; final cascade probabilities; light-Majorana and contact conventions. Not entire section certification.",
+  "runtime": "parent independently confirmed Terra/xhigh turn_context",
+  "validation_replayed": true,
+  "integration": "Give Gemini an exact local correction contract; parent will review actual merged TeX and ledger.",
+  "black_box_boundary": "No need to expand into a separate mechanism theorem without its own evidence; retain source-bounded review language."
+}

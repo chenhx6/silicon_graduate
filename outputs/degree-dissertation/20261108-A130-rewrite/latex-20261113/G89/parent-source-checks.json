@@ -1,0 +1,72 @@
+[
+  {
+    "source_id": "doctoral-r1-g33-gintautas-2009-176lu-thermal-equilibration",
+    "path": "raw/papers/gpt/query/20261108-foundations-G33/gintautas-2009-176lu-thermal-equilibration.pdf",
+    "hash_matches": true
+  },
+  {
+    "source_id": "doctoral-r1-g33-gosselin-2010-plasma-isomers-176lu-180ta",
+    "path": "raw/papers/gpt/query/20261108-foundations-G33/gosselin-2010-176lu-180ta-plasma-transitions.pdf",
+    "hash_matches": true
+  },
+  {
+    "source_id": "nndc-176lu-isomer-beta-2006-snapshot-20261113",
+    "path": "raw/papers/gpt/query/20261113-A130-lu176-beta-evaluation/manifest.json",
+    "hash_matches": true
+  },
+  {
+    "source_id": "seiferle-2017-lifetime-229th-isomer",
+    "path": "raw/papers/isomer/isomer_application/nuclear_clock/2017_Seiferle et al_Lifetime Measurement of the Th229 nuclear isomer.pdf",
+    "hash_matches": true
+  },
+  {
+    "source_id": "beeks-2021-thorium-229-isomer-nuclear-clock",
+    "path": "raw/papers/isomer/isomer_application/nuclear_clock/2021_Beeks et al_The thorium-229 low-energy isomer and the nuclear clock.pdf",
+    "hash_matches": true
+  },
+  {
+    "source_id": "kraemer-2023-radiative-decay-229th-isomer",
+    "path": "raw/papers/isomer/isomer_application/nuclear_clock/2023_Kraemer et al_Observation of the radiative decay of the 229Th nuclear clock isomer.pdf",
+    "hash_matches": true
+  },
+  {
+    "source_id": "chiara-2018-mo93m-isomer-depletion-neec",
+    "path": "raw/papers/isomer/isomer_application/nuclear battery/2018_Chiara et al_Isomer depletion as experimental evidence of nuclear excitation by electron capture.pdf",
+    "hash_matches": true
+  },
+  {
+    "source_id": "wu-2019-mo93m-neec-stopping-theory",
+    "path": "raw/papers/isomer/isomer_application/nuclear battery/2019_Wu et al_Mo 93 m Isomer Depletion via Beam-Based Nuclear Excitation by Electron Capture.pdf",
+    "hash_matches": true
+  },
+  {
+    "source_id": "guo-2021-mo93m-depletion-contamination-challenge",
+    "path": "raw/papers/isomer/isomer_application/nuclear battery/2021_Guo et al_Possible overestimation of isomer depletion due to contamination.pdf",
+    "hash_matches": true
+  },
+  {
+    "source_id": "guo-2022-mo93m-isomer-beam-depletion-limit",
+    "path": "raw/papers/isomer/isomer_application/nuclear battery/2022_Guo et al_Probing Mo 93 m Isomer Depletion with an Isomer Beam.pdf",
+    "hash_matches": true
+  },
+  {
+    "source_id": "zagrebaev-2001-superheavy-synthesis-survival",
+    "path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.65.014607.pdf",
+    "hash_matches": true
+  },
+  {
+    "source_id": "xu-2004-superheavy-high-spin-isomer-stability",
+    "path": "raw/papers/isomer/isomer_application/superheavy_nuclei/2004_Xu et al_Enhanced Stability of Superheavy Nuclei Due to High-Spin Isomerism.pdf",
+    "hash_matches": true
+  },
+  {
+    "source_id": "book-jain-nuclear-isomers",
+    "path": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+    "hash_matches": true
+  },
+  {
+    "source_id": "book-suhonen-from-nucleons-to-nucleus",
+    "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+    "hash_matches": true
+  }
+]

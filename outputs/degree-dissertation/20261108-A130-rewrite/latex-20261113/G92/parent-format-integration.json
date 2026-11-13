@@ -1,0 +1,41 @@
+{
+  "session_date": "2026-11-14",
+  "observed_machine_utc": "2026-11-13T19:59:08.401264+00:00",
+  "status": "format-delta-reviewed-and-integrated;full39buildpending",
+  "input_build_scope": "33bodysections+A/B/C/E/F; notlatest37/38science yet",
+  "build_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G92/build-report.json",
+  "parent_visual_checks": [
+    "FrozenPDFphysical183 Lu fulltable and194 BrAstable examined",
+    "Sourcecollection83actualfilehashesmatch frozenbuildreport"
+  ],
+  "preserved_or_corrected": [
+    "G97C2titlepreserved; oldstrictwordingnotrestored",
+    "TSDn_w keptasinterpretivelabelincaption, notdirectobservedphononcount",
+    "AlllistednumericLu/BrAsdataandconditionsretained; nofieldsmovedacrosscases",
+    "Splitcomparisonoldlabelkeptasalias; Clinegeometrydummyangleunifiedtogamma",
+    "AlignedRacah/9j andwidth/rateformulatermsmanuallymatched; no unitconversionintroduced"
+  ],
+  "artifacts": [
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-7.tex",
+      "sha256": "3c50a9b0f3812ac03daaab4bdbef706ddb06e864d5dc9c67c228e6d860c08b18"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-4.tex",
+      "sha256": "464210015df1e4b5c514036b215107c900470b4489dfbea6bd1d38ab26bb26c0"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-5.tex",
+      "sha256": "25ba30fee7149b6bab770caafd82239fd35ab2c3ea8cc485b0fb314dbc0a9b10"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-8.tex",
+      "sha256": "5c9da2c41aa91dd683bbfbb1e903e001e1ef2bf53d788bfad8cf2f3ab80e3374"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixA.tex",
+      "sha256": "9d68fe0c9d48a9e2b5af71acb2ae5b5063042508666d10750422813cd831d2ac"
+    }
+  ],
+  "boundary": "Clean33diagnosticPDFnotcopiedtocanonical; newscienceandcompleteappendicesstillneedintegratedcompile."
+}

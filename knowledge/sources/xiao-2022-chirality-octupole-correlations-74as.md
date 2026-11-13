@@ -14,7 +14,7 @@ journal: Physical Review C
 year: 2022
 volume: 106
 issue: 6
-pages: 064302
+pages: "064302"
 doi: 10.1103/PhysRevC.106.064302
 language: English
 canonical_source: https://doi.org/10.1103/PhysRevC.106.064302

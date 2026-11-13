@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-11-13T12:29:54.509989+00:00",
+  "scope": "T19 angular response consistency only; frozen copies, canonical G79-owned",
+  "files": [
+    {
+      "input_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-7.tex",
+      "snapshot_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T19/sec-5-7.frozen.tex",
+      "sha256": "2aadea260f57991b1a1c4d0171de63f125a15ac9083f0763d4237eefb892566d",
+      "size_bytes": 18716
+    },
+    {
+      "input_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-7.json",
+      "snapshot_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T19/section-5-7.frozen.json",
+      "sha256": "3c1b563c868114963448f5ba14c5b046d6241bf8166809f471b0c0f0c294b2c8",
+      "size_bytes": 7438
+    },
+    {
+      "input_path": "system/scripts/a130_angular_branch_figure.py",
+      "snapshot_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T19/a130_angular_branch_figure.frozen.py",
+      "sha256": "8e3f23d3ca142887436c865ff0ffb43a636b4cce2abf4e67682a9bc3efa32591",
+      "size_bytes": 4036
+    }
+  ]
+}

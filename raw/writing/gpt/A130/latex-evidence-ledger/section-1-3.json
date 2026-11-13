@@ -189,5 +189,7 @@
     "Hinohara 2015有限振幅法求出的Thouless-Valatin转动惯量依赖于准粒子平均场自洽势与有效相互作用选取，模型空间截断会引入伪NG模频移"
   ],
   "parent_final_tex_sha256": "41e375449934242995f7a810b1224d5b7b8f96d018038d34a8de58d2d7dc6075",
-  "integration_status": "included-in27-section-clean-preview"
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-3.tex",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
 }

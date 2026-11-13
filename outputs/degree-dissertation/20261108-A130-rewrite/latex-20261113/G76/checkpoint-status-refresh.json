@@ -1,8 +1,8 @@
 {
   "checkpoint": "G76-latex-engineering-status-refresh",
-  "refreshed_at_utc": "2026-11-13T03:46:53.057447+00:00",
+  "refreshed_at_utc": "2026-11-13T04:14:04.796899+00:00",
   "executor": "G76 (Gemini)",
-  "status": "ready-for-parent-acceptance-standby",
+  "status": "draft-unverified",
   "audit_verdict": "CLEAN_PASS",
   "thesis_pdf": {
     "path": "/workspace/wiki/raw/writing/gpt/A130/these_2023_template/these_template/Thesis.pdf",
@@ -51,5 +51,11 @@
   },
   "integrated_sections_count": 15,
   "not_started_sections_count": 24,
-  "admission_boundary": "Content admission is based on direct evidence and explicit corrections; 15 sections (1.1-1.5, 2.1-2.6, 3.5, 5.3, 5.4, 5.9) and Appendices B/C are verified and admitted into the 128-page CLEAN_PASS build; remaining 24 sections are stubs [未完成] and whole thesis manuscript is incomplete. Historical review labels do not confer scientific eligibility."
+  "admission_boundary": "Content admission is based on direct evidence and explicit corrections; 15 sections (1.1-1.5, 2.1-2.6, 3.5, 5.3, 5.4, 5.9) and Appendices B/C are verified and admitted into the 128-page CLEAN_PASS build; remaining 24 sections are stubs [未完成] and whole thesis manuscript is incomplete. Historical review labels do not confer scientific eligibility.",
+  "unmanaged_build_isolation": {
+    "isolated_directory": "tmp/a130-latex-unmanaged-build-20261113",
+    "manifest_path": "tmp/a130-latex-unmanaged-build-20261113/manifest.json",
+    "reason": "178-page PDF produced by G86 rejected due to factual errors; isolated to prevent contamination.",
+    "verified_checkpoint_preserved": "128-page CLEAN_PASS PDF from git-published checkpoint preserved in tmp/a130-latex-build/Thesis.pdf."
+  }
 }

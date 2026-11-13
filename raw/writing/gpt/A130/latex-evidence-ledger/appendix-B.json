@@ -78,5 +78,9 @@
     "不使用无依据的经验通用阈值范围",
     "不把微小非零范数态武断称为虚假零模"
   ],
-  "open_issues": []
+  "open_issues": [],
+  "parent_final_tex_sha256": "93785f3c48c54b1cda81f146da0465be7de835267e5842c95c2735f386eef6f8",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixB.tex",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
 }

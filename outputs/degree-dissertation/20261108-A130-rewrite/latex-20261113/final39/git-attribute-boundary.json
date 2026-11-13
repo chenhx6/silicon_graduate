@@ -1,0 +1,34 @@
+{
+  "status": "pass",
+  "scope": "byte-preserving exceptions restricted to A130 generated/frozen artifacts; active code, knowledge, TeX and other manuscripts retain normal checks",
+  "checks": [
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/lifetime-response-rdds-dsam.svg",
+      "whitespace_attribute": "unset"
+    },
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G63-v1/section-1-2.md",
+      "whitespace_attribute": "unset"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G104/parent-final-integration.patch",
+      "whitespace_attribute": "unset"
+    },
+    {
+      "path": "system/scripts/a130_lifetime_response_figure.py",
+      "whitespace_attribute": "unspecified"
+    },
+    {
+      "path": "knowledge/research-notes/a130-rewrite-statistical-model-and-covariance-audit-20261114.md",
+      "whitespace_attribute": "unspecified"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixF.tex",
+      "whitespace_attribute": "unspecified"
+    },
+    {
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/main.tex",
+      "whitespace_attribute": "unspecified"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "compiled_section_count": 24,
+  "files": [
+    {
+      "path": "Thesis.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Biblio/gb7714-2015.bbx",
+      "matches_main": true
+    },
+    {
+      "path": "Biblio/gb7714-2015.cbx",
+      "matches_main": true
+    },
+    {
+      "path": "Biblio/gb7714-2015ay.bbx",
+      "matches_main": true
+    },
+    {
+      "path": "Biblio/gb7714-2015ay.cbx",
+      "matches_main": true
+    },
+    {
+      "path": "Biblio/gbt7714-author-year.bst",
+      "matches_main": true
+    },
+    {
+      "path": "Biblio/gbt7714-numerical.bst",
+      "matches_main": true
+    },
+    {
+      "path": "Biblio/ref.bib",
+      "matches_main": true
+    },
+    {
+      "path": "Img/cfd-phase-convergence.pdf",
+      "matches_main": true
+    },
+    {
+      "path": "Img/chapter-dependency.pdf",
+      "matches_main": true
+    },
+    {
+      "path": "Img/digital-energy-response.pdf",
+      "matches_main": true
+    },
+    {
+      "path": "Img/gamma-measure.pdf",
+      "matches_main": true
+    },
+    {
+      "path": "Img/occupancy-centroids.pdf",
+      "matches_main": true
+    },
+    {
+      "path": "Img/shape-moments.pdf",
+      "matches_main": true
+    },
+    {
+      "path": "Img/six-region-map.pdf",
+      "matches_main": true
+    },
+    {
+      "path": "Img/ucas_logo.pdf",
+      "matches_main": true
+    },
+    {
+      "path": "Style/artracom.sty",
+      "matches_main": true
+    },
+    {
+      "path": "Style/artratex.sty",
+      "matches_main": true
+    },
+    {
+      "path": "Style/ucasthesis.cfg",
+      "matches_main": true
+    },
+    {
+      "path": "Style/ucasthesis.cls",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Appendix.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Backmatter.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Chapter1.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Chapter2.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Chapter3.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Chapter4.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Chapter5.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Frontinfo.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Frontmatter.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Mainmatter.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Prematter.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/figuretable.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Appendices/AppendixB.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Appendices/AppendixC.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Appendices/AppendixF.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-1-1.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-1-2.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-1-3.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-1-4.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-1-5.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-2-1.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-2-2.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-2-3.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-2-4.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-2-5.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-2-6.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-2-7.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-2-8.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-3-1.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-3-2.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-3-5.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-4-1.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-4-2.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-4-3.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-5-1.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-5-3.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-5-4.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-5-5.tex",
+      "matches_main": true
+    },
+    {
+      "path": "Tex/Sections/sec-5-9.tex",
+      "matches_main": true
+    }
+  ],
+  "parent_takeover_reason": "Gemini provider account-disabled service error; finish existing accepted snapshot only."
+}

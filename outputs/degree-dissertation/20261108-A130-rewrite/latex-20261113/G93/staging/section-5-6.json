@@ -1,0 +1,162 @@
+{
+  "section_id": "5.6",
+  "title": "符合矩阵与能级建立",
+  "target_latex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-6.tex",
+  "latex_summary": {
+    "sections_count": 1,
+    "subsections_count": 5,
+    "equations_count": 9,
+    "tables_count": 0,
+    "figures_count": 1,
+    "labels": [
+      "sec:5-6",
+      "subsec:5-6-1",
+      "subsec:5-6-2",
+      "eq:5-6-ordered-pairs",
+      "subsec:5-6-3",
+      "eq:5-6-prompt-random",
+      "eq:5-6-norm-factor",
+      "eq:5-6-var-population",
+      "eq:5-6-var-net",
+      "eq:5-6-var-cov-expanded",
+      "subsec:5-6-4",
+      "eq:5-6-gate-sub",
+      "eq:5-6-gate-weights",
+      "fig:5-6-coincidence-topology",
+      "subsec:5-6-5",
+      "eq:5-6-ritz-combination",
+      "eq:5-6-intensity-balance",
+      "eq:5-6-itot-expansion"
+    ],
+    "citations": [
+      "xiao-xiao-2019-high-spin-74as-thesis",
+      "book-wu-nuclear-experiment-methods",
+      "wakudyanaye-2022-triaxiality-rotational-bands-133ce"
+    ]
+  },
+  "citations": [
+    {
+      "key": "xiao-xiao-2019-high-spin-74as-thesis",
+      "canonical_source_id": "xiao-xiao-2019-high-spin-74as-thesis",
+      "title": "奇奇核74As的高自旋态研究",
+      "type": "mastersthesis",
+      "author": "肖骁",
+      "school": "山东大学",
+      "year": 2019,
+      "raw_file": "raw/theses/degree-dissertation/肖骁_奇奇核~(74)As的高自旋态研究.pdf",
+      "raw_sha256": "bf0763004d98be5a540ab7802eb0baed7c11387224f1818426b891f5a3ef362b",
+      "locators": [
+        "PDF 第 23–24 页，印刷第 15–16 页：第 3.1 节矩阵反演、对称符合矩阵（200/400 keV 各填一次）与非对称 ADO/偏振矩阵设定",
+        "PDF 第 24–26 页，印刷第 16–18 页：第 3.2 节能级纲图建立原则（符合关系、相对强度平衡与多极性信息）"
+      ]
+    },
+    {
+      "key": "book-wu-nuclear-experiment-methods",
+      "canonical_source_id": "book-wu-nuclear-experiment-methods",
+      "title": "原子核物理实验方法（第三版）",
+      "type": "book",
+      "author": "吴治华",
+      "publisher": "原子能出版社",
+      "year": 2005,
+      "isbn": "9787502234058",
+      "raw_file": "raw/books/原子核物理实验方法--第三版 (吴治华) (Z-Library).pdf",
+      "raw_sha256": "e23f010ff8d3b4737405235c4aba920533f44e89409ebb7e2cb076b7ab4ee591",
+      "locators": [
+        "第 10 章 §10.2 与 §10.6，印刷第 250–265、285–303 页（PDF 第 258–273、293–311 页）：在束二维符合矩阵分析、门谱背景扣除与假符合排除",
+        "第 9 章 §9.4 与 第 10 章 §10.2，印刷第 245–260 页（PDF 第 253–268 页）：瞬发与偶然时间门选、归一化扣除公式与方差传递"
+      ]
+    },
+    {
+      "key": "wakudyanaye-2022-triaxiality-rotational-bands-133ce",
+      "canonical_source_id": "wakudyanaye-2022-triaxiality-rotational-bands-133ce",
+      "title": "Triaxiality and Rotational Bands in 133Ce",
+      "type": "mastersthesis",
+      "author": "Ignasio Wakudyanaye",
+      "school": "University of the Western Cape",
+      "year": 2022,
+      "raw_file": "raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+      "raw_sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+      "locators": [
+        "PDF 第 62–63 页，印刷第 51–52 页：Chapter 5 §5.2.2，Fig. 5.2 门谱旁路平行分支判据（871 keV 门下未见 490/380 keV，而 936 keV 门下可见 490/380 keV）与重叠双重峰（608/609 keV）"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C56-symmetric-matrix-filling",
+      "statement": "二维对称符合矩阵对包含 n 个光子的多重事件填入 n(n-1) 个有序数对，保持转置对称性；非对称矩阵定向记录特定角度探测器符合以提取角分布或偏振信息。",
+      "source": "xiao-xiao-2019-high-spin-74as-thesis",
+      "pdf_pages": "23–24",
+      "printed_pages": "15–16",
+      "figure_or_equation": "第 3.1 节矩阵反演",
+      "searchable_anchor": "以反演对称的二维矩阵为例 ... 在x轴的200 keV、y轴的400 keV处记录次数1",
+      "raw_file": "raw/theses/degree-dissertation/肖骁_奇奇核~(74)As的高自旋态研究.pdf",
+      "raw_sha256": "bf0763004d98be5a540ab7802eb0baed7c11387224f1818426b891f5a3ef362b"
+    },
+    {
+      "claim_id": "C56-prompt-random-subtraction-variance",
+      "statement": "瞬发与偶然符合矩阵按时间窗归一因子 a=ΔTP/ΔTR 扣除，S=P-aR；固定 a 与独立泊松条件下理论方差为 Var(S)=μP+a²μR，其实验插桩估计量为 P+a²R；当 a 源自拟合时包含其方差与协方差传递。",
+      "source": "book-wu-nuclear-experiment-methods",
+      "pdf_pages": "253–268",
+      "printed_pages": "245–260",
+      "figure_or_equation": "第 9 章 §9.4, 第 10 章 §10.2",
+      "searchable_anchor": "在束瞬发-缓发时间门控与偶然符合本底差分扣除",
+      "raw_file": "raw/books/原子核物理实验方法--第三版 (吴治华) (Z-Library).pdf",
+      "raw_sha256": "e23f010ff8d3b4737405235c4aba920533f44e89409ebb7e2cb076b7ab4ee591"
+    },
+    {
+      "claim_id": "C56-doublet-and-anticoincidence-arbitration",
+      "statement": "门谱背景扣除按峰门中心与左右背景门道宽计数密度线性内插；在有限计数门谱中未观察到谱峰受探测限约束，为支持特定拓扑排布的条件性证据而非绝对反符合；重叠双重峰需通过纯净门交叉解叠。",
+      "source": "wakudyanaye-2022-triaxiality-rotational-bands-133ce",
+      "pdf_pages": "62–63",
+      "printed_pages": "51–52",
+      "figure_or_equation": "Chapter 5 §5.2.2, Table 5.2 & Fig. 5.2",
+      "searchable_anchor": "the 490- and 380- keV transitions are in coincidence with the 936- keV transition, but anti-coincidence with the 871- keV transition",
+      "raw_file": "raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+      "raw_sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080"
+    },
+    {
+      "claim_id": "C56-intensity-balance-and-spin-inputs",
+      "statement": "能级纲图建立满足 Ritz 结合原理能量守恒（计入交叉与级联反冲动能差）与跃迁强度平衡；长寿命异能态在有限时间窗内引起表观不平衡；自旋宇称由角分布、DCO、偏振不对称度及选择定则综合确定，并不普遍依赖能级绝对寿命。",
+      "source": "xiao-xiao-2019-high-spin-74as-thesis",
+      "pdf_pages": "24–26",
+      "printed_pages": "16–18",
+      "figure_or_equation": "第 3.2 节能级纲图建立",
+      "searchable_anchor": "能级纲图需要通过γ-γ符合关系、γ跃迁的相对强度、γ跃迁的多极性信息来建立",
+      "raw_file": "raw/theses/degree-dissertation/肖骁_奇奇核~(74)As的高自旋态研究.pdf",
+      "raw_sha256": "bf0763004d98be5a540ab7802eb0baed7c11387224f1818426b891f5a3ef362b"
+    }
+  ],
+  "verification_status": {
+    "math_verified": true,
+    "physics_consistent": true,
+    "citations_anchored": true,
+    "figure_producer_synced": true
+  },
+  "parent_round2_items_resolved": [
+    {
+      "id": "56-1",
+      "action_taken": "明确理论总体方差 Var(S) = \\mu_P + a^2 \\mu_R 与实验插桩估计量 \\widehat{\\mathrm{Var}}(S) = P + a^2 R 的严格区分；指出多重事件与加权对称填充使得格点计数不自动独立泊松。"
+    },
+    {
+      "id": "56-2",
+      "action_taken": "以峰门宽度 wp 与左右背景门中心 (eL, eR)、宽度 (wL, wR) 和投影谱 BL, BR 定义计数密度线性内插，推导扣除公式 S_gated = G - wp [\\lambda_L BL/wL + \\lambda_R BR/wR]，消除量纲歧义并指出非等宽门不能直接平均计数。"
+    },
+    {
+      "id": "56-3",
+      "action_taken": "核准 Wakudyanaye 2022 硕士论文物理原件 PDF 第 62–63 页（印刷第 51–52 页，Fig. 5.2），明确有限计数下未见峰为支持特定分支的条件性拓扑证据，受探测灵敏度上限约束，非脱离检测限的绝对排除。"
+    },
+    {
+      "id": "56-4",
+      "action_taken": "明确真符合仅在排除伴生碎片、偶然相加与串扰后支持同核衰变网络连通性，不自动确定垂直先后或直接相邻；澄清自旋宇称判定由角关联/偏振与选择定则给出，不普遍依赖绝对寿命。"
+    },
+    {
+      "id": "56-5",
+      "action_taken": "明确长寿命异能态的表观不平衡特定地源于有限观测时间窗对缓发衰变的截断或非稳态建立，稳态闭合系统中总强度严格平衡；严格给出 Ritz 结合原理中的反冲差项 \\Delta E_recoil 定义。"
+    },
+    {
+      "id": "56-6",
+      "action_taken": "核准肖骁 (2019) 硕士学位论文原件物理 PDF 第 23–26 页（印刷第 15–18 页），删除重复词‘特定特定’；图注标明为参数化教学合成模型，区分图模型拓扑反符合与实验谱检测限。"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "worker": "G91 (Gemini Tiered/high)",
+  "section_id": "3.8",
+  "title": "模式判断需要怎样的联合预言",
+  "recorded_at": "2026-11-13T22:00:00+00:00",
+  "task_status": "section-3-8-v4-r3-audited-delivered",
+  "canonical_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-8.tex",
+  "canonical_tex_sha256": "8af39d3fa9b006bbaf23be1409beb48e2038a15dda40d366af29d1c569048b73",
+  "canonical_ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-8.json",
+  "canonical_ledger_sha256": "c2eb705d29961d2766d62c1fe788c10b368160dd7eaee2014c1ce30fb4534101",
+  "figure_pdf_path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/joint-predictions-workflow.pdf",
+  "figure_svg_path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/joint-predictions-workflow.svg",
+  "figure_script_path": "system/scripts/a130_joint_predictions_figure.py",
+  "research_note_path": "knowledge/research-notes/a130-rewrite-joint-predictions-and-discriminating-program-20261113.md",
+  "parent_return_r2_actions_executed": [
+    "Item 1 (eq:3-8-b-rate-relation): 消除ICC双重计数；严格区分总分支比btot、光子概率bgamma与相对强度Igamma的归一公式；",
+    "Item 2 (98Mo分支): 纠正I_gamma=0.24与0.74为全谱相对强度（母态分支比约为1.5%与5.7%），消除母态<1%误断；",
+    "Item 3 (98Mo实验路线): 删除普适v/c>=2%、DSAM<1ps及绝对数值阈值；明确通过带内强跃迁测定母态寿命；明确可证伪判据；",
+    "Item 4 (102Ru有效算符): 澄清0+到1-为纯单光子E1吸收；明确rY1+b_nu r^3Y3为内禀唯象分量表达，实验室协变需张量重耦合；",
+    "Item 5 (102Ru二声子): 澄清相空间因子E_gamma^(2L+1)压低（E1按E^3，E2按E^5，相差上千倍），微弱E2分支可与集体B(E2)共存，不要求E2分支必须主导；",
+    "Item 6 (135Pr宇称与阈值): 纠正负宇称自旋17/2-与15/2-；消除100WU/1/I等普适阈值；明确三类具体竞争模型预测与失效条件；",
+    "Item 7 (GLS与协方差): 明确分支比归一约束致协方差奇异需独立坐标；在明确矩条件/高斯假定下给出GLS条件推断；",
+    "Item 8 (Source ID与Bibkey分离): 98Mo在ledger中使用Wiki canonical source_id karmakar-2025-2026-98mo-octupole-preview，与Bib key karmakar-2026-98mo-octupole区分；",
+    "Item 9 (文风与流程图): 消除正文与caption中的政策/合同口号；更新流程图文字，强调观测通道相关互补，并同步更新note与台账。"
+  ],
+  "appendix_A_status": "frozen-read-only-in-T20-preservation",
+  "prohibitions_strictly_obeyed": [
+    "未修改公共ref.bib，引用键与公共ref.bib完全对齐",
+    "未修改其它手稿章节，禁止自行派生/commit/push/递归删除",
+    "不把未验3.6新数据当依据，只复用已验2.1-2.8/3.2/3.5与文献原件",
+    "不把模式标签等同于实验观测，波函数轨迹严格属于模型内部数学输出",
+    "不设通用delta、E2百分比或声子倍数绝对阈值，完整保留角分布双根分支与退化条件",
+    "同一母态多B强协方差不计为独立重复证据，严格区分四类统计协方差机制",
+    "区分数据四层架构，不给无raw counts的虚假显著性检验，阐明GLS条件推断自洽性与奇异约束",
+    "三个研究候选基于文献原件基线，不编造未知机时与个人硬件",
+    "交付独立单节回执，A保持冻结只读，不越界修改其它章节或提交commit"
+  ]
+}

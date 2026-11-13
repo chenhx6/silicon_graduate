@@ -1,0 +1,18 @@
+{
+  "figure_id": "fig:5-6-coincidence-topology",
+  "section": "5.6",
+  "type": "educational-model",
+  "description": "Educational coincidence level scheme topology and gating anti-coincidence logic model",
+  "producer_script": "system/scripts/a130_coincidence_topology_figure.py",
+  "producer_sha256": "553fb6f97f6bc2bd4ee27885ad109c2c659e40a9faafda70891410ea9d16525e",
+  "svg": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/coincidence-level-scheme-model.svg",
+    "sha256": "8fda2876313efdb58db252f2204863baf3ebe70df57bcf011019d89e945d41c4",
+    "size_bytes": 92278
+  },
+  "pdf": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/coincidence-level-scheme-model.pdf",
+    "sha256": "fb044a8c24a947f9417ab3799c32e3bbdf7ead442f2f277a2d11e11d19102079",
+    "size_bytes": 37294
+  }
+}

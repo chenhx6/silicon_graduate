@@ -1,0 +1,16 @@
+{
+  "observed": [
+    {
+      "timestamp": "2026-11-13T11:18:54.470Z",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "effort": "high"
+    },
+    {
+      "timestamp": "2026-11-13T11:56:02.567Z",
+      "model": "antigravity/gemini-3.8-flash-tiered",
+      "effort": "high"
+    }
+  ],
+  "recorded_at": "2026-11-13T12:44:47.680205+00:00",
+  "boundary": "Model selection observation only."
+}

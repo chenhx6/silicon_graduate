@@ -1,0 +1,19 @@
+{
+  "archive_type": "research-archive-v1",
+  "archive_required": true,
+  "retrieved_at": "2026-11-08T02:52:45.340728+00:00",
+  "files": [
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G72-v1/section-5-4.md",
+      "sha256": "d92fba54cf57ea8dc2cbade49b49c4aa719d6b96310fd4c8ff2a7caebf5ee76e",
+      "size": 19012,
+      "source": "Frozen G72 first return for parent/independent audit; not original physical evidence"
+    },
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G72-v1/section-5-4.json",
+      "sha256": "a70c66efaf723b28871b6e3603a89cc4e723207e72d3e0bd87f300806521c489",
+      "size": 16770,
+      "source": "Frozen G72 first return for parent/independent audit; not original physical evidence"
+    }
+  ]
+}

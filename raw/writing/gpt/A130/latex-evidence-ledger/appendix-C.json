@@ -1,0 +1,154 @@
+{
+  "appendix_id": "C",
+  "title": "集体动能与响应的约定",
+  "status": "parent-scientific-content-accepted",
+  "author_executor": "restored GPT G82, not Gemini",
+  "output_latex": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixC.tex",
+    "sha256": "67eece7eea1d3d9693ab4e012147e126d2a00a8bee835d99855f5e1d205b1b76",
+    "bytes": 5366
+  },
+  "sources": [
+    {
+      "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+      "source_page": {
+        "path": "knowledge/sources/prochniak-rohozinski-2009-bohr-collective-hamiltonian.md",
+        "sha256": "333cffa3a246f5265668bb9791a78a33b6d2dafe59cf6bd8738bb817a98a9c27",
+        "size_bytes": 10695
+      },
+      "raw_file": {
+        "path": "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/manifest.json",
+        "sha256": "9afdb6573cb302fb18ae0eb3914d0c51afbbbdf5b9984f0400bf784e40b5ca63",
+        "size_bytes": 1451
+      },
+      "archive_required": true,
+      "locator": "PDF14 Eqs.(3.5)–(3.8),PDF30 Eqs.(4.21)–(4.25),PDF34 Eq.(4.44)",
+      "actual_read_pages": [
+        14,
+        30,
+        34
+      ],
+      "actual_read_scope": "Selected kinetic and cranking formula passages; PDF13–16,27–35 extracted for local navigation, not claimed fully read",
+      "evidence_layer": "published theoretical definitions/model, not new experimental evidence",
+      "reading_carrier": {
+        "path": "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/prochniak-rohozinski-2009-v1.pdf",
+        "sha256": "4d7e6d3942230023061efd0032b3d1f9231e5d6f230219329ef984c458bb689b",
+        "size_bytes": 1011836
+      }
+    },
+    {
+      "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+      "source_page": {
+        "path": "knowledge/sources/hinohara-2015-nambu-goldstone-inertia-response.md",
+        "sha256": "6d6ebcdb6a289ddd620c5e9fc6ceb56e174d367122cd17091219372a0ab47042",
+        "size_bytes": 8611
+      },
+      "raw_file": {
+        "path": "raw/papers/gpt/query/20261108-r2-t05-response-definitions/aps-publication.pdf",
+        "sha256": "764d644a2349235027e15c320d78f15fcd7d8fd264ebe6412fd2b80e1a625f86",
+        "size_bytes": 399622
+      },
+      "archive_required": true,
+      "locator": "APS PDF3–5 Eqs.(15),(18)–(25),(32)–(34),(41),(49)–(53);PDF8–9 Eqs.(66)–(67),Fig.4",
+      "actual_read_pages": [
+        3,
+        4,
+        5,
+        8,
+        9
+      ],
+      "actual_read_scope": "Selected normalization, static-response and total/binding-energy passages; no full paper read or numerical replay",
+      "evidence_layer": "published theoretical definitions/model, not new experimental evidence",
+      "reading_carrier": {
+        "path": "raw/papers/gpt/query/20261108-r2-t05-response-definitions/aps-publication.pdf",
+        "sha256": "764d644a2349235027e15c320d78f15fcd7d8fd264ebe6412fd2b80e1a625f86",
+        "size_bytes": 399622
+      }
+    },
+    {
+      "source_id": "matsuzaki-2004-nuclear-inertia-and-wobbling",
+      "source_page": {
+        "path": "knowledge/sources/matsuzaki-2004-nuclear-inertia-and-wobbling.md",
+        "sha256": "4c76113fc26a3aefb1534edbb8da1fdb5f291e2155d5f5fb07284723b0c88c96",
+        "size_bytes": 5439
+      },
+      "raw_file": {
+        "path": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/matsuzaki-2004-nuclear-moments-of-inertia-prc69-034306.pdf",
+        "sha256": "9ea9fb2c8b9e73b0352a219ace7efc6182d6b5471b38d32cb96bc539e4aa6bf7",
+        "size_bytes": 279781
+      },
+      "archive_required": true,
+      "locator": "PDF3–5 Eqs.(8)–(12), subsequent Nilsson limitation",
+      "actual_read_pages": [
+        3,
+        4,
+        5
+      ],
+      "actual_read_scope": "Selected cranked RPA equations and limits, no rereading/recalculating full results",
+      "evidence_layer": "published theoretical definitions/model, not new experimental evidence",
+      "reading_carrier": {
+        "path": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/matsuzaki-2004-nuclear-moments-of-inertia-prc69-034306.pdf",
+        "sha256": "9ea9fb2c8b9e73b0352a219ace7efc6182d6b5471b38d32cb96bc539e4aa6bf7",
+        "size_bytes": 279781
+      }
+    },
+    {
+      "source_id": "kvasil-2006-dy156-yb162-crpa-wobbling",
+      "source_page": {
+        "path": "knowledge/sources/kvasil-2006-dy156-yb162-crpa-wobbling.md",
+        "sha256": "5d1a02aec781326cd19d4285c079daad047b2c52656cae3e93ec0318f0b2029a",
+        "size_bytes": 3091
+      },
+      "raw_file": {
+        "path": "raw/papers/gpt/query/20261108-r3-g45-quantum-labels/kvasil-nazmitdinov-2006-wobbling-dy156-yb162.pdf",
+        "sha256": "dee4d852c401c5d522b10655d26a477925f9e8da7b06c09190e66243f3fa2405",
+        "size_bytes": 725623
+      },
+      "archive_required": true,
+      "locator": "PDF3 Eq.(6),PDF4 Fig.3 and its self-consistency discussion",
+      "actual_read_pages": [
+        3,
+        4
+      ],
+      "actual_read_scope": "Selected pairing prescription, longitudinal inertia and alternative Dy/Yb mechanism; no full CRPA replay",
+      "evidence_layer": "published theoretical definitions/model, not new experimental evidence",
+      "reading_carrier": {
+        "path": "raw/papers/gpt/query/20261108-r3-g45-quantum-labels/kvasil-nazmitdinov-2006-wobbling-dy156-yb162.pdf",
+        "sha256": "dee4d852c401c5d522b10655d26a477925f9e8da7b06c09190e66243f3fa2405",
+        "size_bytes": 725623
+      }
+    }
+  ],
+  "source_reading_boundary": "Inherits accepted2.6 source-specific selected-page reading; parent read the complete current two-page appendix and checked cited carriers hashes. No new full-paper reading or QRPA numerical reproduction claimed.",
+  "claims": [
+    {
+      "id": "appC-static-units",
+      "kind": "task convention deduction",
+      "statement": "For dimensionless F and energy-valued f in H-fF, chi has MeV^-1. Physical rotational inertia is hbar²chi_j; number/gauge susceptibility chi_N does not acquire that spatial action factor.",
+      "locator": "AppendixC response-counting; section2.6 adopted conventions"
+    },
+    {
+      "id": "appC-pair-counting",
+      "kind": "source-based conditional algebra",
+      "statement": "Unordered two-quasiparticle pairs mu<nu with both Hermitian response parts give factor2. Do not duplicate that factor in a source using full single-particle sums.",
+      "locator": "Prochniak Eq4.44; Hinohara PDF3–4 Eqs25,32–34"
+    },
+    {
+      "id": "appC-ng-response",
+      "kind": "source convention translation",
+      "statement": "H+etaF uses K(X,Y)^T=-(F20,F02)^T; chi=-S(0). Real/imaginary generator components use different A±B blocks; local commutator normalization fixes MP. Inverses require the stated solvable response subspace and NG gauge handling.",
+      "locator": "Hinohara APS PDF3–5 Eqs20–25,34,41,49–53"
+    },
+    {
+      "id": "appC-rotating-redundancy",
+      "kind": "model scope",
+      "statement": "Cranked-frame redundant root omega_n²=omega_rot² is distinct from a stationary NG zero root; the gamma≠0 derivation and dynamical transverse inertias cannot be replaced by a universal axial limit or same-axis derivative.",
+      "locator": "Matsuzaki PDF4 Eqs11–12; Kvasil PDF3–4 Eq6 Fig3"
+    }
+  ],
+  "parent_actual_utc": "2026-11-13T21:52:43.883226+00:00",
+  "parent_final_tex_sha256": "67eece7eea1d3d9693ab4e012147e126d2a00a8bee835d99855f5e1d205b1b76",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixC.tex",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
+}

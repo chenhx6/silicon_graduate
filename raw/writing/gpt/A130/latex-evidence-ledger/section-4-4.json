@@ -1,0 +1,391 @@
+{
+  "section_id": "4.4",
+  "title": "$A\\approx 130$、稀土与重区的取向对照",
+  "section_label": "sec:4-4",
+  "type": "comparative_cross_region_study",
+  "status": "parent-content-accepted-awaiting-integrated-typesetting",
+  "recorded_at": "2026-11-13T15:48:14.564014+00:00",
+  "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-4.tex",
+  "output_tex_sha256": "4584eae073d908173467a2c2ac3d881fce3a74d5b178e36a91becdae4da553a5",
+  "staging_tex": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G90/sec-4-4.tex",
+  "scope_boundary": "本节为博士论文第4章比较小节，系统建立跨越稀土超形变区 (163Lu)、中重核区 (135Pr) 与重核过渡区 (178W, 187Au, 190Hg) 的非轴对称取向动力学对照基准；严格推导电荷空间半轴与惯量主轴排序，落实第3章关于摆动能量非单调性、实根稳定性与倾斜边界的判据，核实 163Lu 原表与采用量依赖，剖析 135Pr 极化双根与 IBFM/QTR 竞争解释，澄清 Shimizu 轴对称高 K 进动的参考系与能标微商，明确跨区迁移的物理充要条件与失效反例。",
+  "source_inputs": [
+    {
+      "source_id": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "source_page": "knowledge/sources/campaign-g07-gorgen-2004-163lu-quadrupole-moments.md",
+      "citation_key": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "title": "Görgen et al. 2004 - Quadrupole moments of wobbling excitations in 163Lu",
+      "year": 2004,
+      "doi": "10.1103/PhysRevC.69.031301",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "raw_sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e",
+      "raw_size_bytes": 56596,
+      "pdf_total_pages": 4,
+      "archive_required": true,
+      "locator": "PDF pp. 2-3, Table I (15 in-band transitions: TSD1 with Qt = 7.37-9.93 b, TSD2 with Qt = 6.66-8.88 b, overall range ~ 6.7-9.9 b); Table II (5 interband TSD2 -> TSD1 transitions with B(E2) = 0.54-0.70 e^2b^2, B(M1) = 0.017-0.024 mu_N^2, using adopted average delta = -3.10).",
+      "reading_boundary": "Bounded original/source-locator verification; no whole-document reading claim."
+    },
+    {
+      "source_id": "odegard-2001-evidence-wobbling-163lu",
+      "source_page": "knowledge/sources/odegard-2001-evidence-wobbling-163lu.md",
+      "citation_key": "odegard-2001-evidence-wobbling-163lu",
+      "title": "Ødegård et al. 2001 - Evidence for the Wobbling Mode in Nuclei",
+      "year": 2001,
+      "doi": "10.1103/PhysRevLett.86.5866",
+      "raw_file": "raw/papers/2001_Ødegård et al_Evidence for the Wobbling Mode in Nuclei.pdf",
+      "raw_sha256": "0ff38adfcbe031fb21c43b3bba290ca44a21898564bb78cf335fbb47b05ba379",
+      "raw_size_bytes": 148775,
+      "pdf_total_pages": 4,
+      "archive_required": true,
+      "locator": "Phys.Rev.Lett.86,5866 (2001), PDF1–4; first wobbling assignment and mixing measurements as cited in Gorgen2004.",
+      "reading_boundary": "Bounded original/source-locator verification; no whole-document reading claim."
+    },
+    {
+      "source_id": "jensen-2002-second-phonon-wobbling-163lu",
+      "source_page": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+      "citation_key": "jensen-2002-second-phonon-wobbling-163lu",
+      "title": "Jensen et al. 2002 - Evidence for Second-Phonon Nuclear Wobbling",
+      "year": 2002,
+      "doi": "10.1103/PhysRevLett.89.142503",
+      "raw_file": "raw/papers/2002_Jensen et al_Evidence for Second-Phonon Nuclear Wobbling.pdf",
+      "raw_sha256": "c6fd99c17c09763f742cbe36443f7039f21b3e28a5caa548748bdf0718630a8a",
+      "raw_size_bytes": 206452,
+      "pdf_total_pages": 4,
+      "archive_required": true,
+      "locator": "D.R.Jensen etal, Phys.Rev.Lett.89,142503 (2002), PDF1–4; second-phonon assignment, not the distinct NPA703 paper.",
+      "reading_boundary": "Bounded original/source-locator verification; no whole-document reading claim."
+    },
+    {
+      "source_id": "matta-2015-transverse-wobbling-135pr",
+      "source_page": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+      "citation_key": "matta-2015-transverse-wobbling-135pr",
+      "title": "Transverse wobbling in 135Pr",
+      "year": 2015,
+      "doi": "10.1103/PhysRevLett.114.082501",
+      "raw_file": "raw/papers/2015_Matta et al_Transverse Wobbling in Pr 135.pdf",
+      "raw_sha256": "8db644705dccfd58016753b759d19314a65284c48efc1758f95f1b3ce23551d6",
+      "raw_size_bytes": 3832299,
+      "pdf_total_pages": 7,
+      "archive_required": true,
+      "locator": "PDF pp. 1-3, 5: reported low-spin transverse wobbling in 135Pr on pi h11/2 (Band 3); extracted |delta| > 1 from angular distribution (e.g. delta = -2.0(4) for 747.0 keV); reported positive linear polarization and falling Ewob.",
+      "reading_boundary": "Bounded original/source-locator verification; no whole-document reading claim."
+    },
+    {
+      "source_id": "lv-2022-evidence-against-wobbling-135pr",
+      "source_page": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "citation_key": "lv-2022-evidence-against-wobbling-135pr",
+      "title": "Evidence against the wobbling nature of low-spin bands in 135Pr",
+      "year": 2022,
+      "doi": "10.1016/j.physletb.2021.136840",
+      "raw_file": "raw/papers/2022_Lv et al_Evidence against the wobbling nature of low-spin bands in 135Pr.pdf",
+      "raw_sha256": "4b87c540bf9da5141fa88ef8f00859162cb08918d56a5da74726c7537df5e26b",
+      "raw_size_bytes": 512670,
+      "pdf_total_pages": 6,
+      "archive_required": true,
+      "locator": "PDF p. 3, Table 1: 747.3 keV is 17/2- -> 15/2- with P = 0.04(+0.08/-0.13), Rac = 0.37(4), delta = -0.47(+0.09/-0.22), M1% ≈ 82%; 813.2 keV is 21/2- -> 19/2- with P = -0.03(+0.05/-0.12), Rac = 0.48(6), delta = -0.37(+0.10/-0.14), M1% ≈ 88%; 450.2 keV is 15/2- -> 13/2- with Rac = 0.49(4), delta = -0.31(+0.10/-0.13), M1% ≈ 91%; B(E2; 747.3)/B(E2; 526.2) = 0.7(+0.7/-0.5); model estimate R ~ 1 hbar at bandhead.",
+      "reading_boundary": "Bounded original/source-locator verification; no whole-document reading claim."
+    },
+    {
+      "source_id": "guo-2021-comment-transverse-wobbling-135pr",
+      "source_page": "knowledge/sources/guo-2021-comment-transverse-wobbling-135pr.md",
+      "citation_key": "guo-2021-comment-transverse-wobbling-135pr",
+      "title": "Guo 2021：对 135Pr 横向摇摆实验判据的评论",
+      "year": 2021,
+      "doi": null,
+      "raw_file": "raw/papers/gpt/learning-daily/20260912-PREPLAN-135pr-refresh/guo-2020-comment-135pr-wobbling.pdf",
+      "raw_sha256": "cc9e43e07f23c3e85250c4acf55032d1085901e14d075591bcb141e5fddcdafc",
+      "raw_size_bytes": 219631,
+      "pdf_total_pages": 2,
+      "archive_required": true,
+      "locator": "Demonstrated that angular distribution W(theta) has quadratic rational dependence on delta, giving two roots; positive linear polarization P(theta) > 0 does not uniquely exclude the small-magnitude root |delta| < 1.",
+      "reading_boundary": "Bounded original/source-locator verification; no whole-document reading claim."
+    },
+    {
+      "source_id": "nomura-2022-questioning-wobbling-ibfm",
+      "source_page": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+      "citation_key": "nomura-2022-questioning-wobbling-ibfm",
+      "title": "Questioning the wobbling interpretation of low-spin bands in gamma-soft nuclei within the interacting boson-fermion model",
+      "year": 2022,
+      "doi": "10.1103/PhysRevC.105.024320",
+      "raw_file": "raw/papers/2022_Nomura et al_Questioning the wobbling interpretation of low-spin bands in γ -soft nuclei within the interacting b.pdf",
+      "raw_sha256": "e61e3dd6fe5e67fb55543f3a136c7cce0fda98ad01f112d81d5eef70b613465f",
+      "raw_size_bytes": 2221656,
+      "pdf_total_pages": 11,
+      "archive_required": true,
+      "locator": "Phys.Rev.C105,024320 (2022), PDF2 Fig1/text: DD-PC1 plus separable pairing for134Ce/106Pd; D1M for132Ba/128Xe; interpretation comparisons in article.",
+      "reading_boundary": "Bounded original/source-locator verification; no whole-document reading claim."
+    },
+    {
+      "source_id": "lawrie-2020-tilted-precession-wobbling",
+      "source_page": "knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+      "citation_key": "lawrie-2020-tilted-precession-wobbling",
+      "title": "Tilted precession and wobbling in triaxial nuclei",
+      "year": 2020,
+      "doi": "10.1103/PhysRevC.101.034306",
+      "raw_file": "raw/papers/2020_Lawrie et al_Tilted precession and wobbling in triaxial nuclei.pdf",
+      "raw_sha256": "777f935b0266fed8a9d9f2e1cc1f72995c84dd83e27ca1f5377ab2785b2ec405",
+      "raw_size_bytes": 1730162,
+      "pdf_total_pages": 12,
+      "archive_required": true,
+      "locator": "PDF pp. 1-3, Eq. (1)-(4), Figs. 2-3: classical tilted precession (TiP) in triaxial nuclei as an alternative orientation mechanism.",
+      "reading_boundary": "Bounded original/source-locator verification; no whole-document reading claim."
+    },
+    {
+      "source_id": "shimizu-2005-high-k-precession",
+      "source_page": "knowledge/sources/shimizu-2005-high-k-precession.md",
+      "citation_key": "shimizu-2005-high-k-precession",
+      "title": "Shimizu、Matsuzaki 与 Matsuyanagi：高 K 进动与摆动的轴对称极限",
+      "year": 2005,
+      "doi": "10.1103/PhysRevC.72.014306",
+      "raw_file": "raw/papers/gpt/query/20261113-A130-precession-limits/shimizu-matsuzaki-matsuyanagi-2005-nucl-th-0412074v2.pdf",
+      "raw_sha256": "6566edd91dc5765a21241ac553f599faf0037d1cadf4113edbe1d969645e97c7",
+      "raw_size_bytes": 478034,
+      "pdf_total_pages": 14,
+      "archive_required": true,
+      "locator": "14-page archived preprint, PDF2–3,5–6, Eqs1,8–11,32,38–40; axial high-K mode and rotating/laboratory-frame relation; author symmetry axis must be relabelled to manuscript3.",
+      "reading_boundary": "Bounded original/source-locator verification; no whole-document reading claim."
+    },
+    {
+      "source_id": "sensharma-2020-longitudinal-wobbling-187au",
+      "source_page": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+      "citation_key": "sensharma-2020-longitudinal-wobbling-187au",
+      "title": "Longitudinal wobbling motion in 187Au",
+      "year": 2020,
+      "doi": "10.1103/PhysRevLett.124.052501",
+      "raw_file": "raw/papers/2020_Sensharma et al_Longitudinal Wobbling Motion in Au 187.pdf",
+      "raw_sha256": "f348dce9976ad076fd9b1d5281a728e0923053aced33b0270f643d770729366a",
+      "raw_size_bytes": 936157,
+      "pdf_total_pages": 6,
+      "archive_required": true,
+      "locator": "PDF pp. 1-3: reported longitudinal wobbling (LW) in 187Au on pi h9/2.",
+      "reading_boundary": "Bounded original/source-locator verification; no whole-document reading claim."
+    },
+    {
+      "source_id": "guo-2022-low-spin-wobbling-187au",
+      "source_page": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "citation_key": "guo-2022-low-spin-wobbling-187au",
+      "title": "Probing the nature of the conjectured low-spin wobbling bands in atomic nuclei",
+      "year": 2022,
+      "doi": "10.1016/j.physletb.2022.137010",
+      "raw_file": "raw/papers/2022_Guo et al_Probing the nature of the conjectured low-spin wobbling bands in atomic nuclei3.pdf",
+      "raw_sha256": "de541977e4c8402c905ef8268ebc5707303f4b92f244eb4f59405a70c3473206",
+      "raw_size_bytes": 547802,
+      "pdf_total_pages": 6,
+      "archive_required": true,
+      "locator": "PDF pp. 2-4: 376 keV (11/2- -> 9/2-) and 462 keV (15/2- -> 13/2-) linking transitions yield small roots delta ≈ -0.26 and -0.28; adopting B(E2)_in ~ 100-200 W.u. from 186Pt core / Band 1 estimates B(E2)_out to be only a few W.u. (B(E2)_out/B(E2)_in < 0.1); odd proton Fermi level near bottom of h9/2 favors short-axis alignment, conflicting with LW intermediate-axis alignment; core spin R ~ 1 at bandhead violates wobbling condition.",
+      "reading_boundary": "Bounded original/source-locator verification; no whole-document reading claim."
+    },
+    {
+      "source_id": "frauendorf-2014-transverse-wobbling",
+      "source_page": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+      "citation_key": "frauendorf-2014-transverse-wobbling",
+      "title": "Transverse wobbling: A collective mode in odd-A triaxial nuclei",
+      "year": 2014,
+      "doi": "10.1103/PhysRevC.89.014322",
+      "raw_file": "raw/papers/2014_Frauendorf_Dönau_Transverse wobbling.pdf",
+      "raw_sha256": "36794ee1308adc1b34206ccdbf62353d6e79b3b485979e78709fd31efe5f57e3",
+      "raw_size_bytes": 1496816,
+      "pdf_total_pages": 12,
+      "archive_required": true,
+      "locator": "PDF pp. 1-4: PRM formulation of TW and LW; defined relative to maximum moment of inertia axis; frozen alignment assumption.",
+      "reading_boundary": "Bounded original/source-locator verification; no whole-document reading claim."
+    },
+    {
+      "source_id": "matsuzaki-2004-nuclear-inertia-and-wobbling",
+      "source_page": "knowledge/sources/matsuzaki-2004-nuclear-inertia-and-wobbling.md",
+      "citation_key": "matsuzaki-2004-nuclear-inertia-and-wobbling",
+      "title": "Matsuzaki 等 2004：摆动的频率依赖有效惯量",
+      "year": 2004,
+      "doi": "10.1103/PhysRevC.69.034325",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/matsuzaki-2004-nuclear-moments-of-inertia-prc69-034306.pdf",
+      "raw_sha256": "9ea9fb2c8b9e73b0352a219ace7efc6182d6b5471b38d32cb96bc539e4aa6bf7",
+      "raw_size_bytes": 279781,
+      "pdf_total_pages": 22,
+      "archive_required": true,
+      "locator": "Phys.Rev.C69,034325 (2004), 22-page archived preprint; frequency-dependent effective inertias. Historical raw filename034306 is not the publication identity.",
+      "reading_boundary": "Bounded original/source-locator verification; no whole-document reading claim."
+    },
+    {
+      "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+      "source_page": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "citation_key": "book-bohr-mottelson-nuclear-structure-vol2",
+      "title": "Bohr–Mottelson Nuclear Structure II：非轴对称转子高自旋近似选段",
+      "year": 1975,
+      "doi": null,
+      "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "raw_sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "raw_size_bytes": 46111788,
+      "pdf_total_pages": 772,
+      "archive_required": true,
+      "locator": "VolII printed pp190–192, Eqs4-370–4-386 (PDF207–209): pure-rotor high-spin expansion and transverse-fluctuation bounds; canonical source page bounded attribution checks.",
+      "reading_boundary": "Bounded original/source-locator verification; no whole-document reading claim."
+    }
+  ],
+  "notations_and_conventions": {
+    "radii_ordering": "R_k = R_0 [1 + sqrt(5/(4pi)) beta_2 cos(gamma - 2pi k / 3)], k=1,2,3; 0 < gamma < 60 deg 导出 R_2 < R_1 < R_3，即短轴 s=2, 中轴 m=1, 长轴 l=3",
+    "rigid_moments_ordering": "J_k^rig propto R_i^2 + R_j^2 导出 J_2^rig > J_1^rig > J_3^rig (J_s > J_m > J_l)",
+    "irrotational_moments_ordering": "J_k^irr = 4 B beta^2 sin^2(gamma - 2pi k / 3) 导出 gamma=30 deg 处 J_1^irr > J_2^irr, J_3^irr (J_m > J_s, J_l)",
+    "wobbling_modes": "TW 严格定义为 j 垂直于最大惯量轴 (如类无旋流下 j on s=2 垂直于 J_max on m=1)；LW 严格定义为 j 平行于最大惯量轴; this classification does not fix the actual core-angular-momentum direction on every branch.",
+    "fa_frequency_evolution": "\\hbar\\omega=2\\sqrt{[(A_m-A_s)I+A_sj][(A_l-A_s)I+A_sj]}; use explicit geometric s,m,l axes, not an unannounced numerical permutation.",
+    "stability_condition": "区分定域能量极小与线性动力学稳定性：C_m, C_l > 0 为能量极小与正能声子基态；C_m, C_l < 0 为旋转系能量极大，陀螺力可赋予其线性稳定性，但不能作为声子激发稳定基态",
+    "shimizu_frame_relations": "omega_wob = omega_prec - omega_rot; omega_prec = hbar K / J_perp^eff; R_3=0 为形状冗余约束，具有固定内禀 K 的体系能谱仍为 E_K(I) = Eintr + hbar^2[I(I+1)-K^2]/(2 J_perp)，首间距 hbar^2(K+1)/J_perp 与大 K 渐近 hbar^2 K/J_perp 相差 hbar^2/J_perp",
+    "electromagnetic_units": "B(E2) 以 e^2 b^2 或 W.u. 表示 (A=163, R0=1.2 fm 下 1 W.u. ≈ 0.00530 e^2 b^2)；B(M1) 以 mu_N^2 表示；电荷型与磁矩型算符数值在各自命名单位下一致，不人为除以 c^2",
+    "axis_convention_mapping": "显式区分几何主轴 (k1=m, k2=s, k3=l) 与第3.3节局部 FA 动力学展开坐标 (1=qp 沿短轴 s, 2=最大惯量沿中轴 m, 3=长轴 l)；展开常数写作 A_s, A_m, A_l，横向曲率 C_m = (A_m - A_s) + A_s j/I，C_l = (A_l - A_s) + A_s j/I，I_c = j / (1 - J_s/J_m)"
+  },
+  "claims_and_derivations": [
+    {
+      "id": "CLAIM-4-4-1",
+      "topic": "空间电荷几何主轴严格排序与惯量机制对立",
+      "tex_symbol_or_expr": "R_2 < R_1 < R_3; \\mathcal{J}_s^{\\text{rig}} > \\mathcal{J}_m^{\\text{rig}} > \\mathcal{J}_l^{\\text{rig}}; \\mathcal{J}_m^{\\text{irr}} > \\mathcal{J}_s^{\\text{irr}}, \\mathcal{J}_l^{\\text{irr}}",
+      "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+      "derivation_steps": [
+        "在小 beta_2 展开下，根据三角自变量区间严格证明 0 < gamma < 60 deg 时 cos(gamma - 4pi/3) < cos(gamma - 2pi/3) < cos(gamma)",
+        "由此直接导出 R_2 < R_1 < R_3，即短轴 s=2, 中轴 m=1, 长轴 l=3，澄清旧稿中把 k=1 误作短轴的代数符号错误",
+        "基于物质二阶矩证明刚体转子绕最短几何轴 s=2 惯量最大 (J_s^rig > J_m^rig > J_l^rig)",
+        "基于玻尔表面无旋流公式证明无旋流体绕中间几何轴 m=1 惯量最大 (J_m^irr > J_s^irr, J_l^irr)",
+        "强调微观核芯惯量受配对与单粒子能级控制，具有显著转动频率依赖性 J_k(omega)"
+      ]
+    },
+    {
+      "id": "CLAIM-4-4-2",
+      "topic": "准粒子费米面对准几何与横向/纵向摆动模型边界",
+      "tex_symbol_or_expr": "\\hbar\\omega=2I\\sqrt{C_m C_l}; C_m=A_m-A_s+A_sj/I; C_l=A_l-A_s+A_sj/I",
+      "source_id": "frauendorf-2014-transverse-wobbling",
+      "derivation_steps": [
+        "Particle/empty-hole/half-filled alignment preferences are conditional high-j quadrupole-field trends; half-filling is not a universal middle-axis selection rule.",
+        "TW compares quasiparticle direction with maximum-inertia axis. Below Ic this frozen-alignment branch is expanded about total I along short axis; no assertion that core R is always along m.",
+        "显式建立几何指标 (s, m, l) 与动力学展开常数映射：准粒子沿短轴 A_s，最大惯量在中轴 A_m，横向曲率 C_m = (A_m - A_s) + A_s j/I，C_l = (A_l - A_s) + A_s j/I，临界分叉 I_c = j / (1 - J_s/J_m)",
+        "指出 FA 模型下 TW 摆动能量在低自旋可呈现先升后降，单一能量下降非充要条件",
+        "区分定域能量极小与线性动力学稳定性：C_m, C_l < 0 虽可在线性近似下由陀螺力保持运动稳定，但属能量极大，不能作为声子基态",
+        "澄清倾斜转动若局限在主平面内保持时间反演复合对称，不自动导致手征对称性自发破缺"
+      ]
+    },
+    {
+      "id": "CLAIM-4-4-3",
+      "topic": "163Lu 的实测原表数据分析与集体增强判定",
+      "tex_symbol_or_expr": "Q_t \\approx 6.7\\text{--}9.9\\ \\mathrm{b}; B(E2)_{\\mathrm{out}} \\approx 0.54\\text{--}0.70\\ e^2\\mathrm{b}^2 \\approx 100\\text{--}132\\ \\mathrm{W.u.}; R \\sim 15\\text{--}30\\hbar",
+      "source_id": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "derivation_steps": [
+        "核查 Görgen 2004 Table I 数据，指出 TSD1 与 TSD2 的 Qt 分布在 6.7–9.9 b 区间，体现了两带基于相近超形变核芯的特征",
+        "核查 Table II 带间连接跃迁数据，实测带间 B(E2)_out 达到 0.54–0.70 e^2b^2，利用标准 Weisskopf 公式 B_W(E2) ≈ 0.05940 A^(4/3) e^2fm^4 ≈ 0.00530 e^2b^2 (A=163, R0=1.2 fm) 换算对应约 100–132 W.u.",
+        "指明 Table II 中 B(E2) 与 B(M1) 的提取依赖于采用的历史平均混合比 delta = -3.10(+0.36/-0.44) (测至 51/2+ 外推假定)",
+        "明确理论模型中使用的 Lu 核芯惯量为模型拟合参数，非直接实测量",
+        "明确 163Lu 发生在 R ~ 15-30 hbar 的强转动极限与高 j (13/2) 孤立轨道的特殊边界，破除『所有 TSD 必摆动』的教条泛化"
+      ]
+    },
+    {
+      "id": "CLAIM-4-4-4",
+      "topic": "135Pr 极化双根多义性、能级分支比证伪与多元微观竞争",
+      "tex_symbol_or_expr": "\\delta = -0.47_{-0.22}^{+0.09}; \\frac{B(E2; 747.3)}{B(E2; 526.2)} = 0.7_{-0.5}^{+0.7}; R \\sim 1\\hbar",
+      "source_id": "lv-2022-evidence-against-wobbling-135pr",
+      "derivation_steps": [
+        "分析在束角分布二次有理式代数方程，指出实数根可有 0、1 或 2 个，特定 Lv/Matta 分支需结合实际响应与误差评估",
+        "核实 Lv 等人 2022 Table 1 实测数据：747.3 keV (Rac = 0.37(4), delta = -0.47(+0.09/-0.22)), 813.2 keV (Rac = 0.48(6), delta = -0.37(+0.10/-0.14)), 450.2 keV (Rac = 0.49(4), delta = -0.31(+0.10/-0.13))，明确 M1 百分比为 delta 的条件变换",
+        "核实同母态分支比 B(E2; 747.3)/B(E2; 526.2) = 0.7(+0.7/-0.5) 属于作者在采用 526 keV 参数下的解释，对纯摆动声子提出重要质疑",
+        "带头模型估计核芯转动 R ~ 1 hbar 破坏谐振展开；阐明微观 IBFM (134Ce 偶偶核芯基于 DD-PC1 泛函映射) 与固定形变 QTR 平面转动竞争解释"
+      ]
+    },
+    {
+      "id": "CLAIM-4-4-5",
+      "topic": "轴对称高 K 进动极限与重区形状共存演化",
+      "tex_symbol_or_expr": "\\omega_{\\mathrm{wob}} = \\omega_{\\mathrm{prec}} - \\omega_{\\mathrm{rot}}; \\omega_{\\mathrm{prec}} = \\frac{\\hbar K}{\\mathcal{J}_\\perp^{\\text{eff}}}; \\Delta E_{\\text{first}} = \\frac{\\hbar^2(K+1)}{\\mathcal{J}_\\perp}; \\hbar\\omega_{\\mathrm{prec}} \\simeq \\frac{\\hbar^2 K}{\\mathcal{J}_\\perp}",
+      "source_id": "shimizu-2005-high-k-precession",
+      "derivation_steps": [
+        "推导三轴摆动在 gamma -> 0 轴对称极限下的连续演化：形状冗余约束 R_3 = 0，固定 K 能谱 E_K(I) = Eintr + hbar^2[I(I+1)-K^2]/(2 J_perp)",
+        "给出 Shimizu 轴对称 RPA 参考系代数关系 omega_wob = omega_prec - omega_rot，明确 K 为无量纲单粒子投影",
+        "严格区分带头首能级间距 hbar^2(K+1)/J_perp 与大 K 渐近频率能量 hbar^2 K/J_perp，指出其相差 hbar^2/J_perp 量度项",
+        "剖析 187Au 纵向摆动宣称中存在的质子底壳对准短轴与中轴假设冲突，核查 Guo 2022 小根解与采用量依赖性",
+        "Some heavy-region nuclei/particular configurations show gamma softness or shape coexistence; neither an oblate tendency nor shape coexistence determines an axial or wobbling interpretation."
+      ]
+    },
+    {
+      "id": "CLAIM-4-4-6",
+      "topic": "跨区迁移的模型适用条件与观测量边界",
+      "tex_symbol_or_expr": "Local curvature, transverse fluctuations, alignment dynamics, mode coupling, and electromagnetic matrix elements; no universal numerical threshold.",
+      "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+      "derivation_steps": [
+        "The familiar rigid-core harmonic construction requires controlled local orientation fluctuations and stable reference alignment; large spin alone is insufficient.",
+        "Low-spin or large-amplitude deviations question that approximation, not every possible quantum orientation mode.",
+        "Qt, Qs and quadrupole invariants constrain different matrix elements and require stated conversion assumptions.",
+        "Longitudinal band spacings and transverse effective response are different quantities; named-unit b values do not receive an extra c² rescaling."
+      ]
+    }
+  ],
+  "competing_explanations_and_boundaries": [
+    {
+      "case": "135Pr 低自旋横向摆动 vs 平面转动 / IBFM / 单粒子重对准",
+      "primary_claim": "Matta 2015 宣称 Band 3 为基于 pi h11/2 的一声子横向摆动带",
+      "counter_evidence": "Lv 2022 JUROGAM II 实测证实连接线支持小根解 (delta ≈ -0.47, M1 主导 >80%)，同母态分支比约为 0.7 否定纯声子态，核芯转动仅 R ~ 1 hbar",
+      "competing_models": "微观 IBFM (Nomura 2022) 天然给出 M1 主导带间退激；QTR 放开冻结给出向转轴倾斜的平面转动；TiP (Lawrie 2020) 给出倾斜进动替代解释",
+      "status": "摆动声子假说被排他性否定，平面转动/IBFM/多构型混合成为主导解释"
+    },
+    {
+      "case": "187Au 纵向摆动 vs 形状共存与多构型混合",
+      "primary_claim": "Sensharma 2020 宣称 Band 2 为基于 pi h9/2 的纵向摆动带",
+      "counter_evidence": "奇质子处于 h9/2 底壳在微观能面上强烈倾向对准短轴 s=2，与 LW 中轴对准模型假设根本对立；带头 R ~ 1 hbar 缺乏恢复力；Guo 2022 实测支持小根解，采用 186Pt 估计带间 E2 仅数个 W.u.",
+      "competing_models": "长椭--扁椭形状共存、单粒子态激发与多构型混合",
+      "status": "纵向摆动假说缺乏坚实证据，形状共存提供更自洽的物理描述"
+    },
+    {
+      "case": "三轴摆动 vs 高 K 进动",
+      "primary_claim": "高 K 进动是三轴摆动在 gamma -> 0 轴对称极限下的连续退化",
+      "counter_evidence": "随体旋转系与实验室固定 K 参考系存在不同物理含义；轴对称下对称轴集体惯量 J_3 -> 0，横向带退化为孤立单态",
+      "competing_models": "Shimizu 2005 RPA 理论与绝热强耦合转子模型",
+      "status": "确立了二者在微观取向几何上的连续统一与能标微商差异"
+    }
+  ],
+  "reader_checks": [
+    {
+      "check": "半径余弦展开排序检查",
+      "result": "逐项算出 cos(gamma-4pi/3) < cos(gamma-2pi/3) < cos(gamma) 导出 R_2 < R_1 < R_3，严格确立 s=2, m=1, l=3，修复旧稿代数符号错误"
+    },
+    {
+      "check": "几何轴与 FA 动力学坐标映射检查",
+      "result": "显式置换几何轴与局部展开指标：A_s, A_m, A_l，C_m=(A_m-A_s)+A_s j/I，C_l=(A_l-A_s)+A_s j/I，I_c=j/(1-J_s/J_m)，避免下标混淆"
+    },
+    {
+      "check": "能量极小与线性稳定性区分检查",
+      "result": "明确 C_m, C_l > 0 为能量极小与正能声子基态，C_m, C_l < 0 为旋转系能量极大，陀螺力可保线性稳定但不构稳定声子真空"
+    },
+    {
+      "check": "163Lu 原件原表与采用量依赖检查",
+      "result": "Table I 与 Table II 实测数据逐项核对，B_W(E2) ≈ 0.00530 e^2 b^2 导出 100–132 W.u.，注明 Table II 提取采用历史 delta=-3.10，注明核芯惯量为模型输出"
+    },
+    {
+      "check": "135Pr 原件原表数值全面纠偏",
+      "result": "核实 Lv 2022 Table 1：747.3 keV Rac=0.37(4), delta=-0.47(+0.09/-0.22); 813.2 keV Rac=0.48(6), delta=-0.37(+0.10/-0.14); 450.2 keV Rac=0.49(4), delta=-0.31(+0.10/-0.13)；分支比 0.7(+0.7/-0.5)；核芯转动 R ~ 1 hbar 为模型估算"
+    },
+    {
+      "check": "Nomura 2022 核心泛函纠正",
+      "result": "核实 134Ce 偶偶核芯映射自相对论 DD-PC1 泛函与可分离配对力 (Gogny D1M 用于 132Ba/128Xe)"
+    },
+    {
+      "check": "Shimizu 高 K 进动参考系与能标检查",
+      "result": "参考系代数式 omega_wob = omega_prec - omega_rot，K 无量纲，消除全带塌陷误断，确立首间距 hbar^2(K+1)/J_perp 与大 K 渐近 hbar^2 K/J_perp 的量度微商"
+    },
+    {
+      "check": "187Au 对准几何与采用依赖检查",
+      "result": "指出底壳粒子倾向短轴 s=2 与 LW 中轴假设分歧，带头 R ~ 1 hbar，采用 186Pt 导出带间 E2 仅数个 W.u.，澄清重区扁椭/共存非证实轴对称假设"
+    }
+  ],
+  "prohibitions_strictly_obeyed": [
+    "绝对禁止口号化用语（已全面剔除『金标准』、『铁证』、『彻底』、『毋庸置疑』等夸大词汇）",
+    "严格区分独立实验与同源数据（明确 Sensharma 2019/2026 继承 Gammasphere 谱学与分组，Lv 2022 为独立 JUROGAM 实验）",
+    "严格区分实验直接报告与模型计算（明确 163Lu 核芯惯量为推转/QRPA 计算，Table II 为采用 delta 外推提取；明确 187Au 带间强度为采用 186Pt 估算）",
+    "不将单一能量下降作为判定 TW 的充要条件",
+    "不将正线偏振作为排他性排除小根的根据"
+  ],
+  "open_issues": [
+    "Low-spin wobbling interpretations remain model- and experiment-dependent; no universal exclusion follows from the examples."
+  ],
+  "parent_finalization": "Rebuilt source identity/raw hashes from canonical source files; removed stale claims not surviving R2 prose. Preserved measured tables and accepted geometric formulas.",
+  "parent_layout_integration": {
+    "receipt": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G92/parent-format-integration.json",
+    "tex_sha256": "464210015df1e4b5c514036b215107c900470b4489dfbea6bd1d38ab26bb26c0",
+    "scope": "ReviewedexactG92formatdelta; stabledata/physicalconditions; G97titlepreserved."
+  },
+  "parent_final_tex_sha256": "4584eae073d908173467a2c2ac3d881fce3a74d5b178e36a91becdae4da553a5",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-4.tex",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
+}

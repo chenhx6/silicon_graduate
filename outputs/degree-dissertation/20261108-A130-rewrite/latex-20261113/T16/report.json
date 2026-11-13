@@ -1,0 +1,203 @@
+{
+  "task": "T16 4.7节四接口定向审查",
+  "scope_limit": "只覆盖请求的四个接口与直接依赖的探测响应、Zhi语句；不是全文认证。",
+  "model_metadata": {
+    "model": "codex/gpt-6.1-terra",
+    "effort": "xhigh",
+    "event_timestamp": "2026-11-13T09:07:44.814Z",
+    "evidence": "/root/.codex/sessions/2026/11/13/rollout-2026-11-13T17-07-43-01a1d429-ad00-79b3-a6dc-3d77b00ec00f.jsonl",
+    "event_type": "turn_context",
+    "event_sha256": "11d72ad609b03ac0710d955c339a7c8a090162a78aeef953614d0cee0bd4e563",
+    "thread_id": "01a1d429-ad00-79b3-a6dc-3d77b00ec00f"
+  },
+  "created_utc": "2026-11-13T09:16:11.391128+00:00",
+  "reviewed_file": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-7.tex",
+  "reviewed_file_sha256": "96f91bde6e83aa24f6c46b0218f7b7c4f4f1ed8eeb854c0f5e207c3f1506398f",
+  "shared_definition": "knowledge/research-notes/a130-rewrite-forward-observables-and-cascade-consistency-20261113.md",
+  "sources": [
+    {
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "source_page": "knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "expected_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "actual_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "matches": true,
+      "read_scope": "PDF 166–174，定向读第7章导言与β−、β+、EC；印刷页159起，未依赖其过时中微子说明"
+    },
+    {
+      "source_id": "doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives",
+      "source_page": "knowledge/sources/doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G34/Zhi_2013_PRC_87_025803_SM_halflives_first_forbidden.pdf",
+      "expected_sha256": "eaedbd4539854e3d1f0e7860ef7ab9c647d4fa44cd8144b4989ba220ec639333",
+      "actual_sha256": "eaedbd4539854e3d1f0e7860ef7ab9c647d4fa44cd8144b4989ba220ec639333",
+      "matches": true,
+      "read_scope": "PDF 2、5、7–12；重点PDF 7、9–12；第9页约13%表述、PDF 10–11的Z≥70及竞争机制"
+    },
+    {
+      "source_id": "dimitriou-2021-beta-delayed-neutron-reference-database",
+      "source_page": "knowledge/sources/dimitriou-2021-beta-delayed-neutron-reference-database.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-g52-beta-delayed-particles/dimitriou-2021-iaea-beta-delayed-neutron-database.pdf",
+      "expected_sha256": "ca0b475131704e33f6732163ef996467e630fbea88898dba73cc9f66e7f5684f",
+      "actual_sha256": "ca0b475131704e33f6732163ef996467e630fbea88898dba73cc9f66e7f5684f",
+      "matches": true,
+      "read_scope": "PDF 4、6–7、11：P1n定义、效率与多重度迁移、TAGS中子污染"
+    },
+    {
+      "source_id": "engel-menendez-2017-double-beta-matrix-elements-review",
+      "source_page": "knowledge/sources/engel-menendez-2017-double-beta-matrix-elements-review.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-g48-weak-operators/engel-menendez-2017-rpp-0nubb-nme.pdf",
+      "expected_sha256": "813111c10bab58d8d0f19ca91833383a8a521a33c0434b276eacd4fead195417",
+      "actual_sha256": "813111c10bab58d8d0f19ca91833383a8a521a33c0434b276eacd4fead195417",
+      "matches": true,
+      "read_scope": "PDF 2–4：轻中微子机制、机制区分、核矩阵元与闭合框架"
+    },
+    {
+      "source_id": "cirigliano-2018-leading-short-range-double-beta",
+      "source_page": "knowledge/sources/cirigliano-2018-leading-short-range-double-beta.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-t07-weak-renormalization/cirigliano-2018-prl120-202001-arxiv-1802.10097v1.pdf",
+      "expected_sha256": "c15e22bdb9c811e986493ff2a0b01f2794c8a33a6493b4ba6d62701525304996",
+      "actual_sha256": "c15e22bdb9c811e986493ff2a0b01f2794c8a33a6493b4ba6d62701525304996",
+      "matches": true,
+      "read_scope": "PDF 1–4，尤其PDF 2–3重整化和LO接触项、PDF 4系数匹配及有限部分边界"
+    },
+    {
+      "source_id": "wang-2026-axial-coupling-quenching-joint-effects",
+      "source_page": "knowledge/sources/wang-2026-axial-coupling-quenching-joint-effects.md",
+      "raw_file": "raw/papers/gpt/query/20261113-A130-axial-currents/wang-2026-arxiv2605.21218v1.pdf",
+      "expected_sha256": "64b8098517bdf4754ff71d80ab4256aab77102aaa9257390f99db1b3788c0c8d",
+      "actual_sha256": "64b8098517bdf4754ff71d80ab4256aab77102aaa9257390f99db1b3788c0c8d",
+      "matches": true,
+      "read_scope": "PDF 3–4，重点PDF 4表I：具体RPA/PVC算符和Q窗口；预印本"
+    }
+  ],
+  "findings": [
+    {
+      "severity": "high",
+      "id": "EC-Q",
+      "lines": "18–24",
+      "current": "Q_EC=[M_parent−M_daughter]c²−B_j",
+      "correction": "Q_EC=[M_parent−M_daughter]c²；指定核激发态与末态原子空穴时 Eν,j≈Q_EC−E_x−B_j(daughter hole)−E_recoil。β+ Q=Q_EC−2m_ec²；结合能是末态空穴激发能，完整原子组态有修正。",
+      "conditions": "中性基态原子质量、分支开放；精确能量需末态原子组态与反冲。",
+      "evidence": [
+        "Suhonen PDF 168–170 自由核子过程，不直接宣称书中已给原子空穴式；该式依据能量守恒推导",
+        "results.json EC 为合成量纲例"
+      ]
+    },
+    {
+      "severity": "high",
+      "id": "cascade-normalization",
+      "lines": "75–90, 104–119",
+      "current": "ΣIβ=100% 且 P_xn=ΣIβΠ_x，无百分数到概率转换；未说明母态其他衰变模式，也未明确递归。",
+      "correction": "Iβ取母态总衰变的0–1概率，ΣIβ=bβ≤1；β条件归一时乘bβ。Π_x(a)=Σ_b,k b(a→b;k)Π_(x−k)(b)，Π_x(t)=δ_x0，Π_x<0=0，P_xn=Σ_i Iβ(i)Π_x(i)。连续谱求和为积分。",
+      "conditions": "非相干概率网络、开放通道分支和为1；定态起点、终止条件明确。按同一母态总衰变定义P1n、P≥1n、Mn。",
+      "evidence": [
+        "IAEA PDF 4 P1n定义；PDF 6–7多重度响应",
+        "results.json：局部n分支0.5但Π1=0.54，P≥1=0.444，Mn=0.564；合成算例"
+      ]
+    },
+    {
+      "severity": "high",
+      "id": "0nu-observation",
+      "lines": "127, 129–131, 152",
+      "current": "观测0νββ即可对有效Majorana质量标度施加直接约束；后文才说明轻中微子假设。",
+      "correction": "在通常局域量子场论黑盒意义下观测意味着ΔL=2及非零Majorana质量项；衰变机制未定时不能单凭该寿命唯一确定或约束轻交换 mββ；轻交换占主导时才结合G与NME推限。",
+      "conditions": "黑盒诱导质量项不保证主导振幅、也不保证质量尺度可由观测推定；可能有多机制干涉。",
+      "evidence": [
+        "Engel–Menéndez PDF 3 关于机制识别及轻交换参数化；逻辑边界为本次推断"
+      ]
+    },
+    {
+      "severity": "high",
+      "id": "0nu-NME-convention",
+      "lines": "129–137, 143–145",
+      "current": "外提gA⁴同时笼统说各通道包含gV(q²)、gA(q²)，未指定零动量归一，也未表明领头短程项如何进入完整M。",
+      "correction": "保留gA⁴显式外提，G不含该因子；注明NME、核半径、相空间和形状因子在同一约定下归一，长程M= MGT−(gV/gA)² MF+MT；完整振幅包含同约定的短程项并相干叠加。",
+      "conditions": "禁止重复计入gA⁴；短程项依赖调节器与低能常数且不能自动断言数值主导。",
+      "evidence": [
+        "Engel–Menéndez PDF 3–4",
+        "Cirigliano PDF 2–4"
+      ]
+    },
+    {
+      "severity": "medium",
+      "id": "GF-units",
+      "lines": "27–40",
+      "current": "GF^(E)=GF/(ℏc)³但GF本身未给物理量纲；固定C中gA²与既有文献常用已含耦合的B(GT)易重复。",
+      "correction": "指定GF^(E)=1.16638×10⁻¹¹ MeV⁻²；只有另定义GF^(SI)具有能量×体积量纲时GF^(E)=GF^(SI)/(ℏc)³。定义BF与BGT均为不含耦合的约化核矩阵元平方；已有耦合的文献需换约定。",
+      "conditions": "原prefactor在所示约定下量纲正确而非公式必错；W,p,W0无量纲，ℏ以MeV·s，GF平方×(mec²)^5/ℏ为s⁻¹。公式用于连续β谱，不用于EC。",
+      "evidence": [
+        "Zhi PDF 2，作者把(gA/gV)²吸收到B(GT)，属于不同约定",
+        "results.json量纲控制"
+      ]
+    },
+    {
+      "severity": "medium",
+      "id": "detector-response",
+      "lines": "123",
+      "current": "理想二项响应未给前向观测映射，且断言TAGS必须PSD或中子不敏感晶体才能消除中子本底。",
+      "correction": "p_obs(y)=Σ_x R(y|x)P_xn，含母态其他无中子衰变的x=0项；二项式仅在独立同效率、无串扰且窗口理想时成立。TAGS中子污染可经校准、模拟和扣除/响应建模等约束。",
+      "conditions": "实际β触发与中子效率相关性、能谱、串扰和偶然符合须以完整响应处理。",
+      "evidence": [
+        "IAEA PDF 6–7、11：中子散射与俘获产生污染，需要确定并扣除",
+        "results.json给出观测多重度"
+      ]
+    },
+    {
+      "severity": "medium",
+      "id": "longrange",
+      "lines": "143–145",
+      "current": "将H(r)~1/r与100–200 MeV/c联系表述过于绝对，并称短程算符源自高能自由度积分收缩。",
+      "correction": "1/r是长程近似，闭合能和形状因子修饰实际核；虚动量广泛积分。Cirigliano在轻交换、非微扰1S0通道要求LO ΔL=2接触反项；其有限系数取决于匹配，不能只由RG导出或认定数值必然主导。",
+      "conditions": "轻中微子机制；不同分波与截断方案不能不加限定套用同一发散论证。",
+      "evidence": [
+        "Cirigliano PDF 2–4",
+        "Engel–Menéndez PDF 4"
+      ]
+    },
+    {
+      "severity": "medium",
+      "id": "Zhi-summary",
+      "lines": "58–59,159",
+      "current": "正文58行GT主导与N=50 Z≥28 FF小、130Cd约13%与Zhi模型一致；59及159行把N=126 FF主导写成整个区域确定事实。",
+      "correction": "将FF主导限定于Zhi所研究的N=126且Z≥70的壳模型核素，说明GT随质子0h11/2占据增长而强烈受泡利阻塞；130Cd约13%保留为模型关于半衰期贡献的措辞，别将其转为未经核算的精确rate百分比。",
+      "conditions": "N=50 Z≥28小于5%，不含Z<28诸核；130Cd不能写作FF主导。",
+      "evidence": [
+        "Zhi PDF 7、9–12"
+      ]
+    },
+    {
+      "severity": "low",
+      "id": "energy-probability",
+      "lines": "98–100",
+      "current": "Qβn能量窗口称为单中子发射理论上限，易误解为几率上限。",
+      "correction": "Qβn=Qβ−Sn是可用能量窗口，不是Pn的充分预测量。",
+      "conditions": "能量守恒，具体激发态、自旋宇称及γ竞争影响末态。",
+      "evidence": [
+        "IAEA PDF 4、6–7；量纲与级联推论"
+      ]
+    }
+  ],
+  "checks_that_are_not_findings": [
+    "β−及β+中性原子质量Q公式正确；β+阈值正确。",
+    "谱前因子及无量纲相空间形式在所声明GF与B约定下正确，不应简单再增删ℏc或额外gA²。",
+    "P1n、P≥1n、Mn的形式关系在0–1归一时正确。",
+    "轻交换gA⁴显式外提写法及长程GT/F/T分解在匹配约定下正确。",
+    "Wang 2026 PDF4所示56Ni、132Sn Q窗纯RPA零而PVC非零是模型案例，不能泛化成所有闭壳核均零。"
+  ],
+  "validation": {
+    "script": "validation.py",
+    "results": "results.json",
+    "kind": "手构路径枚举、响应与量纲算例，不是实验数据或文献数值拟合"
+  },
+  "deliverables": [
+    "report.json",
+    "correction.tex",
+    "validation.py",
+    "results.json"
+  ],
+  "limitations": [
+    "仅定向核读所列原件页，未审查全文或其他章节。",
+    "候选替换段未写入公共正文，父任务需按块锚点合并并复查公式标签和上下文。",
+    "本会话未能以 web 工具取得可用外部结果；本报告建立在已哈希匹配的本地原件、守恒与标注的推导。"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "section": "5.7",
+  "status": "parent-content-accepted;typesetting-pending",
+  "session_date": "2026-11-14",
+  "observed_machine_utc": "2026-11-13T20:18:56.120080+00:00",
+  "source_hash_checks": [
+    {
+      "source": "book-hamilton-electromagnetic-interaction",
+      "path": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+      "sha256": "93b32a8debb66ad036229d860ad56f0434dc49b56edd32f1628af1d71a21ae00",
+      "match": true
+    },
+    {
+      "source": "lange-kumar-hamilton-1982-multipole-admixtures",
+      "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+      "sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+      "match": true
+    },
+    {
+      "source": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "path": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e",
+      "match": true
+    }
+  ],
+  "input_audit": "T19/parent-acceptance.json, actualpriorparentreplay andtargetedoriginals; fullnewsectionread",
+  "parent_replay": "G100/results.json; actualpythonvalidationexecutedafterparentnarrowtextchanges",
+  "math_checks": [
+    "Bk0normalization andoddphasebridge; oneUkchain only",
+    "KSpositiveinterference andM_S=M_mu/c consistentwith5.9/A; emittedphaseconversionconditional",
+    "Polarization2sqrt[(k-2)!/(k+2)!] andQ/EanalyservsQk bothdimensionless",
+    "DCOyieldfactorizationconditions/timeordering; originaldomainandprojectiveendpointguard",
+    "Independentmanualquadratic roots/polarizations matchcaption; N,D,W,W±Hquadratics positivebyactualcoefficients/discriminants",
+    "Finalhypothetical angularPDFvisuallychecked; not physicalspincascadecalibration"
+  ],
+  "rejected_or_narrowed": [
+    "No claim aboutunobtainederratumcontent; parentcorrectedBibcandidate available",
+    "No claimQandQk differentdimensions orpolarizationuniquelymandatory",
+    "GLS requiresdeclaredmodel/covariance andappropriatecoveragecalibration"
+  ],
+  "artifacts": [
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-7.tex",
+      "sha256": "a9c242935f1b20cd30fb0678a6640cb6ab11af035ab8144c9805b6ef5e0aee80",
+      "size": 26055
+    },
+    {
+      "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-7.json",
+      "sha256": "5a5af51434416d0f6805ae65cbaf8d9286a0165a202676081e7e1d0549ac485b",
+      "size": 10036
+    },
+    {
+      "path": "knowledge/research-notes/a130-rewrite-sec-5-7-angular-distribution-dco-polarization-reconciliation-20261114.md",
+      "sha256": "890e21b4192900e944e6cd05763301df3a0352e77c41e02528535e12242e685c",
+      "size": 9164
+    },
+    {
+      "path": "system/scripts/a130_angular_branch_figure.py",
+      "sha256": "a24371444952b207bb428d911b54b8f39a833292f536f4a4de4e64e1b258a35c",
+      "size": 5105
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/angular-branch-delta-likelihood.svg",
+      "sha256": "7e9bd88736d711ee085d657c7a4e5f6534c14d7208fbe6ca94e8e883c528c55b",
+      "size": 87708
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/angular-branch-delta-likelihood.pdf",
+      "sha256": "e199e630eb4b614a159390f9bc8a348b46f1ed964f67f0ccb076b1f5ea4778ca",
+      "size": 27756
+    }
+  ],
+  "boundary": "No newnucleus, calibrationoruniversalDCOthreshold; no automaticstatisticalindependence ofoverlappingobservables."
+}

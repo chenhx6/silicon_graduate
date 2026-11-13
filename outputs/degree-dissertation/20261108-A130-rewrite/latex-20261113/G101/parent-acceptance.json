@@ -1,0 +1,16 @@
+{
+  "status": "accepted_science_pending_final_layout",
+  "session_date": "2026-11-14",
+  "actual_utc": "2026-11-13T21:18:13.518039+00:00",
+  "verified_pairs": 19,
+  "verified_csv": 3,
+  "controls": 6,
+  "refreshed_hashes": [],
+  "corrections": [
+    "Wu DSAM PDF445–446/print437–438 Eq15.26 PDF446",
+    "removed stale snapshot text",
+    "added M3/open-network and projection/rank controls"
+  ],
+  "canonical_tex_sha256": "c69dd756bb0fedc7c9057ad5b7cf85537737f6be71e7699cea16d81a0db4e299",
+  "canonical_manifest_sha256": "7cf2378e0023d1d537abcb48aa5be4293045afcd51d4820fcd8f6884a6720dfb"
+}

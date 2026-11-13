@@ -1,0 +1,215 @@
+%---------------------------------------------------------------------------%
+%- Appendix F: 可复现输入和来源表 (19组正文图件与数值控制基准完整版 R3)
+%---------------------------------------------------------------------------%
+\chapter{可复现输入和来源表}\label{app:reproducible-inputs}
+
+本附录系统记录全书正文所引用的全部 19 项自主矢量图件、3 项数值仿真 CSV 数据集以及算法控制包的输入依据、文件指纹、物理分类与模型边界。本研究稿严格区分理论解析推演、概念机制示意、无噪声教学模拟、数值控制基准与真实实验测量；明确声明解析几何图与教学模型图系由声明之参数与因果算法生成，其数学展示边界与文献原作所报告的事实数据具有不同属性，不将文献页码混同为数值生成输入。全书 19 项图件在正文中的引用关系、生成脚本与校验码全部实现逐项对应溯源。
+
+\section{自主生成图件之来源依据与物理边界}\label{sec:appF-figures-sources}
+
+全书正文 19 项自主生成图件的引用节号、物理分类、输入依据及声明边界汇总于表~\ref{tab:appF-fig-sources}。为支持跨页连续排版并避免边界截断，本表采用 \texttt{longtable} 宏包进行可扩展固定列宽输出。其中首批 7 项通用基础图件由总脚本 \path{system/scripts/a130_latex_figures.py}（SHA-256 前缀 \texttt{0d5d707202df}）统一生成；其余 12 项图件分别由独立的专用微观物理或仿真模型脚本生成（各专用脚本路径见第\ref{sec:appF-additional-models}节详述）。
+
+\begin{longtable}{p{2.8cm} p{2.2cm} p{9.2cm}}
+\caption{正文引用之全部 19 项自主生成图件的物理分类、输入依据与声明边界表}\label{tab:appF-fig-sources} \\
+\toprule
+图件标识 & 引用节号 / 分类 & 输入依据与声明边界 \\
+\midrule
+\endfirsthead
+\caption{正文引用之全部 19 项自主生成图件的物理分类、输入依据与声明边界表（续）} \\
+\toprule
+图件标识 & 引用节号 / 分类 & 输入依据与声明边界 \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\bottomrule
+\endlastfoot
+\path{shape-moments} & 第 1.2 节 / 概念机制示意 & 依据第 1.2/2.1 节形式化；定性展示从微观核电荷密度到内禀/实验室多极矩与标量不变量的逻辑台阶，不替代具体核的一体密度数值积分。 \\
+\addlinespace
+\path{six-region-map} & 第 1.4 节 / 案例比较坐标 & 依据第 1.4 节表 1.1；严格限定于六区已核准锚点核素（$^{64}\mathrm{Ge}$、$^{74,76}\mathrm{Kr}$、$^{98}\mathrm{Zr}$、$^{133}\mathrm{Ce}$、$^{163}\mathrm{Lu}$、$^{182-188}\mathrm{Hg}$），属于典型案例比较坐标，非穷尽核素总表。 \\
+\addlinespace
+\path{chapter-dependency} & 第 1.5 节 / 全书架构逻辑 & 依据第 1.5 节架构总览；展示全书五章前向演绎与后向实验约束的闭环关系，不替代节内具体推导。 \\
+\addlinespace
+\path{occupancy-centroids} & 第 2.2 节 / 微观教学模型 & 第 2.2 节单极质心模型；双轨道无噪声教学模型演示占据数改变对单极能的影响，非实验单粒子激发谱。输入模型：\path{system/scripts/a130_rewrite_monopole_centroid_audit.py}。 \\
+\addlinespace
+\path{gamma-measure} & 第 2.4 节 / 解析几何测度 & 依据第 2.4 节 Bohr--Mottelson 5D 集体哈密顿量度规体积元 $\beta^4 |\sin 3\gamma|$；解析展示几何测度在 $\gamma = 30^\circ$ 处的极值，不直接等同于微观动力学势阱极小或三轴刚性转子。 \\
+\addlinespace
+\path{mode-mixing-avoided-crossing} & 第 3.6 节 / 两态能量哈密顿量 & 取交叉耦合强度 $0.8$、两模式解耦平均能量 $5.0$、失谐区间 $[-4, 4]$（能量均为任意单位）；展示双态能量哈密顿量的本征值随失谐的避免交叉与基底概率混合，不是耦合振子的频率平方或实测跃迁强度。 \\
+\addlinespace
+\path{joint-predictions-workflow} & 第 3.8 节 / 方法学流程 & 依据共同输入、保留竞争模型、检验可区分性的联合预言流程，展示前向预言结构、模型空间划分与留出检验步骤，不保证消除所有模型简并。 \\
+\addlinespace
+\path{orientation-comparison-modes} & 第 4.4 节 / 实测原表与条件对照 & (a) $^{163}\mathrm{Lu}$ TSD1/2 带内 $Q_t$ 由 Görgen et al. 2004 Table I 实测寿命导出；(b) 带间 $B(E2)$ 由实测寿命结合分支比与采用历史平均 $\delta$ 等输入导出，非直接实测核形状；(c) 横向摆动（TW $s=2, m=1$）、轴对称高 $K$ 进动（形状冗余约束 $R_3=0$）以及平面转动重对准的文字与条件对照（非三维矢量图）。 \\
+\addlinespace
+\path{br-as-network-topology} & 第 4.5 节 / 实测网络拓扑 & 客观区分 2016、2019、2022 版本的已报告跃迁网络；(a) $^{78}\mathrm{Br}$ 中 8 条实测 $E1$ 严格单侧连接 Band 1 与 Band 3；(b) $^{74}\mathrm{As}$ 呈现 3 条实测 $E1$ 跃迁（$372.4, 919.4, 1293.4\ \mathrm{keV}$），Band 4 在 2019 学位报告中被指认为候选赝自旋带，2022 期刊聚焦于前三带；保留跨版本映射未闭合的客观边界，不作新定义定论，不绘制未测假连线。 \\
+\addlinespace
+\path{seniority-node-accessibility} & 第 4.6 节 / Seniority 代数模型 & 单 $j$ 壳层同种核子 $v=2$ 单体 $E2$ 归约因子，取对简并度 $\Omega=5, 6$；连续抛物线仅为引导线，允许的离散占据数为 $n = v, v+2, \dots, 2\Omega - v$（对 $v=2, \Omega=5$ 半满点 $n=5$ 不允许）；配套 Fock 空间代数代码为 \path{system/scripts/a130_seniority_fock_controls.py}，核对对角 $E2$ 矩阵元比例，非实核寿命复现。 \\
+\addlinespace
+\path{weak-cascade-competition} & 第 4.7 节 / 级联衰变原理示意 & 声明宽度与概率结构的原理示意；展示多级串联退激中的分支比竞争拓扑（依据父最终重绘图件与第 4.7 节正文，未做探测门限或旁路损失拟合仿真，保持 $b_\beta$ 与 $\Pi_x$ 递推）。 \\
+\addlinespace
+\path{environment-network-pathways} & 第 4.8 节 / 开放网络概念区分 & 概念性区分形成截面、内部转移、旁路漏失与观测接受通道，非声子浴计算或 Lindblad 动力学仿真。 \\
+\addlinespace
+\path{inference-profile-likelihood-boundary} & 第 5.10 节 / 合成剖面似然模型 & 合成示意剖面；左图显式展示双局部极小（$-40^\circ$ 与 $20^\circ$）与局域真实 Hessian 展开，右图保持同一高斯观测 $\hat{\mu}=-0.6, q_{\mathrm{phys}} = \mu^2 + 1.2\mu$ 的受限剖面示意，无 Feldman--Cousins 覆盖率模拟。 \\
+\addlinespace
+\path{detector-response-simulation} & 第 5.2 节 / 教学谱响应仿真 & 展示 $1500\ \mathrm{keV}$ 光子在单晶 HPGe、BGO 反康普顿屏蔽及 Clover Add-back 模式下的教学合成谱（Add-back 增益因数约 1.45 为教学展示设定参数，纵轴为对数任意单位计数）。 \\
+\addlinespace
+\path{digital-energy-response} & 第 5.3 节 / 离散因果滤波仿真数据 & 基于数据集 1 (\path{ballistic_deficit_study.csv}) 的梯形成形平顶宽度与成形时间响应数值表，不含连续白噪声。 \\
+\addlinespace
+\path{cfd-phase-convergence} & 第 5.4 节 / 离散时钟定时仿真数据 & 基于数据集 2 (\path{sampling_convergence.csv}) 与数据集 3 (\path{cfd_phase_walk_analysis.csv}) 的 CFD 采样周期与相位插值过零误差分析。 \\
+\addlinespace
+\path{coincidence-level-scheme-model} & 第 5.6 节 / 级联拓扑教学模型 & 展示 5 节点 / 6 跃迁级联、旁路与 $250\ \mathrm{keV}$ 双重峰的教学拓扑结构，非双重门控或假符合环路消除算法。 \\
+\addlinespace
+\path{angular-branch-delta-likelihood} & 第 5.7 节 / 统计拟合曲面示意 & 展示方向角关联比值 $R_{\mathrm{DCO}}(\delta)$ 的二次有理曲面特征、代数双根相交形态与线偏振度符号鉴别（当前记录工程快照 SHA，待最终刷新）。 \\
+\addlinespace
+\path{lifetime-response-rdds-dsam} & 第 5.8 节 / 微观卷积与衰减模型 & 依据吴治华专著第 15 章第 2 节（印刷第 437–440 页，PDF 第 445–448 页，式 15.26）的微观阻止本领与速度剖面卷积原理；采用零居中奇数长度卷积核，经 $3\tau \times 3\text{grid}$（$\tau=0.1, 0.8, 5.0\ \mathrm{ps}$；$h=0.05, 0.025, 0.0125\ \mathrm{keV}$）加宽支持域有限验证通过，原始未归一概率面积相对偏差 $\le 1.92 \times 10^{-9}$，图件峰高归一化仅作展示目的，非硬件或实测核素数据。 \\
+\end{longtable}
+
+\section{矢量资源文件与哈希指纹}\label{sec:appF-figures-hashes}
+
+所有自主图件均在工程目录 \path{Img/} 中实现 PDF（印刷矢量）与 SVG（网页矢量）双格式同步留档。各图件对应的主文件名及 SHA-256 前缀（前 12 位）见表~\ref{tab:appF-fig-hashes}；完整的 64 位哈希值已在清单 \path{Img/figure-manifest.json} 与独立台账 \path{latex-evidence-ledger/appendix-F.json} 中全量记录。需要指出，处于并行活跃修订阶段的图件（如 \texttt{angular-branch-delta-likelihood}）在本表中记录的是当前工程快照校验码，最终发布前将由总控统一刷新归档。
+
+\begin{longtable}{p{4.2cm} c p{4.5cm} p{4.5cm}}
+\caption{正文全部 19 项自主图件矢量文件及 SHA-256 校验码前缀（前 12 位）}\label{tab:appF-fig-hashes} \\
+\toprule
+图件标识 & 矢量格式 & PDF 校验码（前12位） & SVG 校验码（前12位） \\
+\midrule
+\endfirsthead
+\caption{正文全部 19 项自主图件矢量文件及 SHA-256 校验码前缀（前 12 位）（续）} \\
+\toprule
+图件标识 & 矢量格式 & PDF 校验码（前12位） & SVG 校验码（前12位） \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\bottomrule
+\endlastfoot
+\path{shape-moments} & PDF / SVG & \texttt{d174e5ac579b} & \texttt{5bb89e143050} \\
+\path{six-region-map} & PDF / SVG & \texttt{1bbb37e7b358} & \texttt{14f733c02ef5} \\
+\path{chapter-dependency} & PDF / SVG & \texttt{c817f4776d70} & \texttt{703e28eb4d60} \\
+\path{occupancy-centroids} & PDF / SVG & \texttt{1c016d53943e} & \texttt{1e29a944808e} \\
+\path{gamma-measure} & PDF / SVG & \texttt{c3336dd78143} & \texttt{df58728835b8} \\
+\path{mode-mixing-avoided-crossing} & PDF / SVG & \texttt{f8d50454af23} & \texttt{3b2a180bdc33} \\
+\path{joint-predictions-workflow} & PDF / SVG & \texttt{d2cd2d625f5e} & \texttt{0ee6ab393a3d} \\
+\path{orientation-comparison-modes} & PDF / SVG & \texttt{a4005dc33dce} & \texttt{8ef033ccc73e} \\
+\path{br-as-network-topology} & PDF / SVG & \texttt{0c0eabbf10c1} & \texttt{9b7f348b8004} \\
+\path{seniority-node-accessibility} & PDF / SVG & \texttt{6f824e9d5515} & \texttt{10a90b217fb7} \\
+\path{weak-cascade-competition} & PDF / SVG & \texttt{edc6bf71af76} & \texttt{5b09178cf9b2} \\
+\path{environment-network-pathways} & PDF / SVG & \texttt{2a0af7164a81} & \texttt{6ed4cd1a7fa9} \\
+\path{inference-profile-likelihood-boundary} & PDF / SVG & \texttt{397df4493748} & \texttt{d5c97b908032} \\
+\path{detector-response-simulation} & PDF / SVG & \texttt{eaff60a33f1c} & \texttt{7a8ccec7f244} \\
+\path{digital-energy-response} & PDF / SVG & \texttt{41520bb25360} & \texttt{8e000ce14eee} \\
+\path{cfd-phase-convergence} & PDF / SVG & \texttt{dbfbbdcd9cd3} & \texttt{b2374a5af78a} \\
+\path{coincidence-level-scheme-model} & PDF / SVG & \texttt{fe44a04ad8f5} & \texttt{7765b0b7979c} \\
+\path{angular-branch-delta-likelihood} & PDF / SVG & \texttt{e199e630eb4b} & \texttt{7e9bd88736d7} \\
+\path{lifetime-response-rdds-dsam} & PDF / SVG & \texttt{c1445f44c5b8} & \texttt{105e59aca985} \\
+\end{longtable}
+
+\section{局域物理模型图之生成输入与参数说明}\label{sec:appF-additional-models}
+
+为了保证所有概念模型图与局域动力学展示图的完全可复现性，以下逐项说明独立生成脚本的代码路径、核心物理参数与数学条件：
+\begin{enumerate}[label=(\arabic*),leftmargin=2em]
+    \item \textbf{单极轨道质心占据位移图}（\texttt{occupancy-centroids}，第 2.2 节）：
+    输入脚本为 \path{system/scripts/a130_rewrite_monopole_centroid_audit.py}。基于双轨道模型展示同轨自能相互作用与平均场占据数演化对单极能量重心的调制，非实测单粒子激发谱。
+    \vspace{1ex}
+    \item \textbf{形状模与取向模双态避免交叉图}（\texttt{mode-mixing-avoided-crossing}，第 3.6 节）：
+    由 \path{system/scripts/a130_mode_mixing_figure.py} 生成，取交叉耦合强度 $0.8$、两模式解耦平均能量 $5.0$、失谐区间 $[-4, 4]$（能量均为任意单位）。展示双态能量哈密顿量的本征值随失谐的避免交叉与基底概率混合，不是耦合振子的频率平方或实测跃迁强度。
+    \vspace{1ex}
+    \item \textbf{模式联合预言方法学流程图}（\texttt{joint-predictions-workflow}，第 3.8 节）：
+    由 \path{system/scripts/a130_joint_predictions_figure.py} 生成。依据共同输入、保留竞争模型、检验可区分性的联合预言流程，展示前向预言结构、模型空间划分与留出检验步骤，不保证消除所有模型简并。
+    \vspace{1ex}
+    \item \textbf{跨核区非轴对称取向对照图}（\texttt{orientation-comparison-modes}，第 4.4 节）：
+    由 \path{system/scripts/a130_orientation_comparison_figure.py} 生成。(a) $^{163}\mathrm{Lu}$ TSD1/2 能级带内 $Q_t$ 由 Görgen et al. 2004 Table I 实测寿命导出；(b) 带间 $B(E2)$ 由实测寿命结合分支比与采用历史平均 $\delta$ 等输入导出，非直接实测核形状；(c) 横向摆动（TW $s=2, m=1$）、轴对称高 $K$ 进动（形状冗余约束 $R_3=0$）以及平面转动重对准的文字与条件对照（非三维矢量图）。
+    \vspace{1ex}
+    \item \textbf{Br/As 实际跃迁网络拓扑图}（\texttt{br-as-network-topology}，第 4.5 节）：
+    由 \path{system/scripts/a130_br_as_network_figure.py} 生成。客观区分 2016、2019、2022 版本的已报告跃迁网络；(a) $^{78}\mathrm{Br}$ 中 8 条实测 $E1$ 严格单侧连接 Band 1 与 Band 3；(b) $^{74}\mathrm{As}$ 呈现 3 条实测 $E1$ 跃迁（$372.4, 919.4, 1293.4\ \mathrm{keV}$），Band 4 在 2019 学位报告中被指认为候选赝自旋带，2022 期刊聚焦于前三带；保留跨版本映射未闭合的客观边界，不作新定义定论，不绘制未测假连线。
+    \vspace{1ex}
+    \item \textbf{Seniority 节点占据可达性图}（\texttt{seniority-node-accessibility}，第 4.6 节）：
+    由 \path{system/scripts/a130_seniority_node_figure.py} 生成。使用单 $j$ 壳层同种核子 $v=2$ 单体 $E2$ 归约因子，取对简并度 $\Omega=5, 6$。连续抛物线仅为引导线，允许的离散占据数为 $n = v, v+2, \dots, 2\Omega - v$（对 $v=2, \Omega=5$ 半满点 $n=5$ 不允许）。配套的代数校验代码为 \path{system/scripts/a130_seniority_fock_controls.py}，在固定 $J, M$ 下核对对角 $E2$ 矩阵元比例，非实核寿命复现。
+    \vspace{1ex}
+    \item \textbf{弱分支级联竞争示意图}（\texttt{weak-cascade-competition}，第 4.7 节）：
+    由 \path{system/scripts/a130_weak_cascade_figure.py} 生成。声明宽度与概率结构的原理示意；展示多级串联退激中的分支比竞争拓扑（依据父最终 canonical 图件与第 4.7 节正文，未做探测门限或旁路损失拟合仿真，保持 $b_\beta$ 与 $\Pi_x$ 递推）。
+    \vspace{1ex}
+    \item \textbf{开放系统环境退激网络图}（\texttt{environment-network-pathways}，第 4.8 节）：
+    由 \path{system/scripts/a130_environment_network_figure.py} 生成。概念性区分形成截面、内部转移、旁路漏失与观测接受通道，非声子浴计算或 Lindblad 动力学仿真。
+    \vspace{1ex}
+    \item \textbf{统计推断轮廓似然边界图}（\texttt{inference-profile-likelihood-boundary}，第 5.10 节）：
+    由 \path{system/scripts/a130_inference_profile_figure.py}（SHA-256 \texttt{6fb04929c007...}）生成。合成示意剖面；左图显式展示双局部极小（$-40^\circ$ 与 $20^\circ$）与局域真实 Hessian 展开，右图保持同一高斯观测 $\hat{\mu}=-0.6, q_{\mathrm{phys}} = \mu^2 + 1.2\mu$ 的受限剖面示意，无 Feldman--Cousins 覆盖率模拟。
+    \vspace{1ex}
+    \item \textbf{探测器光子谱响应仿真图}（\texttt{detector-response-simulation}，第 5.2 节）：
+    由 \path{system/scripts/a130_detector_response_figure.py} 生成。展示 $E_\gamma = 1500\ \mathrm{keV}$ 光子在单晶 HPGe、BGO 反康普顿屏蔽及 Clover Add-back 模式下的教学合成谱（所选 Add-back 增益因数约 $1.45$ 为教学展示参数，纵轴为任意单位对数计数）。
+    \vspace{1ex}
+    \item \textbf{符合筛选拓扑模型图}（\texttt{coincidence-level-scheme-model}，第 5.6 节）：
+    由 \path{system/scripts/a130_coincidence_topology_figure.py} 生成。展示 5 节点 / 6 跃迁级联、旁路与 $250\ \mathrm{keV}$ 双重峰的教学拓扑结构，非双重门控或假符合环路消除算法。
+    \vspace{1ex}
+    \item \textbf{角分布二次有理反演双根图}（\texttt{angular-branch-delta-likelihood}，第 5.7 节）：
+    由 \path{system/scripts/a130_angular_branch_figure.py} 生成。展示方向角关联比值 $R_{\mathrm{DCO}}(\delta)$ 的二次有理曲面特征、代数双根相交形态与线偏振度符号鉴别（当前记录工程快照 SHA，待最终刷新）。
+    \vspace{1ex}
+    \item \textbf{RDDS 与 DSAM 寿命响应卷积图}（\texttt{lifetime-response-rdds-dsam}，第 5.8 节）：
+    由 \path{system/scripts/a130_lifetime_response_figure.py}（SHA-256 校验码 \texttt{3db01dfcbe29...}）生成。基于吴治华专著第 15 章第 2 节（印刷第 437–440 页，PDF 第 445–448 页，式 15.26）的微观阻止本领与速度剖面卷积原理；算法采用零居中奇数长度卷积核，经 $3\tau \times 3\text{grid}$（$\tau=0.1, 0.8, 5.0\ \mathrm{ps}$；$h=0.05, 0.025, 0.0125\ \mathrm{keV}$）加宽支持域有限验证通过，原始未归一概率面积相对偏差 $\le 1.92 \times 10^{-9}$，图件峰高归一化仅作展示目的，非硬件或实测核素数据。
+\end{enumerate}
+
+\section{数值模拟输入与 CSV 数据集清单}\label{sec:appF-datasets}
+
+第 5 章涉及的数字脉冲处理响应与定时误差分析依托于独立的标准仿真数据。数据文件由标准因果离散差分方程在离散时间网格上生成，公共存放于目录 \path{outputs/l4/20261108-digital-pulse-response/} 下。以下逐项记录各数据集的短文件名、结构规模、校验码（前 12 位短哈希，全 64 位见台账）与物理变量：
+
+\begin{enumerate}[label=(\arabic*),leftmargin=2em]
+    \item \textbf{成形滤波弹道亏损数值响应表}
+    \begin{itemize}[nosep]
+        \item 数据文件：\path{ballistic_deficit_study.csv}
+        \item 结构规模：20 个数据行、6 列，文件大小 1998 字节
+        \item 校验哈希：SHA-256 前缀 \texttt{e76fd8c6f896}
+        \item 物理变量：\path{rise_time_ns}, \path{flat_top_0ns_amp}, \path{flat_top_100ns_amp}, \path{flat_top_400ns_amp}, \path{deficit_flat0_pct}, \path{deficit_flat400_pct}
+        \item 物理内容：梯形成形平顶宽度与成形时间对电荷收集衰减引起的弹道亏损与能量估计偏差数值表。
+    \end{itemize}
+    \vspace{1ex}
+    \item \textbf{数字 CFD 采样时钟周期走动收敛数据表}
+    \begin{itemize}[nosep]
+        \item 数据文件：\path{sampling_convergence.csv}
+        \item 结构规模：4 个数据行、3 列，文件大小 247 字节
+        \item 校验哈希：SHA-256 前缀 \texttt{fcbc5a3ebf68}
+        \item 物理变量：\path{sampling_interval_ns}, \path{reference_latency_ns}, \path{max_abs_interpolation_error_ns}
+        \item 物理内容：4 组离散采样步长（10, 5, 2.5, 1.25 ns）下的 CFD 最大定时走动误差收敛数据。
+    \end{itemize}
+    \vspace{1ex}
+    \item \textbf{数字 CFD 相位走动插值误差逐点追踪表}
+    \begin{itemize}[nosep]
+        \item 数据文件：\path{cfd_phase_walk_analysis.csv}
+        \item 结构规模：20 个数据行、7 列，文件大小 2050 字节
+        \item 校验哈希：SHA-256 前缀 \texttt{fa67402db75b}
+        \item 物理变量：\path{phase_ns}, \path{true_t0_ns}, \path{reference_zc_ns}, \path{extracted_zc_ns}, \path{timing_error_ns}, \path{amplitude_arb}, \path{amplitude_scan_zc_ns}
+        \item 物理内容：20 个离散时钟相位点上的 CFD 线性过零插值误差与幅度扫描逐点追踪记录。
+    \end{itemize}
+\end{enumerate}
+
+\section{有限算法控制与代数闭合基准}\label{sec:appF-finite-controls}
+
+为防止将纯数学算法测试与真实探测器或核素实验混淆，本附录明确区分 3 项 CSV 数据集层与有限算法控制层。全书引入的有限算法测试包括：
+\begin{enumerate}[label=(\arabic*),leftmargin=2em]
+    \item \textbf{数字脉冲处理算法基准控制}（附录 E / 第 5.3 节）：
+    代码由 \path{system/scripts/a130_digital_algorithms_control.py}（SHA-256 前缀 \texttt{67280c67c236}）实现，结果记录于 \path{outputs/l4/20261114-A130-digital-algorithms-controls/results.json}。包含 5 项有限数学测试：
+    (1) direct 卷积 vs 递推差分方程实现对齐（极零比 $M=4999.500016666951$，相对平顶误差 $5.24 \times 10^{-15}$，绝对偏差 $5.25 \times 10^{-6}$）；
+    (2) 非零常基线恢复测试（残差为零）；
+    (3) CFD 脉冲幅度缩放不变性测试（过零时间误差为零）；
+    (4) $M/\alpha$ 极零衰减时间常数失配亏损分析（$M \pm 10\%$ 相对幅度偏差 $\approx 9.09 \times 10^{-5}$ 与 $-1.00 \times 10^{-4}$）；
+    (5) 二次曲线割线过零插值领先误差项验证（采样步长 $T_s = 0.02, 0.01, 0.005$ 验证 $O(T_s^2)$ 渐近项）。
+    明确声明此 5 项测试属于离散算法代数闭合控制，不构成对 FPGA 硬件或实际探测器电子学的实验认证。
+    \vspace{1ex}
+    \item \textbf{DSAM 速度剖面卷积核有限收敛控制}（第 5.8 节）：
+    由 \path{system/scripts/a130_lifetime_response_figure.py} 与测试包 \path{outputs/l4/20261114-A130-lifetime-response-controls/results.json} 记录。在声明的线性减速与指数衰变假定下，开展了 $3\tau \times 3\text{grid}$ 网格加密与支持域加宽测试，原始未归一概率面积相对偏差严格控制在 $\le 1.92 \times 10^{-9}$ 以内。属于有限数值卷积有效性控制，非实测核寿命数据。
+    \vspace{1ex}
+    \item \textbf{Seniority 粒子数守恒 Fock 空间矩阵元控制}（第 4.6 节）：
+    由 \path{system/scripts/a130_seniority_fock_controls.py} 记录。在全反对称多费米子 Fock 基底下，精确核对单 $j$ 壳层对角 $E2$ 矩阵元在粒子--空穴共轭及半满壳处的对称性定理与比例因子。
+    \vspace{1ex}
+    \item \textbf{统计推断轮廓似然剖面代数控制}（第 5.10 节）：
+    代码由 \path{system/scripts/a130_inference_figure_control.py}（SHA-256 前缀 \texttt{b0f207de08ab}）实现，结果记录于 \path{outputs/l4/20261114-A130-inference-figure-controls/results.json}。包含 6 项有限代数测试：(1) 双局部极小位置（$-40^\circ, 20^\circ$）与深度值（$0.9, 0.0$）精确对齐；(2) 局域抛物线与四次 Hessian 展开拟合偏差 $\le 4.27 \times 10^{-13}$；(3) 物理受限剖面与高斯对数似然比理论偏差 $\le 1.78 \times 10^{-15}$。明确声明此测试属于绘制曲线的数值代数控制，非置信区间覆盖率或 Neyman 带检验。
+\end{enumerate}
+
+\section{材料范围与版本边界说明}\label{sec:appF-scope-boundary}
+
+本研究稿在材料采用与版本管理上遵循以下学术边界：
+\begin{enumerate}[label=(\arabic*),leftmargin=2em]
+    \item \textbf{学术状态声明：}本稿件属于前置章节研究稿（写作中），旨在对相关物理机制、实验争议与反演技术链建立扎实自洽的学术分析框架，不声明为最终学校送审稿，亦不宣称对相关前沿争议给出了穷尽性裁决，不擅加未经证明的个人成果。
+    \item \textbf{文献版本与原件类型：}本稿引用的文献严格依据实际核查登记的底本。正文部分方法与公式直接引自同行评议学术期刊（如 PRL、PRC、RPP、PLB、NIM A 等），亦包括已登记核准的经典专著与学位论文。所有引文均标明实际阅读版本与定位边界，不虚构未取得的出版商重印校样。
+    \item \textbf{模型生成与实测数据隔离：}第 2.2 节的单极占据移动曲线与第 5.3/5.4 节的数字波形滤波及定时插值响应，均为声明参数下的因果算法数值模型，旨在展示物理机制与算法收敛行为，不代表实际在束探测器中的连续电荷收集弥散、电子学噪声抖动与硬件量化限制。
+    \item \textbf{增量维护约定：}本附录收录范围覆盖当前 39 节规划中已引用之全部 19 项自主矢量图件、3 项仿真数据集及算法控制包。部分处于并行开发末期的图件校验码将在父总控最终验收时平滑刷新归档。
+\end{enumerate}
+%---------------------------------------------------------------------------%

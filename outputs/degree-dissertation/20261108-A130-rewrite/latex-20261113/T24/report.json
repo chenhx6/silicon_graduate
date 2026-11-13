@@ -1,0 +1,117 @@
+{
+  "task_id": "T24",
+  "status": "pass",
+  "scope": "Only the frozen Appendix D projected matrix element and FF rank-interference assertions; no full D review.",
+  "frozen": {
+    "path": "T24/AppendixD.frozen.tex",
+    "sha256": "1c965db956321694ab52788af19ed90c1b016c614b1856034b215d10a6e1b5c7"
+  },
+  "canonical_conventions": {
+    "appendix_a": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixA.tex",
+      "sha256": "9d68fe0c9d48a9e2b5af71acb2ae5b5063042508666d10750422813cd831d2ac",
+      "locator": "eq:appA-we-3j"
+    },
+    "appendix_b": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixB.tex",
+      "sha256": "93785f3c48c54b1cda81f146da0465be7de835267e5842c95c2735f386eef6f8",
+      "locators": [
+        "eq:appB-haar-measure",
+        "eq:appB-proj-def",
+        "eq:appB-proj-adjoint",
+        "eq:appB-proj-product",
+        "eq:appB-metric-def"
+      ]
+    }
+  },
+  "findings": [
+    {
+      "id": "T24-01",
+      "line": 130,
+      "label": "eq:appD-projected-nme",
+      "exact": false,
+      "severity": "major",
+      "claim": "The single If Wigner-D integral is the general projected reduced matrix element.",
+      "reasons": [
+        "Expression contains Mf on the right despite being labelled a reduced matrix element.",
+        "It omits the initial-state Ji projector and the Wigner-Eckart angular-momentum coupling; the explicit rotation average is weighted by If and is not the initial Ji projection.",
+        "The reference eq:appB-haar-measure defines the integration measure and its total volume, not a norm kernel.",
+        "The claimed general removal of small-deformation adiabatic divergence does not follow merely from inserting projectors."
+      ],
+      "replacement": "Normalized f†Nf=1 projected states, double-projector lab matrix element, then recover RME using a nonzero 3j coefficient and Appendix A convention. N_(aK,bKprime)=<Phi_a|P^I_KKprime|Phi_b>.",
+      "toy": {
+        "initial": "|1,0>",
+        "final": "|0,0>",
+        "rank": 1,
+        "q": 0,
+        "RME": 1,
+        "true_lab": "-1/sqrt(3)",
+        "original_integral": 0,
+        "why": "If=0 implies D^0_00=1, so the original average annihilates the pure initial J=1 state. Both projected norm kernels are one."
+      },
+      "boundary": "No general claim about divergence regularization; norm must be positive and states normalized in the retained non-null metric subspace."
+    },
+    {
+      "id": "T24-02",
+      "lines": [
+        "AppendixD.frozen.tex:172",
+        "T21/sec-4-7.frozen.tex:71"
+      ],
+      "exact": false,
+      "severity": "major",
+      "claim": "Zhi FF electron-energy shape-factor coefficients contain interference between different nuclear tensor ranks.",
+      "conditions": "For the stated unpolarized initial state and electron energy spectrum with lepton angles integrated and final magnetic substates unobserved, Zhi Eq.6 groups nuclear ranks 0,1,2 additively; distinct ranks do not coherently interfere. This does not prohibit interference within a given rank or in other polarization/angle-sensitive observables.",
+      "examples": [
+        "Rank 0: Eq.6 contains -[zeta_0 w]^(0), and Eq.7 defines zeta_0=V+wW0/3 with V=xi-prime v+xi w-prime.",
+        "Rank 1: Eq.6 contains (x+u)^2 and zeta_1(x+u); Eq.8b,c identifies x as vector and u as axial.",
+        "Rank 2: Eq.6 contains z^2, not a cross term with ranks 0 or 1."
+      ],
+      "validation": "Direct source check plus a finite angular Gram matrix for Ji=Jf=1 verifies orthogonality of ranks 0,1,2 in unpolarized magnetic summation and illustrates same-rank interference; the numerical toy is not a general beta-decay derivation."
+    }
+  ],
+  "primary_source": {
+    "path": "raw/papers/gpt/query/20261108-foundations-G34/Zhi_2013_PRC_87_025803_SM_halflives_first_forbidden.pdf",
+    "sha256": "eaedbd4539854e3d1f0e7860ef7ab9c647d4fa44cd8144b4989ba220ec639333",
+    "physical_pages": [
+      2,
+      3
+    ],
+    "locators": [
+      {
+        "pdf_page": 2,
+        "equations": [
+          "5",
+          "6",
+          "7"
+        ],
+        "content": "C(W), rank-labelled additive brackets, explicit same-rank terms and composite amplitudes"
+      },
+      {
+        "pdf_page": 3,
+        "equations": [
+          "8a",
+          "8b",
+          "8c",
+          "8d"
+        ],
+        "content": "closing-bracket superscript identified as operator rank; operator definitions w,x,u,z"
+      }
+    ]
+  },
+  "validation": {
+    "script": "T24/validation.py",
+    "results": "T24/results.json",
+    "command": "python3 -B outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T24/validation.py",
+    "method": "Python stdlib only; exact rational polynomial quadrature for projection toy, factorial 3j finite angular Gram sums, numerical precision checks."
+  },
+  "deliverables": [
+    "report.json",
+    "correction.tex",
+    "validation.py",
+    "results.json"
+  ],
+  "limitations": [
+    "Only the supplied frozen D and specific frozen 4.7 passage were audited; no changes made to canonical files.",
+    "No new papers, experimental claims, or general angular-correlation assertions."
+  ]
+}

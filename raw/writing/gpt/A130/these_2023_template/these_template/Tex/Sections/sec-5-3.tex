@@ -112,7 +112,7 @@ s_{\mathrm{norm}}[n] = \frac{s[n]}{k (M + 1)}.
 
 \begin{table}[!htbp]
 \centering
-\caption{不同前沿上升参数 $\tau_r$ 与平顶宽度下的弹道亏损数值计算对比（计算基于附录~F 规范双指数脉冲模型在无噪声条件下的模拟数据，取 $T_s = 10\text{ ns}$、$\tau_d = 50\ \mu\text{s}$、成形参数 $k = 200$，输入幅度 $A = 1000$ 任意单位；输出序列首先按式~\eqref{eq:5-3-snorm} 归一化为 $s_{\mathrm{norm}}[n] = s[n]/[k(M+1)]$ 后取极大值 $\widehat{A} = \max_n s_{\mathrm{norm}}[n]$，弹道亏损定义为 $100\% \times (1000 - \widehat{A})/1000$。数据严格来自 \texttt{ballistic\_deficit\_study.csv}，未包含探测器实际空间电荷收集分布与连续电子学噪声）。}
+\caption[不同前沿上升参数 $\tau_r$ 与平顶宽度下的弹道亏损数值计算对比]{不同前沿上升参数 $\tau_r$ 与平顶宽度下的弹道亏损数值计算对比（计算基于附录~F 规范双指数脉冲模型在无噪声条件下的模拟数据，取 $T_s = 10\text{ ns}$、$\tau_d = 50\ \mu\text{s}$、成形参数 $k = 200$，输入幅度 $A = 1000$ 任意单位；输出序列首先按式~\eqref{eq:5-3-snorm} 归一化为 $s_{\mathrm{norm}}[n] = s[n]/[k(M+1)]$ 后取极大值 $\widehat{A} = \max_n s_{\mathrm{norm}}[n]$，弹道亏损定义为 $100\% \times (1000 - \widehat{A})/1000$。数据严格来自 \texttt{ballistic\_deficit\_study.csv}，未包含探测器实际空间电荷收集分布与连续电子学噪声）。}
 \label{tab:5-3-ballistic-deficit}
 \begin{tabular}{cccc}
 \toprule
@@ -133,12 +133,9 @@ s_{\mathrm{norm}}[n] = \frac{s[n]}{k (M + 1)}.
 
 \begin{figure}[!htbp]
 \centering
-\IfFileExists{Img/digital-energy-response.pdf}{%
+%
   \includegraphics[width=0.85\textwidth]{Img/digital-energy-response.pdf}%
-}{%
-  \fbox{\parbox{0.85\textwidth}{\centering\vspace{2cm}（图 5.1 待 G80 注入：\texttt{Img/digital-energy-response.pdf}；展示理想双指数输入下离散梯形滤波成形波形、平顶与弹道亏损响应特征）\vspace{2cm}}}%
-}
-\caption{理想双指数输入下数字梯形滤波响应与弹道亏损缓解特征（教学模型，基于附录~F 与 \texttt{ballistic\_deficit\_study.csv} 规范生成，计算参数取 $T_s = 10\text{ ns}$、$\tau_d = 50\ \mu\text{s}$、$\tau_r = 100\text{ ns}$、成形参数 $k = 200$。该曲线展示了不同平顶参数对前沿收集弛豫的平抑效果；注意此处为确定性数值模型输出，未包含探测器连续噪声、电荷收集时间空间非均匀分布及硬件量化限制）。}
+\caption[理想双指数输入下数字梯形滤波响应与弹道亏损缓解特征]{理想双指数输入下数字梯形滤波响应与弹道亏损缓解特征（教学模型，基于附录~F 与 \texttt{ballistic\_deficit\_study.csv} 规范生成，计算参数取 $T_s = 10\text{ ns}$、$\tau_d = 50\ \mu\text{s}$、$\tau_r = 100\text{ ns}$、成形参数 $k = 200$。该曲线展示了不同平顶参数对前沿收集弛豫的平抑效果；注意此处为确定性数值模型输出，未包含探测器连续噪声、电荷收集时间空间非均匀分布及硬件量化限制）。}
 \label{fig:5-3-digital-energy-response}
 \end{figure}
 

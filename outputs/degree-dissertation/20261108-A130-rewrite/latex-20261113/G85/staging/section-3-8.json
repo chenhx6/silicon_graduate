@@ -1,0 +1,234 @@
+{
+  "section_id": "3.8",
+  "title": "模式判断需要怎样的联合预言",
+  "section_label": "sec:3-8",
+  "status": "completed-canonical-delivered-v2-fixed",
+  "worker": "G85 (Gemini Tiered/high)",
+  "recorded_at": "2026-11-13T15:00:00+00:00",
+  "canonical_paths": {
+    "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-8.tex",
+    "tex_sha256": "7a170a2d943fb32e44e16a2649e53b00c19d8c196b874a214156c96700b02b7d",
+    "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-8.json"
+  },
+  "staging_paths": {
+    "tex": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G85/staging/sec-3-8.tex",
+    "ledger": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G85/staging/section-3-8.json"
+  },
+  "scope_boundary": "第3.8节方法论压轴节：将命名候选转化为包含明确前向预言、最强替代解释和判决性检验路径的研究问题。涵盖前向预言结构、竞争解释重叠与阈值不可通约性、四层数据架构与协方差限制、三个具体可证伪实证候选（98Mo弱E3跃迁、102Ru低能偶极聚集与A≈130低自旋取向进动）及跨区物理迁移准则。不越界修改其它章节或公共BibTeX。",
+  "sources": [
+    {
+      "source_id": "karmakar_2025_98mo_octupole",
+      "canonical_source": "A. Karmakar, P. Datta, S. S. Nayak et al., Nucl. Phys. A 1066, 123265 (2026)",
+      "doi": "10.1016/j.nuclphysa.2024.122983",
+      "raw_file": "raw/papers/⁹⁸Mo A possible candidate for octupole collectivity in A ≈ 100 region.pdf",
+      "raw_sha256": "3cb00fa1b7fcf534b8c2be49bcf46ff52bb888941656f5e8be6dfc56ebbc6e32",
+      "reading_depth": "deep_article_read",
+      "pdf_page": 2,
+      "printed_page": 2,
+      "item_label": "Section 1 & Table 1",
+      "text_anchor": "1833.3(5) 5- -> 2+ 0.24(9) E3; 1585.8(6) 7- -> 4+ 0.74(16) E3",
+      "supports": "98Mo负宇称带弱E3跃迁候选测量；母态寿命未定，B(E3)/B(E2)比值受分子八极增强与分母E2受阻双重影响的物理机制分析",
+      "locators": "Table 1, Section 3, 1833.3 keV (5^- -> 2+) & 1585.8 keV (7^- -> 4+) weak transitions"
+    },
+    {
+      "source_id": "saracino_2026_102ru_dipole",
+      "canonical_source": "A. Saracino, A. D. Ayangeakaa, Q. B. Chen, S. Frauendorf et al., Phys. Rev. Lett. 136, 252501 (2026)",
+      "doi": "10.1103/rcb1-gntj",
+      "raw_file": "raw/papers/Low-Energy Dipole Strength Distribution in ¹⁰²Ru Coexistence of Scissors and Octupole Resonances.pdf",
+      "raw_sha256": "4bc6bb6c613b121bae9def9d9bedf37e9c02db89eca265c4c16d5dd9ecf43a89",
+      "reading_depth": "deep_article_read",
+      "pdf_page": 4,
+      "printed_page": "252501-4",
+      "item_label": "Section on E1 single-particle suppression",
+      "text_anchor": "E1 transition at 2.95 MeV with B(E1)up = 0.016 e^2 fm^2 and the 4.5 - 5.5 MeV region",
+      "supports": "102Ru极化光子NRF测量、基态0+到1-的E1跃迁选择定则界限（不可直接由0+经E3激发同一1-态）及剪刀模与低能八极共振共存",
+      "locators": "PRL 136, 252501, PDF pp. 3, 5, 6, 2.95 MeV E1 B(E1)=0.016 e^2 fm^2 and 4.5-5.5 MeV clustering"
+    },
+    {
+      "source_id": "lawrie_2020_Tiltedprecession",
+      "canonical_source": "E. A. Lawrie, O. Shirinda, and C. M. Petrache, Phys. Rev. C 101, 034306 (2020)",
+      "doi": "10.1103/PhysRevC.101.034306",
+      "raw_file": "raw/papers/2020_Lawrie et al_Tilted precession and wobbling in triaxial nuclei.pdf",
+      "raw_sha256": "9b1c7dc49d970daae32cf976e1074e532b2e88a067341c2c43ee6dc16cf0e470",
+      "reading_depth": "deep_theory_read",
+      "pdf_page": 4,
+      "printed_page": "034306-4",
+      "item_label": "Fig. 4 & Eq.(18)",
+      "text_anchor": "Approximation condition function f(n, I)",
+      "supports": "三轴核倾斜进动(TiP)与摆动近似适用条件演化；经典进动角动量轨迹与有限自旋声子谐振展开界限"
+    },
+    {
+      "source_id": "lv_2022_Evidencewobbling",
+      "canonical_source": "B. F. Lv, C. M. Petrache, E. A. Lawrie et al., Phys. Lett. B 824, 136840 (2022)",
+      "doi": "10.1016/j.physletb.2021.136840",
+      "raw_file": "raw/papers/2022_Lv et al_Evidence against the wobbling nature of low-spin bands in 135Pr.pdf",
+      "raw_sha256": "4b87c540bf9da514781498cffc1f010375a34e067c87c2b38038fe0d12e6900f",
+      "reading_depth": "deep_table_and_section_read",
+      "pdf_page": 3,
+      "printed_page": 3,
+      "item_label": "Table 1 & left-column text",
+      "text_anchor": "The presently measured ratio B(E2; 747)/B(E2; 526) =0.7+0.7 -0.5 indicates similar strengths of the two transitions",
+      "supports": "135Pr负宇称带间跃迁角分布双根解(|delta|<1与|delta|>1)与偏振兼容性；实测B(E2; 747)/B(E2; 526)比值与QTR倾斜进动约束"
+    },
+    {
+      "source_id": "nomura_2022_Questioningwobbling",
+      "canonical_source": "K. Nomura and C. M. Petrache, Phys. Rev. C 105, 024320 (2022)",
+      "doi": "10.1103/PhysRevC.105.024320",
+      "raw_file": "raw/papers/2022_Nomura et al_Questioning the wobbling interpretation of low-spin bands in γ -soft nuclei within the interacting b.pdf",
+      "raw_sha256": "e61e3dd6fe5e67fb55543f3a136c7cce0fda98ad01f112d81d5eef70b613465f",
+      "reading_depth": "deep_article_read",
+      "pdf_page": 1,
+      "printed_page": "024320-1",
+      "item_label": "Abstract & Section I",
+      "text_anchor": "calculated B(E2; I -> I-1) transition rates for the bands previously interpreted as wobbling bands in 135Pr, 133La, 127Xe, and 105Pd are consistently smaller in magnitude",
+      "supports": "IBFM微观泛函映射展示gamma软核表面激发与单粒子激发混合能产生类摆动能级假象，构成重要替代解释"
+    },
+    {
+      "source_id": "frauendorf_2014_Transversewobbling",
+      "canonical_source": "S. Frauendorf and F. Dönau, Phys. Rev. C 89, 014322 (2014)",
+      "doi": "10.1103/PhysRevC.89.014322",
+      "raw_file": "raw/papers/2014_Frauendorf_Dönau_Transverse wobbling.pdf",
+      "raw_sha256": "36794ee1308adc1b7fcf71a9ee079ae403487c6729a738c62c95fe1c4cae44f7",
+      "reading_depth": "deep_article_read",
+      "pdf_page": 1,
+      "printed_page": "014322-1",
+      "item_label": "Title & abstract",
+      "text_anchor": "Transverse wobbling: A collective mode in odd- A triaxial nuclei",
+      "supports": "PRM横向摆动运动学假定、体轴系各向异性惯量与准粒子横向耦合机制"
+    }
+  ],
+  "claims_and_derivations": [
+    {
+      "id": "3.8-C01",
+      "text": "一个物理模型（无论全微观或唯象代数模型）由选定动力学自由度划分、守恒量子数I^pi及对称性约束（反幺正时间反演非普通特征标签）、势能面与动力学输入，以及拟合参数与前向预言划分构成；模型波函数或相空间轨迹是数学输出，模式标签不等于直接实验观测。",
+      "kind": "theoretical_forward_prediction_structure",
+      "figure_labels": [
+        "fig:3-8-joint-workflow"
+      ],
+      "sources": [
+        {
+          "source_id": "lawrie_2020_Tiltedprecession",
+          "locators": "Sections I–II"
+        },
+        {
+          "source_id": "frauendorf_2014_Transversewobbling",
+          "locators": "Section II"
+        }
+      ],
+      "conditions": "理论模型前向映射体系，区分模型表象与实验物理量。"
+    },
+    {
+      "id": "3.8-C02",
+      "text": "最强竞争解释在低自旋区共享相近能量间隔与E2跃迁；严禁设立通用绝对阈值；角分布各向异性Rac分析在二次勒让德展开下容许多分支、单分支或无解，客观保留分支统计不等于宣告两根物理等价；光子多极混合比沿5.9节辐射振幅比规范定义，M1分母较小时亦可产生大delta，绝对B与相对比值物理信息本质不同。",
+      "kind": "competing_hypotheses_and_threshold_non_commensurability",
+      "sources": [
+        {
+          "source_id": "lv_2022_Evidencewobbling",
+          "locators": "Table 1, Fig. 2"
+        },
+        {
+          "source_id": "nomura_2022_Questioningwobbling",
+          "locators": "Figs. 1–4"
+        }
+      ],
+      "conditions": "实验角分布多极展开数学性质与跃迁矩阵元结构。"
+    },
+    {
+      "id": "3.8-C03",
+      "text": "折合跃迁几率B反比于平均寿命tau：B(sigma lambda)正比于b_gamma / [tau (1 + alpha_IC)]；由同一母态寿命tau、分支比与ICC导出的多个B存在强协方差相关，共用数据不能作为独立重复证据；能谱调参重拟不是留出验证；建立原始数据/采用量/派生量/模型输出四层架构；加权正交残差为V^(-1/2) r，频率学加权距离无需先验假设即可成立，强调统计推断适用条件，不给出跨非嵌套模型的非物理显著性。",
+      "kind": "data_hierarchy_and_statistical_covariance_boundary",
+      "sources": [
+        {
+          "source_id": "lawrie_2020_Tiltedprecession",
+          "locators": "Section IV"
+        }
+      ],
+      "conditions": "严格统计推断规范，详细推导留待5.10节。"
+    },
+    {
+      "id": "3.8-C04",
+      "text": "候选A（98Mo弱E3跃迁）：基于Karmakar et al. 2026 NPA 1066 (2026) 123265，观测到1833.3 keV (5^- -> 2_1^+)与1585.8 keV (7^- -> 4_1^+)弱连接跃迁，实验中DCO与偏振度未定，多极性由自旋宇称差确定E3为最低允许阶数；母态为负宇称态(5^-与7^-)；较大分支比存在分子八极增强与分母E2受阻双重竞争；原论文未见可用线形不等终生不可测，提出考虑未知tau、侧馈送与系统响应的独立寿命测量（RDM/DSAM依灵敏度预研究评估可行性）作为改变排序的最小观测。",
+      "kind": "empirical_candidate_98mo_octupole",
+      "sources": [
+        {
+          "source_id": "karmakar_2025_98mo_octupole",
+          "locators": "Table 1, Section 3"
+        }
+      ],
+      "conditions": "考虑侧馈送与探测响应反演的独立寿命测量。"
+    },
+    {
+      "id": "3.8-C05",
+      "text": "候选B（102Ru低能偶极聚集）：基于Saracino et al. PRL 136 (2026) 252501，NRF测定基态跃迁宽度Gamma_0（或散射截面积分Is正比于Gamma_0^2/Gamma），在2.95 MeV测得E1跃迁B(E1)up = 0.016 e^2 fm^2并在4.5-5.5 MeV观测到约0.1 e^2 fm^2强聚集；角动量选择定则决定基态0+单光子吸收严格为E1，不能直接由E3激发同一1-态；八极声子带检验依赖于二声子八极-四极耦合构型[2+ x 3-]_(1-) -> 2+的E3跃迁或向3^-的E2分支，结合基态0+ -> 3^-的独立E3测量检验微观势面预言，不统称1-态本身的八极E3直接态/共振。",
+      "kind": "empirical_candidate_102ru_dipole",
+      "sources": [
+        {
+          "source_id": "saracino_2026_102ru_dipole",
+          "locators": "PRL 136, 252501, Section on E1 suppression & Figs. 1-2"
+        }
+      ],
+      "conditions": "基态0+单光子吸收角动量守恒限制(|0-1|<=lambda<=0+1 => lambda=1)。"
+    },
+    {
+      "id": "3.8-C06",
+      "text": "候选C（A≈130低自旋取向进动）：747.3 keV跃迁实测数据如实陈述，不替原作者随意归因坐标系或形变先验差异；QTR/PRM/IBFM不对应互斥模式标签；提出基于离散高纯锗阵列多角度符合测量构建联合似然函数检验delta物理分支，依据寿命灵敏度预研究测定绝对B(E2)与模型预测区间后验比对，结合高自旋顺排测量检验角动量进动几何响应。",
+      "kind": "empirical_candidate_a130_orientation",
+      "sources": [
+        {
+          "source_id": "lawrie_2020_Tiltedprecession",
+          "locators": "PRC 101, 034306, Fig. 2"
+        },
+        {
+          "source_id": "lv_2022_Evidencewobbling",
+          "locators": "PLB 824, 136840, Table 1"
+        },
+        {
+          "source_id": "nomura_2022_Questioningwobbling",
+          "locators": "PRC 105, 024320, Table 1"
+        }
+      ],
+      "conditions": "多重符合线偏振度与超精细寿命测量联合仲裁。"
+    },
+    {
+      "id": "3.8-C07",
+      "text": "跨质量区迁移准则：模式推广必须严格基于单粒子轨道占据、费米面位置、配对隙、自洽势面三轴刚度与反应布居通道；严禁因质量数相近或文献未见报道而宣称‘首次发现’。",
+      "kind": "cross_mass_region_transfer_rule",
+      "sources": [
+        {
+          "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+          "locators": "Section 4"
+        }
+      ],
+      "conditions": "微观壳结构与残余相互作用决定论。"
+    }
+  ],
+  "competing_explanations_and_boundaries": [
+    {
+      "topic": "模式判据的普适阈值 vs 联合前向预言",
+      "competing_views": [
+        "普适阈值范式：设定通用的一揽子指标（如delta>1, E2>50%, 声子比=2）判定模式确立。",
+        "联合前向预言范式：模型明确前向映射，在未调参的独立观测空间（寿命、偏振、高自旋回弯）接受留出检验。"
+      ],
+      "scientific_disposition": "指出通用绝对阈值缺乏微观自洽性，只有通过独立正交观测量才能打破多模型解释简并。"
+    }
+  ],
+  "prohibitions_strictly_obeyed": [
+    "独占sec-3-8.tex、latex-evidence-ledger/section-3-8.json与G85/section-3-8-*，不动公共Bib",
+    "不把未验3.6新数据当依据，只复用已验2.1-2.8/3.2/3.5与原件",
+    "不把模式标签等同于实验观测，波函数轨迹为模型数学输出",
+    "不设通用delta、E2百分比或声子倍数绝对阈值，完整保留角分布双根分支",
+    "同一母态多B强协方差不计为独立重复证据，能谱重拟不等于留出验证",
+    "区分数据四层架构，不给无raw counts的虚假显著性检验",
+    "三个研究候选基于文献原件基线，不编造未知机时与个人硬件",
+    "102Ru严格澄清0+到1-不能直接E3激发，明确J/pi与K投影联系",
+    "跨区迁移基于微观占据与配对条件，不凭文献缺乏宣称首次发现",
+    "最终回复严禁使用Markdown加粗符号**",
+    "交付后停步交父审，绝不自动推进第4章"
+  ],
+  "latex_math_verification": {
+    "equation_count": 0,
+    "figure_count": 1,
+    "syntax_check": "PASSED_CANONICAL_SECTION_3_8",
+    "notation_consistency": "与第2章及第3章已验数学符号与数据分层规范严格一致"
+  }
+}

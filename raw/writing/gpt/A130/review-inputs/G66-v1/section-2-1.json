@@ -1,0 +1,170 @@
+{
+  "section_id": "2.1",
+  "title": "实验室对称性与张量语言",
+  "version": "v1",
+  "recorded_at": "2026-11-08T01:14:07.718045+00:00",
+  "argument_outline": [
+    "孤立原子核在实验室参考系中受空间旋转与空间反演完全对称性支配，多体哈密顿量与总角动量算符（具有作用量量纲）及无量纲自旋算符对易，导致任意自旋能级的2I+1个磁子态呈现严格的能量简并，空间宇称为严格的线性守恒量。",
+    "无论是偶偶核、奇A核还是奇奇核，真实的实验室定态都具有确定的自旋与宇称量子数，而形变内禀参考系下的Nilsson单粒子轨道与K量子数仅是破缺旋转对称性的波包标签，必须通过角动量投影恢复其物理意义。",
+    "不可约球张量算符通过Wigner–Eckart定理将纯几何取向（由Clebsch–Gordan系数或3j符号描述）与核动力学内部结构（约化矩阵元R_ab）严格分离，并给出自旋三角条件、磁量子数投影定则与厄米张量共轭关系。",
+    "由于量子态波函数存在任意整体相位规范自由度，单个非对角约化矩阵元在态重定相下随相对相因子改变，因而不是直接的物理观测量，其符号与相位依赖于人为约定的基底标定。",
+    "实验室无极化核态退激的跃迁几率由初态磁子态统计平均与末态磁子态及光子多极求和决定，从而严格导出约化跃迁几率B(XL)与约化矩阵元模平方的关系，以及上下行跃迁统计权互易关系，彻底澄清0+与2+跃迁间因子5的纯统计起源。",
+    "对角约化矩阵元在任意态重定相下严格不变，直接对应实验室静电四极矩与磁偶极矩；同时，闭合环路矩阵元乘积的相对相因子在循环乘积中精确对消，构成与波函数相位选取无关的规范不变量。",
+    "利用张量标量耦合可在实验室系构造二阶旋转不变量q_2与三阶不变量q_3；在I=0基态下，q_3直接表示为2+态静态矩项与跨带跃迁干涉项的相干和，确立了多步库仑激发再取向效应探测闭合干涉网络而非单个RME符号的微观物理基础。",
+    "完整的一般自旋Racah代数重耦合交由附录A系统处理，本节建立的对称性与张量语言为后续微观壳模型有效算符、内禀形变投影以及在束γ谱学绝对跃迁几率反演奠定统一的理论基准。"
+  ],
+  "sources": [
+    {
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "source_page": "knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "actual_read_pages": "printed pp. 29–30 (PDF pp. 44–45), printed pp. 118–121 (PDF pp. 133–136)",
+      "claims_supported": [
+        "Wigner–Eckart定理的Racah/Edmonds标准定义与3j符号分解式 (2.27)",
+        "自旋三角条件Delta(j, L, j')与磁投影选择定则m + M = m' (2.29)",
+        "厄米张量算符的定义T_{LM}^dagger = (-1)^M T_{L,-M}与约化矩阵元共轭关系 (2.31)-(2.32)",
+        "初态磁子态统计平均与末态求和导出约化跃迁几率B(sigma lambda)表达式 (6.4)",
+        "电磁算符的Condon–Shortley与Biedenharn–Rose复相位约定及其在单粒子矩阵元中的实性保证 (6.10)-(6.11)",
+        "约化跃迁几率的量纲与常用物理常数换算关系 (6.12)-(6.14)"
+      ]
+    },
+    {
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "source_page": "knowledge/sources/cline-1986-nuclear-shapes-coulomb-excitation.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "raw_sha256": "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113",
+      "actual_read_pages": "printed pp. 698–700 (PDF pp. 16–18)",
+      "claims_supported": [
+        "二阶与三阶电四极零耦合旋转不变量的定义及其在主轴参考系与实验室系中的展开",
+        "闭合矩阵元乘积在中间态完备集求和下的态重定相规范不变性",
+        "实验库仑激发通过再取向效应与多步干涉提取静态矩及闭合乘积相对符号的原理",
+        "非能权求和规则中低激发态占据70%–95%总跃迁强度的截断收敛性条件与IBM等有效玻色子算符对易异质性"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "text": "孤立原子核哈密顿量满足空间旋转与反演不变性，其定态严格为总角动量I、磁投影M及空间宇称pi的共同本征态，且2I+1个磁子态具有严格简并的能量本征值。",
+      "kind": "theoretical_foundation",
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "locator": "printed p. 29 (PDF p. 44)",
+      "conditions": "孤立自由空间，无外加电磁场，忽略极端弱相互作用宇称不守恒项（量级约10^-7）"
+    },
+    {
+      "text": "Wigner–Eckart定理将球张量矩阵元分解为纯几何取向因子与包含全部微观结构信息的约化矩阵元，且厄米张量约化矩阵元满足共轭对称关系R_ba = (-1)^(I_b - I_a) R_ab*。",
+      "kind": "mathematical_derivation",
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "locator": "printed pp. 29–30 (PDF pp. 44–45), Eqs. (2.27)-(2.32)",
+      "conditions": "Condon–Shortley球张量相位约定"
+    },
+    {
+      "text": "单个非对角约化矩阵元受态重定相变换|a> -> exp(i*phi_a)|a>影响，其相位与符号不具有独立物理观测量地位；只有对角矩R_aa与闭合环路矩阵元乘积R_sr R_rt R_ts具有规范不变性与物理可测量性。",
+      "kind": "theoretical_physics_principle",
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "locator": "printed pp. 698–700 (PDF pp. 16–18)",
+      "conditions": "任意正规化基矢规范变换"
+    },
+    {
+      "text": "由无极化初态平均1/(2I_i+1)与末态子态求和导出的约化跃迁几率满足互易关系(2I_i+1) B(XL; i->f) = (2I_f+1) B(XL; f->i)，0+与2+态之间的跃迁因2+态的5重简并而出现因子5的统计差异。",
+      "kind": "deductive_derivation",
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "locator": "printed pp. 119–120 (PDF pp. 134–135), Eq. (6.4)",
+      "conditions": "各向同性统计布居，长波长单光子多极电磁相互作用近似"
+    },
+    {
+      "text": "二阶旋转标量不变量q_2与初态总B(E2)出射强度求和严格等价；三阶不变量q_3对I=0基态对应由2+静态电四极矩项与跨带干涉环路构成的相干网络求和。",
+      "kind": "analytical_formulation",
+      "source_id": "cline-1986-nuclear-shapes-coulomb-excitation",
+      "locator": "printed p. 698 (PDF p. 16)",
+      "conditions": "E2张量算符中间态完备集求和，低能截断近似"
+    }
+  ],
+  "equations": [
+    {
+      "name": "wigner_eckart_theorem",
+      "convention": "Racah/Edmonds Condon-Shortley convention",
+      "formula": "\\langle a I_a M_a | T_{\\lambda\\mu} | b I_b M_b \\rangle = (-1)^{I_a - M_a} \\begin{pmatrix} I_a & \\lambda & I_b \\\\ -M_a & \\mu & M_b \\end{pmatrix} R_{ab}",
+      "derivation": "从不可约球张量旋转变换群代数与SO(3)不可约表示直积分解结合，提取与磁量子数无关的不变量R_ab",
+      "limit": "对角矩要求Delta(I_a, lambda, I_a)且2I_a >= lambda；因此I=0时一阶四极矩必恒为0"
+    },
+    {
+      "name": "hermitian_tensor_conjugation",
+      "convention": "T_{LM}^\\dagger = (-1)^M T_{L,-M}",
+      "formula": "R_{ba} = (-1)^{I_b - I_a} R_{ab}^*",
+      "derivation": "对矩阵元取复共轭并应用3j符号的奇偶置换对称性得到",
+      "limit": "在时间反演不变基底中，通过选取标准Condon-Shortley相位，电多极RME为实数，满足R_ba = (-1)^{I_b - I_a} R_ab"
+    },
+    {
+      "name": "reduced_transition_probability",
+      "convention": "B(sigma lambda; i -> f) = \\frac{1}{2I_i+1} \\sum_{M_i, M_f, \\mu} |\\langle f I_f M_f | \\mathcal{M}(\\sigma\\lambda,\\mu) | i I_i M_i \\rangle|^2",
+      "formula": "B(\\sigma\\lambda; i \\to f) = \\frac{1}{2I_i + 1} |R_{fi}|^2",
+      "derivation": "将Wigner-Eckart定理代入，利用3j符号的正交归一求和公式 \\sum_{M_i, M_f, \\mu} \\begin{pmatrix} I_f & \\lambda & I_i \\\\ -M_f & \\mu & M_i \\end{pmatrix}^2 = 1 消除几何因子",
+      "limit": "适用于初态无极化统计布居；极化束流或极化靶实验需保留具体磁取向张量B_k(I)"
+    },
+    {
+      "name": "reciprocity_statistical_weight",
+      "convention": "逆过程比较",
+      "formula": "\\frac{B(\\sigma\\lambda; i \\to f)}{B(\\sigma\\lambda; f \\to i)} = \\frac{2I_f + 1}{2I_i + 1}",
+      "derivation": "由|R_{if}|^2 = |(-1)^{I_f - I_i} R_{fi}^*|^2 = |R_{fi}|^2 直接比对",
+      "limit": "对0+ -> 2+跃迁，(2*2+1)/(2*0+1) = 5，激发强度比去激强度高5倍"
+    },
+    {
+      "name": "quadratic_invariant_expansion",
+      "convention": "q_2 = \\sqrt{5} \\langle [T \\times T]^0 \\rangle_s",
+      "formula": "q_2 = \\frac{1}{2I + 1} \\sum_r |R_{sr}|^2 = \\sum_r B(E2; s \\to r)",
+      "derivation": "在初态|s, I>中插入中间态完备集并对磁投影求和，Racah 6j代数在零耦合下简化为1/sqrt(5*(2I+1))",
+      "limit": "对I=0基态，中间态仅允许I_r=2，q_2 = |R_{20}|^2 = B(E2; 0^+ \\to 2^+)"
+    },
+    {
+      "name": "cubic_invariant_minimal_formula",
+      "convention": "q_3 = -\\sqrt{\\frac{35}{2}} \\langle [[T \\times T]^2 \\times T]^0 \\rangle_s",
+      "formula": "q_3(I=0) = -\\sqrt{\\frac{7}{10}} \\sum_{r, t} R_{0r} R_{rt} R_{t0}",
+      "derivation": "对I=0基态，中间态I_r=I_t=2，六j符号 {2 2 2; 0 2 2} = 1/5，张量标量耦合系数给出相干和",
+      "limit": "对角项r=t=2_1贡献正比于B(E2; 0->2_1)*Q_s(2_1)；非对角项贡献跨带干涉乘积"
+    }
+  ],
+  "competing_explanations": [
+    {
+      "issue": "单个非对角约化矩阵元的符号是否具有实验测量意义？",
+      "misconception": "常有文献误将实验拟合或模型输出的单个RME正负号视为绝对物理属性。",
+      "correct_understanding": "单个非对角RME在态重定相|a> -> exp(i*phi_a)|a>下变为exp[i(phi_b - phi_a)] R_ab，其绝对符号可通过孤立能级相位的重新定义而任意反转。只有对角矩（静态矩）与包含偶数次相对相位的闭合环路矩阵元乘积（如R_sr R_rt R_ts）才与波函数相位规范无关，具备真实的物理测量意义。"
+    },
+    {
+      "issue": "0+基态静电四极矩为零是否意味着该核必为刚性球形核？",
+      "misconception": "直观经典认为一阶矩为零即无形变。",
+      "correct_understanding": "实验室一阶静矩Qs=0是自旋三角条件Delta(0, 2, 0)施加的纯角动量几何禁戒，它仅表明取向各向同性，单体电荷密度在空间积分后呈球对称；但二阶标量不变量q_2 = sum_r B(E2; 0 -> r)反映了电荷多体关联的非零内禀涨落或形变，绝非刚性无关联球体。"
+    },
+    {
+      "issue": "内禀坐标系下的Nilsson单粒子标号与实验室状态的关系",
+      "misconception": "将内禀主轴投影Omega或K等同于实验室哈密顿量的运动守恒常数。",
+      "correct_understanding": "内禀参考系是通过破缺旋转对称性引入的辅助几何框架，Omega与K仅在强形变轴对称极限下近似为好量子数；实验室系中的物理定态严格由总角动量I与宇称pi表征，形变内禀态实质上是具有不同实验室自旋态的相干叠加波包。"
+    }
+  ],
+  "unresolved": [
+    "高阶不变量（四阶及以上）截断收敛性对微观核结构模型空间的依赖程度需结合微观壳模型与高阶库仑激发实验进一步评估。",
+    "在有效玻色子或有效核子算符空间中，算符对易异质性对高阶不变量恒等式成立精度的定量破坏程度需由具体微观相互作用确定。"
+  ],
+  "reader_checks": [
+    {
+      "question": "为什么在核物理跃迁实验报告中，B(E2; 0+ -> 2+)与B(E2; 2+ -> 0+)数值相差5倍？",
+      "answer": "这是由初态磁子态统计平均因子1/(2I_i+1)所导致的统计权差异。从0+到2+时初态只有一个磁子态（2*0+1=1），跃迁强度为模平方自身；而从2+到0+时初态有5个简并磁子态（2*2+1=5），无极化平均引入1/5，因此B(E2; 0+ -> 2+) = 5 * B(E2; 2+ -> 0+)。"
+    },
+    {
+      "question": "库仑激发实验如何通过再取向效应确定激发态的静电四极矩符号？",
+      "answer": "库仑激发截面包含直接单步激发幅度和经由该态自身对角矩阵元作用的两步激发幅度的量子干涉。干涉项由闭合乘积R_{0r} R_{rr} R_{r0} = |R_{0r}|^2 R_{rr} 决定，该乘积在态重定相下严格不变，其正负直接反映了静电四极矩R_{rr}的符号，从而打破了仅凭B(E2)模平方无法定符号的简并性。"
+    }
+  ],
+  "interfaces_for_subsequent_sections": {
+    "section_2_2": "为单极占据差式与微观有效单粒子能量演化提供角动量与张量基础",
+    "section_2_4": "作为集体波函数内禀四极参数(beta, gamma)与实验室标量不变量映射的微观算符起点",
+    "section_2_5": "与角动量及宇称投影技术对接，恢复形变平均场参考态的实验室好量子数",
+    "section_2_7": "为有效电荷、有效单体算符定义及强度淬灭提供标准Wigner–Eckart约定",
+    "section_5_7": "为在束实验方向角关联(DCO)、偏振度及多极混合比反演提供取向张量与几何F系数的基底",
+    "section_5_9": "为从测量能级寿命tau、分支比与内转换系数反演微观绝对B(sigma lambda)建立严格定义",
+    "appendix_A": "正文中简化的零耦合标量展开与Wigner–Eckart推导在附录A中提供完整的Racah代数、6j/9j重耦合证明"
+  },
+  "manuscript_path": "raw/writing/gpt/A130/research-draft/section-2-1.md",
+  "manuscript_sha256": "114d249947d7c23d04bdddab68b843dfde01bda188441a1be9e7a2f5ebbdc04b",
+  "chinese_character_count": 5112
+}

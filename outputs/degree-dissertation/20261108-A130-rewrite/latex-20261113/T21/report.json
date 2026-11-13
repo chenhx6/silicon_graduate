@@ -1,0 +1,569 @@
+{
+  "task": "T21 independent narrow review 4.7 cascade, Ikeda conventions and weak-decay interfaces",
+  "created_at_utc": "2026-11-13T15:57:11.899309+00:00",
+  "runtime": "User requested continuation of Terra/xhigh; model and effort not independently visible to this reviewer.",
+  "scope": "Frozen sec-4-7 and AppendixD plus their ledgers, targeted originals. Earlier E snapshots retained only as provenance. Canonical 2.7 not in frozen inputs.",
+  "frozen_inputs_verification": [
+    {
+      "snapshot": "sec-4-7.frozen.tex",
+      "sha256": "5a1986c39b4557d02643a99c3f8797a642989323dd31569036ac99d02bb7f051",
+      "size_bytes": 24644,
+      "matches_manifest": true,
+      "role": "review_input"
+    },
+    {
+      "snapshot": "section-4-7.frozen.json",
+      "sha256": "f64829712c7e1c3b176c98df6f9d055056b69eadace07512dd5eae668b406fb1",
+      "size_bytes": 12047,
+      "matches_manifest": true,
+      "role": "review_input"
+    },
+    {
+      "snapshot": "AppendixE.frozen.tex",
+      "sha256": "d7d29150e8737900e5f22675eff7f5f2d3aea1f64f0b59f9043fbeff4b2b8f03",
+      "size_bytes": 22761,
+      "matches_manifest": true,
+      "role": "prior_input_provenance"
+    },
+    {
+      "snapshot": "appendix-E.frozen.json",
+      "sha256": "cce48c44f23d3031766e8954bf12c4adcbd0caea426221e392427c3ba857ab3d",
+      "size_bytes": 7002,
+      "matches_manifest": true,
+      "role": "prior_input_provenance"
+    },
+    {
+      "snapshot": "AppendixD.frozen.tex",
+      "sha256": "dac7eae1a7f9aaaccbf00da28d14d90e87d3fdb16e24a412993c14b5b57a70f4",
+      "size_bytes": 27527,
+      "matches_manifest": true,
+      "role": "review_input"
+    },
+    {
+      "snapshot": "appendix-D.frozen.json",
+      "sha256": "7794bd1e5def8f37d5f2ce46d0cf43ffba0442b7f98fe4b0e5b5ebef4ea0c76b",
+      "size_bytes": 8702,
+      "matches_manifest": true,
+      "role": "review_input"
+    }
+  ],
+  "originals": [
+    {
+      "source_id": "dimitriou-2021-beta-delayed-neutron-reference-database",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-g52-beta-delayed-particles/dimitriou-2021-iaea-beta-delayed-neutron-database.pdf",
+      "size_bytes": 12962955,
+      "sha256": "ca0b475131704e33f6732163ef996467e630fbea88898dba73cc9f66e7f5684f"
+    },
+    {
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "size_bytes": 6514067,
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c"
+    },
+    {
+      "source_id": "doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G34/Zhi_2013_PRC_87_025803_SM_halflives_first_forbidden.pdf",
+      "size_bytes": 440775,
+      "sha256": "eaedbd4539854e3d1f0e7860ef7ab9c647d4fa44cd8144b4989ba220ec639333"
+    },
+    {
+      "source_id": "wang-2026-axial-coupling-quenching-joint-effects",
+      "raw_file": "raw/papers/gpt/query/20261113-A130-axial-currents/wang-2026-arxiv2605.21218v1.pdf",
+      "size_bytes": 368754,
+      "sha256": "64b8098517bdf4754ff71d80ab4256aab77102aaa9257390f99db1b3788c0c8d"
+    },
+    {
+      "source_id": "engel-menendez-2017-double-beta-matrix-elements-review",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-g48-weak-operators/engel-menendez-2017-rpp-0nubb-nme.pdf",
+      "size_bytes": 1705944,
+      "sha256": "813111c10bab58d8d0f19ca91833383a8a521a33c0434b276eacd4fead195417"
+    },
+    {
+      "source_id": "cirigliano-2018-leading-short-range-double-beta",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-t07-weak-renormalization/cirigliano-2018-prl120-202001-arxiv-1802.10097v1.pdf",
+      "size_bytes": 743353,
+      "sha256": "c15e22bdb9c811e986493ff2a0b01f2794c8a33a6493b4ba6d62701525304996"
+    },
+    {
+      "source_id": "book-jain-nuclear-isomers",
+      "raw_file": "raw/books/nuclear isomer - A Prime.pdf",
+      "size_bytes": 2666967,
+      "sha256": "20f88b84240637e10a6086eca6b9f6e80a28813ad1ecf14a795144a4d5c2ac34"
+    },
+    {
+      "source_id": null,
+      "raw_file": "raw/books/Introduction to Nuclear Reactions (C.A. Bertulani P. Danielewicz) (Z-Library).pdf",
+      "size_bytes": 77039941,
+      "sha256": "ad1391abd781e2277433283b6635679cfc45efc9d9d5472d4aabcd172509cb71"
+    }
+  ],
+  "actual_source_pages": {
+    "Dimitriou": {
+      "pdf_pages": [
+        4,
+        8,
+        9,
+        10,
+        11
+      ],
+      "specific_locator": "PDF4 article p4 Eq.(1); frozen ledger incorrectly says PDF8 Eq.(1)"
+    },
+    "Suhonen": {
+      "pdf_pages": [
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        552,
+        553,
+        554,
+        555,
+        556
+      ],
+      "specific_locator": "PDF178/printed163 Eq.7.12–7.14, PDF552–554/printed541–543 Eq.17.63–17.74, PDF556/printed545 Eq.17.83–17.84"
+    },
+    "Zhi": {
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "specific_locator": "PDF2 Eqs.1–4; PDF3 Eq.11"
+    },
+    "Wang": {
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "specific_locator": "v1 PDF3 Fig.1; PDF4 SGII and Table I"
+    },
+    "Engel_Menendez": {
+      "pdf_pages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "specific_locator": "PDF4 Eq.9–10"
+    },
+    "Cirigliano": {
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "specific_locator": "PDF1–4: LO 1S0, regulated contact, C1+C2 and C1≈C2 caveat"
+    },
+    "Jain": {
+      "pdf_pages": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "specific_locator": "PDF52/printed41 Eq.3.14, PDF53/printed42 Eq.3.15; 2021 book"
+    },
+    "Bertulani_Danielewicz": {
+      "pdf_pages": [
+        145
+      ],
+      "specific_locator": "PDF145/printed134 reduced width Γ/(2P) and s-wave neutron P=kR"
+    }
+  },
+  "findings": [
+    {
+      "id": "T21-01",
+      "severity": "critical",
+      "frozen_line": [
+        "sec-4-7.frozen.tex:84–88",
+        "AppendixD.frozen.tex:224–230"
+      ],
+      "finding": "Π_x 递推对每条边都使用 Π_x(b)，完全没有计入该边释放的中子数。单一 1n 路径都会被错误归为 0n；终态宽度为零时原式还未定义。 Appendix D 式亦复制相同错误。",
+      "actual_raw_pdf_locator": [
+        {
+          "source_id": "dimitriou-2021-beta-delayed-neutron-reference-database",
+          "raw_file": "raw/papers/gpt/query/20261108-r3-g52-beta-delayed-particles/dimitriou-2021-iaea-beta-delayed-neutron-database.pdf",
+          "pdf_page": 4,
+          "locator": "Sec. II.A Eq.(1): P1n as one-neutron-emitting decays / decays",
+          "printed_page": 4
+        }
+      ],
+      "correct_equation_or_conditions": "非终态 Π_x(a)=Σ_{b,r}[Γ_ab^(r)/Γ_tot(a)] Π_{x−r}(b)，负指标为0；每个吸收态 Π_x(t)=δ_x0。",
+      "evidence_boundary": "递推为本审独立建模；可含连续谱积分及多终态。只有全开放通道纳入且几乎必然在所选定义下吸收时才有 ΣxΠx=1。"
+    },
+    {
+      "id": "T21-02",
+      "severity": "major",
+      "frozen_line": [
+        "sec-4-7.frozen.tex:79–92,110–127",
+        "section-4-7.frozen.json:11,113,133–135",
+        "AppendixD.frozen.tex:237–249"
+      ],
+      "finding": "正文 β 馈送按总母衰变归一而技术台账仍写 ΣIβ=1、Γ_xn/Γtot 一般公式；观测零计数仅加入其他无中子模式也不足以覆盖非 β 产中子道。",
+      "actual_raw_pdf_locator": [
+        {
+          "source_id": "dimitriou-2021-beta-delayed-neutron-reference-database",
+          "raw_file": "raw/papers/gpt/query/20261108-r3-g52-beta-delayed-particles/dimitriou-2021-iaea-beta-delayed-neutron-database.pdf",
+          "pdf_page": 4,
+          "locator": "Eq.(1) event normalization and distinct Pxn decay channels",
+          "printed_page": 4
+        }
+      ],
+      "correct_equation_or_conditions": "按总母衰变 P_xn^(β,parent)=Σ IβΠx，总和为 bβ；按条件 β 衰变除以 bβ 才和为1。无门母衰变观测需另加各非β分支及其独立响应，不能将自发裂变中子算作β缓发中子。",
+      "evidence_boundary": "若 bβ=1 两个归一重合；若后续开放带电粒子/裂变，需将其分支、携带中子数和观察终态类别计入，不暗中将之当无中子。"
+    },
+    {
+      "id": "T21-03",
+      "severity": "major",
+      "frozen_line": [
+        "AppendixD.frozen.tex:136–140",
+        "sec-4-7.frozen.tex:16,40–44"
+      ],
+      "finding": "D 中以常规约化矩阵元绝对平方定义 S±，却省略初态平均 1/(2Ji+1)；对 Ji≠0 的初态，所写差和与 3(N−Z) 不相等。所给 [t−,t+]=2t3 与本审选定 t3(n)=+1/2、t−n=p 的标准次序相反。",
+      "actual_raw_pdf_locator": [
+        {
+          "source_id": "book-suhonen-from-nucleons-to-nucleus",
+          "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+          "pdf_page": 552,
+          "locator": "Sec.17.4.3, Eq.17.63–17.64: initial 0+ strengths",
+          "printed_page": 541
+        },
+        {
+          "source_id": "book-suhonen-from-nucleons-to-nucleus",
+          "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+          "pdf_page": 554,
+          "locator": "Eqs.17.70–17.74: commutator and Ikeda",
+          "printed_page": 543
+        }
+      ],
+      "correct_equation_or_conditions": "按 t3(n)=+1/2、t−n=p，则 [t+,t−]=2t3，S±=Σf |<f||Σσ t±||i>|²/(2Ji+1)；完全闭合后一体差和为 3(N−Z)。也可改用其他 t3 约定，但算符名、对易符号及 RHS 需同时转换。",
+      "evidence_boundary": "Suhonen 实际展示 Ji=0 样例，此时缺失平均因子掩盖；对于 Ji=1/2 的单中子，未平均的完整磁态和为6，平均后为3。冻结 2.7 未提供，不能宣称与其符号逐字一致。"
+    },
+    {
+      "id": "T21-04",
+      "severity": "major",
+      "frozen_line": [
+        "AppendixD.frozen.tex:136–146",
+        "sec-4-7.frozen.tex:16,40–44"
+      ],
+      "finding": "D 和 4.7 的裸一体 Ikeda 差和适用于无截断闭合空间，但未自足限定有效算符和常数缩放后的差和；D 的未平均强度与对易符号还存在 T21-03 所述具体错误。",
+      "actual_raw_pdf_locator": [
+        {
+          "source_id": "book-suhonen-from-nucleons-to-nucleus",
+          "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+          "pdf_page": 552,
+          "locator": "Sec.17.4.3 Eqs.17.63–17.64: even-even 0+ case",
+          "printed_page": 541
+        },
+        {
+          "source_id": "book-suhonen-from-nucleons-to-nucleus",
+          "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+          "pdf_page": 554,
+          "locator": "Eqs.17.70–17.74",
+          "printed_page": 543
+        },
+        {
+          "source_id": "book-suhonen-from-nucleons-to-nucleus",
+          "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+          "pdf_page": 556,
+          "locator": "Eqs.17.83–17.84; spin–orbit partner limitations",
+          "printed_page": 545
+        },
+        {
+          "source_id": "doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives",
+          "raw_file": "raw/papers/gpt/query/20261108-foundations-G34/Zhi_2013_PRC_87_025803_SM_halflives_first_forbidden.pdf",
+          "pdf_page": 2,
+          "locator": "Eq.(4): t−n=p and GT reduced strength",
+          "printed_page": 2
+        }
+      ],
+      "correct_equation_or_conditions": "取 t3(n)=+1/2、t−n=p；S±=(2Ji+1)^−1ΣMi,f,Mf,μ |<f|Σσμt±|i>|²，则 S−−S+=3(N−Z)。乘 q 的两个裸算符对应差和 q²3(N−Z)；两体或有效算符须重新求对易子及投影闭合。",
+      "evidence_boundary": "Suhonen 所列原文推导示例限定 0+；任意 Ji 的初态平均等价减约式由本审明确推广，不应误称原书该段已证明所有标记方式。"
+    },
+    {
+      "id": "T21-05",
+      "severity": "moderate",
+      "frozen_line": [
+        "sec-4-7.frozen.tex:47–51,154"
+      ],
+      "finding": "将 CVC 的全部保护说成仅限零动量总矢量荷过窄；CVC 亦对矢量流和特定禁戒形状因子给出关系。",
+      "actual_raw_pdf_locator": [
+        {
+          "source_id": "doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives",
+          "raw_file": "raw/papers/gpt/query/20261108-foundations-G34/Zhi_2013_PRC_87_025803_SM_halflives_first_forbidden.pdf",
+          "pdf_page": 3,
+          "locator": "Eq.(11): CVC relates ξ′y to x under stated assumptions",
+          "printed_page": 3
+        }
+      ],
+      "correct_equation_or_conditions": "零动量总同位旋荷的归一是此处 Fermi 例子所需结果；有限动量、破缺与截断时不可将其误扩为所有矢量矩阵元不变，同时保留 CVC 的流约束。",
+      "evidence_boundary": "CVC 限制受同位旋对称及具体近似条件约束；不会自动保护轴流。"
+    },
+    {
+      "id": "T21-06",
+      "severity": "moderate",
+      "frozen_line": [
+        "sec-4-7.frozen.tex:30–44",
+        "section-4-7.frozen.json:85"
+      ],
+      "finding": "最低阶 β 光谱公式的量纲与不含耦合常数的 B 定义自洽；但文字称一般有效理论公式，未明确辐射、反冲与核有限尺寸近似，台账将 Zhi Eq.(4) 当作微分谱。",
+      "actual_raw_pdf_locator": [
+        {
+          "source_id": "doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives",
+          "raw_file": "raw/papers/gpt/query/20261108-foundations-G34/Zhi_2013_PRC_87_025803_SM_halflives_first_forbidden.pdf",
+          "pdf_page": 2,
+          "locator": "Eqs.(1)–(4): phase space Eq.2, GT shape and coupling Eq.4",
+          "printed_page": 2
+        },
+        {
+          "source_id": "book-suhonen-from-nucleons-to-nucleus",
+          "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+          "pdf_page": 178,
+          "locator": "Eqs.7.12–7.14: allowed strength normalization",
+          "printed_page": 163
+        }
+      ],
+      "correct_equation_or_conditions": "GF^(E) 为能量^-2、W与p无量纲时前因子为 s^-1；本节 C_allowed=gV² BF+gA² BGT，Zhi 将 (gA/gV)² 放入 BGT，比较应统一。注明最低阶与修正口径，谱形/积分是 Zhi Eq.(2)。",
+      "evidence_boundary": "示意常数采用给定 GF、Vud、me 得未加修正 K≈6292 s，Zhi 的 K=6146 s 不能脱离修正与常数约定直接等同；不单凭此差断言作者错误。"
+    },
+    {
+      "id": "T21-07",
+      "severity": "moderate",
+      "frozen_line": [
+        "sec-4-7.frozen.tex:53–57",
+        "section-4-7.frozen.json:92–105"
+      ],
+      "finding": "Wang 的 RPA/PVC 例子被扩写成双闭壳核解阻塞的普遍机制，但 132Sn 的 SGII PVC 计算在 β 窗内仍无 GT 强度；56Ni 数据例子涉及电子俘获。",
+      "actual_raw_pdf_locator": [
+        {
+          "source_id": "wang-2026-axial-coupling-quenching-joint-effects",
+          "raw_file": "raw/papers/gpt/query/20261113-A130-axial-currents/wang-2026-arxiv2605.21218v1.pdf",
+          "pdf_page": 3,
+          "locator": "Fig.1 and SkM* results for 56Ni and 132Sn",
+          "printed_page": 3
+        },
+        {
+          "source_id": "wang-2026-axial-coupling-quenching-joint-effects",
+          "raw_file": "raw/papers/gpt/query/20261113-A130-axial-currents/wang-2026-arxiv2605.21218v1.pdf",
+          "pdf_page": 4,
+          "locator": "text: 132Sn SGII PVC no GT strength in Q window and Table I",
+          "printed_page": 4
+        },
+        {
+          "source_id": "wang-2026-axial-coupling-quenching-joint-effects",
+          "raw_file": "raw/papers/gpt/query/20261113-A130-axial-currents/wang-2026-arxiv2605.21218v1.pdf",
+          "pdf_page": 1,
+          "locator": "abstract: three nuclei 56Ni,100Sn,132Sn and stated model",
+          "printed_page": 1
+        }
+      ],
+      "correct_equation_or_conditions": "明确 SkM* 与各模型参数及能窗；两体流和相关效应在所研究的模型及选择范围内量化，不将低能有效 q 推广为完整差和或任意核/过程。",
+      "evidence_boundary": "该来源为 2026 预印本 v1；本次不判断其期刊状态、不用单篇模型计算证明普遍规律。"
+    },
+    {
+      "id": "T21-08",
+      "severity": "moderate",
+      "frozen_line": [
+        "sec-4-7.frozen.tex:131–141,156",
+        "section-4-7.frozen.json:145,159–160",
+        "AppendixD.frozen.tex:174–192"
+      ],
+      "finding": "外提 g_A⁴ 的表示可用，但 G、M、m_e 单位须配套；总结处将 EFT 接触项的条件省略，且台账把虚交换粒子写成轻子。 D 正文误称两个中微子在核子之间虚交换，且对电荷独立性破缺数据的约束写得过于确定。",
+      "actual_raw_pdf_locator": [
+        {
+          "source_id": "engel-menendez-2017-double-beta-matrix-elements-review",
+          "raw_file": "raw/papers/gpt/query/20261108-r3-g48-weak-operators/engel-menendez-2017-rpp-0nubb-nme.pdf",
+          "pdf_page": 4,
+          "locator": "Eqs.(9)–(10): phase-space convention, long-range NME and virtual neutrino transfer",
+          "printed_page": 4
+        },
+        {
+          "source_id": "cirigliano-2018-leading-short-range-double-beta",
+          "raw_file": "raw/papers/gpt/query/20261108-r3-t07-weak-renormalization/cirigliano-2018-prl120-202001-arxiv-1802.10097v1.pdf",
+          "pdf_page": 1,
+          "locator": "LO short-range operator and renormalization of nn→pp ee",
+          "printed_page": 1
+        },
+        {
+          "source_id": "cirigliano-2018-leading-short-range-double-beta",
+          "raw_file": "raw/papers/gpt/query/20261108-r3-t07-weak-renormalization/cirigliano-2018-prl120-202001-arxiv-1802.10097v1.pdf",
+          "pdf_page": 2,
+          "locator": "Eq.(4), nonperturbative 1S0 setup",
+          "printed_page": 2
+        }
+      ],
+      "correct_equation_or_conditions": "采用给定 G 不含外提 gA⁴、mββ/me 无量纲时，M_total 应包含所采用阶次的相容长程与短程项；若变 gA，M 内 gV/gA、形状因子及接触项定义也可能随之变化。核间虚交换粒子为中微子。",
+      "evidence_boundary": "EFT 短程项为该轻 Majorana 交换与非微扰两核子散射框架的领头阶重整化要求；有限系数需匹配，不能断言必然数值主导。未核冻结外 2.7。"
+    },
+    {
+      "id": "T21-09",
+      "severity": "major",
+      "frozen_line": [
+        "AppendixD.frozen.tex:199–234"
+      ],
+      "finding": "N=(I−Q)^−1 和 B=NR 是标准吸收链公式，但 D 的状态 a 未包含已发中子数，R 按最后一步标总 x 无法普遍重建历史；数目守恒需假定完全吸收。",
+      "actual_raw_pdf_locator": [
+        {
+          "source_id": "dimitriou-2021-beta-delayed-neutron-reference-database",
+          "raw_file": "raw/papers/gpt/query/20261108-r3-g52-beta-delayed-particles/dimitriou-2021-iaea-beta-delayed-neutron-database.pdf",
+          "pdf_page": 4,
+          "printed_page": 4,
+          "locator": "Sec. II.A Eq.(1), event normalization"
+        }
+      ],
+      "correct_equation_or_conditions": "以 (a,m) 标记核素能级及累计数，边携带 r 并更新 m→m+r；吸收态用 (c,x)。有限状态、ρ(Q)<1 且所有通道含在内时 B=NR；或者使用带 x−r 的递推/生成函数。",
+      "evidence_boundary": "某些限定模型的核素质量可作为已发中子数的充分历史，但必须明确限制；包含其他粒子和裂变时不能无条件依赖质量推断。"
+    },
+    {
+      "id": "T21-10",
+      "severity": "major",
+      "frozen_line": [
+        "AppendixD.frozen.tex:174–192"
+      ],
+      "finding": "D 误称两个中微子在核内虚交换；并声称同位旋破缺电磁数据可直接标定单一 gνNN，忽略原文只约束 LEC 组合及估计假设。",
+      "actual_raw_pdf_locator": [
+        {
+          "source_id": "cirigliano-2018-leading-short-range-double-beta",
+          "raw_file": "raw/papers/gpt/query/20261108-r3-t07-weak-renormalization/cirigliano-2018-prl120-202001-arxiv-1802.10097v1.pdf",
+          "pdf_page": 1,
+          "printed_page": 1,
+          "locator": "light-neutrino exchange and LO contact motivation"
+        },
+        {
+          "source_id": "cirigliano-2018-leading-short-range-double-beta",
+          "raw_file": "raw/papers/gpt/query/20261108-r3-t07-weak-renormalization/cirigliano-2018-prl120-202001-arxiv-1802.10097v1.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "locator": "regulated coordinate-space delta and scale dependent contact"
+        },
+        {
+          "source_id": "cirigliano-2018-leading-short-range-double-beta",
+          "raw_file": "raw/papers/gpt/query/20261108-r3-t07-weak-renormalization/cirigliano-2018-prl120-202001-arxiv-1802.10097v1.pdf",
+          "pdf_page": 4,
+          "printed_page": 4,
+          "locator": "gνNN=C1; EM CIB constrains C1+C2; estimate assumes C1≈C2"
+        }
+      ],
+      "correct_equation_or_conditions": "轻中微子机制为两个弱流顶点之间的一条虚中微子传播子；接触项采用与相互作用相容的 regulator 和耦合，CIB 数据辅助估计需说明假设，或以相容格点 QCD 匹配。",
+      "evidence_boundary": "有限短程耦合与方案相关；不能把 CIB 对组合的限制写成模型无关的唯一测定；不混同单 β 两体轴流。"
+    },
+    {
+      "id": "T21-11",
+      "severity": "major",
+      "frozen_line": [
+        "AppendixD.frozen.tex:56–84",
+        "appendix-D.frozen.json:132–137"
+      ],
+      "finding": "D 的参考态是 n=v 最低权重 S0=−S，但 CG 公式分母却取最高权重 +S，故第58/66行得出相反号并与第70行矛盾。",
+      "actual_raw_pdf_locator": [
+        {
+          "source_id": "book-jain-nuclear-isomers",
+          "raw_file": "raw/books/nuclear isomer - A Prime.pdf",
+          "pdf_page": 52,
+          "printed_page": 41,
+          "locator": "Eq.(3.14), same-seniority quasi-spin vector"
+        },
+        {
+          "source_id": "book-jain-nuclear-isomers",
+          "raw_file": "raw/books/nuclear isomer - A Prime.pdf",
+          "pdf_page": 53,
+          "printed_page": 42,
+          "locator": "Eq.(3.15), (Ω−n)/(Ω−v), even L>0"
+        }
+      ],
+      "correct_equation_or_conditions": "参考最低权重时，CG 比=(S0)/(−S)=(Ω−n)/(Ω−v)，前提 S>0；n=v,v+2,…,2Ω−v，半满 n=Ω 仅当该序列含半满且态确实存在时适用；S=0 独用三角规则。",
+      "evidence_boundary": "选 j=9/2、Ω=5、v=1、n=v 时冻结中间比为−1，而正确是+1；v=2 的允许 n=2,4,6,8 不含半满。最终第70行与 Jain 式一致；有限例不认证全附录。"
+    },
+    {
+      "id": "T21-12",
+      "severity": "major",
+      "frozen_line": [
+        "AppendixD.frozen.tex:253–268"
+      ],
+      "finding": "D 同时使用 Γ_n∝√E T_l 与 T_l∝E^(l+1/2)，若 T_l 是标准道穿透因子则重复计入速度/阈值相空间；无给定宽度却断言 γ 分支超过90%。",
+      "actual_raw_pdf_locator": [
+        {
+          "source_id": null,
+          "raw_file": "raw/books/Introduction to Nuclear Reactions (C.A. Bertulani P. Danielewicz) (Z-Library).pdf",
+          "pdf_page": 145,
+          "printed_page": 134,
+          "locator": "reduced width γ²=Γ/(2P); s-wave neutron penetrability P=kR"
+        }
+      ],
+      "correct_equation_or_conditions": "R 矩阵定义下 Γ_l=2γ_l²P_l，平滑约化宽度、有限程中性粒子极限 P_l∝k^(2l+1)；至少 l=0 时 Γ∝√E 而非 E。另行声明不同透射系数定义。",
+      "evidence_boundary": "因耦合和竞争 γ 宽度未给定，不可推出超过90%的分支；阈值重整化、共振与能量依赖约化宽度可改变简化标度。"
+    },
+    {
+      "id": "T21-13",
+      "severity": "moderate",
+      "frozen_line": [
+        "AppendixD.frozen.tex:157–160"
+      ],
+      "finding": "将位置矢量 r 与 σ×r 一并标为一阶禁戒轴矢量项。",
+      "actual_raw_pdf_locator": [
+        {
+          "source_id": "doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives",
+          "raw_file": "raw/papers/gpt/query/20261108-foundations-G34/Zhi_2013_PRC_87_025803_SM_halflives_first_forbidden.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "locator": "Eq.(8b) x is vector r, Eq.(8c) u is axial [r×σ]^1"
+        }
+      ],
+      "correct_equation_or_conditions": "按 Zhi 的定义，位置矢量 r 属矢量流 rank-1 项，耦合 σ 与 r 的 rank-1 项属轴流；算符、相位和耦合随具体约定列出。",
+      "evidence_boundary": "仅核这两个 rank-1 归类；未扩为完整 FF 算符全套审计。"
+    }
+  ],
+  "accepted_with_conditions": [
+    {
+      "frozen_line": "sec-4-7.frozen.tex:30–44",
+      "description": "Dimensioned GF and dimensionless spectrum variables are consistent at stated leading order when BF/BGT omit weak couplings; distinguish from source definition that includes gA/gV."
+    },
+    {
+      "frozen_line": "sec-4-7.frozen.tex:131–141",
+      "description": "Light Majorana mechanism and factorized G gA⁴ expression are usable with stated consistent conventions, complete total NME and explicit contact contribution."
+    }
+  ],
+  "validation": {
+    "script": "validation.py",
+    "results": "results.json",
+    "status": "passed",
+    "repro_command": "python3 -B outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T21/validation.py",
+    "method": "Exact-rational complete path enumeration including 1n→γ, spin-1/2 GT M-average, seniority lowest-weight ratio and dimensional beta prefactor.",
+    "limits": "Finite examples do not certify an actual nucleus, detector, complete D, or compatibility with unfrozen 2.7."
+  },
+  "artifacts": [
+    "report.json",
+    "correction.tex",
+    "validation.py",
+    "results.json"
+  ],
+  "release_decision": "must_revise",
+  "prohibited_changes": "No canonical source, notes, bibliography, status, Git or other task files changed.",
+  "original_version_boundaries": {
+    "Zhi": "Actual local PDF is the arXiv:1301.5225v1 preprint; do not imply journal typeset pages were inspected.",
+    "Cirigliano": "Actual local PDF is arXiv:1802.10097v1 preprint; source ID refers to later PRL article.",
+    "Wang": "Actual local PDF is arXiv:2605.21218v1 preprint; no later publication status checked.",
+    "Dimitriou": "Actual local PDF uses its own page numbering; Eq.(1) is PDF4/page4, not PDF8.",
+    "Jain": "Actual local book Nuclear Isomers: A Primer, copyright 2021; Appendix D ledger lists 2015 and wrong chapter numbers for seniority."
+  },
+  "input_correction": {
+    "requested_weak_appendix": "Appendix D",
+    "actual_frozen": "AppendixD.frozen.tex",
+    "appendix_E": "Earlier E was a parent input error; its snapshots remain historical provenance and are not part of the present narrow audit.",
+    "remaining_limitation": "Actual accepted section 2.7 was not supplied as a frozen input, so exact symbol and text consistency cannot be certified."
+  },
+  "not_reviewed": [
+    "All Appendix D sections beyond the named weak/cascade interfaces and the explicit nearby seniority-domain and threshold issues",
+    "Canonical section 2.7 not frozen",
+    "Experiments or detector hardware"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "accepted_after_parent_narrow_corrections",
+  "note": "knowledge/research-notes/a130-rewrite-statistical-model-and-covariance-audit-20261114.md",
+  "sha256": "201ce9a5a63bccef184687e42d72ae04d5e07e3d951893f243de3e67ddacf031",
+  "actual_utc": "2026-11-13T21:19:10.400749+00:00",
+  "boundaries": [
+    "Poisson thinning conditional on event model",
+    "MCMC not a mandatory repair of dense spectra",
+    "frequentist Wilks assumptions distinguished from priors"
+  ]
+}

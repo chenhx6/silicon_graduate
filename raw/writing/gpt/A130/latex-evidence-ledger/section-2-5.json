@@ -5,7 +5,7 @@
   "type": "new-draft",
   "status": "latex-draft-final-audited-v5",
   "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-5.tex",
-  "output_tex_sha256": "d63f29d8e491069876161d6dfe49f8997ad0ac0af514ea56c9c25b06a85b4fcb",
+  "output_tex_sha256": "090b1ca3fb28ffd6a9e775e28a2b9ecbec13fc8224458ce214a513e63a6767e8",
   "scope_boundary": "系统阐释微观单体平均场参考态自发对称破缺与实验室定态之间的物理关系，含 hbar 量纲规范的三维角动量投影算符代数与重叠核度规，Hill-Wheeler 广义本征方程与能标规范平移不变性定理，线性幺正宇称投影与反幺正手征反转算符的反线性不可投影性本质区别，并提供非正交双态模型与轴对称波包投影两个最短可计算手算阶梯；群论投影乘法规则、复久期分解、定理证明与度规截断算法链接至附录B。",
   "source_inputs": [
     {
@@ -118,6 +118,14 @@
     "不假装阅读未核查的 1975 年 BM II 首印版，如实标明 1998/1999 World Scientific 再版 PDF"
   ],
   "open_issues": [],
-  "parent_final_tex_sha256": "d63f29d8e491069876161d6dfe49f8997ad0ac0af514ea56c9c25b06a85b4fcb",
-  "integration_status": "included-in27-section-clean-preview"
+  "parent_final_tex_sha256": "090b1ca3fb28ffd6a9e775e28a2b9ecbec13fc8224458ce214a513e63a6767e8",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "latex_sha256": "090b1ca3fb28ffd6a9e775e28a2b9ecbec13fc8224458ce214a513e63a6767e8",
+  "parent_readability_revision_20261114": {
+    "receipt": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G97/parent-readability-acceptance.json",
+    "tex_sha256": "090b1ca3fb28ffd6a9e775e28a2b9ecbec13fc8224458ce214a513e63a6767e8",
+    "scope": "precise prose and conditional axis-map bridge; display equations unchanged"
+  },
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-5.tex",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
 }

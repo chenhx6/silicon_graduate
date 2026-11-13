@@ -197,6 +197,8 @@
     "math_fidelity": "100% display equations identical, inline math enriched with explicit metric/weight distinctions"
   },
   "target_sha256": "7da9f4be6a5993defb52052ea928dcddbebb02822c3bae2cf672da38fbf9d9ef",
-  "parent_final_tex_sha256": "7da9f4be6a5993defb52052ea928dcddbebb02822c3bae2cf672da38fbf9d9ef",
-  "integration_status": "included-in27-section-clean-preview"
+  "parent_final_tex_sha256": "204c544fff9c6d77e4cbd67aa88c5620662e48d5e0aa3bed04535c583d88b1cf",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-4.tex",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
 }

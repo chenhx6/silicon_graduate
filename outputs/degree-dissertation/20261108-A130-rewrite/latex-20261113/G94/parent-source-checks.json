@@ -1,0 +1,22 @@
+[
+  {
+    "source_id": "book-suhonen-from-nucleons-to-nucleus",
+    "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+    "sha256_matches_canonical": true
+  },
+  {
+    "source_id": "book-bohr-mottelson-nuclear-structure",
+    "raw_file": "raw/books/nuclear structure Ⅰ_Bohr, Mottelson.pdf",
+    "sha256_matches_canonical": true
+  },
+  {
+    "source_id": "lange-kumar-hamilton-1982-multipole-admixtures",
+    "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+    "sha256_matches_canonical": true
+  },
+  {
+    "source_id": "book-hamilton-electromagnetic-interaction",
+    "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+    "sha256_matches_canonical": true
+  }
+]

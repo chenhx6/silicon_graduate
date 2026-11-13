@@ -1,0 +1,99 @@
+{
+  "section_id": "3.3",
+  "title": "准粒子顺排与横/纵向分支",
+  "section_label": "sec:3-3",
+  "status": "canonical-complete",
+  "timestamp": "2026-11-13T06:16:03.678359+00:00",
+  "reader_starting_point": "读者已在第2.2节掌握微观轨道占据与单粒子势，第2.3节理解准粒子与配对激发，第2.6节掌握转动响应与惯量机制，第3.2节理解纯转子稳定主轴与局域摆动极限。本节将未配对高j价核子引入三轴转子，探讨粒子-转子耦合与横/纵向动力学分叉。",
+  "central_question": "奇 A 核中未配对价准粒子角动量 j 与三轴变形核芯集体转动 R 发生矢量相干耦合时，准粒子顺排方向相对于核芯最大惯量轴的取向如何严格定义纵向摆动 (LW) 与横向摆动 (TW)？为什么横向摆动的特征激发能量随自旋呈现反常软化，临界分叉自旋如何导出，以及超形变区与正常形变区实验判据有何深刻条件差异？",
+  "pedagogical_question_chain": [
+    "Q1: 如何严格区分未配对价核子角动量 j、核芯集体角动量 R 与实验室总角动量 I？为什么 TW 与 LW 的区分必须基于 j 相对于核芯最大惯量轴的取向，而绝非 j 垂直于总角动量 I？",
+    "Q2: 在冻结顺排 (FA) 教学模型 H = sum_k A_k (I_k - j_k)^2 中，体坐标反常负对易子如何匹配产生湮灭算符？大自旋展开下引入的有效常数 Abar_1 = A_1 (1 - j/I) 与两个横向曲率 C_2, C_3 是如何由代数严格导出的？",
+    "Q3: 为什么纵向分支 (LW) 的摆动能量随自旋单调上升，而横向分支 (TW) 必然出现随自旋下降并在临界自旋 I_c 处发生模式软化与倾斜轴分叉？局部转动角速度 dE/dI 中为什么不可忽略 I-j 与 I 的区别？",
+    "Q4: 为什么 163Lu TSD 带成为公认的横向摆动纯净范例，而 A~130 区（如 135Pr、133La）却存在强烈的多极混合比 delta 双根歧义与倾斜进动 (TiP) / 组态交叉竞争？",
+    "Q5: 真实核中的频率升降曲线为什么不能唯一排他地指定摆动模式？在缺乏带间绝对 B(E2) 跃迁指纹的情况下，依靠经验能谱能量比或直接在同自旋下作能差有何深刻的物理谬误？"
+  ],
+  "subsections": [
+    {
+      "id": "3.3.1",
+      "title": "角动量矢量耦合与主轴惯量参考坐标",
+      "label": "sec:3-3-1",
+      "argument": "引入粒子-转子模型总角动量耦合 I = R/hbar + j 与核芯转动哈密顿量。严格区分守恒总角动量 I 与未配对部分 R。确立 TW 与 LW 的内禀几何定义：LW 是 j 平行于核芯最大惯量轴，TW 是 j 垂直于核芯最大惯量轴。澄清 j 与 I 夹角随自旋动态演化。",
+      "key_equations": [
+        "\\hat{\\boldsymbol{\\mathcal{I}}} = \\frac{\\hat{\\mathbf{R}}}{\\hbar} + \\hat{\\mathbf{j}}",
+        "\\hat{H}_{\\text{core}} = \\sum_{k=1}^3 A_k \\left( \\mathcal{I}_k - j_k \\right)^2",
+        "\\text{LW: } \\mathbf{j} \\parallel \\text{轴 } \\mathcal{J}_{\\text{max}}, \\quad \\text{TW: } \\mathbf{j} \\perp \\text{轴 } \\mathcal{J}_{\\text{max}}"
+      ]
+    },
+    {
+      "id": "3.3.2",
+      "title": "冻结顺排哈密顿量与双横向曲率展开",
+      "label": "sec:3-3-2",
+      "argument": "采用 Frauendorf & Donau (2014) 冻结顺排模型，设 j 沿主轴 1。在大自旋展开下代数推导 A_1(I_1 - j)^2 约等于 A_1(I-j)^2 - Abar_1(I_2^2 + I_3^2)，其中 Abar_1 = A_1 (1 - j/I)。导出两个横向恢复力曲率 C_2 = (A_2 - A_1) + A_1 j/I 与 C_3 = (A_3 - A_1) + A_1 j/I。在体轴负对易关系下通过 Bogoliubov 变换导出摆动频率 hbar omega_wob = 2I sqrt(C_2 C_3)。",
+      "key_equations": [
+        "\\bar{A}_1 \\equiv A_1 \\left( 1 - \\frac{j}{I} \\right)",
+        "C_2 = (A_2 - A_1) + A_1 \\frac{j}{I}, \\quad C_3 = (A_3 - A_1) + A_1 \\frac{j}{I}",
+        "\\hbar \\omega_{\\text{wob}} = 2I \\sqrt{C_2 C_3}"
+      ]
+    },
+    {
+      "id": "3.3.3",
+      "title": "纵向分支单调上升与横向分支软化分叉机制",
+      "label": "sec:3-3-3",
+      "argument": "对比 LW 与 TW 的曲率响应：LW 轴 1 惯量最大，A_2 - A_1 > 0 使得曲率恒正且随 I 增加，频率单调上升；TW 中核芯最大惯量在轴 2 (A_2 - A_1 < 0)，低自旋由正定 A_1 j/I 陀螺稳定，随 I 增加有效常数稀释导致曲率软化，在临界自旋 I_c = j / (1 - J_1/J_2) 处 C_2=0 发生拓扑分叉，转入倾斜轴旋转。明确转动角速度微商中 I-j 与 I 的不可忽视差异。",
+      "key_equations": [
+        "\\text{LW: } \\frac{d(\\hbar \\omega_{\\text{wob}})}{dI} > 0",
+        "\\text{TW: } \\frac{d(\\hbar \\omega_{\\text{wob}})}{dI} < 0, \\quad I_c = \\frac{j}{1 - \\mathcal{J}_1 / \\mathcal{J}_2}",
+        "\\hbar \\omega_{\\text{rot}} = \\frac{dE}{dI} = 2 A_1 (I - j) = \\frac{\\hbar^2(I - j)}{\\mathcal{J}_1}"
+      ]
+    },
+    {
+      "id": "3.3.4",
+      "title": "实验实例对比：163Lu TSD 与 A~130 候选核的条件差异",
+      "label": "sec:3-3-4",
+      "argument": "对比 163Lu TSD 带（高形变、pi i13/2 纯粒子顺排、流体惯量 J_m > J_s、频率单调下降至 0.2 MeV）与 A~130 正常形变核（势面较软、delta 双根歧义导致 B(E2) 不确定、以及倾斜进动 TiP 和多准粒子带交叉替代竞争）。规范实验提取 Ewob(I) 的内插扣除公式，禁止无依据同自旋直接相减。",
+      "key_equations": [
+        "E_{\\text{wob}}(I) \\equiv E(I, \\text{wob}) - \\frac{E(I-1, \\text{yrast}) + E(I+1, \\text{yrast})}{2}"
+      ]
+    },
+    {
+      "id": "3.3.5",
+      "title": "微观重排、自洽响应与模型竞争解释",
+      "label": "sec:3-3-5",
+      "argument": "指出准粒子解冻、频率依赖有效惯量与科里奥利反配对会使真实能谱偏离简谐假说。频率升降曲线不能排他性认证摆动模式。强调判定横向摆动模式的决定性探针是带间强 B(E2) 增强与受禁 M1 跃迁网络。",
+      "key_equations": []
+    }
+  ],
+  "source_inputs": [
+    {
+      "source_id": "frauendorf-2014-transverse-wobbling",
+      "canonical_source": "S. Frauendorf & F. Dönau, Phys. Rev. C 89, 014322 (2014)",
+      "read_locators": "PDF pp. 4–7 (Section III Harmonic Frozen Alignment Approximation, Eqs.(10)–(20))",
+      "supports": "冻结顺排哈密顿量、有效转动常数 Abar、双横向曲率与摆动频率公式、临界分叉自旋"
+    },
+    {
+      "source_id": "odegard-2001-evidence-wobbling-163lu",
+      "canonical_source": "S. W. Ødegård et al., Phys. Rev. Lett. 86, 5866 (2001)",
+      "read_locators": "PRL 86, 5866–5869, PDF pp. 1–4",
+      "supports": "163Lu TSD 横向摆动单声子带实验能谱与 B(E2) 跃迁"
+    },
+    {
+      "source_id": "matta-2015-transverse-wobbling-135pr",
+      "canonical_source": "J. T. Matta et al., Phys. Rev. Lett. 114, 082501 (2015)",
+      "read_locators": "PRL 114, 082501, PDF pp. 1–6",
+      "supports": "135Pr 正常形变低自旋横向摆动候选带实验数据与争议背景"
+    },
+    {
+      "source_id": "lv-2022-evidence-against-wobbling-135pr",
+      "canonical_source": "B. F. Lv et al., Phys. Rev. Lett. 129, 042501 (2022)",
+      "read_locators": "PRL 129, 042501, PDF pp. 1–6",
+      "supports": "135Pr delta 双根反演与反驳纯横向摆动解释的实验测量"
+    },
+    {
+      "source_id": "lawrie-2020-tilted-precession-wobbling",
+      "canonical_source": "E. A. Lawrie et al., Phys. Rev. Lett. 125, 102501 (2020)",
+      "read_locators": "PRL 125, 102501, PDF pp. 1–6",
+      "supports": "三维倾斜进动 (TiP) 替代竞争机制"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+    "raw_file": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+    "matches_canonical": true
+  },
+  {
+    "source_id": "wu-2021-general-purpose-digital-daq-waveform-analysis",
+    "raw_file": "raw/theses/degree-dissertation/基于数字化的通用获取系统及波形分析算法.pdf",
+    "matches_canonical": true
+  },
+  {
+    "source_id": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+    "raw_file": "raw/papers/gpt/query/20261108-foundations-G32/lipschutz-2016-lenda-ddas-timing.pdf",
+    "matches_canonical": true
+  },
+  {
+    "source_id": "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+    "raw_file": "raw/papers/gpt/query/20261108-foundations-G32/hennig-2007-pixie16-clock-trigger-sync.pdf",
+    "matches_canonical": true
+  },
+  {
+    "source_id": "wolff-1982-poisson-arrivals-see-time-averages",
+    "raw_file": "raw/papers/gpt/query/20261113-A130-live-time/wolff-1982-poisson-arrivals-see-time-averages.pdf",
+    "matches_canonical": true
+  }
+]

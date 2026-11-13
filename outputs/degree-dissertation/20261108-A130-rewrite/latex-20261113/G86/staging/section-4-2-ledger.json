@@ -1,0 +1,244 @@
+{
+  "section_id": "4.2",
+  "title": "轻区与A80的形状混合",
+  "target_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-2.tex",
+  "staging_tex_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G86/staging/section-4-2.tex",
+  "tex_sha256": "349f0b90e812772c129d0efa6d5736196099e48437261c10e060dfceb980e201",
+  "recorded_at": "2026-11-13T12:25:00+00:00",
+  "executor": "G86",
+  "sources": [
+    {
+      "source_id": "crider-2016-68ni-shape-coexistence",
+      "source_page": "knowledge/sources/doctoral-r1-g26-crider-2016-68ni-shape-coexistence.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G26/crider-2016-68ni-shape-coexistence.pdf",
+      "raw_sha256": "923ce537b505cecd49cdf75901bdd1be76896da0326ce29e8b049f10143d4b28",
+      "reading_depth": "deep-read",
+      "verified_locators": {
+        "pdf_pages": [
+          2,
+          4
+        ],
+        "print_pages": [
+          109,
+          111
+        ],
+        "items": [
+          "Table 1: Measured half-lives and branching ratios",
+          "Fig. 2: Partial level scheme of 68Ni"
+        ],
+        "text_anchor": "Evidence of shape coexistence in 68Ni was first suggested by the identification of an excited 0+ state at 1605 keV"
+      }
+    },
+    {
+      "source_id": "doctoral-r1-g26-starosta-2007-64ge-rdm-e2",
+      "source_page": "knowledge/sources/doctoral-r1-g26-starosta-2007-64ge-rdm-e2.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G26/starosta-2007-64ge-rdm-e2.pdf",
+      "raw_sha256": "715a4c8ada9a6e4bcc2be1df8c845e680d81b6f0c4f91bf70931fe7b10592ad8",
+      "reading_depth": "deep-read",
+      "verified_locators": {
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "print_pages": [
+          "042503-1",
+          "042503-3"
+        ],
+        "items": [
+          "Table I: Experimental and calculated properties for 64Ge",
+          "Text on plunger measurement"
+        ],
+        "text_anchor": "The calculation with GXPF1A does reasonably well in reproducing the measured B(E2)"
+      }
+    },
+    {
+      "source_id": "doctoral-r1-g27-clement-2007-prc-krypton-coulex",
+      "source_page": "knowledge/sources/doctoral-r1-g27-clement-2007-prc-krypton-coulex.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G27/clement-2007-74kr-76kr-coulex-prc.pdf",
+      "raw_sha256": "2ee6c7be8a2fbb72a9f647a0c284181b2fc197e167381be67685f3a15018c0e8",
+      "reading_depth": "deep-read",
+      "verified_locators": {
+        "pdf_pages": [
+          1,
+          10
+        ],
+        "print_pages": [
+          "054313-1",
+          "054313-10"
+        ],
+        "items": [
+          "Table IV & Table VI: Experimental E2 matrix elements and static quadrupole moments",
+          "Figs. 10-14"
+        ],
+        "text_anchor": "The spectroscopic quadrupole moments measured for the lowest states confirm the shape coexistence in both isotopes"
+      }
+    },
+    {
+      "source_id": "ayangeakaa-2019-rigid-triaxial-ge76",
+      "source_page": "knowledge/sources/ayangeakaa-2019-rigid-triaxial-ge76.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/ayangeakaa-2019-rigid-triaxial-ge76.pdf",
+      "raw_sha256": "fd549c59e62774b43690a8ae3b5c4bf638982f6c9b888dd0f0aba83b3993b733",
+      "reading_depth": "deep-read",
+      "verified_locators": {
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "print_pages": [
+          "102501-1",
+          "102501-3"
+        ],
+        "items": [
+          "Table I: Experimental E2 matrix elements and quadrupole invariants",
+          "Fig. 2"
+        ],
+        "text_anchor": "The small fluctuations in delta imply that the triaxial shape in 76Ge is rather rigid"
+      }
+    },
+    {
+      "source_id": "ding-2025-chiral-rotation-a60-residual-interactions",
+      "source_page": "knowledge/sources/ding-2025-chiral-rotation-a60-residual-interactions.md",
+      "raw_file": "raw/papers/Exploring chiral rotation in A ≈ 60 nuclei  Role of residual interactions.pdf",
+      "raw_sha256": "5264bd9192b988021d2ee21f2861bce80f2f7ac04ba26f04ea3f0e8125be599e",
+      "reading_depth": "deep-read",
+      "verified_locators": {
+        "pdf_pages": [
+          7,
+          8
+        ],
+        "print_pages": [
+          "074101-6",
+          "074101-7"
+        ],
+        "items": [
+          "Sec. IV: Role of residual interaction Vpn",
+          "Fig. 7 & Fig. 9: Staggering parameter S(I)"
+        ],
+        "text_anchor": "With the inclusion of the residual proton-neutron interaction in the PRM adopting the above optimal parameters"
+      }
+    },
+    {
+      "source_id": "liu-chen-2016-78br-chirality-reflection-symmetry-thesis",
+      "source_page": "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+      "raw_file": "raw/theses/degree-dissertation/刘晨_奇奇核~(78)Br中手征...间反射对称性的联立自发破缺.pdf",
+      "raw_sha256": "5e00370aab205b689841cb58d65c7fad8829e3de74f084736a74f2d8658ab291",
+      "reading_depth": "deep-read",
+      "verified_locators": {
+        "pdf_pages": [
+          78,
+          80,
+          82,
+          90
+        ],
+        "print_pages": [
+          78,
+          80,
+          82,
+          90
+        ],
+        "items": [
+          "第5章 78Br高自旋态实验结果与讨论",
+          "第5.4节 总结与展望"
+        ],
+        "text_anchor": "电磁跃迁几率B(M1)/B(E2)比值也存在着奇偶摇摆效应。这些特征都与手征带的实验特征相吻合，但由于目前的实验数据较为有限，无法得到准确的结论。"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "G86-4-2-C01",
+      "text": "两态混合模型推导表明，仅凭能级间距Delta E不能唯一确定混合角与未微扰能隙；强电单极跃迁rho^2(E0)严格要求混合非零与构型间内禀电荷均方半径差异Delta<r^2>非零同时满足。",
+      "kind": "algebraic-derivation-and-observable-criterion",
+      "source_id": "crider-2016-68ni-shape-coexistence",
+      "verified_locator": {
+        "pdf_page": 2,
+        "print_page": 109,
+        "item_id": "Text and Eq. (1)",
+        "text_anchor": "Evidence of shape coexistence in 68Ni was first suggested by the identification of an excited 0+ state at 1605 keV"
+      },
+      "conditions": "假定未微扰态正交且两态之间非对角单粒子电单极跃迁矩阵元被组态差异阻碍。"
+    },
+    {
+      "id": "G86-4-2-C02",
+      "text": "68Ni在Z=28闭壳与N=40次闭壳处测得0+_2 (1605 keV, T1/2=560 ns)与0+_3 (2511 keV)态寿命与极强E0跃迁强度，证实球形、长椭与扁椭三形状共存。",
+      "kind": "experimental-measurement-and-model-interpretation",
+      "source_id": "crider-2016-68ni-shape-coexistence",
+      "verified_locator": {
+        "pdf_page": 4,
+        "print_page": 111,
+        "item_id": "Table 1 & Fig. 2",
+        "text_anchor": "Evidence of shape coexistence in 68Ni was first suggested by the identification of an excited 0+ state at 1605 keV"
+      },
+      "conditions": "放射性束流beta衰变与异能态电子转化发射联合实验测量。"
+    },
+    {
+      "id": "G86-4-2-C03",
+      "text": "64Ge通过单中子敲出反应与RDM反冲距离法测定2+_1寿命tau=2.4(7) ps与强B(E2)；原件Table I中的静四极矩Q(2+_1)位于理论计算列，绝非实验实测值，不能据此断言已证实形状共存。",
+      "kind": "experimental-measurement-plus-model-column-boundary",
+      "source_id": "doctoral-r1-g26-starosta-2007-64ge-rdm-e2",
+      "verified_locator": {
+        "pdf_page": 3,
+        "print_page": "042503-3",
+        "item_id": "Table I",
+        "text_anchor": "The calculation with GXPF1A does reasonably well in reproducing the measured B(E2)"
+      },
+      "conditions": "实验实测仅包含寿命与约化跃迁几率，静四极矩为GXPF1A与非谐振子模型理论预测。"
+    },
+    {
+      "id": "G86-4-2-C04",
+      "text": "74,76Kr多步库仑激发直接测定静电四极矩符号：76Kr为负(Qs(2+_1)=-0.57(9) eb，长椭)，74Kr反号为正(Qs(2+_1)=+0.59(12) eb，扁椭)，证实基态长扁反转并打破能谱退化。",
+      "kind": "experimental-measurement-and-shape-inversion-proof",
+      "source_id": "doctoral-r1-g27-clement-2007-prc-krypton-coulex",
+      "verified_locator": {
+        "pdf_page": 10,
+        "print_page": "054313-10",
+        "item_id": "Table IV & Table VI",
+        "text_anchor": "The spectroscopic quadrupole moments measured for the lowest states confirm the shape coexistence in both isotopes"
+      },
+      "conditions": "SPIRAL放射性束流与稳定束在208Pb靶上的安全多步库仑激发，GOSIA全局拟合反演。"
+    },
+    {
+      "id": "G86-4-2-C05",
+      "text": "76Ge多步库仑激发提取Kumar-Cline几何不变量<Q^2>=0.283 eb^2与<cos 3delta>=0.38及小涨落sigma(delta)=13(4)度，确立局域刚性三轴极小，区别于72Ge的0+_2侵入态低能共存。",
+      "kind": "model-independent-coulomb-excitation-analysis",
+      "source_id": "ayangeakaa-2019-rigid-triaxial-ge76",
+      "verified_locator": {
+        "pdf_page": 3,
+        "print_page": "102501-3",
+        "item_id": "Table I & Fig. 2",
+        "text_anchor": "The small fluctuations in delta imply that the triaxial shape in 76Ge is rather rigid"
+      },
+      "conditions": "GRETINA+CHICO2多步库仑激发全矩阵元网络无模型依赖求和。"
+    },
+    {
+      "id": "G86-4-2-C06",
+      "text": "A约60奇奇核手征微观PRM计算证明，残余质中力V_pn对能级交错参数S(I)的符号演化具有强烈调节效应，单凭S(I)符号震荡不能作为三轴刚性与gamma软势的排他判据。",
+      "kind": "microscopic-model-calculation-and-boundary",
+      "source_id": "ding-2025-chiral-rotation-a60-residual-interactions",
+      "verified_locator": {
+        "pdf_page": 8,
+        "print_page": "074101-7",
+        "item_id": "Sec. IV & Fig. 9",
+        "text_anchor": "With the inclusion of the residual proton-neutron interaction in the PRM adopting the above optimal parameters"
+      },
+      "conditions": "小价空间限制下奇奇核PRM引入残余相互作用的理论计算结果。"
+    },
+    {
+      "id": "G86-4-2-C07",
+      "text": "74As与78Br奇奇核仅作为价轨道填充极化核芯形状的低能接口；刘晨博士论文明确指出双带手征性受限于实验数据尚无确切定论，联立手征-反射破缺检验严格留待4.5节。",
+      "kind": "epistemological-interface-and-scope-boundary",
+      "source_id": "liu-chen-2016-78br-chirality-reflection-symmetry-thesis",
+      "verified_locator": {
+        "pdf_page": 90,
+        "print_page": 90,
+        "item_id": "第5.4节",
+        "text_anchor": "电磁跃迁几率B(M1)/B(E2)比值也存在着奇偶摇摆效应。这些特征都与手征带的实验特征相吻合，但由于目前的实验数据较为有限，无法得到准确的结论。"
+      },
+      "conditions": "恪守分节写作合同，不越界抢写高自旋反射-手征联立对称性破缺内容。"
+    }
+  ],
+  "unresolved_issues": [
+    "64Ge尚未实现直接重离子库仑激发以测定对角静四极矩Qs(2+_1)，其三轴刚性还是gamma软振动的实验裁决仍待高流强放射性束实验验证",
+    "78Br中虽然观察到多重正负宇称带间电偶极连接，但由于未测定绝对跃迁矩阵元，其内禀反射不对称形变与动力学振动耦合仍存在理论分歧"
+  ]
+}

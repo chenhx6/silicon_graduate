@@ -1,0 +1,43 @@
+{
+  "task_id": "G88",
+  "section": "3.4",
+  "status": "completed-round2-refinement-submitted-for-parent-acceptance",
+  "timestamp": "2026-11-13T12:20:00.000000+00:00",
+  "modified_paths": [
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-4.tex",
+    "raw/writing/gpt/A130/latex-evidence-ledger/section-3-4.json",
+    "knowledge/research-notes/a130-rewrite-angular-convention-reference-20261113.md",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G88/runtime-receipt.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G88/receipt.json"
+  ],
+  "items_mapping": {
+    "34-1": "Corrected wobbling frequency formula units: for dimensionless I and physical J, frequency is omega_wob = sqrt[(hbar I/J_y - omega_rot)(hbar I/J_z - omega_rot)] and energy is hbar omega_wob = sqrt[(hbar^2 I/J_y - hbar omega_rot)(hbar^2 I/J_z - hbar omega_rot)], avoiding mixing frequency and energy dimensions. Referenced canonical Section 3.2.",
+    "34-2": "Separated parameter evolution along a spin sequence from actual time evolution. Removed comparison of rearrangement rate with oscillation period. Formulated isolated stable small-amplitude normal modes, referencing Section 3.6 for coupled harmonic RPA modes.",
+    "34-3": "Clarified that level energies and relative branching ratios alone do not yield absolute transition strengths; stated conditional lack of absolute data (lifetimes or Coulomb excitation/absolute RME) rather than asserting lifetimes as a universal prerequisite.",
+    "34-4": "Clarified that 1/I is an asymptotic large-I limit with fixed parameters, not universal across all spin domains. Explicitly stated that M1 strength is not universally quenched even in frozen alignment, depending on magnetic operator structure, g factors, and microscopic core polarization (Frauendorf 2014 QTR limitations).",
+    "34-5": "Broadened theoretical model criteria: judgment can rely on self-consistent effective phenomenological models (IBFM, PRM) as well as microscopic frameworks. Stated that linear polarization P gives complementary electric/magnetic character, not direct level parity, and same-event DCO/P are not automatically statistically independent.",
+    "34-6": "Designated E_gamma/(hbar c) as the photon wave number k = q = E_gamma/(hbar c). Preserved T17 finite-K, R units, axial gauge redundancy R_3 = 0, and RPA frame relation omega_wob = omega_prec - omega_rot. In 1D reflection-symmetric potentials, clarified that symmetric anharmonicity alone does not remove the central node of odd eigenstates; finite-spin projected/marginalized distributions require specific definitions."
+  },
+  "file_hashes": {
+    "sec_3_4_tex": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-4.tex",
+      "sha256": "74deea66c3101c8ffb9c2993264692a912e9db2497f8b5bce01ddc7c837cdc8a"
+    },
+    "ledger_json": {
+      "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-4.json",
+      "sha256": "4be9acbafcb9c10365d9f0c32fe1cc911f89ae9d180a6b469c6fd4efde5e806d"
+    },
+    "research_note": {
+      "path": "knowledge/research-notes/a130-rewrite-angular-convention-reference-20261113.md",
+      "sha256": "d890fa90cd444e13417c1b720cb02e0b68699b2259832def7406d27c6d85dd1b"
+    },
+    "runtime_receipt": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G88/runtime-receipt.json",
+      "sha256": "70d966d1582badabbce3fce8d2da4c4313bdaa91cf08811c1a52c326fbc54a7c"
+    },
+    "parent_runtime_check": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G88/parent-runtime-check.json",
+      "sha256": "df0248816bdb72942da7928f7098faf549b74ca7d45b4bedbbb2d2c9229a2af5"
+    }
+  }
+}

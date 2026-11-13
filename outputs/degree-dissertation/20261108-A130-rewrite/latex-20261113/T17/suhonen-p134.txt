@@ -1,0 +1,58 @@
+                    6.1 General Properties of Electromagnetic Observables    119
+
+where we have the reduced transition probability
+                                             1 ##                   #2
+            B(σλ ; ξi Ji → ξf Jf ) ≡              (ξf Jf Mσλ ξi Ji )# .     (6.4)
+                                          2Ji + 1
+The usual notation is
+
+                            MEλ = Qλ ,         MMλ = M λ .                  (6.5)
+
+  Written out in detail the components of the electric and magnetic tensor
+operators are
+
+                   
+                   A
+    Qλμ = ζ (Eλ)         e(j)rjλ Yλμ (Ωj ) ,                                (6.6)
+                   j=1
+                     A $                         %
+            μN (Mλ)      2   (j)
+    Mλμ =      ζ             gl l(j) + gs(j) s(j) · ∇j [rjλ Yλμ (Ωj )] .    (6.7)
+            c      j=1
+                         λ+1
+
+Here e(j) is the electric charge, and l(j) and s(j) are the orbital and spin
+angular momenta, of nucleon j. Below we write just e for the charge, with the
+understanding that it is the fundmental unit of charge for protons and zero
+for neutrons. However, eﬀective charges can replace these values as discussed
+in Subsect. 6.1.3.
+    From (2.17) we can see that the gradient factor in the magnetic dipole
+operator M1μ is ∇(rY1μ ) ∝ êμ , so that the operator simply consists of the
+angular momentum components lμ and sμ . For λ > 1 the gradient factor is
+more complicated. However, it commutes with the l and s operators, which
+                                                                  (j)
+simpliﬁes matters.4 The g factors,5 or gyromagnetic ratios, are gs = gp for
+                      (j)
+the proton spin and gs = gn for the neutron spin. Their values are
+
+                             gp = 5.586 ,      gn = −3.826 .                (6.8)
+                               (j)                        (j)
+The orbital g factors are gl = 1 for protons and gl = 0 for neutrons. These
+free-nucleon values are used normally in nuclear structure calculations. The
+nuclear magneton is
+                                      e
+                             μN =        = 0.10515 ce fm ,                  (6.9)
+                                     2mp
+
+ where mp = 938.27 MeV/c2 is the proton mass.6
+   The phase factors ζ (Eλ) and ζ (Mλ) are diﬀerent for the CS and BR phase
+conventions, introduced in (3.67):
+4
+  For the l term this follows from the fact that (r × ∇) · ∇f = 0 for a general
+  function f (r).
+5
+  In this work the g factors are taken to be bare numbers, contrary to e.g. [17].
+6
+  In Gaussian units the nuclear magneton is μN = e/2mp c. Then there appears
+  no c in (6.7) or on the right-hand side of (6.9).
+

@@ -1,0 +1,28 @@
+{
+  "archive_required": true,
+  "state": "superseded-by-canonical-raw-manifest",
+  "reason": "原始 T14 暂存已复制到授权 raw 目录并通过有界归档门",
+  "sources": [
+    {
+      "id": "Shimizu-Matsuzaki-Matsuyanagi-2005",
+      "title": "High-K Precession modes: Axially symmetric limit of wobbling motion",
+      "doi": "10.1103/PhysRevC.72.014306",
+      "version": "arXiv:nucl-th/0412074v2, 2004-12-27；公开预印本，与期刊版本分页可能不同",
+      "url": "https://arxiv.org/pdf/nucl-th/0412074",
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T14/shimizu-2005-arxiv.pdf",
+      "sha256": "6566edd91dc5765a21241ac553f599faf0037d1cadf4113edbe1d969645e97c7",
+      "size_bytes": 478034,
+      "retrieved_at_utc": "2026-11-13T03:30:05.999109+00:00",
+      "archive_required": true,
+      "verified": "原作 PDF 第 2–3 页，Sec. II，式 (1)–(11) 及轴对称极限段；第 5–6 页 Sec. III B 对内禀高 K 与 RPA 极限的说明。全文以 hbar=1。",
+      "findings": [
+        "轴对称于主转轴时横向惯量相等，旋转系 wobbling 频率可非零；垂直于主轴的对称轴对应横向零模。",
+        "高 K 源于多准粒子内禀排列；进动带绕垂直轴集体旋转，实验室系相邻跃迁能与旋转系固定 I 频率不能混同。"
+      ],
+      "archive_status": "仅 T14 范围保存原件与本报告元数据；不符合仓库 raw/ canonical 留档门，不能称为已正式归档。写域约束禁止本代理写 raw/；请父任务在自身授权范围内登记并运行归档门。",
+      "local_search": "按作者、arXiv 号、DOI 与相关文件名搜索本地馆藏，未定位该原件；取得 arXiv 公开原作全文，并非出版商最终排版版。",
+      "retrieved_at_basis": "T14 下载文件原始文件系统 mtime，作为获取完成时间的近似记录"
+    }
+  ],
+  "canonical_manifest": "raw/papers/gpt/query/20261113-A130-precession-limits/manifest.json"
+}

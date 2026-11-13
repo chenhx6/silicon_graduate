@@ -1,0 +1,35 @@
+{
+  "executed_utc": "2026-11-08T02:57:45.179633+00:00",
+  "producer_sha256": "91f1be89be1280736783fc637cd23acc89ef84e5e7a72dd1137169e39b6078d8",
+  "input_sha256": "1f50aa8bac26a3fc823008403d14f093b2f02c8c17f10464e6d671284b7474f7",
+  "g": 4,
+  "J_T0": [
+    1,
+    3
+  ],
+  "J_T1": [
+    0,
+    2
+  ],
+  "dimensions_T0_T1": [
+    10,
+    6
+  ],
+  "weights_T0_T1": [
+    0.625,
+    0.375
+  ],
+  "pn_centroid": -0.875,
+  "forward_addition": 0.6000000000000003,
+  "removal": -0.19999999999999996,
+  "continuous_derivative": 0.20000000000000018,
+  "complete_centroid": 0.20000000000000018,
+  "overlap_probabilities": [
+    0.7999999999999999,
+    0.7999999999999997
+  ],
+  "overlap_sum": 1.5999999999999996,
+  "expansion_coefficient_square_sum": 0.6249999999999999,
+  "status": "assertions_passed",
+  "scope": "illustrative algebra; no MCSM recomputation"
+}

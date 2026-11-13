@@ -1,0 +1,19 @@
+{
+  "archive_type": "research-archive-v1",
+  "archive_required": true,
+  "retrieved_at": "2026-11-08T03:28:24.001368+00:00",
+  "files": [
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G74-v1/report.md",
+      "sha256": "adca5238941f5e23c0d170d47118fc58951702bc6297103450859ffcb2b08520",
+      "size": 34533,
+      "source": "Frozen G74 unverified report/receipt; first-page PDF mislabeled as complete, overbroad theory statements pending independent audit"
+    },
+    {
+      "path": "raw/writing/gpt/A130/review-inputs/G74-v1/receipt.json",
+      "sha256": "3291f9dd44fdea17ec9d9b832593424f6fcb85f1435c6785646a66c4f41076a6",
+      "size": 3078,
+      "source": "Frozen G74 unverified report/receipt; first-page PDF mislabeled as complete, overbroad theory statements pending independent audit"
+    }
+  ]
+}

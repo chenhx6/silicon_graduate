@@ -1,0 +1,120 @@
+{
+  "generated_at_utc": "2026-11-13T04:27:48.213732+00:00",
+  "purpose": "Precise alias -> canonical source basename mapping to prevent duplicate DOI entries and maintain evidence traceability.",
+  "rules": [
+    "Use exact knowledge/sources/<canonical_key>.md basename as BibTeX key.",
+    "Never create multiple BibTeX entries sharing the same DOI under different aliases.",
+    "Keep book identities (Casten 1990, Heyde 1999, BM Vol. 1) strictly distinct from review/journal articles (Heyde & Wood 2011 RMP)."
+  ],
+  "g85_mappings": {
+    "nomura_2022_Questioningwobbling": {
+      "canonical_key": "nomura-2022-questioning-wobbling-ibfm",
+      "doi": "10.1103/PhysRevC.105.024320",
+      "type": "article",
+      "source_file": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+      "title": "Questioning the wobbling interpretation of low-spin bands in gamma-soft nuclei within the interacting boson-fermion model"
+    },
+    "frauendorf_2014_Transversewobbling": {
+      "canonical_key": "frauendorf-2014-transverse-wobbling",
+      "doi": "10.1103/PhysRevC.89.014322",
+      "type": "article",
+      "source_file": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+      "title": "Transverse wobbling: A collective mode in odd-A triaxial nuclei"
+    },
+    "lv_2022_Evidencewobbling": {
+      "canonical_key": "lv-2022-evidence-against-wobbling-135pr",
+      "doi": "10.1016/j.physletb.2021.136840",
+      "type": "article",
+      "source_file": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "title": "Evidence against the wobbling nature of low-spin bands in 135Pr"
+    },
+    "meyertervehn_1975_collective-description-transitional": {
+      "canonical_key": "meyer-ter-vehn-1975-triaxial-rotor-particle-model",
+      "doi": "10.1016/0375-9474(75)90095-0",
+      "type": "article",
+      "source_file": "knowledge/sources/meyer-ter-vehn-1975-triaxial-rotor-particle-model.md",
+      "title": "Collective model description of transitional odd-A nuclei (I). The triaxial-rotor-plus-particle model"
+    },
+    "Heyde_2011": {
+      "canonical_key": "heyde-wood-2011-shape-coexistence-review",
+      "doi": "10.1103/RevModPhys.83.1467",
+      "type": "article",
+      "source_file": "knowledge/sources/heyde-wood-2011-shape-coexistence-review.md",
+      "title": "Shape coexistence in atomic nuclei"
+    },
+    "casten_1990_simple-perspective": {
+      "canonical_key": "book-casten-nuclear-structure-simple-perspective",
+      "isbn": "0-19-504599-8",
+      "type": "book",
+      "source_file": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
+      "title": "Nuclear Structure from a Simple Perspective",
+      "publisher": "Oxford University Press (1990, 391 pp.)"
+    },
+    "heyde_1999_basic-ideas-concepts": {
+      "canonical_key": "book-heyde-nuclear-physics-concepts",
+      "isbn": "0-7503-0535-7",
+      "type": "book",
+      "source_file": "knowledge/sources/book-heyde-nuclear-physics-concepts.md",
+      "title": "Basic Ideas and Concepts in Nuclear Physics: An Introductory Approach (2nd Edition)",
+      "publisher": "Institute of Physics Publishing (1999, 647 pp.)"
+    }
+  },
+  "g86_mappings": {
+    "crider-2016-68ni-shape-coexistence": {
+      "canonical_key": "doctoral-r1-g26-crider-2016-68ni-shape-coexistence",
+      "doi": "10.1016/j.physletb.2016.10.020",
+      "type": "article",
+      "source_file": "knowledge/sources/doctoral-r1-g26-crider-2016-68ni-shape-coexistence.md",
+      "title": "Shape Coexistence from Lifetime and Branching-Ratio Measurements in 68,70Ni"
+    },
+    "thomas-2016-96-98mo-coexistence": {
+      "canonical_key": "continuation-g17-thomas-2016-96-98mo-coexistence",
+      "doi": "10.1016/j.nuclphysa.2015.12.010",
+      "type": "article",
+      "source_file": "knowledge/sources/continuation-g17-thomas-2016-96-98mo-coexistence.md",
+      "title": "Nuclear Structure of 96,98Mo: Shape Coexistence and Mixed-Symmetry States"
+    },
+    "chen-singh-2020-nds-98mo": {
+      "canonical_key": "continuation-g17-chen-singh-2020-nds-98mo",
+      "doi": "10.1016/j.nds.2020.01.001",
+      "type": "article",
+      "source_file": "knowledge/sources/continuation-g17-chen-singh-2020-nds-98mo.md",
+      "title": "Nuclear Data Sheets for A=98"
+    },
+    "ayangeakaa-2019-rigid-triaxial-ge76": {
+      "canonical_key": "ayangeakaa-2019-rigid-triaxial-ge76",
+      "doi": "10.1103/PhysRevLett.123.102501",
+      "type": "article",
+      "source_file": "knowledge/sources/ayangeakaa-2019-rigid-triaxial-ge76.md",
+      "title": "Evidence for Rigid Triaxial Deformation in 76Ge from a Model-Independent Analysis"
+    },
+    "ding-2025-chiral-rotation-a60-residual-interactions": {
+      "canonical_key": "ding-2025-chiral-rotation-a60-residual-interactions",
+      "doi": "10.1088/1674-1137/adc3fd",
+      "type": "article",
+      "source_file": "knowledge/sources/ding-2025-chiral-rotation-a60-residual-interactions.md",
+      "title": "Exploring Chiral Rotation in A~60 Nuclei: Role of Residual Interactions"
+    },
+    "saracino-2026-102ru-scissors-octupole-resonances": {
+      "canonical_key": "saracino-2026-102ru-scissors-octupole-resonances",
+      "doi": "10.1103/rcb1-gntj",
+      "type": "article",
+      "source_file": "knowledge/sources/saracino-2026-102ru-scissors-octupole-resonances.md",
+      "title": "Low-Energy Dipole Strength Distribution in 102Ru: Coexistence of Scissors and Octupole Resonances"
+    },
+    "karmakar-2025-98mo-dae": {
+      "canonical_key": "karmakar-2025-98mo-dae",
+      "type": "inproceedings",
+      "source_file": "knowledge/sources/karmakar-2025-98mo-dae.md",
+      "title": "Nuclear Structure Studies at High Angular Momentum"
+    }
+  },
+  "g84_verified_keys": [
+    "book-bohr-mottelson-nuclear-structure",
+    "book-nuclear-shell-model-70-years",
+    "doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives",
+    "engel-menendez-2017-double-beta-matrix-elements-review",
+    "gysbers-2019-ab-initio-beta-decay-quenching",
+    "wang-2026-axial-coupling-quenching-joint-effects"
+  ]
+}

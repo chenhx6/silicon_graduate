@@ -1,0 +1,21 @@
+{
+  "task_id": "G92",
+  "section": "5.9",
+  "status": "parent-interface-narrow-repair-accepted",
+  "timestamp": "2026-11-14T00:25:00.000000+00:00",
+  "manuscript": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-9.tex",
+    "sha256": "215f0098885db01f56504b6cb7aae277396188a55f8a74984c80d14a80cc5aec"
+  },
+  "ledger": {
+    "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-9.json",
+    "sha256": "9c54e79f6c81abce1a66d7cb53e4ed6a6ebdc4edbae47faf7013bd83a7753388"
+  },
+  "diff_file": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G92/section-5-9-interface-diff.txt",
+  "interface_revisions": {
+    "lange_citation": "Added citation to lange-kumar-hamilton-1982-multipole-admixtures for Lange emission delta_KS = -delta_RB convention.",
+    "si_charge_type_operator": "SI charge-type magnetic dipole operator M_S(M1) = M_mu(M1)/c (units mu_N/c, dimension e fm) separately defined from Rose-Brink notation.",
+    "krane_steffen_convention": "Explicitly declared Krane-Steffen phase convention matching +2*delta*F_k(LL prime) Hamilton interference term without global sign flips on experimental delta.",
+    "toy_example_cm1_harmonization": "Harmonized toy example with rate constant C_M1 = 1.7583758801e13 s^-1 multiplying (E_gamma/MeV)^3 * b_M1. Explicitly expressed B_mu(M1) as mu_N^2 * dimensionless ratio. Removed hanging text."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "status": "pass",
+  "projection_toy": {
+    "Ji": 1,
+    "Mi": 0,
+    "Jf": 0,
+    "Mf": 0,
+    "L": 1,
+    "mu": 0,
+    "RME_convention": "Appendix A 3j convention",
+    "unit_RME": 1,
+    "lab_matrix_element": -0.5773502691896257,
+    "3j": -0.5773502691896257,
+    "frozen_single_integral_normalized_Haar": 0,
+    "original_unweighted_Haar_integral": -0.0,
+    "initial_projector_factor": "1",
+    "exact_integrals": {
+      "integral_minus1_to1_x": "0",
+      "integral_minus1_to1_x2": "2/3"
+    },
+    "note": "Normalization kernels of both pure states are one; original integral is zero even before its missing 3/(8pi^2) projector factor."
+  },
+  "unpolarized_angular_control": {
+    "Ji": 1,
+    "Jf": 1,
+    "ranks": [
+      0,
+      1,
+      2
+    ],
+    "labels": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "max_cross_rank_gram_abs": 0.0,
+    "diagonal_gram": "1/[3(2K+1)]",
+    "same_rank_x": "2",
+    "same_rank_u": "3",
+    "coherent_square": "25",
+    "separate_squares": "13",
+    "cross_term": "12",
+    "scope": "finite angular algebra control, not a substitute for Zhi Eq.6-8 or a statement about polarized or angle-resolved observables"
+  }
+}

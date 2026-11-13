@@ -1,0 +1,12 @@
+{
+  "checked_manifests": [
+    "/workspace/wiki/raw/papers/gpt/query/20261114-single-j-magnetic-exits/manifest.json"
+  ],
+  "checked_sources": [
+    "/workspace/wiki/knowledge/sources/maheshwari-jain-2016-even-odd-tensor-seniority.md"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "ok": true,
+  "scope": "paths"
+}

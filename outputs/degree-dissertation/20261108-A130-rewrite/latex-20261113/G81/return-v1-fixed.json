@@ -1,0 +1,65 @@
+{
+  "batch_id": "G81",
+  "task": "Section 3.2 Canonical Return-v1 Fixed Audit",
+  "timestamp": "2026-11-13T04:08:07.053731+00:00",
+  "target_file": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-2.tex",
+  "target_file_sha256": "03f03b94352ea0b4892f539f17dc3091a613a6f2752067156f24d0a6f103e622",
+  "ledger_file": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-2.json",
+  "ledger_file_sha256": "fe8c8c29feb271d321dff334a1c7ceaa7112be65d28376daa531a98a678e7947",
+  "fixes_applied": [
+    {
+      "item": 1,
+      "title": "玻色映射与体坐标负对易严格自洽",
+      "issue_diagnosed": "原先写 a=(I2+i I3)/sqrt2I 在负对易下导致 [a, a^dagger] = -1，算符符号错误",
+      "fixed_lines": "Lines 75–88",
+      "actual_text": "a \\equiv \\frac{\\mathcal{I}_2 - i \\mathcal{I}_3}{\\sqrt{2I}}, \\quad a^\\dagger \\equiv \\frac{\\mathcal{I}_2 + i \\mathcal{I}_3}{\\sqrt{2I}} \\implies [a, a^\\dagger] = \\frac{i}{I}[\\mathcal{I}_2, \\mathcal{I}_3] \\approx \\frac{i}{I}(-i I) = 1；\\mathcal{I}_2 = \\sqrt{\\frac{I}{2}}(a^\\dagger + a), \\mathcal{I}_3 = i \\sqrt{\\frac{I}{2}}(a - a^\\dagger)",
+      "verification": "完全采用 T14/correction.tex 最小已验片段，算符对易子严格等于 +1"
+    },
+    {
+      "item": 2,
+      "title": "量子哈密顿量以 Casimir 项 A1 I(I+1) 为基线",
+      "issue_diagnosed": "原先量子段使用经典能标 A1 I^2，与固定自旋 Casimir 基线脱节",
+      "fixed_lines": "Lines 90–124",
+      "actual_text": "\\hat{H} \\approx A_1 I(I+1) + d_2 \\mathcal{I}_2^2 + d_3 \\mathcal{I}_3^2 = A_1 I(I+1) + \\alpha (a^\\dagger a + a a^\\dagger) + \\beta (a^{\\dagger 2} + a^2)；\\hat{H} \\approx A_1 I(I+1) + \\hbar \\omega_{\\text{wob}} (b^\\dagger b + 1/2)；引用 BM Eq.(4-307) 有效性判据 I >> (2n+1)(d_2+d_3)/(2 sqrt(d_2 d_3))",
+      "verification": "能量展开基线与零点能微调严格自洽，原件 BM Eq.(4-307) 精确回链"
+    },
+    {
+      "item": 3,
+      "title": "删除真实惯量介于刚体与无旋流之间的普遍包络断言",
+      "issue_diagnosed": "原先声称真实有效惯量通常介于刚体与无旋之间，该断言并非逐轴普遍上下界",
+      "fixed_lines": "Line 42",
+      "actual_text": "在真实原子核中，由于残余配对关联、单粒子轨道占据与科里奥利力的复杂交织，有效转动惯量并不存在逐轴介于刚体与无旋流之间的普遍上下界包络；有效惯量的大小和方向强烈依赖于微观准粒子组态与推转频率",
+      "verification": "完全客观描述两类理想模型参考性质，消除非普遍经验断言"
+    },
+    {
+      "item": 4,
+      "title": "删除未就绪图块、fbox 与不当 caption",
+      "issue_diagnosed": "原先正文包含 fbox 待生成占位与在 gamma->0 断言必频率0的不当题注",
+      "fixed_lines": "全篇图块清理",
+      "actual_text": "依审查授权，正文现完全移除该图块、fbox 占位与未成熟题注，保持纯净文本；图件与脚本已分流在 system/scripts 与 Img 独立受控",
+      "verification": "sec-3-2.tex 中无任何 fbox 或未生成占位"
+    },
+    {
+      "item": 5,
+      "title": "惯量张量简并与几何形状分离，高 K 来源纠正为轨道加自旋",
+      "issue_diagnosed": "原先将惯量简并直接称为几何长椭/赤道，且高 K 仅归因于轨道",
+      "fixed_lines": "Lines 126–154",
+      "actual_text": "分别命名为'惯量张量横向简并极限 (J1=J2=J_perp > J3)'与'惯量绕主转动轴简并极限 (J2=J3=J_perp < J1)'，明确惯量简并不自动等同于形状推断；高 K 态来源纠正为内部价准粒子的内禀总角动量（轨道加自旋 J_intr = sum_i (l_i + s_i)）顺排提供，引用 Shimizu 2005",
+      "verification": "几何与动力学完全解耦，微观量子数归属精确无误"
+    },
+    {
+      "item": 6,
+      "title": "删除'严格求解/微观转子严格解'泛称",
+      "issue_diagnosed": "将局域大自旋近似或唯象转子矩阵对角化误称为'严格求解/微观转子严格解'",
+      "fixed_lines": "Line 10, Line 118, Line 158",
+      "actual_text": "改为'通过局域大自旋代数求解'、'上述推导属于局域大自旋渐近近似'、'量子刚体三轴转子模型哈密顿量在有限矩阵基底下的对角化（Davydov-Filippov 模型）表明……它与基于微观波函数的粒子—转子模型（PRM）或自洽推转计算存在本质区别'",
+      "verification": "用词严谨，恪守近似边界"
+    }
+  ],
+  "status": "content-admitted",
+  "three_sentences_refined": [
+    "在同一局域近似下满足玻色对易子 [b, b^dagger] approx 1",
+    "其中纯转子摆动声子能量在所保留的二次近似中由变换久期方程给出",
+    "高 K 段明确固定 I 局域旋转系频率与固定 K 实验室系相邻能带跃迁能差属于不同物理比较范畴，不能直接等同；指定内禀角动量构型，其典型微观物理来源为内部价准粒子内禀总角动量（轨道加自旋）"
+  ]
+}

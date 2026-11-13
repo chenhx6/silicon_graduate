@@ -1,0 +1,84 @@
+{
+  "section": "5.10",
+  "status": "parent-content-accepted;typesetting-pending",
+  "session_date": "2026-11-14",
+  "observed_machine_utc": "2026-11-13T19:54:53.526714+00:00",
+  "source_hash_checks": [
+    {
+      "source": "book-zhu-probability-statistics-in-physics",
+      "path": "raw/books/实验物理中的概率和统计_朱永生著.pdf",
+      "sha256": "e97062665497c597609d58c23dfa977824c43e73d3ae8cb4ca3c0855e381894b",
+      "match": true
+    },
+    {
+      "source": "book-behnke-data-analysis-hep",
+      "path": "raw/books/Data Analysis in High Energy Physics, A Practical Guide to Statistical Methods (Olaf Behnke, Kevin Kroninger, Gregory Schott etc.) (Z-Library).pdf",
+      "sha256": "18cf194b5cd4e86d8413244cf913fe5699de211a68e4a5d1164709e92fcbe84c",
+      "match": true
+    },
+    {
+      "source": "book-bonamente-statistics-scientific-data",
+      "path": "raw/books/Statistics and Analysis of Scientific Data (Graduate Texts in Physics), 3rd Edition (Massimiliano Bonamente) (Z-Library).pdf",
+      "sha256": "e5197dffd54d527b9d6925b92eeae34e0859e0062063861f2e54abf333d2b2ca",
+      "match": true
+    },
+    {
+      "source": "baker-cousins-1984-histogram-fits",
+      "path": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/baker-cousins-1984-histogram-fits-kekscan.pdf",
+      "sha256": "e687601ebec8241a46db58aeeccffa2b4b252fe62c79db5b44ec51092e7c245a",
+      "match": true
+    }
+  ],
+  "actual_source_checks": [
+    "Zhu scannedPDF83/print67,PDF393/print377 Eqs11.2.2–11.2.4 (FC),PDF396/print380 (RoeWoodroofe distinction),PDF410/print394 hypothesisratio",
+    "Behnke actualPDF55/print37 §2.3.4.1,PDF138/print122Table4.2,PDF139/print123FCdiscussion",
+    "BonamentePDF103–107 errorprop, actualExample5.3sharedbackground; sourcehashchecked",
+    "BakerCousins originalidentity/hash; source modelplusselfderivedconditions distinct"
+  ],
+  "parent_finite_control": "outputs/l4/20261114-A130-inference-figure-controls/results.json",
+  "parent_corrections": [
+    "B_S is dimensionalcharge-type intensity: B_S=B_mu/c², same numericalvalues aftereachownunitnormalization.",
+    "Lowbunchinteractionprobability doesnotaloneimplyPPP.",
+    "Hessian covariance formulaassumescompleteparameterinverseorprofileHessian, withinregularbranch.",
+    "Feldman-Cousins onefixedorderingmethod, nottheonlypossibleNeymanconstruction.",
+    "Figure Gaussian likelihood isrenormalized atphysicalMLE, notrecentred; two minima andactualHessian checked."
+  ],
+  "artifacts": [
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-10.tex",
+      "sha256": "92cabc5a035af50487ed8118beea741a36f3d1bd07a90c5a4c49f32f51cd8a5b",
+      "size": 29322
+    },
+    {
+      "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-10.json",
+      "sha256": "77df727961526fe92428ff35da6945d761a485171a17ae57bc704d2f96ac097e",
+      "size": 11171
+    },
+    {
+      "path": "system/scripts/a130_inference_profile_figure.py",
+      "sha256": "6fb04929c00747b96ac417e879e20d4e96a46d8739efa326593028be4ac58adf",
+      "size": 4558
+    },
+    {
+      "path": "system/scripts/a130_inference_figure_control.py",
+      "sha256": "b0f207de08ab1fea3b6d4e86e16a2e5ba038b694e34352548c222cfccccc95c3",
+      "size": 3585
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/inference-profile-likelihood-boundary.pdf",
+      "sha256": "397df449374830ffbc60d82f9668e562e26a9d9d96e80fc1b42908c66a238a3d",
+      "size": 33137
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/inference-profile-likelihood-boundary.svg",
+      "sha256": "d5c97b908032fa4d001816fe0b17872a47a07044dcf5ae5cfabab74990c934aa",
+      "size": 93055
+    },
+    {
+      "path": "outputs/l4/20261114-A130-inference-figure-controls/results.json",
+      "sha256": "96b2882274b3e17e38d786e8f5f4bdcf2c0c787ceb5ee93f63cb76951783885e",
+      "size": 994
+    }
+  ],
+  "boundary": "Teaching tables/profiles; no realexperimentfit, nuclearM1strength, orcalibratedFCcoverage. Layout remainsseparate."
+}

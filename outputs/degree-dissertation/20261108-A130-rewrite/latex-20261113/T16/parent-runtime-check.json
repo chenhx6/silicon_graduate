@@ -1,0 +1,12 @@
+{
+  "requested_model": "codex/gpt-6.1-terra",
+  "requested_effort": "xhigh",
+  "observed": [
+    {
+      "timestamp": "2026-11-13T09:07:44.814Z",
+      "model": "codex/gpt-6.1-terra",
+      "effort": "xhigh"
+    }
+  ],
+  "scope": "Runtime metadata corroboration, not scientific acceptance."
+}

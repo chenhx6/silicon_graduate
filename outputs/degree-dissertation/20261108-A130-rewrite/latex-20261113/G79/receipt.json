@@ -1,7 +1,7 @@
 {
   "worker": "G79",
   "task": "Chapter 5 Sections 5.3, 5.4, 5.9 LaTeX Migration",
-  "timestamp": "2026-11-13T03:14:27.096178+00:00",
+  "timestamp": "2026-11-13T09:30:39.941354+00:00",
   "sections": {
     "5.3": {
       "source_markdown": "raw/writing/gpt/A130/research-draft/section-5-3.md",
@@ -28,7 +28,8 @@
       "layout_modifications": [
         "S(z) 式采用分步 align 断行消解 60pt 溢出",
         "表 5.1 表头拆行消解 122pt 溢出，数据未变"
-      ]
+      ],
+      "ledger_sha256": "fa9194f2d877b8e43c035cbee009f8cffd09caf19ccba9705190a839f7752840"
     },
     "5.4": {
       "source_markdown": "raw/writing/gpt/A130/research-draft/section-5-4.md",
@@ -56,13 +57,14 @@
       "layout_modifications": [
         "表前输入脉冲改为展示公式 eq:5-4-input-pulse 消解 28pt 溢出",
         "表 5.2 表头拆行消解 70pt 溢出，数据未变"
-      ]
+      ],
+      "ledger_sha256": "4e0a6dd66772d772807ffc42da600d731327449912fbb27ec4cbe22c2391afe4"
     },
     "5.9": {
       "source_markdown": "raw/writing/gpt/A130/research-draft/section-5-9.md",
       "source_sha256": "c3da811fae74df463bc1742bf304c672c7874def3c591dc64d91e0653374b8ca",
       "target_latex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-9.tex",
-      "target_sha256": "637c5216b62cb9ed1790681e41dedafbb4f504df36f428e736ae7294dd095ab9",
+      "target_sha256": "b534fb7493a4924737e5a368dec3c7583aee53b09a547943b65afb306ec91af7",
       "ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-9.json",
       "equation_count": 40,
       "table_count": 0,
@@ -92,7 +94,232 @@
         "通道 2 能量算式前分段，消除 15.46pt 溢出",
         "40 个展示原式与所有数值单位完全保留"
       ],
-      "glyph_fix": "align* 数学环境末尾句号改为 ASCII '.'，解决 2 处缺失字形"
+      "glyph_fix": "align* 数学环境末尾句号改为 ASCII '.'，解决 2 处缺失字形",
+      "ledger_sha256": "830b26448253b3b3d0a99c976df0794d7e212074cbe334089d28abe69d632f4b"
+    },
+    "5.5": {
+      "target_latex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-5.tex",
+      "target_sha256": "4c717064a931962fca5ac0fb48c4f694764a648cb306363334d4b350ec084d98",
+      "ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-5.json",
+      "equation_count": 15,
+      "table_count": 0,
+      "figure_count": 0,
+      "citation_keys": [
+        "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+        "wolff-1982-poisson-arrivals-see-time-averages"
+      ],
+      "claims_count": 8,
+      "status": "canonical_written_and_verified",
+      "anchors_verified": true,
+      "final_refinements": [
+        "修正波形缓存丢弃计数完整性边界（保留数据头不等于全部计数无损）",
+        "正文统一为印刷页码引用",
+        "可扩展死时间概率前向窗口与 PASTA 稳态极限前提科学修正"
+      ],
+      "measure_closure": "f_busy 定义为 Pr_ref(B=1)，反例严格限定为 Delta t = 0 瞬发符合",
+      "ledger_sha256": "c1bafdc089e5b5f4733855ecda41934289ee0ff7d0400245d0d99b03ca7455d4"
+    },
+    "5.1": {
+      "target_latex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-1.tex",
+      "target_sha256": "16c122d5650bbd3a99de032d8900d5fcfd45ee624b604c485428cbce02f486f9",
+      "ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-1.json",
+      "equation_count": 8,
+      "table_count": 0,
+      "figure_count": 0,
+      "citation_keys": [
+        "book-bertulani-nuclear-reactions",
+        "book-lin-heavy-ion-reactions",
+        "diamond-1966-nuclear-alignment-heavy-ion-reactions"
+      ],
+      "claims_count": 5,
+      "status": "return_fixed_verified",
+      "anchors_verified": true,
+      "ledger_sha256": "49607c91ea1c30fd5b95c5ba5b1c1780d793cf0f8560c172017cb347adb4979c",
+      "return_fixed_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G79/section-5-1-return-fixed.json"
+    },
+    "5.2": {
+      "target_latex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-2.tex",
+      "target_sha256": "6e4921369b7ea44fd4af4b37962aa0f857b1f0999400755c84dd1177880a9e9b",
+      "ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-2.json",
+      "ledger_sha256": "9bdd0ea8619c41a0852f3bbb828b26aff2d712114e9f624a4262b5cee9e21cdf",
+      "equation_count": 10,
+      "table_count": 0,
+      "figure_count": 1,
+      "figure_id": "fig:5-2-detector-response",
+      "figure_producer": "system/scripts/a130_detector_response_figure.py",
+      "citation_keys": [
+        "book-wu-nuclear-experiment-methods",
+        "book-hamilton-electromagnetic-interaction",
+        "akkoyun-2012-agata-instrument-response"
+      ],
+      "claims_count": 5,
+      "status": "parent_round2_applied_verified",
+      "anchors_verified": true,
+      "key_validations": [
+        "吴治华 (2005) 依据真实扫描页修正：第2章第4节(PDF62–73)、第5章第3节(PDF154–159)、第10章第1节(PDF265–268)及第3节(PDF286–289)",
+        "Hamilton (1975) 修正偏振定位至Chapter 15 §5(PDF727–728/印716–717)，撤销错误Chapter 10内转换页码",
+        "AGATA 依据41页手稿PDF修正第1–10页，区分180晶体4pi模拟设计与实验子阵列配置",
+        "峰总比P/T严格分解为净全能峰R_FEP积分，消除未扣本底有限窗直接积分歧义",
+        "澄清光电特征X射线表面逃逸与FWHM统计展宽方差量纲转换",
+        "Clover不对称度a=Nperp0/Nparallel0约定与5.7节对齐，补充Add-back电容耦合协方差与TCS线性区单事件率无关性条件"
+      ]
+    },
+    "5.6": {
+      "target_latex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-6.tex",
+      "target_sha256": "1bef2a1932a2cc440f83994a1ee34ac809af0f5b1bf3a8dd2fca28d521751018",
+      "ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-6.json",
+      "ledger_sha256": "62645b64aa1648e4970397366b1d2adaa252bcf5390a640fea4351811bd9cbea",
+      "equation_count": 8,
+      "table_count": 0,
+      "figure_count": 1,
+      "figure_id": "fig:5-6-coincidence-topology",
+      "figure_producer": "system/scripts/a130_coincidence_topology_figure.py",
+      "citation_keys": [
+        "xiao-xiao-2019-high-spin-74as-thesis",
+        "wakudyanaye-2022-triaxiality-rotational-bands-133ce",
+        "book-wu-nuclear-experiment-methods"
+      ],
+      "claims_count": 4,
+      "status": "parent_round2_applied_verified",
+      "anchors_verified": true,
+      "key_validations": [
+        "方差估计量明确使用插桩估计记号 \\widehat{Var}(S) = P + a^2 R，总体方差为 \\mu_P + a^2 \\mu_R",
+        "门选双侧本底扣除严格推广为非等宽线性权重 \\lambda_L, \\lambda_R 形式，等宽对称时退化为等权减半",
+        "Wakudyanaye (2022) 印刷第62–63页反符合澄清为灵敏度约束下的条件性排布证据",
+        "符合关系明确在排除伴生核、相加与串扰后支持同核退激网络；自旋宇称解耦寿命输入",
+        "Ritz 组合原理明确反冲差项；强度平衡澄清长寿命异能态在有限时间窗下的表观不平衡",
+        "肖骁 (2019) 硕士学位论文元数据核准，消除‘特定特定’语病"
+      ]
+    },
+    "5.7": {
+      "target_latex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-7.tex",
+      "target_sha256": "2aadea260f57991b1a1c4d0171de63f125a15ac9083f0763d4237eefb892566d",
+      "ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-7.json",
+      "ledger_sha256": "3c1b563c868114963448f5ba14c5b046d6241bf8166809f471b0c0f0c294b2c8",
+      "equation_count": 14,
+      "table_count": 0,
+      "figure_count": 1,
+      "figure_id": "fig:5-7-angular-branch",
+      "figure_producer": "system/scripts/a130_angular_branch_figure.py",
+      "citation_keys": [
+        "book-hamilton-electromagnetic-interaction",
+        "lange-kumar-hamilton-1982-multipole-admixtures",
+        "campaign-g07-gorgen-2004-163lu-quadrupole-moments"
+      ],
+      "claims_count": 5,
+      "status": "scientific_feedback_applied_verified",
+      "anchors_verified": true
+    },
+    "5.8": {
+      "target_latex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-8.tex",
+      "target_sha256": "97d34cba179b1f904326b6029e155350972ec1e11c5df98861079c41f8e67665",
+      "ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-8.json",
+      "ledger_sha256": "be7f74aae5e34ed670091a6097fa66a269cb9f58098e321d17db0355d53fe1b4",
+      "equation_count": 8,
+      "table_count": 0,
+      "figure_count": 1,
+      "figure_id": "fig:5-8-lifetime-response",
+      "figure_producer": "system/scripts/a130_lifetime_response_figure.py",
+      "citation_keys": [
+        "dewald-2012-ddcm-recoil-distance",
+        "book-wu-nuclear-experiment-methods",
+        "campaign-g07-gorgen-2004-163lu-quadrupole-moments"
+      ],
+      "claims_count": 4,
+      "status": "scientific_feedback_applied_verified",
+      "anchors_verified": true
+    },
+    "5.10": {
+      "target_latex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-10.tex",
+      "target_sha256": "ce8cdf9264bcb17c5a5a4171d6bab061d8db6f6ed068f969a110ebc995461f89",
+      "ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-10.json",
+      "ledger_sha256": "633f571bb98fc17cd0f955ba766c2772217fb13db6bf3d699ddfd3139dcfd0e5",
+      "equation_count": 7,
+      "table_count": 3,
+      "figure_count": 1,
+      "figure_id": "fig:5-10-inference-profile",
+      "figure_producer": "system/scripts/a130_inference_profile_figure.py",
+      "citation_keys": [
+        "book-zhu-experimental-statistics",
+        "book-behnke-data-analysis",
+        "book-bonamente-statistics"
+      ],
+      "status": "scientific_feedback_applied_verified",
+      "anchors_verified": true
+    },
+    "AppendixE": {
+      "target_latex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixE.tex",
+      "target_sha256": "d7d29150e8737900e5f22675eff7f5f2d3aea1f64f0b59f9043fbeff4b2b8f03",
+      "ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/appendix-E.json",
+      "ledger_sha256": "cce48c44f23d3031766e8954bf12c4adcbd0caea426221e392427c3ba857ab3d",
+      "equation_count": 25,
+      "table_count": 1,
+      "algorithm_count": 2,
+      "figure_count": 0,
+      "citation_keys": [
+        "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+        "wu-2021-general-purpose-digital-daq-waveform-analysis",
+        "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+        "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+        "wolff-1982-poisson-arrivals-see-time-averages"
+      ],
+      "key_validations": [
+        "极零相消递归差分递推与 M 归一化条件明确",
+        "梯形滤波 Jordanov 算法 Z 变换传递函数与 FIR 时宽 (2k+l)Ts 解析证明",
+        "数字 CFD 亚采样线性插值截断误差随 Ts^2 衰减，明确 20 相位点为离散扫描极值非连续全局上界",
+        "Pixie-16 4 字基础头与扩展块格式自洽规范，澄清保头丢迹策略的适用边界",
+        "共享忙门控系统正协方差反例严格推导，证明 L12 > L1*L2，排除独立乘积假定",
+        "提供透明的定点梯形滤波与 CFD 过零插值教学参考伪代码实现"
+      ],
+      "status": "completed_verified",
+      "anchors_verified": true
+    },
+    "AppendixD": {
+      "target_latex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixD.tex",
+      "target_sha256": "dac7eae1a7f9aaaccbf00da28d14d90e87d3fdb16e24a412993c14b5b57a70f4",
+      "ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/appendix-D.json",
+      "ledger_sha256": "7794bd1e5def8f37d5f2ce46d0cf43ffba0442b7f98fe4b0e5b5ebef4ea0c76b",
+      "equation_count": 52,
+      "table_count": 0,
+      "algorithm_count": 0,
+      "figure_count": 0,
+      "citation_keys": [
+        "book-jain-nuclear-isomers",
+        "book-suhonen-from-nucleons-to-nucleus",
+        "doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives",
+        "cirigliano-2018-leading-short-range-double-beta"
+      ],
+      "key_validations": [
+        "准自旋 SU(2) 代数换位关系闭合，Wigner-Eckart 矢代数精确推导半满壳层同资数 E2 矩阵元为零定理",
+        "澄清单一 E2 矩阵元消失不等于核态总衰变宽度为零",
+        "K 禁戒折合阻碍度 f_nu 为经验分类标度非微观普适定律，三轴混合致其塌缩",
+        "一阶禁戒衰变算符四维张量秩分解与非平坦谱形状因子 C(W) 解析结构自洽",
+        "0vbb 虚动量标度 100–200 MeV/c 与 Cirigliano 手征领头阶短程接触项重整化自洽性确立",
+        "相继缓发中子级联表述为吸收马尔可夫链，证明全发射多重度概率严格守恒，给出离心势垒辐射竞争模型",
+        "开放两态主方程本征值解析分解，导出闭合交换时间尺度 1/(a+b) 与开放耗散分层模"
+      ],
+      "status": "completed_verified",
+      "anchors_verified": true
+    },
+    "4.7": {
+      "target_latex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-7.tex",
+      "target_sha256": "5a1986c39b4557d02643a99c3f8797a642989323dd31569036ac99d02bb7f051",
+      "ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-7.json",
+      "ledger_sha256": "f64829712c7e1c3b176c98df6f9d055056b69eadace07512dd5eae668b406fb1",
+      "equation_count": 15,
+      "table_count": 0,
+      "algorithm_count": 0,
+      "figure_count": 1,
+      "key_validations": [
+        "整合 T16 窄段：EC 衰变单色中微子能量与原子基态空穴修正",
+        "统一采用第 2.7 节单粒子同位旋算符 t_±，弱耦合常数只计一次",
+        "Fermi 函数子核电荷与 beta± 库仑吸引/排斥约定明确",
+        "级联退激吸收概率马尔可夫链平衡方程与母态衰变全概归一化确立",
+        "0vbb 相空间 g_A^4 约定、虚动量转移标度及手征两核子短程接触算符自洽性",
+        "Zhi 等壳模型 N=126 禁戒跃迁主导范围与中子可用能窗 Q_beta n 说明"
+      ],
+      "status": "t16_integrated_verified",
+      "anchors_verified": true
     }
   },
   "self_assessment": {

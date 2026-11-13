@@ -1,0 +1,141 @@
+{
+  "section_id": "5.8",
+  "title": "DSAM与RDDS的时间信息",
+  "worker": "G98",
+  "recorded_at": "2026-11-14T03:30:00+08:00",
+  "output_latex": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-8.tex",
+    "sha256": "748d8870affc0d8f706416a702961dfea00f337574f3f4629aac6718bb18bc31",
+    "bytes": 21807
+  },
+  "sources": [
+    {
+      "source_id": "dewald-2012-ddcm-recoil-distance",
+      "title": "Developing the Recoil Distance Doppler-Shift technique towards a versatile tool for lifetime measurements of excited nuclear states",
+      "authors": [
+        "A. Dewald",
+        "O. Möller",
+        "P. Petkov"
+      ],
+      "year": 2012,
+      "raw_file": "raw/papers/2012_Dewald et al_Developing the Recoil Distance Doppler-Shift technique towards a versatile tool for lifetime measure.pdf",
+      "raw_sha256": "5c17814e531c70f151b8d183206f902b7c8f7168e977cb2118da9df05668db20",
+      "locators": [
+        "Sec. 2 (PDF p.4 / printed p.789): Relativistic effects, proper time s(t), velocity distributions, and finite foil corrections",
+        "Sec. 7.1 (PDF pp.37-38 / printed pp.822-823): Singles DDCM differential equations (19)-(21) and Fig. 41",
+        "Sec. 7.2 (PDF p.40 / printed p.825): Direct and indirect gated DDCM equations (30)-(34) and alpha(x) definition"
+      ]
+    },
+    {
+      "source_id": "book-wu-nuclear-experiment-methods",
+      "title": "原子核物理实验方法（第三版）",
+      "authors": [
+        "吴治华"
+      ],
+      "year": 2005,
+      "raw_file": "raw/books/原子核物理实验方法--第三版 (吴治华) (Z-Library).pdf",
+      "raw_sha256": "e23f010ff8d3b4737405235c4aba920533f44e89409ebb7e2cb076b7ab4ee591",
+      "locators": [
+        "第15章核寿命测量，DSAM在印437–439/PDF445–447小节3，F(tau)为印438/PDF446 Eq15.26；PDF447下半开始能级宽度方法，不能把印439说成DSAM开头。"
+      ]
+    },
+    {
+      "source_id": "campaign-g07-gorgen-2004-163lu-quadrupole-moments",
+      "title": "Quadrupole moments of wobbling excitations in 163Lu",
+      "authors": [
+        "A. Görgen",
+        "et al."
+      ],
+      "year": 2004,
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "raw_sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e",
+      "locators": [
+        "实际4页出版PDF：PDF2方法和TableI，12mg/cm² Au背衬、误差不含stopping系统项；PDF3薄靶带外分支输入；PDF4联合误差与比值条件。"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C-5-8-doppler-rel-geometry",
+      "topic": "相对论多普勒频移、光行差角变换与本征时钟映射",
+      "claim_kind": "author-theoretical-model",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [
+        "dewald-2012-ddcm-recoil-distance"
+      ],
+      "locator": "Tex Eq.(5.8.1)-(5.8.4); Dewald 2012 PDF p.4",
+      "statement": "实验室系观测多普勒频移由 E_obs = E0 / [gamma (1 - beta cos theta_lab)] 描述，极角 theta_lab 与静止系发射角满足光行差关系。本征寿命 tau 为原子核静止系时间；实验室时间衰变密度为 w(t) = exp[-s(t)/tau] / [gamma(t) tau]，其中 s(t) = int dt'/gamma 为本征时间积分。在 beta ~ 1%-3% 低速非相对论近似下退化为 w(t) approx (1/tau) exp(-t/tau)。"
+    },
+    {
+      "claim_id": "C-5-8-rdds-singles-ddcm",
+      "topic": "单谱 DDCM 级联率方程积分、累计发射守恒与馈入扣除条件",
+      "claim_kind": "author-theoretical-model",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [
+        "dewald-2012-ddcm-recoil-distance"
+      ],
+      "locator": "Tex Eq.(5.8.6)-(5.8.8); Dewald 2012 PDF p.38 Eqs.(19)-(21)",
+      "statement": "累计发射数满足 S_i(t) + U_i(t) = const，因此即便存在级联馈入，dS_i/dx = -dU_i/dx 依然严格成立。单谱 DDCM 方程中，瞬时布居分子必须严格扣除上方已知能级的累计馈入 sum_k b_ki U_k(x)，分母为 v dS_i/dx = -v dU_i/dx。在理想两级级联中忽略馈入必然导致高估寿命，实际测量中偏差幅度和方向受复杂级联与本底条件调控。"
+    },
+    {
+      "claim_id": "C-5-8-rdds-gated-ddcm",
+      "topic": "直接移位门选 DDCM 条件分解、门总数导数与间接门修正",
+      "claim_kind": "author-theoretical-model",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [
+        "dewald-2012-ddcm-recoil-distance"
+      ],
+      "locator": "Tex Eq.(5.8.9)-(5.8.11); Dewald 2012 PDF p.40 Eqs.(30)-(34)",
+      "statement": "直接移位门 B_s 筛选出馈入跃迁 B 在脱靶后撞击阻挡箔前于飞行区发射的事件子集（初次布居时刻 t_B in [0, x/v]），并非要求目标态脱靶瞬间直接布居。门总数 I_gate(x) = {B_s, A_s} + {B_s, A_u} 随距离呈非减演化（在敏感区增大，远距离趋于平台），导致导数非零区间 dI_gate/dx >= 0，使得 d{B_s, A_s}/dx != -d{B_s, A_u}/dx 一般不可相互替换，分母必须对 {B_s, A_s} 求导，不可用负静止峰导数替换，亦不可将逐距离自归一化比例直接微分。间接门选需引入相对归一化比例 alpha(x) = [{C_s, A_s}+{C_s, A_u}] / [{C_s, B_s}+{C_s, B_u}]。"
+    },
+    {
+      "claim_id": "C-5-8-dsam-stopping-dynamics",
+      "topic": "固体衬底连续减速运动方程与阻止本领理论不确定度",
+      "claim_kind": "author-theoretical-model",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [
+        "book-wu-nuclear-experiment-methods",
+        "campaign-g07-gorgen-2004-163lu-quadrupole-moments"
+      ],
+      "locator": "Wu本地第三版PDF445–446/印437–438 Eqs15.19–15.21（特定阻止参数化），本稿一般链式推导；Gorgen2004 PDF2方法误差。",
+      "statement": "非相对论动能 E_k = M v^2 / 2 与阻止本领 S(v) = -dE_k/dx 通过链式法则导出连续减速微分方程 dv/dt = -S(v)/M（彻底纠正原台账 -S/(Mv) 错误）。低速重离子区理论阻止截面承载不可忽略的模型不确定度，该系统误差与统计拟合误差应分别说明，存在相关性时联合处理。"
+    },
+    {
+      "claim_id": "C-5-8-dsam-forward-convolution",
+      "topic": "DSAM 全谱前向卷积物理模型、解析质心与 F(tau) 局限性",
+      "claim_kind": "task-derivation-and-finite-control",
+      "evidence_level": "analytical-deduction",
+      "source_ids": [
+        "dewald-2012-ddcm-recoil-distance",
+        "book-wu-nuclear-experiment-methods"
+      ],
+      "locator": "Dewald2012实际PDF4背景；Wu PDF445–447/印437–439，FτEq15.26在PDF446；本稿producer及finitecontrol JSON。",
+      "statement": "声明模型的DSAM前向积分为Y(E)=C∫p(z)∫w(t,z)ε(t,z)R(E|Eobs,z)dtdz。线性减速toy解析质心D[1−(τ/T)(1−exp(−T/τ))]；零居中奇数高斯bin卷积及三级步长、支持加宽的有限控制通过，总概率截断误差不超过1.92e−9。不把面积归一称为整段减速能量守恒，也不沿用偶数核半bin位移的旧一阶收敛结果。F(τ)质心比在90°一阶位移分母为零处不可定义，非物理发散。"
+    },
+    {
+      "claim_id": "C-5-8-measurement-windows",
+      "topic": "DSAM 与 RDDS 敏感时间窗口互补性与极限判定准则",
+      "claim_kind": "author-theoretical-model",
+      "evidence_level": "derived-quantity",
+      "source_ids": [
+        "dewald-2012-ddcm-recoil-distance",
+        "book-wu-nuclear-experiment-methods"
+      ],
+      "locator": "Tex Sec.5.8.4, Fig.5.8",
+      "statement": "DSAM 的测时灵敏度由核态寿命与反冲核在衬底中的慢化减速时间尺度共同决定（寿命远短于减速产生可辨识频移时间退化为全频移峰给上限，远长于停滞时间退化为全停滞峰给下限，中间过渡形成连续谱形）。RDDS 柱塞法敏感窗口跨越皮秒至纳秒范围，避免了厚衬底连续慢化谱形对微观阻止截面复杂模型的强敏感依赖，但有限靶箔慢化在精密实验中仍须修正。教学模型展示的 tau = 5 ps 偏离属于方法学示例，非实核修正因子。上下限仍需由具体响应、数据及置信区间程序确定，不由上述比例关系单独给出。"
+    }
+  ],
+  "parent_finalization": {
+    "note": "Corrected parent earlier navigation; actualDSAM beginsPDF445 not447. Zero-centred odd kernel removes half-bin offset.",
+    "producer": "system/scripts/a130_lifetime_response_figure.py",
+    "controls": "outputs/l4/20261114-A130-lifetime-response-controls/results.json",
+    "boundary": "Finite selected linear-deceleration controls, not experiment/stopping calibration."
+  },
+  "worker_history_receipt": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G98/receipt.json",
+  "status": "parent-content-accepted-typesetting-pending",
+  "parent_acceptance_receipt": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G98/section-5-8-parent-acceptance.json",
+  "parent_final_tex_sha256": "748d8870affc0d8f706416a702961dfea00f337574f3f4629aac6718bb18bc31",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-8.tex",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
+}

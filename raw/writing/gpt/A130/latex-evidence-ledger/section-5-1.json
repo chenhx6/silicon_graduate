@@ -30,7 +30,8 @@
       "book-bertulani-nuclear-reactions",
       "book-lin-heavy-ion-reactions",
       "diamond-1966-nuclear-alignment-heavy-ion-reactions"
-    ]
+    ],
+    "bytes": 17516
   },
   "sources": [
     {
@@ -135,5 +136,7 @@
   "parent_claim_boundary": "Canonicalclaims replaced to matchcurrentprose; earliergeneric/overbroad templateclaims archivedlocally as superseded, notfactsource.",
   "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-1.tex",
   "parent_final_tex_sha256": "16c122d5650bbd3a99de032d8900d5fcfd45ee624b604c485428cbce02f486f9",
-  "integration_status": "included-in27-section-clean-preview"
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-1.tex",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
 }

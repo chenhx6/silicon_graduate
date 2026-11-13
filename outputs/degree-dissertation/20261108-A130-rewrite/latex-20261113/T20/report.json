@@ -1,0 +1,362 @@
+{
+  "task": "T20 independent narrow audit: Appendix A and section 5.9 interfaces",
+  "created_at_utc": "2026-11-13T15:33:07.041368+00:00",
+  "scope": "Frozen snapshots only, targeted original book and paper pages, no canonical/Git/other task changes.",
+  "resume_note": "User reports prior same-agent turn provider 502 terminated; this continuation reused accessible prior context and did not change provider, account, or endpoint.",
+  "runtime": "User requested Terra/xhigh; actual runtime model and effort not independently exposed in this turn.",
+  "frozen_inputs_verification": [
+    {
+      "snapshot": "AppendixA.frozen.tex",
+      "size_bytes": 27205,
+      "sha256": "5437aec7a38cb18021b3c6701ffd9078c29ced34d4b0bef3b65bd447102fbf10",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "snapshot": "appendix-A.frozen.json",
+      "size_bytes": 6123,
+      "sha256": "f37432a2744b0a97866bc17404529c6379bba35baff0a97a0c1f22a83b5db1c1",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "snapshot": "sec-5-9.frozen.tex",
+      "size_bytes": 30211,
+      "sha256": "b534fb7493a4924737e5a368dec3c7583aee53b09a547943b65afb306ec91af7",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "snapshot": "section-5-9.frozen.json",
+      "size_bytes": 8967,
+      "sha256": "830b26448253b3b3d0a99c976df0794d7e212074cbe334089d28abe69d632f4b",
+      "hash_match": true,
+      "size_match": true
+    }
+  ],
+  "originals": [
+    {
+      "id": "S",
+      "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "size_bytes": 6514067,
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c"
+    },
+    {
+      "id": "BM1",
+      "path": "raw/books/nuclear structure Ⅰ_Bohr, Mottelson.pdf",
+      "size_bytes": 29867546,
+      "sha256": "a31a158e0aff2ec6734d46f5aea5eb42dbebb82280835774f49350dd6f8c79df"
+    },
+    {
+      "id": "H",
+      "path": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+      "size_bytes": 45113419,
+      "sha256": "93b32a8debb66ad036229d860ad56f0434dc49b56edd32f1628af1d71a21ae00"
+    },
+    {
+      "id": "L",
+      "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+      "size_bytes": 4188525,
+      "sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb"
+    }
+  ],
+  "actual_raw_reading": {
+    "Suhonen": {
+      "pdf_pages": [
+        29,
+        30,
+        44,
+        45,
+        46,
+        48,
+        134,
+        135,
+        137
+      ],
+      "printed_pages": [
+        13,
+        14,
+        29,
+        30,
+        31,
+        33,
+        119,
+        120,
+        122
+      ]
+    },
+    "Bohr_Mottelson_vol1": {
+      "pdf_pages": [
+        100,
+        101
+      ],
+      "printed_pages": [
+        81,
+        82
+      ],
+      "source_id": "book-bohr-mottelson-nuclear-structure"
+    },
+    "Hamilton": {
+      "pdf_pages": [
+        553
+      ],
+      "printed_pages": [
+        542
+      ]
+    },
+    "Lange": {
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "printed_pages": [
+        121,
+        122
+      ]
+    }
+  },
+  "accepted_conditional": [
+    {
+      "frozen_line": "sec-5-9.frozen.tex:107–110,156–170",
+      "result": "Working amplitude factor and main SI b-normalization are correct if matched to KS operator and F conventions; no numerical c² correction to b."
+    },
+    {
+      "frozen_line": "AppendixA.frozen.tex:45–47,53–55",
+      "result": "Final WE 3j and CG equations agree for integer electromagnetic k; intervening 3j–CG equations have incorrect phases."
+    },
+    {
+      "frozen_line": "AppendixA.frozen.tex:108–109,120–125",
+      "result": "9j main and both one-body equations agree with independent explicit coupled-basis controls for chosen cases."
+    },
+    {
+      "frozen_line": "AppendixA.frozen.tex:150–164",
+      "result": "All three 6j values and 1/5 sum verified exactly; not a proof of entire appendix."
+    },
+    {
+      "frozen_line": "AppendixA.frozen.tex:197–200",
+      "result": "Magnitude-squared reciprocity valid for self-adjoint tensor despite incorrect RME phase in derivation."
+    }
+  ],
+  "findings": [
+    {
+      "id": "T20-01",
+      "severity": "major",
+      "frozen_line": [
+        "AppendixA.frozen.tex:221–243",
+        "AppendixA.frozen.tex:252–253"
+      ],
+      "finding": "将高斯形式 eℏ/(2m_pc) 与 SI 的 eV/T 数值混用；继而 μ_N/c 公式多除一个 c，并将物理 B_S 的 e² 丢掉。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+          "pdf_page": 134,
+          "printed_page": 119,
+          "equations": "Eqs.6.7, 6.9 and footnote 6"
+        },
+        {
+          "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+          "pdf_page": 135,
+          "printed_page": 120,
+          "equations": "Eqs.6.12–6.14"
+        }
+      ],
+      "correct_equation_or_conditions": "SI: μ_N=eℏ/(2m_p), ℓ_N=ℏ/(2m_pc), μ_N/c=eℓ_N; B_μ=b μ_N², B_S=B_μ/c²=b e²ℓ_N², b=B_μ/μ_N²=B_S/(μ_N/c)²。高斯 μ_N=e_Gℏ/(2m_pc) 所用 e_G 不是 SI 电荷。",
+      "evidence_boundary": "ℓ_N≈0.10515 fm；电荷型与磁矩型物理量不同，归一到各自单位后的数值相同；不对 b 和已经按 b 定义的实用常数重复乘 c²。"
+    },
+    {
+      "id": "T20-02",
+      "severity": "moderate",
+      "frozen_line": [
+        "sec-5-9.frozen.tex:156–170",
+        "sec-5-9.frozen.tex:232–246",
+        "section-5-9.frozen.json:163–170"
+      ],
+      "finding": "5.9 主公式将 C_M1 定义为乘无量纲 b 的 s^-1，但教学例重复把 C_M1 写为 s^-1 MeV^-3[(μ_N/c)²]^-1，随后又用 B_μ 标记反演结果；记号物理量层次不一致。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+          "pdf_page": 135,
+          "printed_page": 120,
+          "equations": "Eqs.6.12–6.14"
+        }
+      ],
+      "correct_equation_or_conditions": "统一采用 C_M1=1.7584×10^13 s^-1，λ=C_M1(E/MeV)^3 b，B_μ=μ_N² λ/[C_M1(E/MeV)^3]；若另定义有单位 K 则不得复用同一 C 记号。",
+      "evidence_boundary": "数值 0.00545432 μ_N² 不需要乘 c²；只修单位与物理量记号，未重审教学算例其余输入。"
+    },
+    {
+      "id": "T20-03",
+      "severity": "major",
+      "frozen_line": [
+        "sec-5-9.frozen.tex:106–110,124",
+        "AppendixA.frozen.tex:245–255"
+      ],
+      "finding": "5.9 的 RME 幅比表达式与 Lange 的 KS 工作定义及 Hamilton 的正 F 干涉项可一致，但将 SI 算符单位与 Rose–Brink 体系并列会掩盖相位体系边界。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+          "pdf_page": 3,
+          "printed_page": 121,
+          "equations": "Eqs.2.4–2.6, explicitly Krane–Steffen"
+        },
+        {
+          "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+          "pdf_page": 4,
+          "printed_page": 122,
+          "equations": "Eqs.2.8–2.11 and emission/absorption"
+        },
+        {
+          "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+          "pdf_page": 553,
+          "printed_page": 542,
+          "equations": "Eqs.12.184–12.185 and text"
+        },
+        {
+          "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+          "pdf_page": 137,
+          "printed_page": 122,
+          "equations": "Eqs.6.19–6.21"
+        }
+      ],
+      "correct_equation_or_conditions": "保留 5.9 的 √3/10·Eγ/(ℏc)·RME(E2)/RME(M_S) 作为所定义发射 KS 工作式；Hamilton 对应 +2δF 形式。Lange 所述具体发射情形 δ_KS=−δ_RB，系数及算符/几何定义同步转换。",
+      "evidence_boundary": "这属于相位标注和定义桥接，不能凭此盲翻所有实验引用的 δ；Suhonen 的 CS/BR 算符相位与 δ 的 KS/RB 是不同层次。δ² 和 E2/M1 份额不变。"
+    },
+    {
+      "id": "T20-04",
+      "severity": "major",
+      "frozen_line": [
+        "AppendixA.frozen.tex:58–85",
+        "appendix-A.frozen.json:30–36,63–66"
+      ],
+      "finding": "冻结稿声称 Bohr–Mottelson 卷 I 使用无 1/√(2j_f+1) 的同名 RME，但原书卷 I Eq.(1A-60) 显示恰有该因子，且同 Suhonen Eq.(2.27) 形式一致。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/books/nuclear structure Ⅰ_Bohr, Mottelson.pdf",
+          "pdf_page": 101,
+          "printed_page": 82,
+          "equations": "Eq.1A-60 and 1A-61"
+        },
+        {
+          "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+          "pdf_page": 44,
+          "printed_page": 29,
+          "equations": "Eq.2.27"
+        }
+      ],
+      "correct_equation_or_conditions": "删除 BM 与 Suhonen RME 必有 √(2j_f+1) 差别的说法与表格行；可抽象定义无分母 R_C 并写 R_standard=√(2j_f+1)R_C，但不能把它归因 BM I。",
+      "evidence_boundary": "BM I 原书已实读；本次没有逐核卷 II、Edmonds、Rose、Brink–Satchler 和 Varshalovich 的所有版本，不能扩大到所有名著。"
+    },
+    {
+      "id": "T20-05",
+      "severity": "major",
+      "frozen_line": [
+        "AppendixA.frozen.tex:34–38,87–97",
+        "appendix-A.frozen.json:57–60"
+      ],
+      "finding": "附录把球张量自伴关系与时间反演/宇称性质混为一谈；其 RME 交换关系多写 (-1)^k。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+          "pdf_page": 45,
+          "printed_page": 30,
+          "equations": "Eqs.2.30–2.32: Hermitian tensor and exchange phase"
+        },
+        {
+          "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+          "pdf_page": 46,
+          "printed_page": 31,
+          "equations": "Eq.2.34 angular momentum RME"
+        }
+      ],
+      "correct_equation_or_conditions": "自伴条件 T_q†=(-1)^q T_-q 为附加条件；其标准 RME 满足 <jf||T^k||ji>=(-1)^(jf−ji)<ji||T^k||jf>*。不保证所有约化矩阵元实数。",
+      "evidence_boundary": "例如 j=1/2、T=J、k=1，RME=√(3/2)ℏ 非零实数，旧式错误预测其等于负自身；B 详细平衡的模平方本身仍可成立。"
+    },
+    {
+      "id": "T20-06",
+      "severity": "major",
+      "frozen_line": [
+        "AppendixA.frozen.tex:48–55"
+      ],
+      "finding": "两条 3j–CG 中间转换式相位都不普适；最终 3j Wigner–Eckart 式及其标准 CG 等价式正确，但从错误中间式推导不成立。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+          "pdf_page": 44,
+          "printed_page": 29,
+          "equations": "Eq.2.27"
+        },
+        {
+          "raw_file": "raw/books/nuclear structure Ⅰ_Bohr, Mottelson.pdf",
+          "pdf_page": 101,
+          "printed_page": 82,
+          "equations": "Eq.1A-60"
+        }
+      ],
+      "correct_equation_or_conditions": "整数 k 时 3j(jf,k,ji;−mf,q,mi)=(-1)^(jf−mf) C(ji mi kq|jf mf)/√(2jf+1)=(-1)^(ji+k−mf) C(kq ji mi|jf mf)/√(2jf+1)。",
+      "evidence_boundary": "控制给两个独立非零分量分别反驳冻结式左右两项；修中间相位不要求改最终标准 RME 公式。"
+    },
+    {
+      "id": "T20-07",
+      "severity": "major",
+      "frozen_line": [
+        "AppendixA.frozen.tex:108–125"
+      ],
+      "finding": "9j 张量积主式与两个单体 6j 式可相容，但 9j 降阶式中相位使用 j1 而非 j1′，与其自身单体公式冲突。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+          "pdf_page": 48,
+          "printed_page": 33,
+          "equations": "Eq.2.54 product tensor 9j; identity Eq.2.33 on printed p.31"
+        }
+      ],
+      "correct_equation_or_conditions": "对于指定排列，9j=δ(j2,j2′)(−1)^(j1′+j2+J+k){j1′ J′ j2; J j1 k}/√[(2j2+1)(2k+1)]。",
+      "evidence_boundary": "两子系统可区分、独立张量积基、标准 Wigner–Eckart 与 CG 相位；具体耦合基求和对两个单体式均匹配，但有限算例不是全部通道的证明。"
+    },
+    {
+      "id": "T20-08",
+      "severity": "moderate",
+      "frozen_line": [
+        "AppendixA.frozen.tex:134–148,165"
+      ],
+      "finding": "正交恒等式中的三角允许性指示函数与 Racah 公式中的三角平方根系数同用 Δ；指示定义遗漏角动量和为整数条件，Racah 求和的 v_i,w_i 也未给出。",
+      "actual_raw_pdf_locator": [
+        {
+          "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+          "pdf_page": 29,
+          "printed_page": 13,
+          "equations": "Eq.1.60 6j triangle conditions"
+        },
+        {
+          "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+          "pdf_page": 30,
+          "printed_page": 14,
+          "equations": "Eq.1.66 6j unitarity"
+        }
+      ],
+      "correct_equation_or_conditions": "指示函数 χ 要求半整数或整数、三角不等式及 a+b+c 为整数；Racah 用 Δ_R=√[(a+b−c)!(a−b+c)!(−a+b+c)!/(a+b+c+1)!]，明确求和限。",
+      "evidence_boundary": "冻结排列为 {j1 j2 x; j4 j3 j5}，正交 RHS 是 1/(2j5+1)；原有三个 6j 值及其和 1/5 正确，仅核验该例。另选 j3≠j5 的例子确证索引而非全局证明。"
+    }
+  ],
+  "validation": {
+    "script": "validation.py",
+    "results": "results.json",
+    "status": "passed",
+    "repro_command": "python3 -B outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T20/validation.py",
+    "sympy": "1.14.0 from existing /workspace/wiki/tmp/a130-network-control-deps; no installation or global changes",
+    "exploratory_error": "A preliminary coupled-basis snippet multiplied SymPy objects by bool and failed; replacing bool by int succeeded. Final script executed successfully.",
+    "limits": "Two finite coupled-basis examples and 6j examples establish explicit counterexamples and controls, not a proof of all tensor identities or physical observables."
+  },
+  "artifacts": [
+    "report.json",
+    "correction.tex",
+    "validation.py",
+    "results.json"
+  ],
+  "release_decision": "must_revise",
+  "not_reviewed": [
+    "Experimental provenance/sign convention of individual quoted delta values",
+    "All chapters, all 6j identities or unmentioned textbook editions",
+    "Bohr–Mottelson volume II RME convention",
+    "Numerical experimental data or user hardware"
+  ]
+}

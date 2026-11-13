@@ -1,0 +1,156 @@
+{
+  "task": "T22 joint parity/chirality operation interface only",
+  "status": "completed_with_explicit_model_boundaries",
+  "runtime": {
+    "model_effort_requested": "Terra/xhigh",
+    "model_effort_independently_exposed": false,
+    "model_effort_actual": "not independently observable"
+  },
+  "scope": {
+    "reviewed": "frozen 4.5 lines 5, 81–99; accepted 3.7 operation conventions; primary sources at specified locators",
+    "not_reviewed": "whole section, full dissertation, experimental-pattern certification, errata search, general RAT-PRM models",
+    "canonical_written": false,
+    "knowledge_written": false
+  },
+  "frozen_input_validation": {
+    "manifest_sha256": "6e62bba5c02b1bc1865c7b918de1f5ec8269d6cc5b72bf8316b102d9855d3f26",
+    "files": [
+      {
+        "snapshot": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T22/sec-4-5.frozen.tex",
+        "expected_sha256": "3395287a2ed2be6ed94b0f477a3bb4f295f7816e28e794b9f06773c7cfdc70f0",
+        "actual_sha256": "3395287a2ed2be6ed94b0f477a3bb4f295f7816e28e794b9f06773c7cfdc70f0",
+        "matches": true
+      },
+      {
+        "snapshot": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T22/sec-3-7.frozen.tex",
+        "expected_sha256": "261c7c61bb44861dbb3f3fabae3f0b06bde3f92219b5d6a630e50849d31410b3",
+        "actual_sha256": "261c7c61bb44861dbb3f3fabae3f0b06bde3f92219b5d6a630e50849d31410b3",
+        "matches": true
+      }
+    ]
+  },
+  "verdict": {
+    "father_hypothesis": "correct for the stated active rotation and beta30-only model: P flips beta30 but leaves axial vectors and chi invariant; C flips both beta30 and chi; PC preserves beta30 and flips chi",
+    "qualification": "Whether C or PC is a symmetry of a particular intrinsic or full Hamiltonian depends on its degrees of freedom, constraints, external time-odd fields and implementation; this transformation table alone does not prove symmetry, state independence, energy degeneracy or a physical quartet. Under a passive reorientation of body axes every component and label must transform consistently."
+  },
+  "conventions": {
+    "axes": "fixed right-handed principal axes x=1, y=2, z=3; Q diagonal with distinct eigenvalues; only beta30 Y30 is present; all changes are active at fixed oriented axes",
+    "angular_symbols": "a denotes each of jp, jn, R; entries list the three components of the axial vector",
+    "chi": "jp dot (jn cross R), parity-even and time-odd; axial triple product is not generally a spatial-parity-odd pseudoscalar",
+    "parity_phase": "eta labels the sign of a shape coefficient in this oriented frame; it is neither a laboratory parity eigenvalue nor the arbitrary quantum-state phase produced by an operation",
+    "gauge": "reversing the oriented principal axes by a proper D2 rotation changes the beta30 coordinate sign; distinguish labels from physical shapes and transform angular momenta at the same time"
+  },
+  "transformation_table": [
+    {
+      "op": "P",
+      "Q": "Q",
+      "beta30": "-beta30",
+      "a": "(+a1,+a2,+a3)",
+      "chi": "+chi"
+    },
+    {
+      "op": "T",
+      "Q": "Q",
+      "beta30": "+beta30",
+      "a": "(-a1,-a2,-a3)",
+      "chi": "-chi"
+    },
+    {
+      "op": "Ry(pi)",
+      "Q": "Q",
+      "beta30": "-beta30",
+      "a": "(-a1,+a2,-a3)",
+      "chi": "+chi"
+    },
+    {
+      "op": "C=T Ry(pi)",
+      "Q": "Q",
+      "beta30": "-beta30",
+      "a": "(+a1,-a2,+a3)",
+      "chi": "-chi"
+    },
+    {
+      "op": "PC",
+      "Q": "Q",
+      "beta30": "+beta30",
+      "a": "(+a1,-a2,+a3)",
+      "chi": "-chi"
+    }
+  ],
+  "quantum_algebra": {
+    "integer_spin": "T²=+1; Ry(pi)²=+1; C²=(PC)²=+1",
+    "half_integer_spin": "T²=-1; Ry(pi)²=-1; C²=(PC)²=+1",
+    "commutators": "[P,T]=[P,Ry(pi)]=[P,C]=0 and T commutes with rotations, with antiunitary composition handled correctly",
+    "state_map_up_to_phase": "P|L,eta> ~ |L,-eta>; C|L,eta> ~ |R,-eta>; PC|L,eta> ~ |R,eta>",
+    "antiunitary_limit": "antiunitary eigenphases change under state rephasing; (1±C)/2 is not a complex-linear projection. Ordinary parity projectors are (1±P)/2; nonzero projected norm and rank require checking."
+  },
+  "sources": [
+    {
+      "id": "wang-2019-rat-prm-78br-octupole-correlations",
+      "raw": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/wang-2019-rat-prm-78br-arxiv1902.00191v1.pdf",
+      "locators": [
+        "PDF pp. 2–3 introduction and Eq. (2)",
+        "PDF p. 4 Eq. (5), Eqs. (7)–(9)",
+        "PDF p. 5 Eqs. (13)–(16)",
+        "PDF pp. 6–7 numerical input",
+        "PDF pp. 9–11 Figs. 3–4 and angular momentum RMS discussion",
+        "PDF p. 13 discussion and summary"
+      ],
+      "findings": [
+        "Full formal potential includes beta30, beta31, beta32, beta33 and induced dipoles; reported beta3=0.02 cannot be silently identified as a complete published beta3mu specification solely from the inspected passages.",
+        "Core parity splitting appears in Eq. (2); PDF p.5 defines P-hat as core parity, p-hat as total parity, and S2=P-hat R2 as reflection through the plane perpendicular to 2; Eqs. (14)–(15) construct good-total-parity intrinsic wavefunctions, Eq. (13) symmetrizes the strong-coupling basis.",
+        "S2 as written in that factorized core formulation must not automatically be equated with total P Ry(pi) or PC; establish the operators on the complete Hilbert space before doing so. The paper calls S2 a reflection operator; treating it as simplex terminology is interpretive.",
+        "Inspected formalism does not explicitly define C=T Ry(pi) or assert that C preserves the sign of beta30; pp.9–11 infer geometry from root-mean-square angular-momentum components, not signed chi.",
+        "In the paper’s numerical axis convention axis 1 is intermediate, 2 short, 3 long (PDF p.9); our fixed y=2 should not be asserted to be its intermediate axis.",
+        "PDF p.13 notes a different negative-parity dominant configuration in the RAT-PRM relative to the earlier TPRM; this does not by itself prove absence of a common reflection-asymmetric intrinsic space."
+      ]
+    },
+    {
+      "id": "liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br",
+      "raw": "raw/papers/2016_Liu et al_Evidence for Octupole Correlations in Multiple Chiral Doublet Bands.pdf",
+      "locators": [
+        "PRL 116, 112501 PDF pp. 1–3, introduction and level scheme"
+      ],
+      "findings": [
+        "Experimental and model context is the multiple chiral doublet and octupole-correlation interpretation; the present task does not re-audit all measured transitions or certify a static quartet."
+      ]
+    },
+    {
+      "id": "sec-3-7-frozen",
+      "locators": [
+        "frozen lines 30–87"
+      ],
+      "findings": [
+        "Accepted convention C=T Ry(pi), chi parity even/time odd, C²=+1 and absence of a linear antiunitary parity projector remain intact. The conditional PC bridge refines the map without redefining C."
+      ]
+    }
+  ],
+  "nonuniversal_harmonic_control": {
+    "real_harmonics": "z(2z²−3x²−3y²) is proportional to r³Y30 and reverses under Ry(pi); y(4z²−x²−y²) is a real sine-type rank-3 m=1 component and is invariant under the same rotation. Both reverse under P.",
+    "scope": "second harmonic shows why no common sign can be assigned to arbitrary beta3mu; it need not belong to Wang’s selected reflection-symmetric ansatz"
+  },
+  "finite_validation": {
+    "script": "validation.py",
+    "results": "results.json",
+    "passed": true,
+    "max_residual": 2.7938024948733603e-15,
+    "scope": "independent small matrices: parity two-level shape and three distinguishable spins j=1/2 or 1; tests all rows, antiunitary operations, squares and commutation, plus real harmonic example. It is not a RAT-PRM prediction or a norm-kernel rank calculation."
+  },
+  "required_editorial_actions": [
+    "Replace the unconditional four-state claim in line 5 with candidate A in correction.tex.",
+    "Replace lines 81–99 with candidate B, retaining eq:4-5-chiral-op and eq:4-5-chiral-triple-product.",
+    "Avoid assuming C preserves eta; retain the full parity-restoration/norm-kernel and configuration-mixing boundaries."
+  ],
+  "known_limits": [
+    "No source errata audit; no textbook primary-page inspection; no claim that Wang explicitly uses the C/PC interface above.",
+    "No proof that four named wave packets are independent or that any projected low-energy bands exist; no numerical norm-kernel or full nuclear Hamiltonian was computed.",
+    "The presence of arbitrary octupole modes or time-odd external constraints requires repeating the symmetry analysis.",
+    "C²=+1 alone supplies no Kramers degeneracy, but other independent symmetries or accidents can still generate degeneracies."
+  ],
+  "deliverables": [
+    "report.json",
+    "correction.tex",
+    "validation.py",
+    "results.json"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "timestamp": "2026-11-13T04:23:15.239907+00:00",
+  "csv_metadata": [
+    {
+      "path": "outputs/l4/20261108-digital-pulse-response/ballistic_deficit_study.csv",
+      "matches": true
+    },
+    {
+      "path": "outputs/l4/20261108-digital-pulse-response/sampling_convergence.csv",
+      "matches": true
+    },
+    {
+      "path": "outputs/l4/20261108-digital-pulse-response/cfd_phase_walk_analysis.csv",
+      "matches": true
+    }
+  ],
+  "figure_file_hashes": [
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/occupancy-centroids.pdf",
+      "matches": true
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/occupancy-centroids.svg",
+      "matches": true
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/gamma-measure.pdf",
+      "matches": true
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/gamma-measure.svg",
+      "matches": true
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/digital-energy-response.pdf",
+      "matches": true
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/digital-energy-response.svg",
+      "matches": true
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/cfd-phase-convergence.pdf",
+      "matches": true
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/cfd-phase-convergence.svg",
+      "matches": true
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/shape-moments.pdf",
+      "matches": true
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/shape-moments.svg",
+      "matches": true
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/six-region-map.pdf",
+      "matches": true
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/six-region-map.svg",
+      "matches": true
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/chapter-dependency.pdf",
+      "matches": true
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/chapter-dependency.svg",
+      "matches": true
+    }
+  ],
+  "figure_producer_sha256": "0d5d707202df50f7c2b0d8b64e1b20ee9c743770f64a202b494b1ffe0629fbfd",
+  "passed": true,
+  "scope": "Metadata and producer evidence only; appendix wording/layout separate."
+}

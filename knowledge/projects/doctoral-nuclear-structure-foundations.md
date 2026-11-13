@@ -3,11 +3,11 @@ type: project
 title: "博士论文前置研究：六区集体激发、核芯形变与实验观测链"
 aliases: [博士论文前置研学, doctoral-nuclear-structure-foundations]
 created: 2026-11-08
-updated: 2026-11-13
+updated: 2026-11-14
 status: active
 review_status: unreviewed
 research_status: active-L3
-project_stage: phase3-A130-frontmatter-rewrite
+project_stage: nonpersonal-frontmatter-research-draft-complete
 confidentiality: public
 sources: [cline-1986-nuclear-shapes-coulomb-excitation, poves-2020-limits-assigning-nuclear-shape, henderson-2020-quadrupole-invariant-convergence, wu-hongyi-2020-general-purpose-digital-daq-thesis]
 tags: [doctoral-foundations, collective-excitation, triaxiality, cross-region, research-design]
@@ -25,19 +25,18 @@ R1–R3第一阶段已完成知识、原件/数值核验及授权发布，
 章节设计goal也已完成验证发布。
 [[doctoral-thesis-architecture-and-section-map-20261108]]选定五章/39节，
 [[doctoral-thesis-sample-reading-design-findings-20261108]]保存有限样本的观察。
-当前active goal为A130前置非个人成果正文重写：
+本次有限goal为A130前置非个人成果正文重写：
 11月8日旧34文件完成逐项归档；11月13日复核发现工作树归档已被后续外部操作移除，
 其中17项原正文/源文件及旧PDF仍可由Git历史精确恢复，保持用户删除现状。
 [[doctoral-thesis-notation-and-evidence-style-20261108]]统一符号/引用，
-各稿仍须逐主张、公式与读者台阶核查，尚未完成整部正文。
-三样节与第二批七节的发布已经核对。
-11月13日起改用用户提供的LaTeX工程，15节、附B/C已交付范围与7组矢量图
-已作为128页检查点发布。当前内容接受范围扩展到27节：第一章全章、第二章全章、
-3.1/3.2/3.3/3.5/3.6、4.1/4.2/4.3/4.6以及5.1/5.3/5.4/5.5/5.9；
-附B/C和附F已交付范围随组稿核验。其余12节与必要附录继续写作和返修，
-尚未完成整部39节稿。本次27节检查点已编译为220页并发布，引用、交叉引用、缺字、
-越界排版及Bib问题均为0；64项工程输入集合和9组SVG/PDF已逐项核对。
-具体范围与保留的非致命提示回任务回执，不套用早期128页结果。
+三样节及其后39节已逐节完成总控核验，附录A–F已整合为374页LaTeX研究稿。
+当前整稿包含19组正文Python图、3项CSV与6组有限数学控制；原件locator、
+模型条件和竞争解释分别保留。最后一轮核对了双端投影、FF秩分块、M3允许性、
+奇异两态网络、阈值宽度条件及统计边界，并同步旧知识笔记，避免检索回旧错误。
+最终编译的致命错误、缺失引用、越界、缺字与BibTeX错误/警告均为零；
+全部374页做文字块边界扫描，并对代表页、长表与图件版面抽查。该验证不等于读者研究。
+本次前置非个人成果写作的有限范围已完成，实际发布状态见A130的manuscript-status及final39回执。
+持续专题研究仍可由新的高价值问题启动，不把领域开放问题当作本次写作的完成门。
 已写内容不等于未知个人成果或学校送审材料。
 写作暴露的原件与推导修正已分别保存为
 [[a130-rewrite-invariant-recoupling-and-width-boundaries-20261108]]、
@@ -58,12 +57,20 @@ R1–R3第一阶段已完成知识、原件/数值核验及授权发布，
 [[a130-rewrite-alignment-frame-and-precession-20261113]]，形状坐标与取向坐标的
 质量加权、混合及干涉边界见
 [[a130-rewrite-shape-orientation-mode-coupling-20261113]]。
+3.4与3.7的角动量约定、反射与手征判据边界，分别见
+[[a130-rewrite-angular-convention-reference-20261113]]与
+[[a130-rewrite-parity-chirality-and-e1-limits-20261113]]；
+4.4的跨区原表、取向定义、惯量排序及原件身份修正见
+[[a130-rewrite-orientation-cross-region-conditions-20261113]]。
+新增可复用边界见[[a130-rewrite-statistical-model-and-covariance-audit-20261114]]与
+[[a130-rewrite-seniority-projection-open-network-boundaries-20261114]]；
+[[maheshwari-jain-2016-even-odd-tensor-seniority]]保留实际OA原件及单j/多j规则的区别。
 
 用户要求先全力研学，再重建博士论文。前置研究和设计均已收束，当前进入正文，
 具体物理研学继续服务高价值问题与写作暴露的缺口。
 总控负责问题选择、基础推导、原件核查、跨区综合与最终就绪判断；
 Gemini Flash Tiered/high承担大部分分域研学；复杂理论交给Terra/xhigh。
-模型路由与产量不能代替正确性。原生goal于本会话创建，任务状态保持active。
+模型路由与产量不能代替正确性。原生写作goal沿用至本次编译、核验与授权发布收束；领域研究问题不因这份稿件而封闭。
 
 研究骨架为：
 **壳结构与占据 → 配对和集体惯量 → 量子涨落 → 激发模式 →
@@ -287,3 +294,8 @@ Gemini Tiered/high承担主要阅读、正文迁移与续写、工程清理、�
 验收与派发回执在`outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/`。
 
 开放网络的条件归一化、初始复合核与蒸发后进入态标签，以及有限时间接受度的解析核查，见[[a130-rewrite-open-network-and-entry-ensemble-20261113]]。
+
+联合预言中的具体支路、原件身份与模型检验边界见
+[[a130-rewrite-joint-predictions-and-discriminating-program-20261113]]；
+环境机制及评价归一的复核见
+[[a130-rewrite-environment-formation-observability-20261113]]。

@@ -1,0 +1,117 @@
+{
+  "status": "revision-required-on-direct-evidence",
+  "recorded_at": "2026-11-13T04:31:23.577850+00:00",
+  "worker": "G86",
+  "items": [
+    {
+      "section": "4.1",
+      "id": "R41-projection",
+      "required_change": "Single-intrinsic projected states are good-I trial states, not automatically exact eigenstates. Laboratory symmetry approximations and M basis/mixtures must be stated.",
+      "source_locator": "2.5 and T13 accepted conventions"
+    },
+    {
+      "section": "4.1",
+      "id": "R41-inertia",
+      "required_change": "Remove universal IB/rigid ratio or << bound; refer to2.6 implementation and summation/units instead of inventing new version.",
+      "source_locator": "2.6"
+    },
+    {
+      "section": "4.1",
+      "id": "R41-moments",
+      "required_change": "Use2.1/2.4 invariant definitions; finite low-order moments do not uniquely determine gamma distribution or yield a universal rigidity cut.",
+      "source_locator": "2.1/2.4"
+    },
+    {
+      "section": "4.1",
+      "id": "R41-observables",
+      "required_change": "Remove unique-population-path claim. Transfer cross sections are observables, spectroscopic factors are reaction/structure/resolution dependent quantities.",
+      "source_locator": "Duguet2015 and2.2"
+    },
+    {
+      "section": "4.2",
+      "id": "R42-mixing",
+      "required_change": "Make Hamiltonian offdiagonal V, mixing-state signs and tan2theta consistent. For cA+sB/−sA+cB use negative 2V/(EB−EA).",
+      "source_locator": "Direct two-state diagonalization; existing2.5/B"
+    },
+    {
+      "section": "4.2",
+      "id": "R42-e0",
+      "required_change": "For per-proton mean-square charge radii include Z² in rho²; state orthonormal unmixed configurations and neglect of offdiagonal E0 as model assumptions.",
+      "source_locator": "Crider2016 two-state model"
+    },
+    {
+      "section": "4.2",
+      "id": "R42-Ge64",
+      "required_change": "Starosta2007 tau2_1=3.3(5)ps, tau2_2=8(+4/−2)ps; downward B=410(60),620(210),1.5(5)e²fm4 with correct state identities. Not2.4(7)ps.",
+      "source_locator": "Starosta2007 PDF3 TableI and text"
+    },
+    {
+      "section": "4.2",
+      "id": "R42-Kr",
+      "required_change": "76Kr2_1 Qs=−0.7(2)eb;74Kr2_1 Qs=−0.53(+.24/−.23)eb. No positive74Kr ground-shape inversion claim from these data.2+Qs is not0+laboratory first moment.",
+      "source_locator": "Clement2007 PDF11 TableVI and PDF15 TableXI"
+    },
+    {
+      "section": "4.2",
+      "id": "R42-Ge76",
+      "required_change": "Remove unsupported sigma(delta)=13(4)degrees. Original Fig4/5 concern effective angle and higher invariant dispersion; distinguish reported author rigidity interpretation from universal determination.",
+      "source_locator": "Ayangeakaa2019 held7-pagePDF5–6 Figs4/5"
+    },
+    {
+      "section": "4.2",
+      "id": "R42-Ni",
+      "required_change": "68Ni0_3 t1/2=.57(5)ns and70Ni candidate0_2=1.65(+.30/−.25)ns are different states/nuclei. E0 upper limits are not measured strong E0 or zeros. Shape assignments remain model-comparison interpretation.",
+      "source_locator": "Crider2016 PDF2/4 Table1"
+    },
+    {
+      "section": "4.2",
+      "id": "R42-Ding",
+      "required_change": "Ding S(I)=[E(I)−E(I−1)]/(2I) differs from even-even gamma-band second-difference staggering. Ideal A60 PRM has no new experimental Co spectrum.",
+      "source_locator": "Ding2025 paper Figs4–9"
+    },
+    {
+      "section": "4.3",
+      "id": "R43-Mo98-adopted",
+      "required_change": "0_2=734.75(4)keV,T1/2=21.8(9)ns;2_1=787.384(17)keV,T1/2=3.47(7)ps. If use mean lifetime derive explicitly byln2.",
+      "source_locator": "Actual adopted PDF2 ENSDF table"
+    },
+    {
+      "section": "4.3",
+      "id": "R43-Mo98-fulltext",
+      "required_change": "Use user-supplied8-page NPA1066(2026)123265 DOI10.1016/j.nuclphysa.2025.123265 as main evidence; not just old DAE abstract. New weak1833.3/1585.8 lines have blank DCO/polarization; E3 lowest allowed not unique measured multipolarity; B(E3)/B(E2) ratio is not absolute B(E3).",
+      "source_locator": "raw/papers/⁹⁸Mo A possible candidate for octupole collectivity in A ≈ 100 region.pdf, PDF4 Table1 and6–7 Tables2/3"
+    },
+    {
+      "section": "4.3",
+      "id": "R43-Ru102",
+      "required_change": "Original PDF3:2.95MeV B(E1)↑=.016e²fm²;4.5–5.5MeV cluster near4.9MeV with sum≈.1. PDF5 total observedM1=1.7muN²;local2–4MeV sum≈1 is different range.5MeV octupole association and2.95 two-phonon may are author/model interpretations, not direct E3/static-shape measurement.",
+      "source_locator": "Saracino2026 original PDF3/5/6"
+    },
+    {
+      "section": "4.3",
+      "id": "R43-NRF",
+      "required_change": "NRF on0+ is often dominated by1± via E1/M1, but E2 can excite2+ etc; no theorem that NRF exclusively populates spin1. Restrict statements to actual assigned states/experiment.",
+      "source_locator": "Multipole selection rules2.1/2.7, original Ru experiment"
+    },
+    {
+      "section": "all",
+      "id": "R-format",
+      "required_change": "Remove literal Markdown ** and internal agent/contract language from thesis. Keep exact actualPDFpage/printedpage/table and short search anchor per numerical claim. No own latexmk, common build exclusively G76.",
+      "source_locator": "User LaTeX and writer contract"
+    }
+  ],
+  "return_contract": "Update actual TeX/ledgers and create parent-return-consolidated-fixed.json mapping every ID to real file/line anchor, source page/anchor and remaining boundary. No declaration of completeness substitutes for evidence. Do not rewrite already corrected sections wholesale.",
+  "numbers_matrix_fields": [
+    "nucleus",
+    "state_or_transition",
+    "observable",
+    "value",
+    "unit",
+    "experimental_or_model",
+    "source_pdf",
+    "actual_pdf_page",
+    "table_or_equation",
+    "short_original_text_anchor"
+  ],
+  "queue": "4.8 after three sections accepted; no further broadening now."
+}

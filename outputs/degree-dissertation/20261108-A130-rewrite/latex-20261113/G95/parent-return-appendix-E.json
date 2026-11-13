@@ -1,0 +1,25 @@
+{
+  "appendix": "E",
+  "owner": "G89 after4.8R3",
+  "status": "delivered-not-accepted",
+  "canonical_anchors": [
+    "accepted sections5.3",
+    "5.4",
+    "5.5",
+    "actual Wu2020thesis pages"
+  ],
+  "requirements": [
+    "Exact M=1/expm1(Ts/tau), alpha=M/(M+1); initial-state and PZ normalization explicit.",
+    "Same four-tap d in both integrators; ell delay convention consistent; H=[(M+1)-Mz^-1]BkBell is FIR independently of preamplifier match.",
+    "Pure exponential matched pulse output and unit-step input are different; finite collection support versus exponential tails.",
+    "CFD delayed-minus-fraction, matching negative→nonnegative crossing and fast-filter input.",
+    "Define interpolation-error sign and leading-order smooth nonzero-slope assumptions.",
+    "Pseudocode consistent baseline subtraction, negative-index handling, ring delays and arithmetic.",
+    "Single-channel hit header, firmware-specific bits/lengths/loss behavior, no invented overflow flags.",
+    "PASTA prearrival reference/lack-of-anticipation; no automatic two-time equality or universal nonPoisson bias.",
+    "Shared-busy positive covariance example conditional and zero-lag; no generic independence from zero covariance.",
+    "Actual source identity/hash/locators; meaningful finite direct-convolution and CFD controls."
+  ],
+  "recorded_at": "2026-11-13T15:54:49.859061+00:00",
+  "delivery_boundary": "Detailed instructions delivered in same-agent message; this JSON indexes obligations, not source evidence."
+}

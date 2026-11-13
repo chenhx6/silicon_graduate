@@ -1,0 +1,87 @@
+{
+  "recorded_at": "2026-11-13T11:51:03.794898+00:00",
+  "status": "parent-return-for-targeted-science-revision",
+  "section": "4.8",
+  "scope": "Consolidates parent queued comments; 27-section published checkpoint is unchanged.",
+  "ownership": "G89 sole writer of 4.8 canonical TeX/ledger and own environment note; no shared Bib/build/Git.",
+  "knowledge_anchor": "knowledge/research-notes/a130-rewrite-open-network-and-entry-ensemble-20261113.md",
+  "required_corrections": [
+    {
+      "id": "R1",
+      "severity": "hard-science",
+      "topic": "176Lu",
+      "action": "Gintautas rawPDF2 SecII: isomer Jπ1−,Kπ0−; ground7−/7−;838.6keV bridge Jπ5−,Kπ4−. Remove invented Kπ3−/4+ bridge. Lowest allowed direct EM is E6, not proof of measured pure E6."
+    },
+    {
+      "id": "R2",
+      "severity": "hard-science",
+      "topic": "beta type",
+      "action": "Remove unsupported predominantly allowed-GT statement for 176mLu. A1− parent to positive-parity final state is not allowedGT; without evaluated branch table just say beta decay to176Hf. Gintautas is a rate model using level data, not a new direct branch measurement."
+    },
+    {
+      "id": "R3",
+      "severity": "scope-and-mathematics",
+      "topic": "conservation",
+      "action": "Use dNtotal/dt=−Σd_iN_i+ΣP_i. Closed zero-source is sufficient for conservation. A particular open stationary trajectory may balance feeding/removal; requiring conservation for all initial populations with fixed nonnegative state-independent P and d instead does require both zero. State quantifier."
+    },
+    {
+      "id": "R4",
+      "severity": "hard-science",
+      "topic": "propagation",
+      "action": "Unequal constant losses do not force numerical integration: constant A,P=0 gives exp(At)N0, with source add variation-of-constants convolution. Instantaneous eigenvalues alone are generally insufficient; time-varying environments require full propagation, analytic or numerical as appropriate."
+    },
+    {
+      "id": "R5",
+      "severity": "physical-conditions",
+      "topic": "timescales",
+      "action": "Equal common loss D cancels exactly from normalized f=Nm/Ntotal, even if D>0. a+b≫|Dm−Dg| controls leading small-root expansion, but does not by itself show an initially arbitrary population equilibrates while detectable or before cooling/reactions. Keep initial amplitudes and finite environment/observation intervals."
+    },
+    {
+      "id": "R6",
+      "severity": "hard-science",
+      "topic": "entry-spin-label",
+      "action": "Use J0 for initial compound partial wave and Je,πe,Ee for post-evaporation entry. Define normalized F(entry|E,J0,surv), bbar(E,J0)=ΣJeπe∫F b(entry). σm=ΣJ0σER(E,J0)bbar. Whole b_eff is σER-weighted; denominator must be nonzero. Do not use one J as both pre/post evaporation without an explicit conditional average."
+    },
+    {
+      "id": "R7",
+      "severity": "source-boundary",
+      "topic": "reaction decomposition",
+      "action": "Zagrebaev rawPDF1 Eq1 explicitly approximate three-stage decomposition; rawPDF7 Eqs10–11 integrate evaporated neutron energies and terminal gamma cooling. A representative-trajectory width product is a further approximation. No universal Z1Z2 thresholds or PCN fixed ranges; use source-specific examples/conditions."
+    },
+    {
+      "id": "R8",
+      "severity": "source-boundary",
+      "topic": "barrier",
+      "action": "Do not universalize B_LD=0 or restore withdrawn numbers. RawPDF7 SecVA No-neighbor model gives B_LD~1.2MeV. ΔB_shell≈−δUgs also assumes saddle shell correction negligible. Shell damping is phenomenological with units/parameters/conditions."
+    },
+    {
+      "id": "R9",
+      "severity": "physical-conditions",
+      "topic": "capture channels",
+      "action": "Nonzero entrance spins: use channel transmission T^J_lS or explicitly neglect S dependence. D_fus=d²(Eσfus)/dE² is operational curvature, not automatic bare barrier probability in a system with energy-dependent PCN/quasifission. Distinguish capture/fusion/ER."
+    },
+    {
+      "id": "R10",
+      "severity": "hard-science",
+      "topic": "time-window",
+      "action": "Remove absolute only-target/inaccessible-window assertions. Single fixed laboratory τ and fixed flight tf with later window Δt yield e^(−tf/τ)[1−e^(−Δt/τ)]; branch/efficiency separately. Small acceptance is not universally impossible detection; in-flight apparatus differs. No fictional user equipment."
+    },
+    {
+      "id": "R11",
+      "severity": "source-numeric",
+      "topic": "nuclear clock",
+      "action": "Kraemer rawPDF2 states CaF2 gap12.1eV and MgF2 gap12.4eV, replace approximate10eV if giving number. RawPDF3 reports148.71±.06stat±.41systnm;8.338±.003stat±.023systeV. RawPDF1/3 MgF2 half-life670(102)s, not mean lifetime or CaF2 value. RawPDF4 n^3 correction with n1.488 infers vacuum half-life2.21(.34)e3s and specifically questions shallow-implantation applicability. Preserve this condition if quoting vacuum estimate."
+    },
+    {
+      "id": "R12",
+      "severity": "source-interpretation",
+      "topic": "NEEC/IC",
+      "action": "Retain correct Chiara7Li(90Zr,p3n), Guo12C(86Kr,5n)559MeV/HIRFL-RIBLL35m, Guo95% Gaussian window area acceptance not Pmax95%CL. Seiferle alphaIC~1e9 compares measuredIC half-life to theoretical radiative lifetime, not simultaneous direct photon branch measurement. Check all versions in text/table/figure/ledger/note."
+    }
+  ],
+  "delivery": [
+    "Canonical4.8 TeX and ledger synchronized; self-audit map R1–R12 to actual line/claim/source and remaining boundary.",
+    "Own environment knowledge note updated; no invented locator or self-citing old ledger.",
+    "New single-section receipt with actual TeX/ledger SHA and changed paths; parent still decides acceptance."
+  ]
+}

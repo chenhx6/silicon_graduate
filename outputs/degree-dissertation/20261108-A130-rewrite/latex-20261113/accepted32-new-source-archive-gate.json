@@ -1,0 +1,31 @@
+{
+  "checked_manifests": [],
+  "checked_sources": [
+    "/workspace/wiki/knowledge/sources/beeks-2021-thorium-229-isomer-nuclear-clock.md",
+    "/workspace/wiki/knowledge/sources/book-jain-nuclear-isomers.md",
+    "/workspace/wiki/knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+    "/workspace/wiki/knowledge/sources/chiara-2018-mo93m-isomer-depletion-neec.md",
+    "/workspace/wiki/knowledge/sources/ding-2025-chiral-rotation-a60-residual-interactions.md",
+    "/workspace/wiki/knowledge/sources/doctoral-r1-g33-gintautas-2009-176lu-thermal-equilibration.md",
+    "/workspace/wiki/knowledge/sources/doctoral-r1-g33-gosselin-2010-plasma-isomers-176lu-180ta.md",
+    "/workspace/wiki/knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+    "/workspace/wiki/knowledge/sources/guo-2021-mo93m-depletion-contamination-challenge.md",
+    "/workspace/wiki/knowledge/sources/guo-2022-mo93m-isomer-beam-depletion-limit.md",
+    "/workspace/wiki/knowledge/sources/karmakar-2025-2026-98mo-octupole-preview.md",
+    "/workspace/wiki/knowledge/sources/kraemer-2023-radiative-decay-229th-isomer.md",
+    "/workspace/wiki/knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+    "/workspace/wiki/knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+    "/workspace/wiki/knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+    "/workspace/wiki/knowledge/sources/nndc-176lu-isomer-beta-2006-snapshot-20261113.md",
+    "/workspace/wiki/knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+    "/workspace/wiki/knowledge/sources/saracino-2026-102ru-scissors-octupole-resonances.md",
+    "/workspace/wiki/knowledge/sources/seiferle-2017-lifetime-229th-isomer.md",
+    "/workspace/wiki/knowledge/sources/wu-2019-mo93m-neec-stopping-theory.md",
+    "/workspace/wiki/knowledge/sources/xu-2004-superheavy-high-spin-isomer-stability.md",
+    "/workspace/wiki/knowledge/sources/zagrebaev-2001-superheavy-synthesis-survival.md"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "ok": true,
+  "scope": "paths"
+}

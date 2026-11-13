@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-11-13T13:49:00.705207+00:00",
+  "scope": "T20 planned AppendixA angular/units and working5.9 phase bridge; snapshots only, no canonicalwrite.",
+  "files": [
+    {
+      "input_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixA.tex",
+      "snapshot_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T20/AppendixA.frozen.tex",
+      "sha256": "5437aec7a38cb18021b3c6701ffd9078c29ced34d4b0bef3b65bd447102fbf10",
+      "size_bytes": 27205
+    },
+    {
+      "input_path": "raw/writing/gpt/A130/latex-evidence-ledger/appendix-A.json",
+      "snapshot_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T20/appendix-A.frozen.json",
+      "sha256": "f37432a2744b0a97866bc17404529c6379bba35baff0a97a0c1f22a83b5db1c1",
+      "size_bytes": 6123
+    },
+    {
+      "input_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-9.tex",
+      "snapshot_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T20/sec-5-9.frozen.tex",
+      "sha256": "b534fb7493a4924737e5a368dec3c7583aee53b09a547943b65afb306ec91af7",
+      "size_bytes": 30211
+    },
+    {
+      "input_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-9.json",
+      "snapshot_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T20/section-5-9.frozen.json",
+      "sha256": "830b26448253b3b3d0a99c976df0794d7e212074cbe334089d28abe69d632f4b",
+      "size_bytes": 8967
+    }
+  ]
+}

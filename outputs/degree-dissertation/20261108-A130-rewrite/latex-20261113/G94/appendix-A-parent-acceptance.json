@@ -1,0 +1,41 @@
+{
+  "appendix": "A",
+  "status": "parent-content-accepted; integrated typesetting pending",
+  "at_utc": "2026-11-13T16:43:56.629255+00:00",
+  "parent_checks": [
+    "Read complete300-line body and all source records; eightT20 correction interfaces checked.",
+    "Actualfour canonicalraw hashes verified, replacing fakeBM/Hamilton hashes.",
+    "SelfadjointRME and9j→6j matched T20primary/finitecontrols; no extra(-1)^k.",
+    "No claim of having compared unreadEdmonds/Rose editions; SIunits separated from mixing-phase labels.",
+    "Nonorthogonalprojection and finite-truncation do not by themselves destroy statistical-weight reciprocity; metric/adjoint conditions retained.",
+    "Bdefinition versus actual orientedbeam response clarified.",
+    "Knowledge note rebuilt; removed new erroneous half-integer phase identity and broadcertification.",
+    "Unavailableerratum excluded from physical support; metadata/access record archived and its source/page gate passed.",
+    "C0/braces/dollars clean; sourcecitation toHamilton added."
+  ],
+  "source_checks": "parent-source-checks.json",
+  "narrow_review": "T20/parent-acceptance.json",
+  "artifacts": [
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixA.tex",
+      "sha256": "7938ef23fa30ae9640cd3ffcfac7a8cb557817ad46b91542f25cf8e98c37f6d3",
+      "size": 28712
+    },
+    {
+      "path": "raw/writing/gpt/A130/latex-evidence-ledger/appendix-A.json",
+      "sha256": "ec88d27f155296418b94a54611daab5bdfbbc1eb3000bcc619f8be48ca44c44b",
+      "size": 9302
+    },
+    {
+      "path": "knowledge/research-notes/a130-rewrite-angular-momentum-appendix-audit-20261113.md",
+      "sha256": "96c756a17f460a9d330eb091407a5ba7739c536cda15ee147a0764d303e16fea",
+      "size": 6145
+    }
+  ],
+  "not_claimed": [
+    "every textbook version reviewed",
+    "all finitecontrols constitute proof",
+    "erratum content obtained",
+    "newPDFchecked"
+  ]
+}

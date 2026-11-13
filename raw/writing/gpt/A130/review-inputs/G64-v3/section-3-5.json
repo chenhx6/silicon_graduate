@@ -1,0 +1,193 @@
+{
+  "section_id": "3.5",
+  "title": "手征几何、隧穿与有限核态",
+  "version": "v3",
+  "created_at": "2026-11-08",
+  "updated_at": "2026-11-08",
+  "status": "research-draft-v3-complete",
+  "scope_boundary": "本节系统阐述三轴核非共面角动量几何、反幺正手征对称性 C = T Ry(pi) 的代数结构、有限体系正交与非正交两态隧穿模型（附加实对称近似），以及电磁指纹与非手征竞争机制的实验判据；具体核区（如 A~130 与 A~80）的多重手征带与微观势能面对账转入第4章，更一般的复非正交两态广义本征方程待后续章节与附录讨论。",
+  "draft_path": "raw/writing/gpt/A130/research-draft/section-3-5.md",
+  "draft_sha256": "d7e4184f81f71784904dd0b25c39e22266eb980288da15970ce6976ff139a3ce",
+  "source_inputs": [
+    {
+      "source_id": "liu-chen-2016-78br-chirality-reflection-symmetry-thesis",
+      "source_page": "knowledge/sources/liu-chen-2016-78br-chirality-reflection-symmetry-thesis.md",
+      "raw_file": "raw/theses/degree-dissertation/刘晨_奇奇核~(78)Br中手征...间反射对称性的联立自发破缺.pdf",
+      "raw_sha256": "5e00370aab205b689841cb58d65c7fad8829e3de74f084736a74f2d8658ab291",
+      "actual_read_pages": "PDF pp. 13–18 (定向回读背景与手征双带概念); PDF pp. 80–82, 90 (模型八极软性与展望边界检查)",
+      "claims_supported": [
+        "三轴形变核中高j价粒子、高j价空穴与中间惯量轴集体核芯角动量三向正交耦合构成内禀左/右手系的概念与示意 (PDF p. 14, 图 1.2)",
+        "手征算符定义为时间反演与绕转动轴旋转180度的复合操作 C = T Ry(pi) (PDF p. 14)",
+        "有限核量子隧穿导致实验室系手征对称性恢复，分裂形成Delta I=1的近简并同宇称手征双重带 (PDF p. 14)",
+        "手征双带的自旋演化与带内/带间电磁跃迁特征 (PDF pp. 16–17)",
+        "78Br中基于pi g9/2与nu g9/2组态的手征带研究背景与邻近核系统学 (PDF pp. 26–27)"
+      ],
+      "boundary_note": "所读页面提取文字受字形与排版限制，未能从提取文本中独立验证 S(I) 的精确代数公式及 locator，故正文中 S(I) 代数定义不归引于此文，仅表述其绘制了相应能量间距演化。"
+    },
+    {
+      "source_id": "book-bohr-mottelson-nuclear-structure-vol2",
+      "source_page": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "raw_sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "actual_read_pages": "printed pp. 190–193 (PDF pp. 212–215, Section 4-5e States with Large I)",
+      "claims_supported": [
+        "非轴对称转子高自旋基态与yrast区的角动量取向原理：固定自旋I下，沿最大转动惯量轴转动能量极小，沿最小惯量轴转动能量极大 (printed pp. 190–191)",
+        "横向角动量分量的小振幅展开与玻色湮灭/产生算符映射，转动惯量主轴标记A1 < A2 < A3下的角动量代数 (printed pp. 191–192)",
+        "转子在D2对称群下的主轴转动性质 (printed pp. 191–193)"
+      ],
+      "boundary_note": "原书该处仅支持转子角动量与高自旋惯量顺排的理论背景，原书定理的最大惯量轴并不必然等同于几何中间轴m；原书并未证明反幺正手征算符代数C = T Ry(pi)与C^2 = +1，后者构成本论文任务的自主条件代数推导。"
+    },
+    {
+      "source_id": "frauendorf-meng-1997-tilted-rotation-chirality",
+      "source_page": "knowledge/sources/frauendorf-meng-1997-tilted-rotation-chirality.md",
+      "raw_file": "raw/papers/1997_Frauendorf et al_Tilted rotation of triaxial nuclei.pdf",
+      "raw_sha256": "9dc81b3147a786189dd0c2f31d79a56e9bb5d83e16fd0c8137bccaf2a43d81e2",
+      "actual_read_pages": "NPA 617 (1997) pp. 131–147, 重点读 PDF pp. 8–12 (平面/非平面解、Fig.5–6 及 PRM 劈裂)",
+      "claims_supported": [
+        "三轴非共面倾斜轴转动（3D TAC）中自发破缺手征对称性的开创性理论预言",
+        "奇奇核中粒子—空穴—转子三向角动量非共面取向及左/右手内禀坐标系定义",
+        "平面转动与非平面转动的能量面极小性质及有限量子隧穿恢复概念"
+      ]
+    },
+    {
+      "source_id": "frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei",
+      "source_page": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+      "raw_file": "raw/papers/2001_Frauendorf_Spontaneous symmetry breaking in rotating nuclei.pdf",
+      "raw_sha256": "d43c7290cf5899ebc9b94324af5e95eb40e488bacf1c70c89e0b3bd61d916172",
+      "actual_read_pages": "Rev. Mod. Phys. 73 (2001) pp. 463–514, 定向核读 printed pp. 484–486 (PDF pp. 22–24, Section IV.D Rotating chiral shapes), 以及 pp. 34, 42",
+      "claims_supported": [
+        "旋转核中连续与离散对称性自发破缺的微观与唯象理论综述",
+        "手征算符作为时间反演与转动复合对称性的物理机制及量子隧穿恢复",
+        "单粒子轨道与三轴势场最大重叠倾向决定粒子顺排短轴、空穴顺排长轴的模型机理 (printed p. 485)"
+      ],
+      "boundary_note": "更正先前 ledger 中关于 Section IV.E / pp. 488–492 的错误定位，确认手征核心讨论位于 printed pp. 484–486 / PDF pp. 22–24。"
+    },
+    {
+      "source_id": "starosta-2001-n75-chiral-vibrations",
+      "source_page": "knowledge/sources/starosta-2001-n75-chiral-vibrations.md",
+      "raw_file": "raw/papers/2001_Starosta et al_Chiral Doublet Structures in Odd-Odd N = 75 Isotones Chiral Vibrations.pdf",
+      "raw_sha256": "9082c1e8ced3fbfeb2248f5b18c1b646f4dc1adc77af5c27c6a988855583cbf4",
+      "actual_read_pages": "PRL 86 (2001) pp. 971–974, 重点读 PDF pp. 1–4 (尤其 PDF pp. 3–4 讨论手征振动解释)",
+      "claims_supported": [
+        "A~130核区N=75同中子异位素链中手征双重带的实验系统学",
+        "作者提出低自旋区手征振动（围绕非手征共面平面的软振动模）向静态手征转动过渡的解释"
+      ]
+    },
+    {
+      "source_id": "petrache-2006-near-degenerate-chiral-misinterpretation",
+      "source_page": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+      "raw_sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f",
+      "actual_read_pages": "PRL 96 (2006) 112502, PDF pp. 1–4, 重点读 PDF pp. 1–3 (带交叉与非手征模型混合分析)",
+      "claims_supported": [
+        "明确揭示能级近简并绝非手征构型的充分证明：不同准粒子激发、形状共存及带交叉可产生虚假的近简并双带",
+        "指出必须结合跃迁矩阵元、微观电磁性质与模型对账方能审慎甄别手征与非手征解释"
+      ]
+    },
+    {
+      "source_id": "koike-2004-chiral-bands-selection-rules",
+      "source_page": "knowledge/sources/koike-2004-chiral-bands-selection-rules.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/koike-2004-selection-rules.pdf",
+      "raw_sha256": "f39816a5d2f3f3ec45098fc636371ee3e8e4dc721b0ced33e7c87b453b7f155e",
+      "actual_read_pages": "PRL 93 (2004) 172502, PDF pp. 1–4, 重点读 PDF pp. 2–3 (模型对称与跃迁选择定则)",
+      "claims_supported": [
+        "特殊粒子—转子模型（gamma=90度，中间轴量子化，同j壳层粒子与空穴）在复合线性算符 A（质中置换加转动）下的电磁选择定则",
+        "原文明确指出该选择定则由该特殊哈密顿量的内禀对称性决定，即使未完全实现非共面手征几何，选择定则在模型中依然成立",
+        "该模型中的质中交换操作 C_pn 为线性算符，不可与本节反幺正手征算符 C 混为一谈"
+      ]
+    },
+    {
+      "source_id": "rohozinski-2011-cphc-s-symmetry-chirality",
+      "source_page": "knowledge/sources/rohozinski-2011-cphc-s-symmetry-chirality.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/rohozinski-2011-cphc-s-symmetry.pdf",
+      "raw_sha256": "94b2b3bc89c1d942f07f7c512c5aecc38c3cc08bbf48dac507ad373ace64b8c9",
+      "actual_read_pages": "Eur. Phys. J. A 47 (2011) 90, PDF pp. 1–15, 重点读 PDF pp. 1–2, 5, 7–9, 13–14",
+      "claims_supported": [
+        "在核芯—粒子—空穴（CPHC）模型下，软核或具组合对称性 S 的 Bohr 核芯通过动力学耦合可再现双带能谱与 M1/E2 交错特征",
+        "作者明确指出其构造并未预先假定静态手征几何，体轴三体几何不易直接得出，能否唯一指认非共面取向仍是开放问题 (PDF p. 14)",
+        "原文并未证明非共面几何必然不存在，且全文未将该机制定义为非绝热耦合；正文已据此修正，删除非绝热归属"
+      ]
+    },
+    {
+      "source_id": "meng-2010-open-problems-nuclear-chirality",
+      "source_page": "knowledge/sources/meng-2010-open-problems-nuclear-chirality.md",
+      "raw_file": "raw/papers/2010_Meng et al_Open problems in understanding the nuclear chirality.pdf",
+      "raw_sha256": "bc78014db4585e07b81b70192a054d2b7323584a9cc2b5552c2153175db4c5c2",
+      "actual_read_pages": "J. Phys. G 37 (2010) 064025, PDF pp. 6–7 (具体核对 Section 3.1 Eq.(3.1) 的 S(I) 公式及模型讨论)",
+      "claims_supported": [
+        "明确印出能量交错参数的代数定义公式 S(I) = [E(I) - E(I-1)]/(2I)，具能量量纲 (PDF p. 6, Eq.(3.1))",
+        "阐明能谱间距与电磁跃迁指纹在不同核区与不同模型中的局限性，讨论多重手征双重带（MchiD）的理论发展"
+      ]
+    },
+    {
+      "source_id": "ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce",
+      "source_page": "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf",
+      "raw_sha256": "3c5a3d7c543140ee25f7cb09376d5aeee760c8ac50c76edd466a010d610c2d0f",
+      "actual_read_pages": "PRL 110 (2013) 172504 (5页期刊 reprint), PDF pp. 3–5, 重点读 PDF p. 3 Fig.2/caption 及寿命讨论",
+      "claims_supported": [
+        "133Ce中实验观测到多重转动能带结构，作者指认其为四条能带（两对候选带）并解释为多重手征双重带（MchiD）候选",
+        "Fig. 2 绘制了 S(I) 随自旋的演化图景，显示两条带 S(I) 的相近行为，但该图及图注并未印出具体代数公式，其指纹讨论引自其文献 [40]",
+        "作者明确指出由于实验条件限制，当前能带寿命测量不可行，但把绝对电磁跃迁几率视作判断手征性的重要判据 (PDF p. 3)"
+      ],
+      "boundary_note": "更正先前 ledger 中缺失的 raw 路径及不可用哈希，确立以 PR5 出版 reprint (SHA-256: 3c5a3d7c...) 为实际阅读底本；另备 accepted manuscript 另版 (SHA-256: 91ec60df...)，同 DOI 不混淆页码。"
+    }
+  ],
+  "notations_and_conventions": {
+    "angular_momentum_units": "总角动量量子数I无量纲；算符\\hat{\\mathbf{J}}具\\hbar量纲，无量纲算符\\hat{\\mathbf{j}} = \\hat{\\mathbf{J}}/\\hbar",
+    "declared_y_axis": "在粒子—转子模型与推转模型中声明的y轴定义为中间惯量轴；核瞬时实际转轴随转速在三维立体空间中倾斜，不与内禀y轴全局重合",
+    "operator_action_on_J": "C = T Ry(pi) 在 y=m 时对角动量分量的显式作用为 (Js, Jm, Jl) -> (Js, -Jm, Jl)，即反转沿声明轴分量而保持垂直面分量，不普遍恢复总J原方向；明确声明轴与瞬时转轴不同",
+    "pseudoscalar_expectation": "对于C对称哈密顿量的非简并本征态，C奇的厄米标量算符其期望值严格为零；非零期望值仅适用于破缺对称性的内禀参考态，不可直接套用于精确实验室本征态",
+    "signature_applicability": "旋称alpha_sig与r = exp(-i*pi*alpha_sig)是严格条件对称性，仅在推转哈密顿量保留绕推转轴pi旋转对称时守恒；三维倾斜轴推转中该对称性自发破缺，不可为所有TAC/手征带强行赋统一signature标签",
+    "geometric_vs_particle_chirality": "核转动几何手征性是三轴形变核在转动态下多体角动量非共面构型的宏观集体破缺，在强相互作用与电磁相互作用守恒宇称与时间反演的近似框架下讨论；严格区别于弱相互作用中由gamma^5投影定义的粒子手征性",
+    "energy_staggering_S_I": "S(I) = [E(I) - E(I-1)] / (2I) 具能量量纲（keV或MeV），代数公式明确归引于 Meng 2010 PDF p.6 §3.1 Eq.(3.1)；不同文献中同名S(I)具有二阶能量差分比或无量纲定义，禁止跨文献混用"
+  },
+  "claims_and_derivations": {
+    "C_squared_plus_one": "基于反幺正定义T i T^-1 = -i, T j T^-1 = -j, T^2 = (-1)^(2I)，推导T Ry(theta) T^-1 = Ry(theta)，从而C^2 = T^2 Ry(2pi) = (-1)^(4I) = +1对整数与半整数I严格普适成立；明确标明为本论文任务的自主条件代数推导",
+    "kramers_theorem_exclusion": "Kramers定理要求Theta^2 = -1，因C^2 = +1前提不成立；纯时间反演T^2 = -1在半整数核中保护同一自旋多重态磁子能级简并，不强迫两条不同同I转动带简并",
+    "rephasing_non_invariance": "C|\\psi> = \\lambda |\\psi>在定相变换|\\psi'> = e^(i\\phi)|\\psi>下按\\lambda' = e^(-2i\\phi)\\lambda变换，相位依赖于人为定相，绝不能作为类似空间宇称的物理可观测标签",
+    "no_linear_projection": "C为反线性算符，(1 \\pm C)/2在复希尔伯特空间上不满足标量乘法线性封闭性，严禁作为复线性投影算符",
+    "two_state_real_symmetric_approximation": "若|R> = C|L>且CHC^-1 = H、H厄米，则等对角元h严格成立；但S与k一般为复数，在定相下同乘e^(-2i\\phi)，同时实化的充要条件是Im(kS*) = 0，C反幺正单独不保证；本稿明确作为实对称近似条件处理，非负物理能隙取绝对值\\Delta E = 2|hS - k|/(1 - S^2)",
+    "operator_shift_invariance": "物理算符平移\\hat{H} -> \\hat{H} + c\\hat{1}对应非正交基下矩阵平移H -> H + cN，对角元h -> h + c且非对角元k -> k + cS，组合hS - k严格保持不变",
+    "projection_vs_metric_separation": "非正交基矢拥有标准的对偶基与线性展开技术；不能使用(1 \\pm C)/2是因为C的反线性特征，而求解广义久期方程则是为了自洽计入非正交度规N的效应，两者来源不同，不可混淆",
+    "tripartite_state_hierarchy": "清晰区分内禀参考态（平均场静态破缺）、精确实验室本征态（完全恢复旋转对称性）与半经典近似/集体模型态",
+    "non_unique_fingerprints": "能级近简并绝非充要判据；形状共存交叉、不同准粒子激发及gamma软核芯动态振动耦合均可模拟近简并双带；确立手征带须结合寿命tau、极化混合比delta与自洽微观动力学模型联合检验"
+  },
+  "competing_explanations_and_boundaries": {
+    "accidental_near_degeneracy": "不同形状（长椭/扁椭或不同三轴度）激发的两条带因转动惯量或带头能量补偿在特定自旋区靠拢产生虚假双带",
+    "different_quasiparticle_configurations": "属于不同单核子轨道激发或不同对阻抗演化的两条带呈现孪生带假象",
+    "gamma_soft_core_coupling": "Rohoziński 等人（2011）CPHC 模型表明，在软势能面核中，核芯四极振动与准粒子的耦合同样可产生能级并走与M1交错，软核手征模式竞争不应与静态刚性三轴手征机制等同视之",
+    "no_single_sufficient_criterion": "没有任何单一观测可孤立判定手征性，必须结合寿命tau测定绝对B(M1)/B(E2)与DCO/偏振混合比并与自洽理论模型对账"
+  },
+  "reader_checks": [
+    {
+      "question": "为什么在宏观物体中手征性是一个静态几何属性，而在原子核中必须通过转动运动才能体现？",
+      "answer": "微观原子核在只含四极形变的参考形状下，主轴系静态质量密度天然满足空间反演与主轴镜面对称。唯有转动态下由高j粒子、高j空穴与核芯转动构成的三维非共面角动量矢量，才能在内禀系破坏镜面对称性。"
+    },
+    {
+      "question": "为什么无论总自旋I是整数还是半整数均有C^2 = +1？这为何排除了克喇默斯定理的直接适用？",
+      "answer": "C = T Ry(pi)，因T与绕轴转动严格对易，C^2 = T^2 Ry(2pi) = (-1)^(2I) * (-1)^(2I) = (-1)^(4I) = +1恒成立。克喇默斯定理要求反幺正算符平方为-1，数学前提不成立，故不能用于手征算符强迫双带简并。"
+    },
+    {
+      "question": "为什么在复希尔伯特空间中严禁将(1 \\pm C)/2当作空间宇称式的线性投影算符？",
+      "answer": "C包含复共轭操作，具有反线性特征，(1 \\pm C)/2对复标量乘法不满足线性封闭性，无法实现正交子空间投影；且其本征值在全局定相变换下按lambda' = e^(-2i phi) lambda改变，正负号非规范不变量。"
+    },
+    {
+      "question": "在非正交两态模型中，为什么反幺正手征对称性不能单独保证重叠S与耦合元k同时为实数？",
+      "answer": "当|R> = C|L>时，S与k在态矢定相|L> -> e^(i phi)|L>下均乘以相同因子e^(-2i phi)，因此Im(kS*)具有定相不变性。只有当Im(kS*) = 0时两者才能同时实化，该实对称矩阵形式属于两态模型的额外近似假定，而非C单独保证。"
+    },
+    {
+      "question": "如果实验上观测到两条能量近简并且自旋宇称相同的能带，为什么不能直接宣称为手征双重带？",
+      "answer": "存在形状共存偶然靠拢、不同准粒子组态交叉以及gamma软核芯动态耦合等强烈的非手征竞争机制。确立手征性必须结合寿命测定绝对B(M1)与B(E2)几率，并与自洽理论模型联合对账。"
+    }
+  ],
+  "prohibitions_strictly_obeyed": [
+    "No deletion or movement of directories",
+    "No reading or reuse of old archived drafts",
+    "No modification of unauthorized files",
+    "No git commands executed",
+    "No sub-agents dispatched",
+    "No credential inspection",
+    "No downloading of new external files"
+  ]
+}

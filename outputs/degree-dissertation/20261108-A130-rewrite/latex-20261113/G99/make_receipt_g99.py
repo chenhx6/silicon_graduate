@@ -1,0 +1,83 @@
+import json, hashlib
+
+def get_sha256(path):
+    with open(path, 'rb') as f:
+        return hashlib.sha256(f.read()).hexdigest()
+
+files_to_hash = [
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-2.tex",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G99/sec-5-2.tex",
+    "raw/writing/gpt/A130/latex-evidence-ledger/section-5-2.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G99/section-5-2.json",
+    "knowledge/research-notes/a130-rewrite-detector-photon-response-audit-20261114.md",
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G99/new-references.bib"
+]
+
+file_hashes = {p: get_sha256(p) for p in files_to_hash}
+
+receipt = {
+  "task": "G99 (Section 5.2 final scientific repair based on parent return 52-1..52-6)",
+  "worker": "G90 (assigned to G99)",
+  "status": "COMPLETED",
+  "recorded_at": "2026-11-14T02:05:00Z",
+  "file_hashes": file_hashes,
+  "canonical_tex_sha256": file_hashes["raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-2.tex"],
+  "canonical_ledger_sha256": file_hashes["raw/writing/gpt/A130/latex-evidence-ledger/section-5-2.json"],
+  "six_parent_requirements_closed": {
+    "52-1 (Hamilton source locator)": {
+      "status": "CLOSED",
+      "action": "正文第 140 行及台账已严格校正为真实原页：Hamilton 1975 专著第 15 章第 5 节（by P. J. Twin），印刷第 716–717 页 / PDF 第 727–728 页；彻底消除了引用 PDF 355 / 印 344（实为第 10 章内转换）的错误定位。"
+    },
+    "52-2 (Wu Zhihua locators & 2.96 eV / Fano F)": {
+      "status": "CLOSED",
+      "action": "吴治华专著章节定位符已全数校正至真实原页：第 2 章第 4 节 (PDF 62–73)、第 5 章第 3 节 (PDF 154–159)、第 10 章第 1 节 (PDF 265–268) 及第 3 节 (PDF 286–289)；正文第 85 行明确将 77 K 锗平均电离能 epsilon ≈ 2.96 eV 与 Fano 因子 F ~ 0.1 标注为文献教学与参考标称参数，删除了未经验证的 F=0.08–0.12 绝对实测范围宣称，不盲目臆测。"
+    },
+    "52-3 (R decomposition, P/T and net peak area)": {
+      "status": "CLOSED",
+      "action": "正文第 41–45 行严格形式化响应函数分解 R = R_FEP + R_other；严格定义峰总比 P/T 为全能峰净积分份额；明确指出在有限窗未扣本底直接积分不仅截断高斯尾还会混入康普顿本底，全能峰面积必须通过局部拟合扣除本底提取净计数 A_peak，彻底消除了窗原始计数与真全能吸收概率等同的歧义。"
+    },
+    "52-4 (Photoelectric X-ray escape & Fano variance dimension)": {
+      "status": "CLOSED",
+      "action": "光电效应明确限定在高于锗 K 吸收边 11.1 keV 的给定能区下主要由 K 壳层贡献，阐明了特征 X 射线在晶体表面/电极死层逃逸形成锗逃逸峰的条件；正文第 85 行将『对数涨落』修正为『电子—空穴对数目的方差』，清晰区分载流子数目无量纲方差 sigma_N^2 与等效能量方差 sigma_{E,stat}^2 = epsilon^2 sigma_N^2 (MeV^2) 的量纲转换。"
+    },
+    "52-5 (Polarization a matches 5.7, Add-back covariance, TCS rate-independence)": {
+      "status": "CLOSED",
+      "action": "正文第 146 行 Clover 散射不对称度参数 a = N_perp^0 / N_parallel^0 与第 5.7 节式 (eq:5-7-asym-exp) 约定完全一致；Add-back 明确补充了晶叶间电荷分配起伏与接触层电容串扰协方差项 2 Cov(E_A, E_B)；TCS 明确阐述单事件率无关性针对固定几何与理想线性响应区间，指出在高计数率下堆积与死时间门控会引起计数率依赖偏离。"
+    },
+    "52-6 (AGATA 41-page manuscript & synthetic figure disclaimer)": {
+      "status": "CLOSED",
+      "action": "正文第 150 行及台账严格按 41 页预印本手稿 (arXiv:1111.5731v1) PDF 第 1–10 页定位 AGATA 架构规范，未捏造正式期刊排版页码，明确区分设计 4pi 180 晶体构型与实际在束运行的分阶段子阵列；图 5.1 注明确说明 Add-back 增益因子为选取的教学合成参数，声明纵轴为任意单位对数计数。"
+    }
+  },
+  "parent_pre_review_refinements_merged": {
+    "bgo_veto_neutron_description": "已将原文『核反应中微子伴生快中子』更正为『重离子核反应产生的快中子或散射本底、以及其它不相关级联光子』，消除了非物理的在束本底描述。",
+    "pair_fluctuation_phrasing": "已将原『对数涨落』明确写为『电子—空穴对数目的方差』，避免误读为对数函数。",
+    "photoelectric_k_shell_condition": "明确说明在能量高于锗 K 吸收边 11.1 keV 的给定能区下主要由 K 壳层贡献，不作全能区绝对定义。"
+  },
+  "figure_feedback_for_parent": {
+    "script_path": "system/scripts/a130_detector_response_figure.py",
+    "figure_pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/detector-response-simulation.pdf",
+    "assessment": "图件在 1500 keV 下清晰呈现了 FEP、康普顿边缘、逃逸峰、湮灭峰与反向散射峰，Add-back 曲线呈现了约 1.45 倍的示范性峰效率增益。正文图注第 74-75 行已声明该增益因子为选取的教学合成参数而非未知探测器实测值，图件满足科学教学展示要求，无需修改图脚本代码。"
+  },
+  "new_bib_candidates": [
+    {
+      "key": "book-wu-nuclear-experiment-methods",
+      "citation": "吴治华, 《原子核物理实验方法》（第三版）, 原子能出版社 (2005), ISBN: 7-5022-3413-5"
+    },
+    {
+      "key": "akkoyun-2012-agata-instrument-response",
+      "citation": "S. Akkoyun et al., AGATA—Advanced GAmma Tracking Array, NIM A 668, 26 (2012) [arXiv:1111.5731v1 41-page manuscript]"
+    }
+  ],
+  "prohibitions_strictly_obeyed": [
+    "未触碰公共 Bib 文件、Git 状态、编译管线或生成新提交",
+    "未修改其它正文章节或图脚本文件",
+    "未凭空编造未知硬件性能指标或不可查的参数范围"
+  ]
+}
+
+receipt_path = "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G99/receipt.json"
+with open(receipt_path, 'w', encoding='utf-8') as f:
+    json.dump(receipt, f, indent=2, ensure_ascii=False)
+
+print(f"Receipt written successfully to {receipt_path}!")

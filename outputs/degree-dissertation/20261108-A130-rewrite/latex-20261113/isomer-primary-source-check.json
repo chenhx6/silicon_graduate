@@ -1,0 +1,13 @@
+{
+  "checked_manifests": [
+    "/workspace/wiki/raw/papers/gpt/query/20261113-A130-seniority-check/manifest.json"
+  ],
+  "checked_sources": [
+    "/workspace/wiki/knowledge/sources/kraemer-2023-radiative-decay-229th-isomer.md",
+    "/workspace/wiki/knowledge/sources/seiferle-2017-lifetime-229th-isomer.md"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "ok": true,
+  "scope": "paths"
+}

@@ -1,0 +1,193 @@
+{
+  "appendix_id": "D",
+  "title": "两翼算符与开放网络的深入推导",
+  "worker": "G79",
+  "recorded_at": "2026-11-13T19:30:00.000000+00:00",
+  "output_latex": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixD.tex",
+    "sha256": "dac7eae1a7f9aaaccbf00da28d14d90e87d3fdb16e24a412993c14b5b57a70f4",
+    "equations_count": 52,
+    "tables_count": 0,
+    "algorithms_count": 0,
+    "figures_count": 0,
+    "labels": [
+      "app:wing-operators-networks",
+      "sec:appD-seniority-quasispin",
+      "eq:appD-omega-def",
+      "eq:appD-splus-def",
+      "eq:appD-sminus-def",
+      "eq:appD-szero-def",
+      "eq:appD-quasispin-commutation",
+      "eq:appD-seniority-ground-cond",
+      "eq:appD-s0-lowest",
+      "eq:appD-quasispin-ladder",
+      "eq:appD-one-body-em-op",
+      "eq:appD-e2-quasispin-vector",
+      "eq:appD-wigner-eckart-quasispin",
+      "eq:appD-cg-analytical",
+      "eq:appD-cg-ratio",
+      "eq:appD-seniority-e2-scaling",
+      "eq:appD-cancellation-theorem",
+      "sec:appD-k-forbidden",
+      "eq:appD-k-selection-rule",
+      "eq:appD-k-forbiddenness-nu",
+      "eq:appD-hindrance-factor",
+      "eq:appD-t12-gamma",
+      "eq:appD-fnu-def",
+      "eq:appD-projected-nme",
+      "sec:appD-weak-operators",
+      "eq:appD-ikeda-sum-rule",
+      "eq:appD-lambda-phase-space",
+      "eq:appD-ff-rank0",
+      "eq:appD-ff-rank1",
+      "eq:appD-ff-rank2",
+      "eq:appD-ff-shape-factor",
+      "eq:appD-0nubb-virtual-momentum",
+      "eq:appD-0nubb-long-range",
+      "eq:appD-contact-potential",
+      "sec:appD-delayed-neutron-network",
+      "eq:appD-markov-transition-matrix",
+      "eq:appD-q-matrix-element",
+      "eq:appD-fundamental-matrix",
+      "eq:appD-absorption-prob-matrix",
+      "eq:appD-pi-balance",
+      "eq:appD-pi-sum-unity",
+      "eq:appD-ibeta-sum",
+      "eq:appD-pxn-total-prob",
+      "eq:appD-pxn-sum-proof",
+      "eq:appD-neutron-width-scaling",
+      "eq:appD-centrifugal-suppression",
+      "eq:appD-branch-competition",
+      "sec:appD-open-network",
+      "eq:appD-master-eq-2state",
+      "eq:appD-coupling-matrix",
+      "eq:appD-char-eq",
+      "eq:appD-eigenvalues-2state",
+      "eq:appD-closed-eigenvalues",
+      "eq:appD-texch-def",
+      "eq:appD-open-fast-slow",
+      "eq:appD-n1-ss",
+      "eq:appD-n2-ss",
+      "eq:appD-detailed-balance"
+    ],
+    "citations": [
+      "book-jain-nuclear-isomers",
+      "book-suhonen-from-nucleons-to-nucleus",
+      "doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives",
+      "cirigliano-2018-leading-short-range-double-beta"
+    ]
+  },
+  "sources": [
+    {
+      "key": "book-jain-nuclear-isomers",
+      "title": "Nuclear Isomers: A Primer",
+      "authors": [
+        "Ashok Kumar Jain",
+        "et al."
+      ],
+      "year": 2015,
+      "locators": [
+        "Chapter 4 Seniority Isomers: Quasispin SU(2) algebra, Clebsch-Gordan reduction, and half-filling E2 cancellation",
+        "Chapter 5 K-Isomers: Degree of forbiddenness nu, Weisskopf hindrance FW, and reduced hindrance f_nu"
+      ]
+    },
+    {
+      "key": "book-suhonen-from-nucleons-to-nucleus",
+      "title": "From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory",
+      "authors": [
+        "Jouni Suhonen"
+      ],
+      "year": 2007,
+      "locators": [
+        "Chapter 18 Beta Decay: Bare operator commutators, Ikeda sum rule in complete space, and phase space integrals"
+      ]
+    },
+    {
+      "key": "doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives",
+      "title": "Shell-model half-lives including first-forbidden contributions for r-process waiting-point nuclei",
+      "authors": [
+        "Q. Zhi",
+        "et al."
+      ],
+      "year": 2013,
+      "locators": [
+        "Section II & III: First-forbidden multipole operator tensor decomposition (rank 0, 1, 2) and shape factors C(W)"
+      ]
+    },
+    {
+      "key": "cirigliano-2018-leading-short-range-double-beta",
+      "title": "New Leading Contribution to Neutrinoless Double-Beta Decay",
+      "authors": [
+        "Vincenzo Cirigliano",
+        "et al."
+      ],
+      "year": 2018,
+      "locators": [
+        "PRL 120, 202001: Leading-order Delta L=2 two-nucleon contact operator g_nu^{NN} for non-perturbative renormalization consistency"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C-appD-quasispin-e2-cancellation",
+      "statement": "单 j 壳层准自旋 SU(2) 代数证明偶体单体电四极算符为准自旋矢量；同资数 E2 约化矩阵元正比于 (Omega_j - n)/(Omega_j - v)，在半满壳层 n = Omega_j 处精确为零；单一 E2 相消不等于核态总衰变宽度为零。",
+      "source": "book-jain-nuclear-isomers",
+      "pdf_pages": "Chapter 4",
+      "printed_pages": "Chapter 4",
+      "figure_or_equation": "Eqs.(4.15)–(4.28)",
+      "searchable_anchor": "quasispin ... seniority ... half-filled shell ... E2 cancellation"
+    },
+    {
+      "claim_id": "C-appD-k-forbiddenness-hindrance",
+      "statement": "K 禁戒度 nu = |Delta K| - lambda 定义经验平均折合阻碍度 f_nu = (F_W)^(1/nu)；f_nu 为唯象经验分类标度非微观普适守恒律，三轴形变诱导 K 混合可导致 f_nu 急剧塌缩。",
+      "source": "book-jain-nuclear-isomers",
+      "pdf_pages": "Chapter 5",
+      "printed_pages": "Chapter 5",
+      "figure_or_equation": "Eqs.(5.1)–(5.10)",
+      "searchable_anchor": "K-isomer ... degree of forbiddenness ... reduced hindrance"
+    },
+    {
+      "claim_id": "C-appD-first-forbidden-operators",
+      "statement": "一阶禁戒衰变算符分解为秩 0 类时轴荷、秩 1 矢量与轴矢量以及秩 2 张量；合成非平坦谱形状因子 C(W)；在 N=126 区因中子跨壳跃迁泡利阻塞使 FF 贡献显著超越 GT 跃迁。",
+      "source": "doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives",
+      "pdf_pages": "PRC 87, 025803",
+      "printed_pages": "pp. 1–9",
+      "figure_or_equation": "Eqs.(1)–(8)",
+      "searchable_anchor": "first-forbidden ... shape factor ... N=126 waiting point"
+    },
+    {
+      "claim_id": "C-appD-0nubb-short-range-contact",
+      "statement": "0vbb 虚中微子交换特征动量传递达到 100–200 MeV/c，非微扰两核子 1S0 散射要求引入领头阶 Delta L=2 短程接触相互作用以吸收紫外重整化发散，该项专属于双贝塔通道非普通两体流淬灭同义词。",
+      "source": "cirigliano-2018-leading-short-range-double-beta",
+      "pdf_pages": "PRL 120, 202001",
+      "printed_pages": "pp. 1–6",
+      "figure_or_equation": "Eqs.(1)–(5)",
+      "searchable_anchor": "short-range contact operator ... neutrinoless double-beta decay ... renormalization"
+    },
+    {
+      "claim_id": "C-appD-delayed-neutron-markov-chain",
+      "statement": "beta 缓发粒子发射相继退激级联建立为吸收马尔可夫链，转移概率矩阵由部分衰变宽度比决定，证明终态吸收概率满足全多重度守恒 sum_x P_xn = b_beta；离心势垒阻碍使中子能窗上方仍可由辐射 gamma 退激占优。",
+      "source": "book-suhonen-from-nucleons-to-nucleus",
+      "pdf_pages": "Chapter 18",
+      "printed_pages": "Chapter 18",
+      "figure_or_equation": "Chapter 18 §18.3",
+      "searchable_anchor": "Markov chain ... absorbing states ... delayed neutron ... cascade"
+    },
+    {
+      "claim_id": "C-appD-open-twostate-eigenmodes",
+      "statement": "开放两态主方程本征值解析表明在封闭交换极限下本征模给出保守交换时间尺度 tau = 1/(a+b)；在开放耗散极限下解耦为快局域平衡模与慢耗散模；细致平衡严格依赖于热平衡黑体光子浴假定。",
+      "source": "book-jain-nuclear-isomers",
+      "pdf_pages": "Chapter 6",
+      "printed_pages": "Chapter 6",
+      "figure_or_equation": "Section 6.4",
+      "searchable_anchor": "master equation ... two-state ... eigenvalues ... detailed balance"
+    }
+  ],
+  "migration_differences": [
+    "严格推导准自旋 SU(2) 李代数换位关系与 Wigner-Eckart 矢代数约化，解析证明半满壳层同资数 E2 矩阵元精确消失定理",
+    "澄清 K 禁戒经验阻碍度 f_nu 的唯象属性，给出非正交角动量投影态之间的范数核展开接口",
+    "提供一阶禁戒衰变算符的四维张量分解与形状因子解析结构，阐明 0vbb 虚动量标度与手征短程接触算符的重整化自洽性",
+    "将相继缓发中子级联严格表述为吸收马尔可夫链，证明全多重度概率守恒，并给出离心势垒阻碍下的辐射竞争教学模型",
+    "解析求解开放两态非平衡主方程，导出保守交换极限与开放耗散极限下的特征本征模及细致平衡边界"
+  ]
+}

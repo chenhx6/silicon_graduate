@@ -1,0 +1,85 @@
+{
+  "task": "A130 PhD dissertation Appendix D targeted repair and legacy notes overhaul",
+  "stage": "appendix-D-final-independent-delivery",
+  "executor": "G96 (Gemini Tiered/high executor)",
+  "reviewer": "Terra T21 (audit input) and Parent GPT Controller (oversight)",
+  "timestamp_utc": "2026-11-14T02:15:00+00:00",
+  "status": "superseded-writer-delivery",
+  "delivered_files": {
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixD.tex": {
+      "sha256": "1c965db956321694ab52788af19ed90c1b016c614b1856034b215d10a6e1b5c7",
+      "size": 31316
+    },
+    "raw/writing/gpt/A130/latex-evidence-ledger/appendix-D.json": {
+      "sha256": "467e992c8aa96c54a8a8023c9bec2df85c24231efff640a3a0ed419f09034f31",
+      "size": 10722
+    },
+    "knowledge/research-notes/a130-rewrite-wing-derivations-and-network-conventions-20261113.md": {
+      "sha256": "7462ded8b2a38e22e1b628ffe427f02c7dec9266a00bf2f90d78b7d5ccefc500",
+      "size": 10392
+    },
+    "knowledge/research-notes/a130-rewrite-weak-windows-cascades-and-operators-20261113.md": {
+      "sha256": "2aeb9ebe0347e96c533a1e5c55c5376049486279aa9a1cfa6a90281997701650",
+      "size": 11132
+    },
+    "knowledge/research-notes/a130-rewrite-weak-operator-and-counting-network-audit-20261114.md": {
+      "sha256": "77ce1b8fcdd0210c2ce1d7ddaa31a2ae20db381c76b6864c78ab926d1e21929d",
+      "size": 20647
+    }
+  },
+  "t21_and_parent_findings_addressed": {
+    "T21-09": {
+      "title": "Absorbing Markov chain state space augmentation and history tracking",
+      "tex_location": "AppendixD.tex: lines 197-236",
+      "fix": "Expanded Markov state space to augmented state (a, m) tracking accumulated emitted neutron count, or via generating function G_a(s); difference recursion Pi_x(a) = sum_{b, r} [Gamma^{(r)}_{a -> b} / Gamma_{tot}(a)] Pi_{x-r}(b) with Pi_x(t) = delta_{x0}",
+      "status": "resolved"
+    },
+    "T21-10": {
+      "title": "0nu beta beta single virtual neutrino propagator and chiral contact term",
+      "tex_location": "AppendixD.tex: lines 174-195",
+      "fix": "Corrected to single virtual Majorana neutrino line exchanged; mapped contact operator to this work isospin convention V_{CT}^{(R)}(r_{12}) = -2 g_nu^{NN}(R) delta_R^{(3)}(r_{12}) t_{1,-} t_{2,-} from Cirigliano 2018 Eq.(15); CIB electromagnetic data constrains C1+C2 combination and cannot uniquely determine g_nu^{NN}",
+      "status": "resolved"
+    },
+    "T21-11": {
+      "title": "Seniority Clebsch-Gordan lowest-weight denominator and half-filling cancellation",
+      "tex_location": "AppendixD.tex: lines 56-88",
+      "fix": "Used lowest-weight state n=v reference with S_0 = -S = (v - Omega)/2, obtaining ratio (S_0)/(-S) = (Omega - n)/(Omega - v) consistently; established allowed particle numbers n = v, v+2, ..., 2Omega - v with accessibility condition Omega = v (mod 2)",
+      "status": "resolved"
+    },
+    "T21-12": {
+      "title": "Neutron channel penetrability and removal of redundant phase space",
+      "tex_location": "AppendixD.tex: lines 253-270",
+      "fix": "Applied standard R-matrix penetrability Gamma_n = 2 gamma_l^2 P_l(Delta E) where P_l proportional to (Delta E)^{l+1/2} contains phase space; removed redundant sqrt(Delta E) factor; removed unverified >90% gamma-branch claim",
+      "status": "resolved"
+    },
+    "T21-13": {
+      "title": "First-forbidden operators tensor rank classification",
+      "tex_location": "AppendixD.tex: lines 157-165",
+      "fix": "Correctly classified r and p/m_N as vector (rank 1), and [r x sigma]^1 as axial-vector (rank 1), removing mislabeling of r as axial vector",
+      "status": "resolved"
+    },
+    "Parent_Seniority_Decay_Exits": {
+      "title": "Single-j even-L E4 half-filling cancellation, IC sharing nuclear matrix element, and M1 off-diagonal vanishing",
+      "tex_location": "AppendixD.tex: lines 82-88",
+      "fix": "Proved that in pure single-j shell of identical fermions, all single-particle even-L (L>0 even, including E4) electric operators are rank-1 quasi-spin tensors and cancel identically at half filling (n=Omega); IC electron emission shares the exact same nuclear matrix element and vanishes identically; single-j M1 proportional to J has no off-diagonal transitions; physical decays require Delta v = 2 or multi-shell/core-polarization mixing; removed 210Po 8+ (n=2 != 5) claim, referencing verified 130Sn conditions",
+      "status": "resolved"
+    },
+    "Parent_Open_Network_Rigorous_Conditions": {
+      "title": "2-state master equation discriminant, reachable loss condition, and equal-loss relaxation",
+      "tex_location": "AppendixD.tex: lines 270-335",
+      "fix": "Adopted loss decay rate D_i (s^-1) to distinguish from electromagnetic energy widths; discriminant Delta = [(a-b)+(D1-D2)]^2 + 4ab >= 0 (can equal 0 when a=b=0, D1=D2); closed exchange convergence requires a+b>0, using fractions; equal loss (D1=D2=D>0) relative fraction relaxes strictly at rate a+b towards a/(a+b); fast mode expansion -(a+b) - (aD1+bD2)/(a+b) and slow mode -(bD1+aD2)/(a+b); finite steady-state requires reachable loss aD2 + bD1 + D1D2 > 0; toned down dogmatic Lindblad requirement for non-thermal environments",
+      "status": "resolved"
+    },
+    "Legacy_Notes_Overhaul": {
+      "title": "Overhaul of two legacy research notes in knowledge/research-notes/",
+      "files": [
+        "knowledge/research-notes/a130-rewrite-wing-derivations-and-network-conventions-20261113.md",
+        "knowledge/research-notes/a130-rewrite-weak-windows-cascades-and-operators-20261113.md"
+      ],
+      "fix": "Completely eliminated C0 control characters (\f, \b); updated Dimitriou true raw sha256 to ca0b4...; updated Jain edition to canonical 2021; removed erroneous E4/IC/M1 half-filling survival claims; distinguished parent decay normalization b_beta from conditional beta normalization; distinguished Q_{beta^-}, Q_{beta^+}, Q_{EC}; clarified 132Sn SGII zero GT strength; aligned with verified 4.7/D foundations",
+      "status": "resolved"
+    }
+  },
+  "superseded_by": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G96/appendix-D-parent-acceptance.json",
+  "boundary": "Historical worker assertions are not final scientific acceptance; parent R2/T23/T24/T26 corrections and final45 ledger bindings control current draft."
+}

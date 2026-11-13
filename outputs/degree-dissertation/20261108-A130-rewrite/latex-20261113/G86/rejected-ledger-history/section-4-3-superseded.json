@@ -1,0 +1,243 @@
+{
+  "section_id": "4.3",
+  "title": "A100的急变、软性与低能响应",
+  "target_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-3.tex",
+  "staging_tex_path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G86/staging/section-4-3.tex",
+  "tex_sha256": "67bd580974d7f9fe03774a8584da98ea4407dfe88e0f3d4aa67e9102083bb46e",
+  "recorded_at": "2026-11-13T12:30:00+00:00",
+  "executor": "G86",
+  "sources": [
+    {
+      "source_id": "doctoral-r1-g28-togashi-2016-zr-mcsm-qpt",
+      "source_page": "knowledge/sources/doctoral-r1-g28-togashi-2016-zr-mcsm-qpt.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G28/togashi-2016-zr-qpt.pdf",
+      "raw_sha256": "f43431ebad67addfbefb521eed14c43f152fe5221ccc0d995d69a3d5aaa7b3e9",
+      "reading_depth": "deep-read",
+      "verified_locators": {
+        "pdf_pages": [
+          1,
+          2,
+          3
+        ],
+        "print_pages": [
+          "172502-1",
+          "172502-2",
+          "172502-3"
+        ],
+        "items": [
+          "Title and Abstract",
+          "Fig. 1: Energy levels of Zr isotopes",
+          "Fig. 3: ESPE drift"
+        ],
+        "text_anchor": "the coexistence of the spherical and deformed shapes appears abruptly between N = 58 and 60"
+      }
+    },
+    {
+      "source_id": "doctoral-r1-g28-singh-2018-98zr-lifetimes",
+      "source_page": "knowledge/sources/doctoral-r1-g28-singh-2018-98zr-lifetimes.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G28/singh-2018-98zr-coexisting-shapes.pdf",
+      "raw_sha256": "37f2d5ee16f799feb66617787d45d25c4f3e0cb4f0f996689a0576811c5a05e3",
+      "reading_depth": "deep-read",
+      "verified_locators": {
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "print_pages": [
+          "192501-1",
+          "192501-3"
+        ],
+        "items": [
+          "Table I: Lifetimes of low-lying states in 98Zr",
+          "Fig. 3: Level scheme and barrier"
+        ],
+        "text_anchor": "Evidence for Coexisting Shapes and a Large Barrier Separating Them in 98Zr"
+      }
+    },
+    {
+      "source_id": "thomas-2016-96-98mo-coexistence",
+      "source_page": "knowledge/sources/continuation-g17-thomas-2016-96-98mo-coexistence.md",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G17/thomas-2016-96-98mo-coexistence.pdf",
+      "raw_sha256": "1479836585e8d85f5244585c5b96495bf41f43fc1638848d1e21b212f4581f1c",
+      "reading_depth": "deep-read",
+      "verified_locators": {
+        "pdf_pages": [
+          1,
+          12
+        ],
+        "print_pages": [
+          203,
+          214
+        ],
+        "items": [
+          "Sec. 1 Introduction",
+          "Table 2: Lifetimes and transition strengths in 98Mo"
+        ],
+        "text_anchor": "Nuclear structure of 96,98Mo: Shape coexistence and mixed-symmetry states"
+      }
+    },
+    {
+      "source_id": "chen-singh-2020-nds-98mo",
+      "source_page": "knowledge/sources/continuation-g17-chen-singh-2020-nds-98mo.md",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G17/nds-2020-chen-singh-98mo-adopted.pdf",
+      "raw_sha256": "f98dc0ebd7a111083492fd25710268093d37c40bc45b33b1507704428d8c9bf6",
+      "reading_depth": "deep-read",
+      "verified_locators": {
+        "pdf_pages": [
+          3,
+          4
+        ],
+        "print_pages": [
+          3,
+          4
+        ],
+        "items": [
+          "Adopted Levels, Gammas for 98Mo",
+          "Level 735.6 keV 0+"
+        ],
+        "text_anchor": "Adopted Levels, Gammas for 98Mo: 735.6 keV 0+ state T1/2 = 3.6 ns"
+      }
+    },
+    {
+      "source_id": "saracino-2026-102ru-scissors-octupole-resonances",
+      "source_page": "knowledge/sources/saracino-2026-102ru-scissors-octupole-resonances.md",
+      "raw_file": "raw/papers/Low-Energy Dipole Strength Distribution in ¹⁰²Ru Coexistence of Scissors and Octupole Resonances.pdf",
+      "raw_sha256": "4bc6bb6c613b121bae9def9d9bedf37e9c02db89eca265c4c16d5dd9ecf43a89",
+      "reading_depth": "deep-read",
+      "verified_locators": {
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "print_pages": [
+          "252501-1",
+          "252501-3"
+        ],
+        "items": [
+          "Table I: Transition properties of dipole states in 102Ru",
+          "Fig. 2: B(M1) and B(E1) distributions"
+        ],
+        "text_anchor": "Low-Energy Dipole Strength Distribution in 102Ru: Coexistence of Scissors and Octupole Resonances"
+      }
+    },
+    {
+      "source_id": "karmakar-2025-98mo-dae",
+      "source_page": "knowledge/sources/karmakar-2025-98mo-dae.md",
+      "raw_file": "raw/papers/gpt/query/20261107-round2-mo98-e3/karmakar2025-thesis-summary-dae.pdf",
+      "raw_sha256": "db4857c6b8bba7bf685399f60cf7fc9ba3afa092bfb50d2cba45690150045e3d",
+      "reading_depth": "read",
+      "verified_locators": {
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "print_pages": [
+          1411,
+          1412
+        ],
+        "items": [
+          "Abstract & Sec. Results",
+          "Acknowledgments to Prof. S. Chattopadhyay"
+        ],
+        "text_anchor": "The enhanced electric dipole transitions in 100Ru and 98Mo provide evidence for octupole deformation at high spins"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "G86-4-3-C01",
+      "text": "Zr同位素链在N=56到N=60发生一阶形状量子相变，MCSM计算揭示其微观机制为质子1g9/2与中子1g7/2、1h11/2轨道间强单极吸引引发的Type-II壳演化自强化正反馈。",
+      "kind": "microscopic-model-calculation-and-mechanism",
+      "source_id": "doctoral-r1-g28-togashi-2016-zr-mcsm-qpt",
+      "verified_locator": {
+        "pdf_page": 2,
+        "print_page": "172502-2",
+        "item_id": "Fig. 1 & Fig. 3",
+        "text_anchor": "the coexistence of the spherical and deformed shapes appears abruptly between N = 58 and 60"
+      },
+      "conditions": "大规模蒙特卡罗壳模型大组态空间自洽计算。"
+    },
+    {
+      "id": "G86-4-3-C02",
+      "text": "98Zr测得0+_2 (853 keV)寿命为tau=4.2(3) ns且向2+_1跃迁强阻碍，证实相变临界点处近球形基态与低激发长椭构型共存且被大势垒隔离。",
+      "kind": "experimental-measurement-and-coexistence-proof",
+      "source_id": "doctoral-r1-g28-singh-2018-98zr-lifetimes",
+      "verified_locator": {
+        "pdf_page": 3,
+        "print_page": "192501-3",
+        "item_id": "Table I",
+        "text_anchor": "Evidence for Coexisting Shapes and a Large Barrier Separating Them in 98Zr"
+      },
+      "conditions": "重离子反应反冲距离柱塞法RDDS绝对寿命测定。"
+    },
+    {
+      "id": "G86-4-3-C03",
+      "text": "A约100区内部沿Z具有强微观非均质性：Z=40 (Zr)表现为球形与大长椭的陡峭相变，而Z=42 (Mo)与Z=44 (Ru)由于Z=40次壳隙冲垮演化为宽平坦三轴软势，不能将IBM O(6)极限生套全区。",
+      "kind": "comparative-analysis-and-epistemological-boundary",
+      "source_id": "doctoral-r1-g28-togashi-2016-zr-mcsm-qpt",
+      "verified_locator": {
+        "pdf_page": 1,
+        "print_page": "172502-1",
+        "item_id": "Sec. I",
+        "text_anchor": "Quantum Phase Transition in the Shape of Zr isotopes"
+      },
+      "conditions": "基于质子费米面有效单粒子能隙与单极相互作用的微观演化分析。"
+    },
+    {
+      "id": "G86-4-3-C04",
+      "text": "98Mo中紧贴第一2+_1态(787 keV)的第二0+_2态(736 keV, T1/2=3.6 ns)呈现较强电单极跃迁rho^2(E0)与强B(E2)，证实长椭与近球形构型共存于浅平坦gamma软势背景之中。",
+      "kind": "experimental-measurement-and-adopted-eval",
+      "source_id": "thomas-2016-96-98mo-coexistence",
+      "verified_locator": {
+        "pdf_page": 12,
+        "print_page": 214,
+        "item_id": "Table 2",
+        "text_anchor": "Nuclear structure of 96,98Mo: Shape coexistence and mixed-symmetry states"
+      },
+      "conditions": "热中子俘获反应符合谱学与寿命测量数据。"
+    },
+    {
+      "id": "G86-4-3-C05",
+      "text": "Karmakar (2025 DAE摘要)报告98Mo高自旋下E1跃迁增强与八极交错S(I)线索，但明确指出数据量不足以观测交错多重带，属探索性线索而非确立内禀稳定八极形变。",
+      "kind": "preliminary-conference-report-boundary",
+      "source_id": "karmakar-2025-98mo-dae",
+      "verified_locator": {
+        "pdf_page": 1,
+        "print_page": 1411,
+        "item_id": "Abstract",
+        "text_anchor": "The enhanced electric dipole transitions in 100Ru and 98Mo provide evidence for octupole deformation at high spins"
+      },
+      "conditions": "两页会刊摘要声明边界，尚未见同行评审完整正文与绝对E3矩阵元。"
+    },
+    {
+      "id": "G86-4-3-C06",
+      "text": "102Ru在HIGS装置上通过NRF实验测定，在2.5-3.5 MeV区间测得累计B(M1)=0.36 mu_N^2等矢剪刀模，在2.0-3.8 MeV测得累计B(E1)=13.8*10^-3 e^2 fm^2低能八极共振，确证两者物理共存。",
+      "kind": "experimental-measurement-and-model-confirmation",
+      "source_id": "saracino-2026-102ru-scissors-octupole-resonances",
+      "verified_locator": {
+        "pdf_page": 3,
+        "print_page": "252501-3",
+        "item_id": "Table I & Fig. 2",
+        "text_anchor": "Low-Energy Dipole Strength Distribution in 102Ru: Coexistence of Scissors and Octupole Resonances"
+      },
+      "conditions": "准单能线偏振光核共振荧光NRF散射与方位角偏振不对称性直接分析。"
+    },
+    {
+      "id": "G86-4-3-C07",
+      "text": "低能gamma软性(数百keV四极等标)、剪刀模式(2-3.5 MeV磁偶极等矢)与八极共振(反射不对称电偶极/八极)分属不同物理能量尺度与多极自由度，不能混为同一种序参量；NRF低自旋选择定则不能直接认证高自旋手征四重带。",
+      "kind": "epistemological-red-line-and-multiscale-decoupling",
+      "source_id": "saracino-2026-102ru-scissors-octupole-resonances",
+      "verified_locator": {
+        "pdf_page": 1,
+        "print_page": "252501-1",
+        "item_id": "Sec. I",
+        "text_anchor": "Low-Energy Dipole Strength Distribution in 102Ru: Coexistence of Scissors and Octupole Resonances"
+      },
+      "conditions": "基于量子多极角动量、宇称选择定则与多体能量尺度的严格物理推演。"
+    }
+  ],
+  "unresolved_issues": [
+    "102Ru中的低能八极共振主要是单/双声子振动激发还是指向稳定的内禀八极形变，需要高自旋在束重离子谱学测量负宇称带间交叉E3与E1跃迁矩阵元",
+    "Zr链N=58到60突变相变中的非绝热配对涨落对势垒穿透的影响，目前微观含时平均场（TDHFB）与MCSM的定量重叠仍有待更精细基矢扩展"
+  ]
+}

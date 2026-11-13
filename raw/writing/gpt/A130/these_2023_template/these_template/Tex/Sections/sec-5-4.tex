@@ -56,7 +56,7 @@ v(t) = A \left[1 - e^{-(t-t_0)/\tau_r}\right] e^{-(t-t_0)/\tau_d},
 
 \begin{table}[!htbp]
 \centering
-\caption{不同采样周期 $T_s$ 下 CFD 线性过零插值的采样相位误差收敛性对比（数据源自规范教学模型与 \texttt{sampling\_convergence.csv}，输入取 $A=1000$ 任意单位、$\tau_r = 100\text{ ns}$、$\tau_d = 50\ \mu\text{s}$、到达时刻 $t_0 = 500\text{ ns} + \phi$；快滤波参数取 $L T_s = 100\text{ ns}$、$G T_s = 50\text{ ns}$，CFD 延迟 $d T_s = 80\text{ ns}$、$f = 0.4$。参考延迟 $t_{\text{ref}}$ 由各采样周期下有限抽头算子延拓至连续时间的真实过零根确定。表中最大绝对误差仅覆盖离散采样的 20 个等间距相位点 $\phi/T_s \in \{0, 0.05, \dots, 0.95\}$，非连续全相位区间的解析全局上界；且计算在理想无噪声条件下进行，不包含真实探测器上升沿起伏、前放热噪声及电子学时钟抖动）。}
+\caption[不同采样周期 $T_s$ 下 CFD 线性过零插值的采样相位误差收敛性对比]{不同采样周期 $T_s$ 下 CFD 线性过零插值的采样相位误差收敛性对比（数据源自规范教学模型与 \texttt{sampling\_convergence.csv}，输入取 $A=1000$ 任意单位、$\tau_r = 100\text{ ns}$、$\tau_d = 50\ \mu\text{s}$、到达时刻 $t_0 = 500\text{ ns} + \phi$；快滤波参数取 $L T_s = 100\text{ ns}$、$G T_s = 50\text{ ns}$，CFD 延迟 $d T_s = 80\text{ ns}$、$f = 0.4$。参考延迟 $t_{\text{ref}}$ 由各采样周期下有限抽头算子延拓至连续时间的真实过零根确定。表中最大绝对误差仅覆盖离散采样的 20 个等间距相位点 $\phi/T_s \in \{0, 0.05, \dots, 0.95\}$，非连续全相位区间的解析全局上界；且计算在理想无噪声条件下进行，不包含真实探测器上升沿起伏、前放热噪声及电子学时钟抖动）。}
 \label{tab:5-4-sampling-convergence}
 \begin{tabular}{cccc}
 \toprule
@@ -73,12 +73,9 @@ v(t) = A \left[1 - e^{-(t-t_0)/\tau_r}\right] e^{-(t-t_0)/\tau_d},
 
 \begin{figure}[!htbp]
 \centering
-\IfFileExists{Img/cfd-phase-convergence.pdf}{%
+%
   \includegraphics[width=0.85\textwidth]{Img/cfd-phase-convergence.pdf}%
-}{%
-  \fbox{\parbox{0.85\textwidth}{\centering\vspace{2cm}（图 5.2 待 G80 注入：\texttt{Img/cfd-phase-convergence.pdf}；展示不同采样周期下 CFD 过零插值误差随到达相位 $\phi/T_s$ 的演化曲线）\vspace{2cm}}}%
-}
-\caption{数字 CFD 过零插值误差随采样相位变化的收敛特征（教学模型，基于附录~F 与 \texttt{sampling\_convergence.csv}，展示采样周期在 $10\text{ ns}$、$5\text{ ns}$、$2.5\text{ ns}$ 与 $1.25\text{ ns}$ 下，20 个离散相位点上的插值时间误差。该结果说明了减小采样周期对过零曲率插值偏差的压制规律；须注意这属于理想无噪声波形在离散网格上的纯算法特征，实际系统时间分辨由信号前沿起伏、噪声抖动与时钟质量共同主导）。}
+\caption[数字 CFD 过零插值误差随采样相位变化的收敛特征]{数字 CFD 过零插值误差随采样相位变化的收敛特征（教学模型，基于附录~F 与 \texttt{sampling\_convergence.csv}，展示采样周期在 $10\text{ ns}$、$5\text{ ns}$、$2.5\text{ ns}$ 与 $1.25\text{ ns}$ 下，20 个离散相位点上的插值时间误差。该结果说明了减小采样周期对过零曲率插值偏差的压制规律；须注意这属于理想无噪声波形在离散网格上的纯算法特征，实际系统时间分辨由信号前沿起伏、噪声抖动与时钟质量共同主导）。}
 \label{fig:5-4-cfd-phase-convergence}
 \end{figure}
 

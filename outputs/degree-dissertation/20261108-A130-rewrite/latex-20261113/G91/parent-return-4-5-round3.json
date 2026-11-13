@@ -1,0 +1,19 @@
+{
+  "section": "4.5",
+  "owner": "G91 after3.8R3",
+  "status": "delivered-not-accepted",
+  "requirements": [
+    "Intrinsic triaxiality does not alone break chirality; finite unobserved branches set limits, not zero.",
+    "Correct combined angular-momentum/parity projected norm kernel and K mixing; antiunitary C has no ordinary1±C projector.",
+    "q3 consistent with2.4; octupole E3 general triangle/parity conditions distinct from preferred Δl=Δj=3 driving pairs.",
+    "Remove unsupported universal Dmacro formula; equal proportional proton/neutron shapes can have zero E1 even when pear-shaped.",
+    "B1/B2 has dimensions fm^-2. Photon intensity ratio does not need additionalICC. Numerical coefficient requires explicit energy unit.",
+    "D0 ratio inversion needs external Q0 but absoluteB1 can also constrain under rotor assumptions.",
+    "Opposite-parity energy interpolation must use Eplus neighbors for Eminus(I).",
+    "Do not infer static/dynamic octupole solely from E1/E2 magnitude or set a universal zero-line exclusion.",
+    "Br/As actual-spin E3 Coulomb-excitation fitting cannot be replaced by automatic even-even0+→3− or model-independent rigidity claim.",
+    "Verify original experiment topology,2019Band4 versus2022scope, canonical source identity/hash/pages."
+  ],
+  "recorded_at": "2026-11-13T15:54:49.859061+00:00",
+  "delivery_boundary": "Detailed instructions delivered in same-agent message; this JSON indexes obligations, not source evidence."
+}

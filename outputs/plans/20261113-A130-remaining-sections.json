@@ -31,33 +31,38 @@
     "5.5",
     "5.9"
   ],
-  "ownership": "Parent owns accepted27/common engineering/index/Git and finalDewaldsource reconciliation. G79 owns original method/E queue then remaining recovery queue excluding3.4/4.8. G88 owns3.4/ledger/angularnote; G89 owns4.8/ledger/environmentnote/figure. Protocol-only shared workspace; no sandbox isolation claimed.",
+  "ownership": "Parent owns scientific acceptance and statuses;32 sectionsaccepted, publicPDF27. GeminiG92 engineering/5.9narrowrepair;G93 five methods;G91 4.5;G94 A;G95 E;G96 4.7/D. T20/T21 narrow audits completed; no general scientific certification.",
   "queues": {
     "parent": [
-      "finalize accepted27 preview/source reconciliation",
-      "publication gates and explicit nonforce publish",
-      "audit new G79 revisions"
+      "finish direct-source acceptance of T20 and5.9 interface",
+      "audit4.4/4.5",
+      "review AppendixD",
+      "integrate accepted scope and publish checks"
     ],
-    "G79": [
+    "G92": [
+      "accepted33+A/B/C/F oneisolatedbuild"
+    ],
+    "G93": [
       "5.2",
       "5.6",
       "5.7",
       "5.8",
-      "5.10",
-      "AppendixE",
-      "4.7 T16 integration",
-      "3.7",
-      "4.4",
-      "3.8",
-      "4.5",
-      "AppendixA",
-      "AppendixD"
-    ],
-    "G88": [
-      "3.4 source/physics revision"
+      "5.10"
     ],
     "G89": [
-      "4.8 source/physics revision"
+      "G95AppendixE"
+    ],
+    "G91": [
+      "closed,parentaccepted4.5"
+    ],
+    "G94": [
+      "retiredAwriting,parentaccepted"
+    ],
+    "G96": [
+      "4.7/D T21 corrections and2.7convention bridge"
+    ],
+    "G97": [
+      "readerproposals deliveredpendingparent"
     ]
   },
   "queue_authorization": "Detailed contracts delivered for eachlistedbody section; independentnextdrafts mayproceed withoutparentlayoutgate. Parentacceptance stillrequired beforepublisheduse ofclaims. Eachfile hasonewriter; parentnarrowpatches transferownershipexplicitly.",
@@ -79,7 +84,7 @@
     "all differently cased or unrelated manuscripts",
     "daily daemon and course state"
   ],
-  "updated_at": "2026-11-13T11:23:59.222740+00:00",
+  "updated_at": "2026-11-13T20:27:31.124201+00:00",
   "content_admitted_sections": [
     "1.1",
     "1.2",
@@ -97,69 +102,186 @@
     "3.1",
     "3.2",
     "3.3",
+    "3.4",
     "3.5",
     "3.6",
+    "3.7",
+    "3.8",
     "4.1",
     "4.2",
     "4.3",
+    "4.4",
+    "4.5",
     "4.6",
+    "4.7",
+    "4.8",
     "5.1",
+    "5.2",
     "5.3",
     "5.4",
     "5.5",
-    "5.9"
+    "5.6",
+    "5.7",
+    "5.8",
+    "5.9",
+    "5.10"
   ],
   "parent_20261113_science_audit": "Detailed revision instructions delivered to all five body authors. Reusable mathematical/source findings in knowledge/research-notes/a130-rewrite-forward-observables-and-cascade-consistency-20261113.md. Existing files do not imply acceptance.",
   "recovery_queue": "outputs/plans/20261113-A130-G79-recovery-queue.json",
   "current_ownership": {
+    "parent": "accepted39+A–F; final gates and authorized publication",
+    "workers": "write domains closed; G104 formatting completed by parent after provider403",
+    "Terra": "T23/T24/T26 narrow controls and boundaries accepted"
+  },
+  "ownership_boundary": "current_ownership above is authoritative; ownership/queues and previous_ownership preserve historical assignments and must not be redispatched.",
+  "current_note_ownership": {
+    "G89": [
+      "a130-rewrite-environment-formation-observability-20261113"
+    ],
+    "G90": [
+      "a130-rewrite-orientation-cross-region-conditions-20261113",
+      "a130-rewrite-br-as-parity-chiral-evidence-20261113"
+    ],
+    "G91": [
+      "a130-rewrite-joint-predictions-and-discriminating-program-20261113"
+    ],
+    "parent": [
+      "a130-rewrite-open-network-and-entry-ensemble-20261113",
+      "nndc-176lu-isomer-beta-2006-snapshot-20261113",
+      "a130-rewrite-angular-convention-reference-20261113",
+      "a130-rewrite-parity-chirality-and-e1-limits-20261113"
+    ],
+    "G93": [
+      "a130-rewrite-spectroscopy-methods-20261113"
+    ],
+    "G94": [
+      "a130-rewrite-angular-momentum-appendix-audit-20261113"
+    ],
+    "G95": [
+      "a130-rewrite-digital-appendix-consistency-20261113"
+    ],
+    "G96": [
+      "a130-rewrite-weak-operator-and-counting-network-audit-20261114"
+    ]
+  },
+  "retired_workers": {
     "G79": {
       "agent_id": "01a1d274-e82c-7bc0-af59-22fac97251d4",
+      "status": "closed after terminal403 accountdisabled",
+      "artifacts": "preserved; no account or endpoint substitution"
+    },
+    "G88": {
+      "status": "3.4/3.7 parentaccepted; sameagent now G92"
+    },
+    "T21": {
+      "agent_id": "01a1d4d8-5d13-7602-89e2-5d78d3b25f61",
+      "status": "completed-andclosed; narrowreview parentaccepted",
+      "artifacts": "T21/report.json andparent-acceptance.json"
+    },
+    "G91": {
+      "agent_id": "01a1d4b3-f63a-7771-98e1-37077c9940a9",
+      "status": "closed afterdelivery and503ack; parentaccepted3.8/4.5",
+      "artifacts": "G91/section-3-8-parent-acceptance.json andsection-4-5-parent-acceptance.json"
+    }
+  },
+  "completed_audits": {
+    "T20": "parentaccepted, A/5.9interfaceintegrated",
+    "T21": "parentaccepted; G96canonicalrevisionspending",
+    "T22": "parentaccepted andmerged4.5; agentclosed"
+  },
+  "ownership_update_20261114": {
+    "G93": [
+      "5.10"
+    ],
+    "G98": [
+      "5.8"
+    ],
+    "G96": [
+      "4.7",
+      "D"
+    ],
+    "G99": "5.2 accepted-parent-owned",
+    "G92": "33-section isolated build plus A/B/C/E/F",
+    "boundary": "supersedes any earlier overlapping queue; disjoint shared-workspace protocol",
+    "G100": [
+      "5.7"
+    ],
+    "G101": [
+      "AppendixF staging"
+    ]
+  },
+  "previous_ownership_before_final39": {
+    "G92": {
+      "agent_id": "01a1d461-d238-71e0-a12b-5a201d70f6bd",
+      "engineering_only": true
+    },
+    "G93": {
+      "agent_id": "01a1d586-2e67-7a52-b4f0-6b9e62701eb3",
       "sections": [
         "5.2",
         "5.6",
         "5.7",
         "5.8",
-        "5.10",
-        "4.7",
-        "3.8"
+        "5.10"
       ],
-      "appendices": [
-        "A",
-        "D",
-        "E"
-      ]
-    },
-    "G88": {
-      "agent_id": "01a1d461-d238-71e0-a12b-5a201d70f6bd",
-      "sections": [
-        "3.7",
-        "3.4"
+      "current_single_section": "5.6",
+      "queue_after_delivery": [
+        "5.10",
+        "5.7",
+        "5.8",
+        "5.2"
       ]
     },
     "G89": {
       "agent_id": "01a1d469-e510-7fe3-9c8b-005d2362e820",
-      "sections": [
-        "4.8"
-      ]
-    },
-    "G90": {
-      "agent_id": "01a1d4a1-c1d0-76d1-9ea4-f16c26f8873c",
-      "sections": [
-        "4.4",
-        "4.5"
-      ]
+      "alias": "G95",
+      "appendices": [
+        "E"
+      ],
+      "sections": []
     },
     "parent": {
+      "sections_under_review": [
+        "G93methodswhenfinished",
+        "G91 4.5",
+        "G96 4.7"
+      ],
+      "appendices": [
+        "E review: G95delivered",
+        "Aaccepted"
+      ],
       "shared": [
+        "scientific acceptance",
+        "status",
         "BibTeX",
         "wrappers",
         "build",
-        "global figure manifest",
         "index",
         "Git"
       ],
-      "locks": "protocol-only shared filesystem"
+      "locks": "protocol-only"
+    },
+    "G96": {
+      "agent_id": "01a1d5a4-12b2-71d0-bae5-1e99d32ceb23",
+      "sections": [
+        "4.7"
+      ],
+      "appendices": [
+        "D"
+      ],
+      "requested_model": "antigravity/gemini-3.8-flash-tiered",
+      "requested_reasoning_effort": "high",
+      "current_single_section": "4.7",
+      "appendixD": "queuedafter4.7"
+    },
+    "G97": {
+      "agent_id": "01a1d4a1-c1d0-76d1-9ea4-f16c26f8873c",
+      "scope": "readonly chapter1–3 readerreview",
+      "canonical_writes": false
     }
   },
-  "ownership_boundary": "current_ownership and the recovery queue supersede historical failed-worker ownership entries; no silent model substitution"
+  "final_phase_status": "completed-finite-writing-and-validation-publication-closeout",
+  "updated_utc": "2026-11-13T21:50:48.017656+00:00",
+  "remaining_sections": [],
+  "final_delivery": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/delivery-summary.json"
 }

@@ -1,0 +1,18 @@
+{
+  "figure_id": "fig:5-6-coincidence-topology",
+  "section": "5.6",
+  "type": "educational-model",
+  "description": "Educational gamma-gamma coincidence level scheme topology and gating arbitration model illustrating crossover transitions, parallel bypass branches, doublet resolution, and topological anti-coincidence logic",
+  "producer_script": "system/scripts/a130_coincidence_topology_figure.py",
+  "producer_sha256": "553fb6f97f6bc2bd4ee27885ad109c2c659e40a9faafda70891410ea9d16525e",
+  "svg": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/coincidence-level-scheme-model.svg",
+    "sha256": "7765b0b7979cec8453be3c4e479ba5c5d75b0a823717a4a2bb82e61a943db177",
+    "size_bytes": 92278
+  },
+  "pdf": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/coincidence-level-scheme-model.pdf",
+    "sha256": "fe44a04ad8f5e84d714d040494e5710bd8d7b1d48e64eac3786b25ed21cec320",
+    "size_bytes": 37294
+  }
+}

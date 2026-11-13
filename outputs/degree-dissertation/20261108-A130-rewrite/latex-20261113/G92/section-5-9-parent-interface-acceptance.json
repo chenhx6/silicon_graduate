@@ -1,0 +1,20 @@
+{
+  "section": "5.9",
+  "status": "scientific-interface-patch-accepted; citation-and-preview-bookkeeping pending",
+  "at_utc": "2026-11-13T16:25:53.366105+00:00",
+  "reviewed_tex_sha256": "93d6a476734b8ee1006cbdb9cd673dea0a7d25f8e1881ea38613ac42b2b0139d",
+  "compared_with": "T20/sec-5-9.frozen.tex",
+  "accepted_delta": [
+    "RemovedSI/RoseBrink conflation beforeRME formula.",
+    "AddedKS emission convention paired with positiveFk interference and explicit sourceδ retention.",
+    "Kept main magnetic rate relation and dimensionlessb unchanged.",
+    "Harmonized toyCM1unit s^-1 and explicitBμ=μN²×dimensionlessratio; old numeric result retained."
+  ],
+  "parent_evidence": "T20/parent-acceptance.json; actualSuhonenPDF134,BM1PDF101,HamiltonPDF553 plus finitealgebra replay.",
+  "remaining_non_scientific_actions": [
+    "Add existing Lange canonicalcite at source-specific sentence.",
+    "Ledger integration_status must distinguish newhash from old27PDF.",
+    "New32sectionbuild and visualinspection remain pending."
+  ],
+  "boundary": "Narrow interface acceptance does not certify all experimentalδ conventions, AppendixA or a newPDF."
+}

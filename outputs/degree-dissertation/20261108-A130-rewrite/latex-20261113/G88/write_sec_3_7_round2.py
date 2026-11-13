@@ -1,0 +1,170 @@
+# -*- coding: utf-8 -*-
+tex_content = r"""\section{八极与反射不对称的联立问题}\label{sec:3-7}
+
+在第\ref{sec:3-5}节中，我们探讨了原子核在四极三轴形变背景下，由多体角动量在内禀空间发生非共面矢量耦合所诱发的集体转动手征对称性自发破缺；在第\ref{sec:2-5}节与第\ref{sec:3-1}节中，阐明了有限多体系统连续转动对称性与分立空间反演的守恒本质与量子波包投影恢复机制。然而，在某些特定的核区（如轻稀土钡铈区、重锕系区以及 $A \approx 70$--$80$ 质量区），原子核不仅展现出非轴对称四极形变，而且费米面附近存在由宇称相反且角动量相差三个单位（$\Delta l = 3, \Delta j = 3$）的单粒子轨道对所激发的八极关联（Octupole correlations）。当空间反射不对称的梨形八极形变与手征非共面三轴转动在同一核结构中同时出现时，体系的对称性破缺与恢复展现出更为复杂的拓扑图像。
+
+在在束 $\gamma$ 谱学分析中，不能简单将两种独立的物理现象直观相加，误认为只要在伴带间观察到微弱的 $E1$ 跃迁连接以及四条表观近简并的能带，便必然意味着原子核实现了手征对称性与空间反射对称性的联立自发破缺。本节旨在严格厘清八极形变与三次四极不变量 $q_3$ 的算符界限、分析标量三重积在空间反演、时间反演与正交空间反射下的本质变换特性，剖析线性幺正宇称投影与反幺正手征操作的代数对立，解析微观八极驱动机制与软核竞争，并深入探讨电偶极矩 $|D_0|$ 提取的模型假定与综合实验判定准则。
+
+\subsection{八极形变、反演破坏与四极不变量的严格解耦}\label{sec:3-7-1}
+
+在探讨八极物理之前，首先必须建立算符阶数与张量性质的严格界限，防止符号与物理对象的混淆：
+\begin{enumerate}
+\item \textbf{八极自由度的算符阶数与物理量纲}：八极形变描述原子核质量或电荷分布的梨形或反射不对称畸变，由三阶球张量坐标 $\alpha_{3\mu}$（$\mu = -3, \dots, +3$）或形变度 $\beta_3$ 描述。相应的电磁跃迁算符为电八极算符 $\hat{\mathcal{M}}(E3, \mu)$，它是具有负宇称的 3 阶球张量算符（在空间反演下变号：$\hat{\Pi} \hat{\mathcal{M}}(E3) \hat{\Pi}^{-1} = -\hat{\mathcal{M}}(E3)$），其电磁跃迁几率 $B(E3)$ 具有量纲 $e^2\cdot\mathrm{fm}^6$；
+\item \textbf{四极三次不变量 $q_3$ 的算符身份与量纲}：在全篇论文（特别是在第\ref{sec:2-1}节与第\ref{sec:2-4}节）中，$q_3$ 严格代表由二阶电四极算符张量缩并构成的标量三次不变量：
+\begin{equation}\label{eq:3-7-q3-def}
+q_3 \equiv -\sqrt{\frac{7}{2}} \langle (\hat{Q}_2 \times \hat{Q}_2)_2 \cdot \hat{Q}_2 \rangle = \langle Q^3 \cos(3\gamma) \rangle,
+\end{equation}
+其在张量阶数上为 rank-0 标量不变量，电荷长度量纲为 $e^3\cdot\mathrm{fm}^6$，绝非能量量纲。$q_3$ 描述的是纯四极形变下的三轴不对称度（$\gamma$ 偏离），本身具有正宇称，绝非八极可观测量。但必须澄清，算符层面的张量阶数解耦并不意味着四极与八极自由度在实际多体动力学上绝对无关，亦不要求体系的八极形变 $\beta_3 = 0$；在四极—八极耦合态中，波函数在八极关联下的重构同样会引起 $q_3$ 期望值的动力学演化。此处严格规范的，是禁止将四极不变量符号 $q_3$ 借用于指代八极形变度 $\beta_3$ 或八极跃迁 $B(E3)$；
+\item \textbf{内禀反演破坏与实验室良宇称定态}：在内禀体轴参考系中，若存在静态反射不对称形变（$\beta_3 \ne 0$），核密度分布破坏空间反演不变性（$\rho(-\mathbf{r}) \ne \rho(\mathbf{r})$）。然而在没有外场作用的孤立原子核中，强相互作用与电磁相互作用哈密顿量满足空间反演守恒：
+\begin{equation}\label{eq:3-7-H-parity-commute}
+[\hat{H}, \hat{\Pi}] = 0.
+\end{equation}
+实验室系中的物理定态本征态具有确定的良空间宇称 $\pi = \pm 1$。根据宇称选择定则，任何奇宇称不可约张量算符在同宇称定态之间的对角期望值严格为零：
+\begin{equation}\label{eq:3-7-E3-diag-zero}
+\langle \pi | \hat{\mathcal{M}}(E3, 0) | \pi \rangle \equiv 0.
+\end{equation}
+因此，在实验室系中，原子核不存在静态的非零电八极矩期望值。八极形变与八极关联的存在，在实验上完全表现为相反宇称态之间的强约化跃迁矩阵元 $\langle -\pi || \hat{\mathcal{M}}(E3) || \pi \rangle$ 以及相关的交替宇称能带结构，绝不能将内禀破缺势阱中的静态 $\beta_3$ 误称为实验室直接测得的定域物理量。
+\end{enumerate}
+
+\subsection{标量三重积在空间反演、时间反演与正交反射下的变换性质}\label{sec:3-7-2}
+
+手征对称性自发破缺的核心标志，是在旋转参考系下由质子准粒子角动量 $\mathbf{j}_p$、中子准粒子角动量 $\mathbf{j}_n$ 以及核芯集体转动角动量 $\mathbf{R}$ 构成的非共面三面角结构。标量三重积表征了该三面角的手征旋向性：
+\begin{equation}\label{eq:3-7-triple-product}
+\chi_{\text{geom}} \equiv \mathbf{j}_p \cdot (\mathbf{j}_n \times \mathbf{R}).
+\end{equation}
+
+考察基本物理矢量在空间反演算符 $\hat{\Pi}$、反幺正时间反演算符 $\mathcal{T}$ 以及普通空间平面反射下的变换行为：
+\begin{enumerate}
+\item \textbf{量子算符厄米性与独立张量空间}：若将 $\mathbf{j}_p, \mathbf{j}_n, \mathbf{R}$ 视为分别作用于质子准粒子、中子准粒子与集体核芯不同希尔伯特子空间的独立张量因子，由于不同子空间的算符彼此对易（$[\mathbf{j}_p, \mathbf{j}_n] = 0, [\mathbf{j}_p, \mathbf{R}] = 0, [\mathbf{j}_n, \mathbf{R}] = 0$），标量三重积算符 $\hat{\chi}_{\text{geom}} = \epsilon_{ijk} \hat{j}_{p,i} \hat{j}_{n,j} \hat{R}_k$ 自身已天然具备严格的厄米性（$\hat{\chi}_{\text{geom}}^\dagger = \hat{\chi}_{\text{geom}}$），无需人为施加跨空间对易对称化；
+\item \textbf{空间反演 $\hat{\Pi}$ 下的轴矢量行为}：坐标与动量是极矢量（$\hat{\Pi} \mathbf{r} \hat{\Pi}^{-1} = -\mathbf{r}, \hat{\Pi} \mathbf{p} \hat{\Pi}^{-1} = -\mathbf{p}$）。然而角动量是由两者叉乘定义的轴矢量（伪矢量）：
+\begin{equation}\label{eq:3-7-L-parity}
+\hat{\Pi} \hat{\mathbf{J}} \hat{\Pi}^{-1} = \hat{\Pi} (\mathbf{r} \times \mathbf{p}) \hat{\Pi}^{-1} = (-\mathbf{r}) \times (-\mathbf{p}) = + \hat{\mathbf{J}}.
+\end{equation}
+由于体系内部全部角动量分量（无论是轨道角动量还是内禀自旋）在空间反演下均不改变方向：
+\begin{equation}\label{eq:3-7-components-parity}
+\hat{\Pi} \mathbf{j}_p \hat{\Pi}^{-1} = +\mathbf{j}_p, \quad \hat{\Pi} \mathbf{j}_n \hat{\Pi}^{-1} = +\mathbf{j}_n, \quad \hat{\Pi} \mathbf{R} \hat{\Pi}^{-1} = +\mathbf{R}.
+\end{equation}
+代入标量三重积算符得到：
+\begin{equation}\label{eq:3-7-triple-parity-invariance}
+\hat{\Pi} \left[ \mathbf{j}_p \cdot (\mathbf{j}_n \times \mathbf{R}) \right] \hat{\Pi}^{-1} = (+\mathbf{j}_p) \cdot \left[ (+\mathbf{j}_n) \times (+\mathbf{R}) \right] = + \mathbf{j}_p \cdot (\mathbf{j}_n \times \mathbf{R}).
+\end{equation}
+式~\eqref{eq:3-7-triple-parity-invariance} 表明：角动量标量三重积是严格的空间反演偶标量（$\mathcal{P}$ 偶），空间反演自身绝对不能反转转动体系的手征旋向；
+\item \textbf{普通空间平面正交反射下的不变性及其物理内涵}：考察空间中任意平面的正交镜像反射（设为关于 $xy$ 平面的反射 $\sigma_z: z \to -z$）。极矢量在 $\sigma_z$ 下满足 $(x, y, z) \to (x, y, -z)$；然而根据轴矢量定义 $\mathbf{J} = \mathbf{r} \times \mathbf{p}$，轴矢量的变换矩阵为：
+\begin{equation}\label{eq:3-7-axial-reflection}
+J_x \to -J_x, \quad J_y \to -J_y, \quad J_z \to +J_z \implies M_{\text{axial}} = \begin{pmatrix} -1 & 0 & 0 \\ 0 & -1 & 0 \\ 0 & 0 & 1 \end{pmatrix}.
+\end{equation}
+矩阵 $M_{\text{axial}}$ 的行列式为 $\det(M_{\text{axial}}) = (-1) \times (-1) \times (+1) = +1$。因此三个轴矢量的标量三重积在普通空间平面的镜像反射下严格保持不变：
+\begin{equation}\label{eq:3-7-reflection-preserve}
+\det[M_{\text{axial}}\mathbf{j}_p, M_{\text{axial}}\mathbf{j}_n, M_{\text{axial}}\mathbf{R}] = \det(M_{\text{axial}}) \det[\mathbf{j}_p, \mathbf{j}_n, \mathbf{R}] = +\mathbf{j}_p \cdot (\mathbf{j}_n \times \mathbf{R}).
+\end{equation}
+式~\eqref{eq:3-7-reflection-preserve} 证明：普通空间平面正交反射并不反转标量三重积 $\chi_{\text{geom}}$，因而该手征旋向性并非空间宇称奇（$\mathcal{P}$ 奇）的序参量。必须明确指出，标量积本身在反射下的不变性并不等同于整个取向核态或三矢量空间构型在普通空间反射下完全不变；
+\item \textbf{时间反演 $\mathcal{T}$ 下的反转行为与标准手征算符}：时间反演算符反转运动方向与自旋（$\mathcal{T} \hat{\mathbf{J}} \mathcal{T}^{-1} = -\hat{\mathbf{J}}$）：
+\begin{equation}\label{eq:3-7-triple-time-reversal}
+\mathcal{T} \left[ \mathbf{j}_p \cdot (\mathbf{j}_n \times \mathbf{R}) \right] \mathcal{T}^{-1} = (-\mathbf{j}_p) \cdot \left[ (-\mathbf{j}_n) \times (-\mathbf{R}) \right] = - \mathbf{j}_p \cdot (\mathbf{j}_n \times \mathbf{R}).
+\end{equation}
+时间反演 $\mathcal{T}$ 单独即可反转标量三重积（$\mathcal{T}$ 奇）。在体轴参考系中，引入复合算符 $\mathcal{C} = \mathcal{T} \mathcal{R}_y(\pi)$ 提供了实现单一内禀分量反转的标准且便捷的物理操作，但它并非实现符号反转的唯一可能数学变换。
+\end{enumerate}
+
+\subsection{反幺正手征算符 $\mathcal{C}$、空间宇称 $\hat{\Pi}$ 与态恢复}\label{sec:3-7-3}
+
+当原子核在微观自洽平均场中同时出现空间反射不对称（$\beta_3 \ne 0$）与非共面手征转动时，体系展现出两套离散对称性的自发破缺：
+\begin{itemize}
+\item 空间反射对称性破缺：由正负八极形变核态 $|\Phi(+\beta_3)\rangle$ 与 $|\Phi(-\beta_3)\rangle = \hat{\Pi} |\Phi(+\beta_3)\rangle$ 关联；
+\item 手征转动对称性破缺：由左手三面角取向态 $|L\rangle$ 与右手三面角取向态 $|R\rangle = \mathcal{C} |L\rangle$ 关联，其中标准手征反转算符定义为 $\mathcal{C} \equiv \mathcal{T} \mathcal{R}_y(\pi)$。
+\end{itemize}
+
+在此必须深入考察线性算符 $\hat{\Pi}$ 与反幺正算符 $\mathcal{C}$ 在复希尔伯特空间中的代数对立：
+\begin{enumerate}
+\item \textbf{标准手征算符的反幺正本质与相作用}：算符 $\mathcal{C} = \mathcal{T} \mathcal{R}_y(\pi)$ 作用在内禀体轴角动量分量上，由于 $\mathcal{R}_y(\pi)$ 将 $(J_1, J_2, J_3) \to (-J_1, J_2, -J_3)$，而时间反演将所有分量变号，二者复合的作用等效于单一内禀分量的符号翻转：
+\begin{equation}\label{eq:3-7-C-action}
+J_1 \to +J_1, \quad J_2 \to -J_2, \quad J_3 \to +J_3.
+\end{equation}
+由于时间反演 $\mathcal{T}$ 为反线性算符，$\mathcal{C}$ 是严格的反幺正算符。反幺正算符的本征值方程 $\mathcal{C}|\psi\rangle = \lambda |\psi\rangle$ 在全域定相变换 $|\psi'\rangle = e^{i\phi}|\psi\rangle$ 下变为 $\lambda' = e^{-2i\phi}\lambda$，其相位敏感依赖于波函数规范，不能像线性幺正算符那样定义规范不变的实数本征量子数；因此 $\mathcal{C}$ 绝不能充当类似空间宇称的 $\pm 1$ 手征宇称标签；
+\item \textbf{$\mathcal{C}^2 = +1$ 的严格代数与克喇默斯定理的失效}：对于整数总自旋（偶费米子数）体系，时间反演与 $\pi$ 旋转算符均满足 $\mathcal{T}^2 = +1$ 且 $\mathcal{R}_y(\pi)^2 = +1$；对于半整数总自旋（奇费米子数）体系，二者均满足 $\mathcal{T}^2 = -1$ 且 $\mathcal{R}_y(\pi)^2 = -1$。由于时间反演算符与空间旋转算符对易，在任一自旋情形下算符模方严格满足：
+\begin{equation}\label{eq:3-7-C-square}
+\mathcal{C}^2 = \mathcal{T} \mathcal{R}_y(\pi) \mathcal{T} \mathcal{R}_y(\pi) = \mathcal{T}^2 \mathcal{R}_y(\pi)^2 = (-1)^{2I} (-1)^{2I} = (-1)^{4I} = +1.
+\end{equation}
+由于 $\mathcal{C}^2 = +1$ 而非反幺正克喇默斯算符的 $-1$，该手征反转算符 $\mathcal{C}$ 自身并不提供克喇默斯定理强制的二重能级简并保护（但不排除微观体系中由其他独立对称性所带来的可能简并）；
+\item \textbf{几何势阱耦合与宇称投影的物理边界}：在多维形变与取向空间中，空间反射自由度（$\beta_3$）与转动取向自由度在动力学势能面上发生非线性耦合，体系并不必然在所有核中都演化出四个孤立且互不连通的物理势阱。线性幺正宇称投影算符 $P^\pm = (\hat{\mathbf{1}} \pm \hat{\Pi})/2$ 划分出的正宇称与负宇称子空间严格正交（$P^+ P^- = 0$；此时尽管底层的内禀波包 $|\Phi(\pm\beta_3)\rangle$ 存在非正交重叠，但投影后的态矢属于正交子空间）。然而，宇称投影自身绝不保证正负宇称带之间的能级近简并；正宇称子空间内的手征劈裂 $\Delta E^+$ 与负宇称子空间内的手征劈裂 $\Delta E^-$ 受控于各自势阱内的动力学势垒与量子隧穿重叠，在数值上通常不相等。因此，在实验谱学中，四条相互平行的能带绝非无条件的数学定理，亦不能仅凭能谱存在四条邻近能带便孤立判定体系实现了手征与八极的联立自发破缺。
+\end{enumerate}
+
+\subsection{微观八极关联驱动机制：壳结构与轨道对}\label{sec:3-7-4}
+
+微观核多体理论揭示了内禀八极形变与八极关联产生的本质驱动力。八极单粒子势场 $\hat{V}_{\text{oct}} \propto r^3 Y_{3\mu}$ 属于奇宇称算符，其非零单粒子矩阵元只能发生在宇称相反且轨道角动量相差奇数单位的单粒子态之间。
+
+根据电八极算符的角动量三角不等式 $|j_1 - j_2| \le 3 \le j_1 + j_2$ 以及宇称选择定则（要求轨道角动量差 $\Delta l = l_1 - l_2$ 必为奇数），单粒子态之间跃迁允许出现：
+\begin{equation}\label{eq:3-7-delta-lj}
+\Delta l = 1, 3, \quad \Delta j \le 3.
+\end{equation}
+其中，由离心势能与自旋—轨道分裂驱动的最强相干驱动组合，常见于满足如下选择条件的轨道对：
+\begin{equation}\label{eq:3-7-favored-octupole}
+\Delta l = 3, \quad \Delta j = 3.
+\end{equation}
+需要明确指出：$\Delta l = 3, \Delta j = 3$ 是提供强八极矩阵元相干放大的优势物理机制，但并非发生八极激发的严格数学充分必要条件。式~\eqref{eq:3-7-delta-lj} 允许的 $\Delta l = 1$ 单粒子跃迁同样对总八极响应提供背景贡献。
+
+不同核区的微观驱动轨道对由壳层能级排布严格决定（Butler 与 Nazarewicz 1996）~\cite{butler-nazarewicz-1996-intrinsic-reflection-asymmetry}：
+\begin{itemize}
+\item 在轻稀土八极核区（如 $^{144, 146}\mathrm{Ba}$，质子数 $Z \approx 56$，中子数 $N \approx 88$），质子费米面靠近 $d_{5/2} \leftrightarrow h_{11/2}$ 轨道对（$l = 2 \leftrightarrow 5, j = 5/2 \leftrightarrow 11/2$），中子费米面靠近 $f_{7/2} \leftrightarrow i_{13/2}$ 轨道对（$l = 3 \leftrightarrow 6, j = 7/2 \leftrightarrow 13/2$）；
+\item 在重核与锕系八极强形变区（如 $^{224}\mathrm{Ra}$，质子数 $Z = 88$，中子数 $N = 136$，处于 $N \approx 134$ 强八极驱动区），质子费米面由 $f_{7/2} \leftrightarrow i_{13/2}$ 轨道对主导，中子费米面由 $g_{9/2} \leftrightarrow j_{15/2}$ 轨道对（$l = 4 \leftrightarrow 7, j = 9/2 \leftrightarrow 15/2$）主导。绝不能将轻稀土区的钡同位素单粒子轨道对套用到锕系镭同位素上；
+\item 在中等质量核区（$A \approx 70$--$80$，如 $^{78}\mathrm{Br}, ^{74}\mathrm{As}$），费米面附近存在质子或中子的 $p_{3/2}$ 与侵入轨道 $g_{9/2}$ 对（$l = 1 \leftrightarrow 4, j = 3/2 \leftrightarrow 9/2$）~\cite{liu-chen-2016-78br-chirality-reflection-symmetry-thesis,xiao-xiao-2019-high-spin-74as-thesis}。
+\end{itemize}
+
+在微观分析中必须恪守物理边界：费米面附近具备 $\Delta l = \Delta j = 3$ 轨道对仅是提供八极相干吸引的动力学驱动，原子核是否能够在势能面上形成深陷且稳定的静态八极极小（$\beta_3 \ne 0$），取决于该相互作用能否压倒四极形变刚度以及单粒子动能恢复力。在许多核素中，势能面呈现出沿 $\beta_3$ 极其平缓的八极软势或以 $\beta_3=0$ 为中心的简谐势阱，此时体系展现出强烈的八极表面动态振动（Octupole vibrations），而非刚性静态梨形反射不对称。
+
+\subsection{电偶极矩 $|D_0|$ 提取模型假设与综合实验判定准则}\label{sec:3-7-5}
+
+在实验谱学中，连接相反宇称伙伴带的核心电磁跃迁是电偶极跃迁（$E1$）。然而，从实验观测到的 $E1$ 跃迁强度反演微观八极形变，包含着一系列强烈的理论模型假设。
+
+\subsubsection{内禀电偶极矩 $D_0$ 的产生机制与反常相消}
+
+在宏观均匀带电的刚体椭球中，质心与电荷中心完全重合，不存在内禀静态电偶极矩（$D_0 \equiv 0$）。当核发生反射不对称八极形变时，在唯象宏观液滴与微观单粒子极化两分法下，内禀电偶极矩可表示为：
+\begin{equation}\label{eq:3-7-D0-components}
+D_0 = D_0^{\text{macro}} + D_0^{\text{micro}}.
+\end{equation}
+需要特别指出，式~\eqref{eq:3-7-D0-components} 属于一种唯象的宏观液滴位移与微观单粒子壳修正的分解约定，不能假设两项在所有核区均普遍符号相反。
+
+在特定核素中，微观壳层结构的变化可能引发剧烈的电偶极矩压低。例如在 $^{146}\mathrm{Ba}$ 的直接库仑激发实验中（Bucher 等人 2017）~\cite{bucher-2017-146ba-direct-octupole}，多步 Coulomb 激发实验直接测定的是基态电八极跃迁矩阵元 $|\langle 3_1^- || \hat{\mathcal{M}}(E3) || 0_1^+ \rangle| = 0.65_{-0.20}^{+0.14} \, e\cdot\mathrm{b}^{3/2}$，对应跃迁强度 $B(E3; 3_1^- \to 0_1^+) = 48_{-29}^{+21} \, \mathrm{W.u.}$（Bucher 等人 2017 原文表 I 与图 3--5）。该直接测量确立了 $^{146}\mathrm{Ba}$ 具有与 $^{144}\mathrm{Ba}$ 相当的强八极集体性。文献中所列出的 $E1$ 跃迁矩阵元约束主要沿用既有的平均寿命与光子分支比数据，而非该次库仑激发直接独立产出。在 Bucher 等人（2017）引用的自洽对称性守恒组态混合（SCCM，Gogny D1S）计算中，对同位素内禀偶极矩演化的微观解释，具体归因于质子与中子各自对内禀偶极贡献的对比——特别是费米面附近中子高 $j$、低 $K$ 侵入轨道占据的演化调控了总偶极矩的抵消与变号，这与宏观/微观唯象两分法属于不同维度的物理描述。强八极跃迁强度与微弱 $E1$ 跃迁并存的现象表明：微弱的 $E1$ 跃迁并不意味着八极集体性的消失；反之，强 $E1$ 跃迁亦不能孤立证明静态刚性梨形形变的存在（强 $E3$ 自身亦包含八极动态振动的物理可能）。
+
+\subsubsection{转子模型提取 $|D_0|$ 的假设前提与多极混合界限}
+
+在强耦合单 $K$ 轴对称转子模型假定下，相反宇称带之间的带间 $B(E1)$ 跃迁几率与同带内 $B(E2)$ 满足 Clebsch--Gordan 几何偶合关系：
+\begin{equation}\label{eq:3-7-BE1-axial-formula}
+B(E1; I \to I-1) = \frac{3}{4\pi} D_0^2 \, \langle I \, K \, 1 \, 0 | I-1 \, K \rangle^2,
+\end{equation}
+\begin{equation}\label{eq:3-7-BE2-axial-formula}
+B(E2; I \to I-2) = \frac{5}{16\pi} Q_0^2 \, \langle I \, K \, 2 \, 0 | I-2 \, K \rangle^2.
+\end{equation}
+两者的比值给出：
+\begin{equation}\label{eq:3-7-D0-Q0-ratio}
+\frac{B(E1; I \to I-1)}{B(E2; I \to I-2)} = \frac{12}{5} \frac{D_0^2}{Q_0^2} \frac{\langle I \, K \, 1 \, 0 | I-1 \, K \rangle^2}{\langle I \, K \, 2 \, 0 | I-2 \, K \rangle^2}.
+\end{equation}
+
+审视式~\eqref{eq:3-7-D0-Q0-ratio} 的物理前提与实验推断边界：
+\begin{itemize}
+\item \textbf{强耦合单 $K$ 条件}：该式严格假定核具有稳定的单轴转动态且投影量子数 $K$ 良好守恒。在三轴变形核或存在强烈 $K$ 混合的核中，电偶极算符在内禀系存在多个非零分量（如横向分量 $D_1$），不能通过单一分支简化为单一标量 $D_0$；
+\item \textbf{四极矩输入与比值确定性}：若实验仅测得退激光子分支比，在缺乏能级寿命测量且无 Coulomb 激发等绝对跃迁矩阵元数据时，公式只能导出比值 $|D_0 / Q_0|$。若要提取绝对内禀偶极矩 $|D_0|$，可结合同核已独立测定的内禀四极矩 $Q_0$（由同核带内 $B(E2)$ 或跃迁四极矩 $Q_t$ 导出），或在缺乏实验数据时结合微观模型自洽映射的 $Q_0$；该比值仅含偶极矩模方，不能确定 $D_0$ 的物理符号；
+\item \textbf{多极混合与谱线重叠的严格区分}：在连接相反宇称能级的同一物理跃迁内部，电磁相互作用的宇称守恒律（要求多极辐射具有负宇称 $\Delta \pi = -1$）允许发生 $E1 + M2$ 多极混合（其中 $E1$ 为电偶极，$M2$ 为磁四极），其多极混合比 $\delta(M2/E1)$ 可通过角分布与偏振测量进行实验反演。必须严格区分这一物理多极混合与谱学中的偶然能谱重叠现象（即一条连接相反宇称能级的 $E1$ 跃迁谱线，与另一条连接同宇称能级的 $M1$ 或 $E2$ 跃迁谱线在探测器能量分辨率窗口内偶然发生能量重叠组成的实验 doublet），严禁在物理上断言单一跃迁内部能出现 $E1 + M1$ 或 $E1 + E2$ 混合。
+\end{itemize}
+
+\subsubsection{多维实验观测量与模型前向检验准则}
+
+为了在实验上客观甄别手征与空间反射对称性的联立动力学特征，低能核结构谱学确立了联合多维实验可观测量、对比理论模型前向预言的综合分析准则：
+\begin{enumerate}
+\item \textbf{能谱四重结构对账}：检验理论模型是否能自洽预测自旋宇称序列为 $(I^+, I^-)$ 与伙伴带 $(I'^+, I'^-)$ 的四条相互平行的转动序列；
+\item \textbf{电磁跃迁网络的实验约束}：
+\begin{itemize}
+\item 带内展现出同宇称 $\Delta I = 2$ 电四极跃迁（反映四极集体转动核心）；
+\item 同宇称伙伴带之间展现出特征性的 $\Delta I = 1$ 的 $M1$ 与 $E2$ 连接跃迁（反映三维手征转动动力学）；
+\item 相反宇称伙伴带之间展现出交错 $\Delta I = 1$ 的电偶极 $E1$ 连接跃迁（反映空间反射不对称或八极相干关联）；
+\end{itemize}
+\item \textbf{八极集体性与绝对跃迁几率约束}：强 $E1$ 跃迁并不等价于八极集体性，$E3$ 具有独立的动力学起源；应尽可能通过 Coulomb 激发或能级寿命测定获取绝对跃迁几率 $B(E2)$、$B(M1)$ 与关键的电八极跃迁强度 $B(E3)$；
+\item \textbf{自洽微观模型的前向预言检验}：最终判定必须依据具体选定的理论模型（如约束反射不对称协变密度泛函理论、三维粒子—转子模型 RAT-PRM 或投影微观计算），在统一参数下对比能谱能级差、电磁跃迁分支比与四极/八极形变势能曲面的柔软度。不应将特定唯象框架下的所有理论连接项列为跨模型通用的排他性绝对认证清单。
+\end{enumerate}
+
+必须指出：在中等质量核区（如 $^{78}\mathrm{Br}, ^{74}\mathrm{As}$），实验已报道了包含同宇称与相反宇称带间跃迁的候选能级图景（Liu 等人 2016，Liu 2016，Xiao 2019）~\cite{liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br,liu-chen-2016-78br-chirality-reflection-symmetry-thesis,xiao-xiao-2019-high-spin-74as-thesis}。然而由于关键态能级寿命与绝对跃迁强度的实验测量精度限制，以及单粒子能级交叉与微观八极软势涨落的强烈竞争，这些结构目前属于手征与八极关联候选带，尚未形成排他性确证的刚性四重态。关于具体核素的详细实验数据、分支比矩阵与微观泛函势能面的定量对账，将在第\ref{sec:4-5}节中展开深入的专题比较。
+"""
+
+with open("raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-7.tex", "w", encoding="utf-8") as f:
+    f.write(tex_content.strip() + "\n")
+
+print("Successfully written revised sec-3-7.tex, length:", len(tex_content))

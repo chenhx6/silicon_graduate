@@ -1,0 +1,11 @@
+{
+  "agent_id": "01a1d4d8-5d13-7602-89e2-5d78d3b25f61",
+  "contracts": [
+    {
+      "timestamp": "2026-11-13T12:30:21.274Z",
+      "text": "T18父已实读、独立重放（结果逐字节相同）、核runtime确为Terra/xhigh，接受窄审，回T18/parent-acceptance.json；5.8尚未接受。请继续一个独立窄审T19（保留当前Terra/xhigh，不需新派生）：唯一写域改outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T19/。目录已冻结sec-5-7.frozen.tex、section-5-7.frozen.json、a130_angular_branch_figure.frozen.py和frozen-inputs.json。只读冻结输入与原件，不碰canonical/Git/其他目录，T18产物不改。\nT19范围：5.7统计取向张量—角分布—线偏振—DCO反演的约定一致性。父正在审5.2/5.6，你的工作可独立并行。已知冻结稿先说Bk(Ii)已包含Uk，但随后a_k公式又乘Uk，是真实重复；请给最小正确替换。另一疑点：P(M)=P(-M)令奇Bk=0，但未测光子极化的纯EM强度W只含偶阶还受宇称/螺旋度和约束，不能说只因population对称才只出现0/2/4；上限4另需M1/E2截断且受2Ii限制。请独立核原理，勿把父猜测当结论。审B0=1、Fk/RME与delta相位、Qk轴对称标量与Q0=1、P(theta)分子分母、反演二次式退化/分母零点/pure-E2无穷端点与有限pole的区别。原始counts共同事件Cov不要求你重建统计学章；图producer正定二次曲线是声明教学模型，不是指定核的物理计算，检查是否诚实区分。\n重要原件定位：Hamilton书raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf共956物理页，是扫描件。bookmarks真实位置：取向参数PDF529/532；F系数550；A_lambda553；A_lambda^2 555；轴对称强度/式12.198 PDF556；DCO557；deorientation563；P/DCO569；Linear polarization727/728；F tables901。父已视觉看PDF532=印521，Chapter12 Eq12.80/81。冻结ledger宣称PDF355–371‘Chapter8&9 polarimetry’错误，父视觉PDF355=印344 Chapter10内转换，不能照抄。请必要渲染几张关键页或使用bookmarks，不扫描全本/不凭空猜locator。Wu教材本任务不必核。Lange/Kumar/Hamilton1982实际原文在其canonical source中，若用于相位/反演必须真读对应式，无法读就保边界。\n交付report.json（冻结line、severity、实际raw物理页/印刷页/式、条件和修正），correction.tex最小中文候选；若涉及非平凡符号推导/控制，给独立validation.py/results.json真实运行，但不要重复已有低价值toy或把演示算实际测量。父最终核验再交Gemini改写。无需用户确认，不改任何canonical文件，不开子代理。完成后简短返回。",
+      "sha256": "78c0ac30a7d69567a646f304771fd696994f604749cd211a10bcb93321d62f05"
+    }
+  ],
+  "latest_scope_boundary": "Latest current_ownership and explicit correction override original note ownership; shared filesystem locks are protocol-only."
+}

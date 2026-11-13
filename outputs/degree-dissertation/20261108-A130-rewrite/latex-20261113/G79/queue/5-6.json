@@ -1,0 +1,30 @@
+{
+  "worker": "G79 Gemini/high",
+  "canonical_root": "raw/writing/gpt/A130/these_2023_template/these_template",
+  "execution": "One section at a time. After a draft+ledger+receipt is delivered, proceed to next independent contract without waiting for parent layout/science review. Apply later feedback narrowly; never overwrite parent-fixed accepted text from staging.",
+  "protected": "No commonBib/wrappers/compile/PLAN/memory/PADO/otherwriterfiles. Newrefs only G79/new-references-SECTION.bib for G76.",
+  "evidence": "Read actualprimary selected pages; exactfile/page_count/printedpage/item/shortanchor for each newcriticalclaim or numericalinput. No fabricatedPDFpages, no model/adopted/experiment mixing. Source/knowledge schemas andactualreadingscope; reuse alreadychecked claims rather than wholebooks.",
+  "writing": "Coherent readersteps, assumptions/units/rivals/failureconditions, no invented personalsetup/data. LaTeX direct, no literalMarkdown**; rawPythonstrings andC0 checks. Use Python SVG/PDF in Img only if explanatorygain, withuniqueproducer/manifestfragment; not every section needsafigure.",
+  "acceptance": "Parent checksactualclaims andsource-dependentmath; worker selfcertification/compileralone do not confer scientificacceptance.",
+  "section": "5.6",
+  "title": "符合矩阵与能级建立",
+  "goal": "Explain how timestamped detectorrecords become conditional spectra and a level/transition graph, including topology ambiguity andselection-dependent uncertainty.",
+  "sources": [
+    "Hamilton nuclear spectroscopy actualchapters",
+    "WuHongyi digitalDAQ thesis actualeventformat",
+    "nuclear-experimental-methods source and existingcoincidence notes"
+  ],
+  "requirements": [
+    "Usecalibrated clocks/energy/timestampalignment from5.4; eventwindow/causalordering/delayed gates dependonlifetime/beamstructure, not fixeduniversalcoincidencewindow. Eventbuilder definitions anddoublecount policy explicit; correlatedarrivals andhardwarekeep from5.5 distinctfromofflinegating.",
+    "For n photonhits define whether matrix orderedpairs include n(n−1) entries orunordered n(n−1)/2 then symmetrize; do notcount oneeventtwice and laterassume cells independentPoisson. Diagonal/degeneratephotons/duplicatechannels/addback policies explicit; no userhardwareassumptions.",
+    "Prompt-random subtraction S=P−aR witha fromtime/energywindow/exposure normalizations only underdeclaredbackgroundapproximation. Variance=P+a²R for independentrawPoissoncounts atfixeda; addCov/sharedcounts andnormalizationuncertainty whennot independent. Negativebackground-subtracted bins areestimators, not physicalnegativeintensity or rawPoissoncounts.",
+    "Energy sidebands/multi-gates/cross-gated peaks can sharecounts/correlations; background shapeandcascade contamination notautomatically flat. Truecoincidence/summing/pileup aredifferent from5.2; jointacceptance notproductmarginals.",
+    "Coincidencelinks imply sharedcascade butnot automatically uniqueordering/directbranch. Energybalances, crossovers, timeordering, parallelpaths, multiplets, missinglowenergyIC transitions andfeeding needcomplementaryevidence. Ipi/configuration stillfromangular/polarization/lifetime/modelinputs, not coincidentenergyalone.",
+    "Draw an optional declaredsmalllevelgraph withambiguouspaths viaPython; no fakeexperimentalcounts. Keepintensitybalance totalbranchvsphotonbranch/ICC distinctions aligned5.9."
+  ],
+  "outputs": [
+    "Tex/Sections/sec-5-6.tex",
+    "latex-evidence-ledger/section-5-6.json",
+    "G79/section-5-6-*"
+  ]
+}

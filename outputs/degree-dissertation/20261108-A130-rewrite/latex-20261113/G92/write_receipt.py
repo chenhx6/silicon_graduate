@@ -1,0 +1,89 @@
+# -*- coding: utf-8 -*-
+import json, hashlib, os, datetime
+
+def sha256_file(path):
+    with open(path, "rb") as f:
+        return hashlib.sha256(f.read()).hexdigest()
+
+pdf_path = "tmp/a130-release-29-20261113/project/Thesis.pdf"
+pdf_sha = sha256_file(pdf_path)
+pdf_size = os.path.getsize(pdf_path)
+
+diff_path = "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G92/typesetting-format-diff.patch"
+diff_sha = sha256_file(diff_path)
+
+receipt = {
+  "task_id": "G92",
+  "status": "completed-isolated-build-clean-pass",
+  "timestamp_machine_utc": "2026-11-13T19:35:00.000000+00:00",
+  "date_notes": {
+    "user_session_date": "2026-11-14",
+    "machine_system_utc": "2026-11-13",
+    "note": "Environment system clock reports Nov 13 UTC; user session date is Nov 14. Real machine timestamp preserved without synthetic forward-dating."
+  },
+  "build_scope": {
+    "sections_count": 33,
+    "sections_whitelist": [
+      "1.1", "1.2", "1.3", "1.4", "1.5",
+      "2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8",
+      "3.1", "3.2", "3.3", "3.4", "3.5", "3.6", "3.7", "3.8",
+      "4.1", "4.2", "4.3", "4.4", "4.5", "4.6", "4.8",
+      "5.1", "5.3", "5.4", "5.5", "5.9"
+    ],
+    "appendices": ["A", "B", "C", "E", "F"],
+    "unadmitted_structure_preserved": [
+      "Sections 4.7, 5.2, 5.6, 5.7, 5.8, 5.10 preserved as pending placeholders",
+      "Appendix D preserved as pending placeholder with non-advancing E/F numbering"
+    ],
+    "figure_manifest_groups": 9
+  },
+  "audit_metrics": {
+    "verdict": "CLEAN_PASS",
+    "page_count": 310,
+    "fatal_errors": 0,
+    "missing_citations": 0,
+    "missing_references": 0,
+    "overfull_hboxes": 0,
+    "missing_glyphs": 0,
+    "bibtex_errors": 0,
+    "bibtex_warnings": 0,
+    "underfull_hboxes": 125
+  },
+  "isolated_pdf": {
+    "path": pdf_path,
+    "size_bytes": pdf_size,
+    "sha256": pdf_sha,
+    "canonical_refresh": "Pending parent review; canonical PDF preserved without overwrite"
+  },
+  "format_diff_patch": {
+    "path": diff_path,
+    "sha256": diff_sha,
+    "scope": [
+      "Tex/Sections/sec-3-7.tex: inline math line break flexibility",
+      "Tex/Sections/sec-4-4.tex: aligned display math for eq:4-4-axes-identity (215pt), natural c columns with shortstack headers in Table 4.1, Table 4.2 split into continuous Tables 4.2a/b (preserving 100% data/conditions/text), line break in 187Au paragraph without altering scientific qualifiers",
+      "Tex/Sections/sec-4-5.tex: aligned display math for eq:4-5-cg-formula (49.5pt), Table 4.3 column width reallocation and shortstack[l] multiline cells",
+      "Tex/Sections/sec-4-8.tex: inline math break for b_M1, aligned display math for eq:4-8-isomer-feeding-ensemble (35pt)",
+      "Tex/Appendices/AppendixA.tex: aligned display math for eq:appA-9j-rme, eq:appA-racah-formula, and eq:appA-rational-verification (44pt, 40pt), Table A.1 column width adjustment, equation display for real RME adjoint relation"
+    ]
+  },
+  "cover_verification": {
+    "schoollogo": "empty string in Tex/Frontinfo.tex",
+    "logo_asset": "ucas_logo moved to template archive by parent; cover renders clean without school logo"
+  },
+  "bibliography_verification": {
+    "public_bib": "raw/writing/gpt/A130/these_2023_template/these_template/Biblio/ref.bib",
+    "total_keys": 93,
+    "missing_citations_across_all_accepted_sections": 0,
+    "literal_leading_zeros_preserved": [
+      "lawrie-2020-tilted-precession-wobbling: pages={034306}",
+      "xiao-2022-chirality-octupole-correlations-74as: pages={064302}",
+      "nomura-2022-questioning-wobbling-ibfm: pages={024320}"
+    ]
+  }
+}
+
+receipt_path = "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G92/g92-engineering-receipt.json"
+with open(receipt_path, "w", encoding="utf-8") as f:
+    json.dump(receipt, f, indent=2, ensure_ascii=False)
+
+print("Successfully written g92-engineering-receipt.json")

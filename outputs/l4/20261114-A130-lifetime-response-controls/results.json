@@ -1,0 +1,154 @@
+{
+  "session_date": "2026-11-14",
+  "machine_at_utc": "2026-11-13T18:53:38.693733+00:00",
+  "producer": "system/scripts/a130_lifetime_response_figure.py",
+  "producer_sha256": "3db01dfcbe293956354e1f278bcb2263ec463a478818152d38b789929c71404f",
+  "execution_command": "MPLBACKEND=Agg python3 system/scripts/a130_lifetime_response_figure.py",
+  "versions": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "cases": {
+    "tau_0.1_ps": {
+      "exact_centroid_shift_keV": 17.50083865656976,
+      "grid_refinements": [
+        {
+          "h_keV": 0.05,
+          "area": 0.9999999982653685,
+          "centroid_keV": 1017.500755351737,
+          "centroid_shift_keV": 17.500755351736984,
+          "error_vs_exact_keV": -8.330483277418921e-05
+        },
+        {
+          "h_keV": 0.025,
+          "area": 0.9999999981501498,
+          "centroid_keV": 1017.5008178302488,
+          "centroid_shift_keV": 17.50081783024882,
+          "error_vs_exact_keV": -2.082632093802772e-05
+        },
+        {
+          "h_keV": 0.0125,
+          "area": 0.9999999980897774,
+          "centroid_keV": 1017.5008334499745,
+          "centroid_shift_keV": 17.500833449974493,
+          "error_vs_exact_keV": -5.206595265150327e-06
+        }
+      ],
+      "L1_diff_h05_to_h025": 4.957522925407555e-05,
+      "L1_diff_h025_to_h0125": 1.6939338127600607e-05,
+      "L1_convergence_ratio": 2.9266331943217248,
+      "support_widening": {
+        "h_keV": 0.025,
+        "energy_bounds_keV": [
+          960.0,
+          1060.0
+        ],
+        "kernel_sigmas": 8.0,
+        "area": 0.9999999999999988,
+        "centroid_keV": 1017.50081783026,
+        "L1_difference": 1.8498492316602152e-09
+      },
+      "checks": {
+        "area_without_density_renormalization": true,
+        "centroid_errors_decrease": true,
+        "support_difference_below_3e_9": true,
+        "finite_nonnegative_spectra": true
+      }
+    },
+    "tau_0.8_ps": {
+      "exact_centroid_shift_keV": 7.357588823428847,
+      "grid_refinements": [
+        {
+          "h_keV": 0.05,
+          "area": 0.999999998903136,
+          "centroid_keV": 1007.3575822341434,
+          "centroid_shift_keV": 7.357582234143365,
+          "error_vs_exact_keV": -6.5892854816951285e-06
+        },
+        {
+          "h_keV": 0.025,
+          "area": 0.9999999988302792,
+          "centroid_keV": 1007.3575871722729,
+          "centroid_shift_keV": 7.357587172272929,
+          "error_vs_exact_keV": -1.6511559177700974e-06
+        },
+        {
+          "h_keV": 0.0125,
+          "area": 0.9999999987921037,
+          "centroid_keV": 1007.35758840672,
+          "centroid_shift_keV": 7.3575884067199695,
+          "error_vs_exact_keV": -4.1670887718225913e-07
+        }
+      ],
+      "L1_diff_h05_to_h025": 6.328901295681381e-05,
+      "L1_diff_h025_to_h0125": 2.130842298427853e-05,
+      "L1_convergence_ratio": 2.9701406342228514,
+      "support_widening": {
+        "h_keV": 0.025,
+        "energy_bounds_keV": [
+          960.0,
+          1060.0
+        ],
+        "kernel_sigmas": 8.0,
+        "area": 0.9999999999999993,
+        "centroid_keV": 1007.3575871772815,
+        "L1_difference": 1.1697201267760194e-09
+      },
+      "checks": {
+        "area_without_density_renormalization": true,
+        "centroid_errors_decrease": true,
+        "support_difference_below_3e_9": true,
+        "finite_nonnegative_spectra": true
+      }
+    },
+    "tau_5.0_ps": {
+      "exact_centroid_shift_keV": 1.5179736207764183,
+      "grid_refinements": [
+        {
+          "h_keV": 0.05,
+          "area": 0.9999999997434378,
+          "centroid_keV": 1001.5179733721048,
+          "centroid_shift_keV": 1.5179733721048478,
+          "error_vs_exact_keV": -2.4867157044639043e-07
+        },
+        {
+          "h_keV": 0.025,
+          "area": 0.9999999997263963,
+          "centroid_keV": 1001.5179735567763,
+          "centroid_shift_keV": 1.517973556776269,
+          "error_vs_exact_keV": -6.400014918028774e-08
+        },
+        {
+          "h_keV": 0.0125,
+          "area": 0.9999999997174668,
+          "centroid_keV": 1001.5179736029032,
+          "centroid_shift_keV": 1.5179736029032256,
+          "error_vs_exact_keV": -1.7873192703632412e-08
+        }
+      ],
+      "L1_diff_h05_to_h025": 0.00013502214679878048,
+      "L1_diff_h025_to_h0125": 4.505472382723176e-05,
+      "L1_convergence_ratio": 2.996847729364419,
+      "support_widening": {
+        "h_keV": 0.025,
+        "energy_bounds_keV": [
+          960.0,
+          1060.0
+        ],
+        "kernel_sigmas": 8.0,
+        "area": 1.0,
+        "centroid_keV": 1001.5179735591696,
+        "L1_difference": 2.7360348800350897e-10
+      },
+      "checks": {
+        "area_without_density_renormalization": true,
+        "centroid_errors_decrease": true,
+        "support_difference_below_3e_9": true,
+        "finite_nonnegative_spectra": true
+      }
+    }
+  },
+  "passed": true,
+  "boundary": "Declared linear deceleration, exponential emission and Gaussian response; numerical checks, not hardware or real-nucleus validation."
+}

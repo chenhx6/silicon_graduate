@@ -1,0 +1,203 @@
+{
+  "metadata": {
+    "executor": "G87 (Gemini Tiered/high)",
+    "timestamp": "2026-11-13T15:30:00+00:00",
+    "batch": 1,
+    "scope": [
+      "4.4"
+    ],
+    "review_iteration": "v1-fixed",
+    "status": "parent-return-fixed-awaiting-parent-acceptance",
+    "execution_domain": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G87/",
+    "canonical_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-4.tex",
+    "canonical_tex_sha256": "3be8cc71a96ad7c689424a21214d10304ee027a36e63a5d89c37aec382805328",
+    "staging_tex": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G87/staging/sec-4-4.tex",
+    "staging_tex_sha256": "3be8cc71a96ad7c689424a21214d10304ee027a36e63a5d89c37aec382805328",
+    "evidence_ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-4.json",
+    "evidence_ledger_sha256": "a1eec08fbcc0b80940e656e2e5ce290ae61455bcbddebf2a8523492b0b47c659",
+    "contract_file": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G87/section-4-4-contract.json",
+    "contract_file_sha256": "2b794b737e863b8cf599bc38a34e6604485e39737c6fd4b8dcdb85dd3613eafa",
+    "new_references_bib": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G87/new-references-4-4.bib",
+    "new_references_bib_sha256": "bb154817f7e221d905632d3ef06a440b0894652d90fca164718cc90a880a8dfe",
+    "research_note": "knowledge/research-notes/a130-rewrite-orientation-cross-region-conditions-20261113.md",
+    "research_note_sha256": "595ff0e297140532039b82ca8388c90d5dbb062f02b64e4547481a031197e69a",
+    "figure_pdf": "raw/writing/gpt/A130/these_2023_template/these_template/Img/orientation-comparison-modes.pdf",
+    "figure_pdf_sha256": "f804d3b39af80cc34c81bc59d147a3c48bf642c2939388b4ac01e9186f7ca95f",
+    "figure_script": "system/scripts/a130_orientation_comparison_figure.py",
+    "figure_script_sha256": "d013b75a18a0fdf6372c192a6e96ae6eb05b194e3eed14869551fcaf06a6c17f"
+  },
+  "parent_critique_resolutions": [
+    {
+      "point_id": 1,
+      "sol_critique": "本节是比较章，不重复第二/三章一套半轴/刚体/流体推导。你TW/LW闭式量纲就不对且非原3.3冻结模型，删除这两伪闭式，必要理论回已核2.6/3.2与原作条件；不要自己再猜新式。若保留半轴/MoI式必须标小beta近似、gamma扇区/轴映射；irrot Js>Jl不在整个扇区恒真（gamma30时相等、两侧交换），只保留相应例的排序。",
+      "tex_repair_anchor": "sec-4-4.tex 第4.4.1小节第1小段与第3小段",
+      "ledger_repair_anchor": "section-4-4.json -> notations_and_conventions['body_fixed_axes', 'moments_of_inertia_ordering'], claims_and_derivations[0]",
+      "concrete_fix": "彻底删除 TW/LW 伪闭式公式；理论基础直接回链第2.6节（微观惯量响应）与第3.2/3.3节（三轴不对称转子与粒子--转子模型）。标明半轴与惯量公式的小 beta_2 展开与 Lund gamma 扇区映射；严格指明无辐散流在 gamma in (0, 60 deg) 扇区中仅保证中轴 J_m 最大，而 J_s > J_l 仅在 gamma < 30 deg 成立（gamma = 30 deg 时 J_s = J_l，gamma > 30 deg 时转为 J_l > J_s），准确修正为相应例子的扇区排序。"
+    },
+    {
+      "point_id": 2,
+      "sol_critique": "LW/TW定义是j相对指定模型最大MoI轴，不是LW必mid轴/半满壳或Z79必h9绝对底端。Guo2022对187Au有其meanfield/geometry论证，可作为作者解释和条件，而不是普遍禁定理；不同作者coreinertia/alignment/partition需并列。",
+      "tex_repair_anchor": "sec-4-4.tex 第4.4.1小节第3小段与第4.4.4小节第2小段",
+      "ledger_repair_anchor": "section-4-4.json -> source_inputs[6, 7], claims_and_derivations[0, 3]",
+      "concrete_fix": "将 LW 与 TW 明确定义为准粒子角动量 j 相对模型所指定的最大转动惯量轴的对准几何关系，而非绝对中轴标签；在讨论 187Au 时，将郭松等人基于质子费米面靠近 h9/2 壳底倾向短轴对准的论据，明确表述为作者的平均场势能面计算解释与模型条件，与 Sensharma 等人的中轴对准假设并列对比，不作为普适排他的绝对禁戒定理。"
+    },
+    {
+      "point_id": 3,
+      "sol_critique": "Pr135关键线身份必须回已核原表：Lv2022 mainPDF3/SI5，747.3为17/2−→15/2−，813.2为21/2−→19/2−；747的小根−.47(+.09/−.22)，不是你−.12(3)。比值是B(E2;747)/B(E2;526)=.7(+.7/−.5)，同母态17/2−、526到13/2−的另一带。你写13/2→11/2、<<.1、Ewob750→350不符此source；无法明确哪个独立数据集就撤掉非必要数字，不能混bandlabel/spin。原Matta/Sensharma数值若留必须其原作真实表/phase，不能拿Frauendorf理论文支持后来实验数字。",
+      "tex_repair_anchor": "sec-4-4.tex 第4.4.3小节第2小段与第3小段",
+      "ledger_repair_anchor": "section-4-4.json -> source_inputs[1, 2], claims_and_derivations[2]",
+      "concrete_fix": "严格依据 Lv et al. (2022, PLB 824, 136840) Table 1 与正文第 3 页纠正所有跃迁身份与实测数值：(1) 747.3 keV 跃迁能级严格为 17/2- -> 15/2- (连接 Band 3 与 Band 1)，其实测小根为 delta = -0.47(+0.09/-0.22)；(2) 813.2 keV 跃迁严格为 21/2- -> 19/2-，小根为 delta = -0.46(+0.11/-0.19)；(3) 同母态 17/2- 向 Band 1 (747.3 keV) 与向签名伙伴带 Band 2 (526.2 keV -> 13/2-) 的约化跃迁几率比实测为 B(E2; 747.3)/B(E2; 526.2) = 0.7(+0.7/-0.5)，直接证明波函数具有强混合特征，与纯 1-phonon 摆动理论中向签名伙伴带退激受阻 (比值 >> 1) 严重冲突；彻底撤除未经验证的虚假自旋和数字。"
+    },
+    {
+      "point_id": 4,
+      "sol_critique": "不说polarization正本身筛掉/支持所有根，Rac/δ根也非普遍正好二根且一大一小；具体几何/取向/coefficients/置信域要保留。M1主导不等『非集体』（剪刀/磁转动可M1 collective），只能比较该模型对候选wobbling的联合预言，别一个|δ|阈值裁决所有核。",
+      "tex_repair_anchor": "sec-4-4.tex 第4.4.3小节第2小段与第3小段",
+      "ledger_repair_anchor": "section-4-4.json -> source_inputs[2, 3], claims_and_derivations[2]",
+      "concrete_fix": "说明线偏振度 P(theta) 正负符号与具体核态去取向张量 B_k(I) 及几何系数相关，小根 delta ≈ -0.47 同样可以产生正偏振，不能作为排他性支持大根的证据；澄清 M1 主导并不等同于缺乏集体性（指出磁转动与剪刀振动均可由集体 M1 驱动），而是在所检验的横向摆动模型框架内，摆动声子特异性地预言了带间集体 E2 辐射增强，而实测小根下 M1 主导 (>80%) 且缺乏集体 E2 增强与该模型预言冲突。"
+    },
+    {
+      "point_id": 5,
+      "sol_critique": "Lu Q_t表本身最低约6.66/6.68b、最高9.93，不能概括全range7.5–9.5且完全重合；相近Qt不能独证同完整core/排除不同config。请删除『直接排除/确立纯净物理事实/完全无法单qp解释』过强语，作为经典积累较完整参照及作者模型解释。",
+      "tex_repair_anchor": "sec-4-4.tex 第4.4.2小节第2小段与第4.4.5小节表4.4",
+      "ledger_repair_anchor": "section-4-4.json -> source_inputs[0], claims_and_derivations[1]",
+      "concrete_fix": "根据 Görgen 2004 Table I 实测原表，修正 Qt 的整体分布范围为 6.7–9.9 b (TSD1 测得 7.37–9.93 b，TSD2 测得 6.66–8.88 b)；删除『直接排除/确立纯净物理事实/完全无法单qp解释』等绝对化用语，客观评价为：两带 Qt 随自旋变化趋势相似，与作者建立在相近超形变核芯 (epsilon_2 ≈ 0.38, gamma ≈ +20 deg) 上的理论模型吻合；明确指出相近 Qt 是摆动模型的必要条件而非唯一充要证据，作为实验积累较为完整的经典参照。"
+    },
+    {
+      "point_id": 6,
+      "sol_critique": "163Lu WeisskopfE2你0.024e²b²不对。若用标准R0=1.2A^(1/3)fm，BW(E2)=0.0594 A^(4/3)e²fm⁴≈.0053e²b²，.54–.70约100–130W.u.不是22–29。可干脆保留原表e²b²不多添换算；若换算要声明reference/精度，>1W.u.不是集体性充分定理。",
+      "tex_repair_anchor": "sec-4-4.tex 第4.4.2小节第2小段第(2)条与图4-4注",
+      "ledger_repair_anchor": "section-4-4.json -> source_inputs[0], claims_and_derivations[1]",
+      "concrete_fix": "纠正 Weisskopf 单粒子计算：采用标准半径参数 R0 = 1.2 A^(1/3) fm，给出 B_W(E2) = 0.05940 A^(4/3) e^2fm^4；对于 A=163，A^(4/3) ≈ 892.4，B_W(E2) ≈ 53.0 e^2fm^4 = 0.00530 e^2b^2。实测带间 B(E2)_out = 0.54–0.70 e^2b^2 对应约 100–130 W.u.，彻底剔除旧的错误数值 0.024 e^2b^2 与 22–29 W.u.；声明原生单位 e^2b^2，并指出 > 1 W.u. 并非集体摆动的充分定理。"
+    },
+    {
+      "point_id": 7,
+      "sol_critique": "20行Lu原始数组不必在正文全写超长align，改少量代表行/可读表或真实数据图，完整转录留已有数据源/附F。每条τ/Qt/B实际原Table/Spin/误差/同采集采用量依赖，图仅Python双格式，不能复制错数字到衍生图。",
+      "tex_repair_anchor": "sec-4-4.tex 第4.4.2小节表4-4-lu163-sample 与正文",
+      "ledger_repair_anchor": "section-4-4.json -> source_inputs[0]",
+      "concrete_fix": "将正文中冗长繁复的 20 行 align 公式块彻底替换为规范精炼的表 4.1（列出 TSD1、TSD2 及带间连接跃迁在关键自旋处的代表性能级寿命、跃迁能量、Qt 与跃迁几率）；完整 20 行转录与哈希保留在已核数据源与附录；Python 脚本 a130_orientation_comparison_figure.py 重新核对所有数据点与误差棒，图面换算同步更新为 100–130 W.u.。"
+    },
+    {
+      "point_id": 8,
+      "sol_critique": "187Au mainGuo2022实际376/462 links约δ−.26/−.28，和Sensharma2020不同采集大根比较是作者争议，不是Pr的小根；你对所有B比<.1/证明shape coexistence等需逐source明确。无absoluteτ时作者用Band1/186Pt adoptedB估计out强度，要注明模型/采用依赖，不假装实测absolute。",
+      "tex_repair_anchor": "sec-4-4.tex 第4.4.4小节第2小段第(3)条",
+      "ledger_repair_anchor": "section-4-4.json -> source_inputs[6], claims_and_derivations[3]",
+      "concrete_fix": "依据 Guo et al. (2022, PLB 828, 137010) 核实 187Au 关键连接线：376 keV (11/2- -> 9/2-) 与 462 keV (15/2- -> 13/2-) 跃迁支持小混合比解 delta ≈ -0.26 与 -0.28；明确指出由于缺乏 Band 2 能级寿命测量，带间强度 B(E2)_out 仅几 W.u. (B(E2)_out/B(E2)_in < 0.1) 是作者通过采用邻近 186Pt 核芯或带内已知的 B(E2)_in ~ 100–200 W.u. 进行的模型估算，严格注明采用量与模型依赖性，不伪装为直接测定的绝对跃迁几率。"
+    },
+    {
+      "point_id": 9,
+      "sol_critique": "Shimizu高K对照别叫『全部TW与precession严格拓扑同构』。按已核3.2/T14，固定I旋转系与固定K跨spinlab差别，公式单位要补hbar；本节可引用而不再无定义hbar=1移植。不是所有axisymmetricK0都可沿sym轴集体自转。",
+      "tex_repair_anchor": "sec-4-4.tex 第4.4.4小节第1小段",
+      "ledger_repair_anchor": "section-4-4.json -> source_inputs[4], claims_and_derivations[3]",
+      "concrete_fix": "删除『全部 TW 与进动严格拓扑同构』等过强断言；依据已核第3.2节与 T14，明确区分随体旋转系下固定总自旋 I 的摆动进动，与实验室参考系下固定内禀 K 跨越自旋的高 K 转动进动；在进动公式中严格补齐 hbar 物理单位：E_high-K(I) = hbar^2/(2J_perp)[I(I+1)-K^2] 与 omega_prec = hbar I / J_perp；指明由于量子全同性原理，并非所有轴对称 K != 0 构型均能沿对称轴集体自转。"
+    },
+    {
+      "point_id": 10,
+      "sol_critique": "末尾R=q3/q2^(3/2)不能一般∝cos3gamma固定角，2.4已证幅度涨落/相关会越界和加权，保留模型条件。Qt/Qs/PES/J1/J2/横向χ不同对象，你初稿intro把3.2写已论手征/oddparticle也错，分别回3.3/3.5。别用『最高/完全/证明』填相称原件证据不足。",
+      "tex_repair_anchor": "sec-4-4.tex 导言段落及第4.4.5小节第3小段",
+      "ledger_repair_anchor": "section-4-4.json -> notations_and_conventions['shape_invariants'], claims_and_derivations[4]",
+      "concrete_fix": "修正导言交叉引用：第3.2节为非对称转子摆动几何，第3.3节为奇核子耦合，第3.5节为手征对称性破缺；在讨论不变量比值 R = q_3 / q_2^(3/2) 时，明确指出在包含形变涨落与动态相关的真实多体波函数上积分时，R 不能一般直接等同于固定刚性角度下的 cos 3gamma（如第2.4节所证明）；严格区分 Qt, Qs, PES 极小, 运动学/动力学惯量 J1, J2 与微观横向动力学响应张量 J_eff(omega)；全文彻底清理『最高/完全/证明』等过度断言。"
+    }
+  ],
+  "preserved_quantities_and_source_audit": [
+    {
+      "quantity": "Q_t ≈ 6.7--9.9 b",
+      "physical_role": "163Lu TSD1 与 TSD2 带内跃迁四极矩实测数据分布区间",
+      "canonical_source": "A. Görgen et al., Phys. Rev. C 69, 031301(R) (2004)",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "page_count": 4,
+      "actual_read_pages": [
+        2,
+        3
+      ],
+      "text_anchor": "PDF pp. 2-3, Table I: TSD1 from 9.93(+1.14/-0.99) b down to 7.37(+0.82/-0.57) b; TSD2 from 8.88(+0.83/-0.64) b down to 6.66(+1.09/-0.76) b"
+    },
+    {
+      "quantity": "B(E2)_out = 0.54--0.70 e^2b^2 (≈ 100--130 W.u.)",
+      "physical_role": "163Lu TSD2 -> TSD1 带间连接跃迁约化跃迁几率实测值与标准 Weisskopf 换算值",
+      "canonical_source": "A. Görgen et al., Phys. Rev. C 69, 031301(R) (2004)",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "page_count": 4,
+      "actual_read_pages": [
+        3
+      ],
+      "text_anchor": "PDF p. 3, Table II: 5 transitions from 47/2+ to 63/2+ yield B(E2) = 0.54(+0.13/-0.11) to 0.70(+0.18/-0.15) e^2b^2; B_W(E2) ≈ 0.0053 e^2b^2 gives ~ 100-130 W.u."
+    },
+    {
+      "quantity": "delta = -3.10(+0.36/-0.44)",
+      "physical_role": "163Lu TSD2 -> TSD1 带间跃迁实测采用的平均多极混合比",
+      "canonical_source": "A. Görgen et al., Phys. Rev. C 69, 031301(R) (2004)",
+      "raw_file": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+      "page_count": 4,
+      "actual_read_pages": [
+        3
+      ],
+      "text_anchor": "PDF p. 3, col. 1: 'an average value of the mixing ratio delta = -3.10(+0.36/-0.44) was used, taken from a measurement... [1, 22]'"
+    },
+    {
+      "quantity": "747.3 keV (17/2- -> 15/2-), delta = -0.47(+0.09/-0.22)",
+      "physical_role": "135Pr Band 3 -> Band 1 关键跃迁真实能级自旋与实测小根混合比",
+      "canonical_source": "B. F. Lv et al., Phys. Lett. B 824, 136840 (2022)",
+      "raw_file": "raw/papers/2022_Lv et al_Evidence against the wobbling nature of low-spin bands in 135Pr.pdf",
+      "page_count": 6,
+      "actual_read_pages": [
+        3
+      ],
+      "text_anchor": "PDF p. 3, Table 1: 747.3 keV transition (17/2- -> 15/2-), Rac = 0.98(7), delta = -0.47(+0.09/-0.22)"
+    },
+    {
+      "quantity": "813.2 keV (21/2- -> 19/2-), delta = -0.46(+0.11/-0.19)",
+      "physical_role": "135Pr Band 3 -> Band 1 另一连接跃迁自旋与实测小根混合比",
+      "canonical_source": "B. F. Lv et al., Phys. Lett. B 824, 136840 (2022)",
+      "raw_file": "raw/papers/2022_Lv et al_Evidence against the wobbling nature of low-spin bands in 135Pr.pdf",
+      "page_count": 6,
+      "actual_read_pages": [
+        3
+      ],
+      "text_anchor": "PDF p. 3, Table 1: 813.2 keV transition (21/2- -> 19/2-), Rac = 1.01(8), delta = -0.46(+0.11/-0.19)"
+    },
+    {
+      "quantity": "B(E2; 747.3)/B(E2; 526.2) = 0.7(+0.7/-0.5)",
+      "physical_role": "135Pr 同一初态 17/2- (Band 3) 向 Band 1 与 Band 2 退激分支比",
+      "canonical_source": "B. F. Lv et al., Phys. Lett. B 824, 136840 (2022)",
+      "raw_file": "raw/papers/2022_Lv et al_Evidence against the wobbling nature of low-spin bands in 135Pr.pdf",
+      "page_count": 6,
+      "actual_read_pages": [
+        3
+      ],
+      "text_anchor": "PDF p. 3, col. 2: 'The presently measured ratio B(E2; 747)/B(E2; 526) = 0.7(+0.7/-0.5) is in stark contrast with this expectation...'"
+    },
+    {
+      "quantity": "delta ≈ -0.26 (376 keV), delta ≈ -0.28 (462 keV)",
+      "physical_role": "187Au Band 2 -> Band 1 关键连接跃迁实验支持的小根混合比",
+      "canonical_source": "S. Guo et al., Phys. Lett. B 828, 137010 (2022)",
+      "raw_file": "raw/papers/2022_Guo et al_Probing the nature of the conjectured low-spin wobbling bands in atomic nuclei3.pdf",
+      "page_count": 6,
+      "actual_read_pages": [
+        3
+      ],
+      "text_anchor": "PDF p. 3, Fig. 3 & text: internal conversion coefficients alpha_K and delta values for 376 keV (11/2- -> 9/2-) and 462 keV (15/2- -> 13/2-)"
+    },
+    {
+      "quantity": "B(E2)_in ~ 100--200 W.u., B(E2)_out / B(E2)_in < 0.1",
+      "physical_role": "187Au 采用 186Pt 核芯估计带间 E2 强度所依赖的模型采用值与比值",
+      "canonical_source": "S. Guo et al., Phys. Lett. B 828, 137010 (2022)",
+      "raw_file": "raw/papers/2022_Guo et al_Probing the nature of the conjectured low-spin wobbling bands in atomic nuclei3.pdf",
+      "page_count": 6,
+      "actual_read_pages": [
+        3
+      ],
+      "text_anchor": "PDF p. 3, col. 1: 'Considering the measured B(E2) in values of 100-200 W.u. in the collective bands of 187Au and the 186Pt core... B(E2)out are estimated to be only a few W.u.'"
+    },
+    {
+      "quantity": "E_high-K(I) = hbar^2/(2J_perp)[I(I+1) - K^2], omega_prec = hbar I / J_perp",
+      "physical_role": "高 K 进动模式在轴对称形变极限下的微观进动能量与频率公式",
+      "canonical_source": "Y. R. Shimizu et al., Phys. Rev. C 72, 014306 (2005)",
+      "raw_file": "raw/papers/gpt/query/20261113-A130-precession-limits/shimizu-matsuzaki-matsuyanagi-2005-nucl-th-0412074v2.pdf",
+      "page_count": 14,
+      "actual_read_pages": [
+        3
+      ],
+      "text_anchor": "PDF p. 3, Eq. (8) & Eq. (9): omega_wob(I) = I/J_perp - omega_rot(I); E_high-K(I) = 1/(2J_perp)[I(I+1) - K^2]"
+    }
+  ]
+}

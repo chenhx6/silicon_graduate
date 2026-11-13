@@ -1,0 +1,32 @@
+{
+  "task_id": "T23",
+  "model": "codex/gpt-6.1-terra",
+  "effort": "xhigh",
+  "task": "Narrow independent falsification/repair of AppendixD overgeneralized seniority exits and open-network existence/degeneracy conditions.",
+  "isolation": "read-onlycanonical, T23outputprefixonly",
+  "read_paths": [
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T23/AppendixD.frozen.tex",
+    "knowledge/sources/book-jain-nuclear-isomers.md",
+    "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+    "system/scripts/a130_seniority_fock_controls.py",
+    "T21/report.json",
+    "T21/correction.tex"
+  ],
+  "write_paths": [
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T23"
+  ],
+  "publish": false,
+  "canonical_writes": false,
+  "questions": [
+    "Does pure identicalfermion single-j half-filled same-v electric-even node plusM1vanishing excludeallEMexits? Checkodd-rankquasispinscalarM3, unitRME examplej11/2,n6,v2,Ji10->Jf8 ifvalid. Preserveconditions; norealnucleusclaim.",
+    "For A=[[-(a+D1),b],[a,-(b+D2)]] and nonnegative rates, distinguish det>0 uniquegloballyattractingnonnegativeSSforarbitrarysource from existenceforparticularsource when det0. Checka=b0,D1=1,D2=0,S1=1,S2=0 counterexample.",
+    "CheckDelta0 isnotonlyzeroexchangeequal-loss; consider a0,b1,D1=2,D2=1 repeatednegativeeigenvalueJordan. Correct bounded/no-source explanation and sourcecompatibleSS conditions. Brieflyflaglong-livedthermalbathasnecessaryLindbladcondition vsallowedconditionalmodels."
+  ],
+  "deliverables": [
+    "report.json: precise true/false+conditions+actualprimarylocators",
+    "correction.tex: shortsubstitutepassages, nofullDrewrite",
+    "validation.py/results.json: independentfiniteexactcontrols/counterexamples",
+    "No bulkbookread, novelpaperclaimsornewphysicalrates"
+  ],
+  "frozen_sha256": "1c965db956321694ab52788af19ed90c1b016c614b1856034b215d10a6e1b5c7"
+}

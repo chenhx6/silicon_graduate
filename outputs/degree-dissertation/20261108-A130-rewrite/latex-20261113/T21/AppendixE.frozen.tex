@@ -1,0 +1,282 @@
+\chapter{数字算法与模块实现的声明条件}\label{app:digital-algorithms}
+
+本附录为正文第~5.3~节（数字滤波与能量提取）、第~5.4~节（数字定时与亚纳秒时间戳）以及第~5.5~节（硬件符合与触发架构）提供自洽、严格的数字信号处理数学递推、离散边界条件、确定性截断误差推导、事件打包契约以及算法参考实现。
+在在束核结构实验中，数字脉冲处理技术直接在现场可编程门阵列（FPGA）流水线中完成脉冲成形与特征提取。为了确保科学结论的可复现性，本附录明确界定数字算法的离散递推初值、位宽饱和截断、采样相位网格限制、板载 FIFO 缓存策略以及联合活时间测度边界，为正文提供坚实的技术支撑。
+
+\section{前级脉冲响应模型与极零相消离散递推}\label{sec:appE-pzc}
+
+\subsection{电荷灵敏前级脉冲模型}
+
+在半导体核辐射探测器（如 HPGe）中，核辐射电离产生的微弱电荷信号首先经由电荷灵敏前置放大器（CSP）放大。前级的理想冲激响应在时间域表达为带有限上升时间的负指数衰减波形：
+\begin{equation}\label{eq:appE-csp-model}
+v(t) = V_0 \left( 1 - \exp\left( -\frac{t}{\tau_{\mathrm{rise}}} \right) \right) \exp\left( -\frac{t}{\tau_{\mathrm{pre}}} \right) \Theta(t),
+\end{equation}
+其中 $V_0$ 为正比于光子沉积能量的阶跃幅度，$\tau_{\mathrm{rise}}$ 为由探测器电荷载流子收集时间与前级输入回路带宽共同决定的上升时间常数（典型范围为几十至数百纳秒），$\tau_{\mathrm{pre}} = R_f C_f$ 为前级积分电容的反馈放电时间常数（典型范围为 $40$–$50\,\mu\text{s}$）。
+
+\subsection{离散时间域极零相消递归方程}
+
+在模数转换器（ADC）以固定周期 $T_s$ 采样后，连续时间离散化为 $t = n T_s$。定义无量纲归一化衰减时间常数为：
+\begin{equation}\label{eq:appE-m-def}
+M \equiv \frac{\tau_{\mathrm{pre}}}{T_s},
+\end{equation}
+对应的离散极点因子为 $d = \exp(-T_s/\tau_{\mathrm{pre}}) = \exp(-1/M) \approx 1 - 1/M$。
+前级放电长尾会在后续相继脉冲到达时造成严重的基线堆积与幅度失真。为了消除该极点的影响，数字极零相消（Pole-Zero Cancellation, PZC）在离散时间域通过差分反卷积算子进行校正~\cite{wu-hongyi-2020-general-purpose-digital-daq-thesis, wu-2021-general-purpose-digital-daq-waveform-analysis}。校正后的一阶阶跃响应 $v_p[n]$ 满足差分递推关系：
+\begin{equation}\label{eq:appE-pzc-recurrence}
+v_p[n] = v_p[n-1] + \left( v[n] - v[n-1] \right) + \frac{1}{M} v[n],
+\end{equation}
+初始条件设定为基线平衡状态下的静态初始值：$v[-1] = v[0] = 0$ 且 $v_p[-1] = 0$。
+
+\subsection{极零失配边界与弹道亏损权衡}
+
+在实际实验调试中，极零相消参数 $M$ 必须与实际探测器及电缆链路的物理衰减时间严格匹配：
+\begin{enumerate}
+\item 欠补偿（Under-compensation, $M > M_{\mathrm{true}}$）：此时放电因子被低估，校正后的脉冲在主峰后出现低于基线的下凹（Undershoot），导致后续相继到达的信号幅度被系统性低估；
+\item 过补偿（Over-compensation, $M < M_{\mathrm{true}}$）：此时放电因子被高估，脉冲后残留正向指数拖尾，导致虚假的基线抬升并诱发假触发堆积。
+\end{enumerate}
+
+更重要的物理限制源自探测器的有限电荷收集时间 $\tau_{\mathrm{coll}}$。对于大体积同轴 HPGe 探测器，由于晶体各位置处的电场不均匀性与载流子迁移速率差异，实际电荷收集时间呈现显著弥散。若后续梯形滤波器的平顶持续时间 $L \cdot T_s$ 小于最大电荷收集时间 $\tau_{\mathrm{coll}}^{\max}$，成形输出的峰顶无法达到平坦平衡，产生\emph{弹道亏损}（Ballistic Deficit）。
+消除弹道亏损要求平顶满足 $L \cdot T_s \ge \tau_{\mathrm{coll}}^{\max}$；然而增加平顶宽度与上升时间会扩大滤波器的有效通频带并加剧低频 $1/f$ 噪声与并联电流噪声积分。因此，在在束实验中不存在超越探测器类型的普适最优参数，必须针对特定几何与探头类型进行能量分辨率-成形时间权衡标定。
+
+\section{数字梯形滤波成形与流水线差分方程}\label{sec:appE-trapezoid}
+
+\subsection{Jordanov 差分方程组与流水线架构}
+
+为了在保留全能峰能量线性度的同时获得最优信噪比，现代数字核电子学广泛采用 Jordanov 与 Knoll 提出的有限长冲激响应（FIR）梯形滤波器~\cite{wu-hongyi-2020-general-purpose-digital-daq-thesis}。设滤波器上升时间参数为 $k$ 个采样点，平顶时间参数为 $l$ 个采样点，前级衰减匹配参数为 $M$。
+梯形滤波器的流水线递推差分方程组严格表述为四个连续因果阶段：
+\begin{align}
+d^k[n] &= v[n] - v[n-k], \label{eq:appE-trap-dk} \\
+p[n] &= p[n-1] + d^k[n] - d^k[n-l-k], \label{eq:appE-trap-pn} \\
+r[n] &= p[n] + M \cdot d^k[n], \label{eq:appE-trap-rn} \\
+s[n] &= s[n-1] + r[n]. \label{eq:appE-trap-sn}
+\end{align}
+初始条件在系统复位或无信号基线区间严格置零：$v[n] = 0$（$\forall n < 0$），$d^k[n] = 0$（$\forall n < 0$），$p[-1] = 0$，$s[-1] = 0$。
+
+\subsection{$Z$ 变换传递函数与有限冲激响应证明}
+
+对差分方程组~\eqref{eq:appE-trap-dk}--\eqref{eq:appE-trap-sn} 进行单边 $Z$ 变换，可得系统总转移函数：
+\begin{equation}\label{eq:appE-trap-z-transform}
+H(z) = \frac{S(z)}{V(z)} = \frac{(1 - z^{-k})(1 - z^{-k-l})(1 + M - M z^{-1})}{(1 - z^{-1})^2}.
+\end{equation}
+分子中的项 $(1 + M - M z^{-1}) = (M+1)(1 - \frac{M}{M+1} z^{-1})$ 在离散参数满足 $\frac{M}{M+1} \approx d$ 时，与前级放大器的极点 $(1 - d z^{-1})^{-1}$ 发生精确对消。
+经过极零对消后，系统的纯冲激响应在时间域表现为一个对称或非对称的梯形：上升沿宽度为 $k T_s$，平顶宽度为 $l T_s$，下降沿宽度为 $k T_s$。因此，滤波器的总时间宽度为：
+\begin{equation}\label{eq:appE-fir-length}
+T_{\mathrm{FIR}} = (2k + l) T_s,
+\end{equation}
+严格具备有限长冲激响应（FIR）特性，避免了无限长冲激响应（IIR）带来的误差无限累积风险。
+
+\subsection{幅值归一化与基线恢复算法}
+
+对单位阶跃高度为 $V_0$ 的输入信号，式~\eqref{eq:appE-trap-sn} 的梯形输出平顶峰值幅度严格满足解析关系：
+\begin{equation}\label{eq:appE-peak-amplitude}
+s_{\max} = k (M + 1) V_0.
+\end{equation}
+因此，必须通过精确的物理因子 $k(M+1)$ 进行归一化，方可反演真实的脉冲幅度：
+\begin{equation}\label{eq:appE-snorm}
+s_{\mathrm{norm}}[n] \equiv \frac{s[n]}{k(M + 1)}.
+\end{equation}
+在 FPGA 硬件定点实现中，动态基线恢复（Baseline Restoration, BLR）采用长度为 $N_{\mathrm{BL}}$ 的环形缓冲区（Ring Buffer）计算滑动平均：
+\begin{equation}\label{eq:appE-baseline-ma}
+\mathrm{BL}[n] = \frac{1}{N_{\mathrm{BL}}} \sum_{m=1}^{N_{\mathrm{BL}}} v[n - 2k - l - m],
+\end{equation}
+通过设置无触发区间门控保护，防止特征信号脉冲污染基线平均值，并引入定点截断保护以防止有符号整数溢出。
+
+\section{数字恒比定时（CFD）与过零亚采样插值}\label{sec:appE-cfd}
+
+\subsection{双极性成形与符号过零判定}
+
+恒比定时算法的核心物理思想是通过波形衰减与延迟反相叠加，构造出过零时刻与脉冲幅度无关的双极性特征信号。
+在数字信号处理中，设滤波分数为 $f$（典型取 $f = 0.2$–$0.5$），数字延迟为 $D_{\mathrm{samp}}$ 个采样周期（满足 $D_{\mathrm{samp}} T_s \approx \tau_{\mathrm{rise}}(1 - f)$）。离散双极性 CFD 序列定义为~\cite{wu-hongyi-2020-general-purpose-digital-daq-thesis, doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing}：
+\begin{equation}\label{eq:appE-cfd-bipolar}
+C[n] = f \cdot v[n] - v[n - D_{\mathrm{samp}}].
+\end{equation}
+当脉冲前沿进入时，$C[n]$ 从基线开始起伏；系统设置触发门限以排除噪声，并在双极性波形中搜索符号跳变的过零参考点 $(n_0, n_0+1)$：
+\begin{equation}\label{eq:appE-zero-cross-condition}
+C[n_0] \le 0 \quad \text{且} \quad C[n_0 + 1] > 0.
+\end{equation}
+
+\subsection{线性亚采样插值与确定性截断误差}
+
+在离散时间点 $n_0$ 与 $n_0 + 1$ 之间，连续物理过零时刻 $t_{\mathrm{zc}}$ 通过线性内插求得：
+\begin{equation}\label{eq:appE-cfd-subsample}
+\Delta t_{\mathrm{sub}} = T_s \cdot \frac{-C[n_0]}{C[n_0 + 1] - C[n_0]} = T_s \cdot \frac{|C[n_0]|}{|C[n_0]| + C[n_0 + 1]}.
+\end{equation}
+总数字时间戳表达为粗定时整数部分与亚采样细分小数部分的线性和：
+\begin{equation}\label{eq:appE-timestamp-total}
+t_{\mathrm{CFD}} = n_0 T_s + \Delta t_{\mathrm{sub}}.
+\end{equation}
+
+线性插值实质上是用采样点之间的割线逼近真实的非线性波形。由 Taylor 定理，若波形在过零点附近具有非零二阶导数（曲率）$C''(t)$，线性截断引入的确定性相位误差主导项为：
+\begin{equation}\label{eq:appE-linear-interp-error}
+\epsilon_{\mathrm{trunc}}(\phi) \approx \frac{1}{2} T_s^2 \phi (1 - \phi) \frac{C''(t_{\mathrm{zc}})}{C'(t_{\mathrm{zc}})},
+\end{equation}
+其中 $\phi = \Delta t_{\mathrm{sub}} / T_s \in [0, 1)$ 为无量纲采样相位。
+式~\eqref{eq:appE-linear-interp-error} 揭示了确定性插值误差的关键特征：
+\begin{enumerate}
+\item 误差在采样点正中（$\phi = 0.5$）达到极大，而在采样格点处（$\phi = 0$ 与 $\phi = 1$）严格为零；
+\item 确定性误差随采样周期呈现平方衰减（$\propto T_s^2$）。
+\end{enumerate}
+必须严格强调：正文第~5.4~节表~5.2 与数据集 \texttt{sampling\_convergence.csv} 所测得的最大误差（例如 $T_s = 10\,\text{ns}$ 时最大误差为 $0.2566\,\text{ns}$）是在 $20$ 个离散等距相位点上的数值扫描极值，它为特定步长下的离散检验，并非全连续相位域与任意奇异脉冲下的数学全局绝对上界。
+
+\subsection{名义编码步长与真实时间分辨率的本质界限}
+
+在硬件输出中，亚采样小数值 $\Delta t_{\mathrm{sub}}$ 常被量化为 $b$ 位无符号整数（例如 $b = 16$ 对应细分步长 $\delta t_{\mathrm{code}} = T_s / 2^b \approx 0.15\,\text{ps}$ 当 $T_s = 10\,\text{ns}$）。
+必须建立明确的物理边界：\emph{该名义编码步长仅是定点寄存器的数值表示分辨力，绝对不代表物理时间分辨率}！
+真实在束定时精度由以下物理因素综合决定：
+\begin{equation}\label{eq:appE-timing-jitter}
+\sigma_t^2 \approx \frac{\sigma_v^2}{|C'(t_{\mathrm{zc}})|^2} + \sigma_{\mathrm{geom}}^2 + \sigma_{\mathrm{clock}}^2 + \sigma_{\mathrm{walk}}^2,
+\end{equation}
+其中 $\sigma_v / |C'|$ 为前级电压噪声在过零斜率转换下的有效电子学抖动，$\sigma_{\mathrm{geom}}$ 为探测器晶体内不同电离深度导致的电荷收集几何弥散，$\sigma_{\mathrm{clock}}$ 为系统分布式时钟网络的分配抖动与共模漂移，$\sigma_{\mathrm{walk}}$ 为大动态能量范围内波形非同形性引起的幅度游动残差。
+
+\section{数据打包协议、头部格式与FIFO缓存溢出策略}\label{sec:appE-packet-format}
+
+\subsection{基础 4 字事件头结构}
+
+在 Pixie-16 等主流数字采集卡中，列表模式（List-Mode）输出的数据流以紧凑的二进制字格式组织（吴鸿毅 2020 博士论文第 2.2 节，图 2.8，印刷第 43 页，PDF 第 55 页规范~\cite{wu-hongyi-2020-general-purpose-digital-daq-thesis}）。
+每个物理碰撞事件的基础事件头由 4 个 32-bit 寄存器字构成，其位域定义如表~\ref{tab:appE-header-format} 所示。
+
+\begin{table}[!htbp]
+\centering\small
+\caption{Pixie-16 数字数据采集卡标准 4 字事件头位域定义（引自吴鸿毅 2020 博士论文图 2.8 原件规范）。}\label{tab:appE-header-format}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}cccl@{}}
+\toprule
+字序号 & 位区间 & 字段名称 & 物理功能与数据格式 \\
+\midrule
+Word 0 & [3:0] & Channel ID & 通道逻辑编号（0--15） \\
+       & [7:4] & Slot ID & 机箱插槽逻辑编号（2--13） \\
+       & [11:8] & Crate ID & 机箱编号标识 \\
+       & [16:12] & Header Length & 事件头部字数（基础头为 4） \\
+       & [30:17] & Event Length & 事件总长度（含波形轨迹时的总 32 位字数） \\
+       & [31] & Finish Code & 事件完成与数据有效性校验标志 \\
+\midrule
+Word 1 & [31:0] & Timestamp Low & 48 位硬件时钟时间戳低 32 位 \\
+\midrule
+Word 2 & [15:0] & Timestamp High & 48 位硬件时钟时间戳高 16 位 \\
+       & [30:16] & CFD Fractional Time & CFD 过零亚采样插值小数部分（量化定点数） \\
+       & [31] & CFD Forced Trigger & CFD 强制触发/过零有效性标志位 \\
+\midrule
+Word 3 & [15:0] & Event Energy & 梯形滤波器成形滤波峰值能量值（定点无符号数） \\
+       & [30:16] & Trace Length & 附加的原始 ADC 波形采样点总长度 \\
+       & [31] & Trace Out-of-Range & 波形幅度是否超出 ADC 动态输入范围标志 \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+\subsection{扩展数据块与波形轨迹}
+
+完整事件并不在所有配置下都固定为 4 个字。当用户在采集固件中启用了高阶谱学分析功能时，基础头后可选择性附加扩展数据块：
+\begin{enumerate}
+\item 高精度能量扩展块：采用 32-bit 格式输出能量以保留微小浮点有效位；
+\item 基线追溯块：输出该事件触发前计算的瞬时基线平均值；
+\item QDC 电荷积分块：输出多个可配置时间门内的电荷积分总和；
+\item 原始 ADC 波形轨迹：以两点压缩（每 32 位字存放两个 14/16-bit 采样点）形式输出数百至数千点的完整前级波形。
+\end{enumerate}
+
+\subsection{FIFO 缓存溢出与“保头丢迹”策略}
+
+当实验计数率急剧增加、或者开启了长波形记录导致总数据吞吐率超出 PCI Express 或以太网总线传输带宽时，采集卡上的板载 FIFO 环形缓存将发生拥塞（吴论文附录 B，印刷第 115–116 页，PDF 第 127–128 页~\cite{wu-hongyi-2020-general-purpose-digital-daq-thesis}）。
+为了缓解传输瓶颈，采集固件引入了“保头丢迹”（Keep Header, Discard Trace）保护机制：
+当 FIFO 占用率超过预设高水位门限时，模块自动丢弃长达数百字的波形轨迹，仅将包含能量与高精度时间戳的 4 字基础头压入数据流；同时将 Word 3 中的 Trace Length 字段置零，并置起溢出状态标记。
+必须严肃明确其适用边界：\emph{该策略仅能消除长波形造成的存储带宽瓶颈，并不能消除前端电荷积分通道的硬件死时间、过载基线下陷与事件重叠堆积}。系统总探测效率依然受制于前端有效活时间，必须通过标准源实验进行系统性统计标定。
+
+\section{联合活时间测度、PASTA条件与共享忙逻辑边界}\label{sec:appE-joint-live}
+
+\subsection{联合活时间的严格参考测度定义}
+
+在多通道符合谱仪中，设通道 1 与通道 2 的瞬时可用状态指示函数分别为 $X_1(t), X_2(t) \in \{0, 1\}$（1 表示通道空闲可用，0 表示处于忙/死时间状态）。
+联合活时间（Joint Live-Time）的严格数学期望定义为：
+\begin{equation}\label{eq:appE-joint-live-def}
+L_{12}(\Delta t) \equiv \mathbb{E}_{\mathrm{ref}}\left[ X_1(t) X_2(t + \Delta t) \right],
+\end{equation}
+其中 $\Delta t$ 为两通道之间的时间差窗口（对于瞬发符合 $\Delta t = 0$），$\mathbb{E}_{\mathrm{ref}}$ 为基于指定参考测度下的统计平均。
+必须明确区分两类根本不同的参考测度：
+\begin{itemize}
+\item 均匀时间测度（Time-Average, $L^{\mathrm{time}}$）：在连续实验时间轴上进行均匀时间积分 $\frac{1}{T} \int_0^T X_1(t) X_2(t + \Delta t) \mathrm{d}t$；
+\item 到达采样测度（Arrival-Average, $L^{\mathrm{arrival}}$）：以物理粒子实际到达探测器的时间点为参考条件计算的成功接收几率。
+\end{itemize}
+
+\subsection{Wolff PASTA 定理与非前瞻性假设}
+
+根据经典的 Wolff (1982) PASTA 定理（Poisson Arrivals See Time Averages）~\cite{wolff-1982-poisson-arrivals-see-time-averages}，到达采样平均与均匀时间平均严格相等的充分条件是：
+外部粒子到达过程服从齐次泊松过程，且系统满足\emph{无前瞻性假设}（Lack of Anticipation Assumption, LAA）——即时刻 $t$ 之后的粒子到达不依赖于时刻 $t$ 之前的系统历史状态，而时刻 $t$ 的系统忙状态仅依赖于历史到达，不预知未来的到达。
+若到达过程存在时间聚集（例如脉冲束流簇射或级联退激相关到达），到达采样测度将显著偏离时间平均，此时必须使用真实的联合粒子通量测度。
+
+\subsection{共享忙信号下的协方差反例推导}
+
+由概率统计定义，两个指示变量乘积的数学期望与边缘期望之积满足协方差恒等式：
+\begin{equation}\label{eq:appE-cov-identity}
+\mathbb{E}[X_1 X_2] = \mathbb{E}[X_1] \mathbb{E}[X_2] + \mathrm{Cov}(X_1, X_2).
+\end{equation}
+为了向读者直观展示为何“两通道活时间乘积”在存在公模触发时必定失效，考虑如下清晰的教学反例模型：
+设两探测通道处于一个共享总死时间门控的环境中（例如公模反康普顿屏蔽门控或公共触发总线阻塞），共享忙状态变量记为 $B(t) \in \{0, 1\}$，其在参考测度下的忙几率（占空比）为 $f_{\mathrm{busy}} \equiv \Pr_{\mathrm{ref}}(B = 1) \in (0, 1)$。
+假定在系统空闲（$B = 0$）的条件下，通道 1 与通道 2 的本地硬件死时间相互独立，各自的条件接收几率分别为：
+$$p_1 \equiv \Pr(X_1 = 1 \mid B = 0) > 0, \quad p_2 \equiv \Pr(X_2 = 1 \mid B = 0) > 0.$$
+在系统处于公模忙（$B = 1$）时，两通道同时被硬件禁止：$X_1 = X_2 = 0$。
+
+对瞬发符合（$\Delta t = 0$），两通道的单道边缘活时间分别为：
+\begin{align}
+L_1 &= \mathbb{E}[X_1] = (1 - f_{\mathrm{busy}}) p_1, \label{eq:appE-l1} \\
+L_2 &= \mathbb{E}[X_2] = (1 - f_{\mathrm{busy}}) p_2. \label{eq:appE-l2}
+\end{align}
+而两通道同时处于空闲状态的真实联合活时间为：
+\begin{equation}\label{eq:appE-l12-shared}
+L_{12} = \mathbb{E}[X_1 X_2] = (1 - f_{\mathrm{busy}}) p_1 p_2.
+\end{equation}
+对比单道边缘活时间的简单乘积：
+\begin{equation}\label{eq:appE-l1l2-product}
+L_1 L_2 = (1 - f_{\mathrm{busy}})^2 p_1 p_2.
+\end{equation}
+由于 $0 < f_{\mathrm{busy}} < 1$，显然有 $(1 - f_{\mathrm{busy}}) > (1 - f_{\mathrm{busy}})^2$，代入式~\eqref{eq:appE-cov-identity} 得到通道间的协方差恒严格为正：
+\begin{equation}\label{eq:appE-cov-positive}
+\mathrm{Cov}(X_1, X_2) = L_{12} - L_1 L_2 = f_{\mathrm{busy}} (1 - f_{\mathrm{busy}}) p_1 p_2 > 0.
+\end{equation}
+因此，在包含共享忙门控的系统中，真实联合活时间严格大于独立单道乘积（$L_{12} > L_1 L_2$）。若在实验分析中机械套用 $L_{12} \approx L_1 L_2$，将系统性低估多重符合事件的接收几率，从而造成反演跃迁几率时产生虚假的人为高估。
+
+\section{算法教学参考伪代码实现}\label{sec:appE-pseudocode}
+
+为了使上述物理模型在数值计算中具备完全透明的可重现性，本节给出滤波成形与定时插值的教学参考算法规范。
+
+\begin{algorithm}[!htbp]
+\caption{数字梯形滤波与极零相消流水线定点参考算法}\label{alg:appE-trapezoid}
+\begin{algorithmic}[1]
+\Require 原始 ADC 离散采样数组 $v[0 \dots N-1]$；滤波上升参数 $k$；平顶参数 $l$；极零常数 $M$；基线长度 $N_{\mathrm{BL}}$
+\Ensure 归一化能量输出数组 $E_{\mathrm{out}}[0 \dots N-1]$；基线修正值 $\mathrm{BL}$
+\State 初始化内部流水线变量：$p \gets 0$, $s \gets 0$
+\State 初始化环形缓冲队列：$Q_{\mathrm{diff}}$ 大小为 $k+l+1$，初始化为 0
+\State 计算前置平衡基线：$\mathrm{BL} \gets \frac{1}{N_{\mathrm{BL}}} \sum_{i=0}^{N_{\mathrm{BL}}-1} v[i]$
+\For{$n = 0 \to N-1$}
+    \State 基线动态扣除：$x \gets v[n] - \mathrm{BL}$
+    \State 计算输入延时差分：$d_k \gets x - v[\max(0, n - k)]$
+    \State 更新一阶积分：$p \gets p + d_k - d_k^{\mathrm{delay}}$ \Comment{$d_k^{\mathrm{delay}}$ 取自延迟队列 $n - k - l$}
+    \State 极零相消混合项：$r \gets p + M \cdot d_k$
+    \State 二阶累加积分：$s \gets s + r$
+    \State 归一化幅度计算：$E_{\mathrm{out}}[n] \gets \frac{s}{k (M + 1)}$ \Comment{定点实现中采用预缩放移位与饱和截断}
+    \State 更新延迟环形缓冲区指针与历史元素
+\EndFor
+\State \Return $E_{\mathrm{out}}$
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}[!htbp]
+\caption{数字恒比定时（CFD）与线性过零插值参考算法}\label{alg:appE-cfd}
+\begin{algorithmic}[1]
+\Require 采样序列 $v[0 \dots N-1]$；采样间隔 $T_s$；恒比分数 $f$；延迟周期 $D_{\mathrm{samp}}$；触发阈值 $V_{\mathrm{th}}$
+\Ensure 触发时刻列表 $\mathcal{T}_{\mathrm{CFD}} = \{t_1, t_2, \dots\}$
+\State 初始化双极性缓冲区：$C[n] \gets 0$（$\forall n$）
+\State $\mathcal{T}_{\mathrm{CFD}} \gets \emptyset$
+\For{$n = D_{\mathrm{samp}} \to N-1$}
+    \State 计算离散双极性幅值：$C[n] \gets f \cdot v[n] - v[n - D_{\mathrm{samp}}]$
+    \If{$v[n] > V_{\mathrm{th}}$ \textbf{and} $C[n-1] \le 0$ \textbf{and} $C[n] > 0$} \Comment{检测有效过零跳变}
+        \State 提取相邻采样点幅值：$y_0 \gets C[n-1]$，$y_1 \gets C[n]$
+        \State 线性亚采样插值：$\Delta t_{\mathrm{sub}} \gets T_s \cdot \frac{|y_0|}{|y_0| + y_1}$
+        \State 记录绝对时间戳：$t_{\mathrm{zc}} \gets (n - 1) T_s + \Delta t_{\mathrm{sub}}$
+        \State 将 $t_{\mathrm{zc}}$ 压入集合 $\mathcal{T}_{\mathrm{CFD}}$
+        \State 施加死时间抑制窗口，跳过紧邻的多次过零伪抖动
+    \EndIf
+\EndFor
+\State \Return $\mathcal{T}_{\mathrm{CFD}}$
+\end{algorithmic}
+\end{algorithm}
+
+\subsection{定点截断与实现声明}
+
+必须声明：算法~\ref{alg:appE-trapezoid} 与算法~\ref{alg:appE-cfd} 为用于展示算法数学逻辑与确定性行为的教育参考实现。在商业或定制的专用 FPGA 固件中，内部寄存器采用定点补码（Two's Complement）表示，并在累加器中设计了额外的保护位（Guard Bits）以防溢出，乘法运算则由 DSP48E 等专用硬核高效完成。本附录旨在确保算法物理效应与误差边界的透明性，不声称对特定闭源固件网表进行逐位硬件等价复刻。

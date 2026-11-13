@@ -1,0 +1,149 @@
+{
+  "task_id": "T26",
+  "status": "hard_findings_and_contract_partial",
+  "draft_status": "科学最终验收前仍为 draft；本报告不构成接收。",
+  "scope": "只读复核 canonical AppendixD.tex 的数学/物理硬错误及 G96 R2 十四项；非全文献复审、不处理语言排版。",
+  "canonical_snapshot": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixD.tex",
+    "sha256": "72d1b2f25433012ed1320e58d1ebf9c6a952f88539face2670cd0bb6919925a4",
+    "sha_check": "开始和结束一致；行号仅对应此内容版本，后续排版等价修订请以标签及内容定位。"
+  },
+  "contract": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G96/parent-appendix-D-return-round2.json items 1–14",
+  "findings": [
+    {
+      "id": "T26-01",
+      "type": "mathematical_boundary",
+      "severity": "hard",
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixD.tex",
+      "lines": [
+        253,
+        257,
+        263
+      ],
+      "label": "eq:appD-centrifugal-suppression",
+      "issue": "在只写约化宽度有限且缓变的条件下，固定幂次 Gamma_n ∝ E^(l+1/2) 尚不必然成立；穿透因子 P_l 的幂次成立。有限且缓变的 gamma_l² 可以趋于零，保留额外的能量依赖。",
+      "counterexample": "0<E<E_* 时令 gamma_l²(E)=g0²/[1+ln(E_*/E)]；它非负、有限且在乘法尺度上缓变，但 Gamma_n/P_l 随 E→0 趋零，Gamma_n 并非渐近于非零常数乘 E^(l+1/2)。",
+      "minimal_repair": "若要写 Gamma_n 的严格固定幂次，明确 gamma_l²(E)→gamma_0²>0；否则保留 Gamma_n=2 gamma_l²(E)P_l 和 P_l 的幂次，并把有限 gamma_l² 下的结论写成 Gamma_n→0。若声称 Gamma_n/(Gamma_n+Gamma_gamma)→0，应明确 Gamma_gamma 在阈值趋于正值或至少相对于 Gamma_n 不消失得同样快。",
+      "boundary": "原文 P_l 定义、有限 gamma_l² 下 Gamma_n→0 及固定非零极限 gamma 宽度下中子分支趋零均正确；问题不影响这些结论。"
+    },
+    {
+      "id": "T26-02",
+      "type": "contract_and_knowledge_consistency",
+      "severity": "hard",
+      "path": "knowledge/research-notes/a130-rewrite-wing-derivations-and-network-conventions-20261113.md",
+      "lines": [
+        37,
+        41,
+        45,
+        48,
+        67
+      ],
+      "issue": "R2 第13项要求同步旧两翼/弱相互作用笔记，目前指定旧两翼知识笔记仍与新 D 存在实质冲突：第37、67行排他地把真实退激归于跨资数/混壳，未容纳同资数 M3；第41行把三轴混合导致 f_nu<5 表述成确定机制；第45行将 CIB 限制的数据来源写为质量分裂；第48行把增广状态说成唯一必要实现。",
+      "evidence": "D 第88–89、120–122、200、213–218行与这些说法不一致；Cirigliano 原件 PDF 物理页4 Eq.(17) 附近使用 NN 散射长度；T25 新知识笔记已提供额外正确边界，但没有覆盖旧页。",
+      "minimal_repair": "由父任务或原负责者同步相关旧知识笔记并保留来源边界；本次仅指出，不写共享知识。",
+      "boundary": "核查了上述具名旧两翼笔记；未宣称所有旧弱衰变笔记已逐一核查。D 与该旧笔记无 C0 控制字符。"
+    }
+  ],
+  "contract_checks": [
+    {
+      "item": 1,
+      "status": "pass",
+      "locations": "D:87–89, 291–295, 309–320, 330, 338",
+      "evidence": "M3仅为矩阵元允许性，注明能级顺序与能量；重根、特例、等漏失及 Lindblad 边界均已进入。"
+    },
+    {
+      "item": 2,
+      "status": "pass",
+      "locations": "D:105–111",
+      "evidence": "btot 明确只为该跃迁光子和内转换之和，偏光子半衰期=(tau ln2)(1+alpha)/btot。仅核 D 内定义。"
+    },
+    {
+      "item": 3,
+      "status": "pass",
+      "locations": "D:120–122, 126–142",
+      "evidence": "删除普适区间与单一三轴诊断；两端相干叠加与竞争机制有说明。"
+    },
+    {
+      "item": 4,
+      "status": "pass",
+      "locations": "D:127–142",
+      "evidence": "双投影、N核与f†Nf、Wigner–Eckart相位调用完整；Haar标签不再误称范数。"
+    },
+    {
+      "item": 5,
+      "status": "pass",
+      "locations": "D:162–178",
+      "evidence": "宇称翻转非充分、角动量三角、结构示意及自然单位制均注明。"
+    },
+    {
+      "item": 6,
+      "status": "pass",
+      "locations": "D:182",
+      "evidence": "N=126陈述限定Zhi模型和Z≥70计算集，没有旧轨道对。"
+    },
+    {
+      "item": 7,
+      "status": "pass",
+      "locations": "D:186–204",
+      "evidence": "剥除弱流、轻子和Majorana质量因子；CIB输入为NN散射且C1+C2不能无附加假设唯一给C1。原件PDF4式(16)–(17)附近已核。"
+    },
+    {
+      "item": 8,
+      "status": "pass",
+      "locations": "D:211–218",
+      "evidence": "非相干与分支假设独立于时间尺度分离；增广、质量标签及生成函数为等价选项。"
+    },
+    {
+      "item": 9,
+      "status": "pass",
+      "locations": "D:222–243",
+      "evidence": "最终全吸收才归一为1；有限窗保留未吸收量。"
+    },
+    {
+      "item": 10,
+      "status": "partial",
+      "locations": "D:249–257",
+      "evidence": "中性R矩阵穿透因子和P_l阈值幂次正确，但仅称有限缓变不足以严格得出Gamma_n同一非零常数幂律，见T26-01。"
+    },
+    {
+      "item": 11,
+      "status": "pass_with_boundary",
+      "locations": "D:258–263",
+      "evidence": "无固定数值分支，有限能量需检验Gamma_n远小于Gamma_gamma；严格阈值比值应将“保持非零”明确为正的非零极限或其他足够的相对量条件。"
+    },
+    {
+      "item": 12,
+      "status": "pass",
+      "locations": "D:31–44, 87",
+      "evidence": "最低权重非实际基态；(n-v)/2为对数；M1使用J/hbar。"
+    },
+    {
+      "item": 13,
+      "status": "fail",
+      "locations": "knowledge/research-notes/a130-rewrite-wing-derivations-and-network-conventions-20261113.md:37,41,45,48,67",
+      "evidence": "旧笔记同步存在可复现冲突，见T26-02；只核已知旧两翼页及C0，未完成所有旧弱笔记逐页审计。"
+    },
+    {
+      "item": 14,
+      "status": "pass",
+      "locations": "D:178–182",
+      "evidence": "未极化、末态磁子态未观测、轻子角积分的能谱中不同核总秩分块相加，同秩允许干涉；Zhi原件PDF2–3 Eq.(6)–(8)。"
+    }
+  ],
+  "controls": {
+    "source_files": [
+      "knowledge/sources/book-jain-nuclear-isomers.md",
+      "knowledge/sources/doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives.md",
+      "knowledge/sources/cirigliano-2018-leading-short-range-double-beta.md"
+    ],
+    "primary_checked": "Cirigliano 2018 arXiv local PDF physical page 4; prior parent reports explicitly replayed Jain and Zhi original pages",
+    "mathematics": "Python stdlib exact rational discriminant and singular steady residual; constructed slowly varying finite reduced-width counterexample. T23/T24 existing outputs used as previously replayed finite controls, not as experimental observations.",
+    "C0": "canonical D and named old wing note have no ASCII C0 control characters except normal tab/newline/carriage return."
+  },
+  "limitations": [
+    "14 items refer specifically to G96 R2 return, not the separate original AppendixD contract checklist.",
+    "No independent new experiment or complete literature audit; no claim all mathematics of every appendix checked.",
+    "Parent may be editing canonical; the finding is bound to content hash, not an unconditional claim about later revisions."
+  ],
+  "write_scope": "only B/T26/report.json; canonical and shared notes untouched"
+}

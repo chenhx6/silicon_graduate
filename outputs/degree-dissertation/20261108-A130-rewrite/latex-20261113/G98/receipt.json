@@ -1,0 +1,154 @@
+{
+  "worker": "G98",
+  "role": "Gemini Tiered/high executor",
+  "section_id": "5.8",
+  "title": "DSAM与RDDS的时间信息",
+  "recorded_at": "2026-11-14T03:35:00+08:00",
+  "task_status": "section_5_8_round2_canonical_delivered_ready_for_parent_review",
+  "parent_audit_reference": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T18/report.json",
+  "knowledge_note_reference": "knowledge/research-notes/a130-rewrite-lifetime-response-conditions-20261114.md",
+  "artifacts_manifest": {
+    "canonical_tex": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-8.tex",
+      "sha256": "3a6a5986372fc4996930851a788c2dceaa99c0bc90646d0fe8c144662a6c7c25"
+    },
+    "staging_tex": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G98/staging/sec-5-8.tex",
+      "sha256": "3a6a5986372fc4996930851a788c2dceaa99c0bc90646d0fe8c144662a6c7c25"
+    },
+    "canonical_ledger": {
+      "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-8.json",
+      "sha256": "00bbc61c10c8e4da4a68b8cc992f8c39834460a6efa27f4700c205c6bf69133e"
+    },
+    "research_note": {
+      "path": "knowledge/research-notes/a130-rewrite-lifetime-response-conditions-20261114.md",
+      "sha256": "f94e3087864ef1174a79ff50adfabcf7d1f4c26c829edadbb16a8c463ce27ceb"
+    },
+    "figure_script": {
+      "path": "system/scripts/a130_lifetime_response_figure.py",
+      "sha256": "19e318015b984c84de5629002a6f3fc20568fcdfc2ee3729f5dbce77b5c73b9b"
+    },
+    "figure_pdf": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/lifetime-response-rdds-dsam.pdf",
+      "sha256": "7fcc2889c1d6c2a1f9f383f6f0d39bd32ee13f95e423f0c10280738da03c7087"
+    },
+    "figure_svg": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/lifetime-response-rdds-dsam.svg",
+      "sha256": "36cb92c98028b1b80ffb283676bd811260fe4109f9cba43018bfb93612fc745e"
+    },
+    "convergence_test_output": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G98/dsam_convergence_test.json",
+      "sha256": "39f92e9bf80fee4a2393f66fce11a44fae6817e9b32312c2edcf7d163bf97639"
+    },
+    "new_references_bib": {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G98/new-references.bib",
+      "sha256": "6d183f314735f4c671a0a1d2d2a97b865f197a43ef1d4c318de6b3beb3533ac9"
+    }
+  },
+  "t18_audit_reconciliation": [
+    {
+      "id": "F01",
+      "topic": "直接移位馈入门条件与时间物理含义澄清",
+      "status": "fully-corrected",
+      "locator": "Dewald 2012 PDF p.40 Eqs.(30)-(34); Tex Sec.5.8.2",
+      "verification_details": "彻底纠正'直接 B_s 门使得目标态离靶时已直接布居'的错误叙述。明确 B_s 门筛选出的是馈入跃迁 B 在反冲核脱离靶后、到达阻止介质前于飞行区间发射的子集（发射时间 t_B in [0, x/v]），上游延迟通过门条件保留；寿命估计量在此门选子集内反映该条件下的时间微分演化。"
+    },
+    {
+      "id": "F02",
+      "topic": "单谱累计发射数守恒与馈入扣除规范",
+      "status": "fully-corrected",
+      "locator": "Dewald 2012 PDF p.38 Eqs.(19)-(21); Tex Eq.(5.8.6)-(5.8.8)",
+      "verification_details": "证明在与距离无关的完整事件曝光归一化下，累计发射数守恒 S_i(t) + U_i(t) = const 蕴含 dS_i/dt = -dU_i/dt，该微分对称性在存在级联馈入时依然成立。寿命方程分母可通过正负导数代换，但分子中必须严格保留上方已知能级的累计馈入扣除项 sum_k b_ki U_k(x)。条件化阐明理想模型与实际测量对馈入偏差方向的影响。"
+    },
+    {
+      "id": "F03",
+      "topic": "直接门选分母导数符号与间接门修正因子 alpha(x) 补全",
+      "status": "fully-corrected",
+      "locator": "Dewald 2012 PDF p.40 Eqs.(30)-(34); Tex Eq.(5.8.9)-(5.8.11)",
+      "verification_details": "阐明门选总产额 I_gate(x) = {B_s, A_s} + {B_s, A_u} 随距离呈非减演化，在其导数非零区间内 dI_gate/dx >= 0，因此 d{B_s, A_s}/dx != -d{B_s, A_u}/dx 一般不可相互替换，分母必须对飞行符合峰 {B_s, A_s} 求导，严禁使用负静止峰导数；严禁将逐距离自归一化比例直接微分。补全间接门选公式及相对归一化因子 alpha(x) 的严格定义式并要求检验其距离稳定性，修正为三项数据边界。"
+    },
+    {
+      "id": "F04",
+      "topic": "本征时间与实验室时间区分及低速非相对论声明",
+      "status": "fully-corrected",
+      "locator": "Dewald 2012 PDF p.4 Sec.2; Tex Eq.(5.8.3)-(5.8.4)",
+      "verification_details": "明确 tau 为原子核自身静止系中的本征平均寿命。实验室时间下的衰变概率密度表达为 w(t) = exp[-s(t)/tau] / [gamma(t) tau]，其中 s(t) = int dt'/gamma 为本征时间积分。在 beta ~ 1%-3% 低速近似下明确声明 gamma(t) approx 1 与 t approx x/v 属于忽略 O(beta^2) ~ 1e-4 的良好近似，消除相对论精确公式与实验室经验式的无声明混用。"
+    },
+    {
+      "id": "F05",
+      "topic": "DSAM 连续多普勒前向卷积模型、解析质心与网格收敛验证",
+      "status": "fully-corrected",
+      "locator": "Dewald 2012 PDF p.4; a130_lifetime_response_figure.py; Tex Eq.(5.8.14)",
+      "verification_details": "给出 DSAM 实验室多普勒线形前向卷积积分标准式 Y(E) = C int dz p(z) int dt w(t,z) epsilon(t,z) R(E | E_obs, z)。推导线性减速模型下的理论质心位移解析式 D[1 - (tau/T)(1 - exp(-T/tau))]。在绘图脚本中实现基于指数 CDF 差值的解析 bin 概率积分与同网格高斯卷积，网格步长减半（h=0.05, 0.025, 0.0125 keV）验证了质心与 L1 范数的一阶线性收敛，数值全能量域积分严格保持 1.0000 守恒（偏差 < 1e-8，无需强行整体归一化）。"
+    },
+    {
+      "id": "F06",
+      "topic": "F(tau) 质心模型 90 度失效界限与吴治华原件定位更正",
+      "status": "fully-corrected",
+      "locator": "吴治华 2006 第 15 章 §15.2（印刷 pp.430-443 / PDF pp.438-451，DSAM 讨论自印刷第 439 页 / PDF 第 447 页起）",
+      "verification_details": "更正吴治华《原子核物理实验方法》定位符为第 15 章 §15.2（DSAM 自印刷第 439 页起），纠正原台账引述第 10 章的错误。明确质心频移因子 F(tau) 在 90 度附近因分母为零失效，说明多角度全谱形拟合的优越性。"
+    },
+    {
+      "id": "F07",
+      "topic": "阻止本领非相对论连续减速运动方程纠错",
+      "status": "fully-corrected",
+      "locator": "Wu 2006 p.430-443; Tex Eq.(5.8.12)-(5.8.13); section-5-8.json",
+      "verification_details": "通过链式法则严格推导非相对论减速动力学方程 dv/dt = -S(v)/M。将证据台账中此前错误记录的 -S/(Mv) 彻底更正为严格方程 dv/dt = -S/M，并在正文与台账中保持完全一致。"
+    },
+    {
+      "id": "F08",
+      "topic": "图注与绘图脚本线型规范及普适阈值断言删除",
+      "status": "fully-corrected",
+      "locator": "Tex Fig.5.8 caption & Sec.5.8.4; a130_lifetime_response_figure.py",
+      "verification_details": "统一正文图 5.8 题注与绘图脚本线型：说明 Ru(x) 为实线(tau=2ps)、虚线(5ps)、点划线(15ps)，Rs(x) 统一为点线；图注注明 v approx 6.0 um/ps (beta approx 0.02) 对应近似关系。彻底删除无原件支撑的普适 0.05-2 ps、0.1-2 tau_stop 及 10-15% 阻止本领阈值断言，代之以减速时间与寿命比值的物理分析；阐明 RDDS 避免厚衬底微观慢化谱形强依赖但仍有有限靶箔修正。"
+    }
+  ],
+  "convergence_validation_summary": {
+    "analytical_benchmark_formula": "D * [1 - (tau/T) * (1 - exp(-T/tau))]",
+    "parameters": {
+      "D_keV": 20.0,
+      "T_ps": 0.8,
+      "sigma_keV": 1.2,
+      "E0_keV": 1000.0
+    },
+    "tau_0.1_ps": {
+      "exact_shift_keV": 17.500839,
+      "h05_err_keV": 0.0249,
+      "h025_err_keV": 0.0125,
+      "h0125_err_keV": 0.0062,
+      "area": 0.999999998,
+      "L1_convergence_ratio": 1.995
+    },
+    "tau_0.8_ps": {
+      "exact_shift_keV": 7.357589,
+      "h05_err_keV": 0.0158,
+      "h025_err_keV": 0.0079,
+      "h0125_err_keV": 0.0039,
+      "area": 0.999999999,
+      "L1_convergence_ratio": 2.006
+    },
+    "tau_5.0_ps": {
+      "exact_shift_keV": 1.517974,
+      "h05_err_keV": 0.0037,
+      "h025_err_keV": 0.0018,
+      "h0125_err_keV": 0.0009,
+      "area": 1.0,
+      "L1_convergence_ratio": 2.343
+    }
+  },
+  "prohibitions_respected": [
+    "未改动 Dewald 2012 canonical source (knowledge/sources/dewald-2012-ddcm-recoil-distance.md，父锁只读)",
+    "未改动公共主工程 Thesis.tex 或公共 Biblio/ref.bib（新条目放入独占 new-references.bib）",
+    "未改动已接受正文及其他章节",
+    "未执行 git add, commit, tag 或 push 操作",
+    "未执行 LaTeX 整体编译",
+    "未派发其他 agent 或发送网络邮件",
+    "未编造任何未发表或无原件支持的实验数值"
+  ],
+  "runtime_model_metadata": {
+    "executor_agent": "G98",
+    "model_tier": "Gemini 3.8 Flash Tiered/high",
+    "runtime_environment": "Docker container /workspace/wiki",
+    "status": "section_5_8_round2_completed-ready-for-parent-review"
+  }
+}

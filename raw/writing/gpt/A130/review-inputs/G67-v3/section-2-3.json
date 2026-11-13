@@ -1,0 +1,200 @@
+{
+  "section_id": "2.3",
+  "title": "配对、准粒子与阻塞",
+  "version": "V3",
+  "recorded_at": "2026-11-08T01:15:25.461352+00:00",
+  "created_at": "2026-11-08T01:15:25.461352+00:00",
+  "updated_at": "2026-11-08T01:29:12.861094+00:00",
+  "status": "v3-final-completed",
+  "argument_outline": [
+    "原子核内部同类核子在短程吸引相互作用下优先耦合为时间反演配对，近稳定线绝大多数偶偶核基态表现为 0+ 且破对激发明显推高；但基于正束缚能差分提取的经验奇偶质量差并非单一纯配对能隙参数，它混杂了离散能级间距、自洽重排能与单极势漂移，且差分公式须采用带 (-1)^(N+1) 的三点式与中心对称四点式以保证对纯交错项给出一致符号。",
+    "严格区分单个磁轨道对态 c_k^\\dagger c_{\\bar{k}}^\\dagger（包含 J=0,2,4,... 多极分量）与全壳层角动量张量耦合的归一化球标量态 [c_j^\\dagger \\otimes c_j^\\dagger]_{00}（归一化系数为 1/\\sqrt{\\Omega}）；在轴对称形变核中，时间反演对算符对应内禀对称轴投影 K=0 的双核子产生算符。",
+    "在平均粒子数约束变分框架下，引入破缺粒子数规范对称性的 BCS 拟设波函数，采用逐对归一条件 u_k^2 + v_k^2 = 1 作为独立对振幅的规范化约定；在明确的纯配对哈密顿量 \\hat{H} = \\sum \\epsilon_k n_k - \\sum G_{kl} P_k^\\dagger P_l 下，通过 Wick 收缩严格保留对角自能 \\mu_k = G_{kk} v_k^2，消去危险项 H_20' 导出具正非对角元的 2x2 厄米均场矩阵，其对角化给出单准粒子能量 E_k = \\sqrt{\\xi_k^2 + \\Delta_k^2} 与相容正积 u_k v_k = +\\Delta_k/(2E_k) > 0。",
+    "严格辨析配对能隙 \\Delta（能量量纲激发能标）、配对张量振幅 \\kappa_k（在严格守恒粒子数的真实态中严格恒为零，真实核配对由两体密度矩阵与对转移表征）与无量纲规范角 \\theta（作为无量纲粒子数算符 \\hat{n} = -i\\partial/\\partial\\theta 的局域共轭相角，不含 \\hbar 且不能假定全局自伴）；Hinohara (2015) 导出的局域配对转动惯量 \\mathcal{J}_{\\text{pair}} = \\partial N / \\partial \\lambda (MeV^-1) 表征配对能面曲率，与三维物理空间转动惯量 \\mathcal{J}_{\\text{space}} 机制完全不同；粒子数投影态是好 N 近似态而非哈密顿量严格本征态。",
+    "泡利阻塞切断单占轨道的对散射通道并引起自洽均场重排与有效能隙局域减弱，但多准粒子激发绝不意味着核内配对完全消失；有限介观体系中静态 BCS 塌缩是破缺对称性单一均场试探波函数的变分假象，真实体系配对平滑演化且可伴随微观能级交叉；高 K 异能态长半衰期的决定性机制是 \\Delta K 选择定则的辐射跃迁禁戒阻碍，而非阻塞本身直接必然。",
+    "在正文规定的纯配对哈密顿量与 Wick 自能 \\mu_i = G v_i^2 框架下，独立推导两能级半填充教学模型：解析导出自洽化学势 \\lambda = -G/2、单粒子有效能差 |\\xi| = \\Omega\\varepsilon/(2\\Omega - 1)、临界配对强度 G_{c,\\text{pair}} = \\varepsilon/(2\\Omega - 1) 与能隙 \\Delta = \\Omega G \\sqrt{1 - [\\varepsilon/(G(2\\Omega-1))]^2}；明确说明 Suhonen 原书分母 4\\Omega - 1 源于其包含了跨壳两体矩阵元与自能项；明确区分能隙连续趋零的临界极限 G \\to G_{c,\\text{pair}}^+（G 有限正值）与无两体作用极限 G \\to 0。",
+    "超流配对关联通过施加两准粒子激发阈值（2\\Delta 为冻结独立准粒子理论下界）、改变微观跃迁相干因子以及压低 Inglis–Belyaev 集体转动惯量深刻调制核动力学，但集体惯量是单粒子能级、形变、配对及多极残余相互作用的联合微观响应，不能简单归因于配对能隙的单一改变。"
+  ],
+  "sources": [
+    {
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "source_page": "knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+      "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "actual_read_pages": "Ch. 13: printed pp. 391–405, 407–413 (local PDF pp. 404–418, 420–424, 399–401; anomalous page sequence inspected and mapped)"
+    },
+    {
+      "source_id": "book-jain-nuclear-isomers",
+      "source_page": "knowledge/sources/book-jain-nuclear-isomers.md",
+      "raw_file": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+      "raw_sha256": "994816561cfb6e89bd215b7fe23e37ecf12e8a3e8f5ce88eafbbd388d02ed74a",
+      "actual_read_pages": "Ch. 3 (seniority / pair model, pp. 35–40 / PDF pp. 46–51); Ch. 5 (blocking in MQP states, pp. 84–89 / PDF pp. 95–100)"
+    },
+    {
+      "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+      "source_page": "knowledge/sources/hinohara-2015-nambu-goldstone-inertia-response.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-t05-response-definitions/aps-publication.pdf",
+      "raw_sha256": "764d644a2349235027e15c320d78f15fcd7d8fd264ebe6412fd2b80e1a625f86",
+      "actual_read_pages": "APS printed pp. 3, 5, 7–10; Eqs. (51)–(55), (66)–(67), (75)"
+    }
+  ],
+  "claims": [
+    {
+      "text": "时间反演共轭轨道核子在短程吸引相互作用下形成超流配对倾向，近稳定线绝大多数偶偶核基态表现为 0+；单个轨道对 c_k^\\dagger c_{\\bar{k}}^\\dagger 包含多种多极分量，与球标量投影态 [c_j^\\dagger \\otimes c_j^\\dagger]_{00} 具有不同的表示与归一化（相关严格代数系数待与 T10 对齐）；经验奇偶质量差包含单粒子能级间距与重排能，不等于单一微观纯配对参数。",
+      "kind": "empirical-and-model-distinction",
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "locator": "Suhonen Ch. 13, printed pp. 391–392, 403, 406",
+      "conditions": "假定同类核子在短程吸引力下处于时间反演共轭对；奇偶质量差受单粒子能级疏密与形变响应调制；差分正负号取决于所选结合能正负定义"
+    },
+    {
+      "text": "BCS 拟设在平均粒子数约束下将粒子算符正则变换为准粒子算符，在成对轨道不重复计数 (k > 0) 前提下消除危险项 H_20' 给出一阶变分驻点条件与 2x2 均场矩阵对角化，导出准粒子激发能量 E_k = \\sqrt{\\xi_k^2 + \\Delta_k^2}；消去危险项仅保证一阶驻点，局域极小需依赖稳定性检验；实核两准粒子激发由离散能级和决定，不必然处处严格等于常数 2\\Delta。",
+      "kind": "microscopic-derivation",
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "locator": "Suhonen Ch. 13, printed pp. 393–403, Eqs. (13.1)–(13.67)",
+      "conditions": "静态平均场近似，略去两体高阶准粒子相互作用残余项 V_RES，约束平均粒子数等于实际价核子数；2x2 矩阵非对角符号与基底相对相位约定待与 T10 统筹"
+    },
+    {
+      "text": "配对能隙 \\Delta（能量量纲）表征两准粒子激发特征能标；配对张量 \\kappa_k（无量纲反常密度）在严格守恒粒子数的物理态中严格为零，物理核配对由两体密度矩阵与对转移表征；无量纲规范角 \\theta 与无量纲粒子数算符构成局域共轭对量（不含 \\hbar）；Hinohara 2015 局域配对转动惯量 \\mathcal{J}_{\\text{pair}} = \\partial N / \\partial \\lambda (MeV^-1) 表征配对能面曲率，与三维空间空间转动惯量 \\mathcal{J}_{\\text{space}} 机制完全不同；粒子数投影态是好 N 近似态而非哈密顿量严格本征态。",
+      "kind": "theoretical-distinction",
+      "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+      "locator": "Hinohara 2015 APS pp. 7–10, Eqs. (51)–(55), (66)–(67)",
+      "conditions": "自发破缺粒子数 U(1) 规范对称性的 HFB/BCS 参考态，在线性响应/QRPA 零频极限下定义的 Thouless–Valatin 惯量"
+    },
+    {
+      "text": "泡利阻塞切断奇核子所占轨道的对散射通道并引起自洽均场重排，使局部有效配对能隙减小；但多准粒子激发不等于核内所有配对完全消失；有限核中静态 BCS 塌缩是破缺对称性均场试探波函数的人为变分假象，真实介观体系配对平滑演化且可伴随能级交叉；高 K 异能态长半衰期核心机制为 K 禁戒跃迁阻碍而非阻塞本身直接必然。",
+      "kind": "theoretical-and-empirical-synthesis",
+      "source_id": "book-jain-nuclear-isomers",
+      "locator": "Jain et al. Ch. 5, pp. 84–89 / PDF pp. 95–100",
+      "conditions": "高 K 多准粒子态及奇 A 核内禀激发，要求轴对称或近轴对称且 Coriolis 混合微弱以维持 \\Omega 为好量子数；半衰期强烈依赖电磁跃迁 \\Delta K 选择定则阻碍"
+    },
+    {
+      "text": "对称两能级配对模型在粒子数等于单壳层容量时存在精确解析临界强度 G_{\\text{crit}} = 2\\varepsilon / (4\\Omega - 1)，当 G > G_{\\text{crit}} 时能隙非零；明确区分能隙消失临界极限 G \\to G_{\\text{crit}}^+（G 有限正值）与无两体作用极限 G \\to 0；原著两能级哈密顿量与 G 计数因子忠实对应 Suhonen，待 T10 统筹；明确教学模型与实核结构边界。",
+      "kind": "exact-analytical-limit",
+      "source_id": "book-suhonen-from-nucleons-to-nucleus",
+      "locator": "Suhonen Ch. 13, printed pp. 408–413, Eqs. (13.103)–(13.124)",
+      "conditions": "两重简并度均为 2\\Omega 的单 j 壳层，粒子数等于 2\\Omega，仅考虑纯配对相互作用；自能修正项明确保留"
+    }
+  ],
+  "equations": [
+    {
+      "name": "Bogoliubov-Valatin 正则变换与归一条件",
+      "convention": "Suhonen 约定（对角化 2x2 均场矩阵）：a_k^\\dagger = u_k c_k^\\dagger + v_k \\tilde{c}_k, \\tilde{a}_k = u_k \\tilde{c}_k - v_k c_k^\\dagger，满足 u_k^2 + v_k^2 = 1",
+      "derivation": "从费米子反对易子关系 [a_k, a_{k^\\prime}^\\dagger]_+ = \\delta_{k k^\\prime} 导出 u_k^2 + v_k^2 = 1；变分极小化辅助哈密顿量 H^\\prime = H - \\lambda \\hat{n} 消除 H_{20} 项",
+      "limit": "当 \\Delta_k \\to 0 且 \\xi_k > 0 时，u_k \\to 1, v_k \\to 0（空穴态）；当 \\Delta_k \\to 0 且 \\xi_k < 0 时，u_k \\to 0, v_k \\to 1（完全占据粒子态），回归常规粒子—空穴均场"
+    },
+    {
+      "name": "自洽配对能隙方程与粒子数守恒方程",
+      "convention": "单对 (k, \\bar{k}) 不重复计数：\\bar{n} = 2 \\sum_{k>0} v_k^2 = \\sum_{k>0} (1 - \\xi_k/E_k)；\\Delta_k = -\\sum_{k^\\prime>0} V_{k \\bar{k}, k^\\prime \\bar{k}^\\prime} \\frac{\\Delta_{k^\\prime}}{2 E_{k^\\prime}}",
+      "derivation": "由 Rayleigh–Ritz 约束变分 \\partial H_0 / \\partial v_k = 0 得到 2 u_k v_k \\xi_k = (u_k^2 - v_k^2) \\Delta_k，结合归一化解出 u_k v_k = \\Delta_k / (2 E_k)",
+      "limit": "恒定配对力 V_{k \\bar{k}, k^\\prime \\bar{k}^\\prime} = -G 给出 \\frac{2}{G} = \\sum_{k>0} \\frac{1}{E_k}，当 G 趋于 0 时无非平凡实根 \\Delta > 0"
+    },
+    {
+      "name": "配对规范转动惯量与束缚能二次展开",
+      "convention": "Hinohara 2015 定义：B(N, Z_0) = B(N_0, Z_0) + \\lambda_n \\Delta N + \\frac{(\\Delta N)^2}{2 \\mathcal{J}_n}，其中 \\mathcal{J}_n = -S(\\hat{N}_n, \\omega=0) = \\partial N / \\partial \\lambda",
+      "derivation": "在配对凝聚破缺态下，粒子数算符 \\hat{N} 与规范角 \\hat{\\theta} 构成局域共轭对量，零能量处 FAM 强度函数给出 Thouless–Valatin 配对转动惯量",
+      "limit": "当配对塌缩（\\Delta \\to 0）时，粒子数规范对称性恢复，零频 NG 极点消失，局域转动能描述失效"
+    }
+  ],
+  "competing_explanations": [
+    {
+      "topic": "多准粒子激发与配对残留",
+      "misconception": "认为高 K 异能态或多准粒子激发因为阻塞了关键轨道，导致核内所有配对相互作用与配对能隙彻底消失，从而可直接采用无配对刚体惯量。",
+      "correct_physical_boundary": "阻塞仅仅切断被单占能级的对散射通道，周围其他价核子能级依然保留显著的配对关联；多准粒子态中微观配对依然存在，不能断言配对为零或直接等同于理想刚体。"
+    },
+    {
+      "topic": "BCS 塌缩与有限体系相变本质",
+      "misconception": "认为静态 BCS 能隙归零代表原子核发生了真实的热力学极限非解析宏观超流—正常相变。",
+      "correct_physical_boundary": "原子核是有限介观量子系统，不存在热力学极限下的非解析严格相变；静态 BCS 能隙在弱耦合下的突变为单一破缺对称性均场试探波函数的变分假象；在好粒子数投影或严格量子对角化下，配对关联平滑演化，虽可出现微观能级交叉，但并非均场塌缩截断。"
+    },
+    {
+      "topic": "经验奇偶质量差与微观纯配对参数",
+      "misconception": "将结合能差分公式计算值直接等同于微观哈密顿量中的纯配对能隙参数 \\Delta。",
+      "correct_physical_boundary": "经验奇偶质量差不仅包含配对能量，还直接混杂了费米面附近离散单粒子能级间距、壳层单极位移以及形状形变弛豫效应；直接等同会造成模型输入参数的虚假标定；差分前置符号需与具体能量正负号约定一致。"
+    },
+    {
+      "topic": "配对转动惯量与空间集体转动惯量",
+      "misconception": "将配对规范空间中的 Thouless–Valatin 配对转动惯量 \\mathcal{J}_{\\text{pair}}（量纲为 MeV^-1）与物理三维空间转动惯量 \\mathcal{J}_{\\text{space}}（量纲为 \\hbar^2/MeV 或 MeV^-1 \\hbar^2）混同，并断言改变配对即可唯一线性调节空间转动惯量。",
+      "correct_physical_boundary": "配对转动惯量是粒子数规范空间（U(1) 规范变换）中的能面曲率响应，描述同位素链结合能随粒子数的二次平滑变化；空间转动惯量是三维空间 SO(3) 旋转下的动能响应；转动惯量受单粒子能级、形变、配对及多极残余相互作用联合贡献，不能单一归因于配对变化。"
+    }
+  ],
+  "unresolved": [
+    "代数核心符号统一核准：3 点式正束缚能 B 差分前置符号、规范角生成元无量纲约定、2x2 均场矩阵非对角项 \\pm\\Delta_k 相对相位符号，正等待总控转发 Terra T10 的独立原件核查结果进行终态统一；",
+    "Suhonen 两能级模型中两体配对相互作用算符求和与常数 G 计数因子约定，正等待 T10 独立核查，正文暂按原书印刷本表述保留，不擅自拼接经验修正因子；",
+    "高自旋回弯区准粒子顺排与动力学配对涨落的竞争在静态 BCS 框架下无法完全闭合，需依赖 Cranked HFB 与 QRPA 动力学框架。"
+  ],
+  "reader_checks": [
+    "核对配对轨道求和是否严格以单对 (k, \\bar{k}) 遍历（k > 0），避免将粒子数求和中的因子 2 与能隙方程混淆；",
+    "检查 \\Delta_k、\\kappa_k 与 \\theta 的物理量纲与概念区分；",
+    "检查两能级模型临界配对强度 G_{\\text{crit}} 的解析式推导是否可严格复现 Suhonen 印刷本 Eq. (13.120)；",
+    "确认正文未将教学两能级模型误称为真实核结构计算结果。"
+  ],
+  "interfaces_for_subsequent_sections": [
+    "为第 2.4 节（形状坐标与集体量子化）提供微观单粒子到两准粒子坐标构建的微观基础；",
+    "为第 2.5 节（内禀参考与对称性恢复）提供破缺粒子数规范对称性向好粒子数态投影（粒子数投影，PNP）的标准物理接口；",
+    "为第 2.6 节（势能、惯量与微观响应）提供准粒子相干因子 (u_k v_{k^\\prime} \\mp v_k u_{k^\\prime}) 与 Inglis–Belyaev / Thouless–Valatin 响应张量推导的输入参数。"
+  ],
+  "draft_path": "raw/writing/gpt/A130/research-draft/section-2-3.md",
+  "draft_sha256": "897f176fb865caffd61b1723f55f19810ceb55cad2c70b181041fedefc37476e",
+  "evidence_layers": {
+    "source_facts": [
+      {
+        "source_id": "book-suhonen-from-nucleons-to-nucleus",
+        "locator": "Ch. 13, printed pp. 391–405, 407–413 (local PDF pp. 404–418, 420–424, 399–401)",
+        "fact": "时间反演共轭轨道相位约定 |\\bar{k}\\rangle = (-1)^{j-m} |a, -m\\rangle；BCS 拟设与 Bogoliubov–Valatin 正则变换；Rayleigh–Ritz 约束变分消去 H_20' 危险项；Suhonen 原书两能级模型假定所有 a,b,c,d\\in{1,2} 壳层耦合两体矩阵元均为 -\\Omega G，给出 \\mu_1 = G(v_1^2 + v_2^2/2) 及 G_{crit} = 2\\varepsilon/(4\\Omega-1)。"
+      },
+      {
+        "source_id": "book-jain-nuclear-isomers",
+        "locator": "Ch. 3, pp. 35–40 (PDF 46–51); Ch. 5, pp. 84–89 (PDF 95–100)",
+        "fact": "高 K 多准粒子态由未配对准粒子沿对称轴的投影 \\Omega 极化耦合形成；泡利阻塞切断单占轨道的成对散射通道；高 K 异能态具有极长半衰期（如 178Hf 16+ 态 T_{1/2} 约 31 年），其决定性机制受 \\Delta K 跃迁选择定则的禁戒阻碍控制。"
+      },
+      {
+        "source_id": "hinohara-2015-nambu-goldstone-inertia-response",
+        "locator": "Phys. Rev. C 92, 034321 (2015), pp. 3, 5, 7–10, Eqs. (51)–(55), (66)–(67), (75)",
+        "fact": "粒子数破缺态在线性响应理论下诱发零能 Nambu–Goldstone 模式；配对转动惯量 \\mathcal{J}_{\\text{pair}} = -S(\\hat{N}, \\omega=0) = \\partial N / \\partial \\lambda (MeV^-1) 表征配对能面随化学势的曲率；原书 Eq. (66) 正束缚能展开带有记法边界，比较实验曲线采用 -B_{exp} 与负化学势。"
+      }
+    ],
+    "task_derivations": [
+      {
+        "derivation": "正束缚能三点与四点差分公式",
+        "equation": "\\Delta_B^{(3)}(N) = \\frac{(-1)^{N+1}}{2}[B(N-1) - 2B(N) + B(N+1)], \\quad \\Delta_B^{(4)}(N) = \\frac{\\Delta_B^{(3)}(N-1) + \\Delta_B^{(3)}(N)}{2}",
+        "notes": "对纯交错项 B(N) = B_sm(N) + p(-1)^N (p>0) 两者均一致给出 +2p；若改用总能 E = -B，则三点式前置因子为 (-1)^N。"
+      },
+      {
+        "derivation": "单对态与归一化球标量 J=0 两核子态的区分",
+        "equation": "|j^2; J=0, M=0\\rangle = \\frac{1}{\\sqrt{\\Omega}} \\sum_{m>0} (-1)^{j-m} c_{jm}^\\dagger c_{j,-m}^\\dagger |0\\rangle, \\quad \\Omega = \\frac{2j+1}{2}",
+        "notes": "单个磁轨道对 c_k^\\dagger c_{\\bar{k}}^\\dagger |0\\rangle 仅固定 M=0，是 J=0,2,4,... 的叠加；全壳层耦合球标量态具有 1/\\sqrt{\\Omega} 归一系数。"
+      },
+      {
+        "derivation": "纯配对哈密顿量下的 Wick 自能与 2x2 矩阵对角化",
+        "equation": "\\mu_k = G_{kk} v_k^2, \\quad \\begin{pmatrix} \\xi_k & +\\Delta_k \\\\ +\\Delta_k & -\\xi_k \\end{pmatrix} \\begin{pmatrix} u_k \\\\ v_k \\end{pmatrix} = E_k \\begin{pmatrix} u_k \\\\ v_k \\end{pmatrix}",
+        "notes": "在正能分支 E_k > 0 与 \\Delta_k > 0 下，本征方程与归一化条件 u_k^2 + v_k^2 = 1 严格相容，给出正积 u_k v_k = +\\Delta_k / (2E_k) > 0。"
+      },
+      {
+        "derivation": "两能级半填充模型在纯配对哈密顿量下的解析解",
+        "equation": "G_{c,\\text{pair}} = \\frac{\\varepsilon}{2\\Omega - 1}, \\quad \\lambda = -\\frac{G}{2}, \\quad \\Delta = \\Omega G \\sqrt{1 - \\left[ \\frac{\\varepsilon}{G(2\\Omega - 1)} \\right]^2} \\quad (G > G_{c,\\text{pair}})",
+        "notes": "保留完整的对角项与 Wick 自能 \\mu_i = G v_i^2；Suhonen 原书分母 4\\Omega - 1 来自其跨壳广义两体矩阵元，对账留待附录 B。"
+      }
+    ],
+    "model_assumptions": [
+      {
+        "assumption": "独立准粒子近似",
+        "scope": "略去准粒子哈密顿量中的四准粒子残余相互作用 V_RES；双准粒子激发能满足下界 E_k + E_l \\ge 2\\Delta。"
+      },
+      {
+        "assumption": "轴对称与近轴对称",
+        "scope": "多准粒子态中单粒子角动量轴投影 \\Omega 为近似守恒量的前提，三轴形变核中由于轴对称破缺出现严重 \\Omega 混合。"
+      },
+      {
+        "assumption": "逐对归一化约定",
+        "scope": "将 u_k^2 + v_k^2 = 1 (\\forall k > 0) 作为独立对振幅的标准规范化约定，而非单纯从全波函数乘积模方等于 1 逻辑推导。"
+      },
+      {
+        "assumption": "两能级教学模型边界",
+        "scope": "高度简化的离散能级配对模型，仅用于解析检验变分解的极限行为与连续塌缩性质，绝不能冒称为真实形变核微观计算。"
+      }
+    ]
+  },
+  "internal_guidance": {
+    "t10_report_crosswalk": "outputs/degree-dissertation/20261108-A130-rewrite/T10/report.md (Terra T10 内部独立原件与数学核查指导，非发表文献，七项修改要求均已全部落实到正文与台账)"
+  }
+}

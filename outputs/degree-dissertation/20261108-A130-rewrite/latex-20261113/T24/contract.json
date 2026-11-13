@@ -1,0 +1,33 @@
+{
+  "task_id": "T24",
+  "agent_id": "01a1d69f-d2fb-7700-b9b9-5bc05e534d28",
+  "model": "codex/gpt-6.1-terra",
+  "effort": "xhigh",
+  "isolation": "readonlycanonical, T24prefixonly",
+  "task": "Two additional narrow operator/observation claims exposedbyparentfullDreading, notfullreaudit.",
+  "frozen_sha256": "1c965db956321694ab52788af19ed90c1b016c614b1856034b215d10a6e1b5c7",
+  "questions": [
+    "D EqappDprojectednme claims generalRME usingonlyoneIfWignerD rotation integral, retainsMf onRHSalongwithwrongHaarmeasureasnorm. Validateexactnormalizeddouble-projectorlabmatrixplusWignerEckart substitute, usingacceptedAppendixB/A conventions. MinimalJi1->Jf0 rank1counterexample ifvalid.",
+    "D/4.7 sayFFshape coefficients contain interferencebetween different nuclearoperatorranks. CheckZhi2013Eq6/7/8forunpolarizedelectronenergyspectrumafterangleintegration: whichranksectorsaddincoherently, whichsame-rankoperatorscaninterfere? Givepreciseconditionalshortwording, notuniversalstatementforallangularobservables."
+  ],
+  "read_paths": [
+    "T24/AppendixD.frozen.tex",
+    "canonicalAppendixB/A",
+    "raw/papers/gpt/query/20261108-foundations-G34/Zhi_2013_PRC_87_025803_SM_halflives_first_forbidden.pdf"
+  ],
+  "write_paths": [
+    "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/T24"
+  ],
+  "deliverables": [
+    "report.json",
+    "correction.tex foronlytwotopics",
+    "smallvalidation.py/results.json ifuseful"
+  ],
+  "forbidden": [
+    "canonicalwrites",
+    "git",
+    "bulkbookread",
+    "newexperimentclaim",
+    "newworker"
+  ]
+}

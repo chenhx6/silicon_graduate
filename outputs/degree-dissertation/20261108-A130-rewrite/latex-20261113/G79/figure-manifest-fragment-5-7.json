@@ -1,0 +1,18 @@
+{
+  "figure_id": "fig:5-7-angular-branch",
+  "section": "5.7",
+  "type": "educational-model",
+  "description": "Educational model of DCO quadratic rational inversion, dual-root branches, and polarimetry degeneracy breaking",
+  "producer_script": "system/scripts/a130_angular_branch_figure.py",
+  "producer_sha256": "8e3f23d3ca142887436c865ff0ffb43a636b4cce2abf4e67682a9bc3efa32591",
+  "svg": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/angular-branch-delta-likelihood.svg",
+    "sha256": "9c3525d1ba2fc6adcb3eff0e1bafce4c5488dca52545e6cc9e49a6c98c539a4e",
+    "size_bytes": 86015
+  },
+  "pdf": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/angular-branch-delta-likelihood.pdf",
+    "sha256": "d1911d5cb5273546f18caa0f0a2bb00e19f4c4682d08b05ed27cda064717a266",
+    "size_bytes": 27097
+  }
+}

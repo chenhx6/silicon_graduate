@@ -1,0 +1,37 @@
+[
+  {
+    "source_id": "liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br",
+    "raw_file": "raw/papers/2016_Liu et al_Evidence for Octupole Correlations in Multiple Chiral Doublet Bands.pdf",
+    "canonical_sha256_matches": true
+  },
+  {
+    "source_id": "liu-chen-2016-78br-chirality-reflection-symmetry-thesis",
+    "raw_file": "raw/theses/degree-dissertation/刘晨_奇奇核~(78)Br中手征...间反射对称性的联立自发破缺.pdf",
+    "canonical_sha256_matches": true
+  },
+  {
+    "source_id": "xiao-2022-chirality-octupole-correlations-74as",
+    "raw_file": "raw/papers/2022_Xiao et al_Chirality and octupole correlations in As 74.pdf",
+    "canonical_sha256_matches": true
+  },
+  {
+    "source_id": "xiao-xiao-2019-high-spin-74as-thesis",
+    "raw_file": "raw/theses/degree-dissertation/肖骁_奇奇核~(74)As的高自旋态研究.pdf",
+    "canonical_sha256_matches": true
+  },
+  {
+    "source_id": "butler-nazarewicz-1996-intrinsic-reflection-asymmetry",
+    "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1996_Butler_Nazarewicz_Intrinsic reflection asymmetry in atomic nuclei.pdf",
+    "canonical_sha256_matches": true
+  },
+  {
+    "source_id": "wang-2019-rat-prm-78br-octupole-correlations",
+    "raw_file": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/wang-2019-rat-prm-78br-arxiv1902.00191v1.pdf",
+    "canonical_sha256_matches": true
+  },
+  {
+    "source_id": "book-suhonen-from-nucleons-to-nucleus",
+    "raw_file": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+    "canonical_sha256_matches": true
+  }
+]

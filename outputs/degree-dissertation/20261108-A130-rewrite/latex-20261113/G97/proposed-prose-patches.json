@@ -1,0 +1,128 @@
+{
+  "task_id": "G97",
+  "total_patches": 12,
+  "status": "proposed_for_parent_review (no canonical writes performed)",
+  "recorded_at": "2026-11-14T01:15:00Z",
+  "patches": [
+    {
+      "patch_id": "PATCH-G97-01",
+      "section_file": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-1.tex",
+      "section_id": "3.1",
+      "line_number": 3,
+      "category": "anachronistic_forward_reference_fix",
+      "rationale": "第3.1节开头引言误将后续第3.2节写成『先行考察了』，存在明显的时序倒错，应修正为承前启后的正常陈述。",
+      "before": "在第2.4节与第2.6节中，我们建立了非轴对称原子核的玻尔四极形状坐标、主轴参考系与黎曼体积元测度，并剖析了势能曲面刚度、转动惯量与微观配对响应的解耦机制；在第3.2节中，先行考察了固定惯量下刚体三轴转子绕稳定主轴的小振幅局域展开。",
+      "after": "在第2.4节与第2.6节中，我们建立了非轴对称原子核的玻尔四极形状坐标、主轴参考系与积分测度，剖析了势能曲面刚度、转动惯量与微观配对响应的解耦机制；而在后续第3.2节中，将进一步考察固定惯量下三轴转子绕主惯量轴的小振幅局域微扰展开。"
+    },
+    {
+      "patch_id": "PATCH-G97-02",
+      "section_file": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-3.tex",
+      "section_id": "3.3",
+      "line_number": 13,
+      "category": "axis_symbol_mapping_bridge",
+      "rationale": "为第3.3节局部顺排动力学指标 (1, 2, 3) 与第3.2节几何主轴 (s, m, l) 建立清晰的映射过渡句，防止读者将动力学指标 1 误解为几何中轴 1。",
+      "before": "设三轴核芯的集体转动动能由三个主轴惯量 $\\mathcal{J}_k > 0$（$k = 1, 2, 3$）决定，相应的能量量纲转动常数定义为 $A_k \\equiv \\frac{\\hbar^2}{2\\mathcal{J}_k}$。核芯哈密顿量在内禀主轴坐标系下写作：\n\\begin{equation}\\label{eq:3-3-core-H}\n\\hat{H}_{\\text{core}} = \\sum_{k=1}^3 A_k \\left( \\mathcal{I}_k - j_k \\right)^2.\n\\end{equation}",
+      "after": "设三轴核芯的集体转动动能由三个主轴惯量 $\\mathcal{J}_k > 0$（$k = 1, 2, 3$）决定，相应的能量量纲转动常数定义为 $A_k \\equiv \\frac{\\hbar^2}{2\\mathcal{J}_k}$。核芯哈密顿量在内禀主轴坐标系下写作：\n\\begin{equation}\\label{eq:3-3-core-H}\n\\hat{H}_{\\text{core}} = \\sum_{k=1}^3 A_k \\left( \\mathcal{I}_k - j_k \\right)^2.\n\\end{equation}\n需要说明的是，此处指标 $1, 2, 3$ 为局部顺排动力学坐标（分别代表价准粒子顺排轴、核芯主旋转轴与垂直横向轴）；在典型的横向摆动（TW）模型中，若核芯取无旋流惯量极大轴（第3.2节中轴 $m=1$），而粒子型价核子对准短轴（$s=2$），则局部动力学指标 $1, 2, 3$ 分别对应于几何主轴中的短轴 $s$、中轴 $m$ 与长轴 $l$。"
+    },
+    {
+      "patch_id": "PATCH-G97-03",
+      "section_file": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-8.tex",
+      "section_id": "3.8",
+      "line_number": 36,
+      "category": "slogan_removal",
+      "rationale": "剔除带有行政命令色彩的『严禁』字眼，替换为平实严谨的科学方法论陈述。",
+      "before": "(3) 因此，严谨的谱学反演必须完整报告相容的根分支及其非对称误差包络，严禁依据特定模型偏好主观筛除物理实解。",
+      "after": "(3) 因此，谱学反演应完整报告相容的根分支及其非对称误差包络，避免依据特定模型偏好主观剔除物理实根。"
+    },
+    {
+      "patch_id": "PATCH-G97-04",
+      "section_file": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-8.tex",
+      "section_id": "3.8",
+      "line_number": 129,
+      "category": "slogan_removal",
+      "rationale": "将带有口号语气的句子改写为客观中立的物理推断约束句，去除『严禁』与轻浮断言的对比修辞。",
+      "before": "严禁仅因某个质量数区间与已知变形核相近，或因文献库尚未检索到相关报道，便轻率断言其“首次确证”或“未曾发现”。原子核的多体激发动力学严格由其微观壳层结构与哈密顿量本征谱决定，不随人为的文献分类界限而改变。",
+      "after": "不能仅因某个质量数区间与已知变形核相近，或因文献暂缺，便断言新模式的『确证』或『缺失』。原子核的多体激发动力学由其微观壳层结构与哈密顿量本征态决定，模式判断应以具体实验证据与反例检验为准。"
+    },
+    {
+      "patch_id": "PATCH-G97-05",
+      "section_file": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-3.tex",
+      "section_id": "2.3",
+      "line_number": 194,
+      "category": "slogan_removal_and_smoothness",
+      "rationale": "消除同一句话中连续三次出现『严格』的严重堆砌，使定粒子数规范对称性陈述自然流畅。",
+      "before": "它表征特定轨道对在均场参考态下的凝聚振幅。必须深入理解的是：\\textbf{在严格守恒核子数 $N$ 的真实物理本征态 $|N\\rangle$ 下，由于规范对称性严格守恒，反常密度期望值严格恒等于零（$\\langle N | c_{\\bar{k}} c_k | N \\rangle \\equiv 0$）。}",
+      "after": "它表征特定轨道对在均场参考态下的凝聚振幅。需要明确指出的是：\\textbf{在粒子数守恒的物理本征态 $|N\\rangle$ 下，由于规范对称性保持，反常密度期望值恒等于零（$\\langle N | c_{\\bar{k}} c_k | N \\rangle = 0$）。}"
+    },
+    {
+      "patch_id": "PATCH-G97-06",
+      "section_file": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-5.tex",
+      "section_id": "2.5",
+      "line_number": 81,
+      "category": "slogan_removal",
+      "rationale": "减少久期方程处过于密集的『严格』用词，使其更符合数学物理叙事规范。",
+      "before": "非零解存在的充要条件是广义久期行列式为零：$\\det(H^I - E N^I) = 0$（在剔除度规严格零模并限制于度规严格正定 $N^I > 0$ 的线性独立物理子空间中使用）。\n需要强调，角动量投影严格确保了非零态矢具有确定的总自旋与磁量子数 $I, M$；但在有限试探空间中通过 Ritz 变分求得的态矢，一般并非全微观哈密顿量 $\\hat{H}$ 在全空间中的严格本征态，而是该受限投影子空间内的最佳变分近似。",
+      "after": "非零解存在的条件是广义久期行列式为零：$\\det(H^I - E N^I) = 0$（在剔除重叠度规零模并限制于度规正定 $N^I > 0$ 的线性无关物理子空间中求解）。\n需要强调，角动量投影确保了非零态矢具有确定的总自旋与磁量子数 $I, M$；但在有限试探空间中通过 Ritz 变分求得的态矢，通常是该投影子空间内的最佳变分近似，而非全空间哈密顿量的确切本征态。"
+    },
+    {
+      "patch_id": "PATCH-G97-07",
+      "section_file": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-2.tex",
+      "section_id": "3.2",
+      "line_number": 138,
+      "category": "prose_softening",
+      "rationale": "将过于绝对化的『严格为零』平实化为弹性恢复力消失的物理叙述。",
+      "before": "物理机制十分清晰：当主轴 1 与主轴 2 的惯量完全相等时，横向恢复力常数 $\\alpha - \\beta = I(A_2 - A_1) = 0$ 严格为零。此时围绕轴 1 的小振幅束缚振动失去恢复力...",
+      "after": "物理机制表明：当主轴 1 与主轴 2 的惯量相等时，横向恢复力常数 $\\alpha - \\beta = I(A_2 - A_1) = 0$ 消失。此时围绕轴 1 的小振幅束缚振动失去恢复力..."
+    },
+    {
+      "patch_id": "PATCH-G97-08",
+      "section_file": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-4.tex",
+      "section_id": "3.4",
+      "line_number": 58,
+      "category": "slogan_removal",
+      "rationale": "精简一维反射节点定理与三维有限自旋波函数弥散的叙述，去除不必要的冗余修饰词。",
+      "before": "\\item \\textbf{一维反射对称性与中心节点的严格数学条件}：在一维局域坐标 $x$ 上，若系统的有效哈密顿量在空间反射 $x \\mapsto -x$ 下保持不变（动能、势及边界条件共同保持该空间对称性），且所考察的能态在该反射下为奇宇称，则该定态波函数在其固定点（反演中心 $x=0$）必然处处为零（$\\psi(0) = 0$）。这一节点性质是由局域坐标宇称算符在固定点处作用的线性代数特性所唯一决定的，不依赖于势阱是否为理想二次简谐势。",
+      "after": "\\item \\textbf{一维反射对称性与中心节点条件}：在一维局域坐标 $x$ 上，若有效哈密顿量在空间反射 $x \\mapsto -x$ 下保持不变，且所考察的能态在该反射下为奇宇称，则定态波函数在反演中心处为零（$\\psi(0) = 0$）。这一节点性质由反射对称性本身保证，不依赖于势阱是否为理想简谐势。"
+    },
+    {
+      "patch_id": "PATCH-G97-09",
+      "section_file": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-5.tex",
+      "section_id": "3.5",
+      "line_number": 11,
+      "category": "cohesion_bridge",
+      "rationale": "在第3.5节手征几何引入处，增设从第3.4节平面倾斜（TAC/TiP）到第3.5节三维非共面手征转动的自然过渡台阶，阐明平面倾斜保持复合对称性而三维倾斜破坏该对称性的临界差异。",
+      "before": "理解核手征性的物理起点，是非轴对称变形核中的角动量耦合。在玻尔—莫特森框架下，四极形变由形变度 $\\beta$ 与三轴参数 $\\gamma$ 描述。在三轴扇区 $0^\\circ < \\gamma < 60^\\circ$ 内，核椭球三个主轴标记为短轴（short, $s$ 轴）、中间轴（intermediate, $m$ 轴）和长轴（long, $l$ 轴），其中 $\\gamma = 30^\\circ$ 对应标准扇区中点。",
+      "after": "理解核手征性的物理起点，是非轴对称变形核中角动量矢量的非共面耦合。在第\\ref{sec:3-4}节探讨的倾斜进动（TiP）中，总角动量偏离主转轴但在特定主平面内倾斜，此时时间反演与主轴旋转的复合对称性依然保持；唯有当角动量在三个主轴上同时具备非零分量时，体系才破坏所有平面反射对称性，进入手征动力学机制。在玻尔—莫特森框架下，四极形变由形变度 $\\beta$ 与三轴参数 $\\gamma$ 描述，三轴扇区 $0^\\circ < \\gamma < 60^\\circ$ 内的主轴对应为短轴 $s$、中间轴 $m$ 与长轴 $l$。"
+    },
+    {
+      "patch_id": "PATCH-G97-10",
+      "section_file": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-7.tex",
+      "section_id": "3.7",
+      "line_number": 82,
+      "category": "slogan_removal",
+      "rationale": "将小标题中的『严格代数』简化为平实的学术语言。",
+      "before": "\\item \\textbf{$\\mathcal{C}^2 = +1$ 的严格代数与非强制的二重简并}：对于整数总自旋（偶费米子数）体系，时间反演与 $\\pi$ 旋转算符均满足 $\\mathcal{T}^2 = +1$ 以及 $\\mathcal{R}_k^2(\\pi) = +1$...",
+      "after": "\\item \\textbf{$\\mathcal{C}^2 = +1$ 代数与二重简并条件}：对于整数总自旋（偶费米子数）体系，时间反演与 $\\pi$ 旋转算符均满足 $\\mathcal{T}^2 = +1$ 以及 $\\mathcal{R}_k^2(\\pi) = +1$..."
+    },
+    {
+      "patch_id": "PATCH-G97-11",
+      "section_file": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-1.tex",
+      "section_id": "2.1",
+      "line_number": 34,
+      "category": "definition_clarification",
+      "rationale": "澄清球张量自伴条件是附加的自伴随规范，而非时间反演或宇称守恒本身的必然推论，与附录 A 保持完全一致的理论口径。",
+      "before": "对于在时间反演与宇称变换下具有良好对称性的物理跃迁算符，其球分量的厄米共轭采用 Condon-Shortley 与 Rose 标准规范：\n\\begin{equation}\\label{eq:2-1-6}\n[T_q^{(k)}]^\\dagger = (-1)^q T_{-q}^{(k)} .\n\\end{equation}",
+      "after": "对满足球张量自伴条件的物理算符，其球分量满足标准的自伴随规范：\n\\begin{equation}\\label{eq:2-1-6}\n[T_q^{(k)}]^\\dagger = (-1)^q T_{-q}^{(k)} .\n\\end{equation}\n这是一项附加的厄米性规范，独立于时间反演或宇称变换。"
+    },
+    {
+      "patch_id": "PATCH-G97-12",
+      "section_file": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-2.tex",
+      "section_id": "2.2",
+      "line_number": 77,
+      "category": "slogan_removal",
+      "rationale": "去除单极项讨论中多余的『确立严格的量纲与代数对照』与『严格不等同于』等修饰词，改用精炼学术表述。",
+      "before": "为看清同轨自项并确立严格的量纲与代数对照，在固定其余轨道占据的单轨简化模型中，引入具有能量量纲（MeV）的相互作用能量常数...",
+      "after": "为辨清同轨自作用项并对照量纲与代数关系，在固定其余轨道占据的单轨模型中，引入相互作用能量常数..."
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "type": "new-draft-canonical",
   "status": "content-admitted",
   "output_tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-2.tex",
-  "output_tex_sha256": "c14bf53d6d1d7cb8983ddbb7ab5d4a56fd3af33de7ca8ca2f973f00dfe261c69",
+  "output_tex_sha256": "0ac9c3b4f72a1f98876925ce80781ae64e52f4ff5efcdf86e580d7c01cad1d2f",
   "scope_boundary": "系统阐释三轴形变转子几何主轴与坐标系映射、刚体与无旋流体转动惯量的本构机制对立、经典欧拉陀螺相空间极值与分离线、体轴无量纲角动量反常对易代数下大自旋小振幅双横向展开与纯转子摆动频率公式推导、两种轴对称极限下的频率行为与高 K 进动态界限，以及有限自旋非谐效应与多声子声子图景的破缺条件；高阶微观 CRPA 响应求和与奇 A 核非绝热粒子-核芯耦合留由 Terra 深度计算。",
   "source_inputs": [
     {
@@ -106,7 +106,15 @@
   ],
   "open_issues": [],
   "review_notes": "父实查V1文件并核验证据，吸收全部T14及父3句微调（局域近似下对易子、二次近似下频率、高K进动与局域旋转系频率范畴解耦、内禀总角动量指定构型）；状态定为 content-admitted。",
-  "target_sha256": "c14bf53d6d1d7cb8983ddbb7ab5d4a56fd3af33de7ca8ca2f973f00dfe261c69",
-  "parent_final_tex_sha256": "c14bf53d6d1d7cb8983ddbb7ab5d4a56fd3af33de7ca8ca2f973f00dfe261c69",
-  "integration_status": "included-in27-section-clean-preview"
+  "target_sha256": "0ac9c3b4f72a1f98876925ce80781ae64e52f4ff5efcdf86e580d7c01cad1d2f",
+  "parent_final_tex_sha256": "0ac9c3b4f72a1f98876925ce80781ae64e52f4ff5efcdf86e580d7c01cad1d2f",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "latex_sha256": "0ac9c3b4f72a1f98876925ce80781ae64e52f4ff5efcdf86e580d7c01cad1d2f",
+  "parent_readability_revision_20261114": {
+    "receipt": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G97/parent-readability-acceptance.json",
+    "tex_sha256": "0ac9c3b4f72a1f98876925ce80781ae64e52f4ff5efcdf86e580d7c01cad1d2f",
+    "scope": "precise prose and conditional axis-map bridge; display equations unchanged"
+  },
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-2.tex",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
 }

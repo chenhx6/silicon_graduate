@@ -4,7 +4,7 @@
   "target_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-4.tex",
   "input_draft_path": "raw/writing/gpt/A130/research-draft/section-1-4.md",
   "input_sha256": "faa4e268f4aacd5b8a8d89fd329fb9400121060b67d4d84fb595fe5d98be00a8",
-  "output_sha256": "2871873b582e6583fc12c9e04827cfd311779db2e2ecde38a371ed43984b0d71",
+  "output_sha256": "be8d9b6e9f72aaa08b778175ae9a6902054193d3959530a86831111d7b077eea",
   "recorded_at": "2026-11-13T00:00:00+00:00",
   "executor": "G77",
   "migration_modifications": [
@@ -233,6 +233,8 @@
     "133Ce手征候选带缺少激发态寿命实验，绝对E2跃迁强度缺失限制了对微观手征波函数的完全排他性检验",
     "182-188Hg低能库仑激发对角矩阵元存在宽误差与未测空项，重取向效应受限于实验统计精度"
   ],
-  "parent_final_tex_sha256": "2871873b582e6583fc12c9e04827cfd311779db2e2ecde38a371ed43984b0d71",
-  "integration_status": "included-in27-section-clean-preview"
+  "parent_final_tex_sha256": "be8d9b6e9f72aaa08b778175ae9a6902054193d3959530a86831111d7b077eea",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-4.tex",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
 }

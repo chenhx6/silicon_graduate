@@ -1,0 +1,74 @@
+{
+  "task": "G74-targeted-literature-study-espe-baranger-observability",
+  "worker": "G74",
+  "purpose": "Doctoral dissertation rewrite support for sections 2.2 and 2.8 (single-nucleon spectral centroid, Baranger ESPE and observability boundary)",
+  "status": "completed",
+  "created_at_utc": "2026-11-08T03:19:50.150542+00:00",
+  "primary_sources": [
+    {
+      "key": "Baranger1970",
+      "title": "A definition of the single-nucleon potential",
+      "author": "Michel Baranger",
+      "journal": "Nuclear Physics A 149 (1970) 225-240",
+      "doi": "10.1016/0375-9474(70)90692-5",
+      "edition": "published-official-api",
+      "path": "raw/papers/gpt/query/20261108-a130-espe-primary/baranger-1970-single-nucleon-potential.pdf",
+      "sha256": "c2782f86bca908b42c46d6742de7f3bd97341835fbdfb114b454818dd8bd0d1f"
+    },
+    {
+      "key": "Duguet2015",
+      "title": "Non-observable nature of the nuclear shell structure: Meaning, illustrations, and consequences",
+      "authors": [
+        "T. Duguet",
+        "H. Hergert",
+        "J. D. Holt",
+        "V. Som\u00e0"
+      ],
+      "journal": "Physical Review C 92, 034313 (2015)",
+      "doi": "10.1103/PhysRevC.92.034313",
+      "arxiv": "1411.1237v3",
+      "edition": "arxiv-complete-open-access",
+      "path": "raw/papers/gpt/query/20261108-a130-espe-primary/duguet-2015-non-observable-shell-structure.pdf",
+      "sha256": "0b4547204e0f735f89361727551d86852fd65bbb769915598b2e1610f9184a67"
+    }
+  ],
+  "archive_gate_verification": {
+    "tool": "system/scripts/wiki_archive_gate.py",
+    "target": "raw/papers/gpt/query/20261108-a130-espe-primary/manifest.json",
+    "status": "passed",
+    "failure_count": 0
+  },
+  "artifacts": [
+    {
+      "path": "raw/papers/gpt/query/20261108-a130-espe-primary/baranger-1970-single-nucleon-potential.pdf",
+      "size": 79996,
+      "sha256": "c2782f86bca908b42c46d6742de7f3bd97341835fbdfb114b454818dd8bd0d1f"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261108-a130-espe-primary/duguet-2015-non-observable-shell-structure.pdf",
+      "size": 615150,
+      "sha256": "0b4547204e0f735f89361727551d86852fd65bbb769915598b2e1610f9184a67"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261108-a130-espe-primary/manifest.json",
+      "size": 1892,
+      "sha256": "fa5374a943fe1e197a9d8c7d6b31c452a1f942e724b34fb8b8d9b0c375b037e5"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/G74/report.md",
+      "size": 34533,
+      "sha256": "adca5238941f5e23c0d170d47118fc58951702bc6297103450859ffcb2b08520"
+    },
+    {
+      "path": "tmp/runs/20261108-A130-rewrite/G74/baranger-1970.xml",
+      "size": 114723,
+      "sha256": "c1ab42d8de1a316e9fad91acc357bd7c5556af2135a6c476a91277ca78b1f5c9"
+    },
+    {
+      "path": "tmp/runs/20261108-A130-rewrite/G74/algebra_verification.json",
+      "size": 7849,
+      "sha256": "f57f21afaab47dd0ee0d25b117c5f60b760e1de27c4b2d0968725cde07ac1c13"
+    }
+  ],
+  "scientific_approval_declaration": "Independent evidence report produced for dissertation rewrite. Does not self-claim scientific pass."
+}

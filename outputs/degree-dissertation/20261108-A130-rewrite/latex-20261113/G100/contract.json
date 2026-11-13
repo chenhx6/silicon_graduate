@@ -1,0 +1,43 @@
+{
+  "task_id": "G100",
+  "state": "ready",
+  "requested_model": "antigravity/gemini-3.8-flash-tiered",
+  "reasoning_effort": "high",
+  "rationale": "One remaining methods section repaired independently while parent audits4.7/5.8 and G93writes5.10; removes sequential queue delay.",
+  "isolation": "protocol-only shared workspace; no sandbox claim",
+  "exact_writes": [
+    "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-7.tex",
+    "raw/writing/gpt/A130/latex-evidence-ledger/section-5-7.json",
+    "system/scripts/a130_angular_branch_figure.py",
+    "raw/writing/gpt/A130/these_2023_template/these_template/Img/angular-branch-delta-likelihood.svg",
+    "raw/writing/gpt/A130/these_2023_template/these_template/Img/angular-branch-delta-likelihood.pdf",
+    "G100 local receipts/new-reference suggestions",
+    "new unique 5.7knowledge note if needed"
+  ],
+  "dependencies": [
+    "T19/report.json",
+    "T19/correction.tex",
+    "T19/parent-delivered-contracts.json",
+    "T19/parent-acceptance.json",
+    "actual Hamilton/Lange original pages",
+    "accepted5.9 andAppendixA conventions"
+  ],
+  "must_not_write": [
+    "publicBib",
+    "5.9",
+    "AppendixA",
+    "other sections",
+    "canonical source pages",
+    "publicPDF",
+    "git index/commit/push"
+  ],
+  "acceptance": [
+    "allT19findings explicit mapping",
+    "no BkUk double counting",
+    "KS/RB/M1units aligned",
+    "polarization convention/associated-Legendre normalization explicit",
+    "ratio roots finite denominators/folds/endpoints preserved",
+    "actualraw hashes and precise locators",
+    "single sectionreceipt and stop"
+  ]
+}

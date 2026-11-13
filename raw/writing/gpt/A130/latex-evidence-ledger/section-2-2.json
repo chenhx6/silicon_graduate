@@ -10,7 +10,7 @@
   },
   "latex_output": {
     "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-2.tex",
-    "sha256": "1c275f2433754fec67b723c554679457ab87b02e39ba32f382ad51daecb2d547"
+    "sha256": "248d247afb97e876abd40861782a259e56fe962ec100306e1029a21aefc0da24"
   },
   "migration_type": "faithful_latex_migration_with_targeted_fixes",
   "targeted_fixes": [
@@ -227,7 +227,15 @@
       ]
     }
   ],
-  "target_sha256": "1c275f2433754fec67b723c554679457ab87b02e39ba32f382ad51daecb2d547",
-  "parent_final_tex_sha256": "1c275f2433754fec67b723c554679457ab87b02e39ba32f382ad51daecb2d547",
-  "integration_status": "included-in27-section-clean-preview"
+  "target_sha256": "248d247afb97e876abd40861782a259e56fe962ec100306e1029a21aefc0da24",
+  "parent_final_tex_sha256": "94e7367752619e47065efbe564967e355b696cb90725bede2894b25c9b2a2422",
+  "integration_status": "included-in-final39-A-F-clean-build",
+  "latex_sha256": "94e7367752619e47065efbe564967e355b696cb90725bede2894b25c9b2a2422",
+  "parent_readability_revision_20261114": {
+    "receipt": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G97/parent-readability-acceptance.json",
+    "tex_sha256": "248d247afb97e876abd40861782a259e56fe962ec100306e1029a21aefc0da24",
+    "scope": "precise prose and conditional axis-map bridge; display equations unchanged"
+  },
+  "parent_final_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-2.tex",
+  "final_typesetting_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
 }

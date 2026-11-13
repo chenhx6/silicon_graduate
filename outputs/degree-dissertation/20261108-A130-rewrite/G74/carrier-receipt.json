@@ -1,0 +1,82 @@
+{
+  "task": "G74-carrier-followup-espe-observability",
+  "worker": "G74",
+  "status": "carrier-audit-completed-partial-boundary-documented",
+  "created_at_utc": "2026-11-08T03:34:11.896629+00:00",
+  "baranger_1970_audit": {
+    "title": "A definition of the single-nucleon potential",
+    "author": "Michel Baranger",
+    "journal": "Nuclear Physics A 149 (1970) 225-240",
+    "doi": "10.1016/0375-9474(70)90692-5",
+    "official_api_test": "Tested Elsevier Article Retrieval API (DOI, PII, view=FULL, view=ENTITLED)",
+    "official_api_status": "HTTP 200 with X-ELS-Status: WARNING - Response limited to first page because requestor not entitled to resource",
+    "full_pdf_acquired": false,
+    "carrier_available": "1-page preview PDF (79996 bytes) + OCR rawtext XML (114723 bytes)",
+    "formula_certification_boundary": "XML OCR rawtext contains corrupted formula glyphs without MathML; cannot certify unreadable formula details directly from 1970 carrier"
+  },
+  "duguet_2015_audit": {
+    "title": "Non-observable nature of the nuclear shell structure: Meaning, illustrations, and consequences",
+    "authors": [
+      "T. Duguet",
+      "H. Hergert",
+      "J. D. Holt",
+      "V. Som\u00e0"
+    ],
+    "journal": "Physical Review C 92, 034313 (2015)",
+    "doi": "10.1103/PhysRevC.92.034313",
+    "status": "full-pdf-verified",
+    "physical_pages": 16,
+    "arxiv_watermark_date": "11 Sep 2015",
+    "layout_dated_line": "August 1, 2018",
+    "formal_prc_publication_date": "17 Sep 2015",
+    "conclusion": "Layout date reflects LaTeX compilation artifact; formal publication year remains 2015"
+  },
+  "artifacts": [
+    {
+      "path": "raw/papers/gpt/query/20261108-a130-espe-primary/baranger-1970-single-nucleon-potential.pdf",
+      "size": 79996,
+      "sha256": "c2782f86bca908b42c46d6742de7f3bd97341835fbdfb114b454818dd8bd0d1f"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261108-a130-espe-primary/baranger-1970-publisher-fulltext.xml",
+      "size": 114723,
+      "sha256": "c1ab42d8de1a316e9fad91acc357bd7c5556af2135a6c476a91277ca78b1f5c9"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261108-a130-espe-primary/duguet-2015-non-observable-shell-structure.pdf",
+      "size": 615150,
+      "sha256": "0b4547204e0f735f89361727551d86852fd65bbb769915598b2e1610f9184a67"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261108-a130-espe-primary/manifest.json",
+      "size": 1892,
+      "sha256": "fa5374a943fe1e197a9d8c7d6b31c452a1f942e724b34fb8b8d9b0c375b037e5"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261108-a130-espe-primary/manifest.parent-verified.json",
+      "size": 3716,
+      "sha256": "8d3005b2ba8e39a464e92bb1efeef8cb70899517286012615464e021c9f2cb15"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261108-a130-espe-primary/manifest-followup.json",
+      "size": 4570,
+      "sha256": "9a3abe1c85a63f68ae709dc0db84584dad35eb23df3f6893c54144b10445db85"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/G74/report.md",
+      "size": 34533,
+      "sha256": "adca5238941f5e23c0d170d47118fc58951702bc6297103450859ffcb2b08520"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/G74/receipt.json",
+      "size": 3078,
+      "sha256": "3291f9dd44fdea17ec9d9b832593424f6fcb85f1435c6785646a66c4f41076a6"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/G74/carrier-followup.md",
+      "size": 9359,
+      "sha256": "5176b766f6bd6508128a12521984b97aa50d85794d30e025b610342c2c55ac8b"
+    }
+  ],
+  "compliance_declaration": "No forbidden authentication bypass attempted; no original files or parent manifests modified; no git write operations performed; partial carrier boundary strictly documented."
+}

@@ -1,0 +1,77 @@
+{
+  "section": "5.10",
+  "title": "统计推断与实验结果接口",
+  "worker": "G93",
+  "round": "R3-final-verified-locators",
+  "status": "ready_for_parent_review",
+  "target_latex": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-10.tex",
+    "sha256": "a2bb8da7da4d06420e3e47e4371f83fb2e3df1d879116cb7559f337dbe87abeb"
+  },
+  "staged_latex": {
+    "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G93/staged-sec-5-10.tex",
+    "sha256": "a2bb8da7da4d06420e3e47e4371f83fb2e3df1d879116cb7559f337dbe87abeb"
+  },
+  "ledger": {
+    "path": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-10.json",
+    "sha256": "1db10c6fe82a7fe63c8cdca8eafea2181facb3b627d6ad15ab18e42c55f6ed42"
+  },
+  "figure_producer": {
+    "path": "system/scripts/a130_inference_profile_figure.py",
+    "sha256": "d1d8e075013ccd4170c54f00c819e84ab35267326cf14cba2ee99901f419c700"
+  },
+  "figures": {
+    "svg": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/inference-profile-likelihood-boundary.svg",
+      "sha256": "dfb9fdc501329020fb4351d85de495e8b8502a443b6389454073627628890361"
+    },
+    "pdf": {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/inference-profile-likelihood-boundary.pdf",
+      "sha256": "a07cef76601dae5f055e32d7588bcee6ffc993c690fe8ad94dab086b02218309"
+    }
+  },
+  "figure_manifest_fragment": {
+    "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G93/figure-manifest-fragment-5-10.json",
+    "sha256": "a3b8cb486a8c0ea2b9c7857196d7bc5fb8716239a12df652d2c02cf098619d60"
+  },
+  "new_references_bib": {
+    "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G93/new-references-5-10.bib",
+    "sha256": "02d79b7860d32075a4fae8d1050bb82e0e81128ba268eafdf1358ac0cd7156fa"
+  },
+  "counts": {
+    "equations": 6,
+    "figures": 1,
+    "tables": 3,
+    "citations": 4,
+    "claims": 5
+  },
+  "source_locators_verified": {
+    "book-zhu-probability-statistics-in-physics": {
+      "offset": "printed + 16 = PDF",
+      "error_propagation": "Ch. 3 §3.9, printed pp. 67–70 / PDF pp. 83–86, Eqs. (3.9.4)–(3.9.15)",
+      "feldman_cousins": "Ch. 11 §11.2 似然比顺序求和方法, printed pp. 377–379 / PDF pp. 393–395, Eqs. (11.2.2)–(11.2.4)",
+      "wilks_theorem": "Ch. 12 §12.2.2 复合假设的似然比检验, printed pp. 394–398 / PDF pp. 410–414"
+    },
+    "book-behnke-data-analysis-hep": {
+      "wilks_theorem": "Ch. 2 §2.3 Parameter Estimation, printed pp. 37–38 / PDF p. 55",
+      "feldman_cousins": "Ch. 4 §4.3 Frequentist Methods, printed pp. 122–123 / PDF pp. 138–139, Table 4.2 & text"
+    },
+    "book-bonamente-statistics-scientific-data": {
+      "poisson_distribution": "Ch. 3 §3.3 The Poisson Distribution, printed pp. 55–59 / PDF pp. 76–80",
+      "error_propagation": "Ch. 5 §5.2 Error Propagation Formulas, printed pp. 83–87 / PDF pp. 103–107, Example 5.3 (shared background) on printed p. 86 / PDF p. 106"
+    },
+    "baker-cousins-1984-histogram-fits": {
+      "poisson_fits_and_deviance": "NIM 221 (1984) 437–442, Sections 2 & 4, pp. 437–442"
+    }
+  },
+  "parent_round3_items_addressed": {
+    "510-r3-1": "Updated Table 5.10.1 column header to Krane--Steffen convention without flipping data delta signs; updated Table 5.10.2 M1 strength to B_mu(M1) with unit mu_N^2 (aligned with Sec. 5.9 practical rate interface), formulating relation B_mu(M1) = mu_N^2 B_S(M1) to eliminate indiscriminate mixing.",
+    "510-r3-2": "Corrected Table 5.10.2 header to total branching ratio b_tot (inclusive of internal conversion), defining radiative photon fraction b_gamma = b_tot / (1 + alpha_IC) and decoupling b_tot from Table 5.10.1 relative photon yield I_gamma.",
+    "510-r3-3": "Corrected Table 5.10.3 branching covariance entry to state sum b = 1 gives a linear row-sum constraint sum_j Cov(b_i, b_j) = 0 (only specific multinomial models enforce all negative pair covariances); corrected raw peak area covariance entry to note overlapping peaks typically correlate negatively but common background structures may alter the sign.",
+    "510-r3-4": "Clarified Eq. (5.10.1) joint Poisson product as a conditional independent binning model requiring mutually exclusive single-channel classification or event-level likelihoods; noted low bunch interaction probability alone does not eliminate multi-photon cascade correlation; replaced auxiliary product with joint density p_aux(a|nu); removed claim of automatically capturing all covariances, stating shared nuisance parameters capture parameter-induced correlation while multi-hit clustering requires dedicated modeling.",
+    "510-r3-5": "Clarified that profile likelihood curves do not self-generate exact confidence coverage without reference distributions / Neyman construction (calibrated via discrete enumeration or MC in small samples); explicitly defined Hessian: V_theta approx H_1^-1 for -ln L, and V_theta approx 2 H_2^-1 for -2ln L, avoiding missing factor of 2.",
+    "510-r3-6": "Refined MC pushforward statement: input samples must already derive from appropriate conditional posterior distributions; merely adding an arbitrary prior is insufficient. Defined LT in I = A / (epsilon * LT) as dimensionless live-time fraction under factorization assumptions, reiterating coincidence acceptance does not automatically factorize into scalar products per Sec. 5.5.",
+    "510-r3-7": "Fixed LaTeX syntax by converting bare numbers inside enumerate into item; fixed figure path to relative Img/inference-profile-likelihood-boundary.pdf to prevent empty box placeholder fallback in project root; reconciled closing paragraph to state confirming a collective claim requires commensurate testing while exploratory candidates can be proposed with explicit boundaries.",
+    "510-r3-8": "Standardized terminology to plug-in estimator as 代入估计量 throughout text; updated exact verified source locators (Zhu offset +16, FC §11.2 printed pp. 377–379 / PDF pp. 393–395, Wilks §12.2.2 printed pp. 394–398 / PDF pp. 410–414; Behnke Wilks PDF p. 55, FC PDF pp. 138–139 Table 4.2; Bonamente error propagation printed pp. 83–87 / PDF pp. 103–107 and Example 5.3 on p. 106); kept figure Delta chi^2 = 2.71 labeled as illustrative 1-sided 95% Gaussian benchmark rather than generic FC coverage."
+  }
+}

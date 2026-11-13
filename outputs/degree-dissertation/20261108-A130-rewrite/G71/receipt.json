@@ -1,0 +1,261 @@
+{
+  "task": "G71",
+  "section_id": "2.4",
+  "title": "形状坐标、测度与集体量子化",
+  "version": "V2",
+  "recorded_at": "2026-11-08T03:16:16.575732+00:00",
+  "status": "revision-delivered-for-parent-review",
+  "scientific_acceptance": "not_asserted",
+  "exclusive_write_paths": [
+    "raw/writing/gpt/A130/research-draft/section-2-4.md",
+    "raw/writing/gpt/A130/evidence-ledger/section-2-4.json",
+    "outputs/degree-dissertation/20261108-A130-rewrite/G71/receipt.json"
+  ],
+  "temporary_root": "tmp/runs/20261108-A130-rewrite/G71",
+  "draft_sha256": "71f0a01d06cbed00317516bc59d1f4cc3f378041854b486e491b07d38c8b1d44",
+  "ledger_sha256": "9fd3fe46be760e2a962d216c5727edd70de308b27753bdd5a179f0f1162a10d3",
+  "version_boundary": {
+    "version": "V1",
+    "recorded_at": "2026-11-08T01:55:09.344862+00:00",
+    "input_files": [
+      {
+        "path": "raw/writing/gpt/A130/research-draft/section-2-4.md",
+        "sha256": "330ffa61bb2478717a98d125f7dd4fc22235b56b9d092696e791e210ae4a8846"
+      },
+      {
+        "path": "raw/writing/gpt/A130/evidence-ledger/section-2-4.json",
+        "sha256": "d275762b808d89683d39cf3d037a9f3a77e5dbe66f5d5abe2b47a758a03fe935"
+      }
+    ],
+    "boundary": "总控已冻结G71-v1；本次未读取或改写冻结副本。V1的格式回执不构成科学认可。"
+  },
+  "sources": [
+    {
+      "source_id": "bohr-1952-surface-particle-coupling",
+      "source_page": "knowledge/sources/bohr-1952-surface-particle-coupling.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-1952-mfm26-14.pdf",
+      "version": "1952机构扫描本，40个PDF物理页",
+      "actual_read_pages": [
+        {
+          "pdf": "9–13",
+          "printed": "9–13",
+          "locator": "Eqs. (10)–(13), (18)–(27)"
+        },
+        {
+          "pdf": "19–21",
+          "printed": "19–21",
+          "locator": "Eqs. (56)–(66)；主轴变换、角向正规解"
+        }
+      ],
+      "reading_method": "V2逐页回读本地原件layout文字；不把OCR单符号当勘误。",
+      "raw_sha256": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d"
+    },
+    {
+      "source_id": "prochniak-rohozinski-2009-bohr-collective-hamiltonian",
+      "source_page": "knowledge/sources/prochniak-rohozinski-2009-bohr-collective-hamiltonian.md",
+      "raw_file": "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/prochniak-rohozinski-2009-v1.pdf",
+      "version": "arXiv:0911.0366v1，53个PDF物理页",
+      "collection_manifest": "raw/papers/gpt/query/20261108-r2-bohr-hamiltonian-review/manifest.json",
+      "actual_read_pages": [
+        {
+          "pdf": "4–6",
+          "locator": "Eqs. (2.1), (2.3)–(2.11), Fig. 1, Table 1"
+        },
+        {
+          "pdf": "12–16",
+          "locator": "Eq. (2.37), Eqs. (3.1)–(3.15)"
+        }
+      ],
+      "reading_method": "V2逐页回读layout文字，并实际检查PDF14、15、16的渲染页图。",
+      "notation_crosswalk": {
+        "intrinsic_a2": "综述的实坐标a2=βsinγ；本节球分量a_{+2}=a_{-2}=βsinγ/√2。二者相差√2，非物理差异。",
+        "G": "原式(3.2)–(3.3)的G为实验室张量表示的质量行列式；(3.12)写为Bx By Bz G_vib。它不含内禀坐标变换Jacobian，不能冒称完整五维q坐标度规行列式。",
+        "W": "(3.13)–(3.15)的标量内积权重可与二阶系数张量A独立指定；(3.2)的PP构造在(3.15)后被明确列为W=√G且A为质量张量逆的特例。"
+      },
+      "raw_sha256": "4d7e6d3942230023061efd0032b3d1f9231e5d6f230219329ef984c458bb689b",
+      "collection_manifest_sha256": "9afdb6573cb302fb18ae0eb3914d0c51afbbbdf5b9984f0400bf784e40b5ca63"
+    }
+  ],
+  "model_provenance": {
+    "evidence_kind": "既有任务教学模型；无实验核素或MeV标定",
+    "producer": "system/scripts/quadrupole_softness_identifiability.py",
+    "results_csv": "outputs/l4/20261108-shape-softness-identifiability/results.csv",
+    "run_provenance": "outputs/l4/20261108-shape-softness-identifiability/run-provenance.json",
+    "model": "H/E_*=-9 d_x[(1-x^2)d_x]+κx²；x=cos3γ；I=0；Q=sβ0固定；E_*=ℏ²/(2Mγ)。",
+    "normalization": "producer的Legendre基在dx下归一；转到dγ时概率含3sin3γ；正文φ则在sin3γ dγ下归一。",
+    "width": "gamma_rms_rad=sqrt〈(γ−π/6)²〉，不是无中心RMS或实验误差。",
+    "adopted_rows": [
+      {
+        "selector": {
+          "n": "32",
+          "nq": "128",
+          "kappa": "0.0",
+          "scale": "1.0"
+        },
+        "actual_csv_values": {
+          "n": "32",
+          "nq": "128",
+          "kappa": "0.0",
+          "scale": "1.0",
+          "norm": "1.0000000000000004",
+          "x": "6.179952383167375e-18",
+          "x2": "0.333333333333348",
+          "gamma_rms_rad": "0.2278889813798403",
+          "e0": "0.0",
+          "gap1": "18.0",
+          "gap2": "54.0",
+          "strength1": "0.3333333333333623",
+          "variance_sum": "0.3333333333333623",
+          "ew_strength": "6.000000000000521"
+        },
+        "rendered_table_cells": [
+          "0",
+          "0.3333333333",
+          "0.2279"
+        ]
+      },
+      {
+        "selector": {
+          "n": "32",
+          "nq": "1024",
+          "kappa": "18.0",
+          "scale": "1.0"
+        },
+        "actual_csv_values": {
+          "n": "32",
+          "nq": "1024",
+          "kappa": "18.0",
+          "scale": "1.0",
+          "norm": "1.0000000000000067",
+          "x": "1.35452638485461e-16",
+          "x2": "0.27997300350876064",
+          "gamma_rms_rad": "0.20539867053941546",
+          "e0": "5.50182897875047",
+          "gap1": "23.047322298055786",
+          "gap2": "58.256496721171004",
+          "strength1": "0.2796619682368962",
+          "variance_sum": "0.2799730035087544",
+          "ew_strength": "6.480242968421205"
+        },
+        "rendered_table_cells": [
+          "18",
+          "0.2799730035",
+          "0.2054"
+        ]
+      }
+    ],
+    "numbers_policy": "正文表格按这两条真实CSV记录舍入；〈x〉=0由对称性给出，不报告舍入噪声。",
+    "producer_sha256": "70c33e4f97d681b39993629acce208361380e4b7092a65df1614a2e998a9a4de",
+    "results_csv_sha256": "7f1e7e02b0f81f66f34e30408ba3140aa6e21a14146f798ccf7c7a53144d52a7",
+    "run_provenance_sha256": "bce893e7bf38d24a798b58e3f5bad42e0c5171fe30554fed9cc2cde2bad5d194"
+  },
+  "review_response": {
+    "1": "改用参考构型/集体坐标，与1.2的球对称实验室一体密度相容；无速度交叉项不冒称波函数或动力学完全分离。",
+    "2": "显式√2实坐标范数；参数化用语；D2冗余和连续端点退化；本文扇区约定和中点解释。",
+    "3": "平直空间坐标变换不产生内禀曲率；Cartesian Laplacian到LB；一般PP为选择，作用域另定义。",
+    "4": "正文移除伪一般度规式；原文G的张量表示与内禀Jacobian区别记录在sources；六函数和可独立W分开；β幂次无量纲。",
+    "5": "说明常B^(5/2)、Haar常数和覆盖因子可吸收入归一；正则域与任意f,g边界形式；不由有限流推出唯一域。",
+    "6": "无γ势不等于γ平移对称；最低I0角向常数基态；固定β为受约束角向模型；电荷算符另行指定。",
+    "7": "保留普遍矩比及范围条件；只有固定Q约去幅度；dx负号由积分上下限反转处理。",
+    "8": "κ18仅有限曲率中点极小；由实际CSV行取舍入值；〈x〉=0由对称性给出；角宽是绕π/6的中心宽度。",
+    "9": "静态与动力学由同一H决定；正整体缩放作为不唯一反例；有限矩不是完整分布，不强定某唯一后续观测。",
+    "10": "O、D2、D2h及纯四极偶偶范围区分；K为三轴展开标签；移除重复粗体和清单式论证。"
+  },
+  "metrics": {
+    "chinese_character_count": 3478,
+    "subsection_count": 5,
+    "math_source_spans": 165,
+    "table_data_rows": 2
+  },
+  "checks": {
+    "allowed_persistent_paths": [
+      "raw/writing/gpt/A130/research-draft/section-2-4.md",
+      "raw/writing/gpt/A130/evidence-ledger/section-2-4.json",
+      "outputs/degree-dissertation/20261108-A130-rewrite/G71/receipt.json"
+    ],
+    "non_lf_ascii_controls_including_tab_del": 0,
+    "raw_tex_environments_triple_dollars_numeric_shell_artifacts": 0,
+    "math_delimiters_balanced_and_display_standalone": true,
+    "citation_keys": [
+      "bohr-1952-surface-particle-coupling",
+      "prochniak-rohozinski-2009-bohr-collective-hamiltonian"
+    ],
+    "primary_pdfs_manifest_csv_producer_fingerprints_match": true,
+    "table_cells_from_exact_csv_selectors": true,
+    "declared_model_controls": "tmp/runs/20261108-A130-rewrite/G71/v2-mathematical-controls.json",
+    "pandoc_json": {
+      "command": [
+        "pandoc",
+        "-f",
+        "markdown+tex_math_dollars+citations",
+        "-t",
+        "json",
+        "/workspace/wiki/raw/writing/gpt/A130/research-draft/section-2-4.md"
+      ],
+      "returncode": 0,
+      "stderr_bytes": 0
+    },
+    "pandoc_html": {
+      "command": [
+        "pandoc",
+        "-f",
+        "markdown+tex_math_dollars+citations",
+        "-t",
+        "html",
+        "--mathml",
+        "--standalone",
+        "--metadata",
+        "title=2.4 形状坐标、测度与集体量子化",
+        "/workspace/wiki/raw/writing/gpt/A130/research-draft/section-2-4.md"
+      ],
+      "returncode": 0,
+      "stderr_bytes": 0
+    },
+    "math_source_ast_mathml_correspondence": {
+      "source_spans": 165,
+      "ast_nodes": 165,
+      "html_mathml_elements": 165,
+      "empty_mathml_elements": 0
+    }
+  },
+  "validation_files": [
+    {
+      "path": "tmp/runs/20261108-A130-rewrite/G71/finalize_v2.py",
+      "sha256": "6f67c2f38b449b34ce1588a47b13ee55030cac8d76e6d933418a2268862ae43f"
+    },
+    {
+      "path": "tmp/runs/20261108-A130-rewrite/G71/v2-checks.json",
+      "sha256": "7181e1f171a7a97542a764f5f42f58173ea93a3fc74c6f92fbf95aa3dd243df2"
+    },
+    {
+      "path": "tmp/runs/20261108-A130-rewrite/G71/v2-mathematical-controls.json",
+      "sha256": "5df229f342a473a4e4994a1b61f286581edd65420e95cf9abfb1774c5106d741"
+    },
+    {
+      "path": "tmp/runs/20261108-A130-rewrite/G71/section-2-4-v2.json",
+      "sha256": "4e6e886fb05eed0a79a3c1a0cd7ae674761b5750300afebed27d8d5e961fc73d"
+    },
+    {
+      "path": "tmp/runs/20261108-A130-rewrite/G71/section-2-4-v2.html",
+      "sha256": "8874c281eb0db53aee031745169d3139920ee7b38b9672a2e4c79a57ab5cbe4f"
+    }
+  ],
+  "unresolved": [
+    {
+      "topic": "广义动能的完整坐标代数",
+      "scope": "正文只区分六惯性函数、质量来源的PP权重及可独立指定权重的量子模型；完整一般算符和定义域构造留附录C，本轮未新推导。"
+    },
+    {
+      "topic": "真实核的动力学和观测映射",
+      "scope": "未进行真实核拟合或微观惯量计算；电荷与质量坐标映射、留出观测及竞争模型需逐核处理，分别衔接2.6和3.6。"
+    }
+  ],
+  "actions": {
+    "git_commands": false,
+    "subagents": false,
+    "external_messages": false,
+    "credentials": false,
+    "shared_files_modified": false,
+    "frozen_drafts_read_or_modified": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "figure_id": "fig:5-2-detector-response",
+  "section": "5.2",
+  "type": "educational-model",
+  "description": "Educational gamma-ray detector response simulation at E_gamma = 1500 keV comparing raw single crystal, Clover add-back mode, and BGO anti-Compton shield suppression",
+  "producer_script": "system/scripts/a130_detector_response_figure.py",
+  "producer_sha256": "cce0703b107469ea785ac41b3543c51fbef26c49ff529473980d8a6e7f81b97c",
+  "svg": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/detector-response-simulation.svg",
+    "sha256": "7a8ccec7f244e59f13e092b5c7e76e2b6682c33c487a843ca2c70f94ba63d560",
+    "size_bytes": 189627
+  },
+  "pdf": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Img/detector-response-simulation.pdf",
+    "sha256": "eaff60a33f1ce010eca68b0965b3f88c657ac4e640c0b44ce0909a7f6df93400",
+    "size_bytes": 68155
+  }
+}

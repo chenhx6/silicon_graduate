@@ -1,0 +1,289 @@
+{
+  "status": "pass",
+  "actual_utc": "2026-11-13T22:20:23.178678+00:00",
+  "all_frozen_inputs_match_canonical": true,
+  "production_files": 89,
+  "production_manifest_sha256": "41c5bad732ed0cd1ec374d2dc586bc3049939fdb79def187621e8e57b7202b63",
+  "body_sections": 39,
+  "appendices": 6,
+  "bindings": [
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-1.tex",
+      "sha256": "375ff8b50ac5d3588a173bbf2a9446917bbe9ec9a27c30df33a8f08a57b62b67",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-1-1.json",
+      "ledger_sha256": "169f7324e8aed4d451bd2ef5b249f518d56566de5d3049497730305d74fac62b"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-2.tex",
+      "sha256": "c3d0b685f7b111d39e676b6a6dd2ec0ad9efcfd596286fb7f70ea98bcab01105",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-1-2.json",
+      "ledger_sha256": "a25e8fb43c76fee9405ba552b18a8dd7f4c16248d1ffe9914c4d6cf663690736"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-3.tex",
+      "sha256": "41e375449934242995f7a810b1224d5b7b8f96d018038d34a8de58d2d7dc6075",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-1-3.json",
+      "ledger_sha256": "bd9f20bb842281dd36b5b87f55029f332501e0112c38c40eebdad393f6d201a7"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-4.tex",
+      "sha256": "be8d9b6e9f72aaa08b778175ae9a6902054193d3959530a86831111d7b077eea",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-1-4.json",
+      "ledger_sha256": "2ff59b8827a525cb37d84d81e9ba23a74985fbd8b4db49f17cafbc912faad574"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-5.tex",
+      "sha256": "93927c6aff63b17821a41b8027741565e4bea86b1ad22fae7d1a1876e5029479",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-1-5.json",
+      "ledger_sha256": "f3401d98b15fed3959a6c838c8dc30cd5be3f1a1cf0ce37a626037761aef23f8"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-1.tex",
+      "sha256": "cce29838eadc2eb20dcaef4a795334cf625f12332caf8e4d9448e510ca1f34ba",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-1.json",
+      "ledger_sha256": "150a15b36b220e07bcda8e60343d4dfa94ead02734e0f7757919a83b7b8cc81d"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-2.tex",
+      "sha256": "94e7367752619e47065efbe564967e355b696cb90725bede2894b25c9b2a2422",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-2.json",
+      "ledger_sha256": "f5a8d644e243e64d4a68be0b4d688ebfd0e248b6670876716cdc733fc75653be"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-3.tex",
+      "sha256": "20b62520e3cdc50aa6f5050b89f3283dfff4ec140ca9848e9c9593c3155ae573",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-3.json",
+      "ledger_sha256": "1edcd8098a5611a1c71cfaaafe4ec4d4b36145685ff7c233ac0028c372e0c2ed"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-4.tex",
+      "sha256": "204c544fff9c6d77e4cbd67aa88c5620662e48d5e0aa3bed04535c583d88b1cf",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-4.json",
+      "ledger_sha256": "2d47d79b3d7b0df9f6a0c5f92f7f6734ce05fad4be295fe68404c5556a56c542"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-5.tex",
+      "sha256": "090b1ca3fb28ffd6a9e775e28a2b9ecbec13fc8224458ce214a513e63a6767e8",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-5.json",
+      "ledger_sha256": "d6c1929445afa3f8bb86fb34322badc3732108440a5fce4136e926f7181dcd77"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-6.tex",
+      "sha256": "ad956ea0748a82b31e82a917df2d16fec1b744be1ce72f91c875eec0ae55ad64",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-6.json",
+      "ledger_sha256": "83a71d086fc17902422fb887b4773fcf8d414b9a08c35b9e7077641433f73acf"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-7.tex",
+      "sha256": "bb7c2e470cf7656ed86431f835214545ceeb4486d9794fb45e6f0f1976616b83",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-7.json",
+      "ledger_sha256": "92facb05d6510e0059b54d5efea31287adfd7856ac24b66e422d4250cf74a1d6"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-8.tex",
+      "sha256": "e99acbffce02a79342e65827729f06f3e612998c563471d5cf13f1637cde2c47",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-2-8.json",
+      "ledger_sha256": "7be4f804e3e96c46ff19f6a419b2ff23690bdf668b3df7243b72eeda7c5a1f9b"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-1.tex",
+      "sha256": "535f1896e36bab4806725dd8e0ec17b07a6f2458f1d677b890a419b1796e9a6f",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-1.json",
+      "ledger_sha256": "32173d298c5483c77adc44b82f5ce7616e1a61a0d6aaeedb8f2210572a00b1d9"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-2.tex",
+      "sha256": "0ac9c3b4f72a1f98876925ce80781ae64e52f4ff5efcdf86e580d7c01cad1d2f",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-2.json",
+      "ledger_sha256": "295d36ead79001f517ff800bfcdc10e4f7eea6b71dd58800d0d41d23375cb77e"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-3.tex",
+      "sha256": "5b388315db82dd9fe33f974ce9be6d541008ecfb858e6b3d4879fea1d1ec2e89",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-3.json",
+      "ledger_sha256": "9e0ab7e9ae0000df39e1f9585c9d780635060823ba855211899fb6ca3318a990"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-4.tex",
+      "sha256": "bee1512930cd1a78f66fb3f535eaf3b0cd30d1e73ccb30076f614a4dbee0eb61",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-4.json",
+      "ledger_sha256": "a1862783c1819cc3a95e60b2c93d2513e40b4885c4fe1e0ba73963223f33d2be"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-5.tex",
+      "sha256": "5439b517623ae5142cd4711bfd849cc0df1db4574aac3dfd305a2963dabfdea8",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-5.json",
+      "ledger_sha256": "6e1857c970310734a2141ed0e907fb0be82966868c96f2cb1d4336042333d93c"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-6.tex",
+      "sha256": "4abe8e596f107ef849fa7c8764ec185edab288785540b0acf120f6ddb8b6ff11",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-6.json",
+      "ledger_sha256": "ae605083fd951f3b16697209110ccc81185e457e197f61d8d04469a3b96dc52b"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-7.tex",
+      "sha256": "3c50a9b0f3812ac03daaab4bdbef706ddb06e864d5dc9c67c228e6d860c08b18",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-7.json",
+      "ledger_sha256": "332d546eb9d906165eedb688023edf1f129e108866bc388c9d3e401a2c526680"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-8.tex",
+      "sha256": "335d0360f88f9d19d503e0e2d7bb7b70883b68b2d7377ddf6dcdcf86be3b7611",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-8.json",
+      "ledger_sha256": "3d3298a8a7436705424a294a9673d508311775595939a6adbf3dd4e5701d9cf4"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-1.tex",
+      "sha256": "7a02be95e87366009872a6395728341caf697f604dc99dcb2badc8d164831cfa",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-1.json",
+      "ledger_sha256": "b80682e304c93a532442401b133843e5332ba89a4023455cde67eb008dd7a72a"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-2.tex",
+      "sha256": "fbbcef6bcc298c498e8c604889d3f4789ef63bdb6627ecbd4184d1f9d95aa41f",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-2.json",
+      "ledger_sha256": "f812e039546dc274c16dba4f74361106faf85ab01f88ab6c938fe06aa401e394"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-3.tex",
+      "sha256": "78527004469893b277308d5115e15ddc09684478a5d6b537c74b89a1464ec7b8",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-3.json",
+      "ledger_sha256": "74afc7a0922208774cff97376a85abb63cb8ea5660cea3de6b76df844b6c07c7"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-4.tex",
+      "sha256": "4584eae073d908173467a2c2ac3d881fce3a74d5b178e36a91becdae4da553a5",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-4.json",
+      "ledger_sha256": "34071702ff3d846a34c7159dc96e9af9f7d1929818ad9dbaa511b4fd2cc43d8a"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-5.tex",
+      "sha256": "a92b2bd5acd21055ebce93feafc8d5dd8e25aff3fe2a5cce4ea2e22873d8dcf9",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-5.json",
+      "ledger_sha256": "62c6e835768b312301e24a222f192c4269cb1f1b2aa5f63213e8d99612ea1b8e"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-6.tex",
+      "sha256": "763b37de5295ec5bec7cc6bfdb89e730990322e4047435b1ede1ad0b57365c0a",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-6.json",
+      "ledger_sha256": "985d5e4b4cbd94b3a92a946825a6a540fef681be8e0dad436e71af6a54e432b0"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-7.tex",
+      "sha256": "475e36150ac8bf8da25e97430fcb2d56feb6835ae0dc61bff61186681c637f5b",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-7.json",
+      "ledger_sha256": "8ca18d3141af3873aff79d5fb2a9a15ad806fbcc6f7a3e9f735f56837921ef50"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-8.tex",
+      "sha256": "79d28cafe27deab24c5c0c6c69138b1674ebc530ad9ad8ab72945bcdf7e9e438",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-8.json",
+      "ledger_sha256": "f22be5f5aefea0c7e019b824a3b567460732d44a0402209fd1f462df681471c4"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-1.tex",
+      "sha256": "16c122d5650bbd3a99de032d8900d5fcfd45ee624b604c485428cbce02f486f9",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-1.json",
+      "ledger_sha256": "00e26e0cc8f2b2828175eaa39741dc073add4b3ee641f34c2b6b64a90cc083df"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-10.tex",
+      "sha256": "cfcd0258e82dfa094d71c80adc39fc0e9a1ab4f782dda34ccbf9abd5a0096bdf",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-10.json",
+      "ledger_sha256": "a365298602e9b8ced32105d8a4c6c496198faee94381dd8172b362563d98b8cd"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-2.tex",
+      "sha256": "53c5b0f3cedd04bc64debd378daa0312001c4c3e96e37718152df3f059e53fb7",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-2.json",
+      "ledger_sha256": "95d62424d581d5c13bc888c07bb7626918eb43a1a44c125cac0c4e498b8f6371"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-3.tex",
+      "sha256": "18691f5600b22093032d725fbeb6cf74c9a5fbf816e075ead598f0109b340960",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-3.json",
+      "ledger_sha256": "d702818e88a2cf01624eeddd493d5339d63f37500d352764c37fa8a331fe504c"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-4.tex",
+      "sha256": "bd56ec80cffcb490cc9d6c2af3bcb5c9f97dd2d62d88acfa78a9c6786a615424",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-4.json",
+      "ledger_sha256": "bcf47ec72234f7d1744fe6a0ab78ad05bf9ff886b10ce1dced174102b8c01bc2"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-5.tex",
+      "sha256": "43ee58210e6d816c93f747ef946054ff3d400df054d64c71309dad374298efd5",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-5.json",
+      "ledger_sha256": "815a04a830c0ff2685ba0298e97192755e68ac15e394b00883891157ca43737d"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-6.tex",
+      "sha256": "0375d93538590b350929ac4eda6cb76d9278a2a53f346cbc4d0bcd5ec3a793e5",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-6.json",
+      "ledger_sha256": "acfdcaf1d8749c41a29ab042e8c387d5a119a14cecc94f1efa5858d94ce122f3"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-7.tex",
+      "sha256": "5d34084101a4a7d7640bcbaa37aff8627d2633662ebfe541e9337343f14cb735",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-7.json",
+      "ledger_sha256": "4fdb7b7fa503544e69370814480435814481d3aa80cce2b5597699a907db5073"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-8.tex",
+      "sha256": "748d8870affc0d8f706416a702961dfea00f337574f3f4629aac6718bb18bc31",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-8.json",
+      "ledger_sha256": "1f582747761e6fa8c4f1630a1cd5d3182ad3f431becfb3f63e4a8a3aa235232d"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-9.tex",
+      "sha256": "215f0098885db01f56504b6cb7aae277396188a55f8a74984c80d14a80cc5aec",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/section-5-9.json",
+      "ledger_sha256": "5d670a390ef687cd63c29f6f720b937e0d8503c72f945de2c59c06956e3bce37"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixA.tex",
+      "sha256": "9d68fe0c9d48a9e2b5af71acb2ae5b5063042508666d10750422813cd831d2ac",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/appendix-A.json",
+      "ledger_sha256": "00d3e25b0d6ed359888be864a123bb93c7d9d868eaa4c7b3e05ad79e6028a2ad"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixB.tex",
+      "sha256": "93785f3c48c54b1cda81f146da0465be7de835267e5842c95c2735f386eef6f8",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/appendix-B.json",
+      "ledger_sha256": "2ee6e5f65c780f2f57730e10108b5f5157c1080af93a2ed942d229cd27335a62"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixC.tex",
+      "sha256": "67eece7eea1d3d9693ab4e012147e126d2a00a8bee835d99855f5e1d205b1b76",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/appendix-C.json",
+      "ledger_sha256": "9f5b6cc198071f123d702a101bc05be501d3bddb61fb0f1ae46f7a22cc044cfe"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixD.tex",
+      "sha256": "a62e402d04f2e050c558b9c5e7abb113c227e821254a4c1f6e2709cfb5661fbf",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/appendix-D.json",
+      "ledger_sha256": "a8a6fcfef8d1206f54b569303d90dff954fc0a84945ea8b5bf677c86d4150e55"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixE.tex",
+      "sha256": "f76188af699dcdc5e96c114850113c66fa8633af94e846d7e19a9a0c0780d132",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/appendix-E.json",
+      "ledger_sha256": "b45ec4bdf4c84fd69e882503231c16a2b167dbf2c1494b00aa7be9dda7885a61"
+    },
+    {
+      "tex": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixF.tex",
+      "sha256": "fdc91d6de3dc31719a75e2086d6a4acaabc208991298691336309047429ec3f6",
+      "ledger": "raw/writing/gpt/A130/latex-evidence-ledger/appendix-F.json",
+      "ledger_sha256": "83511b45e39a78f3e5a5fda3e8924e4b3922e422d0a56269e65cb6f46d2556e3"
+    }
+  ],
+  "pdf": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.pdf",
+    "sha256": "58a10454879db7e88de8674e83b20207082f0b8fe67ff4bb9233b51d6d588480",
+    "bytes": 3482425,
+    "physical_pages": 374
+  },
+  "source_reading_input_hashes": "preserved; final output bindings refreshed",
+  "build_report": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/final39/final-build.json"
+}

@@ -1,0 +1,114 @@
+{
+  "status": "integrated-scientific-and-format-corrections",
+  "actual_utc": "2026-11-13T21:38:23.520074+00:00",
+  "manifest_frozen_inputs_verified": true,
+  "changed_files": [
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Thesis.tex",
+      "before": "7323d9bd0cd773e6e5ef8e60655938c115e859cc4e74a8a09499ac0b409a51c4",
+      "after": "561e27bf13d0f7e9f16671a5bce703f2178e72636c4a71ec68315df7dc2a638e"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Biblio/ref.bib",
+      "before": "912bd06daf4b343f55806d8c9aabbad292c38cb88d868cb523fd00945cd2bd57",
+      "after": "fee92f1fd26cb0d28e4a8c27cf6ca703d2ec0cf26a6f9f63a7d4941ace609259"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixD.tex",
+      "before": "e5f045672dca07e89d70177107f6f4670c9fd39b012e04c3bbf47fd875bfcbdc",
+      "after": "a62e402d04f2e050c558b9c5e7abb113c227e821254a4c1f6e2709cfb5661fbf"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixF.tex",
+      "before": "c69dd756bb0fedc7c9057ad5b7cf85537737f6be71e7699cea16d81a0db4e299",
+      "after": "bcd00cd571b15e8510a934302d84a19de8ef9d642140c9f7911e02b2d3a793f4"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-2.tex",
+      "before": "cdc65bc8569ed15f8c4d32a28d17f64b1509929620e37d8d93054e140e3962fb",
+      "after": "c3d0b685f7b111d39e676b6a6dd2ec0ad9efcfd596286fb7f70ea98bcab01105"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-4.tex",
+      "before": "2871873b582e6583fc12c9e04827cfd311779db2e2ecde38a371ed43984b0d71",
+      "after": "be8d9b6e9f72aaa08b778175ae9a6902054193d3959530a86831111d7b077eea"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-1-5.tex",
+      "before": "10d22975760ed742b44fdecd5be48cee7179e4bc404ed603d017e6c22ef716bb",
+      "after": "93927c6aff63b17821a41b8027741565e4bea86b1ad22fae7d1a1876e5029479"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-2.tex",
+      "before": "248d247afb97e876abd40861782a259e56fe962ec100306e1029a21aefc0da24",
+      "after": "94e7367752619e47065efbe564967e355b696cb90725bede2894b25c9b2a2422"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-2-4.tex",
+      "before": "7da9f4be6a5993defb52052ea928dcddbebb02822c3bae2cf672da38fbf9d9ef",
+      "after": "204c544fff9c6d77e4cbd67aa88c5620662e48d5e0aa3bed04535c583d88b1cf"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-8.tex",
+      "before": "60ebc7a676a8974a4744685a48efdaae93ffdb4df7ae18ce6f435120371a80e1",
+      "after": "335d0360f88f9d19d503e0e2d7bb7b70883b68b2d7377ddf6dcdcf86be3b7611"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-4.tex",
+      "before": "464210015df1e4b5c514036b215107c900470b4489dfbea6bd1d38ab26bb26c0",
+      "after": "4584eae073d908173467a2c2ac3d881fce3a74d5b178e36a91becdae4da553a5"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-5.tex",
+      "before": "25ba30fee7149b6bab770caafd82239fd35ab2c3ea8cc485b0fb314dbc0a9b10",
+      "after": "a92b2bd5acd21055ebce93feafc8d5dd8e25aff3fe2a5cce4ea2e22873d8dcf9"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-7.tex",
+      "before": "182921cd2ffb1d1a91e627cd836465403aef25ce87c0e0c3fee5e8f67bdf0ee7",
+      "after": "475e36150ac8bf8da25e97430fcb2d56feb6835ae0dc61bff61186681c637f5b"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-8.tex",
+      "before": "5c9da2c41aa91dd683bbfbb1e903e001e1ef2bf53d788bfad8cf2f3ab80e3374",
+      "after": "79d28cafe27deab24c5c0c6c69138b1674ebc530ad9ad8ab72945bcdf7e9e438"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-10.tex",
+      "before": "92cabc5a035af50487ed8118beea741a36f3d1bd07a90c5a4c49f32f51cd8a5b",
+      "after": "97a556bde447d430c6981882647051287aa730ff94becc32216dd662d3049ec3"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-2.tex",
+      "before": "9fa7006fc4a040fd1074f0b0a002e99d32f616c64c391792ff45900207cbbdc7",
+      "after": "53c5b0f3cedd04bc64debd378daa0312001c4c3e96e37718152df3f059e53fb7"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-3.tex",
+      "before": "81f757b33a8ca0e0c65c025661b57e956c3f7d1d7df2972d3a35a89dccf76e04",
+      "after": "18691f5600b22093032d725fbeb6cf74c9a5fbf816e075ead598f0109b340960"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-4.tex",
+      "before": "18960bdfb1c2e65304a42da6bb39ef3026061b6a6d25d4911dcfdb853f316c26",
+      "after": "bd56ec80cffcb490cc9d6c2af3bcb5c9f97dd2d62d88acfa78a9c6786a615424"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-6.tex",
+      "before": "063c8761b769c9fbe85ca61bf6c622d8a4d885d2d1ebdc2d679453c1c52987a1",
+      "after": "0375d93538590b350929ac4eda6cb76d9278a2a53f346cbc4d0bcd5ec3a793e5"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-7.tex",
+      "before": "a9c242935f1b20cd30fb0678a6640cb6ab11af035ab8144c9805b6ef5e0aee80",
+      "after": "5d34084101a4a7d7640bcbaa37aff8627d2633662ebfe541e9337343f14cb735"
+    },
+    {
+      "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-5-8.tex",
+      "before": "a9050405b01594bcbec07d7df9017797a45719d8d6aca56b6c3fe932578540c9",
+      "after": "748d8870affc0d8f706416a702961dfea00f337574f3f4629aac6718bb18bc31"
+    }
+  ],
+  "pdf_copy": "pending visual acceptance",
+  "evidence_boundary": "CLEAN_PASS is typesetting and reference verification; original-source scientific audit recorded separately."
+}

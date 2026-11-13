@@ -1,0 +1,23 @@
+{
+  "worker": "G85 (Gemini Tiered/high)",
+  "section_id": "4.5",
+  "title": "Br/As与其它核区的反射—手征问题",
+  "recorded_at": "2026-11-13T16:35:00+00:00",
+  "task_status": "section-4-5-delivered-writer-concluded",
+  "canonical_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-4-5.tex",
+  "canonical_tex_sha256": "32bfc3d064ffc155e81a2563bb35b1d541add539ac397b5434b51e001a373d39",
+  "canonical_ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-4-5.json",
+  "canonical_ledger_sha256": "df52ad4cfc9416ed4b67d1d8c72779a906a39dda30bf2f2b2384c5cb988a443c",
+  "math_and_syntax_verification": "PASSED_100_PERCENT_BALANCED",
+  "prohibitions_strictly_obeyed": [
+    "未修改公共ref.bib，新条目提供至new-references-4-5.bib供G76合并",
+    "以已验3.5/2.5和F05为先修，不复用未验3.7或3.6新结论",
+    "不拿标题或旧handoff‘四重带已确立’当事实，按实际原件区分MchiD与2+1拓扑",
+    "反幺正C=TRy(pi)与幺正P严格解耦，C^2=+1不强迫能带四重简并",
+    "q3严格界定为四极张量三次收缩不变量，不与八极beta3/E3混淆",
+    "解剖D0模型依赖反演链条，明确指出单K公式不适用于三轴K混合，无法定号",
+    "研究候选卡不编造未知机时与个人硬件，不称首次发现",
+    "最终回复严禁使用Markdown加粗符号**",
+    "本writer正文串收束，不擅改其它已接受章节"
+  ]
+}

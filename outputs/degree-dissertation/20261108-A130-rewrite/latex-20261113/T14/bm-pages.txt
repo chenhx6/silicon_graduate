@@ -1,0 +1,175 @@
+                                                      ROTATIONAL SPECTRA         Ch. 4
+
+       4-5e States with Large I
+
+     Simple and illuminating solutions for the asymmetric rotor can be
+obtained for the high angular momentum states in the yrast region. In the
+classical theory of the asymmetric rotor, the motion reduces to a simple
+rotation without precession of the axes, if the angular momentum is along
+the axis corresponding to the largest or smallest moment of inertia. Cor-
+respondingly, in the quanta1 theory, the states of smallest (or largest) energy
+for given I acquire a simple structure in the limit of large I (Golden and
+Bragg, 1949).
+     With the axes labeled such that 4>S2                      ,
+                                               >,a; ( A < A , < A 3 ) , the states
+of lowest energy for given I (the yrast states) have ~ Z , ~ = Z . The coupling
+between the components of the rotational wave function with positive and
+negative values of I , becomes negligible for the states with I Z , l x Z > > l , and
+I , may thus be treated as a positive quantity. The angular momentum
+components perpendicular to the 1 axes obey the commutation relation
+
+                       [ I - , I , ] = 21, x 2 z ( I , = I , t 4 )             (4-296)
+
+and can therefore be treated approximately in terms of boson creation and
+annihilation operators
+                        ,t= -  1 I , c=- 1
+                                                I-
+                                 V Z
+                                                                               (4-297)
+
+     In terms of these variables, the rotational Hamiltonian (4-269) can be
+written
+           H = A * 12++ ( A 2+ A , - 2A ,)(I? + I;) + + ( A *- A J( 1; - 1;)
+
+             = A , 12+H’                                                       (4-298)
+with
+                        H ’ = +LY(ctc+cc+)+) p ( c t c + + C C )
+
+                                                                               (4-299)
+
+                         n=c+c=I--I,
+
+                               LY = ( A 2 + A3 - 2A , ) I
+3 4-5   SYSTEMS WITHOUT AXIAL SYMMETRY                                         191
+
+The number of boson excitations is denoted by n , and the boson vacuum
+( n = 0) is the state with I , = I ; each quantum carries an angular momentum
+of - 1 unit with respect to the 1 axis. (For an odd-A system, the leading-
+order Hamiltonian contains additional terms linear in I , (see Eq. (4-289)),
+which may give rise to terms linear in c t and c; for a system with D,
+symmetry, however, the terms a,Z2p2 and a3Z3p3 can be neglected in the
+approximation considered, while a,Z,p, is approximately a constant
+(=a, 0 )
+      The Hamiltonian (4-298) can be diagonalized by a canonical trans-
+formation to the new boson variables ?; and ;,
+                              c t = x;t+y;
+                                                     (x2-y2= 1)            (4-300)
+                              ;t= x c t - y c
+and one obtains
+                                  H'=Aw(Ti       + 4)
+                                                                           (4-301)
+                                    i = ;t;
+with the excitation quanta
+
+                                                                     I/2
+               Aw= ( a 2 -   p') 1/ 2 =21((A,-      AI)(Ap41))             (4-302)
+
+and the transformation coefficients
+
+
+                                                                           (4-303)
+
+
+The stationary states can thus be characterized by the quantum number 3
+together with I (and M ) , and the energy values are
+                       E(Ti,I)= A J ( Z +       1) + (Ti + * ) A w         (4-304)
+
+The quantum number Ti describes the precessional motion of the axes with
+respect to the direction of I ; for small amplitudes, this motion has the
+character of a harmonic vibration with frequency w . If the intrinsic state
+possesses D, symmetry, the spectrum of an even-A rotor is restricted to the
+states with                                           I
+                                 ( - 1)" = rl( - 1)                        (4-305)
+
+while for odd A , the spectrum contains states with all values of Ti. The
+asymptotic spectrum (4-304) for an even-A system can be recognized in the
+example illustrated in Fig. 4-34, p. 197.
+192    ?&                                               ROTATIONAL SPECTRA            Ch. 4
+
+     The validity of the approximate solution (4-304) requires (see Eqs.
+(4-296) and (4-297))
+                          Z 2 > > ( Z ~ + Z ~ ) = Z ( c ~ c + cct)                  (4-306)
+
+By using the explicit solution given above, the condition (4-306) can be
+expressed in the form
+
+                                                                                    (4-307)
+
+If the three moments of inertia are of comparable magnitude (and fi is
+small), the condition (4-307) corresponds to I>>1. If one of the inertial
+parameters is much larger than the other two ( A , > A , , A , ) , as for a nucleus
+that deviates only slightly from axial symmetry, the transition to the
+coupling scheme described above, with K = ZlwZ, occurs for angular
+momenta of order (A3/(A2-A1))1/2, while for lower values of I , the yrast
+states have K = Z3x0.
+     The E 2 moment of the nucleus can be expressed in terms of two
+intrinsic quadrupole moments Q, and Q, (see Eq. (4-245)). For the states in
+the yrast region with l Z l l x Z , we shall define an intrinsic nuclear coordinate
+system 3y’ with axes x’ = x2,y’ = x3, z’ = x l , so that 9,+ is the orientation of
+the 1 axis. Thus, Q, is the quadrupole moment with respect to the I axis,
+while Q, is a measure of the asymmetry in the shape with respect to this
+axis. In the representation in which K=Z is diagonal, the reduced E2-
+matrix elements are given by
+
+(Z’K’” A(E2)11ZK)=(2Z+ 1)’I2(           A) e(Q0(ZK201Z’K’)
+                                                 1/2
+
+
+
+
+                         + Q2((ZK221 Z’K’) + (ZK2 - 21 Z’K’)))                      (4-308)
+
+For K x Z , the vector addition coefficients in Eq. (4-308) have the approxi-
+mate values
+                                 *
+         (ZK20~ZK)w(ZK2 211 IfI2 K+-2 ) x 1
+                                                                 1/2
+          (ZK201Z+ 1 K ) w -(Z+ I K20lZK)w(                  f ) ( I - K + 1)’12 (4-309)
+                                                                       ‘/2
+(ZK221Z+ 1 K + 2 ) x - ( Z +   1 K + 2 2-21ZK)x-              ($) ( z - K ) 1 / 2
+ignoring terms of order I - ’ or smaller. In this approximation, the matrix
+element (4-308) is conveniently expressed in terms of the variables Z and
+4 4-5    SYSTEMS WITHOUT AXIAL SYMMETRY                                                 %   193
+
+
+n = Z - K. Introducing the operator m(Zl, Z2) defined by
+
+(Z’,K’=Z’- 11’11 J ( E 2 ) l l Z , K = I- n )
+
+
+                                                                                        (4-310)
+we obtain
+                         +
+m (Z,Z’)w Qo8( I ,Z’) Q28(Z? 2, Z’)
+
+
+
+
+where the operators c’f and c are the creation and annihilation operators
+(4-297). By means of the transformation (4-300), the operator rn can be
+expressed in terms of the variable fi, in which the Hamiltonian is diagonal
+to the approximation considered.
+     The leading-order terms in the operator (4-31 1) involve no change of fi
+and give the static moment
+                                                Qo
+                                               Qc                                       (4-312)
+as well as the transitions
+                             B ( E 2 ; fir+;, I+ 2 ) x -5 e2Qe,”                        (4-3 13)
+                                                       1677
+induced by the rotation of the intrinsic Q2 moment about the 1 axis.
+     The terms in Eq. (4-31 I ) with Z’= I+ 1 are proportional to the
+vibrational amplitude and involve transitions with Afi = + 1,
+                                              5        A                            2
+         B ( E 2 ; f i Z + f i - I , I - 1 ) =1677
+                                               - e 2 ~ I( f l Q 0 x - f l Q 2 y )
+                                                                       (4-3 14)
+                                            5 2;+1                   2
+          B ( ~ 2f i;~ + l i + 1, z- I ) = -e -(.\/3 ~ , -y V 2 Q,X)
+                                           1677  Z
+The strength of these transitions is smaller than for the transitions (4-313)
+without change in the vibrational quantum number, by a factor of order
+6 / I , which represents the square of the amplitude of the precessional
+motion.
+       The qualitative features of the spectrum of the asymmetric rotor in the
+yrast region are seen to correspond to sequences of one-dimensional rota-
+

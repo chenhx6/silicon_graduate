@@ -1,0 +1,31 @@
+{
+  "worker": "G79 Gemini/high",
+  "canonical_root": "raw/writing/gpt/A130/these_2023_template/these_template",
+  "execution": "One section at a time. After a draft+ledger+receipt is delivered, proceed to next independent contract without waiting for parent layout/science review. Apply later feedback narrowly; never overwrite parent-fixed accepted text from staging.",
+  "protected": "No commonBib/wrappers/compile/PLAN/memory/PADO/otherwriterfiles. Newrefs only G79/new-references-SECTION.bib for G76.",
+  "evidence": "Read actualprimary selected pages; exactfile/page_count/printedpage/item/shortanchor for each newcriticalclaim or numericalinput. No fabricatedPDFpages, no model/adopted/experiment mixing. Source/knowledge schemas andactualreadingscope; reuse alreadychecked claims rather than wholebooks.",
+  "writing": "Coherent readersteps, assumptions/units/rivals/failureconditions, no invented personalsetup/data. LaTeX direct, no literalMarkdown**; rawPythonstrings andC0 checks. Use Python SVG/PDF in Img only if explanatorygain, withuniqueproducer/manifestfragment; not every section needsafigure.",
+  "acceptance": "Parent checksactualclaims andsource-dependentmath; worker selfcertification/compileralone do not confer scientificacceptance.",
+  "section": "5.7",
+  "title": "角关联、偏振和delta反演",
+  "goal": "Connect angular-response amplitudes and instrumentcalibration to possible mixing-ratiobranches without imposing a theoreticalmodeprior as data.",
+  "sources": [
+    "Hamilton electromagnetic interaction spectroscopy actualF_k/B_k/U_k/phasechapters",
+    "accepted5.9 includingT15unitmap",
+    "Lv2022 mainPDF2–3 andSIactualgate/responseconditions",
+    "othercompetingoriginalmeasurements ifused"
+  ],
+  "requirements": [
+    "Define δ as dimensionlessradiationamplituderatio in anexplicitphase convention. Not nakedE2/M1 RMEratio; retainenergy/lengthcoefficient andM_S=M_mu/c map of5.9. If convertingCS/BR/Krane-Steffen phases transformangularcoefficients too; do notsignflipdataalone.",
+    "Explain alignmentB_k, geometryF_k, deorientationU_k andfinite-solid-angle attenuation withdeclaredspin/cascade. GenericmixingA_k(δ) rationalquadraticneedsmodelcoefficients, not chosenarbitrary numbers tolookphysical. Assumptions fortruncatingk<=4 explicit; no universalallspins2nd/4thonly.",
+    "DCO isconditionaltwodetector/gatedintensityratio withgeometry/efficiency/gate multipolarity, notsimplysinglesW(theta1)/W(theta2). No universalDCO=.5dipole/1quadrupole. Upstreamgatechangesparentorientation; unknownfeeding mayleavealignmentnuisance.",
+    "Polarizationrawasymmetry/calibrateda(E)/analyzingpowerQ(E) definitions withcoordinate/perp-parallel sign. RelateasymmetrytoP only withrealresponse. P positive isnot universalproofE2 ormode; uncertainty/δcouplingandcalibrationmatter.",
+    "Ratioorangularfit can have multiplecompatibleδ branches inparticulargeometry, not universalexactly2/onedominatesE2. Usejointlikelihood orgrid/profilewithnuisance, keepbothcompatiblebranches; no newp-values withoutcounts. Nuclearstructurepreference cannot discardan experimentalbranch.",
+    "Use concreteexistingcase only atitsactualdata/covariance/gate/calibrationboundary; main+SI samecollection notindependentrepeatedexperiment. Detailedstatmodel goes5.10. Ifplottingδ sensitivity usevalidatedspin/coefficients orclearlynoninstrumenttoy; physicalboundsP<=1 andpositivitymusthold."
+  ],
+  "outputs": [
+    "Tex/Sections/sec-5-7.tex",
+    "latex-evidence-ledger/section-5-7.json",
+    "G79/section-5-7-*"
+  ]
+}

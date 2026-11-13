@@ -1,0 +1,321 @@
+\chapter{两翼算符与开放网络的深入推导}\label{app:wing-operators-networks}
+
+本附录为正文第~4.6~节（同核异能态四大物理机制）、第~4.7~节（弱衰变多极算符与双贝塔微观矩阵元）以及第~4.8~节（开放系统与环境布居动力学）提供自洽、严格的数学算符推导、代数相消证明、马尔可夫吸收网络分析以及开放主方程本征模分解。
+为了保持正文物理图像的紧凑性与连贯性，涉及准自旋群代数 Wigner-Eckart 约化、高阶禁戒形状因子、双贝塔衰变短程手征接触项、多步相继缓发中子吸收链以及非平衡双能级动力学的完整推演统一在此收录。
+
+\section{单 $j$ 壳层准自旋 $\mathrm{SU}(2)$ 代数与同资数相消定理}\label{sec:appD-seniority-quasispin}
+
+\subsection{准自旋算符与李代数换位关系}
+
+考虑由单粒子角动量为 $j$ 的单壳层构成的费米子体系。壳层的单粒子态对简并度定义为：
+\begin{equation}\label{eq:appD-omega-def}
+\Omega_j \equiv j + \frac{1}{2} = \frac{2j + 1}{2}.
+\end{equation}
+为了描述核子之间的短程配对相互作用，定义单壳层双核子配对产生算符与湮灭算符为~\cite{book-jain-nuclear-isomers, book-suhonen-from-nucleons-to-nucleus}：
+\begin{align}
+\hat{S}_+ &\equiv \frac{1}{2} \sum_{m=-j}^j (-1)^{j-m} a_{jm}^\dagger a_{j,-m}^\dagger, \label{eq:appD-splus-def} \\
+\hat{S}_- &\equiv (\hat{S}_+)^\dagger = \frac{1}{2} \sum_{m=-j}^j (-1)^{j-m} a_{j,-m} a_{jm}. \label{eq:appD-sminus-def}
+\end{align}
+对应的中性算符由总粒子数算符 $\hat{N} = \sum_m a_{jm}^\dagger a_{jm}$ 定义为：
+\begin{equation}\label{eq:appD-szero-def}
+\hat{S}_0 \equiv \frac{1}{2} \left( \hat{N} - \Omega_j \right).
+\end{equation}
+利用标准费米子反对易关系 $\{a_{jm}, a_{jm'}^\dagger\} = \delta_{mm'}$，可直接计算算符之间的对易子：
+\begin{equation}\label{eq:appD-quasispin-commutation}
+[\hat{S}_+, \hat{S}_-] = 2 \hat{S}_0, \qquad [\hat{S}_0, \hat{S}_\pm] = \pm \hat{S}_\pm.
+\end{equation}
+式~\eqref{eq:appD-quasispin-commutation} 严格构成了标准李群 $\mathrm{SU}(2)$ 的李代数。因此，多体配对态完全可以按照准自旋角动量理论进行不可约分类。
+
+\subsection{量子数分类、阶梯结构与 Seniority 资数}
+
+设准自旋 Casimir 算符为 $\hat{\mathbf{S}}^2 = \hat{S}_+ \hat{S}_- + \hat{S}_0^2 - \hat{S}_0$。本征态用准自旋量子数 $S$ 及其第三分量投影 $S_0$ 标记为 $|S, S_0\rangle$。
+定义 Seniority（资数）$v$ 为多体态中未配对（未被 $\hat{S}_+$ 束缚成 $J=0$ 对）的价核子数目。由于资数为 $v$ 的基态 $|j^v, v, I\rangle$ 无法再被对湮灭算符破坏：
+\begin{equation}\label{eq:appD-seniority-ground-cond}
+\hat{S}_- |j^v, v, I\rangle = 0,
+\end{equation}
+该态对应于准自旋多重态的最底端态（最低权重态），其粒子数 $n = v$。由式~\eqref{eq:appD-szero-def}，其投影为：
+\begin{equation}\label{eq:appD-s0-lowest}
+S_0^{\min} = \frac{1}{2}(v - \Omega_j) = -S \implies S = \frac{1}{2}(\Omega_j - v).
+\end{equation}
+通过作用对产生算符 $\hat{S}_+$，粒子数按步长 2 递增，生成包含 $(n-v)/2$ 个配对核子的激发多体阶梯态：
+\begin{equation}\label{eq:appD-quasispin-ladder}
+n = v, v + 2, v + 4, \dots, 2\Omega_j - v,
+\end{equation}
+第三分量取值为 $S_0 = \frac{1}{2}(n - \Omega_j) \in [-S, +S]$。
+
+\subsection{单体电多极算符的准自旋张量性质与相消证明}
+
+任意单体无自旋翻转的电磁多极算符在单 $j$ 壳层中展开为：
+\begin{equation}\label{eq:appD-one-body-em-op}
+\hat{T}^{(\lambda)}_\mu = \sum_{m, m'} \langle j m | t^{(\lambda)}_\mu | j m' \rangle a_{jm}^\dagger a_{jm'}.
+\end{equation}
+在准自旋空间中，粒子产生算符与时间反演湮灭算符组成准自旋二重态算符。通过反对易代数分解，偶多极阶数（$\lambda = 2, 4, \dots$ 为偶数，如核心的电四极算符 $E2$）的单体算符在准自旋空间严格变换为\emph{准自旋矢量}（张量秩 $\kappa = 1$ 的算符，其第三分量为 $\kappa_0 = 0$）：
+\begin{equation}\label{eq:appD-e2-quasispin-vector}
+\mathcal{M}(E2) \equiv \hat{T}^{(\kappa=1, \kappa_0=0)}.
+\end{equation}
+根据准自旋空间中的 Wigner-Eckart 定理，任意两个同资数（$\Delta v = 0 \implies \Delta S = 0$）多体态之间的电四极矩阵元，其粒子数依赖性完全由准自旋空间中的 Clebsch-Gordan 系数决定：
+\begin{equation}\label{eq:appD-wigner-eckart-quasispin}
+\langle j^n, v, I_f \| \mathcal{M}(E2) \| j^n, v, I_i \rangle = \frac{\langle S, S_0, 1, 0 \mid S, S_0 \rangle}{\langle S, -S, 1, 0 \mid S, -S \rangle} \langle j^v, v, I_f \| \mathcal{M}(E2) \| j^v, v, I_i \rangle.
+\end{equation}
+利用准自旋矢量 Clebsch-Gordan 系数的显式代数解析表达式：
+\begin{equation}\label{eq:appD-cg-analytical}
+\langle S, S_0, 1, 0 \mid S, S_0 \rangle = \frac{S_0}{\sqrt{S(S+1)}}, \qquad \langle S, -S, 1, 0 \mid S, -S \rangle = \frac{-S}{\sqrt{S(S+1)}}.
+\end{equation}
+代入式~\eqref{eq:appD-s0-lowest} 与 $S_0 = \frac{1}{2}(n - \Omega_j)$，两项之比精确化简为：
+\begin{equation}\label{eq:appD-cg-ratio}
+\frac{\langle S, S_0, 1, 0 \mid S, S_0 \rangle}{\langle S, -S, 1, 0 \mid S, -S \rangle} = \frac{S_0}{-S} = \frac{\frac{1}{2}(n - \Omega_j)}{\frac{1}{2}(v - \Omega_j)} = \frac{n - \Omega_j}{v - \Omega_j} = \frac{\Omega_j - n}{\Omega_j - v}.
+\end{equation}
+因此，同资数电四极矩阵元与基准态矩阵元之间满足普适的单调线性缩放定律：
+\begin{equation}\label{eq:appD-seniority-e2-scaling}
+\langle j^n, v, I_f \| \mathcal{M}(E2) \| j^n, v, I_i \rangle = \frac{\Omega_j - n}{\Omega_j - v} \langle j^v, v, I_f \| \mathcal{M}(E2) \| j^v, v, I_i \rangle.
+\end{equation}
+
+\subsection{半满相消定理与物理边界}
+
+式~\eqref{eq:appD-seniority-e2-scaling} 导出了核结构中著名的\textbf{单壳层同资数电四极跃迁相消定理}：
+当壳层中的核子数恰好等于对简并度时，即系统处于\textbf{半满壳层（Half-Filled Shell, $n = \Omega_j$）}：
+\begin{equation}\label{eq:appD-cancellation-theorem}
+\Omega_j - n = 0 \implies \langle j^{\Omega_j}, v, I_f \| \mathcal{M}(E2) \| j^{\Omega_j}, v, I_i \rangle \equiv 0.
+\end{equation}
+在半满壳层处，电四极跃迁几率 $B(E2; v \to v) \propto |\langle \mathcal{M}(E2) \rangle|^2 \equiv 0$ 精确消失！
+
+在将该定理应用于实验分析时，必须严格遵守以下物理边界条件：
+\begin{enumerate}
+\item 允许占据与节点可达性：在准自旋阶梯中，物理粒子数遍历离散集合 $n = v, v + 2, \dots, 2\Omega_j - v$（满足 $v \le \min(n, 2\Omega_j - n)$）。代数相消点 $n = \Omega_j$ 仅当对简并度 $\Omega_j$ 与资数 $v$ 具有相同奇偶性（$\Omega_j \equiv v \pmod 2$）时，才是准自旋阶梯上实际允许物理占据的可达态。例如对于 $j=9/2$ 壳层（$\Omega_j = 5$ 为奇数），偶数资数态 $v=2$ 仅允许占据 $n = 2, 4, 6, 8$，不包含半满占据 $n=5$，因而在 $v=2$ 阶梯上不存在半满零点；
+\item 资数奇异点处理（$v = \Omega_j$）：当 $v = \Omega_j$ 时，准自旋 $S = 0$，体系为准自旋单态，其粒子数阶梯仅允许单一取值 $n = \Omega_j$。式~\eqref{eq:appD-seniority-e2-scaling} 分母为零仅为表示式奇异，由于准自旋标量态之间跃迁张量三角法则 $|0 - 0| \le 1 \le 0$ 不满足，该单态内同资数跃迁本征为零，不存在真实发散；
+\item 偶多极电跃迁同相消与内转换、磁偶极限制：
+在单 $j$ 壳层同种费米子体系中，所有单粒子偶多极电算符（$L > 0$ 且为偶数，如 $E4, E6$）在粒子-空穴变换下均改变符号，在准自旋空间严格变换为秩 1 矢量张量，因此同资数（$\Delta v = 0$）的所有偶多极电跃迁矩阵元在半满壳处同样完全相消，不能寄希望于在同资数纯单 $j$ 空间内通过 $E4$ 等更高阶偶多极电跃迁维持衰变；同时，内转换电子发射速率正比于核跃迁矩阵元的绝对模平方（$\Gamma_e = \alpha \Gamma_\gamma \propto |\langle \mathcal{M} \rangle|^2$），内转换与光子辐射共享同一微观核矩阵元，在核跃迁矩阵元严格相消时内转换几率同样精确为零，无法独立绕过相消点；此外，同种核子纯单 $j$ 壳层内的磁偶极算符严格正比于总角动量算符（$\hat{\mathbf{M}}(M1) = \mu_N g_j \hat{\mathbf{J}}$），其在不同角动量态之间的非对角跃迁矩阵元恒等于零（$\langle J_f \| \hat{\mathbf{J}} \| J_i \rangle = 0, J_f \ne J_i$）。
+因此，真实原子核在半满壳附近呈现的有限寿命退激出口，并非源自纯单 $j$ 壳层内的同资数跃迁，而是依赖于：（a）跨资数跃迁（$\Delta v = 2$，准自旋张量秩 1 允许连接 $S \to S \pm 1$）；（b）多个单粒子能级的组态混合与核芯极化效应打破了纯单 $j$ 几何对称性。正如第~4.6~节对 $^{130}\mathrm{Sn}$（两中子空穴，并非半满相消点）与同类异能态的细致分析所示，核态的真实总衰变寿命由全部开放通道的微观矩阵元综合决定，不可简单套用孤立的单点相消断言。
+\end{enumerate}
+
+\section{$K$ 禁戒度、Weisskopf 阻碍与非正交投影展开}\label{sec:appD-k-forbidden}
+
+\subsection{轴对称转子模型 $K$ 禁戒度与 Weisskopf 阻碍因子}
+
+在轴对称形变核中，核总角动量沿对称轴的投影量子数记为 $K$。对于纯辐射多极阶数为 $\lambda$ 的电磁跃迁，初末态投影差必须满足角动量矢量耦合选择定则：
+\begin{equation}\label{eq:appD-k-selection-rule}
+\Delta K \equiv |K_i - K_f| \le \lambda.
+\end{equation}
+当两个高 $K$ 组态之间发生退激、且其投影差超出辐射多极阶数时，定义\textbf{$K$ 禁戒度}为：
+\begin{equation}\label{eq:appD-k-forbiddenness-nu}
+\nu \equiv \Delta K - \lambda = |K_i - K_f| - \lambda > 0.
+\end{equation}
+
+为了量化跃迁受阻碍的程度，实验上将测得的偏 $\gamma$ 跃迁半衰期 $T_{1/2}^\gamma$ 与 Weisskopf 单粒子单极半衰期估计值 $T_{1/2}^W(\lambda)$ 进行对比，定义实验 Weisskopf 阻碍因子（Hindrance Factor）为：
+\begin{equation}\label{eq:appD-hindrance-factor}
+F_W \equiv \frac{T_{1/2}^\gamma}{T_{1/2}^W(\lambda)} = \frac{B_W(\lambda)}{B(\lambda; I_i \to I_f)}.
+\end{equation}
+其中实验部分光子半衰期由测得的核态平均寿命 $\tau$、总分支比 $b_\gamma$ 及全内转换系数 $\alpha_{\mathrm{tot}}$ 严格确定：
+\begin{equation}\label{eq:appD-t12-gamma}
+T_{1/2}^\gamma = \tau \ln 2 \cdot \frac{1 + \alpha_{\mathrm{tot}}}{b_\gamma}.
+\end{equation}
+
+\subsection{平均折合阻碍度 $f_\nu$ 的物理性质与局限}
+
+为了在不同禁戒阶数 $\nu$ 的异能态之间建立可比标度，广泛采用经验的折合阻碍度（Reduced Hindrance per Degree of Forbiddenness）：
+\begin{equation}\label{eq:appD-fnu-def}
+f_\nu \equiv (F_W)^{1/\nu} = \left( \frac{T_{1/2}^\gamma}{T_{1/2}^W} \right)^{1/\nu}.
+\end{equation}
+在理想的刚性轴对称转子模型中，每跨越一个禁戒单位，微观波函数重叠受到 Corioils 相互作用或四极扰动的微扰衰减，使得 $f_\nu$ 在经验统计上保持在 $10$ 至 $100$ 范围（Jain et al. 2015 统计规范~\cite{book-jain-nuclear-isomers}）。
+然而，必须在理论上严格界定：
+\begin{enumerate}
+\item $f_\nu$ 是实验宏观跃迁率的几何平均表征，\emph{绝对不是微观量子电动力学的第一性原理守恒常数}；
+\item $f_\nu$ 的急剧崩塌是指示非轴对称形变的敏感探针：当原子核具备显著的三轴形变（$\gamma \ne 0^\circ$）时，非轴对称势阱引入强烈的 $\Delta K = \pm 2$ 组态相干混合，波函数中的微小杂质分量开通了低禁戒度的旁路跃迁通道，导致表观 $f_\nu$ 急剧下降至小于 5 甚至接近 1。因此，不能仅凭孤立谱线的较小辐射几率断言其形变性质。
+\end{enumerate}
+
+\subsection{非正交基下的两端态投影展开与范数核接口}
+
+当核多体波函数由三维角动量投影自约束内禀 Hartre-Fock-Bogoliubov (HFB) 组态生成时（见附录 B），初态 $|\Psi_i\rangle$ 与末态 $|\Psi_f\rangle$ 的内禀轴对称对称性可能不同。跃迁算符在投影非正交态之间的约化矩阵元必须计入重叠范数核：
+\begin{equation}\label{eq:appD-projected-nme}
+\langle \Psi_f^{I_f K_f} \| \hat{\mathcal{M}}(\lambda) \| \Psi_i^{I_i K_i} \rangle = \frac{\int \mathrm{d}\Omega \, D^{I_f *}_{M_f K_f}(\Omega) \langle \Phi_f | \hat{\mathcal{M}}(\lambda) \hat{R}(\Omega) | \Phi_i \rangle}{\sqrt{\mathcal{N}_{I_f K_f} \mathcal{N}_{I_i K_i}}},
+\end{equation}
+式中 $\mathcal{N}_{IK}$ 为附录 B 式~\eqref{eq:appB-haar-measure} 定义的三维角动量投影范数核积分。投影算符的非正交性自然包含了内禀态之间的几何错位与组态重叠，消除了简单绝热近似在小形变下的代数发散。
+
+\section{弱相互作用多极算符分解与双贝塔短程接触项}\label{sec:appD-weak-operators}
+
+\subsection{闭合单体算符和定则与相空间积分率的解耦}
+
+在弱电同位旋代数中，裸单体 Gamow-Teller 算符定义为 $\hat{\boldsymbol{\beta}}^\mp_{GT} = \sum_k \boldsymbol{\sigma}(k) t_\mp(k)$。利用同位旋算符的标准对易关系 $[t_+, t_-] = 2 t_3$，在无截断的全状态空间闭合条件下，Ikeda 差和定则严格导出为空间-同位旋几何恒等式（第~2.7~节式~\eqref{eq:2-7-ikeda-result}）：
+\begin{equation}\label{eq:appD-ikeda-sum-rule}
+S_\mp \equiv \sum_{f_\mp} B(GT^\mp; J_i \to J_f) = \frac{1}{2J_i + 1} \sum_{f_\mp} |\langle f_\mp \| \hat{\boldsymbol{\beta}}^\mp_{GT} \| J_i \rangle|^2 \implies S_- - S_+ = 3(N - Z).
+\end{equation}
+式~\eqref{eq:appD-ikeda-sum-rule} 完全独立于外在弱相互作用耦合常数 $g_A^2$，亦未包含任何轻子运动学因子的加权。若引入全局有效淬灭因子 $q \equiv g_A^{\mathrm{eff}} / g_A^{\mathrm{bare}}$，差和按 $q^2$ 缩放为 $3 q^2 (N - Z)$；而在截断模型空间中，差和的严格满足要求包含完整的自旋-轨道劈裂伙伴轨道（Suhonen 2007 式 (17.83)–(17.84)），且弱两体介子交换流（2BC）的引入将修正简单的一体对易关系。
+
+相反，实验上测得的物理衰变常数 $\lambda = \ln 2 / T_{1/2}$ 是跃迁强度在有限衰变能释放窗 $Q_\beta$ 内与微分轻子相空间加权积分的宏观结果：
+\begin{equation}\label{eq:appD-lambda-phase-space}
+\lambda = \frac{(G_F^{(E)})^2 |V_{ud}|^2 (m_e c^2)^5}{2\pi^3 \hbar} \int_1^{W_0} F(Z, W) p W (W_0 - W)^2 C(W) \, \mathrm{d}W.
+\end{equation}
+因此，有限价空间截断不仅造成高能巨共振强度的遗漏，有限的动能释放窗 $Q_\beta$ 更是使得绝大多数核素仅能观测到极小一部分允许或禁戒跃迁强度。不能将低能衰变强度的不足简单解释为基本弱流耦合常数的微观改变。
+
+\subsection{一阶禁戒衰变算符的四维张量秩分解}
+
+当允许 Gamow-Teller 与 Fermi 跃迁被宇称选择定则严格禁戒（初末态宇称反转 $\pi_i \pi_f = -1$）时，弱衰变主要由一阶禁戒（First-Forbidden, FF）通道驱动。
+根据非相对论多极展开，一阶禁戒算符由四个具有不同空间对称性与张量秩的微观算符构成~\cite{doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives}：
+\begin{enumerate}
+\item 秩为 0 的类时轴荷算符：
+\begin{equation}\label{eq:appD-ff-rank0}
+\hat{\mathcal{O}}_0 \propto \gamma_5 \to \frac{\boldsymbol{\sigma} \cdot \mathbf{p}}{m_N};
+\end{equation}
+\item 秩为 1 的矢量算符与轴矢量算符：
+\begin{equation}\label{eq:appD-ff-rank1}
+\hat{\mathcal{O}}_1^V \propto \mathbf{r}, \quad \boldsymbol{\alpha} \to \frac{\mathbf{p}}{m_N}; \qquad \hat{\mathcal{O}}_1^A \propto [\mathbf{r} \times \boldsymbol{\sigma}]^{(1)};
+\end{equation}
+\item 秩为 2 的空间张量算符：
+\begin{equation}\label{eq:appD-ff-rank2}
+\hat{\mathcal{O}}_2 \propto [\mathbf{r} \otimes \boldsymbol{\sigma}]^{(2)}.
+\end{equation}
+\end{enumerate}
+各张量分量通过出射轻子的大分量与小分量狄拉克波函数干涉，在式~\eqref{eq:appD-lambda-phase-space} 中合成能量依赖的非平坦谱形状因子：
+\begin{equation}\label{eq:appD-ff-shape-factor}
+C(W) = k_0 + k_1 W + k_{-1} W^{-1} + k_2 W^2,
+\end{equation}
+各系数 $k_i$ 包含不同秩微观核矩阵元之间的相干干涉项。在 $N=126$ 等待点核区，由于中子跨壳跃迁（如 $\nu 1i_{13/2} \to \pi 1h_{9/2}$）受泡利阻塞压低，一阶禁戒跃迁显著增强，成为主导快中子俘获过程寿命的关键机制。
+
+\subsection{双贝塔衰变矩阵元与手征有效场论短程接触算符}
+
+在标准轻 Majorana 中微子交换机制下，$0\nu\beta\beta$ 的理论半衰期由式~\eqref{eq:4-7-0nubb-halflife} 给出。物理过程由核内两个弱流顶点之间交换一条虚中微子传播子所驱动，传播子积分跨越极其宽广的虚拟动量谱：
+\begin{equation}\label{eq:appD-0nubb-virtual-momentum}
+|\mathbf{q}| \sim 100\text{--}200\,\mathrm{MeV}/c,
+\end{equation}
+探测的是 $r \sim 1$–$2\,\text{fm}$ 的短程核结构。
+
+传统的核矩阵元通常分解为长程类库仑势积分：
+\begin{equation}\label{eq:appD-0nubb-long-range}
+M_{0\nu}^{\mathrm{long}} = M_{GT} - \left(\frac{g_V}{g_A}\right)^2 M_F + M_T.
+\end{equation}
+然而，Cirigliano 等人（2018）基于手征有效场论（Chiral EFT）分析指出~\cite{cirigliano-2018-leading-short-range-double-beta}：当在非微扰散射理论下求解核子间的双核子 $^1S_0$ 状态时，单独的长程单中微子交换势 $V_\nu^{\mathrm{long}} \sim 1/r_{12}$ 将在薛定谔方程中产生未被吸收的紫外发散。为了使散射振幅与核矩阵元满足微观重整化群不变性，必须在手征领头阶（Leading Order, LO）显式引入一个 $\Delta L = 2$ 的两核子短程接触相互作用势。Cirigliano 等在文献中以 $\tau_{1,+} \tau_{2,+}$ 标示 $n n \to p p$ 同位旋跃迁；转换至本工作同位旋约定（$t_3(n) = +1/2, t_- |n\rangle = |p\rangle$），在剥离弱电相空间前因子后，其在自然单位制与坐标空间中的 $^1S_0$ 剥离相互作用势写作：
+\begin{equation}\label{eq:appD-contact-potential}
+V_{\mathrm{CT}}^{(R)}(\mathbf{r}_{12}) = -2 g_\nu^{NN}(R) \delta_R^{(3)}(\mathbf{r}_{12}) t_{1,-} t_{2,-},
+\end{equation}
+其中低能耦合常数 $g_\nu^{NN}(R)$ 具有正规化方案与截断尺度依赖性。现有分析尝试通过同位旋电荷独立性破缺（CIB）电磁质量分裂数据约束反项低能常数组合（$C_1 + C_2$），但若要唯一分离出单一耦合 $g_\nu^{NN} = C_1$ 仍需引入额外对称性假设（如 $C_1 \approx C_2$）或与相容的格点 QCD 匹配，不能单凭 CIB 数据断言唯一标定。
+必须严肃明确两项科学边界：
+\begin{enumerate}
+\item 该短程接触算符是理论自洽重整化的必需项，并不等于在数值上它必然压倒传统长程分量；
+\item 该项专属于 $\Delta L = 2$ 的双核子超弱通道，绝不可将其与单 $\beta$ 衰变中源自介子交换流的两体弱轴流（2BC）有效算符淬灭同名混同。
+\end{enumerate}
+
+\section{$\beta$ 缓发粒子发射的马尔可夫吸收网络与多重度归一}\label{sec:appD-delayed-neutron-network}
+
+\subsection{相继级联退激的吸收马尔可夫链模型}
+
+考虑前驱母核经 $\beta$ 跃迁馈送至子核连续谱激发态后的相继退激网络。由于原子核激发能级的退激速率远快于前驱母核的弱衰变周期，处于复合态的核体系退激可表述为一个吸收马尔可夫链模型。
+
+为了准确记录退激过程中释放的中子数目，状态空间必须扩展为包含核能态与已发射中子数累积标签的增广状态 $(a, m)$：
+\begin{itemize}
+\item 瞬态子空间（Transient States, $\mathcal{S}_T$）：处于高激发能区、尚未完成全部粒子或辐射退激的复合态中间能级 $(a, m)$；
+\item 吸收态子空间（Absorbing States, $\mathcal{S}_A$）：已完全落入在观测时窗内不再发中子的束缚基态或超长寿命同核异能态 $(t, x)$，其中 $x$ 为终态原子核体系累积发射的中子总数。
+\end{itemize}
+单步转移过程中，若能级 $a$ 释放 $r$ 个中子（$r = 0, 1, 2, \dots$）跃迁至能级 $b$，增广状态更新为 $(a, m) \to (b, m + r)$，其转移概率为 $\frac{\Gamma^{(r)}_{a \to b}}{\Gamma_{\mathrm{tot}}(a)}$。若状态未增广而仅按核能级 $a$ 标记，则终态转移矩阵只能记录最后一步的中子数，无法恢复先前的中子发射历史。
+
+\subsection{终态吸收概率与全多重度归一化证明}
+
+令 $\Pi_x(a)$ 为从瞬态能级 $a$ 出发的级联最终总共释放 $x$ 个中子的吸收概率，满足吸收马尔可夫链的离散差分平衡方程（第~4.7~节式~\eqref{eq:4-7-cascade-pi-def}）：
+\begin{equation}\label{eq:appD-pi-balance}
+\Pi_x(a) = \sum_{b, r} \frac{\Gamma^{(r)}_{a \to b}}{\Gamma_{\mathrm{tot}}(a)} \Pi_{x-r}(b), \qquad \Pi_{x < 0}(a) \equiv 0,
+\end{equation}
+对任意吸收终态 $t \in \mathcal{S}_A$，固有边界条件为 $\Pi_x(t) = \delta_{x0}$。
+若引入基本逆矩阵
+\begin{equation}\label{eq:appD-fundamental-matrix}
+\mathbf{N} \equiv (\mathbf{I} - \mathbf{Q})^{-1} = \sum_{m=0}^\infty \mathbf{Q}^m.
+\end{equation}
+（要求增广状态转移矩阵谱半径 $\rho(\mathbf{Q}) < 1$），终态吸收矩阵由 $\mathbf{B} = \mathbf{N} \mathbf{R}$ 给出；或者引入计数生成函数 $G_a(s) \equiv \sum_{x=0}^\infty \Pi_x(a) s^x$，方程化为代数线性方程组。
+当所有开放通道均被纳入且在选定时窗内几乎必然发生完全吸收时，吸收概率满足严格的条件全概归一性：
+\begin{equation}\label{eq:appD-pi-sum-unity}
+\sum_{x \ge 0} \Pi_x(a) \equiv 1 \quad (\forall a \in \mathcal{S}_T).
+\end{equation}
+
+令 $I_\beta(i)$ 为前驱母核弱相互作用直接馈送至激发态 $i$ 的无量纲概率，其母态总分支比满足：
+\begin{equation}\label{eq:appD-ibeta-sum}
+\sum_{i} I_\beta(i) = b_\beta \le 1.
+\end{equation}
+按每次母态总衰变归一的最终 $x$ 中子发射净分支比为 $P_{xn}^{(\beta;\mathrm{parent})} = \sum_{i} I_\beta(i) \Pi_x(i)$，求和满足 $\sum_{x=0}^\infty P_{xn}^{(\beta;\mathrm{parent})} = b_\beta \le 1$；按条件 $\beta$ 衰变事件归一的中子发射几率则为 $P_{xn}^{(\beta\mid\beta)} = P_{xn}^{(\beta;\mathrm{parent})} / b_\beta$，满足 $\sum_{x=0}^\infty P_{xn}^{(\beta\mid\beta)} = 1$。
+
+\subsection{阈上竞争与离心势垒阻碍的教学模型}
+
+为了直观证明为何“$Q_\beta > S_n$ 并不等于必定发射中子”，考虑如下简化的教学二能级竞争模型：
+设母核衰变布居了子核处于中子分离能微小上方的一个激发态 $|a\rangle$，其可用出射中子动能为 $\Delta E = E_x - S_n$。
+在标准 R-矩阵通道穿透因子定义下~\cite{book-bertulani-nuclear-reactions}，部分中子发射宽度为：
+\begin{equation}\label{eq:appD-neutron-width-scaling}
+\Gamma_n(\Delta E) = 2 \gamma_l^2 P_l(\Delta E),
+\end{equation}
+其中 $\gamma_l^2$ 为道约化宽度，中性粒子穿透因子 $P_l(\Delta E) = k R v_l(k R)$ 本身已包含了速度相空间因子 $k = \sqrt{2\mu \Delta E}/\hbar$。在低能极限下，穿透因子满足阈值渐近行为：
+\begin{equation}\label{eq:appD-centrifugal-suppression}
+P_l(\Delta E) \propto k^{2l+1} \propto (\Delta E)^{l + 1/2}.
+\end{equation}
+对于 $s$ 波（$l=0$），$P_0 \propto \sqrt{\Delta E}$，因而 $\Gamma_n \propto \sqrt{\Delta E}$；对于高角动量出射（如 $p$ 波 $l=1$ 或 $d$ 波 $l=2$），离心势垒 $V_l(r) = \frac{\hbar^2 l(l+1)}{2\mu r^2}$ 导致穿透因子随动能急剧跌落（$\Gamma_n \propto (\Delta E)^{l+1/2}$）。不可在 $P_l$ 之外再重复乘入一个 $\sqrt{\Delta E}$ 速度因子。
+相反，退激回到子核束缚态的辐射电磁跃迁宽度满足多极辐射定律 $\Gamma_\gamma \propto E_\gamma^{2\lambda + 1}$，在 MeV 能区具有相对平缓的量级。
+因此，单步中子发射分支比为：
+\begin{equation}\label{eq:appD-branch-competition}
+\frac{\Gamma_n}{\Gamma_{\mathrm{tot}}} = \frac{\Gamma_n}{\Gamma_n + \Gamma_\gamma} \ll 1.
+\end{equation}
+当离心势垒阻碍强烈且出射动能极微时，$\Gamma_n \ll \Gamma_\gamma$，原子核依然可能以显著几率通过发射级联 $\gamma$ 光子退激回子核束缚态。实际单中子发射率强烈依赖于具体的约化核宽度与竞争道参数，单凭阈值无法给出固定的数值分支。
+
+\section{开放环境布居网络、两态平衡与特征本征模}\label{sec:appD-open-network}
+
+\subsection{开放两态动力学主方程}
+
+在天体物理极端环境（如超新星爆发、中子星并合的高温恒星光子热浴）或在束核反应驱动下，原子核体系不断与外界环境发生非弹性散射、光核激发与粒子交换，构成典型的非平衡开放系统。
+设体系由两个相互连接的低激发物理状态 $|1\rangle$ 与 $|2\rangle$ 构成（例如同核异能态与基态，能量差为 $\Delta E$）。状态之间的微观布居转移率分别为 $a$（从 $|1\rangle \to |2\rangle$）与 $b$（从 $|2\rangle \to |1\rangle$）。各状态同时通过外部衰变漏出通道（Sinks，如粒子发射、裂变或向外界环境的非可逆退激）具有损耗衰变率 $D_1$ 与 $D_2$（单位为时间的倒数 $\mathrm{s}^{-1}$，以区别于电磁能宽 $\Gamma = \hbar \lambda$），并接收外部连续核反应的恒定注入流（Sources）$S_1$ 与 $S_2$。
+
+描述两态粒子数布居 $N_1(t)$ 与 $N_2(t)$ 演化的线性常微分主方程组为：
+\begin{equation}\label{eq:appD-master-eq-2state}
+\frac{\mathrm{d}}{\mathrm{d}t} \begin{pmatrix} N_1(t) \\ N_2(t) \end{pmatrix} = \mathbf{A} \begin{pmatrix} N_1(t) \\ N_2(t) \end{pmatrix} + \begin{pmatrix} S_1 \\ S_2 \end{pmatrix},
+\end{equation}
+其中系统耦合演化矩阵为：
+\begin{equation}\label{eq:appD-coupling-matrix}
+\mathbf{A} = \begin{pmatrix} -(a + D_1) & b \\ a & -(b + D_2) \end{pmatrix}.
+\end{equation}
+
+\subsection{特征本征值、弛豫模与闭合交换极限}
+
+求解矩阵 $\mathbf{A}$ 的本征值代数方程 $\det(\lambda \mathbf{I} - \mathbf{A}) = 0$：
+\begin{equation}\label{eq:appD-char-eq}
+\lambda^2 + (a + b + D_1 + D_2) \lambda + \left[ (a + D_1)(b + D_2) - a b \right] = 0.
+\end{equation}
+该二次方程的两个特征根为：
+\begin{equation}\label{eq:appD-eigenvalues-2state}
+\lambda_\pm = -\frac{1}{2}(a + b + D_1 + D_2) \pm \frac{1}{2} \sqrt{[(a - b) + (D_1 - D_2)]^2 + 4 a b}.
+\end{equation}
+判别式展开为非负形式：$\Delta \equiv [(a - b) + (D_1 - D_2)]^2 + 4 a b \ge 0$。判别式在 $a=b=0$ 且 $D_1 = D_2$ 时可取到零（此时出现退化本征根，线性传播由 Jordan 块保证解的有界性）；对于非负物理速率，两个本征根严格为实数且满足 $\lambda_\pm \le 0$。
+
+考察两个极限物理情形：
+\begin{enumerate}
+\item \textbf{闭合保守交换极限（$D_1 = D_2 = 0$ 且无外部注入）：}
+此时体系总粒子数守恒（$\frac{\mathrm{d}}{\mathrm{d}t}(N_1 + N_2) = 0$）。当 $a + b > 0$ 时，本征根为：
+\begin{equation}\label{eq:appD-closed-eigenvalues}
+\lambda_1 = 0, \qquad \lambda_2 = -(a + b).
+\end{equation}
+零本征值 $\lambda_1 = 0$ 对应于总粒子数守恒下的平衡渐近分布；负本征值 $\lambda_2$ 决定了内部粒子交换的弛豫时间尺度：
+\begin{equation}\label{eq:appD-texch-def}
+\tau_{\mathrm{exch}} \equiv \frac{1}{a + b}.
+\end{equation}
+系统任意初始布居均以特征时间 $\tau_{\mathrm{exch}}$ 指数收敛至由分支比决定的平衡份额 $f_1 = b/(a+b)$ 与 $f_2 = a/(a+b)$。收敛性严格要求内部交换通道开启（$a + b > 0$）；若 $a=0$ 或 $b=0$，应采用份额形式而非除法比值。
+\item \textbf{等共同漏失下的归一化份额弛豫（$D_1 = D_2 = D > 0$）：}
+若两态具有完全相同的外部耗散率 $D$，总粒子数按 $e^{-Dt}$ 衰减。定义归一化组分份额 $f(t) \equiv N_2(t) / [N_1(t) + N_2(t)]$，直接求导可知等漏失项在分式导数中精确相消：
+\begin{equation}\label{eq:appD-equal-loss-relaxation}
+\frac{\mathrm{d}f}{\mathrm{d}t} = a - (a + b) f.
+\end{equation}
+因此，只要体系尚未全部衰变殆尽（$N_1 + N_2 > 0$），归一化份额依然严格以特征速率 $a + b$ 弛豫至平衡比例 $a/(a+b)$。这一弛豫速率并不要求 $D = 0$ 才能成立。
+\item \textbf{开放耗散分层极限（$a, b \gg D_1, D_2$）：}
+当内部两态交换速率远大于外部损耗率时，本征值按比值 $D_i / (a+b)$ 展开：
+\begin{equation}\label{eq:appD-open-fast-slow}
+\lambda_{\mathrm{fast}} \approx -(a + b) - \frac{a D_1 + b D_2}{a + b}, \qquad \lambda_{\mathrm{slow}} \approx -\frac{b D_1 + a D_2}{a + b}.
+\end{equation}
+领先阶快模以时间尺度 $\tau_{\mathrm{fast}} \approx 1/(a+b)$ 迅速使两态达到局部平衡比例 $N_1/N_2 \approx b/a$；随后，慢模以有效加权耗散率 $D_{\mathrm{eff}} = \frac{b D_1 + a D_2}{a + b}$ 控制整个两态耦合包络向外界环境发生不可逆耗散。
+\end{enumerate}
+
+\subsection{定态存在性、正定性与细致平衡边界}
+
+在存在持续外部注入（$S_1, S_2 \ge 0$）的定态下，令微分项为零：$\mathbf{A} \mathbf{N}_{\mathrm{ss}} + \mathbf{S} = 0$。由 Cramer 法则，定态解为：
+\begin{align}
+N_{1, \mathrm{ss}} &= \frac{(b + D_2) S_1 + b S_2}{a D_2 + b D_1 + D_1 D_2}, \label{eq:appD-n1-ss} \\
+N_{2, \mathrm{ss}} &= \frac{a S_1 + (a + D_1) S_2}{a D_2 + b D_1 + D_1 D_2}. \label{eq:appD-n2-ss}
+\end{align}
+必须明确定态解的物理存在性条件：分母行列式 $\det(-\mathbf{A}) = a D_2 + b D_1 + D_1 D_2$ 并非在任意非负速率下自动大于零。若体系完全无外部漏出通道（$D_1 = D_2 = 0$），分母严格为零；此时在正源注入（$S_1 + S_2 > 0$）下系统粒子数随时间线性增长，根本不存在有限定态。因此，有限非负定态解（$N_{i,\mathrm{ss}} \ge 0$）存在的充分必要条件是\textbf{存在从两态均可达的非零耗散漏失通道}（即 $a D_2 + b D_1 + D_1 D_2 > 0$）。
+
+在处于完全热动平衡的黑体辐射光子浴中，两态之间的无外源跃迁率满足爱因斯坦自发辐射与受激吸收的微观可逆性，形成\textbf{细致平衡原理（Detailed Balance）}：
+\begin{equation}\label{eq:appD-detailed-balance}
+\frac{a}{b} = \frac{g_2}{g_1} \exp\left( -\frac{\Delta E}{k_B T} \right),
+\end{equation}
+其中 $g_1, g_2$ 为态的自旋统计简并度。
+必须澄清该原理的适用边界：细致平衡关系式~\eqref{eq:appD-detailed-balance} 依赖于光子浴处于完全热动平衡状态。在低能核反应在束实验、激光等离子体碰撞或中微子非热退耦环境下，外场具备强非热特征或定向流，微观跃迁由非平衡有效截面主导；此时两态演化依然可以通过基于微观反应率的经典主方程描述；只有当外场引入相干激发或量子相干叠加不可忽略时，才需要引入密度矩阵形式体系，而马尔可夫 Lindblad 耗散主方程则进一步要求弱耦合、长寿命热浴与久期近似条件，并非对所有非热环境普适。

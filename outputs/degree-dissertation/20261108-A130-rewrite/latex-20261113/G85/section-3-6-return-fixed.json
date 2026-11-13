@@ -1,0 +1,61 @@
+{
+  "worker": "G85 (Gemini Tiered/high)",
+  "section_id": "3.6",
+  "title": "gamma形状模与取向模的耦合",
+  "recorded_at": "2026-11-13T15:45:00+00:00",
+  "status": "section-3-6-return-fixed-ready-for-parent-acceptance",
+  "canonical_tex_path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Sections/sec-3-6.tex",
+  "canonical_tex_sha256": "099794328103ce15d1a902a3ff3eaa13021ae4bd132e1a989c9a52240abc614a",
+  "canonical_ledger_path": "raw/writing/gpt/A130/latex-evidence-ledger/section-3-6.json",
+  "canonical_ledger_sha256": "40dadcbbb1a87b6910500a37fb9d745bc0a0fad19fae5091d871a6dcd626d64a",
+  "fixed_items": [
+    {
+      "item_id": "3.6-FIX-1",
+      "topic": "两坐标微振动模型与共振点能隙记号",
+      "action_applied": "两坐标H、质量加权M与omega_pm^2保留；共振点频率平方差严格记为Delta(omega^2)|_res = omega_+^2 - omega_-^2 = 2|C12|/sqrt(B1 B2)，避免(Delta omega_min)^2混为频率差平方；说明常质量/刚度模型尚未包含推转科氏陀螺速度耦合项，不宣称为所有QRPA精确约化，不把参数拟合当实核测量。",
+      "anchor_in_tex": "\\Delta(\\omega^2)\\big|_{\\mathrm{res}} = \\omega_+^2 - \\omega_-^2 = \\frac{2 |C_{12}|}{\\sqrt{B_1 B_2}}"
+    },
+    {
+      "item_id": "3.6-FIX-2",
+      "topic": "两态量子混合atan2无歧义定义与奇异边界",
+      "action_applied": "声明重定相两基底态使V>=0为实数，同自旋Ii与宇称pi；定义Delta = e1 - e2，混合角由2 theta = atan2(2V, Delta)严格定义在[0, pi]使theta属于[0, pi/2]；两态写为|+> = cos theta |1> + sin theta |2>, |-> = -sin theta |1> + cos theta |2>，完全覆盖Delta<0成分反转；补充说明V=Delta=0处完全简并，atan2(0,0)无法良定物理角，任意正交基可选，V=0且Delta!=0沿连续支路平滑读取；RME在同一重定相基底中定义。",
+      "anchor_in_tex": "2\\theta = \\operatorname{atan2}(2V, \\Delta) \\in [0, \\pi] \\implies \\theta \\in [0, \\pi/2]"
+    },
+    {
+      "item_id": "3.6-FIX-3",
+      "topic": "B(E2)干涉展开式补全初态自旋统计权因子",
+      "action_applied": "在式(3.6.10)干涉展开式前严格补全初态自旋统计加权因子1/(2Ii+1)，双竖线明确为标准Wigner-Eckart约化矩阵元；说明跃迁强度总和守恒要求严格相同的初态统计权、固定算符与二态子空间完备封闭性。",
+      "anchor_in_tex": "B(E2; |+\\rangle \\to |f\\rangle) = \\frac{1}{2I_i + 1} \\left| \\cos\\theta\\,\\langle f || \\mathcal{M}(E2) || 1 \\rangle + \\sin\\theta\\,\\langle f || \\mathcal{M}(E2) || 2 \\rangle \\right|^2"
+    },
+    {
+      "item_id": "3.6-FIX-4",
+      "topic": "推转对称性破缺与转动赝模微观剔除",
+      "action_applied": "删除过度简化的箭头定理，阐明破缺参考态与自洽响应相容时产生微观NG零能模；横向转动赝模可在推转频率omega_rot附近表现为有限频率运动学赝模，必须通过二次拉伸四极自洽残余力对角分离并剔除，防止污染真实低激发带。",
+      "anchor_in_tex": "在有限频率推转平均场下，绕转动轴垂直方向的横向转动赝模可能在推转频率 $\\omega_{\\mathrm{rot}}$ 附近表现为有限频率的运动学赝模"
+    },
+    {
+      "item_id": "3.6-FIX-5",
+      "topic": "有效横向惯量的动态探针响应导数定义",
+      "action_applied": "废除原0/0奇异的<Jk>/wk形式，修改为小振幅探针响应导数J_kl^eff(Omega; omega_rot) = (delta <J_k>(Omega)/delta omega_l(Omega))|_omega_rot，明确其探针与参考频率依赖性，阐明沿带动力学惯量J^(2)不能代替横向有效惯量。",
+      "anchor_in_tex": "\\mathcal{J}_{kl}^{\\mathrm{eff}}(\\Omega; \\omega_{\\mathrm{rot}}) = \\left. \\frac{\\delta \\langle \\hat{J}_k \\rangle(\\Omega)}{\\delta \\omega_l(\\Omega)} \\right|_{\\omega_{\\mathrm{rot}}}"
+    },
+    {
+      "item_id": "3.6-FIX-6",
+      "topic": "Oi & Walker 2001 原件实读与历史模型探索定位",
+      "action_applied": "严格按PDF pp. 2–4实读纠错：指出Oi 2001是对164Hf采用TAC-HFB沿倾角自洽松弛gamma并做示意1D量子化，四重S/A态为局域态波函数节点分类而非守恒宇称；未给实测绝对EM重分配，势面未重现TSD极小形变，质量归一因子2疑点保留，定性为有条件历史模型探索而非实核谱学确证。",
+      "anchor_in_tex": "该文献应定位为一项具有明确简化条件的历史性模型探索，而非实核谱学确证"
+    },
+    {
+      "item_id": "3.6-FIX-7",
+      "topic": "教学配图严谨解耦与图注说明",
+      "action_applied": "图fig:3-6-mode-mixing在正文与图注中均明确声明展示的是独立二态量子混合教学模型的数学特性，不硬等同于连续微振动正规模，不代表实核数据，分清模型表象与实测测量。",
+      "anchor_in_tex": "图示展示的是独立的二态模型数学特性，不代表实核数据"
+    },
+    {
+      "item_id": "3.6-FIX-8",
+      "topic": "三处同步与规范落地",
+      "action_applied": "sec-3-6.tex、section-3-6.json与知识笔记实现严格事实与公式同步，G85/new-references-3-6.bib备齐条目，不改动公共BibTeX。",
+      "anchor_in_tex": "完整就绪，等待父审"
+    }
+  ]
+}

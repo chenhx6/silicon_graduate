@@ -1,0 +1,163 @@
+{
+  "appendix_id": "E",
+  "title": "数字算法与模块实现的声明条件",
+  "worker": "G79",
+  "recorded_at": "2026-11-13T19:05:00.000000+00:00",
+  "output_latex": {
+    "path": "raw/writing/gpt/A130/these_2023_template/these_template/Tex/Appendices/AppendixE.tex",
+    "sha256": "d7d29150e8737900e5f22675eff7f5f2d3aea1f64f0b59f9043fbeff4b2b8f03",
+    "equations_count": 25,
+    "tables_count": 1,
+    "algorithms_count": 2,
+    "figures_count": 0,
+    "labels": [
+      "app:digital-algorithms",
+      "sec:appE-pzc",
+      "eq:appE-csp-model",
+      "eq:appE-m-def",
+      "eq:appE-pzc-recurrence",
+      "sec:appE-trapezoid",
+      "eq:appE-trap-dk",
+      "eq:appE-trap-pn",
+      "eq:appE-trap-rn",
+      "eq:appE-trap-sn",
+      "eq:appE-trap-z-transform",
+      "eq:appE-fir-length",
+      "eq:appE-peak-amplitude",
+      "eq:appE-snorm",
+      "eq:appE-baseline-ma",
+      "sec:appE-cfd",
+      "eq:appE-cfd-bipolar",
+      "eq:appE-zero-cross-condition",
+      "eq:appE-cfd-subsample",
+      "eq:appE-timestamp-total",
+      "eq:appE-linear-interp-error",
+      "eq:appE-timing-jitter",
+      "sec:appE-packet-format",
+      "tab:appE-header-format",
+      "sec:appE-joint-live",
+      "eq:appE-joint-live-def",
+      "eq:appE-cov-identity",
+      "eq:appE-l1",
+      "eq:appE-l2",
+      "eq:appE-l12-shared",
+      "eq:appE-l1l2-product",
+      "eq:appE-cov-positive",
+      "sec:appE-pseudocode",
+      "alg:appE-trapezoid",
+      "alg:appE-cfd"
+    ],
+    "citations": [
+      "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "wu-2021-general-purpose-digital-daq-waveform-analysis",
+      "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+      "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "wolff-1982-poisson-arrivals-see-time-averages"
+    ]
+  },
+  "sources": [
+    {
+      "key": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "title": "通用数字核数据获取系统的研发与实验测试",
+      "authors": [
+        "吴鸿毅"
+      ],
+      "year": 2020,
+      "locators": [
+        "第2.1节印刷第17–26页/PDF第29–38页：梯形滤波成形算法与极零相消递推",
+        "第2.2节印刷第43页/PDF第55页图2.8：Pixie-16 4字标准事件头位域定义与扩展数据块",
+        "附录B印刷第115–116页/PDF第127–128页：FIFO缓存死时间与丢迹保头分析",
+        "第4.2节印刷第92–97页/PDF第104–109页：数字恒比定时CFD算法与过零插值"
+      ]
+    },
+    {
+      "key": "wu-2021-general-purpose-digital-daq-waveform-analysis",
+      "title": "通用数字核数据获取系统中的波形分析算法",
+      "authors": [
+        "吴鸿毅",
+        "等"
+      ],
+      "year": 2021,
+      "locators": [
+        "第2节：极零相消与离散递推因果实现"
+      ]
+    },
+    {
+      "key": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "title": "Timing measurements with the Pixie-16 digital data acquisition system",
+      "authors": [
+        "S. Lipschutz",
+        "et al."
+      ],
+      "year": 2016,
+      "locators": [
+        "Section 3 & 4: Sub-sample CFD timing interpolation and deterministic phase walk"
+      ]
+    },
+    {
+      "key": "wolff-1982-poisson-arrivals-see-time-averages",
+      "title": "Poisson Arrivals See Time Averages",
+      "authors": [
+        "Ronald W. Wolff"
+      ],
+      "year": 1982,
+      "locators": [
+        "Section 1 & Theorem 1 (pp. 223–225): Lack of Anticipation Assumption (LAA)"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C-appE-pzc-recurrence",
+      "statement": "前级单指数放电长尾通过离散极零相消递归关系消解，归一化因子严格由衰减常数与采样周期比值 M 决定；平顶时间必须覆盖最大电荷收集时间以抑制弹道亏损，平顶与上升时间的拓宽改变噪声带宽，不存在普适最优参数。",
+      "source": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "pdf_pages": "29–38",
+      "printed_pages": "17–26",
+      "figure_or_equation": "Eqs.(2.1)–(2.12)",
+      "searchable_anchor": "极零相消 ... 梯形滤波 ... 弹道亏损"
+    },
+    {
+      "claim_id": "C-appE-trapezoid-norm",
+      "statement": "Jordanov 梯形滤波输出峰值幅度严格正比于 k(M+1)，必须以此因子归一化；系统转移函数零极点精确对消，脉冲冲激响应长度严格为 (2k+l)Ts 有限长。",
+      "source": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "pdf_pages": "31–34",
+      "printed_pages": "19–22",
+      "figure_or_equation": "Eqs.(2.15)–(2.22)",
+      "searchable_anchor": "梯形脉冲成形 ... 冲激响应 ... 归一化"
+    },
+    {
+      "claim_id": "C-appE-cfd-interpolation",
+      "statement": "数字恒比定时过零线性插值引入正比于 Ts^2 乘波形局部曲率的确定性截断误差；20 离散相位点误差为网格经验扫描极值非连续全局上界；名义编码细分步长不等于真实物理时间分辨率。",
+      "source": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "pdf_pages": "NIM A 815, pp. 45–52",
+      "printed_pages": "45–52",
+      "figure_or_equation": "Section 4 CFD Timing",
+      "searchable_anchor": "CFD interpolation ... phase error ... timing resolution"
+    },
+    {
+      "claim_id": "C-appE-fifo-header-format",
+      "statement": "Pixie-16 基础事件头为 4 个 32 位字，完整头部随扩展块动态配置；总线拥塞时丢弃波形轨迹保留 4 字基础头的机制仅缓解波形缓存瓶颈，不消除前端死时间与堆积损失。",
+      "source": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "pdf_pages": "55, 127–128",
+      "printed_pages": "43, 115–116",
+      "figure_or_equation": "图 2.8 及附录 B",
+      "searchable_anchor": "Pixie-16 数据格式 ... 4个字 ... FIFO 缓存 ... 死时间"
+    },
+    {
+      "claim_id": "C-appE-joint-live-covariance",
+      "statement": "联合活时间测度依赖参考分布；在存在共享忙门控的系统中，真实瞬发联合活时间严格大于独立单道乘积 (L12 > L1*L2)，协方差恒正，不能机械假定各道活时间相互独立相乘。",
+      "source": "wolff-1982-poisson-arrivals-see-time-averages",
+      "pdf_pages": "223–225",
+      "printed_pages": "223–225",
+      "figure_or_equation": "Theorem 1",
+      "searchable_anchor": "Poisson Arrivals See Time Averages ... Lack of Anticipation"
+    }
+  ],
+  "migration_differences": [
+    "为附录 E 构建完整的离散数学递推方程与 Z 变换传递函数推导",
+    "明确标注 20 相位采样网格误差为经验扫描极值非连续全局上界",
+    "给出 Pixie-16 4 字基础头与扩展块位域规范表，澄清保头丢迹策略的适用边界",
+    "推导共享忙信号下正协方差反例，严格排除联合活时间无条件独立乘积的错误假定",
+    "提供完全透明的梯形滤波与 CFD 过零插值定点教育伪代码算法"
+  ]
+}

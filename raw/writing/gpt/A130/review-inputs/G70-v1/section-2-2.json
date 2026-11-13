@@ -1,0 +1,153 @@
+{
+  "section_id": "2.2",
+  "title": "壳结构、费米面与占据反馈",
+  "version": "v1",
+  "recorded_at": "2026-11-08T01:54:22.725234+00:00",
+  "argument_outline": [
+    "在传统 Mayer–Jensen 独立粒子壳模型中，单粒子轨道由假定固定的球形平均场提供，费米面由泡利不相容原理决定基态占据边界；但在真实多核子体系中，剩余两体相互作用使得单粒子壳结构直接随价核子占据而发生动态演化。",
+    "有效单粒子能量（ESPE）是特定哈密顿量与模型空间下单极相互作用的重心期望值，表征球形单粒子能量的动力学演化，并不等于实验单粒子转移反应测得的单个离散实验峰（后者强度发生碎裂，需通过 Baranger 求和规则加权提取重心）。",
+    "不可约两体相互作用可严格分解为球平均单极项与多极项；单极矩阵元具有能量量纲，通过方位平均消除角动量取向依赖；同种核子包含对计数因子 1/2 n(n-1)，质子-中子项包含同位旋 T=0 与 T=1 通道加权。",
+    "严格区分 Type-I 壳演化与 Type-II 壳演化：Type-I 发生于不同核素之间（增加价核子改变单极势），而 Type-II 发生于同一核素的不同量子态之间（由特定粒子-空穴激发改变轨道占据，进而通过单极反馈压缩或重构单粒子能隙）。",
+    "单极能级移动由中心力、自旋-轨道力与张量力共同决定，不可单一归因于张量力；例如在 Zr 同位素中，pi 0g_9/2 与 nu 0g_7/2 之间中心力与张量力相干吸引产生约 2 MeV 的显著下拉，而与 nu 0h_11/2 之间中心力与张量力相消，说明轨道自旋-轨道角动量组合直接影响相干或相消模式。",
+    "98Zr 从球形 0_1^+ 基态到长椭 0_2^+ 激发态，质子 pi 0g_9/2 占据数从 0.4 跃升至 3.5，导致中子从 2s_1/2 到 0g_7/2 的 ESPE 展开范围由 4 MeV 压缩至 2 MeV 以内，大幅增强了多构型四极相干；四极多极相互作用是驱动形变的主导机制，单极重排起到互补与稳定作用。",
+    "154Sm 模型的单极冻结干预测试表明，将单极期望值冻结于不同参考态会改变激发带能量甚至产生三轴形变，但体系在单极冻结下依然能够产生显著形变，证明单极重排并非所有核形变的绝对必要前提。",
+    "蒙特卡罗壳模型（MCSM）采用投影基矢的变分能量优化而非全部天文维空间的精确完全对角化，固定哈密顿量亦包含基于实验能级的经验输入，T-plot 是波函数在形变基底上的展开投影分析工具而非直接实验经典几率；有限介观体系中的快速突变本质上是弱混合双态交叉，不能简单套用宏观热力学非解析一阶相变理论。"
+  ],
+  "sources": [
+    {
+      "source_id": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+      "source_page": "knowledge/sources/doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-otsuka-article/otsuka-2022-physics-emerging-concepts-publisher.pdf",
+      "raw_sha256": "83ddfab8989cdb0a23be1d5ca3e9f689c7e8d728823d0b7c6a21c5aecd3ca0c7",
+      "actual_read_pages": "Physics 2022, 4, 258–294: PDF pp. 5–8 (monopole and ESPE Eqs. 3–15), PDF p. 13 (Type-II definition), PDF pp. 16–17 (154Sm monopole-frozen test Fig. 13), PDF p. 19 (166Er T-plot Fig. 15)",
+      "claims_supported": [
+        "两体单极矩阵元方位平均定义 (Eq. 5) 与同种/异种粒子单极哈密顿量分解 (Eqs. 6–8)",
+        "ESPE 算符定义 (Eqs. 12–13) 与态差引起的 ESPE 演化方程 (Eqs. 14–15)",
+        "张量力单极矩阵元在 j_< 与 j'_> 间吸引、在 (j_>, j'_>) 与 (j_<, j'_<) 间排斥的自旋-轨道选择定则",
+        "Type-II 壳演化由同一核内特定粒子-空穴激发驱动的定义与机制",
+        "154Sm 单极冻结干预实验中参考态依赖性及单极与四极相互作用的相对贡献分工"
+      ]
+    },
+    {
+      "source_id": "doctoral-r1-g28-togashi-2016-zr-mcsm-qpt",
+      "source_page": "knowledge/sources/doctoral-r1-g28-togashi-2016-zr-mcsm-qpt.md",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G28/togashi-2016-zr-qpt.pdf",
+      "raw_sha256": "f43431ebad67addfbefb521eed14c43f152fe5221ccc0d995d69a3d5aaa7b3e9",
+      "actual_read_pages": "PDF pp. 1–4: p. 2 (JUN45, SNBG3, VMU Hamiltonian construction and low-lying Zr empirical tuning), p. 3 (T-plot methodology and shape classification), p. 4 (Fig. 3 occupancies and ESPE compression from 4 MeV to 2 MeV)",
+      "claims_supported": [
+        "Zr 同位素 MCSM 计算中质子 8 轨道与中子 8 轨道的模型空间与哈密顿量参数来源",
+        "98Zr 0_1^+ 到 0_2^+ 激发态中质子 pi 0g_9/2 占据数从 0.4 增加至 3.5 的模型输出",
+        "中子 2s_1/2 到 0g_7/2 ESPE 能量展宽由球形基态的 4 MeV 压缩至长椭态的 2 MeV 以内的动力学机制",
+        "pi 0g_9/2 与 nu 0g_7/2 之间中心力与张量力的相干下拉效应（约 2 MeV），以及与 nu 0h_11/2 的相消效应"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "text": "单极相互作用是两体剩余相互作用的球平均部分，ESPE 为单极哈密顿量变化之期望值，表征多体组态重心的动力学演化，而非单体实验转移反应测得的单个离散激发态峰位。",
+      "kind": "theoretical_foundation",
+      "source_id": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+      "locator": "PDF pp. 5–7, Eqs. (5), (12)–(15)",
+      "conditions": "假定存在闭壳核心或确定参考空间；单极分解独立于势能参数化形式"
+    },
+    {
+      "text": "Type-I 壳演化指跨核子数变化驱动的能隙移动，Type-II 壳演化指同一核素内由特定粒子-空穴激发驱动的能级重排与壳演化反馈。",
+      "kind": "theoretical_physics_principle",
+      "source_id": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+      "locator": "PDF p. 13",
+      "conditions": "同一核内存在高多重度或跨壳粒子-空穴激发构型"
+    },
+    {
+      "text": "在 Zr 同位素微观壳模型计算中，pi 0g_9/2 质子占据对 nu 0g_7/2 产生中心力与张量力的相干吸引（下拉约 2 MeV），而对 nu 0h_11/2 产生相消效应；中子 ESPE 范围在 98Zr 0_2^+ 长椭态中由 4 MeV 压缩至 2 MeV 以内。",
+      "kind": "microscopic_model_calculation",
+      "source_id": "doctoral-r1-g28-togashi-2016-zr-mcsm-qpt",
+      "locator": "PDF p. 4, Fig. 3",
+      "conditions": "JUN45+SNBG3+VMU 相互作用，MCSM 变分基底展开"
+    },
+    {
+      "text": "154Sm 单极冻结干预表明，冻结单极作用后体系依然产生显著四极形变（基态保持形变，但形变特征依参考态而变），证实多极相互作用是驱动集体形变的主导原因，单极重排对形变起调制与稳定作用。",
+      "kind": "computational_model_intervention",
+      "source_id": "doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution",
+      "locator": "PDF pp. 16–17, Fig. 13",
+      "conditions": "指定大规模壳模型相互作用，选择不同基底状态冻结单极矩阵元期望值"
+    },
+    {
+      "text": "MCSM 属于受限投影基底下的变分能量优化，不能视作天文维希尔伯特空间的完全精确对角化；有限核系统能级能量与跃迁强度的快速变化在本质上是弱混合组态交叠，不构成热力学无限体积极限下的非解析严格一阶相变。",
+      "kind": "methodological_boundary",
+      "source_id": "doctoral-r1-g28-togashi-2016-zr-mcsm-qpt",
+      "locator": "PDF pp. 1–3",
+      "conditions": "有限核子数介观体系"
+    }
+  ],
+  "equations": [
+    {
+      "name": "monopole_matrix_element_definition",
+      "convention": "Otsuka 2022 Eq. (5)",
+      "formula": "V^{\\mathrm{mono}}(j, j') = \\frac{\\sum_{m, m'} \\langle j, m; j', m' | \\hat{V} | j, m; j', m' \\rangle}{\\sum_{m, m'} 1}",
+      "derivation": "对两核子不可约相互作用在允许的磁子态有序对上进行全空间方位均匀平均",
+      "limit": "求和必须服从泡利不相容原理约束（同轨道不允许完全相同单粒子态）"
+    },
+    {
+      "name": "monopole_hamiltonian_decomposition",
+      "convention": "Otsuka 2022 Eqs. (6), (8)",
+      "formula": "\\hat{V}^{\\mathrm{mono}}_{nn} = \\sum_j V^{\\mathrm{mono}}_{nn}(j, j) \\frac{1}{2} \\hat{n}^n_j (\\hat{n}^n_j - 1) + \\sum_{j < j'} V^{\\mathrm{mono}}_{nn}(j, j') \\hat{n}^n_j \\hat{n}^n_{j'}, \\quad \\hat{V}^{\\mathrm{mono}}_{pn} = \\sum_{j, j'} \\tilde{V}^{\\mathrm{mono}}_{pn}(j, j') \\hat{n}^p_j \\hat{n}^n_{j'}",
+      "derivation": "同种核子使用非重复对计数避免对相互作用加倍计算；异种核子通过同位旋通道求和吸收同轨道同位旋因子",
+      "limit": "仅包含两体单极项，不含三体单极相互作用或密度依赖修正项"
+    },
+    {
+      "name": "espe_operator_definition",
+      "convention": "Otsuka 2022 Eqs. (12), (13)",
+      "formula": "\\hat{\\epsilon}^n_j = \\epsilon^n_{0; j} + \\sum_{j'} V^{\\mathrm{mono}}_{nn}(j, j') \\hat{n}^n_{j'} + \\sum_{j'} \\tilde{V}^{\\mathrm{mono}}_{pn}(j', j) \\hat{n}^p_{j'}",
+      "derivation": "由添加一个核子后单极哈密顿量算符变化量直接推导",
+      "limit": "由核心单粒子能量与价核子单极平均势求和组成"
+    },
+    {
+      "name": "espe_difference_formula",
+      "convention": "Otsuka 2022 Eq. (15)",
+      "formula": "\\Delta \\epsilon^n_j = \\sum_{j'} V^{\\mathrm{mono}}_{nn}(j, j') \\Delta n^n_{j'} + \\sum_{j'} \\tilde{V}^{\\mathrm{mono}}_{pn}(j', j) \\Delta n^p_{j'}",
+      "derivation": "对两量子态取期望值之差得到",
+      "limit": "Delta n_j 表征不同核（Type-I）或同核不同态（Type-II）的轨道平均占据数差"
+    }
+  ],
+  "competing_explanations": [
+    {
+      "issue": "有效单粒子能量（ESPE）是否等于单核子转移反应中测得的直接实验峰能量？",
+      "misconception": "常有文献误将 ESPE 标在实验能谱图上，当成直接测量的单粒子能级峰。",
+      "correct_understanding": "ESPE 是特定壳模型相互作用下单极哈密顿量的期望值，代表球对称单粒子强度的理论重心。实验单粒子转移反应测得的强度往往高度碎裂到多个具有不同角动量的多体能态中，必须通过完整的谱学因子加权求和（Baranger 求和规则）才能提取实验重心，且受截断与未探测碎片的系统影响。"
+    },
+    {
+      "issue": "壳结构的动态移动是否完全由张量相互作用驱动？",
+      "misconception": "将所有单粒子能隙的变化单一归因为张量力的作用。",
+      "correct_understanding": "单极相互作用包含中心力、两体自旋-轨道耦合力与张量力。中心力在径向波函数高度重叠的轨道间产生强烈的单极吸引；张量力产生独特的自旋-轨道倾斜选择定则（j_< 与 j'_> 吸引，同侧排斥）。在具体核素中二者可能相干叠加，也可能相互抵消（如 Togashi 2016 证明的 pi g_9/2 与 nu h_11/2 之间的相消），不可偏概全。"
+    },
+    {
+      "issue": "单极相互作用引起的壳演化是否为原子核产生形变的唯一充分或必要条件？",
+      "misconception": "认为没有单极壳演化就没有集体形变，或单极重排必然自动诱发形变。",
+      "correct_understanding": "形变的主要微观驱动力是粒子间多极相互作用（特别是四极-四极相互作用）；154Sm 的单极冻结数值实验明确表明，即使完全消除活动单极重排，体系依然呈现明显的四极集体形变。单极演化通过改变费米面邻近轨道的单极分裂，为四极相干提供更有利的低能多态配置环境，二者是协同反馈而非单一主从关系。"
+    }
+  ],
+  "unresolved": [
+    "三体核力引入的三体单极相互作用对极丰中子区 ESPE 演化的定量修正程度仍依赖于手征有效场论的微观截断选取；",
+    "在连续谱耦合强烈的晕核与滴线核区，束缚态单极分解公式面临离散轨道向复动量连续谱渗漏的理论拓展难题。"
+  ],
+  "reader_checks": [
+    {
+      "question": "为什么在讨论原子核形状共存时，必须引入 Type-II 壳演化概念？",
+      "answer": "因为形状共存表现为同一原子核内部具有截然不同形变的量子态并存。传统 Mayer–Jensen 壳模型将壳结构视为核子数确定的静态背景，无法解释为何同一核素能够容纳不同对称性的态。Type-II 壳演化阐明了不同微观粒子-空穴激发构型通过重排轨道占据，利用单极剩余相互作用就地改变单粒子能隙，从而为形变激发态的自洽稳定提供了微观物理机制。"
+    },
+    {
+      "question": "在束实验观测到的 Zr 同位素 N=60 处能谱与 B(E2) 突变，能否直接断言为严格的热力学一阶量子相变？",
+      "answer": "不能。严格的相变仅在宏观无限粒子数热力学极限下定义，具有自由能的严格非解析奇点。原子核是包含几十至一百多个核子的有限介观系统，能谱的陡峭变化源自几乎正交的球形基态与长椭激发构型之间较小的微观组态混合矩阵元（两态弱混合模型），属于能级交叉现象，不能与宏观热力学相变等同视之。"
+    }
+  ],
+  "interfaces_for_subsequent_sections": {
+    "section_2_1": "继承自 2.1 节建立的角动量守恒、Wigner–Eckart 定理与球张量分解基底",
+    "section_2_3": "为配对相互作用、准粒子激发与费米面平滑展开提供单粒子能谱演化输入",
+    "section_2_4": "与集体坐标 (beta, gamma) 相联系，建立微观粒子占据与宏观形状形变势能面的映射关系",
+    "section_2_5": "为破缺内禀形变态投影到实验室好角动量态提供微观多体波函数依据",
+    "section_2_6": "与微观响应理论及集体转动惯量对接，区分静态 ESPE 漂移与动态质量参数响应"
+  },
+  "manuscript_path": "raw/writing/gpt/A130/research-draft/section-2-2.md",
+  "manuscript_sha256": "b23c9d2c830c3e1cb63ae83ed2ee3dfdedfd972f50c92f77bc9a2effbf0b74a8",
+  "chinese_character_count": 4279
+}

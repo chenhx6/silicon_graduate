@@ -1,0 +1,5 @@
+{
+  "pages": 374,
+  "media_box_outside_text_blocks": [],
+  "boundary": "checks text blocks against page media box, not reading quality or full figure semantics"
+}

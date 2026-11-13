@@ -1,0 +1,63 @@
+{
+  "task": "G102-research-note-delivery",
+  "worker": "G102",
+  "status": "completed",
+  "timestamp": "2026-11-14T03:30:00+00:00",
+  "target_note": {
+    "path": "knowledge/research-notes/a130-rewrite-statistical-model-and-covariance-audit-20261114.md",
+    "sha256": "fc36d0e8a789df327d1011162f6362306912078824efc80a3210ec8e9cc79a32",
+    "size_bytes": 20365
+  },
+  "verified_sources": [
+    {
+      "source_id": "book-zhu-probability-statistics-in-physics",
+      "raw_file": "raw/books/实验物理中的概率和统计_朱永生著.pdf",
+      "raw_sha256": "e97062665497c597609d58c23dfa977824c43e73d3ae8cb4ca3c0855e381894b",
+      "offset": "printed + 16 = PDF",
+      "locators": [
+        "Ch. 3 §3.9 (printed pp. 67–70 / PDF pp. 83–86): error propagation matrix V_y approx J V_x J^T, uncorrelatedness vs independence",
+        "Ch. 11 §11.2 (printed pp. 377–379 / PDF pp. 393–395): Feldman-Cousins unified likelihood-ratio ordering and Neyman acceptance bands",
+        "Ch. 12 §12.2.2 (printed pp. 394–398 / PDF pp. 410–414): Wilks theorem asymptotic chi-square degrees of freedom"
+      ]
+    },
+    {
+      "source_id": "book-behnke-data-analysis-hep",
+      "raw_file": "raw/books/Data Analysis in High Energy Physics, A Practical Guide to Statistical Methods (Olaf Behnke, Kevin Kroninger, Gregory Schott etc.) (Z-Library).pdf",
+      "raw_sha256": "18cf194b5cd4e86d8413244cf913fe5699de211a68e4a5d1164709e92fcbe84c",
+      "locators": [
+        "Ch. 2 §2.3 (printed pp. 37–38 / PDF p. 55): Wilks theorem test statistic degrees of freedom m = dim(theta)",
+        "Ch. 4 §4.3 (printed pp. 122–123 / PDF pp. 138–139): Table 4.2 Poisson mean Feldman-Cousins unified confidence intervals"
+      ]
+    },
+    {
+      "source_id": "book-bonamente-statistics-scientific-data",
+      "raw_file": "raw/books/Statistics and Analysis of Scientific Data (Graduate Texts in Physics), 3rd Edition (Massimiliano Bonamente) (Z-Library).pdf",
+      "raw_sha256": "e5197dffd54d527b9d6925b92eeae34e0859e0062063861f2e54abf333d2b2ca",
+      "locators": [
+        "Ch. 3 §3.3 (printed pp. 55–59 / PDF pp. 76–80): Poisson process properties, independent random thinning",
+        "Ch. 5 §5.2 (printed pp. 83–87 / PDF pp. 103–107): Taylor expansion error propagation, Example 5.3 (printed p. 86 / PDF p. 106) shared background subtraction"
+      ]
+    },
+    {
+      "source_id": "baker-cousins-1984-histogram-fits",
+      "raw_file": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/baker-cousins-1984-histogram-fits-kekscan.pdf",
+      "raw_sha256": "e687601ebec8241a46db58aeeccffa2b4b252fe62c79db5b44ec51092e7c245a",
+      "locators": [
+        "NIM 221 (1984) 437–442, Sections 2 & 4: Poisson histogram joint likelihood, deviance statistics"
+      ]
+    }
+  ],
+  "core_concepts_formalized": [
+    "Poisson point process (PPP) and independent thinning as conditions for binned Poisson approximations; cascade multi-photon emission introduces cross-bin event correlation requiring dedicated event-level or coincidence modeling",
+    "Full joint likelihood combines discrete Poisson binned counting with continuous joint auxiliary calibration constraints p_aux(a | nu)",
+    "Distinction between population theoretical variance Var(S) = mu_P + a^2 mu_R and sample plug-in estimate widehat{Var}(S) = P + a^2 R",
+    "First-order Taylor expansion V_y approx J V_x J^T requires only uncorrelatedness for cross-terms to vanish; uncorrelatedness is strictly weaker than statistical independence",
+    "Branching ratio normalization sum b_k = 1 imposes a linear row-sum constraint sum_j Cov(b_i, b_j) = 0; pair covariances are universally negative only under a specific multinomial distribution",
+    "Raw fitted peak area covariance V_A arises from spectrum deconvolution, while efficiency-corrected yield covariance V_I inherits shared calibration parameters that can produce positive or negative cross-energy covariance",
+    "Dimensionless live-time fraction LT in (0, 1] and independence factorization assumptions; coincidence joint acceptance does not automatically factorize into scalar products",
+    "Wilks theorem degrees of freedom equal the dimension of tested interest parameters (dim(theta)), excluding profiled nuisance parameters; profile curvature distinguishes -ln L Hessian (cov approx H_1^-1) from -2ln L Hessian (cov approx 2 H_2^-1)",
+    "Physical boundary constraints: profile likelihood on mu >= 0 rescales the reference likelihood denominator with constrained MLE hat{mu}_phys = 0 (yielding q_phys(mu) = mu^2 - 2 hat{mu} mu for Gaussian), without falsely shifting the observational data center hat{mu}",
+    "Feldman-Cousins unified approach is an exact Neyman acceptance-band construction based on likelihood-ratio ordering, exhibiting step-like over-coverage for discrete Poisson counts; Delta chi^2 = 2.71 is merely an illustrative asymptotic 1-sided Gaussian benchmark",
+    "Monte Carlo pushforward distributions represent measurement error propagation under functional mapping; they constitute Bayesian posteriors if and only if input samples derive from genuine conditional posterior probability laws under explicit priors"
+  ]
+}

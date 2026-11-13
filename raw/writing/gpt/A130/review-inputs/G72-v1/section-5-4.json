@@ -1,0 +1,236 @@
+{
+  "section_id": "5.4",
+  "title": "数字定时、同步与CFD",
+  "version": "V1",
+  "recorded_at": "2026-11-08T01:54:53.374922+00:00",
+  "manuscript_path": "raw/writing/gpt/A130/research-draft/section-5-4.md",
+  "argument_outline": [
+    "在低能核物理与在束伽马谱学中，事件定时不仅用于建立探测器之间的符合关系以抑制无关本底，更是利用快定时谱学方法测量皮秒至纳秒量级核激发态寿命的关键物理手段。",
+    "数字化脉冲处理器提取时间信息的过程涉及时间戳编码粒度、ADC采样周期、亚采样周期插值分辨、电子学/探测器噪声与真实物理时间分辨五个不同物理层次，不能将列表模式中有限的数字刻度位宽误同于物理时间精度。",
+    "数字恒比定时（CFD）算法通过对快滤波信号进行延迟与比例相减（C[n]=F[n-d]-f F[n]）构造双极性信号，并在相邻采样点之间通过内插寻找过零点；对保持相同时间形态的理想脉冲，其过零点在任意幅度缩放下面严格不变，但在真实实验中，波形上升沿展宽、基线涨落、饱和非线性以及随机到达相位会导致时间走动（time walk）。",
+    "采样相位与网格插值误差构成了数字定时特有的物理效应：脉冲随机到达时间相对于离散采样网格的相位偏移，会在有限曲率波形上引入周期性插值残差；模型推导与受控模拟证明，细化采样周期能显著压低该相位插值误差，而高阶插值（如局部四点三次多项式反演）比简单线性插值能更有效地纠正波形弯曲畸变。",
+    "多探测器与多机箱阵列的时间同步需要严格区分固定电缆延迟偏移、时钟分布抖动、全局相位基准以及单事件相对本地采样的相位；分路同信号测试仅标定电子学链路的本底性能，不能代表两路物理探测器独立随机吸收光子时的真实符合分辨。",
+    "两路独立时间测量的符合时间差方差满足 sigma(t1-t2)² = sigma1² + sigma2² - 2Cov(t1, t2)，仅在两通道相互独立且具有相等高斯分布时，单探测器分辨才可通过除以根号2获得，存在相关性或非高斯尾部时简单换算失效。",
+    "定时展宽与能量依赖的时间走动直接制约着离线符合时间窗的选择，若门窗截断prompt峰的边缘将诱发计数率与能量依赖的强度损失，并扭曲角分布W(theta)与DCO比值；核寿命的可靠提取必须结合仪器时间响应函数（IRF）、时间走动与真实符合谱进行联合反卷积拟合。"
+  ],
+  "sources": [
+    {
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "citation_key": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "canonical_title": "通用数字化获取系统的开发",
+      "authors": [
+        "吴鸿毅"
+      ],
+      "advisor": [
+        "华辉"
+      ],
+      "institution": "北京大学",
+      "year": 2020,
+      "pages": 143,
+      "raw_file": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+      "raw_sha256": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b",
+      "actual_read_pages": "PDF pages 35–38 (printed pages 23–26) timing algorithms & Eq. (1.21)–(1.22), Figs. 1.26–1.27; PDF pages 89–96 (printed 77–84) LaBr3 timing tests; PDF pages 104–109 (printed 92–97) encoding, interpolation, sampling phase, and 5 sampling cycles discussion.",
+      "evidence_role": "Core reference for digital CFD implementation, linear interpolation zero-crossing formula, sampling phase effects, and LaBr3 timing test benchmarks (250M vs 500M modules)."
+    },
+    {
+      "source_id": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "citation_key": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "canonical_title": "Digital Data Acquisition For the Low Energy Neutron Detector Array (LENDA)",
+      "authors": [
+        "S. Lipschutz",
+        "R. G. T. Zegers",
+        "J. Hill",
+        "S. N. Liddick",
+        "S. Noji",
+        "C. J. Prokop",
+        "M. Scott",
+        "M. Solt",
+        "C. Sullivan",
+        "J. Tompkins"
+      ],
+      "journal": "Nuclear Instruments and Methods in Physics Research Section A",
+      "year": 2016,
+      "volume": "815",
+      "pages": "1-6",
+      "doi": "10.1016/j.nima.2016.01.050",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G32/lipschutz-2016-lenda-ddas-timing.pdf",
+      "raw_sha256": "466c421c59f5c964b14de545f315c74c1d614a60b78192eb72efe427f75740cc",
+      "actual_read_pages": "arXiv:1601.04579v2 PDF pages 1–4, Eqs. (2)–(6), Figs. 1–4.",
+      "evidence_role": "LENDA DDAS 250 MSPS Pixie-16 timing; distinction between single PMT split-signal electronic delay test (+2 ns cable) and two-bar 4-PMT 22Na coincidence; 4-point cubic polynomial interpolation (Vandermonde inversion, Eq. 4) vs linear interpolation; detector-limited 400 ps benchmark; single detector resolution extraction via FWHM/sqrt(2) under equal independent Gaussian assumptions."
+    },
+    {
+      "source_id": "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+      "citation_key": "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+      "canonical_title": "Clock and Trigger Synchronization between Several Chassis of Digital Data Acquisition Modules",
+      "authors": [
+        "W. Hennig",
+        "H. Tan",
+        "M. Walby",
+        "P. Grudberg",
+        "A. Fallu-Labruyere",
+        "W. K. Warburton",
+        "C. Vaman",
+        "K. Starosta",
+        "D. Miller"
+      ],
+      "journal": "Nuclear Instruments and Methods in Physics Research Section B",
+      "year": 2007,
+      "volume": "261",
+      "pages": "1000-1004",
+      "doi": "10.1016/j.nimb.2007.04.181",
+      "raw_file": "raw/papers/gpt/query/20261108-foundations-G32/hennig-2007-pixie16-clock-trigger-sync.pdf",
+      "raw_sha256": "e077cdcfd462610a80467024aac3446a562e2e4eaffbc813578a0b9bb86e0449",
+      "actual_read_pages": "arXiv:nucl-ex/0701016 PDF pages 1–4, Figs. 1–5.",
+      "evidence_role": "Multi-chassis PXI Pixie-16 clock and trigger distribution; SeGA array design target (<1 ns jitter across >600 channels); intra-chassis 3-module 33-channel pulser test (FWHM < 300 ps); inter-chassis oscilloscope clock variation (~1.5 ns worst-case envelope measurement with probe reflections); historical 2007 prototype context."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C54-01",
+      "text": "时间戳编码粒度、ADC采样周期、亚采样周期插值分辨、电子学/探测器噪声以及系统真实时间分辨率属于不同物理对象，不能从数字列表模式的字段字长直接推断物理时间精度。",
+      "kind": "physical-and-instrumental-definition",
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "locator": "PDF 42–43, 104–109; Lipschutz 2016 PDF 1–2",
+      "conditions": "列表模式事件记录；通用数字脉冲处理系统。"
+    },
+    {
+      "claim_id": "C54-02",
+      "text": "数字CFD算子C[n]=F[n-d]-f F[n]通过两点线性过零插值提取时间标记，对于保持固定时间形态的理想脉冲，其零交叉点在任意正幅度缩放变换下严格不变。",
+      "kind": "mathematical-derivation-and-controlled-model",
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "locator": "PDF 36–37 (printed 24–25), Eqs. (1.21)–(1.22); task zc derivation; doctoral_g32_digital_pulse_response.py",
+      "conditions": "无噪声单脉冲；线性时不变滤波；输入波形前沿时间形态不变。"
+    },
+    {
+      "claim_id": "C54-03",
+      "text": "在真实实验环境中，脉冲前沿上升时间展宽、基线扰动、电子学噪声、前放/ADC饱和以及随机到达相位会导致时间走动（walk），低能区并不存在统一方向的普适幂律走动曲线。",
+      "kind": "instrumental-mechanism-and-physical-boundary",
+      "source_id": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "locator": "PDF 2–3 §4, Figs. 2–3",
+      "conditions": "在束/放射源辐射测量；前沿曲率受载流子漂移或闪烁体光产额影响。"
+    },
+    {
+      "claim_id": "C54-04",
+      "text": "脉冲到达时间相对于离散时钟网格的随机相位偏移引入周期性插值残差；受控模型计算表明，采样周期从10 ns细化至1.25 ns时最大线性插值残差从0.2566 ns单调降至0.0060 ns；四点三次多项式反演比线性插值能更有效地纠正波形曲率引起的非线性偏置。",
+      "kind": "controlled-numerical-model-and-algorithmic-comparison",
+      "source_id": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "locator": "Lipschutz 2016 PDF 2–3 Eqs. (3)–(4), Figs. 1–3; outputs/l4/20261108-digital-pulse-response/sampling_convergence.csv",
+      "conditions": "无噪声双指数脉冲模型；解析过零参考根；局部四点多项式（非全局三次样条）。"
+    },
+    {
+      "claim_id": "C54-05",
+      "text": "多机箱与多模块同步包含固定电缆延迟、时钟分布抖动、全局相位对齐以及事件相对本地采样的相位；分路同信号测试仅标定电子学本底性能，不能代表两路物理探测器独立随机吸收光子时的真实符合分辨。",
+      "kind": "instrumental-fact-and-methodological-boundary",
+      "source_id": "doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync",
+      "locator": "Hennig 2007 PDF 1, 3–4, Figs. 3–5; Lipschutz 2016 PDF 3–4 §5",
+      "conditions": "多通道PXI采集机箱；固定延迟电缆；2007早期Pixie-16测试原型。"
+    },
+    {
+      "claim_id": "C54-06",
+      "text": "时间差方差满足Var(t1-t2)=Var(t1)+Var(t2)-2Cov(t1,t2)；单探测器时间分辨FWHM/sqrt(2)仅在两探测器通道相互独立且满足对称高斯响应时成立，存在通道间噪声相关或非高斯长尾时不可直接换算。",
+      "kind": "statistical-error-propagation-and-boundary",
+      "source_id": "doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing",
+      "locator": "Lipschutz 2016 PDF 3–4 §5 Eq. (5)",
+      "conditions": "两通道符合定时测量；高斯分布与统计独立性假设。"
+    },
+    {
+      "claim_id": "C54-07",
+      "text": "定时展宽与时间走动直接制约符合时间窗截断，窄窗可能截断真实快符合事件边缘导致能量与角度依赖的计数损失并歪曲DCO比值；核激发态寿命测量必须结合仪器时间响应函数（IRF）、时间走动与随机符合本底进行联合拟合或反卷积。",
+      "kind": "spectroscopic-inverse-chain",
+      "source_id": "wu-hongyi-2020-general-purpose-digital-daq-thesis",
+      "locator": "PDF 89–96; R3 DAQ spectroscopy inverse note",
+      "conditions": "在束伽马级联衰变；瞬发与延迟谱学测量。"
+    }
+  ],
+  "equations": [
+    {
+      "id": "EQ-54-01",
+      "name": "数字双极性恒比定时算子",
+      "formula": "C[n] = F[n - d] - f F[n]",
+      "convention": "快滤波信号F[n]，延迟采样点数d (d > 0)，延迟时间d Ts，无量纲恒比分数f (0 < f < 1)",
+      "derivation": "模拟CFD（延迟放大与直接反相叠加）在离散时域的标准映射",
+      "limit": "当f -> 0时退化为纯单延迟差分算子"
+    },
+    {
+      "id": "EQ-54-02",
+      "name": "两点线性过零内插时间戳",
+      "formula": "t_{\\text{zc}} = t_n - C[n] \\frac{T_s}{C[n+1] - C[n]}",
+      "convention": "C[n] < 0 <= C[n+1]，采样网格时间tn = n Ts，采样间隔Ts",
+      "derivation": "过两点(tn, C[n])与(tn+1, C[n+1])的割线在C=0处的截距",
+      "limit": "当波形曲率极大时线性插值产生显著系统性残差"
+    },
+    {
+      "id": "EQ-54-03",
+      "name": "局部四点三次多项式插值方程组（Lipschutz形式）",
+      "formula": "\\begin{pmatrix} x_1^3 & x_1^2 & x_1 & 1 \\\\ x_2^3 & x_2^2 & x_2 & 1 \\\\ x_3^3 & x_3^2 & x_3 & 1 \\\\ x_4^3 & x_4^2 & x_4 & 1 \\end{pmatrix} \\begin{pmatrix} c_3 \\\\ c_2 \\\\ c_1 \\\\ c_0 \\end{pmatrix} = \\begin{pmatrix} y_1 \\\\ y_2 \\\\ y_3 \\\\ y_4 \\end{pmatrix}",
+      "convention": "过零点前两点(x1,y1),(x2,y2)与后两点(x3,y3),(x4,y4)，拟合y = c3 x^3 + c2 x^2 + c1 x + c0",
+      "derivation": "Vandermonde矩阵求逆求解局部三次多项式系数，进而数值求解过零点y(x)=0",
+      "limit": "局部四点显式反演，非全局二阶导数连续的三次样条（cubic spline）"
+    },
+    {
+      "id": "EQ-54-04",
+      "name": "时间差方差与单探测器分辨转换关系",
+      "formula": "\\sigma_{\\Delta t}^2 = \\sigma_1^2 + \\sigma_2^2 - 2\\mathrm{Cov}(t_1, t_2), \\quad \\mathrm{FWHM}_{\\text{single}} = \\frac{\\mathrm{FWHM}_{\\text{diff}}}{\\sqrt{2}}",
+      "convention": "时间差Delta t = t1 - t2，单通道方差sigma1, sigma2，协方差Cov(t1, t2)",
+      "derivation": "两相关随机变量差的方差展开",
+      "limit": "FWHM/sqrt(2)成立的充分必要条件为两通道完全统计独立(Cov=0)且具有完全相同的高斯线形(sigma1=sigma2)"
+    }
+  ],
+  "competing_explanations": [
+    {
+      "phenomenon": "在束符合时间谱呈现非对称宽尾或随能量漂移",
+      "instrumental_explanation": "低能脉冲前沿较缓导致CFD过零点发生时间走动（time walk），或由于离散采样相位引入插值周期性误差，或多机箱时钟分布存在低频温度漂移。",
+      "nuclear_explanation": "核能级存在有限平均寿命（纳秒至皮秒量级）引起的真实指数衰变尾部，或级联衰变中存在慢同核异能态旁路 feeding。",
+      "discrimination_criterion": "利用瞬发放射源（如60Co或22Na）并在束流关闭状态下测量相同能量区间的仪器响应函数（IRF）；对不同能量区间分别作二维 walk 矩阵校正；检查时间尾部是否随探测器几何位置或偏置电压发生变化。"
+    },
+    {
+      "phenomenon": "分路同信号测试获得优异时间分辨（数十皮秒），但连接物理探测器后时间分辨显著恶化（数百皮秒）",
+      "instrumental_explanation": "分路测试输入相同波形且噪声高度相干，消除了载流子漂移、闪烁光产额统计涨落及PMT渡越时间涨落（TTS）；物理测量时探测器内部微观物理过程占主导。",
+      "nuclear_explanation": "反应机制引入的核反冲运动或多重中子散射延长了飞行时间分布。",
+      "discrimination_criterion": "分路测试仅反映数字化处理器的理论电子学下限；必须采用真实物理辐射源并置于相同探测器与几何条件下开展独立双探测器符合标定。"
+    }
+  ],
+  "unresolved": [
+    "具体用户实验采用的探测器晶体闪烁时间常数、PMT光电阴极渡越时间展宽、以及特定机箱背板时钟分布电路的硬件参数未知，正文维持一般物理机理与方法论通用性，不伪造具体硬件参数。",
+    "复杂的触发多重性逻辑、数据缓存管理、FIFO溢出丢失及多通道联合活时间校准留待第5.5节系统推导。"
+  ],
+  "pedagogical_controls": {
+    "script_path": "system/scripts/doctoral_g32_digital_pulse_response.py",
+    "script_sha256": "bd70a7db208b62443a93c8258e18194e4d18f096a7e1160f2ed958fa0855e618",
+    "sampling_convergence_csv": "outputs/l4/20261108-digital-pulse-response/sampling_convergence.csv",
+    "sampling_convergence_sha256": "fcbc5a3ebf68e5ef8f0cb5dabfc1be09484d4f99757f9f2f9db6909225469222",
+    "cfd_phase_walk_csv": "outputs/l4/20261108-digital-pulse-response/cfd_phase_walk_analysis.csv",
+    "cfd_phase_walk_sha256": "fa67402db75b74cc78dabab173d0ce89e0ba6a77df1545ddd8a330a9ca4d7178",
+    "table_sampling_convergence": [
+      {
+        "sampling_interval_ns": 10.0,
+        "reference_latency_ns": 157.1223,
+        "max_abs_interpolation_error_ns": 0.2566
+      },
+      {
+        "sampling_interval_ns": 5.0,
+        "reference_latency_ns": 159.6536,
+        "max_abs_interpolation_error_ns": 0.1297
+      },
+      {
+        "sampling_interval_ns": 2.5,
+        "reference_latency_ns": 160.8446,
+        "max_abs_interpolation_error_ns": 0.0137
+      },
+      {
+        "sampling_interval_ns": 1.25,
+        "reference_latency_ns": 161.4716,
+        "max_abs_interpolation_error_ns": 0.006
+      }
+    ],
+    "amplitude_scan_invariance": {
+      "amplitude_range": "100.0 to 1050.0 arb units",
+      "extracted_zc_ns": 657.224409074663,
+      "amplitude_timestamp_spread_ns": 0.0
+    }
+  },
+  "draft_sha256": "d92fba54cf57ea8dc2cbade49b49c4aa719d6b96310fd4c8ff2a7caebf5ee76e",
+  "chinese_character_count": 4768,
+  "word_count": 1069,
+  "display_equations_count": 8
+}

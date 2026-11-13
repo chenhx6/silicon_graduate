@@ -1,0 +1,92 @@
+{
+  "outputs/l4/20261108-digital-pulse-response/ballistic_deficit_study.csv": {
+    "file_path": "outputs/l4/20261108-digital-pulse-response/ballistic_deficit_study.csv",
+    "size_bytes": 1998,
+    "sha256": "e76fd8c6f896aea49cdb3d1489b6ef398f023422ee7449d4dc97e43b7066b353",
+    "header_columns": [
+      "rise_time_ns",
+      "flat_top_0ns_amp",
+      "flat_top_100ns_amp",
+      "flat_top_400ns_amp",
+      "deficit_flat0_pct",
+      "deficit_flat400_pct"
+    ],
+    "column_count": 6,
+    "data_row_count": 20,
+    "total_line_count": 21,
+    "first_data_row": [
+      "20",
+      "992.8558214344573",
+      "999.4401325265302",
+      "999.4919086225494",
+      "0.7144178565542688",
+      "0.05080913774505689"
+    ],
+    "last_data_row": [
+      "400",
+      "856.1926495926232",
+      "879.3517170124376",
+      "931.0839519649359",
+      "14.380735040737681",
+      "6.8916048035064135"
+    ]
+  },
+  "outputs/l4/20261108-digital-pulse-response/sampling_convergence.csv": {
+    "file_path": "outputs/l4/20261108-digital-pulse-response/sampling_convergence.csv",
+    "size_bytes": 247,
+    "sha256": "fcbc5a3ebf68e5ef8f0cb5dabfc1be09484d4f99757f9f2f9db6909225469222",
+    "header_columns": [
+      "sampling_interval_ns",
+      "reference_latency_ns",
+      "max_abs_interpolation_error_ns"
+    ],
+    "column_count": 3,
+    "data_row_count": 4,
+    "total_line_count": 5,
+    "first_data_row": [
+      "10.0",
+      "157.12227044678656",
+      "0.25660756630634296"
+    ],
+    "last_data_row": [
+      "1.25",
+      "161.47159890703023",
+      "0.005996680482439842"
+    ]
+  },
+  "outputs/l4/20261108-digital-pulse-response/cfd_phase_walk_analysis.csv": {
+    "file_path": "outputs/l4/20261108-digital-pulse-response/cfd_phase_walk_analysis.csv",
+    "size_bytes": 2050,
+    "sha256": "fa67402db75b74cc78dabab173d0ce89e0ba6a77df1545ddd8a330a9ca4d7178",
+    "header_columns": [
+      "phase_ns",
+      "true_t0_ns",
+      "reference_zc_ns",
+      "extracted_zc_ns",
+      "timing_error_ns",
+      "amplitude_arb",
+      "amplitude_scan_zc_ns"
+    ],
+    "column_count": 7,
+    "data_row_count": 20,
+    "total_line_count": 21,
+    "first_data_row": [
+      "0.0",
+      "500.0",
+      "657.1222704467866",
+      "657.224409074663",
+      "0.10213862787634298",
+      "100.0",
+      "657.224409074663"
+    ],
+    "last_data_row": [
+      "9.5",
+      "509.5",
+      "666.6222704467866",
+      "666.6304993563136",
+      "0.008228909527019823",
+      "1050.0",
+      "657.224409074663"
+    ]
+  }
+}
