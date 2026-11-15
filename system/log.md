@@ -6176,3 +6176,9 @@ pilot92文件已推送并post-commit对账；第二批四节经原件/数学/数
 ## 2026-11-14 session A130 final39 closeout
 
 实际UTC 2026-11-13T21:58:32.571705+00:00。五章39节及A–F附录研究稿完成，374页，19组正文矢量图；D/F及统计note、原件定位与45份ledger已核，最终CLEAN_PASS与代表页视觉检查通过。归档/边界/preflight通过，task知识页lint0错误，全库范围外132项保留。稳定发布指针main / thesis: complete A130 nonpersonal foundations in LaTeX；实际Git结果见final39任务回执。旧归档用户删除、其它手稿和个人输入保持原状。
+
+## 2026-11-15 — 已完成学习计划的全局约定清理
+
+用户确认 30 天学习计划已完成。将 AGENTS 计划授权、长期记忆中的调度/日卡记录和每日检查归档到 `system/archives/30-day-learning-20261115.md`；同步 README、用户指南、检查清单、路径与查询/留档说明，原持续学习工作流及队列标为历史。长期自主研学与 L4 授权在自治研究工作流继续维护。未改动 raw、PLAN、课程 state、旧回执或运行中的调度器。稳定提交指针：`main / docs: archive completed 30-day learning requirements`；实际检查与发布状态见任务回执。
+
+验证：路径边界与 automation preflight（含归档门）通过；全库 lint 仍有既有 132 errors / 490 warnings，全部本轮文件无 lint issue。新增链接检查通过，历史 log 保持只追加。精确提交与推送结果见 `outputs/self-tests/20261115-retire-30-day-learning/receipt.local.json`。

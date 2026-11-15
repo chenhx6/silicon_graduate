@@ -1,7 +1,13 @@
 ---
 graph-excluded: true
-updated: 2026-11-14
+updated: 2026-11-15
 ---
+
+## Active handoff — 2026-11-15 全局约定清理
+
+- 用户确认 30 天学习计划已完成；已将执行约定归档到 `system/archives/30-day-learning-20261115.md`。该页仅在追溯计划时读取，不再作为启动要求；原课程、固定作息和日卡计数不延续到后续任务。
+- 长期自主研学、资源获取与 L4 授权继续由 `system/workflows/autonomous-research.md` 维护；未改动既有知识、raw、PLAN、daemon 配置、课程 state 或旧回执。科研交接仍见下方原记录。
+- 本轮为治理文档清理；稳定提交指针为 `main / docs: archive completed 30-day learning requirements`。路径边界与 automation preflight（含归档门）通过；全库 lint 保留既有 132 errors / 490 warnings，本轮文件无 lint issue，未宣称全库通过。验证和精确提交 hash 见 `outputs/self-tests/20261115-retire-30-day-learning/receipt.local.json`；继承的 memory 修改、原件归档删除及 PADO 等未跟踪内容保持隔离。
 
 ## 2026-11-14 session — A130 五章39节与A–F附录最终研究稿
 

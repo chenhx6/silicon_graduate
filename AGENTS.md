@@ -29,23 +29,10 @@ Git 工作树可能包含用户或上一轮留下的修改。写入前先运行 
 - 递归删除、历史重写、force push、覆盖原始证据等不可逆操作必须单独确认。
 - 不使用桌面端 GUI 或 Computer Use 来代替终端操作。浏览器只用于检索和验证，下载应指定到仓库内路径。
 - 研究使用的论文、学位论文、外部笔记、报告、图片、网页快照、数据及参考代码须按 `system/workflows/research-archive.md` 留档；新来源登记 `raw_file`、哈希或集合清单和 `archive_required: true`。相关任务自动使用 `.agents/skills/research-archive/SKILL.md`；每日及发布 preflight 中的归档门失败时不能宣称材料已留档。私有数据的本地归档不构成公开发布授权。
-- 回答、投稿核查或论文写作需要本库尚未收录的外部文献时，Codex 可以在合法可访问的范围内自行检索并下载原始材料，不必先等待用户逐篇指定。普通问答和论文相关来源按主题归档到 `raw/papers/gpt/query/YYYYMMDD-<topic>/`；`raw/papers/gpt/learning-daily/` 只用于 30 天学习计划。每个主题目录必须登记来源 URL、文件大小、SHA-256、获取时间和 `archive_required: true`；后续回答和论文写作优先回到本地原件。仅获得元数据、摘要或访问失败页时保留实际获得物和访问边界，不能把 URL 当作已归档全文。
+- 回答、投稿核查或论文写作需要本库尚未收录的外部文献时，Codex 可以在合法可访问的范围内自行检索并下载原始材料，不必先等待用户逐篇指定。普通问答和论文相关来源按主题归档到 `raw/papers/gpt/query/YYYYMMDD-<topic>/`。每个主题目录必须登记来源 URL、文件大小、SHA-256、获取时间和 `archive_required: true`；后续回答和论文写作优先回到本地原件。仅获得元数据、摘要或访问失败页时保留实际获得物和访问边界，不能把 URL 当作已归档全文。
 - 通过普通问答或投稿核查主动获取、且未来可能对研究有用的来源，在 manifest 中标记 `learning_candidate: true`、`learning_topic` 和 `collection_reason`，作为后续专题学习候选；候选来源达到有意义的主题规模后，单独组织批量学习和 source/knowledge 回写。自动下载原件不等于自动把摘要或 AI 总结写入 `knowledge/`，长期知识仍须按证据门和定位符流程生成。
 
-### 30 天 Docker 学习计划授权
-
-用户已明确授权 `daily-learning` 模式在 Wiki Docker 容器内使用 Codex
-`danger-full-access`、联网和仓库工具，直接推进 L1/L2/L3/L4 学习、文献检索、
-公开/可访问数据分析及工作流优化；不需要另行等待普通 L4 启动语句。每次日报
-runner 调用都是新的 Codex session，回执必须保存 `session_id` 和可复制的
-`resume_command`，以便用户回到某一日讨论。arXiv、NNDC/ENSDF、Google Scholar、
-Crossref、出版商和机构页面都是该计划的正常检索入口。Docker 与 `/workspace/wiki`
-是执行边界，Gitee 是恢复远端；不得把容器内授权误写成宿主机或其它项目授权。
-证据分层、locator、可复现性和失败记录仍必须保留，模型结果不得冒充实验事实。
-当前 daily daemon 的模型优先级为 `gpt-6-luna/max → gpt-6-sol/high → gpt-6-astra/medium`；GPT-5.6 不再作为运行 fallback。用户于 2026-10-28 进一步确立根本准则：Codex 应以真正的核结构博士研究生标准开展研究，无限制地自主学习、调研与深入推演，能力全面开放至 L4 全自动研学，目标是成为核结构专家。学习不能停止，研究不能停止；必须充分利用配置的 API 与网络检索工具，针对未决的理论争议与实验盲区主动开展独立调研；一直学习到要求的收束时间（如每日 15:00），届时再收束并输出报告、不足剖析及次日准备文档。
-每日 schedule 的稳定标识是 `wiki-daily-learning`，项目根目录为 `/workspace/wiki`；每次触发必须创建新 Codex session，并在 `run.json` 与 scheduler 事件中保存 session ID 和 resume 命令。Docker-local session 不自动等同于宿主机 GUI Scheduled 对象。
-每日学习正常计划于 Asia/Shanghai 16:00 启动，研究硬截止为本次 `run_date` 次日 15:00；15:00–16:00 专用于收束。checkpoint、单个来源完成或局部证据饱和都不代表整段计划完成：每次准备提前结束前先核对当前时间、原始回执截止、重建后的候选池和下一张未完成课程卡；有足够时段时继续当前问题。若当前问题饱和且距离硬截止至少 120 分钟，可预习恰好一张下一日课程卡的知识，但须保持今日 `day_index`、只列入 `partial_day_indices`，不给该卡学分、不将 `next_day_index` 越过该卡、也不打开 Day+2；预习完整知识仍留待该日正式运行后计卡。只有当前问题与这一项下一日预习均无高价值路线，且已检查下一张卡后，才可基于证据饱和提前收束。完整规则由 `system/workflows/continuous-learning.md` 和每日 prompt 维护，课程状态仅在逐卡审计、日报、知识写回、检查、续接提示和发布门通过后推进。
-下一日课程 prompt 的 canonical 入口固定为 `outputs/learning-daily/prompts/YYYYMMDD-DAYN-*.md`。run 目录可以保留 `prompt-dayN.md` 作为 provenance copy，但 handoff、receipt、scheduler 参数和下一日恢复说明必须指向 `outputs/learning-daily/prompts/` 下的 canonical 文件；closeout 前必须检查该路径存在且内容与交接版本一致。
+30 天学习计划已完成，执行约定见 [历史归档](system/archives/30-day-learning-20261115.md)，仅在追溯该计划时按需读取。后续自主研学与 L4 授权按 `system/workflows/autonomous-research.md` 执行。
 
 ## 科学证据规则
 
@@ -64,7 +51,7 @@ A≈130 是重要研究锚点，不是收录边界。是否建立核素、实验
 - 查询与回答：`system/workflows/query.md`
 - 跨来源综合：`system/workflows/reflect.md`
 - L0–L4 与人工关口：`system/workflows/autonomous-research.md`
-- 每日持续学习：`system/workflows/continuous-learning.md`
+- 已完成学习计划追溯（按需）：`system/archives/30-day-learning-20261115.md`
 - 定时续跑：`system/workflows/scheduled-continuation.md`
 - 健康检查：`system/workflows/lint.md` 和 `check.md`
 - 路径契约与漂移检查：`system/path-contract.md`、`system/scripts/wiki_boundary_check.py`

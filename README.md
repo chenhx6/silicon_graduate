@@ -8,7 +8,7 @@ Wiki 可在不同操作系统和 AI 工具环境中使用。Docker、Obsidian、
 
 ## 当前定位
 
-当前系统是 **Continuous Research-Learning v2（硅基研究生 V2）**：面向低能核结构研究、由 Codex self-audit 驱动的可追溯 research Wiki。它支持 traceable evidence、L1/L2 学习、课题调查型 L3 和可复现的数据研究型 L4。用户已为 Docker 内的 30 天 daily-learning 计划授权联网、`danger-full-access` 和 L1–L4 自主推进；正式论文措辞仍回到证据门，ordinary Q&A 保持轻量。
+当前系统是 **Continuous Research-Learning v2（硅基研究生 V2）**：面向低能核结构研究、由 Codex self-audit 驱动的可追溯 research Wiki。它支持 traceable evidence、L1/L2 学习、课题调查型 L3 和可复现的数据研究型 L4。自主研学与 L4 的长期授权由自治研究工作流维护；正式论文措辞仍回到证据门，ordinary Q&A 保持轻量。
 
 A≈130 是当前研究锚点，不是 Wiki 的收录边界。v2 的设计决策与 `131Ce` pilot 见 [Continuous Research-Learning v2 architecture record](system/architecture-updates/2026-07-l3-autonomy-l4-foundation.md)；完整 L0–L4 状态机只在 [autonomous-research workflow](system/workflows/autonomous-research.md) 维护。Wiki 仍不是最终权威，也不保证文献完整覆盖；论文级结论由 Agent 自主核验，须回到 `knowledge/sources/`、`raw/` 原文、精确 locator 和Agent 直接证据核验，并遵循 [system/paper-evidence-gate.md](system/paper-evidence-gate.md)。
 
@@ -45,7 +45,7 @@ A≈130 是当前研究锚点，不是 Wiki 的收录边界。v2 的设计决策
 | 知识库规模和健康状态 | [knowledge/overview.md](knowledge/overview.md) |
 | 尚未解决的科研问题 | [knowledge/questions.md](knowledge/questions.md) |
 | 当前阶段计划和用户备忘 | [PLAN.md](PLAN.md) |
-| 90 天持续学习工作流与队列 | [system/workflows/continuous-learning.md](system/workflows/continuous-learning.md) · [system/learning-queue.md](system/learning-queue.md) |
+| 已完成学习计划的历史归档（按需） | [system/archives/30-day-learning-20261115.md](system/archives/30-day-learning-20261115.md) |
 | 最近一次 Agent 执行交接 | [system/handoff.md](system/handoff.md) |
 | 摄入论文 | [system/workflows/ingest.md](system/workflows/ingest.md) |
 | 查询知识库 | [system/workflows/query.md](system/workflows/query.md) |

@@ -1,17 +1,20 @@
 ---
 type: system-learning-queue
 graph-excluded: true
-updated: 2026-09-06
+status: archived
+updated: 2026-11-15
 ---
 
 # 90 天持续学习队列
 
-## 当前周期
+> 已归档（2026-11-15）：用户确认 30 天学习计划已完成。本页保留旧课程及执行背景，以下“当前”“必须”及周期/调度要求均属历史，不作为现行指令或启动必读。原 90 天框架不据此继续运行；后续自主研学授权由自治研究工作流维护。追溯入口见 [历史归档](archives/30-day-learning-20261115.md)。
+
+## 历史周期
 
 - 周期：2026-09-05–2026-12-03（90 天）
 - 调度：每日 16:00，`Asia/Shanghai`，Docker 内 `run_daily_learning_daemon.py`
 - 主轴：核结构约 80%；相邻核科学约 20%；A≈130 不是边界
-- 当前状态：`active`；第一运行从既有学位论文 corpus 的 graph closure 和跨质量区比较开始
+- 归档状态：`archived`；以下保留当时的候选队列，不作为继续执行或延长课程的指令
 - 入口规范：[`continuous-learning workflow`](workflows/continuous-learning.md)
 
 ## Seed corpus 状态

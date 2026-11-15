@@ -2,7 +2,7 @@
 type: system-workflow
 graph-excluded: true
 operation: research-archive
-updated: 2026-11-03
+updated: 2026-11-15
 ---
 
 # 研究材料留档
@@ -35,9 +35,9 @@ updated: 2026-11-03
 回答、投稿核查、论文写作或证据复核遇到本库尚未收录、但对当前判断有实质帮助的
 外部文献时，Codex 可以按合法可访问路径主动获取原文。用户约定的
 普通问答、投稿核查和论文写作来源的 canonical 落点为
-`raw/papers/gpt/query/YYYYMMDD-<topic>/`；30 天学习计划继续使用
-`raw/papers/gpt/learning-daily/YYYYMMDD-DAYn-topic/` 或
-`YYYYMMDD-PREPLAN-topic/`。不允许把浏览器缓存、外部 Downloads 或 URL-only 记录
+`raw/papers/gpt/query/YYYYMMDD-<topic>/`。已完成学习计划的
+`raw/papers/gpt/learning-daily/YYYYMMDD-DAYn-topic/` 和
+`YYYYMMDD-PREPLAN-topic/` 仅保留为既有原件路径，不作为新查询的默认落点。不允许把浏览器缓存、外部 Downloads 或 URL-only 记录
 当作归档原件。
 
 这类按需获取的 manifest 除常规 `archive_type`、`retrieved_at`、`files` 外，宜登记：

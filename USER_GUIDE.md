@@ -4,7 +4,7 @@
 
 这套 Wiki 面向熔合蒸发反应和低能原子核结构研究。Obsidian 是人的浏览、审阅和写作界面；Agent 负责摄入、交叉引用、综合、检查与维护；Markdown 文件是双方共享的长期记忆。
 
-当前系统是 Continuous Research-Learning v2（硅基研究生 V2）：面向低能核结构研究的 Human-in-the-loop research Wiki。普通授权摄入/综合任务运行 L2 闭环，高价值问题可进入 L3；用户已明确授权 Docker 内 30 天 daily-learning 计划联网、`danger-full-access` 和 L1–L4 自主推进，L4 仍按数据身份、可复现分析和失败检查校准结论。ordinary Q&A 保持轻量。A≈130 是当前研究锚点，不是收录边界。详细架构见 [architecture updates](system/architecture-updates/README.md)。Wiki 不是最终权威，不保证文献完整覆盖，不能替代原文阅读和人工科学判断。
+当前系统是 Continuous Research-Learning v2（硅基研究生 V2）：面向低能核结构研究的 Human-in-the-loop research Wiki。普通授权摄入/综合任务运行 L2 闭环，高价值问题可进入 L3；自主研学与 L4 长期授权见自治研究工作流，研究结论仍按数据身份、可复现分析和失败检查校准。ordinary Q&A 保持轻量。A≈130 是当前研究锚点，不是收录边界。详细架构见 [architecture updates](system/architecture-updates/README.md)。Wiki 不是最终权威，不保证文献完整覆盖，不能替代原文阅读和人工科学判断。
 
 本文件是快速使用指南。需要了解目录层级、证据术语、人工审阅、project、写作准备和可复制提示词时，请查看 [USER_GUIDE_DETAIL.md](USER_GUIDE_DETAIL.md)。
 
@@ -47,11 +47,11 @@ Wiki 可在不同操作系统和 AI 工具环境中使用；`.codex/`、`.obsidi
 
 ### 科研自治入口
 
-完整 L0–L4、每周自测、P0/P1 和人工关口只在 [autonomous-research workflow](system/workflows/autonomous-research.md) 维护。常用触发示例：`摄入 <文献>` 默认完成 L0–L2；`开始 L3 研究：<问题>` 启动课题调查。30 天 daily-learning 是用户明确授权的 L1–L4 例外，可直接使用可访问数据和联网来源；`:danger-full-access` 在该 Docker 计划中是有意启用的运行方式。每周自测有实质变化时先建立本地 WIP 和集中 P0/P1 报告，完成实际发布检查后自主发布，不等待人工审核。
+完整 L0–L4、每周自测、P0/P1 和人工关口只在 [autonomous-research workflow](system/workflows/autonomous-research.md) 维护。常用触发示例：`摄入 <文献>` 默认完成 L0–L2；`开始 L3 研究：<问题>` 启动课题调查。用户已授权后续自主研学与 L4 研究；具体执行依当前任务范围、数据使用授权和证据要求推进。每周自测有实质变化时先建立本地 WIP 和集中 P0/P1 报告，完成实际发布检查后自主发布，不等待人工审核。
 
-90 天持续学习由 [continuous-learning workflow](system/workflows/continuous-learning.md) 和 [learning queue](system/learning-queue.md) 管理；当前先执行一个重新计数的 30 天实质周期。Docker 内 daemon 每日 16:00（Asia/Shanghai）触发独立新 session；每个回执保存 `session_id` 和 `resume_command`，便于回到某日讨论。2–3 小时是 checkpoint，不是硬停止。默认次日 15:00 才停止新增研究，15:00–16:00 收束；若当前问题局部饱和且距离硬截止至少 120 分钟，先重建候选池并检查下一张未完成日卡，可预习恰好一张 Day+1 卡的知识，但保持今日 `day_index`、只记部分预览、不推进 Day+1 学分或打开 Day+2。提前结束须说明最新时间快照、已检查路线、无剩余高价值路线的依据和续接命令。可用 arXiv、NNDC/ENSDF、Google Scholar、Crossref 及出版商/机构来源。可复用知识写入 `knowledge/`，日报和运行交代写入 `outputs/`。
+30 天学习计划已完成，原课程、固定作息和逐日计数要求已归入 [历史约定](system/archives/30-day-learning-20261115.md)，不作为日常启动要求。旧日报、回执、原件和知识页保持可追溯；追溯旧课程时再按需读取。
 
-每日学习默认“能学尽学，应学就学”：Codex自主获取应读正文、SI及必要附件/数据/代码等资源并核验，不再询问下载或SI偏好。此授权跨日、跨session沿用；外部skill的通用SI询问步骤不覆盖这条用户指令。
+授权研究任务中，Codex自主获取应读正文、SI及必要附件/数据/代码等资源并核验；用户既有授权覆盖的普通资源选择不重复确认。可复用知识写入 `knowledge/`，报告和执行交代写入 `outputs/`。
 - `system/log.md`：只追加的操作历史；
 - `check.md`：系统与科学质量检查。
 

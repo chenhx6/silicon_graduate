@@ -1,7 +1,7 @@
 ---
 type: system-memory
 graph-excluded: true
-updated: 2026-11-08
+updated: 2026-11-15
 ---
 
 # 长期记忆
@@ -11,6 +11,8 @@ updated: 2026-11-08
 这里只保存跨项目、跨会话仍应成立的规则。临时任务状态写入 `system/handoff.md`。
 
 ## 已确认规则
+
+- 2026-11-15 用户确认 30 天学习计划已完成；课程、每日作息和调度执行约定已移至 `system/archives/30-day-learning-20261115.md`，仅按需追溯。后续自主研学与 L4 长期授权按 `system/workflows/autonomous-research.md` 继续执行。
 
 - 2026-11-08 用户要求由总控主理核结构进阶研究和之后的新博士论文设计：先全力研学A≈60–190的集体激发、核芯形变及“一核两翼”全部主题，区别在深度而非省略；以吴鸿毅学位论文为起点实质学习数字电子学与实验技术。准备充分后才进入论文章节设计，再给Gemini详细合同写正文。旧稿`raw/writing/gpt/A130/`已获条件性清空/重写授权，但仅在阶段1准备充分后实施；不得扩展到其它大小写相近目录或其它稿件。用户希望深入浅出、解释历史与高阶基础、减少同质化、涵盖新理念新技术，并以克制的科幻叙事兴趣帮助阅读；不得虚构历史、个人成果或实验经历。用户明确要求`auto`、科学头脑风暴及原生goal防偏；按完整目标和证据就绪判断推进，不以论文数、token消耗或旧“完成”标签作为收敛。
 - 2026-11-07 用户确立科研多模型分工，并再次强调Gemini承担大部分任务：`antigravity/gemini-3.8-flash-tiered`（Gemini 3.8 Flash Tiered，reasoning `high`）作为主力subagent；`codex/gpt-6.1-sol` reasoning `xhigh`负责领导/总控、证据核查与集成；相当复杂的任务交给`codex/gpt-6.1-terra` reasoning `xhigh`。两个worker模型均在本会话成功派发、调用终端并回传结果，运行model/effort记录已核对。用户要求给Gemini尽可能详细、易执行的提示词：明确单一问题、必要背景、必读原件/版本、页码与单位、常见误读、可写路径、输出schema、逐项验收和真实未完成边界，长任务拆成小批次并检查后再推进。派发数量或长提示词本身不保证科学质量，父代理仍按直接证据复核；不得把旧的GPT-5.6 subagent偏好当作当前默认。本条记录科研派发偏好，不声称已改写daily daemon的模型配置。
@@ -26,7 +28,6 @@ updated: 2026-11-08
 
 - 2026-10-27 用户已补齐 Paul1991（1991Pa04，DOI 10.1088/0954-3899/17/5/009）全文，原文件路径及哈希见 `outputs/literature-acquisition/20261027-paul1991-user-pdf.json`，133Ce 分析蓝本已更新获取状态；后续直接读取本地 PDF，不再沿 Day24 访问失败记录重复索取。当前只核身份，正文科学核查待续。
 
-- 2026-10-27 用户重申每日学习长期授权：“DAY每日学习不许问。默认能学尽学，应学就学，自行获取应该获取的文章、文件等等一切资源。”在 `daily-learning` 中，正文、Supporting Information（SI）、必要附件/数据/代码及其它应学资源由 Codex 自主选择、检索、获取和核验；默认正文及可用SI，不再询问要不要下载或要不要SI，也不因外部skill的SI确认提示中断学习。该要求跨日、跨session沿用，不只是当前批次偏好。输入不可得时记录已查路线和缺口，继续可解析问题，不把普通学习选择变成用户待办。
 
 - 2026-10-26 用户补齐 Rupnik1994、Bourgeois1978、Choudhury2010 和 Larsson1978 四份 PDF，原路径/页数/SHA/阅读边界见 `outputs/literature-acquisition/20261026-user-pdfs-elsevier-access.json`，相关 source 页已追加可用性更新；不要沿旧失败记录继续索取这些文件。Elsevier 私有配置与 Paper Search 仓库内下载目录见 `system/workflows/literature-access.md`；已实测目标元数据/PDF/Scopus 接口成功，不能外推全库全文权限。
 - 2026-10-24 用户授权文献检索接入 Web of Science；凭据保存在 `raw/personal/.env`，当前两把 Starter API key：`WEB_OF_SCIENCE_API_KEY_Institutional_Member_Plan`（优先，5/s 5000/day）和 `WEB_OF_SCIENCE_API_KEY_Free_Trial_Plan`（fallback，1/s 50/day）。旧的单一 `WEB_OF_SCIENCE_API_KEY` 已废除。Expanded API 未订阅，不可用。本地 Paper Search MCP 经 `system/scripts/run_paper_search_mcp.py` 映射为 `WOS_API_KEY`，新进程加载。检索/权限/全文获取边界见 `system/workflows/literature-access.md`。
@@ -42,7 +43,7 @@ updated: 2026-11-08
 - 用户在仓库根目录维护 `PLAN.md`，用于宏观阶段计划、个人好奇心备忘和研究方向草稿；它由用户拥有，不是 cite-key 文献清单、执行日志或 Agent 可自由改写的任务列表。
 - `PLAN.md` 按任务条件读取并管理方向与优先级；`system/handoff.md` 管理最近执行事实与交接细节。无法分类的冲突必须询问用户。
 - 执行余量不足且任务无法稳定完成时进入 safe suspend：停止扩大范围、完成 Git 检查、写完整 handoff，并等待用户在额度刷新后发送“继续”；safe suspend 会暂停本轮 commit/push，若大量 diff 或恢复风险符合门槛，可创建本地 WIP checkpoint，但它不等于 review finalization 或科学发布门通过。
-- 当前系统为 Continuous Research-Learning v2（硅基研究生 V2），是面向低能核结构研究的 Human-in-the-loop research Wiki；普通摄入默认运行 L0–L2，高价值问题可进入 L3。用户已明确授权 Docker 内 30 天 daily-learning 计划联网、`danger-full-access` 和 L1–L4 自主推进；L4 仍须按数据身份、可复现分析和失败检查校准结论。完整等级、状态、每周自测和人工关口只由 `system/workflows/autonomous-research.md` 维护；ordinary Q&A 保持轻量，Wiki 不是最终权威，也不保证文献完整性。
+- 当前系统为 Continuous Research-Learning v2（硅基研究生 V2），是面向低能核结构研究的 Human-in-the-loop research Wiki；普通摄入默认运行 L0–L2，高价值问题可进入 L3。用户对后续自主研学与 L4 研究的长期授权继续有效；L4 仍须按数据身份、可复现分析和失败检查校准结论。完整等级、状态、每周自测和人工关口只由 `system/workflows/autonomous-research.md` 维护；ordinary Q&A 保持轻量，Wiki 不是最终权威，也不保证文献完整性。
 - Review status 是核查元数据，不是检索、可见性、科学价值或知识资格门槛。高相关、高信息增益的未审核内容应主动呈现，并说明其可能贡献、review/source/locator 状态和核查路径；不机械罗列低相关内容。
 - `human-reviewed` 不表示永久正确、完整或已穷尽文献知识；已审核内容仍可被质疑、重新核验、纠正和继续挖掘。页面整体 `unreviewed` 不妨碍针对具体 claim 完成直接来源核验。
 - Paper admission 由 Agent 按具体 claim、拟用措辞、直接证据和使用语境自主核验，不需要用户审核确认。普通研究和摄入由 Codex self-audit 完成；局部 claim 核验可更新对应证据状态，但不得写成 `human-reviewed`。针对论文与关键问答的核验由 Agent 自主执行，不触发人工审核门。
@@ -58,20 +59,14 @@ updated: 2026-11-08
 - Nature Skills 的非 API 本机依赖已配置：下载/PDF、专利文档和 CNIPA Playwright Python 依赖已安装，Playwright Chromium 已就绪，Academic Search MCP 通过 `uv` 隔离环境全局注册并使用本机联系邮箱访问无需 key 的 PubMed/CrossRef/OpenAlex 路由。出版商、NCBI 和 Semantic Scholar API key 暂不申请、不配置；Scopus/ScienceDirect 等 key-dependent provider 保持按需禁用。机构入口与联系邮箱只保存在用户本机配置，不写入公开 Wiki 或 Git 历史。
 - Wiki 工作项目由 Docker 内的终端 Codex 接手，Docker 负责 sandbox 和完整仓库访问；`.codex/config.toml` 不声明项目 sandbox。raw 保护、科学证据规则、人工审核和不可逆操作确认仍有效，工作流不依赖桌面端 GUI。
 - 共有能力的 skill 优先进入 Docker 共享 skill 库 `/root/.agents/skills`，并保留固定来源、许可证和结构验证；项目专用 skill 留在项目的 `.agents/skills/`，不能把 Wiki 路径、运行状态、凭据或项目专用脚本未经通用化放进共享层。
-- Nature-first 文献入口固定为：先用 `nature-academic-search` 核对结构化元数据，再补查 Google Scholar 或学术镜像，候选下载交给 `nature-downloader`；Scholar/镜像发现的 PDF 先在 `raw/papers/gpt/learning-daily/YYYYMMDD-DAYn-topic/` 或 `YYYYMMDD-PREPLAN-topic/` 校验并归档。已验证 PDF 不再保留在 `_incoming`，Agent BibTeX 只写 `raw/zotero/gpt.bib`，去凭据 manifest 写入 `outputs/literature-acquisition/`；`raw/zotero/wiki-inbox.bib` 始终保持用户/Zotero 管理和 Agent 只读。APS/PRC 或 Scholar 的真人验证由用户在原标签页完成。
+- Nature-first 文献入口固定为：先用 `nature-academic-search` 核对结构化元数据，再补查 Google Scholar 或学术镜像，候选下载交给 `nature-downloader`；Scholar/镜像发现的 PDF 先在 `raw/papers/gpt/query/YYYYMMDD-<topic>/` 校验并归档。已验证 PDF 不再保留在 `_incoming`，Agent BibTeX 只写 `raw/zotero/gpt.bib`，去凭据 manifest 写入 `outputs/literature-acquisition/`；`raw/zotero/wiki-inbox.bib` 始终保持用户/Zotero 管理和 Agent 只读。APS/PRC 或 Scholar 的真人验证由用户在原标签页完成。
 - 经典高自旋综述不能仅因年代较早而被笼统降级：通用术语、γ 探测基础和物理成因框架可继续作为有效背景；应分别核对后来发展的物理模式、具体装置性能和单核素证据。
 - 本仓库采用 bounded initiative：允许与当前任务直接相关的必要最小同步，禁止非必要顺手优化；脚本统一使用 Python 3，Git 由当前终端环境提供。
 - 中文科学页面中专业术语首次出现时保留英文名称或标准缩写；可能指向不同物理对象的简称必须写明具体对象，例如 two-band mixing 必须说明是哪两条带，避免后续查询只按中文词面误配。
 - 讨论多声子 wobbling 的 anharmonicity 时，必须区分能带能量与 successive phonon spacing，并写清参与差分的能带和自旋；不得把“第二声子增量较低”简写成含义不同的“TW2 能量低于 TW1 的两倍”。
 - 2026-08-18 Nature Skills 安装记录保留为历史事实；后续维护以 Python 更新器和 Wiki evidence policy 为准。
-- 2026-09-22 用户明确：每日学习自动化必须完全运行在 Docker 内。使用容器内 `run_daily_learning_daemon.py` 负责 Asia/Shanghai 22:00 调度；不得使用宿主机任务计划、Docker socket、PowerShell 或外部 project cron。
-- 2026-09-25 用户将每日学习 daemon 的触发时间从 22:00 调整为 Asia/Shanghai 16:00，以便在当天更早验证自启动和 runner 修复；Docker 内运行边界不变。
 - 2026-09-23 用户明确：`knowledge/` 是 Wiki 的长期知识大脑；每日学习产生的可复用 source/project/synthesis/question/research-note/matrix 增量写入 `knowledge/`，`outputs/` 只保存日报、周报、审计、回执、调度状态和其它过程交代。
 - 2026-09-23 路径契约固化：`raw/` 原始材料，`knowledge/` 长期知识，`outputs/` 交代性输出与 `outputs/plans/` 任务计划书，`system/` 治理执行，`tools/` 外部工具，`tmp/` 临时数据；`docs/plans/` 禁止重新创建。输出中的可复用知识必须同步回写 `knowledge/`，QMD 仅索引 `knowledge/**/*.md`；`wiki_boundary_check.py` 由 automation preflight 调用。
-- 2026-09-23 用户确认：日报 runner 每次用新的 `codex exec` session，不复用固定 session；`run.json` 必须保存 `session_id`、`session_mode` 和可复制的 `resume_command`，便于按日恢复讨论。2026-09-22 的 Day 1/Day 2 仅作为 Docker/runner 实例验收，全部标记为 `acceptance-only`，不计入新的 30 个实质成功日；状态从 `next_day_index: 1` 重新开始。
-- 2026-09-23 用户确认：30 天 daily-learning 允许联网使用 arXiv、NNDC/ENSDF、Google Scholar、Crossref、出版商和机构页面，并可自主进入 L1/L2/L3/L4；容器内使用 Codex `danger-full-access`，Gitee 作为恢复远端。证据 locator、来源分层和可复现失败检查仍须记录。
-- 2026-09-23 用户更新模型偏好：daily daemon 优先使用 `gpt-6-luna` reasoning `max`，失败时回退到 `gpt-6-sol` `high`，再回退到 `gpt-6-astra` `medium`；GPT-5.6 系列从 daily-learning fallback 中废弃。
-- 2026-09-23 用户明确 schedule 语义：每日计划使用固定 `wiki-daily-learning` schedule ID 和 `/workspace/wiki` 项目根目录，每次触发必须新建 session，并可凭 `run.json` 的 `resume_command` 恢复。Docker-local CLI schedule 不会自动出现在宿主机 Codex GUI Scheduled 列表，不能把本地 session 误称为 GUI schedule。
 
 ## 用户纠正记录
 
@@ -88,8 +83,8 @@ updated: 2026-11-08
 - 2026-07-10：Review history 记录“用户已完成的一轮实质性人工审核”，不要求固定触发短语，也不由 commit/push/overview/QMD 触发；它不要求 task closed，可与 Pending WIP 并存，只记录 `review commit message` 而不记录 hash/push 状态。Review history 是核查与追溯元数据，不是科学证据、知识白名单或 paper-readiness 索引。
 - 历史记录（人工审核条件已由 2026-11-05 行为中立规则取代）：2026-09-12 用户确认当前学位论文持续研究由 Codex 自行 self-audit，不主动索要 source/P0/P1/报告审核；用户审核仅在后续问答讨论或论文写作需要具体 claim 裁决时发生。允许联网检索原文、执行 L3/L4 和温故知新；12 小时是软检查点，不是硬配额，完成后需交接、commit 和 push。
 
-- 2026-10-28：用户确立根本准则：Codex 应以真正的核结构博士研究生标准开展研究，无限制地自主学习、调研与深入推演，能力全面开放至 L4 全自动研学，目标是成为核结构专家。学习不能停止，研究不能停止；必须充分利用配置的 API 与爬虫检索工具，针对未决的理论争议与实验盲区主动开展独立调研；一直学习到要求的收束时间（如每日 15:00），届时再收束并输出报告、不足剖析及次日准备文档。Subagents 采用 gpt-5.6-luna (max/fast)，在 subagents 工作的同时主代理也必须同步持续开展研究推演，不出现等待闲置；对话面板只看最终结果，不展示过程性中间回复。
-- 2026-11-01：用户补充长期研究身份与默认选题标准：持续温故知新并主动重读历史学位论文，把自己培养成兼具实验核物理专长与理论建模能力的核结构研究者；A≈130 是锚点而非边界，必须主动寻找其它质量区已观测而 A≈130（或特定核区）尚未观测/证据未闭合的现象，以及理论已预言但尚未观测的现象。对这些问题先提出大胆、可证伪的假设，再设计小心验证路线；研究要延伸到 IMP-DRAGON、RIBLL 等装置的实验可行性、束流申请构思、国内外探测器/阵列发展和面向具体物理问题的新探测器设计。今后 daily-learning 默认把“跨质量区现象缺口—实验观测方案—探测器响应—束流申请”作为可主动选择的研究方向；允许提出 provisional 设计推断，不得把设计推断冒充实验事实。
+- 2026-10-28：用户要求以核结构博士研究生标准自主研学与研究，能力开放至 L4；主动调查理论争议和实验盲区。后续研究继续适用，完整授权与数据边界见 `system/workflows/autonomous-research.md`；原每日时限和旧模型配置仅保留在历史归档。
+- 2026-11-01：用户补充长期研究身份与默认选题标准：持续温故知新并主动重读历史学位论文，把自己培养成兼具实验核物理专长与理论建模能力的核结构研究者；A≈130 是锚点而非边界，必须主动寻找其它质量区已观测而 A≈130（或特定核区）尚未观测/证据未闭合的现象，以及理论已预言但尚未观测的现象。对这些问题先提出大胆、可证伪的假设，再设计小心验证路线；研究要延伸到 IMP-DRAGON、RIBLL 等装置的实验可行性、束流申请构思、国内外探测器/阵列发展和面向具体物理问题的新探测器设计。今后自主研学默认把“跨质量区现象缺口—实验观测方案—探测器响应—束流申请”作为可主动选择的研究方向；允许提出 provisional 设计推断，不得把设计推断冒充实验事实。
 - 2026-11-01：用户确立研究材料留档要求：论文、学位论文、笔记、网页快照、图片、私有数据及其它 source-dependent 文档均须在 `raw/` 内保留可回溯副本；知识页通过 `raw_file`/`raw_sha256` 或集合 `manifest.json` 回链，归档门由 `system/scripts/wiki_archive_gate.py` 和 `research-archive` skill 执行。缺少原件或哈希不一致时保留 access/readiness boundary，不以 URL 或总结替代留档。
 
 ## 禁止写入

@@ -2,7 +2,7 @@
 type: system-workflow
 graph-excluded: true
 operation: scheduled-continuation
-updated: 2026-09-29
+updated: 2026-11-15
 ---
 
 # SCHEDULED CONTINUATION：定时续跑流程
@@ -25,9 +25,11 @@ updated: 2026-09-29
 
 ## 调度类型
 
-科研型每周自测的科学深度、L3 升级、L4 手动关口、P0/P1 报告和本地 commit 规则由 `autonomous-research.md` 管理；本文件只管理调度可靠性、回执和恢复。当前 Wiki Docker 运行环境使用容器内 daemon，不使用 heartbeat、宿主机 cron 或外部 project cron。
+科研型每周自测的科学深度、L3 升级、L4 授权、P0/P1 报告和本地 commit 规则由 `autonomous-research.md` 管理；本文件只管理调度可靠性、回执和恢复。原学习计划的 Docker daemon 说明保留作历史参考，不代表当前存在运行中的定时任务。
 
-### Docker 内每日学习 daemon
+### Docker 内每日学习 daemon（历史参考）
+
+> 2026-11-15 归档：30 天学习计划已完成。本节（至下一节“短时同线程续跑”）的 daemon、定时等待器与持续学习时限要求仅用于追溯旧运行，不作为新任务指令。旧 runner 的回执和恢复字段仍可按需解释；新调度须依据当前任务授权另行建立。见 [历史归档](../archives/30-day-learning-20261115.md)。
 
 正常调度由 `system/scripts/run_daily_learning_daemon.py` 负责。它在容器内等待
 `Asia/Shanghai` 16:00，调用 `run_daily_learning.py`，每次调用创建新的 Codex session，

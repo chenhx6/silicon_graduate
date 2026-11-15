@@ -2,7 +2,7 @@
 type: system-workflow
 graph-excluded: true
 operation: query
-updated: 2026-11-05
+updated: 2026-11-15
 ---
 
 # QUERY：知识库查询流程
@@ -32,8 +32,8 @@ updated: 2026-11-05
 会实质改善回答、投稿核查或论文写作，Codex 可以按合法可访问路径主动下载到
 `raw/papers/gpt/query/YYYYMMDD-<topic>/`，并按
 [`research-archive`](research-archive.md) 登记 URL、获取时间、文件大小、SHA-256、
-`archive_required: true` 和阅读边界。30 天学习计划来源仍进入
-`raw/papers/gpt/learning-daily/`。
+`archive_required: true` 和阅读边界。已完成学习计划的原件保留在历史
+`raw/papers/gpt/learning-daily/` 路径，普通查询不再沿用该课程目录。
 
 该外部获取规则是 raw 归档例外，仍不自动把摘要或 AI 总结写入 `knowledge/`。若来源
 未来可能服务于多个问题，在 manifest 中设置 `learning_candidate: true`、

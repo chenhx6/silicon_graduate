@@ -298,16 +298,9 @@ qmd.cmd embed -c nuclear-knowledge
 `knowledge/overview.md` 是阶段性地图，不需要每篇 source 都更新；source、project 和 synthesis 才是主要知识承载。overview deferred 不代表摄入失败。大型 project/synthesis 可维护 `Agent active summary` 作为导航入口，但 active summary 不是 source，不替代 project/synthesis 主体，也不替代原文 locator。
 ## 13. Git and safety / Git 与安全边界
 
-### 30 天实质学习与逐次发布
+### 已完成学习计划的历史追溯
 
-每日 16:00（Asia/Shanghai）的持续学习任务遵循
-[`continuous-learning workflow`](system/workflows/continuous-learning.md)。当前从新的 Day 1 开始计数 30 个实质成功日，之前的 Day 1/Day 2 仅作为实例验收，不计入测试。用户已授权该 Docker 计划联网、`danger-full-access` 和 L1–L4 自主推进；每次运行创建新的 Codex session，回执保存 `session_id` 和 `resume_command`。2–3 小时只是 checkpoint。默认学习截止是本次 `run_date` 次日 15:00，15:00–16:00 留作收束；checkpoint 或单个问题的证据饱和不代表整段学习完成。runner 持续刷新当前时刻和未完成课程卡：至少剩 120 分钟时继续当前高价值问题；问题饱和后重建候选池，可预习恰好一张 Day+1 卡的知识，保持今日 `day_index` 并只记录为 partial，不推进其学分或打开 Day+2。90–119 分钟继续当前问题或有限预览，少于 90 分钟不打开新卡/来源。课程只按正式日卡和逐卡交付审计推进；预习不计学分。日报、周报、审计、计划和运行回执写入 `outputs/`；可复用的 source/project/synthesis/矩阵知识写入 `knowledge/`，队列在 `system/learning-queue.md`。
-
-Docker 内每日任务通常由 `system/scripts/run_daily_learning_daemon.py` 在 16:00（Asia/Shanghai）触发；可用 `--dry-run` 检查下一次触发时间和 runner 命令。daemon 不在运行时，可手动执行 `./system/scripts/run_daily_learning_at.sh --at 'YYYY-MM-DD HH:MM' --prompt-file <prompt> --day-index <N>`，让前台脚本等待后调用同一个 runner。它与 daemon 共用单实例锁；终端和容器必须保持运行，不能唤醒休眠或停止的主机/容器。等待时可用 Ctrl+C 取消；任务启动后 Ctrl+C 会中断 runner 并将 scheduler 状态记为失败，日报可能不完整。任务可以使用 arXiv、NNDC/ENSDF、Google Scholar、Crossref 以及出版商/机构页面。可运行 `system/scripts/wiki_automation_preflight.py` 验证路径契约、仓库根目录、配置和受保护 BibTeX 基线；也可单独运行 `python3 system/scripts/wiki_boundary_check.py --root .`。每次日报回执都可直接恢复到对应 session 讨论；Gitee 用于容器外恢复 Wiki 数据。
-
-手动恢复交互式学习 session 而没有 foreground runner 时，可用 [已有会话计时监督](system/scripts/README.md#已有交互式学习会话的计时监督) 排队 2–3 小时检查点和次日 15:00 收束提示。它持有 daemon/runner 锁，不另开研究会话或推进学分；心跳证明计时进程在线，queue 接受记录和同会话实际执行记录分别核对。容器与 app server 必须持续在线，用户停止学习时一并停止监督器；该程序不会自动启动下一日运行。
-
-每次实质日报完成且 writeback、路径、lint、diff 和 runner 验收均通过后，Codex 自动显式暂存本轮任务文件、commit 并 push 到 Gitee，不等待周报或周度 gate。暂存前建立 dirty baseline，只包含本轮 `knowledge/`、日报/续接 prompt、回执和必要交接文件；不得使用 `git add .`，不得纳入继承改动、raw 原件、受保护 Zotero BibTeX、凭据或临时日志。发布遵循根目录 `AGENTS.md` 与 `check.md` H3 的 ancestry、dry-run 和精确非 force refspec。验证或 Git 发布门失败时保留本地内容并记录 `final-not-pushed` 与原因；科学结论为 partial/stopped 或普通 `needs_review` 不单独阻止已通过检查的发布。
+30 天学习计划已完成，其课程日卡、固定作息、逐日计数和 session/prompt 执行约定集中见 [历史归档](system/archives/30-day-learning-20261115.md)。这些材料按需读取，不作为普通会话的启动要求。已形成的原件、日报、回执和知识页保留原路径；后续自主研学与 L4 长期授权由 [自治研究工作流](system/workflows/autonomous-research.md) 维护。
 
 - 不要使用不加检查的 `git add .`；应显式暂存目标文件；
 - `raw/`、PDF、论文、数据和图片不得被 Agent 误改或误提交；

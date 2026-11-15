@@ -1,7 +1,7 @@
 ---
 type: system-checklist
 graph-excluded: true
-updated: 2026-11-05
+updated: 2026-11-15
 ---
 
 # Wiki 系统核查清单
@@ -54,26 +54,20 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] `system/memory.md` 只保存稳定规则与用户确认过的偏好，不保存临时聊天摘要。
 - [ ] 已判断本次是否需要更新 `USER_GUIDE.md`；需要时已经同步。
 - [ ] 本次规则修改已同步到 `AGENTS.md`、`check.md` 和相应工作流。
-- [ ] 每日学习遇到问题/来源局部饱和时，先核对实时钟和硬截止，再重建候选池并检查下一张未完成日卡；至少剩 120 分钟时可预习恰好一张 Day+1 卡的知识，但保持今日 `day_index`、只记 `partial_day_indices`，不推进其学分或越过它更新 `next_day_index`，也不打开 Day+2；15:00 前不把 checkpoint/局部饱和当作全日收束，15:00–16:00 只做 closeout；逐卡完成审计通过后才推进状态。
+- [ ] 已完成的 30 天学习计划只按需追溯；全局启动规则不再要求读取课程、执行固定每日作息或推进日卡，历史归档未被当作现行指令。
 - [ ] 本轮写入前已通过 `python3 system/scripts/wiki_boundary_check.py --root .`；`docs/plans/` 不存在，任务计划使用 `outputs/plans/`。
 - [ ] 束流申请等 proposal 使用 `raw/proposal/`，可按授权 commit/push；迁移时核验文件内容未丢失、引用已更新，保留初稿状态，不将申请书当作实验证据。
 - [ ] 报告、计划、回执或调度状态中的可复用知识已同步到 `knowledge/` canonical 页面，并在输出中列出知识路径与 source locator；没有把 outputs 当作长期事实源。
-- [ ] 每日学习日报包含唯一 `knowledge-writeback` JSON 区块；每个 item 的 knowledge anchor、source path 和 locator/claim ID 在正文中存在，`updated` 有运行前后 knowledge 变更，`verified-no-op` 有 grounded page 与无变化理由。
 - [ ] L0-L4 完整定义只存在于 `system/workflows/autonomous-research.md`；AGENTS/query/reflect/ingest/Skill 仅保留短路由，没有复制漂移或堆积第二套规则。
-- [ ] ordinary Q&A 未误触发写入；授权 ingest/reflect/project/synthesis 默认运行 L2；高价值问题进入 L3 时有明确 scope/milestone；30 天 Docker daily-learning 例外可自主进入 L1–L4，并保留数据身份、复现和失败检查。
+- [ ] ordinary Q&A 未误触发写入；授权 ingest/reflect/project/synthesis 默认运行 L2；高价值问题进入 L3 时有明确 scope/milestone；后续自主研学与 L4 长期授权按自治研究工作流执行，并保留数据身份、复现和失败检查。
 - [ ] 每周自测先分为 `weekly-learning`、`continuation-audit` 或 `maintenance`；只有 `weekly-learning` 计入轮次，定位符/状态/重复核验没有新的决策信息时不得冒充新知周测。
 - [ ] `weekly-learning` 每次最多主动研究两个满足硬重要性门槛的问题，并在具体取证前完成 Wiki 内全局候选筛选：保留温故槽和新知槽；只要有合格候选，新知槽来自非重叠覆盖区域；无合格候选时不为填槽升级低价值问题。
 - [ ] 选题从最近八次仓库内 `weekly-learning` 报告重建覆盖债务；同一核素/project 不连续占据新知槽，同一核心来源冷却两个学习周期；hard P0、新独立原始证据、实质冲突或用户明确要求的例外已记录，并只在同等级候选间使用可复现随机 tie-break。
 - [ ] 每份实质周测报告有 `Selection audit`，记录运行类型、是否计入轮次、候选覆盖类别、两个槽位、核心来源指纹/重叠、冷却或 deferred 原因、新增知识和 belief revision；其它重要问题写入 `Deferred important issues`。
 - [ ] 核素问题在适用时比较同位素和同中子素；L3 只使用合法、可核验的 Nature-first 获取路径和 Agent 管理的 `raw/papers/gpt/**`、`raw/zotero/gpt.bib`；关键 SI 才下载，`wiki-inbox.bib` 永不修改/暂存。
 - [ ] 回答、投稿核查或论文写作需要本库未收录的外部文献时，已将实际取得物放入 `raw/papers/gpt/query/YYYYMMDD-<topic>/`，登记 URL、获取时间、SHA-256、`archive_required: true`；未来专题来源另标 `learning_candidate`、`learning_topic` 和 `collection_reason`，没有把 URL-only 或未读摘要当作已归档全文。
-- [ ] 一般 L4 只生成 `outputs/l4/<issue>-<date>/report.md` readiness（`ready`/`partial`/`not-ready`）；30 天 Docker daily-learning 可在输入齐全时直接执行 L4，`partial`/`not-ready` 仍如实记录，不生成代理结果。
-- [ ] `daily-learning` 已按用户长期授权自动获取应学正文、SI、必要附件/数据/代码等资源；未重复询问下载/SI偏好，未因外部skill的通用SI确认提示中断学习；真实不可得输入已记录并转可解析路线。
-- [ ] 每日 runner 每次调用 `codex exec` 创建新 session；`run.json` 含 `session_id`、`session_mode: new-session-per-run` 和 `resume_command`（若 CLI 返回 session ID）。
-- [ ] 下一日课程 prompt 已写入 `outputs/learning-daily/prompts/YYYYMMDD-DAYN-*.md` canonical 入口；run 目录中的 `prompt-dayN.md` 若存在仅标记为 provenance copy，handoff/receipt/scheduler 参数没有指向它。
-- [ ] 已有交互式日学习 session 使用 `run_learning_session_clock.py` 时，先检查 dry-run、receipt/session 身份与次日 15:00 截止；同一计时进程持有 daemon/runner 锁，只向既有会话排队，不创建 session 或推进 state。心跳、队列接受和实际执行分别留证；普通checkpoint最多一条未确认，后续合并，hard-cutoff独立保留。整轮receipt completed立即退出，卡内容complete仍running；旧消息送达不得重开已完成run。用户停止时一并停止计时监督。
-- [ ] Docker daily-learning 只由 daemon 或用户显式启动的前台等待器之一持有时钟；手动等待器共用 daemon 单实例锁、记录 heartbeat/session/exit receipt，并明确不能唤醒休眠的主机或容器；Ctrl+C 在等待阶段不标记 runner 启动，在运行阶段记录失败/130。
-- [ ] 当前 Day 1/Day 2 实例验收回执标记为 `acceptance-only`，不计入重新开始的 30 个实质成功日；正式状态从 `next_day_index: 1` 开始。
+- [ ] L4 已核对现有任务授权与数据身份；用户已授权的后续自主研学可在输入齐全时执行 L4，输入不足时记录 readiness（`ready`/`partial`/`not-ready`）和证据边界，不生成代理实验结果。
+- [ ] 授权研究任务已按用户长期授权自动获取应学正文、SI、必要附件/数据/代码等资源；未重复询问下载/SI偏好，未因外部skill的通用SI确认提示中断学习；真实不可得输入已记录并转可解析路线。
 - [ ] 未完成用户审核只阻止需要该用户裁决的论文/问答措辞，不阻止全局只读选题、无重叠的新知任务或 Codex self-audit 写回；有实质变化的周测生成 `outputs/self-tests/` 报告和相应 WIP/final 状态，通过 H3/发布检查后按持续授权自动 push；未完成或无实质变化时未制造空 commit。
 - [ ] 检查不依赖 Docker、固定路径、`.codex/`、`.obsidian/` 或特定 AI 工具配置；这些属于本地运行环境。
 - [ ] 本轮只执行与 Wiki 任务相关的命令；未依赖桌面端 GUI 或 Computer Use，浏览器下载已指定到仓库内路径。

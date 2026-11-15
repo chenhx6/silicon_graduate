@@ -2,7 +2,7 @@
 type: system-governance
 graph-excluded: true
 created: 2026-09-23
-updated: 2026-11-05
+updated: 2026-11-15
 ---
 
 # Wiki 路径契约
@@ -13,7 +13,7 @@ updated: 2026-11-05
 
 | 路径 | 唯一职责 | 可以写入 | 不得写入 |
 |---|---|---|---|
-| `raw/` | 用户原始论文、手稿、数据、图片、笔记和其它原始材料 | 用户明确提供的原件，以及经用户持续授权、为回答或研究取得的外部原件；30 天学习计划使用 `raw/papers/gpt/learning-daily/`，普通问答和论文相关来源使用 `raw/papers/gpt/query/YYYYMMDD-<topic>/`，学术手稿与论文初稿使用 `raw/writing/gpt/<topic>/`（含图表代码与数据溯源说明；`<topic>/data/` 存放不可任意变动的原始基准数据作为文章主要依据，随文公开仅公开此目录；`figures/made/data/` 仅为临时辅助绘图数据，可有可无且非文章依赖数据），束流申请等 proposal 使用 `raw/proposal/`；其它类型继续使用对应的 `raw/<type>/gpt/learning-daily/`，自动书目使用 `raw/zotero/wiki-auto-generated.bib` | 知识页、日报、执行任务计划、审计、临时缓存；不得未经授权覆盖、改写、重命名或批量整理用户原件；旧 `wiki-inbox.bib` 已废弃，不重建 |
+| `raw/` | 用户原始论文、手稿、数据、图片、笔记和其它原始材料 | 用户明确提供的原件，以及经用户持续授权、为回答或研究取得的外部原件；已完成学习计划的原件保留在 `raw/papers/gpt/learning-daily/`，普通问答和论文相关来源使用 `raw/papers/gpt/query/YYYYMMDD-<topic>/`，学术手稿与论文初稿使用 `raw/writing/gpt/<topic>/`（含图表代码与数据溯源说明；`<topic>/data/` 存放不可任意变动的原始基准数据作为文章主要依据，随文公开仅公开此目录；`figures/made/data/` 仅为临时辅助绘图数据，可有可无且非文章依赖数据），束流申请等 proposal 使用 `raw/proposal/`；历史学习计划的其它类型原件保留在对应的 `raw/<type>/gpt/learning-daily/`，自动书目使用 `raw/zotero/wiki-auto-generated.bib` | 知识页、日报、执行任务计划、审计、临时缓存；不得未经授权覆盖、改写、重命名或批量整理用户原件；旧 `wiki-inbox.bib` 已废弃，不重建 |
 | `knowledge/` | 长期知识大脑，供 Q&A、研究和论文写作检索 | 可复用的 source、nucleus、band、experiment、method、model、observable、concept、project、synthesis、question、受控 research-note、证据矩阵和经过证据回链的知识增量 | 仅一次性的运行回执、调度日志、日报正文、临时草稿；重要事实必须能回到 `knowledge/sources/` 和 `raw/` locator |
 | `outputs/` | 交代性输出与过程状态 | 日报、周报、审计、paper card、L3/L4 readiness/report、run receipt、scheduler state、literature-acquisition manifest、`outputs/plans/` 任务计划书和其它过程报告 | 只在这里保存长期知识正文、project/synthesis/evidence matrix 的唯一副本；输出中产生的可复用知识必须同步提炼到 `knowledge/` |
 | `system/` | 治理与执行层 | `AGENTS`/规则、workflow、schema、prompt、template、memory、handoff、log、queue、脚本和测试 | 科学来源正文、日报/周报、原始材料、运行缓存 |
@@ -29,7 +29,7 @@ updated: 2026-11-05
 3. 明确区分实验直接报告、作者解释、模型结果和本任务推断；
 4. 若没有可持久化的新知，写出 `verified no-op` 及原因，不把日报本身冒充知识增量。
 
-每日学习的硬验收是 `Durable knowledge delta`；日报必须包含唯一 `knowledge-writeback` JSON 区块，逐项指向 `knowledge/` 页面、页内锚点、`knowledge/sources/` locator，并由 runner 用运行前后快照确认 `updated` 发生真实页变更；没有新知时用列出 grounded pages 和 locator 的 `verified-no-op`。仅写一份 `outputs/learning-daily/` 日报不能使当天学习通过。
+以下为已归档每日学习计划的历史验收契约，仅在追溯旧运行时适用：硬验收是 `Durable knowledge delta`；日报必须包含唯一 `knowledge-writeback` JSON 区块，逐项指向 `knowledge/` 页面、页内锚点、`knowledge/sources/` locator，并由 runner 用运行前后快照确认 `updated` 发生真实页变更；没有新知时用列出 grounded pages 和 locator 的 `verified-no-op`。仅写一份 `outputs/learning-daily/` 日报不能使当天学习通过。
 
 ## 计划书和支持性路径
 

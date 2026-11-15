@@ -1,11 +1,14 @@
 ---
 type: system-workflow
 graph-excluded: true
+status: archived
 operation: continuous-learning
-updated: 2026-10-27
+updated: 2026-11-15
 ---
 
 # Continuous learning：90 天核结构专家型“硅基研究生”
+
+> 已归档（2026-11-15）：用户确认 30 天学习计划已完成。本页保留旧课程及执行背景，以下“当前”“必须”及周期/调度要求均属历史，不作为现行指令或启动必读。原 90 天框架不据此继续运行；后续自主研学授权由自治研究工作流维护。追溯入口见 [历史归档](../archives/30-day-learning-20261115.md)。
 
 ## 适用范围与目标
 
