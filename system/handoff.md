@@ -1,9 +1,17 @@
 ---
 graph-excluded: true
-updated: 2026-11-15
+updated: 2026-11-16
 ---
 
-## Active handoff — 2026-11-15 全局约定清理
+## Active handoff — 2026-11-16 PDM 汇报的 σ/I 标定动机
+
+- 已按用户指定原件 `raw/writing/pado/20260723.pdf` 定向阅读 Sec.II.D（PDF p.4，lines270–322），并结合 Wiki 区分三类实际困难：同态同 gate 的 stretched E2 参考线统计不足、跨 gate/同自旋能级借用定标的转移偏差、经验 σ/I(I) 的有限数据与误差。高斯布居充分性是另一个问题，留在备用页。
+- 本地交付为 `outputs/reports/20261115-introduce/20261115-introduce.pptx` 及同名 PDF；仅修改第4页，其余13页 XML 与修改前成稿逐字节一致。第9页仍为 `187Au` 376 keV `11/2−→9/2−`。图中的定标能级、布居、误差棒和经验趋势明确为示意，不是新增实验数据或拟合。
+- 该15页原件 SHA-256 与旧记录完全相同，已在 `knowledge/sources/chen-2026-pdm-probability-density-mapping.md` 补充可用路径及 CAL-01–05，并写回 `knowledge/synthesis/sigma-over-i-assumptions-and-mixing-ratio-extraction.md`；未替换11页 canonical 元数据。原件和私有报告留在本地，相关回执见该报告目录 `provenance/`。
+- `outputs/reports/` 已按组会/学术交流成稿与回执分类补齐路径契约、boundary allowlist、check及用户指南。boundary 三项测试、归档门、automation preflight、diff 检查及报告渲染检查通过；全库 lint 保留既有132 errors/489 warnings，本轮文件无 error/warning，不宣称全库通过。
+- 本轮通用知识与路径分类修改的稳定提交主题为 `docs: ground PDM alignment calibration in draft evidence`；精确提交与发布状态写入报告回执。PPT/PDF及源材料不加入公开提交。保留用户 `system/memory.md` 修改、raw 归档manifest删除和其它未跟踪工作。
+
+## Previous handoff — 2026-11-15 全局约定清理
 
 - 用户确认 30 天学习计划已完成；已将执行约定归档到 `system/archives/30-day-learning-20261115.md`。该页仅在追溯计划时读取，不再作为启动要求；原课程、固定作息和日卡计数不延续到后续任务。
 - 长期自主研学、资源获取与 L4 授权继续由 `system/workflows/autonomous-research.md` 维护；未改动既有知识、raw、PLAN、daemon 配置、课程 state 或旧回执。科研交接仍见下方原记录。

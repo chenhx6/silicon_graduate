@@ -2,7 +2,7 @@
 type: system-governance
 graph-excluded: true
 created: 2026-09-23
-updated: 2026-11-15
+updated: 2026-11-16
 ---
 
 # Wiki 路径契约
@@ -33,6 +33,7 @@ updated: 2026-11-15
 
 ## 计划书和支持性路径
 
+- `outputs/reports/` 保存面向组会、合作组或学术交流的报告成稿、PPT/PDF、预览和制作回执；属于交代性输出。原始输入仍回链 `raw/`，可复用科学结论回写 `knowledge/`，此目录不作为独立事实源。
 - `raw/proposal/` 是束流申请等 proposal 的 canonical 路径，保存初稿、修订稿、申请表、图表和必要配套材料；允许 Git 跟踪、commit/push。当前初稿不代表已提交、获批或已获实验结果。可复用的科学依据仍写入 `knowledge/` 并回链来源。
 - `raw/proposal/`、`raw/writing/gpt/` 和 `raw/zotero/wiki-auto-generated.bib` 是 `raw/` 默认不上传规则的明确例外；其余原件不因这些例外自动开放上传。
 - `outputs/plans/` 是执行任务计划书的 canonical 路径，不保存 proposal 申请书。旧的 `docs/plans/` 已清理；不得重新创建 `docs/plans/`，新计划不得写到 `docs/`。

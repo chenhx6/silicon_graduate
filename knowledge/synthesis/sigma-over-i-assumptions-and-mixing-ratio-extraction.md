@@ -3,14 +3,14 @@ type: synthesis
 title: "Sigma-over-I assumptions and P-ADO mixing-ratio extraction"
 aliases: [sigma-over-I assumptions synthesis, sigma/I writing-support synthesis, P-ADO mixing-ratio extraction synthesis]
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-11-16
 status: ai-draft
 review_status: human-reviewed
 scope: sigma-over-i-pado-writing-support
 confidence: medium
 high_confirmed_by:
 high_confirmed_date:
-sources: [draper-1970-gaussian-substate-side-feeding, ekstrom-1979-spin-alignment-attenuation-a61-a67, zobel-1980-magnetic-substate-distributions, ionescu-1981-improved-angular-distribution-analysis-particle-xn, zobel-1983-energy-projectile-alignment, cejnar-1996-spin-deorientation-alpha-2n-gamma, radeck-2012-deorientation-lifetime-98ru-rdds, chiara-2012-cu65-cu67-core-coupled-protons, summary-2013-bases-spin-parity-assignments, gray-2020-hyperfine-fields-g-factor-measurements, lauritsen-2025-gamma-angular-formalism-tracking-arrays]
+sources: [draper-1970-gaussian-substate-side-feeding, ekstrom-1979-spin-alignment-attenuation-a61-a67, zobel-1980-magnetic-substate-distributions, ionescu-1981-improved-angular-distribution-analysis-particle-xn, zobel-1983-energy-projectile-alignment, cejnar-1996-spin-deorientation-alpha-2n-gamma, radeck-2012-deorientation-lifetime-98ru-rdds, chiara-2012-cu65-cu67-core-coupled-protons, summary-2013-bases-spin-parity-assignments, gray-2020-hyperfine-fields-g-factor-measurements, lauritsen-2025-gamma-angular-formalism-tracking-arrays, chen-2026-pdm-probability-density-mapping]
 tags: [sigma-over-i, pado, mixing-ratio, angular-distribution, writing-support, evidence-matrix]
 ---
 
@@ -153,6 +153,20 @@ A separate user-analysis calibration note is stored on [[sigma-over-i]] and shou
 - Treat feeding history as part of the observable model, not as invisible background.
 - Use the older alignment and deorientation papers to motivate why a code-facing `sigma/I` parameter deserves explicit uncertainty treatment.
 - Present P-ADO as a framework that can make hidden alignment assumptions inspectable.
+
+## 2026-11-16: direct calibration, transfer, and empirical spin trends
+
+The recovered user-designated 15-page PDM draft is locally available as `raw/writing/pado/20260723.pdf`, SHA-256 `f19b52b872432f6d615dae9350eef42d12cff27cfb621a041f09720699f74421`. Its Sec.II.D, PDF p.4, lines270–322 gives a more specific calibration argument than a generic statement that alignment depends on feeding. Source identity and reading scope are recorded in [[chen-2026-pdm-probability-density-mapping]] CH26-PDM-CAL-01–05.
+
+| Calibration route | What is required or assumed | Why precise target-state σ/I can remain unavailable | Evidence and boundary |
+|---|---|---|---|
+| Matched reference | A known stretched E2 transition from the same initial state under identical coincidence selection as the mixed transition | A suitable E2 reference may have insufficient counts | CH26-PDM-CAL-02, PDF p.4 lines279–287. Author's prescription and practical limitation, not a measured count deficit for the current Au case. |
+| Transfer from a proxy | Another gate or a stronger state with the same I is taken as a reasonable approximation | Feeding and event selection can reweight the ensemble; transfer bias need not be known | CH26-PDM-CAL-01/03, lines270–294. Draper1970/Cejnar1996/Zobel1983 give related feeding and reaction context, not a universal numerical transfer error. |
+| Empirical σ/I(I) parametrization | Several strong E2 references constrain an assumed spin trend | Sparse calibration information and measurement errors propagate; smooth evolution is not a general dynamical theorem | CH26-PDM-CAL-04, lines295–305. Conditional empirical approximation, not a universal low-spin prior or a new spin law. |
+
+These are calibration uncertainties **within a declared population model**. Whether one Gaussian width can reproduce all relevant angular moments is a separate adequacy question, addressed by Ionescu1981/Ekstrom1979. The `167Tm` example must not become the sole explanation of why σ/I is hard to calibrate in an unrelated experiment.
+
+The practical implication is to propagate adopted-alignment uncertainty into δ while retaining the response model, domain and weighting assumptions (CH26-PDM-CAL-05). Same spin does not establish equal populations; different gates do not prove unequal populations. A precise matched calibration remains possible with suitable data and model checks. The draft's Gray2020 citation retains the host-specific TDPAD boundary already recorded above; it is not direct prompt-reaction σ/I calibration evidence.
 
 ## Claims Ready for Paper Evidence Gate
 

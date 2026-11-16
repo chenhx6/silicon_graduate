@@ -1,7 +1,7 @@
 ---
 type: system-checklist
 graph-excluded: true
-updated: 2026-11-15
+updated: 2026-11-16
 ---
 
 # Wiki 系统核查清单
@@ -56,6 +56,7 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] 本次规则修改已同步到 `AGENTS.md`、`check.md` 和相应工作流。
 - [ ] 已完成的 30 天学习计划只按需追溯；全局启动规则不再要求读取课程、执行固定每日作息或推进日卡，历史归档未被当作现行指令。
 - [ ] 本轮写入前已通过 `python3 system/scripts/wiki_boundary_check.py --root .`；`docs/plans/` 不存在，任务计划使用 `outputs/plans/`。
+- [ ] 组会或学术交流的 PPT/PDF、预览与制作回执使用 `outputs/reports/`；原始输入回链 `raw/`，可复用科学结论回写 `knowledge/`。
 - [ ] 束流申请等 proposal 使用 `raw/proposal/`，可按授权 commit/push；迁移时核验文件内容未丢失、引用已更新，保留初稿状态，不将申请书当作实验证据。
 - [ ] 报告、计划、回执或调度状态中的可复用知识已同步到 `knowledge/` canonical 页面，并在输出中列出知识路径与 source locator；没有把 outputs 当作长期事实源。
 - [ ] L0-L4 完整定义只存在于 `system/workflows/autonomous-research.md`；AGENTS/query/reflect/ingest/Skill 仅保留短路由，没有复制漂移或堆积第二套规则。

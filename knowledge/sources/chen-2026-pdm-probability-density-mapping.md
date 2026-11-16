@@ -3,7 +3,7 @@ type: source
 title: "Chen et al. 2026 manuscript - A probability-density mapping method for extracting gamma-ray mixing ratios without preset spin alignment"
 aliases: [Chen 2026 PDM, P-ADO manuscript, probability-density mapping mixing ratios]
 created: 2026-10-28
-updated: "2026-11-07"
+updated: "2026-11-16"
 status: ai-draft
 review_status: unreviewed
 source_type: manuscript-method
@@ -32,7 +32,7 @@ archive_required: true
 
 The user-designated current local original is `raw/writing/pado/20260929_submitted_v1/nst_sample.pdf` (11 physical pages; SHA-256 `80250e2f0ca59a72e119a3fb743411b4da1716188e95d8ec5f9bb205900c3d17`). PDF p.1 has the same title and four authors as this source. Its PDM response mapping, Jacobian transformation (PDF p.5, Eq.11), alignment marginalization (PDF p.6, Eq.12), and eight-transition benchmark table (PDF p.7, Table1) establish the same work identity. This is a distinct revision, not a byte-identical replacement of the historical 15-page file.
 
-The earlier original `raw/writing/pado/20260722.pdf`, SHA-256 `f19b52b872432f6d615dae9350eef42d12cff27cfb621a041f09720699f74421`, remains unlocated in the bounded audit. Preserve that historical identity and all old-version reading records below. Historical PDF page/figure/equation locators and discrepancies are not automatically transferred to the current 11-page revision. The frontmatter now points to the existing current original so that local discovery and reading are no longer blocked by the historical missing path.
+The earlier original was unlocated in the 2026-11-07 bounded audit under `raw/writing/pado/20260722.pdf`. On 2026-11-16 the user designated `raw/writing/pado/20260723.pdf`, whose SHA-256 `f19b52b872432f6d615dae9350eef42d12cff27cfb621a041f09720699f74421` exactly matches that historical 15-page identity. Preserve the old path as provenance and use the recovered existing file for original-version re-reading. Historical locators are not automatically transferred to the distinct 11-page revision; the canonical frontmatter input remains that 11-page file.
 
 Current-revision covered scope: identity/abstract on PDF p.1; mapping and marginalization on PDF pp.5–6; Table1 on PDF p.7; references on PDF pp.10–11. This was a bounded version-identification check, not a fresh full-method or benchmark audit; `reading_depth: skimmed` applies to this current original. Earlier `deep-read` scope below belongs to the historical material described there. Directory dates do not establish the submission date or immutable PDF build date.
 
@@ -55,6 +55,20 @@ The sections below are retained historical research records, including earlier c
 - 主原件覆盖：布居Eq1/PDF2；角响应Eqs4–8/PDF3及偏振响应Eq9/PDF4；角坐标PDF4–5 §III.A、映射Eq10/PDF5、Jacobian Eq11/PDF6；独立观测PDF与变换Eqs12–13/PDF7；边缘化Eq14/PDF8；Au示例PDF9 Figs6–7及PDF10 Fig8；Table1/PDF11；Appendix A标题在PDF12，误差密度公式在PDF13。
 - checkpoint009定向版本核对：11页PDF的相应密度变换/边缘化为PDF5 Eq11/PDF6 Eq12，Table1在PDF7；当前TeX的参数密度、边缘化与HDI段仅按其自身标签引用。没有从文件名或mtime推定唯一最终版本，也未重新编译TeX。
 - 代码入口：`raw/writing/pado/Upload/p_ado/main.py`；响应计算在 `p_ado/physics/pado.py`，雅可比与网格实现位于 `p_ado/compute/`，误差密度模型位于 `p_ado/pdf/`。
+
+## Recovered 15-page draft: alignment-calibration motivation
+
+The user-designated `raw/writing/pado/20260723.pdf` is an existing raw original of **6,082,796 bytes**, 15 physical pages, SHA-256 `f19b52b872432f6d615dae9350eef42d12cff27cfb621a041f09720699f74421`. Filename dates do not establish an immutable manuscript date. The current task directly reads Sec.II.D, PDF p.4, manuscript lines270–322 and related definitions/references. The following entries report the authors' methodological motivation, not new experimental measurements or independent validation of the method.
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| CH26-PDM-CAL-01 | δ 描述跃迁的内禀电磁性质，有效 σ/I 描述被观测系综；后者可依赖馈入历史和符合选择。更换 gate 可能重新加权布居分量，但不意味着每次换 gate 都必然改变取向。 | author-methodological-motivation | direct-original | recovered 15-page PDF p.4, Sec.II.D, lines270–278 | false |
+| CH26-PDM-CAL-02 | 稿件提出最一致的定标应采用与目标混合跃迁从同一初态出发、且在相同符合条件下测得的 stretched E2 支路；合适参考线可能统计不足，限制逐跃迁直接定标。 | author-calibration-prescription-and-boundary | direct-original | recovered 15-page PDF p.4, lines279–287 | false |
+| CH26-PDM-CAL-03 | 实际可从其他符合条件或较强布居的同自旋能级提取 σ/I，再作为目标态近似；这需要定标转移假设，其偏差可能难以估计。相同 I 本身不保证同一馈入或同一被选择系综。 | author-methodological-motivation | direct-original | recovered 15-page PDF p.4, lines288–294; manuscript Refs.[56]–[57] | false |
+| CH26-PDM-CAL-04 | 利用若干强 stretched E2 线建立经验 σ/I(I)，再应用于不能直接提取的能级，会继承有限标定信息和测量误差；平滑演化不是布居动力学的一般保证。 | author-methodological-motivation | direct-original | recovered 15-page PDF p.4, lines295–305; manuscript Refs.[40],[50],[53],[56]–[58] | false |
+| CH26-PDM-CAL-05 | 当 R_ADO、P 同时依赖 δ 与 σ/I，且取向误差不可忽略时，固定估计的 σ/I 可移动条件 δ 解并低估其不确定度。这是联合传播误差的动机，不证明每个固定值结果都必然错误。 | author-inference-and-method-motivation | direct-original | recovered 15-page PDF p.4, lines306–322 | false |
+
+This calibration problem is distinct from the adequacy of a Gaussian population family. Its main argument does not require finding non-Gaussian populations in the target nucleus. Ionescu's selected `167Tm` counterexample remains a separate conditional model check. The synthesis [[sigma-over-i-assumptions-and-mixing-ratio-extraction]] separates these layers. This targeted recovery does not re-attest every numerical result, Jacobian claim or figure in the 15-page draft.
 
 ## Summary
 

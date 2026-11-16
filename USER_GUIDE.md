@@ -25,6 +25,8 @@ tmp/         临时运行数据、缓存和 scratch；不保存唯一知识
 
 束流申请等 proposal 统一保存在 [`raw/proposal/`](raw/proposal/README.md)，包括初稿、修订稿和配套材料，并允许 commit/push，便于远端恢复和继续写作。执行任务计划仍放在 `outputs/plans/`。申请书中的可复用科学依据回链 `knowledge/`，初稿不代表已提交、获批或获得实验结果。
 
+组会及学术交流的 PPT/PDF、预览和制作回执保存在 `outputs/reports/`。报告回链 `raw/` 中的原始材料，可复用科学结论写入 `knowledge/`；报告本身不作为独立事实源。
+
 论文、学位论文、外部笔记、网页、图片和数据须保留可再次查看的 `raw/` 原件；
 图片及其配套快照归入 `raw/figures/gpt/learning-daily/`。来源页登记文件路径和
 SHA-256，多文件用 `manifest.json`。每日运行和发布预检自动检查本轮及已登记的归档，

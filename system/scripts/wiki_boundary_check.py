@@ -47,6 +47,7 @@ OUTPUT_ROOTS = {
     "literature-acquisition",
     "paper-cards",
     "plans",
+    "reports",
     "self-tests",
 }
 
