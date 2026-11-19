@@ -219,6 +219,11 @@ PDF 358 begins Lee's chapter despite the running Kern header on later pages.
 coherent amplitudes and rare-process limits are separate from the circular
 polarization or directional asymmetry measurements in the second chapter.
 The signs printed in the cadmium figure and its table remain unresolved.
+[[abrahams-1979-polarized-neutron-beams]] and
+[[moreh-1979-photon-scattering-neutron-capture-gamma-rays]] add PDF 388–428.
+The polarized-beam result retains target depolarization and channel phases.
+The Ti example retains raw polarization counts and the other measurements
+used for the level and width assignments.
 
 ## Final acquisition closure and learning design
 

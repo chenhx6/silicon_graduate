@@ -1,0 +1,87 @@
+{
+  "recorded_at": "2026-11-19T22:21:11.780273+00:00",
+  "batch_pages": [
+    388,
+    428
+  ],
+  "batch_page_count": 41,
+  "book_all_known_pages": [
+    "1-428",
+    "633-635"
+  ],
+  "book_covered_pages": 431,
+  "front_matter_pages": [
+    1,
+    17
+  ],
+  "book_completion": false,
+  "chapter_sources": [
+    "knowledge/sources/abrahams-1979-polarized-neutron-beams.md",
+    "knowledge/sources/moreh-1979-photon-scattering-neutron-capture-gamma-rays.md"
+  ],
+  "responses": [
+    {
+      "id": "NC79-ABRAHAMS-A",
+      "covered": [
+        388,
+        395
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "a40588fca5c920ecb56657aae30ddb63c59c78caddf41bcf5f849c967ef11d4e"
+    },
+    {
+      "id": "NC79-ABRAHAMS-B",
+      "covered": [
+        396,
+        403
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "57a9f223312a55fae5ce77dce69c8d7f7e9d1d2b5017858728a346b08338ece2"
+    },
+    {
+      "id": "NC79-MOREH-A",
+      "covered": [
+        404,
+        412
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "24ac66bc3677c4e1daea9ed13aad86256ff9db393d21a4b84c843c4fdc86934b"
+    },
+    {
+      "id": "NC79-MOREH-B",
+      "covered": [
+        413,
+        420
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "150e75f1218f15315859be17994d2871a3a623eb2b1085b92193aff73d6f65f8"
+    },
+    {
+      "id": "NC79-MOREH-C",
+      "covered": [
+        421,
+        428
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "85ccdbbebb5f18374ee903c97e93ca64534f7fd82b9357336e6cdb15d92e63f0"
+    }
+  ],
+  "verified_pages_and_checks": [
+    "PDF 388, 403–405 and 428–429: bylines, running pages and separate original chapter boundaries.",
+    "PDF 392–394 and 396–400: energy-dependent calibration, depolarization, sample circular polarization and conditional amplitude/phase model.",
+    "PDF 406–408 and 416–417: flux correction, Ti angular and polarimeter counts, adjacent width inputs, Ta coherent-amplitude model and geometry."
+  ],
+  "boundary": "Raw polarization count ratios, beam polarization, emitted circular polarization and gamma linear polarization retain separate roles. No refits.",
+  "next_batch": {
+    "pages": [
+      429,
+      461
+    ],
+    "units": [
+      "NC79-KESSLER-A",
+      "NC79-KESSLER-B",
+      "NC79-GREENWOOD-A",
+      "NC79-GREENWOOD-B"
+    ]
+  }
+}

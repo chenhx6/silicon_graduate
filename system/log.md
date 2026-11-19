@@ -6309,3 +6309,8 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - PDF 358–387 已核对，包括 Lee 的相干散射模型和双光子限制、Benkoula 图表中的实测量及镉圆偏振的符号出入。服务端首段标 partial 的未读说明属于下一单元供页，整章两段已覆盖。
 - 会议卷覆盖 390 页。Abrahams 与 Moreh 已开始，保留入射束极化、圆/线偏振和光中子自旋极化的区别。
+
+## 2026-11-20 — 极化束与俘获 γ 散射
+
+- PDF 388–428 五单元已核对。记录极化计、靶内退极化及道相位。Moreh 的 49Ti 宽度与指认保留实际计数比、角分布和绝对截面依赖。
+- 会议卷覆盖 431 页，Kessler 等与 Greenwood 的 PDF 429–461 已启动。
