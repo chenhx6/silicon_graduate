@@ -16,7 +16,8 @@ updated: 2026-11-20
 - PDF 1–17 已核作卷首书证及目录，保留 1978 年会议与 1979 年出版的区别。[[talmi-1979-nuclear-models-seniority-and-bosons]] 与 [[iachello-1979-interacting-boson-model]] 核完 PDF 18–51。合计覆盖 PDF 1–291 与 U001 的 633–635，共 294 页，其中卷首 17 页单独标识。全卷仍未读完。
 - [[castel-micklinghoff-1979-fast-neutron-doorway-states]] 与 [[bergqvist-potokar-1979-fast-neutron-capture-gamma-rays]] 已核完 PDF 292–324。以原章补齐 Micklinghoff 署名，保留门态模型和振幅求解的限制。共覆盖 PDF 1–324 和 633–635，计 327 页，其中卷首 17 页。
 - [[snover-1979-direct-resonance-capture-amplitudes]] 与 [[kern-1979-exotic-atoms-nuclear-structure]] 已核完 PDF 325–357。覆盖 PDF 1–357 和 633–635，共 360 页，其中卷首书证 17 页。
-- Lee 与 Benkoula 等的 PDF 358–387 已开始，见 `tmp/deep-learning-neutron-capture-1979/gamma-tests-batch.log`。Lee 段的部分运行页眉误写 Kern，必须按题页与正文核身份。
+- [[lee-1979-qed-tests-with-neutron-capture-gamma-rays]] 与 [[benkoula-et-al-1979-parity-violation-searches]] 核完 PDF 358–387。Lee 按题页和正文认定归属；Benkoula 的 Fig. 5 与 Table I 的镉圆偏振符号差异未裁决。计会议卷覆盖 390 页，其中卷首书证 17 页。
+- Abrahams 和 Moreh 的 PDF 388–428 已开始，见 `tmp/deep-learning-neutron-capture-1979/probes-batch.log`。整个馆藏目标仍 active。
 - 章级来源共用已哈希的原件，以不重叠的 `raw_pdf_pages` 标识各章。唯一作品检查继续执行，原 PDF 没有拆档或复制。
 - 另一 session 的 PDM/PDCO 与 Hamilton 改动继续隔离。无 PDM 拟合、raw 改写或重新获取。HDR 阶段指针为 `main + research: integrate Ljungvall HDR evidence and start capture proceedings`。
 

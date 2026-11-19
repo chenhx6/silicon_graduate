@@ -1,0 +1,83 @@
+{
+  "recorded_at": "2026-11-19T22:13:53.857715+00:00",
+  "batch_pages": [
+    358,
+    387
+  ],
+  "batch_page_count": 30,
+  "book_all_known_pages": [
+    "1-387",
+    "633-635"
+  ],
+  "book_covered_pages": 390,
+  "front_matter_pages": [
+    1,
+    17
+  ],
+  "book_completion": false,
+  "chapter_sources": [
+    "knowledge/sources/lee-1979-qed-tests-with-neutron-capture-gamma-rays.md",
+    "knowledge/sources/benkoula-et-al-1979-parity-violation-searches.md"
+  ],
+  "responses": [
+    {
+      "id": "NC79-LEE-A",
+      "covered": [
+        358,
+        366
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "af2c872c5b5ca8eb0fbab0bc2e92be3ce8b6eb0bb377f31ca74b9552c8880617"
+    },
+    {
+      "id": "NC79-LEE-B",
+      "covered": [
+        367,
+        374
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "72d1823fb650ada08ca6446b0257bb8e12aec7cf595aa06019cd5c14c658f906"
+    },
+    {
+      "id": "NC79-BENKOULA-A",
+      "covered": [
+        375,
+        381
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "partial",
+      "prompt_sha256": "fca33f4a482cbce68423810f69e3baf0bf5a35f9e3e5fcc977cffbc9474832bb"
+    },
+    {
+      "id": "NC79-BENKOULA-B",
+      "covered": [
+        382,
+        387
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "ef7b7ca09e346504a6ebb74f06591701d52bdf2839e239abe54bfc555e322de2"
+    }
+  ],
+  "verified_pages_and_checks": [
+    "PDF 358–359 and 374–375: Lee original title, coherent-amplitude section, incorrect Kern running headers, and next chapter boundary.",
+    "PDF 364, 368–369 and 373: scattering comparison, two-photon prediction and background limits.",
+    "PDF 375, 377 and 380–383: byline, weak mixing, spin-dependent asymmetry and circular polarization. Cd Fig. 5 and Table I have an unresolved opposite sign."
+  ],
+  "boundary": "The partial Benkoula A label describes the rest of the chapter outside that unit. All supplied pages were reported covered, with 382–387 processed by unit B.",
+  "next_batch": {
+    "pages": [
+      388,
+      428
+    ],
+    "units": [
+      "NC79-ABRAHAMS-A",
+      "NC79-ABRAHAMS-B",
+      "NC79-MOREH-A",
+      "NC79-MOREH-B",
+      "NC79-MOREH-C"
+    ]
+  }
+}

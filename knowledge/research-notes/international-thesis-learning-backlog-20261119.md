@@ -214,6 +214,11 @@ sections and distinct angular responses.
 [[kern-1979-exotic-atoms-nuclear-structure]] add PDF 325–357. They retain the
 reaction model's amplitude count and the atom-to-nucleus corrections.
 PDF 358 begins Lee's chapter despite the running Kern header on later pages.
+[[lee-1979-qed-tests-with-neutron-capture-gamma-rays]] and
+[[benkoula-et-al-1979-parity-violation-searches]] add PDF 358–387. Lee's
+coherent amplitudes and rare-process limits are separate from the circular
+polarization or directional asymmetry measurements in the second chapter.
+The signs printed in the cadmium figure and its table remain unresolved.
 
 ## Final acquisition closure and learning design
 

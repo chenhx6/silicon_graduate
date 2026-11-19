@@ -6304,3 +6304,8 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - PDF 325–357 四单元已核对原页。保留 Snover 的参数计数和非线性多解，以及 Kern 的缪原子/原子束四极矩比较所用修正。会议卷覆盖 360 页。
 - PDF 358–387 的 Lee 与 Benkoula 等篇章已开始。Lee 的正文页眉与原题页冲突，按正文与题页划界。
+
+## 2026-11-20 — 俘获 γ 的 QED 与宇称研究
+
+- PDF 358–387 已核对，包括 Lee 的相干散射模型和双光子限制、Benkoula 图表中的实测量及镉圆偏振的符号出入。服务端首段标 partial 的未读说明属于下一单元供页，整章两段已覆盖。
+- 会议卷覆盖 390 页。Abrahams 与 Moreh 已开始，保留入射束极化、圆/线偏振和光中子自旋极化的区别。
