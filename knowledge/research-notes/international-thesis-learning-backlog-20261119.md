@@ -1,0 +1,118 @@
+---
+aliases: []
+status: "ai-draft"
+review_status: "unreviewed"
+reasoning_status: "provisional"
+evidence_sources: ["international-thesis-acquisition-20261119-source"]
+created_from: "User-requested literature acquisition and learning design; scope-specific provenance, not completed full-text learning"
+type: research-note
+title: International thesis learning backlog
+created: 2026-11-19
+updated: 2026-11-19
+tags: [theses, literature-learning]
+---
+
+# International thesis learning backlog
+
+Source: [[international-thesis-acquisition-20261119-source]].
+
+Earlier individually registered partial reading: [[masiteng-2006-194tl-polarization-lifetime-thesis]].
+
+## Final acquisition closure and learning design
+
+The user has closed further acquisition and requested an in-depth learning
+plan, not a new download campaign. Two final PDFs (Smith 2017 and Lizarazo
+Sabogal 2018) were subsequently identified from title/degree pages. The
+51-record pool now has 43 degree-thesis full texts, two of which were
+already held works, plus one HDR document and seven remaining full-text
+gaps. Thus 41 degree-thesis works are additions during this campaign.
+The 39-addition/nine-gap figures below describe the previous checkpoint.
+
+Final acquisition ledger:
+`raw/theses/gpt/query/20261119-international-nuclear-structure/acquisition-records-closed.json`.
+Final table:
+`outputs/literature-acquisition/20261119-international-theses/international-theses-acquisition-closed.xlsx`.
+Learning design: [[nuclear-spectroscopy-literature-learning-framework-20261119]].
+Execution plan: `outputs/plans/20261119-archive-deep-learning.md`.
+Remaining gaps are retained as evidence boundaries, not user action items.
+Planning and table-of-contents inspection are not completed full-text learning.
+
+## Previous acquisition checkpoint
+
+The user requests combined learning of accumulated research PDFs and relevant
+international theses, with acquisition first and a download-help list for
+unavailable originals. After checking 19 user-supplied PDFs, the 51-record
+candidate pool has 41 degree-thesis full texts available, one HDR research
+habilitation document, and nine remaining full-text gaps (eight missing,
+one abstract/examination report only). Of the 41 theses, two are already
+held works (Lv 2019 and Zheng 2021), leaving 39 additions to the pre-batch
+holdings: the earlier 23 plus 16 supplied in this delivery. The HDR document
+is not a new PhD thesis. These counts describe acquisition, not completed
+learning. The initial 23/28 receipt is retained as historical provenance.
+
+Updated artifacts: `outputs/literature-acquisition/20261119-international-theses/international-theses-acquisition-rechecked.xlsx`
+and `outputs/literature-acquisition/20261119-international-theses/download-help-rechecked.md`.
+The new originals and reconciliation ledger are archived in
+`raw/theses/gpt/query/20261119-international-nuclear-structure/manifest-user-recheck.json`.
+
+The full 1979 volume containing U001 is also now available. Its actual
+three-page chapter is [[hungerford-1979-ill-angular-correlation-164dy]],
+printed pp.634-636, PDF pp.633-635. Full-volume acquisition is not full-book
+learning, and the chapter's angular-correlation results are not a measured
+polarization-plus-delta dataset.
+
+The pre-batch thesis folder contained 61 PDFs, 60 unique byte hashes, with
+51 unique-byte groups directly linked to source frontmatter and nine without
+such a direct path/hash association. Direct associations do not establish
+reading completion; absence does not establish a novel work. Reconcile title,
+author, edition and actual reading scope before deciding what to re-read.
+
+Learning should include nuclear rotation/triaxiality, chirality/wobbling,
+shape coexistence, octupole structure, decay spectroscopy, nuclear orientation,
+lifetimes and detector/analysis methods. Acquisition is not restricted to
+papers with polarization-mixing-ratio data. Do not fabricate full-reading
+status for this backlog or treat metadata as independent experimental evidence.
+
+## Research Trigger
+
+User-requested collection or learning-design question; the original scope and historical stage are retained below.
+
+## Grounded Evidence
+
+Evidence anchors: [[international-thesis-acquisition-20261119-source]]. Original locators and actual coverage are recorded in those sources and the tables below.
+
+## Provisional Reasoning
+
+The original discussion below is a scope-bounded data/method comparison or learning design, not a new experimental result or certified field-wide prevalence estimate.
+
+## Assumptions
+
+Bibliographic identity, version and reading coverage must be checked separately; filenames and page counts do not establish independent works or completed reading.
+
+## Competing Explanations
+
+Different reported values can arise from different experiments, conventions or analysis conditions; repeated publication of one experiment is not independent support. No new physical alternative is invented merely to fill this section.
+
+## Transfer Conditions
+
+Reuse only with the original measurement object, geometry/gates, calibration, definitions and uncertainty treatment. Learning-design recommendations remain recommendations, not physical claims.
+
+## Failure Conditions
+
+Missing originals, illegible figures, unresolved version/identity or absent numerical covariance constrain reuse; do not silently fill gaps or claim a full reproduction.
+
+## Falsification or Reverse Tests
+
+Return any material numerical or methodological discrepancy to its source locator; revise the interpretation if the original contradicts the extraction or proposed classification.
+
+## Open Questions
+
+Outstanding scientific or acquisition boundaries are listed in the original discussion below or the linked sources. Historical download requests are superseded by the user closing acquisition.
+
+## Human Review
+
+No new human-reviewed event is asserted. The user closing downloads or accepting a table format does not certify every scientific claim.
+
+## Promotion or Rejection History
+
+2026-11-19: normalized provenance and schema for baseline publication; retained provisional status and original numerical content. No automatic promotion of physical conclusions.

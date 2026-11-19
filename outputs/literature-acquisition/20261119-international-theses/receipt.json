@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-11-19T12:43:45.358690+00:00",
+  "selected_candidates": 51,
+  "statuses": {
+    "not-downloaded": 27,
+    "downloaded-identity-checked-thesis": 23,
+    "downloaded-needs-identity-or-completeness-check": 1
+  },
+  "local_baseline_files": 61,
+  "local_baseline_unique_byte_hashes": 60,
+  "downloaded_files": 24,
+  "downloaded_identity_checked": 23,
+  "not_downloaded": 27,
+  "manifest": "raw/theses/gpt/query/20261119-international-nuclear-structure/manifest-acquisition-batch1.json",
+  "workbook": "outputs/literature-acquisition/20261119-international-theses/international-theses-acquisition.xlsx",
+  "full_text_learning_completed": false
+}

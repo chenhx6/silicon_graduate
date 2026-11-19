@@ -1,7 +1,7 @@
 ---
 type: system-checklist
 graph-excluded: true
-updated: 2026-11-16
+updated: 2026-11-19
 ---
 
 # Wiki 系统核查清单
@@ -11,6 +11,12 @@ updated: 2026-11-16
 本文件是人工可读的最高层检查入口。检查必须报告“通过 / 警告 / 失败 / 未执行”，不得把未执行写成通过。
 
 ## 自动检查入口
+
+Git 基线整理另核对：长期知识、可复用脚本和已整理交付物显式暂存；
+`outputs/**/*.local.*`、编译中间物、原文摘录 worker 包、未公开演示稿及图像衍生物
+按 `.gitignore` 保留本地。不得为清空状态而忽略整个 `knowledge/`、`system/scripts/`
+或全部 `outputs/`，也不得用 ignore 隐藏已跟踪的删除。历史受保护改动单列回执，
+不恢复、不提交未经确认的 raw 删除；远端发布只使用非 force 的精确 refspec。
 
 在仓库根目录运行：
 

@@ -1,0 +1,82 @@
+[
+  {
+    "candidate_id": "local-035",
+    "ref_id": "Biswas2019",
+    "doi": "10.1140/epja/i2019-12856-5",
+    "local_file": "raw/papers/2019_Biswas et al_Longitudinal wobbling in 133La.pdf",
+    "raw_sha256": "579ecff6daa4cd8505c25966d15b998037930770e45382ccba90bae809707e03",
+    "audit": "Verified primary p3 fixed sigma/I=.3 and DCO-polarization origin; visually checked Fig4 p4 delta labels. Keep only three explicit P-joint transitions, not standalone AD fits."
+  },
+  {
+    "candidate_id": "local-036",
+    "ref_id": "T19",
+    "doi": "10.1103/PhysRevLett.122.062501",
+    "local_file": "raw/papers/2019_Timár et al_Experimental Evidence for Transverse Wobbling in Pd 105.pdf",
+    "raw_sha256": "3948cf32712a400aa8df0aee489ebebd89df7480508bddc60156a359ed322909",
+    "audit": "Primary PDF p2 calibration and p3 Fig2/text checked; retained all reported branches with original rejection labels; excluded reference 442-keV transition from current P-joint extraction rows."
+  },
+  {
+    "candidate_id": "local-037",
+    "ref_id": "C20",
+    "doi": "10.1016/j.physletb.2020.135854",
+    "local_file": "raw/papers/2020_Chakraborty et al_Multiphonon longitudinal wobbling in 127Xe.pdf",
+    "raw_sha256": "b04503fce61b249ab1193f395b4276364945d02ced5eac347a5dd2e45df6ea1a",
+    "audit": "Primary p3 Table1, Fig3 inset and text checked. Only 483-keV has explicit quantitative P branch discrimination; do not count remaining DCO-only delta rows as P-joint. SI not yet available."
+  },
+  {
+    "candidate_id": "local-039",
+    "ref_id": "N20",
+    "doi": "10.1103/PhysRevLett.125.132501",
+    "local_file": "raw/papers/2020_Nandi et al_First Observation of Multiple Transverse Wobbling Bands of Different Kinds in.pdf",
+    "raw_sha256": "3981dc7a1a1ea109c167d60a0b8fb6b0a8b0b7667d00c61d6aa34572c042f511",
+    "audit": "Visually checked all ten Fig2 delta labels; corrected positive-parity panel mapping: 648(g),701(h),751(i),588(j). No Gaussian alignment value inferred from deformation beta=.30."
+  },
+  {
+    "candidate_id": "local-041",
+    "ref_id": "D21",
+    "doi": "10.1016/j.physletb.2021.136756",
+    "local_file": "raw/papers/2021_Rojeeta Devi et al_Observation of multiphonon transverse wobbling in 133Ba.pdf",
+    "raw_sha256": "fb6ea8474676875752ca83399e8f27aa792aa07643c5fa962fe44cab1ae0697b",
+    "audit": "Primary pp3–4: joint RDCO–asym extraction and Tables1–2 checked. Q≈.3 is polarization sensitivity, not sigma/I. Original equation asym=P/Q retained as unresolved convention; no automatic P conversion. Added1067 gate889.8 from footnote c."
+  },
+  {
+    "candidate_id": "local-075",
+    "ref_id": "W75",
+    "doi": "10.1016/0375-9474(75)90487-x",
+    "local_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/1975_Williams et al_A study of the low-lying levels in 61Ni.pdf",
+    "raw_sha256": "bfdcc111891a0f88c3ab01df131c438337497fc0d456e8ca3fa6a09912f0a02e",
+    "audit": "1975 Williams et al primary15-page paper; Crossref first exact title+author+year verified DOI. Data are reported original numbers/intervals; no invented interval centers. Not the1977 Wadsworth experiment. Parent visual check of Table1 p370 and textp373 corrected fabricated -0.08 to original +0.20(+.16,-.03) for909-keV. Other five delta values checked against Table1 continuation."
+  },
+  {
+    "candidate_id": "acquired-000",
+    "ref_id": "B26",
+    "doi": "10.1016/j.physletb.2026.140929",
+    "local_file": "raw/papers/gpt/query/20261119-pdm-delta-broad/10.1016_j.physletb.2026.140929.pdf",
+    "raw_sha256": "d37905aa9cf3e51026d9ffe3f4d02b76c8df50bd73af48de74bce0d1f9595cd5",
+    "audit": "Crossref and publisher PDF identity checked. Visually verified Table1 p4 all six rows with measured P. Rtheta added from Table1. Rejected model-invented Fig2 P entries for603.7,826.8,1498.5,2282.4: their P cells are blank; not P-joint input rows. Do not adopt hallucinated title from narrow correction packet."
+  },
+  {
+    "candidate_id": "local-046",
+    "ref_id": "M23",
+    "doi": "10.1103/PhysRevC.107.054310",
+    "local_file": "raw/papers/2023_Mukherjee et al_Evidence of transverse wobbling motion in Eu 151.pdf",
+    "raw_sha256": "3a1c99a806353e5daf0d8b29fb9325ecae47624bc46c5f98a3b502451091f8b0",
+    "audit": "Primary pp4–6 TablesI–II, Fig6 and calibration inspected. Compact last-digit errors interpreted correctly (e.g.-3.3 +13/-30 means +1.3/-3.0). Keep three explicitly P-joint fits; add author averages separately with source labels."
+  },
+  {
+    "candidate_id": "local-052",
+    "ref_id": "G24",
+    "doi": "10.1103/PhysRevLett.132.092501",
+    "local_file": "raw/papers/2024_Guo et al_Evidence for Chiral Wobbler in Nuclei.pdf",
+    "raw_sha256": "1783b784c3843e15de39406182613757f9c3b928a2791e45a7d650f117ea4333",
+    "audit": "Joined primary method evidence with locally recovered three-page SI. Visually inspected TablesI pp1–2, rejected311.4 and343.9: model mistook B(M1) entries .25 and.42 for delta; delta cells blank.18 rows retained. Treat duplicate primary local114 as same paper."
+  },
+  {
+    "candidate_id": "local-101",
+    "ref_id": "SU59",
+    "doi": "10.1016/s0031-8914(59)96977-0",
+    "local_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1959_Suffert et al_Polarization measurements of proton capture gamma rays.pdf",
+    "raw_sha256": "ea2742bd196d30497fc919839fb249dfd7e50a88411411831d981604b2016669",
+    "audit": "Crossref exact title/year matches DOI. Primary TableI p667 visually checked P and x values; pp660–661 explicitly define x as E2/M1 amplitude and absence P4 for J3/2. Retain numerical branch selection as a separate method category; sigma/I not applicable, never count as conventional unreported alignment."
+  }
+]

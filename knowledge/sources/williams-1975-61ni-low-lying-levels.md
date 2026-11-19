@@ -3,7 +3,7 @@ type: source
 title: "Williams et al. 1975 - Low-lying levels in 61Ni"
 aliases: [Williams 1975 61Ni levels]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-11-19
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-shell-model
@@ -30,6 +30,21 @@ tags: [61Ni, level-scheme, DSAM, mixing-ratio, polarization, shell-model]
 ---
 
 # Low-lying levels in `61Ni`
+
+## 2026-11-19 targeted polarization extraction audit
+
+The later targeted note for this same PDF is merged here rather than registered
+as a second source. That audit covered printed pp.370-371 (Table 1), p.373
+(Fig.4 and text), and the polarization passages for the 1016, 1611 and 2020-keV
+states; it was not a fresh full-paper or shell-model review.
+
+For 909 to ground, p.373 reports P=-0.15 +/- 0.04 and
+delta=+0.20(+0.16,-0.03). The generated -0.08 extraction was rejected.
+For 909 to 67 keV, the same page reports P=0.01 +/- 0.11 and the delta
+interval [-1.19,-0.36], not an invented central value. The inspected methods
+constrain magnetic-substate populations; not finding one Gaussian sigma/I
+is not evidence that the final analysis fixed an assumed Gaussian sigma/I.
+No new PDM fit or covariance reconstruction was performed.
 
 ## Bibliographic Record
 

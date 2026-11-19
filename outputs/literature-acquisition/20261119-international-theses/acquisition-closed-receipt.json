@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-11-19T13:37:02.165701+00:00",
+  "selected_records": 51,
+  "new_thesis_works": 41,
+  "existing_thesis_works_with_additional_PDF": 2,
+  "HDR": 1,
+  "missing_fulltext": 7,
+  "corpus_files": {
+    "raw/papers": 870,
+    "raw/papers/gpt/query_subset": 383,
+    "raw/theses": 106,
+    "raw/books": 40
+  },
+  "count_boundary": "Files are not publications or unread counts; no global work-level reconciliation claimed",
+  "manifest": "raw/theses/gpt/query/20261119-international-nuclear-structure/manifest-acquisition-closeout.json",
+  "acquisition_status": "closed-by-user",
+  "learning_status": "planning; no mass full-reading completion claimed"
+}

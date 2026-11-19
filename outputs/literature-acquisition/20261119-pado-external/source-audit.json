@@ -1,0 +1,2741 @@
+[
+  {
+    "ref_id": "R001",
+    "doi": "10.1007/BF01303825",
+    "packet": "other-53be524445-result.json",
+    "source": {
+      "id": "other-53be524445",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1007_BF01303825.pdf",
+      "doi": "10.1007/BF01303825",
+      "title": "Band Structures in {+73}Se",
+      "sha256": "9732be3e70b465726cec37deaafadbbf834ffba6c7c88818ba67e4a903f14978",
+      "pages": 13,
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 24,
+    "source_corrections": [
+      {
+        "row_index": 0,
+        "column_index": 5,
+        "old": "0.3 + 0.4 -0.2",
+        "new": "0.3 +0.4 -0.2",
+        "source_locator": "Table 1, p. 144",
+        "reason": "修正正误差符号后多余空格，原文Table 1为0.3 ^{+0.4}_{-0.2}。"
+      },
+      {
+        "row_index": 12,
+        "column_index": 9,
+        "old": "-0.09(2)",
+        "new": "-0.11(4)",
+        "source_locator": "Table 1, p. 144",
+        "reason": "原文Table 1中601.9(7) keV跃迁应用Doppler展宽线形校正（注k），A4未拟合（留空），其实测线偏振度P_exp为-0.11(4)，理论线偏振度P_ad为-0.09(2)。原数据发生列位左移错位，误将P_ad当成P_exp填入P原文。"
+      },
+      {
+        "row_index": 12,
+        "column_index": 12,
+        "old": "A4=-0.11(4)",
+        "new": null,
+        "source_locator": "Table 1, p. 144",
+        "reason": "原文Table 1中601.9(7) keV跃迁的A4未测（留空），原数据误将实测线偏振度P_exp=-0.11(4)错位填入角系数2(A4)。"
+      },
+      {
+        "row_index": 20,
+        "column_index": 9,
+        "old": "-0.06(4)",
+        "new": "-0.10(4)",
+        "source_locator": "Table 1, p. 145",
+        "reason": "原文Table 1中891.4(2) keV跃迁应用Doppler展宽线形校正（注k），A4未拟合（留空），其实测线偏振度P_exp为-0.10(4)，理论线偏振度P_ad为-0.06(4)。原数据发生列位左移错位，误将P_ad当成P_exp填入P原文。"
+      },
+      {
+        "row_index": 20,
+        "column_index": 12,
+        "old": "A4=-0.10(4)",
+        "new": null,
+        "source_locator": "Table 1, p. 145",
+        "reason": "原文Table 1中891.4(2) keV跃迁的A4未测（留空），原数据误将实测线偏振度P_exp=-0.10(4)错位填入角系数2(A4)。"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/other-53be524445-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R002",
+    "doi": "10.1007/BF01379724",
+    "packet": "other-feace4612d-result.json",
+    "source": {
+      "id": "other-feace4612d",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1007_BF01379724.pdf",
+      "doi": "10.1007/BF01379724",
+      "title": "The Parity of the 3134 keV, J = 1 State in {+18}F",
+      "sha256": "34e2dfd031ca15d86a7383fd5633409c7b429adcff5da77d5657a0a6c284ef00",
+      "pages": 9,
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 4,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/other-feace4612d-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R003",
+    "doi": "10.1007/BF01668664",
+    "packet": "other-5c05f7ab88-result.json",
+    "source": {
+      "id": "other-5c05f7ab88",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1007_BF01668664.pdf",
+      "doi": "10.1007/BF01668664",
+      "title": "Messung der Linearpolarisation der 245 keV-|g-Strahlung in {+111}Cd",
+      "sha256": "10637b7ebf09baa4abad25a8609d2eaec64cd6b58d6e254dfd3cb9b85a0a4481",
+      "pages": 3,
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 2,
+    "source_corrections": [
+      {
+        "row_index": 0,
+        "column_index": 9,
+        "old": "Fig. 2",
+        "new": "γ(245): Fig. 2",
+        "source_locator": "p.51 Abstract; p.52 Section 3, Section 4, Fig. 2",
+        "reason": "本行跃迁为171 keV，但原文线性偏振测量对象实为171-245 keV级联中的另一条245 keV γ射线。依据核对规则，若P实为另一条γ，应在图号前加明确原文对象标签γ(245):，避免误当成本跃迁的出射P。"
+      },
+      {
+        "row_index": 1,
+        "column_index": 9,
+        "old": "Fig. 2",
+        "new": "γ(245): Fig. 2",
+        "source_locator": "p.52 Section 3, Section 4, Fig. 2",
+        "reason": "本行跃迁为171 keV，但原文线性偏振测量对象实为171-245 keV级联中的另一条245 keV γ射线。依据核对规则，若P实为另一条γ，应在图号前加明确原文对象标签γ(245):，避免误当成本跃迁的出射P。"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/other-5c05f7ab88-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R004",
+    "doi": "10.1007/BF02159712",
+    "packet": "other-e666c65512-result.json",
+    "source": {
+      "id": "other-e666c65512",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1007_BF02159712.pdf",
+      "doi": "10.1007/BF02159712",
+      "title": "GAMMA-RAY LINEAR-POLARIZATION AND NUCLEAR ORIENTATION EXPERIMENTS ON ORIENTED (IRFE)-IR-192, (IRFE)-IR-194",
+      "sha256": "b8ee389f192877efdc6a8a179b7f6f6967edfd7f45491c30994109ea8f6a97e0",
+      "pages": 2,
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 3,
+    "source_corrections": [
+      {
+        "row_index": 1,
+        "column_index": 5,
+        "old": "7.6(5)",
+        "new": "7.6(1)",
+        "source_locator": "Table 1, Page 42",
+        "reason": "原文Table 1第2行（308 keV）δ^exp明确印刷为7.6(1)，待核对行误写为7.6(5)"
+      },
+      {
+        "row_index": 1,
+        "column_index": 7,
+        "old": 0.5,
+        "new": 0.1,
+        "source_locator": "Table 1, Page 42",
+        "reason": "末位紧凑误差对应中心值末位，7.6(1)的绝对误差为0.1"
+      },
+      {
+        "row_index": 1,
+        "column_index": 8,
+        "old": 0.5,
+        "new": 0.1,
+        "source_locator": "Table 1, Page 42",
+        "reason": "末位紧凑误差对应中心值末位，7.6(1)的绝对误差为0.1"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/other-e666c65512-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R005",
+    "doi": "10.1007/BF02784653",
+    "packet": "other-a7f4f6bd04-result.json",
+    "source": {
+      "id": "other-a7f4f6bd04",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1007_BF02784653.pdf",
+      "doi": "10.1007/BF02784653",
+      "title": "Evidence for E1-M2 and M1-E2 Mixtures in High-Energy |g-Transitions",
+      "sha256": "c97319a05703b8b04571cba92c230dda6d74e884bea2492fe2a4aef02621a054",
+      "pages": 4,
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 2,
+    "source_corrections": [
+      {
+        "row_index": 1,
+        "column_index": 5,
+        "old": "0.14±0.02",
+        "new": "-0.14±0.02",
+        "source_locator": "p. 79",
+        "reason": "原文第79页明确给出两组δ解为δ=-0.14±0.02与δ=0.61±0.01，被排除分支具有负号，待核对行漏写负号"
+      },
+      {
+        "row_index": 1,
+        "column_index": 6,
+        "old": 0.14,
+        "new": -0.14,
+        "source_locator": "p. 79",
+        "reason": "δ中心值符号应与原文一致，为-0.14"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/other-a7f4f6bd04-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R006",
+    "doi": "10.1007/s100500050358",
+    "packet": "other-f5ff9cf99c-result.json",
+    "source": {
+      "id": "other-f5ff9cf99c",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1007_s100500050358.pdf",
+      "doi": "10.1007/s100500050358",
+      "title": "The 3701 keV neutron g9/2 single-particle state in 57Ni",
+      "sha256": "e89829ed5f06acf2b861f41af406f60cc32d110039d2439ed73e9f88195240b5",
+      "pages": 4,
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 3,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/other-f5ff9cf99c-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R007",
+    "doi": "10.1016/0029-554X(70)90578-1",
+    "packet": "wave2-047-result.json",
+    "source": {
+      "id": "wave2-047",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0029-554X_70_90578-1.pdf",
+      "sha256": "1f062ddb970e998dd71c3a7e58300f775dedaab4a6ac6b14cd3cea49347eead1",
+      "pages": 3,
+      "doi": "10.1016/0029-554X(70)90578-1",
+      "title": "Analysis of Linear Polarization Measurements of Unresolved Gamma Rays",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 2,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/wave2-047-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R008",
+    "doi": "10.1016/0029-554X(82)90107-0",
+    "packet": "wave2-038-result.json",
+    "source": {
+      "id": "wave2-038",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0029-554X_82_90107-0.pdf",
+      "sha256": "6cadca1e47c207b5d2a74815bb179f61d4dce499f1b771f6b10009519aeff6c0",
+      "pages": 9,
+      "doi": "10.1016/0029-554X(82)90107-0",
+      "title": "A Familiar Arrangement for a Ge(Li) Compton Linear Polarimeter",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 3,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/wave2-038-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R009",
+    "doi": "10.1016/0029-5582(58)90009-9",
+    "packet": "recheck-external-001-result.json",
+    "source": {
+      "id": "recheck-external-001",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0029-5582_58_90009-9.pdf",
+      "sha256": "cd34e9cddf5423c6c6a5445abac3eea3e1a2244f7738baf655502ae0fcd67446",
+      "pages": 31,
+      "doi": "10.1016/0029-5582(58)90009-9",
+      "title": "Angular distribution and linear polarization of the gamma rays from oriented 56Co nuclei",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 5,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/recheck-external-001-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R010",
+    "doi": "10.1016/0029-5582(58)90051-8",
+    "packet": "external-003-result.json",
+    "source": {
+      "id": "external-003",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0029-5582_58_90051-8.pdf",
+      "sha256": "5bd458a84f6bd083c8a759d85dd5b49d5d05515ee5fee78d80f41e804674aa8c",
+      "pages": 9,
+      "doi": "10.1016/0029-5582(58)90051-8",
+      "title": "The analysis of angular and direction-polarization correlation measurements on mixed transitions",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 2,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/external-003-vision.json",
+    "parent_rules": {
+      "p_role": "定量选支"
+    }
+  },
+  {
+    "ref_id": "R011",
+    "doi": "10.1016/0031-8914(68)90061-X",
+    "packet": "external-004-result.json",
+    "source": {
+      "id": "external-004",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0031-8914_68_90061-X.pdf",
+      "sha256": "133b9593691d9ab9cd785bd9c3f7a875b68e8cacecf36475a4045a570cf5830c",
+      "pages": 19,
+      "doi": "10.1016/0031-8914(68)90061-X",
+      "title": "A STUDY OF GAMMA-RAY SPECTRA OF THERMAL NEUTRON CAPTURE IN 143ND AND 145ND - INCLUDING DIRECTIONAL ANISOTROPY AND LINEAR POLARIZATION MEASUREMENTS OF SUCH GAMMA RAYS FROM ALIGNED 143ND NUCLEI",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 1,
+    "source_corrections": [
+      {
+        "row_index": 0,
+        "column_index": 10,
+        "old": "N_||/N_perp = 0.85 ± 0.04",
+        "new": "N_perp/N_|| = 0.85 ± 0.04",
+        "source_locator": "PDF p.9 Table IV",
+        "reason": "Table IV 表头原文为 N_perp/N_||（垂直与平行计数比），待核对行将分子与分母颠倒写成了 N_||/N_perp"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/external-004-vision.json",
+    "parent_rules": {
+      "row_overrides": {
+        "0": {
+          "10": "N_perp/N_parallel = 0.85 ± 0.04"
+        }
+      },
+      "p_role": "联合约束",
+      "extra": "Q=0.34±0.04（Table IV）"
+    }
+  },
+  {
+    "ref_id": "R012",
+    "doi": "10.1016/0168-9002(89)90636-0",
+    "packet": "wave2-035-result.json",
+    "source": {
+      "id": "wave2-035",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0168-9002_89_90636-0.pdf",
+      "sha256": "0c5ab7bf5918acf969ffeddfdc8e134fdad2f049e97bb220ff19aa963cc813af",
+      "pages": 5,
+      "doi": "10.1016/0168-9002(89)90636-0",
+      "title": "A Compton Polarimeter Constructed with a Large Si(Li) Scatterer and Two Ge Analysers",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 2,
+    "source_corrections": [
+      {
+        "row_index": 0,
+        "column_index": 5,
+        "old": "-0.63±0.15",
+        "new": "-0.63+0.16-0.65",
+        "source_locator": "Section 4, p.226",
+        "reason": "原文明确给出 δ(E2/M1) = -0.63 +0.16 -0.65，非对称误差 ±0.15"
+      },
+      {
+        "row_index": 0,
+        "column_index": 7,
+        "old": 0.15,
+        "new": 0.65,
+        "source_locator": "Section 4, p.226",
+        "reason": "δ 的下绝对误差对应 -0.65，应为 0.65"
+      },
+      {
+        "row_index": 0,
+        "column_index": 8,
+        "old": 0.15,
+        "new": 0.16,
+        "source_locator": "Section 4, p.226",
+        "reason": "δ 的上绝对误差对应 +0.16，应为 0.16"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/wave2-035-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R013",
+    "doi": "10.1016/0375-9474(67)90695-1",
+    "packet": "wave2-051-result.json",
+    "source": {
+      "id": "wave2-051",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_67_90695-1.pdf",
+      "sha256": "0050920af3e7b86a525088350fa84148a72e4457cd171a43bebc4922c01cbe2d",
+      "pages": 16,
+      "doi": "10.1016/0375-9474(67)90695-1",
+      "title": "The Linear Polarization of the 482 keV Transition in {+181}Ta",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 2,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/wave2-051-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R014",
+    "doi": "10.1016/0375-9474(67)90737-3",
+    "packet": "wave3-001-result.json",
+    "source": {
+      "id": "wave3-001",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_67_90737-3.pdf",
+      "sha256": "6e17504d00949309805ad0bdd0ed0d95ad08afb91729ed2ee79d04f3ea593a84",
+      "pages": 18,
+      "doi": "10.1016/0375-9474(67)90737-3",
+      "title": "The Multipolarity of the K-Forbidden 1094 keV |g-Transition in the Decay of {+172}Lu",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 1,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/wave3-001-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R015",
+    "doi": "10.1016/0375-9474(68)90287-X",
+    "packet": "wave2-031-result.json",
+    "source": {
+      "id": "wave2-031",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_68_90287-X.pdf",
+      "sha256": "d044da094ced1e089cff770ccd380d8a101762442c301b268bbd5184315f3079",
+      "pages": 13,
+      "doi": "10.1016/0375-9474(68)90287-X",
+      "title": "Spin Assignments and Multipole Mixing Ratios in {+211}Bi",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 2,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/wave2-031-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R016",
+    "doi": "10.1016/0375-9474(69)90052-9",
+    "packet": "wave3-000-result.json",
+    "source": {
+      "id": "wave3-000",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_69_90052-9.pdf",
+      "sha256": "8b575f5913d054340bb26b03e6ef7270de7e96e26f110420f331f2ff7beeda7a",
+      "pages": 8,
+      "doi": "10.1016/0375-9474(69)90052-9",
+      "title": "The Multipole Mixing Ratio of 2'{++}|)2{++} Transitions in {+194}Pt and {+196}Pt",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 2,
+    "source_corrections": [
+      {
+        "row_index": 0,
+        "column_index": 5,
+        "old": "-(30+:;)",
+        "new": "-(30^{+39}_{-11})",
+        "source_locator": "Table 1, p.261; Table 3, p.263; Abstract, p.257",
+        "reason": "原文Table 1、Table 3以及Abstract中，194Pt 294 keV跃迁的E2:M1混合比δ明确记为-(30^{+39}_{-11})。待核对行中录入字符乱码为'-(30+:;)'，予以更正。"
+      },
+      {
+        "row_index": 0,
+        "column_index": 7,
+        "old": null,
+        "new": 39.0,
+        "source_locator": "Table 1, p.261; Table 3, p.263",
+        "reason": "原文δ记为-(30^{+39}_{-11})。根据外负号规则-(a^{+b}_{-c})，符号翻转后取值范围为[-69, -19]，中心值为-30.0，下绝对误差对应|-30 - (-69)| = 39.0。原行遗漏为null，予以补齐更正。"
+      },
+      {
+        "row_index": 0,
+        "column_index": 8,
+        "old": null,
+        "new": 11.0,
+        "source_locator": "Table 1, p.261; Table 3, p.263",
+        "reason": "原文δ记为-(30^{+39}_{-11})。根据外负号规则-(a^{+b}_{-c})，符号翻转后取值范围为[-69, -19]，中心值为-30.0，上绝对误差对应|-19 - (-30)| = 11.0。原行遗漏为null，予以补齐更正。"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/wave3-000-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R017",
+    "doi": "10.1016/0375-9474(70)90226-5",
+    "packet": "wave2-048-result.json",
+    "source": {
+      "id": "wave2-048",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_70_90226-5.pdf",
+      "sha256": "fda36276c000052e8a18a73856a8090aaf7e99598c400718a34591e938a72a8a",
+      "pages": 15,
+      "doi": "10.1016/0375-9474(70)90226-5",
+      "title": "Determination of Spins in the Decay of {+219}Rn |) {+215}Po by Alpha-Gamma Linear Polarization Measurements",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 1,
+    "source_corrections": [
+      {
+        "row_index": 0,
+        "column_index": 5,
+        "old": "sign of δ_γ(271) = +, δ^2_exp = 14.6 +1.5 -1.2",
+        "new": "sign of δ_γ(271) = +, δ^2_exp = 14.6 +4.9 -2.8",
+        "source_locator": "Table 4, p.469; Table 3, p.466",
+        "reason": "原文Table 4（p.469）中271 keV能级271 keV跃迁的δ^2_exp明确为14.6 +4.9 -2.8（Table 2中引ref. 5为14.6 +4.8 -2.8，本工作内转换测量结果为δ^2 >= 13），Table 3（p.466）确定其符号为+；待核对行中误差误写为+1.5 -1.2，原文无此数据"
+      }
+    ],
+    "rows_outside_E2_M1": [
+      {
+        "row": 1,
+        "reason": "M1/E2 triangle conditions not satisfied by reported spins"
+      }
+    ],
+    "vision_check": "tmp/pado-collect-20261119/wave2-048-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R018",
+    "doi": "10.1016/0375-9474(71)90415-5",
+    "packet": "wave2-045-result.json",
+    "source": {
+      "id": "wave2-045",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_71_90415-5.pdf",
+      "sha256": "e2889f04a73e14d5ead014915c331d43338afd52965b99a7f9580c2665dcd21f",
+      "pages": 5,
+      "doi": "10.1016/0375-9474(71)90415-5",
+      "title": "Measurement of the Linear Polarization of Low-Energy Capture |g-Rays from the {+35}Cl(n,|g) Reaction",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 2,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/wave2-045-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R019",
+    "doi": "10.1016/0375-9474(71)90430-1",
+    "packet": "wave2-046-result.json",
+    "source": {
+      "id": "wave2-046",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_71_90430-1.pdf",
+      "sha256": "fc59415ba82ee011eeafcebb9094695a517b5c411645f4966ccec4e2b567776c",
+      "pages": 14,
+      "doi": "10.1016/0375-9474(71)90430-1",
+      "title": "Polarisation Lineaire de Rayonnements |g Emis dans la Reaction {+46}Ti(p,p'|g)",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 2,
+    "source_corrections": [
+      {
+        "row_index": 0,
+        "column_index": 10,
+        "old": "1.9 ± 0.6 %",
+        "new": "3.2 ± 1.1 %",
+        "source_locator": "Tableau 2, p. 276",
+        "reason": "原文Tableau 2中2.962→0.889 MeV跃迁（2073 keV）在10 cm³偏振仪下的实测不对称度A(90°)为3.2 ± 1.1 %；原值1.9 ± 0.6 %系误填自3.059→2.010 MeV跃迁。"
+      },
+      {
+        "row_index": 0,
+        "column_index": 11,
+        "old": "a2 = -0.322 ± 0.012",
+        "new": "a2 = 0.445 ± 0.016",
+        "source_locator": "Tableau 2, p. 276",
+        "reason": "原文Tableau 2中2.962→0.889 MeV跃迁（2073 keV）的角分布展开系数a2为0.445 ± 0.016；原值-0.322 ± 0.012系误填自3.168→0 MeV跃迁。"
+      },
+      {
+        "row_index": 0,
+        "column_index": 12,
+        "old": "a4 = 0.001 ± 0.016",
+        "new": "a4 = -0.016 ± 0.020",
+        "source_locator": "Tableau 2, p. 276",
+        "reason": "原文Tableau 2中2.962→0.889 MeV跃迁（2073 keV）的展开系数a4为-0.016 ± 0.020；原值0.001 ± 0.016系误填自2.010→0.889 MeV跃迁。"
+      },
+      {
+        "row_index": 1,
+        "column_index": 12,
+        "old": "a4 = 0.020 ± 0.021",
+        "new": "a4 = 0.012 ± 0.023",
+        "source_locator": "Tableau 2, p. 276",
+        "reason": "原文Tableau 2中3.236→0.889 MeV跃迁（2346 keV）的展开系数a4为0.012 ± 0.023；原值0.020 ± 0.021系误填自3.059→2.010 MeV跃迁。"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/wave2-046-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R020",
+    "doi": "10.1016/0375-9474(73)90209-1",
+    "packet": "wave2-041-result.json",
+    "source": {
+      "id": "wave2-041",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_73_90209-1.pdf",
+      "sha256": "e5ae858dfb51ab3f53d0c9a09d57bbf4ce8780bfb554c9eda602e81af9363fe0",
+      "pages": 35,
+      "doi": "10.1016/0375-9474(73)90209-1",
+      "title": "On 1f{-7}/{-2} Nuclei; Spherical Shell-Model States of High Angular Momentum in {+45}Sc, {+45},{+47}Ti, {+49}V and {+49},{+51}Cr",
+      "acquired_externally": true,
+      "discovery_only": false,
+      "max_output_tokens": 30000
+    },
+    "rows_retained": 4,
+    "source_corrections": [
+      {
+        "row_index": 0,
+        "column_index": 11,
+        "old": "a2=0.827+-0.028",
+        "new": "a2=-0.827+-0.028",
+        "source_locator": "Table 2, page 262",
+        "reason": "原文Table 2中45Ti 1354 keV跃迁的角分布系数a2明确为负值-0.827±0.028，原待核对行遗漏负号"
+      },
+      {
+        "row_index": 2,
+        "column_index": 5,
+        "old": "+0.17 +0.01/-0.02",
+        "new": "+0.17 +0.02/-0.01",
+        "source_locator": "Table 9, page 280; Section 3.4, page 279",
+        "reason": "原文Table 9表格及第279页正文中δ(E2/M1)明确为+0.17 +0.02/-0.01，原待核对行上下误差数值颠倒"
+      },
+      {
+        "row_index": 2,
+        "column_index": 7,
+        "old": 0.02,
+        "new": 0.01,
+        "source_locator": "Table 9, page 280; Section 3.4, page 279",
+        "reason": "对应δ原文+0.17 +0.02/-0.01，下绝对误差应为0.01"
+      },
+      {
+        "row_index": 2,
+        "column_index": 8,
+        "old": 0.01,
+        "new": 0.02,
+        "source_locator": "Table 9, page 280; Section 3.4, page 279",
+        "reason": "对应δ原文+0.17 +0.02/-0.01，上绝对误差应为0.02"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/wave2-041-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R021",
+    "doi": "10.1016/0375-9474(73)90395-3",
+    "packet": "wave2-043-result.json",
+    "source": {
+      "id": "wave2-043",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_73_90395-3.pdf",
+      "sha256": "0125c0dfefc8e705280fa5bb01f9d3ee9adcbf0617c7e522af4343c6a40ac561",
+      "pages": 13,
+      "doi": "10.1016/0375-9474(73)90395-3",
+      "title": "On 1f2p Nuclei; Structure of {+53}Cr with Emphasis on High-Spin States",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 6,
+    "source_corrections": [
+      {
+        "row_index": 0,
+        "column_index": 9,
+        "old": "-0.45 -- -0.25",
+        "new": "-0.69 -- -0.34",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中1006.3 keV跃迁实测线偏振度P(90°)为-0.69 -- -0.34，原表误填为530.2 keV跃迁的实测偏振值-0.45 -- -0.25"
+      },
+      {
+        "row_index": 0,
+        "column_index": 12,
+        "old": "a4=-0.002±0.008",
+        "new": "a4=+0.002±0.008",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中1006.3 keV跃迁的a4系数符号为正（+0.002±0.008），原表中误作负号"
+      },
+      {
+        "row_index": 0,
+        "column_index": 17,
+        "old": "sigma=1.09",
+        "new": "sigma=1.60",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中Ji=5/2-分支的Q^2_min为1.09，而磁子态分布宽度sigma为1.60，原表误将Q^2_min填作sigma"
+      },
+      {
+        "row_index": 1,
+        "column_index": 3,
+        "old": "5/2-",
+        "new": "3/2-",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中δ=-4.7±0.8对应于被排除的自旋假设分支Ji=3/2-（初末态跃迁为3/2- -> 3/2-），原表误标为5/2-"
+      },
+      {
+        "row_index": 1,
+        "column_index": 9,
+        "old": "-0.45 -- -0.25",
+        "new": "-0.69 -- -0.34",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中1006.3 keV跃迁实测线偏振度P(90°)为-0.69 -- -0.34，原表误填为530.2 keV跃迁的偏振值"
+      },
+      {
+        "row_index": 1,
+        "column_index": 12,
+        "old": "a4=-0.002±0.008",
+        "new": "a4=+0.002±0.008",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中1006.3 keV跃迁的a4系数符号为正（+0.002±0.008），原表中误作负号"
+      },
+      {
+        "row_index": 2,
+        "column_index": 9,
+        "old": "-0.69 -- -0.34",
+        "new": "-0.45 -- -0.25",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中530.2 keV跃迁（1536->1006 keV）的实测线偏振度P(90°)为-0.45 -- -0.25，原表中误填为1006.3 keV跃迁的偏振值"
+      },
+      {
+        "row_index": 3,
+        "column_index": 17,
+        "old": "sigma=1.57",
+        "new": "sigma=1.67",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中696.4 keV跃迁（Ji=9/2(-) -> 7/2-分支）的磁子态分布宽度sigma为1.67，原表误作1.57"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/wave2-043-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R022",
+    "doi": "10.1016/0375-9474(73)90844-0",
+    "packet": "wave2-030-result.json",
+    "source": {
+      "id": "wave2-030",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_73_90844-0.pdf",
+      "sha256": "cda0a210581cb4d47401f6ce987310e80dad50be3e3282df115a027a1d34ed40",
+      "pages": 10,
+      "doi": "10.1016/0375-9474(73)90844-0",
+      "title": "Spins of the Levels and Multipole Mixing Ratios of the Transitions in {+95}Mo",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 6,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/wave2-030-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R023",
+    "doi": "10.1016/0375-9474(74)90072-4",
+    "packet": "recheck-external-000-result.json",
+    "source": {
+      "id": "recheck-external-000",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_74_90072-4.pdf",
+      "sha256": "63771a69f3c3e8627f2ecf78efb87d96e90b08386ddaea24b39ac131f66837f8",
+      "pages": 11,
+      "doi": "10.1016/0375-9474(74)90072-4",
+      "title": "SPINS OF LEVELS AND MULTIPOLE MIXING RATIOS OF TRANSITIONS IN SB-125 DETERMINED FROM GAMMA-GAMMA DIRECTIONAL CORRELATION AND POLARIZATION-DIRECTIONAL CORRELATION-MEASUREMENTS",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 5,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [
+      {
+        "row": 5,
+        "reason": "parity-changing multipole mixture, not E2/M1"
+      },
+      {
+        "row": 6,
+        "reason": "parity-changing multipole mixture, not E2/M1"
+      }
+    ],
+    "vision_check": "tmp/pado-collect-20261119/recheck-external-000-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R024",
+    "doi": "10.1016/0375-9474(80)90483-2",
+    "packet": "wave2-039-result.json",
+    "source": {
+      "id": "wave2-039",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_80_90483-2.pdf",
+      "sha256": "5f61cedc2269d4083fe8074a4273a4ea04062a621d256420355b1673ad6496a2",
+      "pages": 13,
+      "doi": "10.1016/0375-9474(80)90483-2",
+      "title": "Gamma-Spectroscopic Investigations on {+67}Ge",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 1,
+    "source_corrections": [
+      {
+        "row_index": 0,
+        "column_index": 12,
+        "old": "a4=0.00±0.022",
+        "new": "a4=0.004±0.022",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中419.45 keV跃迁的角分布系数a4明确记载为0.004±0.022，待核对行漏掉了千分位数字4。"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/wave2-039-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R025",
+    "doi": "10.1016/0375-9474(83)90298-1",
+    "packet": "wave2-037-result.json",
+    "source": {
+      "id": "wave2-037",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_83_90298-1.pdf",
+      "sha256": "22fd6a5cc1ff69987ba317bec94fb11648d18ecd6d3b78f9819b35dd3470d65a",
+      "pages": 19,
+      "doi": "10.1016/0375-9474(83)90298-1",
+      "title": "Level Structure of the Doubly Odd Nucleus {+112}In from the (p,n|g) Reaction",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 1,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/wave2-037-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R026",
+    "doi": "10.1016/0375-9474(86)90017-5",
+    "packet": "wave2-036-result.json",
+    "source": {
+      "id": "wave2-036",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_86_90017-5.pdf",
+      "sha256": "ed3945abff74d14998524b6ef51c18e326cf27e14f9e2c9134048aefdf4ff345",
+      "pages": 25,
+      "doi": "10.1016/0375-9474(86)90017-5",
+      "title": "Three-Quasiparticle Excitations in {+81}Kr",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 17,
+    "source_corrections": [
+      {
+        "row_index": 0,
+        "column_index": 9,
+        "old": "0.25(6)",
+        "new": "-0.25(6)",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中166.1 keV的P_exp为-0.25(6)，原行漏负号"
+      },
+      {
+        "row_index": 0,
+        "column_index": 12,
+        "old": "A4=-0.08(6)",
+        "new": "A4=-0.05(3)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中166.1 keV的A4为-0.05(3)"
+      },
+      {
+        "row_index": 1,
+        "column_index": 4,
+        "old": "19/2+",
+        "new": "21/2+",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中231.2 keV的I_f^pi为21/2+"
+      },
+      {
+        "row_index": 1,
+        "column_index": 9,
+        "old": "0.6(3)",
+        "new": "0.8(3)",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中231.2 keV的P_exp为0.8(3)"
+      },
+      {
+        "row_index": 1,
+        "column_index": 11,
+        "old": "A2=-0.40(5)",
+        "new": "A2=0.37(4)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中231.2 keV的A2为0.37(4)"
+      },
+      {
+        "row_index": 1,
+        "column_index": 12,
+        "old": "A4=0.08(5)",
+        "new": "A4=0.01(7)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中231.2 keV的A4为0.01(7)"
+      },
+      {
+        "row_index": 2,
+        "column_index": 9,
+        "old": "0.4(3)",
+        "new": "-0.4(3)",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中233.5 keV的P_exp为-0.4(3)，原行漏负号"
+      },
+      {
+        "row_index": 2,
+        "column_index": 11,
+        "old": "A2=-0.29(2)",
+        "new": "A2=-0.40(5)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中233.5 keV的A2为-0.40(5)"
+      },
+      {
+        "row_index": 2,
+        "column_index": 12,
+        "old": "A4=-0.01(4)",
+        "new": "A4=0.08(9)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中233.5 keV的A4为0.08(9)"
+      },
+      {
+        "row_index": 3,
+        "column_index": 5,
+        "old": "-0.07(4)",
+        "new": null,
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中294.5 keV为纯M1，无delta值，应为null"
+      },
+      {
+        "row_index": 3,
+        "column_index": 6,
+        "old": -0.07,
+        "new": null,
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中无delta值，应为null"
+      },
+      {
+        "row_index": 3,
+        "column_index": 7,
+        "old": 0.04,
+        "new": null,
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中无delta值，应为null"
+      },
+      {
+        "row_index": 3,
+        "column_index": 8,
+        "old": 0.04,
+        "new": null,
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中无delta值，应为null"
+      },
+      {
+        "row_index": 3,
+        "column_index": 11,
+        "old": "A2=-0.31(3)",
+        "new": "A2=-0.29(2)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中294.5 keV的A2为-0.29(2)"
+      },
+      {
+        "row_index": 3,
+        "column_index": 12,
+        "old": "A4=0.06(7)",
+        "new": "A4=-0.01(4)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中294.5 keV的A4为-0.01(4)"
+      },
+      {
+        "row_index": 4,
+        "column_index": 3,
+        "old": "(15/2-)",
+        "new": "(17/2-)",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中308.2 keV的I_i^pi为(17/2-)"
+      },
+      {
+        "row_index": 4,
+        "column_index": 4,
+        "old": "(13/2-)",
+        "new": "(15/2-)",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中308.2 keV的I_f^pi为(15/2-)"
+      },
+      {
+        "row_index": 4,
+        "column_index": 5,
+        "old": "-0.01(2)",
+        "new": "-0.07(4)",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中308.2 keV的delta为-0.07(4)"
+      },
+      {
+        "row_index": 4,
+        "column_index": 6,
+        "old": -0.01,
+        "new": -0.07,
+        "source_locator": "Table 2",
+        "reason": "根据原文Table 2更正delta中心值"
+      },
+      {
+        "row_index": 4,
+        "column_index": 7,
+        "old": 0.02,
+        "new": 0.04,
+        "source_locator": "Table 2",
+        "reason": "根据原文Table 2更正delta误差"
+      },
+      {
+        "row_index": 4,
+        "column_index": 8,
+        "old": 0.02,
+        "new": 0.04,
+        "source_locator": "Table 2",
+        "reason": "根据原文Table 2更正delta误差"
+      },
+      {
+        "row_index": 4,
+        "column_index": 9,
+        "old": "-0.27(11)",
+        "new": "-0.43(15)",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中308.2 keV的P_exp为-0.43(15)"
+      },
+      {
+        "row_index": 4,
+        "column_index": 11,
+        "old": "A2=-0.42(3)",
+        "new": "A2=-0.35(2)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中308.2 keV的A2为-0.35(2)"
+      },
+      {
+        "row_index": 4,
+        "column_index": 12,
+        "old": "A4=-0.02(6)",
+        "new": "A4=-0.05(5)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中308.2 keV的A4为-0.05(5)"
+      },
+      {
+        "row_index": 5,
+        "column_index": 9,
+        "old": "0.27(5)",
+        "new": "-0.19(3)",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中362.0 keV的P_exp为-0.19(3)"
+      },
+      {
+        "row_index": 5,
+        "column_index": 11,
+        "old": "A2=-0.34(4)",
+        "new": "A2=-0.42(3)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中362.0 keV的A2为-0.42(3)"
+      },
+      {
+        "row_index": 5,
+        "column_index": 12,
+        "old": "A4=-0.08(6)",
+        "new": "A4=-0.03(6)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中362.0 keV的A4为-0.03(6)"
+      },
+      {
+        "row_index": 6,
+        "column_index": 9,
+        "old": "-0.19(5)",
+        "new": "-0.27(5)",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中367.5 keV的P_exp为-0.27(5)"
+      },
+      {
+        "row_index": 6,
+        "column_index": 11,
+        "old": "A2=-0.49(9)",
+        "new": "A2=-0.40(2)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中367.5 keV的A2为-0.40(2)"
+      },
+      {
+        "row_index": 6,
+        "column_index": 12,
+        "old": "A4=0.01(6)",
+        "new": "A4=-0.02(6)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中367.5 keV的A4为-0.02(6)"
+      },
+      {
+        "row_index": 7,
+        "column_index": 9,
+        "old": "-0.32(11)",
+        "new": "-0.19(5)",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中428.8 keV的P_exp为-0.19(5)"
+      },
+      {
+        "row_index": 7,
+        "column_index": 12,
+        "old": "A4=0.02(5)",
+        "new": "A4=0.03(7)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中428.8 keV的A4为0.03(7)"
+      },
+      {
+        "row_index": 8,
+        "column_index": 11,
+        "old": "A2=-0.34(4)",
+        "new": "A2=-0.49(9)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中515.1 keV的A2为-0.49(9)"
+      },
+      {
+        "row_index": 8,
+        "column_index": 12,
+        "old": "A4=-0.02(6)",
+        "new": null,
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中515.1 keV未给出A4，应为null"
+      },
+      {
+        "row_index": 9,
+        "column_index": 11,
+        "old": "A2=-0.28(3)",
+        "new": "A2=-0.44(4)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中564.3 keV的A2为-0.44(4)"
+      },
+      {
+        "row_index": 9,
+        "column_index": 12,
+        "old": "A4=-0.02(4)",
+        "new": "A4=0.08(8)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中564.3 keV的A4为0.08(8)"
+      },
+      {
+        "row_index": 10,
+        "column_index": 11,
+        "old": "A2=-0.35(2)",
+        "new": "A2=-0.50(5)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中575.3 keV的A2为-0.50(5)"
+      },
+      {
+        "row_index": 10,
+        "column_index": 12,
+        "old": "A4=-0.04(5)",
+        "new": "A4=-0.02(8)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中575.3 keV的A4为-0.02(8)"
+      },
+      {
+        "row_index": 11,
+        "column_index": 3,
+        "old": "(21/2-)",
+        "new": "23/2-",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中608.7 keV的I_i^pi为23/2-"
+      },
+      {
+        "row_index": 11,
+        "column_index": 4,
+        "old": "19/2-",
+        "new": "21/2-",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中608.7 keV的I_f^pi为21/2-"
+      },
+      {
+        "row_index": 11,
+        "column_index": 11,
+        "old": "A2=-0.24(5)",
+        "new": "A2=-0.61(8)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中608.7 keV的A2为-0.61(8)"
+      },
+      {
+        "row_index": 11,
+        "column_index": 12,
+        "old": "A4=0.02(5)",
+        "new": null,
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中608.7 keV未给出A4，应为null"
+      },
+      {
+        "row_index": 12,
+        "column_index": 3,
+        "old": "11/2-",
+        "new": "13/2+",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中673.6 keV的I_i^pi为13/2+"
+      },
+      {
+        "row_index": 12,
+        "column_index": 4,
+        "old": "9/2-",
+        "new": "11/2+",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中673.6 keV的I_f^pi为11/2+"
+      },
+      {
+        "row_index": 12,
+        "column_index": 5,
+        "old": "-0.5(3)",
+        "new": "0.5(3)",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中673.6 keV的delta为正值0.5(3)"
+      },
+      {
+        "row_index": 12,
+        "column_index": 6,
+        "old": -0.5,
+        "new": 0.5,
+        "source_locator": "Table 2",
+        "reason": "更正delta中心值为0.5"
+      },
+      {
+        "row_index": 12,
+        "column_index": 11,
+        "old": "A2=0.07(4)",
+        "new": "A2=-0.91(3)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中673.6 keV的A2为-0.91(3)"
+      },
+      {
+        "row_index": 12,
+        "column_index": 12,
+        "old": "A4=0.08(8)",
+        "new": "A4=0.01(6)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中673.6 keV的A4为0.01(6)"
+      },
+      {
+        "row_index": 13,
+        "column_index": 11,
+        "old": "A2=0.07(4)",
+        "new": "A2=-0.66(4)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中823.9 keV的A2为-0.66(4)"
+      },
+      {
+        "row_index": 13,
+        "column_index": 12,
+        "old": "A4=0.06(7)",
+        "new": "A4=0.10(6)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中823.9 keV的A4为0.10(6)"
+      },
+      {
+        "row_index": 14,
+        "column_index": 3,
+        "old": "9/2-",
+        "new": "11/2+",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中884.4 keV的I_i^pi为11/2+"
+      },
+      {
+        "row_index": 14,
+        "column_index": 4,
+        "old": "7/2-",
+        "new": "9/2+",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中884.4 keV的I_f^pi为9/2+"
+      },
+      {
+        "row_index": 15,
+        "column_index": 3,
+        "old": "13/2-",
+        "new": "15/2+",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中1017.5 keV的I_i^pi为15/2+"
+      },
+      {
+        "row_index": 15,
+        "column_index": 4,
+        "old": "11/2-",
+        "new": "13/2+",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中1017.5 keV的I_f^pi为13/2+"
+      },
+      {
+        "row_index": 16,
+        "column_index": 3,
+        "old": "(15/2-)",
+        "new": "19/2+",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中1059.7 keV的I_i^pi为19/2+"
+      },
+      {
+        "row_index": 16,
+        "column_index": 4,
+        "old": "13/2-",
+        "new": "17/2+",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中1059.7 keV的I_f^pi为17/2+"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/wave2-036-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R027",
+    "doi": "10.1016/0375-9474(90)90091-Y",
+    "packet": "wave2-033-result.json",
+    "source": {
+      "id": "wave2-033",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_90_90091-Y.pdf",
+      "sha256": "f4b8228d6ee0e527fb4d940ff706efddafa86140139d3736e35297e10589eacb",
+      "pages": 37,
+      "doi": "10.1016/0375-9474(90)90091-Y",
+      "title": "Three-Quasiparticle Excitations in {+79}Kr",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 4,
+    "source_corrections": [
+      {
+        "row_index": 0,
+        "column_index": 3,
+        "old": "13/2+",
+        "new": "11/2+",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中747.8 keV跃迁的初态自旋宇称I_i^π明确为11/2+，原值13/2+错误"
+      },
+      {
+        "row_index": 0,
+        "column_index": 4,
+        "old": "11/2+",
+        "new": "9/2+",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中747.8 keV跃迁的末态自旋宇称I_f^π明确为9/2+，原值11/2+错误"
+      },
+      {
+        "row_index": 0,
+        "column_index": 9,
+        "old": "0.40(6)",
+        "new": "0.23(11)",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中78Se(α, 3n)反应下747.8 keV跃迁的实测线偏振度Pexp为0.23(11)，原值0.40(6)系误填自827.0 keV跃迁数据"
+      },
+      {
+        "row_index": 1,
+        "column_index": 3,
+        "old": "13/2+",
+        "new": "11/2+",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中747.8 keV跃迁的初态自旋宇称I_i^π明确为11/2+，原值13/2+错误"
+      },
+      {
+        "row_index": 1,
+        "column_index": 4,
+        "old": "11/2+",
+        "new": "9/2+",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中747.8 keV跃迁的末态自旋宇称I_f^π明确为9/2+，原值11/2+错误"
+      },
+      {
+        "row_index": 2,
+        "column_index": 9,
+        "old": "0.31(8)",
+        "new": "0.06(17)",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中78Se(α, 3n)反应下889.9 keV跃迁的实测线偏振度Pexp为0.06(17)，原值0.31(8)系误填自上一行885.2 keV跃迁的Pad值"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/wave2-033-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R028",
+    "doi": "10.1016/0375-9474(90)90150-K",
+    "packet": "wave2-034-result.json",
+    "source": {
+      "id": "wave2-034",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_90_90150-K.pdf",
+      "sha256": "c543900c5fa70f2c8ea51c5f12b8d7f49f1d8a48a95b5acc00113789805d24d1",
+      "pages": 33,
+      "doi": "10.1016/0375-9474(90)90150-K",
+      "title": "Yrast Spectroscopy of the N = 48 Nucleus {+84}Kr",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 8,
+    "source_corrections": [
+      {
+        "row_index": 0,
+        "column_index": 12,
+        "old": "A4=0.01(4)",
+        "new": "A4=-0.01(4)",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中180.1 keV跃迁的A4系数明确带负号，为-0.01 (4)。"
+      },
+      {
+        "row_index": 4,
+        "column_index": 9,
+        "old": "0.33 (10)",
+        "new": "-0.33 (10)",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中556.6 keV跃迁平板探测器测得的线偏振度Pexp带负号，为-0.33 (10)。"
+      },
+      {
+        "row_index": 5,
+        "column_index": 9,
+        "old": "0.33 (7)",
+        "new": "-0.33 (7)",
+        "source_locator": "Table 2",
+        "reason": "原文Table 2中556.6 keV跃迁双探测器康普顿偏振仪测得的线偏振度Pexp带负号，为-0.33 (7)。"
+      },
+      {
+        "row_index": 6,
+        "column_index": 4,
+        "old": "4_1^+",
+        "new": "4_2^+",
+        "source_locator": "Table 5",
+        "reason": "原文Table 5明确给出943.2 keV跃迁为5_1^+ -> 4_2^+跃迁（始态3289 keV至终态2345 keV），Jf应为4_2^+而非4_1^+。"
+      },
+      {
+        "row_index": 7,
+        "column_index": 4,
+        "old": "4_1^+",
+        "new": "4_2^+",
+        "source_locator": "Table 5",
+        "reason": "原文Table 5明确给出943.2 keV跃迁为5_1^+ -> 4_2^+跃迁（始态3289 keV至终态2345 keV），Jf应为4_2^+而非4_1^+。"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/wave2-034-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R029",
+    "doi": "10.1016/0375-9474(94)00453-T",
+    "packet": "recheck-external-007-result.json",
+    "source": {
+      "id": "recheck-external-007",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_94_00453-T.pdf",
+      "sha256": "5f67d0d2dad033627a6a422594ab37a1754087633db8a54f5b6d2c3101b0703e",
+      "pages": 32,
+      "doi": "10.1016/0375-9474(94)00453-T",
+      "title": "NONYRAST STATES IN XE-125",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 24,
+    "source_corrections": [
+      {
+        "row_index": 0,
+        "column_index": 5,
+        "old": "(3.6+3: 7)",
+        "new": "(3.6+3.7/-1.9)",
+        "source_locator": "Table 3, page 96",
+        "reason": "原文δ_exp为(3.6^{+3.7}_{-1.9})，修正OCR乱码"
+      },
+      {
+        "row_index": 0,
+        "column_index": 7,
+        "old": 3.7,
+        "new": 1.9,
+        "source_locator": "Table 3, page 96",
+        "reason": "原文下绝对误差为1.9，非3.7"
+      },
+      {
+        "row_index": 1,
+        "column_index": 5,
+        "old": "-0.03-+o°.'1 °7",
+        "new": "-0.03+0.07/-0.13",
+        "source_locator": "Table 3, page 96",
+        "reason": "原文δ_exp为-0.03^{+0.07}_{-0.13}，修正OCR乱码"
+      },
+      {
+        "row_index": 1,
+        "column_index": 7,
+        "old": 0.1,
+        "new": 0.13,
+        "source_locator": "Table 3, page 96",
+        "reason": "原文下绝对误差为0.13，非0.1"
+      },
+      {
+        "row_index": 2,
+        "column_index": 5,
+        "old": "(-3.76+0.12)",
+        "new": "(-3.76±0.12)",
+        "source_locator": "Table 3, page 96",
+        "reason": "原文为(-3.76±0.12)，修正符号"
+      },
+      {
+        "row_index": 3,
+        "column_index": 5,
+        "old": "(0.07-+o: °7)",
+        "new": "(0.07+0.07/-0.20)",
+        "source_locator": "Table 3, page 96",
+        "reason": "原文δ_exp为(0.07^{+0.07}_{-0.20})，修正OCR乱码"
+      },
+      {
+        "row_index": 3,
+        "column_index": 7,
+        "old": 0.07,
+        "new": 0.2,
+        "source_locator": "Table 3, page 96",
+        "reason": "原文下绝对误差为0.20，非0.07"
+      },
+      {
+        "row_index": 4,
+        "column_index": 5,
+        "old": "-0.42-+°i o5",
+        "new": "-0.42+0.05/-0.07",
+        "source_locator": "Table 3, page 96",
+        "reason": "原文δ_exp为-0.42^{+0.05}_{-0.07}，修正OCR乱码"
+      },
+      {
+        "row_index": 4,
+        "column_index": 7,
+        "old": 0.05,
+        "new": 0.07,
+        "source_locator": "Table 3, page 96",
+        "reason": "原文下绝对误差为0.07，非0.05"
+      },
+      {
+        "row_index": 5,
+        "column_index": 5,
+        "old": "-0.18-+°i 37",
+        "new": "-0.18+0.37/-0.15",
+        "source_locator": "Table 3, page 96",
+        "reason": "原文δ_exp为-0.18^{+0.37}_{-0.15}，修正OCR乱码"
+      },
+      {
+        "row_index": 5,
+        "column_index": 7,
+        "old": 0.37,
+        "new": 0.15,
+        "source_locator": "Table 3, page 96",
+        "reason": "原文下绝对误差为0.15，非0.37"
+      },
+      {
+        "row_index": 6,
+        "column_index": 5,
+        "old": "0.38-+°J 3",
+        "new": "0.38+0.13/-0.12",
+        "source_locator": "Table 3, page 96",
+        "reason": "原文δ_exp为0.38^{+0.13}_{-0.12}，修正OCR乱码"
+      },
+      {
+        "row_index": 6,
+        "column_index": 7,
+        "old": 0.13,
+        "new": 0.12,
+        "source_locator": "Table 3, page 96",
+        "reason": "原文下绝对误差为0.12，非0.13"
+      },
+      {
+        "row_index": 7,
+        "column_index": 5,
+        "old": "-0.26-+o: o6",
+        "new": "-0.26+0.06/-0.09",
+        "source_locator": "Table 3, page 96",
+        "reason": "原文δ_exp为-0.26^{+0.06}_{-0.09}，修正OCR乱码"
+      },
+      {
+        "row_index": 7,
+        "column_index": 7,
+        "old": 0.06,
+        "new": 0.09,
+        "source_locator": "Table 3, page 96",
+        "reason": "原文下绝对误差为0.09，非0.06"
+      },
+      {
+        "row_index": 8,
+        "column_index": 5,
+        "old": "-0.13-+°:~2 °",
+        "new": "-0.13+0.20/-0.12",
+        "source_locator": "Table 3, page 96",
+        "reason": "原文δ_exp为-0.13^{+0.20}_{-0.12}，修正OCR乱码"
+      },
+      {
+        "row_index": 8,
+        "column_index": 7,
+        "old": 0.2,
+        "new": 0.12,
+        "source_locator": "Table 3, page 96",
+        "reason": "原文下绝对误差为0.12，非0.2"
+      },
+      {
+        "row_index": 9,
+        "column_index": 5,
+        "old": "0.13+0.03",
+        "new": "0.13±0.03",
+        "source_locator": "Table 3, page 96",
+        "reason": "原文为0.13±0.03，修正符号"
+      },
+      {
+        "row_index": 10,
+        "column_index": 5,
+        "old": "_n t~+o.o8~.vo_o.15",
+        "new": "-0.05+0.08/-0.15",
+        "source_locator": "Table 3, page 96",
+        "reason": "原文δ_exp为-0.05^{+0.08}_{-0.15}，修正OCR乱码"
+      },
+      {
+        "row_index": 10,
+        "column_index": 6,
+        "old": -0.16,
+        "new": -0.05,
+        "source_locator": "Table 3, page 96",
+        "reason": "原文中心值为-0.05，误识别为-0.16"
+      },
+      {
+        "row_index": 11,
+        "column_index": 5,
+        "old": "- 1.5 _+ 0.5",
+        "new": "-1.5±0.5",
+        "source_locator": "Table 3, page 96",
+        "reason": "原文为-1.5±0.5，修正格式"
+      },
+      {
+        "row_index": 12,
+        "column_index": 5,
+        "old": "(- 1.4 5: 0.1)(AD)",
+        "new": "(-1.4±0.1)(AD)",
+        "source_locator": "Table 3, page 96",
+        "reason": "原文为(-1.4±0.1)(AD)，修正符号"
+      },
+      {
+        "row_index": 13,
+        "column_index": 5,
+        "old": "_ 0.6-+oO:~(Corr)",
+        "new": "-0.6+0.1/-0.2(Corr)",
+        "source_locator": "Table 3, page 96",
+        "reason": "原文δ_exp为-0.6^{+0.1}_{-0.2}(Corr)，修正OCR乱码"
+      },
+      {
+        "row_index": 13,
+        "column_index": 7,
+        "old": 0.1,
+        "new": 0.2,
+        "source_locator": "Table 3, page 96",
+        "reason": "原文下绝对误差为0.2，非0.1"
+      },
+      {
+        "row_index": 14,
+        "column_index": 5,
+        "old": "(-2.7+0.4)",
+        "new": "(-2.7±0.4)",
+        "source_locator": "Table 3, page 96",
+        "reason": "原文为(-2.7±0.4)，修正符号"
+      },
+      {
+        "row_index": 15,
+        "column_index": 5,
+        "old": "0 29 +0.25 / - 0.23",
+        "new": "0.29+0.25/-0.23",
+        "source_locator": "Table 3, page 96",
+        "reason": "原文为0.29^{+0.25}_{-0.23}，去除空格"
+      },
+      {
+        "row_index": 16,
+        "column_index": 5,
+        "old": "_06+0.3 / • -0.5",
+        "new": "-0.6+0.3/-0.5",
+        "source_locator": "Table 3, page 96",
+        "reason": "原文为-0.6^{+0.3}_{-0.5}，修正OCR乱码"
+      },
+      {
+        "row_index": 17,
+        "column_index": 5,
+        "old": "t14+33~ / \" -1~\"",
+        "new": "(14+33/-11)",
+        "source_locator": "Table 3, page 96",
+        "reason": "原文δ_exp为(14^{+33}_{-11})，修正OCR乱码与误加小数点"
+      },
+      {
+        "row_index": 17,
+        "column_index": 6,
+        "old": 1.4,
+        "new": 14.0,
+        "source_locator": "Table 3, page 96",
+        "reason": "原文中心值为14，误识别为1.4"
+      },
+      {
+        "row_index": 17,
+        "column_index": 7,
+        "old": 1.1,
+        "new": 11.0,
+        "source_locator": "Table 3, page 96",
+        "reason": "原文下绝对误差为11，误识别为1.1"
+      },
+      {
+        "row_index": 17,
+        "column_index": 8,
+        "old": 3.3,
+        "new": 33.0,
+        "source_locator": "Table 3, page 96",
+        "reason": "原文上绝对误差为33，误识别为3.3"
+      },
+      {
+        "row_index": 18,
+        "column_index": 5,
+        "old": "• -0.53",
+        "new": "-0.24+0.17/-0.53",
+        "source_locator": "Table 3, page 96",
+        "reason": "原文δ_exp为-0.24^{+0.17}_{-0.53}，误识别为仅有下误差-0.53"
+      },
+      {
+        "row_index": 18,
+        "column_index": 6,
+        "old": -0.53,
+        "new": -0.24,
+        "source_locator": "Table 3, page 96",
+        "reason": "原文中心值为-0.24，误识别为-0.53"
+      },
+      {
+        "row_index": 18,
+        "column_index": 7,
+        "old": null,
+        "new": 0.53,
+        "source_locator": "Table 3, page 96",
+        "reason": "原文下绝对误差为0.53，补全"
+      },
+      {
+        "row_index": 18,
+        "column_index": 8,
+        "old": null,
+        "new": 0.17,
+        "source_locator": "Table 3, page 96",
+        "reason": "原文上绝对误差为0.17，补全"
+      },
+      {
+        "row_index": 19,
+        "column_index": 5,
+        "old": "-0.9_+0.3",
+        "new": "-0.9±0.3",
+        "source_locator": "Table 3, page 97",
+        "reason": "原文为-0.9±0.3，修正字符"
+      },
+      {
+        "row_index": 20,
+        "column_index": 5,
+        "old": "5 7 +2.4 / - 3.3",
+        "new": "-5.7+2.4/-3.3",
+        "source_locator": "Table 3, page 97",
+        "reason": "原文δ_exp为-5.7^{+2.4}_{-3.3}，漏掉负号"
+      },
+      {
+        "row_index": 20,
+        "column_index": 6,
+        "old": 5.7,
+        "new": -5.7,
+        "source_locator": "Table 3, page 97",
+        "reason": "原文中心值为-5.7，漏掉负号"
+      },
+      {
+        "row_index": 21,
+        "column_index": 5,
+        "old": "n o+0.2 / v.~-0. 3",
+        "new": "0.9+0.2/-0.3",
+        "source_locator": "Table 3, page 97",
+        "reason": "原文δ_exp为0.9^{+0.2}_{-0.3}，修正OCR乱码"
+      },
+      {
+        "row_index": 21,
+        "column_index": 6,
+        "old": 0.0,
+        "new": 0.9,
+        "source_locator": "Table 3, page 97",
+        "reason": "原文中心值为0.9，误识别为0.0"
+      },
+      {
+        "row_index": 22,
+        "column_index": 5,
+        "old": "-2 3 +°'1 b",
+        "new": "-2.3+0.1/-0.2 b",
+        "source_locator": "Table 3, page 97",
+        "reason": "原文为-2.3^{+0.1}_{-0.2}^b，修正OCR乱码"
+      },
+      {
+        "row_index": 23,
+        "column_index": 5,
+        "old": "-7 c",
+        "new": "-9+6/-7 c",
+        "source_locator": "Table 3, page 97",
+        "reason": "原文δ_exp为-9^{+6}_{-7}^c，误识别为-7 c"
+      },
+      {
+        "row_index": 23,
+        "column_index": 6,
+        "old": -7.0,
+        "new": -9.0,
+        "source_locator": "Table 3, page 97",
+        "reason": "原文中心值为-9，误识别为-7.0"
+      },
+      {
+        "row_index": 23,
+        "column_index": 7,
+        "old": null,
+        "new": 7.0,
+        "source_locator": "Table 3, page 97",
+        "reason": "原文下绝对误差为7，补全"
+      },
+      {
+        "row_index": 23,
+        "column_index": 8,
+        "old": null,
+        "new": 6.0,
+        "source_locator": "Table 3, page 97",
+        "reason": "原文上绝对误差为6，补全"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/recheck-external-007-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R030",
+    "doi": "10.1016/0375-9474(96)00194-7",
+    "packet": "recheck-external-005-result.json",
+    "source": {
+      "id": "recheck-external-005",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_96_00194-7.pdf",
+      "sha256": "1f727cf1ceae44ad79ea7d1d156dc5cb89513d1e1c637c9f83bd79b7c9f460dd",
+      "pages": 27,
+      "doi": "10.1016/0375-9474(96)00194-7",
+      "title": "Parities and multipolarities of gamma rays in neutron-rich odd-mass Ba nuclei",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 5,
+    "source_corrections": [
+      {
+        "row_index": 0,
+        "column_index": 5,
+        "old": "0.19 +0.07 -0.06",
+        "new": "0.13 +0.07 -0.06",
+        "source_locator": "Table 9",
+        "reason": "Table 9中112.5 keV跃迁的混合比δ原文为0.13^{+0.07}_{-0.06}，原待核对行中心值印刷错误"
+      },
+      {
+        "row_index": 0,
+        "column_index": 6,
+        "old": 0.19,
+        "new": 0.13,
+        "source_locator": "Table 9",
+        "reason": "中心值与Table 9原文一致，应为0.13"
+      },
+      {
+        "row_index": 0,
+        "column_index": 9,
+        "old": "-0.05(4)",
+        "new": "P(350.0)=-0.05(4)",
+        "source_locator": "Table 8b",
+        "reason": "Table 8b双级联350.0^P-112.5中线偏振度Pexp实测对象为350.0 keV γ射线而非本跃迁出射P，加明确对象标签"
+      },
+      {
+        "row_index": 1,
+        "column_index": 5,
+        "old": "2.21 +0.97 -1.77",
+        "new": "-2.25 +0.97 -1.77",
+        "source_locator": "Table 9",
+        "reason": "Table 9中164.5 keV跃迁混合比δ的第一组解原文为-2.25^{+0.97}_{-1.77}，原行遗漏外负号且数值2.25误作2.21"
+      },
+      {
+        "row_index": 1,
+        "column_index": 6,
+        "old": 2.21,
+        "new": -2.25,
+        "source_locator": "Table 9",
+        "reason": "中心值与Table 9原文一致，应为-2.25"
+      },
+      {
+        "row_index": 1,
+        "column_index": 9,
+        "old": "-0.21(8)",
+        "new": "P(364.3)=-0.21(8)",
+        "source_locator": "Table 8b",
+        "reason": "Table 8b双级联364.3^P-164.5中线偏振度Pexp实测对象为364.3 keV γ射线，加明确对象标签"
+      },
+      {
+        "row_index": 2,
+        "column_index": 9,
+        "old": "-0.21(8)",
+        "new": "P(364.3)=-0.21(8)",
+        "source_locator": "Table 8b",
+        "reason": "Table 8b双级联364.3^P-164.5中线偏振度Pexp实测对象为364.3 keV γ射线，加明确对象标签"
+      },
+      {
+        "row_index": 3,
+        "column_index": 5,
+        "old": "0.18 +0.13 -0.15",
+        "new": "0.18 +0.10 -0.07",
+        "source_locator": "Table 9",
+        "reason": "Table 9中185.4 keV跃迁混合比δ的第一组解原文为0.18^{+0.10}_{-0.07}，原行误差不对"
+      },
+      {
+        "row_index": 3,
+        "column_index": 7,
+        "old": 0.15,
+        "new": 0.07,
+        "source_locator": "Table 9",
+        "reason": "与Table 9原文一致，下绝对误差应为0.07"
+      },
+      {
+        "row_index": 3,
+        "column_index": 8,
+        "old": 0.13,
+        "new": 0.1,
+        "source_locator": "Table 9",
+        "reason": "与Table 9原文一致，上绝对误差应为0.10"
+      },
+      {
+        "row_index": 3,
+        "column_index": 9,
+        "old": "+0.10(5)",
+        "new": "P(276.9)=+0.10(5)",
+        "source_locator": "Table 8b",
+        "reason": "Table 8b双级联185.4-276.9^P中线偏振度Pexp实测对象为276.9 keV γ射线，加明确对象标签"
+      },
+      {
+        "row_index": 4,
+        "column_index": 5,
+        "old": "2.94 +0.99 -0.60",
+        "new": "3.24 +0.99 -0.60",
+        "source_locator": "Table 9",
+        "reason": "Table 9中185.4 keV跃迁混合比δ的第二组解原文为3.24^{+0.99}_{-0.60}，原行中心值2.94为误录"
+      },
+      {
+        "row_index": 4,
+        "column_index": 6,
+        "old": 2.94,
+        "new": 3.24,
+        "source_locator": "Table 9",
+        "reason": "中心值与Table 9原文一致，应为3.24"
+      },
+      {
+        "row_index": 4,
+        "column_index": 9,
+        "old": "+0.10(5)",
+        "new": "P(276.9)=+0.10(5)",
+        "source_locator": "Table 8b",
+        "reason": "Table 8b双级联185.4-276.9^P中线偏振度Pexp实测对象为276.9 keV γ射线，加明确对象标签"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/recheck-external-005-vision.json",
+    "parent_rules": {
+      "conditional_polarization": true,
+      "clear_generic_rdco": true
+    }
+  },
+  {
+    "ref_id": "R031",
+    "doi": "10.1016/j.nima.2025.170932",
+    "packet": "recovered-056-result.json",
+    "source": {
+      "id": "recovered-056",
+      "path": "raw/papers/2026_Longfellow et al_In-beam angular distribution and linear polarization measurements with GRETINA using a simple energy.pdf",
+      "sha256": "fb3b4f5e4dce6a436bb569b64af1914c6b673561374d7867a3d906aef7090df1",
+      "pages": 10,
+      "chars": 62204,
+      "discovery_only": false,
+      "acquired_externally": false,
+      "reused_from_previous_screen": true
+    },
+    "rows_retained": 5,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/recovered-056-vision.json",
+    "parent_rules": {
+      "clear_sigma_for_alt": true
+    }
+  },
+  {
+    "ref_id": "R032",
+    "doi": "10.1016/j.nuclphysa.2021.122375",
+    "packet": "wave2-018-result.json",
+    "source": {
+      "id": "wave2-018",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_j.nuclphysa.2021.122375.pdf",
+      "sha256": "f02819340267493da3a2786b9d7cf4ecd2d8bcaef0dc7db97603da7a3a1ac6a4",
+      "pages": 13,
+      "doi": "10.1016/j.nuclphysa.2021.122375",
+      "title": "Three-phonon multiplets in <SUP>116</SUP>S",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 1,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/wave2-018-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R033",
+    "doi": "10.1016/j.nuclphysa.2025.123019",
+    "packet": "wave2-006-result.json",
+    "source": {
+      "id": "wave2-006",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_j.nuclphysa.2025.123019.pdf",
+      "sha256": "ffba3e3cc5ba6efc339928d3ce5e83dc75196942e3b5ab2606db2e08116a7ecd",
+      "pages": 14,
+      "doi": "10.1016/j.nuclphysa.2025.123019",
+      "title": "Shape transition and development of triaxiality in 154 Tb",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 7,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/wave2-006-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R034",
+    "doi": "10.1016/j.physletb.2026.140454",
+    "packet": "wave2-019-result.json",
+    "source": {
+      "id": "wave2-019",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_j.physletb.2026.140454.pdf",
+      "sha256": "d8e960cd95aa1f7dc881bafc13d119f2095d89697120f3dc4764570fb9197aa7",
+      "pages": 6,
+      "doi": "10.1016/j.physletb.2026.140454",
+      "title": "Experimental evidence of transverse wobbling motion in 185Au: Revealing a transition from transverse to longitudinal wobbling in Au isotopes",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 8,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/wave2-019-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R035",
+    "doi": "10.1016/s0029-5582(60)81036-x",
+    "packet": "wave2-029-result.json",
+    "source": {
+      "id": "wave2-029",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_s0029-5582_60_81036-x.pdf",
+      "sha256": "519526d0894f249bd2a6f9317ef6b8ea753ddbc529dad0edd228ff57493e508f",
+      "pages": 14,
+      "doi": "10.1016/s0029-5582(60)81036-x",
+      "title": "Nuclear polarization of Co55",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 5,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/wave2-029-vision.json",
+    "parent_rules": {
+      "p_is_calculated": true
+    }
+  },
+  {
+    "ref_id": "R036",
+    "doi": "10.1016/s0031-8914(59)97064-8",
+    "packet": "recheck-external-002-result.json",
+    "source": {
+      "id": "recheck-external-002",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_s0031-8914_59_97064-8.pdf",
+      "sha256": "5e24c549c57160fc03fa90f088aae7705a8be8be8b13548c9df7a2a130351c40",
+      "pages": 17,
+      "doi": "10.1016/s0031-8914(59)97064-8",
+      "title": "Angular distribution and linear polarization of gamma rays from aligned 166mHo nuclei",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 1,
+    "source_corrections": [
+      {
+        "row_index": 0,
+        "column_index": 20,
+        "old": "p. 675, 677, 681, 684",
+        "new": "p. 675, 678, 681, 684",
+        "source_locator": "p. 678",
+        "reason": "原文对817 keV跃迁自旋差|ΔI|=2排除及W(0)与W(π/2)随δ变化分析见于第678页（对应PDF第8页），原定位p. 677为页码笔误。"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/recheck-external-002-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R037",
+    "doi": "10.1016/S0375-9474(97)00058-4",
+    "packet": "recheck-external-006-result.json",
+    "source": {
+      "id": "recheck-external-006",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_S0375-9474_97_00058-4.pdf",
+      "sha256": "af48c3dfd17c367e03f8a5663f7b2faa8c882321088583c568a5dc80428f79b2",
+      "pages": 25,
+      "doi": "10.1016/S0375-9474(97)00058-4",
+      "title": "Detailed spectroscopy of the normally deformed states in Ce-132",
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 4,
+    "source_corrections": [
+      {
+        "row_index": 0,
+        "column_index": 5,
+        "old": "Table 4, Fig. 3(b)",
+        "new": "-0.088^{+0.012}_{-0.013}",
+        "source_locator": "Table 4, p. 187",
+        "reason": "δ原文误填为原文定位出处，更正为Table 4给出的原文数值及误差形式"
+      },
+      {
+        "row_index": 0,
+        "column_index": 6,
+        "old": null,
+        "new": -0.088,
+        "source_locator": "Table 4, p. 187",
+        "reason": "δ中心值漏填，补入Table 4给出的数值-0.088"
+      },
+      {
+        "row_index": 1,
+        "column_index": 5,
+        "old": "Table 4, Fig. 3(b)",
+        "new": "-0.042^{+0.008}_{-0.009}",
+        "source_locator": "Table 4, p. 187",
+        "reason": "δ原文误填为原文定位出处，更正为Table 4给出的原文数值及误差形式"
+      },
+      {
+        "row_index": 1,
+        "column_index": 6,
+        "old": null,
+        "new": -0.042,
+        "source_locator": "Table 4, p. 187",
+        "reason": "δ中心值漏填，补入Table 4给出的数值-0.042"
+      },
+      {
+        "row_index": 2,
+        "column_index": 5,
+        "old": "Table 4",
+        "new": "-0.122^{+0.016}_{-0.016}",
+        "source_locator": "Table 4, p. 187",
+        "reason": "δ原文误填为原文定位出处，更正为Table 4给出的原文数值及误差形式"
+      },
+      {
+        "row_index": 2,
+        "column_index": 6,
+        "old": null,
+        "new": -0.122,
+        "source_locator": "Table 4, p. 187",
+        "reason": "δ中心值漏填，补入Table 4给出的数值-0.122"
+      },
+      {
+        "row_index": 3,
+        "column_index": 5,
+        "old": "Table 4",
+        "new": "-0.076^{+0.026}_{-0.027}",
+        "source_locator": "Table 4, p. 187",
+        "reason": "δ原文误填为原文定位出处，更正为Table 4给出的原文数值及误差形式"
+      },
+      {
+        "row_index": 3,
+        "column_index": 6,
+        "old": null,
+        "new": -0.076,
+        "source_locator": "Table 4, p. 187",
+        "reason": "δ中心值漏填，补入Table 4给出的数值-0.076"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/recheck-external-006-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R038",
+    "doi": "10.1088/0305-4616/6/5/008",
+    "packet": "other-04ca0c4378-result.json",
+    "source": {
+      "id": "other-04ca0c4378",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1088_0305-4616_6_5_008.pdf",
+      "doi": "10.1088/0305-4616/6/5/008",
+      "title": "ANGULAR-DISTRIBUTION AND LINEAR-POLARIZATION MEASUREMENTS OF GAMMA-RAYS IN CA-41",
+      "sha256": "e462ff6c94da08ac827d9b3cd015a2e2c40a3339a9ffadff287b4c19a8813d0b",
+      "pages": 18,
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 6,
+    "source_corrections": [
+      {
+        "row_index": 2,
+        "column_index": 12,
+        "old": "a4 = 0.01 ± 0.07",
+        "new": "a4 = 0.34 ± 0.01",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中3677 keV跃迁的角分布系数a4为0.34 ± 0.01，原待核对行误填为0.01 ± 0.07（该值实为1268 keV跃迁的数据）。"
+      },
+      {
+        "row_index": 3,
+        "column_index": 5,
+        "old": "0.19 +0.10 -0.08",
+        "new": "0.19 +0.09 -0.05",
+        "source_locator": "Section 3.3",
+        "reason": "原文第628页Section 3.3正文明确给出delta = 0.19 +0.09 -0.05，待核对行中正负误差误作+0.10 -0.08。"
+      },
+      {
+        "row_index": 3,
+        "column_index": 7,
+        "old": 0.08,
+        "new": 0.05,
+        "source_locator": "Section 3.3",
+        "reason": "对应Section 3.3正文中delta = 0.19 +0.09 -0.05，δ下绝对误差应为0.05而非0.08。"
+      },
+      {
+        "row_index": 3,
+        "column_index": 8,
+        "old": 0.1,
+        "new": 0.09,
+        "source_locator": "Section 3.3",
+        "reason": "对应Section 3.3正文中delta = 0.19 +0.09 -0.05，δ上绝对误差应为0.09而非0.1。"
+      },
+      {
+        "row_index": 3,
+        "column_index": 12,
+        "old": "a4 = 0.34 ± 0.01",
+        "new": "a4 = 0.49 ± 0.26",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中Ex=3677 keV能级退激的718 keV跃迁实测a4为0.49 ± 0.26，待核对行误填为同能级3677 keV跃迁的a4数值(0.34 ± 0.01)。"
+      },
+      {
+        "row_index": 4,
+        "column_index": 9,
+        "old": "P(90°) = -0.79 ± 0.11",
+        "new": "P(90°) = -0.24 ± 0.06",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中168 keV跃迁自身实测线偏振度P(90°)为-0.24 ± 0.06；原值-0.79 ± 0.11实为同能级另一条3369 keV基态跃迁的数据，发生误填。"
+      },
+      {
+        "row_index": 4,
+        "column_index": 11,
+        "old": null,
+        "new": "a2 = -0.33 ± 0.01",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中168 keV跃迁测有角分布系数a2 = -0.33 ± 0.01，原待核对行漏填为null。"
+      },
+      {
+        "row_index": 4,
+        "column_index": 12,
+        "old": null,
+        "new": "a4 = 0.00 ± 0.01",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1中168 keV跃迁测有角分布系数a4 = 0.00 ± 0.01，原待核对行漏填为null。"
+      },
+      {
+        "row_index": 4,
+        "column_index": 18,
+        "old": "POL: θ = 90°",
+        "new": "AD: θ = 0°–90° (9 angles); POL: θ = 90°",
+        "source_locator": "Table 1",
+        "reason": "原文Table 1表明168 keV跃迁同时测有角分布与偏振，角度条件应包含角分布测量，补齐为AD: θ = 0°–90° (9 angles); POL: θ = 90°。"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/other-04ca0c4378-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R039",
+    "doi": "10.1088/1748-0221/18/11/p11031",
+    "packet": "other-0023181374-result.json",
+    "source": {
+      "id": "other-0023181374",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1088_1748-0221_18_11_p11031.pdf",
+      "doi": "10.1088/1748-0221/18/11/p11031",
+      "title": "Directional-polarization correlations using EXILL",
+      "sha256": "5a7c8af47e870e6ba44f04450e81cab04555731d9c50673b03c17bace68b68c9",
+      "pages": 36,
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 9,
+    "source_corrections": [
+      {
+        "row_index": 1,
+        "column_index": 9,
+        "old": "+0.082(36)",
+        "new": "P(356.0)=+0.082(36)",
+        "source_locator": "Table 5, Section 4 (Page 17, 19)",
+        "reason": "81.0 keV跃迁为级联下部门跃迁，实测线偏振值+0.082(36)实际测量对象为级联上方356.0 keV光子（原文明确标为P_exp(356.0)）。依据规则应在数值前加明确原文对象标签，避免误作本跃迁(81.0 keV)出射偏振。"
+      },
+      {
+        "row_index": 2,
+        "column_index": 9,
+        "old": "+0.082(36)",
+        "new": "P(356.0)=+0.082(36)",
+        "source_locator": "Table 5, Section 4 (Page 17, 19)",
+        "reason": "该行为文献[15]被排除分支δ=+0.158(5)；实测线偏振+0.082(36)归属于356.0 keV跃迁（P_exp(356.0)），用于与理论值P_th(356.0)=-0.259(5)比较以排除该分支。应加明确原文对象标签P(356.0)=+0.082(36)。"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/other-0023181374-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R040",
+    "doi": "10.1103/PhysRevC.101.044310",
+    "packet": "other-6c736c711b-result.json",
+    "source": {
+      "id": "other-6c736c711b",
+      "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2020_Das et al_High spin states of Ar 37.pdf",
+      "doi": "10.1103/PhysRevC.101.044310",
+      "title": "High spin states of 37Ar",
+      "sha256": "b7c28e74a0c6a572a9c46642982c2d8b19a4ee643fc9f8f7be03aee8f13b6483",
+      "pages": 13,
+      "acquired_externally": false,
+      "discovery_only": false
+    },
+    "rows_retained": 10,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/other-6c736c711b-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R041",
+    "doi": "10.1103/PhysRevC.103.044308",
+    "packet": "other-5b4f8408c7-result.json",
+    "source": {
+      "id": "other-5b4f8408c7",
+      "path": "raw/papers/2021_Lv et al_Tilted precession bands in Nd 135.pdf",
+      "doi": "10.1103/PhysRevC.103.044308",
+      "title": "Tilted precession bands in {+135}Nd",
+      "sha256": "e28bc232617af4d6ee83d95d267b2e7acd24eddb0d03cc1592124d31e9871150",
+      "pages": 14,
+      "acquired_externally": false,
+      "discovery_only": false
+    },
+    "rows_retained": 6,
+    "source_corrections": [
+      {
+        "row_index": 4,
+        "column_index": 13,
+        "old": "R_DCO",
+        "new": "R_ac",
+        "source_locator": "Table I",
+        "reason": "原文Table I中566.0 keV跃迁的测量比值明确列在R_ac栏而非R_DCO栏"
+      },
+      {
+        "row_index": 4,
+        "column_index": 16,
+        "old": "0.54(17)",
+        "new": null,
+        "source_locator": "Table I",
+        "reason": "原文Table I中566.0 keV跃迁未给出R_DCO值（该栏为空），0.54(17)为R_ac比值，RDCO列应为null"
+      },
+      {
+        "row_index": 4,
+        "column_index": 18,
+        "old": "157.6°, ~90°",
+        "new": "133.6° and 157.6°, ~90°",
+        "source_locator": "Table I footnote d",
+        "reason": "原文表注d明确R_ac对应的两非对称符合矩阵角度为133.6°与157.6°对约90°，原填角度157.6°, ~90°仅适用于表注c的R_DCO"
+      },
+      {
+        "row_index": 5,
+        "column_index": 13,
+        "old": "R_DCO",
+        "new": "R_ac",
+        "source_locator": "Table I",
+        "reason": "原文Table I中Band TiP2的518.3 keV跃迁比值明确列在R_ac栏而非R_DCO栏"
+      },
+      {
+        "row_index": 5,
+        "column_index": 16,
+        "old": "1.05(13)",
+        "new": null,
+        "source_locator": "Table I",
+        "reason": "原文Table I中518.3 keV跃迁未给出R_DCO值（该栏为空），1.05(13)为R_ac比值，RDCO列应为null"
+      },
+      {
+        "row_index": 5,
+        "column_index": 18,
+        "old": "157.6°, ~90°",
+        "new": "133.6° and 157.6°, ~90°",
+        "source_locator": "Table I footnote d",
+        "reason": "原文表注d明确R_ac对应的两非对称符合矩阵角度为133.6°与157.6°对约90°，原填角度157.6°, ~90°仅适用于表注c的R_DCO"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/other-5b4f8408c7-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R042",
+    "doi": "10.1103/PhysRevC.104.044305",
+    "packet": "other-33986bba03-result.json",
+    "source": {
+      "id": "other-33986bba03",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1103_PhysRevC.104.044305.pdf",
+      "doi": "10.1103/PhysRevC.104.044305",
+      "title": "Complete set of proton excitations in {+119}Cs",
+      "sha256": "cf158de9b2cef6471046aadac36c6f1791072caed59c45db814d1952bd61d2fa",
+      "pages": 21,
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 19,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/other-33986bba03-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R043",
+    "doi": "10.1103/PhysRevC.104.044325",
+    "packet": "other-4dd459808b-result.json",
+    "source": {
+      "id": "other-4dd459808b",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1103_PhysRevC.104.044325.pdf",
+      "doi": "10.1103/PhysRevC.104.044325",
+      "title": "Rich band structure and multiple long-lived isomers in the odd-odd {+118}Cs nucleus",
+      "sha256": "0299c4be119be72584791d71298c2b4da4987628c44f400fc4bcfa386d4a784b",
+      "pages": 20,
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 6,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/other-4dd459808b-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R044",
+    "doi": "10.1103/PhysRevC.106.014308",
+    "packet": "other-6259ef9183-result.json",
+    "source": {
+      "id": "other-6259ef9183",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1103_PhysRevC.106.014308.pdf",
+      "doi": "10.1103/PhysRevC.106.014308",
+      "title": "Investigation of {+11}B and {+40}Ca levels at 8-9 MeV by nuclear resonance fluorescence",
+      "sha256": "a3ddf766f33344ab5d91d747f54c0f41c9ddd746debfe379076304dff4b89811",
+      "pages": 14,
+      "acquired_externally": true,
+      "discovery_only": false,
+      "max_output_tokens": 30000
+    },
+    "rows_retained": 18,
+    "source_corrections": [
+      {
+        "row_index": 0,
+        "column_index": 9,
+        "old": "≥99%",
+        "new": "入射束≥99%",
+        "source_locator": "Sec. II",
+        "reason": "原文≥99%为HIγS入射光子束线偏振度(P_beam≥99%)，非本跃迁出射γ偏振度P；按规则应在数值前加明确原文对象标签避免误认"
+      },
+      {
+        "row_index": 1,
+        "column_index": 9,
+        "old": "≥99%",
+        "new": "入射束≥99%",
+        "source_locator": "Sec. II",
+        "reason": "原文≥99%为HIγS入射光子束线偏振度(P_beam≥99%)，非本跃迁出射γ偏振度P；按规则应在数值前加明确原文对象标签避免误认"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/other-6259ef9183-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R045",
+    "doi": "10.1103/PhysRevC.107.064318",
+    "packet": "other-daf1f83281-result.json",
+    "source": {
+      "id": "other-daf1f83281",
+      "path": "raw/papers/2023_Chakraborty et al_Search for the origin of wobbling motion in the A ≈ 130 region The case of Xe 131.pdf",
+      "doi": "10.1103/PhysRevC.107.064318",
+      "title": "Search for the origin of wobbling motion in the A |? 130 region: The case of {+131}Xe",
+      "sha256": "730db39eb9a5aecd3bbce1dce3cb9c32829eb2f4a2062ee31c59ddc4d52bd9ff",
+      "pages": 8,
+      "acquired_externally": false,
+      "discovery_only": false
+    },
+    "rows_retained": 2,
+    "source_corrections": [
+      {
+        "row_index": 0,
+        "column_index": 5,
+        "old": "⪅0.1",
+        "new": "0.03(3)",
+        "source_locator": "Fig. 5",
+        "reason": "Fig. 5图中明确标注E_gamma = 671 keV跃迁的混合比标签为delta = 0.03 (3)；原填'⪅0.1'仅为正文Sec. III第4页定性上限描述，遗漏了图标签中的具体测量值"
+      },
+      {
+        "row_index": 0,
+        "column_index": 6,
+        "old": null,
+        "new": 0.03,
+        "source_locator": "Fig. 5",
+        "reason": "依据Fig. 5图标签delta = 0.03 (3)提取中心值0.03"
+      },
+      {
+        "row_index": 0,
+        "column_index": 7,
+        "old": null,
+        "new": 0.03,
+        "source_locator": "Fig. 5",
+        "reason": "依据Fig. 5图标签delta = 0.03 (3)提取下绝对误差0.03"
+      },
+      {
+        "row_index": 0,
+        "column_index": 8,
+        "old": null,
+        "new": 0.03,
+        "source_locator": "Fig. 5",
+        "reason": "依据Fig. 5图标签delta = 0.03 (3)提取上绝对误差0.03"
+      },
+      {
+        "row_index": 1,
+        "column_index": 5,
+        "old": "Fig. 4",
+        "new": "0.1(2)",
+        "source_locator": "Fig. 4",
+        "reason": "Fig. 4左图中明确标注1055 keV跃迁的混合比标签为delta = 0.1 (2)；原填图号'Fig. 4'遗漏具体数值"
+      },
+      {
+        "row_index": 1,
+        "column_index": 6,
+        "old": null,
+        "new": 0.1,
+        "source_locator": "Fig. 4",
+        "reason": "依据Fig. 4左图标签delta = 0.1 (2)提取中心值0.1"
+      },
+      {
+        "row_index": 1,
+        "column_index": 7,
+        "old": null,
+        "new": 0.2,
+        "source_locator": "Fig. 4",
+        "reason": "依据Fig. 4左图标签delta = 0.1 (2)末位紧凑误差对应提取下绝对误差0.2"
+      },
+      {
+        "row_index": 1,
+        "column_index": 8,
+        "old": null,
+        "new": 0.2,
+        "source_locator": "Fig. 4",
+        "reason": "依据Fig. 4左图标签delta = 0.1 (2)末位紧凑误差对应提取上绝对误差0.2"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/other-daf1f83281-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R046",
+    "doi": "10.1103/PhysRevC.109.024318",
+    "packet": "other-1d0d021330-result.json",
+    "source": {
+      "id": "other-1d0d021330",
+      "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2024_Rahaman et al_Spectroscopic study of K 40.pdf",
+      "doi": "10.1103/PhysRevC.109.024318",
+      "title": "Spectroscopic study of 40K",
+      "sha256": "b5010c6bb7a48625e01ff56741ad919c70f226ca9dfc487fb40c0201a1c15f05",
+      "pages": 13,
+      "acquired_externally": false,
+      "discovery_only": false
+    },
+    "rows_retained": 12,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/other-1d0d021330-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R047",
+    "doi": "10.1103/PhysRevC.110.024324",
+    "packet": "recovered-049-result.json",
+    "source": {
+      "id": "recovered-049",
+      "path": "raw/papers/2024_Chakraborty et al_Exploring the possibility of wobbling motion in Ba 129.pdf",
+      "sha256": "d5729de577067f8afeab771afb51328989772c68962a938d553bccb50f0c0808",
+      "pages": 5,
+      "chars": 22241,
+      "discovery_only": false,
+      "acquired_externally": false,
+      "reused_from_previous_screen": true
+    },
+    "rows_retained": 5,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/recovered-049-vision.json",
+    "parent_rules": {
+      "reanalysis": true,
+      "p_role": "数值校验（转引既有P）"
+    }
+  },
+  {
+    "ref_id": "R048",
+    "doi": "10.1103/PhysRevC.79.047601",
+    "packet": "manual-b11-result.json",
+    "source": {
+      "id": "manual-b11",
+      "path": "raw/papers/2009_Rusev et al_Multipole mixing ratios of transitions in B 11.pdf",
+      "sha256": "acf557c95f557a3de075ae263e2ef3bc9f6b2e3f9e905928445df20fad3896f9",
+      "pages": 4,
+      "chars": 17559,
+      "discovery_only": false,
+      "acquired_externally": false
+    },
+    "rows_retained": 10,
+    "source_corrections": [
+      {
+        "row_index": 1,
+        "column_index": 5,
+        "old": "0.19 ± 0.03",
+        "new": "+0.19(3)",
+        "source_locator": "Table I δe, p.3",
+        "reason": "Table I原文明确标有正号'+0.19(3)^f'（正文第1页亦强调由Rose-Brink约定的负号转换为Krane-Steffen约定的正号），待核对行遗漏了正号。"
+      },
+      {
+        "row_index": 8,
+        "column_index": 5,
+        "old": "-0.05 ± 0.2",
+        "new": "-0.05(20)",
+        "source_locator": "Table I δe, p.3",
+        "reason": "Table I原文为'-0.05(20)^f'，紧凑误差(20)对应中心值末位百分位（即±0.20），原写法'-0.05 ± 0.2'丢失了有效数字末位0。"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/manual-b11-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R049",
+    "doi": "10.1103/PhysRevC.89.024303",
+    "packet": "other-a8cd2e51f6-result.json",
+    "source": {
+      "id": "other-a8cd2e51f6",
+      "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2014_Bisoi et al_High spin spectroscopy in 34 Cl.pdf",
+      "doi": "10.1103/PhysRevC.89.024303",
+      "title": "High spin spectroscopy in {+34}Cl",
+      "sha256": "bc0af718ffb496f135abe2a51b82f87d208776fce155926a8604e8c05d126f85",
+      "pages": 13,
+      "acquired_externally": false,
+      "discovery_only": false
+    },
+    "rows_retained": 4,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/other-a8cd2e51f6-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R050",
+    "doi": "10.1103/PhysRevC.94.024311",
+    "packet": "other-b62e41ef0e-result.json",
+    "source": {
+      "id": "other-b62e41ef0e",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1103_PhysRevC.94.024311.pdf",
+      "doi": "10.1103/PhysRevC.94.024311",
+      "title": "Shape coexistence in {+153}Ho",
+      "sha256": "49f13eabb82749026ef82abd083a01c9370cd4514f649440086c28d0e77b2e0f",
+      "pages": 16,
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 8,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/other-b62e41ef0e-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R051",
+    "doi": "10.1103/physrevlett.114.082501",
+    "packet": "other-3121000b18-result.json",
+    "source": {
+      "id": "other-3121000b18",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1103_physrevlett.114.082501.pdf",
+      "doi": "10.1103/physrevlett.114.082501",
+      "title": "Transverse Wobbling in Pr135",
+      "sha256": "97ceb912c6ae2c185a2a8ac1d3066f24588af146a8307c9d52bc596db330fa80",
+      "pages": 6,
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 3,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/other-3121000b18-vision.json",
+    "parent_rules": {}
+  },
+  {
+    "ref_id": "R052",
+    "doi": "10.1103/PhysRevLett.86.5866",
+    "packet": "other-ae8a7e717a-result.json",
+    "source": {
+      "id": "other-ae8a7e717a",
+      "path": "raw/papers/2001_Ødegård et al_Evidence for the Wobbling Mode in Nuclei.pdf",
+      "doi": "10.1103/physrevlett.86.5866",
+      "title": "Evidence for the Wobbling Mode in Nuclei",
+      "sha256": "0ff38adfcbe031fb21c43b3bba290ca44a21898564bb78cf335fbb47b05ba379",
+      "pages": 4,
+      "acquired_externally": false,
+      "discovery_only": false
+    },
+    "rows_retained": 2,
+    "source_corrections": [
+      {
+        "row_index": 0,
+        "column_index": 20,
+        "old": "Page 5867-5868, Table I",
+        "new": "Page 5867-5869, Table I",
+        "source_locator": "Page 5869, Table I",
+        "reason": "Table I实际位于原文第4页（Page 5869），第5867-5868页为实验测量方法、门条件、自旋排列度σ/I及δ数值的正文描述，定位页码范围应涵盖Page 5867-5869, Table I"
+      }
+    ],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/other-ae8a7e717a-vision.json",
+    "parent_rules": {
+      "average_transition": true
+    }
+  },
+  {
+    "ref_id": "R053",
+    "doi": "10.1140/epja/i2012-12083-8",
+    "packet": "other-f979832578-result.json",
+    "source": {
+      "id": "other-f979832578",
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1140_epja_i2012-12083-8.pdf",
+      "doi": "10.1140/epja/i2012-12083-8",
+      "title": "Band structures and shape coexistence in {+187}Pt",
+      "sha256": "d2dd4273bcef860611e7874d4ae007a3bfdf76b4ac9a0badf5a24582cf54a450",
+      "pages": 13,
+      "acquired_externally": true,
+      "discovery_only": false
+    },
+    "rows_retained": 8,
+    "source_corrections": [],
+    "rows_outside_E2_M1": [],
+    "vision_check": "tmp/pado-collect-20261119/other-f979832578-vision.json",
+    "parent_rules": {}
+  }
+]

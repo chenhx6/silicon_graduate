@@ -1,0 +1,61 @@
+{
+  "status": "first-broad-search-delivered-not-exhaustive",
+  "completed_at": "2026-11-19T03:38:38.706418+00:00",
+  "workbook": "raw/writing/pado/20261029_review_v1/pdm_nuclide_survey_20261119_broad.xlsx",
+  "workbook_sha256": "fabfe4ce12996e2fb80bff6022fe79cd41ef31f4861b02599ddf21ff7838309f",
+  "workbook_validation": {
+    "workbook": "raw/writing/pado/20261029_review_v1/pdm_nuclide_survey_20261119_broad.xlsx",
+    "nuclides": 16,
+    "studies": 15,
+    "nuclide_study_rows": 17,
+    "data_rows": 92,
+    "validation": "passed"
+  },
+  "discovery_identities": 925,
+  "query_requests": 38,
+  "query_status": {
+    "ok": 27,
+    "HTTPError": 3,
+    "ReadTimeout": 6,
+    "ConnectionError": 2
+  },
+  "local_documents_scanned": 250,
+  "local_documents_screened": 117,
+  "acquired_documents_screened": 9,
+  "new_full_pdfs": 8,
+  "new_previews": 12,
+  "new_previews_not_used_as_fulltext": true,
+  "models": {
+    "agy-cli/gemini-3.8-flash": 134
+  },
+  "gemini_completed_calls": 134,
+  "gemini_usage": {
+    "input_tokens": 2519552,
+    "output_tokens": 499343,
+    "total_tokens": 3018895
+  },
+  "reasoning_requested": "high",
+  "archive_manifest": "raw/papers/gpt/query/20261119-pdm-delta-broad/manifest-consolidated.json",
+  "scientific_note": "knowledge/research-notes/pdm-p-joint-broad-survey-20261119.md",
+  "boundaries": [
+    "Not exhaustive: failed WoS pages and inaccessible full texts remain queued.",
+    "NSR homepage tested only; no claim of completed NSR/ENSDF keyword or nuclide coverage.",
+    "Data contains original published values, source figures and reported alternatives, not PDM-derived values.",
+    "No PDM fits performed.",
+    "Old and new non-Gaussian population methods are not counted as unreported assumed-fixed sigma/I."
+  ],
+  "resume": "Use screening-ledger.json and discovery-pool.json to prioritize missing primary papers/SI; do not repeat completed extractions. Rebuild with system/scripts/build_pado_broad_survey.py --data outputs/literature-acquisition/20261119-pado-broad/survey.json --output <new-workbook-path>.",
+  "validation_details": {
+    "original_data_rows": 92,
+    "new_74Br_rows_with_delta_and_P": 18,
+    "new_80Se_rows_with_measured_P": 6,
+    "W75_909_delta_original_sign_and_value": "+0.20",
+    "formula_cells": 0,
+    "data_comments": 0,
+    "hyperlinks": "passed",
+    "xlsx_zip": "passed",
+    "raw_manifest_entries_hash_checked": 28,
+    "source_archive_gate": "passed"
+  },
+  "publication": "local-only research delivery; preexisting workbook generators are untracked and not published as dependencies"
+}

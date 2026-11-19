@@ -1,0 +1,12 @@
+{
+  "checked_manifests": [],
+  "checked_sources": [
+    "/workspace/wiki/knowledge/sources/biswas-2026-o6-like-80se-polarization-mixing.md",
+    "/workspace/wiki/knowledge/sources/guo-petrache-arxiv201200343-183au-polarization-comment.md",
+    "/workspace/wiki/knowledge/sources/williams-1975-low-lying-61ni-polarization.md"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "ok": true,
+  "scope": "paths"
+}

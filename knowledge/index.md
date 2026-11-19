@@ -2,10 +2,27 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-11-14
+updated: 2026-11-19
 ---
 
 # Wiki Index
+
+## 文献收集与深入学习（2026-11）
+
+- [[delta-alignment-extraction-pilot-20261110]] — 早期混合比/取向处理试表，保留历史范围。
+- [[pdco-pdm-response-contract-20261118]] — P–DCO 响应定义和适用条件。
+- [[pdm-five-nuclide-p-survey-20261118]] — 五核初始核素级调查。
+- [[pdm-p-joint-broad-survey-20261119]] — 首轮扩展调查与方法边界。
+- [[polarization-delta-collection-20261119]] — 原文 Nuclide/Data/References 数值与定位表。
+- [[polarization-delta-collection-20261119-source]] — 原件集合、来源依赖与逐文献定位。
+- [[international-thesis-acquisition-20261119-source]] — 学位论文、版本与 HDR 的取得记录，非全文学习认证。
+- [[international-thesis-learning-backlog-20261119]] — 关闭获取后的实际覆盖与学习缺口。
+- [[nuclear-spectroscopy-literature-learning-framework-20261119]] — 深读、核验、迁移与反证框架。
+- [[biswas-2026-o6-like-80se-polarization-mixing]] — 80Se 原文偏振/混合比数据与读取边界。
+- [[guo-petrache-arxiv201200343-183au-polarization-comment]] — 183Au 偏振误差争议的预印本原件。
+- [[mukherjee-2022-shape-coexistence-octupole-72se]] — 72Se 混合比与取向标定的定向核读。
+- [[masiteng-2006-194tl-polarization-lifetime-thesis]] — 194Tl 学位论文的身份及摘要覆盖。
+- [[hungerford-1979-ill-angular-correlation-164dy]] — U001 章节原件与角关联方法范围。
 
 ## A130前置正文重写：样节与一致性
 

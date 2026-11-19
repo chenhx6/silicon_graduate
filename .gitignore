@@ -232,3 +232,47 @@ outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run
 outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run-01/prompt-day29.md
 outputs/literature-acquisition/20261030-workspace-audit/knowledge-artifact-references.tsv
 outputs/literature-acquisition/20261030-workspace-audit/source-raw-reconciliation.tsv
+
+# Local process telemetry and reproducible dissertation build intermediates.
+# These patterns do not untrack existing files or hide knowledge/ and source code.
+/outputs/**/*.local.*
+/outputs/degree-dissertation/**/runtime-model*.json
+/outputs/degree-dissertation/**/provider-incident*.json
+/outputs/degree-dissertation/**/*.aux
+/outputs/degree-dissertation/**/*.bbl
+/outputs/degree-dissertation/**/*.blg
+/outputs/degree-dissertation/**/*.log
+/outputs/degree-dissertation/**/*.out
+
+# Original third-party template snapshots stay local with their tracked manifest.
+/raw/writing/gpt/_archive/20261113-A130-template-original/readme/
+/raw/writing/gpt/_archive/20261113-A130-template-original/removed-demo/
+/raw/writing/gpt/_archive/20261113-A130-template-original/template-documentation/
+/raw/writing/gpt/_archive/20261113-A130-template-original/these_template/
+
+# Literature worker drafts, full-text excerpts and rebuildable inventories.
+# Curated ledgers, final collection data, receipts and delivery workbooks remain visible.
+/outputs/literature-acquisition/**/*gemini-extraction.json
+/outputs/literature-acquisition/20261119-historical-pdf-learning/query-pdf-inventory.json
+/outputs/literature-acquisition/20261119-international-theses/candidate-ledger.json
+/outputs/literature-acquisition/20261119-pado-broad/arxiv-primary-candidates.json
+/outputs/literature-acquisition/20261119-pado-broad/arxiv-screen-result.json
+/outputs/literature-acquisition/20261119-pado-broad/discovery-pool.json
+/outputs/literature-acquisition/20261119-pado-broad/external-complete-result.json
+/outputs/literature-acquisition/20261119-pado-broad/external-discovery-result.json
+/outputs/literature-acquisition/20261119-pado-broad/local-scan.json
+/outputs/literature-acquisition/20261119-pado-broad/new-discovery-*-result.json
+/outputs/literature-acquisition/20261119-pado-broad/query-log.json
+/outputs/literature-acquisition/20261119-pado-broad/screening-ledger.json
+/outputs/literature-acquisition/20261119-pado-external/collection.json
+/outputs/literature-acquisition/20261119-pado-external/quarantine.json
+
+# Unpublished presentation originals, revisions and publisher figure crops.
+# Keep the delivery/validation metadata, not the private deck or visual derivatives.
+/outputs/reports/20261115-introduce/*.pptx
+/outputs/reports/20261115-introduce/*.jpg
+/outputs/reports/20261115-introduce/preview/
+/outputs/reports/20261115-introduce/provenance/
+/outputs/reports/20261115-introduce/build-manifest.json
+/outputs/reports/20261115-introduce/delivery-receipt.json
+/outputs/reports/20261115-introduce/validation.json

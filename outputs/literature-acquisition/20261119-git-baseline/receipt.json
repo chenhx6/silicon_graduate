@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-11-19T14:22:51.524552+00:00",
+  "phase": "baseline-before-Gemini-plan-revision",
+  "stable_pointer": "main / chore: reconcile research baseline and local artifacts",
+  "status": "precommit-validated; final Git outcome stored in ignored receipt.local.json",
+  "original_worktree_entries": 269,
+  "privacy_boundary": "No raw PDF/fulltext snippets/private presentation/source crops published; curated knowledge, scripts, data tables and receipts only",
+  "user_confirmed_cleanup": "User confirmed the pre-existing deletion of raw/writing/gpt/_archive/20261108-A130-before-rewrite/manifest.json; no restoration or additional raw deletion",
+  "normalization": "Source schemas and index links completed without reading-depth promotion; Williams 1975 targeted evidence merged into existing source; legacy archive entries preserved with canonical files-list wrapper",
+  "checks": {
+    "global_lint_before": {
+      "error": 327,
+      "warning": 501
+    },
+    "global_lint_after_normalization": {
+      "error": 129,
+      "warning": 497
+    },
+    "new_scoped_lint_errors": 0,
+    "legacy_global_errors_outside_changed_scope": 129,
+    "remaining_scoped_warnings": "Missing verified citation keys; no guessed BibTeX entries",
+    "archive_gate_new_sources": "passed",
+    "collection_manifest_294_entries": "passed",
+    "python_compile_six_builders": "passed",
+    "workbook_smoke_tests": [
+      "pilot",
+      "review",
+      "nuclide-summary",
+      "broad-survey",
+      "polarization-collection",
+      "original-data-sheet"
+    ]
+  },
+  "plan_boundary": "Initial learning plan is preserved in this baseline; mandatory Gemini supervision contract is the next separate change."
+}

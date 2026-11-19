@@ -1,0 +1,158 @@
+{
+  "records": [
+    {
+      "nuclide": "61Ni",
+      "ref_id": "W77",
+      "method": "角分布系数＋P联合拟合，并加入复合核模型取向约束。",
+      "p_data": "原文表列物理P及误差。",
+      "angular": "a₂、a₄；P在90°测量。",
+      "sigma_reported": "未给σ/I；使用其他布居参数。",
+      "sigma_value": "未给σ/I",
+      "sigma_treatment": "δ与布居参数β、x联合拟合；模型给出取向约束。",
+      "pdm_readiness": "由a₂/a₄重建R_ADO并传播系数误差；核对布居模型。",
+      "locator": "p. 36, Section 2; Table 3, pp. 40-41; Table 4, p. 42",
+      "p_joint_verified": true
+    },
+    {
+      "nuclide": "135Pr",
+      "ref_id": "L22",
+      "method": "P–Rac联合求中心值，再沿观测误差边界扫描求区间。",
+      "p_data": "主文Table 1表列物理P、Rac及误差。",
+      "angular": "分组R_ADO：157.6°/133.6°组与75.5°/104.5°组。",
+      "sigma_reported": "说明了求解方式，未列最终σ/I数值。",
+      "sigma_value": "未列最终值",
+      "sigma_treatment": "中心值与δ联合求解；扫描响应曲线传播误差。",
+      "pdm_readiness": "已有P和Rac；需按实际分组角度及探测器权重计算响应。",
+      "locator": "主文Table 1/Fig.2；补充材料pp.1、4–5。",
+      "p_joint_verified": true
+    },
+    {
+      "nuclide": "187Au",
+      "ref_id": "G22",
+      "method": "P–Rac联合允许区间：逐取向计算曲线，合并允许解。",
+      "p_data": "物理P和Rac主要以图点及误差棒给出。",
+      "angular": "单角R_ADO：154°与90°的效率归一强度比。",
+      "sigma_reported": "有不同取值曲线；不指定最终单值。",
+      "sigma_value": "例：0.2、0.3（图示）",
+      "sigma_treatment": "扫描不同σ/I并合并区间；图示数值不是扫描边界。",
+      "pdm_readiness": "需取得P/Rac原始数值，或数字化图点；已有用户转录可回核。",
+      "locator": "主文Fig.3、p.3；补充材料pp.1–4/Fig.2。",
+      "p_joint_verified": true
+    },
+    {
+      "nuclide": "72Se",
+      "ref_id": "SE22",
+      "method": "ANGCOR计算响应，P–DCO联合χ²拟合。",
+      "p_data": "表列实测不对称度Δ；提供Q标定以得到P。",
+      "angular": "P–DCO：148°与90°；文中另报R_ADO。",
+      "sigma_reported": "明确给出σ/j=0.3。",
+      "sigma_value": 0.3,
+      "sigma_treatment": "由本实验E1跃迁标定后固定。",
+      "pdm_readiness": "先用Δ/Q换算P；使用DCO门条件和响应，检查ΔI=0支持。",
+      "locator": "Table I、II；方法p.7；Fig.7、p.8。",
+      "p_joint_verified": true
+    },
+    {
+      "nuclide": "136Nd",
+      "ref_id": "ND22",
+      "method": "P–Rac响应曲线与实验点联合提取。",
+      "p_data": "主文直接给出P、Rac及误差，Fig.3展示联合分析。",
+      "angular": "P–Rac；测量几何和比值定义转引Ref.[38]。",
+      "sigma_reported": "主文未明确给出σ/I数值。",
+      "sigma_value": "未给出",
+      "sigma_treatment": "主文未具体交代取向处理，引用既有方法。",
+      "pdm_readiness": "P和Rac有数值；需补角度、门定义，再确定PDM积分域与权重。",
+      "locator": "主文Sec.II–III、Fig.3；实验方法Ref.[38]。",
+      "p_joint_verified": true
+    }
+  ],
+  "refs": [
+    {
+      "ref_id": "W77",
+      "doi": "10.1088/0305-4616/3/1/007",
+      "extraction": "Table 3, pp.40-41; method Sec.2, p.36",
+      "local_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/1977_Wadsworth et al_Gamma ray spectroscopy insup61-sup Ni-levels below 2.pdf",
+      "supplement_file": null,
+      "url": "https://iopscience.iop.org/article/10.1088/0305-4616/3/1/007"
+    },
+    {
+      "ref_id": "L22",
+      "doi": "10.1016/j.physletb.2021.136840",
+      "extraction": "Table 1/Fig.2, p.3; SI pp.1,4-5",
+      "local_file": "raw/papers/2022_Lv et al_Evidence against the wobbling nature of low-spin bands in 135Pr.pdf",
+      "supplement_file": "raw/papers/2022_Lv et al_Evidence against the wobbling nature of low-spin bands in 135Pr supplementary.pdf",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0370269321007802"
+    },
+    {
+      "ref_id": "G22",
+      "doi": "10.1016/j.physletb.2022.137010",
+      "extraction": "Fig.3, p.3; SI pp.1-4/Fig.2",
+      "local_file": "raw/papers/2022_Guo et al_Probing the nature of the conjectured low-spin wobbling bands in atomic nuclei3.pdf",
+      "supplement_file": "raw/papers/2022_Guo et al_Probing the nature of the conjectured low-spin wobbling bands in atomic nuclei supplement.pdf",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0370269322001447"
+    },
+    {
+      "ref_id": "SE22",
+      "doi": "10.1103/PhysRevC.105.014322",
+      "extraction": "Table I, p. 5; Sec. II.B, pp. 6-8; Fig. 7, p. 8",
+      "local_file": "raw/papers/gpt/query/20261111-delta-pilot-se72/Mukherjee2022_PhysRevC.105.014322.pdf",
+      "supplement_file": null,
+      "url": "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.105.014322"
+    },
+    {
+      "ref_id": "ND22",
+      "doi": "10.1103/PhysRevC.105.034302",
+      "extraction": "Sec. II, pp. 2-4; Figs. 1-3",
+      "local_file": "raw/papers/2022_Lv et al_Experimental evidence for transverse wobbling bands in Nd 136.pdf",
+      "supplement_file": null,
+      "url": "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.105.034302"
+    }
+  ],
+  "nd_evidence": [
+    {
+      "page": "p. 2",
+      "quote": "The nature of two high-spin bands in 136Nd built on the two-quasiparticle configuration πh2_11/2, predicted by the triaxial projected shell model as good candidates of transverse wobbling bands, are investigated experimentally."
+    },
+    {
+      "page": "p. 3",
+      "quote": "Experimental details can be found in the previous papers reporting results from the same measurement [38,39,41,43], and will not be repeated here. The multipolarity and electromagnetic character of the γ-ray transitions were determined on the basis of the directional correlation from oriented states ratios (RDCO), two-point angular correlation (anisotropy) ratios (Rac), and linear polarization (P), as described in Ref. [38]."
+    },
+    {
+      "page": "p. 4",
+      "quote": "In the present work, a combined linear polarization P and Rac method was used to uniquely extract δ values of the connecting transitions between the one- and zero-phonon wobbling bands, as described in Refs. [46–50]."
+    },
+    {
+      "page": "p. 4-5",
+      "quote": "The measured and calculated values of P and Rac ... are illustrated in Fig. 3."
+    }
+  ],
+  "missing": [
+    "136Nd: inspect Ref.[38] for exact angle groups, ratio and gate definition.",
+    "187Au: obtain original numeric P/Rac or digitize the plotted error bars.",
+    "61Ni: propagate a2/a4 uncertainty and available covariance when reconstructing an angular ratio.",
+    "72Se: propagate Delta/Q calibration uncertainty and use matching DCO response."
+  ],
+  "scope": {
+    "nuclides": [
+      "61Ni",
+      "135Pr",
+      "187Au",
+      "72Se",
+      "136Nd"
+    ],
+    "unit": "one representative P-joint paper per nuclide",
+    "purpose": [
+      "alignment reporting for reviewer response",
+      "PDM input readiness"
+    ],
+    "transition_table": false,
+    "PDM_rerun_performed": false
+  },
+  "parent_corrections": [
+    "Distinguished original coefficient data from a measured two-angle ratio in61Ni.",
+    "Flagged G22 graphic P/Rac inputs instead of claiming precise independent numerical table.",
+    "Required physicalP from Delta/Q in72Se; raw asymmetry is not a directP input.",
+    "Removed erroneous requirement to fix sigma before PDM replay in136Nd.",
+    "Nd sigma statement limited to inspected primary paper; cited methods remain follow-up."
+  ]
+}

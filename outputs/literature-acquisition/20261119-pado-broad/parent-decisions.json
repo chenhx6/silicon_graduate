@@ -1,0 +1,497 @@
+{
+  "local-035": {
+    "accept": true,
+    "keep_rows": [
+      1,
+      3,
+      5
+    ],
+    "record_overrides": {
+      "pdm_readiness": "P与RDCO仅图示；需图数化并核对偏振校准与DCO门响应。",
+      "locator": "p.3 σ/I假定及联合方法；Table 1；Fig.4(g–i)",
+      "p_data": "物理P与RDCO联合图示，未表列数值。"
+    },
+    "audit": "Verified primary p3 fixed sigma/I=.3 and DCO-polarization origin; visually checked Fig4 p4 delta labels. Keep only three explicit P-joint transitions, not standalone AD fits.",
+    "figures": [
+      {
+        "page_index": 3,
+        "clip": [
+          35,
+          55,
+          560,
+          455
+        ],
+        "filename": "la133_fig4.png",
+        "caption": "Biswas2019 · 原文Fig.4（P–DCO）"
+      }
+    ]
+  },
+  "local-036": {
+    "accept": true,
+    "keep_rows": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "ref_id": "T19",
+    "record_overrides": {
+      "method": "DCO给出δ候选，定量P–DCO比较选择分支；不是同时自由拟合。",
+      "sigma_reported": "正文未给σ/I数值；标定取向衰减系数。",
+      "sigma_treatment": "用1100-keV E2与1331-keV E1标定不完全取向衰减系数；未报告σ/I参数化。",
+      "pdm_readiness": "图数化P、RDCO；恢复实际角组、E2门及DCO响应。"
+    },
+    "row_overrides": {
+      "1": {
+        "20": "p.3 Fig.2（原文DCO小根，P不支持）"
+      },
+      "3": {
+        "20": "p.3 Fig.2（原文DCO小根，P不支持）"
+      }
+    },
+    "audit": "Primary PDF p2 calibration and p3 Fig2/text checked; retained all reported branches with original rejection labels; excluded reference 442-keV transition from current P-joint extraction rows.",
+    "figures": [
+      {
+        "page_index": 2,
+        "clip": [
+          75,
+          40,
+          280,
+          342
+        ],
+        "filename": "pd105_fig2.png",
+        "caption": "T19 · 原文Fig.2（P–DCO）"
+      }
+    ]
+  },
+  "local-037": {
+    "accept": true,
+    "keep_rows": [
+      0,
+      1
+    ],
+    "ref_id": "C20",
+    "record_overrides": {
+      "method": "DCO确定δ候选及误差；定量P选择483-keV大δ分支。",
+      "sigma_reported": "所查正文未给；补充材料待核。",
+      "sigma_treatment": "正文未报告；不据此断言固定σ/I。",
+      "pdm_readiness": "483-keV已有P、RDCO；补核角度、门及DCO响应，获取SI。"
+    },
+    "row_overrides": {
+      "0": {
+        "19": "17/2−→13/2− E2门（Fig.3）"
+      },
+      "1": {
+        "19": "17/2−→13/2− E2门（Fig.3）",
+        "20": "p.3 Fig.3及正文（DCO小根，原文P支持大根）"
+      }
+    },
+    "audit": "Primary p3 Table1, Fig3 inset and text checked. Only 483-keV has explicit quantitative P branch discrimination; do not count remaining DCO-only delta rows as P-joint. SI not yet available.",
+    "figures": [
+      {
+        "page_index": 2,
+        "clip": [
+          35,
+          225,
+          290,
+          370
+        ],
+        "filename": "xe127_fig3.png",
+        "caption": "C20 · 原文Fig.3（含P–DCO插图）"
+      }
+    ]
+  },
+  "local-039": {
+    "accept": true,
+    "ref_id": "N20",
+    "record_overrides": {
+      "sigma_reported": "所查正文未给σ/I数值。",
+      "pdm_readiness": "P、RDCO需图数化；核对门响应及评论2012.00343提出的偏振误差问题。"
+    },
+    "row_overrides": {
+      "6": {
+        "9": "Fig.2(j)",
+        "14": "Fig.2(j)",
+        "16": "Fig.2(j)",
+        "20": "p.3 Fig.2(j)"
+      },
+      "7": {
+        "9": "Fig.2(g)",
+        "14": "Fig.2(g)",
+        "16": "Fig.2(g)",
+        "20": "p.3 Fig.2(g)"
+      },
+      "8": {
+        "9": "Fig.2(h)",
+        "14": "Fig.2(h)",
+        "16": "Fig.2(h)",
+        "20": "p.3 Fig.2(h)"
+      },
+      "9": {
+        "9": "Fig.2(i)",
+        "14": "Fig.2(i)",
+        "16": "Fig.2(i)",
+        "20": "p.3 Fig.2(i)"
+      }
+    },
+    "audit": "Visually checked all ten Fig2 delta labels; corrected positive-parity panel mapping: 648(g),701(h),751(i),588(j). No Gaussian alignment value inferred from deformation beta=.30.",
+    "figures": [
+      {
+        "page_index": 2,
+        "clip": [
+          75,
+          420,
+          290,
+          685
+        ],
+        "filename": "au183_fig2.png",
+        "caption": "N20 · 原文Fig.2（P–DCO）"
+      }
+    ]
+  },
+  "local-041": {
+    "accept": true,
+    "ref_id": "D21",
+    "record_overrides": {
+      "sigma_reported": "所查正文未给σ/I数值。",
+      "p_data": "表列偏振不对称度Δ；Q≈0.3（500 keV），不是σ/I。",
+      "pdm_readiness": "需核对原文Δ=P/Q的Q定义再转换P，并恢复DCO响应。"
+    },
+    "row_overrides": {
+      "5": {
+        "19": "889.8（Table1脚注c）"
+      }
+    },
+    "audit": "Primary pp3–4: joint RDCO–asym extraction and Tables1–2 checked. Q≈.3 is polarization sensitivity, not sigma/I. Original equation asym=P/Q retained as unresolved convention; no automatic P conversion. Added1067 gate889.8 from footnote c.",
+    "figures": [
+      {
+        "page_index": 3,
+        "clip": [
+          120,
+          40,
+          480,
+          580
+        ],
+        "filename": "ba133_tables.png",
+        "caption": "D21 · 原文Tables 1、2"
+      }
+    ]
+  },
+  "local-075": {
+    "accept": true,
+    "ref_id": "W75",
+    "doi": "10.1016/0375-9474(75)90487-x",
+    "record_overrides": {
+      "method": "角分布/中子–γ角关联与实测P综合限制δ和自旋；采用布居约束。",
+      "sigma_reported": "未给σ/I；使用其他布居约束。",
+      "sigma_treatment": "符合分析假定m=±1/2；单谱用统计模型限制布居，不等同高斯σ/I固定。",
+      "pdm_readiness": "P有数值；角分布系数/布居响应还需恢复，不能仅用P运行。",
+      "p_data": "6条跃迁实测物理P，正文分项报告。"
+    },
+    "audit": "1975 Williams et al primary15-page paper; Crossref first exact title+author+year verified DOI. Data are reported original numbers/intervals; no invented interval centers. Not the1977 Wadsworth experiment. Parent visual check of Table1 p370 and textp373 corrected fabricated -0.08 to original +0.20(+.16,-.03) for909-keV. Other five delta values checked against Table1 continuation.",
+    "row_overrides": {
+      "0": {
+        "5": "+0.20 (+0.16, -0.03)",
+        "6": 0.2,
+        "20": "Table 1 p.370；Fig.4(a)及正文p.373"
+      }
+    }
+  },
+  "local-090": {
+    "accept": false,
+    "audit": "Retain as method-extension candidate, not in current in-beam PDM main table: radioactive decay gamma-gamma conditional polarization and Akk correlations require a distinct cascade response. Sigma/I not applicable, not an unreported/fixed-alignment example. Negative outer-sign errors in raw Gemini interval offsets not accepted."
+  },
+  "acquired-000": {
+    "accept": true,
+    "ref_id": "B26",
+    "data_replace": "se80-correction-result.json",
+    "keep_rows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "record_overrides": {
+      "method": "实测P与RDCO理论曲线联合比较提取δ（包括ΔI=0与1）。",
+      "sigma_reported": "所查正文未报告σ/I数值。",
+      "pdm_readiness": "6条有表列P、RDCO和Rθ；核对DCO门响应及ΔI=0支持。"
+    },
+    "row_overrides": {
+      "0": {
+        "20": "Table 1, p.4; Fig.2",
+        "18": "RDCO:157°、90°；Rθ:157°、90°各对其余角；P:90°"
+      },
+      "1": {
+        "20": "Table 1, p.4; Fig.2",
+        "18": "RDCO:157°、90°；Rθ:157°、90°各对其余角；P:90°"
+      },
+      "2": {
+        "20": "Table 1, p.4; Fig.2",
+        "18": "RDCO:157°、90°；Rθ:157°、90°各对其余角；P:90°"
+      },
+      "3": {
+        "20": "Table 1, p.4",
+        "18": "RDCO:157°、90°；Rθ:157°、90°各对其余角；P:90°"
+      },
+      "4": {
+        "20": "Table 1, p.4",
+        "18": "RDCO:157°、90°；Rθ:157°、90°各对其余角；P:90°"
+      },
+      "5": {
+        "20": "Table 1, p.4; Fig.2",
+        "18": "RDCO:157°、90°；Rθ:157°、90°各对其余角；P:90°"
+      }
+    },
+    "audit": "Crossref and publisher PDF identity checked. Visually verified Table1 p4 all six rows with measured P. Rtheta added from Table1. Rejected model-invented Fig2 P entries for603.7,826.8,1498.5,2282.4: their P cells are blank; not P-joint input rows. Do not adopt hallucinated title from narrow correction packet.",
+    "figures": [
+      {
+        "page_index": 3,
+        "clip": [
+          45,
+          48,
+          570,
+          423
+        ],
+        "filename": "se80_table1.png",
+        "caption": "B26 · 原文Table 1"
+      }
+    ]
+  },
+  "local-046": {
+    "accept": true,
+    "ref_id": "M23",
+    "keep_rows": [
+      0,
+      3,
+      6
+    ],
+    "record_overrides": {
+      "method": "RDCO–P联合χ²拟合；另报告DCO法及二法平均δ。",
+      "p_data": "表列Δ及误差；Table II、Fig.4给Q校准，不将Δ直接当P。",
+      "sigma_reported": "报告σ/j≈0.35。",
+      "sigma_treatment": "以纯E1实测DCO标定σ/j≈0.35，后续计算采用该值。",
+      "pdm_readiness": "由Δ与原文Q校准恢复P；核对DCO门响应与相关误差。"
+    },
+    "audit": "Primary pp4–6 TablesI–II, Fig6 and calibration inspected. Compact last-digit errors interpreted correctly (e.g.-3.3 +13/-30 means +1.3/-3.0). Keep three explicitly P-joint fits; add author averages separately with source labels.",
+    "add_rows": [
+      [
+        "151Eu",
+        "M23",
+        415.0,
+        "13/2-",
+        "11/2-",
+        "-3.3 (+1.5, -3.3)",
+        -3.3,
+        3.3,
+        1.5,
+        null,
+        "0.038(35)",
+        null,
+        null,
+        "RDCO",
+        "0.44(7)",
+        null,
+        "0.44(7)",
+        "σ/j≈0.35",
+        "RDCO:148°、90°；P:90°",
+        null,
+        "Table I δav（作者二法平均）, p.4"
+      ],
+      [
+        "151Eu",
+        "M23",
+        537.9,
+        "17/2-",
+        "15/2-",
+        "-6.3 (+4.1, -8.8)",
+        -6.3,
+        8.8,
+        4.1,
+        null,
+        "0.024(15)",
+        null,
+        null,
+        "RDCO",
+        "0.54(9)",
+        null,
+        "0.54(9)",
+        "σ/j≈0.35",
+        "RDCO:148°、90°；P:90°",
+        null,
+        "Table I δav（作者二法平均）, p.4"
+      ],
+      [
+        "151Eu",
+        "M23",
+        554.5,
+        "13/2-",
+        "15/2-",
+        "-0.09 (+0.11, -0.14)",
+        -0.09,
+        0.14,
+        0.11,
+        null,
+        "-0.079(28)",
+        null,
+        null,
+        "RDCO",
+        "0.68(10)",
+        null,
+        "0.68(10)",
+        "σ/j≈0.35",
+        "RDCO:148°、90°；P:90°",
+        null,
+        "Table I δav（作者二法平均）, p.4"
+      ]
+    ],
+    "row_overrides": {
+      "0": {
+        "5": "-3.3 (+1.3, -3.0)",
+        "20": "Table I δc；Fig.6（P–DCO）, pp.4,6"
+      },
+      "3": {
+        "5": "-6.3 (+3.3, -8.8)",
+        "20": "Table I δc；Fig.8（P–DCO）, pp.4,7"
+      },
+      "6": {
+        "5": "-0.10 (+0.02, -0.11)",
+        "20": "Table I δc；Fig.10（P–DCO）, pp.4,8"
+      }
+    },
+    "figures": [
+      {
+        "page_index": 4,
+        "clip": [
+          40,
+          50,
+          580,
+          203
+        ],
+        "filename": "eu151_tableII.png",
+        "caption": "M23 · 原文Table II（偏振校准）"
+      },
+      {
+        "page_index": 4,
+        "clip": [
+          310,
+          500,
+          585,
+          750
+        ],
+        "filename": "eu151_fig4.png",
+        "caption": "M23 · 原文Fig.4（Q校准）"
+      }
+    ]
+  },
+  "local-052": {
+    "accept": true,
+    "ref_id": "G24",
+    "data_replace": "br74-joined-result.json",
+    "keep_rows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "supplement_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/实验/2024_Guo et al_Evidence for Chiral Wobbler in Nuclei 1.pdf",
+    "record_overrides": {
+      "method": "P与ADO理论响应联合比较提取δ。",
+      "p_data": "本地SI Table I表列P、Rado与δ；按实测P筛选。",
+      "sigma_reported": "所查正文及SI未报告σ/I数值。",
+      "sigma_treatment": "未报告σ/I数值及最终处理，不据此判为固定。",
+      "pdm_readiness": "18条有P、Rado、δ；仍需核对比值方向、门与响应定义。",
+      "locator": "正文pp.2–3 Fig.3；SI pp.1–2 Table I"
+    },
+    "audit": "Joined primary method evidence with locally recovered three-page SI. Visually inspected TablesI pp1–2, rejected311.4 and343.9: model mistook B(M1) entries .25 and.42 for delta; delta cells blank.18 rows retained. Treat duplicate primary local114 as same paper.",
+    "figures": [
+      {
+        "pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/实验/2024_Guo et al_Evidence for Chiral Wobbler in Nuclei 1.pdf",
+        "page_index": 0,
+        "clip": [
+          95,
+          145,
+          525,
+          795
+        ],
+        "filename": "br74_table1a.png",
+        "caption": "G24 · 原文SI Table I（第1页）"
+      },
+      {
+        "pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/实验/2024_Guo et al_Evidence for Chiral Wobbler in Nuclei 1.pdf",
+        "page_index": 1,
+        "clip": [
+          90,
+          43,
+          525,
+          447
+        ],
+        "filename": "br74_table1b.png",
+        "caption": "G24 · 原文SI Table I（第2页）"
+      }
+    ]
+  },
+  "local-101": {
+    "accept": true,
+    "ref_id": "SU59",
+    "doi": "10.1016/s0031-8914(59)96977-0",
+    "record_overrides": {
+      "sigma_reported": "不适用高斯σ/I；共振态布居。",
+      "sigma_value": "不适用",
+      "sigma_treatment": "0+靶质子俘获共振，m=±1/2布居；不同于重离子高斯σ/I分析。",
+      "pdm_readiness": "由原文角分布恢复比值；核对共振布居及P的约定。"
+    },
+    "row_overrides": {
+      "1": {
+        "20": "Table I p.667；p.668（原文P排除的大x分支）"
+      },
+      "3": {
+        "20": "Table I p.667；p.668（原文P排除的大|x|分支）"
+      },
+      "4": {
+        "20": "Table I p.667；p.669（原文P不支持的小x分支）"
+      },
+      "7": {
+        "20": "Table I p.667；p.669（被排除的3/2+自旋/x分支）"
+      }
+    },
+    "audit": "Crossref exact title/year matches DOI. Primary TableI p667 visually checked P and x values; pp660–661 explicitly define x as E2/M1 amplitude and absence P4 for J3/2. Retain numerical branch selection as a separate method category; sigma/I not applicable, never count as conventional unreported alignment.",
+    "figures": [
+      {
+        "page_index": 8,
+        "clip": [
+          35,
+          30,
+          515,
+          715
+        ],
+        "filename": "suffert_tableI.png",
+        "caption": "SU59 · 原文Table I"
+      }
+    ]
+  },
+  "local-113": {
+    "accept": false,
+    "audit": "Supplement of G24, joined into local052; not an independent paper."
+  },
+  "local-114": {
+    "accept": false,
+    "audit": "Same DOI and primary paper as local052; not another study."
+  }
+}

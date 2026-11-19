@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-11-19T13:23:47.539639+00:00",
+  "user_pdf_files_received": 19,
+  "new_degree_theses_this_delivery": 16,
+  "duplicate_thesis_works": 2,
+  "HDR_materials": 1,
+  "new_degree_theses_total_this_campaign": 39,
+  "degree_thesis_fulltexts_available_in_candidate_pool": 41,
+  "remaining_fulltext_gaps": 9,
+  "candidate_count": 51,
+  "statuses": {
+    "downloaded-identity-checked-thesis": 39,
+    "not-downloaded": 8,
+    "existing-work-additional-edition": 2,
+    "downloaded-HDR-research-material": 1,
+    "downloaded-needs-identity-or-completeness-check": 1
+  },
+  "manifest": "raw/theses/gpt/query/20261119-international-nuclear-structure/manifest-user-recheck.json",
+  "workbook": "outputs/literature-acquisition/20261119-international-theses/international-theses-acquisition-rechecked.xlsx",
+  "learning_boundary": "Acquisition/title/degree/duplicate check only, not full scientific reading."
+}
