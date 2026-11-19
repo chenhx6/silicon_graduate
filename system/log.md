@@ -6252,3 +6252,9 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - 按固定来源核读 PaperQA2、OpenScholar 与 ASReview 后，增加原件段落检索、按证据缺口补查和带标签回放，并接入 `get-paper`、`wiki-evidence-query` 和 REFLECT。原件与输入清单哈希进入回执，设计与来源定位见 `system/workflows/literature-learning.md`。
 - 两篇已归档学位论文共 519 个 PDF 页参与原文定位。补查首两项为 Casarella PDF 112 和首轮未命中的 Ayangeakaa PDF 120，已分别回原页核对。八项新离线回归与 21 项 `get-paper` 回归通过。筛选回放以合成样本验证逐次揭示标签和同一留出池对照。
+
+## 2026-11-20 — Smith2017 fast-timing evidence and conditional inference
+
+- Ten Gemini primary units covered193 uniquePDF pages; two targetedunits returned6answers/sourceparagraphs. FRAME printed/PDF bibliography locator corrected fromcache afteractualPDF188check, noAPIretry. EXPpartial scope closed fromactual resultcases/appendix andboundedabsentgeneralformula, not guessedChapter3continuation. TargetedINTERPRET unread160/162retained ratherthanfalsecompletepagecredit.
+- Source andCFDconcept preserve T1/2/meanlife andTcstatistical-onlyerrors, upperlimits versusfits, energy/event-class walk calibration, adoptedICC/multipolarities andnoP. M1unit, oppositeRME normalization andcross-tableBconversion remain bounded. QTRfit gamma anddifferentcoreenergy freedom do notuniquelymeasure rigidshape. Elementaryhalf-life/detailedbalance/triangle/waveformchecks didnotrun authorATD/CQPC/cascadecode orPDM.
+- Seven primaryPDFsources/1112pages with explicitlimits, wholegoalactive. JoaLjungvall2020HDR(HALdeposit2022),310pages, now actualfirstphase4unitsPDF1-120only;121-310selectedpapers/proposals/CVremainpending. PriorAGATA33pagepreprintisnotautomaticallyequivalenttotheHDRpublishedsection. Noacquisitionrestart,newdaemon orrawchanges; other-session edits preserved/excluded.

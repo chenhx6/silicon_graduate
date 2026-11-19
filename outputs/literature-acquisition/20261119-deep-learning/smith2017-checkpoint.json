@@ -1,0 +1,78 @@
+{
+  "recorded_at": "2026-11-19T20:01:06.974289+00:00",
+  "status": "Smith2017 selected fast-timing and model evidence integrated; whole goal active",
+  "reading_depth": "read; no author-code/event reproduction",
+  "primary_PDF_pages": 193,
+  "cumulative_primary_PDF_sources": 7,
+  "cumulative_primary_PDF_pages": 1112,
+  "page_count_boundary": "Physical reading coverage in this run, not unique works or independent experiments.",
+  "validation": {
+    "automation_preflight": "passed",
+    "boundary": "passed",
+    "own_source_archive_gate": "passed",
+    "scoped_lint_errors": 0,
+    "whole_repo_lint_counts": {
+      "error": 132,
+      "warning": 501,
+      "info": 5482
+    },
+    "unrelated_baseline_errors": 129,
+    "isolated_parallel_errors": 3,
+    "warning": "No verified citation key; not invented",
+    "diff_check": "passed; rerun at staging"
+  },
+  "Gemini_work": {
+    "primary_units": 10,
+    "main_deliverables": 40,
+    "targeted_units": 2,
+    "targeted_deliverables": 6,
+    "returned_completed_API_calls": 12,
+    "network_retries": 0,
+    "full_source_writer_calls": 0
+  },
+  "scope_and_repairs": [
+    "One FRAME printed/PDFbibliography locator corrected from cache after original check",
+    "EXPpartial strictformula questions closed fromactual cases/appendix and explicitabsence, not guessedChapter3continuation",
+    "INTERPRET160/162unread retained; selectedscience accepted, no fulltargetedcoverage certification",
+    "T1/2versusmeanlife/tableunits/oppconversion remain bounded, not silentlyrepaired"
+  ],
+  "knowledge_impact": [
+    "ActualCFD stillrequireswalk calibration, idealtimingtoy notexperimentalzero",
+    "Tc reportedlabel/statisticalonlyerrors andlimits retain meanings",
+    "Adoptedmultipolarity/ICC andtwo purehypotheses notPjointdelta extraction",
+    "CQPCinputfreedom/units/reverseRME preventunique rigidshape inference"
+  ],
+  "next_work": {
+    "source": "hal:tel-03862484v1",
+    "author": "Joa Ljungvall",
+    "document_year": 2020,
+    "HAL_deposit_year": 2022,
+    "total_pages": 310,
+    "actual_first_phase_pages": [
+      1,
+      120
+    ],
+    "actual_first_phase_units": 4,
+    "runtime_entry": "tmp/deep-learning-ljungvall-hdr/run_main.py",
+    "remaining_scope": "139-310 prepared as16individualpaper/proposal/outcomeunits;121-138early3papers alreadyactive. No fullHDRcredit.",
+    "frame_boundary": "Worker reports25middlebibliography pages omitted though manager savedsubmittedpayload iscomplete. Not independently establishedservertruncation. Only those25 supplied in2smaller reference-only units; no successfulbody reread.",
+    "reference_completion_entry": "tmp/deep-learning-ljungvall-hdr/run_reference_completion.py",
+    "remaining_runtime_entry": "tmp/deep-learning-ljungvall-hdr/remaining_after_early.py",
+    "input_chunking": "Remainingphaseusesseparateper-PDF-page input_text; onlysubmissionformat, not proof ofserverreception."
+  },
+  "workflow_improvement": "Updated taskplan5.7: separateprimary/targeted/purewriting, reuse verifiedparagraphs, record missinginputs andtransportcostbounds ratherthan duplicatewhole work.",
+  "publication_pointer": {
+    "branch": "main",
+    "subject": "research: learn Smith2017 fast timing and inference limits"
+  },
+  "excluded_parallel_paths": [
+    "knowledge/research-notes/pdco-pdm-response-contract-20261118.md",
+    "knowledge/sources/book-hamilton-electromagnetic-interaction.md",
+    "knowledge/research-notes/pdm-three-mode-execution-contract-20261120.md",
+    "knowledge/sources/pypi-pdm-packaging-20261120.md",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/"
+  ],
+  "PDM_run": false,
+  "new_acquisition": false,
+  "whole_corpus_complete": false
+}

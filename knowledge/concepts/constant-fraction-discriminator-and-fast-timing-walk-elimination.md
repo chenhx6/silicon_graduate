@@ -3,7 +3,7 @@ type: concept
 title: "Constant fraction discriminator (CFD) amplitude walk elimination and fast-timing resolution"
 aliases: [constant-fraction-discriminator, cfd-timing, time-walk-elimination, fast-timing-resolution, labr3-timing]
 created: 2026-11-03
-updated: 2026-11-03
+updated: 2026-11-20
 status: ai-draft
 review_status: unreviewed
 tags: [fast-timing, cfd, leading-edge-walk, time-jitter, labr3, pmt, in-beam-spectroscopy, electronic-timing]
@@ -29,11 +29,10 @@ In experimental in-beam $\gamma$-ray spectroscopy, measuring sub-nanosecond exci
    - The discriminator triggers at the bipolar zero-crossing time $t_z$, where $V_{\text{CFD}}(t_z) = 0$:
      $$V(t_z - t_d) = f \cdot V(t_z)$$
 
-3. **Optimum Delay Condition**:
-   When the delay time matches the linear portion of the pulse rise:
-   $$t_d = t_r (1 - f)$$
-   the zero-crossing time $t_z$ falls exactly on the steepest slope of the delayed pulse, and $t_z$ becomes **strictly invariant under changes in pulse amplitude $V_0$**:
-   $$\Delta t_{\text{walk}}(\text{CFD}) \equiv 0.0\text{ ps}$$
+3. **Conditional Amplitude Invariance**:
+   For ideal self-similar pulses $V(t)=V_0g(t)$, the amplitude cancels from the zero-crossing equation. This does not require a universal optimum delay. For a linear ramp while both terms remain on the rise,
+   $$t_z=t_d/(1-f),\qquad 0<t_d<(1-f)t_r.$$
+   Equality places the crossing at the original pulse peak, not a generally optimal operating point. Shape changes, noise and discriminator response can leave residual walk; zero in a toy calculation is not zero walk in a detector.
 
 4. **Fast-Timing Resolution Budget**:
    With time walk eliminated, timing resolution is governed by statistical and electronic noise:
@@ -46,21 +45,25 @@ In experimental in-beam $\gamma$-ray spectroscopy, measuring sub-nanosecond exci
 ## Necessary Assumptions
 
 1. **Linear Pulse Scale Invariance**: The pulse shape $V(t) / V_0 = g(t)$ is independent of amplitude (no amplitude-dependent rise time variations or ballistic deficit distortion).
-2. **Proper Fraction and Delay Tuning**: The fraction $f$ and delay $t_d$ satisfy $t_d \le t_r (1 - f)$ so that the zero crossing occurs before the peak of the delayed pulse.
+2. **Proper Fraction and Delay Tuning**: The ramp inequality above belongs to that waveform model. Actual fractions, delays and calibration depend on detector pulse shapes and electronics, not a single universal setting.
 
 ## Discriminating Observables
 
 1. **Suppression of Amplitude Time Walk**:
-   Plotting prompt coincidence time difference $\Delta T = t_{\gamma 1} - t_{\gamma 2}$ versus $\gamma$-ray energy $E_\gamma$ produces a flat horizontal line with CFD, whereas LED produces a curved banana-shaped walk curve.
+   Measure the residual timing centroid versus energy and event class after discrimination. CFD can suppress amplitude walk without producing a perfectly flat real calibration curve.
 2. **Sub-Nanosecond Prompt Coincidence FWHM**:
-   Modern $\text{LaBr}_3(\text{Ce})$ scintillation detectors coupled to fast PMTs and CFDs achieve prompt time resolutions of $\text{FWHM} \approx 150 - 250\text{ ps}$ for $E_\gamma \ge 500\text{ keV}$, enabling direct centroid-shift lifetime measurements down to $\tau \sim 5 - 10\text{ ps}$.
+   Prompt resolution and lifetime precision depend on energy, statistics, calibration, feeding and gates. A coincidence FWHM alone does not establish a universal minimum measurable lifetime.
 3. **Walk Reduction Factor**:
-   Ratio of LED walk to residual CFD walk exceeds $10^4$, verifying exact electronic walk elimination.
+   Report the measured residual and its uncertainty, not a universal reduction ratio or a numerical zero as proof of exact elimination.
 
 ## Supporting Evidence
 
+[[smith-2017-109ru-109tc-fast-timing-thesis]] PDF55-60 describes actual CFD electronics but still requires separate beta and LaBr3 walk calibrations. In that calibration, below 400 keV, full-energy and Compton events have different timing responses. This is direct evidence against equating installed CFD with calibration-free timing, not a contradiction of ideal amplitude cancellation.
+
+The historical simulations below were not rerun or certified as experimental detector performance in this batch. The timing-budget formulas above are an idealized parameterization, not a complete measured resolution model.
+
 1. **Simulation Across 10:1 Dynamic Amplitude Range ($V_0 = 0.5\text{ V} \to 5.0\text{ V}, t_r = 2.0\text{ ns}, f = 0.20$)**:
-   - Optimal delay: $t_d = 2.0 \times (1 - 0.2) = 1.60\text{ ns}$;
+   - Historical chosen delay (not a validated optimum): $t_d = 2.0 \times (1 - 0.2) = 1.60\text{ ns}$;
    - LED trigger time walk ($V_{\text{th}} = 0.1\text{ V}$): $\Delta t_{\text{walk}} = 292.4\text{ ps}$;
    - CFD zero-crossing walk: $\Delta t_{\text{walk}} < 0.001\text{ ps}$ (zero walk to numerical precision!);
    - Walk reduction factor exceeds $2.9 \times 10^6$.
@@ -77,9 +80,13 @@ In experimental in-beam $\gamma$-ray spectroscopy, measuring sub-nanosecond exci
 
 ## Our Current Position
 
-In this wiki, electronic fast-timing walk elimination, CFD delay parameter optimization, and scintillator timing resolution budgets are calculated using Module 103 (`constant_fraction_discriminator_fast_timing_calculator.py`, CLI subcommand `cfd`). For picosecond nuclear state fast timing, CFD processing with $f = 0.20$ and $t_d = t_r(1-f)$ is adopted as the baseline timing protocol.
+The historical implementation reference is Module 103 (`constant_fraction_discriminator_fast_timing_calculator.py`, CLI subcommand `cfd`); it was not executed in this learning batch. Do not adopt its toy fraction/delay as a universally validated experimental protocol. Actual pulse classes, residual walk, prompt response and background gates require calibration.
+
+An explicitly illustrative check uses $g(t)=1-\exp(-t/t_r)$ and gives $t_z=t_r\ln[(\exp(t_d/t_r)-f)/(1-f)]$. With arbitrary $f=0.2$, $t_d=0.4$ns, changing $t_r$ from1ns to2ns shifts the root by about9.44ps. This is a waveform-model counterexample to universal zero walk, not Smith detector inputs or a prediction of its residual.
 
 ## Sources
+
+- [[smith-2017-109ru-109tc-fast-timing-thesis]]: actual CFD, walk calibration and event-class dependence; PDF55-60.
 
 - [[book-wu-nuclear-experiment-methods]]: 吴治华, 《原子核物理实验方法（第三版）》, 原子能出版社 (2005), 第9章 时间测量与定时方法 §9.3, 印刷 pp. 235–256 / PDF pp. 243–264.
 - [[book-wang-particle-detection]]: 汪晓莲, 李澄, 绍明, 陈宏芳, 《粒子探测技术》, 中国科学技术大学出版社 (2009), 第8章 电子学定时与脉冲成形, 印刷 pp. 310–335.

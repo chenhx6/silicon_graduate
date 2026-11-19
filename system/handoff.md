@@ -3,7 +3,18 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
-## Active handoff — 2026-11-20 Casarella集成与Smith2017主读
+## Active handoff — 2026-11-20 Smith2017集成与Ljungvall HDR第一阶段
+
+- Smith2017十主单元/193页已返回，两个定向单元六项答复已集成 [[smith-2017-109ru-109tc-fast-timing-thesis]] 与CFD概念，累计七份主原件/1112个PDF页；整体goal仍active。EXP的partial按实际结果/附录和未给出公式的边界闭环，不假装64-75是Chapter3。INTERPRET自报complete但未处理160/162，两张图主读覆盖仍在，不给补核全覆盖认证。FRAME书目定位只缓存修正，无网络重试。
+- 新增边界：Tc的T1/2、Lifetime/meanlife与lambda=1/136、1/155语境不统一，保留原报及统计-only误差；50us与50ns可能是不同记录层次，未核全硬件，不强判一致或笔误。M1表e2fm4、opp是否已含统计因子、跨表归一未决，不能造转换系数。正文77与TableB3对137.9keV旧文多极性标注不一致；不默认附表alpha都是total。69.1两种多极假设不是已测大E2混合分量。CFD仅在理想自相似波形下抵消振幅，实测walk仍须校准；只做已注明的小型代数，没有作者代码或PDM运行。
+- 当前实际运行 `tmp/deep-learning-ljungvall-hdr/run_main.py`，4单元、并发2，只供HDR PDF1-120（原310页）。作者是 **Joa Ljungvall**，文档2020-02-28、HAL deposit2022-11-21（tel-03862484v1），不是Johan或PhD2022；PDF3起外层printed=PDF-2。PDF121-310的12篇selected publications、OASIS提案、CV及136Sm/不完全熔合实验报告仍必须继续，不以这4单元替代全HDR，不计第八份完成。
+- HDR附文候选身份映射见 `tmp/deep-learning-ljungvall-hdr/embedded-publication-candidates.json`。只命中已有AGATAGANIL source：旧实际读33页预印且publisher equivalence未核、raw状态历史未填充；HDR段204-217含章页与发表版。不能盲跳成同字节已读，也不能计新独立实验；后续按真实版本比较。其它11篇附文仍须逐论文科学学习/留locator，不把目录映射当学习。
+- HDR四主单元已返回，FRAME自报中间25页书目81-105出现`bytes omitted`，provided少25但unread如实列出。管理层保存的161511byte文本含完整25页且无omission marker，无法独立证明是服务端截断还是模型报告问题，不给这些页已读信用。只对81-93、94-105启动两个较小reference-only补单元（`run_reference_completion.py`），不重发成功正文；originalresult/边界见frame-input-boundary.json。书目映射不是被引全文学习，HDR121-310仍未处理。
+- 最新HDR续接：两书目补单元已返回且结构有效，合并已处理页集合为1-120；不能将此写成310页全读。`papers_after_references.py` 已等到补单元终止并启动 `run_papers_early.py`，逐篇处理121-138的Se形状、Fe集度和OUPS三篇附文（并发2），日志early-papers.log；139-310仍待下一批。未来重跑只能跳过成功缓存，附文必须核自己的身份/版本/证据谱系，不用父HDR的HAL号冒充文章DOI。
+- 后续139-310已准备16个逐论文/提案/实验结果单元（`run_remaining.py`，remaining-units.json），不是删掉附录范围。`remaining_after_early.py` 已启动等待前三附文terminal后接续，日志remaining.log；先核活进程/实际packet/result，不重复启动。remaining阶段按PDF页分拆input_text项，保留完整提交hash/分块统计，但这不保证服务端完整接收；仍按worker覆盖/缺页和管理层原页核查验收。AGATA发表版段只同旧已核ledger比较，不冒称本次重读了旧33页预印，也不计新独立实验。
+- Smith预检、路径、原件归档门、定向lint均通过（错误0；129历史+3并行错误隔离）。稳定subject为 `research: learn Smith2017 fast timing and inference limits`，精确发布结果只入local receipt。下一步先查HDR补单元活请求/结果，不重跑成功Smith主读或定向任务。Casarella已push并post-reconcile，见casarella2017-receipt.local.json。并行session增量继续原样隔离，普通未知改动不再反复询问。
+
+### Previous checkpoint — Casarella集成与Smith2017启动
 
 - Casarella已按15主单元/333页及三定向任务七项答复集成 [[casarella-2017-vibrational-phonon-lifetimes-thesis]] 与DSAM概念修订，累计六篇/919个主原件PDF页，整体goal仍active。来源使用Gemini可复用短段与管理层定向订正，不另发全源writer；18次API均HTTP200/completed，无网络重试。
 - METHOD定向返回的PDF118重叠和未供92-93引用保留，不能记成53页补核全读；管理层实际核91-92、112、114-116、118等闭环所选M1/M2内容。原输出不改，wrapper保留结构边界。10-600fs仅理想灵敏区，F约10%误差传播而不是每个tau固定10%；Gamma强度/文献分支/GRID经验区间的边界均入source。CC-GDDISC等义receipt仅缓存规范，不重发。

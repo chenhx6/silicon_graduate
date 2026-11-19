@@ -29,6 +29,7 @@ updated: 2026-11-20
 - [[shimada-2015-angular-momentum-projection-thesis]] — HFB/AMP/GCM、多推转惯量、Mg及三轴模式；纠正完整H、度规与刚体谱的混淆，保留参数搜索和实验偏差。
 - [[ayangeakaa-2013-tidal-waves-chirality-thesis]] — 102Pd原始DSAM寿命、系统误差与公式边界；133Ce的Rang几何、模型/实测分层及版本差异。
 - [[casarella-2017-vibrational-phonon-lifetimes-thesis]] — 160Gd/162Dy的DSAM-INS、GRID谱系与多声子候选；原始限值、文献分支及单位/编号边界。
+- [[smith-2017-109ru-109tc-fast-timing-thesis]] — beta-gamma快定时、109Ru/Tc的半衰期/限值与CQPC输入边界；CFD残余walk、ICC和版本归一需分清。
 
 ## A130前置正文重写：样节与一致性
 

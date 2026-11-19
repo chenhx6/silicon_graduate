@@ -1,6 +1,6 @@
 {
   "created_at": "2026-11-19T14:50:09.195632+00:00",
-  "status": "sixth-source-completed-with-boundaries; corpus-learning-active",
+  "status": "seventh-source-completed-with-boundaries; corpus-learning-active",
   "pdf_files_registered": 1016,
   "provisional_work_groups": 988,
   "grouping_boundary": "Not a verified unique-publication count. Byte grouping and old catalogue associations require own-identity/edition/role/scope audits. Collection sources do not establish individual full reading.",
@@ -25,18 +25,11 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.7274/v979v121d86",
+  "active_source": "bytes:82cb9e44f52530a02e9200ce9828618ce385592261d8d403e0ab3fb0be91d587",
   "active_units": [
-    "SM-FRAME",
-    "SM-FOUND",
-    "SM-EXP",
-    "SM-RU-LOW",
-    "SM-RU-MID",
-    "SM-RU-HIGH",
-    "SM-TC",
-    "SM-DISC",
-    "SM-CQPC",
-    "SM-APPS"
+    "HD-PUB-SE",
+    "HD-PUB-FE",
+    "HD-PUB-OUPS"
   ],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -87,9 +80,21 @@
     "CC-APDYNEG",
     "CC-CORR-STRENGTH",
     "CC-CORR-LINEAGE",
-    "CC-CORR-METHOD"
+    "CC-CORR-METHOD",
+    "SM-FRAME",
+    "SM-FOUND",
+    "SM-EXP",
+    "SM-RU-LOW",
+    "SM-RU-MID",
+    "SM-RU-HIGH",
+    "SM-TC",
+    "SM-DISC",
+    "SM-CQPC",
+    "SM-APPS",
+    "SM-CORR-TIMING",
+    "SM-CORR-INTERPRET"
   ],
-  "completed_full_sources_this_run": 6,
+  "completed_full_sources_this_run": 7,
   "PDM_run": false,
   "new_search_or_download": false,
   "queue_entries_including_closed_gaps": 995,
@@ -97,13 +102,15 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-19T19:23:38.351230+00:00",
+  "updated_at": "2026-11-19T20:10:16.597848+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 919,
-  "current_source_note": "knowledge/sources/casarella-2017-vibrational-phonon-lifetimes-thesis.md",
-  "next_action": "ReadSmith2017 actual193pages/10units; reconcileT1/2versusmeanlife, timewalk, beta-gammafeeding, ICC andCQPCinputs.",
+  "completed_primary_pages_this_run": 1112,
+  "current_source_note": "knowledge/sources/smith-2017-109ru-109tc-fast-timing-thesis.md",
+  "next_action": "HDR first120covered after reference supplementation; first3embeddedpapers121-138thenremaining16units139-310. Remainingrunner waits for3terminalpaperresults and usesper-page textitems. No wholeHDR/source8credit beforeevidenceaudit.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Casarella333primarypages plus selected7targetedanswers accepted; METHODpartialscope retained and original-checked, not falsely allcorrectioninputs read.",
-  "current_source_scientific_acceptance": "primary-reading-in-progress"
+  "last_source_manager_closure": "Smith193primary pages; EXPpartialboundedquestionclosed andINTERPRET160/162unread retained. No silentmeanlifeconversion/modelnormalization; no authorscode run.",
+  "current_source_scientific_acceptance": "HDRpartial; firstphase andearlypapers not full310pages",
+  "current_source_first_phase_submitted_pages": 120,
+  "current_source_first_phase_reported_covered_pages": 120
 }

@@ -1,0 +1,211 @@
+{
+  "recorded_at": "2026-11-19T19:54:56.210097+00:00",
+  "source_note": "knowledge/sources/smith-2017-109ru-109tc-fast-timing-thesis.md",
+  "raw_file": "raw/theses/gpt/query/20261119-international-nuclear-structure/SmithMK012017D.pdf",
+  "raw_sha256": "fa8bc8fa2d6d2056fb62e7b154e204a3d6f59d45c5d8abaac5252eef7a9119a5",
+  "reading_depth": "read",
+  "primary_units": 10,
+  "primary_unique_PDF_pages": 193,
+  "main_deliverables": 40,
+  "targeted_requests": 2,
+  "targeted_deliverables": 6,
+  "attempted_requests": 12,
+  "returned_completed_API_responses": 12,
+  "network_retries": 0,
+  "main_unit_ids": [
+    "SM-FRAME",
+    "SM-FOUND",
+    "SM-EXP",
+    "SM-RU-LOW",
+    "SM-RU-MID",
+    "SM-RU-HIGH",
+    "SM-TC",
+    "SM-DISC",
+    "SM-CQPC",
+    "SM-APPS"
+  ],
+  "targeted_unit_ids": [
+    "SM-CORR-TIMING",
+    "SM-CORR-INTERPRET"
+  ],
+  "locator_repair": {
+    "recorded_at": "2026-11-19T19:28:22.196683+00:00",
+    "original_result_sha256": "40d1777bd0bd0091d4b39cdf2700a0ceff86c12f6e468e402d9e96683bdc313b",
+    "claim_id": "CLM-SM-012",
+    "old_pdf_page": 171,
+    "new_pdf_page": 188,
+    "printed_page": 171,
+    "basis": "Actual suppliedPDF188 containsreference66BucherPRC920643122015, page171printed. No scientific content change or newcall."
+  },
+  "scope_reconciliation": {
+    "primary_EXP_partial": [
+      "EXP3/4 requested formal timing/feeding treatment beyond its allocated47-63; suggested64-75 is actuallyChapter4, notChapter3 continuation. Selected question closed from original54-60,actuallevelcases124-130 andAppendixA; absentgeneralformula not invented."
+    ],
+    "targeted_INTERPRET_reported_unread": [
+      160,
+      162
+    ],
+    "targeted_unit_self_status": "complete",
+    "operational_status": "partial-targeted-page-coverage; selectedscience accepted, modelselfcomplete not fullcorrectioncoverage",
+    "primary_figure_coverage": "160/162 supplied inmainCQPC; not duplicated asnewreading credit"
+  },
+  "manager_key_original_checks": [
+    {
+      "pages": [
+        1,
+        2,
+        18,
+        22,
+        47,
+        64,
+        132,
+        164,
+        169,
+        176,
+        185,
+        188,
+        192
+      ],
+      "item": "OwnMalloryKSmith identity, DOI,193page map and9actualchapterheaders; source125WLi privatecommunication2016, not independentlynewmodeldata."
+    },
+    {
+      "pages": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        63
+      ],
+      "item": "Reported50us event trigger vs50nsStop acceptance; possiblydifferentstages, hardware notcertified. ActualCFD plus measuredwalk, Compton/fullenergy split, no universalPRF threshold."
+    },
+    {
+      "pages": [
+        69,
+        70,
+        78,
+        79,
+        80,
+        82,
+        94,
+        98
+      ],
+      "item": "RuT1/2table,63fit->73limit, tentativeparity andmultipolarity; table276versusbody267not silentlymerged. Differentgate fits notindependentvotes."
+    },
+    {
+      "pages": [
+        123,
+        124,
+        126,
+        127,
+        130
+      ],
+      "item": "TcSchemeimage,Half-lifeheading/Lifetimelabel/statisticalonlyerrors, lambda1/136vs1/155notconsistentifnumbersarehalf; no actualfitterreproduction. Distinctfigure/tablevalues andcensoredlimit retained."
+    },
+    {
+      "pages": [
+        77,
+        78,
+        79,
+        80,
+        184
+      ],
+      "item": "69.1unresolvedICC/twomultipolarityhypotheses,185.1adoptedRef82delta-.25(6),body77callsPenttila137E1 butTableB3M1; alphaknotautomaticallyalphatotal, noPjointfit."
+    },
+    {
+      "pages": [
+        156,
+        158,
+        159,
+        161,
+        163,
+        171
+      ],
+      "item": "QTRfitcoreenergyvsQTDadopted, correlatedparameters andgamma interpretation; M1unit/opp/QTC/cross-table normalization bounds. No assertionauthors definitely omittedspinweights."
+    }
+  ],
+  "source_writing": {
+    "source_writing": "Reused targeted paragraphs with explicit manager edits/template, no full-source writer call",
+    "edits": [
+      "Window stages possibly different, not certified no-typo hardware conclusion",
+      "T1/2 versusmeanlife ambiguity retained, no authorfitter error inferred",
+      "Tc weighted136 isbody, not a directsingle Table4.25entry",
+      "Opp normalization mustcheck, not proof notconverted",
+      "ICCtotal notassumed; body77/TableB3 oldmultipolarity inconsistency retained",
+      "QTR inputasymmetry not uniqueness or absolute modelranking",
+      "No unprovided figures160/162 targeted full-coverage certification",
+      "M1tableunit andacross-table unresolved normalization not silently fixed"
+    ],
+    "unresolved_targeted_pages": [
+      160,
+      162
+    ],
+    "small_algebra_scope": "Only elementary definitions, detailedbalance, trianglecounterexample andidealwaveforms; noPDM/authorcode"
+  },
+  "small_algebra_checks": {
+    "scope": "Elementary half-life/mean-life algebra only; no physicalTcBvalues derived, no authorcode orPDM run.",
+    "identity": "T_half=ln2*tau; lambda=ln2/T_half=1/tau",
+    "example_reported136ps": {
+      "if_half_life_mean_ps": 196.20652556089902,
+      "if_mean_half_life_ps": 94.26801655615256
+    },
+    "rate_error_if_half_life_used_as_mean": 1.4426950408889634,
+    "boundary": "Does not determine what authors fitted. Ambiguoussource values retained asreported; no silentfactor conversion.",
+    "detailed_balance": {
+      "identity": "B(Ji->Jf)=(2Jf+1)/(2Ji+1)*B(Jf->Ji) for the same Hermitian electromagnetic operator and matching convention",
+      "example_Ji_3half_Jf_1half_factor": 0.5,
+      "boundary": "Does not prove whether authors already applied the factor to opp rows."
+    },
+    "triangle_rule": {
+      "proper_necessary_condition": "abs(Ji-Jf)<=lambda<=Ji+Jf",
+      "counterexample": {
+        "Ji": 0.5,
+        "Jf": 0.5,
+        "lambda": 1,
+        "triangle_satisfied": true,
+        "printed_Jf_equals_lambda_plus_Ji": false
+      },
+      "boundary": "Angular momentum condition only; parity and actual matrix element still matter. No nuclear transition strength claimed."
+    },
+    "CFD_illustrative_algebra": {
+      "scope": "Ideal waveform example, not Smith detector inputs/data or authorcode test",
+      "linear_ramp_zero": "t_z=t_d/(1-f) if both compared portions remain linear; t_d<(1-f)*t_r keeps root strictly on risingsegment",
+      "amplitude_independence": "A cancels only for selfsimilar pulses and ideal discrimination",
+      "exponential_rise_zero_ns": {
+        "f": 0.2,
+        "delay_ns": 0.4,
+        "rise_1ns_zero_ns": 0.4791992645286638,
+        "rise_2ns_zero_ns": 0.48864097382834976,
+        "shape_dependent_shift_ps": 9.441709299685963
+      },
+      "conclusion": "Changing normalized shape can move CFDzero even without amplitude change; zero walk is not a realdetector guarantee."
+    }
+  },
+  "rejected_or_bounded_claims": [
+    "InstalledCFD guaranteeszeroenergywalk/no calibration",
+    "50us and50nsare definitelysamegate or definitelytypo-free without hardware",
+    "AllTc reportednumbers shareanadjudicated meanlife convention",
+    "Statistical-onlyerrors include allwalk/feeding systematics",
+    "UnresolvedM1/E2slashis measured componentdecomposition orlargeE2measurement",
+    "Oppstatisticalweight definitelyalreadyor nevercorrected withoutimplementation",
+    "TableM1e2fm4 isverifiedphysicalunit; across-table rescaling guessed",
+    "AuthorQTRoverallbetter certifies allrows or unique rigidshape",
+    "ExperimentalTcB extractedwithoutmeasuredmult/spin",
+    "Allmodelarguments applyto109Tc whenCQPCcoversPd/Ru"
+  ],
+  "usage_reported_successful_responses": {
+    "input_tokens": 420773,
+    "output_tokens": 171222,
+    "total_tokens": 591995
+  },
+  "usage_boundary": "Reportedaliases/tokens, no hiddenbackend/tier certification or enforcedcap guarantee.",
+  "knowledge_impact": "Source andCFDconcept revised; puremathematicalcancellation distinguishedfromexperimentallycalibratedtiming.",
+  "scope_limits": [
+    "No authorATD/CQPC/cascade code or event reanalysis",
+    "No complete externalICC/originalreference/hardware audit",
+    "NoPDM or newacquisition"
+  ],
+  "whole_corpus_complete": false
+}

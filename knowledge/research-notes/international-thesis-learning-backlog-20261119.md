@@ -130,6 +130,30 @@ Smith2017 on109Ru/109Tc fast timing is now in actual193-page10-unit primary
 reading after own identity/hash/header-map checks; its preparation is not a
 seventh source completion.
 
+## Seventh executed reading checkpoint
+
+[[smith-2017-109ru-109tc-fast-timing-thesis]] covers193 primary pages in10
+Gemini units. One FRAME bibliography locator was corrected from printed171
+to actualPDF188 using the supplied original, without another reading call.
+EXP's partial request was closed from actual timing/results/appendix evidence,
+not by inventing a Chapter3continuation atPDF64. Two targeted units returned
+six answers/paragraphs; INTERPRET's unprocessed160/162 figure pages remain
+explicit rather than being counted as additional complete correction reading.
+
+The input-to-shape chain retains T1/2versusmeanlife ambiguity, adopted upper
+limits, statistical-onlyTc errors, competing multipolarity assumptions and
+unresolvedB-table units. A fittedQTR gamma is not a direct rigidity measurement.
+CFD concept claims were corrected: amplitude cancels for ideal selfsimilar
+pulses, but actual energy/event-class walk still requires calibration. Small
+half-life/detailedbalance/triangle/waveform checks did not run authorcode.
+
+Next source is JoaLjungvall's2020HDR (HALdeposit2022),310pages, not a newPhD.
+First four actual API units cover onlyPDF1-120; selectedpublications, proposals
+and CV at121-310 remain pending. ExistingAGATAGANIL source is a33pagepreprint
+with unresolvedpublisher equivalence; theHDR's14pagecontainer section must be
+version-compared, not blindly counted as a new independent experiment or
+silently skipped as byte-identical.
+
 ## Final acquisition closure and learning design
 
 The user has closed further acquisition and requested an in-depth learning
