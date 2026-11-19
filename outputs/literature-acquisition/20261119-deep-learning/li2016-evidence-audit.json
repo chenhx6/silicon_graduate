@@ -1,0 +1,463 @@
+{
+  "recorded_at": "2026-11-19T15:58:41.676459+00:00",
+  "source": "doi:10.7274/6682x348f37",
+  "source_note": "knowledge/sources/li-2016-algebraic-collective-core-quasiparticle-thesis.md",
+  "raw_sha256": "93ec952858b08181114498a1202ade3b7530fcbdf338fdd617d48ab26325beb4",
+  "primary_pages": 111,
+  "units": [
+    {
+      "task_id": "LI16-FOUNDATIONS",
+      "provided_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "image_pages": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "requested_ids": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "returned_ids": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "initial_structural_errors": [],
+      "decision": "accepted-selected-claims-with-boundaries; not blanket admission of every worker claim",
+      "model_reported": "agy-cli/gemini-3.8-flash",
+      "response_status": "completed"
+    },
+    {
+      "task_id": "LI16-CHAINS",
+      "provided_pages": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "image_pages": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "requested_ids": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "returned_ids": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "initial_structural_errors": [],
+      "decision": "accepted-selected-claims-with-boundaries; not blanket admission of every worker claim",
+      "model_reported": "agy-cli/gemini-3.8-flash",
+      "response_status": "completed"
+    },
+    {
+      "task_id": "LI16-PR135",
+      "provided_pages": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "image_pages": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "requested_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5"
+      ],
+      "returned_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5"
+      ],
+      "initial_structural_errors": [],
+      "decision": "accepted-selected-claims-with-boundaries; not blanket admission of every worker claim",
+      "model_reported": "agy-cli/gemini-3.8-flash",
+      "response_status": "completed"
+    },
+    {
+      "task_id": "LI16-PD109",
+      "provided_pages": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "image_pages": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "requested_ids": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5"
+      ],
+      "returned_ids": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5"
+      ],
+      "initial_structural_errors": [],
+      "decision": "accepted-selected-claims-with-boundaries; not blanket admission of every worker claim",
+      "model_reported": "agy-cli/gemini-3.8-flash",
+      "response_status": "completed"
+    },
+    {
+      "task_id": "LI16-ACM",
+      "provided_pages": [
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "image_pages": [
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        101,
+        102,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "requested_ids": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ],
+      "returned_ids": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ],
+      "initial_structural_errors": [
+        "claim_locator"
+      ],
+      "decision": "accepted-selected-claims-with-boundaries; not blanket admission of every worker claim",
+      "model_reported": "agy-cli/gemini-3.8-flash",
+      "response_status": "completed"
+    }
+  ],
+  "correction_calls": [
+    "LI16-R1 (6 items)",
+    "LI16-R2 (5 items)"
+  ],
+  "manager_original_page_checks": [
+    {
+      "pdf_pages": [
+        1,
+        2,
+        3
+      ],
+      "item": "identity-and-rights",
+      "finding": "Repository wrapper DOI and title match PhD title page October2016; wrapper numeric date format not resolved; public-domain wrapper conflicts with all-rights-reserved copyright page. No original PDF publication authorization inferred."
+    },
+    {
+      "pdf_pages": [
+        26,
+        27,
+        28
+      ],
+      "item": "CQPC-inputs",
+      "finding": "Particle/hole A-1/A+1 amplitudes and block Hamiltonian in Eq2.18-2.23; prose first repeats A+1 whereas following definition distinguishes A-1 and A+1. General pairing1.226 is not universal chapter-specific delta."
+    },
+    {
+      "pdf_pages": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "item": "geometry-and-energy-definition",
+      "finding": "PDF29 prose calls perpendicular longitudinal, while diagrams show parallel longitudinal/transverse perpendicular. Eq2.25 displays E(J,nw=0)+E(J+1,nw=0), not usual symmetric J-1/J+1 formula. Preserve literal source and ambiguity; do not repair silently."
+    },
+    {
+      "pdf_pages": [
+        52,
+        53
+      ],
+      "item": "135Pr-inertia-table",
+      "finding": "Eq4.1 Ji=Theta_i(1+cI); Table4.2 visually checked headers J_l,J_m,J_s and values7.4,5.6,1.8,c=.116. Do not silently relabel to m,s,l. Conflicts with J_m>J_s>J_l in background figure captions. Actual implementation unresolved."
+    },
+    {
+      "pdf_pages": [
+        55,
+        56,
+        59
+      ],
+      "item": "135Pr-interpretation",
+      "finding": "QTR upward turn attributed to realignment but actual structural 5qp change outside model; signature partner predicted about500keV high. QTD fit to134Ce gamma staggering yields wrong increasing trend; PDF56 final QTR label is inconsistent with QTD subsection. Model-dependent rigidization interpretation is not direct odd-core shape measurement."
+    },
+    {
+      "pdf_pages": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        68
+      ],
+      "item": "109Pd-fit-versus-test",
+      "finding": "QTR energies explicitly adjusted with correlated single-particle levels/gamma/E2/kappa; QTD core fitted to110Pd. Tables5.4/5.5 retain multiple QTR failures, e.g <.005 E2 versus QTR .017745 and QTD .3; <.00022 M1 versus .004/.052. Both model failures prevent claiming universal QTR agreement."
+    },
+    {
+      "pdf_pages": [
+        86,
+        87
+      ],
+      "item": "conclusion",
+      "finding": "Rigidization and B(M1) diagnostic are author model interpretations/proposed future measurements, not proof of all odd-A rigid cores."
+    },
+    {
+      "pdf_pages": [
+        38,
+        39,
+        40,
+        41,
+        44,
+        94,
+        95
+      ],
+      "item": "chain-scope-and-figure-checks",
+      "finding": "Read actual magnetic-moment argument and gamma~30 exception. B.6(a)113Pd indeed has experimental triangles, unlike B.5(a)111Pd which has yrast only although repeated legend lists modes. Preserve text/figure coverage tension, do not certify wobbling solely by legend. R1-R6 mostly corrected; reject R3 wording objectively exists parameter compensation (unproven hypothesis), R6 assertion a previous attempted axis repair (no such action recorded), and inaccurate fine paragraph labels."
+    },
+    {
+      "pdf_pages": [
+        53,
+        55,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        68
+      ],
+      "item": "last-two-reading-units-manager-decisions",
+      "finding": "Accept PR135 selected table values with actual header roles. Table4.3 last two rows label deltaI2 but have M1 ratios: preserve mismatch without supplying corrected final spins. For PD109 reject claim independent blind validation (fit protocol not established), reject opposite-parity mixing as generic wording (parity sectors must remain distinguished), reject proposed gamma-soft/shape-coexistence alternatives as established facts. No universal model invalidation or significance inferred from disagreement-to-bound ratios."
+    }
+  ],
+  "reading_depth": "read",
+  "not_covered": [
+    "Actual author code and external coefficient implementations",
+    "Numerical reconstruction and convergence tests",
+    "All cited primary experiments and every table cell"
+  ],
+  "main_request_count": 5,
+  "targeted_correction_request_count": 2,
+  "provider_reported_usage": {
+    "input_tokens": 218124,
+    "output_tokens": 162764,
+    "total_tokens": 380888
+  },
+  "cost_boundary": "Provider reported output tokens exceed requested caps; not an enforced monetary or runtime guarantee. Returned alias is not certification of hidden backend or billing tier.",
+  "PDM_run": false,
+  "new_search_or_download": false,
+  "manager_errors": [
+    "Initial view_image request omitted zero padding and failed before reading; corrected path, no artifact modification."
+  ],
+  "scientific_admission_boundary": "Final source and method notes are manager-selected evidence ledger; rejected worker claims and complete responses remain private in tmp, not canonical facts."
+}

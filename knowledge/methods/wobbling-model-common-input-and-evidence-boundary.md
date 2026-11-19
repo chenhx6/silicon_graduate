@@ -4,13 +4,13 @@ title: "冻结对齐摆动模型的共同输入与证据边界"
 aliases: [wobbling common-input audit, frozen-alignment HFA contract]
 method_type: "model-consistency-and-evidence-boundary"
 created: 2026-11-03
-updated: 2026-11-03
+updated: 2026-11-19
 status: active
 review_status: unreviewed
 scope: "Cross-check of A_m/A_s/A_l and J_m/J_s/J_l frozen-alignment harmonic implementations"
 confidence: "high for algebraic cross-checks; low for experimental mode inference"
 tags: [wobbling, transverse-wobbling, longitudinal-wobbling, TiP, common-input, model-boundary]
-sources: [book-petrache-chirality-and-wobbling, book-bohr-mottelson-nuclear-structure-vol2]
+sources: [book-petrache-chirality-and-wobbling, book-bohr-mottelson-nuclear-structure-vol2, li-2016-algebraic-collective-core-quasiparticle-thesis]
 ---
 
 # 冻结对齐摆动模型的共同输入与证据边界
@@ -94,6 +94,27 @@ system/scripts/analysis/odd_a_transverse_longitudinal_wobbling_stability_solver.
 寿命和 feeding 放入共同响应合同，并保存误差和上限。
 
 ## Verification
+
+### Source-Input Audit: Li 2016
+
+[[li-2016-algebraic-collective-core-quasiparticle-thesis]] provides a concrete
+reason not to turn a printed parameter table directly into this page's public
+axis contract. Its Table4.2 (PDF53) labels J_l/J_m/J_s as7.4/5.6/1.8
+hbar-squared/MeV, whereas its background figure captions give J_m>J_s>J_l.
+The printed column identities are preserved; no silent permutation or code
+input adoption is made. Eq.4.1 also distinguishes the reference inertia
+Theta_i from the spin-dependent J_i=Theta_i(1+cI).
+
+Its PDF44 additionally states that QTR B(M1) can be below QTD near gamma=30
+degrees, and becomes larger after gamma is adjusted to fit the wobbling energy.
+Thus neither B(M1) ordering nor rigid-core model preference is a universal
+experimental mode criterion. The comparative inputs and fitted quantities
+must be declared; odd-particle-induced stiffening remains an author model
+interpretation, not a direct measurement of a unique odd-core potential.
+
+The thesis does not add an independent replication of its adopted experimental
+data. None of these reading checks changes the numerical implementations or
+certifies the thesis's actual software.
 
 2026-11-03：
 

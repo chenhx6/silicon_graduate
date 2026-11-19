@@ -1,6 +1,6 @@
 {
   "created_at": "2026-11-19T14:50:09.195632+00:00",
-  "status": "first-source-completed-with-boundaries; overall-plan-partial",
+  "status": "continuous-learning-resumed; Gu2007-primary-reading",
   "pdf_files_registered": 1016,
   "provisional_work_groups": 988,
   "grouping_boundary": "Not a verified unique-publication count. Byte grouping and old catalogue associations require own-identity/edition/role/scope audits. Collection sources do not establish individual full reading.",
@@ -25,16 +25,26 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": null,
-  "active_units": [],
+  "active_source": "doi:10.7274/ht24wh26f5d",
+  "active_units": [
+    "GU07-FOUNDATIONS",
+    "GU07-METHOD",
+    "GU07-TM163",
+    "GU07-TIDAL"
+  ],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
     "SPEC-A01-MADIBA-2008",
     "SPEC-A02-MADIBA-2008",
     "SPEC-A03-MADIBA-2008",
-    "SPEC-A04-MADIBA-2008"
+    "SPEC-A04-MADIBA-2008",
+    "LI16-FOUNDATIONS",
+    "LI16-CHAINS",
+    "LI16-PR135",
+    "LI16-PD109",
+    "LI16-ACM"
   ],
-  "completed_full_sources_this_run": 1,
+  "completed_full_sources_this_run": 2,
   "PDM_run": false,
   "new_search_or_download": false,
   "queue_entries_including_closed_gaps": 995,
@@ -42,11 +52,11 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-19T15:22:24.466291+00:00",
+  "updated_at": "2026-11-19T16:13:30.027828+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 80,
-  "current_source_note": "knowledge/sources/madiba-2008-190tl-dco-polarization-thesis.md",
-  "next_action": "Reconcile actual prior coverage of Li2016 core-quasiparticle-coupling thesis, then process the first genuinely unread unit; no restart of completed Madiba jobs.",
-  "runtime_background_jobs_running": false,
+  "completed_primary_pages_this_run": 191,
+  "current_source_note": "knowledge/sources/li-2016-algebraic-collective-core-quasiparticle-thesis.md",
+  "next_action": "Audit actual Gu2007 returned units against key original pages; keep Li2016 completion.",
+  "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false
 }

@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-11-19T16:15:38.930587+00:00",
+  "status": "source-reading-validated; whole-corpus-incomplete; Gu2007-running",
+  "source_note": "knowledge/sources/li-2016-algebraic-collective-core-quasiparticle-thesis.md",
+  "validation": {
+    "archive_gate": "passed own raw path/hash",
+    "automation_preflight": true,
+    "diff_check": "passed",
+    "scoped_lint_errors": 0,
+    "whole_repo_lint_counts": {
+      "error": 129,
+      "warning": 497,
+      "info": 5482
+    },
+    "unrelated_lint_errors": 129,
+    "new_warning": "No verified citation key for Li2016; not invented"
+  },
+  "publication_pointer": {
+    "branch": "main",
+    "subject": "research: learn Li2016 core coupling and resume archive queue"
+  },
+  "excluded_parallel_changes": [
+    "knowledge/research-notes/pdco-pdm-response-contract-20261118.md",
+    "knowledge/sources/book-hamilton-electromagnetic-interaction.md"
+  ],
+  "parallel_changes_boundary": "User confirmed another window owns these changes; beneficial increments checked and preserved, excluded from this source-learning commit.",
+  "PDM_run": false,
+  "new_acquisition": false,
+  "whole_goal_completed": false
+}

@@ -38,6 +38,20 @@ or PDM calculation was started.
 
 Earlier individually registered partial reading: [[masiteng-2006-194tl-polarization-lifetime-thesis]].
 
+## Second executed reading checkpoint
+
+[[li-2016-algebraic-collective-core-quasiparticle-thesis]] now records full
+primary coverage of PDF1-111 across five main reading units and two targeted
+corrections. Its QTR/QTD comparisons and ACM software description are learned
+with key-page checks, not numerical reproduction. Parameter-sensitive M1
+predictions, unsuccessful transition-strength rows and source-internal
+formula/axis/reference conflicts are retained. The thesis reuses experimental
+inputs; it is not another independent 135Pr polarization measurement.
+
+Next is Gu2007 on TSD, competing particle-hole excitations and tidal waves.
+Its title, degree, original hash and contents were checked; contents inspection
+alone is not a completed reading of its scientific chapters.
+
 ## Final acquisition closure and learning design
 
 The user has closed further acquisition and requested an in-depth learning

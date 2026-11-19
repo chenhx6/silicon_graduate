@@ -1,9 +1,17 @@
 ---
 graph-excluded: true
-updated: 2026-11-19
+updated: 2026-11-20
 ---
 
-## Active handoff — 2026-11-19 深入学习启动与 Madiba 首篇检查点
+## Active handoff — 2026-11-19 持续自主学习，Li2016 检查点
+
+- 2026-11-20用户确认Hamilton来源页与PDCO合同的并行改动来自另一窗口，授权检查后保留有益内容；不再作为未知修改阻塞。已核该两文件diff、Hamilton原件SHA与PDF532/563/564、相关旧源码常数及宽度换算；新增U传播定位、条件/无条件区分和sigma坐标迁移有益，原样保留，未运行PDM或声称新程序已验证。两个文件属于已确认的并行任务成果；后续显式分组，不静默回退或覆盖。旧Hamilton页HAM-3/4/5的绝对化表述并非本次新增，仍需另行按具体claim订正；本次不把有益增量核查冒称全页科学认证。
+- 用户最新明确要求 `$auto $all 持续学习，不要中途停止`；已启用单一原生 active goal，无用户指定token预算。检查点不是整体完成，不恢复旧的五轮停止限制，不重新请求普通研究授权。
+- Madiba80页之后，Li2016博士论文PDF1–111已由Gemini五单元主读、管理层核关键原页并做两次定向订正（25个主任务、11个订正项）。来源 [[li-2016-algebraic-collective-core-quasiparticle-thesis]] 为 `read`，非代码/全形式复现意义的 `deep-read`。共两篇、191页实际覆盖，不把文件登记当完成。
+- 新学习重点：QTR/QTD参数来源不同，B(M1)大小随gamma调整而变；核芯刚化是作者模型解释；109Pd有实测电磁量及多个两模型均不符的上限。保留原惯量轴列、摆动能公式、跃迁自旋和书目编号冲突。拒绝“全文没有B”“配对全篇固定”“已盲测”“作者代码必定正确/错误”等越界断言。
+- 运行账本 `outputs/literature-acquisition/20261119-deep-learning/li2016-evidence-audit.json`；私有输入/响应和可续接代码在 `tmp/deep-learning-li2016/`。已返回请求不重跑。2026-11-20用户明确继续后，Gu2007已实际启动四个不重叠单元的API主读（99页、并发2），进程入口 `tmp/deep-learning-gu2007/run_gu.py`；返回内容仍须核验，不提前标记全文已读。无PDM、无新增下载、无新daemon。
+
+## Previous checkpoint — Madiba 首篇
 
 - 用户已指令“开始”，不是仍停留在合同规划。当前任务是 `outputs/plans/20261119-archive-deep-learning.md`；已登记1016个PDF，形成988个暂定文件/馆藏分组并保留7条关闭获取的缺件，共995条队列。分组不等于已验证独立作品数，整个馆藏学习未完成。
 - 已实际处理 Madiba 2008 190Tl MSc 原件PDF1–80：五个不重叠主阅读单元、25项任务；Gemini主读，管理层核关键原页并定向返工。新来源 [[madiba-2008-190tl-dco-polarization-thesis]] 标为 `read`，不标 `deep-read`：引用原始形式、真实软件/校准实现和事件重分析未完成。DCO和不对称度方法页已加入有边界的实例。
