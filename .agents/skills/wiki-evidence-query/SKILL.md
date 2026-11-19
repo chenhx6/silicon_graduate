@@ -162,6 +162,11 @@ evidence policy, and paper evidence gate as required.
 
 Retrieval routing:
 
+For targeted verification across identified archived PDFs, use the local
+[literature learning workflow](../../../system/workflows/literature-learning.md)
+to locate candidate original pages and follow up on explicit evidence gaps.
+Confirm candidate hits on the original page before using them in an answer.
+
 1. Read known files directly.
 2. Prefer `rg` or fast BM25 for exact nuclei, authors, DOI, citation keys, band
    names, and terms.

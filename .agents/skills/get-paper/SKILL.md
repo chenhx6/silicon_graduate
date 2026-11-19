@@ -97,6 +97,7 @@ python3 .agents/skills/get-paper/scripts/get-paper.py search \
 3. 由 Agent 核验 `rank` 前 5–10 条的标题、摘要和来源记录：必须与主任务的对象、方法、体系、数据或目标直接相关；仅词面相似但
    研究对象不同的论文标为排除。arXiv 预印本与正式发表版按 DOI/标题去重，保留两者来源证据。
 4. 默认只处理前 3–5 篇高相关论文；有大量独立候选时才并行派发筛选，并统一使用同一任务定义。
+5. 大候选池已有明确的正负筛选记录时，可用 [文献筛选回放](../../../system/workflows/literature-learning.md) 的 `screen` 重排同一份搜索清单。相关性标签用于选择下一篇。
 
 ### Step 3. 获取源码或开放全文
 

@@ -6247,3 +6247,8 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - Source uses reused targeted paragraphs and explicit manager edits, no repeated full-source writer. Persisted0+ lifetime limits,1599 same-data manuscript re-evaluation,1535/2181 gamma-gamma strength/branch dependence, originalWeisskopf footer and spin-label discrepancies, and independentGRID versusDSAM provenance. Central-value unit/branch/mixing checks are not event or author-code reproduction.
 - DSAM concept corrected: no universal fixed lifetime window, exact model-free inversion, automatic symmetric lifetime uncertainty or unique wobbling/chirality test; historical toy benchmark not new measured134Ce data. Compared original stopping/feeding treatment withAyangeakaa102Pd;10percentF propagated is not universal10percenttau or the latter's excluded20percent systematic.
 - Six primary sources/919pages accepted with limits, whole archive goal active. Smith2017 MalloryKSmith actual193page10unit primary reading started after ownDOI/hash/header checks, PDF18=printed1; not counted complete. NoPDM, acquisition restart or daemon. Another session's edits preserved and excluded.
+
+## 2026-11-20 — 原文检索与筛选反馈
+
+- 按固定来源核读 PaperQA2、OpenScholar 与 ASReview 后，增加原件段落检索、按证据缺口补查和带标签回放，并接入 `get-paper`、`wiki-evidence-query` 和 REFLECT。原件与输入清单哈希进入回执，设计与来源定位见 `system/workflows/literature-learning.md`。
+- 两篇已归档学位论文共 519 个 PDF 页参与原文定位。补查首两项为 Casarella PDF 112 和首轮未命中的 Ayangeakaa PDF 120，已分别回原页核对。八项新离线回归与 21 项 `get-paper` 回归通过。筛选回放以合成样本验证逐次揭示标签和同一留出池对照。

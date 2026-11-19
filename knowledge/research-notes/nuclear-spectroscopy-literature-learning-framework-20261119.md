@@ -8,7 +8,7 @@ created_from: "User-requested literature acquisition and learning design; scope-
 type: research-note
 title: "核结构文献深入学习：证据链与迁移框架"
 created: 2026-11-19
-updated: 2026-11-19
+updated: 2026-11-20
 tags: [literature-learning, spectroscopy, evidence, research-method]
 ---
 
@@ -56,6 +56,14 @@ P、偏振不对称度与灵敏度，单 γ 角分布与 γγ 方向关联，以
 
 专题综合在证据形成自然闭环时进行，不按固定篇数触发。缺件记录其对结论的
 真实影响，不自动化为用户待办。未经定位的主张和未完成的整篇阅读不伪装完成。
+
+## 已归档原文的再利用
+
+对影响现有判断的具体问题，先在已核对身份的原件中检索候选页，再回到图表、公式或段落核实原作者实际采用的处理。把未闭合处写成可回答的补读问题，并用上一轮原件哈希固定底本。一个例子是分别查找 DSAM 的质心位移如何进入寿命估计，以及停止本领误差在各来源中是传播进估计还是另行讨论。两个问题可能落在不同章节，要求保留量和误差口径各自的原件定位符。
+
+检索验收可以冻结一组已回原页确认的谱学问题，按同一语料与阅读预算衡量决定性原页的命中、易混处理的误判和回读页数。大规模题录筛选则另用已标注候选回放，比较找回同一比例相关论文所需的筛选量。两项评估分别回答原件复用和候选排序问题。[执行工具](../../system/workflows/literature-learning.md)
+
+本地试跑用 [[casarella-2017-vibrational-phonon-lifetimes-thesis]]（333 页）和 [[ayangeakaa-2013-tidal-waves-chirality-thesis]]（186 页）。以估计过程为首问，再定向查误差传播。第二轮的前两项分别为 Casarella PDF 112 和首轮未命中的 Ayangeakaa PDF 120。回原页核对，两处分别说明将衰减因子的不确定度传播到寿命，以及所报告的寿命不确定度未纳入停止本领模拟的系统误差。这个案例验证了补查能定位决定性原页。系统性性能比较仍需独立问题集。
 
 ## 可复用的 worker 监督方法
 
