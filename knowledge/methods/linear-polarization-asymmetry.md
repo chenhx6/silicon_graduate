@@ -3,7 +3,7 @@ type: method
 title: 线偏振不对称分析
 aliases: [linear polarization asymmetry, polarization asymmetry, Delta asym]
 created: 2026-07-01
-updated: 2026-10-20
+updated: 2026-11-19
 status: active
 review_status: unreviewed
 method_type: gamma-ray-polarimetry
@@ -11,6 +11,23 @@ tags: [multipolarity, electric-magnetic-character]
 ---
 
 # 线偏振不对称分析（Linear Polarization Asymmetry）
+
+## 190Tl 学位论文的量与约定实例
+
+[[madiba-2008-190tl-dco-polarization-thesis]] 在 Eq.(2.32) 使用
+`A_P=(a*N_perp-N_parallel)/(a*N_perp+N_parallel)`；因此在同一 null 样本、
+同一选择条件下要求 `A_P=0`，该约定的 `a=N_parallel,0/N_perp,0`。
+若另一式把因子乘在平行项，其因子取倒数，不能只复制符号 `a` 而不复制估计量。
+这是定义的代数核验，不是该实验的实际校准结果。
+
+论文实际分析 Eq.(4.5) 写为不含显式 `a` 的计数不对称度；如何在此前处理几何校正
+未被充分报告，不能据此断定整实验没有校准。其借用文献灵敏度 `Q` 的条件比较、
+实测 `A_P`、理论物理偏振 `P` 与角分布系数 `a2/a4` 仍是不同层次（PDF pp.34,52,59–61）。
+
+Table 5.1 是纯多极的参考计算，stretched 与 unstretched 偶极的偏振符号可相反；
+Fig.5.8 还显示单个 `P` 对应多个 delta。实际工作用 DCO/不对称度约束性质与指认，
+没有逐条数值 delta 拟合。带有取向参数的参考图不能单独证明作者实施了固定该参数
+的数值混合比提取。
 
 ## 同参考校准的计数与误差门
 

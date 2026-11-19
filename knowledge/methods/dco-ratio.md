@@ -3,7 +3,7 @@ type: method
 title: DCO 比值分析
 aliases: [DCO ratio, RDCO, directional correlation from oriented states]
 created: 2026-07-01
-updated: 2026-10-18
+updated: 2026-11-19
 status: active
 review_status: unreviewed
 method_type: gamma-ray-angular-correlation
@@ -83,6 +83,18 @@ R_DCO 的“dipole≈0.5 / quadrupole≈1”等经验值只对特定门和几何
 [[lv-2021-tilted-precession-135nd]] 以 157.6° tapered 对 75.5°、104.5° clover 非对称矩阵提取 `R_DCO`。其阵列标定在 stretched-quadrupole gate 下给出 quadrupole/dipole 约 1/0.46，在 stretched-dipole gate 下给出 dipole/quadrupole 约 1/2.1；这些经验值只适用于该 geometry 与 gate convention。
 
 ## Sources
+
+### 190Tl 的实际门条件与定义对账
+
+[[madiba-2008-190tl-dco-polarization-thesis]] 的四极门下交叉/直接跃迁类别均值为
+`0.99(7)/0.58(5)`，偶极门下为 `1.62(6)/0.98(8)`（PDF pp.55,57）。
+这是该阵列、门和所选跃迁的作者报告，不是可跨阵列套用的阈值；括号误差的均值
+构造未被重新确定。该源 Fig.5.1 的 `sigma/I=0.29,0.33,0.36` 是参考曲线族，
+不等于论文给出了逐条数值 delta 的估计。
+
+同源 PDF p.27 的 Eq.(2.23) 与 Eq.(2.24) 按其各自文字给出的光子/门角色对应为
+倒数，不能直接视为同一个分式；实际分析需跟踪 PDF pp.49–50 的矩阵及 Eq.(4.3)。
+此定义对账不等于判定全部实测 DCO 无效。
 
 - [[chakraborty-2023-131xe-wobbling-origin]]
 - [[domscheit-1999-triaxial-superdeformation-163lu]]

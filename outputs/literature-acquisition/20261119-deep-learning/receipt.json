@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-11-19T15:22:24.466291+00:00",
+  "status": "scientific-checkpoint; global plan remains partial",
+  "plan": "outputs/plans/20261119-archive-deep-learning.md",
+  "corpus_pdf_files_registered": 1016,
+  "provisional_pdf_groups": 988,
+  "queue_entries_including_seven_closed_gaps": 995,
+  "identity_reconciliation_complete": false,
+  "primary_source": "W2152728397",
+  "source_note": "knowledge/sources/madiba-2008-190tl-dco-polarization-thesis.md",
+  "source_reading_depth": "read",
+  "primary_source_pages": 80,
+  "original_reading_units": 5,
+  "requested_scientific_deliverables": 25,
+  "correction_problem_ids_returned": 18,
+  "Gemini_requests_returned": 12,
+  "provider_reported_usage_sum": {
+    "input_tokens": 243214,
+    "output_tokens": 331375,
+    "total_tokens": 574589
+  },
+  "model_identity_boundary": "Requested route and reported alias recorded, not independently verified hidden model/billing tier.",
+  "private_source_packets": "tmp/deep-learning-20261119; not published",
+  "not_done": [
+    "remaining corpus learning",
+    "original cited-formalism verification",
+    "raw-event reproduction",
+    "PDM fitting",
+    "new external acquisition",
+    "background scheduling"
+  ],
+  "publication": "pending-scoped-checks; final Git result in ignored receipt.local.json",
+  "overview_update": "deferred: first single source only; thematic multi-source reflection not yet due",
+  "runtime_state": "no Gemini requests or background jobs running at this checkpoint",
+  "validation": {
+    "source_archive_gate": "passed",
+    "source_raw_SHA": "verified",
+    "global_lint": {
+      "error": 129,
+      "warning": 496,
+      "info": 5482
+    },
+    "task_lint_errors": 0,
+    "task_lint_warning": "No verified BibTeX key for this thesis; no key invented.",
+    "input_coverage": "5 units and 25 IDs reconcile; supplied page union exactly1-80; scientific scope remains source read, not deep-read",
+    "mathematical_checks": "Declared factorized-count cancellation and six rounded pure-transition coefficient checks passed; not experiment or PDM",
+    "scope": "No raw PDF or original overwritten; no model responses/source-page excerpts published",
+    "automation_preflight": "passed"
+  }
+}

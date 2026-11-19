@@ -16,6 +16,26 @@ tags: [theses, literature-learning]
 
 Source: [[international-thesis-acquisition-20261119-source]].
 
+## First executed reading checkpoint
+
+[[madiba-2008-190tl-dco-polarization-thesis]] is now recorded as `read`: PDF1-80
+were supplied across five reading units, followed by original-page checks of
+key definitions, figures and result tables. Original-formalism citations,
+actual calibration implementation and event-level reproduction remain outside
+this statement. This is one source, not completion of the corpus.
+
+Its sigma/I values belong to theoretical reference curves; the thesis does
+not report a numerical delta fit for each transition. DCO/observed asymmetry
+support classification and assignment with explicit limitations. Merely
+seeing P-delta curves and sigma/I labels does not establish a final
+fixed-sigma numerical mixing-ratio estimator.
+
+Execution state and the next genuinely unread unit are recorded in
+`outputs/literature-acquisition/20261119-deep-learning/progress.json`.
+The provisional queue registers files and source associations, not an
+independently verified count of unread articles. No background scheduler
+or PDM calculation was started.
+
 Earlier individually registered partial reading: [[masiteng-2006-194tl-polarization-lifetime-thesis]].
 
 ## Final acquisition closure and learning design

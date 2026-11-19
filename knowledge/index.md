@@ -23,6 +23,7 @@ updated: 2026-11-19
 - [[mukherjee-2022-shape-coexistence-octupole-72se]] — 72Se 混合比与取向标定的定向核读。
 - [[masiteng-2006-194tl-polarization-lifetime-thesis]] — 194Tl 学位论文的身份及摘要覆盖。
 - [[hungerford-1979-ill-angular-correlation-164dy]] — U001 章节原件与角关联方法范围。
+- [[madiba-2008-190tl-dco-polarization-thesis]] — 首篇完整正文阅读：190Tl 实验链、门依赖、不对称度与指认边界；形式定义原始出处尚待核对。
 
 ## A130前置正文重写：样节与一致性
 

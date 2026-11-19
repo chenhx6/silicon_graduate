@@ -3,7 +3,17 @@ graph-excluded: true
 updated: 2026-11-19
 ---
 
-## Active handoff — 2026-11-19 Git 基线与 Gemini 阅读监督合同
+## Active handoff — 2026-11-19 深入学习启动与 Madiba 首篇检查点
+
+- 用户已指令“开始”，不是仍停留在合同规划。当前任务是 `outputs/plans/20261119-archive-deep-learning.md`；已登记1016个PDF，形成988个暂定文件/馆藏分组并保留7条关闭获取的缺件，共995条队列。分组不等于已验证独立作品数，整个馆藏学习未完成。
+- 已实际处理 Madiba 2008 190Tl MSc 原件PDF1–80：五个不重叠主阅读单元、25项任务；Gemini主读，管理层核关键原页并定向返工。新来源 [[madiba-2008-190tl-dco-polarization-thesis]] 标为 `read`，不标 `deep-read`：引用原始形式、真实软件/校准实现和事件重分析未完成。DCO和不对称度方法页已加入有边界的实例。
+- 已拒绝或订正：联合观测自动唯一delta、a校准缺省就证明实验错误、常数效率记述不同就证明全部DCO无效、a因子倒数、参考图目估值、把未确认改写为作者否定、凭空添加旋称伙伴及PDM缩写误释。主阅读与返工共11次API返回，另1次基于已核账本编写来源；编写结果的JSON转义和YAML数组格式由管理层修复，未重跑全文。实际请求/响应alias与usage在回执中，不认证不可见后端/计费层级。
+- 主要学习结果：该源报告sigma/I参考曲线族（Fig5.1为.29/.33/.36，Fig5.8为.3），但未报告逐跃迁数值delta拟合；AP不等于已校准P，本文主要作性质及spin/parity指认。Band5的同位素归属/绝对Jpi未定；内部图表/正文差异保留，不擅判哪边真。
+- 运行入口：`outputs/literature-acquisition/20261119-deep-learning/progress.json`、`reading-queue.jsonl`、`madiba-evidence-audit.json`。原文页/图、完整模型响应和完整scope缓存仅在被忽略的tmp/与.local文件，不发布原文摘录。`tmp/deep-learning-20261119`为已完成缓存；不要重跑correct_units.py/correct_more.py或source writer造成重复调用。
+- 下一步：先核Li2016核芯-准粒子耦合论文实际既有覆盖，再选真正未读单元；当前没有后台模型任务、daemon或PDM计算运行。不能把本检查点当全馆藏完成或承诺后台自动继续。首篇只做knowledge impact，不机械生成多来源REFLECT；overview待自然主题阶段再更新。
+- 本轮检查与精确Git结果见 `outputs/literature-acquisition/20261119-deep-learning/receipt.local.json`。全库129项既有范围外lint错误仍需单列，不能宣称全库绿；来源缺verified citation key不编造条目。
+
+## Previous handoff — 2026-11-19 Git 基线与 Gemini 阅读监督合同
 
 - 用户要求先整理并发布 Git 基线，再修改深入学习计划的 Gemini 派发方式。第一阶段已按显式文件清单提交并推送，稳定指针 `main / chore: reconcile research baseline and local artifacts`；提交后核对工作树干净。精确 Git 结果在 `outputs/literature-acquisition/20261119-git-baseline/receipt.local.json`。
 - 用户明确确认旧 `raw/writing/gpt/_archive/20261108-A130-before-rewrite/manifest.json` 是其自行清理的垃圾文件，已保留该删除并提交；没有恢复旧原件或删除额外材料。下方旧交接中“不提交这项删除”的保护仅为历史状态，不再要求重复询问。

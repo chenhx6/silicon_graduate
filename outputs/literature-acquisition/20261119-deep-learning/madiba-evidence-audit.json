@@ -1,0 +1,749 @@
+{
+  "recorded_at": "2026-11-19T15:10:46.186747+00:00",
+  "source": "W2152728397",
+  "primary_pages": 80,
+  "units": [
+    {
+      "task_id": "SPEC-A00-MADIBA-2008",
+      "work_id": "W2152728397",
+      "state": "accepted-with-explicit-boundaries",
+      "provided_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "image_pages": [
+        3,
+        11,
+        12,
+        15,
+        17,
+        18,
+        20,
+        21,
+        22,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "requested_item_ids": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ],
+      "returned_item_ids": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ],
+      "structure": "passed",
+      "evidence_correction": "SPEC-A00-MADIBA-2008-R1",
+      "limits": "Original-formalism crosschecks, actual software/calibration and raw counts not reconstructed; unsupported causal or typographic certainty excluded."
+    },
+    {
+      "task_id": "SPEC-A01-MADIBA-2008",
+      "work_id": "W2152728397",
+      "state": "accepted-with-explicit-boundaries",
+      "provided_pages": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        33,
+        34,
+        35,
+        36
+      ],
+      "image_pages": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        33,
+        34,
+        35,
+        36
+      ],
+      "requested_item_ids": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ],
+      "returned_item_ids": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ],
+      "structure": "passed",
+      "evidence_correction": "SPEC-A01-MADIBA-2008-R1",
+      "limits": "Original-formalism crosschecks, actual software/calibration and raw counts not reconstructed; unsupported causal or typographic certainty excluded."
+    },
+    {
+      "task_id": "SPEC-A02-MADIBA-2008",
+      "work_id": "W2152728397",
+      "state": "accepted-with-explicit-boundaries",
+      "provided_pages": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "image_pages": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        46,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "requested_item_ids": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "returned_item_ids": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "structure": "passed",
+      "evidence_correction": "SPEC-A02-MADIBA-2008-R1",
+      "limits": "Original-formalism crosschecks, actual software/calibration and raw counts not reconstructed; unsupported causal or typographic certainty excluded.",
+      "additional_correction": "SPEC-A02-MADIBA-2008-R2",
+      "excluded_extraneous_response": "R2 included an unrequested incorrect PDM acronym expansion; not accepted or promoted. Accepted only the source-backed a normalization/null check and calibration boundary."
+    },
+    {
+      "task_id": "SPEC-A03-MADIBA-2008",
+      "work_id": "W2152728397",
+      "state": "accepted-with-explicit-boundaries",
+      "provided_pages": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "image_pages": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "requested_item_ids": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5"
+      ],
+      "returned_item_ids": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5"
+      ],
+      "structure": "passed",
+      "evidence_correction": "SPEC-A03-MADIBA-2008-R1",
+      "limits": "Original-formalism crosschecks, actual software/calibration and raw counts not reconstructed; unsupported causal or typographic certainty excluded."
+    },
+    {
+      "task_id": "SPEC-A04-MADIBA-2008",
+      "work_id": "W2152728397",
+      "state": "accepted-with-explicit-boundaries",
+      "provided_pages": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "image_pages": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78
+      ],
+      "requested_item_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5"
+      ],
+      "returned_item_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5"
+      ],
+      "structure": "passed",
+      "evidence_correction": "SPEC-A04-MADIBA-2008-R1",
+      "limits": "Original-formalism crosschecks, actual software/calibration and raw counts not reconstructed; unsupported causal or typographic certainty excluded."
+    }
+  ],
+  "gate_boundary": "Requested and returned IDs/pages reconcile; this is not proof of cognition. Key source pages were checked by the manager. Only vetted conclusions are promoted.",
+  "manager_errata": {
+    "recorded_at": "2026-11-19T14:50:15.825524+00:00",
+    "task_id": "SPEC-A04-MADIBA-2008",
+    "actor": "manager",
+    "issue": "Some task subitem page references were one page late; supplied full PDF62-80 range does contain all intended material. Do not blame worker for these instruction errors.",
+    "correct_mapping": {
+      "Band5_and_Table6.7": 76,
+      "Chapter7_summary": 77,
+      "References": [
+        78,
+        79,
+        80
+      ]
+    },
+    "required_action": "Audit actual source locators; correct manager mapping. If response follows the wrong page labels, issue targeted source-backed correction without re-reading accepted units.",
+    "additional_manager_erratum": {
+      "task_id": "SPEC-A03-MADIBA-2008",
+      "requested_item": "D4",
+      "given_page": 61,
+      "actual_Table5_1_page": 59,
+      "boundary": "Supplied PDF54-61 includes the actual table. Worker correctly located it; not a worker coverage error."
+    },
+    "manager_preparation_error": {
+      "stage": "first R2 construction before any HTTP request",
+      "error_type": "KeyError",
+      "cause": "Correction result uses revised_claims, not original claims key",
+      "resolution": "Correction transport accepts both shapes; rerun sent once; not counted as a failed model call."
+    }
+  },
+  "mathematical_checks": {
+    "check_type": "declared mathematical consistency checks only; not PDM or raw-data analysis",
+    "factorized_joint_count_model": {
+      "assumptions": [
+        "same exposure and selections",
+        "separable efficiencies",
+        "same energy-independent relative factor c for both photons"
+      ],
+      "formula": "Y_ab/Y_ba=(W_ab/W_ba)*[epsilon_135(E1)epsilon_90(E2)]/[epsilon_90(E1)epsilon_135(E2)]",
+      "tests": [
+        {
+          "c": "3/4",
+          "joint_count_ratio": "3/5",
+          "true_W_ratio": "3/5",
+          "equal": true
+        },
+        {
+          "c": "13/10",
+          "joint_count_ratio": "3/5",
+          "true_W_ratio": "3/5",
+          "equal": true
+        },
+        {
+          "c": "4/3",
+          "joint_count_ratio": "3/5",
+          "true_W_ratio": "3/5",
+          "equal": true
+        }
+      ],
+      "boundary": "Constant cancellation neither certifies actual efficiencies nor resolves the thesis calibration/normalization record."
+    },
+    "pure_transition_table_checks": [
+      {
+        "type": "stretched E1",
+        "from_rounded_coefficients": 0.26863021805435433,
+        "reported_table": 0.2687,
+        "absolute_difference": 6.978194564566387e-05,
+        "boundary": "Rounded a2/a4 and tabulated P are not an exact unrounded identity test; no experimental P fit."
+      },
+      {
+        "type": "stretched M1",
+        "from_rounded_coefficients": -0.26863021805435433,
+        "reported_table": -0.2687,
+        "absolute_difference": 6.978194564566387e-05,
+        "boundary": "Rounded a2/a4 and tabulated P are not an exact unrounded identity test; no experimental P fit."
+      },
+      {
+        "type": "unstretched E1",
+        "from_rounded_coefficients": -0.6421027072963458,
+        "reported_table": -0.642,
+        "absolute_difference": 0.00010270729634576092,
+        "boundary": "Rounded a2/a4 and tabulated P are not an exact unrounded identity test; no experimental P fit."
+      },
+      {
+        "type": "unstretched M1",
+        "from_rounded_coefficients": 0.6421027072963458,
+        "reported_table": 0.642,
+        "absolute_difference": 0.00010270729634576092,
+        "boundary": "Rounded a2/a4 and tabulated P are not an exact unrounded identity test; no experimental P fit."
+      },
+      {
+        "type": "stretched E2",
+        "from_rounded_coefficients": 0.47392330912460023,
+        "reported_table": 0.4738,
+        "absolute_difference": 0.0001233091246002349,
+        "boundary": "Rounded a2/a4 and tabulated P are not an exact unrounded identity test; no experimental P fit."
+      },
+      {
+        "type": "stretched M2",
+        "from_rounded_coefficients": -0.47392330912460023,
+        "reported_table": -0.4738,
+        "absolute_difference": 0.0001233091246002349,
+        "boundary": "Rounded a2/a4 and tabulated P are not an exact unrounded identity test; no experimental P fit."
+      }
+    ]
+  },
+  "calls": [
+    {
+      "unit": "SPEC-A00-MADIBA-2008-R1",
+      "requested_model": "agy-cli/gemini-3.8-flash",
+      "actual_model_reported": "agy-cli/gemini-3.8-flash",
+      "requested_reasoning": "high",
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 17730,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 13890,
+        "output_tokens_details": {
+          "reasoning_tokens": 11387
+        },
+        "total_tokens": 31620
+      },
+      "reasoning_field_reported": null,
+      "boundary": "Provider-reported fields; no hidden backend or billing-tier certification."
+    },
+    {
+      "unit": "SPEC-A00-MADIBA-2008",
+      "requested_model": "agy-cli/gemini-3.8-flash",
+      "actual_model_reported": "agy-cli/gemini-3.8-flash",
+      "requested_reasoning": "high",
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 29793,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 32147,
+        "output_tokens_details": {
+          "reasoning_tokens": 20832
+        },
+        "total_tokens": 61940
+      },
+      "reasoning_field_reported": null,
+      "boundary": "Provider-reported fields; no hidden backend or billing-tier certification."
+    },
+    {
+      "unit": "SPEC-A01-MADIBA-2008-R1",
+      "requested_model": "agy-cli/gemini-3.8-flash",
+      "actual_model_reported": "agy-cli/gemini-3.8-flash",
+      "requested_reasoning": "high",
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 21518,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20573,
+        "output_tokens_details": {
+          "reasoning_tokens": 15894
+        },
+        "total_tokens": 42091
+      },
+      "reasoning_field_reported": null,
+      "boundary": "Provider-reported fields; no hidden backend or billing-tier certification."
+    },
+    {
+      "unit": "SPEC-A01-MADIBA-2008",
+      "requested_model": "agy-cli/gemini-3.8-flash",
+      "actual_model_reported": "agy-cli/gemini-3.8-flash",
+      "requested_reasoning": "high",
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 19632,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 30359,
+        "output_tokens_details": {
+          "reasoning_tokens": 15989
+        },
+        "total_tokens": 49991
+      },
+      "reasoning_field_reported": null,
+      "boundary": "Provider-reported fields; no hidden backend or billing-tier certification."
+    },
+    {
+      "unit": "SPEC-A02-MADIBA-2008-R1",
+      "requested_model": "agy-cli/gemini-3.8-flash",
+      "actual_model_reported": "agy-cli/gemini-3.8-flash",
+      "requested_reasoning": "high",
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 24482,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 19089,
+        "output_tokens_details": {
+          "reasoning_tokens": 15418
+        },
+        "total_tokens": 43571
+      },
+      "reasoning_field_reported": null,
+      "boundary": "Provider-reported fields; no hidden backend or billing-tier certification."
+    },
+    {
+      "unit": "SPEC-A02-MADIBA-2008-R2",
+      "requested_model": "agy-cli/gemini-3.8-flash",
+      "actual_model_reported": "agy-cli/gemini-3.8-flash",
+      "requested_reasoning": "high",
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 7415,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 35147,
+        "output_tokens_details": {
+          "reasoning_tokens": 33350
+        },
+        "total_tokens": 42562
+      },
+      "reasoning_field_reported": null,
+      "boundary": "Provider-reported fields; no hidden backend or billing-tier certification."
+    },
+    {
+      "unit": "SPEC-A02-MADIBA-2008",
+      "requested_model": "agy-cli/gemini-3.8-flash",
+      "actual_model_reported": "agy-cli/gemini-3.8-flash",
+      "requested_reasoning": "high",
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 27494,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 28972,
+        "output_tokens_details": {
+          "reasoning_tokens": 15247
+        },
+        "total_tokens": 56466
+      },
+      "reasoning_field_reported": null,
+      "boundary": "Provider-reported fields; no hidden backend or billing-tier certification."
+    },
+    {
+      "unit": "SPEC-A03-MADIBA-2008-R1",
+      "requested_model": "agy-cli/gemini-3.8-flash",
+      "actual_model_reported": "agy-cli/gemini-3.8-flash",
+      "requested_reasoning": "high",
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 14442,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 13943,
+        "output_tokens_details": {
+          "reasoning_tokens": 10538
+        },
+        "total_tokens": 28385
+      },
+      "reasoning_field_reported": null,
+      "boundary": "Provider-reported fields; no hidden backend or billing-tier certification."
+    },
+    {
+      "unit": "SPEC-A03-MADIBA-2008",
+      "requested_model": "agy-cli/gemini-3.8-flash",
+      "actual_model_reported": "agy-cli/gemini-3.8-flash",
+      "requested_reasoning": "high",
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 16086,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22155,
+        "output_tokens_details": {
+          "reasoning_tokens": 14367
+        },
+        "total_tokens": 38241
+      },
+      "reasoning_field_reported": null,
+      "boundary": "Provider-reported fields; no hidden backend or billing-tier certification."
+    },
+    {
+      "unit": "SPEC-A04-MADIBA-2008-R1",
+      "requested_model": "agy-cli/gemini-3.8-flash",
+      "actual_model_reported": "agy-cli/gemini-3.8-flash",
+      "requested_reasoning": "high",
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 24828,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 25274,
+        "output_tokens_details": {
+          "reasoning_tokens": 20897
+        },
+        "total_tokens": 50102
+      },
+      "reasoning_field_reported": null,
+      "boundary": "Provider-reported fields; no hidden backend or billing-tier certification."
+    },
+    {
+      "unit": "SPEC-A04-MADIBA-2008",
+      "requested_model": "agy-cli/gemini-3.8-flash",
+      "actual_model_reported": "agy-cli/gemini-3.8-flash",
+      "requested_reasoning": "high",
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 35188,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 36939,
+        "output_tokens_details": {
+          "reasoning_tokens": 24939
+        },
+        "total_tokens": 72127
+      },
+      "reasoning_field_reported": null,
+      "boundary": "Provider-reported fields; no hidden backend or billing-tier certification."
+    },
+    {
+      "unit": "source-draft",
+      "requested_model": "agy-cli/gemini-3.8-flash",
+      "actual_model_reported": "agy-cli/gemini-3.8-flash",
+      "requested_reasoning": "high",
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 4606,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 52887,
+        "output_tokens_details": {
+          "reasoning_tokens": 47080
+        },
+        "total_tokens": 57493
+      },
+      "reasoning_field_reported": null,
+      "boundary": "Provider-reported fields; no hidden backend or billing-tier certification."
+    }
+  ],
+  "PDM_run": false,
+  "new_external_acquisition": false,
+  "human_review_event": false,
+  "new_source_note_status": "accepted as read with explicit original-formalism/calibration/analysis boundaries",
+  "source_draft_audit": {
+    "initial_format": "JSON had invalid LaTex escapes; cached response repaired, not resent",
+    "escaped_backslash_repairs": 5,
+    "manager_incremental_edits": [
+      {
+        "old": "## Bibliographic Record",
+        "new": "# Madiba 2008：190Tl 的 DCO 与线偏振学位论文\n\n## Bibliographic Record",
+        "basis": "Add source heading"
+      },
+      {
+        "old": "**Date of Award**: January 2008",
+        "new": "**Title-page date**: January 2008",
+        "basis": "Title page is not an award-date certificate"
+      },
+      {
+        "old": "Fig 5.2 与 5.5（符合门谱）、Fig 5.8（极化不对称度曲线）",
+        "new": "Fig 5.2 与 5.5（DCO 分类散点图）、Fig 5.8（理论物理偏振 P 的混合比曲线）",
+        "basis": "Actual figures PDF55,57,60; do not call P an asymmetry"
+      },
+      {
+        "old": "Tables 6.1–6.7 跃迁能量、符合强度、DCO 比值与极化不对称度",
+        "new": "Tables 6.1–6.7 中与结论相关的跃迁、DCO/不对称度、指认和脚注；并非逐单元认证所有表格单元",
+        "basis": "Tables have no generic coincidence-intensity column; audit scope is key evidence"
+      },
+      {
+        "old": "作者在结论中明确声明，现有实验证据并未确认手征对称性自发破缺机制。",
+        "new": "寻找手征带是引言中的动机；总结章本身未开展或宣告手征性确认，也没有据此排除手征机制。",
+        "basis": "PDF11 and77; absence of a claim is not an explicit author refutation"
+      },
+      {
+        "old": "$6\\text{ mg/cm}^2$ 自支撑金属厚靶",
+        "new": "$6\\text{ mg/cm}^2$ 的 $^{175}\\text{Lu}$ 厚靶",
+        "basis": "PDF44 reports material/thickness, not self-supporting metal construction"
+      },
+      {
+        "old": "必须严格区分门跃迁（gate，$\\gamma_1$）与被测跃迁（observed，$\\gamma_2$）的角分布角色，不能裸套为角分布各向异性（ADO）公式",
+        "new": "Eq 2.24 使用 $\\gamma_1$ 为门、$\\gamma_2$ 为待测线；Eq 4.3 的文字则以 $I(135,90)$ 对应 $\\gamma_1@135^\\circ,\\gamma_2@90^\\circ$。必须逐式核对光子与门角色，不能把同名下标跨式混用或裸套 ADO",
+        "basis": "PDF27 versus50 explicitly give different label roles"
+      },
+      {
+        "old": "在门光子与被测光子角色互换下互为倒数",
+        "new": "按其各自文字给出的同一两光子/探测角标签对应为倒数",
+        "basis": "Avoid treating an actual change of physical gate/response as a universally reciprocal operation"
+      },
+      {
+        "old": "本实验未独立标定极化灵敏度 $Q$，而是直接借用 Jon95 相似实验几何的参考值",
+        "new": "正文未报告本实验独立的 $Q$ 标定，而以与 Jon95 灵敏度相似为条件作参考量级比较",
+        "basis": "PDF59 conditional wording does not prove every unreported calibration was absent or geometry identical"
+      },
+      {
+        "old": "stretched $E2$ 门下正负不对称度分别对应 cross-over（电性质）与 direct（磁性质）跃迁。",
+        "new": "这些正负/量级比较限于该源相应 stretched 参考类别和门条件，不能推出电跃迁永远为正、磁跃迁永远为负。",
+        "basis": "PDF59 Table5.1 includes opposite unstretched dipole signs"
+      },
+      {
+        "old": "基于纯跃迁预期，$A_P > 0$ 对应电性质（$E$），$A_P < 0$ 对应磁性质（$M$）。",
+        "new": "对本文采用的 stretched E2/M1 参考类别，结合 DCO 和门条件使用不对称度符号及量级；不能外推到所有纯/混合、stretched/unstretched 跃迁。",
+        "basis": "Keep the specified spin/multipole conditions"
+      },
+      {
+        "old": "Bands 2 与 4：具有相似的带内结构与交替跃迁，被解释为特征对带（signature partners）；",
+        "new": "Bands 2 与 4：分别给出自旋宇称指认；不据此把两条带互认作旋称伙伴或手征伙伴。",
+        "basis": "No verified source basis for this added signature-partner interpretation"
+      },
+      {
+        "old": "Band 3：因缺乏确凿极化数据，仅指认暂定自旋序列，不确定宇称；",
+        "new": "Band 3：只保留作者的暂定自旋、未定宇称，不补写统计量、效率或缺峰造成该结论的未经核实因果；",
+        "basis": "Source-level outcome, not invented cause"
+      },
+      {
+        "old": "总结章（Ch 7）明确指出，现有实验证据不足以证实手征对称性自发破缺机制。",
+        "new": "引言将寻找手征带列为实验动机；总结章报告纲图和指认边界，未给出手征判据评估。未确认不等于已排除。",
+        "basis": "PDF77 does not make the claimed explicit chirality statement"
+      },
+      {
+        "old": "Eq 2.34 分子中的 $a_k^{(2)}$ 上标符号",
+        "new": "Eq 2.34 分子原式写为 $a_k^2$，该上标的含义",
+        "basis": "Do not silently assign a tensor-rank convention not fully defined in this source"
+      },
+      {
+        "old": "Eq 2.21 与现代角关联统计张量约定的表观差异",
+        "new": "Eq 2.21 与同文 Eq 2.17 的形式差异",
+        "basis": "No independent modern-formalism audit was completed"
+      },
+      {
+        "old": "研究动机、手征候选背景与手征机制未证实结论。",
+        "new": "研究动机、纲图与指认总结；不把总结章未讨论手征性改写为明确否定。",
+        "basis": "Keep exact author-claim boundary"
+      },
+      {
+        "old": "不确认 $^{190}\\text{Tl}$ 存在手征机制，不触发投影壳模型（PDM/PSM）或其他理论重算。",
+        "new": "不确认 $^{190}\\text{Tl}$ 存在手征机制；未运行用户的概率密度/概率空间混合比方法（PDM）、PSM 或事件重分析。PDM 不得误释为投影壳模型。",
+        "basis": "Remove hallucinated acronym expansion; preserve actual task scope"
+      }
+    ],
+    "no_second_whole_source_reading_or_draft_call": true,
+    "requested_output_limit": 18000,
+    "provider_reported_output_tokens": 52887,
+    "limit_boundary": "Provider aggregate output includes reasoning. Its relation to requested max_output_tokens semantics is not independently verified; do not claim an enforced total-token, billing or runtime cap.",
+    "repository_metadata_format_repair": "Block YAML lists converted to repository-supported inline arrays; no scientific content changed."
+  },
+  "source_note": "knowledge/sources/madiba-2008-190tl-dco-polarization-thesis.md",
+  "updated_at": "2026-11-19T15:22:24.466291+00:00"
+}

@@ -73,6 +73,18 @@ P、偏振不对称度与灵敏度，单 γ 角分布与 γγ 方向关联，以
 完整可复用提示词、已填原件实例和验收/返工规则保存在
 `outputs/plans/20261119-archive-deep-learning.md` 第 5 节。
 
+## 首篇执行带来的具体约束
+
+[[madiba-2008-190tl-dco-polarization-thesis]] 区分了参考曲线上的 sigma/I、
+实际测得的计数不对称度与是否真的报告数值 delta 估计。仅见参数标签和
+P-delta 图不够，还要追踪结果表和作者最终推断。因子 a 乘在哪一侧则应以
+同一 null 条件做代数核验，不能只复制名称或一个倒数。
+
+已验收事实账本的汇编也要过证据门：再次生成流畅笔记可能增加原账本没有的
+作者结论、旋称伙伴、靶结构、学位授予日期或缩写展开。尽量复用既有 claim，
+能确定性排版的部分不再交给模型自由重述；确需模型编写时，逐项拒绝新增的
+无证据解释。JSON/LaTeX 与本库行内 YAML 数组的格式修复不算新的科学阅读。
+
 ## Research Trigger
 
 User-requested collection or learning-design question; the original scope and historical stage are retained below.
