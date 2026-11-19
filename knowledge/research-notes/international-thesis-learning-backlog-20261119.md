@@ -232,6 +232,11 @@ sensitivity depends on both the particular line and the matrix/geometry.
 [[macklin-1979-resonance-capture-total-energy-detector]] add PDF 462–485.
 The first retains a close-line interference test, and the second separates
 response weighting, yield normalization and the remaining fit degeneracy.
+[[kane-1979-neutron-capture-instruments]] and
+[[bartholomew-1979-high-intensity-neutron-sources]] add PDF 486–520.
+The first distinguishes peak width from line-energy precision and source
+drift. The second distinguishes usable sample flux from source intensity.
+PDF 521 is the divider for the contributed papers and is bibliographic coverage.
 
 ## Final acquisition closure and learning design
 

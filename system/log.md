@@ -6324,3 +6324,8 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - PDF 462–485 已核对，保留 Jurney 的邻线阈值条件与 Macklin 的响应归一、产额修正和拟合相关性。会议卷覆盖 488 页。
 - PDF 486–521 的 Kane、Bartholomew 和分隔页已启动，按历史仪器条件记录。
+
+## 2026-11-20 — 历史谱仪、束口与分辨率
+
+- PDF 486–520 已核对。Kane 的峰宽、定位精度和漂移修正按谱仪与反射条件保留，Bartholomew 的比较保留中心孔道/束口、平均/峰值和未慢化源口径。
+- PDF 521 分隔页单列为书证，会议卷覆盖 524 页。PDF 522–539 的贡献论文批次已开始。

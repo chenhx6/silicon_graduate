@@ -20,7 +20,8 @@ updated: 2026-11-20
 - [[abrahams-1979-polarized-neutron-beams]] 和 [[moreh-1979-photon-scattering-neutron-capture-gamma-rays]] 核完 PDF 388–428。会议卷已覆盖 PDF 1–428 和 U001 的 633–635，共 431 页，其中卷首书证 17 页。
 - [[kessler-et-al-1979-precise-gamma-ray-energy-standards]] 和 [[greenwood-1979-capture-gamma-elemental-analysis]] 核完 PDF 429–461。会议卷覆盖 PDF 1–461 和 U001 的 633–635，共 464 页，其中卷首书证 17 页。
 - [[jurney-1979-thermal-capture-elemental-analysis]] 与 [[macklin-1979-resonance-capture-total-energy-detector]] 已核完 PDF 462–485。会议卷已有 PDF 1–485 和 U001 的 633–635，共 488 页，其中卷首书证 17 页。
-- Kane、Bartholomew 和分隔页的 PDF 486–521 已启动，见 `tmp/deep-learning-neutron-capture-1979/instruments-batch.log`。全卷及其余馆藏仍待读。
+- [[kane-1979-neutron-capture-instruments]] 和 [[bartholomew-1979-high-intensity-neutron-sources]] 已核完 PDF 486–520。PDF 521 为分隔页。会议卷已有 PDF 1–521 和 U001 的 633–635，共 524 页，其中书证 18 页。
+- 贡献论文的 PDF 522–539 已启动，见 `tmp/deep-learning-neutron-capture-1979/contributed-batch.log`。此段印刷页比 PDF 页大 1，须逐篇核章界和共同数据。
 - 章级来源共用已哈希的原件，以不重叠的 `raw_pdf_pages` 标识各章。唯一作品检查继续执行，原 PDF 没有拆档或复制。
 - 另一 session 的 PDM/PDCO 与 Hamilton 改动继续隔离。无 PDM 拟合、raw 改写或重新获取。HDR 阶段指针为 `main + research: integrate Ljungvall HDR evidence and start capture proceedings`。
 

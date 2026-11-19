@@ -1,0 +1,99 @@
+{
+  "recorded_at": "2026-11-19T22:43:30.285657+00:00",
+  "batch_pages": [
+    486,
+    521
+  ],
+  "batch_page_count": 36,
+  "book_all_known_pages": [
+    "1-521",
+    "633-635"
+  ],
+  "book_covered_pages": 524,
+  "bibliographic_pages": [
+    "1-17",
+    "521"
+  ],
+  "book_completion": false,
+  "chapter_sources": [
+    "knowledge/sources/kane-1979-neutron-capture-instruments.md",
+    "knowledge/sources/bartholomew-1979-high-intensity-neutron-sources.md"
+  ],
+  "responses": [
+    {
+      "id": "NC79-KANE-A",
+      "covered": [
+        486,
+        494
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "4df18ea6a6dadd13473a3944098eff966ab6f052a11b7145bfd01561e6da0d87",
+      "role": "science-chapter"
+    },
+    {
+      "id": "NC79-KANE-B",
+      "covered": [
+        495,
+        503
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "aaeb70f3a3dbaeea48fd88472e17cd8341d0860a06445477b1b872a5fe87e8b6",
+      "role": "science-chapter"
+    },
+    {
+      "id": "NC79-BARTHOLOMEW-A",
+      "covered": [
+        504,
+        511
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "3a50ce8fd9f30e534bafe6bb5620168c6de11afce59359cac8ec579e39f3fb90",
+      "role": "science-chapter"
+    },
+    {
+      "id": "NC79-BARTHOLOMEW-B",
+      "covered": [
+        512,
+        520
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "02d4393cd61718e64107661fab02fc0b029312091e742a93a85aab4b25bf99de",
+      "role": "science-chapter"
+    },
+    {
+      "id": "NC79-CONTRIBUTED-DIVIDER",
+      "covered": [
+        521,
+        521
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "d6141b742e66289195c4bacbeab735ceaebdcc0c258c4ae6a208a57fd9c75e92",
+      "role": "bibliographic-divider"
+    }
+  ],
+  "verified_pages_and_checks": [
+    "PDF 486–489, 503–504: titles, crystal resolution versus energy precision, source drift and instrument dependence.",
+    "PDF 505–506 and 509–512: flux locations in Table 1, unmoderated source comparison, pulse width and averaged intensity.",
+    "PDF 520–522: chapter closure, divider and contributed paper starts. Printed page becomes PDF+1 after the divider."
+  ],
+  "boundary": "Historical instrument conditions only. Divider counted separately as bibliographic; no modern specification endorsement.",
+  "next_batch": {
+    "pages": [
+      522,
+      539
+    ],
+    "units": [
+      "NC79-AGERON",
+      "NC79-ALDEA-ALPHA",
+      "NC79-ALDEA-WIDTHS",
+      "NC79-ALLEN-3S-I",
+      "NC79-ALLEN-3S-II",
+      "NC79-ALLEN-LA-PR"
+    ]
+  }
+}
