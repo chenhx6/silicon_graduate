@@ -154,6 +154,20 @@ with unresolvedpublisher equivalence; theHDR's14pagecontainer section must be
 version-compared, not blindly counted as a new independent experiment or
 silently skipped as byte-identical.
 
+## Ljungvall HDR checkpoint
+
+[[ljungvall-2020-shapes-collectivity-spectroscopy-hdr]] records coverage of the
+310-page container, including the twelve appended works and the proposal,
+bibliography and outcome material. Two focused units closed the first pass's
+25-page bibliography gap. Selected original-page checks retain the distinction
+between lifetime-derived strengths, shape constraints from Coulomb excitation,
+model results and inconclusive experimental outcomes. The GANIL publisher
+section and archived 33-page preprint count as versions of one work.
+
+The 1979 *Neutron Capture Gamma-Ray Spectroscopy* proceedings now enter a
+chapter-by-chapter pass. The first batch covers von Egidy and Casten (PDF 52–98).
+The earlier U001 chapter remains separately credited at PDF 633–635.
+
 ## Final acquisition closure and learning design
 
 The user has closed further acquisition and requested an in-depth learning

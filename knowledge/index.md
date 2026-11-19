@@ -30,6 +30,7 @@ updated: 2026-11-20
 - [[ayangeakaa-2013-tidal-waves-chirality-thesis]] — 102Pd原始DSAM寿命、系统误差与公式边界；133Ce的Rang几何、模型/实测分层及版本差异。
 - [[casarella-2017-vibrational-phonon-lifetimes-thesis]] — 160Gd/162Dy的DSAM-INS、GRID谱系与多声子候选；原始限值、文献分支及单位/编号边界。
 - [[smith-2017-109ru-109tc-fast-timing-thesis]] — beta-gamma快定时、109Ru/Tc的半衰期/限值与CQPC输入边界；CFD残余walk、ICC和版本归一需分清。
+- [[ljungvall-2020-shapes-collectivity-spectroscopy-hdr]] — 核形状、RDDS 与 AGATA 的证据链，附印作品及提案结果逐项定位。
 
 ## A130前置正文重写：样节与一致性
 

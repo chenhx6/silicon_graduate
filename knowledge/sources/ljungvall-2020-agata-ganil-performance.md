@@ -3,7 +3,7 @@ type: source
 title: "Ljungvall 2020：GANIL 的 AGATA Doppler、PSA 与事件混合响应"
 aliases: [AGATA GANIL performance 2020, Ljungvall GANIL efficiency position]
 created: 2026-10-14
-updated: 2026-10-14
+updated: 2026-11-20
 status: ai-draft
 review_status: unreviewed
 source_type: journal-instrument-method-experiment
@@ -22,8 +22,9 @@ canonical_source: "https://arxiv.org/abs/2011.08003v1"
 citation_key: "ljungvall_2020_98zr-performance-advanced"
 raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ljungvall-2020-ganil-performance.pdf"
 raw_sha256: "07cb8ea5bf3fa310ad00802a08ef9e07702e7a837d27ba15ae567a3a6adfe3c9"
-raw_storage_status: reserved-unpopulated-public-preprint-only
-raw_archive_verified_at: 2026-10-23
+raw_storage_status: archived-local
+raw_archive_verified_at: 2026-11-20
+archive_required: true
 external_pdf_url: "https://arxiv.org/pdf/2011.08003v1"
 nuclei: [98zr, 92mo, 152sm, 152gd]
 methods: [doppler-correction, gamma-ray-tracking, pulse-shape-analysis, angular-correlation, event-mixing]
@@ -37,7 +38,12 @@ tags: [ganil, agata, vamos, detector-response, normalization, shared-data, versi
 
 J.Ljungvall等，NIMA955,163297(2020)，DOI10.1016/j.nima.2019.163297；Crossref题名/作者/年/卷/页核验。实际读公开URL `arxiv.org/pdf/2011.08003v1` 获取的33页PDF。首页arXiv标注12Nov2020，但同页submission footer印23September2022；以获取copy的URL/hash及两个打印日期标识，不假定它字节等同2020publisher article或已解决全部version history。
 
-raw保持不变：raw_file为未填充保留位置，获取字节仅在 `tmp/day13/reopened/ljungvall-2020-ganil-performance.pdf`，SHA如上。文中performance snapshot为mid2016，不把旧rates/code/foreseen schedule写成2026状态。
+当前 `raw_file` 已核实存在，33 页原件 SHA 与早期核读版本一致。
+实验配置时点为 2016 年中。另在 [[ljungvall-2020-shapes-collectivity-spectroscopy-hdr]]
+PDF 205–217 取得相同 DOI 的期刊附印版。选定指标已完成跨版本核对：
+期刊 PDF 211 对应峰总比与单点事件剔除，PDF 213 对应 5.1 mm FWHM，
+PDF 214 对应追踪前后事件混合对照。保留本页旧预印本定位符，两版
+属于同一作品和实验谱系。
 
 ## Scope and Reading Depth
 

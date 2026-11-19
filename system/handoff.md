@@ -3,7 +3,14 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
-## Active handoff — 2026-11-20 Smith2017集成与Ljungvall HDR第一阶段
+## Active handoff — 2026-11-20 Ljungvall HDR 验收与 1979 会议卷
+
+- [[ljungvall-2020-shapes-collectivity-spectroscopy-hdr]] 已集成。25 个完成响应合并覆盖原件 310 页，首轮漏处理的书目页 81–105 由两个小批补齐。原始结构错误与补核证据保存在 `outputs/literature-acquisition/20261119-deep-learning/ljungvall2020-hdr-evidence-audit.json`，未将书目处理计为引文全文学习。
+- 附印作品分别核对身份和实验依赖。GANIL 期刊版 PDF 205–217 与本地 33 页预印本是同一作品，保留版别及页定位。预印本路径的实际字节和 SHA 已核实。136Sm 与不完全熔合实验分别保留提案、测试及结果，未获得可用的结构约束时不填结论。
+- 本轮累计 8 份主原件、1422 个 PDF 页。1979 年 *Neutron Capture Gamma-Ray Spectroscopy* 已启动 von Egidy 和 Casten 的 47 页批次（PDF 52–98，4 个单元）。入口 `tmp/deep-learning-neutron-capture-1979/run_selected_chapters.py`，读取 `run.log` 及单元账本，复用成功响应。保留 U001 已学页 633–635；整卷及总队列继续。
+- 另一 session 的 PDM/PDCO 与 Hamilton 改动继续隔离。无 PDM 拟合、raw 改写或重新获取。阶段稳定指针 `main + research: integrate Ljungvall HDR evidence and start capture proceedings`。
+
+### Previous checkpoint — Smith2017集成与Ljungvall HDR第一阶段
 
 - Smith2017十主单元/193页已返回，两个定向单元六项答复已集成 [[smith-2017-109ru-109tc-fast-timing-thesis]] 与CFD概念，累计七份主原件/1112个PDF页；整体goal仍active。EXP的partial按实际结果/附录和未给出公式的边界闭环，不假装64-75是Chapter3。INTERPRET自报complete但未处理160/162，两张图主读覆盖仍在，不给补核全覆盖认证。FRAME书目定位只缓存修正，无网络重试。
 - 新增边界：Tc的T1/2、Lifetime/meanlife与lambda=1/136、1/155语境不统一，保留原报及统计-only误差；50us与50ns可能是不同记录层次，未核全硬件，不强判一致或笔误。M1表e2fm4、opp是否已含统计因子、跨表归一未决，不能造转换系数。正文77与TableB3对137.9keV旧文多极性标注不一致；不默认附表alpha都是total。69.1两种多极假设不是已测大E2混合分量。CFD仅在理想自相似波形下抵消振幅，实测walk仍须校准；只做已注明的小型代数，没有作者代码或PDM运行。

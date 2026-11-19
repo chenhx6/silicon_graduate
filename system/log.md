@@ -6258,3 +6258,9 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - Ten Gemini primary units covered193 uniquePDF pages; two targetedunits returned6answers/sourceparagraphs. FRAME printed/PDF bibliography locator corrected fromcache afteractualPDF188check, noAPIretry. EXPpartial scope closed fromactual resultcases/appendix andboundedabsentgeneralformula, not guessedChapter3continuation. TargetedINTERPRET unread160/162retained ratherthanfalsecompletepagecredit.
 - Source andCFDconcept preserve T1/2/meanlife andTcstatistical-onlyerrors, upperlimits versusfits, energy/event-class walk calibration, adoptedICC/multipolarities andnoP. M1unit, oppositeRME normalization andcross-tableBconversion remain bounded. QTRfit gamma anddifferentcoreenergy freedom do notuniquelymeasure rigidshape. Elementaryhalf-life/detailedbalance/triangle/waveformchecks didnotrun authorATD/CQPC/cascadecode orPDM.
 - Seven primaryPDFsources/1112pages with explicitlimits, wholegoalactive. JoaLjungvall2020HDR(HALdeposit2022),310pages, now actualfirstphase4unitsPDF1-120only;121-310selectedpapers/proposals/CVremainpending. PriorAGATA33pagepreprintisnotautomaticallyequivalenttotheHDRpublishedsection. Noacquisitionrestart,newdaemon orrawchanges; other-session edits preserved/excluded.
+
+## 2026-11-20 — Ljungvall HDR 与会议卷续读
+
+- 25 个 Gemini 响应覆盖 HDR PDF 1–310。首轮书目漏页 81–105 由两个小批补齐，保留原返回及传输原因未定的边界。Codex 核对选定原页，将附印论文、稿本、提案和运行结果写入来源笔记。
+- 70Se 的重取向约束、Fe 的馈入假设与寿命限值、OUPS 的零点、AGATA 的事件选择，以及 170Os 的实测与模型差异各保留定位。核实 33 页 AGATA 预印本现存本地，期刊附印和预印本仍按同一作品计。
+- 累计 8 份主原件、1422 页。本地 1979 会议卷先读 von Egidy 和 Casten 两篇，PDF 52–98。U001 原有范围独立保留，整卷与全库仍处于推进状态。
