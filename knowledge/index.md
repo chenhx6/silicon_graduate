@@ -47,6 +47,8 @@ updated: 2026-11-20
 - [[iachello-1979-interacting-boson-model]] — 动力学极限、F-spin 条件和所引用的实验谱。
 - [[castel-micklinghoff-1979-fast-neutron-doorway-states]] — 修正连续态、俘获共振项及门态识别条件。
 - [[bergqvist-potokar-1979-fast-neutron-capture-gamma-rays]] — 直接–半直接振幅、角量辨识和两解边界。
+- [[snover-1979-direct-resonance-capture-amplitudes]] — 俘获角系数计数、相位多解与分截面条件。
+- [[kern-1979-exotic-atoms-nuclear-structure]] — 奇异原子超精细谱、场梯度修正和矩阵元约束。
 
 ## A130前置正文重写：样节与一致性
 

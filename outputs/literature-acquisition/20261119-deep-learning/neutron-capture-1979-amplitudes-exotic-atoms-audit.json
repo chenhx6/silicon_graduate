@@ -1,0 +1,77 @@
+{
+  "recorded_at": "2026-11-19T22:08:25.690524+00:00",
+  "batch_pages": [
+    325,
+    357
+  ],
+  "batch_page_count": 33,
+  "book_all_known_pages": [
+    "1-357",
+    "633-635"
+  ],
+  "book_covered_pages": 360,
+  "front_matter_pages": [
+    1,
+    17
+  ],
+  "book_completion": false,
+  "chapter_sources": [
+    "knowledge/sources/snover-1979-direct-resonance-capture-amplitudes.md",
+    "knowledge/sources/kern-1979-exotic-atoms-nuclear-structure.md"
+  ],
+  "responses": [
+    {
+      "id": "NC79-SNOVER-A",
+      "covered": [
+        325,
+        333
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "a4c7b46c0d642b07ef65a5b692dcce6312ea78e5c9a2a881bdd138fc705c849c"
+    },
+    {
+      "id": "NC79-SNOVER-B",
+      "covered": [
+        334,
+        341
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "dfd087bb41ac677c1d801e74b97c469f163d1ce4a7fc09cbb7071e46fd943fb5"
+    },
+    {
+      "id": "NC79-KERN-A",
+      "covered": [
+        342,
+        349
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "bc72436c8432f00cf4d62ee4096ff0f3e5a00a4cfcd615a2c03e7f37e58ef862"
+    },
+    {
+      "id": "NC79-KERN-B",
+      "covered": [
+        350,
+        357
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "81362c85b69611538b33a3870b58d22a934bc8ea168768b4247a149a355f14f2"
+    }
+  ],
+  "verified_pages_and_checks": [
+    "PDF 325–327: Snover identity, conditional amplitude counting and discrete ambiguities.",
+    "PDF 342, 349, 351–352, 356–358: Kern identity, charge-distribution dependence and corrections in the Lu quadrupole comparison, chapter closure and Lee title page."
+  ],
+  "boundary": "The Lee section starts at PDF 358. Running headers labeled Kern on subsequent pages do not extend Kern's chapter. No fit or calculator run.",
+  "next_batch": {
+    "pages": [
+      358,
+      387
+    ],
+    "units": [
+      "NC79-LEE-A",
+      "NC79-LEE-B",
+      "NC79-BENKOULA-A",
+      "NC79-BENKOULA-B"
+    ]
+  }
+}

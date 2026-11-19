@@ -6299,3 +6299,8 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - PDF 292–324 已核验，原题页确认 Castel 和 Micklinghoff 双署名。保留模型中的共振项、拟合粗结构和逐峰归属之间的区别。Bergqvist/Potokar 的角量例保留二次两解及未知数超量时的限制。
 - 会议卷已覆盖 327 页，其中卷首 17 页。Snover、Kern 的 PDF 325–357 已启动。
+
+## 2026-11-20 — 俘获振幅与奇异原子章节
+
+- PDF 325–357 四单元已核对原页。保留 Snover 的参数计数和非线性多解，以及 Kern 的缪原子/原子束四极矩比较所用修正。会议卷覆盖 360 页。
+- PDF 358–387 的 Lee 与 Benkoula 等篇章已开始。Lee 的正文页眉与原题页冲突，按正文与题页划界。

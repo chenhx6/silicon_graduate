@@ -27,10 +27,10 @@
   "closed_fulltext_gaps": 7,
   "active_source": "bytes:cc722604aa94e765559497ee21022550e035d2ce9407448b0ae81d27dd561005",
   "active_units": [
-    "NC79-SNOVER-A",
-    "NC79-SNOVER-B",
-    "NC79-KERN-A",
-    "NC79-KERN-B"
+    "NC79-LEE-A",
+    "NC79-LEE-B",
+    "NC79-BENKOULA-A",
+    "NC79-BENKOULA-B"
   ],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -149,7 +149,11 @@
     "NC79-CASTEL-A",
     "NC79-CASTEL-B",
     "NC79-BERGQVIST-POTOKAR-A",
-    "NC79-BERGQVIST-POTOKAR-B"
+    "NC79-BERGQVIST-POTOKAR-B",
+    "NC79-SNOVER-A",
+    "NC79-SNOVER-B",
+    "NC79-KERN-A",
+    "NC79-KERN-B"
   ],
   "completed_full_sources_this_run": 8,
   "PDM_run": false,
@@ -159,15 +163,15 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-19T21:58:32.361999+00:00",
+  "updated_at": "2026-11-19T22:08:25.690524+00:00",
   "completed_deep_read_sources_this_run": 0,
   "completed_primary_pages_this_run": 1422,
-  "current_source_note": "knowledge/sources/bergqvist-potokar-1979-fast-neutron-capture-gamma-rays.md",
-  "next_action": "Audit Snover and Kern PDF 325–357, then continue the remaining volume and wider queue.",
+  "current_source_note": "knowledge/sources/kern-1979-exotic-atoms-nuclear-structure.md",
+  "next_action": "Audit Lee and Benkoula et al. PDF 358–387. Identify the chapter spans by title pages and contents, despite incorrect Kern running heads in the Lee section.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
   "last_source_manager_closure": "HDR all 310 physical pages accounted for in 25 completed responses. First bibliography shortfall preserved and closed by two smaller batches. Comparison used published AGATA container pages and selected preprint evidence.",
-  "current_source_scientific_acceptance": "Sixteen newly accepted chapters plus prior U001 and 17 bibliographic pages; 874-page volume partial",
-  "active_source_partial_book_covered_pages": 327,
+  "current_source_scientific_acceptance": "Eighteen newly accepted chapters plus prior U001 and 17 bibliographic pages; 874-page volume partial",
+  "active_source_partial_book_covered_pages": 360,
   "active_source_bibliographic_pages": 17
 }

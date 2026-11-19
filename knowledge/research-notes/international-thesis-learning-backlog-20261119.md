@@ -209,8 +209,11 @@ capture-evidence overlap with Casten are retained.
 [[bergqvist-potokar-1979-fast-neutron-capture-gamma-rays]] add PDF 292–324.
 The former distinguishes model-space separation from physical resonance
 contributions. The latter provides a test of explanations with similar cross
-sections and distinct angular responses. The book's next chapters span
-PDF 325–357.
+sections and distinct angular responses.
+[[snover-1979-direct-resonance-capture-amplitudes]] and
+[[kern-1979-exotic-atoms-nuclear-structure]] add PDF 325–357. They retain the
+reaction model's amplitude count and the atom-to-nucleus corrections.
+PDF 358 begins Lee's chapter despite the running Kern header on later pages.
 
 ## Final acquisition closure and learning design
 
