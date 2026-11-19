@@ -6240,3 +6240,10 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - 新增手动入口 `$wiki-evolution`。它按 Wiki 的实际需求搜索公开 GitHub 仓库，按提交采样技能、hook、许可证和相关文件，每轮可整合一项经核验的本地改进。
 - Codex App Server 已识别仓库技能及手动入口元数据。实测检索后取回 `openai/skills@49f948f` 的技能与许可证，以及 `first-fluke/oh-my-agent@8f9e4f1` 的 Codex hook 配置与许可证。临时样本通过哈希核对。四项离线回归覆盖固定提交、文件完整性和样本隔离。
+
+## 2026-11-20 — Casarella2017 lifetime/phonon evidence checkpoint
+
+- Fifteen Gemini primary units covered333 unique PDF pages;35-page frame cache reused. Three small targeted units returned seven answers and source-ready paragraphs. Eighteen HTTP200/completed responses, no network retry; equivalent CC-GDDISC receipt shape repaired from cache. METHOD's overlapping118 and unprovided92-93 citations retained as scope boundaries, with manager original-page closure rather than false full correction coverage.
+- Source uses reused targeted paragraphs and explicit manager edits, no repeated full-source writer. Persisted0+ lifetime limits,1599 same-data manuscript re-evaluation,1535/2181 gamma-gamma strength/branch dependence, originalWeisskopf footer and spin-label discrepancies, and independentGRID versusDSAM provenance. Central-value unit/branch/mixing checks are not event or author-code reproduction.
+- DSAM concept corrected: no universal fixed lifetime window, exact model-free inversion, automatic symmetric lifetime uncertainty or unique wobbling/chirality test; historical toy benchmark not new measured134Ce data. Compared original stopping/feeding treatment withAyangeakaa102Pd;10percentF propagated is not universal10percenttau or the latter's excluded20percent systematic.
+- Six primary sources/919pages accepted with limits, whole archive goal active. Smith2017 MalloryKSmith actual193page10unit primary reading started after ownDOI/hash/header checks, PDF18=printed1; not counted complete. NoPDM, acquisition restart or daemon. Another session's edits preserved and excluded.

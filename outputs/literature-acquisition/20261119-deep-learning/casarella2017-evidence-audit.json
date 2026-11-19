@@ -1,0 +1,309 @@
+{
+  "recorded_at": "2026-11-19T19:23:38.351230+00:00",
+  "source_note": "knowledge/sources/casarella-2017-vibrational-phonon-lifetimes-thesis.md",
+  "raw_file": "raw/theses/gpt/query/20261119-international-nuclear-structure/CasarellaCR042017D.pdf",
+  "raw_sha256": "dd4188d06f45f1d48f6c53c8900f06ccfe8cae9e081f76b7fa95466382a3aba4",
+  "reading_depth": "read",
+  "primary_units": 15,
+  "primary_unique_PDF_pages": 333,
+  "frame_cache_reused_pages": 35,
+  "main_requested_deliverables": 60,
+  "targeted_requests": 3,
+  "targeted_deliverables": 7,
+  "attempted_requests": 18,
+  "returned_completed_API_responses": 18,
+  "network_retries": 0,
+  "main_unit_ids": [
+    "CC-FRAME",
+    "CC-FOUND",
+    "CC-SYSTEM",
+    "CC-EXP",
+    "CC-ANALYSIS",
+    "CC-GDRESULT",
+    "CC-DYPOS",
+    "CC-DYNEG",
+    "CC-DYTABLE",
+    "CC-GDDISC",
+    "CC-DYDISC",
+    "CC-NEGDISC",
+    "CC-APGD",
+    "CC-APDYPOS",
+    "CC-APDYNEG"
+  ],
+  "targeted_unit_ids": [
+    "CC-CORR-STRENGTH",
+    "CC-CORR-LINEAGE",
+    "CC-CORR-METHOD"
+  ],
+  "format_repairs": [
+    {
+      "recorded_at": "2026-11-19T19:03:36.909423+00:00",
+      "original_result_sha256": "546ea8eef5177a32ff35a33b3d46f40f423d38144727dae2a9d5011ec9a14b51",
+      "old_artifact_receipt": {
+        "returned_content_only": true
+      },
+      "new_artifact_receipt": "returned_content_only",
+      "raw_response_preserved": true,
+      "scientific_change": false,
+      "new_API_calls": 0
+    }
+  ],
+  "targeted_scope_boundary": {
+    "original_result_unchanged": true,
+    "ambiguous_page_ids": [
+      118
+    ],
+    "unambiguous_reported_covered": [
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      85,
+      96,
+      97,
+      98,
+      100,
+      102,
+      103,
+      105,
+      107,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      134,
+      136,
+      137,
+      222,
+      240
+    ],
+    "unambiguous_reported_unread": [
+      75,
+      76,
+      83,
+      84,
+      86,
+      99,
+      101,
+      104,
+      106,
+      108,
+      109,
+      133,
+      135,
+      228,
+      229,
+      230,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239
+    ],
+    "manager_checked_original_pages": [
+      91,
+      92,
+      112,
+      114,
+      115,
+      116,
+      118,
+      319
+    ],
+    "resolution": "Selected M1/M2 evidence verified against original. No claim all53correction inputs read. Unsupported92-93 worker citations not accepted as worker reading; manager separately checked92. Primary333coverage unchanged.",
+    "scientific_edits": [
+      "10-600fs ideal sensitivity range is not a hard censoring rule",
+      "Stopping uncertainty is about10percent inF, propagated nonlinearly to lifetime, not universally10percent lifetime",
+      "Reducefeeding, not unconditional eliminatefeeding",
+      "Neutronspin alone is not hardI<=5 cutoff; no P present onlythis experiment"
+    ]
+  },
+  "source_writing": {
+    "source_creation": "Reuse Gemini targeted reusable_source_paragraph fields, with explicit manager changes and a metadata/framework template; no separate whole-source writer call.",
+    "edits": [
+      [
+        "发电机坐标法",
+        "生成坐标法"
+      ],
+      [
+        "答辩当时的预印/近终稿",
+        "论文所附的预印/近终稿"
+      ],
+      [
+        "说明表内换算实遵标准量纲",
+        "与所核表中中心值相容，不认证作者实现或其它表格"
+      ],
+      [
+        "误差反映统计受限",
+        "误差大且依赖寿命与混合比重估"
+      ],
+      [
+        "但大误差反映统计受限",
+        "但误差大且依赖寿命与混合比重估"
+      ],
+      [
+        "表4.8终态误印为3+γ",
+        "表4.8终态列3+γ而与能差及正文不一致"
+      ],
+      [
+        "属于完全独立的技术路径与数据采集",
+        "属于不同技术路径与独立数据采集"
+      ],
+      [
+        "高自旋（$J>5$）的布居截断",
+        "本实验高自旋（$J>5$）布居较弱的选择性"
+      ]
+    ],
+    "M1_replacement_reason": "Ideal window not hard cutoff, F uncertainty not uniformlytau uncertainty; direct original112/118 and92 confirmed.",
+    "lineage_boundary": "Independent GRID acquisition does not imply zero covariance for adopted intensities.",
+    "scope_boundary": "Method targeted overlap118 and unsupported92-93 citations not silently promoted to full request coverage; original preserved."
+  },
+  "manager_original_checks": [
+    {
+      "pages": [
+        1,
+        2,
+        21,
+        75,
+        96,
+        118,
+        188,
+        241,
+        249,
+        256,
+        271,
+        296,
+        316,
+        327
+      ],
+      "item": "Own title/DOI/PhD and actualchaptermapping PDF21=printed1; appendixroles are not whole-file ownidentity."
+    },
+    {
+      "pages": [
+        91,
+        92,
+        93,
+        112,
+        114,
+        115,
+        116,
+        118
+      ],
+      "item": "ActualGd/Dy target and neutronconditions separated; F stopping uncertainty propagated; ideal sensitivity not hardcutoff, reducefeeding not guaranteedelimination; CINDY angularmixing, noP."
+    },
+    {
+      "pages": [
+        125,
+        190,
+        192,
+        251,
+        263
+      ],
+      "item": "1379>1350 and1558>590 limits;>320 isbandenvelope.1599 reanalysis finite800 and541.53 branchto3gamma; version/index boundaries."
+    },
+    {
+      "pages": [
+        146,
+        147,
+        148,
+        212,
+        213,
+        217,
+        219
+      ],
+      "item": "1535 lifetime from572 only; negative647 andcontaminated475 exclusion.2181relativebranch choices,delta.24 andunobserved1292; originalfooter and finalspin label checked against pageimages/energybalance."
+    },
+    {
+      "pages": [
+        244,
+        250,
+        257,
+        261,
+        272,
+        297,
+        317,
+        319
+      ],
+      "item": "Stable158Sm productionroute distinction; ownjournal/draft dates checked; Gognygeneratorcoordinate localmeaning; GRID distinctacquisition, feedingrange versus empirical.6tauMax notstatisticalCI."
+    }
+  ],
+  "central_value_algebra": {
+    "scope": "Central-value units/branch/mixing algebra, not DSAM fitting or author-code reproduction. No extra correlations or systematics inferred.",
+    "A": 162,
+    "standard_E2_Weisskopf_e2b2": 0.005246112992427395,
+    "source_footer_e2b2": 5.25e-07,
+    "footer_ratio_to_standard": 9992.596176052182,
+    "1535_level_647_transition": {
+      "E_MeV": 0.64761,
+      "tau_ps": 1.2,
+      "branch": 0.497,
+      "B_e2b2": 0.2966863531018782,
+      "B_Weisskopf": 56.553557563501954,
+      "table_reported": 57
+    },
+    "2181_level_1217_transition": {
+      "E_MeV": 1.21773,
+      "tau_ps": 0.24,
+      "delta_E2_M1": 0.24,
+      "E2_fraction": 0.054462934947049915,
+      "relative_intensities": [
+        1.13,
+        1.0
+      ],
+      "branch_normalized": 0.5305164319248826,
+      "B_Weisskopf": 0.6993363955349965,
+      "single_branch_assumption_Weisskopf": 1.3182181614951705,
+      "table_reported": 0.7,
+      "prose_without_second_branch": 1.3
+    },
+    "source_locators": [
+      "PDF146-147 Table4.8 andfooter",
+      "PDF213 branch explanation"
+    ],
+    "boundary": "Original footer conversion disagrees with standard radius convention and table central-value consistency by~1e4; do not infer source code wrong. Original observed/unobserved branch dependence retained.",
+    "2181_level_literature_1292_transition": {
+      "E_MeV": 1.29251,
+      "branch_from_relative_intensities": 0.4694835680751174,
+      "B_Weisskopf": 8.435136482174839,
+      "table_reported": 8.3,
+      "source_Jf_printed": "3+gamma in Table4.8 continuation",
+      "energy_balance_final_level_keV": 888.1800000000001,
+      "source_bandhead_energy_keV": 888.18,
+      "interpretation": "Energy balance identifies2+gamma bandhead, matchingPDF213 prose; preserve printed Jf inconsistency, not silent correction. Branch unobserved here, uses literature intensities."
+    }
+  },
+  "rejected_or_bounded_primary_claims": [
+    "Spin1/2 neutron forces universalI<=5",
+    "All0+ lifetimes are finite despite lowerlimits",
+    "A0 photon yield alone is absoluteB",
+    "Any E1 enhancement proves E3 or uniqueoctupolephonon",
+    "2181 is either pureconfirmedgamma-gamma or whollyexcluded from any admixture",
+    "AllGCM abbreviations mean GeometricCollectiveModel",
+    "Allappendices are thesameDSAMexperiment",
+    "GRIDrange is aGaussianCI and.6tauMax isfitbestvalue",
+    "160Gd itself hasnostabletarget",
+    "Footerconversion or tablelabels silently repaired; algebraproves authorcodecorrect"
+  ],
+  "usage_reported_successful_responses": {
+    "input_tokens": 761578,
+    "output_tokens": 227623,
+    "total_tokens": 989201
+  },
+  "usage_boundary": "Provider aliases/tokens only; hidden tier/backend/actual effort not certified, requested outputcaps not guaranteed costlimits.",
+  "knowledge_impact": "Source and DSAM concept corrected; natural comparison withAyangeakaa stopping/feeding/uncertainty, no independent-vote count.",
+  "scope_limits": [
+    "No DSAM/GRID/CINDY author-code or event reanalysis",
+    "No all-external-reference or post2017manuscript publication audit",
+    "No PDM or newacquisition"
+  ],
+  "whole_corpus_complete": false
+}

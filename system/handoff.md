@@ -3,7 +3,18 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
-## Active handoff — 2026-11-20 Ayangeakaa集成与Casarella主读
+## Active handoff — 2026-11-20 Casarella集成与Smith2017主读
+
+- Casarella已按15主单元/333页及三定向任务七项答复集成 [[casarella-2017-vibrational-phonon-lifetimes-thesis]] 与DSAM概念修订，累计六篇/919个主原件PDF页，整体goal仍active。来源使用Gemini可复用短段与管理层定向订正，不另发全源writer；18次API均HTTP200/completed，无网络重试。
+- METHOD定向返回的PDF118重叠和未供92-93引用保留，不能记成53页补核全读；管理层实际核91-92、112、114-116、118等闭环所选M1/M2内容。原输出不改，wrapper保留结构边界。10-600fs仅理想灵敏区，F约10%误差传播而不是每个tau固定10%；Gamma强度/文献分支/GRID经验区间的边界均入source。CC-GDDISC等义receipt仅缓存规范，不重发。
+- 当前实际启动Smith2017（Mallory K. Smith，DOI10.7274/v979v121d86），193页10单元、并发2，`tmp/deep-learning-smith2017/run_smith.py`；PDF18=printed1，九章节/附录实际标题守卫。重点T1/2与tau、timewalk/feeding、LaBr3/HPGe门、ICC与CQPC输入，尚不计第七篇。不要与JohnSmith1998或Li2016参数混同。SM-FRAME一个书目locator把printed171当PDF171，已核实际供给的PDF188/ref66并从缓存修正，原响应/旧结果保留，不重发；日志旧rejected不代表当前result仍失败。
+- Casarella检查点预检、路径、原件归档门和定向lint均通过（错误0）；全库129历史+3并行错误隔离，缺citation key不造值。稳定指针 `main + research: learn Casarella2017 lifetime and phonon boundaries`，精确发布结果只入 `casarella2017-receipt.local.json`。继续先查Smith运行日志/result/错误，不重跑成功主读；源与DSAM旧公式/历史toy不是全体已认证。无PDM、新获取或daemon。
+
+### Previous runtime — Ayangeakaa发布与Casarella补核
+
+- 最新：Ayangeakaa检查点已实际commit/push并post-reconcile（精确结果见 `ayangeakaa2013-receipt.local.json`）。另session的get-paper skill增量也已保留隔离，不再作为未知改动阻塞。
+- Casarella15主单元已全部返回，333页覆盖、结构错误0（包括一次receipt形状缓存修复），未重复读取CC-FRAME；还未授予第六篇完成学分。现运行 `tmp/deep-learning-casarella/targeted_review.py` 三个小型定向单元（STRENGTH、LINEAGE、METHOD，并发2），每项同时返回可复用来源短段，不另派“全篇重核+长草稿”总写手。只补关键冲突，成功主读不重跑。
+- 新发现及核算：Table4.8脚注1Wu=5.25e-7 e2b2与162E2标准约0.005246及表中57Wu不一致约1e4；中心值代数约56.6Wu。2181的文献两支归一后1217支约0.7Wu、忽略另一支约1.3；1292支约8.4Wu，不是本次实测分支。1292终态表列3+但能差指888.18的2+gamma，保留原式/原标与边界。详 `tmp/deep-learning-casarella/strength-unit-consistency.json`；这些待来源集成，不称官方勘误/作者代码错误。GRID在附录E是另一实验，tau极值与0.6tau_max不能当常规统计CI。其余待核清单在manager-pending-issues.json。
 
 - Ayangeakaa186页九主读已完成并按选定原页集成 [[ayangeakaa-2013-tidal-waves-chirality-thesis]] 与潮汐波概念增量；累计五篇/586个主原件PDF页，整库goal仍active。两个订正/写作请求均ReadTimeout且无响应，不再发第三次writer请求；Codex从成功主读缓存及关键原页整理了来源，明确记录分工改变，不冒称Gemini草稿/八项订正已返回。原partial保留，管理层方法闭环见本地scope reconciliation。
 - 当前实际主读Casarella2017（DOI10.7274/mg74qj7554s），333页、15单元、并发2；`tmp/deep-learning-casarella/resume_after_compact.py` 已等到compact请求终止后启动 `run_casarella.py`，CC-FRAME缓存复用，其余待返回/核验。PDF21=printed1，12个章节/附录标题入口已核。附录A-E须按稿件版本和共同实验依赖处理，不能另算独立证据。

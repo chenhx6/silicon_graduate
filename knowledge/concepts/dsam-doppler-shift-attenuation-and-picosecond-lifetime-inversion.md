@@ -3,7 +3,7 @@ type: concept
 title: "Doppler shift attenuation method (DSAM) and picosecond nuclear state lifetime inversion"
 aliases: [dsam-lifetime-inversion, doppler-attenuation-factor, lss-stopping-power, blaugrund-multiple-scattering]
 created: 2026-11-03
-updated: 2026-11-03
+updated: 2026-11-20
 status: ai-draft
 review_status: unreviewed
 tags: [in-beam-spectroscopy, dsam, lifetime-measurement, stopping-power, lss-theory, blaugrund, transition-probabilities, b-e2, b-m1]
@@ -24,12 +24,20 @@ where:
 The attenuation factor represents the velocity-weighted expectation value of the decaying nuclei:
 $$F(\tau) = \frac{1}{v_0 \tau} \int_0^\infty \overline{v(t) \cos\phi(t)} e^{-t/\tau} dt$$
 where $\overline{\cos\phi(t)}$ is the Blaugrund multiple scattering direction cosine.
-- When $\tau \ll \alpha_{\text{stop}}$ ($\tau < 0.05\text{ ps}$): The state decays before the recoil slows down, emitting $\gamma$ rays at nearly full initial velocity $\implies F(\tau) \approx 1.0$ (fully shifted peak);
-- When $\tau \gg \alpha_{\text{stop}}$ ($\tau > 3.0\text{ ps}$): The state decays after coming to complete rest $\implies F(\tau) \approx 0.0$ (unshifted peak);
-- In the optimal window $\tau \approx 0.1 - 1.5\text{ ps}$: $F(\tau)$ varies sensitively and monotonically with $\tau$, enabling exact inversion of the nuclear lifetime $\tau_{\text{exp}}$ from the observed energy shift:
+- When $\tau \ll \alpha_{\text{stop}}$, decay occurs mostly before slowing and $F(\tau)\approx1$; when $\tau \gg \alpha_{\text{stop}}$, decay occurs mostly after stopping and $F(\tau)\approx0$. Fixed numerical boundaries are not universal across recoils and media.
+- In a region with adequate sensitivity, lifetime inversion is conditional on the stopping, feeding and geometry model, not an exact model-free determination. The centroid relation is:
   $$F(\tau_{\text{exp}}) = \frac{E_\gamma(\theta_1) - E_\gamma(\theta_2)}{E_{\gamma 0} \frac{v_0}{c} (\cos\theta_1 - \cos\theta_2)}$$
 
+## Original-Source Uncertainty Boundaries
+
+- [[ayangeakaa-2013-tidal-waves-chirality-thesis]] PDF118-121: the 102Pd lineshape analysis quotes MINOS intervals but excludes stopping-power systematic uncertainty that may reach about 20%.
+- [[casarella-2017-vibrational-phonon-lifetimes-thesis]] PDF112-118: DSAM-INS infers lifetimes from centroid-derived F; the author propagates about 10% uncertainty in F due to stopping into lifetime uncertainty. This is not a universal 10% uncertainty on every lifetime.
+- Casarella's ideal 10-600 fs sensitivity range is not a hard cutoff: some reported finite ps lifetimes have large asymmetric errors. Preserve each original limit/value, feeding and branch-selection conditions rather than imposing a common window.
+- The same thesis's Appendix E contains a distinct GRID experiment. Its feeding-extreme lifetime ranges and empirical 0.6*tau_max values are not ordinary statistical confidence intervals and cannot be simply averaged with DSAM point estimates.
+
 ## Necessary Assumptions
+
+The LSS/Blaugrund expressions below describe the implementation previously discussed on this page, not mandatory inputs to every DSAM analysis. [[casarella-2017-vibrational-phonon-lifetimes-thesis]] uses a Winterbon treatment for neutron inelastic scattering; its recoil and feeding conditions cannot be replaced by the heavy-ion example.
 
 1. **Unidirectional Initial Recoil**: Compound nucleus recoil is strongly focused forward along the beam axis with known initial velocity $v_0 / c = \frac{A_p}{A_p + A_t} \sqrt{2 E_{\text{lab}} / (A_p m_u c^2)}$. (Neutron evaporation momentum kicks produce small angular dispersions).
 2. **Lindhard-Scharff-Schiott (LSS) Stopping Power**: The total specific energy loss in the backing consists of electronic stopping $S_e \propto v$ and nuclear stopping $S_n$ from screened Coulomb collisions:
@@ -42,13 +50,15 @@ where $\overline{\cos\phi(t)}$ is the Blaugrund multiple scattering direction co
 1. **Angle-Dependent Centroid Shift**:
    Plotting $E_\gamma(\theta)$ versus $\cos\theta$ across forward, $90^\circ$, and backward detectors forms a straight line whose slope directly measures $F(\tau) \frac{v_0}{c} E_{\gamma 0}$.
 2. **Monotonic $F(\tau)$ Sensitivity**:
-   The attenuation factor $F(\tau)$ decreases monotonically with $\tau$. Measurement of $F \pm \Delta F$ translates directly to a bounded lifetime $\tau \pm \Delta\tau$.
+   Under a specified slowing/feeding model, inversion can be nonlinear and yield asymmetric intervals, limits or little lifetime information when $F$ is close to zero or one. A symmetric error on $F$ does not generally become a symmetric error on $\tau$.
 3. **Extraction of Reduced Transition Probabilities**:
-   Combined with the measured $\gamma$ branching ratio $b_\gamma$, the internal conversion coefficient $\alpha$, and the transition multipolarity ($E2, M1$), the partial lifetime $\tau_\gamma = \tau (1 + \alpha) / b_\gamma$ yields model-independent reduced transition probabilities $B(E2)$ and $B(M1)$, serving as the definitive test of triaxial wobbling collectivity and chiral selection rules.
+   If $b_{\rm total}$ denotes the fraction of all decays through a transition including conversion, its radiative rate is $\lambda_\gamma=b_{\rm total}/[\tau(1+\alpha)]$. Photon intensities require their actual normalization; multipole mixing must also be included. Derived $B(E2)$ and $B(M1)$ constrain collectivity but do not alone uniquely establish wobbling, chirality or an intrinsic shape.
 
 ## Supporting Evidence
 
-1. **$^{134}\text{Ce}$ Recoil in Gold Backing Benchmark ($Z_1=58, M_1=134; Z_2=79, M_2=197; v_0/c = 0.020$)**:
+The following historical numerical example was not reproduced or verified as a measured `134Ce` dataset in this learning batch. Its numbers and code are not new experimental evidence or a universal calibration.
+
+1. **Historical $^{134}\text{Ce}$ Recoil-in-Gold Numerical Example ($Z_1=58, M_1=134; Z_2=79, M_2=197; v_0/c = 0.020$)**:
    - Thomas-Fermi screening length: $a_{\text{TF}} = 0.0811\text{ \AA}$;
    - LSS electronic stopping constant: $k_e = 0.2103$;
    - Stopping scale: $\alpha_{\text{stop}} \approx 0.82\text{ ps}$;
@@ -65,9 +75,12 @@ where $\overline{\cos\phi(t)}$ is the Blaugrund multiple scattering direction co
 
 ## Our Current Position
 
-In this wiki, Doppler shift attenuation factors and picosecond nuclear state lifetimes are calculated and inverted using Module 100 (`dsam_doppler_attenuation_lss_blaugrund_lifetime_calculator.py`, CLI subcommand `dsam`). The engine computes LSS Thomas-Fermi stopping parameters, integrates Blaugrund multiple scattering, evaluates the full $F(\tau)$ calibration curve, and inverts experimental centroid shifts with exact $1\sigma$ uncertainty propagation.
+The historical implementation reference is Module 100 (`dsam_doppler_attenuation_lss_blaugrund_lifetime_calculator.py`, CLI subcommand `dsam`). This learning batch did not execute or validate it. A chosen stopping model and conditional numerical inversion are not a reproduction of an author's analysis or a guarantee of total uncertainty coverage; geometry, feeding, stopping, branching and their correlations require separate checks.
 
 ## Sources
+
+- [[casarella-2017-vibrational-phonon-lifetimes-thesis]]: DSAM-INS original methods, conditional errors and distinct GRID provenance.
+- [[ayangeakaa-2013-tidal-waves-chirality-thesis]]:102Pd original lineshape analysis and excluded stopping uncertainty.
 
 - [[book-wu-nuclear-experiment-methods]]: 吴治华, 《原子核物理实验方法（第三版）》, 原子能出版社 (2005), 第15章 核寿命的测量, 印刷 pp. 421–452 / PDF pp. 429–460.
 - Nolan, P. J., Sharpey-Schafer, J. F., *The measurement of the lifetimes of excited nuclear states using the Doppler shift attenuation method*, Rep. Prog. Phys. 42, 1 (1979).

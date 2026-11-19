@@ -1,0 +1,71 @@
+{
+  "recorded_at": "2026-11-19T19:28:59.613829+00:00",
+  "status": "Casarella2017 source and selected lifetime/phonon evidence integration complete; whole corpus goal active",
+  "reading_depth": "read; not event/author-code reproduction",
+  "primary_PDF_pages": 333,
+  "cumulative_primary_sources": 6,
+  "cumulative_primary_PDF_pages": 919,
+  "page_count_boundary": "Physical primary-PDF coverage in this run, not unique scientific content or independent experiments; frame cache counted once, embedded papers retain lineage.",
+  "validation": {
+    "automation_preflight": "passed",
+    "boundary": "passed",
+    "own_archive_gate": "passed",
+    "scoped_lint_errors": 0,
+    "whole_repo_lint_counts": {
+      "error": 132,
+      "warning": 501,
+      "info": 5482
+    },
+    "unrelated_baseline_errors": 129,
+    "isolated_parallel_errors": 3,
+    "warning": "No verified citation key; not invented",
+    "diff_check": "passed; rerun at staging"
+  },
+  "Gemini_work": {
+    "primary_units": 15,
+    "primary_deliverables": 60,
+    "targeted_units": 3,
+    "targeted_answers": 7,
+    "returned_completed_API_calls": 18,
+    "network_retries": 0,
+    "separate_full_source_writer_calls": 0,
+    "source_paragraphs": "Reused targeted worker paragraphs with manager evidence edits and metadata template; no whole-reading repeat."
+  },
+  "scope_boundaries": [
+    "Equivalentreceipt repaired from cache only",
+    "METHOD corrected response overlaps118 and cites unprovided92-93; source records partial scope and manager original verification, not full53page correction reading",
+    "GRID acquisition independent ofDSAM, but reprinting and adoptedbranch inputs do not create additional independent observations",
+    "AppendixB/C/D preserved as2017thesis manuscript versions; no claim latest2026accepted versions audited"
+  ],
+  "learning_impact": [
+    "Weak0+ groundbranches versus intergamma enhancement and same-data1599re-evaluation",
+    "1535/2181 branch,delta and lifetime limits; sourcefooter/spinlabel discrepancies preserved",
+    "GRID feeding-extreme intervals and empiricalcenter versus probabilisticCI",
+    "DSAM concept corrected for nonuniversal timewindows, nonlinearerrors and conditional inversion; original error-treatment comparison with102Pd"
+  ],
+  "next_work": {
+    "source": "doi:10.7274/v979v121d86",
+    "author": "Mallory K. Smith",
+    "pages": 193,
+    "primary_units": 10,
+    "runtime_entry": "tmp/deep-learning-smith2017/run_smith.py",
+    "state": "actual primary reading in progress; not accepted as seventh source",
+    "map": "PDF18=printed1;9actualchapter/appendixheaderschecked",
+    "frame_locator_repair": "One supplied bibliography printed171 locator corrected to actualPDF188 after original check; no newcall."
+  },
+  "publication_pointer": {
+    "branch": "main",
+    "subject": "research: learn Casarella2017 lifetime and phonon boundaries"
+  },
+  "excluded_parallel_paths": [
+    ".agents/skills/get-paper/SKILL.md",
+    "knowledge/research-notes/pdco-pdm-response-contract-20261118.md",
+    "knowledge/sources/book-hamilton-electromagnetic-interaction.md",
+    "knowledge/research-notes/pdm-three-mode-execution-contract-20261120.md",
+    "knowledge/sources/pypi-pdm-packaging-20261120.md",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/"
+  ],
+  "PDM_run": false,
+  "new_acquisition": false,
+  "whole_corpus_complete": false
+}

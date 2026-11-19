@@ -108,6 +108,28 @@ limits; this is not a new independent copy of the published Ce experiment.
 Next source Casarella2017 is in actual primary reading,333 pages in15 units;
 its35-page frame unit is cached and reused, not a full-source completion.
 
+## Sixth executed reading checkpoint
+
+[[casarella-2017-vibrational-phonon-lifetimes-thesis]] records333 primary PDF
+pages across15 Gemini units, with the35-page frame reused from cache. Three
+small targeted units returned seven correction answers and reusable paragraphs;
+no separate whole-source writer was called. One equivalent receipt object was
+normalized from cache. METHOD's overlapping page118 and unsupported92-93
+reading claim remain recorded; the manager checked actual originals and
+accepted selected content, not all53correction pages as covered.
+
+Learning distinguishes low0+ and gamma-gamma interpretations from absolute
+strengths/limits, manuscript re-evaluation from new experiments, and the
+independent GRID probe from repeated publication. Standard162E2Weisskopf and
+branch/mixing checks identify a footer conversion discrepancy and explain
+0.7 versus1.3Wu without inventing a new fit. The DSAM concept now drops
+universal time windows, exact-inversion and unique-mode claims; stopping
+uncertainty treatment differs from the102Pd source. No author-code orPDM run.
+
+Smith2017 on109Ru/109Tc fast timing is now in actual193-page10-unit primary
+reading after own identity/hash/header-map checks; its preparation is not a
+seventh source completion.
+
 ## Final acquisition closure and learning design
 
 The user has closed further acquisition and requested an in-depth learning
