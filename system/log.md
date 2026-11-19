@@ -6235,3 +6235,8 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - 本地启用 21 个新版技能：Nature Skills 12 个（`9bd1d08`）、Academic Research Skills 5 个及共享依赖（`23807f9`）、ARS-Codex（`82725ac`）、book-to-skill（`a3fd262`）、humanizer 4.0.0（`a48c60c`）和说人话 2.7.1（`709acdd`）。已核对启用文件与暂存件，保留中文触发描述和本机路径适配，升级前安装保留在本机回退目录。
 - Scientific Agent Skills 上游 `ec59a29` 的技能文件与现装来源 `5f2bc03` 一致。共享技能库与 Gitee `main` 一致。
 - `get-paper` 明确由 Agent 根据来源筛选候选，21 项离线测试通过。PubMed 的上游测试夹具误用 `defusedxml` 构造 XML，临时副本修正该导入后，检索回归 19 项通过。安装文件保留上游原件。
+
+## 2026-11-20 — Wiki 外部能力学习
+
+- 新增手动入口 `$wiki-evolution`。它按 Wiki 的实际需求搜索公开 GitHub 仓库，按提交采样技能、hook、许可证和相关文件，每轮可整合一项经核验的本地改进。
+- Codex App Server 已识别仓库技能及手动入口元数据。实测检索后取回 `openai/skills@49f948f` 的技能与许可证，以及 `first-fluke/oh-my-agent@8f9e4f1` 的 Codex hook 配置与许可证。临时样本通过哈希核对。四项离线回归覆盖固定提交、文件完整性和样本隔离。

@@ -4,13 +4,19 @@ graph-excluded: true
 updated: 2026-09-10
 ---
 
-# Agent capability upgrade：up 与 evolution
+# Agent 能力升级与外部学习
 
 本流程把 `configure` 的 `up` 和 `muIon-beam` 的 `evolution` 适配到 Wiki。它适合更新 Agent skill、hook、工具和运行方法，不负责科学 claim 摄入，也不把外部仓库当作自动安装源。
 
+## 手动学习入口
+
+在 Codex App 的 Wiki 项目里显式调用 `$wiki-evolution`。给出要改善的 Wiki 环节或直接给出 GitHub `OWNER/REPO`。没有主题时，由 Agent 根据最近的工作摩擦挑一项具体问题。`up` 继续负责已有能力升级，`wiki-evolution` 负责从外部发现和学习。
+
+一次调用可以搜索公开仓库、固定候选提交并下载需要阅读的文件。样本与来源清单进入 `tmp/agent-capability-learning/github/`。调用时加“只调研”可得到候选评估。默认允许按采用门整合一项小改动，可改进 Wiki 的 skill、指南、工作流或本地测试，也可为独立用途新增一个 Wiki skill。运行外部安装器、启用自动 hook 或改运行环境由用户具体授权。
+
 ## 任务定义
 
-开始前写清四项：升级对象、期望行为、允许修改的路径和验证标准。默认范围是本 Wiki 的 `system/workflows/`、`system/scripts/`、`system/tests/`、README 入口和用户级 `/root/.codex/skills/`；`raw/`、`PLAN.md`、`raw/zotero/wiki-inbox.bib`、`.codex` 和凭据永远排除。
+开始前写清升级对象、期望行为、允许修改的路径和验证标准。Wiki 默认范围包括 `.agents/skills/`、`system/workflows/`、`system/scripts/`、`system/tests/` 和文档入口。用户级技能升级使用 `up` 路由。`raw/`、`PLAN.md`、`raw/zotero/wiki-inbox.bib`、`.codex` 和凭据保持在本流程范围之外。
 
 ## 基线与候选
 
@@ -29,7 +35,7 @@ updated: 2026-09-10
 基线 → 候选证据 → 最小改动 → 结构/行为/安全验证 → 记录采用或拒绝
 ```
 
-升级 `up` 或 `evolution` 自身时，还要重新检查触发描述、调用链、保护路径、用户审核门和本地测试；禁止递归触发、无限自改或在同一轮顺手重写其它 skill。验证失败则停止该候选，保留失败原因，回到下一候选或 handoff。
+升级 `up`、`evolution` 或 `wiki-evolution` 自身时，还要重新检查触发描述、调用链、保护路径、采用授权和本地测试。每次显式调用结束后等待用户发起下一轮。验证失败则记录失败原因，再评估下一候选。
 
 ## Wiki 专用验证
 

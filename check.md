@@ -44,6 +44,8 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 
 ## A. 会话记忆与治理
 
+- [ ] `wiki-evolution` 仅在手动调用后开始 GitHub 学习。采用项有固定提交、文件、许可、适用条件和验证记录。外部样本存临时目录，启用动态 hook 或安装依赖按具体动作授权。
+
 - [ ] 文献发现、原件使用和获取前已按 `system/workflows/local-literature-archive.md` 做必要本地预查；无命中注明范围/索引边界，403 不等于本地缺件；只用验证属于文献自身的 DOI 聚合身份，出版版优先且标明实际版本，附件/勘误可发现。目录登记不提升学习状态，本地缓存不入 Git，历史 54 项恢复与手稿版本缺口分别对账，未执行修复不报完成。
 
 - [ ] 活动run若有当前用户明确延期，原deadline/完整receipt快照保留，effective截止仅由同run/session且SHA绑定的sidecar解析；runner/clock共用resolver，`--until`不默改历史。one-shot只在真实有效收束小时、现有两锁内构造并一次closeout；取消/终态不送、unknown不盲重发。缺旧baseline仅接受显式重构来源/原快照/HEAD-status-ignore/EOL证据，不伪造原runner基线。新run锁内活动receipt guard通过才分配目录/session，延期不自动改全局schedule或授分。

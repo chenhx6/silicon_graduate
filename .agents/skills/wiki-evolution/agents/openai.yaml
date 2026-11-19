@@ -1,0 +1,6 @@
+interface:
+  display_name: "Wiki 外部能力学习"
+  short_description: "从 GitHub 学习 Agent 技能、钩子和工作流，并适配 Wiki"
+  default_prompt: "用 $wiki-evolution 寻找能改善 Wiki 研究流程的 Agent 技能、钩子或工作流，阅读原件并整合一项可验证的改进。"
+policy:
+  allow_implicit_invocation: false

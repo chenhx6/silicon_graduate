@@ -392,6 +392,14 @@ Codex 中的定时续跑不是 Windows 任务计划程序，也不能仅靠“�
 
 ## 10. 常用指令
 
+在 Codex App 中打开 Wiki 项目，输入 `$wiki-evolution` 并加一个想改善的环节。技能会在 GitHub 查找相关项目、下载固定版本的原文件供阅读，并在有合适证据时整合一项本地改进。加上“只调研”可只获取候选和评估。
+
+```text
+$wiki-evolution 找能改进文献精读交接的 Agent 技能，有合适的就整合。
+$wiki-evolution 调研 GitHub 上的 Agent hook 如何检查误改；只调研。
+$wiki-evolution 看看 OWNER/REPO 的 SKILL.md 有哪些做法可以用到 Wiki。
+```
+
 ```text
 按 check.md 检查本次改动，不自动合并科学概念。
 ```
