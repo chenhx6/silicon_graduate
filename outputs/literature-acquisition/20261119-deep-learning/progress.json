@@ -27,16 +27,17 @@
   "closed_fulltext_gaps": 7,
   "active_source": "bytes:cc722604aa94e765559497ee21022550e035d2ce9407448b0ae81d27dd561005",
   "active_units": [
-    "NC79-DUFFEY-CF252",
-    "NC79-EARLE-H1-TWOGAMMA",
-    "NC79-GARDNER-STRENGTH",
-    "NC79-GOLUB-SUPERTHERMAL",
-    "NC79-GREENWOOD-H1-ENERGY",
-    "NC79-GREENWOOD-N14-ENERGIES",
-    "NC79-HENKELMANN-ACTIVATION",
-    "NC79-HOFF-CM249-LEVELS",
-    "NC79-HOLT-O17",
-    "NC79-HOREN-PB208"
+    "NC79-JOLY-TM170-AU198",
+    "NC79-JOLY-SI28",
+    "NC79-KAHANE-RAYLEIGH",
+    "NC79-KENNY-ZR-CAPTURE",
+    "NC79-KENNY-AL-RESONANCE",
+    "NC79-KERN-NP238",
+    "NC79-KHITROV-POPULATIONS",
+    "NC79-KOELING-CAPTURE-SPECTRA",
+    "NC79-KOPECKY-SC46",
+    "NC79-KOPECKY-E1M1",
+    "NC79-AU198-CIRCULAR"
   ],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -207,7 +208,17 @@
     "NC79-DEBOER-ER168",
     "NC79-DELHEIJ-AL28",
     "NC79-DIAZ-PB208",
-    "NC79-DIONISIO-ELECTRONS"
+    "NC79-DIONISIO-ELECTRONS",
+    "NC79-DUFFEY-CF252",
+    "NC79-EARLE-H1-TWOGAMMA",
+    "NC79-GARDNER-STRENGTH",
+    "NC79-GOLUB-SUPERTHERMAL",
+    "NC79-GREENWOOD-H1-ENERGY",
+    "NC79-GREENWOOD-N14-ENERGIES",
+    "NC79-HENKELMANN-ACTIVATION",
+    "NC79-HOFF-CM249-LEVELS",
+    "NC79-HOLT-O17",
+    "NC79-HOREN-PB208"
   ],
   "completed_full_sources_this_run": 8,
   "PDM_run": false,
@@ -217,15 +228,15 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-19T23:47:55.727427+00:00",
+  "updated_at": "2026-11-19T23:54:48.984812+00:00",
   "completed_deep_read_sources_this_run": 0,
   "completed_primary_pages_this_run": 1422,
-  "current_source_note": "knowledge/sources/dionisio-et-al-1979-isotope-target-electron-spectroscopy.md",
-  "next_action": "Audit PDF 605–632. Resume at PDF 636 after prior accepted U001 (PDF 633–635).",
+  "current_source_note": "knowledge/sources/horen-harvey-hill-1979-pb-neutron-parity.md",
+  "next_action": "Audit Gemini responses at PDF 636–670, then continue the volume and wider queue.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
   "last_source_manager_closure": "HDR all 310 physical pages accounted for in 25 completed responses. First bibliography shortfall preserved and closed by two smaller batches. Comparison used published AGATA container pages and selected preprint evidence.",
-  "current_source_scientific_acceptance": "Fifty-five newly accepted chapters plus prior U001 and 18 bibliographic pages; 874-page volume partial",
-  "active_source_partial_book_covered_pages": 607,
+  "current_source_scientific_acceptance": "Sixty-five newly accepted chapters, prior U001 and 18 bibliographic pages; PDF 1–635 reconciled, 874-page volume partial",
+  "active_source_partial_book_covered_pages": 635,
   "active_source_bibliographic_pages": 18
 }

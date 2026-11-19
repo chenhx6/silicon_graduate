@@ -273,6 +273,15 @@ In [[delheij-girgin-1979-al28-circular-polarization-mixing]], the measured
 γ polarization is circular. The chapter adds a method example, outside the
 linear-polarization data survey. Volume coverage rises to 607 of 874 pages.
 
+PDF 605–632 adds ten contributions. The
+[[greenwood-chrien-1979-n14-capture-calibration|nitrogen energy adjustment]]
+inherits the separation-energy anchor of the
+[[greenwood-chrien-1979-h1-energy-neutron-binding|hydrogen reference study]].
+[[horen-harvey-hill-1979-pb-neutron-parity]] distinguishes the prior Pb-208
+case in the title from the preliminary Pb-207 results in the body.
+With the existing [[hungerford-1979-ill-angular-correlation-164dy|U001]]
+at PDF 633–635, continuous volume coverage now reaches 635 of 874 pages.
+
 ## Final acquisition closure and learning design
 
 The user has closed further acquisition and requested an in-depth learning

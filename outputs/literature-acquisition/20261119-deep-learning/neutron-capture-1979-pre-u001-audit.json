@@ -1,0 +1,199 @@
+{
+  "recorded_at": "2026-11-19T23:54:48.984812+00:00",
+  "batch_pages": [
+    605,
+    632
+  ],
+  "batch_page_count": 28,
+  "book_all_known_pages": [
+    "1-635"
+  ],
+  "book_covered_pages": 635,
+  "bibliographic_pages": [
+    "1-17",
+    "521"
+  ],
+  "book_completion": false,
+  "responses": [
+    {
+      "id": "NC79-DUFFEY-CF252",
+      "covered": [
+        605,
+        607
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "df46381fa210c596597ecf888a59f757ffc561936bf9c79832b15827c863bdd7"
+    },
+    {
+      "id": "NC79-EARLE-H1-TWOGAMMA",
+      "covered": [
+        608,
+        610
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "68458bab4913ee6ce676521ff2fca3007562786183664c46e98510a9d3a4e348"
+    },
+    {
+      "id": "NC79-GARDNER-STRENGTH",
+      "covered": [
+        611,
+        613
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "2e98e03a41880ba1bdd073d9d79ca8d242e57ecc05192f767361742a59880a43"
+    },
+    {
+      "id": "NC79-GOLUB-SUPERTHERMAL",
+      "covered": [
+        614,
+        616
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "3257aed356b9a63a9cbc5029febe513716ebb8308377125df4bdd290e13a7825"
+    },
+    {
+      "id": "NC79-GREENWOOD-H1-ENERGY",
+      "covered": [
+        617,
+        619
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "189252ff3b8b669cb23e759ffe72553c457472b24c8fd193dbb5dd1ccc22fcbe"
+    },
+    {
+      "id": "NC79-GREENWOOD-N14-ENERGIES",
+      "covered": [
+        620,
+        622
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "beda3121dc2caac8b1198cb6fd7337fd20e37ce7cfe8f78a24eea7d8b380d1ab"
+    },
+    {
+      "id": "NC79-HENKELMANN-ACTIVATION",
+      "covered": [
+        623,
+        624
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "9b833c7514c48ae682a2a4cb58d5cf0386afc1fc82b616ff9cd40d01bee099bf"
+    },
+    {
+      "id": "NC79-HOFF-CM249-LEVELS",
+      "covered": [
+        625,
+        627
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "d787bcb2662b20fa38a9ad4569128f9e6df08e44c5f3efe4be523369329b6133"
+    },
+    {
+      "id": "NC79-HOLT-O17",
+      "covered": [
+        628,
+        630
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "caa8fcb2196e5458b2a090e9763b2b53f592d5eecec50411ab06864c3c672c94",
+      "local_json_repairs": [
+        {
+          "line": 78,
+          "column": 69,
+          "literal": "\\phi"
+        },
+        {
+          "line": 78,
+          "column": 80,
+          "literal": "\\sum"
+        },
+        {
+          "line": 82,
+          "column": 47,
+          "literal": "\\phi"
+        },
+        {
+          "line": 82,
+          "column": 58,
+          "literal": "\\sum"
+        },
+        {
+          "line": 132,
+          "column": 54,
+          "literal": "\\phi"
+        }
+      ],
+      "original_response_sha256": "8160e273a7ac1a69eaa855c0e0aa771a211cac13ed11a0c076f4120d91b2d507",
+      "recovery_boundary": "Only invalid JSON backslash escapes repaired in cached text. Original response retained locally."
+    },
+    {
+      "id": "NC79-HOREN-PB208",
+      "covered": [
+        631,
+        632
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "2eb44bda16011d51625f2353f6a470425f351673aaa8364dceee9e6664f8334b"
+    }
+  ],
+  "chapter_sources": [
+    "knowledge/sources/duffey-wiggins-1979-capture-gamma-instrumentation.md",
+    "knowledge/sources/earle-mcdonald-1979-h1-double-gamma-upper-limit.md",
+    "knowledge/sources/gardner-gardner-1979-medium-mass-strength-functions.md",
+    "knowledge/sources/golub-et-al-1979-superthermal-ultracold-neutrons.md",
+    "knowledge/sources/greenwood-chrien-1979-h1-energy-neutron-binding.md",
+    "knowledge/sources/greenwood-chrien-1979-n14-capture-calibration.md",
+    "knowledge/sources/henkelmann-1979-neutron-capture-element-analysis.md",
+    "knowledge/sources/hoff-et-al-1979-cm249-capture-levels.md",
+    "knowledge/sources/holt-et-al-1979-o17-photoneutron-interference.md",
+    "knowledge/sources/horen-harvey-hill-1979-pb-neutron-parity.md"
+  ],
+  "verified_pages_and_checks": [
+    "Duffey 与 Wiggins 1979：俘获 γ 分析的本底与自吸收: PDF 605–607：历史装置案例说明样品与周围材料都可能贡献俘获谱线。正文举例，含氢和含氧介质可产生强背景线。 | PDF 607：大样品有利于增加俘获，但同时提高 γ 自吸收风险。章文没有给出跨样品和装置的统一分析灵敏度。",
+    "Earle 与 McDonald 1979：氢俘获双光子道的上限: PDF 608 / Abstract：实验报告两光子俘获截面上限 1.6 μb，注明光子能窗 700–1520 keV，较作者引用的旧上限降低。 | PDF 610 / Fig. 2：由真实符合构造能量和谱，对含氧贡献作差分。预期和能附近的峰面积与零兼容，按拟合统计误差换算成截面上限。保留背景扣除和拟合口径。",
+    "Gardner 与 Gardner 1979：强度函数积分与平均辐射宽度: PDF 611：作者拟合从 $^{75}$As 到 $^{103}$Rh 的 12 种靶核的俘获截面，入射中子能量 1 keV 至 3 MeV。由统计模型提取分离能处 $2\\pi\\Gamma_\\gamma/D$，这是拟合约束。 | PDF 612 Eq. (1)：在略去自旋和宇称的表达式中，$\\Gamma_\\gamma/D$ 对 $[f_{E1}+f_{M1}]E_\\gamma^3\\rho(S_n-E_\\gamma)$ 作积分。计算继承所选能级密度及偶极强度模型。",
+    "Golub 等 1979：超冷中子产生率与保存条件: PDF 614–615 / Eqs. (1)–(2)：单声子过程是作者讨论的慢化机制。达到的密度同时取决于产生与损失，连续通量和体积储存密度采用不同定义。 | PDF 616：早期连续通量实验的产生率与预测在约二倍内相符。当时的实验未把中子储存在液氦中，文中的积累密度属于后续装置估计。",
+    "Greenwood 与 Chrien 1979：氢俘获标尺与结合能链: PDF 618 Table I：氢俘获线与 $^{144}$Ce 参照线的能差为 $37585\\pm15$ eV。结合参照线给出 2223.247 keV 的 γ 能量，再加 1.317 keV 的反冲修正得氘结合能 2224.564 keV。测量与总误差分别为 16、17 eV。 | PDF 619 Table II：其它分离能由氘结合能和质量差推导。Table II 明列中子结合能、反冲能与 γ 能的口径，且总误差继承质量差资料，多个结果共享锚点。",
+    "Greenwood 与 Chrien 1979：氮俘获的约束能标: PDF 620–621：为避开全能峰与双逃逸峰重叠，作者使用同类逃逸峰的能量差并修正反冲。低能线包含早期谱重分析所得输入。 | PDF 622 Table II：采用值来自能级网最小二乘调整，输入包括峰间能差、部分 γ 能量及同卷推导的 $B_n(^{15}\\mathrm{N})$。因约化 $\\chi^2=1.8$，拟合赋予的误差乘 1.34。表又分测量与总误差。",
+    "Henkelmann 1979：瞬发活化的同束流比较条件: PDF 623–624：等中子通量的估算中，瞬发法在 63 种被比较元素中的 61 种有较有利的理论上限灵敏度。该比较包含所选 γ 线强度与元素截面。 | PDF 624：章文同时指出实际束外样品位置的通量损失和元素间线强差别。判断是否优于延迟活化还需按本底及实际探测能窗比较。",
+    "Hoff 等 1979：锔-249 能级和转移反应补充: PDF 625–627 / Fig. 1：纲图并入 56 条退激 γ。当前测得能级标为实线，转移反应引入的能级标为虚线。章文报本工作给出的能级能量不确定度为 7–107 eV。 | PDF 627：作者用初级跃迁、退激、能级间距和带头系统学给出组态解释，并以调整的 Coriolis 混合矩阵元描述部分能级。所给组态及惯量参数包含拟合假设。",
+    "Holt 等 1979：氧-17 光中子谱的共振干涉: PDF 628–630 / Fig. 1：光中子微分截面有 4.55 MeV 非对称结构、5.08 MeV 峰、5.38 MeV 对称极小及平滑底。不同散射角给出形状约束。 | PDF 630：多能级 R 矩阵描述沿用逆向俘获道参量，在同一计算中给出上述结构。极小值和各俘获机制的对应由振幅干涉模型解释。",
+    "Horen 等 1979：铅同位素的散射共振与辐射归类: PDF 631：题名为 $^{208}$Pb，导言用 $^{207}$Pb 靶散射讨论早先 $^{208}$Pb 的结果；本章当前初步分析实际是 $^{206}$Pb 靶散射及 $^{207}$Pb 的辐射归属。须按正文区分两套核素与数据。 | PDF 631–632：当前共振区间为 $E_n=25$–700 keV，原文称约三分之二的约 280 个共振已有 $\\ell$ 归属。据此重比既往光核数据，作者推测先前归到 M1 的相当部分在此窗实为 E1，保留为初步重归属。"
+  ],
+  "next_batch": {
+    "pages": [
+      636,
+      670
+    ],
+    "units": [
+      "NC79-JOLY-TM170-AU198",
+      "NC79-JOLY-SI28",
+      "NC79-KAHANE-RAYLEIGH",
+      "NC79-KENNY-ZR-CAPTURE",
+      "NC79-KENNY-AL-RESONANCE",
+      "NC79-KERN-NP238",
+      "NC79-KHITROV-POPULATIONS",
+      "NC79-KOELING-CAPTURE-SPECTRA",
+      "NC79-KOPECKY-SC46",
+      "NC79-KOPECKY-E1M1",
+      "NC79-AU198-CIRCULAR"
+    ]
+  },
+  "carried_forward": {
+    "pages": [
+      633,
+      635
+    ],
+    "source_note": "knowledge/sources/hungerford-1979-ill-angular-correlation-164dy.md",
+    "new_api_requests": 0
+  }
+}

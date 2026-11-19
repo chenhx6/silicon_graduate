@@ -86,6 +86,16 @@ updated: 2026-11-20
 - [[delheij-girgin-1979-al28-circular-polarization-mixing]] — γ 圆偏振和角分布联合约束混合比的历史例。
 - [[dietrich-kerman-1979-pb208-capture-models]] — 共用俘获数据下两类振幅的敏感性。
 - [[dionisio-et-al-1979-isotope-target-electron-spectroscopy]] — 样品、衬底与低能电子动量分辨率。
+- [[duffey-wiggins-1979-capture-gamma-instrumentation]] — 历史俘获谱样品本底与自吸收。
+- [[earle-mcdonald-1979-h1-double-gamma-upper-limit]] — 双光子俘获上限、能窗和差分本底。
+- [[gardner-gardner-1979-medium-mass-strength-functions]] — 平均辐射宽度约束强度与能级密度的积分。
+- [[golub-et-al-1979-superthermal-ultracold-neutrons]] — 连续通量、降能率与密度估计。
+- [[greenwood-chrien-1979-h1-energy-neutron-binding]] — 氢俘获能标、反冲和分离能锚点。
+- [[greenwood-chrien-1979-n14-capture-calibration]] — 氮俘获采用能量及共同拟合误差。
+- [[henkelmann-1979-neutron-capture-element-analysis]] — 瞬发与延迟活化的条件性灵敏度比较。
+- [[hoff-et-al-1979-cm249-capture-levels]] — 锔-249 纲图中的俘获与转移来源。
+- [[holt-et-al-1979-o17-photoneutron-interference]] — 氧-17 光中子形状与逆反应干涉。
+- [[horen-harvey-hill-1979-pb-neutron-parity]] — 铅同位素散射与基态辐射重归属。
 
 ## A130前置正文重写：样节与一致性
 
