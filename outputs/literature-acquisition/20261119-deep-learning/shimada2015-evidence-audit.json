@@ -1,0 +1,432 @@
+{
+  "recorded_at": "2026-11-19T17:14:27.364709+00:00",
+  "source": "doi:10.15017/1654644",
+  "source_note": "knowledge/sources/shimada-2015-angular-momentum-projection-thesis.md",
+  "primary_pages": 110,
+  "primary_coverage_boundary": "Seven original units actual PDF1-110;28 supplemental PDF inputs overlap and do not increase primary page or publication counts.",
+  "reading_depth": "read",
+  "main_units": [
+    {
+      "task_id": "SH-FRAME",
+      "provided_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "initial_unit_status": "partial",
+      "initial_task_statuses": {
+        "F1": "complete",
+        "F2": "complete",
+        "F3": "partial",
+        "F4": "partial"
+      },
+      "structure": "passed after cached transport repair where recorded",
+      "model_reported": "agy-cli/gemini-3.8-flash",
+      "response_status": "completed"
+    },
+    {
+      "task_id": "SH-MG",
+      "provided_pages": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "initial_unit_status": "partial",
+      "initial_task_statuses": {
+        "G1": "complete",
+        "G2": "complete",
+        "G3": "partial",
+        "G4": "complete"
+      },
+      "structure": "passed after cached transport repair where recorded",
+      "model_reported": "agy-cli/gemini-3.8-flash",
+      "response_status": "completed"
+    },
+    {
+      "task_id": "SH-MULTI",
+      "provided_pages": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "initial_unit_status": "complete",
+      "initial_task_statuses": {
+        "M1": "completed",
+        "M2": "completed",
+        "M3": "completed",
+        "M4": "completed"
+      },
+      "structure": "passed after cached transport repair where recorded",
+      "model_reported": "agy-cli/gemini-3.8-flash",
+      "response_status": "completed"
+    },
+    {
+      "task_id": "SH-MGDY",
+      "provided_pages": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "initial_unit_status": "complete",
+      "initial_task_statuses": {
+        "D1": "completed",
+        "D2": "completed",
+        "D3": "completed",
+        "D4": "completed"
+      },
+      "structure": "passed after cached transport repair where recorded",
+      "model_reported": "agy-cli/gemini-3.8-flash",
+      "response_status": "completed"
+    },
+    {
+      "task_id": "SH-RAREEARTH",
+      "provided_pages": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73
+      ],
+      "initial_unit_status": "partial",
+      "initial_task_statuses": {
+        "R1": "complete",
+        "R2": "complete",
+        "R3": "partial",
+        "R4": "complete"
+      },
+      "structure": "passed after cached transport repair where recorded",
+      "model_reported": "agy-cli/gemini-3.8-flash",
+      "response_status": "completed"
+    },
+    {
+      "task_id": "SH-WOBBLING",
+      "provided_pages": [
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "initial_unit_status": "partial",
+      "initial_task_statuses": {
+        "W1": "complete",
+        "W2": "complete",
+        "W3": "partial",
+        "W4": "complete"
+      },
+      "structure": "passed after cached transport repair where recorded",
+      "model_reported": "agy-cli/gemini-3.8-flash",
+      "response_status": "completed"
+    },
+    {
+      "task_id": "SH-CHIRAL",
+      "provided_pages": [
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "initial_unit_status": "partial",
+      "initial_task_statuses": {
+        "C1": "complete",
+        "C2": "complete",
+        "C3": "partial",
+        "C4": "partial"
+      },
+      "structure": "passed after cached transport repair where recorded",
+      "model_reported": "agy-cli/gemini-3.8-flash",
+      "response_status": "completed"
+    }
+  ],
+  "manager_input_error": {
+    "recorded_at": "2026-11-19T16:43:52.756219+00:00",
+    "kind": "manager preparation error caught during live main-unit requests",
+    "actual_mapping": "PDF12=printed1; for PDF>=12 printed=PDF-11; PDF1-11 front matter",
+    "incorrect_prompt_mapping": "PDF-7 supplied to initial SH-* main units; preserved in actual packet/prompt provenance, not silently rewritten",
+    "consequence": "Chapter boundaries shift by4 pages relative to prepared questions. Actual supplied PDFs remain disjoint1-110, but task coverage and printed-page claims cannot be accepted automatically.",
+    "action": "Keep live requests and outputs (do not restart solely for delay), audit actual PDF/images, repair derived printed locators, issue narrowly scoped supplementation for GCM25-28, Er73-77, negative-gamma/Gogny90-94 and104Rh101-104 as needed. Full reading completion remains unproven until task reconciliation.",
+    "not_worker_fault": true
+  },
+  "task_reconciliation": {
+    "SH-FRAME.F3": "R1 GCM/metric25-28 plus manager original-page checks",
+    "SH-MG.G3": "R2 Mg figures36-39; spectral prediction versus experiment boundary54",
+    "SH-RAREEARTH.R3": "R3 Er73-77",
+    "SH-WOBBLING.W3": "R4 negative-gamma/Gogny90-97",
+    "SH-CHIRAL.C3/C4": "R5 Rh101-104 and chapter conclusion104-106",
+    "cross-unit_scientific_overclaims": "R6/R7 targeted withdrawal plus manager selected-claim integration"
+  },
+  "supplementation_task": {
+    "task_id": "SH-SUP-DRAFT",
+    "items": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7"
+    ],
+    "reported_states": "all complete; manager does not admit every statement",
+    "source_draft_structure": "passed after manager moved fenced YAML to real frontmatter",
+    "model_reported": "agy-cli/gemini-3.8-flash"
+  },
+  "cached_format_repairs": [
+    {
+      "task_id": "SH-MG",
+      "error": "JSONDecodeError after HTTP200 completed response",
+      "repair": "Two source_locator sequences wrapped in object braces changed to arrays",
+      "new_API_calls": 0
+    },
+    {
+      "task_id": "SH-RAREEARTH",
+      "error": "JSONDecodeError after HTTP200 completed response",
+      "repair": "Six invalid JSON escapes doubled; parsed strings checked for unintended control fields",
+      "new_API_calls": 0
+    }
+  ],
+  "manager_checks": [
+    {
+      "pages": [
+        1,
+        2
+      ],
+      "item": "own-source identity",
+      "accepted": "Kyushu repository wrapper own DOI10.15017/1654644,2015 doctorate designation and MitsuhiroShimada title verified; source SHA matched. No exact award date inferred from external2016 catalogue."
+    },
+    {
+      "pages": [
+        23,
+        24,
+        25,
+        26,
+        41,
+        42
+      ],
+      "item": "projection and metric",
+      "accepted": "Source explicitly assumes rotationally invariant H with [H,P]=0; symmetry-broken reference is not proof fullH breaks rotational invariance. K-mixed HWG H g=E N g; raw g squared is not a probability, f=sqrt(N)g is the source collective amplitude. Nonzero norm cutoff is a numerical restriction, not exact deletion of redundant zero modes. Coupled D/R sign convention retained, not guessed from independent formulas."
+    },
+    {
+      "pages": [
+        42,
+        76,
+        77,
+        105,
+        106
+      ],
+      "item": "multi-cranked method scope",
+      "accepted": "Source introduces sum over projected states at different frequencies and obtains improved spin dependence in cases. Four/five configurations sufficed in tested cases, not universal theorem. Coulomb exchange exact in ch3 and Slater in ch4 chosen for proton pairing; do not call exact exchange intrinsically false.164Er s-band is explicitly calculated, crossing predicted Iabout18, about3hbar above data; neutron gap vanishes and s-band inertia too large."
+    },
+    {
+      "pages": [
+        85,
+        90,
+        94,
+        98,
+        99,
+        100,
+        101,
+        102,
+        104,
+        106
+      ],
+      "item": "mode and fitting boundaries",
+      "accepted": "Wobbling-like spectra and chiral doublets are model results, quantitative agreement unsatisfactory.128Cs beta=.3 gamma=-30deg and104Rh beta=.25 gamma=-30deg were searched to produce doublets; no cranking in those chiral examples. Their near-degeneracy onsets at higher spin than experiment. No-free-parameter Mg/Gogny phrase does not apply to entire thesis or triaxial cases."
+    }
+  ],
+  "declared_algebra_check": {
+    "kind": "manager algebraic consistency example, not author-code reproduction or PDM",
+    "source_bridge": "Shimada PDF24-26 Eqs2.43-2.62; PDF41-42 Eqs4.1-4.6",
+    "arbitrary_example_inputs": {
+      "N": [
+        [
+          1.0,
+          0.6
+        ],
+        [
+          0.6,
+          1.0
+        ]
+      ],
+      "H": [
+        [
+          1.2,
+          0.3
+        ],
+        [
+          0.3,
+          2.0
+        ]
+      ],
+      "g": [
+        0.5590169943749475,
+        0.5590169943749475
+      ],
+      "shift": 2.75
+    },
+    "results": {
+      "g_norm_with_N": 1.0000000000000002,
+      "raw_g_squared_sum": 0.6250000000000001,
+      "f_squared_sum": 0.9999999999999998,
+      "generalized_energies": [
+        1.072679948694234,
+        3.364820051305764
+      ],
+      "shifted_energies": [
+        3.8226799486942333,
+        6.114820051305763
+      ],
+      "shift_invariance_passed": true,
+      "nonzero_small_norm_mode_counterexample": {
+        "norm_eigenvalues": [
+          1e-10,
+          2.0
+        ],
+        "natural_mode_energies": [
+          0.5,
+          2.0
+        ],
+        "cutoff": 1e-08,
+        "full_ground_energy": 0.5,
+        "retained_ground_energy": 2.0
+      }
+    },
+    "boundary": "No measured values or thesis parameters used. Cutoff example demonstrates logical non-equivalence, not an estimate of the thesis truncation error."
+  },
+  "source_draft_manager_edits": [
+    "promote fenced metadata to real YAML frontmatter and preserve H1",
+    "use own verified Japanese name, not invented translation",
+    "record manager error and real scientific supplementation, not blanket relabeling",
+    "replace invented closed Fortran claim and state actual read/Not covered boundaries",
+    "restrict gamma and chiral interpretation to tested inputs",
+    "correct claim roles, upward E2/matter-radius identity, and scope",
+    "replace invented chirality parity and universal inertial mechanisms with checked kernels/inputs",
+    "correct Gogny versus separable pairing and remove unproven decoherence/repulsion claim",
+    "replace universal ideal-chiral tests with measured/conditional evidence boundaries",
+    "ground knowledge impact in actual prior knowledge and manager responsibility"
+  ],
+  "rejected_or_bounded_claims": [
+    "Universal fixed30percent PY-inertia offset or automatic exact I(I+1) spectrum",
+    "FullH breaks rotational invariance because HFB reference deformed",
+    "Time-odd as spatial negative parity",
+    "40Mg rotational-spectrum experimental validation in this2015 thesis",
+    "Universal .20MeV frequency ceiling or inability to calculate s-band",
+    "Exact Coulomb exchange is intrinsically physically false; all finite-HO halo descriptions impossible",
+    "Gogny ch4 pairing incorrectly relabeled ch5 separable monopole pairing",
+    "Gamma sign alone determines mode across conventions",
+    "AMP restores ordinary chirality parity and guarantees dynamic degeneracy",
+    "Universal M1=0/infinity or E2-forbidden tests; unsupported mandatory orthogonality",
+    "Observed crossing certifies full g-s interaction or decoherence predictions",
+    "Rms radii from reaction-cross-section conversion labeled charge radii",
+    "Initial wrong printed-page labels treated as proof all science tasks complete"
+  ],
+  "scope_limits": [
+    "No author HFB/AMP/GCM implementation or full basis/norm convergence reproduction",
+    "No digitization of all plot points or primary experimental event reanalysis",
+    "Not every external cited paper/formula rechecked; printed Eq5.30 remains bounded"
+  ],
+  "thematic_reflect": {
+    "sources": [
+      "Li2016",
+      "Gu2007",
+      "Shimada2015"
+    ],
+    "persisted_at": "knowledge/concepts/angular-momentum-projection-and-peierls-yoccoz.md",
+    "result": "Compare fitted inputs and held-out observables; symmetry is not unique dynamics; no model ranking or independent-experiment vote count"
+  },
+  "returned_successful_requests": 8,
+  "attempted_requests": 8,
+  "network_retries": 0,
+  "provider_reported_usage": {
+    "input_tokens": 266040,
+    "output_tokens": 217412,
+    "total_tokens": 483452
+  },
+  "usage_boundary": "Reported aliases/tokens only; hidden backend/billing tier not verified; requested output cap not established as enforced cost/runtime limit.",
+  "PDM_run": false,
+  "new_acquisition": false,
+  "whole_corpus_complete": false
+}

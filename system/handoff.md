@@ -3,7 +3,18 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
-## Active handoff — 2026-11-20 持续自主学习，Gu2007 检查点
+## Active handoff — 2026-11-20 Shimada检查点与Ayangeakaa续读
+
+- 用户已明确：当前共两个session，未知增量主要属于另一session的P/ADO/DCO工作；后续同类改动原样保留、与馆藏学习提交隔离，不重复请求确认。包括Hamilton来源、PDCO合同、新三模式合同及其计划目录；不替另一session修索引或提交其文件。其它无关异常仍按原规则处理。
+- Shimada110页主读及七项定向补核已返回，管理层已按原页核验并集成来源与AMP概念页；read而非代码复现。累计四篇、400个主原件PDF页，整库目标仍active。下述旧页码错误已通过实际补输入闭环，不只是更换标签。检查点稳定指针 `main + research: learn Shimada2015 and qualify projection evidence`；精确发布结果存本地receipt。
+- Ayangeakaa2013已实际启动九单元主读，186页不重叠，`tmp/deep-learning-ayangeakaa/run_ayangeakaa.py`，并发2；真实标题/章节页映射守卫PDF20/65/101/131/173/177通过后才发请求。PDF20=printed1；此文GCM是Geometric Collective Model。接口返回与科学验收尚须逐项对账，不提前加完成学分。没有新下载、PDM或daemon。
+
+### Shimada准备错误历史（已补核，保留provenance）
+
+- Shimada110页原件已实际启动 `tmp/deep-learning-shimada/run_shimada.py`，七单元、并发2。本轮开始时工作树仅有已确认的另窗口Hamilton/PDCO两处修改，继续保留，不纳入学习提交。已完成的前三篇不重读，累计已验收仍为290页，不能给尚未核完的Shimada加完成学分。
+- 管理层在请求进行中发现自己的准备错误：本原件PDF12对应印刷1，正确换算为PDF−11；之前误按PDF−7给出printed标签，章节任务边界也前移4页。实际发送PDF页仍完整、不重叠覆盖1–110，原请求/响应保留，不静默改 provenance，不取消或重复已有活请求。须按原图实际PDF定位核查并对GCM25–28、Er73–77、负gamma/Gogny90–94及104Rh101–104等遗漏任务定向补齐；不能只修页码就宣称任务完成。这是管理层输入错误，不归责worker。细节 `tmp/deep-learning-shimada/manager-page-map-erratum.json` 和progress.json；不要无差别重跑主脚本。
+
+## Previous checkpoint — Gu2007
 
 - 用户已确认并行文件来源且明确继续；原生goal恢复为active，整个馆藏目标未完成。Li2016检查点已按显式10文件提交并推送，稳定指针 `main + research: learn Li2016 core coupling and resume archive queue`，精确hash在 `outputs/literature-acquisition/20261119-deep-learning/li2016-receipt.local.json`；另窗口Hamilton/PDCO两文件保留但未混入本次提交。
 - Gu2007原件99页已由四单元主读完成；两次初始连接失败后各首次重试，不重读成功单元。Gemini另做六项定向订正与来源草稿，管理层删去长原文摘录、错误E(5)替代引文、错误频标/公式及writer-only范围混淆等。来源 [[gu-2007-tsd-tidal-waves-thesis]] 为read而非deep-read；没有运行作者CNS/TAC代码或PDM。累计三篇原件、290个PDF页，不等于全库覆盖。

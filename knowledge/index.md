@@ -26,6 +26,7 @@ updated: 2026-11-20
 - [[madiba-2008-190tl-dco-polarization-thesis]] — 首篇完整正文阅读：190Tl 实验链、门依赖、不对称度与指认边界；形式定义原始出处尚待核对。
 - [[li-2016-algebraic-collective-core-quasiparticle-thesis]] — 软/刚核芯与准粒子耦合、135Pr及109Pd比较、ACM实现与原件公式边界；不新增独立实验。
 - [[gu-2007-tsd-tidal-waves-thesis]] — 163Tm的TSD/粒子—空穴竞争与A110潮汐波；保留四极矩差异，订正频标和跨区外推边界。
+- [[shimada-2015-angular-momentum-projection-thesis]] — HFB/AMP/GCM、多推转惯量、Mg及三轴模式；纠正完整H、度规与刚体谱的混淆，保留参数搜索和实验偏差。
 
 ## A130前置正文重写：样节与一致性
 

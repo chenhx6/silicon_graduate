@@ -1,6 +1,6 @@
 {
   "created_at": "2026-11-19T14:50:09.195632+00:00",
-  "status": "third-source-completed-with-boundaries; ongoing-goal-incomplete",
+  "status": "fourth-source-completed-with-boundaries; corpus-learning-active",
   "pdf_files_registered": 1016,
   "provisional_work_groups": 988,
   "grouping_boundary": "Not a verified unique-publication count. Byte grouping and old catalogue associations require own-identity/edition/role/scope audits. Collection sources do not establish individual full reading.",
@@ -25,8 +25,18 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": null,
-  "active_units": [],
+  "active_source": "doi:10.7274/w9504x5422x",
+  "active_units": [
+    "AY-FRAME",
+    "AY-FOUND",
+    "AY-PAIR-CHIR",
+    "AY-EXP",
+    "AY-CALIB",
+    "AY-TIDAL",
+    "AY-PD102",
+    "AY-CE133-EXP",
+    "AY-CE133-MODEL"
+  ],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
     "SPEC-A01-MADIBA-2008",
@@ -41,9 +51,17 @@
     "GU07-FOUNDATIONS-NET1",
     "GU07-METHOD",
     "GU07-TM163-NET1",
-    "GU07-TIDAL"
+    "GU07-TIDAL",
+    "SH-FRAME",
+    "SH-MG",
+    "SH-MULTI",
+    "SH-MGDY",
+    "SH-RAREEARTH",
+    "SH-WOBBLING",
+    "SH-CHIRAL",
+    "SH-SUP-DRAFT"
   ],
-  "completed_full_sources_this_run": 3,
+  "completed_full_sources_this_run": 4,
   "PDM_run": false,
   "new_search_or_download": false,
   "queue_entries_including_closed_gaps": 995,
@@ -51,11 +69,11 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-19T16:34:37.266627+00:00",
+  "updated_at": "2026-11-19T18:19:30.778537+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 290,
-  "current_source_note": "knowledge/sources/gu-2007-tsd-tidal-waves-thesis.md",
-  "next_action": "Run prepared tmp/deep-learning-shimada/run_shimada.py:7 units/110 pages/28 deliverables; own2015 doctoral identity checked, no scientific units called yet.",
-  "runtime_background_jobs_running": false,
+  "completed_primary_pages_this_run": 400,
+  "current_source_note": "knowledge/sources/shimada-2015-angular-momentum-projection-thesis.md",
+  "next_action": "Await Ayangeakaa actual returned units; reconcile deliverables and source evidence before integrating or counting.",
+  "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false
 }

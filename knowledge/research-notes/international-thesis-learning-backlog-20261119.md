@@ -68,6 +68,26 @@ linear growth to its model limits, and withdraw unsupported A130 assignments.
 The adopted lifetime results retain statistical versus possible systematic errors;
 they do not constitute an independent second experimental measurement.
 
+## Fourth executed reading checkpoint
+
+[[shimada-2015-angular-momentum-projection-thesis]] covers the110-page
+Kyushu thesis (own repository identifies2015, not the external2016 catalogue
+year). Seven primary units returned, followed by seven targeted supplementation
+items to reconcile GCM, Mg figures,164Er s-band, negative-gamma/Gogny and104Rh
+tasks. The initial printed-page offset error was made by the manager; it did
+not remove PDF pages but did shift chapter assignments. Original packets are
+preserved and corrected scientific coverage is not inferred from page counts alone.
+Two returned JSON formatting problems were repaired from cache without API repeats.
+
+Main impact: the AMP concept now distinguishes full-H rotational invariance
+from reference-state breaking, good spin from rigid-rotor dynamics, raw GCM
+coefficients from metric-normalized amplitudes, and finite norm cutoffs from
+exact null spaces. An explicit matrix example is not author-code reproduction.
+The Li/Gu/Shimada theory stage is reflected in the AMP page's comparison matrix;
+it does not add three independent experiments or rank the models.40Mg rotational
+results are predictions in this thesis, while several high-spin comparisons retain
+clear quantitative discrepancies.
+
 ## Final acquisition closure and learning design
 
 The user has closed further acquisition and requested an in-depth learning

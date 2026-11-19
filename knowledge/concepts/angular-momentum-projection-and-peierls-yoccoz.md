@@ -1,34 +1,49 @@
 ---
 type: concept
-title: "量子角动量投影（AMP）、重整化转动能谱与Peierls-Yoccoz转动惯量动力学"
+title: "角动量投影、非正交组态混合与转动惯量边界"
 aliases: [角动量投影, AMP, 旋转对称性恢复, 重整化能谱, Peierls-Yoccoz惯量, 范数核, 哈密顿核, 高斯重叠近似, GOA, 投影壳模型]
 created: 2026-11-02
-updated: 2026-11-02
+updated: 2026-11-20
 status: ai-draft
 review_status: unreviewed
 tags: [angular-momentum-projection, amp, peierls-yoccoz, rotational-bands, symmetry-restoration, gaussian-overlap-approximation, goa, tpsm]
 ---
 
-# 量子角动量投影（AMP）、重整化转动能谱与Peierls-Yoccoz转动惯量动力学
+# 角动量投影、非正交组态混合与转动惯量边界
 
 ## Definition
 
 ### 物理全景：从破缺对称性内禀波包到实验室系纯自旋态
 
-在微观核多体理论（如 Nilsson 变形平均场、Hartree-Fock 或 Hartree-Fock-Bogoliubov）中，为了在变分空间中容纳强形变核芯的集体四极关联，自洽场强制打破了空间转动不变性：
-$$[\hat{H}, \hat{\mathbf{J}}^2] \ne 0$$
-内禀变形波函数 $|\Phi\rangle$ 在物理上**并不是一个具有确定角动量 $I$ 的物理真实能态**，而是一个叠加了全套自旋序列（$I = 0, 2, 4, 6, \dots$ 或 $I = K, K+1, \dots$）的庞大相干波包。
+必须区分旋转不变的完整哈密顿量与破缺对称性的平均场参考态。
+在这里的旋转不变框架下，完整 \(H\) 与旋转及角动量对易；
+变形平均场 \(h\) 或参考态 \(|\Phi\rangle\) 可以不具有该对称性，
+并不表示完整 \(H\) 被强制改成 \([H,J^2]\ne0\)。
+Shimada论文PDF24的Eq.2.42明确使用 \([H,P^I_{MK}]=0\)
+（[[shimada-2015-angular-momentum-projection-thesis]]）。
 
-根据 R. E. Peierls & J. Yoccoz（Proc. Phys. Soc. A 70, 381, 1957）、P. Ring & P. Schuck《The Nuclear Many-Body Problem》（第 11 章）以及卢希庭《原子核物理（修订版）》（第 4 章）：
-为了在实验室参考系中严谨恢复角动量守恒、计算绝对能级与电磁跃迁几率，必须运用**量子角动量投影技术（Quantum Angular Momentum Projection, AMP）**：
+参考态一般包含多种自旋成分；哪些成分实际非零，由其连续与离散对称性决定，
+不能先验写成必然含全部自旋。投影可构造好角动量态，不自动给出完整多体问题的精确本征解。
+
+本轮直接依据Shimada原件PDF23–26、41–42的投影与变分定义；
+旧稿所列教材和Peierls-Yoccoz原始文献未在本轮逐篇重核。
+AMP的三个层次应分开：
 1. **转动对称性投影算符 $\hat{P}_{MK}^I$**：
-   利用不可约 Wigner $D$ 矩阵在整个 $SO(3)$ 空间欧拉角 $(\alpha, \beta, \gamma)$ 上实施相干群积分，将内禀波函数中混杂的假自旋分量严格过滤投影出纯净的实验室自旋态 $|I M K\rangle$；
-2. **Peierls-Yoccoz 转动能谱与自洽转动惯量 $\mathcal{J}_{\text{PY}}$**：
-   在投影态下计算哈密顿量期望值，自然从微观波函数中推导出了严格满足 $I(I+1)$ 的转动能带阶梯：
-   $$E(I) = \frac{\langle \Phi | \hat{H} \hat{P}_{00}^I | \Phi \rangle}{\langle \Phi | \hat{P}_{00}^I | \Phi \rangle} = E_{\text{int}} + \frac{\hbar^2}{2\mathcal{J}_{\text{PY}}} I(I + 1)$$
-3. **Peierls-Yoccoz 惯量与 Thouless-Valatin 推转惯量的物理区隔**：
-   - Peierls-Yoccoz 惯量 $\mathcal{J}_{\text{PY}}$ 由静态内禀态角动量涨落 $\langle \hat{J}_y^2 \rangle$ 给出，因未计入时间反演破缺的动态轨道重整，比刚体惯量约小 $30\%$；
-   - 随自旋推转的 Thouless-Valatin 惯量包含动态时间奇相互作用（Time-odd field），构成了投影壳模型（TPSM）在三轴超形变与回弯动力学中的底层支柱。
+   Wigner D函数与旋转算符须按同一约定做群积分。一般的 \(P^I_{MK}\)
+   是投影分量，满足 \((P^I_{MK})^\dagger=P^I_{KM}\)，不是每个分量各自都厄米；
+   对角分量求和才给整个自旋I子空间的正交投影。K也不等于实验室M。
+2. **投影能量与动力学**：
+   单一轴对称K=0参考态的能量可写为
+   \[
+   E_I=\frac{\langle\Phi|HP^I_{00}|\Phi\rangle}
+   {\langle\Phi|P^I_{00}|\Phi\rangle}.
+   \]
+   这不恒等于 \(E_0+A I(I+1)\)。非轴对称态通常还要K混合、求解
+   \(H^I g=E_I N^I g\)，能谱取决于哈密顿核、参考态和试探空间。
+3. **惯量与试探空间**：
+   静态投影、推转态投影、多推转混合及线性响应的惯量不能不加条件互换。
+   旧稿“Peierls-Yoccoz惯量必比刚体小30%”没有本页直接证据，撤回。
+   时间反演奇分量（time-odd）不是空间负宇称分量；恢复旋转也不等于做了粒子数投影。
 
 ---
 
@@ -36,10 +51,16 @@ $$[\hat{H}, \hat{\mathbf{J}}^2] \ne 0$$
 
 ### 严格投影数学积分与高斯重叠近似（GOA）
 
-### (1) 轴对称 $K=0$ 能态投影算符推导
-对于轴对称形变基态 $|\Phi\rangle$（$K=0$），绕对称轴旋转 $\alpha$ 与 $\gamma$ 是平凡简并的。投影算符完全简化为沿中间轴 $y$ 旋转极角 $\beta$ 的一维角动量积分：
-$$\hat{P}_{00}^I = \frac{2I + 1}{2} \int_0^\pi d\beta \sin\beta \cdot d_{00}^I(\beta) \cdot e^{-i \beta \hat{J}_y}$$
-其中 $d_{00}^I(\beta)$ 为 Wigner 旋转函数，在 $K=M=0$ 下**严格等价于一阶勒让德多项式（Legendre Polynomial）**：
+### (1) 轴对称K=0重叠核的约化
+对于具有轴对称K=0的参考态，重叠核中的两个轴向角积分可先做掉。
+在该核计算中，并采用 \(\hbar=1\) 及一致的旋转约定，有：
+\[
+\langle\Phi|P^I_{00}|\Phi\rangle=
+\frac{2I+1}{2}\int_0^\pi d\beta\,\sin\beta\,d^I_{00}(\beta)
+\langle\Phi|e^{-i\beta J_y}|\Phi\rangle.
+\]
+这里不是完整Hilbert空间中任意态都适用的一维算符替换。
+整数I时 \(d^I_{00}\) 等于I阶勒让德多项式，不是始终为一阶：
 $$d_{00}^I(\beta) = P_I(\cos\beta)$$
 
 ---
@@ -51,9 +72,12 @@ $$d_{00}^I(\beta) = P_I(\cos\beta)$$
 - **哈密顿核（Hamiltonian Kernel）**：
   $$h(\beta) = \langle \Phi | \hat{H} e^{-i \beta \hat{J}_y} | \Phi \rangle$$
 
-在强变形极限下，$\langle \hat{J}_y^2 \rangle$ 涨落极大，转动重叠函数在 $\beta = 0$ 附近呈现极其陡峭的高斯峰，构成了著名的**高斯重叠近似（Gaussian Overlap Approximation, GOA）**：
+当 \(\langle J_y\rangle=0\)、小角累积量展开可控时，可以研究局部高斯重叠近似
+（下式仍取 \(\hbar=1\)）：
 $$n(\beta) \approx \exp\left( - \frac{1}{2} \langle \hat{J}_y^2 \rangle \beta^2 \right)$$
-$$h(\beta) \approx n(\beta) \left[ \langle \hat{H} \rangle + \frac{\hbar^2}{2\mathcal{J}_{\text{PY}}} \langle \hat{J}_y^2 \rangle \beta^2 \right]$$
+\(h(\beta)/n(\beta)\) 的小角系数还需由相应H与参考态确定；
+不能只给 \(\langle J_y^2\rangle\) 就固定整个能量核，或把局部高斯近似
+当作整个紧致转动群上的严格重叠。本文不重新认证旧教学toy所取的能量核。
 
 ---
 
@@ -62,7 +86,7 @@ $$h(\beta) \approx n(\beta) \left[ \langle \hat{H} \rangle + \frac{\hbar^2}{2\ma
 $$N_{00}^I = \frac{2I + 1}{2} \int_0^\pi d\beta \sin\beta \cdot P_I(\cos\beta) \cdot n(\beta)$$
 $$H_{00}^I = \frac{2I + 1}{2} \int_0^\pi d\beta \sin\beta \cdot P_I(\cos\beta) \cdot h(\beta)$$
 
-最终在实验室参考系中恢复的自洽物理能谱为：
+在上述单参考态K=0条件下，投影能量为：
 $$E(I) = \frac{H_{00}^I}{N_{00}^I}$$
 激发能为 $\Delta E_x(I) = E(I) - E(0)$。
 
@@ -70,44 +94,71 @@ $$E(I) = \frac{H_{00}^I}{N_{00}^I}$$
 
 ## Discriminating Observables
 
-### 转动谱与范数积分分布
+联合比较能谱、定义明确的运动学/动力学惯量、B(E2)/B(M1)、配对和组态变化。
+投影范数及GCM幅度是模型构造的一部分，不是直接测量的独立实验概率。
+
+非正交生成基中的系数满足 \(g^\dagger N g=1\)，不是一般的
+\(g^\dagger g=1\)。Shimada PDF26 Eq.2.59与PDF42 Eq.4.6使用
+\(f=\sqrt N g\) 构造规范化集体幅度；该分布仍依赖所选生成空间。
+精确零范数冗余与小而非零本征值的数值截断不同，后者需要稳定性检查。
 
 ## Supporting Evidence
 
-### 分析工具与实战验证
+### 原件案例而非普适惯量定律
+
+Shimada PDF76–77、105–106比较了单态投影与multi-cranked混合：
+164Er、40Mg、152Dy的自旋依赖有不同表现，混合可改善所测试的惯量行为。
+164Er的g/s交叉在计算中约I=18，比实验高约3hbar，s带惯量也偏高；
+不能把成功描述趋势写成所有状态和矩阵元都精确符合。
+40Mg在该论文中没有可用于验证转动谱的实验数据（PDF54），它是模型预言案例。
+
+### 三来源阶段综合：同一比较问题不等于同一输入
+
+| 来源 | 输入与方法 | 可支持的比较及边界 |
+| --- | --- | --- |
+| [[li-2016-algebraic-collective-core-quasiparticle-thesis]]，PDF34、60–62 | QTR按奇核谱调整，QTD核芯取偶偶邻核约束 | 拟合对象不同；刚化是作者模型解释，不是直接势能测量 |
+| [[gu-2007-tsd-tidal-waves-thesis]]，PDF57–65、79–80、92–94 | TSD倾斜解与粒子—空穴竞争；A110固定配对/化学势策略 | TSD不单独确认wobbling；能量和电磁量的比较精度不同 |
+| [[shimada-2015-angular-momentum-projection-thesis]]，PDF24–26、41–42、98–101 | 对称性恢复、非正交混合；部分三轴参数为寻找双带而搜索 | 好角动量不保证唯一运动模式，参数搜索不等于盲预测 |
+
+这是本轮三个理论来源的跨源综合，不把它们当三次独立实验或据此排名模型。
+首先区分调参量与检验量、对称性与动力学、已测矩阵元与作者解释，再比较结果。
+
+### 历史教学toy接口：本轮未执行
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/angular_momentum_projection_amp_calculator.py`
 并在 `nuclear_analyzer.py` 中集成为 `amp` 命令。
 
-### 运行示范（以 $\langle J_y^2 \rangle = 35\hbar^2, A_{\text{rot}} = 25\text{ keV}$ 进行 $I = 0 \sim 10$ 投影）：
+以下保留调用入口，不是本轮新运行或对代码物理正确性的认证：
 ```bash
 python3 system/scripts/analysis/nuclear_analyzer.py amp --max-spin 10 --jy2 35.0 --a-rot 0.025 --json
 ```
 
-### 计算输出核心物理特征：
-1. **范数积分与概率权重**：
-   - 随自旋升高，态的投影重数展现出单峰泊松分布：$I=0$ 时 $N_I = 0.0142$，$I=4$ 处达到极大值 $0.0958$，$I=10$ 时自然回落，清晰证明了内禀变形波包由不同自旋成分构成的多体概率波包本质；
-2. **重整化转动谱**：
-   - 投影精确给出了纯转动态阶梯，与经典 Peierls-Yoccoz 解析极值 $E \propto I(I+1)$ 吻合良好，消除了任何人工固定转子几何的唯象假设！
+旧稿所列0.0142、0.0958等数值及“泊松分布”未在本轮重验，
+不再作为物理实证使用。以手选 \(A_{rot}\) 与重叠核构造的toy，
+不能证明无需动力学输入就微观导出严格刚体谱。生产脚本本轮未改动或复验。
 
 ---
 
 
 ## Counter-evidence and Competing Interpretations
 
-1. **变分后投影 (VAP) 对决投影后变分 (PAV)**：PAV 假定内禀波包由破缺对称平均场先行确定，可能低估大形变转动对内禀态的自洽极化重构；
-2. **高斯重叠近似 (GOA) 适用域**：GOA 假定转动重叠函数为严格高斯型，在轻质量核或弱形变近球形核中由于角动量涨落有限将产生截断偏差。
+1. PAV是先变分再投影；VAP是对投影能量变分。后续K混合或有限生成坐标混合
+   不自动等于完整VAP。旧稿中中英文顺序曾写反，此处订正。
+2. GOA是近似而非严格高斯定理；弱形变、有限群角区间和多峰重叠都需另核。
+3. 单参考态空间、配对处理、norm cut-off和所选生成坐标会限制结果。
+   类声子谱或近简并双带需结合电磁量、组态及竞争解释，不由投影代数唯一确证。
 
 ## Our Current Position
 
-本 Wiki 将量子角动量投影（AMP）视为从微观变形内禀态恢复实验室参考系转动对称性、严格消除假旋赝态并导出自洽物理转动能谱的黄金微观基准。
+AMP是恢复角动量与组织变分试探空间的方法。对称性可严格处理，
+但能量、惯量和模式解释仍受动力学、截断与数据约束；不把方法名称当正确性认证。
+本轮只核原件关键页及声明过的非正交矩阵代数例，没有运行作者HFB/AMP代码或PDM。
 
 ## Sources
 
-### 与相关前沿概念的交叉引用
+- [[shimada-2015-angular-momentum-projection-thesis]] — PDF23–26、41–42、54、76–77、98–106，本轮直接来源。
+- [[a130-rewrite-projection-selection-and-metric-truncation-20261113]] — K/M、离散选择定则、范数与能量平移的既有边界。
 - [[tpsm-3d-angular-momentum-projection-diagonalization]]
 - [[rotational-moments-of-inertia-and-spin-assignment]]
-- [[tpsm-3d-angular-momentum-projection-diagonalization]]：三轴投影壳模型（TPSM）正是在此处 1D 投影基础上拓展出三维非轴对称欧拉角全投影；
-- [[nilsson-deformed-shell-model-dynamics]]：微观 Nilsson 单核子波函数在进行组态混合后，正是经由此处投影算符输出实验室系可观测在束能级；
-- [[rotational-moments-of-inertia-and-spin-assignment]]：运动学转动惯量 $\mathcal{J}^{(1)}$ 在理论微观起源上正是 Peierls-Yoccoz 投影积分的宏观体现。
+- [[nilsson-deformed-shell-model-dynamics]]

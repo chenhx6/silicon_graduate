@@ -1,0 +1,54 @@
+{
+  "recorded_at": "2026-11-19T18:19:30.778537+00:00",
+  "status": "Shimada2015 source reading and selected key-page audit complete with explicit boundaries; whole goal active",
+  "reading_depth": "read; no author-code reproduction",
+  "validation": {
+    "automation_preflight": "passed",
+    "own_source_archive_gate": "passed",
+    "boundary": "passed",
+    "scoped_lint_errors": 0,
+    "whole_repo_lint_counts": {
+      "error": 130,
+      "warning": 499,
+      "info": 5482
+    },
+    "unrelated_baseline_errors": 129,
+    "parallel_PDCO_errors": 1,
+    "warning": "No verified citation key; not invented",
+    "diff_check": "passed before final stage; rerun at commit"
+  },
+  "manager_input_error": "Initial printed labels used PDF-7 instead of PDF-11; actual scientific task gaps supplemented using28 supplied pages, not merely relabeled. Original packets preserved.",
+  "learning_impact": [
+    "Nonorthogonal HWG metric and truncation limits",
+    "Projection restores symmetry, not unique dynamics or automatic rigid rotor",
+    "Corrected model inputs, predictions versus experimental comparisons, and g/s crossing boundary",
+    "Li/Gu/Shimada thematic comparison integrated into existing AMP concept"
+  ],
+  "actual_returned_requests": 8,
+  "attempted_requests": 8,
+  "primary_pages": 110,
+  "cumulative_primary_sources": 4,
+  "cumulative_primary_pages": 400,
+  "next_work": {
+    "source": "doi:10.7274/w9504x5422x",
+    "pages": 186,
+    "prepared_units": 9,
+    "state": "actual API reading launched; not accepted yet",
+    "runtime_entry": "tmp/deep-learning-ayangeakaa/run_ayangeakaa.py",
+    "page_map": "PDF20=printed1; six actual chapter-header guards passed"
+  },
+  "publication_pointer": {
+    "branch": "main",
+    "subject": "research: learn Shimada2015 and qualify projection evidence"
+  },
+  "excluded_parallel_paths": [
+    "knowledge/research-notes/pdco-pdm-response-contract-20261118.md",
+    "knowledge/sources/book-hamilton-electromagnetic-interaction.md",
+    "knowledge/research-notes/pdm-three-mode-execution-contract-20261120.md",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/"
+  ],
+  "parallel_authorization": "User confirms only two sessions and subsequent P/ADO/DCO edits belong to other session; preserve and isolate without repeated confirmation.",
+  "PDM_run": false,
+  "new_acquisition": false,
+  "whole_corpus_complete": false
+}
