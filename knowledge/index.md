@@ -59,6 +59,12 @@ updated: 2026-11-20
 - [[macklin-1979-resonance-capture-total-energy-detector]] — 脉冲幅度加权、产额修正和拟合相关性。
 - [[kane-1979-neutron-capture-instruments]] — 晶体谱仪的分辨率、能量定位及源漂移。
 - [[bartholomew-1979-high-intensity-neutron-sources]] — 历史中子束强度、几何和状态口径。
+- [[ageron-et-al-1979-ill-ultracold-neutron-results]] — 中子保存寿命与装置损失。
+- [[aldea-seyfarth-1979-neutron-capture-alpha-spectra]] — 两步 α 谱的统计涨落和模型依赖。
+- [[aldea-seyfarth-1979-thermal-capture-partial-alpha-widths]] — α 分截面到分宽度及共同归一。
+- [[allen-musgrove-1979-3s-capture-mechanism-i]] — 3s 区辐射宽度方差和相关性分解。
+- [[allen-musgrove-1979-3s-capture-mechanisms-ii]] — 3s 区模型的跨核比较与反例。
+- [[allen-musgrove-1979-lanthanum-praseodymium-capture]] — 入口相关和出口方差给出的不同限制。
 
 ## A130前置正文重写：样节与一致性
 

@@ -237,6 +237,16 @@ response weighting, yield normalization and the remaining fit degeneracy.
 The first distinguishes peak width from line-energy precision and source
 drift. The second distinguishes usable sample flux from source intensity.
 PDF 521 is the divider for the contributed papers and is bibliographic coverage.
+PDF 522–539 contains six separately checked contributed papers. The
+[[ageron-et-al-1979-ill-ultracold-neutron-results]] storage lifetime is
+distinct from beta decay. The
+[[aldea-seyfarth-1979-neutron-capture-alpha-spectra]] and
+[[aldea-seyfarth-1979-thermal-capture-partial-alpha-widths]] chapters share
+reaction and transmission-model inputs.
+[[allen-musgrove-1979-3s-capture-mechanism-i]],
+[[allen-musgrove-1979-3s-capture-mechanisms-ii]] and
+[[allen-musgrove-1979-lanthanum-praseodymium-capture]] retain the different
+roles of width spread, covariance and assumptions about the strength law.
 
 ## Final acquisition closure and learning design
 

@@ -1,0 +1,108 @@
+{
+  "recorded_at": "2026-11-19T22:52:04.486834+00:00",
+  "batch_pages": [
+    522,
+    539
+  ],
+  "batch_page_count": 18,
+  "book_all_known_pages": [
+    "1-539",
+    "633-635"
+  ],
+  "book_covered_pages": 542,
+  "bibliographic_pages": [
+    "1-17",
+    "521"
+  ],
+  "book_completion": false,
+  "chapter_sources": [
+    "knowledge/sources/ageron-et-al-1979-ill-ultracold-neutron-results.md",
+    "knowledge/sources/aldea-seyfarth-1979-neutron-capture-alpha-spectra.md",
+    "knowledge/sources/aldea-seyfarth-1979-thermal-capture-partial-alpha-widths.md",
+    "knowledge/sources/allen-musgrove-1979-3s-capture-mechanism-i.md",
+    "knowledge/sources/allen-musgrove-1979-3s-capture-mechanisms-ii.md",
+    "knowledge/sources/allen-musgrove-1979-lanthanum-praseodymium-capture.md"
+  ],
+  "responses": [
+    {
+      "id": "NC79-AGERON",
+      "covered": [
+        522,
+        524
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "65698e6fde12c44649becb62e289800bd959b2b39fd074c6c24587c6dddabcb9"
+    },
+    {
+      "id": "NC79-ALDEA-ALPHA",
+      "covered": [
+        525,
+        527
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "156a47d2cfe6aac18b1e4a686daaffead47ac5cab30357996f0b6499270bac3f"
+    },
+    {
+      "id": "NC79-ALDEA-WIDTHS",
+      "covered": [
+        528,
+        530
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "b625efa9555cd7fb49e55b78f082596bdcec1abf398e05048666df3bfee4d46f"
+    },
+    {
+      "id": "NC79-ALLEN-3S-I",
+      "covered": [
+        531,
+        533
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "9e73febc71a29e929f545821bcf556fd5f477a05a4f022cb202d35fbaee1e721"
+    },
+    {
+      "id": "NC79-ALLEN-3S-II",
+      "covered": [
+        534,
+        536
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "b56aa759d89a93dd42fb8a2efa4c69558a0c2c47b0cd243455c1d326f252e5fa"
+    },
+    {
+      "id": "NC79-ALLEN-LA-PR",
+      "covered": [
+        537,
+        539
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "b5784dc9a17aeb75c473dde2c9d5c9c89890595b8b2a7ebedb855d1a9fd9de8f"
+    }
+  ],
+  "verified_pages_and_checks": [
+    "PDF 522, 525, 528, 531, 534, 537 and 540: original bylines and boundaries in the first contributed-paper batch.",
+    "PDF 523–524: storage lifetime, measured flux window, conditional instrument losses and historical plans.",
+    "PDF 525–530: gamma-alpha spectrum fluctuations, partial alpha width normalization and common transmission model.",
+    "PDF 531–539: width assumptions and covariance, 60Ni discrepancy, zero correlation and energy-law dependence in La/Pr."
+  ],
+  "boundary": "Short related papers remain separate works. Their shared model or measurement inputs do not constitute independent evidence.",
+  "next_batch": {
+    "pages": [
+      540,
+      556
+    ],
+    "units": [
+      "NC79-ALTAREV",
+      "NC79-ANDERSON",
+      "NC79-CAPTURE-SEARCH",
+      "NC79-ACTINIDE-XRAY",
+      "NC79-BARZ-CSERNAI"
+    ]
+  }
+}
