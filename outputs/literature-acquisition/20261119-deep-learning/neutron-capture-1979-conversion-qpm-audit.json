@@ -1,0 +1,92 @@
+{
+  "recorded_at": "2026-11-19T21:22:29.638381+00:00",
+  "batch_pages": [
+    137,
+    171
+  ],
+  "batch_page_count": 35,
+  "book_all_known_pages": [
+    "52-171",
+    "633-635"
+  ],
+  "book_covered_pages": 123,
+  "book_completion": false,
+  "chapter_sources": [
+    "knowledge/sources/schreckenbach-1979-high-precision-conversion-electron-spectroscopy.md",
+    "knowledge/sources/soloviev-stoyanov-1979-quasiparticle-phonon-strength.md"
+  ],
+  "responses": [
+    {
+      "id": "NC79-SCHRECKENBACH-A",
+      "covered": [
+        137,
+        146
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "reported_unread": [
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155
+      ],
+      "structural_errors": [
+        "page_coverage"
+      ],
+      "prompt_sha256": "a4e71ad873e2245deaed326c044a8f2dfc50e32148f3b2ed2a7d51e979eb36c0"
+    },
+    {
+      "id": "NC79-SCHRECKENBACH-B",
+      "covered": [
+        147,
+        155
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "reported_unread": [],
+      "structural_errors": [],
+      "prompt_sha256": "9b24e05d18d5034745e84ce789ee48dfdec0a7aadad7cb9fb99ff2f8e3df6223"
+    },
+    {
+      "id": "NC79-SOLOVIEV-A",
+      "covered": [
+        156,
+        163
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "reported_unread": [],
+      "structural_errors": [],
+      "prompt_sha256": "07fa03b5339ce091e783f8e5fd0e1192d1bdb35d2e13dd0af37e496bf0d5ee07"
+    },
+    {
+      "id": "NC79-SOLOVIEV-B",
+      "covered": [
+        164,
+        171
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "reported_unread": [],
+      "structural_errors": [],
+      "prompt_sha256": "8e5c8b8695615723aefff44e90107096633d6dfac2e1c97134adfd0e9ce21630"
+    }
+  ],
+  "boundary": "Schreckenbach A lists chapter pages outside its input in unread. All 10 supplied pages were covered. B covers the other 9 pages. No payload retry or status rewrite.",
+  "verified_pages_and_checks": [
+    "PDF 137, 141, 143–145: chapter identity, K-shell and L-subshell algebra, approximate precision and 168Er Table 1.",
+    "PDF 156–158, 168–169: title, QPM target components, truncation and 154Sm fragmentation without wider resonance in example."
+  ],
+  "next_batch": {
+    "pages": [
+      172,
+      202
+    ],
+    "units": [
+      "NC79-LONE-A",
+      "NC79-LONE-B",
+      "NC79-BROWN-SPETH"
+    ]
+  }
+}

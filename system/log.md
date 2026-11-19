@@ -6270,3 +6270,8 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - Von Egidy 和 Casten 的 PDF 52–98 共 47 页由四单元覆盖，选择核查共振平均的适用窗口、谱仪条件、O(6) 强度与 109Pd 弱对准支反例。Casten 的返回收据为结构等义对象，保留原格式拒绝后定向验收，无重发。
 - 整卷单独累计章节覆盖。Schult、Reich 的 PDF 99–136 已验收，并保留 U001 的 633–635 页，共 88 页。章级来源以页段与原件哈希共用会议卷，重复作品或重叠页段仍报错。
 - Schreckenbach 与 Soloviev/Stoyanov 的 35 页批次已启动，读取各章自身的印刷页差。
+
+## 2026-11-20 — 转换电子与准粒子声子章节
+
+- 1979 会议卷 PDF 137–171 核完。转换系数相等时混合份额失去可辨识性，分壳比仍受分辨率和理论系数约束。154Sm 计算例区分强度碎裂与宽度变化，保持小声子空间限制。
+- Schreckenbach 首单元将未送入页列在未读字段，记录结构问题和原件覆盖。保留响应、无需重发。卷已学 123 页，PDF 172–202 继续。

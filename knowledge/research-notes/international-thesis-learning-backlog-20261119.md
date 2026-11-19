@@ -180,7 +180,12 @@ missed on the favored branch. The four returned units cover 47 pages.
 [[reich-1979-resonance-averaged-capture-spectra]] add PDF 99–136. They
 connect entrance-channel selectivity and partial-wave mixtures to the
 level set and strength patterns that an experiment can constrain.
-The book remains partly read. The next two chapters span PDF 137–171.
+[[schreckenbach-1979-high-precision-conversion-electron-spectroscopy]] and
+[[soloviev-stoyanov-1979-quasiparticle-phonon-strength]] add PDF 137–171.
+They treat two observables with different inferential limits: shell-resolved
+conversion constrains multipole fractions, while averaged strength tests
+accessible few-quasiparticle components in a chosen energy interval.
+The book remains partly read. The next two chapters span PDF 172–202.
 
 ## Final acquisition closure and learning design
 

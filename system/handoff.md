@@ -9,7 +9,8 @@ updated: 2026-11-20
 - 附印作品分别核对身份和实验依赖。GANIL 期刊版 PDF 205–217 与本地 33 页预印本是同一作品，保留版别及页定位。预印本路径的实际字节和 SHA 已核实。136Sm 与不完全熔合实验分别保留提案、测试及结果，未获得可用的结构约束时不填结论。
 - 本轮累计 8 份主原件、1422 个整源 PDF 页。1979 年 *Neutron Capture Gamma-Ray Spectroscopy* 的 [[von-egidy-1979-neutron-capture-nuclear-structure]] 与 [[casten-1979-neutron-capture-model-tests]] 已验收 47 页（PDF 52–98，4 个单元），保留为整卷的部分进度。Casten 第二单元的格式拒绝由原响应核实，无新 API 请求。
 - [[schult-1979-capture-heavy-ion-complementarity]] 与 [[reich-1979-resonance-averaged-capture-spectra]] 的 PDF 99–136 已验收。两篇页差分别为 14 和 13。正文核查后保留布居窗口、两种滤波束、部分波权重和有限共振数的限制。
-- 会议卷覆盖现为 PDF 52–136 及 U001 的 633–635，共 88 页。本卷不计为整源完成。下一批 Schreckenbach 与 Soloviev/Stoyanov 的 PDF 137–171 正运行，入口 `tmp/deep-learning-neutron-capture-1979/run_third_chapters.py`，日志 `third-batch.log`。章间页差重新核实。
+- 会议卷新增 [[schreckenbach-1979-high-precision-conversion-electron-spectroscopy]] 与 [[soloviev-stoyanov-1979-quasiparticle-phonon-strength]]。PDF 137–171 四单元已返回，Schreckenbach 首组把未送入的后半章写入未读数组，保留结构拒绝及原响应，核对实际送入 10 页均已处理，后半章另有完整响应。
+- 会议卷覆盖为 PDF 52–171 及 U001 的 633–635，共 123 页。本卷不计为整源完成。Lone 和 Brown/Speth 的 PDF 172–202 已启动，入口 `tmp/deep-learning-neutron-capture-1979/run_fourth_chapters.py`，日志 `fourth-batch.log`。
 - 章级来源共用已哈希的原件，以不重叠的 `raw_pdf_pages` 标识各章。唯一作品检查继续执行，原 PDF 没有拆档或复制。
 - 另一 session 的 PDM/PDCO 与 Hamilton 改动继续隔离。无 PDM 拟合、raw 改写或重新获取。阶段稳定指针 `main + research: integrate Ljungvall HDR evidence and start capture proceedings`。
 

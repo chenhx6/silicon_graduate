@@ -35,6 +35,8 @@ updated: 2026-11-20
 - [[casten-1979-neutron-capture-model-tests]] — O(6) 的相对 E2 强度与低自旋弱对准态对核芯耦合的检验。
 - [[schult-1979-capture-heavy-ion-complementarity]] — 中子俘获与重离子反应的自旋选择和互补证据。
 - [[reich-1979-resonance-averaged-capture-spectra]] — 不同入射能区的部分波权重、统计涨落和归属边界。
+- [[schreckenbach-1979-high-precision-conversion-electron-spectroscopy]] — 分壳转换系数、电子强度比和混合分量的可辨识条件。
+- [[soloviev-stoyanov-1979-quasiparticle-phonon-strength]] — 少准粒子分量、能窗内强度碎裂与宽度的区别。
 
 ## A130前置正文重写：样节与一致性
 
