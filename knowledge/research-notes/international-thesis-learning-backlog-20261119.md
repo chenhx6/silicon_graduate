@@ -189,7 +189,11 @@ accessible few-quasiparticle components in a chosen energy interval.
 [[brown-speth-1979-dipole-giant-response]] add PDF 172–202, including
 the strength-function normalization and an unresolved experimental peak
 that disagreed with the historical M1 interpretation.
-The book remains partly read. The next two chapters span PDF 203–253.
+[[raman-1979-localized-radiation-strengths-208pb]] and
+[[holt-1979-photoneutron-giant-resonances]] add PDF 203–253. Their overlap
+with the earlier dipole-response chapter retains the reaction and reference
+dependencies. The energy axes, unresolved multipolarities and conditional
+strength sums remain explicit. The next two chapters span PDF 254–291.
 
 ## Final acquisition closure and learning design
 

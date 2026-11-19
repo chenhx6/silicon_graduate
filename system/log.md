@@ -6280,3 +6280,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - PDF 172–202 已核验，保留 Lone 的平均辐射宽度归一条件与 Brown/Speth 的 208Pb M1 指认不确定性。会议卷章级覆盖 154 页。
 - Raman、Holt 的 PDF 203–253 已启动。保留现有回执、原件及另一 session 改动。
+
+## 2026-11-20 — 局域多极强度与光中子证据
+
+- PDF 203–253 的五个阅读单元已返回，核了 Raman 和 Holt 的原页、相邻共振、极化定义以及条件积分。会议卷覆盖 205 页。Firk 和 Mughabghab/Chrien 的 PDF 254–291 已启动。

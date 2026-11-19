@@ -1,0 +1,83 @@
+{
+  "recorded_at": "2026-11-19T21:39:30.034790+00:00",
+  "batch_pages": [
+    203,
+    253
+  ],
+  "batch_page_count": 51,
+  "book_all_known_pages": [
+    "52-253",
+    "633-635"
+  ],
+  "book_covered_pages": 205,
+  "book_completion": false,
+  "chapter_sources": [
+    "knowledge/sources/raman-1979-localized-radiation-strengths-208pb.md",
+    "knowledge/sources/holt-1979-photoneutron-giant-resonances.md"
+  ],
+  "responses": [
+    {
+      "id": "NC79-RAMAN-A",
+      "covered": [
+        203,
+        212
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "1a034ca4aea32481733139a13789f61256d9bf4ad8a6a41fce375ba6cfae2448"
+    },
+    {
+      "id": "NC79-RAMAN-B",
+      "covered": [
+        213,
+        221
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "b70f1f21d5c7d4ed56cc45eaa11831a16a2e4e0e6ce92bff3eb6760a48caf924"
+    },
+    {
+      "id": "NC79-RAMAN-C",
+      "covered": [
+        222,
+        230
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "90a9b3905d70243be7e8d7068c986ba4777e236fc89da9ddf211781dc155dc89"
+    },
+    {
+      "id": "NC79-HOLT-A",
+      "covered": [
+        231,
+        242
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "5972c5d7ad99a43469a51799082f2b0b345daa15d8402b0ffd5efa59fa263c0f"
+    },
+    {
+      "id": "NC79-HOLT-B",
+      "covered": [
+        243,
+        253
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "a2f3d7cad86abe142e622c50acd93f32165cbeaac25ff7a4c0eb9274b9008459"
+    }
+  ],
+  "verified_pages_and_checks": [
+    "PDF 203, 230–232, 253: chapter identities, date and independently checked print/PDF span.",
+    "PDF 206, 210, 216, 221, 225: bound-state width and upward strength, contested 7.980 MeV assignment, conditional E1 total and E2 tail comparison.",
+    "PDF 237–238, 246–251: neutron polarization under stated partial-wave assumptions, interference and fitted versus resolved components, conditional Pb and Sn limits."
+  ],
+  "interpretation_boundary": "Raman and Holt use overlapping reference experiments. Similar peak energies do not establish a single isolated resonance across reaction axes. No R-matrix reruns or PDM fits.",
+  "next_batch": {
+    "pages": [
+      254,
+      291
+    ],
+    "units": [
+      "NC79-FIRK-A",
+      "NC79-FIRK-B",
+      "NC79-MUGHABGHAB-CHRIEN-A",
+      "NC79-MUGHABGHAB-CHRIEN-B"
+    ]
+  }
+}

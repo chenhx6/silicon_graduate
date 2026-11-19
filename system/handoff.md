@@ -11,7 +11,8 @@ updated: 2026-11-20
 - [[schult-1979-capture-heavy-ion-complementarity]] 与 [[reich-1979-resonance-averaged-capture-spectra]] 的 PDF 99–136 已验收。两篇页差分别为 14 和 13。正文核查后保留布居窗口、两种滤波束、部分波权重和有限共振数的限制。
 - 会议卷新增 [[schreckenbach-1979-high-precision-conversion-electron-spectroscopy]] 与 [[soloviev-stoyanov-1979-quasiparticle-phonon-strength]]。PDF 137–171 四单元已返回，Schreckenbach 首组把未送入的后半章写入未读数组，保留结构拒绝及原响应，核对实际送入 10 页均已处理，后半章另有完整响应。
 - [[lone-1979-photon-strength-functions]] 和 [[brown-speth-1979-dipole-giant-response]] 已核完 PDF 172–202。Lone 首组收据的等义对象保留格式记录，原页对照包括平均强度单位与条件，以及 208Pb 7.99 MeV 强峰的历史争议。
-- 会议卷覆盖为 PDF 52–202 及 U001 的 633–635，共 154 页。本卷不计为整源完成。Raman 与 Holt 的 PDF 203–253 已启动，入口 `tmp/deep-learning-neutron-capture-1979/run_fifth_chapters.py`，日志 `fifth-batch.log`。
+- [[raman-1979-localized-radiation-strengths-208pb]] 与 [[holt-1979-photoneutron-giant-resonances]] 的 PDF 203–253 已核验。保留俘获与光中子反应的能量标尺、上行强度、峰指认和条件积分。会议卷覆盖 PDF 52–253 及 U001 的 633–635，共 205 页。
+- Firk 与 Mughabghab/Chrien 的 PDF 254–291 已启动，入口 `tmp/deep-learning-neutron-capture-1979/run_sixth_chapters.py`，日志 `sixth-batch.log`。两章 PDF 页与印刷页差分别为 9 和 8。
 - 章级来源共用已哈希的原件，以不重叠的 `raw_pdf_pages` 标识各章。唯一作品检查继续执行，原 PDF 没有拆档或复制。
 - 另一 session 的 PDM/PDCO 与 Hamilton 改动继续隔离。无 PDM 拟合、raw 改写或重新获取。阶段稳定指针 `main + research: integrate Ljungvall HDR evidence and start capture proceedings`。
 
