@@ -3,7 +3,15 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
-## Active handoff — 2026-11-19 持续自主学习，Li2016 检查点
+## Active handoff — 2026-11-20 持续自主学习，Gu2007 检查点
+
+- 用户已确认并行文件来源且明确继续；原生goal恢复为active，整个馆藏目标未完成。Li2016检查点已按显式10文件提交并推送，稳定指针 `main + research: learn Li2016 core coupling and resume archive queue`，精确hash在 `outputs/literature-acquisition/20261119-deep-learning/li2016-receipt.local.json`；另窗口Hamilton/PDCO两文件保留但未混入本次提交。
+- Gu2007原件99页已由四单元主读完成；两次初始连接失败后各首次重试，不重读成功单元。Gemini另做六项定向订正与来源草稿，管理层删去长原文摘录、错误E(5)替代引文、错误频标/公式及writer-only范围混淆等。来源 [[gu-2007-tsd-tidal-waves-thesis]] 为read而非deep-read；没有运行作者CNS/TAC代码或PDM。累计三篇原件、290个PDF页，不等于全库覆盖。
+- 本批实际知识增量：163Tm的TSD与粒子—空穴/晃动竞争分层；Qt实测/模型差异及统计和可能系统误差并列。两张潮汐波概念页订正图样/推转角速度与振动频率、谐振限定，撤回无证据A130裁决及普适sqrt(I)频率律。详 `outputs/literature-acquisition/20261119-deep-learning/gu2007-evidence-audit.json`；完整页包/响应仅在tmp。
+- 下一原件为Shimada（自身DOI10.15017/1654644；九州大学仓储封面写博士2015，不能被外部2016题录覆盖）。110页原件SHA、题名、摘要和目录已核，尚未读科学正文；私有页缓存 `tmp/deep-learning-shimada/pages.json`。下一步继续HFB/角动量投影、multi-cranked GCM、Mg/高自旋及wobbling/chirality章节，不重跑Gu已完成请求。
+- 下一单元运行包已准备：`/opt/venv/bin/python tmp/deep-learning-shimada/run_shimada.py`，七个不重叠单元覆盖110页、28项交付；目前只是准备，尚未发出该原件的API请求。Gu所有请求已经返回，当前没有遗留模型进程；持续goal仍active，检查点发布后按队列推进而非宣布整体完成。
+
+## Previous checkpoint — Li2016
 
 - 2026-11-20用户确认Hamilton来源页与PDCO合同的并行改动来自另一窗口，授权检查后保留有益内容；不再作为未知修改阻塞。已核该两文件diff、Hamilton原件SHA与PDF532/563/564、相关旧源码常数及宽度换算；新增U传播定位、条件/无条件区分和sigma坐标迁移有益，原样保留，未运行PDM或声称新程序已验证。两个文件属于已确认的并行任务成果；后续显式分组，不静默回退或覆盖。旧Hamilton页HAM-3/4/5的绝对化表述并非本次新增，仍需另行按具体claim订正；本次不把有益增量核查冒称全页科学认证。
 - 用户最新明确要求 `$auto $all 持续学习，不要中途停止`；已启用单一原生 active goal，无用户指定token预算。检查点不是整体完成，不恢复旧的五轮停止限制，不重新请求普通研究授权。

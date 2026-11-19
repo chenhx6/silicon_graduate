@@ -3,7 +3,7 @@ type: concept
 title: 潮汐波转动
 aliases: [tidal wave, tidal-wave rotation]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-11-20
 status: ai-draft
 review_status: unreviewed
 concept_type: collective-rotation
@@ -18,6 +18,13 @@ tags: [high-spin, collective-motion, vibration, rotating-mean-field]
 ## Definition
 
 Tidal-wave rotation is a rotating-frame description of weakly deformed yrast vibrational states in which angular momentum grows mainly through increasing collective deformation amplitude while rotational frequency remains near a vibrational frequency.
+
+For a quadrupole pattern, the pattern/cranking angular speed is half the
+time-oscillation frequency of the shape at a fixed direction, not half another
+independently defined rotation speed. Gu2007's harmonic yrast example gives
+E(I)-E(0)=hbar*Omega_vib*I/2 and omega_crank=Omega_vib/2
+([[gu-2007-tsd-tidal-waves-thesis]], PDF69,71-74). Constant frequency and
+near-linear B(E2) growth describe a limit, not a universal sufficient criterion.
 
 ## Necessary Assumptions
 
@@ -43,8 +50,14 @@ Use tidal-wave language as a rotating-frame collective interpretation, with `B(E
 
 - [[frauendorf-2015-low-energy-quadrupole-mode]]
 - [[frauendorf-2018-beyond-unified-model]]
+- [[gu-2007-tsd-tidal-waves-thesis]]
 
 ## Day 21 Checkpoint 014 证据门量化审计
+
+2026-11-20边界订正：以下历史102Pd数值未在本轮重新核对，不作新的数据认证；
+“排除了”“完全符合”“确证”的排他性措辞不能由几个比值自动推出。
+Gu2007 PDF92–94明确区分能谱趋势、有限的B(E2)实验及准粒子顺排贡献。
+当前使用以本页定义和竞争解释段、以及直接来源为准，历史段保留为审计记录。
 
 依据独立审计程序 `system/scripts/day21_checkpoint014_tidal_wave_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/tidal-wave-audit-014.json`（对标 [[frauendorf-2015-low-energy-quadrupole-mode]] 之 `FR15-D21-1`），确立四极潮汐波在推断阶梯上的实证判据：
 1. **转动频率迟滞与非刚性转动本质：**

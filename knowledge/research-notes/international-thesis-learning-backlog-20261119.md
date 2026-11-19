@@ -52,6 +52,22 @@ Next is Gu2007 on TSD, competing particle-hole excitations and tidal waves.
 Its title, degree, original hash and contents were checked; contents inspection
 alone is not a completed reading of its scientific chapters.
 
+## Third executed reading checkpoint
+
+[[gu-2007-tsd-tidal-waves-thesis]] now records actual PDF1-99 coverage in four
+reading units; two initial connection failures were retried without repeating
+successful units. Key original pages and a declared harmonic-limit algebraic
+check support the selected claims, not author-code reproduction. Source writing
+used Gemini plus manager corrections; writer-only supplied pages are not confused
+with the aggregate primary-reading coverage.
+
+Its strongest impact is corrective: TSD is not a sufficient wobbling criterion,
+nor is strong deformation a universal prerequisite. The tidal-wave pages now
+distinguish pattern/cranking speed from quadrupole vibration frequency, restrict
+linear growth to its model limits, and withdraw unsupported A130 assignments.
+The adopted lifetime results retain statistical versus possible systematic errors;
+they do not constitute an independent second experimental measurement.
+
 ## Final acquisition closure and learning design
 
 The user has closed further acquisition and requested an in-depth learning

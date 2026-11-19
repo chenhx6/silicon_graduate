@@ -1,0 +1,333 @@
+{
+  "recorded_at": "2026-11-19T16:34:37.266627+00:00",
+  "source": "doi:10.7274/ht24wh26f5d",
+  "source_note": "knowledge/sources/gu-2007-tsd-tidal-waves-thesis.md",
+  "primary_pages": 99,
+  "reading_depth": "read",
+  "main_units": [
+    {
+      "task_id": "GU07-FOUNDATIONS-NET1",
+      "provided_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "returned_items": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "structure": "passed",
+      "decision": "selected claims accepted with explicit evidence boundaries; not blanket admission",
+      "model_reported": "agy-cli/gemini-3.8-flash",
+      "response_status": "completed"
+    },
+    {
+      "task_id": "GU07-METHOD",
+      "provided_pages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "returned_items": [
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5"
+      ],
+      "structure": "passed",
+      "decision": "selected claims accepted with explicit evidence boundaries; not blanket admission",
+      "model_reported": "agy-cli/gemini-3.8-flash",
+      "response_status": "completed"
+    },
+    {
+      "task_id": "GU07-TM163-NET1",
+      "provided_pages": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "returned_items": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ],
+      "structure": "passed",
+      "decision": "selected claims accepted with explicit evidence boundaries; not blanket admission",
+      "model_reported": "agy-cli/gemini-3.8-flash",
+      "response_status": "completed"
+    },
+    {
+      "task_id": "GU07-TIDAL",
+      "provided_pages": [
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
+      ],
+      "returned_items": [
+        "W1",
+        "W2",
+        "W3",
+        "W4",
+        "W5"
+      ],
+      "structure": "passed",
+      "decision": "selected claims accepted with explicit evidence boundaries; not blanket admission",
+      "model_reported": "agy-cli/gemini-3.8-flash",
+      "response_status": "completed"
+    }
+  ],
+  "failed_initial_requests": [
+    {
+      "task_id": "GU07-FOUNDATIONS",
+      "status": "call-or-parse-failed",
+      "error_type": "ConnectionError",
+      "http_status": null,
+      "elapsed_seconds": 459.76
+    },
+    {
+      "task_id": "GU07-TM163",
+      "status": "call-or-parse-failed",
+      "error_type": "ConnectionError",
+      "http_status": null,
+      "elapsed_seconds": 24.38
+    }
+  ],
+  "retries": "Each failed unit retried once sequentially; successful main units not repeated. Failure observed in terminal ConnectionError records before retry.",
+  "successful_returned_requests": 5,
+  "attempted_requests": 7,
+  "draft_and_targeted_corrections": {
+    "task_id": "GU07-DRAFT",
+    "correction_ids": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6"
+    ],
+    "structure": "passed",
+    "model_reported": "agy-cli/gemini-3.8-flash",
+    "manager_edits": [
+      "add source heading",
+      "remove unverified Chinese name",
+      "distinguish title date and wrapper; no invented signature/award date",
+      "remove unverified replacement citation; no E5/X5 conflation",
+      "aggregate actual four-unit full reading, not writer-only partial scope",
+      "replace false unread-chapter boundary with actual unverified work",
+      "normalize cranking/signature Chinese terminology",
+      "use repository parser field names",
+      "replace invented static-energy formula and correct frequency units",
+      "do not invent three-dimensional shape search",
+      "distinguish observed bands from hypothetical fragmentation",
+      "do not extrapolate AMR to every calculated nucleus",
+      "fixed gap does not exclude quasiparticle alignment",
+      "replace long copyrighted excerpts with locator-only page map",
+      "source-specific numerical choice not universal theorem",
+      "do not invent measured competing cross sections",
+      "remove universal complete masking",
+      "Additional summary softened from asserted fragmentation to author possibility."
+    ]
+  },
+  "manager_checks": [
+    {
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "item": "identity-and-scope",
+      "accepted": "CurateND own DOI10.7274/ht24wh26f5d, PhD Notre Dame title page July2007, SHA verified. Original source adopts published/then-recent experimental data, not a fresh independent experiment."
+    },
+    {
+      "pages": [
+        56,
+        57,
+        58,
+        65,
+        67,
+        95,
+        96
+      ],
+      "item": "TSD-versus-wobbling",
+      "accepted": "CNS principal-axis minima interpreted as different rotation axes at similar shape; TAC smooth tilted solution and particle-hole/signature interpretation supported by adopted spectra/electromagnetic comparison. Preserve author interpretation and2007 observational scope, not proof of universal wobbling absence."
+    },
+    {
+      "pages": [
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "item": "quadrupole-moment-data",
+      "accepted": "Table3.1 experiment ND6.40(+.57/-.33),6.39(+.33/-.31),TSD7.42(+.44/-.37),7.70(+1.04/-.57)eb; TAC5.8ND,8.7I24and9.6for34<I<50TSD. Quoted uncertainties statistical; additional systematic about15% discussed, not quadrature-added here. PDF62 says calculated smaller although neighboring values/conclusion say larger: retain wording conflict."
+    },
+    {
+      "pages": [
+        69,
+        71,
+        72,
+        73,
+        74,
+        95,
+        96,
+        97
+      ],
+      "item": "tidal-wave-inference",
+      "accepted": "Rotating-frame deformation representation; gamma-independent collective example with I=2tau; printed harmonic spectrum E=hbarOmega(2n+tau+5/2) at PDF73 yields constant rotational frequency Omega/2 on n=0 yrast. This is a harmonic-limit derivation, not a universal all-nuclei law. Backbend and quasiparticle alignment alter simple picture. No direct A130-specific or135Pr alternative proof."
+    }
+  ],
+  "consistency_check": {
+    "kind": "manager analytic limit check, not PDM or author-code reproduction",
+    "source": "Gu2007 PDF73 printed60 exact harmonic spectrum with I=2tau",
+    "assumptions": [
+      "hbar=1",
+      "Omega_vib=1",
+      "n=0",
+      "one fixed harmonic model"
+    ],
+    "I": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12
+    ],
+    "energy_including_zero_point": [
+      2.5,
+      3.5,
+      4.5,
+      5.5,
+      6.5,
+      7.5,
+      8.5
+    ],
+    "omega_crank_from_deltaE_over_2": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "conclusion": "omega_pattern=omega_crank=Omega_vib/2 in harmonic limit, not omega_pattern=omega_crank/2; no universal sqrt(I) growth follows."
+  },
+  "rejected_worker_claims": [
+    "TSD as universal necessary condition for wobbling",
+    "N94 gap lowering rather than suppressing low-energy neutron particle-hole competition",
+    "Unverified month/day interpretation or Chinese personal-name translation",
+    "Quantum selection-rule failure, actual numerical divergence or author-code defects inferred without execution",
+    "All E2 points perfectly reproduced; unlabeled plots treated as precise data",
+    "Invented static-energy expression and missing hbar in frequency equation",
+    "Writer-only partial input mistaken for aggregate full primary coverage",
+    "Claim bibliography[25] supplies a verified replacement E5 citation",
+    "Long raw excerpts in publishable source note; replaced by page-map locators",
+    "All post-backbend nuclei identified as AMR; unsupported specific A130 assignments"
+  ],
+  "usage_successful_responses_only": {
+    "input_tokens": 167969,
+    "output_tokens": 156267,
+    "total_tokens": 324236
+  },
+  "failed_request_usage": "not returned; unknown, not assigned zero",
+  "usage_boundary": "Returned alias and reported tokens recorded; hidden backend/billing tier not certified, requested max_output_tokens not an enforced total-cost guarantee.",
+  "PDM_run": false,
+  "new_acquisition": false,
+  "whole_corpus_completed": false
+}

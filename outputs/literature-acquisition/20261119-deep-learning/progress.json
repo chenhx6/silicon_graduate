@@ -1,6 +1,6 @@
 {
   "created_at": "2026-11-19T14:50:09.195632+00:00",
-  "status": "continuous-learning-resumed; Gu2007-primary-reading",
+  "status": "third-source-completed-with-boundaries; ongoing-goal-incomplete",
   "pdf_files_registered": 1016,
   "provisional_work_groups": 988,
   "grouping_boundary": "Not a verified unique-publication count. Byte grouping and old catalogue associations require own-identity/edition/role/scope audits. Collection sources do not establish individual full reading.",
@@ -25,13 +25,8 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.7274/ht24wh26f5d",
-  "active_units": [
-    "GU07-FOUNDATIONS",
-    "GU07-METHOD",
-    "GU07-TM163",
-    "GU07-TIDAL"
-  ],
+  "active_source": null,
+  "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
     "SPEC-A01-MADIBA-2008",
@@ -42,9 +37,13 @@
     "LI16-CHAINS",
     "LI16-PR135",
     "LI16-PD109",
-    "LI16-ACM"
+    "LI16-ACM",
+    "GU07-FOUNDATIONS-NET1",
+    "GU07-METHOD",
+    "GU07-TM163-NET1",
+    "GU07-TIDAL"
   ],
-  "completed_full_sources_this_run": 2,
+  "completed_full_sources_this_run": 3,
   "PDM_run": false,
   "new_search_or_download": false,
   "queue_entries_including_closed_gaps": 995,
@@ -52,11 +51,11 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-19T16:13:30.027828+00:00",
+  "updated_at": "2026-11-19T16:34:37.266627+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 191,
-  "current_source_note": "knowledge/sources/li-2016-algebraic-collective-core-quasiparticle-thesis.md",
-  "next_action": "Audit actual Gu2007 returned units against key original pages; keep Li2016 completion.",
-  "runtime_background_jobs_running": true,
+  "completed_primary_pages_this_run": 290,
+  "current_source_note": "knowledge/sources/gu-2007-tsd-tidal-waves-thesis.md",
+  "next_action": "Run prepared tmp/deep-learning-shimada/run_shimada.py:7 units/110 pages/28 deliverables; own2015 doctoral identity checked, no scientific units called yet.",
+  "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false
 }

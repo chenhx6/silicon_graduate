@@ -1,0 +1,44 @@
+{
+  "recorded_at": "2026-11-19T16:39:01.502078+00:00",
+  "status": "Gu2007 source reading and key-page audit complete with explicit boundaries; whole goal incomplete",
+  "reading_depth": "read; not code/formalism reproduction",
+  "validation": {
+    "automation_preflight": "passed",
+    "own_source_archive_gate": "passed",
+    "boundary": "passed",
+    "scoped_lint_errors": 0,
+    "whole_repo_lint_counts": {
+      "error": 129,
+      "warning": 498,
+      "info": 5482
+    },
+    "unrelated_lint_errors": 129,
+    "warning": "No verified citation key for Gu2007; not invented",
+    "diff_check": "passed"
+  },
+  "learning_impact": [
+    "TSD and competing dynamical interpretation separated",
+    "Quadrupole data statistical/systematic boundaries retained",
+    "Existing tidal-wave pages corrected for frequency and inference scope"
+  ],
+  "next_work": {
+    "source": "doi:10.15017/1654644",
+    "own_degree_year": 2015,
+    "pages": 110,
+    "prepared_units": 7,
+    "requested_deliverables": 28,
+    "runtime_entry": "tmp/deep-learning-shimada/run_shimada.py",
+    "state": "identity and contents checked; API units prepared, not yet called"
+  },
+  "publication_pointer": {
+    "branch": "main",
+    "subject": "research: learn Gu2007 and correct tidal-wave evidence boundaries"
+  },
+  "excluded_parallel_paths": [
+    "knowledge/research-notes/pdco-pdm-response-contract-20261118.md",
+    "knowledge/sources/book-hamilton-electromagnetic-interaction.md"
+  ],
+  "PDM_run": false,
+  "new_acquisition": false,
+  "whole_corpus_complete": false
+}
