@@ -1,9 +1,18 @@
 ---
 graph-excluded: true
-updated: 2026-11-16
+updated: 2026-11-19
 ---
 
-## Active handoff — 2026-11-16 PDM 汇报的 σ/I 标定动机
+## Active handoff — 2026-11-19 Git 基线与 Gemini 阅读监督合同
+
+- 用户要求先整理并发布 Git 基线，再修改深入学习计划的 Gemini 派发方式。第一阶段已按显式文件清单提交并推送，稳定指针 `main / chore: reconcile research baseline and local artifacts`；提交后核对工作树干净。精确 Git 结果在 `outputs/literature-acquisition/20261119-git-baseline/receipt.local.json`。
+- 用户明确确认旧 `raw/writing/gpt/_archive/20261108-A130-before-rewrite/manifest.json` 是其自行清理的垃圾文件，已保留该删除并提交；没有恢复旧原件或删除额外材料。下方旧交接中“不提交这项删除”的保护仅为历史状态，不再要求重复询问。
+- 原件、全文摘录 worker 包、编译产物、第三方模板本地快照和未公开汇报保留本地；已整理知识、脚本、数据快照及正式回执纳入基线。补齐来源 schema/索引，Williams 1975 定向证据合入既有来源，未提升阅读深度。六个表格构建入口 smoke 验证通过；原件归档/发布预检通过；全库剩余129项既有范围外 lint errors，不能宣称全库绿。
+- 第二阶段修改 `outputs/plans/20261119-archive-deep-learning.md` 第5节：区分 API 内容注入与带工具 worker，规定科学目标、实际页范围、逐项 ID、证据/权限边界、完整主提示词、已填 Madiba 九页科学任务、schema、四道验收门和定向返工。知识方法同步至 [[nuclear-spectroscopy-literature-learning-framework-20261119]]。合同发布结果见 `outputs/literature-acquisition/20261119-git-baseline/supervision-contract-receipt.local.json`。
+- 本轮不发送示例 Gemini 阅读请求，不启动批量全文学习、PDM 或后台调度。当前是已落实的任务合同文档，不能把离线合同测试说成生产 runner 已具备自动拦截能力。后续执行按计划补真实输入，模型能力、覆盖和状态逐次核验；Gemini 主读，Codex 核关键增量，不双方整篇重复。
+- 获取已由用户关闭。最终学位候选池：43篇学位论文全文可用（2篇原库已有、本轮新增41篇）、1份HDR、7条缺件；缺件不再作为用户待办。以 closed 账本/Excel 和来源实际覆盖为准，不用早期收集回执覆盖后续状态。
+
+## Previous handoff — 2026-11-16 PDM 汇报的 σ/I 标定动机
 
 - 已按用户指定原件 `raw/writing/pado/20260723.pdf` 定向阅读 Sec.II.D（PDF p.4，lines270–322），并结合 Wiki 区分三类实际困难：同态同 gate 的 stretched E2 参考线统计不足、跨 gate/同自旋能级借用定标的转移偏差、经验 σ/I(I) 的有限数据与误差。高斯布居充分性是另一个问题，留在备用页。
 - 本地交付为 `outputs/reports/20261115-introduce/20261115-introduce.pptx` 及同名 PDF；仅修改第4页，其余13页 XML 与修改前成稿逐字节一致。第9页仍为 `187Au` 376 keV `11/2−→9/2−`。图中的定标能级、布居、误差棒和经验趋势明确为示意，不是新增实验数据或拟合。

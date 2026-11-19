@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-11-19T14:34:18.150007+00:00",
+  "phase": "Gemini-supervision-contract-after-pushed-baseline",
+  "status": "document-revised; final publication outcome is recorded in supervision-contract-receipt.local.json",
+  "stable_pointer": "main / docs: specify supervised Gemini research contracts",
+  "plan": "outputs/plans/20261119-archive-deep-learning.md",
+  "sections": [
+    "5.1 actual API/native capabilities",
+    "5.2 explicit scientific task and input contract",
+    "5.3 reusable mandatory worker prompt",
+    "5.4 filled Madiba2008 scientific reading example",
+    "5.5 structured coverage/evidence output",
+    "5.6 input/structure/evidence/knowledge gates and targeted correction",
+    "5.7 resource, continuation and truthful status reporting"
+  ],
+  "checks": {
+    "contract_document": "outputs/plans/20261119-archive-deep-learning.md",
+    "source_identity_and_nine_page_example": "verified",
+    "positive_synthetic_case": "accepted",
+    "negative_synthetic_cases": {
+      "missing_deliverable": "rejected",
+      "duplicate_id": "rejected",
+      "unsupported_locator": "rejected",
+      "unread_but_complete": "rejected",
+      "fabricated_API_file_write": "rejected",
+      "partial_as_full_thesis": "rejected",
+      "path_only_API_input": "rejected",
+      "22_requested_10_returned_valid_JSON": "rejected"
+    },
+    "count": 8,
+    "boundary": "Offline document/contract checks only; no Gemini request, reading claim or production acceptance implementation",
+    "global_lint": {
+      "error": 129,
+      "warning": 495,
+      "info": 5482
+    },
+    "scoped_lint_errors": 0,
+    "log_history": "append-only verified against baseline HEAD"
+  },
+  "baseline_boundary": "Baseline was committed, pushed and verified clean before editing this contract",
+  "execution_boundary": "No example Gemini call, bulk reading, PDM calculation, new production runner or scheduler started",
+  "precise_Git_result": "Stored only in task final local receipt"
+}
