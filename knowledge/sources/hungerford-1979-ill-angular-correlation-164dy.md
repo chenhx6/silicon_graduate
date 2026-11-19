@@ -15,6 +15,7 @@ year: 1979
 doi: 10.1007/978-1-4613-2940-4_66
 raw_file: raw/books/gpt/query/20261119-polarization-delta-collection/RobotNetdisk_2026-11-19_4bdbafaa8be4df9822774187f5bd5a00.pdf
 raw_sha256: cc722604aa94e765559497ee21022550e035d2ce9407448b0ae81d27dd561005
+raw_pdf_pages: "633-635"
 archive_required: true
 tags: [164Dy, angular-correlation, mixing-ratio, neutron-capture]
 ---

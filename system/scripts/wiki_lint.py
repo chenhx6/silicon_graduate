@@ -515,21 +515,43 @@ def validate_aliases(pages: list[Page], issues: list[Issue]) -> None:
 
 def validate_unique_sources(pages: list[Page], issues: list[Issue]) -> None:
     for field in ("canonical_source", "raw_file"):
-        values: dict[str, list[str]] = defaultdict(list)
+        values: dict[str, list[Page]] = defaultdict(list)
         for page in pages:
             if page.expected_type == "source":
                 value = str(page.meta.get(field, "")).strip().casefold()
                 if value:
-                    values[value].append(page.relative)
-        for value, paths in values.items():
-            if len(paths) > 1:
-                add(
-                    issues,
-                    "error",
-                    "SOURCE_DUPLICATE",
-                    ", ".join(paths),
-                    f"duplicate {field}: {value}",
-                )
+                    values[value].append(page)
+        for value, sources in values.items():
+            if len(sources) < 2:
+                continue
+            if field == "raw_file" and distinct_container_chapters(sources):
+                continue
+            add(
+                issues,
+                "error",
+                "SOURCE_DUPLICATE",
+                ", ".join(page.relative for page in sources),
+                f"duplicate {field}: {value}",
+            )
+
+
+def distinct_container_chapters(sources: list[Page]) -> bool:
+    hashes = {str(page.meta.get("raw_sha256", "")).casefold() for page in sources}
+    if len(hashes) != 1 or not SHA256_RE.fullmatch(next(iter(hashes))):
+        return False
+    spans = []
+    for page in sources:
+        if page.meta.get("source_type") != "conference-proceedings-chapter":
+            return False
+        span = re.fullmatch(r"([1-9]\d*)-([1-9]\d*)", str(page.meta.get("raw_pdf_pages", "")))
+        if span is None:
+            return False
+        first, last = map(int, span.groups())
+        if first > last:
+            return False
+        spans.append((first, last))
+    spans.sort()
+    return all(left[1] < right[0] for left, right in zip(spans, spans[1:]))
 
 
 def audit_governance(

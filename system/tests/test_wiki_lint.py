@@ -43,6 +43,31 @@ class LinkTests(unittest.TestCase):
 
 
 class ScientificGuardrailTests(unittest.TestCase):
+    def test_shared_proceedings_pdf_requires_distinct_chapters(self) -> None:
+        def chapter(name: str, span: str, sha: str = "a" * 64) -> wiki_lint.Page:
+            return wiki_lint.Page(Path(name), name, name, "source", {
+                "source_type": "conference-proceedings-chapter",
+                "raw_file": "raw/books/proceedings.pdf",
+                "raw_sha256": sha,
+                "raw_pdf_pages": span,
+                "canonical_source": name,
+            }, "")
+
+        first = chapter("first", "52-73")
+        issues: list[wiki_lint.Issue] = []
+        wiki_lint.validate_unique_sources([first, chapter("second", "74-98")], issues)
+        self.assertEqual(issues, [])
+        for second in (
+            chapter("second", "73-98"),
+            chapter("second", "98-74"),
+            chapter("second", ""),
+            chapter("second", "74-98", "b" * 64),
+            chapter("first", "74-98"),
+        ):
+            issues = []
+            wiki_lint.validate_unique_sources([first, second], issues)
+            self.assertIn("SOURCE_DUPLICATE", {issue.code for issue in issues})
+
     def test_research_note_state_and_promotion_target(self) -> None:
         config = wiki_lint.load_config(REPO_ROOT / "system" / "lint-config.json")
         base_meta = {

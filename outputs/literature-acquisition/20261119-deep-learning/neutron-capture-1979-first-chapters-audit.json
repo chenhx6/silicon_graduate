@@ -1,0 +1,128 @@
+{
+  "recorded_at": "2026-11-19T21:14:45.763992+00:00",
+  "work_id": "bytes:cc722604aa94e765559497ee21022550e035d2ce9407448b0ae81d27dd561005",
+  "chapter_sources": [
+    "knowledge/sources/von-egidy-1979-neutron-capture-nuclear-structure.md",
+    "knowledge/sources/casten-1979-neutron-capture-model-tests.md",
+    "knowledge/sources/schult-1979-capture-heavy-ion-complementarity.md",
+    "knowledge/sources/reich-1979-resonance-averaged-capture-spectra.md"
+  ],
+  "batch_pages": [
+    52,
+    136
+  ],
+  "confirmed_batch_page_count": 85,
+  "earlier_covered_pages": [
+    633,
+    634,
+    635
+  ],
+  "book_pages": 874,
+  "book_completion": false,
+  "responses": [
+    {
+      "id": "NC79-EGIDY-METHOD",
+      "coverage": [
+        52,
+        62
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "structural_errors": [],
+      "input_sha256": "6b7e6191c4545fb1194ff187d34532008d37e53963bd1a647b55b306bb6b905a"
+    },
+    {
+      "id": "NC79-EGIDY-EVIDENCE",
+      "coverage": [
+        63,
+        73
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "structural_errors": [],
+      "input_sha256": "039bf1780571fa497bb36ae7570d25f0b40c84c7666715fff1ad5cd6830a9b25"
+    },
+    {
+      "id": "NC79-CASTEN-MODELS",
+      "coverage": [
+        74,
+        85
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "structural_errors": [],
+      "input_sha256": "5288b77f2a64af98aa59b04e636321feb6071f7d226ba62fdd1e48c27a5c9730"
+    },
+    {
+      "id": "NC79-CASTEN-LIMITS",
+      "coverage": [
+        86,
+        98
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "structural_errors": [
+        "API_file_claim"
+      ],
+      "input_sha256": "6c6992c5a4ac63f381b024a3d5a351430870f987866889df1f060f124e2be382"
+    },
+    {
+      "id": "NC79-SCHULT-A",
+      "coverage": [
+        99,
+        107
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "structural_errors": [],
+      "input_sha256": "6c146814363cca8a2b37b461bc94c9f6adc0b1e8c7d310026203c8200eff27fe"
+    },
+    {
+      "id": "NC79-SCHULT-B",
+      "coverage": [
+        108,
+        117
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "structural_errors": [],
+      "input_sha256": "abb803719911f4afd2106fc16363501364dbaf1e425f110c15f2c9688fd47b1c"
+    },
+    {
+      "id": "NC79-REICH-A",
+      "coverage": [
+        118,
+        127
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "structural_errors": [],
+      "input_sha256": "4c1bc286c3f862ce40fea9d36b1d2567306b1817d0c1aeda7460f9292a9ef24c"
+    },
+    {
+      "id": "NC79-REICH-B",
+      "coverage": [
+        128,
+        136
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "structural_errors": [],
+      "input_sha256": "a9acef61677245f069ad6fe4538ccfef5d087c2bfd0bfb4e62ad897ca3246322"
+    }
+  ],
+  "source_page_checks": [
+    "PDF 52, 73, 74, 98: article titles and printed spans 37–58 and 59–83.",
+    "PDF 56–58: capture-spin and resonance-window limits; GAMS resolution, Ritz and conversion.",
+    "PDF 75–77: limited spin/energy range and statistical averaging rather than universal completeness.",
+    "PDF 83–84: O(6) relative-strength example with operator/model scope.",
+    "PDF 91–92: underpredicted test scope of high-spin data, 109Pd less aligned states below theory.",
+    "PDF 99–102: Schult title and complementary experimental windows, conditional on entrance and sensitivity.",
+    "PDF 118–129: Reich title, Sc and Fe filter windows, spin/energy dependence and residual capture-strength fluctuations."
+  ],
+  "receipt_reconciliation": "NC79-CASTEN-LIMITS returned {returned_content_only: true, note: ...}; confirmed no external file claim, original cached response preserved.",
+  "next_batch": {
+    "pages": [
+      137,
+      171
+    ],
+    "units": [
+      "NC79-SCHRECKENBACH-A",
+      "NC79-SCHRECKENBACH-B",
+      "NC79-SOLOVIEV-A",
+      "NC79-SOLOVIEV-B"
+    ]
+  }
+}

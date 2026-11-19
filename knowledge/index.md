@@ -31,6 +31,10 @@ updated: 2026-11-20
 - [[casarella-2017-vibrational-phonon-lifetimes-thesis]] — 160Gd/162Dy的DSAM-INS、GRID谱系与多声子候选；原始限值、文献分支及单位/编号边界。
 - [[smith-2017-109ru-109tc-fast-timing-thesis]] — beta-gamma快定时、109Ru/Tc的半衰期/限值与CQPC输入边界；CFD残余walk、ICC和版本归一需分清。
 - [[ljungvall-2020-shapes-collectivity-spectroscopy-hdr]] — 核形状、RDDS 与 AGATA 的证据链，附印作品及提案结果逐项定位。
+- [[von-egidy-1979-neutron-capture-nuclear-structure]] — 共振平均、精确能量和转换电子对低自旋能级归属的互补约束。
+- [[casten-1979-neutron-capture-model-tests]] — O(6) 的相对 E2 强度与低自旋弱对准态对核芯耦合的检验。
+- [[schult-1979-capture-heavy-ion-complementarity]] — 中子俘获与重离子反应的自旋选择和互补证据。
+- [[reich-1979-resonance-averaged-capture-spectra]] — 不同入射能区的部分波权重、统计涨落和归属边界。
 
 ## A130前置正文重写：样节与一致性
 

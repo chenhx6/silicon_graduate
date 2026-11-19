@@ -27,10 +27,10 @@
   "closed_fulltext_gaps": 7,
   "active_source": "bytes:cc722604aa94e765559497ee21022550e035d2ce9407448b0ae81d27dd561005",
   "active_units": [
-    "NC79-EGIDY-METHOD",
-    "NC79-EGIDY-EVIDENCE",
-    "NC79-CASTEN-MODELS",
-    "NC79-CASTEN-LIMITS"
+    "NC79-SCHRECKENBACH-A",
+    "NC79-SCHRECKENBACH-B",
+    "NC79-SOLOVIEV-A",
+    "NC79-SOLOVIEV-B"
   ],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -117,7 +117,15 @@
     "HD-SM136-TEST",
     "HD-SM136-EXPERIMENT",
     "HD-INC-FUS-PROPOSAL",
-    "HD-INC-FUS-OUTCOME"
+    "HD-INC-FUS-OUTCOME",
+    "NC79-EGIDY-METHOD",
+    "NC79-EGIDY-EVIDENCE",
+    "NC79-CASTEN-MODELS",
+    "NC79-CASTEN-LIMITS",
+    "NC79-SCHULT-A",
+    "NC79-SCHULT-B",
+    "NC79-REICH-A",
+    "NC79-REICH-B"
   ],
   "completed_full_sources_this_run": 8,
   "PDM_run": false,
@@ -127,13 +135,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-19T20:48:49.524716+00:00",
+  "updated_at": "2026-11-19T21:14:45.763992+00:00",
   "completed_deep_read_sources_this_run": 0,
   "completed_primary_pages_this_run": 1422,
-  "current_source_note": "knowledge/sources/ljungvall-2020-shapes-collectivity-spectroscopy-hdr.md",
-  "next_action": "Audit von Egidy and Casten proceedings chapters at PDF 52–98. Retain U001 PDF 633–635 and continue other relevant chapters and queue entries.",
+  "current_source_note": "knowledge/sources/reich-1979-resonance-averaged-capture-spectra.md",
+  "next_action": "Audit Schreckenbach and Soloviev/Stoyanov results for PDF 137–171, then continue the 874-page book and remaining reading queue.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
   "last_source_manager_closure": "HDR all 310 physical pages accounted for in 25 completed responses. First bibliography shortfall preserved and closed by two smaller batches. Comparison used published AGATA container pages and selected preprint evidence.",
-  "current_source_scientific_acceptance": "HDR accepted with evidence boundaries; book chapter batch underway"
+  "current_source_scientific_acceptance": "1979 book partly learned. Four chapter sources accepted.",
+  "active_source_partial_book_covered_pages": 88
 }

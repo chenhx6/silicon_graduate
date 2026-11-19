@@ -106,6 +106,7 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 
 - [ ] `raw/` 只有本轮明确授权的 Agent 管理入口发生变化；`raw/zotero/wiki-inbox.bib` 与其他未授权 raw 文件未被修改、移动、重命名或删除。
 - [ ] 每个已摄入来源均记录 `raw_file` 与 `raw_sha256`。
+- [ ] 共用会议卷 PDF 的章级来源记录各自的 `raw_pdf_pages`（从 1 起的 PDF 页段，如 `52-73`）。同路径须同哈希，章间页段互不重叠，作品标识保持唯一。
 - [ ] 哈希变化被标记为 `source-modified`，并进入重新摄入流程。
 - [ ] DOI、期刊、卷页、年份、实验或理论类型等元数据尽可能完整。
 - [ ] 关键结论包含页码、图号、表号、能级或其他精确定位信息。

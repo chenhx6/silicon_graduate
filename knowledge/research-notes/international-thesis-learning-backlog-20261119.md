@@ -168,6 +168,20 @@ The 1979 *Neutron Capture Gamma-Ray Spectroscopy* proceedings now enter a
 chapter-by-chapter pass. The first batch covers von Egidy and Casten (PDF 52–98).
 The earlier U001 chapter remains separately credited at PDF 633–635.
 
+## 1979 proceedings chapter checkpoint
+
+[[von-egidy-1979-neutron-capture-nuclear-structure]] (PDF 52–73) records
+how resonance averaging reduces strength fluctuations while the entrance spin,
+line resolution and detection sensitivity still bound the observed level set.
+[[casten-1979-neutron-capture-model-tests]] (PDF 74–98) shows how relative E2
+branches test the O(6) comparison and lower-alignment states expose a discrepancy
+missed on the favored branch. The four returned units cover 47 pages.
+[[schult-1979-capture-heavy-ion-complementarity]] and
+[[reich-1979-resonance-averaged-capture-spectra]] add PDF 99–136. They
+connect entrance-channel selectivity and partial-wave mixtures to the
+level set and strength patterns that an experiment can constrain.
+The book remains partly read. The next two chapters span PDF 137–171.
+
 ## Final acquisition closure and learning design
 
 The user has closed further acquisition and requested an in-depth learning

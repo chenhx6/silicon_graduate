@@ -7,7 +7,10 @@ updated: 2026-11-20
 
 - [[ljungvall-2020-shapes-collectivity-spectroscopy-hdr]] 已集成。25 个完成响应合并覆盖原件 310 页，首轮漏处理的书目页 81–105 由两个小批补齐。原始结构错误与补核证据保存在 `outputs/literature-acquisition/20261119-deep-learning/ljungvall2020-hdr-evidence-audit.json`，未将书目处理计为引文全文学习。
 - 附印作品分别核对身份和实验依赖。GANIL 期刊版 PDF 205–217 与本地 33 页预印本是同一作品，保留版别及页定位。预印本路径的实际字节和 SHA 已核实。136Sm 与不完全熔合实验分别保留提案、测试及结果，未获得可用的结构约束时不填结论。
-- 本轮累计 8 份主原件、1422 个 PDF 页。1979 年 *Neutron Capture Gamma-Ray Spectroscopy* 已启动 von Egidy 和 Casten 的 47 页批次（PDF 52–98，4 个单元）。入口 `tmp/deep-learning-neutron-capture-1979/run_selected_chapters.py`，读取 `run.log` 及单元账本，复用成功响应。保留 U001 已学页 633–635；整卷及总队列继续。
+- 本轮累计 8 份主原件、1422 个整源 PDF 页。1979 年 *Neutron Capture Gamma-Ray Spectroscopy* 的 [[von-egidy-1979-neutron-capture-nuclear-structure]] 与 [[casten-1979-neutron-capture-model-tests]] 已验收 47 页（PDF 52–98，4 个单元），保留为整卷的部分进度。Casten 第二单元的格式拒绝由原响应核实，无新 API 请求。
+- [[schult-1979-capture-heavy-ion-complementarity]] 与 [[reich-1979-resonance-averaged-capture-spectra]] 的 PDF 99–136 已验收。两篇页差分别为 14 和 13。正文核查后保留布居窗口、两种滤波束、部分波权重和有限共振数的限制。
+- 会议卷覆盖现为 PDF 52–136 及 U001 的 633–635，共 88 页。本卷不计为整源完成。下一批 Schreckenbach 与 Soloviev/Stoyanov 的 PDF 137–171 正运行，入口 `tmp/deep-learning-neutron-capture-1979/run_third_chapters.py`，日志 `third-batch.log`。章间页差重新核实。
+- 章级来源共用已哈希的原件，以不重叠的 `raw_pdf_pages` 标识各章。唯一作品检查继续执行，原 PDF 没有拆档或复制。
 - 另一 session 的 PDM/PDCO 与 Hamilton 改动继续隔离。无 PDM 拟合、raw 改写或重新获取。阶段稳定指针 `main + research: integrate Ljungvall HDR evidence and start capture proceedings`。
 
 ### Previous checkpoint — Smith2017集成与Ljungvall HDR第一阶段
