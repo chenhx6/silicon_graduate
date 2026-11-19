@@ -1,0 +1,81 @@
+{
+  "recorded_at": "2026-11-19T22:28:57.785774+00:00",
+  "batch_pages": [
+    429,
+    461
+  ],
+  "batch_page_count": 33,
+  "book_all_known_pages": [
+    "1-461",
+    "633-635"
+  ],
+  "book_covered_pages": 464,
+  "front_matter_pages": [
+    1,
+    17
+  ],
+  "book_completion": false,
+  "chapter_sources": [
+    "knowledge/sources/kessler-et-al-1979-precise-gamma-ray-energy-standards.md",
+    "knowledge/sources/greenwood-1979-capture-gamma-elemental-analysis.md"
+  ],
+  "responses": [
+    {
+      "id": "NC79-KESSLER-A",
+      "covered": [
+        429,
+        435
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "partial",
+      "prompt_sha256": "d40ca1e1662073cb0ce15820c306bf387136e5026b44de1b58ed6ca9a0ec497a"
+    },
+    {
+      "id": "NC79-KESSLER-B",
+      "covered": [
+        436,
+        442
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "45fa4efe87f005af690eac2dd281d0019ffca5e29e655b34ed742e67f977c319"
+    },
+    {
+      "id": "NC79-GREENWOOD-A",
+      "covered": [
+        443,
+        451
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "f39d1e970cb64cda175e9862579eaa7033b1cdd562657a8ffdeeeb084783ad8f"
+    },
+    {
+      "id": "NC79-GREENWOOD-B",
+      "covered": [
+        452,
+        461
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "9d32475c8cba381e02912ea2234d14d6b54098c11b0f15064c45f65f551e75b7"
+    }
+  ],
+  "verified_pages_and_checks": [
+    "PDF 429–434 and 442–443: title page, wavelength traceability, Bragg angle and chapter separation.",
+    "PDF 436–438: historical Au line and its uncertainty, conversion-factor omission and common reference-line offsets.",
+    "PDF 445–447, 455–456, 461–462: sample matrix in sensitivity, measured spectrum and calculated geometry comparison, chapter end."
+  ],
+  "boundary": "Kessler A labels itself partial because results were in B, outside the first unit. The review covers both, keeps the historical uncertainty, and does not endorse current calibration values.",
+  "next_batch": {
+    "pages": [
+      462,
+      485
+    ],
+    "units": [
+      "NC79-JURNEY-A",
+      "NC79-JURNEY-B",
+      "NC79-MACKLIN"
+    ]
+  }
+}

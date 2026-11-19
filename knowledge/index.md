@@ -53,6 +53,8 @@ updated: 2026-11-20
 - [[benkoula-et-al-1979-parity-violation-searches]] — 自旋反转不对称度、圆偏振及历史符号差异。
 - [[abrahams-1979-polarized-neutron-beams]] — 圆偏振校准、束流退极化及俘获道的相干性。
 - [[moreh-1979-photon-scattering-neutron-capture-gamma-rays]] — 共振散射、极化计数比和宽度的联合约束。
+- [[kessler-et-al-1979-precise-gamma-ray-energy-standards]] — 绝对波长溯源、历史能标和共用误差。
+- [[greenwood-1979-capture-gamma-elemental-analysis]] — 俘获线的元素灵敏度与仪器和样品矩阵限制。
 
 ## A130前置正文重写：样节与一致性
 

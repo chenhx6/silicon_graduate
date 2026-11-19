@@ -224,6 +224,10 @@ The signs printed in the cadmium figure and its table remain unresolved.
 The polarized-beam result retains target depolarization and channel phases.
 The Ti example retains raw polarization counts and the other measurements
 used for the level and width assignments.
+[[kessler-et-al-1979-precise-gamma-ray-energy-standards]] and
+[[greenwood-1979-capture-gamma-elemental-analysis]] add PDF 429–461.
+Shared energy standards propagate common scale uncertainty, and counting
+sensitivity depends on both the particular line and the matrix/geometry.
 
 ## Final acquisition closure and learning design
 

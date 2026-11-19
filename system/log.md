@@ -6314,3 +6314,8 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - PDF 388–428 五单元已核对。记录极化计、靶内退极化及道相位。Moreh 的 49Ti 宽度与指认保留实际计数比、角分布和绝对截面依赖。
 - 会议卷覆盖 431 页，Kessler 等与 Greenwood 的 PDF 429–461 已启动。
+
+## 2026-11-20 — 绝对能标与元素俘获谱
+
+- PDF 429–461 已回原页核验，保留早期参考线和共用换算误差，区别章文中的相对灵敏度、仪器几何与样品矩阵。会议卷覆盖 464 页。
+- Jurney 和 Macklin 的 PDF 462–485 已启动，继续保留归档、验证和发布的页段边界。
