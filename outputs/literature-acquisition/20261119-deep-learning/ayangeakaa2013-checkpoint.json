@@ -1,0 +1,67 @@
+{
+  "recorded_at": "2026-11-19T19:01:46.407753+00:00",
+  "status": "Ayangeakaa2013 primary reading and selected evidence integration complete; whole corpus goal active",
+  "reading_depth": "read; not author-code/event reproduction",
+  "primary_pages": 186,
+  "cumulative_primary_sources": 5,
+  "cumulative_primary_pages": 586,
+  "validation": {
+    "automation_preflight": "passed",
+    "boundary": "passed",
+    "own_source_archive_gate": "passed",
+    "scoped_lint_errors": 0,
+    "whole_repo_lint_counts": {
+      "error": 132,
+      "warning": 500,
+      "info": 5482
+    },
+    "unrelated_baseline_errors": 129,
+    "isolated_parallel_errors": 3,
+    "initial_own_schema_errors_fixed": [
+      "claim table evidence_level column",
+      "Extracted Pages section"
+    ],
+    "warning": "No uniquely verified citation key; not invented",
+    "diff_check": "passed; rerun at staging"
+  },
+  "model_work": {
+    "primary_returned_units": 9,
+    "main_deliverables": 36,
+    "primary_input_pages_unique": 186,
+    "failed_correction_draft_requests": 2,
+    "returned_correction_draft_requests": 0,
+    "manager_source_writing": true,
+    "boundary": "Two ReadTimeout calls have no responses and unknown provider-side work/cost. Source written from cached primary results plus manager original-page checks; no main reread."
+  },
+  "source_level_partial_closure": "AY-FOUND-1 retained partial worker result; manager PDF44-46 and later lifetime chapter closed the method question with printed formula discrepancies recorded.",
+  "learning_impact": [
+    "102Pd actual DSAM lifetimes, spin14 seven-boson versus tentative16, and stopping uncertainty",
+    "Original Qt/CG and constant-ratio normalization discrepancies preserved rather than silently copied",
+    "133Ce actual Rang geometry, model-only absolute strengths and phenomenological input roles",
+    "Published/thesis event-count and front-layer discrepancies retained; same experimental lineage not independent votes"
+  ],
+  "next_work": {
+    "source": "doi:10.7274/mg74qj7554s",
+    "title": "Casarella2017 lifetime measurements in160Gd/162Dy",
+    "pages": 333,
+    "primary_units": 15,
+    "state": "actual primary reading in progress; cached35-page frame reused; not accepted as full source",
+    "runtime_entry": "tmp/deep-learning-casarella/run_casarella.py",
+    "map": "PDF21=printed1,12actualchapter/appendix headers checked"
+  },
+  "publication_pointer": {
+    "branch": "main",
+    "subject": "research: learn Ayangeakaa2013 lifetimes and angular evidence"
+  },
+  "excluded_parallel_paths": [
+    "knowledge/research-notes/pdco-pdm-response-contract-20261118.md",
+    "knowledge/sources/book-hamilton-electromagnetic-interaction.md",
+    "knowledge/research-notes/pdm-three-mode-execution-contract-20261120.md",
+    "knowledge/sources/pypi-pdm-packaging-20261120.md",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/"
+  ],
+  "parallel_authorization": "User confirms only two sessions; unknown increments in this task belong to other session, mainly P/ADO/DCO. Preserve/isolate without repeated confirmation.",
+  "PDM_run": false,
+  "new_acquisition": false,
+  "whole_corpus_complete": false
+}

@@ -1,6 +1,6 @@
 {
   "created_at": "2026-11-19T14:50:09.195632+00:00",
-  "status": "fourth-source-completed-with-boundaries; corpus-learning-active",
+  "status": "fifth-source-completed-with-boundaries; corpus-learning-active",
   "pdf_files_registered": 1016,
   "provisional_work_groups": 988,
   "grouping_boundary": "Not a verified unique-publication count. Byte grouping and old catalogue associations require own-identity/edition/role/scope audits. Collection sources do not establish individual full reading.",
@@ -25,17 +25,23 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.7274/w9504x5422x",
+  "active_source": "doi:10.7274/mg74qj7554s",
   "active_units": [
-    "AY-FRAME",
-    "AY-FOUND",
-    "AY-PAIR-CHIR",
-    "AY-EXP",
-    "AY-CALIB",
-    "AY-TIDAL",
-    "AY-PD102",
-    "AY-CE133-EXP",
-    "AY-CE133-MODEL"
+    "CC-FRAME",
+    "CC-FOUND",
+    "CC-SYSTEM",
+    "CC-EXP",
+    "CC-ANALYSIS",
+    "CC-GDRESULT",
+    "CC-DYPOS",
+    "CC-DYNEG",
+    "CC-DYTABLE",
+    "CC-GDDISC",
+    "CC-DYDISC",
+    "CC-NEGDISC",
+    "CC-APGD",
+    "CC-APDYPOS",
+    "CC-APDYNEG"
   ],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -59,9 +65,18 @@
     "SH-RAREEARTH",
     "SH-WOBBLING",
     "SH-CHIRAL",
-    "SH-SUP-DRAFT"
+    "SH-SUP-DRAFT",
+    "AY-FRAME",
+    "AY-FOUND",
+    "AY-PAIR-CHIR",
+    "AY-EXP",
+    "AY-CALIB",
+    "AY-TIDAL",
+    "AY-PD102",
+    "AY-CE133-EXP",
+    "AY-CE133-MODEL"
   ],
-  "completed_full_sources_this_run": 4,
+  "completed_full_sources_this_run": 5,
   "PDM_run": false,
   "new_search_or_download": false,
   "queue_entries_including_closed_gaps": 995,
@@ -69,11 +84,12 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-19T18:19:30.778537+00:00",
+  "updated_at": "2026-11-19T18:53:31.111238+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 400,
-  "current_source_note": "knowledge/sources/shimada-2015-angular-momentum-projection-thesis.md",
-  "next_action": "Await Ayangeakaa actual returned units; reconcile deliverables and source evidence before integrating or counting.",
+  "completed_primary_pages_this_run": 586,
+  "current_source_note": "knowledge/sources/ayangeakaa-2013-tidal-waves-chirality-thesis.md",
+  "next_action": "Await Casarella2017 fifteen primary units; reuse cached frame, reconcile appendices and selected original evidence. Do not rerun Ayangeakaa successful requests.",
   "runtime_background_jobs_running": true,
-  "all_corpus_learning_complete": false
+  "all_corpus_learning_complete": false,
+  "last_source_manager_closure": "AY-FOUND-1 partial retained; method closed from original44-46 and later chapter. Two writer timeouts; source written by Codex, no returned correction call falsely counted."
 }

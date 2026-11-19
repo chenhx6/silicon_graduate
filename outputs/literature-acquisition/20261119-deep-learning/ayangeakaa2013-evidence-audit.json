@@ -1,0 +1,333 @@
+{
+  "recorded_at": "2026-11-19T18:53:31.111238+00:00",
+  "source_note": "knowledge/sources/ayangeakaa-2013-tidal-waves-chirality-thesis.md",
+  "raw_file": "raw/theses/gpt/query/20261119-international-nuclear-structure/AyangeakaaAD072013D.pdf",
+  "raw_sha256": "d9f0edcf30c82d4f4fb6b4e3e5f46f88f67340daec76ce98e5095835cd24d1a6",
+  "primary_pages": 186,
+  "main_unit_ids": [
+    "AY-FRAME",
+    "AY-FOUND",
+    "AY-PAIR-CHIR",
+    "AY-EXP",
+    "AY-CALIB",
+    "AY-TIDAL",
+    "AY-PD102",
+    "AY-CE133-EXP",
+    "AY-CE133-MODEL"
+  ],
+  "requested_main_deliverables": 36,
+  "primary_page_coverage": {
+    "unique": 186,
+    "unread_input_pages": 0,
+    "overlap": 0
+  },
+  "worker_partial_and_manager_closure": {
+    "issue": "AY-FOUND-1 was partial despite all supplied pages covered: strength formula begins beyond its assigned page42. This is a manager task-boundary issue, not unread pages.",
+    "original_worker_result_preserved": true,
+    "manager_targeted_source_pages": [
+      44,
+      45,
+      46,
+      120,
+      121
+    ],
+    "cross_unit_sources": [
+      "AY-EXP photon strength ratios at PDF85-86",
+      "AY-PD102 lifetime/strength Eq3.15 Table3.2 atPDF120-121"
+    ],
+    "resolution": "Manager supplied no new API call: directly checked original quadrupole definitions and rotor CG-B relation, source Eq1.47 agrees standard factor2; Eq1.46 and3.16 lack it. Partial work result remains unchanged; source-level method question closed with explicit printed-formula limitations.",
+    "scope_limits": "Do not use printed Eq1.42 or1.43 as certified general identities; no full textbook-formula audit or author-code reproduction."
+  },
+  "manager_selected_evidence_checks": [
+    {
+      "pages": [
+        1,
+        2
+      ],
+      "item": "Own identity and edition",
+      "accepted": "Akaa D. Ayangeakaa, Notre Dame PhD title July2013, ownDOI10.7274/w9504x5422x. Title month is not verified defense/award date; SHA matched186-page original."
+    },
+    {
+      "pages": [
+        112,
+        113,
+        114,
+        118,
+        120,
+        121
+      ],
+      "item": "102Pd actual experiment and errors",
+      "accepted": "90MeV30Si+76Ge reaction,98HPGe,3.1e9 coincidences reported; sidefeeding/global fit and MINOS profile separated from stopping-power systematic up to20percent. Ref107 scale disagreement retained as author report, not adjudicated."
+    },
+    {
+      "pages": [
+        120,
+        121,
+        123,
+        174,
+        176
+      ],
+      "item": "Spin, lifetime, interpretation boundary",
+      "accepted": "Measured table6to16,16lifetime lowerlimit due sidefeeding; reliable7phonon interpretation throughI14, tentative8phononI16, not7at16. Relative and absolute strengths distinct."
+    },
+    {
+      "pages": [
+        45,
+        46,
+        121,
+        122,
+        123
+      ],
+      "item": "Actual formula checks",
+      "accepted": "PDF46 Eq1.46 missing factor2 compared to samepage1.47. Eq3.16 literal Qt differs sqrt2 fromtable; direct factorial3j matches table. ConstantB/J andJ=2I/E yields factor1/2 absent printed3.19. Grodzins3.20 upward strength needs factor5 conversion. No official erratum/code bug claimed."
+    },
+    {
+      "pages": [
+        126,
+        127,
+        129
+      ],
+      "item": "Model input roles",
+      "accepted": "WS-SCTAC no parameters adjusted tothis experiment; actual solution intermediate-principal-axis. GeometricGCM inputfitting and13.6strength-scale treatment reported withlimitedcase boundary. NotGeneratorCoordinateGCM, not universal modelranking."
+    },
+    {
+      "pages": [
+        97,
+        98,
+        139,
+        141,
+        143
+      ],
+      "item": "Angular measurement geometry",
+      "accepted": "ChapterDCOgeneric wording does not overrideRang Eq4.1 allring/quasiisotropicgate operationaldefinition. Fivebackward andfive90degree rings. TableA2/A0 identifiesmultipolarity withconditionalE/M assignments; no measuredP or reportednumeric alignmentwidth in relevant actualanalysis. NoP-delta tablefabricated."
+    },
+    {
+      "pages": [
+        154,
+        155,
+        158,
+        159,
+        162,
+        163,
+        169,
+        175
+      ],
+      "item": "Chiral data-model distinction",
+      "accepted": "RMF βγ values modelinputs notdirectshapemeasurement; positivecase empiricalattenuationxi.7, no blanket nofreeparameterclaim. AbsoluteB strengths inFig4.13 modelonly. Near400keVnegativepair gap and100keVpositivepair,bandx20keVbutuncertainlinks showenergeticsnotsufficient. No uniquechirality proof."
+    },
+    {
+      "pages": [
+        137,
+        138
+      ],
+      "additional_original": "PRL110172504 publishedPDF1",
+      "item": "Same experimental lineage and actual source discrepancies",
+      "accepted": "Thesis7.8e9 andfront50ug/cm2Au vsPRL4.1e9 andfrontAl independently checkedagainstlocalraw, includingbothpageimages. Keepunresolved count/materialdifference; donotharmonizeorcountasindependentexperiments. Publishedsetup preferredforfutureuse, notthesis silentlyrewritten."
+    },
+    {
+      "pages": [
+        85,
+        86
+      ],
+      "item": "Photon-rate ratio nuance",
+      "accepted": "Same-initial-state radiative photon-intensity ratio cancels total population/lifetime; no automaticextraICCfactor. Absolute radiative strength fromtotaldecayrequiresbranch/ICC/mixing. Reject primaryEXP statementthatmissingalphaaloneinvalidatesradiativeratio."
+    }
+  ],
+  "source_writing": {
+    "authoring_agent": "Codex manager",
+    "reason": "Two Gemini correction/source-writing ReadTimeout failures without responses; no third writer request and no successful main units repeated.",
+    "returned_targeted_correction_deliverables": 0,
+    "manager_issue_ids_resolved_or_bounded": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7",
+      "R8"
+    ],
+    "scientific_boundary": "Selective source-backed acceptance, not blanket acceptance of all primary claims or all formulas."
+  },
+  "attempted_requests": 11,
+  "successful_returned_requests": 9,
+  "failed_correction_draft_requests": {
+    "AY-SUP-DRAFT": {
+      "error_type": "ReadTimeout",
+      "status": "failed-or-parse-failed",
+      "response_saved": false
+    },
+    "AY-SUP-DRAFT-R1": {
+      "error_type": "ReadTimeout",
+      "response_saved": false,
+      "elapsed_seconds": 540.13
+    }
+  },
+  "provider_reported_usage_for_returned_requests": {
+    "input_tokens": 332752,
+    "output_tokens": 127681,
+    "total_tokens": 460433
+  },
+  "usage_boundary": "Failed requests have unknown server work/billing. Tokens are provider-reported successful responses only, not a cost estimate, hidden-tier certification or enforced cap.",
+  "algebra_check": {
+    "source_pdf_pages": [
+      120,
+      121
+    ],
+    "scope": "Central-value unit/convention consistency only. Does not reproduce DSAM, side feeding, uncertainty or author code.",
+    "rows": [
+      {
+        "I": 6,
+        "E_MeV": 0.836,
+        "tau_ps": 1.15,
+        "reported_BE2": 0.174,
+        "recomputed_BE2": 0.17376445045658495,
+        "reported_value_difference": -0.00023554954341503676,
+        "Qt_from_reported_BE2": 1.6671370899478741,
+        "n": 3.0,
+        "boundary": "central-value algebra only",
+        "CG_squared": 0.31468531468531463,
+        "CG_squared_closed_form": 0.3146853146853147,
+        "Qt_standard_K0": 2.3576878829394983,
+        "Qt_table": 2.36,
+        "Qt_table_over_printed_eq": 1.415600441157355
+      },
+      {
+        "I": 8,
+        "E_MeV": 0.902,
+        "tau_ps": 0.72,
+        "reported_BE2": 0.19,
+        "recomputed_BE2": 0.18981257226802858,
+        "reported_value_difference": -0.00018742773197141793,
+        "Qt_from_reported_BE2": 1.7027158366306652,
+        "n": 4.0,
+        "boundary": "central-value algebra only",
+        "CG_squared": 0.3294117647058824,
+        "CG_squared_closed_form": 0.32941176470588235,
+        "Qt_standard_K0": 2.4080038290305374,
+        "Qt_table": 2.41,
+        "Qt_table_over_printed_eq": 1.4153859077090098
+      },
+      {
+        "I": 10,
+        "E_MeV": 0.98,
+        "tau_ps": 0.409,
+        "reported_BE2": 0.221,
+        "recomputed_BE2": 0.22071734951920935,
+        "reported_value_difference": -0.0002826504807906527,
+        "Qt_from_reported_BE2": 1.8119684359965096,
+        "n": 5.0,
+        "boundary": "central-value algebra only",
+        "CG_squared": 0.33834586466165406,
+        "CG_squared_closed_form": 0.3383458646616541,
+        "Qt_standard_K0": 2.5625103367782294,
+        "Qt_table": 2.56,
+        "Qt_table_over_printed_eq": 1.412828142666902
+      },
+      {
+        "I": 12,
+        "E_MeV": 1.062,
+        "tau_ps": 0.252,
+        "reported_BE2": 0.24,
+        "recomputed_BE2": 0.23969944818767283,
+        "reported_value_difference": -0.00030055181232716,
+        "Qt_from_reported_BE2": 1.8717242872922089,
+        "n": 6.0,
+        "boundary": "central-value algebra only",
+        "CG_squared": 0.3443478260869566,
+        "CG_squared_closed_form": 0.3443478260869565,
+        "Qt_standard_K0": 2.6470178721117565,
+        "Qt_table": 2.65,
+        "Qt_table_over_printed_eq": 1.4158068140653925
+      },
+      {
+        "I": 14,
+        "E_MeV": 1.083,
+        "tau_ps": 0.201,
+        "reported_BE2": 0.272,
+        "recomputed_BE2": 0.2724907838503911,
+        "reported_value_difference": 0.0004907838503910855,
+        "Qt_from_reported_BE2": 1.9802450538271703,
+        "n": 7.0,
+        "boundary": "central-value algebra only",
+        "CG_squared": 0.34865900383141757,
+        "CG_squared_closed_form": 0.3486590038314176,
+        "Qt_standard_K0": 2.8004894119446244,
+        "Qt_table": 2.8,
+        "Qt_table_over_printed_eq": 1.4139664152113445
+      },
+      {
+        "I": 16,
+        "E_MeV": 1.104,
+        "tau_ps": 0.18,
+        "reported_BE2": 0.277,
+        "recomputed_BE2": 0.27642179745773954,
+        "reported_value_difference": -0.0005782025422604864,
+        "Qt_from_reported_BE2": 1.9891218071639258,
+        "n": 8.0,
+        "boundary": "16+ lifetime only lower limit according to original; arithmetic not new lifetime estimation",
+        "CG_squared": 0.3519061583577712,
+        "CG_squared_closed_form": 0.3519061583577713,
+        "Qt_standard_K0": 2.813043036903304,
+        "Qt_table": 2.81,
+        "Qt_table_over_printed_eq": 1.412683722977466
+      }
+    ],
+    "source_internal_discrepancy": "Printed Eq3.16 lacks factor2 under square root relative to standard K=0 CG inversion; tableQt consistent with standard within rounding, not literal printed expression. No claim author code erroneous.",
+    "verification_method": "Independent direct factorial integer Wigner3j sum versus closed-form K0 coefficient; no external package available or installed.",
+    "constant_ratio_check": {
+      "assumption": "B_I/J_I = B_2/J_2, J_I=2I/Egamma(I), same spin units",
+      "derived_BI_over_B2": "I*Egamma(2)/(2*Egamma(I))",
+      "printed_Eq3_19": "I*Egamma(2)/Egamma(I)",
+      "I2_identity_corrected": 1,
+      "I2_identity_printed": 2,
+      "source_pdf_page": 123,
+      "boundary": "Internal algebraic inconsistency; does not establish a published erratum or an author-code fault."
+    },
+    "additional_original_cross_check": {
+      "pdf_page": 46,
+      "printed_page": 27,
+      "Eq1_46": "CG square printed without factor2",
+      "Eq1_47": "same-page B formula includes factor2 and agrees standardK0",
+      "significance": "Additional original-source internal corroboration; do not silently fix all formulae or certify full chapter."
+    }
+  },
+  "additional_published_original_check": {
+    "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf",
+    "sha256": "3c5a3d7c543140ee25f7cb09376d5aeee760c8ac50c76edd466a010d610c2d0f",
+    "selected_contexts": [
+      {
+        "pdf_page": 1,
+        "text": "boratory. In both, high-spin states in 133Ce were populated following the 116Cdð22Ne; 5nÞ133Ce reaction at a bombarding energy of 112 MeV. In the ﬁrst experiment, the target was a foil of isotopically enriched 116Cd, 1:48 mg=cm2 thick, and sandwiched between a 50 \u0002g=cm2 thick front layer of Al and a 150 \u0002g"
+      }
+    ],
+    "boundary": "Key event-count/beam scope check, not a new whole-paper reading or independent experiment.",
+    "checked_discrepancies": [
+      {
+        "thesis_pdf": [
+          137,
+          138
+        ],
+        "thesis_events": "7.8e9",
+        "paper_pdf": 1,
+        "paper_events": "4.1e9",
+        "interpretation": "Unresolved scope/selection/reporting difference, not two independent experiments."
+      },
+      {
+        "thesis_pdf": 137,
+        "thesis_front_50ug_cm2": "Au",
+        "paper_pdf": 1,
+        "paper_front_50ug_cm2": "Al",
+        "interpretation": "Actual source discrepancy; do not silently harmonize or assert physical target identity from thesis alone. Published paper preferred for future experimental setup use, with discrepancy retained."
+      }
+    ]
+  },
+  "reading_depth": "read",
+  "scope_limits": [
+    "No DSAM event reanalysis or author-code reproduction",
+    "No all-curve digitization or complete external-reference audit",
+    "No PDM; no new acquisition"
+  ],
+  "thematic_knowledge_writeback": "knowledge/concepts/tidal-wave.md",
+  "whole_corpus_complete": false
+}

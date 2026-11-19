@@ -8,7 +8,7 @@ created_from: "User-requested literature acquisition and learning design; scope-
 type: research-note
 title: International thesis learning backlog
 created: 2026-11-19
-updated: 2026-11-19
+updated: 2026-11-20
 tags: [theses, literature-learning]
 ---
 
@@ -87,6 +87,26 @@ The Li/Gu/Shimada theory stage is reflected in the AMP page's comparison matrix;
 it does not add three independent experiments or rank the models.40Mg rotational
 results are predictions in this thesis, while several high-spin comparisons retain
 clear quantitative discrepancies.
+
+## Fifth executed reading checkpoint
+
+[[ayangeakaa-2013-tidal-waves-chirality-thesis]] now records186 primary PDF
+pages across nine Gemini units. The foundation unit's partial method item was
+closed by the manager using PDF44-46 and the later lifetime chapter, preserving
+the original worker status. Two correction/draft requests timed out without
+responses; the final source note was written by Codex from cached primary work
+and selected original-page checks, not falsely attributed to a returned draft.
+
+The 102Pd increment is the actual DSAM lifetime/strength evidence, the I14
+seven-boson versus tentative I16 distinction, stopping-power uncertainty and
+printed-equation inconsistencies. The 133Ce increment is the operational Rang
+geometry, model-only absolute strengths, empirical attenuation and unresolved
+thesis/publication setup discrepancies. No P-based delta fit is fabricated.
+Existing tidal-wave knowledge receives the reusable evidence/normalization
+limits; this is not a new independent copy of the published Ce experiment.
+
+Next source Casarella2017 is in actual primary reading,333 pages in15 units;
+its35-page frame unit is cached and reused, not a full-source completion.
 
 ## Final acquisition closure and learning design
 

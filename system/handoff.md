@@ -3,9 +3,20 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
-## Active handoff — 2026-11-20 Shimada检查点与Ayangeakaa续读
+## Active handoff — 2026-11-20 Ayangeakaa集成与Casarella主读
 
-- 用户已明确：当前共两个session，未知增量主要属于另一session的P/ADO/DCO工作；后续同类改动原样保留、与馆藏学习提交隔离，不重复请求确认。包括Hamilton来源、PDCO合同、新三模式合同及其计划目录；不替另一session修索引或提交其文件。其它无关异常仍按原规则处理。
+- Ayangeakaa186页九主读已完成并按选定原页集成 [[ayangeakaa-2013-tidal-waves-chirality-thesis]] 与潮汐波概念增量；累计五篇/586个主原件PDF页，整库goal仍active。两个订正/写作请求均ReadTimeout且无响应，不再发第三次writer请求；Codex从成功主读缓存及关键原页整理了来源，明确记录分工改变，不冒称Gemini草稿/八项订正已返回。原partial保留，管理层方法闭环见本地scope reconciliation。
+- 当前实际主读Casarella2017（DOI10.7274/mg74qj7554s），333页、15单元、并发2；`tmp/deep-learning-casarella/resume_after_compact.py` 已等到compact请求终止后启动 `run_casarella.py`，CC-FRAME缓存复用，其余待返回/核验。PDF21=printed1，12个章节/附录标题入口已核。附录A-E须按稿件版本和共同实验依赖处理，不能另算独立证据。
+- 后续Gemini写作应只消费已核事实账本、按小段给明确写作目标，不再把全部主读交付、全原文重核与长草稿合成一个请求；纯写手不能冒称读过未供原件。两次超时不证明输入长度是唯一原因，也不重读成功单元。Casarella的CC-GDDISC只因等义receipt对象而结构失败，已从缓存规范为字面值，原响应/旧结果保留，科学内容未改、未重发请求。
+- Ayangeakaa原文/公式核查、两个失败调用和实际用量见 `outputs/literature-acquisition/20261119-deep-learning/ayangeakaa2013-evidence-audit.json`。关键增量：I14七玻色子与16下限分开，停止系统误差不混入统计误差，Rang实际any-gate定义、模型绝对B与数据分层；Eq3.16/Qt、3.19及1.46/1.47不一致保留。另核本地PRL出版版PDF1的事件数/前层材料与论文不一致，不静默统一。
+- 本检查点预检、路径与原件归档门通过，定向lint错误0；全库129项历史错误及3项另一session错误隔离，不替其修复。新source的未核citation key警告不造值消除。稳定指针为 `main + research: learn Ayangeakaa2013 lifetimes and angular evidence`，精确发布结果只入local receipt。另一session文件保留隔离，广义授权见下；不要重跑成功主读或两个已超时writer。
+
+### Previous runtime — Shimada发布后与Ayangeakaa订正等待
+
+- Ayangeakaa九主单元现均已返回，实际186页覆盖；AY-FOUND-1因分配范围止于PDF42而partial，管理层已定向核PDF44-46并与后续寿命章节闭环，原worker状态不改写。首个综合订正/草稿请求ReadTimeout且无响应；精简为 `tmp/deep-learning-ayangeakaa/compact_supplement.py` 的R1请求，正在等待，不能重发仍存活请求或重跑成功主单元。数学核查已发现Eq1.46/1.47、3.16/表Qt和3.19归一化不一致；主读不等于这些印刷式可直接复用。补核待集成，尚不加第五篇完成学分。
+- 为等待接口时继续推进，已启动Casarella2017的frame-only运行准备，`tmp/deep-learning-casarella/run_frame_only.py`；本运行仅派一个35页的身份/总结/书目单元，绝非已读333页。整源15单元脚本已准备但尚未启动；后续复用CC-FRAME缓存。与当前订正请求合计最多两个API活请求。下一次续接先查两处日志/packet/result，不能直接重跑脚本。
+
+- 用户已明确：当前共两个session，本轮未知文件增量属于另一session，主要围绕P/ADO/DCO；原样保留、与馆藏学习提交隔离，不重复请求确认。包括Hamilton来源、PDCO合同、新三模式合同、包装工具来源及其计划目录；不替另一session修索引或提交其文件。真实凭据泄漏、原件覆盖或不符合该来源说明的安全异常仍须单独处理。
 - Shimada110页主读及七项定向补核已返回，管理层已按原页核验并集成来源与AMP概念页；read而非代码复现。累计四篇、400个主原件PDF页，整库目标仍active。下述旧页码错误已通过实际补输入闭环，不只是更换标签。检查点稳定指针 `main + research: learn Shimada2015 and qualify projection evidence`；精确发布结果存本地receipt。
 - Ayangeakaa2013已实际启动九单元主读，186页不重叠，`tmp/deep-learning-ayangeakaa/run_ayangeakaa.py`，并发2；真实标题/章节页映射守卫PDF20/65/101/131/173/177通过后才发请求。PDF20=printed1；此文GCM是Geometric Collective Model。接口返回与科学验收尚须逐项对账，不提前加完成学分。没有新下载、PDM或daemon。
 
