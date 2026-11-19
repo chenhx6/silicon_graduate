@@ -1,0 +1,126 @@
+{
+  "recorded_at": "2026-11-19T23:47:55.727427+00:00",
+  "batch_pages": [
+    584,
+    604
+  ],
+  "batch_page_count": 21,
+  "book_all_known_pages": [
+    "1-604",
+    "633-635"
+  ],
+  "book_covered_pages": 607,
+  "bibliographic_pages": [
+    "1-17",
+    "521"
+  ],
+  "book_completion": false,
+  "responses": [
+    {
+      "id": "NC79-CLARK-U236",
+      "covered": [
+        584,
+        586
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "5cd0e8f81e93761b5aeaafded44c4009a12a1c87ac81cff2cf38c95845eae1ba"
+    },
+    {
+      "id": "NC79-COCEVA-IR192",
+      "covered": [
+        587,
+        589
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "0c82f49c414ee8c09668e94c827f04130d699831d40129dc98289bd19ea5f4cc"
+    },
+    {
+      "id": "NC79-DANILYAN-PARITY",
+      "covered": [
+        590,
+        592
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "cf03b2e240afe15492a275eed8f0b216d09755ab769849a6e7c250476d5aab22"
+    },
+    {
+      "id": "NC79-DEBOER-ER168",
+      "covered": [
+        593,
+        595
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "4e19da2d822471023f58313d72a59d7e466a4c45c4d3424b6676825e5eff91b0"
+    },
+    {
+      "id": "NC79-DELHEIJ-AL28",
+      "covered": [
+        596,
+        598
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "32039d8fe652097857a600c68ca3e81eb60ae3afb9c85556f256ce82ace00c8b"
+    },
+    {
+      "id": "NC79-DIAZ-PB208",
+      "covered": [
+        599,
+        601
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "ece600e3771bc6b5d16b170b8476d7efb209eb00be20b4615f1b872db61e15c6"
+    },
+    {
+      "id": "NC79-DIONISIO-ELECTRONS",
+      "covered": [
+        602,
+        604
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "c5e1e9f096b737e0e385c41ce7925ab59a55ee61da2cd8e3bbbeaaaf7cac23f1"
+    }
+  ],
+  "chapter_sources": [
+    "knowledge/sources/clark-et-al-1979-u236-isomer-spectroscopy.md",
+    "knowledge/sources/coceva-giacobbe-1979-ir192-resonance-capture.md",
+    "knowledge/sources/danilyan-et-al-1979-compound-nucleus-parity-effects.md",
+    "knowledge/sources/davidson-et-al-1979-er168-intrinsic-excitation.md",
+    "knowledge/sources/delheij-girgin-1979-al28-circular-polarization-mixing.md",
+    "knowledge/sources/dietrich-kerman-1979-pb208-capture-models.md",
+    "knowledge/sources/dionisio-et-al-1979-isotope-target-electron-spectroscopy.md"
+  ],
+  "verified_pages_and_checks": [
+    "Clark 等 1979：铀-236 异能态转换电子与多极性: PDF 585 Table 1 与 Results：12 条 γ 线给出的平均半衰期为 $98\\pm6$ ns。表中的 45、56、65 keV 记录仅见于电子谱，104.1 keV 项标为很可能的双线，部分线尚未置入纲图。 | PDF 585–586 / Fig. 1：687 keV 跃迁在表中列 E1，解释段比较由既往转换资料提出的 M2 与异常转换的 E1。$K/L$ 比、带间 γ 阻碍和邻核系统学提供不同约束。原章注明电子数据分析尚未完成。",
+    "Coceva 与 Giacobbe 1979：铱-192 的共振组布居比: PDF 587–589 / Table 2：筛出 118.8–267.4 keV 内呈单线特征的 21 个峰。$r$ 为 $J=2$ 与 $J=1$ 两组俘获共振的平均峰强度比，分子分母分组选取，正文列出了各共振能。 | PDF 589 Table 2 及其后：118.8 keV 峰的 $r>1.3$，对应母态候选 $I\\ge3$。部分峰列出多个 $I$，因为本章缺少已知自旋的本核参照线，候选来自简化 γ 退激模型。",
+    "Danilyan 等 1979：复合核宇称奇效应的观测与模型因子: PDF 590–591：章文分析既往测得的 P-odd 不对称。连接观测量与复合核自旋取向时，引入入口自旋通道布居和极化因子，各核素的通道选择属于分析前提。 | PDF 591–592：用于比较辐射俘获和裂变的系数还依赖跃迁或裂变宽度及统计假设。作者在特定条件下估计强、弱过程的相对量级，并讨论自旋通道干涉影响。",
+    "Davidson 等 1979：铒-168 俘获谱与本征激发: PDF 593–594：晶体、Ge(Li)、转换电子及 γ–γ 符合提供互补条件；章文报告 3 MeV 以下约 700 条次级 γ 线，结合既往资料构造逾 70 个能级及约 270 条跃迁。图 1–2 只给其中可编组的一部分。 | PDF 594–595 / Figs. 1–2：1653.54 keV 的 $K^\\pi=3^+$ 带已有退激证据，双准粒子组态为作者解释。约 1422 keV 的建议带头和 1217.29 keV 的 $0^+$ 态性质仍待检验，作者提出转移反应可补充约束。",
+    "Delheij 与 Girgin 1979：铝-28 的圆偏振、角分布与混合比: PDF 596 General Remarks：极化热中子入射。对非极化 $^{27}$Al 靶俘获后的 20 条 γ 线测量圆偏振度，另外在极化靶上测 33 条跃迁的角分布。两组观测按不同靶状态取得。 | PDF 596–598 / Table 1：$\\chi^2$ 分析分列两入口自旋的初级混合比 $\\delta_L,\\delta_H$、通道布居比例和次级 $\\delta_S$。摘要专指 M2/E1 混合证据。γ 线偏振 $P$ 在该章无测量记录，因此这篇留在方法来源，P–δ 数据调研排除。",
+    "Dietrich 与 Kerman 1979：铅-208 快俘获两类振幅模型: PDF 599–600：直接半直接与纯共振计算共用若干巨偶极参数、束缚波函数和耦合约定，入口态的巨共振分量在两种表述中处理不同。两组预测以相同的文献分俘获激发函数作比较。 | PDF 600–601 / Fig. 1：在作者的示例里，引入虚耦合明显改变 DSD 的非对称性，对 PRM 的影响小。PRM 中把结构系数增加 80% 属敏感性示例，变化主要在幅度。未消除的非对称性差异仍在。",
+    "Dionisio 等 1979：同位素靶与在束转换电子分辨率: PDF 602–603：讨论富集样品的直接收集以及靶衬底对低能电子测量的影响。示例以 $^{198}$Pt 俘获的转换电子谱检验所制样品。 | PDF 603：四条强转换电子线的 $\\Delta p/p$ 随能量报告，例如 21.654 keV 为 $1.38\\times10^{-3}$，75.42 keV 为 $7.34\\times10^{-4}$。它们是该样品和 BILL 谱仪条件下的动量分辨率。PDF 603–604 的增厚方案仍是后续试验设想。"
+  ],
+  "next_batch": {
+    "pages": [
+      605,
+      632
+    ],
+    "units": [
+      "NC79-DUFFEY-CF252",
+      "NC79-EARLE-H1-TWOGAMMA",
+      "NC79-GARDNER-STRENGTH",
+      "NC79-GOLUB-SUPERTHERMAL",
+      "NC79-GREENWOOD-H1-ENERGY",
+      "NC79-GREENWOOD-N14-ENERGIES",
+      "NC79-HENKELMANN-ACTIVATION",
+      "NC79-HOFF-CM249-LEVELS",
+      "NC79-HOLT-O17",
+      "NC79-HOREN-PB208"
+    ]
+  }
+}

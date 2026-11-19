@@ -263,6 +263,16 @@ cross-section uncertainties, and the Ag distinction between energy
 combinations and coincidences. The volume has 572 of 874 pages covered,
 including the 18 bibliographic pages and prior U001 at PDF 633–635.
 
+PDF 570–604 adds 12 chapters. The two \(^{208}\)Pb model papers
+[[chakrabarty-gupta-kailas-1979-pb208-isovector-potential]] and
+[[dietrich-kerman-1979-pb208-capture-models]] share cited partial-capture
+data. The \(^{196}\)Pt [[cizewski-et-al-1979-pt196-negative-parity|level assignments]]
+and [[cizewski-casten-stelts-1979-empirical-energy-gap|gap estimate]]
+constrain distinct observables and may share BNL capture data.
+In [[delheij-girgin-1979-al28-circular-polarization-mixing]], the measured
+γ polarization is circular. The chapter adds a method example, outside the
+linear-polarization data survey. Volume coverage rises to 607 of 874 pages.
+
 ## Final acquisition closure and learning design
 
 The user has closed further acquisition and requested an in-depth learning

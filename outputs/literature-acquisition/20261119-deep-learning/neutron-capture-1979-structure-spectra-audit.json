@@ -1,0 +1,99 @@
+{
+  "recorded_at": "2026-11-19T23:47:55.727427+00:00",
+  "batch_pages": [
+    570,
+    583
+  ],
+  "batch_page_count": 14,
+  "book_all_known_pages": [
+    "1-583",
+    "633-635"
+  ],
+  "book_covered_pages": 586,
+  "bibliographic_pages": [
+    "1-17",
+    "521"
+  ],
+  "book_completion": false,
+  "responses": [
+    {
+      "id": "NC79-CARLTON-SN116",
+      "covered": [
+        570,
+        571
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "fa60654f72102f7dc35b2589d5463d0b99bf1ac6ea45fd7368f7741a88db1b34"
+    },
+    {
+      "id": "NC79-CASTEN-NILSSON",
+      "covered": [
+        572,
+        574
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "1546cd1dc1cc286cf0c23d8d7374be829aab8ea624fe57c3f445d9ddfb99d303"
+    },
+    {
+      "id": "NC79-CHAKRABARTY-PB208",
+      "covered": [
+        575,
+        577
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "fd91d52be7a893f4ddbbbad27dcd8a5480496053ce2cad5b880a6e4a79e28882"
+    },
+    {
+      "id": "NC79-CIZEWSKI-PT196",
+      "covered": [
+        578,
+        580
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "6866cc5b42b3f7b7cd07f98f921e93146973330a1152f52b5eb59fcd3455e164"
+    },
+    {
+      "id": "NC79-CIZEWSKI-GAP",
+      "covered": [
+        581,
+        583
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "c24f97ae2c2198fd780c0294f79ab85711ff3999b44da6ac68484a1a53a21a27"
+    }
+  ],
+  "chapter_sources": [
+    "knowledge/sources/carlton-raman-jurney-1979-sn116-thermal-capture.md",
+    "knowledge/sources/casten-warner-cizewski-1979-nilsson-fragmentation.md",
+    "knowledge/sources/chakrabarty-gupta-kailas-1979-pb208-isovector-potential.md",
+    "knowledge/sources/cizewski-et-al-1979-pt196-negative-parity.md",
+    "knowledge/sources/cizewski-casten-stelts-1979-empirical-energy-gap.md"
+  ],
+  "verified_pages_and_checks": [
+    "Carlton 等 1979：锡-116 的热俘获与自旋入口: PDF 570：章文报告 $^{116}$Sn 在 7.5 MeV 以下建立 110 个能级，主要依据热俘获单计数 γ 谱。PDF 571 Table 1 只列约 50 个能级，星号标出未观察到热俘获初级 γ 馈入的能级，脚注中的自旋宇称引自 Nuclear Data Sheets。 | PDF 571 Table 1 后：给出 $S_n=9563.5\\pm0.3$ keV。$1/2^+$ 靶基态的 s 波入口允许 $0^+$、$1^+$，向若干已知 $0^+$ 和 $2^+$ 低态的初级 γ 馈入支持作者的 $1^+$ 主导判断。",
+    "Casten 等 1979：A≈190 区 Nilsson 强度碎裂的求和口径: PDF 572–573 / Fig. 1：以平均共振俘获辅助识别 $1/2^-,3/2^-$ 能级，再按类别求和 (d,p) 截面。图中经验和只计尚未作组态归属的能级。$^{191}$Os 的实验截面还除以经验 $U^2$ 因子才能比较有效单粒子强度。 | PDF 572–574：$^{187}$W 与 $^{191}$Os 的低自旋负宇称强度出现约 0.5 与 1.5 MeV 两组。$^{193}$Os 的对应强度多在 500 keV 以下。作者说明配对和 Coriolis 混合可能使强度转移到图中排除的已指认状态。",
+    "Chakrabarty 等 1979：铅-208 俘获和散射对等旋势的约束: PDF 575–576 / Figs. 1–2：在作者采用的势和直接半直接模型下，分俘获数据容许 $N_R^2+N_I^2\\approx8.5\\pm0.5$ 的组合。加上 8.05 MeV 的弹性散射角分布几乎解开相对歧义，$(N_R,N_I)=(1.8,2.2)$ 同时描述两组数据。 | PDF 577：作者指出若只改耦合势而保持计算畸变波的总光学势，得到的系数会显著改变。因子约二的估计沿用当前模型和引用的俘获数据。",
+    "Cizewski 等 1979：铂-196 的负宇称态指认: PDF 578–579 / Fig. 1：资料合并热俘获、离散共振、平均俘获及低能线精测。1447 keV 的 $3^-$ 和 1825 keV 的 $1^-$ 以退激与布居支持。图中的括号标识作者基于模型提出的指认。1270、1374、1821、2468 keV 的增强 E2 序列来自所引结果。 | PDF 579–580：约 1754 keV 和 1988 keV 的自旋分别留有备选，1988 keV 的假设还受 1987/1984 keV 相近状态和未见分支限制。最低负宇称态次序和退简并程度使作者认为简单八极－四极振动耦合图像不足。",
+    "Cizewski 等 1979：平均共振俘获谱的经验能隙: PDF 581–583 / Table 1：以初级谱线密度的急升估计经验能隙。$^{196}$Pt、$^{190}$Os 分别为 1.80、1.82 MeV，所列 $2\\Delta_0$ 为 1.94、1.95 MeV。$^{156}$Gd 的 1.77 MeV 取自 Ref. 2。 | PDF 583 Eq. (1)：用相邻分离能差构造奇偶质量参量，并取质子和中子参量较小者定义 $\\Delta_0$。经验谱线起点比 $2\\Delta_0$ 低约 7%，与原文引用的阻塞修正范围相容。"
+  ],
+  "next_batch": {
+    "pages": [
+      584,
+      604
+    ],
+    "units": [
+      "NC79-CLARK-U236",
+      "NC79-COCEVA-IR192",
+      "NC79-DANILYAN-PARITY",
+      "NC79-DEBOER-ER168",
+      "NC79-DELHEIJ-AL28",
+      "NC79-DIAZ-PB208",
+      "NC79-DIONISIO-ELECTRONS"
+    ]
+  }
+}

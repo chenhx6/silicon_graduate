@@ -74,6 +74,18 @@ updated: 2026-11-20
 - [[berant-birenbaum-moreh-1979-au196-photoneutron-levels]] — 多入射线光中子能级及图文归属差异。
 - [[birenbaum-berant-moreh-1979-pb207-photoexcitation]] — 中子和 γ 角分布联合约束及同一截面的两处误差。
 - [[bogdanovic-et-al-1979-ag110-low-lying-states]] — 异能态的符合证据和竞争组态。
+- [[carlton-raman-jurney-1979-sn116-thermal-capture]] — 锡-116 初级 γ 馈入与俘获态自旋。
+- [[casten-warner-cizewski-1979-nilsson-fragmentation]] — 转移截面求和、配对因子与组态筛选。
+- [[chakrabarty-gupta-kailas-1979-pb208-isovector-potential]] — 俘获和散射对等旋势参数的互补约束。
+- [[cizewski-et-al-1979-pt196-negative-parity]] — 负宇称候选、增强 E2 序列及原图中的模型标签。
+- [[cizewski-casten-stelts-1979-empirical-energy-gap]] — 谱线密度起点与奇偶质量能隙。
+- [[clark-et-al-1979-u236-isomer-spectroscopy]] — 异能态寿命、转换异常与多极性歧义。
+- [[coceva-giacobbe-1979-ir192-resonance-capture]] — 分入口共振组的强度比和条件性自旋。
+- [[danilyan-et-al-1979-compound-nucleus-parity-effects]] — 宇称奇不对称及取向模型因子。
+- [[davidson-et-al-1979-er168-intrinsic-excitation]] — 弱带内线、同一纲图的证据来源和组态候选。
+- [[delheij-girgin-1979-al28-circular-polarization-mixing]] — γ 圆偏振和角分布联合约束混合比的历史例。
+- [[dietrich-kerman-1979-pb208-capture-models]] — 共用俘获数据下两类振幅的敏感性。
+- [[dionisio-et-al-1979-isotope-target-electron-spectroscopy]] — 样品、衬底与低能电子动量分辨率。
 
 ## A130前置正文重写：样节与一致性
 
