@@ -6229,3 +6229,9 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - Two correction/source-draft requests ended in ReadTimeout without saved responses. The second used a materially smaller packet; no third writer request was sent. Codex wrote the final source from cached main work and selected original-page evidence. Failed-call server usage is unknown, not zero. This is a documented exception to Gemini source drafting, not a silent repeat of whole-source reading.
 - Persisted102Pd DSAM lifetime/strength evidence, statistical versus stopping-systematic boundaries, seven-bosonI14 versus tentativeI16, source-internal Qt/CG/constant-ratio formula discrepancies; direct factorial algebra is not author-code reproduction. Persisted133Ce actualRang geometry, RMF/PRM input roles, model-only absolute strengths and uncertainbandx. PublishedPRL PDF1 was additionally checked for unresolved event-count/front-layer differences with the thesis; same experimental lineage is not independent evidence.
 - Five accepted primary sources/586 pages; corpus goal remains active. Casarella2017 actual333-page15-unit primary run started only after compact request terminated, reusing the35-page frame cache. Original page mapping and12chapter/appendix headers verified. No PDM, new acquisition or daemon; parallel-session increments preserved and isolated.
+
+## 2026-11-20 — 技能升级
+
+- 本地启用 21 个新版技能：Nature Skills 12 个（`9bd1d08`）、Academic Research Skills 5 个及共享依赖（`23807f9`）、ARS-Codex（`82725ac`）、book-to-skill（`a3fd262`）、humanizer 4.0.0（`a48c60c`）和说人话 2.7.1（`709acdd`）。已核对启用文件与暂存件，保留中文触发描述和本机路径适配，升级前安装保留在本机回退目录。
+- Scientific Agent Skills 上游 `ec59a29` 的技能文件与现装来源 `5f2bc03` 一致。共享技能库与 Gitee `main` 一致。
+- `get-paper` 明确由 Agent 根据来源筛选候选，21 项离线测试通过。PubMed 的上游测试夹具误用 `defusedxml` 构造 XML，临时副本修正该导入后，检索回归 19 项通过。安装文件保留上游原件。
