@@ -3,7 +3,7 @@ type: concept
 title: "巨偶极共振、TRK 积分与形变反演的模型条件"
 aliases: [GDR与TRK模型条件]
 created: 2026-11-02
-updated: 2026-11-02
+updated: 2026-11-20
 status: ai-draft
 review_status: unreviewed
 tags: [gdr, trk, deformation, model-boundary]
@@ -31,6 +31,15 @@ tags: [gdr, trk, deformation, model-boundary]
 
 现有数值程序只验证了**自身参数化的正反变换**与量纲。`calculate_trk_sum_rule`、`calculate_deformed_gdr_splitting` 和 `invert_beta2_from_gdr_peaks` 没有独立实验基准认证；此前输出的 2967.5、3709.3 等是参数模型结果，不是本任务实测结果。
 
+Raman 的铅-208 离散例保留了三层约束。经典 TRK 参照和约为
+\(735\ e^2\mathrm{fm}^2\mathrm{MeV}\)。离散汇总在候选强度均按 E1
+计入时给 \(25(2)\ e^2\mathrm{fm}^2\mathrm{MeV}\)，比值
+\(25/735\simeq3.4\%\)。两数的比较是对指定候选和能窗的条件积分。
+Holt 的光中子例进一步表明，单角度极化可能含 E1–M1 或 E1–E2 干涉，
+多极归属改变时应先更新被积强度，再比较和规则份额。
+[[raman-1979-localized-radiation-strengths-208pb#Key Results]]
+[[holt-1979-photoneutron-giant-resonances#Key Results]]
+
 经典书路线是 [[book-bohr-mottelson-nuclear-structure-vol2]] 第 6 章的振动与求和规则。但本轮实际只重读该卷 §4-5e；GDR 所在页的原式与 Danos 引文仍须补读，`needs_review: true`。不能用概览 source 的存在来伪造逐式核验。
 
 ## Counter-evidence and Competing Interpretations
@@ -48,6 +57,8 @@ tags: [gdr, trk, deformation, model-boundary]
 
 - [[book-bohr-mottelson-nuclear-structure]]：书籍入口；GDR 章节尚待逐页核验。
 - [[book-bohr-mottelson-nuclear-structure-vol2]]：已登记第二卷原件与本轮实际阅读边界。
+- [[raman-1979-localized-radiation-strengths-208pb]]：离散 E1 候选的有条件和规则积分。
+- [[holt-1979-photoneutron-giant-resonances]]：能区、部分波和光中子极化的归属限制。
 
 ## Evolution Log
 

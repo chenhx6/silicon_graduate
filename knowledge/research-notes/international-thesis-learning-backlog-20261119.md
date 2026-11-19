@@ -193,7 +193,18 @@ that disagreed with the historical M1 interpretation.
 [[holt-1979-photoneutron-giant-resonances]] add PDF 203–253. Their overlap
 with the earlier dipole-response chapter retains the reaction and reference
 dependencies. The energy axes, unresolved multipolarities and conditional
-strength sums remain explicit. The next two chapters span PDF 254–291.
+strength sums remain explicit.
+[[firk-1979-np-capture-deuteron-photodisintegration]] and
+[[mughabghab-chrien-1979-nonstatistical-neutron-capture]] add PDF 254–291.
+They preserve two ways to test a proposed mechanism: compare observables with
+different interference sensitivity, and test whether an apparent correlation
+survives the energy normalization and is consistent with an absolute rate.
+The front matter at PDF 1–17 confirms the 1979 edition, editors and 1978
+meeting. It is counted separately as bibliographic inspection.
+[[talmi-1979-nuclear-models-seniority-and-bosons]] and
+[[iachello-1979-interacting-boson-model]] add the scientific chapters at
+PDF 18–51. The adjustment of boson-model parameters and the 196Pt
+capture-evidence overlap with Casten are retained.
 
 ## Final acquisition closure and learning design
 

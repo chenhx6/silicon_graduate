@@ -1,0 +1,86 @@
+{
+  "recorded_at": "2026-11-19T21:51:27.027068+00:00",
+  "batch_pages": [
+    1,
+    51
+  ],
+  "batch_page_count": 51,
+  "front_matter_pages": [
+    1,
+    17
+  ],
+  "scientific_chapter_pages": [
+    18,
+    51
+  ],
+  "book_all_known_pages": [
+    "1-291",
+    "633-635"
+  ],
+  "book_covered_pages": 294,
+  "book_completion": false,
+  "chapter_sources": [
+    "knowledge/sources/talmi-1979-nuclear-models-seniority-and-bosons.md",
+    "knowledge/sources/iachello-1979-interacting-boson-model.md"
+  ],
+  "responses": [
+    {
+      "id": "NC79-FRONT",
+      "covered": [
+        1,
+        17
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "055635c62704a14fe28cb0992f40f08570c179309f965bc445cfa0125bd1441b",
+      "role": "bibliographic-only"
+    },
+    {
+      "id": "NC79-TALMI-A",
+      "covered": [
+        18,
+        28
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "e3717070bb02c36ef4198d204cef821ff8e8b0946cfedbb4b2dbd5532feba83f",
+      "role": "science-chapter"
+    },
+    {
+      "id": "NC79-TALMI-B",
+      "covered": [
+        29,
+        38
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "2c50020c1005d24c86e0abfacd13d77dcda3f674d1776fa2684126c92a6e90cb",
+      "role": "science-chapter"
+    },
+    {
+      "id": "NC79-IACHELLO",
+      "covered": [
+        39,
+        51
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "aeba3cf8f7ac659a2b5a380430d2a76ba8f049136669e1abaa1ace1d83e37208",
+      "role": "science-chapter"
+    }
+  ],
+  "verified_pages_and_checks": [
+    "PDF 2–4 and contents: editors, Plenum copyright 1979 and September 18–22, 1978 meeting dates.",
+    "PDF 18, 30–33, 36–39: Talmi title, N=50 spacings versus pn couplings, approximate F-spin and adjusted Ba parameters, chapter end and next title.",
+    "PDF 40–44, 47, 51–52: closed-form dynamical cases, fitted spectrum and citation dependence, mixed-symmetry proposal, printed end and new chapter."
+  ],
+  "cross_source_synthesis": "TRK concept uses Raman's conditional 25/735 ratio and Holt's assignment restrictions. 196Pt comparisons in Iachello and Casten share cited evidence.",
+  "next_batch": {
+    "pages": [
+      292,
+      324
+    ],
+    "units": [
+      "NC79-CASTEL-A",
+      "NC79-CASTEL-B",
+      "NC79-BERGQVIST-POTOKAR-A",
+      "NC79-BERGQVIST-POTOKAR-B"
+    ]
+  }
+}

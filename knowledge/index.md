@@ -41,6 +41,10 @@ updated: 2026-11-20
 - [[brown-speth-1979-dipole-giant-response]] — 巨共振模型能标与 208Pb 的 M1 指认反例。
 - [[raman-1979-localized-radiation-strengths-208pb]] — 局域强度归属、俘获可见性与和规则积分条件。
 - [[holt-1979-photoneutron-giant-resonances]] — 光中子截面、出射中子极化及多极干涉的辨识范围。
+- [[firk-1979-np-capture-deuteron-photodisintegration]] — 热俘获截面与光致解离极化的不同灵敏度。
+- [[mughabghab-chrien-1979-nonstatistical-neutron-capture]] — 强度归一的相关性反例、价俘获和门态解释。
+- [[talmi-1979-nuclear-models-seniority-and-bosons]] — 半幻核间距检验、编额失效条件和等效玻色子截断。
+- [[iachello-1979-interacting-boson-model]] — 动力学极限、F-spin 条件和所引用的实验谱。
 
 ## A130前置正文重写：样节与一致性
 

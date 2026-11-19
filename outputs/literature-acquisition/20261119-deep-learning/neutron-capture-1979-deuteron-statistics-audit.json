@@ -1,0 +1,75 @@
+{
+  "recorded_at": "2026-11-19T21:46:23.417159+00:00",
+  "batch_pages": [
+    254,
+    291
+  ],
+  "batch_page_count": 38,
+  "book_all_known_pages": [
+    "52-291",
+    "633-635"
+  ],
+  "book_covered_pages": 243,
+  "book_completion": false,
+  "chapter_sources": [
+    "knowledge/sources/firk-1979-np-capture-deuteron-photodisintegration.md",
+    "knowledge/sources/mughabghab-chrien-1979-nonstatistical-neutron-capture.md"
+  ],
+  "responses": [
+    {
+      "id": "NC79-FIRK-A",
+      "covered": [
+        254,
+        263
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "f5513eb9d38319cb8306bab4c10ec0a1ac13024244bcc8a3cc1428dcb59ef3f9"
+    },
+    {
+      "id": "NC79-FIRK-B",
+      "covered": [
+        264,
+        272
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "2bafe8a9bb3bdc7e592697713353d47376af941489200848cf3a8ae9b1c9ef29"
+    },
+    {
+      "id": "NC79-MUGHABGHAB-CHRIEN-A",
+      "covered": [
+        273,
+        282
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "03d5393c44e02e80e14b7f48c70e43953ea7f7d57a5c3570748231094c74ff9f"
+    },
+    {
+      "id": "NC79-MUGHABGHAB-CHRIEN-B",
+      "covered": [
+        283,
+        291
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "89ea02bd2b7132afffc5cd74dc899eb5785cb2b51829d18d125301b68272a96e"
+    }
+  ],
+  "verified_pages_and_checks": [
+    "PDF 254–257, 272: title, print/PDF range and historical thermal cross-section summary.",
+    "PDF 266–270: polarization interference term and signed neutron polarization in Table 3. Preserve lack of corresponding differential cross-section peak for the cited higher-energy proton anomaly.",
+    "PDF 273–276, 291: author identities, scope and normalization-induced apparent correlations in Figs. 1–2.",
+    "PDF 285–289: model partial width versus measured total width in Te; entrance/exit doorway interpretations in Er/Yb."
+  ],
+  "interpretation_boundary": "Historical source reports and cited experiments kept distinct. No fit or simulation reruns.",
+  "next_batch": {
+    "pages": [
+      1,
+      51
+    ],
+    "units": [
+      "NC79-FRONT",
+      "NC79-TALMI-A",
+      "NC79-TALMI-B",
+      "NC79-IACHELLO"
+    ]
+  }
+}

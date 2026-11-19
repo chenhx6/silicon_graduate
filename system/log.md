@@ -6284,3 +6284,13 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — 局域多极强度与光中子证据
 
 - PDF 203–253 的五个阅读单元已返回，核了 Raman 和 Holt 的原页、相邻共振、极化定义以及条件积分。会议卷覆盖 205 页。Firk 和 Mughabghab/Chrien 的 PDF 254–291 已启动。
+
+## 2026-11-20 — 俘获统计与氘核反应章节
+
+- PDF 254–291 四单元已核对原页。记录出射中子极化的符号、历史截面汇总的口径、能量归一的相关性反例及门态解释的实验边界。会议卷覆盖 243 页。
+- 卷首及 Talmi、Iachello 的 PDF 1–51 已开始核读，卷首范围单独计为书证处理。
+
+## 2026-11-20 — 卷首书证、编额和玻色子极限
+
+- PDF 1–51 四单元已返回，核实卷首日期及章节印刷页差。Talmi 核读截断、参数调整和编额反例，Iachello 核读极限、混合对称态和 196Pt 资料依赖。已覆盖 294 页，其中卷首书证 17 页。
+- 从 Raman 和 Holt 的铅-208 例更新 TRK 概念页，保留条件积分的多极归属和光中子极化的边界。Castel 与 Bergqvist/Potokar 的 PDF 292–324 已启动。
