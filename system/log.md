@@ -6319,3 +6319,8 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - PDF 429–461 已回原页核验，保留早期参考线和共用换算误差，区别章文中的相对灵敏度、仪器几何与样品矩阵。会议卷覆盖 464 页。
 - Jurney 和 Macklin 的 PDF 462–485 已启动，继续保留归档、验证和发布的页段边界。
+
+## 2026-11-20 — 热俘获谱和总能探测器
+
+- PDF 462–485 已核对，保留 Jurney 的邻线阈值条件与 Macklin 的响应归一、产额修正和拟合相关性。会议卷覆盖 488 页。
+- PDF 486–521 的 Kane、Bartholomew 和分隔页已启动，按历史仪器条件记录。

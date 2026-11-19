@@ -1,0 +1,72 @@
+{
+  "recorded_at": "2026-11-19T22:35:30.617424+00:00",
+  "batch_pages": [
+    462,
+    485
+  ],
+  "batch_page_count": 24,
+  "book_all_known_pages": [
+    "1-485",
+    "633-635"
+  ],
+  "book_covered_pages": 488,
+  "front_matter_pages": [
+    1,
+    17
+  ],
+  "book_completion": false,
+  "chapter_sources": [
+    "knowledge/sources/jurney-1979-thermal-capture-elemental-analysis.md",
+    "knowledge/sources/macklin-1979-resonance-capture-total-energy-detector.md"
+  ],
+  "responses": [
+    {
+      "id": "NC79-JURNEY-A",
+      "covered": [
+        462,
+        468
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "partial",
+      "prompt_sha256": "fa577e031493bfcc0caa46b6364a15d7a58d3678265c2722edfe04bdc3b7276a"
+    },
+    {
+      "id": "NC79-JURNEY-B",
+      "covered": [
+        469,
+        475
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "ec62dfcbdbc2b663d09cfcbc4b93ff24390e37cb1b67572791d9f74d857ff519"
+    },
+    {
+      "id": "NC79-MACKLIN",
+      "covered": [
+        476,
+        485
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "cd66777c9eb17bdfd54e35fab5288b112ae325a9be3a275c62021a76b1f3bc95"
+    }
+  ],
+  "verified_pages_and_checks": [
+    "PDF 462–465, 475–476 and 485–486: bylines, K/S neighboring peaks, partial cross sections, instrument-dependent mass ratios, and chapter boundary.",
+    "PDF 477–479: response equation, excitation-energy normalization, fluence/sample and experimental corrections, parameter correlations."
+  ],
+  "boundary": "Do not reinterpret the historical 1.2 and 1.6 times Poisson counting-statistics description as a universal variance factor. No original fit or response simulation rerun.",
+  "next_batch": {
+    "pages": [
+      486,
+      521
+    ],
+    "units": [
+      "NC79-KANE-A",
+      "NC79-KANE-B",
+      "NC79-BARTHOLOMEW-A",
+      "NC79-BARTHOLOMEW-B",
+      "NC79-CONTRIBUTED-DIVIDER"
+    ]
+  }
+}

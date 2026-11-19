@@ -228,6 +228,10 @@ used for the level and width assignments.
 [[greenwood-1979-capture-gamma-elemental-analysis]] add PDF 429–461.
 Shared energy standards propagate common scale uncertainty, and counting
 sensitivity depends on both the particular line and the matrix/geometry.
+[[jurney-1979-thermal-capture-elemental-analysis]] and
+[[macklin-1979-resonance-capture-total-energy-detector]] add PDF 462–485.
+The first retains a close-line interference test, and the second separates
+response weighting, yield normalization and the remaining fit degeneracy.
 
 ## Final acquisition closure and learning design
 

@@ -55,6 +55,8 @@ updated: 2026-11-20
 - [[moreh-1979-photon-scattering-neutron-capture-gamma-rays]] — 共振散射、极化计数比和宽度的联合约束。
 - [[kessler-et-al-1979-precise-gamma-ray-energy-standards]] — 绝对波长溯源、历史能标和共用误差。
 - [[greenwood-1979-capture-gamma-elemental-analysis]] — 俘获线的元素灵敏度与仪器和样品矩阵限制。
+- [[jurney-1979-thermal-capture-elemental-analysis]] — 部分俘获截面、近能峰干扰和参考定量。
+- [[macklin-1979-resonance-capture-total-energy-detector]] — 脉冲幅度加权、产额修正和拟合相关性。
 
 ## A130前置正文重写：样节与一致性
 
