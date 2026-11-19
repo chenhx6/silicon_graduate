@@ -1,0 +1,70 @@
+{
+  "recorded_at": "2026-11-19T21:28:44.512935+00:00",
+  "batch_pages": [
+    172,
+    202
+  ],
+  "batch_page_count": 31,
+  "book_all_known_pages": [
+    "52-202",
+    "633-635"
+  ],
+  "book_covered_pages": 154,
+  "book_completion": false,
+  "chapter_sources": [
+    "knowledge/sources/lone-1979-photon-strength-functions.md",
+    "knowledge/sources/brown-speth-1979-dipole-giant-response.md"
+  ],
+  "responses": [
+    {
+      "id": "NC79-LONE-A",
+      "covered": [
+        172,
+        181
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "structural_errors": [
+        "API_file_claim"
+      ],
+      "prompt_sha256": "5d540241f70163da175ccd925aad35f96b37d631f0db5f7675de4ed22f4bd674"
+    },
+    {
+      "id": "NC79-LONE-B",
+      "covered": [
+        182,
+        191
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "structural_errors": [],
+      "prompt_sha256": "18f73973db3f758190e811f5011964521fa6c60cdaa391cda41a91b5dfa939b9"
+    },
+    {
+      "id": "NC79-BROWN-SPETH",
+      "covered": [
+        192,
+        202
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "structural_errors": [],
+      "prompt_sha256": "028bfc930e61da0b3befd96981209d5c662f2b373f52abd95bb28fbe68b1250c"
+    }
+  ],
+  "boundary": "Lone A uses an equivalent content-only object. Count the actual verified input pages without changing cached result or resending.",
+  "verified_pages_and_checks": [
+    "PDF 172–174 and 175–184: chapter identity, Eqs. 1–2, independent same-scale Porter–Thomas averages, model and reaction dependence.",
+    "PDF 192 and 199–202: original chapter and 208Pb M1 transition evidence, Fig. 6, unadjudicated 7.99 MeV feature."
+  ],
+  "next_batch": {
+    "pages": [
+      203,
+      253
+    ],
+    "units": [
+      "NC79-RAMAN-A",
+      "NC79-RAMAN-B",
+      "NC79-RAMAN-C",
+      "NC79-HOLT-A",
+      "NC79-HOLT-B"
+    ]
+  }
+}

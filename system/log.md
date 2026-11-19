@@ -6275,3 +6275,8 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - 1979 会议卷 PDF 137–171 核完。转换系数相等时混合份额失去可辨识性，分壳比仍受分辨率和理论系数约束。154Sm 计算例区分强度碎裂与宽度变化，保持小声子空间限制。
 - Schreckenbach 首单元将未送入页列在未读字段，记录结构问题和原件覆盖。保留响应、无需重发。卷已学 123 页，PDF 172–202 继续。
+
+## 2026-11-20 — 光子强度与巨共振章节
+
+- PDF 172–202 已核验，保留 Lone 的平均辐射宽度归一条件与 Brown/Speth 的 208Pb M1 指认不确定性。会议卷章级覆盖 154 页。
+- Raman、Holt 的 PDF 203–253 已启动。保留现有回执、原件及另一 session 改动。

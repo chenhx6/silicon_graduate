@@ -37,6 +37,8 @@ updated: 2026-11-20
 - [[reich-1979-resonance-averaged-capture-spectra]] — 不同入射能区的部分波权重、统计涨落和归属边界。
 - [[schreckenbach-1979-high-precision-conversion-electron-spectroscopy]] — 分壳转换系数、电子强度比和混合分量的可辨识条件。
 - [[soloviev-stoyanov-1979-quasiparticle-phonon-strength]] — 少准粒子分量、能窗内强度碎裂与宽度的区别。
+- [[lone-1979-photon-strength-functions]] — 平均辐射宽度、相空间归一与反应依赖。
+- [[brown-speth-1979-dipole-giant-response]] — 巨共振模型能标与 208Pb 的 M1 指认反例。
 
 ## A130前置正文重写：样节与一致性
 

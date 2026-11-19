@@ -185,7 +185,11 @@ level set and strength patterns that an experiment can constrain.
 They treat two observables with different inferential limits: shell-resolved
 conversion constrains multipole fractions, while averaged strength tests
 accessible few-quasiparticle components in a chosen energy interval.
-The book remains partly read. The next two chapters span PDF 172–202.
+[[lone-1979-photon-strength-functions]] and
+[[brown-speth-1979-dipole-giant-response]] add PDF 172–202, including
+the strength-function normalization and an unresolved experimental peak
+that disagreed with the historical M1 interpretation.
+The book remains partly read. The next two chapters span PDF 203–253.
 
 ## Final acquisition closure and learning design
 
