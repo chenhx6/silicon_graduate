@@ -27,11 +27,11 @@
   "closed_fulltext_gaps": 7,
   "active_source": "bytes:cc722604aa94e765559497ee21022550e035d2ce9407448b0ae81d27dd561005",
   "active_units": [
-    "NC79-ALTAREV",
-    "NC79-ANDERSON",
-    "NC79-CAPTURE-SEARCH",
-    "NC79-ACTINIDE-XRAY",
-    "NC79-BARZ-CSERNAI"
+    "NC79-CARLTON-SN116",
+    "NC79-CASTEN-NILSSON",
+    "NC79-CHAKRABARTY-PB208",
+    "NC79-CIZEWSKI-PT196",
+    "NC79-CIZEWSKI-GAP"
   ],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -181,7 +181,16 @@
     "NC79-ALDEA-WIDTHS",
     "NC79-ALLEN-3S-I",
     "NC79-ALLEN-3S-II",
-    "NC79-ALLEN-LA-PR"
+    "NC79-ALLEN-LA-PR",
+    "NC79-ALTAREV",
+    "NC79-ANDERSON",
+    "NC79-CAPTURE-SEARCH",
+    "NC79-ACTINIDE-XRAY",
+    "NC79-BARZ-CSERNAI",
+    "NC79-BENDT-JURNEY",
+    "NC79-BERANT-AU196",
+    "NC79-BIRENBAUM-PB207",
+    "NC79-BOGDANOVIC-AG110"
   ],
   "completed_full_sources_this_run": 8,
   "PDM_run": false,
@@ -191,15 +200,15 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-19T22:52:04.486834+00:00",
+  "updated_at": "2026-11-19T23:32:40.398802+00:00",
   "completed_deep_read_sources_this_run": 0,
   "completed_primary_pages_this_run": 1422,
-  "current_source_note": "knowledge/sources/allen-musgrove-1979-lanthanum-praseodymium-capture.md",
-  "next_action": "Audit the five contributed papers at PDF 540–556, then continue the volume and wider queue.",
+  "current_source_note": "knowledge/sources/bogdanovic-et-al-1979-ag110-low-lying-states.md",
+  "next_action": "Audit the five contributions at PDF 570–583 and continue the volume, preserving U001 coverage.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
   "last_source_manager_closure": "HDR all 310 physical pages accounted for in 25 completed responses. First bibliography shortfall preserved and closed by two smaller batches. Comparison used published AGATA container pages and selected preprint evidence.",
-  "current_source_scientific_acceptance": "Thirty-four newly accepted chapters plus prior U001 and 18 bibliographic pages; 874-page volume partial",
-  "active_source_partial_book_covered_pages": 542,
+  "current_source_scientific_acceptance": "Forty-three newly accepted chapters plus prior U001 and 18 bibliographic pages; 874-page volume partial",
+  "active_source_partial_book_covered_pages": 572,
   "active_source_bibliographic_pages": 18
 }

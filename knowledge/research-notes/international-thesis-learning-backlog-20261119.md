@@ -248,6 +248,21 @@ reaction and transmission-model inputs.
 [[allen-musgrove-1979-lanthanum-praseodymium-capture]] retain the different
 roles of width spread, covariance and assumptions about the strength law.
 
+PDF 540–556 adds five contributions on the historical
+[[altarev-et-al-1979-ultracold-neutron-edm|EDM limit]],
+[[anderson-et-al-1979-prompt-gamma-activation|reference-material comparisons]],
+[[asghar-emsallem-1979-two-step-thermal-capture-search|two-step channel searches]],
+[[barreau-et-al-1979-actinide-x-ray-precision|X-ray calibration]] and
+[[barz-csernai-1979-e1-background-coupling|background-coupling models]].
+PDF 557–569 covers [[bendt-jurney-1979-irradiation-gamma-spectra]],
+[[berant-birenbaum-moreh-1979-au196-photoneutron-levels]],
+[[birenbaum-berant-moreh-1979-pb207-photoexcitation]] and
+[[bogdanovic-et-al-1979-ag110-low-lying-states]]. Preserve the Au level
+assignments from the text and figure separately, both reported Pb
+cross-section uncertainties, and the Ag distinction between energy
+combinations and coincidences. The volume has 572 of 874 pages covered,
+including the 18 bibliographic pages and prior U001 at PDF 633–635.
+
 ## Final acquisition closure and learning design
 
 The user has closed further acquisition and requested an in-depth learning

@@ -1,0 +1,85 @@
+{
+  "recorded_at": "2026-11-19T23:32:40.398802+00:00",
+  "batch_pages": [
+    557,
+    569
+  ],
+  "batch_page_count": 13,
+  "book_all_known_pages": [
+    "1-569",
+    "633-635"
+  ],
+  "book_covered_pages": 572,
+  "bibliographic_pages": [
+    "1-17",
+    "521"
+  ],
+  "book_completion": false,
+  "responses": [
+    {
+      "id": "NC79-BENDT-JURNEY",
+      "covered": [
+        557,
+        559
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "75bf3d92469e3691c17599eaca910e424f6ac3fb6458dadb1578a1ca09cff1b2"
+    },
+    {
+      "id": "NC79-BERANT-AU196",
+      "covered": [
+        560,
+        562
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "396c55ed2629ece19474c5b94104b2638f8cd298da8279eb7c599e1d4d31003d"
+    },
+    {
+      "id": "NC79-BIRENBAUM-PB207",
+      "covered": [
+        563,
+        565
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "25094d682729cfac906989c075f2151f15a0bcb379b5ee46aa5e67b308c19cc0"
+    },
+    {
+      "id": "NC79-BOGDANOVIC-AG110",
+      "covered": [
+        566,
+        569
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "e7961c2d8a1a9c868d32a6a2968f06b70789248af882e11226cffbf74ac8a47b"
+    }
+  ],
+  "chapter_sources": [
+    "knowledge/sources/bendt-jurney-1979-irradiation-gamma-spectra.md",
+    "knowledge/sources/berant-birenbaum-moreh-1979-au196-photoneutron-levels.md",
+    "knowledge/sources/birenbaum-berant-moreh-1979-pb207-photoexcitation.md",
+    "knowledge/sources/bogdanovic-et-al-1979-ag110-low-lying-states.md"
+  ],
+  "verified_pages_and_checks": [
+    "PDF 557–559: Bendt 与 Jurney 1979：照射期间的历史 γ 谱与归一化. PDF 559 Table 1 与正文：谱积分有明确光子能窗。文中零冷却时间分量是利用外部输入及谱积分的推断；早期冷却数据对应有限时间窗。保留两者的时间口径和外部数据依赖。",
+    "PDF 560–562: Berant 等 1979：金-196 光中子群与能级. PDF 562 阈值段：正文给出阈值尺度 $8066\\pm3$ keV；所引 Pb 参照值为 $8090\\pm6$ keV。纸面反应式的 Pb 质量数与 (γ,n) 的质量数守恒不符，参照核素需由它的原来源另核。",
+    "PDF 563–565: Birenbaum 等 1979：铅-207 的 7632 keV 共振指认. PDF 563 摘要与 PDF 564 正文：摘要为 $370\\pm30$ mb，PDF 564 正文为 $370\\pm50$ mb，指向同一 86 keV 中子群产生截面。两处误差分别留存，暂无裁决。正文的两套效率估计一致程度与截面误差各有独立口径。",
+    "PDF 566–569: Bogdanović 等 1979：银-110 异能态与符合布居. PDF 568：1.28 keV 值在既往工作回顾中，后文以 1.113 keV 讨论候选 $2^-$ 态。保留二者语境。作者为 $3^+$ 异能态列出两种组态，均能解释 E1 受阻，但对基态 E2 强度的解释不同；正文未唯一选定。785.660 keV 项相邻所列 66.843 keV 分支的终态或印刷值仍待核。"
+  ],
+  "next_batch": {
+    "pages": [
+      570,
+      583
+    ],
+    "units": [
+      "NC79-CARLTON-SN116",
+      "NC79-CASTEN-NILSSON",
+      "NC79-CHAKRABARTY-PB208",
+      "NC79-CIZEWSKI-PT196",
+      "NC79-CIZEWSKI-GAP"
+    ]
+  }
+}

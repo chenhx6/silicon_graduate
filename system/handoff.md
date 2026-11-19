@@ -22,7 +22,8 @@ updated: 2026-11-20
 - [[jurney-1979-thermal-capture-elemental-analysis]] 与 [[macklin-1979-resonance-capture-total-energy-detector]] 已核完 PDF 462–485。会议卷已有 PDF 1–485 和 U001 的 633–635，共 488 页，其中卷首书证 17 页。
 - [[kane-1979-neutron-capture-instruments]] 和 [[bartholomew-1979-high-intensity-neutron-sources]] 已核完 PDF 486–520。PDF 521 为分隔页。会议卷已有 PDF 1–521 和 U001 的 633–635，共 524 页，其中书证 18 页。
 - PDF 522–539 六篇贡献论文已独立核章界、原页与数据依赖并入知识库。此段印刷页比 PDF 页大 1。已覆盖 PDF 1–539 和 U001 的 633–635，共 542 页，其中书证 18 页。
-- 下一批 PDF 540–556 已启动，见 `tmp/deep-learning-neutron-capture-1979/short-spectra-batch.log`。全卷及其余馆藏继续。
+- PDF 540–569 九篇已验收。历史 EDM 上限、活化对照值、两步道的未检出和锕系 X 射线标尺均按各自原页记录。Au 图文的归属、Pb 同一截面的两种误差和 Ag 级联的不确定项保留原定位。
+- 1979 会议卷已覆盖 PDF 1–569 和 U001 的 633–635，共 572/874 页，其中书证 18 页。PDF 570–583 的五篇 Gemini 读包已启动，见 `tmp/deep-learning-neutron-capture-1979/structure-spectra-batch.log`。全卷及其余馆藏继续。
 - 章级来源共用已哈希的原件，以不重叠的 `raw_pdf_pages` 标识各章。唯一作品检查继续执行，原 PDF 没有拆档或复制。
 - 另一 session 的 PDM/PDCO 与 Hamilton 改动继续隔离。无 PDM 拟合、raw 改写或重新获取。HDR 阶段指针为 `main + research: integrate Ljungvall HDR evidence and start capture proceedings`。
 

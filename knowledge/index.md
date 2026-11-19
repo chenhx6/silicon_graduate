@@ -65,6 +65,15 @@ updated: 2026-11-20
 - [[allen-musgrove-1979-3s-capture-mechanism-i]] — 3s 区辐射宽度方差和相关性分解。
 - [[allen-musgrove-1979-3s-capture-mechanisms-ii]] — 3s 区模型的跨核比较与反例。
 - [[allen-musgrove-1979-lanthanum-praseodymium-capture]] — 入口相关和出口方差给出的不同限制。
+- [[altarev-et-al-1979-ultracold-neutron-edm]] — 双室磁场共模抑制的条件与早期中子 EDM 上限。
+- [[anderson-et-al-1979-prompt-gamma-activation]] — 瞬发活化分析中的认证值与同实验室异法参照。
+- [[asghar-emsallem-1979-two-step-thermal-capture-search]] — 一步粒子发射和两步 γ 粒子道的可见度不同。
+- [[barreau-et-al-1979-actinide-x-ray-precision]] — 天然线宽与共享能量标尺的实验证据。
+- [[barz-csernai-1979-e1-background-coupling]] — 相关背景振幅对示例 E1 强度形状的影响。
+- [[bendt-jurney-1979-irradiation-gamma-spectra]] — 历史照射谱的参照峰、积分和时间窗。
+- [[berant-birenbaum-moreh-1979-au196-photoneutron-levels]] — 多入射线光中子能级及图文归属差异。
+- [[birenbaum-berant-moreh-1979-pb207-photoexcitation]] — 中子和 γ 角分布联合约束及同一截面的两处误差。
+- [[bogdanovic-et-al-1979-ag110-low-lying-states]] — 异能态的符合证据和竞争组态。
 
 ## A130前置正文重写：样节与一致性
 
