@@ -14,7 +14,8 @@ updated: 2026-11-20
 - [[raman-1979-localized-radiation-strengths-208pb]] 与 [[holt-1979-photoneutron-giant-resonances]] 的 PDF 203–253 已核验。保留俘获与光中子反应的能量标尺、上行强度、峰指认和条件积分。会议卷覆盖 PDF 52–253 及 U001 的 633–635，共 205 页。
 - [[firk-1979-np-capture-deuteron-photodisintegration]] 与 [[mughabghab-chrien-1979-nonstatistical-neutron-capture]] 已核验，会议卷覆盖 PDF 52–291 与 633–635，共 243 页。保留光中子极化符号、历史模型和强度归一产生表观相关的反例。
 - PDF 1–17 已核作卷首书证及目录，保留 1978 年会议与 1979 年出版的区别。[[talmi-1979-nuclear-models-seniority-and-bosons]] 与 [[iachello-1979-interacting-boson-model]] 核完 PDF 18–51。合计覆盖 PDF 1–291 与 U001 的 633–635，共 294 页，其中卷首 17 页单独标识。全卷仍未读完。
-- Castel 与 Bergqvist/Potokar 的 PDF 292–324 已启动，见 `tmp/deep-learning-neutron-capture-1979/capture-batch.log`。后续各章节按原页核对、归档和续接。
+- [[castel-micklinghoff-1979-fast-neutron-doorway-states]] 与 [[bergqvist-potokar-1979-fast-neutron-capture-gamma-rays]] 已核完 PDF 292–324。以原章补齐 Micklinghoff 署名，保留门态模型和振幅求解的限制。共覆盖 PDF 1–324 和 633–635，计 327 页，其中卷首 17 页。
+- Snover 与 Kern 的 PDF 325–357 已开始，见 `tmp/deep-learning-neutron-capture-1979/reaction-batch.log`。Castel 第二单元仅修复原服务响应中的数学反斜杠转义，未重发。
 - 章级来源共用已哈希的原件，以不重叠的 `raw_pdf_pages` 标识各章。唯一作品检查继续执行，原 PDF 没有拆档或复制。
 - 另一 session 的 PDM/PDCO 与 Hamilton 改动继续隔离。无 PDM 拟合、raw 改写或重新获取。HDR 阶段指针为 `main + research: integrate Ljungvall HDR evidence and start capture proceedings`。
 

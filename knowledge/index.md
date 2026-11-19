@@ -45,6 +45,8 @@ updated: 2026-11-20
 - [[mughabghab-chrien-1979-nonstatistical-neutron-capture]] — 强度归一的相关性反例、价俘获和门态解释。
 - [[talmi-1979-nuclear-models-seniority-and-bosons]] — 半幻核间距检验、编额失效条件和等效玻色子截断。
 - [[iachello-1979-interacting-boson-model]] — 动力学极限、F-spin 条件和所引用的实验谱。
+- [[castel-micklinghoff-1979-fast-neutron-doorway-states]] — 修正连续态、俘获共振项及门态识别条件。
+- [[bergqvist-potokar-1979-fast-neutron-capture-gamma-rays]] — 直接–半直接振幅、角量辨识和两解边界。
 
 ## A130前置正文重写：样节与一致性
 

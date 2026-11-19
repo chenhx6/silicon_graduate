@@ -1,0 +1,87 @@
+{
+  "recorded_at": "2026-11-19T21:58:32.361999+00:00",
+  "batch_pages": [
+    292,
+    324
+  ],
+  "batch_page_count": 33,
+  "book_all_known_pages": [
+    "1-324",
+    "633-635"
+  ],
+  "book_covered_pages": 327,
+  "front_matter_pages": [
+    1,
+    17
+  ],
+  "book_completion": false,
+  "chapter_sources": [
+    "knowledge/sources/castel-micklinghoff-1979-fast-neutron-doorway-states.md",
+    "knowledge/sources/bergqvist-potokar-1979-fast-neutron-capture-gamma-rays.md"
+  ],
+  "responses": [
+    {
+      "id": "NC79-CASTEL-A",
+      "covered": [
+        292,
+        298
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "2fcdc68be9d483acc67f036c004ddf70e96dcf2dfd2ef654516a9e5b853808ea",
+      "manager_json_repairs": []
+    },
+    {
+      "id": "NC79-CASTEL-B",
+      "covered": [
+        299,
+        305
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "c278e635bd3b6dd0cbcf98c5a2e22f0d87d7147817babcb2982b137bce21df60",
+      "manager_json_repairs": [
+        {
+          "position": 1406,
+          "escaped_literal": "\\G"
+        }
+      ]
+    },
+    {
+      "id": "NC79-BERGQVIST-POTOKAR-A",
+      "covered": [
+        306,
+        315
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "fdb891ed5bc29011a1eeb429187423a5895ba674a122b83abc5628bb4cdc5582",
+      "manager_json_repairs": []
+    },
+    {
+      "id": "NC79-BERGQVIST-POTOKAR-B",
+      "covered": [
+        316,
+        324
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "77da99870eb9c319564c7e3ba808657c35e6df8c4a536f0603316b8259cfe2a6",
+      "manager_json_repairs": []
+    }
+  ],
+  "verified_pages_and_checks": [
+    "PDF 292, 305–307 and 324–325: chapter identity and spans. Original adds M. Micklinghoff, omitted in the table of contents.",
+    "PDF 292–297 and 303–304: modified continuum and discrete resonances, comparison of 28Si capture terms and follow-up conditions.",
+    "PDF 309–310 and 315–318: 89Y example of real/imaginary coupling dependence, angular-amplitude counting and 54Fe test of competing descriptions."
+  ],
+  "boundary": "One invalid mathematical escape in the cached Castel B response repaired without new reading request. Original response and parser receipt retained.",
+  "next_batch": {
+    "pages": [
+      325,
+      357
+    ],
+    "units": [
+      "NC79-SNOVER-A",
+      "NC79-SNOVER-B",
+      "NC79-KERN-A",
+      "NC79-KERN-B"
+    ]
+  }
+}

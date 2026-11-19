@@ -6294,3 +6294,8 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - PDF 1–51 四单元已返回，核实卷首日期及章节印刷页差。Talmi 核读截断、参数调整和编额反例，Iachello 核读极限、混合对称态和 196Pt 资料依赖。已覆盖 294 页，其中卷首书证 17 页。
 - 从 Raman 和 Holt 的铅-208 例更新 TRK 概念页，保留条件积分的多极归属和光中子极化的边界。Castel 与 Bergqvist/Potokar 的 PDF 292–324 已启动。
+
+## 2026-11-20 — 门态与快中子辐射俘获
+
+- PDF 292–324 已核验，原题页确认 Castel 和 Micklinghoff 双署名。保留模型中的共振项、拟合粗结构和逐峰归属之间的区别。Bergqvist/Potokar 的角量例保留二次两解及未知数超量时的限制。
+- 会议卷已覆盖 327 页，其中卷首 17 页。Snover、Kern 的 PDF 325–357 已启动。

@@ -205,6 +205,12 @@ meeting. It is counted separately as bibliographic inspection.
 [[iachello-1979-interacting-boson-model]] add the scientific chapters at
 PDF 18–51. The adjustment of boson-model parameters and the 196Pt
 capture-evidence overlap with Casten are retained.
+[[castel-micklinghoff-1979-fast-neutron-doorway-states]] and
+[[bergqvist-potokar-1979-fast-neutron-capture-gamma-rays]] add PDF 292–324.
+The former distinguishes model-space separation from physical resonance
+contributions. The latter provides a test of explanations with similar cross
+sections and distinct angular responses. The book's next chapters span
+PDF 325–357.
 
 ## Final acquisition closure and learning design
 
