@@ -316,6 +316,16 @@ different observables from the linear-polarization survey. The
 [[raman-jurney-1979-ni59-thermal-capture|Ni-59 target]] produces Ni-60.
 Continuous volume coverage reaches 758/874 pages.
 
+The volume is now reconciled through PDF 874. PDF 759–812 contains the
+remaining contributed papers, with PDF 761 preserved as a one-page abstract.
+[[axel-1979-capture-conference-concluding-remarks]], the
+[[chrien-1979-introduction-goldhaber|speaker introduction]] and
+[[goldhaber-1979-cavendish-reminiscences]] retain their synthesis and
+historical evidence boundaries. PDF 843 is the displaced table from
+[[de-wieclawik-et-al-1979-odd-proton-deformation]], confirmed by its
+reference on PDF 806. The page count includes 49 bibliographic pages,
+including 31 pages of participant lists and indexes at PDF 844–874.
+
 ## Final acquisition closure and learning design
 
 The user has closed further acquisition and requested an in-depth learning

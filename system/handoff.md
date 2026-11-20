@@ -29,7 +29,8 @@ updated: 2026-11-20
 - PDF 671–691 七篇已核完。Ag-108 保留转换系数和转移反应宇称的冲突，Zr-90 热俘获与同卷过滤束的测量条件可对照。
 - PDF 692–723 十一篇已核完，记录反应通道自旋混合、出射中子极化和 Hg/Cd 集体模型判据。
 - PDF 724–758 十一篇已核完。Ca-40 的 E2 共振证据来自角分布，Ba-142 提取依赖 γ–γ 角关联，两篇均未给实测 γ 线偏振。Ni-59 热俘获产物属 Ni-60。
-- 1979 会议卷连续覆盖 PDF 1–758，共 758/874 页，其中书证 18 页。PDF 759–812 和 813–843 正由 Gemini 分章阅读，见 `tmp/deep-learning-neutron-capture-1979/last-contributions-batch.log` 和 `volume-end-batch.log`。PDF 843 为印刷 847 页的移置表，属 PDF 804–806 的奇核形变章；PDF 844–874 是卷后目录。
+- 1979 会议卷已逐页对账 **874/874**，累计 128 章级来源页，含既有 U001。49 页属于书证或目录；PDF 761 为单页摘要。PDF 843 为印刷 847 页的移置表，经 PDF 806 正文核定属早先奇核形变章。Axel 总结与 Goldhaber 回忆按其文献性质入库。
+- 这一轮已验收的整源增至 9 份、2296 个物理 PDF 页。全馆藏继续，已启动 [[masiteng-2006-194tl-polarization-lifetime-thesis]] 的 69 页核读，见 `tmp/deep-learning-masiteng-194tl/thesis-main-batch.log`。验收前沿用原来源的 PDF 1–4 摘要证据范围。
 - 章级来源共用已哈希的原件，以不重叠的 `raw_pdf_pages` 标识各章。唯一作品检查继续执行，原 PDF 没有拆档或复制。
 - 另一 session 的 PDM/PDCO 与 Hamilton 改动继续隔离。无 PDM 拟合、raw 改写或重新获取。HDR 阶段指针为 `main + research: integrate Ljungvall HDR evidence and start capture proceedings`。
 

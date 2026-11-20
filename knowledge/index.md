@@ -136,6 +136,28 @@ updated: 2026-11-20
 - [[simic-et-al-1979-eu152-isomer-feeding]] — 异能态延迟符合的级联选择。
 - [[simon-et-al-1979-tm169-capture-evaluation]] — 俘获截面评价的分能区输入。
 - [[smith-et-al-1979-pd109-rotation-aligned-states]] — 奇宇称转动对齐的模型限制。
+- [[sohrabpour-et-al-1979-large-sample-capture-analysis]] — 大样品俘获谱与样品基体。
+- [[soltanieh-et-al-1979-capture-spectroscopy-program]] — 德黑兰俘获 γ 谱学项目摘要。
+- [[spits-et-al-1979-gd153-isotope-assignments]] — 钆俘获谱的跨同位素归属。
+- [[stecher-rasmussen-ratynski-1979-filtered-neutrons]] — 24 keV 过滤束的谱学验证。
+- [[stoffl-et-al-1979-gd155-thermal-capture]] — 钆-155 的低位线与多极性。
+- [[thanh-et-al-1979-compound-state-low-energy-gamma]] — 复合态之间的低能 γ 强度。
+- [[tikku-et-al-1979-zn66-zn68-capture]] — 锌-66、锌-68 共振俘获拟合。
+- [[vanassche-et-al-1979-ion-electron-conversion]] — 离子电子组态与近阈内转换。
+- [[vandenput-1979-sm151-low-energy-structure]] — 钐-151 低能纲图和 E2/M1 强度比较。
+- [[vartsky-ellis-cohn-1979-historical-in-vivo-spectroscopy]] — 历史体内俘获 γ 谱及验证边界。
+- [[vieu-et-al-1979-au193-vibration-rotation]] — 金-193 的振动与转动竞争。
+- [[warner-davidson-gelletly-1979-sm144-capture-transfer]] — 钐-144 俘获与转移的强度相关。
+- [[warner-et-al-1979-os193-level-structure]] — 锇-193 的带头及 Coriolis 解释。
+- [[weigmann-et-al-1979-mo100-capture-mechanism]] — 钼-100 共振俘获与价俘获模型。
+- [[wells-raman-slaughter-1979-fe58-primary-correlations]] — 铁-58 初级强度的跨共振相关。
+- [[white-et-al-1979-th231-capture-levels]] — 钍-231 的俘获能级和带解释。
+- [[de-wieclawik-et-al-1979-odd-proton-deformation]] — 奇质子核形变势能与修正振子参数。
+- [[wolf-1979-historical-photonuclear-signal-normalization]] — 历史光核谱的相对归一和本底。
+- [[wolf-1979-historical-photonuclear-line-assignment]] — 历史光核谱的谱峰归属与归一条件。
+- [[axel-1979-capture-conference-concluding-remarks]] — 会议总结的强度函数与原数据边界。
+- [[chrien-1979-introduction-goldhaber]] — Goldhaber 演讲的会议介绍。
+- [[goldhaber-1979-cavendish-reminiscences]] — Cavendish 的核物理实验回忆。
 
 ## A130前置正文重写：样节与一致性
 

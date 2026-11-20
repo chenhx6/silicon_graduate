@@ -6369,3 +6369,9 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - 验收 PDF 724–758 十一篇。保留 Ca-40 的 E2 共振条件、Ba-142 的 γ–γ 角关联和自旋竞争、Ni-59 靶与 Ni-60 产物身份。
 - 卷末正文已分单元派发。PDF 843 的移置表回接奇核形变章，卷后书证单独计量。
+
+## 2026-11-20 — 1979 会议卷页码对账与馆藏续读
+
+- 最终验收 25 个 Gemini 单元，覆盖 PDF 759–843；PDF 844–874 复核作书证。卷内 874 个物理 PDF 页已对账，49 页为书证或目录。
+- PDF 843 回接 PDF 804–806 的形变章。PDF 761 保持为摘要级，会议总结及回忆不重复计作原始测量。Vo Kim Thanh 等章的缓存只修正非法 JSON 转义。
+- 转入 Masiteng 194Tl 论文。实际 PDF 1–69 已按角关联、γ 线偏振/计数不对称和 RSAM 等任务划分派发。

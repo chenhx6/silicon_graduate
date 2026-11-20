@@ -1,0 +1,598 @@
+{
+  "recorded_at": "2026-11-20T00:27:19.930593+00:00",
+  "batch_pages": [
+    759,
+    874
+  ],
+  "batch_page_count": 116,
+  "book_all_known_pages": [
+    "1-874"
+  ],
+  "book_covered_pages": 874,
+  "book_completion": true,
+  "bibliographic_page_count": 49,
+  "bibliographic_spans": [
+    [
+      1,
+      17,
+      "卷首与目录"
+    ],
+    [
+      521,
+      521,
+      "贡献论文分隔页"
+    ],
+    [
+      844,
+      856,
+      "参会者目录"
+    ],
+    [
+      857,
+      860,
+      "作者索引"
+    ],
+    [
+      861,
+      866,
+      "主题索引"
+    ],
+    [
+      867,
+      874,
+      "CINDA 索引"
+    ]
+  ],
+  "chapter_sources": [
+    "knowledge/sources/sohrabpour-et-al-1979-large-sample-capture-analysis.md",
+    "knowledge/sources/soltanieh-et-al-1979-capture-spectroscopy-program.md",
+    "knowledge/sources/spits-et-al-1979-gd153-isotope-assignments.md",
+    "knowledge/sources/stecher-rasmussen-ratynski-1979-filtered-neutrons.md",
+    "knowledge/sources/stoffl-et-al-1979-gd155-thermal-capture.md",
+    "knowledge/sources/thanh-et-al-1979-compound-state-low-energy-gamma.md",
+    "knowledge/sources/tikku-et-al-1979-zn66-zn68-capture.md",
+    "knowledge/sources/vanassche-et-al-1979-ion-electron-conversion.md",
+    "knowledge/sources/vandenput-1979-sm151-low-energy-structure.md",
+    "knowledge/sources/vartsky-ellis-cohn-1979-historical-in-vivo-spectroscopy.md",
+    "knowledge/sources/vieu-et-al-1979-au193-vibration-rotation.md",
+    "knowledge/sources/warner-davidson-gelletly-1979-sm144-capture-transfer.md",
+    "knowledge/sources/warner-et-al-1979-os193-level-structure.md",
+    "knowledge/sources/weigmann-et-al-1979-mo100-capture-mechanism.md",
+    "knowledge/sources/wells-raman-slaughter-1979-fe58-primary-correlations.md",
+    "knowledge/sources/white-et-al-1979-th231-capture-levels.md",
+    "knowledge/sources/de-wieclawik-et-al-1979-odd-proton-deformation.md",
+    "knowledge/sources/wolf-1979-historical-photonuclear-signal-normalization.md",
+    "knowledge/sources/wolf-1979-historical-photonuclear-line-assignment.md",
+    "knowledge/sources/axel-1979-capture-conference-concluding-remarks.md",
+    "knowledge/sources/chrien-1979-introduction-goldhaber.md",
+    "knowledge/sources/goldhaber-1979-cavendish-reminiscences.md"
+  ],
+  "source_spans": [
+    {
+      "source_note": "knowledge/sources/sohrabpour-et-al-1979-large-sample-capture-analysis.md",
+      "body_pdf": [
+        759,
+        760
+      ],
+      "supplemental_pdf": [],
+      "unit_ids": [
+        "NC79-SOHRABPOUR-MINERALS"
+      ]
+    },
+    {
+      "source_note": "knowledge/sources/soltanieh-et-al-1979-capture-spectroscopy-program.md",
+      "body_pdf": [
+        761,
+        761
+      ],
+      "supplemental_pdf": [],
+      "unit_ids": [
+        "NC79-SOLTANIEH-CAPTURE"
+      ]
+    },
+    {
+      "source_note": "knowledge/sources/spits-et-al-1979-gd153-isotope-assignments.md",
+      "body_pdf": [
+        762,
+        765
+      ],
+      "supplemental_pdf": [],
+      "unit_ids": [
+        "NC79-SPITS-GD153"
+      ]
+    },
+    {
+      "source_note": "knowledge/sources/stecher-rasmussen-ratynski-1979-filtered-neutrons.md",
+      "body_pdf": [
+        766,
+        767
+      ],
+      "supplemental_pdf": [],
+      "unit_ids": [
+        "NC79-STECHER-FILTER"
+      ]
+    },
+    {
+      "source_note": "knowledge/sources/stoffl-et-al-1979-gd155-thermal-capture.md",
+      "body_pdf": [
+        768,
+        770
+      ],
+      "supplemental_pdf": [],
+      "unit_ids": [
+        "NC79-STOFFL-GD155"
+      ]
+    },
+    {
+      "source_note": "knowledge/sources/thanh-et-al-1979-compound-state-low-energy-gamma.md",
+      "body_pdf": [
+        771,
+        774
+      ],
+      "supplemental_pdf": [],
+      "unit_ids": [
+        "NC79-THANH-COMPOUND"
+      ]
+    },
+    {
+      "source_note": "knowledge/sources/tikku-et-al-1979-zn66-zn68-capture.md",
+      "body_pdf": [
+        775,
+        777
+      ],
+      "supplemental_pdf": [],
+      "unit_ids": [
+        "NC79-TIKKU-ZN"
+      ]
+    },
+    {
+      "source_note": "knowledge/sources/vanassche-et-al-1979-ion-electron-conversion.md",
+      "body_pdf": [
+        778,
+        780
+      ],
+      "supplemental_pdf": [],
+      "unit_ids": [
+        "NC79-VANASSCHE-U4"
+      ]
+    },
+    {
+      "source_note": "knowledge/sources/vandenput-1979-sm151-low-energy-structure.md",
+      "body_pdf": [
+        781,
+        783
+      ],
+      "supplemental_pdf": [],
+      "unit_ids": [
+        "NC79-VANDENPUT-SM151"
+      ]
+    },
+    {
+      "source_note": "knowledge/sources/vartsky-ellis-cohn-1979-historical-in-vivo-spectroscopy.md",
+      "body_pdf": [
+        784,
+        786
+      ],
+      "supplemental_pdf": [],
+      "unit_ids": [
+        "NC79-VARTSKY-IN-VIVO"
+      ]
+    },
+    {
+      "source_note": "knowledge/sources/vieu-et-al-1979-au193-vibration-rotation.md",
+      "body_pdf": [
+        787,
+        789
+      ],
+      "supplemental_pdf": [],
+      "unit_ids": [
+        "NC79-VIEU-AU193"
+      ]
+    },
+    {
+      "source_note": "knowledge/sources/warner-davidson-gelletly-1979-sm144-capture-transfer.md",
+      "body_pdf": [
+        790,
+        792
+      ],
+      "supplemental_pdf": [],
+      "unit_ids": [
+        "NC79-WARNER-SM144"
+      ]
+    },
+    {
+      "source_note": "knowledge/sources/warner-et-al-1979-os193-level-structure.md",
+      "body_pdf": [
+        793,
+        795
+      ],
+      "supplemental_pdf": [],
+      "unit_ids": [
+        "NC79-WARNER-OS193"
+      ]
+    },
+    {
+      "source_note": "knowledge/sources/weigmann-et-al-1979-mo100-capture-mechanism.md",
+      "body_pdf": [
+        796,
+        798
+      ],
+      "supplemental_pdf": [],
+      "unit_ids": [
+        "NC79-WEIGMANN-MO"
+      ]
+    },
+    {
+      "source_note": "knowledge/sources/wells-raman-slaughter-1979-fe58-primary-correlations.md",
+      "body_pdf": [
+        799,
+        800
+      ],
+      "supplemental_pdf": [],
+      "unit_ids": [
+        "NC79-WELLS-FE"
+      ]
+    },
+    {
+      "source_note": "knowledge/sources/white-et-al-1979-th231-capture-levels.md",
+      "body_pdf": [
+        801,
+        803
+      ],
+      "supplemental_pdf": [],
+      "unit_ids": [
+        "NC79-WHITE-TH231"
+      ]
+    },
+    {
+      "source_note": "knowledge/sources/de-wieclawik-et-al-1979-odd-proton-deformation.md",
+      "body_pdf": [
+        804,
+        806
+      ],
+      "supplemental_pdf": [
+        843
+      ],
+      "unit_ids": [
+        "NC79-WIECLAWIK-ISOTONES",
+        "NC79-WIECLAWIK-TABLE"
+      ]
+    },
+    {
+      "source_note": "knowledge/sources/wolf-1979-historical-photonuclear-signal-normalization.md",
+      "body_pdf": [
+        807,
+        809
+      ],
+      "supplemental_pdf": [],
+      "unit_ids": [
+        "NC79-WOLF-WIDTHS"
+      ]
+    },
+    {
+      "source_note": "knowledge/sources/wolf-1979-historical-photonuclear-line-assignment.md",
+      "body_pdf": [
+        810,
+        812
+      ],
+      "supplemental_pdf": [],
+      "unit_ids": [
+        "NC79-WOLF-YIELD"
+      ]
+    },
+    {
+      "source_note": "knowledge/sources/axel-1979-capture-conference-concluding-remarks.md",
+      "body_pdf": [
+        813,
+        830
+      ],
+      "supplemental_pdf": [],
+      "unit_ids": [
+        "NC79-AXEL-CLOSEOUT-I",
+        "NC79-AXEL-CLOSEOUT-II"
+      ]
+    },
+    {
+      "source_note": "knowledge/sources/chrien-1979-introduction-goldhaber.md",
+      "body_pdf": [
+        831,
+        831
+      ],
+      "supplemental_pdf": [],
+      "unit_ids": [
+        "NC79-CHRIEN-INTRO"
+      ]
+    },
+    {
+      "source_note": "knowledge/sources/goldhaber-1979-cavendish-reminiscences.md",
+      "body_pdf": [
+        832,
+        842
+      ],
+      "supplemental_pdf": [],
+      "unit_ids": [
+        "NC79-GOLDHABER-I",
+        "NC79-GOLDHABER-II"
+      ]
+    }
+  ],
+  "responses": [
+    {
+      "id": "NC79-SOHRABPOUR-MINERALS",
+      "covered": [
+        759,
+        760
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "444c42811407999a98b4cc75abfbb0d225e0100ba148772ce6457e73835676cf"
+    },
+    {
+      "id": "NC79-SOLTANIEH-CAPTURE",
+      "covered": [
+        761,
+        761
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "ce7c27e0afd1354da24c5d7ccdc68def6593aead35caa83e8ecbade78208eefb"
+    },
+    {
+      "id": "NC79-SPITS-GD153",
+      "covered": [
+        762,
+        765
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "582f29af8dc84220955eb111ac8256a23ae069b6ed3a8b72b5de258e6738a83e"
+    },
+    {
+      "id": "NC79-STECHER-FILTER",
+      "covered": [
+        766,
+        767
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "ea03734ccb198106d000bf432845697e43e89752c3e1450878335dceb105359f"
+    },
+    {
+      "id": "NC79-STOFFL-GD155",
+      "covered": [
+        768,
+        770
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "bb3a3817539f2b62cc31cb6c9d432d159d5f6328fd7620a20940152be9ce8ca6"
+    },
+    {
+      "id": "NC79-THANH-COMPOUND",
+      "covered": [
+        771,
+        774
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "9ef0ee2204dcbdd26d2168447f1217dad6f4423db2d33bdc4d38cd06d8fb9efd",
+      "local_json_repairs": [
+        {
+          "line": 31,
+          "column": 441,
+          "literal": "\\gamma"
+        }
+      ],
+      "original_response_sha256": "0f045d733323aaed1598f0f0a514a4cb24beccb0fba7460371a897ae76b06ec4"
+    },
+    {
+      "id": "NC79-TIKKU-ZN",
+      "covered": [
+        775,
+        777
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "a6c5eaf43b0f567b5302362bc89d0f66e83b5067c4d893a1e414a83fcf5534ac"
+    },
+    {
+      "id": "NC79-VANASSCHE-U4",
+      "covered": [
+        778,
+        780
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "48f6962920efd08d823f2881c30d36b33db7c79b2700e6ba20439695d0681dee"
+    },
+    {
+      "id": "NC79-VANDENPUT-SM151",
+      "covered": [
+        781,
+        783
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "72fc04feaa17544324638bdedb6569d526a286151dbb90cafd53c5382cd41257"
+    },
+    {
+      "id": "NC79-VARTSKY-IN-VIVO",
+      "covered": [
+        784,
+        786
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "acc3981105e5f452971309865aba6a585fb1875bf3459871b6a5d383d25dd5eb"
+    },
+    {
+      "id": "NC79-VIEU-AU193",
+      "covered": [
+        787,
+        789
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "2a70faa3217bb4ff7ecc231b37f362888c0da95cbb13c64814dec099e14329c5"
+    },
+    {
+      "id": "NC79-WARNER-SM144",
+      "covered": [
+        790,
+        792
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "835c7a34c077fb4add85936c678cb891b49da5a1babb1294551ce887250f5645"
+    },
+    {
+      "id": "NC79-WARNER-OS193",
+      "covered": [
+        793,
+        795
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "212038ad36c9157f4825da99b0826a436d0e40721f60d94f8340a26119fb7df7"
+    },
+    {
+      "id": "NC79-WEIGMANN-MO",
+      "covered": [
+        796,
+        798
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "5d868fd8d5d9b1f9668a5e390cc101d0072bec161cc233e934a68f6cb1bdd3f6"
+    },
+    {
+      "id": "NC79-WELLS-FE",
+      "covered": [
+        799,
+        800
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "6e04e978c579f71ad175aa9319508d9725c4eefa976293ed357124bb92d3c5fc"
+    },
+    {
+      "id": "NC79-WHITE-TH231",
+      "covered": [
+        801,
+        803
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "6f64c892b9b7ec0e887a08142a7be95e02195f10a6fae8182995db96ac9ffba2"
+    },
+    {
+      "id": "NC79-WIECLAWIK-ISOTONES",
+      "covered": [
+        804,
+        806
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "e3498c1ceddfdd984b8e676cdd55b9a6316e972c2253a34cbb873f78d5251dde"
+    },
+    {
+      "id": "NC79-WOLF-WIDTHS",
+      "covered": [
+        807,
+        809
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "d8ddaec909495662005a66716df37ab942d638587995c53b975a8e4d9bf2b890"
+    },
+    {
+      "id": "NC79-WOLF-YIELD",
+      "covered": [
+        810,
+        812
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "f6c3ed0514806033ef045c7fc333c9beaf1bf9472cc4cb869203185e1204a4f6"
+    },
+    {
+      "id": "NC79-AXEL-CLOSEOUT-I",
+      "covered": [
+        813,
+        821
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "partial",
+      "prompt_sha256": "128f114de90583ab5c1dfc7e19064b16858183ccf13a6d6a5ee025cd5780dd6e"
+    },
+    {
+      "id": "NC79-AXEL-CLOSEOUT-II",
+      "covered": [
+        822,
+        830
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "a213f3088c249f0945528a4c043d1a78b003ba499dbde6cda043b38870cde7ac"
+    },
+    {
+      "id": "NC79-CHRIEN-INTRO",
+      "covered": [
+        831,
+        831
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "c9b93d21a5eff32c56fadc1041eabc4b8c1a9fc89087f09f7b95dcef8ce9331d"
+    },
+    {
+      "id": "NC79-GOLDHABER-I",
+      "covered": [
+        832,
+        837
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "989550b695278f09aeff6ea0b8bc138dd17aec5dbb92af64ae1cff0f5e30bd34"
+    },
+    {
+      "id": "NC79-GOLDHABER-II",
+      "covered": [
+        838,
+        842
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "31d7a0021bb2376f88532211e31a5edc1695be8accebbe496625997a3142bb7c"
+    },
+    {
+      "id": "NC79-WIECLAWIK-TABLE",
+      "covered": [
+        843,
+        843
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "partial",
+      "prompt_sha256": "fff9730b854781e2ac484c693f9c2fc649749f4b6d92c3db11002dc60f07b617"
+    }
+  ],
+  "source_boundaries": [
+    "PDF 761 contains a single abstract.",
+    "PDF 813–830 is Axel’s conference synthesis. PDF 831–842 is historical material.",
+    "PDF 843 is printed 847 and belongs to the contribution at PDF 804–806, printed 805–807.",
+    "Catalogues and cited references carry bibliographic coverage only."
+  ],
+  "next_source": {
+    "source_note": "knowledge/sources/masiteng-2006-194tl-polarization-lifetime-thesis.md",
+    "pdf_pages": 69,
+    "units": [
+      "MASITENG-IDENTITY-INTRO",
+      "MASITENG-REACTIONS-RESPONSE",
+      "MASITENG-DETECTORS",
+      "MASITENG-RDCO",
+      "MASITENG-POL",
+      "MASITENG-DECAY-RSAM",
+      "MASITENG-REFS"
+    ]
+  }
+}
