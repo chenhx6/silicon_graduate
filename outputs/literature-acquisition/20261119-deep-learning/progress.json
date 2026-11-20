@@ -338,13 +338,13 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T05:39:42.959641+00:00",
+  "updated_at": "2026-11-20T05:50:34.537117+00:00",
   "completed_deep_read_sources_this_run": 0,
   "completed_primary_pages_this_run": 3200,
   "current_source_note": "knowledge/sources/lettmann-2018-ge-kr-triaxiality-thesis.md",
-  "next_action": "Read Lettmann experimental technique and analysis chapters, complete remaining scientific pages and version crosswalk.",
+  "next_action": "Continue Lettmann theory, appendix and bibliographic zones; retain Gemini and access limits.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
   "last_source_manager_closure": "Chadderton: appendix apparatus/blank pages identified; retained original equation and caption issues, measured and modeled quantities separated.",
-  "current_source_scientific_acceptance": "Lettmann thesis: 44 of 189 targeted pages; no whole-source credit. 127–129 image-verified."
+  "current_source_scientific_acceptance": "Lettmann 102 of 189 physical pages. Scientific chapters 4–8 and targeted front matter read by Codex."
 }

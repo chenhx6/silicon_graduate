@@ -6425,3 +6425,4 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — Lettmann 的谱线与三轴判据
 
 - 定向验收 44 页，图像核对 PDF 127–129。保留 86Ge 的暂定 $3^+$、$S(4)$ 的能级条件及从 Ge/Kr 散射截面推变形长度的光学势边界。
+- PDF 39–96 验收后达 102 页，含五页正文图像补读和一页分隔。记录自符合的 Compton 实例及峰面积显著性、寿命线形条件和几何口径。
