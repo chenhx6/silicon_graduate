@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-11-20T18:08:15.775244+00:00",
+  "source": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+  "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1970_Twin et al_Polarization and angular correlation measurements following the 40Ar(p, nγ)40K reaction.pdf",
+  "raw_sha256": "40cb4df52b26f0eabc9c86eba136fb68bc2da99d123a72276583483cc64dfd11",
+  "primary_pdf_pages": 16,
+  "scientific_and_bibliographic_pages_covered": 16,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–3: reaction and populations, alignment limits and coincidence",
+    "PDF 4–7: polarization formalism, calibration, angular and mixing table",
+    "PDF 8–13: 770-keV gamma-gamma comparison, parity checks, pure/mixed and alternative branches",
+    "PDF 14–16: higher-excitation evidence, conclusions and bibliography"
+  ],
+  "evidence_gaps": [
+    "Pure and mixed lines may constrain the same parent but from different measurements. 1929-keV delta is conditional on the 1159-keV line being pure dipole.",
+    "The 770-keV branch resolution is gamma-gamma, and the 2231-keV polarization is used on a parity-changing E1/M2 line.",
+    "Population grid has model bounds without a single fixed Gaussian sigma/I."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

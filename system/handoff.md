@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Twin 的 ⁴⁰K 布居范围与支路证据
+
+- [[twin-1970-polarization-angular-correlation-40k]] 完成 16 页核读，将 770 keV 方向关联选支、1159 keV 极化和同母态 1929 keV 混合比归属分开。记录 MANDY 允许布居范围。
+- 累计 65 份、7643 页。续读 Taras 1971 的相位一致角分布与偏振公式。本地出版版 24 页及 SHA 已核。
+
 ## 2026-11-21 — Bass 的对称双晶体极化仪
 
 - [[bass-1972-two-crystal-compton-polarimeter]] 对账 11 页，核实 Ge(Li) 847 keV 的阈值、符合占比和灵敏度，区分四晶体设想和实测。Williams 的实际标定指向另篇 Rickel 等 1974。

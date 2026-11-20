@@ -6650,3 +6650,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Bass 等的对称双晶体响应
 
 - 核对 11 页，记录阈值改变的代价与 Williams 的引用范围。累计 64 份、7627 页，续读 Twin 等。
+
+## 2026-11-21 — Twin 等的 ⁴⁰K 方向与极化约束
+
+- 核对 16 页，分开级联选支、极化判宇称和布居允许域。累计 65 份、7643 页，续读 Taras 的相位公式。

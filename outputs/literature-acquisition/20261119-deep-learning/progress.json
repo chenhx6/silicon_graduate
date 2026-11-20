@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000291",
+  "active_source": "catalogue:LIT-000728",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 64,
+  "completed_full_sources_this_run": 65,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T18:04:33.107445+00:00",
+  "updated_at": "2026-11-20T18:08:15.775244+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 7627,
-  "current_source_note": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
-  "next_action": "Read Twin et al. 1970 40Ar(p,n gamma)40K, verify pure E2 and mixed-transition calibration evidence.",
+  "completed_primary_pages_this_run": 7643,
+  "current_source_note": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+  "next_action": "Read the 24-page Taras 1971 Canadian Journal of Physics 49, 328–351. Link sign and input definitions to prior archive examples.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Bass et al. 1972: raw response, coincidence fraction, detector threshold and Williams citation boundary.",
-  "current_source_scientific_acceptance": "Eleven publisher pages, all apparatus, tests and bibliography, with prior full-source audit used for verified overlap.",
+  "last_source_manager_closure": "Twin 1970: tie 40K assignments, state-population bounds and mixed/gamma-gamma/polarization line roles to primary pages.",
+  "current_source_scientific_acceptance": "All 16 publisher pages, including prior verified full audit and current branch/fit reconciliation.",
   "source_scoped_retrieval": "Locally held publisher PDFs. No new download."
 }

@@ -55,9 +55,13 @@ The experiment identifies low-lying `40K` levels and multipole mixing ratios by 
 
 - The paper assigns `40K` states at 1.959 (`2+`), 2.047 (`2−`), 2.070 (`3−`), 2.103 (`1−`), 2.261 (`3+`), 2.290 (`1+`), 2.291 (`4` or `3`), 2.419 (`2`/`3`), 2.575 (`2`/`4`) and 2.625 (`0−`) MeV, with branching and δ values in Table 2.
 - The `0.800-MeV` `2−→3−` 770-keV transition has an angular-distribution ambiguity; γγ correlation with a pure-quadrupole 844-keV reference resolves it as pure M1.
-- The 1.959-MeV level is assigned `2+`: simultaneous angular distributions establish spin 2, while 1159-keV polarization selects positive parity and δ(1929 keV)≈−0.10(4).
+- 1.959 MeV 态的两条角分布先共同拟合布居和混合支路。在 1159 keV 线取纯偶极的 \(\delta=0\) 后，1929 keV 得 \(\delta=-0.10(4)\)。1159 keV 在 \(45^\circ,90^\circ\) 的极化与两条角分布共同支持 \(2^+\)。极化测的是 1159 keV，同母态 1929 keV 的数值来自角分布。两条线涉及宇称改变，不能计作 E2/M1。见 489 页、图 3–4。
 - The 2.261-MeV level is assigned `3+` from angular distributions plus `−0.57±0.30` polarization; the paper explicitly shows polarization alone can fit `2−`, `3+` or `4−`, so spin information is required first.
 - Negative-parity `p3/2 d3/2−1` states receive mixed E2/M1 ratios; positive-parity states at 1.644, 1.959, 2.261 and 2.290 MeV are identified as likely multi-particle configurations but no modern structure calculation is supplied.
+
+### 取向约束和各观测的角色
+
+对 \(^{40}\mathrm{Ar}(p,n\gamma)\)，§2.1 把初态布居参数限制在 MANDY 算出的阈值与阈上 200 keV 之间，然后在该范围搜索。实际为抑制出射中子的 \(l=1\) 通道，邻阈值的主要分析通常在阈上 100 keV 内。未见一个固定高斯 \(\sigma/I\)。770 keV 的近纯 M1 来自 844–770 keV 的 γ–γ 方向关联解除角分布双根，2231 keV 的 \(P=-0.57(30)\) 则协助确认 2.261 MeV 态的 \(3^+\)，对应跃迁主 E1。两例可用于方法追溯。表 2 中的其他 M1/E2 数值应逐支路核实是否有同线极化。见印刷 482–483、487、491–492 页。
 
 ## Key Results
 
