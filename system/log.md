@@ -6392,3 +6392,8 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - Ley 84 页和 Siciliano 190 页已验收，包括本地原件确认的空白页。区分文献采用值、直接寿命及有共同馈入的测量结果。
 - 科研范围累计验收 14 份、2881 个 PDF 页。Gerathy 的 Solenogam 学位论文在读，按单元保留接口故障记录。
+
+## 2026-11-20 — Solenogam 原页与 Gemini 可用性
+
+- Gerathy 的普通 API 13 次请求和一项定向重试为 502，原生 Gemini 调用明确返回 403 账号停用。仅保留实际完成的 23 页定向核对。
+- 记录 Pt-184 的外来混合比与浅角关联拟合、Sm-145 的双峰分离与 8785 keV 宇称写法。其余章节保留待主读。

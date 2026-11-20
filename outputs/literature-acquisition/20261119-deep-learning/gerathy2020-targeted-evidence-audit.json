@@ -1,0 +1,67 @@
+{
+  "recorded_at": "2026-11-20T03:56:37.612758+00:00",
+  "chapter_sources": [
+    "knowledge/sources/gerathy-2020-solenogam-conversion-electron-thesis.md"
+  ],
+  "source_state": "partial-primary-evidence-checked",
+  "physical_pdf_pages": 147,
+  "accepted_scope": [
+    [
+      1,
+      1
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      32,
+      32
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      76,
+      84
+    ],
+    [
+      92,
+      93
+    ],
+    [
+      107,
+      109
+    ],
+    [
+      126,
+      127
+    ],
+    [
+      134,
+      134
+    ]
+  ],
+  "targeted_pages": 23,
+  "remaining_pages": 124,
+  "completed_sources_this_run": 14,
+  "completed_full_scope_pages": 2881,
+  "worker_responses_accepted": 0,
+  "api_status_counts": {
+    "502": 14
+  },
+  "native_status": {
+    "upstream_status": 403,
+    "cause": "Access to Antigravity disabled for configured account"
+  },
+  "verified_pages_and_checks": [
+    "PDF 80–83: separate literature values, broad fit and upper-limit sensitivity.",
+    "PDF 92–93 and 107–109: time spectrum, doublet and author-parity conflict.",
+    "PDF 134: identify second experiment scope for later verification."
+  ]
+}

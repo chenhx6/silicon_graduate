@@ -354,6 +354,12 @@ decay-curve analyses depend on shared spectra and feeding inputs. The
 Sn-106 lifetimes share one fit, and the quoted Sn-108 \(4^+\) uncertainty
 uses a simulated FWHM.
 
+[[gerathy-2020-solenogam-conversion-electron-thesis]] has a targeted
+original-page check. Pt-184 shows how an unresolved L-shell signal and a
+shallow γ–γ correlation fit leave wide mixing-ratio ranges. The Sm-145
+comparison preserves the 30/31 keV coincidence split and the 8785 keV
+parity discrepancy at its original locators. Full-source coverage is pending.
+
 ## Final acquisition closure and learning design
 
 The user has closed further acquisition and requested an in-depth learning

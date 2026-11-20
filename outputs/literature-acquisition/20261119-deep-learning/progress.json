@@ -352,13 +352,13 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T03:25:14.207954+00:00",
+  "updated_at": "2026-11-20T03:56:37.612758+00:00",
   "completed_deep_read_sources_this_run": 0,
   "completed_primary_pages_this_run": 2881,
-  "current_source_note": "knowledge/sources/siciliano-2017-sn106-sn108-rdds-thesis.md",
-  "next_action": "Audit Gerathy responses; recover transient requests by unit and retain already returned responses.",
+  "current_source_note": "knowledge/sources/gerathy-2020-solenogam-conversion-electron-thesis.md",
+  "next_action": "Recover Gemini main reading without restarting completed archive batches; continue pending Gerathy and other sources.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
   "last_source_manager_closure": "Masiteng MSc: 69 pages, seven accepted units. Distinct gates for DCO and two asymmetries. No numeric P–delta pair for survey.",
-  "current_source_scientific_acceptance": "Siciliano 190-page thesis accepted; Gerathy source in flight."
+  "current_source_scientific_acceptance": "Gerathy partial: 23 selected pages checked; 124 pages pending. Gemini API and native routing returned service errors."
 }

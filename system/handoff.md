@@ -33,7 +33,8 @@ updated: 2026-11-20
 - [[masiteng-2006-194tl-polarization-lifetime-thesis]] 已验收 69 页。按原式区分 $A_p$ 与 $P$，DCO 回链 [Ram06] 同一实验资料。保留两种 RSAM 归一表达的差异和 876 keV 门约束的 6.9(1.0) ns 半衰期。
 - 新验收 [[lizarazo-sabogal-2018-se92-se94-isomer-decay]] PDF 1–153 与 [[ramashidzha-2006-194tl-dco-level-scheme-thesis]] PDF 1–89。Lizarazo 的个人信息页留本地，Se 半衰期保留实测值，原文两个算术差异和 470/495 keV 归属分别定位。Ramashidzha 的 876.4 keV 与 Masiteng 的 DCO 和多极标签冲突保留，293.4 keV 的逐门值与最终列分开。
 - [[ley-2025-n50-seniority-lifetime-thesis]] 84 页与 [[siciliano-2017-sn106-sn108-rdds-thesis]] 190 页已验收。Ley 保留两个出版附文与一份附印稿的版本差异。Siciliano 保留共享馈入、联合寿命拟合与 FWHM 误差口径。
-- 本次累计 14 份通过科研范围验收的原件、2881 个 PDF 页。Gerathy 147 页已组成 13 个 Gemini 单元，请查看 `tmp/deep-learning-gerathy-2020/thesis-main-batch.log`。部分请求返回 HTTP 502，按单元保存成功回执并只恢复失败请求。
+- 本次累计 14 份通过科研范围验收的原件、2881 个 PDF 页。[[gerathy-2020-solenogam-conversion-electron-thesis]] 先完成 23 页定向核查，不计整源。Pt-184 保留弱角关联和来源不同的混合比，Sm-145 保留符合证据及原文的正负宇称差异。
+- Gerathy 的 13 个 API 单元及单项重试均返回 502。原生 Gemini 单元收到上游账号停用的 403。现有回执留在 `tmp/deep-learning-gerathy-2020/`，Gerathy 其余页仍在队列，待 Gemini 路由可用后恢复主读。全馆藏目标仍持续。
 - 章级来源共用已哈希的原件，以不重叠的 `raw_pdf_pages` 标识各章。唯一作品检查继续执行，原 PDF 没有拆档或复制。
 - 另一 session 的 PDM/PDCO 与 Hamilton 改动继续隔离。无 PDM 拟合、raw 改写或重新获取。HDR 阶段指针为 `main + research: integrate Ljungvall HDR evidence and start capture proceedings`。
 
