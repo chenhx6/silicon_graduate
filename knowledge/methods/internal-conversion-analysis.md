@@ -43,6 +43,23 @@ tags: [internal-conversion, mixing-ratio, multipolarity, gamma-spectroscopy]
 
 [[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] 给出 BrIcc 的 mixed-transition ICC 公式、`delta`/transition-energy uncertainty 传播，以及插值与 vacancy-treatment 的边界。
 
+[[gerathy-2020-solenogam-conversion-electron-thesis]] 的 $^{184}$Pt 681 keV
+支路提供实验反例。163 keV 门下 K 电子峰可分，L 峰只有上限
+$\alpha_L\le4.3\times10^{-2}$，K 系数与 L 上限联用仍无法强约束混合。
+按该论文 Eq. (3.4) 及 Eq. (3.16) 的定义，令 $\delta^2=I_\gamma(E2)/I_\gamma(M1)$、
+$q_K^2=I_K(E0)/I_K(E2)$，可从三个电子强度分量写出
+
+$$
+\alpha_i=
+\frac{\alpha_i(M1)+\delta^2\alpha_i(E2)+
+       \delta^2 q_K^2\alpha_K(E2)\Omega_i/\Omega_K}{1+\delta^2}.
+$$
+
+纯 M1、E2 基线随被测壳层 $i$ 变化。E0 项使用 K 壳电子强度定义，
+再乘对应的电子因子比。学位论文 Eq. (3.27) 的右端在两项基线上保留 K
+下标，直接代入 L 壳会把基线误当作 K 壳值。此式针对同一转换跃迁；
+纯 $0^+\to0^+$ 使用另一条 E2 跃迁作为分母时，应单独按参照分支处理。
+
 ## What It Can Establish
 
 ICC 可以为 multipolarity、spin/parity assignment 和 `delta` 提供独立于角分布 alignment 假设的约束，尤其适合和角分布、DCO、偏振联合使用。

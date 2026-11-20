@@ -352,13 +352,13 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T03:56:37.612758+00:00",
+  "updated_at": "2026-11-20T04:21:21.495412+00:00",
   "completed_deep_read_sources_this_run": 0,
   "completed_primary_pages_this_run": 2881,
   "current_source_note": "knowledge/sources/gerathy-2020-solenogam-conversion-electron-thesis.md",
-  "next_action": "Recover Gemini main reading without restarting completed archive batches; continue pending Gerathy and other sources.",
+  "next_action": "Resume Gemini where authorized and audit remaining Gerathy pages, then continue the wider corpus.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
   "last_source_manager_closure": "Masiteng MSc: 69 pages, seven accepted units. Distinct gates for DCO and two asymmetries. No numeric P–delta pair for survey.",
-  "current_source_scientific_acceptance": "Gerathy partial: 23 selected pages checked; 124 pages pending. Gemini API and native routing returned service errors."
+  "current_source_scientific_acceptance": "Gerathy partial: 71 PDF pages verified, 76 pending. Includes chapters 3–6 and Gammasphere appendix. Accepted full-source counts are unchanged."
 }

@@ -6397,3 +6397,9 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - Gerathy 的普通 API 13 次请求和一项定向重试为 502，原生 Gemini 调用明确返回 403 账号停用。仅保留实际完成的 23 页定向核对。
 - 记录 Pt-184 的外来混合比与浅角关联拟合、Sm-145 的双峰分离与 8785 keV 宇称写法。其余章节保留待主读。
+
+## 2026-11-20 — Solenogam 分壳内转换、几何与符合链
+
+- 从原件补核 48 页，主要为第 3–6 章及 Gammasphere 附录。已覆盖 71/147 页。
+- 保留 Eq. (3.27) 的下标差异、Table 4.2 的重复探测器对及 Table 5.1 的质量数差异，回写分壳反演公式。
+- Pt-184 681 keV 的 $q_K^2$ 中心值可用表列输入复核。Sm-145 的第二套 γ–γ 符合用于级联放置，半衰期归回 Solenogam 原谱。

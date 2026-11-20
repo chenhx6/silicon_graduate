@@ -359,6 +359,12 @@ original-page check. Pt-184 shows how an unresolved L-shell signal and a
 shallow γ–γ correlation fit leave wide mixing-ratio ranges. The Sm-145
 comparison preserves the 30/31 keV coincidence split and the 8785 keV
 parity discrepancy at its original locators. Full-source coverage is pending.
+The follow-up covers the full detector, data handling and Pt chapters and
+the Gammasphere appendix. It checks the shell-index inconsistency in
+Eq. (3.27) and reproduces the K-shell central value for the 681 keV line.
+The two experiments provide distinct evidence: the appendix checks
+selected Sm cascade placements while the Solenogam time spectrum supplies
+the reported half-life.
 
 ## Final acquisition closure and learning design
 
