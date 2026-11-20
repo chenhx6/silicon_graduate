@@ -472,12 +472,15 @@ Missing originals, illegible figures, unresolved version/identity or absent nume
 
 ## Falsification or Reverse Tests
 
-The targeted audit of [[kalaydjieva-2023-cd106-zr100-shape-coexistence-thesis]]
+The 242-page scientific audit of [[kalaydjieva-2023-cd106-zr100-shape-coexistence-thesis]]
 links ¹⁰⁶Cd's RDDS and unsafe Coulomb-excitation analyses to one GANIL
 acquisition. It also traces the two ¹⁰⁰Zr GRIFFIN δ updates to a shared run
 and identifies the separate Wu et al. Gammasphere measurement. Use the
 version-specific fit quality with each reported uncertainty. The ¹⁰⁰Zr δ
 results are from γγ angular correlations and lack measured linear polarization.
+The tabulated 212.60 keV line and the 366.9/983.5 keV relative E2 strengths
+provide numerical checks of the energy residual sign and intensity ratio in
+the thesis. These checks separate transcription from experimental reproduction.
 
 Return any material numerical or methodological discrepancy to its source locator; revise the interpretation if the original contradicts the extraction or proposed classification.
 

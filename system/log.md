@@ -6437,3 +6437,8 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - 核对低角 \(^{106}\)Cd 的产额基准、矩阵元符号、误差与 E3 上限条件。分开记载 \(^{100}\)Zr 的角关联自由系数、受约束拟合和 δ 误差。
 - 回链同一 GRIFFIN 数据的两篇会议论文，另登记 Gammasphere 独立实验。核验用的两份出版 PDF 与两份摘要快照留档。保留整源阅读和正式 Cd 后续发表待查事项。
 - 已按原页核附录 A–E。GOSIA 输入示例保留单元 3 文件名差异和缺失文件边界。GRIFFIN 表的 52 开角、3600 有序对及删去三类同 clover 开角均通过计数复核。
+
+## 2026-11-20 — Kalaydjieva 科研全文对账
+
+- 242 页科研正文、附录及书证验收。核对 ¹⁰⁰Zr 能标残差以及相对 E2 的强度比分子。两套候选 Cd 布居和 Zr 两态混合的适用条件分别保留。
+- 累计 18 份、3630 页。后续 Michetti-Wilson 论文学位与装置主题已由原题页及目录确认。

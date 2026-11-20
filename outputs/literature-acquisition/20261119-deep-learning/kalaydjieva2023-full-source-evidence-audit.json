@@ -1,0 +1,174 @@
+{
+  "work_id": "doi:10.70675/c170c2b4z5cecz4187z8bacz070f04c3f6c4",
+  "original": {
+    "path": "raw/theses/gpt/query/20261119-international-nuclear-structure/129736_KALAYDJIEVA_2023_archivage.pdf",
+    "sha256": "8a888adca2429166e6b4878a342173313754ceb77b8f3f0f8f21c71e9acd7005",
+    "size": 13770591,
+    "hash_basis": "fresh-hash",
+    "source_role": "original-or-verified-edition"
+  },
+  "source_note": "knowledge/sources/kalaydjieva-2023-cd106-zr100-shape-coexistence-thesis.md",
+  "auditor": "Codex",
+  "mode": "scientific-page-reading-and-original-figure-audit",
+  "updated_at": "2026-11-20T07:06:41.114473+00:00",
+  "full_scientific_scope": true,
+  "pages_in_original": 246,
+  "scientific_and_bibliographic_pages_checked": 242,
+  "excluded_non_scientific_pages": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "excluded_role": "Dedication and acknowledgements retained locally.",
+  "blank_separators_confirmed": [
+    19,
+    27,
+    150
+  ],
+  "verified_ranges": [
+    {
+      "pdf_page_range": [
+        1,
+        3
+      ],
+      "scope": "Title, defence and HAL identity, French/English abstract"
+    },
+    {
+      "pdf_page_range": [
+        8,
+        27
+      ],
+      "scope": "Contents, résumé, preamble and quadrupole observables; two separators"
+    },
+    {
+      "pdf_page_range": [
+        28,
+        53
+      ],
+      "scope": "Cline criterion, reaction amplitudes and the E664 acquisition/observables"
+    },
+    {
+      "pdf_page_range": [
+        54,
+        92
+      ],
+      "scope": "Spectroscopic inputs, FRESCO constraints and GOSIA objective and errors"
+    },
+    {
+      "pdf_page_range": [
+        93,
+        148
+      ],
+      "scope": "Cd sign and path fits, lifetime inference, invariants and competing assignments"
+    },
+    {
+      "pdf_page_range": [
+        149,
+        162
+      ],
+      "scope": "Part II, separator, N=60 systematics, beta rules and angular correlations"
+    },
+    {
+      "pdf_page_range": [
+        163,
+        204
+      ],
+      "scope": "S1790 sorting, calibration, branching, fits and ambiguous spins"
+    },
+    {
+      "pdf_page_range": [
+        205,
+        219
+      ],
+      "scope": "MCSM and two-configuration assumptions, band candidates and research limits"
+    },
+    {
+      "pdf_page_range": [
+        220,
+        239
+      ],
+      "scope": "Appendices A–E, input options and angular pair counts"
+    },
+    {
+      "pdf_page_range": [
+        240,
+        246
+      ],
+      "scope": "Bibliography and experiment dependencies; referenced works not individually read"
+    }
+  ],
+  "checked_visual_pdf_pages": [
+    4,
+    19,
+    27,
+    52,
+    59,
+    82,
+    98,
+    108,
+    114,
+    118,
+    120,
+    136,
+    137,
+    140,
+    150,
+    165,
+    171,
+    180,
+    185,
+    186,
+    187,
+    188,
+    195,
+    197,
+    199,
+    200,
+    201,
+    202,
+    204,
+    211,
+    213,
+    214,
+    217,
+    218,
+    239
+  ],
+  "remaining_evidence_limits": [
+    "2026 GANIL abstract crosswalk is established at dataset/method level; no final Cd matrix-element article verified.",
+    "Wu 2024 independent Gammasphere experiment identified from publisher abstract; its full tables were not checked.",
+    "GRIFFIN versions share a run; event-level reason for changed errors/goodness of fit has not been established.",
+    "Event-level files, unpublished covariance, and independently executable GOSIA/Geant4 input were not acquired."
+  ],
+  "gemini": {
+    "task_id": "KALAYDJIEVA-APP-AB",
+    "work_id": "doi:10.70675/c170c2b4z5cecz4187z8bacz070f04c3f6c4",
+    "model_requested": "agy-cli/gemini-3.8-flash",
+    "reasoning_requested": "high",
+    "pdf_pages": [
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226
+    ],
+    "sha256": "8a888adca2429166e6b4878a342173313754ceb77b8f3f0f8f21c71e9acd7005",
+    "started_at": "2026-11-20T06:33:23.928008+00:00",
+    "http_status": 502,
+    "state": "upstream-http-error",
+    "ended_at": "2026-11-20T06:34:26.901117+00:00",
+    "accepted_outputs": 0
+  },
+  "publication_archive_manifest": "raw/papers/gpt/query/20261120-kalaydjieva-experiment-crosswalk/manifest.json",
+  "readings_and_checks": {
+    "corrected_212_keV_from_subtracting_residual": 212.594408929286,
+    "printed_addition_212_keV": 212.033591070714,
+    "366_9keV_E2_relative_strength": 11.151252646133896,
+    "983_5keV_E2_relative_strength": 0.48744348304457447,
+    "proceedings_2026_restricted_model_ratio": 0.3304012241545574
+  },
+  "next_work": "bytes:2f2366ed9b2779211b1e105f3d607987336d72df3d3adadb2723758dd17a5b34"
+}

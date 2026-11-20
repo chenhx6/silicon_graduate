@@ -3,11 +3,12 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
-## 2026-11-20 — Kalaydjieva Cd/Zr 定向验收
+## 2026-11-20 — Kalaydjieva Cd/Zr 科研范围验收
 
-- Lettmann 的整源科研范围收尾已核对发布。Kalaydjieva 的身份、Cd 低角拟合及 Zr 角关联已做定向原页检查。完整科研覆盖仍为 17 份、3388 页。
+- 已核对 Kalaydjieva 的 242/246 页科研与书证范围，4 页献词与致谢留原件。累计整源科研覆盖 18 份、3630 页。
 - [[kalaydjieva-2023-cd106-zr100-shape-coexistence-thesis]] 记录低角 FRESCO/GOSIA 分工、相对符号、E3 布居路径及 ¹⁰⁰Zr 两版 δ。GRIFFIN 会议论文和学位论文归入一次实验，Wu 2024 Gammasphere 单列。两份出版 PDF 与两个摘要快照已在对应证据核查目录留档。
-- 附录 A–E 已核 PDF 220–239。下段续核实验响应、标定和正文表，再对账全篇覆盖。Gemini 附录请求返回 HTTP 502，验收归于 Codex。另一会话负责的 PDCO/PDM 和 Hamilton 已有修改隔离。
+- GRIFFIN 的题表回算支持以减法应用能量残差，图 13.8 使用 \(I_i/I_\mathrm{ref}\)。2026 会议论文报告了不同的时间随机区间和 δ 误差。原始数据及事件级来源有待独立核验。
+- Gemini 附录请求返回 HTTP 502，验收归于 Codex。下一本为 Michetti-Wilson 的 107 页硕士论文，题页、版本和哈希已核。另一会话负责的 PDCO/PDM 和 Hamilton 修改隔离。
 
 ## Active handoff — 2026-11-20 Ljungvall HDR 验收与 1979 会议卷
 
