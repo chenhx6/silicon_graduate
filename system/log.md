@@ -6586,3 +6586,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Davies 与 Hamilton 的有限接受度标定
 
 - 核读 21 页，复核 ¹⁹²Ir 串扰计数与效率表，登记同版单页摘录。Gemini 网关 502、上游 403，本批由 Codex 核读。累计 48 份、7447 页，续读 ¹⁸¹Ta 应用。
+
+## 2026-11-21 — Davies 与 Hamilton 的 ¹⁸¹Ta 联解
+
+- 核读 16 页，核对 HCl/HF 的实验输入、共同衰减约分条件、476 keV 串扰和两组发表的混合比。累计 49 份、7463 页。续读 Reddingius、Potters 与 Postma 的 Nd 俘获谱。

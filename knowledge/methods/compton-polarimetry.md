@@ -86,6 +86,8 @@ The analyzing power is a Compton-scattering property and depends on photon energ
 
 [[davies-hamilton-1968-gamma-gamma-polarimeter-calibration]] 区分了有限接受度对角关联各阶的衰减与极化仪灵敏度。固定级联夹角 \(\theta\) 的方位扫描只能给出合成调制，故应让理论关联通过实际接受窗口，再与该扫描比较。¹⁹²Ir 的 316 keV 标定中，468 keV 门的 11.6% 串扰要在计数不对称上合并，使参考比由 1.325 降至 1.20。标定若吸收了二次散射稀释，跨源复用须保留二次散射的角分布假设。见原刊 §§4.1、4.4、5.2–5.3。
 
+[[davies-hamilton-1967-ta181-482kev-mixing-ratio]] 的衰变级联分析联用 \(A_{22},A_{44}\) 和线偏振方位调制。同一有效级联内，方向项与极化项的共同 \(G_kA_k(1)\) 可按阶约掉，剩下末跃迁的 \(A'_k(2)/A_k(2)\) 及已测系数。¹⁸¹Ta 的 476 keV 串扰涉及另一末跃迁，原文另行校正。见原刊 §§7–8。
+
 ## Detector Implementations
 
 - Clover and segmented HPGe arrays provide compact Compton event selections.

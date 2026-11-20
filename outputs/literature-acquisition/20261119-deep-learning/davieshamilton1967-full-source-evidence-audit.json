@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-11-20T16:32:38.287680+00:00",
+  "source": "knowledge/sources/davies-hamilton-1967-ta181-482kev-mixing-ratio.md",
+  "raw_file": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_67_90695-1.pdf",
+  "raw_sha256": "0050920af3e7b86a525088350fa84148a72e4457cd171a43bebc4922c01cbe2d",
+  "primary_pdf_pages": 16,
+  "scientific_and_bibliographic_pages_covered": 16,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–6: prior data, penetration, source-specific attenuation, unresolved preceding lines and angular setup",
+    "PDF 7–11: experimental A22, A44 and k, Q calibration, rank-wise cancellation",
+    "PDF 12–16: graphical inference, contaminant correction, inferred mix and theory implications"
+  ],
+  "visual_checks": [
+    1,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15
+  ],
+  "evidence_gaps": [
+    "Table 3 caption attributes the 4% correction to 137–482, whereas Section 8 treats 133–476. Preserve both.",
+    "The reported azimuth list includes 125 degrees. The 1968 setup/calibration report used 135 degrees; no run log available.",
+    "Common calibration Q and effective feed response matter. No in-beam sigma/I was evaluated."
+  ],
+  "reader": "Codex",
+  "gemini_route": "Known unavailable from preceding work, 502 with upstream 403; no duplicate full-source request.",
+  "PDM_run": false
+}

@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "bytes:c617d1c1bfad294c926a47d634f727e826ca51a4cbdd06afa219aa25e187df04",
+  "active_source": "doi:10.1016/0375-9474(67)90695-1",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 48,
+  "completed_full_sources_this_run": 49,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T16:24:52.552773+00:00",
+  "updated_at": "2026-11-20T16:32:38.287680+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 7447,
-  "current_source_note": "knowledge/sources/davies-hamilton-1968-gamma-gamma-polarimeter-calibration.md",
-  "next_action": "Read Davies and Hamilton 1967, Nuclear Physics A96 65–80, on the 181Ta 482 keV transition using the local 16-page publication. Audit angular/polarization input choices and shared calibration.",
+  "completed_primary_pages_this_run": 7463,
+  "current_source_note": "knowledge/sources/davies-hamilton-1967-ta181-482kev-mixing-ratio.md",
+  "next_action": "Read Reddingius, Potters and Postma 1968 Physica 38 48–66, 19 published pages, for aligned neutron-capture anisotropy and polarization evidence.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Davies and Hamilton 1968: fold detector acceptance into angular correlation, reconstruct 192Ir gate bleed and tie Q portability to secondary scattering.",
-  "current_source_scientific_acceptance": "Published PDF 1–21 completed; Table 1–6 and Eq. 20 visually checked; duplicate one-page extract reconciled.",
-  "source_scoped_retrieval": "Locally held publisher PDFs. No new download."
+  "last_source_manager_closure": "Davies and Hamilton 1967: common-rank factor cancellation and 181Ta original data, 476 keV sensitivity and publication notation differences.",
+  "current_source_scientific_acceptance": "16 publisher pages, inclusive of bibliographic scope. Table 2–3 and the two numerical delta versions checked against originals.",
+  "source_scoped_retrieval": "Locally held publisher PDF. No new download."
 }

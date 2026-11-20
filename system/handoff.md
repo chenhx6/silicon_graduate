@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Davies 与 Hamilton 的 ¹⁸¹Ta 联合提取
+
+- [[davies-hamilton-1967-ta181-482kev-mixing-ratio]] 核读 16 页。保留两种介质原始 \(A_{22},A_{44},k,Q\)，共同衰减的约分条件，以及 476 keV 串扰修正前后两组 \(\delta\)。
+- 累计 49 份、7463 页。续读 Reddingius、Potters 与 Postma 的 1968 年 Nd 俘获谱，Physica 38, 48–66，本地 19 页出版版题页及 SHA 已核。
+
 ## 2026-11-21 — Davies 与 Hamilton 的 γ–γ 极化仪标定
 
 - [[davies-hamilton-1968-gamma-gamma-polarimeter-calibration]] 核读 21 页。同 DOI 一页摘录并列溯源。保留单角度方位扫描的约束、¹⁹²Ir 门串扰、有限接受度及二次散射的设备条件。
