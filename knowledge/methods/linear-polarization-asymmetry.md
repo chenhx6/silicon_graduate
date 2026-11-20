@@ -101,6 +101,8 @@ The special `|P|=1` cases in Jones 2002 require particular alignment and pure tr
 
 `131Xe` 论文明确指出弱连接跃迁的偏振误差较大，因此主要依赖角关联/角分布约束 δ。
 
+[[bvumbi-2008-gd152-dco-polarimetry-thesis]] 的 996 keV \((8^-)\to7^-\) 提供偶极门 \(R_{\rm DCO}=0.63(6)\)、\(A_P=-0.057(4)\) 及借用的 \(Q=0.17\)。可按该 \(Q\) 条件回算偏振；其混合比只作定性判断。三条 \(\sigma/I\) 曲线来自另一示例级联，未建立该线最终采用哪一个取向宽度。见学位 PDF 51、65、74–75。
+
 [[matta-2015-transverse-wobbling-135pr]] 用 INGA clover 得到 747.0、812.8 keV transitions 的正 asymmetry，并以 593.9 keV signature-partner link 的负 asymmetry 作 M1 对照。只有统计足够的 transitions 才报告可靠结果。
 
 [[guo-2022-low-spin-wobbling-187au]] 用 clover 相邻晶体中垂直/平行方向的 Compton scattering，与 `R_ac` 联合约束 376/462 keV links。该文同时强调：偏振通常只利用相邻晶体，统计误差可能很大；选 mixing-ratio branch 时必须使用偏振幅度与可信不确定度，不能只看正负号。

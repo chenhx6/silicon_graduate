@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "bytes:f45dbdad462e5c29a5b80032e41b9be310fa4d061e960d842bcc1e125468f40e",
+  "active_source": "doi:10.13016/s0j8-ba2s",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 32,
+  "completed_full_sources_this_run": 33,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T11:56:09.407735+00:00",
+  "updated_at": "2026-11-20T12:05:45.344887+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 5280,
-  "current_source_note": "knowledge/sources/netshiya-2018-gd152-octupole-quadrupole-thesis.md",
-  "next_action": "Bvumbi 2008: 152Gd original spin–parity thesis and relation to the 2013 PRC.",
+  "completed_primary_pages_this_run": 5370,
+  "current_source_note": "knowledge/sources/bvumbi-2008-gd152-dco-polarimetry-thesis.md",
+  "next_action": "Forney 2018: Ge-78 and adjacent nuclei, crossover limits and competing assignments.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Netshiya 128/129 pages and distinct Bvumbi PRC acquisition comparison checked.",
-  "current_source_scientific_acceptance": "Netshiya completed at scientific/bibliographic scope. Bvumbi thesis identity and SHA verified.",
-  "source_scoped_retrieval": "Bvumbi PRC 87 044333 archived for the Netshiya 152Gd comparison."
+  "last_source_manager_closure": "Bvumbi 90/91 pages, conditional 996-keV P and same-setting PRC comparison checked.",
+  "current_source_scientific_acceptance": "Bvumbi completed at scientific/bibliographic scope. Forney original identity and SHA verified.",
+  "source_scoped_retrieval": "Reused the archived 2013 PRC and 1995 Jones note for evidence comparison."
 }

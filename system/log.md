@@ -6510,3 +6510,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — Netshiya 的 Gd-152 谱学
 
 - 核验 128 页。区分独立的两个反应条件、DCO 和 \(A_P\) 的角色，保留 585 keV 两条支路及 212 keV 原表自旋差异。累计 32 份、5280 页，续读 Bvumbi。
+
+## 2026-11-20 — Bvumbi 的 DCO 与借用 \(Q\)
+
+- 核验 90 页和同条件期刊。996 keV 的 \(A_P/Q\) 可作有条件复算，取向示例、混合判断和实际归属分开记录。累计 33 份、5370 页，续读 Forney。

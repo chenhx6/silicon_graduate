@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Bvumbi 的 ¹⁵²Gd 混合支路
+
+- [[bvumbi-2008-gd152-dco-polarimetry-thesis]] 核完 90/91 页。996 keV 的 \(R_{\rm DCO}\)、\(A_P\) 与借用 \(Q\) 可追溯，正文没有最终数值 \(\delta\)。区分三条取向示意曲线与实际支路条件，保留两版本的靶厚差异和 996 keV 同名线的上下态区别。
+- 整源累计 33 份、5370 页。续读 Anne Marie Forney 2018 的 Ge 博士论文。210 页 Maryland 原件题名和 SHA 已核。
+
 ## 2026-11-20 — Netshiya 的 ¹⁵²Gd 谱表与独立反应
 
 - [[netshiya-2018-gd152-octupole-quadrupole-thesis]] 核完 128/129 页。对照 45 MeV、⁴ⁿ 蒸发道的 Bvumbi 期刊与学位原件的 25 MeV、²ⁿ 采集。按能级和门保留两条 585 keV 线，核对 192/212 keV 的不同证据与原表标签差异。

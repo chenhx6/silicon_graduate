@@ -1,0 +1,45 @@
+{
+  "work_id": "bytes:f45dbdad462e5c29a5b80032e41b9be310fa4d061e960d842bcc1e125468f40e",
+  "source_note": "knowledge/sources/bvumbi-2008-gd152-dco-polarimetry-thesis.md",
+  "auditor": "Codex",
+  "primary_pdf_pages": 91,
+  "primary_scientific_and_bibliographic_pages_covered": 90,
+  "covered_sections": [
+    "PDF 1–3, 5–36: identity, 152Gd literature, structure, angular and polarization formalism",
+    "PDF 37–60: AFRODITE, reaction, calibration, asymmetric matrices, selection and quantitative controls",
+    "PDF 61–86: gated measurements, level assignments, 996-keV mixing and rotating-band contexts",
+    "PDF 87–91: bibliography"
+  ],
+  "excluded_non_scientific_pages": [
+    4
+  ],
+  "scientific_coverage_complete": true,
+  "thesis_archive_manifest": "raw/theses/gpt/query/20261119-international-nuclear-structure/manifest-acquisition-batch1.json",
+  "comparison_archive_manifest": "raw/papers/gpt/query/20261120-netshiya-gd152-octupole-crosswalk/manifest.json",
+  "comparison_coverage": "Bvumbi PRC 87 PDF 3–6 and Netshiya 2018. The 45 MeV 4n target, detector configuration and coincidence count match the 2013 Gd run subject to thickness discrepancy. The 25 MeV 2n experiment is separate.",
+  "key_visual_thesis_pages": [
+    34,
+    51,
+    58,
+    62,
+    65,
+    74,
+    75,
+    85
+  ],
+  "literal_arithmetic_for_996_kev": {
+    "RDCO": 0.63,
+    "RDCO_uncertainty": 0.06,
+    "AP": -0.057,
+    "AP_uncertainty": 0.004,
+    "Q_imported": 0.17,
+    "P_conditional": -0.3352941176470588,
+    "P_uncertainty_conditional_on_exact_Q": 0.023529411764705882
+  },
+  "remaining": [
+    "The 996-keV interpretation is qualitative, with no signed numerical delta or interval. Reference sigma/I curves are for a different cascade. A joint extraction and the Q uncertainty are unestablished.",
+    "The thesis and 2013 publication list 5 and 4 mg/cm2 for the 152Sm target. There is no event ledger here to resolve the difference.",
+    "Keep the negative and positive parity lines at 996 keV distinct, and preserve the difference between the stated baseline and the analysis formula."
+  ],
+  "next_work": "doi:10.13016/s0j8-ba2s"
+}
