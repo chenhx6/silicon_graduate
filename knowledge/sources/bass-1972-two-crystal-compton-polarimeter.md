@@ -3,7 +3,7 @@ type: source
 title: "Bass et al. 1972 - Symmetrical two-crystal Compton polarimeter for gamma rays"
 aliases: [Bass 1972 two-crystal polarimeter]
 created: 2026-09-20
-updated: 2026-10-20
+updated: 2026-11-21
 status: ai-draft
 review_status: unreviewed
 source_type: method-paper
@@ -39,7 +39,7 @@ tags: [Compton-polarimeter, two-crystal, detector-response, polarization]
 
 ## Scope and Reading Depth
 
-- PDF pp.33–43 fully read: symmetric two-crystal principle, threshold/angle acceptance, polarized-source production, NaI and Ge(Li) construction, Tables 1–3, Figs.1–7, coincidence/anticoincidence response and conclusions.
+- PDF 1–11（印刷 33–43 页）：对称双晶体原理、阈值与接受度、极化参考源、NaI/Ge(Li) 结构、表 1–3、图 1–10，以及符合与反符合响应。
 - Not covered: raw spectra, modern Monte Carlo response and later detector implementations.
 
 ## Method Logic and Key Evidence
@@ -48,6 +48,10 @@ tags: [Compton-polarimeter, two-crystal, detector-response, polarization]
 - Equal threshold `E_th` selects an effective Compton-angle range; lower thresholds raise efficiency but change `R`. The paper maps threshold versus accepted scattering angle (Fig.2).
 - NaI tests cover 0.2–4.4 MeV; Ge(Li) tests use 28-cm³ coaxial crystals and thresholds 50–1500 keV. Coincidence operation improves peak-to-Compton and suppresses photoelectric/escape backgrounds.
 - Detector-specific tables report efficiency ratio `N` and polarization sensitivity `R`; values vary strongly with energy and threshold (Tables 2–3), so they are not universal constants.
+
+Ge(Li) 表 3 在 847 keV 给出如下例子。将双晶体阈值从 50 提到 300 keV，符合占比 \(\bar N\) 从 \(10.9(2)\%\) 降为 \(6.83(16)\%\)，分析能力 \(R\) 从 \(21.1(24)\%\) 升至 \(34.5(30)\%\)。表中 \(R\) 的误差只含计数统计，参考 \(P\) 的误差另见表 1。结论段的四晶体方案见图 10，属于设计建议。
+
+[[williams-1975-61ni-low-lying-levels]] §2.3 引用本篇作为双晶体布置的类比，并把实际极化仪设计与标定指向 Rickel 等 *Nuclear Physics A* **232**, 200（1974）。Williams 1975 的原页报告的是其装置的分辨率、方位和采集时间。Bass 的表 3 不提供该次 ⁶¹Ni 线的标定值。
 
 ## Key Results
 

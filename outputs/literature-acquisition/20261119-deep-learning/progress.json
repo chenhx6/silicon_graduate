@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000335",
+  "active_source": "catalogue:LIT-000291",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 63,
+  "completed_full_sources_this_run": 64,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T17:57:55.398022+00:00",
+  "updated_at": "2026-11-20T18:04:33.107445+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 7616,
-  "current_source_note": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
-  "next_action": "Read Bass et al. 1972 Nuclear Instruments and Methods 104 33–43, eleven pages. Contrast instrument configuration with Williams 1975 within cited bounds.",
+  "completed_primary_pages_this_run": 7627,
+  "current_source_note": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+  "next_action": "Read Twin et al. 1970 40Ar(p,n gamma)40K, verify pure E2 and mixed-transition calibration evidence.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Butler 1973: prediction versus measurement in calibration, 33S grid restrictions, and Wadsworth use.",
-  "current_source_scientific_acceptance": "Six publisher pages; prior full audit and current original table, spin grid and dependency checked.",
-  "source_scoped_retrieval": "Locally held publisher PDF. No new download."
+  "last_source_manager_closure": "Bass et al. 1972: raw response, coincidence fraction, detector threshold and Williams citation boundary.",
+  "current_source_scientific_acceptance": "Eleven publisher pages, all apparatus, tests and bibliography, with prior full-source audit used for verified overlap.",
+  "source_scoped_retrieval": "Locally held publisher PDFs. No new download."
 }

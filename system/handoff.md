@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Bass 的对称双晶体极化仪
+
+- [[bass-1972-two-crystal-compton-polarimeter]] 对账 11 页，核实 Ge(Li) 847 keV 的阈值、符合占比和灵敏度，区分四晶体设想和实测。Williams 的实际标定指向另篇 Rickel 等 1974。
+- 累计 64 份、7627 页。续读馆藏 Twin 等的 ⁴⁰K 角分布和极化联解，回核纯 E2 标定与混合跃迁约束。
+
 ## 2026-11-21 — Butler 的 Ge(Li) 标定与自旋选择
 
 - [[butler-1973-three-geli-compton-polarimeter]] 对账 6 页，核对表 1 的预测 \(P\) 与实测 \(A\)，以及 ³³S 的两磁子态搜索。分开 Wadsworth 1977 的引用和仪器原标定条件。

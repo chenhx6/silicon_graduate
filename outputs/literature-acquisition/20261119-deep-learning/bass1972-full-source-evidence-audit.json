@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-20T18:04:33.107445+00:00",
+  "source": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+  "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1972_Bass et al_Symmetrical two-crystal compton polarimeter for gamma rays.pdf",
+  "raw_sha256": "4f6bfed154b9c2dbe60bae672a2a998f3777b31879746ffeff5bd63040d3994d",
+  "primary_pdf_pages": 11,
+  "scientific_and_bibliographic_pages_covered": 11,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–3: detector symmetry, normalization, geometry and calibration methods",
+    "PDF 4–8: actual calibration and threshold tests, tables and NaI/Ge spectra",
+    "PDF 9–11: comparison, merit versus efficiency, proposed design and bibliography"
+  ],
+  "visual_checks": [
+    6,
+    8
+  ],
+  "evidence_gaps": [
+    "R is response specific to thresholds and geometry. Table errors exclude uncertainty in the incident calibration P.",
+    "Williams cites a similar geometry, not the same calibration data. No numerical delta is reported by this detector paper."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

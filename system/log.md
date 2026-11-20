@@ -6646,3 +6646,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Butler 等的三晶体标定与 ³³S
 
 - 核对 6 页，分开标定预测、实测量和自旋判别约束，记录 Wadsworth 的引用范围。累计 63 份、7616 页，续读 Bass 等。
+
+## 2026-11-21 — Bass 等的对称双晶体响应
+
+- 核对 11 页，记录阈值改变的代价与 Williams 的引用范围。累计 64 份、7627 页，续读 Twin 等。
