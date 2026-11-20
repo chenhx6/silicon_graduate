@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-20T16:59:36.687813+00:00",
+  "source": "knowledge/sources/rikovska-1983-irfe-pt192-polarization.md",
+  "raw_file": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1007_BF02159712.pdf",
+  "raw_sha256": "b8ee389f192877efdc6a8a179b7f6f6967edfd7f45491c30994109ea8f6a97e0",
+  "primary_pdf_pages": 2,
+  "scientific_and_bibliographic_pages_covered": 2,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1: oriented source, apparatus and Eqs. 1–3",
+    "PDF 2: Eqs. 4–5 and original Table I, beta feed, 194Pt directional-only branch and bibliography"
+  ],
+  "visual_checks": [
+    1,
+    2
+  ],
+  "evidence_gaps": [
+    "No usable 194Pt polarization. Its ratios come from a separate angular temperature fit.",
+    "Raw polarity and signs of delta should be preserved prior to cross-paper convention mapping.",
+    "The temperature range paragraph prints Pt decay where the experiment and final paragraph identify Ir."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

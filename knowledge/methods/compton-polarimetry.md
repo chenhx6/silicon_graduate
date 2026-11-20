@@ -92,6 +92,8 @@ The analyzing power is a Compton-scattering property and depends on photon energ
 
 [[diddens-1958-co56-oriented-fe56-polarization]] 的 2.02 MeV 线只通过与 1.75 MeV 共用的宽门对偏振符号提供定性约束。重建数据时保留该宽门证据、1.75 MeV 单线 \(P_1\) 以及限制 2.02 MeV 混合比的既有角关联。见原刊表 3、§7.2。
 
+[[rikovska-1983-irfe-pt192-polarization]] 同篇包含两种实验覆盖。¹⁹²Pt 的 296、308、604 keV 有线偏振与两个角分布系数。¹⁹⁴Pt 的线偏振不足，报告的三个混合比由温度依赖角分布和超精细参数推出。见原刊表 1 及表后末段。
+
 ## Detector Implementations
 
 - Clover and segmented HPGe arrays provide compact Compton event selections.

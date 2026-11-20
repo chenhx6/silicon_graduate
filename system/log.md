@@ -6602,3 +6602,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Diddens 等的 ⁵⁶Co 与 ⁵⁶Fe
 
 - 核读 31 页。登记 1.75 MeV 极化、2.02 MeV 宽窗与可行分支。累计 52 份、7522 页，续读 Rikovska 等。
+
+## 2026-11-21 — Rikovska 等的取向 Ir/Fe
+
+- 核读 2 页，区分 ¹⁹²Pt 的极化联解与 ¹⁹⁴Pt 的温度方向分布。累计 53 份、7524 页，续读 Hamilton 与 Davies ¹⁹²Pt 出版版。

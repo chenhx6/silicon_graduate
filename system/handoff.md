@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Rikovska 等的 Ir/Fe 取向与 Pt 极化
+
+- [[rikovska-1983-irfe-pt192-polarization]] 核读 2 页。三条 ¹⁹²Pt 原表混合比保留符号。¹⁹⁴Pt 的三条仅角分布结果分开。
+- 累计 53 份、7524 页。核验 Hamilton 与 Davies 的 ¹⁹²Pt 原文，本地 12 页原件 PII、出版题录和出版商登记 DOI `10.1016/0375-9474(68)90710-0` 一致，旧学习队列和收集来源页将其错记为另一 DOI。续核原文，并按实际符号和输入修订对应条目。
+
 ## 2026-11-21 — Diddens 等的 ⁵⁶Co 取向和 ⁵⁶Fe 混合比
 
 - [[diddens-1958-co56-oriented-fe56-polarization]] 核读 31 页，核实 1.75 MeV 单线极化、2.02 MeV 合窗符号、方向关联与 \(\beta_0\) 的适用范围。PDF 一页题页摘录并入同源。

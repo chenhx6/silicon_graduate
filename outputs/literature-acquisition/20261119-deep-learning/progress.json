@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.1016/0029-5582(58)90009-9",
+  "active_source": "doi:10.1007/bf02159712",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 52,
+  "completed_full_sources_this_run": 53,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T16:53:08.163382+00:00",
+  "updated_at": "2026-11-20T16:59:36.687813+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 7522,
-  "current_source_note": "knowledge/sources/diddens-1958-co56-oriented-fe56-polarization.md",
-  "next_action": "Read Rikovska, Novakova and Ferencei 1983, Hyperfine Interactions 15/16 (1983) 41–42, from the verified two-page publisher PDF.",
+  "completed_primary_pages_this_run": 7524,
+  "current_source_note": "knowledge/sources/rikovska-1983-irfe-pt192-polarization.md",
+  "next_action": "Read the locally held 12-page Hamilton and Davies 1968 Nuclear Physics A122 165–176 (PII and DOI 10.1016/0375-9474(68)90710-0). Correct the legacy queue key and preserve source-native delta signs.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Diddens et al. 1958: oriented Co and Fe, direct and shared-window polarization, large E2 branch under joint constraints.",
-  "current_source_scientific_acceptance": "All 31 publisher pages including bibliography, with original tables, assignments and main decay figure checked.",
-  "source_scoped_retrieval": "Locally held publisher PDF. No new download."
+  "last_source_manager_closure": "Rikovska 1983: original 192Pt Table I and distinct 194Pt angular-only results.",
+  "current_source_scientific_acceptance": "All two publisher pages, with visual confirmation of Table I and its input/output columns.",
+  "source_scoped_retrieval": "Locally held publisher PDF. No new download; publisher DOI deposit checked for the cited 1968 source."
 }
