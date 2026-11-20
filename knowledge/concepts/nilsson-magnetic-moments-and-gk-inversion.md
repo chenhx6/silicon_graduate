@@ -70,17 +70,25 @@ $$\mu(I=K) = \frac{K}{K + 1} \left( g_R + K g_K \right)$$
   $$B(M1; I \to I-1) = \frac{3}{4\pi} (g_K - g_R)^2 K^2 \langle I K 1 0 | I-1 K \rangle^2\text{ [}\mu_N^2\text{]}$$
 - $I \to I-2$ 的集体 $E2$ 约化跃迁几率（内禀四极矩为 $Q_0$）：
   $$B(E2; I \to I-2) = \frac{5}{16\pi} e^2 Q_0^2 \langle I K 2 0 | I-2 K \rangle^2$$
-代入 Clebsch-Gordan 矢算耦合系数后，两者的理论比值为：
-$$\frac{B(M1; I \to I-1)}{B(E2; I \to I-2)} = \frac{12}{5 Q_0^2} (g_K - g_R)^2 \frac{1}{I^2 - 1}\text{ [}\mu_N^2 / (e\cdot\text{b})^2\text{]}$$
+在上述强耦合近似且两支路允许时，令
+$C_1=\langle I K 1 0 | I-1 K \rangle$、
+$C_2=\langle I K 2 0 | I-2 K \rangle$。直接相除得
+$$\frac{B(M1; I \to I-1)}{B(E2; I \to I-2)} =
+\frac{12\mu_N^2}{5 e^2 Q_0^2}(g_K-g_R)^2K^2\frac{|C_1|^2}{|C_2|^2}.$$
+几何因子同时取决于自旋与 $K$，不能用只含 $I$ 的因子替代。
 
 在实验上，光子跃迁强度正比于能量的五次方与三次方：
 $$\frac{B(M1)}{B(E2)} = 0.697 \cdot \frac{E_\gamma^5(I \to I-2)}{E_\gamma^3(I \to I-1)} \cdot \frac{I_\gamma(I \to I-1)}{I_\gamma(I \to I-2)} \cdot \frac{1}{1 + \delta^2}$$
 式中能量以 $\text{MeV}$ 为单位，$\delta$ 为 $I \to I-1$ 跃迁的 $E2/M1$ 混合比（通常极小）。
 
-#### 终极反演方程：
-$$|g_K - g_R| = \sqrt{ \left( \frac{B(M1)}{B(E2)} \right)_{\text{exp}} \cdot \frac{5 Q_0^2 (I^2 - 1)}{12} }$$
-由此从实测峰面积比值直接开方导出 $|g_K - g_R|$！
-将该数值与不同假想 Nilsson 轨道的理论 $g_K$ 对比，不仅能**唯一锁定能带的准粒子组态**，更能通过其正负分支符号直接决定角分布混合比 $\delta$ 的相位！
+强度比可约束 $|g_K-g_R|/|Q_0|$。取绝对值是因为平方对符号反转不敏感。
+要比较候选组态，需要保留采用的 $Q_0$、$g_R$、模型空间和各自的不确定度。
+就 $\delta$ 的符号而言，需要保留对干涉项灵敏的观测及相位约定。
+
+[[chadderton-2025-fm250-conversion-electron-thesis]]（PDF 129–130、139、
+149–153）没有从本次符合谱得到可靠的逐级支路比。作者将两个能窗的净计数比
+和同条件模拟比较，用 $^{254}$No 的入口布居作为输入，分别报告电子谱与 γ 谱的
+$|g_K-g_R|$。这两项共享异能态标签及模拟假设，符号在两类积分谱中均不可辨。
 
 ---
 
@@ -134,6 +142,6 @@ python3 system/scripts/analysis/nuclear_analyzer.py gk \
 
 ### 参考文献与交叉引用
 
-- [[directional-angular-correlation-f-coefficients-and-dco-formalism]]：$M1/E2$ 混合比 $\delta$ 的符号严格由此处 $(g_K - g_R)$ 的符号决定；
+- [[directional-angular-correlation-f-coefficients-and-dco-formalism]]：角关联的干涉项及其相位约定。
 - [[tdpad-hyperfine-precession-and-gfactor-dynamics]]：TDPAD 测量的纳秒态 $g$ 因子在理论上即为此处 $g_K$ 与 $g_R$ 的矢量耦合；
 - [[nilsson-deformed-shell-model-dynamics]]：单核子轨道波函数的渐近量子数直接充当此处 $g_K$ 计算的初态输入。

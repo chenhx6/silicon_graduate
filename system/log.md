@@ -6409,3 +6409,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - 补核 76 页并按正文与书证对账，Gerathy 达到 147/147 页。
 - 记录 1105 keV 态的实测与采用半衰期、6931 keV 级联证据、表格及图注歧义。球形空间内模型匹配与变形芯激发的解释分别保留。
 - 本次累计 15 份原件、3028 个 PDF 页。Gerathy 由 Codex 核读，Gemini 回执仍为故障。移至 Chadderton 的馆藏接续入口。
+
+## 2026-11-20 — Chadderton 题名与转换谱抽查
+
+- 核对 172 页原件身份，以其题名页记 Jamie Chadderton。定向核 23 页，记录分壳转换、净计数窗和磁因子符号歧义，覆盖仍为局部。

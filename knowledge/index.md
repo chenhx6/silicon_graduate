@@ -34,6 +34,7 @@ updated: 2026-11-20
 - [[ley-2025-n50-seniority-lifetime-thesis]] — N=50 快定时寿命、seniority 检验和附印稿版本。
 - [[siciliano-2017-sn106-sn108-rdds-thesis]] — 缺中子锡的 RDDS 寿命、馈入处理和 E2 结构比较。
 - [[gerathy-2020-solenogam-conversion-electron-thesis]] — 分壳内转换、Solenogam 响应和钐-145 能级与寿命证据。
+- [[chadderton-2025-fm250-conversion-electron-thesis]] — 镄-250 分壳模板、低统计计数窗与组态推断。
 - [[hungerford-1979-ill-angular-correlation-164dy]] — U001 章节原件与角关联方法范围。
 - [[madiba-2008-190tl-dco-polarization-thesis]] — 首篇完整正文阅读：190Tl 实验链、门依赖、不对称度与指认边界；形式定义原始出处尚待核对。
 - [[li-2016-algebraic-collective-core-quasiparticle-thesis]] — 软/刚核芯与准粒子耦合、135Pr及109Pd比较、ACM实现与原件公式边界；不新增独立实验。

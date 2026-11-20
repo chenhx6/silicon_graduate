@@ -338,13 +338,13 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T04:47:30.373205+00:00",
+  "updated_at": "2026-11-20T04:57:26.550382+00:00",
   "completed_deep_read_sources_this_run": 0,
   "completed_primary_pages_this_run": 3028,
-  "current_source_note": "knowledge/sources/gerathy-2020-solenogam-conversion-electron-thesis.md",
-  "next_action": "Progress Chadderton thesis via authorized reading and source checks; retain Gemini route failure until access changes.",
+  "current_source_note": "knowledge/sources/chadderton-2025-fm250-conversion-electron-thesis.md",
+  "next_action": "Continue Chadderton at PDF 131–157 using the existing audited results and reconcile other chapters.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
   "last_source_manager_closure": "Gerathy: complete source reading by Codex; separate data, published versions and bibliographic limits retained.",
-  "current_source_scientific_acceptance": "Gerathy 147/147 physical pages reconciled by Codex, no Gemini successes. Chadderton identity and chapter map checked."
+  "current_source_scientific_acceptance": "Chadderton: title-page identity checked. 23 of 172 pages targeted, 149 pending. No claim of completed project or completed source."
 }
