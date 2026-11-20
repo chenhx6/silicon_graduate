@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Griffiths 的 Br/Fe 位点、Se 支路与 Pt 相位测量
+
+- [[griffiths-1989-br-se-pt-nuclear-orientation-thesis]] 核读 226/228 页。对上 1992 期刊中的两场位点模型与 ⁷²ᵐBr 下限表格异文。记录 Se 同母态二阶比的适用条件，以及 Pt 相位实验的能窗稀释。
+- 累计 45 份、7227 页。续读 Michael David Svoren 的 *Band Mixing in Tungsten-184, Osmium-186, and Osmium-188 and the Nuclear Structure of Tungsten-184*（LSU，1974）。201 页含馆藏封面，题页、版本和 SHA 已核。
+
 ## 2026-11-20 — Koh 的碘衰变取向与 Sm/Eu 模型
 
 - [[koh-1994-iodine-xe-sm-eu-nuclear-orientation-thesis]] 核读 185/189 页。记录 \(A_4\) 选支对馈入 \(U_4\) 的依赖、¹³³I 静态与共振超精细场之差，以及 ¹³⁵I 磁矩的两组场假设。较晚 ENSDF 采用值另记。Sm/Eu 的 \(\epsilon_2,\gamma\) 保留为组态和模型条件下的推断。

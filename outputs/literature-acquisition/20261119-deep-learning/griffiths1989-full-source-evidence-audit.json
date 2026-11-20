@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-11-20T15:39:29.313895+00:00",
+  "source": "knowledge/sources/griffiths-1989-br-se-pt-nuclear-orientation-thesis.md",
+  "primary_pdf_pages": 228,
+  "scientific_and_bibliographic_pages_covered": 226,
+  "excluded_pdf_pages": [
+    3,
+    228
+  ],
+  "scope": [
+    "PDF 1–2,4–64: bibliographic identity, nuclear orientation apparatus, conditioning and fits",
+    "PDF 65–118: Br moments and Se daughter anisotropies and assignments",
+    "PDF 119–191: collective models and VMI shape/branch sensitivity",
+    "PDF 192–227: 192Pt phase constraint, assumptions and appendix code"
+  ],
+  "visual_checks": {
+    "thesis": [
+      83,
+      88,
+      172,
+      206,
+      211,
+      212
+    ],
+    "surrey": [
+      7
+    ]
+  },
+  "companion_publication": {
+    "doi": "10.1103/PhysRevC.46.2228",
+    "relationship": "Common integral nuclear orientation experiment; distinct NMR inputs; no additional credit",
+    "version_issue": "Table II adopted column for 72mBr prints >7; text, model columns and doctorate Table 4.6 agree on >0.7 nuclear magnetons."
+  },
+  "conditional_checks": {
+    "604_keV_effective_sensitivity": 0.04796,
+    "sin_eta_plus_phase_central_magnitude": 0.010842368640533777
+  },
+  "reader": "Codex, Surrey scan OCR and visual checks",
+  "PDM_run": false
+}

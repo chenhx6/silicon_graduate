@@ -6570,3 +6570,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — Koh 的碘取向与 Sm/Eu 转子模型
 
 - 核读 185 页，核查四阶项选支、两种磁场提取和模型参数角色。累计 44 份、7001 页，续读 Griffiths。
+
+## 2026-11-20 — Griffiths 的低温取向证据
+
+- 核读 226 页，从 Surrey 归档 Br 对照，核实两场模型和 72mBr 的排印差异。累计 45 份、7227 页，续读 Svoren。
