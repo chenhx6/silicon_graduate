@@ -3,7 +3,7 @@ type: source
 title: "Probing the nature of the conjectured low-spin wobbling bands in atomic nuclei"
 aliases: [Guo 2022 187Au, low-spin wobbling counter-source, probing low-spin wobbling bands]
 created: 2026-07-04
-updated: 2026-10-25
+updated: 2026-11-21
 status: ai-draft
 review_status: human-reviewed
 source_type: journal-article-experiment-and-model
@@ -345,7 +345,11 @@ Rupnik 为 1994 学位论文，不能据此把 1998 期刊论文也标为已取�
 
 接收回执：[20261026 user PDFs](../../outputs/literature-acquisition/20261026-user-pdfs-elsevier-access.json)。
 
-## 2026-11-21 转换原件对照
+## 2026-11-21 取向处理和转换原件对照
+
+主文与补充材料均为 6 页。补充材料第 1 页的 \(R_{\rm ac}=I_\gamma(154^\circ)/I_\gamma(90^\circ)\) 来自两张「指定角度对全角」的同门矩阵，效率分别归一。按本项目表格归为 \(R_{\rm ADO}\)，原名 \(R_{\rm ac}\) 随引用保留。\(P\) 则来自 90° Clover 的康普顿计数和外部 \(Q(E)\) 曲线。
+
+补充材料图 2 每条理论曲线固定一个 \(\sigma/I\)，图示例值包括 0.2 和 0.3。作者采用所有与测量误差矩形相交的曲线来确定最终 \(\delta\) 范围，未把任一示例宽度作为最终输入。原文报告观察量的容许区域，没有给联合概率分布或为该区间指定总体置信水平。此例可描述为扫描取向并合并容许结果。见补充材料 3–4 页。
 
 | ¹⁸⁷Au 线 (keV) | [[rupnik-1994-hg187-au187-decay-thesis]]，表 4.5 | [[bourgeois-1978-au187-decay-conversion]]，表 3 |
 | --- | --- | --- |

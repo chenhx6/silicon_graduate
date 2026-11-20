@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Guo 的 ¹⁸⁷Au 全角门和取向曲线
+
+- [[guo-2022-low-spin-wobbling-187au]] 对账 6 页主文及 6 页 SI，核实 \(R_{\rm ac}\) 对全角的同门矩阵、外部标定 \(Q(E)\) 与扫描固定取向曲线后的 \(\delta\) 容许范围。
+- 累计 76 份、8287 页主件；Guo SI 的 6 页单列，不另算作品或主件页数。续读 Sensharma 2021 年 Notre Dame 博士论文，本地 205 页及 SHA 已核。
+
 ## 2026-11-21 — Sensharma 的 ¹⁸⁷Au 角分布
 
 - [[sensharma-2020-longitudinal-wobbling-187au]] 对账 6 页，订正图 3 两处不对称误差记法，分开原刊角分布、详细资料与历史转换谱。两次 Gammasphere 实验按论文合并的样本计。

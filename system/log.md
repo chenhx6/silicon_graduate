@@ -6694,3 +6694,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Sensharma 等的 ¹⁸⁷Au 角分布
 
 - 核完 6 页，确认两次采集合并、角分布取比和两处图例误差。累计 75 份、8281 页，续读 Guo。
+
+## 2026-11-21 — Guo 等的 ¹⁸⁷Au 全角门与取向扫描
+
+- 对账 6 页正刊和 6 页附件，明确角比、标定和取向曲线的区间定义。累计 76 份、8287 页主件，续读 Sensharma 学位论文。

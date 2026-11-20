@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-11-20T20:03:23.376285+00:00",
+  "source": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+  "raw_file": "raw/papers/2022_Guo et al_Probing the nature of the conjectured low-spin wobbling bands in atomic nuclei3.pdf",
+  "raw_sha256": "de541977e4c8402c905ef8268ebc5707303f4b92f244eb4f59405a70c3473206",
+  "primary_pdf_pages": 6,
+  "scientific_and_bibliographic_pages_covered": 6,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "Main PDF 1–2: publication rationale, data, classification and detector angles",
+    "Main PDF 3–6: delta branches and criticism, competing models and references",
+    "SI PDF 1–4: prompt angle versus all, gating and background, calibrations and conditional envelopes",
+    "SI PDF 4–6: orbital decompositions and evaluation of 183Au uncertainty"
+  ],
+  "visual_checks": [
+    "main 3",
+    "SI 4"
+  ],
+  "supplement": {
+    "path": "raw/papers/2022_Guo et al_Probing the nature of the conjectured low-spin wobbling bands in atomic nuclei supplement.pdf",
+    "sha256": "8525caa69d98e808253e3c790430982451f621a01ce4e7f438ab3fe1d836bcd6",
+    "size": 1292035,
+    "source_role": "official-supplement",
+    "hash_basis": "fresh-hash"
+  },
+  "supplement_pages_covered": 6,
+  "evidence_gaps": [
+    "Fixed-width curves scanned and their admissible intersections combined. The rectangle is not a documented joint confidence distribution.",
+    "The strongly selected 462-keV line has gate-analysis sensitivity. Historical conversion data are independent observables, not new measurements made by Guo.",
+    "The criticism of 183Au is conditional on a background calculation and the source-specific calibration assumptions."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}
