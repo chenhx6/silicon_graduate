@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-11-20T16:53:08.163382+00:00",
+  "source": "knowledge/sources/diddens-1958-co56-oriented-fe56-polarization.md",
+  "raw_file": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0029-5582_58_90009-9.pdf",
+  "raw_sha256": "cd34e9cddf5423c6c6a5445abac3eea3e1a2244f7738baf655502ae0fcd67446",
+  "primary_pdf_pages": 31,
+  "scientific_and_bibliographic_pages_covered": 31,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–7: title, apparatus, line and prior-data summaries, single-spectrum analysis",
+    "PDF 8–14: positon and gamma coincidences, limits and alternative decay scheme",
+    "PDF 15–20: angular distribution and polarization, geometry and thermal normalization",
+    "PDF 21–31: orientation transfer, alternative spin/mixing branches, decay scheme, model and references"
+  ],
+  "visual_checks": [
+    16,
+    20,
+    25,
+    26,
+    27,
+    28
+  ],
+  "duplicate_excerpt": {
+    "path": "raw/papers/gpt/query/20261119-pdm-delta-broad/10.1016_0029-5582_58_90009-9.pdf",
+    "sha256": "bdfb5eb0da69e4540dbb54547f8b284fd697920514900b4475ad119810be6daf",
+    "size": 56434,
+    "hash_basis": "fresh-hash",
+    "source_role": "title-page-excerpt-of-verified-edition"
+  },
+  "evidence_gaps": [
+    "1.75 MeV weak doublet unresolved; 2.02 MeV only has a qualitative shared-window polarization comparison.",
+    "Equal magnetic sublevel spacings are a limited approximation in the 4th rank. beta0 uses the line and temperature conditions, not in-beam sigma/I.",
+    "Table 5 gives representative delta values and cites Mn decay data for two rows; no unified confidence statement."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

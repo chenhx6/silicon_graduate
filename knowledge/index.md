@@ -71,6 +71,7 @@ updated: 2026-11-21
 - [[davies-hamilton-1967-ta181-482kev-mixing-ratio]] — ¹⁸¹Ta 的方向关联与线偏振联解、介质衰减消参和末线串扰。
 - [[reddingius-potters-postma-1968-nd-capture-polarization]] — ¹⁴⁴Nd 864 keV 的偏振标定、取向依赖和 \(\delta\)。
 - [[coleman-1958-mixed-transition-angular-polarization-loci]] — 单混合比的参数轨迹、¹²²Te 偏振选支及 \(A_2,A_4\) 协方差。
+- [[diddens-1958-co56-oriented-fe56-polarization]] — ⁵⁶Fe 1.75/2.02 MeV 的独立与合窗偏振证据、混合比及母态取向。
 - [[hungerford-1979-ill-angular-correlation-164dy]] — U001 章节原件与角关联方法范围。
 - [[madiba-2008-190tl-dco-polarization-thesis]] — 首篇完整正文阅读：190Tl 实验链、门依赖、不对称度与指认边界；形式定义原始出处尚待核对。
 - [[li-2016-algebraic-collective-core-quasiparticle-thesis]] — 软/刚核芯与准粒子耦合、135Pr及109Pd比较、ACM实现与原件公式边界；不新增独立实验。

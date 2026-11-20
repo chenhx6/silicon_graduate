@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Diddens 等的 ⁵⁶Co 取向和 ⁵⁶Fe 混合比
+
+- [[diddens-1958-co56-oriented-fe56-polarization]] 核读 31 页，核实 1.75 MeV 单线极化、2.02 MeV 合窗符号、方向关联与 \(\beta_0\) 的适用范围。PDF 一页题页摘录并入同源。
+- 累计 52 份、7522 页。续读 Rikovska 等 1983 年两页 Ir/Fe 极化原文。
+
 ## 2026-11-21 — Coleman 的角关联曲线与 ¹²²Te 偏振选支
 
 - [[coleman-1958-mixed-transition-angular-polarization-loci]] 核读 9 页，并列同版一页摘录。记录 \(\delta'\) 到 \(\delta\) 的换算、纯线与混合线的选支差异、两条线混合时的多对解及附录的系数协方差。

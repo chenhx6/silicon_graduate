@@ -90,6 +90,8 @@ The analyzing power is a Compton-scattering property and depends on photon energ
 
 [[reddingius-potters-postma-1968-nd-capture-polarization]] 在取向 ¹⁴³Nd 的俘获谱中给 ¹⁴⁴Nd 的 864 keV 线报告了 \(W(0^\circ)-1\) 与 \(P\)。分析保留先行 γ 数对布居的影响，且表 4 的计数比正好是式 1 的倒数。[[coleman-1958-mixed-transition-angular-polarization-loci]] 以 ¹²²Te 举例表明，应把理论轨迹与实验点一起比较，并在读分支时保留混合线或纯线、宇称标尺及方向系数的协方差。见两篇原刊的图 6、图 4 和 Coleman 附录。
 
+[[diddens-1958-co56-oriented-fe56-polarization]] 的 2.02 MeV 线只通过与 1.75 MeV 共用的宽门对偏振符号提供定性约束。重建数据时保留该宽门证据、1.75 MeV 单线 \(P_1\) 以及限制 2.02 MeV 混合比的既有角关联。见原刊表 3、§7.2。
+
 ## Detector Implementations
 
 - Clover and segmented HPGe arrays provide compact Compton event selections.

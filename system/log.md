@@ -6598,3 +6598,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Coleman 的混合比轨迹与协方差
 
 - 核读 9 页，区分 ¹²²Te 的极化选支与文献方向数据，核附录的二阶和四阶系数误差。同版一页摘录不另计。累计 51 份、7491 页，续读 Diddens 等。
+
+## 2026-11-21 — Diddens 等的 ⁵⁶Co 与 ⁵⁶Fe
+
+- 核读 31 页。登记 1.75 MeV 极化、2.02 MeV 宽窗与可行分支。累计 52 份、7522 页，续读 Rikovska 等。
