@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "version": "0.1.1",
+  "package_url": "https://pypi.org/project/multipolePDM/0.1.1/",
+  "code_root": "raw/code/PDM",
+  "handbook": "raw/writing/pado/20261029_review_v1/PDM/main.pdf",
+  "plan": "outputs/plans/20261120-pdm-three-mode-rewrite/plan.md",
+  "acceptance": "delivery/0.1.1/acceptance.json",
+  "source_archive": "delivery/0.1.1/multipolePDM-0.1.1-source.zip",
+  "knowledge_writeback": [
+    "knowledge/sources/multipolepdm-20261120-v011-validation.md",
+    "knowledge/research-notes/pdm-three-mode-execution-contract-20261120.md"
+  ],
+  "raw_originals": "No workbook, legacy experimental input, or literature original modified. Deleted p_ado_v1.0 directory not recreated.",
+  "boundaries": {
+    "scoped_archive_gate": "passed",
+    "diff_check": "passed",
+    "whole_changed_set_archive_gate": "timed out; not claimed passed"
+  },
+  "software_remote": "No independent software Git remote configured; no whole-Wiki software push attempted."
+}

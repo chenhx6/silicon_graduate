@@ -1,0 +1,82 @@
+{
+  "version": "0.1.1",
+  "recorded_at": "2026-11-20T13:25:42.750843+00:00",
+  "stage": "complete; published and verified",
+  "tests": {
+    "full_regression": 225,
+    "independent_review": "all findings closed",
+    "gui_lifecycle_regression": 34,
+    "calibration_and_reference": 36,
+    "deterministic_inversions": 60,
+    "repeated_inversions": 600,
+    "distinct_noise_pairs": 300,
+    "literature_nominal_models": 39,
+    "literature_refinements": 8,
+    "notebooks_from_final_source_archive": 3,
+    "installed_release_gui_modes": [
+      "P_ADO",
+      "P_DCO",
+      "PDCO"
+    ]
+  },
+  "artifacts": {
+    "multipolepdm-0.1.1-py3-none-any.whl": {
+      "sha256": "e63cb6bfc081dacffe751553845ad308edc397207a4a1b75dfe1f6c64cf083eb",
+      "size": 67280
+    },
+    "multipolepdm-0.1.1.tar.gz": {
+      "sha256": "0dd1eeb2b8c3bf744806292ba9c986a5d36c6f87aa2e581004c543f9fa9cf97d",
+      "size": 456592
+    }
+  },
+  "readable_report": "raw/writing/pado/20261029_review_v1/PDM/main.pdf",
+  "report_sha256": "be014e1be95388c8fabb1f4631a0a0390ca6c8f504504964da85a4929af8c43f",
+  "native_windows_macos_tested": false,
+  "scientific_boundary": "PDCO delta=-10 repeated angle coverage ETI0/100 HDI6/100, both generators; not suppressed.",
+  "repository_checks": {
+    "scoped_archive_gate": "passed",
+    "diff_check": "passed",
+    "whole_changed_set_archive_gate": "timed out; not claimed passed"
+  },
+  "publication": {
+    "status": "published-and-public-install-verified",
+    "url": "https://pypi.org/project/multipolePDM/0.1.1/",
+    "artifacts": [
+      {
+        "filename": "multipolepdm-0.1.1-py3-none-any.whl",
+        "sha256": "e63cb6bfc081dacffe751553845ad308edc397207a4a1b75dfe1f6c64cf083eb",
+        "size": 67280,
+        "url": "https://files.pythonhosted.org/packages/aa/5f/8c8420dbdfb00653368576426e41a882b422f6c66b9881c0380870ced648/multipolepdm-0.1.1-py3-none-any.whl",
+        "upload_time_iso_8601": "2026-11-20T13:25:46.280056Z"
+      },
+      {
+        "filename": "multipolepdm-0.1.1.tar.gz",
+        "sha256": "0dd1eeb2b8c3bf744806292ba9c986a5d36c6f87aa2e581004c543f9fa9cf97d",
+        "size": 456592,
+        "url": "https://files.pythonhosted.org/packages/17/8d/5a1edcfd2fe1e3dfbaa220999da06a32db9a1a79a9165896c6bae4d42b7e/multipolepdm-0.1.1.tar.gz",
+        "upload_time_iso_8601": "2026-11-20T13:25:47.942592Z"
+      }
+    ],
+    "public_install_code_modules_matched": 35,
+    "public_install_gui_modes_passed": 3,
+    "rejected_attempt": "First simple-index read still exposed0.1.0; a subsequent fallback GUI smoke was rejected. Only the path-asserted retry is acceptance evidence."
+  },
+  "completed_at": "2026-11-20T13:43:22.895917+00:00",
+  "report_pages": 50,
+  "report_probability_mass": 0.68,
+  "report_figures_manifest_sha256": "fb3cfe3c1367448bec196a265847c8fc63bdf81d2fb744fdd361ffdf9e2ec906",
+  "final_notebook_archive_test": {
+    "archive_sha256": "fc7854a8486649779eb33a8a1f7d6fd6b1d5987c8f8b65811a2eda7f813a78c7",
+    "executed_notebooks": 3,
+    "code_identity": "release-source-extracted/PDM/GUI/src/multipolepdm,0.1.1"
+  },
+  "source_archive": {
+    "archive_sha256": "18212d81552db2a6c50ce2109898c4e15ece1a9109ec756ee5dbae0d42148bf9",
+    "files": 218,
+    "module_and_notebook_files_identical_to_replayed_archive": 38,
+    "all_member_hashes_verified": true,
+    "filename": "multipolePDM-0.1.1-source.zip"
+  },
+  "final_report_sha256": "be014e1be95388c8fabb1f4631a0a0390ca6c8f504504964da85a4929af8c43f",
+  "finalized_at": "2026-11-20T13:50:08.089829+00:00"
+}

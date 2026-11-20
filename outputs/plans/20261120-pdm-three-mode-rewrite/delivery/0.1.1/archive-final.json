@@ -1,0 +1,12 @@
+{
+  "checked_manifests": [
+    "/workspace/wiki/raw/code/PDM/analysis/validation_v0_1_1/manifest.json"
+  ],
+  "checked_sources": [
+    "/workspace/wiki/knowledge/sources/multipolepdm-20261120-v011-validation.md"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "ok": true,
+  "scope": "paths"
+}

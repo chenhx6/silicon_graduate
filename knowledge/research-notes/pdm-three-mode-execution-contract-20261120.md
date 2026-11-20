@@ -16,7 +16,7 @@ tags: [pdm, validation, pdco, polarization, benchmark-design, python-packaging]
 
 ## Research Trigger
 
-用户要求从零实现PDM核心及三个响应模块、友好GUI和Notebook；提供四联图、ETI/HDI、独立测试、真实核素案例和Python图文报告，并优先经PyPI发布。0.1.0已完成并发布；用户现已授权实际研究不对称误差、网格/参数和加权几何，并更新秘书报告；GUI整体改造和新版本发布仍单独跟踪。旧完成goal不代表新任务完成。规格位于 `outputs/plans/20261120-pdm-three-mode-rewrite/plan.md`，任务状态仅由同目录 `tasks.json` 维护。
+用户要求从零实现PDM核心及三个响应模块、友好GUI和Notebook；提供四联图、ETI/HDI、独立测试、真实核素案例和Python图文报告，并优先经PyPI发布。0.1.0已完成并发布；E01--E03研究及U00--U09正式改造均已完成；multipolePDM0.1.1已发布，公开安装与三模式GUI回读通过。执行验收与限制见 [[multipolepdm-20261120-v011-validation]]。旧完成goal不代表新任务完成。规格位于 `outputs/plans/20261120-pdm-three-mode-rewrite/plan.md`，任务状态仅由同目录 `tasks.json` 维护。
 
 ## Grounded Evidence
 
@@ -68,7 +68,7 @@ JSON示例随wheel提供，位于包资源examples目录：example.json为P_ADO�
 
 ## Assumptions
 
-- 旧0.1.0实施授权已经执行完毕；本轮E01--E03隔离研究与报告获授权；不等于授权将研究原型直接发布为新GUI。新发布仍须完整验收。
+- 旧0.1.0实施授权已经执行完毕；本轮E01--E03隔离研究已完成，U00--U09正式程序改造已获用户授权；新发布仍须完整验收。
 - 上游共同Gaussian和已给路径参数保持二维反演；不能因都叫sigma就忽略参考态身份。
 - 全域图不能静默裁去有效响应点；渲染优化不改变原网格统计和完整覆盖，概率测度必须保留。
 - PyPI token仅在实际发布进程中读取与传入，不写文档/源码/日志；0.1.0已通过真实PyPI上传与公开元数据哈希回读；没有记录token值。
@@ -90,7 +90,7 @@ JSON示例随wheel提供，位于包资源examples目录：example.json为P_ADO�
 
 ## Geometry and Numerical-Setting Audit
 
-已有只读核查之后，本轮又完成实际隔离研究；新原始数据与结果见 [[pdm-20261120-error-geometry-grid-study]]。已发布核心未改。来源定位：`raw/code/PDM/analysis/benchmarks/synthetic_benchmarks.json` 的settings/convergence；`analysis/cases/point_angle_ado_jobs.json`、`point_angle_dco_scenarios.json`及followup各job；`GUI/src/multipolepdm/pdm/observations.py`、mapping.py、statistics.py、models/registry.py、contracts.py。
+已有只读核查之后，本轮又完成实际隔离研究；新原始数据与结果见 [[pdm-20261120-error-geometry-grid-study]]。这些研究使用0.1.0基线；正式改造已启动，新增功能的验收须另看当前账本。来源定位：`raw/code/PDM/analysis/benchmarks/synthetic_benchmarks.json` 的settings/convergence；`analysis/cases/point_angle_ado_jobs.json`、`point_angle_dco_scenarios.json`及followup各job；`GUI/src/multipolepdm/pdm/observations.py`、mapping.py、statistics.py、models/registry.py、contracts.py。
 
 - 已完成旧合成矩阵是目标3->2、E2门2->0，比值90/38deg，P81deg，DCO方位18deg；PDCO偏振门47deg、目标/门方位13/61deg。新主矩阵采用5->4->2、125/90deg、P90deg和phi强度平均；本轮已跑9个寻优与6个留出工况，正式30工况尚未全部执行，不能混用描述。
 - 0.1.0的135Pr145.6/90deg只是代表角近似。用户提供的原程序实际为[2W157.6+W133.6]/[3W75.5]，P角75.5deg；本轮54点振幅核对照已复算到约1e-14，不能用平均角替代。185Au保留两个顺序假设，164Yb是理想环模型。所有几何假设都不能通过调成更接近文献或注入值来“优化”。详细来源与边界见 [[multipolepdm-20261120-empirical-validation]]。
@@ -133,8 +133,16 @@ JSON示例随wheel提供，位于包资源examples目录：example.json为P_ADO�
 
 ## Human Review
 
-用户曾批准0.1.0自动实施并授权代理协作；当前已明确授权E01--E03研究与报告；不能沿用0.1.0的完成状态认定新增GUI功能已完成。执行授权不是人工逐条核验科学结论。multipolePDM 0.1.0已发布到PyPI；这是软件交付，不代表用户逐条审核科学结论。
+用户曾批准0.1.0自动实施并授权代理协作；当前已明确授权E01--E03研究与报告及U00--U09正式改造；不能沿用0.1.0的完成状态认定新增GUI功能已完成。执行授权不是人工逐条核验科学结论。multipolePDM 0.1.0已发布到PyPI；这是软件交付，不代表用户逐条审核科学结论。
 
 ## Promotion or Rejection History
 
 2026-11-20：保留当前完整执行合同。计划状态由tasks.json追踪，本页不追加对话式修改流水，也不把候选盘点当已完成研究。
+
+## 正式实现的观测误差策略
+
+依据 [[pdm-20261120-error-geometry-grid-study]] 的E01对照，正式实现保留显式的中位数分侧高斯变换：输入中心是中位数、左右误差端点按正态Phi(-1)/Phi(1)解释，各侧质量1/2，对称时还原Gaussian，不对称时中心密度跳跃如实说明。输出ETI/HDI仍使用精确68%，不把输入一标准差的68.2689%混同输出68%。不自动拟合skew-normal再静默回退成中心为众数的split-normal；若实验误差另有似然或分位定义，需声明模型再作敏感性比较。研究中平滑替代族未获得真值层面的优越性证据，不能仅因曲线光滑而更换默认误差语义。这是有条件的建模约定，不是对原实验误差条含义的重新认证。
+
+## 正式实现的验证证据
+
+[[multipolepdm-20261120-v011-validation]] 保存0.1.1分组响应、角空间逐段HDI、正负及大混合比注入、纯E2解析检查和39项文献声明模型的实际结果。60条确定性记录与600次重复反演已执行；两个生成器共用300个独立噪声对，不能计为600个独立实验。大混合比PDCO的低包含率保留为明确方法边界，不因前向一致、单位测试或网格收敛而消失。程序交互修复、制品安装及发布已分别验收：225项完整回归通过，独立审查发现的问题关闭，公开包与源码哈希一致。Windows/macOS原生GUI仍未测，不把科学数值运行完毕等同于所有平台行为正确。

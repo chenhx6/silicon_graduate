@@ -1,0 +1,22 @@
+{
+  "version": "0.1.1",
+  "metadata_url": "https://pypi.org/pypi/multipolePDM/0.1.1/json",
+  "retrieved_at": "2026-11-20T13:27:20.057949+00:00",
+  "all_public_artifact_hashes_match": true,
+  "artifacts": [
+    {
+      "filename": "multipolepdm-0.1.1-py3-none-any.whl",
+      "sha256": "e63cb6bfc081dacffe751553845ad308edc397207a4a1b75dfe1f6c64cf083eb",
+      "size": 67280,
+      "url": "https://files.pythonhosted.org/packages/aa/5f/8c8420dbdfb00653368576426e41a882b422f6c66b9881c0380870ced648/multipolepdm-0.1.1-py3-none-any.whl",
+      "upload_time_iso_8601": "2026-11-20T13:25:46.280056Z"
+    },
+    {
+      "filename": "multipolepdm-0.1.1.tar.gz",
+      "sha256": "0dd1eeb2b8c3bf744806292ba9c986a5d36c6f87aa2e581004c543f9fa9cf97d",
+      "size": 456592,
+      "url": "https://files.pythonhosted.org/packages/17/8d/5a1edcfd2fe1e3dfbaa220999da06a32db9a1a79a9165896c6bae4d42b7e/multipolepdm-0.1.1.tar.gz",
+      "upload_time_iso_8601": "2026-11-20T13:25:47.942592Z"
+    }
+  ]
+}

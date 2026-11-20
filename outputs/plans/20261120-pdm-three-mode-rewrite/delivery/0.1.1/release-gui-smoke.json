@@ -1,0 +1,31 @@
+{
+  "kind": "real Qt packaged smoke test",
+  "system": "Linux",
+  "platform_plugin": "offscreen",
+  "native_windows_macos_tested": false,
+  "status": "passed",
+  "cases": [
+    {
+      "mode": "P_ADO",
+      "status": "saved",
+      "directory": "/workspace/wiki/tmp/pdm-upgrade-011/release-gui-smoke-dcaabbca/data/20261120T131854-Synthetic-P_ADO-delta-0.5-sigma-I-0.3-2eb0dbe047",
+      "four_panels": true,
+      "manual_editor_enabled": true
+    },
+    {
+      "mode": "P_DCO",
+      "status": "saved",
+      "directory": "/workspace/wiki/tmp/pdm-upgrade-011/release-gui-smoke-dcaabbca/data/20261120T131901-Synthetic-P_DCO-delta-0.5-sigma-I-0.3-8200043d95",
+      "four_panels": true,
+      "manual_editor_enabled": true
+    },
+    {
+      "mode": "PDCO",
+      "status": "saved",
+      "directory": "/workspace/wiki/tmp/pdm-upgrade-011/release-gui-smoke-dcaabbca/data/20261120T131905-Synthetic-PDCO-delta-0.5-sigma-I-0.3-dfabb22500",
+      "four_panels": true,
+      "manual_editor_enabled": true
+    }
+  ],
+  "artifacts": "/workspace/wiki/tmp/pdm-upgrade-011/release-gui-smoke-dcaabbca"
+}

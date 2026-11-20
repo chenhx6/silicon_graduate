@@ -1,0 +1,14 @@
+[
+  {
+    "batch": "main",
+    "cases": 15,
+    "max_numeric_change": 6.394884621840902e-14,
+    "all_recorded_source_hashes_current": true
+  },
+  {
+    "batch": "followup",
+    "cases": 24,
+    "max_numeric_change": 7.682743330406083e-14,
+    "all_recorded_source_hashes_current": true
+  }
+]

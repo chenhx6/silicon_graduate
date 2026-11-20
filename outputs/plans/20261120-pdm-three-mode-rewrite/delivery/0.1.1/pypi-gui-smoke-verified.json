@@ -1,0 +1,31 @@
+{
+  "kind": "real Qt packaged smoke test",
+  "system": "Linux",
+  "platform_plugin": "offscreen",
+  "native_windows_macos_tested": false,
+  "status": "passed",
+  "cases": [
+    {
+      "mode": "P_ADO",
+      "status": "saved",
+      "directory": "/workspace/wiki/tmp/pdm-upgrade-011/pypi-gui-smoke-verified-3dfe725d/data/20261120T133006-Synthetic-P_ADO-delta-0.5-sigma-I-0.3-27d522c95a",
+      "four_panels": true,
+      "manual_editor_enabled": true
+    },
+    {
+      "mode": "P_DCO",
+      "status": "saved",
+      "directory": "/workspace/wiki/tmp/pdm-upgrade-011/pypi-gui-smoke-verified-3dfe725d/data/20261120T133011-Synthetic-P_DCO-delta-0.5-sigma-I-0.3-5b0ef2bd79",
+      "four_panels": true,
+      "manual_editor_enabled": true
+    },
+    {
+      "mode": "PDCO",
+      "status": "saved",
+      "directory": "/workspace/wiki/tmp/pdm-upgrade-011/pypi-gui-smoke-verified-3dfe725d/data/20261120T133015-Synthetic-PDCO-delta-0.5-sigma-I-0.3-1dbadedb9d",
+      "four_panels": true,
+      "manual_editor_enabled": true
+    }
+  ],
+  "artifacts": "/workspace/wiki/tmp/pdm-upgrade-011/pypi-gui-smoke-verified-3dfe725d"
+}

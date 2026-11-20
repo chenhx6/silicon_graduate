@@ -1,11 +1,11 @@
 {
   "schema": "pdm-optimization-plan-v2",
   "updated": "2026-11-20",
-  "state": "research_completed_implementation_pending",
-  "implementation_authorized": false,
-  "approval_required": true,
-  "goal_created": false,
-  "goal_id": null,
+  "state": "completed",
+  "implementation_authorized": true,
+  "approval_required": false,
+  "goal_created": true,
+  "goal_id": "01a19d0f-61f7-72d0-998c-9fc0aaecbd00",
   "baseline_release": {
     "version": "0.1.0",
     "completed_goal_id": "01a19d0f-61f7-72d0-998c-9fc0aaecbd00",
@@ -15,7 +15,7 @@
   },
   "objective": "保留三模式PDM核，在已完成E01-E03研究基础上实现多探测器组/权重/phi选择、min/max/step网格、角空间逐HDI段mode及tan报告、全域viridis四联图和数值、文献对照与完整注入图表、易用教程，完成新版本回归和交付。",
   "plan_file": "outputs/plans/20261120-pdm-three-mode-rewrite/plan.md",
-  "plan_sha256": "d1835ca7f1370ae20bb848979b3b27af96d00a7a6159c733410b75856a50840a",
+  "plan_sha256": "31a93d31a0e2458ded34330f326142f494f6f7a776c591c6523684901f2c903a",
   "readable_pdf": "outputs/plans/20261120-pdm-three-mode-rewrite/plan.pdf",
   "code_root": "raw/code/PDM",
   "handbook": "raw/writing/pado/20261029_review_v1/PDM/main.tex",
@@ -189,13 +189,19 @@
       "id": "U00",
       "title": "冻结本轮输入和基线",
       "depends_on": [],
-      "status": "pending",
+      "status": "completed",
       "specification": "### U00：冻结本轮输入和基线\n\n- 依赖：用户批准整体改造；E01--E03证据已核对，标题与逐段mode定义固定。\n- 文件：tasks.json；本轮tmp运行目录的baseline.json和输入清单；不改0.1.0 delivery回执。\n- 工作：读取本计划第2节与秘书标签，核对当前代码/发布版本及旧结果；冻结30工况、研究后选定的误差策略、探测器组/phi规则、独立/同核标记和旧文献输入哈希。\n- 验收：不恢复已删目录、不重建物理核、不读取发布密钥；新账本与新goal关联，旧完成状态不继承。\n- 验证：导入核心并记录版本；逐项比对例文件自旋和几何；执行现有physics/responses/reference桥接测试。",
-      "evidence": [],
-      "commands_run": [],
+      "evidence": [
+        "tmp/pdm-upgrade-011/baseline-files.json",
+        "tmp/pdm-upgrade-011/baseline-tests.log",
+        "tmp/pdm-upgrade-011/frozen-policy.json"
+      ],
+      "commands_run": [
+        "QT_QPA_PLATFORM=offscreen python -m pytest tests -q (GUI, 153 passed)"
+      ],
       "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "Await user approval of this plan; do not start implementation."
+      "next_action": "Complete; see final acceptance and scoped limitations."
     },
     {
       "id": "U01",
@@ -203,13 +209,16 @@
       "depends_on": [
         "U00"
       ],
-      "status": "pending",
+      "status": "completed",
       "specification": "### U01：角空间统计及tan报告\n\n- 依赖：U00。\n- 文件：contracts.py、pdm/statistics.py、pdm/observations.py及必要的独立观测PDF模块、io/export.py及统计测试；误差模型的最终默认依据E01报告确定并显式记录。\n- 测试：构造归一三角/双峰PDF，验证q16/50/84、mean/std、逐HDI区间mode、HDI阈值与分段；双峰被分成两段时必须返回两个各在本段内的mode，不能复制全局峰；对所有端点/中心逐项tan，证明没有改为对delta重新求HDI；近边界均值/并列峰处理。\n- 验收：68%面积和归一误差<=1e-6，取向变换守恒；默认输出三评估、正确坐标元数据；Mean±SD不标68%概率保证。\n- 命令：GUI目录 `python -m pytest tests/test_statistics.py tests/test_mapping.py tests/test_export_measures.py -q`。",
-      "evidence": [],
+      "evidence": [
+        "tmp/pdm-upgrade-011/statistics/stats-worker.md",
+        "tmp/pdm-upgrade-011/statistics/targeted-final.log"
+      ],
       "commands_run": [],
       "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "Await user approval of this plan; do not start implementation."
+      "next_action": "Complete; see final acceptance and scoped limitations."
     },
     {
       "id": "U02",
@@ -217,13 +226,16 @@
       "depends_on": [
         "U01"
       ],
-      "status": "pending",
+      "status": "completed",
       "specification": "### U02：四联图与完整响应域\n\n- 依赖：U01。\n- 文件：plotting四模块和test_plotting.py。\n- 测试：造远离观测点的有效响应点，断言仍在绘图区且进入绘图数据；折叠点不连成假曲面；角刻度、viridis、六条竖线、阈值线、HDI面积及图中文字与摘要一致。\n- 验收：C/D图例仅一组68%ETI(16%,50%,84%)、一组Mean±SD，灰线默认常显；无Median独立图例和无量纲/ref赘词；单图导出带三评估数值。\n- 命令：GUI目录 `python -m pytest tests/test_plotting.py -q`；实际渲染后面板/字体/碰撞与视觉检查。",
-      "evidence": [],
+      "evidence": [
+        "tmp/pdm-upgrade-011/statistics/stats-worker.md",
+        "tmp/pdm-upgrade-011/statistics/targeted-final.log"
+      ],
       "commands_run": [],
       "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "Await user approval of this plan; do not start implementation."
+      "next_action": "Complete; see final acceptance and scoped limitations."
     },
     {
       "id": "U03",
@@ -231,13 +243,17 @@
       "depends_on": [
         "U02"
       ],
-      "status": "pending",
+      "status": "completed",
       "specification": "### U03：GUI、输出与异步回归\n\n- 依赖：U02。\n- 文件：gui/window.py、gui/results.py、contracts.py、模式config、组强度组装、必要的导出与GUI测试；保留三模式物理定义。\n- 工作：实现第2.6节多组(theta,phi,weight)编辑器与方位选择、第3.1节min/max/step和单位选择；为统计文字分配空间；保存/重开保持相同数值，几何/网格原样往返JSON。\n- 验收：三模式真实计算，C/D数值可读；慢盘期间第二任务可提交/计算、单图可保存；PDF与JSON字段一致，无跨任务覆盖。\n- 命令：GUI目录 `QT_QPA_PLATFORM=offscreen python -m pytest tests/test_gui.py tests/test_app_regressions.py tests/test_jobs.py tests/test_io.py -q`；需要时Xvfb复验布局。",
-      "evidence": [],
+      "evidence": [
+        "tmp/pdm-upgrade-011/gui-final-repair-worker.md",
+        "tmp/pdm-upgrade-011/full-regression-release.log",
+        "tmp/pdm-upgrade-011/independent-review.md"
+      ],
       "commands_run": [],
       "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "Await user approval of this plan; do not start implementation."
+      "next_action": "Complete; see final acceptance and scoped limitations."
     },
     {
       "id": "U04",
@@ -246,13 +262,17 @@
         "U01",
         "U03"
       ],
-      "status": "pending",
+      "status": "completed",
       "specification": "### U04：指定注入矩阵与缺失校准\n\n- 依赖：U01、U03的组响应接口；可与U05分目录并行。\n- 文件：analysis/scripts/run_benchmarks.py、新工况数据；physics/reference相关测试只增加校准断言。\n- 验收：30独立+30同核主记录，sigma/I全为0.3、误差策略有文献依据且不产生近零P假精度、两类R按冻结基线；3工况重复观测；公式(6)直接断言；纯E2可混合端点与禁M1纯项分开；全量记录含不符、分支与边界。\n- 命令：analysis目录 `python scripts/run_benchmarks.py --suite synthetic --check-xi-bounds --output benchmarks/sigma03_relP80_relR10`；执行前给runner增加并冻结本节默认/显式配置，使该命令确实跑新矩阵而非旧误差。保存完整配置与运行日志。",
-      "evidence": [],
+      "evidence": [
+        "tmp/pdm-upgrade-011/benchmark/benchmark-worker.md",
+        "raw/code/PDM/analysis/benchmarks/sigma03_relP80_relR10/provenance.json",
+        "tmp/pdm-upgrade-011/benchmark/final-symmetry-comparison.log"
+      ],
       "commands_run": [],
       "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "Await user approval of this plan; do not start implementation."
+      "next_action": "Complete; see final acceptance and scoped limitations."
     },
     {
       "id": "U05",
@@ -262,13 +282,17 @@
         "U03",
         "E03"
       ],
-      "status": "pending",
+      "status": "completed",
       "specification": "### U05：图6与文献比较\n\n- 依赖：U01、U03、E03；与U04可并行。\n- 文件：文献runner、案例结果新版本、秘书figures/generate_figures.py。\n- 验收：A/C用delta；四图含图例及文献点；C/D自旋offset真实可查；HDI每段使用本段角mode及本段端点tan，ETI用角q50及端点tan；文献错误类型、固定sigma/I和缺值分开。\n- 命令：analysis目录分别执行 `python scripts/run_literature_cases.py --input cases/grouped_geometry_v0_1_1 --output cases/results_v0_1_1 --project-root ..` 和 `python scripts/run_followup_cases.py --input cases/followup/grouped_geometry_v0_1_1 --output cases/followup/results_v0_1_1`；执行前生成有来源的新几何快照并适配runner，不覆盖旧JSON。核对原始观测数值及原件哈希不变，不能要求新几何JSON保持旧几何的哈希。",
-      "evidence": [],
+      "evidence": [
+        "tmp/pdm-upgrade-011/literature/literature-worker.md",
+        "raw/code/PDM/analysis/cases/results_v0_1_1/results.json",
+        "raw/code/PDM/analysis/cases/followup/results_v0_1_1/results.json"
+      ],
       "commands_run": [],
       "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "Await user approval of this plan; do not start implementation."
+      "next_action": "Complete; see final acceptance and scoped limitations."
     },
     {
       "id": "U06",
@@ -278,13 +302,16 @@
         "U04",
         "U05"
       ],
-      "status": "pending",
+      "status": "completed",
       "specification": "### U06：Notebook与使用教程\n\n- 依赖：U03、U04；图6部分依赖U05。\n- 文件：根README、GUI/README、analysis/README、包内例文件说明、三个Notebook及小输出示例。\n- 验收：无需原Wiki即可安装核心、打开下载的Notebook、运行示例/换输入；说明analysis extra只安装依赖、不下载Notebook；按一条示例从填写到解读三评估；真实GUI截图与参数一致。\n- 命令：对三个Notebook执行 `jupyter nbconvert --to notebook --execute --inplace`，从源码包临时解压目录再次运行；Notebook名以实际 `02_benchmarks_and_comparisons.ipynb` 为准。",
-      "evidence": [],
+      "evidence": [
+        "tmp/pdm-upgrade-011/docs/docs-worker.md",
+        "tmp/pdm-upgrade-011/docs/archive-replay.IvnGHW/kernel-imports.jsonl"
+      ],
       "commands_run": [],
       "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "Await user approval of this plan; do not start implementation."
+      "next_action": "Complete; see final acceptance and scoped limitations."
     },
     {
       "id": "U07",
@@ -294,13 +321,16 @@
         "U05",
         "U06"
       ],
-      "status": "pending",
+      "status": "completed",
       "specification": "### U07：秘书报告与数据图表\n\n- 依赖：U04、U05、U06。\n- 文件：PDM/main.tex、figures下Python脚本及数据清单、唯一main.pdf。\n- 验收：68%主口径一致、图6四图、真值/恢复值图和全部30条主表、正式“不对称误差的处理方案”章节与网格研究、明确旧/新误差配置；将“均待执行”等旧句在原处更新，公式理论值与运行值分开；每项结论有数据locator。\n- 命令：运行figures/generate_figures.py；XeLaTeX两遍、临时文件进tmp；逐页核对公式、引用、溢出与图例/数值。",
-      "evidence": [],
+      "evidence": [
+        "tmp/pdm-upgrade-011/report-worker.md",
+        "raw/writing/pado/20261029_review_v1/PDM/figures/manifest.json"
+      ],
       "commands_run": [],
       "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "Await user approval of this plan; do not start implementation."
+      "next_action": "Complete; see final acceptance and scoped limitations."
     },
     {
       "id": "U08",
@@ -312,13 +342,15 @@
         "U06",
         "U07"
       ],
-      "status": "pending",
+      "status": "completed",
       "specification": "### U08：整体回归与发布候选\n\n- 依赖：U03--U07。\n- 验收：全测试通过、全域图/默认线条不破坏队列，真实制品构建/安装/三模式GUI、Notebook回读通过；公开包无密钥、私人工作簿或无许可原件。报告/源码/图/结果manifest匹配当前版本。\n- 命令：GUI目录全pytest（offscreen）、`python -m build --no-isolation`、`python -m twine check --strict`；临时安装wheel再运行 `pdm-gui --self-test --report ...`；测计算/绘图/紧凑与CSV保存时间及内存，不用旧性能数代替；执行第6.5节数值阈值审计，保存阈值改变前后的结果和参数采用理由。",
-      "evidence": [],
+      "evidence": [
+        "delivery/0.1.1/acceptance.json"
+      ],
       "commands_run": [],
       "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "Await user approval of this plan; do not start implementation."
+      "next_action": "Complete; see final acceptance and scoped limitations."
     },
     {
       "id": "U09",
@@ -326,33 +358,30 @@
       "depends_on": [
         "U08"
       ],
-      "status": "pending",
+      "status": "completed",
       "specification": "### U09：发布、归档和逐项总验收\n\n- 依赖：U08，当前计划的执行授权已取得。\n- 工作：新版本发布到PyPI并从公开索引安装回读；整套源码含analysis打包；有指定独立远端才推送软件，不把Wiki当软件仓库。维护相同main.pdf、plan和tasks。\n- 验收：所有本轮任务有真实证据及失败/未测边界；知识回写、归档门、定向diff/凭据检查通过；新goal只能在全部必需项完成后关闭。旧0.1.0凭据成功/测试153项不能替代新版本验收。\n- 命令：发布脚本只在此步读取本地密钥，通过进程环境传入；公开PyPI元数据SHA和实际安装检查；来源归档门与发布门按本轮精确文件范围运行。",
-      "evidence": [],
+      "evidence": [
+        "delivery/0.1.1/acceptance.json",
+        "delivery/0.1.1/source-verification.json",
+        "raw/code/PDM/analysis/validation_v0_1_1/publication/verification.json"
+      ],
       "commands_run": [],
       "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "Await user approval of this plan; do not start implementation."
+      "next_action": "Complete; see final acceptance and scoped limitations."
     }
   ],
   "completion_rule": "E01-E03 require actual fresh research/report evidence. Their completion is not U00-U09 completion. Historical0.1.0 acceptance stays in delivery; new GUI implementation remains separate.",
   "current_turn_scope": [
-    "isolated research scripts/results",
-    "secretary report and Python data figures",
-    "plan/ledger/knowledge"
+    "production implementation U00-U09",
+    "tests and analysis",
+    "secretary report and knowledge",
+    "release only after U08 passes"
   ],
   "forbidden_this_turn": [
-    "changing released GUI/core without integrated implementation",
-    "PyPI publication",
     "modifying original workbook or literature",
-    "reading release credentials"
+    "release before acceptance"
   ],
-  "grid_baseline": {
-    "xi_min_rad": -1.56,
-    "xi_max_rad": 1.56,
-    "xi_points": 3121,
-    "sigma_points": 201
-  },
   "numeric_parameter_audit": {
     "warning_J": 1e-12,
     "sigma_eps_multipliers": [
@@ -370,7 +399,7 @@
   },
   "scoped_research_authorized": true,
   "report_update_authorized": true,
-  "release_authorized": false,
+  "release_authorized": true,
   "geometry_groups": {
     "enabled_in_plan": true,
     "default_phi_selection": false,
@@ -446,5 +475,100 @@
       "effort": "high",
       "status": "completed-integrated-closed"
     }
+  ],
+  "status": "completed",
+  "goal_created_at": "2026-11-20T12:08:39+00:00",
+  "implementation_workers": [
+    {
+      "id": "01a1f8dc-4a50-7a13-8c8e-d2b46cb1a426",
+      "domain": "statistics and plotting",
+      "status": "completed-integrated-closed"
+    },
+    {
+      "id": "01a1f8dc-4c13-7a82-a301-cc98ce4fe131",
+      "domain": "detector groups physics",
+      "status": "completed-integrated-closed"
+    },
+    {
+      "id": "01a1f8df-514e-78a3-a4ff-1111b49321ac",
+      "domain": "U04 benchmarks",
+      "status": "completed-integrated-closed"
+    },
+    {
+      "id": "01a1f8e0-66a0-7f61-98e5-a12d14c51abe",
+      "domain": "U05 literature",
+      "status": "completed-integrated-closed"
+    },
+    {
+      "id": "01a1f8e2-d1cb-7df3-bf2f-c290ea44f6ac",
+      "domain": "U06 docs notebooks",
+      "status": "completed-integrated-closed"
+    },
+    {
+      "id": "01a1f8ea-b7f1-7303-b8b1-91b90ce3a574",
+      "domain": "U07 report figures",
+      "status": "completed-integrated-closed"
+    }
+  ],
+  "implementation_run_root": "tmp/pdm-upgrade-011",
+  "scratch_note": "tmp/pdm-implementation contains historical0.1.0 evidence; only explicitly dated current logs apply. New upgrade receipts use tmp/pdm-upgrade-011.",
+  "historical_grid_baseline_0_1_0": {
+    "xi_min_rad": -1.56,
+    "xi_max_rad": 1.56,
+    "xi_points": 3121,
+    "sigma_points": 201
+  },
+  "active_grid_baseline": {
+    "xi_min_deg": -89.9,
+    "xi_max_deg": 89.9,
+    "xi_step_deg": 0.1,
+    "sigma_over_i_step": 0.005,
+    "sigma_min": "0.15 integer /0.20 halfinteger",
+    "sigma_max": "reference spin I",
+    "points": "derived from steps and final cell;1799angle points"
+  },
+  "independent_review": {
+    "evidence": "tmp/pdm-upgrade-011/independent-review.md",
+    "issues": [
+      {
+        "id": "R1",
+        "issue": "Complementary point detector groups must not form PDF from roundoff",
+        "status": "resolved; regression and independent follow-up verified"
+      },
+      {
+        "id": "R2",
+        "issue": "Single-figure export lock may block ready-preview on Qt thread",
+        "status": "resolved; regression and independent follow-up verified"
+      },
+      {
+        "id": "R3",
+        "issue": "PDCO manual mode needs separate ratio and P-gate azimuth choices",
+        "status": "resolved; regression and independent follow-up verified"
+      },
+      {
+        "id": "R4",
+        "issue": "Width unit conversion may silently clamp tiny valid settings",
+        "status": "resolved; regression and independent follow-up verified"
+      }
+    ],
+    "final_evidence": "tmp/pdm-upgrade-011/independent-review.md",
+    "remaining_findings": []
+  },
+  "knowledge_sources": [
+    "knowledge/sources/multipolepdm-20261120-v011-validation.md"
+  ],
+  "release": {
+    "version": "0.1.1",
+    "public_url": "https://pypi.org/project/multipolePDM/0.1.1/",
+    "public_artifact_hashes_verified": true,
+    "public_install_gui_modes_passed": 3,
+    "publication_receipt": "delivery/0.1.1/acceptance.json"
+  },
+  "final_acceptance": "delivery/0.1.1/acceptance.json",
+  "scientific_limitations": [
+    "PDCO delta=-10 repeated angle coverage: ETI0/100,HDI6/100; not removed or tuned away.",
+    "Native Windows/macOS GUI not tested; Linux offscreen/Xvfb verified.",
+    "Whole changed-set archive hook timed out; explicit task-scoped archive gate passed.",
+    "No independent software Git remote supplied; PyPI released and complete GUI+analysis source ZIP delivered locally."
   ]
 }
