@@ -6478,3 +6478,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — Rother ⁶²,⁶⁴,⁶⁶Fe RDDS
 
 - 核验学位论文 98 页及同实验 PRL 录用稿。记录 ⁶²Fe 两张寿命表的差异、分段谱形中的减速片激发比、⁶⁴Fe 分步拟合及独立 GANIL 数据。累计 24 份、4269 页，续读 Jodidar。
+
+## 2026-11-20 — Jodidar ¹²⁰La、¹¹⁷Cs、¹¹⁴I
+
+- 核验学位论文 150 页及三个期刊出版版对应证据。区分 255/275 MeV 数据、角分布 \(\delta=0\) 对照、¹¹⁷Cs 内转换示例及 ¹¹⁴I 的符合时间尺度。累计 25 份、4419 页，续读 Lotina。

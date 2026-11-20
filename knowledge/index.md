@@ -12,6 +12,7 @@ updated: 2026-11-20
 - [[pdm-three-mode-execution-contract-20261120]] — 三模式响应、共享密度映射、GUI与发布合同。
 - [[multipolepdm-20261120-synthetic-validation]] — 独立公式、注入恢复与重复观测验证。
 - [[multipolepdm-20261120-empirical-validation]] — 六核文献观测量、声明几何与不吻合结果。
+- [[pdm-20261120-error-geometry-grid-study]] — 不对称误差实测、135Pr组权重与网格/阈值研究。
 - [[pypi-pdm-packaging-20261120]] — 通用Python包与平台依赖的官方依据。
 
 ## 文献收集与深入学习（2026-11）
@@ -43,6 +44,7 @@ updated: 2026-11-20
 - [[ndayishimye-2016-tl192-tl193-chirality-thesis]] — ¹⁹³Tl 三条带的版本编号、角量分类与长轴转动竞争。
 - [[valbuena-2020-ru98-beta-decay-thesis]] — ⁹⁸Ru 的弱分支、两中子转移自旋与形状解释。
 - [[rother-2011-fe62-fe64-fe66-rdds-thesis]] — 快束 RDDS 的减速片再激发、寿命误差与 ⁶²,⁶⁴,⁶⁶Fe 集体性。
+- [[jodidar-2024-la120-cs117-i114-thesis]] — JUROGAM 3 + MARA 的归属证据、¹¹⁷Cs 的混合比边界与 ¹¹⁴I 的异能态。
 - [[hungerford-1979-ill-angular-correlation-164dy]] — U001 章节原件与角关联方法范围。
 - [[madiba-2008-190tl-dco-polarization-thesis]] — 首篇完整正文阅读：190Tl 实验链、门依赖、不对称度与指认边界；形式定义原始出处尚待核对。
 - [[li-2016-algebraic-collective-core-quasiparticle-thesis]] — 软/刚核芯与准粒子耦合、135Pr及109Pd比较、ACM实现与原件公式边界；不新增独立实验。

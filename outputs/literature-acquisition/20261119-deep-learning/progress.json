@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.70675/abfc0f86z9e4cz4846zbe99z430bd2176784",
+  "active_source": "bytes:b381accc0b9f011f34f18f56dbb2b00de79c01667b32bedd770b9b65a42fdd09",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 24,
+  "completed_full_sources_this_run": 25,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T10:13:20.104698+00:00",
+  "updated_at": "2026-11-20T10:30:00.528644+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 4269,
-  "current_source_note": "knowledge/sources/rother-2011-fe62-fe64-fe66-rdds-thesis.md",
-  "next_action": "Jodidar 2024: read 120La, 117Cs, 114I and trace Jurogam 3 + MARA assignments and journal lineages.",
+  "completed_primary_pages_this_run": 4419,
+  "current_source_note": "knowledge/sources/jodidar-2024-la120-cs117-i114-thesis.md",
+  "next_action": "Lotina 2020: microscopic shape and collective-excitation evidence, framework and applicability.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Rother 98/107 primary scientific and bibliographic pages reconciled with PRL and independent GANIL measurement.",
-  "current_source_scientific_acceptance": "Rother complete for scientific and bibliographic scope. Jodidar HAL thesis identity and SHA verified.",
-  "source_scoped_retrieval": "APS CHORUS accepted manuscript is archived for the Rother thesis comparison."
+  "last_source_manager_closure": "Jodidar 150/160 primary scientific and bibliographic pages and three published-version comparisons with campaign attribution.",
+  "current_source_scientific_acceptance": "Jodidar complete at scientific/bibliographic scope. Lotina title and original SHA verified.",
+  "source_scoped_retrieval": "Three Jodidar versions of record archived and compared."
 }

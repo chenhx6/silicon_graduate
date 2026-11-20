@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Jodidar 在束谱学及三篇出版版
+
+- [[jodidar-2024-la120-cs117-i114-thesis]] 核完 150/160 页科研及书证。将 255 MeV 的 ¹²⁰La、¹¹⁷Cs 与同次实验活动的 275 MeV ¹¹⁴I 分开记录。保留角分布控制、偏振公式差异、¹¹⁷Cs 的 \(\delta\) 示例和 ¹¹⁴I 的时间尺度证据。三篇对应出版版已核原件及哈希。
+- 整源累计 25 份、4419 页。续读 Lotina 2020 的微观形状与集体激发论文。Gemini 主读尝试遇 Antigravity 账号停用，Jodidar 的可用结论由 Codex 从原页核验。
+
 ## 2026-11-20 — Rother 快束 RDDS 原件与期刊表核验
 
 - [[rother-2011-fe62-fe64-fe66-rdds-thesis]] 核完 98/107 页科研及书证。NSCL 期刊稿与学位论文使用同一数据，Ljungvall 的 GANIL 结果为独立采集。保留 ⁶²Fe 的 7.8(10) 与 8.0(10) ps 表位，分开记录 \(D\) 与长距离产额比，并将方法要点写回 RDDS 页。
