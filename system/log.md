@@ -6387,3 +6387,8 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - 验收 Se-92/94 博士论文 PDF 1–153 与 Ramashidzha 89 页。保留共用实验、逐门 DCO、邻线/弱支路和模型解释的边界。
 - Se 原报寿命与式 (118)、(123)–(124) 算术分开。两篇 Tl 论文的 876.4 keV 行保留冲突及出处。
 - 可用科研原件验收累计 12 份、2607 页。转入 Ley 的 N=50 快定时与 seniority 论文。
+
+## 2026-11-20 — 快定时与 RDDS 的寿命证据
+
+- Ley 84 页和 Siciliano 190 页已验收，包括本地原件确认的空白页。区分文献采用值、直接寿命及有共同馈入的测量结果。
+- 科研范围累计验收 14 份、2881 个 PDF 页。Gerathy 的 Solenogam 学位论文在读，按单元保留接口故障记录。

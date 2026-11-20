@@ -344,6 +344,16 @@ alongside the distinct arithmetic issues in the lifetime and hindrance
 comparisons. The reproduced in-beam appendix is attributed to its cited
 publication.
 
+[[ley-2025-n50-seniority-lifetime-thesis]] reconciles 84 PDF pages and
+three embedded works. The two published copies and the dated manuscript
+retain coverage by actual version. The adopted Tc-93 mixing ratio points
+to Brown et al. 1978. NSR identifies a linear-polarization measurement,
+but the 1516 keV branch's extraction remains to be verified in that paper.
+[[siciliano-2017-sn106-sn108-rdds-thesis]] reconciles 190 pages. Its two
+decay-curve analyses depend on shared spectra and feeding inputs. The
+Sn-106 lifetimes share one fit, and the quoted Sn-108 \(4^+\) uncertainty
+uses a simulated FWHM.
+
 ## Final acquisition closure and learning design
 
 The user has closed further acquisition and requested an in-depth learning

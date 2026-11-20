@@ -32,7 +32,8 @@ updated: 2026-11-20
 - 1979 会议卷已逐页对账 **874/874**，累计 128 章级来源页，含既有 U001。49 页属于书证或目录；PDF 761 为单页摘要。PDF 843 为印刷 847 页的移置表，经 PDF 806 正文核定属早先奇核形变章。Axel 总结与 Goldhaber 回忆按其文献性质入库。
 - [[masiteng-2006-194tl-polarization-lifetime-thesis]] 已验收 69 页。按原式区分 $A_p$ 与 $P$，DCO 回链 [Ram06] 同一实验资料。保留两种 RSAM 归一表达的差异和 876 keV 门约束的 6.9(1.0) ns 半衰期。
 - 新验收 [[lizarazo-sabogal-2018-se92-se94-isomer-decay]] PDF 1–153 与 [[ramashidzha-2006-194tl-dco-level-scheme-thesis]] PDF 1–89。Lizarazo 的个人信息页留本地，Se 半衰期保留实测值，原文两个算术差异和 470/495 keV 归属分别定位。Ramashidzha 的 876.4 keV 与 Masiteng 的 DCO 和多极标签冲突保留，293.4 keV 的逐门值与最终列分开。
-- 本次累计 12 份通过科研范围验收的原件、2607 个 PDF 页。Mario Ley 的 N=50 快定时学位论文当前已派发，见 `tmp/deep-learning-ley-2025/thesis-main-batch.log`。两份附印 PRC 正文和附印稿分别核验版本与数据依赖。
+- [[ley-2025-n50-seniority-lifetime-thesis]] 84 页与 [[siciliano-2017-sn106-sn108-rdds-thesis]] 190 页已验收。Ley 保留两个出版附文与一份附印稿的版本差异。Siciliano 保留共享馈入、联合寿命拟合与 FWHM 误差口径。
+- 本次累计 14 份通过科研范围验收的原件、2881 个 PDF 页。Gerathy 147 页已组成 13 个 Gemini 单元，请查看 `tmp/deep-learning-gerathy-2020/thesis-main-batch.log`。部分请求返回 HTTP 502，按单元保存成功回执并只恢复失败请求。
 - 章级来源共用已哈希的原件，以不重叠的 `raw_pdf_pages` 标识各章。唯一作品检查继续执行，原 PDF 没有拆档或复制。
 - 另一 session 的 PDM/PDCO 与 Hamilton 改动继续隔离。无 PDM 拟合、raw 改写或重新获取。HDR 阶段指针为 `main + research: integrate Ljungvall HDR evidence and start capture proceedings`。
 

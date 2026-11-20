@@ -1,0 +1,229 @@
+{
+  "recorded_at": "2026-11-20T03:25:14.207954+00:00",
+  "chapter_sources": [
+    "knowledge/sources/siciliano-2017-sn106-sn108-rdds-thesis.md"
+  ],
+  "raw_sha256": "5fdce88fe8fd1b28e5a17edb5179993a0044bd43da14009633b1fab23dd77eaf",
+  "batch_pages": [
+    1,
+    190
+  ],
+  "batch_page_count": 190,
+  "responses": [
+    {
+      "id": "SIC-FRONT",
+      "covered": [
+        1,
+        8
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "6edba5bea865af0306d2abd35907dbf3c1fee1e6c9cf070f0854ba702b9b530e",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "SIC-STRUCTURE",
+      "covered": [
+        9,
+        22
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "b2e632990a9599cf9f48583ae5447c3df4077ce3227f4db46d2b0b71a455286d",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "SIC-REACTIONS",
+      "covered": [
+        23,
+        35
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "e9a9c8c2612e007e38a0825b8e4235c390705692c26059caf63e4bbb9c377d86",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "SIC-MOTIVATION",
+      "covered": [
+        36,
+        44
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "cc863dc4d841fe43d6a22d1740488e7415df510ae2eb163f717acbaf28670747",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "SIC-AGATA",
+      "covered": [
+        45,
+        54
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "f8b5fdf9099013d42290e0b57244972a47665333014215d61d0c58147caa57d7",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "SIC-VAMOS",
+      "covered": [
+        55,
+        64
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "a0e93b071dd9fa6d719eed85ea27fc0c5f29e7ed170b94f33ae13d5ba046c8e4",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "SIC-CAL-GAMMA",
+      "covered": [
+        65,
+        74
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "291f61db313b0349abf7fb57e443090ce2f16b45aaa0c8a6f3e08d9a5a632cc4",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "SIC-CAL-IONS",
+      "covered": [
+        75,
+        86
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "668c00b792900a9d02f0957f838afb1dd791e619206151b92aec7f5508438b0f",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "SIC-PID",
+      "covered": [
+        87,
+        100
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "58d210253a9e2581ff31256c6af5294c85cfa60c7ddb0717972667b6d68e7a46",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "SIC-RDDS",
+      "covered": [
+        101,
+        110
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "871f6cf0a170edba0b6e4a11db7df969d56b17dfb42d893d4835c0f4bdedfd6e",
+      "unit_status_reported": "partial",
+      "original_structural_errors": [
+        "claim_locator"
+      ],
+      "unread_reported": [
+        110
+      ],
+      "locally_confirmed_blank": [
+        110
+      ]
+    },
+    {
+      "id": "SIC-CD-RESULTS",
+      "covered": [
+        111,
+        118
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "60d6f33b1f2898da7857e1d16b957670912ee16ff766758fe8c0bd903c8fd706",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "SIC-SN-RESULTS",
+      "covered": [
+        119,
+        128
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "172b2e91003d472b0f4e8574e48fd908b8af0403692a14165b7db3df96bccb67",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "SIC-THEORY-RESULTS",
+      "covered": [
+        129,
+        140
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "dd12123370d7f8906ad2e1d468c17d0d124967c419c8348cb731119d19fb8f0d",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "SIC-CONCLUSIONS",
+      "covered": [
+        141,
+        146
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "0f52be08575b3c7f80fb7592d03d8458d88fb656abcbe94305eaf5ea5fb5f8cd",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "SIC-OPTIMIZATION",
+      "covered": [
+        147,
+        160
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "72462a524d5d89017432825fec046a58cb00c91cb1c7b83c5a3e8b0b7a4b3d2a",
+      "unit_status_reported": "complete",
+      "original_structural_errors": [
+        "complete_with_unread"
+      ],
+      "unread_reported": [
+        160
+      ],
+      "locally_confirmed_blank": [
+        160
+      ]
+    },
+    {
+      "id": "SIC-BIBLIOGRAPHY",
+      "covered": [
+        161,
+        174
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "a3a5beef8ff4f7bb577b8ee925765e6a093c6acbbd45e637007ee01c675f7d12",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "SIC-INDEXES",
+      "covered": [
+        175,
+        190
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "a1d07d95325564eb978529ae0477de9318572978d487a532d51a4cabeae1e9f7",
+      "unit_status_reported": "complete"
+    }
+  ],
+  "boundary": "DCM and DDCM share the same spectra and feed estimates. 106Sn fitted lifetimes share one decay curve. Reference papers and reported models remain separate from event or code reproduction.",
+  "verified_pages_and_checks": [
+    "PDF 110 and 160 contain no text or foreground pixels in the direct rendering.",
+    "PDF 105–109: differential procedure and feeding assumptions.",
+    "PDF 122–124: Sn-108 adopted values, DCM/DDCM dependency, FWHM convention.",
+    "PDF 124–126: Sn-106 fit constraint and inseparable odd-mass Sn gamma lines.",
+    "PDF 130 and 135–140: B(E2) table and scope of comparisons."
+  ],
+  "next_source": {
+    "work_id": "doi:10.25911/5edf65740b697",
+    "pdf_pages": 147,
+    "units": [
+      "GERATHY-01",
+      "GERATHY-02",
+      "GERATHY-03",
+      "GERATHY-04",
+      "GERATHY-05",
+      "GERATHY-06",
+      "GERATHY-07",
+      "GERATHY-08",
+      "GERATHY-09",
+      "GERATHY-10",
+      "GERATHY-11",
+      "GERATHY-12",
+      "GERATHY-13"
+    ]
+  }
+}

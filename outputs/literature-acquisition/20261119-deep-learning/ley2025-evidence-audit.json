@@ -1,0 +1,152 @@
+{
+  "recorded_at": "2026-11-20T01:13:58.389909+00:00",
+  "chapter_sources": [
+    "knowledge/sources/ley-2025-n50-seniority-lifetime-thesis.md"
+  ],
+  "raw_sha256": "63aaf3cf93bc4509fae22923a28ecb1d50759135cc277e479106244027a05136",
+  "batch_pages": [
+    1,
+    84
+  ],
+  "batch_page_count": 84,
+  "responses": [
+    {
+      "id": "LEY-FRONT-INTRO",
+      "covered": [
+        1,
+        13
+      ],
+      "unit_status_reported": "partial",
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "3d20a68d0b8bb5ed34941267fb248b69d773aa48e32c6becad9a1c2f446e7d0c"
+    },
+    {
+      "id": "LEY-SENIORITY-TIMING",
+      "covered": [
+        14,
+        22
+      ],
+      "unit_status_reported": "partial",
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "68901fd1a3743d6033a6f05272d7a58a9f597bdf1b38fcd78bd9f9e61abe36a5"
+    },
+    {
+      "id": "LEY-MO92-I",
+      "covered": [
+        23,
+        28
+      ],
+      "unit_status_reported": "complete",
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "51f7da02d8aa8e4ed62d6f2c087024cd6037bc89bc56f52a5fe7550d978d9f66"
+    },
+    {
+      "id": "LEY-MO92-II",
+      "covered": [
+        29,
+        34
+      ],
+      "unit_status_reported": "partial",
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "cddbd3499a82277c66aa8d91a87554a41ffbfb33f0476a4f148ddccaf42a3893",
+      "unread_reported": [
+        34
+      ],
+      "accepted_blank_page": [
+        34
+      ],
+      "acceptance_basis": "Manager verified PDF page 34 has no text and no visible foreground pixels; page is between separate works."
+    },
+    {
+      "id": "LEY-RU94-TC93",
+      "covered": [
+        35,
+        44
+      ],
+      "unit_status_reported": "complete",
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "891f57175cb950335ef9ffb0cfefb85d14eec7f9ba79a7ac43b27393c9d6fbef"
+    },
+    {
+      "id": "LEY-RH95-RU95-I",
+      "covered": [
+        45,
+        51
+      ],
+      "unit_status_reported": "partial",
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "c647abed844b482c41e4d77ad3ddf1dff6c44045d4c4355d53ebab3b9496102f"
+    },
+    {
+      "id": "LEY-RH95-RU95-II",
+      "covered": [
+        52,
+        56
+      ],
+      "unit_status_reported": "complete",
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "1cec588e1c2468d6fff901c94f19dc5f545b812692923523a479eef9e31dc5f6"
+    },
+    {
+      "id": "LEY-SYNTHESIS",
+      "covered": [
+        57,
+        66
+      ],
+      "unit_status_reported": "complete",
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "bbf0b44a15d9970b1b734fbe65e388901ebf0a22c57aba906e7ac4d392415284"
+    },
+    {
+      "id": "LEY-BIBLIOGRAPHY",
+      "covered": [
+        67,
+        78
+      ],
+      "unit_status_reported": "partial",
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "773112ad70713e3ff3e8d7a69094243fdcf8efdd7c9346564a7bbf88b4b97d72"
+    },
+    {
+      "id": "LEY-PUBLICATIONS",
+      "covered": [
+        79,
+        84
+      ],
+      "unit_status_reported": "complete",
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "a4d60277e63f582829cb81608ad4159afa736c56ddcd3d149fc76a88648d45d6"
+    }
+  ],
+  "boundary": "Read the two attached published articles and one 2025 manuscript from the thesis copy. The 2026 publication DOI was found through metadata; version equivalence and Brown 1978 gamma polarization remain unverified at source-data level.",
+  "verified_pages_and_checks": [
+    "PDF 23–33 and 37–44: published article copies and extracted total versus partial quantities.",
+    "PDF 40–43: adopted Ru-94 mean lifetime, two discrepant literature strengths, and model parameter minima.",
+    "PDF 41 and 44: Tc-93 mixing ratio taken from Brown et al. 1978, DOI verified by bibliographic lookup and NSR. No restaging of the full text.",
+    "PDF 47–56: date and actual draft form, Rh-95 conflict and unresolved doublet, branching and data dependencies.",
+    "PDF 57–61: checked conditional interpretation of seniority patterns."
+  ],
+  "next_source": {
+    "work_id": "bytes:5fdce88fe8fd1b28e5a17edb5179993a0044bd43da14009633b1fab23dd77eaf",
+    "pdf_pages": 190,
+    "units": [
+      "SIC-FRONT",
+      "SIC-STRUCTURE",
+      "SIC-REACTIONS",
+      "SIC-MOTIVATION",
+      "SIC-AGATA",
+      "SIC-VAMOS",
+      "SIC-CAL-GAMMA",
+      "SIC-CAL-IONS",
+      "SIC-PID",
+      "SIC-RDDS",
+      "SIC-CD-RESULTS",
+      "SIC-SN-RESULTS",
+      "SIC-THEORY-RESULTS",
+      "SIC-CONCLUSIONS",
+      "SIC-OPTIMIZATION",
+      "SIC-BIBLIOGRAPHY",
+      "SIC-INDEXES"
+    ]
+  }
+}
