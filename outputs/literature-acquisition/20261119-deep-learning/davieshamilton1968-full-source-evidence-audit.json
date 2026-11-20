@@ -1,0 +1,83 @@
+{
+  "checked_at": "2026-11-20T16:24:52.552773+00:00",
+  "source": "knowledge/sources/davies-hamilton-1968-gamma-gamma-polarimeter-calibration.md",
+  "raw_file": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0029-554x_68_90338-8.pdf",
+  "raw_sha256": "c617d1c1bfad294c926a47d634f727e826ca51a4cbdd06afa219aa25e187df04",
+  "primary_pdf_pages": 21,
+  "scientific_and_bibliographic_pages_covered": 21,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–7: definitions, pure and mixed cascades, Stokes and Compton formalism, acceptance design",
+    "PDF 8–13: geometry, counting and corrections, electronics, finite analyser aperture",
+    "PDF 14–18: rank attenuation, pure cascade standards, measured ratios, gate bleed",
+    "PDF 19–21: multiple scattering model, calibration fits, conclusions and bibliography"
+  ],
+  "visual_checks": [
+    4,
+    8,
+    13,
+    14,
+    17,
+    18,
+    19,
+    20
+  ],
+  "evidence_gaps": [
+    "Eq. 20 appears to contain an extra 4 versus the ratio derived from Eq. 14. See note.",
+    "Table 3 prints 1132 keV for the 60Co companion. Table 1 prints 1332 keV.",
+    "Polarizer dimensions differ between the equipment section (1.27 cm) and numerical finite-window section (1.77 cm).",
+    "The semi-empirical Q curve assumes isotropic secondary scattering and does not establish transfer to another apparatus. The original counting runs are unavailable."
+  ],
+  "duplicate_excerpt": {
+    "path": "raw/papers/gpt/query/20261119-pdm-delta-broad/10.1016_0029-554x_68_90338-8.pdf",
+    "sha256": "0d8c24bf65a8c629ac7aacbb8631aaa5bdc128cd1ccf6e1774f5b2889a3bf7b8",
+    "size": 93820,
+    "hash_basis": "fresh-hash",
+    "source_role": "title-page-excerpt-of-verified-edition"
+  },
+  "gemini": {
+    "task_id": "DAVIES-HAMILTON-1968-PRIMARY",
+    "model_requested": "agy-cli/gemini-3.8-flash",
+    "reasoning_requested": "high",
+    "text_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "image_pages": [
+      4,
+      8,
+      13,
+      14,
+      16,
+      18,
+      19,
+      20
+    ],
+    "accepted_findings": 0,
+    "http_status": 502,
+    "upstream_403": true,
+    "access_disabled": false,
+    "elapsed_seconds": 88.28
+  },
+  "reader": "Codex",
+  "PDM_run": false
+}

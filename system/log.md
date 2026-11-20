@@ -6582,3 +6582,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Taras 与 Matas 的 ³⁵Cl 双线
 
 - 核读出版版 3 页并目视表 1，记下总强度约束、两线可行域及原文偏振比。累计 47 份、7426 页，续读 Davies 与 Hamilton。
+
+## 2026-11-21 — Davies 与 Hamilton 的有限接受度标定
+
+- 核读 21 页，复核 ¹⁹²Ir 串扰计数与效率表，登记同版单页摘录。Gemini 网关 502、上游 403，本批由 Codex 核读。累计 48 份、7447 页，续读 ¹⁸¹Ta 应用。

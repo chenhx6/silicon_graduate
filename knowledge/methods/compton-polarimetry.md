@@ -84,6 +84,8 @@ The analyzing power is a Compton-scattering property and depends on photon energ
 
 [[taras-matas-1970-unresolved-gamma-polarimetry]] 进一步说明，只知道分线总强度仍剩一个自由度。两分量的总计数比为 \(\alpha=S_1/S_2\) 时，弱线不对称的可行范围传到强线时缩小 \(1/\alpha\) 倍。若要继续解弱线，需要额外的已知偏振、另一接受条件或额外测量，其不确定度会随反解传递。见原刊式 2–16、表 1。
 
+[[davies-hamilton-1968-gamma-gamma-polarimeter-calibration]] 区分了有限接受度对角关联各阶的衰减与极化仪灵敏度。固定级联夹角 \(\theta\) 的方位扫描只能给出合成调制，故应让理论关联通过实际接受窗口，再与该扫描比较。¹⁹²Ir 的 316 keV 标定中，468 keV 门的 11.6% 串扰要在计数不对称上合并，使参考比由 1.325 降至 1.20。标定若吸收了二次散射稀释，跨源复用须保留二次散射的角分布假设。见原刊 §§4.1、4.4、5.2–5.3。
+
 ## Detector Implementations
 
 - Clover and segmented HPGe arrays provide compact Compton event selections.

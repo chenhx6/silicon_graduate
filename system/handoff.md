@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Davies 与 Hamilton 的 γ–γ 极化仪标定
+
+- [[davies-hamilton-1968-gamma-gamma-polarimeter-calibration]] 核读 21 页。同 DOI 一页摘录并列溯源。保留单角度方位扫描的约束、¹⁹²Ir 门串扰、有限接受度及二次散射的设备条件。
+- 累计 48 份、7447 页。Gemini 请求返回 502，上游 403，Codex 核读。沿原文 Ref. 3 续读本地 1967 年 ¹⁸¹Ta 482 keV 研究，厘清哪些项在联合角关联和极化标定中可以约去。
+
 ## 2026-11-21 — Taras 与 Matas 的重叠 γ 线极化
 
 - [[taras-matas-1970-unresolved-gamma-polarimetry]] 核读出版版 3 页并目视表 1。重叠峰的方位比与分线总强度仍留下一个自由度。记录 ³⁵Cl 双线的原生 \(p\)、\(N\)、\(\delta\) 及弱线反解所需的其他共振信息。
