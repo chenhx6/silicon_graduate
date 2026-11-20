@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-11-20T19:40:08.629017+00:00",
+  "source": "knowledge/sources/rupnik-1994-hg187-au187-decay-thesis.md",
+  "raw_file": "raw/theses/degree-dissertation/Complete Spectroscopy in the Mercury-187mg Decay_ The Structure.pdf",
+  "raw_sha256": "c6067cc8efb4677552d51bb59e0b120f8801a71d67fdbd61c716bd2b938eecea",
+  "primary_pdf_pages": 264,
+  "scientific_and_bibliographic_pages_covered": 254,
+  "excluded_pdf_pages": [
+    2,
+    3,
+    5,
+    8,
+    9,
+    10,
+    260,
+    261,
+    262,
+    263
+  ],
+  "scope": [
+    "PDF 1,4,6–7,11–57: identity, abstract, theoretical context, conversion and particle-rotor models",
+    "PDF 58–141: UNISOR, mixed parents, spectrum fitting, coincidence gates and summing",
+    "PDF 142–200: conversion, Table 4.5, E0 and decay-intensity separation, level schemes and feeding",
+    "PDF 201–259,264: configuration comparisons, references, Compton-coincidence appendix and signed examination"
+  ],
+  "visual_checks": [
+    6,
+    14,
+    64,
+    142,
+    146,
+    149,
+    153,
+    157,
+    158,
+    264
+  ],
+  "evidence_gaps": [
+    "The 1994 dissertation is not the unavailable 1998 journal full text. Numerical agreement with its evaluated transcription does not itself prove all analyses identical.",
+    "376.3 and 462.1 alpha_K are not signed mixing ratios or new P. 187mHg is the starting source for those lines.",
+    "Nine enhanced E0 lines in the abstract versus ten in the conclusion. The strength balance for three-component transitions uses assumptions."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

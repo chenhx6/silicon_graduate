@@ -6682,3 +6682,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Hayes 的激发产额、活度与矩阵元
 
 - 对账原件 289/293 页，核对两次实验各自的产额定义、活度、弱支路和矩阵元的相关限值。Gemini 网关 502、上游 403。累计 72 份、8000 页，续读 Rupnik。
+
+## 2026-11-21 — Rupnik 的 ¹⁸⁷Au 原始转换记录
+
+- 对账 254/264 页，核对表 4.5 的两条转换系数、母态分离和 E0 的判据。累计 73 份、8254 页，续读 Bourgeois 等。
