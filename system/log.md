@@ -6518,3 +6518,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — Forney 的 Ge 核结构
 
 - 核验 203 页及 OSTI 作者稿，保留跨跃迁上限的逐线条件，以及 ⁸⁰Ge 自旋竞争和 ⁸²Ge 的模型空间限制。累计 34 份、5573 页，续读 Cubiss。
+
+## 2026-11-20 — Cubiss 的 At 激光谱及 ¹⁷⁸Au 衰变
+
+- 完成学位原件 128 页科研与书证范围，归档三篇 APS 对照。保留 98.2 keV 级联两种放置、JR121 的逐 α–γ 组独立性、²¹⁸At 自旋条件的奇偶交错。Gemini 仍遇上游 HTTP 403，由 Codex 核读。累计 35 份、5701 页，续读 ¹⁸⁰Re。

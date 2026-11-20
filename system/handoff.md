@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Cubiss 的 ¹⁷⁸Au 与 At 激光谱
+
+- [[cubiss-2017-at-laser-spectroscopy-au178-decay-thesis]] 完成学位原件 128/130 页的科研与书证范围，三篇 APS 原件按出版版本归档。保留 98.2 keV 两种级联、CERN 与 JR121 证据边界，以及 ²¹⁸At 自旋条件下的反常奇偶交错。Gemini 以明确证据合同重试，代理 HTTP 502 内含上游 HTTP 403，实际阅读由 Codex 完成。
+- 累计 35 份、5701 页。续读 Hasna M. El-Masri 的 ¹⁸⁰Re 博士论文（University of Surrey，题页 2004-05-24）。`raw/theses/gpt/query/20261119-international-nuclear-structure/10147838.pdf` 的题页与 SHA 已核，从 CAESAR 谱学、异能态时间谱和高 \(K\) 带的期刊实验依赖继续。
+
 ## 2026-11-20 — Forney 的 Ge 符合谱与逐支路上限
 
 - [[forney-2018-ge78-ge80-ge82-structure-thesis]] 核完 203/210 页。按束靶、时间门和上下态保存谱线来源。保留 ⁷⁸Ge 的 976 keV 污染、1133/1134 keV 正文与表的上限，以及模型与退激路径的分歧。⁸⁰Ge 的竞争指认和 ⁸²Ge 的壳模型空间限制已对账。

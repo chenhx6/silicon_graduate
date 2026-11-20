@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 34,
+  "completed_full_sources_this_run": 35,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T12:28:03.749484+00:00",
+  "updated_at": "2026-11-20T12:48:25.893395+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 5573,
-  "current_source_note": "knowledge/sources/forney-2018-ge78-ge80-ge82-structure-thesis.md",
-  "next_action": "Cubiss 2017: laser spectroscopy in At isotopes and alpha-tagged 178Au states.",
+  "completed_primary_pages_this_run": 5701,
+  "current_source_note": "knowledge/sources/cubiss-2017-at-laser-spectroscopy-au178-decay-thesis.md",
+  "next_action": "El-Masri 2004 180Re PhD identified and hashed. Continue CAESAR, isomer timing and high-K band assignments; trace journal and acquisition lineage.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Forney 203/210 pages, conditional 78Ge upper limits, and OSTI manuscript crosswalk verified.",
-  "current_source_scientific_acceptance": "Forney completed at scientific/bibliographic scope. Cubiss local thesis title and hash verified.",
-  "source_scoped_retrieval": "Used already archived Forney OSTI manuscript."
+  "last_source_manager_closure": "Cubiss 128/130 scientific/bibliographic pages and three scoped APS version comparisons.",
+  "current_source_scientific_acceptance": "Cubiss thesis scientific scope complete; event-level replay and independent JR121 run records unavailable.",
+  "source_scoped_retrieval": "Three APS versions archived with SHA-256; see 20261120-cubiss-at-au-crosswalk manifest."
 }

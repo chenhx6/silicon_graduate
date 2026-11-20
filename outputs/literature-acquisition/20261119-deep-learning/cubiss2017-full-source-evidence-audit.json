@@ -1,0 +1,63 @@
+{
+  "checked_at": "2026-11-20T12:45:17.741777+00:00",
+  "source": "knowledge/sources/cubiss-2017-at-laser-spectroscopy-au178-decay-thesis.md",
+  "primary_pdf_pages": 130,
+  "scientific_and_bibliographic_pages_covered": 128,
+  "covered_pdf_ranges": [
+    "1–10",
+    "13–130"
+  ],
+  "excluded_pdf_pages": [
+    11,
+    12
+  ],
+  "key_figures_visually_checked": [
+    "5.8",
+    "5.14",
+    "6.4",
+    "6.6",
+    "6.10"
+  ],
+  "title_and_sha_verified": true,
+  "archive_manifest": "raw/papers/gpt/query/20261120-cubiss-at-au-crosswalk/manifest.json",
+  "manager_reader": "Codex",
+  "gemini": {
+    "task_id": "CUB-AU-GATES-02",
+    "model_request": "agy-cli/gemini-3.8-flash",
+    "reasoning_request": "high",
+    "sent_pdf_pages": [
+      63,
+      64,
+      65,
+      67,
+      69,
+      70,
+      72,
+      73,
+      74,
+      75,
+      76
+    ],
+    "gateway_status": 502,
+    "upstream_status": 403,
+    "access_disabled": true,
+    "accepted_items": 0
+  },
+  "comparisons": {
+    "10.1103/PhysRevC.102.044332": "CERN IS534 Au plus JR121 corroboration for specific tagged lines; 2021 corrected APS version",
+    "10.1103/PhysRevC.97.054327": "195–211At shared ISOLDE laser spectroscopy; two lines, King plot and electromagnetic moments",
+    "10.1103/PhysRevC.99.054317": "217–219At shared spectroscopy; spin-conditioned OES and octupole alternatives"
+  },
+  "scientific_boundaries": [
+    "98.2 keV alternative placements remain",
+    "Unhindered alpha branches allow different structural interpretations",
+    "218At spin and octupole interpretation not unique",
+    "No raw detector events or full fit covariance"
+  ],
+  "completion_credit": {
+    "works": 1,
+    "primary_pdf_pages": 128,
+    "comparison_articles": 0
+  },
+  "PDM_run": false
+}
