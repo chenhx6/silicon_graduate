@@ -6654,3 +6654,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Twin 等的 ⁴⁰K 方向与极化约束
 
 - 核对 16 页，分开级联选支、极化判宇称和布居允许域。累计 65 份、7643 页，续读 Taras 的相位公式。
+
+## 2026-11-21 — Taras 的相位定义与 ³⁵Cl 谱系
+
+- 核对 24 页，连接 1969 年复用与 1970 年不同的双线实例。累计 66 份、7667 页，续读 Vaillancourt 与 Taras。

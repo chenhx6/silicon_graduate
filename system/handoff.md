@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Taras 的相位公式和 ³⁵Cl 来源
+
+- [[taras-1971-phase-defined-polarization-formulas]] 对账 24 页，核清 1.763 MeV 线为 1969 年测量的复用。按表 5 保存阶段性候选，按 345 页记录最终正性选支。与 1970 年另一束能的双线分析分别索引。
+- 累计 66 份、7667 页。续读 Vaillancourt 与 Taras 1974 的三多极公式，本地 8 页出版版及 SHA 已核。
+
 ## 2026-11-21 — Twin 的 ⁴⁰K 布居范围与支路证据
 
 - [[twin-1970-polarization-angular-correlation-40k]] 完成 16 页核读，将 770 keV 方向关联选支、1159 keV 极化和同母态 1929 keV 混合比归属分开。记录 MANDY 允许布居范围。

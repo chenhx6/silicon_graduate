@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-11-20T18:15:23.853817+00:00",
+  "source": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+  "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1971_Taras_Gamma-Ray Linear Polarization and Angular Distribution Formulas in Terms of Phase-Defined Reduced Ma.pdf",
+  "raw_sha256": "151e8a5274e3f9f510f3884a0e5e20a0ca8c9d883d609fe18ab7b4fb669e8a5d",
+  "primary_pdf_pages": 24,
+  "scientific_and_bibliographic_pages_covered": 24,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–8: phase-defined set, statistical tensors and angular distribution",
+    "PDF 9–16: reaction/observation constraints, linear polarization formulas and calibration",
+    "PDF 17–18: the 1763-keV 35Cl example and population constraints",
+    "PDF 19–24: Z and CG tables and references"
+  ],
+  "visual_checks": [
+    17,
+    18
+  ],
+  "evidence_gaps": [
+    "Table 5 example is the prior Taras and Matas 1969 measurement; original cited article not locally identified.",
+    "Other 35Cl doublet at 5.11 MeV (1970) is a different transition analysis. Keep native p ratio and model assumptions.",
+    "Earlier central-value replay does not recover the historical joint intervals/covariance."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

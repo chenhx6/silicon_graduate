@@ -3,7 +3,7 @@ type: source
 title: "Gamma-Ray Linear Polarization and Angular Distribution Formulas in Terms of Phase-Defined Reduced Matrix Elements"
 aliases: ["Taras 1971 phase-defined mixing ratios", "Taras polarization angular distribution formulas"]
 created: 2026-09-20
-updated: 2026-10-20
+updated: 2026-11-21
 status: ai-draft
 review_status: unreviewed
 source_type: theory
@@ -87,6 +87,12 @@ tags: [phase-defined-matrix-elements, mixing-ratio-sign, angular-distribution, g
 | T71-D17-18 | 仅声明Table5 a2/a4各±所印sigma的矩形与positivefoldedq模型，新exactQQ算法26因子/51实根分52open cells，另31临界点与∞精确分类，无额外孤立点；完整条件ADbox域约[−17.590797,−.897283]∪[.750180,3.118689]。非原jointCI/误差recipe。 | task-feasibility-proof | derived-and-exact-cell-audit | printed344 Table5; Eq5 Eq19 | true |
 | T71-D17-19 | 对同ADbox，literalpureM2极限p=(1−2a2−a4/4)/(1+a2+a4)范围1.920901–2.075426，与所印p±sigma箱2.22–2.38不交。它只限当前point/box解释，不能把近pure有限根或原误差band改称实验冲突。 | task-necessary-bound | derived-from-printed-marginals | printed340 Eq43–44; printed344 Table5 | true |
 | T71-D17-20 | 当前1sigma-marginalbox也未重现作者.73/3.27口径，不反推作者实际用了哪个Cov/误差倍数或修表；原1969body/actualΣ/acceptance/producer仍缺。当前positivitybox仅AD，未完成finiteδ jointPbox的置信分析。 | analysis-readiness-boundary | direct-scope-plus-task-audit | printed344 populationparagraph; printed345 Fig2 | true |
+
+### ³⁵Cl 偏振来源对照
+
+本篇 §4.6 及表 5 的例子是 3.115 MeV 质子条件下的 1.763 MeV 跃迁。作者说明它已由 Taras 与 Matas 在 *Can. J. Phys.* **47**, 1605（1969）报告，DOI `10.1139/p69-204`。印刷 344 页给 E2/M1 的 \(+2.68(18)\)、\(-0.73(10)\)，以及 M2/E1 的近纯 M2 和 \(-0.02(2)\) 候选。印刷 345 页再用子态布居正性选 \(+2.68(18)\)。以上沿用 1969 年测量，原始发表的全文仍待获取核对。
+
+[[taras-matas-1970-unresolved-gamma-polarimetry]] 的 5.11 MeV 质子条件讨论 3.00/3.16 MeV 近邻双线。它与这里的 1.763 MeV 单线是不同的具体观测。两文均应用 \(p=J_0/J_{90}\) 口径，双线解混和单线的磁子态正性各自解决不同的可辨识性问题。保留实验束能、能级、线能和所用约束后再并列。
 
 ## Summary
 
