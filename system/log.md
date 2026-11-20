@@ -6461,3 +6461,5 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — ¹⁹³Tl 三条带与版本对照
 
 - Ndayishimye 2016 定向核验表 4.1、固定 \(\sigma/I=0.3\) 的纯多极参照和双击散射不对称。2017、2018、2019 三个出版版本定位并留档。按能级及支路处理谱带改号，保留 810 keV \(A_p\) 的版本差异和长轴竞争。
+
+- 完成 151 页科研和书证。补核 ¹⁹²Tl 的候选双带、¹⁹³Tl 的 RSAM 标定与误差、转子模型的印刷公式。累计 22 份、4071 页，续核 Valbuena 的 ⁹⁸Ru。

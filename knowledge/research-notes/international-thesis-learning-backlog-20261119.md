@@ -495,6 +495,13 @@ must account for both observables. The reaction-model scale and a configuration
 probability have different definitions. [[wu-2024-zr100-gammasphere-angular-correlations]] now provides
 the accepted source for the competing spin-2 assignment at 1807 keV.
 
+[[ndayishimye-2016-tl192-tl193-chirality-thesis]] separates a fixed
+\(\sigma/I=0.3\) pure-multipole reference from a numerical \(\delta\)
+estimator. Its three \(^{193}\)Tl bands must be matched by gates and levels
+across the thesis, proceedings and journal article. The journal's
+competition between long-axis and intermediate-axis rotation is a
+model interpretation of the same experimental lineage.
+
 Return any material numerical or methodological discrepancy to its source locator; revise the interpretation if the original contradicts the extraction or proposed classification.
 
 ## Open Questions

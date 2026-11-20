@@ -1,0 +1,53 @@
+{
+  "work_id": "bytes:1041c1c448c65b888df5e3f8b1b9367a83a5799d3c2a45f72efdc4c5adf5258e",
+  "auditor": "Codex",
+  "source_note": "knowledge/sources/ndayishimye-2016-tl192-tl193-chirality-thesis.md",
+  "page_count": 152,
+  "pages_checked": 151,
+  "checked_pdf_ranges": [
+    [
+      1,
+      4
+    ],
+    [
+      6,
+      152
+    ]
+  ],
+  "excluded_pdf_pages": [
+    5
+  ],
+  "excluded_role": "Acknowledgements",
+  "covered_sections": [
+    "PDF 1–4, 6–17: title, abstracts and navigation",
+    "PDF 18–45: model assumptions, alignments and rotational alternatives",
+    "PDF 46–84: detector, timing and polarimetry, RSAM",
+    "PDF 85–145: 192,193Tl bands and data/model distinctions",
+    "PDF 146–152: bibliography and work dependencies"
+  ],
+  "checked_visual_pdf_pages": [
+    43,
+    45,
+    104,
+    133
+  ],
+  "published_versions": [
+    "10.5506/APhysPolB.48.343",
+    "10.5506/APhysPolBSupp.11.81",
+    "10.1103/PhysRevC.100.014313"
+  ],
+  "thesis_band_map_to_2019": {
+    "2": 2,
+    "3": 3,
+    "5": 4
+  },
+  "reference_coverage": "Evidence crosswalk; version comparisons excluded from cumulative full-work counts.",
+  "gaps": [
+    "No source-level calibrated P and delta joint inversion established.",
+    "Output for 810 keV polarization anisotropy differs by version.",
+    "192Tl data and suggested chiral pairing not independently tested.",
+    "RSAM gate dependencies and software model implementation not reproduced."
+  ],
+  "updated_at": "2026-11-20T09:18:08.907049+00:00",
+  "next_work": "bytes:bea3e089821deaf74a6f7369b006a2df029b6467bedcbb53c4b5a2ad7ad78dd4"
+}

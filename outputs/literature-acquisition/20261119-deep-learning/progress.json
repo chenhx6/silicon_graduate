@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "bytes:1041c1c448c65b888df5e3f8b1b9367a83a5799d3c2a45f72efdc4c5adf5258e",
+  "active_source": "bytes:bea3e089821deaf74a6f7369b006a2df029b6467bedcbb53c4b5a2ad7ad78dd4",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -339,9 +339,10 @@
     "JAM14-TRANSFER-TARGETED",
     "WU24-GAMMASPHERE-CROSSWALK",
     "JAM14-COMPLETE-SCIENTIFIC-SCOPE",
-    "ND16-193TL-ADO-POLARIZATION-AND-BAND-CROSSWALK"
+    "ND16-193TL-ADO-POLARIZATION-AND-BAND-CROSSWALK",
+    "ND16-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 21,
+  "completed_full_sources_this_run": 22,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -349,14 +350,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T08:56:25.212748+00:00",
+  "updated_at": "2026-11-20T09:18:08.907049+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 3920,
+  "completed_primary_pages_this_run": 4071,
   "current_source_note": "knowledge/sources/ndayishimye-2016-tl192-tl193-chirality-thesis.md",
-  "next_action": "Continue 192Tl results/doublet, compare model conditions and bring source to full coverage.",
+  "next_action": "Valbuena 2020: trace 98Rh beta feeding and low-lying 98Ru shape coexistence evidence.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Jamieson: reaction apparatus, tabulations and 65 appendix pages checked.",
-  "current_source_scientific_acceptance": "Ndayishimye 193Tl targeted original-page and three publication version audit. 192Tl and remainder pending.",
+  "last_source_manager_closure": "Ndayishimye: 151 scientific/bibliographic pages, with 192Tl and RSAM caveats, three published version controls.",
+  "current_source_scientific_acceptance": "Ndayishimye complete in scope; Valbuena identity checked.",
   "source_scoped_retrieval": "Three official publisher versions added for the 193Tl interpretation and band-number crosswalk."
 }

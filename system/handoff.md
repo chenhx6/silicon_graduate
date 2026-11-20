@@ -3,10 +3,10 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
-## 2026-11-20 — Ndayishimye 的 ¹⁹³Tl 版本核验
+## 2026-11-20 — Ndayishimye 科研与版本核验
 
-- [[ndayishimye-2016-tl192-tl193-chirality-thesis]] 已核角分布、偏振不对称和 ¹⁹³Tl 三条带。学位论文 Bands 2、3、5 对应 2019 年 Bands 2、3、4。三份出版 PDF 已留档，明确区分原实验、分类测量、同数据的后续带解释。¹⁹²Tl 及其余科研页继续核。
-- 整源口径 21 份、3920 页。PDCO/PDM、Hamilton 和 PDM 软件发布属于另一会话，提交按路径隔离。
+- [[ndayishimye-2016-tl192-tl193-chirality-thesis]] 完成 151/152 页科研、书证核验。学位论文 Bands 2、3、5 对应 2019 年 Bands 2、3、4。三个出版 PDF 已留档，保留角量分类、谱带演化、¹⁹²Tl 两带证据、¹⁹³Tl RSAM 的加权差异及模型公式印刷边界。
+- 整源口径 22 份、4071 页。下一源 Valbuena 2020 的 ⁹⁸Ru β 衰变硕士论文，104 页原件身份/哈希已核。PDCO/PDM、Hamilton 和 PDM 软件发布属于另一会话，提交按路径隔离。
 
 ## 2026-11-20 — Jamieson 转移结果与 Wu 录用稿
 
