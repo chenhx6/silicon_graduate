@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T14:20:41.201080+00:00",
+  "updated_at": "2026-11-20T14:32:11.133690+00:00",
   "completed_deep_read_sources_this_run": 0,
   "completed_primary_pages_this_run": 6531,
-  "current_source_note": "knowledge/sources/morse-2015-as70-rb74-lifetime-thesis.md",
-  "next_action": "Nambudripad 1980 nuclear orientation thesis: 272-page original identified. Continue calibration and Er mixing-ratio tables.",
+  "current_source_note": "knowledge/sources/nambudripad-1980-ho-er-nuclear-orientation-thesis.md",
+  "next_action": "Nambudripad 1980: continue all eight chapters, including apparatus, spin flop and nuclear refrigeration. First verify Table 7.1 band mixing and references.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
   "last_source_manager_closure": "Morse: lineshape degeneracy broken by coincidence selection and 74Rb DRDDS thesis-to-article crosswalk.",
-  "current_source_scientific_acceptance": "Morse completed 177/181 and scoped peer-reviewed lineage; 2018 full published article, 2014 abstract-only.",
-  "source_scoped_retrieval": "Archived Elsevier 2018 full paper and abstract/bibliography for 70As."
+  "current_source_scientific_acceptance": "Nambudripad targeted gamma anisotropy and mixing-ratio evidence accepted; no whole-source credit.",
+  "source_scoped_retrieval": "Local Oxford thesis; DOI identity checked."
 }

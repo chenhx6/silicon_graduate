@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Nambudripad 的 ¹⁶⁶Er 核取向分析
+
+- [[nambudripad-1980-ho-er-nuclear-orientation-thesis]] 已核表 7.1 的 \(\delta/E_\gamma\) 单位和三个有限值的换算，保留 464.8 keV 小正根、谱峰污染及取向校准来源。仍需逐章核查 HoVO₄、磁矩、各向异性与带混合的完整逻辑。
+- 本次为定向核验，整源累计维持 41 份、6531 页。
+
 ## 2026-11-20 — Morse 的 ⁷⁰As 与 ⁷⁴Rb 寿命
 
 - [[morse-2015-as70-rb74-lifetime-thesis]] 核读 177 页。保留 ⁷⁰As 单谱双极小、符合门以及两寿命的依赖，并对上 ⁷⁴Rb 学位与期刊的三箔测量。⁷⁰As 期刊为摘要范围，⁷⁴Rb 已归档出版版。

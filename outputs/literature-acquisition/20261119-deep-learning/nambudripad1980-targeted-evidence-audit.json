@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-11-20T14:32:11.133690+00:00",
+  "source": "knowledge/sources/nambudripad-1980-ho-er-nuclear-orientation-thesis.md",
+  "state": "targeted-scientific-reading-active",
+  "scope": [
+    "PDF 1–3: title and abstracts",
+    "PDF 70–73: U and F terms and phase convention",
+    "PDF 164–184: magnetic-moment measurement and calibration",
+    "PDF 191–201: 166Er target method and Table 7.1"
+  ],
+  "direct_table_image_page": 201,
+  "mixing_ratio_scale": "table entries delta/E_gamma per MeV, multiply by E_gamma in MeV",
+  "values_dimensionless": {
+    "810p3": [
+      -22.6884,
+      3.2412,
+      3.2412
+    ],
+    "529p8": [
+      -40.7946,
+      18.0132,
+      10.0662
+    ],
+    "830p6": [
+      -20.765,
+      3.3224,
+      3.3224
+    ]
+  },
+  "completion_credit": 0
+}

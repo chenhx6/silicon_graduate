@@ -6554,3 +6554,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — Morse 的 ⁷⁰As 和 ⁷⁴Rb
 
 - 核读 177 页，核对单谱与符合谱形的双解问题，以及三箔分析的馈入、有限步长和版本边界。累计 41 份、6531 页，续接 Nambudripad 的核取向论文。
+
+## 2026-11-20 — Nambudripad 的 ¹⁶⁶Er 取向谱
+
+- 核查 δ/Eγ 的单位、污染、拟合双解及相位；待核八章的全证据范围。
