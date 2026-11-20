@@ -1,0 +1,50 @@
+{
+  "updated_at": "2026-11-20T08:04:09.833063+00:00",
+  "auditor": "Codex",
+  "jamieson": {
+    "work_id": "bytes:79ebd6d80dee3a3a37ecad57eacf400a925396e35e2aba39d5f1c87f3d11c352",
+    "note": "knowledge/sources/jamieson-2014-cd112-neutron-transfer-thesis.md",
+    "covered_sections": [
+      "PDF 1–2 and 4–6 identity/contents",
+      "PDF 25–27, 36, 65–74, 78, 80, 82–91, 97, 99, 105–110 directly relevant method and result pages"
+    ],
+    "visual_pdf_pages": [
+      83,
+      90,
+      91,
+      97,
+      99,
+      106
+    ],
+    "full_scientific_scope": false,
+    "remaining": [
+      "Extended apparatus, peak fitting, complete result tables and per-level Appendix A are pending.",
+      "Jamieson 2014 and 2018 journal links were matched at abstract/experimental identity level. Accepted PDF retrieval returned 404.",
+      "Transfer strength is model conditional. Enhanced E2 and strong transfer may coexist. Text claims about ground-state ratios differ from the tabulated raw S values."
+    ],
+    "archive_manifest": "raw/papers/gpt/query/20261120-jamieson-cd112-crosswalk/manifest.json"
+  },
+  "wu": {
+    "work_id": "doi:10.1103/physrevc.109.024314",
+    "note": "knowledge/sources/wu-2024-zr100-gammasphere-angular-correlations.md",
+    "covered_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "visual_pdf_pages": [
+      4,
+      6
+    ],
+    "full_scientific_scope": true,
+    "archive_manifest": "raw/papers/gpt/query/20261120-zr100-wu-fulltext-crosswalk/manifest.json",
+    "related_thesis": "doi:10.70675/c170c2b4z5cecz4187z8bacz070f04c3f6c4",
+    "age_of_publication_version": "accepted manuscript, not typeset VoR"
+  },
+  "completed_original_works": 20,
+  "completed_pages": 3742
+}

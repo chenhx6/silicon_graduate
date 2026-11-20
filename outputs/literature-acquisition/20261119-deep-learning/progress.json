@@ -1,8 +1,8 @@
 {
   "created_at": "2026-11-19T14:50:09.195632+00:00",
   "status": "corpus-learning-active",
-  "pdf_files_registered": 1016,
-  "provisional_work_groups": 988,
+  "pdf_files_registered": 1017,
+  "provisional_work_groups": 989,
   "grouping_boundary": "Not a verified unique-publication count. Byte grouping and old catalogue associations require own-identity/edition/role/scope audits. Collection sources do not establish individual full reading.",
   "raw_roots": [
     "raw/papers",
@@ -335,24 +335,26 @@
     "KALAYDJIEVA-COMPLETE-SCIENTIFIC-SCOPE",
     "MICHT13-TIMING-RESULTS-AND-APPENDICES",
     "MICHT13-FIT-AND-SETUP",
-    "MICHT13-COMPLETE-SCIENTIFIC-SCOPE"
+    "MICHT13-COMPLETE-SCIENTIFIC-SCOPE",
+    "JAM14-TRANSFER-TARGETED",
+    "WU24-GAMMASPHERE-CROSSWALK"
   ],
-  "completed_full_sources_this_run": 19,
+  "completed_full_sources_this_run": 20,
   "PDM_run": false,
   "new_search_or_download": true,
-  "queue_entries_including_closed_gaps": 995,
+  "queue_entries_including_closed_gaps": 996,
   "full_work_identity_reconciliation_complete": false,
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T07:37:56.852192+00:00",
+  "updated_at": "2026-11-20T08:04:09.833063+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 3735,
-  "current_source_note": "knowledge/sources/michetti-wilson-2013-labr3-dante-fast-timing.md",
-  "next_action": "Jamieson 2014: start 112Cd one-neutron transfer experiment, negative-parity alternatives and journal crosswalk.",
+  "completed_primary_pages_this_run": 3742,
+  "current_source_note": "knowledge/sources/jamieson-2014-cd112-neutron-transfer-thesis.md",
+  "next_action": "Jamieson: continue apparatus, remaining transfer results and Appendix A.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
   "last_source_manager_closure": "Michetti-Wilson: preserve prompt-width denominator, rejected 152Sm half-life, convolution sign, and unsettled DANTE diagnostic.",
-  "current_source_scientific_acceptance": "Michetti-Wilson: 105 scientific and bibliographic pages; Jamieson identity verified.",
-  "source_scoped_retrieval": "Two proceedings PDFs and two abstract-only identity snapshots saved for experiment crosswalk; no bulk acquisition."
+  "current_source_scientific_acceptance": "Jamieson partial. Wu 7-page accepted article reconciled, including competing spin and delta.",
+  "source_scoped_retrieval": "Wu 2024 APS accepted PDF archived; three Cd publication abstracts archived."
 }

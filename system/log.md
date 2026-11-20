@@ -6448,3 +6448,8 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - PDF 73–104 保留标定、主动和被动抑制、DANTE 通道对照与拟议布线。¹⁵²Sm 的 1582(18) ps 属未通过的半衰期拟合，原表 3.03% 属能量分辨。下一段继续核拟合与实验逻辑。
 
 - 完成 105/107 页科研范围。对积分形状及寿命变换作小型复核，保留探测器单体与配对、峰宽及偏差各自的测量条件。继续 Jamieson ¹¹²Cd 单中子转移。
+
+## 2026-11-20 — Wu 原稿与 Jamieson ¹¹²Cd 定向核验
+
+- 核完 Wu 七页 APS 录用稿，在独立 Gammasphere 数据中核定 1807 keV 自旋差异、1228.9 keV 两区间和 \(\Delta\chi^2\) 标签差异。
+- Jamieson 的 2373/2818 keV 部分和轨道和规则已核。区分同次不同动量设置、两种反应模型、源于另一实验的增强 E2 及三个期刊摘要。

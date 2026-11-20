@@ -488,6 +488,13 @@ with a stream-dependent time shift and biased lifetime fit. The distinction
 matters when connecting an independently calibrated fast-timing result to
 a branch or angular-correlation data set.
 
+[[jamieson-2014-cd112-neutron-transfer-thesis]] reports strong \(h_{11/2}\)
+transfer to the 2373 keV \(5^-\) level. The independent enhanced E2 branch
+constrains an electromagnetic matrix element. A mixed-state interpretation
+must account for both observables. The reaction-model scale and a configuration
+probability have different definitions. [[wu-2024-zr100-gammasphere-angular-correlations]] now provides
+the accepted source for the competing spin-2 assignment at 1807 keV.
+
 Return any material numerical or methodological discrepancy to its source locator; revise the interpretation if the original contradicts the extraction or proposed classification.
 
 ## Open Questions

@@ -78,7 +78,7 @@ tags: [shape-coexistence, coulomb-excitation, angular-correlation, mixing-ratio,
 - ¹⁰⁶Cd 与 Siciliano 等 Phys. Rev. C 104, 034320 (2021)，DOI `10.1103/PhysRevC.104.034320`，源于同一次 GANIL RDDS 采集。原始 E664 目标及 RDDS 链见 [[siciliano-2017-sn106-sn108-rdds-thesis]]。同一套观测用于不同分析，寿命与激发产额可以提供不同约束。2026 GANIL 会议摘要也报告 AGATA–VAMOS++、⁹²Mo、超安全能量 8%–40% 与 FRESCO/GOSIA 的同一分析路线。会议摘要可作实验溯源，完整后续论文身份仍待核实。
 - Kalaydjieva 等 2023 年会议论文，DOI `10.5506/APhysPolBSupp.16.4-A15`，§§2–3、图 1、表 1，报告同一 GRIFFIN 运行中的 2209 keV 双重态。两版低自旋成员分别给 2208.6(1) 和 2208.51(5) keV；共同的 637 keV 馈入门、衰变分支及装置/采集时序支持同一实验归并。
 - Kalaydjieva 等 2026 年会议论文，DOI `10.5506/APhysPolBSupp.19.1-A15`，§4.1、图 2–3，使用同一 TRIUMF–GRIFFIN 数据，另给出时间随机矩阵扣除与大于 2 μs 的 mixed-event 窗。该版报告 \(2_2^+\to2_1^+\) 的 \(\delta=4.7^{+1.5}_{-1.1}\)、最小 \(\chi^2/\mathrm{NDF}=1.02\)，以及 \(2_3^+\to2_1^+\) 的 \(\delta=-1.00^{+0.18}_{-0.14}\)、最小 \(\chi^2/\mathrm{NDF}=1.38\)。作者称这些结果为初步结果。版本间的数值、误差和拟合优度须关联各自分析。事件级的差异来源尚未复现。
-- Wu 等 Phys. Rev. C 109, 024314 (2024)，DOI `10.1103/PhysRevC.109.024314`，使用 Gammasphere 及质量分离的 ¹⁰⁰,¹⁰⁰ᵐY 衰变，独立于 TRIUMF–GRIFFIN 采集。出版者摘要报告 1294.5 与 1774.0 keV 的 \(0^+\)，并将 1774 keV 态视为更符合球形结构预测的候选。这个结论层级为分支数据与 MCSM 的对照。其全文数据表待单独核查。GRIFFIN 2026 论文 §4.1 给出两条 δ 与 Wu 数据的对照。
+- [[wu-2024-zr100-gammasphere-angular-correlations]] 使用 Gammasphere 及质量分离的 ¹⁰⁰,¹⁰⁰ᵐY 衰变，独立于 TRIUMF–GRIFFIN 采集。两者在 1295 和 1774 keV 的 \(0^+\) 上相合，在约 1807 keV 的自旋解释上分歧。Wu 的 1595.2 keV 级联拟合偏好 \(2^+\)，学位论文把衰变路径和其它候选自旋合读后偏好自旋 1。两份报告的 1595 keV δ 分别条件化在不同初态自旋上。Wu 表 I 另列 1228.9 keV δ 的两个允许区间。两套实验的拟合选择及误差分别核在各原件。
 
 两份会议论文的出版版 PDF、APS 摘要页和 GANIL 会议摘要页及哈希保存在 `raw/papers/gpt/query/20261120-kalaydjieva-experiment-crosswalk/manifest.json`。
 
@@ -110,4 +110,4 @@ Cd 的寿命换算使用 \(\tau^{-1}=\sum_j(1+\alpha_j)\lambda_{\gamma j}\)。�
 - PDF 149–219。Zr 系统学、β 衰变选律、角关联、GRIFFIN、峰和门、能级、相对强度与形状对照。PDF 150 为分隔页。第 13 章把 Compton 偏振列为后续分析。
 - PDF 220–246。附录 A–E 与书证。文献表 [172] 的卷号印为 316，2023 期刊原件为 16。书证核对记录引文角色。
 
-Gemini 的附录 A–B 请求返回 HTTP 502，原页核验归于 Codex。寿命、个别矩阵元或符号的外部输入及独立复现所需数据分别保留。当前未取得 Wu 全文或核实 Cd 后续正式出版论文。
+Gemini 的附录 A–B 请求返回 HTTP 502，原页核验归于 Codex。寿命、个别矩阵元或符号的外部输入及独立复现所需数据分别保留。Wu 已核 APS 录用稿，Cd 后续正式出版论文仍待核实。
