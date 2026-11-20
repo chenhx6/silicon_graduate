@@ -6542,3 +6542,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — Radich 的 ¹²⁴Xe 和 ¹²⁴Cs
 
 - 核读 119 页，归档 OSTI 作者稿与 Springer 出版版。核实 360/289 keV 的同母态 E2 归一及 301/270 keV 转换支路的版本差异。累计 38 份、6078 页，接续 Stefanescu。
+
+## 2026-11-20 — Stefanescu 的 A=69 谱学
+
+- 核读 136 页，记录 EUROBALL 的束能与触发条件、⁶⁹Se 的取向标定、DCO 和混合比双解、⁶⁹As 的组态边界。累计 39 份、6214 页，续接 DeGraaf。

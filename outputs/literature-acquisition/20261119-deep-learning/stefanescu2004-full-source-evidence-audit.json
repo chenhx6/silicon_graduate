@@ -1,0 +1,52 @@
+{
+  "checked_at": "2026-11-20T13:48:32.571533+00:00",
+  "source": "knowledge/sources/stefanescu-2004-a69-euroball-thesis.md",
+  "primary_pdf_pages": 139,
+  "scientific_and_bibliographic_pages_covered": 136,
+  "excluded_pdf_pages": [
+    3,
+    42,
+    58
+  ],
+  "scope": [
+    "PDF 1–2,4–41: identity, bilingual abstracts, experimental setup and analysis",
+    "PDF 43–57,59–120: 69Se and 69As spectroscopy, low-spin RTRP, high-spin CNS and conclusions",
+    "PDF 121–139: spectroscopy tables, model code flow and bibliography"
+  ],
+  "image_ocr_first": "PDF 2,4–41,43–57,59–139; threshold review verified header-only PDF 42,58",
+  "visual_checks": [
+    1,
+    37,
+    38,
+    40,
+    42,
+    46,
+    49,
+    52,
+    58,
+    73,
+    79,
+    100,
+    102,
+    119,
+    122
+  ],
+  "publication_records": [
+    "10.1103/PhysRevC.69.034333",
+    "10.1103/PhysRevC.70.044304"
+  ],
+  "publication_evidence": "Crossref/OpenAlex/Lund metadata and abstracts; APS Harvest 401, HAL/CSIC challenge and institutional records without usable full text.",
+  "alignment_and_root_check": {
+    "sigma_over_Ji_reference": 0.35,
+    "sigma_over_Ji_reference_uncertainty": 0.05,
+    "403p1_gate_keV": 675.9,
+    "773p3_gate_keV": 714.2,
+    "773p3_E2_photon_fractions": [
+      0.8410174880763116,
+      0.2452260547965884
+    ],
+    "same_transition_P_found": false
+  },
+  "reader": "Codex with OCR; provider denial established in current turn during Radich crosswalk.",
+  "PDM_run": false
+}

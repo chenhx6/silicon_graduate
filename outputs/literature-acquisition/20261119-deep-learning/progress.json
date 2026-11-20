@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 38,
+  "completed_full_sources_this_run": 39,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T13:31:21.338922+00:00",
+  "updated_at": "2026-11-20T13:48:32.571533+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 6078,
-  "current_source_note": "knowledge/sources/radich-2015-124xe-124cs-decay-thesis.md",
-  "next_action": "Stefanescu 2004 69As/69Se doctorate verified visually. Recover garbled text using image OCR, then check methods, results and publication lineage.",
+  "completed_primary_pages_this_run": 6214,
+  "current_source_note": "knowledge/sources/stefanescu-2004-a69-euroball-thesis.md",
+  "next_action": "DeGraaf 1997: verify the 114,116Xe gamma spectroscopy and interpret the intruder candidate bands.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Radich weak E2 branches and versioned 124Cs cascade feeding with two archived primary articles.",
-  "current_source_scientific_acceptance": "Radich thesis coverage 119/121; shared PRC and EPJA analyses cross-checked; one main-source credit.",
-  "source_scoped_retrieval": "OSTI author manuscript and Springer version of record archived with provenance and SHA-256."
+  "last_source_manager_closure": "Stefanescu 69Se 105-MeV alignment calibration, complementary double roots and 69As model limits.",
+  "current_source_scientific_acceptance": "Stefanescu 136-page thesis scope complete, using image OCR and original figures. Two journal records are abstract-level only.",
+  "source_scoped_retrieval": "Two journal entries identity-checked and archived as metadata/abstract."
 }

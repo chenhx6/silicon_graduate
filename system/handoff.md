@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Stefanescu 的 ⁶⁹Se 取向标定和 ⁶⁹As 高旋结构
+
+- [[stefanescu-2004-a69-euroball-thesis]] 恢复字形异常的原件并核读 136 页。记下 105 MeV 的强 E2 取向标定、773.3 keV 双解和 155°/90° 的 DCO 角组。对应两篇 PRC 达到书目与摘要核验，仍缺逐表全文对照。
+- 累计 39 份、6214 页。续接 James H. DeGraaf 的 ¹¹⁴,¹¹⁶Xe 博士论文（University of Toronto，1997，143 页），题页目视与 SHA 已核。
+
 ## 2026-11-20 — Radich 的 ¹²⁴Xe 弱 E2 和 ¹²⁴Cs 转换分支
 
 - [[radich-2015-124xe-124cs-decay-thesis]] 核读 119 页。用两篇期刊原件落实同一 TRIUMF 采集的不同分析范围，核算 360/289 keV 强度的库仑激发归一，保留 301/270 keV 态的学位与期刊分支差异。Gemini 两次尝试分别超时和报上游 403，证据由 Codex 核读。
