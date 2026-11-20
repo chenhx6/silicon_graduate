@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-11-20T17:36:20.488127+00:00",
+  "source": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+  "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/1977_Wadsworth et al_Gamma ray spectroscopy insup61-sup Ni-levels below 2.pdf",
+  "raw_sha256": "47533c460e7af3bdb01b6864790dc1f14aea69f4a1316ea4faf42eb28aec279a",
+  "primary_pdf_pages": 19,
+  "scientific_and_bibliographic_pages_covered": 19,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–3: experiment and simultaneous angular/polarization runs, compound population and joint minimization",
+    "PDF 4–10: branching, coincidence, Table 3 angular and polarization observations, Table 4 lifetimes",
+    "PDF 11–16: level crosswalk, main fits, alternative spin/lifetime cases and excitation functions",
+    "PDF 17–19: shell-model boundary, conclusions and references"
+  ],
+  "visual_checks": [
+    2,
+    6,
+    8
+  ],
+  "evidence_gaps": [
+    "The printed Gaussian-type expression has ambiguous sign and absolute-value handling, and final width values/covariance are not tabulated.",
+    "908 to 67 keV delta disagrees with Williams 1975. No combined refit.",
+    "Polarimeter response is referred to Butler, not tabulated for each of these measurements."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

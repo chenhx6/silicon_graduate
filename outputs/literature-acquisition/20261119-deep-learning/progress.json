@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.1016/0375-9474(75)90487-x",
+  "active_source": "doi:10.1088/0305-4616/3/1/007",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 58,
+  "completed_full_sources_this_run": 59,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T17:31:42.111403+00:00",
+  "updated_at": "2026-11-20T17:36:20.488127+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 7565,
-  "current_source_note": "knowledge/sources/williams-1975-61ni-low-lying-levels.md",
-  "next_action": "Read Wadsworth et al. 1977, the 19-page publication, and reconcile the actual Gaussian-population and chi-squared method with earlier Williams inputs.",
+  "completed_primary_pages_this_run": 7584,
+  "current_source_note": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+  "next_action": "Read the 6-page Ekstrom et al. 1979 NIM158, 243–248, on non-Gaussian shape evidence, population inputs and Wadsworth data reuse.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Williams et al. 1975: full 61Ni scope, state spins and main lifetimes corrected, direct P versus delta inference and both alignment treatments.",
-  "current_source_scientific_acceptance": "All 15 journal pages including figures, tables and references. Existing targeted 909 result retained.",
+  "last_source_manager_closure": "Wadsworth 1977: original 61Ni coverage, joint alignment/delta treatment, and six-transition comparison to Williams 1975.",
+  "current_source_scientific_acceptance": "All 19 publisher pages, combining the prior full paper audit and current checks on the method and original cross-source tables.",
   "source_scoped_retrieval": "Locally held publisher PDF. No new download."
 }

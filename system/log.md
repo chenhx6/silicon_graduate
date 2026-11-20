@@ -6626,3 +6626,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Williams 等的 ⁶¹Ni 取向处理
 
 - 核读 15 页，订正原表的自旋和寿命，按两种几何保留磁子态假设和偏振选支。累计 58 份、7565 页，续读 Wadsworth 等。
+
+## 2026-11-21 — Wadsworth 等的 ⁶¹Ni 联合极小化
+
+- 核对 19 页，保留联合取向分析的原文条件、统计拟合式边界与 Williams 逐支路对照。累计 59 份、7584 页，续读 Ekstrøm 等。

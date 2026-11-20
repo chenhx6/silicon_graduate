@@ -3,7 +3,7 @@ type: source
 title: "Wadsworth et al. 1977 - Gamma ray spectroscopy in 61Ni: levels below 2.2 MeV"
 aliases: [Wadsworth 1977 61Ni spectroscopy, 61Ni levels below 2.2 MeV]
 created: 2026-09-20
-updated: 2026-10-20
+updated: 2026-11-21
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -47,7 +47,7 @@ tags: [61Ni, level-scheme, DSAM, polarization, mixing-ratio, spectroscopy]
 The paper determines the low-lying `61Ni` level scheme below 2.2 MeV, spin/parity and γ multipole mixing using γγ coincidences, angular distributions, linear polarization and Doppler-shift attenuation, then compares with shell-model calculations.
 
 1. Populate `61Ni` with `58Fe(α,nγ)` and use two Ge(Li) detectors for γγ coincidences; excitation functions and a `61Cu` β-decay source constrain branches.
-2. Fit angular distributions with compound-nuclear alignment/population parameters and Rose–Brink phase convention; use a three-GeLi Compton polarimeter for linear polarization.
+2. 以统计复合核模型估计取向，用高斯型磁子态布居近似。将取向参数、角分布和线偏振纳入残差平方和，对 \(\delta\) 与取向参数共同极小化，采用 Rose–Brink 相位约定。三晶体 Ge(Li) 极化仪在束轴 \(90^\circ\) 测线偏振。
 3. Extract centroid shifts versus `cosθ`, attenuation factors and mean lifetimes using Blaugrund/Lindhard stopping treatment.
 
 ## Key Evidence and Reasoning Chain
@@ -57,6 +57,21 @@ The paper determines the low-lying `61Ni` level scheme below 2.2 MeV, spin/parit
 - 原1015-keV的7/2−由AD/P联合分析；948线δ=−2.46，Table3误差.15、正文/Table4误差.16分别保留。
 - 寿命按原fs单位：1609为370(30)fs（旧37误抄）；908摘要1500(400)fs、正文/Table4为1600(500)fs，是约1.5–1.6ps（旧ns误写），保来源内部差异。其余1132 450(30)、1186 140(20)、1454 1200(290)、1729 99(8)、1807 1600(250)、1987 960(240)、1997 72(6)、2018 580(60)、2124 84(6)fs，均作者结果而非本次新测。见WA77-D17-3/8。
 - `61Ni` low-lying positive-parity states and negative-parity particle-hole configurations are compared with shell-model predictions; older Williams et al. assignments/lifetimes are explicitly contrasted, including disagreement for the 1454-keV spin and many lifetimes.
+
+### 1975 与 1977 的取向与关键支路
+
+Wadsworth 的方法段（印刷 36 页）给高斯型布居的两个变量 \(\beta,x\)，说明对取向参数与 \(\delta\) 共同极小化。原页没有可无歧义复用的完整指数写法、各跃迁最终宽度表或协方差。其做法与 [[williams-1975-61ni-low-lying-levels]] 的统计模型布居约束、以及后者 n–γ 分析的 \(m=\pm1/2\) 条件分别记录。两篇均无需按「缺少单一固定 \(\sigma/I\) 数值」推定其取向处理。
+
+| 对应支路 \(E_i\to E_f\) (keV) | Williams 1975 \(\delta\) | Wadsworth 1977 表 3 的 \(a_2,a_4\) | Wadsworth 1977 表 3 的 \(P,\delta\) |
+| --- | --- | --- | --- |
+| 909/908→0 | \(+0.20^{+0.16}_{-0.03}\) | \(-0.28(1),-0.02(1)\) | \(-0.15(3),+0.18(5)\) |
+| 909/908→67 | \([-1.19,-0.36]\) | \(+0.15(1),+0.02(2)\) | \(-0.17(6),-1.83(20)\) |
+| 1016/1015→0 | \(-0.03^{+0.12}_{-0.22}\) | \(+0.27(1),-0.09(1)\) | \(+0.45(6),+0.03(3)\) |
+| 1016/1015→67 | \(-2.5(5)\) | \(+0.47(1),+0.13(1)\) | \(-0.10(3),-2.46(15)\) |
+| 1611/1609→0 | \([+0.18,+2.75]\) | \(-0.40(1),+0.01(2)\) | \(-0.05(10),+0.33(14)\) |
+| 1611/1609→67 | \([-0.18,+0.18]\) | \(+0.16(1),0.00(2)\) | \(+0.35(10),+0.07(5)\) |
+
+表内 1977 量取自印刷 40 页。1975 的 909→67 与 1977 的 908→67 原报区间无重叠。两篇使用不同的偏振装置、统计布居约束和采集条件，保留各自的输入与不确定度。1977 年认为两篇 908/909 寿命差异可能与 \(F\) 的角度点数有关，属于作者提出的解释。
 
 ## Key Results
 
