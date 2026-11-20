@@ -46,6 +46,8 @@ RDDS 通过改变 target-stopper distance，比较核在飞行中发射的 shift
 
 [[watkins-2011-au175-pt174-pt175-rdds-thesis]] 使用反冲–α 标记 singles 及反冲–γγ 符合两种分析。singles 的侧馈控制取决于缺失馈入的强度和时间行为。读 DDCM 的分母应核对自变量，时间斜率 \(dQ/dt\) 等于速度乘距离斜率 \(v\,dQ/dd\)。该论文式 2.5、2.8 的印刷形式与这项量纲关系冲突。见学位 PDF 47–52、60–67、84–90。
 
+[[degraaf-1997-xe114-xe116-lifetime-thesis]] 的 ¹¹⁶Xe 对照表展示两种依赖。独立的科隆实验用移峰馈入门提取 \(2^+,4^+\) 寿命，对寿命接近停止时间的 \(6^+,7^-\) 态则改用谱形模拟。后者给 911.6 keV E1 支路的新强度时仍沿用旧分支比。逐项比较可将独立的时间信息与共用的分支信息保留在同一证据链里。见学位表 4.4、科隆论文表 1–3。
+
 ## What It Can Establish
 
 - source-specific level lifetimes；

@@ -6546,3 +6546,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — Stefanescu 的 A=69 谱学
 
 - 核读 136 页，记录 EUROBALL 的束能与触发条件、⁶⁹Se 的取向标定、DCO 和混合比双解、⁶⁹As 的组态边界。累计 39 份、6214 页，续接 DeGraaf。
+
+## 2026-11-20 — DeGraaf 的 Xe 反冲距离寿命
+
+- 核读 140 页，结合独立科隆原件和 ENSDF 分开记录寿命、分支与拟合条件。期刊勘误仍缺正文。累计 40 份、6354 页，续接 Morse。

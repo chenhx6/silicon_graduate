@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 39,
+  "completed_full_sources_this_run": 40,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T13:48:32.571533+00:00",
+  "updated_at": "2026-11-20T14:05:24.266642+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 6214,
-  "current_source_note": "knowledge/sources/stefanescu-2004-a69-euroball-thesis.md",
-  "next_action": "DeGraaf 1997: verify the 114,116Xe gamma spectroscopy and interpret the intruder candidate bands.",
+  "completed_primary_pages_this_run": 6354,
+  "current_source_note": "knowledge/sources/degraaf-1997-xe114-xe116-lifetime-thesis.md",
+  "next_action": "Morse 2015 PhD confirmed. Next reconstruct 70As lineshape evidence and the second lifetime study.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Stefanescu 69Se 105-MeV alignment calibration, complementary double roots and 69As model limits.",
-  "current_source_scientific_acceptance": "Stefanescu 136-page thesis scope complete, using image OCR and original figures. Two journal records are abstract-level only.",
-  "source_scoped_retrieval": "Two journal entries identity-checked and archived as metadata/abstract."
+  "last_source_manager_closure": "DeGraaf Ni+Ni RDM, 114Xe indirectly bounded 3- and independent 2023 116Xe lifetimes with shared branch provenance.",
+  "current_source_scientific_acceptance": "DeGraaf 140/143 scientific and bibliographic pages; independent 116Xe crosswalk verified and erratum content pending.",
+  "source_scoped_retrieval": "Archived 2023 EPJA version of record, two vintage ENSDF evaluations, and PRC/erratum metadata."
 }

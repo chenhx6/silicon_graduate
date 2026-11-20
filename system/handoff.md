@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — DeGraaf 的 ¹¹⁴,¹¹⁶Xe 寿命与科隆复测
+
+- [[degraaf-1997-xe114-xe116-lifetime-thesis]] 核读 140 页，保留 ¹¹⁴Xe \(3^-\) 的下游馈入约束、¹¹⁶Xe 独立符合复测及 \(7^-\) 强度的旧分支依赖。1998 年期刊和 1999 年勘误本次取得书目，尚未核定勘误正文。
+- 累计 40 份、6354 页。续接 Christopher Scott Morse 的 ⁷⁰As 等核素寿命博士论文（Michigan State University，2015，181 页），`etd_2784_Original_file.pdf` 的题页、摘要及 SHA 已核。
+
 ## 2026-11-20 — Stefanescu 的 ⁶⁹Se 取向标定和 ⁶⁹As 高旋结构
 
 - [[stefanescu-2004-a69-euroball-thesis]] 恢复字形异常的原件并核读 136 页。记下 105 MeV 的强 E2 取向标定、773.3 keV 双解和 155°/90° 的 DCO 角组。对应两篇 PRC 达到书目与摘要核验，仍缺逐表全文对照。
