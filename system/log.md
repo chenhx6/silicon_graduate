@@ -6463,3 +6463,8 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - Ndayishimye 2016 定向核验表 4.1、固定 \(\sigma/I=0.3\) 的纯多极参照和双击散射不对称。2017、2018、2019 三个出版版本定位并留档。按能级及支路处理谱带改号，保留 810 keV \(A_p\) 的版本差异和长轴竞争。
 
 - 完成 151 页科研和书证。补核 ¹⁹²Tl 的候选双带、¹⁹³Tl 的 RSAM 标定与误差、转子模型的印刷公式。累计 22 份、4071 页，续核 Valbuena 的 ⁹⁸Ru。
+
+## 2026-11-20 — Agent 工程能力适配
+
+- 从 12 个固定 GitHub 来源吸收开发、隔离、验收和实验做法。`agent_checks.py` 提供本地原日志回执、FTS5 查询、结果断言、Python 调用点与结构对比。来源、许可、文件哈希和用法见 `system/workflows/agent-engineering.md`。
+- `literature_learning.py layout` 实测定位 Ayangeakaa 学位论文 PDF 120 页文本块。无头 Chromium 验证用角色定位、点击后状态断言和截图。新工具与文献流程 14 项回归、`get-paper` 21 项回归通过，命令包装器实测保留退出状态 7。

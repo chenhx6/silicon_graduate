@@ -76,6 +76,21 @@ class EvidenceTests(unittest.TestCase):
                 learning.evidence(self.root, [str(report)], "report", 3)
             extract.assert_not_called()
 
+    def test_page_layout_keeps_coordinates_and_physical_page_identity(self):
+        fixture = b"""<html xmlns="http://www.w3.org/1999/xhtml"><body><doc>
+        <page width="612" height="792"><flow>
+        <block xMin="72" yMin="80" xMax="200" yMax="92">
+        <line><word>systematic</word><word>uncertainty</word></line>
+        </block></flow></page></doc></body></html>"""
+        with patch.object(learning, "extract_pdf", return_value=fixture) as extract:
+            result = learning.pdf_layout(self.root, self.path, 12)
+        extract.assert_called_once_with(self.pdf, ["-f", "12", "-l", "12", "-bbox-layout"])
+        self.assertEqual(result["pdf_page"], 12)
+        self.assertEqual(result["sha256"], learning.file_hash(self.pdf))
+        self.assertEqual(result["blocks"], [{
+            "bbox_pt": [72.0, 80.0, 200.0, 92.0], "lines": ["systematic uncertainty"],
+        }])
+
 
 class ScreeningTests(unittest.TestCase):
     def setUp(self):

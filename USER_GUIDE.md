@@ -401,6 +401,8 @@ Codex 中的定时续跑不是 Windows 任务计划程序，也不能仅靠“�
 在已归档的 Casarella 和 Ayangeakaa 学位论文中，定位 DSAM 停止本领误差的原页。先查估计过程，再核对误差是否已经计入寿命结果。
 ```
 
+工具开发或审查时，可以先找最小完整的改动，再用短预览查看测试结果、按关键词回到原始日志，或对上次结果重放断言。[Agent 开发与验收命令](system/workflows/agent-engineering.md)
+
 在 Codex App 中打开 Wiki 项目，输入 `$wiki-evolution` 并加一个想改善的环节。技能会在 GitHub 查找相关项目、下载固定版本的原文件供阅读，并在有合适证据时整合一项本地改进。加上“只调研”可只获取候选和评估。
 
 ```text

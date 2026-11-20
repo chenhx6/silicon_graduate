@@ -55,6 +55,7 @@ A≈130 是重要研究锚点，不是收录边界。是否建立核素、实验
 - 定时续跑：`system/workflows/scheduled-continuation.md`
 - 健康检查：`system/workflows/lint.md` 和 `check.md`
 - 路径契约与漂移检查：`system/path-contract.md`、`system/scripts/wiki_boundary_check.py`
+- 开发、审查、长日志定位与结果回放：`system/workflows/agent-engineering.md`
 - 原始材料留档：`system/workflows/research-archive.md`、`system/scripts/wiki_archive_gate.py`
 - 本地文献发现与获取前预查：`.agents/skills/local-literature-archive/SKILL.md`、`system/workflows/local-literature-archive.md`；智能体内部使用，目录登记不代表学习，不因查询自动修复 source 或原件。
 

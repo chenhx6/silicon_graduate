@@ -13,6 +13,7 @@ import re
 import subprocess
 import tempfile
 import unicodedata
+from xml.etree import ElementTree
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -56,6 +57,16 @@ def raw_pdf(root, name):
     return resolved, (Path("raw") / resolved.relative_to(raw_root)).as_posix()
 
 
+def extract_pdf(path, options):
+    result = subprocess.run(
+        ["pdftotext", "-enc", "UTF-8", *options, str(path), "-"],
+        stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=120, check=False,
+    )
+    if result.returncode:
+        raise ValueError(f"pdftotext failed for {path.name}: {result.stderr.decode('utf-8', errors='replace').strip()}")
+    return result.stdout
+
+
 def pdf_pages(path, digest, directory):
     directory.mkdir(parents=True, exist_ok=True)
     cache = directory / f"{digest}.json"
@@ -65,13 +76,7 @@ def pdf_pages(path, digest, directory):
             return pages
     except (FileNotFoundError, ValueError):
         pass
-    result = subprocess.run(
-        ["pdftotext", "-layout", "-enc", "UTF-8", str(path), "-"],
-        stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=120, check=False,
-    )
-    if result.returncode:
-        raise ValueError(f"pdftotext failed for {path.name}: {result.stderr.decode('utf-8', errors='replace').strip()}")
-    pages = result.stdout.decode("utf-8").split("\f")
+    pages = extract_pdf(path, ["-layout"]).decode("utf-8").split("\f")
     if len(pages) > 1 and not pages[-1].strip():
         pages.pop()
     if file_hash(path) != digest:
@@ -85,6 +90,36 @@ def pdf_pages(path, digest, directory):
         finally:
             temporary_path.unlink(missing_ok=True)
     return pages
+
+
+def pdf_layout(root, name, page_number):
+    if page_number < 1:
+        raise ValueError("PDF pages start at 1")
+    path, relative = raw_pdf(root, name)
+    digest = file_hash(path)
+    page_argument = str(page_number)
+    raw = extract_pdf(path, ["-f", page_argument, "-l", page_argument, "-bbox-layout"])
+    page = ElementTree.fromstring(raw).find(".//{*}page")
+    if page is None:
+        raise ValueError(f"no layout returned for PDF page {page_number}")
+    if file_hash(path) != digest:
+        raise ValueError(f"original changed during extraction: {path.name}")
+    blocks = []
+    for block in page.findall(".//{*}block"):
+        lines = [
+            " ".join("".join(word.itertext()) for word in line.findall("{*}word"))
+            for line in block.findall("{*}line")
+        ]
+        if any(lines):
+            blocks.append({
+                "bbox_pt": [float(block.attrib[key]) for key in ("xMin", "yMin", "xMax", "yMax")],
+                "lines": lines,
+            })
+    return {
+        "raw_file": relative, "sha256": digest, "pdf_page": page_number,
+        "width_pt": float(page.attrib["width"]), "height_pt": float(page.attrib["height"]),
+        "coordinate_origin": "top-left", "blocks": blocks,
+    }
 
 
 @dataclass
@@ -347,6 +382,9 @@ def main():
     followup.add_argument("--gap", required=True)
     followup.add_argument("--pdf", action="append", default=[])
     add_search_args(followup)
+    layout = commands.add_parser("layout", help="locate text blocks and coordinates on one archived PDF page")
+    layout.add_argument("pdf")
+    layout.add_argument("--page", required=True, type=int)
     rank = commands.add_parser("screen", help="rank unscreened records from prior decisions")
     simulate = commands.add_parser("replay", help="compare active screening to the supplied order")
     for command in (rank, simulate):
@@ -359,6 +397,8 @@ def main():
             result = evidence(ROOT, args.pdf, args.query, args.limit)
         elif args.command == "followup":
             result = evidence(ROOT, args.pdf, args.query, args.limit, args.gap, args.receipt)
+        elif args.command == "layout":
+            result = pdf_layout(ROOT, args.pdf, args.page)
         else:
             manifest_bytes = Path(args.candidates).read_bytes()
             label_bytes = Path(args.labels).read_bytes() if args.labels else None
@@ -370,7 +410,7 @@ def main():
     except FileNotFoundError as error:
         message = "pdftotext is required for PDF searches (install Poppler)" if error.filename == "pdftotext" else str(error)
         parser.exit(2, f"literature_learning: {message}\n")
-    except (OSError, ValueError, KeyError, TypeError, AttributeError, subprocess.TimeoutExpired) as error:
+    except (OSError, ValueError, KeyError, TypeError, AttributeError, ElementTree.ParseError, subprocess.TimeoutExpired) as error:
         parser.exit(2, f"literature_learning: {error}\n")
     print(json.dumps(result, ensure_ascii=True, indent=2))
 

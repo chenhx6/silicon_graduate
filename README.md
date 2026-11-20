@@ -51,6 +51,7 @@ A≈130 是当前研究锚点，不是 Wiki 的收录边界。v2 的设计决策
 | 查询知识库 | [system/workflows/query.md](system/workflows/query.md) |
 | 跨来源综合与反向检验 | [system/workflows/reflect.md](system/workflows/reflect.md) |
 | 原文定位、按缺口补读与筛选反馈 | [system/workflows/literature-learning.md](system/workflows/literature-learning.md) |
+| Agent 开发、日志检索与回归验收 | [system/workflows/agent-engineering.md](system/workflows/agent-engineering.md) |
 | L0–L4 科研自治、每周自测与人工关口 | [system/workflows/autonomous-research.md](system/workflows/autonomous-research.md) |
 | Agent 能力采用、hook 与 farmer 恢复 | [system/agent-capability-adoption.md](system/agent-capability-adoption.md) |
 | 用 `$wiki-evolution` 从 GitHub 学习 Agent 技能与 hook | [system/agent-capability-upgrade.md](system/agent-capability-upgrade.md) |

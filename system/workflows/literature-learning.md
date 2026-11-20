@@ -19,6 +19,12 @@ python3 system/scripts/literature_learning.py evidence \
   > tmp/literature-learning/round-1.json
 ```
 
+需要核对多栏、表格位置或图注时，可对候选原页运行 `layout`。它给出物理页、页面尺寸和各文本块的边界坐标，量纲为点，原点在页面左上角。用页面图像核对实际列顺序、单元格与脚注。扫描图像或公式的核对仍依赖相应的原页图像。
+
+```bash
+python3 system/scripts/literature_learning.py layout raw/theses/PAPER.pdf --page 120
+```
+
 ## 按证据缺口补读
 
 读过首批命中页后，把能改变判断的缺口写成一个问题。用不同术语定位方法、误差传播、反例或灵敏度前提。复用上一轮原件与分轮清单，可追加另一件已归档原件。收据保留父回执哈希，标明哪些页以前出现过。以前出现过的页仍可含有同一问题的另一条决定性证据。发现版本变化时，按新底本重建检索记录。

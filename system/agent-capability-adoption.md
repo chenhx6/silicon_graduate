@@ -30,6 +30,7 @@ updated: 2026-09-10
 | `auto` | 用户明确要求无人值守或连续执行 | 上游 `auto` skill + Codex goal | 只在用户授权范围内循环；不越过 L0–L4、人工审核、raw 和 Git 发布关口 |
 | `up` | 升级技能、工具、hook、插件或吸收外部实践 | 上游 `up` skill + 本页来源表 | 先基线、固定提交、许可/安全/兼容审查，再最小改动和回归；不把 star 当质量结论 |
 | `wiki-evolution` | 在 Wiki 中手动学习和适配外部能力 | `$wiki-evolution` + [`system/agent-capability-upgrade.md`](agent-capability-upgrade.md) | 按固定提交读取原文件，每轮最多采用一项通过本地验证的改进 |
+| 工程验证工具 | 开发验收、日志查找、Python 结构检查与实验对照 | [`system/workflows/agent-engineering.md`](workflows/agent-engineering.md) | 按需从终端运行，来源对应固定版本 |
 | `evolution` | 通用外部能力初筛 | 已安装的 `evolution` skill | 报告候选和采用建议 |
 | `tag` | Git 标签查看或本地打标 | 上游 `tag` skill | 先看变更；普通标签可随已通过发布门的 final commit 自动同步，禁止改写已发布标签 |
 | `hook` | 会话启动、编辑前后和收尾检查 | `python3 system/scripts/wiki_hook.py` | 显式调用，不自动修改 Codex 配置；输入只作数据处理，不 source/eval 目标文件 |
