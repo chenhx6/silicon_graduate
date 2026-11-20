@@ -42,6 +42,8 @@ RDDS 通过改变 target-stopper distance，比较核在飞行中发射的 shift
 
 当 lifetime 与 stopper 中 slowing time 可比时，停止过程内发射产生额外 line-shape component；纯 shifted/unshifted RDDS 近似不再充分。Klemme 1999 对 Au 中约 `1.1 ps` slowing time 使用 DSAM-like correction，并因 stopping-power ambiguity 给 adopted lifetime asymmetric errors。高统计和小 statistical error 不会消除这项系统边界。
 
+快束 RDDS 中，减速片再次库仑激发可与在靶中激发后飞至片内或片后才衰变的分量共同进入慢峰。可用远距离数据约束前者，并在谱形中跟踪靶、间隙、减速片及片后的速度和效率。Rother 的拟合激发比 \(D\) 需通过分段权重进入谱形，远距离慢峰只在相应的接受度和效率下约束其产额。⁶²Fe 的后环污染与 ⁶⁴Fe 双环同时拟合未收敛分别导致两种处理。见 [[rother-2011-fe62-fe64-fe66-rdds-thesis]]，PDF 49–63、79–90，表 4.7 及式 A.23。
+
 ## What It Can Establish
 
 - source-specific level lifetimes；

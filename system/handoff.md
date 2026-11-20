@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Rother 快束 RDDS 原件与期刊表核验
+
+- [[rother-2011-fe62-fe64-fe66-rdds-thesis]] 核完 98/107 页科研及书证。NSCL 期刊稿与学位论文使用同一数据，Ljungvall 的 GANIL 结果为独立采集。保留 ⁶²Fe 的 7.8(10) 与 8.0(10) ps 表位，分开记录 \(D\) 与长距离产额比，并将方法要点写回 RDDS 页。
+- 累计 24 份、4269 页。续读 Jodidar 2024 的 ¹²⁰La、¹¹⁷Cs、¹¹⁴I。已核巴黎萨克雷大学学位身份、答辩日期及 160 页 HAL 原件。PDCO/PDM 和 Hamilton 由另一会话维护，学习提交按路径隔离。
+
 ## 2026-11-20 — Valbuena ⁹⁸Ru 科研范围核验
 
 - [[valbuena-2020-ru98-beta-decay-thesis]] 已核 100/104 页科研、书证和附录。对照一份出版 PDF，保留 1817 keV 弱分支、2013/2428 keV 的独立转移自旋依据及出版表差异。补入不同计数口径、分支误差导数及 \(\tau/T_{1/2}\) 条件。

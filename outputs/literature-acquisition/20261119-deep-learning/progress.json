@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "bytes:1e711e219ee9eed9b4a78159af756910747d27e86e1ca266fdc53a9f0fa855e9",
+  "active_source": "doi:10.70675/abfc0f86z9e4cz4846zbe99z430bd2176784",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 23,
+  "completed_full_sources_this_run": 24,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T09:49:36.311160+00:00",
+  "updated_at": "2026-11-20T10:13:20.104698+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 4171,
-  "current_source_note": "knowledge/sources/valbuena-2020-ru98-beta-decay-thesis.md",
-  "next_action": "Rother 2011: follow 62,64,66Fe lifetime and experimental feeding controls.",
+  "completed_primary_pages_this_run": 4269,
+  "current_source_note": "knowledge/sources/rother-2011-fe62-fe64-fe66-rdds-thesis.md",
+  "next_action": "Jodidar 2024: read 120La, 117Cs, 114I and trace Jurogam 3 + MARA assignments and journal lineages.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Valbuena 98Ru science and appendix coverage reconciled, plus relevant published branching table.",
-  "current_source_scientific_acceptance": "Valbuena thesis 100/104, plus publication comparison not separately counted. Rother title, examination and archive identity checked.",
-  "source_scoped_retrieval": "SCOAP3 published 98Ru article held for direct comparison with the thesis."
+  "last_source_manager_closure": "Rother 98/107 primary scientific and bibliographic pages reconciled with PRL and independent GANIL measurement.",
+  "current_source_scientific_acceptance": "Rother complete for scientific and bibliographic scope. Jodidar HAL thesis identity and SHA verified.",
+  "source_scoped_retrieval": "APS CHORUS accepted manuscript is archived for the Rother thesis comparison."
 }

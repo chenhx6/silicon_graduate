@@ -6474,3 +6474,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - 从 12 个固定 GitHub 来源吸收开发、隔离、验收和实验做法。`agent_checks.py` 提供本地原日志回执、FTS5 查询、结果断言、Python 调用点与结构对比。来源、许可、文件哈希和用法见 `system/workflows/agent-engineering.md`。
 - `literature_learning.py layout` 实测定位 Ayangeakaa 学位论文 PDF 120 页文本块。无头 Chromium 验证用角色定位、点击后状态断言和截图。新工具与文献流程 14 项回归、`get-paper` 21 项回归通过，命令包装器实测保留退出状态 7。
+
+## 2026-11-20 — Rother ⁶²,⁶⁴,⁶⁶Fe RDDS
+
+- 核验学位论文 98 页及同实验 PRL 录用稿。记录 ⁶²Fe 两张寿命表的差异、分段谱形中的减速片激发比、⁶⁴Fe 分步拟合及独立 GANIL 数据。累计 24 份、4269 页，续读 Jodidar。

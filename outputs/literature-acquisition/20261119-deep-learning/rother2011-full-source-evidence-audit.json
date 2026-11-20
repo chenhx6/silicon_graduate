@@ -1,0 +1,45 @@
+{
+  "work_id": "bytes:1e711e219ee9eed9b4a78159af756910747d27e86e1ca266fdc53a9f0fa855e9",
+  "source_note": "knowledge/sources/rother-2011-fe62-fe64-fe66-rdds-thesis.md",
+  "auditor": "Codex",
+  "primary_pdf_pages": 107,
+  "primary_scientific_and_bibliographic_pages_covered": 98,
+  "covered_sections": [
+    "PDF 1–13: bibliographic identity, contents and motivation",
+    "PDF 14–45: beam, plunger, SeGA, incoming/outgoing PID and gamma calibration",
+    "PDF 47–63: velocity and geometry anchors, response normalization, degrader excitation and lifetime fits",
+    "PDF 65–77: rate conversion, systematics, valence proton symmetry and LNPS comparison",
+    "PDF 79–90: Appendix A population, decay, energy, efficiency and summed response",
+    "PDF 91–101: bibliography and identification of the independent GANIL result"
+  ],
+  "excluded_non_scientific_or_divider_pages": [
+    46,
+    64,
+    78,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107
+  ],
+  "scientific_coverage_complete": true,
+  "thesis_archive_manifest": "raw/theses/gpt/query/20261119-international-nuclear-structure/manifest-user-recheck.json",
+  "comparison_archive_manifest": "raw/papers/gpt/query/20261120-rother-fe-rdds-crosswalk/manifest.json",
+  "comparison_coverage": "APS CHORUS accepted manuscript PDF 1–5, including cover. The NSCL dataset is shared. Ljungvall HDR PDF 127–131 includes the independently acquired GANIL experiment.",
+  "key_visual_pages": {
+    "thesis": [
+      59,
+      90
+    ],
+    "accepted_manuscript": [
+      4
+    ]
+  },
+  "remaining": [
+    "The 62Fe lifetime is 7.8(10) ps in thesis Table 4.7 and 8.0(10) ps in thesis Table 5.2 and PRL Table I. The comparison keeps the reported entries separately.",
+    "Appendix A.23's target/degrader bin-width prefactor and fitted excitation parameter are recorded as printed. The experiment's fitting code and event data were not reproduced.",
+    "The Reported fit-error conventions and the long-distance measured yield ratio do not provide the event-level covariance or a conversion to the thesis excitation ratio."
+  ],
+  "next_work": "doi:10.70675/abfc0f86z9e4cz4846zbe99z430bd2176784"
+}

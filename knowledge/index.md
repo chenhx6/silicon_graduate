@@ -42,6 +42,7 @@ updated: 2026-11-20
 - [[jamieson-2014-cd112-neutron-transfer-thesis]] — ¹¹²Cd 单中子转移、反应模型的谱强度及 \(5^-\) 组态竞争。
 - [[ndayishimye-2016-tl192-tl193-chirality-thesis]] — ¹⁹³Tl 三条带的版本编号、角量分类与长轴转动竞争。
 - [[valbuena-2020-ru98-beta-decay-thesis]] — ⁹⁸Ru 的弱分支、两中子转移自旋与形状解释。
+- [[rother-2011-fe62-fe64-fe66-rdds-thesis]] — 快束 RDDS 的减速片再激发、寿命误差与 ⁶²,⁶⁴,⁶⁶Fe 集体性。
 - [[hungerford-1979-ill-angular-correlation-164dy]] — U001 章节原件与角关联方法范围。
 - [[madiba-2008-190tl-dco-polarization-thesis]] — 首篇完整正文阅读：190Tl 实验链、门依赖、不对称度与指认边界；形式定义原始出处尚待核对。
 - [[li-2016-algebraic-collective-core-quasiparticle-thesis]] — 软/刚核芯与准粒子耦合、135Pr及109Pd比较、ACM实现与原件公式边界；不新增独立实验。
