@@ -6490,3 +6490,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — Watkins Au/Pt 反冲标记寿命
 
 - 核验学位论文 102 页及 ¹⁷⁵Au 期刊出版版。保存 ¹⁷⁴Pt 的未解峰、同次采集不同角组及侧馈条件，分开记录学位与期刊的强度和上限。累计 27 份、4596 页，续读 Petts。
+
+## 2026-11-20 — Petts Hg 寿命与重取向证据
+
+- 核验学位论文 178 页，追回同实验寿命表与两版库仑激发结果。采用各版本内转换、分支、寿命输入和误差；保留共用采集及形状文字的符号差异。累计 28 份、4774 页，续读 Ali。

@@ -38,6 +38,8 @@ It does not uniquely prove a rigid static shape, a single β3 value or an EDM en
 
 [[alder-1956-coulomb-excitation-review]] is the historical foundation for the classical/quantum trajectory, higher-order, detector and normalization boundaries used in modern Coulomb-excitation analyses.
 
+[[petts-2010-hg182-hg186-collectivity-thesis]] 的 Hg 拟合用同靶 Cd 产额归一，并引入 JYFL 寿命。省去寿命项的图解只在其它耦合固定时检验目标矩阵元。2019 年重分析订正了总内转换系数和分支比，并因 E0 约束不足及拟合敏感性省列若干 \(2^+\) 对角项。应用此类结果时应保留采集重合、归一和寿命输入依赖、拟合版本及所报告矩阵元。见学位 PDF 138–151、EPJA PDF 11–13。
+
 ## Counter-evidence and Competing Interpretations
 
 Fit correlations, target matrix-element assumptions, lifetime/branching inputs, contaminant beams and soft-vibrational versus static-octupole interpretations must be retained.

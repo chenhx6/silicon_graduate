@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Petts 汞核寿命与库仑激发
+
+- [[petts-2010-hg182-hg186-collectivity-thesis]] 核完 178/191 页。对照 Grahn 2009 同一 RDDS 数据、Bree 2014 与 Wrzosek-Lipska 2019 的 REX–ISOLDE 分析。2019 表 1 给出 2008 年同镉靶采集范围，并订正内转换及分支输入。按版本保存受 GOSIA 约束的结果和省列的对角元。
+- 累计 28 份、4774 页。续读 Fuad Arif Ali 2014 的 ¹⁷⁷Au 论文。115 页 Liverpool 博士论文原件与哈希已核。
+
 ## 2026-11-20 — Watkins 反冲标记 RDDS 和 Au/Pt 形状证据
 
 - [[watkins-2011-au175-pt174-pt175-rdds-thesis]] 核完 102/105 页及同次 ¹⁷⁵Au 期刊出版版。分别记录 singles 和符合的侧馈条件、¹⁷⁴Pt 峰重叠、¹⁷⁵Au 977/997 keV 及 \(B(E1)\) 量级差异。DDCM 导数的量纲核查写回 [[recoil-distance-doppler-shift]]。

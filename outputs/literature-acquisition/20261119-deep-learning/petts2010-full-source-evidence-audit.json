@@ -1,0 +1,62 @@
+{
+  "work_id": "doi:10.17638/00003073",
+  "source_note": "knowledge/sources/petts-2010-hg182-hg186-collectivity-thesis.md",
+  "auditor": "Codex",
+  "primary_pdf_pages": 191,
+  "primary_scientific_and_bibliographic_pages_covered": 178,
+  "covered_sections": [
+    "PDF 1, 7, 11–13 and 15–41: bibliographic identity, physics background and Hg configurations",
+    "PDF 43–100: Coulomb excitation, reorientation, optional lifetime constraints, DDCM, separator, tagging, MINIBALL and particle electronics",
+    "PDF 101–117: JYFL 182Hg same-run coincidence RDDS, normalization and sensitivity",
+    "PDF 119–151 and 153–161: Cd normalization, angular yields, GOSIA and conditional plots, E0 and version comparison",
+    "PDF 163–191: bibliography, event-selection locators and appendix peak areas for two rings"
+  ],
+  "excluded_non_scientific_or_divider_pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    14,
+    42,
+    118,
+    152,
+    162
+  ],
+  "scientific_coverage_complete": true,
+  "thesis_archive_manifest": "raw/theses/gpt/query/20261119-international-nuclear-structure/manifest-acquisition-batch1.json",
+  "comparison_archives": [
+    "raw/papers/gpt/query/20261120-petts-hg182-rdds-crosswalk/manifest.json",
+    "knowledge/sources/doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg.md",
+    "raw/papers/gpt/query/20261120-petts-coulex-updated-crosswalk/manifest.json"
+  ],
+  "comparison_coverage": "Grahn PRC 80 PDF 2 and 4 confirm identical 182Hg RDDS. Bree PRL 112 Table I reviewed. Wrzosek-Lipska EPJA 55 PDF 2–4 and 11–13 provide 2007/2008 run table, revised input and updated reported matrix elements.",
+  "key_visual_pages": {
+    "thesis": [
+      7,
+      107,
+      117,
+      142,
+      150
+    ],
+    "epja": [
+      12,
+      13
+    ]
+  },
+  "normalized_yield_arithmetic": {
+    "basis": "Thesis Table 4.1, PDF 107, Ring 1, 351-keV deexcitation and 1000 um distance. No DDCM refit.",
+    "shifted_counts": 215,
+    "degraded_counts": 309,
+    "shifted_fraction": 0.41030534351145037
+  },
+  "remaining": [
+    "Beam rates differ between the thesis and 2019 run descriptions. The shared 2008 Cd conditions establish overlap at campaign/setting level; complete event identity is unverified.",
+    "The plotted no-lifetime checks hold other fitted matrix elements fixed. The 2019 analysis updates conversion inputs, includes correlation and omits 182,184Hg diagonal values; do not count older diagonal signs as independent support.",
+    "The thesis DDCM derivative has a printed dimensional conflict and the 186Hg shape wording conflicts with its sign and conclusion. The original analysis code, fit cards and fine-grained model covariance were not reproduced."
+  ],
+  "next_work": "doi:10.17638/02002600"
+}

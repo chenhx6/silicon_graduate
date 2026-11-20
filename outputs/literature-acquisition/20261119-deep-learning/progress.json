@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.17638/00003073",
+  "active_source": "doi:10.17638/02002600",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 27,
+  "completed_full_sources_this_run": 28,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T10:49:40.440678+00:00",
+  "updated_at": "2026-11-20T11:10:02.260526+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 4596,
-  "current_source_note": "knowledge/sources/watkins-2011-au175-pt174-pt175-rdds-thesis.md",
-  "next_action": "Petts 2010: read neutron-deficient Hg lifetimes and shape-coexistence evidence.",
+  "completed_primary_pages_this_run": 4774,
+  "current_source_note": "knowledge/sources/petts-2010-hg182-hg186-collectivity-thesis.md",
+  "next_action": "Ali 2014: 177Au recoil-decay tags, intruder configurations, and shape coexistence evidence.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Watkins 102/105 pages and matching 175Au APS publication checked.",
-  "current_source_scientific_acceptance": "Watkins completed at scientific/bibliographic scope. Petts Liverpool original identity verified.",
-  "source_scoped_retrieval": "APS 175Au PRC 84 051302 archived and compared."
+  "last_source_manager_closure": "Petts 178/191 primary pages with Grahn, Bree and updated EPJA comparison.",
+  "current_source_scientific_acceptance": "Petts complete at scientific/bibliographic scope. Ali original identity and hash verified.",
+  "source_scoped_retrieval": "Updated Wrzosek-Lipska EPJA 55 130 archived for Petts/Bree shared-source and conversion comparison."
 }
