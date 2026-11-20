@@ -1,0 +1,64 @@
+{
+  "recorded_at": "2026-11-20T05:14:30.133118+00:00",
+  "chapter_sources": [
+    "knowledge/sources/chadderton-2025-fm250-conversion-electron-thesis.md"
+  ],
+  "raw_sha256": "afd4f4facb231d532475037d242815d0d051863dd66af32d7149ede458c043cf",
+  "previously_checked_pages": 52,
+  "newly_checked_pages": 28,
+  "physical_pages_checked": 80,
+  "source_total_pages": 172,
+  "remaining_pages": 92,
+  "covered_sections": [
+    {
+      "pdf_span": [
+        1,
+        2
+      ],
+      "scope": "Codex title and abstract"
+    },
+    {
+      "pdf_span": [
+        82,
+        159
+      ],
+      "scope": "Codex original-text reading of chapters 4–9 and part of conclusions"
+    }
+  ],
+  "extra_checked_pdf_pages": [
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "accepted_gemini_receipts": 0,
+  "verified_pages_and_checks": [
+    "PDF 82–87: pixel associations and selection boundaries.",
+    "PDF 88–100: efficiency normalization, random vs. other backgrounds, EPIC and PATRON assumptions.",
+    "PDF 101–109: reference overlays, separate new fitted half-lives and uncertainty boundaries."
+  ]
+}

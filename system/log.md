@@ -6415,3 +6415,4 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - 核对 172 页原件身份，以其题名页记 Jamie Chadderton。定向核 23 页，记录分壳转换、净计数窗和磁因子符号歧义，覆盖仍为局部。
 
 - Chadderton 第 6–9 章补核至 52 页。核对反冲/衰变标签、Fig. 7.4 的 K 门标签、电子窗对边界的敏感性和邻核两种组态解释。
+- 第 4–5 章补核后达 80 页。逐项区分时间随机背景、连续谱处理、模板与模拟输入、实测半衰期与历史曲线。
