@@ -1,0 +1,127 @@
+{
+  "status": "research-completed; GUI implementation pending",
+  "scopes": [
+    "E01",
+    "E02",
+    "E03"
+  ],
+  "production_core_changed": false,
+  "pypi_release_attempted": false,
+  "asymmetric_cases": 13,
+  "base_pdf_models": 6,
+  "acceptance_aware_accepted": 11,
+  "geometry_controls": 54,
+  "grid_selection_mappings": 81,
+  "grid_heldout_mappings": 12,
+  "grid_recommendation": {
+    "angle_step_deg": 0.1,
+    "sigma_over_i_step": 0.005,
+    "selection_passed": 9,
+    "selection_total": 9,
+    "heldout_passed": 6,
+    "heldout_total": 6
+  },
+  "limitations": [
+    "Gaussian grid study is not all asymmetric-model validation",
+    "Three delta=-10 selection cases exclude truth from68%HDI",
+    "Registry roundoff1e-12 not independently swept",
+    "Main30-case formal matrix and GUI integration not complete"
+  ],
+  "report": {
+    "path": "raw/writing/pado/20261029_review_v1/PDM/main.pdf",
+    "pages": 36,
+    "sha256": "9445ed5a8b90c190361b1a630d511471ad241dcc15e7761a438b0897e9779bcc"
+  },
+  "plan_pdf": {
+    "path": "outputs/plans/20261120-pdm-three-mode-rewrite/plan.pdf",
+    "pages": 18,
+    "sha256": "70f6fc644e602874fb151a590b5027dbc4799423417bea329aa4225824b32472"
+  },
+  "figure_audits": [
+    {
+      "figure": "asymmetric_pdf_comparison.pdf",
+      "check": "text",
+      "exit_code": 0
+    },
+    {
+      "figure": "asymmetric_pdf_comparison.pdf",
+      "check": "collision",
+      "exit_code": 0
+    },
+    {
+      "figure": "asymmetric_observation_models.pdf",
+      "check": "text",
+      "exit_code": 0
+    },
+    {
+      "figure": "asymmetric_observation_models.pdf",
+      "check": "collision",
+      "exit_code": 0
+    },
+    {
+      "figure": "asymmetric_parameter_sensitivity.pdf",
+      "check": "text",
+      "exit_code": 0
+    },
+    {
+      "figure": "asymmetric_parameter_sensitivity.pdf",
+      "check": "collision",
+      "exit_code": 0
+    },
+    {
+      "figure": "weighted_geometry_comparison.pdf",
+      "check": "text",
+      "exit_code": 0
+    },
+    {
+      "figure": "weighted_geometry_comparison.pdf",
+      "check": "collision",
+      "exit_code": 0
+    },
+    {
+      "figure": "grid_resolution_comparison.pdf",
+      "check": "text",
+      "exit_code": 0
+    },
+    {
+      "figure": "grid_resolution_comparison.pdf",
+      "check": "collision",
+      "exit_code": 0
+    },
+    {
+      "figure": "grid_injection_recovery.pdf",
+      "check": "text",
+      "exit_code": 0
+    },
+    {
+      "figure": "grid_injection_recovery.pdf",
+      "check": "collision",
+      "exit_code": 0
+    }
+  ],
+  "archive_source": "knowledge/sources/pdm-20261120-error-geometry-grid-study.md",
+  "archive_gate": {
+    "checked_manifests": [
+      "/workspace/wiki/raw/code/PDM/analysis/research/manifest.json"
+    ],
+    "checked_sources": [
+      "/workspace/wiki/knowledge/sources/pdm-20261120-error-geometry-grid-study.md"
+    ],
+    "failure_count": 0,
+    "failures": [],
+    "ok": true,
+    "scope": "paths"
+  },
+  "hook_after_edit": {
+    "archive_gate": {
+      "error": "archive gate timed out",
+      "ok": false,
+      "skipped": false
+    },
+    "diff_check": true,
+    "diff_stderr": "",
+    "event": "after-edit",
+    "ok": false,
+    "shell_checks": []
+  }
+}

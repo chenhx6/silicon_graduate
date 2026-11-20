@@ -1,7 +1,7 @@
 {
   "schema": "pdm-optimization-plan-v2",
   "updated": "2026-11-20",
-  "state": "awaiting_user_review",
+  "state": "research_completed_implementation_pending",
   "implementation_authorized": false,
   "approval_required": true,
   "goal_created": false,
@@ -13,9 +13,9 @@
     "historical_ledger": "delivery/0.1.0-task-ledger.json",
     "counts_are_not_new_acceptance": true
   },
-  "objective": "保留三模式PDM核，落实角空间HDI/ETI/mean及tan报告、全域viridis四联图与三评估数值、图6文献对照、指定sigma/I=.3与P80%/R10%注入恢复图表、缺失纯E2校准、易用教程与验收后新版本交付。",
+  "objective": "保留三模式PDM核，在已完成E01-E03研究基础上实现多探测器组/权重/phi选择、min/max/step网格、角空间逐HDI段mode及tan报告、全域viridis四联图和数值、文献对照与完整注入图表、易用教程，完成新版本回归和交付。",
   "plan_file": "outputs/plans/20261120-pdm-three-mode-rewrite/plan.md",
-  "plan_sha256": "2afe8f8e28f54573d9ed5bc0fc71dc2269a494e3245f461cf450430541ca394a",
+  "plan_sha256": "d1835ca7f1370ae20bb848979b3b27af96d00a7a6159c733410b75856a50840a",
   "readable_pdf": "outputs/plans/20261120-pdm-three-mode-rewrite/plan.pdf",
   "code_root": "raw/code/PDM",
   "handbook": "raw/writing/pado/20261029_review_v1/PDM/main.tex",
@@ -113,18 +113,84 @@
     ],
     "repeat_independent_noise_vectors": 300,
     "repeated_inversions": 600,
-    "seed": 20261120
+    "seed": 20261120,
+    "polarization_theta_deg": 90,
+    "azimuth_selection": false,
+    "ratio_polar_angles_deg": [
+      125,
+      90
+    ],
+    "pdco_gate_polar_angle_deg": 125,
+    "polarization_absolute_floor": 0.1075,
+    "polarization_error_rule": "max(.1075,.8*abs(P0)); floor from ten audited main-tier lines; synthetic only",
+    "ratio_error_rule": ".1*abs(R0) frozen baseline",
+    "polarization_error_policy": {
+      "kind": "relative_with_empirical_floor",
+      "relative_coefficient": 0.8,
+      "absolute_floor": 0.1075,
+      "synthetic_only": true,
+      "not_universal_experimental_precision": true,
+      "provenance": "raw/code/PDM/analysis/research/grid_resolution/frozen_inputs.json"
+    },
+    "sigma_over_i_confirmed": true
   },
   "open_questions": [],
   "analysis_installation": "Not a second package; notebooks are files, shared core installed once, [analysis] adds optional dependencies but does not download notebooks.",
   "release_version_proposed": "0.1.1",
   "tasks": [
     {
+      "id": "E01",
+      "title": "不对称误差的处理方案（本轮已授权）",
+      "depends_on": [],
+      "status": "completed",
+      "evidence": [
+        "raw/code/PDM/analysis/research/asymmetric_errors/results.json",
+        "raw/code/PDM/analysis/research/asymmetric_errors/acceptance_aware_results.json",
+        "raw/code/PDM/analysis/research/asymmetric_errors/README.md"
+      ],
+      "commands_run": [],
+      "changed_paths": [],
+      "unresolved_items": [],
+      "next_action": "Research complete; integrate into future GUI implementation, not a released feature.",
+      "specification": "### E01：不对称误差的处理方案（本轮已授权）\n\n- 文件：analysis/research/asymmetric_errors/内可复跑脚本、PDF采样、CSV/JSON；秘书同名章节及Python数据图。\n- 验收：实际执行旧拟合接受/回退与现行模型对比；区分q16/q84与正负1sigma量化定义；对称、两侧比例1.5/2/5及反射控制、至少一个真实不对称P；检查多初值对skew-normal拟合的影响。\n- 产出：归一化/分位数误差/连续性/中心解释/接受原因/尾部与支持域；同一固定响应下的观测二维密度及反演对照；不以三点拟合好就宣布模型最优。"
+    },
+    {
+      "id": "E02",
+      "title": "网格与数值阈值有界寻优（本轮已授权）",
+      "depends_on": [],
+      "status": "completed",
+      "evidence": [
+        "raw/code/PDM/analysis/research/grid_resolution/results.json",
+        "raw/code/PDM/analysis/research/grid_resolution/heldout.json",
+        "raw/code/PDM/analysis/research/grid_resolution/threshold_audit.json"
+      ],
+      "commands_run": [],
+      "changed_paths": [],
+      "unresolved_items": [],
+      "next_action": "Research complete; integrate into future GUI implementation, not a released feature.",
+      "specification": "### E02：网格与数值阈值有界寻优（本轮已授权）\n\n- 文件：analysis/research/grid_resolution/内脚本、冻结配置、计时、边缘数组和CSV/JSON；秘书网格研究图文。\n- 验收：P90deg、phi平均、三模式、小中大混合，比较0.1deg及更粗/更细角步长，sigma/I0.01与0.001等；实际步长明确；以角空间每段mode、ETI/HDI端点、CDF差/概率质量、边界敏感性及耗时选择推荐网格。\n- 同时改变仅警告阈值须保持PDF不变；记录机器精度退化判断的边界。留出未用于选择的工况检查推荐值，不以调整角度/误差来让粗网格通过。"
+    },
+    {
+      "id": "E03",
+      "title": "多组权重与方位平均核验（本轮已授权）",
+      "depends_on": [],
+      "status": "completed",
+      "evidence": [
+        "raw/code/PDM/analysis/research/geometry/results.json",
+        "raw/code/PDM/analysis/research/geometry/weighted_groups.py"
+      ],
+      "commands_run": [],
+      "changed_paths": [],
+      "unresolved_items": [],
+      "next_action": "Research complete; integrate into future GUI implementation, not a released feature.",
+      "specification": "### E03：多组权重与方位平均核验（本轮已授权）\n\n- 文件：analysis/research/geometry/内组响应研究脚本及结果；不替换发布核心。\n- 验收：直接核对用户135Pr的2:1/3强度式、P75.5deg；多个delta/宽度下比较生产振幅强度与旧系数公式；证明组退化为一行时回到现有响应，phi平均与phi=0区分。\n- 产出：明确组权重语义与真实原型数值，作为后续GUI实现输入；不能把研究原型说成GUI已完成。"
+    },
+    {
       "id": "U00",
       "title": "冻结本轮输入和基线",
       "depends_on": [],
       "status": "pending",
-      "specification": "### U00：冻结本轮输入和基线\n\n- 依赖：用户批准当前计划；标题与逐段mode定义已确认，不代表整项实施已获批准。\n- 文件：tasks.json；本轮tmp运行目录的baseline.json和输入清单；不改0.1.0 delivery回执。\n- 工作：读取本计划第2节与秘书标签，核对当前代码/发布版本及旧结果；冻结30工况、80%/10%误差、独立/同核标记和旧文献输入哈希。\n- 验收：不恢复已删目录、不重建物理核、不读取发布密钥；新账本与新goal关联，旧完成状态不继承。\n- 验证：导入核心并记录版本；逐项比对例文件自旋和几何；执行现有physics/responses/reference桥接测试。",
+      "specification": "### U00：冻结本轮输入和基线\n\n- 依赖：用户批准整体改造；E01--E03证据已核对，标题与逐段mode定义固定。\n- 文件：tasks.json；本轮tmp运行目录的baseline.json和输入清单；不改0.1.0 delivery回执。\n- 工作：读取本计划第2节与秘书标签，核对当前代码/发布版本及旧结果；冻结30工况、研究后选定的误差策略、探测器组/phi规则、独立/同核标记和旧文献输入哈希。\n- 验收：不恢复已删目录、不重建物理核、不读取发布密钥；新账本与新goal关联，旧完成状态不继承。\n- 验证：导入核心并记录版本；逐项比对例文件自旋和几何；执行现有physics/responses/reference桥接测试。",
       "evidence": [],
       "commands_run": [],
       "changed_paths": [],
@@ -138,7 +204,7 @@
         "U00"
       ],
       "status": "pending",
-      "specification": "### U01：角空间统计及tan报告\n\n- 依赖：U00。\n- 文件：contracts.py、pdm/statistics.py、io/export.py及统计测试。\n- 测试：构造归一三角/双峰PDF，验证q16/50/84、mean/std、逐HDI区间mode、HDI阈值与分段；双峰被分成两段时必须返回两个各在本段内的mode，不能复制全局峰；对所有端点/中心逐项tan，证明没有改为对delta重新求HDI；近边界均值/并列峰处理。\n- 验收：68%面积和归一误差<=1e-6，取向变换守恒；默认输出三评估、正确坐标元数据；Mean±SD不标68%概率保证。\n- 命令：GUI目录 `python -m pytest tests/test_statistics.py tests/test_mapping.py tests/test_export_measures.py -q`。",
+      "specification": "### U01：角空间统计及tan报告\n\n- 依赖：U00。\n- 文件：contracts.py、pdm/statistics.py、pdm/observations.py及必要的独立观测PDF模块、io/export.py及统计测试；误差模型的最终默认依据E01报告确定并显式记录。\n- 测试：构造归一三角/双峰PDF，验证q16/50/84、mean/std、逐HDI区间mode、HDI阈值与分段；双峰被分成两段时必须返回两个各在本段内的mode，不能复制全局峰；对所有端点/中心逐项tan，证明没有改为对delta重新求HDI；近边界均值/并列峰处理。\n- 验收：68%面积和归一误差<=1e-6，取向变换守恒；默认输出三评估、正确坐标元数据；Mean±SD不标68%概率保证。\n- 命令：GUI目录 `python -m pytest tests/test_statistics.py tests/test_mapping.py tests/test_export_measures.py -q`。",
       "evidence": [],
       "commands_run": [],
       "changed_paths": [],
@@ -166,7 +232,7 @@
         "U02"
       ],
       "status": "pending",
-      "specification": "### U03：GUI、输出与异步回归\n\n- 依赖：U02。\n- 文件：gui/results.py、必要的导出与GUI测试，不修改模式响应定义。\n- 工作：为增加的统计文本分配空间；保存/重开仍显示同一数值；不让全域渲染和输出阻塞输入区。\n- 验收：三模式真实计算，C/D数值可读；慢盘期间第二任务可提交/计算、单图可保存；PDF与JSON字段一致，无跨任务覆盖。\n- 命令：GUI目录 `QT_QPA_PLATFORM=offscreen python -m pytest tests/test_gui.py tests/test_app_regressions.py tests/test_jobs.py tests/test_io.py -q`；需要时Xvfb复验布局。",
+      "specification": "### U03：GUI、输出与异步回归\n\n- 依赖：U02。\n- 文件：gui/window.py、gui/results.py、contracts.py、模式config、组强度组装、必要的导出与GUI测试；保留三模式物理定义。\n- 工作：实现第2.6节多组(theta,phi,weight)编辑器与方位选择、第3.1节min/max/step和单位选择；为统计文字分配空间；保存/重开保持相同数值，几何/网格原样往返JSON。\n- 验收：三模式真实计算，C/D数值可读；慢盘期间第二任务可提交/计算、单图可保存；PDF与JSON字段一致，无跨任务覆盖。\n- 命令：GUI目录 `QT_QPA_PLATFORM=offscreen python -m pytest tests/test_gui.py tests/test_app_regressions.py tests/test_jobs.py tests/test_io.py -q`；需要时Xvfb复验布局。",
       "evidence": [],
       "commands_run": [],
       "changed_paths": [],
@@ -177,10 +243,11 @@
       "id": "U04",
       "title": "指定注入矩阵与缺失校准",
       "depends_on": [
-        "U01"
+        "U01",
+        "U03"
       ],
       "status": "pending",
-      "specification": "### U04：指定注入矩阵与缺失校准\n\n- 依赖：U01，可与U02/U03分目录并行。\n- 文件：analysis/scripts/run_benchmarks.py、新工况数据；physics/reference相关测试只增加校准断言。\n- 验收：30独立+30同核主记录，sigma/I全为0.3、P80%、两类R10%；3工况重复观测；公式(6)直接断言；纯E2可混合端点与禁M1纯项分开；全量记录含不符、分支与边界。\n- 命令：analysis目录 `python scripts/run_benchmarks.py --suite synthetic --check-xi-bounds --output benchmarks/sigma03_relP80_relR10`；执行前给runner增加并冻结本节默认/显式配置，使该命令确实跑新矩阵而非旧误差。保存完整配置与运行日志。",
+      "specification": "### U04：指定注入矩阵与缺失校准\n\n- 依赖：U01、U03的组响应接口；可与U05分目录并行。\n- 文件：analysis/scripts/run_benchmarks.py、新工况数据；physics/reference相关测试只增加校准断言。\n- 验收：30独立+30同核主记录，sigma/I全为0.3、误差策略有文献依据且不产生近零P假精度、两类R按冻结基线；3工况重复观测；公式(6)直接断言；纯E2可混合端点与禁M1纯项分开；全量记录含不符、分支与边界。\n- 命令：analysis目录 `python scripts/run_benchmarks.py --suite synthetic --check-xi-bounds --output benchmarks/sigma03_relP80_relR10`；执行前给runner增加并冻结本节默认/显式配置，使该命令确实跑新矩阵而非旧误差。保存完整配置与运行日志。",
       "evidence": [],
       "commands_run": [],
       "changed_paths": [],
@@ -191,10 +258,12 @@
       "id": "U05",
       "title": "图6与文献比较",
       "depends_on": [
-        "U01"
+        "U01",
+        "U03",
+        "E03"
       ],
       "status": "pending",
-      "specification": "### U05：图6与文献比较\n\n- 依赖：U01；与U04可并行。\n- 文件：文献runner、案例结果新版本、秘书figures/generate_figures.py。\n- 验收：A/C用delta；四图含图例及文献点；C/D自旋offset真实可查；HDI每段使用本段角mode及本段端点tan，ETI用角q50及端点tan；文献错误类型、固定sigma/I和缺值分开。\n- 命令：analysis目录分别执行 `python scripts/run_literature_cases.py --input cases --output cases/results_v0_1_1 --project-root ..` 和 `python scripts/run_followup_cases.py --output cases/followup/results_v0_1_1`；核对原输入哈希不变。",
+      "specification": "### U05：图6与文献比较\n\n- 依赖：U01、U03、E03；与U04可并行。\n- 文件：文献runner、案例结果新版本、秘书figures/generate_figures.py。\n- 验收：A/C用delta；四图含图例及文献点；C/D自旋offset真实可查；HDI每段使用本段角mode及本段端点tan，ETI用角q50及端点tan；文献错误类型、固定sigma/I和缺值分开。\n- 命令：analysis目录分别执行 `python scripts/run_literature_cases.py --input cases/grouped_geometry_v0_1_1 --output cases/results_v0_1_1 --project-root ..` 和 `python scripts/run_followup_cases.py --input cases/followup/grouped_geometry_v0_1_1 --output cases/followup/results_v0_1_1`；执行前生成有来源的新几何快照并适配runner，不覆盖旧JSON。核对原始观测数值及原件哈希不变，不能要求新几何JSON保持旧几何的哈希。",
       "evidence": [],
       "commands_run": [],
       "changed_paths": [],
@@ -226,7 +295,7 @@
         "U06"
       ],
       "status": "pending",
-      "specification": "### U07：秘书报告与数据图表\n\n- 依赖：U04、U05、U06。\n- 文件：PDM/main.tex、figures下Python脚本及数据清单、唯一main.pdf。\n- 验收：68%主口径一致、图6四图、真值/恢复值图和全部30条主表、明确旧/新误差配置；将“均待执行”等旧句在原处更新，公式理论值与运行值分开；每项结论有数据locator。\n- 命令：运行figures/generate_figures.py；XeLaTeX两遍、临时文件进tmp；逐页核对公式、引用、溢出与图例/数值。",
+      "specification": "### U07：秘书报告与数据图表\n\n- 依赖：U04、U05、U06。\n- 文件：PDM/main.tex、figures下Python脚本及数据清单、唯一main.pdf。\n- 验收：68%主口径一致、图6四图、真值/恢复值图和全部30条主表、正式“不对称误差的处理方案”章节与网格研究、明确旧/新误差配置；将“均待执行”等旧句在原处更新，公式理论值与运行值分开；每项结论有数据locator。\n- 命令：运行figures/generate_figures.py；XeLaTeX两遍、临时文件进tmp；逐页核对公式、引用、溢出与图例/数值。",
       "evidence": [],
       "commands_run": [],
       "changed_paths": [],
@@ -266,20 +335,17 @@
       "next_action": "Await user approval of this plan; do not start implementation."
     }
   ],
-  "completion_rule": "U00-U09 all require fresh evidence; inherit physics regression, not old completion checkmarks. New native goal starts only after user approves implementation.",
+  "completion_rule": "E01-E03 require actual fresh research/report evidence. Their completion is not U00-U09 completion. Historical0.1.0 acceptance stays in delivery; new GUI implementation remains separate.",
   "current_turn_scope": [
-    "plan.md",
-    "tasks.json",
-    "plan.pdf",
-    "knowledge execution contract",
-    "planning audit receipts"
+    "isolated research scripts/results",
+    "secretary report and Python data figures",
+    "plan/ledger/knowledge"
   ],
   "forbidden_this_turn": [
-    "implementation edits",
-    "rerunning scientific benchmarks",
-    "secret access",
+    "changing released GUI/core without integrated implementation",
     "PyPI publication",
-    "creating implementation goal"
+    "modifying original workbook or literature",
+    "reading release credentials"
   ],
   "grid_baseline": {
     "xi_min_rad": -1.56,
@@ -301,5 +367,84 @@
     ],
     "current_error_model": "median-centered piecewise normal transform; no skew-normal fit",
     "global_optimum_claim_allowed": false
-  }
+  },
+  "scoped_research_authorized": true,
+  "report_update_authorized": true,
+  "release_authorized": false,
+  "geometry_groups": {
+    "enabled_in_plan": true,
+    "default_phi_selection": false,
+    "unselected_phi": "intensity azimuth average, not phi=0",
+    "row_fields": [
+      "theta_deg",
+      "phi_deg_when_selected",
+      "weight"
+    ],
+    "normalization": "Explicit within-group weighted means by default; raw weighted sums selectable. No hidden change between these conventions.",
+    "Pr135_numerator": [
+      [
+        157.6,
+        2
+      ],
+      [
+        133.6,
+        1
+      ]
+    ],
+    "Pr135_denominator": [
+      [
+        75.5,
+        1
+      ]
+    ],
+    "Pr135_P_theta_deg": 75.5,
+    "Tb154_Tl190_primary": "unselected azimuth ring model",
+    "Pr135_raw_sum_denominator": [
+      [
+        75.5,
+        3
+      ]
+    ]
+  },
+  "grid_controls": {
+    "fields": [
+      "minimum",
+      "maximum",
+      "step"
+    ],
+    "angle_units": [
+      "deg",
+      "rad"
+    ],
+    "alignment_units": [
+      "sigma/I",
+      "sigma"
+    ],
+    "candidate_angle_step_deg": 0.1,
+    "candidate_sigma_over_i_step": 0.005,
+    "selection_requires_results": true,
+    "actual_steps_and_nodes_exported": true,
+    "recommended_angle_step_deg": 0.1,
+    "recommended_sigma_over_i_step": 0.005,
+    "fast_sigma_over_i_step": 0.01,
+    "recommendation_scope": "9 selection cases and6heldout cases; not universal",
+    "tested_user_proposal_sigma_over_i_step": 0.01
+  },
+  "current_tasks": [],
+  "study_workers": [
+    {
+      "id": "01a1f857-6879-70a3-b2a1-f89b5fa9fc6f",
+      "task": "E01",
+      "model": "codex/gpt-6.2-sol",
+      "effort": "high",
+      "status": "completed-integrated-closed"
+    },
+    {
+      "id": "01a1f857-69eb-74a3-9def-0cf55090b2b6",
+      "task": "E02",
+      "model": "codex/gpt-6.2-sol",
+      "effort": "high",
+      "status": "completed-integrated-closed"
+    }
+  ]
 }

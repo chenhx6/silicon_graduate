@@ -1,9 +1,9 @@
 {
-  "scope": "planning only; no implementation or scientific rerun",
-  "status": "awaiting_user_review",
-  "plan_sha256": "2afe8f8e28f54573d9ed5bc0fc71dc2269a494e3245f461cf450430541ca394a",
-  "pdf_sha256": "a271d8a679d16ed22e48da71c05c12d2d17aba32d771229139e1ddadca821e28",
-  "pdf_pages": 16,
+  "scope": "Authorized isolated research, report update and plan revision; no production GUI edits or publication",
+  "status": "research_completed_implementation_pending",
+  "plan_sha256": "d1835ca7f1370ae20bb848979b3b27af96d00a7a6159c733410b75856a50840a",
+  "pdf_sha256": "70f6fc644e602874fb151a590b5027dbc4799423417bea329aa4225824b32472",
+  "pdf_pages": 18,
   "fresh_pending_tasks": [
     "U00",
     "U01",
@@ -19,7 +19,7 @@
   "previous_release_ledger": "delivery/0.1.0-task-ledger.json",
   "plan_ledger_specifications_match": true,
   "public_software_files_unchanged": 118,
-  "secretary_pdf_unchanged": true,
+  "secretary_pdf_unchanged": false,
   "new_goal_created": false,
   "contract_schema_issues": [],
   "user_request_coverage": {
@@ -56,5 +56,16 @@
   "clipped_text_pages": [],
   "title_confirmed": "Full Range Marginalization; Constant Weight",
   "hdi_mode_definition": "Each connected HDI interval uses the coordinate attaining the highest PDF within that interval.",
-  "numerical_audit_scope": "Read-only current code and existing results; new threshold sweeps remain planned, not run."
+  "numerical_audit_scope": "Actual bounded grid and threshold experiments plus held-out cases; registry roundoff not swept",
+  "report_update_authorized": true,
+  "completed_studies": [
+    "E01",
+    "E02",
+    "E03"
+  ],
+  "study_report": {
+    "path": "raw/writing/pado/20261029_review_v1/PDM/main.pdf",
+    "pages": 36,
+    "sha256": "9445ed5a8b90c190361b1a630d511471ad241dcc15e7761a438b0897e9779bcc"
+  }
 }

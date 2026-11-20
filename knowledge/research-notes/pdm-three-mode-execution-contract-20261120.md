@@ -16,7 +16,7 @@ tags: [pdm, validation, pdco, polarization, benchmark-design, python-packaging]
 
 ## Research Trigger
 
-用户要求从零实现PDM核心及三个响应模块、友好GUI和Notebook；提供四联图、ETI/HDI、独立测试、真实核素案例和Python图文报告，并优先经PyPI发布。0.1.0已完成并发布；当前用户只要求在原计划上离线修订图形、统计、注入恢复与教程方案，正在审核，尚未授权执行新改造。旧完成goal不代表新任务完成。规格位于 `outputs/plans/20261120-pdm-three-mode-rewrite/plan.md`，任务状态仅由同目录 `tasks.json` 维护。
+用户要求从零实现PDM核心及三个响应模块、友好GUI和Notebook；提供四联图、ETI/HDI、独立测试、真实核素案例和Python图文报告，并优先经PyPI发布。0.1.0已完成并发布；用户现已授权实际研究不对称误差、网格/参数和加权几何，并更新秘书报告；GUI整体改造和新版本发布仍单独跟踪。旧完成goal不代表新任务完成。规格位于 `outputs/plans/20261120-pdm-three-mode-rewrite/plan.md`，任务状态仅由同目录 `tasks.json` 维护。
 
 ## Grounded Evidence
 
@@ -60,9 +60,15 @@ JSON示例随wheel提供，位于包资源examples目录：example.json为P_ADO�
 
 用户允许对未尽细节自主研究：先由本库定位原件，再按需合法获取外部原文并归档；记录问题、locator、条件、采用方式和核验。不得借自主研究静默改变已确定的共同参考态、P-DCO单线P或DCO条件定义；证据冲突需显式说明并处理，不为凑可运行结果猜缺失参数。
 
+## Detector Groups and Grid Controls
+
+用户确认不筛phi的实验按环合并模型处理；它意味着先做方位强度平均，不是phi=0，也不是4pi。154Tb/190Tl未来主模型采用此约定。GUI默认不勾选方位选择，phi列灰化；勾选时可填degree单位(theta,phi)。各ADO/DCO组及偏振目标/门均可多行，带相对有效权重；不重新处理实验效率。默认明确组内加权平均，原始加权和作为另一个显式选项，不能暗中改变归一化。135Pr输入2:1组权重即可重现用户公式；P真实角75.5deg不随合成测试P90deg而改变。
+
+网格GUI提供每坐标min/max/step和单位。角步长可用deg输入并仅换算一次为rad；sigma/I步长0.005在内部是I*0.005，不是sigma步长0.005。图仍显示arctan(delta)的pi分数刻度。研究推荐值只是有界样本下的稳定工作点，用户可改范围/步长，完整坐标/实际末段长度进入输出。
+
 ## Assumptions
 
-- 旧0.1.0实施授权已经执行完毕；本轮新计划等待审核，未授权改代码、跑新工况或发布。新发布仍须完整验收。
+- 旧0.1.0实施授权已经执行完毕；本轮E01--E03隔离研究与报告获授权；不等于授权将研究原型直接发布为新GUI。新发布仍须完整验收。
 - 上游共同Gaussian和已给路径参数保持二维反演；不能因都叫sigma就忽略参考态身份。
 - 全域图不能静默裁去有效响应点；渲染优化不改变原网格统计和完整覆盖，概率测度必须保留。
 - PyPI token仅在实际发布进程中读取与传入，不写文档/源码/日志；0.1.0已通过真实PyPI上传与公开元数据哈希回读；没有记录token值。
@@ -71,10 +77,10 @@ JSON示例随wheel提供，位于包资源examples目录：example.json为P_ADO�
 
 ## Current Planned Validation and Reporting
 
-以下是用户选定的下一轮合同，不是已完成的运行结果。完整执行规格在原plan和tasks中，U00--U09均待批准后执行。
+下列U00--U09是整体实现合同；本轮已授权并完成的E01--E03研究另有原始数据，不用其完成状态替代GUI接入。完整规格在原plan和tasks。
 
 - 注入主矩阵：三模式乘delta=-10,-5,-1,-0.5,-0.1,+0.1,+0.5,+1,+5,+10；用户的sigma_yy=0.3按上下文理解为sigma/I=0.3，源sigma=0.3*I，反演仍扫描宽度。
-- 输入误差：P左右正幅度0.8*abs(P0)，R_ADO/R_DCO左右正幅度0.1*abs(R0)。这组实验型误差与旧合成验证配置不同，不借旧结果冒充已测。30条独立9j生成主记录、30条同核自洽对照；另外三个代表工况各100独立噪声向量、两生成器成对处理，保留依赖关系。
+- 误差策略已按用户更新：80%/10%不作固定教条；本轮研究从10条已核主层P误差取得绝对下限0.1075，取max(0.1075,0.8abs(P0))并以R10%为基线。主矩阵在研究后冻结策略，不借旧配置结果冒充已测。30条独立9j生成主记录、30条同核自洽对照；另外三个代表工况各100独立噪声向量、两生成器成对处理，保留依赖关系。
 - 真值/恢复图和详细表必须同时交付：列注入delta、sigma/I、自旋/门/几何、P/R及误差、每个HDI区间的mode与边界、ETI三分位数、mean/std、真值包含、偏差、分支和边界警告。只画PDF而不标真值或只说测试通过不合格。
 - 公式(6)的2->0纯E2、m=0、W(45deg)=15/8、P(45deg)=+1需直接断言；可混合模型的纯E2端点恢复与选择定则禁止M1的纯项前向控制分开。两者当前不以旧纯项对照统称完成。
 - 图6四面板：A为delta对谱线，B为sigma/I对谱线，C为delta对目标初态自旋，D为sigma/I对目标初态自旋。A/C用tan转换后的delta，不用角坐标。四图都有HDI68%、ETI68%和文献点图例；C/D以小横向offset避免同自旋估计重叠，自旋数据本身不改。文献固定采用宽度与提取值分开。
@@ -84,13 +90,13 @@ JSON示例随wheel提供，位于包资源examples目录：example.json为P_ADO�
 
 ## Geometry and Numerical-Setting Audit
 
-本次只读代码/冻结输入核查，不是新运行或参数优化。来源定位：`raw/code/PDM/analysis/benchmarks/synthetic_benchmarks.json` 的settings/convergence；`analysis/cases/point_angle_ado_jobs.json`、`point_angle_dco_scenarios.json`及followup各job；`GUI/src/multipolepdm/pdm/observations.py`、mapping.py、statistics.py、models/registry.py、contracts.py。
+已有只读核查之后，本轮又完成实际隔离研究；新原始数据与结果见 [[pdm-20261120-error-geometry-grid-study]]。已发布核心未改。来源定位：`raw/code/PDM/analysis/benchmarks/synthetic_benchmarks.json` 的settings/convergence；`analysis/cases/point_angle_ado_jobs.json`、`point_angle_dco_scenarios.json`及followup各job；`GUI/src/multipolepdm/pdm/observations.py`、mapping.py、statistics.py、models/registry.py、contracts.py。
 
-- 已完成旧合成矩阵是目标3->2、E2门2->0，比值90/38deg，P81deg，DCO方位18deg；PDCO偏振门47deg、目标/门方位13/61deg。新计划30工况用5->4->2、90/30deg，尚未执行，不能混用描述。
-- 135Pr现有145.6/90deg是原157.6/133.6与75.5/104.5两环组的代表角近似；平均角不是强度合成的恒等式。185Au保留两个顺序假设，164Yb是理想环模型。所有几何假设都不能通过调成更接近文献或注入值来“优化”。详细来源与边界见 [[multipolepdm-20261120-empirical-validation]]。
+- 已完成旧合成矩阵是目标3->2、E2门2->0，比值90/38deg，P81deg，DCO方位18deg；PDCO偏振门47deg、目标/门方位13/61deg。新主矩阵采用5->4->2、125/90deg、P90deg和phi强度平均；本轮已跑9个寻优与6个留出工况，正式30工况尚未全部执行，不能混用描述。
+- 0.1.0的135Pr145.6/90deg只是代表角近似。用户提供的原程序实际为[2W157.6+W133.6]/[3W75.5]，P角75.5deg；本轮54点振幅核对照已复算到约1e-14，不能用平均角替代。185Au保留两个顺序假设，164Yb是理想环模型。所有几何假设都不能通过调成更接近文献或注入值来“优化”。详细来源与边界见 [[multipolepdm-20261120-empirical-validation]]。
 - 新程序没有偏态正态拟合接受门；对称输入为Gaussian，不对称输入为左右尺度正态变换、中心两侧各1/2概率，中心一般有密度跳跃。旧Upload/p_ado/pdf/fitters.py才有skew-normal量化匹配及接受/回退。模型选择与数值收敛是不同问题，不能宣称旧阈值已经在新程序优化。
 - Jacobian1e-12只作警告，不裁小正值；Gaussian布居没有用1e-12作硬截断。64倍机器epsilon用于无可分辨sigma变化的拒绝；models/registry.py另有1e-12物理范围舍入容差。三者用途不可混同。
-- 已有3121x201到6241x401的36项delta区间检查通过，最大角中位数移动3.34944e-5rad、端点1.39665e-4rad，属于所选工况而非全局最优证明。今后做阈值稳定性审计须给范围、结果和理由，不靠与真值吻合挑参数。
+- 已有3121x201到6241x401的36项delta区间检查通过，最大角中位数移动3.34944e-5rad、端点1.39665e-4rad，属于所选工况而非全局最优证明。本轮又实测9种网格、9个初始工况及6个留出工况，推荐候选0.1deg/.005通过，.1deg/.01初始仅6/9；J警告阈值不改PDF，机器epsilon阈值只影响近退化控制。不能以吻合真值挑参数，三个初始delta=-10工况的68%HDI仍不含真值。
 
 ## Implemented Response Evidence
 
@@ -123,11 +129,11 @@ JSON示例随wheel提供，位于包资源examples目录：example.json为P_ADO�
 
 ## Open Questions
 
-当前新方案仍待整项实施授权；标题Weight与逐HDI区间mode已确认。方向条件PDCO只有164Yb一个实测核，第二核配对测量仍缺；190Tl补足第二奇奇核，但其单线P代理、方位几何和低能校准外推边界保留。SHU74别名未确定。Docker虚拟显示为当前GUI基线，Windows/macOS原生未测；未指定独立软件Git远端，因此交付完整源码包而不推送整个Wiki作为软件。
+本轮不对称误差/几何/网格研究已完成，整体GUI接入仍待实施；标题Weight与逐HDI区间mode固定。方向条件PDCO只有164Yb一个实测核，第二核配对测量仍缺；190Tl补足第二奇奇核，但其单线P代理、方位几何和低能校准外推边界保留。SHU74别名未确定。Docker虚拟显示为当前GUI基线，Windows/macOS原生未测；未指定独立软件Git远端，因此交付完整源码包而不推送整个Wiki作为软件。
 
 ## Human Review
 
-用户曾批准0.1.0自动实施并授权代理协作；当前新一轮只要求讨论并离线修订计划，不能沿用旧授权直接启动。执行授权不是人工逐条核验科学结论。multipolePDM 0.1.0已发布到PyPI；这是软件交付，不代表用户逐条审核科学结论。
+用户曾批准0.1.0自动实施并授权代理协作；当前已明确授权E01--E03研究与报告；不能沿用0.1.0的完成状态认定新增GUI功能已完成。执行授权不是人工逐条核验科学结论。multipolePDM 0.1.0已发布到PyPI；这是软件交付，不代表用户逐条审核科学结论。
 
 ## Promotion or Rejection History
 
