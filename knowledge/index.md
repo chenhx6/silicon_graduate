@@ -7,6 +7,13 @@ updated: 2026-11-20
 
 # Wiki Index
 
+## PDM 三模式软件与验证
+
+- [[pdm-three-mode-execution-contract-20261120]] — 三模式响应、共享密度映射、GUI与发布合同。
+- [[multipolepdm-20261120-synthetic-validation]] — 独立公式、注入恢复与重复观测验证。
+- [[multipolepdm-20261120-empirical-validation]] — 六核文献观测量、声明几何与不吻合结果。
+- [[pypi-pdm-packaging-20261120]] — 通用Python包与平台依赖的官方依据。
+
 ## 文献收集与深入学习（2026-11）
 
 - [[delta-alignment-extraction-pilot-20261110]] — 早期混合比/取向处理试表，保留历史范围。

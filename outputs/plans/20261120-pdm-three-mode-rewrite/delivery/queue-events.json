@@ -1,0 +1,117 @@
+{
+  "status": "passed",
+  "real_physics": true,
+  "simulated_slow_disk": "Writer waits before actual export_result; two ready results precede first completed write",
+  "events": [
+    {
+      "elapsed_seconds": 0.0005110760102979839,
+      "job_id": "01d36cd040414c4994204aa7d9b66f36",
+      "state": "queued"
+    },
+    {
+      "elapsed_seconds": 0.0005157389678061008,
+      "job_id": "01d36cd040414c4994204aa7d9b66f36",
+      "state": "calculating"
+    },
+    {
+      "elapsed_seconds": 0.33523644995875657,
+      "job_id": "01d36cd040414c4994204aa7d9b66f36",
+      "state": "calculating"
+    },
+    {
+      "elapsed_seconds": 1.018155436962843,
+      "job_id": "01d36cd040414c4994204aa7d9b66f36",
+      "state": "calculating"
+    },
+    {
+      "elapsed_seconds": 1.0203452169662341,
+      "job_id": "01d36cd040414c4994204aa7d9b66f36",
+      "state": "calculating"
+    },
+    {
+      "elapsed_seconds": 1.0311636629630812,
+      "job_id": "01d36cd040414c4994204aa7d9b66f36",
+      "state": "calculating"
+    },
+    {
+      "elapsed_seconds": 1.031168520974461,
+      "job_id": "01d36cd040414c4994204aa7d9b66f36",
+      "state": "ready"
+    },
+    {
+      "elapsed_seconds": 1.0379592949757352,
+      "job_id": "01d36cd040414c4994204aa7d9b66f36",
+      "state": "saving"
+    },
+    {
+      "elapsed_seconds": 1.0379616089630872,
+      "job_id": "afbb6d2565d24b0c8e114211bc6b18be",
+      "state": "queued"
+    },
+    {
+      "elapsed_seconds": 1.0383430980145931,
+      "job_id": "afbb6d2565d24b0c8e114211bc6b18be",
+      "state": "calculating"
+    },
+    {
+      "elapsed_seconds": 1.038347102003172,
+      "job_id": "afbb6d2565d24b0c8e114211bc6b18be",
+      "state": "calculating"
+    },
+    {
+      "elapsed_seconds": 1.0421524079865776,
+      "job_id": "afbb6d2565d24b0c8e114211bc6b18be",
+      "state": "calculating"
+    },
+    {
+      "elapsed_seconds": 1.0427724340115674,
+      "job_id": "afbb6d2565d24b0c8e114211bc6b18be",
+      "state": "calculating"
+    },
+    {
+      "elapsed_seconds": 1.0486317339818925,
+      "job_id": "afbb6d2565d24b0c8e114211bc6b18be",
+      "state": "calculating"
+    },
+    {
+      "elapsed_seconds": 1.048636032966897,
+      "job_id": "afbb6d2565d24b0c8e114211bc6b18be",
+      "state": "ready"
+    },
+    {
+      "elapsed_seconds": 2.2183981869602576,
+      "job_id": "01d36cd040414c4994204aa7d9b66f36",
+      "state": "saving"
+    },
+    {
+      "elapsed_seconds": 2.229079403972719,
+      "job_id": "01d36cd040414c4994204aa7d9b66f36",
+      "state": "saving"
+    },
+    {
+      "elapsed_seconds": 2.2290892839664593,
+      "job_id": "01d36cd040414c4994204aa7d9b66f36",
+      "state": "saved"
+    },
+    {
+      "elapsed_seconds": 2.2290931990137324,
+      "job_id": "afbb6d2565d24b0c8e114211bc6b18be",
+      "state": "saving"
+    },
+    {
+      "elapsed_seconds": 3.320165900979191,
+      "job_id": "afbb6d2565d24b0c8e114211bc6b18be",
+      "state": "saving"
+    },
+    {
+      "elapsed_seconds": 3.329520853003487,
+      "job_id": "afbb6d2565d24b0c8e114211bc6b18be",
+      "state": "saving"
+    },
+    {
+      "elapsed_seconds": 3.329538269957993,
+      "job_id": "afbb6d2565d24b0c8e114211bc6b18be",
+      "state": "saved"
+    }
+  ]
+}

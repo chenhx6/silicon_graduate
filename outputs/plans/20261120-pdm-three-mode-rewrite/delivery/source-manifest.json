@@ -1,0 +1,597 @@
+{
+  "archive": "multipolePDM-0.1.0-source.zip",
+  "sha256": "dc103aa1bdb96348fb1382aeda3ad61f196c1b16daaf0d355a39d2f348bcee79",
+  "size": 3436890,
+  "files": [
+    {
+      "path": "multipolePDM-0.1.0/.gitignore",
+      "sha256": "e1f1da8dda57c6d81778dbedaefce8cbbc6f321baf40817c90713df5544a7c31",
+      "size": 107
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/LICENSE",
+      "sha256": "36ec62ed4cfdb566d0c50e80c228bfa51e2742090e66b0d98889e4c7883e77ef",
+      "size": 1082
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/MANIFEST.in",
+      "sha256": "0457a2ae67efea47ec84b28ffbbfbc4370f345898a4ee701602b55b99e5223b4",
+      "size": 144
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/README.md",
+      "sha256": "36a1930a7efe0996559577cadefd76311ae84237a13c1f53a1851aa372da0eda",
+      "size": 470
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/docs/response-reference.md",
+      "sha256": "f9bafd648c76bc017ae72f44fc10f0b776ea83c339e2ae4f6fafaf4ceb9d5efd",
+      "size": 14512
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/pyproject.toml",
+      "sha256": "f230ae0728f5a513c6075f5ad85935a7af888a034f1a6ff253178fe316372e44",
+      "size": 1030
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/scripts/build_release.py",
+      "sha256": "65bd4b96c669cfc71a84b890425351df064269d507e243d4b777ef0175ad0166",
+      "size": 573
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/scripts/release.py",
+      "sha256": "be6003354424414bb74cbda73197e5dd23f712ae867c1dc31012cc00b9318eb4",
+      "size": 2601
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/__init__.py",
+      "sha256": "046b644ac556d4aea8ba01cfef46c09d7c8b95b86932f1f0ce300d71a52b93cf",
+      "size": 87
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/__main__.py",
+      "sha256": "b85133d483bec74f979f772a9f90f149ad2e5eac83681f066440a0abd00fa90d",
+      "size": 894
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/cli.py",
+      "sha256": "affac4a766d809848021a327118c9f85fba764cbb5c8adf7dbfdb28e325ba498",
+      "size": 4546
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/config/common.py",
+      "sha256": "f9ecb710ede4bef4e96a0aaab6c6d33ec23d5e936807c3f58a5e7157ea15af2a",
+      "size": 252
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/config/p_ado.py",
+      "sha256": "fb8c83eb11bddb082ee444129a4073d9018051ce408c231d5ebcf0b37b719727",
+      "size": 150
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/config/p_dco.py",
+      "sha256": "3dbdddb611f7f152e748925c2237fdf19cc1b7a95d0e5aff5a28ce7cf4f858a3",
+      "size": 221
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/config/pdco.py",
+      "sha256": "6d0ab1593d61c98364db22b495db1e4bef378c3525e2b3610c8e5dd9e3808ac9",
+      "size": 311
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/contracts.py",
+      "sha256": "24c9eeff593ae45bc29ac5560309a5ea48b33e524fa11373694a19ff03922e3d",
+      "size": 7466
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/examples/README.md",
+      "sha256": "3e7b843f6c546112185642344151e4950427e0ac063dd136389ef2931605b4f6",
+      "size": 3702
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/examples/example.json",
+      "sha256": "16c4ca01163be9d63a27b8cbe2d76089e8c56a58a87a6b9fa6f125a06f94757e",
+      "size": 833
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/examples/example_PDCO.json",
+      "sha256": "ce4768d40f618052504df2824d1cfaf3628ab3a0ad0da97412ae149a1985c3ba",
+      "size": 995
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/examples/example_P_DCO.json",
+      "sha256": "7986e78f55ec9d53f3a49498beab9e9eadc829f3b9de9b0cc6f4b277ce61e706",
+      "size": 1001
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/examples/example_batch.json",
+      "sha256": "041e549b706ea0440374282b5c214ffdccc47034402cce8396062fbfd64a8233",
+      "size": 3471
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/gui/results.py",
+      "sha256": "b4869bf276e92b2667165a4ac4f2ac82063bc3c791cff3e60d0cec1e592140be",
+      "size": 7146
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/gui/self_test.py",
+      "sha256": "a80bc212ea565141d5b4ae9f68783277160e1a2d21a11fa857e35198ac5ad9ff",
+      "size": 3505
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/gui/window.py",
+      "sha256": "d3cbd2f40bf29da0bd3fcb5dccc683fea899a5fea203678d2dc053616347b740",
+      "size": 21743
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/io/export.py",
+      "sha256": "76c200dd7bd1e824c78ccf93b28db24dd5e7f20dfa5fa0cf6007747d33c7b99f",
+      "size": 9380
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/io/input.py",
+      "sha256": "f2b26b81fa934bcb48141b73fae29ec20d3ffcf51946b239640d487940b1df26",
+      "size": 3257
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/jobs/manager.py",
+      "sha256": "005c6e6035f9ee13de8a213d12b3a09050e422f5ae8733c47f6d9b6ac5ae36b3",
+      "size": 6969
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/jobs/workers.py",
+      "sha256": "4ecedfe4fda01842b0c72f870bcf3ecb64290901e35d8ef78d36a1b0562bc115",
+      "size": 703
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/models/p_ado.py",
+      "sha256": "e63b293e49cefb04a0ae06ff2382214266260332251a8aa9bae3b5bb96cadb1a",
+      "size": 138
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/models/p_dco.py",
+      "sha256": "e63b293e49cefb04a0ae06ff2382214266260332251a8aa9bae3b5bb96cadb1a",
+      "size": 138
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/models/pdco.py",
+      "sha256": "a408996ce003b61eed8a73c24dfd62340176d0ffb11eb3566b25886b75233db4",
+      "size": 156
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/models/registry.py",
+      "sha256": "61a2d9970ef630c0ee66aec1986f961466b6ab9c03ec592fac2a824b065e63dc",
+      "size": 3608
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/pdm/mapping.py",
+      "sha256": "f7d38a2059e82f08155f8e33d92688cbc06f4113b09969fb54cc76662577a76d",
+      "size": 8001
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/pdm/observations.py",
+      "sha256": "1e4a63057c0bff6e0e12be3cdaf1b6295ccdb0290b8fd5ce76aa1eb2c2859e8e",
+      "size": 2122
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/pdm/statistics.py",
+      "sha256": "dc5be8a112dddff9c1189a21b70b7274da09f303919de468e7ac4ba6b1398e73",
+      "size": 8410
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/physics/amplitudes.py",
+      "sha256": "5460e3b755b3bfc4581b1596f0ec9524811b3635460d2092ed48189815ba36b6",
+      "size": 3280
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/physics/joint.py",
+      "sha256": "565f9d64dedaf4a04b4be9c421c1a4548169f2f52c1c96b8a719a4922b948ef3",
+      "size": 4655
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/physics/populations.py",
+      "sha256": "7384fd54622c1e443481a05865bb46d6d0c4aa7c4e682eab4ff04418da87fe9e",
+      "size": 1617
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/physics/propagation.py",
+      "sha256": "d596409bfec1b280945d8f6be08e3b7523bd1a1dbee3ec84c198d47b3ec66ea5",
+      "size": 1417
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/physics/symmetries.py",
+      "sha256": "f1a72492eddc8f8ea61f1168ea19026d0ca07487b122f0b317110ed0c57ca036",
+      "size": 1399
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/plotting/__init__.py",
+      "sha256": "a5e2d703d9865c9b4cbde570653ba18adcd34604136c5784bed59f8da62834bc",
+      "size": 401
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/plotting/export.py",
+      "sha256": "a48d10a9ceb041a6228130e12061e96bda80e293a711bb245436c87ada986f69",
+      "size": 2800
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/plotting/intervals.py",
+      "sha256": "29f8641fea6f9a2b81de2ed198a33d4ccb400a66faa30c643dea290bbeb0bc2d",
+      "size": 6413
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/plotting/overview.py",
+      "sha256": "76cb621475bd10c8e41b7e25e6a00c7257083e63bed5f9c536ec34055c778101",
+      "size": 7091
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/src/multipolepdm/plotting/style.py",
+      "sha256": "b361dcf7dcbcdbb182baca8b9a7fbd052762e3588cc99d01d9dbc63a865cdc66",
+      "size": 2714
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/tests/reference/__init__.py",
+      "sha256": "598493d06c57b9526a3f65d5a7eced7cda09b05088829519542a290fc749781e",
+      "size": 76
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/tests/reference/angular_correlation.py",
+      "sha256": "58c88ab7b4454861a715c66a26d1705a6473cea9b18c046ac1b78f792a90d56c",
+      "size": 14523
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/tests/reference/examples.py",
+      "sha256": "099a36cb3757bbe472f78d74cbc5ba1551deca73541fb083f4460c238df188f4",
+      "size": 2328
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/tests/test_app_regressions.py",
+      "sha256": "4c6b12af52f5f5169933fc7c94c46a036f4a4565a290f07e598fde3222fbd2e8",
+      "size": 11364
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/tests/test_azimuth_average.py",
+      "sha256": "4beae0ff80c2eeb1bf43896b4d92447dcf2f745780bb6c4c530af63488d7facc",
+      "size": 6732
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/tests/test_contracts.py",
+      "sha256": "6f8ff0d4504ce3ac29a45d4e360baec499343c8afca1ba6fc5a27c65fafbd825",
+      "size": 1625
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/tests/test_export_measures.py",
+      "sha256": "298c6d0917dd745355fc70ac07e1332380917ad6331a0568db3651178d338ce5",
+      "size": 1431
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/tests/test_forward_metadata.py",
+      "sha256": "18fceb488e8f0e2c3fb61179c5e6c5c894ef6468b1dbf9676cda2687815f835f",
+      "size": 690
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/tests/test_gui.py",
+      "sha256": "c66b4aedebefeb155e5508485be95c3ccf9abb6b5a5ad03c6524e293f78022b7",
+      "size": 2649
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/tests/test_gui_averaging.py",
+      "sha256": "ba174d2cd125820edb9a25b9b477ec5eb39b493017d6ffc293c34c883247d61d",
+      "size": 1585
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/tests/test_independent_reference.py",
+      "sha256": "26aedd2a41b768035c36d7e5c0a2b40ae4ed3ce81fd648feb9a7aa2332cfa122",
+      "size": 10435
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/tests/test_io.py",
+      "sha256": "c71ef26e0697229b276eb80dbfef767ea87e9b469909372069f7c7d3f5fed8a3",
+      "size": 2016
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/tests/test_jobs.py",
+      "sha256": "3346d3c25d597a63cf1169bf3678807a86e39ae91f9f86ecbe5214ce15546db0",
+      "size": 2409
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/tests/test_mapping.py",
+      "sha256": "5a0901f01cdb91e3a8405016860aead70ca35a2beb84cad1e85aa0ed135039cc",
+      "size": 9546
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/tests/test_physics.py",
+      "sha256": "1f691a9e710bccf73885d16455d508f406783c8767ad36f3b6dd71b0fd26bd80",
+      "size": 3708
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/tests/test_plotting.py",
+      "sha256": "9d44eeff4cd690ec6985ef95584ce635f69330186bfa3c430550bcae15c24f4c",
+      "size": 19832
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/tests/test_reference_bridge.py",
+      "sha256": "73805fc57f5a57634a4964901f377d99693c814f7e945638c11e7864046dffe6",
+      "size": 2313
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/tests/test_response_domain.py",
+      "sha256": "46c021308bb81b455421edfff9ef56e67744428e15105ff7010c41151d3ac11e",
+      "size": 1071
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/tests/test_responses.py",
+      "sha256": "ab5a8587d590daf74522d52a8f96952b1f7cf18db745b4ad38d13c245f70d2aa",
+      "size": 6640
+    },
+    {
+      "path": "multipolePDM-0.1.0/GUI/tests/test_statistics.py",
+      "sha256": "3fcc69bb36bb3b62ec1a872a5581fbf7d61f5a7f4a384fa40075b1b244a0ab31",
+      "size": 7895
+    },
+    {
+      "path": "multipolePDM-0.1.0/LICENSE",
+      "sha256": "36ec62ed4cfdb566d0c50e80c228bfa51e2742090e66b0d98889e4c7883e77ef",
+      "size": 1082
+    },
+    {
+      "path": "multipolePDM-0.1.0/README.md",
+      "sha256": "67af2e95ecda3a1ba06638920a1e63f6cd91c56a15aad31c2936ca89fba62b18",
+      "size": 2740
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/01_results_and_intervals.ipynb",
+      "sha256": "c86e1663dd5187bccff6c01db71d74a012f3cd9a8a577f62baf5ea8987ec2deb",
+      "size": 117109
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/02_benchmarks_and_comparisons.ipynb",
+      "sha256": "8fc23701028eca5ed61c1b21bddb82eb7912414e662a8d39c17da18e67aa0821",
+      "size": 6508
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/03_report_figures.ipynb",
+      "sha256": "00a44370654e3f3f572bcd950099d700e7f44e37489b55d979b8891fd6a95e22",
+      "size": 116535
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/README.md",
+      "sha256": "d393a3af663c7420c0b682805a9e3e7a018b8b90c8fc3435d6aa65280fd43b3d",
+      "size": 3876
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/benchmarks/manifest.json",
+      "sha256": "6190decb62eda562f6311b4bfd526733bcaed429a9c63373991e83c8bde1c44f",
+      "size": 1818
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/benchmarks/synthetic_benchmarks.csv",
+      "sha256": "433443c4a500bd6c10e28486699d2d304c526c5693ad7e1e82ebfe4690bd345a",
+      "size": 143347
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/benchmarks/synthetic_benchmarks.json",
+      "sha256": "b1f71f1e1c75d71bf1f332150b4191f6903c8805cd914abda6f1a1ef46f98fdb",
+      "size": 418973
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/candidates.json",
+      "sha256": "b415b789c83bd8ec677fa017fd25126eaa8f921673838e6975cf9a9c8c399630",
+      "size": 63389
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/empirical_manifest.json",
+      "sha256": "972904432be493c920a86a11619c443511282d4466de34eb2198ef730cc2c7e9",
+      "size": 15733
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/followup/80se-method-audit.md",
+      "sha256": "40c46d8437ad681ca015f705504a55a46586542a7ab944867eb64d46cced6655",
+      "size": 2891
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/followup/README.md",
+      "sha256": "236284ea13a700528b36430be409018c72bcab82cf0b4baf79c20790f789c8a8",
+      "size": 3761
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/followup/au185-518-point-angle-jobs.json",
+      "sha256": "e4bd251508a6e0df08aeb6068ff77455f29b48694413ec0a9ce7c1785e026eba",
+      "size": 3241
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/followup/au185-518-source-audit.md",
+      "sha256": "88efac49d255250af819fd576a2211bfebaf71e4701c2ce6ebe80a276adcdc93",
+      "size": 4243
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/followup/coverage_followup.json",
+      "sha256": "6f8efea6d8f3609d380d53a070d792197f7f80db2f45a48abaee9a3c5b443ade",
+      "size": 10553
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/followup/digitization_check.json",
+      "sha256": "9ce4f8721530c00aec57c1a7b932f76e344f247d8c4496db6d8ddc2429f270f1",
+      "size": 735
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/followup/odd_odd_dco_followup_jobs.json",
+      "sha256": "d33c61aca2c21bb73c5eabc58389d6f08888c8bd23e87b7a36e3cb2d444825ea",
+      "size": 4600
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/followup/pal190tl-point-angle-jobs.json",
+      "sha256": "efcb397a05131c741f1b8417b0a40c89b2ad921a1201cd8d9fc7a86828c11d37",
+      "size": 6169
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/followup/results/results.csv",
+      "sha256": "a3f749f74d2fb3cbd932edb0bc25f0dc19a54e2787ead5fabe9706f9379f787f",
+      "size": 3954
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/followup/results/results.json",
+      "sha256": "4aa44134506897aa5e34818d5718a32c3fc34027f0428832acdfd16838d95975",
+      "size": 385344
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/followup/scenarios.json",
+      "sha256": "d5a76346b52e984501e4f476ac66952ea65657011eb37916c948be733321ba70",
+      "size": 2300
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/followup/source_only_audit.json",
+      "sha256": "788d7fd200716a568f72e2f29cfb1ae976316d28a9253d534c179386fdc6944f",
+      "size": 9093
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/followup/starosta-cd-central-target-jobs.json",
+      "sha256": "396bbfc4adfe76454877048faded380f7dd8514c5bf0f14bcbdb0e5f2c33b858",
+      "size": 5093
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/followup/starosta-cd-extreme-target-jobs.json",
+      "sha256": "c3cbed45e027b8a1c6a67960ce0f458ecad341b60e73b22032226edab3844b16",
+      "size": 5093
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/followup/starosta-cd-ideal-ring-audit.md",
+      "sha256": "cf187aeb2402a9e0622b7dbb8215904b510bc0fb8a95e46971c31e749465889a",
+      "size": 6367
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/modeling_readiness.json",
+      "sha256": "9a12726fe3cbe1e1e68a4309ddd583be953866966e9537bcad2e393d96ef2383",
+      "size": 29490
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/point_angle_ado_jobs.json",
+      "sha256": "02ad051c92d7a13a3a64a44df72f0a0ee4053746d1bd630ae0b32780e93a8031",
+      "size": 5213
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/point_angle_dco_scenarios.json",
+      "sha256": "ca1f40b9ec791c15707822061ec1c8056ba60156c80bbd90bacc6c3bcd414507",
+      "size": 4777
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/results/.matplotlib/fontlist-v3.11.0.json",
+      "sha256": "bf431976a5d45d25be1173f0f4204c2fefec8570fe734e3d0b12d6ca58ecf105",
+      "size": 151550
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/results/README.md",
+      "sha256": "370489137b4c9533eba21984ededdd5dbe597aa2e5dc4bbb5f22181dae28f313",
+      "size": 6076
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/results/p_ado_01_nominal.pdf",
+      "sha256": "f02cedcdac050bcf1b7ec96635ca6c55782d7efaa3e1caaeeae12a49466ceead",
+      "size": 107645
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/results/p_ado_04_nominal.pdf",
+      "sha256": "8904d67f95081493e913be77181a9c360d53c47eb877a69b29bf35eb1f4b0292",
+      "size": 94739
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/results/p_dco_01_nominal.pdf",
+      "sha256": "7fc59a98d7ce7e24ed4f13ce8c726d0c4f7ee387826997fcc1e4394decb26544",
+      "size": 141470
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/results/results.csv",
+      "sha256": "74683945f3a84d753e8795ca2745c074735fc79fd2fe0967c63d290174c7da71",
+      "size": 54011
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/results/results.json",
+      "sha256": "cfeb182dcdef5f2b2cd1b1edb60c3e12c0ea2487e03a3f723914a7b26ec9fd13",
+      "size": 266765
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/cases/source_evidence.json",
+      "sha256": "bed1736d5dda6010eda979d2fc8607df2386962784fb295a432f380c9a5f47c8",
+      "size": 24428
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/examples/synthetic_P_ADO/density.npz",
+      "sha256": "ee6ad878ab393cca664c522c5f829af6e2b21490b25ae597652167c0e0cab43c",
+      "size": 1737114
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/examples/synthetic_P_ADO/manifest.json",
+      "sha256": "ee89dd1f94e14b30a5bc94350406e96d85690d6fd75da24be2db062e7a6e4d2d",
+      "size": 2036
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/examples/synthetic_P_ADO/marginal_delta.csv",
+      "sha256": "03f5b624fe63756f7e1418af6818261d5d886f1ee01ee07ec9f20d6b158ef490",
+      "size": 336870
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/examples/synthetic_P_ADO/marginal_sigma_over_i.csv",
+      "sha256": "6bbf7f988e46dac313af8207edcf1b3f5367c32afda23451737ca146f061c0b1",
+      "size": 5100
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/examples/synthetic_P_ADO/summary.json",
+      "sha256": "b41e3a4bf1a1dde0d0fcde143ea14c2feb9fd3491393198c8ab5b06e1694b3e3",
+      "size": 357376
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/generated_figures/synthetic_a.svg",
+      "sha256": "9738594194cd2fc95fb7528d6c0930d74667f032c24da70540ce2fb32ed3c819",
+      "size": 66214
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/generated_figures/synthetic_b.svg",
+      "sha256": "578d9f3016d547a9b0df5a0ad03175f0f7761c69f72d80f21f294b86a969c6b9",
+      "size": 30733
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/generated_figures/synthetic_c.svg",
+      "sha256": "125bdce52e8a4fea51829d50d77e29364caac8450b041f9604223f962d898107",
+      "size": 131856
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/generated_figures/synthetic_d.svg",
+      "sha256": "21c70b51d9391da08d27ae60d059b118f80b0330a07e16b315e393c70507c54f",
+      "size": 15088
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/generated_figures/synthetic_overview.pdf",
+      "sha256": "f759e5309239677494218b1e523d86206de325139fab084da1e91d143dfb2d60",
+      "size": 108141
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/generated_figures/synthetic_overview.png",
+      "sha256": "6b46395991ffc8668873f5803ee78217e9098eb95f9c67763579e278d82fd7db",
+      "size": 550120
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/scripts/audit_cases.py",
+      "sha256": "78802301074790c3c9e2de001d7b0bd0710a0f8561d330451e7c7d83e838ef3c",
+      "size": 26384
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/scripts/check_digitization.py",
+      "sha256": "299b36118efa721a023ef59e4b8e332821974c4d90f2f9829eafd4757f33f918",
+      "size": 712
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/scripts/run_benchmarks.py",
+      "sha256": "d5aa1e310c47011da40711cb5355104d5cc04a97ef2888af941952f13ba0fbfc",
+      "size": 26366
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/scripts/run_followup_cases.py",
+      "sha256": "2a46a1286e4df403973a78716b4f57c2b364d924479c911de4b41745b62f9c08",
+      "size": 5306
+    },
+    {
+      "path": "multipolePDM-0.1.0/analysis/scripts/run_literature_cases.py",
+      "sha256": "f943ef2dafd24106ca98d4df8c7c1d6d5da46607ee55f1a0f81a6879ee38f25f",
+      "size": 28953
+    }
+  ]
+}

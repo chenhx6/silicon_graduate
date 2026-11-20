@@ -1,0 +1,9 @@
+$ /opt/venv/bin/python -m twine check --strict /workspace/wiki/tmp/pdm-implementation/final-software-validation/dist/multipolepdm-0.1.0-py3-none-any.whl /workspace/wiki/tmp/pdm-implementation/final-software-validation/dist/multipolepdm-0.1.0.tar.gz
+Checking
+/workspace/wiki/tmp/pdm-implementation/final-software-validation/dist/multipolep
+dm-0.1.0-py3-none-any.whl: PASSED
+Checking
+/workspace/wiki/tmp/pdm-implementation/final-software-validation/dist/multipolep
+dm-0.1.0.tar.gz: PASSED
+
+Exit status: 0

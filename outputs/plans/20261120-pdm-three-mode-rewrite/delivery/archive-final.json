@@ -1,0 +1,12 @@
+{
+  "checked_manifests": [],
+  "checked_sources": [
+    "/workspace/wiki/knowledge/sources/multipolepdm-20261120-empirical-validation.md",
+    "/workspace/wiki/knowledge/sources/multipolepdm-20261120-synthetic-validation.md",
+    "/workspace/wiki/knowledge/sources/pypi-pdm-packaging-20261120.md"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "ok": true,
+  "scope": "paths"
+}

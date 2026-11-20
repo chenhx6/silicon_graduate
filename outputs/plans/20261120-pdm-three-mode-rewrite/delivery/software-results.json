@@ -1,0 +1,397 @@
+{
+  "status": "passed",
+  "started_utc": "2026-11-20T01:03:35.592486+00:00",
+  "finished_utc": "2026-11-20T01:06:47.385197+00:00",
+  "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+  "python_executable": "/opt/venv/bin/python",
+  "wheel_testing": "--target install shares available runtime dependencies",
+  "package_versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "PySide6-Essentials": "6.12.0",
+    "pytest": "9.2.0",
+    "pytest-qt": "4.5.0",
+    "setuptools": "84.2.1",
+    "wheel": "0.48.0",
+    "build": "1.6.1",
+    "twine": "7.0.0",
+    "pip": "26.2.1"
+  },
+  "source_manifest": {
+    "path": "gui-source-sha256.json",
+    "bytes": 6617,
+    "sha256": "73d0875190921c76afcb237270af6ca8dafcff4078b4cdcf9a15c3771d367c2a"
+  },
+  "changed_source_files_during_run": [],
+  "artifacts": [
+    {
+      "path": "dist/multipolepdm-0.1.0-py3-none-any.whl",
+      "bytes": 52137,
+      "sha256": "3baeb14f258b03a8499bdcce73a5cd5bfe757f36ef2a1d52f1de61280719ca66"
+    },
+    {
+      "path": "dist/multipolepdm-0.1.0.tar.gz",
+      "bytes": 75625,
+      "sha256": "216fe221b42e9a3227229b70fcc98a77a172c36ec652a29eb83a12c012c21e18"
+    }
+  ],
+  "steps": {
+    "build": {
+      "argv": [
+        "/opt/venv/bin/python",
+        "-m",
+        "build",
+        "--no-isolation",
+        "--outdir",
+        "/workspace/wiki/tmp/pdm-implementation/final-software-validation/dist",
+        "/workspace/wiki/tmp/pdm-implementation/final-software-validation/build-source"
+      ],
+      "cwd": "/workspace/wiki/tmp/pdm-implementation/final-software-validation",
+      "environment_overrides": {
+        "OPENBLAS_NUM_THREADS": "1",
+        "MPLCONFIGDIR": "/workspace/wiki/tmp/pdm-implementation/final-software-validation/matplotlib/build",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONPATH": null
+      },
+      "log": "build.log",
+      "started_utc": "2026-11-20T01:03:39.931215+00:00",
+      "exit_code": 0,
+      "seconds": 19.546467148000374
+    },
+    "twine_check": {
+      "argv": [
+        "/opt/venv/bin/python",
+        "-m",
+        "twine",
+        "check",
+        "--strict",
+        "/workspace/wiki/tmp/pdm-implementation/final-software-validation/dist/multipolepdm-0.1.0-py3-none-any.whl",
+        "/workspace/wiki/tmp/pdm-implementation/final-software-validation/dist/multipolepdm-0.1.0.tar.gz"
+      ],
+      "cwd": "/workspace/wiki/tmp/pdm-implementation/final-software-validation",
+      "environment_overrides": {
+        "OPENBLAS_NUM_THREADS": "1",
+        "MPLCONFIGDIR": "/workspace/wiki/tmp/pdm-implementation/final-software-validation/matplotlib/twine-check",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONPATH": null
+      },
+      "log": "twine-check.log",
+      "started_utc": "2026-11-20T01:03:59.637640+00:00",
+      "exit_code": 0,
+      "seconds": 1.4130933720152825
+    },
+    "install_wheel": {
+      "argv": [
+        "/opt/venv/bin/python",
+        "-m",
+        "pip",
+        "--isolated",
+        "--disable-pip-version-check",
+        "install",
+        "--no-index",
+        "--no-deps",
+        "--target",
+        "/workspace/wiki/tmp/pdm-implementation/final-software-validation/wheel-target",
+        "/workspace/wiki/tmp/pdm-implementation/final-software-validation/dist/multipolepdm-0.1.0-py3-none-any.whl"
+      ],
+      "cwd": "/workspace/wiki/tmp/pdm-implementation/final-software-validation",
+      "environment_overrides": {
+        "OPENBLAS_NUM_THREADS": "1",
+        "MPLCONFIGDIR": "/workspace/wiki/tmp/pdm-implementation/final-software-validation/matplotlib/install-wheel",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONPATH": null
+      },
+      "log": "install-wheel.log",
+      "started_utc": "2026-11-20T01:04:01.060697+00:00",
+      "exit_code": 0,
+      "seconds": 7.728063006012235
+    },
+    "installed_self_test": {
+      "argv": [
+        "/opt/venv/bin/python",
+        "-c",
+        "import multipolepdm, pathlib, sys;module = pathlib.Path(multipolepdm.__file__).resolve();print(f'Installed module: {module}', flush=True);assert module.is_relative_to(pathlib.Path(sys.argv[1]));from multipolepdm.__main__ import main;sys.argv = ['pdm-gui', *sys.argv[2:]]; sys.exit(main())",
+        "/workspace/wiki/tmp/pdm-implementation/final-software-validation/wheel-target",
+        "--self-test",
+        "--report",
+        "/workspace/wiki/tmp/pdm-implementation/final-software-validation/installed-self-test.json"
+      ],
+      "cwd": "/workspace/wiki/tmp/pdm-implementation/final-software-validation",
+      "environment_overrides": {
+        "OPENBLAS_NUM_THREADS": "1",
+        "MPLCONFIGDIR": "/workspace/wiki/tmp/pdm-implementation/final-software-validation/matplotlib/installed-self-test",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONPATH": "/workspace/wiki/tmp/pdm-implementation/final-software-validation/wheel-target",
+        "QT_QPA_PLATFORM": "offscreen",
+        "DISPLAY": null
+      },
+      "log": "installed-self-test.log",
+      "started_utc": "2026-11-20T01:04:09.261476+00:00",
+      "exit_code": 0,
+      "seconds": 24.740451716003008
+    },
+    "pytest_offscreen": {
+      "argv": [
+        "/opt/venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-ra",
+        "-p",
+        "no:cacheprovider",
+        "--basetemp",
+        "/workspace/wiki/tmp/pdm-implementation/final-software-validation/pytest-offscreen"
+      ],
+      "cwd": "/workspace/wiki/raw/code/PDM/GUI",
+      "environment_overrides": {
+        "OPENBLAS_NUM_THREADS": "1",
+        "MPLCONFIGDIR": "/workspace/wiki/tmp/pdm-implementation/final-software-validation/matplotlib/pytest-offscreen",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONPATH": null,
+        "QT_QPA_PLATFORM": "offscreen",
+        "DISPLAY": null
+      },
+      "log": "pytest-offscreen.log",
+      "started_utc": "2026-11-20T01:03:39.915111+00:00",
+      "exit_code": 0,
+      "seconds": 88.61926645995118,
+      "pytest_summary": "153 passed, 168 warnings in 85.93s (0:01:25)"
+    },
+    "xvfb_smoke": {
+      "argv": [
+        "xvfb-run",
+        "-a",
+        "-s",
+        "-screen 0 1600x1000x24 -nolisten tcp",
+        "/opt/venv/bin/python",
+        "-c",
+        "from PySide6.QtWidgets import QApplication;app = QApplication([]); screen = app.primaryScreen().size();print(f'Qt platform={app.platformName()} screen={screen.width()}x{screen.height()}', flush=True);assert app.platformName() == 'xcb';assert (screen.width(), screen.height()) == (1600, 1000);import pytest, sys; sys.exit(pytest.main(sys.argv[1:]))",
+        "-q",
+        "-ra",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_gui.py",
+        "--basetemp",
+        "/workspace/wiki/tmp/pdm-implementation/final-software-validation/xvfb-smoke"
+      ],
+      "cwd": "/workspace/wiki/raw/code/PDM/GUI",
+      "environment_overrides": {
+        "OPENBLAS_NUM_THREADS": "1",
+        "MPLCONFIGDIR": "/workspace/wiki/tmp/pdm-implementation/final-software-validation/matplotlib/xvfb-smoke",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONPATH": null,
+        "QT_QPA_PLATFORM": "xcb",
+        "DISPLAY": null,
+        "QT_API": "pyside6"
+      },
+      "log": "xvfb-smoke.log",
+      "started_utc": "2026-11-20T01:03:39.928127+00:00",
+      "exit_code": 0,
+      "seconds": 37.044390694005415,
+      "pytest_summary": "4 passed, 49 warnings in 33.56s",
+      "verified_platform": "xcb (1600x1000)"
+    },
+    "io_benchmark": {
+      "argv": [
+        "/opt/venv/bin/python",
+        "/workspace/wiki/tmp/pdm-implementation/final-software-validation/benchmark_io.py"
+      ],
+      "cwd": "/workspace/wiki/tmp/pdm-implementation/final-software-validation",
+      "environment_overrides": {
+        "OPENBLAS_NUM_THREADS": "1",
+        "MPLCONFIGDIR": "/workspace/wiki/tmp/pdm-implementation/final-software-validation/matplotlib/io-benchmark",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONPATH": "/workspace/wiki/tmp/pdm-implementation/final-software-validation/wheel-target",
+        "QT_QPA_PLATFORM": "offscreen",
+        "DISPLAY": null
+      },
+      "log": "io-benchmark.log",
+      "started_utc": "2026-11-20T01:05:18.814105+00:00",
+      "exit_code": 0,
+      "seconds": 24.674276492965873
+    },
+    "installed_launcher_self_test": {
+      "argv": [
+        "/workspace/wiki/tmp/pdm-implementation/final-software-validation/wheel-target/bin/pdm-gui",
+        "--self-test",
+        "--report",
+        "/workspace/wiki/tmp/pdm-implementation/final-software-validation/installed-launcher-self-test.json"
+      ],
+      "cwd": "/workspace/wiki/tmp/pdm-implementation/final-software-validation",
+      "environment_overrides": {
+        "OPENBLAS_NUM_THREADS": "1",
+        "MPLCONFIGDIR": "/workspace/wiki/tmp/pdm-implementation/final-software-validation/matplotlib/installed-launcher-self-test",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONPATH": "/workspace/wiki/tmp/pdm-implementation/final-software-validation/wheel-target",
+        "QT_QPA_PLATFORM": "offscreen",
+        "DISPLAY": null
+      },
+      "log": "installed-launcher-self-test.log",
+      "exit_code": 0,
+      "seconds": 11.82,
+      "finished_utc": "2026-11-20T01:06:11.910687+00:00"
+    }
+  },
+  "io_benchmark": {
+    "status": "passed",
+    "mode": "PDCO",
+    "installed_package": "/workspace/wiki/tmp/pdm-implementation/final-software-validation/wheel-target/multipolepdm/__init__.py",
+    "openblas_num_threads": "1",
+    "grid": {
+      "xi_points": 601,
+      "sigma_points": 121
+    },
+    "single_compute_seconds": 1.1979025240289047,
+    "density_npz_array_equality": true,
+    "timing_scope": "Elapsed export_result wall time on local storage, including serialization and file writes, excluding calculation, validation reads and fsync.",
+    "byte_scope": "Sum of logical file sizes in each export directory.",
+    "summary": {
+      "compact": {
+        "median_seconds": 1.2109391100239009,
+        "total_bytes_per_trial": [
+          4701642,
+          4701642,
+          4701642
+        ]
+      },
+      "fullCSV": {
+        "median_seconds": 6.070183502975851,
+        "total_bytes_per_trial": [
+          23276031,
+          23276031,
+          23276031
+        ]
+      }
+    },
+    "trials": {
+      "compact": [
+        {
+          "trial": 1,
+          "order": [
+            "compact",
+            "fullCSV"
+          ],
+          "directory": "io-exports/1-compact",
+          "seconds": 1.2109391100239009,
+          "total_bytes": 4701642,
+          "file_bytes": {
+            "density.npz": 2872683,
+            "manifest.json": 2848,
+            "marginal_delta.csv": 889117,
+            "marginal_sigma_over_i.csv": 6132,
+            "summary.json": 930862
+          }
+        },
+        {
+          "trial": 2,
+          "order": [
+            "fullCSV",
+            "compact"
+          ],
+          "directory": "io-exports/2-compact",
+          "seconds": 1.2552332329796627,
+          "total_bytes": 4701642,
+          "file_bytes": {
+            "density.npz": 2872683,
+            "manifest.json": 2848,
+            "marginal_delta.csv": 889117,
+            "marginal_sigma_over_i.csv": 6132,
+            "summary.json": 930862
+          }
+        },
+        {
+          "trial": 3,
+          "order": [
+            "compact",
+            "fullCSV"
+          ],
+          "directory": "io-exports/3-compact",
+          "seconds": 1.1351594080333598,
+          "total_bytes": 4701642,
+          "file_bytes": {
+            "density.npz": 2872683,
+            "manifest.json": 2848,
+            "marginal_delta.csv": 889117,
+            "marginal_sigma_over_i.csv": 6132,
+            "summary.json": 930862
+          }
+        }
+      ],
+      "fullCSV": [
+        {
+          "trial": 1,
+          "order": [
+            "compact",
+            "fullCSV"
+          ],
+          "directory": "io-exports/1-fullCSV",
+          "seconds": 6.070183502975851,
+          "total_bytes": 23276031,
+          "file_bytes": {
+            "density.npz": 2872683,
+            "manifest.json": 2847,
+            "marginal_delta.csv": 889117,
+            "marginal_sigma_over_i.csv": 6132,
+            "observation_density.csv": 4953716,
+            "parameter_density.csv": 13620674,
+            "summary.json": 930862
+          }
+        },
+        {
+          "trial": 2,
+          "order": [
+            "fullCSV",
+            "compact"
+          ],
+          "directory": "io-exports/2-fullCSV",
+          "seconds": 6.059991832997184,
+          "total_bytes": 23276031,
+          "file_bytes": {
+            "density.npz": 2872683,
+            "manifest.json": 2847,
+            "marginal_delta.csv": 889117,
+            "marginal_sigma_over_i.csv": 6132,
+            "observation_density.csv": 4953716,
+            "parameter_density.csv": 13620674,
+            "summary.json": 930862
+          }
+        },
+        {
+          "trial": 3,
+          "order": [
+            "compact",
+            "fullCSV"
+          ],
+          "directory": "io-exports/3-fullCSV",
+          "seconds": 6.13788338098675,
+          "total_bytes": 23276031,
+          "file_bytes": {
+            "density.npz": 2872683,
+            "manifest.json": 2847,
+            "marginal_delta.csv": 889117,
+            "marginal_sigma_over_i.csv": 6132,
+            "observation_density.csv": 4953716,
+            "parameter_density.csv": 13620674,
+            "summary.json": 930862
+          }
+        }
+      ]
+    }
+  },
+  "installed_launcher_report": {
+    "path": "installed-launcher-self-test.json",
+    "bytes": 1188,
+    "sha256": "bd18a1a27dba60faba81810b1d7df55f631130eb9096a8775063ec985f70ca4a"
+  },
+  "readme_edits": [
+    {
+      "path": "raw/code/PDM/GUI/README.md",
+      "sha256": "36a1930a7efe0996559577cadefd76311ae84237a13c1f53a1851aa372da0eda"
+    },
+    {
+      "path": "raw/code/PDM/README.md",
+      "sha256": "67af2e95ecda3a1ba06638920a1e63f6cd91c56a15aad31c2936ca89fba62b18"
+    }
+  ]
+}

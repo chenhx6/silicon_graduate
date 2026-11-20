@@ -1,0 +1,15 @@
+{
+  "scope": "Static single-file heuristic against the actual modular report generator",
+  "not_claimed_static_pass": true,
+  "findings": {
+    "FONT-FAMILY": "Imported MATPLOTLIB_STYLE explicitly sets DejaVu Sans; actual PDF audited and visually inspected.",
+    "EDITABLE-TEXT": "Imported style sets pdf.fonttype42 and svg.fonttype none; actual PDF text-size audit passed.",
+    "EXPORT-VECTOR": "User requested only PDF delivery; extra SVG output is not required. PDF is vector.",
+    "EXPORT-RASTER": "User requested only PDF; raster previews are scratch QA only.",
+    "PANEL-ALIGNMENT-GATE": "Executed checked Figure.savefig wrapper calls require_matplotlib_panel_alignment before all actual exports; all nine multi-panel figures passed. Wrapper and measurements in tmp/pdm-implementation/figure-qa and render_report_figures.py.",
+    "FONT-GLYPH-FLOOR": "All actual PDF font checks passed, avoiding reliance on static parent-size inference.",
+    "RASTER-DPI": "No delivered raster figure; physical vector dimensions verified."
+  },
+  "rendered_audits": "audit-summary.json",
+  "user_pdf_only_contract": true
+}

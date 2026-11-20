@@ -1,0 +1,8 @@
+$ /opt/venv/bin/python -c 'import multipolepdm, pathlib, sys;module = pathlib.Path(multipolepdm.__file__).resolve();print(f'"'"'Installed module: {module}'"'"', flush=True);assert module.is_relative_to(pathlib.Path(sys.argv[1]));from multipolepdm.__main__ import main;sys.argv = ['"'"'pdm-gui'"'"', *sys.argv[2:]]; sys.exit(main())' /workspace/wiki/tmp/pdm-implementation/final-software-validation/wheel-target --self-test --report /workspace/wiki/tmp/pdm-implementation/final-software-validation/installed-self-test.json
+Installed module: /workspace/wiki/tmp/pdm-implementation/final-software-validation/wheel-target/multipolepdm/__init__.py
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+
+Exit status: 0

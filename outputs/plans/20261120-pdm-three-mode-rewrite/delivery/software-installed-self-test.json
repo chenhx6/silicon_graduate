@@ -1,0 +1,31 @@
+{
+  "kind": "real Qt packaged smoke test",
+  "system": "Linux",
+  "platform_plugin": "offscreen",
+  "native_windows_macos_tested": false,
+  "status": "passed",
+  "cases": [
+    {
+      "mode": "P_ADO",
+      "status": "saved",
+      "directory": "/workspace/wiki/tmp/pdm-implementation/final-software-validation/installed-self-test-be229ff5/data/20261120T010416-Synthetic-P_ADO-9411bcec74",
+      "four_panels": true,
+      "manual_editor_enabled": true
+    },
+    {
+      "mode": "P_DCO",
+      "status": "saved",
+      "directory": "/workspace/wiki/tmp/pdm-implementation/final-software-validation/installed-self-test-be229ff5/data/20261120T010426-Synthetic-P_DCO-4e184e2e98",
+      "four_panels": true,
+      "manual_editor_enabled": true
+    },
+    {
+      "mode": "PDCO",
+      "status": "saved",
+      "directory": "/workspace/wiki/tmp/pdm-implementation/final-software-validation/installed-self-test-be229ff5/data/20261120T010430-Synthetic-PDCO-3e77e3cb3a",
+      "four_panels": true,
+      "manual_editor_enabled": true
+    }
+  ],
+  "artifacts": "/workspace/wiki/tmp/pdm-implementation/final-software-validation/installed-self-test-be229ff5"
+}

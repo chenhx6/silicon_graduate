@@ -1,0 +1,6 @@
+Synthetic P_ADO: calculation ready; saving to /workspace/wiki/tmp/pdm-implementation/final-cli-batch/20261120T031450-Synthetic-P_ADO-dc94799aa2
+OK: /workspace/wiki/tmp/pdm-implementation/final-cli-batch/20261120T031450-Synthetic-P_ADO-dc94799aa2
+Synthetic P_DCO: calculation ready; saving to /workspace/wiki/tmp/pdm-implementation/final-cli-batch/20261120T031454-Synthetic-P_DCO-5f2d5908f0
+OK: /workspace/wiki/tmp/pdm-implementation/final-cli-batch/20261120T031454-Synthetic-P_DCO-5f2d5908f0
+Synthetic PDCO: calculation ready; saving to /workspace/wiki/tmp/pdm-implementation/final-cli-batch/20261120T031456-Synthetic-PDCO-44ee326f50
+OK: /workspace/wiki/tmp/pdm-implementation/final-cli-batch/20261120T031456-Synthetic-PDCO-44ee326f50

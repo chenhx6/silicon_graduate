@@ -1,0 +1,18 @@
+{
+  "scope": [
+    "knowledge/sources/multipolepdm-20261120-empirical-validation.md",
+    "knowledge/sources/multipolepdm-20261120-synthetic-validation.md",
+    "knowledge/sources/pypi-pdm-packaging-20261120.md",
+    "knowledge/research-notes/pdm-three-mode-execution-contract-20261120.md"
+  ],
+  "issues": [],
+  "outside_scope_issues": [
+    {
+      "severity": "error",
+      "code": "WIKILINK_BROKEN",
+      "path": "knowledge/observables/quadrupole-invariants-q2-q3.md",
+      "message": "unresolved [[Q_2 \\times Q_2]]"
+    }
+  ],
+  "ok": true
+}

@@ -1,0 +1,27 @@
+80Se 783.5 keV p_ado_01 nominal success 1.826s
+80Se 783.5 keV p_ado_01 sigma_lower_extension success 0.275s
+80Se 671.8 keV p_ado_02 nominal success 0.188s
+80Se 895.2 keV p_ado_03 nominal success 0.116s
+135Pr 747.3 keV p_ado_04 nominal success 1.188s
+135Pr 747.3 keV p_ado_04 grid_refinement success 1.346s
+135Pr 747.3 keV p_ado_04 sigma_weight success 0.032s
+135Pr 813.2 keV p_ado_05 nominal success 0.199s
+80Se 793.5 keV p_ado_06 nominal success 0.108s
+80Se 1455.3 keV p_ado_07 nominal success 0.085s
+80Se 1678.7 keV p_ado_08 nominal success 0.091s
+80Se 1678.7 keV p_ado_08 grid_refinement success 0.635s
+80Se 1678.7 keV p_ado_08 sigma_upper_extension success 0.149s
+80Se 1678.7 keV p_ado_08 sigma_weight success 0.027s
+135Pr 450.2 keV p_ado_09 nominal success 0.166s
+185Au 554.9 keV p_dco_01 nominal success 1.033s
+185Au 554.9 keV p_dco_01 sigma_upper_extension success 0.242s
+185Au 554.9 keV p_dco_01 sigma_weight success 0.039s
+185Au 554.9 keV p_dco_02 nominal success 0.191s
+185Au 554.9 keV p_dco_03 nominal success 0.247s
+185Au 554.9 keV p_dco_04 nominal success 0.256s
+185Au 554.9 keV p_dco_04 grid_refinement success 0.744s
+185Au 554.9 keV p_dco_04 xi_extension success 0.226s
+185Au 554.9 keV p_dco_04 sigma_weight success 0.050s
+185Au 554.9 keV p_dco_05 nominal success 0.199s
+185Au 554.9 keV p_dco_06 nominal success 0.224s
+15/15 nominal runs successful; 0 failed or skipped runs/artifacts; 15.223s total

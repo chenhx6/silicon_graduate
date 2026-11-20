@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/opt/venv/bin/python",
+    "-m",
+    "multipolepdm.cli",
+    "--example",
+    "batch",
+    "--output-dir",
+    "/workspace/wiki/tmp/pdm-implementation/final-cli-batch"
+  ],
+  "cwd": "/workspace/wiki/tmp/pdm-implementation",
+  "exit_code": 0,
+  "elapsed_seconds": 9.192392872995697,
+  "peak_rss_KiB_linux_children": 363968,
+  "scope": "Installed public PyPI package, bundled batch example unchanged, production3121x201 grids, three calculations plus previews and compact saves"
+}

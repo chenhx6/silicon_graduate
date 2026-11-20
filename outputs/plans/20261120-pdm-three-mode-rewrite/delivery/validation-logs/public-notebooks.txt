@@ -1,0 +1,9 @@
+[NbConvertApp] Converting notebook tmp/pdm-implementation/public-source-test/multipolePDM-0.1.0/analysis/01_results_and_intervals.ipynb to notebook
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+[NbConvertApp] Writing 117109 bytes to tmp/pdm-implementation/public-source-test/multipolePDM-0.1.0/analysis/01_results_and_intervals.ipynb
+[NbConvertApp] Converting notebook tmp/pdm-implementation/public-source-test/multipolePDM-0.1.0/analysis/02_benchmarks_and_comparisons.ipynb to notebook
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+[NbConvertApp] Writing 6508 bytes to tmp/pdm-implementation/public-source-test/multipolePDM-0.1.0/analysis/02_benchmarks_and_comparisons.ipynb
+[NbConvertApp] Converting notebook tmp/pdm-implementation/public-source-test/multipolePDM-0.1.0/analysis/03_report_figures.ipynb to notebook
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+[NbConvertApp] Writing 116583 bytes to tmp/pdm-implementation/public-source-test/multipolePDM-0.1.0/analysis/03_report_figures.ipynb

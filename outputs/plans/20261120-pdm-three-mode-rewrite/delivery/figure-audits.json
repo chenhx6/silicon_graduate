@@ -1,0 +1,102 @@
+[
+  {
+    "figure": "P_DCO_synthetic_overview.pdf",
+    "audit": "text",
+    "exit_code": 0
+  },
+  {
+    "figure": "P_DCO_synthetic_overview.pdf",
+    "audit": "collision",
+    "exit_code": 0
+  },
+  {
+    "figure": "PDCO_synthetic_overview.pdf",
+    "audit": "text",
+    "exit_code": 0
+  },
+  {
+    "figure": "PDCO_synthetic_overview.pdf",
+    "audit": "collision",
+    "exit_code": 0
+  },
+  {
+    "figure": "response_comparison.pdf",
+    "audit": "text",
+    "exit_code": 0
+  },
+  {
+    "figure": "response_comparison.pdf",
+    "audit": "collision",
+    "exit_code": 0
+  },
+  {
+    "figure": "propagated_population.pdf",
+    "audit": "text",
+    "exit_code": 0
+  },
+  {
+    "figure": "propagated_population.pdf",
+    "audit": "collision",
+    "exit_code": 0
+  },
+  {
+    "figure": "synthetic_coverage.pdf",
+    "audit": "text",
+    "exit_code": 0
+  },
+  {
+    "figure": "synthetic_coverage.pdf",
+    "audit": "collision",
+    "exit_code": 0
+  },
+  {
+    "figure": "80Se_783p5_P_ADO.pdf",
+    "audit": "text",
+    "exit_code": 0
+  },
+  {
+    "figure": "80Se_783p5_P_ADO.pdf",
+    "audit": "collision",
+    "exit_code": 0
+  },
+  {
+    "figure": "135Pr_747p3_P_ADO.pdf",
+    "audit": "text",
+    "exit_code": 0
+  },
+  {
+    "figure": "135Pr_747p3_P_ADO.pdf",
+    "audit": "collision",
+    "exit_code": 0
+  },
+  {
+    "figure": "empirical_summary.pdf",
+    "audit": "text",
+    "exit_code": 0
+  },
+  {
+    "figure": "empirical_summary.pdf",
+    "audit": "collision",
+    "exit_code": 0
+  },
+  {
+    "figure": "164Yb_490_PDCO.pdf",
+    "audit": "text",
+    "exit_code": 0
+  },
+  {
+    "figure": "164Yb_490_PDCO.pdf",
+    "audit": "collision",
+    "exit_code": 0
+  },
+  {
+    "figure": "190Tl_272p1_P_DCO.pdf",
+    "audit": "text",
+    "exit_code": 0
+  },
+  {
+    "figure": "190Tl_272p1_P_DCO.pdf",
+    "audit": "collision",
+    "exit_code": 0
+  }
+]

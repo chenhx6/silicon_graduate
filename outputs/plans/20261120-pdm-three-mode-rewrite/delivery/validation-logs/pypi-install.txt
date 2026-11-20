@@ -1,0 +1,5 @@
+Collecting multipolePDM==0.1.0
+  Downloading multipolepdm-0.1.0-py3-none-any.whl.metadata (1.5 kB)
+Downloading multipolepdm-0.1.0-py3-none-any.whl (52 kB)
+Installing collected packages: multipolePDM
+Successfully installed multipolePDM-0.1.0

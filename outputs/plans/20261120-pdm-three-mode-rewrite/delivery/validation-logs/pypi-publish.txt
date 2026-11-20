@@ -1,0 +1,12 @@
+Checking
+/workspace/wiki/tmp/pdm-implementation/final-software-validation/dist/multipolep
+dm-0.1.0-py3-none-any.whl: PASSED
+Checking
+/workspace/wiki/tmp/pdm-implementation/final-software-validation/dist/multipolep
+dm-0.1.0.tar.gz: PASSED
+Uploading distributions to https://upload.pypi.org/legacy/
+Uploading multipolepdm-0.1.0-py3-none-any.whl
+Uploading multipolepdm-0.1.0.tar.gz
+
+View at:
+https://pypi.org/project/multipolePDM/0.1.0/

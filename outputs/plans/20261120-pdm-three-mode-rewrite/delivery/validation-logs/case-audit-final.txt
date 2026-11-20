@@ -1,0 +1,64 @@
+{
+  "tiers": {
+    "main": 10,
+    "extension": 6,
+    "gap": 6
+  },
+  "nuclear_classes": {
+    "even-even": {
+      "lines": 8,
+      "nuclides": [
+        "132Ce",
+        "80Se"
+      ]
+    },
+    "odd-A": {
+      "lines": 6,
+      "nuclides": [
+        "135Pr",
+        "185Au"
+      ]
+    },
+    "odd-odd": {
+      "lines": 2,
+      "nuclides": [
+        "154Tb"
+      ]
+    }
+  },
+  "selection_delta_sign": {
+    "negative": 10,
+    "positive": 6
+  },
+  "selection_e2_bin": {
+    "intermediate": 4,
+    "low": 9,
+    "high": 3
+  },
+  "modes": {
+    "P_ADO": {
+      "source_measured_pairs": 9,
+      "nuclides_with_source_measured_pairs": [
+        "135Pr",
+        "80Se"
+      ],
+      "fit_ready": 0
+    },
+    "P_DCO": {
+      "source_measured_pairs": 13,
+      "nuclides_with_source_measured_pairs": [
+        "132Ce",
+        "154Tb",
+        "185Au",
+        "80Se"
+      ],
+      "fit_ready": 0
+    },
+    "PDCO": {
+      "source_measured_pairs": 0,
+      "nuclides_with_source_measured_pairs": [],
+      "fit_ready": 0
+    }
+  },
+  "measured_conditional_P_without_matching_DCO": 3
+}

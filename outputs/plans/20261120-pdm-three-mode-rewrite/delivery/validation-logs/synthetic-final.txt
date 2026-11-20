@@ -1,0 +1,10 @@
+P_ADO: 10 deterministic cases per generator
+P_DCO: 10 deterministic cases per generator
+PDCO: 10 deterministic cases per generator
+P_ADO/delta=-0.2/sigma_over_i=0.2 same_kernel: 100/100 draws
+P_ADO/delta=-0.2/sigma_over_i=0.2 independent_9j: 100/100 draws
+P_DCO/delta=+1/sigma_over_i=0.5 same_kernel: 100/100 draws
+P_DCO/delta=+1/sigma_over_i=0.5 independent_9j: 100/100 draws
+PDCO/delta=-3/sigma_over_i=0.2 same_kernel: 100/100 draws
+PDCO/delta=-3/sigma_over_i=0.2 independent_9j: 100/100 draws
+Synthetic suite finished in 50.43 s. Evidence in raw/code/PDM/analysis/benchmarks.

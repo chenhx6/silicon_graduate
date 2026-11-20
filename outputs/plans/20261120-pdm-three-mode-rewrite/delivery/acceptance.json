@@ -1,0 +1,56 @@
+{
+  "version": "0.1.0",
+  "completed_at": "2026-11-20T03:16:43.212783+00:00",
+  "pypi": "https://pypi.org/project/multipolePDM/0.1.0/",
+  "pypi_install_gui": "passed: all three modes from real PyPI installation",
+  "pytest_passed": 153,
+  "xvfb_smoke_passed": 4,
+  "notebooks_executed": 3,
+  "source_archive": "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/multipolePDM-0.1.0-source.zip",
+  "software_git_remote": "Not supplied; standalone software not pushed. Full source archive delivered.",
+  "native_windows_macos": "not tested",
+  "literature_nuclides": {
+    "even_even": [
+      "80Se",
+      "164Yb"
+    ],
+    "odd_A": [
+      "135Pr",
+      "185Au"
+    ],
+    "odd_odd": [
+      "154Tb",
+      "190Tl"
+    ]
+  },
+  "mode_coverage": {
+    "P_ADO": 2,
+    "P_DCO": 3,
+    "PDCO": 1
+  },
+  "literature_scope": "Declared point/ideal-ring comparisons; not full array replays. 15 mixed candidate lines, 3 pure transition hypotheses, geometry alternatives not independent.",
+  "empirical_initial_runs": 26,
+  "followup_runs": 32,
+  "followup_refinements": 5,
+  "scientific_limitations": [
+    "PDCO has only one empirical nuclide",
+    "Undetermined geometry and source convention retained",
+    "Some pure controls and empirical models disagree",
+    "PDF mass is not guaranteed frequentist coverage",
+    "Finite-grid convergence does not certify unbounded integration domain"
+  ],
+  "report": {
+    "path": "raw/writing/pado/20261029_review_v1/PDM/main.pdf",
+    "sha256": "1dfb6dbbb57717c61cdf6911555ab21700fd85b4685b5f5944c97e4e5837133a",
+    "pages": 26
+  },
+  "data_workbook_unchanged": true,
+  "public_source_notebook_replay": "passed: all three notebooks from extracted source archive with public PyPI package",
+  "workbook_layout_tests": {
+    "rows": "identical",
+    "columns": "identical",
+    "combined": "identical"
+  },
+  "queue_event_trace": "delivery/queue-events.json",
+  "repository_hook_boundary": "after-edit diff check passed; whole changed-set archive gate timed out. Explicit PDM three-source archive gate passed with0failures; no whole-Wiki archive claim."
+}

@@ -1,0 +1,146 @@
+{
+  "status": "passed",
+  "mode": "PDCO",
+  "installed_package": "/workspace/wiki/tmp/pdm-implementation/final-software-validation/wheel-target/multipolepdm/__init__.py",
+  "openblas_num_threads": "1",
+  "grid": {
+    "xi_points": 601,
+    "sigma_points": 121
+  },
+  "single_compute_seconds": 1.1979025240289047,
+  "density_npz_array_equality": true,
+  "timing_scope": "Elapsed export_result wall time on local storage, including serialization and file writes, excluding calculation, validation reads and fsync.",
+  "byte_scope": "Sum of logical file sizes in each export directory.",
+  "summary": {
+    "compact": {
+      "median_seconds": 1.2109391100239009,
+      "total_bytes_per_trial": [
+        4701642,
+        4701642,
+        4701642
+      ]
+    },
+    "fullCSV": {
+      "median_seconds": 6.070183502975851,
+      "total_bytes_per_trial": [
+        23276031,
+        23276031,
+        23276031
+      ]
+    }
+  },
+  "trials": {
+    "compact": [
+      {
+        "trial": 1,
+        "order": [
+          "compact",
+          "fullCSV"
+        ],
+        "directory": "io-exports/1-compact",
+        "seconds": 1.2109391100239009,
+        "total_bytes": 4701642,
+        "file_bytes": {
+          "density.npz": 2872683,
+          "manifest.json": 2848,
+          "marginal_delta.csv": 889117,
+          "marginal_sigma_over_i.csv": 6132,
+          "summary.json": 930862
+        }
+      },
+      {
+        "trial": 2,
+        "order": [
+          "fullCSV",
+          "compact"
+        ],
+        "directory": "io-exports/2-compact",
+        "seconds": 1.2552332329796627,
+        "total_bytes": 4701642,
+        "file_bytes": {
+          "density.npz": 2872683,
+          "manifest.json": 2848,
+          "marginal_delta.csv": 889117,
+          "marginal_sigma_over_i.csv": 6132,
+          "summary.json": 930862
+        }
+      },
+      {
+        "trial": 3,
+        "order": [
+          "compact",
+          "fullCSV"
+        ],
+        "directory": "io-exports/3-compact",
+        "seconds": 1.1351594080333598,
+        "total_bytes": 4701642,
+        "file_bytes": {
+          "density.npz": 2872683,
+          "manifest.json": 2848,
+          "marginal_delta.csv": 889117,
+          "marginal_sigma_over_i.csv": 6132,
+          "summary.json": 930862
+        }
+      }
+    ],
+    "fullCSV": [
+      {
+        "trial": 1,
+        "order": [
+          "compact",
+          "fullCSV"
+        ],
+        "directory": "io-exports/1-fullCSV",
+        "seconds": 6.070183502975851,
+        "total_bytes": 23276031,
+        "file_bytes": {
+          "density.npz": 2872683,
+          "manifest.json": 2847,
+          "marginal_delta.csv": 889117,
+          "marginal_sigma_over_i.csv": 6132,
+          "observation_density.csv": 4953716,
+          "parameter_density.csv": 13620674,
+          "summary.json": 930862
+        }
+      },
+      {
+        "trial": 2,
+        "order": [
+          "fullCSV",
+          "compact"
+        ],
+        "directory": "io-exports/2-fullCSV",
+        "seconds": 6.059991832997184,
+        "total_bytes": 23276031,
+        "file_bytes": {
+          "density.npz": 2872683,
+          "manifest.json": 2847,
+          "marginal_delta.csv": 889117,
+          "marginal_sigma_over_i.csv": 6132,
+          "observation_density.csv": 4953716,
+          "parameter_density.csv": 13620674,
+          "summary.json": 930862
+        }
+      },
+      {
+        "trial": 3,
+        "order": [
+          "compact",
+          "fullCSV"
+        ],
+        "directory": "io-exports/3-fullCSV",
+        "seconds": 6.13788338098675,
+        "total_bytes": 23276031,
+        "file_bytes": {
+          "density.npz": 2872683,
+          "manifest.json": 2847,
+          "marginal_delta.csv": 889117,
+          "marginal_sigma_over_i.csv": 6132,
+          "observation_density.csv": 4953716,
+          "parameter_density.csv": 13620674,
+          "summary.json": 930862
+        }
+      }
+    ]
+  }
+}
