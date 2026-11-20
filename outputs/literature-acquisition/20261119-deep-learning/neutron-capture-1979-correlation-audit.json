@@ -1,0 +1,190 @@
+{
+  "recorded_at": "2026-11-20T00:18:16.473067+00:00",
+  "batch_pages": [
+    724,
+    758
+  ],
+  "batch_page_count": 35,
+  "book_all_known_pages": [
+    "1-758"
+  ],
+  "book_covered_pages": 758,
+  "bibliographic_pages": [
+    "1-17",
+    "521"
+  ],
+  "book_completion": false,
+  "responses": [
+    {
+      "id": "NC79-PROKOFJEV-EU154",
+      "covered": [
+        724,
+        726
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "66ddcd488c229f41b0e25613040c7bed793310939fd4a71c4f7fa8b629e40f86"
+    },
+    {
+      "id": "NC79-RAMAN-NI59",
+      "covered": [
+        727,
+        729
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "b9e296875f694ff91ae29803526847063d4486058bac513c79bc8d136ce0ac52"
+    },
+    {
+      "id": "NC79-ROBERSON-CA40",
+      "covered": [
+        730,
+        732
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "0bed9943063dd8e045922e64755a2d7a056992765298a83e1816700bbe7e7a69"
+    },
+    {
+      "id": "NC79-ROHR-WIDTH-STATISTICS",
+      "covered": [
+        733,
+        735
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "8ee71d56ea4286350820644f8e362916dd2f358475eae64a09432c1aa7f6b56f"
+    },
+    {
+      "id": "NC79-SAKAMOTO-FE57",
+      "covered": [
+        736,
+        739
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "ebf47293bed5ecc0a740e9c74c7067cf6e8132159ec2737c36533b7bd7488cad"
+    },
+    {
+      "id": "NC79-SAPORETTI-CE140",
+      "covered": [
+        740,
+        742
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "99207588bd88cb59abc9c078186cdd7d9979cc4d6b5176dc738d11f5a4d9de4c"
+    },
+    {
+      "id": "NC79-SCOTT-BA142",
+      "covered": [
+        743,
+        746
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "ae0d06ce359a624fa9f6f764c0601bda27d6e5dfcd4bde363bb1fa922b9262bc"
+    },
+    {
+      "id": "NC79-SHAHAL-N15",
+      "covered": [
+        747,
+        749
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "f043dc19bed1dec1c5922407630db20db4860f22d63124b2506740a93a9199b4"
+    },
+    {
+      "id": "NC79-SIMIC-EU152",
+      "covered": [
+        750,
+        752
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "761f31da784afb6c6898eb52721f0eba79c8d5bee24c84791fffb7fdd41b4e49"
+    },
+    {
+      "id": "NC79-SIMON-TM169",
+      "covered": [
+        753,
+        755
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "4fdedfb42f828c2b4b347bec9425337e4d68f2d1c93a7c22642e8d771921498b"
+    },
+    {
+      "id": "NC79-SMITH-PD109",
+      "covered": [
+        756,
+        758
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "4cb4fda291f853aa5369d0b2d4829221df14ce77d2265a1a3c7ff07602ba846d"
+    }
+  ],
+  "chapter_sources": [
+    "knowledge/sources/prokofjev-et-al-1979-eu154-low-lying-levels.md",
+    "knowledge/sources/raman-jurney-1979-ni59-thermal-capture.md",
+    "knowledge/sources/roberson-et-al-1979-ca40-fast-capture-e2.md",
+    "knowledge/sources/rohr-1979-statistical-total-radiative-width.md",
+    "knowledge/sources/sakamoto-1979-fe57-thermal-capture-gamma-rays.md",
+    "knowledge/sources/saporetti-guidotti-1979-ce140-collective-m1-angular-distribution.md",
+    "knowledge/sources/scott-et-al-1979-ba142-angular-correlations.md",
+    "knowledge/sources/shahal-moreh-1979-n15-vibrational-energy-scattering.md",
+    "knowledge/sources/simic-et-al-1979-eu152-isomer-feeding.md",
+    "knowledge/sources/simon-et-al-1979-tm169-capture-evaluation.md",
+    "knowledge/sources/smith-et-al-1979-pd109-rotation-aligned-states.md"
+  ],
+  "verified_pages_and_checks": [
+    "Prokofjev 等 1979：铕-154 热俘获及低位带: PDF 724–725：结合低能 γ、电子谱和高能初级谱约束 $^{154}$Eu 的低位转动结构。自旋与组态依赖几个反应及衰变证据的组合。 | PDF 725–726：基态带和其它低位带的比较同时使用同核跃迁与邻近铕核系统学，邻核类比不能给出新的本核直接观测。",
+    "Raman 与 Jurney 1979：镍-60 热俘获初级线和入口备选: PDF 727–729 / Table 1：由 $^{59}$Ni 热俘获谱建立 $^{60}$Ni 纲图，报告 72 个激发态。表仅摘录部分能级，谱线的强度阈值影响纲图。 | PDF 729：到 3186.1 keV 的 $3^+$ 态的 8200.8 keV 初级线引出 E2 或捕获入口自旋成分的竞争解释。此反应产物为 $^{60}$Ni，和 $^{61}$Ni 线偏振研究分开。",
+    "Roberson 等 1979：钙-40 快俘获角分布中的 E2 证据: PDF 730–732 Figs. 1–2：测量到 $^{41}$Ca 基态的俘获 γ 角分布和激发函数。直接半直接模型以角系数和截面检验巨四极响应，纯直接偶极曲线仅供对比。 | PDF 732 / Fig. 2：E2 证据来自角分布及模型比较，涉及 E1 与 E2 等振幅。未报告可与 E2/M1 δ 配对的 γ 线偏振。",
+    "Rohr 1979：总辐射宽度的统计自由度: PDF 733–734：对部分宽度作统计抽样后求和，比较不同能级密度和强度律。文中以总宽度相对方差约束有效卡方自由度。 | PDF 734–735：实验上的总宽度约束和合成谱的自由度预测分别比较。开启更多末态或入口自旋通道会改变模型给出的方差。",
+    "Sakamoto 1979：铁-57 热俘获谱与探测响应: PDF 736–739：以弯曲导管的慢中子束测俘获谱，用 Ge(Li) 与符合、反符合模式比较本底及探测响应。 | PDF 738–739 / Fig. 1、Table 1：谱表按探测配置给出峰的位置和强度，双逃逸或连续背景的辨认依赖谱模式。分辨率与精度按能量范围解释。",
+    "Saporetti 与 Guidotti 1979：铈俘获角分布的 M1 解释: PDF 740–742 Figs. 1–2：直接半直接计算加入集体 M1 耦合，比较 E1+E2、E1+M1 与三项共同作用对角分布的改变。 | PDF 742 / Fig. 2：3 与 6 MeV 入射下前后非对称和峰形的解释依赖所用相干振幅。图是模型比较，章中未报告配对 γ 线偏振。",
+    "Scott 等 1979：钡-142 的 γ–γ 角关联与混合比: PDF 743–744 / Table 1：角关联以有限阶 Legendre 系数拟合, 使用低位约 359 keV 的 $2^+\\to0^+$ 纯 E2 假设。表中候选解依赖门与自旋序列。 | PDF 745–746：1326 keV 态的角关联允许自旋 1 与 3，作者借到基态的跨越支路排除 3。1423 keV 的 $2^+$ 态退激比限制转子解释。此章仅有角关联及相对符合强度，未给实测 γ 线偏振。",
+    "Shahal 与 Moreh 1979：共振散射与氮振动能: PDF 747–748 / Fig. 1：比较 BN 与 $\\mathrm{NH_4Cl}$ 中 $^{15}$N 的共振散射截面随温度变化。信号受吸收/散射线重叠及 Doppler 展宽影响。 | PDF 749：零点动能参数来自振动和晶格运动模型，物理含义是所用自由度的核动能估计。两种物质各有不同振动贡献。",
+    "Simić 等 1979：铕-152 异能态的延迟符合馈入: PDF 750–752 / Table 1：以异能态延迟符合识别到 89.8488 keV 态的级联馈入，表列 γ 能量及所提初态。 | PDF 751–752：起始层级的确定性依赖级联归属与能量吻合。未进入延迟门的分支不应从表中排除在真实纲图之外。",
+    "Simon 等 1979：铥-169 俘获数据的分能区评价: PDF 753–755 / Figs. 1–3：热区和可分辨共振用共同参数集，较高能区用复合核模型及其它输入。评价曲线综合实验与模型，不是连续的逐点直接测量。 | PDF 755：作者对比新实验检验部分计算区间。比较时必须区分已测截面、外推区间和参数选择。",
+    "Smith 等 1979：钯-109 奇宇称态的转动对齐模型: PDF 756–758：晚期资料补充低自旋奇宇称态，使多条对齐序列能用于模型比较。参数部分继承邻近偶偶 Pd 系统学。 | PDF 758：不同对齐程度的能级对模型响应不同。主序列相符后仍有较少对齐态的偏差；据此保留残余耦合与转子近似的限制。"
+  ],
+  "next_batch": {
+    "pages": [
+      759,
+      812
+    ],
+    "units": [
+      "NC79-SOHRABPOUR-MINERALS",
+      "NC79-SOLTANIEH-CAPTURE",
+      "NC79-SPITS-GD153",
+      "NC79-STECHER-FILTER",
+      "NC79-STOFFL-GD155",
+      "NC79-THANH-COMPOUND",
+      "NC79-TIKKU-ZN",
+      "NC79-VANASSCHE-U4",
+      "NC79-VANDENPUT-SM151",
+      "NC79-VARTSKY-IN-VIVO",
+      "NC79-VIEU-AU193",
+      "NC79-WARNER-SM144",
+      "NC79-WARNER-OS193",
+      "NC79-WEIGMANN-MO",
+      "NC79-WELLS-FE",
+      "NC79-WHITE-TH231",
+      "NC79-WIECLAWIK-ISOTONES",
+      "NC79-WOLF-WIDTHS",
+      "NC79-WOLF-YIELD"
+    ]
+  },
+  "carried_forward": {
+    "pages": [
+      633,
+      635
+    ],
+    "source_note": "knowledge/sources/hungerford-1979-ill-angular-correlation-164dy.md",
+    "new_api_requests": 0
+  }
+}

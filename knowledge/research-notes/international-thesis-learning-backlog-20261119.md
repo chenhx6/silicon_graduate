@@ -307,6 +307,15 @@ measures outgoing neutron polarization. The historical
 [[peker-hamilton-1979-cd-low-lying-collectivity|Cd collective-state comparison]]
 are kept with their model and input data conditions. Coverage reaches 723/874.
 
+PDF 724–758 adds eleven contributions. The
+[[roberson-et-al-1979-ca40-fast-capture-e2|Ca-40 E2 resonance]] is inferred
+from capture angular distributions and a model comparison. The
+[[scott-et-al-1979-ba142-angular-correlations|Ba-142 mixing analysis]] uses
+γ–γ angular correlation. These chapters supply method examples with
+different observables from the linear-polarization survey. The
+[[raman-jurney-1979-ni59-thermal-capture|Ni-59 target]] produces Ni-60.
+Continuous volume coverage reaches 758/874 pages.
+
 ## Final acquisition closure and learning design
 
 The user has closed further acquisition and requested an in-depth learning

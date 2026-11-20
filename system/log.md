@@ -6364,3 +6364,8 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - 验收 PDF 692–723 十一篇，保留通道振幅与宽度的区别，以及偶汞和偶偶镉模型的适用条件。
 - 连续覆盖 PDF 1–723。PDF 724–758 已提交 Gemini。
+
+## 2026-11-20 — 角分布、角关联与跃迁指认
+
+- 验收 PDF 724–758 十一篇。保留 Ca-40 的 E2 共振条件、Ba-142 的 γ–γ 角关联和自旋竞争、Ni-59 靶与 Ni-60 产物身份。
+- 卷末正文已分单元派发。PDF 843 的移置表回接奇核形变章，卷后书证单独计量。

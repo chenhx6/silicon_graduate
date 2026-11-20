@@ -125,6 +125,17 @@ updated: 2026-11-20
 - [[peker-hamilton-1979-hg-triaxial-shape-evidence]] — 汞的 E2 系统学及刚性三轴候选。
 - [[peker-hamilton-1979-cd-low-lying-collectivity]] — 镉的支路强度比与振动模型限制。
 - [[ponomarev-et-al-1979-te126-m1-strength]] — 碲-126 的 M1 激发与退激强度。
+- [[prokofjev-et-al-1979-eu154-low-lying-levels]] — 铕-154 的低位带和多谱学证据。
+- [[raman-jurney-1979-ni59-thermal-capture]] — 镍-60 初级俘获线及入口成分。
+- [[roberson-et-al-1979-ca40-fast-capture-e2]] — 快俘获角分布中的 E2 共振解释。
+- [[rohr-1979-statistical-total-radiative-width]] — 宽度统计自由度与模型截断。
+- [[sakamoto-1979-fe57-thermal-capture-gamma-rays]] — 低本底铁俘获谱及响应差异。
+- [[saporetti-guidotti-1979-ce140-collective-m1-angular-distribution]] — 相干 M1/E2 对角分布的影响。
+- [[scott-et-al-1979-ba142-angular-correlations]] — 角关联分析中的门、自旋备选和混合比。
+- [[shahal-moreh-1979-n15-vibrational-energy-scattering]] — 共振光散射与振动动能估计。
+- [[simic-et-al-1979-eu152-isomer-feeding]] — 异能态延迟符合的级联选择。
+- [[simon-et-al-1979-tm169-capture-evaluation]] — 俘获截面评价的分能区输入。
+- [[smith-et-al-1979-pd109-rotation-aligned-states]] — 奇宇称转动对齐的模型限制。
 
 ## A130前置正文重写：样节与一致性
 
