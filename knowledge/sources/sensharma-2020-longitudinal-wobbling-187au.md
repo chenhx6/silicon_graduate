@@ -3,7 +3,7 @@ type: source
 title: "Longitudinal wobbling motion in 187Au"
 aliases: [Sensharma 2020 187Au, longitudinal wobbling in 187Au]
 created: 2026-07-03
-updated: 2026-10-25
+updated: 2026-11-21
 status: active
 review_status: human-reviewed
 source_type: journal-article-experiment-and-model
@@ -67,7 +67,7 @@ N. Sensharma et al., *Physical Review Letters* **124**, 052501 (2020)，DOI `10.
 | AU20-1 | 两次实验以 105/115 MeV `19F` 轰击带 `208Pb` backing 的富集 `174Yb` 靶；Gammasphere 分别有 57/73 个工作的 Ge detectors，合并得到 `1.08×10^9` 个 fold≥3 γ 符合事件。 | experimental-fact | direct | p.3, left column, experimental setup | false |
 | AU20-2 | Fig.2 给出 yrast band (1)、此前被称为 unfavored signature partner 的 band (2)，以及本工作新建、以 `E_x=386.3 keV` 的 `11/2-` state 为带头的 band (3)。 | experimental-fact | direct | p.3, Fig.2 and surrounding text | false |
 | AU20-3 | band (2) 通过六条 ΔI=1 transitions 衰变到 yrast；Fig.3(a-d) 分析其中最低的 376.3、461.8、544.3、639.3 keV 四条 links。 | experimental-fact | direct | pp.3-4, Figs.2-3 | false |
-| AU20-4 | 四条最低 band (2)→yrast links 的 `δ` 为 `-2.67(7)`、`-2.98(+0.02/-0.03)`、`-3.44(3)`、`-3.72(+0.11/-0.12)`，E2 fractions 分别为 `87.7(+0.5/-0.6)%`、`89.9(1)%`、`92.2(1)%`、`93.3(4)%`。 | experimental-fact | direct | p.4, Fig.3(a-d) | false |
+| AU20-4 | 四条最低 band (2)→yrast links 的 `δ` 为 `-2.67(7)`、`-2.98(2)`、`-3.44(3)`、`-3.72(+0.12/-0.11)`，E2 fractions 分别为 `87.7(+0.5/-0.6)%`、`89.9(1)%`、`92.2(1)%`、`93.3(4)%`。 | experimental-fact | direct | p.4, Fig.3(a-d) | false |
 | AU20-5 | band (3) 通过 265.3、436.5 keV ΔI=1 transitions 衰变到 yrast；angular distributions 给出 `δ=-0.06(1)`、`-0.10(1)` 和约 0.4%、1.0% E2 admixture。 | experimental-fact | direct | pp.3-4, Figs.2-3(e,f) | false |
 | AU20-6 | 新观察到 429.2 keV ΔI=2 crossover，连接 band (2) 的 `15/2-` level 与 band (3) 的 `11/2-` level；作者结合 in-band stretched-E2 与两条 SP→yrast pure-ΔI=1 links 进行 spin/parity assignment。 | experimental-fact | direct | pp.3-4, Fig.2 and paragraph below Fig.3 | false |
 | AU20-7 | 333.8、413.7 keV 两条已知 yrast stretched-E2 transitions 的 angular-distribution fits 给出 `δ=-0.04(1)`、`-0.03(1)`，被用于检查分析方法。 | experimental-fact | direct | p.3 and p.4, Fig.3(g,h) | false |
@@ -79,6 +79,12 @@ N. Sensharma et al., *Physical Review Letters* **124**, 052501 (2020)，DOI `10.
 | AU20-13 | PRM 较好再现三条带的总体能量趋势和增加的 `E_wobb`，但对 `E_wobb` 数值略有低估。 | model-result | direct | pp.4-5, Fig.4 | false |
 | AU20-14 | 实验 LW→yrast 的 `B(E2)_out/B(E2)_in` 最大约 0.7，明显大于 SP→yrast；PRM 较好再现 E2 ratios，但高估 LW 的、低估 SP 的 `B(M1)_out/B(E2)_in`。 | model-result | direct | p.5, Fig.5 and surrounding text | false |
 | AU20-15 | 论文以 half-filled `h9/2` shell 中准质子趋向沿 medium axis 的分类图景解释 longitudinal geometry；正文未给出逐自旋 angular-momentum-component 图。 | author-interpretation | direct | pp.1-2, Fig.1(c); p.4 PRM setup | false |
+
+### 2026-11-21 原文对照
+
+图 3(a–d) 的合并角分布是这四条线的混合比证据。本文未给这些线新测的线偏振，效率、取向、衰减的更多细节指向 Ref. 26，正文未逐线报告 \(\sigma/I\)。[[guo-2022-low-spin-wobbling-187au]] 的 \(P\)–\(R_{\rm ADO}\) 联解对两条同核支路给出另一组结果。两个实验各自的观测、误差和门条件需保留。
+
+原刊图 3(b) 的 461.8 keV 误差上下均为 0.02，图 3(d) 的 639.3 keV 误差为 \(+0.12,-0.11\)。后者直接按负的 \(\delta\) 读取。对应旧转换原表见 [[rupnik-1994-hg187-au187-decay-thesis]] 和 [[bourgeois-1978-au187-decay-conversion]]。
 
 ## Nuclear Structure Information
 

@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000021",
+  "active_source": "catalogue:LIT-000684",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 74,
+  "completed_full_sources_this_run": 75,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T19:48:37.292517+00:00",
+  "updated_at": "2026-11-20T19:57:12.453819+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 8275,
-  "current_source_note": "knowledge/sources/bourgeois-1978-au187-decay-conversion.md",
-  "next_action": "Read Sensharma et al. (2020) 187Au six-page publisher article and compare acquisition, delta and historical conversion evidence.",
+  "completed_primary_pages_this_run": 8281,
+  "current_source_note": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+  "next_action": "Read Guo et al. 2022 main and supplement, verify ratio definitions, alignment handling and original delta inputs.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Bourgeois 1978: full conversion and spectroscopy, both 187Au conversion entries verified in original and cross-linked to Guo comparison.",
-  "current_source_scientific_acceptance": "All 21 publisher pages, with Table 3 checked directly.",
-  "source_scoped_retrieval": "Locally held user-supplied publisher PDF. No new full text."
+  "last_source_manager_closure": "Sensharma 2020: original angular distributions, combined run and fit limits; explicitly separate later P and old ICC.",
+  "current_source_scientific_acceptance": "All six journal pages. Fig. 3 visually checked and uncertainties corrected.",
+  "source_scoped_retrieval": "Locally held publisher PDF. No new full text."
 }

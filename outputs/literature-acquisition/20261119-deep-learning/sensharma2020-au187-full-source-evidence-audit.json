@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-20T19:57:12.453819+00:00",
+  "source": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+  "raw_file": "raw/papers/2020_Sensharma et al_Longitudinal Wobbling Motion in Au 187.pdf",
+  "raw_sha256": "f348dce9976ad076fd9b1d5281a728e0923053aced33b0270f643d770729366a",
+  "primary_pdf_pages": 6,
+  "scientific_and_bibliographic_pages_covered": 6,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–2: original question, geometry and historical scope",
+    "PDF 3–4: two data collections, angular observations, spin scheme and phase-sensitive figure",
+    "PDF 5–6: strengths ratios, theory, interpretation and references"
+  ],
+  "visual_checks": [
+    4
+  ],
+  "evidence_gaps": [
+    "The PRL derives the central delta from angular distributions. Additional spin-alignment and attenuation procedure is delegated. No same-line new P reported.",
+    "The fit and relative strengths share underlying experimental branches; group and theory outputs separate.",
+    "Two printed asymmetric uncertainties corrected against Fig. 3."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

@@ -6690,3 +6690,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Bourgeois 等的 ¹⁸⁷Au 转换比较
 
 - 对账 21 页，验原表两条转换系数及 376.3 keV 能级异文，回链 Guo。累计 74 份、8275 页，续读 Sensharma 等。
+
+## 2026-11-21 — Sensharma 等的 ¹⁸⁷Au 角分布
+
+- 核完 6 页，确认两次采集合并、角分布取比和两处图例误差。累计 75 份、8281 页，续读 Guo。

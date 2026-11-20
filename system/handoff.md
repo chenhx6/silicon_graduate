@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Sensharma 的 ¹⁸⁷Au 角分布
+
+- [[sensharma-2020-longitudinal-wobbling-187au]] 对账 6 页，订正图 3 两处不对称误差记法，分开原刊角分布、详细资料与历史转换谱。两次 Gammasphere 实验按论文合并的样本计。
+- 累计 75 份、8281 页。续核 Guo 2022 原刊和 SI 的实际角组、\(P\) 与 \(\delta\) 覆盖。
+
 ## 2026-11-21 — Bourgeois 的 ¹⁸⁷Au 原刊转换数据
 
 - [[bourgeois-1978-au187-decay-conversion]] 核读 21 页。用原表比对 \(\alpha_K(376.3)=0.11(3)\)、\(\alpha_K(462)=0.08(2)\)，并保留 376.3 keV 行的 469.9/496.9 keV 异文。对照写入 Guo 的来源页。
