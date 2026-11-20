@@ -25,22 +25,8 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.25911/5edf65740b697",
-  "active_units": [
-    "GERATHY-01",
-    "GERATHY-02",
-    "GERATHY-03",
-    "GERATHY-04",
-    "GERATHY-05",
-    "GERATHY-06",
-    "GERATHY-07",
-    "GERATHY-08",
-    "GERATHY-09",
-    "GERATHY-10",
-    "GERATHY-11",
-    "GERATHY-12",
-    "GERATHY-13"
-  ],
+  "active_source": "doi:10.17638/03196200",
+  "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
     "SPEC-A01-MADIBA-2008",
@@ -344,7 +330,7 @@
     "SIC-BIBLIOGRAPHY",
     "SIC-INDEXES"
   ],
-  "completed_full_sources_this_run": 14,
+  "completed_full_sources_this_run": 15,
   "PDM_run": false,
   "new_search_or_download": false,
   "queue_entries_including_closed_gaps": 995,
@@ -352,13 +338,13 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T04:21:21.495412+00:00",
+  "updated_at": "2026-11-20T04:47:30.373205+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 2881,
+  "completed_primary_pages_this_run": 3028,
   "current_source_note": "knowledge/sources/gerathy-2020-solenogam-conversion-electron-thesis.md",
-  "next_action": "Resume Gemini where authorized and audit remaining Gerathy pages, then continue the wider corpus.",
+  "next_action": "Progress Chadderton thesis via authorized reading and source checks; retain Gemini route failure until access changes.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Masiteng MSc: 69 pages, seven accepted units. Distinct gates for DCO and two asymmetries. No numeric P–delta pair for survey.",
-  "current_source_scientific_acceptance": "Gerathy partial: 71 PDF pages verified, 76 pending. Includes chapters 3–6 and Gammasphere appendix. Accepted full-source counts are unchanged."
+  "last_source_manager_closure": "Gerathy: complete source reading by Codex; separate data, published versions and bibliographic limits retained.",
+  "current_source_scientific_acceptance": "Gerathy 147/147 physical pages reconciled by Codex, no Gemini successes. Chadderton identity and chapter map checked."
 }

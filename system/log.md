@@ -6403,3 +6403,9 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - 从原件补核 48 页，主要为第 3–6 章及 Gammasphere 附录。已覆盖 71/147 页。
 - 保留 Eq. (3.27) 的下标差异、Table 4.2 的重复探测器对及 Table 5.1 的质量数差异，回写分壳反演公式。
 - Pt-184 681 keV 的 $q_K^2$ 中心值可用表列输入复核。Sm-145 的第二套 γ–γ 符合用于级联放置，半衰期归回 Solenogam 原谱。
+
+## 2026-11-20 — Gerathy 整源对账
+
+- 补核 76 页并按正文与书证对账，Gerathy 达到 147/147 页。
+- 记录 1105 keV 态的实测与采用半衰期、6931 keV 级联证据、表格及图注歧义。球形空间内模型匹配与变形芯激发的解释分别保留。
+- 本次累计 15 份原件、3028 个 PDF 页。Gerathy 由 Codex 核读，Gemini 回执仍为故障。移至 Chadderton 的馆藏接续入口。

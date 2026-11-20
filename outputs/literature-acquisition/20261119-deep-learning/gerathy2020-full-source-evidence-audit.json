@@ -1,0 +1,96 @@
+{
+  "recorded_at": "2026-11-20T04:47:30.373205+00:00",
+  "chapter_sources": [
+    "knowledge/sources/gerathy-2020-solenogam-conversion-electron-thesis.md"
+  ],
+  "raw_sha256": "dad32f09fa6ca67164661d755bf70f9218d176342c33cca998070f112567decf",
+  "physical_pdf_pages": 147,
+  "prior_accepted_pages": 71,
+  "newly_accepted_pages": 76,
+  "total_checked_count": 147,
+  "covered_sections": [
+    {
+      "pdf_span": [
+        1,
+        13
+      ],
+      "scope": "bibliographic and authorship",
+      "reader": "Codex"
+    },
+    {
+      "pdf_span": [
+        14,
+        27
+      ],
+      "scope": "motivation and nuclear-structure introduction",
+      "reader": "Codex"
+    },
+    {
+      "pdf_span": [
+        28,
+        84
+      ],
+      "scope": "emission, conversion and detector/analysis methods, Pt",
+      "reader": "Codex"
+    },
+    {
+      "pdf_span": [
+        85,
+        125
+      ],
+      "scope": "Sm experiment, measured evidence, structure interpretation",
+      "reader": "Codex"
+    },
+    {
+      "pdf_span": [
+        126,
+        133
+      ],
+      "scope": "conclusions and proposed work",
+      "reader": "Codex"
+    },
+    {
+      "pdf_span": [
+        134,
+        137
+      ],
+      "scope": "Gammasphere appendix",
+      "reader": "Codex"
+    },
+    {
+      "pdf_span": [
+        138,
+        147
+      ],
+      "scope": "bibliography",
+      "reader": "Codex"
+    }
+  ],
+  "accepted_gemini_receipts": 0,
+  "full_scope_acceptance": true,
+  "exp_scope": "Thesis only, no event reanalysis or wholesale citation reading",
+  "verified_key_pages": [
+    16,
+    56,
+    68,
+    88,
+    90,
+    95,
+    96,
+    98,
+    99,
+    105,
+    107,
+    115,
+    121,
+    125,
+    135,
+    136,
+    137,
+    141,
+    142,
+    145,
+    147
+  ],
+  "next_source": "doi:10.17638/03196200"
+}

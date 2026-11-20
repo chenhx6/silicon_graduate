@@ -354,17 +354,16 @@ decay-curve analyses depend on shared spectra and feeding inputs. The
 Sn-106 lifetimes share one fit, and the quoted Sn-108 \(4^+\) uncertainty
 uses a simulated FWHM.
 
-[[gerathy-2020-solenogam-conversion-electron-thesis]] has a targeted
-original-page check. Pt-184 shows how an unresolved L-shell signal and a
-shallow γ–γ correlation fit leave wide mixing-ratio ranges. The Sm-145
-comparison preserves the 30/31 keV coincidence split and the 8785 keV
-parity discrepancy at its original locators. Full-source coverage is pending.
-The follow-up covers the full detector, data handling and Pt chapters and
-the Gammasphere appendix. It checks the shell-index inconsistency in
-Eq. (3.27) and reproduces the K-shell central value for the 681 keV line.
-The two experiments provide distinct evidence: the appendix checks
-selected Sm cascade placements while the Solenogam time spectrum supplies
-the reported half-life.
+[[gerathy-2020-solenogam-conversion-electron-thesis]] now has all 147 PDF
+pages accounted for through direct Codex reading during the Gemini outage.
+Pt-184 illustrates why a resolved K-shell peak with only an L-shell upper
+limit can leave a broad mixing range. Eq. (3.27) has a shell-index
+inconsistency. Its K-shell inputs reproduce the 681 keV central value.
+For Sm-145 the Gammasphere appendix checks selected cascade placements,
+while the Solenogam spectra supply the two reported half-lives. The
+30/31 keV coincidence split, the 438 keV multipolarity revision and the
+8785 keV parity discrepancy retain their original locators. Separately
+published versions and references have their own reading scope.
 
 ## Final acquisition closure and learning design
 
