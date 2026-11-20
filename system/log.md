@@ -6375,3 +6375,9 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - 最终验收 25 个 Gemini 单元，覆盖 PDF 759–843；PDF 844–874 复核作书证。卷内 874 个物理 PDF 页已对账，49 页为书证或目录。
 - PDF 843 回接 PDF 804–806 的形变章。PDF 761 保持为摘要级，会议总结及回忆不重复计作原始测量。Vo Kim Thanh 等章的缓存只修正非法 JSON 转义。
 - 转入 Masiteng 194Tl 论文。实际 PDF 1–69 已按角关联、γ 线偏振/计数不对称和 RSAM 等任务划分派发。
+
+## 2026-11-20 — Masiteng 全文与 Se-92/94 续学
+
+- 69 页全读验收。Table 4.1 和 Fig. 4.6 为 $A_p$ 与 DCO 多极分类。$Q(E_\gamma)$ 的定义见原式，表中没有可直接取用的校准后 $P$ 或 E2/M1 拟合值。
+- RSAM 取 876 keV 门避免近邻 prompt 干扰，留原半衰期、标尺和两处相对效率写法，DCO 与极化资料保留实验依赖。
+- 整源 10 份、2365 页。Lizarazo Sabogal 学位论文已按正文、附录和书目派发。

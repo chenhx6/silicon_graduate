@@ -1,6 +1,6 @@
 {
   "created_at": "2026-11-19T14:50:09.195632+00:00",
-  "status": "eighth-source-completed-with-boundaries; corpus-learning-active",
+  "status": "corpus-learning-active",
   "pdf_files_registered": 1016,
   "provisional_work_groups": 988,
   "grouping_boundary": "Not a verified unique-publication count. Byte grouping and old catalogue associations require own-identity/edition/role/scope audits. Collection sources do not establish individual full reading.",
@@ -25,15 +25,22 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "bytes:174210079e5c0bf43d4d9f97e9d9a0ef86e75febf658765026a508ed87fb8e07",
+  "active_source": "doi:10.26083/tuprints-00007266",
   "active_units": [
-    "MASITENG-IDENTITY-INTRO",
-    "MASITENG-REACTIONS-RESPONSE",
-    "MASITENG-DETECTORS",
-    "MASITENG-RDCO",
-    "MASITENG-POL",
-    "MASITENG-DECAY-RSAM",
-    "MASITENG-REFS"
+    "LIZARAZO-FRONT",
+    "LIZARAZO-MOTIVATION",
+    "LIZARAZO-THEORY",
+    "LIZARAZO-BMF",
+    "LIZARAZO-GAMMA",
+    "LIZARAZO-INSTRUMENT",
+    "LIZARAZO-PID",
+    "LIZARAZO-CALIBRATION",
+    "LIZARAZO-SE92-I",
+    "LIZARAZO-SE92-II",
+    "LIZARAZO-SE94",
+    "LIZARAZO-DISCUSSION",
+    "LIZARAZO-APPENDICES",
+    "LIZARAZO-REFERENCES"
   ],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -279,9 +286,16 @@
     "NC79-CHRIEN-INTRO",
     "NC79-GOLDHABER-I",
     "NC79-GOLDHABER-II",
-    "NC79-WIECLAWIK-TABLE"
+    "NC79-WIECLAWIK-TABLE",
+    "MASITENG-IDENTITY-INTRO",
+    "MASITENG-REACTIONS-RESPONSE",
+    "MASITENG-DETECTORS",
+    "MASITENG-RDCO",
+    "MASITENG-POL",
+    "MASITENG-DECAY-RSAM",
+    "MASITENG-REFS"
   ],
-  "completed_full_sources_this_run": 9,
+  "completed_full_sources_this_run": 10,
   "PDM_run": false,
   "new_search_or_download": false,
   "queue_entries_including_closed_gaps": 995,
@@ -289,13 +303,13 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T00:27:19.930593+00:00",
+  "updated_at": "2026-11-20T00:38:48.059249+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 2296,
+  "completed_primary_pages_this_run": 2365,
   "current_source_note": "knowledge/sources/masiteng-2006-194tl-polarization-lifetime-thesis.md",
-  "next_action": "Audit Masiteng’s 69-page thesis, then continue other archive works.",
+  "next_action": "Audit Se-92/94 isomer spectroscopy thesis receipts, then continue the wider queue.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "1979 proceedings: all 874 physical PDF pages reconciled, 49 bibliographic, 825 main/interface pages including separately scoped historical remarks and an abstract. Chapter table PDF 843 maps to the earlier deformation contribution.",
-  "current_source_scientific_acceptance": "Existing skimmed scope PDF 1–4; Gemini full-source tasks in flight."
+  "last_source_manager_closure": "Masiteng MSc: 69 pages, seven accepted units. Distinct gates for DCO and two asymmetries. No numeric P–delta pair for survey.",
+  "current_source_scientific_acceptance": "Masiteng MSc accepted with explicit 69-page coverage and dependencies. Lizarazo Sabogal thesis dispatch underway."
 }

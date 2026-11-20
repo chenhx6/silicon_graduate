@@ -326,6 +326,14 @@ historical evidence boundaries. PDF 843 is the displaced table from
 reference on PDF 806. The page count includes 49 bibliographic pages,
 including 31 pages of participant lists and indexes at PDF 844–874.
 
+[[masiteng-2006-194tl-polarization-lifetime-thesis]] now covers all 69 PDF
+pages. It combines γ polarization asymmetry with DCO from Ramashidzha's
+analysis of overlapping experiment data for assignments. The thesis gives
+the conversion \(P=A_p/Q(E_\gamma)\) and reports \(A_p\) in Table 4.1.
+It provides no numeric joint \(P\)–angle E2/M1 fit, so its absent
+\(\sigma/I\) value does not answer how such fits handle alignment.
+The 293 keV RSAM half-life retains the selected gate and its calibration.
+
 ## Final acquisition closure and learning design
 
 The user has closed further acquisition and requested an in-depth learning

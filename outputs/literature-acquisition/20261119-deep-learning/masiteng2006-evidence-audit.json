@@ -1,0 +1,131 @@
+{
+  "recorded_at": "2026-11-20T00:38:48.059249+00:00",
+  "chapter_sources": [
+    "knowledge/sources/masiteng-2006-194tl-polarization-lifetime-thesis.md"
+  ],
+  "raw_sha256": "174210079e5c0bf43d4d9f97e9d9a0ef86e75febf658765026a508ed87fb8e07",
+  "batch_pages": [
+    1,
+    69
+  ],
+  "batch_page_count": 69,
+  "source_complete": true,
+  "responses": [
+    {
+      "id": "MASITENG-IDENTITY-INTRO",
+      "covered": [
+        1,
+        10
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "1664d31d62b6fbf8644e07124b2f1b139c595270f0a8741fd4584440626db972",
+      "unit_status_reported": "complete",
+      "requested_reasoning": "high",
+      "reported_reasoning": null
+    },
+    {
+      "id": "MASITENG-REACTIONS-RESPONSE",
+      "covered": [
+        11,
+        23
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "0ade602ebc741aa1f29e9d77620a469825a4d1a03a10bd005e1dae32ca69d6bc",
+      "unit_status_reported": "complete",
+      "requested_reasoning": "high",
+      "reported_reasoning": null
+    },
+    {
+      "id": "MASITENG-DETECTORS",
+      "covered": [
+        24,
+        35
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "f16b109e903755f54df5dd122cdec4eb5e5c785a5a324b522c87ebfc03dd546e",
+      "unit_status_reported": "complete",
+      "requested_reasoning": "high",
+      "reported_reasoning": null
+    },
+    {
+      "id": "MASITENG-RDCO",
+      "covered": [
+        36,
+        44
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "c41547d55ace92c14c9fdf93c390e995f33f45ac9895a130e478136c81904dd1",
+      "unit_status_reported": "complete",
+      "requested_reasoning": "high",
+      "reported_reasoning": null
+    },
+    {
+      "id": "MASITENG-POL",
+      "covered": [
+        45,
+        55
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "e9192ea9a779718910bc5d944b5abe9079048e530380209be7c09fb836d133f2",
+      "unit_status_reported": "complete",
+      "requested_reasoning": "high",
+      "reported_reasoning": null
+    },
+    {
+      "id": "MASITENG-DECAY-RSAM",
+      "covered": [
+        56,
+        64
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "036bc2659339bac28f15cc16cfd6e00fc4ca82321737bf2074602752e0df987e",
+      "unit_status_reported": "complete",
+      "requested_reasoning": "high",
+      "reported_reasoning": null
+    },
+    {
+      "id": "MASITENG-REFS",
+      "covered": [
+        65,
+        69
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "b7aeb4d3608c4aa5154ca846944a505ed19db46bba99828308a4c9fdcd37d4de",
+      "unit_status_reported": "partial",
+      "requested_reasoning": "high",
+      "reported_reasoning": null
+    }
+  ],
+  "verified_pages_and_checks": [
+    "PDF 1 and 36: MSc identity, experiment, two weekend data sets.",
+    "PDF 43–45: same 135-degree gate, 135/90 ratio, Eq. 3.5 includes Q(E_gamma), Eq. 3.6 gives A_p with alpha=1.",
+    "PDF 50–52 and 55: Table 4.1 footnote, representative transitions, quadrupole reference about 0.8, and figure axis is A_p.",
+    "PDF 46 and 60: RSAM relative efficiency multiplies different count groups in the general and application formula. Eq. 4.1 uses alpha=0.64.",
+    "PDF 62–64: adjacent prompt contamination, 876-keV gate, calibrated t_1/2, and time-spectra role."
+  ],
+  "rebuttal_boundary": "Evidence of qualitative assignment using A_p and DCO. No P/angle fit of E2/M1 delta, so missing sigma/I here is not evidence about how delta fits fix alignment.",
+  "next_source": {
+    "work_id": "doi:10.26083/tuprints-00007266",
+    "total_physical_pages": 154,
+    "submitted_range": [
+      1,
+      153
+    ],
+    "units": [
+      "LIZARAZO-FRONT",
+      "LIZARAZO-MOTIVATION",
+      "LIZARAZO-THEORY",
+      "LIZARAZO-BMF",
+      "LIZARAZO-GAMMA",
+      "LIZARAZO-INSTRUMENT",
+      "LIZARAZO-PID",
+      "LIZARAZO-CALIBRATION",
+      "LIZARAZO-SE92-I",
+      "LIZARAZO-SE92-II",
+      "LIZARAZO-SE94",
+      "LIZARAZO-DISCUSSION",
+      "LIZARAZO-APPENDICES",
+      "LIZARAZO-REFERENCES"
+    ]
+  }
+}
