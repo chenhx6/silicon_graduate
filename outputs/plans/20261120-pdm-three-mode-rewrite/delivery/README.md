@@ -15,4 +15,4 @@ pdm-gui
 - Windows/macOS原生未测；本次使用已批准的Linux Docker虚拟GUI验收。PyPI方式需要已有Python，不是原生解压免安装程序。
 - 未指定独立软件Git远端，因此未推送软件仓库；完整源码包是已约定的交付替代。不把整个Wiki作为软件仓库发布。
 
-`acceptance.json`、`pypi-readback.json`、`software-results.json`、`source-manifest.json`及 `validation-logs/` 保存实际证据；任务逐项验收在上一级 `tasks.json`。静态绘图脚本启发式不能识别导入样式和外部验收包装，逐项解释见 `figure-static-resolution.json`；实际PDF字体、碰撞和面板对齐检查通过，没有将静态检查写成全绿。
+`acceptance.json`、`pypi-readback.json`、`software-results.json`、`source-manifest.json`及 `validation-logs/` 保存实际证据；0.1.0的逐项验收保存在本目录 `0.1.0-task-ledger.json`；上一级 `tasks.json` 维护当前新一轮优化计划，不能用本发行完成状态替它验收。静态绘图脚本启发式不能识别导入样式和外部验收包装，逐项解释见 `figure-static-resolution.json`；实际PDF字体、碰撞和面板对齐检查通过，没有将静态检查写成全绿。

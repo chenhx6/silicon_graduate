@@ -1,0 +1,69 @@
+{
+  "scope": "planning only; no implementation or scientific rerun",
+  "status": "awaiting_user_review",
+  "plan_sha256": "3fe73e1acdf1bb72fa7bd0e5dfe3f6173466ad997a702ea65c97e6aed314af0c",
+  "pdf_sha256": "827dc781f4160407fe1aacd4701ae2c0474a641d5884b94976e47b68b86aafb5",
+  "pdf_pages": 14,
+  "fresh_pending_tasks": [
+    "U00",
+    "U01",
+    "U02",
+    "U03",
+    "U04",
+    "U05",
+    "U06",
+    "U07",
+    "U08",
+    "U09"
+  ],
+  "previous_release_ledger": "delivery/0.1.0-task-ledger.json",
+  "plan_ledger_specifications_match": true,
+  "public_software_files_unchanged": 118,
+  "secretary_pdf_unchanged": true,
+  "new_goal_created": false,
+  "contract_schema_issues": [],
+  "user_request_coverage": {
+    "1": [
+      "sections1,9,10",
+      "U00-U09"
+    ],
+    "2": [
+      "sections3,4.3",
+      "U01-U03"
+    ],
+    "3": [
+      "section7",
+      "U06"
+    ],
+    "4": [
+      "section3.2",
+      "U01"
+    ],
+    "5": [
+      "sections3.3,4.4",
+      "U02-U03"
+    ],
+    "6": [
+      "section5",
+      "U05"
+    ],
+    "7": [
+      "section6",
+      "U04,U07"
+    ]
+  },
+  "open_question": "Q_TITLE_WEIGHT: Width versus Weight; numerical meaning remains constant weight over the full scan",
+  "clipped_text_pages": [],
+  "hook_after_edit": {
+    "archive_gate": {
+      "error": "archive gate timed out",
+      "ok": false,
+      "skipped": false
+    },
+    "diff_check": true,
+    "diff_stderr": "",
+    "event": "after-edit",
+    "ok": false,
+    "shell_checks": []
+  }
+}

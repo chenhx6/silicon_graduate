@@ -1,826 +1,286 @@
 {
-  "schema": "pdm-execution-plan-v1",
+  "schema": "pdm-optimization-plan-v2",
   "updated": "2026-11-20",
-  "state": "completed-with-declared-evidence-boundaries",
-  "approval_required": false,
-  "approval_record": {
-    "user_instruction": "开始自动调用所有的skill以及必要的hook开始工作吧，并且请自行调用agents",
-    "recorded_at": "2026-11-19T19:43:21.671198+00:00"
+  "state": "awaiting_user_review",
+  "implementation_authorized": false,
+  "approval_required": true,
+  "goal_created": false,
+  "goal_id": null,
+  "baseline_release": {
+    "version": "0.1.0",
+    "completed_goal_id": "01a19d0f-61f7-72d0-998c-9fc0aaecbd00",
+    "acceptance": "delivery/acceptance.json",
+    "historical_ledger": "delivery/0.1.0-task-ledger.json",
+    "counts_are_not_new_acceptance": true
   },
-  "implementation_authorized": true,
-  "goal_created": true,
-  "goal_id": "01a19d0f-61f7-72d0-998c-9fc0aaecbd00",
-  "objective": "从零实现PDM核心及P_ADO/P_DCO/PDCO响应；交付Notebook、即时四联图与delta/sigma-I的ETI/HDI、友好GUI、独立/实测验证、Python图文报告及multipolePDM PyPI包。",
-  "start_rule": "用户已批准且当前原生goal active；先恢复账本/worker，不重复创建goal。",
-  "goal_token_budget": "用户未指定，不设置",
+  "objective": "保留三模式PDM核，落实角空间HDI/ETI/mean及tan报告、全域viridis四联图与三评估数值、图6文献对照、指定sigma/I=.3与P80%/R10%注入恢复图表、缺失纯E2校准、易用教程与验收后新版本交付。",
   "plan_file": "outputs/plans/20261120-pdm-three-mode-rewrite/plan.md",
-  "plan_sha256": "9db517cdeb77453dfa72fb36c2d1357eca40c216385ff1494cfd45f012dd0efe",
+  "plan_sha256": "3fe73e1acdf1bb72fa7bd0e5dfe3f6173466ad997a702ea65c97e6aed314af0c",
   "readable_pdf": "outputs/plans/20261120-pdm-three-mode-rewrite/plan.pdf",
   "code_root": "raw/code/PDM",
-  "analysis_root": "raw/code/PDM/analysis",
-  "public_software_root": "raw/code/PDM",
   "handbook": "raw/writing/pado/20261029_review_v1/PDM/main.tex",
-  "figure_root": "raw/writing/pado/20261029_review_v1/PDM/figures",
-  "application_title": "PDM",
-  "package_name": "multipolePDM",
-  "import_name": "multipolepdm",
-  "launcher": "pdm-gui",
+  "current_task": null,
   "mode_ids": [
     "P_ADO",
     "P_DCO",
     "PDCO"
   ],
-  "xi_unit": "rad throughout grid/differentiation/storage/plot axes",
-  "detector_angle_input_unit": "deg; one conversion at geometry boundary",
-  "compute_alignment": "sigma",
-  "analysis_alignment": "sigma/I_ref; transformed density measure",
-  "statistics_labels": [
-    "ETI",
-    "HDI"
-  ],
-  "release_strategy": "one universal Python wheel plus sdist on PyPI; no mandatory native installers",
-  "environment_policy": "global Python environment permitted; no task virtualenv",
-  "credential_policy": "Read only in publish subprocess; production upload and metadata SHA/install readback passed; no token stored in outputs.",
-  "benchmark_exclusions": [
-    "74Br",
-    "SHU74 (resolve source alias before admitting related cases)"
-  ],
-  "case_identity": "user-facing nuclide + transition energy; header-based import, no fixed rows/column positions",
-  "source_inputs": [
+  "probability_mass": 0.68,
+  "statistics": {
+    "evaluation_coordinate": "arctan_delta",
+    "report_transform": "tan",
+    "hdi_center": "angle-mode transformed by tan",
+    "eti": "tan(q16), tan(q50), tan(q84)",
+    "mean": "tan(angle mean), tan(angle mean +/- angle SD); report undefined/out-of-domain endpoints honestly",
+    "sigma_axis": "sigma/I; I identity remains source reference state"
+  },
+  "plot": {
+    "cmap": "viridis",
+    "observation_domain": "all finite valid response points and measured errorbars",
+    "angular_ticks_pi_fractions": [
+      "-3/8",
+      "-1/4",
+      "-1/8",
+      "0",
+      "1/8",
+      "1/4",
+      "3/8"
+    ],
+    "eti_legend": "68% ETI (16%, 50%, 84%)",
+    "mean_guides": "always visible; no switch",
+    "hdi_threshold_line": true,
+    "numeric_summaries": [
+      "HDI",
+      "ETI",
+      "Mean-based"
+    ],
+    "requested_title": "Full Range Marginalization; Constant Width",
+    "title_semantics": "full scan with constant additional weight, not fixed sigma"
+  },
+  "injection": {
+    "sigma_over_i": 0.3,
+    "sigma_yy_interpretation": "sigma/I by conversation context",
+    "delta_values": [
+      -10,
+      -5,
+      -1,
+      -0.5,
+      -0.1,
+      0.1,
+      0.5,
+      1,
+      5,
+      10
+    ],
+    "polarization_relative_error": 0.8,
+    "angular_ratio_relative_error": 0.1,
+    "ratio_modes": [
+      "R_ADO",
+      "R_DCO"
+    ],
+    "error_widths_use_absolute_value": true,
+    "primary_cases": 30,
+    "generators": [
+      "independent_9j",
+      "same_kernel"
+    ],
+    "primary_records": 60,
+    "repeat_cases": [
+      {
+        "mode": "P_ADO",
+        "delta": -0.1
+      },
+      {
+        "mode": "P_DCO",
+        "delta": 1
+      },
+      {
+        "mode": "PDCO",
+        "delta": -10
+      }
+    ],
+    "repeat_independent_noise_vectors": 300,
+    "repeated_inversions": 600,
+    "seed": 20261120
+  },
+  "open_questions": [
     {
-      "path": "raw/writing/pado/20261029_review_v1/polarization_delta_collection_20261119_final.xlsx",
-      "sha256": "4f6b2877ca0eeb39506e9d32457ca9c8b829afd657d3ef9de0151b41e593d125",
-      "role": "只读研究数据，按表头/核素/能量识别"
-    },
-    {
-      "path": "raw/writing/pado/20261029_review_v1/PDM/main.tex",
-      "sha256": "6481d8aac65c94f5430e66c2fa11ace0be70aedd702f9e85828965047758be95",
-      "role": "当前秘书手册"
-    },
-    {
-      "path": "raw/writing/pado/Upload/analysis/YAnalysis.py",
-      "sha256": "435c8d7344ec68ec8765ab3c20e26a4bb6336142b7eae52ede0f8f80df547e7a",
-      "role": "ETI和HDI算法参考"
-    },
-    {
-      "path": "raw/writing/pado/Upload/analysis/YPlot.py",
-      "sha256": "f300d00a1bc9c805981c5010a29c938480a1e5a7f6452796e61419c94573965c",
-      "role": "图形参考；HDI不沿用axvspan"
-    },
-    {
-      "path": "raw/writing/pado/20261029_review_v1/reviewer2.pdf",
-      "sha256": "10f29287a3cbb0a8b7b08f338ba61dabbc09f7956a63a1767f412dfafc7b907a",
-      "role": "范围背景，不含chi-square比较"
+      "id": "Q_TITLE_WEIGHT",
+      "question": "图题的常数权重应否使用Constant Weight，而非字面指定Constant Width？",
+      "recommended": "Full Range Marginalization; Constant Weight",
+      "currently_preserved": "Full Range Marginalization; Constant Width",
+      "scope": "display wording only; must not change or fix source sigma"
     }
   ],
-  "task_status_is_not_goal_status": true,
-  "coverage_targets": {
-    "nuclides_total": 6,
-    "each_nuclear_class": 2,
-    "distinct_nuclides_each_mode": 2,
-    "each_delta_sign": 2,
-    "each_e2_fraction_bin": 2,
-    "primary_transitions": "约8-12",
-    "extended_transitions": "约6",
-    "policy": "先冻结选择；缺实测不能用合成替代；不按结果换样。"
-  },
-  "platform_policy": "Docker offscreen/Xvfb is the GUI verification baseline; host GUI not required. Native OS experience remains explicitly unverified unless actually tested.",
-  "completion_rule": "T00-T19有验收证据；PyPI真实制品上传及回读成功；案例目标缺口不冒称完成；平台和Git远端按计划范围如实记录。",
-  "requirement_to_tasks": {
-    "new_layout_and_maintenance": [
-      "T00",
-      "T01",
-      "T03",
-      "T10"
-    ],
-    "physical_core": [
-      "T02",
-      "T03",
-      "T04",
-      "T05"
-    ],
-    "preview_plots_statistics": [
-      "T05",
-      "T07",
-      "T08",
-      "T09",
-      "T14"
-    ],
-    "python_report": [
-      "T10",
-      "T15"
-    ],
-    "data_identity_exclusions": [
-      "T11",
-      "T13"
-    ],
-    "tests": [
-      "T04",
-      "T05",
-      "T12",
-      "T13",
-      "T14"
-    ],
-    "pypi_open_source": [
-      "T16",
-      "T17",
-      "T18"
-    ],
-    "final_delivery": [
-      "T19"
-    ]
-  },
+  "analysis_installation": "Not a second package; notebooks are files, shared core installed once, [analysis] adds optional dependencies but does not download notebooks.",
+  "release_version_proposed": "0.1.1",
   "tasks": [
     {
-      "id": "T00",
-      "title": "建立新项目、基线和全局依赖",
+      "id": "U00",
+      "title": "冻结本轮输入和基线",
       "depends_on": [],
-      "status": "completed",
-      "plan_section": "T00",
-      "specification": "- 依赖：无。必读本计划第2.4/2.5节及其指向的秘书公式，核对标签和原件；再读取YAnalysis/YPlot、Excel及排除要求。\n- 产出：两个目录的职责、原始输入哈希、全局依赖版本记录、包名与凭据存在性记录；不读取输出token值，不恢复删除的程序。\n- 验收：原始Excel/手册/参考脚本保持不变；开发环境可导入必需模块。\n- 验证：记录逐模块import和版本；此步不能写成PDM已通过。",
-      "evidence": [
-        "tmp/pdm-implementation/baseline.json",
-        "tmp/pdm-implementation/logs/dependencies.log"
-      ],
-      "changed_paths": [],
+      "status": "pending",
+      "specification": "### U00：冻结本轮输入和基线\n\n- 依赖：用户批准当前计划；图题Width/Weight用词确认。\n- 文件：tasks.json；本轮tmp运行目录的baseline.json和输入清单；不改0.1.0 delivery回执。\n- 工作：读取本计划第2节与秘书标签，核对当前代码/发布版本及旧结果；冻结30工况、80%/10%误差、独立/同核标记和旧文献输入哈希。\n- 验收：不恢复已删目录、不重建物理核、不读取发布密钥；新账本与新goal关联，旧完成状态不继承。\n- 验证：导入核心并记录版本；逐项比对例文件自旋和几何；执行现有physics/responses/reference桥接测试。",
+      "evidence": [],
       "commands_run": [],
+      "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "No implementation action remains; retain declared evidence boundaries."
+      "next_action": "Await user approval of this plan; do not start implementation."
     },
     {
-      "id": "T01",
-      "title": "公共合同、独立模式配置与注册表",
+      "id": "U01",
+      "title": "角空间统计及tan报告",
       "depends_on": [
-        "T00"
+        "U00"
       ],
-      "status": "completed",
-      "plan_section": "T01",
-      "specification": "- 依赖：T00。文件：`contracts.py`、`models/registry.py`、`config/common.py`及三个模式config；`tests/test_contracts.py`。\n- 产出：不可变JobRequest、三个大写模式标识、字段描述和英文短注释；共同参考态/相位/target-gate角色/手册公式到模块的对应表。\n- 验收：模式字段正确、共同字段不复制、自旋/多极判定正确；xi(rad)、探测角(deg)、sigma明确分开。\n- 命令：`python -m pytest tests/test_contracts.py -q`。",
-      "evidence": [
-        "tmp/pdm-implementation/logs/core-tests.txt",
-        "tmp/pdm-implementation/logs/independent-physics.txt",
-        "tmp/pdm-implementation/final-software-validation/pytest-offscreen.log"
-      ],
-      "changed_paths": [],
+      "status": "pending",
+      "specification": "### U01：角空间统计及tan报告\n\n- 依赖：U00。\n- 文件：contracts.py、pdm/statistics.py、io/export.py及统计测试。\n- 测试：构造归一三角/双峰PDF，验证q16/50/84、mean/std、mode、HDI阈值与分段；对所有端点/中心逐项tan，证明没有改为对delta重新求HDI；近边界均值/并列峰处理。\n- 验收：68%面积和归一误差<=1e-6，取向变换守恒；默认输出三评估、正确坐标元数据；Mean±SD不标68%概率保证。\n- 命令：GUI目录 `python -m pytest tests/test_statistics.py tests/test_mapping.py tests/test_export_measures.py -q`。",
+      "evidence": [],
       "commands_run": [],
+      "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "No implementation action remains; retain declared evidence boundaries."
+      "next_action": "Await user approval of this plan; do not start implementation."
     },
     {
-      "id": "T02",
-      "title": "Gaussian、振幅与未观测传播",
+      "id": "U02",
+      "title": "四联图与完整响应域",
       "depends_on": [
-        "T01"
+        "U01"
       ],
-      "status": "completed",
-      "plan_section": "T02",
-      "specification": "- 依赖：T01。文件：`physics/populations.py`、`amplitudes.py`、`propagation.py`；`tests/test_physics.py`。\n- 实现说明：在秘书手册明确写出振幅矩阵元的CG系数、Wigner-D角函数、电/磁相位和总辐射归一化，以及由完整联合强度提取K系数的方法；逐项关联原始来源和代码函数，不能让T或K停留在未定义的符号占位。\n- 验收：归一化、纯项/混合项、整数/半整数、U_0=1及空路径；保留联合关联所需张量/相干信息，不套用单线截断。\n- 命令：`python -m pytest tests/test_physics.py -q`。",
-      "evidence": [
-        "tmp/pdm-implementation/logs/core-tests.txt",
-        "tmp/pdm-implementation/logs/independent-physics.txt",
-        "tmp/pdm-implementation/final-software-validation/pytest-offscreen.log"
-      ],
-      "changed_paths": [],
+      "status": "pending",
+      "specification": "### U02：四联图与完整响应域\n\n- 依赖：U01。\n- 文件：plotting四模块和test_plotting.py。\n- 测试：造远离观测点的有效响应点，断言仍在绘图区且进入绘图数据；折叠点不连成假曲面；角刻度、viridis、六条竖线、阈值线、HDI面积及图中文字与摘要一致。\n- 验收：C/D图例仅一组68%ETI(16%,50%,84%)、一组Mean±SD，灰线默认常显；无Median独立图例和无量纲/ref赘词；单图导出带三评估数值。\n- 命令：GUI目录 `python -m pytest tests/test_plotting.py -q`；实际渲染后面板/字体/碰撞与视觉检查。",
+      "evidence": [],
       "commands_run": [],
+      "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "No implementation action remains; retain declared evidence boundaries."
+      "next_action": "Await user approval of this plan; do not start implementation."
     },
     {
-      "id": "T03",
-      "title": "三个响应模块",
+      "id": "U03",
+      "title": "GUI、输出与异步回归",
       "depends_on": [
-        "T02"
+        "U02"
       ],
-      "status": "completed",
-      "plan_section": "T03",
-      "specification": "- 依赖：T02。文件：`physics/joint.py`、`models/p_ado.py`、`p_dco.py`、`pdco.py`；`tests/test_responses.py`。\n- 接口：`evaluate_response(job, xi_rad, sigma)`。\n- 验收：以第2.4节共同强度定义为准，优先完成P_DCO；第2.5节五项防误写测试全部落地。单线/条件偏振、上下游目标、非相邻传播和相干项正确，零强度不伪造比值。\n- 命令：`python -m pytest tests/test_responses.py -q`，至少含 `test_p_dco_single_p_gate_angle_invariant`、`test_target_second_singles_matches_transfer`、`test_dco_joint_gate_weight_preserved`、`test_pdco_fixed_gate_polarization`、`test_nonadjacent_relative_azimuth`。",
-      "evidence": [
-        "tmp/pdm-implementation/logs/core-tests.txt",
-        "tmp/pdm-implementation/logs/independent-physics.txt",
-        "tmp/pdm-implementation/final-software-validation/pytest-offscreen.log"
-      ],
-      "changed_paths": [],
+      "status": "pending",
+      "specification": "### U03：GUI、输出与异步回归\n\n- 依赖：U02。\n- 文件：gui/results.py、必要的导出与GUI测试，不修改模式响应定义。\n- 工作：为增加的统计文本分配空间；保存/重开仍显示同一数值；不让全域渲染和输出阻塞输入区。\n- 验收：三模式真实计算，C/D数值可读；慢盘期间第二任务可提交/计算、单图可保存；PDF与JSON字段一致，无跨任务覆盖。\n- 命令：GUI目录 `QT_QPA_PLATFORM=offscreen python -m pytest tests/test_gui.py tests/test_app_regressions.py tests/test_jobs.py tests/test_io.py -q`；需要时Xvfb复验布局。",
+      "evidence": [],
       "commands_run": [],
+      "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "No implementation action remains; retain declared evidence boundaries."
+      "next_action": "Await user approval of this plan; do not start implementation."
     },
     {
-      "id": "T04",
-      "title": "独立参考与相位验证",
+      "id": "U04",
+      "title": "指定注入矩阵与缺失校准",
       "depends_on": [
-        "T01"
+        "U01"
       ],
-      "status": "completed",
-      "plan_section": "T04",
-      "specification": "- 依赖：T01，可与T02/T03在独立测试路径并行。\n- 文件：`tests/reference/angular_correlation.py`、`tests/test_independent_reference.py`。\n- 验收：不导入生产响应，按第2.5节原始来源和勘误独立组装；核定正负混合、纯极限、全方向边缘和两种次序。物理定义有冲突时定位和处理，不用数值近似掩盖。\n- 命令：`python -m pytest tests/test_independent_reference.py -q`。",
-      "evidence": [
-        "tmp/pdm-implementation/logs/core-tests.txt",
-        "tmp/pdm-implementation/logs/independent-physics.txt",
-        "tmp/pdm-implementation/final-software-validation/pytest-offscreen.log"
-      ],
-      "changed_paths": [],
+      "status": "pending",
+      "specification": "### U04：指定注入矩阵与缺失校准\n\n- 依赖：U01，可与U02/U03分目录并行。\n- 文件：analysis/scripts/run_benchmarks.py、新工况数据；physics/reference相关测试只增加校准断言。\n- 验收：30独立+30同核主记录，sigma/I全为0.3、P80%、两类R10%；3工况重复观测；公式(6)直接断言；纯E2可混合端点与禁M1纯项分开；全量记录含不符、分支与边界。\n- 命令：analysis目录 `python scripts/run_benchmarks.py --suite synthetic --check-xi-bounds --output benchmarks/sigma03_relP80_relR10`；执行前给runner增加并冻结本节默认/显式配置，使该命令确实跑新矩阵而非旧误差。保存完整配置与运行日志。",
+      "evidence": [],
       "commands_run": [],
+      "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "No implementation action remains; retain declared evidence boundaries."
+      "next_action": "Await user approval of this plan; do not start implementation."
     },
     {
-      "id": "T05",
-      "title": "PDM、坐标转换、ETI与HDI",
+      "id": "U05",
+      "title": "图6与文献比较",
       "depends_on": [
-        "T03",
-        "T04"
+        "U01"
       ],
-      "status": "completed",
-      "plan_section": "T05",
-      "specification": "- 依赖：T03、T04。文件：`pdm/observations.py`、`mapping.py`、`statistics.py`及对应测试。\n- 验收：xi全链条rad，sigma/I展示密度保持概率，中心/单边差分正确；归一化、非对称误差、delta和sigma/I边缘、ETI及不连通HDI可复算。\n- 命令：`python -m pytest tests/test_mapping.py tests/test_statistics.py -q`。",
-      "evidence": [
-        "tmp/pdm-implementation/logs/integrated-reviews.txt",
-        "raw/code/PDM/analysis/benchmarks/manifest.json",
-        "tmp/pdm-implementation/final-software-validation/pytest-offscreen.log"
-      ],
-      "changed_paths": [],
+      "status": "pending",
+      "specification": "### U05：图6与文献比较\n\n- 依赖：U01；与U04可并行。\n- 文件：文献runner、案例结果新版本、秘书figures/generate_figures.py。\n- 验收：A/C用delta；四图含图例及文献点；C/D自旋offset真实可查；HDI用角mode及端点tan，ETI用角q50及端点tan；文献错误类型、固定sigma/I和缺值分开。\n- 命令：analysis目录分别执行 `python scripts/run_literature_cases.py --input cases --output cases/results_v0_1_1 --project-root ..` 和 `python scripts/run_followup_cases.py --output cases/followup/results_v0_1_1`；核对原输入哈希不变。",
+      "evidence": [],
       "commands_run": [],
+      "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "No implementation action remains; retain declared evidence boundaries."
+      "next_action": "Await user approval of this plan; do not start implementation."
     },
     {
-      "id": "T06",
-      "title": "文件输入、CLI和导出",
+      "id": "U06",
+      "title": "Notebook与使用教程",
       "depends_on": [
-        "T05"
+        "U03",
+        "U04",
+        "U05"
       ],
-      "status": "completed",
-      "plan_section": "T06",
-      "specification": "- 依赖：T05。文件：`io/input.py`、`io/export.py`、`cli.py`、`src/multipolepdm/examples/`中的四个JSON及说明、`tests/test_io.py`。\n- 验收：四个随包示例均实际运行；包资源接口在非源码工作目录也可载入/导出示例，wheel安装后的回读由T16/T17复验；GUI可保存输入JSON；手动/文件生成同一任务，批文件逐条模式有效；表头、单位、参考态和关闭状态明确，不兼容旧列名。\n- 命令：`python -m pytest tests/test_io.py -q`；`python -m multipolepdm.cli --example P_ADO --output-dir \"$PDM_RUN_DIR\"`。",
-      "evidence": [
-        "tmp/pdm-implementation/logs/app-geometry-integration.txt",
-        "tmp/pdm-implementation/logs/gui-averaging-tests.txt",
-        "tmp/pdm-implementation/final-software-validation/pytest-offscreen.log",
-        "tmp/pdm-implementation/logs/cli-batch-final.txt",
-        "tmp/pdm-implementation/logs/cli-batch-resources.json"
-      ],
-      "changed_paths": [],
+      "status": "pending",
+      "specification": "### U06：Notebook与使用教程\n\n- 依赖：U03、U04；图6部分依赖U05。\n- 文件：根README、GUI/README、analysis/README、包内例文件说明、三个Notebook及小输出示例。\n- 验收：无需原Wiki即可安装核心、打开下载的Notebook、运行示例/换输入；说明analysis extra只安装依赖、不下载Notebook；按一条示例从填写到解读三评估；真实GUI截图与参数一致。\n- 命令：对三个Notebook执行 `jupyter nbconvert --to notebook --execute --inplace`，从源码包临时解压目录再次运行；Notebook名以实际 `02_benchmarks_and_comparisons.ipynb` 为准。",
+      "evidence": [],
       "commands_run": [],
+      "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "No implementation action remains; retain declared evidence boundaries."
+      "next_action": "Await user approval of this plan; do not start implementation."
     },
     {
-      "id": "T07",
-      "title": "后台计算、即时结果和写盘队列",
+      "id": "U07",
+      "title": "秘书报告与数据图表",
       "depends_on": [
-        "T06"
+        "U04",
+        "U05",
+        "U06"
       ],
-      "status": "completed",
-      "plan_section": "T07",
-      "specification": "- 依赖：T06。文件：`jobs/manager.py`、`jobs/workers.py`、`tests/test_jobs.py`。\n- 验收：结果就绪通知先于完整写盘完成；输入快照不可变，内存/队列有界，取消/磁盘满/重复提交无误报；支持连续任务与多实例。\n- 命令：`python -m pytest tests/test_jobs.py -q`。",
-      "evidence": [
-        "tmp/pdm-implementation/logs/app-geometry-integration.txt",
-        "tmp/pdm-implementation/logs/gui-averaging-tests.txt",
-        "tmp/pdm-implementation/final-software-validation/pytest-offscreen.log",
-        "tmp/pdm-implementation/final-queue-trace/events.json"
-      ],
-      "changed_paths": [],
+      "status": "pending",
+      "specification": "### U07：秘书报告与数据图表\n\n- 依赖：U04、U05、U06。\n- 文件：PDM/main.tex、figures下Python脚本及数据清单、唯一main.pdf。\n- 验收：68%主口径一致、图6四图、真值/恢复值图和全部30条主表、明确旧/新误差配置；将“均待执行”等旧句在原处更新，公式理论值与运行值分开；每项结论有数据locator。\n- 命令：运行figures/generate_figures.py；XeLaTeX两遍、临时文件进tmp；逐页核对公式、引用、溢出与图例/数值。",
+      "evidence": [],
       "commands_run": [],
+      "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "No implementation action remains; retain declared evidence boundaries."
+      "next_action": "Await user approval of this plan; do not start implementation."
     },
     {
-      "id": "T08",
-      "title": "共享四联图、HDI填色与图片保存",
+      "id": "U08",
+      "title": "整体回归与发布候选",
       "depends_on": [
-        "T05"
+        "U03",
+        "U04",
+        "U05",
+        "U06",
+        "U07"
       ],
-      "status": "completed",
-      "plan_section": "T08",
-      "specification": "- 依赖：T05。文件：`plotting/style.py`、`overview.py`、`intervals.py`、`export.py`、`tests/test_plotting.py`。\n- 验收：执行第5.5节统一样式；四轴/单位/独立色标正确，HDI只填PDF下方且无跨段着色，ETI虚线准确；导出通过面板对齐、字体和碰撞检查，且逐面板视觉复核；普通用户无额外skills/TeX依赖。\n- 命令：`python -m pytest tests/test_plotting.py -q`；开发制图使用nature-figure的 `validate_figure.py`、`require_matplotlib_panel_alignment()`、`audit_pdf_text.py`、`audit_figure_collisions.py`；逐图检查积分和渲染。技能脚本路径在执行时发现，不写死到公开程序。",
-      "evidence": [
-        "tmp/pdm-implementation/logs/app-geometry-integration.txt",
-        "tmp/pdm-implementation/logs/gui-averaging-tests.txt",
-        "tmp/pdm-implementation/final-software-validation/pytest-offscreen.log",
-        "tmp/pdm-implementation/figure-qa/audit-summary.json",
-        "tmp/pdm-implementation/figure-qa/static-resolution.json"
-      ],
-      "changed_paths": [],
+      "status": "pending",
+      "specification": "### U08：整体回归与发布候选\n\n- 依赖：U03--U07。\n- 验收：全测试通过、全域图/默认线条不破坏队列，真实制品构建/安装/三模式GUI、Notebook回读通过；公开包无密钥、私人工作簿或无许可原件。报告/源码/图/结果manifest匹配当前版本。\n- 命令：GUI目录全pytest（offscreen）、`python -m build --no-isolation`、`python -m twine check --strict`；临时安装wheel再运行 `pdm-gui --self-test --report ...`；测计算/绘图/紧凑与CSV保存时间及内存，不用旧性能数代替。",
+      "evidence": [],
       "commands_run": [],
+      "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "No implementation action remains; retain declared evidence boundaries."
+      "next_action": "Await user approval of this plan; do not start implementation."
     },
     {
-      "id": "T09",
-      "title": "PDM GUI与结果浏览",
+      "id": "U09",
+      "title": "发布、归档和逐项总验收",
       "depends_on": [
-        "T01",
-        "T07",
-        "T08"
+        "U08"
       ],
-      "status": "completed",
-      "plan_section": "T09",
-      "specification": "- 依赖：T01、T07、T08。文件：`gui/window.py`、`gui/results.py`、`__main__.py`、`tests/test_gui.py`。\n- 验收：简短英文模式说明、灰化文件模式、一键载入示例/保存输入/计算、后台保存期间可看四图和双变量ETI/HDI、滚动/平移/缩放/复位/单图保存；统计表不遮挡曲线。\n- 命令：按第8.4节用 `QT_QPA_PLATFORM=offscreen` 或 `xvfb-run` 执行 `python -m pytest tests/test_gui.py -q`，保存实际Qt渲染及事件证据；不要求用户提供桌面。",
-      "evidence": [
-        "tmp/pdm-implementation/logs/app-geometry-integration.txt",
-        "tmp/pdm-implementation/logs/gui-averaging-tests.txt",
-        "tmp/pdm-implementation/final-software-validation/results.json",
-        "tmp/pdm-implementation/pypi-gui-test.json"
-      ],
-      "changed_paths": [],
+      "status": "pending",
+      "specification": "### U09：发布、归档和逐项总验收\n\n- 依赖：U08，当前计划的执行授权已取得。\n- 工作：新版本发布到PyPI并从公开索引安装回读；整套源码含analysis打包；有指定独立远端才推送软件，不把Wiki当软件仓库。维护相同main.pdf、plan和tasks。\n- 验收：所有本轮任务有真实证据及失败/未测边界；知识回写、归档门、定向diff/凭据检查通过；新goal只能在全部必需项完成后关闭。旧0.1.0凭据成功/测试153项不能替代新版本验收。\n- 命令：发布脚本只在此步读取本地密钥，通过进程环境传入；公开PyPI元数据SHA和实际安装检查；来源归档门与发布门按本轮精确文件范围运行。",
+      "evidence": [],
       "commands_run": [],
+      "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "No implementation action remains; retain declared evidence boundaries."
-    },
-    {
-      "id": "T10",
-      "title": "推荐Notebook与报告图生成链",
-      "depends_on": [
-        "T05",
-        "T06",
-        "T08"
-      ],
-      "status": "completed",
-      "plan_section": "T10",
-      "specification": "- 依赖：T05、T06、T08；数据充分后持续更新。\n- 文件：三个公开analysis Notebook、analysis README、`analysis/examples/` 的小型GUI输出样例；秘书 `figures/` 下的Python生成脚本和图形清单。\n- 验收：从公开仓库下载analysis即可读取随附GUI输出示例，“运行全部”可复现，再换成用户文件同样可用；调用同一API/统一样式，图有来源/参数/单位，sigma/I和xi(rad)正确。\n- 命令：`jupyter nbconvert --to notebook --execute` 对三个Notebook分别执行并保存带结果的交付副本；输出目录由账本指定。",
-      "evidence": [
-        "tmp/pdm-implementation/logs/app-geometry-integration.txt",
-        "tmp/pdm-implementation/logs/gui-averaging-tests.txt",
-        "tmp/pdm-implementation/logs/notebooks-final.txt",
-        "tmp/pdm-implementation/logs/public-notebooks.txt"
-      ],
-      "changed_paths": [],
-      "commands_run": [],
-      "unresolved_items": [],
-      "next_action": "No implementation action remains; retain declared evidence boundaries."
-    },
-    {
-      "id": "T11",
-      "title": "排除、排序无关导入与案例冻结",
-      "depends_on": [
-        "T01"
-      ],
-      "status": "completed",
-      "plan_section": "T11",
-      "specification": "- 依赖：T01。文件：analysis中的 `cases/`、`scripts/audit_cases.py`；GUI不得内置研究排除名单。\n- 验收：按表头而非固定列/行读取；行排序、列移动不改变案例识别；核素+能量是用户展示标识；排除74Br/SHU74，同源排除身份核定；冻结主/扩展/缺口清单，不按结果换样。\n- 命令：对人工重排的Excel内存副本做导入一致性测试，不修改原Excel；运行审计脚本输出覆盖矩阵。",
-      "evidence": [
-        "tmp/pdm-implementation/logs/case-audit-final.txt",
-        "tmp/pdm-implementation/final-case-audit/candidates.json",
-        "tmp/pdm-implementation/cases/final-source-handoff.md"
-      ],
-      "changed_paths": [],
-      "commands_run": [],
-      "unresolved_items": [
-        "SHU74 alias remains unidentified; 74Br excluded; no guessed source expansion."
-      ],
-      "next_action": "No implementation action remains; retain declared evidence boundaries."
-    },
-    {
-      "id": "T12",
-      "title": "注入恢复、正负控制和覆盖率",
-      "depends_on": [
-        "T04",
-        "T05",
-        "T06"
-      ],
-      "status": "completed",
-      "plan_section": "T12",
-      "specification": "- 依赖：T04、T05、T06。文件：analysis `scripts/run_benchmarks.py` 的synthetic套件。\n- 验收：确定性及重复观测抽样、独立与同核生成分开；正负P不设反号断言；真值包含、偏差、区间宽度、多解和经验覆盖率均报告。\n- 命令：从analysis执行 `python scripts/run_benchmarks.py --suite synthetic --output \"$PDM_RUN_DIR\"`。",
-      "evidence": [
-        "raw/code/PDM/analysis/benchmarks/manifest.json",
-        "tmp/pdm-implementation/logs/production-synthetic-replay.txt",
-        "tmp/pdm-implementation/logs/synthetic-final.txt"
-      ],
-      "changed_paths": [],
-      "commands_run": [],
-      "unresolved_items": [],
-      "next_action": "No implementation action remains; retain declared evidence boundaries."
-    },
-    {
-      "id": "T13",
-      "title": "真实案例及范围/权重敏感性",
-      "depends_on": [
-        "T11",
-        "T12"
-      ],
-      "status": "completed",
-      "plan_section": "T13",
-      "specification": "- 依赖：T11、T12。消费：冻结实测案例；文献delta仅用于结果对照。\n- 验收：覆盖矩阵按真实完成数填写，保留不符/不可计算案例；代表案例的网格、sigma范围和明示权重影响分开；不加入chi-square拟合。\n- 命令：基准脚本分别运行 `--suite empirical` 与 `--suite sensitivity`，清单由账本指定。",
-      "evidence": [
-        "raw/code/PDM/analysis/cases/results/results.json",
-        "raw/code/PDM/analysis/cases/results/results.csv",
-        "tmp/pdm-implementation/logs/literature-final.txt",
-        "tmp/pdm-implementation/logs/followup-cases-final.txt"
-      ],
-      "changed_paths": [],
-      "commands_run": [],
-      "unresolved_items": [
-        "PDCO empirical coverage one nuclide, not two; exact array replay unavailable; all declared model disagreements retained."
-      ],
-      "next_action": "No implementation action remains; retain declared evidence boundaries."
-    },
-    {
-      "id": "T14",
-      "title": "大结果与快速预览整合",
-      "depends_on": [
-        "T09",
-        "T13"
-      ],
-      "status": "completed",
-      "plan_section": "T14",
-      "specification": "- 依赖：T09、T13。消费：代表性完整输出和模拟慢盘任务。\n- 验收：不等CSV落盘即可显示四图/ETI/HDI；同时写盘、编辑、提交、保存单图无串任务；记录计算、绘图与I/O耗时及峰值内存，不默减科学精度。\n- 命令：基准脚本运行 `--suite io-gui`；记录事件时间线和实际输出规模。",
-      "evidence": [
-        "tmp/pdm-implementation/final-software-validation/io-benchmark.json",
-        "tmp/pdm-implementation/logs/cli-batch-resources.json",
-        "tmp/pdm-implementation/final-queue-trace/events.json"
-      ],
-      "changed_paths": [],
-      "commands_run": [],
-      "unresolved_items": [],
-      "next_action": "No implementation action remains; retain declared evidence boundaries."
-    },
-    {
-      "id": "T15",
-      "title": "图文秘书报告",
-      "depends_on": [
-        "T03",
-        "T10",
-        "T12",
-        "T13",
-        "T14"
-      ],
-      "status": "completed",
-      "plan_section": "T15",
-      "specification": "- 依赖：T03起持续更新，定稿依赖T10、T12、T13、T14。\n- 文件：新位置 `PDM/main.tex`、唯一 `main.pdf` 与 `figures/`。\n- 验收：可读叙述、公式、模块对应、四联图、数据/测试与限制齐全；所有科学图由Python和记录数据生成；没有旧路径、旧模式名和未实现冒充完成。\n- 命令：XeLaTeX两遍，临时文件进tmp；检查引用、溢出和逐页视觉布局。",
-      "evidence": [
-        "tmp/pdm-implementation/logs/tex-final-2.txt",
-        "tmp/pdm-implementation/pdf-qa/final-geometry.json",
-        "tmp/pdm-implementation/figure-qa/audit-summary.json"
-      ],
-      "changed_paths": [],
-      "commands_run": [],
-      "unresolved_items": [],
-      "next_action": "No implementation action remains; retain declared evidence boundaries."
-    },
-    {
-      "id": "T16",
-      "title": "通用wheel、启动入口与开源清单",
-      "depends_on": [
-        "T06",
-        "T09"
-      ],
-      "status": "completed",
-      "plan_section": "T16",
-      "specification": "- 依赖：T06、T09。文件：根README/LICENSE、GUI的 `pyproject.toml`、包README/许可、构建脚本及随包示例清单。\n- 验收：multipolePDM与multipolepdm命名一致，安装生成pdm-gui；一套纯Python wheel和sdist，运行依赖自动安装，analysis/dev可选依赖清楚，核心不硬编码Wiki路径；内置示例完整，包内无凭据或未授权第三方原件。\n- 命令：`python -m build --no-isolation`；`python -m twine check dist/*`；检查压缩包文件清单及秘密。",
-      "evidence": [
-        "tmp/pdm-implementation/final-software-validation/results.json"
-      ],
-      "changed_paths": [],
-      "commands_run": [],
-      "unresolved_items": [],
-      "next_action": "No implementation action remains; retain declared evidence boundaries."
-    },
-    {
-      "id": "T17",
-      "title": "Docker安装、虚拟显示与平台边界检查",
-      "depends_on": [
-        "T14",
-        "T16"
-      ],
-      "status": "completed",
-      "plan_section": "T17",
-      "specification": "- 依赖：T14、T16。\n- 验收：Docker中安装wheel并通过offscreen/Xvfb运行三模式示例、四图与保存；明确虚拟显示已测和各原生平台未测项目，不以缺少桌面为物理工作的阻塞，也不创建原生打包/桌面转发工程。\n- 命令：安装wheel后执行 `QT_QPA_PLATFORM=offscreen pdm-gui --self-test --report \"$PDM_PLATFORM_REPORT\"`；必要时在 `xvfb-run -a` 下运行相同入口。使用实际包内合成示例，记录截图/输出，不宣称真人桌面体验已验证。",
-      "evidence": [
-        "tmp/pdm-implementation/final-software-validation/results.json",
-        "tmp/pdm-implementation/pypi-gui-test.json"
-      ],
-      "changed_paths": [],
-      "commands_run": [],
-      "unresolved_items": [
-        "Native Windows/macOS untested; Docker virtual display is the approved baseline."
-      ],
-      "next_action": "No implementation action remains; retain declared evidence boundaries."
-    },
-    {
-      "id": "T18",
-      "title": "验收后PyPI发布与公开源码",
-      "depends_on": [
-        "T04",
-        "T05",
-        "T15",
-        "T16",
-        "T17"
-      ],
-      "status": "completed",
-      "plan_section": "T18",
-      "specification": "- 依赖：T04、T05、T15、T16、T17。\n- 验收：发布的是通过验收的真实制品；token仅通过进程环境传入，无公开日志泄漏；PyPI版本元数据和pip安装回读一致；以README准确声明平台实测边界。\n- 操作：GUI发布脚本从环境获取凭据后上传；执行 `python -m pip install --upgrade multipolePDM` 验证真实安装。首次正式版本拟为0.1.0，发布前按实际状态确定，不用空包探测权限。\n- Git：在指定远端就绪且有权限时，push整个 `raw/code/PDM/` 项目，包含analysis和GUI；验证公开Notebook示例能读取随附GUI输出。没有远端时交付完整源码包并明确缺少哪一步授权，不擅自公开整个Wiki。",
-      "evidence": [
-        "tmp/pdm-implementation/logs/pypi-publish.txt",
-        "tmp/pdm-implementation/logs/pypi-install.txt",
-        "tmp/pdm-implementation/pypi-readback.json",
-        "tmp/pdm-implementation/pypi-gui-test.json"
-      ],
-      "changed_paths": [],
-      "commands_run": [],
-      "unresolved_items": [
-        "Independent software Git remote not supplied; approved full-source-archive fallback delivered, no standalone Git push."
-      ],
-      "next_action": "No implementation action remains; retain declared evidence boundaries."
-    },
-    {
-      "id": "T19",
-      "title": "总验收与交付",
-      "depends_on": [
-        "T01",
-        "T02",
-        "T03",
-        "T04",
-        "T05",
-        "T06",
-        "T07",
-        "T08",
-        "T09",
-        "T10",
-        "T11",
-        "T12",
-        "T13",
-        "T14",
-        "T15",
-        "T16",
-        "T17",
-        "T18"
-      ],
-      "status": "completed",
-      "plan_section": "T19",
-      "specification": "- 依赖：T01–T18。\n- 验收：响应/统计/图形/交互/发布的证据齐全；候选覆盖和缺口如实；两个代码目录职责清楚；公开Notebook示例与秘书PDF可复现；发布清单无凭据或未授权第三方原件。\n- 命令：全测试、定向diff检查、来源归档门、图形/包/报告manifest核对；没有数据或平台实测不能冒称已验证。",
-      "evidence": [
-        "tmp/pdm-implementation/logs/archive-final.json",
-        "tmp/pdm-implementation/logs/scoped-lint-final.json",
-        "tmp/pdm-implementation/pdf-qa/final-geometry.json"
-      ],
-      "changed_paths": [],
-      "commands_run": [],
-      "unresolved_items": [],
-      "next_action": "No implementation action remains; retain declared evidence boundaries."
+      "next_action": "Await user approval of this plan; do not start implementation."
     }
   ],
-  "normalized_project_key": "multipolepdm",
-  "user_requirements": {
-    "R01": "raw/code/PDM/analysis Notebook与GUI公共项目，从零实现，不恢复已删代码",
-    "R02": "窗口PDM，P_ADO/P_DCO/PDCO及简短英文注释",
-    "R03": "秘书PDM/main.tex和figures，Python数据图文报告",
-    "R04": "计算sigma；分析与图示sigma/I_ref，变换密度",
-    "R05": "实验工作者友好、一键示例/计算、少量界面文字",
-    "R06": "排除SHU74和74Br；显示核素+能量，按表头不按固定行列",
-    "R07": "允许全局Python环境，不建立任务venv",
-    "R08": "三个model与三个mode config分开，共享核心",
-    "R09": "先预览四联图和双变量区间，再完成后台导出；单图保存、滚动缩放；HDI仅PDF下方",
-    "R10": "统一ETI国际术语，与HDI并列；旧EQ仅算法参考",
-    "R11": "xi从网格到图轴全部rad；探测器角度另标deg",
-    "R12": "multipolePDM通用PyPI包，凭据安全，不强制四个原生包",
-    "R13": "唯一PDM核心，三种响应模块，不加入chi-square",
-    "R14": "计划和账本保持当前统一规格，无逐轮订正流水",
-    "R15": "整个raw/code/PDM可公开，analysis及GUI输出示例一并交付",
-    "R16": "随包example.json及另两模式/批文件示例，GUI载入/保存JSON和字段说明",
-    "R17": "四联图统一nature-figure的Python科研图规范，质量检查只开发侧",
-    "R18": "使用角分布比或DCO比准确术语，不再含混简写",
-    "R19": "优先简单维护方案，依赖自动声明，必要个人账号授权才请用户协助",
-    "R20": "Docker无GUI可用offscreen/Xvfb验证，不要求真实桌面；未测边界如实记录",
-    "R21": "P-DCO优先，计划写全共同初态/联合强度/P边缘/DCO/条件P定义并直链秘书公式",
-    "R22": "未尽细节可自主研究，但依据本库/外部原件，记录出处与核验，不静默改物理合同"
-  },
-  "source_repository_root": "raw/code/PDM",
-  "python_project_root": "raw/code/PDM/GUI",
-  "publication_scope": [
-    "GUI and shared core",
-    "analysis notebooks",
-    "JSON input examples",
-    "GUI output examples",
-    "redistributable benchmark case data",
-    "tests and documentation"
+  "completion_rule": "U00-U09 all require fresh evidence; inherit physics regression, not old completion checkmarks. New native goal starts only after user approves implementation.",
+  "current_turn_scope": [
+    "plan.md",
+    "tasks.json",
+    "plan.pdf",
+    "knowledge execution contract",
+    "planning audit receipts"
   ],
-  "terminology": {
-    "R_ADO": "角分布比 / angular-distribution ratio",
-    "R_DCO": "DCO比（定向核的方向关联比） / DCO ratio"
-  },
-  "input_examples": {
-    "resource_root": "raw/code/PDM/GUI/src/multipolepdm/examples",
-    "files": [
-      "example.json",
-      "example_P_DCO.json",
-      "example_PDCO.json",
-      "example_batch.json"
-    ],
-    "readme": "README.md",
-    "gui_actions": [
-      "Load example",
-      "Save input JSON"
-    ],
-    "must_work_after_install_outside_source_tree": true,
-    "batch_schema": "top-level jobs array containing complete single-job objects"
-  },
-  "plot_standard": {
-    "skill": "nature-figure",
-    "backend": "Python/Matplotlib",
-    "layout": "2x2 quantitative grid; a-d",
-    "report_size_mm": [
-      183,
-      150
-    ],
-    "density_colormap": "cividis",
-    "hdi": "blue fill from zero to PDF within each HDI segment",
-    "eti": "orange-red dashed boundaries",
-    "alignment_tolerance_pt": 1.5,
-    "minimum_visible_glyph_pt": 5,
-    "raster_export_dpi": 600,
-    "developer_qa": [
-      "source preflight",
-      "rendered axes alignment",
-      "PDF font audit",
-      "PDF collision audit",
-      "visual inspection"
-    ],
-    "end_user_needs_skill_scripts": false,
-    "end_user_needs_tex": false,
-    "single_panel_width_mm": 89
-  },
-  "dependency_policy": "pyproject.toml is the single source; pip installs runtime requirements; optional analysis/dev extras; generated requirements only if needed; global environment allowed; agent handles normal downloads/install/debug.",
-  "user_assistance_boundary": "Only personal account/API-key/remote authorization and genuinely external unavailable resources; not routine dependency installation or debugging.",
-  "response_contract": {
-    "priority_mode": "P_DCO",
-    "plan_sections": [
-      "2.4",
-      "2.5"
-    ],
-    "handbook": "raw/writing/pado/20261029_review_v1/PDM/main.tex",
-    "handbook_read_sha256": "6481d8aac65c94f5430e66c2fa11ace0be70aedd702f9e85828965047758be95",
-    "handbook_formula_labels": [
-      "eq:B",
-      "eq:common-joint-p",
-      "eq:conditional-P",
-      "eq:dco",
-      "eq:dir-pol",
-      "eq:joint-ratio",
-      "eq:nonadjacent",
-      "eq:pdm",
-      "eq:pol-dir",
-      "eq:population",
-      "eq:population-transfer",
-      "eq:propagate",
-      "eq:quadratic",
-      "eq:rational",
-      "eq:single-P",
-      "eq:single-P-tensors",
-      "eq:trace",
-      "eq:uk-mixed",
-      "eq:uk-pure"
-    ],
-    "required_invariants": [
-      "one Gaussian reference sigma",
-      "same joint kernel for P and DCO",
-      "P_single sums intensities over full gate directions before ratio",
-      "P_cond keeps specified gate direction",
-      "DCO uses joint intensities with gate probabilities retained",
-      "target-second single P uses propagated state, not fresh Gaussian",
-      "unobserved propagation keeps necessary coherences",
-      "U_k is not a gated-sigma correction",
-      "pure terms and mixed phases checked against original erratum"
-    ],
-    "primary_sources": [
-      "Droste1996 pp519-522 Eqs3-8,12-21",
-      "Starosta1999 p17 footnote1",
-      "Hamilton1975 Ch12 p552 Eqs12.209-12.213",
-      "Kramer-Flecken1989 p334"
-    ]
-  },
-  "gui_validation": {
-    "environment": "Docker without connected display",
-    "primary": "QT_QPA_PLATFORM=offscreen with pytest-qt/QTest",
-    "fallback": "Xvfb/xvfb-run for real Qt rendering on a virtual X server",
-    "tools_observed": [
-      "Xvfb",
-      "xvfb-run",
-      "xauth"
-    ],
-    "application_test_dependencies_installed_this_turn": false,
-    "host_desktop_required": false,
-    "tests_executed_this_turn": false,
-    "evidence": [
-      "actual widget events",
-      "Qt screenshots",
-      "three-mode small real calculation chains",
-      "figure exports",
-      "background-export event timeline"
-    ],
-    "limits": "Do not claim Windows/macOS native desktop or drivers tested; unsupported GUI items are explicitly unverified; do not block physics on host display access."
-  },
-  "autonomous_research": "Fill unspecified details using local evidence first, then archived legal external primary sources; record locators/assumptions/verification; do not silently change agreed core response definitions or add chi-square.",
-  "current_task": null,
-  "run_dir": "tmp/pdm-implementation",
-  "worker_policy": {
-    "model": "codex/gpt-6.2-sol",
-    "reasoning_effort": "high",
-    "isolation": "disjoint scratch artifact prefixes; parent integrates",
-    "retry_max": 1,
-    "publish": "parent only"
-  },
-  "workers": [
-    {
-      "id": "01a1f555-c6b5-7df1-8db9-7883e541d2d7",
-      "model": "codex/gpt-6.2-sol",
-      "effort": "high",
-      "task": "T12",
-      "scope": "tmp/pdm-implementation/reference/benchmarks",
-      "status": "completed-integrated-closed"
-    },
-    {
-      "id": "01a1f555-cdaf-7a73-9bbd-98c39c269c52",
-      "model": "codex/gpt-6.2-sol",
-      "effort": "high",
-      "task": "T11",
-      "scope": "tmp/pdm-implementation/cases",
-      "status": "completed-integrated-closed"
-    },
-    {
-      "id": "01a1f558-61d6-7000-8fde-51ec13bc75fd",
-      "model": "codex/gpt-6.2-sol",
-      "effort": "high",
-      "task": "T05",
-      "scope": "tmp/pdm-implementation/statistics",
-      "status": "completed-integrated-closed"
-    },
-    {
-      "id": "01a1f55b-27cc-7c10-8a00-f2d2aac3e5be",
-      "model": "codex/gpt-6.2-sol",
-      "effort": "high",
-      "task": "T08",
-      "scope": "tmp/pdm-implementation/plotting",
-      "status": "completed-integrated-closed"
-    },
-    {
-      "id": "01a1f595-7340-78c3-9adf-861cd64035bb",
-      "model": "codex/gpt-6.2-sol",
-      "effort": "high",
-      "task": "T13",
-      "scope": "tmp/pdm-implementation/literature-runs",
-      "status": "completed-integrated-closed"
-    },
-    {
-      "id": "01a1f5ad-40ff-76e0-9685-ff804ce08baa",
-      "model": "codex/gpt-6.2-sol",
-      "effort": "high",
-      "task": "T07/T09 review and fixes",
-      "scope": "tmp/pdm-implementation/app-fixes",
-      "status": "completed-integrated-closed"
-    },
-    {
-      "id": "01a1f678-43a0-7eb1-8810-6c5622f20ef7",
-      "task": "final software verification",
-      "model": "codex/gpt-6.2-sol",
-      "effort": "high",
-      "status": "completed-integrated-closed"
-    }
+  "forbidden_this_turn": [
+    "implementation edits",
+    "rerunning scientific benchmarks",
+    "secret access",
+    "PyPI publication",
+    "creating implementation goal"
   ],
-  "handbook_current_sha256": "1f797b56bcc5f0b3162bdc0a848eaa3f00dcdc42401dcccf630d2432f7720752",
-  "latest_regression": {
-    "full_suite": "153 passed",
-    "xvfb": "4 passed",
-    "pypi_installed_gui": "3 modes passed",
-    "published": true,
-    "version": "0.1.0"
-  },
-  "git_remote_request": "已异步询问独立PDM远端URL；不阻塞计算与PyPI准备",
-  "continuation": {
-    "do_not_repeat": [
-      "Rebuild no physics from scratch: full amplitude and independent 9j kernels exist and passed tests",
-      "Do not rerun source screening or all synthetic tests unless validating a changed core/final release",
-      "Do not restore deleted Upload/p_ado_v1.0",
-      "Do not overwrite original Excel/YAnalysis/YPlot",
-      "Do not stage shared parallel literature-learning edits"
-    ],
-    "remaining": [],
-    "known_repo_parallel_work": "Existing learning task modifies knowledge/index, HDR/source pages, literature-acquisition queues, system/handoff/log. Leave those edits alone; keep PDM task state here.",
-    "completion_receipt": "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/acceptance.json"
-  },
-  "actual_coverage": {
-    "even_even": [
-      "80Se",
-      "164Yb"
-    ],
-    "odd_A": [
-      "135Pr",
-      "185Au"
-    ],
-    "odd_odd": [
-      "154Tb",
-      "190Tl"
-    ],
-    "modes": {
-      "P_ADO": 2,
-      "P_DCO": 3,
-      "PDCO": 1
-    },
-    "scope": "Declared point and ideal-ring models of measured observations; no exact array replay"
-  },
-  "git_publication": {
-    "scope": "Wiki PDM task records and knowledge only; software source archive remains local and PyPI artifacts are public",
-    "stable_pointer": "main / research: deliver multipolePDM three-mode validation and release",
-    "status": "published",
-    "reconciliation": "Release task-record commit verified against exact scope and pushed to origin/main; unrelated worktree changes retained."
+  "grid_baseline": {
+    "xi_min_rad": -1.56,
+    "xi_max_rad": 1.56,
+    "xi_points": 3121,
+    "sigma_points": 201
   }
 }

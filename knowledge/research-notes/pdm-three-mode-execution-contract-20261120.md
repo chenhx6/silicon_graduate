@@ -16,7 +16,7 @@ tags: [pdm, validation, pdco, polarization, benchmark-design, python-packaging]
 
 ## Research Trigger
 
-用户要求从零实现PDM核心及三个响应模块、友好GUI和Notebook；提供四联图、ETI/HDI、独立测试、真实核素案例和Python图文报告，并优先经PyPI发布。用户已明确批准执行，实施goal已启动。规格位于 `outputs/plans/20261120-pdm-three-mode-rewrite/plan.md`，任务状态仅由同目录 `tasks.json` 维护。
+用户要求从零实现PDM核心及三个响应模块、友好GUI和Notebook；提供四联图、ETI/HDI、独立测试、真实核素案例和Python图文报告，并优先经PyPI发布。0.1.0已完成并发布；当前用户只要求在原计划上离线修订图形、统计、注入恢复与教程方案，正在审核，尚未授权执行新改造。旧完成goal不代表新任务完成。规格位于 `outputs/plans/20261120-pdm-three-mode-rewrite/plan.md`，任务状态仅由同目录 `tasks.json` 维护。
 
 ## Grounded Evidence
 
@@ -26,7 +26,7 @@ tags: [pdm, validation, pdco, polarization, benchmark-design, python-packaging]
 - [[polarization-delta-collection-20261119-source]] 是本地论文原件索引。用户Excel作为候选表，行排序/列位置不是记录身份；数值与条件定义仍回原件。
 - `raw/writing/pado/Upload/analysis/YAnalysis.py` 的compute_eq_summary默认采用q16/q50/q84，中位数q50为中心；compute_hdi使用密度阈值，可有多个区间。新程序按用户最新指示统一命名ETI/HDI，不保留EQ为界面名。
 - `raw/writing/pado/Upload/analysis/YPlot.py` 的plot_projection1d使用axvspan；本项目不沿用满高色带，改为HDI区间内0到PDF的填色。其对折叠观测网格不能直接pcolormesh的警告应保留。
-- [[pypi-pdm-packaging-20261120]] 记录官方wheel、entry point、上传与Qt依赖资料。pdm名称已有其他项目；multipolePDM本次查询404，不代表预留成功。
+- [[pypi-pdm-packaging-20261120]] 记录官方wheel、entry point、上传与Qt依赖资料。pdm名称已有其他项目；multipolePDM实施前查询404只作历史记录；0.1.0现已实际发布，见交付回执。
 
 ## Provisional Reasoning
 
@@ -38,19 +38,19 @@ GUI名称PDM，模式标识P_ADO/P_DCO/PDCO。新代码分为 `raw/code/PDM/anal
 
 独立测试必须区分单线P的门角不变性、条件P的门角响应、上下游角色、门概率保留、相对方位角相干及零强度定义域。原始相位依据包括Droste1996和Starosta1999已发表勘误；不能以旧代码或同源闭环代替这些核验。
 
-核心使用xi(rad)、sigma。xi的网格、三角函数、差分、输出及默认图轴均为rad；探测器角度另标deg，在几何入口转换。分析、参数图和取向统计显示sigma/I_ref，I_ref为共同Gaussian参考态，不因目标位于下游而改变身份。
+核心使用xi(rad)、sigma。xi的网格、三角函数、差分、输出及默认图轴均为rad；探测器角度另标deg，在几何入口转换。对外分析/图轴标为sigma/I，去掉ref和dimensionless；内部I_ref仍记录共同Gaussian参考态，不因目标位于下游而改变身份。对外角轴写arctan(delta)，刻度使用0、正负pi/8、pi/4、3pi/8，内部仍按rad计算。此显示改造属于当前待实施合同，不是0.1.0已有行为。
 
-固定I_ref时，s=sigma/I_ref，f(xi,s)=I_ref*f(xi,I_ref*s)，p_s(s)=I_ref*p_sigma(I_ref*s)；delta边缘由p_delta=p_xi(arctan(delta))/(1+delta^2)转换。不得只换轴标签。ETI和HDI均在各自最终变量密度上计算；HDI可能不连续，不能跨低密度间隙填色。
+固定I_ref时，s=sigma/I_ref，f(xi,s)=I_ref*f(xi,I_ref*s)，p_s(s)=I_ref*p_sigma(I_ref*s)；delta边缘由p_delta=p_xi(arctan(delta))/(1+delta^2)转换。不得只换轴标签。当前用户选定的报告约定是在arctan(delta) PDF上计算68%HDI、ETI、mode和mean/std，再将mode、分位数和各段端点逐项tan转换来报告delta；不要求先对delta PDF重算HDI。sigma/I直接评估。README注明这是物理混合角口径；HDI可能不连续，不能跨低密度间隙填色。Mean使用PDF加权积分，tan(angle mean)不标作直接delta期望；mean±std不赋予68%覆盖意义，越域或越tan奇点须显式标识。
 
-结果统计和四联图从内存快照产生，不等待完整CSV导出。图1为R_ADO/R_DCO对P的观测密度，图2为xi(rad)对sigma/I的参数密度，图3为delta边缘，图4为sigma/I边缘。下方显示两变量的ETI/HDI，允许滚动、平移、缩放及单图/整图保存。计算完成和保存完成分别显示，写盘失败不抹掉可用预览。
+结果统计和四联图从内存快照产生，不等待完整CSV导出。新显示目标：图1为所有有效响应点所在完整R_ADO/R_DCO-P观测域，按观测密度着色并叠加输入点和误差棒；图2为arctan(delta)-sigma/I密度；图3为arctan(delta)边缘，图4为sigma/I边缘。C/D各画橙色CDF16/50/84三线，合用图例68% ETI (16%, 50%, 84%)；灰色mean和mean±std三线默认常显，无开关；HDI蓝色仍填0到PDF，另画y=h阈值水平线。图下显示delta和sigma/I的HDI/ETI/Mean-based三类数值，支持滚动、平移、缩放和单图/整图保存。计算完成和保存完成分别显示，写盘失败不抹掉可用预览。
 
-四联图按nature-figure的Python数据图规范采用固定2x2 quantitative grid，a/b为观测与联合参数密度，c/d为两个边缘；共享样式模块统一字体、色图和区间标记。报告导出初始183x150mm，轴标题9pt、刻度/图例8pt，最终字形不少于5pt；GUI采用较大字号预设。cividis等顺序色图用于密度，a/b测度不同不能强制共用数值色标；HDI蓝色填PDF下方，ETI用橙红虚线。开发/报告出图做1.5pt面板对齐、字体及碰撞检查，普通用户不依赖技能脚本或TeX。这是本项目采用的Nature-style规范，不是宣称符合某刊全部投稿条款。
+四联图按nature-figure的Python数据图规范采用固定2x2 quantitative grid，a/b为观测与联合参数密度，c/d为两个边缘；共享样式模块统一字体、色图和区间标记。报告导出初始183x150mm，轴标题9pt、刻度/图例8pt，最终字形不少于5pt；GUI采用较大字号预设。用户指定viridis用于两个二维密度面板，a/b测度不同不能强制共用数值色标；HDI蓝色填PDF下方，ETI用橙色虚线，中心CDF50%不再另立Median图例。开发/报告出图做1.5pt面板对齐、字体及碰撞检查，普通用户不依赖技能脚本或TeX。这是本项目采用的Nature-style规范，不是宣称符合某刊全部投稿条款。
 
 JSON示例随wheel提供，位于包资源examples目录：example.json为P_ADO，另有example_P_DCO.json、example_PDCO.json和example_batch.json及字段说明。GUI能载入/导出示例、保存已填输入；analysis/examples提供同格式的小型GUI合成输出，Notebook可以直接运行再换用户文件。示例不是实验数据，正式交付前须实际运行。
 
 秘书手册现位于 `raw/writing/pado/20261029_review_v1/PDM/main.tex`，唯一PDF同目录。所有科学图由Python根据记录数据生成并保存至其figures目录，不使用AI图像代替结果。Notebook和GUI调用同一核心，不复制互相漂移的算法。
 
-实测选样排除74Br及用户指定SHU74；SHU74在当前References中未找到精确键，需按原件身份核定别名，不猜测归属。36Cl的790/1170keV为替换奇奇核的待核线索，但表中主要给P与角系数，尚未证明适用和输入完整。候选展示只用核素+能量，内部保留必要来源与分支。读取按表头名称，不按固定行号/列号，排序不改变选择。
+实测选样排除74Br及用户指定SHU74；SHU74在当前References中未找到精确键，需按原件身份核定别名，不猜测归属。已完成的模型比较为80Se/164Yb、135Pr/185Au、154Tb/190Tl六核；PDCO仅164Yb，均不是完整阵列重放。当前图6改造保留冻结名单和全部几何边界，不重新按结果选样。候选展示只用核素+能量，内部保留必要来源与分支。读取按表头名称，不按固定行号/列号，排序不改变选择。
 
 验证分独立物理参考、注入恢复/正负控制、实测与敏感性三层。P不要求随delta整体反号；同源生成反演不能作为独立验证。文献delta不进入反演输入，名单在看结果前冻结；不能用模拟凑实测配额。不加入chi-square拟合模块。
 
@@ -62,12 +62,25 @@ JSON示例随wheel提供，位于包资源examples目录：example.json为P_ADO�
 
 ## Assumptions
 
-- 实施已获批准；软件发布仍以完整科学与制品验收为条件，不提前上传占位版本。
+- 旧0.1.0实施授权已经执行完毕；本轮新计划等待审核，未授权改代码、跑新工况或发布。新发布仍须完整验收。
 - 上游共同Gaussian和已给路径参数保持二维反演；不能因都叫sigma就忽略参考态身份。
-- 图的显示降采样不得改变基于完整网格计算的统计；概率测度必须保留。
+- 全域图不能静默裁去有效响应点；渲染优化不改变原网格统计和完整覆盖，概率测度必须保留。
 - PyPI token仅在实际发布进程中读取与传入，不写文档/源码/日志；0.1.0已通过真实PyPI上传与公开元数据哈希回读；没有记录token值。
 
 独立响应与合成反演的归档数据见 [[multipolepdm-20261120-synthetic-validation]]；其中600次反演只对应三个工况各100个独立噪声向量经两种生成器成对处理，不能计作600个独立实验。
+
+## Current Planned Validation and Reporting
+
+以下是用户选定的下一轮合同，不是已完成的运行结果。完整执行规格在原plan和tasks中，U00--U09均待批准后执行。
+
+- 注入主矩阵：三模式乘delta=-10,-5,-1,-0.5,-0.1,+0.1,+0.5,+1,+5,+10；用户的sigma_yy=0.3按上下文理解为sigma/I=0.3，源sigma=0.3*I，反演仍扫描宽度。
+- 输入误差：P左右正幅度0.8*abs(P0)，R_ADO/R_DCO左右正幅度0.1*abs(R0)。这组实验型误差与旧合成验证配置不同，不借旧结果冒充已测。30条独立9j生成主记录、30条同核自洽对照；另外三个代表工况各100独立噪声向量、两生成器成对处理，保留依赖关系。
+- 真值/恢复图和详细表必须同时交付：列注入delta、sigma/I、自旋/门/几何、P/R及误差、HDI模式与每段边界、ETI三分位数、mean/std、真值包含、偏差、分支和边界警告。只画PDF而不标真值或只说测试通过不合格。
+- 公式(6)的2->0纯E2、m=0、W(45deg)=15/8、P(45deg)=+1需直接断言；可混合模型的纯E2端点恢复与选择定则禁止M1的纯项前向控制分开。两者当前不以旧纯项对照统称完成。
+- 图6四面板：A为delta对谱线，B为sigma/I对谱线，C为delta对目标初态自旋，D为sigma/I对目标初态自旋。A/C用tan转换后的delta，不用角坐标。四图都有HDI68%、ETI68%和文献点图例；C/D以小横向offset避免同自旋估计重叠，自旋数据本身不改。文献固定采用宽度与提取值分开。
+- 默认主报告/GUI只展示68%ETI/HDI；历史95%数据不删除、不混入新默认展示。原文未声明误差置信水平时不补写68%。
+- 用户图题原文为Full Range Marginalization; Constant Width。数值含义是完整扫描域、常数附加权重，绝不是固定sigma。英文建议Weight；当前保留原文字面并列为待确认的唯一图题用词，不据此改变数值方案。
+- analysis是Notebook/脚本目录，不是第二个必装包；pip安装共享核心一次，[analysis]只补Jupyter等可选依赖，不自动下载Notebook。教程应写清下载Notebook、打开示例、换输出路径及三评估的读法。
 
 ## Implemented Response Evidence
 
@@ -84,7 +97,7 @@ JSON示例随wheel提供，位于包资源examples目录：example.json为P_ADO�
 
 ## Failure Conditions
 
-用EQ作为新界面名、xi混用deg/rad、仅换sigma/I轴而不换密度、HDI铺满纵轴或跨空隙、必须等大文件写完才显示结果、把IPDCO名称当模式证明、把74Br重新算进覆盖、固定Excel行/列定位、发布凭据或未授权第三方原件，均不符合当前合同。
+以旧0.1.0完成状态勾选本轮新任务、对delta重新求HDI代替用户指定角空间口径、只画实验附近遗漏有效响应点、灰色mean引导线需要开关才能出现、CDF50%另设Median图例、图上没有三评估数值、把负P生成负误差幅度、用旧误差的注入结果冒充新矩阵、用EQ作为新界面名、xi混用deg/rad、仅换sigma/I轴而不换密度、HDI铺满纵轴或跨空隙、必须等大文件写完才显示结果、把IPDCO名称当模式证明、把74Br重新算进覆盖、固定Excel行/列定位、发布凭据或未授权第三方原件，均不符合当前合同。
 
 ## Competing Explanations
 
@@ -96,15 +109,15 @@ JSON示例随wheel提供，位于包资源examples目录：example.json为P_ADO�
 
 ## Falsification or Reverse Tests
 
-执行阶段验证独立角关联系数核对振幅核、纯分量、全方向积分、U传播、解析二维映射、坐标概率守恒、ETI/多峰HDI和图下填色积分。加入Excel排序/列移动一致性、慢盘提前预览、单图矢量保存、Notebook运行全部及真实PyPI安装回读。当前153项回归通过；当前wheel安装、offscreen/Xvfb真实GUI、三个Notebook均运行。独立与同核合成重复观测、六核文献模型比较及PyPI制品回读分别留有记录，不混计证据。
+执行阶段验证独立角关联系数核对振幅核、纯分量、全方向积分、U传播、解析二维映射、坐标概率守恒、ETI/多峰HDI和图下填色积分。加入Excel排序/列移动一致性、慢盘提前预览、单图矢量保存、Notebook运行全部及真实PyPI安装回读。0.1.0基线的153项回归通过；该版本wheel安装、offscreen/Xvfb真实GUI、三个Notebook均运行。独立与同核合成重复观测、六核文献模型比较及PyPI制品回读分别留有记录，不混计证据。
 
 ## Open Questions
 
-方向条件PDCO只有164Yb一个实测核，第二核配对测量仍缺；190Tl补足第二奇奇核，但其单线P代理、方位几何和低能校准外推边界保留。SHU74别名未确定。Docker虚拟显示为当前GUI基线，Windows/macOS原生未测；未指定独立软件Git远端，因此交付完整源码包而不推送整个Wiki作为软件。
+当前新方案还需用户审核；图题Width/Weight用词待确认。方向条件PDCO只有164Yb一个实测核，第二核配对测量仍缺；190Tl补足第二奇奇核，但其单线P代理、方位几何和低能校准外推边界保留。SHU74别名未确定。Docker虚拟显示为当前GUI基线，Windows/macOS原生未测；未指定独立软件Git远端，因此交付完整源码包而不推送整个Wiki作为软件。
 
 ## Human Review
 
-用户明确指令开始自动实施并授权代理协作；这是执行授权，不是人工逐条核验科学结论。multipolePDM 0.1.0已发布到PyPI；这是软件交付，不代表用户逐条审核科学结论。
+用户曾批准0.1.0自动实施并授权代理协作；当前新一轮只要求讨论并离线修订计划，不能沿用旧授权直接启动。执行授权不是人工逐条核验科学结论。multipolePDM 0.1.0已发布到PyPI；这是软件交付，不代表用户逐条审核科学结论。
 
 ## Promotion or Rejection History
 
