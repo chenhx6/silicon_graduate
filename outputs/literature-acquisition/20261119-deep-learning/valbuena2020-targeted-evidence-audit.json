@@ -1,0 +1,32 @@
+{
+  "work_id": "bytes:bea3e089821deaf74a6f7369b006a2df029b6467bedcbb53c4b5a2ad7ad78dd4",
+  "source_note": "knowledge/sources/valbuena-2020-ru98-beta-decay-thesis.md",
+  "mode": "targeted crosswalk",
+  "auditor": "Codex",
+  "covered_sections": [
+    "PDF 1–2, 7–9: identity and navigation",
+    "PDF 63–74, 81–94: branch analysis, level and structure evidence",
+    "Garrett et al. 2020 table 1 and experiments crosswalk, official version"
+  ],
+  "scientific_coverage_complete": false,
+  "remaining": [
+    "Remaining theory, detector, matching and full transition tables/appendices pending.",
+    "Published normalization and gate/energy corrections differ from the thesis; raw implementation is not reconciled.",
+    "Transfer and beta-decay are independent acquisitions; the thesis and article share them."
+  ],
+  "archive_manifest": "raw/papers/gpt/query/20261120-ru98-valbuena-published-crosswalk/manifest.json",
+  "key_visual_pages": {
+    "thesis": [
+      82
+    ],
+    "publisher_pdf": [
+      3
+    ]
+  },
+  "relative_e2_check": {
+    "thesis": 124.24122675852436,
+    "publisher": 51.69961085396511,
+    "basis": "Pure E2 branches of same upper spin-2 level; printed branch values under photon convention."
+  },
+  "updated_at": "2026-11-20T09:35:43.968862+00:00"
+}

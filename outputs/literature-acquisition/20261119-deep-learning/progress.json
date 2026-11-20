@@ -340,7 +340,8 @@
     "WU24-GAMMASPHERE-CROSSWALK",
     "JAM14-COMPLETE-SCIENTIFIC-SCOPE",
     "ND16-193TL-ADO-POLARIZATION-AND-BAND-CROSSWALK",
-    "ND16-COMPLETE-SCIENTIFIC-SCOPE"
+    "ND16-COMPLETE-SCIENTIFIC-SCOPE",
+    "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED"
   ],
   "completed_full_sources_this_run": 22,
   "PDM_run": false,
@@ -350,14 +351,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T09:18:08.907049+00:00",
+  "updated_at": "2026-11-20T09:35:43.968862+00:00",
   "completed_deep_read_sources_this_run": 0,
   "completed_primary_pages_this_run": 4071,
-  "current_source_note": "knowledge/sources/ndayishimye-2016-tl192-tl193-chirality-thesis.md",
-  "next_action": "Valbuena 2020: trace 98Rh beta feeding and low-lying 98Ru shape coexistence evidence.",
+  "current_source_note": "knowledge/sources/valbuena-2020-ru98-beta-decay-thesis.md",
+  "next_action": "Inspect tape sorting, calibration, impurities and all sections and appendices.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
   "last_source_manager_closure": "Ndayishimye: 151 scientific/bibliographic pages, with 192Tl and RSAM caveats, three published version controls.",
-  "current_source_scientific_acceptance": "Ndayishimye complete in scope; Valbuena identity checked.",
-  "source_scoped_retrieval": "Three official publisher versions added for the 193Tl interpretation and band-number crosswalk."
+  "current_source_scientific_acceptance": "Valbuena targeted; Ndayishimye 151/152 reconciled and published.",
+  "source_scoped_retrieval": "SCOAP3 published 98Ru article held for direct comparison with the thesis."
 }

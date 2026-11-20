@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Valbuena ⁹⁸Ru 第一批
+
+- [[valbuena-2020-ru98-beta-decay-thesis]] 核对 1817 keV 弱分支、2013/2428 keV 的独立转移自旋依据及 Garrett 期刊表。归档一份出版 PDF。学位表和期刊表的分支定量差异保留，已有整源计数 22 份、4071 页。
+- 当前接续为 Tape Station 排序校正、污染归属、完整科研章节及附录。PDCO/PDM 和 Hamilton 保持另一会话隔离。
+
 ## 2026-11-20 — Ndayishimye 科研与版本核验
 
 - [[ndayishimye-2016-tl192-tl193-chirality-thesis]] 完成 151/152 页科研、书证核验。学位论文 Bands 2、3、5 对应 2019 年 Bands 2、3、4。三个出版 PDF 已留档，保留角量分类、谱带演化、¹⁹²Tl 两带证据、¹⁹³Tl RSAM 的加权差异及模型公式印刷边界。
