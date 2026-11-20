@@ -6670,3 +6670,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Garber 等的 ¹²⁵Sb 方向和极化关联
 
 - 核完 11 页，分开实测比值、校准与 332 keV 双支，续读 Rolfs 的 ¹⁸F。累计 69 份、7697 页。
+
+## 2026-11-21 — Rolfs 的 ¹⁸F 原文极化
+
+- 核读 9 页，区分实测 P、双根及引用的同宇称混合。累计 70 份、7706 页，续读 Ohya 等。

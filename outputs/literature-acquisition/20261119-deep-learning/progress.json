@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.1016/0375-9474(74)90072-4",
+  "active_source": "doi:10.1007/bf01379724",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 69,
+  "completed_full_sources_this_run": 70,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T18:31:50.633936+00:00",
+  "updated_at": "2026-11-20T18:38:30.454242+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 7697,
-  "current_source_note": "knowledge/sources/garber-1974-sb125-polarization-direction-correlation.md",
-  "next_action": "Read Rolfs 1972 Zeitschrift fuer Physik 249 312–320, original nine pages. Keep polarization and branch attribution.",
+  "completed_primary_pages_this_run": 7706,
+  "current_source_note": "knowledge/sources/rolfs-1972-f18-parity-polarization.md",
+  "next_action": "Read Ohya et al. 1989 NIM A276, 223–227 (five pages), identify low-energy calibration and 125Te evidence.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Garber 1974: 125Sb original polarization ratios, directional mixture branches and unresolved 332-keV result.",
-  "current_source_scientific_acceptance": "Eleven publisher pages checked, including bibliography and calculation/measurement scopes. Linked one-page duplicate.",
-  "source_scoped_retrieval": "Locally held publisher PDFs. No new download."
+  "last_source_manager_closure": "Rolfs 1972: 18F primary polarization role, parity fit alternatives and separation of cited E2/M1.",
+  "current_source_scientific_acceptance": "All nine publisher pages, including original Table 2 and uncertainty qualification.",
+  "source_scoped_retrieval": "Locally held publisher PDFs, no new download."
 }

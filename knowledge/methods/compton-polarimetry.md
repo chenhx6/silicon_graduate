@@ -98,6 +98,8 @@ The analyzing power is a Compton-scattering property and depends on photon energ
 
 [[garber-1974-sb125-polarization-direction-correlation]] 的 332 keV 例保留两组 E2/M1 混合比。两组计算的极化计数比与实验误差重叠，采用不同的级联门后仍然如此。表 3 用 \(P\) 标签标被分析的线，实测列为原生计数比 \(\beta\)。见原刊 §§3.1–4。
 
+[[rolfs-1972-f18-parity-polarization]] 的 ¹⁸F 3134→1081 keV 极化为同母态的宇称证据，不能给另一条 3134→1702 keV 线补一个 \(P\)。原文表 2 同时列有文献混合比对应的偏振计算以及作者实测量，脚注区分其来源。
+
 ## Detector Implementations
 
 - Clover and segmented HPGe arrays provide compact Compton event selections.

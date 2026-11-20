@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Rolfs 的 ¹⁸F 宇称与角分布双解
+
+- [[rolfs-1972-f18-parity-polarization]] 核读 9 页，区分 3134→1081 的纯偶极极化、两条 M2/E1 混合的方向双解和用作比较的外引 E2/M1。
+- 累计 70 份、7706 页。续读 Ohya 等 1989 的 Si(Li) 散射体及 ¹²⁵Te 176 keV 衰变线，本地五页出版版身份和 SHA 已核。
+
 ## 2026-11-21 — Garber 的 ¹²⁵Sb 极化与保留双解
 
 - [[garber-1974-sb125-polarization-direction-correlation]] 核读 11 页。332 keV 双根都与原极化比相容，分别保留实验值及理论偏好。1067 keV 数值的纯 E1 伴线假设和两种极化角色已核。

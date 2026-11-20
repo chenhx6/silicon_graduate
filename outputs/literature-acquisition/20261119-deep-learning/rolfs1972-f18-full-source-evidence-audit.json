@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-11-20T18:38:30.454242+00:00",
+  "source": "knowledge/sources/rolfs-1972-f18-parity-polarization.md",
+  "raw_file": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1007_BF01379724.pdf",
+  "raw_sha256": "34e2dfd031ca15d86a7383fd5633409c7b429adcff5da77d5657a0a6c284ef00",
+  "primary_pdf_pages": 9,
+  "scientific_and_bibliographic_pages_covered": 9,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–4: 18F structure, experiment, data and angular/polarization formulas",
+    "PDF 5–7: measured and external lifetime, branching, parity and mixing constraints",
+    "PDF 8–9: competing nuclear models and references"
+  ],
+  "visual_checks": [
+    6
+  ],
+  "evidence_gaps": [
+    "3134 to 1702 keV has no reliable measured P. The two fitted mixed branches are M2/E1 under the preferred parity.",
+    "Candidate E2/M1 values for positively paritied controls are quoted. Do not label them new measurements of delta."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}
