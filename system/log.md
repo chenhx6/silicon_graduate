@@ -6566,3 +6566,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — Postma 的 ¹⁶⁶Er 线偏振
 
 - 核读出版版 17 页，匹配一页摘录，保留 706/817 keV 角分布、边门与串扰约束。累计 43 份、6816 页，续读 Koh。
+
+## 2026-11-20 — Koh 的碘取向与 Sm/Eu 转子模型
+
+- 核读 185 页，核查四阶项选支、两种磁场提取和模型参数角色。累计 44 份、7001 页，续读 Griffiths。

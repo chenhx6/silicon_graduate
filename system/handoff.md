@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Koh 的碘衰变取向与 Sm/Eu 模型
+
+- [[koh-1994-iodine-xe-sm-eu-nuclear-orientation-thesis]] 核读 185/189 页。记录 \(A_4\) 选支对馈入 \(U_4\) 的依赖、¹³³I 静态与共振超精细场之差，以及 ¹³⁵I 磁矩的两组场假设。较晚 ENSDF 采用值另记。Sm/Eu 的 \(\epsilon_2,\gamma\) 保留为组态和模型条件下的推断。
+- 累计 44 份、7001 页。Gemini 上游 403，本批由 Codex 核读。续读 Austyn Glyn Griffiths 的 *Nuclear Orientation Studies of Isotopes Far from Stability*，Oxford DPhil，Michaelmas Term 1989，228 页。`W206739057.pdf` 题页、摘要及 SHA 已核。
+
 ## 2026-11-20 — Postma 的 ¹⁶⁶Er 角分布与重叠偏振谱
 
 - [[postma-1959-ho166m-er166-polarization]] 核读 17 页。保留 706/817 keV 的原始计数比、串扰估计、联合 \(P\) 及不同混合比口径。17 页排印本给一次整源学分，旧队列的一页摘录保留为版本关联。

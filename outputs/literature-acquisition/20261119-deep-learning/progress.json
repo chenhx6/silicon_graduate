@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 43,
+  "completed_full_sources_this_run": 44,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T14:57:27.367303+00:00",
+  "updated_at": "2026-11-20T15:23:21.873757+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 6816,
-  "current_source_note": "knowledge/sources/postma-1959-ho166m-er166-polarization.md",
-  "next_action": "Koh 1994 doctoral thesis on nuclear orientation of I/Sm/Eu: title and hash verified; continue all scientific chapters.",
+  "completed_primary_pages_this_run": 7001,
+  "current_source_note": "knowledge/sources/koh-1994-iodine-xe-sm-eu-nuclear-orientation-thesis.md",
+  "next_action": "Griffiths 1989 Oxford thesis verified. Continue Br isomers, Se spectroscopy and source crosswalk.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Postma 706/817 keV P and mixing constraints, count ratios and overlap assumptions with parity evidence.",
-  "current_source_scientific_acceptance": "Postma 17/17 complete, article and one-page extract share identity. Original polarization and anisotropy methods recorded.",
-  "source_scoped_retrieval": "Full local published Postma PDF available; no reacquisition."
+  "last_source_manager_closure": "Koh iodine static/NMR distinction, Xe anisotropy and root table checks, and Sm/Eu shape-fit limitations.",
+  "current_source_scientific_acceptance": "Koh 185/189 scientific and bibliography pages. Preserve measured and inferred quantities separately.",
+  "source_scoped_retrieval": "Two ENSDF adopted-level PDFs and White 1998 registry metadata archived."
 }

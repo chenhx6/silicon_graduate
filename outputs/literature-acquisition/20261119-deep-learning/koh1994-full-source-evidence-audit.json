@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-11-20T15:23:21.873757+00:00",
+  "source": "knowledge/sources/koh-1994-iodine-xe-sm-eu-nuclear-orientation-thesis.md",
+  "primary_pdf_pages": 189,
+  "scientific_and_bibliographic_pages_covered": 185,
+  "excluded_pdf_pages": [
+    2,
+    4,
+    5,
+    189
+  ],
+  "scope": [
+    "PDF 1,3,6–41: identity, contents and orientation/decay tensors",
+    "PDF 42–113: hardware, calibration, counting, iodine data and references",
+    "PDF 114–188: collective and particle models, Sm/Eu, four appendices and references"
+  ],
+  "visual_checks": [
+    78,
+    79,
+    85,
+    108,
+    174
+  ],
+  "reader": "Codex",
+  "Gemini": {
+    "checked_at": "2026-11-20T15:10:03.232918+00:00",
+    "task_id": "KOH1994-EVIDENCE-01",
+    "requested_model": "agy-cli/gemini-3.8-flash",
+    "reasoning": "high",
+    "sent_pages": [
+      74,
+      77,
+      78,
+      79,
+      107,
+      108,
+      151,
+      152,
+      170,
+      173,
+      174
+    ],
+    "status": "error",
+    "error_type": "HTTPError",
+    "http_status": 502,
+    "access_disabled": true,
+    "upstream_403": true
+  },
+  "accepted_gemini_findings": 0,
+  "source_dependencies": {
+    "135I_adopted": "ENSDF 2008 PDF 1, cites White 1998Wh04 separately; full primary text unavailable.",
+    "133I_moment": "ENSDF 2010 PDF 1, 1961Al20; reference input in Koh.",
+    "SmEu": "Table 6.1 compiled models/measurements, not new Sm or Eu measurements."
+  },
+  "PDM_run": false
+}
