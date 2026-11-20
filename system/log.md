@@ -6558,3 +6558,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — Nambudripad 的 ¹⁶⁶Er 取向谱
 
 - 核查 δ/Eγ 的单位、污染、拟合双解及相位；待核八章的全证据范围。
+
+## 2026-11-20 — Nambudripad 整源与核取向来源链
+
+- 核读 268 页，保留磁化率与各向异性参照、温度条件、拟合误差口径和带混合的输入。累计 42 份、6799 页，续读 Postma 1959。

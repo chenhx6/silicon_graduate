@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-11-20T14:48:51.990646+00:00",
+  "source": "knowledge/sources/nambudripad-1980-ho-er-nuclear-orientation-thesis.md",
+  "primary_pdf_pages": 272,
+  "scientific_and_bibliographic_pages_covered": 268,
+  "excluded_pdf_pages": [
+    4,
+    5,
+    262,
+    272
+  ],
+  "scope": [
+    "PDF 1–3,6–85: identity, instrumentation, hyperfine Hamiltonian and tensors",
+    "PDF 86–188: RF, orientation, domains, thermometry and Ho magnetic moment",
+    "PDF 189–224: 166Er anisotropy, multipole mixing and band mixing",
+    "PDF 225–261,263–271: refrigeration, thermal contact and bibliography"
+  ],
+  "visual_checks": [
+    201,
+    234,
+    262,
+    272
+  ],
+  "comparison_metadata": "raw/papers/gpt/query/20261120-nambudripad-orientation-crosswalk/manifest.json",
+  "version_preservation": {
+    "thesis_magnetic_moment": [
+      3.6,
+      0.06
+    ],
+    "allsop_abstract_magnetic_moment": [
+      3.6,
+      0.05
+    ],
+    "unit": "nuclear magneton",
+    "lineage": "overlapping experiment, not an independent repeat"
+  },
+  "reader": "Codex",
+  "PDM_run": false
+}

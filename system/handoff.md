@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Nambudripad 整源与取向误差
+
+- [[nambudripad-1980-ho-er-nuclear-orientation-thesis]] 完成 268/272 页科研及书证核读。对上 Allsop 期刊摘要的 \(3.60(5)\,\mu_N\) 与学位的 \(3.60(6)\,\mu_N\)，保存取向张量、选支、薄弱热接触和 Mikhailov 比较的输入约束。
+- 累计 42 份、6799 页。按本轮的原始来源链续读 Postma、Miedema、Eversdijk Smulders 1959 的 ¹⁶⁶ᵐHo / ¹⁶⁶Er 研究。本地 17 页排印本与一页题页摘录已辨明，先核其 706/817 keV 的线偏振联合反演。
+
 ## 2026-11-20 — Nambudripad 的 ¹⁶⁶Er 核取向分析
 
 - [[nambudripad-1980-ho-er-nuclear-orientation-thesis]] 已核表 7.1 的 \(\delta/E_\gamma\) 单位和三个有限值的换算，保留 464.8 keV 小正根、谱峰污染及取向校准来源。仍需逐章核查 HoVO₄、磁矩、各向异性与带混合的完整逻辑。
