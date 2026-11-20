@@ -1,0 +1,43 @@
+{
+  "work_id": "doi:10.17638/02002600",
+  "source_note": "knowledge/sources/ali-2014-au177-recoil-tagging-thesis.md",
+  "auditor": "Codex",
+  "primary_pdf_pages": 115,
+  "primary_scientific_and_bibliographic_pages_covered": 112,
+  "covered_sections": [
+    "PDF 1, 3 and 6–36: identity, navigation, theory, evolution of shapes and decays",
+    "PDF 37–55: detectors, calibration, recoil and alpha correlations, DCO construction",
+    "PDF 56–86: 177Au campaign, tags, spectra, tentative multipolarities and four band structures",
+    "PDF 87–115: decay limits, shape and core-coupling interpretation, conversion and bibliography"
+  ],
+  "excluded_non_scientific_pages": [
+    2,
+    4,
+    5
+  ],
+  "scientific_coverage_complete": true,
+  "thesis_archive_manifest": "raw/theses/gpt/query/20261119-international-nuclear-structure/manifest-acquisition-batch1.json",
+  "comparison_archive_manifest": "raw/papers/gpt/query/20261120-ali-177au-tagging-crosswalk/manifest.json",
+  "comparison_coverage": "PRC 95 061302(R) PDF 1–5, PLB 806 135488 PDF 1–6 and EPJA 61 43 PDF 1–10 including White Rose cover. The 2017, 2020 and 2025 articles report similar 399 MeV settings for 177Au. Thesis reports 378 MeV and lacks event identifiers. Distinguish the 179Au and 179Hg settings and the 173Ir daughter decay.",
+  "key_visual_thesis_pages": [
+    55,
+    66,
+    72,
+    99,
+    103,
+    105
+  ],
+  "checks": {
+    "algebra": [
+      "Z(88Sr)+Z(92Mo)-Z(177Au)=1; A(88Sr)+A(92Mo)-A(177Au)=3. p2n is consistent.",
+      "290.2-264.5=25.7 keV under the parallel-branch assignment.",
+      "156.1-134.5=21.6 keV in the 173Ir decay scheme."
+    ]
+  },
+  "remaining": [
+    "DCO alone could not distinguish several tentative multipolarities, and no level-matched calibrated polarization was established.",
+    "The thesis band head is conditional on unobserved branches and intensity balance. The overlap of the 378 MeV thesis acquisition and 399 MeV publication data is unverified at event level.",
+    "The 173Ir 21.6-keV level is inferred from energy difference; its isomeric character remains conditional on the summing interpretation."
+  ],
+  "next_work": "doi:10.17638/00009255"
+}

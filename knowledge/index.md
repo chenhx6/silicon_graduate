@@ -48,6 +48,7 @@ updated: 2026-11-20
 - [[lotina-2020-kr-xe-ba-qoch-thesis]] — 轴向 RHB–QOCH、浅八极极小、零点修正与谱学约束。
 - [[watkins-2011-au175-pt174-pt175-rdds-thesis]] — 反冲标记 DDCM、侧馈条件和 Au/Pt 形状证据。
 - [[petts-2010-hg182-hg186-collectivity-thesis]] — Hg 寿命、库仑激发的寿命输入与内转换订正。
+- [[ali-2014-au177-recoil-tagging-thesis]] — ¹⁷⁷Au 的双 α 门、DCO 辨别范围与强耦合带支路。
 - [[hungerford-1979-ill-angular-correlation-164dy]] — U001 章节原件与角关联方法范围。
 - [[madiba-2008-190tl-dco-polarization-thesis]] — 首篇完整正文阅读：190Tl 实验链、门依赖、不对称度与指认边界；形式定义原始出处尚待核对。
 - [[li-2016-algebraic-collective-core-quasiparticle-thesis]] — 软/刚核芯与准粒子耦合、135Pr及109Pd比较、ACM实现与原件公式边界；不新增独立实验。

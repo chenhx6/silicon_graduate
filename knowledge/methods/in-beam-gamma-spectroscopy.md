@@ -24,6 +24,8 @@ tags: [in-beam-spectroscopy, fusion-evaporation, gamma-rays, high-spin]
 
 常与 [[gamma-gamma-coincidence]]、multiplicity filtering、角关联、偏振和寿命方法组合。[[de-voigt-dudek-szymanski-1983-high-spin-phenomena]] 的 pp.950-951 与 pp.1015-1017 提供历史性实验背景；现代结论应使用对应实验论文的具体设置。
 
+[[ali-2014-au177-recoil-tagging-thesis]] 用两条特征 α 线分别标记通向基态与异能态的谱带退激，同时以重复植入修正同像素时间分布。用两类门的谱作路径比较时，应保留峰重叠、时间窗与低能线探测效率。两条平行支路可以用精确能量差约束未直接看到的能级间隔。见学位 PDF 61–84、87–93 和 PLB PDF 4–5。
+
 ## What It Can Establish
 
 可建立 γ 级联、能级放置、相对强度，并在组合多极性和寿命测量后约束自旋宇称及带结构。

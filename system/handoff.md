@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Ali 的反冲衰变标记与 ¹⁷⁷Au 谱系
+
+- [[ali-2014-au177-recoil-tagging-thesis]] 核完 112/115 页。记录学位所印蒸发道与期刊 \(p2n\) 的电荷守恒、378/399 MeV 的束能差和采集谱系边界。核对 α 门、DCO 重叠、228 keV 内转换以及 25.7 keV 母核和 21.6 keV 子核候选能级。三份期刊原件已归档。
+- 累计 29 份、4886 页。续读 Liam Paul Gaffney 2012 的 ²²⁰Rn、²²⁴Ra 八极集体性博士论文。122 页 CERN 原件身份与哈希已核。
+
 ## 2026-11-20 — Petts 汞核寿命与库仑激发
 
 - [[petts-2010-hg182-hg186-collectivity-thesis]] 核完 178/191 页。对照 Grahn 2009 同一 RDDS 数据、Bree 2014 与 Wrzosek-Lipska 2019 的 REX–ISOLDE 分析。2019 表 1 给出 2008 年同镉靶采集范围，并订正内转换及分支输入。按版本保存受 GOSIA 约束的结果和省列的对角元。
