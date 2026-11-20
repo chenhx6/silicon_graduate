@@ -1,0 +1,182 @@
+{
+  "recorded_at": "2026-11-20T00:10:24.918450+00:00",
+  "batch_pages": [
+    692,
+    723
+  ],
+  "batch_page_count": 32,
+  "book_all_known_pages": [
+    "1-723"
+  ],
+  "book_covered_pages": 723,
+  "bibliographic_pages": [
+    "1-17",
+    "521"
+  ],
+  "book_completion": false,
+  "responses": [
+    {
+      "id": "NC79-MACY-BOREHOLE",
+      "covered": [
+        692,
+        694
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "b09dbe8d9147c571f70192c390fbe39c00edd3226b219284395a178fdb869d75"
+    },
+    {
+      "id": "NC79-MITCHELL-PHASE",
+      "covered": [
+        695,
+        697
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "230f0bb1056e162396704e9a042087d66b93953d0422b89fabb05ca8d86932a4"
+    },
+    {
+      "id": "NC79-MIZUMOTO-PB207",
+      "covered": [
+        698,
+        699
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "3f5a570d6d6ba99b39b4f87e3a9694bb08a57e714b61669251b6ac29747d5b08"
+    },
+    {
+      "id": "NC79-NATH-O16",
+      "covered": [
+        700,
+        702
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "66e8a72417e60805c69a09603695b1650c5ec0a277d173e1caedc98e7e2da97d"
+    },
+    {
+      "id": "NC79-NILSSON-SI29",
+      "covered": [
+        703,
+        705
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "dd86778e1a6b8c4325efc6f7594b4ed3416cd0b1b9fe653be6fdc67ee0d23afb"
+    },
+    {
+      "id": "NC79-ORR-AG108",
+      "covered": [
+        706,
+        708
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "dd6f6d37ddd75efb82a29dda77b30836fa7afcf714dd754fb65298c737eed696"
+    },
+    {
+      "id": "NC79-PECEQUILO-SUAREZ",
+      "covered": [
+        709,
+        712
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "a5351cd4e2c696b13882910176f71f128399ffa95935d86b5b4b37f2703e6258"
+    },
+    {
+      "id": "NC79-PEKER-ANOMALOUS-M1",
+      "covered": [
+        713,
+        715
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "d950af61bbd37655b9a69569c195f5f0fe10526b461a22b6065674bbd02503d6"
+    },
+    {
+      "id": "NC79-PEKER-HG-TRIAXIAL",
+      "covered": [
+        716,
+        718
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "954a480ffd15995ef72ab160ce4a607147fd2dc0ffe5bf3cba65f6355c340312"
+    },
+    {
+      "id": "NC79-PEKER-CD-COLLECTIVITY",
+      "covered": [
+        719,
+        720
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "55dc69c53cee2d3debfea53d6c891bb568466dee97ccc989d49b1f5093ef93d7"
+    },
+    {
+      "id": "NC79-PONOMAREV-TE126",
+      "covered": [
+        721,
+        723
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "f313de923c1192c74198a66eca722d598203fc7d20aad784ee8a31d665321df2"
+    }
+  ],
+  "chapter_sources": [
+    "knowledge/sources/mikesell-senftle-macy-1979-borehole-gamma-counting.md",
+    "knowledge/sources/mitchell-dittrich-bilpuch-1979-common-doorway-phase.md",
+    "knowledge/sources/mizumoto-et-al-1979-pb207-enhanced-m1.md",
+    "knowledge/sources/nath-firk-chiu-1979-o16-photoneutron-polarization.md",
+    "knowledge/sources/nilsson-et-al-1979-si29-capture-doorway.md",
+    "knowledge/sources/orr-kane-smith-1979-ag108-resonance-structure.md",
+    "knowledge/sources/pecequilo-suarez-1979-historical-capture-spectra.md",
+    "knowledge/sources/peker-chrien-1979-anomalous-m1-doorways.md",
+    "knowledge/sources/peker-hamilton-1979-hg-triaxial-shape-evidence.md",
+    "knowledge/sources/peker-hamilton-1979-cd-low-lying-collectivity.md",
+    "knowledge/sources/ponomarev-et-al-1979-te126-m1-strength.md"
+  ],
+  "verified_pages_and_checks": [
+    "Mikesell 等 1979：井下俘获 γ 计数的约束: PDF 692–694：模拟井孔中分别比较特征峰计数、谱积分计数及快中子对探测器的影响。能窗定义和实验介质随应用限定。 | PDF 694 / 图：计数率和探测器损伤可能分别成为限制，历史模型的经验曲线随材料和几何变化。",
+    "Mitchell 等 1979：门态振幅的相对符号: PDF 695–696：在指定的自旋与出射轨道条件下，粒子和 γ 的角分布合起来限制非弹性道自旋振幅比的大小和符号。这一 $\\delta$ 是反应通道混合。 | PDF 697：15 个同位旋类似态共振中，作者报告两个道振幅的相关为 +0.93，相应约化宽度相关为 +0.72。相对符号关系用于检验隔离的公共门态。",
+    "Mizumoto 等 1979：铅-207 初级 M1 分宽度: PDF 698–699 / Table 1：在富集铅-206 的共振俘获谱中，用中子透射和总俘获数据辅助归一初级 γ 分宽度。入口及末态的自旋宇称限定多极判别。 | PDF 699：强调部分强初级 M1 线的历史增强。个别分支和总强度函数的口径不同，未见分支也受灵敏度限制。",
+    "Nath 等 1979：氧-16 光中子的出射极化: PDF 700–702 / Fig. 1：观测对象是通向 $^{15}$O 基态的出射光中子，作者从散射左右不对称得到不同角度的中子极化。 | PDF 701–702：极化曲线限制光核反应振幅的相对大小和相位。其物理对象和在束 γ 线偏振不同，原章数据不进入 P–δ 表。",
+    "Nilsson 等 1979：硅-29 快俘获结构与门态候选: PDF 703–705 / Fig. 1：基态及第一激发态的分俘获产额随入射能显著变化，图上相对误差与探测效率造成的绝对尺度误差有不同定义。 | PDF 705：作者用共振宽度和计算解释为门态候选。计算与数据对部分结构的位置及细节仍有差别。",
+    "Orr 等 1979：银-108 共振入口与低能态指认: PDF 706–707：$^{107}$Ag 的 16.3 eV 俘获共振按 $0^-$ 入口讨论 13 条初级线，绝对归一继承衰变参照线，能量继承采用的分离能及内部刻度。 | PDF 707–708：共振与热俘获布居对比为低能自旋宇称和组态提供约束。近邻共振和共享归一的影响与 [[massoumi-schreckenbach-macmahon-1979-ag108-conversion]] 的转换系数证据分开。",
+    "Pecequilo 与 Suarez 1979：历史俘获谱的校准与谱线归属: PDF 709–712 / Fig. 2：章文用参照谱线响应与校准曲线讨论样品元素信号，曲线仅对应作者的测量条件。 | PDF 710–712：保留历史元素谱证据、近线或本底干扰和检出条件。样品矩阵改变后需独立验证谱响应。",
+    "Peker 与 Chrien 1979：异常 M1 强度的门态解释: PDF 713–715 / Tables 1–2：以已有 $^{36}$Cl 和 $^{57}$Fe 的初级线强度比较 M1/E1 与布居。入口自旋、核素和终态需分别读取。 | PDF 714–715：作者用简单组态与门态解释部分较强或相关的线。强度相关可以检验模型，尚不能独立辨识唯一结构。",
+    "Peker 与 Hamilton 1979：偶 A 汞的三轴形状候选: PDF 716–718 / Figs. 1–2：作者把若干能量及 E2 强度比的系统学变化与刚性三轴模型作定性比较，保留图中指标和中子数区间。 | PDF 718：在采用偶汞基态偏扁的条件下，作者由定性比较推测 $N=116$–118 之间的 $\\gamma$ 接近 30°，随后再增大。这是模型解释，原章也讨论锇等链的另一种形变演化。",
+    "Peker 与 Hamilton 1979：镉的低位集体态检验: PDF 719–720：采用既有 $^{112,114}$Cd 跃迁资料比较候选 $0^+$ 态到两个 $2^+$ 态的相对 B(E2)。高低两能态间的弱分支影响大比值。 | PDF 720：作者认为大比值与简单球形振子预期差异明显，并列 γ 不稳定模型和 IBM 的 O(6) 极限为可能解释。原始比值、误差和支路需回引文确认。",
+    "Ponomarev 等 1979：碲-126 的 M1 强度函数计算: PDF 721–723 / 图：在准粒子－声子框架下计算 $^{126}$Te 的 M1 强度，并区分从基态的激发强度和从较高初态的退激强度。 | PDF 723：章文讨论分离能附近的增强及低能区的差别。依赖计算空间、宽化与统计定义，数值属于模型输出。"
+  ],
+  "next_batch": {
+    "pages": [
+      724,
+      758
+    ],
+    "units": [
+      "NC79-PROKOFJEV-EU154",
+      "NC79-RAMAN-NI59",
+      "NC79-ROBERSON-CA40",
+      "NC79-ROHR-WIDTH-STATISTICS",
+      "NC79-SAKAMOTO-FE57",
+      "NC79-SAPORETTI-CE140",
+      "NC79-SCOTT-BA142",
+      "NC79-SHAHAL-N15",
+      "NC79-SIMIC-EU152",
+      "NC79-SIMON-TM169",
+      "NC79-SMITH-PD109"
+    ]
+  },
+  "carried_forward": {
+    "pages": [
+      633,
+      635
+    ],
+    "source_note": "knowledge/sources/hungerford-1979-ill-angular-correlation-164dy.md",
+    "new_api_requests": 0
+  }
+}

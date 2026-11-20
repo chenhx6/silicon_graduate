@@ -299,6 +299,14 @@ selected transitions. The thermal results in
 filters and energy windows in [[kenny-stelts-chrien-1979-zr-filtered-capture]].
 Continuous volume coverage reaches 691 pages.
 
+PDF 692–723 adds eleven contributions. The $\delta$ symbol in
+[[mitchell-dittrich-bilpuch-1979-common-doorway-phase]] describes reaction
+channel spin mixing. [[nath-firk-chiu-1979-o16-photoneutron-polarization]]
+measures outgoing neutron polarization. The historical
+[[peker-hamilton-1979-hg-triaxial-shape-evidence|Hg shape inference]] and
+[[peker-hamilton-1979-cd-low-lying-collectivity|Cd collective-state comparison]]
+are kept with their model and input data conditions. Coverage reaches 723/874.
+
 ## Final acquisition closure and learning design
 
 The user has closed further acquisition and requested an in-depth learning

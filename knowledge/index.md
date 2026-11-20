@@ -114,6 +114,17 @@ updated: 2026-11-20
 - [[massoumi-schreckenbach-macmahon-1979-ag108-conversion]] — 内转换多极性与转移反应宇称冲突。
 - [[mccullagh-chrien-1979-photon-strength-survey]] — 跨反应的光子强度统计及失配。
 - [[micklinghoff-castel-1979-fast-capture-doorways]] — 快俘获门态的相干振幅模型。
+- [[mikesell-senftle-macy-1979-borehole-gamma-counting]] — 历史俘获 γ 计数的背景和响应限制。
+- [[mitchell-dittrich-bilpuch-1979-common-doorway-phase]] — 公共门态的有符号振幅与约化宽度。
+- [[mizumoto-et-al-1979-pb207-enhanced-m1]] — 初级 M1 分宽度和共用归一。
+- [[nath-firk-chiu-1979-o16-photoneutron-polarization]] — 光中子出射极化的角依赖。
+- [[nilsson-et-al-1979-si29-capture-doorway]] — 快俘获结构及门态候选。
+- [[orr-kane-smith-1979-ag108-resonance-structure]] — 银-108 共振入口与低能态指认。
+- [[pecequilo-suarez-1979-historical-capture-spectra]] — 历史样品俘获谱的校准与本底。
+- [[peker-chrien-1979-anomalous-m1-doorways]] — 异常 M1 的组态及反应解释。
+- [[peker-hamilton-1979-hg-triaxial-shape-evidence]] — 汞的 E2 系统学及刚性三轴候选。
+- [[peker-hamilton-1979-cd-low-lying-collectivity]] — 镉的支路强度比与振动模型限制。
+- [[ponomarev-et-al-1979-te126-m1-strength]] — 碲-126 的 M1 激发与退激强度。
 
 ## A130前置正文重写：样节与一致性
 
