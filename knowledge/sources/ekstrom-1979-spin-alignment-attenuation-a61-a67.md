@@ -154,3 +154,9 @@ The raw PDF uniquely matches the title, journal, year and DOI. Local file size i
 [实际39行输入](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/ekstrom1979-table1-contract.json)、[计算结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/ekstrom1979-table1-result.json)及script `system/scripts/day17_ekstrom1979_table_audit.py`。原modelerror大小/残差采用论文quadrature只是replay，未证实际实验各项独立；其中共source/共parent与rank2/4Σ缺口保持。新纯E2CG是自设completealignment的组件核，不重测各line。
 
 与[[feeding-time-alignment-joint-response]]、[[linear-polarization-asymmetry]]及[[doppler-shift-attenuation-method]]相连：独立alignmentreference需要sameparent/reaction/gate和response。由本篇原实验汇编加强其必要性，不能用经验误差/modifiedGaussian替原jointinput。
+
+### ⁶¹Ni 数据谱系
+
+表 1 的 14 条 ⁶¹Ni 记录中，7 条标 Ref. 7，即 [[wadsworth-1977-61ni-levels]]，2 条标 Wadsworth 私人通信 Ref. 8，5 条标 Wadsworth 同组另一篇 *J. Phys. G* **3**, 833（1977），Ref. 9。同一能级或跃迁可在不同束能和文献中出现，不能按表行计独立实验。表 1 的 1.02→0 MeV 行也属于这次作为取向探针的纯 E2 近似，来源表 3 的实测中心为 \(\delta=+0.03(3)\)。其作为纯 E2 探针是本汇编的选择，对应近似在重用时应保留。
+
+1977 年原文的高斯型布居用于共同极小化 \(\delta\) 和取向变量。1979 年式 5 明确写出带负号和 \(\lvert m\rvert\) 的广义布居族。两处按原文分别引用。1979 年 Fig. 6 用已知多极性的角分布检验布居族，式 6 给统计模型的 \(\alpha_2\) 预测误差，皆不产生新的混合比或在束宽度测量。

@@ -108,6 +108,8 @@ Chiara 2012 is the most direct spectroscopy example: a working `sigma/I` value i
 
 ## Supplemental Core Evidence
 
+⁶¹Ni 的两项早期独立实验已在原文层复核。[[williams-1975-61ni-low-lying-levels]] §§2.2–2.3 对 n–γ 角关联固定 \(m=\pm1/2\)，同篇的 singles 角分布和极化用统计模型限制允许的子态布居。[[wadsworth-1977-61ni-levels]] §2 把统计取向、角分布、线偏振纳入残差平方和，共同极小化 \(\delta\) 与取向参数。这些是不同的取向处理实例，可用于说明历史方法多样性。要论证某种处理在特定文献总体里常见，还需定义研究总体并按独立实验和实际分析逐项统计。
+
 Ekstrom 1979 strengthens the older alignment-limitation evidence chain from a complementary direction. Instead of starting from a fit ambiguity alone, it compiles pure-E2 data into `alpha2/alpha4`, tests CNR/MANDY alignment estimates against experiment, gives an explicit uncertainty prescription for those estimates, and warns that too-small alignment errors can lead to faulty spin/parity or mixing-ratio assignments.
 
 Ionescu 1981 then shows what to do when a global Gaussian substate-population model fails in a carefully measured case. It uses pure-E2 transitions and their `rho2/rho4` behavior to test the Gaussian hypothesis, finds it inadequate for `167Tm`, and replaces it with a model that keeps Gaussian side feeding but adds discrete direct gamma-feeding contributions explicitly before fitting mixed transitions.

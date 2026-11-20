@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Ekstrøm 的取向衰减与 ⁶¹Ni 数据谱系
+
+- [[ekstrom-1979-spin-alignment-attenuation-a61-a67]] 完成 6 页对账。14 条 ⁶¹Ni 角分布行按表 1 的 Ref. 7/8/9 分为 7/2/5 条。式 5 的布居形状与式 6 的 \(\alpha_2\) 模型误差分别建立定位，相关实际分析方法写回 \(\sigma/I\) 项目页。
+- 累计 60 份、7590 页。续读 Meyer 1978 的 ⁶¹Cu、⁶⁷Cu 和 ⁶⁷Ga 衰变。本地 10 页出版 PDF 的题页和 SHA 已核。
+
 ## 2026-11-21 — Wadsworth 等的 ⁶¹Ni 联合极小化
 
 - [[wadsworth-1977-61ni-levels]] 完成 19 页对账。按原表对照 Williams 的六条支路，保留 908→67 的 \(\delta\) 差异、不同装置和寿命口径。方法段明确共同极小化 \(\delta\) 与取向参数，原文高斯型布居的印式及最终参数缺口继续保留。

@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-11-20T17:41:15.393905+00:00",
+  "source": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+  "raw_file": "raw/papers/1979_Ekström et al_Spin-alignment attenuation factors in mass 61–67 nuclei populated by (α, n) and (α, p) reactions.pdf",
+  "raw_sha256": "85d1b5a34247c74ff2f0ff5b8c96bebdc018bb4f164cdb66192ebfef8149119a",
+  "primary_pdf_pages": 6,
+  "scientific_and_bibliographic_pages_covered": 6,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–2: aim, alpha definitions, pure E2 selection and Table 1 data lineage",
+    "PDF 3–4: reactions and MANDY normalization, optical sensitivity, threshold-group residuals",
+    "PDF 5–6: feeding and Figure 6, Eq. 5 and Eq. 6, references"
+  ],
+  "visual_checks": [
+    2,
+    5,
+    6
+  ],
+  "evidence_gaps": [
+    "The data are a compilation of Liverpool angle distributions, and rows with poor alignment constraints were excluded.",
+    "Seven of 14 Ni61 rows directly reuse Wadsworth J. Phys. G 3, 35. Two cite private communication and five the separate J. Phys. G 3, 833 paper. No fresh delta or linear polarization.",
+    "Alpha_2 prediction error is not a sigma/I prior or universal population uncertainty. The 20% feed example is a calculation."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

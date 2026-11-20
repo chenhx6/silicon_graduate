@@ -6630,3 +6630,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Wadsworth 等的 ⁶¹Ni 联合极小化
 
 - 核对 19 页，保留联合取向分析的原文条件、统计拟合式边界与 Williams 逐支路对照。累计 59 份、7584 页，续读 Ekstrøm 等。
+
+## 2026-11-21 — Ekstrøm 等的取向数据谱系
+
+- 核对 6 页，按 Ref. 7/8/9 标记 ⁶¹Ni 的角分布依赖。累计 60 份、7590 页，续读 Meyer 等。
