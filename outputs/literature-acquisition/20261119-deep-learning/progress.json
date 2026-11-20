@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "bytes:b381accc0b9f011f34f18f56dbb2b00de79c01667b32bedd770b9b65a42fdd09",
+  "active_source": "doi:10.17638/00003517",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 25,
+  "completed_full_sources_this_run": 26,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T10:30:00.528644+00:00",
+  "updated_at": "2026-11-20T10:40:30.736036+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 4419,
-  "current_source_note": "knowledge/sources/jodidar-2024-la120-cs117-i114-thesis.md",
-  "next_action": "Lotina 2020: microscopic shape and collective-excitation evidence, framework and applicability.",
+  "completed_primary_pages_this_run": 4494,
+  "current_source_note": "knowledge/sources/lotina-2020-kr-xe-ba-qoch-thesis.md",
+  "next_action": "Watkins 2011: recoil-tagged lifetimes and structure in 175Au, 174Pt and 175Pt.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Jodidar 150/160 primary scientific and bibliographic pages and three published-version comparisons with campaign attribution.",
-  "current_source_scientific_acceptance": "Jodidar complete at scientific/bibliographic scope. Lotina title and original SHA verified.",
-  "source_scoped_retrieval": "Three Jodidar versions of record archived and compared."
+  "last_source_manager_closure": "Lotina 75/76 primary pages and associated PRC crosswalk verified.",
+  "current_source_scientific_acceptance": "Lotina complete at scientific/bibliographic scope. Watkins archive identity and SHA verified.",
+  "source_scoped_retrieval": "APS PRC 103 054301 archived for the Lotina comparison."
 }

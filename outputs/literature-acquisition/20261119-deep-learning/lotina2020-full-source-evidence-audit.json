@@ -1,0 +1,36 @@
+{
+  "work_id": "bytes:b381accc0b9f011f34f18f56dbb2b00de79c01667b32bedd770b9b65a42fdd09",
+  "source_note": "knowledge/sources/lotina-2020-kr-xe-ba-qoch-thesis.md",
+  "auditor": "Codex",
+  "primary_pdf_pages": 76,
+  "primary_scientific_and_bibliographic_pages_covered": 75,
+  "covered_sections": [
+    "PDF 1–4, 6–13: identity, abstract, scope and physical motivation",
+    "PDF 14–28: deformation coordinates, RHB, DD-PC1 and axial QOCH",
+    "PDF 29–55: potential surfaces, binding and deformation energies, basis stabilization, spectra and E1/E2/E3 strengths",
+    "PDF 56–76: cylindrical RHB basis, extended Croatian summary and bibliography"
+  ],
+  "excluded_non_scientific_pages": [
+    5
+  ],
+  "scientific_coverage_complete": true,
+  "thesis_archive_manifest": "raw/theses/gpt/query/20261119-international-nuclear-structure/manifest-user-recheck.json",
+  "comparison_archive_manifest": "raw/papers/gpt/query/20261120-lotina-qoch-crosswalk/manifest.json",
+  "comparison_coverage": "APS version of record PRC 103 054301, PDF 1–13. Overlapping physics framework and authorship with different isotope selection and printed ZPE equations. Experimental comparison points have separate sources.",
+  "key_visual_pages": {
+    "thesis": [
+      34,
+      39,
+      42
+    ],
+    "publication": [
+      4
+    ]
+  },
+  "remaining": [
+    "The thesis printed sign of E_oct conflicts with the positive text and plot. Preserve magnitudes as energy lowering at matched beta2.",
+    "The publication and thesis use different printed ZPE formulas. Code, mass-tensor normalization and identical numerical setup have not been established.",
+    "The axial model and 0.05 PES spacing leave shallow minima and triaxial mixing unsettled. Ba measured B(E3) values are retained with source uncertainty and transition direction."
+  ],
+  "next_work": "doi:10.17638/00003517"
+}

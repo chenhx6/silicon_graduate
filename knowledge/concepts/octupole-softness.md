@@ -35,6 +35,8 @@ Liu 2016 的 MDC-CDFT Fig.6 对 `78Br` 给出沿 `beta30` 很软的 PES。
 
 [[li-2024-144ba-octupole-cdf-3d-lattice]] shows that the `144Ba` PC-PK1 PES around `(β20,β30)=(0.22,0.13)` is relatively soft and lies within `<1 MeV` of a reflection-symmetric point. The nonzero minimum and the softness must be reported separately.
 
+[[lotina-2020-kr-xe-ba-qoch-thesis]] 的轴向 DD-PC1 势能面在 ⁷⁶Kr 和 ¹⁴²Xe 分别给约 3.7 和 31.6 keV 的八极能量降低，\(\lvert\beta_3\rvert=0.05\) 恰为一个网格步长。该量比较相同 \(\beta_2\) 的两个点。判断形状稳定性还需检验网格、集体波函数与跃迁数据。见学位 PDF 29、34、39 和相关 PRC PDF 6、9、11。
+
 [[butler-nazarewicz-1996-intrinsic-reflection-asymmetry]] reviews parity-restored/GCM and vibrational descriptions, reinforcing that a soft PES or low-lying `3−` state does not alone establish a rigid static octupole minimum.
 
 Day 21 Checkpoint 006 证据门量化审计（[[experimental-claim-boundaries]]，基于 `octupole-ba-audit-006.json`）系统确立 $^{144,146}\text{Ba}$ 的八极柔软物理图像：微观泛函计算表明其沿 $\beta_3$ 势垒仅 $<0.5-1.0\text{ MeV}$，显著小于单声子零点振动能（$E_{\text{ZPE}} = \frac{1}{2}\hbar \omega_3 \sim 1.0-1.5\text{ MeV}$）；基态波函数广泛弥散于 $\pm \beta_3$ 之间，零点涨落产生 $\sqrt{\langle \beta_3^2 \rangle} \approx 0.17$ 与增强跃迁几率 $B(E3) \approx 48\text{ W.u.}$。低自旋宇称劈裂高达 $\Delta E(1^-) \sim 650\text{ keV}$ 直接反映八极声子振动偏移，与 $^{224}\text{Ra}$ 的刚性转子劈裂（$174\text{ keV} \to 0$）形成鲜明对照。

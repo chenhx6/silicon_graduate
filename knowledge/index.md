@@ -45,6 +45,7 @@ updated: 2026-11-20
 - [[valbuena-2020-ru98-beta-decay-thesis]] — ⁹⁸Ru 的弱分支、两中子转移自旋与形状解释。
 - [[rother-2011-fe62-fe64-fe66-rdds-thesis]] — 快束 RDDS 的减速片再激发、寿命误差与 ⁶²,⁶⁴,⁶⁶Fe 集体性。
 - [[jodidar-2024-la120-cs117-i114-thesis]] — JUROGAM 3 + MARA 的归属证据、¹¹⁷Cs 的混合比边界与 ¹¹⁴I 的异能态。
+- [[lotina-2020-kr-xe-ba-qoch-thesis]] — 轴向 RHB–QOCH、浅八极极小、零点修正与谱学约束。
 - [[hungerford-1979-ill-angular-correlation-164dy]] — U001 章节原件与角关联方法范围。
 - [[madiba-2008-190tl-dco-polarization-thesis]] — 首篇完整正文阅读：190Tl 实验链、门依赖、不对称度与指认边界；形式定义原始出处尚待核对。
 - [[li-2016-algebraic-collective-core-quasiparticle-thesis]] — 软/刚核芯与准粒子耦合、135Pr及109Pd比较、ACM实现与原件公式边界；不新增独立实验。

@@ -6482,3 +6482,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — Jodidar ¹²⁰La、¹¹⁷Cs、¹¹⁴I
 
 - 核验学位论文 150 页及三个期刊出版版对应证据。区分 255/275 MeV 数据、角分布 \(\delta=0\) 对照、¹¹⁷Cs 内转换示例及 ¹¹⁴I 的符合时间尺度。累计 25 份、4419 页，续读 Lotina。
+
+## 2026-11-20 — Lotina RHB–QOCH
+
+- 核验论文 75 页和对应期刊的轴向势能面、波函数及零点修正式。记录浅极小的网格尺度，按绝对降低量保留 \(E_{\rm oct}\) 正值。累计 26 份、4494 页，续读 Watkins。
