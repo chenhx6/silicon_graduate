@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Morse 的 ⁷⁰As 与 ⁷⁴Rb 寿命
+
+- [[morse-2015-as70-rb74-lifetime-thesis]] 核读 177 页。保留 ⁷⁰As 单谱双极小、符合门以及两寿命的依赖，并对上 ⁷⁴Rb 学位与期刊的三箔测量。⁷⁰As 期刊为摘要范围，⁷⁴Rb 已归档出版版。
+- 累计 41 份、6531 页。续接 Narayanan Nambudripad 的 *Some Applications of Nuclear Orientation*（Oxford，1980 年 10 月，272 页），`W607040476.pdf` 的题页、摘要及 SHA 已核。
+
 ## 2026-11-20 — DeGraaf 的 ¹¹⁴,¹¹⁶Xe 寿命与科隆复测
 
 - [[degraaf-1997-xe114-xe116-lifetime-thesis]] 核读 140 页，保留 ¹¹⁴Xe \(3^-\) 的下游馈入约束、¹¹⁶Xe 独立符合复测及 \(7^-\) 强度的旧分支依赖。1998 年期刊和 1999 年勘误本次取得书目，尚未核定勘误正文。

@@ -60,6 +60,7 @@ updated: 2026-11-20
 - [[radich-2015-124xe-124cs-decay-thesis]] — ¹²⁴Xe 弱 E2 分支以及 ¹²⁴Cs 异能态退激的版本差异。
 - [[stefanescu-2004-a69-euroball-thesis]] — ⁶⁹Se 共同取向标定、混合比双根和 ⁶⁹As 高旋组态。
 - [[degraaf-1997-xe114-xe116-lifetime-thesis]] — Xe 减速箔单谱寿命、侧馈限制和独立符合复测。
+- [[morse-2015-as70-rb74-lifetime-thesis]] — ⁷⁰As 符合谱形的双极小及 ⁷⁴Rb 三箔寿命。
 - [[hungerford-1979-ill-angular-correlation-164dy]] — U001 章节原件与角关联方法范围。
 - [[madiba-2008-190tl-dco-polarization-thesis]] — 首篇完整正文阅读：190Tl 实验链、门依赖、不对称度与指认边界；形式定义原始出处尚待核对。
 - [[li-2016-algebraic-collective-core-quasiparticle-thesis]] — 软/刚核芯与准粒子耦合、135Pr及109Pd比较、ACM实现与原件公式边界；不新增独立实验。

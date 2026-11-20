@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-11-20T14:20:41.201080+00:00",
+  "source": "knowledge/sources/morse-2015-as70-rb74-lifetime-thesis.md",
+  "primary_pdf_pages": 181,
+  "scientific_and_bibliographic_pages_covered": 177,
+  "excluded_pdf_pages": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "covered_sections": [
+    "PDF 1–2,7–64: identity, motivation and lifetime methods",
+    "PDF 65–138: apparatus and 70As Geant4 coincidence lineshape",
+    "PDF 139–181: 74Rb DRDDS, 74Kr control, conclusions and references"
+  ],
+  "visual_checks": [
+    133,
+    155,
+    163
+  ],
+  "publication_lineage": {
+    "10.1103/PhysRevC.90.034310": "shared 70As acquisition, article abstract and metadata only",
+    "10.1016/j.physletb.2018.10.064": "shared 74Rb DRDDS acquisition, full version of record"
+  },
+  "thesis_tau_ps": {
+    "70As_8plus": [
+      80,
+      29
+    ],
+    "70As_9plus": [
+      85,
+      43
+    ],
+    "74Rb_2plus": [
+      26.7,
+      6.0
+    ]
+  },
+  "conditional_exact_derivation": {
+    "finite_difference_in_flight_times": 3,
+    "pure_exponential_in_flight_times": 3.476059496782207,
+    "limit": "No feeding, constant speed in one reference frame, matched acceptance. Not a correction to the Geant4 fit."
+  },
+  "reader": "Codex",
+  "PDM_run": false
+}

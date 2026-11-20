@@ -6550,3 +6550,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — DeGraaf 的 Xe 反冲距离寿命
 
 - 核读 140 页，结合独立科隆原件和 ENSDF 分开记录寿命、分支与拟合条件。期刊勘误仍缺正文。累计 40 份、6354 页，续接 Morse。
+
+## 2026-11-20 — Morse 的 ⁷⁰As 和 ⁷⁴Rb
+
+- 核读 177 页，核对单谱与符合谱形的双解问题，以及三箔分析的馈入、有限步长和版本边界。累计 41 份、6531 页，续接 Nambudripad 的核取向论文。
