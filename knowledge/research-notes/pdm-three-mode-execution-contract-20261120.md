@@ -40,9 +40,9 @@ GUI名称PDM，模式标识P_ADO/P_DCO/PDCO。新代码分为 `raw/code/PDM/anal
 
 核心使用xi(rad)、sigma。xi的网格、三角函数、差分、输出及默认图轴均为rad；探测器角度另标deg，在几何入口转换。对外分析/图轴标为sigma/I，去掉ref和dimensionless；内部I_ref仍记录共同Gaussian参考态，不因目标位于下游而改变身份。对外角轴写arctan(delta)，刻度使用0、正负pi/8、pi/4、3pi/8，内部仍按rad计算。此显示改造属于当前待实施合同，不是0.1.0已有行为。
 
-固定I_ref时，s=sigma/I_ref，f(xi,s)=I_ref*f(xi,I_ref*s)，p_s(s)=I_ref*p_sigma(I_ref*s)；delta边缘由p_delta=p_xi(arctan(delta))/(1+delta^2)转换。不得只换轴标签。当前用户选定的报告约定是在arctan(delta) PDF上计算68%HDI、ETI、mode和mean/std，再将mode、分位数和各段端点逐项tan转换来报告delta；不要求先对delta PDF重算HDI。sigma/I直接评估。README注明这是物理混合角口径；HDI可能不连续，不能跨低密度间隙填色。Mean使用PDF加权积分，tan(angle mean)不标作直接delta期望；mean±std不赋予68%覆盖意义，越域或越tan奇点须显式标识。
+固定I_ref时，s=sigma/I_ref，f(xi,s)=I_ref*f(xi,I_ref*s)，p_s(s)=I_ref*p_sigma(I_ref*s)；delta边缘由p_delta=p_xi(arctan(delta))/(1+delta^2)转换。不得只换轴标签。当前用户选定的报告约定是在arctan(delta) PDF上计算68%HDI、ETI、mode和mean/std，再将每个HDI区间内PDF最高点的横坐标mode、分位数和各段端点逐项tan转换来报告delta；不要求先对delta PDF重算HDI。sigma/I直接评估。README注明这是物理混合角口径；HDI可能不连续，不能跨低密度间隙填色。Mean使用PDF加权积分，tan(angle mean)不标作直接delta期望；mean±std不赋予68%覆盖意义，越域或越tan奇点须显式标识。
 
-结果统计和四联图从内存快照产生，不等待完整CSV导出。新显示目标：图1为所有有效响应点所在完整R_ADO/R_DCO-P观测域，按观测密度着色并叠加输入点和误差棒；图2为arctan(delta)-sigma/I密度；图3为arctan(delta)边缘，图4为sigma/I边缘。C/D各画橙色CDF16/50/84三线，合用图例68% ETI (16%, 50%, 84%)；灰色mean和mean±std三线默认常显，无开关；HDI蓝色仍填0到PDF，另画y=h阈值水平线。图下显示delta和sigma/I的HDI/ETI/Mean-based三类数值，支持滚动、平移、缩放和单图/整图保存。计算完成和保存完成分别显示，写盘失败不抹掉可用预览。
+结果统计和四联图从内存快照产生，不等待完整CSV导出。新显示目标：图1为所有有效响应点所在完整R_ADO/R_DCO-P观测域，按观测密度着色并叠加输入点和误差棒；图2为arctan(delta)-sigma/I密度；图3为arctan(delta)边缘，图4为sigma/I边缘。C/D各画橙色CDF16/50/84三线，合用图例68% ETI (16%, 50%, 84%)；灰色mean和mean±std三线默认常显，无开关；每个HDI分段各有自己的mode，不能复制整条PDF的唯一全局峰；HDI蓝色仍填0到PDF，另画y=h阈值水平线。图下显示delta和sigma/I的HDI/ETI/Mean-based三类数值，支持滚动、平移、缩放和单图/整图保存。计算完成和保存完成分别显示，写盘失败不抹掉可用预览。
 
 四联图按nature-figure的Python数据图规范采用固定2x2 quantitative grid，a/b为观测与联合参数密度，c/d为两个边缘；共享样式模块统一字体、色图和区间标记。报告导出初始183x150mm，轴标题9pt、刻度/图例8pt，最终字形不少于5pt；GUI采用较大字号预设。用户指定viridis用于两个二维密度面板，a/b测度不同不能强制共用数值色标；HDI蓝色填PDF下方，ETI用橙色虚线，中心CDF50%不再另立Median图例。开发/报告出图做1.5pt面板对齐、字体及碰撞检查，普通用户不依赖技能脚本或TeX。这是本项目采用的Nature-style规范，不是宣称符合某刊全部投稿条款。
 
@@ -75,12 +75,22 @@ JSON示例随wheel提供，位于包资源examples目录：example.json为P_ADO�
 
 - 注入主矩阵：三模式乘delta=-10,-5,-1,-0.5,-0.1,+0.1,+0.5,+1,+5,+10；用户的sigma_yy=0.3按上下文理解为sigma/I=0.3，源sigma=0.3*I，反演仍扫描宽度。
 - 输入误差：P左右正幅度0.8*abs(P0)，R_ADO/R_DCO左右正幅度0.1*abs(R0)。这组实验型误差与旧合成验证配置不同，不借旧结果冒充已测。30条独立9j生成主记录、30条同核自洽对照；另外三个代表工况各100独立噪声向量、两生成器成对处理，保留依赖关系。
-- 真值/恢复图和详细表必须同时交付：列注入delta、sigma/I、自旋/门/几何、P/R及误差、HDI模式与每段边界、ETI三分位数、mean/std、真值包含、偏差、分支和边界警告。只画PDF而不标真值或只说测试通过不合格。
+- 真值/恢复图和详细表必须同时交付：列注入delta、sigma/I、自旋/门/几何、P/R及误差、每个HDI区间的mode与边界、ETI三分位数、mean/std、真值包含、偏差、分支和边界警告。只画PDF而不标真值或只说测试通过不合格。
 - 公式(6)的2->0纯E2、m=0、W(45deg)=15/8、P(45deg)=+1需直接断言；可混合模型的纯E2端点恢复与选择定则禁止M1的纯项前向控制分开。两者当前不以旧纯项对照统称完成。
 - 图6四面板：A为delta对谱线，B为sigma/I对谱线，C为delta对目标初态自旋，D为sigma/I对目标初态自旋。A/C用tan转换后的delta，不用角坐标。四图都有HDI68%、ETI68%和文献点图例；C/D以小横向offset避免同自旋估计重叠，自旋数据本身不改。文献固定采用宽度与提取值分开。
 - 默认主报告/GUI只展示68%ETI/HDI；历史95%数据不删除、不混入新默认展示。原文未声明误差置信水平时不补写68%。
-- 用户图题原文为Full Range Marginalization; Constant Width。数值含义是完整扫描域、常数附加权重，绝不是固定sigma。英文建议Weight；当前保留原文字面并列为待确认的唯一图题用词，不据此改变数值方案。
+- 用户已确认图题为Full Range Marginalization; Constant Weight。数值含义是完整扫描域、常数附加权重，绝不是固定sigma。
 - analysis是Notebook/脚本目录，不是第二个必装包；pip安装共享核心一次，[analysis]只补Jupyter等可选依赖，不自动下载Notebook。教程应写清下载Notebook、打开示例、换输出路径及三评估的读法。
+
+## Geometry and Numerical-Setting Audit
+
+本次只读代码/冻结输入核查，不是新运行或参数优化。来源定位：`raw/code/PDM/analysis/benchmarks/synthetic_benchmarks.json` 的settings/convergence；`analysis/cases/point_angle_ado_jobs.json`、`point_angle_dco_scenarios.json`及followup各job；`GUI/src/multipolepdm/pdm/observations.py`、mapping.py、statistics.py、models/registry.py、contracts.py。
+
+- 已完成旧合成矩阵是目标3->2、E2门2->0，比值90/38deg，P81deg，DCO方位18deg；PDCO偏振门47deg、目标/门方位13/61deg。新计划30工况用5->4->2、90/30deg，尚未执行，不能混用描述。
+- 135Pr现有145.6/90deg是原157.6/133.6与75.5/104.5两环组的代表角近似；平均角不是强度合成的恒等式。185Au保留两个顺序假设，164Yb是理想环模型。所有几何假设都不能通过调成更接近文献或注入值来“优化”。详细来源与边界见 [[multipolepdm-20261120-empirical-validation]]。
+- 新程序没有偏态正态拟合接受门；对称输入为Gaussian，不对称输入为左右尺度正态变换、中心两侧各1/2概率，中心一般有密度跳跃。旧Upload/p_ado/pdf/fitters.py才有skew-normal量化匹配及接受/回退。模型选择与数值收敛是不同问题，不能宣称旧阈值已经在新程序优化。
+- Jacobian1e-12只作警告，不裁小正值；Gaussian布居没有用1e-12作硬截断。64倍机器epsilon用于无可分辨sigma变化的拒绝；models/registry.py另有1e-12物理范围舍入容差。三者用途不可混同。
+- 已有3121x201到6241x401的36项delta区间检查通过，最大角中位数移动3.34944e-5rad、端点1.39665e-4rad，属于所选工况而非全局最优证明。今后做阈值稳定性审计须给范围、结果和理由，不靠与真值吻合挑参数。
 
 ## Implemented Response Evidence
 
@@ -113,7 +123,7 @@ JSON示例随wheel提供，位于包资源examples目录：example.json为P_ADO�
 
 ## Open Questions
 
-当前新方案还需用户审核；图题Width/Weight用词待确认。方向条件PDCO只有164Yb一个实测核，第二核配对测量仍缺；190Tl补足第二奇奇核，但其单线P代理、方位几何和低能校准外推边界保留。SHU74别名未确定。Docker虚拟显示为当前GUI基线，Windows/macOS原生未测；未指定独立软件Git远端，因此交付完整源码包而不推送整个Wiki作为软件。
+当前新方案仍待整项实施授权；标题Weight与逐HDI区间mode已确认。方向条件PDCO只有164Yb一个实测核，第二核配对测量仍缺；190Tl补足第二奇奇核，但其单线P代理、方位几何和低能校准外推边界保留。SHU74别名未确定。Docker虚拟显示为当前GUI基线，Windows/macOS原生未测；未指定独立软件Git远端，因此交付完整源码包而不推送整个Wiki作为软件。
 
 ## Human Review
 

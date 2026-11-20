@@ -1,9 +1,9 @@
 {
   "scope": "planning only; no implementation or scientific rerun",
   "status": "awaiting_user_review",
-  "plan_sha256": "3fe73e1acdf1bb72fa7bd0e5dfe3f6173466ad997a702ea65c97e6aed314af0c",
-  "pdf_sha256": "827dc781f4160407fe1aacd4701ae2c0474a641d5884b94976e47b68b86aafb5",
-  "pdf_pages": 14,
+  "plan_sha256": "2afe8f8e28f54573d9ed5bc0fc71dc2269a494e3245f461cf450430541ca394a",
+  "pdf_sha256": "a271d8a679d16ed22e48da71c05c12d2d17aba32d771229139e1ddadca821e28",
+  "pdf_pages": 16,
   "fresh_pending_tasks": [
     "U00",
     "U01",
@@ -52,18 +52,9 @@
       "U04,U07"
     ]
   },
-  "open_question": "Q_TITLE_WEIGHT: Width versus Weight; numerical meaning remains constant weight over the full scan",
+  "open_question": null,
   "clipped_text_pages": [],
-  "hook_after_edit": {
-    "archive_gate": {
-      "error": "archive gate timed out",
-      "ok": false,
-      "skipped": false
-    },
-    "diff_check": true,
-    "diff_stderr": "",
-    "event": "after-edit",
-    "ok": false,
-    "shell_checks": []
-  }
+  "title_confirmed": "Full Range Marginalization; Constant Weight",
+  "hdi_mode_definition": "Each connected HDI interval uses the coordinate attaining the highest PDF within that interval.",
+  "numerical_audit_scope": "Read-only current code and existing results; new threshold sweeps remain planned, not run."
 }

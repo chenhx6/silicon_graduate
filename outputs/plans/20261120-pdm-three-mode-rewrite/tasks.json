@@ -15,7 +15,7 @@
   },
   "objective": "保留三模式PDM核，落实角空间HDI/ETI/mean及tan报告、全域viridis四联图与三评估数值、图6文献对照、指定sigma/I=.3与P80%/R10%注入恢复图表、缺失纯E2校准、易用教程与验收后新版本交付。",
   "plan_file": "outputs/plans/20261120-pdm-three-mode-rewrite/plan.md",
-  "plan_sha256": "3fe73e1acdf1bb72fa7bd0e5dfe3f6173466ad997a702ea65c97e6aed314af0c",
+  "plan_sha256": "2afe8f8e28f54573d9ed5bc0fc71dc2269a494e3245f461cf450430541ca394a",
   "readable_pdf": "outputs/plans/20261120-pdm-three-mode-rewrite/plan.pdf",
   "code_root": "raw/code/PDM",
   "handbook": "raw/writing/pado/20261029_review_v1/PDM/main.tex",
@@ -29,10 +29,21 @@
   "statistics": {
     "evaluation_coordinate": "arctan_delta",
     "report_transform": "tan",
-    "hdi_center": "angle-mode transformed by tan",
+    "hdi_center": "For each connected HDI interval, argmax of the PDF restricted to that interval; transform that coordinate with tan.",
     "eti": "tan(q16), tan(q50), tan(q84)",
     "mean": "tan(angle mean), tan(angle mean +/- angle SD); report undefined/out-of-domain endpoints honestly",
-    "sigma_axis": "sigma/I; I identity remains source reference state"
+    "sigma_axis": "sigma/I; I identity remains source reference state",
+    "component_contract": {
+      "fields": [
+        "lower",
+        "mode",
+        "upper",
+        "probability_mass"
+      ],
+      "total_mass": 0.68,
+      "all_components": true,
+      "eti_mean_use_full_pdf": true
+    }
   },
   "plot": {
     "cmap": "viridis",
@@ -54,8 +65,9 @@
       "ETI",
       "Mean-based"
     ],
-    "requested_title": "Full Range Marginalization; Constant Width",
-    "title_semantics": "full scan with constant additional weight, not fixed sigma"
+    "requested_title": "Full Range Marginalization; Constant Weight",
+    "title_semantics": "full scan with constant additional weight, not fixed sigma",
+    "title_confirmed": true
   },
   "injection": {
     "sigma_over_i": 0.3,
@@ -103,15 +115,7 @@
     "repeated_inversions": 600,
     "seed": 20261120
   },
-  "open_questions": [
-    {
-      "id": "Q_TITLE_WEIGHT",
-      "question": "图题的常数权重应否使用Constant Weight，而非字面指定Constant Width？",
-      "recommended": "Full Range Marginalization; Constant Weight",
-      "currently_preserved": "Full Range Marginalization; Constant Width",
-      "scope": "display wording only; must not change or fix source sigma"
-    }
-  ],
+  "open_questions": [],
   "analysis_installation": "Not a second package; notebooks are files, shared core installed once, [analysis] adds optional dependencies but does not download notebooks.",
   "release_version_proposed": "0.1.1",
   "tasks": [
@@ -120,7 +124,7 @@
       "title": "冻结本轮输入和基线",
       "depends_on": [],
       "status": "pending",
-      "specification": "### U00：冻结本轮输入和基线\n\n- 依赖：用户批准当前计划；图题Width/Weight用词确认。\n- 文件：tasks.json；本轮tmp运行目录的baseline.json和输入清单；不改0.1.0 delivery回执。\n- 工作：读取本计划第2节与秘书标签，核对当前代码/发布版本及旧结果；冻结30工况、80%/10%误差、独立/同核标记和旧文献输入哈希。\n- 验收：不恢复已删目录、不重建物理核、不读取发布密钥；新账本与新goal关联，旧完成状态不继承。\n- 验证：导入核心并记录版本；逐项比对例文件自旋和几何；执行现有physics/responses/reference桥接测试。",
+      "specification": "### U00：冻结本轮输入和基线\n\n- 依赖：用户批准当前计划；标题与逐段mode定义已确认，不代表整项实施已获批准。\n- 文件：tasks.json；本轮tmp运行目录的baseline.json和输入清单；不改0.1.0 delivery回执。\n- 工作：读取本计划第2节与秘书标签，核对当前代码/发布版本及旧结果；冻结30工况、80%/10%误差、独立/同核标记和旧文献输入哈希。\n- 验收：不恢复已删目录、不重建物理核、不读取发布密钥；新账本与新goal关联，旧完成状态不继承。\n- 验证：导入核心并记录版本；逐项比对例文件自旋和几何；执行现有physics/responses/reference桥接测试。",
       "evidence": [],
       "commands_run": [],
       "changed_paths": [],
@@ -134,7 +138,7 @@
         "U00"
       ],
       "status": "pending",
-      "specification": "### U01：角空间统计及tan报告\n\n- 依赖：U00。\n- 文件：contracts.py、pdm/statistics.py、io/export.py及统计测试。\n- 测试：构造归一三角/双峰PDF，验证q16/50/84、mean/std、mode、HDI阈值与分段；对所有端点/中心逐项tan，证明没有改为对delta重新求HDI；近边界均值/并列峰处理。\n- 验收：68%面积和归一误差<=1e-6，取向变换守恒；默认输出三评估、正确坐标元数据；Mean±SD不标68%概率保证。\n- 命令：GUI目录 `python -m pytest tests/test_statistics.py tests/test_mapping.py tests/test_export_measures.py -q`。",
+      "specification": "### U01：角空间统计及tan报告\n\n- 依赖：U00。\n- 文件：contracts.py、pdm/statistics.py、io/export.py及统计测试。\n- 测试：构造归一三角/双峰PDF，验证q16/50/84、mean/std、逐HDI区间mode、HDI阈值与分段；双峰被分成两段时必须返回两个各在本段内的mode，不能复制全局峰；对所有端点/中心逐项tan，证明没有改为对delta重新求HDI；近边界均值/并列峰处理。\n- 验收：68%面积和归一误差<=1e-6，取向变换守恒；默认输出三评估、正确坐标元数据；Mean±SD不标68%概率保证。\n- 命令：GUI目录 `python -m pytest tests/test_statistics.py tests/test_mapping.py tests/test_export_measures.py -q`。",
       "evidence": [],
       "commands_run": [],
       "changed_paths": [],
@@ -190,7 +194,7 @@
         "U01"
       ],
       "status": "pending",
-      "specification": "### U05：图6与文献比较\n\n- 依赖：U01；与U04可并行。\n- 文件：文献runner、案例结果新版本、秘书figures/generate_figures.py。\n- 验收：A/C用delta；四图含图例及文献点；C/D自旋offset真实可查；HDI用角mode及端点tan，ETI用角q50及端点tan；文献错误类型、固定sigma/I和缺值分开。\n- 命令：analysis目录分别执行 `python scripts/run_literature_cases.py --input cases --output cases/results_v0_1_1 --project-root ..` 和 `python scripts/run_followup_cases.py --output cases/followup/results_v0_1_1`；核对原输入哈希不变。",
+      "specification": "### U05：图6与文献比较\n\n- 依赖：U01；与U04可并行。\n- 文件：文献runner、案例结果新版本、秘书figures/generate_figures.py。\n- 验收：A/C用delta；四图含图例及文献点；C/D自旋offset真实可查；HDI每段使用本段角mode及本段端点tan，ETI用角q50及端点tan；文献错误类型、固定sigma/I和缺值分开。\n- 命令：analysis目录分别执行 `python scripts/run_literature_cases.py --input cases --output cases/results_v0_1_1 --project-root ..` 和 `python scripts/run_followup_cases.py --output cases/followup/results_v0_1_1`；核对原输入哈希不变。",
       "evidence": [],
       "commands_run": [],
       "changed_paths": [],
@@ -240,7 +244,7 @@
         "U07"
       ],
       "status": "pending",
-      "specification": "### U08：整体回归与发布候选\n\n- 依赖：U03--U07。\n- 验收：全测试通过、全域图/默认线条不破坏队列，真实制品构建/安装/三模式GUI、Notebook回读通过；公开包无密钥、私人工作簿或无许可原件。报告/源码/图/结果manifest匹配当前版本。\n- 命令：GUI目录全pytest（offscreen）、`python -m build --no-isolation`、`python -m twine check --strict`；临时安装wheel再运行 `pdm-gui --self-test --report ...`；测计算/绘图/紧凑与CSV保存时间及内存，不用旧性能数代替。",
+      "specification": "### U08：整体回归与发布候选\n\n- 依赖：U03--U07。\n- 验收：全测试通过、全域图/默认线条不破坏队列，真实制品构建/安装/三模式GUI、Notebook回读通过；公开包无密钥、私人工作簿或无许可原件。报告/源码/图/结果manifest匹配当前版本。\n- 命令：GUI目录全pytest（offscreen）、`python -m build --no-isolation`、`python -m twine check --strict`；临时安装wheel再运行 `pdm-gui --self-test --report ...`；测计算/绘图/紧凑与CSV保存时间及内存，不用旧性能数代替；执行第6.5节数值阈值审计，保存阈值改变前后的结果和参数采用理由。",
       "evidence": [],
       "commands_run": [],
       "changed_paths": [],
@@ -282,5 +286,20 @@
     "xi_max_rad": 1.56,
     "xi_points": 3121,
     "sigma_points": 201
+  },
+  "numeric_parameter_audit": {
+    "warning_J": 1e-12,
+    "sigma_eps_multipliers": [
+      32,
+      64,
+      128
+    ],
+    "response_roundoff_tolerances": [
+      1e-13,
+      1e-12,
+      1e-11
+    ],
+    "current_error_model": "median-centered piecewise normal transform; no skew-normal fit",
+    "global_optimum_claim_allowed": false
   }
 }
