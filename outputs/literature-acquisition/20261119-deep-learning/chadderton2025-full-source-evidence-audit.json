@@ -1,0 +1,73 @@
+{
+  "recorded_at": "2026-11-20T05:26:31.232206+00:00",
+  "chapter_sources": [
+    "knowledge/sources/chadderton-2025-fm250-conversion-electron-thesis.md"
+  ],
+  "raw_sha256": "afd4f4facb231d532475037d242815d0d051863dd66af32d7149ede458c043cf",
+  "source_total_pages": 172,
+  "prior_accepted_pages": 80,
+  "newly_checked_pages": 92,
+  "physical_pages_checked": 172,
+  "blank_pdf_pages": [
+    4,
+    8
+  ],
+  "covered_sections": [
+    {
+      "pdf_span": [
+        1,
+        25
+      ],
+      "scope": "bibliographic and authorship",
+      "reader": "Codex"
+    },
+    {
+      "pdf_span": [
+        26,
+        60
+      ],
+      "scope": "introduction, theory and prior research",
+      "reader": "Codex"
+    },
+    {
+      "pdf_span": [
+        61,
+        81
+      ],
+      "scope": "detector methods and calibration",
+      "reader": "Codex"
+    },
+    {
+      "pdf_span": [
+        82,
+        130
+      ],
+      "scope": "data processing, decay and coincidence studies",
+      "reader": "Codex"
+    },
+    {
+      "pdf_span": [
+        131,
+        161
+      ],
+      "scope": "comparison, isomer model and conclusions",
+      "reader": "Codex"
+    },
+    {
+      "pdf_span": [
+        162,
+        172
+      ],
+      "scope": "bibliography",
+      "reader": "Codex"
+    }
+  ],
+  "accepted_gemini_receipts": 0,
+  "verified_pages_and_checks": [
+    "PDF 1 and 3–25: title and front matter, blank images verified at PDF 4 and 8.",
+    "PDF 26–60: theory and source identities, Eq. 1.43 E2 rank mismatch, prior branching figures.",
+    "PDF 61–81: signal flow, shared efficiency, gamma and electron calibration.",
+    "PDF 160–172: concluding discussion and source positions reserved, reference works not counted."
+  ],
+  "next_source": "doi:10.26083/tuprints-00007382"
+}

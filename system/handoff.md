@@ -34,8 +34,8 @@ updated: 2026-11-20
 - 新验收 [[lizarazo-sabogal-2018-se92-se94-isomer-decay]] PDF 1–153 与 [[ramashidzha-2006-194tl-dco-level-scheme-thesis]] PDF 1–89。Lizarazo 的个人信息页留本地，Se 半衰期保留实测值，原文两个算术差异和 470/495 keV 归属分别定位。Ramashidzha 的 876.4 keV 与 Masiteng 的 DCO 和多极标签冲突保留，293.4 keV 的逐门值与最终列分开。
 - [[ley-2025-n50-seniority-lifetime-thesis]] 84 页与 [[siciliano-2017-sn106-sn108-rdds-thesis]] 190 页已验收。Ley 保留两个出版附文与一份附印稿的版本差异。Siciliano 保留共享馈入、联合寿命拟合与 FWHM 误差口径。
 - [[gerathy-2020-solenogam-conversion-electron-thesis]] 的 147 页已由 Codex 通读和逐页对账。保留 1105 keV 态的实测与采用半衰期、6931 keV 新态的符合证据、438 keV 多极性修订和两个谱仪的证据边界。
-- 本次累计 15 份通过科研范围验收的原件、3028 个 PDF 页。Gerathy 的 Gemini API 和原生调用故障见 `tmp/deep-learning-gerathy-2020/`，本次验收归于 Codex。
-- [[chadderton-2025-fm250-conversion-electron-thesis]] 已核 80/172 页，覆盖第 4–9 章及结论开头。原题页作者为 Jamie。记录逐级分支未能取得、净计数窗的绝对值反演、BrIcc 模板依赖、两项实测半衰期及其所用的偶然关联校正。余 PDF 3–81、160–172，按章界继续。
+- [[chadderton-2025-fm250-conversion-electron-thesis]] 的 172 页已由 Codex 逐页对账，含两张空白页。保留效率共同归一、Eq. (1.43) 张量秩差异、两项实测半衰期和模型条件下的组态推断。
+- 本次累计 16 份通过科研范围验收的原件、3200 个 PDF 页。Gerathy 的 Gemini API 和原生调用故障见 `tmp/deep-learning-gerathy-2020/`，本批两个整源的完成归于 Codex。已核下一份 Marc Lettmann 189 页学位论文的身份，保留其与 Ljungvall 所收录 Ge 研究的版本和实验重叠待查。
 - 章级来源共用已哈希的原件，以不重叠的 `raw_pdf_pages` 标识各章。唯一作品检查继续执行，原 PDF 没有拆档或复制。
 - 另一 session 的 PDM/PDCO 与 Hamilton 改动继续隔离。无 PDM 拟合、raw 改写或重新获取。HDR 阶段指针为 `main + research: integrate Ljungvall HDR evidence and start capture proceedings`。
 

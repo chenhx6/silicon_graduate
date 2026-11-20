@@ -365,12 +365,15 @@ while the Solenogam spectra supply the two reported half-lives. The
 8785 keV parity discrepancy retain their original locators. Separately
 published versions and references have their own reading scope.
 
-[[chadderton-2025-fm250-conversion-electron-thesis]] is partly read.
+[[chadderton-2025-fm250-conversion-electron-thesis]] has all 172 PDF
+pages accounted for by Codex, including two blank pages.
 The title page corrects the acquisition ledger's first name. The
 individual branches and their aggregate fit have different evidence:
 the thesis does not obtain the former from the low-statistics spectra,
 and the latter determines only the magnitude of \(g_K-g_R\) under
-its response and population assumptions.
+its response and population assumptions. The electron efficiency inherits
+the γ calibration and adopted decay branching ratio. The introductory
+Eq. (1.43) uses a rank-1 coefficient in a rank-2 transition formula.
 
 ## Final acquisition closure and learning design
 

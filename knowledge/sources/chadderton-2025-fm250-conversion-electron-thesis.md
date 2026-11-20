@@ -8,7 +8,7 @@ updated: 2026-11-20
 status: ai-draft
 review_status: unreviewed
 source_type: doctoral-thesis
-reading_depth: skimmed
+reading_depth: read
 authors: ["Jamie Chadderton"]
 year: 2025
 institution: University of Liverpool
@@ -31,8 +31,9 @@ PDF 1 的署名为 Jamie Chadderton，University of Liverpool，2025 年 11 月�
 
 ## Scope and Reading Depth
 
-原件 172 页。已核 PDF 1–2、82–159，共 80 页，含第 4–9 章及结论开头。
-原件中的正文印刷页为 PDF 页减 24。其余章节和所引文献待核。
+原件 PDF 1–172 已由 Codex 逐页对账。PDF 4、8 为空白页，卷首其它附页和
+书目按书证计。正文印刷页为 PDF 页减 24。未获得 Gemini 主读回执，
+外部引文与作者代码各有独立核验范围。
 
 ## Summary
 
@@ -55,6 +56,8 @@ PDF 1 的署名为 Jamie Chadderton，University of Liverpool，2025 年 11 月�
 | CHA-9 | 用植入能量与飞行时间区分反冲候选，两块像素探测器分别置门，再按同像素衰变关联识别基态或异能态。时间峰两侧用于估计偶然背景。电子谱仍可叠加真符合的高多重性级联与散射连续谱，需要独立的谱形处理。 | experimental-selection-and-background | direct-original-pages | PDF 82–87, 91–95, Figs. 4.1–4.6、4.10–4.12 |
 | CHA-10 | 第 4 章的模拟效率经过实测效率映射。EPIC 的亚壳电子峰允许重叠拟合，但同一跃迁的亚壳比例由 BrIcc 给定。PATRON 对照另采用能级和布居输入，其当前版本不产生原子 X 射线或背景。 | simulation-model-boundary | direct-original-pages | PDF 88–90, 95–100, Eqs. (4.5)–(4.6) |
 | CHA-11 | Fig. 5.2 叠画的是既往半衰期曲线。第 5 章另用双指数时间拟合与 $\lambda_{\rm true}=\lambda_{\rm short}-\lambda_{\rm random}$ 得到本次基态 α 衰变 30.2(10) min 及 $8^-$ 异能态 1.94(5) s，独立列出引用的 30.4(15) min 和 1.92(5) s。 | measured-versus-reference-half-lives | direct-original-pages | PDF 101–109, Eqs. (5.1)–(5.2), Figs. 5.2、5.4、5.6 |
+| CHA-12 | 电子效率的绝对归一使用已标定的 γ 效率推估开放源衰变次数，再乘文献的电子发射分支。全电子效率曲线共享这一归一。γ 的 Doppler 校正用按探测环拟得的加权 $\beta=0.0185(4)$，电子因磁输运无法取得逐事件发射角，使用固定角近似。 | shared-calibration-and-response | direct-original-pages | PDF 76–81, Table 3.1, Figs. 3.13–3.15 |
+| CHA-13 | Eq. (1.43) 的非伸展 E2 强度右端印出秩 1 的 Clebsch–Gordan 因子，E2 张量要求秩 2，即 $\langle I K\,2\,0\mid I-1,K\rangle$。Eq. (1.45) 使用绝对值；它和第 9 章的谱比均不给出带符号的混合比。 | printed-formula-boundary | direct-original-pages-and-rank-check | PDF 46–47, Eqs. (1.40)–(1.45) |
 
 ## Competing Interpretations and Limitations
 
@@ -70,10 +73,16 @@ PDF 1 的署名为 Jamie Chadderton，University of Liverpool，2025 年 11 月�
   仅提供较高异能态的线索，正文未给超过既往精度的半衰期或组态（PDF 103–109）。
 - PDF 159 另列 HFB 模型的不同形变壳隙预期。单个异能态的模型组态偏好不足以
   单独给出邻近核的壳隙位置。
+- Chapter 2 使用 Bastin 等（PRC **73**, 024308）与 Greenlees 等
+  （PRC **78**, 021303）作为历史纲图和分支参照，Fig. 2.3 明确标 [43]
+  Rostron。书目见 PDF 164–165。引用资料、作者代码传参与复现各有单独范围。
 
 ## Extracted Pages
 
-- PDF 1–2：题名、学位、作者及摘要。
+- PDF 1–25：题名、学位、摘要、卷首附页与图表目录。
+- PDF 26–60：导论、辐射与壳模型框架、既有实验与跨核参照。
+- PDF 61–81：SAGE、RITU、GREAT 的信号链、效率及能量校正。
 - PDF 82–109：事件选择、谱拟合、衰变标签和两项半衰期。
 - PDF 110–130：反冲/衰变标记、转换系数、逐级分支的测量限制。
-- PDF 131–159：计数窗、谱模拟、组态反演和跨核比较，包含结论开头。
+- PDF 131–161：计数窗、谱模拟、组态反演、跨核比较及结论。
+- PDF 162–172：书目及代码引用。
