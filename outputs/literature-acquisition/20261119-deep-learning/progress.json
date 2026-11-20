@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "bytes:2c1ea7982575d75c923241f6d4b4df9cee2e43da2e9d4c1de3f5c9f7a791fa8c",
+  "active_source": "doi:10.1016/0029-554x(70)90578-1",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 46,
+  "completed_full_sources_this_run": 47,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T16:01:52.835330+00:00",
+  "updated_at": "2026-11-20T16:15:37.373601+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 7423,
-  "current_source_note": "knowledge/sources/svoren-1974-w184-os186-os188-band-mixing-thesis.md",
-  "next_action": "Taras and Matas 1970 local version verified. Continue the unresolved gamma doublet polarization method and 35Cl case.",
+  "completed_primary_pages_this_run": 7426,
+  "current_source_note": "knowledge/sources/taras-matas-1970-unresolved-gamma-polarimetry.md",
+  "next_action": "Read the local 21-page Davies and Hamilton NIM 59 (1968) on finite acceptance and NaI polarimeter calibration. Verify edition roles before counting.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Svoren branch ratios, limits, perturbative band mixing and 188Os publication evolution.",
-  "current_source_scientific_acceptance": "Svoren scientific scope 196/201 complete with digitized 1975 article crosswalk.",
-  "source_scoped_retrieval": "Archived Springer 1975 188Re–188Os article."
+  "last_source_manager_closure": "Taras and Matas: blended count identifiability, 35Cl native ratios and bounded delta, and shared spectrum.",
+  "current_source_scientific_acceptance": "Published PDF: all three pages, with visual check of the original Table 1.",
+  "source_scoped_retrieval": "No new full text for this source. APS 1967 comparator identity was checked through bibliographic metadata."
 }

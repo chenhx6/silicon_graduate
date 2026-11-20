@@ -6578,3 +6578,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — Svoren 的 W/Os 支路与带混合
 
 - 核读 196 页，保留共享谱线、上限方向和 188Os 期刊增量。累计 46 份、7423 页，续读 Taras 与 Matas。
+
+## 2026-11-21 — Taras 与 Matas 的 ³⁵Cl 双线
+
+- 核读出版版 3 页并目视表 1，记下总强度约束、两线可行域及原文偏振比。累计 47 份、7426 页，续读 Davies 与 Hamilton。

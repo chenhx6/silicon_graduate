@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-11-20T16:15:37.373601+00:00",
+  "source": "knowledge/sources/taras-matas-1970-unresolved-gamma-polarimetry.md",
+  "raw_file": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0029-554X_70_90578-1.pdf",
+  "raw_sha256": "1f062ddb970e998dd71c3a7e58300f775dedaab4a6ac6b14cd3cea49347eead1",
+  "primary_pdf_pages": 3,
+  "scientific_and_bibliographic_pages_covered": 3,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–2: native p, counting equations, intensity-response constraint, bounds and Fig. 1",
+    "PDF 3: inversion with known component, 35Cl Table 1, conclusions and references"
+  ],
+  "visual_checks": [
+    3
+  ],
+  "evidence_gaps": [
+    "The threefold angular-correlation comparison is quoted from the 1970 study. The original 1967 article has not been read here.",
+    "The 3.16 MeV inversion uses other-resonance information on the 3.00 MeV line. The paper does not give a common coverage level for the intervals."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

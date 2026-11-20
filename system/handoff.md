@@ -1,7 +1,12 @@
 ---
 graph-excluded: true
-updated: 2026-11-20
+updated: 2026-11-21
 ---
+
+## 2026-11-21 — Taras 与 Matas 的重叠 γ 线极化
+
+- [[taras-matas-1970-unresolved-gamma-polarimetry]] 核读出版版 3 页并目视表 1。重叠峰的方位比与分线总强度仍留下一个自由度。记录 ³⁵Cl 双线的原生 \(p\)、\(N\)、\(\delta\) 及弱线反解所需的其他共振信息。
+- 累计 47 份、7426 页。1967 年三重角关联的区间目前取自 1970 年转引。续读本地 Davies 与 Hamilton 1968 的 21 页极化仪论文，核对有限接受度和实测标定。
 
 ## 2026-11-20 — Svoren 的 W/Os 带混合和弱线
 

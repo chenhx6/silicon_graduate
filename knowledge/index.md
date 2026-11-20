@@ -2,7 +2,7 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Wiki Index
@@ -66,6 +66,7 @@ updated: 2026-11-20
 - [[koh-1994-iodine-xe-sm-eu-nuclear-orientation-thesis]] — 碘衰变的四阶项选支、铁中超精细场、Sm/Eu 转子参数。
 - [[griffiths-1989-br-se-pt-nuclear-orientation-thesis]] — Br/Fe 两场位点、Se 子核退取向和 ¹⁹²Pt 重叠响应。
 - [[svoren-1974-w184-os186-os188-band-mixing-thesis]] — W/Os 支路强度、弱线上限和微扰带混合约束。
+- [[taras-matas-1970-unresolved-gamma-polarimetry]] — 重叠 γ 线偏振的可辨识性与 ³⁵Cl 双线案例。
 - [[hungerford-1979-ill-angular-correlation-164dy]] — U001 章节原件与角关联方法范围。
 - [[madiba-2008-190tl-dco-polarization-thesis]] — 首篇完整正文阅读：190Tl 实验链、门依赖、不对称度与指认边界；形式定义原始出处尚待核对。
 - [[li-2016-algebraic-collective-core-quasiparticle-thesis]] — 软/刚核芯与准粒子耦合、135Pr及109Pd比较、ACM实现与原件公式边界；不新增独立实验。

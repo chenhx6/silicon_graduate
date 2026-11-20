@@ -82,6 +82,8 @@ The analyzing power is a Compton-scattering property and depends on photon energ
 
 [[postma-1959-ho166m-er166-polarization]] 提供两条重叠线经边门区分的例子。同一 \(Q\) 近似下，混合峰的计数比是 \(\sum_i C_iW_i(90^\circ)(1+Q P_i)\) 除以 \(\sum_i C_iW_i(90^\circ)(1-Q P_i)\)。若仅有一个重叠峰比值，得到的是一个加权组合。高低边门提供不同比重的第二组信息，其串扰估计仍进入两条线的 \(P\)。见原刊 683–684 页，式 5。
 
+[[taras-matas-1970-unresolved-gamma-polarimetry]] 进一步说明，只知道分线总强度仍剩一个自由度。两分量的总计数比为 \(\alpha=S_1/S_2\) 时，弱线不对称的可行范围传到强线时缩小 \(1/\alpha\) 倍。若要继续解弱线，需要额外的已知偏振、另一接受条件或额外测量，其不确定度会随反解传递。见原刊式 2–16、表 1。
+
 ## Detector Implementations
 
 - Clover and segmented HPGe arrays provide compact Compton event selections.
