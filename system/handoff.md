@@ -5,9 +5,9 @@ updated: 2026-11-20
 
 ## 2026-11-20 — Jamieson 转移结果与 Wu 录用稿
 
-- [[jamieson-2014-cd112-neutron-transfer-thesis]] 已核主要的实验与谱强度证据。2373/2818 keV 的 \(5^-\)/\(6^-\) 强转移、谱强度约定、独立的增强 E2 与正文/表比率差异已登记。三份期刊摘要和依赖关系已留档。剩余完整仪器、谱峰分析、态表及附录 A 续核。
+- [[jamieson-2014-cd112-neutron-transfer-thesis]] 已核 178/179 页科研、书证与附录。2373/2818 keV 的 \(5^-\)/\(6^-\) 强转移、谱强度约定、独立的增强 E2、狭缝及正文/表比率差异已登记。三份期刊摘要和依赖关系已留档。
 - [[wu-2024-zr100-gammasphere-angular-correlations]] 的 APS 录用稿七页已核。1295/1774 keV 两态与 GRIFFIN 相合。1807 keV 在两次采集中有不同自旋偏好，δ 和区间阈值按原件保留。
-- 现累计 20 份、3742 页。PDCO/PDM 及 Hamilton 由另一会话维护。
+- 现累计 21 份、3920 页。已核下一份 Ndayishimye 的 ¹⁹³Tl 学位论文身份及哈希，尚需核角关联、偏振和多重手征带证据。PDCO/PDM 及 Hamilton 由另一会话维护。
 
 ## 2026-11-20 — Michetti-Wilson LaBr₃ 科研范围验收
 

@@ -1,0 +1,82 @@
+{
+  "work_id": "bytes:79ebd6d80dee3a3a37ecad57eacf400a925396e35e2aba39d5f1c87f3d11c352",
+  "auditor": "Codex",
+  "mode": "science and bibliography scope check",
+  "page_count": 179,
+  "pages_checked": 178,
+  "checked_pdf_ranges": [
+    [
+      1,
+      2
+    ],
+    [
+      4,
+      179
+    ]
+  ],
+  "excluded_pdf_pages": [
+    3
+  ],
+  "excluded_role": "Acknowledgements",
+  "visual_ranges": [
+    [
+      28,
+      29
+    ],
+    [
+      42,
+      44
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      83,
+      83
+    ],
+    [
+      90,
+      91
+    ],
+    [
+      97,
+      97
+    ],
+    [
+      99,
+      99
+    ],
+    [
+      106,
+      106
+    ],
+    [
+      115,
+      179
+    ]
+  ],
+  "higher_resolution_appendix_examples": [
+    123,
+    130
+  ],
+  "source_note": "knowledge/sources/jamieson-2014-cd112-neutron-transfer-thesis.md",
+  "coverage": [
+    "PDF 1–2 and 4–35: identity, candidate structures, reaction theory, strengths and conventions",
+    "PDF 36–79: Q3D, normalization, calibrations and reaction-model fits",
+    "PDF 80–114: state evidence, optical model systematics, sum rules and bibliography",
+    "PDF 115–179: original appendix angle plots, same-sample relation and visual checks"
+  ],
+  "remaining_evidence_limits": [
+    "Three APS abstracts verified; publication table crosswalk remains pending.",
+    "Absolute strengths inherit OMP and normalization.",
+    "Slit solid angles, some level labels and narrative strength ratios have documented differences."
+  ],
+  "checks": {
+    "run60_daq_live": 0.9822092175601652,
+    "S5_scaling_ADWA_to_ground": 1.307125307125307,
+    "S6_scaling_ADWA_to_ground": 2.523908523908524
+  },
+  "updated_at": "2026-11-20T08:28:57.838366+00:00",
+  "next_work": "bytes:1041c1c448c65b888df5e3f8b1b9367a83a5799d3c2a45f72efdc4c5adf5258e"
+}

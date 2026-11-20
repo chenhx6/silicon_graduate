@@ -6453,3 +6453,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - 核完 Wu 七页 APS 录用稿，在独立 Gammasphere 数据中核定 1807 keV 自旋差异、1228.9 keV 两区间和 \(\Delta\chi^2\) 标签差异。
 - Jamieson 的 2373/2818 keV 部分和轨道和规则已核。区分同次不同动量设置、两种反应模型、源于另一实验的增强 E2 及三个期刊摘要。
+
+## 2026-11-20 — Jamieson 科研范围验收
+
+- 核验 178/179 页。补入 Q3D 活时间和靶厚归一、表 2.3–2.4 固体角差异以及附录 2793 keV 面板的自旋差异。完成累计 21 份、3920 页。继续 Ndayishimye 的 ¹⁹³Tl。

@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "bytes:79ebd6d80dee3a3a37ecad57eacf400a925396e35e2aba39d5f1c87f3d11c352",
+  "active_source": "bytes:1041c1c448c65b888df5e3f8b1b9367a83a5799d3c2a45f72efdc4c5adf5258e",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -337,9 +337,10 @@
     "MICHT13-FIT-AND-SETUP",
     "MICHT13-COMPLETE-SCIENTIFIC-SCOPE",
     "JAM14-TRANSFER-TARGETED",
-    "WU24-GAMMASPHERE-CROSSWALK"
+    "WU24-GAMMASPHERE-CROSSWALK",
+    "JAM14-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 20,
+  "completed_full_sources_this_run": 21,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -347,14 +348,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T08:04:09.833063+00:00",
+  "updated_at": "2026-11-20T08:28:57.838366+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 3742,
+  "completed_primary_pages_this_run": 3920,
   "current_source_note": "knowledge/sources/jamieson-2014-cd112-neutron-transfer-thesis.md",
-  "next_action": "Jamieson: continue apparatus, remaining transfer results and Appendix A.",
+  "next_action": "Ndayishimye 2016: read 193Tl spectroscopy and multiple chiral-band assignments, then reconcile article dependencies.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Michetti-Wilson: preserve prompt-width denominator, rejected 152Sm half-life, convolution sign, and unsettled DANTE diagnostic.",
-  "current_source_scientific_acceptance": "Jamieson partial. Wu 7-page accepted article reconciled, including competing spin and delta.",
+  "last_source_manager_closure": "Jamieson: reaction apparatus, tabulations and 65 appendix pages checked.",
+  "current_source_scientific_acceptance": "Jamieson original scientific scope 178/179; Ndayishimye identity and archive verified.",
   "source_scoped_retrieval": "Wu 2024 APS accepted PDF archived; three Cd publication abstracts archived."
 }
