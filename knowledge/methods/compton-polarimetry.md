@@ -94,6 +94,8 @@ The analyzing power is a Compton-scattering property and depends on photon energ
 
 [[rikovska-1983-irfe-pt192-polarization]] 同篇包含两种实验覆盖。¹⁹²Pt 的 296、308、604 keV 有线偏振与两个角分布系数。¹⁹⁴Pt 的线偏振不足，报告的三个混合比由温度依赖角分布和超精细参数推出。见原刊表 1 及表后末段。
 
+[[kreische-lampert-1974-cd111-linear-polarization]] 利用薄 NaI 晶体的方位逃逸差。测的是 245 keV 线的偏振，可在固定既有 \(\lvert\delta_{171}\rvert\) 时选先行 171 keV 线的符号。其 \(R\) 和含系数 2 的不对称 \(A\) 需按原式解释。见原刊 §§3–4。
+
 ## Detector Implementations
 
 - Clover and segmented HPGe arrays provide compact Compton event selections.

@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.1016/0375-9474(69)90052-9",
+  "active_source": "doi:10.1007/bf01668664",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 55,
+  "completed_full_sources_this_run": 56,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T17:15:35.317403+00:00",
+  "updated_at": "2026-11-20T17:19:18.296628+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 7544,
-  "current_source_note": "knowledge/sources/hamilton-1969-mixing-ratios-pt194-196.md",
-  "next_action": "Read Kreische and Lampert 1974, Z. Physik 266, 51–53, on 111Cd polarization of the pure cascade member and confirmation of the 171-keV delta.",
+  "completed_primary_pages_this_run": 7547,
+  "current_source_note": "knowledge/sources/kreische-lampert-1974-cd111-linear-polarization.md",
+  "next_action": "Continue Ewan et al. 1969, three-page single-Ge(Li) polarization article; reconcile the existing Wiki source note and raw reference.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Hamilton 1969: verify 257–264, 194Pt asymmetric errors, distinct branch roles and 196Pt 759-keV ambiguity.",
-  "current_source_scientific_acceptance": "Eight publisher pages inclusive of Tables 1–3, Fig. 1–3 and references. Verified identical copies count once.",
-  "source_scoped_retrieval": "Locally held publisher PDF and deposited XML, no new full text download."
+  "last_source_manager_closure": "Kreische and Lampert 1974: native polarization ratio, thin NaI response and sign-only confirmation of known delta.",
+  "current_source_scientific_acceptance": "Full three pages with visual verification of figures and detector equations.",
+  "source_scoped_retrieval": "Locally held publisher PDF. No new download."
 }

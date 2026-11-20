@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Kreische 与 Lampert 的 ¹¹¹Cd 符号检验
+
+- [[kreische-lampert-1974-cd111-linear-polarization]] 核读 3 页，明确 245 keV 的 E2 判定和 171 keV 的正支使用不同证据。后者幅值 0.145 引自早期资料。记下薄晶体的方位响应与不对称定义。
+- 累计 56 份、7547 页。续核 Kreische 引用的 Ewan 等 1969 年三页 Ge(Li) 论文，本地出版版 SHA 已核。
+
 ## 2026-11-21 — Hamilton 的 ¹⁹⁴Pt 与 ¹⁹⁶Pt
 
 - [[hamilton-1969-mixing-ratios-pt194-196]] 核读 8 页，订正页码 257–264 和 ¹⁹⁴Pt 不对称误差 \(-(30^{+39}_{-11})\)。分别保留纯方向关联系数、6% 订正、极化单项区间和 759 keV 歧义。两个同哈希 PDF 只计一篇。

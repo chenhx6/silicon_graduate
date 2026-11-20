@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-20T17:19:18.296628+00:00",
+  "source": "knowledge/sources/kreische-lampert-1974-cd111-linear-polarization.md",
+  "raw_file": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1007_BF01668664.pdf",
+  "raw_sha256": "10637b7ebf09baa4abad25a8609d2eaec64cd6b58d6e254dfd3cb9b85a0a4481",
+  "primary_pdf_pages": 3,
+  "scientific_and_bibliographic_pages_covered": 3,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1: Cd111 cascade and photon escape response of thin crystals",
+    "PDF 2: counts, direction-polarization curves, R calibration and sign check",
+    "PDF 3: detector figure of merit and references"
+  ],
+  "visual_checks": [
+    2,
+    3
+  ],
+  "evidence_gaps": [
+    "245 keV polarization constrains the sign of prior |delta(171)|=0.145. The size was not refit.",
+    "R and A have source-native formulas, and A is twice the conventional normalized count difference."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

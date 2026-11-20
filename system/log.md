@@ -6614,3 +6614,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Hamilton 的 ¹⁹⁴Pt 和 ¹⁹⁶Pt 支路
 
 - 核读 8 页，订正出版页码与 ¹⁹⁴Pt 的不对称误差，记录同哈希副本与 759 keV 未决支路。累计 55 份、7544 页，续读 ¹¹¹Cd。
+
+## 2026-11-21 — Kreische 与 Lampert 的 ¹¹¹Cd 极化选符号
+
+- 核读 3 页，核实 245 keV 分析量与 171 keV 引用幅值的角色。累计 56 份、7547 页，续读 Ewan 等的单片 Ge(Li)。
