@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Butler 的 Ge(Li) 标定与自旋选择
+
+- [[butler-1973-three-geli-compton-polarimeter]] 对账 6 页，核对表 1 的预测 \(P\) 与实测 \(A\)，以及 ³³S 的两磁子态搜索。分开 Wadsworth 1977 的引用和仪器原标定条件。
+- 累计 63 份、7616 页。续读 Williams 1975 引用的 Bass 等两晶体仪器。已核本地 11 页版的出版身份及 SHA。
+
 ## 2026-11-21 — Samanta 的现代 ⁶¹Ni 谱学
 
 - [[samanta-2019-single-particle-configurations-61ni]] 对账出版版 10 页。核实 \(R_{\rm ADO}\) 的 140°/115° 全角门与 \(R_{\rm DCO}\) 的交换角，保留 907.7/1014.6 keV 支路的原文观测。本文报告多极性，供仪器和结构比较，早期论文给的逐线 \(\delta\) 保持来源独立。

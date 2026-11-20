@@ -3,7 +3,7 @@ type: source
 title: "Construction and use of a three Ge(Li) Compton polarimeter"
 aliases: ["Butler 1973 three GeLi polarimeter", "Three-Ge(Li) Compton polarimeter"]
 created: 2026-09-20
-updated: 2026-10-20
+updated: 2026-11-21
 status: ai-draft
 review_status: unreviewed
 source_type: method
@@ -61,6 +61,12 @@ tags: [three-GeLi, Compton-polarimeter, detector-calibration, 33S, spin-parity-a
 2. Table 1 calibration 给出 Q 约 `0.44` at 847 keV、`0.274` at 1368 keV、`0.235` at 1779 keV、`0.09` at 4430 keV 等，显示 sensitivity 随能量下降（PDF p.500）。
 3. 拟合得到 `Q(E)≈0.84 Q′(E)`，其中 Q′ 是点散射/点探测器 Klein-Nishina estimate；finite detector size 造成约 16% 整体 sensitivity reduction（PDF p.501，式 (5)）。
 4. 对 `30Si(α,n)33S` 4868-keV level，angular distribution 给出 `a2≈0.41`、`a4≈−0.27`，单独只能支持 `7/2` 或 `11/2`；偏振测得 `P(90°)=0.56±0.15`，与 χ² 和 pure-E2 constraint 联合后选择 `11/2−`（PDF pp.501-502，Fig.6）。
+
+### 标定与混合比分支的证据边界
+
+印刷 500 页表 1 的 \(P\) 列是随各线角分布和已知多极性算出的标定输入，\(A\) 列才是仪器直接测得的方位不对称。式 5 的点几何计算和经验因子属于这套放置、能门和排除条件。[[wadsworth-1977-61ni-levels]] §2 引用本仪器和标定，并直接报告其 ⁶¹Ni 的 \(P\)，正文未逐线重列该次 \(Q(E)\) 或计数。两篇作方法回链时分别保留。
+
+¹⁹³³ keV γ 从 4868 keV 态跃迁到 2935 keV 态。对两个自旋假设，作者在仅 \(\lvert m\rvert=1/2,3/2\) 有可观布居的条件下搜索权重，并对 \(7/2^-\) 假设放开 \(\delta\)。\(11/2^-\) 假设用寿命限制 M3，径用纯 E2；报告的最优权重是 \(\omega(1/2)=1,\omega(3/2)=0\)。这是带强对齐假设的自旋判定例。对应级联未报告新的 E2/M1 数值。见印刷 501 页 §2.4 和图 6。
 
 ## Summary
 

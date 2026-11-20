@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000675",
+  "active_source": "catalogue:LIT-000335",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 62,
+  "completed_full_sources_this_run": 63,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T17:53:37.725653+00:00",
+  "updated_at": "2026-11-20T17:57:55.398022+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 7610,
-  "current_source_note": "knowledge/sources/samanta-2019-single-particle-configurations-61ni.md",
-  "next_action": "Read Butler et al. 1973, the Wadsworth 1977 three-Ge(Li) polarimeter reference, and check calibration-transfer conditions.",
+  "completed_primary_pages_this_run": 7616,
+  "current_source_note": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+  "next_action": "Read Bass et al. 1972 Nuclear Instruments and Methods 104 33–43, eleven pages. Contrast instrument configuration with Williams 1975 within cited bounds.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Samanta 2019: 61Ni RADO versus RDCO geometries, radiation character versus numeric delta, independent modern level scheme.",
-  "current_source_scientific_acceptance": "10 publisher pages and extra verification of same-transition evidence with earlier sources.",
+  "last_source_manager_closure": "Butler 1973: prediction versus measurement in calibration, 33S grid restrictions, and Wadsworth use.",
+  "current_source_scientific_acceptance": "Six publisher pages; prior full audit and current original table, spin grid and dependency checked.",
   "source_scoped_retrieval": "Locally held publisher PDF. No new download."
 }

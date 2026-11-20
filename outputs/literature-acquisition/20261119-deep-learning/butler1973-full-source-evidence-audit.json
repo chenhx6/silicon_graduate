@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-20T17:57:55.398022+00:00",
+  "source": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+  "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1973_Butler et al_Construction and use of a three Ge(Li) Compton polarimeter.pdf",
+  "raw_sha256": "1d19589bd41fb0b28230a3cb76cf8c240fc5f7899b1bd50a1c288bcfb8a3e7c2",
+  "primary_pdf_pages": 6,
+  "scientific_and_bibliographic_pages_covered": 6,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–3: geometry, polarization and asymmetry, gating and suppression",
+    "PDF 4–5: calibration Table 1, empirical response, 33S substate and spin analysis",
+    "PDF 6: conclusions and bibliography"
+  ],
+  "visual_checks": [
+    4,
+    5
+  ],
+  "evidence_gaps": [
+    "Table 1 P is predicted for calibration. The 61Ni run does not reproduce transferable line-level Q values in the paper.",
+    "The sulfur demonstration is a spin decision under a specific restricted substate assumption, with no independently fitted final E2/M1 number."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

@@ -6642,3 +6642,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Samanta 等的 ⁶¹Ni 谱学与实际角门
 
 - 对账 10 页，保留现代 ⁶¹Ni 的两类角比、线偏振与早期混合比的区别。累计 62 份、7610 页，续读 Butler 等。
+
+## 2026-11-21 — Butler 等的三晶体标定与 ³³S
+
+- 核对 6 页，分开标定预测、实测量和自旋判别约束，记录 Wadsworth 的引用范围。累计 63 份、7616 页，续读 Bass 等。
