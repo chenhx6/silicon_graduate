@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T13:03:18.414070+00:00",
+  "updated_at": "2026-11-20T13:10:29.363757+00:00",
   "completed_deep_read_sources_this_run": 0,
   "completed_primary_pages_this_run": 5854,
-  "current_source_note": "knowledge/sources/el-masri-2004-180re-high-k-thesis.md",
-  "next_action": "Easton 2011 192Tl MSc title and SHA confirmed. Read AFRODITE coincidence evidence, new band and literature lineage.",
+  "current_source_note": "knowledge/sources/easton-2011-192tl-afrodite-thesis.md",
+  "next_action": "Easton 2011 192Tl: compare the three new bands by energy and linking transitions with Ndayishimye and published analyses.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
   "last_source_manager_closure": "El-Masri thesis scientific and bibliographic coverage 153/156, plus scoped Surrey PRC crosswalk.",
-  "current_source_scientific_acceptance": "El-Masri complete at scientific/bibliographic scope. Shared experiments, versioned hindrances and tentative K=22+ recorded.",
-  "source_scoped_retrieval": "Surrey institutional copy of APS typeset PRC 72.054306 archived with a separate manifest."
+  "current_source_scientific_acceptance": "Easton targeted reading accepted. Thin-target analysis boundary and experiment lineage verified. No full-source credit.",
+  "source_scoped_retrieval": "Used locally archived Easton and Ndayishimye theses; no additional Easton download."
 }

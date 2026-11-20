@@ -6530,3 +6530,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — El-Masri 整源完成及期刊对账
 
 - 核读 153 页，从 Surrey 取得排印版，核实两条纳秒平均寿命、拟议 22+ 组态、同源实验与版本阻碍因子。整源累计 36 份、5854 页，续接 Easton 的 ¹⁹²Tl。
+
+## 2026-11-20 — Easton 的 ¹⁹²Tl 薄靶符合
+
+- 先核 374/377 keV 边门、初步谱图的自旋边界及 Ndayishimye 对同一谱学谱系的直接注明。整源累计 36 份、5854 页。

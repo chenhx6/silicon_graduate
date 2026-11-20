@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-11-20T13:10:29.363757+00:00",
+  "source": "knowledge/sources/easton-2011-192tl-afrodite-thesis.md",
+  "state": "targeted-scientific-reading-active",
+  "related_source": "knowledge/sources/ndayishimye-2016-tl192-tl193-chirality-thesis.md",
+  "key_locators": {
+    "easton": [
+      "PDF 11",
+      "PDF 83–87",
+      "PDF 101–102"
+    ],
+    "ndayishimye": [
+      "PDF 5",
+      "PDF 85–86",
+      "PDF 109",
+      "PDF 149"
+    ]
+  },
+  "shared_experimental_lineage": "Ndayishimye credits Easton as the initial extension of the 192Tl 167-MeV coincidence data. Preserve separate run and target thickness provenance.",
+  "established_scope": "Easton does not report angular distribution ratios or polarization asymmetries; no chiral partner was identified in the analyzed thin-target subset.",
+  "completion_credit": 0
+}
