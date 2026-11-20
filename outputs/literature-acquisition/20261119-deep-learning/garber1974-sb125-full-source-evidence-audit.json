@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-11-20T18:31:50.633936+00:00",
+  "source": "knowledge/sources/garber-1974-sb125-polarization-direction-correlation.md",
+  "raw_file": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_74_90072-4.pdf",
+  "raw_sha256": "63771a69f3c3e8627f2ecf78efb87d96e90b08386ddaea24b39ac131f66837f8",
+  "primary_pdf_pages": 11,
+  "scientific_and_bibliographic_pages_covered": 11,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–4: identity, prior spin choices, source separation, spectra and detector setup",
+    "PDF 5–8: directional coefficients, polarimeter response and reported alternative ratios",
+    "PDF 9–11: interpretation of polarization, residual branches and bibliography"
+  ],
+  "visual_checks": [
+    6,
+    7,
+    8
+  ],
+  "duplicate_excerpt": {
+    "path": "raw/papers/gpt/query/20261119-pdm-delta-broad/10.1016_0375-9474_74_90072-4.pdf",
+    "sha256": "0c6543a61b875c39369889067a7b954cb9dbcef4275d239212174b12f1613672",
+    "size": 52798,
+    "hash_basis": "fresh-hash",
+    "source_role": "title-page-excerpt-of-verified-edition"
+  },
+  "evidence_gaps": [
+    "332-keV double roots survive polarization and conversion. Model agreement favours higher E2 but does not exclude the lower branch.",
+    "Table 3 P is a label for the analysed line; measured beta is a ratio. 1067-keV delta uses a pure E1 companion.",
+    "No in-beam sigma/I. Distinguish earlier decay parents and separate source forms."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

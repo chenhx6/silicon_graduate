@@ -74,6 +74,7 @@ updated: 2026-11-21
 - [[diddens-1958-co56-oriented-fe56-polarization]] — ⁵⁶Fe 1.75/2.02 MeV 的独立与合窗偏振证据、混合比及母态取向。
 - [[rikovska-1983-irfe-pt192-polarization]] — ¹⁹²Pt 的三条联合混合比，区分 ¹⁹⁴Pt 的纯方向分布。
 - [[kreische-lampert-1974-cd111-linear-polarization]] — ¹¹¹Cd 的薄晶体极化、纯 E2 确认与先行跃迁符号检验。
+- [[garber-1974-sb125-polarization-direction-correlation]] — ¹²⁵Sb 的方向–极化联合结果与 332 keV 保留双解。
 - [[hungerford-1979-ill-angular-correlation-164dy]] — U001 章节原件与角关联方法范围。
 - [[madiba-2008-190tl-dco-polarization-thesis]] — 首篇完整正文阅读：190Tl 实验链、门依赖、不对称度与指认边界；形式定义原始出处尚待核对。
 - [[li-2016-algebraic-collective-core-quasiparticle-thesis]] — 软/刚核芯与准粒子耦合、135Pr及109Pd比较、ACM实现与原件公式边界；不新增独立实验。

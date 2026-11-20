@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Garber 的 ¹²⁵Sb 极化与保留双解
+
+- [[garber-1974-sb125-polarization-direction-correlation]] 核读 11 页。332 keV 双根都与原极化比相容，分别保留实验值及理论偏好。1067 keV 数值的纯 E1 伴线假设和两种极化角色已核。
+- 累计 69 份、7697 页。续读 Rolfs 的 ¹⁸F 极化及混合比，1972 年本地出版 PDF 9 页，身份与 SHA 已对账。
+
 ## 2026-11-21 — Taras 的粒子–γ 接受度与方向双根
 
 - [[taras-1970-particle-gamma-angular-correlations]] 对账 11 页，保留 5% 假设布居、粒子角接受度与 γ 立体角的区别，以及 ³⁵Cl 7.84→4.17 MeV 的方向双根。

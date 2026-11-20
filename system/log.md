@@ -6666,3 +6666,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Taras 的方向曲线与有限粒子接受度
 
 - 完成 11 页。明确 5% 布居假设及 ³⁵Cl 方向观测的两支。累计 68 份、7686 页，续读 Garber 等。
+
+## 2026-11-21 — Garber 等的 ¹²⁵Sb 方向和极化关联
+
+- 核完 11 页，分开实测比值、校准与 332 keV 双支，续读 Rolfs 的 ¹⁸F。累计 69 份、7697 页。

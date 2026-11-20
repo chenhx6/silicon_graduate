@@ -96,6 +96,8 @@ The analyzing power is a Compton-scattering property and depends on photon energ
 
 [[kreische-lampert-1974-cd111-linear-polarization]] 利用薄 NaI 晶体的方位逃逸差。测的是 245 keV 线的偏振，可在固定既有 \(\lvert\delta_{171}\rvert\) 时选先行 171 keV 线的符号。其 \(R\) 和含系数 2 的不对称 \(A\) 需按原式解释。见原刊 §§3–4。
 
+[[garber-1974-sb125-polarization-direction-correlation]] 的 332 keV 例保留两组 E2/M1 混合比。两组计算的极化计数比与实验误差重叠，采用不同的级联门后仍然如此。表 3 用 \(P\) 标签标被分析的线，实测列为原生计数比 \(\beta\)。见原刊 §§3.1–4。
+
 ## Detector Implementations
 
 - Clover and segmented HPGe arrays provide compact Compton event selections.
