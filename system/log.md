@@ -6606,3 +6606,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Rikovska 等的取向 Ir/Fe
 
 - 核读 2 页，区分 ¹⁹²Pt 的极化联解与 ¹⁹⁴Pt 的温度方向分布。累计 53 份、7524 页，续读 Hamilton 与 Davies ¹⁹²Pt 出版版。
+
+## 2026-11-21 — Hamilton 与 Davies 的 ¹⁹²Pt 级联分解
+
+- 核读 12 页，订正 DOI，分开复合极化与逐线混合比，记录按阶相减的不稳定性。累计 54 份、7536 页，续读 Hamilton 1969。

@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-11-20T17:09:28.571181+00:00",
+  "source": "knowledge/sources/hamilton-1968-angular-correlations-192pt.md",
+  "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1968_Hamilton et al_Angular correlation measurements in 192Pt.pdf",
+  "raw_sha256": "5a08c45e80c6793456ad892f68e97bf471c86b4ec69f57fe0920d179ec477f77",
+  "primary_pdf_pages": 12,
+  "scientific_and_bibliographic_pages_covered": 12,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–4: source, measured complex groups, rank-wise subtraction and polarimetry apparatus",
+    "PDF 5–8: complex spectra, corrections and cascades, Tables 1–2",
+    "PDF 9–12: graphical branches, mixed versus pure contributions, final delta and bibliography"
+  ],
+  "visual_checks": [
+    8,
+    11
+  ],
+  "evidence_gaps": [
+    "Old collection DOI 10.1016/0375-9474(68)90041-3 resolves as Crossref HTTP 404. Publisher PII and Elsevier registration confirm 90710-0.",
+    "Polarization values are for complexes, with transition-specific outputs inferred after separation and prior assumptions.",
+    "Signs change with temporal role for 296 keV. The 1983 signs need a source-specific comparison before merging."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

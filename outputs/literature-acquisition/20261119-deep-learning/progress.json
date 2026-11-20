@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.1007/bf02159712",
+  "active_source": "doi:10.1016/0375-9474(68)90710-0",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 53,
+  "completed_full_sources_this_run": 54,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T16:59:36.687813+00:00",
+  "updated_at": "2026-11-20T17:09:28.571181+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 7524,
-  "current_source_note": "knowledge/sources/rikovska-1983-irfe-pt192-polarization.md",
-  "next_action": "Read the locally held 12-page Hamilton and Davies 1968 Nuclear Physics A122 165–176 (PII and DOI 10.1016/0375-9474(68)90710-0). Correct the legacy queue key and preserve source-native delta signs.",
+  "completed_primary_pages_this_run": 7536,
+  "current_source_note": "knowledge/sources/hamilton-1968-angular-correlations-192pt.md",
+  "next_action": "Read Hamilton 1969, Nuclear Physics A136, 257–264, 8 publisher pages. Audit 194/196Pt differences, polarimeter and decay-parent conditions.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Rikovska 1983: original 192Pt Table I and distinct 194Pt angular-only results.",
-  "current_source_scientific_acceptance": "All two publisher pages, with visual confirmation of Table I and its input/output columns.",
-  "source_scoped_retrieval": "Locally held publisher PDF. No new download; publisher DOI deposit checked for the cited 1968 source."
+  "last_source_manager_closure": "Hamilton and Davies 1968: source DOI reconciled with publisher, cascade-group polarization kept distinct from signed line mixing ratio and rank-4 conditioning.",
+  "current_source_scientific_acceptance": "All 12 publisher pages, with principal figures and Table 2 verified or reread for the audit.",
+  "source_scoped_retrieval": "Local publisher PDF, Elsevier DOI registration confirmed. No new full-text download."
 }

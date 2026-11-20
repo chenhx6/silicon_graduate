@@ -9,6 +9,10 @@ U001 已在整书中定位；U011 是介子混合的无关命中，不能用于�
 新版取得与实际阅读范围应回到 `knowledge/sources/` 和本地原件核对。
 不在此 Git 基线整理中重新解释或拟合已经交付的原文数值。
 
+2026-11-21 的书目勘误：交付快照和工作簿的 `PT68` 条目应使用
+`10.1016/0375-9474(68)90710-0`。论文为 *Nuclear Physics A* 122, 165–176。
+核验依据见 [PT68 原件条目](../../../knowledge/sources/hamilton-1968-angular-correlations-192pt.md)。
+
 原文 PDF、SI、图表裁剪和访问日志保留在本地 `raw/`，不随本数据快照重新分发。
 worker 初稿、排除包和冗余 collection.json 不发布；source-audit.json
 保留已整理的字段修正和定位，不能替代原件或表示全文学习完成。

@@ -162,9 +162,9 @@ DOI: `10.1016/s0031-8914(59)96977-0`；原件情况：出版全文/原始附件�
 
 Angular correlation measurements in 192Pt
 
-DOI: `10.1016/0375-9474(68)90041-3`；原件情况：已取得出版全文（本地原件）。
+DOI: `10.1016/0375-9474(68)90710-0`；原件情况：已取得出版全文（本地原件）。
 本地原件/已标明的元数据：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1968_Hamilton et al_Angular correlation measurements in 192Pt.pdf`。
-原文定位：Table 2 p.172；正文p.175；Figs.4–5。
+原文定位：Table 2 p.172；正文 p.175；Figs.4–5。复合谱的 \(P\) 和线级 \(\delta\) 分别见 [[hamilton-1968-angular-correlations-192pt]]。
 
 ## R001
 

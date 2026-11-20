@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Hamilton 与 Davies 的 ¹⁹²Pt 复合谱
+
+- [[hamilton-1968-angular-correlations-192pt]] 复核 12 页，逐项对账复合组 \(P\)、线级 \(\delta\)、时序反号和 604–316 keV 的四阶误差。旧 DOI 已在来源页、汇编页和学习队列订正，历史交付快照旁另附勘误。
+- 累计 54 份、7536 页。续核 Hamilton 1969 的 ¹⁹⁴Pt、¹⁹⁶Pt。出版 PDF 完整 8 页。题页目视为 257–264 页，原 PDF 的错误文字映射曾使索引误读成 251–264。
+
 ## 2026-11-21 — Rikovska 等的 Ir/Fe 取向与 Pt 极化
 
 - [[rikovska-1983-irfe-pt192-polarization]] 核读 2 页。三条 ¹⁹²Pt 原表混合比保留符号。¹⁹⁴Pt 的三条仅角分布结果分开。
