@@ -6678,3 +6678,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Ohya 等的低能极化与 ¹²⁵Te
 
 - 核读 5 页，保存 176 keV 极化和两组混合比。累计 71 份、7711 页，续读 Hayes 的 ¹⁷⁸Hf 学位原件。
+
+## 2026-11-21 — Hayes 的激发产额、活度与矩阵元
+
+- 对账原件 289/293 页，核对两次实验各自的产额定义、活度、弱支路和矩阵元的相关限值。Gemini 网关 502、上游 403。累计 72 份、8000 页，续读 Rupnik。

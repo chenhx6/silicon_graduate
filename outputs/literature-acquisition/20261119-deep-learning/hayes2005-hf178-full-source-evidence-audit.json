@@ -1,0 +1,84 @@
+{
+  "checked_at": "2026-11-20T19:14:31.812426+00:00",
+  "source": "knowledge/sources/hayes-2005-k-conservation-178hf.md",
+  "raw_file": "raw/theses/degree-dissertation/violations of K-Conservation in 178Hf.pdf",
+  "raw_sha256": "4982b80a3e830cfe034e51428d2467c7d94852607d8dbb773e1b66a820ebddc0",
+  "primary_pdf_pages": 293,
+  "scientific_and_bibliographic_pages_covered": 289,
+  "excluded_pdf_pages": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "scope": [
+    "PDF 1, 6–68: title, abstract, lists, K formalism, transition matrices and Coulomb analysis",
+    "PDF 69–145: Experiment I data reduction, coincidence yields, coupled fits, 6+ branching and transfer checks",
+    "PDF 146–204: Experiment II activation setup, dose, target effects, correlated activities and combined fit",
+    "PDF 205–274: level scheme, matrix-element tables, isomer paths and K mixing interpretation",
+    "PDF 275–293: final discussion, conclusions and references"
+  ],
+  "visual_checks": [
+    1,
+    135,
+    189,
+    203,
+    214,
+    217,
+    233,
+    235,
+    245
+  ],
+  "access": {
+    "per_page_ocr": 293,
+    "text_layer": "custom Type 3 mapping; incompatible with direct extraction"
+  },
+  "evidence_gaps": [
+    "Strongly correlated matrix element sets. Several 16+ band values are constrained by feeding bounds and model choices.",
+    "Measured Ta activation cross sections and fitted Xe population cross sections are distinct. Possible 14- feeding was not included in the final fit.",
+    "1174 versus 1147 keV isomer band heading differs within the thesis.",
+    "APS Harvest full text for cited PRL 2002 returned 401. The PRL is bibliographic here."
+  ],
+  "gemini": {
+    "task_id": "HAYES2005-ACTIVATION-186-204",
+    "requested_model": "agy-cli/gemini-3.8-flash",
+    "requested_reasoning": "high",
+    "page_ids": [
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204
+    ],
+    "image_page_ids": [
+      189,
+      193,
+      196,
+      198,
+      199,
+      202,
+      203
+    ],
+    "accepted_findings": 0,
+    "http_status": 502,
+    "upstream_403": true,
+    "access_disabled": false,
+    "elapsed_seconds": 66.84
+  },
+  "reader": "Codex",
+  "PDM_run": false
+}
