@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-20T19:48:37.292517+00:00",
+  "source": "knowledge/sources/bourgeois-1978-au187-decay-conversion.md",
+  "raw_file": "raw/papers/1-s2.0-0375947478901847-main.pdf",
+  "raw_sha256": "4d0f586b6493553f95899b244280f6e07a6836b6c8f715f977d3afd04a878223",
+  "primary_pdf_pages": 21,
+  "scientific_and_bibliographic_pages_covered": 21,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–5: identity, nuclear-systematics context, source and spectroscopy methods",
+    "PDF 6–14: Hg activity, conversion and coincidence tables, lifetimes and Au level scheme",
+    "PDF 15–21: model comparison and limits, references"
+  ],
+  "visual_checks": [
+    9,
+    10
+  ],
+  "evidence_gaps": [
+    "Original 376.3-keV row prints E_i=469.9 keV, incompatible with E_f+E_gamma and the neighboring 496.9-keV line placement. Preserve printed and reconciled identity.",
+    "alpha_K is a decay measurement, independent from Guo in-beam polarization. No phase sign or new P in this source."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

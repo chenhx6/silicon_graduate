@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000257",
+  "active_source": "catalogue:LIT-000021",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 73,
+  "completed_full_sources_this_run": 74,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T19:40:08.629017+00:00",
+  "updated_at": "2026-11-20T19:48:37.292517+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 8254,
-  "current_source_note": "knowledge/sources/rupnik-1994-hg187-au187-decay-thesis.md",
-  "next_action": "Read Bourgeois et al. 1978 Nuclear Physics A295 424–444 (21 pages), compare 376 and 462 keV conversion records from the original.",
+  "completed_primary_pages_this_run": 8275,
+  "current_source_note": "knowledge/sources/bourgeois-1978-au187-decay-conversion.md",
+  "next_action": "Read Sensharma et al. (2020) 187Au six-page publisher article and compare acquisition, delta and historical conversion evidence.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Rupnik 1994: verify the 187mHg parent and exact original alpha_K inputs, retain decay and model boundaries.",
-  "current_source_scientific_acceptance": "254/264 pages of research and bibliographic coverage. Table 4.5 verified directly in rotated publisher scan.",
-  "source_scoped_retrieval": "Locally held user-supplied LSU PDF. No new full text."
+  "last_source_manager_closure": "Bourgeois 1978: full conversion and spectroscopy, both 187Au conversion entries verified in original and cross-linked to Guo comparison.",
+  "current_source_scientific_acceptance": "All 21 publisher pages, with Table 3 checked directly.",
+  "source_scoped_retrieval": "Locally held user-supplied publisher PDF. No new full text."
 }

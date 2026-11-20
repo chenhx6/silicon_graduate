@@ -6686,3 +6686,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Rupnik 的 ¹⁸⁷Au 原始转换记录
 
 - 对账 254/264 页，核对表 4.5 的两条转换系数、母态分离和 E0 的判据。累计 73 份、8254 页，续读 Bourgeois 等。
+
+## 2026-11-21 — Bourgeois 等的 ¹⁸⁷Au 转换比较
+
+- 对账 21 页，验原表两条转换系数及 376.3 keV 能级异文，回链 Guo。累计 74 份、8275 页，续读 Sensharma 等。

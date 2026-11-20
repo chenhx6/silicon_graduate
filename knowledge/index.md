@@ -78,6 +78,7 @@ updated: 2026-11-21
 - [[rolfs-1972-f18-parity-polarization]] — ¹⁸F 的极化判宇称、混合类型与原始/引用数值。
 - [[ohya-1989-sili-polarimeter-te125]] — 低能 Si(Li) 极化标定与 ¹²⁵Te 的 176 keV 双支。
 - [[rupnik-1994-hg187-au187-decay-thesis]] — ¹⁸⁷Hg 衰变分离与 ¹⁸⁷Au 376.3/462.1 keV 转换原表。
+- [[bourgeois-1978-au187-decay-conversion]] — ¹⁸⁷Au 的独立转换谱、低能衰变及 376.3 keV 排印异文。
 - [[hungerford-1979-ill-angular-correlation-164dy]] — U001 章节原件与角关联方法范围。
 - [[madiba-2008-190tl-dco-polarization-thesis]] — 首篇完整正文阅读：190Tl 实验链、门依赖、不对称度与指认边界；形式定义原始出处尚待核对。
 - [[li-2016-algebraic-collective-core-quasiparticle-thesis]] — 软/刚核芯与准粒子耦合、135Pr及109Pd比较、ACM实现与原件公式边界；不新增独立实验。
