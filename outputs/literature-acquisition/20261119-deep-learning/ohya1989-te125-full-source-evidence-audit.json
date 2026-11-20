@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-11-20T18:45:42.520336+00:00",
+  "source": "knowledge/sources/ohya-1989-sili-polarimeter-te125.md",
+  "raw_file": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0168-9002_89_90636-0.pdf",
+  "raw_sha256": "0c5ab7bf5918acf969ffeddfdc8e134fdad2f049e97bb220ff19aa963cc813af",
+  "primary_pdf_pages": 5,
+  "scientific_and_bibliographic_pages_covered": 5,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–3: detector, simulation comparison, original polarization framework and held geometry",
+    "PDF 4–5: original anisotropies, measured P, experimental H2 and two delta outcomes, bibliography"
+  ],
+  "visual_checks": [
+    1,
+    4
+  ],
+  "evidence_gaps": [
+    "Two printed delta branches remain with overlapping ranges. The 125Sb source is different from the daughter 125Te transition.",
+    "Material advantage below 300 keV is a geometry-dependent simulated figure of merit. No in-beam sigma/I."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

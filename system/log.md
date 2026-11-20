@@ -6674,3 +6674,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Rolfs 的 ¹⁸F 原文极化
 
 - 核读 9 页，区分实测 P、双根及引用的同宇称混合。累计 70 份、7706 页，续读 Ohya 等。
+
+## 2026-11-21 — Ohya 等的低能极化与 ¹²⁵Te
+
+- 核读 5 页，保存 176 keV 极化和两组混合比。累计 71 份、7711 页，续读 Hayes 的 ¹⁷⁸Hf 学位原件。

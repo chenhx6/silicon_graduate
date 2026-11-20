@@ -76,6 +76,7 @@ updated: 2026-11-21
 - [[kreische-lampert-1974-cd111-linear-polarization]] — ¹¹¹Cd 的薄晶体极化、纯 E2 确认与先行跃迁符号检验。
 - [[garber-1974-sb125-polarization-direction-correlation]] — ¹²⁵Sb 的方向–极化联合结果与 332 keV 保留双解。
 - [[rolfs-1972-f18-parity-polarization]] — ¹⁸F 的极化判宇称、混合类型与原始/引用数值。
+- [[ohya-1989-sili-polarimeter-te125]] — 低能 Si(Li) 极化标定与 ¹²⁵Te 的 176 keV 双支。
 - [[hungerford-1979-ill-angular-correlation-164dy]] — U001 章节原件与角关联方法范围。
 - [[madiba-2008-190tl-dco-polarization-thesis]] — 首篇完整正文阅读：190Tl 实验链、门依赖、不对称度与指认边界；形式定义原始出处尚待核对。
 - [[li-2016-algebraic-collective-core-quasiparticle-thesis]] — 软/刚核芯与准粒子耦合、135Pr及109Pd比较、ACM实现与原件公式边界；不新增独立实验。

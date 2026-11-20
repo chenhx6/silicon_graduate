@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Ohya 的低能极化与 ¹²⁵Te
+
+- [[ohya-1989-sili-polarimeter-te125]] 核读 5 页，核对 176 keV 的取向乘积、偏振、\(H_2\) 与两组混合比。保留 ¹²⁵Sb 源和 ¹²⁵Te 子核的角色。
+- 累计 71 份、7711 页。续读 Hayes 的 ¹⁷⁸Hf 博士论文（University of Rochester，2005）。本地 293 页 PDF 题页和 SHA 已核，文字层需恢复或用渲染/OCR。
+
 ## 2026-11-21 — Rolfs 的 ¹⁸F 宇称与角分布双解
 
 - [[rolfs-1972-f18-parity-polarization]] 核读 9 页，区分 3134→1081 的纯偶极极化、两条 M2/E1 混合的方向双解和用作比较的外引 E2/M1。
