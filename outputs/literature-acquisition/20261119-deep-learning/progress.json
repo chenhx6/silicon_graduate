@@ -338,7 +338,8 @@
     "MICHT13-COMPLETE-SCIENTIFIC-SCOPE",
     "JAM14-TRANSFER-TARGETED",
     "WU24-GAMMASPHERE-CROSSWALK",
-    "JAM14-COMPLETE-SCIENTIFIC-SCOPE"
+    "JAM14-COMPLETE-SCIENTIFIC-SCOPE",
+    "ND16-193TL-ADO-POLARIZATION-AND-BAND-CROSSWALK"
   ],
   "completed_full_sources_this_run": 21,
   "PDM_run": false,
@@ -348,14 +349,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T08:28:57.838366+00:00",
+  "updated_at": "2026-11-20T08:56:25.212748+00:00",
   "completed_deep_read_sources_this_run": 0,
   "completed_primary_pages_this_run": 3920,
-  "current_source_note": "knowledge/sources/jamieson-2014-cd112-neutron-transfer-thesis.md",
-  "next_action": "Ndayishimye 2016: read 193Tl spectroscopy and multiple chiral-band assignments, then reconcile article dependencies.",
+  "current_source_note": "knowledge/sources/ndayishimye-2016-tl192-tl193-chirality-thesis.md",
+  "next_action": "Continue 192Tl results/doublet, compare model conditions and bring source to full coverage.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
   "last_source_manager_closure": "Jamieson: reaction apparatus, tabulations and 65 appendix pages checked.",
-  "current_source_scientific_acceptance": "Jamieson original scientific scope 178/179; Ndayishimye identity and archive verified.",
-  "source_scoped_retrieval": "Wu 2024 APS accepted PDF archived; three Cd publication abstracts archived."
+  "current_source_scientific_acceptance": "Ndayishimye 193Tl targeted original-page and three publication version audit. 192Tl and remainder pending.",
+  "source_scoped_retrieval": "Three official publisher versions added for the 193Tl interpretation and band-number crosswalk."
 }

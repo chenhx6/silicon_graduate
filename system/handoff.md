@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Ndayishimye 的 ¹⁹³Tl 版本核验
+
+- [[ndayishimye-2016-tl192-tl193-chirality-thesis]] 已核角分布、偏振不对称和 ¹⁹³Tl 三条带。学位论文 Bands 2、3、5 对应 2019 年 Bands 2、3、4。三份出版 PDF 已留档，明确区分原实验、分类测量、同数据的后续带解释。¹⁹²Tl 及其余科研页继续核。
+- 整源口径 21 份、3920 页。PDCO/PDM、Hamilton 和 PDM 软件发布属于另一会话，提交按路径隔离。
+
 ## 2026-11-20 — Jamieson 转移结果与 Wu 录用稿
 
 - [[jamieson-2014-cd112-neutron-transfer-thesis]] 已核 178/179 页科研、书证与附录。2373/2818 keV 的 \(5^-\)/\(6^-\) 强转移、谱强度约定、独立的增强 E2、狭缝及正文/表比率差异已登记。三份期刊摘要和依赖关系已留档。

@@ -1,0 +1,46 @@
+{
+  "updated_at": "2026-11-20T08:56:25.212748+00:00",
+  "work_id": "bytes:1041c1c448c65b888df5e3f8b1b9367a83a5799d3c2a45f72efdc4c5adf5258e",
+  "source_note": "knowledge/sources/ndayishimye-2016-tl192-tl193-chirality-thesis.md",
+  "auditor": "Codex",
+  "scientific_coverage_complete": false,
+  "covered_sections": [
+    "Identity PDF 1–2",
+    "Angular distribution and linear asymmetry PDF 75–79",
+    "193Tl apparatus, transition table and bands PDF 85–92, 98–100, 106–108, 123–127, 131–139, 144–145",
+    "2017, 2018 and 2019 published figures and method/interpretation sections for same-experiment crosswalk"
+  ],
+  "evidence_gaps": [
+    "Sequential review of remaining apparatus, 192Tl complete results, model details and citations pending.",
+    "Calibrated linear P and numerical joint inversion delta not reported in the cited 193Tl sections.",
+    "The 810 keV asymmetry differs across versions; event-level cause not established."
+  ],
+  "original_visual_pdf_pages": [
+    133
+  ],
+  "conference_2017_visual_pdf_pages": [
+    3
+  ],
+  "journal_2019_visual_pdf_pages": [
+    2
+  ],
+  "archive_manifest": "raw/papers/gpt/query/20261120-tl193-rotational-interpretation/manifest.json",
+  "band_number_crosswalk": {
+    "2016_thesis": [
+      2,
+      3,
+      5
+    ],
+    "2017_conference": [
+      1,
+      2,
+      3
+    ],
+    "2019_PRC": [
+      2,
+      3,
+      4
+    ]
+  },
+  "counting_boundary": "The 21 whole works and 3920 pages exclude the targeted review of the Tl thesis and publication comparisons."
+}
