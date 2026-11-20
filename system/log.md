@@ -6658,3 +6658,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Taras 的相位定义与 ³⁵Cl 谱系
 
 - 核对 24 页，连接 1969 年复用与 1970 年不同的双线实例。累计 66 份、7667 页，续读 Vaillancourt 与 Taras。
+
+## 2026-11-21 — Vaillancourt 与 Taras 的三多极公式
+
+- 对账 8 页，核实观测线干涉、未观测级联传播及消参边界。累计 67 份、7675 页，续读 Taras 的粒子–γ 角关联。

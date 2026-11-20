@@ -3,7 +3,7 @@ type: source
 title: "Vaillancourt and Taras 1974 - Polarization and angular-distribution formulas for three multipoles"
 aliases: [Vaillancourt Taras 1974 three multipoles]
 created: 2026-09-21
-updated: 2026-10-20
+updated: 2026-11-21
 status: ai-draft
 review_status: unreviewed
 source_type: theory-method
@@ -75,6 +75,10 @@ tags: [three-multipole, polarization, angular-distribution, phase-convention]
 | VT74-D17-12 | 本篇p=J0/J90是强度比，末段p′才差和；N=N90/N0、R=σ90/σ0，Eq56经转换精确得A=QP，Q=(R−1)/(R+1)。与EW69 ratio解释相容但不证明EW69作者意图/Ref9body。 | observable-dictionary | direct-and-self-audit | printed339 Eq53–56 | true |
 | VT74-D17-13 | Eq54全EM互换对应p倒数、p′反号；不在字面ratio上直接负号。不称纯/混合P正负能自动唯一δ/Jπ。 | convention-control | direct-and-self-audit | printed339 Eq54 | true |
 | VT74-D17-14 | MethodII须particle detector沿symmetryaxis、P和correlation用同statisticaltensor，作者normallyunique属于有条件预期，不是原数据已消所有branch或universality定理。 | companion-and-identifiability-boundary | direct-and-self-audit | printed339–340 Conclusions | true |
+
+### 观测到的跃迁与未观测级联
+
+式 39、49–51 对被分析的三多极跃迁保留三个干涉项，式 42–45 对完整未观测跃迁则按多极强度加权传播张量。式 52 用已测角系数消去共同张量时，必须检查相应角分布系数的理论分母。分母为零的秩仍可能贡献偏振。文末提出 Method II 的偏振和方向关联应使用同一沿对称轴的粒子门。这个结构与 [[taras-1971-phase-defined-polarization-formulas]] 的双多极消参相连。³⁵Cl 与 ³⁷Ar 候选线只用于说明加入第三多极分量的动机，本篇没有报告重新测量。
 
 ## Summary
 

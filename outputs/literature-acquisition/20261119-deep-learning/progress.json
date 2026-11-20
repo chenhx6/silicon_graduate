@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000718",
+  "active_source": "catalogue:LIT-000734",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 66,
+  "completed_full_sources_this_run": 67,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T18:15:23.853817+00:00",
+  "updated_at": "2026-11-20T18:19:23.282245+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 7667,
-  "current_source_note": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
-  "next_action": "Read the eight-page Vaillancourt–Taras 1974 three-multipole formula article and separate its inputs from examples in Taras 1971.",
+  "completed_primary_pages_this_run": 7675,
+  "current_source_note": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+  "next_action": "Read the eleven-page Taras 1970 NIM85, 313–323, particle–gamma angular correlations and finite-size effects.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Taras 1971: reconcile full formalism scope, the 1969 experimental reuse and the separate 1970 doublet case.",
-  "current_source_scientific_acceptance": "24 publisher pages, scope of prior actual-page audit reconciled, Table 5 and decisive Figure 2 visually reviewed.",
-  "source_scoped_retrieval": "Locally held publisher PDF; bibliographic reference comparison only."
+  "last_source_manager_closure": "Vaillancourt and Taras 1974: observed interference, unobserved feed and the conditional tensor cancellation.",
+  "current_source_scientific_acceptance": "All eight publisher pages, previous actual-page audit checked against the formulas and distinct Th/P definitions.",
+  "source_scoped_retrieval": "Locally held publisher PDFs. No new download."
 }
