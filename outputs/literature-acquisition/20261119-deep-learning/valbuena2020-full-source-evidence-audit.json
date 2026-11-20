@@ -1,0 +1,56 @@
+{
+  "work_id": "bytes:bea3e089821deaf74a6f7369b006a2df029b6467bedcbb53c4b5a2ad7ad78dd4",
+  "source_note": "knowledge/sources/valbuena-2020-ru98-beta-decay-thesis.md",
+  "mode": "targeted crosswalk",
+  "auditor": "Codex",
+  "covered_sections": [
+    "PDF 1–2, 7–17: identity, indexes and vibrator question",
+    "PDF 18–43: IBM limits, phonons, E2 and beta-decay notation",
+    "PDF 44–68: instrumentation and analyze/normalize yields",
+    "PDF 69–94: spectra, impurities, spin and structure comparisons",
+    "PDF 95–104: appendices and bibliography"
+  ],
+  "scientific_coverage_complete": true,
+  "remaining": [
+    "Event-level differences between thesis and published branch tables remain unverified.",
+    "Absolute E2 inherits literature lifetime and multipolarity; no joint linear P and numerical delta extraction.",
+    "SCCM shape ordering versus proposed spin-band interpretation remains unresolved."
+  ],
+  "archive_manifest": "raw/papers/gpt/query/20261120-ru98-valbuena-published-crosswalk/manifest.json",
+  "key_visual_pages": {
+    "thesis": [
+      67,
+      68,
+      71,
+      82
+    ],
+    "publisher_pdf": [
+      3
+    ]
+  },
+  "relative_e2_check": {
+    "thesis": 124.24122675852436,
+    "publisher": 51.69961085396511,
+    "basis": "Pure E2 branches of same upper spin-2 level; printed branch values under photon convention."
+  },
+  "updated_at": "2026-11-20T09:49:36.311160+00:00",
+  "page_count": 104,
+  "pages_checked": 100,
+  "checked_pdf_ranges": [
+    [
+      1,
+      2
+    ],
+    [
+      7,
+      104
+    ]
+  ],
+  "excluded_non_scientific_pages": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "next_work": "bytes:1e711e219ee9eed9b4a78159af756910747d27e86e1ca266fdc53a9f0fa855e9"
+}

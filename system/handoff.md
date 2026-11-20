@@ -3,10 +3,10 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
-## 2026-11-20 — Valbuena ⁹⁸Ru 第一批
+## 2026-11-20 — Valbuena ⁹⁸Ru 科研范围核验
 
-- [[valbuena-2020-ru98-beta-decay-thesis]] 核对 1817 keV 弱分支、2013/2428 keV 的独立转移自旋依据及 Garrett 期刊表。归档一份出版 PDF。学位表和期刊表的分支定量差异保留，已有整源计数 22 份、4071 页。
-- 当前接续为 Tape Station 排序校正、污染归属、完整科研章节及附录。PDCO/PDM 和 Hamilton 保持另一会话隔离。
+- [[valbuena-2020-ru98-beta-decay-thesis]] 已核 100/104 页科研、书证和附录。对照一份出版 PDF，保留 1817 keV 弱分支、2013/2428 keV 的独立转移自旋依据及出版表差异。补入不同计数口径、分支误差导数及 \(\tau/T_{1/2}\) 条件。
+- 整源累计 23 份、4171 页。下一源 Rother 2011 的 ⁶²,⁶⁴,⁶⁶Fe 寿命论文，已核 107 页原件首页与 2011 年 4 月 8 日口试日期。PDCO/PDM 和 Hamilton 保持另一会话隔离。
 
 ## 2026-11-20 — Ndayishimye 科研与版本核验
 

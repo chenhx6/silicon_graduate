@@ -502,6 +502,12 @@ across the thesis, proceedings and journal article. The journal's
 competition between long-axis and intermediate-axis rotation is a
 model interpretation of the same experimental lineage.
 
+[[valbuena-2020-ru98-beta-decay-thesis]] gives a source dependency across
+gamma coincidence data, an independent (p,t) spin constraint and two
+reports using the same evidence. The branching table changed at publication.
+The inferred relative E2 strength should be read with that table's own
+branching convention, and the SCCM comparison retains a shape-ordering tension.
+
 Return any material numerical or methodological discrepancy to its source locator; revise the interpretation if the original contradicts the extraction or proposed classification.
 
 ## Open Questions

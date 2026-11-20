@@ -6468,6 +6468,8 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - 归档 Garrett 等出版原文。核对 ⁹⁸Rh 衰变分支与独立 (p,t) 的自旋证据，按版本保留表 4.5 和表 1 的差异。整源覆盖仍在推进。
 
+- 补核装置、污染、理论与公式、书证及附录，科学范围 100 页。累计 23 份、4171 页，并续到 Rother。
+
 ## 2026-11-20 — Agent 工程能力适配
 
 - 从 12 个固定 GitHub 来源吸收开发、隔离、验收和实验做法。`agent_checks.py` 提供本地原日志回执、FTS5 查询、结果断言、Python 调用点与结构对比。来源、许可、文件哈希和用法见 `system/workflows/agent-engineering.md`。
