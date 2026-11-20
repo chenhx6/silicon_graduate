@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-11-20T17:31:42.111403+00:00",
+  "source": "knowledge/sources/williams-1975-61ni-low-lying-levels.md",
+  "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/1975_Williams et al_A study of the low-lying levels in 61Ni.pdf",
+  "raw_sha256": "bfdcc111891a0f88c3ab01df131c438337497fc0d456e8ca3fa6a09912f0a02e",
+  "primary_pdf_pages": 15,
+  "scientific_and_bibliographic_pages_covered": 15,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–5: experiment, neutron-tagged DSAM and correlations, singles polarization and restricted populations, proton-gamma coincidences",
+    "PDF 6–7: asymmetric lifetimes, experimental branches, mixing bounds and theory labels in original Table 1",
+    "PDF 8–13: branch polarization, spin alternatives and supporting lifetime arguments, 2123/2125 doublet",
+    "PDF 14–15: strengths, model scope and references"
+  ],
+  "visual_checks": [
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "evidence_gaps": [
+    "Coincidence Method II assumes only m=±1/2. The singles polarization and angular analysis instead restricts the magnetic substate populations using a statistical calculation. No Gaussian sigma/I is reported.",
+    "Table 1 and running text differ for 2125 keV lifetime (45 vs 48 fs) and dominant branch language. Separate E1/M2 from E2/M1.",
+    "No per-event covariance or full polarimeter calibration in this source."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

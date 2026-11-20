@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Williams 等的 ⁶¹Ni 母态布居与偏振选支
+
+- [[williams-1975-61ni-low-lying-levels]] 核完 15 页，区分 n–γ 角关联的 \(m=\pm1/2\) 假设与 singles 联合分析中统计模型限制的布居。原表与图核对后订正四个能级自旋、寿命和七条 \(P,\delta\) 的角色。
+- 累计 58 份、7565 页。接续 Wadsworth 等 1977 的独立 ⁶¹Ni 测量，原件 19 页及 SHA 已对账。原文涉及高斯近似和对齐参数与 \(\delta\) 的联合极小化。
+
 ## 2026-11-21 — Ewan 等的单片 Ge(Li) 与 ¹⁰²Ru
 
 - [[ewan-1969-single-geli-polarimeter]] 对账 3 页与既有 Day 17 读录，补录 ¹⁰²Ru 表 2。保留 833 keV 为有角分布和计数不对称的混合候选，原文未定数值 \(\delta\)。

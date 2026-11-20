@@ -6622,3 +6622,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Ewan 等的 Ge(Li) 与 ¹⁰²Ru
 
 - 对账 3 页出版版，保存表 2 直接量与 833 keV 候选。累计 57 份、7550 页，续读 Williams 等的 ⁶¹Ni。
+
+## 2026-11-21 — Williams 等的 ⁶¹Ni 取向处理
+
+- 核读 15 页，订正原表的自旋和寿命，按两种几何保留磁子态假设和偏振选支。累计 58 份、7565 页，续读 Wadsworth 等。

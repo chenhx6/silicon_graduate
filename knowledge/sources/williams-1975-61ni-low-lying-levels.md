@@ -3,7 +3,7 @@ type: source
 title: "Williams et al. 1975 - Low-lying levels in 61Ni"
 aliases: [Williams 1975 61Ni levels]
 created: 2026-09-21
-updated: 2026-11-19
+updated: 2026-11-21
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-shell-model
@@ -59,9 +59,23 @@ No new PDM fit or covariance reconstruction was performed.
 ## Key Results
 
 - Seventeen `61Ni` states below 2.2 MeV were studied with DSAM, γ angular correlations, linear polarization and particle–γ coincidences. New `Jπ` assignments include levels at 1016, 1611, 2020 and 2123 keV (PDF pp.365–369, Fig.2).
-- DSAM F(θ) factors and lifetimes were obtained with FTAU/stopping-power calculations; examples include 909-keV state `τ≈450^{+330}_{−150} fs`, 1132-keV `τ≈100^{+200}_{−100} fs`, 1457-keV `τ≈480^{+440}_{−160} fs` and 1611-keV `τ≈365^{+160}_{−90} fs` (PDF pp.366–369, Table 1).
+- DSAM \(F(\theta)\) 与 FTAU 停止模型给出的平均寿命见表 1。909、1132、1457、1611 keV 依次为 \(450^{+330}_{-150}\)、\(400^{+200}_{-100}\)、\(480^{+340}_{-160}\)、\(365^{+160}_{-90}\) fs。表 1 的 2125 keV 为 \(45(8)\) fs，§3.6 正文为 \(48(8)\) fs，且表 1 的基态分支 \(>95\%\) 与正文叙述的仅到基态各按原处保留。
 - Angular correlations and a Ge(Li) Compton polarimeter determine multipolarities and mixing ratios under the Rose–Brink convention. The paper reports M1/E2 strengths and compares transition rates with the Glaudemans shell model (PDF pp.367–374, Table 1).
-- The `1016-keV` assignment is `3/2−`, `1611-keV` `5/2−`, `2020-keV` `3/2−` and `2123-keV` `7/2+` in the authors' combined analysis; weak/uncertain branches retain explicit limits (PDF abstract, Fig.2 and Table 1).
+- 原刊摘要、图和表给 1016、1611、2020、2123 keV 态依次指认 \(7/2^-,5/2^-,7/2^-,9/2^+\)。2123→1016 的结果属于 E1/M2 范围，不能作为 E2/M1 条目。
+
+### 线偏振、混合比与取向条件
+
+| 跃迁 \(E_i\to E_f\) (keV) | \(P\) | 原文 \(\delta\) | 结论依据 |
+| --- | --- | --- | --- |
+| 909→0 | \(-0.15(4)\) | \(+0.20^{+0.16}_{-0.03}\) | 角分布、n–γ 角关联与 \(P\) 选支，图 3–4 |
+| 909→67 | \(+0.01(11)\) | \([-1.19,-0.36]\) | 角分布与 \(P\) 限定，图 4 |
+| 1016→0 | \(+0.45(10)\) | \(-0.03^{+0.12}_{-0.22}\) | 寿命排除纯高阶分支，\(P\) 与主 E2 相容，图 5、§3.3 |
+| 1016→67 | \(-0.22(5)\) | \(-2.5(5)\) | 大 E2 混合与 \(P\) 判宇称，图 5、§3.3 |
+| 1611→0 | \(+0.05(20)\) | \([+0.18,+2.75]\) | 角分布偏好 \(5/2\) 但拟合水平低，\(P\) 与该区间相容，图 6、§3.4 |
+| 1611→67 | \(+0.49(19)\) | \([-0.18,+0.18]\) | \(P\) 留两个 \(J^\pi\) 候选，结合寿命/强度排除 \(3/2^+\)，图 6、§3.4 |
+| 2020→67 | \(-0.65(27)\) | \(+0.03(16)\) | \(P\) 选 \(7/2^-\)，角分布给 \(\delta\)，图 7、§3.5 |
+
+§2.2 的 n–γ 角关联拟合只布居 \(m=\pm1/2\)。§2.3 的同时采集 singles 角分布与偏振采用另一处理：以统计模型、ABACUS-II 透射系数和 Perey–Buck 参数限制磁子态布居，再用拟合后的勒让德系数预测 \(P\)。两条分析有各自的取向前提。全文没有一个高斯 \(\sigma/I\) 数值，不能把前者的约束套到后者。极化器由两圆柱 Ge 晶体构成，位于束轴 \(90^\circ\)，两个方位各四小时。细部标定见文中 Ref. 13。印刷 367–369 页。
 
 ## Key Results
 
