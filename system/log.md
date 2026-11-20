@@ -6526,3 +6526,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — El-Masri 的 ¹⁸⁰Re 时间谱
 
 - 专题核对 CAESAR 门、3471.3 keV 态的平均寿命及带 10 的组态异文。期刊关系先核书目，APS 全文返回 401。续接剩余的带系和机制论证。
+
+## 2026-11-20 — El-Masri 整源完成及期刊对账
+
+- 核读 153 页，从 Surrey 取得排印版，核实两条纳秒平均寿命、拟议 22+ 组态、同源实验与版本阻碍因子。整源累计 36 份、5854 页，续接 Easton 的 ¹⁹²Tl。

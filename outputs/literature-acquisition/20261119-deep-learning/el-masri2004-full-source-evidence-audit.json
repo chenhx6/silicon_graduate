@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-11-20T13:03:18.414070+00:00",
+  "source": "knowledge/sources/el-masri-2004-180re-high-k-thesis.md",
+  "primary_pdf_pages": 156,
+  "scientific_and_bibliographic_pages_covered": 153,
+  "excluded_pdf_pages": [
+    5,
+    8,
+    9
+  ],
+  "covered_sections": [
+    "PDF 1–4,6–7,10–42: provenance, abstract, contents, theory",
+    "PDF 43–90: experiment, timing, conversion coefficients and decay scheme",
+    "PDF 91–156: quasiparticle configurations, crossing, PES, K hindrance, conclusion and references"
+  ],
+  "visual_checks": [
+    48,
+    51,
+    86,
+    109,
+    110
+  ],
+  "publication_doi": "10.1103/PhysRevC.72.054306",
+  "publication_archive": "raw/papers/gpt/query/20261120-el-masri-180re-crosswalk/manifest-surrey-text.json",
+  "publication_scope": "Scoped evidence comparison; shared CAESAR and electron data, no additional work or page credit.",
+  "access_recovery": "APS harvest 401; legitimate Surrey repository copy obtained and validated.",
+  "version_notes": [
+    "Article §III.C.2 supports table 5.6 third neutron 7/2+[633].",
+    "424-keV link dipole character remains tentative.",
+    "Fnu of the E1 branch differs: thesis 457.2 keV, 28; article 456.8 keV, 31.5(19)."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

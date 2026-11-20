@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — El-Masri 整源与期刊对照
+
+- [[el-masri-2004-180re-high-k-thesis]] 完成 153/156 页科研和书证范围。Surrey 已取得 PRC 排印版，核实 \(22^+\) 的 \(\nu7/2^+[633]\) 写法及暂定 424 keV 馈入，并保留 456.8/457.2 keV 阻碍因子的版本差异。
+- 累计 36 份、5854 页。续读 Jayson Lee Easton 的 ¹⁹²Tl 学位论文（University of the Western Cape，题页 2011 年 12 月），`raw/theses/gpt/query/20261119-international-nuclear-structure/W7207052883.pdf` 的题页和 SHA 已核。
+
 ## 2026-11-20 — El-Masri 的 ¹⁸⁰Re 高 \(K\) 带
 
 - [[el-masri-2004-180re-high-k-thesis]] 已核 CAESAR 采集、3471.3 keV 态的 \(13(1)\,\mu\mathrm{s}\) 平均寿命，以及拟议 \(22^+\) 组态在正文与表 5.6 的差异。期刊入口为 `10.1103/PhysRevC.72.054306`，已留档书目，APS 全文返回 401；此前候选两篇为 Os 核论文。

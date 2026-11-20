@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 35,
+  "completed_full_sources_this_run": 36,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T12:55:14.728608+00:00",
+  "updated_at": "2026-11-20T13:03:18.414070+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 5701,
+  "completed_primary_pages_this_run": 5854,
   "current_source_note": "knowledge/sources/el-masri-2004-180re-high-k-thesis.md",
-  "next_action": "Continue El-Masri: remaining bands, ns timing, K forbiddenness and Fermi aligned interpretation; journal full text access unresolved.",
+  "next_action": "Easton 2011 192Tl MSc title and SHA confirmed. Read AFRODITE coincidence evidence, new band and literature lineage.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Cubiss 128/130 scientific/bibliographic pages and three scoped APS version comparisons.",
-  "current_source_scientific_acceptance": "El-Masri: identity and targeted CAESAR/high-K evidence accepted; no whole-source credit.",
-  "source_scoped_retrieval": "El-Masri PRC 72.054306 metadata only, APS 401."
+  "last_source_manager_closure": "El-Masri thesis scientific and bibliographic coverage 153/156, plus scoped Surrey PRC crosswalk.",
+  "current_source_scientific_acceptance": "El-Masri complete at scientific/bibliographic scope. Shared experiments, versioned hindrances and tentative K=22+ recorded.",
+  "source_scoped_retrieval": "Surrey institutional copy of APS typeset PRC 72.054306 archived with a separate manifest."
 }
