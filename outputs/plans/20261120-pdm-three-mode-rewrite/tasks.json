@@ -820,6 +820,7 @@
   "git_publication": {
     "scope": "Wiki PDM task records and knowledge only; software source archive remains local and PyPI artifacts are public",
     "stable_pointer": "main / research: deliver multipolePDM three-mode validation and release",
-    "status": "task-records-ready-for-commit"
+    "status": "published",
+    "reconciliation": "Release task-record commit verified against exact scope and pushed to origin/main; unrelated worktree changes retained."
   }
 }

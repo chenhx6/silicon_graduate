@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-11-20T03:24:29.128482+00:00",
+  "release_commit": "286179feb7379eca5266ed9a4f50cd55b257fec7",
+  "branch": "main",
+  "subject": "research: deliver multipolePDM three-mode validation and release",
+  "origin_main_at_verification": "286179feb7379eca5266ed9a4f50cd55b257fec7",
+  "task_commit_file_scope_verified": true,
+  "publication": "pushed non-force after fetch/ancestor check and dry-run",
+  "software_git_remote": "not supplied; full source archive fallback and actual PyPI distribution delivered",
+  "unrelated_changes": "preserved; no reset or broad staging",
+  "completion_audit": "All T00-T19 have actual evidence; declared scientific/platform coverage boundaries retained, not asserted verified."
+}
