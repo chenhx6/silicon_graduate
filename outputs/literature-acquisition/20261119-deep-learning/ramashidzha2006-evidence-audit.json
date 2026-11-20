@@ -1,0 +1,140 @@
+{
+  "recorded_at": "2026-11-20T00:57:01.652411+00:00",
+  "chapter_sources": [
+    "knowledge/sources/ramashidzha-2006-194tl-dco-level-scheme-thesis.md",
+    "knowledge/sources/masiteng-2006-194tl-polarization-lifetime-thesis.md"
+  ],
+  "raw_sha256": "5d3864af5c4a33ec3c1ede4de0aa4b27681f27f2f0e2ea4e27f83b82869066a4",
+  "physical_pdf_pages": 89,
+  "batch_pages": [
+    1,
+    89
+  ],
+  "batch_page_count": 89,
+  "scientific_scope_complete": true,
+  "responses": [
+    {
+      "id": "RAM06-FRONT",
+      "covered": [
+        1,
+        11
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "754b935aa46520333bc92f683e219cea3be855c650b47b2b7e8da7ed37901dbd",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "RAM06-THEORY",
+      "covered": [
+        12,
+        22
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "91040c2684fe10d1cf9a8aca11bf01857dcdab550d1b142db511bb478ddcda4f",
+      "unit_status_reported": "partial"
+    },
+    {
+      "id": "RAM06-FUSION-GEOMETRY",
+      "covered": [
+        23,
+        37
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "39b51fc7abfc571d26d69b6def7d96e124e21df8c011c0d35f523cb25d52e220",
+      "unit_status_reported": "partial"
+    },
+    {
+      "id": "RAM06-INSTRUMENT",
+      "covered": [
+        38,
+        51
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "ebba1f82c83ef41f62e5378947f850c1ead8faf6ef8c51ebc98948aedb5a81ee",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "RAM06-ANALYSIS",
+      "covered": [
+        52,
+        61
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "8fd002531ebbdc9ac60f725a5aaf400133ee25792cf7fac33fe0d8feff168a1e",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "RAM06-LEVELS",
+      "covered": [
+        62,
+        70
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "3b0c112fec7c3aa80968f09a1074d80654136581ef171d391b3ec1713f83103b",
+      "unit_status_reported": "partial"
+    },
+    {
+      "id": "RAM06-DCO-TABLES",
+      "covered": [
+        71,
+        74
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "51e11e7976ca554ae7d754ebfc25ce4178d65e0677a59047b59756fcfbf6c462",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "RAM06-INTERPRETATION",
+      "covered": [
+        75,
+        86
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "2065aa451e3d2a9ce27483fe14c1d3f8638eb58a0c9d7f4c0cc0ea4c570d38ef",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "RAM06-REFS",
+      "covered": [
+        87,
+        89
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "62af8853316969dc0d5d009563209b39f13891e008726f73bb5510daba17a044",
+      "unit_status_reported": "partial",
+      "original_structural_errors": [
+        "page_coverage"
+      ],
+      "reported_unread_outside_packet": [
+        1,
+        86
+      ],
+      "acceptance_basis": "Raw cached reply and book pages 87–89 cover whole references; wrongly listed unread 1–86 were never supplied to this unit. Other science units separately accepted."
+    }
+  ],
+  "verified_pages_and_checks": [
+    "PDF 52, 60–61: 93 MeV setting; same 135-degree gate and particular DCO numerator and denominator matrices.",
+    "PDF 71–74: empirical stretched values, gate-specific columns and table error convention.",
+    "PDF 72–74 vs Masiteng PDF 51–52: 293.4 keV table equality to one gate only, 876.4 keV ratio and label disagreement, 1058.3 keV differences.",
+    "PDF 75–86: signature inversion mismatch persists in the authors’ model comparison.",
+    "PDF 87–89: all three reference pages received and directly confirmed, corrected out-of-unit unread IDs in audit only."
+  ],
+  "boundary": "The two theses provide assignment observables. No signed P–DCO E2/M1 fit or sigma/I reported. Differences in the 876.4-keV row remain open.",
+  "related_experiment": "Shares AFRODITE experiment with Masiteng. DCO and polarization analyses overlap in input data and have differing publication values.",
+  "next_source": {
+    "work_id": "bytes:63aaf3cf93bc4509fae22923a28ecb1d50759135cc277e479106244027a05136",
+    "pdf_pages": 84,
+    "units": [
+      "LEY-FRONT-INTRO",
+      "LEY-SENIORITY-TIMING",
+      "LEY-MO92-I",
+      "LEY-MO92-II",
+      "LEY-RU94-TC93",
+      "LEY-RH95-RU95-I",
+      "LEY-RH95-RU95-II",
+      "LEY-SYNTHESIS",
+      "LEY-BIBLIOGRAPHY",
+      "LEY-PUBLICATIONS"
+    ]
+  }
+}

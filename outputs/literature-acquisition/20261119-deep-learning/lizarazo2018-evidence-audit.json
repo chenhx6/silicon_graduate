@@ -1,0 +1,204 @@
+{
+  "recorded_at": "2026-11-20T00:57:01.652411+00:00",
+  "chapter_sources": [
+    "knowledge/sources/lizarazo-sabogal-2018-se92-se94-isomer-decay.md"
+  ],
+  "raw_sha256": "e7d28d9cd104d4dcaad212828d4b4e12006082a98a4b5d0b3c24cbc86d75f5c3",
+  "physical_pdf_pages": 154,
+  "batch_pages": [
+    1,
+    153
+  ],
+  "batch_page_count": 153,
+  "scientific_scope_complete": true,
+  "responses": [
+    {
+      "id": "LIZARAZO-FRONT",
+      "covered": [
+        1,
+        17
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "1ac6eddea4912f8a45d7cb17317412dcde6a9759bd5d0973e877353b5f63ae16",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "LIZARAZO-MOTIVATION",
+      "covered": [
+        18,
+        24
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "fc5fb25fea7bfbd1b6d8ca24fb6c180caed9fee81c9ec892fbc5a6857ae565b3",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "LIZARAZO-THEORY",
+      "covered": [
+        25,
+        40
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "bdeccdaabf6d2d182da6ab1e3c46bf0e3fc53dd1deab474d94be9adc86ab24d3",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "LIZARAZO-BMF",
+      "covered": [
+        41,
+        49
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "a90010ed11005862c1be67e745987404fdd7e0adf1fdbf96dcf4c98a912e6337",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "LIZARAZO-GAMMA",
+      "covered": [
+        50,
+        66
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "ed31697a1d31cf4032cb1414d4634c56b24e499455e815630c3700d43d38dea1",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "LIZARAZO-INSTRUMENT",
+      "covered": [
+        67,
+        80
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "795de63d3497efeeeda2eb6d5faa946ce9917533265c219240d34658a739d6df",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "LIZARAZO-PID",
+      "covered": [
+        81,
+        87
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "a89ab09fdb048ccb4d1c442c7a2c2f950062bc6f7f90235ede0136621433fde4",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "LIZARAZO-CALIBRATION",
+      "covered": [
+        88,
+        98
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "41d82990adf77b8ffa658fa5b47e92bc8b2594817a9cdb1b8abe37e8ea462fed",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "LIZARAZO-SE92-I",
+      "covered": [
+        99,
+        107
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "2a4844ac8b501ffd1cc6c57efae79fe82c7b165552072345b2a0a87976677959",
+      "unit_status_reported": "partial",
+      "local_json_repairs": [
+        {
+          "line": 20,
+          "column": 830,
+          "literal": "\\Delta"
+        },
+        {
+          "line": 20,
+          "column": 853,
+          "literal": "\\Delta"
+        },
+        {
+          "line": 20,
+          "column": 1365,
+          "literal": "\\Delta"
+        },
+        {
+          "line": 20,
+          "column": 1379,
+          "literal": "\\Delta"
+        }
+      ],
+      "original_response_sha256": "e689dbbbaaf7bf42036b2ebe29f4a5e39732f37abf437a425b1c7fd52007a69c"
+    },
+    {
+      "id": "LIZARAZO-SE92-II",
+      "covered": [
+        108,
+        116
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "30be34ff3435608a9cbef745bb34516a847baa79d7dbe1f89f688c5c1f4b170c",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "LIZARAZO-SE94",
+      "covered": [
+        117,
+        127
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "8b768170bd191b52c6541137a82511df183e9435c54295041c2b651dfadf688d",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "LIZARAZO-DISCUSSION",
+      "covered": [
+        128,
+        138
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "aba0a429f2b8b10d5dbaac8b88341884b3a98fd0b12a9da244cc35b7e1faee1e",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "LIZARAZO-APPENDICES",
+      "covered": [
+        139,
+        142
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "9275c2c6c04d6cfa5b0ea031e6812f87ea317c07dc68a0afc0da0d2f1da07ca9",
+      "unit_status_reported": "complete"
+    },
+    {
+      "id": "LIZARAZO-REFERENCES",
+      "covered": [
+        143,
+        153
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "prompt_sha256": "65f323ededa5e23b55329fdd02d71e9adf381282802cc960c4d681d11b81e5f9",
+      "unit_status_reported": "complete"
+    }
+  ],
+  "verified_pages_and_checks": [
+    "PDF 106, 111–115: Se-92 lifetime and 67/503 intensity balance, Table 11 conversion coefficients and tentative spin assignments.",
+    "PDF 114 Eq. 118: printed half-life differs from arithmetic using printed operands. Retain both with source locator.",
+    "PDF 121–127: Se-94 lifetime, 752/1180 keV candidates without sufficient coincidences, Fig. 7.22 495/470 assignments.",
+    "PDF 130–131: text/figure difference and femtosecond conversion discrepancy in equations 123–124.",
+    "PDF 139–142: efficiency and shared denominator boundary. Appendix repeats published in-beam results."
+  ],
+  "boundary": "Bibliography and appendix source citations do not count as separate full-text reading. PDF 154 kept local; direct calibration, event reproduction, and conflicting arithmetic remain bounded.",
+  "related_experiment": "Appendix B repeats Ref. 24, DOI 10.1103/PhysRevC.95.041302. The isomer-decay and comparator spectra are different measurements; the reproduced appendix is not an additional experiment.",
+  "next_source": {
+    "work_id": "bytes:63aaf3cf93bc4509fae22923a28ecb1d50759135cc277e479106244027a05136",
+    "pdf_pages": 84,
+    "units": [
+      "LEY-FRONT-INTRO",
+      "LEY-SENIORITY-TIMING",
+      "LEY-MO92-I",
+      "LEY-MO92-II",
+      "LEY-RU94-TC93",
+      "LEY-RH95-RU95-I",
+      "LEY-RH95-RU95-II",
+      "LEY-SYNTHESIS",
+      "LEY-BIBLIOGRAPHY",
+      "LEY-PUBLICATIONS"
+    ]
+  }
+}

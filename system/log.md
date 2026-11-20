@@ -6381,3 +6381,9 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - 69 页全读验收。Table 4.1 和 Fig. 4.6 为 $A_p$ 与 DCO 多极分类。$Q(E_\gamma)$ 的定义见原式，表中没有可直接取用的校准后 $P$ 或 E2/M1 拟合值。
 - RSAM 取 876 keV 门避免近邻 prompt 干扰，留原半衰期、标尺和两处相对效率写法，DCO 与极化资料保留实验依赖。
 - 整源 10 份、2365 页。Lizarazo Sabogal 学位论文已按正文、附录和书目派发。
+
+## 2026-11-20 — Se 异能态与 Tl-194 DCO 原始出处
+
+- 验收 Se-92/94 博士论文 PDF 1–153 与 Ramashidzha 89 页。保留共用实验、逐门 DCO、邻线/弱支路和模型解释的边界。
+- Se 原报寿命与式 (118)、(123)–(124) 算术分开。两篇 Tl 论文的 876.4 keV 行保留冲突及出处。
+- 可用科研原件验收累计 12 份、2607 页。转入 Ley 的 N=50 快定时与 seniority 论文。

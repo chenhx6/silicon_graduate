@@ -334,6 +334,16 @@ It provides no numeric joint \(P\)–angle E2/M1 fit, so its absent
 \(\sigma/I\) value does not answer how such fits handle alignment.
 The 293 keV RSAM half-life retains the selected gate and its calibration.
 
+[[ramashidzha-2006-194tl-dco-level-scheme-thesis]] closes the DCO source
+dependency for Masiteng. Both sources retain their own numbers and
+labels for the 876.4 keV transition. The 293.4 keV comparison also
+records the gate-specific value and the separate final column.
+[[lizarazo-sabogal-2018-se92-se94-isomer-decay]] covers the scientific text,
+appendices and bibliography. The measured half-lives are preserved
+alongside the distinct arithmetic issues in the lifetime and hindrance
+comparisons. The reproduced in-beam appendix is attributed to its cited
+publication.
+
 ## Final acquisition closure and learning design
 
 The user has closed further acquisition and requested an in-depth learning

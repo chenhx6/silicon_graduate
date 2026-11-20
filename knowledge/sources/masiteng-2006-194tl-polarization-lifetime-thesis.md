@@ -55,7 +55,7 @@ RSAM 用同一实验的反冲遮蔽计数约束 293 keV 延迟退激的母态半
 ## Competing Interpretations and Limitations
 
 - Table 4.1 与 Fig. 4.6 联用 $A_p$ 和 $R_{\mathrm{DCO}}$ 作跃迁分类。原件未报告以 $P$ 和角量联合反演的带符号 $\delta(E2/M1)$，也未给该反演的 $\sigma/I$。因此保留为有实测线偏振不对称的方法来源，P–δ 数值表排除。
-- [Ram06] 是 T. M. Ramashidzha 2006 年的同校 MSc 论文，PDF 68 有书目。DCO 与 Masiteng 给出的偏振使用重叠机时，应视为共享实验资料。
+- PDF 68 所引 [Ram06] 回链 [[ramashidzha-2006-194tl-dco-level-scheme-thesis]]。DCO 与 Masiteng 的偏振使用重叠机时。293.4 keV 的表值与 Ramashidzha 的 187 keV 门一致，但其 `DCO Final` 另有值。876.4 keV 的比值和多极标签存在未决差异，详见两篇原表。
 - 探测器相对效率 $\alpha$ 的两种写法随观测量而异。偏振分析取 1.0。PDF 60 的实际 RSAM 分析取 0.64，Eq. (4.1) 将 $\alpha$ 乘在无遮挡计数上。PDF 46 的方法式写法将校正乘在遮蔽计数上。只按当前公式和对应设置读取数值。
 
 ## Extracted Pages
