@@ -1,0 +1,44 @@
+{
+  "work_id": "doi:10.17638/00009255",
+  "source_note": "knowledge/sources/gaffney-2012-rn220-ra224-coulex-thesis.md",
+  "auditor": "Codex",
+  "primary_pdf_pages": 122,
+  "primary_scientific_and_bibliographic_pages_covered": 120,
+  "covered_sections": [
+    "PDF 1, 3–31: identity, octupole and moment conventions, Coulomb excitation and GOSIA theory",
+    "PDF 32–69: REX/ISOLDE, Miniball, calibration, kinematics, gates and spectra",
+    "PDF 70–101: normalization, additional inputs and uncertainty, E3 and spin-dependent interpretation",
+    "PDF 103–122: kinematic approximations, efficiency-corrected gamma yields and bibliography"
+  ],
+  "excluded_non_scientific_pages": [
+    2,
+    102
+  ],
+  "scientific_coverage_complete": true,
+  "thesis_archive_manifest": "raw/theses/gpt/query/20261119-international-nuclear-structure/manifest-acquisition-batch1.json",
+  "comparison_source": "knowledge/sources/gaffney-2013-pear-shaped-rn-ra.md",
+  "comparison_coverage": "Nature 497 PDF 1–6, especially PDF 3–4 Tables 1–2; same REX–ISOLDE experiments. Keep printed fit and uncertainty differences.",
+  "key_visual_thesis_pages": [
+    3,
+    71,
+    78,
+    85,
+    88,
+    92,
+    105,
+    111
+  ],
+  "q3_arithmetic": {
+    "basis": "sqrt(16*pi/7) times the 3- to 0+ reduced matrix element and its standard error, for K=0 axial rotor",
+    "matrix_element_efm3": 810,
+    "uncertainty_efm3": 50,
+    "q3_efm3": 2170.5556576377994,
+    "q3_uncertainty_efm3": 133.98491713813576
+  },
+  "remaining": [
+    "The abstract prints 3+ and 32(4) W.u. for 220Rn. Table 5.5 and Nature report the 3- branch with 33(4) W.u.",
+    "The printed Rn Q3 error in Table 6.1 (30) differs from Table 5.5 and Nature Table 2 (130). 224Ra E3 matrix-element error also differs across versions.",
+    "The 224Ra 2+ lifetime enters the fit. Distinguish constrained transition strength, statistical correlation and the post-fit interpretation of octupole collectivity."
+  ],
+  "next_work": "doi:10.17638/00008353"
+}

@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Gaffney Rn/Ra 八极强度与相关误差
+
+- [[gaffney-2012-rn220-ra224-coulex-thesis]] 核完 120/122 页。将各靶角度产额、GOSIA 相关误差、²²⁴Ra 寿命依赖以及学位摘要/表格/期刊的八极值差异写入知识页。同实验 Nature 原件已核回链。
+- 整源累计 30 份、5006 页。续读 Fay Eleanor Elizabeth Filmer 2011 的 AGATA 数据分析方法。150 页原件学位身份及哈希已核。
+
 ## 2026-11-20 — Ali 的反冲衰变标记与 ¹⁷⁷Au 谱系
 
 - [[ali-2014-au177-recoil-tagging-thesis]] 核完 112/115 页。记录学位所印蒸发道与期刊 \(p2n\) 的电荷守恒、378/399 MeV 的束能差和采集谱系边界。核对 α 门、DCO 重叠、228 keV 内转换以及 25.7 keV 母核和 21.6 keV 子核候选能级。三份期刊原件已归档。

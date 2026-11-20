@@ -49,6 +49,7 @@ updated: 2026-11-20
 - [[watkins-2011-au175-pt174-pt175-rdds-thesis]] — 反冲标记 DDCM、侧馈条件和 Au/Pt 形状证据。
 - [[petts-2010-hg182-hg186-collectivity-thesis]] — Hg 寿命、库仑激发的寿命输入与内转换订正。
 - [[ali-2014-au177-recoil-tagging-thesis]] — ¹⁷⁷Au 的双 α 门、DCO 辨别范围与强耦合带支路。
+- [[gaffney-2012-rn220-ra224-coulex-thesis]] — Rn/Ra 的逐靶产额、E3 原表和 GOSIA 相关误差。
 - [[hungerford-1979-ill-angular-correlation-164dy]] — U001 章节原件与角关联方法范围。
 - [[madiba-2008-190tl-dco-polarization-thesis]] — 首篇完整正文阅读：190Tl 实验链、门依赖、不对称度与指认边界；形式定义原始出处尚待核对。
 - [[li-2016-algebraic-collective-core-quasiparticle-thesis]] — 软/刚核芯与准粒子耦合、135Pr及109Pd比较、ACM实现与原件公式边界；不新增独立实验。
@@ -1714,6 +1715,7 @@ u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶
 - [[high-spin-lifetime-strength-deformation]] - DSAM/RDDS、跃迁强度、`Qt`、band crossing 与形变解释的证据链。
 - [[chirality-wobbling-competition-evidence]] - 手征、wobbling、γ-softness、shape coexistence 与反例的逐对比较框架。
 - [[octupole-and-rare-electromagnetic-decay]] - 直接 E3、E1 correlation、双光子衰变和滴线稀有衰变的证据梯度。
+- [[octupole-collectivity-microscopic-matrix-elements-cross-regions]] — 跨质量区 E3 矩阵元、绝对强度与八极解释的证据边界。
 - [[sigma-over-i-assumptions-and-mixing-ratio-extraction]] - `sigma/I` 假设、alignment / feeding / deorientation 边界与 P-ADO `delta` 提取动机的小型 writing-support synthesis。
 - [[gamma-soft-vs-gamma-rigid-diagnostics]] - γ-soft 的低能判据、形状相变、配对-三轴耦合、`136Sm` 形变演化与 low-spin 外推边界。
 - [[shape-observable-matrix]] - γ-band staggering、B(E2)、静态矩、带间连接、E0/E3 与形状共存的可支持命题及证据边界。

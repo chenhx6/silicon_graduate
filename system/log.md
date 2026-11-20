@@ -6498,3 +6498,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — Ali ¹⁷⁷Au 双 α 门与退激路径
 
 - 核验学位论文 112 页及三份期刊原件。保存两种束能、蒸发道电荷核算、内转换和 DCO 约束，并分别列出 ¹⁷⁷Au 母核与 ¹⁷³Ir 子核的低能结构。累计 29 份、4886 页，续读 Gaffney。
+
+## 2026-11-20 — Gaffney 的 Rn/Ra 库仑激发
+
+- 核验 120 页学位论文及同次数据的 Nature 表。记录角区产额、寿命条件、\(3^-\) E3 强度及 \(Q_3\) 误差在原件版本间的差异。累计 30 份、5006 页，续读 Filmer。

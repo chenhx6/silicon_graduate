@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.17638/00009255",
+  "active_source": "doi:10.17638/00008353",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 29,
+  "completed_full_sources_this_run": 30,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T11:23:57.816247+00:00",
+  "updated_at": "2026-11-20T11:33:07.321546+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 4886,
-  "current_source_note": "knowledge/sources/ali-2014-au177-recoil-tagging-thesis.md",
-  "next_action": "Gaffney 2012: 220Rn and 224Ra E3 response, correlated CoulEx and version lineage.",
+  "completed_primary_pages_this_run": 5006,
+  "current_source_note": "knowledge/sources/gaffney-2012-rn220-ra224-coulex-thesis.md",
+  "next_action": "Filmer 2011: AGATA data-analysis methodology, response and validation.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Ali 112/115 pages plus three 177Au publication comparisons.",
-  "current_source_scientific_acceptance": "Ali completed at scientific/bibliographic scope. Gaffney identity and archive SHA verified.",
-  "source_scoped_retrieval": "Three published 177Au/179Au/179Hg articles archived for the Ali thesis crosswalk."
+  "last_source_manager_closure": "Gaffney 120/122 pages and local Nature results/Methods crosswalk verified.",
+  "current_source_scientific_acceptance": "Gaffney completed at scientific/bibliographic scope. Filmer identity and original hash verified.",
+  "source_scoped_retrieval": "Used a previously archived Nature PDF for the Gaffney comparison."
 }
