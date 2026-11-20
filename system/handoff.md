@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Watkins 反冲标记 RDDS 和 Au/Pt 形状证据
+
+- [[watkins-2011-au175-pt174-pt175-rdds-thesis]] 核完 102/105 页及同次 ¹⁷⁵Au 期刊出版版。分别记录 singles 和符合的侧馈条件、¹⁷⁴Pt 峰重叠、¹⁷⁵Au 977/997 keV 及 \(B(E1)\) 量级差异。DDCM 导数的量纲核查写回 [[recoil-distance-doppler-shift]]。
+- 整源累计 27 份、4596 页。续读 Andrew Petts 2010 的丰质子汞核形状共存论文。利物浦大学 191 页原件身份和哈希已对账。
+
 ## 2026-11-20 — Lotina 轴向四极–八极集体计算
 
 - [[lotina-2020-kr-xe-ba-qoch-thesis]] 核完 75/76 页及相关 PRC 的势能面、公式和波函数。保留浅八极极小的网格尺度，区分 \(E_{\min}-E_{\rm quad}\) 与正文所报正降低量，记录两个版本的零点修正差异。量值与适用条件写回 [[octupole-softness]]。

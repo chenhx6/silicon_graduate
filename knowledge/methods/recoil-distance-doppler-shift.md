@@ -44,6 +44,8 @@ RDDS 通过改变 target-stopper distance，比较核在飞行中发射的 shift
 
 快束 RDDS 中，减速片再次库仑激发可与在靶中激发后飞至片内或片后才衰变的分量共同进入慢峰。可用远距离数据约束前者，并在谱形中跟踪靶、间隙、减速片及片后的速度和效率。Rother 的拟合激发比 \(D\) 需通过分段权重进入谱形，远距离慢峰只在相应的接受度和效率下约束其产额。⁶²Fe 的后环污染与 ⁶⁴Fe 双环同时拟合未收敛分别导致两种处理。见 [[rother-2011-fe62-fe64-fe66-rdds-thesis]]，PDF 49–63、79–90，表 4.7 及式 A.23。
 
+[[watkins-2011-au175-pt174-pt175-rdds-thesis]] 使用反冲–α 标记 singles 及反冲–γγ 符合两种分析。singles 的侧馈控制取决于缺失馈入的强度和时间行为。读 DDCM 的分母应核对自变量，时间斜率 \(dQ/dt\) 等于速度乘距离斜率 \(v\,dQ/dd\)。该论文式 2.5、2.8 的印刷形式与这项量纲关系冲突。见学位 PDF 47–52、60–67、84–90。
+
 ## What It Can Establish
 
 - source-specific level lifetimes；

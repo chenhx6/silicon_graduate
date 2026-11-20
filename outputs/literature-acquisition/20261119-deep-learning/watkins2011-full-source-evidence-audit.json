@@ -1,0 +1,42 @@
+{
+  "work_id": "doi:10.17638/00003517",
+  "source_note": "knowledge/sources/watkins-2011-au175-pt174-pt175-rdds-thesis.md",
+  "auditor": "Codex",
+  "primary_pdf_pages": 105,
+  "primary_scientific_and_bibliographic_pages_covered": 102,
+  "covered_sections": [
+    "PDF 1 and 5–28: identity, abstract, nuclear shapes, rotation and electromagnetic rates",
+    "PDF 29–53: JUROGAM, RITU, GREAT, recoil tagging, DD decay curves and side feeding",
+    "PDF 54–77: 174Pt and 175Pt spectroscopy, lifetimes, TRS and triaxial alternatives",
+    "PDF 78–105: 175Au identification and lifetimes, interpretations and bibliography"
+  ],
+  "excluded_non_scientific_pages": [
+    2,
+    3,
+    4
+  ],
+  "scientific_coverage_complete": true,
+  "thesis_archive_manifest": "raw/theses/gpt/query/20261119-international-nuclear-structure/manifest-acquisition-batch1.json",
+  "comparison_archive_manifest": "raw/papers/gpt/query/20261120-watkins-au175-rdds-crosswalk/manifest.json",
+  "comparison_coverage": "APS Phys. Rev. C 84, 051302(R), PDF 1–4, shares thesis 175Au acquisition. Angular rings are separate views of one run. Platinum analysis remains attached to the thesis.",
+  "key_visual_pages": {
+    "thesis": [
+      47,
+      48,
+      58,
+      62,
+      67,
+      90
+    ],
+    "publication": [
+      3,
+      4
+    ]
+  },
+  "remaining": [
+    "The published 175Au 13/2+ row labels 997 keV while thesis and PRC prose give 977 keV. The B(E1) table upper bound and narrative order remain separated.",
+    "The 174Pt 2+ and 4+ lifetime gap remains owing to unresolved 497/501-keV peaks. Absolute rate extraction and shape inference retain assumption and reading boundaries.",
+    "No re-fit of event data or author DDCM implementation was performed. The thesis denominator uses a printed speed times time derivative and the intensity index in Eq. 2.8 differs from its explanation."
+  ],
+  "next_work": "doi:10.17638/00003073"
+}

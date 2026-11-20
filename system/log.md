@@ -6486,3 +6486,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — Lotina RHB–QOCH
 
 - 核验论文 75 页和对应期刊的轴向势能面、波函数及零点修正式。记录浅极小的网格尺度，按绝对降低量保留 \(E_{\rm oct}\) 正值。累计 26 份、4494 页，续读 Watkins。
+
+## 2026-11-20 — Watkins Au/Pt 反冲标记寿命
+
+- 核验学位论文 102 页及 ¹⁷⁵Au 期刊出版版。保存 ¹⁷⁴Pt 的未解峰、同次采集不同角组及侧馈条件，分开记录学位与期刊的强度和上限。累计 27 份、4596 页，续读 Petts。
