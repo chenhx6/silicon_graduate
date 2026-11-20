@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Forney 的 Ge 符合谱与逐支路上限
+
+- [[forney-2018-ge78-ge80-ge82-structure-thesis]] 核完 203/210 页。按束靶、时间门和上下态保存谱线来源。保留 ⁷⁸Ge 的 976 keV 污染、1133/1134 keV 正文与表的上限，以及模型与退激路径的分歧。⁸⁰Ge 的竞争指认和 ⁸²Ge 的壳模型空间限制已对账。
+- 累计 34 份、5573 页。接续 James Gerald Cubiss 2017 的 At 激光谱与 ¹⁷⁸Au 衰变论文。130 页 York 学位原件题页与 SHA 已核。
+
 ## 2026-11-20 — Bvumbi 的 ¹⁵²Gd 混合支路
 
 - [[bvumbi-2008-gd152-dco-polarimetry-thesis]] 核完 90/91 页。996 keV 的 \(R_{\rm DCO}\)、\(A_P\) 与借用 \(Q\) 可追溯，正文没有最终数值 \(\delta\)。区分三条取向示意曲线与实际支路条件，保留两版本的靶厚差异和 996 keV 同名线的上下态区别。

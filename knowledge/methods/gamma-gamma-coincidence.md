@@ -40,6 +40,8 @@ tags: [level-scheme, in-beam-spectroscopy]
 
 `131Xe` 中 930 keV 门同时观察 816/1055 keV，支持二者来自同一 1862 keV 态；880/882 keV 双峰通过不同门的峰心差异处理。
 
+[[forney-2018-ge78-ge80-ge82-structure-thesis]] 在 ⁷⁸Ge 的候选跨跃迁上限中保留逐支路污染。976 keV 的搜索窗受 ⁷⁶Ge 束的 976.5 keV 线影响，1116 keV 线则有更低的相对上限。带间比较应注明该条线的峰区、参考分母及对应初态的寿命；跨跃迁上限继承这些条件。见学位 PDF 165–168、190–197。
+
 ### Day12 gate-and-background audit: `137mBa`
 
 对弱双光子/γ级联信号，单看 `E1+E2` 接近能级差并不足以证明有两束独立光子：一束 γ 在探测器间 Compton 散射也能留下相同能量和；无关 singles 偶合可形成随机和峰；相邻能级 cascade 也可能给相近总能量。可复用的门控次序如下。

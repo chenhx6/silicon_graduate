@@ -6514,3 +6514,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — Bvumbi 的 DCO 与借用 \(Q\)
 
 - 核验 90 页和同条件期刊。996 keV 的 \(A_P/Q\) 可作有条件复算，取向示例、混合判断和实际归属分开记录。累计 33 份、5370 页，续读 Forney。
+
+## 2026-11-20 — Forney 的 Ge 核结构
+
+- 核验 203 页及 OSTI 作者稿，保留跨跃迁上限的逐线条件，以及 ⁸⁰Ge 自旋竞争和 ⁸²Ge 的模型空间限制。累计 34 份、5573 页，续读 Cubiss。

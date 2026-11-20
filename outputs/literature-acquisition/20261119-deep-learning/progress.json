@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.13016/s0j8-ba2s",
+  "active_source": "bytes:2c1ea7982575d75c923241f6d4b4df9cee2e43da2e9d4c1de3f5c9f7a791fa8c",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 33,
+  "completed_full_sources_this_run": 34,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T12:05:45.344887+00:00",
+  "updated_at": "2026-11-20T12:28:03.749484+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 5370,
-  "current_source_note": "knowledge/sources/bvumbi-2008-gd152-dco-polarimetry-thesis.md",
-  "next_action": "Forney 2018: Ge-78 and adjacent nuclei, crossover limits and competing assignments.",
+  "completed_primary_pages_this_run": 5573,
+  "current_source_note": "knowledge/sources/forney-2018-ge78-ge80-ge82-structure-thesis.md",
+  "next_action": "Cubiss 2017: laser spectroscopy in At isotopes and alpha-tagged 178Au states.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Bvumbi 90/91 pages, conditional 996-keV P and same-setting PRC comparison checked.",
-  "current_source_scientific_acceptance": "Bvumbi completed at scientific/bibliographic scope. Forney original identity and SHA verified.",
-  "source_scoped_retrieval": "Reused the archived 2013 PRC and 1995 Jones note for evidence comparison."
+  "last_source_manager_closure": "Forney 203/210 pages, conditional 78Ge upper limits, and OSTI manuscript crosswalk verified.",
+  "current_source_scientific_acceptance": "Forney completed at scientific/bibliographic scope. Cubiss local thesis title and hash verified.",
+  "source_scoped_retrieval": "Used already archived Forney OSTI manuscript."
 }
