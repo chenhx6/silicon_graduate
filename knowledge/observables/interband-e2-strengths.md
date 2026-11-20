@@ -40,6 +40,8 @@ QTR/PTR 与 TPSM 对其绝对大小可能有系统差异。
 
 ## Examples
 
+[[radich-2015-124xe-124cs-decay-thesis]] 给出弱光子支路仍有较大约化强度的实例。¹²⁴Xe 的 289 keV 支路仅 \(0.788(92)\%\)，以同一 \(2_4^+\) 态的 1978.8 keV 基态跃迁归一后，\(B(E2)=53(12)\) W.u.。分子和参照线需要同一初态，并比较各自的 \(I_\gamma/E_\gamma^5\)。该绝对尺度沿用库仑激发输入。见学位式 3.17、表 4.2。
+
 `131Xe` 新序列的连接跃迁 E2 成分很小，因此不支持 wobbling。
 
 [[matta-2015-transverse-wobbling-135pr]] 的 Table I 给出 `135Pr` side-to-yrast transitions 的 E2 fractions 与相对 `B(E2_out)/B(E2_in)`；作者将其作为 wobbling 支持证据。没有独立寿命时，这些是 mixed-transition 分解后的相对量，不等同于绝对 `B(E2)`。

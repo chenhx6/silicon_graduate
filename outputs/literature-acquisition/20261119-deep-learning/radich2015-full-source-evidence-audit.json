@@ -1,0 +1,78 @@
+{
+  "checked_at": "2026-11-20T13:31:21.338922+00:00",
+  "source": "knowledge/sources/radich-2015-124xe-124cs-decay-thesis.md",
+  "primary_pdf_pages": 121,
+  "scientific_and_bibliographic_pages_covered": 119,
+  "excluded_pages": [
+    3,
+    4
+  ],
+  "scope": [
+    "PDF 1–2,5–34: bibliographic setup, motivation and models",
+    "PDF 35–95: TRIUMF apparatus, calibrations, coincidence sorting and weak E2 branches",
+    "PDF 96–121: high-spin isomer decay, conversion cascades, conclusions and bibliography"
+  ],
+  "visual_checks": {
+    "thesis": [
+      87,
+      88,
+      98,
+      105
+    ],
+    "EPJA": [
+      9
+    ]
+  },
+  "publication_comparisons": {
+    "archive_manifest": "raw/papers/gpt/query/20261120-radich-124xe-cs-crosswalk/manifest.json",
+    "PRC_91_044320": "OSTI author manuscript; weak 360/289 keV branches and external Coulex normalization, PDF 3–5",
+    "EPJA_53_184": "Springer version of record; high-spin parent and revised cascade, PDF 2–9; shared TRIUMF acquisitions"
+  },
+  "conditional_arithmetic": {
+    "BE2_359p5_Wu": 77.66973355489912,
+    "BE2_289p1_Wu": 53.108922081879534
+  },
+  "model_attempts": [
+    {
+      "checked_at": "2026-11-20T13:21:57.161347+00:00",
+      "task_id": "RADICH-124CS-ISOMER-01",
+      "requested_model": "agy-cli/gemini-3.8-flash",
+      "reasoning": "high",
+      "sent_pdf_pages": [
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109
+      ],
+      "status": "error",
+      "error_type": "TimeoutError"
+    },
+    {
+      "checked_at": "2026-11-20T13:25:54.608935+00:00",
+      "task_id": "RADICH-E2-CROSSWALK-02",
+      "requested_model": "agy-cli/gemini-3.8-flash",
+      "reasoning": "high",
+      "packet": [
+        "MSc PDF 85,88",
+        "OSTI PDF 4"
+      ],
+      "status": "http-error",
+      "http_status": 502,
+      "access_disabled": true,
+      "upstream_403": true
+    }
+  ],
+  "accepted_gemini_findings": 0,
+  "reader": "Codex",
+  "PDM_run": false
+}

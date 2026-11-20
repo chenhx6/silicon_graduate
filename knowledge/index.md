@@ -57,6 +57,7 @@ updated: 2026-11-20
 - [[cubiss-2017-at-laser-spectroscopy-au178-decay-thesis]] — ¹⁷⁸Au 异能态选择、At 电荷半径及反常奇偶交错。
 - [[el-masri-2004-180re-high-k-thesis]] — ¹⁸⁰Re 的 13 μs 异能态、高 \(K\) 候选及组态异文。
 - [[easton-2011-192tl-afrodite-thesis]] — ¹⁹²Tl 的近邻峰门、早期薄靶谱和后续分析谱系。
+- [[radich-2015-124xe-124cs-decay-thesis]] — ¹²⁴Xe 弱 E2 分支以及 ¹²⁴Cs 异能态退激的版本差异。
 - [[hungerford-1979-ill-angular-correlation-164dy]] — U001 章节原件与角关联方法范围。
 - [[madiba-2008-190tl-dco-polarization-thesis]] — 首篇完整正文阅读：190Tl 实验链、门依赖、不对称度与指认边界；形式定义原始出处尚待核对。
 - [[li-2016-algebraic-collective-core-quasiparticle-thesis]] — 软/刚核芯与准粒子耦合、135Pr及109Pd比较、ACM实现与原件公式边界；不新增独立实验。

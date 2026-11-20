@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Radich 的 ¹²⁴Xe 弱 E2 和 ¹²⁴Cs 转换分支
+
+- [[radich-2015-124xe-124cs-decay-thesis]] 核读 119 页。用两篇期刊原件落实同一 TRIUMF 采集的不同分析范围，核算 360/289 keV 强度的库仑激发归一，保留 301/270 keV 态的学位与期刊分支差异。Gemini 两次尝试分别超时和报上游 403，证据由 Codex 核读。
+- 累计 38 份、6078 页。续接 Irina Stefania Stefanescu 的 ⁶⁹As/⁶⁹Se 博士论文（Universität zu Köln，2004）。139 页原件题页已目视，SHA 已核；PDF 内嵌文字字形映射异常，起步以页面渲染及 OCR 读取。
+
 ## 2026-11-20 — Easton 整源与 ¹⁹²Tl 谱图对账
 
 - [[easton-2011-192tl-afrodite-thesis]] 完成原件 105 页的科研与书证范围。以连接线核实早期和后续的带 2–4，后续候选带 5 单列。薄靶厚度按各自原文保留。

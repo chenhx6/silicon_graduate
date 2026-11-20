@@ -6538,3 +6538,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — Easton 整源和早期谱带对照
 
 - 核读 105 页，依共同交叉跃迁与馈出核对带 2–4，较晚的带 5 另存。累计 37 份、5959 页，续接 Radich 的 ¹²⁴Xe。
+
+## 2026-11-20 — Radich 的 ¹²⁴Xe 和 ¹²⁴Cs
+
+- 核读 119 页，归档 OSTI 作者稿与 Springer 出版版。核实 360/289 keV 的同母态 E2 归一及 301/270 keV 转换支路的版本差异。累计 38 份、6078 页，接续 Stefanescu。
