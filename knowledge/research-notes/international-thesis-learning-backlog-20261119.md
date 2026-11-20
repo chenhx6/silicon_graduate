@@ -291,6 +291,14 @@ polarization for the survey. The spin-cutoff factor in
 model. Its uncertainty is distinct from the population-alignment width
 used in in-beam analyses. Continuous volume coverage reaches 670 pages.
 
+PDF 671–691 adds seven contributions. In
+[[massoumi-schreckenbach-macmahon-1979-ag108-conversion]], the conversion
+coefficients and the reaction-derived parity assignments disagree for
+selected transitions. The thermal results in
+[[lone-bartholomew-1979-zr90-thermal-capture]] complement the distinct
+filters and energy windows in [[kenny-stelts-chrien-1979-zr-filtered-capture]].
+Continuous volume coverage reaches 691 pages.
+
 ## Final acquisition closure and learning design
 
 The user has closed further acquisition and requested an in-depth learning

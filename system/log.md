@@ -6354,3 +6354,8 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - 验收 PDF 636–670 十一篇。Sc-46 的 E2/M1 数值保留入口条件及圆偏振定义，Au-198 自旋推断保留纯偶极条件，能级密度自旋截止与布居取向宽度分别登记。
 - 连续覆盖 PDF 1–670，PDF 671–691 已提交 Gemini。
+
+## 2026-11-20 — 热俘获符合、内转换和门态
+
+- 验收 PDF 671–691 七篇。记录 Ag-108 转换与宇称歧义、过滤束和热俘获的观测差别、光子强度模型的统计失配。
+- 连续覆盖 PDF 1–691。PDF 692–723 已提交 Gemini。

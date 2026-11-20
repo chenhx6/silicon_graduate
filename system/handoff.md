@@ -26,7 +26,8 @@ updated: 2026-11-20
 - PDF 570–604 十二篇已核完。两篇 Pb-208 模型使用共用俘获资料，Pt-196 能级与经验能隙保留可能共享的 BNL 谱。Al-28 实测 γ 圆偏振和角分布，排除于线偏振 P–δ 数据表。
 - PDF 605–632 十篇验收，包括双光子俘获上限、共用能标链和 Pb-208 题名与正文 Pb-207 初步结果的区别。Holt 的缓存回执只修正 JSON 转义，未重发请求。
 - PDF 636–670 十一篇已验收。Sc-46 的 E2/M1 与 Au-198 的自旋分析都使用圆偏振，按来源方法保留。Tm-170/Au-198 的能级密度自旋截止因子按其原定义登记。
-- 1979 会议卷连续覆盖 PDF 1–670，共 670/874 页，其中书证 18 页。沿用 U001 原记录。PDF 671–691 继续，见 `tmp/deep-learning-neutron-capture-1979/resonance-strength-batch.log`。
+- PDF 671–691 七篇已核完。Ag-108 保留转换系数和转移反应宇称的冲突，Zr-90 热俘获与同卷过滤束的测量条件可对照。
+- 1979 会议卷连续覆盖 PDF 1–691，共 691/874 页，其中书证 18 页。沿用 U001 原记录。PDF 692–723 继续，见 `tmp/deep-learning-neutron-capture-1979/doorway-collectivity-batch.log`。
 - 章级来源共用已哈希的原件，以不重叠的 `raw_pdf_pages` 标识各章。唯一作品检查继续执行，原 PDF 没有拆档或复制。
 - 另一 session 的 PDM/PDCO 与 Hamilton 改动继续隔离。无 PDM 拟合、raw 改写或重新获取。HDR 阶段指针为 `main + research: integrate Ljungvall HDR evidence and start capture proceedings`。
 

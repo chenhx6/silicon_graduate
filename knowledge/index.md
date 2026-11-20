@@ -107,6 +107,13 @@ updated: 2026-11-20
 - [[kopecky-1979-sc46-circular-polarization-mixing]] — 圆偏振反演 E2/M1 和入口通道条件。
 - [[kopecky-1979-average-e1-m1-strength]] — 近阈 E1/M1 宽度比与取样范围。
 - [[ligthart-postma-1979-au198-circular-polarization-spin]] — 圆偏振、角分布及纯偶极自旋拟合。
+- [[liou-chrien-1979-sc46-absolute-radiative-widths]] — 分辐射宽度及跨共振强度归一。
+- [[lone-bartholomew-1979-zr90-thermal-capture]] — 热俘获谱中符合门与杂质支路。
+- [[lone-inglis-1979-o18-thermal-capture]] — 氧-18 纲图及同位素参照。
+- [[lukander-uusitalo-1979-online-capture-analysis]] — 在线谱线的装置背景与探测响应。
+- [[massoumi-schreckenbach-macmahon-1979-ag108-conversion]] — 内转换多极性与转移反应宇称冲突。
+- [[mccullagh-chrien-1979-photon-strength-survey]] — 跨反应的光子强度统计及失配。
+- [[micklinghoff-castel-1979-fast-capture-doorways]] — 快俘获门态的相干振幅模型。
 
 ## A130前置正文重写：样节与一致性
 

@@ -1,0 +1,134 @@
+{
+  "recorded_at": "2026-11-20T00:04:45.349299+00:00",
+  "batch_pages": [
+    671,
+    691
+  ],
+  "batch_page_count": 21,
+  "book_all_known_pages": [
+    "1-691"
+  ],
+  "book_covered_pages": 691,
+  "bibliographic_pages": [
+    "1-17",
+    "521"
+  ],
+  "book_completion": false,
+  "responses": [
+    {
+      "id": "NC79-LIOU-SC46",
+      "covered": [
+        671,
+        673
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "4f81773b5e68c0812523fe93789086a2523cf5c6c922071ebf7d41fa38dda897"
+    },
+    {
+      "id": "NC79-LONE-ZR90",
+      "covered": [
+        674,
+        676
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "c37194bdafc68894e71c171fb6951d31135cc2a6f839718aed3d82bf86db9e47"
+    },
+    {
+      "id": "NC79-LONE-O18",
+      "covered": [
+        677,
+        679
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "896840f9271ba29791449fed1590bae7b90b2228926bc8b2936a53265c315da7"
+    },
+    {
+      "id": "NC79-LUKANDER-ANALYSIS",
+      "covered": [
+        680,
+        682
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "d51252cebb721c5d1bede4fead9a6f89a4fe43e7f4c8709bcb014607d66cd1e3"
+    },
+    {
+      "id": "NC79-MASSOUMI-AG108",
+      "covered": [
+        683,
+        685
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "00dba1326bac39fb2f6bc0333a7ea968546c064de64518a3f35ca0006b6bdae4"
+    },
+    {
+      "id": "NC79-MCCULLAGH-PHOTON-STRENGTHS",
+      "covered": [
+        686,
+        688
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "65baffa02fc22ea99a05c5f3e36862418fedafbe2d12f4f5260e3a7fb442807a"
+    },
+    {
+      "id": "NC79-MICKLINGHOFF-DOORWAYS",
+      "covered": [
+        689,
+        691
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "3625fb0c946e07c64319d45d31a428c72d97abf6ba3cc7000218aa0bda28092a"
+    }
+  ],
+  "chapter_sources": [
+    "knowledge/sources/liou-chrien-1979-sc46-absolute-radiative-widths.md",
+    "knowledge/sources/lone-bartholomew-1979-zr90-thermal-capture.md",
+    "knowledge/sources/lone-inglis-1979-o18-thermal-capture.md",
+    "knowledge/sources/lukander-uusitalo-1979-online-capture-analysis.md",
+    "knowledge/sources/massoumi-schreckenbach-macmahon-1979-ag108-conversion.md",
+    "knowledge/sources/mccullagh-chrien-1979-photon-strength-survey.md",
+    "knowledge/sources/micklinghoff-castel-1979-fast-capture-doorways.md"
+  ],
+  "verified_pages_and_checks": [
+    "Liou 与 Chrien 1979：钪-46 的分辐射宽度和强度归一: PDF 671–672 / Table 1：章文报告 $S_n=8760.9\\pm0.3$ keV。表分列热俘获与 3290、4330 eV s 波共振，并用绝对辐射宽度估平均 E1/M1 强度。 | PDF 672–673：不同 E1 参数化的能量幂次和单位不同。平均 E1/M1 宽度比较继承绝对强度标尺和已见跃迁集。",
+    "Lone 与 Bartholomew 1979：锆-90 热俘获的符合归属: PDF 674–676 / Fig. 1：高能单谱含杂质线，采用低能 γ 门及符合和能辅助放置初级跃迁。由符合级联得 $^{91}$Zr 的 $S_n=7192.8\\pm3$ keV。 | PDF 674–675：与转移反应值相符提供跨反应校验。[[kenny-stelts-chrien-1979-zr-filtered-capture]] 在 2/24 keV 条件未见 $^{90}$Zr 的线，其入射条件和本章热俘获不同。",
+    "Lone 与 Inglis 1979：氧-18 俘获线与参照归一: PDF 677–679 / Fig. 1：分别测样品谱与参照谱，处理残余氢俘获线，再把跃迁放入氧-18 能级图。 | PDF 679：用氧-16 和氘俘获参照估算氧-17 热俘获截面 $538\\pm65$ μb。该不确定度与所选归一和同位素成分有关。",
+    "Lukander 与 Uusitalo 1979：在线谱学的响应、本底与寿命估计: PDF 680–681 / Fig. 1：用模拟估计样品和探测器响应。器件寿命来自所采用的快中子损伤与通量假设。 | PDF 682：原谱中仍有不同来源的俘获线，区分样品信号与装置背景要回到谱线标记和所用几何。",
+    "Massoumi 等 1979：银-108 的内转换和宇称冲突: PDF 683–684：作者校正电子窗吸收，借衰变线和引文强度归一转换系数。多极性依赖分壳常数、强度比例和转换理论比较。 | PDF 685：558.86 与 636.67 keV 跃迁的转换系数支持 M1/E2 候选，但与来自 (d,p) 等的能级宇称矛盾。保留转换和宇称两类证据的冲突。",
+    "McCullagh 与 Chrien 1979：跨反应平均光子强度: PDF 686–687 / Figs. 1–2：把俘获、光中子与光散射资料按所选模型重新归一并比较。图上的均值受采样与输入集合影响。 | PDF 688：E1 巨偶极模型的 $\\chi^2$ 较小，但两个模型都出现大于统计预期的失配。M1 光散射数据样本不足，未用于该项平均。",
+    "Micklinghoff 与 Castel 1979：快俘获振幅的门态分解: PDF 689–691 / Fig. 1：将单粒子共振从散射连续基中分出。截面含直接、集体、单粒子及末态俘获振幅的相干和，不宜独立相加各项截面。 | PDF 691：硫靶案例的快速起伏与作者计算的多个连续区共振相容，比较使用已发表实验。与 [[castel-micklinghoff-1979-fast-neutron-doorway-states]] 具有模型源流关系。"
+  ],
+  "next_batch": {
+    "pages": [
+      692,
+      723
+    ],
+    "units": [
+      "NC79-MACY-BOREHOLE",
+      "NC79-MITCHELL-PHASE",
+      "NC79-MIZUMOTO-PB207",
+      "NC79-NATH-O16",
+      "NC79-NILSSON-SI29",
+      "NC79-ORR-AG108",
+      "NC79-PECEQUILO-SUAREZ",
+      "NC79-PEKER-ANOMALOUS-M1",
+      "NC79-PEKER-HG-TRIAXIAL",
+      "NC79-PEKER-CD-COLLECTIVITY",
+      "NC79-PONOMAREV-TE126"
+    ]
+  },
+  "carried_forward": {
+    "pages": [
+      633,
+      635
+    ],
+    "source_note": "knowledge/sources/hungerford-1979-ill-angular-correlation-164dy.md",
+    "new_api_requests": 0
+  }
+}
