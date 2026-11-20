@@ -328,23 +328,31 @@
     "SIC-CONCLUSIONS",
     "SIC-OPTIMIZATION",
     "SIC-BIBLIOGRAPHY",
-    "SIC-INDEXES"
+    "SIC-INDEXES",
+    "KALAYDJIEVA-CD-ZR-TARGETED",
+    "KALAYDJIEVA-EXPERIMENT-CROSSWALK",
+    "KALAYDJIEVA-APPENDICES-A-E"
   ],
   "completed_full_sources_this_run": 17,
   "PDM_run": false,
-  "new_search_or_download": false,
+  "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 995,
   "full_work_identity_reconciliation_complete": false,
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T06:04:53.456024+00:00",
+  "updated_at": "2026-11-20T06:38:40.568270+00:00",
   "completed_deep_read_sources_this_run": 0,
   "completed_primary_pages_this_run": 3388,
-  "current_source_note": "knowledge/sources/lettmann-2018-ge-kr-triaxiality-thesis.md",
-  "next_action": "Read Kalaydjieva thesis and compare Cd/Zr matrix-element evidence with prior sources.",
+  "current_source_note": "knowledge/sources/kalaydjieva-2023-cd106-zr100-shape-coexistence-thesis.md",
+  "next_action": "Verify front matter and foundations, then detector, calibration and yield chapters for sequential coverage.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
   "last_source_manager_closure": "Lettmann: all scientific pages checked by Codex, cited original scope and visual extraction boundaries retained.",
-  "current_source_scientific_acceptance": "Lettmann 188 scientific/bibliographic pages, PDF 187 CV excluded. Kalaydjieva title and HAL edition checked."
+  "current_source_scientific_acceptance": "Kalaydjieva: Cd/Zr targeted original-page audit and 20 appendix pages checked by Codex. Whole-source coverage remains pending.",
+  "source_scoped_retrieval": "Two proceedings PDFs and two abstract-only identity snapshots saved for experiment crosswalk; no bulk acquisition.",
+  "current_source_open_pairs": [
+    "106Cd excitation path vs nuclear interference and independent lifetimes",
+    "100Zr angle response vs statistical rejection, parity, and absolute E2 strength"
+  ]
 }

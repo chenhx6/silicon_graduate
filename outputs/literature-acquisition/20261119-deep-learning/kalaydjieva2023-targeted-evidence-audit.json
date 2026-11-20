@@ -1,0 +1,71 @@
+{
+  "work_id": "doi:10.70675/c170c2b4z5cecz4187z8bacz070f04c3f6c4",
+  "original": {
+    "path": "raw/theses/gpt/query/20261119-international-nuclear-structure/129736_KALAYDJIEVA_2023_archivage.pdf",
+    "sha256": "8a888adca2429166e6b4878a342173313754ceb77b8f3f0f8f21c71e9acd7005",
+    "size": 13770591,
+    "hash_basis": "fresh-hash",
+    "source_role": "original-or-verified-edition"
+  },
+  "auditor": "Codex",
+  "mode": "targeted evidence audit",
+  "scientific_coverage_complete": false,
+  "covered_sections": [
+    "Title, HAL edition, and contents (PDF 1–2, 8–11)",
+    "Selected 106Cd observations, Coulomb-nuclear sensitivity, relative signs, adopted errors and structural alternatives (§4.3 and selected points in §§5.6–7.4)",
+    "Selected 100Zr level/transition records, event mixing, spin/δ fits and band candidates (§§12.3–13.3 and Table 12.1)",
+    "Appendix A–E, PDF 220–239, including input roles, continuation stubs, and opening-angle table."
+  ],
+  "visual_pdf_pages": [
+    108,
+    114,
+    137,
+    195,
+    197,
+    199,
+    200,
+    202,
+    204,
+    239
+  ],
+  "evidence_gaps": [
+    "Full sequential coverage of foundations, apparatus, calibrations, yield and matrix-element tables and citations remains pending.",
+    "2026 GANIL abstract crosswalk is established at dataset/method level; no final Cd matrix-element article verified.",
+    "Wu 2024 independent Gammasphere experiment identified from publisher abstract; its full tables were not checked.",
+    "GRIFFIN versions share a run; event-level reason for changed errors/goodness of fit has not been established."
+  ],
+  "publication_archive_manifest": "raw/papers/gpt/query/20261120-kalaydjieva-experiment-crosswalk/manifest.json",
+  "gemini": {
+    "task_id": "KALAYDJIEVA-APP-AB",
+    "work_id": "doi:10.70675/c170c2b4z5cecz4187z8bacz070f04c3f6c4",
+    "model_requested": "agy-cli/gemini-3.8-flash",
+    "reasoning_requested": "high",
+    "pdf_pages": [
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226
+    ],
+    "sha256": "8a888adca2429166e6b4878a342173313754ceb77b8f3f0f8f21c71e9acd7005",
+    "started_at": "2026-11-20T06:33:23.928008+00:00",
+    "http_status": 502,
+    "state": "upstream-http-error",
+    "ended_at": "2026-11-20T06:34:26.901117+00:00",
+    "accepted_outputs": 0
+  },
+  "source_note": "knowledge/sources/kalaydjieva-2023-cd106-zr100-shape-coexistence-thesis.md",
+  "updated_at": "2026-11-20T06:38:40.568270+00:00",
+  "numerical_crosscheck": {
+    "appendix_e_angle_rows": 52,
+    "ordered_pairs_including_same_crystal": 3600,
+    "same_clover_angles_excluded_deg": [
+      0,
+      15.442,
+      21.905
+    ],
+    "retained_distinct_angles": 49
+  }
+}
