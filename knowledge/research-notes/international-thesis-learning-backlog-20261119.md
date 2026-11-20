@@ -375,8 +375,8 @@ its response and population assumptions. The electron efficiency inherits
 the γ calibration and adopted decay branching ratio. The introductory
 Eq. (1.43) uses a rank-1 coefficient in a rank-2 transition formula.
 
-[[lettmann-2018-ge-kr-triaxiality-thesis]] has 102 pages checked, including
-the detector, calibration, analysis, results and discussion chapters.
+[[lettmann-2018-ge-kr-triaxiality-thesis]] now has 188 scientific and
+bibliographic pages reconciled. The remaining PDF page is the local CV.
 The significance of the 371 keV line in Ge-86 and the tentative \(3^+\)
 assignment are separate constraints. The latter enters the reported
 staggering and rigid-rotor comparison. The related Ge journal work and
@@ -384,6 +384,8 @@ the thesis retain separate version locators with likely shared data.
 The Ge-84 example shows how Compton events can generate apparent
 self-coincidence. The conditional line-shape scan and empirical
 peak-area error estimate define the scope of the reported significance.
+Appendix C retains the model cross-section inversion. The spectra under
+different multiplicity cuts share the events in the corresponding channel.
 
 ## Final acquisition closure and learning design
 

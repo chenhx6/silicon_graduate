@@ -8,7 +8,7 @@ updated: 2026-11-20
 status: ai-draft
 review_status: unreviewed
 source_type: doctoral-thesis
-reading_depth: skimmed
+reading_depth: read
 authors: ["Marc Lettmann"]
 year: 2018
 institution: Technische Universität Darmstadt
@@ -28,13 +28,13 @@ tags: [triaxiality, gamma-band, knockout, inelastic-scattering, thesis]
 
 Marc Lettmann，Technische Universität Darmstadt 博士论文。PDF 1–2
 记载 2018 年 2 月 1 日提交、4 月 16 日答辩。PDF 180 列同作者
-Ge 实验论文 *Phys. Rev. C* **96**, 011301(R) (2017)。
+Ge 实验论文 *Phys. Rev. C* **96**, 011301(R) (2017)，DOI `10.1103/PhysRevC.96.011301`。
 
 ## Scope and Reading Depth
 
-原件 189 页。已核 PDF 1–3、7–10、39–132、180，共 102 页。
-图像补核 PDF 51、58、69–70、76、127–129。PDF 58 只有版面装饰。
-本段正文印刷页为 PDF 页减 10。余页及出版版逐项比对待补。
+原件 189 页。科研内容、附录及书证共核 188 页。PDF 187 为个人履历，
+留在本地原件。图像补核正文、附录的无文字层页面。分隔页按版面核查。
+正文印刷页为 PDF 页减 10。未收到 Gemini 主读回执，原论文的版本逐项比对仍待补。
 
 ## Summary
 
@@ -54,6 +54,8 @@ Ge 实验论文 *Phys. Rev. C* **96**, 011301(R) (2017)。
 | LET-6 | BigRIPS 和 ZeroDegree 的粒子鉴别用飞行时间、磁刚度与能损结合，在焦点位置和角度上校正 $A/Q$。MINOS 漂移速度按机时段标定并用于反应顶点重建。不能重建顶点的 $(p,p')$ 数据采用靶中点近似，峰形与移除反应不同。 | calibration-and-response | direct-original-pages | PDF 59–79, Figs. 5.6–5.11、5.17–5.18 |
 | LET-7 | 线形模拟包含光峰和 Compton 连续谱。论文的 $^{84}$Ge 例中，能区自符合投影拟合为 1063(32) 个计数，较高能跃迁的模拟 Compton 贡献为 1020(32)。两数由同一组实验与响应模型得到，自符合可由部分能量沉积产生。 | detector-response-and-coincidence-artifact | direct-original-pages | PDF 79–83, Figs. 5.19、5.21–5.22 |
 | LET-8 | 作者先用零寿命线形及背景拟合，再固定其余峰和背景，只对当前线扫描半衰期模板并重拟能量、幅度，以 $\Delta\chi^2=1$ 估计线形寿命区间。对 371 keV 的显著性，面积–误差经验曲线在零面积处给 64(8) 个计数的不确定度。报告的显著性继承这些拟合条件。 | conditional-likelihood-and-empirical-significance | direct-original-pages | PDF 83–84、92–93, Figs. 5.23、5.27 |
+| LET-9 | 基础及模型章分别定义 $\beta\cos\gamma$、$\beta\sin\gamma/\sqrt2$ 的四极形状分量、刚性三轴基准和 SCCM 的投影组态混合。后文用刚性转子与 SCCM 势能面对照同一组能级，适用假设不同。 | theoretical-comparison-scope | direct-original-pages | PDF 29–35, Eqs. (3.7)–(3.8), Fig. 3.3 |
+| LET-10 | 附录 A.5 对按反应选出的线分别给条件 $\chi^2$ 图。$^{86}$Ge 的 371 keV 候选所用曲线最低点在零寿命附近，510 keV 分支在非零处。附录 C 用测得的截面区间在模型曲线上反演变形长度。 | appendix-confirmation-and-boundary | direct-original-pages | PDF 142 Fig. A.11, 157–159 Figs. C.1–C.4 |
 
 ## Competing Interpretations and Limitations
 
@@ -70,10 +72,15 @@ Ge 实验论文 *Phys. Rev. C* **96**, 011301(R) (2017)。
   名义中心和实际实现（PDF 54、78–79）。
 - PDF 92、96 的截面公式中，DALI2 光峰效率已经进入模拟线形，DALI2
   触发效率仍单列。MINOS 顶点选择及 ZeroDegree 透射校正按反应类型处理。
+- PDF 151–152 的 Figs. B.3–B.4 图注将反应简写为 $(p,pn)$，与同页
+  $^{86,87}$As 到 $^{84}$Ge 的节题和质量数/电荷数不符。按节题分别保留
+  $(p,2pn)$、$(p,2p2n)$。附录的多重性变体共用事例，未作独立测量计数。
 
 ## Extracted Pages
 
-- PDF 1–3、7–10：题名、学位、摘要和目录。
+- PDF 1–10、189：题名、学位、摘要、卷首及声明。
+- PDF 11–38：研究动机、反应基础、集体模型和组态混合。
 - PDF 39–96：SEASTAR 装置、校准、Doppler 校正、峰形、符合与截面方法。
 - PDF 97–132：Ge 移除反应、Ge/Kr 非弹性散射、结构比较及总结。
-- PDF 180：本论文所列 2017 年 Ge 期刊文章出处。
+- PDF 133–160：校准、条件寿命曲线、多重性选择、光学势反演及分隔页。
+- PDF 161–186、188：书目、图表目录、成果表、致谢及分隔页。

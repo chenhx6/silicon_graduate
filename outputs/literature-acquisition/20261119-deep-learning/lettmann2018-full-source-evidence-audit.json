@@ -1,0 +1,96 @@
+{
+  "recorded_at": "2026-11-20T06:04:53.456024+00:00",
+  "chapter_sources": [
+    "knowledge/sources/lettmann-2018-ge-kr-triaxiality-thesis.md"
+  ],
+  "raw_sha256": "2c635ba63e1e71f5c81bac6bc952af5de6828c49973952ec347c1cb0d5aa5dad",
+  "physical_pdf_pages": 189,
+  "previously_checked_pages": 102,
+  "newly_checked_pages": 86,
+  "accepted_coverage_pages": 188,
+  "excluded_local_cv_pages": [
+    187
+  ],
+  "covered_sections": [
+    {
+      "pdf_span": [
+        1,
+        10
+      ],
+      "scope": "title, front matter and contents",
+      "reader": "Codex"
+    },
+    {
+      "pdf_span": [
+        11,
+        38
+      ],
+      "scope": "introduction, interaction and theory",
+      "reader": "Codex"
+    },
+    {
+      "pdf_span": [
+        39,
+        132
+      ],
+      "scope": "apparatus, analysis, results and discussion",
+      "reader": "Codex"
+    },
+    {
+      "pdf_span": [
+        133,
+        160
+      ],
+      "scope": "calibration and scientific appendices",
+      "reader": "Codex"
+    },
+    {
+      "pdf_span": [
+        161,
+        186
+      ],
+      "scope": "bibliographic matter and indexes",
+      "reader": "Codex"
+    },
+    {
+      "pdf_span": [
+        188,
+        189
+      ],
+      "scope": "separator and declaration",
+      "reader": "Codex"
+    }
+  ],
+  "accepted_gemini_receipts": 0,
+  "textless_pages_visual_checks": [
+    37,
+    51,
+    69,
+    70,
+    76,
+    127,
+    128,
+    129,
+    157,
+    158,
+    159
+  ],
+  "decorative_dividers_checked": [
+    4,
+    6,
+    18,
+    58,
+    160,
+    170,
+    176,
+    188
+  ],
+  "verified_pages_and_checks": [
+    "PDF 29–35: quadrupole deformation conventions and theory inputs.",
+    "PDF 141–146: life-scan panels and boundary behavior.",
+    "PDF 151–152: reaction-caption conservation check.",
+    "PDF 157–159: model input and cross-section/deformation-length inversion.",
+    "PDF 180 and original title pages: same author, Ge published citation, shared data to reconcile."
+  ],
+  "next_source": "doi:10.70675/c170c2b4z5cecz4187z8bacz070f04c3f6c4"
+}
