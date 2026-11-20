@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-11-20T17:15:35.317403+00:00",
+  "source": "knowledge/sources/hamilton-1969-mixing-ratios-pt194-196.md",
+  "raw_file": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_69_90052-9.pdf",
+  "raw_sha256": "8b575f5913d054340bb26b03e6ef7270de7e96e26f110420f331f2ff7beeda7a",
+  "primary_pdf_pages": 8,
+  "scientific_and_bibliographic_pages_covered": 8,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–4: identity, prior and present Au sources, Ge/NaI methods, 6% contaminant estimate",
+    "PDF 5–6: Table 1–2 coefficients, individual and combined branch constraints",
+    "PDF 7–8: Table 3 theory, 759 keV ambiguity, references"
+  ],
+  "visual_checks": [
+    1,
+    5,
+    6,
+    7
+  ],
+  "duplicate_copy": {
+    "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1969_Hamilton_The multipole mixing ratio of 2′+ → 2+ transitions in 194Pt and 196Pt.pdf",
+    "sha256": "8b575f5913d054340bb26b03e6ef7270de7e96e26f110420f331f2ff7beeda7a",
+    "size": 580665,
+    "hash_basis": "catalogue-signature-cache; rehash-on-reading",
+    "source_role": "byte-identical-copy-of-verified-edition"
+  },
+  "evidence_gaps": [
+    "Printed 194Pt magnitude error is +39/-11, not +39/-19. p. 261 has raw average and the corrected average in separate rows.",
+    "Table 3 prints -1.9 to +2.4 for the 192Pt 604 keV result cited from 1968; the 1968 original writes +1.9 to +2.4.",
+    "The NaI polarization result assumes comparable detection and polarization efficiencies for the two cascade members and does not remove all contaminant cascades."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

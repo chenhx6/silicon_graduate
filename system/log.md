@@ -6610,3 +6610,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Hamilton 与 Davies 的 ¹⁹²Pt 级联分解
 
 - 核读 12 页，订正 DOI，分开复合极化与逐线混合比，记录按阶相减的不稳定性。累计 54 份、7536 页，续读 Hamilton 1969。
+
+## 2026-11-21 — Hamilton 的 ¹⁹⁴Pt 和 ¹⁹⁶Pt 支路
+
+- 核读 8 页，订正出版页码与 ¹⁹⁴Pt 的不对称误差，记录同哈希副本与 759 keV 未决支路。累计 55 份、7544 页，续读 ¹¹¹Cd。

@@ -3,7 +3,7 @@ type: source
 title: "Hamilton 1969 - E2/M1 mixing ratios in 194Pt and 196Pt"
 aliases: [Hamilton 1969 Pt mixing ratios]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-11-21
 status: ai-draft
 review_status: unreviewed
 source_type: experiment
@@ -14,9 +14,10 @@ journal: "Nuclear Physics A"
 year: 1969
 citation_key: hamilton_1969_Multipole
 volume: 136
-pages: "251-264"
+pages: "257-264"
 pii: "0375-9474(69)90052-9"
-canonical_source: "Hamilton, Nucl. Phys. A 136, 251-264 (1969)"
+doi: "10.1016/0375-9474(69)90052-9"
+canonical_source: "Hamilton, Nucl. Phys. A 136, 257-264 (1969)"
 library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1969_Hamilton_The multipole mixing ratio of 2′+ → 2+ transitions in 194Pt and 196Pt.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1969_Hamilton_The multipole mixing ratio of 2′+ → 2+ transitions in 194Pt and 196Pt.pdf"
 raw_sha256: "8b575f5913d054340bb26b03e6ef7270de7e96e26f110420f331f2ff7beeda7a"
@@ -33,27 +34,27 @@ tags: [194Pt, 196Pt, mixing-ratio, polarization, angular-correlation]
 
 ## Bibliographic Record
 
-- W. D. Hamilton, *Nucl. Phys. A* **136**, 251–264 (1969), PII `0375-9474(69)90052-9`.
+- W. D. Hamilton, *Nucl. Phys. A* **136**, 257–264 (1969), DOI `10.1016/0375-9474(69)90052-9`。出版版题页目视为 257，之后连续排至 264，出版 XML 同样给 257–264。
 - 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1969_Hamilton_The multipole mixing ratio of 2′+ → 2+ transitions in 194Pt and 196Pt.pdf`。
 
 ## Scope and Reading Depth
 
-- PDF pp.257–264 fully read: source preparation, Ge–NaI γγ setup, four correlation angles, accidental/background/miscentering corrections, Tables 1–3, γ-linear-polarization analysis, Figs.1–3 and the unresolved 759-keV issue.
+- PDF 1–8（印刷 257–264 页）：源制备、Ge–NaI 角关联与计数修正、表 1–3、图 1–3、双 NaI 线偏振、759 keV 不一致和参考文献。
 - Not covered: later evaluated level schemes and the cited original theory papers beyond the comparisons printed here.
 
 ## Key Results
 
 - High-resolution Ge coincidence spectra separated the `294-328 keV` `194Pt` cascade and the `333-356 keV` `196Pt` cascade, avoiding unresolved contributions that had affected earlier angular-correlation measurements (PDF pp.258–260, Fig.1).
-- For `194Pt`, the corrected weighted averages are `A22=−0.092(13)` and `A44=0.303(20)`; the inferred E2/M1 mixing ratio is `δ=−(30^{+39}_{−19})` under the Biedenharn convention (PDF p.261, Table 1).
+- 对 ¹⁹⁴Pt，表 1 的加权平均为 \(A_{22}=-0.092(13),A_{44}=0.303(20)\)。脚注 b 的 6% 级联修正后为 \(-0.101(14),+0.323(22)\)，原表的 \(\delta=-(30^{+39}_{-11})\)，对应带符号区间 \([-69,-19]\)。见印刷 261 页表 1。
 - For `196Pt`, the weighted averages are `A22=0.113(5)` and `A44=0.315(10)`, giving `δ=+4.03(12)` for the 333-keV transition (PDF p.261, Table 1). The value strongly disagrees with the then-current Kumar theoretical `+101.4` prediction, whereas the `194Pt` result is compatible with `−19.9`.
-- γ-linear-polarization gives `P=0.034(46)` for 294 keV and `P=0.067(31)` for 333 keV; the 196Pt cascade has a unique positive-δ solution in the combined plot, while the 194Pt polarization is weak and not independently decisive (PDF pp.261–262, Table 2, Figs.2–3).
+- 表 2 的 \(P\) 为 ¹⁹⁴Pt 的 \(0.034(46)\) 和 ¹⁹⁶Pt 的 \(0.067(31)\)。独立极化曲线给前者 \(4.9\) 经 \(\pm\infty\) 到 \(-10.5\) 的两端区间，后者 \(6.2^{+7.2}_{-2.0}\)。极化装置无法区分同一级联中两条线，作者以两者探测和极化效率近似相等来分析。角关联主解分别为负、正支。见印刷 261–262 页表 1–2、图 2–3。
 - Additional `759-333` and `759-356 keV` correlations in `196Pt` yield no consistent solution for the accepted spin sequence; the author preserves a possible unresolved doublet/extra transition near 759 keV and calls for better-resolution coincidence data (PDF pp.263–264, Table 1).
 
 ## Key Results
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| HA69-1 | High-resolution γγ correlations determine `δ=−(30^{+39}_{−19})` for the 294-keV `194Pt` transition under the stated convention and corrections. | mixing-ratio-result | direct | PDF pp.259–262, Table 1, Fig.2 | true |
+| HA69-1 | ¹⁹⁴Pt 的 294 keV 角关联主解为 \(\delta=-(30^{+39}_{-11})\)。独立极化区间保留正、负大模两支，见表 2。 | mixing-ratio-result | direct | 259–262 页，表 1–2，图 2 | true |
 | HA69-2 | The 333-keV `196Pt` transition has `δ=+4.03(12)` and a unique combined-correlation solution within the accepted cascade. | mixing-ratio-result | direct | PDF pp.261–263, Tables 1–2, Fig.3 | true |
 | HA69-3 | The `196Pt` result conflicts with the then-current Kumar theoretical mixing ratio; matrix-element cancellations are proposed as one explanation. | experiment-model-conflict | mixed | PDF pp.262–263, Table 3 | true |
 | HA69-4 | The 759-keV correlations are inconsistent with the accepted level sequence and may indicate an unresolved nearby transition. | source-integrity-boundary | direct | PDF pp.263–264, Table 1 | false |
@@ -68,6 +69,8 @@ Hamilton combines high-resolution γγ angular correlations with γ-linear polar
 - Corrections rely on a 6% contaminant estimate for the 294-keV line, assumed spin sequences, source centering, accidental/background subtraction and comparable polarization efficiency for cascade members.
 - The 194Pt polarization is consistent with a broad range of δ values and is not a unique branch selector by itself.
 - The 196Pt theory disagreement may reflect matrix-element cancellation, but the paper does not test modern wave functions; it is a historical experiment–model conflict, not a universal failure of theory.
+- 本次两种源来自 ¹⁹⁴Au 和 ¹⁹⁶Au 衰变。¹⁹⁴Pt 的独立极化还用富 ¹⁹⁴Pt 靶制源。¹⁹⁴Pt 早期 ¹⁹⁴Ir 源结果及 [[rikovska-1983-irfe-pt192-polarization]] 的 ¹⁹⁴Pt 温度扫描属于另外的实验与跃迁。
+- 759 keV 的分析在 759→333 级联中把 333 keV 作为第二条跃迁，采用 \(\delta=-4\) 来计算污染或错误归属的条件性反推。它与主级联第一条跃迁 \(+4.03(12)\) 的时序角色不同。表 3 对 ¹⁹²Pt 604 keV 转引排成 −1.9 到 +2.4，[[hamilton-1968-angular-correlations-192pt]] 的原始结论是 +1.9 到 +2.4。
 
 ## Analytical Reconstruction and Self-Audit
 

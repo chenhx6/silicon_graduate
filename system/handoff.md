@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Hamilton 的 ¹⁹⁴Pt 与 ¹⁹⁶Pt
+
+- [[hamilton-1969-mixing-ratios-pt194-196]] 核读 8 页，订正页码 257–264 和 ¹⁹⁴Pt 不对称误差 \(-(30^{+39}_{-11})\)。分别保留纯方向关联系数、6% 订正、极化单项区间和 759 keV 歧义。两个同哈希 PDF 只计一篇。
+- 累计 55 份、7544 页。续读 Kreische 与 Lampert 的 ¹¹¹Cd 方向–极化关联，1974 年本地三页出版版与 SHA 已核。
+
 ## 2026-11-21 — Hamilton 与 Davies 的 ¹⁹²Pt 复合谱
 
 - [[hamilton-1968-angular-correlations-192pt]] 复核 12 页，逐项对账复合组 \(P\)、线级 \(\delta\)、时序反号和 604–316 keV 的四阶误差。旧 DOI 已在来源页、汇编页和学习队列订正，历史交付快照旁另附勘误。
