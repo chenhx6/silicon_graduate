@@ -88,6 +88,8 @@ The analyzing power is a Compton-scattering property and depends on photon energ
 
 [[davies-hamilton-1967-ta181-482kev-mixing-ratio]] 的衰变级联分析联用 \(A_{22},A_{44}\) 和线偏振方位调制。同一有效级联内，方向项与极化项的共同 \(G_kA_k(1)\) 可按阶约掉，剩下末跃迁的 \(A'_k(2)/A_k(2)\) 及已测系数。¹⁸¹Ta 的 476 keV 串扰涉及另一末跃迁，原文另行校正。见原刊 §§7–8。
 
+[[reddingius-potters-postma-1968-nd-capture-polarization]] 在取向 ¹⁴³Nd 的俘获谱中给 ¹⁴⁴Nd 的 864 keV 线报告了 \(W(0^\circ)-1\) 与 \(P\)。分析保留先行 γ 数对布居的影响，且表 4 的计数比正好是式 1 的倒数。[[coleman-1958-mixed-transition-angular-polarization-loci]] 以 ¹²²Te 举例表明，应把理论轨迹与实验点一起比较，并在读分支时保留混合线或纯线、宇称标尺及方向系数的协方差。见两篇原刊的图 6、图 4 和 Coleman 附录。
+
 ## Detector Implementations
 
 - Clover and segmented HPGe arrays provide compact Compton event selections.

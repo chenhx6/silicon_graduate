@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.1016/0031-8914(68)90061-x",
+  "active_source": "doi:10.1016/0029-5582(58)90051-8",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 50,
+  "completed_full_sources_this_run": 51,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T16:39:07.380301+00:00",
+  "updated_at": "2026-11-20T16:44:42.413869+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 7482,
-  "current_source_note": "knowledge/sources/reddingius-potters-postma-1968-nd-capture-polarization.md",
-  "next_action": "Read Coleman 1958, Nuclear Physics 5, 495–503, and verify the one- and two-mixed-transition conditions using the local 9-page publisher file.",
+  "completed_primary_pages_this_run": 7491,
+  "current_source_note": "knowledge/sources/coleman-1958-mixed-transition-angular-polarization-loci.md",
+  "next_action": "Read the 31-page Diddens et al. 1958 Nuclear Physics 5, 58–88, oriented 56Co and 56Fe spectroscopy.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Reddingius et al. 1968: 144Nd and 146Nd isotope assignments, 864 keV signed polarization, gamma feeding sensitivity and mixing records.",
-  "current_source_scientific_acceptance": "19 publisher pages including figures, tables and bibliography. 864 keV signed branch checked in Fig. 6 with absolute delta in Table VI.",
-  "source_scoped_retrieval": "Locally held publisher PDF. No new download."
+  "last_source_manager_closure": "Coleman 1958: two-observable locus, 122Te branch from polarization, phase-specific signs, degeneracies and directional-coefficient covariance.",
+  "current_source_scientific_acceptance": "Complete 9-page journal article including appendix and bibliographic scope; the one-page extract represents the same article.",
+  "source_scoped_retrieval": "Locally held publisher PDFs. No new download."
 }

@@ -6594,3 +6594,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Reddingius 等的 Nd 俘获谱
 
 - 核读 19 页，核对 ¹⁴⁴Nd 864 keV 的计数比、线偏振、各向异性和四极振幅区间。累计 50 份、7482 页。续读 Coleman 1958。
+
+## 2026-11-21 — Coleman 的混合比轨迹与协方差
+
+- 核读 9 页，区分 ¹²²Te 的极化选支与文献方向数据，核附录的二阶和四阶系数误差。同版一页摘录不另计。累计 51 份、7491 页，续读 Diddens 等。

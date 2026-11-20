@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Coleman 的角关联曲线与 ¹²²Te 偏振选支
+
+- [[coleman-1958-mixed-transition-angular-polarization-loci]] 核读 9 页，并列同版一页摘录。记录 \(\delta'\) 到 \(\delta\) 的换算、纯线与混合线的选支差异、两条线混合时的多对解及附录的系数协方差。
+- 累计 51 份、7491 页。续读 Diddens 等 1958 年的 ⁵⁶Co 取向及 ⁵⁶Fe 跃迁。31 页出版 PDF 的题名、作者和 SHA 已核。
+
 ## 2026-11-21 — Reddingius 等的取向 Nd 俘获谱
 
 - [[reddingius-potters-postma-1968-nd-capture-polarization]] 核读 19 页。核实 ¹⁴⁴Nd 864 keV 的计数比符号、线偏振、各向异性、取向传播和原表 \(\lvert\delta\rvert\)，区分 ¹⁴⁶Nd 样品与偶偶核引文汇编。

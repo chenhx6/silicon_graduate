@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-11-20T16:44:42.413869+00:00",
+  "source": "knowledge/sources/coleman-1958-mixed-transition-angular-polarization-loci.md",
+  "raw_file": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0029-5582_58_90051-8.pdf",
+  "raw_sha256": "5bd458a84f6bd083c8a759d85dd5b49d5d05515ee5fee78d80f41e804674aa8c",
+  "primary_pdf_pages": 9,
+  "scientific_and_bibliographic_pages_covered": 9,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–4: two coefficients, parametrization, conic and branch/sequence example, two mixed transitions",
+    "PDF 5–7: polarimetry and parity comparison, 122Te observed branch and Cd calibration",
+    "PDF 8–9: algebra, covariance propagation and citations"
+  ],
+  "visual_checks": [
+    3,
+    5,
+    7,
+    8
+  ],
+  "duplicate_excerpt": {
+    "path": "raw/papers/gpt/query/20261119-pdm-delta-broad/10.1016_0029-5582_58_90051-8.pdf",
+    "sha256": "b3a58888b0071a817a98c720c5a8303674fa5ce8ac739a4fac193d5e1b3e1b9d",
+    "size": 58058,
+    "hash_basis": "fresh-hash",
+    "source_role": "title-page-excerpt-of-verified-edition"
+  },
+  "evidence_gaps": [
+    "The published polarization expressions appear to omit 1+delta^2 from their common normalized denominators. See note and recompute when reused.",
+    "Figure 4 and discussion give approximate delta-prime for Te122; no precise signed confidence interval reported.",
+    "The comparative A2,A4 points are cited measurements and do not each demonstrate use of polarization."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}
