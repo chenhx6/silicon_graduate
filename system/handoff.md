@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — El-Masri 的 ¹⁸⁰Re 高 \(K\) 带
+
+- [[el-masri-2004-180re-high-k-thesis]] 已核 CAESAR 采集、3471.3 keV 态的 \(13(1)\,\mu\mathrm{s}\) 平均寿命，以及拟议 \(22^+\) 组态在正文与表 5.6 的差异。期刊入口为 `10.1103/PhysRevC.72.054306`，已留档书目，APS 全文返回 401；此前候选两篇为 Os 核论文。
+- 本轮 ¹⁸⁰Re 只计专题核验。续读其余带系、纳秒时间谱、支路转换、\(K\) 阻碍与 Fermi aligned 比较；整源累计维持 35 份、5701 页。
+
 ## 2026-11-20 — Cubiss 的 ¹⁷⁸Au 与 At 激光谱
 
 - [[cubiss-2017-at-laser-spectroscopy-au178-decay-thesis]] 完成学位原件 128/130 页的科研与书证范围，三篇 APS 原件按出版版本归档。保留 98.2 keV 两种级联、CERN 与 JR121 证据边界，以及 ²¹⁸At 自旋条件下的反常奇偶交错。Gemini 以明确证据合同重试，代理 HTTP 502 内含上游 HTTP 403，实际阅读由 Codex 完成。

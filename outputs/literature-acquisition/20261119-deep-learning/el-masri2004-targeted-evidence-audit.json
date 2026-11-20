@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-11-20T12:55:14.728608+00:00",
+  "state": "targeted-scientific-reading-active",
+  "source": "knowledge/sources/el-masri-2004-180re-high-k-thesis.md",
+  "covered_pdf_ranges": [
+    "1–6",
+    "44–52",
+    "82–90",
+    "108–111"
+  ],
+  "visually_checked": [
+    48,
+    51,
+    86,
+    109,
+    110
+  ],
+  "measured_mean_life_us": {
+    "central": 13,
+    "uncertainty": 1,
+    "figure": "4.11",
+    "pdf_page": 86
+  },
+  "configuration_discrepancy": {
+    "pdf_pages": [
+      6,
+      109,
+      110
+    ],
+    "table_5_6_maximum_K_parity": "22+",
+    "literal_prose_maximum_K_parity": "21-"
+  },
+  "publication_metadata_manifest": "raw/papers/gpt/query/20261120-el-masri-180re-crosswalk/manifest.json",
+  "publication_fulltext_http_status": 401,
+  "completion_credit": 0
+}
