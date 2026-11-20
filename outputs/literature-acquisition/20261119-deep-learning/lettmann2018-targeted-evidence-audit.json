@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-11-20T05:39:42.959641+00:00",
+  "chapter_sources": [
+    "knowledge/sources/lettmann-2018-ge-kr-triaxiality-thesis.md"
+  ],
+  "raw_sha256": "2c635ba63e1e71f5c81bac6bc952af5de6828c49973952ec347c1cb0d5aa5dad",
+  "source_total_pages": 189,
+  "physical_pages_checked": 44,
+  "checked_pdf_spans": [
+    [
+      1,
+      3
+    ],
+    [
+      7,
+      10
+    ],
+    [
+      97,
+      132
+    ],
+    [
+      180,
+      180
+    ]
+  ],
+  "remaining_pages": 145,
+  "visually_recovered_textless_pages": [
+    127,
+    128,
+    129
+  ],
+  "accepted_gemini_receipts": 0,
+  "verified_pages_and_checks": [
+    "PDF 1–3 and PDF 180: thesis identity and PRC article citation.",
+    "PDF 102–125: gamma line vs. spin, tentative level scheme and S(4) recomputation.",
+    "PDF 126–132: optical-potential applicability and assumed scale factor."
+  ]
+}

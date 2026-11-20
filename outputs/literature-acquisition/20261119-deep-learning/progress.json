@@ -338,13 +338,13 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T05:26:31.232206+00:00",
+  "updated_at": "2026-11-20T05:39:42.959641+00:00",
   "completed_deep_read_sources_this_run": 0,
   "completed_primary_pages_this_run": 3200,
-  "current_source_note": "knowledge/sources/chadderton-2025-fm250-conversion-electron-thesis.md",
-  "next_action": "Read Lettmann Ge/Kr thesis and verify dependencies with Ljungvall HDR; resume Gemini when authorized route is available.",
+  "current_source_note": "knowledge/sources/lettmann-2018-ge-kr-triaxiality-thesis.md",
+  "next_action": "Read Lettmann experimental technique and analysis chapters, complete remaining scientific pages and version crosswalk.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
   "last_source_manager_closure": "Chadderton: appendix apparatus/blank pages identified; retained original equation and caption issues, measured and modeled quantities separated.",
-  "current_source_scientific_acceptance": "Chadderton 172/172 pages reconciled by Codex. Lettmann identity checked, scientific coverage pending."
+  "current_source_scientific_acceptance": "Lettmann thesis: 44 of 189 targeted pages; no whole-source credit. 127–129 image-verified."
 }

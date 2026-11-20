@@ -35,7 +35,8 @@ updated: 2026-11-20
 - [[ley-2025-n50-seniority-lifetime-thesis]] 84 页与 [[siciliano-2017-sn106-sn108-rdds-thesis]] 190 页已验收。Ley 保留两个出版附文与一份附印稿的版本差异。Siciliano 保留共享馈入、联合寿命拟合与 FWHM 误差口径。
 - [[gerathy-2020-solenogam-conversion-electron-thesis]] 的 147 页已由 Codex 通读和逐页对账。保留 1105 keV 态的实测与采用半衰期、6931 keV 新态的符合证据、438 keV 多极性修订和两个谱仪的证据边界。
 - [[chadderton-2025-fm250-conversion-electron-thesis]] 的 172 页已由 Codex 逐页对账，含两张空白页。保留效率共同归一、Eq. (1.43) 张量秩差异、两项实测半衰期和模型条件下的组态推断。
-- 本次累计 16 份通过科研范围验收的原件、3200 个 PDF 页。Gerathy 的 Gemini API 和原生调用故障见 `tmp/deep-learning-gerathy-2020/`，本批两个整源的完成归于 Codex。已核下一份 Marc Lettmann 189 页学位论文的身份，保留其与 Ljungvall 所收录 Ge 研究的版本和实验重叠待查。
+- 本次累计 16 份通过科研范围验收的原件、3200 个 PDF 页。Gerathy 的 Gemini API 和原生调用故障见 `tmp/deep-learning-gerathy-2020/`，本批两个整源的完成归于 Codex。
+- [[lettmann-2018-ge-kr-triaxiality-thesis]] 局部核 44/189 页。86Ge 的 371 keV 峰与其暂定 $3^+$ 指认分别记录，复核 $S(4)$ 中心值。PDF 127–129 用原页图像核查。PDF 180 定位相关 2017 Ge 期刊文，Ljungvall HDR 的附印清单未收此文。下次从装置、线形和显著性章节接续。
 - 章级来源共用已哈希的原件，以不重叠的 `raw_pdf_pages` 标识各章。唯一作品检查继续执行，原 PDF 没有拆档或复制。
 - 另一 session 的 PDM/PDCO 与 Hamilton 改动继续隔离。无 PDM 拟合、raw 改写或重新获取。HDR 阶段指针为 `main + research: integrate Ljungvall HDR evidence and start capture proceedings`。
 

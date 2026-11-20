@@ -6421,3 +6421,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - 补核 92 页后完成 172/172 页对账，空白页按渲染核定。保留电子效率的共同归一、非伸展 E2 的秩标记问题及参考实验的出处。
 - 本次累计 16 份原件、3200 个 PDF 页。下一份 Lettmann 学位论文已核原题页及页数，科研证据后续按原件推进。
+
+## 2026-11-20 — Lettmann 的谱线与三轴判据
+
+- 定向验收 44 页，图像核对 PDF 127–129。保留 86Ge 的暂定 $3^+$、$S(4)$ 的能级条件及从 Ge/Kr 散射截面推变形长度的光学势边界。

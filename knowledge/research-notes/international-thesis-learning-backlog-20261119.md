@@ -375,6 +375,12 @@ its response and population assumptions. The electron efficiency inherits
 the γ calibration and adopted decay branching ratio. The introductory
 Eq. (1.43) uses a rank-1 coefficient in a rank-2 transition formula.
 
+[[lettmann-2018-ge-kr-triaxiality-thesis]] has 44 targeted pages checked.
+The significance of the 371 keV line in Ge-86 and the tentative \(3^+\)
+assignment are separate constraints. The latter enters the reported
+staggering and rigid-rotor comparison. The related Ge journal work and
+the thesis retain separate version locators with likely shared data.
+
 ## Final acquisition closure and learning design
 
 The user has closed further acquisition and requested an in-depth learning
