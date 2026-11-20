@@ -37,6 +37,7 @@ updated: 2026-11-20
 - [[chadderton-2025-fm250-conversion-electron-thesis]] — 镄-250 分壳模板、低统计计数窗与组态推断。
 - [[lettmann-2018-ge-kr-triaxiality-thesis]] — Ge 的暂定自旋与三轴判据、Ge/Kr 非弹性散射的反演边界。
 - [[kalaydjieva-2023-cd106-zr100-shape-coexistence-thesis]] — ¹⁰⁶Cd 的库仑–核相互作用干涉与 ¹⁰⁰Zr 的 GRIFFIN 角关联版本核验。
+- [[michetti-wilson-2013-labr3-dante-fast-timing]] — LaBr₃ 的瞬发时间分辨及 DANTE 通道非对称对寿命拟合的影响。
 - [[hungerford-1979-ill-angular-correlation-164dy]] — U001 章节原件与角关联方法范围。
 - [[madiba-2008-190tl-dco-polarization-thesis]] — 首篇完整正文阅读：190Tl 实验链、门依赖、不对称度与指认边界；形式定义原始出处尚待核对。
 - [[li-2016-algebraic-collective-core-quasiparticle-thesis]] — 软/刚核芯与准粒子耦合、135Pr及109Pd比较、ACM实现与原件公式边界；不新增独立实验。

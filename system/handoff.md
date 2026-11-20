@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Michetti-Wilson LaBr₃ 科研范围验收
+
+- [[michetti-wilson-2013-labr3-dante-fast-timing]] 已核 105/107 页。248.5 ps 与五只常用偏压探测器平均相符，另列 Q-092。¹⁵²Sm 测量尝试保留失败判定与两种寿命口径。高斯与单边指数的直接积分支持式 2.15 并识别式 2.11 的记号差异。
+- 累计 19 份、3735 页。下一份 Jamieson 硕士论文（2014 年题页、179 页及原件哈希已核），用于比较 ¹¹²Cd 的中子转移与 Kalaydjieva 的 ¹⁰⁶Cd 负宇称解释。另一会话负责的 PDCO/PDM 与 Hamilton 变更继续隔离。
+
 ## 2026-11-20 — Kalaydjieva Cd/Zr 科研范围验收
 
 - 已核对 Kalaydjieva 的 242/246 页科研与书证范围，4 页献词与致谢留原件。累计整源科研覆盖 18 份、3630 页。

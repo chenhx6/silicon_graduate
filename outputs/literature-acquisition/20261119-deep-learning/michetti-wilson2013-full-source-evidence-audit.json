@@ -1,0 +1,83 @@
+{
+  "work_id": "bytes:2f2366ed9b2779211b1e105f3d607987336d72df3d3adadb2723758dd17a5b34",
+  "source_note": "knowledge/sources/michetti-wilson-2013-labr3-dante-fast-timing.md",
+  "auditor": "Codex",
+  "updated_at": "2026-11-20T07:37:56.852192+00:00",
+  "coverage": "scientific and bibliographic scope reconciled",
+  "verified_ranges": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      16
+    ],
+    [
+      17,
+      47
+    ],
+    [
+      48,
+      55
+    ],
+    [
+      56,
+      74
+    ],
+    [
+      75,
+      96
+    ],
+    [
+      97,
+      104
+    ],
+    [
+      105,
+      107
+    ]
+  ],
+  "visual_pdf_pages": [
+    50,
+    78,
+    82,
+    84,
+    86,
+    95,
+    97,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104
+  ],
+  "checks": {
+    "fwhm_5_normal_bias_mean_ps": 248.48,
+    "fwhm_6_mean_ps": 259.8333333333333,
+    "passive_shield_fwhm_increase_mean_ps": 26.575,
+    "nominal_ps_per_channel": 12.20703125,
+    "reference_2060ps_converted_to_half_life_ps": 1427.8831919534873,
+    "convolution_high_precision_samples": [
+      0,
+      20,
+      40,
+      100
+    ]
+  },
+  "boundaries": [
+    "DANTE timing anomalies not event-level reproduced; root cause unresolved.",
+    "152Sm 1582(18) ps is from the rejected fit.",
+    "The appendix C wiring is proposed. No new implementation was tested."
+  ],
+  "scientific_pages_checked": 105,
+  "page_count": 107,
+  "excluded_pages": [
+    3,
+    4
+  ],
+  "excluded_role": "Acknowledgements",
+  "next_work": "bytes:79ebd6d80dee3a3a37ecad57eacf400a925396e35e2aba39d5f1c87f3d11c352",
+  "gemini_credit": 0
+}

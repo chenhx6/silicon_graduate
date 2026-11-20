@@ -6442,3 +6442,9 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - 242 页科研正文、附录及书证验收。核对 ¹⁰⁰Zr 能标残差以及相对 E2 的强度比分子。两套候选 Cd 布居和 Zr 两态混合的适用条件分别保留。
 - 累计 18 份、3630 页。后续 Michetti-Wilson 论文学位与装置主题已由原题页及目录确认。
+
+## 2026-11-20 — Michetti-Wilson 快定时结果核读
+
+- PDF 73–104 保留标定、主动和被动抑制、DANTE 通道对照与拟议布线。¹⁵²Sm 的 1582(18) ps 属未通过的半衰期拟合，原表 3.03% 属能量分辨。下一段继续核拟合与实验逻辑。
+
+- 完成 105/107 页科研范围。对积分形状及寿命变换作小型复核，保留探测器单体与配对、峰宽及偏差各自的测量条件。继续 Jamieson ¹¹²Cd 单中子转移。

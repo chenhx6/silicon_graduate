@@ -482,6 +482,12 @@ The tabulated 212.60 keV line and the 366.9/983.5 keV relative E2 strengths
 provide numerical checks of the energy residual sign and intensity ratio in
 the thesis. These checks separate transcription from experimental reproduction.
 
+[[michetti-wilson-2013-labr3-dante-fast-timing]] provides a failed-fit control:
+an acceptable-looking prompt width and high statistics can still coexist
+with a stream-dependent time shift and biased lifetime fit. The distinction
+matters when connecting an independently calibrated fast-timing result to
+a branch or angular-correlation data set.
+
 Return any material numerical or methodological discrepancy to its source locator; revise the interpretation if the original contradicts the extraction or proposed classification.
 
 ## Open Questions
