@@ -65,6 +65,7 @@ updated: 2026-11-20
 - [[postma-1959-ho166m-er166-polarization]] — ¹⁶⁶Er 的 706/817 keV 重叠极化谱、边门与早期角分布。
 - [[koh-1994-iodine-xe-sm-eu-nuclear-orientation-thesis]] — 碘衰变的四阶项选支、铁中超精细场、Sm/Eu 转子参数。
 - [[griffiths-1989-br-se-pt-nuclear-orientation-thesis]] — Br/Fe 两场位点、Se 子核退取向和 ¹⁹²Pt 重叠响应。
+- [[svoren-1974-w184-os186-os188-band-mixing-thesis]] — W/Os 支路强度、弱线上限和微扰带混合约束。
 - [[hungerford-1979-ill-angular-correlation-164dy]] — U001 章节原件与角关联方法范围。
 - [[madiba-2008-190tl-dco-polarization-thesis]] — 首篇完整正文阅读：190Tl 实验链、门依赖、不对称度与指认边界；形式定义原始出处尚待核对。
 - [[li-2016-algebraic-collective-core-quasiparticle-thesis]] — 软/刚核芯与准粒子耦合、135Pr及109Pd比较、ACM实现与原件公式边界；不新增独立实验。

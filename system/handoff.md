@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Svoren 的 W/Os 带混合和弱线
+
+- [[svoren-1974-w184-os186-os188-band-mixing-thesis]] 核读 196/201 页。保留 ¹⁸⁶Os 弱支路导致的单边限制、¹⁸⁴W 支路共享误差及 ¹⁸⁸Os 学位与期刊的入图范围。Springer 出版版已归档。
+- 累计 46 份、7423 页。续接 Taras 与 Matas 1970 的重叠 γ 线偏振分析。本地出版版题页和 SHA 已核，先对照 Postma 的重叠响应与 ³⁵Cl 例。
+
 ## 2026-11-20 — Griffiths 的 Br/Fe 位点、Se 支路与 Pt 相位测量
 
 - [[griffiths-1989-br-se-pt-nuclear-orientation-thesis]] 核读 226/228 页。对上 1992 期刊中的两场位点模型与 ⁷²ᵐBr 下限表格异文。记录 Se 同母态二阶比的适用条件，以及 Pt 相位实验的能窗稀释。

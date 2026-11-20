@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-11-20T16:01:52.835330+00:00",
+  "source": "knowledge/sources/svoren-1974-w184-os186-os188-band-mixing-thesis.md",
+  "primary_pdf_pages": 201,
+  "scientific_and_bibliographic_pages_covered": 196,
+  "excluded_pdf_pages": [
+    2,
+    3,
+    5,
+    6,
+    200
+  ],
+  "scope": [
+    "PDF 1,4,7–53: institutional and degree identity, apparatus question, collective model and mixing",
+    "PDF 54–157: instruments, corrections, coincidence and conversion analysis of 184W",
+    "PDF 158–199,201: Os spectra, upper limits and model constraints, references and signed examination page"
+  ],
+  "visual_checks": [
+    4,
+    135,
+    156,
+    179,
+    182,
+    185,
+    189
+  ],
+  "companion_publication": {
+    "doi": "10.1007/BF01408150",
+    "relationship": "Common primary dataset with expanded observed and placed transitions, no separate credit",
+    "thesis_observed_and_placed": [
+      28,
+      26
+    ],
+    "journal_observed_and_placed": [
+      41,
+      38
+    ]
+  },
+  "reader": "Codex",
+  "PDM_run": false
+}

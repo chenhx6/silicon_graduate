@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 45,
+  "completed_full_sources_this_run": 46,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T15:39:29.313895+00:00",
+  "updated_at": "2026-11-20T16:01:52.835330+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 7227,
-  "current_source_note": "knowledge/sources/griffiths-1989-br-se-pt-nuclear-orientation-thesis.md",
-  "next_action": "Svoren 1974 LSU PhD title and SHA verified. Read 184W and 186,188Os mixing and publication crosswalk.",
+  "completed_primary_pages_this_run": 7423,
+  "current_source_note": "knowledge/sources/svoren-1974-w184-os186-os188-band-mixing-thesis.md",
+  "next_action": "Taras and Matas 1970 local version verified. Continue the unresolved gamma doublet polarization method and 35Cl case.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Griffiths two-field BrFe controls, Se branches, VMI caveats and window dilution.",
-  "current_source_scientific_acceptance": "Griffiths complete 226/228 pages with Surrey article table cross-check, no double count.",
-  "source_scoped_retrieval": "Archived Surrey publisher-scan counterpart for PRC 46, 2228."
+  "last_source_manager_closure": "Svoren branch ratios, limits, perturbative band mixing and 188Os publication evolution.",
+  "current_source_scientific_acceptance": "Svoren scientific scope 196/201 complete with digitized 1975 article crosswalk.",
+  "source_scoped_retrieval": "Archived Springer 1975 188Re–188Os article."
 }

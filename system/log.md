@@ -6574,3 +6574,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — Griffiths 的低温取向证据
 
 - 核读 226 页，从 Surrey 归档 Br 对照，核实两场模型和 72mBr 的排印差异。累计 45 份、7227 页，续读 Svoren。
+
+## 2026-11-20 — Svoren 的 W/Os 支路与带混合
+
+- 核读 196 页，保留共享谱线、上限方向和 188Os 期刊增量。累计 46 份、7423 页，续读 Taras 与 Matas。
