@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Postma 的 ¹⁶⁶Er 角分布与重叠偏振谱
+
+- [[postma-1959-ho166m-er166-polarization]] 核读 17 页。保留 706/817 keV 的原始计数比、串扰估计、联合 \(P\) 及不同混合比口径。17 页排印本给一次整源学分，旧队列的一页摘录保留为版本关联。
+- 累计 43 份、6816 页。续接 Young Koh 的 *Nuclear Structure Studies involving polarised Iodine, Samarium and Europium*（Oxford 博士，Michaelmas Term 1994，189 页），`W7116884503.pdf` 的题页及 SHA 已核。
+
 ## 2026-11-20 — Nambudripad 整源与取向误差
 
 - [[nambudripad-1980-ho-er-nuclear-orientation-thesis]] 完成 268/272 页科研及书证核读。对上 Allsop 期刊摘要的 \(3.60(5)\,\mu_N\) 与学位的 \(3.60(6)\,\mu_N\)，保存取向张量、选支、薄弱热接触和 Mikhailov 比较的输入约束。

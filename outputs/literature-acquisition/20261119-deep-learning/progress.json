@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 42,
+  "completed_full_sources_this_run": 43,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T14:48:51.990646+00:00",
+  "updated_at": "2026-11-20T14:57:27.367303+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 6799,
-  "current_source_note": "knowledge/sources/nambudripad-1980-ho-er-nuclear-orientation-thesis.md",
-  "next_action": "Postma et al. 1959 is the next full source. The local published 17-page copy and separate 1-page title extract already identified.",
+  "completed_primary_pages_this_run": 6816,
+  "current_source_note": "knowledge/sources/postma-1959-ho166m-er166-polarization.md",
+  "next_action": "Koh 1994 doctoral thesis on nuclear orientation of I/Sm/Eu: title and hash verified; continue all scientific chapters.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Nambudripad 166Er angular-anisotropy roots, calibration, hyperfine/order and thermal limitations.",
-  "current_source_scientific_acceptance": "Nambudripad 268/272 scientific and bibliographic pages complete, with named journal dependencies.",
-  "source_scoped_retrieval": "Archived Crossref records for the related Allsop abstract, West 1976 and Krane 1973."
+  "last_source_manager_closure": "Postma 706/817 keV P and mixing constraints, count ratios and overlap assumptions with parity evidence.",
+  "current_source_scientific_acceptance": "Postma 17/17 complete, article and one-page extract share identity. Original polarization and anisotropy methods recorded.",
+  "source_scoped_retrieval": "Full local published Postma PDF available; no reacquisition."
 }

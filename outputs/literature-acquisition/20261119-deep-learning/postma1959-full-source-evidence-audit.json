@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-11-20T14:57:27.367303+00:00",
+  "source": "knowledge/sources/postma-1959-ho166m-er166-polarization.md",
+  "primary_pdf_pages": 17,
+  "scientific_and_bibliographic_pages_covered": 17,
+  "scope": [
+    "PDF 1–7: identity, historical level scheme, setup and acquisition",
+    "PDF 8–14: anisotropy and alignment, joint Compton response and ratio inference",
+    "PDF 15–17: external correlation interpretation and references"
+  ],
+  "visual_checks": [
+    5,
+    11,
+    13,
+    14
+  ],
+  "alternate_copy": "Same page-1 text; one-page extract, no separate credit.",
+  "native_polarimetry": {
+    "overlap_ratio": [
+      0.88,
+      0.03
+    ],
+    "low_side_ratio": [
+      0.65,
+      0.09
+    ],
+    "high_side_ratio": [
+      1.32,
+      0.09
+    ],
+    "mean_Q": 0.5,
+    "source_estimated_other_line_fraction": [
+      0.15,
+      0.1
+    ],
+    "angle_degrees": 90
+  },
+  "reader": "Codex",
+  "PDM_run": false
+}

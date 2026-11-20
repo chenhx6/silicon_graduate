@@ -80,6 +80,8 @@ The analyzing power is a Compton-scattering property and depends on photon energ
 
 [[filmer-2011-agata-sm138-polarimetry-thesis]] 提供一组可直接验算的 346.9 keV 净计数。给一列计数乘 \(a\) 时，无偏振条件要求 \(a\) 等于另一列与该列的计数比。原文定义与放置位置需要对照零点；附录的共同因子会约掉。计算康普顿分析能力时也需区分极散射角与调制所用的方位角。见原件 PDF 84、88、139、143。
 
+[[postma-1959-ho166m-er166-polarization]] 提供两条重叠线经边门区分的例子。同一 \(Q\) 近似下，混合峰的计数比是 \(\sum_i C_iW_i(90^\circ)(1+Q P_i)\) 除以 \(\sum_i C_iW_i(90^\circ)(1-Q P_i)\)。若仅有一个重叠峰比值，得到的是一个加权组合。高低边门提供不同比重的第二组信息，其串扰估计仍进入两条线的 \(P\)。见原刊 683–684 页，式 5。
+
 ## Detector Implementations
 
 - Clover and segmented HPGe arrays provide compact Compton event selections.

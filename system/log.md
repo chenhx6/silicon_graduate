@@ -6562,3 +6562,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — Nambudripad 整源与核取向来源链
 
 - 核读 268 页，保留磁化率与各向异性参照、温度条件、拟合误差口径和带混合的输入。累计 42 份、6799 页，续读 Postma 1959。
+
+## 2026-11-20 — Postma 的 ¹⁶⁶Er 线偏振
+
+- 核读出版版 17 页，匹配一页摘录，保留 706/817 keV 角分布、边门与串扰约束。累计 43 份、6816 页，续读 Koh。
