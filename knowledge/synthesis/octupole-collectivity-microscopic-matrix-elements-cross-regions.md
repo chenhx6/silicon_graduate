@@ -51,6 +51,7 @@ p3/2↔g9/2、d5/2↔h11/2、f7/2↔i13/2、g9/2↔j15/2的角向允许性
 |---|---|---|---|
 | A≈80 78Br异宇称E1连接与手征候选 | [[liu-chen-2016-78br-chirality-reflection-symmetry-thesis]]，对应谱学章节与CPQ展望 | 作者讨论八极关联与取向模式可能并存 | E1不等于静态β3，多个候选带不等于CPQ确证 |
 | N=56 96Zr低自旋E3 | [[mach-1990-96zr]] pp.R811–R814，寿命与分支 | B(E3;3−→0+)=65(10) W.u.的直接低自旋集体性锚点 | 不把模型两种PES版本合并为唯一球形/唯一八极极小 |
+| N=88 ¹⁵²Gd 的 E1 支路 | [[netshiya-2018-gd152-octupole-quadrupole-thesis]] PDF 79–81、96、115，独立 PRC 87 表 I | 两反应比较 \(0_2^+\) 带与负宇称带的相对强度；反向支路的角量条件不同 | 相对 E1/E2 和转动频率趋同仍允许组态混合；212 keV 的 E1 按暂定保留 |
 | 98Mo两新E3指定与相对比值 | [[karmakar-2025-2026-98mo-octupole-preview]] PDF4 Table1、PDF6–7 Tables2–3 | 两弱线的态对、相对强度，以及E3/E2、E1/E2的自旋变化 | 缺直接寿命/绝对E3；约四倍指E3/E2比，不是绝对E3四倍 |
 | 100Ru高自旋E1 | [[karmakar-2024-100ru-enhanced-e1-lifetimes]] PDF2 TableI | 有限寿命与绝对E1；高自旋另有上限 | 增强E1与共同模型失配尚不能唯一选择永久八极形状 |
 | 102Ru低自旋NRF | [[saracino-2026-102ru-scissors-octupole-resonances]] PDF3 Figs1–2、PDF4–6 | M1/E1宇称分辨响应；约5-MeV E1聚集及作者八极共振解释 | SI/逐态分支未得；累计强度拟合不测静态β3，也不恢复高自旋取向 |

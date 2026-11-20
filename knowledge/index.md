@@ -51,6 +51,7 @@ updated: 2026-11-20
 - [[ali-2014-au177-recoil-tagging-thesis]] — ¹⁷⁷Au 的双 α 门、DCO 辨别范围与强耦合带支路。
 - [[gaffney-2012-rn220-ra224-coulex-thesis]] — Rn/Ra 的逐靶产额、E3 原表和 GOSIA 相关误差。
 - [[filmer-2011-agata-sm138-polarimetry-thesis]] — AGATA 两击偏振、方位定义及 346.9 keV 算例核验。
+- [[netshiya-2018-gd152-octupole-quadrupole-thesis]] — ¹⁵²Gd 的 DCO 与不对称度原表、八极连接和独立反应比较。
 - [[hungerford-1979-ill-angular-correlation-164dy]] — U001 章节原件与角关联方法范围。
 - [[madiba-2008-190tl-dco-polarization-thesis]] — 首篇完整正文阅读：190Tl 实验链、门依赖、不对称度与指认边界；形式定义原始出处尚待核对。
 - [[li-2016-algebraic-collective-core-quasiparticle-thesis]] — 软/刚核芯与准粒子耦合、135Pr及109Pd比较、ACM实现与原件公式边界；不新增独立实验。

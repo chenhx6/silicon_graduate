@@ -6506,3 +6506,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — Filmer AGATA 偏振响应
 
 - 核验 146 页及 346.9 keV 示例。固定原净计数回算不同归一和角口径，核对 \(F=\epsilon Q^2\) 与事件数描述。累计 31 份、5152 页，续读 Netshiya。
+
+## 2026-11-20 — Netshiya 的 Gd-152 谱学
+
+- 核验 128 页。区分独立的两个反应条件、DCO 和 \(A_P\) 的角色，保留 585 keV 两条支路及 212 keV 原表自旋差异。累计 32 份、5280 页，续读 Bvumbi。

@@ -1,0 +1,35 @@
+{
+  "work_id": "bytes:873127c6f27344c055ba326781eb480bc96a49af71bb40020ce659e382c7dfc9",
+  "source_note": "knowledge/sources/netshiya-2018-gd152-octupole-quadrupole-thesis.md",
+  "auditor": "Codex",
+  "primary_pdf_pages": 129,
+  "primary_scientific_and_bibliographic_pages_covered": 128,
+  "covered_sections": [
+    "PDF 1–3, 5–38: title, declaration, spectroscopy question, quantities, shape and detector background",
+    "PDF 39–85: reaction, geometry, calibrations, coincidence matrices, contaminants, angular observables and band placements",
+    "PDF 86–109: octupole and gamma-band diagnostics, model alternatives and conclusions",
+    "PDF 110–129: DCO/asymmetry tables, complete level scheme and bibliography"
+  ],
+  "excluded_non_scientific_pages": [
+    4
+  ],
+  "scientific_coverage_complete": true,
+  "thesis_archive_manifest": "raw/theses/gpt/query/20261119-international-nuclear-structure/manifest-acquisition-batch1.json",
+  "comparison_archive_manifest": "raw/papers/gpt/query/20261120-netshiya-gd152-octupole-crosswalk/manifest.json",
+  "comparison_coverage": "Bvumbi PRC 87 PDF 3–6 (with JYX cover on PDF 1); its 152Gd run is 45 MeV 152Sm(alpha,4n), independent of Netshiya 25 MeV 150Sm(alpha,2n).",
+  "key_visual_thesis_pages": [
+    52,
+    74,
+    80,
+    96,
+    111,
+    115,
+    116
+  ],
+  "remaining": [
+    "The two 585-keV transitions have different upper and lower states and different angular evidence. No unique assignment is made from energy alone.",
+    "The 212-keV spin/parity labels are transposed in thesis Table 5.1. The DCO is missing for this branch and the E1 classification is tentative.",
+    "The thesis provides AP, not a tabulated calibrated P with Q per transition. Branching ratios and level-energy diagnostics constrain models without uniquely establishing static octupole or gamma shape."
+  ],
+  "next_work": "bytes:f45dbdad462e5c29a5b80032e41b9be310fa4d061e960d842bcc1e125468f40e"
+}

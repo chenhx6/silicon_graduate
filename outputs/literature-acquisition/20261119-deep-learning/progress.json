@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "bytes:873127c6f27344c055ba326781eb480bc96a49af71bb40020ce659e382c7dfc9",
+  "active_source": "bytes:f45dbdad462e5c29a5b80032e41b9be310fa4d061e960d842bcc1e125468f40e",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 31,
+  "completed_full_sources_this_run": 32,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T11:43:56.829130+00:00",
+  "updated_at": "2026-11-20T11:56:09.407735+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 5152,
-  "current_source_note": "knowledge/sources/filmer-2011-agata-sm138-polarimetry-thesis.md",
-  "next_action": "Netshiya 2018: 152Gd angular measurements and octupole/quadrupole band evidence.",
+  "completed_primary_pages_this_run": 5280,
+  "current_source_note": "knowledge/sources/netshiya-2018-gd152-octupole-quadrupole-thesis.md",
+  "next_action": "Bvumbi 2008: 152Gd original spin–parity thesis and relation to the 2013 PRC.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Filmer 146/150 pages and the printed 346.9-keV polarimetry example verified.",
-  "current_source_scientific_acceptance": "Filmer completed at scientific/bibliographic scope. Netshiya identity and archive SHA checked.",
-  "source_scoped_retrieval": "Used the pre-existing Filmer thesis and Bizzeti benchmark archive."
+  "last_source_manager_closure": "Netshiya 128/129 pages and distinct Bvumbi PRC acquisition comparison checked.",
+  "current_source_scientific_acceptance": "Netshiya completed at scientific/bibliographic scope. Bvumbi thesis identity and SHA verified.",
+  "source_scoped_retrieval": "Bvumbi PRC 87 044333 archived for the Netshiya 152Gd comparison."
 }

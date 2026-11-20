@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Netshiya 的 ¹⁵²Gd 谱表与独立反应
+
+- [[netshiya-2018-gd152-octupole-quadrupole-thesis]] 核完 128/129 页。对照 45 MeV、⁴ⁿ 蒸发道的 Bvumbi 期刊与学位原件的 25 MeV、²ⁿ 采集。按能级和门保留两条 585 keV 线，核对 192/212 keV 的不同证据与原表标签差异。
+- 累计 32 份、5280 页。接续阅读 Suzan Phumudzo Bvumbi 2008 的 91 页硕士论文，追溯 2013 期刊与该学位原件的实际数据依赖。
+
 ## 2026-11-20 — Filmer AGATA 两击偏振
 
 - [[filmer-2011-agata-sm138-polarimetry-thesis]] 核完 146/150 页。回算 346.9 keV 的计数、无偏振零点、分析能力和品质因子，记录正文、附录与原报告的数值差异。保留 ¹³³Ba 标定的能区、两击事件选择和同段质心合并的限制。
