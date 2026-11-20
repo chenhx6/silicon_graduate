@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-11-20T17:48:08.910863+00:00",
+  "source": "knowledge/sources/meyer-1978-multiparticle-configurations-61ni-67zn.md",
+  "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/1978_Meyer et al_Multiparticle configurations in the odd-neutron nuclei Ni 61 and Zn 67.pdf",
+  "raw_sha256": "0e3aeebca53776e3f99ac058563cb40b272425136bd2035ceb778b2aea218b36",
+  "primary_pdf_pages": 10,
+  "scientific_and_bibliographic_pages_covered": 10,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–4: aims, source preparation, Ge spectra and Ga absolute normalization, Tables I–III",
+    "PDF 5–6: Cu/Ga decay schemes, Table IV weak Ni branches and earlier reaction links",
+    "PDF 7–10: model comparisons, delta and lifetime provenance, results and complete references"
+  ],
+  "visual_checks": [
+    5,
+    6,
+    8,
+    10
+  ],
+  "evidence_gaps": [
+    "The lowest 1014-keV candidate lines carry weak or upper-limit intensities. Ground-state beta and calculated cascade feeding depend on prior sources.",
+    "Fig. 6 mixing ratios and lifetimes reuse published measurements or compare predictions. No new polarization-derived delta in this article."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

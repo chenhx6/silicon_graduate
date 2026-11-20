@@ -6634,3 +6634,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Ekstrøm 等的取向数据谱系
 
 - 核对 6 页，按 Ref. 7/8/9 标记 ⁶¹Ni 的角分布依赖。累计 60 份、7590 页，续读 Meyer 等。
+
+## 2026-11-21 — Meyer 等的 Cu/Ga 衰变与模型对照
+
+- 核读 10 页，对账 ⁶¹Ni 的弱线和模型比较的原始数据依赖。累计 61 份、7600 页，续读 Samanta 等的 ⁶¹Ni。

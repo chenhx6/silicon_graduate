@@ -3,7 +3,7 @@ type: source
 title: "Multiparticle configurations in the odd-neutron nuclei 61Ni and 67Zn populated by decay of 61Cu, 67Cu, and 67Ga"
 aliases: ["Meyer 1978 61Ni 67Zn decay spectroscopy", "Multiparticle configurations 61Ni 67Zn"]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-11-21
 status: ai-draft
 review_status: unreviewed
 source_type: experiment
@@ -14,13 +14,13 @@ journal: "Physical Review C"
 year: 1978
 volume: 17
 issue: 5
-pages: "1822-1830"
+pages: "1822-1831"
 doi: "10.1103/PhysRevC.17.1822"
 citation_key: Meyer_1978
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 language: en
-canonical_source: "Meyer, R. A. et al. Multiparticle configurations in the odd-neutron nuclei 61Ni and 67Zn populated by decay of 61Cu, 67Cu, and 67Ga. Phys. Rev. C 17, 1822-1830 (1978)."
+canonical_source: "Meyer, R. A. et al. Multiparticle configurations in the odd-neutron nuclei 61Ni and 67Zn populated by decay of 61Cu, 67Cu, and 67Ga. Phys. Rev. C 17, 1822-1831 (1978)."
 library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/1978_Meyer et al_Multiparticle configurations in the odd-neutron nuclei Ni 61 and Zn 67.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/1978_Meyer et al_Multiparticle configurations in the odd-neutron nuclei Ni 61 and Zn 67.pdf"
 raw_sha256: "0e3aeebca53776e3f99ac058563cb40b272425136bd2035ceb778b2aea218b36"
@@ -36,7 +36,7 @@ tags: [61Ni, 67Zn, decay-spectroscopy, multiparticle-configuration, shell-model,
 ## Bibliographic Record
 
 - 作者：R. A. Meyer 等。
-- 期刊：*Physical Review C* 17(5), 1822-1830 (1978)。DOI：`10.1103/PhysRevC.17.1822`。
+- 期刊：*Physical Review C* 17(5), 1822–1831 (1978)。DOI `10.1103/PhysRevC.17.1822`。末页 1831 是本文参考文献。
 - 原始文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/1978_Meyer et al_Multiparticle configurations in the odd-neutron nuclei Ni 61 and Zn 67.pdf`；SHA-256：`0e3aeebca53776f3f99ac058563cb40b272425136bd2035ceb778b2aea218b36`。
 
 ## Scope and Reading Depth
@@ -71,7 +71,7 @@ tags: [61Ni, 67Zn, decay-spectroscopy, multiparticle-configuration, shell-model,
 
 ## Experimental or Theoretical Setup
 
-- 衰变源：化学分离 `61Cu`、`67Cu`、`67Ga`；`67Ga` 通过 `67Cu(α,2n)` 制备并以高纯样品计数。
+- 衰变源：分别化学分离 ⁶¹Cu、⁶⁷Cu 和 ⁶⁷Ga。⁶⁷Ga 的绝对强度样品来自铜靶的 \(^{65}\mathrm{Cu}(\alpha,2n)^{67}\mathrm{Ga}\)，见印刷 1823 页。
 - 探测：LEPS、Ge(Li)、大体积 Ge(Li) 和 Compton-suppression spectrometer；`67Ga` 绝对强度结合标准源/离子室。
 - 理论：`61Ni` MSDI/ASDI shell model；`67Zn` shell/cluster model；有效中子电荷约 `1.67e` (MSDI) / `1.40e` (ASDI)，`p3/2→f5/2` M1 单粒子矩阵元约 `0.58 μN`。
 
@@ -107,6 +107,11 @@ tags: [61Ni, 67Zn, decay-spectroscopy, multiparticle-configuration, shell-model,
 - 衰变强度和低强度线可能受未观测分支、效率、转换电子或级联喂养影响；早期 NDS 赋值与本工作有差异时需回原始实验。
 - `67Zn` 的 cluster、shell-model 和 phonon-core interpretations 并非互斥，但本文没有事件级数据来唯一拆分组态。
 - 模型有效电荷、单粒子 M1 矩阵元和有限价空间会改变 transition probabilities；不能把计算 branching 当作直接观测。
+
+### 与 ⁶¹Ni 在束测量的关系
+
+- 表 IV 的 \(947.4(4)\) keV 支路用括号标记，相对强度 \(0.2(1)\)，丰度以 282.956 keV 线为 1000。可能的 1014.8 keV 到基态对应 \(<0.1\)。作者说 1019 keV 旧能级未获支持，但观察到约 1014 keV 态的布居。基态 β 分支取自 NDS，可能来自 1997 keV 的 γ 馈入量 0.05 由 Wadsworth 的分支比和本文强度组合估算。见印刷 1826–1827 页表 IV 和图 5。
+- 图 6 的实验寿命、\(\delta\) 和多数分支用于比较，来源包括 [[wadsworth-1977-61ni-levels]] 和 [[williams-1975-61ni-low-lying-levels]]，这部分与各原始测量有依赖。本文独立数据主要为衰变谱和强度，不能把图 6 里的 \(\delta\) 计作新的偏振测量。
 
 ## Analytical Reconstruction
 

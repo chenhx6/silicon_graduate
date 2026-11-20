@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Meyer 的独立衰变谱与 ⁶¹Ni 比较
+
+- [[meyer-1978-multiparticle-configurations-61ni-67zn]] 对账 10 页，订正书目末页 1831 和 ⁶⁷Ga 制源。保留 1014 keV 弱支、馈入依赖及图 6 引用的 \(\delta\) 谱系。
+- 累计 61 份、7600 页。续读 Samanta 等 2019 年 ⁶¹Ni 在束谱，本地 10 页出版版与 SHA 已核。
+
 ## 2026-11-21 — Ekstrøm 的取向衰减与 ⁶¹Ni 数据谱系
 
 - [[ekstrom-1979-spin-alignment-attenuation-a61-a67]] 完成 6 页对账。14 条 ⁶¹Ni 角分布行按表 1 的 Ref. 7/8/9 分为 7/2/5 条。式 5 的布居形状与式 6 的 \(\alpha_2\) 模型误差分别建立定位，相关实际分析方法写回 \(\sigma/I\) 项目页。
