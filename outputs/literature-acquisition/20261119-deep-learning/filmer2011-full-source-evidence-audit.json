@@ -1,0 +1,52 @@
+{
+  "work_id": "doi:10.17638/00008353",
+  "source_note": "knowledge/sources/filmer-2011-agata-sm138-polarimetry-thesis.md",
+  "auditor": "Codex",
+  "primary_pdf_pages": 150,
+  "primary_scientific_and_bibliographic_pages_covered": 146,
+  "covered_sections": [
+    "PDF 1, 5–44: identity, physics background, Klein–Nishina and instrument benchmarks",
+    "PDF 45–78: AGATA and commissioning, electronics, PSA, offline actors and calibration",
+    "PDF 79–110: two-hit selection, convention, count estimators, results and failure analysis",
+    "PDF 111–134, 136–150: Sm transitions, level scheme, configuration and event decoding examples, raw and derived tables, worked example and bibliography"
+  ],
+  "excluded_non_scientific_or_divider_pages": [
+    2,
+    3,
+    4,
+    135
+  ],
+  "scientific_coverage_complete": true,
+  "thesis_archive_manifest": "raw/theses/gpt/query/20261119-international-nuclear-structure/manifest-acquisition-batch1.json",
+  "comparison_source": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+  "comparison_coverage": "Bizzeti analyzes distinct Pd Coulomb excitation and a Cs reference. Used for method comparison only.",
+  "key_visual_thesis_pages": [
+    80,
+    84,
+    88,
+    94,
+    125,
+    130,
+    139,
+    143,
+    145
+  ],
+  "printed_346_9_kev_arithmetic": {
+    "counts_perpendicular": 775,
+    "counts_parallel": 557,
+    "calibration_factor": 1.1,
+    "equation_4_11": 0.20964881163533175,
+    "equation_E_3_printed": 0.16366366366366367,
+    "equation_4_11_reciprocal_calibration": 0.11695611443395544,
+    "reported_a": 0.18,
+    "equation_E_2_printed": 0.38602876870910746,
+    "reported_Q_E_2": 0.347,
+    "table_D_2_F": 0.038802149999999994
+  },
+  "remaining": [
+    "Two-hit sample size differs by factor ten between caption and graph/prose. The graph scale supports the larger count as approximate.",
+    "The normalization assignment does not reproduce a common zero and printed E.2/E.3 do not reproduce the reported centers. These calculations do not identify the actual historical producer.",
+    "The Ba reference ends near 384 keV, and the reported sensitivity is based on representative age-specific event/geometry conditions. No paired DCO/ADO observable and joint delta were established."
+  ],
+  "next_work": "bytes:873127c6f27344c055ba326781eb480bc96a49af71bb40020ce659e382c7dfc9"
+}

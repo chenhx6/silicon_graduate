@@ -6502,3 +6502,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-20 — Gaffney 的 Rn/Ra 库仑激发
 
 - 核验 120 页学位论文及同次数据的 Nature 表。记录角区产额、寿命条件、\(3^-\) E3 强度及 \(Q_3\) 误差在原件版本间的差异。累计 30 份、5006 页，续读 Filmer。
+
+## 2026-11-20 — Filmer AGATA 偏振响应
+
+- 核验 146 页及 346.9 keV 示例。固定原净计数回算不同归一和角口径，核对 \(F=\epsilon Q^2\) 与事件数描述。累计 31 份、5152 页，续读 Netshiya。

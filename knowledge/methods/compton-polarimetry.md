@@ -78,6 +78,8 @@ Compton polarimetry infers the linear polarization of gamma rays from the azimut
 
 The analyzing power is a Compton-scattering property and depends on photon energy and scatter angle. It is not the same as nuclear angular-distribution alignment.
 
+[[filmer-2011-agata-sm138-polarimetry-thesis]] 提供一组可直接验算的 346.9 keV 净计数。给一列计数乘 \(a\) 时，无偏振条件要求 \(a\) 等于另一列与该列的计数比。原文定义与放置位置需要对照零点；附录的共同因子会约掉。计算康普顿分析能力时也需区分极散射角与调制所用的方位角。见原件 PDF 84、88、139、143。
+
 ## Detector Implementations
 
 - Clover and segmented HPGe arrays provide compact Compton event selections.

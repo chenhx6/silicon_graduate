@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Filmer AGATA 两击偏振
+
+- [[filmer-2011-agata-sm138-polarimetry-thesis]] 核完 146/150 页。回算 346.9 keV 的计数、无偏振零点、分析能力和品质因子，记录正文、附录与原报告的数值差异。保留 ¹³³Ba 标定的能区、两击事件选择和同段质心合并的限制。
+- 整源累计 31 份、5152 页。续读 Adivhaho Andrew Netshiya 2018 的 ¹⁵²Gd 论文。129 页 University of the Western Cape 硕士论文及哈希已核。
+
 ## 2026-11-20 — Gaffney Rn/Ra 八极强度与相关误差
 
 - [[gaffney-2012-rn220-ra224-coulex-thesis]] 核完 120/122 页。将各靶角度产额、GOSIA 相关误差、²²⁴Ra 寿命依赖以及学位摘要/表格/期刊的八极值差异写入知识页。同实验 Nature 原件已核回链。

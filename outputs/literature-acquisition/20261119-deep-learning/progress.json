@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.17638/00008353",
+  "active_source": "bytes:873127c6f27344c055ba326781eb480bc96a49af71bb40020ce659e382c7dfc9",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 30,
+  "completed_full_sources_this_run": 31,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T11:33:07.321546+00:00",
+  "updated_at": "2026-11-20T11:43:56.829130+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 5006,
-  "current_source_note": "knowledge/sources/gaffney-2012-rn220-ra224-coulex-thesis.md",
-  "next_action": "Filmer 2011: AGATA data-analysis methodology, response and validation.",
+  "completed_primary_pages_this_run": 5152,
+  "current_source_note": "knowledge/sources/filmer-2011-agata-sm138-polarimetry-thesis.md",
+  "next_action": "Netshiya 2018: 152Gd angular measurements and octupole/quadrupole band evidence.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Gaffney 120/122 pages and local Nature results/Methods crosswalk verified.",
-  "current_source_scientific_acceptance": "Gaffney completed at scientific/bibliographic scope. Filmer identity and original hash verified.",
-  "source_scoped_retrieval": "Used a previously archived Nature PDF for the Gaffney comparison."
+  "last_source_manager_closure": "Filmer 146/150 pages and the printed 346.9-keV polarimetry example verified.",
+  "current_source_scientific_acceptance": "Filmer completed at scientific/bibliographic scope. Netshiya identity and archive SHA checked.",
+  "source_scoped_retrieval": "Used the pre-existing Filmer thesis and Bizzeti benchmark archive."
 }
