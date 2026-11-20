@@ -6349,3 +6349,8 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - PDF 605–632 十篇验收。氮俘获采用能量回链氢俘获校准及质量差，Horen 的题名核素和初步数据的核素分别保留。Holt 回执的转义错误由原缓存修复。
 - 接续 U001 原验收，会议卷现连续覆盖 PDF 1–635。后续 PDF 636–670 已派发。
+
+## 2026-11-20 — 过滤束、俘获强度和圆偏振案例
+
+- 验收 PDF 636–670 十一篇。Sc-46 的 E2/M1 数值保留入口条件及圆偏振定义，Au-198 自旋推断保留纯偶极条件，能级密度自旋截止与布居取向宽度分别登记。
+- 连续覆盖 PDF 1–670，PDF 671–691 已提交 Gemini。

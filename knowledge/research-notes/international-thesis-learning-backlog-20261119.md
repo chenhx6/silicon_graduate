@@ -282,6 +282,15 @@ case in the title from the preliminary Pb-207 results in the body.
 With the existing [[hungerford-1979-ill-angular-correlation-164dy|U001]]
 at PDF 633–635, continuous volume coverage now reaches 635 of 874 pages.
 
+PDF 636–670 adds eleven contributions. The
+[[kopecky-1979-sc46-circular-polarization-mixing|Sc-46 E2/M1 fit]]
+and [[ligthart-postma-1979-au198-circular-polarization-spin|Au-198 spin fit]]
+both use circular γ polarization. Neither supplies a measured linear
+polarization for the survey. The spin-cutoff factor in
+[[joly-drake-nilsson-1979-tm170-au198-strength]] enters the level-density
+model. Its uncertainty is distinct from the population-alignment width
+used in in-beam analyses. Continuous volume coverage reaches 670 pages.
+
 ## Final acquisition closure and learning design
 
 The user has closed further acquisition and requested an in-depth learning

@@ -96,6 +96,17 @@ updated: 2026-11-20
 - [[hoff-et-al-1979-cm249-capture-levels]] — 锔-249 纲图中的俘获与转移来源。
 - [[holt-et-al-1979-o17-photoneutron-interference]] — 氧-17 光中子形状与逆反应干涉。
 - [[horen-harvey-hill-1979-pb-neutron-parity]] — 铅同位素散射与基态辐射重归属。
+- [[joly-drake-nilsson-1979-tm170-au198-strength]] — 强度函数反演与能级密度输入。
+- [[joly-et-al-1979-si28-neutron-resonance-decay]] — 共振分宽度和本底修正。
+- [[kahane-moreh-shahal-1979-capture-gamma-rayleigh]] — 小角 Rayleigh/Compton 混合峰与共用参照。
+- [[kenny-stelts-chrien-1979-zr-filtered-capture]] — 过滤束的初级 γ 强度和可见性。
+- [[kenny-mccullagh-chrien-1979-al27-5p9kev-resonance]] — 5.9 keV 共振的 E1 宽度与比较口径。
+- [[kern-et-al-1979-np238-reaction-spectroscopy]] — 俘获、转移与奇奇核带头约束。
+- [[khitrov-et-al-1979-capture-population-fluctuations]] — γ 强度比的级联依赖和统计涨落。
+- [[koeling-1979-statistical-capture-gamma-spectra]] — 连续与离散级联的多极截断。
+- [[kopecky-1979-sc46-circular-polarization-mixing]] — 圆偏振反演 E2/M1 和入口通道条件。
+- [[kopecky-1979-average-e1-m1-strength]] — 近阈 E1/M1 宽度比与取样范围。
+- [[ligthart-postma-1979-au198-circular-polarization-spin]] — 圆偏振、角分布及纯偶极自旋拟合。
 
 ## A130前置正文重写：样节与一致性
 

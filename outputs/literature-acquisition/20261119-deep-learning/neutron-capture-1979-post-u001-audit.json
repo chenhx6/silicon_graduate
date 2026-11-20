@@ -1,0 +1,178 @@
+{
+  "recorded_at": "2026-11-20T00:00:13.996686+00:00",
+  "batch_pages": [
+    636,
+    670
+  ],
+  "batch_page_count": 35,
+  "book_all_known_pages": [
+    "1-670"
+  ],
+  "book_covered_pages": 670,
+  "bibliographic_pages": [
+    "1-17",
+    "521"
+  ],
+  "book_completion": false,
+  "responses": [
+    {
+      "id": "NC79-JOLY-TM170-AU198",
+      "covered": [
+        636,
+        638
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "2feaf7d005515be9de8dd3dc53f35b4cf98610cc1f3d938bba82cfc724271eaf"
+    },
+    {
+      "id": "NC79-JOLY-SI28",
+      "covered": [
+        639,
+        641
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "38bcb429baad96e56e0334de35bd029c5b41d331369721ffae1662930a22e2ed"
+    },
+    {
+      "id": "NC79-KAHANE-RAYLEIGH",
+      "covered": [
+        642,
+        644
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "a645a244f81f943b9364c3627e5425ef481acaa04f3d4296857544307dd9b301"
+    },
+    {
+      "id": "NC79-KENNY-ZR-CAPTURE",
+      "covered": [
+        645,
+        647
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "c6a2805fdb81d780c2d4be07ea5e0b9c6955155543505d5b7d700034ff1c6123"
+    },
+    {
+      "id": "NC79-KENNY-AL-RESONANCE",
+      "covered": [
+        648,
+        650
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "b8743a8a02709c916b4347900e5223c7f2adc1222a79a8c4852857f5e02f405e"
+    },
+    {
+      "id": "NC79-KERN-NP238",
+      "covered": [
+        651,
+        653
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "7ff2954c005db53c6ef9281a4d47a36897a6d285226357ff3d4c585f4461b947"
+    },
+    {
+      "id": "NC79-KHITROV-POPULATIONS",
+      "covered": [
+        654,
+        657
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "8728fe59876a99a4a76bcf3f2eb0a7faf5da851fd2d01f4161ca2fa730668caf"
+    },
+    {
+      "id": "NC79-KOELING-CAPTURE-SPECTRA",
+      "covered": [
+        658,
+        660
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "7a5e5957e6fabcca9c68ab844b4f7069288d1664570da577b7a13987386dd13e"
+    },
+    {
+      "id": "NC79-KOPECKY-SC46",
+      "covered": [
+        661,
+        663
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "da4c973b99d8f0421b1257257bd347f11e3869ab3eb0250053067fc9f95971bb"
+    },
+    {
+      "id": "NC79-KOPECKY-E1M1",
+      "covered": [
+        664,
+        667
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "7342e023cd998e6baac69669a84adc636d272fdef5bddd94a30bf0ddccded3d3"
+    },
+    {
+      "id": "NC79-AU198-CIRCULAR",
+      "covered": [
+        668,
+        670
+      ],
+      "model": "agy-cli/gemini-3.8-flash",
+      "unit_status_reported": "complete",
+      "prompt_sha256": "3c2a97f135a031d334d408869136c5780d876f822a0e12dfba93ce8061f8e1e4"
+    }
+  ],
+  "chapter_sources": [
+    "knowledge/sources/joly-drake-nilsson-1979-tm170-au198-strength.md",
+    "knowledge/sources/joly-et-al-1979-si28-neutron-resonance-decay.md",
+    "knowledge/sources/kahane-moreh-shahal-1979-capture-gamma-rayleigh.md",
+    "knowledge/sources/kenny-stelts-chrien-1979-zr-filtered-capture.md",
+    "knowledge/sources/kenny-mccullagh-chrien-1979-al27-5p9kev-resonance.md",
+    "knowledge/sources/kern-et-al-1979-np238-reaction-spectroscopy.md",
+    "knowledge/sources/khitrov-et-al-1979-capture-population-fluctuations.md",
+    "knowledge/sources/koeling-1979-statistical-capture-gamma-spectra.md",
+    "knowledge/sources/kopecky-1979-sc46-circular-polarization-mixing.md",
+    "knowledge/sources/kopecky-1979-average-e1-m1-strength.md",
+    "knowledge/sources/ligthart-postma-1979-au198-circular-polarization-spin.md"
+  ],
+  "verified_pages_and_checks": [
+    "Joly 等 1979：Tm-170 与 Au-198 的强度函数反演: PDF 636–637：反符合及逃逸谱经响应矩阵解卷积、效率和自吸收修正。强度函数由试探函数产生的统计级联谱拟合取得。 | PDF 637–638：作者为各核改变恒温能级密度温度以给出强度函数包络。密度自旋截止因子是相关不确定度，物理含义不同于在束反应布居的取向宽度。",
+    "Joly 等 1979：硅-28 共振俘获的分辐射宽度: PDF 639–641 Tables 1–2：以非共振窗估计本底并应用 Breit–Wigner 产额归一。565、813 keV 共振的基态分辐射宽度分别为 $0.60\\pm0.10$ 与 $2.80\\pm0.40$ eV。 | PDF 641：把测得的多条分支相加时须区分分宽度之和与已有总辐射宽度。作者的校正依赖入射中子通量、自屏蔽、多重散射、γ 响应及角分布。",
+    "Kahane 等 1979：小角 γ 散射的混合峰与归一: PDF 642–644 / Fig. 2：报告有限散射角下不同材料相对碳的散射截面比。此能量与角度条件下，Rayleigh 和 Compton 在测量谱中未分开，比较项采用两者之和。 | PDF 644 Fig. 2：Ta 的一个异常点归于 Debye–Scherrer 散射。计算比值依赖所选原子形状因子和非相干散射函数。",
+    "Kenny 等 1979：锆同位素过滤束的初级线与归一: PDF 645–647 / Table 1：2、24 keV 两过滤束分别得到初级线，强度采用每 100 次俘获归一到 80 条初级跃迁的口径。两束的布居及部分波贡献可有差别。 | PDF 646：作者在两个束能窗均未观测到 $^{90}$Zr 和 $^{96}$Zr 的线，并指出在该处无已知邻近共振。热俘获或其它能区的可见性须另由实验确定。",
+    "Kenny 等 1979：铝-27 共振 E1 宽度与数据依赖: PDF 648–650 / Table 1：5.9 keV 入口经文献指认为 $1^-$ p 波共振。本章报告少数可见初级 E1 支路，并与热俘获和 35 keV 共振宽度比较。 | PDF 650 Table 1：热俘获、5.9 keV 及 35 keV 三列的初态自旋宇称不同，热俘获与 35 keV 列使用既往资料。表内括号附带多极判别，未见分支需保留可见度边界。",
+    "Kern 等 1979：Np-238 的转移谱、俘获谱与组态: PDF 651–652 / Fig. 1：并用热/共振俘获、(d,p) 和已有 α 衰变，约束低能带。角分布和不同反应布居强度支持组态比较。 | PDF 652：四对可同时观察平行与反平行耦合伙伴的带遵循 Gallagher–Moszkowski 规则。两条 $K=0$ 带报告自旋 1 带头与 Newby 位移，未见的自旋 0 项仍有观测边界。",
+    "Khitrov 等 1979：低能级联线强度比的涨落: PDF 654–655：以相邻中子共振间的 γ 强度比变化估计涨落，并和统计级联计算比较。跨核样本包括本工作和已有报告，按入口自旋分组。 | PDF 656–657：强初级线与次级退激的连接可使选定比值远离假设的统计基线。例如原文区分接在 1065 keV 强线后的 215 keV 与未接强线的其它分支。作者把碎裂和有效级联条数当作可能机制。",
+    "Koeling 1979：统计俘获级联的多极截断: PDF 658–659：连续态密度按能量、自旋、宇称及准粒子数分组，连续区以 E1 为主并应用选择规则。离散低能集体态间另使用 IBM 的 E1、E2 输入。 | PDF 659–660 / Fig. 1：$^{150}$Sm 的模型 $0^+$ 布居偏低，作者联系连续级联未纳入 M1、E2。比较结论限于模型分区和所引实验谱。",
+    "Kopecky 1979：钪-46 圆偏振及入口通道歧义: PDF 661–662 / Fig. 1：原文的 $R$ 来自 γ 圆偏振测量。分析将该观测与混合比、末态自旋及不同入口自旋的布居结合，正宇称末态的示例设初级线纯 E1 来约束入口份额。 | PDF 662：8175 keV 跃迁报 $R=-0.29(3)$ 和 $\\delta(E2/M1)=-0.25(4)$，作者指出与既往角关联的入口条件 $\\alpha=0$ 冲突。此对数值不具备实测 γ 线偏振 $P$。",
+    "Kopecky 1979：跨核平均 E1/M1 宽度比的统计范围: PDF 664–666 / Fig. 1：由共振和热俘获资料比较平均 E1 与 M1 强度比。比值可消掉共同总宽度和间距因子，能量分布、取样和多极纯度仍影响比较。 | PDF 665–666：作者将轻核的大波动和可能奇偶趋势作为数据特征。所绘误差按 Porter–Thomas 取样估计，未把若干系统分量并入。",
+    "Ligthart 与 Postma 1979：金-198 自旋的圆偏振与角分布: PDF 668–669：用初级 γ 的角分布和圆偏振对可能的末态自旋做 $\\chi^2$ 比较。拟合允许每条初级线的入口通道份额不同，但采用纯偶极条件。 | PDF 670 Fig. 2：作者把候选和由其它跃迁间接得到的自旋列入衰变图，并给出自己的置信度规则。这里的极化是 γ 圆偏振，纯偶极条件也不是实测 E2/M1 混合比。"
+  ],
+  "next_batch": {
+    "pages": [
+      671,
+      691
+    ],
+    "units": [
+      "NC79-LIOU-SC46",
+      "NC79-LONE-ZR90",
+      "NC79-LONE-O18",
+      "NC79-LUKANDER-ANALYSIS",
+      "NC79-MASSOUMI-AG108",
+      "NC79-MCCULLAGH-PHOTON-STRENGTHS",
+      "NC79-MICKLINGHOFF-DOORWAYS"
+    ]
+  },
+  "carried_forward": {
+    "pages": [
+      633,
+      635
+    ],
+    "source_note": "knowledge/sources/hungerford-1979-ill-angular-correlation-164dy.md",
+    "new_api_requests": 0
+  }
+}
