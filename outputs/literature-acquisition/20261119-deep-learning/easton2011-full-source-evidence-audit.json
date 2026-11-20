@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-11-20T13:15:49.583702+00:00",
+  "source": "knowledge/sources/easton-2011-192tl-afrodite-thesis.md",
+  "primary_pdf_pages": 105,
+  "scientific_and_bibliographic_pages_covered": 105,
+  "covered_sections": [
+    "PDF 1–10: front matter, questions and abstract",
+    "PDF 11–55: apparatus and preprocessing",
+    "PDF 56–102: contamination, coincidences and model comparisons",
+    "PDF 103–105: bibliographic references"
+  ],
+  "related_source": "knowledge/sources/ndayishimye-2016-tl192-tl193-chirality-thesis.md",
+  "visual_crosswalk": [
+    "Easton PDF 87 Fig. 4-40",
+    "Ndayishimye PDF 110 Fig. 4.10"
+  ],
+  "matched_bands": {
+    "2": "588/748 keV crossovers",
+    "3": "377 keV link, 581 and ~689 crossovers",
+    "4": "260,221,354,341,412 keV cascade"
+  },
+  "independence": "Ndayishimye credits Easton with preliminary level scheme and analyzes additional running periods. No credit for a second independent acquisition.",
+  "reader": "Codex",
+  "PDM_run": false
+}

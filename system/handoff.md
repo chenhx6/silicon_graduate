@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-20
 ---
 
+## 2026-11-20 — Easton 整源与 ¹⁹²Tl 谱图对账
+
+- [[easton-2011-192tl-afrodite-thesis]] 完成原件 105 页的科研与书证范围。以连接线核实早期和后续的带 2–4，后续候选带 5 单列。薄靶厚度按各自原文保留。
+- 累计 37 份、5959 页。续读 Allison Jane Radich 的 ¹²⁴Xe 学位论文（University of Guelph，2015 年 9 月，121 页），题页、摘要及 SHA 已核。
+
 ## 2026-11-20 — Easton 的 ¹⁹²Tl 薄靶谱
 
 - [[easton-2011-192tl-afrodite-thesis]] 已核 374/377 keV 近邻峰的边门及薄靶数据使用范围。Ndayishimye 2016 PDF 109 明确引用 Easton 的能级扩展，薄靶厚度在两份学位中分别记为 1.26 和 1.0 mg/cm²。保留原值及分析阶段，当前专题未给整源学分。

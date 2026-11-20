@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 36,
+  "completed_full_sources_this_run": 37,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T13:10:29.363757+00:00",
+  "updated_at": "2026-11-20T13:15:49.583702+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 5854,
+  "completed_primary_pages_this_run": 5959,
   "current_source_note": "knowledge/sources/easton-2011-192tl-afrodite-thesis.md",
-  "next_action": "Easton 2011 192Tl: compare the three new bands by energy and linking transitions with Ndayishimye and published analyses.",
+  "next_action": "Radich 2015 MSc in 124Xe identified and hashed, proceed with 124Cs decay and TRIUMF 8pi.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "El-Masri thesis scientific and bibliographic coverage 153/156, plus scoped Surrey PRC crosswalk.",
-  "current_source_scientific_acceptance": "Easton targeted reading accepted. Thin-target analysis boundary and experiment lineage verified. No full-source credit.",
+  "last_source_manager_closure": "Easton 105/105 scientific and bibliographic pages; named data dependence and level-link crosswalk verified.",
+  "current_source_scientific_acceptance": "Easton completed 105 pages and verified earlier bands 2–4 against Ndayishimye; later candidate band 5 distinct.",
   "source_scoped_retrieval": "Used locally archived Easton and Ndayishimye theses; no additional Easton download."
 }
