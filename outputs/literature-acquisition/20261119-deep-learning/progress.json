@@ -338,13 +338,13 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T04:57:26.550382+00:00",
+  "updated_at": "2026-11-20T05:07:30.966931+00:00",
   "completed_deep_read_sources_this_run": 0,
   "completed_primary_pages_this_run": 3028,
   "current_source_note": "knowledge/sources/chadderton-2025-fm250-conversion-electron-thesis.md",
-  "next_action": "Continue Chadderton at PDF 131–157 using the existing audited results and reconcile other chapters.",
+  "next_action": "Audit Chadderton PDF 82–109, then remaining front, apparatus and bibliographic ranges.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
   "last_source_manager_closure": "Gerathy: complete source reading by Codex; separate data, published versions and bibliographic limits retained.",
-  "current_source_scientific_acceptance": "Chadderton: title-page identity checked. 23 of 172 pages targeted, 149 pending. No claim of completed project or completed source."
+  "current_source_scientific_acceptance": "Chadderton partial: 52 of 172 physical pages. Chapters 6–9 and conclusion opening checked by Codex."
 }

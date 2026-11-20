@@ -1,0 +1,66 @@
+{
+  "recorded_at": "2026-11-20T05:07:30.966931+00:00",
+  "chapter_sources": [
+    "knowledge/sources/chadderton-2025-fm250-conversion-electron-thesis.md"
+  ],
+  "raw_sha256": "afd4f4facb231d532475037d242815d0d051863dd66af32d7149ede458c043cf",
+  "previously_checked_pages": 23,
+  "newly_checked_pages": 29,
+  "physical_pages_checked": 52,
+  "source_total_pages": 172,
+  "remaining_pages": 120,
+  "covered_sections": [
+    {
+      "pdf_span": [
+        1,
+        2
+      ],
+      "scope": "Codex title and abstract"
+    },
+    {
+      "pdf_span": [
+        110,
+        159
+      ],
+      "scope": "Codex direct reading of chapters 6–9 and part of conclusions"
+    }
+  ],
+  "extra_checked_pdf_pages": [
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    132,
+    133,
+    134,
+    135,
+    136,
+    138,
+    140,
+    141,
+    142,
+    143,
+    154,
+    155,
+    156,
+    157
+  ],
+  "accepted_gemini_receipts": 0,
+  "verified_pages_and_checks": [
+    "PDF 110–116: recoil/decay tag, coincidence time and energy selections.",
+    "PDF 125–128: K gates and inconsistent E2 caption.",
+    "PDF 132–148: modeled magnitudes, sensitivity to chosen regions, and background bounds.",
+    "PDF 154–157: near-degenerate configurations, published results reused in the comparison."
+  ]
+}
