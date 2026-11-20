@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Ewan 等的单片 Ge(Li) 与 ¹⁰²Ru
+
+- [[ewan-1969-single-geli-polarimeter]] 对账 3 页与既有 Day 17 读录，补录 ¹⁰²Ru 表 2。保留 833 keV 为有角分布和计数不对称的混合候选，原文未定数值 \(\delta\)。
+- 累计 57 份、7550 页。续核 Williams 等 1975 年 ⁶¹Ni 原文，15 页版及 SHA 已核。原有来源页的 909 keV 定向核对可直接复用。
+
 ## 2026-11-21 — Kreische 与 Lampert 的 ¹¹¹Cd 符号检验
 
 - [[kreische-lampert-1974-cd111-linear-polarization]] 核读 3 页，明确 245 keV 的 E2 判定和 171 keV 的正支使用不同证据。后者幅值 0.145 引自早期资料。记下薄晶体的方位响应与不对称定义。

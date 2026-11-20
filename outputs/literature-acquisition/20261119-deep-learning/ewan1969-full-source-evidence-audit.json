@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-11-20T17:23:31.532694+00:00",
+  "source": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+  "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1969_Ewan et al_Gamma-ray polarization measurements with a single Ge(Li) detector.pdf",
+  "raw_sha256": "ded2493ef0e816b3ed74bc5921f61324ec71b1ae34de8be96c988c71fa3e7be5",
+  "primary_pdf_pages": 3,
+  "scientific_and_bibliographic_pages_covered": 3,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1: instrument design, full-energy signal, geometry and Fig. 1",
+    "PDF 2: calibrations at four energies and 102Ru results, Tables 1–2",
+    "PDF 3: 833-keV alternatives, larger-detector recommendation and references"
+  ],
+  "evidence_gaps": [
+    "The 833-keV line is mixed with two candidate electromagnetic pairs. No new numerical delta or signed physical polarization is tabulated for that line.",
+    "The historical Q is twice the conventional normalized count difference. Uncertainty propagation and transfer limits are in the pre-existing Day 17 audit."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

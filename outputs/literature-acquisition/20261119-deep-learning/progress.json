@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.1007/bf01668664",
+  "active_source": "catalogue:LIT-000401",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 56,
+  "completed_full_sources_this_run": 57,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T17:19:18.296628+00:00",
+  "updated_at": "2026-11-20T17:23:31.532694+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 7547,
-  "current_source_note": "knowledge/sources/kreische-lampert-1974-cd111-linear-polarization.md",
-  "next_action": "Continue Ewan et al. 1969, three-page single-Ge(Li) polarization article; reconcile the existing Wiki source note and raw reference.",
+  "completed_primary_pages_this_run": 7550,
+  "current_source_note": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+  "next_action": "Read Williams et al. 1975 Nuclear Physics A253, 365–379 (15 pages), retaining prior audited 909-keV polarization values and checking full evidence coverage.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Kreische and Lampert 1974: native polarization ratio, thin NaI response and sign-only confirmation of known delta.",
-  "current_source_scientific_acceptance": "Full three pages with visual verification of figures and detector equations.",
+  "last_source_manager_closure": "Ewan 1969: reconcile existing raw audit and capture the 102Ru primaries, distinguish the detector calibration from unsigned mixed-line assignment.",
+  "current_source_scientific_acceptance": "Three publisher pages, figure, both tables and references matched to the existing source audit.",
   "source_scoped_retrieval": "Locally held publisher PDF. No new download."
 }

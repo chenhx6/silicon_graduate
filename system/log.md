@@ -6618,3 +6618,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Kreische 与 Lampert 的 ¹¹¹Cd 极化选符号
 
 - 核读 3 页，核实 245 keV 分析量与 171 keV 引用幅值的角色。累计 56 份、7547 页，续读 Ewan 等的单片 Ge(Li)。
+
+## 2026-11-21 — Ewan 等的 Ge(Li) 与 ¹⁰²Ru
+
+- 对账 3 页出版版，保存表 2 直接量与 833 keV 候选。累计 57 份、7550 页，续读 Williams 等的 ⁶¹Ni。

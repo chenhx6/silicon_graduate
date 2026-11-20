@@ -3,7 +3,7 @@ type: source
 title: "Ewan et al. 1969 - Gamma-ray polarization with a single Ge(Li) detector"
 aliases: [Ewan 1969 single GeLi polarimeter]
 created: 2026-09-21
-updated: 2026-10-20
+updated: 2026-11-21
 status: ai-draft
 review_status: unreviewed
 source_type: method-and-application
@@ -47,6 +47,17 @@ tags: [GeLi, polarization, Compton-polarimeter, 102Ru]
 - 原EW69命名的correctedQ=2A/P为15.7%/10.4%/12.6%/6.4%，对应0.847/1.368/1.779/4.43MeV；若改用通常A/P定义，同计数合同下依次.0785/.0520/.0630/.0320，不能裸用原百分数作modernQ。photoelectric低能削弱响应，见EW69-D17-1–4。
 - In `100Mo(α,2n)102Ru`, 475/631/766-keV transitions show positive E2 polarization, while an 833-keV line has opposite asymmetry and weak angular distribution, indicating mixed multipolarity (E1+M2 or M1+E2) (PDF pp.353–354, Table 2).
 - Detector orientation/solid-angle differences are corrected below 1% for the calibration geometry, but response remains energy/geometry dependent (PDF p.353).
+
+### ¹⁰²Ru 复核
+
+| \(E_\gamma\) (keV) | \(a_2\) | \(a_4\) | 实测 \(Q_{\rm raw}=2A\) |
+| --- | --- | --- | --- |
+| 475 | \(+0.24(2)\) | \(-0.05(3)\) | \(+5.5(12)\%\) |
+| 631 | \(+0.28(2)\) | \(-0.05(3)\) | \(+7.1(15)\%\) |
+| 766 | \(+0.30(3)\) | \(-0.09(3)\) | \(+7.4(17)\%\) |
+| 833 | \(-0.05(3)\) | \(-0.02(3)\) | \(-3.4(13)\%\) |
+
+表 2 来自 \(^{100}\mathrm{Mo}(\alpha,2n)^{102}\mathrm{Ru}\)，\(E_\alpha=26\) MeV。475 keV 已知纯 E2 参考线的同次测量提供图 1 空心点。833 keV 仅列 E1/M2 和 M1/E2 候选，原文无数值 \(\delta\)、物理 \(P\) 或在束 \(\sigma/I\)。此篇可用于追溯探测器与判别证据。薄 NaI 的相关应用见 [[kreische-lampert-1974-cd111-linear-polarization]]。
 
 ## Key Results
 
