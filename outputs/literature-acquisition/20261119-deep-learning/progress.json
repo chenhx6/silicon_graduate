@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000734",
+  "active_source": "catalogue:LIT-000717",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 67,
+  "completed_full_sources_this_run": 68,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T18:19:23.282245+00:00",
+  "updated_at": "2026-11-20T18:24:38.335775+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 7675,
-  "current_source_note": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
-  "next_action": "Read the eleven-page Taras 1970 NIM85, 313–323, particle–gamma angular correlations and finite-size effects.",
+  "completed_primary_pages_this_run": 7686,
+  "current_source_note": "knowledge/sources/taras-1970-particle-gamma-angular-correlations.md",
+  "next_action": "Read Garber et al. 1974, Nuclear Physics A219, 370–380, 11 pages, on 125Sb polarization-direction correlations.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Vaillancourt and Taras 1974: observed interference, unobserved feed and the conditional tensor cancellation.",
-  "current_source_scientific_acceptance": "All eight publisher pages, previous actual-page audit checked against the formulas and distinct Th/P definitions.",
+  "last_source_manager_closure": "Taras 1970: m-restricted angular distributions, finite particle acceptance and separate 35Cl example.",
+  "current_source_scientific_acceptance": "Eleven publisher pages, with original Fig. 1A and Table 2 verified.",
   "source_scoped_retrieval": "Locally held publisher PDFs. No new download."
 }

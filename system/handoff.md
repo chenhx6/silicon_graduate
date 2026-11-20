@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Taras 的粒子–γ 接受度与方向双根
+
+- [[taras-1970-particle-gamma-angular-correlations]] 对账 11 页，保留 5% 假设布居、粒子角接受度与 γ 立体角的区别，以及 ³⁵Cl 7.84→4.17 MeV 的方向双根。
+- 累计 68 份、7686 页。续读 Garber 等 1974 对 ¹²⁵Sb 的方向、极化–方向关联。本地 11 页出版版及 SHA 已核。
+
 ## 2026-11-21 — Vaillancourt 与 Taras 的三多极响应
 
 - [[vaillancourt-taras-1974-three-multipole-formulas]] 对账 8 页，保留观测线的干涉与未观测级联的强度加权，并记录角系数消参的奇点及粒子门条件。³⁵Cl 与 ³⁷Ar 属于文中动机。

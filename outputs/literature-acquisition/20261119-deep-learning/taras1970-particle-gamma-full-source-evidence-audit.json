@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-20T18:24:38.335775+00:00",
+  "source": "knowledge/sources/taras-1970-particle-gamma-angular-correlations.md",
+  "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1970_Taras_Analysis of particle-gamma angular correlations and distributions.pdf",
+  "raw_sha256": "1bd0ec877718f6cd98ae087ebbc78409694be407b1a66ff778488997a56a8813",
+  "primary_pdf_pages": 11,
+  "scientific_and_bibliographic_pages_covered": 11,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–2: angular equations and Table 1 isotropy",
+    "PDF 3–4: directional example, finite counter correction and sensitivity bounds",
+    "PDF 5–11: computed curve families and references"
+  ],
+  "visual_checks": [
+    3,
+    4
+  ],
+  "evidence_gaps": [
+    "The 5% higher-m component is an assumed acceptance perturbation, not a measured population.",
+    "The 7.84 to 4.17 MeV 35Cl mixing branches are allowed by angular distribution only."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

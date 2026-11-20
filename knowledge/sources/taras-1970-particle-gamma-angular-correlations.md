@@ -3,7 +3,7 @@ type: source
 title: "Analysis of particle-gamma angular correlations and distributions"
 aliases: ["Taras 1970 particle-gamma angular distributions", "Taras 1970 Method II curves"]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-11-21
 status: ai-draft
 review_status: unreviewed
 source_type: method
@@ -59,9 +59,9 @@ tags: [particle-gamma-correlation, Method-II, angular-distribution, mixing-ratio
 ## Key Evidence and Reasoning Chain
 
 1. 24 theoretical curves cover selected `J=3/2` through `9/2` initial states and `I=1/2` through `7/2` final states, with allowed δ ranges and isotropic δ values listed in Table 1（PDF pp.314-323）。
-2. In `34S(p,γ)35Cl`, measured `a2/a0≈0.17` and `a4/a0≈−0.005` for a 7.84-MeV level are compared to curves; for a possible `J=3/2` final state, δ branches include approximately `0.13-0.19` and `−14.3 to −8.1`（PDF p.315，Fig.1A）。
+2. 在 \(^{34}\mathrm{S}(p,\gamma)^{35}\mathrm{Cl}\) 的 7.84→4.17 MeV 支路中，经 γ 有限立体角修正的 \(a_2/a_0=0.17(2),a_4/a_0=-0.005(20)\)。在末态 \(I=3/2\) 的假设下，图 1A 给 \([0.13,0.19]\) 与 \([-14.3,-8.1]\) 两支。图和正文都只有方向观测，这两个区间不能填为线偏振联解。见印刷 315 页。
 3. Method II is most useful when reaction geometry restricts magnetic substates to `m=±1/2` (or `m=0`); otherwise population parameters are not unique and the curves require correction or a fit with additional information（PDF pp.315-316）。
-4. Finite particle-counter corrections `T_k(J)` are largest at low spin and decrease with J; both uncorrected and corrected values should be reported when the reaction mechanism is uncertain（PDF p.316，Table 2）。
+4. 式 7 和表 2 设 \(\lvert m\rvert=m_0+1\) 的附加布居为 5%，由秩张量之比给有限粒子探测器校正 \(T_k(J)\)。例 \(J=5/2\) 有 \(T_2=1.039,T_4=1.143\)。此为假设的接受度敏感性，与 γ 探测器立体角衰减 \(Q_k\) 需分别处理。见印刷 315–316 页。
 
 ## Summary
 

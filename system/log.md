@@ -6662,3 +6662,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Vaillancourt 与 Taras 的三多极公式
 
 - 对账 8 页，核实观测线干涉、未观测级联传播及消参边界。累计 67 份、7675 页，续读 Taras 的粒子–γ 角关联。
+
+## 2026-11-21 — Taras 的方向曲线与有限粒子接受度
+
+- 完成 11 页。明确 5% 布居假设及 ³⁵Cl 方向观测的两支。累计 68 份、7686 页，续读 Garber 等。
