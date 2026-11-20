@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-11-20T16:39:07.380301+00:00",
+  "source": "knowledge/sources/reddingius-potters-postma-1968-nd-capture-polarization.md",
+  "raw_file": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0031-8914_68_90061-X.pdf",
+  "raw_sha256": "133b9593691d9ab9cd785bd9c3f7a875b68e8cacecf36475a4045a570cf5830c",
+  "primary_pdf_pages": 19,
+  "scientific_and_bibliographic_pages_covered": 19,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–5: identity and aims, Nd isotope samples, cryogenic alignment and NaI polarimeter",
+    "PDF 6–9: enriched spectra, isotope assignment and anisotropy, polarization counts and Q calibration",
+    "PDF 10–14: binding energies, alignment Hamiltonian and cascade propagation, 864 keV mixing and level scheme",
+    "PDF 15–19: vibrational and shell-model interpretations, literature systematics, references"
+  ],
+  "visual_checks": [
+    3,
+    4,
+    9,
+    11,
+    13,
+    14,
+    17
+  ],
+  "evidence_gaps": [
+    "Table IV is the reciprocal of Eq. 1. Shared calibration uncertainties have no explicit covariance.",
+    "Fig. 6 uses a modeled range of previous gammas, not a joint confidence region or in-beam sigma/I.",
+    "Table VI is primarily a literature compilation. Its other nuclei require their own primary sources."
+  ],
+  "reader": "Codex",
+  "gemini_route": "Known unavailable, 502 with upstream 403 from Davies 1968 attempt.",
+  "PDM_run": false
+}

@@ -6590,3 +6590,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Davies 与 Hamilton 的 ¹⁸¹Ta 联解
 
 - 核读 16 页，核对 HCl/HF 的实验输入、共同衰减约分条件、476 keV 串扰和两组发表的混合比。累计 49 份、7463 页。续读 Reddingius、Potters 与 Postma 的 Nd 俘获谱。
+
+## 2026-11-21 — Reddingius 等的 Nd 俘获谱
+
+- 核读 19 页，核对 ¹⁴⁴Nd 864 keV 的计数比、线偏振、各向异性和四极振幅区间。累计 50 份、7482 页。续读 Coleman 1958。

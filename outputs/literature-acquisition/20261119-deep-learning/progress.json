@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.1016/0375-9474(67)90695-1",
+  "active_source": "doi:10.1016/0031-8914(68)90061-x",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 49,
+  "completed_full_sources_this_run": 50,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T16:32:38.287680+00:00",
+  "updated_at": "2026-11-20T16:39:07.380301+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 7463,
-  "current_source_note": "knowledge/sources/davies-hamilton-1967-ta181-482kev-mixing-ratio.md",
-  "next_action": "Read Reddingius, Potters and Postma 1968 Physica 38 48–66, 19 published pages, for aligned neutron-capture anisotropy and polarization evidence.",
+  "completed_primary_pages_this_run": 7482,
+  "current_source_note": "knowledge/sources/reddingius-potters-postma-1968-nd-capture-polarization.md",
+  "next_action": "Read Coleman 1958, Nuclear Physics 5, 495–503, and verify the one- and two-mixed-transition conditions using the local 9-page publisher file.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Davies and Hamilton 1967: common-rank factor cancellation and 181Ta original data, 476 keV sensitivity and publication notation differences.",
-  "current_source_scientific_acceptance": "16 publisher pages, inclusive of bibliographic scope. Table 2–3 and the two numerical delta versions checked against originals.",
+  "last_source_manager_closure": "Reddingius et al. 1968: 144Nd and 146Nd isotope assignments, 864 keV signed polarization, gamma feeding sensitivity and mixing records.",
+  "current_source_scientific_acceptance": "19 publisher pages including figures, tables and bibliography. 864 keV signed branch checked in Fig. 6 with absolute delta in Table VI.",
   "source_scoped_retrieval": "Locally held publisher PDF. No new download."
 }

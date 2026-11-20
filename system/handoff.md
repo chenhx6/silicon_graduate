@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Reddingius 等的取向 Nd 俘获谱
+
+- [[reddingius-potters-postma-1968-nd-capture-polarization]] 核读 19 页。核实 ¹⁴⁴Nd 864 keV 的计数比符号、线偏振、各向异性、取向传播和原表 \(\lvert\delta\rvert\)，区分 ¹⁴⁶Nd 样品与偶偶核引文汇编。
+- 累计 50 份、7482 页。续读本地 Coleman 1958 的 9 页出版版，核对双观测约束及两条跃迁都混合时的解支。
+
 ## 2026-11-21 — Davies 与 Hamilton 的 ¹⁸¹Ta 联合提取
 
 - [[davies-hamilton-1967-ta181-482kev-mixing-ratio]] 核读 16 页。保留两种介质原始 \(A_{22},A_{44},k,Q\)，共同衰减的约分条件，以及 476 keV 串扰修正前后两组 \(\delta\)。
