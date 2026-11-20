@@ -6638,3 +6638,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Meyer 等的 Cu/Ga 衰变与模型对照
 
 - 核读 10 页，对账 ⁶¹Ni 的弱线和模型比较的原始数据依赖。累计 61 份、7600 页，续读 Samanta 等的 ⁶¹Ni。
+
+## 2026-11-21 — Samanta 等的 ⁶¹Ni 谱学与实际角门
+
+- 对账 10 页，保留现代 ⁶¹Ni 的两类角比、线偏振与早期混合比的区别。累计 62 份、7610 页，续读 Butler 等。

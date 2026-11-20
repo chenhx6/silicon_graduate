@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-11-20T17:53:37.725653+00:00",
+  "source": "knowledge/sources/samanta-2019-single-particle-configurations-61ni.md",
+  "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2019_Samanta et al_Single particle configurations in 61Ni.pdf",
+  "raw_sha256": "5b0575aeb4d75f13cf239cbe3293875b3c0f62507921568c0dc72749e663c9a5",
+  "primary_pdf_pages": 10,
+  "scientific_and_bibliographic_pages_covered": 10,
+  "excluded_pdf_pages": [],
+  "scope": [
+    "PDF 1–3: hypothesis, distinct reaction, geometry and calibration",
+    "PDF 4–7: level scheme, coincidence and directional/polarization tables",
+    "PDF 8–10: model configurations, interactions and bibliography"
+  ],
+  "evidence_gaps": [
+    "Table I has transition multipolarities and measured P without new measured numerical mixing ratios.",
+    "RADO control bands and sign statements are conditional on the experiment geometry and convention.",
+    "Reference values from prior papers and shell-model wave functions are not independent experimental mixing evidence."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

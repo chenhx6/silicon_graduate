@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Samanta 的现代 ⁶¹Ni 谱学
+
+- [[samanta-2019-single-particle-configurations-61ni]] 对账出版版 10 页。核实 \(R_{\rm ADO}\) 的 140°/115° 全角门与 \(R_{\rm DCO}\) 的交换角，保留 907.7/1014.6 keV 支路的原文观测。本文报告多极性，供仪器和结构比较，早期论文给的逐线 \(\delta\) 保持来源独立。
+- 累计 62 份、7610 页。续读 Wadsworth 1977 所引的 Butler 等三晶体 Ge(Li) 偏振仪，在原读基础上核实际标定与该次 ⁶¹Ni 采集可迁移的条件。
+
 ## 2026-11-21 — Meyer 的独立衰变谱与 ⁶¹Ni 比较
 
 - [[meyer-1978-multiparticle-configurations-61ni-67zn]] 对账 10 页，订正书目末页 1831 和 ⁶⁷Ga 制源。保留 1014 keV 弱支、馈入依赖及图 6 引用的 \(\delta\) 谱系。

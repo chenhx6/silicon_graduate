@@ -3,7 +3,7 @@ type: source
 title: "Samanta et al. 2019 - Single particle configurations in 61Ni"
 aliases: [Samanta 2019 61Ni configurations]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-11-21
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment-and-model
@@ -41,13 +41,13 @@ tags: [61Ni, shell-model, single-particle, g9/2, level-scheme, A≈60]
 
 ## Scope and Reading Depth
 
-- PDF pp.1–10 fully read: TIFR `59Co(7Li,αn)` experiment, 11-clover geometry, RADO/RDCO/polarization calibration, Figs.1–10, level scheme, 17 new transitions, six re-placements, shell-model comparison and conclusions.
+- PDF 1–10：TIFR \(^{59}\mathrm{Co}(^{7}\mathrm{Li},\alpha n)\) 实验，11 台 Clover，\(R_{\rm ADO},R_{\rm DCO}\) 与极化标定、图 1–7、表 I–II、能级纲图及壳模型比较。
 - Not covered: raw cubes, MARCOS/RADWARE files and complete shell-model code/input.
 
 ## Key Evidence and Reasoning Chain
 
 - `61Ni` is extended to `Ex≈7 MeV` and spin `≈10ℏ`; 17 transitions are new and six placements are modified relative to prior work.
-- RADO references are `1.24±0.02` for pure quadrupole and `0.81±0.01` for pure dipole; polarization asymmetry is corrected with energy-dependent `Q(Eγ)`, and RDCO reference values are given for the geometry.
+- \(R_{\rm ADO}\) 为待测线 \(140^\circ/115^\circ\)，在其他线的全角组能窗设门。参考值为纯四极 \(1.24(2)\) 和纯偶极 \(0.81(1)\)。\(R_{\rm DCO}\) 用 \(140^\circ/90^\circ\) 交换门的两轴，偶极门与四极门参考值不同。\(P=\Delta/Q\)，保留计数不对称与标定后的物理偏振的区别。见 PDF 2–3，式 1–3、图 1–3。
 - Large-basis `fpg` shell-model calculations include `g9/2`, enabling positive-parity/high-excitation configuration interpretation beyond earlier MSDI/ASDI work.
 - Differences from Wadsworth/Meyer lineages are retained; the modern clover data improve placement and multipolarity but do not make historical discrepancies disappear without source-by-source mapping.
 
@@ -57,7 +57,17 @@ tags: [61Ni, shell-model, single-particle, g9/2, level-scheme, A≈60]
 |---|---|---|---|---|---|
 | SA19-1 | TIFR clover spectroscopy identifies 17 new transitions and modifies six placements, extending `61Ni` to about 7 MeV and `10ℏ`. | experimental-result | direct | PDF pp.1–5, Fig.4 | true |
 | SA19-2 | RADO/RDCO and linear polarization assign transition multipolarities/electromagnetic character using geometry-specific reference values. | experimental-method-result | direct | PDF pp.2–4, Figs.1–3 | true |
-| SA19-3 | Large-basis `fpg` shell-model calculations including `g9/2` reproduce/interpret single-particle configurations at high excitation. | model-result | mixed | PDF pp.5–9, Figs.5–10 | true |
+| SA19-3 | Large-basis `fpg` shell-model calculations including `g9/2` reproduce/interpret single-particle configurations at high excitation. | model-result | mixed | PDF 5–9，图 7、表 II | true |
+
+### 与早期 ⁶¹Ni 混合比记录的对账
+
+| \(E_i\to E_f\) (keV) | \(R_{\rm DCO}\) | \(R_{\rm ADO}\) | \(\Delta\) | \(P\) |
+| --- | --- | --- | --- | --- |
+| 907.7→0 | — | \(0.77(3)\) | \(-0.03(2)\) | \(-0.41(42)\) |
+| 907.7→66.7 | — | \(0.98(8)\) | — | — |
+| 1014.6→66.7 | \(0.76(5)\)，四极门 | \(0.98(9)\) | \(-0.01(1)\) | \(-0.17(25)\) |
+
+表 I 全部按原刊列名读值。1014.6→66.7 的 \(R_{\rm ADO}\) 落在作者装置的两个纯跃迁参考值之间。此处表仅列 M1+E2 指认，没有给数值 \(\delta\) 或区间。[[wadsworth-1977-61ni-levels]] 和 [[williams-1975-61ni-low-lying-levels]] 用另一反应和不同取向条件，给对应支路负的混合比。本文 §II 的参考比符号说法应跟随本次装置、门和相位约定，不能用它改写早期混合比的符号。图 3 的参考曲线借用了已知混合比，全文未提供新的数值 \(\delta\) 提取或该提取所用的 \(\sigma/I\)。
 
 ## Summary
 

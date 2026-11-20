@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000553",
+  "active_source": "catalogue:LIT-000675",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,7 +344,7 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 61,
+  "completed_full_sources_this_run": 62,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -352,14 +352,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-20T17:48:08.910863+00:00",
+  "updated_at": "2026-11-20T17:53:37.725653+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 7600,
-  "current_source_note": "knowledge/sources/meyer-1978-multiparticle-configurations-61ni-67zn.md",
-  "next_action": "Read Samanta et al. 2019, PRC 99 014315, 10 pages. Trace in-beam evidence relative to the earlier 61Ni papers.",
+  "completed_primary_pages_this_run": 7610,
+  "current_source_note": "knowledge/sources/samanta-2019-single-particle-configurations-61ni.md",
+  "next_action": "Read Butler et al. 1973, the Wadsworth 1977 three-Ge(Li) polarimeter reference, and check calibration-transfer conditions.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Meyer 1978: check independent decay counting and weak 61Ni branch provenance, and correct end page and 67Ga production.",
-  "current_source_scientific_acceptance": "10 publisher pages including the final bibliography page 1831.",
+  "last_source_manager_closure": "Samanta 2019: 61Ni RADO versus RDCO geometries, radiation character versus numeric delta, independent modern level scheme.",
+  "current_source_scientific_acceptance": "10 publisher pages and extra verification of same-transition evidence with earlier sources.",
   "source_scoped_retrieval": "Locally held publisher PDF. No new download."
 }
