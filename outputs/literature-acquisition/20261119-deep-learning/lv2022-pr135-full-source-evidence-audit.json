@@ -1,0 +1,44 @@
+{
+  "work_id": "doi:10.1016/j.physletb.2021.136840",
+  "title": "Evidence against the Wobbling Nature of Low-Spin Bands in 135Pr",
+  "raw_files": [
+    {
+      "path": "raw/papers/2022_Lv et al_Evidence against the wobbling nature of low-spin bands in 135Pr.pdf",
+      "sha256": "4b87c540bf9da5141fa88ef8f00859162cb08918d56a5da74726c7537df5e26b",
+      "size": 512670,
+      "hash_basis": "fresh-hash",
+      "source_role": "original-or-verified-edition"
+    },
+    {
+      "path": "raw/papers/2022_Lv et al_Evidence against the wobbling nature of low-spin bands in 135Pr supplementary.pdf",
+      "sha256": "c25cf17ce10efb2d62fc27a665082df7bffeb30f0044726b2730754b035bf225",
+      "size": 303338,
+      "hash_basis": "fresh-hash",
+      "source_role": "official-supplement"
+    }
+  ],
+  "source_note": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+  "primary_pdf_pages": 6,
+  "official_supplement_pages": 7,
+  "credited_primary_pages": 6,
+  "covered_sections": [
+    "Main PDF 1–2: rationale, bands and independent JUROGAM II run",
+    "Main PDF 3–6: compared angular-distribution branches, newly measured P/Rac and adopted delta, QTR and references",
+    "SI PDF 1–5: angular and polarization matrices, level scheme, background/gate spectra, sigma/I treatment, transition table",
+    "SI PDF 6–7: QTR components and methods references"
+  ],
+  "key_anchors": [
+    "SI PDF 1, Eqs. 1 and 2: shared all-angle gate, four angles pooled in two arms; polarization calibration.",
+    "Main PDF 3, Table 1: three published P/Rac/delta tuples; delta centres -0.47, -0.37, -0.31.",
+    "SI PDF 4: central P and Rac fix adopted delta and sigma/I; varying fixed widths for observational error propagation.",
+    "SI PDF 5, Table 1: asymmetry, energy, relative intensity and gate/line context."
+  ],
+  "publication_independence": "Main and SI are one work. New JUROGAM data are independent from the reused Matta 2015 and Sensharma 2019 ATLAS angular-distribution points.",
+  "evidence_gaps": [
+    "No numerical best-fit sigma/I, full scan grid or joint covariance is tabulated.",
+    "755.1 keV has angular ratio only; no new joint delta for this line or for the 550.9/518.6 keV links.",
+    "Earlier ATLAS data plotted for comparison retain their old provenance."
+  ],
+  "reader": "Codex (reconciled existing source notes and original main/SI; Gemini gateway unavailable in prior probes)",
+  "PDM_run": false
+}

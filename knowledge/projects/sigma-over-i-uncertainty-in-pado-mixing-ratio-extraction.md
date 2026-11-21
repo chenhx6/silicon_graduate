@@ -112,6 +112,8 @@ Chiara 2012 is the most direct spectroscopy example: a working `sigma/I` value i
 
 [[sensharma-2021-wobbling-motion-135pr-187au]] 表 4.1（PDF 119）记录了用参考线衰减选择 \(\sigma/J=0.2\)，随后按此宽度用角分布提取 \(^{135}\mathrm{Pr}\) run 1 和 \(^{187}\mathrm{Au}\) runs 2+3 的 \(\delta\)。PDF 120–121 的 MCMC 采样围绕先经 \(\chi^2\) 比较选定的 \(\delta\) 分支。这个固定宽度来自学位论文的补充方法信息，与 [[sensharma-2020-longitudinal-wobbling-187au]] 的同批 \(^{187}\mathrm{Au}\) 结果合并追溯。[[guo-2022-low-spin-wobbling-187au]] SI 图 2 对每条 \(P\)–\(R_{\rm ADO}\) 预测曲线固定一个 \(\sigma/I\)，再合并不同宽度下穿过实验误差矩形的解。两者分别是定标后固定取向和扫描取向后取相容解集。前者的角分布结果可以举证取向处理，基于实测 \(P\) 的方法调查则采用后者这样的偏振输入记录。
 
+[[lv-2022-evidence-against-wobbling-135pr]] SI PDF 4 单独说明了中心值与误差的处理。按实测 \(P,R_{\rm ac}\) 中心值拟合出采用的 \(\delta,\sigma/I\)，再改变曲线的固定宽度来传播这两个测量量的误差。出版主文及 SI 未列最佳宽度或完整网格的数值。统计审稿证据时，「取向处理方法」和「是否明列取向数值」应分别编码。
+
 Ekstrom 1979 strengthens the older alignment-limitation evidence chain from a complementary direction. Instead of starting from a fit ambiguity alone, it compiles pure-E2 data into `alpha2/alpha4`, tests CNR/MANDY alignment estimates against experiment, gives an explicit uncertainty prescription for those estimates, and warns that too-small alignment errors can lead to faulty spin/parity or mixing-ratio assignments.
 
 Ionescu 1981 then shows what to do when a global Gaussian substate-population model fails in a carefully measured case. It uses pure-E2 transitions and their `rho2/rho4` behavior to test the Gaussian hypothesis, finds it inadequate for `167Tm`, and replaces it with a model that keeps Gaussian side feeding but adds discrete direct gamma-feeding contributions explicitly before fitting mixed transitions.

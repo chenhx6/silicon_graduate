@@ -43,7 +43,7 @@ B. F. Lv et al., *Physics Letters B* **824**, 136840 (2022)，DOI `10.1016/j.phy
 
 ## Scope and Reading Depth
 
-主文与 supplementary material 全文精读，并视觉核对主文 Fig.1 的能级纲图、Fig.2 的 angular-distribution 双解与联合 `P-R_ac` 约束、Table 1 的 polarization/`R_ac`/mixing ratio、Fig.4 的实验-QTR 比较，以及补充材料 pp.1-6 的选门与污染检查、完整跃迁表和逐带 QTR 波函数成分。
+Covered scope: 出版主文 PDF 1–6 及 supplementary material PDF 1–7。视觉核对主文 Fig. 1 的能级纲图、Fig. 2 的角分布双解与联合 \(P\)–\(R_{\rm ac}\) 约束、Table 1 的输入和混合比、Fig. 4 的实验与 QTR 比较，以及 SI 的几何、选门、污染检查、跃迁表和 QTR 成分。
 
 本页按 `experiment-ingest + project-ingest` 建立反对方证据链。它不把 Lv 2022 的作者结论写成本 Wiki 的最终裁决。补充材料作为主论文附属证据层挂接到本 source，不另建 source、DOI 或 BibTeX 条目。
 
@@ -273,3 +273,10 @@ Supports/limits：保留作者的支持或反对解释，并将逐线测量、�
 denominator E2 fraction若为未知h，则两derivedB共同含1/h，不能由二者逆变换就把h或denδ测出来。747/526是另一带间出口，526多极/Rac空的源边界保持，不补未报告的rM1作为新观测。新needs_review:true，旧L22人审范围与actualP/Rac/SH26条件支持不改。
 
 本次derived-vector率/相位前提直接回链[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D23-002；不把公式中心回代当新实验。
+
+## 2026-11-21 — 角比分类与取向宽度的报告边界
+
+- SI Eq. (1)（PDF 1）给出同一全角门下的两组强度之比。分子合并 \(157.6^\circ,133.6^\circ\)，分母合并 \(75.5^\circ,104.5^\circ\)。本研究按矩阵定义归入 \(R_{\rm ADO}\)，保留原文的 \(R_{\rm ac}\) 名称和四个实际环角。
+- 主文 Fig. 2(b,d,f) 与 Table 1（PDF 3）给出 747.3、813.2、450.2 keV 的实测 \(P,R_{\rm ac}\) 和采用的 \(\delta\)。SI Figs. 3–5（PDF 3）及选门段（PDF 4）将其极化谱对应到 450、796、747 keV 门。755.1 keV 的 \(R_{\rm ac}=0.50(6)\) 有实测值，原表的 \(P,\delta\) 留空。
+- SI PDF 4 说明用 \(P,R_{\rm ac}\) 实测中心值拟合取得采用的 \(\delta,\sigma/I\)，再用若干 \(\sigma/I\) 的计算曲线把实测 \(P,R_{\rm ac}\) 的误差传至 \(\delta\) 上下限。作者将所报 \(\delta\) 误差归因于这两个观测量的误差传播。主文和 SI 未列数值化的最佳 \(\sigma/I\)、扫描列表、联合协方差或区间覆盖率。取向工作流可标记为「中心值联解并以多宽度曲线传播观测误差」，报告数值一栏记「未列」。
+- 主文 Fig. 2(a,c,e) 重用早期 ATLAS 角分布以比较两支。Table 1 的当次 \(P,R_{\rm ac}\) 来自独立 JUROGAM II 采集，SI 的 \(A_p\) 是相同偏振计数导出的上游量。

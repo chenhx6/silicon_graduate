@@ -6702,3 +6702,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Sensharma 学位论文的取向与运行参数
 
 - 对账 199 页科研和书证范围，核实表 4.1 选定的取向宽度、选支后的 MCMC、附录的几何和运行校准。累计 77 份、8486 页主件，续读 Lv 2022。
+
+## 2026-11-21 — Lv 的 ¹³⁵Pr 角比与宽度处理
+
+- 对账 6 页主文和 7 页 SI，核实两组合并角、三条极化输入和取向报告。累计 78 份、8492 页主件，续读 Matta 2015。
