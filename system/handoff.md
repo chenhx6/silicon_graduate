@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Ødegård 2001 \(^{163}\mathrm{Lu}\) 一声子基准
+
+- [[odegard-2001-evidence-wobbling-163lu]] 核对四页刊版。保留从近自旋拉伸 E2 线定标的 \(\sigma/I=0.25(2)\)、偏振选择大解，以及与 Jensen 157-MeV 采集和引用强度比的关系。
+- 累计 161 份、10340 个主件 PDF 页。接续 [[campaign-g07-gorgen-2004-163lu-quadrupole-moments]] 的寿命与四极矩证据。
+
 ## 2026-11-21 — Jensen 2002 \(^{163}\mathrm{Lu}\) 两声子候选
 
 - [[jensen-2002-second-phonon-wobbling-163lu]] 核对四页刊版和 476-keV 连接的大小两解。保留缺失偏振、条件性强度比、其它连接与模型 M1 上限差异。

@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.1103/physrevlett.86.5866",
+  "active_source": "catalogue:LIT-000975",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -443,9 +443,10 @@
     "TIMAR19-PD105-PUBLISHER-P-AND-DCO-CONDITIONS",
     "KARMAKAR25-PD105-PUBLISHER-BAND-MAPPING",
     "KRUZSICZ25-PD105-PREPRINT-LINEAGE-RECONCILED",
-    "JENSEN02-LU163-SECOND-PHONON-LOCAL-PUBLISHER-RECONCILED"
+    "JENSEN02-LU163-SECOND-PHONON-LOCAL-PUBLISHER-RECONCILED",
+    "ODEGARD01-LU163-ONE-PHONON-REFERENCE-CHECK"
   ],
-  "completed_full_sources_this_run": 160,
+  "completed_full_sources_this_run": 161,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1001,
@@ -453,14 +454,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T12:09:59.872697+00:00",
+  "updated_at": "2026-11-21T12:15:00.924884+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10336,
-  "current_source_note": "knowledge/sources/odegard-2001-evidence-wobbling-163lu.md",
-  "next_action": "Reconcile Odegard 2001 original 163Lu one-phonon source, Table II inputs and independence from Jensen 2002.",
+  "completed_primary_pages_this_run": 10340,
+  "current_source_note": "knowledge/sources/campaign-g07-gorgen-2004-163lu-quadrupole-moments.md",
+  "next_action": "Reconcile Goergen 2004 163Lu quadrupole moment evidence and the lifetime/relative-strength crosswalk.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Jensen 2002 publisher PDF, quantitative comparison of its 476 keV mixed line and TSD3 decay evidence.",
-  "current_source_scientific_acceptance": "One four-page publisher paper; both delta solutions retained and one-phonon comparison identified as referenced data.",
-  "source_scoped_retrieval": "Reused existing APS original."
+  "last_source_manager_closure": "Odegard 2001 publisher evidence and own 152-MeV lineage; calibrated sigma/I and polarization branch.",
+  "current_source_scientific_acceptance": "Four publisher pages and explicit reference input dependence for Jensen 2002.",
+  "source_scoped_retrieval": "Reused existing APS publisher original."
 }

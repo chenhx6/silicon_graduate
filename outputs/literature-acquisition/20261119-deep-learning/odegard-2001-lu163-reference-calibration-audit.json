@@ -1,0 +1,21 @@
+{
+  "work_id": "doi:10.1103/physrevlett.86.5866",
+  "status": "scientific-reading-covered",
+  "recorded_at": "2026-11-21T12:15:00.924884+00:00",
+  "raw": {
+    "path": "raw/papers/2001_Ødegård et al_Evidence for the Wobbling Mode in Nuclei.pdf",
+    "sha256": "0ff38adfcbe031fb21c43b3bba290ca44a21898564bb78cf335fbb47b05ba379",
+    "size": 148775,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "source_note": "knowledge/sources/odegard-2001-evidence-wobbling-163lu.md",
+  "credited_primary_pages": 4,
+  "reader": "Codex from local full text with prior audit coverage",
+  "coverage": [
+    "APS PDF 1–2: 152-MeV acquisition, level scheme and E2 reference calibration.",
+    "APS PDF 3–4: angular branches, polarization, relative strengths, and alternatives."
+  ],
+  "dependency_boundary": "Joint observables originate in one acquisition; Jensen 2002 quotes the reference values and uses a different 157-MeV acquisition for TSD3.",
+  "next_action": "Reconcile Goergen 2004 163Lu quadrupole moment evidence and the lifetime/relative-strength crosswalk."
+}

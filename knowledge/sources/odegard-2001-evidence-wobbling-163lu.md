@@ -48,6 +48,12 @@ PRL 86, 5866-5869 (2001), DOI `10.1103/PhysRevLett.86.5866`. The PDF title, DOI 
 - Not covered: cited earlier lifetime datasets and calculation codes were not independently reanalysed.
 - Coverage caveats: extracted symbols for `δ`, `γ` and uncertainties were checked against their local PDF context; the exact fit surfaces and detector-response calibration are not reproduced.
 
+## 取向校准与后续两声子比较
+
+刊版 PDF 2 在与连接线相同的自旋区间，用若干拉伸 E2 线确定高斯磁子态布居的 \(\sigma/I\)。未见可分辨的自旋依赖，正文采用平均 \(0.25\pm0.02\)。角分布和 DCO 来自同一采集，正文将两种角量的结果综合出 \(-3.10^{+0.36}_{-0.44}\) 和 \(-0.22^{+0.05}_{-0.03}\)，以实测电性偏振排除小模解。定位为 PDF 2–3。此例的取向参数来源是同自旋区参照跃迁。
+
+本篇是 152-MeV EUROBALL IV 采集。[[jensen-2002-second-phonon-wobbling-163lu]] 的 157-MeV 采集约束 TSD3，且明确引用本篇 TSD2→TSD1 数值。引用的平均一声子强度比、自己的 476-keV 两声子候选连接及两项偏振覆盖应分别溯源。
+
 ## Paper Question and Scientific Motivation
 
 - Author-explicit motivation: establish whether the previously observed `163Lu` TSD2 band is a wobbling excitation built on TSD1 by finding connecting transitions and measuring their electromagnetic character (PDF pp.1-2).
