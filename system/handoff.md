@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Petrache 的 ¹³⁶Nd 出版版本与手征证据
+
+- [[petrache-2018-chiral-bands-even-even-136nd]] 对账 6 页出版主文，两份七页带封面重印本的正文文本与出版版逐页一致。核实 D5 的双带跃迁率比与 D3 的三维模型是不同证据对象。
+- 累计 87 份、8697 页主件。续读 [[lv-2019-chirality-135nd-reexamined]] 的馆藏预印本，并定位已有出版版缓存，重点对照 D3/D4 宇称和能级表异文。
+
 ## 2026-11-21 — 吕冰峰学位论文的 ¹³⁵,¹³⁶Nd
 
 - [[lv-bingfeng-2019-chirality-136nd-135nd-thesis]] 对账 164 页 PDF 的 154 页科研及书证范围。查明式 (4.6) 与实际 DCO 定义的倒数异文，并把表 5.1 的 750.7 keV \(R_{\rm DCO}\) 与 Lv 后刊 751 keV 的 \(R_{\rm ac},P,\delta\) 对上同一条线。补核附录和 \(^{138}\mathrm{Nd}\) 的 \(374(15)\) ns 焦平面对照。

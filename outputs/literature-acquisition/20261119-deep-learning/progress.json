@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.70675/f57289e9z254cz4460z8c9azdc1999dc53a9",
+  "active_source": "catalogue:LIT-000055",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -352,9 +352,10 @@
     "GUO20-ARXIV200710031-COMPLETE-SCIENTIFIC-SCOPE",
     "LV21-ND135-COMPLETE-SCIENTIFIC-SCOPE",
     "LV22-ND136-COMPLETE-SCIENTIFIC-SCOPE",
-    "LV19-ND-THESIS-COMPLETE-SCIENTIFIC-SCOPE"
+    "LV19-ND-THESIS-COMPLETE-SCIENTIFIC-SCOPE",
+    "PETRACHE18-ND136-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 86,
+  "completed_full_sources_this_run": 87,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 997,
@@ -362,14 +363,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T03:37:15.315215+00:00",
+  "updated_at": "2026-11-21T03:42:43.727424+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 8691,
-  "current_source_note": "knowledge/sources/lv-bingfeng-2019-chirality-136nd-135nd-thesis.md",
-  "next_action": "Read Petrache et al. 2018 PRC 97 041304(R) through the local six-page publisher copy, and reconcile the two publisher-article reprints.",
+  "completed_primary_pages_this_run": 8697,
+  "current_source_note": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+  "next_action": "Read Lv 2019 135Nd chirality reanalysis (PRC 100, 024314) and verify polarization and parity crosswalk with the doctoral thesis.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Lv 2019 thesis: actual DCO and all-angle ratio procedures, 750.7-keV predecessor record, RDT method and appendix.",
-  "current_source_scientific_acceptance": "154 of 164 primary PDF pages credited; 10 wrapper, acknowledgments and empty pages omitted. Alternate HAL wrapper not counted.",
-  "source_scoped_retrieval": "Two local HAL wrappers of the same thesis. No new download."
+  "last_source_manager_closure": "Petrache 2018: six-page publisher text, duplicate reprints, campaign identity and differing D5 experimental versus D3 theoretical support.",
+  "current_source_scientific_acceptance": "One work and six publisher pages credited; both seven-page wrappers reconciled.",
+  "source_scoped_retrieval": "Three local file identities. No new download."
 }

@@ -239,3 +239,9 @@ Day 25 学习主线对 Petrache 2018 原文及重印本进行了正式复核，�
 | PE18-D25-001 | 本篇仅D5/D5-C双方给误差内相近的B(M1)/B(E2)比；四弱伙伴缺自己的比，主带仍有部分比值。六qp为CDFT配置C解释，非直接实测qp数；比值不等于两带absoluteB或寿命。 | experimental-completeness-and-model-scope | direct-original-with-separate-model-layer | printed041304-3 Fig3 | true |
 | PE18-D25-002 | 三维推转 TAC-CDFT 仅在负宇称 D3（组态 $D^*$）上展示了频率 $\hbar\omega > 0.5\text{ MeV}$ 时的非共面旋转解（$\phi > 0$）；论文未展示其它四对的完整 3D 偏转解，不能将单一对的模型非共面性无条件推广至全核五对。 | model-scope-and-planar-limit | direct-original | PRC 97, 041304(R) PDF pp.4–6, Figs. 4, 6 | true |
 | PE18-D25-003 | MU08旧Band1/2低spin级联对应后来D4/D3主带，非各自新伙伴对。主要反证是逐跃迁E2强度不同，不能概括成总τ不对称直接证明不同shape；作者以配置交叉/混合解释并仍保手征振动可能，不否定正D5。 | competing-interpretation-and-identity-boundary | direct-original-and-limited-crosswalk | MU08 printed034311-4 TableII | true |
+
+## 2026-11-21 — 出版主件及 ¹³⁶Nd 同次测量谱系
+
+- 以 6 页出版 PDF 作为核读底本。两份 7 页重印本的规整文本相同，去掉各自封面后与 6 页版本逐页相同。原件分别保留哈希，学分按一篇六页登记。
+- 041304-2 的 \(^{100}\mathrm{Mo}(^{40}\mathrm{Ar},4n)\) 采集、152 MeV 束能和 \(5.1\times10^{10}\) 个 prompt fold≥3 事件与 [[lv-bingfeng-2019-chirality-136nd-135nd-thesis]] §4.1 对得上。本文说明 DCO、\(R_{\rm ac}\)、角分布与偏振不对称参与谱学指认，详细角关联分析留待 Ref. 34，未在正文给逐线 \(P,\delta\) 联合数据。[[lv-2022-transverse-wobbling-136nd]] 的 751 keV 联合分析是同次测量的后续结果。
+- 出版正文 041304-2 至 041304-5 保留实验与模型的两条证据链。D5/D5-chiral 是双方均给 \(B(M1)/B(E2)\) 的一对。Fig. 6 曲线是 D3 的 \(D^*\) 组态计算，在 \(\hbar\omega>0.5\) MeV 出现非零方位角。该计算未向其它四对提供同一项三维检验。

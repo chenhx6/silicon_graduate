@@ -6726,3 +6726,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — 吕冰峰学位论文的取角公式与 750.7 keV 行
 
 - 对账 154 页科研及书证范围，落实 750.7/751 keV 的原观测角色和 \(^{138}\mathrm{Nd}\) 焦平面半衰期算例。累计 86 份、8691 页主件。
+
+## 2026-11-21 — Petrache 的 ¹³⁶Nd 出版主件
+
+- 对账 6 页和两个重印本，复核 D5 伙伴带的实测比值和 D3 的模型非共面性。累计 87 份、8697 页主件。
