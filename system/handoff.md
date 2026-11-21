@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — Guo 的 \(^{131}\mathrm{Ba}\) 原实验与 E1 相对量
+
+- [[guo-2020-pseudospin-chiral-quartet-131ba]] 核定 6 页刊版。Fig. 5 的同母态相对 E1 用几何均值归一，与 Wang 使用的 E1 / 带内 E2 分母不同。保留与 Ding 的束靶、角组及事件计数对应。
+- 累计核定 211 份、11174 个主件 PDF 页。接续 [[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]] 的 E1 观测谱系。
+
 ## 2026-11-22 — \(^{131}\mathrm{Ba}\) 赝自旋模型的 E1 定标
 
 - [[continuation-g21-wang-2020-prc102-131ba-pseudospin-octupole]] 核定 6 页刊版。Fig. 3 的两点 \(D7\to D3\) E1/E2 由 Guo 实验引入并约束 \(\beta_3\)，保留局部敏感性与数据依赖。

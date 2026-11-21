@@ -7062,3 +7062,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — Wang 2020 的八极 E1 定标
 
 - 核定 6 页刊版。记录两个 Guo 2020 实验输入、选定的 β3 与局部 E1 敏感性。累计 210 份、11168 个主件 PDF 页。
+
+## 2026-11-22 — Guo 的 131Ba 原始 E1 归一
+
+- 核定 6 页刊版。区分同母态 E1 的几何均值归一与 Wang 的 E1/E2 对照，登记匹配的采集设置。累计 211 份、11174 个主件 PDF 页。

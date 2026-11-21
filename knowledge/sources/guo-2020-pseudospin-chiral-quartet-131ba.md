@@ -100,6 +100,8 @@ The experiment newly establishes D4 and D8 and significantly extends D3 and D5-D
 
 ## Competing Interpretations and Limitations
 
+The \(\beta_3=0.05\) used in this article's comparison of relative E1 branches from a common D7 parent (Fig. 5) should retain its own model identity. The figure normalizes each parent series to its geometric mean. The subsequent [[continuation-g21-wang-2020-prc102-131ba-pseudospin-octupole]] adopts \(\beta_3=0.02\) when calibrating on two D7→D3 E1 strengths relative to D7 intraband E2. Comparison must retain which denominator is used and which branch was used to choose the parameter. The \(^{131}\mathrm{Ba}\) setup in [[ding-2021-131ba-133ce-signature-splitting]] matches the reaction, target, GALILEO geometry and reported event total, and cites this work for experiment and analysis details.
+
 - The experimental four-band manifold is secure, but its decomposition into two chiral pairs and two pseudospin sectors is not uniquely defined by energy or links.
 - Common-configuration and pseudospin-component assignments rely on systematics, alignment exclusions and RAT-PRM wavefunctions.
 - The key chiral angular-momentum geometry is deferred; energy/`S(I)`/ratio similarity remains nonunique.
