@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000752",
+  "active_source": "catalogue:LIT-000500",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -359,9 +359,10 @@
     "MU08-ND136-COMPLETE-SCIENTIFIC-SCOPE",
     "PETRACHE19-BA130-COMPLETE-SCIENTIFIC-SCOPE",
     "CHEN19-BA130-COMPLETE-SCIENTIFIC-SCOPE",
-    "WANG20-BA130-COMPLETE-SCIENTIFIC-SCOPE"
+    "WANG20-BA130-COMPLETE-SCIENTIFIC-SCOPE",
+    "KONIGSHOFEN01-BA130-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 93,
+  "completed_full_sources_this_run": 94,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 997,
@@ -369,14 +370,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T04:05:34.353835+00:00",
+  "updated_at": "2026-11-21T04:09:04.305729+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 8733,
-  "current_source_note": "knowledge/sources/wang-2020-two-quasiparticle-wobbling-130ba.md",
-  "next_action": "Read locally held Konigshofen 2001 130Ba low-spin mixing ratios and distinguish its observables and alignment assumptions from the GALILEO high-spin study.",
+  "completed_primary_pages_this_run": 8736,
+  "current_source_note": "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+  "next_action": "Read Mukherjee 2022 72Se PRC 105 014322 for explicit alignment width, AD, polarization and original mixing ratios.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "130Ba: Petrache original and SI plus Chen and Wang model comparisons, including direct angular branch and error reporting.",
-  "current_source_scientific_acceptance": "Three works, 17 primary pages. Four official SI pages excluded from primary-page credit.",
-  "source_scoped_retrieval": "Publisher PDFs local. One cached official supplement archived, with no network reacquisition."
+  "last_source_manager_closure": "Konigshofen 2001 low-spin 130Ba: paired opening-angle ratios, sign and scope.",
+  "current_source_scientific_acceptance": "Three publisher pages credited. Source is a different experiment from GALILEO.",
+  "source_scoped_retrieval": "Local publisher file. No new download."
 }

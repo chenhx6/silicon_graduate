@@ -158,3 +158,9 @@ Spin/parity hypotheses, detector-pair efficiency corrections, Rose–Brink sign 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | KO01-D20-R135-1 | checkpoint146撤回旧认证；不据此恢复错误表值、跨态强度阶梯、硬阈值或完全闭合。请使用本页较早原件纠错与checkpoint146。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |
+
+## 2026-11-21 — 与高自旋在束测量的观测量对照
+
+- 出版正文 037302-1–3 全部对账。037302-1 的三个角是两光子开角，两个强度比共享 \(W(90^\circ)\)。采用级联中一条为纯 E2 的假设。原文未列线偏振 \(P\) 或束向取向宽度 \(\sigma/I\)。
+- 037302-2 Fig. 2 的 1003.3 keV 试例用两个开角比的共同相容区给 \(\delta=-4.5(4)\)。Table I 仍保留无法唯一确定的 483.5 keV 行以及受污染的星号强度。相对跃迁率依赖谱线分支和混合成分。
+- 本文为 Cologne 的 \(^{130}\mathrm{La}\) 离束衰变，与 [[petrache-2019-diversity-shapes-rotations-130ba]] 的 65 MeV GALILEO 在束高自旋数据是两次不同测量。

@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — ¹³⁰Ba 的低自旋离束角关联
+
+- [[konigshofen-2001-mixing-ratios-130ba]] 对账 3 页。用两个共享 \(W(90^\circ)\) 的开角比提取低自旋混合比，保留无唯一解与污染估值。该测量独立于同核 GALILEO 高自旋实验。
+- 累计 94 份、8736 页主件。续读 [[mukherjee-2022-shape-coexistence-octupole-72se]]，回核 \(^{72}\mathrm{Se}\) 角分布、偏振及直接给出的取向宽度。
+
 ## 2026-11-21 — ¹³⁰Ba 的角分布分支与两种模型
 
 - [[petrache-2019-diversity-shapes-rotations-130ba]] 的 7 页正文及 4 页 SI、[[chen-2019-transverse-wobbling-even-even]] 与 [[wang-2020-two-quasiparticle-wobbling-130ba]] 各 5 页已对账。Chen 的 S1′→S1 混合比据四角角分布的小 \(\chi^2\) 支取值。后两行未列 \(\delta\) 误差，文献未给该支路相应的实测 \(P\)。SI 从已核缓存归档。

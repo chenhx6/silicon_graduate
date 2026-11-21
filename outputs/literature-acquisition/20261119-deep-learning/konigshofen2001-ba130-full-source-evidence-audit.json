@@ -1,0 +1,29 @@
+{
+  "work_id": "catalogue:LIT-000500",
+  "raw_files": [
+    {
+      "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2001_Königshofen et al_Multipole mixing ratios in 130 Ba.pdf",
+      "sha256": "34428af79a8dcc3a7dc27a6a416c3fa556a2d37e763df76cb1218241f370a755",
+      "size": 52402,
+      "hash_basis": "fresh-hash",
+      "source_role": "original-or-verified-edition"
+    }
+  ],
+  "source_note": "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+  "primary_pdf_pages": 3,
+  "credited_primary_pages": 3,
+  "covered_sections": [
+    "PDF 1: 130La production and off-beam decay experiment; opening-angle matrices",
+    "PDF 2: Fig. 2 two-ratio branch and Table I numbers and ambiguity",
+    "PDF 3: level scheme, mixed-symmetry interpretation and bibliography"
+  ],
+  "visual_checks": [
+    2
+  ],
+  "evidence_gaps": [
+    "No physical linear polarization; a distinct source geometry from in-beam ADO and DCO.",
+    "18 unique numerical solutions; 483.5-keV ambiguity and contaminated intensity estimates retained."
+  ],
+  "reader": "Codex",
+  "PDM_run": false
+}

@@ -6742,3 +6742,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — ¹³⁰Ba 的原实验与模型
 
 - 对账 17 页主件及 4 页 SI，核对 S1′→S1 角分布的五条 \(\delta\) 与 PRM/PSM 复用关系。累计 93 份、8733 页主件。
+
+## 2026-11-21 — Königshofen 的 ¹³⁰Ba 混合比
+
+- 对账 3 页离束角关联原刊，核实纯 E2 伴线、两个开角比与多解边界。累计 94 份、8736 页主件。
