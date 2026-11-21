@@ -6758,3 +6758,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Zobel 取向方法
 
 - 对账 9+6 页，核查硒的伸展 E2 衰减、镓的入射束条件和馈入机制。累计 98 份、8772 页主件。
+
+## 2026-11-21 — Ionescu 与 Cejnar 的侧馈方法
+
+- 对账 9+19 页，核实侧馈宽度的原始定义及对同组角分布解的影响。累计 100 份、8800 页主件。

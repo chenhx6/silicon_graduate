@@ -131,3 +131,7 @@ Review note: C96-4/C96-5/C96-10 were the source's most important P0 items for NS
 | C96-D16-9 | [[yamazaki-1967-aligned-angular-coefficients]]原p3明确α可负，p7 2→2/L2给U2=−.21429。Day14的YA67-7已保存该反例；本session定向复核只新增与本文literal范围的对照，不把旧反例/旧49checks计新credit或独立实验。 | overlap-and-definition-crosscheck | primary-reinspection-and-provenance | YA67printedpp3/7；本页Eq6 | true |
 
 2026-10-19限定路线未得AvalancheI/II版本化代码、粒子transmission/grid、gamma-strength/leveldensity、discrete分界和compoundentry/各levelinput；本日自有CG程序不是原producer重放。元数据与正文/代码访问、数学定义核验与实测σ分别保留。不会修复/更换凭据、关闭SSL验证或联系作者来绕过这一边界。
+
+## 2026-11-21 — Fig. 7 的条件分支
+
+印刷 pp. 240–241 的两组曲线均使用 25 MeV \(^{110}\mathrm{Pd}(\alpha,2n\gamma){}^{112}\mathrm{Cd}\) 的 851.2 keV 角分布。\(\sigma=2.1(4)\) 是对应束能的侧馈区间，\(1.1(3)\) 是用来展示取向敏感度的对照。正文称前者可复现既报正的小模解，图中 \(J=2\) 仍有多个极小值。后者的负角极小值表示条件分支改变。两幅图共享原数据，宽度为侧馈分量的模型输入，不能直接当成本项目的归一宽度或两次独立测量。

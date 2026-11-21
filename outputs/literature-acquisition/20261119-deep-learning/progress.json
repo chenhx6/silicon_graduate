@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000792",
+  "active_source": "catalogue:LIT-000341",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -364,9 +364,11 @@
     "MUKHERJEE22-SE72-COMPLETE-SCIENTIFIC-SCOPE",
     "BISWAS26-SE80-COMPLETE-SCIENTIFIC-SCOPE",
     "ZOBEL80-ALIGNMENT-COMPLETE-SCIENTIFIC-SCOPE",
-    "ZOBEL83-ALIGNMENT-COMPLETE-SCIENTIFIC-SCOPE"
+    "ZOBEL83-ALIGNMENT-COMPLETE-SCIENTIFIC-SCOPE",
+    "IONESCU81-FEEDING-COMPLETE-SCIENTIFIC-SCOPE",
+    "CEJNAR96-SIDE-FEEDING-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 98,
+  "completed_full_sources_this_run": 100,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 997,
@@ -374,14 +376,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T04:29:19.238049+00:00",
+  "updated_at": "2026-11-21T04:35:51.444389+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 8772,
-  "current_source_note": "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
-  "next_action": "Read Ionescu 1981 improved angular-distribution analysis and compare the direct feeding and side-feeding treatment with Zobel.",
+  "completed_primary_pages_this_run": 8800,
+  "current_source_note": "knowledge/sources/cejnar-1996-spin-deorientation-alpha-2n-gamma.md",
+  "next_action": "Read Chiara et al. 2012, PRC 85 024309, for reference-line alignment and the 65Cu delta sensitivity example.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Zobel 1980/1983: 72Se attenuation controls, 67Ga reaction dependence, and statistical/reporting limits.",
-  "current_source_scientific_acceptance": "Two works, 15 primary pages; preserve reused source rows and condition-specific measurements.",
+  "last_source_manager_closure": "Ionescu/Cejnar: discrete feeding, calibrated side feeding, and conditional delta branches.",
+  "current_source_scientific_acceptance": "Two primary works, 28 publisher pages; simulation and source observations kept distinct.",
   "source_scoped_retrieval": "Existing publisher PDFs. No new download."
 }

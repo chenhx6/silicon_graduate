@@ -285,3 +285,7 @@ IO81-28–32补足R33最小两tensor问题之外的已见218.90支。原表头�
 [[angular-distribution]]“有限几何：共同响应、正布居与可行域”保存本任务另外声明的uniform-cone推导与精确控制。自选c=4/5的Q2/Q4、0.6/0.620394几何界及不同kernel的w1反例都是一般理论设计，不是本实验半径、响应、feeding量或置信度。
 
 Agent self-audit：本段IO81-33仍`needs_review: true`，legacy页面human-reviewed只保留原事件，不扩展到新增内容。核验source身份/hash、printed20图像与控制对象；实际detectorgeometry/energy response/原Ref6正文仍为可重放输入边界。Decision: **supports** 分别记录控制；**limits** 以isotropy/体积/距离直接认证higher-rank响应；无新实验采集或原fit重放。
+
+## 2026-11-21 — 同母态侧馈宽度和混合比分支
+
+印刷 pp. 24–26 的式 (9)–(11) 以母态总布居归一侧馈项和各离散馈入项。离散项的转移包含母态张量、去取向系数和转换订正后的强度。271.12 keV 的纯 E2 示例给相应侧馈宽度 \(4.10\pm0.09\)，Table 2 的混合线在各自竞争 E2 所许可的宽度区间内拟合。251.03 keV 的最低残差有多个自旋及混合比解释。仅看一个残差极小值仍需要附加判据，作者使用激发函数比较自旋，并把强度分支模型作为外部交叉检验。该分析以角分布为输入，原文未给线偏振 \(P\)。

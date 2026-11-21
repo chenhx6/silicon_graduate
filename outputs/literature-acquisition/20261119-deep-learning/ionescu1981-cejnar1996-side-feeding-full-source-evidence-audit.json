@@ -1,0 +1,64 @@
+{
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000341",
+      "raw_files": [
+        {
+          "path": "raw/papers/1996_Cejnar et al_Calculation of the spin deorientation in (α,2nγ) reactions.pdf",
+          "sha256": "47765ae583940610cf4b19bb53e727308719bc23a949c6cc1e76084f6dc0bccd",
+          "size": 1093831,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/cejnar-1996-spin-deorientation-alpha-2n-gamma.md",
+      "primary_pdf_pages": 19,
+      "credited_primary_pages": 19,
+      "covered_sections": [
+        "PDF 1–6: physical problem, Avalanche flow and transport formalism",
+        "PDF 7–12: Gaussian orientation diagnosis and extraction of side-feeding width",
+        "PDF 13–19: reactions, comparisons, width interval sensitivity for 851.2 keV and references"
+      ],
+      "visual_checks": [
+        17
+      ],
+      "evidence_gaps": [
+        "Both Fig. 7 panels use the same angular observations with different model width bounds.",
+        "The derived width is for side feeding and is not a direct normalized alignment or P measurement."
+      ],
+      "publication_independence": "Ionescu is a distinct 167Tm experiment; Cejnar cites the method and analyzes independently published Cd angular data."
+    },
+    {
+      "work_id": "catalogue:LIT-000475",
+      "raw_files": [
+        {
+          "path": "raw/papers/1981_Ionescu et al_Improved analysis of γ-ray angular distributions in (particle, xn) experiments.pdf",
+          "sha256": "233b11888d8143a17b89da3332afac1342803b35024ac2ec7708c7bd51d435f1",
+          "size": 606539,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+      "primary_pdf_pages": 9,
+      "credited_primary_pages": 9,
+      "covered_sections": [
+        "PDF 1–4: angular experiment, efficiency and pure/mixed-line tables",
+        "PDF 5–7: substate model, failure of total Gaussian, discrete feeding plus side feeding",
+        "PDF 8–9: interval-conditional delta branches, E1 assignments and references"
+      ],
+      "visual_checks": [
+        7,
+        8
+      ],
+      "evidence_gaps": [
+        "Pure E2 lines determine side-feeding width intervals for mixed fits.",
+        "Near-degenerate branches remain and require other evidence. No numerical P."
+      ],
+      "publication_independence": "Ionescu is a distinct 167Tm experiment; Cejnar cites the method and analyzes independently published Cd angular data."
+    }
+  ],
+  "credited_primary_pages": 28,
+  "reader": "Codex with earlier full-source audits reconciled",
+  "PDM_run": false
+}

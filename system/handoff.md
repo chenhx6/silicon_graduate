@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — 侧馈宽度与混合比分支
+
+- [[ionescu-1981-improved-angular-distribution-analysis-particle-xn]] 9 页与 [[cejnar-1996-spin-deorientation-alpha-2n-gamma]] 19 页已对账。核实同母态的纯 E2 宽度约束、侧馈和离散馈入的关系，以及 \(^{112}\mathrm{Cd}\) 同数据在不同宽度区间的分支差。
+- 累计 100 份、8800 页主件。续读 [[chiara-2012-cu65-cu67-core-coupled-protons]]，对照现代固定宽度数值及其参考跃迁选取。
+
 ## 2026-11-21 — Zobel 的硒参考线与束能扫描
 
 - [[zobel-1980-magnetic-substate-distributions]] 9 页与 [[zobel-1983-energy-projectile-alignment]] 6 页已对账。核实 \(^{72}\mathrm{Se}\) 两条伸展 E2 的取向衰减及采集条件，保留 \(^{67}\mathrm{Ga}\) 直接馈入变化、角分布和极化跨实验组合的适用条件。
