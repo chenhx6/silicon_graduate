@@ -74,6 +74,10 @@ High-spin states were populated in two separate ATLAS runs of the 116Cd(22Ne,4n)
 
 ## Analytical Reconstruction
 
+Table I gives the key D1→Band 2 line as \(703.4\) keV, \(11^+\to9^+\), with \(A_2=0.22(5)\), \(A_4=0.05(6)\) and \(R_{\mathrm{ac}}=1.12(8)\) (064305-7). It gives the D3→Band 9 line as \(1021.1\) keV, \(17^+\to16^+\), with \(A_2=-0.34(7)\), \(A_4=0.20(9)\) and \(R_{\mathrm{ac}}=0.73(6)\) (064305-8). The authors use these lines with the coincidence placement to argue for the positive parity of each band. The D1 decay discussion on 064305-2 contrasts the currently gated 664-keV link with an older transition assignment.
+
+On 064305-2 the list of D1 decays names Band 2 for 703 keV, while a later sentence on the same page names Band 1. Figure 1 places the 703-keV transition at the \(9^+\) Band 2 level. Sec. II also identifies this paper as the third report from the same measurement series and points to Refs. [9,19] for the common acquisition and analysis methods.
+
 The experimental chain is: high-fold Gammasphere coincidences -> level-scheme extension -> angular-distribution/Rac multipolarity and spin constraints -> linking and signature structure -> CNS comparison of energies, alignments and deformation. The shape and rotation-axis conclusions are therefore joint experiment-plus-model interpretations. In particular, a near-degenerate dipole pair or an alignment upbend is not by itself a wobbling or chiral observation.
 
 ## Competing Interpretations and Limitations

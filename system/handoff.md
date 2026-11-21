@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — \(^{134}\mathrm{Ce}\) 能级纲图的宇称锚点
+
+- [[petrache-2016-134ce-triaxiality-exotic-rotations]] 核定 18 页刊版。D1 的 703.4 keV E2 在 Fig. 1 落到 Band 2 的 \(9^+\)；D3 的 1021.1 keV 为 \(17^+\to16^+\) 混合连接。保留正文带号异文和论文的采集复用声明。
+- 累计核定 201 份、10963 个主件 PDF 页。接续 [[ayangeakaa-2016-133ce-in-beam]] 的相邻核谱学谱系。
+
 ## 2026-11-22 — \(^{129}\mathrm{Ba}\) 会议模型与刊版重分析
 
 - [[rouoof-dae68-129ba-tpsm]] 和 [[chakraborty-2024-possibility-wobbling-129ba]] 核定 2 与 5 页原件。会议文复用后者能级。365 keV 线的旧角量/偏振交集及重分析的 \(\delta\simeq-2.0\) 分别登记。

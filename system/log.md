@@ -7026,3 +7026,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — 129Ba 的模型与旧偏振/角量谱系
 
 - 核定 2 页会议文及 5 页刊版，保留软核讨论中的实验谱系与 365 keV 两种混合比结果。累计 200 份、10945 个已登记主件 PDF 页。
+
+## 2026-11-22 — 134Ce 的 D1/D3 宇称锚点
+
+- 核定 Petrache 等 18 页刊版，视觉追踪 D1 的 703 keV 终态与用于 D3 的 1021 keV 原表，并登记同采集系列。累计 201 份、10963 个主件 PDF 页。

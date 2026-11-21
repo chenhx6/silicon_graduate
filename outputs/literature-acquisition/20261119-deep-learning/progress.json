@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000626",
+  "active_source": "catalogue:LIT-000282",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -483,9 +483,10 @@
     "CH26-TR-WJ-BARE-CORE-AND-ODD-A",
     "CF22-SCS-MEASURE-AND-PUBLISHER-CORRECTION",
     "RT24-BA129-MODEL-SPECTRA-AXIS-LANGUAGE",
-    "CH24-BA129-365-LEGACY-AND-READOPTED-DELTA"
+    "CH24-BA129-365-LEGACY-AND-READOPTED-DELTA",
+    "PE16-134CE-GATED-PARITY-AND-SHARED-RUN"
   ],
-  "completed_full_sources_this_run": 200,
+  "completed_full_sources_this_run": 201,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -493,14 +494,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T16:45:16.498574+00:00",
+  "updated_at": "2026-11-21T16:58:04.327055+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10945,
-  "current_source_note": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
-  "next_action": "Reconcile the Petrache et al. 134Ce publisher original, focusing on levels, parity assignments and model-dependent triaxial interpretation.",
+  "completed_primary_pages_this_run": 10963,
+  "current_source_note": "knowledge/sources/ayangeakaa-2016-133ce-in-beam.md",
+  "next_action": "Reconcile the Ayangeakaa 2016 133Ce journal original with the thesis and the experimental series, preserving the band IDs and data-provenance boundaries.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "The Nomura author-version queue row is linked to the already-covered journal work; no additional work or page count.",
-  "current_source_scientific_acceptance": "Petrache 2016 134Ce scope queued.",
-  "source_scoped_retrieval": "Verified the existing Nomura author copy and kept the already-covered publisher record as primary."
+  "last_source_manager_closure": "Petrache 2016 134Ce journal original and corrected parity-link locators.",
+  "current_source_scientific_acceptance": "Ayangeakaa publisher PDF identified and SHA verified for continued reading.",
+  "source_scoped_retrieval": "Reused the local journal original."
 }

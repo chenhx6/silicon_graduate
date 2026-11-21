@@ -1,0 +1,27 @@
+{
+  "work_id": "catalogue:LIT-000626",
+  "recorded_at": "2026-11-21T16:58:04.327055+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+  "raw": {
+    "path": "raw/papers/2016_Petrache et al_Triaxiality and exotic rotations at high spins in Ce 134.pdf",
+    "sha256": "04ac0eb3179a6cb389c45f9df8b4b56d90edf43bcfd8ee9ffed20fb68c898b4d",
+    "size": 1092465,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "credited_primary_pages": 18,
+  "coverage": [
+    "064305-1–4: two acquisition settings, same-series provenance, extended spectrum and the level-scheme figures.",
+    "064305-5–10: Table I including angular observables and assignments, D1–D4 links and spectra.",
+    "064305-11–17: additional sequences and CNS model comparisons, parity/shape caveats.",
+    "064305-17–18: conclusions and references."
+  ],
+  "reader": "Previous full 18-page reading and current Codex original check of level diagram, Table I and acquisition text.",
+  "evidence_boundary": [
+    "Fig. 1 and Table I support the D1 703.4-keV link to band 2 and D3 1021.1-keV positive-parity link. A sentence disagrees on the D1 destination; retain its literal conflict.",
+    "The paper is stated to be a third report from the measurement series. Source dependence must be preserved even though two run setups are described.",
+    "Rotation-axis assignments and deformation estimates remain CNS model interpretations."
+  ],
+  "next_action": "Reconcile the Ayangeakaa 2016 133Ce journal original with the thesis and the experimental series, preserving the band IDs and data-provenance boundaries."
+}
