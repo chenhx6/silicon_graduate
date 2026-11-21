@@ -1,0 +1,83 @@
+{
+  "checked_at": "2026-11-21T19:05:27.626671+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "model_reasoning_requested": "high",
+  "provider_billable_usage": null,
+  "manager_scope": "Confirm first page, raw SHA-256, calibration formulae, key tables, benchmark dependence and claims with interpretations disproportionate to the evidence. Full reading from Gemini with prior Odd-Ba notes.",
+  "works": [
+    {
+      "task": "BA-NOMURA18-PUBLISHER",
+      "version": "arXiv:1711.09587v2",
+      "doi": "10.1103/PhysRevC.97.024317",
+      "pages": 11,
+      "scope": [
+        "PDF1–4: RHB DD-PC1 and sdf-IBFM, empirical charges and fits.",
+        "PDF5–9: even- and odd-mass systematics, Figs. 1–7, Tables IV–IX and model discrepancy.",
+        "PDF10–11: conclusion, outlook and references."
+      ],
+      "checks": [
+        "Both archive paths have the same bytes, matching version and pagination.",
+        "145Ba predicted B(E3)=25 and 31 W.u. verified in Table VI/text. 144Ba 23 W.u. is calculated, separate from cited Coulomb excitation.",
+        "147Ba 25% occupation shift is a sensitivity check. The calculated spectrum retains original occupations.",
+        "Do not accept universal claims about experimental odd-Ba octupole collectivity from these calculated wave functions."
+      ],
+      "gap": "Publisher typesetting not audited. Odd-Ba rate predictions await independent experiments. No new graph digitization.",
+      "work_id": "catalogue:LIT-000604",
+      "raw": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20261003-DAY5-beta-gamma-octupole-shape-coexistence/nomura-2018-odd-mass-ba-octupole.pdf",
+          "sha256": "4df5fce3696da1d019ea07111e064fe9704376f2f6c8b6bb33826cb61fa953be",
+          "size": 791515,
+          "hash_basis": "fresh-hash",
+          "source_role": "verified-arxiv-v2-author-version"
+        },
+        {
+          "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/nomura-2018-odd-ba-octupole-arxiv1711.09587v2.pdf",
+          "sha256": "4df5fce3696da1d019ea07111e064fe9704376f2f6c8b6bb33826cb61fa953be",
+          "size": 791515,
+          "hash_basis": "fresh-hash",
+          "source_role": "byte-identical-copy-of-primary-arxiv-v2"
+        }
+      ],
+      "source_notes": [
+        "knowledge/sources/nomura-2018-odd-mass-ba-octupole.md",
+        "knowledge/sources/nomura-2018-odd-ba-octupole.md"
+      ]
+    },
+    {
+      "task": "RA-NOMURA20-FULL",
+      "version": "arXiv:2008.08870v2",
+      "doi": "10.1103/PhysRevC.102.064326",
+      "pages": 15,
+      "scope": [
+        "PDF1–3: axial Gogny-D1M HFB and Fig. 1.",
+        "PDF4–6: mapped boson Hamiltonian and Figs. 2–3.",
+        "PDF7–10: bands, parity splitting, electromagnetic operator calibrations and Figs. 4–8.",
+        "PDF11–13: Tables and Figs. 9–10, benchmark lineage and conclusions.",
+        "PDF14–15: reference scope, without derivative reading credit."
+      ],
+      "checks": [
+        "PDF9 explicitly applies s1(N_B) and s2=0.33; PDF10 separately applies empirical E1 charge to 222Ra.",
+        "Table I 224Ra transitions and Fig. 10 links compared with local original. The plotted E2/E3 rates inherit the adopted effective charges.",
+        "Fig. 10 references Butler 2020, Gaffney 2013 and Wollersheim 1993 for different Ra isotopes.",
+        "Rejected worker expansion of PDM as permanent dipole moments. PDM in the project is the probability-space mixing ratio method and has not been run."
+      ],
+      "gap": "Publisher typesetting not audited. No PES digitization, original fit reproduction or uncertainty transfer.",
+      "work_id": "catalogue:LIT-000605",
+      "raw": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2020-nomura-ra-th-d1m.pdf",
+          "sha256": "c22d0422bcfb86d3f4e24a7f2012de8d6eadecec0ff264826c62d3eb44d3d4ec",
+          "size": 2022542,
+          "hash_basis": "fresh-hash",
+          "source_role": "verified-arxiv-v2-author-version"
+        }
+      ],
+      "source_notes": [
+        "knowledge/sources/nomura-2020-ra-th-gogny-d1m-octupole.md"
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 26
+}

@@ -27,8 +27,10 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000599",
-  "active_units": [],
+  "active_source": "catalogue:LIT-000077",
+  "active_units": [
+    "TH228-ENSDF-FULL"
+  ],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
     "SPEC-A01-MADIBA-2008",
@@ -509,9 +511,16 @@
     "BU16-144BA-ANGLE-GATES-AND-COULOMB-CONTROL",
     "BU17-146BA-E3-AND-WEAK-E1-CONSTRAINTS",
     "BE16-BA144-GCM-ENERGY-AND-E3-COMPARISON",
-    "BU20-RA-E2-COUPLING-AND-RELATIVE-PHASE"
+    "BU20-RA-E2-COUPLING-AND-RELATIVE-PHASE",
+    "RA-TH-ADOPTED-222RA",
+    "RA-TH-ADOPTED-224RA",
+    "RA-TH-ADOPTED-226RA",
+    "RA-TH-ADOPTED-226TH",
+    "XX19-AS74-THESIS-PUBLISHER-LINEAGE",
+    "BA-NOMURA18-PUBLISHER",
+    "RA-NOMURA20-FULL"
   ],
-  "completed_full_sources_this_run": 226,
+  "completed_full_sources_this_run": 232,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -519,14 +528,24 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T18:46:52.188149+00:00",
+  "updated_at": "2026-11-21T19:05:27.626671+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 11344,
+  "completed_primary_pages_this_run": 11407,
   "current_source_note": "knowledge/sources/nndc-ra-th-cluster-decay-adopted.md",
-  "next_action": "Reconcile the local Ra/Th ENSDF extract, separating adopted levels and normalization from original spectroscopy.",
-  "runtime_background_jobs_running": false,
+  "next_action": "Audit Epicurus TH228-ENSDF-FULL against PDF2–46 and keep ground-state branch and structure distinct.",
+  "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Butler 2020 Ra journal original, E2 coupling and fit phases.",
-  "current_source_scientific_acceptance": "Ra/Th ENSDF extract queued.",
-  "source_scoped_retrieval": "Used the archived journal PDF."
+  "last_source_manager_closure": "Nomura 2018 odd Ba and Nomura 2020 Ra/Th archived arXiv v2; common bytes deduplicated.",
+  "current_source_scientific_acceptance": "228Th PDF1 ground-state coverage confirmed; remaining pages dispatched.",
+  "source_scoped_retrieval": "Used existing ENSDF and arXiv records; no new download.",
+  "counting_scope": {
+    "scientific_reading_covered": 214,
+    "bounded_or_core_only_completed": 18,
+    "credited_pages_explicit_in_queue": 949,
+    "pages_carried_forward_from_previous_checkpoints": 10458,
+    "increment_this_checkpoint": {
+      "works": 6,
+      "pages": 63
+    }
+  }
 }

@@ -3,7 +3,7 @@ type: source
 title: "Xiao et al. 2022 - Chirality and octupole correlations in 74As"
 aliases: [Xiao 2022 74As chirality, 74As chiral doublet and octupole correlations]
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-11-22
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -74,7 +74,7 @@ The experiment identifies two positive-parity and one negative-parity `ΔI=1` ba
 
 This article and [[xiao-xiao-2019-high-spin-74as-thesis]] are the same iThemba LABS `74As` lineage, not independent experiments. The journal reports about `1.9×10^9` γ-γ coincidences and focuses on three `ΔI=1` bands, whereas the thesis reports about `6.17×10^9` γ-γ coincidences and summarizes 27 new γ transitions, 9 new levels, and two newly observed bands. The two statistics are kept as source-specific reported totals because the sources do not give a shared gate, selection, or subset definition.
 
-The positive-parity labels can be mapped directly: thesis Band 1/2 correspond to journal Band 1/2. The negative-parity labels cannot yet be mapped one-to-one. The thesis explicitly names the newly observed negative-parity band as Band 4 and treats Bands 3/4 as a pseudospin-partner candidate, while the journal uses a single negative-parity Band 3 for the three Band-3→Band-1 E1 links and the octupole-correlation discussion. Therefore the journal Band-3 octupole-correlation interpretation should not be copied back as the thesis conclusion for a specific thesis negative-parity band without a transition-level crosswalk.
+The positive-parity Band 1 and Band 2 labels map directly. Journal Band 3 retains selected links from both thesis negative-parity bands. The 798.7-keV \(9^-\to7^-\) and 828.7-keV \(12^-\to10^-\) links in journal Fig. 1 and Table I (PDF pp.2–3) correspond to the 798.7-keV thesis Band 3 and 828.8-keV thesis Band 4 links in Fig. 3.8 (thesis PDF p.34). The journal omits four \(\Delta I=1\) links reported for thesis Band 4. The three Band-3→Band-1 E1 links and octupole interpretation pertain to the revised journal scheme. The thesis discusses a pseudospin-partner candidate for its two negative-parity sequences.
 
 ## Experimental Setup
 

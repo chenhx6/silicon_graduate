@@ -66,6 +66,10 @@ The calculation separates three levels of claim: even-even Ba core surfaces with
 
 ## Competing Interpretations and Limitations
 
+The two archived filenames for this work contain byte-identical arXiv:1711.09587v2. The separate [[nomura-2018-odd-ba-octupole]] note describes the same model and paper. Cite the work once.
+
+In the author version, Table VI (PDF p.8) predicts \(B(E3;15/2_4^-\!\to9/2_1^+)=25\) W.u. and \(B(E3;19/2_2^-\!\to13/2_1^+)=31\) W.u. in 145Ba. These transitions were not measured in the paper. The comparison to the calculated 23 W.u. core transition in 144Ba uses the even-even calculation in Fig. 2, where the measured value is attributed to [[bucher-2016-144ba-direct-octupole]]. The absolute-scale comparison shares the adopted core \(E3\) effective charge specified in Sec. II. The 25% \(1h_{9/2}\) occupation reduction discussed for 147Ba in Sec. IV.B.3 is a sensitivity test. The production spectrum retains the original occupation.
+
 - The axial model cannot test gamma softness, gamma rigidity, or triaxial particle-core coupling.
 - Boson-fermion strengths are fitted to selected 145Ba spectra; 143Ba and 147Ba depend on assumed smooth parameter evolution.
 - The 147Ba ground-state spin mismatch remains; the authors' 25% occupation sensitivity check is not accepted as a justified refit.

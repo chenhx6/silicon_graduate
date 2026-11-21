@@ -3,7 +3,7 @@ type: source
 title: "肖骁 2019 硕士论文：奇奇核 74As 的高自旋态研究"
 aliases: [肖骁74As硕士论文, Xiao Xiao 74As high-spin thesis, 74As thesis]
 created: 2026-09-11
-updated: 2026-11-14
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: thesis-experiment
@@ -97,7 +97,9 @@ PDF17图内/图题的反应符号差异仅记字面校对问题，不推断原�
 
 The 2019 thesis and the 2022 PRC paper belong to the same iThemba LABS `74As` experiment lineage. The thesis reports approximately `6.17×10^9` γ-γ coincidences and summarizes 27 new γ transitions, 9 new levels, and two newly observed bands (abstract; physical PDF p.33 / printed p.25). The journal reports approximately `1.9×10^9` coincidences and a selected set of additions: five new Band-2 in-band transitions, five Band-2→Band-1 links, and four new cross-parity transitions at `372.4`, `774.9`, `919.4`, and `1293.4 keV` (journal PDF pp.3–5; Fig.1).
 
-The positive-parity labels are the only closed label-level mapping: thesis Band 1 ↔ journal Band 1 and thesis Band 2 ↔ journal Band 2. The thesis explicitly labels its newly observed negative-parity band as Band 4, while the journal uses one negative-parity Band 3 for the three E1 links to Band 1. The available text and the checked level-scheme pages do not establish a unique thesis Band 3/Band 4 ↔ journal Band 3 mapping. The journal's octupole-correlation interpretation therefore must not be back-projected onto either thesis negative-parity band as if it were the thesis conclusion.
+The positive-parity labels map directly: thesis Band 1 ↔ journal Band 1 and thesis Band 2 ↔ journal Band 2. The journal's negative-parity Band 3 includes selected links from both thesis sequences. In thesis Fig. 3.8 (physical PDF p.34, printed p.26), the 798.7-keV \(9^-\to7^-\) link lies in Band 3, while the 828.8-keV \(12^-\to10^-\) link lies in Band 4. Journal Fig. 1 and Table I (PDF pp.2–3) show both links under its Band 3, at 798.7 and 828.7 keV, respectively.
+
+The thesis reports the 434-keV, 473.9-keV, 562.0-keV and 742.2-keV \(\Delta I=1\) links in Band 4 (PDF p.27, printed p.19, with 434.0 keV in Fig. 3.8). The later Fig. 1 and Table I omit these links while retaining Band 4's 828.8-keV sequence member. This is a partial transition crosswalk. The thesis's pseudospin-candidate interpretation applies to its own two-band scheme, and the journal's octupole-correlation interpretation applies to its reworked scheme and E1 network.
 
 The `6.17×10^9` and `1.9×10^9` event totals are retained as lineage-specific reported statistics. The sources do not state a common gate, selection, or data-subset definition that would justify treating them as either identical totals or a demonstrated contradiction.
 

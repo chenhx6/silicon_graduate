@@ -23,5 +23,34 @@
     "19.8 keV connection is inferred below the experimental low-energy sensitivity threshold; Eq. (3.2) describes the relative intensity normalization.",
     "The journal and thesis have a common experiment lineage. Unmatched negative-parity band labels and the difference in reported event totals remain unmerged."
   ],
-  "next_action": "Verify Selvakumar 2015 124Cs publisher paper and its octupole/parity and chirality observables."
+  "next_action": "Verify Selvakumar 2015 124Cs publisher paper and its octupole/parity and chirality observables.",
+  "transition_crosswalk_20261122": {
+    "agent_task": "XX19-AS74-THESIS-PUBLISHER-LINEAGE",
+    "checked": [
+      "Thesis PDF p.27 and Fig. 3.8 (PDF p.34); journal Table I and Fig. 1 (PDF pp.2–3)."
+    ],
+    "matched": [
+      {
+        "thesis_band": 3,
+        "thesis_egamma_keV": 798.7,
+        "journal_band": 3,
+        "journal_egamma_keV": 798.7,
+        "transition": "9- -> 7-"
+      },
+      {
+        "thesis_band": 4,
+        "thesis_egamma_keV": 828.8,
+        "journal_band": 3,
+        "journal_egamma_keV": 828.7,
+        "transition": "12- -> 10-"
+      }
+    ],
+    "thesis_band4_delta_I1_absent_from_journal_figure_and_table_keV": [
+      434.0,
+      473.9,
+      562.0,
+      742.2
+    ],
+    "manager_decision": "Use the four-line omission finding with separate precision for text and scheme. Reject wholesale deletion of thesis Band 4 because the 828.8/828.7-keV link is retained. Treat the two coincidences totals as source-specific. No additional work/page credit."
+  }
 }

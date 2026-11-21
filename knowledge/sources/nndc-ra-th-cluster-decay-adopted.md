@@ -3,7 +3,7 @@ type: source
 title: "NNDC Ra–Th团簇衰变评价：14C/20O分支、总半衰期与226Th通道边界"
 aliases: [NNDC Ra Th cluster branching, Ra14C Th20O evaluated decay]
 created: 2026-10-29
-updated: 2026-10-29
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-nuclear-data
@@ -32,7 +32,7 @@ tags: [cluster-radioactivity, branching-ratio, evaluated-data, percentage-conver
 
 ## Scope and Reading Depth
 
-读取各核基态总半衰期、团簇分支、来源NSR码及限值注释：222Ra PDF2，其余核PDF1；226Th仅定向检查该表未给出团簇分支。没有把未列出解释为该通道物理上不可能，也没有宣称系统检索全部核数据后已证明零分支。
+读取各核基态总半衰期、团簇分支、来源NSR码及限值注释：222Ra PDF2，其余核PDF1。2026-11-22核对222Ra PDF1–11、224Ra PDF1–13、226Ra PDF1–8、226Th PDF1–5的评价历史、能级表、γ表及谱图。归一化、数据集代码和物理量溯源以相应数据表注释为准。228Th仍只核定PDF1的基态字段。226Th未列团簇分支应记为该评价中的缺项。
 
 ## Summary
 
@@ -48,6 +48,15 @@ tags: [cluster-radioactivity, branching-ratio, evaluated-data, percentage-conver
 | NCRT-4 | 228Th：总T1/2=1.9116(16) y；%20O=1.13(22)×10^-11，故b=1.13(22)×10^-13；引用1993Bo20。 | evaluated-decay-data | official-evaluated-object | 228Th Adopted PDF1 ground-state comments | true |
 | NCRT-5 | 226Th当前取得的Adopted基态记录仅列alpha，不提供20O分支的正测值；不能据此建立已正测的226Th20O实验基准。 | acquired-dataset-boundary | official-evaluated-object | 226Th Adopted PDF1 | true |
 | NCRT-6 | 用T_partial=T_total/b、1 y=365.25 d换算，222Ra/224Ra/226Ra的14C部分半衰期中心为1.120×10^11、7.844×10^15、1.578×10^21 s；228Th的20O为5.339×10^20 s。 | arithmetic-derived-from-evaluation | derived | NCRT1–4; source-keyed Python artifact | true |
+| NCRT-7 | 222Ra团簇分支注释列出三个 \(I(^{14}\mathrm C)/I(\alpha)\) 测量值：\(3.7(6)\times10^{-10}\)、\(3.1(10)\times10^{-10}\)、\(2.3(3)\times10^{-10}\)，分别源自1985Pr01、1985Ho21、1991Hu02。1991Hu02对通往208Pb 2614 keV \(3^-\) 终态的分支给出 \(2\times10^{-10}\%\) 的上限。 | evaluated-decay-data | official-evaluated-object | 222Ra Adopted PDF2, 0 keV comments | true |
+| NCRT-8 | 222Ra能级能量由 \(E_\gamma\) 最小二乘拟合。评价放大若干输入能量的不确定度后，约化 \(\chi^2\) 从4.9降至2.2。高于111.1 keV的表列寿命由库仑激发矩阵元和采纳的γ分支推导。评价说明表列 \(B(E1)\)、\(B(E2)\) 通常也由库仑激发矩阵元换算。 | evaluation-method | official-evaluated-object | 222Ra Adopted PDF2 preamble and PDF3 notes †, ‡ | true |
+| NCRT-9 | 222Ra γ表的 \(E_\gamma,I_\gamma\) 默认来自222Fr β衰变，标注@的条目来自 \(^{232}\mathrm{Th}(^{136}\mathrm{Xe},X\gamma)\)。多极性默认来自226Th α衰变的转换电子数据，BrIcc的 \(\alpha\) 值通常由能量、指派的多极性与混合比计算。能级图的强度定义为各能级的相对光子分支。 | evaluated-observable-definition | official-evaluated-object | 222Ra Adopted PDF7 notes ‡, #, @, & and PDF8–10 legends | true |
+| NCRT-10 | 224Ra的84.372(3) keV \(2^+\) 寿命采用值为0.748(19) ns，同一能级注释还列库仑激发所得 \(B(E2)\) 与 \(Q_2\) 并引用2013Ga23/2012GaZV。γ表多极性通常来自224Fr β衰变的转换电子数据。 | evaluation-method | official-evaluated-object | 224Ra Adopted PDF1, 84.372 keV entry, PDF8 note # | true |
+| NCRT-11 | 226Ra的基态带和 \(K=0\) 八极振动带的自旋宇称沿用库仑激发工作；γ表的相对光子强度来自226Fr β衰变、230Th α衰变及重离子反应。226Th的基态带 \(J\geq 8\) 与八极带 \(J\geq 7\) 的指派依赖重离子反应数据；γ表的默认能量来源是230U α衰变和226Ac β衰变。 | evaluated-data-lineage | official-evaluated-object | 226Ra Adopted PDF3 note & and PDF4 notes †, ‡; 226Th Adopted PDF2 note @ and PDF3 notes †, ‡ | true |
+
+## Source Dependencies
+
+222Ra PDF1的评价截止为2023-09-25，历史栏指向 *Nuclear Data Sheets* **192**, 315 (2023)。PDF2的 `2020Bu01` 矩阵元回链实测 [[butler-2020-222-228ra-octupole-evolution]]。同一矩阵元、评价变换的 \(B(E\lambda)\) 与由此求得的寿命属于一条证据链。PDF1资料综述列出的 `2020No13` 是 [[nomura-2020-ra-th-gogny-d1m-octupole]] 的理论计算。逐线使用 \(I_\gamma\) 前应读PDF4–7的来源注释及归一化。总跃迁强度还受内转换影响，多步库仑激发产额另有布居与级联依赖。
 
 ## Competing Interpretations and Limitations
 

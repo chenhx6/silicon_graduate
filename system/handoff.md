@@ -9033,3 +9033,16 @@ The result and raw toy CSV are now in the PADO package and public-release manife
 - Canonical proposal location: `raw/proposal/`, authorized for Git commit/push alongside existing raw exceptions. Task execution plans remain in `outputs/plans/`.
 - Moved three 20261101 drafts (131Xe, 133I and cross-mass detector/beam prospectus) without content changes; updated navigation and previous path references. All remain early drafts, with no scientific promotion.
 - Hash receipt: `outputs/self-tests/20261105-proposal-path-migration.json`. Stable publication pointer: `main / docs: move proposal drafts to raw proposal archive`.
+
+## 2026-11-22 — Ra/Th 评价与 74As 版本交叉核验
+
+- 馆藏目标仍为 active。四份分核素的 ENSDF Adopted PDF 核定完成，共 37 页。累计 230 份、11381 个主件 PDF 页。228Th 的 46 页文件仍只覆盖 PDF1 基态字段，待核 PDF2–46。
+- 222Ra γ 表保留逐线来源，评价换算的寿命和约化强度与原始库仑激发共享证据。74As 期刊 Band 3 保留学位论文 Bands 3/4 的部分跃迁，原件证据和 Gemini 回传的采纳边界已写入来源页及审计。
+- 同时派发 Gemini `agy-cli/gemini-3.8-flash` / `high` 主读 Nomura 2020 Ra/Th 和 Nomura 2018 奇质量 Ba。接续从实际回传、原件和任务范围对账，避免重派已回传或重复读稿。任务 ID 为 `RA-NOMURA20-FULL`、`BA-NOMURA18-PUBLISHER`。
+- 定向来源检查与全仓发布门分开。全仓预检仍报告两份 PDM 清单的四项 size/hash 错配，涉及 `run_benchmarks.py`、`statistics.py`。学习提交留本地。保留隔离另一会话的 Hamilton、PDCO 改动。
+
+## 2026-11-22 — Nomura 八极模型对账
+
+- Gemini 主读、Codex 核定 Nomura 2018 奇质量 Ba 和 Nomura 2020 Ra/Th 的本地 arXiv v2，共 26 页。奇质量 Ba 两个路径同字节只计一次。累计 232 份、11407 个主件 PDF 页。
+- 核对 145Ba 的预测 E3 与偶偶核芯尺度，Ra/Th 的有效电荷经验缩放及其库仑激发证据链。未采纳 Gemini 对本项目 PDM 缩写的误解。限定在作者版本和原文可定位证据。
+- 228Th 的 `TH228-ENSDF-FULL` 已派发 Gemini，续接先核实际回传的 PDF2–46 覆盖与数据依赖。PDM 全仓发布门仍失败，本地累计学习可独立推进。

@@ -1,0 +1,94 @@
+{
+  "checked_at": "2026-11-21T18:57:32.453324+00:00",
+  "source_note": "knowledge/sources/nndc-ra-th-cluster-decay-adopted.md",
+  "reader": "Codex checked the local evaluation worksheets while Gemini read model papers in parallel.",
+  "files": [
+    {
+      "work_id": "catalogue:LIT-000074",
+      "nuclide": "224Ra",
+      "literature_cutoff": "2022-03-08",
+      "pages": 13,
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/nndc-224ra-adopted-cluster-20261029.pdf",
+        "sha256": "e544808533a6ce62dda356319abc53a94f7954665043fc930346bef666db3e4b",
+        "size": 167627,
+        "hash_basis": "fresh-hash",
+        "source_role": "official-ensdf-adopted-dataset-pdf"
+      },
+      "pdf_scope": "PDF1–3 evaluation and levels; PDF4–8 gamma table and lineage; PDF9–12 relative photon scheme; PDF13 band plot.",
+      "full_adopted_object_covered": true
+    },
+    {
+      "work_id": "catalogue:LIT-000075",
+      "nuclide": "226Ra",
+      "literature_cutoff": "1996-02-01",
+      "pages": 8,
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/nndc-226ra-adopted-cluster-20261029.pdf",
+        "sha256": "34ddbf7044cfe56241e4dd2b7d21eb6a10048474bd07afe9691f0082e1d8ba65",
+        "size": 155530,
+        "hash_basis": "fresh-hash",
+        "source_role": "official-ensdf-adopted-dataset-pdf"
+      },
+      "pdf_scope": "PDF1–3 evaluation and levels; PDF3–4 gamma table and footnotes; PDF5–7 photon scheme; PDF8 band plot.",
+      "full_adopted_object_covered": true
+    },
+    {
+      "work_id": "catalogue:LIT-000076",
+      "nuclide": "226Th",
+      "literature_cutoff": "1996-02-01",
+      "pages": 5,
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/nndc-226th-adopted-cluster-20261029.pdf",
+        "sha256": "84f713c249876cbad2fdf7bfcc0b0431deb4873e985ef932894428bc13b6bee4",
+        "size": 94655,
+        "hash_basis": "fresh-hash",
+        "source_role": "official-ensdf-adopted-dataset-pdf"
+      },
+      "pdf_scope": "PDF1–2 evaluation and levels; PDF3 gamma table and footnotes; PDF4 photon scheme; PDF5 band plot.",
+      "full_adopted_object_covered": true
+    },
+    {
+      "work_id": "catalogue:LIT-000077",
+      "nuclide": "228Th",
+      "literature_cutoff": "2012-12-31",
+      "pages": 46,
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/nndc-228th-adopted-cluster-20261029.pdf",
+        "sha256": "48f209f67c9e165d840c9118aca78c103a1ed3269a6a413ba1344ec4b41adc74",
+        "size": 640568,
+        "hash_basis": "fresh-hash",
+        "source_role": "official-ensdf-adopted-dataset-pdf"
+      },
+      "pdf_scope": "PDF1 ground-state alpha and 20O branch; full level and gamma tables P2–24 and schemes P25–46 pending.",
+      "full_adopted_object_covered": false
+    },
+    {
+      "work_id": "catalogue:LIT-000599",
+      "nuclide": "222Ra",
+      "literature_cutoff": "2023-09-25",
+      "pages": 11,
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/nndc-222ra-adopted-cluster-20261029.pdf",
+        "sha256": "3a681f65303cbaa9bba9541dfc439d5155c55f276256121d43652d8dc7004042",
+        "size": 178531,
+        "hash_basis": "fresh-hash",
+        "source_role": "official-ensdf-adopted-dataset-pdf"
+      },
+      "pdf_scope": "PDF1 evaluation and literature; PDF2–3 levels and decay comments; PDF4–7 adopted gamma data and footnotes; PDF8–10 photon scheme; PDF11 band plot.",
+      "full_adopted_object_covered": true
+    }
+  ],
+  "credited_works": 4,
+  "credited_primary_pages": 37,
+  "checks": [
+    "222Ra yield, relative gamma branching and evaluator-converted strengths retain their distinct definitions.",
+    "222Ra 14C measured ratios and the 208Pb 3-minus limit retain their separate denominators.",
+    "NSR overlap with Butler Coulomb excitation and Nomura D1M calculation was documented.",
+    "Four completed objects each have a distinct nuclide and dataset entry. The 228Th file remains partial."
+  ],
+  "remaining": [
+    "Inspect 228Th PDF2–46 in its own queue entry.",
+    "Separate experimental-source reproduction from archival evaluation reading."
+  ]
+}
