@@ -7078,3 +7078,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — 74As 的 ADO 与偏振符号
 
 - 核定 Xiao 2022 的 9 页刊版，记录角比和不对称度对应的跃迁条件。累计 214 份、11206 个主件 PDF 页。
+
+## 2026-11-22 — 肖骁 2019 原件与低能推定连接
+
+- 核定 61 页硕士论文，记录 Eq. (3.2) 归一和 Fig. 3.5 的门谱。累计 215 份、11267 个主件 PDF 页。

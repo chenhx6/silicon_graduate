@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — 肖骁学位论文的门谱与期刊谱系
+
+- [[xiao-xiao-2019-high-spin-74as-thesis]] 核定 61 页当地馆藏本。保留 Fig. 3.5 对约 19.8 keV 未观察连接的推断和 Eq. (3.2) 效率校正。论文与期刊的负宇称带仍须按跃迁逐项对照。
+- 累计核定 215 份、11267 个主件 PDF 页。接续 [[continuation-g21-selvakumar-2015-prc92-124cs-octupole-chiral]]。
+
 ## 2026-11-22 — \(^{74}\mathrm{As}\) 的 ADO 与偏振定标
 
 - [[xiao-2022-chirality-octupole-correlations-74as]] 核定 9 页刊版。保留 \(A_p\) 的符号定标和 \(\Delta I=0\) 条件，三个 Band 3→1 E1 独立于低能 372.4 keV 连接。

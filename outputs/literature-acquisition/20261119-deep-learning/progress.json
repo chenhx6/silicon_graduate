@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000767",
+  "active_source": "catalogue:LIT-001057",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -497,9 +497,10 @@
     "GU20-131BA-SAME-PARENT-E1-NORMALIZATION",
     "L16-BR78-E1-AND-SPIN-DEPENDENT-DISPLACEMENT",
     "W19-BR78-RELATIVE-E1-AND-MODEL-RESIDUALS",
-    "XA22-AS74-ADO-ASYMMETRY-AND-SPIN-CHANGE"
+    "XA22-AS74-ADO-ASYMMETRY-AND-SPIN-CHANGE",
+    "XX19-AS74-THESIS-AND-MISSING-LOW-ENERGY-LINK"
   ],
-  "completed_full_sources_this_run": 214,
+  "completed_full_sources_this_run": 215,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -507,14 +508,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T17:56:49.295406+00:00",
+  "updated_at": "2026-11-21T18:03:38.930078+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 11206,
-  "current_source_note": "knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md",
-  "next_action": "Reconcile the Xiao 2019 thesis for 74As with the 2022 journal record, assigning shared experimental acquisition and thesis-only evidence.",
+  "completed_primary_pages_this_run": 11267,
+  "current_source_note": "knowledge/sources/continuation-g21-selvakumar-2015-prc92-124cs-octupole-chiral.md",
+  "next_action": "Verify Selvakumar 2015 124Cs publisher paper and its octupole/parity and chirality observables.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Xiao 2022 74As publisher original and calibration conditions.",
-  "current_source_scientific_acceptance": "Thesis original queued for reconciliation.",
-  "source_scoped_retrieval": "Reused the local publisher PDF."
+  "last_source_manager_closure": "Xiao 2019 61-page local thesis and missing gamma/gate conditions.",
+  "current_source_scientific_acceptance": "Selvakumar 2015 queued.",
+  "source_scoped_retrieval": "Used the local thesis and visually inspected method figures."
 }

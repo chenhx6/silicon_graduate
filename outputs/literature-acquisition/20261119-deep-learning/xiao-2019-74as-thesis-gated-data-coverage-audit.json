@@ -1,0 +1,27 @@
+{
+  "work_id": "catalogue:LIT-000767",
+  "recorded_at": "2026-11-21T18:03:38.930078+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/xiao-xiao-2019-high-spin-74as-thesis.md",
+  "raw": {
+    "path": "raw/theses/degree-dissertation/肖骁_奇奇核~(74)As的高自旋态研究.pdf",
+    "sha256": "bf0763004d98be5a540ab7802eb0baed7c11387224f1818426b891f5a3ef362b",
+    "size": 7700451,
+    "hash_basis": "fresh-hash",
+    "source_role": "verified-masters-thesis"
+  },
+  "credited_primary_pages": 61,
+  "coverage": [
+    "PDF 1–8: title, abstract, front matter and contents.",
+    "PDF 9–48: background, theory, reaction, coincidence and intensity/polarization methods, results, discussions and conclusions.",
+    "PDF 49–58: bibliography, as material in the primary file; cited works not read through this record.",
+    "PDF 59–61: appended non-scientific material, tracked as part of physical pagination."
+  ],
+  "reader": "Prior scientific full reading on local original plus Codex current version/page map and visual review of pp. 26–28.",
+  "evidence_boundary": [
+    "The local thesis is an MSc original scan. Key gate/normalization discussion visually checked on PDF 26–28.",
+    "19.8 keV connection is inferred below the experimental low-energy sensitivity threshold; Eq. (3.2) describes the relative intensity normalization.",
+    "The journal and thesis have a common experiment lineage. Unmatched negative-parity band labels and the difference in reported event totals remain unmerged."
+  ],
+  "next_action": "Verify Selvakumar 2015 124Cs publisher paper and its octupole/parity and chirality observables."
+}

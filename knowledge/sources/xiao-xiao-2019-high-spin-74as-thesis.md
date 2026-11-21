@@ -66,7 +66,7 @@ PDF17图内/图题的反应符号差异仅记字面校对问题，不推断原�
 设计建议与原论文物理结果分开，见[[doctoral-thesis-sample-reading-design-findings-20261108]]。
 
 - Completed `reading_depth`: `deep-read`。
-- Covered scope: 题名页、中英文摘要和目录（PDF pp.1–8）；`74As` 手征背景、反应选择和 Pace4/PACE2 产额估计（pp.9–22）；iThemba LABS 实验、AFRODITE/符合与多极性方法（pp.23–34）；能级纲图、新跃迁/新能级和两条新带（pp.35–42）；Bands 1–4 的手征判据、`S(I)`、`B(M1)/B(E2)`、组态和结论（pp.42–54）。题名、摘要、能级/手征判据页面已视觉核对。
+- Covered scope: 题名页、中英文摘要和目录（PDF pp. 1–8），理论和反应选择，以及正文的实验方法、能级纲图、谱学指认和组态比较。结论在参考文献起始页 PDF 49 之前，PDF 49–58 是参考文献，PDF 59–61 是附带材料。本轮视觉核对 PDF 26–28 的门谱、未见低能连接及强度归一式。
 - Not covered: 原始 γγ 矩阵、逐线事件级重建、未随论文提供的寿命数据和全部参考文献逐篇复核。
 - Coverage caveats: OCR 对 `74`、带号和轨道符号有损；带 3/4 的结论以论文正文明确的判据否定为准，不沿用旧摘要中“pseudospin 或 octupole candidate”的混合措辞。
 
@@ -90,6 +90,10 @@ PDF17图内/图题的反应符号差异仅记字面校对问题，不推断原�
 论文报告 27 条新跃迁、9 个新能级和两条新转动带。正文能级纲图总结段（物理 PDF p.33，印刷页码 p.25）明确把新带标为 thesis Band 2 和 Band 4；Band 1/2 为正宇称，Band 3/4 为负宇称。正宇称 Bands 1/2 由 `πg9/2⊗νg9/2` 组态和相近的实验 fingerprint 支持为一对手征候选。负宇称 Bands 3/4 虽有相近组态和能量讨论，但论文明确指出其 E2 连接过多、可观测 M1 跃迁随自旋序列不同，因而不满足手征判据，阶段结论应写为 pseudospin partner candidate，而不是手征双重带。论文没有寿命测量，因此 `B(M1)/B(E2)` 是相对强度/模型比较，不是直接寿命证据。
 
 ## Thesis–Journal Crosswalk
+
+印刷 p. 18（PDF 26）报告约 40 keV 的本实验低能观察限。作者用 147.0 和 305.3 keV 两个门谱中的伴随线论证低于此范围的连接。Fig. 3.5（印刷 p. 19，PDF 27）的 277.5、75.5、182.2 keV 峰支持 \(5^+\to4^+\) 间约 19.8 keV 的推定连接。该能量为符合与能级平衡推断，保持与直接观察到的 \(\gamma\) 线分开。
+
+同一印刷 p. 19 的 Eq. (3.2) 先按探测效率校正线面积，再按参考跃迁置为 100。带间比较时应保留这套参考归一及所用的总谱或门谱。
 
 The 2019 thesis and the 2022 PRC paper belong to the same iThemba LABS `74As` experiment lineage. The thesis reports approximately `6.17×10^9` γ-γ coincidences and summarizes 27 new γ transitions, 9 new levels, and two newly observed bands (abstract; physical PDF p.33 / printed p.25). The journal reports approximately `1.9×10^9` coincidences and a selected set of additions: five new Band-2 in-band transitions, five Band-2→Band-1 links, and four new cross-parity transitions at `372.4`, `774.9`, `919.4`, and `1293.4 keV` (journal PDF pp.3–5; Fig.1).
 
