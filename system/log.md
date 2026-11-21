@@ -6958,3 +6958,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — 二维集体量子化与概率平均电磁率
 
 - 对照 Chen 2016 与 Wu 2018 两份作者版，复核质量测度、局部率的两个 E2 通道和取向分布。累计 180 份、10616 个主件 PDF 页。
+
+## 2026-11-21 — 一维手征集体哈密顿量质量分支
+
+- 对照 Chen 2013 作者稿有限频率处方、实际数值分支和周期边界后继。累计 181 份、10632 个主件 PDF 页。

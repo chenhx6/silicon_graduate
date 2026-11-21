@@ -84,6 +84,10 @@ $$B=2\hbar^2\sum_{l\ne0}\frac{(E_l-E_0)\left|\partial_\varphi\boldsymbol\omega\c
 
 若B、V为偶函数且边界对称，最低非简并偶/奇态对任意φ奇乘法量f的期望均为零，来自偶测度下积分的奇性。取|L/R⟩=(|e⟩±|o⟩)/√2可构造偏向两井的相干组合；有限ΔE时相对相位以ΔE t/ℏ演化。此为本任务推断，不是原件给出的实验退相干/定态局域时间；不能把作者static regime改写成单个有限核能量本征态永久只占一手。
 
+### Mass prescription and box spectrum
+
+In the 16-page arXiv v2, pp. 6–7 Eqs. (22)–(23) discuss determining a finite \(\Omega\) for a locally harmonic single well. The calculations in p. 9 Sec. IV B specify \(\Omega=0\) for the chiral-rotation sector at \(\hbar\omega\geq0.20\) MeV, yielding Eq. (28). Figure 3 on p. 10 shows mass curves at \(0.25\)–\(0.50\) MeV. Figure 2 maps the potential at lower frequencies, where the paper supplies no solved nonzero \(\Omega\) or corresponding mass curves. Figure 4 on p. 11 uses the calculated mass and the box boundary of Eq. (26). Its finite doublet splitting comes from diagonalizing the collective Hamiltonian. The \(\Omega\) used in the mass formula is a separate quantity from that splitting. The periodic one-dimensional comparison of [[chen-2016-two-dimensional-collective-chiral-wobbling]] uses a different domain, with an even \(n=0\) basis term where Eq. (24) here uses only \(n\geq1\).
+
 ## Source Independence
 
 新方法原稿没有新实验。参数声明沿用[[frauendorf-meng-1997-tilted-rotation-chirality]]；PRM/TAC比较与[[qi-2009-135nd-particle-rotor-chirality]]、[[almehed-2011-chiral-vibrations-a135]]是理论谱系，不是多次独立135Nd采集。与[[olbratowski-2002-critical-frequency-preprint]]比较需保留不同组态/轴/参数、经典均匀转动和量子集体空间的差别。

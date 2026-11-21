@@ -1,0 +1,27 @@
+{
+  "work_id": "catalogue:LIT-000349",
+  "recorded_at": "2026-11-21T14:29:30.021152+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/chen-2013-collective-hamiltonian-chiral-modes.md",
+  "raw": {
+    "path": "raw/papers/2013_Chen_CollectiveHamiltonianChiralModes_arxiv12122313v2.pdf",
+    "sha256": "bef6182263a6282ea6c4fc3e2fbae481bbf629e484dbf9668e3ea9e622342a2c",
+    "size": 987932,
+    "hash_basis": "fresh-hash",
+    "source_role": "verified-official-arxiv-v2-reading-copy"
+  },
+  "credited_primary_pages": 16,
+  "coverage": [
+    "PDF 1–3: introduction and symmetry problem.",
+    "PDF 4–8: TAC Routhian minimization, Pauli mass and measure, basis, box boundary and fixed inputs.",
+    "PDF 8–15: Figs. 1–8, numerical mass and potentials, finite low doublet gap and PRM comparison.",
+    "PDF 15–16: conclusions and references."
+  ],
+  "reader": "Prior recorded full read, Gemini reported full arXiv v2 coverage, and Codex verified the original numerical branch, formula locators and version markings.",
+  "evidence_boundary": [
+    "The displayed rotation-sector calculation explicitly uses Omega=0 in the mass formula; the resulting quantized gap is finite.",
+    "The numerical implementation of the finite-Omega single-well prescription and its mass grid are not supplied in the author paper.",
+    "The comparison to the 2016 axis model also changes the domain of the one-dimensional reference. No common-input boundary-only comparison was extracted."
+  ],
+  "next_action": "Verify the Almehed–Frauendorf–Dönau 18-page author edition on A=135 chiral vibrations, with original TAC/RPA and data dependencies."
+}

@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — 一维手征集体哈密顿量的数值分支
+
+- [[chen-2013-collective-hamiltonian-chiral-modes]] 核定 16 页 arXiv v2。按原文区分用于质量的 \(\Omega=0\) 与盒内求出的有限双带劈裂。有限 \(\Omega\) 单阱处方保留为原文推导，附图未给对应质量网格。
+- 累计核定 181 份、10632 个已登记主件 PDF 页。接续 [[almehed-2011-chiral-vibrations-a135]] 的 TAC-RPA 参考态和失稳边界。
+
 ## 2026-11-21 — 二维集体质量与带内电磁率
 
 - [[chen-2016-two-dimensional-collective-chiral-wobbling]] 与 [[wu-2018-two-dimensional-collective-electromagnetic-transitions]] 核定本地 30 页、17 页作者版本。解析核对 \(w^{-1/4}\) 在重叠积分中的相消，与动能导数保留的质量项。区分 Wu 的两种 E2 自旋变化以及局部率与取向平均。
