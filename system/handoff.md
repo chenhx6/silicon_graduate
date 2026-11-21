@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — 自旋相干态版式与 Fig. 15 勘误
+
+- [[chen-2022-study-wobbling-spin-coherent-state-maps]] 核定 27 页刊版和 1 页勘误，确认当前馆藏图为替换图。对照 Eq. (31)–(32) 与 Chen 2026 附录的图轴和概率测度。
+- 累计核定 198 份、10938 个主件 PDF 页。勘误页作为独立文献身份登记并随主文使用，不从它新增学习计数。接续 [[rouoof-dae68-129ba-tpsm]]。
+
 ## 2026-11-22 — 软核摆动模型的核芯选择规则
 
 - [[campaign-g06-chen-2026-triaxial-softness-wobbling]] 核定 21 页刊版。保留偶偶 TR 的 Eq. (50)–(51)、奇质量核的两类带间跃迁以及 WJ 生成函数与形状概率。

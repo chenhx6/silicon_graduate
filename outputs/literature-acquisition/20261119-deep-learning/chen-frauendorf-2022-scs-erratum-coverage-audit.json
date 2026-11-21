@@ -1,0 +1,40 @@
+{
+  "work_id": "catalogue:LIT-000354",
+  "recorded_at": "2026-11-21T16:34:25.282073+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md",
+  "raw": {
+    "path": "raw/papers/2022_Chen_Frauendorf_Study of wobbling modes by means of spin coherent state maps.pdf",
+    "sha256": "ebe826198cf89f720478f0e525dd0b457b2c6eb227ae055de601b3cdd7c57a6b",
+    "size": 4248152,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version-with-corrected-Fig-15"
+  },
+  "linked_publisher_correction": {
+    "work_id": "catalogue:LIT-000023",
+    "doi": "10.1140/epja/s10050-022-00824-5",
+    "date": "2022-09-07",
+    "original_doi": "10.1140/epja/s10050-022-00727-5",
+    "physical_pages": 1,
+    "raw": {
+      "path": "raw/papers/2022_Chen_Frauendorf_Publisher Erratum.pdf",
+      "sha256": "d0bb7ad17dcac5be0442a0d37b58602b7e4eac01d321fc7bed88bfdec5b5ff82",
+      "size": 421522,
+      "hash_basis": "fresh-hash",
+      "source_role": "publisher-erratum-with-replacement-Fig-15"
+    }
+  },
+  "credited_primary_pages": 27,
+  "coverage": [
+    "Article PDF 1–7: SCS construction, triaxial rotor, measure and density.",
+    "Article PDF 8–18: PTR density matrices and 135Pr comparisons, including corrected Fig. 15.",
+    "Article PDF 19–27: further modes, transition-density maps, summary and references.",
+    "Publisher erratum PDF 1: correction identity and Fig. 15 replacement; visually compared with the main PDF."
+  ],
+  "reader": "Previously documented full article and erratum reading, checked by Codex visual and measure reconciliation.",
+  "evidence_boundary": [
+    "The original publisher note specifies that the wrong Fig. 15 appeared; the held article already shows the replacement.",
+    "State suffix 2 is a state index; the two-dimensional density and per-solid-angle density differ by sin theta. No new measurement or producer reconstruction."
+  ],
+  "next_action": "Verify the two-page Rouoof DAE proceedings on 129Ba and compare it to prior model and primary measurement files."
+}

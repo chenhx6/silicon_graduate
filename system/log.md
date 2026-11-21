@@ -7018,3 +7018,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — 三轴软核的两组概率分布
 
 - 核定 Chen 2026 的 21 页刊版，分别记录裸核芯选择规则与含准粒子的带间跃迁。累计 197 份、10911 个主件 PDF 页。
+
+## 2026-11-22 — SCS 原件与替换图
+
+- 核定 Chen–Frauendorf 的 27 页刊版和伴随勘误，现存刊版采用正确 Fig. 15。累计 198 份、10938 个主件 PDF 页。

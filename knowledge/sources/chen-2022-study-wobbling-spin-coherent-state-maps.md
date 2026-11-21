@@ -47,6 +47,8 @@ The paper develops a spin coherent state (SCS) representation for reading quantu
 
 The archived 27-page publisher PDF displays the replacement Fig. 15 from the one-page Publisher Erratum, DOI `10.1140/epja/s10050-022-00824-5`. A side-by-side visual check matched the four state rows and all three \(J,R,j\) columns. Use the corrected panel in local PDF p. 15. The suffix \(2\) on \(I_2\) denotes a state index at the given spin.
 
+On pp. 6–7, Eq. (31) incorporates \(\sin\theta\) so that Eq. (32) normalizes the plotted SCS map with \(d\theta\,d\varphi\). For a density per unit solid angle, divide \(P(\theta,\varphi)\) by \(\sin\theta\) away from the poles. Caution is needed when comparing the visual ridge location with a map of an azimuthal density that omits this factor. State and projection conventions accompany any comparison to [[campaign-g06-chen-2026-triaxial-softness-wobbling]] Appendix A, whose figure displays \(P/\sin\theta\).
+
 Full 27-page article read, including the SCS construction, triaxial-rotor test, PTR density matrices, `135Pr` calculations, signature-partner comparison, `163Lu` terminology discussion, transition-density maps and conclusions. The publisher erratum was read separately: it states that the wrong image appeared as Fig. 15 and that the original article was corrected. Not covered: new experimental data; the paper is theoretical and explicitly lists no associated data.
 
 ## Summary
