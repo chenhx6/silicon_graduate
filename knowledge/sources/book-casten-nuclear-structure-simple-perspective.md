@@ -12,7 +12,7 @@ title_original: "Nuclear Structure from a Simple Perspective"
 authors: ["R. F. Casten"]
 publisher: "Oxford University Press"
 year: 1990
-pages: "391 PDF pages; xiv + 371 numbered text/index pages"
+pages: "391 physical PDF pages; last printed index page 376"
 isbn: "0-19-504599-8"
 citation_key: casten1990
 language: en
@@ -42,17 +42,17 @@ tags: [books, nuclear-structure, collective-model, two-state-mixing, transition-
 ## Bibliographic Record
 
 本地原件为 Oxford University Press 1990 年第 1 版，共 391 个物理 PDF 页，
-正文及索引编号至 371 页（前置 roman 编号至 xiv）。
+索引最后一页为印刷 p.376（前置罗马页码至 xiv）。
 ISBN `0-19-504599-8`，Library of Congress 编号 `QC793.3.S8C37 1990`。
 版权页位于物理 PDF 5，已核对页面印刷。
 
 ## Scope and Reading Depth
 
-本页记录的是**有明确页码的选段深读与全书技能骨架**，不是全书已经逐页科学认证。
-全书目录和章节范围已通过本地 PDF 提取核对；公式、图、表和符号只有在相应页面
-渲染复核后才升级为直接证据。项目技能入口为
-`.agents/skills/casten-nuclear-structure/SKILL.md`，其中章节卡片保留当前覆盖
-状态和下一步定位。
+两版正文主线已经按章节对账，重点公式、图表和异文保留实际版次及定位符。初版十章共
+352 张正文页，二版十一章共 446 张正文页。整源阅读以二版为主件，初版提供改写前文本、
+独有的实验技术末章和版本比较，中文译本提供术语参照。前后书证页单列。可核查的科学
+证据以本页列出的原页及其对应结论为准。需要使用某条教材结论时，按
+`.agents/skills/casten-nuclear-structure/SKILL.md` 的主题入口定位并回查原页。
 
 ### Full chapter map
 
@@ -64,7 +64,7 @@ ISBN `0-19-504599-8`，Library of Congress 编号 `QC793.3.S8C37 1990`。
 | 4 Two-Particle Configurations | 67–108 | 82–123 | 章节对照：\(\delta\) 相互作用、配对、多极分解与粒子–空穴重耦合 |
 | 5 Multiparticle Configurations | 109–137 | 124–152 | 章节对照：m-scheme、CFP、seniority、配对间隙 |
 | 6 Collective Excitations | 141–246 | 156–261 | 选段深读：三轴性、γ 软性、IBM、NpNn |
-| 7 Nilsson Model | 247–270 | 262–285 | 选段复核：轨道几何、回避交叉、渐近量子数 |
+| 7 Nilsson Model | 247–270 | 262–285 | 章节对照：轨道几何、回避交叉、渐近量子数和奇核转动 |
 | 8 Nilsson Applications | 271–312 | 286–327 | 选段深读：Coriolis 与 rotation alignment |
 | 9 Microscopic Collective Vibrations | 313–331 | 328–346 | 选段复核：TDA/RPA、准粒子振动与模式系统学 |
 | 10 Experimental Techniques | 335–363 | 350–378 | 章节核对：库仑激发、ARC、转移反应、精密谱学与高自旋符合 |
@@ -179,8 +179,7 @@ $$H_{\text{cor}} = - \frac{\hbar^2}{2\mathcal{J}} (I_+ j_- + I_- j_+).$$
 ## Summary
 
 本书以直观模型把核力、泡利原理、壳模型、残余相互作用、集体运动、Nilsson–Coriolis
-耦合和实验技术连接起来。本页只把有明确页码并完成局部复核的内容记为直接来源，
-不把提取、章节卡或局部深读升级为全书完成。
+耦合和实验技术连接起来。直接证据以本页有原件定位的结论为准。
 
 ## Key Results
 
@@ -313,6 +312,18 @@ Fig. 4.7 用 \(^{40}\mathrm K(\pi d_{3/2}^{-1}\otimes\nu f_{7/2})\) 的选定 \(
 初版正文 PDF 124–152、印刷 pp.109–137，PDF 153 为空白。二版正文 PDF 159–188、印刷 pp.141–170。两版从 \(m\)-scheme 和母系分数系数进入 \(j^n\) 能级、矩阵元约化和 BCS 配对，再用 V、Ca、Nd 与 Pt 的例子比较模型量和谱学量。初版 PDF 136–137、二版 PDF 171–172 的 Eqs. (5.14)、(5.17) 将 \(\Delta v=2\) 强度的中壳峰值与 \(\Delta v=0\) 振幅的中壳零点分开。定 \(j\) 的数值控制写在 [[casten-shell-model-pairing-and-collectivity-foundations]]。
 
 二版 Fig. 5.8 的 \(^{195}\mathrm{Pt}(n,\gamma){}^{196}\mathrm{Pt}\) 光谱用初级线 \(7923\) 和 \(6100\) keV 给出 \(1823\) keV 能差。作者由 \(E_x\sim1.8\) MeV 附近可见谱线密度增加估计 \(2\Delta\) 的量级。这是依赖可达自旋宇称和探测阈值的谱学迹象。低于该尺度的若干集体态可由相干组态混合降能。见二版 PDF 187、印刷 p.169。初版相应读法见 PDF 151–152、印刷 pp.136–137。
+
+### 两版的 Nilsson 模型章
+
+初版 Ch.7 为 PDF 262–285、印刷 pp.247–270。二版 Ch.8 为 PDF 349–373、印刷 pp.331–355，前一页 PDF 348 仍属二版 Ch.7。二版以 Figs. 8.4、8.5–8.6 和 Table 8.2 把计算的轨道斜率／母组态与已有稀土奇核带头对照。相同 \(K^\pi\) 且有非零耦合的 \(f_{7/2}\) 与 \(h_{9/2}\) 分支出现回避交叉。沿能量曲线追踪时，主 \(j\) 分量可交换。\(i_{13/2}\) 的异宇称限制了所讨论主壳内的混合。邻壳的同宇称耦合仍应按实际截断核查。见二版 PDF 353–358。
+
+- 小轴向长形变下，Eq. (8.8) 对 \(j>1/2\) 给出与 \(3K^2-j(j+1)\) 同符号的一阶斜率。\(i_{13/2}\) 的翻转界为 \(K=\sqrt{j(j+1)/3}\simeq4.03\)，故 \(K=1/2,\ldots,7/2\) 下斜，\(K=9/2,\ldots,13/2\) 上斜。书中 \(0.65j\) 是粗示意，离散 \(K\) 应以精确括号判断。相应壳内一阶迹为零。二版 PDF 360、初版 PDF 273。
+- 大形变近似的轴向振子能量为 \(\hbar\omega_\perp(N-n_z+1)+\hbar\omega_z(n_z+1/2)\)。在固定 \(N\) 且忽略 \(l^2\) 与自旋–轨道项的极限下，由 \(n_z\) 决定分组。\(\Lambda,\Sigma\) 的分别守恒也依赖这一极限。二版 PDF 361–362 的 \(\Delta N=2\) 转移例中，作者转述的耦合约为 50–100 keV，且明确指出 \(\beta_4\) 可增强跨壳混合。该量级适用于书中所议轨道与反应解释。
+- §8.4 的实验室耦合要求 \(R=0\) 分量满足 \(j=J\)。这给零转动角动量核芯的转移通道一个筛选条件。有 \(j=J\) 分量时，绝对转移强度仍取决于占据、重叠和反应模型。见二版 PDF 370–373、初版 PDF 282–285。
+
+### 书前页与书末定位
+
+初版 PDF 6–8 为序言，PDF 12 为符号说明，PDF 14–15 为目录。参考文献和索引分别在 PDF 380–384 与 386–391。二版 PDF 2 为勘误，PDF 9–10 为新版序言，PDF 15–16 为符号说明，PDF 17–18 为目录。参考文献与索引分别在 PDF 471–477 和 479–481。序言和书目区分作者的解释路线与原始图表出处。被引实验仍按各自的来源页和原件认定。
 
 ## Sources
 

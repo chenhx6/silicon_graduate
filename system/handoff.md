@@ -3,6 +3,12 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Casten 的 Nilsson 原页与整源范围对账
+
+- [[book-casten-nuclear-structure-simple-perspective]] 补齐初版第 7 章及二版第 8 章的正文范围，核实小形变的 \(K\) 斜率、大形变的 \(n_z\) 分组和 \(R=0\) 转移条件。两版的序言、书目、索引和扫描页单独定位。
+- Casten 按一份作品计入累计。以二版 488 个物理 PDF 页为主件，其中 446 页为章节正文。初版及中文译本保留版本关系，页数不重复累加。累计 150 份、10244 个主件 PDF 页。
+- 下一项为 [[banik-2020-131xe-multiple-band-structures]] 的出版原件与证据范围核对。
+
 ## 2026-11-21 — Casten 两版第 2–5 章接续
 
 - [[book-casten-nuclear-structure-simple-perspective]] 补核两版早期壳模型章节。记录 Fig. 2.16 的 E2 方向和单位，初版两处 \(T_z\) 误植，以及两版 Fig. 4.7 的 \(^{38}\mathrm{Cl}/^{40}\mathrm K\) 轨道和重耦合符号证据。

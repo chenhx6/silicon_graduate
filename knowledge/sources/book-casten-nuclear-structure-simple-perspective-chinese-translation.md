@@ -13,7 +13,7 @@ authors: [Richard F. Casten]
 publisher: "Oxford University Press"
 year: 1990
 citation_key: "casten_1990_simple-perspective"
-pages: "391"
+pages: "369 physical PDF pages"
 canonical_source: "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md"
 library_file: "raw/books/translations/中译_Nuclear_Structure_From_A_Simple_Perspective.pdf"
 raw_file: "raw/books/translations/中译_Nuclear_Structure_From_A_Simple_Perspective.pdf"

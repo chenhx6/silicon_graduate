@@ -44,10 +44,11 @@ Casten 第 7、9 章把两个常被分开的层次连起来：
 
 ### Nilsson 轨道
 
-Casten 说明在轴对称形变下，低 \(K/j\) 的赤道型轨道通常随长椭形变下冲，
-高 \(K/j\) 的极轴型轨道通常上冲。相同 \(K\) 的近邻轨道会发生回避交叉并改变球形
-parentage；unique-parity 轨道由于宇称和能量隔离而较纯。原书定位为 physical PDF
-262–285 / printed pp. 247–270，重点为 printed pp. 247–256。
+Casten 的小轴向长形变结果以 \(3K^2-j(j+1)\) 控制 \(j>1/2\) 的一阶斜率。
+大形变轴向振子极限则按 \(n_z\) 分组。中间区须用同 \(K^\pi\) 轨道的耦合解释回避交叉
+及主 \(j\) 分量交换。异宇称和能量隔离有利于维持 unique-parity 轨道的纯度。在
+粒子–核芯基中，\(R=0\) 转移通道还要求 \(j=J\)。逐条原文定位见
+[[book-casten-nuclear-structure-simple-perspective]]，初版 PDF 262–285、二版 PDF 349–373。
 
 ### TDA/RPA 集体根
 
@@ -83,7 +84,7 @@ ratio、寿命、组态和模型波函数在共同响应下同时相容时，才
 
 ## Sources
 
-- [[book-casten-nuclear-structure-simple-perspective]]：Ch. 7，physical PDF 262–285 / printed pp. 247–270；Ch. 9，physical PDF 328–347 / printed pp. 313–331。
+- [[book-casten-nuclear-structure-simple-perspective]]：初版 Ch.7，PDF 262–285；Ch.9，PDF 328–346。二版 Ch.8，PDF 349–373；Ch.10，PDF 416–435。
 - [[nilsson-deformed-shell-model-dynamics]]：Wiki 的 Nilsson 计算和高自旋组态入口。
 - [[quasiparticle-random-phase-approximation-qrpa-dynamics]]：QRPA 扩展和微观响应边界。
 - [[low-spin-wobbling-gamma-soft-deformation-and-alternative-interpretations]]：wobbling 与 \(\gamma\)-soft/signature 竞争解释。

@@ -1,0 +1,232 @@
+{
+  "recorded_at": "2026-11-21T10:45:08.781980+00:00",
+  "status": "completed-source-reading-with-bounded-knowledge",
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000001",
+      "edition": "2000 second edition, ISBN 0-19-850724-0, 488 physical pages",
+      "raw": {
+        "path": "raw/books/Nuclear Structure From A Simple Perspective edition2 Casten.pdf",
+        "sha256": "a016501ba9897abd73c34d366b93bc4435d3e4d2154c3b949b4f541128a7013c",
+        "size": 24879710,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-book-edition"
+      },
+      "body_chapter_pdf_pages": {
+        "1": [
+          21,
+          47
+        ],
+        "2": [
+          48,
+          64
+        ],
+        "3": [
+          67,
+          115
+        ],
+        "4": [
+          116,
+          158
+        ],
+        "5": [
+          159,
+          188
+        ],
+        "6": [
+          191,
+          314
+        ],
+        "7": [
+          315,
+          348
+        ],
+        "8": [
+          349,
+          373
+        ],
+        "9": [
+          374,
+          415
+        ],
+        "10": [
+          416,
+          435
+        ],
+        "11": [
+          436,
+          470
+        ]
+      },
+      "body_pages": 446,
+      "front_dividers_and_scan_leaves": [
+        [
+          1,
+          20
+        ],
+        [
+          65,
+          66
+        ],
+        [
+          189,
+          190
+        ],
+        [
+          478,
+          478
+        ],
+        [
+          482,
+          488
+        ]
+      ],
+      "references_and_index": [
+        [
+          471,
+          477
+        ],
+        [
+          479,
+          481
+        ]
+      ],
+      "physical_pages": 488,
+      "credited_primary_pages": 488,
+      "nature_of_coverage": "Chapter-by-chapter narrative with targeted checks of consequential figures, formulae and variants. Bibliography and index are documentary scope."
+    },
+    {
+      "work_id": "catalogue:LIT-000305",
+      "raw": {
+        "path": "raw/books/translations/中译_Nuclear_Structure_From_A_Simple_Perspective.pdf",
+        "sha256": "d41d50c04e85c202632d61cbd8f13164bb8b5c1a239625dbb3c00266bb22335e",
+        "size": 15657827,
+        "hash_basis": "fresh-hash",
+        "source_role": "translation-derivative; original-reading-not-duplicated"
+      },
+      "physical_pages": 369,
+      "credited_primary_pages": 0,
+      "nature_of_coverage": "Derivative identification only."
+    },
+    {
+      "work_id": "catalogue:LIT-000306",
+      "edition": "1990 first edition, ISBN 0-19-504599-8, 391 physical pages",
+      "raw": {
+        "path": "raw/books/Nuclear Structure From A Simple Perspective Casten.pdf",
+        "sha256": "9028649fb9fad55d6d624b88ef8bf8487e8462c07596d9a42bd6117552fa3ea9",
+        "size": 21071577,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-book-edition"
+      },
+      "body_chapter_pdf_pages": {
+        "1": [
+          18,
+          42
+        ],
+        "2": [
+          43,
+          58
+        ],
+        "3": [
+          62,
+          81
+        ],
+        "4": [
+          82,
+          123
+        ],
+        "5": [
+          124,
+          152
+        ],
+        "6": [
+          156,
+          261
+        ],
+        "7": [
+          262,
+          285
+        ],
+        "8": [
+          286,
+          327
+        ],
+        "9": [
+          328,
+          346
+        ],
+        "10": [
+          350,
+          378
+        ]
+      },
+      "body_pages": 352,
+      "front_dividers_and_scan_leaves": [
+        [
+          1,
+          17
+        ],
+        [
+          59,
+          61
+        ],
+        [
+          153,
+          155
+        ],
+        [
+          347,
+          349
+        ],
+        [
+          379,
+          379
+        ],
+        [
+          385,
+          385
+        ]
+      ],
+      "references_and_index": [
+        [
+          380,
+          384
+        ],
+        [
+          386,
+          391
+        ]
+      ],
+      "physical_pages": 391,
+      "credited_primary_pages": 0,
+      "nature_of_coverage": "Chapter-by-chapter narrative with targeted checks of consequential figures, formulae and variants. Bibliography and index are documentary scope."
+    }
+  ],
+  "reader": "Codex and reuse of earlier verified reading records. Gemini route blocked on prior HTTP 403.",
+  "new_nilsson_images": {
+    "first_edition": [
+      273
+    ],
+    "second_edition": [
+      360,
+      361,
+      362
+    ]
+  },
+  "primary_basis": {
+    "work_count": 1,
+    "primary_edition": "2000",
+    "physical_pdf_pages": 488,
+    "main_body_pdf_pages": 446
+  },
+  "limits": [
+    "No counts for the companion 1990 edition or translation.",
+    "Scientific confidence belongs to the located claims, not a chapter/index page badge.",
+    "References are located, individual cited papers remain separate."
+  ],
+  "totals": {
+    "completed_full_sources_this_run": 150,
+    "completed_primary_pages_this_run": 10244
+  },
+  "next_action": "Reconcile the locally archived Banik 2020 publisher PDF on 131Xe; focus on the Nilsson and Coriolis interpretation boundary and claim locators."
+}

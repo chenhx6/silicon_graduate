@@ -6874,3 +6874,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Casten 两版壳模型基础章对账
 
 - 核读两版 Chs. 2–5，完成 E2 单位、同位旋排印、粒子–空穴多重态和 seniority 的定向原页核查。两版教材仍部分覆盖。
+
+## 2026-11-21 — Casten Nilsson 章及版本闭环
+
+- 核对两版 Nilsson 章和书证页。Casten 按一份作品计，主件采用二版的 488 个物理页。累计 150 份、10244 个主件 PDF 页。

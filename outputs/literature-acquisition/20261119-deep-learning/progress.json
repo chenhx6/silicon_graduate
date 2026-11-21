@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000001",
+  "active_source": "catalogue:LIT-000287",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -431,9 +431,11 @@
     "CASTEN90-00-LANDSCAPE-E2-NORMALIZATION",
     "CASTEN90-00-SINGLE-PARTICLE-ISOSPIN",
     "CASTEN90-00-TWO-PARTICLE-PANDYA",
-    "CASTEN90-00-SENIORITY-PAIRING"
+    "CASTEN90-00-SENIORITY-PAIRING",
+    "CASTEN90-00-NILSSON-COMPARE",
+    "CASTEN-EDITIONS-READING-RECONCILED"
   ],
-  "completed_full_sources_this_run": 149,
+  "completed_full_sources_this_run": 150,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1000,
@@ -441,14 +443,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T10:31:05.946803+00:00",
+  "updated_at": "2026-11-21T10:45:08.781980+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 9756,
-  "current_source_note": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
-  "next_action": "Compare first-edition Ch.7 and expanded second-edition Ch.8 Nilsson model, then reconcile remaining textbook coverage.",
+  "completed_primary_pages_this_run": 10244,
+  "current_source_note": "knowledge/sources/banik-2020-131xe-multiple-band-structures.md",
+  "next_action": "Reconcile the locally archived Banik 2020 publisher PDF on 131Xe; focus on the Nilsson and Coriolis interpretation boundary and claim locators.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Casten Chs. 2–5 editions compared, with original labels, E2 units, isospin errata, recoupling figure and seniority formula checks.",
-  "current_source_scientific_acceptance": "Eight chapter ranges checked in two editions; partial textbook credit only. Completed corpus works/pages remain 149/9756.",
-  "source_scoped_retrieval": "Reused local books; verified Pandya bibliographic identity only through publisher-deposited Crossref metadata. No new PDF retrieved."
+  "last_source_manager_closure": "Casten chapter coverage, front/end matter, 1990/2000 identity and derivative accounting.",
+  "current_source_scientific_acceptance": "One textbook work credited using 488 physical PDF pages of the 2000 edition. It contains 446 chapter pages. The same work’s 1990 edition and Chinese translation receive no duplicate work or page credit.",
+  "source_scoped_retrieval": "Reused local Casten editions and derivative; no new PDF downloaded."
 }
