@@ -6942,3 +6942,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Dy/Yb 推转 RPA 证据范围
 
 - 完成 Kvasil–Nazmitdinov arXiv v1 物理页 1–17 的覆盖确认。盘点冗余模、摆动识别与两类 E2 数据来源，累计 174 份、10505 个主件 PDF 页。
+
+## 2026-11-21 — Hamamoto 两篇高 j 顺排计算
+
+- 核定 8 与 5 页刊版。记录流体惯量互换、固定惯量拟合的平均带间能隙及两声子分支的原实验文献。累计 176 份、10518 个主件 PDF 页。

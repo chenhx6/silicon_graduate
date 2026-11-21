@@ -1,0 +1,47 @@
+{
+  "recorded_at": "2026-11-21T13:50:23.193670+00:00",
+  "status": "scientific-reading-covered",
+  "reader": "Gemini 3.8 Flash reported full original page reading, accepted in combination with earlier full-read records and manager targeted verification.",
+  "completed_works": [
+    {
+      "work_id": "catalogue:LIT-000445",
+      "unit_id": "H02-AXIS-EXCHANGE-AND-RMS",
+      "source_note": "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md",
+      "raw": {
+        "path": "raw/papers/2002_Hamamoto_Wobbling excitations in odd- A nuclei with high- j aligned particles.pdf",
+        "sha256": "e9e5acd9cf3c05b58a1d0ba160d10089607a884a69c143990323d7499acc273f",
+        "size": 147926,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "printed_pages": "044305-1–8",
+      "credited_primary_pages": 8,
+      "coverage": "Existing full read and Gemini reported PDF 1–8, single-j particle–rotor calculation, signature bands, E2/M1, examples for three gamma regions and references.",
+      "manager_check": "044305-2 Eqs. (2), (7)–(8) visually confirmed the exchanged hydrodynamical inertias, and RMS definitions.",
+      "evidence_boundary": "Dominant rotation and alignment about the short axis follow from the chosen interchanged moments. Comparison uses cited spectroscopy."
+    },
+    {
+      "work_id": "catalogue:LIT-000446",
+      "unit_id": "H03-FITTED-AVERAGE-GAP-AND-DECAY-LINEAGE",
+      "source_note": "knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md",
+      "raw": {
+        "path": "raw/papers/2003_Hamamoto_Hagemann_Quantized wobbling excitations with alignments.pdf",
+        "sha256": "47e9858d2cd772b8383179a14fc8df196f93e08f557e8fdb856a98ef5e1170b9",
+        "size": 83291,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "printed_pages": "014319-1–5",
+      "credited_primary_pages": 5,
+      "coverage": "Existing full read and Gemini reported PDF 1–5, boson expansion, selected model, band scheme, three ratio plots and references.",
+      "manager_check": "014319-3 Eq. (14), Fig. 1 and the computed gap paragraph; 014319-4 Figs. 2–4 and 014319-5 refs. [4] and [6].",
+      "evidence_boundary": "Positive gamma is shared with H02 but the adopted inertias differ. Fig. 2 uses Ødegård 2001; Figs. 3–4 use Jensen 2002 PRL. The 45/2 two-to-one result is a single-spin comparison."
+    }
+  ],
+  "credited_primary_pages": 13,
+  "manager_corrections": [
+    "H03 p.3 Eq. (14) prints tan-squared, not cot-squared.",
+    "Use 014319-5 ref. [4] Ødegård 2001 for Fig. 2, not Jensen NPA or PRL. Refs. [6] in Figs. 3–4 reuse Jensen 2002 PRL. Do not adopt unverified graph-read strengths or universal model conclusions."
+  ],
+  "next_action": "Reconcile the 26-page Frauendorf 2024 arXiv v1 review, building on the targeted axes, RPA configuration, and TPSM-calibration checks. Follow existing original-source links."
+}

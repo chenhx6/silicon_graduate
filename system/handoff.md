@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Hamamoto 的顺排轴与 \(^{163}\mathrm{Lu}\) 两声子对照
+
+- [[hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles]] 保留流体惯量的两轴互换及 \(R_x\) 的 RMS 定义。[[hamamoto-2003-quantized-wobbling-excitations-alignments]] 保留拟合平均带间能隙的自旋窗、分支比 Eq. (14) 与 Figs. 2–4 的原实验谱系。
+- 累计核定 176 份、10518 个主件 PDF 页。接续 [[frauendorf-2024-wobbling-review]] 的章节覆盖。Gemini 主读中。
+
 ## 2026-11-21 — \(^{156}\mathrm{Dy}\) 与 \(^{162}\mathrm{Yb}\) 的 CRPA 模式识别
 
 - [[kvasil-2006-dy156-yb162-crpa-wobbling]] 补读 17 页 arXiv 原件中的对称性、冗余转动模和 E2/M1 分支。区分 \(^{162}\mathrm{Yb}\) 约 0.32 MeV 的模型模态识别与约 0.28 MeV 的计算 E2 分支变化。刊版关系仍待原件配对。

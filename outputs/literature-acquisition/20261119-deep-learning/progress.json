@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000445",
+  "active_source": "catalogue:LIT-000412",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -457,9 +457,11 @@
     "FC18-ACCEPTED-COMMENT-INERTIA-AND-CITATION",
     "LAW20-AMPLITUDE-CONDITION-COMPARISON",
     "TR18-REPLY-RMS-AND-PR-STABILITY",
-    "KN06-CRPA-REDUNDANT-MODE-AND-DECAYS"
+    "KN06-CRPA-REDUNDANT-MODE-AND-DECAYS",
+    "H02-AXIS-EXCHANGE-AND-RMS",
+    "H03-FITTED-AVERAGE-GAP-AND-DECAY-LINEAGE"
   ],
-  "completed_full_sources_this_run": 174,
+  "completed_full_sources_this_run": 176,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -467,14 +469,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T13:36:18.510132+00:00",
+  "updated_at": "2026-11-21T13:50:23.193670+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10505,
-  "current_source_note": "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md",
-  "next_action": "Cross-check the local Hamamoto 2002 paper against the restored odd-A frozen-alignment domain and compare its quantization/transition arguments to Hamamoto–Hagemann 2003.",
+  "completed_primary_pages_this_run": 10518,
+  "current_source_note": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+  "next_action": "Reconcile the 26-page Frauendorf 2024 arXiv v1 review, building on the targeted axes, RPA configuration, and TPSM-calibration checks. Follow existing original-source links.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Kvasil–Nazmitdinov 17-page arXiv v1 CRPA reading and mode/decay lineage.",
-  "current_source_scientific_acceptance": "Existing source page; prior full reading and specific comparison are next to reconcile.",
-  "source_scoped_retrieval": "Reused the SHA-verified local arXiv author PDF. No new source acquired for reading."
+  "last_source_manager_closure": "Hamamoto 2002 and Hamamoto–Hagemann 2003 coverage and reuse of Lu lines verified.",
+  "current_source_scientific_acceptance": "PDF 8 and 20–23 locally cross-checked; remaining mainline coverage assigned to Galileo.",
+  "source_scoped_retrieval": "Reused two SHA-verified publisher originals. No new download."
 }
