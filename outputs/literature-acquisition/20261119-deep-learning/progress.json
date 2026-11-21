@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000459",
+  "active_source": "catalogue:LIT-000723",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -468,9 +468,10 @@
     "AL11-TAC-RPA-MODE-AND-2QP-REFERENCES",
     "FM97-TAC-CHIRALITY-PRIMARY-LINEAGE",
     "PE96-134PR-BAND-LINKS-AND-DCO",
-    "ST01-ISOTONE-TIMING-AND-134PR-DEPENDENCE"
+    "ST01-ISOTONE-TIMING-AND-134PR-DEPENDENCE",
+    "HE01-136PM-138EU-ACQUISITION-AND-POLARIZATION"
   ],
-  "completed_full_sources_this_run": 185,
+  "completed_full_sources_this_run": 186,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -478,14 +479,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T14:52:26.240738+00:00",
+  "updated_at": "2026-11-21T14:58:19.729271+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10692,
-  "current_source_note": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
-  "next_action": "Verify the full Hecht 2001 4-page publisher paper, compare 136Pm acquisition with Starosta, and trace bandhead assignments and 138Eu data separately.",
+  "completed_primary_pages_this_run": 10696,
+  "current_source_note": "knowledge/sources/tonev-2007-134pr-dynamic-chirality.md",
+  "next_action": "Reconcile Tonev et al. on dynamic chirality in 134Pr, especially lifetime fitting and the spectra used for comparative transition strengths.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Petrache 1996 and Starosta 2001 134Pr comparison lineage and experiment-specific gates.",
-  "current_source_scientific_acceptance": "Hecht 2001 local 4-page publisher file verified by SHA. Existing full-read record to reconcile.",
-  "source_scoped_retrieval": "Reused two previously held journal PDFs. No new sources downloaded."
+  "last_source_manager_closure": "Hecht 2001 publisher text and its two acquisition chains.",
+  "current_source_scientific_acceptance": "Tonev local 26-page file verified for hash, version and coverage reconciliation pending.",
+  "source_scoped_retrieval": "Reused local Hecht original, no new downloads."
 }

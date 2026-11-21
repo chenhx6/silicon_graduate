@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Hecht 的 \(^{136}\mathrm{Pm}\) 与 \(^{138}\mathrm{Eu}\) 采集
+
+- [[hecht-2001-chiral-symmetry-breaking-136pm-138eu]] 核定四页刊版，保留 \(^{136}\mathrm{Pm}\) 与 Starosta 的设施及 130 MeV 设置重合、反应道和探测器配置差异。\(^{138}\mathrm{Eu}\) 的 Eurogam 数据复用于同组早期高自旋报道。
+- 累计核定 186 份、10696 个主件 PDF 页。接续 [[tonev-2007-134pr-dynamic-chirality]] 的寿命与动态手征比较。
+
 ## 2026-11-21 — \(^{134}\mathrm{Pr}\) 原始级联与 \(N=75\) 数据谱系
 
 - [[petrache-1996-rotational-bands-134pr]] 的三条 Band 2 → Band 1 线按 Table 1、足注和原能级纲图核对。[[starosta-2001-n75-chiral-vibrations]] Fig. 2 复用这些 \(^{134}\mathrm{Pr}\) 连接，另三核的符合观测使用该文报告的 \(\pm20\) ns 时间窗。

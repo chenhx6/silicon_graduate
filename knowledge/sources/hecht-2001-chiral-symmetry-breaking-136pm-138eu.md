@@ -60,6 +60,10 @@ Physical Review C 63, 051302(R) (2001), DOI `10.1103/PhysRevC.63.051302`. The fo
 - Roughly `300 keV` partner-band displacement + common assigned configuration + calculated aplanar TAC solutions → author proposal of chiral-twin candidates, with finite left/right tunnelling invoked to explain the nonzero splitting (PDF pp. 3-4; Table I).
 - Diminishing calculated tilt angle `φ` at higher rotational frequency → model-predicted return to principal-axis rotation and termination of the chiral regime, rather than indefinite chirality at all spins (PDF p. 4; Table I).
 
+## Acquisition overlap with the isotone study
+
+On 051302-1, the \(^{136}\mathrm{Pm}\) measurement uses \(^{116}\mathrm{Sn}(^{24}\mathrm{Mg},p3n)\) at 130 and 135 MeV. [[starosta-2001-n75-chiral-vibrations]] p. 972 overlaps in facility, beam, target and 130 MeV setting. It prints `4n` and describes a different detector count and clover arrangement. Use the source-specific settings and preserve the potential dependence of the \(^{136}\mathrm{Pm}\) level information. The \(^{138}\mathrm{Eu}\) measurement uses the distinct \(^{106}\mathrm{Cd}(^{35}\mathrm{Cl},2pn)\) reaction. On 051302-2 the authors explicitly report using the same Eurogam data set as their earlier \(^{138}\mathrm{Eu}\) high-spin study (Ref. [10]).
+
 ## Summary
 
 The paper reports new positive-parity `ΔI=1` bands in `136Pm` and `138Eu`, assigns them the same `πh11/2⊗νh11/2` configuration as the respective yrast bands, and offers the two pairs as chiral-twin candidates. It is direct experimental/model candidate evidence, but the conclusion does not claim a model-independent observation of broken chirality: configuration and aplanar geometry remain inferred, the partners stay about `300 keV` apart, and 3D TAC cannot calculate their quantum mixing.

@@ -6974,3 +6974,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Petrache 与 Starosta 的 134Pr 谱系
 
 - 对照 21 与 4 页刊版，核对 Band 2 → Band 1 三条 DCO 线及后续同中子素比较图的复用。累计 185 份、10692 个主件 PDF 页。
+
+## 2026-11-21 — Hecht 的两组符合数据
+
+- 核定 4 页刊版。登记 136Pm 采集重合边界、138Eu 原数据复用和门控判据。累计 186 份、10696 个主件 PDF 页。

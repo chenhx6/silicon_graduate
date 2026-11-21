@@ -1,0 +1,25 @@
+{
+  "work_id": "catalogue:LIT-000459",
+  "recorded_at": "2026-11-21T14:58:19.729271+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
+  "raw": {
+    "path": "raw/papers/2001_Hecht et al_Evidence for chiral symmetry breaking in 136 Pm and 138 Eu.pdf",
+    "sha256": "2f9bd3dce75ec29056ef5a59b26032a6510b7e9dc241a546a3d82a89c7eea161",
+    "size": 69111,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "credited_primary_pages": 4,
+  "coverage": [
+    "051302-1–2: publisher identity, Yale 136Pm and Daresbury 138Eu acquisition, level schemes, and Table I.",
+    "051302-3–4: directional and polarization evidence, comparative ratios, bandhead assumptions, interpretation and references."
+  ],
+  "reader": "Reused documented full original reading plus Codex four-page comparison and original source checks.",
+  "evidence_boundary": [
+    "Yale 136Pm settings overlap Starosta in entrance channel and 130 MeV. Printed exit channel and detector count differ; do not count independent 136Pm measurements without acquisition evidence.",
+    "138Eu was collected with the separate Cd+Cl Eurogam experiment, and this article explicitly reuses the same 138Eu stream as Ref. [10].",
+    "DCO, polarization asymmetry and inferred bandhead spin have distinct roles. No calibrated polarization reprocessing or additional delta results are claimed."
+  ],
+  "next_action": "Reconcile Tonev et al. on dynamic chirality in 134Pr, especially lifetime fitting and the spectra used for comparative transition strengths."
+}
