@@ -1,0 +1,39 @@
+{
+  "work_id": "catalogue:LIT-000689",
+  "recorded_at": "2026-11-21T14:19:28.504384+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/sheikh-jehangir-bhat-2024-tpsm-wobbling.md",
+  "raw": {
+    "path": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/2405-08368-wobbling-133La-135Pr/PDFs/Microscopic_investigation_of_wobbling_motion_in_atomic_nuclei_using_the_triaxial_projected_shell_model_approach.pdf",
+    "sha256": "a7fa3cc75113a1ff2881cbc7edd9d3285a228b429c34b6f0b9b22da4c2b90d22",
+    "size": 712843,
+    "hash_basis": "fresh-hash",
+    "source_role": "arxiv-v1-matching-author-version"
+  },
+  "matched_published_chapter": {
+    "doi": "10.1201/9781032691633-12",
+    "version": "published chapter in 2025 copyright edition",
+    "path": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+    "sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+    "book_pages": "237–255",
+    "pdf_pages": "256–274",
+    "whole_book_work_id": "catalogue:LIT-000320"
+  },
+  "credited_primary_pages": 25,
+  "book_pages_read": 19,
+  "counting": "One work. Credit 25 existing primary PDF pages for the linked author record; separately record 19 physical pages in the same book.",
+  "reader": "Gemini reported full published chapter reading. Codex verified DOI, source versions, identity of figures, and claims against the archived PDF and existing experimental-source boundaries.",
+  "coverage": [
+    "Book pp. 237–241 (PDF 256–260): triaxial rotation and experimental examples.",
+    "Book pp. 241–243 (PDF 260–262): TPSM model, Eqs. (12.8)–(12.17), deformation inputs and origin.",
+    "Book pp. 243–251 (PDF 262–270): Figs. 12.1–12.11, Lu/Ta comparisons, yrast alignment and projected K labels.",
+    "Book pp. 251–255 (PDF 270–274): Figs. 12.11–12.14, normal-deformation comparisons, conclusions and bibliography."
+  ],
+  "evidence_boundary": [
+    "Fig. 12.10 is projected configuration energy before diagonalization, not mixed-state weights.",
+    "Fig. 12.9 left panel includes 163Lu, 165Lu and 167Lu empirical ratios. The paper reports disagreement at the three 167Lu points.",
+    "Table 12.1 prints 185Au above the starred epsilon assigned by its footnote to positive-parity 183Au. The complete computation inputs remain unverified.",
+    "Fig. 12.14 includes 187Au visually despite the abbreviated caption. Ratios reuse historical measurements and do not resolve the large/small-delta branches."
+  ],
+  "next_action": "Reconcile Chen Part I and Wu Part II from their already-held official author editions, focusing on collective mass, periodic boundaries and the observable contract."
+}

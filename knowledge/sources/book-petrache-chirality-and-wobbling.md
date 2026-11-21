@@ -58,7 +58,7 @@ tags: [books, triaxiality, wobbling, chirality, competing-interpretations]
 | 9 | Zhao，含时 CDFT 手征动力学 | 204–221 | 目录定位 |
 | 10 | Chen 等，CDFT+PRM | 222–238 | 目录定位 |
 | 11 | Nomura，IBFM/IBFFM | 239–255 | 选段精读与135Pr小δ机制/γ软核核查（PDF pp. 242–246） |
-| 12 | Sheikh 等，TPSM 与摆动 | 256–274 | PDF 258–259 选段阅读，公式待逐式复核 |
+| 12 | Sheikh 等，TPSM 与摆动 | 256–274 | 刊版全章覆盖，DOI `10.1201/9781032691633-12`。形变原表、短轴量子化及跃迁数据回引见 [[sheikh-jehangir-bhat-2024-tpsm-wobbling]]。 |
 | 13 | Budaca，准粒子对齐的自旋动力学 | 275–291 | 目录定位 |
 | 14 | Wang，TPSM 手征与摆动 | 292–301 | 目录定位 |
 | 15 | Qi，A≈80 核手征 | 302–310 | 目录定位 |

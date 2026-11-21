@@ -7,7 +7,7 @@ updated: 2026-09-29
 status: ai-draft
 review_status: unreviewed
 source_type: theoretical-model-comparison
-reading_depth: read
+reading_depth: deep-read
 title_original: "Microscopic investigation of wobbling motion in atomic nuclei using the triaxial projected shell model approach"
 authors: [J. A. Sheikh, S. Jehangir, G. H. Bhat]
 journal: "Chirality and Wobbling in Atomic Nuclei, Taylor & Francis book chapter 12"
@@ -43,9 +43,17 @@ J. A. Sheikh, S. Jehangir & G. H. Bhat, “Microscopic investigation of wobbling
 
 The chapter of the same title by Sheikh, Jehangir and Bhat appears in [[book-petrache-chirality-and-wobbling]], ch. 12, DOI `10.1201/9781032691633-12`, book pp. 237–255 (PDF pp. 256–274). Its Table 12.1 (p. 243, PDF p. 262) supplies explicitly labelled deformation columns. The \(^{163}\mathrm{Lu}\) and \(^{133}\mathrm{La}\) entries are \((\epsilon,\epsilon',\gamma)=(0.400,0.100,14^\circ)\) and \((0.150,0.110,36^\circ)\). Compare [[frauendorf-2024-wobbling-review]] for the distinct values in the companion review. The table can identify the chapter inputs. Figure-by-figure calculation provenance remains separate.
 
+Figure 12.10 (book p. 250, PDF p. 269) shows \(^{163}\mathrm{Lu}\) projected configurations before the TPSM Hamiltonian is diagonalized. The authors change the deformation to the equivalent \(-120^\circ-\gamma\) sector to exchange the short and long axes in the basis conventions. They use \(K=11/2\) for the yrast configuration and \(K=7/2\) for the first excited configuration in their discussion of the bands. These labels refer to the projected components used in the model. The configuration-mixed energies and transition strengths are calculated from the Hill–Wheeler state of Eq. (12.16) and its matrix elements in Eq. (12.17).
+
+Figure 12.14 (book p. 253, PDF p. 272) includes \(^{187}\mathrm{Au}\) panels in both sets of ratios despite its omission from the caption's nucleus list. The text introduces the \(^{187}\mathrm{Au}\) assignment via Ref. [39] [[sensharma-2020-longitudinal-wobbling-187au]]. The chapter comparisons reuse published input ratios. An independent comparison of the mixing-ratio branches needs the original observables from that experiment and [[guo-2022-low-spin-wobbling-187au]], with each experiment's own uncertainty and gate definitions.
+
+Book p. 249 (PDF p. 268) states that the left panel of Fig. 12.9 uses ratios deduced from earlier DCO and polarization measurements for \(^{163,165,167}\mathrm{Lu}\). Its comparison explicitly reports a discrepancy for all three available \(^{167}\mathrm{Lu}\) points. The chapter's model labeling should preserve that isotope-specific limit.
+
+Table 12.1 prints an \(^{185}\mathrm{Au}\) column with \(\epsilon=0.270^\ast\). Its footnote assigns the starred \(\epsilon\) to the \(^{183}\mathrm{Au}\) positive-parity bands, which are included in Figs. 12.11 and 12.14. Keep the printed heading and the footnote attribution. The footnote explicitly clarifies \(\epsilon\); the companion \(\epsilon'\) and \(\gamma\) in that printed column still require confirmation from the underlying inputs.
+
 ## Scope and Reading Depth
 
-- Completed `reading_depth`: `read`.
+- Completed `reading_depth`: `deep-read` for the published chapter. Gemini covered book pp. 237–255 (PDF 256–274). Codex checked the chapter DOI, the projected-basis and transition equations, and directly inspected Table 12.1 and Figs. 12.10, 12.11 and 12.14. The following list summarizes the earlier arXiv reading.
 - Covered scope: paper question and introduction; TPSM method and Eqs. (8), (10)–(14); Table 1; the normal-deformed results for `133La` and `135Pr`; Figs. 11–14 and their discussion; summary and references [11]–[15]. The displayed energy, wobbling-frequency, alignment and transition-ratio comparisons were visually inspected.
 - Not covered: independent reanalysis of the cited experiments, refitting TPSM parameters, all results for the strongly deformed Lu/Ta isotopes, or the full text of the later 2026 IJMPE article discovered during this run.
 - Coverage caveats: `ε`, `ε′` and `γ` are model inputs in Table 1. The later article's comparison with existing data is not a new measurement or an independent determination of shape.

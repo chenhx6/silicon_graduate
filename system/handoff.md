@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Sheikh 等 TPSM 刊版第 12 章
+
+- [[sheikh-jehangir-bhat-2024-tpsm-wobbling]] 核定刊版 19 页。保留短轴 \(K\) 投影的基底含义、\(^{167}\mathrm{Lu}\) 比值偏差，以及 Table 12.1 的 Au 栏与星号脚注。第 2、12 章均已登记至 [[book-corpus-coverage-ledger]]。
+- 累计核定 178 份、10569 个已登记主件 PDF 页。接续 [[chen-2016-two-dimensional-collective-chiral-wobbling]] 与 Wu 等的二维集体哈密顿量电磁跃迁比较。
+
 ## 2026-11-21 — Frauendorf 综述刊版及 TPSM 输入对账
 
 - [[frauendorf-2024-wobbling-review]] 核定 38 页刊版章。arXiv 与刊版作为一份作品。与 [[book-petrache-chirality-and-wobbling]] 第 12 章 Table 12.1 并读，保留 Lu 和 La 的参数异文及图源边界。

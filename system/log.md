@@ -6950,3 +6950,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Frauendorf 综述的书籍刊版核对
 
 - 核定刊版第 2 章 PDF 43–80，与 26 页 arXiv 登记为同一作品。记录轴号和 Lu 组态异文，并将第 12 章 Table 12.1 的逐核参数与综述回引分开。累计 177 份、10544 个主件 PDF 页。
+
+## 2026-11-21 — Sheikh 等 TPSM 刊版核查
+
+- 核定同一作品的 19 页第 12 章与 25 页作者版关系。区分短轴投影组态、配置混合后跃迁及原实验比值。累计 178 份、10569 个已登记主件 PDF 页。
