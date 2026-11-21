@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000973",
+  "active_source": "catalogue:LIT-000354",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -479,9 +479,10 @@
     "SI16-131CE-133PR-COINCIDENCE-AND-STOPPING-INPUTS",
     "PAL91-NORMAL-DEFORMED-IDENTITY-LINKS",
     "ALW13-131CE-THESIS-VERSION-AND-GATED-EVIDENCE",
-    "IB98-CE-STATIC-MOMENTS-QI-ANGULAR-TERM"
+    "IB98-CE-STATIC-MOMENTS-QI-ANGULAR-TERM",
+    "CH26-TR-WJ-BARE-CORE-AND-ODD-A"
   ],
-  "completed_full_sources_this_run": 196,
+  "completed_full_sources_this_run": 197,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -489,14 +490,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T16:05:27.858362+00:00",
+  "updated_at": "2026-11-21T16:29:39.497080+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10890,
-  "current_source_note": "knowledge/sources/campaign-g06-chen-2026-triaxial-softness-wobbling.md",
-  "next_action": "Continue with Chen 2026 full treatment of triaxial softness, its model choices and transfer limits.",
+  "completed_primary_pages_this_run": 10911,
+  "current_source_note": "knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md",
+  "next_action": "Reconcile Chen–Frauendorf 2022 SCS article and publisher erratum, then compare maps with the 2026 soft-core work.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Ionescu–Bujor et al. 1998 publisher PDF, QI/MI observables and static-moment evidence scope.",
-  "current_source_scientific_acceptance": "Chen 2026 local article is queued for preparation.",
-  "source_scoped_retrieval": "Reused the archived journal PDF."
+  "last_source_manager_closure": "Chen 2026 soft-core paper publisher coverage and bare-core/WJ distinctions.",
+  "current_source_scientific_acceptance": "SCS 2022 article and erratum checked in source, current full-scope audit pending.",
+  "source_scoped_retrieval": "Reused the local 21-page publication."
 }

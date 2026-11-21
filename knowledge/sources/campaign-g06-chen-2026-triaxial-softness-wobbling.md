@@ -7,7 +7,7 @@ updated: 2026-11-08
 status: active
 review_status: unreviewed
 source_type: journal-article
-reading_depth: read
+reading_depth: deep-read
 title_original: "Effects of triaxial softness on wobbling motion"
 authors: [Yeruoxi Chen, Q. B. Chen, S. Frauendorf, R. V. Jolos]
 journal: Physical Review C
@@ -49,6 +49,7 @@ DOI10.1103/f2zp-rb6f。实际出版PDF21页、7498113字节，路径/hash见元�
 G16提取全文模型/比较段；总控重点回读PDF1、3、7、9、15、17–18，
 核对单j/配对/费米面、E2/M1算符、两方向跃迁与结论。
 [[continuation-g16-soft-core-wobbling-20261107]]保存共同输入合同及被收窄的worker断言。
+本轮完成刊版 21 页的覆盖对账，补核 PDF 5 的偶偶核芯选择规则、PDF 18–19 的 WJ 生成函数与概率密度，以及结尾引文。
 
 ### Not covered
 
@@ -69,6 +70,11 @@ G16提取全文模型/比较段；总控重点回读PDF1、3、7、9、15、17�
 | CH26-F7 | 作者认为未受扰动的偶邻核芯近似过简，奇粒子可改核芯；当前CQPC如何扩展仍待研究 | author-interpretation | direct | PDF17末–18开头 | false |
 
 ## Competing Interpretations and Limitations
+
+刊版 PDF 5 的 Eq. (50)–(51) 先给偶偶 TR 核芯的解析比较。取 \(\gamma=30^\circ\) 及本文转动惯量时，中轴在惯量张量中是对称轴，电四极张量仍呈三轴形状。\(R_w\to(R-1)_y\) 在这个核芯模型中严格为零，\(R_y\to(R-1)_w\) 由指定 Clebsch–Gordan 系数给出。Fig. 15 的奇质量核 \(w\to y\) 与 \(y\to w\) 曲线另含核芯–准粒子耦合，不能套用该裸核芯的零值。
+
+附录 PDF 18–19 的 Figs. 18–19 把两个量分开。Fig. 18 在指定 \(\gamma=15^\circ,30^\circ,45^\circ\) 画核芯角动量取向密度，Fig. 19 画带 \(\sin(3\gamma)\) 测度的 \(\gamma\) 边缘密度。作者以 \(3_1,5_1\) 的无节点 \(\gamma\) 分布与 \(4_2,6_2\) 的振动型形状分布，说明后一组 WJ 态不能沿用刚性转子二声子指认。PDF 18 引 Ref. [27] 的 TPSM 对照来自 [[frauendorf-2024-wobbling-review]]，而本篇 CQPC 的扩展尚待检验。
+
 
 1. 两个核芯极限和两个费米面代表值不构成所有真实核/所有软度的禁戒定理。
 2. 能量增减须与波函数几何/跃迁网络共同判断；大E2混合比也不唯一摆动。

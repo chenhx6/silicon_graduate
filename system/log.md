@@ -7014,3 +7014,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — Ce 的静态矩及 QI 时间谱
 
 - 核定 Ionescu–Bujor 等 20 页刊版。记录拟合的角项与跃迁矩使用边界。累计 196 份、10890 个主件 PDF 页。
+
+## 2026-11-22 — 三轴软核的两组概率分布
+
+- 核定 Chen 2026 的 21 页刊版，分别记录裸核芯选择规则与含准粒子的带间跃迁。累计 197 份、10911 个主件 PDF 页。

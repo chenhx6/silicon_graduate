@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — 软核摆动模型的核芯选择规则
+
+- [[campaign-g06-chen-2026-triaxial-softness-wobbling]] 核定 21 页刊版。保留偶偶 TR 的 Eq. (50)–(51)、奇质量核的两类带间跃迁以及 WJ 生成函数与形状概率。
+- 累计核定 197 份、10911 个主件 PDF 页。已核实 [[chen-2022-study-wobbling-spin-coherent-state-maps]] 馆藏版 Fig. 15 与一页勘误的替换图一致，该文完整队列对账继续推进。
+
 ## 2026-11-22 — Ce 异能态静态矩的时谱
 
 - [[ionescu-bujor-1998-static-moments-129-131ce]] 核定 20 页刊版。保留 \(^{129,131}\mathrm{Ce}\) 的 \(A_2\) 参数、取向弛豫和时谱调制条件，分别标记静态矩和跃迁矩。

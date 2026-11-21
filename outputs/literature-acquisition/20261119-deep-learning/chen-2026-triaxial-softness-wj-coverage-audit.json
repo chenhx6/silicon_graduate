@@ -1,0 +1,27 @@
+{
+  "work_id": "catalogue:LIT-000973",
+  "recorded_at": "2026-11-21T16:29:39.497080+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/campaign-g06-chen-2026-triaxial-softness-wobbling.md",
+  "raw": {
+    "path": "raw/papers/gpt/query/20261107-continuation-G16/chen-2026-triaxial-softness-wobbling-prc.pdf",
+    "sha256": "f0b2f1ae994d79817c41a01fa5f69e8d07a11338e6c2c6a061eaa45aa9e44274",
+    "size": 7498113,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "credited_primary_pages": 21,
+  "coverage": [
+    "014324-1–4: CQPC Hamiltonian, quasiparticle/core coupling, operators and nuclear core comparison.",
+    "014324-5–8: analytic rigid rotor, WJ states and deformation/inertia choices, Tables I–III.",
+    "014324-9–17: four odd-A calculations with spectra and two distinct branch directions, summary.",
+    "014324-18–21: data statement, WJ generating functions, conditional/marginal densities and references."
+  ],
+  "reader": "G16 previous whole text and Codex targeted continuation of the core rules, WJ appendix and conclusion.",
+  "evidence_boundary": [
+    "The special rigid even-core E2 zero is restricted to the fixed gamma/inertia and transition state in Eq. (50).",
+    "The WJ maps at fixed gamma and the gamma marginal have different measures and roles. No experiment or producer was reproduced.",
+    "Odd-A parameters comprise four model comparisons and do not establish a universal softness condition for all real nuclei."
+  ],
+  "next_action": "Reconcile Chen–Frauendorf 2022 SCS article and publisher erratum, then compare maps with the 2026 soft-core work."
+}

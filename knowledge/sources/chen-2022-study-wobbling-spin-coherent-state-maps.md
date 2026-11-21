@@ -45,6 +45,8 @@ The paper develops a spin coherent state (SCS) representation for reading quantu
 
 ## Scope and Reading Depth
 
+The archived 27-page publisher PDF displays the replacement Fig. 15 from the one-page Publisher Erratum, DOI `10.1140/epja/s10050-022-00824-5`. A side-by-side visual check matched the four state rows and all three \(J,R,j\) columns. Use the corrected panel in local PDF p. 15. The suffix \(2\) on \(I_2\) denotes a state index at the given spin.
+
 Full 27-page article read, including the SCS construction, triaxial-rotor test, PTR density matrices, `135Pr` calculations, signature-partner comparison, `163Lu` terminology discussion, transition-density maps and conclusions. The publisher erratum was read separately: it states that the wrong image appeared as Fig. 15 and that the original article was corrected. Not covered: new experimental data; the paper is theoretical and explicitly lists no associated data.
 
 ## Summary
