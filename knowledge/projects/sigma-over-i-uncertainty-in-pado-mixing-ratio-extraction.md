@@ -194,6 +194,8 @@ Chiara 2012, Summary 2013, and Gray 2020 together supply the practice/background
 
 For a survey of in-beam alignment widths, distinguish an unreported width in an applicable analysis from a geometry in which the in-beam width is inapplicable. In thermal-capture \(^{36}\mathrm{Cl}\), Honzatko et al. add secondary-ray \(P\) to published relative-angle and circular-polarization measurements in a \((\delta_1,\delta_2)\) grid fit. In decay-fed \(^{95}\mathrm{Mo}\), Behar et al. use a measured polarization count ratio \(\beta\) to select among solutions from two-photon relative-angle coefficients. Both are useful historical \(P\)–\(\delta\) references, and each requires its own geometry and companion-transition inputs. See pp.668–671 of [[honzatko-1971-cl36-capture-polarization]] and pp.527–531 of [[behar-1973-mo95-directional-polarization]].
 
+An in-beam precedent for avoiding a prescribed Gaussian width is Aoki et al. (1982). They insert measured \(\rho_2A_2,\rho_4A_4\) from a full angular distribution into their polarimetry equations, determine \(H_2(12)\) from the measured modulation, and use internal conversion to select an E2/M1 branch for the 311 keV \(^{177}\mathrm{Ta}\) line. A comparison with P-ADO should state the angular information and branch constraint each method requires. See [[aoki-1982-ta177-ge-polarimetry]], Figs. 6–8 and Eqs. (14)–(16).
+
 ## Evidence Gaps
 
 - Need mapping from the user's actual P-ADO implementation to source symbols before writing final equations.

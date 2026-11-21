@@ -33,6 +33,7 @@ updated: 2026-11-21
 - [[honzatko-1971-cl36-capture-polarization]] — ³⁶Cl 热中子俘获级联的实测线偏振和两条 γ 的联合混合比。
 - [[behar-1973-mo95-directional-polarization]] — ⁹⁵Mo 的方向关联、极化计数比和 616 keV 大模混合比。
 - [[davies-hamilton-1968-bi211-polarization-mixing]] — ²¹¹Bi 的未分辨级联极化和 702 keV 混合比双符号区间。
+- [[aoki-1982-ta177-ge-polarimetry]] — ¹⁷⁷Ta 的极化调制、实测角分布系数与无需假定布居宽度的反演。
 - [[mukherjee-2022-shape-coexistence-octupole-72se]] — 72Se 混合比与取向标定的定向核读。
 - [[masiteng-2006-194tl-polarization-lifetime-thesis]] — 194Tl 全文，区分计数不对称、借用的 DCO、宇称指认和 RSAM 半衰期。
 - [[ramashidzha-2006-194tl-dco-level-scheme-thesis]] — 194Tl 的逐门 DCO、归属条件与 Masiteng 表格差异。

@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — 以实测角分布约束 \(^{177}\mathrm{Ta}\) 混合比
+
+- [[aoki-1982-ta177-ge-polarimetry]] 9 页完成深读。原文图 6–8 及式 (14)–(16) 给出极化调制 \(B\)、角分布产品 \(\rho_kA_k\) 与 \(H_2\) 的反演关系。311 keV 的最终分支需要内转换约束。已补入 [[sigma-over-i-uncertainty-in-pado-mixing-ratio-extraction]]。
+- 累计 129 份、9320 页主件。续读馆藏 \(^{215}\mathrm{Po}\) α–γ 偏振原件，核查实测变量和对混合比的约束。
+
 ## 2026-11-21 — 级联相位、布居张量与早期偏振实验
 
 - 对账 [[rose-brink-1967-phase-defined-angular-distributions]] 和 [[yamazaki-1967-aligned-angular-coefficients]] 共 65 页覆盖，回核原文矩阵元约定、级联干涉与 \(\rho_k\)、\(B_k\)、\(\alpha_k\)、\(U_k\) 的适用条件。

@@ -1,0 +1,44 @@
+{
+  "works": [
+    {
+      "work_id": "doi:10.1016/0029-554x(82)90107-0",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0029-554X_82_90107-0.pdf",
+          "sha256": "6cadca1e47c207b5d2a74815bb179f61d4dce499f1b771f6b10009519aeff6c0",
+          "size": 613778,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/aoki-1982-ta177-ge-polarimetry.md",
+      "primary_pdf_pages": 9,
+      "credited_primary_pages": 9,
+      "covered_sections": [
+        "PDF 1–4: Ge(Li) geometry, thresholds and efficiency, and the Ta application",
+        "PDF 5–7: measured angular distributions, count modulation, response calibration, alternate roots and conversion limits",
+        "PDF 8–9: explicit H coefficients, joint extraction and matched alignment conditions"
+      ],
+      "evidence_gaps": [
+        "B is a calibrated-geometry count modulation, not independently tabulated detector-free P.",
+        "The width is avoided by using full angular-distribution coefficients. A single angular ratio does not carry both measured coefficients.",
+        "The near-pure 550 keV line is an M3/E2 test, outside the E2/M1 survey."
+      ]
+    }
+  ],
+  "credited_primary_pages": 9,
+  "reader": "Codex",
+  "pdm_run": false,
+  "equation_check": {
+    "locator": "Figure 6 central values and Eqs. (11), (16); compare Figure 8",
+    "measured_modulation_B": 0.063,
+    "measured_a2": 0.048,
+    "measured_a4": -0.006,
+    "qQ0_from_rounded_inputs": 0.479571447646213,
+    "H2_from_rounded_inputs": {
+      "1": -1.7245679960605635,
+      "-1": 1.8287346627272303
+    },
+    "boundary": "Rounded-input formula consistency check, not a statistical reanalysis."
+  }
+}

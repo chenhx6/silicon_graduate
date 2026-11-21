@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.1016/0029-554x(82)90107-0",
+  "active_source": "doi:10.1016/0375-9474(70)90226-5",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -394,9 +394,10 @@
     "YAMAZAKI67-TENSOR-TABLES-COVERAGE-RECONCILED",
     "HONZATKO71-CL36-COMPLETE-SCIENTIFIC-SCOPE",
     "BEHAR73-MO95-COMPLETE-SCIENTIFIC-SCOPE",
-    "DAVIESHAMILTON68-BI211-COMPLETE-SCIENTIFIC-SCOPE"
+    "DAVIESHAMILTON68-BI211-COMPLETE-SCIENTIFIC-SCOPE",
+    "AOKI82-TA177-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 128,
+  "completed_full_sources_this_run": 129,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 997,
@@ -404,14 +405,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T06:16:30.930940+00:00",
+  "updated_at": "2026-11-21T06:25:04.835006+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 9311,
-  "current_source_note": "knowledge/sources/davies-hamilton-1968-bi211-polarization-mixing.md",
-  "next_action": "Read the 1982 Ge(Li) Compton polarimeter publisher original; verify the response observable and calibration.",
+  "completed_primary_pages_this_run": 9320,
+  "current_source_note": "knowledge/sources/aoki-1982-ta177-ge-polarimetry.md",
+  "next_action": "Read the 215Po alpha-gamma linear polarization publisher original and audit observed coefficients and delta applicability.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Rose–Brink and Yamazaki prior coverage reconciliation; original 36Cl, 95Mo, and 211Bi polarization evidence.",
-  "current_source_scientific_acceptance": "Five works, 93 pages credited: 65 prior coverage pages reconciled and 28 newly read. The Gemini Bi211 request returned HTTP 502; no findings accepted.",
-  "source_scoped_retrieval": "Existing local publisher originals. No additional retrieval."
+  "last_source_manager_closure": "Aoki 1982: in-beam 177Ta angular-distribution and polarimetry precedent.",
+  "current_source_scientific_acceptance": "Nine newly read primary pages. Original modulation, angular coefficients, calibrated response and conversion branch checked.",
+  "source_scoped_retrieval": "Existing local publisher original. No additional retrieval."
 }
