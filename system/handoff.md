@@ -3,10 +3,15 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Zobel 的硒参考线与束能扫描
+
+- [[zobel-1980-magnetic-substate-distributions]] 9 页与 [[zobel-1983-energy-projectile-alignment]] 6 页已对账。核实 \(^{72}\mathrm{Se}\) 两条伸展 E2 的取向衰减及采集条件，保留 \(^{67}\mathrm{Ga}\) 直接馈入变化、角分布和极化跨实验组合的适用条件。
+- 累计 98 份、8772 页主件。续读 [[ionescu-1981-improved-angular-distribution-analysis-particle-xn]]，把离散直接馈入与统计侧馈分别写入取向方法。
+
 ## 2026-11-21 — ⁸⁰Se 的联合量与强度上下限
 
 - [[biswas-2026-o6-like-80se-polarization-mixing]] 对账 7 页。核实 Table 1 六条同时给 \(P,\delta\) 的跃迁，保留有 \(\delta\) 但 \(P\) 空白的行。记录 1873.4 keV 态的 DSAM 寿命下界和强度上界，并区分 IBA 量子数与取向宽度。
-- 累计 96 份、8757 页主件。续读 [[zobel-1980-magnetic-substate-distributions]]，核对以硒、锶数据检验取向模型的原始适用条件。
+- 累计 96 份、8757 页主件。续读 [[zobel-1980-magnetic-substate-distributions]]，核对以硒等核的伸展 E2 数据检验取向模型的原始适用条件。
 
 ## 2026-11-21 — ⁷²Se 的参考线取向与联合混合比
 

@@ -118,3 +118,7 @@ User review on 2026-07-08 found no source-level problems; Z83-5, Z83-8 and Z83-9
 任务计算层：[[angular-distribution]]“Zobel1983：同parent反应条件与Gaussian诊断”保存原表10行、明确的独立stat差量、任务Gaussian标准差s、CG/Stevens独立核验、unknownCov敏感性、chosen mixture及Fig3坐标cross-check。38检查与图QA通过；不把alpha2-only s/J当原文实测sigma/I、不给Gaussian排除概率，不拟合用户P-ADO或193Bi。Day15仍只是partial15预习。
 
 本run随后以Z83-15的knowngeometry作26-check angular-fit covariance设计，[[angular-distribution]]“角采样与归一化下的Cov可识别性”保存GLS/Jacobian/Fisher/Schur、same-marginals正variance样例与monitor-mode控制。SourceGF未提供，prototype三parameter/权重/linearization不是作者code或data covariance，Z83-15 true、不扩原人审。
+
+## 2026-11-21 — Scope of the energy and projectile comparison
+
+Printed pp. 389–394 were reconciled with the local six-page article. Figure 3 ties the \(^{67}\mathrm{Ga}\) 3031.7-keV state's falling direct feeding to the energy dependence of the alignment derived from its 958-keV E2 transition. The mild change over the \(^{12}\mathrm{C}\) energy scan and the much stronger variation over the \(\alpha\) scan belong to those specific reaction and feeding conditions. The conclusion on p. 394 cautions about combining angular distribution and polarization measured at different energies or with different projectiles. This article measures attenuation from angular distributions and gives no new numerical line polarization or E2/M1 extraction. The literature crosswalk with [[zobel-1980-magnetic-substate-distributions]] remains attached to the reused method and input references.

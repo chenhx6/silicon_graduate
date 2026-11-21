@@ -1,0 +1,63 @@
+{
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000791",
+      "raw_files": [
+        {
+          "path": "raw/papers/1980_Zobel et al_The shape of magnetic substate distributions in fusion-evaporation reactions.pdf",
+          "sha256": "eaaacc6154936d8e1725a9a98b198fcfcf90d4cc3b70b31e51323a31cd1cffcc",
+          "size": 590748,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+      "primary_pdf_pages": 9,
+      "credited_primary_pages": 9,
+      "covered_sections": [
+        "PDF 1–3: alignment parameters and competing constraints through population/feeding",
+        "PDF 4–6: attenuation tables, 72Se reference case and experimental comparison",
+        "PDF 7–9: Doppler contamination study, model conditions, covariance appendix and references"
+      ],
+      "visual_checks": [
+        4,
+        5
+      ],
+      "evidence_gaps": [
+        "72Se rows reused from Ref. 10, in a different reaction than Mukherjee 2022.",
+        "Retain conditional ALY validity, ensemble feeding and covariance."
+      ],
+      "publication_independence": "1980 compilation includes reused earlier data, and the two studies share published method references. Particle/energy scan is source-specific."
+    },
+    {
+      "work_id": "catalogue:LIT-000792",
+      "raw_files": [
+        {
+          "path": "raw/papers/1983_Zobel et al_Energy and projectile dependence of nuclear alignment in fusion-evaporation reactions.pdf",
+          "sha256": "60b0d4bc561b44d861e16490efec7bebb8fbf1b8b30a7c7d81621a4057208759",
+          "size": 435196,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+      "primary_pdf_pages": 6,
+      "credited_primary_pages": 6,
+      "covered_sections": [
+        "PDF 1–3: reaction conditions, attenuation and comparative scans",
+        "PDF 4–6: Table I, direct versus cascade feeding, implications for combining different experiments and references"
+      ],
+      "visual_checks": [
+        4
+      ],
+      "evidence_gaps": [
+        "67Ga conclusions are projectile and energy specific.",
+        "No new physical P input or E2/M1 extraction in this methodological source."
+      ],
+      "publication_independence": "1980 compilation includes reused earlier data, and the two studies share published method references. Particle/energy scan is source-specific."
+    }
+  ],
+  "credited_primary_pages": 15,
+  "reader": "Codex with prior full-source scope reconciled",
+  "PDM_run": false
+}

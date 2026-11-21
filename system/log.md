@@ -6754,3 +6754,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — ⁸⁰Se 的偏振与角比
 
 - 对账 7 页，核实六条完整 \(P,\delta\) 行和 DSAM/IBA 的证据边界。累计 96 份、8757 页主件。
+
+## 2026-11-21 — Zobel 取向方法
+
+- 对账 9+6 页，核查硒的伸展 E2 衰减、镓的入射束条件和馈入机制。累计 98 份、8772 页主件。

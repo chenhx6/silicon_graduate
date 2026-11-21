@@ -137,3 +137,7 @@ Crossref、Unpaywall、OpenAlex、OpenAIRE、INSPIRE 和 Elsevier 的 DOI/PII
 `raw/papers/gpt/query/20261105-zobel-1979-67ga/manifest.json`，因此本次仍不能
 补写该 1979 文章的 level、\(\delta\)、purity、response 或 raw-acquisition
 结论。该 manifest 是访问边界记录，不是 1979 原件。
+
+## 2026-11-21 — ⁷²Se stretch-E2 alignment controls
+
+Table 1 (printed p. 226) gives \((\alpha_2,\alpha_4)=(0.619(20),0.316(38))\) and \((0.664(33),0.326(87))\) for the 774.5 and 829.9 keV lines in \(^{72}\mathrm{Se}\). Table 2 identifies the reaction as \(^{58}\mathrm{Ni}+{}^{16}\mathrm{O}\) at 52.5 MeV, and Table 1 cites Ref. 10 for the two rows. Section 3 singles out the 774-keV point as the largest apparent departure from the alignment-yrast curve in their sample and suggests short lifetimes in the path. Figure 5 illustrates how loss from a Gaussian peak fit biases the coefficients when a line broadens. The sample consists of selected stretched electric quadrupoles with usable error analysis. These coefficients cannot calibrate the distinct \(^{50}\mathrm{Cr}+{}^{28}\mathrm{Si}\) measurement of [[mukherjee-2022-shape-coexistence-octupole-72se]].
