@@ -72,9 +72,12 @@ M. Palacz 等，*Z. Phys. A* **338**, 467–468 (1991)，DOI `10.1007/BF01295780
 
 ## Nuclear Structure Information
 
+Printed p. 468 Fig. 1 shows the 510, 642, 750, 827, 892, 922 and 962 keV links in negative-parity Band I. These match the \(^{131}\mathrm{Ce}\) yrast transition-energy sequence in [[singh-2016-lifetime-131ce-133pr]] Table 1. Use that crosswalk for these specific links. The same caption excludes the superdeformed band from the drawing. The links marked by hanging arrows remain outside the verified level-to-level map.
+
 - The source is an N=73 `131Ce` high-spin experiment and is therefore a direct source for the `131Ce` entry in Ding 2021's N=73 comparison.
+- Printed p. 467 cites Ref. [5] for \(Q_0\sim6.0\,e\,\mathrm b\) in the distinct 14-transition superdeformed band. The figure of the normal-deformed bands and the present coincidence analysis supply no new determination of that moment.
 - The positive-parity `g7/2` statement is an author assignment supported by strong coupling, alignment/routhian comparison and systematics; it is not a standalone orbital measurement.
-- The level scheme and links are not the same object as the later `131Ce` normal-deformed Bands 1–7 or the independent highly deformed band; no band identity is transferred across those pages.
+- Carry the checked Band I links forward by energy and spin. A complete map to the later numbered normal-deformed bands still requires the remaining level links. The independent highly deformed sequence has its own evidence.
 
 ## Authors' Interpretation
 

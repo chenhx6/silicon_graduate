@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — \(^{131}\mathrm{Ce}\) 早期能级链
+
+- [[palacz-1991-high-spin-131ce]] 核定两页刊版，逐条连通 Band I 的 510 至 962 keV 序列和 Singh Table 1。图中未画超形变带，正文约 \(6.0\,e\,\mathrm b\) 的矩取自前文。
+- 累计核定 194 份、10773 个主件 PDF 页。接续 [[alwaleedi-2013-band-structures-131ce]]，验证更完整能级纲图的版本与原实验关系。
+
 ## 2026-11-21 — \(^{131}\mathrm{Ce}\) 正常形变序列寿命
 
 - [[li-2004-lifetimes-131ce]] 与 [[singh-2016-lifetime-131ce-133pr]] 核定 3 页、11 页刊版。Li 的 \(19/2^-\) 是灵敏度下限。Singh 明示两种 DSAM 阻止本领的平均、误差选择和 510 keV 符合分析的理由。Ref. [32] 来自 Li，Singh 用自己的 Eq. (1) 重算该组 \(Q_t\)。Li 的 DOI 与出版者登记已对照。

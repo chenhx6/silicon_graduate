@@ -1,0 +1,24 @@
+{
+  "work_id": "catalogue:LIT-000616",
+  "recorded_at": "2026-11-21T15:42:25.973347+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/palacz-1991-high-spin-131ce.md",
+  "raw": {
+    "path": "raw/papers/gpt/learning-daily/20260926-DAY1-baseline-research-contract/1991_Palacz_high-spin-states-131Ce.pdf",
+    "sha256": "e230b4a7874b139ed0f0da70b2520e25076ead4d338311ff6bce66f53d54ef7b",
+    "size": 202492,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "credited_primary_pages": 2,
+  "coverage": [
+    "Print p. 467: acquisition, previous low-spin and HD context, coincidence analysis.",
+    "Print p. 468: normal-deformed level scheme, Fig. 2 alignments/Routhians, interpretation and references."
+  ],
+  "reader": "Documented prior full read and Codex re-read with visual check of p. 468.",
+  "evidence_boundary": [
+    "The confirmed Band I links match Singh Table 1 in energy and spin, while complete positive-parity and tentative links remain to reconcile.",
+    "Superdeformed sequence omitted from Fig. 1. The approximately 6.0 eb background moment was cited from Ref. [5]."
+  ],
+  "next_action": "Reconcile Alwaleedi 2013 131Ce thesis copies and full experimental scope, then bind available transitions to Palacz and lifetime records."
+}

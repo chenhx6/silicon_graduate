@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000616",
+  "active_source": "catalogue:LIT-000275",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -476,9 +476,10 @@
     "ZH03-EXPERIMENTAL-TRIPLE-GATES-AND-BAND-IDENTITY",
     "PE98-THICK-TARGET-DSAM-SIDE-FEEDING",
     "LI04-131CE-LIFETIME-SENSITIVITY-AND-DOI",
-    "SI16-131CE-133PR-COINCIDENCE-AND-STOPPING-INPUTS"
+    "SI16-131CE-133PR-COINCIDENCE-AND-STOPPING-INPUTS",
+    "PAL91-NORMAL-DEFORMED-IDENTITY-LINKS"
   ],
-  "completed_full_sources_this_run": 193,
+  "completed_full_sources_this_run": 194,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -486,14 +487,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T15:39:16.353013+00:00",
+  "updated_at": "2026-11-21T15:42:25.973347+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10771,
-  "current_source_note": "knowledge/sources/palacz-1991-high-spin-131ce.md",
-  "next_action": "Reconcile Palacz 1991 original high-spin 131Ce case, the early gamma links and the distinct lifetime-rich later band sequences.",
+  "completed_primary_pages_this_run": 10773,
+  "current_source_note": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+  "next_action": "Reconcile Alwaleedi 2013 131Ce thesis copies and full experimental scope, then bind available transitions to Palacz and lifetime records.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Li 2004 and Singh 2016 publisher coverage, distinct lifetime limits, and same-input Qt conversions.",
-  "current_source_scientific_acceptance": "Palacz local two-page publisher PDF identity/hash checked; full coverage audit pending.",
-  "source_scoped_retrieval": "Reused the existing publisher copies. Crossref supplied a DOI identity match for Li."
+  "last_source_manager_closure": "Palacz 1991 normal-deformed 131Ce bands and spin/energy crosswalk to Singh.",
+  "current_source_scientific_acceptance": "Library thesis candidates require source and coverage reconciliation.",
+  "source_scoped_retrieval": "Reused the local two-page journal original."
 }
