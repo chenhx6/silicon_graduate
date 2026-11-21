@@ -38,9 +38,8 @@ tags: [a100, 105pd, wobbling, two-phonon-wobbling, gamma-vibration, euroball-iv,
 
 ## Bibliographic Record
 
-B. Kruzsicz et al., PRC112,064316(2025)，DOI10.1103/l6vg-jfkv。
-实际本地版本arXiv:2607.18953v1，14物理页；期刊年与作者稿上传年分别记录。
-不是Comment/Reply；本文是扩展谱学研究。
+B. Kruzsicz et al., *Phys. Rev. C* **112**, 064316，2025 年 12 月 11 日出版，DOI `10.1103/l6vg-jfkv`。
+实际本地版本为 2026 年 7 月 21 日上传的 `arXiv:2607.18953v1`，14 页。以下页码指该作者稿。刊版全文尚未取得。
 
 ## Scope and Reading Depth
 
@@ -60,6 +59,10 @@ B. Kruzsicz et al., PRC112,064316(2025)，DOI10.1103/l6vg-jfkv。
 作者说明部分结果已发表于Refs17/19；其中包括Timár2019。
 因此这是既有实验资料的扩展分析，不能把它与2019工作算两份独立新采集。
 新谱学信息仍可有价值，资料复用不等于无信息增益。
+
+## 与 Karmakar 2025 的双门证据
+
+作者稿 PDF 11 将争议连接写为 N4→N1 的 254、300 keV，等于 [[karmakar-2025-doublet-wobbling-105pd]] 中的 Band 4→2。Kruzsicz 等在自己的 EUROBALL 三重符合立方体的双门谱中未见两条线，并讨论 \(^{102}\mathrm{Ru}\)、\(^{104}\mathrm{Pd}\) 污染。Karmakar 的独立 TIFR 采集在 Fig. 2(c) 的 481-keV 门中报告两线，同时给 Fig. 2(a,b) 的顶部门及相加门作支持。两项实验的采集、门构成及污染响应分别保留。该差异限制两条连接的复核强度，目前没有共同灵敏度或背景比较。
 
 ## Key Results
 

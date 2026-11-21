@@ -1,0 +1,30 @@
+{
+  "work_id": "catalogue:LIT-000974",
+  "status": "scientific-reading-covered",
+  "recorded_at": "2026-11-21T12:04:33.893588+00:00",
+  "raw": {
+    "path": "raw/papers/gpt/query/20261107-campaign-G06/kruzsicz-2025-105pd-high-spin-structure-arxiv-2607-18953.pdf",
+    "sha256": "ac8950306991b96a31e6e0bcb0060dfa3b26b86e2d204e412d1bc4924b6526c7",
+    "size": 630610,
+    "hash_basis": "fresh-hash",
+    "source_role": "verified-arxiv-v1-reading-copy"
+  },
+  "source_note": "knowledge/sources/campaign-g06-kruzsicz-2025-105pd.md",
+  "credited_primary_pages": 14,
+  "reader": "Codex and existing scoped reading from actual arXiv v1",
+  "coverage": [
+    "Preprint PDF 1–3: title, prior publication relationship, experiment, gates and analysis.",
+    "Preprint PDF 4–8: Table I and branch placement on the N1–N7 scheme.",
+    "Preprint PDF 9–14: QPRM comparisons, N4 alternate interpretations and inter-experiment gate disagreement, conclusion and references."
+  ],
+  "publication_access": {
+    "crossref": 200,
+    "aps": 403,
+    "harvest": "URLError"
+  },
+  "limits": [
+    "Publisher version not obtained; all original locators refer to arXiv v1.",
+    "Kruzsicz double-gate non-observation and Karmakar positive placements are treated as separate gate/response-dependent results."
+  ],
+  "next_action": "Reconcile the Jensen 2002 163Lu second-phonon article as a direct comparison for two-phonon assignments and weak branch interpretation."
+}

@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Kruzsicz \(^{105}\mathrm{Pd}\) 的原件与实验谱系
+
+- [[campaign-g06-kruzsicz-2025-105pd]] 核对 14 页作者稿，确认 2025 年刊版与 2026 年 arXiv 的版本关系。保留 EUROBALL 扩展分析与 Timár 的采集依赖，以及 Karmakar 独立数据中 254/300-keV 连接的确认差异。
+- 累计 159 份、10332 个主件 PDF 页。接续 [[jensen-2002-second-phonon-wobbling-163lu]]，检验可直接比较的两声子跃迁证据。
+
 ## 2026-11-21 — Karmakar 2025 \(^{105}\mathrm{Pd}\) 的跨带对应
 
 - [[karmakar-2025-doublet-wobbling-105pd]] 核对 14 页 APS 刊版。订正 Band 3→1、Band 4→2 的 E2 增强与 Band 4↔3 的 M1 主导支路。在 [[pd105-doublet-wobbling-vs-two-phonon-inapplicability]] 标明旧带号及旧结论的失效范围。

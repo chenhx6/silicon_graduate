@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000974",
+  "active_source": "catalogue:LIT-000482",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -441,9 +441,10 @@
     "NOMURA22-IBFM-FOUR-PUBLISHER-CASES-RECONCILED",
     "URBAN85-XE127-DIRECT-POLARIZATION-AND-ORIENTATION",
     "TIMAR19-PD105-PUBLISHER-P-AND-DCO-CONDITIONS",
-    "KARMAKAR25-PD105-PUBLISHER-BAND-MAPPING"
+    "KARMAKAR25-PD105-PUBLISHER-BAND-MAPPING",
+    "KRUZSICZ25-PD105-PREPRINT-LINEAGE-RECONCILED"
   ],
-  "completed_full_sources_this_run": 158,
+  "completed_full_sources_this_run": 159,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1001,
@@ -451,14 +452,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T11:56:44.772131+00:00",
+  "updated_at": "2026-11-21T12:04:33.893588+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10318,
-  "current_source_note": "knowledge/sources/campaign-g06-kruzsicz-2025-105pd.md",
-  "next_action": "Reconcile Kruzsicz 105Pd archive identity and scope, then compare its independent or reused acquisition and level scheme against both 105Pd publications.",
+  "completed_primary_pages_this_run": 10332,
+  "current_source_note": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+  "next_action": "Reconcile the Jensen 2002 163Lu second-phonon article as a direct comparison for two-phonon assignments and weak branch interpretation.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Karmakar 2025 14-page APS original corrects legacy Wiki band labels and transcribes the E2-rich and M1-dominant link families.",
-  "current_source_scientific_acceptance": "Independent TIFR experiment. Band 3→1 and 4→2 relative E2 evidence retained separately from weak-E2 Band 4↔3 and the provisional configuration assignment.",
-  "source_scoped_retrieval": "Reused local APS original."
+  "last_source_manager_closure": "Kruzsicz 105Pd actual preprint and publisher identity; EUROBALL lineage and comparison of discordant weak branches.",
+  "current_source_scientific_acceptance": "One 14-page preprint credited as the reading copy of a previously published work. No independent Timar data count added.",
+  "source_scoped_retrieval": "Local arXiv used; APS PDF denied and harvest unavailable. Journal registration verified."
 }

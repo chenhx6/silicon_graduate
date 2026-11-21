@@ -6910,3 +6910,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — \(^{105}\mathrm{Pd}\) 双组摆动候选的带号对账
 
 - 核对 Karmakar 14 页刊版，订正实验连接与 TPSM 对应关系，保留弱线缺失偏振的限制。累计 158 份、10318 个主件 PDF 页。
+
+## 2026-11-21 — \(^{105}\mathrm{Pd}\) 高自旋谱系
+
+- 核对 Kruzsicz 14 页作者稿、出版身份和弱线双门差异。累计 159 份、10332 个主件 PDF 页。
