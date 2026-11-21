@@ -26,7 +26,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.70675/6a461bfczc0cbz4fcczbbb7z535fd463d57a",
+  "active_source": "catalogue:LIT-000306",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -403,9 +403,10 @@
     "ZHENG21-METHOD-AND-APPENDIX-PARTIAL",
     "ZHENG21-CS119-PRC044305-COMPLETE-SCIENTIFIC-SCOPE",
     "ZHENG21-CS118-PRC044325-COMPLETE-SCIENTIFIC-SCOPE",
-    "ZHENG21-BA119-PRC014326-COMPLETE-SCIENTIFIC-SCOPE"
+    "ZHENG21-BA119-PRC014326-COMPLETE-SCIENTIFIC-SCOPE",
+    "ZHENG21-THESIS-COVERAGE-RECONCILED"
   ],
-  "completed_full_sources_this_run": 135,
+  "completed_full_sources_this_run": 136,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 998,
@@ -413,14 +414,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T07:09:20.321269+00:00",
+  "updated_at": "2026-11-21T07:19:37.289307+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 9411,
+  "completed_primary_pages_this_run": 9578,
   "current_source_note": "knowledge/sources/zheng-2021-collectivity-shape-119cs-119ba-118cs.md",
-  "next_action": "Continue Zheng dissertation chapter coverage and distinguish level-scheme evidence, relative transition strengths, shape coexistence and revolving chirality model.",
+  "next_action": "Match both Casten editions and audit the Coriolis coupling and rotational-alignment chapters from the local originals.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Zheng 119Ba publisher source, table/paragraph differences and thesis gate mapping.",
-  "current_source_scientific_acceptance": "11 newly read publisher pages plus archived but uncredited institutional cover.",
-  "source_scoped_retrieval": "Single targeted JYX publisher PDF for a known missing companion DOI, locally archived and checked."
+  "last_source_manager_closure": "Zheng Paris-Saclay thesis: eight chapters, appendices, data/figure and model evidence boundaries.",
+  "current_source_scientific_acceptance": "167 of 177 primary local pages credited; institutional cover edition adds no duplicate work or pages.",
+  "source_scoped_retrieval": "Both thesis editions already local. Three journal companions explicitly linked."
 }

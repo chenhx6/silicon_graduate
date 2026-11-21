@@ -1,0 +1,56 @@
+{
+  "works": [
+    {
+      "work_id": "doi:10.70675/6a461bfczc0cbz4fcczbbb7z535fd463d57a",
+      "raw_files": [
+        {
+          "path": "raw/theses/degree-dissertation/郑宽宽.pdf",
+          "sha256": "72a90d742c6fc7ed0872f072bffeba0ab0d342d7c5bfd43e478feb8953365afe",
+          "size": 5172840,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        },
+        {
+          "path": "raw/theses/gpt/query/20261119-international-nuclear-structure/105017_ZHENG_2021_archivage.pdf",
+          "sha256": "986a997b0b5bf462c009aef66e9557d3d6ab2fab5eca426d54b8b901ce485503",
+          "size": 5825451,
+          "hash_basis": "fresh-hash",
+          "source_role": "same-work-institutional-cover-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/zheng-2021-collectivity-shape-119cs-119ba-118cs.md",
+      "primary_pdf_pages": 177,
+      "credited_primary_pages": 167,
+      "excluded_physical_pdf_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        10,
+        68,
+        122,
+        146,
+        156
+      ],
+      "covered_sections": [
+        "PDF 1, 7–9: verified title, affiliation and contents",
+        "PDF 11–42: motivation, chirality and shape systematics, nuclear models and transition-rate background; prior reading reconciled",
+        "PDF 43–67: detector and separator contexts, run settings, triggerless coincidence and angular/polarization methods",
+        "PDF 69–106: Cs119 tags, lifetime, shapes and competing chirality configurations through Table 5.2",
+        "PDF 107–121: Ba119 assignments, time gates, model limits and Table 6.2",
+        "PDF 123–145: Cs118 prompt/delayed schemes, Table 7.1, band configuration comparisons",
+        "PDF 147–155, 157–177: conclusions and future work, detector-angle table, French summary, lists, bibliography and bilingual abstract"
+      ],
+      "evidence_gaps": [
+        "Several mixed-ray tables do not specify the inputs of their mixing-ratio fit. Retain original delta(M1/E2) table label and ambiguous branches.",
+        "Shape coexistence uses a model PES without a separating barrier along the sampled minimum-energy path. Revolving chirality is an interpretation with model convergence and competing data limits.",
+        "Identical or corresponding gamma/timing data in three 2021 articles do not constitute independent experiments."
+      ]
+    }
+  ],
+  "basis": "Prior chapter reading reconciled with PDF and current check of setup, data, interpretation, figures, appended pages and corresponding publication originals.",
+  "credited_primary_pages": 167,
+  "reader": "Codex; prior Gemini method request timed out",
+  "PDM_run": false
+}
