@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Lauritsen 的跟踪阵列出版版
+
+- [[lauritsen-2025-gamma-angular-formalism-tracking-arrays]] 对账 24 页出版版及已有 25 页作者稿。归档出版原件，核实 \(^{152}\mathrm{Dy}\) 432 keV 的角分布、DCO、偏振共同约束和 E1/M2 的原文归属，保留 Gaussian 公式的字面约定。
+- 累计 102 份、8844 页主件。续读 [[kramer-flecken-1989-use-dco-ratios]]，实核交换角、门角以及低自旋取向变化对比值的影响。
+
 ## 2026-11-21 — Chiara 的铜同位素宽度条件
 
 - [[chiara-2012-cu65-cu67-core-coupled-protons]] 对账 20 页。核实 \(^{65}\mathrm{Cu}\) 的七角角分布以参考线选择 \(\sigma/I=0.5\)，接近 1115 keV 的 \(^{67}\mathrm{Cu}\) 跃迁则来自另一反应的双光子角关联。

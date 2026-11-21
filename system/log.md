@@ -6766,3 +6766,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Chiara 的铜同位素角分布
 
 - 对账 20 页，核实选定取向和近同能量两线的不同采集与角量。累计 101 份、8820 页主件。
+
+## 2026-11-21 — Lauritsen 的跟踪阵列公式
+
+- 归档并对账 24 页出版版，核实取向、角关联及偏振对混合多极性的约束。累计 102 份、8844 页主件。

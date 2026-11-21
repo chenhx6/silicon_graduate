@@ -20,6 +20,9 @@ canonical_source: doi:10.1140/epja/s10050-025-01533-5
 citation_key: "lauritsen_2025_$$gamma$$ray"
 raw_file: "raw/papers/2025_Lauritsen et al_$$gamma $$-ray angular correlations, distributions and linear polarization in tracking arrays.pdf"
 raw_sha256: 5EE6A654905BE64113229D6F10567308E3995580906527AF896EB9B92E478AE0
+published_version_file: "raw/papers/gpt/query/20261121-tracking-angular-formalism/lauritsen-2025-tracking-angular-polarization-vor.pdf"
+published_version_sha256: "0d89c27c0a354b1b215f8a9196142f76bd873fe9335d64ca6318f0f303422099"
+archive_required: true
 nuclei: [152dy]
 reactions: ["108Pd(48Ca,4n)152Dy"]
 observables: [angular-distribution-coefficient, attenuation-coefficient, multipole-mixing-ratio, linear-polarization-asymmetry]
@@ -156,3 +159,10 @@ Agent self-audit：metadata81→76已由直接publisher与Crossref/Bib处置；�
 | L25-30 | 本文Q由实测ξ曲线/其calculated ideal曲线的amplitude ratio定义；60Co1333在1173 coincidence下measured+.016(.002)、calculated+.048得Q=.33(.04)，Table2另报1442 .31(.05)。这是条件γγ polarizing-reference，不等同Morse无γγ条件的source singles或L26 beam-defined reaction plane；同符号Q的迁移还需gates/response/归一合同。 | calibration-observable-and-reference-role | direct-and-boundary | manuscript printed13对Q的定义；printed16–18 Sec.5.4/Fig.17/Table2；Eq.(34) | true |
 
 Secs.5.1/5.2的P±明取Electric +、Magnetic −，与混合跃迁还需higher-multipole/K系数相位一起用。此处Q是自己folded ideal calculation的经验缩放，不把它未经转换当另一篇的mean KN Sigma；.33与Morse .196不是自动可替换常数。新增与[[longfellow-2026-gretina-energy-ordering-polarization]] L26-22/24及[[morse-2022-gretina-polarization-sensitivity]] M22-5构成定义对照，不增加独立source event数量。
+
+## 2026-11-21 — 出版版和连续角度响应
+
+- 本轮以已从缓存归档的 24 页出版版为页数与公式底本。25 页作者稿继续提供旧笔记的定位。出处、哈希和两个版本按同一作品登记。
+- 出版版 §§3–5 分别处理束向角分布、连续角度 DCO、偏振的方位调制。Fig. 6–7 的角分布响应由独立源线构建并插值。Eq. (13) 的指数沿用出版版的字面 \(2\sigma\) 分母，宽度记法带来与标准差约定的映射问题，见 L25-24/L25-28。
+- 出版版 Fig. 10、14、22 的 \(^{152}\mathrm{Dy}\) 432 keV 例采用 \(\sigma/J=0.3\) 和混合模型的 \(\delta=0.7\) 用于计算曲线。仅偏振谱可容许拉伸 M1，角分布表明存在混合，DCO 排除纯 E2。在作者联合解释中最终支持 E1/M2。这是多观测互补示例，按 E1/M2 编码，保持与本项目 E2/M1 数据的区别。
+- Table 2 的 \(Q\) 来自本文所列源例。几何响应、方位调制幅度和核布居参数各有校准适用条件。附录 C–F 给源例、DCO φ 和 caDCO 方法及部分解析式，完整计算代码和源矩阵未随本文取得。

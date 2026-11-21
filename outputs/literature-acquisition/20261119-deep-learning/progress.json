@@ -1,7 +1,7 @@
 {
   "created_at": "2026-11-19T14:50:09.195632+00:00",
   "status": "corpus-learning-active",
-  "pdf_files_registered": 1020,
+  "pdf_files_registered": 1021,
   "provisional_work_groups": 990,
   "grouping_boundary": "Not a verified unique-publication count. Byte grouping and old catalogue associations require own-identity/edition/role/scope audits. Collection sources do not establish individual full reading.",
   "raw_roots": [
@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000359",
+  "active_source": "catalogue:LIT-000512",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -367,9 +367,10 @@
     "ZOBEL83-ALIGNMENT-COMPLETE-SCIENTIFIC-SCOPE",
     "IONESCU81-FEEDING-COMPLETE-SCIENTIFIC-SCOPE",
     "CEJNAR96-SIDE-FEEDING-COMPLETE-SCIENTIFIC-SCOPE",
-    "CHIARA12-COPPER-COMPLETE-SCIENTIFIC-SCOPE"
+    "CHIARA12-COPPER-COMPLETE-SCIENTIFIC-SCOPE",
+    "LAURITSEN25-TRACKING-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 101,
+  "completed_full_sources_this_run": 102,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 997,
@@ -377,14 +378,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T04:40:41.684442+00:00",
+  "updated_at": "2026-11-21T04:46:43.408498+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 8820,
-  "current_source_note": "knowledge/sources/chiara-2012-cu65-cu67-core-coupled-protons.md",
-  "next_action": "Read Lauritsen et al. 2025 tracking-array angular and polarization formalism, EPJA s10050-025-01533-5, local 25-page copy.",
+  "completed_primary_pages_this_run": 8844,
+  "current_source_note": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+  "next_action": "Read Kramer-Flecken et al. 1989 NIM A 275 333–339 for exchange-of-angle DCO, gate roles, and low-spin alignment limits.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Chiara 2012: fixed width from reference lines, 65Cu sensitivity and separate 67Cu AC.",
-  "current_source_scientific_acceptance": "Twenty publisher pages credited; AC and AD inputs tied to their acquisitions.",
-  "source_scoped_retrieval": "Existing publisher PDF. No additional download."
+  "last_source_manager_closure": "Lauritsen 2025 VoR and manuscript: version reconciliation, tracking responses and 152Dy method examples.",
+  "current_source_scientific_acceptance": "24 publisher pages credited; 25-page author manuscript retained as same work.",
+  "source_scoped_retrieval": "Publisher PDF preserved from local verified cache, no network reacquisition."
 }

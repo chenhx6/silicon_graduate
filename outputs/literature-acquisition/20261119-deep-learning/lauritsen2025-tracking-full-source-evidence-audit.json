@@ -1,0 +1,38 @@
+{
+  "work_id": "catalogue:LIT-000512",
+  "raw_files": [
+    {
+      "path": "raw/papers/gpt/query/20261121-tracking-angular-formalism/lauritsen-2025-tracking-angular-polarization-vor.pdf",
+      "url": "https://link.springer.com/content/pdf/10.1140/epja/s10050-025-01533-5.pdf",
+      "sha256": "0d89c27c0a354b1b215f8a9196142f76bd873fe9335d64ca6318f0f303422099",
+      "size": 2248094,
+      "source_role": "publisher-version-of-record",
+      "hash_basis": "fresh-hash"
+    },
+    {
+      "path": "raw/papers/2025_Lauritsen et al_$$gamma $$-ray angular correlations, distributions and linear polarization in tracking arrays.pdf",
+      "sha256": "5ee6a654905be64113229d6f10567308e3995580906527af896eb9b92e478ae0",
+      "size": 2372132,
+      "hash_basis": "fresh-hash",
+      "source_role": "same-work-author-manuscript"
+    }
+  ],
+  "source_note": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+  "source_archive_manifest": "raw/papers/gpt/query/20261121-tracking-angular-formalism/manifest.json",
+  "primary_pdf_pages": 24,
+  "alternate_manuscript_pages": 25,
+  "credited_primary_pages": 24,
+  "covered_sections": [
+    "Publisher PDF 1–4: geometry and source angular correlations",
+    "Publisher PDF 5–12: oriented distributions, response correction, continuous DCO methods",
+    "Publisher PDF 13–18: source and beam polarization formalism and 152Dy demonstrations",
+    "Publisher PDF 19–24: functions, datasets, alternative response methods, appendices and bibliography"
+  ],
+  "evidence_gaps": [
+    "Eq. 13 published literal denominator 2 sigma requires care when comparing with a standard-deviation convention.",
+    "152Dy 432-keV joint method supports E1/M2, not an E2/M1 survey datum.",
+    "Published sketches and source calibrations do not supply raw matrices or complete response code."
+  ],
+  "reader": "Codex with prior manuscript and publisher-page audits reconciled",
+  "PDM_run": false
+}
