@@ -39,9 +39,11 @@ tags: [review, wobbling, transverse-wobbling, longitudinal-wobbling, gamma-softn
 
 馆藏底本为 arXiv:2405.02747v1，共 26 个 PDF 页。首页 arXiv 边注为 2024-05-04，作者题头印 2024-05-07。分别保留两个日期及其位置。
 
+同一作品收入 [[book-petrache-chirality-and-wobbling]] 第 2 章，DOI `10.1201/9781032691633-2`，书页 24–61（馆藏书 PDF 43–80）。引用章节时使用刊版页码与编号。已交叉核实 arXiv p. 8 Eqs. (18)–(19) 对应书 p. 34 Eqs. (2.18)–(2.19)，arXiv p. 20 的准粒子表述对应书 p. 52，arXiv Figs. 36–40 对应书 Figs. 2.36–2.40。下列原文异文在这三处刊版定位中仍存在。
+
 ## Scope and Reading Depth
 
-全文检索并精读导论、模型分类、正常形变核争议、γ-softness 章节和结论；视觉核对 Fig.46 与结论页。该文明确是作者个人视角的综述。
+原先对 arXiv 全文检索，精读导论、模型分类、正常形变核争议、软芯与结论，并视觉核对 Fig. 46。本轮补齐书籍版第 2 章书页 24–61，覆盖三轴转子、粒子耦合、近似方案、RPA、TPSM、软芯与参考文献。刊版结论按作者综述观点归属。回引的模型程序和原始实验依其各自来源核验。
 
 ## Summary
 
@@ -49,14 +51,20 @@ tags: [review, wobbling, transverse-wobbling, longitudinal-wobbling, gamma-softn
 
 ## TPSM 图表的输入与文献谱系
 
-- PDF 21–22 的 \(^{163}\mathrm{Lu}\) 算例采用 \(\epsilon=0.40\)、\(\gamma=15^\circ\)，配对隙 \(\Delta_n=0.7527\) MeV、\(\Delta_p=0.9637\) MeV。文中说明 \(\gamma\) 以实验 \(E_{\mathrm w}(21/2)\) 调整。该点属于模型输入约束。Figs. 36–39 的图注将结果连到书稿第 12 章，并鸣谢 G. Bhat 私人交流。实验点应按原测量追溯。
-- PDF 22 正文把 Fig. 40 的三核写作 \(N=74\)、\(Z=57,59,41\)，而 PDF 23 图注与图例列 \(^{131}\mathrm{Cs}\)、\(^{133}\mathrm{La}\)、\(^{135}\mathrm{Pr}\)，三者均为 \(N=76\)，对应 \(Z=55,57,59\)。可按图例识别三条曲线。正文的 “respectively” 次序不足以将三个 \(\epsilon\) 值逐核绑定，参数配对须回到第 12 章。
+- PDF 21–22 的 \(^{163}\mathrm{Lu}\) 算例采用 \(\epsilon=0.40\)、\(\gamma=15^\circ\)，配对隙 \(\Delta_n=0.7527\) MeV、\(\Delta_p=0.9637\) MeV。文中说明 \(\gamma\) 以实验 \(E_{\mathrm w}(21/2)\) 调整。该点属于模型输入约束。Figs. 36–39 的图注将结果连到书稿第 12 章，并鸣谢 G. Bhat 私人交流。刊版 Table 12.1 的 \(^{163}\mathrm{Lu}\) 列为 \((\epsilon,\epsilon',\gamma)=(0.400,0.100,14^\circ)\)，两处参数分别使用。实验点按原测量追溯。
+- PDF 22 正文把 Fig. 40 的三核写作 \(N=74\)、\(Z=57,59,41\)，而 PDF 23 图注与图例列 \(^{131}\mathrm{Cs}\)、\(^{133}\mathrm{La}\)、\(^{135}\mathrm{Pr}\)，三者均为 \(N=76\)，对应 \(Z=55,57,59\)。可按图例识别三条曲线。[[sheikh-jehangir-bhat-2024-tpsm-wobbling]] 的刊版 Table 12.1（书 p. 243）按核素列出 \((\epsilon,\epsilon',\gamma)\) 为 \((0.140,0.100,36^\circ)\)、\((0.150,0.110,36^\circ)\)、\((0.160,0.100,32^\circ)\)。这是第 12 章的逐核参数，和综述所述共同 \(\epsilon'=0.10\) 有差别。Fig. 40 实际计算所用的逐核参数还需图源确认。
 
 ## 冻结顺排的轴编号与 RPA 组态
 
 PDF 8 Eq. (18) 字面将 \(A_1\) 与被冻结分量 \(\hat J_3-j\) 配对，随后 Eq. (19) 和右栏按短轴 1 写 \(\bar A_1\)，并以 \(\hat J_2,\hat J_3\) 为横向分量。用 [[frauendorf-2014-transverse-wobbling]] PDF 6 Eqs. (11)–(15) 或明确写出物理短、中、长轴的形式复算。该综述的右栏同时声明，作者将 TW/LW 几何分类用于完整 PTR 结果，也用于能够作小振幅展开的部分自旋区间。
 
 PDF 20 右栏将 Matsuzaki 等对 \(^{163,167}\mathrm{Lu}\) 的 \(i_{13/2}\) yrast 组态写作 one-quasineutron。Ref. [65] 原文 [[matsuzaki-2002-positive-gamma-wobbling-163lu]] 的指定组态和 Ref. [66] [[matsuzaki-2004-nuclear-inertia-and-wobbling]] PDF 17 Sec. III C.2 的 \((\pi i_{13/2})^1\) 均给单准质子。对照 Fig. 31 的顺排贡献时按质子组态追溯。
+
+## 刊版的几何分类与惯量标度
+
+书 p. 41 的分类表分别列出 \(\mathbf J\) 与 \(\mathbf j\) 的进动轴。LW 列按 \(\mathbf J\) 绕中轴分类，\(\mathbf j\) 的轴可为短轴、长轴或倾斜轴。TW 栏脚注明低自旋可以先升。表中的带间 E2 量级为作者的比较指示，须结合对应的波函数和实验线。书 p. 47 Eq. (2.29) 引述 Tanabe 模型采用的总体惯量标度 \(\mathcal J_0(I)=\mathcal J_0(I-0.60)/(I+23.5)\)。对固定惯量比，该标度可以改变频率斜率而保留轴排序，比较见 [[wobbling-geometry-phonon-observable-contract]]。
+
+书 p. 39 的 \(^{133}\mathrm{Ba}\) 长轴空穴例子来自 [[rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba]]，作者引用了该文的 HFA 分析。同章 Fig. 2.18（书 p. 40）展示 \(^{130}\mathrm{Ba}\) 的 SCS 图。\(^{133}\mathrm{Ba}\) 的谱学证据回到 Ref. [39] 核查。
 
 ## Experimental or Theoretical Setup
 

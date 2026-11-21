@@ -48,7 +48,7 @@ tags: [books, triaxiality, wobbling, chirality, competing-interpretations]
 | 章 | 作者/主题 | PDF 范围 | 本轮可声称的阅读状态 |
 | --- | --- | --- | --- |
 | 1 | Petrache，历史与展望 | 20–42 | 目录定位 |
-| 2 | Frauendorf，三轴核摆动 | 43–80 | 选段精读与TW/LW公式复核（PDF pp. 43–55, 式 2.20–2.21） |
+| 2 | Frauendorf，三轴核摆动 | 43–80 | 刊版全章覆盖，DOI `10.1201/9781032691633-2`。原页异文及与 arXiv 的对应见 [[frauendorf-2024-wobbling-review]]。 |
 | 3 | Meng / Wang，核手征性 | 81–93 | 选段精读与手征几何/选择定则核查（PDF pp. 81–86） |
 | 4 | Tanabe / Sugawara-Tanabe，代数模型 | 94–109 | 目录定位 |
 | 5 | Guo / Lv，实验结果与争议 | 110–126 | 选段核查，非全章完成 |

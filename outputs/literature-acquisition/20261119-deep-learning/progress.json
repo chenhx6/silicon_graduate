@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000412",
+  "active_source": "catalogue:LIT-000689",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -459,9 +459,10 @@
     "TR18-REPLY-RMS-AND-PR-STABILITY",
     "KN06-CRPA-REDUNDANT-MODE-AND-DECAYS",
     "H02-AXIS-EXCHANGE-AND-RMS",
-    "H03-FITTED-AVERAGE-GAP-AND-DECAY-LINEAGE"
+    "H03-FITTED-AVERAGE-GAP-AND-DECAY-LINEAGE",
+    "F24-BOOK-CHAPTER-2-VERSION-AND-FULL-READ"
   ],
-  "completed_full_sources_this_run": 176,
+  "completed_full_sources_this_run": 177,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -469,14 +470,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T13:50:23.193670+00:00",
+  "updated_at": "2026-11-21T14:04:41.130848+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10518,
-  "current_source_note": "knowledge/sources/frauendorf-2024-wobbling-review.md",
-  "next_action": "Reconcile the 26-page Frauendorf 2024 arXiv v1 review, building on the targeted axes, RPA configuration, and TPSM-calibration checks. Follow existing original-source links.",
+  "completed_primary_pages_this_run": 10544,
+  "current_source_note": "knowledge/sources/sheikh-jehangir-bhat-2024-tpsm-wobbling.md",
+  "next_action": "Close the primary published Sheikh–Jehangir–Bhat chapter 12 against its local arXiv edition, focusing on the documented deformation inputs, model benchmark and shared Lu/A130 branches.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Hamamoto 2002 and Hamamoto–Hagemann 2003 coverage and reuse of Lu lines verified.",
-  "current_source_scientific_acceptance": "PDF 8 and 20–23 locally cross-checked; remaining mainline coverage assigned to Galileo.",
-  "source_scoped_retrieval": "Reused two SHA-verified publisher originals. No new download."
+  "last_source_manager_closure": "Frauendorf book chapter 2 published edition read and author version linked; arXiv and chapter counted as one work.",
+  "current_source_scientific_acceptance": "Chapter 12 Table 12.1 checked in the 2025 book edition; complete chapter coverage is pending.",
+  "source_scoped_retrieval": "Reused both the 26-page author PDF and the existing book. Read the 38-page published chapter as the scientific basis."
 }

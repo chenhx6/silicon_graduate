@@ -1,0 +1,42 @@
+{
+  "work_id": "catalogue:LIT-000412",
+  "recorded_at": "2026-11-21T14:04:41.130848+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+  "raw": {
+    "path": "raw/papers/2024_Frauendorf_Wobbling motion in triaxial nuclei.pdf",
+    "sha256": "c2b08136af03b4544de7fbfe5ea3d6677d1704e8c6e13772cb2f934da554a6ea",
+    "size": 4611994,
+    "hash_basis": "fresh-hash",
+    "source_role": "arxiv-v1-matching-author-version"
+  },
+  "matched_published_chapter": {
+    "doi": "10.1201/9781032691633-2",
+    "title": "Wobbling motion in triaxial nuclei",
+    "version": "published chapter in 2025 copyright edition",
+    "path": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+    "sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+    "book_pages": "24–61",
+    "pdf_pages": "43–80",
+    "whole_book_work_id": "catalogue:LIT-000320"
+  },
+  "credited_primary_pages": 26,
+  "book_pages_read": 38,
+  "counting": "One review work. Use the 26 standalone primary PDF pages already registered for the work. The 38 physical pages in the book are recorded as chapter coverage; no second review or full-book increment.",
+  "coverage": [
+    "Book pp. 24–31, PDF 43–50: ideal rotor, intermediate-axis separatrix, rotation and flip geometries.",
+    "Book pp. 31–50, PDF 50–69: odd-particle or hole coupling, SCS/SSS maps and interpretation of model and spectroscopy examples.",
+    "Book pp. 50–58, PDF 69–77: rotating RPA, TPSM, soft-core comparisons and Figs. 2.30–2.46.",
+    "Book pp. 58–61, PDF 77–80: conclusions and bibliography."
+  ],
+  "reader": "Gemini reported full coverage of the published chapter; Codex verified chapter identity and key passages, and compared the articles in the sources set.",
+  "evidence_boundary": [
+    "The author PDF and published chapter are versions of the same review. No new experiment or model run credited.",
+    "Book p. 34 Eqs. (2.18)–(2.19), p. 52 for Lu quasiparticle identity, and p. 55 versus Fig. 2.40 on p. 56 preserve the documented wording differences.",
+    "Book chapter 12 Table 12.1 is a table of explicit per-nuclide inputs. Some differ from the companion chapter 2 prose. Actual Fig. 2.40 numerical calculation files were not verified."
+  ],
+  "manager_corrections": [
+    "Local book records a 2025 first edition. Use the printed locators from the PDF; the mismatched HFA equations are at p. 34. Fig. 2.18 shows 130Ba, whereas 133Ba is discussed separately on p. 39. Do not infer a new experiment or strict quantitative TW criterion from the review."
+  ],
+  "next_action": "Close the primary published Sheikh–Jehangir–Bhat chapter 12 against its local arXiv edition, focusing on the documented deformation inputs, model benchmark and shared Lu/A130 branches."
+}

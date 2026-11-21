@@ -39,6 +39,10 @@ tags: [tpsm, wobbling, a130, 133la, 135pr, model-comparison]
 
 J. A. Sheikh, S. Jehangir & G. H. Bhat, “Microscopic investigation of wobbling motion in atomic nuclei using the triaxial projected shell model approach,” arXiv:2405.08368v1 (2024-05-14), subsequently published as chapter 12 of *Chirality and Wobbling in Atomic Nuclei*, Taylor & Francis, DOI [`10.1201/9781032691633-12`](https://doi.org/10.1201/9781032691633-12). The publisher landing page was reachable for metadata; the arXiv v1 PDF was obtained from [`https://arxiv.org/pdf/2405.08368`](https://arxiv.org/pdf/2405.08368). Its SHA-256 is recorded above. No matching Zotero/BibTeX citation key was verified, so the field remains blank.
 
+## Book edition
+
+The chapter of the same title by Sheikh, Jehangir and Bhat appears in [[book-petrache-chirality-and-wobbling]], ch. 12, DOI `10.1201/9781032691633-12`, book pp. 237–255 (PDF pp. 256–274). Its Table 12.1 (p. 243, PDF p. 262) supplies explicitly labelled deformation columns. The \(^{163}\mathrm{Lu}\) and \(^{133}\mathrm{La}\) entries are \((\epsilon,\epsilon',\gamma)=(0.400,0.100,14^\circ)\) and \((0.150,0.110,36^\circ)\). Compare [[frauendorf-2024-wobbling-review]] for the distinct values in the companion review. The table can identify the chapter inputs. Figure-by-figure calculation provenance remains separate.
+
 ## Scope and Reading Depth
 
 - Completed `reading_depth`: `read`.

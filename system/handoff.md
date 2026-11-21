@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Frauendorf 综述刊版及 TPSM 输入对账
+
+- [[frauendorf-2024-wobbling-review]] 核定 38 页刊版章。arXiv 与刊版作为一份作品。与 [[book-petrache-chirality-and-wobbling]] 第 12 章 Table 12.1 并读，保留 Lu 和 La 的参数异文及图源边界。
+- 累计核定 177 份、10544 个已登记主件 PDF 页。刊版章的 38 页在整书覆盖中登记一次。接续 [[sheikh-jehangir-bhat-2024-tpsm-wobbling]] 刊版第 12 章。
+
 ## 2026-11-21 — Hamamoto 的顺排轴与 \(^{163}\mathrm{Lu}\) 两声子对照
 
 - [[hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles]] 保留流体惯量的两轴互换及 \(R_x\) 的 RMS 定义。[[hamamoto-2003-quantized-wobbling-excitations-alignments]] 保留拟合平均带间能隙的自旋窗、分支比 Eq. (14) 与 Figs. 2–4 的原实验谱系。
