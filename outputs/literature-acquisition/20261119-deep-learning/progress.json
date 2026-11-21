@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000512",
+  "active_source": "catalogue:LIT-000700",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -368,9 +368,12 @@
     "IONESCU81-FEEDING-COMPLETE-SCIENTIFIC-SCOPE",
     "CEJNAR96-SIDE-FEEDING-COMPLETE-SCIENTIFIC-SCOPE",
     "CHIARA12-COPPER-COMPLETE-SCIENTIFIC-SCOPE",
-    "LAURITSEN25-TRACKING-COMPLETE-SCIENTIFIC-SCOPE"
+    "LAURITSEN25-TRACKING-COMPLETE-SCIENTIFIC-SCOPE",
+    "KRAMER89-DCO-COMPLETE-SCIENTIFIC-SCOPE",
+    "DROSTE96-PDCO-COMPLETE-SCIENTIFIC-SCOPE",
+    "STAROSTA99-PDCO-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 102,
+  "completed_full_sources_this_run": 105,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 997,
@@ -378,14 +381,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T04:46:43.408498+00:00",
+  "updated_at": "2026-11-21T04:55:28.545528+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 8844,
-  "current_source_note": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
-  "next_action": "Read Kramer-Flecken et al. 1989 NIM A 275 333–339 for exchange-of-angle DCO, gate roles, and low-spin alignment limits.",
+  "completed_primary_pages_this_run": 8870,
+  "current_source_note": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+  "next_action": "Read Diamond 1966 nuclear alignment and Draper 1970 stretched-E2 side feeding in the existing local copies.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Lauritsen 2025 VoR and manuscript: version reconciliation, tracking responses and 152Dy method examples.",
-  "current_source_scientific_acceptance": "24 publisher pages credited; 25-page author manuscript retained as same work.",
-  "source_scoped_retrieval": "Publisher PDF preserved from local verified cache, no network reacquisition."
+  "last_source_manager_closure": "DCO and PDCO foundational methods: angle conventions, fixed and varied alignment, and transition ambiguity.",
+  "current_source_scientific_acceptance": "Three primary works, 26 publisher pages; separated method linkage, theory and experiments.",
+  "source_scoped_retrieval": "Existing publisher PDFs. No new download."
 }

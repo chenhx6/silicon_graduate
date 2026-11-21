@@ -1,0 +1,93 @@
+{
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000384",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1996_Droste et al_PDCO Polarizational-directional correlation from oriented nuclei.pdf",
+          "sha256": "dbfd6796aafc53693b446533c89094a14427e25624321bc16a6edae1b5d84247",
+          "size": 700399,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        },
+        {
+          "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0168-9002_96_00426-3.pdf",
+          "sha256": "dbfd6796aafc53693b446533c89094a14427e25624321bc16a6edae1b5d84247",
+          "size": 700399,
+          "hash_basis": "fresh-hash",
+          "source_role": "byte-identical-copy"
+        }
+      ],
+      "source_note": "knowledge/sources/droste-1996-pdco-formalism.md",
+      "primary_pdf_pages": 8,
+      "credited_primary_pages": 8,
+      "covered_sections": [
+        "PDF 1–4: general polarization and angular formula, limits and cascade attenuation",
+        "PDF 5–8: Gaussian hypothesis, selected angles and illustrative contour alternatives, recommendations and references"
+      ],
+      "visual_checks": [
+        5
+      ],
+      "evidence_gaps": [
+        "Fig. 7 assumes sigma/I0=0.3. The contours are theoretical examples.",
+        "The 1999 article corrects Eq. 4; use corrected formula when consulting the response."
+      ]
+    },
+    {
+      "work_id": "catalogue:LIT-000501",
+      "raw_files": [
+        {
+          "path": "raw/papers/1989_Krämer-Flecken et al_Use of DCO ratios for spin determination in γ-γ coincidence measurements.pdf",
+          "sha256": "30cdf474db5fbfaa6a27f6d2e0d11ea39bbb61a05c8153e740f2f3dcca52220f",
+          "size": 450640,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "primary_pdf_pages": 7,
+      "credited_primary_pages": 7,
+      "covered_sections": [
+        "PDF 1–3: exchanged gate and angle response, width and normalization",
+        "PDF 4–7: OSIRIS, 178W paths, branch selection and references"
+      ],
+      "visual_checks": [
+        2
+      ],
+      "evidence_gaps": [
+        "The low-spin boundary is I ≤ 6 in the print. The source defines W arguments in gate/observed order.",
+        "Even two angular ratios can leave separate delta branches and require an intensity check."
+      ]
+    },
+    {
+      "work_id": "catalogue:LIT-000700",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1999_Starosta et al_Experimental test of the polarization direction correlation method (PDCO).pdf",
+          "sha256": "883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b",
+          "size": 187061,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "primary_pdf_pages": 11,
+      "credited_primary_pages": 11,
+      "covered_sections": [
+        "PDF 1–4: apparatus, Eq. (4) correction to Droste and Clover Q calibration",
+        "PDF 5–7: alignment reference, integrated and finite PDCO geometry",
+        "PDF 8–11: 490/647-keV data, fixed and varied widths and references"
+      ],
+      "visual_checks": [
+        9
+      ],
+      "evidence_gaps": [
+        "The 490-keV E2 versus DeltaI=0 M1/E2 ambiguity survives linked analyses.",
+        "Reference width 0.26(5) is derived from the 647 to 530 keV cascade. Fixing and fitting width occur in one paper."
+      ]
+    }
+  ],
+  "credited_primary_pages": 26,
+  "reader": "Codex with prior full-source scope reconciled",
+  "PDM_run": false
+}

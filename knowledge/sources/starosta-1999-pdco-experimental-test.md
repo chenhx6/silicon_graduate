@@ -131,3 +131,8 @@ Starosta *et al.* provide a practical validation of PDCO for modern CLOVER array
 | ST99-D23-001 | Eq1的P=(W∥−W⊥)/(W∥+W⊥)明确针对电矢量相对发射平面，Eq2为A=QP；散射计数中的Nperp/Nparallel是另一物理方向标签。任务local x′在发射平面、y′垂直时Stokes(Ix′−Iy′)/W可接这个ideal Efield定义，但数值A/P映射仍需实际同选样a/Q/eff/acceptance；不能交换parallel字样就当新观测或替某target校准。 | direct-polarization-axis-and-response-boundary | direct-original-plus-declared-coordinate-map | printed17 Eqs.1–2 and following E-field explanation | true |
 
 符号约定与光子basis桥见[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D23-001。任务purestretched E2/M1的选定low-M/90°例只作轴检查，不证明所有unstretched E/M跃迁在全部角度/取向都有固定偏振号；actualPr与EUROGAM硬件/门/校准不能因角值相近而自动共用。
+
+## 2026-11-21 — Fixed and varied alignment within the same paper
+
+- Tables 2–3 (printed pp. 23–24) apply both treatments to the 490 keV line in \(^{164}\mathrm{Yb}\). Table 2 fixes \(\sigma/I=0.26\), with the estimate \(0.26(5)\) traced to the 647→530 keV cascade in the Table 3 footnote. Table 3 varies the width and reports best values of 0.19 for stretched \(16^+\to14^+\) E2 and 0.22 for \(14^+\to14^+\) M1/E2. The two assignments remain possible. The mixed solution's \(\arctan\delta=-21^\circ\) is conditional on its spin assignment.
+- Section 7 and Table 4 examine the 647 keV E1 line. A mixed hypothesis can vary both alignment and \(\delta\). This test and the 490-keV fits share calibration and cascade information, so the fixed and varied passes are two treatments of linked experimental inputs.

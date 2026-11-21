@@ -166,3 +166,7 @@ KF89-19只解决文献身份，网页入口[DOI](https://doi.org/10.1016/0375-94
 | KF89-21 | Purry的Kr88可由DNB881391638的Jül-Spez458/作者/1988/Bonn论文记录定位；公开下载是两页目录，Sec3.2 DCO从printed46开始、Sec3.3从58开始。目录未提供其正文/宽度约定或producer，不算新独立DCO实验。 | external-reference-identity-and-availability | direct-catalog-and-original-contents | DNB881391638 MARC088/100/245/264/300/502；881391638/04 PDF1 Sec3.2 | true |
 
 本批原件/元数据只在repo tmp隔离，未修改raw或Bib。Jülich公开检索返回fast-challenge shell，未绕过；Bonn repository精确题名/authorfilter均无match；DataCite特定query零结果。Scholar超时、若干外部目录网络失败，不据此宣称全球无全文。决定`supports`较高信息的原producer追源，`limits`将目录PDF当整本论文。下一精确目标为该论文printed46的Sec3.2正文；不自由调σ解释KF89印表。所有旧人审/claim flags保持。
+
+## 2026-11-21 — Geometry and retained roots
+
+Printed pp. 333–339 were reconciled with the seven-page publisher file. On p. 334, Table 1 assumes the physical second transition is gated, \((90^\circ,38^\circ,18^\circ)\) geometry, and \(\sigma/I=0.3\). The same multipole orders can give different ratios for different spin paths. Fig. 3 shows that increasing the width can flatten the angular ratio toward unity. For the 921-keV line, two distinct gated observations still allow the small and very large candidate branches. The subsequent intensity comparison supplies additional selection information. The method paper's nominal width and gate convention are part of the observation model.

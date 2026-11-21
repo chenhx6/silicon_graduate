@@ -153,3 +153,7 @@ halfspin振幅源与本任务控制见[[rose-brink-1967-phase-defined-angular-di
 | DR96-D23-005 | printed522–523说明finitePDCO off90°的反射关系需连同directional-detector角/φ处理，不普遍等于singles的单角反射。任务取pureE2上游pointgate45°/φ0、对角Gaussian初态，再发mixed目标，75.5与104.5的photonρ差约8.65e−5；同时把gate45→135、target镜角交换则P残差6.4e−16。只是声明point-design的旋转/条件性控制，不是实际Pr的门偏差；实际array方位合并可改变它。 | original-conditional-symmetry-and-task-control | source-geometry-premise-plus-task-numerics | printed522 symmetry points2–3; printed523 singles/finite-PDCO discussion; task pr-angle-group-response-026 | true |
 
 实际角组源见[[lv-2022-evidence-against-wobbling-135pr]] L22-D23-005。组响应应先合未归一photon density再求P；任务所选例中naive均值与正确P仅差约1.9e−9，非实测效应/精度。首次检查用了未有依据的最小effect阈值，后改为相对数值噪声的非零检查并完整保留值，没有调整科学输入或声称大的实验影响。
+
+## 2026-11-21 — Width assumptions and detector-integrated contours
+
+Printed Fig. 7 (p. 524) holds \(\sigma/I_0=0.3\) fixed for illustrative spin/multipole contours in a declared geometry. The preceding discussion shows that reversing which photon carries the polarization measurement can distinguish cases that nearly overlap in the original mode. The conclusion proposes estimating alignment using detector-integrated observables on known transitions before interpreting gated contours. Full unweighted \(4\pi\) integration and finite detector acceptance have different domains. These plots are theoretical examples. The published Eq. (4) correction and the clover measurements are in [[starosta-1999-pdco-experimental-test]].

@@ -6770,3 +6770,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Lauritsen 的跟踪阵列公式
 
 - 归档并对账 24 页出版版，核实取向、角关联及偏振对混合多极性的约束。累计 102 份、8844 页主件。
+
+## 2026-11-21 — DCO 与 PDCO 的固定和可变取向
+
+- 对账三篇共 26 页，核实低自旋角比边界、分组和 Starosta 同一组数据的两种宽度处理。累计 105 份、8870 页主件。

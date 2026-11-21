@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Krämer-Flecken、Droste 与 Starosta
+
+- 核对 [[kramer-flecken-1989-use-dco-ratios]] 7 页的交换门、低自旋阈值与多解；[[droste-1996-pdco-formalism]] 8 页的固定宽度示例与有限角门；[[starosta-1999-pdco-experimental-test]] 11 页的实测偏振、勘误及对同一条线的固定和可变宽度两种处理。
+- 累计 105 份、8870 页主件。续读 Diamond 1966 的入口取向与 Draper 1970 的侧馈响应，按原文回查各宽度所描述的布居。
+
 ## 2026-11-21 — Lauritsen 的跟踪阵列出版版
 
 - [[lauritsen-2025-gamma-angular-formalism-tracking-arrays]] 对账 24 页出版版及已有 25 页作者稿。归档出版原件，核实 \(^{152}\mathrm{Dy}\) 432 keV 的角分布、DCO、偏振共同约束和 E1/M2 的原文归属，保留 Gaussian 公式的字面约定。
