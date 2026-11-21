@@ -6922,3 +6922,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — \(^{163}\mathrm{Lu}\) 一声子实验的取向标定
 
 - 核对 Ødegård 刊版的参照 E2 取向参数、选支观测与后续引用关系。累计 161 份、10340 个主件 PDF 页。
+
+## 2026-11-21 — 镥同位素寿命与薄靶分支输入
+
+- 归档 Jensen 完整谱学和 Schönwaßer 寿命刊版。核完五份作品，保留各自反应、共享数据和原表误差。累计 166 份、10412 个主件 PDF 页。

@@ -49,6 +49,8 @@ J. Domscheit et al., *Nuclear Physics A* **660**, 381-392 (1999)，DOI `10.1016/
 
 ## Summary
 
+这份 145-MeV 自支撑薄靶 Euroball 分析以能级及分支为主。印刷 p.388 的 \(Q_\mathrm{SD}=10.7(7)\) b 与 \(Q_\mathrm{ND}=6.0(5)\) b 都来自 Schmitz 1993（Ref. 2）。本文自己的 \(Q_\mathrm{ND}/Q_\mathrm{SD}=0.48(7)\) 是两态混合与 697.1/263.1-keV 分支的条件结果，697.1-keV 行有未分辨峰。此处与 [[campaign-g07-gorgen-2004-163lu-quadrupole-moments]] 及 [[schonwasser-2002-lu163-lu164-dsam-lifetimes]] 的厚靶寿命证据分别追溯。
+
 作者用 Euroball 研究 `163Lu` 高自旋态，把已知超形变带 SD1 向高、低自旋延伸并连接到正常形变态，确定其激发能、自旋和宇称；同时发现转动惯量相近的较弱 SD2。SD1 与正常形变带之间的两能带混合分析解释 SD1 的部分带外衰变；这里不是指 SD1 与 SD2 相互混合。UC 势能面计算在大形变处给出 `γ≈+20°` 与 `γ≈-15°` 的三轴极小值；因此本文题名中的“三轴超形变”主要依赖实验带性质与模型势能面的联合解释，而不是对 γ 的直接实验测量。
 
 ## Experimental or Theoretical Setup

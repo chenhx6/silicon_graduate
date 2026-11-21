@@ -67,13 +67,15 @@ The source reports comparatively strong evidence for one-phonon wobbling in TSD2
 |---|---|---|---|---|---|
 | SW03-1 | Known TSD1 was extended and connected to ND states; two new TSD bands with populations about `0.4%` and `0.1%` of the 4n channel were identified. | experimental-fact | direct | PDF pp.11-12, Figs.2-3 | true |
 | SW03-2 | Six TSD2→TSD1 transitions were observed; DCO values for 667.9 and 682.5 keV links support mixed dipole/quadrupole character. | experimental-criterion | direct | PDF p.11 | true |
-| SW03-3 | The adopted large-E2 solution yields about `92.3%` E2 for the measured links and relative `B(E2)_out/B(E2)_in` values around `0.16-0.17`. | experimental-fact | direct | PDF pp.11-12, Table 1 | true |
+| SW03-3 | The adopted branch gives \(92.3^{+5.3}_{-11.2}\%\) E2 for the analyzed links. Table 1 gives \(B(E2)_\mathrm{out}/B(E2)_\mathrm{in}=0.17(5),0.16(3),0.22(8)\) for 638.2, 654.1 and 667.9 keV. | experimental-analysis | direct | PDF 3–4 / printed pp.11–12, Table 1 | true |
 | SW03-4 | TSD1-3 have similar moments of inertia and alignments outside interaction regions. | experimental-fact | direct | PDF pp.12-14, Figs.4-5 | true |
 | SW03-5 | The particle-rotor calculation reproduces the TSD2→TSD1 relative E2 strengths for `n_w=1→0`. | model-result | direct | PDF pp.14-15, Fig.6 | true |
 | SW03-6 | TSD3 is assigned `n_w=2` mainly from isospectrality/decay systematics with `163Lu`; its weak links do not provide the same direct electromagnetic test. | author-interpretation | indirect | PDF pp.11-16 | true |
 | SW03-7 | Authors conclude `n_w=0,1,2` wobbling and stable triaxiality in the A=165 region. | author-interpretation | indirect | PDF p.16 | true |
 
 ## Nuclear Structure Information
+
+The measured DCO ratios are \(0.37(14)\) and \(0.38(13)\) for 667.9 and 682.5 keV. The authors choose the larger-E2 of the two solutions by analogy to the measured \(^{163}\mathrm{Lu}\) polarization in [[odegard-2001-evidence-wobbling-163lu]]. The \(^{165}\mathrm{Lu}\) experiment supplies its own DCO and branching evidence. Its choice between the two solutions uses the independent isotope's result. See PDF 3 / printed p.11.
 
 TSD1, TSD2 and TSD3 form the proposed n_w=0/1/2 family. TSD2 has six observed links to TSD1 and measured relative strengths for the strongest branches; TSD3 has weaker links and substantially less complete multipolarity information.
 

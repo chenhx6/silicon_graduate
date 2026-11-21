@@ -17,6 +17,9 @@ updated: 2026-11-21
 
 ## 文献收集与深入学习（2026-11）
 
+- [[jensen-2002-lu163-extended-spectroscopy]] — \(^{163}\mathrm{Lu}\) 薄靶分支与一声子角量原表。
+- [[schonwasser-2002-lu163-lu164-dsam-lifetimes]] — 相邻 Lu 同位素的 GASP 寿命、侧馈及四极矩。
+
 - [[urban-1985-xe127-angular-polarization]] — 早期 \(^{127}\mathrm{Xe}\) 角分布、线偏振双线与两支混合比。
 
 - [[delta-alignment-extraction-pilot-20261110]] — 早期混合比/取向处理试表，保留历史范围。

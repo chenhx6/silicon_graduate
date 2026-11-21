@@ -1,0 +1,125 @@
+{
+  "recorded_at": "2026-11-21T12:46:00.726776+00:00",
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000382",
+      "source_note": "knowledge/sources/domscheit-1999-triaxial-superdeformation-163lu.md",
+      "raw": {
+        "path": "raw/papers/1999_Domscheit et al_Triaxial superdeformation in 163Lu.pdf",
+        "sha256": "edde41a90870cba7451da6d93579017eeb046d060513aa69b24661ba5a72b7c8",
+        "size": 623679,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "credited_primary_pages": 12,
+      "coverage": [
+        "PDF 1–4: reaction and spectra, partial level diagram.",
+        "PDF 5–8: Tables 1/2 and band mixing, DCO scope.",
+        "PDF 9–12: cranking, interpretation and references."
+      ],
+      "experiment": "legnaro-euroball-163lu-la139-si29-145mev-thin",
+      "source_dependence": "Thin-target analysis. Historical Q_SD=10.7(7) b quotes Schmitz 1993.",
+      "limits": [
+        "No new lifetime results and no established SD2→SD1 discrete links.",
+        "697.1 keV out-of-band line unresolved."
+      ]
+    },
+    {
+      "work_id": "catalogue:LIT-000680",
+      "source_note": "knowledge/sources/schonwasser-2003-wobbling-165lu.md",
+      "raw": {
+        "path": "raw/papers/2003_Schönwaßer et al_One- and two-phonon wobbling excitations in triaxial 165Lu.pdf",
+        "sha256": "f7df3707dd9c5c5aad439f22205840f1cc85d36c43428f60ac95f1343a048ac3",
+        "size": 252885,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "credited_primary_pages": 8,
+      "coverage": [
+        "PDF 1–4: reaction and conditions, level placement, DCO, branching Table 1.",
+        "PDF 5–8: rotational comparisons, rotor and choice of analogy."
+      ],
+      "experiment": "strasbourg-euroball-lu165-la139-si30-152mev",
+      "source_dependence": "New 165Lu acquisition; adopted larger E2 branch relies on Odegard 163Lu polarization analogy.",
+      "limits": [
+        "No polarization-based selection within this acquisition."
+      ]
+    },
+    {
+      "work_id": "catalogue:LIT-000975",
+      "source_note": "knowledge/sources/campaign-g07-gorgen-2004-163lu-quadrupole-moments.md",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261107-continuation-G23/gorgen-2004-163lu-quadrupole-moments-prc.pdf",
+        "sha256": "5dbf88f286183ac22cd762e4f22a69e778d64f59e78f4cbc7533c85589ed992e",
+        "size": 56596,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "credited_primary_pages": 4,
+      "coverage": [
+        "PDF 1–2: 190-MeV Gammasphere reaction, line-shape analysis, Table I.",
+        "PDF 3–4: Table II and shared branches, quadrupole-moment interpretation and checks."
+      ],
+      "experiment": "lbnl-gammasphere-163lu-sb123-ca44-190mev",
+      "source_dependence": "New DSAM data. Absolute rate split reuses Jensen and Odegard branching/mixing. Comparison to Schonwasser is another DSAM acquisition.",
+      "limits": [
+        "51/2 central ratio differs versus direct recalculation from published Jensen A2. Table A2 has no 716.3 row.",
+        "Quoted 806-keV historical lower error is 1.1 in Gorgen, versus 1.8 for the corresponding 805-keV row in Schonwasser."
+      ]
+    },
+    {
+      "work_id": "doi:10.1016/s0375-9474(01)01459-2",
+      "source_note": "knowledge/sources/jensen-2002-lu163-extended-spectroscopy.md",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261121-lu163-lifetime-inputs/jensen-2002-lu163-extended-spectroscopy.pdf",
+        "sha256": "1e10b698f63dbcd3d437ccb6fcef5c516049fcc0075c02cd61a3f6396df32fb9",
+        "size": 660239,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "credited_primary_pages": 42,
+      "coverage": [
+        "PDF 1–5: experiment and alignment.",
+        "PDF 6–16: results, ND, TSD response and branches.",
+        "PDF 17–26: TSD interpretation and particle rotor.",
+        "PDF 27–42: Tables A1/A2 and references."
+      ],
+      "experiment": "euroball-163lu-139la-29si5n-152mev",
+      "source_dependence": "Shares 152-MeV collection and reported TSD2 response with Odegard 2001. Input data for Gorgen 2004.",
+      "limits": [
+        "P defined as the measured count difference ratio; absolute sensitivity normalization must be checked before combination.",
+        "No 716.3-keV A2 entry."
+      ]
+    },
+    {
+      "work_id": "doi:10.1007/s10050-002-8758-5",
+      "source_note": "knowledge/sources/schonwasser-2002-lu163-lu164-dsam-lifetimes.md",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261121-lu163-lifetime-inputs/schonwasser-2002-lu163-lu164-lifetimes.pdf",
+        "sha256": "e5159abd4084235fc250952b34c6cc1a96797940d7cced48bd0ecd232b9ba01a",
+        "size": 249910,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "credited_primary_pages": 6,
+      "coverage": [
+        "PDF 1–3: GASP backed-target run, Doppler fractions and feeding model.",
+        "PDF 4–6: Table 1, line shape and quoted systematics, discussion."
+      ],
+      "experiment": "legnaro-gasp-lu163-lu164-145mev-backed",
+      "source_dependence": "Backed target measurement distinct from thin-target 145-MeV Domscheit and 190-MeV Gorgen.",
+      "limits": [
+        "TSD1 only for the Lu bands. Table excludes possible stopping-power systematics."
+      ]
+    }
+  ],
+  "primary_pages_credited": 72,
+  "archived_manifest": "raw/papers/gpt/query/20261121-lu163-lifetime-inputs/manifest.json",
+  "gemini": {
+    "model": "agy-cli/gemini-3.8-flash",
+    "reasoning_effort": "high",
+    "assignment": "Domscheit original primary review and Jensen NPA targeted original reading with Codex check.",
+    "Domscheit_review": "completed by Gemini, accepted claims checked against published pp.382, 388 and Table 1. No derived claims about impossible DSAM, exact Gorgen agreement or feeding/population equivalence were imported."
+  },
+  "next_action": "Read Matsuzaki et al. 2002 163Lu local original and reconcile the published TSD RPA response with deformation and lifetime inputs."
+}

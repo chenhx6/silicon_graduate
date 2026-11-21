@@ -3,6 +3,12 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — \(^{163,165}\mathrm{Lu}\) 的分支、寿命与取向来源
+
+- [[campaign-g07-gorgen-2004-163lu-quadrupole-moments]] 的 190-MeV 寿命与 [[jensen-2002-lu163-extended-spectroscopy]] 的 152-MeV 薄靶分支分别核查。保留 \(51/2^+\) 中心比值差异、Jensen 表缺 716.3-keV 行，以及 Schönwaßer 寿命原表与 Görgen 转述的误差异文。
+- [[schonwasser-2002-lu163-lu164-dsam-lifetimes]] 与 Jensen NPA 两份刊版已归档。Gemini 主读 [[domscheit-1999-triaxial-superdeformation-163lu]]，管理核验确认其绝对矩来自历史引文。[[schonwasser-2003-wobbling-165lu]] 的大小解按原文记录，选大解依赖 \(^{163}\mathrm{Lu}\) 的偏振类比。
+- 累计 166 份、10412 个主件 PDF 页。接续馆藏 Matsuzaki 2002 \(^{163}\mathrm{Lu}\) RPA 原文。
+
 ## 2026-11-21 — Ødegård 2001 \(^{163}\mathrm{Lu}\) 一声子基准
 
 - [[odegard-2001-evidence-wobbling-163lu]] 核对四页刊版。保留从近自旋拉伸 E2 线定标的 \(\sigma/I=0.25(2)\)、偏振选择大解，以及与 Jensen 157-MeV 采集和引用强度比的关系。
