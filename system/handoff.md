@@ -3,6 +3,19 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Werner 四极不变量三件对账
+
+- [[werner-2000-ibm-quadrupole-invariants]] 的 \(K_4\) 误差来自指定 ECQF 网格。[[werner-2005-k3-five-observables]] 的百分数衡量带偏移量的精度指标，并依赖 \(Q_s(2_1^+)\) 符号与 \(Q\)-声子相位关系。两份实际定位用 arXiv v1，出版身份已核。
+- [[werner-2006-shape-invariant-structural-evolution]] 的 Gd Table I 复用早先实验数据。刊版六页，另有一张仓储封面。累计 149 份、9756 个主件 PDF 页，后续继续对账两版 Casten 的早期章。
+- Gemini `agy-cli/gemini-3.8-flash` / `high` 返回 Antigravity 账号访问停用（HTTP 403），本批由 Codex 核读。模型与版本证据范围见 `outputs/literature-acquisition/20261119-deep-learning/werner-shape-invariant-source-evidence-audit.json`。
+- 本批来源路径的归档门通过。共享工作树预检发现本地 PDM benchmark 与 research 两个清单的四项大小／哈希不符。对应清单及代码在 Git 忽略范围内，保留给原会话。本批在全局预检通过前留本地。
+
+## 2026-11-21 — Casten 实验技术与放射性束章节
+
+- 初版 Ch.10 的正文为 PDF 350–378。ARC 的完备性判断取决于可达自旋宇称范围、谱线分辨率和检出阈值，已订正 [[book-casten-nuclear-structure-simple-perspective]] 的绝对表述。
+- 二版 Ch.11 的正文为 PDF 436–470。按原页复核 \(K_4\) 双跃迁近似和 \(^{152}\mathrm{Sm}\) 个案，用 [[quadrupole-invariants-q2-q3]] 记录 \(q_2\) 强度占比与四阶闭合的不同检验条件。
+- 两版教材继续按部分覆盖计。累计 146 份、9722 页主件。下一单元为 Werner 三份馆藏的证据和版本对账。
+
 ## 2026-11-21 — 微观振动、配对坐标和奇核投影
 
 - [[book-casten-nuclear-structure-simple-perspective]] 一版 Ch.9 与二版 Ch.10 对账。单独记录 TDA 的零重叠模、RPA 正频条件、配对占据与 \(\gamma\) 振动的轨道筛选，关联 [[random-phase-approximation]]。

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-11-21T09:49:01.721554+00:00",
+  "status": "accepted-partial-textbook-coverage",
+  "reader": "Codex checked chapter text and sections, with targeted page images for ARC and K4",
+  "archive_mode": "Retained and reused existing local books",
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000001",
+      "edition": "Second edition, 2000",
+      "raw": {
+        "path": "raw/books/Nuclear Structure From A Simple Perspective edition2 Casten.pdf",
+        "sha256": "a016501ba9897abd73c34d366b93bc4435d3e4d2154c3b949b4f541128a7013c",
+        "size": 24879710,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-book-edition"
+      },
+      "coverage_added": "Second edition Ch.11: PDF 436–470, printed pp.418–452. Radioactive-beam production and selected structure diagnostics; checked Eqs. (11.16), (11.20) and Fig. 11.21 against page images.",
+      "visual_pages": [
+        467,
+        468
+      ],
+      "outside_chapter": "PDF 471 onward bibliography.",
+      "state": "partial-evidence-verified",
+      "credited_primary_pages": 0
+    },
+    {
+      "work_id": "catalogue:LIT-000306",
+      "edition": "First edition, 1990",
+      "raw": {
+        "path": "raw/books/Nuclear Structure From A Simple Perspective Casten.pdf",
+        "sha256": "9028649fb9fad55d6d624b88ef8bf8487e8462c07596d9a42bd6117552fa3ea9",
+        "size": 21071577,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-book-edition"
+      },
+      "coverage_added": "First edition Ch.10: PDF 350–378, printed pp.335–363. ARC spin/parity and energy windows, Figs. 10.4–10.6 and Table 10.1; remaining experimental techniques at chapter level.",
+      "visual_pages": [
+        362,
+        363
+      ],
+      "outside_chapter": "PDF 379 intentionally blank and PDF 380 onward bibliography.",
+      "state": "partial-evidence-verified",
+      "credited_primary_pages": 0
+    }
+  ],
+  "scope_boundary": "Visibility in an ARC spin/parity and excitation window is constrained by neutron capture selectivity, spectral overlap and background. Dominance in q2 establishes leading first-step strength, not full K4 closure. Both textbooks remain partial.",
+  "scientific_destinations": [
+    "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
+    "knowledge/observables/quadrupole-invariants-q2-q3.md"
+  ],
+  "completed_full_sources_this_run": 146,
+  "completed_primary_pages_this_run": 9722,
+  "next_action": "Complete Werner 2000, Werner et al. 2005 and Werner et al. 2006 shape-invariant reading and identity reconciliation, then audit uncovered early Casten chapters."
+}

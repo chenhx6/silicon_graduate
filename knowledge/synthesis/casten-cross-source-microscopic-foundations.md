@@ -34,7 +34,7 @@ Suhonen 的微观多体理论分别能支持什么？哪些结论可以互相校
 | Nilsson 轨道与形变驱动 | Ch. 7：斜率、回避交叉、\([Nn_z\Lambda]\Omega\)、unique-parity；PDF 262–285 | 第 8 章的壳模型/形变中文基础 | Vol. II 的变形单粒子与转子耦合是严格延伸，但当前本地选段重点为非轴转子 | Suhonen 的角动量/张量代数支持矩阵元和组态耦合 | Nilsson 图用于生成组态候选；三轴、配对、Coriolis 和投影必须后续显式加入 |
 | Coriolis、CAP 与回弯 | Ch. 8：Coriolis 混合、\(K=1/2\) 解耦、Stephens rotation alignment；PDF 286–327 | 第 8 章 §8.7：回弯与 CAP 术语、转动惯量基础；PDF 228–230 | Vol. II：非轴转子、转动近似和轴约定；selected PDF 212–214 / printed 190–192 | BCS/准粒子和微观有效相互作用用于自洽处理配对与阻塞 | 回弯/惯量膨胀可能由 CAP、band crossing、形状变化共同产生；不能用单一经验 \(\Delta(\omega)\) 认证模式 |
 | TDA/RPA/QRPA 集体振动 | Ch. 9：TDA/RPA 集体根、两准粒子 \(\gamma\) 振动；PDF 328–347 | 集体模型的中文入口，当前 source 页未登记完整 RPA 推导 | Bohr–Mottelson 的几何振动/转子参照提供宏观极限 | Ch. 9–11、18–19：TDA/RPA/QRPA；printed pp. 243–365、557–617 | \(\gamma\)-振动、wobbling 和 signature partner 的能量相似性必须用电磁跃迁和组态区别 |
-| 实验观测量映射 | Ch. 10：Coulomb excitation、ARC、fusion-evaporation、transfer；PDF 350–385 | 第 7/9 章：多极性、角关联、反应与中文术语 | 转子理论规定矩阵元和轴约定 | Ch. 6、15–18 的约化矩阵元与准粒子跃迁；printed pp. 117–153、449–594 | 实验设计必须先问“要约束矩阵元、组态、能级完备性还是高自旋布居”，不能只追求更多能级 |
+| 实验观测量映射 | Ch. 10：Coulomb excitation、ARC、fusion-evaporation、transfer；初版 PDF 350–378 | 第 7/9 章：多极性、角关联、反应与中文术语 | 转子理论规定矩阵元和轴约定 | Ch. 6、15–18 的约化矩阵元与准粒子跃迁；printed pp. 117–153、449–594 | 实验设计必须先问“要约束矩阵元、组态、能级完备性还是高自旋布居”，不能只追求更多能级 |
 
 ## Synthesis
 

@@ -1090,6 +1090,9 @@ u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶
 - [[poves-2020-limits-assigning-nuclear-shape]] — 实际v2全文六页/高阶矩与doorway、质量形状/量子涨落合同；不替代实验Cov或普适刚性裁决。
 
 - [[henderson-2020-quadrupole-invariant-convergence]] — 实际v4全文与全部六图/两表，有限E2网络/软度/混合与电荷-物质形状边界；非A≈130精度认证。
+- [[werner-2000-ibm-quadrupole-invariants]] — ECQF 网格与两支 E2 估计 \(K_4\) 的条件。
+- [[werner-2005-k3-five-observables]] — 五观测量 \(K_3\) 的截断、相位与静态矩。
+- [[werner-2006-shape-invariant-structural-evolution]] — \(^{152,154}\mathrm{Gd}\) 基态与激发 \(0^+\) 态的形变估计。
 
 - [[barth-1981-ce-local-moments-metals]] — 136Ce探针/电子Ce³⁺局域场与Curie标定，实际10页含会议反证；核衰变/取向/电子松弛分开。
 
@@ -1698,6 +1701,8 @@ u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶
 - [[li-2024-144ba-octupole-cdf-3d-lattice]] - `144Ba` PC-PK1 3D-lattice cranking CDFT；`β30≈0.128` 至 `I≈24ℏ` 的模型结果与 pairing/parity-projection 边界。
 
 ## Observables
+
+- [[quadrupole-invariants-q2-q3]] — 四极标量矩的闭合、符号约定与截断条件。
 
 - [[energy-staggering-parameter]] - chiral-candidate `S(I)=[E(I)-E(I-1)]/(2I)` 能谱量及其模型依赖。
 - [[be1-be2-ratio]] / [[energy-displacement]] - `78Br` octupole-correlation systematics 及 stable-deformation benchmark 边界。

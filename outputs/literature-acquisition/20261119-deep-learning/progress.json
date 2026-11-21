@@ -422,9 +422,13 @@
     "ELDRIDGE18-COVERAGE-RECONCILED",
     "CASTEN-90-00-MICROSCOPIC-VIBRATIONS-PARTIAL",
     "NOMURA21-PAIRING-SHAPE-PUBLISHER-GROUP",
-    "JAHANGIR26-GAMMA2-ARXIV-COVERAGE-RECONCILED"
+    "JAHANGIR26-GAMMA2-ARXIV-COVERAGE-RECONCILED",
+    "CASTEN-90-00-TECHNIQUES-RADIOACTIVE-BEAMS-PARTIAL",
+    "WERNER00-IBM-INVARIANTS-LOCAL-V1",
+    "WERNER05-K3-LOCAL-V1",
+    "WERNER06-STRUCTURAL-EVOLUTION-JOURNAL"
   ],
-  "completed_full_sources_this_run": 146,
+  "completed_full_sources_this_run": 149,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1000,
@@ -432,14 +436,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T09:28:20.481463+00:00",
+  "updated_at": "2026-11-21T09:56:24.609994+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 9722,
+  "completed_primary_pages_this_run": 9756,
   "current_source_note": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
-  "next_action": "Compare Casten first-edition experimental techniques with second-edition exotic nuclei and radioactive beams, then continue uncovered chapters.",
+  "next_action": "Audit and complete Casten early chapters, starting by mapping the existing edition-specific Ch.1–5 locators to remaining coverage.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Casten microscopic vibrations; Nomura publisher version and companion preprint; Jahangir actual arXiv v1 scope.",
-  "current_source_scientific_acceptance": "Two journal identities with 17 pages of local scientific coverage. Books remain partial.",
-  "source_scoped_retrieval": "No additional scientific PDFs integrated; local originals used. Jahangir publisher endpoints returned HTTP 401/403."
+  "last_source_manager_closure": "Three Werner shape-invariant works with locally readable versions and dependencies reconciled.",
+  "current_source_scientific_acceptance": "Three local works, 34 physical PDF pages including one repository cover. Casten remains partial.",
+  "source_scoped_retrieval": "No new PDF downloads. Two APS registrations verified via Crossref; analysis cites the two actual arXiv versions and the 2006 journal PDF."
 }

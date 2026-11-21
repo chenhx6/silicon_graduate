@@ -6858,3 +6858,11 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — 微观振动的两版对账
 
 - 两版补录 TDA/RPA 及准粒子振动。按出版版对账 Nomura，按可用预印本对账 Jahangir。累计 146 份、9722 页主件。
+
+## 2026-11-21 — Casten 实验技术和放射性束
+
+- 对账两版末章正文，订正 ARC 能级完备性及 \(K_4\) 双跃迁近似的适用范围。两版保持部分覆盖。
+
+## 2026-11-21 — Werner 四极不变量三件对账
+
+- 校核 IBM 网格的 \(K_4\)、五观测量 \(K_3\) 的相对相位和静态矩，以及 Gd 原刊 Table I 的数据沿用关系。累计 149 份、9756 个主件 PDF 页。

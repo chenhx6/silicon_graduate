@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-11-21T09:56:24.609994+00:00",
+  "status": "accepted-local-full-source-coverage",
+  "model_attempt": {
+    "requested_model": "agy-cli/gemini-3.8-flash",
+    "requested_effort": "high",
+    "status": "provider-account-disabled",
+    "provider_status": 403,
+    "bridge_status": 502,
+    "agent_id": "01a1fd7e-0ebc-7af2-b928-530dd53db5ae",
+    "accepted_claims": 0
+  },
+  "reader": "Codex from local PDF text, page-image checks and identity metadata",
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000186",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/werner2000-nucl-th-0005013.pdf",
+        "sha256": "504ec7794d11678069e5d90f243edd2b9e0ddd629ec505004740e1fdf82b31d1",
+        "size": 313089,
+        "hash_basis": "fresh-hash",
+        "source_role": "read-preprint-version"
+      },
+      "version": "arXiv:nucl-th/0005013v1",
+      "publication_doi": "10.1103/PhysRevC.61.021301",
+      "primary_pdf_pages": 10,
+      "covered_sections": [
+        "PDF 1–10, preprint pages 1–10: cubic definition, IBM closures, dynamical limits, ECQF and Eq. (30), Table I and Figs. 1–2."
+      ],
+      "visual_pages": [
+        6
+      ],
+      "dependency": "Original IBM model calculation",
+      "evidence_gaps": [
+        "APS returned HTTP 403. Numerical and equation correspondence of local preprint to publisher PDF has not been verified."
+      ],
+      "source_note": "knowledge/sources/werner-2000-ibm-quadrupole-invariants.md"
+    },
+    {
+      "work_id": "catalogue:LIT-000187",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/werner2005-five-observables.pdf",
+        "sha256": "d059ed38ef6b2dc2f3c1364ba040727d5d3ba38cc3243b66000da1610d2e8b6f",
+        "size": 305787,
+        "hash_basis": "fresh-hash",
+        "source_role": "read-preprint-version"
+      },
+      "version": "arXiv:nucl-th/0408024v1",
+      "publication_doi": "10.1103/PhysRevC.71.054314",
+      "primary_pdf_pages": 17,
+      "covered_sections": [
+        "PDF 1–17, preprint pages 1–17: matrix-element expansion, relative-sign assumption, model comparisons and prior-data Table I."
+      ],
+      "visual_pages": [
+        5
+      ],
+      "dependency": "Theory and method plus analysis of prior data; overlaps Werner 2000 model framework",
+      "evidence_gaps": [
+        "APS returned HTTP 403. Numerical and equation correspondence of local preprint to publisher PDF has not been verified."
+      ],
+      "source_note": "knowledge/sources/werner-2005-k3-five-observables.md"
+    },
+    {
+      "work_id": "catalogue:LIT-000188",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/werner2006-structural-evolution.pdf",
+        "sha256": "2c1d669b4bc962edf03e778f57ac339b882393041a3e4f6f59688675960cad9a",
+        "size": 1594844,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-journal-version-with-repository-cover"
+      },
+      "version": "Rev. Mex. Fis. S 52(4), 103–108 (2006), Redalyc cover",
+      "publication_doi": null,
+      "primary_pdf_pages": 7,
+      "covered_sections": [
+        "PDF 1 cover and PDF 2–7 article, printed pp.103–108: Q-phonon approximations and state dependence, prior-data Table I."
+      ],
+      "visual_pages": [
+        6
+      ],
+      "dependency": "IBM analysis and reused 152,154Gd data from Refs. [25,26]; not an independent experiment",
+      "evidence_gaps": [
+        "No DOI confirmed; Redalyc and journal masthead identify the work. Repository cover is one physical page, outside scientific text."
+      ],
+      "source_note": "knowledge/sources/werner-2006-shape-invariant-structural-evolution.md"
+    }
+  ],
+  "physical_page_counting": "34 main-PDF pages, incl. one Redalyc cover; scientific locators exclude cover.",
+  "completed_full_sources_this_run": 149,
+  "completed_primary_pages_this_run": 9756,
+  "overall_learning_plan": "active",
+  "next_action": "Audit and complete Casten early chapters, starting by mapping the existing edition-specific Ch.1–5 locators to remaining coverage."
+}
