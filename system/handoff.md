@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Casten 二版 GCM 换算与 Caprio 原始推导
+
+- 二版 Eq. (6.82) 的 \(d\) 正向换算系数已用 Eq. (6.81)、反向表达式和 [[caprio-2003-geometric-collective-model-scaling]] Eq. (7) 互证，保留原书字面与核算。Caprio 的 15 页 arXiv v1 已归档并核读。
+- 累计 139 份、9622 页主件。Casten 两版均保留部分覆盖。接续二版第 6 章的三轴模型、\(\gamma\) 软模型和能级交错，再对照一版。
+
 ## 2026-11-21 — Casten 的有限核相变与 A≈130 对照
 
 - [[book-casten-nuclear-structure-simple-perspective]] 核读一版 §6.7 与二版 Ch.7，核实有效价空间、区域能量斜率与单核能量比、约 120 keV 的经验转折和 \(^{152}\mathrm{Sm}\) 谱学更新。两版保留章节覆盖。

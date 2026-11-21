@@ -1,0 +1,48 @@
+{
+  "works": [
+    {
+      "work_id": "doi:10.1103/physrevc.68.054303",
+      "source_note": "knowledge/sources/caprio-2003-geometric-collective-model-scaling.md",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/query/20261121-caprio-gcm-scaling/Caprio2003-arxiv-v1.pdf",
+          "sha256": "dfc3aff09186a606de7a0f6b680df5729adf09c8fb4c5cf16e25fa5e1935a62d",
+          "size": 780695,
+          "source_role": "verified-arxiv-v1-reading-copy",
+          "hash_basis": "fresh-hash"
+        }
+      ],
+      "primary_pdf_pages": 15,
+      "credited_primary_pages": 15,
+      "covered_sections": [
+        "arXiv PDF pp.1–4: truncated potential and exact scaling, parameter conversion, stationary points.",
+        "arXiv PDF pp.5–11: parameter-space scales, spectra and transition maps, basis convergence limits.",
+        "arXiv PDF pp.11–15: 102Pd comparison, dilation appendix and references."
+      ],
+      "evidence_gaps": [
+        "Publisher endpoint returned HTTP 401, so the arXiv v1 PDF is the actual reading base.",
+        "No EPAPS mesh or producer code reproduction.",
+        "102Pd is a comparison to earlier data, with explicit transition-strength deviations."
+      ]
+    },
+    {
+      "work_id": "catalogue:LIT-000001",
+      "source_note": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
+      "chapter_pages": [
+        306,
+        314
+      ],
+      "extra_errata_page": 2,
+      "credited_primary_pages": 0,
+      "state": "partial-evidence-verified"
+    }
+  ],
+  "verified_controls": [
+    "Forward and inverse d conversion with square root of 5 round-trip",
+    "Printed square root of 2 conversion yields extra factor sqrt(5/2)",
+    "Degenerate minima at d=8/9 and stationary-point merger at d=1"
+  ],
+  "reader": "Codex",
+  "archive_manifest": "raw/papers/gpt/query/20261121-caprio-gcm-scaling/manifest.json",
+  "PDM_run": false
+}

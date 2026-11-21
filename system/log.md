@@ -6838,3 +6838,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — 区域谱学转折与有限核相变
 
 - Casten 两版增加结构演化的章节覆盖。核读 1999 年原始分析的 16 页版本，并对账 Nomura 等 2017 年的 13 页版本。区分区域能量斜率、指定 IBM 路径的势能最低点与奇核态依赖不变量。累计 138 份、9607 页主件。
+
+## 2026-11-21 — 几何集体模型缩放和参数换算
+
+- 对账 Casten 二版 §6.7 与 Caprio 的 15 页 arXiv v1。核实 \(d\) 换算的两版打印系数、经典共存和径向驻点条件。累计 139 份、9622 页主件。

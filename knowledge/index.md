@@ -35,6 +35,7 @@ updated: 2026-11-21
 - [[davies-hamilton-1968-bi211-polarization-mixing]] — ²¹¹Bi 的未分辨级联极化和 702 keV 混合比双符号区间。
 - [[aoki-1982-ta177-ge-polarimetry]] — ¹⁷⁷Ta 的极化调制、实测角分布系数与无需假定布居宽度的反演。
 - [[casten-kusnezov-zamfir-1999-finite-nuclear-phase-transitions]] — 有限核的区域能量转折、质量关联与 IBM 势能面。
+- [[caprio-2003-geometric-collective-model-scaling]] — GCM 的比例变换、经典势能极值和 ¹⁰²Pd 的比较边界。
 - [[krien-1970-po215-alpha-gamma-polarization]] — ²¹⁵Po 的 α–γ 偏振系数、内转换和大 E2 成分的来源。
 - [[bauer-deutsch-1960-co55-fe55-polarization]] — ⁵⁵Fe 的低温取向、角分布双根与实测偏振选支。
 - [[zheng-2021-collectivity-shape-119cs-119ba-118cs]] — JUROGAM 3 的实际矩阵角组、偏振不对称与 ¹¹⁹Ba 两根。
