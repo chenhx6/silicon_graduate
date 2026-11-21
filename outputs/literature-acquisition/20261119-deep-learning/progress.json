@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000350",
+  "active_source": "catalogue:LIT-000349",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -461,9 +461,11 @@
     "H02-AXIS-EXCHANGE-AND-RMS",
     "H03-FITTED-AVERAGE-GAP-AND-DECAY-LINEAGE",
     "F24-BOOK-CHAPTER-2-VERSION-AND-FULL-READ",
-    "SJB12-TPSM-BOOK-CHAPTER-COVERAGE"
+    "SJB12-TPSM-BOOK-CHAPTER-COVERAGE",
+    "CH16-FOURIER-MEASURE-AND-KINETIC-TERMS",
+    "WU18-LOCAL-E2-SPIN-CHANNEL-AND-AVERAGING"
   ],
-  "completed_full_sources_this_run": 178,
+  "completed_full_sources_this_run": 180,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -471,14 +473,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T14:19:28.504384+00:00",
+  "updated_at": "2026-11-21T14:24:31.475808+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10569,
-  "current_source_note": "knowledge/sources/chen-2016-two-dimensional-collective-chiral-wobbling.md",
-  "next_action": "Reconcile Chen Part I and Wu Part II from their already-held official author editions, focusing on collective mass, periodic boundaries and the observable contract.",
+  "completed_primary_pages_this_run": 10616,
+  "current_source_note": "knowledge/sources/chen-2013-collective-hamiltonian-chiral-modes.md",
+  "next_action": "Compare the archived Chen 2013 1D CH original box domain, assumed vibrational mass and collective angle against 2016 and 2018.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Sheikh, Jehangir and Bhat published chapter 12 matched and read; localized Au column/caption differences and 167Lu mismatch.",
-  "current_source_scientific_acceptance": "Two already held author-version PDFs verified by SHA. Gemini reading and manager reconciliation in progress.",
-  "source_scoped_retrieval": "The printed book chapter supplied the reading base. The 25-page arXiv handoff and Table 1 were checked locally."
+  "last_source_manager_closure": "Chen 2016 and Wu 2018 official author editions, measure/kinetic and dynamical/observable comparisons.",
+  "current_source_scientific_acceptance": "Chen 2013 identity and existing coverage pending reconciliation.",
+  "source_scoped_retrieval": "Reused two existing SHA-verified official author copies."
 }

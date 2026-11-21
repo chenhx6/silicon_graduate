@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — 二维集体质量与带内电磁率
+
+- [[chen-2016-two-dimensional-collective-chiral-wobbling]] 与 [[wu-2018-two-dimensional-collective-electromagnetic-transitions]] 核定本地 30 页、17 页作者版本。解析核对 \(w^{-1/4}\) 在重叠积分中的相消，与动能导数保留的质量项。区分 Wu 的两种 E2 自旋变化以及局部率与取向平均。
+- 累计核定 180 份、10616 个主件 PDF 页。接续 [[chen-2013-collective-hamiltonian-chiral-modes]] 的原始一维边界和质量处方。
+
 ## 2026-11-21 — Sheikh 等 TPSM 刊版第 12 章
 
 - [[sheikh-jehangir-bhat-2024-tpsm-wobbling]] 核定刊版 19 页。保留短轴 \(K\) 投影的基底含义、\(^{167}\mathrm{Lu}\) 比值偏差，以及 Table 12.1 的 Au 栏与星号脚注。第 2、12 章均已登记至 [[book-corpus-coverage-ledger]]。

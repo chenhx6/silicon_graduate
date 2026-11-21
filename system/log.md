@@ -6954,3 +6954,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Sheikh 等 TPSM 刊版核查
 
 - 核定同一作品的 19 页第 12 章与 25 页作者版关系。区分短轴投影组态、配置混合后跃迁及原实验比值。累计 178 份、10569 个已登记主件 PDF 页。
+
+## 2026-11-21 — 二维集体量子化与概率平均电磁率
+
+- 对照 Chen 2016 与 Wu 2018 两份作者版，复核质量测度、局部率的两个 E2 通道和取向分布。累计 180 份、10616 个主件 PDF 页。

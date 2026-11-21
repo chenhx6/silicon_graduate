@@ -1,0 +1,46 @@
+{
+  "recorded_at": "2026-11-21T14:24:31.475808+00:00",
+  "status": "scientific-reading-covered",
+  "reader": "Earlier full-read evidence, Gemini full-read report and Codex source/analytic verification.",
+  "completed_works": [
+    {
+      "work_id": "catalogue:LIT-000350",
+      "unit_id": "CH16-FOURIER-MEASURE-AND-KINETIC-TERMS",
+      "source_note": "knowledge/sources/chen-2016-two-dimensional-collective-chiral-wobbling.md",
+      "raw": {
+        "path": "raw/papers/2016_Chen_TwoDimensionalCollectiveChiralWobbling_arxiv160906967v2.pdf",
+        "sha256": "158efcad3d6f9c69ec61ee3a427ace3aa54ba0e6be7dfbb6419226f3078332be",
+        "size": 6543288,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-official-arxiv-v2-reading-copy"
+      },
+      "local_version": "arXiv:1609.06967v2",
+      "coverage": "PDF 1–30, Secs. I–V and references. Locally checked pp. 4, 6–8, 16 and the periodic comparison.",
+      "evidence_boundary": "The w exponent cancels the overlap measure. Kinetic derivatives also act on w, and the mixed dynamical term and its domain must still be handled.",
+      "credited_primary_pages": 30
+    },
+    {
+      "work_id": "catalogue:LIT-000763",
+      "unit_id": "WU18-LOCAL-E2-SPIN-CHANNEL-AND-AVERAGING",
+      "source_note": "knowledge/sources/wu-2018-two-dimensional-collective-electromagnetic-transitions.md",
+      "raw": {
+        "path": "raw/papers/2018_Wu_TwoDimensionalCollectiveEM_arxiv180904418v2.pdf",
+        "sha256": "7d7c12ebc754f23721bd5367acc050c54dd3cf0f03f2f7480de407c1f3493dcb",
+        "size": 276035,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-official-arxiv-v2-reading-copy"
+      },
+      "local_version": "arXiv:1809.04418v2",
+      "coverage": "PDF 1–17, Secs. I–V, Figs. 1–4 and references. Locally checked pp. 5–8, 11–13 and the two local E2 spin channels.",
+      "evidence_boundary": "The fixed-input local expansion at the J-axis gives nonzero DeltaI=1 at second order in offsets. The roughly 0.05 E2 scale belongs to DeltaI=2. Probability averaging does not recover cross-state phase.",
+      "credited_primary_pages": 17
+    }
+  ],
+  "credited_primary_pages": 47,
+  "manager_corrections": [
+    "Locators are arXiv physical page numbers, not PRC article page numbers. Use measured SHA for both author copies.",
+    "Wu Eq. (8) and Fig. 3 distinguish the DeltaI=1 local zero from the DeltaI=2 platform.",
+    "Chen w^-1/4 cancels the overlap measure only. Neither derivative cancellation nor general endpoint Hermiticity follows."
+  ],
+  "next_action": "Compare the archived Chen 2013 1D CH original box domain, assumed vibrational mass and collective angle against 2016 and 2018."
+}

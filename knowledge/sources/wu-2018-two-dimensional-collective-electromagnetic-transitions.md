@@ -83,6 +83,10 @@ $$\overline B_i[X]=\int_0^\pi d\theta\int_{-\pi/2}^{\pi/2}d\varphi\,
 
 本征态的overallphase本来任意，并不是待测的band绝对phase。这里缺的是完整内部相干幅、不同初末态核及E/M算符的一致约定；good-I投影的具体对照见[[chen-2017-128cs-angular-momentum-projection-chirality]] CH17-D24-001–004，不能据其框架直接补本文未算的量。
 
+### Local angular dependence at the rotation axis
+
+At \((\theta_J,\varphi_J)=(\pi/2,\pi/2)\) and the stated \(\gamma=-30^\circ\), \(Q_0=1\,e\,\mathrm b\), Eq. (7) gives \(B(E2;I\to I-2)=5/(32\pi)\,e^2\mathrm b^2\). Equation (8) gives zero for \(I\to I-1\) at the same orientation. Expanding Eq. (8) to second order in \(u=\theta_J-\pi/2\) and \(v=\varphi_J-\pi/2\) gives \(5(u^2+v^2)/(32\pi)\,e^2\mathrm b^2\). This local expansion shows how small fluctuations can yield a finite \(I\to I-1\) value while leaving the \(I\to I-2\) scale finite. The offsets describe \(\mathbf J\), and their probability distribution must be obtained from the collective state through the local map in Eqs. (9)–(10). Read the Fig. 3 panels by spin change. The roughly \(0.05\,e^2\mathrm b^2\) scale belongs to \(I\to I-2\).
+
 ## Source Independence
 
 Ref1为[[chen-2016-two-dimensional-collective-chiral-wobbling]]、Ref70为[[chen-2013-collective-hamiltonian-chiral-modes]]，共同参数还沿[[frauendorf-meng-1997-tilted-rotation-chirality]]。PRM交错参考Koike2004谱系，不增加[[mukhopadhyay-2007-135nd-chiral-vibration-static]]实验证据票。这里新增的是某种EM输出方法及其局限，不是实际核的B/τ重测。

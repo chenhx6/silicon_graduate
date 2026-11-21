@@ -87,6 +87,10 @@ Figs9/10使用Jcoll=∫√w abs(Ψcoll)² JTAC dθdφ及Icoll=Jcoll−1/2；JTAC
 
 Fig8晚期再劈裂是实际模型结果。CH13原box的结果与本篇periodic1D/2D不是同一个边界问题；本篇也没有给跨两文的固定mass/边界逐项控制、projected mode-overlap或实际目标核EM网络。因而本轮结论是方法层partial closure。
 
+### Fourier normalization and kinetic terms
+
+In arXiv v2 pp. 7–8, Eqs. (21)–(25), the factor \(w^{-1/4}\) on each Fourier basis function cancels \(\sqrt w\) in an overlap integral. For the kinetic form from Eq. (5), with \(\Psi=w^{-1/4}f\) and regular positive \(w\), a derivative instead gives \(w^{-1/4}(\partial_a f-f\,\partial_a\ln w/4)\). The mixed kinetic term and the derivatives of \(w\) therefore enter the matrix elements when the mass varies. Periodicity of the basis supports boundary cancellation when the coefficients and flux match, with endpoint degeneracy requiring its own check.
+
 ## Source Independence
 
 单篇方法计算，不是新采集。它Ref44为[[chen-2013-collective-hamiltonian-chiral-modes]]，Ref1为[[frauendorf-meng-1997-tilted-rotation-chirality]]；其PRM示意benchmark不能算[[mukhopadhyay-2007-135nd-chiral-vibration-static]]的独立实验复测。本CH16来源单元不援引后文充本文输出；随后同日另读的2018 PartII见[[wu-2018-two-dimensional-collective-electromagnetic-transitions]] WU18-D24-001/006/009，只有带内局部率平均，不能追认本篇已给完整相干EM网络。
