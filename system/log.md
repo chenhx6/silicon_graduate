@@ -6882,3 +6882,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Banik 2020 刊版核查
 
 - 核对 15 页出版原件，记录 1021.3-keV 行的宇称与 E2 标签问题及其影响的门。累计 151 份、10259 个主件 PDF 页。
+
+## 2026-11-21 — Chakraborty 2023 刊版与同数据关系
+
+- 核对 8 页刊版，预印本并入同一作品。记录两次分析中的相对强度和宇称异文。累计 152 份、10267 个主件 PDF 页。

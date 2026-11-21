@@ -205,3 +205,12 @@ Day30 定向审计确认：Chakraborty 2023 的实验数据源于对 Banik 2020 
 |---|---|---|---|---|---|
 | C23-D30-1 | Chakraborty 2023 与 Banik 2020、Jehangir 2022 共享同一 VECC INGA 数据集；本篇属于 dependent-reanalysis，不构成第二次独立实验确认。 | lineage-boundary | direct | printed 064318-2 Sec. II; Ref. [22] | true |
 | C23-D30-2 | 881.8-keV 跃迁由 `RDCO=0.64(11)` 导出的 $\delta$ 存在双重数学根；在偏振缺失及 880.1-keV 双线未分离情况下，公开数据无法唯一确定多极混合比。 | derived-observable-and-branch-boundary | direct-and-derived | Table I, printed 064318-3; Fig. 5, printed 064318-4 | true |
+
+## 出版版与旧表数值复核
+
+本页以 APS 刊版 8 页为阅读主件。另件 `arXiv:2311.09713v1` 保留为同文版本。两份的 Table I 均印有下列数值。刊版 Sec. II 将后向角写成束流坐标的 125°，与 Banik 2020 的「后向 55°」互为补角。2023 工作使用同一批采集，重排符合谱并用 ANGCOR 曲线提取候选混合比。
+
+- 188.8 和 389.0 keV 行在 Banik 2020 Table I 的 \(I_\gamma\) 分别为 \(31(2)\) 和 \(24(1)\)，Chakraborty 2023 给 \(3.1(2)\) 和 \(2.4(1)\)。两文的 642 keV 参照强度都约为 100。2023 表注说明已知线参照 2020，表注没有解释这两行的十倍差异。204.8 keV 同一 1805.6-keV 初态在两份表中的末态宇称符号也不同。两文应按原表和版本成对引用，暂留归一与指认疑点。
+- 881.8 keV 行的偏振栏为空。Fig. 5 的 \(\delta=+0.09(8)\) 是作者所报小解。Fig. 4 中 1055 keV 的旧角分布来自 Ref. [20]，只能作为该跃迁的独立方法约束。
+
+定位：本刊版 PDF 2–4 的 Secs. II–III、Table I、Figs. 4–5。旧表见 [[banik-2020-131xe-multiple-band-structures]]，刊版 PDF 5–6。态与实验的对应关系见 [[131xe-low-spin-partner-crosswalk]]。

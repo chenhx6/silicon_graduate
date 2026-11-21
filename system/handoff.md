@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Chakraborty 2023 \(^{131}\mathrm{Xe}\) 同数据复核
+
+- [[chakraborty-2023-131xe-wobbling-origin]] 核对刊版 8 页及预印本关键表行。188.8、389.0 keV 行与 Banik 2020 的强度相差十倍，204.8 keV 末态宇称也有异文。保留原表、同一采集及混合比选支条件。
+- 累计 152 份、10267 个主件 PDF 页。接续 [[rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba]] 的原文和实验来源。
+
 ## 2026-11-21 — Banik 2020 \(^{131}\mathrm{Xe}\) 刊版
 
 - [[banik-2020-131xe-multiple-band-structures]] 核对 15 页刊版、DCO 角组、偏振不对称度与 Harris 参考。保留 1021.3 keV 行的 E2／变宇称冲突及其作为 575.9-keV 行的门所带来的不确定性。

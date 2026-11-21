@@ -1,0 +1,48 @@
+{
+  "status": "accepted-bounded-full-source-reconciliation",
+  "recorded_at": "2026-11-21T11:01:42.386019+00:00",
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000026",
+      "raw": {
+        "path": "raw/papers/2023_Chakraborty et al_Search for the origin of wobbling motion in the A ≈ 130 region.pdf",
+        "sha256": "9a871d56cd2752eed9e09f1f8fc60686cae3c23fe63efc2255846f2e38ac72a1",
+        "size": 3152551,
+        "hash_basis": "fresh-hash",
+        "source_role": "preprint-linked-to-published"
+      },
+      "role": "preprint-linked-to-published",
+      "credited_pages": 0
+    },
+    {
+      "work_id": "doi:10.1103/physrevc.107.064318",
+      "raw": {
+        "path": "raw/papers/2023_Chakraborty et al_Search for the origin of wobbling motion in the A ≈ 130 region The case of Xe 131.pdf",
+        "sha256": "730db39eb9a5aecd3bbce1dce3cb9c32829eb2f4a2062ee31c59ddc4d52bd9ff",
+        "size": 1710207,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "role": "publisher-version",
+      "credited_pages": 8
+    }
+  ],
+  "source_note": "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+  "reader": "Codex; used existing evidence review and local originals. Gemini backend account unavailable.",
+  "covered_sections": [
+    "APS PDF 1–2: article identity, experiment dependency and array angle convention.",
+    "APS PDF 3–4: Table I and Figs. 2–5, including line placements, adopted inputs and DCO roots.",
+    "APS PDF 5–8: systematics, candidate configurations, TPRM comparison, conclusions, cited inputs."
+  ],
+  "visual_pages_checked": [
+    3,
+    4
+  ],
+  "dependency": "Original 2020 and reanalysis 2023 are two works and one primary acquisition.",
+  "evidence_gaps": [
+    "Relative intensity discrepancies by factor ten at 188.8 and 389.0 keV versus Banik Table I; both versions of Chakraborty print the same values.",
+    "204.8-keV final-state parity differs for the same tabulated parent.",
+    "No polarization asymmetry entry at 881.8 keV; published small fitted root remains conditional."
+  ],
+  "next_action": "Reconcile the local 133Ba multiphonon-candidate evidence against the 131Xe comparison, starting from publication and experimental provenance."
+}
