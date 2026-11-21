@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — 原始方向关联与高自旋近似
+
+- [[krane-1973-directional-correlations-oriented-states]] 56 页、[[bargholtz-1987-high-spin-gamma-gamma-directional-correlations]] 8 页及 [[krane-steffen-1970-cd110-mixing-ratios]] 11 页已对账。核实普通与广义系数、有限自旋控制和 \(^{110}\mathrm{Cd}\) 的多级联本底。
+- 累计 123 份、9218 页主件。续核 Rose–Brink 的相位定义和 Yamazaki 的对齐态角分布表。
+
 ## 2026-11-21 — EXILL 的大模混合比和条件偏振
 
 - [[urban-2023-exill-directional-polarization]] 对账 36 页 PDF 的 35 页出版内容。核实 \(^{132}\mathrm{Xe}\) 630.2 keV 的数值联合解、\(^{152}\mathrm{Sm}\) 的大模数据及不一致案例，以及 \(^{133}\mathrm{Cs}\) 用伴线偏振定混合号。

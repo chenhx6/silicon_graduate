@@ -6802,3 +6802,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Urban 的 EXILL 角关联与偏振
 
 - 对账 35 页出版内容，区分相对开角、两光子条件和偏振的数值来源。累计 120 份、9143 页主件。
+
+## 2026-11-21 — 方向关联原始方法和 \(^{110}\mathrm{Cd}\)
+
+- 对账三篇共 75 页，核对系数表范围、高自旋近似的几何条件和间接级联的原始证据。累计 123 份、9218 页主件。

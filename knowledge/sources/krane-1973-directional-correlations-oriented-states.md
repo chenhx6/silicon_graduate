@@ -88,3 +88,7 @@ Orientation depends on reaction/cryogenic mechanism and feeding; odd-rank terms,
 ## Extracted Pages
 
 - Methods: [[angular-correlation]], [[angular-distribution]], [[two-point-angular-correlation-ratio]]。
+
+## 2026-11-21 — Geometry and tabulated coefficient scope
+
+Printed pp. 351–368 give the derivation, detector geometries and a worked example, and pp. 369–406 give the generalized \(F\) tables. Section VII limits the tabulation to even ranks through four, spins through 20, and multipoles through three. The stated spin-order symmetry and its phase map the supplied ordering to the other order. The worked example's coefficients are geometry and cascade dependent. This paper therefore provides a reference response, with a gate-ratio observable requiring the detector roles and geometry to be supplied separately.

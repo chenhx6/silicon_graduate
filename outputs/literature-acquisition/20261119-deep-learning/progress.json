@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.1088/1748-0221/18/11/p11031",
+  "active_source": "catalogue:LIT-000504",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -386,9 +386,12 @@
     "MORSE22-GRETINA-LOCAL-PREPRINT-SCIENTIFIC-SCOPE",
     "BIZZETI15-AGATA-COMPLETE-SCIENTIFIC-SCOPE",
     "LONGFELLOW26-GRETINA-COMPLETE-SCIENTIFIC-SCOPE",
-    "URBAN23-EXILL-COMPLETE-SCIENTIFIC-SCOPE"
+    "URBAN23-EXILL-COMPLETE-SCIENTIFIC-SCOPE",
+    "KSW73-DCO-COMPLETE-SCIENTIFIC-SCOPE",
+    "BARGHOLTZ87-HIGHSPIN-COMPLETE-SCIENTIFIC-SCOPE",
+    "KRANE70-CD110-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 120,
+  "completed_full_sources_this_run": 123,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 997,
@@ -396,14 +399,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T05:50:17.685756+00:00",
+  "updated_at": "2026-11-21T05:56:35.148957+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 9143,
-  "current_source_note": "knowledge/sources/urban-2023-exill-directional-polarization.md",
-  "next_action": "Read Krane 1973 directional correlations and Bargholtz 1987 high-spin simplifications in local publisher files.",
+  "completed_primary_pages_this_run": 9218,
+  "current_source_note": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+  "next_action": "Read Rose–Brink 1967 and Yamazaki aligned-state angular tables from the local queue; verify sign/order and tabulated domains.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Urban 2023: conditional polarization, physical angular inputs, and large mixing ratios in Xe and Sm.",
-  "current_source_scientific_acceptance": "35 publisher pages credited; IOP access wrapper excluded.",
-  "source_scoped_retrieval": "Existing local publisher PDF, no new download."
+  "last_source_manager_closure": "Krane/Steffen/Wheeler and Bargholtz methods; original 110Cd multi-cascade profile and phase.",
+  "current_source_scientific_acceptance": "Three works, 75 primary pages. Numerical coefficient table domain and structure audited without regenerated table.",
+  "source_scoped_retrieval": "Existing local publisher PDFs. No additional download."
 }

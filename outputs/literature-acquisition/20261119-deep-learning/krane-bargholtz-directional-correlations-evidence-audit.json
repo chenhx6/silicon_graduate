@@ -1,0 +1,73 @@
+{
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000288",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/DCO/1987_Bargholtz_Tegnér_Gamma-gamma directional correlations.pdf",
+          "sha256": "1be5667433cc44b2c53f67e5f23a0c0721d2e56d6cc6c284d5da807badbcff17",
+          "size": 415748,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+      "primary_pdf_pages": 8,
+      "credited_primary_pages": 8,
+      "covered_sections": [
+        "PDF 1–4: exact formalism and high-spin simplification",
+        "PDF 5–8: finite-spin comparison, triple correlation, proof and references"
+      ],
+      "evidence_gaps": [
+        "Benchmark geometry and spin range do not provide arbitrary finite-spin error bounds."
+      ]
+    },
+    {
+      "work_id": "catalogue:LIT-000503",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/DCO/1973_Krane et al_Directional correlations of gamma radiations emitted from nuclear states.pdf",
+          "sha256": "66f9b04ad093223c648036063e3e9631317660b532b2b77681089d9d79853848",
+          "size": 3264340,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/krane-1973-directional-correlations-oriented-states.md",
+      "primary_pdf_pages": 56,
+      "credited_primary_pages": 56,
+      "covered_sections": [
+        "PDF 1–18: original orientation and DCO formalism, detector geometries and worked example",
+        "PDF 19–56: generalized coefficient definitions and tables, notation and domain"
+      ],
+      "evidence_gaps": [
+        "Tables checked for scope and structure rather than regenerated line-by-line. No new independent experiment."
+      ]
+    },
+    {
+      "work_id": "catalogue:LIT-000504",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1970_Krane et al_Determination of the E2M1 Multipole Mixing Ratios of the Gamma Transitions in Cd110.pdf",
+          "sha256": "ab82cb483425ba984a8c30b35f118b4713e186d53899fcbbba6a19dd444377f1",
+          "size": 775520,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "primary_pdf_pages": 11,
+      "credited_primary_pages": 11,
+      "covered_sections": [
+        "PDF 1–5: context, operator phase, cascade and Ge(Li) apparatus",
+        "PDF 6–11: Compton background, correlation coefficients, Table III data and conclusions"
+      ],
+      "evidence_gaps": [
+        "Directional-coincidence data alone in this source. No line polarimetry."
+      ]
+    }
+  ],
+  "credited_primary_pages": 75,
+  "reader": "Codex with existing full-source records reconciled",
+  "PDM_run": false
+}

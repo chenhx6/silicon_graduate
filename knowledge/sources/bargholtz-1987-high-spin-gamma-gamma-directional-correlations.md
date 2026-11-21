@@ -146,3 +146,7 @@ Bargholtz and Tegnér derive a high-spin limit for γγ directional correlations
 ## Non-source Notes and Follow-up
 
 - Next: add BT87 to the angular-correlation method page and continue HS-016.
+
+## 2026-11-21 — Finite-spin benchmark geometry
+
+Printed Fig. 2 (p. 516) compares exact, finite-spin approximate and infinite-spin results under complete alignment, at initial spin 20 for the approximation differences, with polar angle \(45^\circ\) for the second photon, common azimuth, and a stretched quadrupole second transition. There are no unobserved intermediate transitions in this control. The five cases vary the first transition's spin change and pure multipole. This scope matters when transferring the simplification to mixed transitions and different detector groups.

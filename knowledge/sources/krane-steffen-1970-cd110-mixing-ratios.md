@@ -147,3 +147,7 @@ TableIII的15行中8行为finite mixed ratio，7个pureE2限值保留∞（在�
 ### 相同条件下的外部C++实现检查
 
 本日随后实际构建[[alpaca-2023-v105-angular-correlation-code]]的固定2023代码对象，AC23-5/6给first/last角色映射和独立GSL数字路径核验。无取向1505两路径、单一764–687–818中间marginal及polarizedcontrols与本任务trace相容，支持当前条件forwardmodel的实现。它未提供TableI/II的actualresponse/Σ或fullnetworkbranchweights，因此不把上面的印刷差异消除，也不将codeagreement当另一项110Cd测量。
+
+## 2026-11-21 — Indirect correlations and background
+
+The eleven-page publisher article uses 1–2, 1–3 and 1–4 directional correlations following \(^{110}\mathrm{Ag}\) decay. The 658-keV gate example in Fig. 4 shows a peak in its own gated spectrum caused by Compton background from other cascades. The adjacent window provides the subtraction control. The fitted mixing ratios draw on multiple paths, with the unobserved transitions entering through attenuation and previously established mixing ratios. The source reports these directional data and explicit phases without a separate physical linear-polarization measurement.
