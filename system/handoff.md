@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — 偶偶核 ¹³⁶Nd 的偏振与混合比
+
+- [[lv-2022-transverse-wobbling-136nd]] 对账 7 页原刊及 1 页馆藏封面，核实 751 keV 的 \(A_P\)、\(P\)、\(R_{\rm ac}\) 与 \(\delta\)，记录另外三条连接线的偏振缺口并回链同次采集。
+- 累计 85 份、8537 页主件。续读 [[lv-bingfeng-2019-chirality-136nd-135nd-thesis]]，确认两核的数据谱系和仪器校准细节。馆藏论文 164 页，原件 SHA 已核。
+
 ## 2026-11-21 — ¹³⁵Nd 的角比与偏振数据身份
 
 - [[lv-2021-tilted-precession-135nd]] 对账 14 页原刊。分别记录交换门 \(R_{\rm DCO}\)、合并角组 \(R_{\rm ADO}\) 和 \(A_P\)。核实两条 518 keV 线的自旋归属，保留 Fig. 5(c) 的 618 keV 标题与 560–570 keV 横轴异文。

@@ -6718,3 +6718,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Lv 的 ¹³⁵Nd 两种角比和偏振观测
 
 - 对账 14 页，区分两条 518 keV 线，核实偏振列的量、角比分组和图 5(c) 的标注异文。累计 84 份、8530 页主件，续读偶偶核 `136Nd`。
+
+## 2026-11-21 — ¹³⁶Nd 的 751 keV 线
+
+- 对账 7 页原刊，核实偏振、角比与联合混合比，封面不计入。累计 85 份、8537 页主件，续读吕冰峰的 ¹³⁶Nd／¹³⁵Nd 学位论文。

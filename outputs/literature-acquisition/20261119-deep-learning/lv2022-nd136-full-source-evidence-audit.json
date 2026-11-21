@@ -1,0 +1,35 @@
+{
+  "work_id": "doi:10.1103/physrevc.105.034302",
+  "raw_files": [
+    {
+      "path": "raw/papers/2022_Lv et al_Experimental evidence for transverse wobbling bands in Nd 136.pdf",
+      "sha256": "c5c8a30fe8450372d97dd09fd004a4ff9c1e4427bc837ee7aa157c3da07d9d69",
+      "size": 1234364,
+      "hash_basis": "fresh-hash",
+      "source_role": "original-or-verified-edition"
+    }
+  ],
+  "source_note": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+  "primary_pdf_pages": 8,
+  "credited_primary_pages": 7,
+  "excluded_pdf_pages": [
+    1
+  ],
+  "covered_sections": [
+    "Repository PDF 2–3: journal identity, even-even case motivation and reused experiment provenance",
+    "Repository PDF 4–5: P/Rac/delta for the 751-keV line, three excluded lines, energy and response",
+    "Repository PDF 6–8: single-point normalization in PRM, conclusions and primary references"
+  ],
+  "visual_checks": [
+    4,
+    5
+  ],
+  "evidence_gaps": [
+    "Only 751 keV has both reported physical P and angular ratio. 768, 785 and 740 keV omitted for contamination or statistics.",
+    "No numerical sigma/I grid or coverage parameter in the 751-keV analysis.",
+    "The energy dependence/calibration needed to match the A_P and P numbers is not specified quantitatively in this paper.",
+    "PRM electromagnetic response is conditioned on the sole usable transition point."
+  ],
+  "reader": "Codex with prior page coverage reconciled",
+  "PDM_run": false
+}

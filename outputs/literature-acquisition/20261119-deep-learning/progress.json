@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.1103/physrevc.103.044308",
+  "active_source": "doi:10.1103/physrevc.105.034302",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -350,9 +350,10 @@
     "GARG15-PR135-COMPLETE-SCIENTIFIC-SCOPE",
     "GARG19-ERRATUM-COMPLETE-SCIENTIFIC-SCOPE",
     "GUO20-ARXIV200710031-COMPLETE-SCIENTIFIC-SCOPE",
-    "LV21-ND135-COMPLETE-SCIENTIFIC-SCOPE"
+    "LV21-ND135-COMPLETE-SCIENTIFIC-SCOPE",
+    "LV22-ND136-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 84,
+  "completed_full_sources_this_run": 85,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 997,
@@ -360,14 +361,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T03:21:56.816146+00:00",
+  "updated_at": "2026-11-21T03:27:30.360996+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 8530,
-  "current_source_note": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-  "next_action": "Read Lv 2022, PRC 105, 034302, 136Nd, for even-even angular distribution and polarization evidence.",
+  "completed_primary_pages_this_run": 8537,
+  "current_source_note": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+  "next_action": "Read B. F. Lv doctoral dissertation, Chirality in the 136Nd and 135Nd nuclei, local PDF of 164 pages, with existing method notes.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Lv 2021 135Nd: two ratio definitions, Table II asymmetries and two separate 518-keV lines.",
-  "current_source_scientific_acceptance": "Fourteen publisher pages credited. Retain Fig. 5(c) label conflict and the absence of a numerical physical P.",
-  "source_scoped_retrieval": "Existing publisher PDF. No new download."
+  "last_source_manager_closure": "Lv 2022 even-even 136Nd 751-keV P, Rac, delta and gate/error boundaries.",
+  "current_source_scientific_acceptance": "Seven primary science pages credited, excluding repository cover. Shared experiment references retained.",
+  "source_scoped_retrieval": "Local publisher contents in university reprint PDF. No new download."
 }

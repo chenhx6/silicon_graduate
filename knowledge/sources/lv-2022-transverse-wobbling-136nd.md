@@ -214,3 +214,9 @@ P0: do not describe the 751-keV link as E2-dominant.
 |---|---|---|---|---|---|
 | LV22-D22-R091-1 | 唯一可作联合P–Rac的751 keV 17+→16+线给δ=−0.48(+.13/−.14)，约19% E2；同母态相对比rM1=.61(.29)、rE2=.36(.17)。本篇没有报告这对L1/L3带的DSAM寿命或17→18处B(E2)从.44降至.04 e²b²；不能归给本篇11倍绝对强度塌缩。 | experimental-result-and-report-scope | direct-original | 034302-3–5, Secs.II–IV, Figs.3–5 | true |
 | LV22-D22-R091-2 | 作者把M1占优解释为两高j准粒子使M1矩阵元较大，仍支持两准粒子横向wobbling；E2二阶算符参数由唯一rE2点固定，geff/Q由该线δ拟合。模型符合支持其解释，但共享单点定标不能计作独立实验或无参验证。 | author-interpretation-and-model-dependency | direct-original | 034302-4, text following Fig.3; 034302-5, Fig.5 discussion and Summary | true |
+
+## 2026-11-21 — 偶偶核的原文偏振和角比
+
+- 034302-3 至 034302-4（馆藏 PDF 4–5）对 751 keV \(17^+\to16^+\) 联合报告 \(R_{\rm ac}=0.55(5)\)、\(A_P=0.03^{+0.06}_{-0.07}\)、\(P=0.02^{+0.04}_{-0.05}\)、\(\delta=-0.48^{+0.13}_{-0.14}\)。各量按原文独立转录。原文给约 19% E2 辐射份额。
+- Fig. 2 的偏振谱用 989 keV 门，Fig. 1(a) 的能级鉴别谱用 989 与 390 keV 双门。768 keV 受基带 770 keV 峰污染，785 keV 受候选门下的 784–785 keV 污染，740 keV 统计不足。三条线未给同类联合结果。
+- §II 把采集和矩阵细节回指同次测量的 Refs. 38、39、41、43；Ref. 38 对应 [[petrache-2018-chiral-bands-even-even-136nd]]。正文 Fig. 3 未列出该 751 keV 分支所用的数值 \(\sigma/I\)、取向扫描网格或联合覆盖率。它是报告了实测 \(P\) 加角比的偶偶核实例，适用跃迁范围为 751 keV。
