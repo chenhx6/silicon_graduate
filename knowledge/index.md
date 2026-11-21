@@ -17,6 +17,8 @@ updated: 2026-11-21
 
 ## 文献收集与深入学习（2026-11）
 
+- [[urban-1985-xe127-angular-polarization]] — 早期 \(^{127}\mathrm{Xe}\) 角分布、线偏振双线与两支混合比。
+
 - [[delta-alignment-extraction-pilot-20261110]] — 早期混合比/取向处理试表，保留历史范围。
 - [[pdco-pdm-response-contract-20261118]] — P–DCO 响应定义和适用条件。
 - [[pdm-five-nuclide-p-survey-20261118]] — 五核初始核素级调查。

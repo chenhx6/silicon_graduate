@@ -1,0 +1,27 @@
+{
+  "work_id": "doi:10.1007/bf01881283",
+  "recorded_at": "2026-11-21T11:37:33.848257+00:00",
+  "status": "scientific-reading-covered",
+  "reader": "Codex, reading original with rendered pages 4–6.",
+  "source_note": "knowledge/sources/urban-1985-xe127-angular-polarization.md",
+  "raw": {
+    "path": "raw/papers/gpt/query/20261121-xe127-urban-angular-polarization/urban-1985-in-beam-study-of-127xe.pdf",
+    "sha256": "d1507771650bc933bb9c7f8e414eca0c1c337a6424c5e60ed3ffd6405ad18e3b",
+    "size": 666401,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "archive_manifest": "raw/papers/gpt/query/20261121-xe127-urban-angular-polarization/manifest.json",
+  "credited_primary_pages": 9,
+  "coverage": [
+    "Publisher PDF 1–4 / printed 327–330: detector, joint distribution/polarization fit and calibration. Stretched E2 fixes the independently calibrated population parameter.",
+    "Publisher PDF 5–6 / printed 331–332: Table 1 doublet, branches, and level scheme.",
+    "Publisher PDF 7–9 / printed 333–335: state placements, timing and source references."
+  ],
+  "known_limits": [
+    "483.3/483.4-keV P and angular coefficients are unresolved-line observables; 483.3 keV assumed E2 to extract 483.4-keV delta.",
+    "Several solutions survive, including the 651.1-keV branches. Lifetime parent placement remains conditional."
+  ],
+  "formal_alignment_treatment": "Eq. (4) scanned arctan(delta); sigma obtained from stretched E2 angular-distribution analysis, not floated within the target-line solve.",
+  "next_action": "Read Timar et al. 2019 105Pd publisher evidence and compare its experimental inputs, gate information and adopted model branches to the IBFM alternative."
+}

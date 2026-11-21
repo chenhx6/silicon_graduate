@@ -1,7 +1,7 @@
 {
   "created_at": "2026-11-19T14:50:09.195632+00:00",
   "status": "corpus-learning-active",
-  "pdf_files_registered": 1024,
+  "pdf_files_registered": 1026,
   "provisional_work_groups": 993,
   "grouping_boundary": "Not a verified unique-publication count. Byte grouping and old catalogue associations require own-identity/edition/role/scope audits. Collection sources do not establish individual full reading.",
   "raw_roots": [
@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.1016/j.physletb.2020.135854",
+  "active_source": "doi:10.1103/physrevlett.122.062501",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -436,24 +436,27 @@
     "CASTEN-EDITIONS-READING-RECONCILED",
     "BANIK20-XE131-PUBLISHER-SCOPE-RECONCILED",
     "CHAKRABORTY23-XE131-PUBLISHER-REANALYSIS-RECONCILED",
-    "ROJEETA21-BA133-PUBLISHER-RESPONSE-AUDIT"
+    "ROJEETA21-BA133-PUBLISHER-RESPONSE-AUDIT",
+    "CHAKRABORTY20-XE127-PUBLISHER-AND-SI-RECONCILED",
+    "NOMURA22-IBFM-FOUR-PUBLISHER-CASES-RECONCILED",
+    "URBAN85-XE127-DIRECT-POLARIZATION-AND-ORIENTATION"
   ],
-  "completed_full_sources_this_run": 153,
+  "completed_full_sources_this_run": 156,
   "PDM_run": false,
   "new_search_or_download": true,
-  "queue_entries_including_closed_gaps": 1000,
+  "queue_entries_including_closed_gaps": 1001,
   "full_work_identity_reconciliation_complete": false,
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T11:09:04.822285+00:00",
+  "updated_at": "2026-11-21T11:37:33.848257+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10273,
-  "current_source_note": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
-  "next_action": "Reconcile the already held 127Xe longitudinal-wobbling article, focusing on comparisons to 133Ba, reported inputs and spin/branch attribution.",
+  "completed_primary_pages_this_run": 10298,
+  "current_source_note": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+  "next_action": "Read Timar et al. 2019 105Pd publisher evidence and compare its experimental inputs, gate information and adopted model branches to the IBFM alternative.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Rojeeta Devi 2021 publisher original checked, observed DCO and asymmetry paired to their gate, response equation ambiguity retained.",
-  "current_source_scientific_acceptance": "Six journal pages; separate TIFR data lineage and bounded wobbling/configuration interpretation.",
-  "source_scoped_retrieval": "Reused the 133Ba local publisher original."
+  "last_source_manager_closure": "Urban 1985 127Xe original, conditional 483-keV branches and reference E2 calibration.",
+  "current_source_scientific_acceptance": "Urban 1985 original 9 pages, independent older acquisition, with compound line P and independently calibrated orientation.",
+  "source_scoped_retrieval": "Publisher SI for Chakraborty and Urban 1985 exact cited paper acquired. No broad search. Nomura used the local original."
 }

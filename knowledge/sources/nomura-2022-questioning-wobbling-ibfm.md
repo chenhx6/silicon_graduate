@@ -108,6 +108,12 @@ The table separates source-grounded locators from Agent reconstruction. User rev
 | NOM22-14 | 作者据四核 IBFM 计算及与新 `135Pr`、旧 `105Pd` mixing-ratio 数据的相容性，提出 M1-dominant IBFM alternative interpretation，并称早期 low-spin wobbling assignments 受到严重质疑；这属于作者解释，不是 Wiki 的最终裁决。 | author-interpretation | direct | PDF p.1, Abstract; p.10, Sec. IV | false |
 | NOM22-15 | 结论段“计算 mixing ratios consistently small, `abs(δ)<1`”不能无条件覆盖全文：Fig.7/Table II 和正文明确给出 `127Xe` B2 低自旋等 `abs(δ)>1` 例外及其数值不稳定来源。Wiki 因此把 M1-dominance 结论限定到作者强调的总体趋势和具体受支持 transitions。 | our-inference | inference | PDF pp.6-7, Fig.7(f); p.10, Table II and Sec. IV | false |
 
+## \(^{127}\mathrm{Xe}\) 刊版比值复核
+
+Table II 的 `EXP` 列沿用 [[chakraborty-2020-multiphonon-longitudinal-wobbling-127xe]] 的已选混合比分支及相对强度。\(^{127}\mathrm{Xe}\) 的 B2 对应实验 Band 3，低自旋有模型与实验带头标号差异。应逐行按刊版对应自旋比较。表中 639、735、800、884 keV 行的实验 \(B(E2)_{\rm out}/B(E2)_{\rm in}\) 为 \(2.352(565),1.500(172),1.346(879),0.922(895)\)，IBFM 给 \(1.874,0.163,0.064,0.011\)。639 keV 的中心值接近，而同一行 \(B(M1)_{\rm out}/B(E2)_{\rm in}\) 的 IBFM 值 0.039 小于实验 \(0.138(12)\)。因此该行较大的计算 \(\lvert\delta\rvert=4.901\) 可以和略小的 E2 比值并存。
+
+483 keV 行的两个实验相对强度比为空，IBFM 的 0.085 和 9.242 仅为模型结果。651 keV 属另一带的实验分支，模型给 \(\delta=+1.698\)，论文沿用的实验结果为 \(+0.15(5)\)。两条强度比共享同母态带内参照和已选分支，混合比与从它导出的强度比不宜视作统计独立的模型验证。定位：PDF 5 Fig. 5、PDF 6–8 Figs. 7 与 10、PDF 10 Table II。
+
 ## Nuclear Structure Information
 
 本文覆盖四个 γ-soft odd-mass cases，但没有提供新的实验能级或跃迁测量。`135Pr` 的比较同时引用早期 wobbling 支持数据和较新的小 mixing-ratio 数据；`105Pd` 同时引用两组不一致的 mixing ratios；`133La/127Xe` 主要与原 reported wobbling datasets 比较。`187Au/183Au` 只用于说明当前 IBFM 模型空间的适用困难。

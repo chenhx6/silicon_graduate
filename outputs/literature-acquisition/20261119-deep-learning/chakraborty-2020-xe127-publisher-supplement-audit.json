@@ -1,0 +1,41 @@
+{
+  "work_id": "doi:10.1016/j.physletb.2020.135854",
+  "recorded_at": "2026-11-21T11:24:22.778374+00:00",
+  "status": "completed-source-reading-with-bounded-knowledge",
+  "source_note": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+  "raw_files": [
+    {
+      "path": "raw/papers/2020_Chakraborty et al_Multiphonon longitudinal wobbling in 127Xe.pdf",
+      "sha256": "b04503fce61b249ab1193f395b4276364945d02ced5eac347a5dd2e45df6ea1a",
+      "size": 383531,
+      "hash_basis": "fresh-hash",
+      "source_role": "publisher-version"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261121-xe127-longitudinal-wobbling-si/chakraborty-2020-xe127-publisher-supplement.pdf",
+      "sha256": "408802ce8af1e41ab03e36aab26cd1b2a946c1511d9b9ead94e4df51585b74ae",
+      "size": 395887,
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0370269320306572-mmc1.pdf",
+      "role": "publisher-supplement",
+      "physical_pdf_pages": 6
+    }
+  ],
+  "archive_manifest": "raw/papers/gpt/query/20261121-xe127-longitudinal-wobbling-si/manifest.json",
+  "primary_pdf_pages_credited": 5,
+  "companion_pages_read": 6,
+  "reader": "Codex using original plus prior reading; Gemini provider previously denied account access.",
+  "coverage": [
+    "Publisher article PDF 1–5, Figs. 1–6 and Table 1, including degree/asymmetry split and pair of roots.",
+    "Publisher supplement PDF 1–6: spin comparison, Table 1 gated spectroscopy and parent-local intensity normalization, coincidence spectra."
+  ],
+  "remaining_uncertainties": [
+    "876-keV DCO uncertainty differs between main and SI. Raw count audit unavailable.",
+    "651.3-keV asymmetry contamination by 127I; original ANGCOR and event-level inputs not recovered.",
+    "Candidate second phonon has unmeasured branches and alternative gamma-vibration coupling discussed by authors."
+  ],
+  "arithmetic": {
+    "735-keV_E2out_over_E2in": 1.500081552982783,
+    "uses": "published intensities within one parent and published delta central value"
+  },
+  "next_action": "Reconcile Nomura and Petrache 2022 four-nucleus IBFM paper with the verified 127Xe direct evidence."
+}

@@ -3,6 +3,21 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Urban 1985 \(^{127}\mathrm{Xe}\) 的早期观测
+
+- [[urban-1985-xe127-angular-polarization]] 留档并核读九页刊版。483.3／483.4 keV 双线共享偏振原值，483.4 keV 的两支 \(\delta\) 依赖双线分量假设。磁子态布居参数由拉伸 E2 角分布预先确定。
+- 累计 156 份、10298 个主件 PDF 页。本批另有六页 \(^{127}\mathrm{Xe}\) 伴随补充材料。接续 [[timar-2019-transverse-wobbling-105pd]]。Gemini 主读入口仍沿用上游账号拒绝边界，本批由 Codex 核读。
+
+## 2026-11-21 — Nomura–Petrache 2022 IBFM 刊版
+
+- [[nomura-2022-questioning-wobbling-ibfm]] 核对 11 页，按 Table II 对照 \(^{127}\mathrm{Xe}\) 的逐线模型值与原实验分支。模型低自旋大 \(\lvert\delta\rvert\) 与较弱 M1 分量相容，两个强度比共享实验带内参照。
+- 累计 155 份、10289 个主件 PDF 页。优先沿 \(^{127}\mathrm{Xe}\) 早期测量出处补核，再续 \(^{105}\mathrm{Pd}\)。
+
+## 2026-11-21 — Chakraborty 2020 \(^{127}\mathrm{Xe}\) 正文与补充材料
+
+- [[chakraborty-2020-multiphonon-longitudinal-wobbling-127xe]] 核对五页刊版，找到并留档六页出版社补充材料。确认实际门能量、同母态强度归一及 876-keV 角量误差的正文／补充表异文。
+- 累计 154 份、10278 个主件 PDF 页。另核读该文六页补充材料。接续 [[nomura-2022-questioning-wobbling-ibfm]] 的条件性模型比较。
+
 ## 2026-11-21 — Rojeeta Devi 2021 \(^{133}\mathrm{Ba}\) 原表及响应
 
 - [[rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba]] 核对 6 页刊版。逐行记录两条 641.9-keV E2 门的 \(R_{\rm DCO}\) 和 \(\Delta\)，保留刊版的 \(P/Q\) 写法与常规定标关系的差异，以及两条无有效角量的低能连接线。

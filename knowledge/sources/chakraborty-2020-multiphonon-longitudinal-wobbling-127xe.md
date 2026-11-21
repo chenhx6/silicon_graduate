@@ -19,6 +19,9 @@ canonical_source: https://doi.org/10.1016/j.physletb.2020.135854
 citation_key: chakraborty_2020_Multiphononlongitudinal
 raw_file: "raw/papers/2020_Chakraborty et al_Multiphonon longitudinal wobbling in 127Xe.pdf"
 raw_sha256: B04503FCE61B249AB1193F395B4276364945D02CED5EAC347A5DD2E45DF6EA1A
+supplement_manifest_file: "raw/papers/gpt/query/20261121-xe127-longitudinal-wobbling-si/manifest.json"
+supplement_manifest_sha256: 0c0fe1b77566070db7e12a58fb2d263ef81c2a1ed895e790a487336c27d3a015
+archive_required: true
 nuclei: [127xe]
 reactions: ["122Sn(9Be,4n)127Xe"]
 experiments: []
@@ -37,9 +40,19 @@ Physics Letters B 811, 135854 (2020), DOI `10.1016/j.physletb.2020.135854`; PDF/
 ## Scope and Reading Depth
 
 - Completed reading_depth: `deep-read`
-- Covered scope: full article, four-band level scheme, DCO/polarization, `δ` branches, relative strengths, energy systematics and phonon assignments.
+- Covered scope: full five-page article and six-page publisher appendix, including the four-band level scheme, DCO/polarization, `δ` branches, relative strengths, and coincidence spectra.
 - Not covered: forthcoming full level scheme and independent recalculation.
 - Coverage caveats: key links have contamination/low-statistics limitations; some polarization values are inherited from earlier work.
+
+## 补充表与正文的交叉核查
+
+正文 PDF 3 的 Fig. 3 使用 \(17/2^-\to13/2^-\) 门作两条 \(13/2^-\to11/2^-\) 跃迁的计算对照。补充材料 PDF 2 的 Table 1 给出实际门能量。483.4 keV 线在 674-keV 门的 \(R_{\mathrm{DCO}}=0.303(21)\)，651.3 keV 线在 744-keV 门为 \(0.717(69)\)。正文给 483-keV 线的 \(\Delta_{\rm asym}=+0.058(32)\) 和本次换算的 \(P=0.23(13)\)，作者另引用旧实验的 \(P=0.22(3)\)。这两项偏振分别溯源。651-keV 线约受 \(^{127}\mathrm I\) 的 652-keV 线及其 745-keV 伴随线污染，保留正文所报的小解条件。
+
+补充表将**每一初态**最强的支路独立归一为 100，并注明效率不确定度可能带来额外 3–5% 的相对强度误差。用同一初态的带内纯 E2 作参照，735-keV 行的中心比值为 \((776.8/734.8)^5(100/75)\delta^2/(1+\delta^2)\simeq1.500\)，其中 \(\delta=-2.4\)。这项回算使用报告的中心值。483.4-keV 线同母态的 495.0-keV 支路连至 \(9/2^-\)，不填入正文 Table 1 留空的带内参考比值。
+
+旧 \(P=0.22(3)\) 在 [[urban-1985-xe127-angular-polarization]] 的 Table 1 与 483.3/483.4-keV 双线共用。其 \(\delta\) 求解还假定 483.3 keV 为 E2。2020 年的 \(P=0.23(13)\) 属本次采集，两项证据按各自观测对象处理。
+
+876-keV 行的 \(R_{\mathrm{DCO}}\) 中心值均为 0.849。正文 Table 1 给误差 0.132，补充 Table 1 印为 0.849，偏振不对称误差亦为 0.132。差异未得到原始计数核实，引用角量误差时保留所用版本。补充材料 PDF 3–6 给各带门谱，PDF 1 的跨核强度图沿用被引数据。Band 4 的 \(\Delta I=0\) 支路中若干没有偏振数据，作者据拓扑提出与 \(\gamma\) 振动耦合的可能。模型对照见 [[nomura-2022-questioning-wobbling-ibfm]]。
 
 ## Paper Question and Scientific Motivation
 

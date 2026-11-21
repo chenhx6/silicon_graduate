@@ -1,0 +1,26 @@
+{
+  "work_id": "catalogue:LIT-000607",
+  "status": "scientific-reading-covered",
+  "recorded_at": "2026-11-21T11:30:50.143093+00:00",
+  "raw": {
+    "path": "raw/papers/2022_Nomura et al_Questioning the wobbling interpretation of low-spin bands in γ -soft nuclei within the interacting b.pdf",
+    "sha256": "e61e3dd6fe5e67fb55543f3a136c7cce0fda98ad01f112d81d5eef70b613465f",
+    "size": 2221656,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "source_note": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+  "credited_primary_pages": 11,
+  "reader": "Codex from publisher PDF and earlier figure evidence; requested Gemini route previously inaccessible.",
+  "coverage": [
+    "APS PDF 1–4: scope, EDF-based IBM-2/IBFM mapping, chosen interaction strengths and Table I.",
+    "APS PDF 4–9: experimental band crosswalk, Figs. 3–13 and operator/matrix decomposition.",
+    "APS PDF 10–11: Table II, scope of conclusion and original provenance."
+  ],
+  "visual_page_rechecked": 10,
+  "known_limits": [
+    "IBFM B2 links at 483/639 keV have very large |delta| due to small model M1; a simple M1-dominant description of all rows is not supported.",
+    "Table II experimental columns are prior data and share their parent normalization and mixing inputs. Theory-space and band mapping remain conditional."
+  ],
+  "next_action": "Read Timar et al. 2019 105Pd publisher evidence and compare its experimental inputs, gate information and adopted model branches to the IBFM alternative."
+}
