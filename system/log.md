@@ -7114,3 +7114,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — 146Ba 的直接 E3 与相对符号
 
 - 核定 6 页作者版，记录 E1 主要来自既有约束且相对符号不敏感。累计 224 份、11332 个已登记主件 PDF 页。
+
+## 2026-11-22 — 144Ba 的一维与二维组态混合
+
+- 核定同 SHA 的 6 页作者版，保留能量与跃迁矩阵元的比较。累计 225 份、11338 个主件 PDF 页。

@@ -56,6 +56,8 @@ Day26 读取 PDF1–6 的全文主线、Eqs1–5、Figs1–4、Table I 和相关
 
 ## Competing Interpretations and Limitations
 
+作者版 PDF 4 Table I 的 \(0^+\to3^-\) E3 矩阵元在 \(\beta_2\) 一维、\(\beta_3\) 一维及二维 GCM 三列分别为 0.450、0.477、0.460 \(e\,\mathrm b^{3/2}\)。同页的三组基态能分别为 \(-1185.931\)、\(-1186.709\)、\(-1187.547\) MeV。二维空间降低基态能，但所列 E3 并未按同一顺序变化。同时，Table I 的两条 E1 行没有实验数值。这限制了用该表讨论 E1 强度的独立验证范围。
+
 文章使用“permanent octupole deformation”的作者措辞；其计算同时报告软 PES、宇称恢复和形状混合。实验大 E3 支持八极集体性，单个强度不足以独立选择刚性局域形状或大振幅相关。该预印本 Table I 的实验参考号字面指向[29]，而数值对应 [[bucher-2016-144ba-direct-octupole]]；本任务按数值与独立原文交叉回链，不假定出版版保留此编号。
 
 ## Model Dependence

@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — \(^{144}\mathrm{Ba}\) 的形状混合比较
+
+- [[bernard-2016-144ba-sccm-octupole]] 核定 6 页作者版，同 SHA 副本合并计数。三种混合空间的基态能和 E3 矩阵元并列留证，E1 实验列为空。
+- 累计核定 225 份、11338 个主件 PDF 页。接续 [[butler-2020-222-228ra-octupole-evolution]]。
+
 ## 2026-11-22 — \(^{146}\mathrm{Ba}\) 的 E1 与 E3 约束
 
 - [[bucher-2017-146ba-direct-octupole]] 核定 6 页作者版。Table I 的基态 E1 主要受先前衰变资料约束，相对 E1/E3 符号对此次产额不敏感。

@@ -1,0 +1,33 @@
+{
+  "work_id": "catalogue:LIT-000070",
+  "recorded_at": "2026-11-21T18:43:31.577845+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/bernard-2016-144ba-sccm-octupole.md",
+  "raw_files": [
+    {
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/bernard-2016-144ba-sccm-arxiv1604.06706v1.pdf",
+      "sha256": "d339bbdde6991e19148ec2d619c79dba4fbb5ca95173084a33ed36a39232b997",
+      "size": 1399379,
+      "hash_basis": "fresh-hash",
+      "source_role": "verified-official-arxiv-v1-reading-copy"
+    },
+    {
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/day26-001/direct-oa/bernard-2016-1604.06706.pdf",
+      "sha256": "d339bbdde6991e19148ec2d619c79dba4fbb5ca95173084a33ed36a39232b997",
+      "size": 1399379,
+      "hash_basis": "fresh-hash",
+      "source_role": "byte-identical-copy"
+    }
+  ],
+  "credited_primary_pages": 6,
+  "coverage": [
+    "Author PDF 1–3: octupole collective coordinates, projected HFB, 1D and 2D GCM spaces.",
+    "PDF 4–6: Table I, spectroscopy and transition comparison, collective amplitudes, summary and references."
+  ],
+  "reader": "Documented prior full reading and Codex current Table I sensitivity and author-version check.",
+  "evidence_boundary": [
+    "The author copies share identical bytes and count as one work.",
+    "Energy benefit from the 2D variational space does not give a monotonic E3 sequence. Quoted E1 table cells have no experimental comparison values."
+  ],
+  "next_action": "Verify Butler 2020 direct Coulomb excitation in 222Ra/228Ra, comparing octupole moments and experimental source dependencies."
+}
