@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Jensen 2002 \(^{163}\mathrm{Lu}\) 两声子候选
+
+- [[jensen-2002-second-phonon-wobbling-163lu]] 核对四页刊版和 476-keV 连接的大小两解。保留缺失偏振、条件性强度比、其它连接与模型 M1 上限差异。
+- 累计 160 份、10336 个主件 PDF 页。接续 [[odegard-2001-evidence-wobbling-163lu]]，核对一声子对照值的实验来源。
+
 ## 2026-11-21 — Kruzsicz \(^{105}\mathrm{Pd}\) 的原件与实验谱系
 
 - [[campaign-g06-kruzsicz-2025-105pd]] 核对 14 页作者稿，确认 2025 年刊版与 2026 年 arXiv 的版本关系。保留 EUROBALL 扩展分析与 Timár 的采集依赖，以及 Karmakar 独立数据中 254/300-keV 连接的确认差异。

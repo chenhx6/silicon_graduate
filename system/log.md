@@ -6914,3 +6914,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — \(^{105}\mathrm{Pd}\) 高自旋谱系
 
 - 核对 Kruzsicz 14 页作者稿、出版身份和弱线双门差异。累计 159 份、10332 个主件 PDF 页。
+
+## 2026-11-21 — \(^{163}\mathrm{Lu}\) 两声子候选的相对跃迁强度
+
+- 核对 Jensen 四页刊版，保留 476-keV 线两个混合解与缺失偏振的影响。累计 160 份、10336 个主件 PDF 页。

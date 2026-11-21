@@ -1,0 +1,27 @@
+{
+  "work_id": "catalogue:LIT-000482",
+  "status": "scientific-reading-covered",
+  "recorded_at": "2026-11-21T12:09:59.872697+00:00",
+  "raw": {
+    "path": "raw/papers/2002_Jensen et al_Evidence for Second-Phonon Nuclear Wobbling.pdf",
+    "sha256": "c6fd99c17c09763f742cbe36443f7039f21b3e28a5caa548748bdf0718630a8a",
+    "size": 206452,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "source_note": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+  "credited_primary_pages": 4,
+  "reader": "Codex using published PDF with Table II visual comparison",
+  "coverage": [
+    "APS PDF 1–2: experiment and level scheme, angular distributions, Table I and TSD3→TSD1 branches.",
+    "APS PDF 3–4: Fig. 2 and Table II, both mixing branches, comparison to TSD2, rotor, model limits."
+  ],
+  "visually_rechecked": [
+    3
+  ],
+  "evidence_boundaries": [
+    "476-keV linear polarization unavailable; two angular solutions, differing relative E2 ratios.",
+    "Rotor prediction for 476-keV M1 strength ratio exceeds the quoted experimental upper limit."
+  ],
+  "next_action": "Reconcile Odegard 2001 original 163Lu one-phonon source, Table II inputs and independence from Jensen 2002."
+}

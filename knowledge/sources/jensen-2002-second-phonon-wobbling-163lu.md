@@ -87,6 +87,12 @@ The paper presents evidence, not a polarization-complete experimental determinat
 | JE02-7 | The authors assign TSD3 as two-phonon wobbling and state that this proves triaxial deformation. | author-interpretation | indirect | PDF p.4, conclusion | true |
 | JE02-8 | Calculated M1 strength exceeds the experimental upper limit by more than a factor two; authors attribute this partly to omitted gradual neutron alignment. | model-result | direct | PDF p.4 | true |
 
+## 两声子候选的可比观测
+
+刊版 Table II 的 476-keV 行给分支强度比 \(\lambda=0.14(4)\)、\(W(25^\circ)/W(90^\circ)=0.49(10)\)、拉伸 E2 门的 \(R_{\mathrm{DCO}}=0.38(11)\)。选用大解时 \(B(E2)_{\rm out}/B(E2)_{\rm in}=0.51(13)\)，小解为 \(0.019^{+0.024}_{-0.017}\)。这是一条 TSD3→TSD2 支路的两个条件性结果。另外三条该类连接建立谱学拓扑。TSD2→TSD1 的平均比 \(0.21(1)\) 是另一组连接的量，比较前须保留母态、带内参照和取样口径。
+
+Table I 还给 TSD3→TSD1 的 \(\Delta I=2\) 路径，正文以约 0.02 的比值讨论非简谐成分。作者用相邻带性质及粒子转子预测支持 476-keV 大解。该线偏振缺失，且所用模型对其 M1 比值给 0.026，实验上限为 0.012。该证据链适用于原文 TSD 带比较，跨核复用时应分别比较衰变拓扑、选支依据和模型误差。见刊版 PDF 2–4，Tables I–II、Figs. 4–5。
+
 ## Nuclear Structure Information
 
 TSD1, TSD2 and TSD3 populations are reported as about 10%, 3% and 1.2% of yrast. TSD3 decays both to TSD2 (`ΔI=1`) and directly to TSD1 (`ΔI=2`), the latter weak links being attributed to anharmonicity.
