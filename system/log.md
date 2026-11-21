@@ -6786,3 +6786,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Radeck 与 Gray 的去取向实例
 
 - 对账 10+10 页，区分 RDDS 逐态去取向、TDPAD 幅度简并和 Gray 的实际 arXiv 版本。累计 111 份、9018 页主件。
+
+## 2026-11-21 — BrIcc、图解反算与光子散射
+
+- 对账三篇共 35 页，区分变换不确定度、转换系数与散射偏振双根。累计 114 份、9053 页主件。

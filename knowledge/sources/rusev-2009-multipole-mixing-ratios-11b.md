@@ -129,3 +129,7 @@ This is a very useful counterexample to the idea that "a polarization-like obser
 | RU09-12 | TableI本线energy为8916.3，不是旧Wiki8916.39；Fig2caption beam8.02与正文8.92不一致，raw原样保留，不用caption作新能量赋值。 | print-label-boundary | direct-and-self-audit | printed047601-3 TableI/Fig2caption andbody | true |
 | RU09-13 | smallroot选择以另支E2unusuallylarge为物理先验，作者−1.30约63%为radiativefraction；branchδ2和B由相同选定δ1/峰面积/GEANT推得，非独立选根measurement。 | attributed-interpretation-and-dependence | direct | printed047601-3–4 Fig4discussion/Eq4 | true |
 | RU09-14 | 一致IF21摘要模型的all-real-root反演与本篇producer不等同；所选point/P1/Cnominal下5/2路径可有4根、3/2路径2根，−1.30未闭合。保留来源值和模型边界，未据此新增实测δ/置信域。 | bounded-reproduction-boundary | task-calculation | printed047601-3 TableI；IF21Eq3–9/18；本任务rootmatrix | true |
+
+## 2026-11-21 — Incident polarization and emitted radiation
+
+PDF 1–4 were reconciled with the published Brief Report. The analyzing power is calibrated against the incident photon's polarization, using efficiency-corrected counts in the two detection planes. Table I reports the resulting emission \(\delta\) values in the Krane–Steffen convention. For 8916.3 keV the adopted value is compatible with zero. Figure 4 and p. 047601-4 also identify a candidate \(\delta=-1.30\), which the authors disfavor based on the E2 fraction. This is an independent example of branch ambiguity under a different observation geometry from oriented-state clover polarimetry.

@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — 转换系数与偏振双根
+
+- 核对 [[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] 28 页、[[rezynkina-2017-graphical-extraction-multipole-mixing-ratios]] 3 页与 [[rusev-2009-multipole-mixing-ratios-11b]] 4 页。区分理论转换系数的评估、混合比幅度的反算与散射偏振不对称的选支。
+- 累计 114 份、9053 页主件。续核 Jones 等 EUROGAM clover 的极化标定和 Gammasphere 分段 Ge 的灵敏度。Hamilton 书页由并行会话处理。
+
 ## 2026-11-21 — 时间去取向与 TDPAD
 
 - [[radeck-2012-deorientation-lifetime-98ru-rdds]] 对账 10 页，确认只有该组 \(2_1^+\) 寿命拟合需可见的去取向修正。[[gray-2020-hyperfine-fields-g-factor-measurements]] 对账 10 页，馆藏是 2022 年上传的 arXiv v1，期刊身份为 2020。记录 \(R(t)\) 振幅对取向和低场位点的共同依赖。

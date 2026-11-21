@@ -139,3 +139,7 @@ GaussHermite12/20与theta=atan(d)的Legendre80/160/320/640均值稳定约5e−14
 若改为f=d²/(1+d²)∈[0,1]，其moment有界；但flatf与flatdelta是不同概率/先验选择。固定purealphas时a(f)=A1(1−f)+A2f的Jacobian是常数，本任务的E-transform可对应flatf的条件posterior；有theory nuisance时仍须完整写明joint模型。有限ICC数据本身在pureE3极限饱和，不能无声明地把flatdelta likelihood归一到∞。ICC仍不给sign。
 
 原创[程序](../../system/scripts/day16_rz17_probability_measure_audit.py)、[输入](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/rz17-pdf-measure-input.json)、[结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/rz17-pdf-measure-audit.json)含全部模型、归一、变换、MC与failurecontrols；本节只新增selfaudit。决定`supports`非Gaussian/理论误差和图解交点方法，`limits`Eq14/“68%”转录为完整可运行算法或任何输入下的exactcoverage。新canonicalowner为[[icc-mixing-probability-domain]]，不覆盖旧人审事件。
+
+## 2026-11-21 — Original example and transferable boundary
+
+The original three pages were reconciled. Table 1 uses the 200-keV \(^{251}\mathrm{Fm}\) M2/E3 case and measured \(\alpha_K=8.8(31)\). The reported analytical and graphical results for the magnitude are \(0.92^{+0.42}_{-0.37}\) and \(0.81^{+0.47}_{-0.36}\). The endpoints are calculated by different methods and retain their individual labels. The distinction between exact central inversion, probability transformation and interval construction is relevant to other delta work. This example contributes neither an E2/M1 line nor a measurement of physical linear polarization.

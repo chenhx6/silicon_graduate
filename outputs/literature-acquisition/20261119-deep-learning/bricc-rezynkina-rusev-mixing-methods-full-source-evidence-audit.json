@@ -1,0 +1,73 @@
+{
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000493",
+      "raw_files": [
+        {
+          "path": "raw/papers/2008_Kibédi et al_Evaluation of theoretical conversion coefficients using BrIcc.pdf",
+          "sha256": "5a7b25491864acd4d2fea7a599136657da336a03f902009b423c6c450926cc34",
+          "size": 1111858,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "primary_pdf_pages": 28,
+      "credited_primary_pages": 28,
+      "covered_sections": [
+        "PDF 1–5: transition input conventions, conversion formulae and energy/mixing uncertainty",
+        "PDF 6–20: atomic vacancies, conversion/pair tables, interpolation and ENSDF use",
+        "PDF 21–28: program, appendix input data and references"
+      ],
+      "evidence_gaps": [
+        "The BrIccFO table is the documented default in this article. Unknown mixing prescriptions do not measure a mixing ratio."
+      ]
+    },
+    {
+      "work_id": "catalogue:LIT-000655",
+      "raw_files": [
+        {
+          "path": "raw/papers/2017_Rezynkina et al_On the graphical extraction of multipole mixing ratios of nuclear transitions.pdf",
+          "sha256": "af87b4e5ce2ffccee5484902b252e8fcd4fd0940ee996b204bf7983fd2a41e72",
+          "size": 394118,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
+      "primary_pdf_pages": 3,
+      "credited_primary_pages": 3,
+      "covered_sections": [
+        "PDF 1–3: ICC inversion, probability transformation and 251Fm example"
+      ],
+      "evidence_gaps": [
+        "Only magnitude is available under a given multipole pair; sign is absent. The example involves M2/E3."
+      ]
+    },
+    {
+      "work_id": "doi:10.1103/physrevc.79.047601",
+      "raw_files": [
+        {
+          "path": "raw/papers/2009_Rusev et al_Multipole mixing ratios of transitions in B 11.pdf",
+          "sha256": "acf557c95f557a3de075ae263e2ef3bc9f6b2e3f9e905928445df20fad3896f9",
+          "size": 317819,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/rusev-2009-multipole-mixing-ratios-11b.md",
+      "primary_pdf_pages": 4,
+      "credited_primary_pages": 4,
+      "covered_sections": [
+        "PDF 1–2: polarized excitation and experimental asymmetry",
+        "PDF 3–4: Table I, candidate branches and phase/uncertainty convention"
+      ],
+      "evidence_gaps": [
+        "Incident-polarization analyzing power differs from emitted linear P in oriented-state clover data. Large branch disfavored conditionally."
+      ]
+    }
+  ],
+  "credited_primary_pages": 35,
+  "reader": "Codex with prior full-source records reconciled",
+  "PDM_run": false
+}
