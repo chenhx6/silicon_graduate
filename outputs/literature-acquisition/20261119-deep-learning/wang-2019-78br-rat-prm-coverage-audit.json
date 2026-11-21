@@ -1,0 +1,25 @@
+{
+  "work_id": "catalogue:LIT-000750",
+  "recorded_at": "2026-11-21T17:53:26.017773+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/wang-2019-rat-prm-78br-octupole-correlations.md",
+  "raw": {
+    "path": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/wang-2019-rat-prm-78br-arxiv1902.00191v1.pdf",
+    "sha256": "cefe9aeb1fcf8be56c6808825faf95f486246254c231893320ee62f9a9907aae",
+    "size": 340748,
+    "hash_basis": "fresh-hash",
+    "source_role": "verified-official-arxiv-v1-reading-copy"
+  },
+  "credited_primary_pages": 17,
+  "coverage": [
+    "Author PDF 1–6: motivation, RAT-PRM model and input operators.",
+    "PDF 7–13: spectrum/ratio comparison, E1/E2 and angular-momentum profiles, alternative assignments.",
+    "PDF 13–17: summary and references."
+  ],
+  "reader": "Previous complete author copy reading and current Codex targeted source checks on the comparison text and Fig. 2.",
+  "evidence_boundary": [
+    "The relative E1/E2 comparisons reuse Liu 2016 and use Band 3 intraband E2 as the denominator.",
+    "The computed separations are biased with respect to the cited experimental pairs. Different gamma inputs change the predicted ratio. No absolute E1 or unique static-shape fit."
+  ],
+  "next_action": "Reconcile the Xiao 2022 74As primary experimental source and compare its angular/E1 evidence with 78Br and 131Ba."
+}

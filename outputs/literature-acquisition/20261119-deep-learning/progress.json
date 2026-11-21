@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000750",
+  "active_source": "catalogue:LIT-000766",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -495,9 +495,10 @@
     "MA90-131BA-PUBLISHER-PAGES-AND-DCO-GATES",
     "WA20-131BA-OCTUPOLE-CALIBRATION-AND-DATA-DEPENDENCE",
     "GU20-131BA-SAME-PARENT-E1-NORMALIZATION",
-    "L16-BR78-E1-AND-SPIN-DEPENDENT-DISPLACEMENT"
+    "L16-BR78-E1-AND-SPIN-DEPENDENT-DISPLACEMENT",
+    "W19-BR78-RELATIVE-E1-AND-MODEL-RESIDUALS"
   ],
-  "completed_full_sources_this_run": 212,
+  "completed_full_sources_this_run": 213,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -505,14 +506,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T17:50:05.663198+00:00",
+  "updated_at": "2026-11-21T17:53:26.017773+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 11180,
-  "current_source_note": "knowledge/sources/wang-2019-rat-prm-78br-octupole-correlations.md",
-  "next_action": "Reconcile the Wang 2019 RAT-PRM author edition, focusing on the calibration, E1/E2 comparison and the Liu 2016 experimental dependency.",
+  "completed_primary_pages_this_run": 11197,
+  "current_source_note": "knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md",
+  "next_action": "Reconcile the Xiao 2022 74As primary experimental source and compare its angular/E1 evidence with 78Br and 131Ba.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Liu et al. 2016 publisher original and octupole comparative evidence.",
-  "current_source_scientific_acceptance": "Wang 2019 queued.",
-  "source_scoped_retrieval": "Reused the archived journal original and checked the duplicate path."
+  "last_source_manager_closure": "Wang 2019 17-page author version E1/E2 projection comparison and residuals.",
+  "current_source_scientific_acceptance": "Xiao 2022 original queued.",
+  "source_scoped_retrieval": "Reused the arXiv author edition."
 }

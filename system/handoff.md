@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — \(^{78}\mathrm{Br}\) 的八极耦合计算
+
+- [[wang-2019-rat-prm-78br-octupole-correlations]] 核定 17 页作者版，记录 \(E1/E2\) 两组 \(\gamma\) 输入、能带分离的残差与同批实验输入。
+- 累计核定 213 份、11197 个主件 PDF 页。接续 [[xiao-2022-chirality-octupole-correlations-74as]]。
+
 ## 2026-11-22 — \(^{78}\mathrm{Br}\) 的 E1 与奇偶自旋能量差
 
 - [[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]] 核定 6 页刊版，两份原件同 SHA。Fig. 5 的平均能量差下降主要来自奇自旋序列，保留 E1 分支和跨核对照的原出处。

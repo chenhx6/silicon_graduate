@@ -7,7 +7,7 @@ updated: "2026-11-07"
 status: ai-draft
 review_status: unreviewed
 source_type: preprint-theory
-reading_depth: read
+reading_depth: deep-read
 title_original: "Multiple chiral doublet bands with octupole correlations in reflection-asymmetric triaxial particle rotor model"
 authors: [Y. Y. Wang, S. Q. Zhang, P. W. Zhao, J. Meng]
 year: 2019
@@ -75,6 +75,8 @@ Nilsson单粒子场、配对和转子耦合 → 构造好总角动量与总宇�
 | W19-D27-R047-6 | 计算B(E1)/B(E2)通常低估数据，γ从约16°改至21°会增强E1。负宇称主组态改为πg9/2⊗νf5/2，与先前πf5/2⊗νg9/2解释不同；作者要求微观计算或g因子测量进一步支持。 | competing-configuration-and-model-limitation | direct-v1 | PDF9 Fig.2/discussion; PDF13 configuration and Summary | true |
 
 ## Competing Interpretations and Limitations
+
+Author PDF p. 8 reports mean calculated separations of 0.99 MeV for \(9\le I\le13\) in the positive-parity pair and 0.35 MeV for \(6\le I\le14\) in the subsequent discussion of the negative-parity pair, whose sentence prints “negative-positive.” The stated overestimates are about 0.5 and 0.2 MeV. Figure 2 on p. 9 uses Band 3 intraband E2 as the denominator for the Band 3→Band 1 E1 comparison. Its solid and dashed curves use \(\gamma=16.3^\circ\) and \(21.3^\circ\). The larger \(\gamma\) improves this particular relative E1 test. The partner-band energy residuals and absolute E1 strengths remain distinct checks.
 
 这一模型不是理想chirality–parity对称极限的普适选择定则论文。它的相反宇称谱、有限核芯宇称分裂、可变组态和E1算符贡献需一起评估；量子基底中的好宇称与内禀非对称输入并不矛盾。β3=0.02的结果不能回答β3>0.1是否在其它条件下兼容手征；缺少大β3计算是覆盖缺口，不是反证。
 

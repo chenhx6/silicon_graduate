@@ -7070,3 +7070,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — Liu 2016 的 78Br 八极观测
 
 - 核定六页刊版及反应谱系，保留 E1/E2 和奇偶自旋的能量位移。累计 212 份、11180 个主件 PDF 页。
+
+## 2026-11-22 — 78Br RAT-PRM 的能隙与 E1 图
+
+- 核定 17 页作者版，保留能带残差和 E1 两组输入。累计 213 份、11197 个主件 PDF 页。
