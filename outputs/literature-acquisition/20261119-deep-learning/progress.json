@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000489",
+  "active_source": "catalogue:LIT-000455",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -486,9 +486,10 @@
     "CH24-BA129-365-LEGACY-AND-READOPTED-DELTA",
     "PE16-134CE-GATED-PARITY-AND-SHARED-RUN",
     "AY16-133CE-TENTATIVE-BANDHEAD-AND-RAC",
-    "EM97-133CE-RDDS-BENCHMARK-AND-FEEDING"
+    "EM97-133CE-RDDS-BENCHMARK-AND-FEEDING",
+    "JO98-133CE-UNOBSERVED-FEEDING-AND-ERROR"
   ],
-  "completed_full_sources_this_run": 203,
+  "completed_full_sources_this_run": 204,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -496,14 +497,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T17:09:23.227314+00:00",
+  "updated_at": "2026-11-21T17:14:21.413857+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10986,
-  "current_source_note": "knowledge/sources/joss-1998-133ce-triaxial-band-lifetimes.md",
-  "next_action": "Reconcile the four-page Joss 1998 triaxial band lifetime original, using its side-feeding adjustments and scope boundaries.",
+  "completed_primary_pages_this_run": 10990,
+  "current_source_note": "knowledge/sources/hauschild-1996-133ce-triaxial-bands.md",
+  "next_action": "Reconcile Hauschild 1996 seven-page 133Ce journal original and map the early high-spin bands against the Joss lifetime sequence.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Emediato 1997 133Ce RDDS original with the same-run and thin/thick-target cross-checks.",
-  "current_source_scientific_acceptance": "Joss local four-page publisher original verified by SHA; coverage pending.",
-  "source_scoped_retrieval": "Reused the local publisher original."
+  "last_source_manager_closure": "Joss 1998 133Ce DSAM full paper, fixed feeding inertia and comparison to other measurements.",
+  "current_source_scientific_acceptance": "Hauschild original hash identified; coverage pending.",
+  "source_scoped_retrieval": "Reused a local publisher original."
 }

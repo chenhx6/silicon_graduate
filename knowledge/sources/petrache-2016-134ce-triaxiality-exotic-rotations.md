@@ -83,6 +83,7 @@ The experimental chain is: high-fold Gammasphere coincidences -> level-scheme ex
 ## Competing Interpretations and Limitations
 
 - Weak transitions and two-point Rac values can have large uncertainty; D4 assignments remain tentative.
+- D4 has a measured internal cascade. Its \(421.2\) keV line gives \(A_2=-0.90(5)\), \(A_4=0.20(7)\), \(R_{\mathrm{ac}}=0.45(3)\) (Table I, 064305-8). The unconfirmed decay out leaves the initial excitation energies blank and the spin-parity labels parenthesized. Sec. IV also reports an earlier TPSM interpretation of both \(10^+\) structures using one low-deformation triaxial input, alongside its own differing shape assignments.
 - CNS configuration, deformation and rotation-axis labels are calculated interpretations, not direct measurements.
 - The global coexistence picture should not be converted into a wobbling or chiral proof for any single band.
 

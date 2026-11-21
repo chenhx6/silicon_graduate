@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — \(^{133}\mathrm{Ce}\) 高自旋寿命与侧馈
+
+- [[joss-1998-133ce-triaxial-band-lifetimes]] 核定 4 页刊版，登记固定馈入惯量、角组联合拟合和 Fig. 4 的带顶偏差。另在 \(^{134}\mathrm{Ce}\) 来源页补入 D4 实测级联的暂定边界。
+- 累计核定 204 份、10990 个主件 PDF 页。接续 [[hauschild-1996-133ce-triaxial-bands]] 的原始带标号和跃迁。
+
 ## 2026-11-22 — \(^{133}\mathrm{Ce}\) RDDS 的内部检查
 
 - [[emediato-1997-133ce-rdds-lifetimes]] 核定 4 页刊版。保留同次 \(^{132}\mathrm{Ce}\) 寿命交叉检查，以及 \(^{133}\mathrm{Ce}\) 侧馈采用的先前强度和厚靶校验。

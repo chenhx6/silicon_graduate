@@ -1,0 +1,25 @@
+{
+  "work_id": "catalogue:LIT-000489",
+  "recorded_at": "2026-11-21T17:14:21.413857+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/joss-1998-133ce-triaxial-band-lifetimes.md",
+  "raw": {
+    "path": "raw/papers/1998_Joss_133Ce_Triaxial_Band_Lifetimes.pdf",
+    "sha256": "81b6ace5d9ee867220c5425e7f3d9ae4f5074d9484f7063fd04fd137b0deea0a",
+    "size": 120604,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "credited_primary_pages": 4,
+  "coverage": [
+    "3219–3220: measurement, line-shape analysis and side feeding, Eq. (2), Table I and Fig. 1.",
+    "3221–3222: centroid and transition-moment comparisons, TRS results, scope and references."
+  ],
+  "reader": "Prior full reading plus Codex local original verification of feeding assumptions and the fit threshold.",
+  "evidence_boundary": [
+    "Feeding intensities are fixed from branch estimates and checked against thin-target values; QSF and Qt are fit parameters.",
+    "Fig. 4 top-band shape is affected by possible feeding through lower gates. The reported brief DSAM fit is a distinct high-spin study.",
+    "Compare this clock to Emediato only after establishing state identities and acquisition differences."
+  ],
+  "next_action": "Reconcile Hauschild 1996 seven-page 133Ce journal original and map the early high-spin bands against the Joss lifetime sequence."
+}

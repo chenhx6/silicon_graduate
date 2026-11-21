@@ -74,6 +74,8 @@ D.T.Joss等，*Physical Review C*58(6)(1998)3219–3222，DOI10.1103/PhysRevC.58
 
 ## Table I Lifetime Ledger
 
+Printed p. 3220 Eq. (2) uses a fixed side-feeding moment of inertia \(48\,\hbar^2/\mathrm{MeV}\) to estimate unobserved feeding-transition energies. Side-feeding intensities were fixed after a thin-target comparison, while \(Q_{\rm SF}\) was fitted jointly across forward, \(90^\circ\) and backward spectra. The authors impose an 8% floor on smaller MINOS errors. Fig. 4(a) on p. 3221 also notes that the top measured \(F(\tau)\) falls below the fitted curve. The authors attribute this as a possibility to extra feeding from gating on lower members.
+
 |Eγ keV|τ ps|Qt eb|side-feed τSF ps|
 |---:|---:|---:|---:|
 |887.4|1.11(.13)|1.94(.10)|.48(.11)|
