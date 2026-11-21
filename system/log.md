@@ -7066,3 +7066,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — Guo 的 131Ba 原始 E1 归一
 
 - 核定 6 页刊版。区分同母态 E1 的几何均值归一与 Wang 的 E1/E2 对照，登记匹配的采集设置。累计 211 份、11174 个主件 PDF 页。
+
+## 2026-11-22 — Liu 2016 的 78Br 八极观测
+
+- 核定六页刊版及反应谱系，保留 E1/E2 和奇偶自旋的能量位移。累计 212 份、11180 个主件 PDF 页。

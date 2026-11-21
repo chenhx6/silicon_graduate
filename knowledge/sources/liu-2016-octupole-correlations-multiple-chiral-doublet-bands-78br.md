@@ -76,6 +76,8 @@ tags: [multiple-chiral-doublet, octupole-correlation, octupole-softness, high-sp
 
 ## Nuclear Structure Information
 
+In Fig. 5 on 112501-4, the displacement subtracts the spin-weighted interpolation \(\big[(I+1)E(I-1)+I E(I+1)\big]/(2I+1)\). The paper reports a roughly constant even-spin displacement and a decrease in the odd-spin sequence. The mean decrease therefore depends on the odd-spin behavior. The E1/E2 ratios retain their own branch normalization and the \(^{125}\mathrm{Ba}\), \(^{224}\mathrm{Th}\) comparisons retain their separate source identities.
+
 - [[78br-positive-parity-mchd-pair]]：Bands 1–2，proposed `pi g9/2 x nu g9/2`。
 - [[78br-negative-parity-mchd-pair]]：Bands 3–4，tentative `pi f5/2 x nu g9/2`。
 - Band 1 与 Band 3 之间八条 E1 links 连接相反宇称 yrast sequences。

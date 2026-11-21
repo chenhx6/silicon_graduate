@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — \(^{78}\mathrm{Br}\) 的 E1 与奇偶自旋能量差
+
+- [[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]] 核定 6 页刊版，两份原件同 SHA。Fig. 5 的平均能量差下降主要来自奇自旋序列，保留 E1 分支和跨核对照的原出处。
+- 累计核定 212 份、11180 个主件 PDF 页。接续 [[wang-2019-rat-prm-78br-octupole-correlations]]。
+
 ## 2026-11-22 — Guo 的 \(^{131}\mathrm{Ba}\) 原实验与 E1 相对量
 
 - [[guo-2020-pseudospin-chiral-quartet-131ba]] 核定 6 页刊版。Fig. 5 的同母态相对 E1 用几何均值归一，与 Wang 使用的 E1 / 带内 E2 分母不同。保留与 Ding 的束靶、角组及事件计数对应。

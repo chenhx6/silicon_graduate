@@ -1,0 +1,33 @@
+{
+  "work_id": "catalogue:LIT-000085",
+  "recorded_at": "2026-11-21T17:50:05.663198+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+  "raw_files": [
+    {
+      "path": "raw/papers/2016_Liu et al_Evidence for Octupole Correlations in Multiple Chiral Doublet Bands.pdf",
+      "sha256": "460051aed9af9d84bbfa09a51339e4d671f8abaaf511ff6b7e0a4fbc2a836ad4",
+      "size": 722600,
+      "hash_basis": "fresh-hash",
+      "source_role": "publisher-version"
+    },
+    {
+      "path": "raw/papers/gpt/learning-daily/20261101-day29-78br-octupole/78br-prl-2016.pdf",
+      "sha256": "460051aed9af9d84bbfa09a51339e4d671f8abaaf511ff6b7e0a4fbc2a836ad4",
+      "size": 722600,
+      "hash_basis": "fresh-hash",
+      "source_role": "byte-identical-copy"
+    }
+  ],
+  "credited_primary_pages": 6,
+  "coverage": [
+    "112501-1–3: scope, AFRODITE/DIAMANT run, level scheme, angular ratios and polarization.",
+    "112501-4–6: E1 paths, angular momentum models, odd/even energy displacements and inter-nuclide comparisons, conclusion and bibliography."
+  ],
+  "reader": "Prior whole-original reading and current Codex edition check and Fig. 5 formula/trend evidence audit.",
+  "evidence_boundary": [
+    "Two byte-identical local originals count as one work.",
+    "The displacement weighting and the distinct even/odd trends are recorded. Cross-nucleus comparisons and soft potential interpretation do not constitute a direct measurement of an octupole shape."
+  ],
+  "next_action": "Reconcile the Wang 2019 RAT-PRM author edition, focusing on the calibration, E1/E2 comparison and the Liu 2016 experimental dependency."
+}
