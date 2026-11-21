@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.1016/j.nima.2025.170932",
+  "active_source": "doi:10.1088/1748-0221/18/11/p11031",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -385,9 +385,10 @@
     "SCHMID98-GAMMASPHERE-COMPLETE-SCIENTIFIC-SCOPE",
     "MORSE22-GRETINA-LOCAL-PREPRINT-SCIENTIFIC-SCOPE",
     "BIZZETI15-AGATA-COMPLETE-SCIENTIFIC-SCOPE",
-    "LONGFELLOW26-GRETINA-COMPLETE-SCIENTIFIC-SCOPE"
+    "LONGFELLOW26-GRETINA-COMPLETE-SCIENTIFIC-SCOPE",
+    "URBAN23-EXILL-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 119,
+  "completed_full_sources_this_run": 120,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 997,
@@ -395,14 +396,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T05:41:16.812820+00:00",
+  "updated_at": "2026-11-21T05:50:17.685756+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 9108,
-  "current_source_note": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
-  "next_action": "Read Directional-polarization correlations using EXILL, DOI 10.1088/1748-0221/18/11/P11031, from the local reading queue.",
+  "completed_primary_pages_this_run": 9143,
+  "current_source_note": "knowledge/sources/urban-2023-exill-directional-polarization.md",
+  "next_action": "Read Krane 1973 directional correlations and Bargholtz 1987 high-spin simplifications in local publisher files.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Tracking polarimeters: Morse measured and simulated response, Bizzeti cut geometry and Longfellow branch.",
-  "current_source_scientific_acceptance": "Three works and 34 local primary pages; Morse actual edition is author preprint.",
-  "source_scoped_retrieval": "Existing local PDFs. No new download."
+  "last_source_manager_closure": "Urban 2023: conditional polarization, physical angular inputs, and large mixing ratios in Xe and Sm.",
+  "current_source_scientific_acceptance": "35 publisher pages credited; IOP access wrapper excluded.",
+  "source_scoped_retrieval": "Existing local publisher PDF, no new download."
 }

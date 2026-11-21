@@ -29,6 +29,7 @@ updated: 2026-11-21
 - [[biswas-2026-o6-like-80se-polarization-mixing]] — 80Se 原文偏振/混合比数据与读取边界。
 - [[guo-petrache-arxiv201200343-183au-polarization-comment]] — 183Au 偏振误差争议的预印本原件。
 - [[guo-petrache-arxiv200710031-135pr-erratum-comment]] — ¹³⁵Pr 原表与勘误的偏振校准复算及其条件。
+- [[urban-2023-exill-directional-polarization]] — ¹³²Xe 与 ¹⁵²Sm 的开角关联、线偏振和大 E2/M1 混合比。
 - [[mukherjee-2022-shape-coexistence-octupole-72se]] — 72Se 混合比与取向标定的定向核读。
 - [[masiteng-2006-194tl-polarization-lifetime-thesis]] — 194Tl 全文，区分计数不对称、借用的 DCO、宇称指认和 RSAM 半衰期。
 - [[ramashidzha-2006-194tl-dco-level-scheme-thesis]] — 194Tl 的逐门 DCO、归属条件与 Masiteng 表格差异。

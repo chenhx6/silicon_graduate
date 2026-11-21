@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — EXILL 的大模混合比和条件偏振
+
+- [[urban-2023-exill-directional-polarization]] 对账 36 页 PDF 的 35 页出版内容。核实 \(^{132}\mathrm{Xe}\) 630.2 keV 的数值联合解、\(^{152}\mathrm{Sm}\) 的大模数据及不一致案例，以及 \(^{133}\mathrm{Cs}\) 用伴线偏振定混合号。
+- 累计 120 份、9143 页主件。续读 [[krane-1973-directional-correlations-oriented-states]] 与 [[bargholtz-1987-high-spin-gamma-gamma-directional-correlations]]，保持原件使用的角坐标和张量约定。
+
 ## 2026-11-21 — 跟踪阵列的极化标定和选支
 
 - [[morse-2022-gretina-polarization-sensitivity]] 的 13 页机构作者稿、[[bizzeti-2015-agata-triple-cluster-polarimetry]] 的 11 页和 [[longfellow-2026-gretina-energy-ordering-polarization]] 的 10 页已对账。区分单点实测极化灵敏度、多能点模拟、源归一及角分布配合不对称度的条件选支。

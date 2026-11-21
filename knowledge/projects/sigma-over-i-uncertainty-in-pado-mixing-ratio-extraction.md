@@ -118,6 +118,8 @@ Chiara 2012 is the most direct spectroscopy example: a working `sigma/I` value i
 
 [[starosta-1999-pdco-experimental-test]] Tables 2–3 对 \(^{164}\mathrm{Yb}\) 490 keV 的同组输入先固定 \(\sigma/I=0.26\)，再让宽度变化。参考宽度来自 647→530 keV 级联。允许宽度变化后，伸展 E2 和条件性的 \(\Delta I=0\) M1/E2 解释都保留。Table 4 在 647 keV 的混合假设下同时改变宽度和混合比，展示了同篇论文可以采用多种取向处理。
 
+[[urban-2023-exill-directional-polarization]] Fig. 9 与 Table 5 给出另一种适用条件。母核初始未取向，级联中的方向选择产生条件偏振。\(^{132}\mathrm{Xe}\) 的 630.2 keV 跃迁由两光子开角系数和线偏振确认大 E2/M1 混合比。该类文章属于偏振参与的混合比文献，用「初态未取向，级联条件选择」记录其方法，避免把束向宽度一栏的空白用于固定比例统计。
+
 Ekstrom 1979 strengthens the older alignment-limitation evidence chain from a complementary direction. Instead of starting from a fit ambiguity alone, it compiles pure-E2 data into `alpha2/alpha4`, tests CNR/MANDY alignment estimates against experiment, gives an explicit uncertainty prescription for those estimates, and warns that too-small alignment errors can lead to faulty spin/parity or mixing-ratio assignments.
 
 Ionescu 1981 then shows what to do when a global Gaussian substate-population model fails in a carefully measured case. It uses pure-E2 transitions and their `rho2/rho4` behavior to test the Gaussian hypothesis, finds it inadequate for `167Tm`, and replaces it with a model that keeps Gaussian side feeding but adds discrete direct gamma-feeding contributions explicitly before fitting mixed transitions.

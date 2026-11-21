@@ -1,0 +1,35 @@
+{
+  "work_id": "doi:10.1088/1748-0221/18/11/p11031",
+  "raw_files": [
+    {
+      "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1088_1748-0221_18_11_p11031.pdf",
+      "sha256": "5a7c8af47e870e6ba44f04450e81cab04555731d9c50673b03c17bace68b68c9",
+      "size": 1742285,
+      "hash_basis": "fresh-hash",
+      "source_role": "original-or-verified-edition"
+    }
+  ],
+  "source_note": "knowledge/sources/urban-2023-exill-directional-polarization.md",
+  "primary_pdf_pages": 36,
+  "credited_primary_pages": 35,
+  "excluded_pdf_pages": [
+    1
+  ],
+  "covered_sections": [
+    "PDF 2–7: article title, initially unoriented cascades and first/second photon polarization form",
+    "PDF 8–18: EXILL geometry, angular fit, asymmetric instruments and sensitivity",
+    "PDF 19–26: combined analysis and original Xe, Gd, Cs and Sm results",
+    "PDF 27–36: response derivation, uncertainties, appendices and references"
+  ],
+  "visual_checks": [
+    20,
+    23
+  ],
+  "evidence_gaps": [
+    "Angular inputs relative photon directions and their coefficients. No beam-axis width used in these examples.",
+    "Some multiple assignments or inconsistent polarization survive. The 964.1-keV Sm comparison and 133Cs partner polarization have distinct roles.",
+    "Reference and fit uncertainty depend on asymmetry calibration and available geometry."
+  ],
+  "reader": "Codex, publisher input and figure audit",
+  "PDM_run": false
+}

@@ -6798,3 +6798,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — 跟踪阵列的极化标定
 
 - 对账 Morse、Bizzeti 与 Longfellow 共 34 页，核实斜率、选择门和选支条件。累计 119 份、9108 页主件。
+
+## 2026-11-21 — Urban 的 EXILL 角关联与偏振
+
+- 对账 35 页出版内容，区分相对开角、两光子条件和偏振的数值来源。累计 120 份、9143 页主件。
