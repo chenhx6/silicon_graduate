@@ -107,3 +107,7 @@ Jones *et al.* establish the early four-crystal CLOVER calibration used to make 
 Table2首行a2为+.15(4)，a4为−.02(4)、A=.077(8)；1368keV a2=.550(3)的括号按通常字面是.003。原值保留，不从任务推断改其误差。source只给spin路径与结果；2+→0+强制E2，5/2→1/2的名义E2核算不独立排除允许的M3或验证全部参考文献。
 
 完整P90推导、全部五行和Cov范围、Fisher近似条件及Q′同量识别边界写在[[compton-polarimetry]]的“Jones1995：标定系数、偏振误差与阈值信息”。相同P/AD/Q派生列不是独立测量。Q′未印完整式及STAG/finite acceptance/error recipe缺失时，不能凭同叫Klein–Nishina就宣布完整跨paper curve重放。当前不再自由拟合B/C来消除差异；下一优先回核其直接方法伴随来源与response定义。
+
+## 2026-11-21 — Published calibration inputs
+
+Table 2 gives five calibration points. The 415 and 423 keV rows have \(Q=0.27(3)\) and \(0.20(2)\), respectively. The points follow distinct reference cascades and their angular-distribution-derived \(P\) values. The fit in Fig. 4 provides the reported energy dependence for the chosen geometry. The efficiency and accepted scattering counts under the 60-keV threshold belong to that calibration. See [[schmid-1998-gammasphere-polarization]] for a detector with a different asymmetry definition.

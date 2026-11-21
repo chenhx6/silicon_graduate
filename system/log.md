@@ -6790,3 +6790,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — BrIcc、图解反算与光子散射
 
 - 对账三篇共 35 页，区分变换不确定度、转换系数与散射偏振双根。累计 114 份、9053 页主件。
+
+## 2026-11-21 — Jones 与 Schmid 的探测器标定
+
+- 对账 5+16 页，核实两类极化仪的标定和 Schmid 的出版／实验室版本。累计 116 份、9074 页主件。

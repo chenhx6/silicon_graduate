@@ -1,0 +1,61 @@
+{
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000484",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1995_Jones et al_Calibration of the new composite “clover” detector as a Compton polarimeter for.pdf",
+          "sha256": "8d2cf5ee101d9f3109f6663269fa62f9d6a829e432e05db2502252bf5b132460",
+          "size": 451755,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+      "primary_pdf_pages": 5,
+      "credited_primary_pages": 5,
+      "covered_sections": [
+        "PDF 1–3: clover construction, angle and polarization-response method",
+        "PDF 4–5: Table II, threshold sensitivity, merit and references"
+      ],
+      "evidence_gaps": [
+        "Q calibration depends on the actual clover geometry, reference lines and threshold."
+      ]
+    },
+    {
+      "work_id": "catalogue:LIT-000679",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1998_Schmid et al_Gamma-ray polarization sensitivity of the Gammasphere segmented germanium.pdf",
+          "sha256": "66502edb2f0ff2d09321d3b388767ea98736b83865b90f128fdd1e46921b2a2c",
+          "size": 329387,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        },
+        {
+          "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1998_Schmid et al_Gamma-ray polarization sensitivity of the Gammasphere segmented germanium2.pdf",
+          "sha256": "bdb397650e5b8cc92f358e386f52703604dd0962184364004eb8985f76998558",
+          "size": 1189387,
+          "hash_basis": "fresh-hash",
+          "source_role": "same-work-laboratory-preprint"
+        }
+      ],
+      "source_note": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "primary_pdf_pages": 16,
+      "credited_primary_pages": 16,
+      "covered_sections": [
+        "PDF 1–7: segmented Ge geometry and event partition formalism",
+        "PDF 8–12: calibration and numerical response",
+        "PDF 13–16: 197Pb application, limits, bibliography"
+      ],
+      "evidence_gaps": [
+        "44-page LBNL preprint shares the same experimental lineage and is not credited separately.",
+        "Sign and magnitude of 432-keV polarization have different sensitivity to background."
+      ]
+    }
+  ],
+  "credited_primary_pages": 21,
+  "alternate_schmid_report_pages": 44,
+  "reader": "Codex with existing full-source records reconciled",
+  "PDM_run": false
+}

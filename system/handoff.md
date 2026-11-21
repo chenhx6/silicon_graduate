@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Jones 与 Schmid 的极化响应
+
+- [[jones-1995-clover-compton-calibration]] 的 5 页及 [[schmid-1998-gammasphere-polarization]] 的 16 页已对账。校准点依据参考线、几何与阈值记录；44 页实验室预印本与 Schmid 原刊按一篇计。
+- 累计 116 份、9074 页主件。续核 [[morse-2022-gretina-polarization-sensitivity]]，对照跟踪阵列灵敏度的实际输入、作者稿与出版记录。
+
 ## 2026-11-21 — 转换系数与偏振双根
 
 - 核对 [[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] 28 页、[[rezynkina-2017-graphical-extraction-multipole-mixing-ratios]] 3 页与 [[rusev-2009-multipole-mixing-ratios-11b]] 4 页。区分理论转换系数的评估、混合比幅度的反算与散射偏振不对称的选支。

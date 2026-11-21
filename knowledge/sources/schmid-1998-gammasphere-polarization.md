@@ -120,3 +120,7 @@ Detector segmentation, energy thresholds, geometry, response Monte Carlo and bac
 新SG98-13/14和[[polarimetry-shared-calibration-count-design]]是在本session独立推导/核验的新交付；原SG98-1–12与flags保持。新design C/S包含两侧confined/sideADCzero，参考和目标均按原Eq15；新120000次Poisson设计MC与Fisher并不重放原DAMM fit，也不是原197Pb数据/原geometry producer。
 
 294-keV printcentral closure失败及actual η仍在quoted error内的边界继续保留，未调η、未把printingfailure称实验矛盾。Fig9的130-keV门与Fig10/197Pb的60-keV门分开；源negative-parity/M1解释不升级成偏振符号独断Jπ。原文Table3的fit parameter errors不被本设计独立Poisson模型覆盖。判断`supports`匹配response与统计分层，`revises`只改分母/一点标Q的合法性，`limits`高背景下裸F与精确P主张；所有新增claims为needs_review，无human-review事件。
+
+## 2026-11-21 — Published and laboratory-report versions
+
+The 16-page publication (95–110) supplies the calibration and the final \(^{197}\mathrm{Pb}\) numbers. The 44-page LBNL-41340 report contains the earlier text, figure pages, and cover material for the same experiment. Table 1 gives \(Q=0.052(7),0.047(5),0.043(2)\) at 415, 847, and 1368 keV. The 432-keV linking line in \(^{197}\mathrm{Pb}\) is supported as electric by its sign relative to the band reference. Section 6 discusses the large central magnitude and background uncertainty. This context matters when treating polarization as a numerical fit input instead of a parity criterion.

@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.1103/physrevc.79.047601",
+  "active_source": "catalogue:LIT-000679",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -380,9 +380,11 @@
     "GRAY20-TDPAD-LOCAL-ARXIV-SCIENTIFIC-SCOPE",
     "KB08-BRICC-COMPLETE-SCIENTIFIC-SCOPE",
     "RZ17-ICC-INVERSE-COMPLETE-SCIENTIFIC-SCOPE",
-    "RUSEV09-B11-COMPLETE-SCIENTIFIC-SCOPE"
+    "RUSEV09-B11-COMPLETE-SCIENTIFIC-SCOPE",
+    "JONES95-CLOVER-COMPLETE-SCIENTIFIC-SCOPE",
+    "SCHMID98-GAMMASPHERE-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 114,
+  "completed_full_sources_this_run": 116,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 997,
@@ -390,14 +392,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T05:28:33.815692+00:00",
+  "updated_at": "2026-11-21T05:33:44.674935+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 9053,
-  "current_source_note": "knowledge/sources/rusev-2009-multipole-mixing-ratios-11b.md",
-  "next_action": "Read Jones EUROGAM Clover calibration and Schmid Gammasphere segmented Ge polarimetry, checking versions and duplicate rows.",
+  "completed_primary_pages_this_run": 9074,
+  "current_source_note": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+  "next_action": "Read Morse et al. GRETINA polarization sensitivity, verify the author preprint locally held and the version-of-record boundary.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "BrIcc evaluation, Rezynkina inversion and Rusev photon-scattering branches.",
-  "current_source_scientific_acceptance": "Three works, 35 local primary pages.",
-  "source_scoped_retrieval": "Existing local primary PDFs. No new download."
+  "last_source_manager_closure": "Jones Clover and Schmid segmented Ge: calibration conditioning, reported Q and duplicate report identity.",
+  "current_source_scientific_acceptance": "Two works, 21 journal pages; alternate LBNL report not credited separately.",
+  "source_scoped_retrieval": "Three already archived file identities. No new download."
 }
