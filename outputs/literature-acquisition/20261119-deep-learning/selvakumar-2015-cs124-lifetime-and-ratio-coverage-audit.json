@@ -1,0 +1,26 @@
+{
+  "work_id": "catalogue:LIT-001057",
+  "recorded_at": "2026-11-21T18:07:06.098705+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/continuation-g21-selvakumar-2015-prc92-124cs-octupole-chiral.md",
+  "raw": {
+    "path": "raw/papers/gpt/query/20261107-continuation-G21/Selvakumar-2015-PRC-92-064307-124Cs.pdf",
+    "sha256": "0b820e626d237a3d42a52c167536b9ee4793464d9ec9a230ab0e9deb15641c77",
+    "size": 407322,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "credited_primary_pages": 8,
+  "coverage": [
+    "064307-1–4: experimental and DSAM methods, negative-parity bands and E1 conversions.",
+    "064307-5–7: Tables I–II, lifespan-based strengths and limiting inputs, chiral comparison.",
+    "064307-7–8: summary and bibliography."
+  ],
+  "reader": "G21 full-text coverage and Codex original rates and lifetime audit across paper sections.",
+  "evidence_boundary": [
+    "Below Band 3 spin 14, the E1-strength prose uses a common E2 scale calculated with Q0 and K. Table I leaves corresponding absolute fields blank.",
+    "At higher spins the fits include direct lifetime inputs to rates; do not count all low/high points as the same measurement type.",
+    "Cross-nucleus ratios and octupole interpretation do not provide an absolute E3 measurement."
+  ],
+  "next_action": "Reconcile the 100Ru level-scheme and enhanced-E1 lifetime sources, separating versions, acquisition dependencies and observable types."
+}

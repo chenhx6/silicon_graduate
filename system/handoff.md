@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — \(^{124}\mathrm{Cs}\) 的 E1 绝对强度两条来源
+
+- [[continuation-g21-selvakumar-2015-prc92-124cs-octupole-chiral]] 核定 8 页刊版。分清低自旋的 \(K=3\)、平均 \(Q_0\) 归一和高自旋的直接寿命路线。
+- 累计核定 216 份、11275 个主件 PDF 页。接续 [[karmakar-2023-2024-100ru-alternate-parity-bands]] 及后续寿命原件。
+
 ## 2026-11-22 — 肖骁学位论文的门谱与期刊谱系
 
 - [[xiao-xiao-2019-high-spin-74as-thesis]] 核定 61 页当地馆藏本。保留 Fig. 3.5 对约 19.8 keV 未观察连接的推断和 Eq. (3.2) 效率校正。论文与期刊的负宇称带仍须按跃迁逐项对照。

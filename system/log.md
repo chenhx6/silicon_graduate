@@ -7082,3 +7082,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — 肖骁 2019 原件与低能推定连接
 
 - 核定 61 页硕士论文，记录 Eq. (3.2) 归一和 Fig. 3.5 的门谱。累计 215 份、11267 个主件 PDF 页。
+
+## 2026-11-22 — 124Cs 的寿命与假定 Q0
+
+- 核定 8 页刊版，区分低自旋以平均 Q0 锚定的 E1 导出与直接寿命路线。累计 216 份、11275 个主件 PDF 页。

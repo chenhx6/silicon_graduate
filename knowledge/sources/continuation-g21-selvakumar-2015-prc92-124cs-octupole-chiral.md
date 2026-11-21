@@ -7,7 +7,7 @@ updated: 2026-11-08
 status: active
 review_status: unreviewed
 source_type: journal-article
-reading_depth: read
+reading_depth: deep-read
 title_original: "Evidence for octupole correlation and chiral symmetry breaking in 124Cs"
 authors: ["K. Selvakumar", "A. K. Singh", "Chandan Ghosh", "Purnima Singh", "A. Goswami", "R. Raut", "A. Mukherjee", "U. Datta", "P. Datta", "S. Roy", "G. Gangopadhyay", "S. Bhowal", "S. Muralithar", "R. Kumar", "R. P. Singh", "M. Kumar Raju"]
 journal: Physical Review C
@@ -57,6 +57,8 @@ G21读取全文实验/模型段；总控回读PDF5 TableI及直接寿命/分支�
 | SE15-5 | 文中组态、γ/四极参数及八极解释采用模型/前人输入，不能都当本次独立测量 | interpretation-boundary | direct | PDF4、7讨论 | false |
 
 ## Competing Interpretations and Limitations
+
+PDF 3–4 Eq. (4) uses the \(\gamma\)-ray intensities to obtain Band 3's \(B(E1)/B(E2)\) below \(14^-\). The authors then use \(Q_0\simeq2.90\,e\,\mathrm b\) and \(K=3\) to estimate the reference E2 strengths. The resulting E1 values for \(9^-\) through \(13^-\) have that normalization in common. In PDF 5 Table I those same low-spin rows carry the measured intensity ratios, with the lifetime and absolute strength fields blank. The \(14^-\) and higher fitted rows supply a different, lifetime-based route. The 988-keV Band 4 example on PDF 4 likewise uses its band-average \(Q_0\simeq3.1\,e\,\mathrm b\).
 
 低自旋没有对应DSAM寿命时，绝对强度需要另给Q0/K等条件；不能把所有表值当直接寿命结果。
 单独强/弱E1、能隙或B(M1)交错不能唯一指定八极或静态手征。

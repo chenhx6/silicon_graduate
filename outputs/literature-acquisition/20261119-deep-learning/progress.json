@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-001057",
+  "active_source": "catalogue:LIT-000897",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -498,9 +498,10 @@
     "L16-BR78-E1-AND-SPIN-DEPENDENT-DISPLACEMENT",
     "W19-BR78-RELATIVE-E1-AND-MODEL-RESIDUALS",
     "XA22-AS74-ADO-ASYMMETRY-AND-SPIN-CHANGE",
-    "XX19-AS74-THESIS-AND-MISSING-LOW-ENERGY-LINK"
+    "XX19-AS74-THESIS-AND-MISSING-LOW-ENERGY-LINK",
+    "SE15-CS124-ABSOLUTE-E1-TWO-NORMALIZATIONS"
   ],
-  "completed_full_sources_this_run": 215,
+  "completed_full_sources_this_run": 216,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -508,14 +509,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T18:03:38.930078+00:00",
+  "updated_at": "2026-11-21T18:07:06.098705+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 11267,
-  "current_source_note": "knowledge/sources/continuation-g21-selvakumar-2015-prc92-124cs-octupole-chiral.md",
-  "next_action": "Verify Selvakumar 2015 124Cs publisher paper and its octupole/parity and chirality observables.",
+  "completed_primary_pages_this_run": 11275,
+  "current_source_note": "knowledge/sources/karmakar-2023-2024-100ru-alternate-parity-bands.md",
+  "next_action": "Reconcile the 100Ru level-scheme and enhanced-E1 lifetime sources, separating versions, acquisition dependencies and observable types.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Xiao 2019 61-page local thesis and missing gamma/gate conditions.",
-  "current_source_scientific_acceptance": "Selvakumar 2015 queued.",
-  "source_scoped_retrieval": "Used the local thesis and visually inspected method figures."
+  "last_source_manager_closure": "Selvakumar 2015 124Cs original with low-/high-spin absolute E1 distinction.",
+  "current_source_scientific_acceptance": "Karmakar 100Ru prepared next.",
+  "source_scoped_retrieval": "Reused the local eight-page publisher PDF."
 }
