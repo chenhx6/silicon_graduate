@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — Wakudyanaye 学位论文及带间混合比
+
+- [[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] 核定 130 页硕士论文。保留同源采集的 AFRODITE 计数与阵列描述差异、全角门角比及 Band 4 三条混合比。原文未把这三条线与数值线偏振和标定相连。
+- 累计核定 208 份、11149 个主件 PDF 页。接续 [[ma-1990-131ba-competing-alignments]]。
+
 ## 2026-11-22 — GALILEO 与 AFRODITE 的角比标定
 
 - [[ding-2021-131ba-133ce-signature-splitting]] 核定 16 页作者稿，修正旧页数别称。分别保留两套装置的角组和拉伸偶极、四极标定。

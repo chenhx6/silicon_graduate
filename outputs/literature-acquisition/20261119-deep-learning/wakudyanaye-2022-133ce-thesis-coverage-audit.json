@@ -1,0 +1,30 @@
+{
+  "work_id": "catalogue:LIT-000741",
+  "recorded_at": "2026-11-21T17:31:52.993028+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+  "raw": {
+    "path": "raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+    "sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+    "size": 7891630,
+    "hash_basis": "fresh-hash",
+    "source_role": "verified-university-masters-thesis"
+  },
+  "credited_primary_pages": 130,
+  "coverage": [
+    "PDF 1–11: degree, layout, abstract and section metadata.",
+    "PDF 12–35: Chapters 1–2, theoretical background.",
+    "PDF 36–50: Chapter 3, triaxiality, model quantities and electromagnetic definitions.",
+    "PDF 51–59: Chapter 4, experimental techniques and ratio convention.",
+    "PDF 60–74: Chapter 5, spectra, placements and data tables.",
+    "PDF 75–118: Chapters 6–7, model tests, negative-/positive-parity results and conclusion including Table 6.11.",
+    "PDF 119–130: bibliography."
+  ],
+  "reader": "Documented prior local full-thesis reading, checked against the current copy and chapter boundaries, and targeted manager evidence check.",
+  "evidence_boundary": [
+    "The original is a University of the Western Cape MSc thesis from March 2022. The 133Ce AFRODITE count and reaction settings link to Ding, with an unresolved array-description difference.",
+    "The paper-reported three delta values in Table 6.11 should not be treated as an independent P-based sample. Numerical P and its calibration for these lines were not located in the thesis discussion.",
+    "No lifetimes or absolute rates are inferred from Table 6.11 ratios or from a band-label analogy."
+  ],
+  "next_action": "Continue with Ma 1990 on competing proton and neutron rotational alignments in 131Ba and the original DCO/feeding boundary."
+}

@@ -47,6 +47,8 @@ Covered：两实验来源/实际装置、Band1–4符合逻辑、AD与DCO/RAD区
 
 ## Summary
 
+Ch. 4 Eq. (4.6) specifies an all-detector gate for the \(135^\circ/90^\circ\) angular-intensity ratio. The Band 4 mixing ratios in Ch. 6 Table 6.11 are source-reported results. In the local thesis the text does not link them to numerical linear polarizations, their calibration, or an independent set of \(P\) inputs. Preserve the original ratios and errors separately from a \(P\)-based input set.
+
 论文有两条分别定标的研究线。正宇称g7/2带展示γ与Coriolis/邻轨道混合共同影响signature splitting；负宇称h11/2的Band1/4把九轨道QTR与单轨道FA逐量比较。完整空间能量/S和rE2较好、FA连接δ更近、Fig6.16/正文给两者rM1 spin趋势均不佳（表6.9趋势有内部冲突），故学习价值在于从实验定义到模型失效的完整过程，不能只取摘要的总体判断。
 
 ## Key Results
