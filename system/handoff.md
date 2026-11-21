@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — \(^{146}\mathrm{Ba}\) 的 E1 与 E3 约束
+
+- [[bucher-2017-146ba-direct-octupole]] 核定 6 页作者版。Table I 的基态 E1 主要受先前衰变资料约束，相对 E1/E3 符号对此次产额不敏感。
+- 累计核定 224 份、11332 个主件 PDF 页。接续 \(^{144}\mathrm{Ba}\) 的对称性恢复计算。
+
 ## 2026-11-22 — \(^{144}\mathrm{Ba}\) 库仑激发与旁证
 
 - [[bucher-2016-144ba-direct-octupole]] 核定 5 页刊版，登记两组散射角和 \(^{134}\mathrm{Xe}\) 的产额校验。分开 E3 拟合和既有 E1 分支输入。

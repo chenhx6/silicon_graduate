@@ -7110,3 +7110,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — 144Ba 的产额校验和 E3 输入
 
 - 核定 Bucher 2016 五页刊版，保留粒子角门及邻核校验。累计 223 份、11326 个主件 PDF 页。
+
+## 2026-11-22 — 146Ba 的直接 E3 与相对符号
+
+- 核定 6 页作者版，记录 E1 主要来自既有约束且相对符号不敏感。累计 224 份、11332 个已登记主件 PDF 页。

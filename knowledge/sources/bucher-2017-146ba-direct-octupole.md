@@ -65,6 +65,8 @@ This external source materially strengthens the octupole evidence ladder: direct
 
 ## Counter-evidence and Competing Interpretations
 
+Author PDF p. 3 Table I marks the experimental \(0^+\to1^-\) E1 element with footnote `a`, indicating its primary dependence on earlier lifetimes or branching ratios. Only E1 decays from \(3^-\) and \(5^-\) were seen in the new spectra. The relative sign of the intrinsic E1 and E3 moments is insensitive to these data. Retain the prior-dominated E1 magnitude, unmeasured relative sign and ground-state E3 magnitude separately when comparing \(^{144}\mathrm{Ba}\) and \(^{146}\mathrm{Ba}\).
+
 - Sudden band alignment and the `146Ba` high-spin behavior had motivated hypotheses of quenched octupole strength, a reflection-symmetric shape, or aligned octupole phonons; the direct E3 result rejects the first as a sufficient explanation while leaving the alternatives as model questions.
 - GOSIA uncertainties are statistics limited, and E1 matrix elements are constrained mostly by prior data rather than new yields.
 

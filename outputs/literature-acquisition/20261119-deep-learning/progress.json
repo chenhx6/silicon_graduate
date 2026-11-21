@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000331",
+  "active_source": "catalogue:LIT-000070",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -506,9 +506,10 @@
     "MZ90-ZR96-TIMING-AND-ADOPTED-BRANCHES",
     "IS19-ZR96-ADOPTED-LIFETIME-AND-CASCADE-SUMMING",
     "R23-ZR96-PROJECTION-AND-EXPERIMENTAL-E3-BENCHMARK",
-    "BU16-144BA-ANGLE-GATES-AND-COULOMB-CONTROL"
+    "BU16-144BA-ANGLE-GATES-AND-COULOMB-CONTROL",
+    "BU17-146BA-E3-AND-WEAK-E1-CONSTRAINTS"
   ],
-  "completed_full_sources_this_run": 223,
+  "completed_full_sources_this_run": 224,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -516,14 +517,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T18:30:43.479501+00:00",
+  "updated_at": "2026-11-21T18:34:08.771391+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 11326,
-  "current_source_note": "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
-  "next_action": "Reconcile Bucher 2017 146Ba Coulomb excitation and the E1-vs-E3 comparison across isotopes.",
+  "completed_primary_pages_this_run": 11332,
+  "current_source_note": "knowledge/sources/bernard-2016-144ba-sccm-octupole.md",
+  "next_action": "Verify the 144Ba symmetry-conserving configuration-mixing source, with its assignment and comparisons to Coulomb-excitation observations.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Bucher 2016 direct octupole publisher original and yield control.",
-  "current_source_scientific_acceptance": "Bucher 2017 publisher record queued.",
-  "source_scoped_retrieval": "Used archived journal original."
+  "last_source_manager_closure": "Bucher 146Ba direct E3 and E1-vs-E3 source audit.",
+  "current_source_scientific_acceptance": "144Ba configuration-mixing model queued.",
+  "source_scoped_retrieval": "Used existing official 146Ba author version."
 }

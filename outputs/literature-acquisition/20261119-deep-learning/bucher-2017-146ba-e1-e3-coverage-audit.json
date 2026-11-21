@@ -1,0 +1,25 @@
+{
+  "work_id": "catalogue:LIT-000331",
+  "recorded_at": "2026-11-21T18:34:08.771391+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+  "raw": {
+    "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
+    "sha256": "c49cb44350cd24f25d172efe405cd9e78360692eb4087bb3eef1801534264beb",
+    "size": 1423088,
+    "hash_basis": "fresh-hash",
+    "source_role": "verified-official-arxiv-v1-reading-copy"
+  },
+  "credited_primary_pages": 6,
+  "coverage": [
+    "Author PDF 1–3: isotope-specific Coulomb excitation, GOSIA and Table I results.",
+    "PDF 3–6: E1/E3 model comparison and prior experimental dependencies, conclusions and reference list."
+  ],
+  "reader": "Prior whole-manuscript coverage plus Codex original edition, Table I note and E1-sign checks.",
+  "evidence_boundary": [
+    "Local arXiv v1; retain its page locators and physical page count. Published article metadata are bibliographic.",
+    "Table I E1 magnitude is constrained mainly by prior inputs, and its relative sign with E3 remains unconstrained.",
+    "Comparing isotopes does not equate weak E1 with weak E3 or resolve all static/dynamic shape interpretations."
+  ],
+  "next_action": "Verify the 144Ba symmetry-conserving configuration-mixing source, with its assignment and comparisons to Coulomb-excitation observations."
+}
