@@ -1,0 +1,25 @@
+{
+  "work_id": "catalogue:LIT-000337",
+  "recorded_at": "2026-11-21T18:46:52.188149+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/butler-2020-222-228ra-octupole-evolution.md",
+  "raw": {
+    "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/butler-2020-prl124-042503.pdf",
+    "sha256": "c0f8646afcd78d8647a7011046c036aa7c8ae7969839f72151646464a43b1502",
+    "size": 354473,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "credited_primary_pages": 6,
+  "coverage": [
+    "042503-1–3: Coulomb-excitation apparatus, experimental yields, transition coupling and Table I.",
+    "042503-4–6: transition moments, model comparison, shape interpretation and references. Previously documented arXiv supplemental coverage retained without duplicate page credit."
+  ],
+  "reader": "Earlier complete publisher and author/SI record plus Codex original-page check of constraints and phases.",
+  "evidence_boundary": [
+    "Strong 2-plus population prevents independent fitting of the lowest transitional and diagonal E2 elements under the reported procedure.",
+    "Relative intrinsic Q1 and Q3 signs are fit preferences with different isotope values; the overall arbitrary phase is a distinct issue.",
+    "Coupled higher elements remain conditional on the fit. Original covariance not reproduced."
+  ],
+  "next_action": "Reconcile the local Ra/Th ENSDF extract, separating adopted levels and normalization from original spectroscopy."
+}

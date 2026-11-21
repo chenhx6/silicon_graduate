@@ -7118,3 +7118,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — 144Ba 的一维与二维组态混合
 
 - 核定同 SHA 的 6 页作者版，保留能量与跃迁矩阵元的比较。累计 225 份、11338 个主件 PDF 页。
+
+## 2026-11-22 — Ra 库仑激发中相位与耦合
+
+- 核定 Butler 2020 的六页刊版和拟合条件。累计 226 份、11344 个主件 PDF 页。

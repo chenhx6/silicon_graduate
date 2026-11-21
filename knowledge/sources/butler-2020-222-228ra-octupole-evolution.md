@@ -98,6 +98,8 @@ Butler *et al.* provide a multi-transition E3 pattern for `222Ra` and `228Ra`. T
 
 ## Competing Interpretations and Limitations
 
+On 042503-3, the \(2^+\) population probability exceeds 90% in this experiment. GOSIA therefore could not determine the \(0^+\leftrightarrow2^+\) transitional and \(2^+\) diagonal E2 matrix elements independently. The diagonal element was free, with the transition coupled to the \(2^+\leftrightarrow4^+\) E2 through the rotational relation. The fit also preferred equal relative signs of \(Q_1,Q_3\) in \(^{222}\mathrm{Ra}\) and opposite signs in \(^{228}\mathrm{Ra}\). These are relative-phase choices from the fitted yields, distinct from overall state phases.
+
 The author interpretation separates stable pear-like collectivity from an octupole vibrator, but rotationally aligned octupole phonons, pairing effects and model-coupled GOSIA fits remain alternatives or limitations. A single `0+→3−` strength cannot distinguish these cases. The measured transition set is not a complete energy-weighted or non-energy-weighted sum over all negative-parity states.
 
 ## Extracted Pages
