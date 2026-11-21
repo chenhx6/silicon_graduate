@@ -1,0 +1,104 @@
+{
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000001",
+      "source_note": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
+      "coverage_added": "Second edition §§6.1–6.4: PDF 191–257, printed pp.173–239; updated phonon examples and the axial-rotor/Mikhailov range.",
+      "credited_primary_pages": 0,
+      "state": "partial-evidence-verified"
+    },
+    {
+      "work_id": "catalogue:LIT-000306",
+      "source_note": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
+      "coverage_added": "First edition §§6.1–6.4: PDF 156–200, printed pp.141–185; spherical/axial collective models and Er168 Mikhailov example.",
+      "credited_primary_pages": 0,
+      "state": "partial-evidence-verified"
+    },
+    {
+      "work_id": "catalogue:LIT-000371",
+      "source_note": "knowledge/sources/davidson-1965-rotations-vibrations-deformed-nuclei.md",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1965_Davidson_Rotations and Vibrations in Deformed Nuclei 1.pdf",
+          "sha256": "cfaf97cac087bb39d558b654065005dc7e8177ddd5d851bf8a2f698a3abaa5b4",
+          "size": 5681348,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "physical_pdf_pages": 54,
+      "credited_primary_pages": 54,
+      "covered_sections": [
+        "PDF 1–24: introduction, liquid-drop and even-even rotation/vibration systematics, electromagnetic observables and band mixing.",
+        "PDF 25–42: odd and odd-odd coupling, diagrams and electromagnetic comparisons.",
+        "PDF 43–54: decay, photonuclear reactions and references."
+      ],
+      "basis": "prior full reading reconciled with local pages and key formula/table recheck",
+      "evidence_gaps": [
+        "Historical theoretical review. PDF 1 shares its first half with the preceding article. No separate measurement credit for the compiled comparisons."
+      ]
+    },
+    {
+      "work_id": "catalogue:LIT-000389",
+      "source_note": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/振动/2018_Eldridge et al_E2M1 mixing ratios in transitions from the gamma vibrational bands to the ground state rotational b 1.pdf",
+          "sha256": "a244b7e49fb513f057119bce603c0790a5cf381bd7a909f9c2996d033e1439b7",
+          "size": 891348,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "physical_pdf_pages": 11,
+      "credited_primary_pages": 11,
+      "covered_sections": [
+        "PDF 1–4: sign convention, IPAC and attenuation from gamma-gamma data.",
+        "PDF 5–11: original tables, model angles, mixed-transition branch constraints and references."
+      ],
+      "basis": "prior full reading reconciled with local pages and key formula/table recheck",
+      "evidence_gaps": [
+        "Proper E2/M1 amplitude ratios with deorientation corrections. The paper reports no linear polarimetry. Sharing of exact events with other 252Cf studies remains open."
+      ]
+    }
+  ],
+  "credited_primary_pages": 65,
+  "reader": "Codex",
+  "gemini_attempt": {
+    "task_id": "CASTEN00-MIKHAILOV-239-246",
+    "requested_model": "agy-cli/gemini-3.8-flash",
+    "requested_effort": "high",
+    "attempted_at": "2026-11-21T08:48:53.549188+00:00",
+    "accepted_findings": 0,
+    "source_sha256": "a016501ba9897abd73c34d366b93bc4435d3e4d2154c3b949b4f541128a7013c",
+    "provided_page_ids": [
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246
+    ],
+    "visual_page_ids": [
+      241,
+      242,
+      243,
+      244,
+      245,
+      246
+    ],
+    "status": "call-or-parse-failed",
+    "error_type": "TimeoutError",
+    "elapsed_seconds": 95.4
+  },
+  "formula_checks": {
+    "Mikhailov_plot_slope_eb": 0.0045,
+    "unperturbed_E2_eb": 0.25,
+    "Z_gamma_from_plot": 0.036,
+    "Z_gamma_from_branching_ratio": 0.0439712,
+    "conditional_coupling_magnitude_keV": 3.92953
+  },
+  "PDM_run": false
+}

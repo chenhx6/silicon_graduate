@@ -40,6 +40,7 @@ tags: [rotations, vibrations, deformed-nuclei, collective-model, review]
 
 - printed pp.105–158 (54 pages) fully read: hydrodynamic surface model, even–even/odd-A/odd–odd coupling, electromagnetic moments/transitions, alpha/beta decay, photonuclear reactions and conclusion.
 - HS-106–HS-108 are exact same-hash duplicate rows; they reuse this canonical reading and are audited individually without new source count.
+- 2026-11-21 馆藏覆盖对账核实 PDF p.1 上半为上一篇结尾，下半为 Davidson 正文开篇。保留 54 张含本文的物理页。PDF pp.22–23（印刷 pp.126–127）的 \(K=0,2\) 带混合实例给 \(B(E2;2_\gamma\to2_g)/B(E2;2_\gamma\to0_g)=\frac{10}{7}[(1+2Z)/(1-Z)]^2\)，与 [[book-casten-nuclear-structure-simple-perspective]] 二版 Eq. (6.36) 的形状一致。Davidson 也汇报同一核素不同支路给出的 \(Z\) 有时差异超出实验误差。保留各自的拟合参数约定与近似。
 
 ## Key Results
 

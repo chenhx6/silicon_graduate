@@ -40,6 +40,7 @@ tags: [gamma-band, mixing-ratio, IPAC, Mo, Ru, Pd, gamma-softness]
 
 - PDF pp.1–11 fully read: Krane–Steffen δ definition/convention, Greiner comparison, Gammasphere `252Cf` IPAC setup, attenuation/g-factor extraction, Tables 1–4, Figs.1–11, contamination controls and conclusions.
 - Not covered: raw event files, the Goodin thesis and later evaluated level schemes.
+- 2026-11-21 馆藏对账以 11 页出版原件为底本。§2 和 Table 1 的 \(G_2,G_4\) 属于裂变产物的积分扰动角关联。Tables 2–4 的 \(\delta\) 是 E2/M1 辐射振幅比。若把同一跃迁的光子强度用于 [[bm2-rotational-intrinsic-coupling-and-mikhailov-contract]]，须先按 \(\delta^2/(1+\delta^2)\) 取 E2 分量，再结合光子能量和共同归一。Mikhailov 的 \(M_2/M_1\) 比较的是 E2 矩阵元内的有效贡献。原刊没有线偏振观测。
 
 ## Key Results
 

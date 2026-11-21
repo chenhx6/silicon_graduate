@@ -416,9 +416,12 @@
     "GORE05-STAGGERING-COVERAGE-RECONCILED",
     "MCCUTCHAN07-STAGGERING-COVERAGE-RECONCILED",
     "ZAMFIR91-STAGGERING-COVERAGE-RECONCILED",
-    "CASTEN-90-00-IBM-CQF-PARTIAL"
+    "CASTEN-90-00-IBM-CQF-PARTIAL",
+    "CASTEN-90-00-AXIAL-MIKHAILOV-PARTIAL",
+    "DAVIDSON65-COVERAGE-RECONCILED",
+    "ELDRIDGE18-COVERAGE-RECONCILED"
   ],
-  "completed_full_sources_this_run": 142,
+  "completed_full_sources_this_run": 144,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1000,
@@ -426,14 +429,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T08:38:32.676228+00:00",
+  "updated_at": "2026-11-21T09:07:34.009119+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 9640,
+  "completed_primary_pages_this_run": 9705,
   "current_source_note": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
-  "next_action": "Read the earlier Casten Chapter 6 axial vibration, rotation and band-mixing/Mikhailov sections.",
+  "next_action": "Compare Casten first edition Ch.9 with second edition Ch.10 on microscopic collective vibrations, RPA and spectrum/strength diagnostics.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Casten §6.6 in two editions: CQF path and Er168 data normalization and limitations.",
-  "current_source_scientific_acceptance": "Chapter coverage; no additional full works or volume pages credited.",
-  "source_scoped_retrieval": "Existing local publisher PDFs and book copies."
+  "last_source_manager_closure": "Casten two-edition axial collective dynamics and Mikhailov; Davidson and Eldridge sources.",
+  "current_source_scientific_acceptance": "Two publisher works reconciled within original scope plus bounded book sections; no full-book credit.",
+  "source_scoped_retrieval": "All accepted materials were existing local originals."
 }

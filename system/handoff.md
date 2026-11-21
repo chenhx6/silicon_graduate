@@ -3,6 +3,12 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — 两版 Casten 轴对称模型与 Mikhailov 核验
+
+- [[book-casten-nuclear-structure-simple-perspective]] 两版第 6 章前半对账，核准 \(^{168}\mathrm{Er}\) 图的斜率符号、初版强度式的排印差异，以及相对强度与绝对矩阵元的定标条件。换算已同步到 [[bm2-rotational-intrinsic-coupling-and-mikhailov-contract]]。
+- 核对 [[davidson-1965-rotations-vibrations-deformed-nuclei]] 的 54 张含正文页及 [[eldridge-2018-gamma-band-mixing-ratios]] 的 11 页，累计 144 份、9705 页主件。学术原件版本不变。Gemini 的 Mikhailov 请求超时，本单元由 Codex 核读。
+- Casten 两版整本仍为部分覆盖。接续一版第 9 章与二版第 10 章的微观振动，核对 RPA、两准粒子组态和谱学观测。
+
 ## 2026-11-21 — Casten 两版 IBM 的能级与 E2 同时核查
 
 - [[book-casten-nuclear-structure-simple-perspective]] 增补两版 §6.6，核对一致四极算符路径、同自旋差的转动项消除条件、\(^{168}\mathrm{Er}\) 的支路比较以及有限玻色子数下的 \(\gamma\) 涨落。

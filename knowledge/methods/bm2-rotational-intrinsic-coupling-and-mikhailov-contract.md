@@ -92,5 +92,6 @@ c(I)=\epsilon_2\sqrt{2(I-1)I(I+1)(I+2)},\qquad h_2=\epsilon_2\Delta E.
 
 ## Sources
 
+- [[book-casten-nuclear-structure-simple-perspective]] 二版 Eqs. (6.33)–(6.36)、Fig. 6.17 的 \(^{168}\mathrm{Er}\) 实例采用相同的 \(X=J_f(J_f+1)-J_i(J_i+1)\)。其 \(-M_2/M_1=0.01679\)、\(Z_\gamma=0.036\) 与本页 \(z_2=2a_2/(1-4a_2)\) 相容。书中还使用 \(Q_0\) 及同自旋能隙解释小混合耦合。以相对强度只得到比值时，绝对 \(eb\) 标度和 \(V\) 仍须写明输入。
 - [[book-bohr-mottelson-nuclear-structure-vol2]]：BM2-5、BM2-12及本页所列精确原文定位。
 - 两个本地反演模块和专用测试：验证此处的条件代数与接口，不能作为独立实验来源。

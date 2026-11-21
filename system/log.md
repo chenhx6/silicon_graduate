@@ -6850,3 +6850,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Casten 一致四极算符章节
 
 - 对账两版 IBM 的对应章节、\(^{168}\mathrm{Er}\) 原表及模型尺度条件。两版保持部分覆盖。
+
+## 2026-11-21 — 轴对称集体模型和 Mikhailov 算例
+
+- 两版 Casten 增加第 6 章前半覆盖。对账 Davidson 与 Eldridge 两份出版原件，累计 144 份、9705 页主件。
