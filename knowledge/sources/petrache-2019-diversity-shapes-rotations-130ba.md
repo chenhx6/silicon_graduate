@@ -8,6 +8,8 @@ year: 2019
 canonical_source: "https://doi.org/10.1016/j.physletb.2019.06.040"
 raw_file: "raw/papers/gpt/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation/petrache-2019-diversity-shapes-rotations-130ba.pdf"
 raw_sha256: 98c3128b3d88528b56aa075748065dc2b1f13778a45ad3efedd3058a21a18340
+supplement_file: "raw/papers/gpt/query/20261121-130ba-spectroscopy/petrache-2019-130ba-supplement.pdf"
+supplement_sha256: d12be86b119f5d5212dac23b49fa7e4ab3ff855510fb6fd5eea6310a076b7cb7
 raw_storage_status: "archived-local"
 public_staging_file: "tmp/day23-originals/ba130-primary061-2019.pdf"
 created: 2026-10-26
@@ -33,6 +35,8 @@ Recovered/located original bytes at `raw/papers/gpt/learning-daily/20261025-DAY2
 
 C. M. Petrache et al., Physics Letters B **795**, 241–247 (2019)。DOI为正文；补充URL https://ars.els-cdn.com/content/image/1-s2.0-S0370269319304228-mmc1.pdf 。
 ## Scope and Reading Depth
+
+2026-11-21 对账：以已归档的 7 页出版正文和 4 页官方 SI 为底本。SI PDF 1 Table I 是 D1/t-band 的分支和相对跃迁率，Fig. 1（SI PDF 2）给 S 带门谱。主文 p. 242 说明由角分布分析提取部分线的 \(\delta\)。在本正文和 SI 中，S1′→S1 的逐线 \(\delta\) 和选择过程未列成表，亦未给该支路的数值 \(P\) 或采用的 \(\sigma/I\)。[[chen-2019-transverse-wobbling-even-even]] Table I 另列 S1′→S1 的实验角分布结果并说明选根。[[wang-2020-two-quasiparticle-wobbling-130ba]] 复用此实验比较 PSM。
 
 本轮直接公开出版商PDF正文已读，并核关键图表；原文件仅在tmp公开访问staging，raw正式归档deferred，绝不写成raw已存或human-reviewed。正文/附录页码与以下SHA可识别当前版本。
 

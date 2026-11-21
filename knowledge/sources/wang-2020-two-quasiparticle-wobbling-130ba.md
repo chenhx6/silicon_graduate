@@ -62,3 +62,7 @@ PSM为两准粒子wobbling提供模型支持，复用2019实验，不是新采�
 [[chen-2019-transverse-wobbling-even-even]] · [[signature-tip-shears-discrimination-contract]]。新主张needs_review:true，未新增human-reviewed。
 
 本地Bib未唯一匹配，citation_key留空；早先临时本地命名不当作Zotero引文key。
+
+## 2026-11-21 — 实验输入与 PSM 输出
+
+PDF 1–5 按出版版对账。Fig. 1 的能谱和 Fig. 2 的相对跃迁率用 Ref. 19 的 GALILEO 结果比较。Figs. 3–4 的方位概率和 \(K\) 分布由投影波函数得到，论文以 \(I=23\hbar\) 附近的两轴分量讨论可能的临界自旋。该判断是当前 PSM 参数下的解释。原文未报告新偏振或角分布计数，实验混合比的双根选择应回到 [[chen-2019-transverse-wobbling-even-even]]。

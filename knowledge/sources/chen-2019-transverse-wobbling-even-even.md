@@ -155,3 +155,7 @@ Page and all CH19 claims remain unreviewed with `needs_review: true`. Human revi
 
 
 同一实验谱系见[[petrache-2019-diversity-shapes-rotations-130ba]]与[[wang-2020-two-quasiparticle-wobbling-130ba]]。没有新采集或独立选根证据。
+
+## 2026-11-21 — 四角拟合和公开区间
+
+061301-2 的 Table I 给 \(I=13,15,17,19,21\hbar\) 的采用值 \(-0.58(13),-0.62(10),-0.62(10),-0.60,-0.60\)。后两行混合比未列误差，同行的相对跃迁率则列误差。正文说明四角角分布以较小 \(\chi^2\) 选取 \(|\delta|<1\) 的支，并保留较大模分支仍可能存在的边界。这篇原文对 S1′→S1 未报告相应的实测 \(P\) 或采用的 \(\sigma/I\) 数值。Lv 对 \(^{136}\mathrm{Nd}\) 的逐线联合结果另见 [[lv-2022-transverse-wobbling-136nd]]。

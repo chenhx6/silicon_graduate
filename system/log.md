@@ -6738,3 +6738,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Mukhopadhyay 的两核绝对跃迁率
 
 - 对账 4+6 页，回查寿命、分支和强度及采集依赖。累计 90 份、8716 页主件，续读偶偶核 `130Ba`。
+
+## 2026-11-21 — ¹³⁰Ba 的原实验与模型
+
+- 对账 17 页主件及 4 页 SI，核对 S1′→S1 角分布的五条 \(\delta\) 与 PRM/PSM 复用关系。累计 93 份、8733 页主件。

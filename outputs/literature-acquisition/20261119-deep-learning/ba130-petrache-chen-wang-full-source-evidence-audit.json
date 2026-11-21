@@ -1,0 +1,89 @@
+{
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000353",
+      "raw_files": [
+        {
+          "path": "raw/papers/2019_Chen et al_Transverse wobbling in an even-even nucleus.pdf",
+          "sha256": "26e305b496b2fdff4596670f772e3b030540b3c24d0830b8e4b4176c8070c768",
+          "size": 602476,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
+      "primary_pdf_pages": 5,
+      "credited_primary_pages": 5,
+      "official_supplement_pages": 0,
+      "covered_sections": [
+        "PDF 1–2: prior GALILEO observations, four-angle delta table, conditional branch and rotor input",
+        "PDF 3–5: ratio and geometry model comparison, limits and bibliography"
+      ],
+      "evidence_gaps": [
+        "The smaller absolute-delta branches have smaller chi-square; the larger branches cannot be excluded by these angular distributions alone.",
+        "I=19 and 21 have adopted delta of -0.60 with no printed uncertainty. No quantitative P."
+      ]
+    },
+    {
+      "work_id": "catalogue:LIT-000628",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation/petrache-2019-diversity-shapes-rotations-130ba.pdf",
+          "sha256": "98c3128b3d88528b56aa075748065dc2b1f13778a45ad3efedd3058a21a18340",
+          "size": 1204257,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        },
+        {
+          "path": "raw/papers/gpt/query/20261121-130ba-spectroscopy/petrache-2019-130ba-supplement.pdf",
+          "size": 304044,
+          "sha256": "d12be86b119f5d5212dac23b49fa7e4ab3ff855510fb6fd5eea6310a076b7cb7",
+          "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0370269319304228-mmc1.pdf",
+          "source_role": "official-supplement",
+          "hash_basis": "fresh-hash"
+        }
+      ],
+      "source_note": "knowledge/sources/petrache-2019-diversity-shapes-rotations-130ba.md",
+      "primary_pdf_pages": 7,
+      "credited_primary_pages": 7,
+      "official_supplement_pages": 4,
+      "covered_sections": [
+        "Main PDF 1–3: spectroscopy, gated level scheme and angular extraction overview",
+        "Main PDF 4–7: deformation/configuration systematics and comparisons",
+        "Official SI PDF 1–4: D1 and t-band rates, S-band gated spectra, band parameters and model plots"
+      ],
+      "evidence_gaps": [
+        "No experimental P or numerical sigma/I for S1 prime links. SI rates apply to D1/t-band; support for S1 prime includes gate spectra."
+      ]
+    },
+    {
+      "work_id": "catalogue:LIT-000752",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation/wang-2020-two-quasiparticle-wobbling-130ba.pdf",
+          "sha256": "09a05657de5b186c3f07ae313836f0cda302f5645305636a62ab6bac981e4bdc",
+          "size": 434756,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/wang-2020-two-quasiparticle-wobbling-130ba.md",
+      "primary_pdf_pages": 5,
+      "credited_primary_pages": 5,
+      "official_supplement_pages": 0,
+      "covered_sections": [
+        "PDF 1–2: PSM motivation, pairing, projection and basis",
+        "PDF 3–5: compared S bands, electromagnetic ratios, azimuth/K distributions and references"
+      ],
+      "evidence_gaps": [
+        "No new photons or polarization observations. Possible critical spin near I=23 is a model result."
+      ]
+    }
+  ],
+  "credited_primary_pages": 17,
+  "official_supplement_pages": 4,
+  "shared_experiment_dependency": "Petrache GALILEO 122Sn(13C,5n)130Ba at 65 MeV supplies the experimental lineage; Chen and Wang reuse it and use different models.",
+  "source_archive_manifest": "raw/papers/gpt/query/20261121-130ba-spectroscopy/manifest.json",
+  "reader": "Codex with prior scope reconciled",
+  "PDM_run": false
+}

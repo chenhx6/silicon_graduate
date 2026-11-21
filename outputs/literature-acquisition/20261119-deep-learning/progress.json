@@ -1,7 +1,7 @@
 {
   "created_at": "2026-11-19T14:50:09.195632+00:00",
   "status": "corpus-learning-active",
-  "pdf_files_registered": 1019,
+  "pdf_files_registered": 1020,
   "provisional_work_groups": 990,
   "grouping_boundary": "Not a verified unique-publication count. Byte grouping and old catalogue associations require own-identity/edition/role/scope audits. Collection sources do not establish individual full reading.",
   "raw_roots": [
@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000565",
+  "active_source": "catalogue:LIT-000752",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -356,9 +356,12 @@
     "PETRACHE18-ND136-COMPLETE-SCIENTIFIC-SCOPE",
     "LV19-ND135-PRC-COMPLETE-SCIENTIFIC-SCOPE",
     "MU07-ND135-COMPLETE-SCIENTIFIC-SCOPE",
-    "MU08-ND136-COMPLETE-SCIENTIFIC-SCOPE"
+    "MU08-ND136-COMPLETE-SCIENTIFIC-SCOPE",
+    "PETRACHE19-BA130-COMPLETE-SCIENTIFIC-SCOPE",
+    "CHEN19-BA130-COMPLETE-SCIENTIFIC-SCOPE",
+    "WANG20-BA130-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 90,
+  "completed_full_sources_this_run": 93,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 997,
@@ -366,14 +369,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T03:54:52.317290+00:00",
+  "updated_at": "2026-11-21T04:05:34.353835+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 8716,
-  "current_source_note": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
-  "next_action": "Read Petrache 2019 and Wang 2020 local 130Ba publisher sources for the even-even comparison used in Lv 2022.",
+  "completed_primary_pages_this_run": 8733,
+  "current_source_note": "knowledge/sources/wang-2020-two-quasiparticle-wobbling-130ba.md",
+  "next_action": "Read locally held Konigshofen 2001 130Ba low-spin mixing ratios and distinguish its observables and alignment assumptions from the GALILEO high-spin study.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Mukhopadhyay 2007/2008: DSAM peaks, lifetime and rate roles and matching campaign fingerprints.",
-  "current_source_scientific_acceptance": "Two works, ten publisher pages; shared acquisition possible.",
-  "source_scoped_retrieval": "Local publisher PDFs. No new download."
+  "last_source_manager_closure": "130Ba: Petrache original and SI plus Chen and Wang model comparisons, including direct angular branch and error reporting.",
+  "current_source_scientific_acceptance": "Three works, 17 primary pages. Four official SI pages excluded from primary-page credit.",
+  "source_scoped_retrieval": "Publisher PDFs local. One cached official supplement archived, with no network reacquisition."
 }

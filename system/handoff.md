@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — ¹³⁰Ba 的角分布分支与两种模型
+
+- [[petrache-2019-diversity-shapes-rotations-130ba]] 的 7 页正文及 4 页 SI、[[chen-2019-transverse-wobbling-even-even]] 与 [[wang-2020-two-quasiparticle-wobbling-130ba]] 各 5 页已对账。Chen 的 S1′→S1 混合比据四角角分布的小 \(\chi^2\) 支取值。后两行未列 \(\delta\) 误差，文献未给该支路相应的实测 \(P\)。SI 从已核缓存归档。
+- 累计 93 份、8733 页主件。续读 [[konigshofen-2001-mixing-ratios-130ba]]，厘清同核低自旋混合比的观测量及与高自旋 ¹³⁰Ba 的独立性。
+
 ## 2026-11-21 — ¹³⁵Nd 和 ¹³⁶Nd 的 Gammasphere 寿命
 
 - [[mukhopadhyay-2007-135nd-chiral-vibration-static]] 4 页和 [[mukhopadhyay-2008-136nd-transition-rates]] 6 页已对账。核实未停峰的全峰形门、侧馈模型和 \(^{136}\mathrm{Nd}\) 表 II 排除的阻止本领系统误差。两文实验采集指纹高度重合，原始运行号仍缺。
