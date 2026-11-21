@@ -64,6 +64,8 @@ K. Hauschild等，*Physical Review C*54(1996)613–619，DOI10.1103/PhysRevC.54.
 
 ## Competing Interpretations and Limitations
 
+Printed pp. 614–615 report 832, 847, 934 and 1177 keV lines in coincidence with Band 1 and the low-lying \(h_{11/2}\) band B1. The authors leave their positions unresolved. The prior angular ratio \(I(136^\circ,57^\circ)/I(57^\circ,136^\circ)\) for Band 1 comes from Ref. [7]. Their own spectra did not support a new DCO analysis because of the \(90^\circ\) statistics. The assignment of the other new bands as stretched-E2 sequences inherits that assumption.
+
 116Cd(22Ne,5n)与Joss1998的100Mo(36S,xn)实验独立，但本篇与1995Ha34复用同一116Cd+22Ne/早期Gammasphere campaign；1996明确说新增六条序列是在[11]已报告三条SD带之上，1995原文也说明三条SD带来自同一数据。因此1996是新增带和重分析扩展，不是第二份独立事件票（1996正文 lines 55–67、84–110；1995正文 lines 97–133）。作者/模型谱系也有重叠。本文没有τ、Qt、absolute B、低能link或完整DCO；不能把组态候选升级为高spin三qp事实、静态γ或手征伙伴证据。1991Pa04仍是明确正文获取缺口。
 
 ## Extracted Pages

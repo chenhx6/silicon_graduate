@@ -7042,3 +7042,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — Joss 133Ce 的高自旋时钟
 
 - 核定 4 页刊版，确认侧馈惯量、误差下限与带顶偏差。累计 204 份、10990 个主件 PDF 页。
+
+## 2026-11-22 — 133Ce 的超形变和旋转序列
+
+- 核定 Hauschild 1995/1996 共两份刊版，标明同采集及仅有符合的连接线。累计 206 份、11003 个主件 PDF 页。

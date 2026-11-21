@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000455",
+  "active_source": "catalogue:LIT-000379",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -487,9 +487,11 @@
     "PE16-134CE-GATED-PARITY-AND-SHARED-RUN",
     "AY16-133CE-TENTATIVE-BANDHEAD-AND-RAC",
     "EM97-133CE-RDDS-BENCHMARK-AND-FEEDING",
-    "JO98-133CE-UNOBSERVED-FEEDING-AND-ERROR"
+    "JO98-133CE-UNOBSERVED-FEEDING-AND-ERROR",
+    "HA95-SD-CHANNEL-TAGGING-AND-SPECTRA",
+    "HA96-TRIAXIAL-COINCIDENCES-WITHOUT-PLACEMENT"
   ],
-  "completed_full_sources_this_run": 204,
+  "completed_full_sources_this_run": 206,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -497,14 +499,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T17:14:21.413857+00:00",
+  "updated_at": "2026-11-21T17:19:35.122565+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10990,
-  "current_source_note": "knowledge/sources/hauschild-1996-133ce-triaxial-bands.md",
-  "next_action": "Reconcile Hauschild 1996 seven-page 133Ce journal original and map the early high-spin bands against the Joss lifetime sequence.",
+  "completed_primary_pages_this_run": 11003,
+  "current_source_note": "knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md",
+  "next_action": "Reconcile the Ding 2021 131Ba/133Ce signature-splitting publisher original and its regular spin/energy references, with acquisition dependencies.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Joss 1998 133Ce DSAM full paper, fixed feeding inertia and comparison to other measurements.",
-  "current_source_scientific_acceptance": "Hauschild original hash identified; coverage pending.",
-  "source_scoped_retrieval": "Reused a local publisher original."
+  "last_source_manager_closure": "Hauschild 1995 and 1996 published works and shared run identities.",
+  "current_source_scientific_acceptance": "Ding 2021 publisher PDF awaits targeted verification.",
+  "source_scoped_retrieval": "Reused the two local publisher originals."
 }

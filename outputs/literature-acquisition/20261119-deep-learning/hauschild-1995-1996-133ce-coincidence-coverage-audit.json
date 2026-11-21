@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-11-21T17:19:35.122565+00:00",
+  "status": "scientific-reading-covered",
+  "reader": "Previous complete readings and manager verification of p. 439 and pp. 614–615 coincidences and source dependence.",
+  "completed_works": [
+    {
+      "work_id": "catalogue:LIT-000454",
+      "unit_id": "HA95-SD-CHANNEL-TAGGING-AND-SPECTRA",
+      "source_note": "knowledge/sources/hauschild-1995-133ce-superdeformed-bands.md",
+      "raw": {
+        "path": "raw/papers/1995_Hauschild_133Ce_superdeformed_bands.pdf",
+        "sha256": "ce219bb983b42a15cb634f95e9ad99bcfbc8442bc179a5e5f0e613b9ac9958fb",
+        "size": 690165,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "credited_primary_pages": 6,
+      "coverage": "Print pp. 438–443: early Gammasphere, data selection, SD sequences, intensities, calculated moments of inertia and configurations, references.",
+      "evidence_boundary": "Clean low-spin gates identify the nuclide. Unplaced SD decay-out paths leave their absolute placement unresolved."
+    },
+    {
+      "work_id": "catalogue:LIT-000455",
+      "unit_id": "HA96-TRIAXIAL-COINCIDENCES-WITHOUT-PLACEMENT",
+      "source_note": "knowledge/sources/hauschild-1996-133ce-triaxial-bands.md",
+      "raw": {
+        "path": "raw/papers/1996_Hauschild_133Ce_triaxial_bands.pdf",
+        "sha256": "560215bbff5898a3e304f4219f35f628b3a4bd03c87ed1745dc25ae147162872",
+        "size": 229413,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "credited_primary_pages": 7,
+      "coverage": "Print pp. 613–619: six additional rotational sequences, spectra, Fig. 3 connections, interpretation and assumptions.",
+      "evidence_boundary": "Same 120 MeV campaign as HA95. The four coincident lines are not established Band 1 connections, and in-band quadrupole assumptions partly reuse Ref. 7."
+    }
+  ],
+  "credited_primary_pages": 13,
+  "next_action": "Reconcile the Ding 2021 131Ba/133Ce signature-splitting publisher original and its regular spin/energy references, with acquisition dependencies."
+}

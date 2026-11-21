@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — Hauschild 两篇 \(^{133}\mathrm{Ce}\) 谱学刊版
+
+- [[hauschild-1995-133ce-superdeformed-bands]] 与 [[hauschild-1996-133ce-triaxial-bands]] 核定 6 与 7 页刊版。两篇共享采集。保留低能线标识反应道与确定特定跨带连接的差别，以及未定位的四条符合线。
+- 累计核定 206 份、11003 个主件 PDF 页。接续 [[ding-2021-131ba-133ce-signature-splitting]]。
+
 ## 2026-11-22 — \(^{133}\mathrm{Ce}\) 高自旋寿命与侧馈
 
 - [[joss-1998-133ce-triaxial-band-lifetimes]] 核定 4 页刊版，登记固定馈入惯量、角组联合拟合和 Fig. 4 的带顶偏差。另在 \(^{134}\mathrm{Ce}\) 来源页补入 D4 实测级联的暂定边界。

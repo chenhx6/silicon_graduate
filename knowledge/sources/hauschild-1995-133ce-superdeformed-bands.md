@@ -69,6 +69,8 @@ Hauschild等在独立Gammasphere反应中识别三条133Ce超形变带，并给�
 
 ## Competing Interpretations and Limitations
 
+On printed p. 439, a clean low-lying \(^{133}\mathrm{Ce}\) line tags the channel in the unpacked triples. Other coincident events enhance each high-spin cascade by requiring one of its own members. This establishes isotope association for the spectra. The placement of a specific connecting transition remains open. Fig. 1(d)'s efficiency-corrected intensities are normalized to the strongest line in SD Band 1.
+
 Reaction/campaign differs from Joss 1998 (100Mo(36S,xn) DSAM normal triaxial band), Gizon 1974 (120Sn(16O,3n) low-spin), and Emediato 1997 (120Sn(16O,3n) RDDS). Author/model lineage overlaps with later literature, but events and principal observables are distinct. High-spin SD bands are a new evidence node; they do not fill missing lifetimes or low-spin 582 references, and conditional spin/configuration labels cannot be merged with modern BandF by name alone.
 
 ## Extracted Pages
