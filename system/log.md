@@ -7086,3 +7086,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — 124Cs 的寿命与假定 Q0
 
 - 核定 8 页刊版，区分低自旋以平均 Q0 锚定的 E1 导出与直接寿命路线。累计 216 份、11275 个主件 PDF 页。
+
+## 2026-11-22 — 100Ru 厚薄靶配对
+
+- 核定 13 与 6 页作者版。逐类区分光子分支、约化强度、拟合 E2 线和 E1 输出。累计 218 份、11294 个主件 PDF 页。

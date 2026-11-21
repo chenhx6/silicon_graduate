@@ -7,7 +7,7 @@ updated: 2026-11-07
 status: active
 review_status: unreviewed
 source_type: journal-article
-reading_depth: read
+reading_depth: deep-read
 title_original: "Rotation of pear-shaped 100Ru nucleus (arXiv:2306.07670v1) / Possibility of stable octupole deformation in 100Ru (PRC 109, 054312)"
 authors: ["A. Karmakar", "P. Datta", "Soumik Bhattacharya", "Shabir Dar", "S. Bhattacharyya", "G. Mukherjee", "H. Pai", "S. Basu", "S. Nandi", "S. S. Nayak", "Sneha Das", "R. Raut", "S. S. Ghugre", "Sajad Ali", "R. Banik", "W. Shaikh", "S. Chattopadhyay"]
 journal: Physical Review C
@@ -65,6 +65,8 @@ A. Karmakar et al., Physical Review C **109**, 054312 (published 2024-05-08), DO
 该工作在预印本阶段曾使用果断的“梨形核转动”标题，但在同行评审正式发表于 PRC 时审慎修正为“稳定八极形变的可能性”，体现了纯能级纲目与相对分支比无法单独确立静态八极形变的科学界限。
 
 ## Competing Interpretations and Limitations
+
+The author-version SI p. 13 separates \(I(E1)/I(E2)\) from the rate ratio calculated with the photon-energy powers in Eq. (1). For \(13^-\), the E1 and E2 lines are 244.8 and 931.9 keV. The photon ratio is \((0.27\pm0.05)\times10^{-2}\), while the listed strength ratio is \((9.84\pm1.93)\times10^{-8}\,\mathrm{fm}^{-2}\). The two numbers have different units and roles. In [[karmakar-2024-100ru-enhanced-e1-lifetimes]] the 931.9-keV line is the E2 line used to fit the \(13^-\) lifetime.
 
 1. **相对值不可替代绝对几率**：本文仅给出 $B(E1)/B(E2)$ 比值，缺乏能级寿命测量；若 $B(E2)$ 发生集体性减弱，比值亦可表现为表观增大，因此必须由独立的 DSAM 寿命测量进行绝对校验；
 2. **预印本与期刊不可重复计证**：arXiv:2306.07670v1 与 PRC 109, 054312 属于同一批实验数据在不同时期的发表文本，属于单一证据链，不可作为两篇独立文献进行重复统计；

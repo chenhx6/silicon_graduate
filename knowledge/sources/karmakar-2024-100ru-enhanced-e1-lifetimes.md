@@ -7,7 +7,7 @@ updated: 2026-11-07
 status: active
 review_status: unreviewed
 source_type: journal-article
-reading_depth: read
+reading_depth: deep-read
 title_original: "Measurement of enhanced electric dipole transition strengths at high spin in 100Ru: Possible observation of octupole deformation"
 authors: ["A. Karmakar", "Nazira Nazir", "P. Datta", "J. A. Sheikh", "S. Jehangir", "G. H. Bhat", "S. S. Nayak", "Soumik Bhattacharya", "Suchorita Paul", "Snigdha Pal", "S. Bhattacharyya", "G. Mukherjee", "S. Basu", "S. Chakraborty", "S. Panwar", "Pankaj K. Giri", "R. Raut", "S. S. Ghugre", "R. Palit", "Sajad Ali", "W. Shaikh", "S. Chattopadhyay"]
 journal: Physical Review C
@@ -66,6 +66,8 @@ A. Karmakar et al., *Measurement of enhanced electric dipole transition strength
 内禀电偶极矩在误差范围内呈现作者指出的数值增大趋势（从 $0.04(1)$ 增大至 $0.07(2)\text{ }e\text{fm}$，若段间误差独立且近高斯，差值约 $1.34\sigma$），且此时伴随两带宇称劈裂闭合。作者据此提出 $^{100}\text{Ru}$ 在高自旋双中子对准构型上可能具有稳定八极形变。
 
 ## Competing Interpretations and Limitations
+
+Author PDF p. 2 Table I identifies its first column as the **fitted E2 line**. For example, at \(14^+\) the fit uses 795.3 keV, while the associated \(B(E1)=1.4(4)\times10^{-4}\,e^2\mathrm{fm}^2\) belongs to the 550.5-keV branch in [[karmakar-2023-2024-100ru-alternate-parity-bands]] SI Table I. The first column should be retained as the lifetime-fit line, with the E1 energy linked separately. The same table caption and feeding paragraph cite the thin-target intensities for the branching and side-feeding inputs used with these new lifetimes.
 
 1. **绝对 $B(E1)$ 测量有限**：前作识别出的 7 条交错 E1 跃迁中，最低端的 $12^+ \to 11^-$ 未测寿命，最高端的 $20^+$ 和 $19^-$ 因处于 DSAM 灵敏度极限仅给出了有效寿命上限（$<0.14\text{ ps}$ 与 $<0.12\text{ ps}$），其绝对 $B(E1)$ 缺测；因此仅有 6 条跃迁测出绝对 $B(E1)$ 数值，作者摘要和结论中的“seven rates”与 Table I 的 6 个有限数值存在明显张力；
 2. **缺乏直接 $E3$ 或静态 $\beta_3$ 实验证据**：本实验测定的是能级寿命和由分支比推导出的跃迁几率，未测量高自旋库仑激发多极矩阵元或 $B(E3)$；“稳定八极形变”属于作者基于宇称守恒微扰模型不足所作的唯象假说与解释；

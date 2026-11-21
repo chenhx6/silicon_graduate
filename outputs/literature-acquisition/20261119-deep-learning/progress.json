@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000897",
+  "active_source": "catalogue:LIT-000993",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -499,9 +499,11 @@
     "W19-BR78-RELATIVE-E1-AND-MODEL-RESIDUALS",
     "XA22-AS74-ADO-ASYMMETRY-AND-SPIN-CHANGE",
     "XX19-AS74-THESIS-AND-MISSING-LOW-ENERGY-LINK",
-    "SE15-CS124-ABSOLUTE-E1-TWO-NORMALIZATIONS"
+    "SE15-CS124-ABSOLUTE-E1-TWO-NORMALIZATIONS",
+    "KM23-RU100-THIN-TARGET-BRANCH-AND-RATE-RATIOS",
+    "KM24-RU100-THICK-TARGET-LIFETIME-LINE-IDENTITY"
   ],
-  "completed_full_sources_this_run": 216,
+  "completed_full_sources_this_run": 218,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -509,14 +511,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T18:07:06.098705+00:00",
+  "updated_at": "2026-11-21T18:13:23.203909+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 11275,
-  "current_source_note": "knowledge/sources/karmakar-2023-2024-100ru-alternate-parity-bands.md",
-  "next_action": "Reconcile the 100Ru level-scheme and enhanced-E1 lifetime sources, separating versions, acquisition dependencies and observable types.",
+  "completed_primary_pages_this_run": 11294,
+  "current_source_note": "knowledge/sources/karmakar-2025-2026-98mo-octupole-preview.md",
+  "next_action": "Verify the 98Mo possible-octupole paper and compare its original data and model scope to the 100Ru sequence.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Selvakumar 2015 124Cs original with low-/high-spin absolute E1 distinction.",
-  "current_source_scientific_acceptance": "Karmakar 100Ru prepared next.",
-  "source_scoped_retrieval": "Reused the local eight-page publisher PDF."
+  "last_source_manager_closure": "100Ru thin and thick target scientific works, related source inputs and E1/E2 transition identities.",
+  "current_source_scientific_acceptance": "98Mo article queued.",
+  "source_scoped_retrieval": "Reused two existing official author copies with verified fingerprints."
 }

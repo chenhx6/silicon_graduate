@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — \(^{100}\mathrm{Ru}\) 薄靶与厚靶数据配对
+
+- [[karmakar-2023-2024-100ru-alternate-parity-bands]] 与 [[karmakar-2024-100ru-enhanced-e1-lifetimes]] 核定 13 与 6 页作者版。按母态匹配薄靶分支、厚靶拟合 E2 线及对应 E1 输出，保留六条有限 E1 和高自旋上限。
+- 累计核定 218 份、11294 个主件 PDF 页。接续 [[karmakar-2025-2026-98mo-octupole-preview]]。
+
 ## 2026-11-22 — \(^{124}\mathrm{Cs}\) 的 E1 绝对强度两条来源
 
 - [[continuation-g21-selvakumar-2015-prc92-124cs-octupole-chiral]] 核定 8 页刊版。分清低自旋的 \(K=3\)、平均 \(Q_0\) 归一和高自旋的直接寿命路线。

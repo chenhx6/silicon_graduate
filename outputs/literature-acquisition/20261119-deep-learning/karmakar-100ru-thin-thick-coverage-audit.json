@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-11-21T18:13:23.203909+00:00",
+  "status": "scientific-reading-covered",
+  "reader": "Prior complete version-specific main and supplemental readings plus Codex data-line and original table provenance verification.",
+  "completed_works": [
+    {
+      "work_id": "catalogue:LIT-000897",
+      "unit_id": "KM23-RU100-THIN-TARGET-BRANCH-AND-RATE-RATIOS",
+      "source_note": "knowledge/sources/karmakar-2023-2024-100ru-alternate-parity-bands.md",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261107-a100-octupole-lifetimes/arxiv-2306.07670v1.pdf",
+        "sha256": "100429e395e521e28039fb46170aabc5d481c623c43537f7ced7642f1e14a60c",
+        "size": 1313049,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-official-arxiv-v1-reading-copy"
+      },
+      "credited_primary_pages": 13,
+      "coverage": "Author PDF 1–13 including thin-target main text, references and supplementary coincidence/energy ratio tables.",
+      "evidence_boundary": "Thin-target photon ratios and reduced-rate ratios carry distinct energy factors and units. The later lifetime paper reuses these intensities."
+    },
+    {
+      "work_id": "catalogue:LIT-000898",
+      "unit_id": "KM24-RU100-THICK-TARGET-LIFETIME-LINE-IDENTITY",
+      "source_note": "knowledge/sources/karmakar-2024-100ru-enhanced-e1-lifetimes.md",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261107-a100-octupole-lifetimes/arxiv-2411.10976v1.pdf",
+        "sha256": "3370f77e28fa053f1ab2829588602a4fe9d6cb1ea5ccdf6350d82bd52624e8d5",
+        "size": 161356,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-official-arxiv-v1-reading-copy"
+      },
+      "credited_primary_pages": 6,
+      "coverage": "Author PDF 1–6 including thick-target DSAM, Table I, collective moments, model and caveats.",
+      "evidence_boundary": "The E2 line fitted in Table I is not the listed rate’s E1 energy. Reconcile parent states with thin-target Table I. Preserve six finite E1 routes, the effective upper limits and detector-angle wording discrepancy."
+    }
+  ],
+  "credited_primary_pages": 19,
+  "next_action": "Verify the 98Mo possible-octupole paper and compare its original data and model scope to the 100Ru sequence."
+}
