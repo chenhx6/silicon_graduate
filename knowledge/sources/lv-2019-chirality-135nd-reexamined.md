@@ -26,6 +26,9 @@ zotero_uri:
 library_file: "raw/papers/gpt/learning-daily/20260912-PREPLAN-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20260912-PREPLAN-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf"
 raw_sha256: "97182e90125ce57ac2faa0feeef42b6bc12952b3287f82f277a04f8d32cf0303"
+published_version_file: "raw/papers/gpt/query/20261121-135nd-chirality-version/lv-2019-135nd-024314-vor.pdf"
+published_version_sha256: "450a3032d7fecfdbc16f5a848be3d63842a536b0508dda73f3de55270fbf2066"
+archive_required: true
 nuclei: [135nd]
 reactions: ["100Mo(40Ar,5n)135Nd"]
 experiments: [jurogam2-135nd-ar40-152mev]
@@ -73,7 +76,7 @@ Checked the official APS article page and SI routes on 2026-10-09. The landing p
 - 视觉核对：PDF pp.1–3 的题名、摘要、实验结果、部分能级图和门谱；pp.6 的总结；pp.7–10 的 Table I（含 D3、D4、D5、D6 行）。
 - 关键核对对象：D3/D4 的 parity revision、四条 IPDCO 数值、D3/D4 连接跃迁、D5/D6 的负宇称谱系、Table I 的逐线 `J^π`。
 - 未覆盖：原始事件矩阵、实验标定输入和作者未公开的逐事件分析；这不影响本文表格/正文层级的 parity crosswalk。
-- 版本边界：本地文件是公开 arXiv 版本；DOI 期刊身份已由 Crossref/API 核验，但未另行保存出版商 PDF。
+- 版本边界：馆藏保留 arXiv v1 的 10 页，旧段落相应定位仍指该版。出版版 9 页已从核验过的缓存归档，本轮以出版版为数据底本。两版本按同一作品计。
 
 ## Summary
 
@@ -345,3 +348,9 @@ Day 25 学习主线对 Lv 2019 原文（arXiv v1 与 PRC 100, 024314）进行了
 | LV19-D25-001 | Lv 等（2019）通过 JUROGAM2 在 JYFL 开展的 $^{100}\text{Mo}(^{40}\text{Ar},5n)^{135}\text{Nd}$ 实验，在正宇称建立 D3/D4 双带，在负宇称扩展 D5/D6 双带，提出奇中子核中存在多重手征双重带（$M\chi D$）。 | experimental-multiband-report | direct-original | PRC 100, 024314 PDF pp.1–3 | true |
 | LV19-D25-002 | 负D5/D6有MU07双方寿命及绝对B(E2)与B(M1)的历史支持；LV19正D3/D4仅提取一个D3相对比值点，本篇未给正pair成对absoluteEM或新寿命。此限定不宣称全领域D4从未测寿命。 | partner-resolved-evidence-contrast | direct-original-and-lineage | arXivPDF5 Figs5–6 discussion | true |
 | LV19-D25-003 | 原文正文 D4 段关于 589/649 keV 跃迁指向在前后句存在 D2/D3 笔误冲突，且 Table I 中 D2 行 $E_i = 2588.3\text{ keV}$ 与三条关联跃迁能量闭合差 30 keV；这些局部排版歧义予以保留，不擅改原表，亦不否定总体正宇称能带拓扑。 | typographical-and-topological-boundary | direct-original | PRC 100, 024314 PDF pp.2–4, Table I | true |
+
+## 2026-11-21 — 出版版逐线复核
+
+- 024314-2 的四项数值是作者标注的 IPDCO，用于 D2–D4 的电磁性质和宇称判断。Table I 的角比按分列记录。四项 IPDCO 没有随本文给出用于联合反演的数值化物理线偏振 \(P\) 或逐线有符号 \(\delta\)。
+- 024314-3、-4 的 D2 207.5/399.9 keV 行原印 \(E_i=2588.3\) keV，多个相关能量差支持 2558.3 keV 为条件闭合值。D3 334.4 keV 行仍列 \(27/2^-\to25/2^+\)，D4 段的 589/649 keV 目标带在句间不一致。按出版版分别保留这些字面和条件核算。
+- 024314-5 的 D6 998.1 keV 行与同自旋母态其它行差 1 keV。新 JUROGAM II 数据与较早 Gammasphere 寿命证据的独立性按采集判断，D5/D6 的绝对强度回到 [[mukhopadhyay-2007-135nd-chiral-vibration-static]]，同次谱学回到 [[lv-bingfeng-2019-chirality-136nd-135nd-thesis]]。

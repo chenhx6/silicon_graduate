@@ -1,7 +1,7 @@
 {
   "created_at": "2026-11-19T14:50:09.195632+00:00",
   "status": "corpus-learning-active",
-  "pdf_files_registered": 1018,
+  "pdf_files_registered": 1019,
   "provisional_work_groups": 990,
   "grouping_boundary": "Not a verified unique-publication count. Byte grouping and old catalogue associations require own-identity/edition/role/scope audits. Collection sources do not establish individual full reading.",
   "raw_roots": [
@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000055",
+  "active_source": "catalogue:LIT-000535",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -353,9 +353,10 @@
     "LV21-ND135-COMPLETE-SCIENTIFIC-SCOPE",
     "LV22-ND136-COMPLETE-SCIENTIFIC-SCOPE",
     "LV19-ND-THESIS-COMPLETE-SCIENTIFIC-SCOPE",
-    "PETRACHE18-ND136-COMPLETE-SCIENTIFIC-SCOPE"
+    "PETRACHE18-ND136-COMPLETE-SCIENTIFIC-SCOPE",
+    "LV19-ND135-PRC-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 87,
+  "completed_full_sources_this_run": 88,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 997,
@@ -363,14 +364,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T03:42:43.727424+00:00",
+  "updated_at": "2026-11-21T03:48:48.030157+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 8697,
-  "current_source_note": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
-  "next_action": "Read Lv 2019 135Nd chirality reanalysis (PRC 100, 024314) and verify polarization and parity crosswalk with the doctoral thesis.",
+  "completed_primary_pages_this_run": 8706,
+  "current_source_note": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+  "next_action": "Read Mukhopadhyay 2007 135Nd lifetime source and verify the relation to the reused D5/D6 absolute strengths.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Petrache 2018: six-page publisher text, duplicate reprints, campaign identity and differing D5 experimental versus D3 theoretical support.",
-  "current_source_scientific_acceptance": "One work and six publisher pages credited; both seven-page wrappers reconciled.",
-  "source_scoped_retrieval": "Three local file identities. No new download."
+  "last_source_manager_closure": "Lv 2019 135Nd: verified publisher version, IPDCO distinction, D2/D3/D4/D6 original ambiguity.",
+  "current_source_scientific_acceptance": "Nine publisher primary pages; ten-page arXiv v1 attached to the same work.",
+  "source_scoped_retrieval": "Already cached, verified VoR copied to a scoped query archive. No new network acquisition."
 }

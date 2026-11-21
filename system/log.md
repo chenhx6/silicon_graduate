@@ -6730,3 +6730,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Petrache 的 ¹³⁶Nd 出版主件
 
 - 对账 6 页和两个重印本，复核 D5 伙伴带的实测比值和 D3 的模型非共面性。累计 87 份、8697 页主件。
+
+## 2026-11-21 — Lv 的 ¹³⁵Nd 手征论文出版版
+
+- 归档已有的 9 页出版版并核实逐线异文，10 页预印本保留为同一作品的另一版本。累计 88 份、8706 页主件。

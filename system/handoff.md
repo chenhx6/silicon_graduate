@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Lv 的 ¹³⁵Nd 手征论文出版版
+
+- [[lv-2019-chirality-135nd-reexamined]] 将已有缓存原样归档为 9 页出版版，和 10 页预印本按一篇计。核实用于判宇称的 IPDCO，以及 D2 母态能量、D3 单行宇称、D4 目标带和 D6 母态异文。
+- 累计 88 份、8706 页主件。续读 [[mukhopadhyay-2007-135nd-chiral-vibration-static]] 的绝对跃迁率和寿命原件，比较该次测量与 Lv 后刊引用的关系。
+
 ## 2026-11-21 — Petrache 的 ¹³⁶Nd 出版版本与手征证据
 
 - [[petrache-2018-chiral-bands-even-even-136nd]] 对账 6 页出版主文，两份七页带封面重印本的正文文本与出版版逐页一致。核实 D5 的双带跃迁率比与 D3 的三维模型是不同证据对象。
