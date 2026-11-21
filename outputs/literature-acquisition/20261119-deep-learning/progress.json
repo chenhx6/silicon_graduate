@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000282",
+  "active_source": "catalogue:LIT-000390",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -484,9 +484,10 @@
     "CF22-SCS-MEASURE-AND-PUBLISHER-CORRECTION",
     "RT24-BA129-MODEL-SPECTRA-AXIS-LANGUAGE",
     "CH24-BA129-365-LEGACY-AND-READOPTED-DELTA",
-    "PE16-134CE-GATED-PARITY-AND-SHARED-RUN"
+    "PE16-134CE-GATED-PARITY-AND-SHARED-RUN",
+    "AY16-133CE-TENTATIVE-BANDHEAD-AND-RAC"
   ],
-  "completed_full_sources_this_run": 201,
+  "completed_full_sources_this_run": 202,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -494,14 +495,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T16:58:04.327055+00:00",
+  "updated_at": "2026-11-21T17:02:40.218221+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10963,
-  "current_source_note": "knowledge/sources/ayangeakaa-2016-133ce-in-beam.md",
-  "next_action": "Reconcile the Ayangeakaa 2016 133Ce journal original with the thesis and the experimental series, preserving the band IDs and data-provenance boundaries.",
+  "completed_primary_pages_this_run": 10982,
+  "current_source_note": "knowledge/sources/emediato-1997-133ce-rdds-lifetimes.md",
+  "next_action": "Reconcile the four-page Emediato 1997 133Ce RDDS original, comparing band/feeding anchors to later spectroscopy.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Petrache 2016 134Ce journal original and corrected parity-link locators.",
-  "current_source_scientific_acceptance": "Ayangeakaa publisher PDF identified and SHA verified for continued reading.",
-  "source_scoped_retrieval": "Reused the local journal original."
+  "last_source_manager_closure": "Ayangeakaa 2016 133Ce experiment and D8 plus Rac criteria, with primary sources pinned.",
+  "current_source_scientific_acceptance": "Emediato 1997 PDF hash checked and original reading to reconcile.",
+  "source_scoped_retrieval": "Used the local publisher original."
 }

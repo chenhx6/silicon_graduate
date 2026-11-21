@@ -72,6 +72,10 @@ Physical Review C 93, 054317 (2016)，DOI `10.1103/PhysRevC.93.054317`。Zotero 
 
 ## Nuclear Structure Information
 
+Section III (054317-2) fixes the energy of the proposed D8 bandhead at 5021.7 keV through its 1104-keV connection to the \(31/2^+\) level of D3. The \((35/2^+)\) assignment remains tentative because the connecting line yielded neither an angular distribution nor a correlation ratio. This is a case where the coincidence energy anchor is firmer than the spin-parity label.
+
+The article defines \(R_{\mathrm{ac}}\) using coincidence spectra gated over all angles. It compares forward/backward detector rings \(31.7^\circ,37.4^\circ,142.6^\circ,148.3^\circ,162.7^\circ\) with the \(79.2^\circ,80.7^\circ,90^\circ,99.3^\circ,100.8^\circ\) group. It calibrates the ratio with transitions of known multipolarity (054317-2). The local stretched-E2 and stretched-dipole ranges are \(R_{\mathrm{ac}}>1.0\) and \(R_{\mathrm{ac}}<0.8\), respectively. Retain the array and gate definition with these cutoffs.
+
 - `133Ce` 为 `Z=58, N=75` 奇中子核；
 - 低能区预计为较小形变，文中给出 `ε2≈0.15-0.20` 的尺度；
 - D 带表现为小 signature splitting 的 ΔI=1 序列；作者指出这提示倾斜轴不稳定性，但不等同于已经证明静态手征；

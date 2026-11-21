@@ -7030,3 +7030,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — 134Ce 的 D1/D3 宇称锚点
 
 - 核定 Petrache 等 18 页刊版，视觉追踪 D1 的 703 keV 终态与用于 D3 的 1021 keV 原表，并登记同采集系列。累计 201 份、10963 个主件 PDF 页。
+
+## 2026-11-22 — 133Ce 的 D8 与 Rac 原件
+
+- 核定 Ayangeakaa 等 19 页刊版，记录角组、能量与暂定宇称的区别。累计 202 份、10982 个主件 PDF 页。

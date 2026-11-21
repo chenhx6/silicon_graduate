@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — \(^{133}\mathrm{Ce}\) D8 能级与角比条件
+
+- [[ayangeakaa-2016-133ce-in-beam]] 核定 19 页刊版。D8 的 5021.7 keV 带头有符合能量锚点，\(35/2^+\) 仍暂定。登记 \(R_{\mathrm{ac}}\) 两组与全角门。
+- 累计核定 202 份、10982 个主件 PDF 页。接续 [[emediato-1997-133ce-rdds-lifetimes]] 的 RDDS 寿命。
+
 ## 2026-11-22 — \(^{134}\mathrm{Ce}\) 能级纲图的宇称锚点
 
 - [[petrache-2016-134ce-triaxiality-exotic-rotations]] 核定 18 页刊版。D1 的 703.4 keV E2 在 Fig. 1 落到 Band 2 的 \(9^+\)；D3 的 1021.1 keV 为 \(17^+\to16^+\) 混合连接。保留正文带号异文和论文的采集复用声明。

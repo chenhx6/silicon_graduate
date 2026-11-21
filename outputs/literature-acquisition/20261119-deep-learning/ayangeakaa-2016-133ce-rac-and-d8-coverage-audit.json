@@ -1,0 +1,27 @@
+{
+  "work_id": "catalogue:LIT-000282",
+  "recorded_at": "2026-11-21T17:02:40.218221+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/ayangeakaa-2016-133ce-in-beam.md",
+  "raw": {
+    "path": "raw/papers/2016_Ayangeakaa et al_In-beam spectroscopy of medium- and high-spin states in Ce 133.pdf",
+    "sha256": "f2c9ba6a17d231356a0d40e69752e802f0560c56882c0efe57852d2e16b91e6e",
+    "size": 951578,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "credited_primary_pages": 19,
+  "coverage": [
+    "054317-1–4: scope, GammaSphere settings, normalization, D8/D9, and level scheme.",
+    "054317-4–13: Table I and level placements, spectra and measurement limits.",
+    "054317-13–18: CNS and TAC-CDFT comparison, energy alignment and configuration.",
+    "054317-18–19: summary and references."
+  ],
+  "reader": "Previously documented whole-article reading with Codex checked original setup, detailed Rac matrix grouping and D8 assignment conditions.",
+  "evidence_boundary": [
+    "D8 bandhead is connected at 5021.7 keV; without angular measurement of the 1104-keV link its spin/parity remains tentative.",
+    "Rac is specific to the detector groups and all-angle gate. Preserve the paper-local calibration.",
+    "This publication shares the 133Ce campaign with the previously published chiral-pair report by the collaboration."
+  ],
+  "next_action": "Reconcile the four-page Emediato 1997 133Ce RDDS original, comparing band/feeding anchors to later spectroscopy."
+}
