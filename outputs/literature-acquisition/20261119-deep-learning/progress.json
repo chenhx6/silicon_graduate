@@ -419,9 +419,12 @@
     "CASTEN-90-00-IBM-CQF-PARTIAL",
     "CASTEN-90-00-AXIAL-MIKHAILOV-PARTIAL",
     "DAVIDSON65-COVERAGE-RECONCILED",
-    "ELDRIDGE18-COVERAGE-RECONCILED"
+    "ELDRIDGE18-COVERAGE-RECONCILED",
+    "CASTEN-90-00-MICROSCOPIC-VIBRATIONS-PARTIAL",
+    "NOMURA21-PAIRING-SHAPE-PUBLISHER-GROUP",
+    "JAHANGIR26-GAMMA2-ARXIV-COVERAGE-RECONCILED"
   ],
-  "completed_full_sources_this_run": 144,
+  "completed_full_sources_this_run": 146,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1000,
@@ -429,14 +432,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T09:07:34.009119+00:00",
+  "updated_at": "2026-11-21T09:28:20.481463+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 9705,
+  "completed_primary_pages_this_run": 9722,
   "current_source_note": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
-  "next_action": "Compare Casten first edition Ch.9 with second edition Ch.10 on microscopic collective vibrations, RPA and spectrum/strength diagnostics.",
+  "next_action": "Compare Casten first-edition experimental techniques with second-edition exotic nuclei and radioactive beams, then continue uncovered chapters.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Casten two-edition axial collective dynamics and Mikhailov; Davidson and Eldridge sources.",
-  "current_source_scientific_acceptance": "Two publisher works reconciled within original scope plus bounded book sections; no full-book credit.",
-  "source_scoped_retrieval": "All accepted materials were existing local originals."
+  "last_source_manager_closure": "Casten microscopic vibrations; Nomura publisher version and companion preprint; Jahangir actual arXiv v1 scope.",
+  "current_source_scientific_acceptance": "Two journal identities with 17 pages of local scientific coverage. Books remain partial.",
+  "source_scoped_retrieval": "No additional scientific PDFs integrated; local originals used. Jahangir publisher endpoints returned HTTP 401/403."
 }

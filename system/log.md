@@ -6854,3 +6854,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — 轴对称集体模型和 Mikhailov 算例
 
 - 两版 Casten 增加第 6 章前半覆盖。对账 Davidson 与 Eldridge 两份出版原件，累计 144 份、9705 页主件。
+
+## 2026-11-21 — 微观振动的两版对账
+
+- 两版补录 TDA/RPA 及准粒子振动。按出版版对账 Nomura，按可用预印本对账 Jahangir。累计 146 份、9722 页主件。

@@ -1,0 +1,78 @@
+{
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000606",
+      "source_note": "knowledge/sources/nomura-2021-pairing-triaxial-vibrations-gamma-soft.md",
+      "raw_files": [
+        {
+          "path": "raw/papers/2021_Nomura et al_Coupling of pairing and triaxial shape vibrations in collective states of γ -soft nuclei.pdf",
+          "sha256": "cf500a8cdcf4e192ae79db7ac22a29eb2272034fe797d2e0ec350516810102c4",
+          "size": 1140172,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "credited_primary_pages": 6,
+      "covered_sections": [
+        "Publisher PDF 1–6: EDF and mapping, four model variants, levels and E2 in 128,130Xe, bibliography."
+      ],
+      "companion_work_id": "catalogue:LIT-000058",
+      "evidence_gaps": [
+        "The prior arXiv-v1 and publisher comparisons identify the same work and shared model/data. The preprint is a companion version and receives no independent tally.",
+        "Truncated collective model, adjusted rotational inertia, E2 operator and observed weak branches bound interpretation."
+      ]
+    },
+    {
+      "work_id": "catalogue:LIT-000058",
+      "source_note": "knowledge/sources/nomura-2021-pairing-triaxial-vibrations-gamma-soft.md",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2021_Nomura et al_Coupling of pairing and triaxial shape vibrations in collective states of γ.pdf",
+          "sha256": "883850ece784ecf7fcf126859f1a37c59772b42a5fb5aeae575e0aeef6600087",
+          "size": 782753,
+          "hash_basis": "fresh-hash",
+          "source_role": "preprint-linked-to-published"
+        }
+      ],
+      "credited_primary_pages": 0,
+      "state": "duplicate-or-related-version"
+    },
+    {
+      "work_id": "catalogue:LIT-000478",
+      "source_note": "knowledge/sources/jahangir-2026-tpsm-gamma-bands-nb-tc.md",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/振动/2026_Jahangir et al_Microscopic investigation of γ vibrational band structures in odd-mass nuclei.pdf",
+          "sha256": "04187f6dd9a77fcdf87b545506c17f021159a4426c6ce358277e4aeb912c49a4",
+          "size": 445686,
+          "hash_basis": "fresh-hash",
+          "source_role": "verified-arxiv-v1-reading-copy"
+        }
+      ],
+      "credited_primary_pages": 11,
+      "covered_sections": [
+        "ArXiv PDF 1–5: introduction, Nilsson–BCS, projection, basis and inputs.",
+        "ArXiv PDF 5–11: Figs. 1–9, Table II, E2 prediction, conclusions and cited evidence."
+      ],
+      "evidence_gaps": [
+        "Published as Phys. Rev. C 113, 064310 (9 June 2026), DOI 10.1103/ch4r-rl3b. The accessible full reading base is the already held arXiv v1. APS endpoints returned HTTP 401/403.",
+        "No direct new experimental measurements; comparison includes previously reported spectra and calculated transition strengths. Publisher text and table differences remain open."
+      ]
+    },
+    {
+      "work_id": "catalogue:LIT-000306",
+      "coverage_added": "First edition Ch.9: PDF 328–346, printed pp.313–331, TDA/RPA and transfer-strength illustrations. PDF 347 is blank.",
+      "credited_primary_pages": 0,
+      "state": "partial-evidence-verified"
+    },
+    {
+      "work_id": "catalogue:LIT-000001",
+      "coverage_added": "Second edition Ch.10: PDF 416–435, printed pp.398–417, exact checks of limiting TDA/RPA formulas, QRPA basis and pairing shape diagnostics.",
+      "credited_primary_pages": 0,
+      "state": "partial-evidence-verified"
+    }
+  ],
+  "credited_primary_pages": 17,
+  "reader": "Codex; original-file and prior coverage reconciliation",
+  "PDM_run": false
+}

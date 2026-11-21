@@ -265,6 +265,14 @@ Casten 专著为本 Wiki 建立了微观壳组态、Coriolis 相互作用与三�
 - 原书 \(M_1=0.268\,eb,\ M_2=-0.0045\,eb\) 给未扰矩阵元 \(M_1+4M_2=0.250\,eb\)、斜率比 \(a_2=-M_2/M_1=0.01679\)、\(Z_\gamma=-2M_2/(M_1+4M_2)=0.036\)。另由 \(B(E2;2_\gamma\to2_g)/B(E2;2_\gamma\to0_g)=1.85\) 得连接零混合的 \(Z_\gamma\approx0.044\)。这两个值分别来自多支路拟合与单比值。模型抽取的 \(\varepsilon_\gamma\) 还使用书中 \(Q_0=7.61\,b\)，并用 741 keV 同自旋间距在小混合近似下估得耦合幅值约 \(3.9\) keV。无量纲相对强度本身只给振幅比，要得到以 \(eb\) 表示的 \(M_1,M_2\)，须说明强度的绝对归一或额外定标。
 - Eq. (6.37)（二版 PDF 246）中相同的对角带内矩阵元与近似相同的初、末态混合角，使带内项的重叠因子接近 1。带间强度可对小幅混合敏感。相异对角矩、多个混合带、残余 M1 和不同自旋依赖都会影响直线拟合。见 [[bm2-rotational-intrinsic-coupling-and-mikhailov-contract]]、[[davidson-1965-rotations-vibrations-deformed-nuclei]] 与 [[eldridge-2018-gamma-band-mixing-ratios]]。
 
+### 两版的微观振动章
+
+一版 Ch.9〔PDF 328–346，印刷 pp.313–331，PDF 347 为空白〕和二版 Ch.10〔PDF 416–435，印刷 pp.398–417〕对账。两版从激发算符与 \(H\) 的对易关系出发，再用 TDA 与 RPA 的算符空间、可分离相互作用、准粒子基与转移反应例说明实际近似。
+
+- 二版 Eq. (10.20) 的 TDA 和 RPA 使用相同的 \(C<0\) 可分离相互作用。所有粒子–空穴间距同为 \(D>0\) 时，定义 \(K_Q=\sum_r Q_r^2\)，有 \(\omega_{\rm TDA}=D+CK_Q\)，\(\omega_{\rm RPA}^2=D^2+2CDK_Q=\omega_{\rm TDA}^2-(CK_Q)^2\)。RPA 的低根比较要求实且稳定的解。TDA 求和式的推导先约去 \(\sum_r Q_rX_r\)，因此要另记简并例中正交于 \(Q\) 的未移动模。该例说明相干降能的机制。一般谱、非可分离相互作用与失稳点须另核。二版 PDF 422–425。
+- 二版 Eq. (10.22) 的 BCS 例使用 \(E_i+E_j\) 和 \((U_iV_j+U_jV_i)^2\) 占据因子。\(r^2Y_{2,\pm2}\propto(x\pm iy)^2\) 给 \(\Delta n_z=0,\Delta\Lambda=\pm2\) 的轨道筛选。同主壳的偏好还来自能量分母。表 10.1 汇编的是计算振幅。对 \(^{184}\mathrm{W}\) 的 \((d,p)\) 截面可检验部分组态，解释还需靶基态、粒子空穴占据和 DWBA。二版 PDF 427–430，Eqs. (10.22)–(10.26)。
+- 二版 Eq. (10.28) 的两组态配对例给 \(K=0^+\) 形状跃迁矩阵元 \(ab(Q_b-Q_a)\)。它显示配对混合存在时，形状跃迁仍受两组态对角四极矩差约束。[[nomura-2021-pairing-triaxial-vibrations-gamma-soft]] 对 \(^{128,130}\mathrm{Xe}\) 另外显式耦合配对和非轴形状，给出可对照的模型空间和 E2 偏差。两者的混合系数和模型坐标应各自解释。二版 PDF 433–435。
+
 ## Sources
 
 - [[casten-valence-pn-interaction-and-casten-triangle-contract]]

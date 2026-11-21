@@ -3,6 +3,12 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — 微观振动、配对坐标和奇核投影
+
+- [[book-casten-nuclear-structure-simple-perspective]] 一版 Ch.9 与二版 Ch.10 对账。单独记录 TDA 的零重叠模、RPA 正频条件、配对占据与 \(\gamma\) 振动的轨道筛选，关联 [[random-phase-approximation]]。
+- [[nomura-2021-pairing-triaxial-vibrations-gamma-soft]] 的 6 页出版版与 7 页预印版按一件计。[[jahangir-2026-tpsm-gamma-bands-nb-tc]] 的出版身份已核，全文仍用实际可读的 11 页 arXiv v1。累计 146 份、9722 页主件。
+- 两版 Casten 整本继续保持部分覆盖。接续核查一版 Ch.10 实验技术与二版 Ch.11 放射性束的增删，保留两套实验诊断的范围和原文定位。
+
 ## 2026-11-21 — 两版 Casten 轴对称模型与 Mikhailov 核验
 
 - [[book-casten-nuclear-structure-simple-perspective]] 两版第 6 章前半对账，核准 \(^{168}\mathrm{Er}\) 图的斜率符号、初版强度式的排印差异，以及相对强度与绝对矩阵元的定标条件。换算已同步到 [[bm2-rotational-intrinsic-coupling-and-mikhailov-contract]]。

@@ -44,6 +44,8 @@ wobbling frequency、跃迁矩阵元和模式成分。
 
 ## Known Limitations
 
+[[book-casten-nuclear-structure-simple-perspective]] 二版 p.407 Eq. (10.20) 的简并可分离例给 \(\omega_{\rm RPA}^2=D^2+2CD\sum_r Q_r^2\)。需与相同模型的 TDA 根比较并检验正频稳定性。根号内为负时，该参考态下的频率属于线性失稳。TDA 的可分离求和式只捕获对所选算符有非零重叠的根。斜率、根的数值和组态成分仍随相互作用及有效跃迁算符改变。
+
 [[frauendorf-2024-wobbling-review]] 指出 RPA 在 TW instability 附近失效，且尚未应用于正常形变核。
 
 ## Related Models
@@ -53,6 +55,7 @@ wobbling frequency、跃迁矩阵元和模式成分。
 ## Sources
 
 - [[frauendorf-2024-wobbling-review]]
+- [[book-casten-nuclear-structure-simple-perspective]]
 
 ## Evolution Log
 

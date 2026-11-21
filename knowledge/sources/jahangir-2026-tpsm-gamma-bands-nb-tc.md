@@ -42,6 +42,8 @@ tags: [gamma-vibration, odd-mass-nuclei, Nb-isotopes, Tc-isotopes, TPSM, triaxia
 - Covered scope: PDF pp.1-11 全文；摘要、引言、TPSM 基底与投影方程 (1)-(10)、Table I 形变输入、Figs.1-9 的能带/对齐/B(E2) 结果、Table II、总结和全部参考文献均已阅读。关键图 2、4-9 视觉核对。
 - Not covered: 参考文献所指原始 `103,105Nb` 能级实验全文、作者未提供的事件级数据和模型代码；这些不能由本理论预印本替代。
 - Coverage caveats: 结论主要来自 TPSM 计算与既有实验能级比较；`γ2` 对 `103,105Nb` 第四条观测带的指认是模型支持的解释，不能写成新的直接实验发现。
+- 2026-11-21 馆藏对账确认后续出版身份为 *Phys. Rev. C* 113, 064310（2026-06-09），DOI `10.1103/ch4r-rl3b`。本地证据仍用 11 页 arXiv v1。APS 记录可核，原刊 PDF 下载返回 401/403，尚未完成逐表版本比较。来源页的既有图号与数据全部定位到 arXiv 底本。
+- arXiv Table II 的 \(^{105}\mathrm{Nb}\) \(9/2_{\gamma_2}\to13/2_{2\gamma}\) 行给 \(0.107\,(eb)^2\)，它是 TPSM 的计算值。用同母态两个分支的原始 \(\gamma\) 强度比较时，E2 光子率还含 \(E_\gamma^5\) 和 E2 分量。观察到的分支强弱、E2 约化强度与未布居的低自旋成员应分别判断。
 
 ## Paper Question and Scientific Motivation
 
