@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000341",
+  "active_source": "catalogue:LIT-000359",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -366,9 +366,10 @@
     "ZOBEL80-ALIGNMENT-COMPLETE-SCIENTIFIC-SCOPE",
     "ZOBEL83-ALIGNMENT-COMPLETE-SCIENTIFIC-SCOPE",
     "IONESCU81-FEEDING-COMPLETE-SCIENTIFIC-SCOPE",
-    "CEJNAR96-SIDE-FEEDING-COMPLETE-SCIENTIFIC-SCOPE"
+    "CEJNAR96-SIDE-FEEDING-COMPLETE-SCIENTIFIC-SCOPE",
+    "CHIARA12-COPPER-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 100,
+  "completed_full_sources_this_run": 101,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 997,
@@ -376,14 +377,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T04:35:51.444389+00:00",
+  "updated_at": "2026-11-21T04:40:41.684442+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 8800,
-  "current_source_note": "knowledge/sources/cejnar-1996-spin-deorientation-alpha-2n-gamma.md",
-  "next_action": "Read Chiara et al. 2012, PRC 85 024309, for reference-line alignment and the 65Cu delta sensitivity example.",
+  "completed_primary_pages_this_run": 8820,
+  "current_source_note": "knowledge/sources/chiara-2012-cu65-cu67-core-coupled-protons.md",
+  "next_action": "Read Lauritsen et al. 2025 tracking-array angular and polarization formalism, EPJA s10050-025-01533-5, local 25-page copy.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Ionescu/Cejnar: discrete feeding, calibrated side feeding, and conditional delta branches.",
-  "current_source_scientific_acceptance": "Two primary works, 28 publisher pages; simulation and source observations kept distinct.",
-  "source_scoped_retrieval": "Existing publisher PDFs. No new download."
+  "last_source_manager_closure": "Chiara 2012: fixed width from reference lines, 65Cu sensitivity and separate 67Cu AC.",
+  "current_source_scientific_acceptance": "Twenty publisher pages credited; AC and AD inputs tied to their acquisitions.",
+  "source_scoped_retrieval": "Existing publisher PDF. No additional download."
 }

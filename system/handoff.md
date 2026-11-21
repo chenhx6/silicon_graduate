@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Chiara 的铜同位素宽度条件
+
+- [[chiara-2012-cu65-cu67-core-coupled-protons]] 对账 20 页。核实 \(^{65}\mathrm{Cu}\) 的七角角分布以参考线选择 \(\sigma/I=0.5\)，接近 1115 keV 的 \(^{67}\mathrm{Cu}\) 跃迁则来自另一反应的双光子角关联。
+- 累计 101 份、8820 页主件。续读 [[lauritsen-2025-gamma-angular-formalism-tracking-arrays]] 的跟踪阵列角分布及偏振响应。
+
 ## 2026-11-21 — 侧馈宽度与混合比分支
 
 - [[ionescu-1981-improved-angular-distribution-analysis-particle-xn]] 9 页与 [[cejnar-1996-spin-deorientation-alpha-2n-gamma]] 19 页已对账。核实同母态的纯 E2 宽度约束、侧馈和离散馈入的关系，以及 \(^{112}\mathrm{Cd}\) 同数据在不同宽度区间的分支差。

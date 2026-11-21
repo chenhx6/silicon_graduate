@@ -6762,3 +6762,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Ionescu 与 Cejnar 的侧馈方法
 
 - 对账 9+19 页，核实侧馈宽度的原始定义及对同组角分布解的影响。累计 100 份、8800 页主件。
+
+## 2026-11-21 — Chiara 的铜同位素角分布
+
+- 对账 20 页，核实选定取向和近同能量两线的不同采集与角量。累计 101 份、8820 页主件。

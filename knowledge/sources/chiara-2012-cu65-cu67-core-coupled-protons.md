@@ -119,3 +119,7 @@ The boundary is essential: Chiara 2012 should be cited as an A≈60 spectroscopy
 ## Personal Notes
 
 This source is useful because it normalizes a real spectroscopy habit: alignment assumptions may be chosen pragmatically to fit calibration transitions. That is strong background for the project's "experimental practice" section, but the source remains outside the main A≈130 evidence chain and outside the primary P-ADO formalism chain.
+
+## 2026-11-21 — 取向宽度与两次采集
+
+024309-2 至 -3 区分两套数据。\(^{64}\mathrm{Ni}+{}^{238}\mathrm{U}\) 主实验的双光子角关联使用十组开角，较难为部分 \(^{65}\mathrm{Cu}\) 线找到干净的已知门。另一次 \(^{48}\mathrm{Ca}+{}^{26}\mathrm{Mg}\) 数据提供七角角分布。作者为后者选 \(\sigma/I=0.5\) 以再现已知 E2/E1 参考线。在此宽度下得到 1115.5 keV 的 \(\delta\approx-0.1\)，文字说明改用约 0.7 可与早期采用值 \(-0.450(16)\) 相符。Table IV 的 1114.9 keV 属 \(^{67}\mathrm{Cu}\)，\(\delta=-0.19\) 来自以 861 keV E2 为伴线的角关联。两条近同能量线的实验、门和取向处理各自对应。原文未给它们联合分析的数值化线偏振。
