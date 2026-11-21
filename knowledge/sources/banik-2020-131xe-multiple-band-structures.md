@@ -65,7 +65,7 @@ R. Banik et al., *Physical Review C* **101**, 044306 (2020), DOI [10.1103/PhysRe
 - 反应为 `130Te(α,3n)131Xe`，束流能量 38 MeV；富集 `130Te` 靶厚 2 mg/cm²，Mylar backing 600 μg/cm²。
 - VECC 的 INGA 使用 7 台 Compton-suppressed clover HPGe：4 台位于 90°、2 台位于后向 55°、1 台位于前向 40°，探头距靶约 25 cm；使用 PIXIE-16 250-MHz、12-bit 数字采集，记录时间戳列表模式事件。
 - `Mγ≥2` 符合与 `Mγ≥1` 单谱模式均被采集。能量/效率由 `133Ba`、`152Eu` 标准源校准；IUCPIX 生成矩阵/立方体，RADWARE 与 LAMPS 用于符合分析。
-- `R_DCO` 由 90°/55° 非对称矩阵测量；90° clover Compton 分段测 `Δ_PDCO`。文章报告在 `Eγ–Eγ` 符合中将能级图扩展 72 条跃迁。
+- Eq. (1) 按原文将 90° 置于目标跃迁分子，将后向 55° 置于分母，门跃迁的角组在两项互换。四台 90° clover 的 Compton 散射计数给出 Eq. (2) 的 \(\Delta_{\mathrm{PDCO}}\)。后者是以 \(^{152}\mathrm{Eu}\) 非偏振源校正的无量纲不对称度。文章报告在 \(E_\gamma\)–\(E_\gamma\) 符合中将能级图扩展 72 条跃迁。
 
 ## Key Results
 
@@ -82,6 +82,12 @@ R. Banik et al., *Physical Review C* **101**, 044306 (2020), DOI [10.1103/PhysRe
 | BNK20-9 | `B1(a)` 的实验连接与 signature staggering 支持作者的 signature-partner 指认，但不能单独裁定 wobbling；`B1(b)` 缺少带内连接和可比 inter/intraband strengths。 | synthesis | indirect | Figs. 3, 6–7, 14; Discussion, PDF pp. 4, 7–11 | true |
 | BNK20-10 | Banik 2020 calls high-spin `B1(a)` a signature partner; Chakraborty 2023 says the unfavored partner was not identified in earlier 131Xe work and identifies a `9/2−–21/2−` sequence, favoring the yrare `13/2−` band while leaving the yrast `13/2−` origin open. Because C23 reanalyzes Banik data, this is an unresolved level/band-label crosswalk within one acquisition, not independent experimental evidence. | synthesis | indirect | Fig. 3 and discussion, PDF pp. 4, 7–11; Chakraborty 2023 Introduction/Results/Discussion, PDF pp. 2–6 | true |
 | BNK20-11 | 本文将约 1046-keV 的 13/2− 态作为 B5 序列带头，延伸到约 21/2−，作者称其可能是 `νh11/2` 中子与 `130Xe` core 第二个 `2+` 态的 decoupled band；这是配置解释，不是直接轨道占据测量。 | experimental-fact / author-interpretation | direct | Table I; Discussion, PDF pp. 5–6, 11 | true |
+
+## 出版版复核
+
+PDF 6 的 Table I 将 1021.3(1) keV 行标为 \(29/2^+\to25/2^-\)、E2，Fig. 3 同样将其连接至负宇称 B1(a)。原表还给 \(R_{\rm DCO}=1.09(4)\)（脚注 g，389.0-keV E2 门）和 \(\Delta_{\mathrm{PDCO}}=+0.05(3)\)。若初末态宇称均成立，则 E2 应保持宇称。原文同时给出的跃迁类型和宇称存在不相容，保留原报告并将受影响的多极性及宇称推断标为未解。Table I 脚注 l 又把 1021.3-keV 线用作 E2 门。575.9-keV 行的 \(R_{\rm DCO}=0.63(4)\) 使用该门，复用此行时应保留门归属疑点。相邻的 575.8-keV 行使用脚注 g，需按初态和门区别。定位：PDF 4 Fig. 3、PDF 5–6 Table I、PDF 9 Fig. 9。
+
+Fig. 13 的对齐量使用 Harris 参考 \(\mathcal J_0=16\hbar^2/\mathrm{MeV}\)、\(\mathcal J_1=7\hbar^4/\mathrm{MeV}^3\)。作者由与偶偶核芯的初始对齐差提出 \(\Omega=9/2\,[514]\) 分量，同时指出纯高 \(\Omega\) 的轴对称情形难以解释大 signature splitting，因而讨论 \(\Omega\) 混合。该论证依赖核芯参考及选定组态。与 [[casten-nilsson-and-microscopic-collective-vibrations]] 对照时，应把能级推得的对齐量、三轴或 \(\gamma\) 软解释及 TRS 极小分开追溯。定位：PDF 10 Figs. 12–13、PDF 11 Fig. 14、PDF 12–14 Figs. 17–20。
 
 ## Data Lineage and Later Reanalysis
 

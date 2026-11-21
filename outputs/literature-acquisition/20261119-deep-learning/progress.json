@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000287",
+  "active_source": "doi:10.1103/physrevc.107.064318",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -433,9 +433,10 @@
     "CASTEN90-00-TWO-PARTICLE-PANDYA",
     "CASTEN90-00-SENIORITY-PAIRING",
     "CASTEN90-00-NILSSON-COMPARE",
-    "CASTEN-EDITIONS-READING-RECONCILED"
+    "CASTEN-EDITIONS-READING-RECONCILED",
+    "BANIK20-XE131-PUBLISHER-SCOPE-RECONCILED"
   ],
-  "completed_full_sources_this_run": 150,
+  "completed_full_sources_this_run": 151,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1000,
@@ -443,14 +444,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T10:45:08.781980+00:00",
+  "updated_at": "2026-11-21T10:53:28.722225+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10244,
-  "current_source_note": "knowledge/sources/banik-2020-131xe-multiple-band-structures.md",
-  "next_action": "Reconcile the locally archived Banik 2020 publisher PDF on 131Xe; focus on the Nilsson and Coriolis interpretation boundary and claim locators.",
+  "completed_primary_pages_this_run": 10259,
+  "current_source_note": "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+  "next_action": "Read the local Chakraborty 2023 edition against Banik 2020, focused on the shared experiment and differing 131Xe state/gate assignments.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Casten chapter coverage, front/end matter, 1990/2000 identity and derivative accounting.",
-  "current_source_scientific_acceptance": "One textbook work credited using 488 physical PDF pages of the 2000 edition. It contains 446 chapter pages. The same work’s 1990 edition and Chinese translation receive no duplicate work or page credit.",
-  "source_scoped_retrieval": "Reused local Casten editions and derivative; no new PDF downloaded."
+  "last_source_manager_closure": "Banik 2020 publisher original, detector responses and conditional Nilsson/Coriolis interpretation, with an unresolved E2/parity conflict.",
+  "current_source_scientific_acceptance": "One 15-page publisher work accepted. Experimental and claim-level dependencies with the 2023 replay remain explicit.",
+  "source_scoped_retrieval": "Reused the already archived APS original."
 }

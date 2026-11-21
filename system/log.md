@@ -6878,3 +6878,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Casten Nilsson 章及版本闭环
 
 - 核对两版 Nilsson 章和书证页。Casten 按一份作品计，主件采用二版的 488 个物理页。累计 150 份、10244 个主件 PDF 页。
+
+## 2026-11-21 — Banik 2020 刊版核查
+
+- 核对 15 页出版原件，记录 1021.3-keV 行的宇称与 E2 标签问题及其影响的门。累计 151 份、10259 个主件 PDF 页。

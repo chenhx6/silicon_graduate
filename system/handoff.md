@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Banik 2020 \(^{131}\mathrm{Xe}\) 刊版
+
+- [[banik-2020-131xe-multiple-band-structures]] 核对 15 页刊版、DCO 角组、偏振不对称度与 Harris 参考。保留 1021.3 keV 行的 E2／变宇称冲突及其作为 575.9-keV 行的门所带来的不确定性。
+- 累计 151 份、10259 个主件 PDF 页。接续 [[chakraborty-2023-131xe-wobbling-origin]]，以同一采集的两份分析逐个对照能级和跃迁，保留两份作品各自的证据。
+
 ## 2026-11-21 — Casten 的 Nilsson 原页与整源范围对账
 
 - [[book-casten-nuclear-structure-simple-perspective]] 补齐初版第 7 章及二版第 8 章的正文范围，核实小形变的 \(K\) 斜率、大形变的 \(n_z\) 分组和 \(R=0\) 转移条件。两版的序言、书目、索引和扫描页单独定位。
