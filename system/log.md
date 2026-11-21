@@ -6846,3 +6846,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — γ 带交错证据的相位和归一
 
 - 回核两版教材的偶偶核极限，核清三个出版来源的相邻间隔、二阶差分和模型能级身份。累计 142 份、9640 页主件。
+
+## 2026-11-21 — Casten 一致四极算符章节
+
+- 对账两版 IBM 的对应章节、\(^{168}\mathrm{Er}\) 原表及模型尺度条件。两版保持部分覆盖。

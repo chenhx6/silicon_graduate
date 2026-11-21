@@ -20,6 +20,8 @@ tags: [collective-model, gamma-softness]
 
 ## Hamiltonian or Core Formalism
 
+一致四极算符的 \(O(6)\)–\(SU(3)\) 路径在 \(H=a_2Q_\chi\cdot Q_\chi+a_1J^2\) 与 \(T(E2)\) 中共用 \(\chi\)。相同 \(J\) 的能级差消去 \(a_1J(J+1)\)，相对跃迁和同自旋能级差之比可在该路径下检验 \(\chi\) 与玻色子数的选择。涉及不同 \(J\) 的能级间隔仍依赖转动项。[[book-casten-nuclear-structure-simple-perspective]]，二版 Eqs. (6.76)–(6.77)、Table 6.14。
+
 [[zamfir-casten-1991-gamma-softness-triaxiality]] 从 O(6) γ-unstable 极限出发，加入三阶 d-boson 项，在 γ=30° 引入弱势能极小。
 
 [[nomura-2017-odd-mass-gamma-soft-shape-transitions]] 将偶偶芯 IBM 与单个奇核子耦合为 IBFM；IBM 参数由 DD-PC1 RHB `(β,γ)` 势能面映射确定，但玻色子-费米子耦合仍逐核拟合。

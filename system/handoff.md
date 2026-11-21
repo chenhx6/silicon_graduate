@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Casten 两版 IBM 的能级与 E2 同时核查
+
+- [[book-casten-nuclear-structure-simple-perspective]] 增补两版 §6.6，核对一致四极算符路径、同自旋差的转动项消除条件、\(^{168}\mathrm{Er}\) 的支路比较以及有限玻色子数下的 \(\gamma\) 涨落。
+- 两本仍按章节覆盖。累计 142 份、9640 页主件。接续二版 Ch.6 前半的轴对称振动、转动及带混合，再核两版 Mikhailov 分析的对应页。
+
 ## 2026-11-21 — γ 带交错的极限分组与实际核素
 
 - [[book-casten-nuclear-structure-simple-perspective]] 原页核实两版的低自旋分组，订正既有笔记把 Davydov 与 Wilets–Jean 两个极限写反的问题。并核 [[zamfir-casten-1991-gamma-softness-triaxiality]]、[[mccutchan-2007-gamma-band-staggering]] 及 [[gore-2005-gamma-band-staggering]]，区分相邻能差、归一二阶差分与各态身份。
