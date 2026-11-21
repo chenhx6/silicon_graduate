@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — ⁷²Se 的参考线取向与联合混合比
+
+- [[mukherjee-2022-shape-coexistence-octupole-72se]] 对账 14 页原刊。核实 E1 参考线先定 \(\sigma/j=0.3\)，454.5 keV 联合 \(R_{\rm DCO}\)–\(P\) 分析给 \(\delta=-5(3)\)。在来源页保存原表 \(\Delta\)、图示 \(P\)、由 \(Q(E)\) 换算的中心值及各自定位。
+- 累计 95 份、8750 页主件。续读 [[biswas-2026-o6-like-80se-polarization-mixing]]，比较同元素偶偶核的偏振、角比和混合比报告。
+
 ## 2026-11-21 — ¹³⁰Ba 的低自旋离束角关联
 
 - [[konigshofen-2001-mixing-ratios-130ba]] 对账 3 页。用两个共享 \(W(90^\circ)\) 的开角比提取低自旋混合比，保留无唯一解与污染估值。该测量独立于同核 GALILEO 高自旋实验。

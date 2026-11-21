@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000500",
+  "active_source": "doi:10.1103/physrevc.105.014322",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -360,9 +360,10 @@
     "PETRACHE19-BA130-COMPLETE-SCIENTIFIC-SCOPE",
     "CHEN19-BA130-COMPLETE-SCIENTIFIC-SCOPE",
     "WANG20-BA130-COMPLETE-SCIENTIFIC-SCOPE",
-    "KONIGSHOFEN01-BA130-COMPLETE-SCIENTIFIC-SCOPE"
+    "KONIGSHOFEN01-BA130-COMPLETE-SCIENTIFIC-SCOPE",
+    "MUKHERJEE22-SE72-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 94,
+  "completed_full_sources_this_run": 95,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 997,
@@ -370,14 +371,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T04:09:04.305729+00:00",
+  "updated_at": "2026-11-21T04:14:55.381282+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 8736,
-  "current_source_note": "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
-  "next_action": "Read Mukherjee 2022 72Se PRC 105 014322 for explicit alignment width, AD, polarization and original mixing ratios.",
+  "completed_primary_pages_this_run": 8750,
+  "current_source_note": "knowledge/sources/mukherjee-2022-shape-coexistence-octupole-72se.md",
+  "next_action": "Read Biswas et al. 2026 80Se, PLB 140929, and verify its polarization, angular ratio, mixing ratio, and alignment handling.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Konigshofen 2001 low-spin 130Ba: paired opening-angle ratios, sign and scope.",
-  "current_source_scientific_acceptance": "Three publisher pages credited. Source is a different experiment from GALILEO.",
-  "source_scoped_retrieval": "Local publisher file. No new download."
+  "last_source_manager_closure": "72Se angle definitions, E1-based sigma/j=0.3 and published joint delta, with calibration-to-P transformation.",
+  "current_source_scientific_acceptance": "Fourteen publisher pages credited; earlier targeted reading not counted twice.",
+  "source_scoped_retrieval": "Existing publisher PDF. No new download."
 }

@@ -114,6 +114,8 @@ Chiara 2012 is the most direct spectroscopy example: a working `sigma/I` value i
 
 [[lv-2022-evidence-against-wobbling-135pr]] SI PDF 4 单独说明了中心值与误差的处理。按实测 \(P,R_{\rm ac}\) 中心值拟合出采用的 \(\delta,\sigma/I\)，再改变曲线的固定宽度来传播这两个测量量的误差。出版主文及 SI 未列最佳宽度或完整网格的数值。统计审稿证据时，「取向处理方法」和「是否明列取向数值」应分别编码。
 
+[[mukherjee-2022-shape-coexistence-octupole-72se]] 014322-7 和 Fig. 7 为使用线偏振的定标后固定宽度实例。作者由同次实验的三条 E1 参考线得到 \(\sigma/j=0.3\)，将该值用于 \(^{72}\mathrm{Se}\) 454.5 keV 跃迁的 \(R_{\rm DCO}\)–\(P\) 曲线，随后扫描 \(\delta\)。该例仍应与只采用经验值、扫描多个宽度和联解中心值的分析分别记录。
+
 Ekstrom 1979 strengthens the older alignment-limitation evidence chain from a complementary direction. Instead of starting from a fit ambiguity alone, it compiles pure-E2 data into `alpha2/alpha4`, tests CNR/MANDY alignment estimates against experiment, gives an explicit uncertainty prescription for those estimates, and warns that too-small alignment errors can lead to faulty spin/parity or mixing-ratio assignments.
 
 Ionescu 1981 then shows what to do when a global Gaussian substate-population model fails in a carefully measured case. It uses pure-E2 transitions and their `rho2/rho4` behavior to test the Gaussian hypothesis, finds it inadequate for `167Tm`, and replaces it with a model that keeps Gaussian side feeding but adds discrete direct gamma-feeding contributions explicitly before fitting mixed transitions.

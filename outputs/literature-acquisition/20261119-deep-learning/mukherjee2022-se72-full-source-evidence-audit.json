@@ -1,0 +1,39 @@
+{
+  "work_id": "doi:10.1103/physrevc.105.014322",
+  "raw_files": [
+    {
+      "path": "raw/papers/gpt/query/20261111-delta-pilot-se72/Mukherjee2022_PhysRevC.105.014322.pdf",
+      "sha256": "b0712efd113f42aa65dfb3fe92783bf75428097c45b2803cfb69dcde4c22ec97",
+      "size": 863573,
+      "hash_basis": "fresh-hash",
+      "source_role": "original-or-verified-edition"
+    }
+  ],
+  "source_note": "knowledge/sources/mukherjee-2022-shape-coexistence-octupole-72se.md",
+  "primary_pdf_pages": 14,
+  "credited_primary_pages": 14,
+  "covered_sections": [
+    "PDF 1–4: shape coexistence and octupole motivation, INGA acquisition and gated level scheme",
+    "PDF 5–8: observed ratio and asymmetry table, angular distribution, Q calibration, reference alignment and 454.5-keV fit",
+    "PDF 9–12: gamma-vibrational candidate, TRS/CSM, octupole comparison, reused lifetime data and summary",
+    "PDF 13–14: bibliographic provenance"
+  ],
+  "visual_checks": [
+    7,
+    8
+  ],
+  "derived_check": {
+    "energy_keV": 454.5,
+    "Q_centre": 0.3323847045,
+    "P_centre_from_table_asymmetry": 0.1744965975,
+    "role": "rounded central-value transformation, representative of Fig. 7; no new fit"
+  },
+  "evidence_gaps": [
+    "Same-source E1 reference lines give sigma/j=0.3; numerical uncertainty and width propagation not specified.",
+    "454.5-keV P is plotted, and a central value can be derived from Delta and the published Q formula. Table I reports Delta.",
+    "1136.1-keV reported delta has no explicit source-specific extraction details.",
+    "Inferred transition strengths use earlier lifetimes."
+  ],
+  "reader": "Codex, including earlier targeted extraction cross-checked on the journal pages",
+  "PDM_run": false
+}

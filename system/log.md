@@ -6746,3 +6746,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Königshofen 的 ¹³⁰Ba 混合比
 
 - 对账 3 页离束角关联原刊，核实纯 E2 伴线、两个开角比与多解边界。累计 94 份、8736 页主件。
+
+## 2026-11-21 — ⁷²Se 的固定取向与原刊混合比
+
+- 对账 14 页，核实 454.5 keV 的标定宽度、联合输入和 Fig. 7 混合比。累计 95 份、8750 页主件，续读同位素 `80Se`。
