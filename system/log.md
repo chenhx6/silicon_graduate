@@ -6998,3 +6998,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — 形变带 DSAM 的带顶与馈入
 
 - 核对 Petrache 1998 五页刊版及厚薄靶带高段依赖。累计 191 份、10757 个已登记主件 PDF 页。
+
+## 2026-11-21 — Li 2004 与 Singh 2016 的正常形变寿命
+
+- 核对 3 与 11 页刊版，补 Li DOI、可见阈值、Singh 转载寿命和 Qt 原公式。累计 193 份、10771 个主件 PDF 页。

@@ -31,6 +31,10 @@ tags: [131ce, lifetime, qt, gamma-soft, dsam, rdds]
 
 # Singh 等（2016）：`131Ce/133Pr` yrast 带寿命
 
+## 原件仪器与阻止本领处理
+
+PDF p. 2 Sec. 2.2 explains why the \(^{131}\mathrm{Ce}\) plunger fit uses coincidences. The 511 keV annihilation line interferes with the 510 keV \(15/2^-\to11/2^-\) line in singles. PDF p. 4 Sec. 2.3 gives a separate decision for the DSAM results. The authors compare Ziegler with shell-corrected Northcliffe–Schilling stopping, then report the mean of the two fitted values and the larger quoted error. The two outputs are alternate stopping prescriptions applied to the same spectra. The authors also set a 10% minimum error on extracted lifetimes (PDF p. 5). Table 1 retains the older Li lifetimes in Ref. [32] and recomputes their \(Q_t\) with Singh Eq. (1), so the refitted \(Q_t\) column should be attributed to Singh's conversion convention.
+
 ## Day20正式原读更正与当前证据入口
 
 本轮实际读11页全文（含references）并视觉核PDF3–10的12图、2表、5式；不是沿旧hash继承原读。阅读scope与原表ledger见本日run-02的source-reading-scope-001.json/singh-table-ledger-001.json。旧review_status及全部原claim flags保持。SI16-D18-2/3/4与SI16-D20-4已在原ID下明示纠正；旧result JSON保持原字节，不作为科学认证。

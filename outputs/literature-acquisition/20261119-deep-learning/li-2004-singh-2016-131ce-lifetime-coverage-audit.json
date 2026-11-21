@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-11-21T15:39:16.353013+00:00",
+  "status": "scientific-reading-covered",
+  "reader": "Prior complete publisher-edition readings and Codex source rechecks, including the visually inspected Li pp. 462–463.",
+  "completed_works": [
+    {
+      "work_id": "catalogue:LIT-000516",
+      "unit_id": "LI04-131CE-LIFETIME-SENSITIVITY-AND-DOI",
+      "source_note": "knowledge/sources/li-2004-lifetimes-131ce.md",
+      "raw": {
+        "path": "raw/papers/2004_Lifetimes of Excited Levels in 131Ce.pdf",
+        "sha256": "100a06fc1bb6d7061a153552529c9245f123248f213a93f022b202af97dcdcc5",
+        "size": 358795,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "credited_primary_pages": 3,
+      "coverage": "Print pp. 461–463: 95 MeV 131Ce acquisition, Doppler spectra, positive/negative-parity lifetime table, deformation comparison and references. Prior complete visual check and new visual checks on pp. 462–463.",
+      "evidence_boundary": "19/2 minus is a sensitivity lower limit; 31/2 minus and 25/2 plus are uncorrected effective upper bounds. Verify DOI 10.1088/0256-307X/21/3/012 by depositor record and local journal."
+    },
+    {
+      "work_id": "catalogue:LIT-000693",
+      "unit_id": "SI16-131CE-133PR-COINCIDENCE-AND-STOPPING-INPUTS",
+      "source_note": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+      "raw": {
+        "path": "raw/papers/2016_Singh et al_Lifetime measurements in the yrast band of the gamma-soft nuclei 131Ce and 133Pr.pdf",
+        "sha256": "95e0831b9864a58fd1a896a1b20e227d88d9b7aa5de56c738c3792441caa1a30",
+        "size": 1202741,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "credited_primary_pages": 11,
+      "coverage": "Publisher PDF 1–11: 131Ce coincidences/plunger and DSAM fits, 133Pr lifetime study, Tables 1–2, shape comparison and citations. Targeted pp. 2, 4–5 for limit and stopping handling.",
+      "evidence_boundary": "Different acquisitions from Li. Ref. [32] lifetimes are borrowed and Qt values are recomputed; two stopping fits of the same spectra do not add independent measurements."
+    }
+  ],
+  "credited_primary_pages": 14,
+  "next_action": "Reconcile Palacz 1991 original high-spin 131Ce case, the early gamma links and the distinct lifetime-rich later band sequences."
+}

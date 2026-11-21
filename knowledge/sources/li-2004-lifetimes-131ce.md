@@ -14,9 +14,9 @@ journal: Chinese Physics Letters
 year: 2004
 volume: 21
 pages: 461-463
-doi:
+doi: 10.1088/0256-307X/21/3/012
 language: en
-canonical_source: journal:Chinese Physics Letters:21:461-463
+canonical_source: doi:10.1088/0256-307X/21/3/012
 citation_key: guang-sheng_2004_LifetimesExcited
 raw_file: "raw/papers/2004_Lifetimes of Excited Levels in 131Ce.pdf"
 raw_sha256: 100A06FC1BB6D7061A153552529C9245F123248F213A93F022B202AF97DCDCC5
@@ -32,7 +32,7 @@ tags: [131ce, lifetime, qt, dsam, positive-parity, negative-parity]
 
 ## Bibliographic Record
 
-Li Guang-Sheng 等，*Chinese Physics Letters* **21**, 461–463 (2004)；citation key `guang-sheng_2004_LifetimesExcited`。DOI 未在所给论文或 BibTeX 中确认。
+Li Guang-Sheng 等，*Chinese Physics Letters* **21**(3), 461–463 (2004)；citation key `guang-sheng_2004_LifetimesExcited`。DOI `10.1088/0256-307X/21/3/012` 的 Crossref 出版者记录与馆藏刊版题名、作者、卷期和页码一致。
 
 ## Scope and Reading Depth
 
@@ -49,6 +49,8 @@ Li Guang-Sheng 等，*Chinese Physics Letters* **21**, 461–463 (2004)；citati
 - 由寿命按 rotational formula 提取 `B(E2)` 与 `Q_t`，再比较正负宇称序列、`130Ce` yrast band 和 `128-131Ce` 系统学。组态—形变联系属于作者解释，不是 DSAM 直接观测（PDF pp. 2-3；Table 1；Fig. 3）。
 
 ## Summary
+
+The \(19/2^-\) lower limit is a sensitivity estimate on printed p. 462. For the 642 keV line, the full Doppler shift is about 6.3 keV and the authors estimate that a centroid shift of about 1.3 keV would be visible. They use \(F(\tau)\lesssim0.2\), a characteristic slowing time of about 1 ps for lead, and \(F(\tau)\simeq\alpha/(\alpha+\tau)\) to obtain \(\tau>4\) ps. This limit carries the stated detectability and stopping assumptions.
 
 论文用 DSAM 测量 `131Ce` 正、负宇称 yrast 序列的寿命并提取 `B(E2)` 和 `Q_t`。负宇称序列平均 `Q_t=3.09(61) eb`，正宇称序列平均 `Q_t=4.56(145) eb`；作者将差异与 `νh11/2`、`νg7/2` 轨道的形状驱动倾向联系。该组态—形变联系是作者解释，且寿命提取依赖 side feeding 和转子假设。
 

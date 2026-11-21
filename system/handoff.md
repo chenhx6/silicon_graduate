@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — \(^{131}\mathrm{Ce}\) 正常形变序列寿命
+
+- [[li-2004-lifetimes-131ce]] 与 [[singh-2016-lifetime-131ce-133pr]] 核定 3 页、11 页刊版。Li 的 \(19/2^-\) 是灵敏度下限。Singh 明示两种 DSAM 阻止本领的平均、误差选择和 510 keV 符合分析的理由。Ref. [32] 来自 Li，Singh 用自己的 Eq. (1) 重算该组 \(Q_t\)。Li 的 DOI 与出版者登记已对照。
+- 累计核定 193 份、10771 个已登记主件 PDF 页。接续 [[palacz-1991-high-spin-131ce]] 的早期能级和序列证据。
+
 ## 2026-11-21 — A≈130 形变带的 DSAM 馈入
 
 - [[petrache-1998-highly-deformed-lifetimes-131ce-nd]] 核定五页刊版。记下薄靶已见而厚靶未见的高段跃迁如何纳入拟合，及双门相对馈入关系。其 \(^{135}\mathrm{Nd}\)、\(^{131}\mathrm{Ce}\) 结果限定于该文 HD 带。
