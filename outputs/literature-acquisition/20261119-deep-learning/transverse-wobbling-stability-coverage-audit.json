@@ -1,0 +1,74 @@
+{
+  "recorded_at": "2026-11-21T13:29:05.712415+00:00",
+  "status": "scientific-reading-covered",
+  "reader": "Existing documented full reads plus Codex targeted audit. No Galileo deliverable was available at the time of this audit.",
+  "completed_works": [
+    {
+      "work_id": "catalogue:LIT-000408",
+      "unit_id": "F14-QTR-FIXED-INERTIA-PEAK-AND-STABILITY",
+      "source_note": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+      "raw": {
+        "path": "raw/papers/2014_Frauendorf_Dönau_Transverse wobbling.pdf",
+        "sha256": "36794ee1308adc1b34206ccdbf62353d6e79b3b485979e78709fd31efe5f57e3",
+        "size": 1496816,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "credited_primary_pages": 12,
+      "previous_full_reading_record": "PDF 1–12: semiclassical orbits, frozen-alignment expansion, QTR and electromagnetic operators, 135Pr/163Lu comparisons, appendix and references.",
+      "targeted_locator_check": "PDF 4 Table I, PDF 6 Eqs. (13)–(15), (23)–(24), PDF 8 Figs. 13–16 and Sec. IV B. Inspected PDF 8 visually.",
+      "evidence_boundary": "Fixed-input HFA maximum and zero curvature, and a printed inertia-ratio inversion. QTR realignment and equilibrium geometry remain distinct."
+    },
+    {
+      "work_id": "catalogue:LIT-000411",
+      "unit_id": "FC18-ACCEPTED-COMMENT-INERTIA-AND-CITATION",
+      "source_note": "knowledge/sources/frauendorf-2018-comment-wobbling-stability.md",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261024-DAY22-wobbling-geometry-phonons/frauendorf-2018-comment-stability-accepted.pdf",
+        "sha256": "06179c2ab9d669651d1da3bd5aadf91e2e9ce2c3ae38babdf80b90c428408191",
+        "size": 769114,
+        "hash_basis": "fresh-hash",
+        "source_role": "CHORUS-accepted-manuscript"
+      },
+      "credited_primary_pages": 4,
+      "previous_full_reading_record": "PDF 1 CHORUS cover, PDF 2–4 manuscript pp. 1–3: inertia ratios, Fig. 1, short-axis stability and references.",
+      "targeted_locator_check": "PDF 3, Eq. (3) and adjacent citation to Ref. [2] Fig. 15, compared with the figure in the F14 journal PDF.",
+      "evidence_boundary": "Response to PRC 95, 064315. The cited Fig. 15 is 163Lu, so this citation cannot locate an experimental 135Pr threshold."
+    },
+    {
+      "work_id": "catalogue:LIT-000513",
+      "unit_id": "LAW20-AMPLITUDE-CONDITION-COMPARISON",
+      "source_note": "knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+      "raw": {
+        "path": "raw/papers/2020_Lawrie et al_Tilted precession and wobbling in triaxial nuclei.pdf",
+        "sha256": "777f935b0266fed8a9d9f2e1cc1f72995c84dd83e27ca1f5377ab2785b2ec405",
+        "size": 1730162,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "credited_primary_pages": 12,
+      "previous_full_reading_record": "PDF 1–12: ideal rotor and odd-mass approximations, Table I, Figs. 1–11, model comparisons and references.",
+      "targeted_locator_check": "PDF 6–9, Eqs. (23)–(34), Table I and Fig. 9, cross-checked against F14 Eq. (23).",
+      "evidence_boundary": "The n=1 amplitude condition has the same curvature form with relabelled axes, but retain I vs sqrt(I(I+1)) and input rounding."
+    },
+    {
+      "work_id": "catalogue:LIT-000716",
+      "unit_id": "TR18-REPLY-RMS-AND-PR-STABILITY",
+      "source_note": "knowledge/sources/tanabe-2018-reply-wobbling-stability.md",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261024-DAY22-wobbling-geometry-phonons/tanabe-2018-reply-stability-publisher.pdf",
+        "sha256": "76185615c6d990f923926f21ca75b503fbe687b55625cb26eb9a228ee78dc3a8",
+        "size": 172883,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "credited_primary_pages": 2,
+      "previous_full_reading_record": "PDF 1–2: inertia response, RMS angular-momentum figure, stable-range test and references.",
+      "targeted_locator_check": "PDF 2 Fig. 1 caption and the stability paragraph adopting 13:21:4 for 135Pr.",
+      "evidence_boundary": "163Lu RMS panel and 135Pr stability test use different nuclides. The 21/2 boundary is produced by the Reply next-to-leading model."
+    }
+  ],
+  "credited_primary_pages": 30,
+  "counting": "Physical pages in the primary local PDFs, including the Comment CHORUS cover.",
+  "next_action": "Close the existing Kvasil–Nazmitdinov 156Dy/162Yb CRPA note against the local 17-page author version, focusing on previously unread figures and appendix conditions."
+}

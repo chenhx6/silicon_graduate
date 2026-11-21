@@ -57,6 +57,8 @@ Crossref精确DOI核作者/年份/期刊；正式PDF标题、DOI、刊号与0698
 
 采用更大惯量稳定区与满足“能量/矩阵元/角动量分量量子化”需分开检验；源文的模型指标不直接提供实验唯一模式识别。所引“更好M1”比较仍依赖不同参数/算符/模型设置，未在本任务重拟合。
 
+069802-2 的 \(^{135}\mathrm{Pr}\) 惯量比 \(13:21:4\) 对应 [[frauendorf-2014-transverse-wobbling]] Table I 的拟合组 \((\mathcal J_s,\mathcal J_m,\mathcal J_l)\)，而同页 Fig. 1 展示的是 \(^{163}\mathrm{Lu}\)。匹配惯量比可以核对轴排序。比较两篇计算的临界点还需要匹配哈密顿量、耦合参数和稳定性定义，本文给出的 \(21/2\) 对应其 next-to-leading 稳定性计算。
+
 ## Knowledge Impact and Learning Decision
 
 Limits：补齐2018争论反方，说明“临界点向高spin移动”与“满足phonon判据”是不同问题。与[[lawrie-2020-tilted-precession-wobbling]]共同约束[[wobbling-geometry-phonon-observable-contract]]的结论范围；保留未复跑程序和未测伴随观测，不裁决两方胜负。

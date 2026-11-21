@@ -61,6 +61,8 @@ Crossref精确DOI核验作者、年份、期刊和文章号；原文件是APS CH
 
 本文回引的PRM不是新独立计算，也未提供可直接复跑的producer。Fig.1部分caption的核素参数按本版本字面保留，本任务不据此补造135Pr输入；只使用已定位的论证范围。
 
+接受稿 manuscript p. 2 右栏把 \(^{135}\mathrm{Pr}\) 的 \(I=29/2\) 讨论指到 Ref. [2] 的 Fig. 15。[[frauendorf-2014-transverse-wobbling]] 刊版 p. 8 的 Fig. 15 实际画的是 \(^{163}\mathrm{Lu}\) 的 QTR/HFA 计算。保留 Comment 的原文引图差异，不能把该处回引当作 \(^{135}\mathrm{Pr}\) 实验临界自旋的定位。Comment 针对的原论文是 Tanabe 与 Sugawara-Tanabe 2017，DOI `10.1103/PhysRevC.95.064315`（接受稿标题与 Ref. [1]）。
+
 ## Knowledge Impact and Learning Decision
 
 Limits/revises：小振幅临界点不自动否定完整转子模型的特定几何；惯量排序和spin依赖必须进入模型比较。同时，本文不能代替实际多声子矩阵元与偏振判据。新增source及[[wobbling-geometry-phonon-observable-contract]]的竞争解释入口；needs_review保持true。

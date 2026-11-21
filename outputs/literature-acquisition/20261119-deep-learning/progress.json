@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000408",
+  "active_source": "bytes:dee4d852c401c5d522b10655d26a477925f9e8da7b06c09190e66243f3fa2405",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -452,9 +452,13 @@
     "SCHON03-LU165-ANCHOR-CHOICE",
     "MATS02-LU163-POSITIVE-GAMMA-RPA",
     "MATS04-RPA-E2-AND-SIGNED-SUM",
-    "MATS04-TAC-AUTHOR-EDITION-RECONCILIATION"
+    "MATS04-TAC-AUTHOR-EDITION-RECONCILIATION",
+    "F14-QTR-FIXED-INERTIA-PEAK-AND-STABILITY",
+    "FC18-ACCEPTED-COMMENT-INERTIA-AND-CITATION",
+    "LAW20-AMPLITUDE-CONDITION-COMPARISON",
+    "TR18-REPLY-RMS-AND-PR-STABILITY"
   ],
-  "completed_full_sources_this_run": 169,
+  "completed_full_sources_this_run": 173,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -462,14 +466,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T13:08:46.538177+00:00",
+  "updated_at": "2026-11-21T13:29:05.712415+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10458,
-  "current_source_note": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
-  "next_action": "Reconcile the Frauendorf–Dönau 2014 transverse-wobbling paper and audit its assumed coupling and stability regime against the completed rotating-RPA sources.",
+  "completed_primary_pages_this_run": 10488,
+  "current_source_note": "knowledge/sources/kvasil-2006-dy156-yb162-crpa-wobbling.md",
+  "next_action": "Close the existing Kvasil–Nazmitdinov 156Dy/162Yb CRPA note against the local 17-page author version, focusing on previously unread figures and appendix conditions.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Matsuzaki–Ohtsubo local author edition, distinct TAC and RPA angles and bounded Lu comparison.",
-  "current_source_scientific_acceptance": "One 13-page local author edition; model comparison only.",
-  "source_scoped_retrieval": "Reused local author edition."
+  "last_source_manager_closure": "Frauendorf–Dönau 2014, Lawrie et al. 2020, and the 2018 Comment/Reply. Prior full read reconciled to the local editions and targeted checks.",
+  "current_source_scientific_acceptance": "Known partial coverage; local author version identity and new SHA verified. Full coverage audit pending.",
+  "source_scoped_retrieval": "Four existing local PDFs verified by SHA-256. No new original was downloaded in this batch."
 }

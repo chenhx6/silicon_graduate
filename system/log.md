@@ -6934,3 +6934,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — RPA 软化与 TAC 浅极小
 
 - 对照 Matsuzaki–Ohtsubo 13 页作者稿、指定组态与轴角定义。累计 169 份、10458 个主件 PDF 页。
+
+## 2026-11-21 — 横向摆动的频率峰值与有效域
+
+- 对照 F14 与 Lawrie 的小振幅条件，留存惯量比印刷方向和 Comment 的图号出处。两份刊版外加 2018 年接受稿与刊版回复完成覆盖核定，累计 173 份、10488 个主件 PDF 页。四项范围见 `transverse-wobbling-stability-coverage-audit.json`。

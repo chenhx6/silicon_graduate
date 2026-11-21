@@ -3,6 +3,12 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — 横向摆动的频率峰值与有效域
+
+- [[wobbling-geometry-phonon-observable-contract]] 用 [[frauendorf-2014-transverse-wobbling]] Table I 推导 \(^{135}\mathrm{Pr}\)、\(^{163}\mathrm{Lu}\) 的频率峰值和正曲率上界，并与 [[lawrie-2020-tilted-precession-wobbling]] Eq. (34) 对照。保留惯量轴序、\(J\) 与 \(I\) 的约定以及完整 QTR 的粒子重取向。
+- [[frauendorf-2018-comment-wobbling-stability]] 接受稿引用的 F14 Fig. 15 画的是 \(^{163}\mathrm{Lu}\)。[[tanabe-2018-reply-wobbling-stability]] 的 \(^{135}\mathrm{Pr}\) 稳定性计算和该文 Fig. 1 的 \(^{163}\mathrm{Lu}\) RMS 分量分别留证。
+- 累计核定 173 份、10488 个主件 PDF 页。本批复用既有全文阅读记录，并定向复核原件。接续 [[kvasil-2006-dy156-yb162-crpa-wobbling]] 的图表与附录缺口。
+
 ## 2026-11-21 — Matsuzaki–Ohtsubo RPA 与倾斜转轴
 
 - [[campaign-g07-matsuzaki-2004-wobbling-instability]] 核对 13 页作者稿。保留 \(^{146}\mathrm{Gd}\) 指定模型中约 32° 的 RPA 失稳与约 30° 的浅 TAC 极小，区分角动量涨落和频率向量的角。

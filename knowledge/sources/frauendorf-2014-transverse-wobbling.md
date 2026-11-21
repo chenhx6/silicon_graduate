@@ -47,6 +47,8 @@ The paper asks why wobbling frequencies in odd-A nuclei can decrease with spin, 
 
 Full twelve-page article read. Covered: the rotor Hamiltonian and classical orbits, simple/transverse/longitudinal geometries, frozen-alignment harmonic formulas, E2/M1 matrix elements, QTR parameter sets and potential-energy discussion, the `163Lu` and `135Pr` energy and transition-strength comparisons, and the conclusions. Not covered: reanalysis of the original spectroscopy datasets or later microscopic calculations; the experimental values quoted by this theory paper remain background inputs.
 
+The fixed-parameter frequency maximum and the zero of the transverse curvature follow separately from Eq. (24). The calculations in [[wobbling-geometry-phonon-observable-contract]] use Table I and \(J=\sqrt{I(I+1)}\). For the fitted `163Lu` set the continuous maximum occurs at \(I\simeq24.52\), while the curvature vanishes at \(I\simeq51.50\). Equation (23) restricts the small-amplitude approximation before the curvature reaches zero. See p. 6 and p. 8 Fig. 13 and Sec. IV B for the comparison with full QTR.
+
 ## Summary
 
 The paper develops the transverse/longitudinal QTR geometry and uses harmonic and full calculations for `163Lu` and `135Pr` to connect decreasing wobbling energy and enhanced interband E2 strength with transverse coupling. The quoted spectra are background inputs, not new measurements.
