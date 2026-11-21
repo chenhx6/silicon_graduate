@@ -6722,3 +6722,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — ¹³⁶Nd 的 751 keV 线
 
 - 对账 7 页原刊，核实偏振、角比与联合混合比，封面不计入。累计 85 份、8537 页主件，续读吕冰峰的 ¹³⁶Nd／¹³⁵Nd 学位论文。
+
+## 2026-11-21 — 吕冰峰学位论文的取角公式与 750.7 keV 行
+
+- 对账 154 页科研及书证范围，落实 750.7/751 keV 的原观测角色和 \(^{138}\mathrm{Nd}\) 焦平面半衰期算例。累计 86 份、8691 页主件。

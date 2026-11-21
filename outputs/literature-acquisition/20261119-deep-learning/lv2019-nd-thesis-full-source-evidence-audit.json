@@ -1,0 +1,59 @@
+{
+  "work_id": "doi:10.70675/f57289e9z254cz4460z8c9azdc1999dc53a9",
+  "raw_files": [
+    {
+      "path": "raw/theses/degree-dissertation/吕冰峰.pdf",
+      "sha256": "84e8b934fda9a97ea79527a8b1456f40e534bc67be847d61b1a1219002d85749",
+      "size": 6844285,
+      "hash_basis": "fresh-hash",
+      "source_role": "original-or-verified-edition"
+    },
+    {
+      "path": "raw/theses/gpt/query/20261119-international-nuclear-structure/80424_LV_2019_diffusion.pdf",
+      "sha256": "1eb52486bc7799104d3429b95cf17af5f1b11c9442bf03ba8e62d1580a98ebed",
+      "size": 6850393,
+      "hash_basis": "fresh-hash",
+      "source_role": "same-thesis-different-wrapper"
+    }
+  ],
+  "source_note": "knowledge/sources/lv-bingfeng-2019-chirality-136nd-135nd-thesis.md",
+  "primary_pdf_pages": 164,
+  "credited_primary_pages": 154,
+  "excluded_pdf_pages": [
+    1,
+    3,
+    4,
+    5,
+    9,
+    15,
+    25,
+    65,
+    123,
+    145
+  ],
+  "covered_sections": [
+    "PDF 2, 6–17 except 9/15: defense title, contents and figure/table registers",
+    "PDF 18–71 except 25/65: theory, apparatus, data processing and actual gate geometry",
+    "PDF 72–122: 136Nd level scheme, Table 5.1 and multiple-band interpretations",
+    "PDF 124–139: 135Nd triple-quasiparticle doublets and observations",
+    "PDF 140–152 except 145: focal-plane decay, French synthesis and conclusions",
+    "PDF 153–164: detector-angle appendix, references and bilingual abstracts"
+  ],
+  "visual_checks": [
+    69,
+    70,
+    88,
+    144,
+    153,
+    154
+  ],
+  "alternate_file_note": "PDF 2–164 match in normalized extracted text; wrapper changed only in the comparison. One work credited.",
+  "evidence_gaps": [
+    "Equations 4.6 and 4.7 are reciprocal under the immediately preceding W definition; operational choice follows Eq. 4.8.",
+    "750.7-keV RDCO in Table 5.1 and the 751-keV Rac/P/delta of the later paper share a transition and acquisition, with distinct observables.",
+    "No run-level detector mask, measured Q(E) or numerical alignment width.",
+    "RDT sensitivity is limited by flight time and time gates; the nonobservation of 135,136Nd isomers is specific to the data searched."
+  ],
+  "reader": "Codex with chapter scope reconciliation",
+  "PDM_run": false
+}

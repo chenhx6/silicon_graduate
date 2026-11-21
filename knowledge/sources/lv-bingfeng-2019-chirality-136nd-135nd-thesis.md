@@ -42,8 +42,8 @@ Bingfeng Lv，*Chirality in the 136Nd and 135Nd nuclei*，Université Paris-Sacl
 ## Scope and Reading Depth
 
 - Completed reading_depth: `deep-read`。
-- Covered scope: 题名页、摘要和目录（PDF pp.1–16）；手征判据、模型背景和跃迁概率（pp.17–52）；JUROGAM II、RITU、GREAT、TDR、标定、效率、Doppler correction、RDCO/Rac 与线偏振方法（pp.53–70）；`136Nd` 能级图、D1–D6 及其 partner、T/HD 带（pp.71–122，Fig.5.1–5.15、Tables 5.1–5.4）；`135Nd` 新双重带、Table 6.1 和 PRM/TAC-CDFT 讨论（pp.123–138，Fig.6.1–6.6）；RDT 异能态检索和结论（pp.139–151，Fig.7.1–7.3）。关键视觉页面 PDF pp.1、22、53、71、124、147 已核对。
-- Not covered: 事件级矩阵、全部参考文献逐篇回读、未参与本批次判断的附录输入文件；所有 136Nd 跃迁未逐线重建。
+- Covered scope: 164 页馆藏 PDF 的科研及书证部分，共 154 页。PDF 2、6–17 含题页及目录，18–53 为基础和模型，54–71 为装置及分析，72–122 为 `136Nd` 谱学，124–139 为 `135Nd` 的双重带和模型，140–152 为异能态、法文综述与结论，153–164 为角度附表、书目和双语摘要。空白或只有页眉的 PDF 3、5、9、15、25、65、123、145，以及馆藏封面 PDF 1、致谢 PDF 4 单列。
+- Not covered: 事件级矩阵、全表逐行重新拟合、参考文献逐篇复查与实际探测器掩码。
 - Coverage caveats: OCR 对希腊字母、上下标和核素数字有损；D4 的宇称文字存在内部不一致，模型形变和 `B(M1)/B(E2)` 只能按模型/作者解释层记录。2019 PRC 后续原始论文已补上 D3/D4 parity 的外部 provenance，但该文 Table I 仍保留一条 D3 局部异常。
 
 ## Paper Question and Scientific Motivation
@@ -216,3 +216,11 @@ Iγ以373.7keV参考归一；下表Jf均为源赋值，family仅在Fig5.6/链能
 Ch4以ENCAL二次能量标定、EFFIT Eq4.2及A6.2/B1.8/C0/D5.5/E.6/F0/G20描述效率曲线；这些不是逐run完整校准/单位归一/Cov表，Iγ已经声明作效率修正，不从示例参数另造绝对计数率。Doppler统一β=.0245、clover200ns addback是数据处理，不是DSAM停止/寿命重放。RDCO用157.6与近90组，Rac用133.6+157.6对75.5+104.5并取同all-angle门/按角组效率归一；typical.8/1.4限本response，不跨阵列搬。
 
 Fig5.11给D5的230/284/345/388/463组合doublegate谱，但Tablefootnote称Iγ由多种projection/gates合取，不能把所有14行的exactgate补为这张图。该表只缩小实际输入缺口，完整response/Cov/clock及signedEM仍未闭合。方法迁移到[[133ce-thesis-analysis-blueprint]]时不能搬这些值或共同campaign；它只说明实际observed denominator与energy-only候选必须分开。
+
+## 2026-11-21 — 同次测量的分析口径
+
+- §4.1–4.2（印刷 pp. 65–70，PDF 66–71）明确 \(^{135,136}\mathrm{Nd}\) 来自同一次 152 MeV \(^{40}\mathrm{Ar}+{}^{100}\mathrm{Mo}\) 采集。式 (4.8) 的实验 DCO 采用 \(157.6^\circ\) 目标、近 \(90^\circ\) 门为分子，交换为分母。式 (4.6) 的抽象 \(W\) 比值按前文函数定义与式 (4.7) 互为倒数。复用分组时采用实际矩阵描述和式 (4.8)。
+- 式 (4.9)–(4.10) 的 \(R_{\rm ac}\) 使用相同全角门，分子和分母分别合并远角组与近直角组，按两组效率归一。§4.2.5 的偏振说明指向 Ref. 96（Starosta 等），未附本次采集的 \(Q(E)\) 或混合比拟合的数值 \(\sigma/I\)。
+- Table 5.1（PDF 88，印刷 p. 87）中 750.7 keV、\(17^+\to16^+\) 行给四极门 \(R_{\rm DCO}=0.46(6)\)，指认为 M1。[[lv-2022-transverse-wobbling-136nd]] 的 751 keV 为同一能级路径的后续分析，给出 \(R_{\rm ac}=0.55(5)\) 与 \(P,\delta\)。按两种矩阵定义各自记录这两个比值。
+- §7.3 的 Fig. 7.4（PDF 144）以 \(^{138}\mathrm{Nd}\) 的 521、729、884、973 keV 延迟门合谱得到 \(T_{1/2}=374(15)\) ns，原文与 NNDC 的 \(370(5)\) ns 比较。论文在这次延迟搜索中未见新的 \(^{135,136}\mathrm{Nd}\) 长寿命异能态。此结果补充焦平面方法，并限定了未观察到的范围。
+- 馆藏 `吕冰峰.pdf` 与 `80424_LV_2019_diffusion.pdf` 均为 164 页，同属 HAL `tel-02347000`。PDF 2–164 的规整文本逐页相同，封面文字编码和链接版本不同，两个原件各自保留哈希，文献学分计一次。
