@@ -107,3 +107,7 @@ The boundary is still critical: this guide gives a typical `σ/I = 0.3` as refer
 ## Personal Notes
 
 This guide is valuable because it records what spectroscopy practitioners treat as normal assignment heuristics. For the current project, the important caution is not a symbol split but scope: its "typical" `σ/I = 0.3` is guide-level practice language, not a universal prior that can simply be imported into every P-ADO fit.
+
+## 2026-11-21 — Assignment heuristics and their scope
+
+The three printed pages iv–vi were verified. Propositions 19–21 use the example magnetic-substate parameter \(\sigma/J=0.3\) to give angular-distribution and DCO heuristics for high-spin assignments. The DCO expectations depend on the stated stretched dipole or quadrupole gate and can overlap other spin paths. The guide neither counts fitting procedures in a defined literature population nor supplies a new measured \(P\) and \(\delta\) pair. Its contributions remain reference guidance.

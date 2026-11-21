@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000700",
+  "active_source": "catalogue:LIT-000707",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -371,9 +371,12 @@
     "LAURITSEN25-TRACKING-COMPLETE-SCIENTIFIC-SCOPE",
     "KRAMER89-DCO-COMPLETE-SCIENTIFIC-SCOPE",
     "DROSTE96-PDCO-COMPLETE-SCIENTIFIC-SCOPE",
-    "STAROSTA99-PDCO-COMPLETE-SCIENTIFIC-SCOPE"
+    "STAROSTA99-PDCO-COMPLETE-SCIENTIFIC-SCOPE",
+    "DIAMOND66-ALIGNMENT-COMPLETE-SCIENTIFIC-SCOPE",
+    "DRAPER70-FEEDING-COMPLETE-SCIENTIFIC-SCOPE",
+    "NDS13-ASSIGNMENT-GUIDE-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 105,
+  "completed_full_sources_this_run": 108,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 997,
@@ -381,14 +384,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T04:55:28.545528+00:00",
+  "updated_at": "2026-11-21T05:01:27.616283+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 8870,
-  "current_source_note": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
-  "next_action": "Read Diamond 1966 nuclear alignment and Draper 1970 stretched-E2 side feeding in the existing local copies.",
+  "completed_primary_pages_this_run": 8890,
+  "current_source_note": "knowledge/sources/summary-2013-bases-spin-parity-assignments.md",
+  "next_action": "Read Purry 1997 doctoral thesis, 112-page local PDF, on 178W high-spin multiparticle and collective structure.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "DCO and PDCO foundational methods: angle conventions, fixed and varied alignment, and transition ambiguity.",
-  "current_source_scientific_acceptance": "Three primary works, 26 publisher pages; separated method linkage, theory and experiments.",
-  "source_scoped_retrieval": "Existing publisher PDFs. No new download."
+  "last_source_manager_closure": "Diamond, Draper and Assignment Summary: alignment model, conditional calibrations, and guide scope.",
+  "current_source_scientific_acceptance": "Three works, 20 publisher pages; reference guidance does not count as original experiment.",
+  "source_scoped_retrieval": "Existing publisher PDFs. No additional download."
 }

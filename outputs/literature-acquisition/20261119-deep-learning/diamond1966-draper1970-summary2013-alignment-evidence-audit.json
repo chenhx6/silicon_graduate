@@ -1,0 +1,71 @@
+{
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000377",
+      "raw_files": [
+        {
+          "path": "raw/papers/1966_Diamond et al_Nuclear Alignment in Heavy-Ion Reactions.pdf",
+          "sha256": "06fb82ecebc0f1da5441caa5fb9272d481f469b1b39f402342ad31c8e55c8614",
+          "size": 183506,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/diamond-1966-nuclear-alignment-heavy-ion-reactions.md",
+      "primary_pdf_pages": 3,
+      "credited_primary_pages": 3,
+      "covered_sections": [
+        "PDF 1–3: alignment mechanism, stretched E2 comparison, 199Tl gate and inference path, references"
+      ],
+      "evidence_gaps": [
+        "Angular constraints narrow the spin assignments. No numerical linear P on the example."
+      ]
+    },
+    {
+      "work_id": "catalogue:LIT-000383",
+      "raw_files": [
+        {
+          "path": "raw/papers/1970_Draper et al_Angular distribution of stretched E2 transitions for Gaussian substate population of side feeding in.pdf",
+          "sha256": "dcccb5f22352e1998896997b13e4c306d80c5ae6dc08f86ad192eca5c36c093f",
+          "size": 567440,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+      "primary_pdf_pages": 14,
+      "credited_primary_pages": 14,
+      "covered_sections": [
+        "PDF 1–7: stretched E2, Gaussian and non-Gaussian population transport, coefficient relation",
+        "PDF 8–14: side-feeding mixture bounds and experimental comparisons"
+      ],
+      "evidence_gaps": [
+        "Side-feeding sigma is defined apart from total substate population. The 184Os trend tests a stated fixed normalized width."
+      ]
+    },
+    {
+      "work_id": "catalogue:LIT-000707",
+      "raw_files": [
+        {
+          "path": "raw/papers/2013_Summary of Bases for Spin and Parity Assignments.pdf",
+          "sha256": "8267f34c2423f5ebfdcd5e4db1aa31e38472f4532392a26bd6e93efc2767c6bb",
+          "size": 84178,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/summary-2013-bases-spin-parity-assignments.md",
+      "primary_pdf_pages": 3,
+      "credited_primary_pages": 3,
+      "covered_sections": [
+        "PDF 1–3: general spin/parity evidence, high-spin calibration heuristics and weak arguments"
+      ],
+      "evidence_gaps": [
+        "The typical sigma/J value is an assignment convention example. The guide does not measure usage or supply new source P and delta."
+      ]
+    }
+  ],
+  "credited_primary_pages": 20,
+  "reader": "Codex with prior full-source records reconciled",
+  "PDM_run": false
+}

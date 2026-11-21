@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — 入口取向、侧馈和高自旋指认指南
+
+- 核对 [[diamond-1966-nuclear-alignment-heavy-ion-reactions]] 三页、[[draper-1970-gaussian-substate-side-feeding]] 十四页及 [[summary-2013-bases-spin-parity-assignments]] 三页。分别落实同母态纯线约束、侧馈与总布居的区别和指南典型值的适用范围。
+- 累计 108 份、8890 页主件。续读 [[purry-1997-phd-w178-multiparticle-structure]] 的 112 页本地学位论文，核对早期 DCO 对 \(^{178}\mathrm{W}\) 的指认后来如何由转换谱与时间证据修订。
+
 ## 2026-11-21 — Krämer-Flecken、Droste 与 Starosta
 
 - 核对 [[kramer-flecken-1989-use-dco-ratios]] 7 页的交换门、低自旋阈值与多解；[[droste-1996-pdco-formalism]] 8 页的固定宽度示例与有限角门；[[starosta-1999-pdco-experimental-test]] 11 页的实测偏振、勘误及对同一条线的固定和可变宽度两种处理。

@@ -120,3 +120,7 @@ All D66 claims were reviewed by the user on 2026-07-13; `needs_review` is cleare
 | D66-D16-3 | 本run的完整CGtrace条件分析给高spin低L保号域，也给低spin/大j/方向门反例；这是Codex模型，不把本文入口几何预期写成Rh99实际u2测量。 | conditional-transfer-design | Codex-exact-model | 本页续核；unobserved-feeding-alignment-sign | true |
 
 新可复用推导见[[unobserved-feeding-alignment-sign]]，同源反应/环境/参考限制继续保留；不重计本文为一次新实验。新知识支持条件分析、限制fusion名称本身的证明力。
+
+## 2026-11-21 — Alignment and the available spin constraints
+
+The three-page publisher article was checked again. In Fig. 2 and its discussion, the authors use the \(^{199}\mathrm{Tl}\) angular distributions to reduce 19 spin sequences to five. Restricting the allowed alignment reduces the set to three probable sequences, with conversion coefficients cited as a route to further discrimination. The paper proposes using a pure transition from the same initial level to constrain alignment before analyzing a mixed transition. It gives a conditional method and measured angular coefficients, with no numerical linear polarization for this example.

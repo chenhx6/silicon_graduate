@@ -117,3 +117,7 @@ User review on 2026-07-08 resolved DR70-3, DR70-6 and DR70-7 wording. Key remind
 Eq8可写`A_side=(A_lower−r A_upper)/(1−r)`，`r=Γ_upper/Γ_lower`；Jacobian为`(1/f,−r/f,(A_lower−A_upper)/f²)`，`f=1−r`，完整误差为`gᵀΣg`。f→0时反演病态，Γ若共享归一/峰/效率必须保Cov。上述168Hf的f只取表中smooth输入及声明截断；不当实际原Γ反演、sigma误差或DSAMfeedingtime测量。
 
 另见[[lifetime-strength-audit-165tm-136nd]]与[[doppler-shift-attenuation-method]]：积分AD对不同feeding路径的时间kernel尚无约束，本日新问题保留，不从当前结果推实际lifetimebias。
+
+## 2026-11-21 — Side-feeding width in the comparison nuclei
+
+Printed pp. 219–223 and Figs. 4–7 compare pure stretched E2 cascades with explicit side feeding. In the \(^{184}\mathrm{Os}\) comparison, the curve with a fixed side-feeding ratio \(\sigma_J/J=0.28\) gives the opposite trend from the measured angular distributions as spin decreases. The \(^{76}\mathrm{Se}\) comparison instead uses \(\sigma_J=1.6+0.1J\) for the side-feeding component. These are model inputs to the feeding recursion, and the observed angular coefficients depend on the inherited cascade as well. They therefore cannot be interpreted as one fixed width for every decaying state's total population.

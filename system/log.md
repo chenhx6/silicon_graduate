@@ -6774,3 +6774,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — DCO 与 PDCO 的固定和可变取向
 
 - 对账三篇共 26 页，核实低自旋角比边界、分组和 Starosta 同一组数据的两种宽度处理。累计 105 份、8870 页主件。
+
+## 2026-11-21 — 入口取向、侧馈与指认指南
+
+- 对账 Diamond、Draper 和 NDS 指南共 20 页，区分原始测量、侧馈模型与指认经验规则。累计 108 份、8890 页主件。
