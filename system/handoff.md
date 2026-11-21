@@ -3,6 +3,12 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — 粒子标签、低温取向与 JUROGAM 3 角组
+
+- 完整核读 [[krien-1970-po215-alpha-gamma-polarization]] 15 页和 [[bauer-deutsch-1960-co55-fe55-polarization]] 14 页。核对 \(^{215}\mathrm{Po}\) 的 \(\delta^2\) 与极化系数归属、\(^{55}\mathrm{Fe}\) 的预测 \(P_L\) 与实测 \(P_LQ_L\)。对账 [[suffert-1959-proton-capture-polarization]] 的 12 页既有覆盖，回核两套角分布对 2.69 MeV 选支的影响。
+- [[zheng-2021-collectivity-shape-119cs-119ba-118cs]] 的 177 页底本与 178 页存档版已对账，矩阵及附录定位已核。Gemini 的 PDF 61–68 方法单元超时，本批用 Codex 原件核查。论文保留部分已核，整源页数暂未计入进度。
+- 累计 132 份、9361 页主件。续核郑宽宽论文三核结果章和原表的 \(\delta\) 符号与幅度约定，特别是 \(^{119}\mathrm{Ba}\) Table 6.2，保留实验与理论证据谱系。
+
 ## 2026-11-21 — 以实测角分布约束 \(^{177}\mathrm{Ta}\) 混合比
 
 - [[aoki-1982-ta177-ge-polarimetry]] 9 页完成深读。原文图 6–8 及式 (14)–(16) 给出极化调制 \(B\)、角分布产品 \(\rho_kA_k\) 与 \(H_2\) 的反演关系。311 keV 的最终分支需要内转换约束。已补入 [[sigma-over-i-uncertainty-in-pado-mixing-ratio-extraction]]。

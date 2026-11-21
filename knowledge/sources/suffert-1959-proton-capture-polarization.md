@@ -36,6 +36,8 @@ tags: [polarization, proton-capture, historical-method, mixing-ratio]
 
 ## Scope and Reading Depth
 
+- 2026-11-21 馆藏覆盖对账为 12 页。回核印刷 pp.667–669 的 Table I 与 Runs 1–5。\(^{25}\mathrm{Al}\) 的 2.69 MeV 射线采用 Litherland 等的角分布时偏好小混合根。换用 Varma–Jack 的 \(P_2\) 系数 \(-0.75\pm0.04\)，两个原文候选 \(x=0.72,2.3\) 对应 \(P=0.00,0.19\)，本次测得的 \(P=0.11\pm0.14\) 无法选支。同论文的 2.24 MeV 线在第二套角分布条件下仍有不同的约束。两套角分布各自对应分支，沿用原文 \(x\) 和轴约定。
+
 - The 12-page article was read end-to-end, including Eqs.(1–9), Figs.1–4, Table I, corrections, discussion of all eight lines and references. The scan's page order was checked; no unrelated neighboring article is included in this source page.
 
 ## Experimental Design

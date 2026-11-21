@@ -1,0 +1,144 @@
+{
+  "works": [
+    {
+      "work_id": "doi:10.1016/0375-9474(70)90226-5",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_70_90226-5.pdf",
+          "sha256": "fda36276c000052e8a18a73856a8090aaf7e99598c400718a34591e938a72a8a",
+          "size": 1002999,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/krien-1970-po215-alpha-gamma-polarization.md",
+      "primary_pdf_pages": 15,
+      "credited_primary_pages": 15,
+      "state": "scientific-reading-covered",
+      "covered_sections": [
+        "PDF 1–6: alpha tag, gamma polarimeter, direction correlations and conversion",
+        "PDF 7–15: spin bands, signed hypotheses, E2 fraction, competing structure models and references"
+      ],
+      "evidence_gaps": [
+        "Conversion magnitude and polarization line identities differ; Gaussian in-beam width inapplicable."
+      ]
+    },
+    {
+      "work_id": "doi:10.1016/s0029-5582(60)81036-x",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_s0029-5582_60_81036-x.pdf",
+          "sha256": "519526d0894f249bd2a6f9317ef6b8ea753ddbc529dad0edd228ff57493e508f",
+          "size": 750926,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/bauer-deutsch-1960-co55-fe55-polarization.md",
+      "primary_pdf_pages": 14,
+      "credited_primary_pages": 14,
+      "state": "scientific-reading-covered",
+      "covered_sections": [
+        "PDF 1–9: decay-scheme hypotheses, cryogenic orientation, polarimeter and methods",
+        "PDF 10–14: Tables 1–2, alternative roots, calibration, Fig. 10 and final values"
+      ],
+      "evidence_gaps": [
+        "Table P_L predictions differ from measured P_L Q_L. The 475 keV admixture is unresolved."
+      ]
+    },
+    {
+      "work_id": "doi:10.1016/s0031-8914(59)96977-0",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1959_Suffert et al_Polarization measurements of proton capture gamma rays.pdf",
+          "sha256": "ea2742bd196d30497fc919839fb249dfd7e50a88411411831d981604b2016669",
+          "size": 630537,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+      "primary_pdf_pages": 12,
+      "credited_primary_pages": 12,
+      "state": "scientific-reading-covered",
+      "covered_sections": [
+        "PDF 1–12: prior original end-to-end reading and detailed response audit",
+        "Printed pp.667–669: renewed verification of Table I and alternative angular input sets"
+      ],
+      "evidence_gaps": [
+        "The 2.69 MeV branch selection depends on the angular-distribution source; high-energy response remains uncertain."
+      ]
+    },
+    {
+      "work_id": "doi:10.70675/6a461bfczc0cbz4fcczbbb7z535fd463d57a",
+      "raw_files": [
+        {
+          "path": "raw/theses/degree-dissertation/郑宽宽.pdf",
+          "sha256": "72a90d742c6fc7ed0872f072bffeba0ab0d342d7c5bfd43e478feb8953365afe",
+          "size": 5172840,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        },
+        {
+          "path": "raw/theses/gpt/query/20261119-international-nuclear-structure/105017_ZHENG_2021_archivage.pdf",
+          "sha256": "986a997b0b5bf462c009aef66e9557d3d6ab2fab5eca426d54b8b901ce485503",
+          "size": 5825451,
+          "hash_basis": "fresh-hash",
+          "source_role": "same-work-institutional-cover-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/zheng-2021-collectivity-shape-119cs-119ba-118cs.md",
+      "primary_pdf_pages": 177,
+      "credited_primary_pages": 0,
+      "state": "partial-evidence-verified",
+      "covered_sections": [
+        "PDF 1: bibliographic identity",
+        "PDF 61–68: methods including angular matrices, calibration, polarization observables",
+        "PDF 120–121: targeted 119Ba transitions and table notes",
+        "PDF 149–177: Appendix A–B, lists, bibliography and abstracts"
+      ],
+      "evidence_gaps": [
+        "Original Table 6.2 labels delta(M1/E2); Eq. (2.60) motivates an E2/M1 reading in its separate context. Keep the table convention open.",
+        "Targeted result-table checks; full scientific coverage needs reconciliation across Chapters 1–8."
+      ]
+    }
+  ],
+  "reader": "Codex, with earlier source coverage for Suffert reconciled",
+  "newly_read_closed_source_pages": 29,
+  "reconciled_prior_coverage_pages": 12,
+  "credited_primary_pages": 41,
+  "gemini_attempt": {
+    "task_id": "ZHENG21-JUROGAM3-METHOD-61-68",
+    "requested_model": "agy-cli/gemini-3.8-flash",
+    "requested_effort": "high",
+    "attempted_at": "2026-11-21T06:35:36.254754+00:00",
+    "accepted_findings": 0,
+    "source_sha256": "72a90d742c6fc7ed0872f072bffeba0ab0d342d7c5bfd43e478feb8953365afe",
+    "provided_page_ids": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ],
+    "visual_page_ids": [
+      63,
+      64,
+      65,
+      66,
+      67
+    ],
+    "status": "call-or-parse-failed",
+    "error_type": "TimeoutError",
+    "elapsed_seconds": 100.1
+  },
+  "zheng_version_match": {
+    "institutional_extra_cover": 1,
+    "normalized_nonempty_body_pages_matching_at_shift_plus_one": 175,
+    "blank_pairs_rendered": 2
+  },
+  "PDM_run": false
+}
