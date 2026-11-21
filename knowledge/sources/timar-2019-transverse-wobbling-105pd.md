@@ -73,6 +73,14 @@ The paper reports experimental evidence for transverse wobbling in bands A/B of 
 | TI19-6 | PRM uses a `0.36` quenching of `g_eff` to address known M1 overestimation and reproduce `δ`. | model-result | direct | PDF p.5 | true |
 | TI19-7 | Authors conclude first one-neutron transverse-wobbling evidence and first A≈100 wobbling observation. | author-interpretation | indirect | PDF p.5, Summary | true |
 
+## 选支与定标的原文对照
+
+PDF 2 说明 DCO 使用拉伸 E2 门，作者以 1100-keV E2 和 1331-keV E1 参照跃迁拟合不完全取向的衰减系数，再在 442-keV 支路得到 \(\delta=-0.37(8)\)，与所引 \(-0.33(13)\) 相容。此例的处置口径是参照跃迁拟合衰减系数。主文的方法段给出了这些参照线与纯多极假设。
+
+PDF 3 Fig. 2 和 PDF 5 Table I 给 Band B 到 A 的 991、1034、994 keV 三条连接。两条线的 DCO 小解 \(+0.59(20),+0.40(6)\) 仍属本次角量允许范围，作者以本实验的线偏振选择大解 \(+1.8(5),+2.3(3)\)。第三条作者给 \(+2.7(6)\)。与 Band C 的 1158/1159-keV 合并偏振 \(P=-0.6(3)\) 分开使用，后者只约束未分辨的和，附近的 1152-keV 强线妨碍 \(R_{\mathrm{DCO}}\) 提取。旧角分布 Ref. [29] 的数值保留独立来源标签，原刊 PDF 在本轮 APS 两个入口均未取得。
+
+PRM 的 \(g_{\rm eff}\) 缩放至 0.36 用于定标 1034-keV 行的 \(\delta\)，刊版 Table I 脚注标明这一点。另两条线及共同导出的 \(B(M1)_{\rm out}/B(E2)_{\rm in}\)、\(B(E2)_{\rm out}/B(E2)_{\rm in}\) 应保留这一输入依赖。与 [[nomura-2022-questioning-wobbling-ibfm]] Table II 比较时，两篇理论使用的 \(^{105}\mathrm{Pd}\) 实验大解均来自本实验。
+
 ## Nuclear Structure Information
 
 Bands A/B are the primary νh11/2 zero-/one-phonon candidates; band C is less well reproduced. The interpretation is explicitly bounded to I≤29/2 before the reported configuration change.

@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.1103/physrevlett.122.062501",
+  "active_source": "catalogue:LIT-000491",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -439,9 +439,10 @@
     "ROJEETA21-BA133-PUBLISHER-RESPONSE-AUDIT",
     "CHAKRABORTY20-XE127-PUBLISHER-AND-SI-RECONCILED",
     "NOMURA22-IBFM-FOUR-PUBLISHER-CASES-RECONCILED",
-    "URBAN85-XE127-DIRECT-POLARIZATION-AND-ORIENTATION"
+    "URBAN85-XE127-DIRECT-POLARIZATION-AND-ORIENTATION",
+    "TIMAR19-PD105-PUBLISHER-P-AND-DCO-CONDITIONS"
   ],
-  "completed_full_sources_this_run": 156,
+  "completed_full_sources_this_run": 157,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1001,
@@ -449,14 +450,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T11:37:33.848257+00:00",
+  "updated_at": "2026-11-21T11:46:38.509642+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10298,
-  "current_source_note": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
-  "next_action": "Read Timar et al. 2019 105Pd publisher evidence and compare its experimental inputs, gate information and adopted model branches to the IBFM alternative.",
+  "completed_primary_pages_this_run": 10304,
+  "current_source_note": "knowledge/sources/karmakar-2025-doublet-wobbling-105pd.md",
+  "next_action": "Reconcile Karmakar 2025 local 105Pd article and separate its additional topology, response and model constraints from earlier literature.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Urban 1985 127Xe original, conditional 483-keV branches and reference E2 calibration.",
-  "current_source_scientific_acceptance": "Urban 1985 original 9 pages, independent older acquisition, with compound line P and independently calibrated orientation.",
-  "source_scoped_retrieval": "Publisher SI for Chakraborty and Urban 1985 exact cited paper acquired. No broad search. Nomura used the local original."
+  "last_source_manager_closure": "Timar 2019 publisher original and prior detailed reading reconciled; alignment calibration, branches, lower-precision band C and PRM calibration point.",
+  "current_source_scientific_acceptance": "One six-page article, independent EUROBALL acquisition. Rickey prior paper remains a citation-level reference.",
+  "source_scoped_retrieval": "Local publisher original reused. Specific Rickey APS fulltext access 403/401, no original saved."
 }

@@ -1,0 +1,29 @@
+{
+  "work_id": "doi:10.1103/physrevlett.122.062501",
+  "status": "scientific-reading-covered",
+  "recorded_at": "2026-11-21T11:46:38.509642+00:00",
+  "reader": "Codex using original and prior scoped reading. Gemini route previously denied account access.",
+  "source_note": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+  "raw": {
+    "path": "raw/papers/2019_Timár et al_Experimental Evidence for Transverse Wobbling in Pd 105.pdf",
+    "sha256": "3948cf32712a400aa8df0aee489ebebd89df7480508bddc60156a359ed322909",
+    "size": 381248,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "credited_primary_pages": 6,
+  "coverage": [
+    "APS PDF 1–2: acquisition, level scheme, angular gate and alignment references.",
+    "APS PDF 3–5: Figure 2 branch evidence, band C summed polarization, CDFT and PRM equations and Table I.",
+    "APS PDF 5–6: conclusions, bounded band assignments and provenance."
+  ],
+  "visually_rechecked": [
+    3
+  ],
+  "evidence_boundary": [
+    "Rickey 1977 independent angular distribution source not locally present. APS routes returned 403/401.",
+    "Band C 1158/1159 polarization is a shared unresolved observable; no DCO for the sum.",
+    "PRM effective g scaling calibrated to the 1034-keV row."
+  ],
+  "next_action": "Reconcile Karmakar 2025 local 105Pd article and separate its additional topology, response and model constraints from earlier literature."
+}

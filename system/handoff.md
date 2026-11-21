@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Timár 2019 \(^{105}\mathrm{Pd}\) 刊版与定标
+
+- [[timar-2019-transverse-wobbling-105pd]] 核对六页刊版。区分参照线拟合的取向衰减、DCO 大小解、本实验偏振选支和 PRM 的 1034-keV 定标点。Rickey 早期原刊两个 APS 访问入口返回 403／401。
+- 累计 157 份、10304 个主件 PDF 页。接续 [[karmakar-2025-doublet-wobbling-105pd]]。
+
 ## 2026-11-21 — Urban 1985 \(^{127}\mathrm{Xe}\) 的早期观测
 
 - [[urban-1985-xe127-angular-polarization]] 留档并核读九页刊版。483.3／483.4 keV 双线共享偏振原值，483.4 keV 的两支 \(\delta\) 依赖双线分量假设。磁子态布居参数由拉伸 E2 角分布预先确定。

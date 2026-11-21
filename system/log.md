@@ -6902,3 +6902,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — \(^{127}\mathrm{Xe}\) 早期角分布与偏振原件
 
 - 留档 Urban 1985 九页刊版，补核 483-keV 双线和由参照 E2 确定的取向参数。累计 156 份、10298 个主件 PDF 页。
+
+## 2026-11-21 — \(^{105}\mathrm{Pd}\) 的 DCO 与偏振选支
+
+- 核对 Timár 刊版及参照衰减、合并偏振和模型定标点。累计 157 份、10304 个主件 PDF 页。
