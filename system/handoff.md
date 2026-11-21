@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — \(^{74}\mathrm{As}\) 的 ADO 与偏振定标
+
+- [[xiao-2022-chirality-octupole-correlations-74as]] 核定 9 页刊版。保留 \(A_p\) 的符号定标和 \(\Delta I=0\) 条件，三个 Band 3→1 E1 独立于低能 372.4 keV 连接。
+- 累计核定 214 份、11206 个主件 PDF 页。接续 Xiao 的 \(^{74}\mathrm{As}\) 学位论文版本。
+
 ## 2026-11-22 — \(^{78}\mathrm{Br}\) 的八极耦合计算
 
 - [[wang-2019-rat-prm-78br-octupole-correlations]] 核定 17 页作者版，记录 \(E1/E2\) 两组 \(\gamma\) 输入、能带分离的残差与同批实验输入。

@@ -7074,3 +7074,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — 78Br RAT-PRM 的能隙与 E1 图
 
 - 核定 17 页作者版，保留能带残差和 E1 两组输入。累计 213 份、11197 个主件 PDF 页。
+
+## 2026-11-22 — 74As 的 ADO 与偏振符号
+
+- 核定 Xiao 2022 的 9 页刊版，记录角比和不对称度对应的跃迁条件。累计 214 份、11206 个主件 PDF 页。

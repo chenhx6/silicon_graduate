@@ -66,6 +66,8 @@ The experiment asks whether a new positive-parity side band in `74As` forms a ch
 
 ## Summary
 
+On 064302-4 the polarization column is \(A_p\), the measured scattering asymmetry. The paper's calibration groups positive sign with stretched electric or \(\Delta I=0\) magnetic transitions and negative sign with stretched magnetic transitions. The ADO value around 1.2 also applies to stretched quadrupoles or \(\Delta I=0\) dipoles. This makes the spin-change and coincidence placement part of the assignment. Preserve \(A_p\) as printed when citing the E1 links.
+
 The experiment identifies two positive-parity and one negative-parity `ΔI=1` bands in `74As`. Band 2 is established and linked to Band 1 by four `M1/E2` plus one E2 transition, supporting a common `πg9/2⊗νg9/2` assignment. Their separation stays near `400 keV`; `S(I)` values and branching-derived `B(M1)/B(E2)` are similar, and a fitted TPRM reproduces these trends. The model gives an aplanar total angular momentum but a nonideal geometry because the neutron angular momentum is spread across all three axes. Three E1 transitions connect negative-parity Band 3 to Band 1; their relative `B(E1)/B(E2)` and `δE` resemble `78Br` and differ strongly from stable-octupole `224Th`, supporting octupole correlations rather than stable deformation. Band 3's `π(f5/2/p3/2)⊗νg9/2` assignment is tentative.
 
 ## Thesis–Journal Crosswalk

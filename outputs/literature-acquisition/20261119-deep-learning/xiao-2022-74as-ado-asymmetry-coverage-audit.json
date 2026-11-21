@@ -1,0 +1,26 @@
+{
+  "work_id": "catalogue:LIT-000766",
+  "recorded_at": "2026-11-21T17:56:49.295406+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md",
+  "raw": {
+    "path": "raw/papers/2022_Xiao et al_Chirality and octupole correlations in As 74.pdf",
+    "sha256": "0b14112f23529b71930f546a8a9929313e940a9c7fed27ff25a0d1d4687e5c74",
+    "size": 876916,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "credited_primary_pages": 9,
+  "coverage": [
+    "064302-1–4: reaction, angular and polarization conditions, Table I and level scheme.",
+    "064302-4–7: gated separation of close lines, spin adjustment, model comparison and E1 discussion.",
+    "064302-8–9: references and underlying provenance."
+  ],
+  "reader": "Prior full publisher read and original-passage checks by Codex for ADO, polarization and spin-change calibration.",
+  "evidence_boundary": [
+    "The measured quantity is polarization asymmetry Ap. Its sign and the ADO ratio are calibrated for defined spin changes.",
+    "The 372.4-keV cross-parity transition is distinct from the three Band 3 to Band 1 E1 links.",
+    "Octupole and chiral assignments combine empirical evidence and model comparison. The paper supplies no fresh absolute lifetime calibration."
+  ],
+  "next_action": "Reconcile the Xiao 2019 thesis for 74As with the 2022 journal record, assigning shared experimental acquisition and thesis-only evidence."
+}
