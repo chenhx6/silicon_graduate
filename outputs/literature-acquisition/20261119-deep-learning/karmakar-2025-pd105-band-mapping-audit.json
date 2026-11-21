@@ -1,0 +1,27 @@
+{
+  "work_id": "catalogue:LIT-000491",
+  "status": "scientific-reading-covered",
+  "recorded_at": "2026-11-21T11:56:44.772131+00:00",
+  "raw": {
+    "path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/46gk-nqsh.pdf",
+    "sha256": "12f37107ee755ff38ed1351d6044c6b90b08433e4a2834357afaac32ce773610",
+    "size": 1281244,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "source_note": "knowledge/sources/karmakar-2025-doublet-wobbling-105pd.md",
+  "credited_primary_pages": 14,
+  "reader": "Codex, publisher text with Table II original image.",
+  "coverage": [
+    "APS PDF 1–4: reaction, geometry, selection, alignment and Table I.",
+    "APS PDF 5–7: Fig. 5, competing delta branches, Table II.",
+    "APS PDF 8–14: TPSM comparison, Appendix A axis and Appendix B missing branch estimate, references."
+  ],
+  "visual_page": 7,
+  "evidence_boundaries": [
+    "253.6/299.6-keV DCO branch chosen using the inferred E2 ratio, with no polarization determination.",
+    "The direct Band 2→4 links remain unobserved. Configuration and js projection are TPSM results."
+  ],
+  "superseded_legacy": "Previous source and synthesis misidentified E2-enhanced link families and Timar Band C assignment.",
+  "next_action": "Reconcile Kruzsicz 105Pd archive identity and scope, then compare its independent or reused acquisition and level scheme against both 105Pd publications."
+}

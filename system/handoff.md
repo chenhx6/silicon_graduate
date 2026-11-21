@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Karmakar 2025 \(^{105}\mathrm{Pd}\) 的跨带对应
+
+- [[karmakar-2025-doublet-wobbling-105pd]] 核对 14 页 APS 刊版。订正 Band 3→1、Band 4→2 的 E2 增强与 Band 4↔3 的 M1 主导支路。在 [[pd105-doublet-wobbling-vs-two-phonon-inapplicability]] 标明旧带号及旧结论的失效范围。
+- 累计 158 份、10318 个主件 PDF 页。接续 [[campaign-g06-kruzsicz-2025-105pd]]，优先核对实际版本和采集关系。
+
 ## 2026-11-21 — Timár 2019 \(^{105}\mathrm{Pd}\) 刊版与定标
 
 - [[timar-2019-transverse-wobbling-105pd]] 核对六页刊版。区分参照线拟合的取向衰减、DCO 大小解、本实验偏振选支和 PRM 的 1034-keV 定标点。Rickey 早期原刊两个 APS 访问入口返回 403／401。

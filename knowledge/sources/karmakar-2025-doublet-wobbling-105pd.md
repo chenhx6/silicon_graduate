@@ -3,7 +3,7 @@ type: source
 title: "Karmakar et al. 2025 - Evidence of a doublet wobbling excitation mode in 105Pd"
 aliases: [Karmakar 2025 105Pd doublet wobbling, doublet wobbling 105Pd, KAR25]
 created: 2026-10-30
-updated: 2026-10-30
+updated: 2026-11-21
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -20,6 +20,7 @@ canonical_source: "https://doi.org/10.1103/46gk-nqsh"
 citation_key: karmakar2025doublet105pd
 raw_file: "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/46gk-nqsh.pdf"
 raw_sha256: 12f37107ee755ff38ed1351d6044c6b90b08433e4a2834357afaac32ce773610
+archive_required: true
 arxiv: "2403.08235"
 nuclei: [105pd]
 reactions: ["96Zr(13C,4n)105Pd @ 63 MeV"]
@@ -30,55 +31,34 @@ methods: [dco-ratio, linear-polarization, gamma-gamma-coincidence, tpsm-diagonal
 tags: [experiment-ingest, doublet-wobbling, transverse-wobbling, one-neutron, tpsm, A100, 105Pd, Day27]
 ---
 
-# Evidence of a doublet wobbling excitation mode in `105Pd`
+# Evidence of a doublet wobbling excitation mode in 105Pd
 
 ## Bibliographic Record
 
-PRC 112, 034323 (2025), DOI `10.1103/46gk-nqsh`; arXiv:2403.08235v2.
+*Phys. Rev. C* **112**, 034323 (2025)，DOI `10.1103/46gk-nqsh`。阅读底本为 APS 刊版。
 
 ## Scope and Reading Depth
 
-- Completed reading_depth: `deep-read`
-- Covered scope: High-statistics Indian National Gamma Array (INGA) at TIFR measurement of $^{105}\text{Pd}$ via $^{96}\text{Zr}(^{13}\text{C},4n)$ at 63 MeV; Directional Correlation from Oriented states (DCO) and polarization asymmetry measurements; extraction of multipole mixing ratios $\delta(E2/M1)$; Triaxial Projected Shell Model (TPSM) calculations with full configuration space; resolution of the two-phonon vs doublet one-phonon controversy.
-- Not covered: Lifetimes directly measured via DSAM (uses extracted branching and mixing ratios relative to intra-band transitions).
-- Coverage caveats: Clarifies that band 3 (previously labelled band C in Timar 2019) is not an $n_w=2$ two-phonon wobbler, but rather a doublet one-phonon ($n_w=1$) wobbling excitation built on an excited quasineutron state with $j_s=7/2$ instead of $j_s=11/2$.
-
-## Key Findings and Claims
-
-| Claim ID | Claim Summary | Evidence Type | Direct/Derived | Locator | Review Flag |
-|---|---|---|---|---|---|
-| KAR25-1 | INGA-TIFR 实验测定 $^{105}\text{Pd}$ 包含四个负宇称带：Band 1（yrast，$\alpha=-1/2$），Band 2（$\alpha=+1/2$），Band 3（$\alpha=-1/2$）与 Band 4（$\alpha=+1/2$），跨带跃迁均展现出强烈的 E2 混合比 $|\delta| > 1.5$ 与正偏振度。 | experimental-result | direct | Sec. III, Table I | false |
-| KAR25-2 | Band 2 向 Band 1 的跃迁展现出随自旋下降的摆动能量 $E_{\text{wob}}(I) = 750 \to 450\text{ keV}$ 与增强的带间 $B(E2)/B(E2)_{\text{in}} \approx 0.40 - 0.70$；作者据此将其解释为基于基态构型（$j_s=11/2$）的一声子横向摆动模式 Mode 1。 | experimental-result | direct | Sec. IV, Fig. 5 | false |
-| KAR25-3 | Band 4 向 Band 3 展现带间跃迁阶梯和相近的跃迁比；作者将其解释为基于第二准中子取向构型（$j_s=7/2$）的另一一声子横向摆动分支 Mode 2。 | experimental-result | direct | Sec. IV, Fig. 6 | false |
-| KAR25-4 | TPSM 波函数投影给出 Band 3 的短轴角动量投影接近 $j_s \approx 7/2$，并使作者的 doublet-wobbling assignment 相比 `n_w=2` 解释更有利；这是模型支持，不是独立几何测量。 | model-result | direct | Sec. V, Fig. 8, Table II | false |
-| KAR25-5 | 作者用 DCO、偏振和相对强度讨论小 `|δ|` 解、IBFM M1 主导解释与 TiP 假说；这些结果限制了竞争解释，但没有在缺少绝对寿命/完整响应协方差时完全排除所有替代机制。 | author-interpretation | direct | Sec. VI, Discussion | false |
-
-## Cross-Mass-Region Transferability Significance
-
-1. **A≈100 对决 A≈130/160 的模型机制差异**：作者在 $^{105}\text{Pd}$ 的三轴软度和准中子取向框架中提出两个平行 `n_w=1` 分支；这提供可检验的配置机制比较，不能单独作为跨质量区模式定律。
-2. **实验判据的谨慎使用**：本文支持在没有完整多声子阶梯、绝对寿命和共同 response/covariance 时，不应仅凭能量接近 `2ℏω_w` 就把伴带定性为两声子态。
+已核对刊版 14 页，包括实验、模型与附录 A/B。Tables I–II 及其关联门和读图条件按原刊追溯。
 
 ## Summary
 
-本页摘要以现有书目、原有正文和已有 claim 表为准；本次补齐结构，不新增来源事实。
+本篇报道与 [[timar-2019-transverse-wobbling-105pd]] 不同的 TIFR INGA 采集。两文的 991、1034、994 keV 连接分别标为 Karmakar 的 Band 3→1 和 Timár 的 B→A。2025 年增加 Band 4→2 的两条低能连接，并用 TPSM 提出两组一声子摆动候选。带号以各文的能级与跃迁对应为准。
 
 ## Key Results
 
-
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| KAR25-1 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | \delta | source-reported | experimental-result | direct |
-| KAR25-2 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | experimental-result | source-reported | Sec. IV, Fig. 5 | false |
-| KAR25-3 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | experimental-result | source-reported | Sec. IV, Fig. 6 | false |
-| KAR25-4 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. V, Fig. 8, Table II | false |
-| KAR25-5 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | δ | source-reported | author-interpretation | direct |
-
-原页面既有的直接报告、作者解释和模型结果保持原文分层；缺失 locator 或原件的项目仍保持相应证据边界。
+| KAR25-1 | 数据来自 63 MeV 的 \(^{96}\mathrm{Zr}(^{13}\mathrm C,4n)\) 反应。作者用 1100-keV E2 和 1331-keV E1 的 \(R_{\rm DCO}\) 定出 \(\sigma/J=0.31(3)\)，按 40°/90° 与 157°/90° 两套矩阵计算不同响应。 | method-result | direct | PDF 2–4, Sec. II, Table I | false |
+| KAR25-2 | 991.1、1033.8、993.8 keV 属 Band 3→1，Table II 给大正 \(\delta=1.9^{+0.4}_{-0.5}, 2.2^{+0.5}_{-0.4}, 2.4^{+0.8}_{-0.5}\)，以及 \(B(E2)_{\rm out}/B(E2)_{\rm in}=0.49(15),0.39(10),0.57(17)\)。Fig. 5 的偏振误差较大，作者结合 DCO 与偏振曲线判断。 | experimental-analysis | direct | PDF 4–7, Fig. 5, Table II | false |
+| KAR25-3 | Band 4→2 的 253.6、299.6 keV 相同中心 \(\delta\simeq 0.3\)，表给 E2 相对强度比 \(1.23(75),1.45(98)\)。没有相应的实测偏振。低能跃迁可在小 E2 份额下仍给较大的相对 \(B(E2)\)。 | experimental-analysis | direct | PDF 6–7, Table II, PDF 12 Summary | false |
+| KAR25-4 | Band 4↔3 的 \(\Delta I=1\) 支路以 M1 为主。作者把 Band 4 解释为短轴投影约 \(7/2\) 的另一准中子构型，并将 Band 2 解释为其一声子摆动；Band 3 则配对 Band 1。 | author-interpretation | direct | PDF 7 Table II and discussion, PDF 12 Summary | false |
+| KAR25-5 | TPSM 用 \(\epsilon=0.26,\epsilon'=0.11\)，附录 A 用等效扇区重排量子化轴。附录 B 根据计算强度估计未见的 Band 2→4 连接。 | model-result | direct | PDF 7, Eqs. (1)–(3); PDF 12–13, Appendices A/B and Table III | false |
 
 ## Competing Interpretations and Limitations
 
-竞争解释、来源依赖、原件访问和必要伴随观测缺口按原页面记录；不得把模型结果或评价字段升级为直接实验事实。
+Band 4→2 两条线的大小解来自 DCO 曲线。作者以大解导致异常大的相对 E2 强度为由选用较小分支，这一处没有独立偏振裁决。两条比值也共享已选混合支和同母态带内参照。Band 2→4 的未观测支路及 Band 4→2 的绝对偏振仍限制第二组结构的实验判定。关于双组一声子和双声子的区分，应把跨带支路、相对 E2 强度和模型的短轴投影分别追溯。
 
 ## Extracted Pages
 
-本页当前只保留已有 locator；未取得的原始页码、图表或附件不补写，后续摄入必须记录实际阅读范围。
+PDF 1–4 核对文献身份、装置、门和 Table I；PDF 5–7 核对 Fig. 5、Table II、TPSM 输入；PDF 8–12 核对带对应、模型分解和结论；PDF 12–14 核对附录、未见支路估计及引文。

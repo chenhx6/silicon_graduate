@@ -16,6 +16,8 @@ tags: [transverse-wobbling, doublet-wobbling, two-phonon-wobbling, TPSM, 105Pd, 
 
 ## Research Trigger
 
+2026-11-21 原刊对账更新。Timár 2019 把 C 列作 A 的 signature partner 候选，并保留合并偏振对应的大小 \(\delta\) 可能。Karmakar 2025 用自己的带号，E2 增强连接为 Band 3→1 与 Band 4→2，Band 4↔3 主要为 M1。作者将 Band 4 归为另一准中子构型，Band 2 为其一声子摆动候选。下文旧运行中的带号、两声子归因和据此得到的排他结论作为历史记录，结论应回查 [[timar-2019-transverse-wobbling-105pd]] 与 [[karmakar-2025-doublet-wobbling-105pd]] 的原页。
+
 在偶中子奇质子核 $^{163}\text{Lu}$（A≈160，TSD）中，超大四极形变（$\beta_2 \approx 0.40$）与深稳定的三轴极小（$\gamma \approx 20^\circ$）孕育了理想的声子阶梯，成功观测到 $n_w = 1$ 与 $n_w = 2$ 两声子横向摆动带，其激发能量展现出几乎严格的倍频谐振子关系（$E(n_w=2) \approx 2\hbar\omega_w$），且带间 $B(E2; n_w=2 \to n_w=1)$ 相对一声子展现出约两倍的玻色子增强。
 
 然而，在 A≈100 质量区（中等形变 $\beta_2 \approx 0.23, \gamma \approx 23^\circ$）的奇中子核 $^{105}\text{Pd}$ 中：

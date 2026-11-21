@@ -6906,3 +6906,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — \(^{105}\mathrm{Pd}\) 的 DCO 与偏振选支
 
 - 核对 Timár 刊版及参照衰减、合并偏振和模型定标点。累计 157 份、10304 个主件 PDF 页。
+
+## 2026-11-21 — \(^{105}\mathrm{Pd}\) 双组摆动候选的带号对账
+
+- 核对 Karmakar 14 页刊版，订正实验连接与 TPSM 对应关系，保留弱线缺失偏振的限制。累计 158 份、10318 个主件 PDF 页。
