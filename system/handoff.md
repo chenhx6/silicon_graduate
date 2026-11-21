@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — ⁸⁰Se 的联合量与强度上下限
+
+- [[biswas-2026-o6-like-80se-polarization-mixing]] 对账 7 页。核实 Table 1 六条同时给 \(P,\delta\) 的跃迁，保留有 \(\delta\) 但 \(P\) 空白的行。记录 1873.4 keV 态的 DSAM 寿命下界和强度上界，并区分 IBA 量子数与取向宽度。
+- 累计 96 份、8757 页主件。续读 [[zobel-1980-magnetic-substate-distributions]]，核对以硒、锶数据检验取向模型的原始适用条件。
+
 ## 2026-11-21 — ⁷²Se 的参考线取向与联合混合比
 
 - [[mukherjee-2022-shape-coexistence-octupole-72se]] 对账 14 页原刊。核实 E1 参考线先定 \(\sigma/j=0.3\)，454.5 keV 联合 \(R_{\rm DCO}\)–\(P\) 分析给 \(\delta=-5(3)\)。在来源页保存原表 \(\Delta\)、图示 \(P\)、由 \(Q(E)\) 换算的中心值及各自定位。

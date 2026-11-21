@@ -1,0 +1,31 @@
+{
+  "work_id": "doi:10.1016/j.physletb.2026.140929",
+  "raw_files": [
+    {
+      "path": "raw/papers/gpt/query/20261119-pdm-delta-broad/10.1016_j.physletb.2026.140929.pdf",
+      "sha256": "d37905aa9cf3e51026d9ffe3f4d02b76c8df50bd73af48de74bce0d1f9595cd5",
+      "size": 1673112,
+      "hash_basis": "fresh-hash",
+      "source_role": "original-or-verified-edition"
+    }
+  ],
+  "source_note": "knowledge/sources/biswas-2026-o6-like-80se-polarization-mixing.md",
+  "primary_pdf_pages": 7,
+  "credited_primary_pages": 7,
+  "covered_sections": [
+    "PDF 1–2: O(6) motivation and partial level scheme",
+    "PDF 3–4: INGA acquisition, Fig. 2 and Table 1 joined data, branch provenance and limits",
+    "PDF 5–7: DSAM fits and bounds, IBA normalized strengths, comparison limits and bibliography"
+  ],
+  "visual_checks": [
+    4
+  ],
+  "evidence_gaps": [
+    "Six rows report both measured linear P and delta. Other delta rows with blank P retain missing inputs.",
+    "Numerical alignment width not reported; do not equate with IBA sigma.",
+    "Structure interpretation covers selected O(6)-like sequences. Model-normalized strengths and experimental bounds retain their stated roles."
+  ],
+  "reader": "Codex, with prior targeted result cross-checked against original",
+  "PDM_run": false,
+  "source_archive_manifest": "raw/papers/gpt/query/20261119-pdm-delta-broad/manifest-biswas-2026-80se-verified.json"
+}

@@ -11,7 +11,7 @@ created: 2026-11-19
 updated: 2026-11-19
 status: active
 source_type: journal-article
-reading_depth: skimmed
+reading_depth: deep-read
 raw_file: "raw/papers/gpt/query/20261119-pdm-delta-broad/10.1016_j.physletb.2026.140929.pdf"
 raw_sha256: d37905aa9cf3e51026d9ffe3f4d02b76c8df50bd73af48de74bce0d1f9595cd5
 archive_required: true
@@ -22,7 +22,7 @@ doi: 10.1016/j.physletb.2026.140929
 
 ## Covered scope
 
-Publisher PDF identity, experimental/angular-polarization method, Fig.2 and Table 1 (pp.3–4), with numerical cross-checks of the six table rows containing both measured P and E2/M1 δ. Not a full assessment of the O(6) interpretation.
+Publisher PDF 1–7, including the experiment, level scheme, angular and polarization observables, DSAM fits, IBA interpretation and references. The original six-row \(P,\delta\) audit was checked against Table 1.
 
 ## Directly Reported Evidence
 
@@ -46,7 +46,7 @@ Emergence of O(6)-like collective structures in 80Se. DOI:10.1016/j.physletb.202
 
 ## Scope and Reading Depth
 
-Covered scope and exclusions are recorded in the original sections below. Locator for this audit: Main PDF pp.3-4, Fig.2 and Table 1. No reading-depth upgrade is made by schema normalization.
+Main PDF 1–7. The 2026-11-21 reading includes Figs. 1–5 and the distinction between measured, adopted, and calculated strengths in Table 1.
 
 ## Summary
 
@@ -64,4 +64,10 @@ The boundaries below remain in force. Source registration, partial extraction an
 
 ## Extracted Pages
 
-Main PDF pp.3-4, Fig.2 and Table 1. The archived original, not this summary, is the numerical/quotation authority.
+Main PDF pp. 3–4 contain Fig. 2 and Table 1. Main pp. 5–6 contain the lifetime, strength and IBA results.
+
+## 2026-11-21 — Spectrum, lifetime and model evidence
+
+- PDF 3–4 report a \(^{9}\mathrm{Be}\) beam on \(^{76}\mathrm{Ge}\), 14 INGA clovers, and about \(2.1\times10^9\) coincidence events. Table 1 gives six rows with both numerical \(P\) and \(\delta\). The four rows where \(P\) is blank retain blank input fields even though the nearby methods paragraph discusses the group collectively.
+- PDF 5 uses a five-transition side-feeding cascade for DSAM with gates below the levels of interest. The reported lifetime uncertainties include stopping and side-feeding variation. The 1873.4 keV \(0_3^+\) state carries a lower lifetime bound of 4.70 ps and an upper \(B(E2)\) bound of 3.3 W.u. for its 1207.6 keV decay. Those bounds remain distinct from the measured central values used for other levels.
+- PDF 4–6 discuss selected O(6)-like sequences using normalized IBA transition strengths. The authors identify the 1478.9 keV \(0_2^+\) and 1959.8 keV \(2_3^+\) states as limitations of a common O(6) assignment. The fitted structure and its \(\sigma\) quantum number are separate from the unreported magnetic-substate alignment width in the mixing-ratio procedure.

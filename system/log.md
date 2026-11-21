@@ -6750,3 +6750,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — ⁷²Se 的固定取向与原刊混合比
 
 - 对账 14 页，核实 454.5 keV 的标定宽度、联合输入和 Fig. 7 混合比。累计 95 份、8750 页主件，续读同位素 `80Se`。
+
+## 2026-11-21 — ⁸⁰Se 的偏振与角比
+
+- 对账 7 页，核实六条完整 \(P,\delta\) 行和 DSAM/IBA 的证据边界。累计 96 份、8757 页主件。
