@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "bytes:dee4d852c401c5d522b10655d26a477925f9e8da7b06c09190e66243f3fa2405",
+  "active_source": "catalogue:LIT-000445",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -456,9 +456,10 @@
     "F14-QTR-FIXED-INERTIA-PEAK-AND-STABILITY",
     "FC18-ACCEPTED-COMMENT-INERTIA-AND-CITATION",
     "LAW20-AMPLITUDE-CONDITION-COMPARISON",
-    "TR18-REPLY-RMS-AND-PR-STABILITY"
+    "TR18-REPLY-RMS-AND-PR-STABILITY",
+    "KN06-CRPA-REDUNDANT-MODE-AND-DECAYS"
   ],
-  "completed_full_sources_this_run": 173,
+  "completed_full_sources_this_run": 174,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -466,14 +467,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T13:29:05.712415+00:00",
+  "updated_at": "2026-11-21T13:36:18.510132+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10488,
-  "current_source_note": "knowledge/sources/kvasil-2006-dy156-yb162-crpa-wobbling.md",
-  "next_action": "Close the existing Kvasil–Nazmitdinov 156Dy/162Yb CRPA note against the local 17-page author version, focusing on previously unread figures and appendix conditions.",
+  "completed_primary_pages_this_run": 10505,
+  "current_source_note": "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md",
+  "next_action": "Cross-check the local Hamamoto 2002 paper against the restored odd-A frozen-alignment domain and compare its quantization/transition arguments to Hamamoto–Hagemann 2003.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Frauendorf–Dönau 2014, Lawrie et al. 2020, and the 2018 Comment/Reply. Prior full read reconciled to the local editions and targeted checks.",
-  "current_source_scientific_acceptance": "Known partial coverage; local author version identity and new SHA verified. Full coverage audit pending.",
-  "source_scoped_retrieval": "Four existing local PDFs verified by SHA-256. No new original was downloaded in this batch."
+  "last_source_manager_closure": "Kvasil–Nazmitdinov 17-page arXiv v1 CRPA reading and mode/decay lineage.",
+  "current_source_scientific_acceptance": "Existing source page; prior full reading and specific comparison are next to reconcile.",
+  "source_scoped_retrieval": "Reused the SHA-verified local arXiv author PDF. No new source acquired for reading."
 }

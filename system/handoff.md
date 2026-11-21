@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — \(^{156}\mathrm{Dy}\) 与 \(^{162}\mathrm{Yb}\) 的 CRPA 模式识别
+
+- [[kvasil-2006-dy156-yb162-crpa-wobbling]] 补读 17 页 arXiv 原件中的对称性、冗余转动模和 E2/M1 分支。区分 \(^{162}\mathrm{Yb}\) 约 0.32 MeV 的模型模态识别与约 0.28 MeV 的计算 E2 分支变化。刊版关系仍待原件配对。
+- 累计核定 174 份、10505 个主件 PDF 页。接续 [[hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles]]，比较高 \(j\) 顺排与多声子观测判据。
+
 ## 2026-11-21 — 横向摆动的频率峰值与有效域
 
 - [[wobbling-geometry-phonon-observable-contract]] 用 [[frauendorf-2014-transverse-wobbling]] Table I 推导 \(^{135}\mathrm{Pr}\)、\(^{163}\mathrm{Lu}\) 的频率峰值和正曲率上界，并与 [[lawrie-2020-tilted-precession-wobbling]] Eq. (34) 对照。保留惯量轴序、\(J\) 与 \(I\) 的约定以及完整 QTR 的粒子重取向。

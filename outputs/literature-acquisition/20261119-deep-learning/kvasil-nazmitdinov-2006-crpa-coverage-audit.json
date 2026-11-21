@@ -1,0 +1,27 @@
+{
+  "work_id": "bytes:dee4d852c401c5d522b10655d26a477925f9e8da7b06c09190e66243f3fa2405",
+  "recorded_at": "2026-11-21T13:36:18.510132+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/kvasil-2006-dy156-yb162-crpa-wobbling.md",
+  "raw": {
+    "path": "raw/papers/gpt/query/20261108-r3-g45-quantum-labels/kvasil-nazmitdinov-2006-wobbling-dy156-yb162.pdf",
+    "sha256": "dee4d852c401c5d522b10655d26a477925f9e8da7b06c09190e66243f3fa2405",
+    "size": 725623,
+    "hash_basis": "fresh-hash",
+    "source_role": "verified-arxiv-v1-reading-copy"
+  },
+  "credited_primary_pages": 17,
+  "coverage": [
+    "PDF 1–4: starting mean field, pairing prescription, CRPA inputs and alignment/backbending.",
+    "PDF 5–10: phonon construction, conservation relations, rotational redundant mode, signed c diagnostic and Figs. 4–9.",
+    "PDF 11–15: rotating-frame spectroscopy, reduced E2/M1 comparisons, calculated branch hierarchy and conclusions.",
+    "PDF 15–17: asymmetric-rotor high-spin expansion, transition operators and references."
+  ],
+  "reader": "Prior G45 coverage and Codex local completion. Visually checked PDF 9–10 and 12–13.",
+  "evidence_boundary": [
+    "The local full text is arXiv:nucl-th/0611059v1. Final published version equivalence has not been verified.",
+    "The c diagnosis uses approximate cancellation across other physical RPA solutions. The ad hoc pairing prescription and numerical conservation checks are recorded.",
+    "Calculated 162Yb identification and branching frequencies use different criteria. Intraband data in Fig. 10 and the calculated branches in Figs. 11–12 play different roles."
+  ],
+  "next_action": "Cross-check the local Hamamoto 2002 paper against the restored odd-A frozen-alignment domain and compare its quantization/transition arguments to Hamamoto–Hagemann 2003."
+}

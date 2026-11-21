@@ -6938,3 +6938,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — 横向摆动的频率峰值与有效域
 
 - 对照 F14 与 Lawrie 的小振幅条件，留存惯量比印刷方向和 Comment 的图号出处。两份刊版外加 2018 年接受稿与刊版回复完成覆盖核定，累计 173 份、10488 个主件 PDF 页。四项范围见 `transverse-wobbling-stability-coverage-audit.json`。
+
+## 2026-11-21 — Dy/Yb 推转 RPA 证据范围
+
+- 完成 Kvasil–Nazmitdinov arXiv v1 物理页 1–17 的覆盖确认。盘点冗余模、摆动识别与两类 E2 数据来源，累计 174 份、10505 个主件 PDF 页。
