@@ -37,6 +37,8 @@ tags: [wobbling-counter-evidence, ibfm, gamma-softness, a130, mixing-ratio, gamm
 K. Nomura、C.M. Petrache，*Questioning the wobbling interpretation of low-spin bands in γ-soft nuclei within the interacting boson-fermion model*，PRC105,024320(2022)，DOI `10.1103/PhysRevC.105.024320`。
 实际底本arXiv2106.15384v3，12物理页；旧稿“10页”错误已更正。
 
+[[nomura-2022-questioning-wobbling-ibfm]] 使用同一作品的刊版。此处保留 arXiv v3 页码和方法核对，刊版图表及 \(^{127}\mathrm{Xe}\) 数值引用以刊版来源页为准。
+
 ## Scope and Reading Depth
 
 G29研读；总控独立核PDF1–4、9–10，重点模型构造/拟合、Table I–II及M1/E2分解。

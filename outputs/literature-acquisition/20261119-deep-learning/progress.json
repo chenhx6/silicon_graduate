@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "bytes:127e2f814f743ead8129e84f293ea6a554d83acbd8e50e441e971fa011ee7b06",
+  "active_source": "catalogue:LIT-000626",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -493,14 +493,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T16:41:40.665325+00:00",
+  "updated_at": "2026-11-21T16:45:16.498574+00:00",
   "completed_deep_read_sources_this_run": 0,
   "completed_primary_pages_this_run": 10945,
-  "current_source_note": "knowledge/sources/doctoral-r1-g29-nomura-2022-questioning-wobbling-ibfm.md",
-  "next_action": "Reconcile the Nomura et al. IBFM author/publisher roles, focusing on the different observables and evidence of competing assignments.",
+  "current_source_note": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+  "next_action": "Reconcile the Petrache et al. 134Ce publisher original, focusing on levels, parity assignments and model-dependent triaxial interpretation.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Both local Ba-129 originals, experimental reuse and distinct 365-keV estimates.",
-  "current_source_scientific_acceptance": "Nomura IBFM entry queued. No large-scale acquisition planned.",
-  "source_scoped_retrieval": "Used verified local conference and publisher files."
+  "last_source_manager_closure": "The Nomura author-version queue row is linked to the already-covered journal work; no additional work or page count.",
+  "current_source_scientific_acceptance": "Petrache 2016 134Ce scope queued.",
+  "source_scoped_retrieval": "Verified the existing Nomura author copy and kept the already-covered publisher record as primary."
 }
