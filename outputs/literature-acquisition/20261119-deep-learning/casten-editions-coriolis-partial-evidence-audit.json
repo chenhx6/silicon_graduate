@@ -1,0 +1,44 @@
+{
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000001",
+      "raw_files": [
+        {
+          "path": "raw/books/Nuclear Structure From A Simple Perspective edition2 Casten.pdf",
+          "sha256": "a016501ba9897abd73c34d366b93bc4435d3e4d2154c3b949b4f541128a7013c",
+          "size": 24879710,
+          "hash_basis": "fresh-hash",
+          "source_role": "verified-book-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
+      "physical_pdf_pages": 488,
+      "covered_sections": [
+        "PDF 1–26 title, copyright, revision preface and contents; PDF 374–415, printed 356–397, Chapter 9. Selected equations and figures visually checked."
+      ],
+      "credited_primary_pages": 0
+    },
+    {
+      "work_id": "catalogue:LIT-000306",
+      "raw_files": [
+        {
+          "path": "raw/books/Nuclear Structure From A Simple Perspective Casten.pdf",
+          "sha256": "9028649fb9fad55d6d624b88ef8bf8487e8462c07596d9a42bd6117552fa3ea9",
+          "size": 21071577,
+          "hash_basis": "fresh-hash",
+          "source_role": "verified-book-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
+      "physical_pdf_pages": 391,
+      "covered_sections": [
+        "PDF 286–327, printed 271–312, Chapter 8. Cross-checked selected original pages against corresponding second-edition equations; earlier bounded coverage retained."
+      ],
+      "credited_primary_pages": 0
+    }
+  ],
+  "reader": "Codex",
+  "coverage": "partial for both editions",
+  "source_note": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
+  "PDM_run": false
+}

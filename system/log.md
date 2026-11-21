@@ -6830,3 +6830,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — 郑宽宽学位论文整源对账
 
 - 对账理论、实验、三核结果、附录及引文范围。保留 177 页底本及附封面版本关系，计入 167 页科研与书证内容。累计 136 份、9578 页主件。
+
+## 2026-11-21 — Casten Coriolis 章节版本核验
+
+- 核对两版章节与选定公式，订正退耦相位、能量因子和衰减适用条件。两版均按部分覆盖登记。

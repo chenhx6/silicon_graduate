@@ -12,7 +12,7 @@ Rotation couples intrinsic Nilsson states. The resulting K mixing, decoupling an
 Coriolis operator; K mixing; decoupling parameter; unique-parity orbit; rotation alignment; crossing frequency; backbending; transfer spectroscopic strength.
 
 ## Source Locator
-Physical PDF 286-327; printed pp. 271-312. The core checked range is PDF 290-335 / printed pp. 275-320; use the bookmark crosswalk for section-level retrieval.
+First edition Ch. 8 is PDF 286–327 (printed 271–312). Second edition Ch. 9 is PDF 374–415 (printed 356–397). For the energy prefactor, decoupling phase and the \(j=13/2\) comparison, use the corrected second-edition Eqs. (9.8)–(9.9), (9.15) and the edition audit in `knowledge/sources/book-casten-nuclear-structure-simple-perspective.md`.
 
 ## Boundary
 A decoupled-band pattern is configuration and inertia dependent. It cannot by itself establish triaxiality, wobbling or a unique band assignment.

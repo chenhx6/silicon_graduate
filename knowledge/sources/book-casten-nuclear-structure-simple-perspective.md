@@ -21,6 +21,8 @@ raw_file: "raw/books/Nuclear Structure From A Simple Perspective Casten.pdf"
 raw_sha256: "9028649fb9fad55d6d624b88ef8bf8487e8462c07596d9a42bd6117552fa3ea9"
 raw_storage_status: archived-local
 archive_required: true
+second_edition_file: "raw/books/Nuclear Structure From A Simple Perspective edition2 Casten.pdf"
+second_edition_sha256: "a016501ba9897abd73c34d366b93bc4435d3e4d2154c3b949b4f541128a7013c"
 translation_file: "raw/books/translations/中译_Nuclear_Structure_From_A_Simple_Perspective.pdf"
 translation_sha256: "d41d50c04e85c202632d61cbd8f13164bb8b5c1a239625dbb3c00266bb22335e"
 translation_role: "Chinese terminology aid; not an independent evidence source"
@@ -77,9 +79,9 @@ ISBN `0-19-504599-8`，Library of Congress 编号 `QC793.3.S8C37 1990`。
    - §6.7 集体性的微观演化机制：$N_p N_n$ 方案与 $P$ 因子（$P = N_p N_n / (N_p + N_n)$）；
 3. **第 7 章：变形核壳模型（Nilsson 模型）（PDF 262–285 / printed 247–270）**：
    - 渐近量子数 $[N n_z \Lambda \Omega]$ 与形变单粒子能级走势；
-4. **第 8 章：奇 A 变形核与 Coriolis 耦合（PDF 290–335 / printed 275–320）**：
+4. **第 8 章：奇 A 变形核与 Coriolis 耦合（PDF 286–327 / printed 271–312）**：
    - §8.2 Coriolis 相互作用算符、带混合及 $K=1/2$ 带退耦参数 $a$；
-   - §8.3 多带 Coriolis 混合矩阵元的经验衰减因子（$0.6 \sim 0.8$）及对单核子转移反应截面的剧烈重布居效应；
+   - §§8.2–8.3 依据能级和转移反应讨论经验衰减，并用实例说明混合对单核子转移截面的影响。
    - §8.4 高自旋下的 Coriolis 效应与 Stephens 旋转对齐机制（Rotation-Alignment），转动解耦带的形成。
 5. **第 10 章：实验技术（PDF 350–385 / printed 335–363）**：
    - §10.1 库仑激发的最近接距离、半经典/绝热参数、多步与虚激发、后角粒子-γ 符合和矩阵元反演；
@@ -144,9 +146,10 @@ $$\langle 2_{\text{II}}  \vert E2  \vert 2_{\text{I}}  \rangle = \alpha \beta [ 
   两者给出符号相反的能级交错振荡相位，成为鉴别低能甚至高自旋非轴对称自由度是刚性还是动态软核的关键实验判据。
 
 ### 4. 奇 A 核 Coriolis 耦合与 Stephens 旋转对齐（§8.2–8.4, PDF 294–320）
-Coriolis 相互作用哈密顿量：
-$$H_{\text{cor}} = - \frac{\hbar^2}{\mathcal{J}} (\vec{I} \cdot \vec{j}) = - \frac{\hbar^2}{2\mathcal{J}} (I_+ j_- + I_- j_+)$$
-- 对于 $K=1/2$ 能带，对角元引入退耦项：$E(I) = \frac{\hbar^2}{2\mathcal{J}} [I(I+1) + a (-1)^{I+1/2}(I+1/2)]$，退耦参数 $a = - \sum_j |C_j|^2 (-1)^{j-1/2}(j+1/2)$。
+轴对称粒子–转子的横向 Coriolis 项为
+$$H_{\text{cor}} = - \frac{\hbar^2}{2\mathcal{J}} (I_+ j_- + I_- j_+).$$
+展开 \((\vec I-\vec j)^2\) 时，纵向 \(I_zj_z\) 项另计。第一版 p.280 的算符与第二版 p.365 Eq. (9.4) 对应。
+- 按第二版 p.367 Eqs. (9.8)–(9.9) 的相位与归一，\(K=1/2\) 带有 $E(I)=\frac{\hbar^2}{2\mathcal{J}}[I(I+1)+a(-1)^{I+1/2}(I+1/2)]$，其中 $a=\sum_j |C_j|^2(-1)^{j-1/2}(j+1/2)$。纯 \(j=13/2\) 给 \(a=+7\)，纯 \(j=11/2\) 给 \(a=-6\)。第一版 p.282 的 Eq. (8.8) 整体前因子印成负号，第二版已用正号。该差异可由旋转惯量为正的纯转子极限核对。
 - 对于高 $j$ 轨道（如 $i_{13/2}, h_{11/2}$），Coriolis 矩阵元反比于转动惯量但正比于 $j$ 和 $I$。在弱形变或高自旋区，Coriolis 力压倒 Nilsson 变形势阱对准粒子的束缚，使价核子角动量脱离对称轴束缚，对齐到集体转动轴（Stephens 旋转对齐机制），形成 $\Delta I = 2$ 的退耦带（Decoupled band），能级间距与偶偶核核心一致。
 
 ---
@@ -158,7 +161,7 @@ $$H_{\text{cor}} = - \frac{\hbar^2}{\mathcal{J}} (\vec{I} \cdot \vec{j}) = - \fr
 | CAS90-1 | 两态混合本征能量排斥下限为 $2V$；混合波函数幅值仅由无量纲参数 $R=\Delta E_u/V$ 决定。 | model-result | direct | PDF 33–36 / printed 18–21, Eqs. (1.2)–(1.8) | false |
 | CAS90-2 | 跨带 $E2$ 矩阵元由初末态对角四极矩之差 $\Delta Q = Q_2 - Q_1$ 决定；形变相近的混合组态跃迁发生相消。 | model-result | direct | PDF 40–42 / printed 25–27, Eqs. (1.15)–(1.17) | false |
 | CAS90-3 | 低自旋偶偶核极少存在孤立刚性三轴核；几乎所有显现三轴特征的体系均为 $\gamma$ 软核（可通过 $S(J)$ 能级交错区分）。 | author-interpretation | direct | PDF 208–210 / printed 193–195 | false |
-| CAS90-4 | 奇 $A$ 核真实 Coriolis 矩阵元普遍受到配对相关与核心极化的经验淬灭，实验值约为未扰动理论值的 $60\% \sim 80\%$。 | empirical-finding | direct | PDF 302–305 / printed 287–290 | false |
+| CAS90-4 | 作者总结经验矩阵元比所讨论的理论估算低约 20–50%。估算中已显式包含配对重叠。\(^{183}\mathrm{W}\) 的 70 keV 间距在孤立两能级近似下约束 \(|V|\le35\) keV，相对 55 keV 估算为约 0.64 的上限。 | empirical-and-model-boundary | direct | 第一版 PDF 302–303 / printed 287–288；第二版 PDF 390–391 / printed 372–373 | false |
 | CAS90-5 | 高 $j$ 独特宇称轨道（Unique-parity orbits）由于大 $j$ 产生巨大 Coriolis 矩阵元，驱动 Stephens 旋转对齐并形成退耦带。 | model-result | direct | PDF 315–320 / printed 300–305 | false |
 | CAS90-6 | 库仑激发应在低于库仑势垒、核力影响可控的最近接距离下使用；半经典参数、绝热参数、散射角和多步/虚激发共同决定矩阵元反演的可辨识性。 | method/formalism | direct | Ch. 10, PDF 335–344 / printed 335–344; selected text pp. 335–343 | false |
 | CAS90-7 | ARC 的价值是对指定自旋、宇称和激发能窗提供能级完备性合同；“未观察到”只有在完备性和响应边界成立时才能作为结构反证。 | method-result | direct | Ch. 10, PDF 344–356 / printed 344–356, Figs. 10.4–10.6 | false |
@@ -168,7 +171,7 @@ $$H_{\text{cor}} = - \frac{\hbar^2}{\mathcal{J}} (\vec{I} \cdot \vec{j}) = - \fr
 | CAS90-11 | Casten 对称性三角形与 IBM 极限分类：IBM-1 在群论上具有三个动力学对称性极限：$U(5)$（球形振动）、$SU(3)$（轴对称转子）与 $O(6)$（$\gamma$ 不稳定/非轴对称软核）；所有中重偶偶核映射在三角形内部或边界上。 | model-result | direct | Ch. 6, 印刷 pp. 195–218 / PDF pp. 210–233 | false |
 | CAS90-12 | $O(6)$ $\gamma$ 软核与 Davydov-Filippov 刚性三轴核的特征能级交错反转：$\gamma$ 振动带自旋交错参量 $S(J)$ 在刚性三轴呈现奇偶反相交错，而在 $\gamma$ 软核由于势能面在 $\gamma$ 方向平坦呈现同相交错，提供排他性鉴别代数指纹。 | model-result | direct | Ch. 6, 印刷 pp. 180–195 / PDF pp. 195–210 | false |
 | CAS90-13 | 单粒子能级在变形场中的分裂与渐近量子数 $[N n_z \Lambda \Omega]$：轴对称拉长形变使球形壳层分裂为双重简并能级，赤道轨道能量下沉，$\Delta n_z = 0, \pm 1$ 支配单核子转移与跃迁选择定则。 | model-result | direct | Ch. 7, 印刷 pp. 247–265 / PDF pp. 262–280 | false |
-| CAS90-14 | Coriolis 相互作用引起的转动带退耦与 Stephens 对齐：奇 $A$ 核中来自高 $j$ 闯入轨道的 $\Omega=1/2$ 能带退耦参数 $a \approx +(j+1/2)$，驱动奇自旋能级大幅下沉形成能级间隔为 $I, I+2, I+4$ 的退耦转动带。 | model-result | direct | Ch. 8, 印刷 pp. 280–305 / PDF pp. 295–320 | false |
+| CAS90-14 | 按本书的相位，纯高 \(j\) 的 \(K=1/2\) 成分给 \(a=(-1)^{j-1/2}(j+1/2)\)。符号决定受惠的签名。转动对齐极限的受惠序列可近似沿 \(I=\alpha+R\)、\(R=0,2,\ldots\) 取值。 | model-result | direct | 第二版 PDF 385–386, 404–406 / printed 367–368, 386–388，Eqs. (9.8)–(9.9), (9.15) | false |
 | CAS90-15 | 激发能级完备性与平均共振捕获（ARC）技术：中子过滤束在数千电子伏能区对数以百计共振态强度平均，消除 Porter-Thomas 统计涨落，为指定能量窗内所有低自旋态提供 100% 能级完备性合同。 | method-result | direct | Ch. 10, 印刷 pp. 344–356 / PDF pp. 359–371 | false |
 
 ---
@@ -213,6 +216,16 @@ $$H_{\text{cor}} = - \frac{\hbar^2}{\mathcal{J}} (\vec{I} \cdot \vec{j}) = - \fr
 | 第 10 章高自旋/转移 | 371–385 | 356–363 | 熔合蒸发高自旋、fold 符合、超形变和 grazing 转移选择性 |
 
 ## Summary and Impact
+
+### 两版 Coriolis 章对账
+
+第二版版权页给 Oxford University Press、2000 年、ISBN `0-19-850724-0`，馆藏 488 个 PDF 页。第一版 Ch.8（PDF 286–327，印刷 pp.271–312）对应第二版 Ch.9（PDF 374–415，印刷 pp.356–397）。第二版另拆出 Ch.7 结构演化，并以 Ch.11 放射性束与奇异核替换第一版实验技术章。两版均只按本次对应章和明确历史选段记录覆盖。
+
+| 交叉核验 | 第一版 | 第二版 | 可复用结果 |
+| --- | --- | --- | --- |
+| 横向耦合、配对重叠与退耦 | §8.2，印刷 pp.280–288 | §9.2，印刷 pp.364–373 | 轴对称基的非对角耦合连接 \(K,K+1\)。\((U_1U_2+V_1V_2)\) 是配对重叠，需与额外经验缩放分别记录。 |
+| 核芯间隔和签名 | §8.4，印刷 pp.300–303 | §9.4，印刷 pp.385–388，Eq. (9.15) | 固定 \(\alpha\) 时，能级差近似只取决于 \(R(R+1)\) 与正的转动常数。书中 \(j=\alpha=13/2\) 的 \(17/2-13/2\) 间隔，在 \(R=2,0\) 极限为 \(6\hbar^2/(2\mathcal J)\)，强耦合估计为 \(32\hbar^2/(2\mathcal J)\)。第一版 p.302 在 Eq. (8.15) 的整体因子和后一项数值印错，第二版修正。推导省去固定 \(\alpha\) 的常量后用于间隔。 |
+| 反弯的辨识边界 | §8.4，印刷 pp.308–312 | §9.4，印刷 pp.393–397 | 配对态与对齐态的交叉可产生反弯。形状演化也可能产生类似变化。对照 [[zheng-2021-collectivity-shape-119cs-119ba-118cs]] 的 Bands 8–9 时，转动对齐可用于检验轨道占据与交叉。三维手征判断仍依赖独立的结构证据和模型。 |
 
 Casten 专著为本 Wiki 建立了微观壳组态、Coriolis 相互作用与三轴宏观集体运动之间的直观桥梁：
 1. §1.4 与 §1.6 的两态混合定理纠正了核结构谱学中“存在混合必有强跃迁”的直觉误区，为在束 $\gamma$ 谱学分析跨带 $B(E2)$ 提供了微观检验准则；
