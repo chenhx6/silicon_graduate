@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000622",
+  "active_source": "catalogue:LIT-000459",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -466,9 +466,11 @@
     "WU18-LOCAL-E2-SPIN-CHANNEL-AND-AVERAGING",
     "CH13-BOX-MASS-FREQUENCY-SEPARATION",
     "AL11-TAC-RPA-MODE-AND-2QP-REFERENCES",
-    "FM97-TAC-CHIRALITY-PRIMARY-LINEAGE"
+    "FM97-TAC-CHIRALITY-PRIMARY-LINEAGE",
+    "PE96-134PR-BAND-LINKS-AND-DCO",
+    "ST01-ISOTONE-TIMING-AND-134PR-DEPENDENCE"
   ],
-  "completed_full_sources_this_run": 183,
+  "completed_full_sources_this_run": 185,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -476,14 +478,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T14:39:31.709269+00:00",
+  "updated_at": "2026-11-21T14:52:26.240738+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10667,
-  "current_source_note": "knowledge/sources/petrache-1996-rotational-bands-134pr.md",
-  "next_action": "Verify the original Petrache et al. 21-page 134Pr paper and link the repeated two-band inputs to the 1997 theory, keeping the private-communication boundary.",
+  "completed_primary_pages_this_run": 10692,
+  "current_source_note": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
+  "next_action": "Verify the full Hecht 2001 4-page publisher paper, compare 136Pm acquisition with Starosta, and trace bandhead assignments and 138Eu data separately.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Frauendorf–Meng 1997 publisher original, Fig. 9 identity and reference distinction.",
-  "current_source_scientific_acceptance": "Petrache 1996 main 21-page journal original hash verified, Gemini reading launched.",
-  "source_scoped_retrieval": "Used the local publisher original; no new download."
+  "last_source_manager_closure": "Petrache 1996 and Starosta 2001 134Pr comparison lineage and experiment-specific gates.",
+  "current_source_scientific_acceptance": "Hecht 2001 local 4-page publisher file verified by SHA. Existing full-read record to reconcile.",
+  "source_scoped_retrieval": "Reused two previously held journal PDFs. No new sources downloaded."
 }

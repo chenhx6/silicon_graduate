@@ -6970,3 +6970,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — 早期手征 TAC 刊版与实验回引
 
 - 核定 Frauendorf–Meng 17 页刊版，保留 Fig. 9 的 Pr/Pm 异文及 Ref. [15] 的两类出处。累计 183 份、10667 个主件 PDF 页。
+
+## 2026-11-21 — Petrache 与 Starosta 的 134Pr 谱系
+
+- 对照 21 与 4 页刊版，核对 Band 2 → Band 1 三条 DCO 线及后续同中子素比较图的复用。累计 185 份、10692 个主件 PDF 页。

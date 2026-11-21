@@ -60,6 +60,10 @@ Physical Review Letters 86, 971-974 (2001), DOI `10.1103/PhysRevLett.86.971`. Th
 - `134Pr` near-degeneracy versus roughly constant `0.25/0.37/0.29 MeV` displacement in `130Cs/132La/136Pm` → central chiral-rotation island surrounded by soft chiral-vibrational structures (PDF pp. 3-4; Fig. 3).
 - Aplanar 3D TAC solutions and barrier/deformation systematics across `Z=55–63` → model support for a bounded island, strongest near `Z=59–61`; the experimental nondegenerate pairs are interpreted as vibrations/tunnelling over a shallow saddle (PDF pp. 3-4; Table I).
 
+## Timing and reused comparison inset
+
+The original p. 972 describes a \(\pm20\) ns coincidence selection for the new angular-correlation comparisons in \(^{130}\mathrm{Cs}\), \(^{132}\mathrm{La}\), and \(^{136}\mathrm{Pm}\). Figure 2 imports the \(^{134}\mathrm{Pr}\) level scheme from [[petrache-1996-rotational-bands-134pr]]. Its \(^{134}\mathrm{Pr}\) panel includes the rounded \(620\), \(624\) and \(638\) keV links that the 1996 Table 1 lists as \(620.0\), \(624.4\), and \(637.5\) keV. The 2001 figure reproduces the energy and connection information. The underlying \(^{134}\mathrm{Pr}\) DCO ratios retain the 1996 gate conditions.
+
 ## Summary
 
 The paper establishes a four-isotone experimental doublet-band systematics and embeds it in a five-isotone TAC calculation. It promotes `134Pr` as the near-degenerate center of a chiral-rotation island and interprets the surrounding nondegenerate partners as soft chiral vibrations. This is a landmark cross-isotone interpretation, but not an independent confirmation of all individual pairs: `134Pr` is reused from Petrache 1996, the `136Pm` dataset/authors overlap Hecht 2001, common configuration is inferred, and no quantum chiral-vibration calculation produces the measured displacements.

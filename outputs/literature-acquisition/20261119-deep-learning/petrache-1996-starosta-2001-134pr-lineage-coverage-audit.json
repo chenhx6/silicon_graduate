@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-11-21T14:52:26.240738+00:00",
+  "status": "scientific-reading-covered",
+  "reader": "Existing full-read records and Codex source- and figure-level audit. No new Gemini result was required to check the coverage and the three shared lines.",
+  "completed_works": [
+    {
+      "work_id": "catalogue:LIT-000622",
+      "unit_id": "PE96-134PR-BAND-LINKS-AND-DCO",
+      "source_note": "knowledge/sources/petrache-1996-rotational-bands-134pr.md",
+      "raw": {
+        "path": "raw/papers/1996_Petrache et al_Rotational bands in the doubly odd nucleus 134Pr.pdf",
+        "sha256": "617423a25532b0130828a82310f287c2405f40cb56091968f167e2869656cd48",
+        "size": 1609153,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "credited_primary_pages": 21,
+      "coverage": "Printed pp. 106–126: both acquisitions, level scheme, gated spectra, Table 1, four-band and model discussion, references. Prior full read; Codex verified Table 1 p. 112 and assignment p. 115.",
+      "evidence_boundary": "Three stretched-dipole-gated DCO ratios support same-parity Band 2 links. Relative strengths discussed in the original study have an assumed multipole mixture. The 1997 comparison also cites private communication."
+    },
+    {
+      "work_id": "catalogue:LIT-000701",
+      "unit_id": "ST01-ISOTONE-TIMING-AND-134PR-DEPENDENCE",
+      "source_note": "knowledge/sources/starosta-2001-n75-chiral-vibrations.md",
+      "raw": {
+        "path": "raw/papers/2001_Starosta et al_Chiral Doublet Structures in Odd-Odd N = 75 Isotones Chiral Vibrations.pdf",
+        "sha256": "9082c1e8ced3fbfeb2248f5b18c1b646f4dc1adc77af5c27c6a988855583cbf4",
+        "size": 135709,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "credited_primary_pages": 4,
+      "coverage": "Printed pp. 971–974: principle, three new measurements, Fig. 2 comparative level scheme, doublet comparison and TAC table. Prior full read; Codex visually verified p. 972 and checked the four-page scope.",
+      "evidence_boundary": "The 134Pr inset in Fig. 2 reuses the 1996 134Pr source. New correlations under the ±20 ns timing gate are for 130Cs, 132La and 136Pm. Exact 136Pm run overlap with Hecht remains unverified."
+    }
+  ],
+  "credited_primary_pages": 25,
+  "next_action": "Verify the full Hecht 2001 4-page publisher paper, compare 136Pm acquisition with Starosta, and trace bandhead assignments and 138Eu data separately."
+}

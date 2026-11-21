@@ -89,6 +89,8 @@ The paper establishes three semidecoupled bands and a fourth doubly decoupled in
 
 ## Nuclear Structure Information
 
+On printed pp. 112 and 115 (PDF pp. 7 and 10), Table 1 and the level-assignment discussion identify three Band 2 links to Band 1. The \(620.0\) keV \(11^+\to10^+\) line has \(R_{\rm DCO}=0.84(4)\), the \(624.4\) keV \(10^+\to9^+\) line \(0.76(5)\), and the \(637.5\) keV \(12^+\to11^+\) line \(0.59(8)\). All three carry footnote `c`, a stretched-dipole gate. The authors assign mixed M1/E2 character with \(\Delta I=1\) and use this evidence for the positive-parity Band 2 assignment. The same paper's \(B(M1)/B(E2)\) comparison assumes a mixing ratio for the strength conversion, as recorded in PE96-12. [[starosta-2001-n75-chiral-vibrations]] Fig. 2 later reproduces these connections for \(^{134}\mathrm{Pr}\) with energies rounded to keV.
+
 | Band | Experimental structure | Paper assignment / boundary |
 |---|---|---|
 | Band 1 | positive-parity yrast sequence from the `6(+)` isomer, extended to `23+`; small signature splitting and backbend | `πh11/2⊗νh11/2`; `γ` softness makes a unique static deformation unsafe |

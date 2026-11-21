@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — \(^{134}\mathrm{Pr}\) 原始级联与 \(N=75\) 数据谱系
+
+- [[petrache-1996-rotational-bands-134pr]] 的三条 Band 2 → Band 1 线按 Table 1、足注和原能级纲图核对。[[starosta-2001-n75-chiral-vibrations]] Fig. 2 复用这些 \(^{134}\mathrm{Pr}\) 连接，另三核的符合观测使用该文报告的 \(\pm20\) ns 时间窗。
+- 累计核定 185 份、10692 个主件 PDF 页。接续 [[hecht-2001-chiral-symmetry-breaking-136pm-138eu]]，核对 \(^{136}\mathrm{Pm}\) 两篇报道的采集关系。
+
 ## 2026-11-21 — Frauendorf–Meng 刊版和 \(^{134}\mathrm{Pr}\) 图注
 
 - [[frauendorf-meng-1997-tilted-rotation-chirality]] 核定 17 页刊版，保留 p. 145 Fig. 9 图注 \(^{134}\mathrm{Pm}\) 和正文 \(^{134}\mathrm{Pr}\) 的异文。Ref. [15] 同列刊版实验与私人交流。
