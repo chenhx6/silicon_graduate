@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — ¹³⁵Nd 和 ¹³⁶Nd 的 Gammasphere 寿命
+
+- [[mukhopadhyay-2007-135nd-chiral-vibration-static]] 4 页和 [[mukhopadhyay-2008-136nd-transition-rates]] 6 页已对账。核实未停峰的全峰形门、侧馈模型和 \(^{136}\mathrm{Nd}\) 表 II 排除的阻止本领系统误差。两文实验采集指纹高度重合，原始运行号仍缺。
+- 累计 90 份、8716 页主件。续核 [[petrache-2019-diversity-shapes-rotations-130ba]] 与 [[wang-2020-two-quasiparticle-wobbling-130ba]]，查明 \(^{136}\mathrm{Nd}\) 论文引用的偶偶核对照及其原观测量。
+
 ## 2026-11-21 — Lv 的 ¹³⁵Nd 手征论文出版版
 
 - [[lv-2019-chirality-135nd-reexamined]] 将已有缓存原样归档为 9 页出版版，和 10 页预印本按一篇计。核实用于判宇称的 IPDCO，以及 D2 母态能量、D3 单行宇称、D4 目标带和 D6 母态异文。

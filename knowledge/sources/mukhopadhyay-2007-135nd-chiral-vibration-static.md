@@ -434,3 +434,9 @@ NuDat3 `getdataset.jsp?nucleus=135ND&unc=nds`本次HTTP429，未自动循环重�
 ### Day24 checkpoint001 Agent self-audit triage
 
 P0: none identified（本次新增范围无未隔离技术hard P0）。P1：MU07-D24-001/002已对Eq3/图/非谐段回核；共同TAC曲线与实验支持分开，完整line/normalizer仍缺。后续论文/关键问答仍按具体claim回源，未触发用户人审事件。
+
+## 2026-11-21 — Independent lifetime input for the later ¹³⁵Nd work
+
+- The experiment at 175 MeV with a Pb-backed Mo target and about \(2.5\times10^9\) fold≥5 events supplies the lifetime input for the negative-parity D5/D6 pair discussed in [[lv-2019-chirality-135nd-reexamined]]. The latter's 152 MeV JUROGAM II experiment supplies later spectroscopy and cites the older absolute strengths.
+- On 172501-2, the coincidence gate includes the full peak shape when the transition has a Doppler-shifted component, reducing a bias toward selected emission times. The reported LINESHAPE simulation uses 5,000 recoil histories with a 0.002 ps time step and SRIM electronic stopping. Table I's similar partner strengths coexist with different level lifetimes. For example at \(31/2^-\), the lifetimes are \(0.75(8)\) and \(1.46(2)\) ps, while the reduced E2 strengths are \(0.32(3)\) and \(0.28(3)\) \(e^2b^2\).
+- [[mukhopadhyay-2008-136nd-transition-rates]] reports the same beam energy, target/backing and rounded high-fold total for the neighbouring 4n channel. This is a possible shared Gammasphere campaign. Distinct nuclide gates and transitions support different physics comparisons. The acquisition ID and event overlap cannot be recovered from the printed totals.

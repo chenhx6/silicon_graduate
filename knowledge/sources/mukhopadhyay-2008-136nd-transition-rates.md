@@ -306,3 +306,9 @@ Checkpoint046回原TableII与2018能级图，撤回checkpoint032的错误桥接�
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | MU08-D20-R146-1 | 140脚本仅将自设.44/.04与flag互比，没有独立核实逐态真实原表/带身份或TAC+RPA因果机制。11倍塌缩、3.5倍非对称、完全排除chirality及四qp混合唯一解释均撤回。未逐claim完成重核前只回用本页此前原件更正，不把不同正负宇称或不同作者带号当同一双带。 | withdrawn-certification-and-identity-boundary | source-and-bounded-self-audit | MU08既有Day18/Day20原表纠错; Petrache2018带身份对照 | true |
+
+## 2026-11-21 — Stopping uncertainty and the band comparison
+
+- On 034311-2 and -3, the authors use two angle sets and gates below the level of interest. They initially model side feeding as a five-transition cascade, fit peak shapes from the top of the band downward, and then fit the band with level-specific decay and feeding lifetimes. They assume pure M1 for the \(\Delta I=1\) transitions used to derive absolute \(B(M1)\).
+- Table II omits the stopping-power systematic, which the paper estimates may be as large as 15%. At \(17^-\), Band 1 and 2 give \(0.71(6)\) and \(0.61(7)\) ps, and \(B(E2)=0.08(1)\) and \(0.44(6)\) \(e^2b^2\). The rates and lifetimes address different quantities. The quoted strengths apply to the older negative-parity band pair and do not describe the positive-parity L1/L3 link in [[lv-2022-transverse-wobbling-136nd]].
+- The 175 MeV beam, 1.14 mg/cm² Mo foil, 17.9 mg/cm² Pb backing and rounded high-fold total match [[mukhopadhyay-2007-135nd-chiral-vibration-static]]. The two papers analyze different evaporation channels. Their shared campaign is plausible from those identifiers, pending a run-level record.

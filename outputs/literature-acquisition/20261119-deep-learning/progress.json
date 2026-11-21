@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000535",
+  "active_source": "catalogue:LIT-000565",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -354,9 +354,11 @@
     "LV22-ND136-COMPLETE-SCIENTIFIC-SCOPE",
     "LV19-ND-THESIS-COMPLETE-SCIENTIFIC-SCOPE",
     "PETRACHE18-ND136-COMPLETE-SCIENTIFIC-SCOPE",
-    "LV19-ND135-PRC-COMPLETE-SCIENTIFIC-SCOPE"
+    "LV19-ND135-PRC-COMPLETE-SCIENTIFIC-SCOPE",
+    "MU07-ND135-COMPLETE-SCIENTIFIC-SCOPE",
+    "MU08-ND136-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 88,
+  "completed_full_sources_this_run": 90,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 997,
@@ -364,14 +366,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T03:48:48.030157+00:00",
+  "updated_at": "2026-11-21T03:54:52.317290+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 8706,
-  "current_source_note": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
-  "next_action": "Read Mukhopadhyay 2007 135Nd lifetime source and verify the relation to the reused D5/D6 absolute strengths.",
+  "completed_primary_pages_this_run": 8716,
+  "current_source_note": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+  "next_action": "Read Petrache 2019 and Wang 2020 local 130Ba publisher sources for the even-even comparison used in Lv 2022.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Lv 2019 135Nd: verified publisher version, IPDCO distinction, D2/D3/D4/D6 original ambiguity.",
-  "current_source_scientific_acceptance": "Nine publisher primary pages; ten-page arXiv v1 attached to the same work.",
-  "source_scoped_retrieval": "Already cached, verified VoR copied to a scoped query archive. No new network acquisition."
+  "last_source_manager_closure": "Mukhopadhyay 2007/2008: DSAM peaks, lifetime and rate roles and matching campaign fingerprints.",
+  "current_source_scientific_acceptance": "Two works, ten publisher pages; shared acquisition possible.",
+  "source_scoped_retrieval": "Local publisher PDFs. No new download."
 }

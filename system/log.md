@@ -6734,3 +6734,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Lv 的 ¹³⁵Nd 手征论文出版版
 
 - 归档已有的 9 页出版版并核实逐线异文，10 页预印本保留为同一作品的另一版本。累计 88 份、8706 页主件。
+
+## 2026-11-21 — Mukhopadhyay 的两核绝对跃迁率
+
+- 对账 4+6 页，回查寿命、分支和强度及采集依赖。累计 90 份、8716 页主件，续读偶偶核 `130Ba`。
