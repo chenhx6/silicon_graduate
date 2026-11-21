@@ -1,0 +1,81 @@
+{
+  "scope": "Garg 2015 article, its separate 2019 erratum, and Guo–Petrache arXiv v2",
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000421",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf",
+          "sha256": "c74e7c12614cf405861c639194e132f3096d5f46d22062b0164fa166282b9e88",
+          "size": 571281,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+      "credited_primary_pages": 9,
+      "covered_sections": [
+        "PDF 1–4: experimental setup, original asymmetries, exchanged-gate DCO, level scheme, baseline calibration",
+        "PDF 5–9: cascade placements, magnetic dipole-band systematics, TAC and references"
+      ],
+      "evidence_gaps": [
+        "747.5 and 813.3 keV rows give original asymmetry and DCO but no signed delta or numerical P.",
+        "Use the erratum for the revised asymmetry values. This is an independent experiment from Matta 2015."
+      ]
+    },
+    {
+      "work_id": "catalogue:LIT-000422",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/pr135-erratum-2019.pdf",
+          "sha256": "c9fbed8bb0a1463c6d083f29e1331ff72102f5fb4edfdd96b76f3c5c0149db30",
+          "size": 95101,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/garg-2019-135pr-polarization-erratum.md",
+      "credited_primary_pages": 2,
+      "covered_sections": [
+        "PDF 1: calibration explanation, 21 old and new asymmetry rows and three-clover footnote",
+        "PDF 2: author interpretation, provenance and reference"
+      ],
+      "evidence_gaps": [
+        "Same experiment as Garg 2015. Corrected 747.5 and 813.3 keV asymmetries +0.03(3) and +0.04(3).",
+        "Same-effective-count-ratio test does not reproduce corrected centres. Detector selection and raw counts unavailable."
+      ]
+    },
+    {
+      "work_id": "arxiv:2007.10031v2",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/query/20261121-135pr-polarization-correction/guo-petrache-2007.10031v2.pdf",
+          "sha256": "5eaed35823008713910be2dcd4b6f6d057f67c38e725814428d13c0b2f618efc",
+          "size": 214672,
+          "hash_basis": "fresh-hash",
+          "source_role": "versioned-arxiv-preprint"
+        }
+      ],
+      "source_note": "knowledge/sources/guo-petrache-arxiv200710031-135pr-erratum-comment.md",
+      "credited_primary_pages": 2,
+      "covered_sections": [
+        "PDF 1: assumptions, calibration and count-ratio transform",
+        "PDF 2: 21 Table I rows, Eqs. (3)–(5), comparison and limits"
+      ],
+      "evidence_gaps": [
+        "No new experiment, no Q or signed delta, no raw counts.",
+        "Eq. (4) has a sign inconsistency; the central comparison in Eq. (3) is reproducible."
+      ]
+    }
+  ],
+  "primary_pages_credited": 13,
+  "independent_new_experiment_count_across_sources": 1,
+  "cross_checks": {
+    "rows_recalculated": 21,
+    "max_abs_residual_against_rounded_comment_delta": 0.000485611,
+    "eq4_correct_numerator": "(a_new - a_old) * (1 - Delta_old**2)"
+  },
+  "source_archive_manifest": "raw/papers/gpt/query/20261121-135pr-polarization-correction/manifest.json",
+  "reader": "Codex with previously audited page scope reconciled",
+  "PDM_run": false
+}

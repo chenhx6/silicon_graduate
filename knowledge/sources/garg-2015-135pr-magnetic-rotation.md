@@ -147,3 +147,5 @@ checkpoint005独立代理回核PDF7–8；此处是既有原件定向核，不�
 ## Current correction source
 
 The 2019 correction is recorded in [[garg-2019-135pr-polarization-erratum]]. For current multipolarity use, replace the old 813.3-keV `−0.20(8)` with `+0.04(3)` and the old 747.5-keV `−0.05(3)` with `+0.03(3)`; both are `M1+E2`. The erratum does not add absolute lifetimes or absolute B(M1), so the candidate MR interpretation remains bounded by the original source limitations.
+
+The current archive includes the two-page erratum and [[guo-petrache-arxiv200710031-135pr-erratum-comment]]. The original Table I \(R_{\rm DCO}\) values for the two lines are \(0.25(1)\) and \(0.22(2)\), both with quadrupole gates. The erratum revises \(\Delta\) from 90° clovers. Its \(a(E)\) corrects geometric imbalance, while a numerical \(P\) would also require the polarimeter sensitivity. The original and corrected records share the same experimental acquisition. Neither the two rows nor the erratum report the signed mixing ratios of those lines.

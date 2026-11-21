@@ -69,6 +69,13 @@ The correction concerns detector geometric-asymmetry calibration and polarizatio
 ## Sources
 
 - [[garg-2015-135pr-magnetic-rotation]] — corrected source paper, with erratum dependency.
+- [[guo-petrache-arxiv200710031-135pr-erratum-comment]] — fixed-count-ratio test of the stated calibration change.
+
+## 2026-11-21 — Original and corrected rows
+
+Table I prints 21 old/new asymmetry pairs from the same experiment. For 747.5 and 813.3 keV, the corrected \(\Delta\) values are \(+0.03(3)\) and \(+0.04(3)\). The correction function in footnote b pertains to three 90° clovers. In the original report, Section II describes four clovers installed at 90°. The actual selection and count extraction used for the corrected rows are undocumented at detector level.
+
+Substitution of the new geometric correction into the old central values with the effective count ratios fixed gives \(-0.0072,-0.1585\). This reproduces the comment's Eq. (3) test. Its premises are the published \(\Delta\) centres and fixed effective counts. The comparison does not identify the steps used to recalculate the peaks. The published corrections remain the reported values and contain neither numerical \(P\) nor a signed \(\delta\) for these transitions.
 
 ## Review Status
 

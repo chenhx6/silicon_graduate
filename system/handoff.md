@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Garg 的 ¹³⁵Pr 偏振勘误与计数比
+
+- [[garg-2015-135pr-magnetic-rotation]] 9 页和 [[garg-2019-135pr-polarization-erratum]] 2 页分开登记，按同次实验追溯两版不对称度。另存并核读 [[guo-petrache-arxiv200710031-135pr-erratum-comment]] 两页，复算 Table I 的 21 条记录，检出式 (4) 的二次项排印问题，保留计数选择和误差未知的边界。
+- 累计 83 份文献、8516 页主件，其中评论与勘误分别是文献，均未增加独立实验。续核馆藏 [[lv-2021-tilted-precession-135nd]] 的偏振、角比定义及逐线混合比。
+
 ## 2026-11-21 — ¹³⁵Pr 的 Matta 与 Sensharma 出版数据
 
 - [[matta-2015-transverse-wobbling-135pr]] 对账 6 页正文。混合比来自 Gammasphere 角分布，INGA 不对称度用于符号判别。[[sensharma-2019-two-phonon-wobbling-135pr]] 对账 5 页，区分新增 DGS 采集、继承的 TW1 强度比及学位论文的取向补充。

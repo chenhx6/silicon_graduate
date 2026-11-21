@@ -6710,3 +6710,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — ¹³⁵Pr 的 Matta 与 Sensharma 原刊
 
 - 对账 Matta 的 6 页和 Sensharma 2019 的 5 页，核实角分布、偏振不对称和对应的出版数据谱系。累计 80 份、8503 页主件，续读 Garg 的原刊及勘误。
+
+## 2026-11-21 — Garg 原刊、勘误与 Guo–Petrache 评论
+
+- 对账 9+2+2 页。复算发表的 21 条条件不对称度并核对评论公式的二次项。累计 83 份、8516 页主件，续读 `135Nd` 的 Lv 2021 原刊。
