@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Zhu 的 \(^{135}\mathrm{Nd}\) 三重门证据
+
+- [[zhu-2003-135nd-composite-chiral-pair]] 核定 10 页 arXiv v2，两份馆藏文件字节一致。保留 Fig. 3 的 170、282、309 keV 门，区分 896 keV 的方向强度比和 648、670 keV 的角分布及 DCO。
+- 累计核定 190 份、10752 个主件 PDF 页。接续 [[petrache-1998-highly-deformed-lifetimes-131ce-nd]]，核查形变带身份与 DSAM 的馈入假设。
+
 ## 2026-11-21 — Qi 的 \(^{135}\mathrm{Nd}\) 投影与转动域
 
 - [[qi-2009-135nd-particle-rotor-chirality]] 核定 16 页作者版。登记三个形变扇区给出的边缘投影、\(39/2\) 的 PRM 解释与 \(41/2\) 的 TAC+RPA 零劈裂。实验强度仍回到原寿命来源。

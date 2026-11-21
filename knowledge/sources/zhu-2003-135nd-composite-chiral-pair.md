@@ -103,6 +103,8 @@ Zhu et al. report the 135Nd Band A/B level scheme, same parity, interband links,
 
 ## Nuclear Structure Information
 
+Author PDF p. 5 Fig. 3 uses summed triple gates on Band A and Band B in the upper panels. Its bottom spectrum uses 170, 282 and 309 keV gates to show the 648-, 670- and 896-keV connections. For the 896-keV line the prose uses a forward-to-\(90^\circ\) intensity ratio of \(1.7(3)\) to assign E2. For the 648- and 670-keV links it instead uses angular distributions and the stated DCO comparison. These connection measurements belong to the 2003 experiment. A later comparison in [[qi-2009-135nd-particle-rotor-chirality]] uses the earlier band energies together with the strengths supplied by [[mukhopadhyay-2007-135nd-chiral-vibration-static]].
+
 Band A and Band B are same-parity ΔI=1 sequences in 135Nd, assigned in this work to the three-quasiparticle πh11/2^2νh11/2−1 configuration. Fig.2 shows several linking transitions and the associated level labels. The energy-resolved and spin-resolved scheme is the source for the cross-source mapping; the arrow width is relative intensity only.
 
 ## Authors' Interpretation

@@ -1,0 +1,36 @@
+{
+  "work_id": "catalogue:LIT-000788",
+  "recorded_at": "2026-11-21T15:24:27.392829+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md",
+  "raw_files": [
+    {
+      "path": "raw/papers/gpt/learning-daily/20260912-PREPLAN-135nd-crosswalk/zhu-2003-135nd-arxiv.pdf",
+      "sha256": "8dd7aaa0a2e369532dd673384bcc18c60abc330408f20243939b31df15d98542",
+      "size": 169558,
+      "hash_basis": "fresh-hash",
+      "source_role": "verified-official-arxiv-v2-reading-copy"
+    },
+    {
+      "path": "raw/papers/gpt/learning-daily/20261009-PREPLAN-high-spin-library/2003_Zhu et al_A Composite Chiral Pair of Rotational Bands in 135Nd.pdf",
+      "sha256": "8dd7aaa0a2e369532dd673384bcc18c60abc330408f20243939b31df15d98542",
+      "size": 169558,
+      "hash_basis": "fresh-hash",
+      "source_role": "byte-identical-copy"
+    }
+  ],
+  "credited_primary_pages": 10,
+  "coverage": [
+    "Author PDF 1–3: 135Nd candidate, reaction and high-fold Gammasphere setup.",
+    "Author PDF 3–5: level scheme, angular distribution, DCO and triple-gated spectra.",
+    "Author PDF 5–8: TAC comparison, configuration discussion, results and conclusion.",
+    "Author PDF 9–10: references."
+  ],
+  "reader": "Prior archived whole article record plus Codex verification, original figure/caption and text, including duplicate hashes.",
+  "evidence_boundary": [
+    "The two local 10-page PDFs have the same measured SHA-256 and are arXiv:nucl-ex/0302029v2. Give each work one count.",
+    "Fig. 3 groups 648, 670 and 896 keV lines using the 170, 282 and 309 keV gates. The line-specific angular observations are distinct, as is the approximately 648/649 keV wording.",
+    "Xi or lifetime inputs from later experiments are not attributed to the 2003 paper. Model interpretations remain separate."
+  ],
+  "next_action": "Verify five-page Petrache 1998 original on highly deformed bands in 134,135Nd and 131Ce, with DSAM side-feeding and band identities preserved."
+}

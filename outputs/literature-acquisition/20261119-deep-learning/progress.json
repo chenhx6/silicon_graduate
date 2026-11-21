@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000788",
+  "active_source": "catalogue:LIT-000623",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -472,9 +472,10 @@
     "HE01-136PM-138EU-ACQUISITION-AND-POLARIZATION",
     "TO07-134PR-LIFETIME-FEEDING-AND-INTERBAND-E2",
     "PE06-TWO-BAND-MIXING-AND-BRANCH-LINEAGE",
-    "QI09-PRM-MARGINAL-PROJECTIONS-AND-EM"
+    "QI09-PRM-MARGINAL-PROJECTIONS-AND-EM",
+    "ZH03-EXPERIMENTAL-TRIPLE-GATES-AND-BAND-IDENTITY"
   ],
-  "completed_full_sources_this_run": 189,
+  "completed_full_sources_this_run": 190,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -482,14 +483,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T15:17:58.091762+00:00",
+  "updated_at": "2026-11-21T15:24:27.392829+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10742,
-  "current_source_note": "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md",
-  "next_action": "Verify Zhu 2003 original 135Nd experiment and its band-link/spin evidence, preserving the reuse in Qi and later lifetime reports.",
+  "completed_primary_pages_this_run": 10752,
+  "current_source_note": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+  "next_action": "Verify five-page Petrache 1998 original on highly deformed bands in 134,135Nd and 131Ce, with DSAM side-feeding and band identities preserved.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Qi 2009 author edition full coverage, projection identities and distinct PRM/TAC+RPA predictions.",
-  "current_source_scientific_acceptance": "Zhu author copy verified. Two archived copies share a SHA, and the original scientific scope remains in review.",
-  "source_scoped_retrieval": "Reused the existing 16-page arXiv v1."
+  "last_source_manager_closure": "Zhu 2003 10-page author v2 and byte-identical copy, original gate and line assignment provenance.",
+  "current_source_scientific_acceptance": "Petrache 1998 five-page publisher original preliminarily identified; full reconciliation pending.",
+  "source_scoped_retrieval": "Reused same-hash local author copies; no new download."
 }

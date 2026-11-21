@@ -6990,3 +6990,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Qi 2009 的投影分布与模型能隙
 
 - 核定 16 页作者版，记录三组边缘分布、半整数样点和两种计算的高自旋响应。累计 189 份、10742 个主件 PDF 页。
+
+## 2026-11-21 — Zhu 2003 原始 135Nd 三重门谱
+
+- 核定 10 页 arXiv v2，之一为同 SHA 副本。回填 Fig. 3 门选、896 keV 强度比与后续实验的谱系。累计 190 份、10752 个主件 PDF 页。
