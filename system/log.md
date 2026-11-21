@@ -7102,3 +7102,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — Iskra 2019 的 E3 求和修正
 
 - 核定 5 页刊版，保留已采用半衰期、求和修正和新的分支强度。累计 221 份、11311 个主件 PDF 页。
+
+## 2026-11-22 — Rong 2023 的 E3 对照
+
+- 核定 10 页作者版，保留固定形变的矩阵元与修订数据对应。累计 222 份、11321 个主件 PDF 页。

@@ -1,0 +1,25 @@
+{
+  "work_id": "catalogue:LIT-000907",
+  "recorded_at": "2026-11-21T18:27:13.574401+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/campaign-g05-rong-2023-96zr-mdc-cdft.md",
+  "raw": {
+    "path": "raw/papers/gpt/query/20261107-campaign-G05/arxiv-2201.02114.pdf",
+    "sha256": "8efe9c1878d87afa98726c9af2441381bc8afd5b7cc6718bb27f0eda394ba685",
+    "size": 5422399,
+    "hash_basis": "fresh-hash",
+    "source_role": "verified-official-arxiv-v2-reading-copy"
+  },
+  "credited_primary_pages": 10,
+  "coverage": [
+    "Author PDF 1–3: motivation, covariant functional and projection formalism.",
+    "PDF 4–7: PES, symmetries, Table I, fixed-shape E3 comparison and functional checks.",
+    "PDF 7–10: interpretation and bibliography."
+  ],
+  "reader": "Earlier complete author-version reading and original Codex evidence check of the comparative details.",
+  "evidence_boundary": [
+    "The E3 matrix element is evaluated at fixed deformation, compared to Iskra 2019. No shape-mixed GCM wavefunction or new measurement.",
+    "Comparison among energy-density functionals is qualitative in the scoped passage, not an uncertainty interval for B(E3)."
+  ],
+  "next_action": "Reconcile Bucher 2016 144Ba direct Coulomb-excitation evidence, including matrix-element direction and marginal uncertainties."
+}
