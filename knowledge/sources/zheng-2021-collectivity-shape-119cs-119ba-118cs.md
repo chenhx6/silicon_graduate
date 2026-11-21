@@ -82,5 +82,5 @@ tags: [a120, shape-coexistence, chirality, triaxiality, phd-thesis]
 
 ## 与期刊出版版的证据关系
 
-- Ch.4 PDF 57–58／印刷 pp.51–52 所述 \(^{64}\mathrm{Zn}\) 束 255 MeV、\(^{58}\mathrm{Ni}\) 靶 \(0.75\,\mathrm{mg/cm^2}\)、JUROGAM 3＋MARA 及 3p、2p1n、3p1n 三条反应道共同定位该次采集。[[zheng-2021-cs118-bands-and-isomers]] 044325-2 明示三核相关结果同次采集。该文 Ref. 20 指向 \(^{119}\mathrm{Ba}\) 的 *Phys. Rev. C* 104, 014326。该期刊的正文在本次仅核过书目身份。
+- Ch.4 PDF 57–58／印刷 pp.51–52 所述 \(^{64}\mathrm{Zn}\) 束 255 MeV、\(^{58}\mathrm{Ni}\) 靶 \(0.75\,\mathrm{mg/cm^2}\)、JUROGAM 3＋MARA 及 3p、2p1n、3p1n 三条反应道共同定位该次采集。[[zheng-2021-cs118-bands-and-isomers]] 044325-2 明示三核相关结果同次采集。该文 Ref. 20 指向 [[zheng-2021-ba119-neutron-excitations]]。出版 Table I 与学位 Table 6.2 的 e/f 字母互换，按各自表注解释可核实 161.5、146.3 keV 的物理门一致。出版和论文均在 161.5 keV 行保留两支。
 - \(^{119}\mathrm{Cs}\) 的 Table 5.2／印刷 p.97 与 [[zheng-2021-cs119-proton-excitations]] Table II 的 208.7 keV 同宇称跃迁行及 1095.6 keV 反宇称行可一一对应。\(^{118}\mathrm{Cs}\) 的 Table 7.1／印刷 p.137 与出版 Table I 的 265.5 keV 行一致。\(^{118}\mathrm{Cs}\) 的 \(0.55(6)\,\mu\mathrm{s}\) 也对应同一组 79、126 keV 延迟计时谱。统计发表作品时分别登记，统计实测证据时各自按同次采集和同一跃迁记录。

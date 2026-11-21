@@ -6822,3 +6822,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — 郑宽宽的 \(^{119}\mathrm{Cs}\) 与 \(^{118}\mathrm{Cs}\) 出版版
 
 - 核读 39 页出版作品及其两页机构封面，核对代表数据行、相同采集及版本标签。累计 134 份、9400 页主件。
+
+## 2026-11-21 — \(^{119}\mathrm{Ba}\) 原刊补核
+
+- 归档并核读 11 页出版正文。用各版本表注核对门多极性并保留原文混合比候选。累计 135 份、9411 页主件。

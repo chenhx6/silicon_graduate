@@ -39,6 +39,7 @@ updated: 2026-11-21
 - [[zheng-2021-collectivity-shape-119cs-119ba-118cs]] — JUROGAM 3 的实际矩阵角组、偏振不对称与 ¹¹⁹Ba 两根。
 - [[zheng-2021-cs119-proton-excitations]] — ¹¹⁹Cs 出版表的全角门、偏振不对称与同次采集。
 - [[zheng-2021-cs118-bands-and-isomers]] — ¹¹⁸Cs 出版表的角量和混合比，以及焦平面异能态计时。
+- [[zheng-2021-ba119-neutron-excitations]] — ¹¹⁹Ba 出版表中的门脚注、偏振不对称和保留的混合比分支。
 - [[mukherjee-2022-shape-coexistence-octupole-72se]] — 72Se 混合比与取向标定的定向核读。
 - [[masiteng-2006-194tl-polarization-lifetime-thesis]] — 194Tl 全文，区分计数不对称、借用的 DCO、宇称指认和 RSAM 半衰期。
 - [[ramashidzha-2006-194tl-dco-level-scheme-thesis]] — 194Tl 的逐门 DCO、归属条件与 Masiteng 表格差异。

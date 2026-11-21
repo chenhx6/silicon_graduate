@@ -1,8 +1,8 @@
 {
   "created_at": "2026-11-19T14:50:09.195632+00:00",
   "status": "corpus-learning-active",
-  "pdf_files_registered": 1021,
-  "provisional_work_groups": 990,
+  "pdf_files_registered": 1022,
+  "provisional_work_groups": 991,
   "grouping_boundary": "Not a verified unique-publication count. Byte grouping and old catalogue associations require own-identity/edition/role/scope audits. Collection sources do not establish individual full reading.",
   "raw_roots": [
     "raw/papers",
@@ -17,9 +17,10 @@
     "HDR": 1,
     "abstract-or-examination": 1,
     "book-or-derived-edition": 36,
-    "translation-derivative; original-reading-not-duplicated": 4
+    "translation-derivative; original-reading-not-duplicated": 4,
+    "publisher-version-with-repository-cover": 1
   },
-  "freshly_hashed_files": 265,
+  "freshly_hashed_files": 266,
   "catalogue_signature_cache_hits": 751,
   "catalogue_snapshot": "2026-11-07T16:22:19.652272+00:00",
   "work_groups_with_source_associations": 583,
@@ -401,24 +402,25 @@
     "SUFFERT59-COVERAGE-RECONCILED",
     "ZHENG21-METHOD-AND-APPENDIX-PARTIAL",
     "ZHENG21-CS119-PRC044305-COMPLETE-SCIENTIFIC-SCOPE",
-    "ZHENG21-CS118-PRC044325-COMPLETE-SCIENTIFIC-SCOPE"
+    "ZHENG21-CS118-PRC044325-COMPLETE-SCIENTIFIC-SCOPE",
+    "ZHENG21-BA119-PRC014326-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 134,
+  "completed_full_sources_this_run": 135,
   "PDM_run": false,
   "new_search_or_download": true,
-  "queue_entries_including_closed_gaps": 997,
+  "queue_entries_including_closed_gaps": 998,
   "full_work_identity_reconciliation_complete": false,
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T07:00:48.558898+00:00",
+  "updated_at": "2026-11-21T07:09:20.321269+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 9400,
+  "completed_primary_pages_this_run": 9411,
   "current_source_note": "knowledge/sources/zheng-2021-collectivity-shape-119cs-119ba-118cs.md",
-  "next_action": "Reconcile Zheng thesis Chapters 1–8 and preserve band interpretations and measured/unmeasured constraints; seek exact local 119Ba journal original using the cited DOI.",
+  "next_action": "Continue Zheng dissertation chapter coverage and distinguish level-scheme evidence, relative transition strengths, shape coexistence and revolving chirality model.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Zheng 2021 Cs119 and Cs118 publisher versions and representative thesis data lineage.",
-  "current_source_scientific_acceptance": "Two papers with 39 publisher pages and two excluded institutional covers. One acquisition. Thesis remains partially verified.",
-  "source_scoped_retrieval": "Existing local repository copies of the APS versions. No new retrieval."
+  "last_source_manager_closure": "Zheng 119Ba publisher source, table/paragraph differences and thesis gate mapping.",
+  "current_source_scientific_acceptance": "11 newly read publisher pages plus archived but uncredited institutional cover.",
+  "source_scoped_retrieval": "Single targeted JYX publisher PDF for a known missing companion DOI, locally archived and checked."
 }

@@ -1,0 +1,34 @@
+{
+  "works": [
+    {
+      "work_id": "doi:10.1103/physrevc.104.014326",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/query/20261121-zheng-ba119-lineage/10.1103_PhysRevC.104.014326-jyx.pdf",
+          "sha256": "24e13d215bc41d29145a40d39a9283351f8a4f7a7bda9e0563292c995a95e274",
+          "size": 1605489,
+          "hash_basis": "fresh-hash",
+          "source_role": "publisher-version-with-repository-cover"
+        }
+      ],
+      "source_note": "knowledge/sources/zheng-2021-ba119-neutron-excitations.md",
+      "primary_pdf_pages": 12,
+      "credited_primary_pages": 11,
+      "repository_cover_pdf_pages": 1,
+      "covered_sections": [
+        "Publisher pp.1–6: setup, gamma coincidences, level scheme and 66 keV half-life",
+        "Publisher pp.7–8: alignment systematics and configuration models",
+        "Publisher pp.9–11: Table I, polarity/asymmetry, physical gate conditions, source lineage and bibliography"
+      ],
+      "evidence_gaps": [
+        "Table I retains two roots for 161.5, 146.3 and 184.2 keV despite available A_p. Mixed-ray amplitude convention remains as printed; fit-level sigma/I not reported.",
+        "91.9 keV large branch quoted in prose, both branches retained in the table."
+      ]
+    }
+  ],
+  "credited_primary_pages": 11,
+  "reader": "Codex",
+  "same_experiment": "Same 255 MeV 64Zn + 58Ni acquisition as the dissertation and the 118Cs/119Cs studies; 119Ba is a different channel.",
+  "targeted_download_manifest": "raw/papers/gpt/query/20261121-zheng-ba119-lineage/manifest.json",
+  "PDM_run": false
+}
