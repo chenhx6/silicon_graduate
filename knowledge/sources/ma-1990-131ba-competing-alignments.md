@@ -13,12 +13,12 @@ authors: [R. Ma, Y. Liang, E. S. Paul, N. Xu, D. B. Fossan, L. Hildingsson, R. A
 journal: "Physical Review C"
 year: 1990
 volume: 41
-pages: "717-728"
+pages: "717-729"
 doi: "10.1103/PhysRevC.41.717"
 citation_key: Ma_1990
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
-canonical_source: "Ma et al., Phys. Rev. C 41, 717-728 (1990)"
+canonical_source: "Ma et al., Phys. Rev. C 41, 717-729 (1990)"
 library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1990_Ma et al_Competing proton and neutron rotational alignments.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1990_Ma et al_Competing proton and neutron rotational alignments.pdf"
 raw_sha256: "a0dbdd4957d1d11af570b5daffc9c44609d9ef5ed570dc3ad32a67388dad90de"
@@ -35,12 +35,12 @@ tags: [131Ba, proton-alignment, neutron-alignment, signature-splitting, gamma-so
 
 ## Bibliographic Record
 
-- R. Ma *et al.*, *Phys. Rev. C* **41**, 717–728 (1990), DOI `10.1103/PhysRevC.41.717`.
+- R. Ma *et al.*, *Phys. Rev. C* **41**, 717–729 (1990), DOI `10.1103/PhysRevC.41.717`. The last local PDF page contains the end of the references. The publisher's Crossref record gives the same page range.
 - 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1990_Ma et al_Competing proton and neutron rotational alignments.pdf`。
 
 ## Scope and Reading Depth
 
-- PDF pp.717–728 (13 pages) fully read: `119Sn(12C,4n)` experiment, five-Ge coincidence/angle setup, Fig.1 ten bands, Table I angular/DCO/mixing data, alignment/reference analysis, cranking/TRS interpretation, N=75 isotone systematics (Table II) and conclusions.
+- Printed pp. 717–729 (13 PDF pages) cover the `119Sn(12C,4n)` experiment, five-Ge coincidence/angle setup, Fig. 1, Table I angular/DCO/mixing data, alignment/reference analysis, cranking/TRS interpretation, Table II, conclusions and references.
 - Not covered: cited neighboring-nucleus raw data and later reanalyses.
 
 ## Key Results
@@ -66,6 +66,8 @@ tags: [131Ba, proton-alignment, neutron-alignment, signature-splitting, gamma-so
 Ma *et al.* give a useful A≈130 example in which competing proton and neutron alignments reshape the same soft/triaxial core in opposite directions. The direct level/coincidence and angular data support the band map; crossing frequencies and `i_x` are derived from level energies, spin assignments and a Harris reference, while the γ values, configuration labels and shape evolution remain cranking/TRS interpretations. The reported neutron bands 7/8 do not share one crossing value, and neither crossing nor alignment directly measures a pairing gap.
 
 ## Competing Interpretations and Limitations
+
+- Table I averages the DCO ratios over several stretched-quadrupole gates (printed p. 723). The near-\(90^\circ\) detector group is \(+78^\circ,-78^\circ\), compared with \(+145^\circ,+12^\circ,-145^\circ\). Each gate is set on both axes to form the ratio. This calibration and gate belong to the older five-detector measurement.
 
 - A large signature splitting can reflect triaxiality, γ softness, configuration mixing or alignment blocking; it is not a unique `γ` meter.
 - Proton/neutron crossing frequencies depend on Harris reference, pairing and cranking parameters. The inferred `γ≈0`/`−60°` minima are model outputs.

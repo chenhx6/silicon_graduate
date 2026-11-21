@@ -1,0 +1,26 @@
+{
+  "work_id": "catalogue:LIT-000541",
+  "recorded_at": "2026-11-21T17:37:16.034779+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/ma-1990-131ba-competing-alignments.md",
+  "raw": {
+    "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1990_Ma et al_Competing proton and neutron rotational alignments.pdf",
+    "sha256": "a0dbdd4957d1d11af570b5daffc9c44609d9ef5ed570dc3ad32a67388dad90de",
+    "size": 685089,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "credited_primary_pages": 13,
+  "coverage": [
+    "Print pp. 717–719: physics, detector settings, assigned level scheme.",
+    "Print pp. 719–725: energy, intensities, angular distributions, DCO and model assumptions for Table I.",
+    "Print pp. 725–729: proton/neutron crossings, Table II and references."
+  ],
+  "reader": "Prior documented whole read and Codex primary article and publisher-deposit checks.",
+  "evidence_boundary": [
+    "The final physical page is the end of the references (printed range 717–729 confirmed by the publisher deposit).",
+    "DCO ratios average across several stretched-quadrupole gates. Gate/detector angles are source specific.",
+    "Spin, geometry and configurations for weakly linked bands preserve their uncertainty."
+  ],
+  "next_action": "Reconcile the 131Ba Wang 2020 pseudospin/octupole spectroscopy paper and its publication/experiment dependencies."
+}

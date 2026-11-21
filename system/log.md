@@ -7054,3 +7054,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — Wakudyanaye 硕士论文复核
 
 - 核定 130 页馆藏底本、章节、角比和三条混合比的数据边界。累计 208 份、11149 个主件 PDF 页。
+
+## 2026-11-22 — Ma 的 131Ba DCO 原件
+
+- 核定 13 页刊版和参考文献末页，记录多重四极门平均。累计 209 份、11162 个主件 PDF 页。

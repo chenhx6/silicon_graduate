@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — \(^{131}\mathrm{Ba}\) 的早期 DCO 与转动顺排
+
+- [[ma-1990-131ba-competing-alignments]] 核定 13 页刊版（717–729）。保留五探测器角组、拉伸四极门与多门平均条件。
+- 累计核定 209 份、11162 个主件 PDF 页。接续 [[continuation-g21-wang-2020-prc102-131ba-pseudospin-octupole]]。
+
 ## 2026-11-22 — Wakudyanaye 学位论文及带间混合比
 
 - [[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] 核定 130 页硕士论文。保留同源采集的 AFRODITE 计数与阵列描述差异、全角门角比及 Band 4 三条混合比。原文未把这三条线与数值线偏振和标定相连。
