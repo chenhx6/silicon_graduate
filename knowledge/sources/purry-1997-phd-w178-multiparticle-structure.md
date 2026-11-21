@@ -7,7 +7,7 @@ updated: 2026-10-18
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis
-reading_depth: skimmed
+reading_depth: deep-read
 title_original: "High-Spin Multi-Particle and Collective Structure in 178W"
 authors: [Christopher Stephen Purry]
 year: 1997
@@ -40,6 +40,8 @@ Christopher Stephen Purry，*High-Spin Multi-Particle and Collective Structure i
 合法公开入口为[Surrey博士记录](https://openresearch.surrey.ac.uk/esploro/outputs/doctoral/High-spin-multi-particle-and-collective-structure-in/99513285802346)，[实际delivery](https://openresearch.surrey.ac.uk/view/delivery/44SUR_INST/12139097650002346/13140443510002346)。OpenAIRE题名/作者检索先发现该institutional URL，随后实际PDF题名/作者/May1997/内容核验。旧epubs `10147989.pdf`只作发现链接，没有下载或认定其hash相同。当前实际PDF位于`tmp/day16-purry-thesis-retrieval/PDFs/High-spin_multi-particle_and_collective_structure_in_178W.pdf`；raw_file是未填充归档槽，本任务不改raw，不称归档已完成。没有匹配本地Bib条目，key留空。
 
 ## Scope and Reading Depth
+
+2026-11-21 复核 112 页本地原件的 108 页科研和书证范围。PDF 4–5、7–112 覆盖题页、摘要、目录、第 1–6 章及参考文献。第 2 章、第 5 章和 Table 4.1 的连续表页本次补读，表格采用选择性视觉回核。馆藏封面、图书馆和 ProQuest 告知页及致谢单列。下述 skimmed 为 2026-10-18 的历史覆盖。
 
 本轮为**围绕电子/γ响应与DCO反证的定向原件阅读**，whole-thesis状态仅skimmed。已读title/abstract/contents、Ch1 printed1–3、Ch3 printed12–24的完整实验和离线分析主线、Ch4 printed25–31的纲图/谱/假设、Table4.1 printed32/39/40的所选reference/921/1090行及脚注、printed49–54相关能级讨论、Ch6 printed95–97结论、bibliography的Do79/Kr88/Kr89/Pu95/Ro78。原图重点核printed21/22/23、28/Fig4.1c、31/Fig4.3、32/39/Table4.1、52/能级修订。
 
@@ -94,3 +96,9 @@ PDF页=printed页+9，例如printed21=PDF30、printed39=PDF48、printed52=PDF61�
 
 - [[w178-921-dco-gate-double-solutions]]、[[internal-conversion-analysis]]、[[dco-ratio]]。
 - [[nndc-2009-178w-dco-reference-records]]作为dependent evaluation入口；未新建整核结构或全部band页面。
+
+## 2026-11-21 — 计时门、带混合和阻碍因子
+
+- Table 4.2（PDF 50，印刷 p. 41）列各态的计时早门和延迟门。3525 keV 的 \(13^-\) 态为 \(T_{1/2}<1\) ns，3654 keV 的 \(15^+\) 态为 \(30(1)\) ns，6571 keV 的 \(25^+\) 异能态为 \(220(10)\) ns。3654 keV 的计时窗口跨越中间态，表脚注以 3593 keV 态约 3 ns 对拟合斜率影响可忽略来处理。3053 keV 的 \(<2\) ns 也带有跨多态计时的上界脚注。
+- 第 5 章把观测的带交叉、出带与带内 E2 强度比，以及模型中的未混合带、Coriolis 矩阵元和组态分层。Table 5.2 的 \(K=7,8\) 双带拟合给相对于模型约 0.5 的矩阵元比例，其数值依赖未混合能级的设定。Tables 5.3–5.4 的阻塞配对计算与能量、惯量比较用于辅助组态归属。
+- Table 5.6（PDF 99）既给 \(K=25\) 6571 keV 态 182.9 keV 的 E1 约化阻碍 \(f_\nu=25\)，也给 3053 keV 等低寿命态的阻碍上限。E1 栏有 \(10^4\) 经验归一，核查跨多极性比较时须保留这一约定。作者按相对 yrast 的能量和衰变路径讨论 \(K\) 混合，原表数值不直接测量波函数成分。

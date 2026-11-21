@@ -1,0 +1,40 @@
+{
+  "work_id": "catalogue:LIT-000637",
+  "raw_files": [
+    {
+      "path": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/purry-1997-phd-high-spin-multiparticle-178w-b8ee1308d487.pdf",
+      "sha256": "b8ee1308d4871c1514d0ed54b3d523104da143bb346088a24eb008d97fc96753",
+      "size": 3748295,
+      "hash_basis": "fresh-hash",
+      "source_role": "original-or-verified-edition"
+    }
+  ],
+  "source_note": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+  "primary_pdf_pages": 112,
+  "credited_primary_pages": 108,
+  "excluded_pdf_pages": [
+    1,
+    2,
+    3,
+    6
+  ],
+  "covered_sections": [
+    "PDF 4–5, 7–20: title, abstract, contents, nuclear structure models",
+    "PDF 21–33: CAESAR and conversion apparatus, gates and experiment",
+    "PDF 34–70: level schemes, Table 4.1 page inventory, Table 4.2 time gates and band/cascade assignments",
+    "PDF 71–106: band-crossing, blocked pairing and Coriolis analysis, branch strengths, hindrance and summary",
+    "PDF 107–112: references and evidence lineage"
+  ],
+  "visual_checks": [
+    50,
+    61,
+    99
+  ],
+  "evidence_gaps": [
+    "Foil and electronic conversion experiment differ from original CAESAR gamma gates and earlier OSIRIS DCO.",
+    "The 3525/3654-keV spin/half-life revision does not reproduce the 921-keV mixing-ratio fit.",
+    "Selected original numbers and table structure verified; all Table 4.1 lines not fully re-transcribed and no raw covariance."
+  ],
+  "reader": "Codex with existing targeted reading reconciled",
+  "PDM_run": false
+}

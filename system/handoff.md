@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Purry 的 ¹⁷⁸W 转换谱与计时
+
+- [[purry-1997-phd-w178-multiparticle-structure]] 对账馆藏 112 页中的 108 页科研及书证内容。补核 Table 4.2 的计时门、带交叉和约化阻碍因子，把 3525 keV 态与 3654 keV 异能态的半衰期分开。
+- 累计 109 份、8998 页主件。续核 [[radeck-2012-deorientation-lifetime-98ru-rdds]] 的时间相关去取向、角度接受度及寿命条件。
+
 ## 2026-11-21 — 入口取向、侧馈和高自旋指认指南
 
 - 核对 [[diamond-1966-nuclear-alignment-heavy-ion-reactions]] 三页、[[draper-1970-gaussian-substate-side-feeding]] 十四页及 [[summary-2013-bases-spin-parity-assignments]] 三页。分别落实同母态纯线约束、侧馈与总布居的区别和指南典型值的适用范围。
