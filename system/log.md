@@ -6930,3 +6930,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — RPA 有效惯量和 E2 偏差
 
 - 核对 Matsuzaki 两篇原件版本、形变输入和带符号求和公式。累计 168 份、10445 个主件 PDF 页。
+
+## 2026-11-21 — RPA 软化与 TAC 浅极小
+
+- 对照 Matsuzaki–Ohtsubo 13 页作者稿、指定组态与轴角定义。累计 169 份、10458 个主件 PDF 页。

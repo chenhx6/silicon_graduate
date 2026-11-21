@@ -1,0 +1,25 @@
+{
+  "work_id": "catalogue:LIT-000977",
+  "recorded_at": "2026-11-21T13:08:46.538177+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/campaign-g07-matsuzaki-2004-wobbling-instability.md",
+  "raw": {
+    "path": "raw/papers/gpt/query/20261107-campaign-G07/matsuzaki-2004-wobbling-instability-prc-nucl-th-0309082.pdf",
+    "sha256": "0c8d23e8c8fb25fb3cab413447a74654afbbcf66ceeeda24b2212173cb9a154e",
+    "size": 734446,
+    "hash_basis": "fresh-hash",
+    "source_role": "verified-arxiv-reading-copy"
+  },
+  "credited_primary_pages": 13,
+  "coverage": [
+    "PDF 1–6: tilted-axis cranking, RPA and rotating-reference terms.",
+    "PDF 7–11: specified Gd model scan, Lu and Yb examples, and Figs. 1–6.",
+    "PDF 12–13: bibliographic references."
+  ],
+  "reader": "Codex local full-text check and existing visually checked Figs. 3–6",
+  "evidence_boundary": [
+    "TAC axis angle is defined for the rotation-frequency vector; the RPA angle is an angular-momentum fluctuation.",
+    "Model instability is not an experimental transition criterion."
+  ],
+  "next_action": "Reconcile the Frauendorf–Dönau 2014 transverse-wobbling paper and audit its assumed coupling and stability regime against the completed rotating-RPA sources."
+}

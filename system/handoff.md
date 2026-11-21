@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Matsuzaki–Ohtsubo RPA 与倾斜转轴
+
+- [[campaign-g07-matsuzaki-2004-wobbling-instability]] 核对 13 页作者稿。保留 \(^{146}\mathrm{Gd}\) 指定模型中约 32° 的 RPA 失稳与约 30° 的浅 TAC 极小，区分角动量涨落和频率向量的角。
+- 累计 169 份、10458 个主件 PDF 页。接续 [[frauendorf-2014-transverse-wobbling]]。
+
 ## 2026-11-21 — Matsuzaki RPA 的有效惯量与电磁强度
 
 - [[matsuzaki-2002-positive-gamma-wobbling-163lu]] 与 [[matsuzaki-2004-nuclear-inertia-and-wobbling]] 分别核对 11 与 22 页作者稿。区分实验对照、历史四极矩输入、主轴运动学惯量及横向动态响应。带间 E2 强度偏差保留在模型比较中。出版说明单独登记。
