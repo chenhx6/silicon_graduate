@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — A≈130 形变带的 DSAM 馈入
+
+- [[petrache-1998-highly-deformed-lifetimes-131ce-nd]] 核定五页刊版。记下薄靶已见而厚靶未见的高段跃迁如何纳入拟合，及双门相对馈入关系。其 \(^{135}\mathrm{Nd}\)、\(^{131}\mathrm{Ce}\) 结果限定于该文 HD 带。
+- 累计核定 191 份、10757 个主件 PDF 页。接续 [[li-2004-lifetimes-131ce]] 和 [[singh-2016-lifetime-131ce-133pr]] 的正常形变序列与门选寿命。
+
 ## 2026-11-21 — Zhu 的 \(^{135}\mathrm{Nd}\) 三重门证据
 
 - [[zhu-2003-135nd-composite-chiral-pair]] 核定 10 页 arXiv v2，两份馆藏文件字节一致。保留 Fig. 3 的 170、282、309 keV 门，区分 896 keV 的方向强度比和 648、670 keV 的角分布及 DCO。

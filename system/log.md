@@ -6994,3 +6994,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Zhu 2003 原始 135Nd 三重门谱
 
 - 核定 10 页 arXiv v2，之一为同 SHA 副本。回填 Fig. 3 门选、896 keV 强度比与后续实验的谱系。累计 190 份、10752 个主件 PDF 页。
+
+## 2026-11-21 — 形变带 DSAM 的带顶与馈入
+
+- 核对 Petrache 1998 五页刊版及厚薄靶带高段依赖。累计 191 份、10757 个已登记主件 PDF 页。

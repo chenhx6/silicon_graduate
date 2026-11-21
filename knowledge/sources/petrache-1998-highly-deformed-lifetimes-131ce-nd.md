@@ -70,6 +70,10 @@ C. M. Petrache 等，*Physical Review C* **57**, R10–R14 (1998)，DOI `10.1103
 
 ## Key Evidence and Reasoning Chain
 
+On R11 (PDF 2), the fit includes the previously known highest transitions above the visible thick-target cascades. Those transitions were seen in earlier thin-target reports with comparable beams and targets. Their slow side feeding helps explain why \(F(\tau)\) of the highest observed thick-target lines stays below one. The fitted band \(Q_0\) is conditional on that extension of the level scheme and feeding history.
+
+On R12 (PDF 3), gates restricted to higher transitions reduce the side-feeding contribution but give centroid uncertainties too large to use. The adopted all-combinations in-band double gates need explicit feeding. In the authors' prescription, a gate on an in-band transition removes side feeding for states below that transition while leaving side feeding to those above it. The paper treats the unresolved cascade as a single effective feeder for the centroid fit. Its \(^{135}\mathrm{Nd}\) result is for the highly deformed yrast band with a proposed \(\nu i_{13/2}\) occupation, whereas [[mukhopadhyay-2007-135nd-chiral-vibration-static]] analyzes another band pair and reports level lifetimes.
+
 - shared reaction/systematics + ISIS channel separation + angle-dependent centroids → 五条带的可比 `F(τ)` 曲线（PDF pp. 2-3; Figs. 1-2）。
 - DSAM + common side-feeding treatment → Table I 中 `134Nd` yrast/excited HD、Band 3、`135Nd` HD 与 `131Ce` yrast HD 的 `Q0/Q_sf`（PDF pp. 2-4; Fig. 2; Table I）。
 - `134Nd` 中不同 `νi13/2` occupancy candidates 的 `Q0` 不呈简单单调增加 → intruder polarization 不能按 A≈150 的简单 additivity 直接外推（PDF pp. 3-4 / journal pp. R12-R13）。
