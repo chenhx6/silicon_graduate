@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — \(^{98}\mathrm{Mo}\) 的 E3 分支与强度排序
+
+- [[karmakar-2025-2026-98mo-octupole-preview]] 核定 8 页刊版。\(5^-\) 的 \(^{98}\mathrm{Mo}/^{100}\mathrm{Ru}\) 光子分支比和 \(B(E3)/B(E2)\) 排序不同，保留表 2 的支路能量与寿命边界。
+- 累计核定 219 份、11302 个主件 PDF 页。接续 [[mach-1990-96zr]]。
+
 ## 2026-11-22 — \(^{100}\mathrm{Ru}\) 薄靶与厚靶数据配对
 
 - [[karmakar-2023-2024-100ru-alternate-parity-bands]] 与 [[karmakar-2024-100ru-enhanced-e1-lifetimes]] 核定 13 与 6 页作者版。按母态匹配薄靶分支、厚靶拟合 E2 线及对应 E1 输出，保留六条有限 E1 和高自旋上限。

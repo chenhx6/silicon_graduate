@@ -1,0 +1,25 @@
+{
+  "work_id": "catalogue:LIT-000993",
+  "recorded_at": "2026-11-21T18:18:17.886310+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/karmakar-2025-2026-98mo-octupole-preview.md",
+  "raw": {
+    "path": "raw/papers/⁹⁸Mo A possible candidate for octupole collectivity in A ≈ 100 region.pdf",
+    "sha256": "958364569a5a07aa7dee2fc8d44a150b1fa876b9cb5a8e3636bb6a4a84f970b1",
+    "size": 8676647,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "credited_primary_pages": 8,
+  "coverage": [
+    "Printed pp. 1–5: experimental apparatus, angular observables, line placement and Table 1.",
+    "Printed pp. 5–8: Tables 2–3, octupole ratio discussion, comparisons, limits and references."
+  ],
+  "reader": "Previously recorded full publication reading plus Codex direct ratio/source verification.",
+  "evidence_boundary": [
+    "The I(E3)/I(E2) ranking and B(E3)/B(E2) ranking for 5 minus differ across Mo and Ru. The same-parent photon energies are essential to the conversion.",
+    "Absolute low-spin Mo lifetimes or B(E3) not measured in this work. Weak E3 assignments have no directly reported DCO or polarization values.",
+    "No direct observation of high-spin interleaved E1 links under the reported sensitivity."
+  ],
+  "next_action": "Verify the Mach 1990 96Zr primary octupole/dipole strength evidence and its lifetime coverage."
+}

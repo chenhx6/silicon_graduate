@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000993",
+  "active_source": "catalogue:LIT-000997",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -501,9 +501,10 @@
     "XX19-AS74-THESIS-AND-MISSING-LOW-ENERGY-LINK",
     "SE15-CS124-ABSOLUTE-E1-TWO-NORMALIZATIONS",
     "KM23-RU100-THIN-TARGET-BRANCH-AND-RATE-RATIOS",
-    "KM24-RU100-THICK-TARGET-LIFETIME-LINE-IDENTITY"
+    "KM24-RU100-THICK-TARGET-LIFETIME-LINE-IDENTITY",
+    "KM26-98MO-PHOTON-AND-REDUCED-STRENGTH-RATIOS"
   ],
-  "completed_full_sources_this_run": 218,
+  "completed_full_sources_this_run": 219,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -511,14 +512,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T18:13:23.203909+00:00",
+  "updated_at": "2026-11-21T18:18:17.886310+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 11294,
-  "current_source_note": "knowledge/sources/karmakar-2025-2026-98mo-octupole-preview.md",
-  "next_action": "Verify the 98Mo possible-octupole paper and compare its original data and model scope to the 100Ru sequence.",
+  "completed_primary_pages_this_run": 11302,
+  "current_source_note": "knowledge/sources/mach-1990-96zr.md",
+  "next_action": "Verify the Mach 1990 96Zr primary octupole/dipole strength evidence and its lifetime coverage.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "100Ru thin and thick target scientific works, related source inputs and E1/E2 transition identities.",
-  "current_source_scientific_acceptance": "98Mo article queued.",
-  "source_scoped_retrieval": "Reused two existing official author copies with verified fingerprints."
+  "last_source_manager_closure": "Karmakar 98Mo 8-page publisher edition and E3 branch-to-strength boundary.",
+  "current_source_scientific_acceptance": "Mach 1990 original queued.",
+  "source_scoped_retrieval": "Reused the archived publisher PDF."
 }

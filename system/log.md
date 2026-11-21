@@ -7090,3 +7090,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — 100Ru 厚薄靶配对
 
 - 核定 13 与 6 页作者版。逐类区分光子分支、约化强度、拟合 E2 线和 E1 输出。累计 218 份、11294 个主件 PDF 页。
+
+## 2026-11-22 — 98Mo 的 E3 比值原件
+
+- 核定八页刊版及 Table 2 的跨核比较。累计 219 份、11302 个主件 PDF 页。
