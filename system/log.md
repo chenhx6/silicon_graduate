@@ -6834,3 +6834,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Casten Coriolis 章节版本核验
 
 - 核对两版章节与选定公式，订正退耦相位、能量因子和衰减适用条件。两版均按部分覆盖登记。
+
+## 2026-11-21 — 区域谱学转折与有限核相变
+
+- Casten 两版增加结构演化的章节覆盖。核读 1999 年原始分析的 16 页版本，并对账 Nomura 等 2017 年的 13 页版本。区分区域能量斜率、指定 IBM 路径的势能最低点与奇核态依赖不变量。累计 138 份、9607 页主件。

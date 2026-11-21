@@ -97,6 +97,12 @@ $$V_{BF} = \sum_j \Gamma_j [Q_B \cdot (a_j^\dagger \tilde{a}_j)] + \sum_{j j'} \
 
 ## Counter-evidence and Competing Interpretations
 
+### 有限核中的三类量
+
+- \(R_{4/2}=E(4_1^+)/E(2_1^+)\) 是单核能谱比。跨核素的 \(E(4_1^+)\)–\(E(2_1^+)\) 斜率则取自区域拟合。截距非零时二者不同。约 120 keV 是所考察区域的经验转折尺度。[[casten-kusnezov-zamfir-1999-finite-nuclear-phase-transitions]]，Figs. 1–3；[[book-casten-nuclear-structure-simple-perspective]]，二版 Eqs. (7.2)–(7.4)。
+- IBM 势能面的控制量可选 \(\xi\)，序参量可选 \(\beta_{\min}\)，二者属于指定哈密顿量的结果。比较单核的 \(0_2^+\) 构型还需看相关带内和带间 E2 强度及竞争模型。教材 \(^{152}\mathrm{Sm}\) 的强度更新说明版本和跃迁身份会改变这一比较。[[book-casten-nuclear-structure-simple-perspective]]，二版 Figs. 7.21、7.26–7.28。
+- 奇核的态依赖 \(\gamma_{\rm eff}\) 还取决于费米子耦合、跃迁算符和求和截断。\(N=76\)–78 的模型归纳应与各态、各同位素链的具体结果并列。[[nomura-2017-odd-mass-gamma-soft-shape-transitions]]，Figs. 13–15 及 §IV。
+
 1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
 2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
 

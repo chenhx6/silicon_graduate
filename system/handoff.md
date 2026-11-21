@@ -3,6 +3,12 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Casten 的有限核相变与 A≈130 对照
+
+- [[book-casten-nuclear-structure-simple-perspective]] 核读一版 §6.7 与二版 Ch.7，核实有效价空间、区域能量斜率与单核能量比、约 120 keV 的经验转折和 \(^{152}\mathrm{Sm}\) 谱学更新。两版保留章节覆盖。
+- [[casten-kusnezov-zamfir-1999-finite-nuclear-phase-transitions]] 对账 16 页 arXiv v1，出版全文接口返回 401。[[nomura-2017-odd-mass-gamma-soft-shape-transitions]] 对账 13 页本地 arXiv v2，保留态依赖的模型判据和原图复算边界。两件累计至 138 份、9607 页主件。
+- Gemini 的 Casten §7.4 单元超时，采纳零条。本轮用 Codex 原件核读。下一步对照 Casten 两版的集体模型章节，优先核第二版 Ch.6 的 GCM 和章前勘误。
+
 ## 2026-11-21 — Casten 两版的 Coriolis 公式与转动对齐
 
 - [[book-casten-nuclear-structure-simple-perspective]] 核对第一版 Ch.8 与第二版 Ch.9。原图证实第一版退耦能量式的整体负号及强耦合例题的因子已在二版修正。同步订正 source 页和技能中的章节定位，保留配对重叠、经验衰减和结构解释各自的条件。

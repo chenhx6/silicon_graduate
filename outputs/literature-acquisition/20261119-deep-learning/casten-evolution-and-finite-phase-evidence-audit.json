@@ -1,0 +1,101 @@
+{
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000001",
+      "source_note": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
+      "coverage_added": "PDF 315–348, printed pp.297–330, Chapter 7: regional systematics, slopes and observable correlations, finite-nucleus transitions and 152Sm.",
+      "credited_primary_pages": 0,
+      "state": "partial-evidence-verified"
+    },
+    {
+      "work_id": "catalogue:LIT-000306",
+      "source_note": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
+      "coverage_added": "PDF 249–261, printed pp.234–246, section 6.7: effective valence counting and  NpNn/P systematics.",
+      "credited_primary_pages": 0,
+      "state": "partial-evidence-verified"
+    },
+    {
+      "work_id": "catalogue:LIT-000603",
+      "source_note": "knowledge/sources/nomura-2017-odd-mass-gamma-soft-shape-transitions.md",
+      "raw_files": [
+        {
+          "path": "raw/papers/2017_Nomura et al_Shape-phase transitions in odd-mass γ -soft nuclei with mass A ≈ 130.pdf",
+          "sha256": "481e6a9e0f6b01e9c5db5e2b06d9b350dba0638393c7da7f532c3040e9efaea9",
+          "size": 1039399,
+          "hash_basis": "fresh-hash",
+          "source_role": "verified-arxiv-v2-reading-copy"
+        }
+      ],
+      "primary_pdf_pages": 13,
+      "credited_primary_pages": 13,
+      "covered_sections": [
+        "PDF 1–5: identity, RHB and IBM mapping, valence orbit and interaction parameters, E2/M1 operators.",
+        "PDF 5–10: figures and comparison of even-even cores and four odd-mass isotope chains.",
+        "PDF 10–13: restricted E2 invariants, state dependence, conclusions and bibliography."
+      ],
+      "evidence_gaps": [
+        "Version is the locally held arXiv v2. Publication identity confirmed independently; publisher files and any typesetting differences have not been audited.",
+        "Gamma_eff values are model products. The prior 128Ba original-figure replay discrepancy remains unresolved."
+      ],
+      "basis": "Prior full-scope reading plus current source, figures and conclusion reconciliation."
+    },
+    {
+      "work_id": "doi:10.1103/physrevlett.82.5000",
+      "source_note": "knowledge/sources/casten-kusnezov-zamfir-1999-finite-nuclear-phase-transitions.md",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/query/20261121-casten-finite-nuclei/Casten1999-arxiv-v1.pdf",
+          "sha256": "e820488afdcbee3271fee3ae7b56b8d00856aa84ca740d9aee0889abda185be9",
+          "size": 168297,
+          "hash_basis": "fresh-hash",
+          "source_role": "verified-arxiv-v1-reading-copy"
+        }
+      ],
+      "primary_pdf_pages": 16,
+      "credited_primary_pages": 16,
+      "covered_sections": [
+        "PDF 1–8: paper, captions and bibliography.",
+        "PDF 9–12: empirical figures, correlation and separation-energy panel labels.",
+        "PDF 13–16: IBM panels and Sm energy surfaces."
+      ],
+      "evidence_gaps": [
+        "Publisher full-text endpoint returned HTTP 401. Local arXiv v1 is the actual reading copy.",
+        "The figures compile earlier data; §7.4 of Casten textbook reproduces key arguments."
+      ]
+    }
+  ],
+  "credited_primary_pages": 29,
+  "partial_book_chapters_credited_as_full_works": 0,
+  "reader": "Codex; Nomura earlier scientific range reconciled",
+  "gemini_attempt": {
+    "task_id": "CASTEN00-FINITE-NUCLEAR-STRUCTURE-339-348",
+    "requested_model": "agy-cli/gemini-3.8-flash",
+    "requested_effort": "high",
+    "attempted_at": "2026-11-21T07:42:30.736252+00:00",
+    "accepted_findings": 0,
+    "source_sha256": "a016501ba9897abd73c34d366b93bc4435d3e4d2154c3b949b4f541128a7013c",
+    "provided_page_ids": [
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348
+    ],
+    "visual_page_ids": [
+      343,
+      344,
+      347,
+      348
+    ],
+    "status": "call-or-parse-failed",
+    "error_type": "TimeoutError",
+    "elapsed_seconds": 90.2
+  },
+  "targeted_download_manifest": "raw/papers/gpt/query/20261121-casten-finite-nuclei/manifest.json",
+  "PDM_run": false
+}

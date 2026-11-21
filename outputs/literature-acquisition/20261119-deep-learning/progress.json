@@ -1,8 +1,8 @@
 {
   "created_at": "2026-11-19T14:50:09.195632+00:00",
   "status": "corpus-learning-active",
-  "pdf_files_registered": 1022,
-  "provisional_work_groups": 991,
+  "pdf_files_registered": 1023,
+  "provisional_work_groups": 992,
   "grouping_boundary": "Not a verified unique-publication count. Byte grouping and old catalogue associations require own-identity/edition/role/scope audits. Collection sources do not establish individual full reading.",
   "raw_roots": [
     "raw/papers",
@@ -18,9 +18,10 @@
     "abstract-or-examination": 1,
     "book-or-derived-edition": 36,
     "translation-derivative; original-reading-not-duplicated": 4,
-    "publisher-version-with-repository-cover": 1
+    "publisher-version-with-repository-cover": 1,
+    "verified-arxiv-v1-reading-copy": 1
   },
-  "freshly_hashed_files": 266,
+  "freshly_hashed_files": 267,
   "catalogue_signature_cache_hits": 751,
   "catalogue_snapshot": "2026-11-07T16:22:19.652272+00:00",
   "work_groups_with_source_associations": 583,
@@ -405,24 +406,27 @@
     "ZHENG21-CS118-PRC044325-COMPLETE-SCIENTIFIC-SCOPE",
     "ZHENG21-BA119-PRC014326-COMPLETE-SCIENTIFIC-SCOPE",
     "ZHENG21-THESIS-COVERAGE-RECONCILED",
-    "CASTEN-90-00-CORIOLIS-PARTIAL"
+    "CASTEN-90-00-CORIOLIS-PARTIAL",
+    "CASTEN-90-00-COLLECTIVITY-EVOLUTION-PARTIAL",
+    "CKZ99-ARXIV9905002-READ",
+    "NOMURA17-ARXIV170407101V2-COVERAGE-RECONCILED"
   ],
-  "completed_full_sources_this_run": 136,
+  "completed_full_sources_this_run": 138,
   "PDM_run": false,
   "new_search_or_download": true,
-  "queue_entries_including_closed_gaps": 998,
+  "queue_entries_including_closed_gaps": 999,
   "full_work_identity_reconciliation_complete": false,
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T07:33:30.539294+00:00",
+  "updated_at": "2026-11-21T08:00:35.559001+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 9578,
+  "completed_primary_pages_this_run": 9607,
   "current_source_note": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
-  "next_action": "Read Casten 2000 Chapter 7 in comparison with its 1990 Chapter 6 counterparts, retaining the finite-system phase-transition additions and evidence limits.",
+  "next_action": "Compare the first and second Casten collective-model chapters, starting with the second-edition geometric collective model and the errata slip.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Casten both editions: Coriolis chapter only; source formula and numerical example corrections.",
-  "current_source_scientific_acceptance": "Both editions still partial; no whole-source or whole-volume page credit.",
-  "source_scoped_retrieval": "Both thesis editions already local. Three journal companions explicitly linked."
+  "last_source_manager_closure": "Casten 2000 Chapter 7 and 1990 section 6.7, original CKZ 1999 analysis and Nomura 2017 comparison.",
+  "current_source_scientific_acceptance": "Two whole papers credited within the actual arXiv versions, plus two partial book units.",
+  "source_scoped_retrieval": "Single targeted arXiv v1 acquisition after publisher full-text endpoint failed. Nomura and both book copies were already local."
 }
