@@ -3,6 +3,12 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Casten 两版第 2–5 章接续
+
+- [[book-casten-nuclear-structure-simple-perspective]] 补核两版早期壳模型章节。记录 Fig. 2.16 的 E2 方向和单位，初版两处 \(T_z\) 误植，以及两版 Fig. 4.7 的 \(^{38}\mathrm{Cl}/^{40}\mathrm K\) 轨道和重耦合符号证据。
+- [[casten-shell-model-pairing-and-collectivity-foundations]] 补入纯 \(j^n\) 的两类 seniority 因子。[[two-body-residual-interaction-surface-delta-and-pandya]] 将旧脚本例限定为变换演示，并核对 1956 年条目的书目信息。
+- 两版仍保持部分覆盖，累计 149 份、9756 个主件 PDF 页。接续初版第 7 章与二版第 8 章 Nilsson 模型。Gemini 上游账号拒绝仍无独立可用入口，本批由 Codex 核读。并行 PDM 清单复查仍有四项错配。
+
 ## 2026-11-21 — Casten 两版第 1 章接续
 
 - 映射两版早期五章页界，定向复核 §1.5 与 §1.6。[[book-casten-nuclear-structure-simple-perspective]] 记录全连接和开放近邻链的低能位移差异，以及允许原始带间矩阵元后的两态 E2 相消式。

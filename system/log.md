@@ -6870,3 +6870,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Casten 两版第 1 章接续
 
 - 对照多态耦合图与两态 E2 方程，完成两个声明矩阵族的数值验算。累计整源数保持 149。
+
+## 2026-11-21 — Casten 两版壳模型基础章对账
+
+- 核读两版 Chs. 2–5，完成 E2 单位、同位旋排印、粒子–空穴多重态和 seniority 的定向原页核查。两版教材仍部分覆盖。

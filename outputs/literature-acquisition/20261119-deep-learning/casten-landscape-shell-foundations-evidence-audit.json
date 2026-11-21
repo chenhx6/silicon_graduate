@@ -1,0 +1,206 @@
+{
+  "generated_at": "2026-11-21T10:31:05.946803+00:00",
+  "status": "accepted-partial-textbook-coverage",
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000001",
+      "edition": "2000",
+      "state": "partial-evidence-verified",
+      "covered_ranges": {
+        "2": {
+          "pdf": [
+            48,
+            64
+          ],
+          "printed": [
+            30,
+            46
+          ],
+          "topic": "nuclear landscape and E2 normalization"
+        },
+        "3": {
+          "pdf": [
+            67,
+            115
+          ],
+          "printed": [
+            49,
+            97
+          ],
+          "topic": "independent-particle spectrum, mass trends and isospin"
+        },
+        "4": {
+          "pdf": [
+            116,
+            158
+          ],
+          "printed": [
+            98,
+            140
+          ],
+          "topic": "two-particle spectra and particle-hole recoupling"
+        },
+        "5": {
+          "pdf": [
+            159,
+            188
+          ],
+          "printed": [
+            141,
+            170
+          ],
+          "topic": "seniority selection and pairing diagnostics"
+        }
+      },
+      "visually_checked_pdf_pages": [
+        60,
+        61,
+        97,
+        99,
+        105,
+        118,
+        134,
+        157,
+        171,
+        172,
+        187
+      ],
+      "stored_primary_pages_credited": 0
+    },
+    {
+      "work_id": "catalogue:LIT-000306",
+      "edition": "1990",
+      "state": "partial-evidence-verified",
+      "covered_ranges": {
+        "2": {
+          "pdf": [
+            43,
+            58
+          ],
+          "printed": [
+            28,
+            43
+          ],
+          "topic": "nuclear landscape and E2 normalization"
+        },
+        "3": {
+          "pdf": [
+            62,
+            81
+          ],
+          "printed": [
+            47,
+            66
+          ],
+          "topic": "independent-particle spectrum, mass trends and isospin"
+        },
+        "4": {
+          "pdf": [
+            82,
+            123
+          ],
+          "printed": [
+            67,
+            108
+          ],
+          "topic": "two-particle spectra and particle-hole recoupling"
+        },
+        "5": {
+          "pdf": [
+            124,
+            152
+          ],
+          "printed": [
+            109,
+            137
+          ],
+          "topic": "seniority selection and pairing diagnostics"
+        }
+      },
+      "visually_checked_pdf_pages": [
+        27,
+        54,
+        84,
+        122,
+        136,
+        137
+      ],
+      "stored_primary_pages_credited": 0
+    }
+  ],
+  "worker": {
+    "preferred_model": "agy-cli/gemini-3.8-flash",
+    "preferred_effort": "high",
+    "previous_failure": "Antigravity account access disabled, HTTP 403 (bridge 502)",
+    "this_batch_request": "none; no independently configured Gemini route found",
+    "actual_reader": "Codex"
+  },
+  "key_checks": {
+    "chapter_2": "Eq. (2.1), Fig. 2.16: denominator and transition direction both matter.",
+    "chapter_3": "Publisher acknowledges the two first-edition Tz misprints, verified on first-edition PDF 27 and 84.",
+    "chapter_4": "Fig. 4.7 and Eq. (4.34) in both editions; sign under this convention checked only at coarse relative ordering level.",
+    "chapter_5": "Eqs. (5.14), (5.17) and Fig. 5.8: distinct seniority channels and pairing-scale estimate from a primary-gamma spectrum."
+  },
+  "calculations": {
+    "A156_weisskopf_e2b2": 0.004988300134864559,
+    "legacy_up_divided_by_5_Wu": 1.0101010101010102,
+    "reduced_E2_single_j_test": {
+      "j": "11/2",
+      "n": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "delta_seniority_2_strength_factors": [
+        "1",
+        "8/5",
+        "9/5",
+        "8/5",
+        "1"
+      ],
+      "delta_seniority_0_amplitude_factors": [
+        "1",
+        "1/2",
+        "0",
+        "-1/2",
+        "-1"
+      ]
+    },
+    "pandya_figure_coarse_input": {
+      "J": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "40K_MeV": [
+        0.8,
+        0.03,
+        0.0,
+        0.89
+      ],
+      "plus_W_38Cl_MeV": [
+        1.324667,
+        0.577048,
+        0.0,
+        0.627619
+      ],
+      "minus_W_38Cl_MeV": [
+        0.0,
+        0.747619,
+        1.324667,
+        0.697048
+      ],
+      "W_squared_exact": true,
+      "use": "Test relative ordering only; approximate values read from textbook figure."
+    }
+  },
+  "publication": {
+    "scope_lint": "see publication receipt",
+    "shared_tree_archive_status": "PDM 2 size and 2 checksum mismatches outside task checked again",
+    "raw_edited": false
+  },
+  "next_action": "Compare first-edition Ch.7 and expanded second-edition Ch.8 Nilsson model, then reconcile remaining textbook coverage."
+}

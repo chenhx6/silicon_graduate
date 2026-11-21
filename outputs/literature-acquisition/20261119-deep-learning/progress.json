@@ -427,7 +427,11 @@
     "WERNER00-IBM-INVARIANTS-LOCAL-V1",
     "WERNER05-K3-LOCAL-V1",
     "WERNER06-STRUCTURAL-EVOLUTION-JOURNAL",
-    "CASTEN-90-00-CH1-MULTISTATE-TRANSITION-PARTIAL"
+    "CASTEN-90-00-CH1-MULTISTATE-TRANSITION-PARTIAL",
+    "CASTEN90-00-LANDSCAPE-E2-NORMALIZATION",
+    "CASTEN90-00-SINGLE-PARTICLE-ISOSPIN",
+    "CASTEN90-00-TWO-PARTICLE-PANDYA",
+    "CASTEN90-00-SENIORITY-PAIRING"
   ],
   "completed_full_sources_this_run": 149,
   "PDM_run": false,
@@ -437,14 +441,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T10:11:54.533992+00:00",
+  "updated_at": "2026-11-21T10:31:05.946803+00:00",
   "completed_deep_read_sources_this_run": 0,
   "completed_primary_pages_this_run": 9756,
   "current_source_note": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
-  "next_action": "Cross-check Chapter 2 of both Casten editions, then compare the expanded second-edition single-particle and residual-interaction chapters.",
+  "next_action": "Compare first-edition Ch.7 and expanded second-edition Ch.8 Nilsson model, then reconcile remaining textbook coverage.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Casten Chapter 1 page reconciliation and exact coupling-topology and E2 matrix checks.",
-  "current_source_scientific_acceptance": "Chapter 1 key examples added to partial Casten coverage; cumulative 149 local works and 9756 physical main-PDF pages.",
-  "source_scoped_retrieval": "No new PDF downloads. Two APS registrations verified via Crossref; analysis cites the two actual arXiv versions and the 2006 journal PDF."
+  "last_source_manager_closure": "Casten Chs. 2–5 editions compared, with original labels, E2 units, isospin errata, recoupling figure and seniority formula checks.",
+  "current_source_scientific_acceptance": "Eight chapter ranges checked in two editions; partial textbook credit only. Completed corpus works/pages remain 149/9756.",
+  "source_scoped_retrieval": "Reused local books; verified Pandya bibliographic identity only through publisher-deposited Crossref metadata. No new PDF retrieved."
 }

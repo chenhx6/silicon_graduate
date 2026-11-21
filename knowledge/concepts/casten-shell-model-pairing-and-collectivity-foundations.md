@@ -42,15 +42,19 @@ Casten 第 2–5 章给出一条从实验系统学到微观集体性的压缩路
 
 ### 1. 核景观与实验入口
 
-Casten 将质量、分离能、\(\gamma\) 能量/强度、散射、单核子转移、双核子转移和熔合反应放入同一实验入口。魔数 \(2,8,20,28,50,82,126\) 由分离能跳变、低能级高激发能、丰度和反应特征共同支持；\(40,64\) 被描述为只在部分核区显现的次壳隙。来源定位为 physical PDF 43–59 / printed pp. 28–45，尤其 printed pp. 29–32、39–43。
+Casten 将质量、分离能、\(\gamma\) 能量/强度、散射、单核子转移、双核子转移和熔合反应放入同一实验入口。分离能在跨壳处的下降与闭壳核的高首激发能可相互参照，次壳特征随核区变化。见初版 PDF 43–58、印刷 pp.28–43 和二版 PDF 48–64、印刷 pp.30–46。
 
  对偶偶核的 \(R_{4/2}\) 和 \(B(E2)\) 系统学构成从近闭壳到集体区的经验骨架：Casten 给出 \(R_{4/2}<2\) 的近闭壳区、约 \(2.0\)–\(2.4\) 的过渡/振动区以及接近 \(3.33\) 的转动区；\(B(E2)\) 在壳附近小、向中壳增大并出现饱和。这里的 \(R_{4/2}\) 是分类指示量，不能替代三轴性或 \(\gamma\) 刚度判定。
+
+复用 Fig. 2.16 的 E2 数据时要保留跃迁方向和归一方式。图的向上单粒子基准约为下降方向 \(B_{\mathrm W}(E2)\) 的五倍。同一态对的绝对 \(B(E2)\) 也按同一简并度因子换算。逆向换算见 [[book-casten-nuclear-structure-simple-perspective]] 二版 Eq. (2.1) 与 Fig. 2.16。
 
 ### 2. 独立粒子与 unique-parity 轨道
 
 中心势给出 \(n,l,m\) 的轨道结构；\(l^2\) 修正使高角动量轨道下降，而强自旋–轨道项把 \(j=l+1/2\) 与 \(j=l-1/2\) 分开并重现经验魔数。Casten 特别强调 unique-parity 轨道通常与同壳层邻近轨道能量和宇称隔离，组态混合较弱，因此适合做高自旋模型的基准。来源定位为 physical PDF 62–81 / printed pp. 47–66，unique-parity 讨论集中于 printed pp. 54–56。
 
  对 A≈130，高 \(j\) unique-parity 轨道可以作为“组态较纯”的起点，但这不等于忽略 Coriolis、配对、跨壳激发或三轴形变；这些效应应在后续模型中显式加入。
+
+二版 §3.4 的 \(^{91}\mathrm{Zr}\) 与 \(^{131}\mathrm{Sn}\) 比较区分球形闭壳的作用与壳层简并。闭壳对每个给定价轨道的 \(m\) 态有同一位移，各轨道的位移随占据改变，可能重排相对能量。二版 §3.3 还指出，当奇核激发能接近邻近偶偶核的首个 \(2^+\) 能量时，须检验粒子耦合核芯激发的竞争组态。见二版 PDF 97–102。
 
 ### 3. 短程剩余相互作用、配对与四极力
 
@@ -65,7 +69,7 @@ Casten 将质量、分离能、\(\gamma\) 能量/强度、散射、单核子转�
 Seniority \(v\) 是未耦合成 \(J=0\) 对的粒子数。Casten 的关键结果包括：
 
 - odd-rank one-body operator 在 \(j^n\) seniority 极限中保持 \(v\)，其矩阵元可约化到 \(j^v\)，并对填充数近似不变（printed pp. 117–118 / physical PDF 132–133）；
-- even-rank operator 可连接 \(v\) 与 \(v\pm2\)；其 \(v\to v-2\) 矩阵元在大 \(j,n\) 极限随 \(f(1-f)\) 变化；
+- even-rank operator 可连接 \(v\) 与 \(v\pm2\)；\(v\to v-2\) 的矩阵元**平方**在大 \(j,n\) 极限有 \(f(1-f)\) 依赖；
 - Eq. (5.14)–(5.16) 给出 \(B(E2;2^+_1\to0^+_1)\) 的填充依赖：
   \[
   B(E2;2^+_1\to0^+_1)\propto n\left(1-\frac{n}{2j+1}\right)
@@ -79,6 +83,8 @@ Seniority \(v\) 是未耦合成 \(J=0\) 对的粒子数。Casten 的关键结果
   因此同 seniority 四极矩在中壳消失并在粒子/空穴两侧变号；原书图像核查为 printed p. 122 / physical PDF 137。
 
   这解释了为什么 \(B(E2)\) 的中壳峰值和静态四极矩的中壳变号可以同时出现：它们对应不同 seniority 通道，不能把两者都称为“形变增强”。
+
+在 \(j=11/2\) 的检验中，对 \(n=2,4,6,8,10\)，Eq. (5.14) 的 \(\Delta v=2\) 强度因子依次为 \(1,8/5,9/5,8/5,1\)。Eq. (5.17) 的 \(v=2\to2\) 振幅因子依次为 \(1,1/2,0,-1/2,-1\)，相应强度需再平方。两组因子均相对于 \(n=2\) 定义，要求纯 \(j^n\)、好 seniority 和一致的 E2 算符。二版的原页为 PDF 171–172。Fig. 5.3 的跨核曲线还可包含多个轨道的相干贡献，定 \(j\) 算例只给比较基线。
 
 ### 5. 配对间隙与实验完备性
 
@@ -111,7 +117,7 @@ Casten 第 2–5 章应作为本 Wiki 的微观基础层：先用分离能、\(E
 
 ## Sources
 
-- [[book-casten-nuclear-structure-simple-perspective]]：Casten 1990，Ch. 2–5，physical PDF 43–153 / printed pp. 28–137。
+- [[book-casten-nuclear-structure-simple-perspective]]：Casten 初版 Chs. 2–5，PDF 43–58、62–152。二版 Chs. 2–5，PDF 48–64、67–188。
 - [[two-body-residual-interaction-surface-delta-and-pandya]]：Wiki 中的表面 \(\delta\) / Pandya 计算背景；其分析器结果不替代本书原文。
 - [[nuclear-seniority-scheme-and-half-filled-shell-isomers]]：seniority 异能态与半满壳 \(B(E2)\) 相消的跨来源页面。
 - [[two-neutron-separation-energy-pairing-gaps-and-shell-closures]]：质量差分、奇偶滤波和高自旋配对解释边界。

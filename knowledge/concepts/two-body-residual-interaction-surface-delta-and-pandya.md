@@ -75,13 +75,13 @@ $$\langle j_1 j_2; J' | V | j_1 j_2; J' \rangle = - \sum_{J} (2J + 1) \begin{Bma
 
 ---
 
-## 4. 经典物理实验实证：$^{42}\text{Sc}$ ($pp$) vs $^{40}\text{K}$ / $^{48}\text{Sc}$ ($ph$) 对偶破译
+## 4. Casten 的 \(^{38}\mathrm{Cl}\) 与 \(^{40}\mathrm K\) 多重态对照
 
-在核物理发展史上，最具震撼力的壳模型实验检验之一是 $1f_{7/2}$ 壳层的双胞对偶核：
-- **两粒子核 $^{42}\text{Sc}$（或 $^{42}\text{Ca}$）**：在闭壳 $^{40}\text{Ca}$ 核芯外拥有两个 $1f_{7/2}$ 核子，实测基态为具有巨大配对能的 $0^+$ 态，随后为 $J=2^+, 4^+, 6^+$ 激发态；
-- **粒子-空穴核 $^{40}\text{K}$（或 $^{48}\text{Sc}$）**：由一个质子空穴与一个中子粒子（或反之）构成 $\pi f_{7/2} \otimes \nu f_{7/2}^{-1}$；
-- **Pandya 变换实验裁决**：
-  直接将 $^{42}\text{Sc}$ 实测能谱代入 Pandya 变换，由于负号与 $6j$ 权重的反转，**理论严格预言在粒子-空穴体系中，能谱发生倒转，$J=0^+$ 不再是基态，基态变为高自旋态（$^{40}\text{K}$ 实测基态为 $4^-$，$^{48}\text{Sc}$ 实测基态为 $6^+$）**！这一由纯角动量几何导出的能谱反转，在实验中以惊人的精度得到证实。
+两版 Fig. 4.7 比较同一组轨道的相对多重态间距。作者以 \(^{40}\mathrm K\) 的 \(\pi d_{3/2}^{-1}\otimes\nu f_{7/2}\) 实验多重态为输入，计算 \(^{38}\mathrm{Cl}\) 的 \(\pi d_{3/2}\otimes\nu f_{7/2}\) 多重态，得到 \(2^-\) 为最低成员。二版 PDF 134、157–158 给轨道、图例及 Eq. (4.34)，相互作用能可差一个与 \(J\) 无关的常数。
+
+两版 Eq. (4.34) 均将 \(W_{JJ'}=(2J'+1)\{j_p\,j_n\,J;j_p\,j_n\,J'\}\) 排成正号，Wiki 的式子采用 \(-W\)。按 Fig. 4.7 左栏的粗读相对能量（以 \(J=2,3,4,5\) 排列，约 \(0.80,0.03,0,0.89\) MeV）作符号检查，\(-W\) 并重置共同能量零点后给 \(2^-\) 最低和 \(4^-\) 最高，\(W\) 则交换这两个极端。粗读检验支持图中的相对排序，不用于拟合实验误差。对固定 \(j\) 对，\(W^2=I\) 对两种整体符号均成立，因而仅做往返测试无法判定所用符号。
+
+库内脚本中名为 `benchmark_sc42_k40_pandya` 的 \(f_{7/2}\otimes f_{7/2}^{-1}\) 示例与 Fig. 4.7 的轨道及宇称不同，只可作为变换演示。两个 \(f\) 轨道的乘积宇称为正，而 \(d\) 空穴与 \(f\) 粒子的乘积宇称为负。\(^{42}\mathrm{Sc}\) 与 \(^{40}\mathrm K\) 的实测能级不能按该脚本标签视作同轨道对验证。
 
 ---
 
@@ -100,13 +100,13 @@ $$\langle j_1 j_2; J' | V | j_1 j_2; J' \rangle = - \sum_{J} (2J + 1) \begin{Bma
 2. **SDI 两体矩阵元解析计算器**：支持任意单粒子轨道与两体总角动量 $J$ 的两体矩阵元计算；
 3. **单 $j$ 壳层 SDI 配对谱生成器**：计算全套自旋通道相互作用能，验证 $E(0^+) = -V_0 (j + 1/2)$；
 4. **Pandya 正向与逆向变换器**：输入实验 $pp$ 或 $ph$ 矩阵元，秒级执行变换，机器精度验证 $P^2 = I$ 对合性；
-5. **经典 $^{42}\text{Sc} \leftrightarrow {}^{40}\text{K}$ 谱学检验基准**：一键重现 $f_{7/2}$ 经典核物理教科书实验与理论对照。
+5. **单 \(j\) 变换演示**：脚本示例的实验标签须按第 4 节限定使用。
 
 ---
 
 ## 7. 权威文献与理论溯源
 
-1. **Pandya, S. P.** (1956). Interaction of nucleons in unfilled shells. *Phys. Rev.*, 103(4), 956-960.
+1. **Pandya, S. P.** (1956). Nucleon-Hole Interaction in \(jj\) Coupling. *Phys. Rev.* **103**, 956–957. DOI `10.1103/PhysRev.103.956`。
 2. **Green, I. M. & Moszkowski, S. A.** (1965). Nuclear energy levels in the surface-delta interaction model. *Phys. Rev.*, 139(4B), B790-B793.
 3. **Suhonen, J.** (2007). *From Nucleons to Nucleus*, Chapter 8 (Two-body residual interactions and SDI). Springer.
 4. **Brussaard, P. J. & Glaudemans, P. W. M.** (1977). *Shell-Model Applications in Nuclear Spectroscopy*. North-Holland, Amsterdam.
@@ -124,5 +124,6 @@ $$\langle j_1 j_2; J' | V | j_1 j_2; J' \rangle = - \sum_{J} (2J + 1) \begin{Bma
 
 ## Sources
 
+- [[book-casten-nuclear-structure-simple-perspective]]
 - [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
 - [[nuclear-spectroscopy-and-structure-master-field-manual]]
