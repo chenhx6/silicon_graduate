@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-11-21T10:11:54.533992+00:00",
+  "status": "accepted-partial-textbook-coverage",
+  "reader": "Codex; Gemini route disabled (previous 403)",
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000001",
+      "scope": "Second edition Ch.1: PDF 21–47, printed pp.3–29. Targeted check of sections 1.5–1.6; visual checks PDF 45–46 (Figs. 1.11–1.12 and Eqs. 1.15–1.17).",
+      "physical_pages_visual": [
+        45,
+        46
+      ],
+      "state": "partial-evidence-verified",
+      "credited_primary_pages": 0
+    },
+    {
+      "work_id": "catalogue:LIT-000306",
+      "scope": "First edition Ch.1: PDF 18–42, printed pp.3–27. Targeted check of sections 1.5–1.6; visual check PDF 41 (Eqs. 1.15–1.17).",
+      "physical_pages_visual": [
+        41
+      ],
+      "state": "partial-evidence-verified",
+      "credited_primary_pages": 0
+    }
+  ],
+  "raw_boundary": "Existing two original PDFs",
+  "math_checks": {
+    "analytic_vs_numeric_multistate": {
+      "e0": 2.4,
+      "v": 0.37,
+      "results": [
+        {
+          "n": 2,
+          "case": "all-pairs",
+          "lowest": 2.03,
+          "highest": 2.77,
+          "max_abs_eigenvalue_error": 0.0
+        },
+        {
+          "n": 2,
+          "case": "open-chain",
+          "lowest": 2.03,
+          "highest": 2.77,
+          "max_abs_eigenvalue_error": 4.440892098500626e-16
+        },
+        {
+          "n": 3,
+          "case": "all-pairs",
+          "lowest": 1.6600000000000001,
+          "highest": 2.77,
+          "max_abs_eigenvalue_error": 4.440892098500626e-16
+        },
+        {
+          "n": 3,
+          "case": "open-chain",
+          "lowest": 1.8767409819219547,
+          "highest": 2.923259018078045,
+          "max_abs_eigenvalue_error": 4.440892098500626e-16
+        },
+        {
+          "n": 6,
+          "case": "all-pairs",
+          "lowest": 0.5499999999999993,
+          "highest": 2.7700000000000005,
+          "max_abs_eigenvalue_error": 5.551115123125783e-16
+        },
+        {
+          "n": 6,
+          "case": "open-chain",
+          "lowest": 1.73328303775221,
+          "highest": 3.0667169622477894,
+          "max_abs_eigenvalue_error": 8.881784197001252e-16
+        },
+        {
+          "n": 15,
+          "case": "all-pairs",
+          "lowest": -2.7799999999999994,
+          "highest": 2.770000000000005,
+          "max_abs_eigenvalue_error": 4.884981308350689e-15
+        },
+        {
+          "n": 15,
+          "case": "open-chain",
+          "lowest": 1.674218892501609,
+          "highest": 3.1257811074983906,
+          "max_abs_eigenvalue_error": 1.7763568394002505e-15
+        },
+        {
+          "n": 30,
+          "case": "all-pairs",
+          "lowest": -8.329999999999991,
+          "highest": 2.7700000000000053,
+          "max_abs_eigenvalue_error": 8.881784197001252e-15
+        },
+        {
+          "n": 30,
+          "case": "open-chain",
+          "lowest": 1.6637967006899976,
+          "highest": 3.1362032993100026,
+          "max_abs_eigenvalue_error": 1.3322676295501878e-15
+        }
+      ]
+    },
+    "rotated_real_symmetric_matrix_checks": 12,
+    "rotated_matrix_max_abs_error": 2.220446049250313e-16
+  },
+  "evidence_distinction": "Figures and E2 equations checked against the book. Exact open-chain spectrum and the direct-term expression are rederived on the declared real matrices. The tests do not measure E2 coherence in a nucleus.",
+  "destination": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
+  "next_action": "Cross-check Chapter 2 of both Casten editions, then compare the expanded second-edition single-particle and residual-interaction chapters."
+}

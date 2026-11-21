@@ -59,14 +59,14 @@ ISBN `0-19-504599-8`，Library of Congress 编号 `QC793.3.S8C37 1990`。
 | 章 | Printed pages | Physical PDF | 当前状态 |
 |---|---:|---:|---|
 | 1 Introduction | 3–27 | 18–42 | 选段深读：两态混合与跃迁相消 |
-| 2 The Nuclear Landscape | 28–45 | 43–59 | 选段复核：分离能、魔数、\(R_{4/2}\)、\(B(E2)\) |
+| 2 The Nuclear Landscape | 28–43 | 43–58 | 选段复核：分离能、魔数、\(R_{4/2}\)、\(B(E2)\) |
 | 3 Independent Particle Model | 47–66 | 62–81 | 选段复核：中心势、自旋–轨道、unique-parity |
 | 4 Two-Particle Configurations | 67–108 | 82–123 | 选段复核：\(\delta\) 相互作用、配对、多极分解 |
-| 5 Multiparticle Configurations | 109–137 | 124–153 | 重点复核：m-scheme、CFP、seniority、配对间隙 |
+| 5 Multiparticle Configurations | 109–137 | 124–152 | 重点复核：m-scheme、CFP、seniority、配对间隙 |
 | 6 Collective Excitations | 141–246 | 156–261 | 选段深读：三轴性、γ 软性、IBM、NpNn |
 | 7 Nilsson Model | 247–270 | 262–285 | 选段复核：轨道几何、回避交叉、渐近量子数 |
 | 8 Nilsson Applications | 271–312 | 286–327 | 选段深读：Coriolis 与 rotation alignment |
-| 9 Microscopic Collective Vibrations | 313–331 | 328–347 | 选段复核：TDA/RPA、准粒子振动与模式系统学 |
+| 9 Microscopic Collective Vibrations | 313–331 | 328–346 | 选段复核：TDA/RPA、准粒子振动与模式系统学 |
 | 10 Experimental Techniques | 335–363 | 350–378 | 章节核对：库仑激发、ARC、转移反应、精密谱学与高自旋符合 |
 
 已核对的重点选段如下：
@@ -282,6 +282,13 @@ Casten 专著为本 Wiki 建立了微观壳组态、Coriolis 相互作用与三�
 二版 Ch.11 正文为 PDF 436–470、印刷 pp.418–452，PDF 471 起为书目。该章加入投射核碎裂与在线同位素分离／再加速两条束流路线，对比纯度、能散与能量匹配，再讨论结合能、半径、壳结构变化及可在有限计数下测量的结构指标。PDF 466–470 将理论上的全闭合 \(q_n\) 与少量低能 E2 数据可支持的估计联系起来。
 
 - 书中 Eqs. (11.16)、(11.20) 用 \(G=(7/10)B(E2;4_1^+\to2_1^+)/B(E2;2_1^+\to0_1^+)\) 近似 \(K_4\)。推导使用基态 E2 强度以 \(2_1^+\) 为主及 IBA 路径近似，p.450 另举 \(^{152}\mathrm{Sm}\) 的闭合结果作个案对照。书中的平均强度份额是作者当时对已知中重核数据的总结。即使 \(q_2\) 由首支跃迁主导，仍需核对 \(2_1^+\) 的外连 E2 强度才能评估 \(K_4\) 的遗漏路径。见 PDF 466–469、印刷 pp.448–451，及 [[quadrupole-invariants-q2-q3]]。
+
+### 两版第 1 章的耦合和跃迁相消
+
+初版第 1 章为 PDF 18–42，印刷 pp.3–27。二版为 PDF 21–47，印刷 pp.3–29。§1.5 的 Figs. 1.10–1.11 比较简并组态之间的全连接与近邻连接。§1.6 的 Fig. 1.12 及 Eqs. (1.15)–(1.17) 在两版均保留同一套两态约定。重点对照初版 PDF 37–42、二版 PDF 43–47。
+
+- 按 §1.5 的假设，\(N\) 个对角能量为 \(E_0\) 的组态若全以 \(-V\) 相连，\(V>0\)，等权态下移 \((N-1)V\)，其余 \(N-1\) 个态各升 \(V\)。对 Fig. 1.11 的开放近邻链，正弦本征矢给 \(E_k=E_0-2V\cos[k\pi/(N+1)]\)。最低态下移量趋于 \(2V\)。两个极限的不同规模关系来自耦合拓扑。谱的低能移动本身无法给出 E2 相干增强，后者还取决于跃迁算符在各组态上的矩阵元和相对相位。
+- §1.6 中未混合的 \(2_a^+\leftrightarrow2_b^+\) E2 矩阵元设为零，混合后两态之间的跃迁取决于两个对角矩阵元之差。若用实矩阵元并允许初始 \(T_{ab}\ne0\)，对 \(|1\rangle=c|a\rangle+s|b\rangle,\ |2\rangle=-s|a\rangle+c|b\rangle\) 按 Eq. (1.16) 可写成 \(T_{21}=cs(T_{bb}-T_{aa})+(c^2-s^2)T_{ab}\)。两项均可能改变支路强度。弱支路同时容许较小的混合、相近的静态矩，或矩阵元相消。配套的基态支路仅在另一未混合基态支路确实禁戒时才直接跟随混合振幅。见初版 PDF 40–41、二版 PDF 45–46。
 
 ## Sources
 

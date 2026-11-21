@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Casten 两版第 1 章接续
+
+- 映射两版早期五章页界，定向复核 §1.5 与 §1.6。[[book-casten-nuclear-structure-simple-perspective]] 记录全连接和开放近邻链的低能位移差异，以及允许原始带间矩阵元后的两态 E2 相消式。
+- 本批仍为教材部分覆盖。累计 149 份、9756 个主件 PDF 页。接续两版第 2 章的分离能、壳闭合和集体性指标。
+
 ## 2026-11-21 — Werner 四极不变量三件对账
 
 - [[werner-2000-ibm-quadrupole-invariants]] 的 \(K_4\) 误差来自指定 ECQF 网格。[[werner-2005-k3-five-observables]] 的百分数衡量带偏移量的精度指标，并依赖 \(Q_s(2_1^+)\) 符号与 \(Q\)-声子相位关系。两份实际定位用 arXiv v1，出版身份已核。

@@ -6866,3 +6866,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Werner 四极不变量三件对账
 
 - 校核 IBM 网格的 \(K_4\)、五观测量 \(K_3\) 的相对相位和静态矩，以及 Gd 原刊 Table I 的数据沿用关系。累计 149 份、9756 个主件 PDF 页。
+
+## 2026-11-21 — Casten 两版第 1 章接续
+
+- 对照多态耦合图与两态 E2 方程，完成两个声明矩阵族的数值验算。累计整源数保持 149。
