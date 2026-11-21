@@ -7,7 +7,7 @@ updated: 2026-11-08
 status: active
 review_status: unreviewed
 source_type: journal-article
-reading_depth: read
+reading_depth: deep-read
 title_original: "Pseudospin symmetry and octupole correlations for multiple chiral doublets in 131Ba"
 authors: ["Y. P. Wang", "Y. Y. Wang", "J. Meng"]
 journal: Physical Review C
@@ -40,6 +40,7 @@ Y.P.Wang、Y.Y.Wang、J.Meng，PRC102,024313(2020)，DOI10.1103/PhysRevC.102.024
 
 G21读取全文模型/图表；总控回读PDF2 Eqs2–8和Numerical Details。
 未重放波函数/代码、数字化全部图点或读取其全部转引实验。
+本轮核定刊版 6 页覆盖，并回核 Fig. 3 的 \(E1/E2\) 经验输入与末页 Ref. [16]。
 
 ## Summary
 
@@ -57,6 +58,8 @@ G21读取全文模型/图表；总控回读PDF2 Eqs2–8和Numerical Details。
 | WA20-5 | 赝自旋伙伴及非共面取向是所用模型中的解释/概率图，非直接几何或静态形变测量 | model-interpretation | direct | PDF4–5讨论 | false |
 
 ## Competing Interpretations and Limitations
+
+刊版 024313-3 Fig. 3 比较 \(D7\to D3\) 的带间 E1 与 D7 带内 E2，实验点在 \(I=29/2,31/2\)，均引自 Ref. [16] [[guo-2020-pseudospin-chiral-quartet-131ba]]。同页说明作者以这些比值选 \(\beta_3=0.02\)。改变 \(\beta_3\) 10% 时，作者报告 \(B(E1)\) 改变约 20%，能量和 \(B(M1)/B(E2)\) 改变较小。该局部敏感性与同一组 E1 数据的定标关系需要同时登记。
 
 该论文讨论的候选高自旋网络未由本文新增绝对寿命；不能说整个131Ba核素无寿命。
 β3、E(0−)和占据是模型输入，不证明唯一参数或静态八极存在/不存在。

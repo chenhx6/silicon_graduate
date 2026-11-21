@@ -1,0 +1,25 @@
+{
+  "work_id": "catalogue:LIT-001058",
+  "recorded_at": "2026-11-21T17:43:01.858087+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/continuation-g21-wang-2020-prc102-131ba-pseudospin-octupole.md",
+  "raw": {
+    "path": "raw/papers/gpt/query/20261107-continuation-G21/Wang-2020-PRC-102-024313-131Ba.pdf",
+    "sha256": "5aca0762a20dd6683d2547c9a7c2266d8cbf6b40fb8a01c431a2b4c78aa65247",
+    "size": 1135593,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "credited_primary_pages": 6,
+  "coverage": [
+    "024313-1–2: candidate introduction, RAT-PRM Hamiltonian, parameter construction, operators.",
+    "024313-3–5: configuration and E1/E2 comparisons, angle profiles, occupancy and sensitivity.",
+    "024313-5–6: conclusions and references."
+  ],
+  "reader": "G21 whole-text record plus Codex targeted read-through of the E1 dependency.",
+  "evidence_boundary": [
+    "The beta3 value is constrained by two previously published E1/E2 points. Fig. 3 is not independent evidence against that input.",
+    "Conditional sensitivity to changing beta3 by 10% does not determine a unique intrinsic shape or measured beta3."
+  ],
+  "next_action": "Reconcile the Guo 2020 original 131Ba experiment and the RF multipolarity/branching inputs reused by Wang 2020."
+}

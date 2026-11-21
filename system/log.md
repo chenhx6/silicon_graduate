@@ -7058,3 +7058,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — Ma 的 131Ba DCO 原件
 
 - 核定 13 页刊版和参考文献末页，记录多重四极门平均。累计 209 份、11162 个主件 PDF 页。
+
+## 2026-11-22 — Wang 2020 的八极 E1 定标
+
+- 核定 6 页刊版。记录两个 Guo 2020 实验输入、选定的 β3 与局部 E1 敏感性。累计 210 份、11168 个主件 PDF 页。

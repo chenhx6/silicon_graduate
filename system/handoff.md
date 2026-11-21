@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — \(^{131}\mathrm{Ba}\) 赝自旋模型的 E1 定标
+
+- [[continuation-g21-wang-2020-prc102-131ba-pseudospin-octupole]] 核定 6 页刊版。Fig. 3 的两点 \(D7\to D3\) E1/E2 由 Guo 实验引入并约束 \(\beta_3\)，保留局部敏感性与数据依赖。
+- 累计核定 210 份、11168 个主件 PDF 页。接续 [[guo-2020-pseudospin-chiral-quartet-131ba]]。
+
 ## 2026-11-22 — \(^{131}\mathrm{Ba}\) 的早期 DCO 与转动顺排
 
 - [[ma-1990-131ba-competing-alignments]] 核定 13 页刊版（717–729）。保留五探测器角组、拉伸四极门与多门平均条件。

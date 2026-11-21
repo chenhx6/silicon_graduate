@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-001058",
+  "active_source": "catalogue:LIT-000439",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -492,9 +492,10 @@
     "HA96-TRIAXIAL-COINCIDENCES-WITHOUT-PLACEMENT",
     "D21-LOCAL-MANUSCRIPT-AND-ARRAY-SPECIFIC-RAC",
     "WK22-MSC-THESIS-AND-SHARED-GAMMA-DATA",
-    "MA90-131BA-PUBLISHER-PAGES-AND-DCO-GATES"
+    "MA90-131BA-PUBLISHER-PAGES-AND-DCO-GATES",
+    "WA20-131BA-OCTUPOLE-CALIBRATION-AND-DATA-DEPENDENCE"
   ],
-  "completed_full_sources_this_run": 209,
+  "completed_full_sources_this_run": 210,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -502,14 +503,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T17:37:16.034779+00:00",
+  "updated_at": "2026-11-21T17:43:01.858087+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 11162,
-  "current_source_note": "knowledge/sources/continuation-g21-wang-2020-prc102-131ba-pseudospin-octupole.md",
-  "next_action": "Reconcile the 131Ba Wang 2020 pseudospin/octupole spectroscopy paper and its publication/experiment dependencies.",
+  "completed_primary_pages_this_run": 11168,
+  "current_source_note": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+  "next_action": "Reconcile the Guo 2020 original 131Ba experiment and the RF multipolarity/branching inputs reused by Wang 2020.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Ma 1990 original and gate details with corrected page range.",
-  "current_source_scientific_acceptance": "Wang 2020 entry scheduled next.",
-  "source_scoped_retrieval": "Reused archived publication."
+  "last_source_manager_closure": "Wang 2020 131Ba RAT-PRM publisher edition and E1-sensitive fit calibration.",
+  "current_source_scientific_acceptance": "Guo 2020 original spectroscopy queued.",
+  "source_scoped_retrieval": "Reused the local six-page journal original."
 }
