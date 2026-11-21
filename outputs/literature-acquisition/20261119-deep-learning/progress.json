@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000997",
+  "active_source": "catalogue:LIT-000982",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -502,9 +502,10 @@
     "SE15-CS124-ABSOLUTE-E1-TWO-NORMALIZATIONS",
     "KM23-RU100-THIN-TARGET-BRANCH-AND-RATE-RATIOS",
     "KM24-RU100-THICK-TARGET-LIFETIME-LINE-IDENTITY",
-    "KM26-98MO-PHOTON-AND-REDUCED-STRENGTH-RATIOS"
+    "KM26-98MO-PHOTON-AND-REDUCED-STRENGTH-RATIOS",
+    "MZ90-ZR96-TIMING-AND-ADOPTED-BRANCHES"
   ],
-  "completed_full_sources_this_run": 219,
+  "completed_full_sources_this_run": 220,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -512,14 +513,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T18:18:17.886310+00:00",
+  "updated_at": "2026-11-21T18:20:54.301211+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 11302,
-  "current_source_note": "knowledge/sources/mach-1990-96zr.md",
-  "next_action": "Verify the Mach 1990 96Zr primary octupole/dipole strength evidence and its lifetime coverage.",
+  "completed_primary_pages_this_run": 11306,
+  "current_source_note": "knowledge/sources/campaign-g13-iskra-2019-96zr-revised-e3.md",
+  "next_action": "Verify the Iskra 2019 96Zr branching-ratio correction, controlled by its adopted lifetime and original coincidences.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Karmakar 98Mo 8-page publisher edition and E3 branch-to-strength boundary.",
-  "current_source_scientific_acceptance": "Mach 1990 original queued.",
-  "source_scoped_retrieval": "Reused the archived publisher PDF."
+  "last_source_manager_closure": "Mach 1990 96Zr early timing, mean/half-life and imported branch.",
+  "current_source_scientific_acceptance": "Iskra 2019 publisher original queued.",
+  "source_scoped_retrieval": "Reused the archived four-page journal PDF."
 }

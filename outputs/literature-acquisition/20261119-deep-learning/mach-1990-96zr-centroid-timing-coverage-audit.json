@@ -1,0 +1,24 @@
+{
+  "work_id": "catalogue:LIT-000997",
+  "recorded_at": "2026-11-21T18:20:54.301211+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/mach-1990-96zr.md",
+  "raw": {
+    "path": "raw/papers/gpt/query/20261107-round2-mo98-e3/mach1990-96zr-e3.pdf",
+    "sha256": "c7dabb11bf52f1975e7ff5631f448337c6c5a4ac94bd2b30ee9cf2c20b16f934",
+    "size": 291373,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "credited_primary_pages": 4,
+  "coverage": [
+    "R811–R812: two timing analyses, isotope selection, prompt calibration, adopted lifetime and E3 inference.",
+    "R813–R814: RPA and potential-energy models, E1/E3 interpretation, references."
+  ],
+  "reader": "Earlier complete paper text and fresh Codex source checks of the two timing paths and source dependencies.",
+  "evidence_boundary": [
+    "Table reference uses the 1990 external branches and fitted half-life. Record historical result separately from the revised strength.",
+    "Fig. 1 centroid shift is a mean life; the paper combines two half-life estimates. Quasiparticle and octupole potential are model interpretations."
+  ],
+  "next_action": "Verify the Iskra 2019 96Zr branching-ratio correction, controlled by its adopted lifetime and original coincidences."
+}

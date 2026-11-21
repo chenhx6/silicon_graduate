@@ -7094,3 +7094,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — 98Mo 的 E3 比值原件
 
 - 核定八页刊版及 Table 2 的跨核比较。累计 219 份、11302 个主件 PDF 页。
+
+## 2026-11-22 — 96Zr 早期质心寿命
+
+- 核定 Mach 四页刊版与寿命定义、时谱门和原分支依赖。累计 220 份、11306 个主件 PDF 页。
