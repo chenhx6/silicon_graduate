@@ -1,0 +1,59 @@
+{
+  "works": [
+    {
+      "work_id": "doi:10.1103/physrevc.104.044305",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1103_PhysRevC.104.044305.pdf",
+          "sha256": "cf158de9b2cef6471046aadac36c6f1791072caed59c45db814d1952bd61d2fa",
+          "size": 2237373,
+          "hash_basis": "fresh-hash",
+          "source_role": "publisher-version-with-repository-cover"
+        }
+      ],
+      "source_note": "knowledge/sources/zheng-2021-cs119-proton-excitations.md",
+      "primary_pdf_pages": 21,
+      "repository_cover_pdf_pages": 1,
+      "credited_primary_pages": 20,
+      "covered_sections": [
+        "PDF 2–9: setup, recoil/transition tagging, angle ratios and polarized yield, level placement and bands",
+        "PDF 10–13: PNC-CSM interpretation and previously reported bands",
+        "PDF 14–21: Table II structure, checked rows and references"
+      ],
+      "evidence_gaps": [
+        "Table II reports A_P, no direct per-row P. No line-level sigma/I statement or fit recipe recovered.",
+        "208.7 keV agrees with thesis Table 5.2; 1095.6 keV changes parity and belongs outside E2/M1."
+      ]
+    },
+    {
+      "work_id": "doi:10.1103/physrevc.104.044325",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1103_PhysRevC.104.044325.pdf",
+          "sha256": "0299c4be119be72584791d71298c2b4da4987628c44f400fc4bcfa386d4a784b",
+          "size": 2099929,
+          "hash_basis": "fresh-hash",
+          "source_role": "publisher-version-with-repository-cover"
+        }
+      ],
+      "source_note": "knowledge/sources/zheng-2021-cs118-bands-and-isomers.md",
+      "primary_pdf_pages": 20,
+      "repository_cover_pdf_pages": 1,
+      "credited_primary_pages": 19,
+      "covered_sections": [
+        "PDF 2–8: published experimental results, three-nuclide acquisition lineage, Fig. 9 timing",
+        "PDF 9–14: alignment and signature discussion, PNC-CSM comparison",
+        "PDF 15–20: Table I structure, checked rows and references"
+      ],
+      "evidence_gaps": [
+        "The paper tabulates A_p. A_p and delta in a common row do not establish which entered a fit.",
+        "The 265.5 keV mixed-transition row and 0.55(6) μs result share evidence with the thesis."
+      ]
+    }
+  ],
+  "credited_primary_pages": 39,
+  "reader": "Codex",
+  "same_experiment": "Same 255 MeV 64Zn + 58Ni acquisition at JYFL with JUROGAM 3 and MARA; see 044325-2 and thesis Ch.4.",
+  "thesis_completed": false,
+  "PDM_run": false
+}

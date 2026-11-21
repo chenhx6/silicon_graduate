@@ -6818,3 +6818,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — α–γ 偏振、低温取向与 JUROGAM 3 方法
 
 - 对账 29 页新增出版正文与 12 页既有覆盖。核实郑宽宽论文的两份版本、方法页和附录，更新部分覆盖。累计 132 份、9361 页主件。
+
+## 2026-11-21 — 郑宽宽的 \(^{119}\mathrm{Cs}\) 与 \(^{118}\mathrm{Cs}\) 出版版
+
+- 核读 39 页出版作品及其两页机构封面，核对代表数据行、相同采集及版本标签。累计 134 份、9400 页主件。

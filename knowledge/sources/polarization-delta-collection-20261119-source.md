@@ -498,17 +498,17 @@ DOI: `10.1103/PhysRevC.103.044308`；原件情况：出版全文。
 
 Complete set of proton excitations in 119Cs
 
-DOI: `10.1103/PhysRevC.104.044305`；原件情况：接受稿（原件标注）。
+DOI: `10.1103/PhysRevC.104.044305`。馆藏为带机构封面的出版版，封面与期刊页码已对照。
 本地原件/已标明的元数据：`raw/papers/gpt/query/20261119-polarization-delta-collection/10.1103_PhysRevC.104.044305.pdf`。
-原文定位：Table II。
+原文定位：Table II。[[zheng-2021-cs119-proton-excitations]]。
 
 ## R043
 
 Rich band structure and multiple long-lived isomers in the odd-odd 118Cs nucleus
 
-DOI: `10.1103/PhysRevC.104.044325`；原件情况：接受稿（原件标注）。
+DOI: `10.1103/PhysRevC.104.044325`。馆藏为带机构封面的出版版，封面与期刊页码已对照。
 本地原件/已标明的元数据：`raw/papers/gpt/query/20261119-polarization-delta-collection/10.1103_PhysRevC.104.044325.pdf`。
-原文定位：Table I, pages 15-19。
+原文定位：Table I，期刊 044325-14–18，对应含封面 PDF pp.15–19。[[zheng-2021-cs118-bands-and-isomers]]。
 
 ## R044
 

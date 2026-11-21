@@ -399,9 +399,11 @@
     "KRIEN70-PO215-COMPLETE-SCIENTIFIC-SCOPE",
     "BAUER60-FE55-COMPLETE-SCIENTIFIC-SCOPE",
     "SUFFERT59-COVERAGE-RECONCILED",
-    "ZHENG21-METHOD-AND-APPENDIX-PARTIAL"
+    "ZHENG21-METHOD-AND-APPENDIX-PARTIAL",
+    "ZHENG21-CS119-PRC044305-COMPLETE-SCIENTIFIC-SCOPE",
+    "ZHENG21-CS118-PRC044325-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 132,
+  "completed_full_sources_this_run": 134,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 997,
@@ -409,14 +411,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T06:47:20.539759+00:00",
+  "updated_at": "2026-11-21T07:00:48.558898+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 9361,
+  "completed_primary_pages_this_run": 9400,
   "current_source_note": "knowledge/sources/zheng-2021-collectivity-shape-119cs-119ba-118cs.md",
-  "next_action": "Reconcile the thesis Chapters 1–8 prior coverage and verify the three sets of result tables, beginning with the 119Ba Table 6.2 ratio and extraction conventions.",
+  "next_action": "Reconcile Zheng thesis Chapters 1–8 and preserve band interpretations and measured/unmeasured constraints; seek exact local 119Ba journal original using the cited DOI.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Krien 215Po and Bauer–Deutsch 55Fe publisher originals, plus Suffert overlap reconciled. Zheng method/appendix remains partial.",
-  "current_source_scientific_acceptance": "Three closed works / 41 pages. Two copies of Zheng 2021 matched, methods and appendices verified without full-source credit.",
-  "source_scoped_retrieval": "Existing local originals and institutional cover copy. No additional retrieval."
+  "last_source_manager_closure": "Zheng 2021 Cs119 and Cs118 publisher versions and representative thesis data lineage.",
+  "current_source_scientific_acceptance": "Two papers with 39 publisher pages and two excluded institutional covers. One acquisition. Thesis remains partially verified.",
+  "source_scoped_retrieval": "Existing local repository copies of the APS versions. No new retrieval."
 }

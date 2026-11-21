@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — 郑宽宽的两篇 Cs 出版版与同次实验对账
+
+- [[zheng-2021-cs119-proton-excitations]] 20 页与 [[zheng-2021-cs118-bands-and-isomers]] 19 页完成核读。各有一页机构封面，已订正文献集合中的接受稿标注。两文的 \(A_P\) 与 \(\delta\) 同行记录，逐线拟合流程仍缺，代表行与论文原表一致。相关文章共享一次采集。
+- 累计 134 份、9400 页主件。郑宽宽论文按部分覆盖继续，下一步核对 Chs.5–8 的结构结论及三核证据限制。\(^{119}\mathrm{Ba}\) 同次期刊结果已通过 \(^{118}\mathrm{Cs}\) Ref. 20 识别，独立全文尚待本地定位。
+
 ## 2026-11-21 — 粒子标签、低温取向与 JUROGAM 3 角组
 
 - 完整核读 [[krien-1970-po215-alpha-gamma-polarization]] 15 页和 [[bauer-deutsch-1960-co55-fe55-polarization]] 14 页。核对 \(^{215}\mathrm{Po}\) 的 \(\delta^2\) 与极化系数归属、\(^{55}\mathrm{Fe}\) 的预测 \(P_L\) 与实测 \(P_LQ_L\)。对账 [[suffert-1959-proton-capture-polarization]] 的 12 页既有覆盖，回核两套角分布对 2.69 MeV 选支的影响。
