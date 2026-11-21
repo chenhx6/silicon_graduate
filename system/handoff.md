@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — ¹³⁵Nd 的角比与偏振数据身份
+
+- [[lv-2021-tilted-precession-135nd]] 对账 14 页原刊。分别记录交换门 \(R_{\rm DCO}\)、合并角组 \(R_{\rm ADO}\) 和 \(A_P\)。核实两条 518 keV 线的自旋归属，保留 Fig. 5(c) 的 618 keV 标题与 560–570 keV 横轴异文。
+- 累计 84 份、8530 页主件。续读 Lv 2022 的偶偶核 \(^{136}\mathrm{Nd}\)，核实该文的混合比、角分布与偏振是否出自同一观测链。
+
 ## 2026-11-21 — Garg 的 ¹³⁵Pr 偏振勘误与计数比
 
 - [[garg-2015-135pr-magnetic-rotation]] 9 页和 [[garg-2019-135pr-polarization-erratum]] 2 页分开登记，按同次实验追溯两版不对称度。另存并核读 [[guo-petrache-arxiv200710031-135pr-erratum-comment]] 两页，复算 Table I 的 21 条记录，检出式 (4) 的二次项排印问题，保留计数选择和误差未知的边界。

@@ -6714,3 +6714,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Garg 原刊、勘误与 Guo–Petrache 评论
 
 - 对账 9+2+2 页。复算发表的 21 条条件不对称度并核对评论公式的二次项。累计 83 份、8516 页主件，续读 `135Nd` 的 Lv 2021 原刊。
+
+## 2026-11-21 — Lv 的 ¹³⁵Nd 两种角比和偏振观测
+
+- 对账 14 页，区分两条 518 keV 线，核实偏振列的量、角比分组和图 5(c) 的标注异文。累计 84 份、8530 页主件，续读偶偶核 `136Nd`。

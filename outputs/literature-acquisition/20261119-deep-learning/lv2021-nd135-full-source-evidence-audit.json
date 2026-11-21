@@ -1,0 +1,32 @@
+{
+  "work_id": "doi:10.1103/physrevc.103.044308",
+  "raw_files": [
+    {
+      "path": "raw/papers/2021_Lv et al_Tilted precession bands in Nd 135.pdf",
+      "sha256": "e28bc232617af4d6ee83d95d267b2e7acd24eddb0d03cc1592124d31e9871150",
+      "size": 1106631,
+      "hash_basis": "fresh-hash",
+      "source_role": "original-or-verified-edition"
+    }
+  ],
+  "source_note": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+  "primary_pdf_pages": 14,
+  "credited_primary_pages": 14,
+  "covered_sections": [
+    "PDF 1–4: TiP and wobbling model motivation, array and raw coincidence setup",
+    "PDF 5–8: RDCO and Rac matrix definitions, polarization asymmetry, angular distributions, Tables I–II and line identities",
+    "PDF 9–14: wave-function components, reduced-rate ratios, QTR/TiP and pairing boundaries, appendices and references"
+  ],
+  "visual_checks": [
+    7,
+    8
+  ],
+  "evidence_gaps": [
+    "AP reported; numerical P and Q(E) unavailable. The angular-distribution analysis does not tabulate sigma/I.",
+    "Fig. 5(c) 618-keV label and caption conflict with the 560–570-keV axis; use Table II for published input values.",
+    "Reported text and Table II have different delta sign/value wording for the nominal 618/566-keV pair. Preserve both and label table rows.",
+    "Potential same JYFL campaign as Lv 2022 135Pr; event-level identity not established."
+  ],
+  "reader": "Codex with existing chapter reading reconciled",
+  "PDM_run": false
+}

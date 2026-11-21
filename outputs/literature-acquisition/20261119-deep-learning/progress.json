@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "arxiv:2007.10031v2",
+  "active_source": "doi:10.1103/physrevc.103.044308",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -349,9 +349,10 @@
     "SEN19-PR135-COMPLETE-SCIENTIFIC-SCOPE",
     "GARG15-PR135-COMPLETE-SCIENTIFIC-SCOPE",
     "GARG19-ERRATUM-COMPLETE-SCIENTIFIC-SCOPE",
-    "GUO20-ARXIV200710031-COMPLETE-SCIENTIFIC-SCOPE"
+    "GUO20-ARXIV200710031-COMPLETE-SCIENTIFIC-SCOPE",
+    "LV21-ND135-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 83,
+  "completed_full_sources_this_run": 84,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 997,
@@ -359,14 +360,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T03:16:18.992069+00:00",
+  "updated_at": "2026-11-21T03:21:56.816146+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 8516,
-  "current_source_note": "knowledge/sources/guo-petrache-arxiv200710031-135pr-erratum-comment.md",
-  "next_action": "Read Lv 2021 Tilted precession bands in 135Nd from the local publisher copy for the polarization observable, angular gates, width and delta.",
+  "completed_primary_pages_this_run": 8530,
+  "current_source_note": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+  "next_action": "Read Lv 2022, PRC 105, 034302, 136Nd, for even-even angular distribution and polarization evidence.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Garg 2015, Garg 2019 and Guo–Petrache 2020: original/corrected asymmetry, dependence and conditional count-ratio audit.",
-  "current_source_scientific_acceptance": "9+2+2 primary pages. Separate publication records, one original experiment.",
-  "source_scoped_retrieval": "One versioned arXiv primary source added to a dedicated query archive; two existing local publisher files reused."
+  "last_source_manager_closure": "Lv 2021 135Nd: two ratio definitions, Table II asymmetries and two separate 518-keV lines.",
+  "current_source_scientific_acceptance": "Fourteen publisher pages credited. Retain Fig. 5(c) label conflict and the absence of a numerical physical P.",
+  "source_scoped_retrieval": "Existing publisher PDF. No new download."
 }

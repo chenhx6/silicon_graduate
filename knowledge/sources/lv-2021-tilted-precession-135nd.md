@@ -159,3 +159,10 @@ tags: [a130, tilted-precession, tip, low-spin, jurogam, in-beam-spectroscopy, qt
 |---|---|---|---|---|---|
 | LV21-D22-R102-1 | 本篇D1/TiP1/TiP2为低spin单νh11/2家族，五条TiP1→D1已测δ的小模值和一条TiP2→TiP1不得合成全线独立偏振；QTR/配对/给定MoI把它们解释为TiP。它不对应MU07三准粒子高spinA/B手征带，也不直接推翻该核的另一组态手征解释。 | family-and-interpretation-boundary | direct-original | 044308-7TableII;044308-11Summary/AppendixA | true |
 | LV21-D22-R102-2 | 本篇152MeV40Ar+100Mo、.5mg/cm²自支撑靶、39GeJUROGAMII与5.1×10^10fold≥3事件，与Lv2022的135Pr报告setup和总事件数相同；终产物为同复合核的5n和1p4n道。它们是明显共享campaign候选，不应直接计成两次全独立装置校准确认；但未核event/runledger，不能声称逐event完全相同。相对于MU07的175MeV/Pbbacking/Gammasphere则有直接不同采集条件。 | acquisition-lineage-boundary | direct-metadata-and-bounded-inference | 044308-4experimentalsetup;Lv2022PLB824p2experimentalsetup;MU07p1setup | true |
+
+## 2026-11-21 — 角量、极化不对称与双线身份
+
+- PDF 5 的式 (1) 交换 \(157.6^\circ\) 与近 \(90^\circ\) 两臂的目标和门，归为 \(R_{\rm DCO}\)。式 (2) 将 \(157.6^\circ,133.6^\circ\) 与 \(75.5^\circ,104.5^\circ\) 四个环分两组，在同一全角门下相除，归为 \(R_{\rm ADO}\)，原文记 \(R_{\rm ac}\)。
+- PDF 6–7 的 518.1 与 518.3 keV 属于不同跃迁。518.1 keV（\(13/2^-\to11/2^-\)）给 \(R_{\rm DCO}=0.69(8)\)（四极门）、\(A_P=-0.024(10)\)、\(\delta=-0.11(5)\)。518.3 keV（\(17/2^-\to15/2^-\)）给 \(R_{\rm ac}=1.05(13)\)、\(A_P=-0.14(8)\)、\(\delta=-0.26(8)\)。后者的偏振谱使用 717 keV 门（PDF 7–8）。
+- §II 的式 (3) 和 Table II 列 \(A_P\)，\(\delta\) 由角分布拟合取得，\(A_P\) 与角比用于多极性和宇称的辅助判断。本篇未列数值 \(P\)、用于 \(A_P\to P\) 的 \(Q(E)\)，或用于角分布拟合的 \(\sigma/I\)。250.6 keV 的 \(\delta\) 另来自 Ref. 50。
+- Fig. 5(c) 的图内标题和图注标 618 keV，横轴刻度为 560–570 keV，p. 5 正文另提 567 keV。该图的身份保留为未决，逐线数值采用 Table II 的能量和自旋；表中 566.0 与 566.8 keV 亦分别记录。
