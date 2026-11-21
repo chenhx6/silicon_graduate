@@ -168,3 +168,9 @@ Review Table 2 and the unmeasured 146/219-keV links separately.
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | RD21-D19-1 | 对 Table 2 中三条连接线进行能量相空间分解，457.6 keV 跨带跃迁相对带内 646.6 keV 跃迁具有 $(E_{\text{in}}/E_{\text{out}})^5 = (646.6/457.6)^5 = 5.633$ 的强运动学因子；这一纯能量比效应使得该能级表观 $B(E2_{\text{out}})/B(E2_{\text{in}})$ 被纯运动学天然放大了超 5.6 倍，而非完全由内禀四极集体性增强所贡献。相比之下，高能跨带线（743.4 与 812.0 keV）的运动学因子仅为 $0.33\text{--}0.35$。此外，低能端 146.3 与 219.2 keV 连接线由于探测阈值缺失有效偏振与混合比测量，未能闭合多声子横向摇摆的谐振声子阶梯链条。 | task-kinematics-and-ladder-audit | derived-and-boundary | PDF p.4 Table 2; wobbling-ibfm-root-degeneracy-result-050.json | true |
+
+## 刊版原表与极化响应
+
+PDF 3 印为 \(\Delta_{\rm asym}=P(\theta)/Q\)，并给约 500 keV 时 \(Q\simeq0.3\)。若 \(Q\) 采用偏振灵敏度的常见定义，响应关系为 \(\Delta_{\rm asym}=Q P\)，等价于 \(P=\Delta_{\rm asym}/Q\)。本次按原文保留两种写法及其来源。Fig. 4 的散射计数和联合响应曲线可定位作者使用的观测量，计算输入未见足够细节来判定绘图究竟用了哪一种关系。Table 2 的 \(\delta\) 保留为作者报告值。
+
+两个直接例证来自 PDF 4 Table 1 与 PDF 5 Fig. 4。613.2 keV 行给 \(R_{\rm DCO}=0.18(1)\)、\(\Delta_{\rm asym}=+0.030(31)\)，626.8 keV 行给 \(0.18(1)\)、\(+0.037(29)\)，均以 641.9 keV 四极跃迁作门。两个不对称度的中心值为正，按表中误差其单项偏离零约为 \(0.97\sigma\) 和 \(1.28\sigma\)。定量选支来自作者的联合响应曲线，须保留门、标定和模型依赖。两条低能反向连接 146.3、219.2 keV 的角量和偏振栏均空白。响应术语参见 [[polarization-sensitivity]]。

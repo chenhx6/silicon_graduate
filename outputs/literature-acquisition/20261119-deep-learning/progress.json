@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.1016/j.physletb.2021.136756",
+  "active_source": "doi:10.1016/j.physletb.2020.135854",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -435,9 +435,10 @@
     "CASTEN90-00-NILSSON-COMPARE",
     "CASTEN-EDITIONS-READING-RECONCILED",
     "BANIK20-XE131-PUBLISHER-SCOPE-RECONCILED",
-    "CHAKRABORTY23-XE131-PUBLISHER-REANALYSIS-RECONCILED"
+    "CHAKRABORTY23-XE131-PUBLISHER-REANALYSIS-RECONCILED",
+    "ROJEETA21-BA133-PUBLISHER-RESPONSE-AUDIT"
   ],
-  "completed_full_sources_this_run": 152,
+  "completed_full_sources_this_run": 153,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1000,
@@ -445,14 +446,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T11:01:42.386019+00:00",
+  "updated_at": "2026-11-21T11:09:04.822285+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10267,
-  "current_source_note": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
-  "next_action": "Reconcile the local 133Ba multiphonon-candidate evidence against the 131Xe comparison, starting from publication and experimental provenance.",
+  "completed_primary_pages_this_run": 10273,
+  "current_source_note": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+  "next_action": "Reconcile the already held 127Xe longitudinal-wobbling article, focusing on comparisons to 133Ba, reported inputs and spin/branch attribution.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Chakraborty 2023 publication and v1 companion closed as one work; cross-table source ambiguities retained.",
-  "current_source_scientific_acceptance": "One eight-page publisher article added. Same INGA experiment as Banik 2020.",
-  "source_scoped_retrieval": "Reused local APS and arXiv PDFs."
+  "last_source_manager_closure": "Rojeeta Devi 2021 publisher original checked, observed DCO and asymmetry paired to their gate, response equation ambiguity retained.",
+  "current_source_scientific_acceptance": "Six journal pages; separate TIFR data lineage and bounded wobbling/configuration interpretation.",
+  "source_scoped_retrieval": "Reused the 133Ba local publisher original."
 }

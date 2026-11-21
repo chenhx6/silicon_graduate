@@ -6886,3 +6886,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Chakraborty 2023 刊版与同数据关系
 
 - 核对 8 页刊版，预印本并入同一作品。记录两次分析中的相对强度和宇称异文。累计 152 份、10267 个主件 PDF 页。
+
+## 2026-11-21 — \(^{133}\mathrm{Ba}\) 极化响应
+
+- 核对刊版六页、R_DCO 门及偏振不对称度，保留原文公式按字面与常规定标关系的差异。累计 153 份、10273 个主件 PDF 页。

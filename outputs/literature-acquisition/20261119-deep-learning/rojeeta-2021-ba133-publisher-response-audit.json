@@ -1,0 +1,46 @@
+{
+  "work_id": "doi:10.1016/j.physletb.2021.136756",
+  "status": "accepted-bounded-full-source-reconciliation",
+  "recorded_at": "2026-11-21T11:09:04.822285+00:00",
+  "raw": {
+    "path": "raw/papers/2021_Rojeeta Devi et al_Observation of multiphonon transverse wobbling in 133Ba.pdf",
+    "sha256": "fb6ea8474676875752ca83399e8f27aa792aa07643c5fa962fe44cab1ae0697b",
+    "size": 463953,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "source_note": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
+  "reader": "Codex, local full text and targeted origination image checks. Gemini route previously returned access disabled.",
+  "credited_primary_pages": 6,
+  "covered_sections": [
+    "PDF 1–2: publisher identity, motivation, TIFR experiment, bands and DCO/polarimeter geometry.",
+    "PDF 3–4: Figs. 2–3, DCO–asymmetry formula and assumptions, Tables 1–2, QTR/FA definitions.",
+    "PDF 5–6: Figs. 4–6, summary and cited prior data/calibration."
+  ],
+  "image_checked": [
+    3,
+    4,
+    5
+  ],
+  "response_discrepancies": [
+    "The printed asymmetry equals P/Q, while the conventional analyzing-power response is QP. Actual contour implementation remains unverified.",
+    "The 146.3 and 219.2 keV rows lack angular-ratio and asymmetry evidence."
+  ],
+  "ratio_rows": [
+    {
+      "energy_keV": 613.2,
+      "dco_as_published": "0.18(1)",
+      "asymmetry_as_published": "0.030(31)",
+      "gate": "641.9 keV E2",
+      "asymmetry_nominal_zero_distance": 0.9677419354838709
+    },
+    {
+      "energy_keV": 626.8,
+      "dco_as_published": "0.18(1)",
+      "asymmetry_as_published": "0.037(29)",
+      "gate": "641.9 keV E2",
+      "asymmetry_nominal_zero_distance": 1.2758620689655171
+    }
+  ],
+  "next_action": "Reconcile the already held 127Xe longitudinal-wobbling article, focusing on comparisons to 133Ba, reported inputs and spin/branch attribution."
+}

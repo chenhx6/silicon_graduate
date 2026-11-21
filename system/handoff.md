@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Rojeeta Devi 2021 \(^{133}\mathrm{Ba}\) 原表及响应
+
+- [[rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba]] 核对 6 页刊版。逐行记录两条 641.9-keV E2 门的 \(R_{\rm DCO}\) 和 \(\Delta\)，保留刊版的 \(P/Q\) 写法与常规定标关系的差异，以及两条无有效角量的低能连接线。
+- 累计 153 份、10273 个主件 PDF 页。接续 [[chakraborty-2020-multiphonon-longitudinal-wobbling-127xe]] 的刊版和实验对照。
+
 ## 2026-11-21 — Chakraborty 2023 \(^{131}\mathrm{Xe}\) 同数据复核
 
 - [[chakraborty-2023-131xe-wobbling-origin]] 核对刊版 8 页及预印本关键表行。188.8、389.0 keV 行与 Banik 2020 的强度相差十倍，204.8 keV 末态宇称也有异文。保留原表、同一采集及混合比选支条件。
