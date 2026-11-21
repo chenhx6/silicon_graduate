@@ -17,6 +17,8 @@ pages: 054302
 doi: 10.1103/PhysRevC.101.054302
 language: en
 canonical_source: doi:10.1103/PhysRevC.101.054302
+arxiv: 2206.07294v1
+local_edition: arxiv-post-publication
 citation_key: gray_2020_Hyperfinefields
 raw_file: "raw/papers/2020_Gray et al_Hyperfine fields at Ga 66 , Ge 67 , 69 implanted into iron and gadolinium hosts at 6 K, and applicat.pdf"
 raw_sha256: 5374E17E491552A3BA5C68A37732BF4BE27A98C4086DCBC3B63F1C727EE239BF
@@ -33,9 +35,11 @@ tags: [tdpad, g-factor, hyperfine-field, ferromagnetic-host, alignment, sigma-ov
 
 T. J. Gray et al., *Physical Review C* **101**, 054302 (2020), DOI `10.1103/PhysRevC.101.054302`, citation key `gray_2020_Hyperfinefields`.
 
-The raw PDF is `504751` bytes with local timestamp `2026-07-01 01:56:26`; SHA-256 is recorded above.
+The local PDF is the ten-page arXiv:2206.07294v1 posted in June 2022. The journal publication is dated 2020. Its publisher full text was unavailable through the routes checked for this audit. Locators in this note point to the locally verified arXiv PDF.
 
 ## Scope and Reading Depth
+
+The 2026-11-21 source audit rechecked the arXiv version and explicitly separated DOI publication identity from the PDF edition and date.
 
 Full PDF text layer was read across pp.1--10. Verification focused on the abstract, experimental setup, the `R(t)` formalism, the amplitude discussion in Sec.VB, the host-comparison boundary, and the conclusion.
 
@@ -125,3 +129,7 @@ Additional sigma-scale factors worth retaining from this source:
 - The empirical `sigma/I ≈ 0.35` benchmark was built from prompt decays; isomeric feeding can populate different magnetic-substate patterns.
 - Independent angular-distribution measurements on nearby non-isomeric states can provide an external alignment calibration.
 - Host/site assumptions matter: full-field occupancy, host material, and beam-damage conditions all feed into the apparent sigma-scale inference.
+
+## 2026-11-21 — Conditional amplitude interpretations
+
+ArXiv pp. 6–7, Sec. V B states two conditional interpretations of the small \(R(t)\) amplitudes. Adopting the prompt-state empirical \(\sigma/I\approx0.35\) gives about 60% field-free sites. Assuming full-field sites gives a width near 0.9. The authors prefer weaker initial alignment based on comparison with other implantation and external-field experiments, and call for independent alignment information. The two widths are model conditions for isomeric TDPAD, with no numerical \(P\)–\(\delta\) result for this survey.

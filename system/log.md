@@ -6782,3 +6782,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Purry 的 ¹⁷⁸W 学位论文
 
 - 对账 108 页科研及书证内容，核实异能态归属、计时依赖、电子转换和约化阻碍。累计 109 份、8998 页主件。
+
+## 2026-11-21 — Radeck 与 Gray 的去取向实例
+
+- 对账 10+10 页，区分 RDDS 逐态去取向、TDPAD 幅度简并和 Gray 的实际 arXiv 版本。累计 111 份、9018 页主件。

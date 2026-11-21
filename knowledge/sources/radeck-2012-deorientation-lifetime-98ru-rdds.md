@@ -221,3 +221,7 @@ Knowledge Impact and Learning Decision：limits把6个ring当成6个任意独立
 | 2+2 /1414 | 761→2+1及1414→0+1 | 1.7(2) | sameparent tau；branches/mixing引Ref46 |
 
 能量表是源整数标签；1414−652的整数差与761不强配，不补精确per-lineσ或误判新校准冲突。Fig7原A0(d)=0字面、Fig7正角强度和Eq9相对坐标producer缺口继续保留。没有基于原事件重建τ fit、B4/2 Cov或原误差coverage。
+
+## 2026-11-21 — Deorientation in the fitted lifetime set
+
+On 014301-7 and -8 the authors apply the measured distance-dependent deorientation correction to the \(2_1^+\) lifetime and obtain \(8.36(29)\) ps. For the \(4_1^+\) and \(2_2^+\) fits they see no effect within errors, use rings 1 and 6 to separate the close decays, and report \(2.31(16)\) and \(1.7(2)\) ps. Table II uses previously reported branching and mixing ratios for the \(2_2^+\) strengths. The correction pertains to electronic hyperfine coupling during recoil and does not pick a universal entrance-channel \(\sigma/I\).

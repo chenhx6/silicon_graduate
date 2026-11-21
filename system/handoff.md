@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — 时间去取向与 TDPAD
+
+- [[radeck-2012-deorientation-lifetime-98ru-rdds]] 对账 10 页，确认只有该组 \(2_1^+\) 寿命拟合需可见的去取向修正。[[gray-2020-hyperfine-fields-g-factor-measurements]] 对账 10 页，馆藏是 2022 年上传的 arXiv v1，期刊身份为 2020。记录 \(R(t)\) 振幅对取向和低场位点的共同依赖。
+- 累计 111 份、9018 页主件。续核 [[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] 与 [[rezynkina-2017-graphical-extraction-multipole-mixing-ratios]] 的转换系数与混合比分支。
+
 ## 2026-11-21 — Purry 的 ¹⁷⁸W 转换谱与计时
 
 - [[purry-1997-phd-w178-multiparticle-structure]] 对账馆藏 112 页中的 108 页科研及书证内容。补核 Table 4.2 的计时门、带交叉和约化阻碍因子，把 3525 keV 态与 3654 keV 异能态的半衰期分开。

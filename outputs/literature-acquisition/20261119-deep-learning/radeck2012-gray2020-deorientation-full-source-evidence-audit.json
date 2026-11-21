@@ -1,0 +1,59 @@
+{
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000431",
+      "raw_files": [
+        {
+          "path": "raw/papers/2020_Gray et al_Hyperfine fields at Ga 66 , Ge 67 , 69 implanted into iron and gadolinium hosts at 6 K, and applicat.pdf",
+          "sha256": "5374e17e491552a3ba5c68a37732bf4be27a98c4086dcbc3b63f1c727ee239bf",
+          "size": 504751,
+          "hash_basis": "fresh-hash",
+          "source_role": "versioned-arxiv-post-publication"
+        }
+      ],
+      "source_note": "knowledge/sources/gray-2020-hyperfine-fields-g-factor-measurements.md",
+      "primary_pdf_pages": 10,
+      "credited_primary_pages": 10,
+      "covered_sections": [
+        "PDF 1–3: experimental setup and time-dependent ratio analysis",
+        "PDF 4–7: results and conditional amplitude versus alignment and host effects",
+        "PDF 8–10: g-factor comparison, scope and references"
+      ],
+      "visual_checks": [],
+      "evidence_gaps": [
+        "Publisher full text unavailable through checked endpoints (403/401); read verified arXiv version.",
+        "Conditional widths and field-free fraction do not determine a numerical polarization/mixing ratio."
+      ]
+    },
+    {
+      "work_id": "catalogue:LIT-000643",
+      "raw_files": [
+        {
+          "path": "raw/papers/2012_Radeck et al_Simultaneous deorientation and lifetime measurement in 98 Ru using the recoil distance Doppler shift.pdf",
+          "sha256": "21ed965eb3fd0f57059d2bfe3367ecc39fa6cc2761b1f23ec95875d1a6fe3642",
+          "size": 623151,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+      "primary_pdf_pages": 10,
+      "credited_primary_pages": 10,
+      "covered_sections": [
+        "PDF 1–3: in-beam recoil setup and time/distance corrections",
+        "PDF 4–7: perturbation and distance-dependent attenuation",
+        "PDF 8–10: lifetime set and adopted branches, model and references"
+      ],
+      "visual_checks": [
+        8
+      ],
+      "evidence_gaps": [
+        "Only 2_1+ required a visible time-dependent deorientation correction in this fit set.",
+        "Earlier mixing ratios used in 2_2+ branches were not remeasured."
+      ]
+    }
+  ],
+  "credited_primary_pages": 20,
+  "reader": "Codex with prior scope reconciled",
+  "PDM_run": false
+}
