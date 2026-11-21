@@ -6978,3 +6978,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Hecht 的两组符合数据
 
 - 核定 4 页刊版。登记 136Pm 采集重合边界、138Eu 原数据复用和门控判据。累计 186 份、10696 个主件 PDF 页。
+
+## 2026-11-21 — Tonev 2007 的寿命和实测带间 E2
+
+- 核定 26 页刊版，补入 Table II 七条带间 E2 和 RDDS/DSAM 交叉值，共享谱系与未分离的带间混合比继续留边界。累计 187 份、10722 个主件 PDF 页。

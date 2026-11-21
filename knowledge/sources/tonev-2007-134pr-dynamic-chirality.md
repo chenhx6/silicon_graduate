@@ -7,7 +7,7 @@ updated: 2026-10-27
 status: ai-draft
 review_status: unreviewed
 source_type: experimental-and-theoretical-paper
-reading_depth: read
+reading_depth: deep-read
 title_original: "Question of dynamic chirality in nuclei: The case of 134Pr"
 authors: [D. Tonev, G. de Angelis, S. Brant, S. Frauendorf, P. Petkov, A. Dewald, F. Dönau, D. L. Balabanski, Q. Zhong, P. Pejovic, D. Bazzacco, P. Bednarczyk, F. Camera, D. Curien, F. Della Vedova, A. Fitzler, A. Gadea, G. Lo Bianco, S. Lenzi, S. Lunardi, N. Marginean, O. Möller, D. R. Napoli, R. Orlandi, E. Sahin, A. Saltarelli, J. Valiente Dobon, K. O. Zell, Jing-ye Zhang, Y. H. Zhang]
 year: 2007
@@ -70,6 +70,12 @@ D. Tonev等，Physical Review C 76, 044313 (2007)，DOI [10.1103/PhysRevC.76.044
 
 微观惯量谱计算、特殊几何演示、数据参与调参、作者提出的空间失效是四层不同合同。不能拿演示图的γ/惯量给谱学曲线补输入，也不能把超过所选空间的失配全部归因于形状/手征或以EM赋名后再独立计分。原程序/完整态和Cov仍未恢复。
 
+## 寿命方法交叉核对
+
+刊版 044313-8 给出两条同时用 RDDS 和 DSAM 分析的寿命，单位 ps。\(14_1^+\) 为 \(0.802(172)\) 与 \(0.882(147)\)，\(15_2^+\) 为 \(0.853(89)\) 与正文 \(0.897(47)\)。作者因统计量选择 DSAM 值入表。Table II 的 \(15_2^+\) 却印 \(0.887(47)\)，保留正文和表格两值。两种谱形方法为同一研究的交叉检查，合并时需要知道共享误差。
+
+刊版 044313-7 Eq. (5) 使用各直接馈入级的衰变函数。作者对未知馈入采用与已知馈入相同的时间形状，再以退激函数的强度重归一。各探测环独立求寿命，先在灵敏区传播统计误差，再用七环结果的散布估计最终不确定度。文中还报告对部分数据进行阻止本领 \(\pm10\%\) 的重算。
+
 ## Table II：逐伙伴带内E2账本
 
 以下B(E2)单位e²b²，均I→I−2；仅列所选实测格，不补理论列或空格。
@@ -86,6 +92,20 @@ D. Tonev等，Physical Review C 76, 044313 (2007)，DOI [10.1103/PhysRevC.76.044
 |18|.147(27)|未给|—|
 
 Band1在PDF12、Band2的I14/15在PDF13、I16/17在PDF14。13₂→11₁的.0030(5)是跨带E2；13₂→11₂没有实验格，不能错当该带内值。“约2”或“2–3倍”是作者趋势概括，旧.15–.25/.05–.10不是精确包络。τ共享与branch/归一依赖存在，未按独立高斯传播误差制造CI。
+
+### Table II 的带间 \(\Delta I=2\) 数据
+
+| 跃迁 | \(B(E2)\)（\(e^2\mathrm b^2\)） | 刊版页 |
+| --- | ---: | --- |
+| \(17_1^+\to15_2^+\) | 0.026(3) | 044313-12 |
+| \(18_1^+\to16_2^+\) | 0.038(3) | 044313-12 |
+| \(13_2^+\to11_1^+\) | 0.0030(5) | 044313-13 |
+| \(14_2^+\to12_1^+\) | 0.0044(7) | 044313-13 |
+| \(15_2^+\to13_1^+\) | 0.025(3) | 044313-13 |
+| \(16_2^+\to14_1^+\) | 0.028(2) | 044313-14 |
+| \(17_2^+\to15_1^+\) | 0.105(30) | 044313-14 |
+
+这些值按 Table II 的实验列逐行抄录。末行的 IBFFM 为 0.023，TQPTR 为 0.227。带间 \(\Delta I=1\) 混合跃迁尚无 \(\delta\) 分离结果。Table II 和 Fig. 17 的带间 \(B(M1)\) 实验列以限值报告。
 
 ## Competing Interpretations and Limitations
 

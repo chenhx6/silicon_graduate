@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Tonev 的 \(^{134}\mathrm{Pr}\) 寿命和带间强度
+
+- [[tonev-2007-134pr-dynamic-chirality]] 核定 26 页刊版，补录两个重叠态的 RDDS/DSAM 数值、馈入与阻止本领处理、Table II 的七条带间 E2。保留 \(15_2^+\) 寿命正文与表格差异。
+- 累计核定 187 份、10722 个主件 PDF 页。接续 [[petrache-2006-near-degenerate-chiral-misinterpretation]]，检验共享寿命与独立分支输入的证据范围。
+
 ## 2026-11-21 — Hecht 的 \(^{136}\mathrm{Pm}\) 与 \(^{138}\mathrm{Eu}\) 采集
 
 - [[hecht-2001-chiral-symmetry-breaking-136pm-138eu]] 核定四页刊版，保留 \(^{136}\mathrm{Pm}\) 与 Starosta 的设施及 130 MeV 设置重合、反应道和探测器配置差异。\(^{138}\mathrm{Eu}\) 的 Eurogam 数据复用于同组早期高自旋报道。

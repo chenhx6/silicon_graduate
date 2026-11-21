@@ -1,0 +1,27 @@
+{
+  "work_id": "catalogue:LIT-000723",
+  "recorded_at": "2026-11-21T15:07:25.640859+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/tonev-2007-134pr-dynamic-chirality.md",
+  "raw": {
+    "path": "raw/papers/2007_Tonev_134Pr_Dynamic_Chirality.pdf",
+    "sha256": "822780157dadbeac4adfa3cd34b919b855a3911c497c229b2216fb7697f1b8aa",
+    "size": 1527111,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "credited_primary_pages": 26,
+  "coverage": [
+    "044313-1–8: experimental scope, RDDS/DSAM, line-shape/feeding methods, polarization and results.",
+    "044313-9–14: Table I decay and polarization values; Table II lifetimes and strengths, with data and calculation columns.",
+    "044313-15–25: detailed model/state comparisons, strength systematics, and alternative interpretations.",
+    "044313-25–26: conclusions and references."
+  ],
+  "reader": "Gemini full-read report and Codex verification of the original printed sections and Table II rows against the earlier source coverage.",
+  "evidence_boundary": [
+    "Same campaign as Tonev 2006, with complementary RDDS and DSAM checks. Do not count two independent absolute-strength measurements from the two papers.",
+    "For 15 Band 2, DSAM lifetime is 0.897(47) ps in prose and 0.887(47) ps in Table II.",
+    "Absolute DeltaI=2 interband E2 entries have source-specific parent and daughter identities. Mixed DeltaI=1 branches lack delta separation and interband M1 is given as limits."
+  ],
+  "next_action": "Verify Petrache 2006 near-degenerate pair counter-evidence, especially relations between cited lifetimes, branch choices and model-specific interpretation."
+}
