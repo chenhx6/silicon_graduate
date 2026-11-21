@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — \(^{144}\mathrm{Ba}\) 库仑激发与旁证
+
+- [[bucher-2016-144ba-direct-octupole]] 核定 5 页刊版，登记两组散射角和 \(^{134}\mathrm{Xe}\) 的产额校验。分开 E3 拟合和既有 E1 分支输入。
+- 累计核定 223 份、11326 个主件 PDF 页。接续 [[bucher-2017-146ba-direct-octupole]]。
+
 ## 2026-11-22 — \(^{96}\mathrm{Zr}\) 投影势能面与 E3
 
 - [[campaign-g05-rong-2023-96zr-mdc-cdft]] 核定 10 页作者版。固定形变的矩阵元使用修订 E3 对照；泛函比较保留为定性势能面结论。

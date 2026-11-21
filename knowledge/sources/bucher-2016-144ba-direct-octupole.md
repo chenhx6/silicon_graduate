@@ -69,6 +69,8 @@ Bucher *et al.* provide a direct E3 benchmark that is materially stronger than r
 
 ## Competing Interpretations and Limitations
 
+On 112503-3, the two particle-angle intervals are \(30^\circ\)–\(40^\circ\) and \(40^\circ\)–\(75^\circ\) in the lab. The \(10^+\) deexcitation is extracted only from the wider-angle gate. For the \(^{134}\mathrm{Xe}\) control the calculated \(4^+\to2^+\) to \(2^+\to0^+\) yield ratio is 0.077 in the wider gate, compared with \(0.078(4)\) observed. This checks the yield analysis in that geometry. It does not constrain the \(^{144}\mathrm{Ba}\) E1 strengths independently of their prior branching inputs.
+
 - Rigid-rotor relations, E1/E3 relative sign and higher multipoles enter the conversion from matrix element to `β3`.
 - Several E3 links are only upper limits and contaminant peaks require coupled-yield treatment.
 

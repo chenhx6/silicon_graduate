@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000330",
+  "active_source": "catalogue:LIT-000331",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -505,9 +505,10 @@
     "KM26-98MO-PHOTON-AND-REDUCED-STRENGTH-RATIOS",
     "MZ90-ZR96-TIMING-AND-ADOPTED-BRANCHES",
     "IS19-ZR96-ADOPTED-LIFETIME-AND-CASCADE-SUMMING",
-    "R23-ZR96-PROJECTION-AND-EXPERIMENTAL-E3-BENCHMARK"
+    "R23-ZR96-PROJECTION-AND-EXPERIMENTAL-E3-BENCHMARK",
+    "BU16-144BA-ANGLE-GATES-AND-COULOMB-CONTROL"
   ],
-  "completed_full_sources_this_run": 222,
+  "completed_full_sources_this_run": 223,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -515,14 +516,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T18:27:13.574401+00:00",
+  "updated_at": "2026-11-21T18:30:43.479501+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 11321,
-  "current_source_note": "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
-  "next_action": "Reconcile Bucher 2016 144Ba direct Coulomb-excitation evidence, including matrix-element direction and marginal uncertainties.",
+  "completed_primary_pages_this_run": 11326,
+  "current_source_note": "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+  "next_action": "Reconcile Bucher 2017 146Ba Coulomb excitation and the E1-vs-E3 comparison across isotopes.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Rong 96Zr author edition and the fixed-shape E3 comparison.",
-  "current_source_scientific_acceptance": "Bucher 2016 direct 144Ba publisher source queued.",
-  "source_scoped_retrieval": "Reused local author copy."
+  "last_source_manager_closure": "Bucher 2016 direct octupole publisher original and yield control.",
+  "current_source_scientific_acceptance": "Bucher 2017 publisher record queued.",
+  "source_scoped_retrieval": "Used archived journal original."
 }

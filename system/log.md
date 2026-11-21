@@ -7106,3 +7106,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — Rong 2023 的 E3 对照
 
 - 核定 10 页作者版，保留固定形变的矩阵元与修订数据对应。累计 222 份、11321 个主件 PDF 页。
+
+## 2026-11-22 — 144Ba 的产额校验和 E3 输入
+
+- 核定 Bucher 2016 五页刊版，保留粒子角门及邻核校验。累计 223 份、11326 个主件 PDF 页。
