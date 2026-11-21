@@ -43,7 +43,7 @@ J. T. Matta et al., *Physical Review Letters* **114**, 082501 (2015)，DOI `10.1
 
 ## Scope and Reading Depth
 
-全文精读，并视觉核对 Fig.1 的部分能级纲图、Fig.2 的角分布、Fig.3 的线偏振不对称、Table I 的 mixing ratio/E2 fraction/跃迁概率比、Fig.4 的 TAC 比较和 Fig.5 的 QTR 及 wobbling-energy 比较。
+Covered scope: 出版正文 PDF 1–6，视觉核对 Fig. 1–5 和 Table I 的关键数据。馆藏 PDF 7 为版权告知页，单列。
 
 本页按 `experiment-ingest + project-ingest` 建立 Matta 2015 对 `135Pr` transverse-wobbling 解释的支持方证据链。它不裁决后来对低自旋带 wobbling 性质的争议。
 
@@ -215,3 +215,9 @@ Supports/limits：保留作者的支持或反对解释，并将逐线测量、�
 |---|---|---|---|---|---|
 | M15-D22-R095-1 | Table I对747.0/812.8给δ=−1.24(.13)/−1.54(.09)，偏振不对称度A=.047(.012)/.054(.034)；A不是P，不能未给本实验Q就与另一次实验P逐值比较。754.6有δ但无偏振；747的实验rE2/rM1栏空白，不是模型列的.908/.213实测。812.8的rE2=.843(.032)、rM1=.164(.014)，以纯E2带内分母提取；未在本篇给新绝对τ/B。 | original-observable-and-table-identity | direct-original | 082501-3 Fig.2 and polarization text; 082501-4 Table I/Fig.3 | true |
 | M15-D22-R095-2 | 完整QTR采用Jm/Js/Jl=7.4/5.6/1.8乘(1+cI)、c=.116以调能谱，区别于TAC的19/8/3；p.5明确Coriolis使j从short向medium重定向。故不能把HFA冻结j的推导或反方对旧冻结的批评直接当本文全spin QTR实现。作者将高spin能量最低点更多联系到yrast的5qp起始，不支持旧任务单一1qp/3qp残余相互作用100–200keV导致全部反弹的认证。 | model-implementation-and-attribution-boundary | direct-original | 082501-4 QTR paragraph; 082501-5 discussion before summary | true |
+
+## 2026-11-21 — 混合比拟合和偏振证据的采集谱系
+
+- PDF 2–3 将两次采集分工写明。Fig. 2 和 Table I 的 \(\delta\) 来自 ATLAS Gammasphere 角分布，以 Ref. 23（Yamazaki 1967）给出的函数拟合。所查出版正文的 \(\sigma/I\) 数值和实际取向处理均未明列。
+- Fig. 3 的 INGA 偏振不对称 \(A\) 用已知 E2 与 412.3 keV M1 作符号参照。表 I 的 747.0、812.8 keV 分别给 \(A=0.047(12),0.054(34)\)，作者用正号支持 Gammasphere 的大模根。数值 \(P\) 所需的极化灵敏度 \(Q(E)\) 未见于本篇。702.7 keV 的 DCO 指认来自另一支路。
+- [[lv-2022-evidence-against-wobbling-135pr]] 主文 Fig. 2(a,c) 重用 Fig. 2 的两组旧角分布点。Lv 的当次实测 \(P,R_{\rm ac}\) 来自 JUROGAM II，因此保留旧角分布、旧 INGA 不对称与新联合观测三种出处。

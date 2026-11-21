@@ -141,3 +141,8 @@ Knowledge Impact and Learning Decision：supports保留真实新增DGS支持链�
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | S19-D23-4 | printed171分别定义odd-n_w wobbling序列的opposite signature与另一个unfavoured SP；后者可存在于轴对称/三轴情形，wobbling候选在三轴时额外出现。两者可共享相对yrast相反的α，故α分类本身不唯一指定ordinary SP或wobbling，也不等于pseudospin。 | author-classification-and-identification-boundary | direct-original-and-bounded-inference | printed171, spin-sequence and unfavoured-signature paragraphs | true |
+
+## 2026-11-21 — 原刊拟合范围和图注异文
+
+- 出版正文 5 页已对账。印刷 p.171 按七组角分布拟合 \(\delta\)，并另列 DCO-like \(r\)。此原刊没有给出实测 \(P\) 或使用的 \(\sigma/J\) 数值。[[sensharma-2021-wobbling-motion-135pr-187au]] 的实验指纹（反应、束能、靶、探测器台数和事件数）对应 run 1，表 4.1 为追溯采用宽度的方法出处。
+- 450.2 keV 的 Fig. 2 中心值 \(-1.91\) 和学位 Fig. 4.15 的两门控制结果 \(-1.95,-1.85\) 各按原定位保留。印刷图把 \(E2\%\) 的负误差排在上、正误差排在下，转录按正负号识别方向。[[lv-2022-evidence-against-wobbling-135pr]] 主文 Fig. 2(e) 复用这组 450.2 keV 角分布作双根比较。

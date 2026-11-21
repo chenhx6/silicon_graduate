@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — ¹³⁵Pr 的 Matta 与 Sensharma 出版数据
+
+- [[matta-2015-transverse-wobbling-135pr]] 对账 6 页正文。混合比来自 Gammasphere 角分布，INGA 不对称度用于符号判别。[[sensharma-2019-two-phonon-wobbling-135pr]] 对账 5 页，区分新增 DGS 采集、继承的 TW1 强度比及学位论文的取向补充。
+- 累计 80 份、8503 页主件。续核馆藏 Garg 2015 及关联勘误，定位偏振数值的原版与修订版。Gemini 单元 `SEN19-PR135-AD-METHOD-P2-3` 超时，本批由 Codex 核读。
+
 ## 2026-11-21 — Lv 的 ¹³⁵Pr 多角组 ADO 与取向报告
 
 - [[lv-2022-evidence-against-wobbling-135pr]] 对账 6 页主文及 7 页 SI。四个环角分为两组，以同一全角门取一项 \(R_{\rm ADO}\)。核实三条联合 \(P\)–角比的 \(\delta\)，以及 SI 区分中心值联解和宽度曲线传播误差。论文和 SI 未列宽度数值。

@@ -25,7 +25,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.1016/j.physletb.2021.136840",
+  "active_source": "catalogue:LIT-000683",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -344,9 +344,11 @@
     "VAL20-RU98-PUBLICATION-BRANCHES-TARGETED",
     "VAL20-COMPLETE-SCIENTIFIC-SCOPE",
     "SEN21-COMPLETE-SCIENTIFIC-SCOPE",
-    "LV22-PR135-COMPLETE-SCIENTIFIC-SCOPE"
+    "LV22-PR135-COMPLETE-SCIENTIFIC-SCOPE",
+    "MATTA15-PR135-COMPLETE-SCIENTIFIC-SCOPE",
+    "SEN19-PR135-COMPLETE-SCIENTIFIC-SCOPE"
   ],
-  "completed_full_sources_this_run": 78,
+  "completed_full_sources_this_run": 80,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 996,
@@ -354,14 +356,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T02:58:17.002409+00:00",
+  "updated_at": "2026-11-21T03:08:07.249459+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 8492,
-  "current_source_note": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
-  "next_action": "Read Matta 2015 PRL 114 082501 local publisher PDF and map older angle and polarization data reused in Lv 2022.",
+  "completed_primary_pages_this_run": 8503,
+  "current_source_note": "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+  "next_action": "Read the locally held Garg 2015 135Pr PRC and reconcile original and corrected polarization with the Garg 2019 erratum.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Lv 2022: all-angle matrix definition, original P/Rac/delta numbers and width reporting.",
-  "current_source_scientific_acceptance": "Six publisher primary pages and seven official SI pages reviewed. One work and six primary pages credited.",
-  "source_scoped_retrieval": "Existing publisher main and SI. No new download."
+  "last_source_manager_closure": "Matta 2015 and Sensharma 2019: angular and polarization provenance, original fit reporting, figure sign reading and line reuse by Lv.",
+  "current_source_scientific_acceptance": "Six Matta primary pages plus five Sensharma primary pages; Matta publisher copyright leaf excluded. Two unique works credited.",
+  "source_scoped_retrieval": "Local publisher copies. No new download."
 }

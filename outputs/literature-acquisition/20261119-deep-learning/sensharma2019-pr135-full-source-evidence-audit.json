@@ -1,0 +1,44 @@
+{
+  "work_id": "catalogue:LIT-000683",
+  "raw_files": [
+    {
+      "path": "raw/papers/2019_Sensharma et al_Two-phonon wobbling in 135Pr.pdf",
+      "sha256": "54f06038943de5f980dc731266844dcfa1980f1775e47a943f77d31c256c741f",
+      "size": 935222,
+      "hash_basis": "fresh-hash",
+      "source_role": "original-or-verified-edition"
+    }
+  ],
+  "source_note": "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+  "primary_pdf_pages": 5,
+  "credited_primary_pages": 5,
+  "excluded_pdf_pages": [],
+  "covered_sections": [
+    "PDF 1–2: rationale, independent DGS statistics, seven-angle fit and DCO-like ratios",
+    "PDF 3: Figs. 1–3, fitted delta and signed E2 fraction errors, reused TW1 strengths",
+    "PDF 4–5: energy and structure interpretation, QTR/TPSM and references"
+  ],
+  "visual_checks": [
+    2,
+    3
+  ],
+  "evidence_gaps": [
+    "Numerical sigma/J and measured linear polarization absent in the Letter. The associated thesis gives reference alignment for run 1.",
+    "The 450.2-keV Fig. 2 fit and thesis Fig. 4.15 gate controls are distinct reported values."
+  ],
+  "publication_independence": "New DGS exposure from ATLAS 123Sb(16O,4n)135Pr at 80 MeV; TW1/yrast reduced strengths reused from Matta 2015, and Lv 2022 reuses the 450.2-keV distribution.",
+  "reader": "Codex with reconciliation of existing source-note coverage",
+  "PDM_run": false,
+  "Gemini_attempt": {
+    "task_id": "SEN19-PR135-AD-METHOD-P2-3",
+    "model_requested": "agy-cli/gemini-3.8-flash",
+    "reasoning_requested": "high",
+    "input_pdf_pages": [
+      2,
+      3
+    ],
+    "outcome": "timeout",
+    "accepted_findings": 0,
+    "receipt": "tmp/deep-learning-sensharma-2019-pr135/gemini-method-receipt.json"
+  }
+}

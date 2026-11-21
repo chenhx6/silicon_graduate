@@ -6706,3 +6706,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Lv 的 ¹³⁵Pr 角比与宽度处理
 
 - 对账 6 页主文和 7 页 SI，核实两组合并角、三条极化输入和取向报告。累计 78 份、8492 页主件，续读 Matta 2015。
+
+## 2026-11-21 — ¹³⁵Pr 的 Matta 与 Sensharma 原刊
+
+- 对账 Matta 的 6 页和 Sensharma 2019 的 5 页，核实角分布、偏振不对称和对应的出版数据谱系。累计 80 份、8503 页主件，续读 Garg 的原刊及勘误。

@@ -1,0 +1,34 @@
+{
+  "work_id": "catalogue:LIT-000547",
+  "raw_files": [
+    {
+      "path": "raw/papers/2015_Matta et al_Transverse Wobbling in Pr 135.pdf",
+      "sha256": "8db644705dccfd58016753b759d19314a65284c48efc1758f95f1b3ce23551d6",
+      "size": 3832299,
+      "hash_basis": "fresh-hash",
+      "source_role": "original-or-verified-edition"
+    }
+  ],
+  "source_note": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+  "primary_pdf_pages": 7,
+  "credited_primary_pages": 6,
+  "excluded_pdf_pages": [
+    7
+  ],
+  "covered_sections": [
+    "PDF 1–2: motivation, two separate experiments and partial level scheme",
+    "PDF 3–4: Gammasphere angular fits, INGA asymmetry, Table I and model input",
+    "PDF 5–6: energies and interpretation, model limitations, references"
+  ],
+  "visual_checks": [
+    3,
+    4
+  ],
+  "evidence_gaps": [
+    "Numerical sigma/I and analyzing power Q absent from the Letter.",
+    "Lv 2022 reuses the Fig. 2 angular-distribution points, while its new P and angular ratio are from a separate acquisition."
+  ],
+  "publication_independence": "ATLAS Gammasphere and TIFR INGA separately measured at 80 MeV; both used 123Sb(16O,4n)135Pr.",
+  "reader": "Codex with reconciliation of existing source-note coverage",
+  "PDM_run": false
+}
