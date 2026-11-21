@@ -411,9 +411,13 @@
     "CKZ99-ARXIV9905002-READ",
     "NOMURA17-ARXIV170407101V2-COVERAGE-RECONCILED",
     "CAPRIO03-ARXIV0310013-READ",
-    "CASTEN00-CH6-GCM-PARTIAL"
+    "CASTEN00-CH6-GCM-PARTIAL",
+    "CASTEN-90-00-GAMMA-STAGGERING-CROSSCHECK",
+    "GORE05-STAGGERING-COVERAGE-RECONCILED",
+    "MCCUTCHAN07-STAGGERING-COVERAGE-RECONCILED",
+    "ZAMFIR91-STAGGERING-COVERAGE-RECONCILED"
   ],
-  "completed_full_sources_this_run": 139,
+  "completed_full_sources_this_run": 142,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1000,
@@ -421,14 +425,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T08:15:15.171270+00:00",
+  "updated_at": "2026-11-21T08:28:53.270336+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 9622,
+  "completed_primary_pages_this_run": 9640,
   "current_source_note": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
-  "next_action": "Continue Casten Chapter 6 with the earlier sections on triaxial and gamma-soft spectra and their staggering conditions.",
+  "next_action": "Read remaining Casten collective chapters, starting with second-edition IBM spectrum and E2 systematics.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Caprio 2003 arXiv full scope and Casten second-edition Ch.6.7 errata/parameter check.",
-  "current_source_scientific_acceptance": "One complete 15-page reading version; existing book remains partial.",
-  "source_scoped_retrieval": "One targeted arXiv v1 for the actual author derivation; archived without modifying existing raw bytes."
+  "last_source_manager_closure": "Reversed low-spin pairings fixed in Casten source; three publisher studies reconciled.",
+  "current_source_scientific_acceptance": "18 pages under three existing journal works plus book units without whole-work credit.",
+  "source_scoped_retrieval": "Existing local publisher PDFs and book copies."
 }

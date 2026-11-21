@@ -62,6 +62,8 @@ tags: [gamma-band, staggering, triaxiality, gamma-soft, phase-transition]
 
 ## Summary
 
+馆藏回核（2026-11-21）以 10 页出版版对账。Eq. (2) 的二阶差分和 Casten 书中 \(E_s(J)\) 归一后的操作一致。Sec. III 与 Figs. 7–8 的 \(N_B=10\) 模型例显示，\(U(5)\)–\(SU(3)\) 路径在 \(R_{4/2}\sim2.5\) 附近出现 \(S(4)\) 快变，同时关联的准 \(\gamma\) 带 \(2^+\) 与 \(0_2^+\) 序列 \(2^+\) 的能量排序互换。沿 \(U(5)\)–\(O(6)\) 与 \(O(6)\)–\(SU(3)\) 的同类计算变化较平滑。应记录用来组成差分的能级身份。对照讨论部分相同区域的 [[gore-2005-gamma-band-staggering]] 时，Gore Fig. 1 的纵轴是相邻能差。具体能级的原始测量谱系仍需逐线核对。
+
 McCutchan *et al.* establish `S(J)` as a useful, sensitive—but non-unique—γ-band diagnostic and connect isotope-dependent staggering to transitions among vibrational, γ-soft, axial and triaxial-rigid structures.
 
 ## Competing Interpretations and Limitations

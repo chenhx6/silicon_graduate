@@ -1,0 +1,85 @@
+{
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000429",
+      "source_note": "knowledge/sources/gore-2005-gamma-band-staggering.md",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/振动/2005_Gore et al_Unexpected rapid variations in odd-even level staggering in gamma-vibrational.pdf",
+          "sha256": "6571b5a3a5c2b14b13fb9411b08a9cf8f91eadcb26ef22a1c69e62a19ecf67b3",
+          "size": 203654,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "primary_pdf_pages": 2,
+      "credited_primary_pages": 2,
+      "covered_sections": [
+        "PDF 1–2: experimental fission-band extensions, adjacent energy spacings in Fig. 1, high-spin variations, comparison to compiled Sm–Pt spectra."
+      ],
+      "evidence_gaps": [
+        "The 570 keV is a spacing, not the second-difference amplitude. Fission analysis and compiled comparison data have separate provenance."
+      ]
+    },
+    {
+      "work_id": "catalogue:LIT-000549",
+      "source_note": "knowledge/sources/mccutchan-2007-gamma-band-staggering.md",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/转动/2007_McCutchan et al_Staggering in γ-band energies and the transition between different structural.pdf",
+          "sha256": "83acbb32d23d0f7bbe726a28d91e298bda1fa06871020fd18c2c6fc05f52d2ed",
+          "size": 433828,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "primary_pdf_pages": 10,
+      "credited_primary_pages": 10,
+      "covered_sections": [
+        "PDF 1–10: spectra and S(J) definition, model benchmarks and trajectories, empirical comparisons and band-member swapping."
+      ],
+      "evidence_gaps": [
+        "Reused empirical spectra; model comparisons do not identify the discrete gamma dependence uniquely."
+      ]
+    },
+    {
+      "work_id": "catalogue:LIT-000776",
+      "source_note": "knowledge/sources/zamfir-casten-1991-gamma-softness-triaxiality.md",
+      "raw_files": [
+        {
+          "path": "raw/papers/1991_Zamfir_Casten_Signatures of γ softness or triaxiality in low energy nuclear spectra.pdf",
+          "sha256": "faa1b32dfa651fc613a9c4bac87c2c4b569d1bd725939580ea5ee3744d8c963a",
+          "size": 429174,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "primary_pdf_pages": 6,
+      "credited_primary_pages": 6,
+      "covered_sections": [
+        "PDF 1–6: limiting Wilets–Jean and Davydov groupings, normalized staggering, cubic term and empirical low-spin sample."
+      ],
+      "evidence_gaps": [
+        "Historical even-even sample; gamma sensitivity and other dynamical mechanisms limit transfer."
+      ]
+    }
+  ],
+  "credited_primary_pages": 18,
+  "reader": "Codex, including reconciliation of prior scope",
+  "book_crosscheck": {
+    "first_edition_pdf": 209,
+    "second_edition_pdf": 266,
+    "equations": [
+      "6.46",
+      "6.47",
+      "6.48"
+    ],
+    "normalized_S4": {
+      "axial_rotor": "1/3",
+      "davydov_gamma_30": "5/3",
+      "wilets_jean": -2,
+      "harmonic_vibrator": -1
+    }
+  },
+  "PDM_run": false
+}

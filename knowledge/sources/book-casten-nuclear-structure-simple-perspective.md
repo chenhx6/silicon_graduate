@@ -141,9 +141,9 @@ $$\langle 2_{\text{II}}  \vert E2  \vert 2_{\text{I}}  \rangle = \alpha \beta [ 
 - **能级交错指数 $S(J)$（Staggering Parameter）**：
   $$S(J) = \frac{[E(J) - E(J-1)] - [E(J-1) - E(J-2)]}{E(2^+_1)}$$
   在准 $\gamma$ 振动带中：
-  * 刚性三轴核能级成对聚集为 $2^+, (3^+, 4^+), (5^+, 6^+)$；
-  * $\gamma$ 软核（Wilets–Jean / $O(6)$）能级由于 $O(5)$ 多重态结构聚集为 $(2^+, 3^+), (4^+, 5^+)$；
-  两者给出符号相反的能级交错振荡相位，成为鉴别低能甚至高自旋非轴对称自由度是刚性还是动态软核的关键实验判据。
+  * 固定 \(\gamma=30^\circ\) 的 Davydov 转子极限按 \((2^+,3^+),(4^+,5^+),\ldots\) 成对。
+  * \(\gamma\)-不稳定的 Wilets–Jean 极限按 \(2^+,(3^+,4^+),(5^+,6^+),\ldots\) 成组。
+  * 一版印刷 p.194（PDF 209）及二版印刷 p.248（PDF 266）Eqs. (6.46)–(6.48) 给出同一组 \(S(4)=E_s(4)/E(2_1^+)\) 参考值。轴转子为 \(1/3\)，固定 \(\gamma=30^\circ\) 为 \(5/3\)，Wilets–Jean 为 \(-2\)，谐振子准 \(\gamma\) 带为 \(-1\)。本书用偶数 \(J\) 为比较起点。实际谱的解释还需连续自旋、带归属和 E2 支路。
 
 ### 4. 奇 A 核 Coriolis 耦合与 Stephens 旋转对齐（§8.2–8.4, PDF 294–320）
 轴对称粒子–转子的横向 Coriolis 项为
@@ -160,7 +160,7 @@ $$H_{\text{cor}} = - \frac{\hbar^2}{2\mathcal{J}} (I_+ j_- + I_- j_+).$$
 |---|---|---|---|---|---|
 | CAS90-1 | 两态混合本征能量排斥下限为 $2V$；混合波函数幅值仅由无量纲参数 $R=\Delta E_u/V$ 决定。 | model-result | direct | PDF 33–36 / printed 18–21, Eqs. (1.2)–(1.8) | false |
 | CAS90-2 | 跨带 $E2$ 矩阵元由初末态对角四极矩之差 $\Delta Q = Q_2 - Q_1$ 决定；形变相近的混合组态跃迁发生相消。 | model-result | direct | PDF 40–42 / printed 25–27, Eqs. (1.15)–(1.17) | false |
-| CAS90-3 | 低自旋偶偶核极少存在孤立刚性三轴核；几乎所有显现三轴特征的体系均为 $\gamma$ 软核（可通过 $S(J)$ 能级交错区分）。 | author-interpretation | direct | PDF 208–210 / printed 193–195 | false |
+| CAS90-3 | Casten 对当时低能偶偶系统学倾向于 \(\gamma\) 软解释，并指出若干能量和 E2 规则在固定角与软势极限中可以相近。结论适用于该书所比较的样本和模型。 | author-interpretation | direct | 一版 PDF pp.208–210 / printed pp.193–195；二版 PDF pp.265–268 / printed pp.247–250 | false |
 | CAS90-4 | 作者总结经验矩阵元比所讨论的理论估算低约 20–50%。估算中已显式包含配对重叠。\(^{183}\mathrm{W}\) 的 70 keV 间距在孤立两能级近似下约束 \(|V|\le35\) keV，相对 55 keV 估算为约 0.64 的上限。 | empirical-and-model-boundary | direct | 第一版 PDF 302–303 / printed 287–288；第二版 PDF 390–391 / printed 372–373 | false |
 | CAS90-5 | 高 $j$ 独特宇称轨道（Unique-parity orbits）由于大 $j$ 产生巨大 Coriolis 矩阵元，驱动 Stephens 旋转对齐并形成退耦带。 | model-result | direct | PDF 315–320 / printed 300–305 | false |
 | CAS90-6 | 库仑激发应在低于库仑势垒、核力影响可控的最近接距离下使用；半经典参数、绝热参数、散射角和多步/虚激发共同决定矩阵元反演的可辨识性。 | method/formalism | direct | Ch. 10, PDF 335–344 / printed 335–344; selected text pp. 335–343 | false |
@@ -169,7 +169,7 @@ $$H_{\text{cor}} = - \frac{\hbar^2}{2\mathcal{J}} (I_+ j_- + I_- j_+).$$
 | CAS90-9 | 价核子质子-中子相互作用与形变产生机制：球形向形变核转变源于同类核子超流配对（促使球形 $J=0$ 耦合）与价质子-价中子残余长程四极相互作用之间的竞争；价核子数乘积 $N_p N_n$ 超过临界值驱动发生四极形变相变。 | model-result | direct | Ch. 6, 印刷 pp. 141–156 / PDF pp. 156–171 | false |
 | CAS90-10 | 用有效价空间计算的 \(N_pN_n\) 可压缩区域集体性趋势。Fig. 6.54 的六组数据在 \(P=N_pN_n/(N_p+N_n)\) 约 4–5 时穿过选定的 \(R_{4/2}\approx3\) 分类线；数值依赖样本、计数方式和分类线。 | empirical-systematics | direct | 一版 §6.7，印刷 pp.242–244 / PDF pp.257–259；二版 §7.2，Fig. 7.12 | false |
 | CAS90-11 | Casten 对称性三角形与 IBM 极限分类：IBM-1 在群论上具有三个动力学对称性极限：$U(5)$（球形振动）、$SU(3)$（轴对称转子）与 $O(6)$（$\gamma$ 不稳定/非轴对称软核）；所有中重偶偶核映射在三角形内部或边界上。 | model-result | direct | Ch. 6, 印刷 pp. 195–218 / PDF pp. 210–233 | false |
-| CAS90-12 | $O(6)$ $\gamma$ 软核与 Davydov-Filippov 刚性三轴核的特征能级交错反转：$\gamma$ 振动带自旋交错参量 $S(J)$ 在刚性三轴呈现奇偶反相交错，而在 $\gamma$ 软核由于势能面在 $\gamma$ 方向平坦呈现同相交错，提供排他性鉴别代数指纹。 | model-result | direct | Ch. 6, 印刷 pp. 180–195 / PDF pp. 195–210 | false |
+| CAS90-12 | 固定 \(\gamma=30^\circ\) 与 Wilets–Jean 两个极限的 \(S(4)\) 分别为 \(5/3\) 和 \(-2\)。谐振子的准 \(\gamma\) 序列也给负值。结合较高 \(J\) 的相位序列和跃迁证据才可比较实际核素。 | model-result | direct | 一版 PDF p.209、二版 PDF p.266，Eqs. (6.46)–(6.48) | false |
 | CAS90-13 | 单粒子能级在变形场中的分裂与渐近量子数 $[N n_z \Lambda \Omega]$：轴对称拉长形变使球形壳层分裂为双重简并能级，赤道轨道能量下沉，$\Delta n_z = 0, \pm 1$ 支配单核子转移与跃迁选择定则。 | model-result | direct | Ch. 7, 印刷 pp. 247–265 / PDF pp. 262–280 | false |
 | CAS90-14 | 按本书的相位，纯高 \(j\) 的 \(K=1/2\) 成分给 \(a=(-1)^{j-1/2}(j+1/2)\)。符号决定受惠的签名。转动对齐极限的受惠序列可近似沿 \(I=\alpha+R\)、\(R=0,2,\ldots\) 取值。 | model-result | direct | 第二版 PDF 385–386, 404–406 / printed 367–368, 386–388，Eqs. (9.8)–(9.9), (9.15) | false |
 | CAS90-15 | 激发能级完备性与平均共振捕获（ARC）技术：中子过滤束在数千电子伏能区对数以百计共振态强度平均，消除 Porter-Thomas 统计涨落，为指定能量窗内所有低自旋态提供 100% 能级完备性合同。 | method-result | direct | Ch. 10, 印刷 pp. 344–356 / PDF pp. 359–371 | false |

@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — γ 带交错的极限分组与实际核素
+
+- [[book-casten-nuclear-structure-simple-perspective]] 原页核实两版的低自旋分组，订正既有笔记把 Davydov 与 Wilets–Jean 两个极限写反的问题。并核 [[zamfir-casten-1991-gamma-softness-triaxiality]]、[[mccutchan-2007-gamma-band-staggering]] 及 [[gore-2005-gamma-band-staggering]]，区分相邻能差、归一二阶差分与各态身份。
+- 三份出版原件共 18 页，累计 142 份、9640 页主件。Casten 两版仍按章节覆盖。接续二版 Ch.6 的 IBM 部分和能量/E2 同时检验。
+
 ## 2026-11-21 — Casten 二版 GCM 换算与 Caprio 原始推导
 
 - 二版 Eq. (6.82) 的 \(d\) 正向换算系数已用 Eq. (6.81)、反向表达式和 [[caprio-2003-geometric-collective-model-scaling]] Eq. (7) 互证，保留原书字面与核算。Caprio 的 15 页 arXiv v1 已归档并核读。

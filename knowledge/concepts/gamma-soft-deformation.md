@@ -39,6 +39,8 @@ tags: [triaxiality, collective-motion]
 
 [[zamfir-casten-1991-gamma-softness-triaxiality]] 指出 Xe、Ba、Pt 的当时低能数据更接近 γ 软势，并强调很弱的 γ 势依赖即可显著改变 staggering。
 
+比较时保留两步。先把相邻能差 \(\Delta E(J)=E_\gamma(J)-E_\gamma(J-1)\) 和归一的二阶差分 \(S(J)=[\Delta E(J)-\Delta E(J-1)]/E(2_1^+)\) 区分。再核对 \(\gamma\) 带成员随核素、自旋和模型参数的身份。理想 \(\gamma=30^\circ\) Davydov 模型的 \(S(4)=5/3\)，Wilets–Jean 的 \(S(4)=-2\)，谐振子准 \(\gamma\) 带也有 \(S(4)=-1\)。\(^{110}\mathrm{Ru}\) 的高自旋相位变化及 IBM 路径上两个 \(2^+\) 态的身份互换说明单点分类的限制。[[book-casten-nuclear-structure-simple-perspective]]，两版 Eq. (6.48)；[[gore-2005-gamma-band-staggering]]，Fig. 1；[[mccutchan-2007-gamma-band-staggering]]，Sec. III。
+
 [[nomura-2017-odd-mass-gamma-soft-shape-transitions]] 在 DD-PC1 RHB+IBFM 中把 A≈130 Ba/Xe 芯的势能面、奇 A 能级变化与 E2 四极形状不变量并列，用 N≈76-78 的态依赖变化讨论近球形到 γ-soft 的相变。Fig.13 的 `γ_eff` 峰值只对应偶偶 `0+_1`；奇 A 不同低能态在 Figs.14-15 中呈现不同位置和方向的变化。
 
 [[nomura-2021-pairing-triaxial-vibrations-gamma-soft]] 显示 `128,130Xe` 的 γ 软度可与配对软度同时出现；`E2γ` 靠近 W-J/O(6) 参考，而 `R3γ` 位于 W-J 与 D-F 之间并趋向 D-F，提示不能依赖单一指标分类。

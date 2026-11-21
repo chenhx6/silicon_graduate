@@ -45,7 +45,7 @@ tags: [gamma-vibration, staggering, triaxiality, gamma-softness, fission]
 ## Key Results
 
 - γ-band odd-even level staggering changes rapidly with neutron number and spin; `104Mo`, `108Ru`, `112Pd` and `112Ru` display different/reversed patterns.
-- `112Ru` develops particularly large high-spin staggering (up to ~570 keV), while Sm–Pt nuclei generally show smaller/no reversal except `170Er`.
+- In Fig. 1 the plotted ordinate is the adjacent-level spacing \(\Delta E(J)=E_\gamma(J)-E_\gamma(J-1)\). The paper quotes 570 keV for a high-spin spacing in \(^{112}\mathrm{Ru}\), with 480 keV for \(^{114}\mathrm{Pd}\) and 640 keV for \(^{166}\mathrm{Yb}\). The phase reversals in \(^{110}\mathrm{Ru}\) and across selected Ru/Pd isotopes are comparisons of these sequences. A spacing is distinct from the normalized second difference \(S(J)=[\Delta E(J)-\Delta E(J-1)]/E(2_1^+)\).
 - Simple Davydov–Filippov vs Wilets–Jean classifications cannot explain all reversals; the authors call for microscopic γ-soft/stable-triaxial descriptions and reject backbending as a complete explanation.
 
 ## Key Results
@@ -53,7 +53,7 @@ tags: [gamma-vibration, staggering, triaxiality, gamma-softness, fission]
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | GO05-1 | Triple-γ fission data extend γ bands and reveal rapid odd-even staggering variations across Mo/Ru/Pd chains. | experimental-result | direct | PDF pp.471–472, Fig.1 | true |
-| GO05-2 | Staggering can reverse sign with spin/neutron number; `112Ru` has the largest high-spin effect in the compared set. | experimental-result | direct | PDF p.472, Fig.1 | true |
+| GO05-2 | The adjacent-spacing oscillation changes phase with spin or across nearby isotopes. \(^{112}\mathrm{Ru}\) has a particularly large high-spin variation among the Mo/Ru/Pd cases. | experimental-result | direct | PDF p.472, Fig.1 | true |
 | GO05-3 | Simple rigid-γ versus γ-soft labels do not explain all patterns; microscopic triaxial/soft models are required. | author-interpretation | indirect | PDF p.472 | true |
 
 ## Summary
