@@ -1,0 +1,25 @@
+{
+  "work_id": "catalogue:LIT-000982",
+  "recorded_at": "2026-11-21T18:23:56.688894+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/campaign-g13-iskra-2019-96zr-revised-e3.md",
+  "raw": {
+    "path": "raw/papers/gpt/query/20261107-campaign-G13/iskra-2019-96zr-revised-e3.pdf",
+    "sha256": "59c772991a381100f31f1edca6aefc72bef0c95cd8ef2cb2ea7bf37f9e429cca",
+    "size": 343873,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "credited_primary_pages": 5,
+  "coverage": [
+    "Print pp. 396–398: precursor lifetimes, reaction list, gated comparison, summing and E3 extraction.",
+    "Print pp. 398–400: MCSM amplitude decomposition, interpretation, summary and references."
+  ],
+  "reader": "Previous whole paper record and Codex source-verified summing and normalization details.",
+  "evidence_boundary": [
+    "The 42(3) W.u. result uses an independently adopted half-life and a new determination of the branch.",
+    "The Table 1 correction removes a 0.16 relative contribution from summing; the normalized before/after values are dependent.",
+    "No new own lifetime fit, MCSM wavefunction or final general evaluation is reconstructed."
+  ],
+  "next_action": "Reconcile the Rong et al. Zr-96 symmetry-restored MDC-CDFT article, with its adopted E3 benchmark and model-space limits."
+}

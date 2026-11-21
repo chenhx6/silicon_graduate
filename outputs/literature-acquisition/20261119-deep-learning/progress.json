@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000982",
+  "active_source": "catalogue:LIT-000907",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -503,9 +503,10 @@
     "KM23-RU100-THIN-TARGET-BRANCH-AND-RATE-RATIOS",
     "KM24-RU100-THICK-TARGET-LIFETIME-LINE-IDENTITY",
     "KM26-98MO-PHOTON-AND-REDUCED-STRENGTH-RATIOS",
-    "MZ90-ZR96-TIMING-AND-ADOPTED-BRANCHES"
+    "MZ90-ZR96-TIMING-AND-ADOPTED-BRANCHES",
+    "IS19-ZR96-ADOPTED-LIFETIME-AND-CASCADE-SUMMING"
   ],
-  "completed_full_sources_this_run": 220,
+  "completed_full_sources_this_run": 221,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -513,14 +514,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T18:20:54.301211+00:00",
+  "updated_at": "2026-11-21T18:23:56.688894+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 11306,
-  "current_source_note": "knowledge/sources/campaign-g13-iskra-2019-96zr-revised-e3.md",
-  "next_action": "Verify the Iskra 2019 96Zr branching-ratio correction, controlled by its adopted lifetime and original coincidences.",
+  "completed_primary_pages_this_run": 11311,
+  "current_source_note": "knowledge/sources/campaign-g05-rong-2023-96zr-mdc-cdft.md",
+  "next_action": "Reconcile the Rong et al. Zr-96 symmetry-restored MDC-CDFT article, with its adopted E3 benchmark and model-space limits.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Mach 1990 96Zr early timing, mean/half-life and imported branch.",
-  "current_source_scientific_acceptance": "Iskra 2019 publisher original queued.",
-  "source_scoped_retrieval": "Reused the archived four-page journal PDF."
+  "last_source_manager_closure": "Iskra 2019 96Zr E3 revision and corrected intensity dependency.",
+  "current_source_scientific_acceptance": "Rong author version queued.",
+  "source_scoped_retrieval": "Used the local five-page journal original."
 }
