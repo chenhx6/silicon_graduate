@@ -1,0 +1,27 @@
+{
+  "work_id": "catalogue:LIT-000273",
+  "recorded_at": "2026-11-21T14:34:33.873155+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/almehed-2011-chiral-vibrations-a135.md",
+  "raw": {
+    "path": "raw/papers/2011_Almehed_ChiralVibrations_A135_arxiv07090969v2.pdf",
+    "sha256": "becba964421bb8860fa657865071df117622a492a2bbb2b23d661d235296f29b",
+    "size": 487253,
+    "hash_basis": "fresh-hash",
+    "source_role": "verified-official-arxiv-v2-reading-copy"
+  },
+  "credited_primary_pages": 18,
+  "coverage": [
+    "PDF 1–4: scope, self-consistent TAC and RPA method, Table I and Fig. 1.",
+    "PDF 5–8: Table II, Fig. 2, RPA assumptions and Fig. 3 energies for N=75.",
+    "PDF 9–16: Z=57 energies, interband and intraband rates, angular/shape amplitudes, and limits.",
+    "PDF 16–18: conclusions, Appendix A and references."
+  ],
+  "reader": "Prior documented full read and Gemini full-read report, with Codex correction against Fig. 3, Table II and the dated title page.",
+  "evidence_boundary": [
+    "Read from local arXiv:0709.0969v2 dated in the sidebar 31 January 2011. The different TeX date is preserved. VoR equivalence not assessed.",
+    "Fig. 3 compares two physical RPA frequencies and an unperturbed 2qp energy against interpolated Routhian differences; they have different roles.",
+    "The intermediate aplanar 136Pm rows and the absent 135Nd table entries cannot be filled by proxy or generalized from the other isotones."
+  ],
+  "next_action": "Reconcile the original Frauendorf–Meng 17-page NPA publication and its 134Pr evidence lineage; compare it with later large-amplitude and small-amplitude studies."
+}

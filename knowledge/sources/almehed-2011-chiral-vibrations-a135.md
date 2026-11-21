@@ -93,6 +93,8 @@ N=75附近部分模型解以取向振动为主；接近壳闭合或非谐区时�
 
 ## Model Results
 
+PDF 7 Fig. 3 and the discussion on PDF 8 compare three distinct calculated energies at a common cranking frequency: the lowest physical RPA mode, the second physical mode, and the lowest unperturbed 2qp excitation measured relative to the specified TAC configuration. The authors use their separation to judge when the first mode can retain its collective strength. They report less separation in heavier \(N=75\) isotones and anticipate fragmentation when other excitations are nearby. The calculated reference lines are distinct from the interpolated experimental Routhian difference in the same figure.
+
 两类转动spurious modes分别为E=0和E=ℏω（p.7）；模型自洽/解耦是本征解的必要数值检查。我们没有程序和实际输出，故只能记录作者报告，不认证重现。Table II横线与RPA失效域保留，不能作为缺失的实验误差条。
 
 ## Competing Interpretations and Limitations

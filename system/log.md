@@ -6962,3 +6962,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — 一维手征集体哈密顿量质量分支
 
 - 对照 Chen 2013 作者稿有限频率处方、实际数值分支和周期边界后继。累计 181 份、10632 个主件 PDF 页。
+
+## 2026-11-21 — Almehed 等的 TAC 与物理模参照
+
+- 对照 arXiv v2 的两个物理 RPA 模、未扰动 2qp 能量与共同转频实验 Routhian 差。累计 182 份、10650 个主件 PDF 页。

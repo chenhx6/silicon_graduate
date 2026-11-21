@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000273",
+  "active_source": "catalogue:LIT-000413",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -464,9 +464,10 @@
     "SJB12-TPSM-BOOK-CHAPTER-COVERAGE",
     "CH16-FOURIER-MEASURE-AND-KINETIC-TERMS",
     "WU18-LOCAL-E2-SPIN-CHANNEL-AND-AVERAGING",
-    "CH13-BOX-MASS-FREQUENCY-SEPARATION"
+    "CH13-BOX-MASS-FREQUENCY-SEPARATION",
+    "AL11-TAC-RPA-MODE-AND-2QP-REFERENCES"
   ],
-  "completed_full_sources_this_run": 181,
+  "completed_full_sources_this_run": 182,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -474,14 +475,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T14:29:30.021152+00:00",
+  "updated_at": "2026-11-21T14:34:33.873155+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10632,
-  "current_source_note": "knowledge/sources/almehed-2011-chiral-vibrations-a135.md",
-  "next_action": "Verify the Almehed–Frauendorf–Dönau 18-page author edition on A=135 chiral vibrations, with original TAC/RPA and data dependencies.",
+  "completed_primary_pages_this_run": 10650,
+  "current_source_note": "knowledge/sources/frauendorf-meng-1997-tilted-rotation-chirality.md",
+  "next_action": "Reconcile the original Frauendorf–Meng 17-page NPA publication and its 134Pr evidence lineage; compare it with later large-amplitude and small-amplitude studies.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Chen 2013 original box quantization, stated mass branch and full official author edition.",
-  "current_source_scientific_acceptance": "Almehed author PDF identity and SHA checked, Gemini primary reading pending.",
-  "source_scoped_retrieval": "Reused the archived 16-page author-version original."
+  "last_source_manager_closure": "Almehed, Dönau and Frauendorf 18-page author version and its mode/experimental references.",
+  "current_source_scientific_acceptance": "Frauendorf–Meng publisher file verified by SHA, with the full-read reconciliation in progress.",
+  "source_scoped_retrieval": "Reused the local Almehed arXiv author copy."
 }

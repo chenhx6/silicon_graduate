@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — \(A\approx135\) 手征振动的模态参照
+
+- [[almehed-2011-chiral-vibrations-a135]] 核定 18 页 arXiv v2。补齐 Fig. 3 的两个物理 RPA 模与 2qp 参考线，保留共同转频下的实验 Routhian 比较及 \(^{136}\mathrm{Pm}\) 的非平面区间。
+- 累计核定 182 份、10650 个主件 PDF 页。接续 [[frauendorf-meng-1997-tilted-rotation-chirality]] 的刊版 TAC 与早期 \(^{134}\mathrm{Pr}\) 证据链。
+
 ## 2026-11-21 — 一维手征集体哈密顿量的数值分支
 
 - [[chen-2013-collective-hamiltonian-chiral-modes]] 核定 16 页 arXiv v2。按原文区分用于质量的 \(\Omega=0\) 与盒内求出的有限双带劈裂。有限 \(\Omega\) 单阱处方保留为原文推导，附图未给对应质量网格。
