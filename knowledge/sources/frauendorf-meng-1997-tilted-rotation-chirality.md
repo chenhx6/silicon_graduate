@@ -40,7 +40,7 @@ tags: [triaxiality, chirality, tilted-axis-cranking, high-spin]
 
 ## Bibliographic Record
 
-Nuclear Physics A 617 (1997) 131-147。理论论文，共 17 页。
+Nuclear Physics A 617 (1997) 131–147。理论论文，共 17 页。刊版首页题名为 *Tilted rotation of triaxial nuclei*，印收稿日 1996-11-14。
 
 ## Scope and Reading Depth
 
@@ -72,6 +72,8 @@ Nuclear Physics A 617 (1997) 131-147。理论论文，共 17 页。
 
 论文主要建立一般理论框架。`134Pr` bands 1/2 被讨论为接近手征性起始的候选，但作者明确保留隧穿和三轴稳定性的疑问。
 
+刊版 p. 145（PDF 15）Fig. 9 图注印 \(^{134}\mathrm{Pm}\)，但 Sec. 3.3 前页正文与 p. 146 结论均写 \(^{134}\mathrm{Pr}\)。Ref. [15] 列 [[petrache-1996-rotational-bands-134pr]] 及私人交流。按正文和来源识别两条正宇称带为 \(^{134}\mathrm{Pr}\)，保留图注的字面异文。仅凭这处回引不能把每个绘点逐一归属于已发表表格或私人交流。
+
 ## Authors' Interpretation
 
 核转动手征性是动态对称性破缺：非转动三轴核本身是 achiral；角动量方向使短、中、长轴形成左右手几何。
@@ -86,6 +88,7 @@ Nuclear Physics A 617 (1997) 131-147。理论论文，共 17 页。
 ## Competing Interpretations and Limitations
 
 - 固定 γ 的简化模型不能证明真实核具有稳定刚性三轴势；
+- 刊版 p. 145（PDF 15）Sec. 3.3 提出，应在微观 TAC 中检验内禀 \(Q_0,Q_2\) 的自洽性，再判断所选高 \(j\) 组态是否能维持所假定的三轴形变。作者把这个检验留给后续研究。
 - 近简并双带本身不足以证明手征性；
 - TAC 平均场不处理左右手态之间的量子隧穿，也不能给出带间跃迁；
 - γ 的正负与轴标号依赖约定，引用数值时必须注明 Lund convention。

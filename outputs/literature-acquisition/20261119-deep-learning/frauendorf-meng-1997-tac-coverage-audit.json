@@ -1,0 +1,26 @@
+{
+  "work_id": "catalogue:LIT-000413",
+  "recorded_at": "2026-11-21T14:39:31.709269+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/frauendorf-meng-1997-tilted-rotation-chirality.md",
+  "raw": {
+    "path": "raw/papers/1997_Frauendorf et al_Tilted rotation of triaxial nuclei.pdf",
+    "sha256": "9dc81b3147a786189dd0c2f31d79a56e9bb5d83e16fd0c8137bccaf2a43d81e2",
+    "size": 781219,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "credited_primary_pages": 17,
+  "coverage": [
+    "Print pp. 131–136 (PDF 1–6): cranking, particle-rotor model, geometric framework.",
+    "Print pp. 136–143 (PDF 6–13): symmetry, planar and aplanar wavefunctions, and calculated electromagnetic transitions.",
+    "Print pp. 143–147 (PDF 13–17): parameter progression, 134Pr example, conclusions and references."
+  ],
+  "reader": "Prior recorded reading, Gemini complete-read report and Codex visual check of Fig. 9 and comparison with the title page and references.",
+  "evidence_boundary": [
+    "Fig. 9 p. 145 prints 134Pm. Text on pp. 144 and 146 plus Ref. [15] identifies 134Pr; the citation also includes private communication.",
+    "The weak population above the crossing limits the inference from unobserved links. No measured handedness or quantified upper limit is supplied.",
+    "The authors call for quadrupole self-consistency checks to establish the sustainability of the postulated triaxial shape."
+  ],
+  "next_action": "Verify the original Petrache et al. 21-page 134Pr paper and link the repeated two-band inputs to the 1997 theory, keeping the private-communication boundary."
+}

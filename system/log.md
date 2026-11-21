@@ -6966,3 +6966,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Almehed 等的 TAC 与物理模参照
 
 - 对照 arXiv v2 的两个物理 RPA 模、未扰动 2qp 能量与共同转频实验 Routhian 差。累计 182 份、10650 个主件 PDF 页。
+
+## 2026-11-21 — 早期手征 TAC 刊版与实验回引
+
+- 核定 Frauendorf–Meng 17 页刊版，保留 Fig. 9 的 Pr/Pm 异文及 Ref. [15] 的两类出处。累计 183 份、10667 个主件 PDF 页。

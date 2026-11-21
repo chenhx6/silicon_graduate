@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Frauendorf–Meng 刊版和 \(^{134}\mathrm{Pr}\) 图注
+
+- [[frauendorf-meng-1997-tilted-rotation-chirality]] 核定 17 页刊版，保留 p. 145 Fig. 9 图注 \(^{134}\mathrm{Pm}\) 和正文 \(^{134}\mathrm{Pr}\) 的异文。Ref. [15] 同列刊版实验与私人交流。
+- 累计核定 183 份、10667 个主件 PDF 页。接续 [[petrache-1996-rotational-bands-134pr]] 的原始能级和符合证据。
+
 ## 2026-11-21 — \(A\approx135\) 手征振动的模态参照
 
 - [[almehed-2011-chiral-vibrations-a135]] 核定 18 页 arXiv v2。补齐 Fig. 3 的两个物理 RPA 模与 2qp 参考线，保留共同转频下的实验 Routhian 比较及 \(^{136}\mathrm{Pm}\) 的非平面区间。
