@@ -60,6 +60,8 @@ primed-recall-104在本轮开原件前冻结，已明示用户摘要、旧085及
 
 ## Scope and Reading Depth
 
+Printed p. 462 (PDF p. 4) fits the QI time ratio with \(A_2=-0.21(2)\) on the \(^{129}\mathrm{Ce}\) 108 keV line and \(A_2=-0.20(2)\) on the \(^{131}\mathrm{Ce}\) 162 keV line. The authors take these fitted anisotropies as supporting dipole character. The coefficient multiplies the alignment relaxation and hyperfine modulation in Eq. (3). Keep it with the time-dependent QI method when comparing it with in-beam angular-distribution measurements.
+
 - Completed reading_depth: `deep-read`。
 - Covered scope: PDF pp.459-478 全文；TDPAD QI/MI setup, lifetime/ratio fitting, g/Q extraction, `129,131Ce` spin/parity revision, PTR Hamiltonian/parameters, negative/positive-parity bands, figures/tables and conclusions all read.
 - Not covered: cited spectroscopy papers and later lifetime/shape calculations.

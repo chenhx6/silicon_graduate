@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — Ce 异能态静态矩的时谱
+
+- [[ionescu-bujor-1998-static-moments-129-131ce]] 核定 20 页刊版。保留 \(^{129,131}\mathrm{Ce}\) 的 \(A_2\) 参数、取向弛豫和时谱调制条件，分别标记静态矩和跃迁矩。
+- 累计核定 196 份、10890 个主件 PDF 页。接续 [[campaign-g06-chen-2026-triaxial-softness-wobbling]] 的软核与摆动比较。
+
 ## 2026-11-21 — Alwaleedi 学位论文的版本与谱图
 
 - [[alwaleedi-2013-band-structures-131ce]] 核定 97 页馆藏原件，两份 PDF 为同一文件的副本。Fig. 5.5 使用 \(\delta=0\) 的分支换算，原文仍缺逐点门选强度和误差。Band 2 的 1155 → 1166 keV 异文回到 Palacz Fig. 1 与论文 Fig. 4.9。

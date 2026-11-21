@@ -1,0 +1,25 @@
+{
+  "work_id": "catalogue:LIT-000476",
+  "recorded_at": "2026-11-21T16:05:27.858362+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/ionescu-bujor-1998-static-moments-129-131ce.md",
+  "raw": {
+    "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf",
+    "sha256": "2735874b2be1116741f421a114ffa5995be93c99891ed284d962b53f0446484b",
+    "size": 984692,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "credited_primary_pages": 20,
+  "coverage": [
+    "Print pp. 459–466 (PDF 1–8): 129/131Ce isomers, timelike hyperfine measurements, QI/MI calibrations and their moments.",
+    "Print pp. 466–475 (PDF 8–17): particle-rotor model, competing qp/rotational assignments, wavefunctions, the level scheme, and model parameters.",
+    "Print pp. 475–478 (PDF 17–20): summary and references."
+  ],
+  "reader": "Prior full recorded reading and Codex targeted original comparison, verified hash and actual Eq. (3) coefficients.",
+  "evidence_boundary": [
+    "Keep the two fitted A2 coefficients in the QI time-spectrum fit, with the EFG and alignment relaxation. They are not a numerical substitute for a prompt experiment angular distribution.",
+    "Static moments, transition moments from separate nuclei/experiments, and particle-rotor shape assumptions have separate identities."
+  ],
+  "next_action": "Continue with Chen 2026 full treatment of triaxial softness, its model choices and transfer limits."
+}
