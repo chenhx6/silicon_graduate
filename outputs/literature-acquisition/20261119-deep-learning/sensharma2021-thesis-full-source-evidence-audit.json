@@ -1,0 +1,52 @@
+{
+  "work_id": "catalogue:LIT-000685",
+  "raw_files": [
+    {
+      "path": "raw/theses/degree-dissertation/Wobbling_Motion_in_Nuclei.pdf",
+      "sha256": "954e6cc853536555f5a691d6eaa257aaa051f79960de5eb47942f28fb335ef74",
+      "size": 11469562,
+      "hash_basis": "fresh-hash",
+      "source_role": "original-or-verified-edition"
+    }
+  ],
+  "source_note": "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+  "primary_pdf_pages": 205,
+  "credited_primary_pages": 199,
+  "credited_pdf_ranges": [
+    [
+      1,
+      4
+    ],
+    [
+      6,
+      18
+    ],
+    [
+      23,
+      204
+    ]
+  ],
+  "coverage_type": "Reconciled earlier chapter reading and current original-page verification; references checked for lineage and appendix calibration rows audited for schema and flag counts.",
+  "covered_sections": [
+    "PDF 1–4, 6–18: title, abstract, and chapter/figure/table/symbol maps",
+    "PDF 23–98: background, model theory, angular response and DGS experiments (reconciled with existing chapter read)",
+    "PDF 99–142: coincidence analysis, gate tests, reference attenuation and delta branch choice",
+    "PDF 143–167: 135Pr two-phonon and chiral candidates, 187Au wobbling interpretations and follow-up (reconciled with existing chapter read)",
+    "PDF 168–194: detector rings, run pre-calibration and energy/efficiency tables",
+    "PDF 195–204: cited method and experiment lineage"
+  ],
+  "key_anchors": [
+    "PDF 82, Eq. 3.8: same all-angle gate on both arms of the intensity ratio.",
+    "PDF 119, Table 4.1: 854.3 keV and 333.8 keV references; sigma/J=0.2 selected for both analysis samples.",
+    "PDF 120–121: A2 quadratic candidates, chi-square selection, then local MCMC around the chosen delta branch.",
+    "PDF 168–194: ring folds, four per-run electronics tables, and energy and efficiency calibration coefficients."
+  ],
+  "publication_independence": "Shared 135Pr and 187Au acquisitions with Sensharma 2019 and 2020 respectively; independent from Guo 2022 and Lv 2022.",
+  "evidence_gaps": [
+    "The stage relation between the 376.3-keV A2/A4 values in Fig. 4.12 and Table 4.4 is unresolved.",
+    "The run-specific detector mask is unavailable. Appendix-B DISABLED counts and Sec. 3.7 available-detector counts agree for run 3 only.",
+    "The primary text gives angular-distribution mixing ratios without a linear-polarization measurement."
+  ],
+  "reader": "Codex (reconciled previous chapter records; no accepted Gemini work for this source)",
+  "PDM_run": false
+}

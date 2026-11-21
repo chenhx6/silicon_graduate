@@ -6698,3 +6698,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Guo 等的 ¹⁸⁷Au 全角门与取向扫描
 
 - 对账 6 页正刊和 6 页附件，明确角比、标定和取向曲线的区间定义。累计 76 份、8287 页主件，续读 Sensharma 学位论文。
+
+## 2026-11-21 — Sensharma 学位论文的取向与运行参数
+
+- 对账 199 页科研和书证范围，核实表 4.1 选定的取向宽度、选支后的 MCMC、附录的几何和运行校准。累计 77 份、8486 页主件，续读 Lv 2022。

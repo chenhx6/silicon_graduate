@@ -43,8 +43,8 @@ Nirupama Sensharma，*Wobbling Motion in Nuclei: Transverse, Longitudinal and Ch
 ## Scope and Reading Depth
 
 - Completed reading_depth: `deep-read`。
-- Covered scope: Abstract、Chapters 1–5 理论/实验/分析/结果及 Chapter 6 future work；核对 `135Pr` TW2→TW1 450.2/550.5/517.1 keV links、`E_wobb`、E2 fractions、`187Au` h9/2 longitudinal wobbling、h11/2 transverse candidate 和 `135Pr` chiral-wobbler 解释。
-- Not covered: 所有引用文献及原始实验的独立全文复核；本页不替代已摄入 Sensharma 2019/2020 journal sources。
+- Covered scope: PDF 1–4、6–18、23–204，共 199 页正文和书证范围。原有章节读录覆盖两核的理论、实验、分析和结构解释，本轮补核第 6 章展望、附录 A–C 的几何与定标以及书目中的实验和分析谱系。
+- Not covered: 献词、致谢及 ProQuest 再版告知页未计入覆盖；探测器参数未逐项转录，参考文献未逐篇重读，事件和拟合链未取得。
 - Coverage caveats: 论文中的部分模型参数和结论直接复用/延伸既有 journal analysis；需按 shared dataset lineage 分层。
 
 ## Paper Question and Scientific Motivation
@@ -283,3 +283,11 @@ Eq3.6把角分布fit写为A0(1+A2P2+A4P4)，并称由峰面积拟合得experimen
 [[sensharma-2020-longitudinal-wobbling-187au]] PT03-D23-001–003现从官方2004/2009快照真正读到Baglin2003、CUT4-Apr-2003的186Pt target记录：2+191.53keV的T1/2=260(12)ps、BE2W94(5)，同一Adopted块逐行相同。声明WU单位换算中央约.59287e²b²，而本thesis引1.44、Letter引.84的具体映射仍未建立，不能以现代102WU或实际producer未明的解释默填。
 
 AU09-D23-001亦核2009Basunia Au参考188WU/56ps与原1995RDM谱系；不是新争议母态寿命。两文β仍同.23，不能把引用差自动当参数实际更改。新needs_review:true，不改原文字引用、核态或旧审核。
+
+## 2026-11-21 — 选定取向、混合比选支与运行标定
+
+- **取向输入。** §4.4.1 表 4.1（印刷 p. 97，PDF 119）列出 `135Pr` run 1 的 854.3 keV 参考线 \((\alpha_2,\alpha_4)=(0.92(5),0.30(1))\) 与 `187Au` runs 2+3 的 333.8 keV 参考线 \((0.84(1),0.81(1))\)。作者用 Ref. 26（Cieplicka 等）的方法求衰减，再与 Ref. 56（Mateosian–Sunyar）的取向值比较，对两个样本均选定 \(\sigma/J=0.2\) 用于后续计算。此表的 `135Pr` 口径明确标为 run 1，未列独立的 run 4 取向标定。
+- **\(\delta\) 的求根与采样。** 印刷 pp. 98–99（PDF 120–121）先在 \(A_2,A_4\) 空间采样，以 \(A_2\) 的初值代入式 (2.46)、(2.48) 求 \(\delta\) 候选，并比较两支的 \(\chi^2\)。随后在选中支附近重采样。文中流程没有列将 \(\sigma/J\) 在该步共同采样或边际化的做法。376.3 keV 的 Fig. 4.12 与 Table 4.4 的两组系数口径仍分别保留。
+- **观测量角色。** 式 (3.8)（印刷 p. 60，PDF 82）的 DCO-like ratio 是两组观察角、同一跃迁全角门的强度比，属 ADO 型。章节用它处理角分布统计不足的弱线。§4.4.1 的 \(\delta\) 提取使用角分布，本论文的运行分析没有列出实测线偏振 \(P\)。§4.4（PDF 117）说明宇称沿用所引早期谱学。
+- **几何与校准。** 附录 A 的 Table A.1（PDF 168–172）列 17 环中的探测器编号和 \((\theta,\phi)\)，A.2（PDF 173）给角分布合并后的七个平均极角 \(17.27^\circ,34.58^\circ,50.07^\circ,58.28^\circ,69.82^\circ,80.00^\circ,90.00^\circ\)。附录 B 的 Tables B.1–B.4（PDF 174–193）分别列四个 run 的 offset、gain、pole-zero、baseline 和 `DISABLED`。按各表的 110 条记录计，`DISABLED=0` 为 87、56、73、66 台，§3.7 正文所报可用台数为 83、57、73、63。两组数字分别是校准表标志和正文运行描述，实际使用掩码仍待原分析文件确认。附录 C 的 Tables C.1–C.2（PDF 194）是分 run 的能量和效率系数，关联 §§3.8–3.9 的 \(^{207}\mathrm{Bi}\) 预标定及 \(^{152}\mathrm{Eu}\) 能效标定。
+- **资料依赖。** 论文第 6 章仍将 `187Au` 的 h11/2 横向摆动列作需追加实验的候选。书目 Refs. 82、83（PDF 202）连接 `135Pr` 的 2019 原刊和 `187Au` 的 2020 原刊，本论文提供分析和标定细节，相关数据应按同次采集追溯。[[sensharma-2020-longitudinal-wobbling-187au]] 原刊阐述角分布和混合比，明列的 \(\sigma/J=0.2\) 来自本学位论文表 4.1。[[guo-2022-low-spin-wobbling-187au]] 使用独立 HIRFL 数据与实测 \(P\)，两种 \(\delta\) 提取按各自观测量和取向处理记录。
