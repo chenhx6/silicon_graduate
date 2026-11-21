@@ -31,6 +31,12 @@ tags: [Rose-Brink, angular-distribution, phase-convention, mixing-ratio, alignme
 
 # Angular distributions in phase-defined reduced matrix elements
 
+## 馆藏回核：级联位置与混合比符号
+
+- 印刷 p.319 Eq. (3.39) 对 \(J_1\to J_2\) 以初态 \(J_1\) 在 bra、末态 \(J_2\) 在 ket 写相位定义算符 \(T^{\langle\pi\rangle}\)。每项除以相应的 \(\sqrt{2L+1}\)，因此 \(|\delta|^2\) 等于部分 γ 宽度之比。相同态的相位因子在比值中约去，算符间的相对相位须一致。
+- 印刷 p.326 Eqs. (3.72)–(3.73) 对无优选轴的初态及未选第一光子螺旋度的方向级联，在相同矩阵元书写次序下，将 \((-1)^{L_{\mathrm{low}}-L_{\mathrm{high}}}\) 乘在布居跃迁的干涉项上。相邻多极阶的该项变号。p.336 Eq. (5.1) 从 Rose–Brink 的 \(R_K\) 改写为 Biedenharn 的 \(F_K\) 后，\(\delta_1^{\rm Bi}=\delta_1^{\rm RB}\)，\(\delta_2^{\rm Bi}=(-1)^{L_2-L'_2}\delta_2^{\rm RB}\)。比较实测符号时应同时确认算符、系数和跃迁在级联中的位置。另见 [[yamazaki-1967-aligned-angular-coefficients]] Eq. (5) 和 [[krane-steffen-1970-cd110-mixing-ratios]]。
+- 已对账 42 页覆盖。本次选核印刷 pp.319、326、336、338 的定义、换算和附录列结构。附录余下系数沿用原有覆盖记录，数值未逐格重算。
+
 ## Bibliographic Record
 
 - H. J. Rose & D. M. Brink, *Rev. Mod. Phys.* **39**, 306–347 (1967), DOI `10.1103/RevModPhys.39.306`.

@@ -192,6 +192,8 @@ Ionescu 1981 provides the clearest feeding-aware bridge in this project. It show
 
 Chiara 2012, Summary 2013, and Gray 2020 together supply the practice/background/boundary layer: assumed normalized widths exist in spectroscopy language, but they are heuristic, conditional, and not universally transferable.
 
+For a survey of in-beam alignment widths, distinguish an unreported width in an applicable analysis from a geometry in which the in-beam width is inapplicable. In thermal-capture \(^{36}\mathrm{Cl}\), Honzatko et al. add secondary-ray \(P\) to published relative-angle and circular-polarization measurements in a \((\delta_1,\delta_2)\) grid fit. In decay-fed \(^{95}\mathrm{Mo}\), Behar et al. use a measured polarization count ratio \(\beta\) to select among solutions from two-photon relative-angle coefficients. Both are useful historical \(P\)–\(\delta\) references, and each requires its own geometry and companion-transition inputs. See pp.668–671 of [[honzatko-1971-cl36-capture-polarization]] and pp.527–531 of [[behar-1973-mo95-directional-polarization]].
+
 ## Evidence Gaps
 
 - Need mapping from the user's actual P-ADO implementation to source symbols before writing final equations.

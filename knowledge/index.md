@@ -30,6 +30,9 @@ updated: 2026-11-21
 - [[guo-petrache-arxiv201200343-183au-polarization-comment]] — 183Au 偏振误差争议的预印本原件。
 - [[guo-petrache-arxiv200710031-135pr-erratum-comment]] — ¹³⁵Pr 原表与勘误的偏振校准复算及其条件。
 - [[urban-2023-exill-directional-polarization]] — ¹³²Xe 与 ¹⁵²Sm 的开角关联、线偏振和大 E2/M1 混合比。
+- [[honzatko-1971-cl36-capture-polarization]] — ³⁶Cl 热中子俘获级联的实测线偏振和两条 γ 的联合混合比。
+- [[behar-1973-mo95-directional-polarization]] — ⁹⁵Mo 的方向关联、极化计数比和 616 keV 大模混合比。
+- [[davies-hamilton-1968-bi211-polarization-mixing]] — ²¹¹Bi 的未分辨级联极化和 702 keV 混合比双符号区间。
 - [[mukherjee-2022-shape-coexistence-octupole-72se]] — 72Se 混合比与取向标定的定向核读。
 - [[masiteng-2006-194tl-polarization-lifetime-thesis]] — 194Tl 全文，区分计数不对称、借用的 DCO、宇称指认和 RSAM 半衰期。
 - [[ramashidzha-2006-194tl-dco-level-scheme-thesis]] — 194Tl 的逐门 DCO、归属条件与 Masiteng 表格差异。

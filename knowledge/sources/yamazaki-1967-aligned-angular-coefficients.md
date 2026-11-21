@@ -76,6 +76,12 @@ The practical one-parameter approximation is a Gaussian magnetic-substate popula
 
 Yamazaki's tables provide the tensor and attenuation backbone for aligned-state angular-distribution analyses, with the useful warning that alignment and sign conventions are part of the measurement identity.
 
+## 馆藏回核：布居张量与级联衰减
+
+- 印刷 p.2 Eqs. (3)–(11) 以 \(\rho_k(J_i)\) 表示实际布居张量，\(B_k(J_i)\) 表示完全对齐的布居张量，\(\alpha_k=\rho_k/B_k\)。单线角分布的辐射系数由 \(F_k\) 的纯项和干涉项构成。Table I 列 \(B_k\)，Tables IIa/IIb 分别列整数与半整数自旋的 \(F_k\)、\(B_k F_k\) 和纯多极去取向系数 \(u_k\)。作者把 \(\alpha_2\) 作为单参数分布的布居参数，并允许由实验、经验估计或模型给定。Fig. 3 的 \(\sigma/J\) 对应选定的高斯模型及 \(J=10\) 示例。
+- 印刷 p.3 Eqs. (12)–(15) 的前提是末态完全由指定前级跃迁布居。\(\rho_k\) 按 \(U_k\) 传递，\(\alpha_k\) 另乘 \(B_k(J_i)/B_k(J_f)\)。未选方向的混合前级跃迁按 \(\delta^2\) 加权两个纯多极 \(u_k\)。p.2 的符号提示针对单线 \(J_i\to J_f\) 与以该线为第一条的 \(J_i\to J_f\to J\) 方向级联比较。跨来源按明确的矩阵元约定换算，见 [[rose-brink-1967-phase-defined-angular-distributions]] Eqs. (3.73)、(5.1)。
+- 已对账 23 页覆盖。本次重核 Eqs. (3)–(15)、图中布居范围和整数、半整数表的列结构。既有数值抽核与表格未逐格认证的边界保留。
+
 ## Competing Interpretations and Limitations
 
 - Gaussian magnetic-substate populations and single-parameter alignment may fail for non-Gaussian or strongly side-fed states.

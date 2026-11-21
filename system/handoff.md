@@ -3,6 +3,13 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — 级联相位、布居张量与早期偏振实验
+
+- 对账 [[rose-brink-1967-phase-defined-angular-distributions]] 和 [[yamazaki-1967-aligned-angular-coefficients]] 共 65 页覆盖，回核原文矩阵元约定、级联干涉与 \(\rho_k\)、\(B_k\)、\(\alpha_k\)、\(U_k\) 的适用条件。
+- [[honzatko-1971-cl36-capture-polarization]] 5 页及 [[behar-1973-mo95-directional-polarization]] 10 页完成深读。两者分别报告二次 γ 的 \(P\) 与测得的极化计数比 \(\beta\)，角系数按双光子开角归属，加入 [[sigma-over-i-uncertainty-in-pado-mixing-ratio-extraction]] 的适用性说明。
+- [[davies-hamilton-1968-bi211-polarization-mixing]] 13 页完成深读。明确了未分辨的 427–405 keV 偏振观测、共同的 405 keV 跃迁和 702 keV 的无界双分支。Gemini 该单元返回 HTTP 502，采纳零条。
+- 累计 128 份、9311 页主件。续读馆藏中 1982 年 Ge(Li) Compton 极化计论文，核对计数比与响应标定。
+
 ## 2026-11-21 — 原始方向关联与高自旋近似
 
 - [[krane-1973-directional-correlations-oriented-states]] 56 页、[[bargholtz-1987-high-spin-gamma-gamma-directional-correlations]] 8 页及 [[krane-steffen-1970-cd110-mixing-ratios]] 11 页已对账。核实普通与广义系数、有限自旋控制和 \(^{110}\mathrm{Cd}\) 的多级联本底。
