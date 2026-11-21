@@ -6982,3 +6982,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Tonev 2007 的寿命和实测带间 E2
 
 - 核定 26 页刊版，补入 Table II 七条带间 E2 和 RDDS/DSAM 交叉值，共享谱系与未分离的带间混合比继续留边界。累计 187 份、10722 个主件 PDF 页。
+
+## 2026-11-21 — Petrache 2006 的分支比解混合
+
+- 核定 4 页原件，保留 Table I 的分支上限、两带模型假设和 Tonev 寿命引用的角色。累计 188 份、10726 个主件 PDF 页。

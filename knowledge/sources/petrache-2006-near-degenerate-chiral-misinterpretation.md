@@ -65,6 +65,10 @@ Petrache *et al.* establish a reusable critical test: near-degeneracy is necessa
 
 ## Competing Interpretations and Limitations
 
+The Table I \(^{134}\mathrm{Pr}\) branches (112502-3) are attributed to Starosta et al., the work listed as “to be published” in Ref. [11]. The lifetime comparison uses Ref. [9], which includes [[tonev-2006-134pr-lifetime-chiral]]. The two-band solution uses branching ratios and level gaps. The text compares the resulting moment ratio with two estimates derived from calculated shapes, about 1.25 from the UC minima and about 1.7 from the Woods–Saxon TRS minima. Those estimates illustrate the sensitivity of the shape interpretation to the adopted potential. The source does not document the experimental run-level overlap of the cited branch and level data.
+
+At \(I=18\), Table I gives \(B(E2)_{\rm out}/B(E2)_{\rm in}=0.22(9)\) for the non-yrast parent and \(<0.08\) for its yrast counterpart. The two rows retain the measured point and the limit separately. Their model comparison uses the even-\(I\) value \(|V|=17\) keV. The printed interval \(1.6\)–\(2.4\) for \(Q_{0,1}/Q_{0,2}\) is conditional on the short-spin mixing model and its branch inputs.
+
 - The `Q0` ratio is obtained through a simplified two-band mixing model and depends on the adopted branching data.
 - The analysis critiques the ideal-pair interpretation of these cases; it does not prove that all future near-degenerate pairs are nonchiral.
 

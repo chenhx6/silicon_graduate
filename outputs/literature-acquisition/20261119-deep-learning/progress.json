@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000624",
+  "active_source": "catalogue:LIT-000638",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -470,9 +470,10 @@
     "PE96-134PR-BAND-LINKS-AND-DCO",
     "ST01-ISOTONE-TIMING-AND-134PR-DEPENDENCE",
     "HE01-136PM-138EU-ACQUISITION-AND-POLARIZATION",
-    "TO07-134PR-LIFETIME-FEEDING-AND-INTERBAND-E2"
+    "TO07-134PR-LIFETIME-FEEDING-AND-INTERBAND-E2",
+    "PE06-TWO-BAND-MIXING-AND-BRANCH-LINEAGE"
   ],
-  "completed_full_sources_this_run": 187,
+  "completed_full_sources_this_run": 188,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -480,14 +481,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T15:07:25.640859+00:00",
+  "updated_at": "2026-11-21T15:11:35.705516+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10722,
-  "current_source_note": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
-  "next_action": "Verify Petrache 2006 near-degenerate pair counter-evidence, especially relations between cited lifetimes, branch choices and model-specific interpretation.",
+  "completed_primary_pages_this_run": 10726,
+  "current_source_note": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+  "next_action": "Reconcile the local Qi 2009 three-quasiparticle PRM, with the A=135 lifetime and chiral-vibration model lineage intact.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Tonev 2007 26-page publisher version, lifetime cross-check and absolute interband E2 rows.",
-  "current_source_scientific_acceptance": "Petrache 2006 publisher PDF measured hash and text prepared; Gemini reading in progress.",
-  "source_scoped_retrieval": "Reused the local publisher original."
+  "last_source_manager_closure": "Petrache 2006 four-page publisher original, separate lifetime/branch roles and conditional moment ratio.",
+  "current_source_scientific_acceptance": "Qi 2009 local author edition remains to reconcile.",
+  "source_scoped_retrieval": "Reused a local journal original."
 }

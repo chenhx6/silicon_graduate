@@ -1,0 +1,24 @@
+{
+  "work_id": "catalogue:LIT-000624",
+  "recorded_at": "2026-11-21T15:11:35.705516+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+  "raw": {
+    "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+    "sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f",
+    "size": 274213,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "credited_primary_pages": 4,
+  "coverage": [
+    "112502-1–2: two near-degenerate candidates, level energies and aligned-angular-momentum comparisons, and model assumptions.",
+    "112502-3–4: Table I, numeric mixing solution, model-dependence of Q ratio, 136Pm comparison and citations."
+  ],
+  "reader": "Earlier coverage and Gemini full-read report, with Codex direct branch, citation and assumption check.",
+  "evidence_boundary": [
+    "The original Table I cites Ref. [11] for the branches. The Tonev lifetime comparison cites Ref. [9] and is qualitative; archive provides no run-level independence for the branch and energy inputs.",
+    "The 1.6–2.4 moment ratio assumes no off-diagonal intrinsic E2 term and the restricted interaction model. It is not a model-independent shape determination."
+  ],
+  "next_action": "Reconcile the local Qi 2009 three-quasiparticle PRM, with the A=135 lifetime and chiral-vibration model lineage intact."
+}

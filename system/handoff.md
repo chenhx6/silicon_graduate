@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Petrache 的 \(^{134}\mathrm{Pr}\) 两带混合检验
+
+- [[petrache-2006-near-degenerate-chiral-misinterpretation]] 核定 4 页刊版。保留进入解混合的分支与能隙、只作定性参照的既有寿命、以及条件性 \(Q_0\) 比值范围。
+- 累计核定 188 份、10726 个主件 PDF 页。接续 [[qi-2009-135nd-particle-rotor-chirality]] 的三准粒子 PRM 与已有寿命谱系。
+
 ## 2026-11-21 — Tonev 的 \(^{134}\mathrm{Pr}\) 寿命和带间强度
 
 - [[tonev-2007-134pr-dynamic-chirality]] 核定 26 页刊版，补录两个重叠态的 RDDS/DSAM 数值、馈入与阻止本领处理、Table II 的七条带间 E2。保留 \(15_2^+\) 寿命正文与表格差异。
