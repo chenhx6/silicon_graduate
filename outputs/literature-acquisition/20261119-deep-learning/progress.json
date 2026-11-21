@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "bytes:49bcf5e774dfe3777529965ad02076dec5456af8623df1bac546c1b78dc5f2e1",
+  "active_source": "catalogue:LIT-000977",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -449,9 +449,11 @@
     "DOMSCHEIT99-LU163-PUBLISHER-COVERAGE",
     "JENSEN02-NPA-LU163-SHARED-152MEV",
     "SCHON02-LU163-164-DSAM",
-    "SCHON03-LU165-ANCHOR-CHOICE"
+    "SCHON03-LU165-ANCHOR-CHOICE",
+    "MATS02-LU163-POSITIVE-GAMMA-RPA",
+    "MATS04-RPA-E2-AND-SIGNED-SUM"
   ],
-  "completed_full_sources_this_run": 166,
+  "completed_full_sources_this_run": 168,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -459,14 +461,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T12:46:00.726776+00:00",
+  "updated_at": "2026-11-21T13:03:02.119994+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10412,
-  "current_source_note": null,
-  "next_action": "Read Matsuzaki et al. 2002 163Lu local original and reconcile the published TSD RPA response with deformation and lifetime inputs.",
+  "completed_primary_pages_this_run": 10445,
+  "current_source_note": "knowledge/sources/campaign-g07-matsuzaki-2004-wobbling-instability.md",
+  "next_action": "Reconcile Matsuzaki–Ohtsubo 2004 tilted-axis instability and follow local references to distinguish RPA soft modes and experiment.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Lu163 DSAM plus early thin-target inputs and Lu165 branch dependency; five publisher works.",
-  "current_source_scientific_acceptance": "72 primary PDF pages, two exact-reference acquisitions and three local works.",
-  "source_scoped_retrieval": "Jensen NPA and Schönwaßer EPJA F(tau) exact source archives; Schmitz original endpoint HTTP 403."
+  "last_source_manager_closure": "2002 and 2004 Matsuzaki RPA preprints; verify publisher identities, example-specific lifetime probes and E2 mismatch.",
+  "current_source_scientific_acceptance": "Two already held author-edition primary PDFs, 33 physical pages. Publisher note linked as 1-page companion.",
+  "source_scoped_retrieval": "Reused local originals. Verified article number/DOI and publisher note identity."
 }

@@ -19,6 +19,7 @@ updated: 2026-11-21
 
 - [[jensen-2002-lu163-extended-spectroscopy]] — \(^{163}\mathrm{Lu}\) 薄靶分支与一声子角量原表。
 - [[schonwasser-2002-lu163-lu164-dsam-lifetimes]] — 相邻 Lu 同位素的 GASP 寿命、侧馈及四极矩。
+- [[matsuzaki-2002-positive-gamma-wobbling-163lu]] — \(^{163}\mathrm{Lu}\) 的频率依赖有效惯量与 RPA 强度检验。
 
 - [[urban-1985-xe127-angular-polarization]] — 早期 \(^{127}\mathrm{Xe}\) 角分布、线偏振双线与两支混合比。
 

@@ -119,7 +119,8 @@
     "model": "agy-cli/gemini-3.8-flash",
     "reasoning_effort": "high",
     "assignment": "Domscheit original primary review and Jensen NPA targeted original reading with Codex check.",
-    "Domscheit_review": "completed by Gemini, accepted claims checked against published pp.382, 388 and Table 1. No derived claims about impossible DSAM, exact Gorgen agreement or feeding/population equivalence were imported."
+    "Domscheit_review": "completed by Gemini, accepted claims checked against published pp.382, 388 and Table 1. No derived claims about impossible DSAM, exact Gorgen agreement or feeding/population equivalence were imported.",
+    "Jensen_review": "Gemini returned full 42-page section map and Table 1/A2 extraction. Codex checked calibration and A2 against original and accepted the localized comparison, retaining 716.3 branch provenance as unresolved. No extrapolated-origin assertion imported."
   },
   "next_action": "Read Matsuzaki et al. 2002 163Lu local original and reconcile the published TSD RPA response with deformation and lifetime inputs."
 }

@@ -1,0 +1,53 @@
+{
+  "recorded_at": "2026-11-21T13:03:02.119994+00:00",
+  "works": [
+    {
+      "work_id": "bytes:49bcf5e774dfe3777529965ad02076dec5456af8623df1bac546c1b78dc5f2e1",
+      "source_note": "knowledge/sources/matsuzaki-2002-positive-gamma-wobbling-163lu.md",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/matsuzaki-2002-wobbling-163lu-prc65-041303R.pdf",
+        "sha256": "49bcf5e774dfe3777529965ad02076dec5456af8623df1bac546c1b78dc5f2e1",
+        "size": 125854,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-reading-copy"
+      },
+      "credited_primary_pages": 11,
+      "covered_sections": [
+        "PDF 1–4: rotating reference, aligned quasiparticle and frequency-dependent dispersion.",
+        "PDF 5–8: Gd, Lu response and prior data provenance.",
+        "PDF 9–11: Figs. 1–3 incl. frequency shape and E2 comparison."
+      ],
+      "evidence_gaps": [
+        "Qt calibration uses Schmitz 1993, not new lifetimes.",
+        "Calculated band spacing and E2 strength differ from observed comparison."
+      ]
+    },
+    {
+      "work_id": "bytes:9ea9fb2c8b9e73b0352a219ace7efc6182d6b5471b38d32cb96bc539e4aa6bf7",
+      "source_note": "knowledge/sources/matsuzaki-2004-nuclear-inertia-and-wobbling.md",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261108-r2-g42-inertia-observables/matsuzaki-2004-nuclear-moments-of-inertia-prc69-034306.pdf",
+        "sha256": "9ea9fb2c8b9e73b0352a219ace7efc6182d6b5471b38d32cb96bc539e4aa6bf7",
+        "size": 279781,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-reading-copy"
+      },
+      "credited_primary_pages": 22,
+      "covered_sections": [
+        "PDF 1–7: rotating RPA, response, signed sum rule, interband E2.",
+        "PDF 8–17: parameter variations, quasiparticle dependence and rotational comparison.",
+        "PDF 18–22: strengths, conclusions, references."
+      ],
+      "evidence_gaps": [
+        "Publisher’s Note considered separately.",
+        "No new experiment. Circa 2–3× deficit in E2 strength for the reported comparison."
+      ]
+    }
+  ],
+  "credited_pages": 33,
+  "publisher_note": {
+    "work_id": "bytes:2e9aa063e27705640031ceba1fbca35d1b3353c20c478737904e38f07a9ad561",
+    "scope": "One page read, only stray letters in even, zero primary credit."
+  },
+  "next_action": "Reconcile Matsuzaki–Ohtsubo 2004 tilted-axis instability and follow local references to distinguish RPA soft modes and experiment."
+}

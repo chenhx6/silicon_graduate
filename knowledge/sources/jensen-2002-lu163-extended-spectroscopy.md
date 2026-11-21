@@ -46,7 +46,7 @@ tags: [wobbling, linear-polarization, angular-distribution, branching-ratios]
 | JNPA02-1 | 参照 TSD1 的拉伸 E2，作者用分布比和关联比定标 \(\sigma/I=0.25(2)\)。在两个近 90° Clover 环中测散射计数，Table 1 的 \(P\) 按 \((P_\mathrm{vert}-P_\mathrm{horiz})/(P_\mathrm{vert}+P_\mathrm{horiz})\) 定义，已知 E2 与 M1 的同口径参照为 \(+0.11(3)\) 与 \(-0.11(5)\)。 | method-result | direct | PDF 4–5, 11 / pp.6–7, 13, Fig. 3 and Table 1 | false |
 | JNPA02-2 | 658.9 keV 行 \(W(25^\circ)/W(90^\circ)=0.47(2)\)、\(R_{\mathrm{DCO}}=0.30(6)\)、表内 \(P=0.17(9)\)；673.2 keV 行为 \(0.46(2),0.38(6),0.18(9)\)。采用大解的平均混合比为 \(-3.10^{+0.36}_{-0.44}\)。 | experimental-analysis | direct | PDF 11–12 / pp.13–14, Table 1, Fig. 6 | false |
 | JNPA02-3 | Table A2 给 TSD2 的 \(47/2,51/2,55/2,59/2\) 四个母态的带外／带内分支比 \(0.24(3),0.25(9),0.15(5),0.12(5)\)。\(63/2\) 只列带内 872.9 keV 行，附录没有 716.3-keV 支路的原强度。 | experimental-analysis | direct | PDF 39 / p.41, Table A2 | false |
-| JNPA02-4 | TSD3 在正文仍是两声子候选。作者以相近的对齐和转动惯量以及到 TSD1 的支路作为支持，同时把 TSD3→TSD2 相对 E2 强度列作缺口。 | author-interpretation | direct | PDF 26 / p.28, Sec. 7 | false |
+| JNPA02-4 | TSD3 在正文仍是两声子候选。作者以相近的对齐和转动惯量以及到 TSD1 的支路作为支持，Fig. 20 对 \(I=45/2\) 的 TSD3→TSD2 相对 E2 强度仅给上限 0.67。 | author-interpretation | direct | PDF 25–26 / pp.27–28, Fig. 20 and Sec. 7 | false |
 
 ## Competing Interpretations and Limitations
 

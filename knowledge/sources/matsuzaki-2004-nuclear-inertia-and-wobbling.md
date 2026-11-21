@@ -7,7 +7,7 @@ updated: 2026-11-08
 status: active
 review_status: unreviewed
 source_type: journal-article-theory
-reading_depth: skimmed
+reading_depth: deep-read
 title_original: "Nuclear moments of inertia and wobbling motions in triaxial superdeformed nuclei"
 authors: [Masayuki Matsuzaki, Yoshifumi R. Shimizu, Kenichi Matsuyanagi]
 journal: Physical Review C
@@ -46,12 +46,8 @@ tags: [doctoral-foundations, wobbling, alignment, dynamic-response]
 
 ## Scope and Reading Depth
 
-- Completed reading_depth: skimmed。
-- Covered scope: pp. 1–5 的物理问题、模型和色散式，相关顺排解释，
-  pp. 17–18 的 167Lu/168Hf 对照及未再现的 E2；
-  对读 1 页 Publisher’s Note。
-- Not covered: 全部参数扫描、原程序、全部图点与 RPA 求和规则的独立重放、
-  正式出版版逐字/逐式对照。
+- 作者稿 22 页已逐节对账，覆盖 Eqs. (1)–(25) 的物理定义、三核参数及频率比较、Figs. 1–10 和结论。电子刊版排印说明由单独的 Publisher’s Note 来源页保留。
+- 原代码、全部图点及正式刊版的逐式对照仍缺。
 
 ## Paper Question and Scientific Motivation
 
@@ -68,6 +64,9 @@ Nilsson 形变和配对 gap 是其计算的参数，不是与 EDF 参考态相�
 | M04-3 | 准粒子顺排可改变惯量排序，使指定正 γ 参数下出现稳定摆动解；不是只有一个轨道在任意核都能稳定摆动的唯一机制定理。 | author-interpretation | direct | pp. 1–2,7–8 的顺排讨论 | false |
 | M04-4 | 作者承认 Nilsson 速度依赖使 Jx 偏大，横向量的相应修正尚未给出，因此其比值可靠性的主张也带模型假设。 | author-interpretation | direct | p. 5, Eq. (12) 后段 | false |
 | M04-5 | 167Lu 示例未再现全部频率数据；相应带间 E2 比值计算低于测量约 2–3 倍，不能只展示定性成功。 | model-result | direct | pp. 17–18, Fig. 9、Sec. III D | false |
+| M04-6 | Eq. (24) 将模型带间 E2 强度写成几何项乘 \(c_n^2\)。Eq. (25) 为带符号的求和公式 \(\sum_{n\ne\mathrm{NG}}\sigma_n c_n^2=1\)，不能据此把各 \(c_n^2\) 当作正的强度份额。作者给出的 \(^{167}\mathrm{Lu}\) 对照仍欠带间 E2 强度，并指出 Fig. 9 的 \(\mathcal J_x\) 偏大约 20–30%。 | model-result | direct | PDF 6–7, 17–19, Eqs. (22)–(25), Figs. 9–10 | false |
+
+在 PDF 8，所报 \(Q_t=11.4^{+1.1}_{-1.2}\) eb 指 \(^{168}\mathrm{Hf}\)，用于该偶偶核的形变参数比较。\(^{163}\mathrm{Lu}\) 的 RPA 基准及历史 Schmitz 四极矩由 [[matsuzaki-2002-positive-gamma-wobbling-163lu]] 单独定位。
 
 ## Summary
 

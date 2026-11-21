@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Matsuzaki RPA 的有效惯量与电磁强度
+
+- [[matsuzaki-2002-positive-gamma-wobbling-163lu]] 与 [[matsuzaki-2004-nuclear-inertia-and-wobbling]] 分别核对 11 与 22 页作者稿。区分实验对照、历史四极矩输入、主轴运动学惯量及横向动态响应。带间 E2 强度偏差保留在模型比较中。出版说明单独登记。
+- Gemini 完成 Domscheit 和 Jensen NPA 两项主读，后一篇 42 页覆盖及 Table A2 由 Codex 定向复核。累计 168 份、10445 个主件 PDF 页。接续 [[campaign-g07-matsuzaki-2004-wobbling-instability]]。
+
 ## 2026-11-21 — \(^{163,165}\mathrm{Lu}\) 的分支、寿命与取向来源
 
 - [[campaign-g07-gorgen-2004-163lu-quadrupole-moments]] 的 190-MeV 寿命与 [[jensen-2002-lu163-extended-spectroscopy]] 的 152-MeV 薄靶分支分别核查。保留 \(51/2^+\) 中心比值差异、Jensen 表缺 716.3-keV 行，以及 Schönwaßer 寿命原表与 Görgen 转述的误差异文。

@@ -6926,3 +6926,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — 镥同位素寿命与薄靶分支输入
 
 - 归档 Jensen 完整谱学和 Schönwaßer 寿命刊版。核完五份作品，保留各自反应、共享数据和原表误差。累计 166 份、10412 个主件 PDF 页。
+
+## 2026-11-21 — RPA 有效惯量和 E2 偏差
+
+- 核对 Matsuzaki 两篇原件版本、形变输入和带符号求和公式。累计 168 份、10445 个主件 PDF 页。
