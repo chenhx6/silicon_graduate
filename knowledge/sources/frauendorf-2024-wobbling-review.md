@@ -37,7 +37,7 @@ tags: [review, wobbling, transverse-wobbling, longitudinal-wobbling, gamma-softn
 
 ## Bibliographic Record
 
-arXiv:2405.02747v1，dated 2024-05-07，共 26 页。Zotero 记录日期与 arXiv 元数据略有差别，来源页以 PDF 版本日期为准。
+馆藏底本为 arXiv:2405.02747v1，共 26 个 PDF 页。首页 arXiv 边注为 2024-05-04，作者题头印 2024-05-07。分别保留两个日期及其位置。
 
 ## Scope and Reading Depth
 
@@ -46,6 +46,17 @@ arXiv:2405.02747v1，dated 2024-05-07，共 26 页。Zotero 记录日期与 arXi
 ## Summary
 
 综述以三轴转子（TR）、粒子/准粒子-三轴转子（PTR/QTR）、RPA 和 TPSM 为主线，讨论强形变与正常形变核中的 wobbling，并用角动量进动锥拓扑区分 transverse wobbling（TW）、longitudinal wobbling（LW）和 flip mode（FM）。作者把相邻 wobbling-phonon 带之间集体增强的 E2 跃迁视为核心实验判据，同时系统讨论了 `135Pr` 等正常形变案例的 mixing ratio 争议。综述强调高 j 准粒子可稳定/改变三轴芯行为，TPSM 能在保留 γ-soft 邻核性质的同时再现 wobbling 特征。
+
+## TPSM 图表的输入与文献谱系
+
+- PDF 21–22 的 \(^{163}\mathrm{Lu}\) 算例采用 \(\epsilon=0.40\)、\(\gamma=15^\circ\)，配对隙 \(\Delta_n=0.7527\) MeV、\(\Delta_p=0.9637\) MeV。文中说明 \(\gamma\) 以实验 \(E_{\mathrm w}(21/2)\) 调整。该点属于模型输入约束。Figs. 36–39 的图注将结果连到书稿第 12 章，并鸣谢 G. Bhat 私人交流。实验点应按原测量追溯。
+- PDF 22 正文把 Fig. 40 的三核写作 \(N=74\)、\(Z=57,59,41\)，而 PDF 23 图注与图例列 \(^{131}\mathrm{Cs}\)、\(^{133}\mathrm{La}\)、\(^{135}\mathrm{Pr}\)，三者均为 \(N=76\)，对应 \(Z=55,57,59\)。可按图例识别三条曲线。正文的 “respectively” 次序不足以将三个 \(\epsilon\) 值逐核绑定，参数配对须回到第 12 章。
+
+## 冻结顺排的轴编号与 RPA 组态
+
+PDF 8 Eq. (18) 字面将 \(A_1\) 与被冻结分量 \(\hat J_3-j\) 配对，随后 Eq. (19) 和右栏按短轴 1 写 \(\bar A_1\)，并以 \(\hat J_2,\hat J_3\) 为横向分量。用 [[frauendorf-2014-transverse-wobbling]] PDF 6 Eqs. (11)–(15) 或明确写出物理短、中、长轴的形式复算。该综述的右栏同时声明，作者将 TW/LW 几何分类用于完整 PTR 结果，也用于能够作小振幅展开的部分自旋区间。
+
+PDF 20 右栏将 Matsuzaki 等对 \(^{163,167}\mathrm{Lu}\) 的 \(i_{13/2}\) yrast 组态写作 one-quasineutron。Ref. [65] 原文 [[matsuzaki-2002-positive-gamma-wobbling-163lu]] 的指定组态和 Ref. [66] [[matsuzaki-2004-nuclear-inertia-and-wobbling]] PDF 17 Sec. III C.2 的 \((\pi i_{13/2})^1\) 均给单准质子。对照 Fig. 31 的顺排贡献时按质子组态追溯。
 
 ## Experimental or Theoretical Setup
 
@@ -63,7 +74,7 @@ arXiv:2405.02747v1，dated 2024-05-07，共 26 页。Zotero 记录日期与 arXi
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | F24-1 | 三轴转子的 wobbling 态可按相对 separatrix 的进动轨道拓扑分类，另有 flip-mode 区域。 | author-interpretation | direct | PDF pp.1-4, Figs.3-5 | false |
-| F24-2 | TW 中粒子角动量与进动锥轴沿短轴或长轴，垂直于最大转动惯量的中轴；LW 的进动锥围绕最大转动惯量轴。 | model-result | direct | PDF pp.6-13, Table I | false |
+| F24-2 | 在冻结顺排例子中，TW 的粒子角动量与进动锥轴沿短轴或长轴，垂直于最大转动惯量的中轴。LW 的进动锥围绕最大惯量轴。作者以进动锥轴推广到粒子不牢固顺排的情形。 | model-result | direct | PDF p. 8, right column following discussion of Eq. (19); p. 25, Conclusions | false |
 | F24-3 | wobbling 的核心实验信号是相邻 n+1 与 n wobbling bands 之间集体增强的 E2。 | author-interpretation | direct | PDF p.25, Conclusions | false |
 | F24-4 | 高 j 准粒子存在时证据较清楚；TW 案例多于 LW，预期的 mid-shell high-j LW 尚未得到演示。 | author-interpretation | contextual | PDF p.25, Conclusions | false |
 | F24-5 | TW 可在临界角动量处失稳，并通过 FM 转为 LW。 | model-result | direct | PDF pp.12-15, Fig.21; p.25 | false |
