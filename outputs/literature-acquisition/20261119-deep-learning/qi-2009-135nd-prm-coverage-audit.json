@@ -1,0 +1,26 @@
+{
+  "work_id": "catalogue:LIT-000638",
+  "recorded_at": "2026-11-21T15:17:58.091762+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+  "raw": {
+    "path": "raw/papers/gpt/learning-daily/20260912-PREPLAN-135nd-crosswalk/qi-2009-135nd-prm-arxiv.pdf",
+    "sha256": "248546abd4a1d1597bf9ddf39cfffd5f09604802704204f0ff61647bbdb19346",
+    "size": 376923,
+    "hash_basis": "fresh-hash",
+    "source_role": "verified-official-arxiv-v1-reading-copy"
+  },
+  "credited_primary_pages": 16,
+  "coverage": [
+    "Author pp. 1–5: problem, particle–rotor formalism and model inputs.",
+    "Author pp. 5–9: spectrum and strength limits, three-axis projections and interpretation.",
+    "Author pp. 9–16: references, Figs. 1–5 and captions."
+  ],
+  "reader": "Prior full reading and Gemini full-read report, with Codex verifying angular-sector, mass/spin and experimental-source boundaries.",
+  "evidence_boundary": [
+    "The local reading copy is arXiv:0812.4597v1. Chiral geometry is a fixed-shape model result.",
+    "The positive-K data samples are half-integer. The three distributions are separate marginals rather than simultaneous vector components.",
+    "PRM near-degeneracy and planar TAC+RPA zero splitting refer to different calculations and spins. Experimental comparison reuses earlier data."
+  ],
+  "next_action": "Verify Zhu 2003 original 135Nd experiment and its band-link/spin evidence, preserving the reuse in Qi and later lifetime reports."
+}

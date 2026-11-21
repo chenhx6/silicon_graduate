@@ -6986,3 +6986,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Petrache 2006 的分支比解混合
 
 - 核定 4 页原件，保留 Table I 的分支上限、两带模型假设和 Tonev 寿命引用的角色。累计 188 份、10726 个主件 PDF 页。
+
+## 2026-11-21 — Qi 2009 的投影分布与模型能隙
+
+- 核定 16 页作者版，记录三组边缘分布、半整数样点和两种计算的高自旋响应。累计 189 份、10742 个主件 PDF 页。

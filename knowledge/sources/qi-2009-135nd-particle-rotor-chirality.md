@@ -96,6 +96,10 @@ H=Hcoll+Hintr，Hcoll=Σ(Ik−Jk)²/(2𝓙k)，无旋惯量𝓙k=𝓙0sin²(γ�
 
 ## Model Results
 
+Author PDF pp. 5–6 and Figs. 1–2 give two distinct comparisons above \(I=39/2\). The adopted planar TAC+RPA calculation reaches zero splitting at \(I=41/2\), where its reference changes. In the PRM the calculated interband and intraband M1 strengths become comparable above \(39/2\). This is a prediction of the adopted PRM calculation. The adjacent paragraph bounds the low-spin comparison to the available rate data. The zero in the TAC+RPA calculation and the PRM estimate of the nearly degenerate spin therefore carry separate labels in the \(^{135}\mathrm{Nd}\) evidence map.
+
+The projections in Fig. 5 are obtained separately from Eq. (9) on author PDF p. 7, by using \(\gamma=22.4^\circ\), \(97.6^\circ\) and \(142.4^\circ\) to quantize along the long, intermediate and short axes, respectively, at the same shape. Each \(P_K\) is a marginal in the chosen axis representation. The three peak locations given on PDF p. 8 are separate marginal modes and need not be components of a single angular-momentum vector. Use the verified half-integer figure samples when discussing the near-zero behavior.
+
 γ22.4度给无旋惯量比约6.8:2.6:1（p.6）。重新代公式得6.7659:2.5636:1，仅核模型几何/舍入，不测真实惯量。图中R/Jp/Jn是模型RMS，未得带符号的原波函数系数或联合取向分布。
 
 ## Competing Interpretations and Limitations

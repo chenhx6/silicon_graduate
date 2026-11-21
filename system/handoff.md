@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Qi 的 \(^{135}\mathrm{Nd}\) 投影与转动域
+
+- [[qi-2009-135nd-particle-rotor-chirality]] 核定 16 页作者版。登记三个形变扇区给出的边缘投影、\(39/2\) 的 PRM 解释与 \(41/2\) 的 TAC+RPA 零劈裂。实验强度仍回到原寿命来源。
+- 累计核定 189 份、10742 个主件 PDF 页。接续 [[zhu-2003-135nd-composite-chiral-pair]] 的原始连接和能级身份。
+
 ## 2026-11-21 — Petrache 的 \(^{134}\mathrm{Pr}\) 两带混合检验
 
 - [[petrache-2006-near-degenerate-chiral-misinterpretation]] 核定 4 页刊版。保留进入解混合的分支与能隙、只作定性参照的既有寿命、以及条件性 \(Q_0\) 比值范围。

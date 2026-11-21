@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000638",
+  "active_source": "catalogue:LIT-000788",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -471,9 +471,10 @@
     "ST01-ISOTONE-TIMING-AND-134PR-DEPENDENCE",
     "HE01-136PM-138EU-ACQUISITION-AND-POLARIZATION",
     "TO07-134PR-LIFETIME-FEEDING-AND-INTERBAND-E2",
-    "PE06-TWO-BAND-MIXING-AND-BRANCH-LINEAGE"
+    "PE06-TWO-BAND-MIXING-AND-BRANCH-LINEAGE",
+    "QI09-PRM-MARGINAL-PROJECTIONS-AND-EM"
   ],
-  "completed_full_sources_this_run": 188,
+  "completed_full_sources_this_run": 189,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -481,14 +482,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T15:11:35.705516+00:00",
+  "updated_at": "2026-11-21T15:17:58.091762+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10726,
-  "current_source_note": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
-  "next_action": "Reconcile the local Qi 2009 three-quasiparticle PRM, with the A=135 lifetime and chiral-vibration model lineage intact.",
+  "completed_primary_pages_this_run": 10742,
+  "current_source_note": "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md",
+  "next_action": "Verify Zhu 2003 original 135Nd experiment and its band-link/spin evidence, preserving the reuse in Qi and later lifetime reports.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Petrache 2006 four-page publisher original, separate lifetime/branch roles and conditional moment ratio.",
-  "current_source_scientific_acceptance": "Qi 2009 local author edition remains to reconcile.",
-  "source_scoped_retrieval": "Reused a local journal original."
+  "last_source_manager_closure": "Qi 2009 author edition full coverage, projection identities and distinct PRM/TAC+RPA predictions.",
+  "current_source_scientific_acceptance": "Zhu author copy verified. Two archived copies share a SHA, and the original scientific scope remains in review.",
+  "source_scoped_retrieval": "Reused the existing 16-page arXiv v1."
 }
