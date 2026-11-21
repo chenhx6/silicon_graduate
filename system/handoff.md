@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — GALILEO 与 AFRODITE 的角比标定
+
+- [[ding-2021-131ba-133ce-signature-splitting]] 核定 16 页作者稿，修正旧页数别称。分别保留两套装置的角组和拉伸偶极、四极标定。
+- 累计核定 207 份、11019 个主件 PDF 页。接续 [[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] 的学位论文和采集谱系。
+
 ## 2026-11-22 — Hauschild 两篇 \(^{133}\mathrm{Ce}\) 谱学刊版
 
 - [[hauschild-1995-133ce-superdeformed-bands]] 与 [[hauschild-1996-133ce-triaxial-bands]] 核定 6 与 7 页刊版。两篇共享采集。保留低能线标识反应道与确定特定跨带连接的差别，以及未定位的四条符合线。

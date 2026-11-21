@@ -40,11 +40,11 @@ tags: [a130, signature-splitting, strong-coupling, in-beam-spectroscopy, n73-sys
 
 ## Bibliographic Record
 
-Physical Review C 104, 064304 (2021)，DOI `10.1103/PhysRevC.104.064304`。本地 PDF 首页是 2021-11-09 稿本，期刊元数据按正式发表记录填写。
+Physical Review C 104, 064304 (2021)，DOI `10.1103/PhysRevC.104.064304`。本地 PDF 首页是 2021-11-09 作者稿，实测 16 个物理页。期刊元数据按正式发表记录填写。
 
 ## Scope and Reading Depth
 
-规范期刊版已全文精读；本批提供的十五页 PRC PDF was reread end-to-end to audit Fig.1 schemes, Tables I–II, Figs.4–10 systematics/QTR sensitivity, Table III PES parameters and summary. No material claim change was found.
+馆藏作者稿覆盖 Fig. 1、Tables I–II、Figs. 4–10 的系统学和 QTR 比较、Table III 的 PES 参数及总结和参考文献。下文 PDF 页码指向该 16 页稿本。原符合数据未重处理。
 
 ## Summary
 
@@ -69,6 +69,8 @@ Physical Review C 104, 064304 (2021)，DOI `10.1103/PhysRevC.104.064304`。本�
 - 靶：2 mg/cm²、95.3% 富集 `125Te`，8 mg/cm² Au backing；
 - 阵列：AFRODITE 8 个 Compton-suppressed clover；
 - 数据：`2.8×10^10` 双符合和 `5.4×10^9` 三重及以上符合 events。
+
+PDF p. 2 的 \(R_{\mathrm{ac}}\) 定标随装置变化。GALILEO 使用 \(90^\circ\)、\(152^\circ\) 两组，已知拉伸 E2 与偶极线给约 1.54 和 0.77。AFRODITE 使用 \(90^\circ\)、\(135^\circ\) 两组，对应约 1.27 和 0.74。两核的角比及其标定应和各自原实验一起引用。
 
 ### 理论
 

@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000379",
+  "active_source": "catalogue:LIT-000741",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -489,9 +489,10 @@
     "EM97-133CE-RDDS-BENCHMARK-AND-FEEDING",
     "JO98-133CE-UNOBSERVED-FEEDING-AND-ERROR",
     "HA95-SD-CHANNEL-TAGGING-AND-SPECTRA",
-    "HA96-TRIAXIAL-COINCIDENCES-WITHOUT-PLACEMENT"
+    "HA96-TRIAXIAL-COINCIDENCES-WITHOUT-PLACEMENT",
+    "D21-LOCAL-MANUSCRIPT-AND-ARRAY-SPECIFIC-RAC"
   ],
-  "completed_full_sources_this_run": 206,
+  "completed_full_sources_this_run": 207,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -499,14 +500,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T17:19:35.122565+00:00",
+  "updated_at": "2026-11-21T17:26:16.773895+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 11003,
-  "current_source_note": "knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md",
-  "next_action": "Reconcile the Ding 2021 131Ba/133Ce signature-splitting publisher original and its regular spin/energy references, with acquisition dependencies.",
+  "completed_primary_pages_this_run": 11019,
+  "current_source_note": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+  "next_action": "Reconcile the local Wakudyanaye thesis coverage and 133Ce lifetime/angular data relationships, verifying the thesis-specific experiment and remaining material.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Hauschild 1995 and 1996 published works and shared run identities.",
-  "current_source_scientific_acceptance": "Ding 2021 publisher PDF awaits targeted verification.",
-  "source_scoped_retrieval": "Reused the two local publisher originals."
+  "last_source_manager_closure": "Ding 2021 local 16-page author version and comparison of angular calibrations.",
+  "current_source_scientific_acceptance": "Wakudyanaye thesis awaits full source reconciliation.",
+  "source_scoped_retrieval": "Used the local author manuscript."
 }

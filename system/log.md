@@ -7046,3 +7046,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — 133Ce 的超形变和旋转序列
 
 - 核定 Hauschild 1995/1996 共两份刊版，标明同采集及仅有符合的连接线。累计 206 份、11003 个主件 PDF 页。
+
+## 2026-11-22 — Ding 2021 的本地版次与角组
+
+- 核定 16 页作者稿，分别保存 GALILEO 和 AFRODITE 的角比标定。累计 207 份、11019 个主件 PDF 页。

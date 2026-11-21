@@ -1,0 +1,27 @@
+{
+  "work_id": "catalogue:LIT-000379",
+  "recorded_at": "2026-11-21T17:26:16.773895+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md",
+  "raw": {
+    "path": "raw/papers/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 133.pdf",
+    "sha256": "752d3c5da690c20ec7e188dcc043f9da2a7f062deefc371dd8a497a190b66c37",
+    "size": 5720435,
+    "hash_basis": "fresh-hash",
+    "source_role": "local-author-manuscript"
+  },
+  "credited_primary_pages": 16,
+  "coverage": [
+    "Manuscript PDF 1–3: title page, experimental setup and array-specific calibrations.",
+    "PDF 3–8: Fig. 1 and level/transition tables.",
+    "PDF 8–13: alignment, signature splitting, model comparisons and Table III.",
+    "PDF 14–16: references."
+  ],
+  "reader": "Documented previous full reading and direct Codex checks of the local edition, its missing publisher marks, array calibration quotes and section coverage.",
+  "evidence_boundary": [
+    "The local file dates itself November 9, 2021, and is 16 physical pages. Cite author-manuscript page locators distinctly from PRC metadata.",
+    "GALILEO and AFRODITE Rac settings and calibrated dipole/quadrupole values differ; keep the known-transition calibration in each measured channel.",
+    "The respective g7/2-state and deformation assignments remain model interpretations; no experimental refit."
+  ],
+  "next_action": "Reconcile the local Wakudyanaye thesis coverage and 133Ce lifetime/angular data relationships, verifying the thesis-specific experiment and remaining material."
+}
