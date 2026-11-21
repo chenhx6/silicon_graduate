@@ -197,3 +197,7 @@ Morse已实际取得/读完13页author preprint，见[[morse-2022-gretina-polari
 [218点/axis冻结输入](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/l26-coverage-vector-input.json)、[事前模型合同](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/l26-coverage-averaging-contract.json)、[代码](../../system/scripts/day16_gretina_coverage_average.py)、[完整路径/平均/registration结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/l26-coverage-average-audit.json)。原PDF与上方humanprefix保持，新增claims仍needs_review，无新P/Q测量或正式Day17信用。
 
 这里的cut counting-information条件比较固定P(theta)形状下的共同scale，不直接给混合比delta的likelihood信息。不同delta会改变角形状/强度；matched joint响应/布居及Cov仍需另外处理。
+
+## 2026-11-21 — Measured asymmetry and conditional branch choice
+
+The published 10-page article was checked. Its \(^{25}\mathrm{Na}\) 1041-keV angular distribution allows Rose–Brink \(\delta=0\) or \(-0.85\). Table 2 reports \(A_0=0.043(8)\), with calculated values \(+0.021\) and \(+0.002\) for the two candidates in the stated analysis. The authors favor the zero solution and discuss sensitivity to the alignment width. This is angle-distribution-plus-Compton-asymmetry evidence. Appendix Fig. 7 separately assumes \(\sigma/J_i=0.3\) to illustrate the effect of \(\Delta J\) and mixing on the signs of the observables.

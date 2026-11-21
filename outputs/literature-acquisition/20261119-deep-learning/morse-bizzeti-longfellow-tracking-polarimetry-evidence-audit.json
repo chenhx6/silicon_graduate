@@ -1,0 +1,73 @@
+{
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000299",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/bizzeti2015-agata-polarimetry-46a0bc767d94.pdf",
+          "sha256": "46a0bc767d944c16cc728411ebbb819705fed8393a7e172e30bffe828efec53c",
+          "size": 1373940,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+      "primary_pdf_pages": 11,
+      "credited_primary_pages": 11,
+      "covered_sections": [
+        "PDF 1–5: AGATA, Pd Coulomb excitation, source and event criteria",
+        "PDF 6–11: analyzing power, model, selections and appendices"
+      ],
+      "evidence_gaps": [
+        "Use the calibration only as the documented response for this scope. Calculated Pd polarization and detector correction each contribute."
+      ]
+    },
+    {
+      "work_id": "catalogue:LIT-000559",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/morse-2022-gretina-calibration-author-preprint.pdf",
+          "sha256": "f76cf7073fb5c5240d638b332802730614f9f81d8aa2f971c6957acfddbfc241",
+          "size": 941004,
+          "hash_basis": "fresh-hash",
+          "source_role": "verified-repository-author-preprint"
+        }
+      ],
+      "source_note": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+      "primary_pdf_pages": 13,
+      "credited_primary_pages": 13,
+      "covered_sections": [
+        "PDF 1–7: experimental method, polarization, calibration and cuts",
+        "PDF 8–13: simulation normalization, comparison and references"
+      ],
+      "evidence_gaps": [
+        "Published full text unavailable locally. The 1368-keV measured Q and simulations from 500 to 2000 keV retain different provenance."
+      ]
+    },
+    {
+      "work_id": "doi:10.1016/j.nima.2025.170932",
+      "raw_files": [
+        {
+          "path": "raw/papers/2026_Longfellow et al_In-beam angular distribution and linear polarization measurements with GRETINA using a simple energy.pdf",
+          "sha256": "fb3b4f5e4dce6a436bb569b64af1914c6b673561374d7867a3d906aef7090df1",
+          "size": 1573443,
+          "hash_basis": "fresh-hash",
+          "source_role": "original-or-verified-edition"
+        }
+      ],
+      "source_note": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+      "primary_pdf_pages": 10,
+      "credited_primary_pages": 10,
+      "covered_sections": [
+        "PDF 1–4: formalism, experiment and angular fits",
+        "PDF 5–10: measured asymmetries, conditional delta choices, appendix and references"
+      ],
+      "evidence_gaps": [
+        "1041-keV branch preference depends on the joint angular and asymmetry comparison under the stated alignment assumptions."
+      ]
+    }
+  ],
+  "credited_primary_pages": 34,
+  "reader": "Codex with scope reconciliation",
+  "PDM_run": false
+}

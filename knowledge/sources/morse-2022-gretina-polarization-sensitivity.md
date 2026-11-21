@@ -38,7 +38,7 @@ tags: [GRETINA, GRETA, response-calibration, normalization-convention, selection
 
 C. Morse等，*NIM A*1025,166155(2022)，DOI [10.1016/j.nima.2021.166155](https://doi.org/10.1016/j.nima.2021.166155)。Crossref核题名、作者与出版年；实际全文来自[UNC机构记录](https://cdr.lib.unc.edu/concern/articles/2f75rj951)，机构DOI [10.17615/4vxa-4h20](https://doi.org/10.17615/4vxa-4h20)，公开文件[1835119.pdf](https://cdr.lib.unc.edu/downloads/9s161h65x?locale=en)。机构注明版本Preprint，PDF首页日期2021-12-02。
 
-实际文件13页，SHA-256见frontmatter，当前存repo tmp/day16-l26-preview；raw_file是未填归档槽，未修改raw/Bib。公开publisher TDM链接只返回1893-byte core metadata，没有VoR正文；不把本次author-preprint阅读冒称VoR逐字核验。它与机构/OSTI副本和L26转述不是新独立采集。
+实际核读对象为 `raw_file` 所指 UNC 机构作者稿，共 13 页。出版版的题录已核，公开出版商 TDM 链路仅取得元数据。本文引用页码对应已核作者稿，并与其机构／OSTI 副本按同一作品登记。
 
 ## Scope and Reading Depth
 
@@ -114,3 +114,7 @@ Table2同一归一下的名义tradeoff：
 - [[gretina-25na1041-polarization-response-contract]]：calibration谱系与branch/selection合同。
 - [[compton-polarimetry]]、[[linear-polarization-asymmetry]]：半因子Q、physical-domain及真实cut tradeoff。
 - [[dco-pdco-ambiguity-worksheet]]：matched companion reference角色，不当新R_DCO测量。
+
+## 2026-11-21 — Simulated versus measured analyzing power
+
+The 13-page UNC version was read against the earlier source audit. Table 2 shows that stricter tracking cuts can raise \(Q\) while reducing the event efficiency and figure of merit. Section 4.2 supplies measured-angular-distribution-derived substate weights to the simulation. That input does not make the multi-energy GRETA curve a series of measured GRETINA calibration points. The reported experimental \(Q=0.196(2)\) is for 1368 keV and the stated setup.

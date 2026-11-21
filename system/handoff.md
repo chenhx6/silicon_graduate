@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — 跟踪阵列的极化标定和选支
+
+- [[morse-2022-gretina-polarization-sensitivity]] 的 13 页机构作者稿、[[bizzeti-2015-agata-triple-cluster-polarimetry]] 的 11 页和 [[longfellow-2026-gretina-energy-ordering-polarization]] 的 10 页已对账。区分单点实测极化灵敏度、多能点模拟、源归一及角分布配合不对称度的条件选支。
+- 累计 119 份、9108 页主件。续核馆藏 EXILL 方向–偏振论文（`10.1088/1748-0221/18/11/P11031`）及其级联角和极化数据。
+
 ## 2026-11-21 — Jones 与 Schmid 的极化响应
 
 - [[jones-1995-clover-compton-calibration]] 的 5 页及 [[schmid-1998-gammasphere-polarization]] 的 16 页已对账。校准点依据参考线、几何与阈值记录；44 页实验室预印本与 Schmid 原刊按一篇计。

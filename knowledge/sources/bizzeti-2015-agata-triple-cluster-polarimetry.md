@@ -152,3 +152,7 @@ Fig5标r12单位µm，同正文15mm cut/2mm voxel不同；不要从图轴刻度�
 ### 上游原件补核：Suffert的normal轴
 
 [[suffert-1959-proton-capture-polarization]] SEH59-4–12重新原读，明确其Eq2的electric-anglezero在beam–γ plane的normal，Eq3的P为normal减plane；这与本source文字Stokesaxis相差π/2。同一scatter-plane零点，SU59给N∝1+pP_SUcos2χ，plane-axis则N∝1−pP_planecos2χ，P_SU=−P_plane使observable一致。B15Eq1的pureprobe可与normal-axis合同相容；本追加缩小符号歧义，仍未找到actualproducer或解释所有literal差异，原表/As/P不改。
+
+## 2026-11-21 — Calibration with two Pd transitions
+
+The 11-page publisher article and Appendices A–D were reconciled. The 433.9-keV \(^{108}\mathrm{Pd}\) and 555.8-keV \(^{104}\mathrm{Pd}\) calibrations use Coulomb excitation to predict \(P\) and a \(^{137}\mathrm{Cs}\) source to correct the azimuthal acceptance. Tables 3–4 report efficiencies and angle-dependent coefficients specific to the respective cuts and geometries. The measured counts, calculated Coulomb-excitation polarization, and simulated response each contribute a different input to the final analyzing power.

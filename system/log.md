@@ -6794,3 +6794,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-21 — Jones 与 Schmid 的探测器标定
 
 - 对账 5+16 页，核实两类极化仪的标定和 Schmid 的出版／实验室版本。累计 116 份、9074 页主件。
+
+## 2026-11-21 — 跟踪阵列的极化标定
+
+- 对账 Morse、Bizzeti 与 Longfellow 共 34 页，核实斜率、选择门和选支条件。累计 119 份、9108 页主件。
