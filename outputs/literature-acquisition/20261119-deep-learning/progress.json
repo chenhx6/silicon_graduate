@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000390",
+  "active_source": "catalogue:LIT-000489",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -485,9 +485,10 @@
     "RT24-BA129-MODEL-SPECTRA-AXIS-LANGUAGE",
     "CH24-BA129-365-LEGACY-AND-READOPTED-DELTA",
     "PE16-134CE-GATED-PARITY-AND-SHARED-RUN",
-    "AY16-133CE-TENTATIVE-BANDHEAD-AND-RAC"
+    "AY16-133CE-TENTATIVE-BANDHEAD-AND-RAC",
+    "EM97-133CE-RDDS-BENCHMARK-AND-FEEDING"
   ],
-  "completed_full_sources_this_run": 202,
+  "completed_full_sources_this_run": 203,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -495,14 +496,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T17:02:40.218221+00:00",
+  "updated_at": "2026-11-21T17:09:23.227314+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10982,
-  "current_source_note": "knowledge/sources/emediato-1997-133ce-rdds-lifetimes.md",
-  "next_action": "Reconcile the four-page Emediato 1997 133Ce RDDS original, comparing band/feeding anchors to later spectroscopy.",
+  "completed_primary_pages_this_run": 10986,
+  "current_source_note": "knowledge/sources/joss-1998-133ce-triaxial-band-lifetimes.md",
+  "next_action": "Reconcile the four-page Joss 1998 triaxial band lifetime original, using its side-feeding adjustments and scope boundaries.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Ayangeakaa 2016 133Ce experiment and D8 plus Rac criteria, with primary sources pinned.",
-  "current_source_scientific_acceptance": "Emediato 1997 PDF hash checked and original reading to reconcile.",
-  "source_scoped_retrieval": "Used the local publisher original."
+  "last_source_manager_closure": "Emediato 1997 133Ce RDDS original with the same-run and thin/thick-target cross-checks.",
+  "current_source_scientific_acceptance": "Joss local four-page publisher original verified by SHA; coverage pending.",
+  "source_scoped_retrieval": "Reused the local publisher original."
 }

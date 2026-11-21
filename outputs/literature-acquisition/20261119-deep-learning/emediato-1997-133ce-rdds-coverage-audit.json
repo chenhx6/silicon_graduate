@@ -1,0 +1,25 @@
+{
+  "work_id": "catalogue:LIT-000390",
+  "recorded_at": "2026-11-21T17:09:23.227314+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/emediato-1997-133ce-rdds-lifetimes.md",
+  "raw": {
+    "path": "raw/papers/1997_Emediato_133Ce_Lifetime_Measurements.pdf",
+    "sha256": "39f6d6a7bb4e2da109504aaab2c22c52fa8b1465b860c1dfd58937bc404869df",
+    "size": 102259,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-version"
+  },
+  "credited_primary_pages": 4,
+  "coverage": [
+    "2105–2106: experiment, shifted/unshifted fit, feeding inputs, experimental figures and Table I cross-check.",
+    "2107–2108: lifetime/strength Tables II–III, particle-rotor and geometry comparisons, conclusions, and bibliography."
+  ],
+  "reader": "Previous recorded full reading plus Codex targeted original checks in the local publisher edition.",
+  "evidence_boundary": [
+    "Prior 133Ce line strengths constrain feeding and are checked by a thick-target spectrum. Independent uncertainty components are unavailable.",
+    "132Ce is a simultaneous benchmark in a separate evaporation channel; it is not the new 133Ce lifetime determination.",
+    "Mean lifetime tau vs half-life and the parent states remain fixed in later comparisons."
+  ],
+  "next_action": "Reconcile the four-page Joss 1998 triaxial band lifetime original, using its side-feeding adjustments and scope boundaries."
+}

@@ -73,6 +73,8 @@ L.G.R.Emediato等，*Physical Review C*55(4)(1997)2105–2108，DOI10.1103/PhysR
 
 ## Lifetime and Transition Ledger
 
+Printed p. 2106 records two internal checks. The authors compare the \(^{132}\mathrm{Ce}\) ground-band lifetimes obtained in the competing \(4n\) channel with earlier measurements (Table I). Feeding inputs for \(^{133}\mathrm{Ce}\) use relative intensities from Ref. [1] at the same reaction and energy, with strong lines checked against a separate thick-target spectrum. Unresolved feeding is assigned from intensity balance and, where needed, a one-step feeder. Their successful fit did not require a feeder with \(\tau>1\) ps for the measured curves. The \(^{132}\mathrm{Ce}\) comparison and the feeding model play distinct roles in the \(^{133}\mathrm{Ce}\) results.
+
 |transition|Eγ keV|mean τ ps|reported probability|
 |---|---:|---:|---|
 |11/2−→9/2−|170|76(3)|B(M1)=65(2)mW.u.|

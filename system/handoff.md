@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — \(^{133}\mathrm{Ce}\) RDDS 的内部检查
+
+- [[emediato-1997-133ce-rdds-lifetimes]] 核定 4 页刊版。保留同次 \(^{132}\mathrm{Ce}\) 寿命交叉检查，以及 \(^{133}\mathrm{Ce}\) 侧馈采用的先前强度和厚靶校验。
+- 累计核定 203 份、10986 个主件 PDF 页。接续 [[joss-1998-133ce-triaxial-band-lifetimes]] 的带寿命比较。
+
 ## 2026-11-22 — \(^{133}\mathrm{Ce}\) D8 能级与角比条件
 
 - [[ayangeakaa-2016-133ce-in-beam]] 核定 19 页刊版。D8 的 5021.7 keV 带头有符合能量锚点，\(35/2^+\) 仍暂定。登记 \(R_{\mathrm{ac}}\) 两组与全角门。
