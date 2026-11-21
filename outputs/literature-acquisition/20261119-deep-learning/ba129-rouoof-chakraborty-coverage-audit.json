@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-11-21T16:41:40.665325+00:00",
+  "status": "scientific-reading-covered",
+  "reader": "Previously documented full reads plus Codex fresh original review for two and five physical pages.",
+  "completed_works": [
+    {
+      "work_id": "catalogue:LIT-000668",
+      "unit_id": "RT24-BA129-MODEL-SPECTRA-AXIS-LANGUAGE",
+      "source_note": "knowledge/sources/rouoof-dae68-129ba-tpsm.md",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261105-ba129-model-precedents/rouoof-dae68.pdf",
+        "sha256": "7c9be22bc25dec2661bb615334dc9d9cf2a4c755472560d5c7d716c8d968e0e5",
+        "size": 385847,
+        "hash_basis": "fresh-hash",
+        "source_role": "proceedings-paper"
+      },
+      "credited_primary_pages": 2,
+      "coverage": "Print pp. 167–168: model, four band energies, Eq. (1), comparison and interpretation.",
+      "evidence_boundary": "The proceedings reuse Chakraborty spectra; no EM table. Preserve the long-axis wording against the medium-inertia setup separately."
+    },
+    {
+      "work_id": "doi:10.1103/physrevc.110.024324",
+      "unit_id": "CH24-BA129-365-LEGACY-AND-READOPTED-DELTA",
+      "source_note": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+      "raw": {
+        "path": "raw/papers/2024_Chakraborty et al_Exploring the possibility of wobbling motion in Ba 129.pdf",
+        "sha256": "d5729de577067f8afeab771afb51328989772c68962a938d553bccb50f0c0808",
+        "size": 455176,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "credited_primary_pages": 5,
+      "coverage": "024324-1–5: earlier angular coefficients, polarization, 605/748 and 365-keV treatments, different structural models and limits.",
+      "evidence_boundary": "Separate the legacy overlapping interval from the larger value re-extracted using published angular data; no new experiment."
+    }
+  ],
+  "credited_primary_pages": 7,
+  "next_action": "Reconcile the Nomura et al. IBFM author/publisher roles, focusing on the different observables and evidence of competing assignments."
+}

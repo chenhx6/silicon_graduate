@@ -56,6 +56,8 @@ PDF页眉为DAE68（2024）；INSPIRE记录2878218的publication year及imprint�
 
 ## Competing Interpretations and Limitations
 
+p. 168 Eq. (1) defines \(E_{\rm wob}\) from the Band 3 energy at \(I\) and the average of the two reference-band energies at \(I-1\) and \(I+1\). The same page calls the rotational axis “long” in its discussion of longitudinal wobbling. The introduction instead describes the \(m\) axis as the maximum-inertia axis. The note supplies no orientation map that would resolve the axis convention for its \(^{129}\mathrm{Ba}\) calculation. Record the plotted energy trend and retain the axis language as printed.
+
 “首次对129Ba做TPSM”不成立。对同一波函数作明确算符和未标定观测量的检验仍是
 可研究问题，但不能据这份短文未列EM表便宣布没有其它先例。
 不擅自把0.150转换成0.150°、弧度或ε′。

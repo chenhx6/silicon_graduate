@@ -7022,3 +7022,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-22 — SCS 原件与替换图
 
 - 核定 Chen–Frauendorf 的 27 页刊版和伴随勘误，现存刊版采用正确 Fig. 15。累计 198 份、10938 个主件 PDF 页。
+
+## 2026-11-22 — 129Ba 的模型与旧偏振/角量谱系
+
+- 核定 2 页会议文及 5 页刊版，保留软核讨论中的实验谱系与 365 keV 两种混合比结果。累计 200 份、10945 个已登记主件 PDF 页。

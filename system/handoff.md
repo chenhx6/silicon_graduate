@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-22 — \(^{129}\mathrm{Ba}\) 会议模型与刊版重分析
+
+- [[rouoof-dae68-129ba-tpsm]] 和 [[chakraborty-2024-possibility-wobbling-129ba]] 核定 2 与 5 页原件。会议文复用后者能级。365 keV 线的旧角量/偏振交集及重分析的 \(\delta\simeq-2.0\) 分别登记。
+- 累计核定 200 份、10945 个主件 PDF 页。接续 [[doctoral-r1-g29-nomura-2022-questioning-wobbling-ibfm]]，跟进旧数据与软核竞争解释。
+
 ## 2026-11-22 — 自旋相干态版式与 Fig. 15 勘误
 
 - [[chen-2022-study-wobbling-spin-coherent-state-maps]] 核定 27 页刊版和 1 页勘误，确认当前馆藏图为替换图。对照 Eq. (31)–(32) 与 Chen 2026 附录的图轴和概率测度。

@@ -76,6 +76,8 @@ No new dataset. The analysis revisits results from `120Sn(12C,3nγ)129Ba` at 52 
 
 ## Nuclear Structure Information
 
+For the 365-keV link, 024324-3 first quotes the legacy overlapping solution \(-0.84\leq\delta\leq-0.79\), then reexamines the published \(A_{22}=-0.70(3)\) and \(A_{44}=0.16(5)\). Its Fig. 3 joint angular-coefficient comparison favors a branch near \(\delta=-2.0\) (stated \(80(4)\%\) E2), compared with the previously quoted interval. The legacy \(P=0.072(68)\) is discussed as consistent with a higher magnitude. The joint angular comparison has no new polarization data. The two results must retain their distinct analysis provenance.
+
 Bands 1/2 are treated as signature partners and band 3 as a possible first-wobbling-phonon sequence. No new spectra or raw-event reanalysis are supplied.
 
 ## Authors' Interpretation

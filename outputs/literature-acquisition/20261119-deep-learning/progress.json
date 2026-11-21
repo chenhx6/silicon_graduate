@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000668",
+  "active_source": "bytes:127e2f814f743ead8129e84f293ea6a554d83acbd8e50e441e971fa011ee7b06",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -481,9 +481,11 @@
     "ALW13-131CE-THESIS-VERSION-AND-GATED-EVIDENCE",
     "IB98-CE-STATIC-MOMENTS-QI-ANGULAR-TERM",
     "CH26-TR-WJ-BARE-CORE-AND-ODD-A",
-    "CF22-SCS-MEASURE-AND-PUBLISHER-CORRECTION"
+    "CF22-SCS-MEASURE-AND-PUBLISHER-CORRECTION",
+    "RT24-BA129-MODEL-SPECTRA-AXIS-LANGUAGE",
+    "CH24-BA129-365-LEGACY-AND-READOPTED-DELTA"
   ],
-  "completed_full_sources_this_run": 198,
+  "completed_full_sources_this_run": 200,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -491,14 +493,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-21T16:34:25.282073+00:00",
+  "updated_at": "2026-11-21T16:41:40.665325+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 10938,
-  "current_source_note": "knowledge/sources/rouoof-dae68-129ba-tpsm.md",
-  "next_action": "Verify the two-page Rouoof DAE proceedings on 129Ba and compare it to prior model and primary measurement files.",
+  "completed_primary_pages_this_run": 10945,
+  "current_source_note": "knowledge/sources/doctoral-r1-g29-nomura-2022-questioning-wobbling-ibfm.md",
+  "next_action": "Reconcile the Nomura et al. IBFM author/publisher roles, focusing on the different observables and evidence of competing assignments.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Chen–Frauendorf 2022 corrected publisher edition and companion Fig. 15 erratum.",
-  "current_source_scientific_acceptance": "Rouoof proceedings identity and coverage queued.",
-  "source_scoped_retrieval": "Reused original article and one-page erratum."
+  "last_source_manager_closure": "Both local Ba-129 originals, experimental reuse and distinct 365-keV estimates.",
+  "current_source_scientific_acceptance": "Nomura IBFM entry queued. No large-scale acquisition planned.",
+  "source_scoped_retrieval": "Used verified local conference and publisher files."
 }
