@@ -3,6 +3,11 @@ graph-excluded: true
 updated: 2026-11-21
 ---
 
+## 2026-11-21 — Alwaleedi 学位论文的版本与谱图
+
+- [[alwaleedi-2013-band-structures-131ce]] 核定 97 页馆藏原件，两份 PDF 为同一文件的副本。Fig. 5.5 使用 \(\delta=0\) 的分支换算，原文仍缺逐点门选强度和误差。Band 2 的 1155 → 1166 keV 异文回到 Palacz Fig. 1 与论文 Fig. 4.9。
+- 累计核定 195 份、10870 个主件 PDF 页。接续 [[ionescu-bujor-1998-static-moments-129-131ce]] 的静态矩与低能态身份。
+
 ## 2026-11-21 — \(^{131}\mathrm{Ce}\) 早期能级链
 
 - [[palacz-1991-high-spin-131ce]] 核定两页刊版，逐条连通 Band I 的 510 至 962 keV 序列和 Singh Table 1。图中未画超形变带，正文约 \(6.0\,e\,\mathrm b\) 的矩取自前文。

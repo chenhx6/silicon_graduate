@@ -76,6 +76,12 @@ Harris参考和式(5.6)的δ假设。§5.3在PDF90/印刷86，
 
 ## Summary
 
+Figure 5.5 (printed p. 85, PDF p. 89) plots \(B(M1)/B(E2)\) for Bands 1, 2, 5 and 7. The thesis explains the gates only as being above the level of interest (printed p. 86, Eq. (5.6)–(5.7) discussion) and uses \(\delta=0\). Table 5.4 lists the \(g\) factors and mean alignments for the model curves. The thesis has transition intensities in Chapter 4. A pointwise reconstruction of Fig. 5.5 specifically needs the gated numerator and denominator, their uncertainties and normalization for each plotted ratio. Those pointwise details were not located in Sec. 5.3 or the figure.
+
+The bibliography lists [[palacz-1991-high-spin-131ce]] as Ref. [47] (PDF p. 95). Its cited early level scheme precedes the Argonne \(^{100}\mathrm{Mo}(^{36}\mathrm S,5n)\) data in this thesis. Compare shared links by energy and spin. The separate [[li-2004-lifetimes-131ce]] and [[singh-2016-lifetime-131ce-133pr]] runs constrain lifetimes on identified sequences and should retain their original gates and feeding assumptions.
+
+Sec. 4.3.2 (PDF p. 59) refers to Palacz as Ref. [50] in the discussion of the \(51/2^+\) extension. The bibliography assigns [50] to Gizon et al. and [47] to Palacz. Palacz Fig. 1 shows a tentative \((1155)\) keV transition in the high-spin positive-parity sequence, which the thesis says it revised to 1166 keV. In the thesis Fig. 4.9 (printed p. 70, PDF p. 74), 1166 keV is the fixed third gate on the right side of Band 2. Use the source identity, original diagram and new assignment together when comparing the two schemes.
+
 论文报告两条新的强耦合带 Bands 4 和 7，并扩展既有 Bands 1、2、6。作者用若干中子 Nilsson 轨道与质子、中子对齐组态解释 Bands 1–7，并用 spin-dependent core polarization/non-axial deformation 讨论 crossing 后的结构。证据最直接支持 signature/configuration coupling、准粒子 crossing 和组态依赖的转动响应；不足以单独确立 wobbling、chirality 或 shape coexistence。
 
 ## Experimental or Theoretical Setup

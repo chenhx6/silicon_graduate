@@ -1,0 +1,38 @@
+{
+  "work_id": "catalogue:LIT-000275",
+  "recorded_at": "2026-11-21T16:00:02.647795+00:00",
+  "status": "scientific-reading-covered",
+  "source_note": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+  "raw_files": [
+    {
+      "path": "raw/papers/Band structures of 131Ce.pdf",
+      "sha256": "b50c22877418de560f06002588bb46d34f5ba670c6880e30a89d1509c79ad8c1",
+      "size": 769364,
+      "hash_basis": "fresh-hash",
+      "source_role": "byte-identical-thesis-copy"
+    },
+    {
+      "path": "raw/theses/degree-dissertation/Band structures of 131Ce.pdf",
+      "sha256": "b50c22877418de560f06002588bb46d34f5ba670c6880e30a89d1509c79ad8c1",
+      "size": 769364,
+      "hash_basis": "fresh-hash",
+      "source_role": "verified-liverpool-thesis"
+    }
+  ],
+  "credited_primary_pages": 97,
+  "coverage": [
+    "PDF 1–12: thesis identity and abstract, contents/front matter.",
+    "PDF 13–39: Chapters 1–2, motivation, theory and rotational comparisons.",
+    "PDF 40–54: Chapter 3, experimental methods and angular intensity ratio definition.",
+    "PDF 55–77: Chapter 4, level scheme, Tables 4.1–4.7, coincidence gates and band assignments.",
+    "PDF 78–92: Chapter 5, alignments, configuration comparisons, Fig. 5.5 and final discussion.",
+    "PDF 93–97: bibliography."
+  ],
+  "reader": "Documented previous full 97-page reading reconciled with current chapter map, measured hashes, critical Eq. (5.6)–(5.7) passage, Fig. 4.9 and Palacz printed data.",
+  "evidence_boundary": [
+    "Both archived PDFs have the same SHA and are copies of the 2013 Liverpool PhD thesis. One work is credited.",
+    "Fig. 5.5 plots ratios under delta=0. The pointwise gated branching values and uncertainties needed to reproduce those plotted points were not found in the figure discussion.",
+    "The Palacz citation number in Sec. 4.3.2 and the bibliography differ. The 1155 to 1166 keV correspondence is a thesis revision tied to Fig. 4.9. Prior experiments and lifetime determinations retain their own inputs."
+  ],
+  "next_action": "Verify the original Ionescu–Bujor 1998 129/131Ce static moment paper and distinguish hyperfine measurements from the recent normal-deformation lifetime chain."
+}
