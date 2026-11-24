@@ -322,8 +322,15 @@
         "raw/writing/pado/20261029_review_v1/PDM/figures/data/report_revision/results.json",
         "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/report-revision-20261124.json"
       ],
-      "commands_run": [],
-      "changed_paths": [],
+      "commands_run": [
+        "git status --short --branch",
+        "python3 system/scripts/wiki_hook.py session-start --root ."
+      ],
+      "changed_paths": [
+        "raw/writing/pado/20261029_review_v1/PDM/main.tex",
+        "raw/writing/pado/20261029_review_v1/PDM/figures/",
+        "outputs/plans/20261120-pdm-three-mode-rewrite/"
+      ],
       "unresolved_items": [],
       "next_action": "No required report work remains. Preserve scientific limitations; no new software release."
     },
@@ -335,7 +342,7 @@
         "R00"
       ],
       "status": "completed",
-      "specification": "读取U04现有deterministic和角边缘，筛same_kernel三模式各10条；无随机噪声中心、sigma/I=.3、P90度、125/90比值与PDCO125度门、环平均。误差max(.1075,.8abs(P0))及.1abs(R0)。报告全部30条输入、所有HDI分段/mode/质量、ETI、Mean-based和取向结果/诊断；独立9j30条只留后台，不重算既有反演。",
+      "specification": "读取U04现有deterministic和角边缘，筛same_kernel三模式各10条；无随机噪声中心、sigma/I=.3、P90度、125/90比值与PDCO125度门、环平均。误差max(.1075,.8abs(P0))及.1abs(R0)。报告全部30条输入、所有HDI分段/mode及机器数据中的分段质量、ETI、Mean-based和取向结果/诊断；独立9j30条只留后台，缺二维数组时按同一冻结任务重建并断言复现原统计，不重做随机模拟或重构。",
       "input_evidence": [
         "raw/code/PDM/analysis/benchmarks/sigma03_relP80_relR10/deterministic.json",
         "raw/code/PDM/analysis/benchmarks/sigma03_relP80_relR10/angle_marginals.npz",
@@ -343,9 +350,9 @@
         "raw/code/PDM/analysis/scripts/plot_benchmark_u04.py"
       ],
       "deliverables": [
-        "30条按模式、case_id连接的输入/delta/取向长表",
-        "真值对恢复delta图及sigma/I=.3对照图",
-        "正负小中大代表角PDF与全部分段数据"
+        "每模式一页A4横向输入—输出主表，共三张10行表",
+        "按模式显示全部30例的delta和sigma/I恢复对照图",
+        "全部30张四联图中的完整角/宽度PDF及逐段统计数据"
       ],
       "acceptance": [
         "primary_records恰30且全为same_kernel",
@@ -356,8 +363,14 @@
         "raw/writing/pado/20261029_review_v1/PDM/figures/data/report_revision/results.json",
         "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/report-revision-20261124.json"
       ],
-      "commands_run": [],
-      "changed_paths": [],
+      "commands_run": [
+        "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 raw/writing/pado/20261029_review_v1/PDM/figures/revise_report.py"
+      ],
+      "changed_paths": [
+        "raw/writing/pado/20261029_review_v1/PDM/main.tex",
+        "raw/writing/pado/20261029_review_v1/PDM/figures/",
+        "outputs/plans/20261120-pdm-three-mode-rewrite/"
+      ],
       "unresolved_items": [],
       "next_action": "No required report work remains. Preserve scientific limitations; no new software release."
     },
@@ -369,7 +382,7 @@
         "R00"
       ],
       "status": "completed",
-      "specification": "对15初始+15后续nominal二维声明模型逐一给完整四联图与三类数值，并制作四面板图6、案例/几何/来源索引。9纯前向控制另表；加密run附nominal模型，不重复算案例。135Pr采用2:1强度和P75.5度，154Tb/190Tl为声明环平均；原始观测及误差保持不变。",
+      "specification": "对15初始+15后续nominal二维声明模型逐一给完整四联图与三类数值，并制作案例/几何/来源索引；旧图6留后台，不作为本轮必做展示。9纯前向控制另表；加密run附nominal模型，不重复算案例。135Pr采用2:1强度和P75.5度，154Tb/190Tl为声明环平均；原始观测及误差保持不变。",
       "input_evidence": [
         "raw/code/PDM/analysis/cases/results_v0_1_1/results.json",
         "raw/code/PDM/analysis/cases/followup/results_v0_1_1/results.json",
@@ -377,21 +390,27 @@
         "raw/code/PDM/analysis/cases/followup/grouped_geometry_v0_1_1/snapshot.json"
       ],
       "deliverables": [
-        "30个nominal二维模型完整四联图及每图全部HDI/ETI/Mean-based数值",
-        "9个前向控制及文献对照单表",
-        "图6四面板、案例和数据来源索引"
+        "30个nominal二维模型的完整四联图及HDI/ETI/Mean-based数值",
+        "9个纯项前向控制对照表",
+        "案例、几何、输入和来源索引"
       ],
       "acceptance": [
-        "30个nominal模型全部可见而非只给代表例",
-        "四联图含完整观测响应域、viridis独立色标、pi刻度及全部统计",
-        "图6 A/C使用delta轴，固定宽度/未报告/原报误差区分，模型场景不当独立实验"
+        "30个nominal模型全部可见而非代表性子集",
+        "四联图包含完整有限观测域、viridis色标、角刻度及完整统计",
+        "文献报道值不称真值，模型场景、共用DCO和历史读图偏移不当作独立实验"
       ],
       "evidence": [
         "raw/writing/pado/20261029_review_v1/PDM/figures/data/report_revision/results.json",
         "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/report-revision-20261124.json"
       ],
-      "commands_run": [],
-      "changed_paths": [],
+      "commands_run": [
+        "python3 raw/writing/pado/20261029_review_v1/PDM/figures/revise_report.py --render-only"
+      ],
+      "changed_paths": [
+        "raw/writing/pado/20261029_review_v1/PDM/main.tex",
+        "raw/writing/pado/20261029_review_v1/PDM/figures/",
+        "outputs/plans/20261120-pdm-three-mode-rewrite/"
+      ],
       "unresolved_items": [],
       "next_action": "No required report work remains. Preserve scientific limitations; no new software release."
     },
@@ -425,8 +444,14 @@
         "raw/writing/pado/20261029_review_v1/PDM/figures/data/report_revision/results.json",
         "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/report-revision-20261124.json"
       ],
-      "commands_run": [],
-      "changed_paths": [],
+      "commands_run": [
+        "Python: diagnostics() and diagnostic_figure() on all saved injection arrays; no random sampling or alternate fit"
+      ],
+      "changed_paths": [
+        "raw/writing/pado/20261029_review_v1/PDM/main.tex",
+        "raw/writing/pado/20261029_review_v1/PDM/figures/",
+        "outputs/plans/20261120-pdm-three-mode-rewrite/"
+      ],
       "unresolved_items": [],
       "next_action": "No required report work remains. Preserve scientific limitations; no new software release."
     },
@@ -447,14 +472,14 @@
         "R01/R02/R03已验收交付"
       ],
       "deliverables": [
-        "更新后的main.tex和唯一main.pdf",
-        "图表数据映射/数值核对清单",
-        "实际页数、每页渲染和目视QA记录"
+        "90页canonical main.pdf及main.tex，仅三张A4横向主表",
+        "90页渲染和逐页视觉检查",
+        "64幅图形遮挡/字号审计及稳定编译日志"
       ],
       "acceptance": [
-        "30注入长表、全部30文献四联图及9前向控制均可读",
-        "无未定义引用和公式/表图遮挡越界截断",
-        "不靠tiny字体或整体缩小挤表，旧工程完成事实与当前报告状态一致"
+        "仅第18/19/20页为A4横向，其余正文、短表、四联图为A4竖向",
+        "30S+30L逐例图齐备，无缺图、裁切或遮挡",
+        "两遍最终编译后无Overfull、Float too large、缺字及未定义引用"
       ],
       "evidence": [
         "tmp/pdm-report-revision/compile-final-2.log",
@@ -462,8 +487,15 @@
         "tmp/pdm-report-revision/visual-literature/visual-check.json",
         "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/report-revision-20261124.json"
       ],
-      "commands_run": [],
-      "changed_paths": [],
+      "commands_run": [
+        "xelatex -interaction=nonstopmode -halt-on-error -file-line-error -output-directory=/workspace/wiki/tmp/pdm-report-revision/tex main.tex (two final passes)",
+        "Python: audit_pdf() on all64 final scientific figures; render and visually inspect all90 pages"
+      ],
+      "changed_paths": [
+        "raw/writing/pado/20261029_review_v1/PDM/main.tex",
+        "raw/writing/pado/20261029_review_v1/PDM/figures/",
+        "outputs/plans/20261120-pdm-three-mode-rewrite/"
+      ],
       "unresolved_items": [],
       "next_action": "No required report work remains. Preserve scientific limitations; no new software release."
     },
@@ -495,8 +527,19 @@
       "evidence": [
         "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/report-revision-20261124.json"
       ],
-      "commands_run": [],
-      "changed_paths": [],
+      "commands_run": [
+        "python3 system/scripts/wiki_archive_gate.py check --root . -- knowledge/sources/pdm-deterministic-report-revision-20261124-source.md raw/writing/pado/20261029_review_v1/PDM/figures/data/report_revision/manifest.json",
+        "python3 system/scripts/wiki_boundary_check.py --root .",
+        "Python: wiki_lint.validate_page/validate_source and link checks on both new knowledge pages",
+        "git diff --check"
+      ],
+      "changed_paths": [
+        "knowledge/research-notes/pdm-deterministic-report-revision-20261124.md",
+        "knowledge/sources/pdm-deterministic-report-revision-20261124-source.md",
+        "knowledge/index.md",
+        "system/handoff.md",
+        "system/log.md"
+      ],
       "unresolved_items": [],
       "next_action": "No required report work remains. Preserve scientific limitations; no new software release."
     }

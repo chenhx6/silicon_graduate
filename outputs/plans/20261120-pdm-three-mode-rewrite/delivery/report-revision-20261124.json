@@ -1,6 +1,6 @@
 {
   "schema": "pdm-report-revision-acceptance-v1",
-  "completed_at": "2026-11-24T04:57:50.522369+00:00",
+  "completed_at": "2026-11-24T05:17:30.185581+00:00",
   "status": "completed",
   "goal_id": "01a20bbe-dfb1-77f3-a6a9-fd264a759483",
   "canonical_pdf": "raw/writing/pado/20261029_review_v1/PDM/main.pdf",
@@ -249,7 +249,7 @@
     "Literature configurations share input/calibration and are not independent experiments or complete detector-acceptance replays."
   ],
   "git": {
-    "stable_pointer": "main + docs: revise PDM deterministic report and evidence",
+    "stable_pointer": "main + docs: align PDM report acceptance with delivered figures",
     "publication": "final-not-pushed",
     "reason": "Two pre-existing PDM manifests have four size/hash mismatches; do not overwrite historical identities or push with this unresolved gate.",
     "exact_commit_record": "delivery/report-revision-20261124.local.json",
