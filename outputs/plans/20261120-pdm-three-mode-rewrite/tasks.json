@@ -1025,10 +1025,10 @@
     "Literature models are not complete array-acceptance replays; shared measurements and two historical deterministic digitization shifts remain identified."
   ],
   "publication": {
-    "status": "validated-pending-push",
+    "status": "pushed",
     "new_software_release": false,
     "authorization": "2026-11-24 user: classify ordinary PDM software, push, and reconcile Git baseline",
-    "reason": "Former size/hash mismatches resolved with byte-identical 0.1.0 snapshots; current 0.1.1 working source retained. Publication preflight passed with zero archive failures; six classification/boundary tests and 225 PDM regressions passed.",
+    "reason": "User-authorized Git baseline content published to origin main after successful non-force dry-run and push; historical hash/size mismatches resolved without changing current software or scientific results.",
     "receipt": "delivery/git-baseline-20261124.json",
     "historical_report_receipt": "delivery/report-revision-20261124.json",
     "code_provenance_manifest": "raw/code/PDM/archives/20261124-code-inputs/manifest.json"

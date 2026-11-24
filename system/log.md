@@ -7420,3 +7420,4 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - 按用户明确授权，将`raw/code/PDM/{GUI,analysis}/`中的维护源码、测试、公开示例、文档与无输出Notebook纳入精确Git白名单；计算数据、历史证据、dist、缓存和旧发布过程日志仍留本地。没有改动0.1.1实现、重算报告或发布新软件版本。
 - 两处旧清单引用的程序从本地0.1.0源码包精确恢复，原大小及SHA-256匹配；三个集合的57项代码／文档引用改绑55份去重固定快照，三个原清单完整保留。未更新历史预期哈希，报告仍179项且PDF不变。
 - 保留并归类此前完成的馆藏知识、覆盖审计和根目录scratch治理修改。代码分类／边界测试6项及PDM现有回归225项通过；正式检查和发布结果记录于原执行计划的`delivery/git-baseline-20261124.json`，旧回执不改写。
+- 实际完成`origin main`非force推送，包括此前68个待推送提交与本轮两组内容提交；远端已核对一致。发布预检检查590个已登记source，归档0失败、路径门通过；全库结构lint从130降至129，补齐待提交Moeller来源的导航链接后，本轮修改路径无error。bounded after-edit hook的归档步骤超时，独立完整发布preflight实际通过，未跳过归档门。

@@ -2,7 +2,7 @@
   "schema": "wiki-git-baseline-v1",
   "recorded_at": "2026-11-24T08:56:43.508033+00:00",
   "authorization": "2026-11-24 user: 这是正常的程序呀，归类下push喽，整理git基线",
-  "status": "validated-pending-push",
+  "status": "pushed",
   "scope": {
     "software_version": "0.1.1",
     "new_software_release": false,
@@ -648,8 +648,15 @@
     "origin_main_at_fetch": "1124b1b9c2a4c927c5ddf382d49b409ad748387e",
     "origin_is_ancestor": true,
     "force": false,
-    "publication": "pending actual dry-run and push",
-    "historical_final_not_pushed_receipts": "retained as historical records, not rewritten"
+    "publication": "pushed",
+    "historical_final_not_pushed_receipts": "retained as historical records, not rewritten",
+    "published_content_commit": "5a5975039297faf24805b241d858526ed55a4783",
+    "verified_remote_head": "5a5975039297faf24805b241d858526ed55a4783",
+    "published_at": "2026-11-24T08:58:46.742132+00:00",
+    "published_commits_from_initial_origin": 70,
+    "baseline_content_worktree_clean_after_commit": true,
+    "staged_files_after_content_commit": [],
+    "followup_receipt_note": "This record verifies actual baseline-content publication. The publication receipt and active status updates are delivered in a separate documentation commit."
   },
   "knowledge_writeback": [
     "knowledge/sources/multipolepdm-20261120-synthetic-validation.md",
