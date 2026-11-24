@@ -27,6 +27,41 @@ raw/writing/*
 !raw/proposal/
 !raw/proposal/**
 
+# Maintained PDM software is source code, not immutable experimental evidence.
+!raw/code/
+raw/code/*
+!raw/code/PDM/
+raw/code/PDM/*
+!raw/code/PDM/GUI/
+raw/code/PDM/GUI/*
+!raw/code/PDM/GUI/LICENSE
+!raw/code/PDM/GUI/MANIFEST.in
+!raw/code/PDM/GUI/README.md
+!raw/code/PDM/GUI/pyproject.toml
+!raw/code/PDM/GUI/src/
+!raw/code/PDM/GUI/src/**/
+!raw/code/PDM/GUI/src/**/*.py
+!raw/code/PDM/GUI/src/multipolepdm/examples/*.json
+!raw/code/PDM/GUI/src/multipolepdm/examples/*.md
+!raw/code/PDM/GUI/tests/
+!raw/code/PDM/GUI/tests/**/
+!raw/code/PDM/GUI/tests/**/*.py
+!raw/code/PDM/GUI/scripts/
+!raw/code/PDM/GUI/scripts/*.py
+!raw/code/PDM/analysis/
+raw/code/PDM/analysis/*
+!raw/code/PDM/analysis/README.md
+!raw/code/PDM/analysis/*.ipynb
+!raw/code/PDM/analysis/scripts/
+!raw/code/PDM/analysis/scripts/*.py
+!raw/code/PDM/analysis/research/
+!raw/code/PDM/analysis/research/**/
+!raw/code/PDM/analysis/research/**/*.py
+!raw/code/PDM/analysis/research/**/*.md
+
+# Historical release process logs remain local; formal JSON receipts are tracked.
+/outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.1/*.log
+
 # Temporary and generated caches
 tmp/
 __pycache__/
@@ -53,6 +88,10 @@ AGENTS.local.md
 # Local prompt drafts
 prompt/
 docs/
+!raw/code/PDM/GUI/docs/
+!raw/code/PDM/GUI/docs/*.md
+!raw/code/PDM/GUI/docs/p-ado-input.png
+!raw/code/PDM/GUI/docs/p-ado-results.png
 
 # Docker-local daily-learning runtime state
 tmp/docker-daily-learning-daemon.*

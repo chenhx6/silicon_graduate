@@ -35,12 +35,14 @@ updated: 2026-11-16
 
 - `outputs/reports/` 保存面向组会、合作组或学术交流的报告成稿、PPT/PDF、预览和制作回执；属于交代性输出。原始输入仍回链 `raw/`，可复用科学结论回写 `knowledge/`，此目录不作为独立事实源。
 - `raw/proposal/` 是束流申请等 proposal 的 canonical 路径，保存初稿、修订稿、申请表、图表和必要配套材料；允许 Git 跟踪、commit/push。当前初稿不代表已提交、获批或已获实验结果。可复用的科学依据仍写入 `knowledge/` 并回链来源。
-- `raw/proposal/`、`raw/writing/gpt/` 和 `raw/zotero/wiki-auto-generated.bib` 是 `raw/` 默认不上传规则的明确例外；其余原件不因这些例外自动开放上传。
+- `raw/proposal/`、`raw/writing/gpt/` 和 `raw/zotero/wiki-auto-generated.bib` 是 `raw/` 默认不上传规则的明确例外；用户另已授权 `raw/code/PDM/{GUI,analysis}/` 中维护的源码、测试、公开示例、文档和无输出 Notebook 按 `.gitignore` 白名单发布。PDM 工作路径保持不变，计算结果、历史证据快照、原件、dist 和缓存仍留本地；其余原件不因这些例外自动开放上传。
+- 维护中的软件由 Git 管理版本；历史计算的代码依赖另存固定快照并核验当时的大小和 SHA-256。旧清单引用迁移必须保存原清单字节及原工作路径，不因正常源码升级改写历史预期哈希，也不跳过归档门。
 - `outputs/plans/` 是执行任务计划书的 canonical 路径，不保存 proposal 申请书。旧的 `docs/plans/` 已清理；不得重新创建 `docs/plans/`，新计划不得写到 `docs/`。
 - 根目录 `PLAN.md` 是用户维护的宏观方向和阶段计划，保留在根目录，不迁入 `outputs/` 或 `knowledge/`。
 - `.qmd/`、`.obsidian/`、`.agents/` 是本地索引、编辑器和 skill 配置/缓存；它们不属于知识层，也不作为长期事实源。
 - 根目录 `script/` 已废弃并移除；Git 发布辅助脚本位于 `system/scripts/git/`，其它运行脚本统一放 `system/scripts/`。`share_message/`、`testdir/` 和其它本地兼容目录不承载长期知识。
 - 现有历史文件可以保留在其原路径以便追溯；本契约禁止新增漂移。临时新文件统一写入 `tmp/`，不在根目录或 `outputs/` 外另建 scratch 目录。
+- 文献截图、OCR 和 worker 中间件应在本机 `tmp/<task>/` 下显式指定绝对输出路径或工作目录。路径检查会报告根目录 PNG、`tmp_*.txt`、`nul`、`scratch/`、`.degree-read-*` 和误作字面路径的盘符目录。
 
 ## 检索和晋升边界
 

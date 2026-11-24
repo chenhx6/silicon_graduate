@@ -2,7 +2,7 @@
 type: system-experience-index
 title: "Wiki 研学与工程经验知识库：成功经验与事故教训全书"
 created: 2026-10-30
-updated: 2026-10-30
+updated: 2026-11-23
 graph-excluded: true
 ---
 
@@ -14,6 +14,7 @@ graph-excluded: true
 
 ### 1. 常规任务经验与教训 (`routine-tasks/`)
 聚焦日常开发、Git 版本控制、工作树治理、守护进程监控及系统命令执行的工程规范与事故复盘：
+- [2026-11-23 Wiki 根目录临时产物误落与跨平台路径问题](routine-tasks/2026-11-23-wiki-root-scratch-incident.md) — 固定阅读任务的本地输出目录，检查宿主路径和命令，并在交接前核查根目录产物。
 - [[2026-10-30-closeout-without-git-commit-push-incident|2026-10-30 收束遗漏 Git 暂存与推送严重事故深度复盘]]：剖析连续两日在收束阶段“口头汇报完成却未实际执行 Git commit/push”的致命工程缺陷与强制防错 SOP。
 - [[routine-task-playbook|常规任务工程执行军规]]：显式暂存原则、原子化提交、远端祖先核验与非 force 推送闭环。
 

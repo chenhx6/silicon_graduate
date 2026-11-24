@@ -1,0 +1,91 @@
+{
+  "mode": "PDCO",
+  "label": "Synthetic PDCO: delta=0.5, sigma/I=0.3",
+  "target": {
+    "spin_initial": 5.0,
+    "spin_final": 4.0,
+    "multipoles": [
+      "M1",
+      "E2"
+    ]
+  },
+  "observations": {
+    "P": {
+      "value": -0.7607141179420551,
+      "err_minus": 0.6085712943536441,
+      "err_plus": 0.6085712943536441
+    },
+    "R_DCO": {
+      "value": 0.9258352808758255,
+      "err_minus": 0.09258352808758255,
+      "err_plus": 0.09258352808758255
+    }
+  },
+  "geometry": {
+    "select_azimuth": false,
+    "ratio_group_a": {
+      "directions": [
+        {
+          "theta_deg": 125,
+          "phi_deg": 0.0,
+          "weight": 1.0
+        }
+      ],
+      "normalization": "mean"
+    },
+    "ratio_group_b": {
+      "directions": [
+        {
+          "theta_deg": 90,
+          "phi_deg": 0.0,
+          "weight": 1.0
+        }
+      ],
+      "normalization": "mean"
+    },
+    "polarization_group": {
+      "directions": [
+        {
+          "theta_deg": 90,
+          "phi_deg": 0.0,
+          "weight": 1.0
+        }
+      ],
+      "normalization": "mean"
+    },
+    "polarization_gate_group": {
+      "directions": [
+        {
+          "theta_deg": 125,
+          "phi_deg": 0.0,
+          "weight": 1.0
+        }
+      ],
+      "normalization": "mean"
+    }
+  },
+  "grid": {
+    "xi_min_rad": -1.5690509975429023,
+    "xi_max_rad": 1.5690509975429023,
+    "xi_step_rad": 0.0017453292519943296,
+    "sigma_min": 0.15,
+    "sigma_max": 5,
+    "sigma_step": 0.025,
+    "xi_input_unit": "deg",
+    "sigma_input_unit": "sigma/I"
+  },
+  "output": {
+    "directory": "pdm-results",
+    "full_csv": false
+  },
+  "gate": {
+    "spin_initial": 4.0,
+    "spin_final": 2.0,
+    "multipoles": [
+      "E2"
+    ],
+    "delta": 0.0
+  },
+  "target_first": true,
+  "intermediates": []
+}

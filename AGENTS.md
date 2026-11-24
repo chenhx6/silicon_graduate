@@ -26,6 +26,7 @@ Git 工作树可能包含用户或上一轮留下的修改。写入前先运行 
 - 束流申请等 proposal（初稿、修订稿及配套材料）的 canonical 路径为 `raw/proposal/`，不放在 `outputs/plans/`；后者仅保存执行任务计划。`raw/proposal/` 与 `raw/writing/gpt/`、`raw/zotero/wiki-auto-generated.bib` 均为明确允许 Git 跟踪、commit/push 的例外，初稿身份不妨碍发布。
 - `knowledge/` 是可维护的知识层；`system/` 是治理和脚本层；`outputs/` 保存交代性输出。QMD 只索引 `knowledge/**/*.md`。
 - `raw/`、`PLAN.md` 默认保持不变；需要修改时必须得到用户明确指令，并逐文件核验。`raw/zotero/wiki-inbox.bib` 是本地 Zotero 输入，不属于公共 Git 跟踪范围。
+- 用户授权维护的 `raw/code/PDM/GUI/` 与 `raw/code/PDM/analysis/` 工作源码、测试、公开示例、文档及无输出 Notebook 按 `.gitignore` 白名单正常跟踪和发布；不移动 canonical 路径。计算结果、历史证据快照、原件、打包产物和缓存仍本地保存。历史计算清单绑定固定代码快照，不对持续编辑的工作源码强加历史哈希。
 - 递归删除、历史重写、force push、覆盖原始证据等不可逆操作必须单独确认。
 - 不使用桌面端 GUI 或 Computer Use 来代替终端操作。浏览器只用于检索和验证，下载应指定到仓库内路径。
 - 研究使用的论文、学位论文、外部笔记、报告、图片、网页快照、数据及参考代码须按 `system/workflows/research-archive.md` 留档；新来源登记 `raw_file`、哈希或集合清单和 `archive_required: true`。相关任务自动使用 `.agents/skills/research-archive/SKILL.md`；每日及发布 preflight 中的归档门失败时不能宣称材料已留档。私有数据的本地归档不构成公开发布授权。

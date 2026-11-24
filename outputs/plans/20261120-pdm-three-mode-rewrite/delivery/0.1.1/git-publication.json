@@ -1,0 +1,33 @@
+{
+  "commit": "c24a0b3bfe9df6735f1792101be4d78434e6e5e0",
+  "branch": "main",
+  "subject": "docs: record multipolePDM 0.1.1 validation and release",
+  "remote": "origin",
+  "refspec": "HEAD:main",
+  "status": "pushed",
+  "files": [
+    "knowledge/research-notes/pdm-three-mode-execution-contract-20261120.md",
+    "knowledge/sources/multipolepdm-20261120-v011-validation.md",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.1/acceptance.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.1/archive-final.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.1/gui-final-repair-worker.md",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.1/independent-review.md",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.1/installed-code-check.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.1/literature-final-comparison.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.1/pypi-gui-smoke-verified.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.1/pypi-import.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.1/pypi-readback.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.1/release-gui-smoke.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.1/report-worker.md",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.1/source-archive.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.1/source-verification.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/implementation-review.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/plan.md",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/tasks.json"
+  ],
+  "staged_files_after_commit": [],
+  "task_tracked_scope_clean": true,
+  "unrelated_initial_changes": "preserved and excluded",
+  "reconciled_at": "2026-11-20T13:57:18.594080+00:00",
+  "handoff": "Canonical PDM plan/tasks and knowledge contract updated; shared system/handoff.md left untouched because of known concurrent unrelated work."
+}

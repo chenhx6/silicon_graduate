@@ -3,7 +3,7 @@ type: source
 title: "multipolePDM 20261120：独立响应与合成反演验证数据"
 aliases: [multipolePDM三模式合成验证]
 created: 2026-11-20
-updated: 2026-11-20
+updated: 2026-11-24
 status: ai-draft
 review_status: unreviewed
 source_type: research-code-and-synthetic-data
@@ -12,7 +12,9 @@ title_original: "multipolePDM three-mode synthetic validation"
 year: 2026
 canonical_source: "Local multipolePDM implementation, independent 9j reference and seeded synthetic validation"
 raw_file: "raw/code/PDM/analysis/benchmarks/manifest.json"
-raw_sha256: "6190decb62eda562f6311b4bfd526733bcaed429a9c63373991e83c8bde1c44f"
+raw_sha256: "3060ac4b8dcad5475236eb17d27be33c039df2c1b65d0658d5ebf7f174984f1b"
+code_snapshot_file: "raw/code/PDM/archives/20261124-code-inputs/manifest.json"
+code_snapshot_sha256: "de12a545155276455334b05626cdab32a9dc7874c47cbab7ff7c052d9a284b7b"
 raw_storage_status: archived-local
 archive_required: true
 tags: [pdm, pdco, synthetic-validation, uncertainty, numerical-convergence]
@@ -21,6 +23,8 @@ tags: [pdm, pdco, synthetic-validation, uncertainty, numerical-convergence]
 # multipolePDM 独立响应与合成反演验证
 
 ## Bibliographic Record
+
+2026-11-24整理软件基线时，将两项代码依赖改绑到固定快照，保留原条目的大小与SHA-256。旧`run_benchmarks.py`从0.1.0源码包恢复，逐字节匹配原记录；当前0.1.1工作源码不回退。原清单完整字节及恢复来源保存在`code_snapshot_file`集合，计算输入、输出和科学结论未改。
 
 本项是经用户授权生成的本地计算证据，不是发表论文或新实验。原件集合位于 `raw/code/PDM/analysis/benchmarks/manifest.json`；代码、种子、网格、核态与几何由JSON、公开脚本及独立参考实现记录。公开代码根为 `raw/code/PDM/`。
 

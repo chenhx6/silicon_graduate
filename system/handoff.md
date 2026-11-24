@@ -1,7 +1,13 @@
 ---
 graph-excluded: true
-updated: 2026-11-21
+updated: 2026-11-24
 ---
+
+## 当前交接
+
+本轮按用户授权整理PDM软件与Git基线：维护源码走精确白名单，历史计算改绑原哈希验证的固定快照，保留原清单；不改0.1.1实现或报告PDF、不发新版本。两处正常源码升级造成的四项旧清单不一致已解决。发布以`outputs/plans/20261120-pdm-three-mode-rewrite/delivery/git-baseline-20261124.json`为准；以前批次的未推送回执只代表当时状态。
+
+馆藏阅读已按用户要求结束本会话的执行。以后由用户另开会话，从 [馆藏阅读结项](#2026-11-23--馆藏阅读结项) 读取已完成的证据和待处理队列。其余带日期的馆藏批次条目记录当时的进度。
 
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
@@ -9046,6 +9052,464 @@ The result and raw toy CSV are now in the PADO package and public-release manife
 - Gemini 主读、Codex 核定 Nomura 2018 奇质量 Ba 和 Nomura 2020 Ra/Th 的本地 arXiv v2，共 26 页。奇质量 Ba 两个路径同字节只计一次。累计 232 份、11407 个主件 PDF 页。
 - 核对 145Ba 的预测 E3 与偶偶核芯尺度，Ra/Th 的有效电荷经验缩放及其库仑激发证据链。未采纳 Gemini 对本项目 PDM 缩写的误解。限定在作者版本和原文可定位证据。
 - 228Th 的 `TH228-ENSDF-FULL` 已派发 Gemini，续接先核实际回传的 PDF2–46 覆盖与数据依赖。PDM 全仓发布门仍失败，本地累计学习可独立推进。
+
+## 2026-11-22 — 228Th 与 130Ce 的采用值及估计量
+
+- 228Th Adopted PDF1–46 已核定。保留 396.094 keV 能级的 E1、带内 [E2] 上限和缺少基态 E3 表项的边界。911.204 keV 的采用混合比、BrIcc 转换系数与逐能级光子强度独立登记；该行未提供偏振输入。
+- Nolan 1983 的 130Ce 五页刊版已核定。新定位 Fig. 3 谷填充能区与 Fig. 2 关联脊变窄的原文谨慎措辞。动力学惯量来自离散间隔或谷宽，高自旋逐级运动学惯量缺少输入。Ra 多条 E3 的带符号矩阵元比与 Nomura 绝对值图之间的比较边界已写回。
+- 累计 234 份、11458 个主件 PDF 页。先接收 Gemini 的互补任务 `NOLAN79-DOPPLER-AUDIT`（PDF1–46）和 `NOLAN79-TIMING-INDIRECT-AUDIT`（PDF47–88），再核页码和具体方法条件。PDM 两份清单的四项错配再次定向复现，本批留本地。馆藏目标 active。
+- 共享 Git 索引锁持续存在。第二批学习快照用独立索引保存到本地分支 `research/archive-learning-20261122`，提交主题 `research: verify thorium adopted spectroscopy and cerium valley analysis`。共享索引和主分支留供现有会话继续使用。精确提交指针见本地回执。
+
+## 2026-11-22 — Nolan 1979 寿命测量综述复核
+
+- 两个 Gemini 单元覆盖馆藏刊版 88 个物理页。嵌入的 Fig. 8(a) 谱图是无印刷页码的插页，此后物理 PDF 页码比印刷页码大 2。Codex 核关键公式、给定馈入条件及原图。
+- PDF81 Table 7 比较高速 DSAM 与 RDM。真正讨论共享阻止本领的是同页 Fig. 56 的同一份数据 DSAM 线形与库仑激发产额比较。两者已按原页区分，未将电子定时斜率法的适用条件写成统一阈值。
+- 累计 235 份、11546 个主件 PDF 页，含 18 份保留历史有限覆盖的记录。本段新增一份、88 页。Gemini 当前任务为 `NOBS17-102Y-COVERAGE-AUDIT` 和 `MULLINS93-GD141-ALIGNMENT-AUDIT`，馆藏目标保持 active。
+
+## 2026-11-22 — 102Y 学位论文的来源依赖复核
+
+- 核定 Chantal Rebecca Nobs 2017 年博士论文的 138 页馆藏副本及既有全篇阅读记录。本轮写入源审计，复用既有科学笔记。Table 4.1/6.1 的约 152 keV 归一属于 102Zr，Table 6.3 的 244 keV 属于 102Y。Fig. 8.7 说明文字对 Table 4.1 的引用与表内容不符，已有来源页保留此边界。两种离子选择来自同一 RIKEN 实验，关联于同一条衰变链。
+- 累计 236 份和 11684 页。Mullins 141Gd 核验仍在进行。
+
+## 2026-11-22 — 141Gd 顺排证据与模型输入
+
+- 核定 Mullins 1993 五页刊版。Fig. 2(b) 以原图核定 Harris 参数为 9.0 和 48.0。按原文保留 Band 1 的解释范围，分开记录实验顺排和 CSM 对三轴/轴对称输入的敏感性。
+- 累计 237 份、11689 个主件 PDF 页；其中 18 份有明确的历史有限阅读边界。Gemini 已发出 `MUSANGU21-MO104106-COVERAGE` 与 `OLB02-CHIRAL-CRITICAL-FREQUENCY`，两任务均限于馆藏版本。最新学习状态在本地 `research/archive-learning-20261122` 分支，提交主题 `research: audit lifetime methods and alignment evidence`。全库目标继续 active。
+
+## 2026-11-22 — Mo 手征候选和临界频率早期稿
+
+- 核定 Musangu 2021 的 16 页 CHORUS 接受稿和 Olbratowski 2002 的 4 页 arXiv v1。按原页更正 Gemini 回传的 Mo 计算形变输入、106Mo 强度上限和早期稿的 SkM* 参数；保留后期 PRL 版本边界。
+- 馆藏累计 239 份、11709 个主件 PDF 页。其中 221 份有核定的科学阅读覆盖，18 份沿用有限覆盖记录。继续接收 `ORLANDI18-SN131-HOLE-AUDIT` 和 `PAI12-TL194-ARXIV-COVERAGE`。学习分支为 `research/archive-learning-20261122`，本批提交主题 `research: verify molybdenum chiral evidence and critical frequency scope`。原始进度、页数口径及精确提交指针见任务目录。
+
+## 2026-11-22 — 131Sn 转移与 194Tl 不对称度
+
+- 确认 Orlandi 2018 的 7 页 Surrey 馆藏版与 Pai 2012 的 12 页 arXiv v2。131Sn 未解低能双峰的强度取决于拟合假设。194Tl Table I 的 IPDCO 是积分不对称度；a(E) 用于几何校正，物理偏振度换算另需灵敏度。761.1 keV 的表列 DCO 和缺失的 IPDCO 已回源核定。
+- 本轮新增 15 份原件/既有阅读范围核定和 384 个主件 PDF 页。累计 241 份、11728 页，含有限覆盖记录 18 份。继续 `PAI14-BI198-CROSSING-AUDIT` 和 `PAI16-CR50-M1-RESPONSE-AUDIT`，目标 active。共享索引锁继续保留，学习分支 `research/archive-learning-20261122`，最新提交主题 `research: verify tin transfer and thallium polarization observables`。发布需待全仓 PDM 归档门解决。
+
+## 2026-11-22 — 198Bi 到 50Cr 的 M1 证据范围
+
+- 核定 Pai 2014 和 2016 的作者版本，共 24 页。198Bi 的两个比较点由分支强度、零混合假设和 TAC 值计算。50Cr Table III 的 R 是轨道和自旋强度比，干涉项由模型分别给出。141Gd Band 1 和 h11/2 异能态采用不同的模型形变，已订正旧写法。
+- 截至本批累计 243 份、11752 主件 PDF 页，其中 18 份为历史有限覆盖。续接两项 Gemini 任务 `MUTSCHLER17-SI34-ORIGINAL` 和 `PALFFY06-THESIS-COVERAGE-AUDIT`。本批独立索引提交目标 `research/archive-learning-20261122`，主题 `research: verify magnetic dipole observables and model decompositions`。PDM 清单不一致仍阻塞推送。
+
+## 2026-11-22 — 34Si 敲出推断与电子俘获理论原件
+
+- 核定 34Si 的 6 页作者稿和 Gagyi-Pálffy 的 108 页博士论文阅读范围。34Si 已有 source 保留从敲出截面经反应模型到轨道占据的推断，再到计算密度的边界。博士论文 Table 3.1 的共振能、速率、宽度和积分强度已回源复核，并区分模型可观测性估计。
+- 累计 245 份、11866 主件 PDF 页。下一批已经派出 `PALIT00-RH99-POLARIMETER-AUDIT` 和 `PAUL91-N75-TRIAXIAL-AUDIT`。本地学习分支 `research/archive-learning-20261122`，提交主题 `research: verify knockout evidence and doctoral theory coverage`。继续保留并行 PDM、Hamilton 与 PDCO 改动及共享索引锁。
+
+## 2026-11-22 — 99Rh 偏振校准与 N=75 角量溯源
+
+- 核定 Palit 2000 的 8 页刊版及 Paul 1991 含封面的 14 页刊版。Palit 两份同字节副本只计一份，校准继续区分几何不对称和灵敏度。Paul 的 133Ce 单谱衰减和 137Gd 符合角比按不同采集登记。两篇的反应、门和角度均回到原文核定。
+- 累计 247 份、11888 主件 PDF 页，含历史有限覆盖 18 份。本轮共增加 21 份、544 页。接续 `PANDIT12-THERMAL-WIDTH-AUDIT` 与 `PENG22-RH-CHIRAL-ROTATION-AUDIT`。分支 `research/archive-learning-20261122`，提交主题 `research: verify polarimetry calibration and separate angular data sets`。
+
+## 2026-11-22 — 热宽的实验归属与 Rh 手征计算范围
+
+- Pandit 2012 刊版显示本篇新增实验是 201Tl 与 63Cu，119Sb 点来自前作。原 Wiki 和本轮 Gemini 回传均有采集归属错误。已同步更正来源页、研究笔记及入口，保留谱拟合宽度与经验 CTFM 阈值的边界。Peng–Chen 2022 已核定刊版，102Rh 仅在收敛范围内保持平面解。
+- 累计 249 份、11901 个主件 PDF 页，新增共 23 份、557 页。其中 18 份沿用有限阅读范围。下一批 `PETRACHE15-ND-SCOPE-AUDIT`、`PETRACHE20-ND137-SPECTROSCOPY` 已派发 Gemini。目标继续 active。学习提交在 `research/archive-learning-20261122`，主题 `research: correct thermal-width provenance and audit rhodium cranking`。
+
+## 2026-11-22 — Nd 惯量系统学与 137Nd 的 Rac
+
+- 核定 Petrache 2015 的 4 页刊版及 2020 的 10 页刊版。2015 惯量分组保留原作者的频率和排点条件。2020 的 Rac 经原页复核为两组效率修正强度之比，采用相同的全角轴门；其 136Nd 伸展偶极/四极校准约为 0.8/1.4。弱带证据与模型输入分开。
+- 累计 251 份、11915 个主件 PDF 页。本轮 25 份、571 页，18 份历史记录继续明确有限覆盖。下一批 `PFUTZNER12-REVIEW-COVERAGE` 与 `PILLET04-PRC041301-ARCHIVE` 已派发。学习分支 `research/archive-learning-20261122`，提交主题 `research: audit neodymium inertia selections and angular correlation`。当前目标保持 active。
+
+## 2026-11-22 — 核稳定边界综述与 90Zr/208Pb 共振原件
+
+- 核定 Pfützner 2012 的 53 页刊版及 Piekarewicz 2004 的 5 页刊版。前者印刷 567–619 页。后者的原对象为 90Zr 和 208Pb；旧 Wiki 把富中子 Sn 软单极和 K_tau 结论归在该篇，已同步修正来源页、研究笔记和索引。
+- 累计 253 份、11973 页，本轮增加 27 份、629 页。续接 `PODSVIROVA04-EU141-LIFETIME`、`POVES20-NUCLEAR-SHAPE-LIMITS`。学习分支 `research/archive-learning-20261122`，本批提交主题 `research: verify stability review pagination and correct resonance provenance`。
+
+## 2026-11-22 — 141Eu 寿命与四极形变不变量
+
+- 核定 Podsvirova 2004 及 Poves 2020 各六页。141Eu 分开登记双门寿命拟合和同核不同实验谱学。Poves 的 68Ni 形变区间及 76Ge 区间映射回原页核定，区间全宽与标准差各自保留原义。
+- 累计 255 份、11985 页，本轮增加 29 份、641 页。接续 `PROCHNIAK11-CPHC-SELECTION`、`PROTOPAPAS97-KKDF-STRONG-COUPLING` 两任务。学习分支为 `research/archive-learning-20261122`，本批提交主题 `research: verify gated europium lifetimes and shape-invariant scope`。
+
+## 2026-11-22 — CPHC 选择规则与 KKDF 近似
+
+- 核定 CPHC 选择规则 5 页与 KKDF 强耦合近似 15 页。后者以相同拟合参数比较两种求解，157Tb 没有足量 B(E2) 做同类检验。多重避免交叉属于作者指出的适用条件。
+- 累计 257 份、12005 页，其中 18 份为有限覆盖。本轮增加 31 份、661 页。接续 `QIANG19-BA-ZR-THESIS-READING-AUDIT` 与 `RADFORD05-SN130-COULEX-TRANSFER`。学习分支 `research/archive-learning-20261122`，本批提交主题 `research: verify core-particle conditions and electromagnetic selection rules`。
+
+## 2026-11-22 — 强赟华博士论文与 Radford 核谱原件
+
+- 核定 92 页论文原件及既有覆盖。PDF49–50 的四角拟合明确固定 σ/J=0.3，并给出 Eq. (4.7) 的效率修正比。区分该拟合与偏振参与的联合分析。实际 87Zr 寿命在 PDF80/印刷71，130Ba 异能态在 PDF64/印刷55。
+- 核定 Radford 2005 五页刊版，新增核对 135Te 转移的归一和 1180 keV 的 DWBA 组态替代条件。累计 259 份、12102 页，本轮 33 份、758 页。
+- 后续两任务为 `RAGNARSSON78-SHELL-REVIEW-AUDIT`、`RAGNARSSON88-ROTOR-MOMENTS-AUDIT`。分支 `research/archive-learning-20261122`，本批提交主题 `research: verify thesis alignment assumption and transfer evidence`。原始馆藏目标保持 active。
+
+## 2026-11-22 — 壳结构综述与粒子转子矩
+
+- Ragnarsson 1978 的 87 页与 Ragnarsson–Semmes 1988 的 18 页刊版均已核定。新增定位配对对壳修正和球形高能脊的模型解释，保留伸缩坐标、Coriolis 衰减和模型磁矩的适用条件。
+- 累计 261 份、12207 个主件 PDF 页，本轮 35 份、863 页。继续 `RATH14-SM143-ASYMMETRIC-SHEARS` 和 `RATH14-PD104-ANTIMAGNETIC-SCOPE`。学习分支 `research/archive-learning-20261122`，本批提交主题 `research: audit shell-correction assumptions and particle rotor references`。
+
+## 2026-11-22 — 143Sm 和 104Pd 的剪刀机制证据
+
+- 核定两份馆藏作者稿，合计17页。143Sm 原表维持已核强度及缺列，不接纳 Gemini 误配的寿命和跃迁。104Pd 最高态 0.66(3) ps 在全侧馈假设下为有效寿命，新增原文定位，保留分立 B(E2) 和惯量比。
+- 累计 263 份、12224 页，本轮 37 份、880 页。其中 18 份保留历史有限覆盖。活动阅读 `RATHER14-AG106-DOUBLET-EVIDENCE` 和 `REED16-RE-TRIAXIAL-SCOPE`。学习分支 `research/archive-learning-20261122`，本批提交主题 `research: verify effective lifetimes and shears-band evidence`。
+
+## 2026-11-22 — 106Ag 双带和富中子 Re 异能态
+
+- 核定 106Ag 12 页作者稿与 Re 6 页刊版。106Ag 保留原文字面与 Table I 的自旋错位异文，模型解释不超出证据。Re 三项时间常数按原文记为平均寿命。
+- 累计 265 份、12242 页，本轮 39 份、898 页。18 份仍为历史有限阅读档，247 份属已核定科学覆盖。后续 `REES11-ER156-GAMMA-SOFT`、`REGIS15-GCD-TIMING-AUDIT` 由 Gemini 主读。学习分支 `research/archive-learning-20261122`，本批提交主题 `research: verify silver doublet evidence and rhenium lifetime convention`。全仓 PDM 清单问题继续隔离。
+
+## 2026-11-22 — 156Er 非晕态与 GCD 快定时
+
+- 核定 Rees 7 页和 Régis 2015 6 页刊版。保留 156Er 角量实测与 γ 软比较边界，以及 GCD 对 prompt calibration、配对和本底约定的依赖。修正 GCD 旧归档占位描述。
+- 累计 267 份、12255 页，本轮 41 份、911 页。继续 `REGIS11-THESIS-FAST-TIMING-ARCHIVE` 和 `RILEY01-A135-GLOBAL-DSAM`。学习分支 `research/archive-learning-20261122`，本批提交主题 `research: verify erbium scope and fast timing calibration provenance`。
+
+## 2026-11-22 — Régis 学位论文和 A≈135 的带平均 Qt
+
+- 核定 Régis 博士论文既有 111 页覆盖与 Riley 13 页刊版。Régis Table 5.1 保留 176W 三项寿命与 8+ 上限。Riley 保留同带门选重算、侧馈替代及带平均量的共同系统误差。
+- 累计 269 份、12379 页，本轮 43 份、1035 页。接续 `RILEY21-UC-GRETINA-RESPONSE`、`ROBLEDO10-BCP-OCTUPOLE-COVERAGE`。本地 `research/archive-learning-20261122`，本批主题 `research: verify timing thesis and band-averaged quadrupole moments`。
+
+## 2026-11-22 — GRETINA 标定与 BCP 八极动力学
+
+- 核定 UCGretina 26 页作者版及 Robledo 14 页作者版。前者保留有效层标定与外围材料影响及 53/58-keV 异文，后者区分 Ra 极小、Ba 泛函差别和一维集体质量近似。
+- 累计 271 份、12419 个主件 PDF 页，本轮 45 份、1075 页；18 份为既有有限阅读范围。续接 `RG2012-SMGD-OCTUPOLE-MAPPING`、`ROHO88-TRIAXIAL-M1-SCOPE`。学习分支 `research/archive-learning-20261122`，本批主题 `research: verify detector response and octupole model comparisons`。
+
+## 2026-11-22 — Sm/Gd 关联能与 1+ 态间隔来源纠错
+
+- 核定 31 页 Sm/Gd 作者版与 6 页 Rohoziński 1988 刊版。Sm/Gd 的一维关联能和在所算范围内近似复现二维值；旧剪刀资料混入了别的模型公式，已按真正的中子–质子形变模型和论断范围订正。
+- 累计 273 份、12456 主件 PDF 页，本轮 47 份、1112 页。下一批 Gemini 任务 `ROHO11-CPHC-FULL-CHIRALITY`、`ROSIAK18-SN132-E2E3-AUDIT` 已发。学习分支 `research/archive-learning-20261122`，本批主题 `research: distinguish octupole collectivity and correct scissors model provenance`。
+
+## 2026-11-22 — CPHC 长文与 132Sn 库仑激发
+
+- 核定两份共 22 页。CPHC 同一算符谱系与实验保持区分。132Sn 的 E1 分支输入来自所引 β 衰变资料；独立记录 4041.2 和 4351.9 keV 符合峰、206Pb 靶归一及 GOSIA2 拟合值。
+- 累计 275 份、12478 主件 PDF 页，新增共 49 份、1134 页。接续 `ROY11-CD110-AMR-AUDIT` 与 `SATULA98-ODD-EVEN-STAGGERING`。分支 `research/archive-learning-20261122`，本批提交主题 `research: verify electromagnetic evidence and symmetry lineage`。学习目标仍 active。
+
+## 2026-11-22 — Cd 顶层馈入与质量交错
+
+- 核定 Roy 2011 五页和 Satuła 1998 四页。110Cd 1443-keV 未解线形给 24+ 的有效馈入时间，不能取为两个分立态的寿命；质量交错三点与四点差分仍沿原文结合能符号和无配对对照条件。
+- 累计 277 份、12487 页，本轮 51 份、1143 页。下一批 `SAASTAMOINEN11-THESIS-EVIDENCE`、`SCHLITT94-GE-POLARIMETER` 已派发。分支 `research/archive-learning-20261122`，提交主题 `research: audit cadmium effective feeding and mass stagger scope`。
+
+## 2026-11-22 — 学位论文阅读缺口与分段 Ge 偏振仪
+
+- Saastamoinen 112 页原件此前只做过定向阅读，补用两个不重叠单元核定全文范围。保留测质、谱线响应和外引分支归一各自的证据。Schlitt 11 页原件核对几何归一、物理偏振灵敏度与阈值异文。
+- 累计 279 份、12610 页，本轮 53 份、1266 页。其中 18 份保留既有有限覆盖。下一批 `SALLASKA10-11-VERSION-LINEAGE` 与 `SCHIRMER84-DOUBLE-GAMMA`，目标 active。分支 `research/archive-learning-20261122`，本批提交主题 `research: close dissertation scope and verify sectored polarimetry calibration`。
+
+## 2026-11-22 — 短报/详报谱系和双光子观测
+
+- 核定 Sallaska 2010/2011 两份作者版与 Schirmer 1984 刊版，合计 28 页。Sallaska 两作品有各自阅读范围，但同一组共振地面实验结果同源。Schirmer 的方向关联与偏振不对称分别约束同一实验的候选幅度解。
+- 累计 282 份、12638 页，本轮 56 份、1294 页。继续 `SCHUERMANN08-O15-DSAM` 和 `SCHWENGNER13-LOW-ENERGY-M1`。本地分支 `research/archive-learning-20261122`，提交主题 `research: verify paired publication lineage and two-photon evidence`。
+
+## 2026-11-22 — 15O 寿命上限与壳模型低能 M1
+
+- 核定 15O DSAM 作者版和 Schwengner 的五页刊版。前者保留固定旧中心值的比较与实际联合测量误差之别。后者订正旧条目的核素、模型、既有实验比较与 E1 补充项，并修订相关研究笔记。
+- 累计 284 份、12650 页，本轮 58 份、1306 页。继续 `SENSHARMA-PR135-CHIRAL-WOBBLING-ARCHIVE` 和 `SENYIGIT14-AGATA-NEUTRON-REJECTION`，目标保持 active。学习分支 `research/archive-learning-20261122`，提交主题 `research: verify attenuation limits and correct M1 strength provenance`。
+
+## 2026-11-22 — 135Pr 角分布与 AGATA 定义
+
+- 核定两份作者版共 32 页。135Pr 的三条新弱连接混合比及旧跃迁固定 σ/I 的回顾按 Table I 和 Fig. 12 各自定位。AGATA 中子抑制以原表 OR 条件和对应的真 γ 计数损失记录。
+- 累计 286 份、12682 页，本轮 60 份、1338 页，含 18 份历史有限覆盖记录。接续 `SHEIKH02-PARTICLE-NUMBER-PROJECTION`、`SIMPSON83-SECTORED-GE-POLARIMETRY`；学习分支 `research/archive-learning-20261122`，主题 `research: verify praseodymium angular evidence and tracking cuts`。
+
+## 2026-11-22 — 粒子数投影与 Ge(Li) 的实测 P
+
+- 核定 Sheikh 等 24 页作者版与 Simpson 等七页刊版。具体粒子数投影基准与现实空间计算估计分层；Simpson Table 3 的 158Er P(90°) 和仪器灵敏度分别核定。
+- 累计 288 份、12713 页，本轮 62 份、1369 页，18 份仍有有限阅读边界。接续 `SIMONS05-CS130-CHIRAL-EVIDENCE` 与 `SMITH19-GRIFFIN-ANGULAR-CONTRACT`。本地学习分支 `research/archive-learning-20261122`，提交主题 `research: verify projection benchmark scope and calibrated polarization`。并行会话改动和索引锁保留。
+
+## 2026-11-22 — 130Cs 的成对 P/DCO 与 GRIFFIN 角响应
+
+- 核定13页 130Cs 刊版和28页 GRIFFIN 作者版。130Cs 存在同一跃迁的物理偏振度 P 和对应门 DCO，保留外引灵敏度。GRIFFIN 的事件混合为共用归一，第四法为能量响应参数化。
+- 累计 290 份、12754 页，本轮 64 份、1410 页。下一批 `SMITH98-PR127131-THESIS-SCOPE` 与 `SMITH03-HF178-GAMMA-ARCHIVE`。本地分支 `research/archive-learning-20261122`，本批提交主题 `research: verify calibrated cesium polarization and angular response`。
+
+## 2026-11-22 — Pr 博士论文部分核验与 Hf 自发衰变
+
+- 核定 Hf 作者稿 7 页。Pr 论文确认馆藏身份并更正四条超形变候选带属 131Pr，原 Pr 来源页与章节原文已对账。Pr 全文覆盖尚待复核，未增加全读计数。
+- 累计 291 份、12761 页，本轮 65 份、1417 页。Gemini 正处理 `SMITH98-PR-TABLES-075-107`、`SMITH98-PR-TABLES-108-139`。本地分支 `research/archive-learning-20261122`，本批提交主题 `research: correct praseodymium band identity and audit decay evidence`。
+
+## 2026-11-22 — Pr 表格中段与 AGATA 位置分辨率
+
+- Pr 论文完成 PDF75–139（印刷 pp.58–122）的表图范围。原文特别保留 131Pr SD-2A 在 130Pr 污染下的归属限制。待处理互补的 PDF1–74 与 PDF140–234 后再计全件。
+- 核定 Söderström 2008 共 10 页，保留设计位置分辨率、引述 Cologne 测值及模拟估计的区别。累计 292 份、12771 页。下一两任务 `SMITH98-PR-FIRST-PHYSICAL-BLOCK` 和 `SMITH98-PR-LAST-PHYSICAL-BLOCK`。本地分支 `research/archive-learning-20261122`，提交主题 `research: verify praseodymium table coverage and AGATA design scope`。
+
+## 2026-11-22 — Smith 1998 读完，续 Ba 与 Au
+
+- Smith 原件按四段核定科学阅读覆盖，共 234 页。`130Pr` 的 `Q0=6.1(4) eb` 来自 Ref. [42]，带 7 的约 `13.5 ħ` 属 CSM 比较。低自旋 signature inversion 更正为奇奇核 `128Pr` 与 `130Pr` 的候选组态带。`131Pr` SD-2A 仍保留 `130Pr` 污染及缺少已解析退激连接的限制。
+- 累计 293 份、13005 主件 PDF 页，其中 18 份沿用有限覆盖。已派发 `BA137-COMPETITIVE-DECAY-ORIGINAL` 和 `SONG06-AU-THESIS-COVERAGE`。本地学习分支 `research/archive-learning-20261122`，提交主题 `research: complete Smith thesis and separate cited quadrupole measurements`。
+
+## 2026-11-22 — Ba 双光子、宋立涛 Au 论文与 Stephens 综述
+
+- 核定三份、118 页。`137mBa` 双光子微分分支和二阶电磁极化率与单 γ 跃迁调研分开。宋立涛论文补足 `179Au` 角数据限制与 `183Au` DCO 实测几何、书目同源关系。Stephens 1975 的 Fig. 1 核素修正为 `183W`，并注明顺排近似的适用条件。
+- 全仓归档检查发现 AME2020 `rct1` 缺少门所读字段，现已将既有哈希按原件复核写入来源页。两份并行 PDM 清单仍有 4 项错配，学习分支保持本地。
+- 累计 296 份、13123 主件 PDF 页，包含 18 份历史有限覆盖。已派发 `STRECK18-PR135-COLLECTIVE-ROTOR`、`STUCHBERY26-CR54-DSAM-SCOPE`。本地分支 `research/archive-learning-20261122`，本批提交主题 `research: verify two-photon, gold thesis, and rotation-alignment coverage`。
+- 补核 Smith 印刷 p.205 的换靶记录。报道数据来自 `40Ca+94Mo`；最初规划的 `92Mo` 靶受污染，使用了 92% 富集 `94Mo`。同时解除无关的 Ru 裂变实验关联。
+
+## 2026-11-22 — Pr 理论与 Cr 停止功率重析
+
+- 核定 Streck 2018 的 `135Pr` 粒子–转子理论 10 页。实验能级由 Matta 2015 引入，文中的 `P` 是概率分布。核定 Stuchbery 2026 `54Cr` 的 arXiv v2 共 11 页，保留 Ta/Mo 重析与 1980 年原实验的同源关系。
+- 累计 298 份、13144 主件 PDF 页，含 18 份历史有限覆盖。续 `NDS-SPIN-PARITY-HISTORICAL-EDITIONS` 与 `SUN23-DSAM-BAYESIAN-SCOPE`。学习分支 `research/archive-learning-20261122`，提交主题 `research: verify 135Pr rotor and 54Cr stopping-power provenance`。
+
+## 2026-11-22 — NDS 旧版判据、31S DSAM 和 Rh 寿命
+
+- 1970 NDS 扫描四页核定。移除误归于它的现代 DCO 判据。2010 与 2013 存档现代条款相同，2010 副本不另计。现代 19–21 条给出典型 `σ/J=0.3`，适用于角分布/DCO 指认基准。
+- 核定 Sun `31S` 的 arXiv v2 十页及 Suzuki `103,104Rh` 五页。后者实测寿命仅覆盖每核一个候选带成员。累计 301 份、13163 主件 PDF 页，含 18 份历史有限覆盖。续 `RIBLL-INSTRUMENT-PUBLISHER` 与 `SUN-16C-KNOCKOUT-THESIS-IDENTITY`。本地分支 `research/archive-learning-20261122`，提交主题 `research: reconcile assignment guide editions and lifetime evidence`。
+
+## 2026-11-22 — RIBLL 原件与 16C 博士论文阅读范围
+
+- 核定 RIBLL 八页刊版。原页确认 300 μm 硅片，`16O` 的 TOF 质量分辨与 `17F` 特定调束的 47% 占比分开登记。
+- 孙亚洲学位论文已核身份及 PDF1–29。余下 PDF30–77、PDF78–116 并行阅读，待原表复核后计入论文。累计 302 份、13171 主件 PDF 页，含 18 份历史有限覆盖。学习分支 `research/archive-learning-20261122`，提交主题 `research: verify RIBLL commissioning and gate thesis coverage`。
+
+## 2026-11-22 — 核定孙亚洲 16C 学位论文
+
+- 核定原件五段共 116 页。束流鉴别保留 RK 与匀强场的峰位、分辨率及实际采用方法。表 4.4 的 15.9(2.1) mb 为包容余核截面。表 4.6 的 400 MeV/u 修正列和两个 MOMDIS 分支分别追溯。
+- 累计 303 份、13287 主件 PDF 页，含 18 份历史有限覆盖。续 `SUZUKI21-N28-SHELL-TRIAXIALITY`、`TAWSEEF26-MR-AMR-VERSION-AND-SCOPE`。本地分支 `research/archive-learning-20261122`，主题 `research: verify inclusive knockout measurement and trajectory assumptions`。
+
+## 2026-11-22 — N=28 壳演化、Pd/Cd、105Ag 和 134Pr
+
+- 核定四份、49 页。`N=28` 模型保留不同形变下的占据变化及不完整实测比较。Tawseef 两份 arXiv v1 同字节，`109Cd` 激发带 Fig. 17 使用受限组态。`105Ag` 早期偏振与本文 DCO 分开登记，`134Pr` 快报保留 13 个首测寿命和一项复测，偏振仅用于定性多极性核查。
+- 累计 307 份、13336 主件 PDF 页，其中 18 份有历史有限覆盖。已派发 `TSUZUKI21-SICDTE-POLARIZATION-SCOPE` 与 `PYGMY-QUADRUPOLE-2011-SCOPE`。学习分支 `research/archive-learning-20261122`，提交主题 `research: verify shell-structure comparisons and chiral spectroscopy provenance`。
+
+## 2026-11-22 — 锡链四极响应与 Si/CdTe 偏振
+
+- 核定两份共 18 页。Tsoneva–Lenske 原件为 `104–134Sn` 理论，旧镍链强度与线宽来自参数化练习，已订正来源页、研究笔记和索引。Tsuzuki 核定 Kr X 射线原件，独立 Ba 校准与同一 Kr 采集上的两种推断分别登记。
+- 累计 309 份、13354 主件 PDF 页，其中 18 份历史有限覆盖。已派发 `TULI01-ENSDF-FORMAT-SCOPE` 与 `TUNL12C-2017-TABLES-EXCERPT`。本地分支 `research/archive-learning-20261122`，主题 `research: correct quadrupole response attribution and verify polarimetry scope`。
+
+## 2026-11-22 — TUNL 12C 独立表与 ENSDF 手册
+
+- 核定 TUNL 官方 Table 12.13 六页。表头激发能与不确定度使用 MeV、keV，能级宽度按原行单位记录。另表 12.14 与修订稿保留各自谱系。累计 310 份、13360 主件 PDF 页，含 18 份有限覆盖。
+- Tuli 2001 年手册的 112 页身份已核，待合并主格式与附录读本。学习分支 `research/archive-learning-20261122`，主题 `research: verify TUNL level widths and queue ENSDF manual`。
+
+## 2026-11-22 — ENSDF 2001 手册全文
+
+- Tuli 112 页原件四段核定。保留多极性括注、显式混合比符号、正负向不对称误差及 Krane–Steffen 的评价约定。旧原文约定及采用值沿谱系另查。累计 311 份、13472 主件 PDF 页，含 18 份有限覆盖。
+- 已派发三组短件 `EFG87-VONDERWERTH95-ORIGINALS`、`WALKER01-WALZ15-ORIGINALS`、`VAMOS16-VARNER05-ORIGINALS`。学习分支 `research/archive-learning-20261122`，主题 `research: complete ENSDF format manual scope and preserve sign semantics`。
+
+## 2026-11-22 — 六份仪器、核谱和异能态文献
+
+- 核定 92 页。VAMOS++ 实际为作者稿，保留同一 1222.9-keV 峰的校正宽度。Varner 两个锡核的强度标记为初步结果。Vianden 与 Walker 属汇编或综述。POLALI/MINIPOLA 保留响应和效率分层，Walz 保留两个开角和独立采集。
+- 累计 317 份、13564 主件 PDF 页，其中 18 份有限覆盖。已派发 `WANG06-CS126-ORIGINAL`、`WANG10-I128-LINE-IDENTITY`、`WANG13-AG104-ORIGINAL`。本地分支 `research/archive-learning-20261122`，主题 `research: verify beam diagnostics, polarimeter response, and original decay evidence`。
+
+## 2026-11-22 — 三份高自旋谱学原件
+
+- 核定 `126Cs` 作者版 16 页和 `128I`、`104Ag` 刊版 4、9 页。三者角比及采集谱系逐文登记，保留定量线偏振和混合比字段缺口。累计 320 份、13593 主件 PDF 页，其中 18 份历史有限覆盖。
+- 续王思成 Au/Pt 和王志刚 Ag/Zr 学位论文的首段，以及 `109Ag` TAC。学习分支 `research/archive-learning-20261122`，主题 `research: track angular-ratio evidence and high-spin acquisition lineage`。
+
+## 2026-11-22 — 109Ag 配对与 Au/Pt、Ag/Zr 学位论文
+
+- 核定 `109Ag` 九页作者版，配对计算在回弯区的未收敛范围已记。两篇博士论文核了身份和前置部分，后续分段实读已派发。累计 321 份、13602 主件 PDF 页，含 18 份有限覆盖。
+- 续 `WANG13-AUPT-THESIS-PDF57-105`、`WANG14-AGZR-THESIS-PDF17-30-39-45-78-86`、`WANG14-AGZR-THESIS-PDF46-77`。本地分支 `research/archive-learning-20261122`，主题 `research: verify 109Ag pairing scope and assign thesis page ranges`。
+
+## 2026-11-22 — Au/Pt 与 Ag/Zr 两篇学位论文全文
+
+- 核定王思成 105 页和王志刚 89 页。Au/Pt 保存原 ADO 角组与分章表，Ag 章与 2013 刊版同次采集，Zr 保留独立反应和较大的 ADO 与禁戒偶极的解释边界。累计 323 份、13796 主件 PDF 页，含 18 份有限覆盖。
+- 后续三任务 `WANG20-MULTIPLE-CHIRAL-REVIEW`、`WANG23-CHIRAL-EXPERIMENTS-REVIEW`、`WANG-ENHONG-THESIS-IDENTITY` 已派发。学习分支 `research/archive-learning-20261122`，主题 `research: verify gold platinum and silver zirconium thesis coverage`。
+
+## 2026-11-22 — 手征当期综述与裂变学位论文
+
+- 核定两份综述共 26 页。候选分类与寿命证据按所引原实验追溯。Enhong Wang 学位论文正核后续三个不重叠页段，首段暂以定位记录。
+- 累计 325 份、13822 主件 PDF 页，其中 18 份有限覆盖。续 `WANG15-FISSION-THESIS-PDF65-100`、`WANG15-FISSION-THESIS-PDF101-143`、`WANG15-FISSION-THESIS-PDF36-64`。学习分支 `research/archive-learning-20261122`，主题 `research: verify chiral review scopes and partition fission thesis`。
+
+## 2026-11-22 — Enhong Wang 裂变学位论文
+
+- 核定 Vanderbilt 2015 原件 143 页，保留 A/Z 门与多重符合的证据角色、近重线分辨和五处模型或谱系条件。累计 326 份、13965 主件 PDF 页，18 份为既有有限覆盖。
+- 后续王海霞、王建国、王华磊三篇学位论文已开始分段。学习分支 `research/archive-learning-20261122`，主题 `research: verify fission thesis coverage and isotope-gating evidence`。
+
+## 2026-11-22 — 王海霞学位论文
+
+- 核定全部 105 页。`173W` 524 keV 双线、带交叉与旋称相位交叉分开登记，`128I` 的 ADO 和多线门谱回链 2010 年同源刊版。累计 327 份、14070 页，其中 18 份为历史有限覆盖。
+- 学习分支 `research/archive-learning-20261122`，主题 `research: verify tungsten iodine thesis coverage and spectroscopy lineage`。王华磊、王建国和王守宇的论文继续按物理页推进。
+
+## 2026-11-22 — 王华磊学位论文
+
+- 核定 161 页。记录 `170Re` 188.9 keV 同行的 DCO 与 ADO，以及 `176Ir` 衰变时间谱中 607.2 keV 的混合馈入限制。Clover 用途按实际实验记录。累计 328 份、14231 页。
+- 学习分支 `research/archive-learning-20261122`，主题 `research: verify rhenium coincidence and iridium decay thesis coverage`。王建国后续结果、王守宇论文身份和 Woodside 作者报告在核验。
+
+## 2026-11-22 — 王建国学位论文
+
+- 核定 119 页。区分 `103,104Nb` 裂变门谱和 `140Pm` 在束 DCO。Pm 表中的 M1/E2 指认、实测 DCO 与各行未列的偏振和定量混合比分别记录。累计 329 份、14350 页。
+- 学习分支 `research/archive-learning-20261122`，主题 `research: verify niobium and promethium thesis coverage and angular evidence`。
+
+## 2026-11-22 — Woodside 58Fe 及王守宇论文续读
+
+- 核定 Woodside 的 15 页作者稿，新库仑激发计数、历史 DSAM 移位与进入新拟合的寿命条件分别回链。累计 330 份、14365 页。
+- 王守宇 PDF53–120 已回传；PDF121–157 与 PDF158–220 分段继续。本地分支 `research/archive-learning-20261122`，主题 `research: verify iron Coulomb excitation and reused attenuation inputs`。
+
+## 2026-11-22 — 王守宇博士论文及配对研究
+
+- 核定 235 页。王守宇的 `126Cs/123I` 同采集，分支强度推导中 δ²=0 的近似按原公式保留。Wu 的惯量图保留外引实验与配对模型输出。累计 332 份、14600 页，其中 18 份有限覆盖。
+- 学习分支 `research/archive-learning-20261122`，主题 `research: verify cesium thesis lineage and pairing evidence scope`。续手征数据表、闫铎学位论文和 Warda 作者稿。
+
+## 2026-11-22 — 手征数据汇编与 Warda 作者稿
+
+- 核定 52 页。手征数据汇编为 Article in Press 存档，保留转载、重新求比与共享数据来源。Warda 的模型半衰期与引用值及实验下限分开登记。累计 334 份、14652 页。
+- 闫铎学位论文续 PDF15–61 与 PDF62–120，另核数字化获取学位论文身份。学习分支 `research/archive-learning-20261122`，主题 `research: verify chiral compilation provenance and archived theory scope`。
+
+## 2026-11-22 — 闫铎外靶探测器学位论文
+
+- 核定 120 页。按原页分清伽马球总体规模与实际安装、放射源实测与模拟效率以及在束同位素鉴别的限制。累计 335 份、14772 页，其中 18 份为历史有限覆盖。
+- 学习分支 `research/archive-learning-20261122`，主题 `research: verify CSR detector thesis and measured response limits`。续两篇数字化获取学位论文及 Yao 的 34Si 理论。
+
+## 2026-11-22 — 数字获取论文和 34Si 作者稿
+
+- 核定 17 页。数字获取原件为八页期刊文，记录与相关学位论文的同源测试。34Si 作者稿按原表区分点质子与电荷耗尽。累计 337 份、14789 页，其中 18 份为历史有限覆盖。
+- 吴鸿毅学位论文的 PDF15–82、PDF83–143 及 Ye 综述已派发。学习分支 `research/archive-learning-20261122`，主题 `research: verify digital acquisition publication and silicon density evidence`。
+
+## 2026-11-22 — 吴鸿毅获取系统论文与奇异核综述
+
+- 核定吴鸿毅学位论文 143 页和 Ye 等综述 17 页。区分接口规格、峰宽与定时实测，保留论文与期刊同源测试。综述中的 N=32 质量、电荷半径与模型机制分别回链。累计 339 份、14949 页。
+- 学习分支 `research/archive-learning-20261122`，主题 `research: verify DAQ thesis timing and exotic-nuclei review sources`。岳珂论文、Youngblood 刊版和后续馆藏文献在审读。
+
+## 2026-11-22 — 巨共振拟合与理论源覆盖
+
+- 核定两份刊版 28 页。Youngblood 表 II 与表 VI 的实值替换错引，旧笔记的形变阈值和不可压缩性修正量保留为历史模型边界。累计 341 份、14977 页。
+- 岳珂论文续 PDF29–84 和 PDF85 至末页，Jain 异能态专著开始首段。学习分支 `research/archive-learning-20261122`，主题 `research: reconcile monopole resonance tables and original source scope`。
+
+## 2026-11-22 — 岳珂伽玛球学位论文
+
+- 核定 123 页，区分阵列设计指标、模拟 Add-back 的适用边界与台架扫描的峰宽。累计 342 份、15100 页。
+- Jain 异能态专著按 PDF1–49、50–89、90–151 三段审读。学习分支 `research/archive-learning-20261122`，主题 `research: verify gamma-ball design and response thesis coverage`。
+
+## 2026-11-22 — Jain 异能态专著
+
+- 核定全书 151 页。两份本地 PDF 的 151 页正文分别匹配，规范主件一次计入。记录部分半衰期的分母、半满壳相消条件及 K 禁戒定义。累计 343 份、15251 页。
+- 已继续派发 2002 年 ADO 方法、91Ru 偏振与 20O 精密谱学。学习分支 `research/archive-learning-20261122`，主题 `research: verify isomer primer coverage and merge edition credit`。
+
+## 2026-11-22 — ADO 原法、91Ru 偏振及 20O 寿命
+
+- 核定三份 23 页。91Ru 的校准 P 和逐跃迁 A 分开记录，435.9 keV 的 A 按馆藏原表更正。20O 强度字段保留实测旧混合比与模型输入的区别。累计 346 份、15274 页。
+- 学习分支 `research/archive-learning-20261122`，主题 `research: verify primary ADO polarization and lifetime evidence`。续两篇反磁转动理论和张文强论文身份。
+
+## 2026-11-22 — Cd/Pd 反磁转动作者稿及形状共存论文
+
+- 核定 Cd、Pd 两份作者稿 22 页。惯量与强度实验点、固定或变化的形变输入及模式解释分开记录。累计 348 份、15296 页，其中 18 份为历史有限覆盖。
+- 张文强学位论文首段已读，PDF27–64、PDF65–94、PDF95–132 承接。学习分支 `research/archive-learning-20261122`，主题 `research: verify cadmium and palladium pairing-model evidence`。
+
+## 2026-11-22 — 张文强形状共存学位论文
+
+- 核定 132 页。同次反冲采集下的 Pb 延迟线、Bi 时间谱和 Po 低统计 α 标记谱分别定位。形状和自旋判断保留计数与系统学限定。累计 349 份、15428 页，其中 18 份为历史有限覆盖。
+- 学习分支 `research/archive-learning-20261122`，主题 `research: verify recoil tagging and shape-coexistence thesis coverage`。续两份 Zhao 原件和郑勇论文构成。
+
+## 2026-11-22 — 两份 Zhao 推转模型作者稿
+
+- 核定 48 页，所引实验点、模型惯量与自旋取向分开登记。累计 351 份、15476 页。
+- 郑勇论文的结果段和周厚兵论文首段在审读。学习分支 `research/archive-learning-20261122`，主题 `research: verify tilted-axis calculations and their experimental provenance`。
+
+## 2026-11-22 — 郑勇 Tb/Yb 学位论文
+
+- 核定 132 页。145Tb 的角量案例与 2002 方法文同源；157Yb 另有采集和实测角比。累计 352 份、15608 页。
+- 学习分支 `research/archive-learning-20261122`，主题 `research: verify terbium ytterbium angular evidence and acquisition lineage`。续周厚兵学位论文及 Zobel、Ziliani 原件。
+
+## 2026-11-22 — 67Ga 偏振原表与 AGATA 校准
+
+- 核定两份 31 页。67Ga 546.175 keV 对应同一行的角系数、混合比与 P；高斯取向及级联处理分别注明。Ziliani 七页保留时间和能量标定，已知寿命作为对照输入。累计 354 份、15639 页。
+- 周厚兵论文三个连续后续范围已派发。学习分支 `research/archive-learning-20261122`，主题 `research: verify gallium polarization pairs and calibration provenance`。
+
+## 2026-11-22 — 周厚兵在束谱学和装置学位论文
+
+- 核定 117 页。101Pd 的 920 keV 角比与邻线空栏保留，RDT 的子系统测试与整机未在束评估分开。累计 355 份、15756 页。
+- 已派发四份钡核素评价文件的范围核查与一份 TPSM 作者稿。学习分支 `research/archive-learning-20261122`，主题 `research: verify palladium thesis and separator design boundary`。
+
+
+## 2026-11-22 — 钡 ENSDF 评价及 TPSM 作者稿
+
+- 核定四个单核素 Adopted Levels, Gammas 数据集和一篇六页 TPSM 作者稿，共 94 页。复核表格与图页界，标明推荐寿命所依赖的测量及 F26 不变量覆盖。累计 360 份、15850 页，含历史有限覆盖 18 份。
+- 三个 Gemini 后续任务覆盖 134Ba 库仑激发、136/135/137Ba 评价和 N16/R25/L25 原件。学习分支 `research/archive-learning-20261122`，主题 `research: verify barium evaluations and TPSM invariant provenance`。仓库级归档门仍有两份并行 PDM 清单的四处大小和哈希差异。
+
+
+## 2026-11-22 — 钡电磁矩评价及不变量原件
+
+- 核定四份 ENSDF 数据集与三篇原论文，共 109 页，累计 367 份、15959 页，含历史有限覆盖 18 份。保留 135Ba 异能态小时单位、137Ba 矩冲突、134Ba 两个评价数据集的共用实验和 R25 模型网络的截断范围。
+- 继续 Gemini 的 Vogt 双份版本、Ba129 分支与 Stuch 学位论文线索、133I 论文和 Oslo 文献原档核对。学习分支 `research/archive-learning-20261122`，主题 `research: verify barium moments and quadrupole invariant networks`。
+
+
+## 2026-11-22 — Vogt 录用稿、Kumar 简报与学位论文身份
+
+- 两份增加 20 页，累计 369 份、15979 页。Vogt 同一刊文保留 1 月 17 日和 1 月 25 日两种录用文本，以 Birmingham 主件计一次。Kumar 的两图和同源强度保持依赖关系。
+- Grieg 的 `.pdf` 是 HTML，Stuch 是三页目录，均不给全文学分。Cologne 文件确认为另一份 124 页的 Möller 学位论文，已派发独立全文任务。学习分支 `research/archive-learning-20261122`，主题 `research: reconcile accepted manuscripts and thesis archive identities`。最新全仓归档复查仍为两份 PDM 清单四处不一致，定向门通过后留在本地。
+
+
+## 2026-11-22 — Oslo 报告及 Kr/Ge 实验原件
+
+- 三份新增 87 页。累计 372 份、16066 页，含 18 份历史有限覆盖。Larsen 作为会议报告登记，区分 133I 初排二维图与 132,133I 初步 γ 强度图。Clément 的拟合矩阵元保留先验寿命依赖，Starosta 区分实测寿命和模型静态矩。
+- Möller 的谱学论文章节在精读，另有壳结构和转动惯量两项 Gemini 续读任务。学习分支 `research/archive-learning-20261122`，主题 `research: verify Oslo methods and electromagnetic experiment scope`。
+
+
+## 2026-11-22 — 156Dy 与 178Os 学位论文
+
+- Möller 124 页核定，累计 373 份、16190 页。分别保存两套 RDDS 采集、平均寿命、由寿命导出的退激强度及 178Os S2 带低位寿命的缺口。Stuch 正文缺口保持独立。
+- 继续壳结构可观测性、时奇场与 Thouless–Valatin 惯量、Bohr 原件三个 Gemini 任务。学习分支 `research/archive-learning-20261122`，主题 `research: archive Dy and Os dissertation lifetime evidence`。
+
+
+## 2026-11-22 — 壳能与转动惯量原件
+
+- 四件增加 76 页，累计 377 份、16266 页。Otsuka Fig. 12 对象回到 66Ni，Duguet 的氧同位素图保留适用子集，194Pb 交叉和 166Er FAM 比较按模型设置记录。
+- Bohr 经典原件、进动与 ATDHFB、到达统计与数字计时任务继续。学习分支 `research/archive-learning-20261122`，主题 `research: verify shell evolution and rotational-response evidence`。
+
+
+## 2026-11-22 — Bohr 1952 原作
+
+- 1952 年卷 26 no. 14 核定 40 页，累计 378 份、16306 页。无旋流惯量、纯表面空间约束和加入粒子后的对称条件分别定位。1953 年 176 页原作只登记已核区间，继续逐段审读。
+- 学习分支 `research/archive-learning-20261122`，主题 `research: verify Bohr surface and particle coupling original`。继续接收进动／ATDHFB 和到达统计／数字计时任务。
+
+
+## 2026-11-22 — 进动、到达统计、数字计时及 BM53 阶段核读
+
+- 四件增加 37 页，累计 382 份、16343 页。按原文分开高 K 进动与基态响应、波形计时和探测器响应、泊松长时平均与符合系统条件。
+- BM53 PDF 25–68 的自旋、磁矩、四极矩已定位，未加整件页数。接着读 PDF 69–112。学习分支 `research/archive-learning-20261122`，主题 `research: verify precession and timing sources with historical moment coverage`。
+
+
+## 2026-11-22 — 热耦合与寿命误差、BM53 阶段核读
+
+- 四件增加 36 页，累计 386 份、16379 页。两篇理论按原文留输入与计算边界，98Zr 与 134Nd 核实同母态寿命依赖及误差来源。
+- BM53 69–112 已写回，113–144 段继续，145–176 已独立分派。学习分支 `research/archive-learning-20261122`，主题 `research: verify thermal and experiment lifetime evidence`。
+
+
+## 2026-11-22 — Bohr–Mottelson 1953、Ba 拾取与 Hg 库仑激发
+
+- 三件增加 200 页，累计 389 份、16579 页。BM53 从已核各段接续，本地核读 145–176 和原扫描后计一次整件。Ba 谱强度与截面分别归口，Hg 保留对角元误差及相对相位边界。
+- Gemini 当前配置路径遇到供应商账户级 403，附录改用本地核验。另一个会话的原改动继续隔离。学习分支 `research/archive-learning-20261122`，主题 `research: complete Bohr Mottelson and verify transfer and Coulomb evidence`。全库学习仍进行中。
+
+
+## 2026-11-22 — 同采集 DSAM 版本与独立寿命测量
+
+- 五件增加 54 页，累计 394 份、16633 页。Ciemała 三份报告标同一采集，分开会议时点、报告的 20O 结果和方法测试。23Mg 两篇独立工作按其测量、误差与有界结果登记。无 Gemini 回传学分。
+- 学习分支 `research/archive-learning-20261122`，主题 `research: verify doppler lifetime report provenance and bounds`。全库目标仍有效，Gemini 现有账户访问受限，PDM 清单不一致仍阻塞发布。
+
+
+## 2026-11-22 — 学位论文及 Uppsala 实验报告
+
+- 核定三篇博士论文与一份正式实验报告，共 459 页，累计 398 份、17092 页。补齐 Fougères 第七至九章及附录的版本和输入范围。两次 100Sn 测量的端点/Q 值、拟合与强度证据分别保留。Gray 第三章写回，无整卷学分。
+- PDM 全仓检查仍报原两份清单四处不一致。Gemini 仍按账户级错误留档，本次由本地原件推进。学习分支 `research/archive-learning-20261122`，主题 `research: verify doctoral decay and resonance evidence`。
+
+
+## 2026-11-22 — Gray 全件、RDDS 方法与 Bohr–Mottelson II 起始读段
+
+- 五份新增 372 页，累计 403 份、17464 页。Gray 各套实验、超精细校准和附印稿分别定位。Dewald 综述、Chiara、Seiferle 与 Saito 保留各自数据依赖和版本。Bohr–Mottelson 第二卷连续记录至 PDF 52，不计整卷。
+- 学习分支 `research/archive-learning-20261122`，主题 `research: verify moments and lifetime sources and begin volume II`。同一 Gemini 路径仍缺可用授权，继续核对已归档原件。发布状态及全仓检查见本地回执。
+
+
+## 2026-11-22 — Bohr–Mottelson II 转动强度段
+
+- 连续核读推进至 PDF 82（印 60），本次核对非零 K 转动谱、轴对称带 E2 与 M1 强度、带间禁戒和高阶项。整卷仍开放，当前累计维持 403 份、17464 个主件 PDF 页。
+- 学习分支 `research/archive-learning-20261122`，主题 `research: verify rotational intensity chapter scope through page 82`。下一段从 PDF 83 接续，已归档 PDF 与专家技能用于定位。
+
+
+## 2026-11-22 — 经验转动谱、模型限定及 Cd 衰变谱系
+
+- 六篇核定 44 页，累计 409 份、17508 页。分开 Zr、双 β 和手征模型记录中的模型量、历史标定与独立测量，补记 Cd 半衰期和谱学文章的共用采集。133Nd 20 页原件与旧记录的六页表述暂待对账。
+- Bohr–Mottelson 第二卷续到 PDF 122（印 100），完成本段，不计整卷。学习分支 `research/archive-learning-20261122`，主题 `research: verify rotational benchmarks and model calibration scope`。全仓归档复核仍报两处 PDM 文件的大小与哈希问题。
+
+
+## 2026-11-22 — 133Nd 刊本、三篇学位论文及强度规则
+
+- Bazzacco 原件纠正为 20 页。三篇学位论文核定相对截面归一、32S 四极矩异文及 237Pu 谱学／测试的依赖。四件共 336 页，累计 413 份、17844 页。
+- Bohr–Mottelson 第二卷连续至 PDF 157（印 135），整卷未计数。学习分支 `research/archive-learning-20261122`，主题 `research: reconcile spectroscopy and thesis coverage and verify intensity tests`。Gemini 现有路径受限，按本地原件推进。
+
+
+## 2026-11-22 — 推转文献与第二卷 Coriolis 耦合
+
+- 新计 3 份、77 页，累计 416 份、17921 页。Frauendorf 综述、144Ba 计算和 136Pr 谱学稿的模型量及实验依赖分别保存。
+- Bohr–Mottelson 第二卷连续覆盖至 PDF 194（印 172），从 PDF 195 接续。学习分支 `research/archive-learning-20261122`，主题 `research: verify Coriolis scope and rotating framework sources`。定向检查用于本批，其后的全仓发布仍待 PDM 清单问题解决。
+
+
+## 2026-11-22 — 非轴对称转动与相关馆藏原件
+
+- 核定八份、243 页，累计 424 份、18164 页。保存模型空间、预测量、实验依赖与版次。Bohr–Mottelson 第二卷读至 PDF 245（印 223），整卷仍待完成。
+- 学习分支 `research/archive-learning-20261122`，主题 `research: verify asymmetric rotor and collectivity sources`。全仓归档复查仍报原 PDM 清单不一致。
+
+## 2026-11-23 — 馆藏阅读结项
+
+- 当前会话的阅读工作已结项。馆藏队列保留，后续阅读由用户另开会话发起。
+- Bohr–Mottelson《Nuclear Structure》第二卷补写 PDF 246–280（印 224–258），下次从 **PDF 281（印 259）** 续读。整卷共 772 页，新增 35 页单独登记覆盖。
+- Macchiavelli 的正式勘误核定为 1 页，改正谱因子公式的 \(1/3\) 系数，并记录与原刊的关系。Jones 的 6 页补充材料保留 Table 4 的 1353 keV 与 Fig. 4(c) 的 1363 keV 两种字面标签，主文仍只有预览。
+- 累计 425 份、18165 个计入的主件 PDF 页，含 407 份已核实科学阅读覆盖和 18 份历史有限覆盖。队列共 1003 条，剩 548 条待处理，其中 249 条已有来源笔记待核或续读，299 条待确认身份或材料角色。
+- 成果保存在 `research/archive-learning-20261122`。新会话可查 [进度](../outputs/literature-acquisition/20261119-deep-learning/progress.json)、[队列](../outputs/literature-acquisition/20261119-deep-learning/reading-queue.jsonl) 和 [收尾核验](../outputs/literature-acquisition/20261119-deep-learning/pause-closeout-coverage-audit.json)。发布门与本地 Git 状态见同目录 `receipt.local.json`。
+- 根目录临时产物的成因及防复发规则见 [经验记录](experiences/routine-tasks/2026-11-23-wiki-root-scratch-incident.md)。
 
 ## 2026-11-24 — multipolePDM 确定性报告修订完成
 

@@ -1,0 +1,659 @@
+{
+  "schema": "wiki-git-baseline-v1",
+  "recorded_at": "2026-11-24T08:56:43.508033+00:00",
+  "authorization": "2026-11-24 user: 这是正常的程序呀，归类下push喽，整理git基线",
+  "status": "validated-pending-push",
+  "scope": {
+    "software_version": "0.1.1",
+    "new_software_release": false,
+    "software_implementation_modified": false,
+    "report_recomputed_or_modified": false,
+    "initial_worktree_entries": 289,
+    "initial_unpushed_commits": 68,
+    "preserved_existing_work": true
+  },
+  "classification": {
+    "canonical_code_roots": [
+      "raw/code/PDM/GUI",
+      "raw/code/PDM/analysis"
+    ],
+    "tracked_software_files": 96,
+    "tracked_software_bytes": 995877,
+    "publishable": "Maintained source, tests, public examples, docs including two synthetic GUI screenshots, packaging metadata and three output-free notebooks.",
+    "local_only": [
+      "original materials",
+      "calculation inputs and results",
+      "historical code snapshots and predecessor manifests",
+      "PDF and array outputs",
+      "dist and caches",
+      "historical release process logs"
+    ],
+    "code_files": [
+      {
+        "path": "raw/code/PDM/GUI/LICENSE",
+        "size": 1082,
+        "sha256": "36ec62ed4cfdb566d0c50e80c228bfa51e2742090e66b0d98889e4c7883e77ef"
+      },
+      {
+        "path": "raw/code/PDM/GUI/MANIFEST.in",
+        "size": 150,
+        "sha256": "60300d23cc0626a942df69c1970840ce41f56222078d446fac9e4e4793794a9d"
+      },
+      {
+        "path": "raw/code/PDM/GUI/README.md",
+        "size": 8204,
+        "sha256": "2fc0c0142153d90d2d800a5588d903fc7e5e2f1d90530182c488b65d16cd3963"
+      },
+      {
+        "path": "raw/code/PDM/GUI/docs/p-ado-input.png",
+        "size": 134673,
+        "sha256": "5c792d3cf1e4d1160b558754c2e7a52ec303c3f28e1aad2e48ede4086fccb931"
+      },
+      {
+        "path": "raw/code/PDM/GUI/docs/p-ado-results.png",
+        "size": 236646,
+        "sha256": "1df136277b49621d8675c4a3d0a02ad071c283069c24c0f8e06d0fab0ca0644a"
+      },
+      {
+        "path": "raw/code/PDM/GUI/docs/response-reference.md",
+        "size": 14512,
+        "sha256": "f9bafd648c76bc017ae72f44fc10f0b776ea83c339e2ae4f6fafaf4ceb9d5efd"
+      },
+      {
+        "path": "raw/code/PDM/GUI/pyproject.toml",
+        "size": 1030,
+        "sha256": "fc9b975c90962df019ce927cd100f0d4208a3b724e7e62b8f1557a78a329308e"
+      },
+      {
+        "path": "raw/code/PDM/GUI/scripts/build_release.py",
+        "size": 585,
+        "sha256": "91eca811ae8a9832d92af7e6448ccd3b014ebc11d4ae7dd9631322030053081c"
+      },
+      {
+        "path": "raw/code/PDM/GUI/scripts/build_source_archive.py",
+        "size": 3270,
+        "sha256": "3e7ab05e1972186f6a3c83680774625338602fa8e9208e3c06c74489e3692a40"
+      },
+      {
+        "path": "raw/code/PDM/GUI/scripts/release.py",
+        "size": 2613,
+        "sha256": "d12f8bdb2ff15aee639ba859dfba509cbe0a52f44888c5da460164e61261a7ce"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/__init__.py",
+        "size": 87,
+        "sha256": "b883f05f96fcc90a7672d7a2eeb8b58c3b368db6af03b154fdce902d372c4d87"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/__main__.py",
+        "size": 894,
+        "sha256": "b85133d483bec74f979f772a9f90f149ad2e5eac83681f066440a0abd00fa90d"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/cli.py",
+        "size": 4546,
+        "sha256": "affac4a766d809848021a327118c9f85fba764cbb5c8adf7dbfdb28e325ba498"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/config/common.py",
+        "size": 252,
+        "sha256": "f9ecb710ede4bef4e96a0aaab6c6d33ec23d5e936807c3f58a5e7157ea15af2a"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/config/p_ado.py",
+        "size": 202,
+        "sha256": "e8549d41769d022830a376d53a38a1a26da84e206cc511f5f86d83c284efce48"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/config/p_dco.py",
+        "size": 258,
+        "sha256": "9cd226d511afbf755aa56990b4a6a6cf7ca3a4a38d3ab18276e68dbc212bc30e"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/config/pdco.py",
+        "size": 292,
+        "sha256": "d1e51b9c088217d142dc67ed5a186214d41429ddd71b6dc461de38dadbfde446"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/contracts.py",
+        "size": 10000,
+        "sha256": "92161600c4f6232561305aeb7a2f33316c792cba4aa6b7d7526806d39380847a"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/examples/README.md",
+        "size": 3188,
+        "sha256": "1205a1d299e21a7c76ae8eaeeed055689b7027a62c08a3310cb2c67cd6a23141"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/examples/example.json",
+        "size": 1439,
+        "sha256": "f7917809461f93b966dd2825fa9ff4fb14c6ecdb2552c8c132d0f71abcad3db2"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/examples/example_PDCO.json",
+        "size": 1803,
+        "sha256": "142bfa7fccb0cebfc5cd88c6132a6e17d5a6aa9905b2aff14111b30dd57430d4"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/examples/example_P_DCO.json",
+        "size": 1606,
+        "sha256": "b54821b202545dce744e0c516edaabaaf495636f0fbce717e69f7aec23ac9ca3"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/examples/example_batch.json",
+        "size": 5842,
+        "sha256": "bce52985d6b5d9859b0d0ecae5b066201415bd68597cf06c9e14e452e328ae08"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/grid.py",
+        "size": 1644,
+        "sha256": "c0a8bd294ea214e7bfa460fd0ecd82285559827a7d8c76ddf3f2ff1a6adf54d8"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/gui/editors.py",
+        "size": 8527,
+        "sha256": "a491cc34fd74f31001d6d28cb60ff87f14465b34a5f420321b4d045ac4cb0a4f"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/gui/results.py",
+        "size": 8881,
+        "sha256": "ae7a8677da95271957dd500d473a897481a8df8a232074ec73fe997359275ac1"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/gui/self_test.py",
+        "size": 3531,
+        "sha256": "e5b20da633e509010b6f0ed9d2be3b31726bba058aae70629546797ed8e7f75d"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/gui/window.py",
+        "size": 24657,
+        "sha256": "bb5a080ce61254ab0198c3c14298994df4bf634eeffbdeb12ecbfdd8be8de3d1"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/io/export.py",
+        "size": 11073,
+        "sha256": "ea7b8f71705773f0ed474b0f741013e2f7b2b5f64cd3b21fef47f6d9003b1d04"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/io/input.py",
+        "size": 3953,
+        "sha256": "72825f62abb394dd4b90cdf9f4afb5e1aa992b585b76c98d1ad2194048339281"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/jobs/manager.py",
+        "size": 8505,
+        "sha256": "31f673acd9f9cff6fd3587968c1b47ba8bb168a37e58339727a2477bf33bdeb7"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/jobs/workers.py",
+        "size": 703,
+        "sha256": "4ecedfe4fda01842b0c72f870bcf3ecb64290901e35d8ef78d36a1b0562bc115"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/models/p_ado.py",
+        "size": 138,
+        "sha256": "e63b293e49cefb04a0ae06ff2382214266260332251a8aa9bae3b5bb96cadb1a"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/models/p_dco.py",
+        "size": 138,
+        "sha256": "e63b293e49cefb04a0ae06ff2382214266260332251a8aa9bae3b5bb96cadb1a"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/models/pdco.py",
+        "size": 156,
+        "sha256": "a408996ce003b61eed8a73c24dfd62340176d0ffb11eb3566b25886b75233db4"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/models/registry.py",
+        "size": 5647,
+        "sha256": "73d479e4072afce6624d0b56ef14e859e63bc5d774e665b9d3f50ec13a0ebbfa"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/pdm/mapping.py",
+        "size": 8001,
+        "sha256": "f7d38a2059e82f08155f8e33d92688cbc06f4113b09969fb54cc76662577a76d"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/pdm/observations.py",
+        "size": 2122,
+        "sha256": "1e4a63057c0bff6e0e12be3cdaf1b6295ccdb0290b8fd5ce76aa1eb2c2859e8e"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/pdm/statistics.py",
+        "size": 12731,
+        "sha256": "6d51c3c8a110077a773010267a726493b85ec4a1a3da5958d519bc85ebd7bdd3"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/physics/amplitudes.py",
+        "size": 3280,
+        "sha256": "5460e3b755b3bfc4581b1596f0ec9524811b3635460d2092ed48189815ba36b6"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/physics/detectors.py",
+        "size": 3571,
+        "sha256": "79f043da1b56c9bc52c373c45501e1a75492ae2f34bda6663d549c442f49f1fd"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/physics/joint.py",
+        "size": 7505,
+        "sha256": "3026cf5a82aec686f3709f39657ebe482c063595de617d044a01108c0025f7ea"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/physics/populations.py",
+        "size": 1617,
+        "sha256": "7384fd54622c1e443481a05865bb46d6d0c4aa7c4e682eab4ff04418da87fe9e"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/physics/propagation.py",
+        "size": 1417,
+        "sha256": "d596409bfec1b280945d8f6be08e3b7523bd1a1dbee3ec84c198d47b3ec66ea5"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/physics/symmetries.py",
+        "size": 4368,
+        "sha256": "d3cc367ef61c33eaf67265b05bbd2e09be867741b0596add4abcdf5ac4a8b797"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/plotting/__init__.py",
+        "size": 401,
+        "sha256": "a5e2d703d9865c9b4cbde570653ba18adcd34604136c5784bed59f8da62834bc"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/plotting/export.py",
+        "size": 2802,
+        "sha256": "bd8a84bf91da540380ea9c27ca02ca389f929514d2812f1d5ec513e6ba11dc11"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/plotting/intervals.py",
+        "size": 4359,
+        "sha256": "efc81ab5787271cbf760a86f8cd438bce16037912ab405cbf2cb0174eb2b3eb1"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/plotting/overview.py",
+        "size": 8093,
+        "sha256": "31983244318dc49adc96d55f9d887ac19a8a9618ec637813e9910a489361c987"
+      },
+      {
+        "path": "raw/code/PDM/GUI/src/multipolepdm/plotting/style.py",
+        "size": 3519,
+        "sha256": "e76661df027c0a5835c41dca7838f812b66f68d831934ad65e8547e2a670dcb2"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/reference/__init__.py",
+        "size": 76,
+        "sha256": "598493d06c57b9526a3f65d5a7eced7cda09b05088829519542a290fc749781e"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/reference/angular_correlation.py",
+        "size": 14523,
+        "sha256": "58c88ab7b4454861a715c66a26d1705a6473cea9b18c046ac1b78f792a90d56c"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/reference/examples.py",
+        "size": 2328,
+        "sha256": "099a36cb3757bbe472f78d74cbc5ba1551deca73541fb083f4460c238df188f4"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/test_app_regressions.py",
+        "size": 23589,
+        "sha256": "789143b61341cd18e3aedf81a21995bf6efd9ea8b28e4278d9da215c96f76873"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/test_azimuth_average.py",
+        "size": 7392,
+        "sha256": "c4261802c2490f82122b12051a42839614961e0d2f37fc71bd501f345d990445"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/test_contracts.py",
+        "size": 1625,
+        "sha256": "6f8ff0d4504ce3ac29a45d4e360baec499343c8afca1ba6fc5a27c65fafbd825"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/test_detector_groups.py",
+        "size": 13716,
+        "sha256": "9ae55d23db35774872cc68baa5a96e7523a0d8d5aff38eb4880f4f00feb52374"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/test_export_measures.py",
+        "size": 3633,
+        "sha256": "1df34717b5fd8a3473062a2c6592b7175ff08a69d082b1912629ee04d1469be0"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/test_forward_metadata.py",
+        "size": 727,
+        "sha256": "fae38567319369b647f8d78867c1f09bd57c6c3146b96be6e8ff7ab41bc802a9"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/test_gui.py",
+        "size": 2675,
+        "sha256": "044f64f32e79754bea4fd3cc3e88e31e0eb389bcfa61294bd217b3ec18a81c74"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/test_gui_averaging.py",
+        "size": 4958,
+        "sha256": "d9b314440985b434a9dac5fec8fac28a6eaf31fc1ee26e0588de90565df4add5"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/test_independent_reference.py",
+        "size": 10435,
+        "sha256": "26aedd2a41b768035c36d7e5c0a2b40ae4ed3ce81fd648feb9a7aa2332cfa122"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/test_io.py",
+        "size": 2016,
+        "sha256": "c71ef26e0697229b276eb80dbfef767ea87e9b469909372069f7c7d3f5fed8a3"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/test_jobs.py",
+        "size": 9494,
+        "sha256": "b4646746a7ca9accebfd834318842462824067457855f9a82532894fea7d3834"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/test_mapping.py",
+        "size": 9546,
+        "sha256": "5a0901f01cdb91e3a8405016860aead70ca35a2beb84cad1e85aa0ed135039cc"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/test_physics.py",
+        "size": 3708,
+        "sha256": "1f691a9e710bccf73885d16455d508f406783c8767ad36f3b6dd71b0fd26bd80"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/test_plotting.py",
+        "size": 10235,
+        "sha256": "b1ee0152a256f0b97f2ddfc5faa25ab88c3f65f4539c4b62c3057ab6510a643c"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/test_pure_calibration_v011.py",
+        "size": 5243,
+        "sha256": "1c68edb0c075b93942bdf4994ff3a95d11d6cbe5e8db9d207ef6368fb250dafd"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/test_reference_bridge.py",
+        "size": 2313,
+        "sha256": "73805fc57f5a57634a4964901f377d99693c814f7e945638c11e7864046dffe6"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/test_response_domain.py",
+        "size": 1071,
+        "sha256": "46c021308bb81b455421edfff9ef56e67744428e15105ff7010c41151d3ac11e"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/test_responses.py",
+        "size": 6640,
+        "sha256": "ab5a8587d590daf74522d52a8f96952b1f7cf18db745b4ad38d13c245f70d2aa"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/test_review_regressions.py",
+        "size": 4095,
+        "sha256": "f980be81cd1094d5944cc9fc6fe09929793e72ae8c1700006b09759899756450"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/test_statistics.py",
+        "size": 10299,
+        "sha256": "149e999c79470d9a3e2a171da4974eb6cba01680bd617f8ddda408a889d9910c"
+      },
+      {
+        "path": "raw/code/PDM/GUI/tests/test_step_grid.py",
+        "size": 1449,
+        "sha256": "9c9e22e40dbdddfa77f5a7edd2b5b4c5715814aa9214a917b6464794f0389131"
+      },
+      {
+        "path": "raw/code/PDM/analysis/01_results_and_intervals.ipynb",
+        "size": 3920,
+        "sha256": "917b7140f5398f1789f5585a22e96b17844b2c323ec5f9e7cc2d2b74a9a48390"
+      },
+      {
+        "path": "raw/code/PDM/analysis/02_benchmarks_and_comparisons.ipynb",
+        "size": 4419,
+        "sha256": "bb692290a4b9b1c5646b98182390427b3206bdc8092dc193eaf5a7dc83d0697e"
+      },
+      {
+        "path": "raw/code/PDM/analysis/03_report_figures.ipynb",
+        "size": 2847,
+        "sha256": "8d369f7720fd40fc6ca4b5dfb5e5d535ed1758f698a5cd53fc272c8f99b2e55f"
+      },
+      {
+        "path": "raw/code/PDM/analysis/README.md",
+        "size": 6010,
+        "sha256": "857fcecf4b81e576781aa9f5ad1651b325bbce3f5c1e081f79c16cf8173c099a"
+      },
+      {
+        "path": "raw/code/PDM/analysis/research/README.md",
+        "size": 1786,
+        "sha256": "ba828fe73fcd170fd491b7b90700878ad66742cb9b9515c7ba01b124c21ede05"
+      },
+      {
+        "path": "raw/code/PDM/analysis/research/asymmetric_errors/README.md",
+        "size": 12699,
+        "sha256": "359e25c36fc9562bfc2fe3a6a3c0af41a6a8858984cc57f0e28f4f052f3db235"
+      },
+      {
+        "path": "raw/code/PDM/analysis/research/asymmetric_errors/run_asym.py",
+        "size": 23605,
+        "sha256": "e1c1042fe2160b6c59175875e33ec6727466f05b21a07757f0077e54869509d8"
+      },
+      {
+        "path": "raw/code/PDM/analysis/research/geometry/weighted_groups.py",
+        "size": 7681,
+        "sha256": "f315dfbb6ef042abf78c397ab45882a672b7c5177a5e67e36153a307a63a5c65"
+      },
+      {
+        "path": "raw/code/PDM/analysis/research/grid_resolution/README.md",
+        "size": 9042,
+        "sha256": "48c8c439146ad8d3454f8c22efb0144bf4cc8e50aaa0b6f2d991d950411077d0"
+      },
+      {
+        "path": "raw/code/PDM/analysis/research/grid_resolution/heldout.py",
+        "size": 7110,
+        "sha256": "1426a7cf6d539a7da3e8cf66a2db48b95e37d8e599918a4b8a68596373b25b62"
+      },
+      {
+        "path": "raw/code/PDM/analysis/research/grid_resolution/plot_marginals.py",
+        "size": 5589,
+        "sha256": "437c06250e411784ef25975ff62dc42b67677c6800426228be7fe6f0dbaf9aed"
+      },
+      {
+        "path": "raw/code/PDM/analysis/research/grid_resolution/study.py",
+        "size": 27002,
+        "sha256": "7ae2724f201c25a785035e0dcc414fd4928c957dca812a135d127429b58af7e7"
+      },
+      {
+        "path": "raw/code/PDM/analysis/scripts/audit_cases.py",
+        "size": 26384,
+        "sha256": "78802301074790c3c9e2de001d7b0bd0710a0f8561d330451e7c7d83e838ef3c"
+      },
+      {
+        "path": "raw/code/PDM/analysis/scripts/audit_numeric_policy.py",
+        "size": 5988,
+        "sha256": "97f2273304f874fdc424f0c67262d20f608d30bc5aabd5503ef70cc898fdde96"
+      },
+      {
+        "path": "raw/code/PDM/analysis/scripts/benchmark_runtime.py",
+        "size": 3081,
+        "sha256": "4158c7e15309459b741dc13de47670f88b79b01183e0a6a0d228a9b1504f5146"
+      },
+      {
+        "path": "raw/code/PDM/analysis/scripts/benchmark_u04.py",
+        "size": 26289,
+        "sha256": "4d80e29409c78529eabad6805c6d4755b3678d9ba4c606a9cdff11f56037b639"
+      },
+      {
+        "path": "raw/code/PDM/analysis/scripts/build_grouped_geometry_snapshots.py",
+        "size": 12629,
+        "sha256": "09b01c7496418ee6ec44511dbc4f88e69742dfc5f8f765b172736bbc93a3508c"
+      },
+      {
+        "path": "raw/code/PDM/analysis/scripts/check_digitization.py",
+        "size": 712,
+        "sha256": "299b36118efa721a023ef59e4b8e332821974c4d90f2f9829eafd4757f33f918"
+      },
+      {
+        "path": "raw/code/PDM/analysis/scripts/plot_benchmark_u04.py",
+        "size": 7053,
+        "sha256": "10e0304d00b644569fcd464c519823136c5c6563cebd9c171f7cf31a4aad2255"
+      },
+      {
+        "path": "raw/code/PDM/analysis/scripts/run_benchmarks.py",
+        "size": 26852,
+        "sha256": "d4426db0e4147ead267223f73be57c8da11e5b11bef0513659da0a908a2e92de"
+      },
+      {
+        "path": "raw/code/PDM/analysis/scripts/run_followup_cases.py",
+        "size": 5885,
+        "sha256": "2adad15786096e59af06c641a914b51bade0a069563f85c8d6e897eec6250026"
+      },
+      {
+        "path": "raw/code/PDM/analysis/scripts/run_literature_cases.py",
+        "size": 42995,
+        "sha256": "aefb2efd8cbc13472259fd304b3c3448148dbf3677fc82ecf12f5fc0240ee214"
+      }
+    ]
+  },
+  "historical_code_reconciliation": {
+    "provenance_manifest": "raw/code/PDM/archives/20261124-code-inputs/manifest.json",
+    "provenance_sha256": "de12a545155276455334b05626cdab32a9dc7874c47cbab7ff7c052d9a284b7b",
+    "code_snapshots": 55,
+    "code_references_migrated": 57,
+    "predecessor_manifests_preserved": 3,
+    "historical_expected_hashes_and_sizes_changed": false,
+    "scientific_inputs_and_results_changed": false,
+    "archived_files_independently_verified": 58,
+    "collections": [
+      {
+        "manifest": "raw/code/PDM/analysis/benchmarks/manifest.json",
+        "predecessor_sha256": "6190decb62eda562f6311b4bfd526733bcaed429a9c63373991e83c8bde1c44f",
+        "updated_sha256": "3060ac4b8dcad5475236eb17d27be33c039df2c1b65d0658d5ebf7f174984f1b",
+        "entry_count": 4,
+        "registered_bytes": 603209,
+        "code_references_migrated": 2
+      },
+      {
+        "manifest": "raw/code/PDM/analysis/research/manifest.json",
+        "predecessor_sha256": "bdae406811a33a41f6cfd4d80b62fd426ce947dc31fb91ad6f61e5cecb3effd7",
+        "updated_sha256": "33bf30cacda00eba542beaeeea01974b425dcc5a6bd71fac4fa6de9a28428ce8",
+        "entry_count": 65,
+        "registered_bytes": 15562158,
+        "code_references_migrated": 18
+      },
+      {
+        "manifest": "raw/writing/pado/20261029_review_v1/PDM/figures/data/report_revision/manifest.json",
+        "predecessor_sha256": "9af8408c9c8b59c20a430f9283bdbb500b47c8e8cf6d6b2ccc10881242bde49c",
+        "updated_sha256": "46d42f022b194e49667b7e45758ed2a6936782d3436d898520a9266ebbba3861",
+        "entry_count": 179,
+        "registered_bytes": 816969691,
+        "code_references_migrated": 37
+      }
+    ],
+    "recovered_old_versions": [
+      {
+        "working_source_path": "raw/code/PDM/analysis/scripts/run_benchmarks.py",
+        "snapshot_path": "raw/code/PDM/archives/20261124-code-inputs/sha256/d5aa1e310c47011da40711cb5355104d5cc04a97ef2888af941952f13ba0fbfc/run_benchmarks.py",
+        "sha256": "d5aa1e310c47011da40711cb5355104d5cc04a97ef2888af941952f13ba0fbfc",
+        "size": 26366,
+        "current_sha256": "d4426db0e4147ead267223f73be57c8da11e5b11bef0513659da0a908a2e92de",
+        "current_size": 26852,
+        "recovered_from_release": true
+      },
+      {
+        "working_source_path": "raw/code/PDM/GUI/src/multipolepdm/pdm/statistics.py",
+        "snapshot_path": "raw/code/PDM/archives/20261124-code-inputs/sha256/dc5be8a112dddff9c1189a21b70b7274da09f303919de468e7ac4ba6b1398e73/statistics.py",
+        "sha256": "dc5be8a112dddff9c1189a21b70b7274da09f303919de468e7ac4ba6b1398e73",
+        "size": 8410,
+        "current_sha256": "6d51c3c8a110077a773010267a726493b85ec4a1a3da5958d519bc85ebd7bdd3",
+        "current_size": 12731,
+        "recovered_from_release": true
+      }
+    ]
+  },
+  "source_release_comparison": {
+    "archive": "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.1/multipolePDM-0.1.1-source.zip",
+    "sha256": "18212d81552db2a6c50ce2109898c4e15ece1a9109ec756ee5dbae0d42148bf9",
+    "matched_count": 95,
+    "different": [],
+    "absent": [
+      "raw/code/PDM/GUI/MANIFEST.in"
+    ],
+    "unchanged_software_version": "0.1.1"
+  },
+  "validation": {
+    "preflight": {
+      "ok": true,
+      "archive_failure_count": 0,
+      "registered_source_pages_checked": 590,
+      "auto_discovered_manifests_checked": 4,
+      "boundary_ok": true,
+      "write_probes_cleaned": true
+    },
+    "classification_and_boundary_tests_passed": 6,
+    "pdm_regression_tests_passed": 225,
+    "pdm_regression_warnings": 343,
+    "pdm_warning_kind": "Existing Qt AA_UseHighDpiPixmaps deprecation warnings",
+    "json_python_and_notebook_checks": "All reviewed JSON/JSONL parse, all reviewed Python AST parses, three notebooks have no outputs or execution counts.",
+    "secret_pattern_findings": [],
+    "global_lint": {
+      "counts": {
+        "error": 129,
+        "warning": 765,
+        "info": 5504
+      },
+      "changed_path_errors": [],
+      "scope_note": "130 inherited structural errors initially; fixed the missing index link of the existing untracked Moeller thesis source while organizing this baseline. 129 unrelated historical errors remain; global lint is not claimed clean."
+    },
+    "hook_after_edit": {
+      "diff_check": true,
+      "archive_gate": "bounded hook timed out; completed unrestricted publication preflight independently passed with zero archive failures"
+    },
+    "raw_manifest_migration": {
+      "ok": true,
+      "collections": [
+        {
+          "manifest": "raw/code/PDM/analysis/benchmarks/manifest.json",
+          "entry_count": 4,
+          "historical_hashes_sizes_and_results_unchanged": true,
+          "current_sha256": "3060ac4b8dcad5475236eb17d27be33c039df2c1b65d0658d5ebf7f174984f1b"
+        },
+        {
+          "manifest": "raw/code/PDM/analysis/research/manifest.json",
+          "entry_count": 65,
+          "historical_hashes_sizes_and_results_unchanged": true,
+          "current_sha256": "33bf30cacda00eba542beaeeea01974b425dcc5a6bd71fac4fa6de9a28428ce8"
+        },
+        {
+          "manifest": "raw/writing/pado/20261029_review_v1/PDM/figures/data/report_revision/manifest.json",
+          "entry_count": 179,
+          "historical_hashes_sizes_and_results_unchanged": true,
+          "current_sha256": "46d42f022b194e49667b7e45758ed2a6936782d3436d898520a9266ebbba3861"
+        }
+      ],
+      "archived_files_verified": 58,
+      "code_snapshots": 55,
+      "predecessor_manifests": 3,
+      "historical_expected_hashes_and_sizes_preserved": true
+    }
+  },
+  "canonical_report": {
+    "path": "raw/writing/pado/20261029_review_v1/PDM/main.pdf",
+    "sha256": "62d46bd0dea9bc2657c33889e0434efb10a8fd5fa3d714b451a762b53360ebd4",
+    "unchanged": true,
+    "local_only": true
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "refspec": "HEAD:main",
+    "initial_head": "4943f731",
+    "existing_research_commit": "55ba1ed30bd20eabd641694b607a493da222d7af",
+    "origin_main_at_fetch": "1124b1b9c2a4c927c5ddf382d49b409ad748387e",
+    "origin_is_ancestor": true,
+    "force": false,
+    "publication": "pending actual dry-run and push",
+    "historical_final_not_pushed_receipts": "retained as historical records, not rewritten"
+  },
+  "knowledge_writeback": [
+    "knowledge/sources/multipolepdm-20261120-synthetic-validation.md",
+    "knowledge/sources/pdm-20261120-error-geometry-grid-study.md",
+    "knowledge/sources/pdm-deterministic-report-revision-20261124-source.md"
+  ]
+}

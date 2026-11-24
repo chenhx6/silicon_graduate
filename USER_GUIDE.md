@@ -19,11 +19,15 @@ tools/       外部工具和服务适配层
 tmp/         临时运行数据、缓存和 scratch；不保存唯一知识
 ```
 
+PDF 渲染图、OCR 文本及 worker 中间件统一落到本机的 `tmp/<task>/`。路径检查会提示误写到 Wiki 根目录的常见临时产物。
+
 六类目录的唯一落点、禁止迁移方向和输出知识回写规则见
 [`system/path-contract.md`](system/path-contract.md)。任何输出中出现的可复用知识都必须同步进入
 `knowledge/`；每天的 `Durable knowledge delta` 不能只指向日报。
 
 束流申请等 proposal 统一保存在 [`raw/proposal/`](raw/proposal/README.md)，包括初稿、修订稿和配套材料，并允许 commit/push，便于远端恢复和继续写作。执行任务计划仍放在 `outputs/plans/`。申请书中的可复用科学依据回链 `knowledge/`，初稿不代表已提交、获批或获得实验结果。
+
+`raw/code/PDM/GUI/` 和 `raw/code/PDM/analysis/` 中维护的软件源码、测试、公开示例、文档及无输出 Notebook 是正常 Git 内容，按精确白名单发布，不改原路径。数组、计算结果、历史快照、安装包和缓存不上传。历史计算的清单应绑定当时的固定代码快照，而不是把正在开发的源码当成不可变原件；迁移引用时保留旧清单与原哈希，不能用当前版本冒充旧版本。
 
 组会及学术交流的 PPT/PDF、预览和制作回执保存在 `outputs/reports/`。报告回链 `raw/` 中的原始材料，可复用科学结论写入 `knowledge/`；报告本身不作为独立事实源。
 

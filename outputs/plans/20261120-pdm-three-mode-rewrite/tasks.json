@@ -507,7 +507,7 @@
         "R04"
       ],
       "status": "completed",
-      "specification": "主代理核对报告、图表、源数据与代码清单和哈希；按证据门将新增可复用结论回写knowledge并维护必要handoff，完成定向归档与差异检查。仅实际范围通过时声明完成，保留未解决科学边界；本轮无新软件发布、commit或push。计划侧审代理不越过两文件写域。",
+      "specification": "主代理核对报告、图表、源数据与代码清单和哈希；按证据门将新增可复用结论回写knowledge并维护必要handoff，完成定向归档与差异检查。仅实际范围通过时声明完成，保留未解决科学边界；报告阶段不发新软件版本；后续Git基线整理与推送由用户另行明确授权。计划侧审写域仅适用于已完成的报告阶段。",
       "input_evidence": [
         "R04报告及全页QA证据",
         "knowledge/sources/multipolepdm-20261120-v011-validation.md",
@@ -522,7 +522,7 @@
       "acceptance": [
         "归档门/状态核对有真实证据，不把侧审和计划更新等同报告完成",
         "E01-E03/U00-U09历史字段与证据保留，R状态仅由本轮实绩更新",
-        "不改历史plan.pdf、不新发布、不commit不push"
+        "不改历史plan.pdf、不发新软件版本；Git后续按用户明确授权整理发布"
       ],
       "evidence": [
         "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/report-revision-20261124.json"
@@ -642,7 +642,7 @@
   "goal_created": true,
   "goal_id": "01a20bbe-dfb1-77f3-a6a9-fd264a759483",
   "objective": "仅修订现有报告：30个确定性注入、30个文献二维声明模型（15条不同跃迁）、9前向控制；三张A4横向主表、60张竖向四联图、大混合比诊断、90页逐页QA与知识归档。不改GUI、不发新版本、不新增随机测试、不卡方。",
-  "plan_sha256": "732e1060f19b346f28f37bd93185ccb14a258e9b269f6aac23ddbd5c9143a3af",
+  "plan_sha256": "d7497571c45ebe42ac2c639e1e7e6f1375d87e9ea4d7dd2c55df64d00d0881b8",
   "readable_pdf": "outputs/plans/20261120-pdm-three-mode-rewrite/plan.pdf",
   "readable_pdf_status": "historical_20261120_reading_snapshot",
   "readable_pdf_is_current": false,
@@ -1025,9 +1025,13 @@
     "Literature models are not complete array-acceptance replays; shared measurements and two historical deterministic digitization shifts remain identified."
   ],
   "publication": {
-    "status": "final-not-pushed",
+    "status": "validated-pending-push",
     "new_software_release": false,
-    "reason": "Two pre-existing PDM manifests have four size/hash mismatches; original evidence and other working-tree changes preserved."
+    "authorization": "2026-11-24 user: classify ordinary PDM software, push, and reconcile Git baseline",
+    "reason": "Former size/hash mismatches resolved with byte-identical 0.1.0 snapshots; current 0.1.1 working source retained. Publication preflight passed with zero archive failures; six classification/boundary tests and 225 PDM regressions passed.",
+    "receipt": "delivery/git-baseline-20261124.json",
+    "historical_report_receipt": "delivery/report-revision-20261124.json",
+    "code_provenance_manifest": "raw/code/PDM/archives/20261124-code-inputs/manifest.json"
   },
   "report_acceptance": {
     "passed": true,
@@ -1055,5 +1059,16 @@
     "Native Windows/macOS GUI not tested; Linux offscreen/Xvfb verified.",
     "Whole changed-set archive hook timed out; explicit task-scoped archive gate passed.",
     "No independent software Git remote supplied; PyPI released and complete GUI+analysis source ZIP delivered locally."
-  ]
+  ],
+  "git_baseline": {
+    "working_code_policy": "Maintain canonical GUI/analysis paths and explicitly whitelist source, tests, public examples, docs and output-free notebooks.",
+    "local_only": "Historical snapshots, original materials, computational data and results, dist, caches and process logs.",
+    "code_references_migrated": 57,
+    "deduplicated_snapshot_files": 55,
+    "predecessor_manifests_preserved": 3,
+    "historical_expected_hashes_and_sizes_changed": false,
+    "scientific_inputs_and_results_changed": false,
+    "report_manifest_sha256": "46d42f022b194e49667b7e45758ed2a6936782d3436d898520a9266ebbba3861",
+    "publication_receipt": "delivery/git-baseline-20261124.json"
+  }
 }

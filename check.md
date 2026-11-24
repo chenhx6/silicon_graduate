@@ -18,6 +18,8 @@ Git 基线整理另核对：长期知识、可复用脚本和已整理交付物�
 或全部 `outputs/`，也不得用 ignore 隐藏已跟踪的删除。历史受保护改动单列回执，
 不恢复、不提交未经确认的 raw 删除；远端发布只使用非 force 的精确 refspec。
 
+PDM 软件基线另核对 `raw/code/PDM/{GUI,analysis}/` 白名单：跟踪源码、测试、公开示例、文档及无输出 Notebook；数组、计算结果、历史快照、dist 和缓存仍忽略。历史清单中的代码依赖必须指向经原哈希验证的固定快照；保存前版清单和引用迁移记录，不以更新哈希掩盖代码版本变化，不放宽归档门。
+
 在仓库根目录运行：
 
 ```bash
@@ -41,6 +43,8 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 自动 lint 覆盖结构、链接、哈希、字段、A/Z/N、可解析的中子蒸发反应道、Git 边界和 claim-level 治理统计。`GOVERNANCE` 行报告页面/source unreviewed、claim 核验标记、缺 locator/kind、source 缺 raw_file/citation key；涉及科学解释、证据独立性和物理等价性的项目由 Codex self-audit 判断，论文或后续问答再触发用户裁决。
 
 `wiki_boundary_check.py` 是路径契约的只读机器门：检查 `raw/`、`knowledge/`、`outputs/`、`system/`、`tools/`、`tmp/` 存在，拒绝重新创建 `docs/plans/`，确认已迁移知识页不留在 `outputs/`，并核验 QMD `nuclear-knowledge` 只指向 `knowledge/**/*.md`。边界检查失败时，摄入和每日学习必须 safe-suspend；它不读取、修改或批量扫描 raw 内容。
+
+`ROOT_SCRATCH_ARTIFACT` 会列出写到根目录的截图、临时文本、`nul`、已知 scratch 目录和字面 Windows 路径。按报告核对归属，将确认的临时产物移到 `tmp/<task>/`，更新产物生成命令的输出位置，再执行边界检查。
 
 ## A. 会话记忆与治理
 

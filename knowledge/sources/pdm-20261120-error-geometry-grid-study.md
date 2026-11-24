@@ -4,7 +4,7 @@ title: "PDM：不对称误差、探测器组权重与网格对照研究"
 title_original: "PDM asymmetric-error, weighted-geometry and grid-resolution study"
 aliases: [PDM不对称误差的处理方案, PDM网格寻优研究]
 created: 2026-11-20
-updated: 2026-11-20
+updated: 2026-11-24
 status: ai-draft
 review_status: unreviewed
 source_type: research-code-and-data
@@ -12,7 +12,9 @@ reading_depth: read
 year: 2026
 canonical_source: "User-supplied legacy code, archived publication observations, unchanged multipolePDM0.1.0 core and local controlled studies"
 raw_file: "raw/code/PDM/analysis/research/manifest.json"
-raw_sha256: "bdae406811a33a41f6cfd4d80b62fd426ce947dc31fb91ad6f61e5cecb3effd7"
+raw_sha256: "33bf30cacda00eba542beaeeea01974b425dcc5a6bd71fac4fa6de9a28428ce8"
+code_snapshot_file: "raw/code/PDM/archives/20261124-code-inputs/manifest.json"
+code_snapshot_sha256: "de12a545155276455334b05626cdab32a9dc7874c47cbab7ff7c052d9a284b7b"
 raw_storage_status: archived-local
 archive_required: true
 citation_key: MultipolePDM2026ErrorGridStudy
@@ -22,6 +24,8 @@ tags: [pdm, uncertainty, pdco, numerical-convergence, detector-geometry]
 # PDM不对称误差、加权几何和网格研究
 
 ## Bibliographic Record
+
+2026-11-24整理软件基线时，将18项代码与说明文档依赖改绑到固定快照，保留原条目的大小与SHA-256。旧`pdm/statistics.py`从0.1.0源码包恢复，逐字节匹配原记录；当前0.1.1工作源码不回退。原清单完整字节及恢复来源保存在`code_snapshot_file`集合，计算输入、输出和科学结论未改。
 
 这是用户明确要求的本地计算研究，不是新实验或新发表论文。原件与输入清单见raw_file；代码、配置、数组、CSV/JSON与原文哈希一并保存。秘书手册中的“不对称误差的处理方案”及网格章节是这组数据的可读报告，不能反向代替原始数组。
 

@@ -58,5 +58,24 @@ class WikiBoundaryCheckTests(unittest.TestCase):
         self.assertIn("OUTPUT_ROOT_UNCLASSIFIED", {issue["code"] for issue in result["errors"]})
 
 
+    def test_root_scratch_artifacts_are_reported(self) -> None:
+        root = self.make_root()
+        root_files = ("render.PNG", "tmp_text.txt", "nul")
+        root_directories = ["scratch", ".degree-read-visual-2"]
+        if sys.platform != "win32":
+            root_directories.append(r"C:\Users\Administrator\scratch")
+        for name in root_files:
+            (root / name).touch()
+        for name in root_directories:
+            (root / name).mkdir()
+        (root / "tmp" / "render.PNG").touch()
+        result = wiki_boundary_check.scan_boundary(root, check_qmd_enabled=False)
+        self.assertFalse(result["ok"])
+        self.assertEqual(
+            {issue["path"] for issue in result["errors"] if issue["code"] == "ROOT_SCRATCH_ARTIFACT"},
+            set(root_files) | set(root_directories),
+        )
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -1,7 +1,7 @@
 ---
 type: system-memory
 graph-excluded: true
-updated: 2026-11-19
+updated: 2026-11-23
 ---
 
 # 长期记忆
@@ -11,6 +11,9 @@ updated: 2026-11-19
 这里只保存跨项目、跨会话仍应成立的规则。临时任务状态写入 `system/handoff.md`。
 
 ## 已确认规则
+
+- 2026-11-23 馆藏阅读在当前会话结项，进度供用户将来另开会话时使用。旧派发方案为历史记录，模型由未来会话按用户当时的授权和可用额度选择。
+- 2026-11-23 文献截图、OCR、临时文本和 worker scratch 要显式落在本机的 `tmp/<task>/`。每次派发核对执行端路径和命令。收尾运行路径检查，处理 `ROOT_SCRATCH_ARTIFACT` 报出的路径。见 [根目录临时产物经验记录](experiences/routine-tasks/2026-11-23-wiki-root-scratch-incident.md)。
 
 - 2026-11-19 Gemini 管理要求：每次派发必须给出明确任务、科学目标、真实输入页、逐项交付 ID、输出结构与验收/返工条件，防止遗漏、敷衍和虚报完成。直接 API 调用不能仅给本地路径就认为模型读过原件；以实际输入、原件定位、任务对账和管理层核验为准。Gemini 主读，Codex 核验关键证据与增量，不默认双方重复全篇。具体合同及已填实例见 `outputs/plans/20261119-archive-deep-learning.md` 第 5 节。
 

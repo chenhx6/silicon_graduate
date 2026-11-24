@@ -12,7 +12,9 @@ reading_depth: read
 year: 2026
 canonical_source: "User-authorized local deterministic report revision of the frozen multipolePDM 0.1.1 jobs, 2026-11-24"
 raw_file: "raw/writing/pado/20261029_review_v1/PDM/figures/data/report_revision/manifest.json"
-raw_sha256: "9af8408c9c8b59c20a430f9283bdbb500b47c8e8cf6d6b2ccc10881242bde49c"
+raw_sha256: "46d42f022b194e49667b7e45758ed2a6936782d3436d898520a9266ebbba3861"
+code_snapshot_file: "raw/code/PDM/archives/20261124-code-inputs/manifest.json"
+code_snapshot_sha256: "de12a545155276455334b05626cdab32a9dc7874c47cbab7ff7c052d9a284b7b"
 raw_storage_status: archived-local
 archive_required: true
 citation_key: PDMDeterministicReportRevision20261124
@@ -89,7 +91,7 @@ tags: [pdm, deterministic-validation, response-grid, finite-domain, polarization
 
 十条均值的中位数记录为0.1075，是合成研究的经验工作点。它不等于单台极化计系统误差下限，也不覆盖实测逐线误差。80Se同表1035.2的P=+0.37(2)，132Ce同表325.1的P=+0.18(2)，直接说明可报道小于0.1075的绝对误差。误差样本中的154Tb204.7、185Au292.3和132Ce351.7不是本批完成二维反演的额外案例。
 
-## 本次工件、实际结论与归档待补项
+## 本次工件、实际结论与归档核验
 
 集合目录为`raw/writing/pado/20261029_review_v1/PDM/figures/data/report_revision/`。
 
@@ -98,7 +100,7 @@ tags: [pdm, deterministic-validation, response-grid, finite-domain, polarization
 | `results.json` | 本次确定性注入及30文献模型的最终数值结果、冻结输入、统计标记和警告 | 已读取30S／30L／9前向，区间质量0.68，随机观测数0 |
 | `large_delta_diagnostics.csv` | 大混合比逐例联合峰、边缘峰、无J积分峰、固定宽度切片峰、质量和包含标记 | 已读取全部12行，对应各模式δ=−10、−5、+5、+10 |
 | `S01.npz`至`S30.npz`、`L01.npz`至`L30.npz` | 对应冻结job的响应、Jacobian、观测与参数密度 | 60个文件及共同字段齐全；最终四联图、90页PDF和64幅图形审计均已核验 |
-| `manifest.json` | 本轮集合的最终路径、大小、哈希、来源和软件身份 | 未验证；待主代理完成并确认最终SHA-256 |
+| `manifest.json` | 本轮集合的最终路径、大小、哈希、来源和软件身份 | 179项已核验；37项代码／文档依赖已改绑同字节固定快照，原哈希与大小不变 |
 
 共同NPZ字段为`angle`、`sigma_over_i`、`parameter_density`、`response_P`、`response_R`、`observation_density`、`valid`、`jacobian`。参数密度保存为对`(ξ,sigma/I)`的密度，写盘时由对`(ξ,sigma)`的密度乘参考自旋I；Jacobian保留核心`(ξ,sigma)`定义。S快照另存`mapped_marginal`、`observation_integral`、`observation_truth_sigma_slice`、`mapped_truth_sigma_slice`及J积分／切片，支撑诊断图，不是新增测量。
 
@@ -108,13 +110,13 @@ tags: [pdm, deterministic-validation, response-grid, finite-domain, polarization
 
 ## Archive and verification boundary
 
-`archive_required: true`持续有效。最终集合清单SHA-256为`9af8408c9c8b59c20a430f9283bdbb500b47c8e8cf6d6b2ccc10881242bde49c`，与frontmatter一致；每个登记项都有实际路径、大小及SHA-256。canonical报告SHA-256为`62d46bd0dea9bc2657c33889e0434efb10a8fd5fa3d714b451a762b53360ebd4`。早期草稿的空哈希与`source-missing`已由最终集合登记替代，不继续作为当前未完成项。
+`archive_required: true`持续有效。软件分类后当前集合清单SHA-256为`46d42f022b194e49667b7e45758ed2a6936782d3436d898520a9266ebbba3861`，与frontmatter一致；每个登记项都有实际路径、大小及SHA-256。原清单`9af8408c9c8b59c20a430f9283bdbb500b47c8e8cf6d6b2ccc10881242bde49c`的完整字节保存在`code_snapshot_file`所登记的前版清单中。只迁移代码／文档引用，179项数量及816969691登记字节不变。canonical报告SHA-256仍为`62d46bd0dea9bc2657c33889e0434efb10a8fd5fa3d714b451a762b53360ebd4`。早期草稿的空哈希与`source-missing`已由最终集合登记替代，不继续作为当前未完成项。
 
 独立逐格积分核验60个快照的二维归一化、实际68% HDI质量、16/50/84%分位数CDF、所绘PDF的mean/std及角区间/局部mode的tan转换，容差2×10⁻¹²，实际通过记录为集合中的`numerical-validation.json`。相关物理/统计回归77项通过；64幅图的渲染遮挡审计为0 FAIL、0 WARN。90页全部目视，只有第18、19、20页的三张主表为A4横向，表字号8.5 pt，其余正文与四联图竖向。最终嵌入PDF最小有效字形约5.02 pt，无页外文字。
 
 按实际文件和哈希判断归档状态，不使用`review_status`决定证据资格。最终source与179文件manifest的定向归档门实际通过（0失败），两页定向lint通过（0问题）；命令与结果写入原执行计划下的本轮验收回执。全库历史问题与本轮检查分开记录，不宣称全库已无错误。
 
-另核实旧`analysis/benchmarks/manifest.json`对`run_benchmarks.py`、旧`analysis/research/manifest.json`对`pdm/statistics.py`各有大小及哈希错配，共四项；本轮未修改这两个被登记文件或覆盖旧清单。新集合登记的是本轮实际使用的依赖字节，冻结统计重放及独立积分检查通过，但不因此宣称旧清单已修复或当前依赖与历史发布包逐字节相同。此未隔离的旧归档问题阻止Git推送，报告保留本地。
+此前所谓“四项归档错配”来自两个正常升级的工作源码各被旧清单校验大小和哈希，并非四个程序故障。2026-11-24经用户授权分类，两个旧版本均从本地0.1.0源码包恢复，精确匹配原大小与SHA-256；当前0.1.1源码保持不动。三个集合的57项代码／文档引用现绑定55份去重固定快照，三个前版清单完整保留，原预期哈希、计算数据及报告内容均不变。维护源码按Git白名单发布；固定证据及结果保留本地。这一版本身份问题已解决，不再作为当前推送阻碍；历史任务的`final-not-pushed`回执仍如实保留。
 
 ## Competing Interpretations and Limitations
 

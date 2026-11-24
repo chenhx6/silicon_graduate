@@ -1,0 +1,1 @@
+{"archive_gate": {"error": "archive gate timed out", "ok": false, "skipped": false}, "diff_check": true, "diff_stderr": "", "event": "after-edit", "ok": false, "shell_checks": []}

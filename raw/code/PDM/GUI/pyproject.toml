@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multipolePDM"
+version = "0.1.1"
+description = "Probability density mapping for nuclear gamma-ray multipole mixing"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = ["numpy>=1.24", "scipy>=1.10", "sympy>=1.12", "matplotlib>=3.7", "PySide6-Essentials>=6.6"]
+classifiers = ["Programming Language :: Python :: 3", "Topic :: Scientific/Engineering :: Physics"]
+
+[project.optional-dependencies]
+analysis = ["jupyterlab>=4", "pandas>=2", "openpyxl>=3.1", "nbconvert>=7"]
+dev = ["pytest>=8", "pytest-qt>=4", "build>=1", "twine>=5", "setuptools>=77", "wheel", "ruff"]
+
+[project.scripts]
+pdm-gui = "multipolepdm.__main__:main"
+multipolepdm = "multipolepdm.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+multipolepdm = ["examples/*.json", "examples/*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

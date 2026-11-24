@@ -156,6 +156,20 @@ def scan_boundary(
     for directory in forbidden_present:
         errors.append(_issue("LEGACY_PATH_PRESENT", directory, "legacy path is not canonical; use outputs/plans/ and remove only with explicit user direction"))
 
+    root_scratch = []
+    for child in sorted(root.iterdir()) if root.is_dir() else ():
+        name = child.name.lower()
+        if (
+            name in {"nul", "scratch"}
+            or name.startswith(".degree-read-")
+            or re.match(r"^[a-z]:[\\/]", name)
+            or child.suffix.lower() == ".png"
+            or (name.startswith("tmp_") and name.endswith(".txt"))
+        ):
+            root_scratch.append(child.name)
+            errors.append(_issue("ROOT_SCRATCH_ARTIFACT", child.name, "temporary artifact is outside tmp/; check its ownership and output path"))
+    checks["root_scratch"] = {"present": root_scratch}
+
     checks["moved_knowledge"] = {}
     for old, new in MOVED_KNOWLEDGE.items():
         old_exists = (root / old).exists()
