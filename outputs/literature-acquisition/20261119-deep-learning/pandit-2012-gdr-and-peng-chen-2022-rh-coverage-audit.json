@@ -1,0 +1,68 @@
+{
+  "checked_at": "2026-11-21T20:10:47.532581+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "PANDIT12-THERMAL-WIDTH-AUDIT",
+      "version": "Phys. Lett. B 713, 434–438 (2012), 10.1016/j.physletb.2012.06.033",
+      "pages": 5,
+      "scope": [
+        "PDF1 abstract and context; PDF2–3 experimental runs, response and fit, width comparisons; PDF4–5 quartic-shape interpretation and CTFM parametrization, conclusion and sources."
+      ],
+      "checks": [
+        "Printed abstract/methods give new runs 201Tl and 63Cu, while 119Sb is previous work. Rejected worker and older note misattribution of 119Sb runs and nonexistent new-data Table 1.",
+        "PDF3 explicitly reports conditional 201Tl fit widths and temperature estimates. PDF4 Eq. (1) gives empirical CTFM threshold.",
+        "Removed unsupported universal pairing-collapse and collision-dominance assertions from canonical active knowledge. Historical numerical experiment remains an independent model artifact."
+      ],
+      "gap": "New gamma spectra constrain fitted widths; no independent microscopic pairing-collapse or collision-dominance measurement.",
+      "lineage": "Own high-energy gamma acquisitions plus prior 119Sb/120Sn/208Pb measurements and phenomenological comparison.",
+      "work_id": "catalogue:LIT-000619",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/1-s2.0-S0370269312006594-main.pdf",
+        "sha256": "e05ec85afd0ea75ae49a678a11ba86f02f5599bfdee98c1000b79c4df6df5aac",
+        "size": 396263,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/pandit-2012-gdr-thermal-width-critical-behavior.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "PENG22-RH-CHIRAL-ROTATION-AUDIT",
+      "version": "Phys. Rev. C 105, 044318 (2022), 10.1103/PhysRevC.105.044318",
+      "pages": 8,
+      "scope": [
+        "PDF1–2 context and PC-PK1 3D cranking inputs; PDF3–7 orientation, alignment and comparison figures; PDF8 summary, references."
+      ],
+      "checks": [
+        "PDF3 onset gives five isotope-specific frequencies. 102Rh remained planar through 0.75 MeV; no converged solution at higher frequency for the configuration, no new threshold accepted.",
+        "Cited experimental bands supply comparison values. Quantized partner splitting and pairing effects are separate from the unpaired mean-field solution. Existing source note already records these distinctions."
+      ],
+      "gap": "No measured onset or new experimental pair assignment in this model paper.",
+      "lineage": "Theory comparison with external spectroscopy. Related modern or classic chiral calculations are independent models, not duplicate measurements.",
+      "work_id": "catalogue:LIT-000621",
+      "raw": {
+        "path": "raw/papers/2022_Peng_Chen_Evolution of the chiral rotation mode in rhodium isotopes.pdf",
+        "sha256": "96d6a04d4f7defc0c68ae62dcc401f3859056c353f219aa55e5f2dde26c081df",
+        "size": 831494,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/peng-chen-2022-chiral-rotation-rhodium-isotopes.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 13
+}

@@ -3,7 +3,7 @@ type: source
 title: "Pálffy 2006 博士论文：重离子电子俘获诱发核激发（NEEC）理论"
 aliases: [Pálffy 2006 NEEC thesis, Theory of nuclear excitation by electron capture]
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-theory
@@ -25,7 +25,7 @@ zotero_uri:
 library_file: "raw/theses/degree-dissertation/palffy phd thesis  Theory of nuclear excitation by electron capture for heavy ions.pdf"
 raw_file: "raw/theses/degree-dissertation/palffy phd thesis  Theory of nuclear excitation by electron capture for heavy ions.pdf"
 raw_sha256: "648E48D8EDC06D7F5C6CF47DA2ECE1914432978576C6E6A6B934D18B37F73665"
-nuclei: [174yb, 235u]
+nuclei: [174yb, 235u, 238u]
 reactions: ["highly-charged-ion electron recombination collisions"]
 experiments: []
 models: [dirac-equation, nuclear-collective-model, feshbach-projection-formalism]
@@ -62,6 +62,8 @@ Adriana Gagyi-Pálffy，*Theory of nuclear excitation by electron capture for he
 3. Total cross sections 显示极窄 Lorentzian 共振，比较不同 highly-charged ions 和 shells。
 4. NEEC-RR interference 在窄核宽度下较小，但 RR 是普遍背景。
 5. E2 NEEC angular pattern 与 RR E1 `sin²θ` 不同，可用角度抑制背景。
+
+PDF34 对应印刷 p.34。Table 3.1 分列核激发能 \(E_n\)、共振处连续电子能 \(E_d\)、捕获轨道、NEEC 速率 \(Y_n\)、共振宽度与积分共振强度 \(S\)，其中包括 238U 的多个俘获轨道。各列单位与物理意义不同。PDF73–75 的仪器分辨率与辐射复合背景讨论属于针对该模型的可观测性估计。论文的核输运或谱学判断应回到其所用的核结构输入，避免把可行性表格当作观测结果。
 
 ## Summary
 

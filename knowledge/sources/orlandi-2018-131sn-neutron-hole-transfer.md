@@ -3,7 +3,7 @@ type: source
 title: "Orlandi et al. 2018 - Neutron-hole states in 131Sn and spin-orbit splitting"
 aliases: [Orlandi 2018 131Sn neutron removal, N81 neutron-removal levels]
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-11-22
 status: active
 review_status: unreviewed
 source_type: journal-article-transfer-experiment
@@ -50,6 +50,8 @@ The paper reports the first heavy-region inverse-kinematics neutron-removal stud
 The article combines these hole-state results with 133Sn particle-state energies from earlier 132Sn(d,p) measurements. It reports that normalized spin-orbit splitting for weakly bound 3p states is about 50% lower than for well-bound 2d states. Woods–Saxon calculations with one common spin-orbit strength reproduce the observed trend; the authors explain it through extended weakly bound radial wavefunctions and reduced surface amplitude, not through a weaker spin-orbit potential.
 
 ## Key Results
+
+The setup used a 214 \(\mu\mathrm{g/cm^2}\) deuterated polyethylene target, replaced after 40 hours with a 350 \(\mu\mathrm{g/cm^2}\) target. The authors report that the replacement nearly doubled the count rate with little change in the energy resolution. See Surrey PDF p.3 (journal p.616, experimental-setup paragraph). The combined spectrum's resolution and the model assumption for the unresolved doublet remain separate conditions.
 
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|

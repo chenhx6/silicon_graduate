@@ -3,7 +3,7 @@ type: source
 title: "Walz et al. 2015 - Observation of the competitive double-gamma nuclear decay"
 aliases: [Walz 2015 137Ba competitive 2γ decay]
 created: 2026-09-20
-updated: 2026-09-21
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -22,6 +22,7 @@ canonical_source: "https://doi.org/10.1038/nature15543"
 library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2015_Walz et al_Observation of the competitive double-gamma nuclear decay.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2015_Walz et al_Observation of the competitive double-gamma nuclear decay.pdf"
 raw_sha256: "4177a89672ef1362d9dc35ff1292c7550c2db477fe34b61abaec4c72475b9c45"
+archive_required: true
 supplementary_raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/SUPPLEMENTARY INFORMATION.pdf"
 supplementary_raw_sha256: "e02bb09bae8f80252a4dca64fe2d487d2c05f292abda1f3a5249ff614a70e2d9"
 nuclei: [137Ba, 137Cs]
@@ -44,6 +45,8 @@ tags: [137Ba, competitive-double-gamma, two-photon-decay, LaBr3, QPM]
 - 4-page Nature Letter; the separate `SUPPLEMENTARY INFORMATION.pdf` in the batch is attached material audited as HS-116, not an independent experiment.
 
 ## Scope and Reading Depth
+
+- 核定馆藏主件 PDF 1–4（印刷 pp.406–409）。PDF1–2 为五台 LaBr₃ 与时间、能量和的观测，PDF3 为 Fig. 3 的能量和峰与 Fig. 4 联合拟合，PDF4 为结论和书目。PDF3 将 \(|E_1-E_2|<250\) keV 写在能量和谱与角关系积分的语境中。原文同时提供能量共享谱比较。历史笔记对截断导致多极解变化的归因属于后续假设，仍需在共同响应、能窗与拟合输入下检验。
 
 - PDF pp.406–409 fully read: setup/obstacles, Figs.1–4, energy/time gates, background subtraction, angular-correlation formalism Eq.(1–2), Table 1, QPM comparison and conclusion.
 - Figure audit: five-LaBr3 geometry and Compton/random backgrounds (Fig.1), 72° energy/time spectra and level scheme (Fig.2), 144° spectrum (Fig.3), fitted energy/angular correlation and QPM terms (Fig.4).

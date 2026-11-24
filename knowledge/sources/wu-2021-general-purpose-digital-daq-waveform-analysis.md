@@ -3,7 +3,7 @@ type: source
 title: 吴鸿毅等 2021：基于数字化的通用获取系统及波形分析算法
 aliases: [Wu 2021 GDDAQ article, digital DAQ waveform analysis 2021]
 created: 2026-09-11
-updated: '2026-11-08'
+updated: '2026-11-22'
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-method
@@ -43,6 +43,8 @@ archive_required: true
 吴鸿毅、李智焕、吴婧、华辉、王翔、李湘庆、徐川，*基于数字化的通用获取系统及波形分析算法*，科学通报 66 (2021) 3553–3560，DOI `10.1360/TB-2021-0552`。这是期刊方法论文，不是学位论文；本批次把它作为吴鸿毅 2020 博士论文的 related/dependent source。原始 PDF 8 页，SHA-256 为 `c1a2bd226faf52cef144d00463414906c9e44c779075fde57d66f5161a697820`。
 
 ## Scope and Reading Depth
+
+本轮重新核定八页刊版，PDF 页加 3552 为印刷页码。PDF4–5 的计数率示例来自该实验所用的两种获取方案，性能结论限于所报条件。数据库仍将本篇与学位论文的同图和同测试关联。
 
 2026-11-08本轮回读：总控核原PDF首页页码3553–3560及其与吴2020学位论文的依赖。此前新增的G32期刊source重复本作品，已并回本canonical页；物理响应链见[[doctoral-r1-g32-digital-daq-observable-chain-20261108]]。没有把同图/同测试计为独立复现。
 

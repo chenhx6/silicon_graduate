@@ -1,0 +1,69 @@
+{
+  "checked_at": "2026-11-21T21:48:36.339386+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "SENSHARMA-PR135-CHIRAL-WOBBLING-ARCHIVE",
+      "version": "arXiv:2403.10749v2, 15 Jan 2026; journal DOI in linked source",
+      "pages": 17,
+      "scope": [
+        "PDF1–7 experimental definitions, matching Table I and coincidences; PDF7–15 model, angular and cross-paper comparison; PDF15–17 conclusion and references."
+      ],
+      "checks": [
+        "PDF5 explicitly lacks polarization; DB1/DB2 parity tentative in this work.",
+        "PDF6 Table I gives -0.10(6), -0.15(3), -0.11(2) for three new weak links; rejected worker numbers.",
+        "Fig. 12 fixed sigma/I=0.2 belongs to the earlier-transition reanalysis. Kept distinct from the new links and the record of common dataset lineage."
+      ],
+      "gap": "No measured linear P in this run, event-level angular distribution data or all nuisance profiles.",
+      "lineage": "One experimental lineage, comparing earlier angular observations and other analyses.",
+      "work_id": "catalogue:LIT-000686",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260912-PREPLAN-135pr-refresh/sensharma-2026-135pr-chirality-wobbling.pdf",
+        "sha256": "294f791a230a12005ef43a237afb25b9bf731f8f520a1a65d6b32d0386ef91b3",
+        "size": 6330099,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "SENYIGIT14-AGATA-NEUTRON-REJECTION",
+      "version": "arXiv:1306.2788v1, attached NIM A DOI 10.1016/j.nima.2013.09.035",
+      "pages": 15,
+      "scope": [
+        "PDF1–4 setup/model, PDF5–9 tracking and spectra, PDF10–13 cut comparison and benchmarks, PDF14–15 concluding claims and references."
+      ],
+      "checks": [
+        "PDF13 Table 4 applies OR acceptance and separate denominators. Rejected worker conjunction wording.",
+        "69/72% reduction for 1040-keV peak and peak+bump with 25.8% 1332-keV gamma count cost at measured conditions. Not a universal cut.",
+        "Retained source note on textual vs table labels for 1173/1332 using explicit locators."
+      ],
+      "gap": "No retuning on other detectors/reactions or unreported covariance recovered.",
+      "lineage": "Own bench source samples and response simulations.",
+      "work_id": "catalogue:LIT-000687",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/senyigit-2014-agata-neutrons.pdf",
+        "sha256": "cb796a846c155927d1f559a87a4772cd703904c2d6bdd81bcdde61a7dd06986c",
+        "size": 1969628,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 32
+}

@@ -3,11 +3,11 @@ type: source
 title: "Rather et al. 2014 — 104Pd反磁转动（arXiv全文版）"
 aliases: [Rather 2014 104Pd AMR full arXiv, 1402.3422]
 created: 2026-10-29
-updated: 2026-10-29
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: experimental-and-theoretical-research
-reading_depth: read
+reading_depth: deep-read
 title_original: "Observation of anti-magnetic rotations in 104Pd"
 authors: [N. Rather, S. Roy, P. Datta, S. Chattopadhyay, A. Goswami, S. Nag, R. Palit, S. Pal, S. Saha, J. Sethi, T. Trivedi, H. C. Jain]
 journal: "Physical Review C"
@@ -64,6 +64,8 @@ Rather 2014全文补足了104Pd的逐点B(E2)和J(2)/B(E2)表。由表中B(E2)�
 - [[rather-2014-104pd-antimagnetic-first-page]]
 
 ## Competing Interpretations and Limitations
+
+PDF3 的线形拟合使用 40°、157° 角矩阵，模拟速度历史时包含 90°。模型使用五级侧馈级联和带壳修正的 Northcliffe–Schilling 阻止本领。对最高 \(26^+\) 态假设全部由侧馈布居，所以表中 0.66(3) ps 对应在该条件下拟合出的有效寿命。较低态拟合继承上级馈入信息。Table 1 的 \(J^{(2)}/B(E2)\) 列到 \(24^+\)。
 
 Table 1的J(2)/B(E2)是作者列出的观测派生量；本页将其与B(E2)相乘得到J(2)，因此保留“派生值”标签。直接从完整Eγ级联重算仍需对图1能级和自旋约定逐点读取。DSAM中的stopping、side-feeding和顶端26+ effective lifetime会影响绝对值。Rather的半经典模型使用两质子空穴有效构型，而Zhang2019的PNC计算得到四个部分空g9/2空穴；不能将两者混写成同一量子波函数。
 

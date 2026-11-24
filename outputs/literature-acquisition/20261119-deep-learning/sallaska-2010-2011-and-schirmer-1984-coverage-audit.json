@@ -1,0 +1,99 @@
+{
+  "checked_at": "2026-11-21T21:37:42.815829+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "SALLASKA10-11-VERSION-LINEAGE",
+      "version": "arXiv:1008.4170v2, PRL 105, 152501 (2010)",
+      "role": "verified-arxiv-author-version",
+      "pages": 4,
+      "scope": [
+        "Prior coverage PDF1–4 reused; actual Eq. (1) PDF2 and Table I PDF3 checked."
+      ],
+      "checks": [
+        "Shared campaign and four finite strengths match the detailed paper within the reported table scope.",
+        "Eq. (1) wavelength label differs from the detailed paper; scope stops short of resolving producer convention. Erratum metadata is not full text."
+      ],
+      "gap": "Separate erratum body unavailable in this scope.",
+      "lineage": "Short report of the same experiment as 2011 detailed paper.",
+      "work_id": "catalogue:LIT-000673",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/sallaska-2010-letter-arxiv-v2.pdf",
+        "sha256": "e004080c48c26d3de6f6b611ddb7d121b655e9fa96477f9956e1c26c5ebbe090",
+        "size": 208868,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+          "declared_reading_depth": "read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "SALLASKA10-11-VERSION-LINEAGE",
+      "version": "arXiv:1009.3925v2, PRC 83, 034611 (2011)",
+      "role": "verified-arxiv-author-version",
+      "pages": 20,
+      "scope": [
+        "Prior full article reading reused; PDF2 rates convention, PDF16–17 branch and resonance tables; PDF18–20 final discussion and sources."
+      ],
+      "checks": [
+        "Detailed paper gives branch strengths and extended calibration/interpretation, but no separate repetition of the four main yields.",
+        "Preserve conditional relation of yield to resonance strength and old limit conventions. No new worker numeric branches or control claims adopted."
+      ],
+      "gap": "No independent reanalysis of event data or target normalization.",
+      "lineage": "Detailed analysis of the measurement also reported in the 2010 Letter.",
+      "work_id": "catalogue:LIT-000674",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/sallaska-2011-na22-arxiv-v2.pdf",
+        "sha256": "19a8218ff8c0199409b785dad7ee036445db1b299b2c4b9ab2dc62d6e360efc5",
+        "size": 840137,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "SCHIRMER84-DOUBLE-GAMMA",
+      "version": "Phys. Rev. Lett. 53, 1897–1900 (1984), printed edition",
+      "role": "verified-publisher-edition",
+      "pages": 4,
+      "scope": [
+        "PDF1–2 setup and kinematic cuts; PDF2–3 angular correlation and polarization; PDF3–4 comparison/model and sources."
+      ],
+      "checks": [
+        "Original polarization ratios and competing reciprocal solutions checked against existing source scope.",
+        "Directional-correlation fit and azimuthal preference are same measurement evidence, not independent. No unverified worker ratio direction used."
+      ],
+      "gap": "No original event matrix or exact full systematic covariance.",
+      "lineage": "Own 40Ca and 90Zr experiments and secondary shell-model/scattering comparison.",
+      "work_id": "catalogue:LIT-000677",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/1984_Schirmer et al_Double Gamma Decay in Ca 40 and Zr 90.pdf",
+        "sha256": "2e84b4c7bda5077f41edd381e9c225c4e1a898fe988c3c7824e9ecefaaa9adfa",
+        "size": 664733,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/schirmer-1984-double-gamma-40ca-90zr.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 3,
+  "credited_primary_pages": 28
+}

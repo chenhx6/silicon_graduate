@@ -3,7 +3,7 @@ type: source
 title: "Summary of Bases for Spin and Parity Assignments (2010 compilation)"
 aliases: [Nuclear Data Sheets spin parity assignment bases]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: data-sheet-method-summary
@@ -18,6 +18,7 @@ canonical_source: "Nuclear Data Sheets summary of bases for spin and parity assi
 library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/Summary of Bases for Spin and Parity Assignments.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/Summary of Bases for Spin and Parity Assignments.pdf"
 raw_sha256: "671963d1bf820cd35e03960d70c7c6c0a1b243b872fcd72923049853807a77fa"
+archive_required: true
 nuclei: [assignment-methods]
 reactions: [transfer, Coulomb-excitation, neutron-capture, high-spin-reaction]
 experiments: []
@@ -32,7 +33,7 @@ tags: [spin-parity, DCO, polarization, angular-distribution, method-summary]
 ## Bibliographic Record
 
 - Nuclear Data Sheets editorial summary, pp. iv–vi (2010 compilation PDF supplied in batch).
-- 3-page compact proposition sheet; exact hash recorded above. It is a navigation/checklist source, not a new experiment.
+- The 2010 and 2013 PDFs both carry pp. iv–vi. A text comparison found typesetting or extraction-order differences and matching proposition texts. These are two archived copies of the same modern guidance. See [[summary-2013-bases-spin-parity-assignments]].
 
 ## Scope and Reading Depth
 
@@ -43,6 +44,7 @@ All propositions were read: strong/weak bases from ground-state, γ multipolarit
 - Strong evidence requires multiple independent observables: conversion coefficients, angular correlations, polarization, DCO, transfer `L`, Coulomb-excitation probabilities and rotational-band consistency.
 - For high-spin bands, at least one secure spin/parity plus established E2/M1 links and additional stretched transition checks are required; a regular sequence alone is weak evidence.
 - DCO and polarization rules are geometry/population dependent; the sheet provides typical values (`R_DCO≈1/0.5` or `2/1`, `A2/A4` examples) rather than universal thresholds.
+- The introduction to propositions 19–21 on printed pp. iv–v specifies a typical magnetic-substate population parameter \(\sigma/J=0.3\). In proposition 19a, \(A_2\approx+0.3\) is a separate coefficient in the stretched-quadrupole example. These are assignment reference values. Establishing the prevalence of fixed-width δ extraction requires evidence from the procedures in original measurement papers.
 - Magnetic moments/g factors, regional interpolation and nonobservation are explicitly weak or supporting bases.
 
 ## Key Results

@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-11-22T00:33:45.184906+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 764,
+      "task": "DIGITAL-ACQUISITION-THESIS-IDENTITY",
+      "pages": 8,
+      "version": "Chinese Science Bulletin 66(27) 3553–3560 (2021), printed journal paper",
+      "role": "verified-publisher-journal-article",
+      "scope": [
+        "PDF1–4 architecture, algorithms, trigger and parameter optimization",
+        "PDF4–6 acquisition and waveform test cases",
+        "PDF6–8 conclusion, bibliography and English summary"
+      ],
+      "checks": [
+        "PDF1 identifies the journal article and DOI, despite the library directory label.",
+        "PDF4–5 distinguishes analog and digital spectra at the actual trigger rates. Existing linkage to the related doctoral work avoids counting shared figures and instrument tests as independent data."
+      ],
+      "gap": "Tests apply to the reported configuration. Firmware and raw waveform replay remain outside the study scope.",
+      "lineage": "Journal method article with overlapping technical examples from the associated thesis.",
+      "work_id": "catalogue:LIT-000764",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/基于数字化的通用获取系统及波形分析算法.pdf",
+        "sha256": "c1a2bd226faf52cef144d00463414906c9e44c779075fde57d66f5161a697820",
+        "size": 3986225,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-journal-article"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/wu-2021-general-purpose-digital-daq-waveform-analysis.md",
+          "declared_reading_depth": "read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 771,
+      "task": "YAO12-SI34-BUBBLE-ORIGINAL",
+      "pages": 9,
+      "version": "arXiv:1205.2262v1, archived nine-page theory manuscript",
+      "role": "verified-arxiv-author-version",
+      "scope": [
+        "PDF1–3 context and model",
+        "PDF4–7 spectrum, shape mixing and density analysis",
+        "PDF8–9 conclusion and references"
+      ],
+      "checks": [
+        "PDF7 Tables I–II distinguish point-proton from charge densities. On the chosen depletion definition HF point proton gives 0.41, GCM point proton 0.21, and GCM charge 0.09.",
+        "Cited spectroscopy provides comparison points and the electron-scattering discussion is a proposed experimental diagnostic."
+      ],
+      "gap": "Densities depend on the functional, correlations and folding prescription. No new direct charge-density measurement in this work.",
+      "lineage": "Theory with cited spectroscopy for comparison.",
+      "work_id": "catalogue:LIT-000771",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam/yao-2012-34si-beyond-mean-field-bubble.pdf",
+        "sha256": "a3e8765895514298dc2479dc935617ed9972af418fcf9acb28fe83b497c0a0d2",
+        "size": 577037,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/yao-2012-34si-beyond-mean-field-bubble.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 17
+}

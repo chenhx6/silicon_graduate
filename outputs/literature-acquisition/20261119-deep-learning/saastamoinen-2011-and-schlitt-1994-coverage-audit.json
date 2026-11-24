@@ -1,0 +1,72 @@
+{
+  "checked_at": "2026-11-21T21:32:43.385255+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "SAASTAMOINEN11-THESIS-EVIDENCE",
+      "version": "University of Jyväskylä PhD and Research Report No. 9/2011, 112 physical pages",
+      "role": "verified-doctoral-thesis",
+      "pages": 112,
+      "scope": [
+        "Two explicit units subsequently cover PDF1–51 and PDF52–112. PDF17–112 correspond to printed pp.1–96.",
+        "PDF1–51 front matter, production and methods; PDF52–94 techniques and results; PDF95–112 summary, appendix, back matter."
+      ],
+      "checks": [
+        "Originally skimmed according to actual source and queue, so requested both full-cover reading units.",
+        "Table 5.1 on PDF65 gives measured ratio and converted 6748.07(34) keV mass excess; PDF66 shows cubic coefficient consistent with zero under that analysis.",
+        "Existing detector response and gamma normalization distinct from the mass experiment and fitted or inherited quantities."
+      ],
+      "gap": "Full computation and detector-response reanalysis remain outside coverage.",
+      "lineage": "Thesis includes several measurement campaigns and relies on earlier masses and intensity calibrations.",
+      "work_id": "catalogue:LIT-000672",
+      "raw": {
+        "path": "raw/theses/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/saastamoinen-2011-thesis.pdf",
+        "sha256": "53050e00d906ee42d7e4bf15d80feafbebc4e2c52ecfffd451eb432afdcb197c",
+        "size": 7996041,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-doctoral-thesis"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "SCHLITT94-GE-POLARIMETER",
+      "version": "NIM A 337, 416–426 (1994), publisher copy",
+      "role": "verified-publisher-edition",
+      "pages": 11,
+      "scope": [
+        "PDF1–4 design, sign conventions and Eq. (16); PDF5–8 instrumental response and calibration; PDF9–11 parity examples and references."
+      ],
+      "checks": [
+        "Eq. (21) gives H_unpol/V_unpol. Eq. (16) and Eq. (25) work together, rejecting worker replacement interpolation form.",
+        "Table 3 value 7.93(31) percent for 4438 keV at 150-keV threshold distinguished from approximate Table 4 summary 9.5 percent.",
+        "Monochromatic response and parity dependence remain instrument- and setup-specific as stated in the original."
+      ],
+      "gap": "No transfer of calibration to a Clover array or unpublished calibration spectra.",
+      "lineage": "Own detector measurements and polarization cases, with source cascade properties used to calibrate.",
+      "work_id": "catalogue:LIT-000678",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1994_Schlitt et al_A sectored Ge-Compton polarimeter for parity assignments in photon scattering.pdf",
+        "sha256": "d23380e6a8bea4be9e77c845ba125f3b934765744bad6a1f300a3301aae07684",
+        "size": 868962,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 123
+}

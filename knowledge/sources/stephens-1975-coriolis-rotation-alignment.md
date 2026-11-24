@@ -3,7 +3,7 @@ type: source
 title: "Coriolis effects and rotation alignment in nuclei"
 aliases: ["Stephens 1975 Coriolis effects", "Coriolis rotation alignment review"]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: review
@@ -14,17 +14,18 @@ journal: "Reviews of Modern Physics"
 year: 1975
 volume: 47
 issue: 1
-pages: "43-64"
+pages: "43-65"
 doi: "10.1103/RevModPhys.47.43"
 citation_key: Stephens_1975
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 language: en
-canonical_source: "Stephens, F. S. Coriolis effects and rotation alignment in nuclei. Rev. Mod. Phys. 47, 43-64 (1975)."
+canonical_source: "Stephens, F. S. Coriolis effects and rotation alignment in nuclei. Rev. Mod. Phys. 47, 43-65 (1975)."
 library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/转动/1975_Stephens_Coriolis effects and rotation alignment in nuclei.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/转动/1975_Stephens_Coriolis effects and rotation alignment in nuclei.pdf"
 raw_sha256: "25369cc4420667d6c38c52d5e6e5a489b48431aaa709998c4743f92ab5049ac3"
-nuclei: ["182W", "235U", "rare-earth odd-mass nuclei", "A≈130 context"]
+archive_required: true
+nuclei: ["183W", "235U", "rare-earth odd-mass nuclei", "A≈130 context"]
 models: ["particle-rotor-model", "cranked-shell-model", "Nilsson-model"]
 observables: ["rotation-alignment", "backbending", "signature-splitting", "band-crossing", "moments-of-inertia"]
 methods: ["angular-momentum-alignment", "rotational-band-analysis"]
@@ -36,13 +37,13 @@ tags: [Coriolis-coupling, rotation-alignment, backbending, band-crossing, review
 ## Bibliographic Record
 
 - 作者：F. S. Stephens。
-- 期刊：*Reviews of Modern Physics* 47(1), 43-64 (1975)。DOI：`10.1103/RevModPhys.47.43`。
+- 期刊：*Reviews of Modern Physics* 47(1), 43–65 (1975)。DOI：`10.1103/RevModPhys.47.43`。
 - 原始文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/转动/1975_Stephens_Coriolis effects and rotation alignment in nuclei.pdf`；SHA-256：`25369cc4420667d6c38c52d5e6e5a489b48431aaa709998c4743f92ab5049ac3`。
 
 ## Scope and Reading Depth
 
 - Completed reading_depth: `deep-read`。
-- Covered scope: PDF pp.43-64 全文；Coriolis Hamiltonian、`182W` 两带混合、`235U` 多带、奇质量 Er、弱形变核、偶偶核 rotation alignment、backbending、模型比较和结论均已阅读。
+- Covered scope: 23 个物理 PDF 页，印刷 pp.43–65。PDF 1–6 为 Coriolis 哈密顿量和 `183W`、`235U`、Er 案例，PDF 7–13 为弱形变核与解耦带，PDF 14–22 为反弯、顺排和奇核阻塞，PDF 23 为书目末页。章节在部分页交接。
 - Not covered: cited papers and later cranked-shell/particle-rotor developments。
 - Coverage caveats: review uses axial particle-plus-rotor/CSM language and historical notation; later triaxial/TPSM interpretations require separate sources。
 
@@ -55,12 +56,12 @@ tags: [Coriolis-coupling, rotation-alignment, backbending, band-crossing, review
 
 - 以变形轴对称 core 与粒子耦合的 particle-rotor Hamiltonian 为起点，把总角动量写为 `R=I−j`，Coriolis term 连接相邻 `K` bands。
 - 低影响情形用带混合/扰动处理；高自旋或弱耦合情形用多带混合、rotation-alignment 和 cranked-shell descriptions 比较。
-- 综述用 `182W` 两带、`235U` 多带、奇质量 Er 和偶偶/odd-mass backbending 例子建立从解析模型到系统学的路径。
+- 综述用 `183W` 两带、`235U` 多带、奇质量 Er 和偶偶/odd-mass backbending 例子建立从解析模型到系统学的路径。
 
 ## Key Evidence and Reasoning Chain
 
 1. Coriolis matrix elements increase with spin, particle `j` and rotational frequency, while level spacing and moment of inertia set the perturbative boundary（PDF pp.43-48）。
-2. `182W` demonstrates two-band Coriolis mixing; fitted level repulsion can reproduce spectra but parameters are not unique because vibrational admixtures and additional Nilsson states can mimic effects（PDF pp.44-48）。
+2. `183W` 的 Fig. 1 转述 Kerman 的两带混合分析。引入振动混合或其它 Nilsson 轨道会扩大可拟合的参数范围（PDF2，印刷 p.44）。
 3. `235U` and odd-mass Er examples show large-j orbitals and alignment change rotational spacings, signature dependence and band crossings（PDF §§II-III）。
 4. Even-even rotation alignment/backbending is described as a two-quasiparticle alignment phenomenon; odd-mass backbending depends on particle-core coupling and blocking（PDF §IV）。
 5. The review treats deformation, pairing and residual interactions as coupled causes; it does not support assigning every crossing to a single Coriolis mechanism（PDF §§III-V）。
@@ -77,10 +78,11 @@ Stephens' review supplies the historical physical map from Coriolis coupling to 
 | ST75-2 | Coriolis coupling mixes neighboring K bands and produces level repulsion, alignment and signature effects. | review-synthesis | direct | PDF §§II-III | false |
 | ST75-3 | Backbending is linked to rotational alignment of high-j quasiparticles, with blocking and pairing modifying odd-mass cases. | review-synthesis | direct | PDF §IV | true |
 | ST75-4 | Historical fits can reproduce spectra while leaving deformation/vibrational/extra-orbital parameter ambiguity. | limitation | direct | PDF pp.44-48 | false |
+| ST75-5 | 在轴对称高 `j` 粒子–转子近似中，`C≈2A` 使哈密顿量的显式 `Ω²` 项近似抵消。完全解耦极限的优先序列随核芯偶自旋能级间距排列。轨道占据、形变和自旋范围决定近似可用性。 | model-principle | direct | PDF7–8（印刷 pp.49–50），Eqs. 11–21 | false |
 
 ## Nuclear Structure Information
 
-- `182W`, `235U`, odd-mass Er and even-even/odd-mass rare-earth cases are examples; no new single-nucleus source page created。
+- `183W`、`235U`、奇质量 Er 及偶偶稀土反弯为综述例证。原实验和综述模型解释应各自追溯。
 
 ## Competing Interpretations and Limitations
 

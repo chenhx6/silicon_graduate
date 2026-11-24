@@ -3,7 +3,7 @@ type: source
 title: "Pfützner et al. 2012 - Radioactive decays at limits of nuclear stability"
 aliases: [Pfützner 2012 drip-line radioactive decays]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: review
@@ -13,12 +13,12 @@ authors: [M. Pfützner, M. Karny, L. V. Grigorenko, K. Riisager]
 journal: "Reviews of Modern Physics"
 year: 2012
 volume: 84
-pages: "567-613"
+pages: "567-619"
 doi: "10.1103/RevModPhys.84.567"
 citation_key: Pf_tzner_2012
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
-canonical_source: "Pfützner et al., Rev. Mod. Phys. 84, 567-613 (2012)"
+canonical_source: "Pfützner et al., Rev. Mod. Phys. 84, 567-619 (2012)"
 library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2012_Pfützner et al_Radioactive decays at limits of nuclear stability.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2012_Pfützner et al_Radioactive decays at limits of nuclear stability.pdf"
 raw_sha256: "8e70ebfb00b61f7288535dc70de5de15b88f81cccde43a412fd9fcae7b4decd2"
@@ -37,12 +37,12 @@ tags: [drip-lines, radioactive-decay, proton-radioactivity, two-proton-radioacti
 
 ## Bibliographic Record
 
-- M. Pfützner *et al.*, *Rev. Mod. Phys.* **84**, 567–613 (2012), DOI `10.1103/RevModPhys.84.567`.
+- M. Pfützner *et al.*, *Rev. Mod. Phys.* **84**, 567–619 (2012), DOI `10.1103/RevModPhys.84.567`.
 - 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2012_Pfützner et al_Radioactive decays at limits of nuclear stability.pdf`。
 
 ## Scope and Reading Depth
 
-- PDF pp.567–613 (53 pages) fully read: stability limits, production/separation/detection, β-delayed particles, proton and α radioactivity, true two-proton radioactivity, neutron emission and conclusions.
+- Physical PDF1–53 corresponds to printed pp.567–619. The full review covers stability limits, production/separation/detection, β-delayed particles, proton and α radioactivity, two-proton radioactivity, neutron emission, conclusions and references. Page references to 567 and above on this page are printed page numbers.
 - Not covered: primary data sets, post-2012 discoveries and cited model codes.
 
 ## Key Results

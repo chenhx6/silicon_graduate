@@ -1,0 +1,72 @@
+{
+  "checked_at": "2026-11-21T20:40:05.645462+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "QIANG19-BA-ZR-THESIS-READING-AUDIT",
+      "version": "Lanzhou University PhD, Qiang Yunhua, 2019",
+      "role": "verified-doctoral-thesis",
+      "pages": 92,
+      "scope": [
+        "Prior thesis full-reading record retained; PDF1 title, PDF3–9 abstracts and contents, PDF10 onwards numbered body.",
+        "Manager checked PDF49–50, 64, 80 and 92 for angle setups, half-life discrepancy, convolution fit, and date."
+      ],
+      "checks": [
+        "Actual title shows May 11 defense; June date is in acknowledgments, not recast as the degree date.",
+        "PDF49–50 Eq. (4.7) gives efficiency-corrected 152 and 90 degree ratio and four-angle delta fit explicitly uses sigma/J=0.3.",
+        "PDF80 (printed 71) contains Zr87 mean lifetime 1017(16) ps. PDF64 (printed 55) gives Ba130 9.4 ms, with abstract 9.5 ms. Repaired stale locators."
+      ],
+      "gap": "Look to independent source for polarization and absolute quantities not measured in the Ba campaign. Thesis and papers share parts of the campaign.",
+      "lineage": "Ba GALILEO run overlaps subsequent papers by stated setup; Zr beta-gamma lifetime campaign is separate.",
+      "work_id": "catalogue:LIT-000639",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/A强赟华博士论文-兰大.pdf",
+        "sha256": "ccfaeff6d5a86c308440acc218391070c46290c6133fa7104fe83ece11e73ebf",
+        "size": 6447405,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-doctoral-thesis"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/qiang-2019-high-spin-130-131ba-87zr.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "RADFORD05-SN130-COULEX-TRANSFER",
+      "version": "Eur. Phys. J. A 25 Suppl. 1, 383–387 (2005), DOI 10.1140/epjad/i2005-06-205-y",
+      "role": "verified-publisher-edition",
+      "pages": 5,
+      "scope": [
+        "PDF1–3 intro, Coulomb excitation and preliminary Sn strengths; PDF3–5 transfer spectra and relative strengths, discussion and sources."
+      ],
+      "checks": [
+        "PDF2 supports 0.023(5) for Sn130 and isomer fractions as reported. Fit normalization, mixed beam, and quoted unit conventions remain conditional.",
+        "PDF4 checks 135Te 929+1180 coincidence and 2109 candidate assignment. Table 2 normalizes to 659 keV and brackets h11/2 stand-in for 1180 keV.",
+        "No post-hoc beam correction or statistical precision added."
+      ],
+      "gap": "Primary spectra and yield covariance outside proceedings. Several transfer assignments remain model constrained.",
+      "lineage": "HRIBF Coulomb and transfer are separate acquisition routes. Systematics figures also cite earlier measurements.",
+      "work_id": "catalogue:LIT-000644",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/radford-2005-130sn-coulex-source.pdf",
+        "sha256": "9d3325519c41ddf1440b76f2b45dbac0788617ee0c2a872435c6e82b15b123ed",
+        "size": 186867,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/radford-2005-130sn-coulomb-excitation-126-130sn.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 97
+}

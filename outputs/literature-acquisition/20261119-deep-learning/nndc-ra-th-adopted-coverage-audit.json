@@ -60,8 +60,8 @@
         "hash_basis": "fresh-hash",
         "source_role": "official-ensdf-adopted-dataset-pdf"
       },
-      "pdf_scope": "PDF1 ground-state alpha and 20O branch; full level and gamma tables P2–24 and schemes P25–46 pending.",
-      "full_adopted_object_covered": false
+      "pdf_scope": "PDF1 evaluation, ground state, and datasets. PDF2–6 adopted levels and band footnotes. PDF7–24 gamma table and normalization, assignment, mixing and conversion notes. PDF25–44 level maps. PDF45–46 band plots.",
+      "full_adopted_object_covered": true
     },
     {
       "work_id": "catalogue:LIT-000599",
@@ -79,8 +79,8 @@
       "full_adopted_object_covered": true
     }
   ],
-  "credited_works": 4,
-  "credited_primary_pages": 37,
+  "credited_works": 5,
+  "credited_primary_pages": 83,
   "checks": [
     "222Ra yield, relative gamma branching and evaluator-converted strengths retain their distinct definitions.",
     "222Ra 14C measured ratios and the 208Pb 3-minus limit retain their separate denominators.",
@@ -88,7 +88,21 @@
     "Four completed objects each have a distinct nuclide and dataset entry. The 228Th file remains partial."
   ],
   "remaining": [
-    "Inspect 228Th PDF2–46 in its own queue entry.",
-    "Separate experimental-source reproduction from archival evaluation reading."
-  ]
+    "The individual underlying experiments retain their own reading scope."
+  ],
+  "last_checked_at": "2026-11-21T19:15:01.259407+00:00",
+  "follow_up": {
+    "task": "TH228-ENSDF-FULL",
+    "model_requested": "agy-cli/gemini-3.8-flash",
+    "reasoning_requested": "high",
+    "added_work": "catalogue:LIT-000077",
+    "credited_pages": 46,
+    "manager_checks": [
+      "PDF1 decay-fed level lifetimes versus evaluated E2 values on PDF7.",
+      "PDF7 396.094 keV 3-minus row and missing ground-state E3 entry.",
+      "PDF6 and PDF23 uncertain (22+) member and 449 keV transition; note k does not specify a unique missing experimental test.",
+      "PDF8 911.204 keV evaluated delta retained with table label and theoretical BrIcc normalization note.",
+      "Avoid inferred assignment sources for 911.204 keV, which has no explicit gamma-origin superscript in the table."
+    ]
+  }
 }

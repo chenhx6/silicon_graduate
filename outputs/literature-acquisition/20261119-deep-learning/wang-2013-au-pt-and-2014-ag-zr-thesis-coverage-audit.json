@@ -1,0 +1,86 @@
+{
+  "checked_at": "2026-11-21T23:51:37.350653+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 747,
+      "task": "WANG13-AUPT-THESIS-PDF57-105",
+      "pages": 105,
+      "version": "Wang Sicheng, UCAS PhD dissertation, October 2013",
+      "role": "verified-doctoral-thesis",
+      "scope": [
+        "PDF1–12 front matter",
+        "PDF13–56 theory, experiment and array",
+        "PDF57–72 analysis methods",
+        "PDF73–85 195Au",
+        "PDF86–95 195Pt",
+        "PDF96–105 conclusion, references and publications"
+      ],
+      "checks": [
+        "Title and apparatus identity verified. Printed p.=PDF−12 on the main numbered pages.",
+        "PDF70 Eq. 4.9 reports efficiency-corrected small and large angle groups 40°/152° and 90°. PDF76 uses 35°/90° wording for the projections, recorded separately.",
+        "PDF78 Table 5.1 reports 166.9 keV with 1.16(16); PDF90 Table 6.1 reports 368.8 keV with 1.26(13). No per-row gate energy or P values for those two points.",
+        "PDF105 reports companion Au and Pt publications."
+      ],
+      "gap": "Some ADO values absent or conditional on line strength and overlaps. Assignments retain comparisons and ICC where used.",
+      "lineage": "One 7Li+192Os spectroscopy experiment with distinct reaction products, and related journal reports.",
+      "work_id": "catalogue:LIT-000747",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/王思成 - 过渡区核195Au和195Pt高自旋态能级结构研究.pdf",
+        "sha256": "4bde62b1c0736c2b6c763408f75e11051c63568421164fc09a6533255e45cfa3",
+        "size": 4758619,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-doctoral-thesis"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/wang-2013-high-spin-195au-195pt.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 748,
+      "task": "WANG14-AGZR-THESIS-PDF46-77",
+      "pages": 89,
+      "version": "Wang Zhigang, UCAS PhD dissertation, May 2014",
+      "role": "verified-doctoral-thesis",
+      "scope": [
+        "PDF1–16 front matter and introduction",
+        "PDF17–38 theory and setup",
+        "PDF39–45 data processing and ADO",
+        "PDF46–60 104Ag results",
+        "PDF61–77 91,92Zr results",
+        "PDF78–89 conclusions, references and publications"
+      ],
+      "checks": [
+        "Printed p.=PDF−11 on numbered pages. PDF42–43 gives 40°/140° versus 90° angles and distinct empirical standards for the Ag and Zr experiments.",
+        "PDF47 Table 5-1, 346.3-keV intensity and RADO reproduce the journal Table I; the publications list on PDF88 confirms the relationship.",
+        "PDF67–68: the 1544.2-keV 91Zr and 1006.5-keV 92Zr lines illustrate high angular ratios with conditional l-forbidden M1 assignments. Main Ag and Zr tables do not report P."
+      ],
+      "gap": "Fits depend on coincidence placement and regional model assignments. Prior isomer timing is external; absolute strengths for the candidate partner sequence were not measured here.",
+      "lineage": "The Ag experiment is shared with Wang et al. 2013 PRC 88 024306. The Zr reaction has a different acquisition and its own related papers.",
+      "work_id": "catalogue:LIT-000748",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/王志刚 - 双奇核104Ag 和近球形核91,92Zr 的高自旋态研究.pdf",
+        "sha256": "c3918a968c4540c3fe784310a81902f736a1cca2c79f4b1f9f8bc0d09a44973f",
+        "size": 13386288,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-doctoral-thesis"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/wang-2014-high-spin-104ag-91-92zr.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 194
+}

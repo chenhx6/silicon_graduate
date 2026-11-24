@@ -145,3 +145,8 @@ The PC-PK1 3D-lattice cranking calculation reproduces the plotted `144Ba` rotati
 
 - L3 question: when pairing and parity projection are added, does the `144Ba` high-spin stability conclusion survive while preserving the measured `I–ω`, `B(E2)` and `B(E3)` systematics? Discriminants are the parity splitting, alternating-parity energies and transition strengths, not another mean-field `β30` curve.
 - L4 candidate: the paper cites Science Data Bank DOI `10.57760/sciencedb.j00186.00114`. Status is `candidate-L4 / not-ready` until the public data, version/hash, units, figure mapping, code/parameters and sensitivity/negative checks are obtained. No L4 claim is made from the PDF alone.
+
+
+## 2026-11-22 — 馆藏版本与证据复核
+
+PDF 3–4 Fig. 1 的 \((\beta_{20},\beta_{30})=(0.22,0.13)\) 是 PC-PK1 约束模型的极小点。PDF 3 式 (12)–(13) 的电磁强度用计算得到的电荷多极矩和角动量取向估计。PDF 4–5 Figs. 3–4 分开标记文献实验强度和沿推转解取得的静态形变，后者依赖所选泛函和约束。

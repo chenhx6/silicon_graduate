@@ -3,7 +3,7 @@ type: source
 title: "Woodside2026：58Fe新Coulomb计数、相位多解与DSAM约束谱系"
 aliases: [Woodside 2026 Fe58 anomalous collectivity, arxiv2603.17414v1]
 created: 2026-10-20
-updated: 2026-10-20
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-reanalysis
@@ -20,6 +20,7 @@ citation_key: "woodside_2026_56fe-resolving-anomalous"
 canonical_source: https://doi.org/10.1103/16y4-bggw
 raw_file: raw/papers/2026_Woodside_Fe58_collectivity_Coulex_Dsam.pdf
 raw_sha256: fddbd3b0de35b1b723c2bcb9959af4cf6c489a0d8e00f87e9126218acfec8d5a
+archive_required: true
 raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23
 nuclei: [56Fe, 58Fe, 60Fe]
@@ -37,9 +38,11 @@ tags: [58Fe, Coulomb-excitation, DSAM, stopping-power, matrix-elements, source-d
 
 J. A. Woodside等，*Phys. Rev. C* **113**(4),044306(2026)，DOI[10.1103/16y4-bggw](https://doi.org/10.1103/16y4-bggw)。Crossref DOI/article-number已核。实际全文为[arxiv2603.17414v1](https://arxiv.org/abs/2603.17414v1)，上传2026-03-18、PDF dated19Mar2026。abs comments写14页，实际PDF15页，保留差异；VoR正文未读。
 
-实际PDF为`tmp/day18-20261020/woodside58fe/woodside58fe-v1.pdf`，SHA256见frontmatter；raw_file是未写入归档槽，raw/Bib保护不变。官方源码包hash`5c98e7b5011491a50d97a04e1f6d7f78b3430d32c1a4485b97467a9ff29a47bd`，19成员为TeX/bib/README与图；不含实际Gosia job、逐photodiode数值yields/Σ或OCR重建的旧DSAM程序。
+馆藏 `raw_file` 为 arXiv v1 的 15 页原件，SHA-256 见页首。官方排版源码包 SHA-256 为 `5c98e7b5011491a50d97a04e1f6d7f78b3430d32c1a4485b97467a9ff29a47bd`，19 个成员包括文稿、参考文献、说明和图。Gosia 实际配置、逐 photodiode 产额与协方差、重建的旧 DSAM 程序仍属独立复现输入。
 
 ## Scope and Reading Depth
+
+本轮核定 PDF1–4 的新实验与计数、PDF5–8 的 Gosia 约束及多组符号解、PDF8–12 的历史 DSAM 重分析及 PDF13–15 的模型比较、结论与书目。PDF4 Table II 与 PDF11 Table VIII 分别追溯新符合计数和旧质心移位。PDF6 Table VI 的目标态寿命进入新计数的 Gosia 分析，比较时保留此共同输入。
 
 本独立Day18在SC26及实时metadata/abstract priming之后冻结本原件问题，完整原读15页含参考、13图、10表和4式；PDF2–13关键图表全部视觉核。原TeX仅定向复核lifetimes/constraint/fixedphase文字，不把注释掉的草稿当发表claim。八组TableVII的4→2中心、Fig8/9已印E2图及TableII四个归一yield另新复算；不是Gosia或旧DSAM fit重现。
 

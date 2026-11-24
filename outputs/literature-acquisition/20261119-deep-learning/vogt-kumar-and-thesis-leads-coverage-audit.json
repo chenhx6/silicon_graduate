@@ -1,0 +1,107 @@
+{
+  "checked_at": "2026-11-22T01:46:02.546175+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 848,
+      "pages": 2,
+      "task": "BA129-PRIMARY-AND-STUCH-BOUNDS",
+      "version": "S. Kumar et al., Measurement of the B(M1)/B(E2) ratios in 129Ba, Proc. DAE Symp. Nucl. Phys. 67 (2024) 121–122, INSPIRE 2765575",
+      "source_note": "knowledge/sources/kumar-2024-ba129-branch-report.md",
+      "role": "published-conference-proceedings",
+      "lineage": "Acquisition independent of Byrne 1992. Figures 2–3 reuse the new points and cite the old comparisons; the derived ratios share the branching inputs.",
+      "scope": [
+        "PDF 1–2 (printed 121–122), experimental details and 174.1-keV gated spectrum, Eqs. (1)–(4), and figures comparing data with model curves.",
+        "The source note traces the two panels to the same branch information. The delta=0 input and rotational-model inferred mixing are distinct assumptions."
+      ],
+      "gap": "No tabular raw intensities, quantified P, polarization setup, independent mixing-ratio determination or absolute lifetimes from this acquisition.",
+      "work_id": "catalogue:LIT-000848",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261106-ba129-independent-branch-data/kumar-branch-report.pdf",
+        "sha256": "210c65109df9b2d203f95643e0fb89746a20f836265c802bb0f2010aabb5eda1",
+        "size": 258518,
+        "hash_basis": "fresh-hash",
+        "source_role": "published-conference-proceedings"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/kumar-2024-ba129-branch-report.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 885,
+      "pages": 18,
+      "task": "VOGT17-BA137-DUPLICATE-ORIGINAL",
+      "version": "A. Vogt et al., PRC 95, 024316 (2017), Birmingham accepted manuscript dated 2017-01-25; DOI 10.1103/PhysRevC.95.024316",
+      "source_note": "knowledge/sources/vogt-2017-135xe-137ba-isomers-high-spin.md",
+      "role": "institutional-accepted-manuscript",
+      "lineage": "Same experiment and publication DOI as January 17 OSTI manuscript; selected as the canonical reading copy.",
+      "scope": [
+        "PDF 1–2 institutional cover and article identity; PDF 3–15 experiment, Xe/Ba structures and shell-model comparison; PDF 16–18 references.",
+        "PDF 9 Fig. 7/Table II: half-life 589(20) ns belongs to the 2349.9 keV state, and the 120.1/1568.2 keV intensities are blank. PDF 14 Table III: 0.46(3) W.u. experimental decay strength given after accounting for internal conversion."
+      ],
+      "gap": "No independent life measurement for the 2229.8 keV state and no measured static quadrupole moment for the target high-spin sequence.",
+      "work_id": "catalogue:LIT-000885",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261106-vogt2017-ba137-rstat/vogt2017-accepted.pdf",
+        "sha256": "5a17b3fdd5c08c4e27284bc59f1d3e6e7ef9821746069057caf8b2745a12680b",
+        "size": 927517,
+        "hash_basis": "fresh-hash",
+        "source_role": "institutional-accepted-manuscript"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/vogt-2017-135xe-137ba-isomers-high-spin.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 20,
+  "identity_checks_without_credit": [
+    {
+      "work_id": "catalogue:LIT-000082",
+      "magic": "<!doctype html>\n",
+      "raw_file": "raw/papers/gpt/learning-daily/20261101-day29-133i-oc/grieg-133i-thesis.pdf",
+      "identity": "NVA/UiO HTML application shell saved with .pdf suffix; not thesis PDF",
+      "role": "html-access-placeholder",
+      "coverage": "HTML signature and archived accession identity checked.",
+      "credited_primary_pages": 0
+    },
+    {
+      "work_id": "catalogue:LIT-000850",
+      "magic": "%PDF-1.3\n%����\n7",
+      "raw_file": "raw/papers/gpt/query/20261106-ba129-lifetime-primary-check/cologne-stuch-thesis-citation-promo.pdf",
+      "identity": "Oliver Möller, Test der X(5)-Symmetrie in Dy und Os durch Messung elektromagnetischer Übergangswahrscheinlichkeiten, Köln 2005, oral exam 2006-02-15",
+      "role": "doctoral-thesis-full-pdf-pending-coverage",
+      "coverage": "PDF 1–2 title and examination pages; PDF 80 and 88 check of Stuch citation. File extent 124 pages.",
+      "credited_primary_pages": 0
+    },
+    {
+      "work_id": "catalogue:LIT-000864",
+      "magic": "%PDF-1.4\n%����\n1",
+      "raw_file": "raw/papers/gpt/query/20261106-ba129-lifetime-primary-check/stuch1997-thesis-toc.pdf",
+      "identity": "Stuch thesis front matter, DNB 955612446; three TOC pages",
+      "role": "doctoral-thesis-table-of-contents",
+      "coverage": "Only three contents pages with section and printed-page pointers.",
+      "credited_primary_pages": 0
+    },
+    {
+      "work_id": "catalogue:LIT-000887",
+      "magic": "%PDF-1.5\n%����\n4",
+      "raw_file": "raw/papers/gpt/query/20261106-vogt2017-ba137-rstat/vogt2017-osti.pdf",
+      "identity": "OSTI accepted manuscript dated 2017-01-17; same DOI 10.1103/PhysRevC.95.024316 as LIT-000885",
+      "role": "related-accepted-manuscript",
+      "coverage": "Title/DOI, manuscript date and decisive result locators checked; separate revision of the same work.",
+      "credited_primary_pages": 0
+    }
+  ]
+}

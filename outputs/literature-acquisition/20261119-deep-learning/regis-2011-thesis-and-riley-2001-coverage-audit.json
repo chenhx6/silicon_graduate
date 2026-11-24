@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-11-21T21:03:50.829410+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "REGIS11-THESIS-FAST-TIMING-ARCHIVE",
+      "version": "Jean-Marc Régis, University of Cologne, 2011 doctoral dissertation",
+      "role": "verified-doctoral-thesis",
+      "pages": 111,
+      "scope": [
+        "Earlier full-reading record reused and verified by thesis identity and targeted methodology and case checks. PDF1–2 title and exam date. PDF7 TOC; printed numbers align with physical pages for numbered text.",
+        "PDF8–98 chapters and appendices; PDF99–111 back matter. Original PDF83 Table 5.1 checked."
+      ],
+      "checks": [
+        "2011 May 16 defense confirmed. PDF83 gives W176 three finite lifetime estimates and 8+ ≤4 ps. Preserved lower limits on corresponding E2 and Q.",
+        "PRD apparatus dependence and source examples remain in the existing note. No unverified worker Hf lifetime or universal electronic cancellation claim used."
+      ],
+      "gap": "No timing waveform or producer replay; prior full coverage verified through representative anchors.",
+      "lineage": "Own thesis timing work and later related published examples may share acquisition.",
+      "work_id": "catalogue:LIT-000653",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/LaBr3时间.pdf",
+        "sha256": "54ef3c5b70d7ef4ed694ad9089fa40533d39e2bb060228eb3d1a304b03555f52",
+        "size": 1258177,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-doctoral-thesis"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/regis-2011-fast-timing-labr3.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "RILEY01-A135-GLOBAL-DSAM",
+      "version": "Acta Physica Polonica B 32, 2683–2695 (2001)",
+      "role": "verified-publisher-edition",
+      "pages": 13,
+      "scope": [
+        "PDF1–7 motivation, polarizing moments and DSAM data model; PDF8 Table I; PDF9–13 theory, comparison and cited sources."
+      ],
+      "checks": [
+        "Table I uses band-averaged Qt; 133Nd 5.8/6.5 and 135Nd 5.1/5.7 are alternative gates in relevant same data, not independent points.",
+        "Confirmed table footnotes b and c represent different conditioning mechanisms. Check main text and table stopping uncertainty scopes separately.",
+        "Existing note keeps imported Ce and Sm points outside the main campaign and distinctions in Fig. 1 versus Table I."
+      ],
+      "gap": "No per-transition event file or shared feeding and stopping covariance.",
+      "lineage": "Own fusion-evaporation campaign plus cited external comparison and model data.",
+      "work_id": "catalogue:LIT-000656",
+      "raw": {
+        "path": "raw/papers/2001-Riley-global-lifetime-A135.pdf",
+        "sha256": "09d58089a1985ef9d3d02432921b302a77c5d51eca9846bdea03dd9330d0d036",
+        "size": 416810,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/riley-2001-global-lifetime-a135.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 124
+}

@@ -4,11 +4,11 @@ title: "Saastamoinen2011学位论文：23Al低能质子、β背景与分支分�
 title_original: "Studies of Tz = -3/2 Nuclei of Astrophysical Interest"
 aliases: [Saastamoinen2011 thesis, SA11 Al23 proton response]
 created: 2026-10-20
-updated: 2026-10-20
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis
-reading_depth: skimmed
+reading_depth: deep-read
 authors: [Antti Saastamoinen]
 year: 2011
 institution: University of Jyväskylä
@@ -35,9 +35,13 @@ Antti Saastamoinen，University of Jyväskylä Research Report9/2011，2011年12
 
 ## Scope and Reading Depth
 
+本轮分两段核定馆藏 PDF1–112。PDF1–16 含封面及前置材料，PDF17–112 对应印刷 pp.1–96。第 5 章新增回查 5.1 冷离子导引、5.2 Penning 阱测质与 5.4 的 31Cl 衰变。原 23Al 响应定向阅读在下方保留。
+
 frontmatter/摘要/目录后另冻章节回忆，承认K16/capture/官方记录priming；实际读PDF52–60的Sec4.2、PDF69–78的Sec5.3、PDF97–103的AppendixA及相关refs，关键PDF57/58/73/74/77/78/98/100/101/103视觉核。未读112页全文或其它结果章节；4.2中31Cl装置/时间段只作上下文，不执行其它课程卡。[actual scope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/saastamoinen2011-thesis-reading-scope.json)。原23Al事件、原fit/背景histogram、实际脚本与完整Cov未得。
 
 ## Experimental or Method Setup
+
+PDF65（印刷 p.49）Table 5.1 将 \(^{23}\mathrm{Al}\) 与 \(^{23}\mathrm{Na}\) 频率比和换算的质量过剩 6748.07(34) keV 分列。PDF66 的 \(A=23\) 多重态拟合给立方系数 0.22(42) keV，在该误差内与零相容。该拟合还使用多重态的其它核质量和激发能，和 23Al 的低能质子分支分析分开溯源。
 
 SetupI为69µm W1 DSSSD、16×16 strips与998µm Si pad，45°安装，单70%HPGe约11cm；Al degrader控制23Al植入深度，42AMeV束限制到600–800pps，约17µm深度FWHM。质子/β同pixel求和，front/back一致与multiplicity1等条件清背景。低能仍借22Mg无p背景响应，测得谱不是纯proton kinetic energy或可直接套外源detector峰。
 

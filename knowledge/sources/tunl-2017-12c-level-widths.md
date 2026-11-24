@@ -3,7 +3,7 @@ type: source
 title: "TUNL 2017KE05 在线 12C 宽度表：total/partial Γ 与修订版本"
 aliases: [TUNL 12C evaluated widths, TUNL 2017KE05 tables 12.13 12.14]
 created: 2026-10-14
-updated: 2026-10-14
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-nuclear-data-tables
@@ -20,7 +20,8 @@ canonical_source: "https://nucldata.tunl.duke.edu/nucldata/HTML/A=12/12_13_2017.
 citation_key: "kelley_2017_12c-energy-levels"
 raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/tunl-12c-table-12-13-2017.pdf"
 raw_sha256: "f24d1df603869579b2de604ea726e5de65b766985f8b07724d6dfa66a3c61727"
-raw_storage_status: reserved-unpopulated-public-evaluation-table-only
+archive_required: true
+raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://nucldata.tunl.duke.edu/nucldata/HTML/A=12/12_13_2017.pdf"
 nuclei: [12c]
@@ -37,9 +38,11 @@ J.H.Kelley/J.E.Purcell/C.G.Sheu，*Nuclear Physics A*968,71–253(2017)，DOI10.
 
 官方[companion PDF](https://nucldata.tunl.duke.edu/nucldata/ourpubs/12_2017.pdf)封面明确为“Revised Manuscript /08October2020”，并说明纠正出版后错误、referencesclosed2016、introductionomitted。PDFheader另一处印2016，而abstract/Crossref出版年2017；这些日期字段分开保留。选定15.110MeV行在onlineTable13p3与companionfilep45匹配，不能据此保证全部online表与所有publicationversions一致。
 
-保持raw不变：raw_file为未填充保留位置；真实Table13获取字节在`tmp/day13/reopened/tunl-12c-table-12-13-2017.pdf`，SHA为frontmatter列值。Table14的SHA为`d12054bb0e5aa91b1f61c00fcdb52f7d410c59e9b7ecd7ddb75c9f5d3a1d407a`；companionPDF为`eab1e594a921be2565ee87817a4447e1fe2d7cc77bebe8fa2ecf3eadb63c6146`。临时副本失效须重获并核对版本/指纹；不声明已raw归档。
+馆藏 `raw_file` 为独立的 Table 12.13 六页 PDF，SHA-256 与初读副本一致。Table 12.14 和 2020 修订的配套稿有各自的文件和历史定位。Table 12.14 的 SHA-256 为 `d12054bb0e5aa91b1f61c00fcdb52f7d410c59e9b7ecd7ddb75c9f5d3a1d407a`，配套稿为 `eab1e594a921be2565ee87817a4447e1fe2d7cc77bebe8fa2ecf3eadb63c6146`。
 
 ## Scope and Reading Depth
+
+- 本轮核定的是 Table 12.13 的全部六页，包括能级行、宽度单位和表注。表头能量中心值用 MeV，误差用 keV。PDF1 的 4.43982 MeV 行能量不确定度为 0.21 keV，宽度为 10.8(6) meV。7.65407 MeV 行能量不确定度为 0.19 keV，宽度为 9.3(9) eV。表中 \(\Gamma_{\mathrm{cm}}\) 指能级宽度，部分宽由另表追溯。
 
 - 实际范围：selected12Clevelrecords、Table13/14相关rows与footnotes、官方HTML/质量链入口和companionrevisionmetadata；15.110row与referencekey/version查核。
 - 核验位置：Table13p1的4.43982、p2的9.641/14.079、p3的15.110/16.1060、p5–6footnotes；Table14p1的15.11partials和p4–5deduction/branchingfootnotes。核心PDF页视觉核验。

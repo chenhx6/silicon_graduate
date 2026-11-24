@@ -43,6 +43,8 @@ tags: [shell-structure, magic-numbers, Strutinsky, Nilsson, deformation, high-sp
 
 ## Key Results
 
+印刷 p.15（PDF15）指出，按奇偶质量差约束的配对能起伏在计算中与壳修正起伏反相，对细结构与粗结构的削弱程度不同。印刷 p.61（PDF61，Sec. 5.3.3）把稀土区的平衡形变部分归于球形构型处的高能脊及周围势能谷。这两处是所选势能与配对模型的解释，支持分别考察局域壳隙与相对构型能量。
+
 - The review frames magic numbers and deformation as the same quantal shell phenomenon: level bunching and enhanced binding produce spherical or deformed stability. Standard spherical magic numbers `2,8,20,28,50,82,126` arise from spin–orbit-modified shell structure (PDF pp.3–15).
 - Harmonic/modified oscillator and realistic Nilsson potentials generate shape-dependent shell gaps; the shell-correction method combines a smooth liquid-drop energy with microscopic single-particle corrections to map potential-energy surfaces (PDF pp.6–26).
 - Axial asymmetry (`γ`), reflection asymmetry (`β3`) and radial diffuseness alter shell gaps and can stabilize triaxial, octupole, superdeformed, shape-isomeric and superheavy configurations (PDF pp.27–41, 62–73).

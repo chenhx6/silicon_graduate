@@ -3,7 +3,7 @@ type: source
 title: "Stuchbery2026：54Cr DSAM旧数据重分析与停止模型边界"
 aliases: [Stuchbery 2026 Cr54 DSAM, arxiv2608.28047v2]
 created: 2026-10-20
-updated: 2026-10-20
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: experimental-reanalysis-and-model
@@ -20,6 +20,7 @@ citation_key: "stuchbery_2026_54cr-doppler-shift"
 canonical_source: https://doi.org/10.1103/gm4m-8wyn
 raw_file: raw/papers/2026_Stuchbery_Cr54_Dsam_reevaluation.pdf
 raw_sha256: 918ba5cb8a663bf57aedfef50f8106774a539f45454066079854bf425cfe1440
+archive_required: true
 raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23
 nuclei: [54Cr, 58Fe, 48Ca]
@@ -35,11 +36,13 @@ tags: [DSAM, 54Cr, stopping-power, lifetime, reanalysis, model-dependent-strengt
 
 A. E. Stuchbery，*Phys. Rev. C* **114**(3),034322(2026)，DOI[10.1103/gm4m-8wyn](https://doi.org/10.1103/gm4m-8wyn)。Crossref实际给出版日2026-09-16及article-number034322；本次实际原读为[arXiv2608.28047v2](https://arxiv.org/abs/2608.28047v2)，上传16Sep，PDF dated17Sep2026，11页。**未取得VoR正文，不将arXiv与期刊metadata当两份独立证据。**
 
-原PDF实际保存在`tmp/day18-20261020/stuchbery54cr/stuchbery54cr-v2.pdf`，SHA256见frontmatter。上方raw_file是未写入的归档槽；本次保护raw/PLAN/Bib，raw归档deferred。官方arXiv源码包hash为`51d117309a0b38c3c23191a23243c04089f0d6ebae7c5608579832ee5481ad26`；九成员为tex/bib/bbl/README及五图，不含本文重建的DSAM分析程序或原logbook。这个有限包清单不是穷尽所有合法公开代码路线。
+馆藏 `raw_file` 的 SHA-256 与 Day18 读取的 arXiv PDF 一致。官方 arXiv 源码包 SHA-256 为 `51d117309a0b38c3c23191a23243c04089f0d6ebae7c5608579832ee5481ad26`。这份论文排版包有 tex/bib/bbl/README 和五图。作者重建的 DSAM 分析程序及原 logbook 仍属于独立的复现输入缺口。
 
 ## Scope and Reading Depth
 
 独立Day18先冻结primed回忆并完成Jensen/MU08首交付；之后以新候选问题取得本原件。此次完整原读11页主线/参考，五图(Figs1–5)、五表(TablesI–V)、五式(Eqs1–5)；PDF2–10关键图/表/式视觉核。Ta15条和Mo8条printed F输入另逐行复算；不是全部原谱/代码/Σ重建。
+
+馆藏 11 页本轮按页段复核。PDF 1–2 为引言、原实验与重心移位关系，PDF 3–5 为 Ta/Mo 停止功率与寿命重析，PDF 6–10 为旧结果比较、壳模型和讨论，PDF 11 为结尾与引文。PDF6 Table IV 的 \(2.620\,\mathrm{MeV}\) 态由旧 Ta 结果 \(0.16^{+0.04}_{-0.03}\,\mathrm{ps}\) 更新为新分析的 \(0.185(25)\,\mathrm{ps}\)。该列比较涉及停止输入更新及新 Ta/Mo 汇总，百分差应按能级与输入条件读取。
 
 未读原1980测量论文、Nathan1978、Lieb1988/Kuronen1992/Devlin1999的正文，也未运行作者OCR重建的原DSAM程序或NuShellX。本文对这些工作的论述保留为本作者报告/二级谱系；不用参考文献列表预填原始阅读。
 

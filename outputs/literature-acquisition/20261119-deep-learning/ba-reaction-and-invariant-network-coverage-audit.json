@@ -1,0 +1,219 @@
+{
+  "checked_at": "2026-11-22T01:41:10.790509+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 828,
+      "pages": 1,
+      "task": "BA134-136-ENSDF-ORIGINAL",
+      "version": "134Ba Coulomb excitation dataset, A. A. Sonzogni, NDS 103, 1 (2004); cutoff 2004-07-31",
+      "role": "single-nuclide-ensdf-reaction-dataset-pdf",
+      "source_note": "knowledge/sources/nndc-ba128-136-core-e2-calibration.md",
+      "scope": [
+        "PDF 1 covers the full one-page reaction dataset with history, references, level table and comments.",
+        "PDF 1: the 605 keV row weights 1972Ke16, 1977Kl05 and 1989Bu07 for B(E2) up; the 1401 keV 4+ half-life is tied to the 1977Kl05 decay strength."
+      ],
+      "lineage": "Documented evaluation dataset synthesized from earlier experiments; other exports from its evaluation may share inputs.",
+      "gap": "One versioned dataset only; its reference rows do not constitute additional independent experimental coverage.",
+      "work_id": "catalogue:LIT-000828",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261106-ba-core-E2-calibration/nndc134-coulomb.pdf",
+        "sha256": "5d419f6dd7ee9b09bddef9ab943f2e453c60605b6cbf46724fe16cf93baf9153",
+        "size": 33537,
+        "hash_basis": "fresh-hash",
+        "source_role": "single-nuclide-ensdf-reaction-dataset-pdf"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/nndc-ba128-136-core-e2-calibration.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 832,
+      "pages": 29,
+      "task": "BA134-136-ENSDF-ORIGINAL",
+      "version": "136Ba Adopted Levels, Gammas; McCutchan, NDS 152, 331 (2018), cutoff 2018-04-01",
+      "role": "single-nuclide-ensdf-adopted-dataset-pdf",
+      "source_note": "knowledge/sources/nndc-ba128-136-core-e2-calibration.md",
+      "scope": [
+        "PDF 1–6 levels and footnotes; 7–21 gamma table; 22–28 level schemes; 29 band diagram.",
+        "PDF 1: the 818.522(10) keV 2+ half-life 1.89(3) ps is derived by the evaluator from B(E2) and adopted gamma properties. PDF 7 gives 19.6(4) W.u. in the decay direction."
+      ],
+      "lineage": "Documented evaluation dataset synthesized from earlier experiments; other exports from its evaluation may share inputs.",
+      "gap": "One versioned dataset only; its reference rows do not constitute additional independent experimental coverage.",
+      "work_id": "catalogue:LIT-000832",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261106-ba-core-E2-calibration/nndc136-adopted.pdf",
+        "sha256": "8263632ed223bae2ce970a7301c2fdcc92e330a7968cf17f5d747bd730ff10ae",
+        "size": 448339,
+        "hash_basis": "fresh-hash",
+        "source_role": "single-nuclide-ensdf-adopted-dataset-pdf"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/nndc-ba128-136-core-e2-calibration.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 837,
+      "pages": 20,
+      "task": "BA135-137-ENSDF-ORIGINAL",
+      "version": "135Ba Adopted Levels, Gammas; Singh, Rodionov and Khazov, NDS 109, 517 (2008), cutoff 2008-01-22",
+      "role": "single-nuclide-ensdf-adopted-dataset-pdf",
+      "source_note": "knowledge/sources/nndc-ba135-ba137-static-e2-constraints.md",
+      "scope": [
+        "PDF 1–5 levels and notes; 6–13 gamma table and notes; 14–19 level schemes; 20 band diagrams.",
+        "PDF 1: 268.218(20) keV 11/2− has T1/2=28.7(2) h, mu=-1.001(15) nuclear magnetons (1979Be25, 1989Ra17), and Q=+0.96(8) b (1983Mu12, 1989Ra17)."
+      ],
+      "lineage": "Documented evaluation dataset synthesized from earlier experiments; other exports from its evaluation may share inputs.",
+      "gap": "One versioned dataset only; its reference rows do not constitute additional independent experimental coverage.",
+      "work_id": "catalogue:LIT-000837",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261106-ba-spin-moment-benchmark/nndc135-adopted.pdf",
+        "sha256": "9bc4fb67ac181ea5e8a77407bcc2b2233a87eb95b58264fb6b02a0d4472e28e7",
+        "size": 306525,
+        "hash_basis": "fresh-hash",
+        "source_role": "single-nuclide-ensdf-adopted-dataset-pdf"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/nndc-ba135-ba137-static-e2-constraints.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 841,
+      "pages": 11,
+      "task": "BA135-137-ENSDF-ORIGINAL",
+      "version": "137Ba Adopted Levels, Gammas; Browne and Tuli, NDS 108, 2173 (2007), cutoff 2006-10-01",
+      "role": "single-nuclide-ensdf-adopted-dataset-pdf",
+      "source_note": "knowledge/sources/nndc-ba135-ba137-static-e2-constraints.md",
+      "scope": [
+        "PDF 1–3 levels and notes; 4–7 gamma table and notes; 8–11 level schemes.",
+        "PDF 1: 661.659(3) keV 11/2− gives Q=+0.78(9) b (1983Mu12, 1989Ra17), with evaluation comment flagging disagreement with Q approximately -0.05 b (1976Fu06)."
+      ],
+      "lineage": "Documented evaluation dataset synthesized from earlier experiments; other exports from its evaluation may share inputs.",
+      "gap": "One versioned dataset only; its reference rows do not constitute additional independent experimental coverage.",
+      "work_id": "catalogue:LIT-000841",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261106-ba-spin-moment-benchmark/nndc137-adopted.pdf",
+        "sha256": "3573d2f2e69954c7f1572a0337038c0f7607906d9e11b1f807f8a687de5a51cd",
+        "size": 163995,
+        "hash_basis": "fresh-hash",
+        "source_role": "single-nuclide-ensdf-adopted-dataset-pdf"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/nndc-ba135-ba137-static-e2-constraints.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 877,
+      "pages": 9,
+      "task": "QUAD-INVARIANTS-ORIGINALS-R25-N16-L25",
+      "version": "Lawrie and Orce, ADNDT 164, 101730 (2025), DOI 10.1016/j.adt.2025.101730, publisher PDF",
+      "role": "publisher-version",
+      "source_note": "knowledge/sources/quadrupole-invariant-spin-channel-precedents.md",
+      "scope": [
+        "PDF 1–5 introduction, derivation, model comparisons and conclusions; 5–6 references; 7–9 table explanation and published tabulation.",
+        "PDF 2–3: distinguish E2 deformation angle gamma from inertia asymmetry Gamma. Eq. (11) ties those inputs for the two-element ratio in Eqs. (12)–(13). PDF 4–5 Fig. 3 compares the estimates."
+      ],
+      "lineage": "Model or method study; cited experimental comparisons come from prior work.",
+      "gap": "No new validation of the underlying experiments or refit; model sums and selected measured subsets maintain separate provenance.",
+      "work_id": "catalogue:LIT-000877",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/focused-sidecar/lawrie-orce2025-simple-ratios-publisher.pdf",
+        "sha256": "683ad9af035a6d7860a5beaffc0f5d395d34963916be08907df437803c644305",
+        "size": 1042784,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/quadrupole-invariant-spin-channel-precedents.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 878,
+      "pages": 15,
+      "task": "QUAD-INVARIANTS-ORIGINALS-R25-N16-L25",
+      "version": "Nomura, Nikšić and Vretenar, arXiv:1610.00469; journal DOI 10.1103/PhysRevC.94.064310",
+      "role": "arxiv-author-version",
+      "source_note": "knowledge/sources/quadrupole-invariant-spin-channel-precedents.md",
+      "scope": [
+        "PDF 1–8 model and spectra; 9–12 transition systematics and interpretation; 13–15 appendical material and references.",
+        "PDF 9 Eq. (8): average over n=5 downward B(E2) strengths for fixed delta-J=1 or 2. PDF 11 Fig. 10 compares Eu and Sm across mass number."
+      ],
+      "lineage": "Model or method study; cited experimental comparisons come from prior work.",
+      "gap": "No new validation of the underlying experiments or refit; model sums and selected measured subsets maintain separate provenance.",
+      "work_id": "catalogue:LIT-000878",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/nomura2016-arxiv1610-00469.pdf",
+        "sha256": "817ed7f1fcfe43861bff8fe96929eb22536a0dd1833cfcefc08675585edf711f",
+        "size": 1917145,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/quadrupole-invariant-spin-channel-precedents.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 879,
+      "pages": 24,
+      "task": "QUAD-INVARIANTS-ORIGINALS-R25-N16-L25",
+      "version": "Rouoof et al., arXiv:2502.18076v1; journal DOI 10.1103/PhysRevC.111.054309",
+      "role": "arxiv-author-version",
+      "source_note": "knowledge/sources/quadrupole-invariant-spin-channel-precedents.md",
+      "scope": [
+        "PDF 1–4 TPSM model and definitions; 5–15 energies, E2 comparisons and invariants; 15–17 conclusions and appendix lead; 17–24 matrix-element tables and references.",
+        "PDF 13 Fig. 13 and nearby text compare restricted data/model networks; PDF 16 specifies 187 appendix elements per nucleus up to I=10 and notes calculations extend to I=20."
+      ],
+      "lineage": "Model or method study; cited experimental comparisons come from prior work.",
+      "gap": "No new validation of the underlying experiments or refit; model sums and selected measured subsets maintain separate provenance.",
+      "work_id": "catalogue:LIT-000879",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/rouoof2025-e2-matrix-elements.pdf",
+        "sha256": "58cd93b84996ece2564c3da472f30e64c7403d5e15592bebb7e28459f41a447e",
+        "size": 638366,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/quadrupole-invariant-spin-channel-precedents.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 7,
+  "credited_primary_pages": 109
+}

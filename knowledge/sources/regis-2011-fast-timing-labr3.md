@@ -3,7 +3,7 @@ type: source
 title: "Régis 2011 博士论文：LaBr3(Ce) 快速定时与 MSCD 方法"
 aliases: [Régis 2011 fast timing thesis, LaBr3 fast timing dissertation]
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-method-and-experiment
@@ -43,6 +43,8 @@ tags: [fast-timing, labr3, lifetime, ms-cd, detector-method, phd-thesis]
 Jean-Marc Régis，*Fast Timing with LaBr3(Ce) Scintillators and the Mirror Symmetric Centroid Difference Method*，University of Cologne，博士学位论文，2011，111 页。原始 PDF SHA-256 为 `54EF3C5B70D7EF4ED694AD9089FA40533D39E2BB060228EB3D1A304B03555F52`。
 
 ## Scope and Reading Depth
+
+题名页和评审页确认科隆大学博士论文及 2011 年 5 月 16 日的口试。自目录 PDF7 起，印刷页与物理 PDF 页一致。PDF83 Table 5.1 中，176W 的 \(2_1^+,4_1^+,6_1^+\) 寿命分别为 1430(20)、67(4)、12(4) ps，\(8_1^+\) 给 \(\leq4\) ps。末项是上限，对应的 \(B(E2)\) 和转动四极矩在表中保留下限。
 
 - Completed reading_depth: `deep-read`。
 - Covered scope: Abstract、Chapters 2–6；核对 LaBr₃(Ce) detector、PMT/CFD time walk、centroid shift、MSCD、PRD calibration、`214Bi/214Po/133Cs` benchmark lifetimes、`176W` in-beam fast timing 和 IBA/shape-transition discussion。

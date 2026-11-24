@@ -3,7 +3,7 @@ type: source
 title: "Şenyiğit 2014：AGATA 中子背景、反冲附加能量与 cut 边界"
 aliases: [Senyi AGATA neutron rejection, Senyigit 2013 preprint neutron response]
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: journal-method-experiment-with-public-preprint
@@ -38,6 +38,8 @@ M.Şenyiğit et al., *NIM A*735,267–276(2014)，DOI10.1016/j.nima.2013.09.035�
 raw保留位置未填充，raw_file未创建；真实字节仅存`tmp/day13/reopened/senyigit-2013-agata-neutrons.pdf`（文件名按preprintyear），SHA为frontmatter所列。保留公开versionedURL和RAW_MISSING，不声称已raw归档。
 
 ## Scope and Reading Depth
+
+2026-11-22 复核馆藏 arXiv v1 PDF1–15。PDF13 Table 4 明列四条接受条件取 OR，依次比较 core energy、标准跟踪、加中子抑制的跟踪。相对 core energy 的 \(^{252}\mathrm{Cf}\) 1040-keV 峰及峰加隆起计数降低 69(1)%、72(1)%，相同对比下 \(^{60}\mathrm{Co}\) 1332-keV 峰计数降低 25.8(5)%。这些数值随原文阈值、源与装置定义使用。
 
 全文主线15页：neutron-backgroundmotivation、252Cf/60Co/TOF setup、ADL/grid-search/mgt processing、detectorrecoils/lineorigin、TOF与trackingcuts、Tables1–4的efficiency/background、simulationcomparison与conclusion。视觉核验p5/p11/p13tables及p6/p7spectra；p14结论谓词与正文p10/p13逐字比较。
 

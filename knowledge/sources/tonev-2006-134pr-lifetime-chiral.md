@@ -3,7 +3,7 @@ type: source
 title: "Tonev2006：134Pr跃迁几率与手征检验原实验"
 aliases: [Tonev 2006 134Pr transition probabilities, 134Pr PRL 96 052501]
 created: 2026-10-27
-updated: "2026-11-07"
+updated: "2026-11-22"
 status: ai-draft
 review_status: unreviewed
 source_type: experimental-lifetime-paper
@@ -48,6 +48,8 @@ D. Tonev等，*Physical Review Letters* **96**, 052501 (2006)，DOI [10.1103/Phy
 ## Scope and Reading Depth
 
 全文5页、Figs.1–3、Table I以及所有方法/讨论均已读及视觉核。正文明确说明分支比和偏振系数的详细分析留待后续论文（Ref. [15]，待发表）；本篇未提供完整的逐线数值分支比表、内转换系数处理或协方差矩阵。未运行模型producer，未重拟衰变曲线。
+
+馆藏为印刷 052501-1 至 052501-5 的刊版。PDF3 Table I 列两带 14 个态的平均寿命。首测范围为其中 13 态，带 1 的 \(10^+\) 为复测对照。偏振在本文用于多极性指认，逐跃迁的 \(P\) 数值和定量 \(E2/M1\) 混合比留空。
 
 ## Summary
 

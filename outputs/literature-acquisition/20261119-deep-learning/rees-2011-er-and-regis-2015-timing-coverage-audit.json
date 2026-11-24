@@ -1,0 +1,68 @@
+{
+  "checked_at": "2026-11-21T20:59:59.044685+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "REES11-ER156-GAMMA-SOFT",
+      "version": "Phys. Rev. C 83, 044314 (2011), DOI 10.1103/PhysRevC.83.044314",
+      "pages": 7,
+      "scope": [
+        "PDF1–4 title and Gammasphere experiment, Schemes, Table I and ambiguous angular assignments; PDF4–7 vibrational, staggering and alignment comparisons and references."
+      ],
+      "checks": [
+        "Table I gives exact 237.2 and 364.6 keV. The latter connects the 2997-keV 10+ assignment to a 10+ yrast state. Kept existing scheme; rejected worker claim of independent softness proof.",
+        "The S(4) comparison preserves the spherical vibrator alternative noted in the paper. Empirical alignments support but do not uniquely label qp assignments."
+      ],
+      "gap": "No direct determined intrinsic potential surface from S(I) and branch assignment alone.",
+      "lineage": "Own nonyrast spectroscopy, compared with other nuclear structures using published data.",
+      "work_id": "catalogue:LIT-000652",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/转动/2011_Rees et al_Non-yrast positive-parity structures in the γ -soft nucleus Er 156.pdf",
+        "sha256": "899151b1b93fdd2c323d45f252b7ea840516daae85c8d9016cb75aada775059f",
+        "size": 471871,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/rees-2011-156er-nonyrast-gamma-soft.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "REGIS15-GCD-TIMING-AUDIT",
+      "version": "EPJ Web of Conferences 93, 01013 (2015), DOI 10.1051/epjconf/20159301013",
+      "pages": 6,
+      "scope": [
+        "PDF1–5 actual text, Eq. (1)–(12), Figs. 1–4, samples and references. PDF6 blank."
+      ],
+      "checks": [
+        "Matching pair and channel meaning preserved, and PRD needs calibration even when prompt target counts are not used in the same time histogram.",
+        "PDF4–5 reproduce the 100Zr example and the explicit background-peak ratio meaning; existing note already distinguishes denominators.",
+        "Removed old raw placeholder statements once local SHA file availability was rechecked."
+      ],
+      "gap": "No raw pair masks or uncertainty matrix; slope result and centroid result use same sample.",
+      "lineage": "Method with documented EXILL–FATIMA examples.",
+      "work_id": "catalogue:LIT-000654",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261021-DAY19-rdds-fast-timing/regis-2015-gcd-epjconf-01013.pdf",
+        "sha256": "144c7bff23312b084a6f2cf3d389a0be887ca80b58d626a3fb7ae215448b7168",
+        "size": 535805,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/regis-2015-generalized-centroid-difference.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 13
+}

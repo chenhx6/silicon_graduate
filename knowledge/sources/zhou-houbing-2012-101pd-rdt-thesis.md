@@ -3,7 +3,7 @@ type: source
 title: "周厚兵 2012 博士论文：101Pd 在束 γ 谱学研究和 RDT 实验装置设计"
 aliases: ["周厚兵博士论文", "Zhou Houbing 2012 thesis", "101Pd in-beam gamma and RDT thesis"]
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: thesis-experiment-and-method
@@ -25,6 +25,7 @@ zotero_uri:
 library_file: "raw/theses/degree-dissertation/周厚兵.pdf"
 raw_file: "raw/theses/degree-dissertation/周厚兵.pdf"
 raw_sha256: "f2ed10bfbe471b574af314708917c790dd39761f4d2814e71157d19f539a916e"
+archive_required: true
 nuclei: [101pd]
 reactions: ["76Ge(28Si,3n)101Pd"]
 experiments: ["JAEA tandem in-beam gamma spectroscopy"]
@@ -41,6 +42,10 @@ tags: [high-spin, 101pd, in-beam-gamma-spectroscopy, band-crossing, shape-evolut
 周厚兵，*101Pd 在束 γ 谱学研究和 RDT 实验装置设计*，中国科学院近代物理研究所博士学位论文，2012，117 个 PDF 页面。原始文件 SHA-256 为 `f2ed10bfbe471b574af314708917c790dd39761f4d2814e71157d19f539a916e`。题名页、摘要、目录和关键图表页面视觉可读；PDF 文本层可检索。
 
 ## Scope and Reading Depth
+
+本轮核定全件 117 个物理页，正文印刷页为物理 PDF 页减 10。PDF1–37 为前置、引言和理论，PDF38–69 为仪器、矩阵和角量分析，PDF70–89 为 `101Pd`，PDF90–117 为 RDT 设计和结尾。
+
+PDF71 的 `101Pd` 是 \(^{76}\mathrm{Ge}(^{28}\mathrm{Si},3n)\) 在束实验，PDF78 的 920 keV 弱线给 \(R_{\rm ADO}=1.14(43)\)，同级联其它弱线未取得角比。PDF104 记载了硅盒子系统的测试，PDF106、108 说明论文成文时整套 RDT 仍在搭建，未有整机在束测量。该装置阶段与前章的 `101Pd` 数据分别追溯。
 
 - Completed reading_depth: `deep-read`。
 - Covered scope: 题名页、中文/英文摘要、目录；第 2 章形变/推转壳模型与 TRS 背景；第 3 章熔合蒸发、HPGe/反康、在束 γ 技术；第 4 章能量/效率刻度、符合矩阵、DCO/ADO；第 5 章 `101Pd` 实验、能级纲图、E-GOS、顺排/Routhian、带交叉和讨论；第 6 章 RDT 原理、分离器/焦平面探测器设计；第 7 章总结。

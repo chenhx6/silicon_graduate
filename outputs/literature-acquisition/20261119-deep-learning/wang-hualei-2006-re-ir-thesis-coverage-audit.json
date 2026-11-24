@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-11-22T00:11:30.000727+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 756,
+      "task": "WANG06-HUALE-PDF84-161",
+      "pages": 161,
+      "version": "Hualei Wang, Graduate University of Chinese Academy of Sciences doctoral dissertation, 2006",
+      "role": "verified-doctoral-thesis",
+      "scope": [
+        "PDF1–14 front matter and introduction",
+        "PDF15–83 theory, instruments and analysis",
+        "PDF84–125 170Re study",
+        "PDF126–145 176Ir decay and isomer",
+        "PDF146–161 conclusions, bibliography and end matter"
+      ],
+      "checks": [
+        "PDF74 separates symmetric coincidences, the angular-ratio matrices and gamma-time analysis.",
+        "PDF103 Table 5.4 reports 188.9 keV with RDCO=0.86(7), RADO=0.80(5) and I=100(8).",
+        "PDF135 and 139 report 176Ir decay-feed evidence. The 607.2-keV fitted time includes two components; 629.8 keV is a different comparison line. The Clover energy-addback function is documented separately from angular and polarization measurement."
+      ],
+      "gap": "Re assignments, weak-line limits and the Ir parent-spin inference remain conditional; no quantitative polarization listed for these experiments.",
+      "lineage": "The Re in-beam experiment and the separately collected Ir decay experiment have different instruments and observables.",
+      "work_id": "catalogue:LIT-000756",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/A王华磊.pdf",
+        "sha256": "4d3587faefdc877d88d383db75bbe71033241c2e1afeca2259e2557a9f4afa41",
+        "size": 3649000,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-doctoral-thesis"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/wang-huale-2006-170re-176ir-thesis.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 1,
+  "credited_primary_pages": 161
+}

@@ -4,11 +4,11 @@ title: "Poves2020：有效核形状、量子涨落与高阶不变量的限制"
 title_original: "Limits on assigning a shape to a nucleus"
 aliases: [Poves Nowacki Alhassid shape limits]
 created: 2026-10-23
-updated: 2026-11-08
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: theory-and-method
-reading_depth: read
+reading_depth: deep-read
 authors: ["A. Poves", "F. Nowacki", "Y. Alhassid"]
 year: 2020
 journal: Physical Review C
@@ -42,6 +42,8 @@ A. Poves、F. Nowacki、Y. Alhassid，Physical Review C101，054307(2020)，DOI1
 下载沿公开arXiv/无SI配置，文件只在tmp，raw_file是未填归档槽；raw/PLAN/Bib未改，citation_key留空。此文由[[henderson-2020-quadrupole-invariant-convergence]] Ref11定位，是相关方法/计算来源，不是新增独立实验；114时Kumar/Cline正文未读；148已实际新读[[cline-1986-nuclear-shapes-coulomb-excitation]]，Kumar仍metadata-only；不经本文Ref1/5代读。
 
 ## Scope and Reading Depth
+
+2026-11-22 对账确认馆藏为六页 arXiv v2，复用下方既有全篇阅读并核对关键原页。PDF2 Fig. 1 示意 doorway 态求和，PDF5 Fig. 2 展示 68Ni 三个低位 \(0^+\) 态的计算形变范围。76Ge 与 76Se 的比较在 PDF4 与 Table I；Table I 的 76Ge 区间 18°–36° 由 \(\cos(3\gamma)\) 的区间映射而来，18° 是全宽。该范围描述所选模型态的形变涨落。
 
 2026-11-08写作回核：下方“仅tmp/未填raw槽”是早期读取时的历史状态；
 当前frontmatter原件实际存在，SHA与登记一致，有界归档门已核。

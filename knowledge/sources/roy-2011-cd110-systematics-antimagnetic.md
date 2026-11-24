@@ -3,7 +3,7 @@ type: source
 title: "Roy et al. 2011 - Systematics of antimagnetic rotation in even-even Cd isotopes"
 aliases: [Roy 2011 110Cd antimagnetic rotation, Roy 2011 PLB Cd systematics]
 created: 2026-10-28
-updated: 2026-10-28
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-theory
@@ -58,6 +58,8 @@ tags: [110Cd, antimagnetic-rotation, DSAM, shears-mechanism, even-even-Cd]
 Roy et al. (2011) 报告了 110Cd 高自旋能级的多探测器 DSAM 线形寿命分析与反磁转动系统学研究。实验确立了 16+ 至 24+ 能级的寿命与递减的 B(E2) 跃迁几率，并用经典粒子加转子模型支持以下解释：110Cd 属于双剪刀反磁转动与核心集体转动耦合的典型案例，成功解释了其转动惯量大、顺对齐增益显著以及 B(E2) 平缓过渡的独特性质。
 
 ## Competing Interpretations and Limitations
+
+- PDF2（印刷 p.323）明确说 \(28^+\) 与 \(26^+\) 的退激线均为 1443 keV。由未分开的线形得到的是通往 \(24^+\) 的顶层有效馈入寿命 0.35(2) ps。Table 1 的脚注 a 保留这个条件。
 
 - 实验提取的能级寿命直接依赖阻止本领数据库，存在约 20% 的系统不确定度包络。
 - 经典的粒子加转子模型中，粒子-空穴排斥互作用参数 V_pinu ~ 1.2 MeV 与空穴-空穴互作用参数 V_pipi ~ 0–0.2 MeV 属于唯象参数，未包含三维微观自洽平均场形变自适应涨落。

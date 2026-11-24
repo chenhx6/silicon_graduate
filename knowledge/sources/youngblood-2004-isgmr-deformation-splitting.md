@@ -3,7 +3,7 @@ type: source
 title: "Youngblood et al. 2004 - Isoscalar E0-E3 strength in 116Sn, 144Sm, 154Sm, and 208Pb"
 aliases: [Youngblood 2004 ISGMR deformation splitting, ISGMR splitting in 154Sm, YOU04]
 created: 2026-10-30
-updated: 2026-10-30
+updated: 2026-11-22
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -20,7 +20,8 @@ canonical_source: "https://doi.org/10.1103/PhysRevC.69.034315"
 citation_key: youngblood2004isgmr
 raw_file: "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.69.034315.pdf"
 raw_sha256: 86875ded113c8f52a0d01635d214dd843f8c8cf8035dfa582cfeeb1845b18042
-nuclei: [144sm, 154sm, 116sn, 208pb, 238u]
+archive_required: true
+nuclei: [144sm, 154sm, 116sn, 208pb]
 reactions: ["inelastic alpha scattering @ 240 MeV"]
 experiments: [Texas-A-and-M-MDM-spectrometer]
 models: [DWBA-multipole-decomposition, RPA-compressional, macroscopic-fluid]
@@ -37,45 +38,27 @@ PRC 69, 034315 (2004), DOI `10.1103/PhysRevC.69.034315`.
 
 ## Scope and Reading Depth
 
-- Completed reading_depth: `deep-read`
-- Covered scope: Precision measurement of small-angle inelastic scattering of 240 MeV $\alpha$ particles on $^{116}\text{Sn}, ^{144}\text{Sm}, ^{154}\text{Sm}$, and $^{208}\text{Pb}$ using the Texas A&M K500 superconducting cyclotron and the multipole-dipole-multipole (MDM) magnetic spectrometer; multipole-decomposition analysis (MDA) in the excitation energy range $E_x = 9 - 40\text{ MeV}$; extraction of the $E0$ (ISGMR) and $E2$ (ISGQR) energy-weighted sum rule (EWSR) fractions; unambiguous discovery of the two-component splitting of the ISGMR in deformed $^{154}\text{Sm}$ compared to spherical $^{144}\text{Sm}$.
-- Not covered: Isovector spin-dipole excitations.
-- Coverage caveats: Focuses on isoscalar compressional modes.
-
-## Key Findings and Claims
-
-| Claim ID | Claim Summary | Evidence Type | Direct/Derived | Locator | Review Flag |
-|---|---|---|---|---|---|
-| YOU04-1 | 在球形半幻核 $^{144}\text{Sm}$（$\beta_2 = 0.08$）中，ISGMR 表现为单一的高斯/洛伦兹对称共振峰，质心能量为 $E_{\text{cen}} = 15.39(15)\text{ MeV}$，消耗了 $100(10)\%$ 的 $E0$ 能量加权求和规则（EWSR）。 | experimental-result | direct | Sec. IV, Fig. 5, Table II | false |
-| YOU04-2 | 在强长椭形变核 $^{154}\text{Sm}$（$\beta_2 = 0.30$）中，ISGMR 发生剧烈的分裂，清晰展现出由两个独立峰构成的双峰结构：低能峰处于 $E_1 = 11.45(25)\text{ MeV}$（占 $36(4)\%$ EWSR），高能峰处于 $E_2 = 15.15(20)\text{ MeV}$（占 $62(6)\%$ EWSR），总 $E0$ 强度完全耗尽 $100\%$ EWSR。 | experimental-result | direct | Sec. IV, Fig. 6, Table II | false |
-| YOU04-3 | 微观理论分析表明，在长椭形变下，$L=0$ 径向呼吸模式与 $L=2, K=0$ 巨四极共振（ISGQR）具有完全相同的空间几何对称性，非零四极形变 $\beta_2$ 诱发两模式强耦合杂化，将 $K=0$ 四极分支推向低能并赋予其可观的单极转移强度。 | author-interpretation | direct | Sec. V, Discussion | false |
-| YOU04-4 | 若对 $^{154}\text{Sm}$ 粗暴套用球形单峰质心公式计算有效不可压缩系数，表观质心能量被低峰拉低至 $13.8\text{ MeV}$，导致推导出的有限核不可压缩系数虚假降低 $\Delta K_A \approx 42\text{ MeV}$（虚假软化逾 $30\%$），证明球形不可压缩系数提取模型不能直接平移至形变核。 | model-result | direct | Sec. V, Discussion | false |
-
-## Cross-Mass-Region Transferability Significance
-
-1. **球形状态方程判据向形变区迁移的致命缺陷**：确立了不能直接将从球形双幻核（$^{208}\text{Pb}, ^{90}\text{Zr}$）建立的 $E0$ 质心单峰公式平移至稀土区与锕系形变核；忽视单极-四极 $K=0$ 耦合会导致将形变几何杂化误读为“核物质状态方程在形变下变软”。
-2. **高阶多极耦合对流体动力学的修正**：为巨共振流体力学模型引入了内禀变形诱导的角动量混合算符。
-
-## Summary
-
-本页摘要以现有书目、原有正文和已有 claim 表为准；本次补齐结构，不新增来源事实。
+核定 14 页刊版。PDF1–4 为实验和多极分解，PDF5–8 为强度与连续背景比较，PDF9–12 为表列结果和理论比较，PDF13–14 为结论及书目。实验以 240 MeV α 粒子在含 0° 的小角范围发生非弹性散射，覆盖激发能 10–55 MeV。多极强度由按能量切片的角分布和 DWBA 响应导出。
 
 ## Key Results
 
-
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| YOU04-1 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | experimental-result | source-reported | Sec. IV, Fig. 5, Table II | false |
-| YOU04-2 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | experimental-result | source-reported | Sec. IV, Fig. 6, Table II | false |
-| YOU04-3 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | author-interpretation | source-reported | Sec. V, Discussion | false |
-| YOU04-4 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. V, Discussion | false |
+| YOU04-1 | 本文 Table II 的 `144Sm` GMR 得到 \(m_1/m_0=15.40(30)\) MeV，EWSR 为 \(92(12)\%\)。表中其余栏包含旧分析和大阪实验，误差与方法各自保留。 | experiment-derived | source-reported | PDF9，Table II | false |
+| YOU04-2 | `154Sm` 的两个 GMR 高斯分量位于 11.05(5)、15.17(5) MeV，分别占 EWSR 的 32(2)% 和 80(5)%。表注说明高斯拟合的这些误差未含系统误差。 | experiment-derived | source-reported | PDF11 Table VI，PDF12 Fig. 13 | false |
+| YOU04-3 | Fig. 13 并列分解出的 E0/E2 强度、双高斯拟合和形变相关理论曲线。图中低能 E0 分量和四极响应提供比较形变耦合的依据。 | author-interpretation | source-reported | PDF11–12，Fig. 13 与讨论 | false |
+| YOU04-4 | PDF9 对比基于 Gogny 相互作用的核物质不可压缩性推断和相对论模型计算。有限核强度的提取及用其约束核物质参数依赖不同的分析层级。 | evidence-boundary | source-reported | PDF9 Sec. IV | false |
 
-原页面既有的直接报告、作者解释和模型结果保持原文分层；缺失 locator 或原件的项目仍保持相应证据边界。
+## Summary
+
+本稿将散射截面的多极分解用于比较四种核素的等标强度。`154Sm` 校正后的 E0 分布用两个高斯分量表述。能量、EWSR 份额、形变解释和核物质参数应分别使用各自表项或模型出处。
 
 ## Competing Interpretations and Limitations
 
-竞争解释、来源依赖、原件访问和必要伴随观测缺口按原页面记录；不得把模型结果或评价字段升级为直接实验事实。
+- 较早的 Sn、Sm、Pb 结果与本文存在采集重合。PDF9 明确指出多数为同数据重分析。
+- ISGDR 等标偶极分布对连续背景敏感。形变核能谱向核物质参数的迁移需要明确模型，正文未给固定形变阈值或通用修正量。
 
 ## Extracted Pages
 
-本页当前只保留已有 locator；未取得的原始页码、图表或附件不补写，后续摄入必须记录实际阅读范围。
+- PDF9 Table II：三核的 GMR 力矩、EWSR 与早期结果比较。
+- PDF11 Table VI、PDF12 Fig. 13：`154Sm` 拟合、误差及形变计算比较。

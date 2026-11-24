@@ -1,0 +1,21 @@
+{
+  "work_id": "catalogue:LIT-000697",
+  "task_id": "SODERSTROM08-AGATA-POSITION-SCOPE",
+  "checked_at": "2026-11-21T22:17:51.018021+00:00",
+  "raw": {
+    "path": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/soderstrom-2008-proceedings.pdf",
+    "sha256": "6b1ba0ff312d264d600c827d6ee1e46860d31278dea08374455d2ad00b82d69e",
+    "size": 751799,
+    "hash_basis": "fresh-hash",
+    "source_role": "verified-proceedings-author-version"
+  },
+  "version": "arXiv:0812.0091v1, VERTEX 2008 proceedings",
+  "coverage": [
+    "PDF1–4 design and tracking, PDF5–8 resolution decomposition and proposed method, PDF9–10 references."
+  ],
+  "manager_checks": [
+    "Design near 5 mm separate from quoted Cologne 4.3/4.4 point estimates.",
+    "The two-distance proposal uses different linewidth contributions and geometry. Retained existing source’s Eq. (4.4) typography and no new apparatus performance assertion."
+  ],
+  "credited_primary_pages": 10
+}

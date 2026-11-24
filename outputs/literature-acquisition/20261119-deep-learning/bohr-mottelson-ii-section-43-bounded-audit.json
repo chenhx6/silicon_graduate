@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-11-22T02:56:17.161403+00:00",
+  "model_requested": null,
+  "reasoning_requested": null,
+  "works": [],
+  "credited_works": 0,
+  "credited_primary_pages": 0,
+  "partial_units": [
+    {
+      "work_id": "catalogue:LIT-000302",
+      "scope": "PDF 53–82 (printed 31–60)",
+      "raw": {
+        "path": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+        "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+        "size": 46111788,
+        "hash_basis": "fresh-hash",
+        "source_role": "reference-book-partial-reading"
+      },
+      "source_note": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "anchors": [
+        {
+          "pdf": 55,
+          "printed": 33,
+          "locator": "Eqs. (4-61)–(4-62)",
+          "finding": "Leading K=1/2 signature term and higher-order terms have distinct powers in the energy expansion."
+        },
+        {
+          "pdf": 67,
+          "printed": 45,
+          "locator": "Eqs. (4-67)–(4-70)",
+          "finding": "At leading order axial intraband B(E2) and diagonal spectroscopic moment use the same intrinsic Q0 but distinct geometry."
+        },
+        {
+          "pdf": 78,
+          "printed": 56,
+          "locator": "Eqs. (4-85)–(4-87)",
+          "finding": "K>1/2 intraband M1 rate uses (gK-gR); Eq. (4-88) adds a term at K=1/2."
+        },
+        {
+          "pdf": 81,
+          "printed": 59,
+          "locator": "Eqs. (4-91)–(4-95)",
+          "finding": "Vanishing leading-order amplitude for |Delta K|>lambda; forbiddenness order |Delta K|-lambda, with higher-order contributions."
+        },
+        {
+          "pdf": 82,
+          "printed": 60,
+          "locator": "Eqs. (4-96)–(4-98)",
+          "finding": "Higher-order interband intensity correction has an explicit angular dependence and intrinsic parameters."
+        }
+      ]
+    }
+  ]
+}

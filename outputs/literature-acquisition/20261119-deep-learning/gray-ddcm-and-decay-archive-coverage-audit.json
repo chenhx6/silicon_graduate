@@ -1,0 +1,163 @@
+{
+  "checked_at": "2026-11-22T02:52:30.605963+00:00",
+  "model_requested": null,
+  "reasoning_requested": null,
+  "works": [
+    {
+      "number": 22,
+      "pages": 54,
+      "task": "LOCAL-MOMENTS-RDDS-AND-DECAY-COVERAGE",
+      "version": "Dewald, Möller and Petkov, Developing the Recoil Distance Doppler-Shift technique towards a versatile tool for lifetime measurements, PPNP 67 (2012) 786–839, DOI 10.1016/j.ppnp.2012.03.003, publisher PDF",
+      "role": "publisher-review",
+      "source_note": "knowledge/sources/dewald-2012-ddcm-recoil-distance.md",
+      "scope": [
+        "PDF 1–5 scope and basics; 5–15 technique developments; 15–24 differential plunger and example experiments; 24–31 devices; 31–37 foil preparation, calibration and beam effects; 37–52 analysis; 52–54 outlook and references.",
+        "PDF 36 Fig. 39 documents setup-specific distance calibration; PDF 40 Eq. (34) uses a shifted direct feeder; PDF 42–46 addresses velocity, orientation and slowing lineshape; PDF 48–49 identifies unobserved feeding model limits."
+      ],
+      "gap": "Review includes cited measurements from older experiments, not additional acquisitions. Geometry, excitation, recoil velocity and gate assumptions accompany extraction.",
+      "lineage": "Review includes cited measurements from older experiments, not additional acquisitions. Geometry, excitation, recoil velocity and gate assumptions accompany extraction.",
+      "work_id": "catalogue:LIT-000022",
+      "raw": {
+        "path": "raw/papers/2012_Dewald et al_Developing the Recoil Distance Doppler-Shift technique towards a versatile tool for lifetime measure.pdf",
+        "sha256": "5c17814e531c70f151b8d183206f902b7c8f7168e977cb2118da9df05668db20",
+        "size": 4713767,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-review"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/dewald-2012-ddcm-recoil-distance.md",
+          "declared_reading_depth": "skimmed",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 358,
+      "pages": 30,
+      "task": "LOCAL-MOMENTS-RDDS-AND-DECAY-COVERAGE",
+      "version": "Chiara et al., Spectroscopy in the Z=49 108,110In isotopes: Lifetime measurements in shears bands, PRC 64 054314 (2001), publisher PDF, DOI 10.1103/PhysRevC.64.054314",
+      "role": "publisher-version",
+      "source_note": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+      "scope": [
+        "PDF 1–30 prior full reading and targeted re-audit of Tables I, III and V and fit methods.",
+        "PDF 19 Table V 108In 15- row gives the 527.8 and 864.2 keV intensities 31.6 and 2.0. PDF 18–19 distinguishes covariance from unquoted stopping-model uncertainty."
+      ],
+      "gap": "Do not turn the two observed branches into an absolute photon ledger. Quoted fit covariance and model systematics have different definitions.",
+      "lineage": "Do not turn the two observed branches into an absolute photon ledger. Quoted fit covariance and model systematics have different definitions.",
+      "work_id": "catalogue:LIT-000358",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261009-PREPLAN-high-spin-library/2001_Chiara et al_Spectroscopy in 108,110In isotopes_Lifetime measurements in shears bands.pdf",
+        "sha256": "5672ffce1e4049245b3107e6132af0ff7501d14182a03d803cd66828e6660a4e",
+        "size": 440801,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 432,
+      "pages": 270,
+      "task": "LOCAL-MOMENTS-RDDS-AND-DECAY-COVERAGE",
+      "version": "Timothy J. Gray, Electromagnetic Moments and Emerging Nuclear Collectivity near Z=50, ANU PhD thesis, title page 2020, repository issued 2021, DOI 10.25911/yd6j-qk37",
+      "role": "doctoral-dissertation",
+      "source_note": "knowledge/sources/gray-2021-thesis-electromagnetic-moments-z50.md",
+      "scope": [
+        "PDF 1–26 preliminary material; 27–68 introduction and methods; 69–108 129Sb Coulomb excitation; 109–170 138Xe decay and spectroscopy; 171–200 130Sn TDPAD; 201–236 Cd/Sn TDPAD; 237–242 conclusions; 243–251 appendices and publications index; 252–270 two appended manuscripts.",
+        "PDF 238 Fig. 7.1 separates 129Sb excitation sum from the 128Sn literature core strength. PDF 186 and 239 show preliminary 130Sn g=-0.31(2). PDF 215–216 and 239 show the 111Sn g=-0.214(4) fit with 113Sn field calibration. PDF 247 recouples two- and three-E2 products."
+      ],
+      "gap": "The cited core strength, new excitation yields and shell-model matrix elements have separate provenance. Appended papers do not become independent measurements by being bound together.",
+      "lineage": "The cited core strength, new excitation yields and shell-model matrix elements have separate provenance. Appended papers do not become independent measurements by being bound together.",
+      "work_id": "catalogue:LIT-000432",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/gray-2021-anu-thesis-z50-electromagnetic.pdf",
+        "sha256": "3ff5dc98a995e43133b23889900a3b579e57413a4a836e7264b9c870389fe152",
+        "size": 12873812,
+        "hash_basis": "fresh-hash",
+        "source_role": "doctoral-dissertation"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/gray-2021-thesis-electromagnetic-moments-z50.md",
+          "declared_reading_depth": "skimmed",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 1012,
+      "pages": 5,
+      "task": "LOCAL-MOMENTS-RDDS-AND-DECAY-COVERAGE",
+      "version": "Seiferle, von der Wense and Thirolf, Lifetime Measurement of the 229Th Nuclear Isomer, PRL 118 042501 (2017), publisher PDF, DOI 10.1103/PhysRevLett.118.042501",
+      "role": "publisher-version",
+      "source_note": "knowledge/sources/seiferle-2017-lifetime-229th-isomer.md",
+      "scope": [
+        "PDF 1–5 article, detector setup, signal controls, Fig. 4 and references.",
+        "PDF 4 Fig. 4 gives neutralized-ion half-life fits of 6.9(1.0) and 7.0(1.0) microseconds. The internal-conversion coefficient estimate uses a theoretical radiative life."
+      ],
+      "gap": "The two incident charge settings are controls on the same post-neutralization decay. The neutral measurement is distinct from the isolated ion radiative lifetime.",
+      "lineage": "The two incident charge settings are controls on the same post-neutralization decay. The neutral measurement is distinct from the isolated ion radiative lifetime.",
+      "work_id": "catalogue:LIT-001012",
+      "raw": {
+        "path": "raw/papers/isomer/isomer_application/nuclear_clock/2017_Seiferle et al_Lifetime Measurement of the Th229 nuclear isomer.pdf",
+        "sha256": "78d443a66a8c925ea826158ae94fd7d1c18f571a49edb9508146a48791dc0489",
+        "size": 347788,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/seiferle-2017-lifetime-229th-isomer.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 1055,
+      "pages": 13,
+      "task": "LOCAL-MOMENTS-RDDS-AND-DECAY-COVERAGE",
+      "version": "Saito et al., Decay Spectroscopy of 129Cd, arXiv:2008.02959v1, PRC 102 024337 (2020), DOI 10.1103/PhysRevC.102.024337",
+      "role": "arxiv-author-version",
+      "source_note": "knowledge/sources/continuation-g19-saito-2020-129cd-spectroscopy.md",
+      "scope": [
+        "PDF 1–13 prior full reading, rechecked decay chains, mixing and parent normalization, Tables I–II, comparisons and references.",
+        "PDF 10 Table II 3150-keV row reports 24.1(9)% with total mixed-parent normalization, and 45(10)% for the 11/2- parent."
+      ],
+      "gap": "Preserve mother-specific estimates, limits and blank cells. Adopting a previous result from the same acquisition does not supply independent new statistics.",
+      "lineage": "Preserve mother-specific estimates, limits and blank cells. Adopting a previous result from the same acquisition does not supply independent new statistics.",
+      "work_id": "catalogue:LIT-001055",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261107-continuation-G19/Saito_2020_PRC_102_024337_129Cd_decay.pdf",
+        "sha256": "817dd7ed60e57341c46697887a37481564c3887b104b7cc9cec9427e1e004399",
+        "size": 2545196,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/continuation-g19-saito-2020-129cd-spectroscopy.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 5,
+  "credited_primary_pages": 372,
+  "read_provenance": "Direct local original checks; older full readings credited only with explicit page scopes.",
+  "partial_without_credit": [
+    "catalogue:LIT-000302"
+  ]
+}

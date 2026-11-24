@@ -3,7 +3,7 @@ type: source
 title: "Radford et al. 2005 - Coulomb excitation and transfer reactions with neutron-rich radioactive beams"
 aliases: [130Sn B(E2) Coulomb excitation, Radford 2005 Sn transition strength]
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-11-22
 status: active
 review_status: unreviewed
 source_type: journal-article-coulomb-excitation-experiment
@@ -62,6 +62,8 @@ Radford et al. report B(E2;0+→2+) measurements for the first 2+ states of even
 | RAD05-D21-1 | **superseded（checkpoint042）**：11%异构成分是来源报告；未核原分析是否已扣除，不能改报B为0.0258或断言实际有-11%偏差。B比不等于不同核的探测响应/截面比；2%泄漏→20%仅任设toy。xi=.45任设，700倍不能当实际截面。现代0.072原件未核，更不能给52.8%差异归因。 原review/needs_review保持；旧passed不认证来源、实验或CI。 | task-correction | superseded-scientific-certification | checkpoint042撤回记录 | true |
 
 ## Competing Interpretations and Limitations
+
+Journal p.386 (PDF4) gives a separate \(^{135}\mathrm{Te}\) transfer analysis. The 929-keV line is coincident with the 1180-keV decay. The authors combine this placement with angular correlations and the transfer argument to assign the 2109-keV level as a candidate neutron \(i_{13/2}\) state. Table 2 normalizes each reaction to the 659-keV \(p_{3/2}\) state. Its bracketed DWBA entries for the 1180-keV \(11/2^-\) state use a substitute \(h_{11/2}\) configuration for a likely core-coupled state, and the authors explicitly qualify that approximation.
 
 The direct 130Sn result fills a coverage gap left by the retrieved NuDat page, but it is explicitly preliminary and has no published yield table or detailed error decomposition in this five-page proceedings paper. The measured beam contained an 11% 7− isomeric component. Although other chemical elements were reported below 1%, the article does not expose a complete covariance model for beam state composition, gamma efficiency, Doppler/solid-angle corrections or Winther–DeBoer extraction.
 

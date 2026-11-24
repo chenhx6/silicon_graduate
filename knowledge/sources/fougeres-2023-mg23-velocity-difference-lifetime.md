@@ -133,3 +133,8 @@ GANIL110.8(.4)MeV24Mg、3He约2×10¹⁷cm−2，植入约.1µm；5.0(.5)µmAu�
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | F23-D19-1 | 对 Fougères 2023 采用的多普勒速度差法（EVASIONS）及其向天体核共振强度的传递链进行严格量化审计。从靶核 $^{22}\text{Na}(3^+)$ 与质子 $(1/2^+)$ 自旋严格导出统计因子 $g = 4/7 = 0.5714$。单测寿命 $\tau = 11.0\text{ fs}$ 与质子分支比 $B_p = 0.68\%$ 导出共振强度 $\omega\gamma = 0.230930\text{ meV}$，与作者推荐组合值 $0.241766\text{ meV}$ 高度自洽。Table 1 系统误差预算正交求和严格为 $26.525\%$（正文标称 $26\%$），其中阻停功率 $20\%$ 不确定度引入 $10\%$ 的寿命系统误差下限（$d\ln\tau/d\ln S \approx 0.5$），排除了飞秒多普勒方法具备零阻停依赖的假定。统计误差（$\approx 50\%$）在飞秒域显著超过系统误差，而质子分支比 $B_p$ 相对早期旧数据跃升 18.4 倍，是驱动天体共振强度修正的压倒性支配源。 | task-velocity-difference-and-strength-audit | derived-and-boundary | main PDF3 Table 1; fougeres23-velocity-difference-result-051.json | true |
+
+
+## 2026-11-22 — 本地原件与证据范围复核
+
+主件 PDF 3 Table 1 给出分项系统误差，原文合计约 26%。寿命、质子分支和综合推荐值须按各自来源使用。已有补充材料复核保留对应页码。

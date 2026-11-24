@@ -3,7 +3,7 @@ type: source
 title: "Nuclear Data Sheets 1970 - Summary of bases for spin and parity assignments (1970)"
 aliases: [Summary of Bases 1970]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: data-sheet-method-summary
@@ -19,13 +19,14 @@ canonical_source: "Nuclear Data Sheets 1970 summary of bases"
 library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1970_Summary of bases for spin and parity assignments — 1970.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1970_Summary of bases for spin and parity assignments — 1970.pdf"
 raw_sha256: "d8386bab5d0b6639354207e7149709c615bf4cf907303e5fc7e61a349a19487e"
+archive_required: true
 nuclei: [assignment-methods]
 reactions: [transfer, Coulomb-excitation, neutron-capture, high-spin-reaction]
 experiments: []
 models: [rotational-band, shell-model, Nilsson]
-observables: [spin, parity, multipolarity, DCO, polarization, angular-distribution, conversion-coefficient]
+observables: [spin, parity, multipolarity, beta-gamma-polarization-correlation, angular-correlation, conversion-coefficient]
 methods: [spin-parity-assignment]
-tags: [spin-parity, DCO, polarization, angular-distribution, method-summary]
+tags: [spin-parity, polarization, angular-correlation, method-summary]
 ---
 
 # Summary of bases for spin and parity assignments (1970)
@@ -37,22 +38,22 @@ tags: [spin-parity, DCO, polarization, angular-distribution, method-summary]
 
 ## Scope and Reading Depth
 
-- Full four-page PDF read: strong/weak propositions for ground states, γ transitions, β decay, directional correlations, polarization, reactions, transfer, deformed bands, alpha/proton decay and magnetic moments.
-- This 1970 sheet is a distinct historical compilation from the later compact 2010 sheet [[summary-bases-spin-parity-assignments]]; it is not an independent experiment.
+- PDF 1–2 (pp. iii–iv) contains the special introduction for the even \(A=230\)–242 issue and the assignment guide. The guide has 32 strong propositions and eight weak propositions. PDF 3–4 (pp. v–vi) contains E0 material and data-sheet notation.
+- The later [[summary-bases-spin-parity-assignments]] adds rules specific to high-spin in-beam γ spectroscopy.
 
 ## Key Results
 
-- Strong arguments include multiple conversion coefficients, angular correlations, polarization, DCO/ADO, transfer `L`, Coulomb-excitation probabilities and consistent rotational-band evidence; generic systematics and nonobservation are weak arguments (PDF pp.iii–iv, propositions 1–36).
-- Typical high-spin guidance is setup-specific: DCO near `1/0.5` or `2/1` under specified stretched gates, angular-distribution `A2/A4` patterns for dipole/quadrupole, and polarization signs under the stated correlation convention (PDF p.iv, propositions 13–19, 37).
+- Strong arguments include conversion coefficients, directional correlations, β–γ polarization correlation, transfer `L`, Coulomb excitation and rotational-band evidence (PDF1–2, propositions 1–32).
+- Propositions 18–19 address β–γ polarization and allowed β transitions (PDF2, p. iv). The modern guide is the source for the DCO reference values and the typical \(\sigma/J\) condition.
 - The sheet explicitly lists strong versus weak bases and notes that g factors, Nilsson interpolation, regional trends and nonobservation need supporting evidence (PDF p.iv).
 
 ## Key Results
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| SB70-1 | Spin/parity assignments should combine independent conversion, angular, DCO/polarization and reaction evidence. | method-guideline | direct | PDF pp.iii–iv, propositions 3–37 | false |
-| SB70-2 | Typical high-spin DCO/angle/polarization values are conditional on gate, alignment and geometry. | limitation | direct | PDF p.iv, propositions 13–21, 37 | false |
-| SB70-3 | Interpolation, nonobservation and generic g-factor/Nilsson arguments are weak bases. | evidence-hierarchy | direct | PDF p.iv, weak propositions 1–12 | false |
+| SB70-1 | The guide gives conditions on conversion coefficients, directional correlations and nuclear reactions for spin/parity assignment. | method-guideline | direct | PDF1–2, propositions 3–32 | false |
+| SB70-2 | The β–γ polarization propositions address allowed β transitions. | method-guideline | direct | PDF2, propositions 18–19 | false |
+| SB70-3 | The guide classes regional interpolation and nonobservation as weak bases. | evidence-hierarchy | direct | PDF2, weak propositions 7–8 | false |
 
 ## Summary
 
@@ -61,18 +62,18 @@ The 1970 proposition sheet is an early evidence hierarchy for spin/parity assign
 ## Competing Interpretations and Limitations
 
 - The propositions are heuristic strength rankings, not universal likelihood thresholds.
-- DCO, polarization and angular-distribution heuristics remain geometry-, alignment- and convention-dependent.
+- The polarization propositions depend on the transition type and the stated angular-correlation convention.
 
 ## Analytical Reconstruction and Self-Audit
 
 | ID | 审核项 | Agent 判断 | Evidence / locator | 审核状态 |
 |---|---|---|---|---|
-| SB70-AR-1 | Evidence hierarchy | Direct observables and consistent multi-method convergence outrank regional/systematic guesses. | Propositions 1–37 | self-checking |
-| SB70-AR-2 | Transfer condition | Historical thresholds are not universal; retain geometry, alignment, convention and source version. | Propositions 13–21, 37 | active-L3 |
+| SB70-AR-1 | Evidence hierarchy | The guide ranks specified observations and relationships above regional extrapolation. | PDF1–2, strong and weak headings | self-checking |
+| SB70-AR-2 | Transfer condition | Use the β–γ polarization relation within its stated allowed-transition and angle conditions. | PDF2, propositions 18–19 | active-L3 |
 
 ## Knowledge Impact and Learning Decision
 
-- Effect: `supports` [[summary-bases-spin-parity-assignments]], [[angular-correlation]], [[linear-polarization-asymmetry]], [[multipole-mixing-ratio]] and batch-wide evidence gates.
+- Effect: provides the historical comparison for [[summary-bases-spin-parity-assignments]] and the evidence framework for [[angular-correlation]].
 - Review state: Codex self-audited; not `human-reviewed`.
 
 ## Human Review Triage

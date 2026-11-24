@@ -3,7 +3,7 @@ type: source
 title: "Varner et al. 2005 - Coulomb excitation strengths in 132Sn and 134Sn"
 aliases: [Varner 2005 132Sn B(E2), 132Sn Coulomb excitation B(E2)]
 created: 2026-09-28
-updated: 2026-09-29
+updated: 2026-11-22
 status: active
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -21,6 +21,7 @@ language: en
 canonical_source: doi:10.1140/epjad/i2005-06-128-7
 raw_file: "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/varner-2005-132-134Sn-coulex.pdf"
 raw_sha256: bf34234243d3a237554fd5be730ff14292b68cf6eb3d5956d847cfc5b854a5f8
+archive_required: true
 data_url: "https://link.springer.com/content/pdf/10.1140/epjad/i2005-06-128-7.pdf"
 data_sha256: bf34234243d3a237554fd5be730ff14292b68cf6eb3d5956d847cfc5b854a5f8
 data_bytes: 229935
@@ -42,6 +43,8 @@ R. L. Varner et al., *The European Physical Journal A* **25** (Supplement 1), 39
 The public publisher PDF was read end-to-end and visually checked at pp.391–394, including Figs.1–5. The verified PDF is retained at `raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/varner-2005-132-134Sn-coulex.pdf` (229,935 bytes; SHA-256 `bf34234243d3a237554fd5be730ff14292b68cf6eb3d5956d847cfc5b854a5f8`).
 
 ## Scope and Reading Depth
+
+核定四页刊版，印刷 pp.391–394。PDF2 的两个 `132Sn` 角截断分别对应 `3.75 MeV/u` 与 `3.6 MeV/u`。PDF3–4 的 `134Sn` 725 keV 拟合使用混合束中的参照成分。两核的 \(B(E2)\) 值均为作者的初步提取结果。
 
 The paper reports inverse-kinematics Coulomb excitation of the first `2+` states in neutron-rich `132Sn` and `134Sn` at HRIBF-ORNL. For `132Sn`, 470- and 495-MeV beams impinged on `48Ti`; scattered ions and target recoils were identified with a double-sided Si-strip detector, while 150 BaF₂ crystals detected γ rays (PDF pp.392–393, Fig.1). The `134Sn` measurement used a 400-MeV beam and a `90Zr` target with a mixed A=134 beam (PDF pp.393–394, Fig.4).
 

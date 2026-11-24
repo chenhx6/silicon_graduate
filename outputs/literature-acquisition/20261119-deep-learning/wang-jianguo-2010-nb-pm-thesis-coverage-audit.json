@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-11-22T00:15:00.268882+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 757,
+      "task": "WANG10-JIANGUO-PDF65-119",
+      "pages": 119,
+      "version": "Jianguo Wang, Tsinghua University doctoral dissertation, June 2010",
+      "role": "verified-doctoral-thesis",
+      "scope": [
+        "PDF1–11 front matter",
+        "PDF12–64 introduction, theory, apparatus and analysis",
+        "PDF65–86 103,104Nb studies",
+        "PDF87–103 140Pm study",
+        "PDF104–119 conclusion, references and end matter"
+      ],
+      "checks": [
+        "Cover and numbered chapters establish printed p.=PDF−11. The apparatus and angular-method chapters distinguish Cf coincidence spectroscopy and the in-beam Pm DCO experiment.",
+        "PDF68 Table 4.1: on the 565.3/279.3-keV gates, the 716.8-keV 103Nb relative branch is 77.4(11)%. The two-phonon assignment adds conditional model arguments.",
+        "PDF89 Table 6.1: the 140Pm 124.8-keV entry has RDCO 0.89(9), with an M1/E2 assignment. Individual gate energies, P and signed mixing ratio are absent in that entry."
+      ],
+      "gap": "Weak or unresolved transitions retain empty angular fields. Model and structure assignments do not add direct polarization or mixing-ratio evidence.",
+      "lineage": "The Nb spontaneous-fission and Pm in-beam data use distinct acquisitions and observables.",
+      "work_id": "catalogue:LIT-000757",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/王建国-丰中子核103,104Nb及缺中子核140Pm的高自旋态研究.pdf",
+        "sha256": "a4262bba15371b4cfe37f5a89331ba0f7b3ef6aa339fec6e6579ca55baa36635",
+        "size": 9234483,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-doctoral-thesis"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/wang-jianguo-2010-high-spin-103-104nb-140pm.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 1,
+  "credited_primary_pages": 119
+}

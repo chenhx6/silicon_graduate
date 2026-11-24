@@ -1,0 +1,69 @@
+{
+  "checked_at": "2026-11-21T21:20:49.989024+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "ROHO11-CPHC-FULL-CHIRALITY",
+      "version": "Eur. Phys. J. A 47, 90 (2011), DOI 10.1140/epja/i2011-11090-7",
+      "pages": 15,
+      "scope": [
+        "PDF1–4 motivation, operators and S symmetry; PDF5–14 soft and rigid core calculations, explicit symmetry breaking and conclusion; PDF14–15 references."
+      ],
+      "checks": [
+        "Confirmed follow-up cites the same CPHC short note and improves model conditions rather than adding independent experiment.",
+        "Fig. group references and limits in existing note verified. Kept fictitious systems and potential/kinetic asymmetry sensitivity.",
+        "Model fingerprints do not establish a unique geometry. No agent-specific extra parameters or claim of abrupt collapse adopted."
+      ],
+      "gap": "No direct geometry or equivalent exact mapping to measured bands.",
+      "lineage": "Same theoretical lineage as short Próchniak 2011.",
+      "work_id": "catalogue:LIT-000661",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/rohozinski-2011-cphc-s-symmetry.pdf",
+        "sha256": "94b2b3bc89c1d942f07f7c512c5aecc38c3cc08bbf48dac507ad373ace64b8c9",
+        "size": 874417,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/rohozinski-2011-cphc-s-symmetry-chirality.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "ROSIAK18-SN132-E2E3-AUDIT",
+      "version": "JYU cover with published PRL 121, 252501 (2018), DOI 10.1103/PhysRevLett.121.252501",
+      "pages": 7,
+      "scope": [
+        "PDF1 repository wrapper, PDF2–7 article 252501-1 to 252501-6. PDF3–5 reaction, measured peaks and GOSIA2 fit. PDF5–7 theory and references."
+      ],
+      "checks": [
+        "PDF4 clearly separates 310.7-keV branch not observed from adopted beta-decay input; use reported E1 as conditional inference.",
+        "Table I reproduces fitted E2/E3; normalization includes literature 206Pb matrix elements. No direct new B(E1) detection claimed.",
+        "Original publication-page offsets recorded after cover. No model probability read as an independent measurement."
+      ],
+      "gap": "No full matrix-element covariance, GOSIA2 input or independent repeat.",
+      "lineage": "Own Coulomb excitation with earlier decay and target strength used as inputs.",
+      "work_id": "catalogue:LIT-000667",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261101-cross-mass-132sn/rosiak-2018-132sn-enhanced-octupole.pdf",
+        "sha256": "74e5280874a860617fb0d5f886be3c7998965b4afd8a62b1292fd20d36222a67",
+        "size": 1311442,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/rosiak-2018-132sn-enhanced-octupole.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 22
+}

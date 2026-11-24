@@ -1,0 +1,70 @@
+{
+  "checked_at": "2026-11-21T20:32:56.674216+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "PROCHNIAK11-CPHC-SELECTION",
+      "version": "Acta Phys. Pol. B 42, 465–469 (2011), DOI 10.5506/APhysPolB.42.465",
+      "pages": 5,
+      "scope": [
+        "PDF1–5 / printed 465–469: motivation, S symmetry Eqs. (1)–(7), E2 and M1 conditions, Eq. (9) and Fig. 1, references."
+      ],
+      "checks": [
+        "Eq. (1) distinguishes the neutron hole. Eq. (3) separates deformation-coordinate inversion and exchange from ordinary spatial parity.",
+        "Same-s E2 suppression applies to the dominant core term. Exact M1 cancellation for unequal I needs the specified gyromagnetic condition.",
+        "The prior model report and illustrative applicability are not further measurements. Existing source note kept."
+      ],
+      "gap": "No measured geometry, lifetimes or selection tests in original.",
+      "lineage": "Short theoretical treatment of earlier CPHC staggering and limiting conditions.",
+      "work_id": "catalogue:LIT-000635",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/prochniak-2011-cphc-s-symmetry.pdf",
+        "sha256": "38086d08899d60b4b400be263ec600596c0ca971e339ff5cde1d9d13c9e052cd",
+        "size": 293772,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/prochniak-2011-cphc-s-symmetry-transition-rules.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "PROTOPAPAS97-KKDF-STRONG-COUPLING",
+      "version": "Phys. Rev. C 55, 699–713 (1997), DOI 10.1103/PhysRevC.55.699",
+      "pages": 15,
+      "scope": [
+        "PDF1–6 laboratory EOM, single-particle operators and intrinsic transform.",
+        "PDF7–11 strong-coupling reductions, laboratory formulation and sorting; PDF11–15 applications, discussion, appendices."
+      ],
+      "checks": [
+        "Sec. VIII uses phenomenological core energies tuned to experiment and both models compared at the same fitted full-KKDF parameters. Rejected worker claim of directly adopting all core energies and B(E2) values.",
+        "157Gd Figs. 1 and 2 compare spectra and B(E2), but 157Tb Fig. 3 has no useful measured B(E2) comparison.",
+        "Sec. IX treats multiple avoided crossings as a potential limitation, not a breakdown proven for all applications."
+      ],
+      "gap": "No numerical replay or general transfer from strong-coupling comparison to unrelated problems.",
+      "lineage": "Model comparison against cited experiments; same fit parameter set across approaches.",
+      "work_id": "catalogue:LIT-000636",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261105-pairing-rotor-foundations/protopapas-klein1997-prc55-699.pdf",
+        "sha256": "b7ba75ea84348c3c6f877be6ce21c522428d19f9f226f6f1929111313c284053",
+        "size": 276481,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/protopapas-klein-1997-core-particle-approximation.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 20
+}

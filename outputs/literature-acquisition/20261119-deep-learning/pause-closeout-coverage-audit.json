@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-11-22T04:57:46.069357+00:00",
+  "pause": {
+    "state": "paused-awaiting-quota-refresh",
+    "requested_on": "2026-11-22",
+    "resume_condition": "Resume on the user’s next continuation after the subscription quota refresh.",
+    "resume_work_id": "catalogue:LIT-000302",
+    "resume_pdf_page": 281,
+    "resume_printed_page": 259,
+    "gemini_requests_this_closeout": 0,
+    "background_reading_scheduled": false
+  },
+  "checked_originals": {
+    "catalogue:LIT-000302": {
+      "path": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "pdf_pages": 772
+    },
+    "catalogue:LIT-000487": {
+      "path": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/jones-2010-nature09048-supplement.pdf",
+      "sha256": "1854f8e4225ca93038e170845b8a6d45e53ccba2a1e62eca50e54aa46bda5d3d",
+      "pdf_pages": 6
+    },
+    "catalogue:LIT-000542": {
+      "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/实验/2018_Macchiavelli et al_Erratum.pdf",
+      "sha256": "772804ce5ddf6817024757cede56cabcff9efbbf10d221b04bac2e1f661f7e84",
+      "pdf_pages": 1
+    }
+  },
+  "unit_status": {
+    "volume_ii": "PDF 246–280 written back from already verified local reading; 35 partial pages excluded from completed-object totals.",
+    "jones_supplement": "Existing six-page SI reading reconciled; main text uncredited.",
+    "macchiavelli_erratum": "One-page formal erratum accepted; no new experiment."
+  },
+  "total_records": 1003,
+  "queue_states": {
+    "pending-identity-and-coverage": 299,
+    "scientific-reading-covered": 407,
+    "duplicate-excerpt-linked-to-canonical": 4,
+    "duplicate-or-related-version": 9,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 3,
+    "existing-source-coverage-to-audit": 249,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "pending_records": 548,
+  "cumulative_counted_objects": 425,
+  "cumulative_counted_primary_pdf_pages": 18165
+}

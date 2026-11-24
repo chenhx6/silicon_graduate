@@ -291,3 +291,8 @@ Knowledge Impact and Learning Decision：limits固定方法窗与“八值完全
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | KL99-D20-R138-1 | checkpoint146撤回旧认证；同态/分支/几何/单位与Cov未逐claim重审之前，不恢复旧数据及过强推论。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |
+
+
+## 2026-11-22 — 十页刊版误差结构复核
+
+PDF 3 Table I 的 294 keV 行给出 \(\bar\tau=94.4(30)\) ps，三项子误差原表写作 `[10/20/19]`，对应 1.0、2.0、1.9 ps。PDF 4 Table II 的 495 keV 行给出 \(\tau=4.94(10)\) ps 和 \(Q_t=4.40(5)\) eb。前后表的寿命与换算量相依。符合门减弱馈入影响，原文仍将杂峰及残余修正留在误差预算。

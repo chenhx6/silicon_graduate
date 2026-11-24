@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-11-22T01:25:40.375432+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 789,
+      "task": "ZILIANI19-AGATA-CALIBRATION-PRIMARY",
+      "pages": 7,
+      "version": "Acta Physica Polonica B 50, 625–631 (2019), publisher PDF",
+      "role": "verified-publisher-conference-article",
+      "scope": [
+        "PDF1–3 setup and timestamp controls",
+        "PDF4–6 calibration and diagnostic spectra",
+        "PDF7 reference material and end matter"
+      ],
+      "checks": [
+        "Fig. 2 shows time alignment before and after; PDF4–5 distinguishes fine energy calibration and reported resolution comparisons.",
+        "PDF5–6 gives angle dependence for 18O diagnostic lines of known lifetime, without a new lifetime extraction in this report."
+      ],
+      "gap": "The data replay, exact event gates and final line-shape modeling would require separate inputs.",
+      "lineage": "Part of the same acquisition treated in the companion analysis-status paper.",
+      "work_id": "catalogue:LIT-000789",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ziliani-2019-agata-calibration.pdf",
+        "sha256": "261b65b42c50350279b0e94f4c5e119342a9f78253be281315ec93ca6c12745a",
+        "size": 1002047,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-conference-article"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 790,
+      "task": "ZOBEL79-GA67-PRIMARY",
+      "pages": 24,
+      "version": "Nuclear Physics A 316, 165–188 (1979), archived publisher PDF",
+      "role": "verified-publisher-version",
+      "scope": [
+        "PDF1–6 experimental setup and level scheme",
+        "PDF7–17 angular and polarization results, alignment and feeding",
+        "PDF18–24 model discussion and bibliography"
+      ],
+      "checks": [
+        "PDF7 Table 2 546.175-keV entry reports a2=-0.598(8), a4=0.029(9), delta=-0.233(24) and P=-0.135(13).",
+        "PDF14 Table 3 uses distinct attenuation values by level. The Gaussian hypothesis and cascade assumptions retain their stated conditions."
+      ],
+      "gap": "Fitted delta depends on the angular and polarization inputs. Uncertainty coupling, gating details and producer covariance are not supplied event by event.",
+      "lineage": "Original high-spin acquisition cited in later Zobel analyses. Later reuse does not increase the number of observations.",
+      "work_id": "catalogue:LIT-000790",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261105-zobel-1979-67ga/High spin states in 67Ga.pdf",
+        "sha256": "69497888ea9e0b25fead2a28800ec2d14a58242ef0d6a9c214e6861f7fbffba5",
+        "size": 1201324,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/zobel-1979-high-spin-states-67ga.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 31
+}

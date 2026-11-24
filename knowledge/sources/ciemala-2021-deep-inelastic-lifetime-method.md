@@ -145,3 +145,8 @@ P0：公版PDF与raw未归档边界隔离；v1标签边界已由正式版澄清�
 ## Extracted Pages
 
 两version各1–17主线；preprintp.7 Eq.(1)/Fig.11、publisherp.6 Eq.(1)与p.13confidence/feeding视觉核验；publisher8–12TKEL/transport/stop，13–16χ²control/sensitivity/position/datapolicy。参考文献仅核相关入口，不称全部读完。
+
+
+## 2026-11-22 — 本地原件与证据范围复核
+
+PDF 12–13 的约 130 fs 是该设置的穿靶时间尺度。保留模拟响应的寿命敏感区与具体长、短寿命失敏示例。所读主件是 v1，正式版新增的误差表述另按已有对照引用。

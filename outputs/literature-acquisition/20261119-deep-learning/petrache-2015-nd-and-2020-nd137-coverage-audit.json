@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-11-21T20:16:22.409598+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "PETRACHE15-ND-SCOPE-AUDIT",
+      "version": "Phys. Scr. 90, 114016 (2015), wrapper and publisher text",
+      "pages": 4,
+      "scope": [
+        "PDF1 wrapper and PDF2–4 printed 1–3, band-systematics figure, census, comparison conditions/conclusion and references."
+      ],
+      "checks": [
+        "The physical pdf and exact SHA match the raw path; corrected legacy placeholder sentence.",
+        "The plotted averages rely on cuts explained on printed p.2, including excluding interaction regions, frequency >0.3 and elimination of large points in the low-inertia group.",
+        "Lifetimes requested to test the interpretation and no new own measurement or L = 1 shears analogy inferred."
+      ],
+      "gap": "Unpublished selection list, original covariance and further lifetime tests unavailable.",
+      "lineage": "Review of published bands and model interpretation using those cited spectroscopy data.",
+      "work_id": "catalogue:LIT-000625",
+      "raw": {
+        "path": "raw/papers/2015-Petrache-Nd-exotic-rotations-triaxiality.pdf",
+        "sha256": "cc6f8b952b32ff32b462987cc86f9417a0cb8702b16bc797231356b153ca5b35",
+        "size": 397420,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "PETRACHE20-ND137-SPECTROSCOPY",
+      "version": "Eur. Phys. J. A 56, 208 (2020); DOI 10.1140/epja/s10050-020-00218-5",
+      "pages": 10,
+      "scope": [
+        "PDF1–2 publication, reaction and ratio protocol, Fig. 1.",
+        "PDF3–7 Table 1, spectra and cross-band links.",
+        "PDF7–10 CDFT, PRM, configurations and excitation/strength comparison, conclusions and references."
+      ],
+      "checks": [
+        "Actual Rac geometry on PDF2–3 with two efficiency-corrected groups and identical all-angle gates. Original 136Nd calibrations are 0.8 and 1.4; rejected worker 1.2.",
+        "Retained D3/D6 weak-band E2 gaps and original Table 2 separation of CDFT and PRM deformation parameters.",
+        "No worker-supplied Rac values, alignment numbers or theory prescriptions used absent original support."
+      ],
+      "gap": "No direct polarization or weak-band matched in-band E2 rates. No independent PRM configuration measurement.",
+      "lineage": "Reuses reaction dataset documented in PDF2 Ref. [11,12,22,30,31]; comparison of different nuclei or analyses does not establish independent exposure.",
+      "work_id": "catalogue:LIT-000629",
+      "raw": {
+        "path": "raw/papers/2020_Petrache et al_Multiple chiral bands in $$^{137}$$Nd.pdf",
+        "sha256": "c3117eb0e50a4084d47af21b11060e8ce31bff85f3f382a984565b9a1d03bd16",
+        "size": 946065,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 14
+}

@@ -1,0 +1,36 @@
+{
+  "work_id": "catalogue:LIT-000600",
+  "task_id": "NOBS17-102Y-COVERAGE-AUDIT",
+  "checked_at": "2026-11-21T19:31:10.750763+00:00",
+  "raw": {
+    "path": "raw/theses/degree-dissertation/nobs_thesis.pdf",
+    "sha256": "acb846d63e4a8cc61491d6f5ba04a4858bf3efd3e98bb9152b50383987b76a57",
+    "size": 11836491,
+    "hash_basis": "fresh-hash",
+    "source_role": "verified-doctoral-thesis"
+  },
+  "author": "Chantal Rebecca Nobs",
+  "institution": "University of Brighton",
+  "source_notes": [
+    {
+      "source_note": "knowledge/sources/nobs-2017-spin-parity-102y-thesis.md",
+      "declared_reading_depth": "deep-read",
+      "coverage_needs_confirmation": false
+    }
+  ],
+  "coverage": [
+    "Prior original native-text reading, documented chapter-by-chapter for PDF1–138; 16 sampled visual pages and 18 figure crops.",
+    "Current Gemini audit sampled methods, RIKEN/IGISOL results, and model/conclusion, checking page mapping.",
+    "Codex used actual title/signatures and PDF64, 76, 81–83, 91 and 123 to audit attribution and dependence."
+  ],
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "manager_checks": [
+    "Rejected worker first-name claim; original title page reads Chantal Rebecca Nobs.",
+    "Tables 4.1/6.1 use the 152-keV 102Zr normalization. Table 6.3 contains the 244-keV 102Y reference and its own intensity errors.",
+    "Preserved existing source note on incorrect internal Table 4.1 pointer in Fig. 8.7 text (PDF123) and no new CL for X < 100 keV.",
+    "Current audit reuses prior full scope and avoids rewriting previously correct claims."
+  ],
+  "remaining": "Retains tentative mass separation and model-assisted assignments. No new timing, polarization or independent spin measurement inferred.",
+  "credited_primary_pages": 138
+}

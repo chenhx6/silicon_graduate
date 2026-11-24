@@ -3,11 +3,11 @@ type: source
 title: "Zhao et al. 2012 — 105Cd反磁转动的自洽TAC-CDFT"
 aliases: [zhao-2012-105cd-cdft-antimagnetic]
 created: 2026-10-29
-updated: 2026-10-29
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: theoretical-research
-reading_depth: skimmed
+reading_depth: deep-read
 title_original: 'Covariant density functional theory for antimagnetic rotation'
 authors: [P. W. Zhao, J. Peng, H. Z. Liang, P. Ring, J. Meng]
 journal: "Physical Review C"
@@ -21,6 +21,7 @@ citation_key_verified: 2026-10-29
 canonical_source: "doi:10.1103/PhysRevC.85.054310"
 raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/zhao-2012-105cd-cdft-antimagnetic-arxiv1205.0867v1.pdf"
 raw_sha256: "41dd8f32ab8131913177c41a64c05a36e931910165ca8198ae66344908e5bc3e"
+archive_required: true
 nuclei: [105Cd]
 models: [antimagnetic-rotation]
 observables: [BE2, angular-momentum-alignment]
@@ -36,7 +37,9 @@ Covariant density functional theory for antimagnetic rotation，*Physical Review
 
 ## Scope and Reading Depth
 
-实际PDF35页、%PDF-1.4、1157316字节。选择性阅读PDF pp1、3–7、11–14、16–23、28–30；pp15/20–22部分在长输出中截断，关键pp16–19另完整读。不是35/35完整精读。arXiv页头2012-05-04，内文Dated: November18,2018；保留实际字节与期刊年份差异。
+本轮核定馆藏 35 页作者稿。PDF1–11 为理论和数值设置，PDF11–31 为惯量、\(B(E2)\)、形变、角动量与密度等结果，PDF31–35 为结论与书目。PDF17 Fig. 5 的实验强度点来自所引实验。PDF18–19 的形变和角动量矢量由计算给出，条件包括所选组态、泛函与配对处理。
+
+2026-10-29 的历史阅读以 PDF1、3–7、11–14、16–23、28–30 为重点。馆藏 PDF 为 1157316 字节，页头 arXiv 日期为 2012-05-04，内文日期为 2018-11-18。页码定位以这份实际载荷为准。
 
 ## Key Results
 

@@ -37,7 +37,7 @@ D. Bazzacco 等，*Physical Review C* **58**, 2002–2021 (1998)，DOI `10.1103/
 
 ## Scope and Reading Depth
 
-- 六页期刊 PDF 全文阅读并核对 Fig.3 level schemes、Fig.7 positive-parity alignments/routhians、Fig.10 signature-splitting comparison、Table I DCO rows 和相关讨论。
+- 馆藏为 20 页刊本，PDF 1–20 对应印 2002–2021。2026-11-22 补齐原件范围，涵盖引言、薄靶与厚靶采集、完整 Table I、Fig. 3 两幅能级图、惯量与频率分析、模型对比及参考文献。早期记录的“六页”只保留为历史误记。
 - 本轮只核验它作为 Ding 2021 refs.48 的 `133Nd` 原始实验来源；它不构成 `131Ce` 的新数据，也不把模型参数移植到目标核。
 - 页面保持 `status: ai-draft`、`review_status: unreviewed`；claim-level `needs_review` 保留。
 
@@ -139,3 +139,8 @@ None identified.
 ## Non-source Notes and Follow-up
 
 The third N=73 source, Byrne 1992 `129Ba`, remains closed at the full-text boundary in this run. Do not use Ding's Fig.4/5 values as a substitute for its original tables.
+
+
+## 2026-11-22 — 原件范围与关键页复核
+
+馆藏刊版 20 页，印刷页为 PDF 页码加 2001。PDF 2 的两次 GASP 实验分别使用 155 MeV \(^{32}\)S + \(^{105}\)Pd 薄靶和 135 MeV \(^{32}\)S + \(^{104}\)Pd 厚靶。PDF 5–10 Table I 的弱线、污染线或部分联带线保留原有空栏。PDF 13（印 2014）Fig. 4 的 176 keV 异能态给 \(T_{1/2}=301(16)\) ns，误差主要来自时间谱本底。PDF 15（印 2016）模型计算采用的 \(Q_0=4.8\) eb 引自 Ref. [34]。寿命、引用的四极矩和形状指认按各自证据使用。

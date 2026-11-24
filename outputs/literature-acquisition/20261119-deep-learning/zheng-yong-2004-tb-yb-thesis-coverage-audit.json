@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-11-22T01:20:42.544585+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 784,
+      "task": "ZHENG04-TB-YB-THESIS-FULL-COVERAGE",
+      "pages": 132,
+      "version": "Zheng Yong doctoral dissertation, Graduate University of Chinese Academy of Sciences, 2004",
+      "role": "verified-doctoral-thesis",
+      "scope": [
+        "PDF1–13 front matter and introduction",
+        "PDF14–76 theory, apparatus and DCO/ADO methods",
+        "PDF77–106 145Tb results",
+        "PDF107–121 157Yb results",
+        "PDF122–132 conclusion and references"
+      ],
+      "checks": [
+        "PDF74–76 uses the 145Tb geometry and modeled gate factor corresponding to the 2002 journal method account.",
+        "PDF78 verifies the 118Sn(32S,1p4n) production case. PDF108 identifies the independent 144Sm(16O,3n) acquisition.",
+        "PDF112 Table 5.1 gives the 157Yb 491-keV row with DCO=1.02(9) and ADO=1.42(10). It does not give P or a numeric mixing ratio."
+      ],
+      "gap": "The two angular ratios have method and gate dependencies. Parity and structural assignments retain their auxiliary evidence conditions.",
+      "lineage": "Distinct Tb and Yb experiments. The Tb angular-method example is shared with the 2002 article.",
+      "work_id": "catalogue:LIT-000784",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/郑勇-原子核145Tb和157Yb的高自旋态能级结构研究.pdf",
+        "sha256": "23c4d3c72c829f3353919bec53f89e5bdfda4339ad2f173186b572905a669780",
+        "size": 3374225,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-doctoral-thesis"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/zheng-2004-high-spin-145tb-157yb.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 1,
+  "credited_primary_pages": 132
+}

@@ -3,7 +3,7 @@ type: source
 title: "Wang et al. 2023 - Experimental studies for nuclear chirality in China"
 aliases: [Wang 2023 China nuclear-chirality review, Experimental Studies for Nuclear Chirality in China]
 created: 2026-08-11
-updated: 2026-10-19
+updated: 2026-11-22
 status: active
 review_status: unreviewed
 source_type: journal-review
@@ -21,6 +21,7 @@ canonical_source: https://doi.org/10.1007/s11467-023-1303-5
 citation_key: wang_2023_Experimentalstudies
 raw_file: "raw/papers/2023_Wang et al_Experimental studies for nuclear chirality in China.pdf"
 raw_sha256: 783BFCCDF9BE5977EFADF99B1B76A95DD420FC19B6FEEAC8EC694A7F2A5E9D8C
+archive_required: true
 nuclei: [74as, 76br, 78br, 80br, 82br, 81kr, 84rb, 98tc, 104mo, 106mo, 110ru, 112ru, 104ag, 106ag, 107ag, 108ag, 110ag, 109in, 123i, 126i, 126cs, 128la, 130cs, 131ba, 134pr, 138pm]
 observables: [energy-staggering-parameter, bm1-be2-ratio, be1-be2-ratio, moment-of-inertia, alignment]
 methods: [doppler-shift-attenuation-method, angular-distribution, linear-polarization-asymmetry, gamma-gamma-coincidence]
@@ -34,6 +35,8 @@ tags: [review-ingest, nuclear-chirality, chiral-doublet, china, a80, a100, a130,
 Frontiers of Physics 18, 64601 (2023), DOI `10.1007/s11467-023-1303-5`. The protected BibTeX key is `wang_2023_Experimentalstudies`.
 
 ## Scope and Reading Depth
+
+- 本轮核定 17 页刊版。Table 1 可按核素、反应和阵列回查原采集。谱学图里的能量及相对强度可用于比较，寿命和分支共同约束绝对跃迁几率，三轴组态与手征解释仍需结合模型与竞争假设。
 
 - Completed reading depth: `deep-read`.
 - Covered scope: all 17 PDF pages, including the 23-nucleus experimental census in Table 1; the A≈130, A≈100 and A≈80 systematics; energy, `S(I)`, moment-of-inertia, alignment and branching-ratio fingerprints; lifetime/transition-probability discussion; DSAM uncertainty commentary; coexistence with octupole and pseudospin correlations; and the perspective section.

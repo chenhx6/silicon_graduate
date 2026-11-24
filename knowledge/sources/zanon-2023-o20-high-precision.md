@@ -3,7 +3,7 @@ type: source
 title: "Zanon 2023：反应点速度、馈入控制与20O寿命"
 aliases: [Zanon 20O 70 fs, 20O MUGAST AGATA VAMOS lifetimes]
 created: 2026-10-14
-updated: 2026-10-14
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: experimental-paper-with-supplement-and-theory-comparison
@@ -21,6 +21,7 @@ canonical_source: "https://doi.org/10.1103/PhysRevLett.131.262501"
 citation_key: "zanon_2023_19o-precision-benchmarking"
 raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/zanon-2023-o20-high-precision.pdf"
 raw_sha256: "2bd272e29518978205cb47b0d7829a0f57f1a5b81f8c0be7d7d984cec94435cc"
+archive_required: true
 raw_storage_status: reserved-unpopulated-public-preprint-only
 raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://arxiv.org/pdf/2405.14305v1"
@@ -38,6 +39,8 @@ I. Zanon 等，Physical Review Letters **131**, 262501 (2023)，DOI如上。Cros
 原始raw保持不变，main七页副本在`tmp/day13/reopened/zanon-2023-o20-high-precision.pdf`，SHA如上，raw位置未填充。Supplemental Material来自同公开v1 author-source archive `https://arxiv.org/src/2405.14305v1`，archive SHA `f5f044b0737669fb6cbbbb558dfd5bf7072ee803c3ca43dd03fb19a177c77260`；只读取文档成员、未执行source。四页SI副本`tmp/day13/reopened/zanon-public-source/SupplementalMaterial.pdf`，SHA `5a3841daa9f3e47bf20b7a5ca1ccbec47d74f9d46576e8c940c5cc4fdeb94eb9`。SI为本main的依赖补充，不另计实验。
 
 ## Scope and Reading Depth
+
+本轮核定馆藏七页作者稿。PDF3–4 的激发能门和线形拟合分别给 \(2_2^+\) 与 \(3_1^+\) 态的寿命 \(70(10)\) fs 和 \(54(9)\) fs。PDF5 Table I 中 \(2_2^+\!\to2_1^+\) 的 \(\delta=-0.18(8)\) 来自引文。\(3_1^+\) 两条分支使用 USDB 给出的混合比求强度。原数据与派生强度保持同源。
 
 - Covered scope：main七页与SI四页主线；reaction/targets、entrypoint、line-shape、χ² conventions、feeding、knownlongcontrol与模型/δ条件；SI TableI/Fig.5、main讨论及TableI核验。
 - Not covered：e775s原始事件、production simulation/config、χ²数值面、Ex gate migration/完整Σ及外部stopping原始测量；公开archive不是事件数据库。

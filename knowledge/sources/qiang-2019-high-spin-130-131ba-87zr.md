@@ -3,7 +3,7 @@ type: source
 title: "强赟华 2019 博士论文：130,131Ba 高自旋态及 87Zr 低位能级寿命"
 aliases: [强赟华2019博士论文, Qiang Yunhua 2019 Ba Zr thesis]
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-experiment
@@ -68,6 +68,10 @@ tags: [a130, high-spin, barium-isotopes, chiral-doublet-bands, k-isomer, t-band,
 论文报告 `130Ba` 的 Kπ=8− 同核异能态带、Kπ=8+ t-band、两个 S-band、负宇称带和四准粒子带；报告 `131Ba` 共 19 条带，其中 9 条为本工作新识别，并提出一对负宇称、两对正宇称 MχD 及正负宇称之间的 E1 八极关联。`87Zr` 的 `7/2+` 第一激发态寿命测为 `1017(16) ps`。这些结果为 A≈130 的形变、组态和手征候选提供了高信息量来源，但关键解释仍需保留模型依赖和竞争解释。
 
 ## Experimental or Theoretical Setup
+
+正文 PDF10 对应印刷 p.1。题名页列答辩日期 2019 年 5 月 11 日，PDF92 的致谢署期为 2019 年 6 月，二者分别登记。
+
+PDF49–50（印刷 pp.40–41）的四角度混合比拟合采用 \(\sigma/J=0.3\)。在 90°、119°、129°、152° 的矩阵中使用相同门宽。Eq. (4.7) 的 \(R_{\rm ac}\) 取 152° 和 90° 的效率修正计数比。这一角分布分析提供一个固定取向宽度的例子。该处没有物理线偏振度 \(P\) 输入。
 
 - `122Sn(13C,5n)130Ba` 与 `122Sn(13C,4n)131Ba`，束流能量 65 MeV。
 - GALILEO + EUCLIDES + Neutron Wall；源论文将该装置与 `131Ba` 的既有实验页关联，但 `130Ba` 5n 通道需在后续实验页中单独标明。
@@ -173,8 +177,8 @@ tags: [a130, high-spin, barium-isotopes, chiral-doublet-bands, k-isomer, t-band,
 
 | Evidence layer | Direct locator and result | Independence / limitation |
 |---|---|---|
-| `130Ba` K-isomer | Ch.5.1 physical p.55（printed p.54）把结构写在 `Kπ=8− (T1/2=9.4 ms)` 异能态上；摘要/总结约写 `9.5 ms`。物理 PDF pp.59–61 给出 `δ`、`(gK−gR)/Q0`、`gK/gR` 和 `B(E2;ΔI=1)/B(E2;ΔI=2)` 的提取链。 | `9.4/9.5 ms` 是同一 source 内的数值表述差异，不能在无作者版本核对时静默择一；g 因子和模型组态仍需 claim-level review。 |
-| `87Zr` lifetime/strength | `87Nb` β+ 衰变经 SHANS 的 β–γ delayed-coincidence 测量；201-keV γ 的卷积拟合在 physical p.71 给 `τ=1017(16) ps`，并由 δ=`−0.35`、`αT=0.0370` 的转换得到 `B(E2)=11.3(7) W.u.`、`B(M1)=0.0033(2) W.u.`。 | 这是与 GALILEO `130,131Ba` 在束实验分开的 β-γ 寿命实验；B(E2)/B(M1) 是由寿命、混合比和内转换系数派生的量，不是独立的绝对矩阵元重测。 |
+| `130Ba` K-isomer | Ch.5.1 physical PDF64（printed p.55）把结构写在 `Kπ=8− (T1/2=9.4 ms)` 异能态上；摘要/总结约写 `9.5 ms`。物理 PDF pp.59–61 给出 `δ`、`(gK−gR)/Q0`、`gK/gR` 和 `B(E2;ΔI=1)/B(E2;ΔI=2)` 的提取链。 | `9.4/9.5 ms` 是同一 source 内的数值表述差异，不能在无作者版本核对时静默择一；g 因子和模型组态仍需 claim-level review。 |
+| `87Zr` lifetime/strength | `87Nb` β+ 衰变经 SHANS 的 β–γ delayed-coincidence 测量；201-keV γ 的卷积拟合在 physical PDF80（printed p.71）给 `τ=1017(16) ps`，并由 δ=`−0.35`、`αT=0.0370` 的转换得到 `B(E2)=11.3(7) W.u.`、`B(M1)=0.0033(2) W.u.`。 | 这是与 GALILEO `130,131Ba` 在束实验分开的 β-γ 寿命实验；B(E2)/B(M1) 是由寿命、混合比和内转换系数派生的量，不是独立的绝对矩阵元重测。 |
 | `131Ba` lineage | Qiang thesis 的 `122Sn(13C,xn)`、65 MeV、GALILEO+EUCLIDES+Neutron Wall 与 Guo 2020 的 `122Sn(13C,4n)`、65 MeV、GALILEO 25-detector、约 `1.2×10^9` fold≥3 events 相符；Ding 2021 使用同一反应/能量/阵列和同样事件量。 | 本地证据支持同一 GALILEO campaign/data lineage，而不能仅凭相同 event total 推断三份文件的精确子集关系；Qiang、Guo、Ding 不计为三个独立 `131Ba` 实验。 |
 
 阶段结论：`87Zr` 的直接寿命 locator 和派生强度链已闭合到 source level，`131Ba` 的 shared/dependent lineage 也已明确；但 `130Ba` 的 9.4/9.5-ms source conflict、g-factor 误差传播和所有 `131Ba` MχD/绝对强度缺口仍保留 `needs_review`。`DD-20260910-QY-002` 继续保持 `partially-researched`，本轮不提升 confidence、review_status 或任何 claim 的人工审核状态。

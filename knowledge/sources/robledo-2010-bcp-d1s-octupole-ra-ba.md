@@ -3,11 +3,11 @@ type: source
 title: "Octupole deformation properties of the Barcelona-Catania-Paris energy density functionals"
 aliases: [robledo-2010-bcp-d1s-octupole-ra-ba]
 created: 2026-10-29
-updated: 2026-10-29
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article
-reading_depth: skimmed
+reading_depth: deep-read
 title_original: "Octupole deformation properties of the Barcelona-Catania-Paris energy density functionals"
 authors: ["L. M. Robledo", "M. Baldo", "P. Schuck", "X. Viñas"]
 year: 2010
@@ -39,15 +39,16 @@ arXiv API提供的题名、作者和DOI与实际PDF首页相符；期刊卷页�
 
 ## Scope and Reading Depth
 
-本轮定向阅读：PDF3–5,10–11; Fig1,Fig9,Fig11 and collective inertia discussion。未完成全篇逐图精读或计算复现。
+核定本地 arXiv v1 PDF1–14，覆盖约束 HFB 模型以及 \(Q_3\) 集体动力学、Ra/Ba 的势能和跃迁比较、轴对称 \(^{240}\mathrm{Pu}\) 算例、结论与参考文献。绘图量未数字化，计算未复现。
 
 ## Key Results
 
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| RO10-1 | BCP1 与 Gogny-D1S 泛函在 218–228Ra 均预测非零八极极小，其中 222Ra 最深势垒约为 1.5 MeV。 | model-result | derived | PDF p.4, Fig. 1 | true |
-| RO10-2 | Gogny-D1S 计算下 144,146,148Ba 存在非零八极极小，144Ba 势垒深度达约 0.7 MeV，反驳全区浅阱假设。 | model-result | derived | PDF p.10, Fig. 9 | true |
+| RO10-1 | BCP1 与 Gogny-D1S 在 218–228Ra 的轴对称 HFB 曲线上均给非零 \(Q_3\) 极小。原文给 222Ra 的最大极小深度约 1.5 MeV。 | model-result | derived | PDF p.4 text and p.5 Fig. 1 | true |
+| RO10-2 | D1S 给 144,146,148Ba 非零八极极小，最深约 0.7 MeV（144Ba）。BCP1 给这些核在近 \(Q_3=0\) 的较平坦势能，极小位置存在模型差异。 | model-result | derived | PDF p.10, Fig. 9 | true |
 | RO10-3 | Ba 同位素费米面邻近八极驱动单粒子对有利于八极形变，但负宇称激发能同时受转动惯量与势垒宽度调制。 | model-analysis | derived | PDF p.11, Fig. 11 | true |
+| RO10-4 | 一维集体方程包含随 \(Q_3\) 变化的度量、质量及零点能修正。ATDHF+ZPE 使用推转近似下的集体质量。Ra 和 Ba 的计算 \(1^-\) 能量及跃迁分别在 Figs. 7、12 比较。实验点回链作者所引资料。 | model-method | direct-to-model | PDF pp.3–4 Eqs. (2), (10); PDF pp.9,12 | true |
 
 ## Competing Interpretations and Limitations
 

@@ -1,0 +1,54 @@
+{
+  "work_id": "catalogue:LIT-000602",
+  "checked_at": "2026-11-21T19:27:15.274329+00:00",
+  "raw": {
+    "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf",
+    "sha256": "5e20f735e995021f4a0eb8c1a937acedeee53509caed3ffa2cd8ddaa794bbc4f",
+    "size": 5480302,
+    "hash_basis": "fresh-hash",
+    "source_role": "publisher-review-with-acquisition-wrapper"
+  },
+  "source_notes": [
+    {
+      "source_note": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+      "declared_reading_depth": "deep-read",
+      "coverage_needs_confirmation": false
+    }
+  ],
+  "coverage": [
+    "PDF1: IOPscience wrapper.",
+    "PDF2–11: printed pp.1–10, front matter, general definitions and introduction to DSAM.",
+    "PDF12: unnumbered Fig. 8(a) spectrum plate facing p.11, visually checked.",
+    "PDF13–46: printed pp.11–44, DSAM, stopping and recoil distance.",
+    "PDF47–48: printed pp.45–46, end of recoil-distance examples and start of electronic timing.",
+    "PDF49–82: printed pp.47–80, timing, blocking, fission isomers, indirect and other methods and evaluation.",
+    "PDF83–88: printed pp.81–86, references."
+  ],
+  "primary_tasks": [
+    {
+      "task_id": "NOLAN79-DOPPLER-AUDIT",
+      "pdf_pages": [
+        1,
+        46
+      ]
+    },
+    {
+      "task_id": "NOLAN79-TIMING-INDIRECT-AUDIT",
+      "pdf_pages": [
+        47,
+        88
+      ]
+    }
+  ],
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "manager_checks": [
+    "The plate is a display of Fig. 8(a) spectra, not an apparatus photo. After it, printed page numbers are generally physical PDF page minus two.",
+    "Reviewed p.10 attenuation definition, p.23 rough slowing law and p.38 treatment of some level feeding.",
+    "Printed pp.48–50 support qualitative timing regime and the 40Ca simultaneous prompt calibration example. No universal half-FWHM threshold adopted.",
+    "Printed p.79 Table 7 concerns DSAM against RDM. Schwalm same-input DSAM versus Coulomb excitation comparison is Fig. 56 and adjacent discussion. Shared stopping input is explicit for that example.",
+    "No unverified universal inversion equation or quantitative threshold from either worker."
+  ],
+  "remaining": "No reanalysis of cited experiments or inference that historical hardware/time regimes are current instrument specifications.",
+  "credited_primary_pages": 88
+}

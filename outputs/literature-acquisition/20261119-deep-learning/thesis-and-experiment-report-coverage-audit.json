@@ -1,0 +1,133 @@
+{
+  "checked_at": "2026-11-22T02:41:17.228058+00:00",
+  "model_requested": null,
+  "reasoning_requested": null,
+  "works": [
+    {
+      "number": 378,
+      "pages": 40,
+      "task": "THESIS-DECAY-RDDS-LOCAL-COVERAGE",
+      "version": "Dietrich, Nyman, Johansson and Bäcklin, Excited States in 103Pd, UUIP-882, October 1974",
+      "role": "institutional-experiment-report",
+      "source_note": "knowledge/sources/dietrich-1974-excited-states-103pd.md",
+      "scope": [
+        "PDF 1–2 cover and abstract; 3–10 report text; 11–12 bibliography; 13–25 numerical tables; 26–27 captions; 28–40 figures. Verified earlier full scientific reading and rendered the decisive timing and hindrance pages.",
+        "PDF 6 / printed 4 Sec. 3.1.4 gives the 784-keV state half-life 25(2) ns. PDF 18 / printed 16 Table 3 gives separate partial half-lives of 42 ns and 241 ns for the 66.8-keV E1 and 540.6-keV M2 branches."
+      ],
+      "gap": "Uppsala experimental report independently documents its reaction and decay measurements. It is counted once as a report. Multipolarity and spin-parity conclusions retain their stated assumptions.",
+      "lineage": "Uppsala experimental report independently documents its reaction and decay measurements. It is counted once as a report. Multipolarity and spin-parity conclusions retain their stated assumptions.",
+      "work_id": "catalogue:LIT-000378",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/EXCITED STATES IN 103Pd.pdf",
+        "sha256": "671665819972ac68effea51ffcb18a2c48769a42466d2c2ab96b61beade9ce59",
+        "size": 1118747,
+        "hash_basis": "fresh-hash",
+        "source_role": "institutional-experiment-report"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/dietrich-1974-excited-states-103pd.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 405,
+      "pages": 201,
+      "task": "THESIS-DECAY-RDDS-LOCAL-COVERAGE",
+      "version": "Chloé Fougères, Understanding the cosmic abundance of 22Na: lifetime measurements in 23Mg, Université de Caen Normandie, defended 2022-03-03, HAL tel-03768524v1",
+      "role": "doctoral-dissertation",
+      "source_note": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+      "scope": [
+        "PDF 1–12 identity/front matter; 13–43 motivation and experimental design; 44–126 earlier verified Chs. 3–6; 127–139 strength compilation; 140–163 rates, nova simulation and conclusion; 164–191 appendices and French synthesis; 192–201 bibliography, acronym lists and back abstract. Existing detailed Chs. 3–6 and Appendix B audits preserved.",
+        "PDF 137–139 / printed 134–136 gives thesis inputs tau=9.5(21) fs, BRp=0.66(8)% and shell-model choice J=7/2+, and Eq. (7.9) gives 0.26(+0.11,-0.07) meV. PDF 145 describes Monte Carlo rate quantiles. PDF 181 Table C.2 lists calculated widths."
+      ],
+      "gap": "Shares the GANIL acquisition with Fougères 2023. Thesis and journal inference input, intermediate averages and reporting uncertainties are edition-specific. Nuclear-rate and nova calculations are separate from experiment.",
+      "lineage": "Shares the GANIL acquisition with Fougères 2023. Thesis and journal inference input, intermediate averages and reporting uncertainties are edition-specific. Nuclear-rate and nova calculations are separate from experiment.",
+      "work_id": "catalogue:LIT-000405",
+      "raw": {
+        "path": "raw/theses/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/fougeres-2022-thesis.pdf",
+        "sha256": "4f34adb73a9bc9092158c10cb8696f331455d4c027bc57cc884785aaee9d2af1",
+        "size": 70228097,
+        "hash_basis": "fresh-hash",
+        "source_role": "doctoral-dissertation"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "declared_reading_depth": "skimmed",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 469,
+      "pages": 107,
+      "task": "THESIS-DECAY-RDDS-LOCAL-COVERAGE",
+      "version": "Christoph B. Hinke, Spectroscopy of the doubly magic nucleus 100Sn and its decay, Technische Universität München, 2010",
+      "role": "doctoral-dissertation",
+      "source_note": "knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md",
+      "scope": [
+        "PDF 1–10 front matter; 11–94 Chapters 1–7 verified prior reading; 95–102 rechecked likelihood and detector appendices; 103–107 bibliography and acknowledgements.",
+        "PDF 69 Table 5.1 and PDF 72 Table 5.2 use distinct count definitions. PDF 87 separates a single-channel reference fit and inferred BGT. Appendix A.1 includes chains and background with a finite correlation window."
+      ],
+      "gap": "GSI and Lubos RIKEN are different experiments. The half-life, beta endpoint, and BGT reported within this thesis have a shared inference chain. No unreported branch or isomer assignment is supplied.",
+      "lineage": "GSI and Lubos RIKEN are different experiments. The half-life, beta endpoint, and BGT reported within this thesis have a shared inference chain. No unreported branch or isomer assignment is supplied.",
+      "work_id": "catalogue:LIT-000469",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/Spectroscopy of the doubly magic nucleus 100Sn and its decay.pdf",
+        "sha256": "de8701c318d9c1f973d3f6b3fe8cabec6d291a19f26059b7b675393c5eda38d2",
+        "size": 2445099,
+        "hash_basis": "fresh-hash",
+        "source_role": "doctoral-dissertation"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 533,
+      "pages": 111,
+      "task": "THESIS-DECAY-RDDS-LOCAL-COVERAGE",
+      "version": "Daniel Georg Lubos, Decay Spectroscopy of 100Sn and Neighboring Nuclei, Technische Universität München, 2016",
+      "role": "doctoral-dissertation",
+      "source_note": "knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md",
+      "scope": [
+        "PDF 1–11 front matter; 12–96 Chapters 1–5 verified earlier and spot-checked; 97–103 Appendix A–D formulas and spectra; 104–111 references and acknowledgements.",
+        "PDF 88–89 Eqs. (4.19)–(4.20) separate the positron fit and conversion-corrected energy. PDF 91 Eqs. (4.25)–(4.27) gives BGT based on T1/2 and Q; the stated uncertainties are statistical in Eq. (4.27)."
+      ],
+      "gap": "Independent RIKEN acquisition. Preserve the difference between the dominant-transition energy parameter, level-scheme-dependent QEC, and BGT, plus the thesis’s separate discussion of systematics.",
+      "lineage": "Independent RIKEN acquisition. Preserve the difference between the dominant-transition energy parameter, level-scheme-dependent QEC, and BGT, plus the thesis’s separate discussion of systematics.",
+      "work_id": "catalogue:LIT-000533",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/Decay Spectroscopy of 100 Sn and Neighboring Nuclei.pdf",
+        "sha256": "c9aa0494f29bacc00ec8fb0055a5d6ac201237e3bad943ea34d350deeb8550d9",
+        "size": 33723991,
+        "hash_basis": "fresh-hash",
+        "source_role": "doctoral-dissertation"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 4,
+  "credited_primary_pages": 459,
+  "read_provenance": "Local Codex reading and original page verification against existing recorded scopes. No provider credit.",
+  "partial_without_credit": [
+    "catalogue:LIT-000432"
+  ]
+}

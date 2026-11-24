@@ -1,0 +1,69 @@
+{
+  "checked_at": "2026-11-21T21:53:38.851694+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "SHEIKH02-PARTICLE-NUMBER-PROJECTION",
+      "version": "arXiv:nucl-th/0207080v1, 27 Jul 2002",
+      "role": "verified-arxiv-author-version",
+      "pages": 24,
+      "scope": [
+        "PDF1–13 HFB, projection methods and finite j benchmark; PDF13–16 appendix; PDF17 references; PDF18 captions; PDF19–24 plots."
+      ],
+      "checks": [
+        "Fig. 2 and its caption explicitly specify six particles and deformed j=11/2. Separate monopole, monopole+quadrupole and full delta interaction comparisons.",
+        "A cost factor for realistic spaces in PDF13 is an estimate, not a measured general runtime scaling. Existing scope of collapse discussion retained."
+      ],
+      "gap": "No independent numerical replay or transfer to a measured configuration.",
+      "lineage": "Model and exact numerical benchmark, no spectroscopy production.",
+      "work_id": "catalogue:LIT-000688",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/sheikh-2002-pairing-number-projection-arxivnucl-th0207080.pdf",
+        "sha256": "9e34140ffe31c15e0753d9e50f91de24886c29149f0b78bb67d9775299f4696c",
+        "size": 237297,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/sheikh-2002-number-projection-pairing-comparison.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "SIMPSON83-SECTORED-GE-POLARIMETRY",
+      "version": "Nuclear Instruments and Methods 204, 463–469 (1983)",
+      "role": "verified-publisher-edition",
+      "pages": 7,
+      "scope": [
+        "PDF1–3 apparatus and sign conventions, PDF4–5 calibration and merit, PDF6–7 linear P examples and references."
+      ],
+      "checks": [
+        "Printed p.467 specifies merit comparison to typical three-crystal design at the same 250-mm distance and 1.33 MeV energy.",
+        "Printed p.468 Table 3 explicitly reports P(90°) for 158Er, unlike an asymmetry-only table. Separate shielded geometry and sector settings from other polarimeters."
+      ],
+      "gap": "Underlying event-level uncertainty and calibration-source files not archived here.",
+      "lineage": "Detector and application measurements in same paper; calibration polarization inputs cited.",
+      "work_id": "catalogue:LIT-000692",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1983_Simpson et al_Application of a sectored Ge(Li) detector as a Compton polarimeter.pdf",
+        "sha256": "1216684723d0b98daef22997446168c628951c1a062d8d9283ef3efc9fafa6d9",
+        "size": 506561,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 31
+}

@@ -1,0 +1,76 @@
+{
+  "checked_at": "2026-11-21T19:43:05.417064+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "MUSANGU21-MO104106-COVERAGE",
+      "version": "CHORUS accepted manuscript, 10.1103/PhysRevC.104.064318",
+      "role": "verified-author-accepted-manuscript",
+      "pages": 16,
+      "scope": [
+        "PDF1 CHORUS wrapper; PDF2–10 article introduction, fission-coincidence spectroscopy, Mo level schemes and tables.",
+        "PDF10–12 angular correlations and spin constraints; PDF12–15 TPSM and comparison; PDF16 final references."
+      ],
+      "checks": [
+        "Publisher wrapper confirms accepted manuscript and DOI. Existing detailed reading scope retained.",
+        "PDF12 gives epsilon=0.24 and gamma=20 degrees (104Mo), 36 degrees (106Mo), correcting worker-supplied values.",
+        "PDF2 compares about 60 keV same-spin differences in 104Mo with roughly 100–140 keV in 106Mo; no generic 150–300 keV substituted.",
+        "Table IV in PDF14 reports 106Mo upper limits below some predicted intensity values, and blank limit cells for 104Mo. No observed collective links or polarization claimed from that table."
+      ],
+      "gap": "No absolute experimental strengths or linear polarization in this work; no raw coincidence cubes.",
+      "lineage": "Primary Mo spectroscopy and a separate comparison model; predicted connecting E2 strengths are not additional measurements.",
+      "work_id": "catalogue:LIT-000567",
+      "raw": {
+        "path": "raw/papers/2021_Musangu et al_Chiral vibrations and collective bands in Mo 104 , 106.pdf",
+        "sha256": "bbfc8907ca98bcf7439ebda321f60988fd5a3052120532a4ce1d364484912dac",
+        "size": 2431261,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-author-accepted-manuscript"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "OLB02-CHIRAL-CRITICAL-FREQUENCY",
+      "version": "arXiv:nucl-th/0211075v1 dated 25 Nov 2002",
+      "role": "verified-early-preprint",
+      "pages": 4,
+      "scope": [
+        "PDF1–2 physical assumptions, 132La HF cranking and frozen-gyro model.",
+        "PDF3 planar and aplanar equations, HF iteration and numerical thresholds.",
+        "PDF4 comparison and competing interpretation, HF notes and references."
+      ],
+      "checks": [
+        "PDF4 identifies SkM*, correcting worker label SkP.",
+        "PDF3 Eq. (5) concerns emergence of two extra planar solutions above about 1.28 MeV. Eq. (7) concerns onset of aplanar solutions near 0.51 MeV for the chosen parameters.",
+        "TAC search found the aplanar branch at 0.6 MeV, above the experimental candidate frequencies discussed by the authors. PDF4 preserves the other band assignment possibility.",
+        "Kept 2002 manuscript scope and existing relation to the later PRL without attributing its results to this manuscript."
+      ],
+      "gap": "No independent experimental onset, extrapolation to other nuclei, or quantum splitting from the static solution.",
+      "lineage": "Theoretical early preprint. The experiment discussed is a cited comparison. The later publication has its own version scope.",
+      "work_id": "catalogue:LIT-000611",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/olbratowski-2002-critical-frequency-arxiv-v1.pdf",
+        "sha256": "3cc0000405bb8360d0b7112fbd6d6a3811546091dee182da2b44be071c8bbffb",
+        "size": 252547,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-early-preprint"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/olbratowski-2002-critical-frequency-preprint.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 20
+}

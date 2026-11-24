@@ -3,7 +3,7 @@ type: source
 title: "Nolan1983：130Ce高spin离散谱与关联谷宽惯量"
 aliases: [The moment of inertia of 130Ce above spin 30 hbar, Nolan1983 130Ce]
 created: 2026-10-27
-updated: "2026-11-07"
+updated: "2026-11-22"
 status: ai-draft
 review_status: unreviewed
 source_type: experimental-paper
@@ -49,6 +49,8 @@ P. J. Nolan等，Physics Letters B128(5),285–289(1983)，DOI10.1016/0370-2693(
 ## Summary
 
 实验看到高spin离散谱延伸、关联谷及约ℏω>.6MeV处接近常数的J_band^(2)，支持高spin转动/对齐研究。它的continuum量来自谷宽，不是所有E2计数的J_eff。具体i13/2对齐、形状不大变及rigid-body比较依模型/假设；原文保污染、最高离散线顺序和直接feeding替代。不能把BR85二级概括反写为本primary已测两形状或独立精确52/45差。
+
+复读定位到 Fig. 3 的三处明显谷填充能区 1040–1080、1190–1220、1280–1320 keV（印刷 p.288，PDF4），与门谱中 1000–1300 keV 的结构在能区上相合。作者称 Fig. 2(c)–(e) 的关联脊看起来变窄，并要求更多数据确认。Fig. 4 低频离散段采用 \(\Delta I/\Delta\omega\)，高频段采用关联谷宽。两段估计的都是动力学惯量 \(\mathcal J_{\rm band}^{(2)}\)。最高三条离散线的顺序仍未闭合，因此无法仅凭该连续谱重建逐自旋的 \(\mathcal J^{(1)}\)。
 
 ## Experimental or Theoretical Setup
 

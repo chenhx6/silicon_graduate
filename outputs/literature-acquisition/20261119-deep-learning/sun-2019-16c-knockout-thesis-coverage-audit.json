@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-11-21T23:05:45.864962+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 712,
+      "task": "SUN19-16C-THESIS-FULL-COVERAGE",
+      "pages": 116,
+      "version": "Sun Yazhou, UCAS PhD dissertation trained at IMP CAS, June 2019, 116 physical pages",
+      "role": "verified-doctoral-thesis",
+      "scope": [
+        "PDF1–29 front matter, eikonal background and scientific rationale",
+        "PDF30–57 accelerator, RIBLL2 ETF and detectors",
+        "PDF58–77 trajectory and particle identification, detector/field sensitivity",
+        "PDF78–107 efficiency, contamination, cross-section inference and model comparison",
+        "PDF108–116 conclusions, bibliography and end matter"
+      ],
+      "checks": [
+        "Cover and English title page: UCAS awards the PhD, IMP is training institute. Body printed p.=PDF−9.",
+        "PDF67–70: RK and uniform-field trajectories are alternative reconstructions. In simulation, RK improves the absolute A/Z centroid, yet the resolutions are comparable. The author chooses the faster uniform-field method for this PID analysis.",
+        "PDF79 gives nominal 240 and central 239 MeV/u in the carbon target. PDF99 Table 4.4 gives 15.9(2.1) mb at the stated 900 mg/cm² target. This is an inclusive 15B residue cross section, not a resolved gamma-final-state cross section.",
+        "PDF102–103 Table 4.6 distinguishes the external 400 MeV/u result 20.5(1.1) mb from the 16.4(1.1) mb value corrected by dividing the central value by 1.25. At 240 MeV/u the two MOMDIS treatments give R_s=0.29(4) and 0.28(4)."
+      ],
+      "gap": "Acceptance and particle tails are model/calibration dependent. Residual-nucleus counting does not separate the bound 15B final states. R_s comparisons depend on external energy points, target and model conventions, including the explicit 400 MeV/u empirical correction.",
+      "lineage": "Original ETF RIBLL2 measurement at 240 MeV/u; the 75 and 400 MeV/u results are from other experiments and are treated conditionally in the model comparison.",
+      "work_id": "catalogue:LIT-000712",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/孙亚洲 - 16C单质子敲出反应研究.pdf",
+        "sha256": "d9d900cfdd783890f2f5d774b18832bbfda40eeb2af2db50b353ac18373496c0",
+        "size": 9676995,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-doctoral-thesis"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/sun-yazhou-2019-16c-single-proton-knockout-thesis.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 1,
+  "credited_primary_pages": 116
+}

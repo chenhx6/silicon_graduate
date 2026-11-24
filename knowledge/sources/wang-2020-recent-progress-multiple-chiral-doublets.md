@@ -3,7 +3,7 @@ type: source
 title: "Wang 2020 - Recent progress in multiple chiral doublet bands"
 aliases: [Wang 2020 MChD review, Recent progress in MχD]
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-11-22
 status: active
 review_status: unreviewed
 source_type: review-article
@@ -21,6 +21,7 @@ canonical_source: https://doi.org/10.1088/1674-1137/abaed2
 citation_key: wang_2020_Recentprogress
 raw_file: "raw/papers/2020_Recent progress in multiple chiral doublet bands .pdf"
 raw_sha256: 6BB7A1DC88DE75CCBB748E27342518FC2DB0D77C34977337C37153D03269072C
+archive_required: true
 nuclei: []
 reactions: []
 experiments: []
@@ -36,6 +37,8 @@ tags: [project-ingest, review, nuclear-chirality, multiple-chiral-doublet-bands,
 Chinese Physics C 44(11), 112001 (2020), DOI `10.1088/1674-1137/abaed2`. The protected BibTeX key is `wang_2020_Recentprogress`. The repository PDF is the arXiv-layout version `arXiv:2009.02864v1` and carries stale template footer text; final bibliographic metadata come from the protected record.
 
 ## Scope and Reading Depth
+
+- 核定 arXiv:2009.02864v1 的九页。PDF2 Table 1 汇集文献中的候选核、反应、双带对数及引文。PDF4–6 讨论具体组态、带耦合和与摆动、赝自旋或八极相关的解释。电磁比值及诊断来自所引数据或模型，按各原实验与计算的来源计。
 
 - Completed reading_depth: `deep-read`.
 - Covered scope: all nine PDF pages; experimental MχD table, predicted-nucleus table, theory taxonomy, ideal same-configuration PRM transition rules, approximate interaction-strength reconstruction, octupole/CPQ and pseudospin-related perspectives, summary and references.

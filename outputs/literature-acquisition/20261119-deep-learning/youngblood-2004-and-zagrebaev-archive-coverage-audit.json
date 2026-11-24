@@ -1,0 +1,80 @@
+{
+  "checked_at": "2026-11-22T00:47:57.564645+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 773,
+      "task": "YOUNGBLOOD04-ISGMR-PRIMARY",
+      "pages": 14,
+      "version": "Physical Review C 69, 034315 (2004), publisher PDF",
+      "role": "verified-publisher-version",
+      "scope": [
+        "PDF1–4 experimental setup and decomposition",
+        "PDF5–8 strength/background comparison",
+        "PDF9–12 tables and theoretical comparison",
+        "PDF13–14 conclusion and bibliography"
+      ],
+      "checks": [
+        "PDF9 Table II: 144Sm m1/m0=15.40(30) MeV and EWSR 92(12)% in the current-work column.",
+        "PDF11 Table VI and PDF12 Fig. 13: 154Sm Gaussian components 11.05(5), 15.17(5) MeV and EWSR 32(2)%, 80(5)%. The quoted Gaussian fit errors exclude systematics.",
+        "The later note's model thresholds and pre-existing incorrect figures are separated from the published data."
+      ],
+      "gap": "Multipole decomposition and shape interpretation impose model and background choices. Parameter inference requires a separate model comparison.",
+      "lineage": "Four measured targets. PDF9 reports that much of the comparison with the earlier three-nucleus analysis is a reanalysis of the same data.",
+      "work_id": "catalogue:LIT-000773",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.69.034315.pdf",
+        "sha256": "86875ded113c8f52a0d01635d214dd843f8c8cf8035dfa582cfeeb1845b18042",
+        "size": 573029,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/youngblood-2004-isgmr-deformation-splitting.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 775,
+      "task": "ZAGREBAEV01-ARCHIVE-775",
+      "pages": 14,
+      "version": "Physical Review C 65, 014607, December 2001 online imprint",
+      "role": "verified-publisher-version",
+      "scope": [
+        "PDF1–4 approach and capture framing",
+        "PDF4–7 formation and deexcitation frameworks",
+        "PDF7–13 model comparisons and conclusion",
+        "PDF14 end of references"
+      ],
+      "checks": [
+        "The first page verifies article identity, physical volume layout and Eq. (1)'s conditional scope.",
+        "Theoretical comparisons in the body are kept distinct from cited observations. Historical pre-existing corrections remain in force."
+      ],
+      "gap": "Earlier unsupported numeric summaries remain withdrawn. No replay of the reaction calculation.",
+      "lineage": "Primary theoretical treatment with cited comparative experiments.",
+      "work_id": "catalogue:LIT-000775",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.65.014607.pdf",
+        "sha256": "0fbce3d3faded1e072ce25eeb8a758cabb81d54b2df2eee71f55efd1686116c8",
+        "size": 980505,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/zagrebaev-2001-superheavy-synthesis-survival.md",
+          "declared_reading_depth": "read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 28
+}

@@ -144,3 +144,10 @@ B_\downarrow(E2)=
 - 后续指定原文 source：[[vogt-2017-135xe-137ba-isomers-high-spin]]；其 bibliography 使用 `Vogt2017PRC95_024316`，新数据单独写入 Vogt2017 sidecar。
 - 可复算实现及固定输入：[static-v1 report](/workspace/wiki/outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/report.md)、[benchmark-results.json](/workspace/wiki/outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/benchmark-results.json)、[source-constraints.json](/workspace/wiki/outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/source-constraints.json)。这些是模型/提取审计产物，实验事实以上述 raw locator 为依据。
 - 原有 ENSDF 有界扩展作为历史审计保留：[rstat-readiness.md](/workspace/wiki/outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/rstat-readiness.md)、[rstat-readiness.json](/workspace/wiki/outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/rstat-readiness.json)、[check_rstat_availability.py](/workspace/wiki/outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/check_rstat_availability.py)。原 static-v1 及这些历史输出均不改写；当前 primary-paper 可用性以 [vogt2017-readiness.json](/workspace/wiki/outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/vogt2017-readiness.json)补充。
+
+
+## 2026-11-22 — 两份静态矩评价 PDF 复核
+
+135Ba 为 Singh、Rodionov 和 Khazov 的 2008 评价，文献截止 2008-01-22，PDF 1–5 能级及注记、6–13 γ 表及注记、14–19 能级图、20 能带图。PDF 1 的 268.218(20) keV \(11/2^-\) 行给出 \(T_{1/2}=28.7(2)\) **h**、\(\mu=-1.001(15)\,\mu_N\)（1979Be25、1989Ra17）及 \(Q_s=+0.96(8)\) b（1983Mu12、1989Ra17）。
+
+137Ba 为 Browne 和 Tuli 的 2007 评价，表头 History 给出文献截止 2006-10-01。PDF 1–3 能级及注记、4–7 γ 表及注记、8–11 能级图。PDF 1 的 661.659(3) keV \(11/2^-\) 行推荐 \(Q_s=+0.78(9)\) b（1983Mu12、1989Ra17），附注保留与 1976Fu06 的 \(Q\approx-0.05\) b 不一致。对任何以该静态矩约束形状的比较，应随输入记录这一分歧。

@@ -1,0 +1,75 @@
+{
+  "checked_at": "2026-11-21T20:49:58.595075+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "RATH14-SM143-ASYMMETRIC-SHEARS",
+      "version": "Rajbanshi et al. arXiv:1809.07138v2, actual title line and 24 Dec 2018 header",
+      "pages": 6,
+      "scope": [
+        "PDF1–3 article context, apparatus, decay scheme and Table I.",
+        "PDF3–6 lineshape, polarization asymmetry, deduced strengths and modified shears/core model and sources."
+      ],
+      "checks": [
+        "Corrected misleading task prefix to real Rajbanshi attribution in audit; local journal liaison matches the sources note, no worker DOI adopted.",
+        "888.2 keV reports asymmetry and delta but no tau or strength in that line. The 291.5 keV branch is also from 49/2 to 47/2. Rejected worker-assigned extra numbers.",
+        "Existing Table I transcription and model boundaries retained. No general monotonic B(M1) law asserted."
+      ],
+      "gap": "Asymmetry-to-P calibration and actual response/feeding joint inputs are outside this audit.",
+      "lineage": "Own coincidence/polarimetry and DSAM with distinct model interpretation.",
+      "work_id": "catalogue:LIT-000648",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/sm143/PDFs/Extremely_asymmetric_shears_band_in_143Sm.pdf",
+        "sha256": "b296d3befa5f68b02b945b784d568e07ce77090ad730d85b6b0223935753dbeb",
+        "size": 202559,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/rajbanshi-2018-extremely-asymmetric-shears-143sm.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "RATH14-PD104-ANTIMAGNETIC-SCOPE",
+      "version": "Rather et al. arXiv:1402.3422v1, author version of PRC 89, 061303(R)",
+      "pages": 11,
+      "scope": [
+        "PDF1–4 methods, observable and stopping/feeding conditions; PDF4–6 shears model and results.",
+        "PDF7–11 figure and table material, including Table 1 on PDF11."
+      ],
+      "checks": [
+        "PDF3 specifies angle-derived lineshapes and explicit 100% top-feeding assumption for the 1468-keV depopulation; the 0.66(3) ps value is effective.",
+        "Table 1 has the six B(E2) rows but only five inertia-over-strength rows. Retained adopted Cd model parameters and finite feeding scope."
+      ],
+      "gap": "No response reconstruction, quantitative alternative-model comparison, or unconstrained top-state lifetime.",
+      "lineage": "Own DSAM analysis plus adopted Cd comparison model inputs. Do not double-count abbreviated institutional edition.",
+      "work_id": "catalogue:LIT-000649",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/rather-2014-104pd-antimagnetic-arxiv1402.3422v1.pdf",
+        "sha256": "b4a74c3f549860e857b83ba87e39a34a14ad2ed30c402a981e681826f01b7e3b",
+        "size": 151505,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/rather-2014-104pd-antimagnetic-arxiv-full.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        },
+        {
+          "source_note": "knowledge/sources/rather-2014-104pd-antimagnetic-first-page.md",
+          "declared_reading_depth": "skimmed",
+          "coverage_needs_confirmation": true
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 17
+}

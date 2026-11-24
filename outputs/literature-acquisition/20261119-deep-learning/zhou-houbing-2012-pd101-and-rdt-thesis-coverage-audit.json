@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-11-22T01:29:06.235475+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 787,
+      "task": "ZHOU12-THESIS-FULL-COVERAGE",
+      "pages": 117,
+      "version": "Zhou Houbing, Graduate University of Chinese Academy of Sciences doctoral dissertation, 2012",
+      "role": "verified-doctoral-thesis",
+      "scope": [
+        "PDF1–37 front matter, introduction and theory",
+        "PDF38–69 experiment and analysis methods",
+        "PDF70–89 101Pd spectroscopy",
+        "PDF90–117 RDT design, conclusion and references"
+      ],
+      "checks": [
+        "PDF71 identifies the independent 76Ge(28Si,3n) in-beam acquisition. PDF78 gives 920 keV with ADO 1.14(43) and states that adjacent weak lines lack extracted angular ratios.",
+        "PDF104 describes a tested component, while PDF106 and 108 explicitly state the whole RDT setup had no in-beam data."
+      ],
+      "gap": "Experimental angle-ratio and level assignments retain statistics and systematics. Proposed detector performance is not an in-beam validation.",
+      "lineage": "101Pd spectroscopy and a separate instrument-design chapter, with a laboratory subsystem test.",
+      "work_id": "catalogue:LIT-000787",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/周厚兵.pdf",
+        "sha256": "f2ed10bfbe471b574af314708917c790dd39761f4d2814e71157d19f539a916e",
+        "size": 5818416,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-doctoral-thesis"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 1,
+  "credited_primary_pages": 117
+}

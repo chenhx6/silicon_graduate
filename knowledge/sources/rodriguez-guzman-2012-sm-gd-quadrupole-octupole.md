@@ -3,11 +3,11 @@ type: source
 title: "Microscopic description of quadrupole-octupole coupling in Sm and Gd isotopes with the Gogny Energy Density Functional"
 aliases: [rodriguez-guzman-2012-sm-gd-quadrupole-octupole]
 created: 2026-10-29
-updated: 2026-10-29
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article
-reading_depth: skimmed
+reading_depth: deep-read
 title_original: "Microscopic description of quadrupole-octupole coupling in Sm and Gd isotopes with the Gogny Energy Density Functional"
 authors: ["R. Rodríguez-Guzmán", "L. M. Robledo", "P. Sarriguren"]
 year: 2012
@@ -39,7 +39,7 @@ arXiv API提供的题名、作者和DOI与实际PDF首页相符；期刊卷页�
 
 ## Scope and Reading Depth
 
-本轮定向阅读：PDF4 Table I, PDF11–15; Fig5, mean-field correlation energy and SPE discussion。未完成全篇逐图精读或计算复现。
+核定本地 arXiv v1 全文 PDF1–31。阅读范围含静态 HFB 与势能曲线、宇称投影的 2D-GCM、动力学矩、跃迁对比、1D 与 2D 关联能比较及结论、参考文献。未复现求解。
 
 ## Key Results
 
@@ -47,7 +47,8 @@ arXiv API提供的题名、作者和DOI与实际PDF首页相符；期刊卷页�
 |---|---|---|---|---|---|
 | RG12-1 | 146Sm 在 D1S 与 D1M 泛函下均保持八极球形 Q30=0，而 148,150Sm 发展出有限八极形变极小。 | model-result | derived | PDF p.4, Table I | true |
 | RG12-2 | 150Sm 自发破缺反射对称性的平均场能量增益仅为 204 keV (D1S) 与 105 keV (D1M)，呈现典型浅八极软阱。 | model-result | derived | PDF p.12 | true |
-| RG12-3 | 150Sm 具备质子 d5/2-h11/2 与中子 f7/2-i13/2 驱动对，微观壳隙与单粒子排列决定八极凝聚阈值。 | model-analysis | derived | PDF pp.14–15 | true |
+| RG12-3 | 文中用费米面附近具有适当角动量差的轨道解释 150Sm 的八极关联。这个解释依赖所算单粒子结构。 | model-analysis | derived | PDF pp.14–15 | true |
+| RG12-4 | Tables III–IV 的动力学 \(\bar Q_{30}\) 是宇称投影后从集体波函数构造的量。静态 HFB 极小在 \(Q_{30}=0\) 的若干核仍有有限的动力学八极幅度。对于本文所算 Sm/Gd 核，Fig. 11 中两项一维关联能之和接近二维 GCM 关联能。作者将近似可加性限于所算核与模型。 | model-result | derived | PDF14 Tables III–IV; PDF24 Fig. 11; PDF pp.27–28 | true |
 
 ## Competing Interpretations and Limitations
 

@@ -3,7 +3,7 @@ type: source
 title: "High spin states in 67Ga"
 aliases: [Zobel 1979 67Ga high-spin states, Zobel 1979 alignment primary]
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
@@ -39,6 +39,8 @@ V. Zobel, L. Cleemann, J. Eberth, W. Neumann and N. Wiehl, “High spin states i
 SHA-256 is recorded in the frontmatter and the query manifest.
 
 ## Scope and Reading Depth
+
+本轮核定 24 个物理页。PDF7／印刷 p.171 的 Table 2 同列角分布系数、拟合混合比和所报偏振量。例如 546.175 keV 行的 \(a_2=-0.598(8)\)、\(a_4=0.029(9)\)、\(\delta=-0.233(24)\)、\(P=-0.135(13)\) 属同一跃迁。PDF14／印刷 p.178 Table 3 的衰减系数按能级给出。将高斯磁子态布居作为形状假设时，保留原文级联传播与侧馈处理。角系数、偏振与由其求得的混合比共享原观测。
 
 The user downloaded the subscribed ScienceDirect PDF and placed it at the
 frontmatter path after the agent's direct-link attempts failed. Its 24-page text

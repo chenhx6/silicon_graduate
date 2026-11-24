@@ -1,0 +1,35 @@
+{
+  "work_id": "catalogue:LIT-000566",
+  "task_id": "MULLINS93-GD141-ALIGNMENT-AUDIT",
+  "checked_at": "2026-11-21T19:34:45.691923+00:00",
+  "raw": {
+    "path": "raw/papers/1993_Mullins et al_Perturbed alignments within an i 1 3 - 2 neutron intruder band in Gd 141.pdf",
+    "sha256": "b2704823f6077a6647ec44897d29986b58af064d0e0df431001d95334f0dd630",
+    "size": 362300,
+    "hash_basis": "fresh-hash",
+    "source_role": "verified-publisher-article"
+  },
+  "doi": "10.1103/PhysRevC.47.R2447",
+  "source_notes": [
+    {
+      "source_note": "knowledge/sources/mullins-1993-141gd-perturbed-alignments.md",
+      "declared_reading_depth": "deep-read",
+      "coverage_needs_confirmation": false
+    }
+  ],
+  "coverage": [
+    "PDF1–2 (R2447–R2448): setup, two acquisitions, DCO and low-spin placement.",
+    "PDF3–4 (R2449–R2450): observed cascades and gated spectrum, Harris alignment and CSM/TRS comparisons.",
+    "PDF5 (R2451): residual coupling and octupole alternatives, conclusion and references."
+  ],
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "manager_checks": [
+    "Visually read Fig. 2(b): J0=9.0 and J1=48.0 in displayed units, correcting worker values 15/25.",
+    "PDF2 mentions a regular Band 2 cascade and limits interpretation to Band 1. No worker-only full Band 2 assignment retained.",
+    "Fig. 3 and pp. R2450–R2451 distinguish model crossing sensitivities and the suggested residual-interaction/octupole correlations.",
+    "Original PDF2 assigns beta2 about 0.18 and gamma about -30 degrees to the h11/2 isomer. PDF4 Fig. 3(a) identifies beta2=0.29 and gamma=20 degrees with Band 1. Corrected the source page without adding reading credit."
+  ],
+  "remaining": "The original analyzes Band 1. Mixed decay-out placement and microscopic cause of perturbed alignment remain conditional.",
+  "credited_primary_pages": 5
+}

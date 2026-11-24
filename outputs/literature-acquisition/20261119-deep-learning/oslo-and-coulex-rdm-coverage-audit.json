@@ -1,0 +1,96 @@
+{
+  "checked_at": "2026-11-22T01:52:52.284345+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "work_id": "bytes:2ee6c7be8a2fbb72a9f647a0c284181b2fc197e167381be67685f3a15018c0e8",
+      "pages": 22,
+      "task": "KR-GE-COULEX-RDM-PRIMARY",
+      "source_note": "knowledge/sources/doctoral-r1-g27-clement-2007-prc-krypton-coulex.md",
+      "version": "Clément et al., Shape coexistence in neutron-deficient krypton isotopes; HAL in2p3-00141102 author manuscript; journal DOI 10.1103/PhysRevC.75.054313",
+      "role": "hal-author-manuscript",
+      "scope": [
+        "PDF 1 repository cover and article identity; PDF 2–22 includes experiment, differential gamma yields, fit and constraints, matrix elements, shape comparisons and references.",
+        "PDF 15 Table X: 74Kr downward B(E2;2_1+ -> 0_1+)=0.122(2) e^2 b^2 and B(E2;0_2+ -> 2_1+)=0.47(5) e^2 b^2. Fit includes prior spectroscopic constraints and keeps measured yields separate from model shape interpretation."
+      ],
+      "gap": "Prior lifetime and branching inputs used in the Coulomb-excitation fit must be counted with their dependencies.",
+      "lineage": "Primary spectroscopy study; each experimental quantity and prior constraint belongs to its stated acquisition.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261108-foundations-G27/clement-2007-74kr-76kr-coulex-prc.pdf",
+        "sha256": "2ee6c7be8a2fbb72a9f647a0c284181b2fc197e167381be67685f3a15018c0e8",
+        "size": 593430,
+        "hash_basis": "fresh-hash",
+        "source_role": "hal-author-manuscript"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/doctoral-r1-g27-clement-2007-prc-krypton-coulex.md",
+          "declared_reading_depth": "read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "bytes:715a4c8ada9a6e4bcc2be1df8c845e680d81b6f0c4f91bf70931fe7b10592ad8",
+      "pages": 4,
+      "task": "KR-GE-COULEX-RDM-PRIMARY",
+      "source_note": "knowledge/sources/doctoral-r1-g26-starosta-2007-64ge-rdm-e2.md",
+      "version": "Starosta et al., Shape and structure of N=Z 64Ge; arXiv:nucl-ex/0703021v1, journal DOI 10.1103/PhysRevLett.99.042503",
+      "role": "arxiv-author-manuscript",
+      "scope": [
+        "PDF 1–4 title, apparatus, line shape and lifetime extraction, model comparison, Table I and references.",
+        "PDF 3 lifetime text and Table I: tau(2_1+)=3.3(5) ps and tau(2_2+)=8(+4,-2) ps; downward strengths respectively 410(60) and 620(210) e^2 fm^4 for the 2_1+->0_1+ and 2_2+->2_1+ branches."
+      ],
+      "gap": "Table I has experimental blanks in the static moments and several in-band/out-of-band rows; GXPF1A values do not fill those blanks.",
+      "lineage": "Primary spectroscopy study; each experimental quantity and prior constraint belongs to its stated acquisition.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261108-foundations-G26/starosta-2007-64ge-rdm-e2.pdf",
+        "sha256": "715a4c8ada9a6e4bcc2be1df8c845e680d81b6f0c4f91bf70931fe7b10592ad8",
+        "size": 142344,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-manuscript"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/doctoral-r1-g26-starosta-2007-64ge-rdm-e2.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "catalogue:LIT-000510",
+      "pages": 61,
+      "task": "I133-OSLO-ORIGINAL-AND-THESIS-IDENTITY",
+      "source_note": "knowledge/sources/larsen-2026-133i-oslo-preliminary.md",
+      "version": "Ann-Cecilie Larsen, The Oslo method for nuclear-model ingredients: Recent results and applications, PND2-3 public talk",
+      "role": "conference-slide-deck",
+      "scope": [
+        "PDF 1–14 framework and setups; 15–31 methodological and regional cases; 32–40 preliminary iodine and other indirect-rate cases; 41–44 summary and backup transition; 45–61 method and response examples. Text plus visual checks of key spectra, charts and equations.",
+        "PDF 32 gives initial E_x–E_gamma sorting and PDF 33 shows explicitly preliminary gamma-strength plots. PDF 46 first-generation subtraction; PDF 48 gives 2052 pixels and 184 free parameters for the Fe56 case; PDF 49–54 covers factorization and normalization."
+      ],
+      "gap": "Presentation of work in progress and referenced measurements. Iodine pending strength plots share the OCL data; no thesis, covariance, final numbers, or independent experiment established.",
+      "lineage": "Reused comparisons and preliminary observations are separated from independent primary data.",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261101-day29-133i-oc/larsen-oslo-method-133i-2026.pdf",
+        "sha256": "633e2470366fa782bc38841e078be40bb031c8635f21079a3ce4236f76808458",
+        "size": 21502305,
+        "hash_basis": "fresh-hash",
+        "source_role": "conference-slide-deck"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/larsen-2026-133i-oslo-preliminary.md",
+          "declared_reading_depth": "skimmed",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 3,
+  "credited_primary_pages": 87
+}

@@ -160,3 +160,8 @@ Hara 与 Sun 的综述建立了 PSM 的方法链：变形 Nilsson+BCS intrinsic 
 ## Non-source Notes and Follow-up
 
 - 下一步：补充 HS10 到 TPSM model page 的历史来源关系，然后继续 HS-011；使用原始 PDF 与 OCR checkpoint，不把 OCR 文件作为永久证据。
+
+
+## 2026-11-22 — 馆藏版本与关键页复核
+
+PDF 76–77（印 712–713）Table 5 的星号和正文把三轴性列为模型候选。作者使用轴对称 PSM，并设三轴投影为后续检验。PDF 149 对应印 785，刊本尾页。

@@ -3,7 +3,7 @@ type: source
 title: "王志刚 2014 博士论文：双奇核 104Ag 和近球形核 91,92Zr 的高自旋态研究"
 aliases: ["王志刚2014博士论文", "Wang Zhigang 2014 thesis", "104Ag 91Zr 92Zr high-spin thesis"]
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 issue_id: "DD-20260910-HS-001"
@@ -25,6 +25,7 @@ zotero_uri:
 library_file: "raw/theses/degree-dissertation/王志刚 - 双奇核104Ag 和近球形核91,92Zr 的高自旋态研究.pdf"
 raw_file: "raw/theses/degree-dissertation/王志刚 - 双奇核104Ag 和近球形核91,92Zr 的高自旋态研究.pdf"
 raw_sha256: "c3918a968c4540c3fe784310a81902f736a1cca2c79f4b1f9f8bc0d09a44973f"
+archive_required: true
 nuclei: [104Ag, 91Zr, 92Zr]
 reactions: ["97Mo(11B,4nγ)104Ag", "82Se(13C,4nγ)91Zr", "82Se(13C,3nγ)92Zr"]
 experiments: ["CIAE HI-13 in-beam gamma spectroscopy"]
@@ -46,6 +47,9 @@ tags: [high-spin, odd-odd-nucleus, near-spherical-nuclei, 104ag, 91zr, 92zr, chi
 - `citation_key`：空。只读 BibTeX 中没有能唯一匹配该学位论文的条目，本页不猜测 cite-key。
 
 ## Scope and Reading Depth
+
+- 本轮核定全部 89 个物理页。正文印刷页为 PDF 页减 11。PDF42–43 给 40°/140° 与 90° 的 ADO 定义，并分别给 `104Ag` 与 `91,92Zr` 的经验标定值。PDF67–68 表 6-1/6-2 的 1544.2 keV、1006.5 keV 高 ADO 保留作者的 \(l\)-禁戒 M1 解释及指认条件。
+- PDF47 表 5-1 的 `104Ag` 346.3 keV 行与 [[wang-2013-high-spin-104ag]]刊版 Table I 同列 \(I_\gamma=100.0(58)\) 和 \(R_{\rm ADO}=0.86(5)\)，反应条件亦一致。成果清单见 PDF88，期刊和该论文第五章按同一次采集处理。
 
 - Completed reading_depth: `deep-read`。
 - Covered scope: 题名页和中英文摘要（PDF pp.1–9）；目录与引言（pp.10–16）；相关理论（pp.17–24，单粒子/集体激发、磁转动、手征双重带）；实验装置和两套反应（pp.25–38）；数据处理、相对强度、ADO 与能级纲图规则（pp.39–45）；`104Ag` 结果、表 5-1、图 5.1–5.7 及讨论（pp.46–60）；`91Zr/92Zr` 结果、表 6-1/6-2、图 6.1–6.8 及讨论（pp.61–79）。

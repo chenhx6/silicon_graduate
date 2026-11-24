@@ -7,7 +7,7 @@ updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-nuclear-data
-reading_depth: skimmed
+reading_depth: deep-read
 canonical_source: "NNDC ENSDF Adopted 222Ra, 224Ra, 226Ra, 226Th, 228Th; acquired 2026-10-29"
 raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/nndc-222ra-adopted-cluster-20261029.pdf"
 raw_sha256: "3a681f65303cbaa9bba9541dfc439d5155c55f276256121d43652d8dc7004042"
@@ -32,7 +32,7 @@ tags: [cluster-radioactivity, branching-ratio, evaluated-data, percentage-conver
 
 ## Scope and Reading Depth
 
-读取各核基态总半衰期、团簇分支、来源NSR码及限值注释：222Ra PDF2，其余核PDF1。2026-11-22核对222Ra PDF1–11、224Ra PDF1–13、226Ra PDF1–8、226Th PDF1–5的评价历史、能级表、γ表及谱图。归一化、数据集代码和物理量溯源以相应数据表注释为准。228Th仍只核定PDF1的基态字段。226Th未列团簇分支应记为该评价中的缺项。
+读取各核基态总半衰期、团簇分支、来源NSR码及限值注释：222Ra PDF2，其余核PDF1。2026-11-22核对222Ra PDF1–11、224Ra PDF1–13、226Ra PDF1–8、226Th PDF1–5、228Th PDF1–46的评价历史、能级表、γ表及谱图。228Th PDF2–6为能级表及带指派，PDF7–24为γ表，PDF25–44为逐能级谱图，PDF45–46为带图。归一化、数据集代码和物理量溯源以相应数据表注释为准。226Th未列团簇分支应记为该评价中的缺项。
 
 ## Summary
 
@@ -53,6 +53,9 @@ tags: [cluster-radioactivity, branching-ratio, evaluated-data, percentage-conver
 | NCRT-9 | 222Ra γ表的 \(E_\gamma,I_\gamma\) 默认来自222Fr β衰变，标注@的条目来自 \(^{232}\mathrm{Th}(^{136}\mathrm{Xe},X\gamma)\)。多极性默认来自226Th α衰变的转换电子数据，BrIcc的 \(\alpha\) 值通常由能量、指派的多极性与混合比计算。能级图的强度定义为各能级的相对光子分支。 | evaluated-observable-definition | official-evaluated-object | 222Ra Adopted PDF7 notes ‡, #, @, & and PDF8–10 legends | true |
 | NCRT-10 | 224Ra的84.372(3) keV \(2^+\) 寿命采用值为0.748(19) ns，同一能级注释还列库仑激发所得 \(B(E2)\) 与 \(Q_2\) 并引用2013Ga23/2012GaZV。γ表多极性通常来自224Fr β衰变的转换电子数据。 | evaluation-method | official-evaluated-object | 224Ra Adopted PDF1, 84.372 keV entry, PDF8 note # | true |
 | NCRT-11 | 226Ra的基态带和 \(K=0\) 八极振动带的自旋宇称沿用库仑激发工作；γ表的相对光子强度来自226Fr β衰变、230Th α衰变及重离子反应。226Th的基态带 \(J\geq 8\) 与八极带 \(J\geq 7\) 的指派依赖重离子反应数据；γ表的默认能量来源是230U α衰变和226Ac β衰变。 | evaluated-data-lineage | official-evaluated-object | 226Ra Adopted PDF3 note & and PDF4 notes †, ‡; 226Th Adopted PDF2 note @ and PDF3 notes †, ‡ | true |
+| NCRT-12 | 228Th 的 \(2_1^+\) 和 \(4_1^+\) 总能级半衰期为 0.406(7) 和 0.164(4) ns，评价注明来自232U α衰变。表列相应带内 E2 强度为 167(6) 和 242(9) W.u.。\(K^\pi=0^-\) 带的 396.094(4) keV \(3^-\) 列有通往 \(2_1^+\)、\(4_1^+\) 的 E1 和通往 \(1_1^-\) 的带内 [E2] 上限。该能级行未列通往基态的 E3。 | evaluated-data-lineage | official-evaluated-object | 228Th Adopted PDF1–2 level entries and PDF7 gamma rows | true |
+| NCRT-13 | 228Th 基态带在 3283.4? keV 有一个由 \(^{232}\mathrm{Th}(^{136}\mathrm{Xe},X\gamma)\) 支持的暂定 \((22^+)\) 成员。449 keV 连接的放置带有注记 k。 \(^{230}\mathrm{Th}(p,t)\) 的 \(L=0\) 转移支持 831.842、938.61、1119.7 keV 三个 \(0^+\) 能级，其中 1119.7 keV 的第三条 \(K^\pi=0^+\) 带头身份仍属评价推测。 | evaluated-assignment | official-evaluated-object | 228Th Adopted PDF1 dataset D, G; PDF2, PDF6, PDF23–24 | true |
+| NCRT-14 | 228Th 的 911.204(4) keV \(2^+\to2^+\) 连接表列 `E2+M1`、\(\delta=+24(8)\) 和 \(\alpha=0.0120(2)\)。转换系数的默认方法为 BrIcc 冻结轨道近似，使用所指派的多极性和混合比。谱图按每个能级的相对光子分支标注。该表未随这行提供偏振测量及其误差。 | evaluated-observable-definition | official-evaluated-object | 228Th Adopted PDF8, E_i=968.984 keV; PDF24 note h; PDF25 legend | true |
 
 ## Source Dependencies
 

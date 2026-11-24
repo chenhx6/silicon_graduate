@@ -3,7 +3,7 @@ type: source
 title: "Multiple chiral bands in 137Nd"
 aliases: []
 created: 2026-07-01
-updated: 2026-07-02
+updated: 2026-11-22
 status: active
 review_status: human-reviewed
 source_type: journal-article-experiment-and-model
@@ -55,6 +55,7 @@ European Physical Journal A 56, 208 (2020)，DOI `10.1140/epja/s10050-020-00218-
 - 阵列：JUROGAM II，24 个 clover 加 15 个 coaxial tapered Ge；
 - 数据：`5.1×10^10` 个 fold≥3 prompt γ coincidence events；
 - 分析：GRAIN 排序，RADWARE 三维/四维符合，`R_ac` 多极性判断；
+- PDF2–3 的 \(R_{\rm ac}\) 比较 \(133.6^\circ,157.6^\circ\) 与 \(75.5^\circ,104.5^\circ\) 两组探测器的效率修正强度。两矩阵都在全角轴使用同一能量门。伸展偶极和四极参照为 0.8 和 1.4，来自同数据中 136Nd 的强线。本文给出该角比及其对多极性的约束，未给出线偏振度 \(P\)。137Nd 分析与 PDF2 所列论文共享采集，纵向比对时按实际跃迁与分析版本记账。
 - 理论：constrained CDFT（PC-PK1）和多-j particle-rotor model。
 
 ## Key Results

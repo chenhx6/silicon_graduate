@@ -1,0 +1,144 @@
+{
+  "checked_at": "2026-11-22T03:16:49.884994+00:00",
+  "model_requested": null,
+  "reasoning_requested": null,
+  "works": [
+    {
+      "number": 292,
+      "pages": 20,
+      "task": "LOCAL-ROTATION-AND-THREE-THESES",
+      "source_note": "knowledge/sources/bazzacco-1998-rotational-bands-133nd.md",
+      "version": "Bazzacco et al., Rotational bands in 133Nd, PRC 58 (1998) 2002–2021, DOI 10.1103/PhysRevC.58.2002, publisher PDF",
+      "role": "publisher-version",
+      "scope": [
+        "PDF 1–4 motivation, measurements and level placement; 5–10 full Table I; 11–12 Fig. 3 and levels; 13–18 isomer and models; 19–20 references.",
+        "PDF 2 records two separate target/beam settings. PDF 13 Fig. 4 gives 301(16) ns for the 176-keV isomer, with error mainly from background. PDF 15 uses Q0=4.8 eb from a cited lifetime source."
+      ],
+      "lineage": "Table I relative intensities have defined references and missing values. The band assignments and shapes interpreted by models are separate from coincidence and time spectra.",
+      "gap": "Table I relative intensities have defined references and missing values. The band assignments and shapes interpreted by models are separate from coincidence and time spectra.",
+      "work_id": "catalogue:LIT-000292",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260926-DAY1-baseline-research-contract/1998_Bazzacco_rotational-bands-133Nd.pdf",
+        "sha256": "0beaa99e10c9e19f088975237d573738ed694ae543ba1a57d5dd3c87b2bda22b",
+        "size": 364833,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/bazzacco-1998-rotational-bands-133nd.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 357,
+      "pages": 88,
+      "task": "LOCAL-ROTATION-AND-THREE-THESES",
+      "source_note": "knowledge/sources/chen-size-2014-6li-pgamma-7be.md",
+      "version": "陈思泽，6Li(p,γ)7Be 低能反应截面的实验研究，中国科学院大学/近代物理研究所，博士论文，2014-04",
+      "role": "doctoral-dissertation",
+      "scope": [
+        "PDF 1–10 front matter, 11–56 background/terminal and calibrations, 57–70 relative cross-section method, 71–77 fit, 78–80 conclusions, 81–88 bibliography and appendices.",
+        "PDF 66–70 uses relative (p,alpha) normalization. PDF 76 (printed 66) Fig. 5.1 shows S-factor points and fit variants; text gives fitted resonance around 195 keV and proton width 50 keV."
+      ],
+      "lineage": "The fitted S-factor structure and proposed 7Be Jπ are candidate interpretations. A relative (p,alpha) calibration and the normalization point carry into the capture result.",
+      "gap": "The fitted S-factor structure and proposed 7Be Jπ are candidate interpretations. A relative (p,alpha) calibration and the normalization point carry into the capture result.",
+      "work_id": "catalogue:LIT-000357",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/陈思泽.pdf",
+        "sha256": "3cfab3b6dded29f7ee9a6fa8c8eab2e438ac4ce41a2c72f77da714ab4d052abd",
+        "size": 5735936,
+        "hash_basis": "fresh-hash",
+        "source_role": "doctoral-dissertation"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/chen-size-2014-6li-pgamma-7be.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 548,
+      "pages": 94,
+      "task": "LOCAL-ROTATION-AND-THREE-THESES",
+      "source_note": "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+      "version": "Lihleli Mavela, Determination of the Spectroscopic Quadrupole moment of the first 2+ excited state in 32S, University of the Western Cape MSc thesis, local title page 2019-05-02",
+      "role": "masters-thesis",
+      "scope": [
+        "PDF 1–9 front matter, 10–63 physics, apparatus, reduction and interpretation, 64–90 Appendices A–D with geometry/sorting/input listings, 91–94 bibliography.",
+        "PDF 3 abstract and PDF 60 and 63 print different uncertainty scales for Q_S. PDF 70 reproduces the literal 0.71259276 in the velocity array. Both differences are preserved."
+      ],
+      "lineage": "GOSIA inferred a diagonal moment using the stated geometry and external inputs. A literal code listing does not establish which source was executed.",
+      "gap": "GOSIA inferred a diagonal moment using the stated geometry and external inputs. A literal code listing does not establish which source was executed.",
+      "work_id": "catalogue:LIT-000548",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/硕士论文_多普勒修正.pdf",
+        "sha256": "4c656a983a0502eaef7c551dfaf6e13539ce472f8e76aea6299ad09cfc112ccf",
+        "size": 13875896,
+        "hash_basis": "fresh-hash",
+        "source_role": "masters-thesis"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 558,
+      "pages": 134,
+      "task": "LOCAL-ROTATION-AND-THREE-THESES",
+      "source_note": "knowledge/sources/morgan-2008-237pu-nilsson-orbitals.md",
+      "version": "Thomas James Morgan, Identification of Nilsson Orbitals in the Superdeformed Minimum of 237Pu, LMU München doctorate, 2008",
+      "role": "doctoral-dissertation",
+      "scope": [
+        "PDF 1–14 front matter; 15–58 motivation/theory and measurement setup; 59–104 data, assignments and model comparisons; 105–106 conclusions; 107–122 spectroscopy and solar-cell appendices; 123–134 back matter.",
+        "PDF 92 Fig. 6.6 and PDF 105 distinguish approximate 115 and 1120 ns fission labels, the 54.0(3) keV relative placement and tentative Nilsson interpretation. Appendix B contains distinct prototype detector tests."
+      ],
+      "lineage": "Model comparison is not an independent isotope measurement; preserve physical gating, both isomer bands and the difference between fast and slow time scales.",
+      "gap": "Model comparison is not an independent isotope measurement; preserve physical gating, both isomer bands and the difference between fast and slow time scales.",
+      "work_id": "catalogue:LIT-000558",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/Morgan_Thomas.pdf",
+        "sha256": "5fae0d0604c4a65ed889dfa579ddf902c20b00a457526f6491d9bc672a0476fb",
+        "size": 3193169,
+        "hash_basis": "fresh-hash",
+        "source_role": "doctoral-dissertation"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/morgan-2008-237pu-nilsson-orbitals.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 4,
+  "credited_primary_pages": 336,
+  "read_provenance": "Prior complete scopes reconciled against original items, plus direct local chapter and appendix coverage.",
+  "partial_units": [
+    {
+      "work_id": "catalogue:LIT-000302",
+      "physical_pdf_interval": [
+        123,
+        157
+      ],
+      "printed_interval": [
+        101,
+        135
+      ],
+      "source_note": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md"
+    }
+  ]
+}

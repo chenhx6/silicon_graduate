@@ -1,0 +1,110 @@
+{
+  "checked_at": "2026-11-22T01:04:03.351831+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 777,
+      "task": "ZANON23-O20-SPECTROSCOPY-PRIMARY",
+      "pages": 7,
+      "version": "arXiv:2405.14305v1, seven-page author manuscript of the 2023 journal work",
+      "role": "verified-arxiv-author-version",
+      "scope": [
+        "PDF1–4 setup, gates and lifetime fits",
+        "PDF5–7 strength comparisons and end matter"
+      ],
+      "checks": [
+        "PDF3–4 lifetime fits report 70(10) and 54(9) fs for the two excited states, with separate 90% intervals.",
+        "PDF5 Table I uses an earlier measured delta for the 2-to-2 branch, and USDB mixing ratios for the 3+ transitions."
+      ],
+      "gap": "Strength derivations share experimental lifetimes and branching data but use different mixing-ratio provenance.",
+      "lineage": "New in-beam lifetime analysis with derived strengths and external inputs.",
+      "work_id": "catalogue:LIT-000777",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/zanon-2023-o20-high-precision.pdf",
+        "sha256": "2bd272e29518978205cb47b0d7829a0f57f1a5b81f8c0be7d7d984cec94435cc",
+        "size": 413840,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/zanon-2023-o20-high-precision.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 783,
+      "task": "ZHENG02-ADO-DEFINITION-PRIMARY",
+      "pages": 5,
+      "version": "High Energy Physics and Nuclear Physics 26(9), 909–913 (2002), scanned publisher layout",
+      "role": "verified-publisher-scan",
+      "scope": [
+        "PDF1–2 motivation, matrices and ADO equations",
+        "PDF3–5 geometry, efficiency and gate-dependent comparisons, conclusion and literature"
+      ],
+      "checks": [
+        "Eq. (3) has a gate/efficiency factor. PDF3 reports calculated quadrupole- and dipole-gate deviations for this array and energy range.",
+        "PDF3 visual check preserves the stated dipole-gate text versus Fig. 1(a) point discrepancy previously recorded in Wiki."
+      ],
+      "gap": "The adjustment depends on the array, projection and gate behavior. It does not provide a line polarization measurement.",
+      "lineage": "Primary ADO method article, using the reported acquisition and cited calibration cases.",
+      "work_id": "catalogue:LIT-000783",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/2002_郑 et al_符合模式下的γ射线各向异性度测量.pdf",
+        "sha256": "03044180a59fa5be55bcb6c517e9b87285c0991855afe5e1104e9dd03e9a7f23",
+        "size": 111268,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-scan"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/zheng-2002-ado-coincidence-angular-anisotropy.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 785,
+      "task": "ZHENG13-RU91-POLARIZATION-PRIMARY",
+      "pages": 11,
+      "version": "Physical Review C 87, 044328 (2013), archive reprint with one cover and ten main pages",
+      "role": "verified-electronic-reprint",
+      "scope": [
+        "PDF1 cover",
+        "PDF2–6 experiment, DCO and polarimeter calibration",
+        "PDF7–8 transition table",
+        "PDF9–11 interpretation and end matter"
+      ],
+      "checks": [
+        "PDF6 Table I separates asymmetry, deduced P and Q for calibration. PDF7–8 Table II reports A for the 91Ru transitions and distinct DCO gate information.",
+        "PDF7 328.0 keV row gives RDCO=1.06(5) at 898-keV gate and A=-0.25(4). Visual check corrects the 435.9-keV entry to A=0.17(7)."
+      ],
+      "gap": "DCO gate labels do not uniquely define line-specific polarimetry selection. Conversion to P requires the calibrated response and its conditions.",
+      "lineage": "One EXOGAM acquisition and associated calibration; preprint and archive reprint do not supply duplicate experiments.",
+      "work_id": "catalogue:LIT-000785",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2013_Zheng et al_γ -ray linear polarization measurements and ( g 9 - 2 ) − 3 neutron alignment.pdf",
+        "sha256": "0688633ba372e7f3f60b2e9fd69e556d28070b2f5bde62d13d01d1bd9a5483ef",
+        "size": 1028953,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-electronic-reprint"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 3,
+  "credited_primary_pages": 23
+}

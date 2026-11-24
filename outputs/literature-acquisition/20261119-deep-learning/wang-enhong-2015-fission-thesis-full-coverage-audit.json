@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-11-22T00:01:34.823218+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 754,
+      "task": "WANG15-FISSION-THESIS-FULL-COVERAGE",
+      "pages": 143,
+      "version": "Enhong Wang, Vanderbilt University doctoral dissertation, May 2015, 143-page archive",
+      "role": "verified-doctoral-thesis",
+      "scope": [
+        "PDF1–14 front matter",
+        "PDF15–35 introductory structure and two experiments",
+        "PDF36–64 Y, Nb and Ag spectroscopy",
+        "PDF65–100 Ce and Pr spectroscopy",
+        "PDF101–132 later Pr, Pm, Sm results",
+        "PDF133–143 conclusions and bibliography"
+      ],
+      "checks": [
+        "PDF27–35 verifies distinct experiments and reconstruction channels. Printed page=PDF−14 on main pages.",
+        "PDF46–48, 107Nb: A/Z tagged spectra and 252Cf triple-coincidence evidence are compared. PDF92–93, 148Pr: time-window dependence and neighboring-ion contamination are reported separately.",
+        "PDF102 compares gate-dependent centroids for the 151Pr 221.9/221.3-keV components. PDF129–131 shows 158Sm candidate placement and possible alternate spins of the bandhead. No event-level spectra were re-fit."
+      ],
+      "gap": "Weak/overlapping branches, charge or mass spillover, time selection and shape assignments retain original qualifications; earlier same-experiment publications are dependent evidence.",
+      "lineage": "Two fission production and detection setups, with separate internal conditions. A/Z and coincidence constraints are complementary.",
+      "work_id": "catalogue:LIT-000754",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/Wang Enhong.pdf",
+        "sha256": "95be30d0c4f5b0121d182e7cbe7f435b3f5f3863abaafdd51518efbcfa28e4a7",
+        "size": 4977639,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-doctoral-thesis"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/wang-enhong-2015-neutron-rich-fission-fragments.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 1,
+  "credited_primary_pages": 143
+}

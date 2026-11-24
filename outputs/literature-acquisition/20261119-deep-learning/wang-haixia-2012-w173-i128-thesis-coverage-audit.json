@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-11-22T00:08:37.439508+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 755,
+      "task": "WANG12-HAIXIA-PDF64-105",
+      "pages": 105,
+      "version": "Haixia Wang, Graduate University of Chinese Academy of Sciences doctoral dissertation, 2012",
+      "role": "verified-doctoral-thesis",
+      "scope": [
+        "PDF1–8 front matter",
+        "PDF9–63 introduction, theory, instruments and coincidence methods",
+        "PDF64–82 173W results",
+        "PDF83–89 128I results",
+        "PDF90–105 telescope, conclusions, references and publications"
+      ],
+      "checks": [
+        "PDF70 distinguishes 524.2 and 523.8 keV by coincidence and peak analysis. PDF77 gives an AB crossing near 0.26 MeV and a separate signature phase crossing near I=33/2.",
+        "PDF86–87 uses measured ADO and gate-dependent low-energy multiplet evidence. It explicitly leaves the E2 mixing component unresolved by this ADO analysis. PDF104 identifies the related 2010 journal report.",
+        "PDF97 distinguishes calculated effective proton thresholds at approximately 600 and 700 keV for different entrance configurations."
+      ],
+      "gap": "Observed signature and angular ratios constrain placements; microscopic assignments remain interpretation-dependent. Numerical polarization and E2/M1 extraction for 128I were not reported in this analysis.",
+      "lineage": "Distinct 173W and 128I in-beam experiments and telescope tests. The 128I journal report and thesis chapter share their data lineage.",
+      "work_id": "catalogue:LIT-000755",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/王海霞 - 173W 和128I 的高自旋态研究.pdf",
+        "sha256": "1e0a882f8a393714ed5e75c06df9bd17dd578b232ea2cd34b6e333fb1b7a26d7",
+        "size": 3976220,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-doctoral-thesis"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/wang-haixia-2012-173w-128i-high-spin-thesis.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 1,
+  "credited_primary_pages": 105
+}

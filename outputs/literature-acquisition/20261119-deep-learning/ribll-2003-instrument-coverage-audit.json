@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-11-21T23:01:22.000716+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 710,
+      "task": "RIBLL-INSTRUMENT-PUBLISHER",
+      "pages": 8,
+      "version": "Nuclear Instruments and Methods in Physics Research A 503, 496–503 (2003), publisher version, DOI 10.1016/S0168-9002(03)01005-2",
+      "role": "verified-publisher-version",
+      "scope": [
+        "PDF1–2 fragment separation and optical layout",
+        "PDF3–4 magnet parameters, transfer matrix and operations",
+        "PDF5–6 commissioning, TOF and energy-loss identification, F4 profiles",
+        "PDF7–8 beam species examples, conclusion context and references"
+      ],
+      "checks": [
+        "First-page imprint and DOI confirm the original; ignore conflicting DOI in the reading return.",
+        "PDF5 Fig. 4 and text: A/ΔA>300 inferred from the 16O TOF projection, and silicon thickness 300 µm checked visually.",
+        "PDF5–6 Fig. 5: 47% is the 17F fraction with the stated degrader in the 80 MeV/u 20Ne commissioning configuration, not an efficiency for arbitrary beams.",
+        "PDF6 Sec. 3 reports F4 beam widths; Fig. 6 instead shows light neutron-rich nuclides from the 18O example."
+      ],
+      "gap": "The design values and commissioning observations have their own conditions. RIBLL1 parameters do not identify the RIBLL2 settings of the later 16C experiment.",
+      "lineage": "Original early RIBLL instrument and commissioning article. The HIRFL-CSR RIBLL2 experiment is a separate installation lineage.",
+      "work_id": "catalogue:LIT-000710",
+      "raw": {
+        "path": "raw/papers/RIBLL, the radioactive ion beam line in Lanzhou.pdf",
+        "sha256": "3d5e793dfa6c02b59365f0596ca45ed23ea8080d58347752653ec477ec2536d8",
+        "size": 709129,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/sun-2003-ribll-radioactive-ion-beam-line.md",
+          "declared_reading_depth": "read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 1,
+  "credited_primary_pages": 8
+}

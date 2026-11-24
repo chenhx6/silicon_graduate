@@ -3,7 +3,7 @@ type: source
 title: "张文强 2022 博士论文：Z≈82, N≈104 缺中子核区形状共存"
 aliases: [张文强形状共存论文, Wenqiang Zhang shape coexistence thesis]
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-experiment
@@ -18,6 +18,7 @@ canonical_source: "张文强. Z=82,N=104核区缺中子原子核的形状共存�
 citation_key: "zhang_2022_187pb-shape-coexistence"
 raw_file: "raw/theses/degree-dissertation/张文强.pdf"
 raw_sha256: "0BC7A14983E601D81D7E2052587F114B4ECE87756F77955A004D0AAE616616CC"
+archive_required: true
 nuclei: [187pb, 188bi, 188po]
 experiments: [argonne-gas-filled-analyzer-187pb-188bi-188po]
 models: [potential-energy-surface, cranked-shell-model]
@@ -33,6 +34,11 @@ tags: [shape-coexistence, shape-isomer, a190, phd-thesis]
 张文强，*Z=82,N=104核区缺中子原子核的形状共存研究*，中国科学院大学博士学位论文，2022，132 页。原始 PDF SHA-256 为 `0BC7A14983E601D81D7E2052587F114B4ECE87756F77955A004D0AAE616616CC`。
 
 ## Scope and Reading Depth
+
+本轮按 PDF1–26、27–64、65–94、95–132 核定全部物理页。正文印刷页为物理 PDF 页减 18。PDF60 记录 AGFA 反冲分离及焦平面关联。`187Pb`、`188Bi` 和 `188Po` 对应同次采集内的不同反应产物和标签。
+
+- PDF82 的 `187Pb` 延迟 308 keV 线给 \(T_{1/2}=5.15(15)\,\mu\mathrm{s}\)。PDF97 Fig. 6.2 用 `188Bi` 的 243 keV 线拟合得 \(0.25(5)\,\mu\mathrm{s}\)，联合 X 射线和低能线的拟合为 \(0.35(10)\,\mu\mathrm{s}\)。
+- PDF102–103 Fig. 6.6 在 `188Po` 的 α 标记下记录 242 keV 三个计数和 347 keV 两个计数。作者在其随机符合检验下保留前者，并以同位素系统学支持 \(2_1^+\) 退激指认。低统计及长椭或三重共存的解释各自保留限定。
 
 - `deep-read`：读取题名页、摘要（PDF pp.7–10）、目录、实验与数据处理章节（Chs.2–4）、`187Pb` 结果/讨论（Ch.5）、`188Bi/188Po` 结果/讨论（Ch.6）和总结（Ch.7，PDF pp.94、111–113）。
 - 重点视觉/文本核对 RDT 关联、isomer 半衰期、能级/转动带摘要、`B(E2)` 数值、Po `2+` 能量和 RDT efficiency 讨论。

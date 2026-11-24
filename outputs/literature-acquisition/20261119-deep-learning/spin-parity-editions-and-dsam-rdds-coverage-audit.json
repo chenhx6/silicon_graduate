@@ -1,0 +1,121 @@
+{
+  "checked_at": "2026-11-21T22:54:10.108184+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 708,
+      "task": "NDS-SPIN-PARITY-HISTORICAL-EDITIONS",
+      "pages": 4,
+      "version": "Nuclear Data Sheets 1970 issue front matter, even A=230–242, printed iii–vi, four-page publisher scan",
+      "role": "verified-publisher-excerpt",
+      "scope": [
+        "PDF1–2 special issue introduction and 1970 spin/parity guide",
+        "PDF3–4 E0 information and evaluation notation"
+      ],
+      "checks": [
+        "PDF2 propositions 18–19 address beta–gamma polarization, and the weak list ends at 8.",
+        "The printed guide has strong propositions 1–32. The DCO and high-spin A2/A4 rules formerly attributed to this archive instead belong to the later guide.",
+        "PDF3 title and PDF4 notation verify the rest of the excerpt."
+      ],
+      "gap": "Historical method guide, with applicability tied to each printed proposition. Coverage refers to the four-page archived bundle.",
+      "lineage": "Earlier iteration of NDS assignment guidance, superseded by the later expanded rules for in-beam cases.",
+      "work_id": "catalogue:LIT-000708",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1970_Summary of bases for spin and parity assignments — 1970.pdf",
+        "sha256": "d8386bab5d0b6639354207e7149709c615bf4cf907303e5fc7e61a349a19487e",
+        "size": 301807,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-excerpt"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/summary-bases-spin-parity-assignments-1970.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 711,
+      "task": "SUN23-DSAM-BAYESIAN-SCOPE",
+      "pages": 10,
+      "version": "arXiv:2203.10336v2, 2022-11-09 stamp, corresponding journal paper Physics Letters B 839, 137801 (2023)",
+      "role": "verified-arxiv-author-version",
+      "scope": [
+        "PDF1–2 motivation and DSL transfer experiment",
+        "PDF3–4 particle gating, lineshape simulations and likelihood",
+        "PDF5–7 posterior results, interpretation and outlook",
+        "PDF8–10 reference material"
+      ],
+      "checks": [
+        "PDF1 authenticates archived arXiv version, not the journal typeset body.",
+        "PDF3–4: Doppler line-shape bins and forward model enter Eq. 3. Gate with alpha kinematics reduces indirect feeding. The stopping prior terms use 10% and 20% by lifetime regime.",
+        "PDF5 Fig. 4 and Table I: long-lived tau and stopping-power scales are negatively correlated; the measured 1248-keV state is reported at 1120(180) fs."
+      ],
+      "gap": "Current credit refers to the primary PDF. Previously read journal SI remains linked. Event counts, full training and response inputs, and chain draws were not audited as received.",
+      "lineage": "One direct 31S measurement with a Bayesian analysis. Author preprint and paper are related editions.",
+      "work_id": "catalogue:LIT-000711",
+      "raw": {
+        "path": "raw/papers/2023_Sun_et_al_Bayesian_Doppler_shift_attenuation_method.pdf",
+        "sha256": "f19bb23761529d355efbe83e5a8063f4e99a9c43bd65cc906604d129aad55b34",
+        "size": 1072025,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 713,
+      "task": "SUZUKI08-RH-RDDS-ORIGINAL",
+      "pages": 5,
+      "version": "Physical Review C 78, 031302(R) (2008), five-page APS publisher PDF",
+      "role": "verified-publisher-version",
+      "scope": [
+        "PDF1–2 chirality context, inverse kinematics, plunger and DDCM",
+        "PDF3–4 measured spectra, lifetimes and conditional derived strengths",
+        "PDF5 end of discussion, acknowledgments and references"
+      ],
+      "checks": [
+        "PDF2 Eq. 1–2 distinguish a direct upper feeding gate and the correction using a higher gate.",
+        "PDF3 Tables I–III report selected levels in one candidate band per nuclide. Similarity of partners' transition rates therefore remains unresolved.",
+        "PDF4–5 discussion and Fig. 3 suggest that the short measured sequence's B(E2) variations explain its ratio staggering under the reported assumptions. Partner lifetimes and the higher-spin near-degenerate range remain key limits."
+      ],
+      "gap": "No partner-band lifetimes; interpretation retains low-spin coverage and assumed M1 content in derived strengths.",
+      "lineage": "One shared beam run with distinct 103Rh and 104Rh reaction channels. Both strengths per transition use the same lifetime input.",
+      "work_id": "catalogue:LIT-000713",
+      "raw": {
+        "path": "raw/papers/2008_Suzuki et al_Lifetime measurement of candidate chiral doublet bands in the Rh 103 , 104.pdf",
+        "sha256": "f9c421090b33da94206f9d1d4ebd36ad0f5be79ee1dcd6a19fe38b32a7ec5927",
+        "size": 156466,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 3,
+  "credited_primary_pages": 19,
+  "related_edition": {
+    "work_id": "catalogue:LIT-000709",
+    "canonical_work_id": "catalogue:LIT-000707",
+    "comparison": "Both show printed pages iv–vi; PDF metadata generation dates differ. Substantive proposition text identical; observed whitespace and page-reading order account for differences.",
+    "layout_tokens_similarity": 0.9961168326861388,
+    "page_credit": 0
+  }
+}

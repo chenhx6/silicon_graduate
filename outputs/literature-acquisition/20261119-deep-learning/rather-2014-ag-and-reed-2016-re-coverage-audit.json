@@ -1,0 +1,69 @@
+{
+  "checked_at": "2026-11-21T20:55:56.729214+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "RATHER14-AG106-DOUBLET-EVIDENCE",
+      "version": "arXiv:1310.7731v1, related PRL 112, 202503 (2014)",
+      "role": "verified-arxiv-author-version",
+      "pages": 12,
+      "scope": [
+        "PDF1–6 experiment, line shapes and model framework; remaining scheme, figures, tables and sources through PDF12."
+      ],
+      "checks": [
+        "Retained previously audited Fig. 2/Table I versus text discrepancy at 15− and 17−. Reject simplified monotonic main-band claim.",
+        "DSAM rates and model assignment are distinct. Same deformation TPSM fit retained as the authors’ analysis. No newly inferred chiral falsification."
+      ],
+      "gap": "No covariance or repeat lifetime fit. Author copy distinct from typeset paper.",
+      "lineage": "Own DSAM results plus cited work with different interpretations.",
+      "work_id": "catalogue:LIT-000650",
+      "raw": {
+        "path": "raw/papers/2014_Rather_106Ag.pdf",
+        "sha256": "f2c4d8340087095ab2175bd9f319e1271c6187199c86faad0e2bf37d330ab006",
+        "size": 121229,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "REED16-RE-TRIAXIAL-SCOPE",
+      "version": "Phys. Lett. B 752, 311–316 (2016), 10.1016/j.physletb.2015.11.056",
+      "role": "verified-publisher-edition",
+      "pages": 6,
+      "scope": [
+        "PDF1–3 printed 311–313, isomer tagging/setup and level schemes; PDF4–6 printed 314–316, timing, angular correlation, model and sources."
+      ],
+      "checks": [
+        "PDF2/Fig. 3 labels 48(4) ns, 101(58) ns and 73(5) microseconds as lifetimes; corrected false worker uncertainties and half-life labels.",
+        "Reproduces cited 140-keV delta and trend in modeling; triaxial inputs remain model values."
+      ],
+      "gap": "No claim of unique gamma rigidity; keep 191Re decay and configurations traceable to original analysis.",
+      "lineage": "Own experimental Re isomer studies with previous-work comparisons and separate model results.",
+      "work_id": "catalogue:LIT-000651",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/旋称/2016_Reed et al_Impact of triaxiality on the rotational structure of neutron-rich rhenium.pdf",
+        "sha256": "5689134f0960028580c4341bc26ae12d78c633cb1f0ee9ba98cc9be28721ea11",
+        "size": 628702,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/reed-2016-triaxiality-rhenium.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 18
+}

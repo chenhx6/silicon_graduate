@@ -28,6 +28,7 @@ rct1_url: "https://www-nds.iaea.org/amdc/ame2020/rct1.mas20.txt"
 rct1_sha256: e6ba1d2256f90053464c48e24d44691828dc49820ce64054aa418d834cc18e90
 rct1_bytes: 511515
 related_raw_file: "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/ame2020-rct1.mas20.txt"
+related_raw_sha256: e6ba1d2256f90053464c48e24d44691828dc49820ce64054aa418d834cc18e90
 nuclei: [130sn, 131sn, 132sn, 133sn, 134sn, 130ba, 131ba, 132ba]
 reactions: []
 experiments: [mass-evaluation]

@@ -3,7 +3,7 @@ type: source
 title: "王建国 2010 博士论文：丰中子核 103,104Nb 及缺中子核 140Pm 的高自旋态研究"
 aliases: ["王建国2010博士论文", "Wang Jianguo 2010 thesis", "103Nb 104Nb 140Pm high-spin thesis"]
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 issue_id: "DD-20260910-HS-005"
@@ -25,6 +25,7 @@ zotero_uri:
 library_file: "raw/theses/degree-dissertation/王建国-丰中子核103,104Nb及缺中子核140Pm的高自旋态研究.pdf"
 raw_file: "raw/theses/degree-dissertation/王建国-丰中子核103,104Nb及缺中子核140Pm的高自旋态研究.pdf"
 raw_sha256: "a4262bba15371b4cfe37f5a89331ba0f7b3ef6aa339fec6e6579ca55baa36635"
+archive_required: true
 nuclei: [103Nb, 104Nb, 140Pm]
 reactions: ["252Cf spontaneous fission", "126Te(19F,5n)140Pm"]
 experiments: ["Gammasphere 252Cf fission", "CIAE HI-13 140Pm"]
@@ -46,6 +47,10 @@ tags: [high-spin, neutron-rich, neutron-deficient, 103nb, 104nb, 140pm, gamma-vi
 - `citation_key`：空。只读 BibTeX 中没有唯一匹配条目，本页不猜测 cite-key。
 
 ## Scope and Reading Depth
+
+本轮核定全部 119 物理页。PDF1–11 为前置，PDF12–64 为理论、装置和方法，PDF65–86 为 `103,104Nb`，PDF87–103 为 `140Pm`，PDF104–119 为总结、书目和成果目录。正文印刷页为物理 PDF 页减 11。
+
+PDF68 表 4.1 的 565.3/279.3 keV 双门给出 `103Nb` 716.8 keV 分支的相对值 77.4(11)%。两声子解释还依赖带头比和模型比较。PDF89 表 6.1 的 `140Pm` 124.8 keV 行给 \(R_{\rm DCO}=0.89(9)\)，列出的 `M1/E2` 为多极性指认。该行未列逐线门能量、定量 \(\delta\) 或线偏振 \(P\)。保留弱线和重叠线的角比空栏。
 
 - Completed reading_depth: `deep-read`。
 - Covered scope: 题名页、中英文摘要/目录（PDF pp.1–11）；引言（pp.12–21）；理论方法（pp.22–36，形变、Nilsson/CSM、TRS、RVM、角动量/转动惯量）；实验和数据分析（pp.37–66，Gammasphere 裂变、HI-13 熔合蒸发、DCO、互补核归属、矩阵）；`103Nb` 结果/2γ 讨论（pp.65–75，Figs.4.1–4.5、Tables 4.1–4.2）；`104Nb` 结果/半退耦（pp.76–86，Figs.5.1–5.8）；`140Pm` 纲图/带特性/TRS（pp.87–103，Figs.6.1–6.9、Tables 6.1–6.2）；总结与展望（pp.104–106）。

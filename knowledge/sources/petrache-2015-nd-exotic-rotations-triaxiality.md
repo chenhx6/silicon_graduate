@@ -3,7 +3,7 @@ type: source
 title: "Petrache 2015：Nd核的特殊转动与三轴性"
 aliases: [Petrache 2015 Nd exotic rotations, Exotic rotations and triaxiality in Nd nuclei]
 created: 2026-10-15
-updated: 2026-10-15
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: journal-review-and-interpretation
@@ -38,7 +38,7 @@ C. M. Petrache, *Physica Scripta* **90**, 114016 (2015)，DOI [10.1088/0031-8949
 
 实际从[出版商入口](http://stacks.iop.org/1402-4896/90/i=11/a=114016/pdf)取得397420 bytes PDF，SHA256如frontmatter，保存于`tmp/day14-20261014/petrache2015/PDFs/Exotic_rotations_and_triaxiality_in_Nd_nuclei.pdf`。下载器将TDM链接误作OA证据并标`open_access_downloaded`；本页只认定**公开入口成功取得出版商PDF，开放许可未核**。Crossref的TDM/copyright不是CC或开放获取证明，未采用该自动许可结论。arXiv精确DOI与HAL检索均0，不将0解释为不存在别的作者副本。
 
-本次按daily-learning授权建立来源记录，**未完成raw归档摄入**；`raw_file`是尚未填入的保留槽，未动raw/Bib。citation key没有本地匹配，留空。出版商封面的下载归属信息属于执行元数据，不作科学证据；原PDF不改，身份回执省略该归属字段。
+早期获取记录一度将 `raw_file` 用作保留槽。当前四页刊版已在 frontmatter 所列 `raw_file` 归档。本次以现存文件重新核对首页、物理页数和 SHA-256。打印页 2 的 Fig. 1 惯量比较沿用作者的频率和交互区筛选，并对低惯量组剔除了至少为带平均值两倍的点。
 
 ## Scope and Reading Depth
 

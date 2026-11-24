@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-11-21T21:11:14.398692+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "RILEY21-UC-GRETINA-RESPONSE",
+      "version": "arXiv:2104.09986v1, NIM A 1003, 165305",
+      "pages": 26,
+      "scope": [
+        "PDF1–8 detector setup and calibration sources; PDF9–17 single crystal/full-array calibration; PDF18–23 continuum, tests, conclusions; PDF24–26 references."
+      ],
+      "checks": [
+        "PDF15 Table 2 separates single crystal and the two full-array sets, with 53/58-keV discrepancy in table versus text preserved.",
+        "PDF21–22 indicate improved low-energy continuum with passive materials, and tentative partial charge collection interpretation. No unique geometric measurement of effective layers."
+      ],
+      "gap": "Source positions/efficiency data and Monte Carlo model share calibration inputs; no transferable polarimeter sensitivity inferred.",
+      "lineage": "Distinct single-crystal and full-array measurements used to calibrate an effective response.",
+      "work_id": "catalogue:LIT-000657",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/riley-2021-ucgretina-2104.09986v1.pdf",
+        "sha256": "68644a73a5bb0ecb66ee504d162e0acdefa6a1e5b7c8dc44e846c322264364d1",
+        "size": 806228,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "ROBLEDO10-BCP-OCTUPOLE-COVERAGE",
+      "version": "arXiv:1003.4311v1, PRC 81, 034315",
+      "pages": 14,
+      "scope": [
+        "PDF1–4 motivation and HFB/collective equation; PDF4–9 radium models and external data; PDF9–12 barium cases; PDF12–14 third application, conclusions and references."
+      ],
+      "checks": [
+        "PDF4 p. text and PDF5 Fig. 1 give local HFB Ra results. PDF10 explicitly distinguishes Ba D1S nonzero minima from flat BCP1 values.",
+        "Equation (10) uses the cranking mass approximation. Figs. 7 and 12 separate base calculations from external experimental points. No graph-only precise values adopted."
+      ],
+      "gap": "Model-dependent local curves and dynamics; no standalone experimental evidence or calculation replay.",
+      "lineage": "Octupole theory and comparisons to previously reported nuclear data.",
+      "work_id": "catalogue:LIT-000658",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2010-robledo-octupole-ra-ba.pdf",
+        "sha256": "ae90e45da93dd20dcdd46aed4e6ca58aa077c5b50f03062892a417d2e96493c8",
+        "size": 388984,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/robledo-2010-bcp-d1s-octupole-ra-ba.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 40
+}

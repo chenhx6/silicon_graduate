@@ -1,0 +1,159 @@
+{
+  "checked_at": "2026-11-22T01:36:23.980426+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 803,
+      "pages": 20,
+      "task": "BA128-130-NNDC-ADOPTED-IDENTITY",
+      "version": "128Ba Adopted Levels, Gammas; Elekes and Timar, NDS 129, 191 (2015), cutoff 2015-02-28",
+      "role": "single-nuclide-ensdf-adopted-dataset-pdf",
+      "lineage": "Versioned evaluated subset derived from older measurements; overlapping downloads do not confer independent evidence.",
+      "scope": [
+        "PDF 1–4 levels and notes; PDF 4–12 adopted gamma table; PDF 13–18 level schemes; PDF 19–20 band diagrams.",
+        "PDF 1: the 1833.75(18) keV level is adopted 4+ with an explicit conflict with L=3 in (p,t). PDF 5: 1070.4(2) keV M1+E2 row from that level gives adopted delta=+0.65(10). The table identifies gamma-gamma angular correlation for D+Q."
+      ],
+      "source_note": "knowledge/sources/nndc-ba128-ba130-core-ba131-transfer.md",
+      "gap": "Coverage is for the local Adopted Levels, Gammas dataset, not the whole mass-chain publication or each underlying experiment.",
+      "work_id": "catalogue:LIT-000803",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261105-ba129-core-constraints/nndc128-adopted.pdf",
+        "sha256": "a2903df5ee68aee7e6e9dda1401b164c5fcff17db9272b9b7acc1eb9e7887d7c",
+        "size": 259262,
+        "hash_basis": "fresh-hash",
+        "source_role": "single-nuclide-ensdf-adopted-dataset-pdf"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/nndc-ba128-ba130-core-ba131-transfer.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 806,
+      "pages": 13,
+      "task": "BA128-130-NNDC-ADOPTED-IDENTITY",
+      "version": "130Ba Adopted Levels, Gammas; Balraj Singh, NDS 93, 33 (2001), cutoff 2001-05-11",
+      "role": "single-nuclide-ensdf-adopted-dataset-pdf",
+      "lineage": "Versioned evaluated subset derived from older measurements; overlapping downloads do not confer independent evidence.",
+      "scope": [
+        "PDF 1–3 levels and notes; PDF 3–6 adopted gamma table; PDF 7–12 level schemes; PDF 13 band diagrams.",
+        "PDF 1: the adopted 357.38 keV 2+ half-life 41.8(12) ps combines 43.2(5) ps from RDDS with 40.7(4) ps derived from Coulomb excitation. PDF 3: the 550.7(1) keV row retains delta(Q/D)=-0.296(7) or -40(13)."
+      ],
+      "source_note": "knowledge/sources/nndc-ba128-ba130-core-ba131-transfer.md",
+      "gap": "Coverage is for the local Adopted Levels, Gammas dataset, not the whole mass-chain publication or each underlying experiment.",
+      "work_id": "catalogue:LIT-000806",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261105-ba129-core-constraints/nndc130-adopted.pdf",
+        "sha256": "cb6237633a0d0ac76ef7f3c5d039b479369c96b5ccd4d4d8af6592e22a3ada96",
+        "size": 192688,
+        "hash_basis": "fresh-hash",
+        "source_role": "single-nuclide-ensdf-adopted-dataset-pdf"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/nndc-ba128-ba130-core-ba131-transfer.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 819,
+      "pages": 38,
+      "task": "BA132-134-NNDC-ADOPTED-IDENTITY",
+      "version": "132Ba Adopted Levels, Gammas; Khazov, Rodionov, Sakharov and Singh, NDS 104, 497 (2005), cutoff 2005-02-10",
+      "role": "single-nuclide-ensdf-adopted-dataset-pdf",
+      "lineage": "Versioned evaluated subset derived from older measurements; overlapping downloads do not confer independent evidence.",
+      "scope": [
+        "PDF 1–5 levels and notes; PDF 5–18 adopted gamma table; PDF 19–35 level schemes; PDF 36–38 band diagrams.",
+        "PDF 1: 464.508(12) keV 2+ has adopted T1/2=15.1(11) ps and B(E2) up=0.86(6); see lifetime provenance on the same row. PDF 1–2 preserve the separate 2046.23(4) keV (2+) and 2046.48(6) keV (4+) records."
+      ],
+      "source_note": "knowledge/sources/nndc-ba128-136-core-e2-calibration.md",
+      "gap": "Coverage is for the local Adopted Levels, Gammas dataset, not the whole mass-chain publication or each underlying experiment.",
+      "work_id": "catalogue:LIT-000819",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261106-ba-core-E2-calibration/nndc132-adopted.pdf",
+        "sha256": "77de8aca9b73836998f3693dfd103153d9eec797b20c568a6e8bd43a372c925b",
+        "size": 453800,
+        "hash_basis": "fresh-hash",
+        "source_role": "single-nuclide-ensdf-adopted-dataset-pdf"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/nndc-ba128-136-core-e2-calibration.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 825,
+      "pages": 17,
+      "task": "BA132-134-NNDC-ADOPTED-IDENTITY",
+      "version": "134Ba Adopted Levels, Gammas; A. A. Sonzogni, NDS 103, 1 (2004), cutoff 2004-07-31",
+      "role": "single-nuclide-ensdf-adopted-dataset-pdf",
+      "lineage": "Versioned evaluated subset derived from older measurements; overlapping downloads do not confer independent evidence.",
+      "scope": [
+        "PDF 1–4 levels and notes; PDF 5–10 adopted gamma table; PDF 11–16 level schemes; PDF 17 band diagrams.",
+        "PDF 1: the 1400.590(4) keV 4+ has an adopted 0.83(9) ps half-life derived from Coulomb-excitation B(E2), with 8.7(17) ps retained in the comment from 134Cs beta-minus decay. PDF 5: the 563.246(5) keV branch is M1+E2 with adopted delta=-7.4(9)."
+      ],
+      "source_note": "knowledge/sources/nndc-ba128-136-core-e2-calibration.md",
+      "gap": "Coverage is for the local Adopted Levels, Gammas dataset, not the whole mass-chain publication or each underlying experiment.",
+      "work_id": "catalogue:LIT-000825",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261106-ba-core-E2-calibration/nndc134-adopted.pdf",
+        "sha256": "2be9590c75a5be401ff6cefc44971683fe7a327f059156d9a12158278645a31f",
+        "size": 244938,
+        "hash_basis": "fresh-hash",
+        "source_role": "single-nuclide-ensdf-adopted-dataset-pdf"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/nndc-ba128-136-core-e2-calibration.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 875,
+      "pages": 6,
+      "task": "FRAUENDORF26-TPSM-ORIGINAL",
+      "version": "Frauendorf et al., Systematic study of E2 matrix elements in the framework of the Triaxial Projected Shell Model, arXiv:2609.10431v1 author manuscript",
+      "role": "arxiv-author-version",
+      "lineage": "Broad comparison reuses the TPSM study and literature measurements identified by Refs. 8–10.",
+      "scope": [
+        "PDF 1–2 model and energy comparison; PDF 3 E2 network; PDF 4–5 shape invariants and density interpretation; PDF 6 conclusions and references.",
+        "PDF 2 Fig. 2 and PDF 3 Figs. 3–6 credit Ref. 9. PDF 4 Figs. 7–8 separate the TPSM and QCBH predictions from the available 104Ru COULEX constraints. The probability interval is computed from a normal-distribution assumption in cos(3 delta)."
+      ],
+      "source_note": "knowledge/sources/quadrupole-invariant-spin-channel-precedents.md",
+      "gap": "No experimental refit or independent validation of each input; local record establishes v1 and does not establish journal publication.",
+      "work_id": "catalogue:LIT-000875",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261106-spin-invariant-precedents/focused-sidecar/frauendorf2026-systematic-tpsm-2609.10431v1.pdf",
+        "sha256": "6e1b9034a069db91c888369e616c5740bdf0352390df8be1f57c2724c72c853e",
+        "size": 1004796,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/quadrupole-invariant-spin-channel-precedents.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 5,
+  "credited_primary_pages": 94
+}

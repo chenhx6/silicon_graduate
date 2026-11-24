@@ -1,0 +1,78 @@
+{
+  "checked_at": "2026-11-21T23:57:08.983687+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 751,
+      "task": "WANG20-MULTIPLE-CHIRAL-REVIEW",
+      "pages": 9,
+      "version": "arXiv:2009.02864v1, 2020, nine-page review author version",
+      "role": "verified-arxiv-review-edition",
+      "scope": [
+        "PDF1–3 candidate table and classifications",
+        "PDF4–6 reported cases and alternative modes",
+        "PDF7–9 conclusions and references"
+      ],
+      "checks": [
+        "PDF2 Table 1 links original cases with configuration patterns and references.",
+        "PDF5–6 differentiates coupling, wobbling, octupole and pseudospin contexts. These examples retain the original source identities and model assumptions."
+      ],
+      "gap": "Candidate counts describe the literature scope and date of the review. A multiplet comparison does not substitute for the original measurements.",
+      "lineage": "Secondary review of prior measurements and model work.",
+      "work_id": "catalogue:LIT-000751",
+      "raw": {
+        "path": "raw/papers/2020_Recent progress in multiple chiral doublet bands .pdf",
+        "sha256": "6bb7a1dc88de75ccbb748e27342518fc2db0d77c34977337c37153d03269072c",
+        "size": 815676,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-review-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/wang-2020-recent-progress-multiple-chiral-doublets.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 753,
+      "task": "WANG23-CHIRAL-EXPERIMENTS-REVIEW",
+      "pages": 17,
+      "version": "Frontiers of Physics 18, 64601 (2023), full publisher version",
+      "role": "verified-publisher-review",
+      "scope": [
+        "PDF1–4 context, facilities and Table 1",
+        "PDF4–10 spectroscopic comparisons across mass regions",
+        "PDF10–14 lifetime evidence and coupled symmetry discussions",
+        "PDF14–17 perspective and references"
+      ],
+      "checks": [
+        "PDF2–3 Table 1 identifies prior measurements by reaction, facility, detector array and source citations.",
+        "PDF10–13 illustrates additional constraints from lifetime-derived absolute strengths. The review assembles source experiments rather than adding a new measurement."
+      ],
+      "gap": "The frame and model interpretation of candidate modes are secondary. A running census requires primary source and chronology checks.",
+      "lineage": "Historical review of multiple independent and related prior experiments; no additional acquisition.",
+      "work_id": "catalogue:LIT-000753",
+      "raw": {
+        "path": "raw/papers/2023_Wang et al_Experimental studies for nuclear chirality in China.pdf",
+        "sha256": "783bfccdf9be5977efadf99b1b76a95dd420fc19b6feeac8ec694a7f2a5e9d8c",
+        "size": 5672036,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-review"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 26
+}

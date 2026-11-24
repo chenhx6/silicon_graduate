@@ -3,7 +3,7 @@ type: source
 title: 'Zagrebaev et al. 2001 - Synthesis of superheavy nuclei: How accurately can we describe it and calculate the cross sections?'
 aliases: [Zagrebaev 2001 superheavy survival, superheavy multi-chance fission survival, ZAG01]
 created: 2026-10-30
-updated: '2026-11-08'
+updated: '2026-11-22'
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -61,6 +61,8 @@ P1：ZAG01-1/2的具体阈值、势垒和热阻尼数值仍需另行对应真实
 PRC 65, 014607 (2001), DOI `10.1103/PhysRevC.65.014607`.
 
 ## Scope and Reading Depth
+
+2026-11-22 核定馆藏 14 页的科学覆盖。PDF1–4 为阶段分解及俘获框架，PDF4–7 为复合核形成和退激，PDF7–13 为模型与数据比较及总结，尾页延续书目。阅读覆盖补足下述历史抽样。Eq. (1) 和后续图示的阶段概率属于计算框架，作为比较输入的实验点仍归所引原实验。旧未核数值继续保留撤回状态。
 
 2026-11-08本轮回读：G36及总控核14页底本的PDF1、6–7、9、11，补看Fig6的254No存活自旋选择与Fig10的多输入比较。新下载副本与本canonical原件SHA完全相同；重复source并回本页。更具体的分波、级联概率和产额推理见[[doctoral-r1-g36-superheavy-reaction-survival-20261108]]；仍未重跑作者反应程序。
 

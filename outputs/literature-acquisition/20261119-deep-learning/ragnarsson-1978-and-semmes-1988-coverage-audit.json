@@ -1,0 +1,68 @@
+{
+  "checked_at": "2026-11-21T20:45:09.898542+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "RAGNARSSON78-SHELL-REVIEW-AUDIT",
+      "version": "Physics Reports 45, 1–87 (1978)",
+      "pages": 87,
+      "scope": [
+        "Earlier complete section-by-section review record reused. PDF1–87 map to publisher pp.1–87.",
+        "Targeted manager recheck of printed pp.15 and 61 as well as title and terminal references."
+      ],
+      "checks": [
+        "Page 15 gives pairing-energy counteraction of fine and broad shell corrections. Unverified universal 50-percent damping avoided.",
+        "Page 61 gives rare-earth anti-shell interpretation for the chosen potential surfaces. This is a model explanation of equilibrium deformations."
+      ],
+      "gap": "No direct intrinsic shape measurement or reproduction of all cited potentials.",
+      "lineage": "Review with model results and cited experimental comparisons.",
+      "work_id": "catalogue:LIT-000645",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1978_Ragnarsson et al_Shell structure in nuclei.pdf",
+        "sha256": "c0c83854dec7ca897f640f637252646feb65bc03fde5f45ca77d6c0f206d1153",
+        "size": 7487966,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/ragnarsson-nilsson-sheline-1978-shell-structure.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "RAGNARSSON88-ROTOR-MOMENTS-AUDIT",
+      "version": "Hyperfine Interactions 43, 425–440 (1988), DOI 10.1007/BF02398323",
+      "pages": 18,
+      "scope": [
+        "PDF1 cover, PDF2 blank, PDF3–18 corresponding to journal pp.425–440. Earlier full-body record plus current source checks."
+      ],
+      "checks": [
+        "PDF4–6 confirm stretched versus physical coordinate roles, the off-diagonal Coriolis factor and good-core-R recoupling.",
+        "Existing source note distinguishes model Table 3 delta values and measured contributions; it maintains the 185Au model discrepancy from observed transitions. No model-only shape resolution added."
+      ],
+      "gap": "The benchmark spectra do not establish a unique shape or transferable Coriolis attenuation.",
+      "lineage": "Theory review and fitted examples, with experimental values from cited work.",
+      "work_id": "catalogue:LIT-000646",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation/ragnarsson-semmes-1988-particle-rotor-moments.pdf",
+        "sha256": "af5b8588ac78f40ecb7ac5eb8f2dd8070c3457296e8fdcd63e9ea0d828a2fa6d",
+        "size": 894599,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/ragnarsson-semmes-1988-particle-rotor-moments.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 105
+}

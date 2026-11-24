@@ -1,0 +1,34 @@
+{
+  "work_id": "catalogue:LIT-000601",
+  "task_id": "CE130-NOLAN83-COVERAGE",
+  "checked_at": "2026-11-21T19:18:00.910055+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "raw": {
+    "path": "raw/papers/1983_Nolan_Ce130_HighSpinMomentInertia.pdf",
+    "sha256": "9085414a3cf1daafdeb3e7b685ea9bc6fdbfa44ee91f2e484c5eda353af6f927",
+    "size": 307863,
+    "hash_basis": "fresh-hash",
+    "source_role": "verified-publisher-article"
+  },
+  "doi": "10.1016/0370-2693(83)90261-7",
+  "coverage": [
+    "PDF1–2 (printed 285–286): experiment, yrast and isomer bands, gated spectra.",
+    "PDF3–4 (printed 287–288): valley relation, cuts, contamination, discrete versus continuum estimator, model alternatives.",
+    "PDF5 (printed 289): references and acknowledgment."
+  ],
+  "source_notes": [
+    {
+      "source_note": "knowledge/sources/nolan-1983-ce130-high-spin-moment-inertia.md",
+      "declared_reading_depth": "deep-read",
+      "coverage_needs_confirmation": false
+    }
+  ],
+  "manager_checks": [
+    "Printed pp.287–288: valley-width and discrete dynamic inertia estimators, Fig. 3 filling windows, Fig. 2 ridge caveat.",
+    "No assumption of fixed inertia for converting unresolved gamma energy to spin. No use of tentative transitions to construct unique discrete inertia.",
+    "No duplicate page credit for evidence from previously described references."
+  ],
+  "remaining": "Unresolved highest discrete sequence, no independent kinematic inertia above spin 30, no reconstructed matrix or response.",
+  "credited_primary_pages": 5
+}

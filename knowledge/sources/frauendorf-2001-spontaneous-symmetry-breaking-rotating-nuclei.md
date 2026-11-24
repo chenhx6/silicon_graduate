@@ -181,3 +181,8 @@ All F01 claims were reviewed by the user on 2026-07-13; `needs_review` is cleare
 | F01-D26-004 | 固定等长叶片、全部角动量来自shears的Eqs61–64是条件模型，不能推广为跨组态全段强度比必下降；AMR理想横向相消不等于所有M1与总静态μ为零。 | model-domain | direct-review-and-selection-boundary | printed488–490 SecIV | true |
 
 `revises` [[antimagnetic-rotation]] 的Day25数列认证；保留模型与实验的分层。已由Crossref核对Piiparinen1993 DOI10.1016/0375-9474(93)90052-Y与Juutinen1994 DOI10.1016/0375-9474(94)90173-2，正文获取受网络限制，尚未认证逐点输入。综合见 [[octupole-mr-amr-evidence-gradient]]。
+
+
+## 2026-11-22 — 馆藏版本与证据复核
+
+馆藏刊本 PDF 1–52 对应印刷 463–514。PDF 4（印 466）的运动学与动力学惯量分别使用角动量比值与对频率的导数。PDF 22–23（印 484–485）的手征取向由推转平均场给出，实验室双带仍涉及量子混合、隧穿及恢复对称性。PDF 25–26 将剪刀合拢与横向磁矩相消的情形分开。综述的图例继续沿各自原实验追溯。

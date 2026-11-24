@@ -4,7 +4,7 @@ title: "Vianden1987：金属EFG编译表与Ce/Sn校准谱系"
 title_original: "Electric field gradients in metals"
 aliases: [Vianden1987 EFG compilation, CeSn quadrupole calibration]
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: review-compilation
@@ -21,6 +21,7 @@ canonical_source: "https://doi.org/10.1007/BF02394554"
 source_url: "http://link.springer.com/content/pdf/10.1007/BF02394554.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/vianden-1987-efg-metals.pdf"
 raw_sha256: "ec9cfaa6f2f47b9ecacde62f226b575c5002915b620dd971b1eac5a63f3f1508"
+archive_required: true
 raw_storage_status: reserved-unpopulated-public-publisher-pdf-only
 raw_archive_verified_at: 2026-10-23
 analysis_status: selected-public-staging-read-raw-archive-verified
@@ -41,6 +42,8 @@ R. Vianden，*Hyperfine Interactions* 35 (1987)，DOI10.1007/BF02394554。实际
 通过nature-downloader公开publisher路线获得PDF并核验题名页、内容、页数及SHA256。脚本标为open_access_downloaded，返回的license字段为Springer TDM URL；此处只确认公开端点可访问，未据此认定开放再分发许可。SI按本轮auto配置关闭，不宣称不存在。原件暂存在tmp，raw_file只是尚未填入的归档槽；未写raw、PLAN或Bib。下载manifest与实际scope见Day20 run02的calibration-access-discovery-105.json、calibration-download-identity-105.json与source-reading-scope-105.json。
 
 ## Scope and Reading Depth
+
+核定 PDF 1–2 附录封面及留白、PDF 3–4 定义与汇编说明、PDF 5–30 表册、PDF 31–42 书目。印刷 pp.1079–1118 对应 PDF 3–42。PDF5 的 Be 行把测量方法、温度、宿主和参考文献分别记录。跨行比较前须同时核探针核态、采用的四极矩与宿主条件。
 
 定向读取PDF3/4（printed1079/1080，定义、列语义和编译范围）、PDF17的Ce条目（printed1093），以及PDF40的Ref371（printed1116）；这些关键页作视觉核。另观察PDF1的APPENDIX分隔页，未读完整42页所有核素行或全部references。Ce条目按原表视觉转录，不以OCR的13~Ce等形式猜核素。
 

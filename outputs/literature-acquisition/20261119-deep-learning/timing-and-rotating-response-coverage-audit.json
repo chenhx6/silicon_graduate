@@ -1,0 +1,125 @@
+{
+  "checked_at": "2026-11-22T02:08:13.706086+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "work_id": "bytes:42b994436fed08d86ddcc7dd7773dec34c0058ca505d9e0f65f92c5ec7b4e9f2",
+      "pages": 10,
+      "task": "LIVETIME-ARRIVALS-AND-TIMING-ORIGINALS",
+      "version": "Ronald W. Wolff, Operations Research 30 (1982) 223–231, DOI 10.1287/opre.30.2.223, JSTOR publisher scan",
+      "role": "archived-journal-scan",
+      "source_note": "knowledge/sources/wolff-1982-poisson-arrivals-see-time-averages.md",
+      "scope": [
+        "PDF 1 JSTOR wrapper; 2–4 examples and lack-of-anticipation assumption; 5–7 martingale convergence proof; 7–10 nonstationary extension, converse and references.",
+        "PDF 4 printed 225 states the lack-of-anticipation assumption and conditional long-run equality. PDF 5 printed 226 relates expected counts to integrated time and starts the proof. Section 3 uses rate-weighted time for nonstationary arrivals."
+      ],
+      "gap": "The event stream and pre-arrival state must meet the theorem assumptions. Event selections or independent loss factors do not follow from the equality.",
+      "lineage": "Source-specific method, model, or experiment; any imported calibration and comparison are tracked with their original conditions.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261113-A130-live-time/wolff-1982-poisson-arrivals-see-time-averages.pdf",
+        "sha256": "42b994436fed08d86ddcc7dd7773dec34c0058ca505d9e0f65f92c5ec7b4e9f2",
+        "size": 251098,
+        "hash_basis": "fresh-hash",
+        "source_role": "archived-journal-scan"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/wolff-1982-poisson-arrivals-see-time-averages.md",
+          "declared_reading_depth": "skimmed",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "bytes:466c421c59f5c964b14de545f315c74c1d614a60b78192eb72efe427f75740cc",
+      "pages": 6,
+      "task": "LIVETIME-ARRIVALS-AND-TIMING-ORIGINALS",
+      "version": "Lipschutz et al., arXiv:1601.04579v2 (2016-01-19), NIM A 815 1–6, DOI 10.1016/j.nima.2016.01.050",
+      "role": "arxiv-author-version",
+      "source_note": "knowledge/sources/doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing.md",
+      "scope": [
+        "PDF 1–2 LENDA and digital acquisition; 2–4 filter, interpolation and split-pulse/detector tests; 4–6 light output, neutron response and synchronization.",
+        "PDF 2–3 Eqs. (2)–(4) records filter and interpolation; PDF 3–4 Eq. (5) and Fig. 4 separate the two-bar timing difference from the high-light single-bar timing near 400 ps under the assumed resolution scaling."
+      ],
+      "gap": "Energy thresholds and timing depend on the tested detector, light output and geometry. This is one detector calibration and not a general timing law.",
+      "lineage": "Source-specific method, model, or experiment; any imported calibration and comparison are tracked with their original conditions.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261108-foundations-G32/lipschutz-2016-lenda-ddas-timing.pdf",
+        "sha256": "466c421c59f5c964b14de545f315c74c1d614a60b78192eb72efe427f75740cc",
+        "size": 1647286,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/doctoral-r1-g32-lipschutz-2016-pixie16-ddas-timing.md",
+          "declared_reading_depth": "read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "bytes:6566edd91dc5765a21241ac553f599faf0037d1cadf4113edbe1d969645e97c7",
+      "pages": 14,
+      "task": "PRECESSION-ATDHFB-RESPONSE-ORIGINALS",
+      "version": "Shimizu, Matsuzaki and Matsuyanagi, arXiv:nucl-th/0412074v2, PRC 72 014306 (2005)",
+      "role": "arxiv-author-version",
+      "source_note": "knowledge/sources/shimizu-2005-high-k-precession.md",
+      "scope": [
+        "PDF 1–3 introduction and rotation limits; 3–7 microscopic formalism; 7–12 W178 configurations, transitions and effective inertias; 13–14 conclusions and references.",
+        "PDF 3 Eqs. (8)–(11) distinguish fixed-spin rotating-frame frequency from lab-frame transition. PDF 8 Table I specifies assigned W178 configurations; PDF 9 Figs. 4–5 separate RPA results and prior measurements or quantities mapped from them."
+      ],
+      "gap": "The high-K response and axis have specified configuration, pairing and frame. The spectral estimate is not a freely interchangeable ground-band moment.",
+      "lineage": "Source-specific method, model, or experiment; any imported calibration and comparison are tracked with their original conditions.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261113-A130-precession-limits/shimizu-matsuzaki-matsuyanagi-2005-nucl-th-0412074v2.pdf",
+        "sha256": "6566edd91dc5765a21241ac553f599faf0037d1cadf4113edbe1d969645e97c7",
+        "size": 478034,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/shimizu-2005-high-k-precession.md",
+          "declared_reading_depth": "skimmed",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "bytes:7bf720ee69339743c0f9737f04147584206d0e10f7c7842a1657634fc1c8dc70",
+      "pages": 7,
+      "task": "PRECESSION-ATDHFB-RESPONSE-ORIGINALS",
+      "version": "Sun et al., arXiv:2502.07433v3, PLB 868 139685 (2025), DOI 10.1016/j.physletb.2025.139685",
+      "role": "arxiv-author-version",
+      "source_note": "knowledge/sources/sun-2025-iterative-atdhfb-rare-earth-inertia.md",
+      "scope": [
+        "PDF 1–3 adiabatic theory and iteration; 3–6 calculation setup, systematics and functional comparisons; PDF 7 references.",
+        "PDF 4 cites for 166Er the printed SkM* IB and ATDHFB values 27.584 and 34.950 hbar^2/MeV. PDF 5 Fig. 3 compares inertia ratios across isotope chains."
+      ],
+      "gap": "Same-nucleus deformation comparability does not supply a constant enhancement. Experimental reference values follow an E(2+) mapping.",
+      "lineage": "Source-specific method, model, or experiment; any imported calibration and comparison are tracked with their original conditions.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261108-r2-g43-new-collective-response/sun2025-atdhfb-moi-v3.pdf",
+        "sha256": "7bf720ee69339743c0f9737f04147584206d0e10f7c7842a1657634fc1c8dc70",
+        "size": 1552870,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/sun-2025-iterative-atdhfb-rare-earth-inertia.md",
+          "declared_reading_depth": "skimmed",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 4,
+  "credited_primary_pages": 37
+}

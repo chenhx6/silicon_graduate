@@ -138,3 +138,8 @@ P0：source身份/public/raw未归档与no-final-result状态隔离。P1：CO19-
 2026-10-14directRef8续读 [[ziliani-2019-agata-calibration-controls]] ZL19-1/2/4/8/9：同July2017data，提供GGPtimealign、energyanchors及1938.2/1981.93short/longcontrol的preciselocator；不新增independentdataset，不补本文的finalτ或outputβ-stagecode。
 
 PDF1–10/journal615–624全主线；关键4/8/9/10视觉核验。Originalcode/stopping/Σ及后续fit仍未取得。
+
+
+## 2026-11-22 — 本地原件与证据范围复核
+
+PDF 6 展示校正质心随角度的变化。PDF 9 的约 300 fs 以下是初步判断，未给置信水平或最终拟合区间。同一采集的后续报告另有寿命中心值。

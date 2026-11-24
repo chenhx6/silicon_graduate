@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-11-22T01:07:43.211598+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 778,
+      "task": "ZHANG13-CD-PNC-AMR-ORIGINAL",
+      "pages": 14,
+      "version": "arXiv:1303.3346v2 archived author version",
+      "role": "verified-arxiv-author-version",
+      "scope": [
+        "PDF1–6 model and single-particle structure",
+        "PDF7–10 inertia, strengths and model geometry",
+        "PDF11–14 bibliography and end matter"
+      ],
+      "checks": [
+        "PDF7 Fig. 2 compares J(1) with and without pairing using cited data.",
+        "PDF8–9 Fig. 3 identifies the original Cd strength references and the additional reduced-deformation calculation for 106Cd."
+      ],
+      "gap": "The rotation and deformation interpretations depend on the model and configuration choice. No new lifetimes reported.",
+      "lineage": "Original calculations with externally cited experimental comparison data.",
+      "work_id": "catalogue:LIT-000778",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/zhang-2013-105106cd-pnc-superfluidity-arxiv1303.3346v2.pdf",
+        "sha256": "8de4f9800f7b0cd52e6ea597f3d1eb58e0e3be3852054ef570bbc5fda9928c9b",
+        "size": 232718,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/zhang-2013-105106cd-pnc-superfluidity.md",
+          "declared_reading_depth": "read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 779,
+      "task": "ZHANG19-PD104-PNC-AMR-ORIGINAL",
+      "pages": 8,
+      "version": "arXiv:1912.11990v1 archived author version",
+      "role": "verified-arxiv-author-version",
+      "scope": [
+        "PDF1–3 method and inertia benchmark",
+        "PDF4–6 E2 and band interpretation",
+        "PDF7–8 conclusions and references"
+      ],
+      "checks": [
+        "PDF3 Fig. 2 uses published J(1) data and model comparisons.",
+        "PDF4 Fig. 3 compares fixed and varying deformation inputs with the cited E2 strengths and their resulting ratios."
+      ],
+      "gap": "The additional shape prescription changes fit behavior but does not separately measure the shape or establish a unique microscopic explanation.",
+      "lineage": "Cited 104Pd data and original model calculations; not an additional experiment.",
+      "work_id": "catalogue:LIT-000779",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/zhang-2019-104pd-pnc-amr-arxiv1912.11990v1.pdf",
+        "sha256": "d0938039dd5c75f223bac9eca1d75e3c3d55f406504c41dc9f816a11d439de91",
+        "size": 370918,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/zhang-2019-104pd-pnc-antimagnetic-rotation.md",
+          "declared_reading_depth": "read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 22
+}

@@ -4,11 +4,11 @@ title: "Régis2015：GCD阵列合并、prompt校准与Compton时间响应"
 title_original: "The Generalized Centroid Difference method for lifetime measurements via γ-γ coincidences using large fast-timing arrays"
 aliases: [Régis2015 GCD, EXILL FATIMA generalized centroid difference]
 created: 2026-10-22
-updated: 2026-10-22
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: conference-method-experiment
-reading_depth: read
+reading_depth: deep-read
 authors: ["J.-M. Régis", "J. Jolie", "H. Mach", "G. S. Simpson"]
 authors_extent: first-four-listed-full-author-list-on-PDF1
 year: 2015
@@ -42,7 +42,7 @@ tags: [timing, calibration, response, detector-pair, source-lineage]
 
 J.-M. Régis等，EPJ Web of Conferences 93, 01013 (2015)，DOI 10.1051/epjconf/20159301013。出版商公开PDF的题名、DOI、年份与CC-BY-4.0声明实际视觉核于PDF1；535805字节，SHA256见frontmatter。
 
-当前只读分析使用public staging文件；raw_file是**尚未填入的归档槽**，不表示该路径有原件。未写raw或Bib，正式raw归档仍deferred。公开URL/下载身份/哈希与实际阅读范围保存在Day19 run的gcd2015-download-identity-112.json和source-reading-scope-112.json。SI未验证，不宣称已读或不存在。仅因raw槽缺失而保留archive readiness，不将缓存冒称已归档原件。
+早期只读分析使用 public staging 文件。目前 `raw_file` 所列原件存在，SHA-256 与页数已在本轮复核。公开URL/下载身份/哈希与实际阅读范围保存在Day19 run的gcd2015-download-identity-112.json和source-reading-scope-112.json。SI未验证，不宣称已读或不存在。仅因raw槽缺失而保留archive readiness，不将缓存冒称已归档原件。
 
 ## Scope and Reading Depth
 
@@ -64,7 +64,7 @@ J.-M. Régis等，EPJ Web of Conferences 93, 01013 (2015)，DOI 10.1051/epjconf/
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| RG15-1 | 实际文件含5页有字正文/refs及空白第6页，出版商开放版本CC-BY-4.0；raw归档槽未填，已核publiccache字节身份和DOI，不是原event数据。 | identity-and-scope | direct-public-original | PDF1 header/license; PDF1–6; download-identity112 | true |
+| RG15-1 | 实际文件含5页有字正文/refs及空白第6页，出版商开放版本CC-BY-4.0；已核 `raw_file` 字节身份及 DOI。原事件数据另有来源范围。 | identity-and-scope | direct-public-original | PDF1 header/license; PDF1–6; download-identity112 | true |
 | RG15-2 | Eq1给PRF与指数衰变卷积，Eq4/5按decay作stop/start给±tau的centroid移位，Eq6为DeltaC=PRD+2tau。该一阶矩关系在适用条件下不要求Gaussian PRF；完整支持、正确role和无本底等前提不能由窄FWHM替代。 | response-and-role-definition | direct-original-and-stated-boundary | PDF2 Eqs1–6/Fig1 | true |
 | RG15-3 | Eq2明确Gaussianprompt的统计尺度sigma/sqrt(n)，Eq3又字面写sqrt(<t²>−<t>²)；width与samplemeanSE不能混用。PDF3对prompt-case/hypothetical feeder-decay inversion作说明后列Eq7/8镜像关系和Eq9零点；本稿未独自消解2011完整nonzero-tau reference-family的字面疑点，不宣布勘误。 | literal-definition-boundary | direct-original | PDF2 Eqs2–3; PDF3 Eqs7–9 | true |
 | RG15-4 | 2013 EXILL&FATIMA用16个LaBr3和8个HPGe；120个unique detector pairs中16相邻及8其他pair因cross-talk排除，剩96。Ge gate选择triple级联是实际companion，不能只按120pair数给独立性或统计增益；原event/pair Cov未提供。 | selection-and-independence | direct-original-and-boundary | PDF3 Sec3/Fig2 | true |

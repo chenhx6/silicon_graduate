@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-11-22T01:56:50.064617+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 850,
+      "pages": 124,
+      "task": "MOELLER05-DY-OS-THESIS-FULL-COVERAGE",
+      "source_note": "knowledge/sources/moeller-2005-156dy-178os-rdds-thesis.md",
+      "version": "Oliver Möller, Test der X(5)-Symmetrie in 156Dy und 178Os durch Messung elektromagnetischer Übergangswahrscheinlichkeiten, Universität zu Köln 2005, oral defense 2006-02-15, KUPS 1882",
+      "role": "complete-doctoral-thesis-pdf",
+      "lineage": "Two independent target experiments in the thesis. The Stuch citations and 178Ir decay comparison refer to earlier sources.",
+      "scope": [
+        "PDF 1–10 front matter; 11–18 RDDS and DDCM; 19–26 GASP and Cologne plunger; 27–42 data treatment; 43–56 lifetimes and strengths; 57–84 model context and comparison; 85–124 bibliography, appendix tables, schemes and decay curves, end matter.",
+        "Visually checked title, PDF 22 Table 3.2, PDF 48 Table 5.1, PDF 54 Fig. 5.3 and Table 5.5, PDF 76 Sec. 7.2.2, and PDF 94 Table A.1. The document uses mean lifetime tau.",
+        "156Dy mean lifetime 1060(150) ps, and 178Os 990(70) ps for the respective first 2+ states. Complete directions and derived B(E2) uncertainties in source note."
+      ],
+      "gap": "178Os S2 low-spin lifetimes were not obtained by the present in-beam acquisition. Stuch thesis is a citation, not reproduced in this archive object.",
+      "work_id": "catalogue:LIT-000850",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261106-ba129-lifetime-primary-check/cologne-stuch-thesis-citation-promo.pdf",
+        "sha256": "207020e2a7cdb762eafc207002d6049e09402f1f2ebdd804757878c2fce5b758",
+        "size": 4264895,
+        "hash_basis": "fresh-hash",
+        "source_role": "complete-doctoral-thesis-pdf"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/moeller-2005-156dy-178os-rdds-thesis.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 1,
+  "credited_primary_pages": 124
+}

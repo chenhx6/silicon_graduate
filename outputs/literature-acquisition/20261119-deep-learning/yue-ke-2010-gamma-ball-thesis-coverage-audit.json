@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-11-22T00:51:42.974760+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 774,
+      "task": "YUE10-CSR-THESIS-FULL-COVERAGE",
+      "pages": 123,
+      "version": "Ke Yue 2010 doctoral dissertation, Graduate University of Chinese Academy of Sciences",
+      "role": "verified-doctoral-thesis",
+      "scope": [
+        "PDF1–28 front matter, introduction and external-target apparatus",
+        "PDF29–48 geometry design",
+        "PDF49–84 response simulations",
+        "PDF85–106 detector element tests",
+        "PDF107–123 engineering status, conclusion and end matter"
+      ],
+      "checks": [
+        "PDF36 design requirements and PDF46 geometry parameters belong to engineering scope.",
+        "PDF67–68 simulated gamma response compares single-element deposits and Add-back recovery with a finite neighboring region.",
+        "PDF104–105 Fig. 5.27 compares different irradiation positions. A particular crystal's best point is 8.12% and the combined spectrum is 11.74% under stated test conditions."
+      ],
+      "gap": "Design and laboratory performance are conditioned by geometry, source, photosensor and packaging. Simulated response does not give an independent in-beam benchmark.",
+      "lineage": "Primary detector-design thesis with simulation and distinct element-level tests.",
+      "work_id": "catalogue:LIT-000774",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/岳珂 - HIRFL-CSR 外靶实验装置中CsI(Tl)闪烁体.pdf",
+        "sha256": "5d880a011d8a3755531718bb731289e3b8f21a2ee277c0fb5e8b81aaa9771ca3",
+        "size": 7005292,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-doctoral-thesis"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/yue-ke-2010-hirfl-csr-gamma-ball-csi-thesis.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 1,
+  "credited_primary_pages": 123
+}

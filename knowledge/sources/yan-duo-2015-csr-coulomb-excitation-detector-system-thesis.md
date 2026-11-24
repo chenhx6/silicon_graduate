@@ -3,7 +3,7 @@ type: source
 title: "闫铎 2015 博士论文：CSR 外靶中高能库仑激发探测器系统"
 aliases: [闫铎CSR库仑激发论文, Yan Duo CSR Coulomb-excitation detector thesis, CsI telescope thesis]
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: thesis-method
@@ -23,6 +23,7 @@ citation_key: "yan_2015_csr"
 library_file: "raw/theses/degree-dissertation/闫铎 - 在CSR 外靶终端开展中高能库仑激发反应.pdf"
 raw_file: "raw/theses/degree-dissertation/闫铎 - 在CSR 外靶终端开展中高能库仑激发反应.pdf"
 raw_sha256: "9a7ba567b498edfa68b89a545698bf1c32f89a5c58d9cb3682448e0257f2a20e"
+archive_required: true
 nuclei: []
 reactions: []
 experiments: []
@@ -39,6 +40,8 @@ tags: [degree-dissertation, detector-method, hirfl-csr, coulomb-excitation, gamm
 闫铎，*在 CSR 外靶终端开展中高能库仑激发反应实验相关探测器系统的研究*，中国科学院大学/中国科学院近代物理研究所博士学位论文，2015，PDF 120 页。原始文件 SHA-256 为 `9a7ba567b498edfa68b89a545698bf1c32f89a5c58d9cb3682448e0257f2a20e`。本论文与 [[yue-ke-2010-hirfl-csr-gamma-ball-csi-thesis]] 共享 CSR 外靶 Gamma Ball 装置谱系。
 
 ## Scope and Reading Depth
+
+本轮核定全部 120 个物理页。PDF1–14 为前置和引言，PDF15–61 为外靶条件、总体方案和伽马球，PDF62–102 为粒子鉴别系统，PDF103–120 为总结、书目和成果。正文印刷页为物理 PDF 页减 12。PDF47–48 分列 4608 块晶体的总体设计与一期实际安装的 768 块。PDF59–61 记录实测与模拟全能峰效率及尚未查明的差异。PDF89–91 的在束测试显示束斑切选改善能损分辨，同位素重叠仍未消除。
 
 - Completed `reading_depth`: `deep-read`。
 - Covered scope: 中英文题名页、摘要和目录（PDF pp.1–8）；CSR 外靶、中高能库仑激发物理目标和探测需求（pp.9–34）；靶前/靶后粒子鉴别系统和 Gamma Ball 结构（pp.21–49）；Gamma Ball 能量刻度、`60Co` 级联符合效率测量和 GEANT4 模拟（pp.35–49，视觉核对 pp.44–48）；七层 CsI(Tl) 望远镜设计、Range–E/ΔE–E 模拟、束流测试和能量刻度（pp.50–90）；总结（pp.91–100）。

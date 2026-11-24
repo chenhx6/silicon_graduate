@@ -1,0 +1,125 @@
+{
+  "checked_at": "2026-11-22T02:14:14.008204+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "work_id": "bytes:37f2d5ee16f799feb66617787d45d25c4f3e0cb4f0f996689a0576811c5a05e3",
+      "pages": 6,
+      "task": "SIGMA-UNCERTAINTY-HISTORICAL-SPECTROSCOPY",
+      "version": "P. Singh et al., arXiv:1902.02637v1, PRL 121 192501 (2018), DOI 10.1103/PhysRevLett.121.192501",
+      "role": "arxiv-author-version",
+      "source_note": "knowledge/sources/doctoral-r1-g28-singh-2018-98zr-lifetimes.md",
+      "scope": [
+        "PDF 1–2 motivation and coincidence setup; 3–4 lifetime fits, Table I, and structure interpretation; 5–6 model conclusions and references.",
+        "PDF 3 Table I gives tau(2_1+)=3.8(8) ps and B(E2;2_1+->0_1+)=2.9(0.6)^a(0.2)^b W.u.; a denotes lifetime and b imported branching uncertainty."
+      ],
+      "gap": "Different transitions from the same mother share the fitted lifetime; source reports VAMOS++ and EXOGAM.",
+      "lineage": "Experimental and theory outputs traced separately; shared inputs retained per source.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261108-foundations-G28/singh-2018-98zr-coexisting-shapes.pdf",
+        "sha256": "37f2d5ee16f799feb66617787d45d25c4f3e0cb4f0f996689a0576811c5a05e3",
+        "size": 208611,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/doctoral-r1-g28-singh-2018-98zr-lifetimes.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "bytes:a9f26f8ae3e621e0f8c65688ec54f018044777306165c554d71ffb9a59ef4924",
+      "pages": 11,
+      "task": "THERMAL-LU-NEEC-EVIDENCE-ORIGINALS",
+      "version": "Ziwen Li et al., arXiv:2605.05783v1 (2026-05-07), PRC 113 044329, DOI 10.1103/slrl-9yfr",
+      "role": "arxiv-author-version",
+      "source_note": "knowledge/sources/li-2026-isomer-depletion-neies.md",
+      "scope": [
+        "PDF 1–3 context and theory; 4–6 synthetic parameter cases; 7–9 nuclide-level inputs and computed examples; 9–11 conclusion and references. Dimensions were obtained from PDF page tree, not form-feed separators in embedded figure text.",
+        "PDF 4 uses 1 W.u. for the synthetic multipolarity examples. PDF 7–8 Fig. 4 uses NNDC levels and a literature strength input for the 93Mo E2 example."
+      ],
+      "gap": "The calculation uses prior level data. No new depletion or gamma-line measurement was performed by these authors.",
+      "lineage": "Experimental and theory outputs traced separately; shared inputs retained per source.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261108-r3-g55-neec-evidence/li-2026-isomer-depletion-inelastic-electron-scattering-93mmo.pdf",
+        "sha256": "a9f26f8ae3e621e0f8c65688ec54f018044777306165c554d71ffb9a59ef4924",
+        "size": 496648,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/li-2026-isomer-depletion-neies.md",
+          "declared_reading_depth": "skimmed",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "bytes:abb6c1656b00e5db22c1c4ea19f54dbdc3b9557d7a8665945a7c0400492770d8",
+      "pages": 9,
+      "task": "THERMAL-LU-NEEC-EVIDENCE-ORIGINALS",
+      "version": "Gintautas et al., arXiv:0804.0223v1, PRC 80 015806 (2009)",
+      "role": "arxiv-author-version",
+      "source_note": "knowledge/sources/doctoral-r1-g33-gintautas-2009-176lu-thermal-equilibration.md",
+      "scope": [
+        "PDF 1–3 prior level inputs and proposed K mixing; 4–6 transition and thermal-rate model; 7–9 evolutionary calculations, conclusions and references.",
+        "PDF 4 Table I and its paragraph use the observed 517-eV separation for a conditional mixing scan. Fig. 3 at T9=0.25 and 9.40e-3 percent mixing illustrates different intra- and inter-group transient times."
+      ],
+      "gap": "The adopted level scheme informs the calculation; the K-mixing strength and thermalization times are model parameters/results.",
+      "lineage": "Experimental and theory outputs traced separately; shared inputs retained per source.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261108-foundations-G33/gintautas-2009-176lu-thermal-equilibration.pdf",
+        "sha256": "abb6c1656b00e5db22c1c4ea19f54dbdc3b9557d7a8665945a7c0400492770d8",
+        "size": 543190,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/doctoral-r1-g33-gintautas-2009-176lu-thermal-equilibration.md",
+          "declared_reading_depth": "read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "catalogue:LIT-000497",
+      "pages": 10,
+      "task": "SIGMA-UNCERTAINTY-HISTORICAL-SPECTROSCOPY",
+      "version": "T. Klemme et al., PRC 60 034301 (1999), DOI 10.1103/PhysRevC.60.034301, publisher PDF",
+      "role": "publisher-version",
+      "source_note": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+      "scope": [
+        "PDF 1–3 experiment and DDCM; 3–5 principal tables for Nd and neighboring channels; 6–9 collective-model comparisons; 9–10 conclusions and references.",
+        "PDF 3 Table I gives 94.4(30) ps with [10/20/19] components for 134Nd 2_1+. PDF 4 Table II gives 4_1+ lifetime 4.94(10) ps, Q_t=4.40(5) eb for 495-keV decay."
+      ],
+      "gap": "Retain residual contamination and small-correction terms after coincidence gating. B(E2) and Q_t share lifetime and branching data.",
+      "lineage": "Experimental and theory outputs traced separately; shared inputs retained per source.",
+      "raw": {
+        "path": "raw/papers/1999_Klemme et al_Lifetimes measurements for 134 Nd and neighboring nuclei with the.pdf",
+        "sha256": "2a6dfcdac12de9dbf61b2a63c274aed8e286249a3dd28d1a2c6c5a46f1c00604",
+        "size": 158735,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 4,
+  "credited_primary_pages": 36
+}

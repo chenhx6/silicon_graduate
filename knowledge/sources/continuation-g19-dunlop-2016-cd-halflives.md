@@ -93,3 +93,8 @@ R. Dunlop et al., Physical Review C 93, 062801(R) (2016)，DOI: 10.1103/PhysRevC
 |---|---|---|---|---|---|
 | DU16-1 | 129Cd两母态半衰期147(3)、157(8)ms | experimental-fact | direct | arXiv1711.05621v1 PDF4 TableI | false |
 | DU16-2 | q=.66→.75讨论LSSM对130Cd较短寿命的标定 | model-calibration | direct | 同版本PDF5讨论；不归给DF3/RHB | false |
+
+
+## 2026-11-22 — 馆藏版本与证据复核
+
+PDF 4 Fig. 4、Table I 的 147(3) 和 157(8) ms 分别对应 129Cd 的 \(11/2^-\) 和 \(3/2^+\) 母态。拟合采用不同 γ 门，且保留 995 keV 共用馈入等门选择限制。PDF 5 的 130Cd 126(4) ms 是新测值。[[continuation-g19-saito-2020-129cd-spectroscopy]] 复用 129Cd 采集，两个发表目的和测量依赖分开登记。

@@ -3,7 +3,7 @@ type: source
 title: "Nomura et al. 2018 - Octupole correlations in neutron-rich odd-mass barium isotopes"
 aliases: [Nomura 2018 odd-mass Ba octupole, 143Ba 145Ba 147Ba octupole model]
 created: 2026-10-03
-updated: 2026-10-03
+updated: 2026-11-22
 status: active
 review_status: unreviewed
 source_type: journal-article-theory

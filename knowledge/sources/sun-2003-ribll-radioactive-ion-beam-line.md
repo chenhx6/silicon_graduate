@@ -4,7 +4,7 @@ title: "Sun et al. 2003: RIBLL radioactive ion beam line"
 aliases: [RIBLL, radioactive ion beam line in Lanzhou, RIBLL1]
 created: 2026-11-01
 archive_required: true
-updated: 2026-11-01
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: accelerator-detector-method-paper
@@ -38,9 +38,11 @@ tags: [accelerator-method, ribll, radioactive-beam, fragment-separator, tof, bea
 Z. Sun et al., *RIBLL, the radioactive ion beam line in Lanzhou*, *Nuclear Instruments
 and Methods in Physics Research A* **503** (2003) 496–503, DOI
 `10.1016/S0168-9002(03)01005-2`。本地 PDF 为 8 页，SHA-256 为
-`3d5e793dfa6c02b59365f0596ca45ed23ea808d58347752653ec477ec2536d8`。
+`3d5e793dfa6c02b59365f0596ca45ed23ea8080d58347752653ec477ec2536d8`。
 
 ## Scope and Reading Depth
+
+本轮核定 PDF 1–2（印刷 pp.496–497）的光学布局，PDF 3–4 的磁体及设计矩阵，PDF 5–6 的初期束流鉴别与验收，PDF 7–8 的束种示例及尾部内容。PDF5 Fig. 4 的 \(A/\Delta A>300\) 来自 \(^{16}\)O 的 TOF 投影。Fig. 5 中的 47% 是该次降能器设置下的 \(^{17}\)F 事件占比。两项数据分别依赖束种、束流条件与鉴别设置。
 
 本轮读取 PDF 全部正文、Table 1–3、图注和结论，覆盖 magnetic optics、Br–ΔE–Br
 分离、F2/F4 operation modes、TOF/ΔE–E identification、beam profile 和调束结果。
@@ -54,9 +56,9 @@ and Methods in Physics Research A* **503** (2003) 496–503, DOI
 | RBL03-2 | Table 1 给出水平/垂直角接受各 50 mrad、动量接受 `Δp/p=10%`、最大 rigidity 4.2 Tm、rigidity resolution `≤6×10^-4`、`A/ΔA>300` 目标和最小可测寿命小于 1 ms。 | accelerator-performance | PDF pp.2–3, Table 1 | 表列值是设计/测试条件下参数，不是所有束种和能量的保证 |
 | RBL03-3 | F2 可插入薄 Si 与 RF 做 TOF–ΔE identification；第二段可作高级纯化、TOF spectrometer 或 zero-degree spectrometer，并在 F2 放二级反应靶。 | operation-mode | PDF pp.4–5, Sec.2.2 | 二级靶模式的传输、束斑、靶厚和 reaction rate 必须按目标实验重算 |
 | RBL03-4 | RIBLL 设计考虑通过 fragment momentum/deformation selection 获得部分偏振 RIB，并设置 beam swinger，入射束角可偏转到 5°。 | accelerator-capability | PDF p.5, Sec.2.1 | 偏振程度不是装置常数，需对具体碎片、磁场和 acceptance 做测量 |
-| RBL03-5 | 低束流时用 PPAC 测 beam position，高束流时用 scintillator-fiber beam scanner；F4 使用 300-mm Si ΔE 与 position-sensitive CsI(Tl) E detector。 | beam-diagnostic | PDF pp.2, 5–6, Fig.4 | detector response、threshold 和 rate limit 要按实验配置重新标定 |
-| RBL03-6 | 80 A MeV `20Ne+9Be` tuning 中，TOF/ΔE 图清晰分离多种同位素，`A/ΔA>300`；加入 1-mm Al degrader 选择 `17F` 时，目标束约占总束 47%。 | commissioning-result | PDF pp.6–7, Figs.4–5 | 这是 tuning case，不是目标核素的可得束流率或纯度承诺 |
-| RBL03-7 | F4 beam profile 的示例 FWHM 约 12.4 mm horizontal、17.0 mm vertical；论文结论称实测参数与设计目标相符。 | commissioning-result | PDF pp.7–8, Fig.6 and conclusion | beam spot 与能量、fragment species、slits、degrader 和 target geometry 有关 |
+| RBL03-5 | 低束流时用 PPAC 测位置，高束流时用光纤扫描器。F4 使用厚 300 μm 的 Si 测 ΔE，并用位置敏感 CsI(Tl) 测 E。 | beam-diagnostic | PDF2, PDF5（印刷 pp.497、500），Fig.4 | 响应、阈值和计数率限制随配置变化 |
+| RBL03-6 | 80 MeV/u `20Ne+9Be` 调束时，`16O` 的 TOF 投影给出 `A/ΔA>300`。加入中心厚 1 mm 的 Al 降能器并选择 `17F` 时，目标核素占比约 47%。 | commissioning-result | PDF5–6（印刷 pp.500–501），Figs.4–5 | 所报告的分辨率和占比对应本次设置 |
+| RBL03-7 | F4 束斑用位置敏感 E 探测器及一对 PPAC 测得，示例 FWHM 水平 12.4 mm、竖直 17.0 mm。 | commissioning-result | PDF6（印刷 p.501），Sec.3 | 束斑随束种、能量、狭缝、降能器和靶配置变化 |
 
 ## Detector-to-Experiment Mapping
 

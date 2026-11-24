@@ -1,0 +1,80 @@
+{
+  "checked_at": "2026-11-21T23:21:10.214333+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 724,
+      "task": "PYGMY-QUADRUPOLE-2011-SCOPE",
+      "pages": 7,
+      "version": "Physics Letters B 695, pp.174–180 (2011), publisher PDF",
+      "role": "verified-publisher-version",
+      "scope": [
+        "PDF1–2 introduction, HFB/QPM and first 2+ comparison",
+        "PDF3–5 strength response and proton/neutron radial densities",
+        "PDF6–7 conclusions, diffusivity discussion and references"
+      ],
+      "checks": [
+        "The first page and figure captions establish 104–134Sn as the target chain. The old 58–78Ni widths/strengths do not belong to the original source.",
+        "PDF2 Fig. 1 compares calculations with cited first-2+ data; PDF3 Figs. 2–3 give predicted components and summed strengths.",
+        "PDF5 Fig. 5 and PDF6 Eqs. 3.4–3.5 model different radial structures and surface diffusivity. The model treats 132Sn as a special shell-closure case."
+      ],
+      "gap": "PQR identification depends on the calculated transition-density and spectral evidence. The source does not measure nickel intensities or continuum damping widths.",
+      "lineage": "Theory with prior tin spectroscopy as a comparison. The former nickel parametrization remains an independent historical toy calculation.",
+      "work_id": "catalogue:LIT-000724",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/1-s2.0-S0370269310012761-main.pdf",
+        "sha256": "b21e16fbf7690930171dda77aa14fc0a61719328d1607d815db04a18ee57d90e",
+        "size": 544370,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/tsoneva-2011-pqr-skin-nuclei.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 725,
+      "task": "TSUZUKI21-SICDTE-POLARIZATION-SCOPE",
+      "pages": 11,
+      "version": "arXiv:2105.14236v1, archived 11-page author version",
+      "role": "verified-arxiv-author-version",
+      "scope": [
+        "PDF1–4 Compton response and ion-trap experiment",
+        "PDF5–7 event reconstruction, angular measurement and simulation",
+        "PDF8–10 likelihood and modulation, controls and conclusions",
+        "PDF11 references"
+      ],
+      "checks": [
+        "PDF3 Fig. 2 establishes the segmented Si/CdTe architecture and geometric angles. Data are from atomic Kr recombination x rays around 75.5 keV.",
+        "PDF7–8 Figs. 7–9: an independent 133Ba control gives residual instrument modulation Q near 0.010.",
+        "PDF8–10 Eqs. 5–8, Figs. 12–15: Pi=0.962(8 stat)(15 sys) is the main likelihood result. The modulation-curve cross-check reuses the same Kr events."
+      ],
+      "gap": "Energy ordering, acceptance and residual modulation depend on detector/energy/cuts. No benchmark for physical nuclear line polarization at a different energy is provided by this measurement.",
+      "lineage": "One Tokyo EBIT experimental sample; Ba response control is a separately measured calibration. Archived version precedes the published layout.",
+      "work_id": "catalogue:LIT-000725",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/tsuzuki2021-2105-14236v1-f2c69bdb5ec1.pdf",
+        "sha256": "f2c69bdb5ec135a8334ee977e198a79250b3a1b1322703b7277db8fcdc1f218d",
+        "size": 2235572,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 18
+}

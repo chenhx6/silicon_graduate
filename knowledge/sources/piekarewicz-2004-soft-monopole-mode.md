@@ -1,9 +1,9 @@
 ---
 type: source
 title: "Piekarewicz 2004 - Unmasking the nuclear matter equation of state"
-aliases: [Piekarewicz 2004 soft monopole mode, soft ISGMR neutron skin, PIE04]
+aliases: [Piekarewicz 2004 equation of state, ISGMR neutron skin, PIE04]
 created: 2026-10-30
-updated: 2026-10-30
+updated: 2026-11-22
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -20,13 +20,13 @@ canonical_source: "https://doi.org/10.1103/PhysRevC.69.041301"
 citation_key: piekarewicz2004unmasking
 raw_file: "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.69.041301.pdf"
 raw_sha256: 885b59e7151a44b531f945dac490fe95151f1712b72b82608f85e47a65f674f8
-nuclei: [90zr, 116sn, 120sn, 132sn, 140sn, 208pb]
+nuclei: [90zr, 208pb]
 reactions: []
 experiments: []
-models: [relativistic-mean-field, relativistic-rpa, NL3, FSUGold]
-observables: [ISGMR-strength-distribution, soft-monopole-energy, incompressibility-K_A, symmetry-incompressibility-K_tau]
-methods: [RRPA-constrained-monopole, leptodermous-expansion, transition-density-decomposition]
-tags: [giant-monopole-resonance, soft-monopole, neutron-skin, incompressibility, K_tau, equation-of-state, Day27]
+models: [relativistic-mean-field, continuum-rpa, NL3-family]
+observables: [ISGMR-strength-distribution, IVGDR-strength-distribution, symmetric-matter-incompressibility, neutron-skin]
+methods: [continuum-RPA, resonance-centroid-comparison]
+tags: [giant-monopole-resonance, neutron-skin, incompressibility, equation-of-state, Day27]
 ---
 
 # Unmasking the nuclear matter equation of state
@@ -37,45 +37,25 @@ PRC 69, 041301(R) (2004), DOI `10.1103/PhysRevC.69.041301`.
 
 ## Scope and Reading Depth
 
-- Completed reading_depth: `deep-read`
-- Covered scope: Fully self-consistent Relativistic Random Phase Approximation (RRPA) calculations of the Isoscalar Giant Monopole Resonance (ISGMR) in neutron-rich nuclei, with particular focus on the tin isotopic chain ($^{116}\text{Sn} \to ^{140}\text{Sn}$) and $^{208}\text{Pb}$; discovery and characterization of the low-energy "soft monopole mode" at $E_x \sim 8 - 10\text{ MeV}$; evaluation of the nuclear incompressibility $K_A$ using constrained sum rules ($m_1/m_0$ and $\sqrt{m_1/m_{-1}}$); formal demonstration of the breakdown of the macroscopic leptodermous expansion for $K_A$ in the presence of the soft mode; determination of the true symmetry incompressibility $K_\tau$.
-- Not covered: Heavy-ion collision flow observables.
-- Coverage caveats: Focuses on the decoupling of skin compression from core breathing.
-
-## Key Findings and Claims
-
-| Claim ID | Claim Summary | Evidence Type | Direct/Derived | Locator | Review Flag |
-|---|---|---|---|---|---|
-| PIE04-1 | 在极富中子核（如 $^{132}\text{Sn} \to ^{140}\text{Sn}$）中，自洽相对论 RPA 计算发现，除了位于 $E_x \sim 15\text{ MeV}$ 的经典主 ISGMR 呼吸峰外，在低激发能区（$E_x \sim 8.5 - 10.5\text{ MeV}$）涌现出一个显著的**软单极呼吸模式（Soft Monopole Mode）**，携带高达 $12\% - 18\%$ 的单极 EWSR。 | model-result | direct | Sec. II, Fig. 1 | false |
-| PIE04-2 | 径向跃迁密度分析表明，软单极模式对应于中子皮与等旋对称核芯之间的径向反相伸缩振荡（外层中子皮径向膨胀时内层核芯被轻微压缩），与主呼吸模（全核整体同相压缩）具有完全不同的物理机制。 | model-result | direct | Sec. III, Fig. 2 | false |
-| PIE04-3 | 若无视该软模式的存在，直接套用宏观液滴薄皮展开公式（Leptodermous Expansion）计算整体质心能量，低能软模式会将表观质心拉低逾 $1.0\text{ MeV}$，导致提取出的对称不可压缩系数 $K_\tau$ 发生虚假发散（从真实的 $-500\text{ MeV}$ 暴跌至 $-800\text{ MeV}$ 以下）。 | model-result | direct | Sec. IV, Fig. 3, Table I | false |
-| PIE04-4 | 确立了只有在微观上将软单极中子皮模式与主核芯呼吸模解耦后，由稳定核（$^{208}\text{Pb}$）约束的核物质不可压缩性 $K_\infty \approx 230 - 240\text{ MeV}$ 与 $K_\tau \approx -500 \pm 50\text{ MeV}$ 才能在极富中子滴线区保持普适自洽。 | author-interpretation | direct | Sec. V, Conclusions | false |
-
-## Cross-Mass-Region Transferability Significance
-
-1. **宏观液滴不可压缩性展开式的模型适用边界**：在本文 RRPA 计算中，若把低能软单极响应并入单一质心，宏观 $K_A(A,Z)$ 提取会出现明显偏移；这说明该展开在该模型/核素范围内需要软模式分离，不等于对所有富中子核的普适失效定理。
-2. **软单极模式作为模型支持的中子皮响应探针**：本文计算把约 `9 MeV` 的软强度与中子皮—核芯反相压缩联系起来；其作为实验探针的可行性仍需要真实响应、背景和独立 neutron-skin observable。
+刊版 PDF1–5 对应印刷 041301-1 至 041301-5。核对模型定义、Table I、Figs. 1–4、产生约束的联合比较和末页参考文献。实验质心和峰值来自文中所引来源。
 
 ## Summary
 
-本页摘要以现有书目、原有正文和已有 claim 表为准；本次补齐结构，不新增来源事实。
+论文用相对论平均场和连续谱 RPA 计算 90Zr 与 208Pb 的等标量巨单极响应，以及 208Pb 的等矢量巨偶极响应。作者比较模型中能量质心对对称能密度依赖的敏感性，再按既有实验约束模型。
 
 ## Key Results
 
-
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| PIE04-1 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. II, Fig. 1 | false |
-| PIE04-2 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. III, Fig. 2 | false |
-| PIE04-3 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. IV, Fig. 3, Table I | false |
-| PIE04-4 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | author-interpretation | source-reported | Sec. V, Conclusions | false |
-
-原页面既有的直接报告、作者解释和模型结果保持原文分层；缺失 locator 或原件的项目仍保持相应证据边界。
+| PIE04-1 | Table I 比较五组 NL3 变体。90Zr 计算质心约 18.62–18.77 MeV，对所选等矢参数不敏感。208Pb 的计算质心约 14.32–14.91 MeV，模型变化更显著。 | model-result | direct-to-model | PDF3 Table I and PDF4 Figs. 1–2 | false |
+| PIE04-2 | Table I 把实验质心写为90Zr 的17.89(20) MeV、208Pb 的14.24(11) MeV，来自本文 Ref. [12]。计算质心采用不同核的指定能窗。 | cited-experimental-values | secondary-in-this-article | PDF3 Table I caption and experiment rows | false |
+| PIE04-3 | 作者用 \(E_{\rm ISGMR}\propto\sqrt K\) 缩放估计，把原模型的对称物质不可压缩性 271 MeV 调整为 \(248\pm8\) MeV。原文指出完整调整需要重新标定模型。 | model-conditioned-inference | derived | PDF4, preceding discussion of Fig. 4 | false |
+| PIE04-4 | 208Pb 的 ISGMR 质心和 IVGDR 峰值在该模型族中共同约束中子皮。作者据此给出约 \(R_n-R_p\lesssim 0.22\) fm 的推断。 | model-conditioned-inference | derived | PDF4 Fig. 4 and summary | false |
 
 ## Competing Interpretations and Limitations
 
-竞争解释、来源依赖、原件访问和必要伴随观测缺口按原页面记录；不得把模型结果或评价字段升级为直接实验事实。
+计算结果限于所选模型族、能量窗口和缩放近似。旧条目中的富中子 Sn 软单极态、中子皮与核芯反相压缩、定量 \(K_\tau\) 等判断缺少本篇证据，已从本篇来源记录撤回。
 
 ## Extracted Pages
 
-本页当前只保留已有 locator；未取得的原始页码、图表或附件不补写，后续摄入必须记录实际阅读范围。
+- [[soft-monopole-mode-and-ktau-divergence]] 记录历史模型练习与本篇来源的边界。

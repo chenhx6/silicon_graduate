@@ -48,7 +48,7 @@ tags: [erratum, spectroscopic-factor, Nilsson, Be-isotopes]
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| MC18-1 | Corrected formulas are `S(0+,1/2+)=C²_{1/2,0}β²`, `S(0+,5/2+)=13 C²_{5/2,2}β²`, and `S(0+,1/2−)=C²_{1/2,1}α²`; revised Table II gives corrected factors. | correction | direct | PDF p.049902-1, formulas/Table II | true |
+| MC18-1 | Corrected formulas are `S(0+,1/2+)=C²_{1/2,0}β²`, `S(0+,5/2+)=(1/3) C²_{5/2,2}β²`, and `S(0+,1/2−)=C²_{1/2,1}α²`. Revised Table II gives unquenched calculated factors 0.24(3), 0.07(1), and 0.25(4), respectively. | correction | direct-original-visual | PDF 1 (printed 049902-1), equations/Table II | true |
 | MC18-2 | Authors state the correction does not alter the original conclusions. | author-statement | direct | PDF p.049902-1 | true |
 
 ## Summary

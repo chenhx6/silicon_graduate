@@ -1,0 +1,74 @@
+{
+  "checked_at": "2026-11-21T20:28:19.796467+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "PODSVIROVA04-EU141-LIFETIME",
+      "version": "Eur. Phys. J. A publisher PDF, 10.1140/epja/i2004-10034-8",
+      "role": "verified-publisher-edition",
+      "pages": 6,
+      "scope": [
+        "PDF1–3 experiment, transition/lifetime Table 1, and Fig. 2 fits.",
+        "PDF4–6 distributions, SPAC/TAC comparisons and conclusion."
+      ],
+      "checks": [
+        "PDF3 specifies a self-supporting 8 mg/cm2 114Sn target in the lifetime run; rejected the worker Au backing attribution.",
+        "Clean gate sums and fit inputs explicitly checked. Existing Table 1 asymmetric intervals retained.",
+        "No polarimetry reported. TAC deformation is tuned."
+      ],
+      "gap": "No independent interband mixing element, no P, no event-level reanalysis.",
+      "lineage": "Two original campaigns contribute spectroscopy and lifetime response.",
+      "work_id": "catalogue:LIT-000632",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2004-podsvirova-141eu.pdf",
+        "sha256": "31dd323d75f9a178e653bc88426482e3970a27183770dfd1771b514bbccdd503",
+        "size": 717914,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/podsvirova-2004-141eu-dipole-lifetimes.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "POVES20-NUCLEAR-SHAPE-LIMITS",
+      "version": "arXiv:1906.07542v2, author manuscript of PRC 101, 054307",
+      "role": "verified-arxiv-author-version",
+      "pages": 6,
+      "scope": [
+        "PDF1–2 definitions and doorway Fig. 1.",
+        "PDF3–4 Table I, gamma variance and named isotope examples.",
+        "PDF5–6 Fig. 2 for 68Ni, conclusion and references."
+      ],
+      "checks": [
+        "Eq. (13) and note use the paper’s mass-quadrupole normalization for the calculated table.",
+        "Fig. 1 is a doorway diagram in PDF2; Fig. 2 is 68Ni in PDF5. Worker assignment to Ca/Ge/Se plots rejected.",
+        "The 76Ge range 18–36 degrees is the mapped interval. The full width is not a standard deviation."
+      ],
+      "gap": "Invariant spread is model-dependent; further experimental comparison is separate.",
+      "lineage": "Shell-model and algebraic analysis with earlier experimental comparisons.",
+      "work_id": "catalogue:LIT-000634",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/poves-2020-limits-assigning-nuclear-shape.pdf",
+        "sha256": "ca188d5b2ac257edb8f616b2a055d2bd488f29d5d136baf540753ea049edf21a",
+        "size": 143633,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/poves-2020-limits-assigning-nuclear-shape.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 12
+}

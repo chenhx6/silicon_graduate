@@ -3,7 +3,7 @@ type: source
 title: "Behavior of the collective rotor in wobbling motion"
 aliases: [Streck et al. 2018, collective rotor in wobbling]
 created: 2026-07-15
-updated: 2026-10-26
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: theory-article
@@ -24,6 +24,7 @@ zotero_uri:
 library_file:
 raw_file: "raw/papers/2018_Streck et al_Behavior of the collective rotor in wobbling motion.pdf"
 raw_sha256: E6816F64F08AFEBB4E0230EC418A5CCF13E19B30C38E5B6964DCCC7B564A2F9D
+archive_required: true
 nuclei: [135pr]
 reactions: []
 experiments: []
@@ -45,7 +46,7 @@ The paper asks how the collective rotor and the high-j proton share angular mome
 
 ## Scope and Reading Depth
 
-Full ten-page article read. Covered: the PRM Hamiltonian, K-to-R basis transformation, azimuthal/R/KR probability distributions, energy and wobbling-frequency calculations with and without pairing, angular-momentum coupling schemes, signature-partner comparison and B(M1) limitation. Not covered: an independent remeasurement of the `135Pr` level scheme or a new experimental polarization analysis.
+The verified publisher PDF contains ten pages, printed 044314-1 through 044314-10. PDF 1–3 develops the PRM Hamiltonian and K-to-R transformation, PDF 4–5 compares energies and frequency with and without pairing, PDF 6–9 presents probability distributions and angular-momentum couplings, and PDF 10 includes the B(M1) limitation and references. Fig. 1 uses `135Pr` experimental energies from Matta et al., Ref. [15]. The `P` symbols in the wave-function analysis label calculated probability distributions. The experimental survey fields for source-original `E2/M1` δ, linear polarization and angular data are inapplicable to this theory paper.
 
 ## Summary
 

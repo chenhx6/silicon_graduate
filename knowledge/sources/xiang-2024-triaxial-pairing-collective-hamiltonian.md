@@ -129,3 +129,8 @@ P2/P3：citation key 未与已生成 BibTeX 唯一匹配，保持空值。
 - 具体案例、真实表与边界：[[doctoral-r2-inertia-evidence-and-band-reconstruction-20261108]]。
 - 当前不另建能带或实验页；本来源中的实核数值与模型条件按上文保留，
   不将理论参数登记成新的测量。
+
+
+## 2026-11-22 — 馆藏版本与关键页复核
+
+PDF 7 Table I 的 128Xe 第一 \(2^+\) 态能量为无 ZPE 0.202、有 ZPE 0.247、实验 0.443 MeV。PDF 8 明示 cranking 近似舍去式 (35) 的时间奇矩阵 \(E_1\)。

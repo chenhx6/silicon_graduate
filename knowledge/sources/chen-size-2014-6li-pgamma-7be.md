@@ -154,3 +154,8 @@ tags: [low-energy-reaction, nuclear-astrophysics, s-factor, 7be, phd-thesis]
 ## Non-source Notes and Follow-up
 
 该论文与当前 A≈130 高自旋主题距离较远，但其低能终端和相对测量方法具有有限方法学复用价值。
+
+
+## 2026-11-22 — 原件范围与关键页复核
+
+PDF 57–70（印 47–60）分别记录俘获 γ 产额、\((p,\alpha)\) 参照截面和分支比。PDF 69–70 以 \(E_{\rm eff}=206\) keV 作归一，归一误差与点间统计误差应分别追溯。PDF 76（印 66）Fig. 5.1 与正文的 \(E_R\approx195\) keV、\(\Gamma_p\approx50\) keV 源于 R 矩阵拟合。PDF 77–79 讨论候选自旋宇称及独立检验，形状结构保留为拟合解释。

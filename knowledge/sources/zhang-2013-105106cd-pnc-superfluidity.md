@@ -3,7 +3,7 @@ type: source
 title: "Zhang et al. 2013 — 105,106Cd反磁转动与粒子数守恒配对"
 aliases: [zhang-2013-105106cd-pnc-superfluidity]
 created: 2026-10-29
-updated: 2026-10-29
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: theoretical-research
@@ -21,6 +21,7 @@ citation_key_verified: 2026-10-29
 canonical_source: "doi:10.1103/PhysRevC.87.054314"
 raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/zhang-2013-105106cd-pnc-superfluidity-arxiv1303.3346v2.pdf"
 raw_sha256: "8de4f9800f7b0cd52e6ea597f3d1eb58e0e3be3852054ef570bbc5fda9928c9b"
+archive_required: true
 nuclei: [105Cd, 106Cd]
 models: [antimagnetic-rotation]
 observables: [BE2, angular-momentum-alignment]
@@ -35,6 +36,8 @@ tags: [antimagnetic-rotation, evidence-boundary, Day26]
 Nuclear superfluidity for antimagnetic rotation in 105Cd and 106Cd，*Physical Review C* **87**, 054314 (2013)，DOI `10.1103/PhysRevC.87.054314`。期刊元数据由Crossref原始API回包核验，学术版本身份与本地实际载荷分开记录。
 
 ## Scope and Reading Depth
+
+本轮核定 14 页 arXiv v2。PDF7 Fig. 2 比较运动学惯量的外引数据及有、无配对计算。PDF8–9 Fig. 3 比较两核的 \(B(E2)\)，`106Cd` 的变形结果另使用 \(\varepsilon_2\) 从 0.14 到 0.12 的选择。该形变变化为模型输入，实验强度分别回链文献 [8] 和 [9]。
 
 实际PDF14页、%PDF-1.4、232718字节；阅读14/14页，重点pp4–10模型与结果。arXiv页头为1303.3346v2、2013-05-16，内文另印Dated: June27,2018；保留实见差异，不改写期刊2013身份。原字节/签名/哈希与元数据回包记录于worker工件；实验点沿用既有105/106Cd测量，不是新独立实验。
 

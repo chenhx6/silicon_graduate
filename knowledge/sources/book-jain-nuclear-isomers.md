@@ -3,7 +3,7 @@ type: source
 title: "Ashok Kumar Jain 等 2021 - Nuclear Isomers: A Primer"
 aliases: [Jain2021, Nuclear Isomers Primer, 同核异能态入门与前沿]
 created: 2026-11-01
-updated: 2026-11-07
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: book
@@ -42,6 +42,12 @@ tags: [books, nuclear-isomers, transition-hindrance, seniority-scheme, generaliz
 - **本地原件（历史留档副本）**：`raw/books/nuclear isomer - A Prime.pdf` (2,666,967 字节, SHA-256: `20f88b84240637e10a6086eca6b9f6e80a28813ad1ecf14a795144a4d5c2ac34`；经 PyMuPDF 逐页全量文本流比对，151/151 页文本流 100% 相同，系 2024 年 Acrobat 重新线性化保存的副件；该文本层检验不外推为矢量图形/点阵渲染完全等价，两文件计为同一专著的单一信息源，不可作为两套独立实验数据集)。
 
 ## Scope and Reading Depth
+
+本轮按 PDF1–49、PDF50–89、PDF90–151 三段核定原件。规范主件和历史副本的 151 个逐页提取正文均相同，分别保留文件哈希，并作为同一作品计数。章节的物理页与印刷页偏移见下表述。
+
+- PDF33 印刷 p.21：使用含内转换的总分支时，须保留 \(1+\alpha\) 的同支路换算；使用光子发射分支时则直接按该分支换算。明确分母后再计算折合阻碍。
+- PDF53 印刷 p.42 的 Eq. (3.15) 在单 \(j\)、同 seniority 和允许的态对条件下产生半满相消。广义 seniority 的扩展使用各例声明的有效价空间，实验寿命与计算的矩阵元随各自条件保留。
+- PDF91、103–104 给 \(K\) 禁戒度及折合阻碍的定义与实例。\(f_\nu\) 只用于 \(\nu>0\)，所用分半衰期和 Weisskopf 参照应对应同一支路及多极次。章内例值与寿命仍按引用的原实验追溯。
 
 本书阅读级别定为 `deep-read`（针对 Chapter 3、Chapter 4 与 Chapter 5 的核心微观代数推导、准自旋空间群论证明与广义 Seniority / K-选择定则）结合全书各章实质正文阅读（`read` 针对 Chapter 1、2、6、7、8、前言与全书总结）。
 

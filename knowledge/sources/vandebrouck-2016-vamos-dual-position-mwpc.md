@@ -3,7 +3,7 @@ type: source
 title: "Vandebrouck 2016：VAMOS++ 双位置 MWPC 与 Doppler 速度向量重建"
 aliases: [Vandebrouck DPS-MWPC, VAMOS++ dual position tracking]
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: journal-method-experiment-with-public-preprint
@@ -21,7 +21,8 @@ canonical_source: "https://doi.org/10.1016/j.nima.2015.12.040"
 citation_key: "vandebrouck_2016_98zr-dual-position"
 raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/vandebrouck-2016-vamos-mwpc.pdf"
 raw_sha256: "66afd2c355fb3a6e4e507b9c369154f282e7a685848c0ad4110397b6c8d57e71"
-raw_storage_status: reserved-unpopulated-public-preprint-only
+archive_required: true
+raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://arxiv.org/pdf/1512.08881"
 nuclei: [98zr]
@@ -39,6 +40,8 @@ M. Vandebrouck et al., *NIM A* **812**, 112–117 (2016), DOI `10.1016/j.nima.20
 **本地原始材料边界：**为保持本任务 `raw/` 不变，frontmatter的raw_file是未填充的规范保留位置，文件未创建，不能声称已归档。此次获取字节仅在 `tmp/day13/reopened/vandebrouck-2016-vamos-mwpc.pdf`，SHA-256为上列值；长期重获入口为公开URL/arXiv ID。`raw_sha256`记录实际获取的preprint字节指纹，不是未存在raw文件的本地校验结果。若临时副本消失，须重新获取并核验；保留RAW_MISSING边界。preprint封面印有August23,2018编译日期，与arXiv v1/date及期刊2016年份不是同一字段，未据此更改出版年。
 
 ## Scope and Reading Depth
+
+- 本轮核定馆藏为 arXiv:1512.08881v1 八页。PDF6 Table 1 给 \(\sigma\) 形式的位置和角分辨，`305(11) ps` 则是两探测器 TOF 的 FWHM。同一 1222.9 keV 峰用直接径迹和顶点校正后由 `8.6(1)` keV 变为 `5.5(1)` keV（PDF6–7，Fig. 5）。
 
 - Covered scope：8页全文主线，introduction需求、detector geometry、两次performance测量、positions/angles/TOF/efficiency、AGATA Doppler对照、summary及相关references。
 - Deep checks：p.5 wire-shadow/mask过程、p.6 Table1和Sec.3.5、p.7 Fig.5与数据谱系；关键页视觉核验。

@@ -1,0 +1,121 @@
+{
+  "checked_at": "2026-11-21T22:38:47.732968+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 698,
+      "task": "BA137-COMPETITIVE-DECAY-ORIGINAL",
+      "pages": 8,
+      "version": "Nature Communications 11, 3242 (2020), publisher version, DOI 10.1038/s41467-020-16787-4",
+      "role": "verified-publisher-version",
+      "scope": [
+        "PDF1–2: decay scheme and two-photon amplitude definitions.",
+        "PDF3–4: experimental geometry, timing/energy cuts, Figs. 2–4 and differential branching.",
+        "PDF5–6: simultaneous fit, Table 2 and model comparison.",
+        "PDF7–8: model methods, data/code availability, references and end matter."
+      ],
+      "checks": [
+        "PDF3–4, Figs. 2–4 and Eq. 4: openings between the photons and lower-energy integration 180–331 keV; pair-yield branching, distinct from a single-transition mixing ratio.",
+        "PDF1 and Table 1: 2.62(30)×10⁻⁶ branching ratio, 8.7σ significance reported. The reported significance belongs to the branch detection, not a path assignment.",
+        "PDF5 Fig. 5, PDF3 Table 1: angle-only minima and energy-sharing discrimination; ±8.8(50) and ±36.4(20) are two-photon polarizabilities with sign branches, distinct from linear polarization P."
+      ],
+      "gap": "Joint fit resolves the competing dominant-path solutions under the reported observable model; sign branches, model differences, and access to event/response files limit numerical reuse.",
+      "lineage": "Independent coincidence experiment relative to Walz et al. (2015). The prior experiment is a comparison, and published model inputs are separately attributed.",
+      "work_id": "catalogue:LIT-000698",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2020_Söderström et al_Electromagnetic character of the competitive γγ-γ-decay from 137mBa.pdf",
+        "sha256": "fb8bd159bae6e5f1e2b9827e1bf2bce7cd98c126c7fef00f1bd41526154ec12a",
+        "size": 1046629,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/soderstrom-2020-137ba-competitive-gamma.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 699,
+      "task": "SONG06-AU-THESIS-COVERAGE",
+      "pages": 87,
+      "version": "宋立涛, 缺中子奇质量数 Au 核高自旋态能级结构研究, 2006 doctoral dissertation, Graduate University of Chinese Academy of Sciences",
+      "role": "verified-doctoral-thesis",
+      "scope": [
+        "PDF1–5: cover, Chinese and English abstracts and contents.",
+        "PDF6–28: introduction and theory.",
+        "PDF29–58: apparatus, analysis and angular-ratio methods.",
+        "PDF59–78: experiments and spectroscopy on 179Au and 183Au.",
+        "PDF79–87: conclusions, bibliography, publication list and acknowledgments."
+      ],
+      "checks": [
+        "PDF1 original cover confirms Chinese title, graduate university as awarding institution and IMP as training institute.",
+        "PDF62 p.57 and Fig. 5.3: explicitly reports insufficient DCO and ADO for 179Au due to fission competition and limited 90-degree coverage.",
+        "PDF70 p.65 and PDF74 p.69, Table 6-1: 183Au non-symmetric DCO matrix with 90 degrees on x and 34/146 degrees on y. Quadrupole-gate geometric references 1.0 and 0.5. No physical linear polarization points reported in either results chapter.",
+        "PDF76 p.71 Fig. 6.5: unfavored assignment is conditional; weak in-band intensity remains unexplained.",
+        "PDF86 p.81: lists 179Au PRC 69 037302 (2004) and 183Au PRC 71 017302 (2005) as corresponding original publications."
+      ],
+      "gap": "Chinese embedded text is defective. Figures and decisive passages were checked by page rendering. Candidate spin and signature assignments retain their original limits.",
+      "lineage": "Two experimental lineages, respectively shared with the two journal papers listed in the thesis.",
+      "work_id": "catalogue:LIT-000699",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/宋立涛论文(全).pdf",
+        "sha256": "c1ea767f4222fe3e31d06ef7037a14ec14629d6f4726e40b621b760f58978e76",
+        "size": 1158460,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-doctoral-thesis"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/song-litao-2006-high-spin-179au-183au.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 702,
+      "task": "STEPHENS75-CORIOLIS-REVIEW-SCOPE",
+      "pages": 23,
+      "version": "F. S. Stephens, Rev. Mod. Phys. 47, pp.43–65 (1975), publisher PDF",
+      "role": "verified-publisher-review",
+      "scope": [
+        "PDF1–6: Coriolis Hamiltonian and cited cases.",
+        "PDF7–13: rotational alignment, decoupling and systematics.",
+        "PDF14–22: two-quasiparticle alignment, odd-nucleus blocking and conclusions.",
+        "PDF23: bibliography end."
+      ],
+      "checks": [
+        "PDF2 p.44, Fig. 1 actually illustrates 183W, correcting the older source page isotope; initial interpretation is attributed to Kerman.",
+        "PDF7–8 pp.49–50, Eqs. 11–21: axial particle-rotor expansion and C≈2A cancellation are conditional; favoured sequence tracks core levels in the full decoupling limit.",
+        "PDF20–22 pp.62–64: backbending and blocking synthesised from cited data and model comparisons."
+      ],
+      "gap": "Historical model and literature review. Source figures support specific example systems; no individual model or direction of inference generalizes to all crossings.",
+      "lineage": "Synthesizes cited experiments and particle–rotor interpretations.",
+      "work_id": "catalogue:LIT-000702",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/转动/1975_Stephens_Coriolis effects and rotation alignment in nuclei.pdf",
+        "sha256": "25369cc4420667d6c38c52d5e6e5a489b48431aaa709998c4743f92ab5049ac3",
+        "size": 2415958,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-review"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/stephens-1975-coriolis-rotation-alignment.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 3,
+  "credited_primary_pages": 118,
+  "archive_metadata_repair": "Existing AME2020 rct1 companion matches catalogued rct1_sha256 and byte size; related_raw_sha256 populated for the linked archive. No added reading credit."
+}

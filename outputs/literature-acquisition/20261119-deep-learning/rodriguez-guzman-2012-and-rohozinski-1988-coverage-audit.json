@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-11-21T21:16:53.659734+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "RG2012-SMGD-OCTUPOLE-MAPPING",
+      "version": "arXiv:1209.2518v1, associated PRC 86, 034336",
+      "role": "verified-arxiv-author-version",
+      "pages": 31,
+      "scope": [
+        "PDF1–12 EDF and HFB surfaces and tables; PDF13–24 dynamical moments, excitation/rate and correlation-energy comparisons; PDF25–31 conditions and conclusions and references."
+      ],
+      "checks": [
+        "PDF14 Tables III–IV distinguish finite dynamic amplitudes in the parity-projected model from static HFB moments.",
+        "Fig. 11 and pp.27–28 find limited additive correlation energies. Rejected agent assertion that these figures require strong coupling across the studied region.",
+        "Original 150Sm gains 204/105 keV from PDF12, no generic threshold assigned."
+      ],
+      "gap": "No independent spectroscopy or input-deck reproduction.",
+      "lineage": "Theoretical calculation and comparison to cited external spectroscopy.",
+      "work_id": "catalogue:LIT-000659",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2012-rodriguez-guzman-sm-gd.pdf",
+        "sha256": "9f782b344bfd02b6fc3fcd224f3d14235fd9857339a524ae0802859549663642",
+        "size": 631428,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/rodriguez-guzman-2012-sm-gd-quadrupole-octupole.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "ROHO88-TRIAXIAL-M1-SCOPE",
+      "version": "Z. Phys. A 330, 23–28 (1988), DOI 10.1007/BF01287259",
+      "role": "verified-publisher-edition",
+      "pages": 6,
+      "scope": [
+        "PDF1–2 intro and NPD coordinates/motion; PDF3–5 axial and triaxial modes; PDF6 conclusion and references."
+      ],
+      "checks": [
+        "Corrected article pagination and scope. Actual original is the neutron-proton deformation model, not claimed TRM or QRPA.",
+        "PDF5 Eq. (33) is a schematic maximally triaxial estimate; PDF6 states small triaxiality cannot explain the cited doublets in predominantly axial cases.",
+        "Unsupported old numerical tables, M1 branching and additional nuclei were removed from canonical provenance. Related research note and index corrected."
+      ],
+      "gap": "Only previously reported observations noted. Mode spacing estimate is model-dependent.",
+      "lineage": "Collective model with separate cited experimental motivation.",
+      "work_id": "catalogue:LIT-000660",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/BF01287259.pdf",
+        "sha256": "3a8c54033a22443700329bf860d0ca5d51b7ec34ab3193dd059f426d23228abc",
+        "size": 461709,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/rohozinski-1988-triaxial-scissors-mode.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 37
+}

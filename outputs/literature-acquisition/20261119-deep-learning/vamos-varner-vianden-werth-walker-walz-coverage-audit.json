@@ -1,0 +1,212 @@
+{
+  "checked_at": "2026-11-21T23:40:00.760344+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 735,
+      "task": "VAMOS16-VARNER05-ORIGINALS",
+      "pages": 8,
+      "version": "arXiv:1512.08881v1 archived author version",
+      "role": "verified-arxiv-author-version",
+      "scope": [
+        "PDF1–3 design and layout",
+        "PDF4–7 trajectories, efficiency, resolutions and application",
+        "PDF8 references"
+      ],
+      "checks": [
+        "The header is arXiv rather than the nominal six-page journal layout.",
+        "PDF6 Table 1 gives the sigma convention. PDF6–7 Fig. 5 compares the same 1222.9-keV 98Zr peak: 8.6(1) and 5.5(1) keV."
+      ],
+      "gap": "Conditioned by the measured beam, geometry, tracking and resolution analysis.",
+      "lineage": "Original instrumentation and same-spectrum reconstruction comparison.",
+      "work_id": "catalogue:LIT-000735",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/vandebrouck-2016-vamos-mwpc.pdf",
+        "sha256": "66afd2c355fb3a6e4e507b9c369154f282e7a685848c0ad4110397b6c8d57e71",
+        "size": 9981121,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 736,
+      "task": "VAMOS16-VARNER05-ORIGINALS",
+      "pages": 4,
+      "version": "Eur. Phys. J. A 25 Supplement 1, 391–394 (2005), publisher PDF",
+      "role": "verified-publisher-version",
+      "scope": [
+        "PDF1–2 132Sn method, angles and photon yield",
+        "PDF3–4 134Sn beam mixture, spectral fitting, derived strengths and references"
+      ],
+      "checks": [
+        "PDF2 distinguishes the 85° and 90° safe-angle selections at their respective beam energies and reports a preliminary 0.11(3) e²b² for 132Sn.",
+        "PDF3–4 Fig. 4/5 reports the 725-keV fit with beam contaminants and 0.029(5) e²b² for 134Sn."
+      ],
+      "gap": "Both strengths are marked preliminary. Reuse requires angle selection, efficiency and the beam-mixture model.",
+      "lineage": "Own data in two Sn channels; neighboring values and models are contextual.",
+      "work_id": "catalogue:LIT-000736",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/varner-2005-132-134Sn-coulex.pdf",
+        "sha256": "bf34234243d3a237554fd5be730ff14292b68cf6eb3d5956d847cfc5b854a5f8",
+        "size": 229935,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/varner-2005-coulomb-excitation-132-134sn.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 737,
+      "task": "EFG87-VONDERWERTH95-ORIGINALS",
+      "pages": 42,
+      "version": "Hyperfine Interactions 35, 1079–1118 (1987), publisher appendix with 2 cover/blank pages",
+      "role": "verified-publisher-compilation",
+      "scope": [
+        "PDF1–4 title pages and definitions",
+        "PDF5–30 tabulated values",
+        "PDF31–42 references"
+      ],
+      "checks": [
+        "PDF3 introduces quadrupole frequency and principal axes; PDF5 gives probe/host entries and references.",
+        "The Be example records NMR 0.0564(3) MHz at 295 K. Measurement identity depends on probe, host and temperature."
+      ],
+      "gap": "The compilation cannot substitute for a primary experiment when exact hyperfine convention and uncertainty are important.",
+      "lineage": "Literature compilation; each entry follows the cited individual measurements.",
+      "work_id": "catalogue:LIT-000737",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/vianden-1987-efg-metals.pdf",
+        "sha256": "ec9cfaa6f2f47b9ecacde62f226b575c5002915b620dd971b1eac5a63f3f1508",
+        "size": 1540079,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-compilation"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/vianden-1987-electric-field-gradients-metals.md",
+          "declared_reading_depth": "read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 739,
+      "task": "EFG87-VONDERWERTH95-ORIGINALS",
+      "pages": 9,
+      "version": "NIM A 357, 458–466 (1995), publisher PDF. Nominal p.461 misprinted 361.",
+      "role": "verified-publisher-version",
+      "scope": [
+        "PDF1–3 motivation and detector layout",
+        "PDF4–6 kinematics, calibration and corrected spectra",
+        "PDF7–9 sensitivity fits, efficiency comparison and references"
+      ],
+      "checks": [
+        "PDF7 Eqs. 14–15 give device-specific Q response fits.",
+        "PDF8 compares coincidence efficiency, analyzing response and their combined figure of merit under the stated energy ranges."
+      ],
+      "gap": "Compact segmentation and ordered events have different calibration requirements. Energy domain and response defined for each instrument.",
+      "lineage": "Source-original device tests alongside cited Compton scattering theory.",
+      "work_id": "catalogue:LIT-000739",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1995_Von Der Werth et al_Two Compton polarimeter constructions for modern standard γ-spectroscopy.pdf",
+        "sha256": "54db57f926f99e069186e99a5b373ef5cb79f234eec43cc6ff84c82e80563021",
+        "size": 839074,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 742,
+      "task": "WALKER01-WALZ15-ORIGINALS",
+      "pages": 25,
+      "version": "Hyperfine Interactions 135, 83–107 (2001), publisher PDF",
+      "role": "verified-publisher-review",
+      "scope": [
+        "PDF1–8 mechanisms, favored orbitals and examples",
+        "PDF9–19 hindrance systematics, configurations and caveats",
+        "PDF20–25 concluding sections and bibliography"
+      ],
+      "checks": [
+        "PDF6–8, printed pp.88–90, distinguish angular momentum difference from excess K change in the cited 178Hf cases.",
+        "The reduced hindrance summarizes conditions across transitions rather than giving an exact lifetime for an arbitrary state."
+      ],
+      "gap": "Review of historical data and modeling. Specific hindrances require their source multipolarity, energy and intrinsic mixing.",
+      "lineage": "Cited experiments and review synthesis.",
+      "work_id": "catalogue:LIT-000742",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/奇特原子核/综述/2001_Walker_Dracoulis_Exotic Isomers in Deformed Atomic Nuclei.pdf",
+        "sha256": "62cc9071a6101118535d16aeb66f0f192e7ad8904abdfa80b6b56119473c1489",
+        "size": 232859,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-review"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/walker-dracoulis-2001-exotic-isomers.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 743,
+      "task": "WALKER01-WALZ15-ORIGINALS",
+      "pages": 4,
+      "version": "Nature 526, 406–409 (2015), publisher main article",
+      "role": "verified-publisher-version",
+      "scope": [
+        "PDF1–2 coincidence setup, prompt peak and backgrounds",
+        "PDF3 fit and Table 1, sum spectrum and energy sharing",
+        "PDF4 conclusion and references"
+      ],
+      "checks": [
+        "PDF1 and PDF3 establish two opening angles and 2.05(37)×10⁻⁶. PDF3 Fig. 3 gives 307(78) counts at 664.2(28) keV for the illustrated selection.",
+        "PDF3 Figs. 3–4 and Table 1 distinguish the sum peak, energy sharing and simultaneous path fit. The old cutoff-causal story requires a common-response comparison."
+      ],
+      "gap": "The original two-photon experiment and later independent measurement agree on the scale of the branch, with different path-fit results. Neither constitutes a single-transition linear-polarization data point.",
+      "lineage": "Actual independent 2015 coincidence measurement. The later 2020 experiment remains separate.",
+      "work_id": "catalogue:LIT-000743",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2015_Walz et al_Observation of the competitive double-gamma nuclear decay.pdf",
+        "sha256": "4177a89672ef1362d9dc35ff1292c7550c2db477fe34b61abaec4c72475b9c45",
+        "size": 405831,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/walz-2015-competitive-double-gamma-137ba.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 6,
+  "credited_primary_pages": 92
+}

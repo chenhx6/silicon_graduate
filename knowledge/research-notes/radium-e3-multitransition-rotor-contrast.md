@@ -3,12 +3,12 @@ type: research-note
 title: "222,228Ra 多跃迁 E3 与转子预言对比：临界连接、相位与耦合边界"
 aliases: [Radium E3 rotor contrast, Butler 2020 critical E3 links]
 created: 2026-10-29
-updated: 2026-10-29
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
 confidence: medium
-evidence_sources: [butler-2020-222-228ra-octupole-evolution, gaffney-2013-pear-shaped-rn-ra]
+evidence_sources: [butler-2020-222-228ra-octupole-evolution, gaffney-2013-pear-shaped-rn-ra, nomura-2020-ra-th-gogny-d1m-octupole]
 created_from: Day27 continued octupole reading and conditional contrast study
 promotion_target: ""
 tags: [octupole, E3, 222Ra, 228Ra, rotor-model, identifiability]
@@ -26,9 +26,11 @@ tags: [octupole, E3, 222Ra, 228Ra, rotor-model, identifiability]
 - 222Ra：⟨0+||E3||3−⟩=1.13(9)，⟨2+||E3||3−⟩=−0.9(5)（该项为自由变分参数，未标星号）；
 - 228Ra：⟨0+||E3||3−⟩=0.87(15)，⟨2+||E3||3−⟩=−0.06(+0.23/−0.16)*（标星号，原文明确说明通过旋转关系与更高阶矩阵元耦合，不完全独立）。
 
-同表采用共同相对相位约定：222Ra 取 Q1 与 Q3 同号，228Ra 取异号。
+原拟合对 \(Q_1,Q_3\) 的相对符号在 222Ra 偏好同号，在 228Ra 偏好异号。见 [[butler-2020-222-228ra-octupole-evolution]] PRL PDF p.3 的产额拟合讨论。保留任意整体相位与相对符号拟合偏好之间的区别。
 
 ## Rotor Model Contrast
+
+[[nomura-2020-ra-th-gogny-d1m-octupole]] Fig. 10 比较了 \(222,224,226,228\mathrm{Ra}\) 的 \(\lvert\Delta I\rvert=3,1\) 两组 E3 矩阵元绝对值。222Ra 和 228Ra 的实验点沿用 Butler，224Ra 沿用 Gaffney，226Ra 沿用其 Ref. [62]。图中 D1M 映射的 E3 算符使用 Sec. IV.C 中缩放后的有效电荷。部分计算矩阵元随自旋交错，作者指出与已有测量的平缓趋势不符。这个比较约束各跃迁绝对值随自旋的变化。带符号的矩阵元比值及其误差仍以 Butler 的原始拟合约定为依据。
 
 在 K=0 轴对称刚性转子极限下，由同一内禀 Q30 决定的两个矩阵元满足
 

@@ -1,0 +1,159 @@
+{
+  "checked_at": "2026-11-21T23:16:42.743362+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 714,
+      "task": "SUZUKI21-N28-SHELL-TRIAXIALITY",
+      "pages": 18,
+      "version": "arXiv:2103.06086v1, 10 Mar 2021, Y. Suzuki and M. Kimura",
+      "role": "verified-arxiv-author-version",
+      "scope": [
+        "PDF1–5 motivation and projected AMD/GCM",
+        "PDF6–10 surfaces and occupations",
+        "PDF11–13 spectra, E2 and conclusions",
+        "PDF14–18 bibliography"
+      ],
+      "checks": [
+        "PDF8 Fig. 2 text gives a model spherical N=28 gap of 4.0 MeV in 48Ar and 2.8 MeV in 42Mg.",
+        "PDF9–10 Eqs. 17–18/Figs. 1–3 compare explicit prolate inversion with oblate l=1 and l=3 mixing. The model regards 42Mg binding as unresolved against a cited shell-model prediction.",
+        "PDF11–12 Fig. 4/Table I separate measured strengths and energies quoted from literature and calculations with the axial restriction. A common small percentage difference cannot be applied to all nuclei."
+      ],
+      "gap": "No calculation input decks or primary experimental reanalysis. Occupancy and deformation are model results.",
+      "lineage": "Original theory with experimental comparison data drawn from cited sources.",
+      "work_id": "catalogue:LIT-000714",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2021_Suzuki_Kimura_Triaxial deformation and the disappearance of the N = 28 shell gap.pdf",
+        "sha256": "7719016e6ae01cbf5b70f4128420c9802d3f4b6054150baad0c443d43b813423",
+        "size": 1087806,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/suzuki-kimura-2021-n28-triaxiality.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 719,
+      "task": "TAWSEEF26-MR-AMR-VERSION-AND-SCOPE",
+      "pages": 15,
+      "version": "arXiv:2601.12496v1 stamped 18 Jan 2026; two byte-identical local copies",
+      "role": "verified-arxiv-author-version",
+      "scope": [
+        "PDF1–4 theory, parameters and semiclassical comparison",
+        "PDF5–10 projected and mixed rotation bands and alignments",
+        "PDF10–13 electromagnetic observables and conclusions",
+        "PDF14–15 references"
+      ],
+      "checks": [
+        "Original PDF header stamp and identical checksums distinguish author archive from the journal bibliographic identity.",
+        "PDF3 Table I and PDF5–6 provide the PSM configuration truncation, calculated spectra and cited observations.",
+        "PDF12 Fig. 17 gives 109Cd MR comparisons for restricted 1ν and 1ν2π calculations. The unrestricted calculation leaves the observed excited band difficult to identify. PDF12–13 retain discrepancies and missing high-spin strengths."
+      ],
+      "gap": "Common model comparison conditions do not establish unique axis dynamics or give new measured lifetimes. Full matrix-element and response inputs are outside the article.",
+      "lineage": "Cited spectroscopy and lifetimes provide external comparison data. The two archive copies represent one manuscript.",
+      "work_id": "catalogue:LIT-000719",
+      "raw": {
+        "path": "raw/papers/gpt/tawseef-2026-microscopic-mr-amr-arxiv2601.12496v1.pdf",
+        "sha256": "eddb5f0d931ae4132f03aeb53d9b7a8d21f18d404653b5f2a1e3238c9156c199",
+        "size": 1109927,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/tawseef-2026-microscopic-mr-amr-pd-cd.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 720,
+      "task": "TIMAR07-AG105-CANDIDATE-BANDS",
+      "pages": 11,
+      "version": "Physical Review C 76, 024307 (2007), publisher PDF",
+      "role": "verified-publisher-version",
+      "scope": [
+        "PDF1–2 introduction and DCO experiment",
+        "PDF3–5 level schemes and transition table",
+        "PDF6–8 structure and targeted band E search",
+        "PDF9–11 candidate D/G comparison, limitations and references"
+      ],
+      "checks": [
+        "PDF2 matrix numerator uses forward/backward observation and 90 degree gate; fourpole gate benchmarks 0.6 and 1.0. The low-energy linear-polarization assignment evidence is from Keller et al. Ref. [33].",
+        "PDF8 describes null side-band search above roughly a tenth of band E's population for the indicated decay topology.",
+        "PDF9 Fig. 6 gives an approximately 70-keV difference for D/G. The authors preserve g7/2–d5/2 configuration mixing as an alternative to chiral geometry."
+      ],
+      "gap": "No source-original polarization values. Search sensitivity is specific to the proposed side band and measured deexcitation. D/G electromagnetic comparison relates intensity-derived ratios to tentative mode assignments.",
+      "lineage": "New coincidence measurement with some low-energy assignments inherited from earlier work.",
+      "work_id": "catalogue:LIT-000720",
+      "raw": {
+        "path": "raw/papers/2007_Timár et al_High-spin structure of Ag 105.pdf",
+        "sha256": "730be91dc2ffbbc785ebe36f5ecc50aeefd8ef74d577c8a2e314204cb4f58442",
+        "size": 314090,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/timar-2007-high-spin-105ag-chiral-search.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 722,
+      "task": "TONEV06-PR134-LIFETIME",
+      "pages": 5,
+      "version": "Physical Review Letters 96, 052501 (2006), publisher PDF",
+      "role": "verified-publisher-version",
+      "scope": [
+        "PDF1–2 chirality motivation, RDDS and DSAM setup",
+        "PDF3 lifetime table, transition strengths and polarization boundary",
+        "PDF4–5 comparisons, interpretation and references"
+      ],
+      "checks": [
+        "PDF2–3 Table I lists 14 levels, 13 new and one previously measured. Spins in both candidate bands have positive parity. Two entries have overlapping methods within the analysis.",
+        "PDF3 Fig. 3 and text compare same-spin E2 rates: band 1 strengths about 2–3 times band 2 in the near-degenerate region. PDF4 interprets with competing shape fluctuations and quasiparticle coupling.",
+        "PDF3 reports qualitative polarization-supported multipolarity and defers per-transition polarization and branching details. It does not populate a numeric P–δ record."
+      ],
+      "gap": "No quantitative per-line mixed amplitudes or P inputs in this brief article. Strength differences test the stated static-limit interpretation and do not uniquely establish a dynamic mode.",
+      "lineage": "Lifetime reply and later fuller accounts of matching data should be checked for acquisition dependency. DCO support and prior strengths use cited measurements.",
+      "work_id": "catalogue:LIT-000722",
+      "raw": {
+        "path": "raw/papers/2006_Tonev_134Pr_Transition_Probabilities.pdf",
+        "sha256": "eac94a5ff8402144aa66b003fbafada85e180126941063eb5bfc62be5b20d134",
+        "size": 347475,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/tonev-2006-134pr-lifetime-chiral.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 4,
+  "credited_primary_pages": 49,
+  "byte_identical_companion": {
+    "path": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/tawseef2026/PDFs/Microscopic_investigation_of_magnetic_and_antimagnetic_rotational_motion_in_atomic_nuclei.pdf",
+    "sha256": "eddb5f0d931ae4132f03aeb53d9b7a8d21f18d404653b5f2a1e3238c9156c199",
+    "size": 1109927,
+    "hash_basis": "fresh-hash",
+    "source_role": "duplicate-byte-identical-main-manuscript"
+  }
+}

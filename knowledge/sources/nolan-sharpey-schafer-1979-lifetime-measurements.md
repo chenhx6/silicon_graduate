@@ -3,7 +3,7 @@ type: source
 title: "Nolan & Sharpey-Schafer 1979 - The measurement of the lifetimes of excited nuclear states"
 aliases: [Nolan Sharpey-Schafer 1979 lifetime review]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: review-method
@@ -36,7 +36,7 @@ tags: [lifetime, DSAM, RDM, Doppler-shift, review, nuclear-structure-method]
 
 - P. J. Nolan and J. F. Sharpey-Schafer, *Reports on Progress in Physics* **42**, 1–87 (1979).
 - 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf`。
-- 88-page review PDF (printed pp.1–87); full chapter map and method comparisons read.
+- 88 physical PDF pages. PDF1 is the IOPscience wrapper, PDF2–11 correspond to printed pp.1–10, PDF12 is the unnumbered Fig. 8(a) spectrum plate facing printed p.11, and PDF13–88 correspond to numbered pp.11–86. The bibliographic range and this copy's locator map are recorded separately.
 
 ## Scope and Reading Depth
 
@@ -49,6 +49,13 @@ tags: [lifetime, DSAM, RDM, Doppler-shift, review, nuclear-structure-method]
 - DSAM compares Doppler shift/attenuation with recoil slowing time (~`3×10⁻13 s`), requiring electronic/nuclear stopping models, recoil velocity, feeding and side-feeding treatment.
 - RDM compares decay time with recoil flight between foils (`~5 μm–2 cm`), while electronic timing and blocking cover other lifetime ranges.
 - Indirect methods infer widths from Coulomb excitation, electron scattering, resonance fluorescence or capture; products of matrix elements and ground-state access impose boundaries.
+
+### 补核方法与定位
+
+- DSAM 的 \(F\) 来自不同角度的光峰质心。寿命由实测 \(F\) 与阻止模型计算的 \(F(\tau)\) 比较得到，也可拟合完整线形。文中指数减速的等效时间表达式是粗近似。见 PDF11、25，印刷 pp.10、23，Eqs. (2.5)、(2.7)–(2.10)，及 PDF12、14 的 Fig. 8。
+- RDM 的简化飞行生存比采用无馈入的单个寿命及明确的速度和距离。遇到级联馈入，Sec. 2.4.5 把直接布居和上级态馈入带入 \(R(d)\)。短寿命端还对靶—阻止箔间距及零点敏感。见 PDF35、38、40，印刷 pp.33、36、38。
+- 电子定时的短寿命质心法需要可比较的 prompt response。综述的 \(^{40}\mathrm{Ca}\) 例子在测延迟符合谱时同时测定 prompt response。斜率法的适用性取决于 prompt response 尾部的时间尺度。见 PDF50–52，印刷 pp.48–50，Secs. 3.2、3.4。
+- PDF81（印刷 p.79）的 Table 7 对比高速 DSAM 与 RDM。该页 Fig. 56 则是 Schwalm 等对同一批数据做的 DSAM 线形与库仑激发产额分析，报告约 5% 内一致。综述指出，共用的阻止本领输入可能导致这种一致。前者依赖反冲核的减速，后者在该实验中依赖入射束的减速。跨方法证据需保留这项数据和系统误差依赖。
 
 ## Key Results
 

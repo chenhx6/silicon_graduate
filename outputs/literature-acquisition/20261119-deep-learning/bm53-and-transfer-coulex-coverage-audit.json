@@ -1,0 +1,100 @@
+{
+  "checked_at": "2026-11-22T02:22:41.595994+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "work_id": "bytes:b0501e3e098869a7fb14527a3dc8c9b80444affdb265394a928e0794ae708945",
+      "pages": 176,
+      "task": "ROTOR-FOUNDATIONS-ORIGINALS",
+      "version": "Bohr and Mottelson, Collective and Individual-Particle Aspects of Nuclear Structure, Dan. Mat. Fys. Medd. 27 no. 16 (1953), institutional scan",
+      "role": "institutional-published-scan",
+      "source_note": "knowledge/sources/bohr-mottelson-1953-collective-individual-original.md",
+      "scope": [
+        "PDF 1–6 front matter; 7–68 from prior source and staged reading; 69–112 staged reading of moments, level structure and early electromagnetic chapters; 113–144 staged reading of electromagnetic, beta, summary and initial appendices; 145–176 local page and scan checks of the later appendices, references and blank leaves.",
+        "PDF 116–117 Tables XXVII–XXVIII separate historical transitions, single-particle references and collective matrix estimates. PDF 128 Table XXX gives the empirical log f0t and comparative F factors. PDF 145–146 treats large-j small oscillations at stated order. PDF 155 Fig. 16 follows the coupled scattering model. PDF 162–167 App. VI and Fig. 17 identify the below-barrier approximation and trajectory integral."
+      ],
+      "gap": "Full scope integrates distinct read ranges. Bohr and Mottelson 1953 contains model predictions and historically cited data; individual assignments and measurements have their own dates and conditions.",
+      "lineage": "One reading credit for this archive edition. The work identifies the provenance of experimental inputs and model interpretations.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-mottelson-1953-mfm27-16.pdf",
+        "sha256": "b0501e3e098869a7fb14527a3dc8c9b80444affdb265394a928e0794ae708945",
+        "size": 6840284,
+        "hash_basis": "fresh-hash",
+        "source_role": "institutional-published-scan"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/bohr-mottelson-1953-collective-individual-original.md",
+          "declared_reading_depth": "skimmed",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "bytes:c80dd7dc376378fad490adba41dd626fa7963dd334a43e18ec2a47307d1f913b",
+      "pages": 6,
+      "task": "TRANSFER-AND-COULEX-FOLLOWUP",
+      "version": "N. Bree et al., PRL 112 162701 (2014), DOI 10.1103/PhysRevLett.112.162701, White Rose publisher-copy deposition",
+      "role": "publisher-pdf-with-repository-cover",
+      "source_note": "knowledge/sources/doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg.md",
+      "scope": [
+        "PDF 1 repository cover; PDF 2–6 printed 162701-1 through 162701-5, reusing verified complete reading and new PDF 2–5 checks.",
+        "PDF 4 Table I gives the 182Hg RME 1.29(+0.04,-0.03) eb for 2_1+ to 0_1+. 184Hg gives 1.27(3) eb and diagonal 2_1+ RME 1.5(+1.8,-1.2) eb."
+      ],
+      "gap": "The 186Hg interference ambiguity and the precision of the reorientation input are tracked separately from shape-label inference.",
+      "lineage": "One reading credit for this archive edition. The work identifies the provenance of experimental inputs and model interpretations.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261108-foundations-G31/Bree-2014-PRL-112-162701.pdf",
+        "sha256": "c80dd7dc376378fad490adba41dd626fa7963dd334a43e18ec2a47307d1f913b",
+        "size": 342326,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-pdf-with-repository-cover"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/doctoral-r1-g31-bree-2014-prl112-coulex-182-188hg.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "catalogue:LIT-000332",
+      "pages": 18,
+      "task": "TRANSFER-AND-COULEX-FOLLOWUP",
+      "version": "D. Bucurescu et al., Single particle excitations in 129Ba from a (d,t) reaction study, NPA 630 (1998) 643–660 publisher main PDF",
+      "role": "publisher-version",
+      "source_note": "knowledge/sources/bucurescu-1998-129ba-neutron-pickup-ibfm.md",
+      "scope": [
+        "PDF 1–18 from prior source reading, with current check of PDF 4–7 and Table 1.",
+        "PDF 5 / printed 647, Table 1 gives relative cross sections of 590 and 193 at 14.3 degrees c.m. for the ground and 7.8(16) keV rows. Ground G is normalized to one. PDF 11 Table 2 uses a different normalization."
+      ],
+      "gap": "Table 1 energies, relative cross sections and model-derived spectroscopic strength are distinct; relative strength is not an absolute spectroscopic factor.",
+      "lineage": "One reading credit for this archive edition. The work identifies the provenance of experimental inputs and model interpretations.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261105-ba129-model-readiness/bucurescu1998-main.pdf",
+        "sha256": "13461f44e44bf7ff224c260e0bce83c3180d1864cc56e382778248b819f7ee8d",
+        "size": 958451,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/bucurescu-1998-129ba-neutron-pickup-ibfm.md",
+          "declared_reading_depth": "read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 3,
+  "credited_primary_pages": 200,
+  "read_provenance": {
+    "bm53_ranges_145_176": "Codex local direct reading with rendered decisive pages after Gemini worker failure",
+    "provider_status": "Two independent Antigravity workers received HTTP 403 account access disabled; exact failures recorded in the local receipt."
+  }
+}

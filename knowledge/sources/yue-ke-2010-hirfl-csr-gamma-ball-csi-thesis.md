@@ -3,7 +3,7 @@ type: source
 title: "岳珂 2010 博士论文：HIRFL-CSR 外靶 CsI(Tl) 伽玛球探测器的设计与模拟"
 aliases: [岳珂伽玛球博士论文, Yue Ke HIRFL-CSR Gamma Ball thesis, CsI(Tl) Gamma Ball]
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: thesis-method
@@ -23,6 +23,7 @@ citation_key: "yue_2010_hirfl-csr-csitl"
 library_file: "raw/theses/degree-dissertation/岳珂 - HIRFL-CSR 外靶实验装置中CsI(Tl)闪烁体.pdf"
 raw_file: "raw/theses/degree-dissertation/岳珂 - HIRFL-CSR 外靶实验装置中CsI(Tl)闪烁体.pdf"
 raw_sha256: "5d880a011d8a3755531718bb731289e3b8f21a2ee277c0fb5e8b81aaa9771ca3"
+archive_required: true
 nuclei: []
 reactions: []
 experiments: []
@@ -39,6 +40,11 @@ tags: [degree-dissertation, detector-method, gamma-ball, csi-tl, hirfl-csr, gean
 岳珂，*HIRFL-CSR 外靶实验装置中 CsI(Tl)闪烁体阵列型探测器的设计与模拟研究*，中国科学院研究生院博士学位论文，2010，PDF 123 页。原始文件 SHA-256 为 `5d880a011d8a3755531718bb731289e3b8f21a2ee277c0fb5e8b81aaa9771ca3`。
 
 ## Scope and Reading Depth
+
+本轮核定全部 123 个物理页，正文印刷页为物理 PDF 页减 12。PDF1–28 为前置、引言和外靶装置，PDF29–84 为几何设计与模拟，PDF85–106 为单元测试，PDF107–123 为工程进展、结论和书目等。
+
+- PDF36 的效率和分辨率是设计指标。PDF67–68 的能谱重建为模拟，局域 Add-back 可回收相邻晶体沉积，超出筛选范围的能量仍会丢失。
+- PDF104–105 Fig. 5.27 将多个照射位置的能谱相加，给出光收集不均匀性对组合峰宽的影响。一根晶体的最佳单点分辨为 8.12%，合加谱为 11.74%，使用条件为该晶体及该次扫描。
 
 - Completed `reading_depth`: `deep-read`。
 - Covered scope: 题名页、中文/英文摘要和目录（PDF pp.I–III）；HIRFL-CSR、RIBLL-II、外靶物理目标与设计指标（pp.1–16）；伽玛球几何和运动学设计（pp.17–36）；GEANT4 平台、晶体/读出优化、效率和能量分辨模拟（pp.37–72，重点视觉核对 pp.46–57）；CsI(Tl) 单元包装、光收集和实验室测试（pp.73–94）；最终几何、机械/冷却设计和总结（pp.95–101、110）。

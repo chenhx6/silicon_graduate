@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-11-22T02:04:05.467952+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "work_id": "bytes:aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d",
+      "pages": 40,
+      "task": "ROTOR-FOUNDATIONS-ORIGINALS",
+      "source_note": "knowledge/sources/bohr-1952-surface-particle-coupling.md",
+      "version": "Aage Bohr, The Coupling of Nuclear Surface Oscillations to the Motion of Individual Nucleons, Dan. Mat. Fys. Medd. 26 no. 14 (1952), institutional scan",
+      "role": "institutional-published-scan",
+      "lineage": "Original theoretical work. Related to the 1953 theory development without supplying an independent experiment.",
+      "scope": [
+        "PDF 1–2 cover and contents; 3–6 introduction; 7–13 classical surface; 14–22 quantization; 22–24 particle motion; 25–39 coupling and perturbations; 40 references.",
+        "Prior deep reading and current page checks together cover the work. PDF 13 connects inertia with beta squared and principal axes; PDF 21 distinguishes the pure collective selection rule and the I=0 Legendre reduction; PDF 27–28 adds the combined particle-surface constraints."
+      ],
+      "gap": "Physical scope, formal conditions and cited historical comparisons retained. No claims of modern experimental calibration, rereading every reference, or complete Bohr-Mottelson 1953 coverage.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261108-r3-bohr-1952/originals/bohr-1952-mfm26-14.pdf",
+        "sha256": "aa1abb0377c020ecae64eb7735cf5156988682feb7f06617a8957d7d68ad818d",
+        "size": 1324071,
+        "hash_basis": "fresh-hash",
+        "source_role": "institutional-published-scan"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/bohr-1952-surface-particle-coupling.md",
+          "declared_reading_depth": "read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 1,
+  "credited_primary_pages": 40
+}

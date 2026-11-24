@@ -3,7 +3,7 @@ type: source
 title: "Wang et al. 2013 - High-spin level structure of 104Ag"
 aliases: [Wang 2013 104Ag, 104Ag high-spin structure]
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-11-22
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -20,6 +20,7 @@ canonical_source: https://doi.org/10.1103/PhysRevC.88.024306
 citation_key: wang_2013_Highspinlevel
 raw_file: "raw/papers/2013_Wang et al_High-spin level structure of the doubly odd nucleus 104 Ag.pdf"
 raw_sha256: 366246ACEC6C6B5A46169606B125683BBD58C9D512A980A3910E5B23D837039C
+archive_required: true
 nuclei: [104ag]
 reactions: ["97Mo(11B,4n)104Ag"]
 experiments: [ciae-hi13-104ag-b11-50mev]
@@ -36,6 +37,8 @@ tags: [experiment-ingest, project-ingest, a100, odd-odd, nuclear-chirality, magn
 Physical Review C 88, 024306 (2013), DOI `10.1103/PhysRevC.88.024306`. The protected BibTeX key is `wang_2013_Highspinlevel`.
 
 ## Scope and Reading Depth
+
+- 核定刊版九页，印刷 024306-1 至 024306-9。PDF2 定义 \(R_{\mathrm{ADO}}=I_\gamma(40^\circ)/I_\gamma(90^\circ)\)，40°/140° 组合与 90° 组构成相关矩阵。PDF3 Table I 的 346.3 keV 行包含实测 \(R_{\mathrm{ADO}}=0.86(5)\)。文章给出角比和由分支推导的强度比较，逐线偏振 \(P\) 与定量 \(E2/M1\) 混合比未报告。
 
 - Completed reading_depth: `deep-read`.
 - Covered scope: all nine PDF pages; experiment/ADO calibration; complete Table I and Bands A-F scheme; spin-parity assignments; A/B chiral fingerprints; C single-particle interpretation; D/E electric-quadrupole configurations/mixing; F magnetic-rotation assignment; summary.

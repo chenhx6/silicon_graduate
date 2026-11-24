@@ -204,3 +204,8 @@ Daniel Georg Lubos，*Decay Spectroscopy of 100Sn and Neighboring Nuclei*，Tech
 | LB16-D21-R99-4 | printed81分别列LSSM总强度8.19、QEC窗7.82和首1+态5.7，均是模型数；作者保留与旧实验区间相容及较小重叠。不能以本次单个比值宣布普适q²=.56或终结争议。 | model-comparison-and-interpretation | direct-original | printed81 LSSM comparison | true |
 
 必要伴随观测是母核分支、匹配β+/EC定义、谱形与探测器响应及联合误差。不同实验可独立采集，但共享常数/程序和派生量的统计相关仍须另核。原review/flags保持。
+
+
+## 2026-11-22 — RIKEN 学位论文原页复核
+
+实际 111 页，正文相关页的印刷号比 PDF 页号少 11。PDF 88–89（印 77–78）式 (4.19)–(4.20) 区分正电子响应拟合与 96/141 keV 转换电子贡献修正，后者给主跃迁所用 \(Q_{\rm corr}=3.74(14)\) MeV。式 (4.21)–(4.24) 则按不同子态路径讨论 \(Q_{\rm EC}\)。PDF 91（印 80）的式 (4.27) 原文标 \(B_{\rm GT}=5.26^{+0.90}_{-1.06}\) 为统计误差，随后另讨论拟合窗口相关系统误差。附录 C（PDF 98–99）构造首个相关事件的概率密度，附录 D（PDF 100–103）给邻核寿命谱和门示例。

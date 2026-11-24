@@ -3,7 +3,7 @@ type: source
 title: "Physics of Exotic Nuclei"
 aliases: [Ye 2024 exotic nuclei review]
 created: 2026-07-15
-updated: 2026-07-16
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-review
@@ -23,6 +23,7 @@ zotero_uri:
 library_file:
 raw_file: "raw/papers/2024_Ye et al_Physics of exotic nuclei.pdf"
 raw_sha256: 467A2CF6B6C953C7EEED2756C4D15D1EAE3166F30AD2A6E88B121C76F5093D43
+archive_required: true
 nuclei: []
 reactions: []
 experiments: []
@@ -39,6 +40,8 @@ tags: [exotic-nuclei, nuclear-force, shell-evolution, dripline, halo, clustering
 Nature Reviews Physics 6 (2024) 605–624. DOI `10.1038/s42254-024-00782-5`; BibTeX key `ye_2024_Physicsexotic`。
 
 ## Scope and Reading Depth
+
+本轮核定完整 17 个物理页。PDF1–4 为导论与理论框架，PDF5–8 为壳演变、反转岛与检验观测量，PDF9–12 为弱束缚、晕核和集团化，PDF13–17 为展望尾部和书目。PDF6 Fig. 4 是质子–中子相互作用与轨道迁移的机制示意。PDF8 将支持 \(N=32\) 壳隙的质量测量与提出疑问的电荷半径系统学并列。PDF10 Fig. 5 的晕核分类回链所引观测。
 
 全文 staged deep-read，覆盖引言、核力与理论模型、壳结构演化、质子/中子滴线、halo、cluster 与展望。本文是广义 exotic-nuclei review/background source，不是某一核素的新实验报告；文中引用的具体实验和模型结果仍需回到原始来源。
 

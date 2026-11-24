@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-11-22T00:56:35.655835+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 970,
+      "task": "JAIN-ISOMERS-PRIMER-FULL-COVERAGE",
+      "pages": 151,
+      "version": "Springer 2021 Nuclear Isomers: A Primer; ISBN 978-3-030-78674-8 and 978-3-030-78675-5",
+      "role": "verified-canonical-book",
+      "scope": [
+        "PDF1–12 front matter and contents",
+        "PDF13–45 overview and spin isomers",
+        "PDF46–89 seniority and generalized seniority",
+        "PDF90–138 K, shape and unusual isomers",
+        "PDF139–151 methods, end matter and summary"
+      ],
+      "checks": [
+        "Both local copies have the same ISBN/edition and matching normalized text on each of 151 corresponding pages. Different byte hashes persist, with one work credit.",
+        "PDF33 distinguishes total and partial half-life conventions for conversion and branching.",
+        "PDF53 Eq. (3.15) gives a conditional seniority reduction relation. The half-filled node requires a physically allowed state pair within the model space.",
+        "PDF91 and PDF103–104 separate K forbiddenness and transition-specific reduced hindrance. Formula definitions and compiled experimental cases remain distinct."
+      ],
+      "gap": "Template formulas and cases remain bounded by their state space, branch strength, phase and conversion definitions. Original experiments keep their cited identities.",
+      "lineage": "One edition in two local PDF layouts with identical page text. Quoted experiments are secondary reports.",
+      "work_id": "catalogue:LIT-000970",
+      "raw": {
+        "path": "raw/papers/isomer/isomer_review/2021_Jain et al_Nuclear Isomers.pdf",
+        "sha256": "994816561cfb6e89bd215b7fe23e37ecf12e8a3e8f5ce88eafbbd388d02ed74a",
+        "size": 3099781,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-canonical-book"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/book-jain-nuclear-isomers.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 1,
+  "credited_primary_pages": 151
+}

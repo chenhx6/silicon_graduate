@@ -157,3 +157,8 @@ Thomas James Morgan，*Identification of Nilsson Orbitals in the Superdeformed M
 ## Non-source Notes and Follow-up
 
 本论文的“轨道识别”是 model-assisted tentative assignment；正式写作必须保留模型条件和未来 conversion-electron test。
+
+
+## 2026-11-22 — 原件范围与关键页复核
+
+PDF 92 Fig. 6.6 与 PDF 105 将两套裂变符合谱连到同一第二势阱能级图，长寿命分量的 \(9/2\) 参考态比短寿命分量的 \(5/2\) 参考态高 54.0(3) keV。PDF 44 Fig. 3.1 是实验设计所用的既有图景，早期估计不与最终能级位置混用。PDF 107–110 保存原跃迁表。PDF 111–122 附录 B 的太阳能电池来自另行的离线和在束测试，记录分辨率、低能信号门及噪声限制。主实验所用 PPAC 与这些测试分开登记。

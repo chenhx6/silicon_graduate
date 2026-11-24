@@ -3,7 +3,7 @@ type: source
 title: "Reed et al. 2016 - Impact of triaxiality on the rotational structure of neutron-rich rhenium isotopes"
 aliases: [Reed 2016 neutron-rich Re triaxiality]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment-and-model
@@ -45,6 +45,8 @@ tags: [rhenium, triaxiality, gamma-softness, signature-splitting, high-spin]
 - Not covered: raw Gammasphere cubes, full model code and the promised complete level-scheme paper.
 
 ## Key Evidence and Reasoning Chain
+
+印刷 p.312（PDF2）及 Fig. 3 将 191Re 三个异能态的时间常数写为寿命 \(\tau\)，分别为 48(4) ns、101(58) ns 和 73(5) μs。旧测量与新值的关系依原文归属，引用时保留 \(\tau\) 与 \(T_{1/2}\) 的区别。
 
 - Deep-inelastic `136Xe` measurements populate Re isotopes; isomer decays reveal the `9/2−[514]` rotational band, associated γ-vibrational bands and high-K states.
 - Three signatures increase with neutron number: `9/2−[514]` signature splitting, decreasing `9/2−[514]⊗2+γ` bandhead energy (586→545→476 keV), and M1/E2 mixing ratios departing from axial-rotor predictions.

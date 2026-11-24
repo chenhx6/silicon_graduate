@@ -3,7 +3,7 @@ type: source
 title: "Ziliani 2019：AGATA 的 timestamp、能量和 lifetime-control 检查"
 aliases: [AGATA PARIS VAMOS spectroscopy calibration 2019, Ziliani energy time controls]
 created: 2026-10-14
-updated: 2026-10-14
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: conference-contribution-preliminary-experiment-calibration
@@ -22,6 +22,7 @@ canonical_source: "https://doi.org/10.5506/APhysPolB.50.625"
 citation_key: "ziliani_2019_18o-neutron-rich"
 raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ziliani-2019-agata-calibration.pdf"
 raw_sha256: "261b65b42c50350279b0e94f4c5e119342a9f78253be281315ec93ca6c12745a"
+archive_required: true
 raw_storage_status: reserved-unpopulated-public-publisher-copy-only
 raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=50&page=625"
@@ -36,9 +37,11 @@ tags: [agata, paris, vamos, calibration, shared-data, core-segment, preliminary]
 
 S.Ziliani等，ActaPhysPolB50(3),625–631(2019)，DOI10.5506/APhysPolB.50.625；官方PDF7页和Crossref题名/作者前缀/年/卷身份核验。Received7Jan2019，2018conference报告；实际experiment11–23July2017，不能把outlook当2026任务状态。
 
-raw保持不变：raw_file未填充，publishercopy存 `tmp/day13/reopened/ziliani-2019-agata-calibration.pdf`，SHA如上。它与[[ciemala-2019-20o-dsam-analysis-status]]是同18O+Ta dataset的关联报告（本篇Ref6/对方Ref8），不是独立重复。
+馆藏 `raw_file` 为七页刊版，SHA-256 与 Day13 原读副本一致。[[ciemala-2019-20o-dsam-analysis-status]] 使用同一 \(^{18}\)O+Ta 数据集，两篇分别说明校准和分析阶段。
 
 ## Scope and Reading Depth
+
+- 本轮核定 PDF1–7，印刷 pp.625–631。PDF3–4 Fig. 2 将晶体时间戳校准前后分开。PDF4–5 的多能区刻度与精细校准用于真实峰位和分辨对照。PDF5–6 使用已知长、短寿命线检验质心角依赖，寿命值是控制输入。
 
 - 7页全主线：C/O NN/NNN motivation→setup/data→fullreplay/timealign→energyanchors/coresegments→18Ocontrol→futurelineshapeanalysis。
 - 深核验pp.3–6/journal627–630，Fig2/TableI/Fig4；p4、p6视觉核验。

@@ -3,7 +3,7 @@ type: source
 title: "Suzuki et al. 2008 - Lifetimes of candidate chiral doublets in 103,104Rh"
 aliases: [Suzuki 2008 Rh lifetimes, 103Rh 104Rh RDDS lifetimes]
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-11-22
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -20,6 +20,7 @@ canonical_source: https://doi.org/10.1103/PhysRevC.78.031302
 citation_key: suzuki_2008_Lifetimemeasurement
 raw_file: "raw/papers/2008_Suzuki et al_Lifetime measurement of candidate chiral doublet bands in the Rh 103 , 104.pdf"
 raw_sha256: F9C421090B33DA94206F9D1D4EBD36AD0F5BE79EE1DCD6A19FE38B32A7EC5927
+archive_required: true
 nuclei: [103rh, 104rh]
 reactions: ["11B(96Zr,4n)103Rh", "11B(96Zr,3n)104Rh"]
 experiments: [atlas-gammasphere-rdds-103rh-104rh-zr96-330mev]
@@ -36,6 +37,8 @@ tags: [experiment-ingest, project-ingest, a100, nuclear-chirality, lifetime, rdd
 Physical Review C 78, 031302(R) (2008), DOI `10.1103/PhysRevC.78.031302`. The protected BibTeX key is `suzuki_2008_Lifetimemeasurement`.
 
 ## Scope and Reading Depth
+
+The verified publisher PDF spans 031302-1 through 031302-5. The angular gating and DDCM alternatives are on PDF2, with the observed decay components and lifetime results on PDF3–4. Comparisons of partner-band energy and \(S(I)\) use Fig. 1. The lifetimes in Tables I–III cover selected levels in one candidate member per nuclide. A lifetime comparison between both partners therefore remains open.
 
 - Completed reading_depth: `deep-read`.
 - Covered scope: all five PDF pages; motivation and chirality criteria; inverse-kinematics RDDS setup; direct- and indirect-feeding DDCM equations; Tables I-V; lifetime and reduced-probability extraction; staggering comparison; interpretation and requested future tests.

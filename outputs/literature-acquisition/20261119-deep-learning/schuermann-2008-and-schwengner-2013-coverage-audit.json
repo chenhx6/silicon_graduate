@@ -1,0 +1,70 @@
+{
+  "checked_at": "2026-11-21T21:43:48.943502+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "SCHUERMANN08-O15-DSAM",
+      "version": "arXiv:0804.1934v1, author version of PRC 77, 055803",
+      "role": "verified-arxiv-author-version",
+      "pages": 7,
+      "scope": [
+        "PDF1–3 origin and geometry, PDF4–6 attenuation fits and conditional bounds, PDF7 references."
+      ],
+      "checks": [
+        "Retained prior raw analysis of full-shift compatibility and model-bound 0.77 fs upper limit. Once original data and uncertainties are kept distinct, the paper’s comparison to a fixed older attenuation is not a >5 sigma exclusion of its measurement distribution.",
+        "The 318 keV statement is tied to a 19F gain run in verified source context; article did not measure stellar S directly."
+      ],
+      "gap": "No original detector/timing covariance or R-matrix fit reconstruction.",
+      "lineage": "Own DSAM measurement uses other benchmark and earlier results for comparison.",
+      "work_id": "catalogue:LIT-000681",
+      "raw": {
+        "path": "raw/papers/2008_Schuermann_et_al_15O6792_Doppler_attenuation.pdf",
+        "sha256": "e052b2ab382b9982522d009612cb1362f4ecb981a8724ad7b3829ff492671f61",
+        "size": 327294,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "SCHWENGNER13-LOW-ENERGY-M1",
+      "version": "Phys. Rev. Lett. 111, 232504 (2013), 10.1103/PhysRevLett.111.232504",
+      "role": "verified-publisher-edition",
+      "pages": 5,
+      "scope": [
+        "PDF1–2 prior context and model; PDF2–3 strength distributions and sample, PDF4–5 level-density folding, experimental comparisons and references."
+      ],
+      "checks": [
+        "Original calculates 90Zr and 94,95,96Mo only. Corrected other-isotope attribution and supposed actual TAC computation.",
+        "PDF4 explicitly adds GLO E1 because the shell-model space cannot calculate the E1 component. The functions with experimental context are model-comparison results.",
+        "Removed universal onset and heavy nucleus claims from linked source and research note."
+      ],
+      "gap": "No direct new strength measurement or universal Brink–Axel test in this article.",
+      "lineage": "Shell-model prediction compared with existing experiments.",
+      "work_id": "catalogue:LIT-000682",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevLett.111.232504.pdf",
+        "sha256": "d7a70974055150e736e3c07a5ba444e32e33bf41a44ada6ae8afff847520ce39",
+        "size": 379583,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/schwengner-2013-m1-upbend-brink-axel.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 12
+}

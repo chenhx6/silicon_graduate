@@ -1,0 +1,119 @@
+{
+  "checked_at": "2026-11-22T03:24:25.170984+00:00",
+  "model_requested": null,
+  "reasoning_requested": null,
+  "works": [
+    {
+      "number": 407,
+      "pages": 52,
+      "task": "LOCAL-ROTATION-AND-DEFORMATION-SOURCES",
+      "version": "Stefan Frauendorf, Spontaneous symmetry breaking in rotating nuclei, Rev. Mod. Phys. 73 (2001) 463–514, DOI 10.1103/RevModPhys.73.463, publisher PDF",
+      "role": "publisher-review",
+      "source_note": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+      "scope": [
+        "PDF 1–52, printed 463–514. Staged prior full review with direct new checks of Routhian definitions, chiral and magnetic rotation, termination, symmetry restoration, appendix and bibliography.",
+        "PDF 4 (printed 466) defines the two frequency-derived inertias. PDF 22–23 (printed 484–485) separates intrinsic orientations from laboratory states. PDF 26 (printed 488) distinguishes shears arrangements."
+      ],
+      "gap": "Theory of orientations and symmetry restoration, with historical experimental examples traced to the cited studies.",
+      "lineage": "Theory of orientations and symmetry restoration, with historical experimental examples traced to the cited studies.",
+      "work_id": "catalogue:LIT-000407",
+      "raw": {
+        "path": "raw/papers/2001_Frauendorf_Spontaneous symmetry breaking in rotating nuclei.pdf",
+        "sha256": "d43c7290cf5899ebc9b94324af5e95eb40e488bacf1c70c89e0b3bd61d916172",
+        "size": 1338967,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-review"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        },
+        {
+          "source_note": "knowledge/sources/book-frauendorf-spontaneous-symmetry-breaking-rotating-nuclei-copy.md",
+          "declared_reading_depth": "read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 518,
+      "pages": 8,
+      "task": "LOCAL-ROTATION-AND-DEFORMATION-SOURCES",
+      "version": "Ze-Kai Li et al., Robustness of the octupole collectivity in 144Ba within the cranking covariant density functional theory in 3D lattice, NST 35 139 (2024), DOI 10.1007/s41365-024-01532-z, publisher PDF",
+      "role": "publisher-version",
+      "source_note": "knowledge/sources/li-2024-144ba-octupole-cdf-3d-lattice.md",
+      "scope": [
+        "PDF 1–8 including model, octupole formula, constrained and rotational calculations, Fig. 1–5, conclusions and references.",
+        "PDF 3–4 Fig. 1 locates the selected model minimum at beta20=0.22, beta30=0.13. PDF 3 Eqs. (12)–(13) give transition estimates using the calculated moments and orientation."
+      ],
+      "gap": "The data plotted against the model are taken from prior experiments. Lower-energy minima and extracted shape trends are not additional experimental evidence.",
+      "lineage": "The data plotted against the model are taken from prior experiments. Lower-energy minima and extracted shape trends are not additional experimental evidence.",
+      "work_id": "catalogue:LIT-000518",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2024_Li et al_Robustness of the octupole collectivity in $${^{144}textrm{Ba}}$$ within the cranking covariant den.pdf",
+        "sha256": "294e1cc6ae9543ab3c6474d47ff91937be220f4cea3332b3a65897fd29f92155",
+        "size": 1492301,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/li-2024-144ba-octupole-cdf-3d-lattice.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 539,
+      "pages": 17,
+      "task": "LOCAL-ROTATION-AND-DEFORMATION-SOURCES",
+      "version": "Lv et al., Configuration-dependent shapes and types of rotations in the gamma-soft 136Pr nucleus, PRC 111 014321 (2025), DOI 10.1103/PhysRevC.111.014321, repository accepted manuscript",
+      "role": "accepted-manuscript-with-repository-cover",
+      "source_note": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "scope": [
+        "PDF 1 repository cover; 2–5 introduction and spectrum; 6–9 Table I; 9–15 model and discussion, Table II; 16–17 references.",
+        "PDF 10 Fig. 6 and discussion give a pairing-collapse discontinuity in the original calculation. PDF 15 Table II separates model configuration and deformation from measured gamma table."
+      ],
+      "gap": "Measured transition information, model assignment and possible shape coexistence scenarios have separate evidence; model parameters do not establish a new measured shape.",
+      "lineage": "Measured transition information, model assignment and possible shape coexistence scenarios have separate evidence; model parameters do not establish a new measured shape.",
+      "work_id": "catalogue:LIT-000539",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/136pr-2025-tac-cdfTAC/PDFs/Configuration_dependent_shapes_and_types_of_rotations_in_the_gamma-soft_Pr-136_nucleus_revealed_by_detailed_calculations_with_tilted_axis_cr.pdf",
+        "sha256": "c8e14461975a7606d7e38325d6e83b500e75d232027b118743e1f1ff754537d6",
+        "size": 1617159,
+        "hash_basis": "fresh-hash",
+        "source_role": "accepted-manuscript-with-repository-cover"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 3,
+  "credited_primary_pages": 77,
+  "read_provenance": "Direct local original pages. Previously studied material reconciled with identity and locators.",
+  "partial_units": [
+    {
+      "work_id": "catalogue:LIT-000302",
+      "physical_pdf_interval": [
+        158,
+        194
+      ],
+      "printed_interval": [
+        136,
+        172
+      ],
+      "source_note": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md"
+    }
+  ]
+}

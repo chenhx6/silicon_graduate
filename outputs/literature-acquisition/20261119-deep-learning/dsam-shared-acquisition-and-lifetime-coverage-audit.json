@@ -1,0 +1,155 @@
+{
+  "checked_at": "2026-11-22T02:27:10.418305+00:00",
+  "model_requested": null,
+  "reasoning_requested": null,
+  "works": [
+    {
+      "work_id": "catalogue:LIT-000360",
+      "pages": 10,
+      "task": "DSAM-LOCAL-ORIGINALS-AFTER-403",
+      "version": "Ciemała et al., Acta Phys. Pol. B 50 (2019) 615–624, DOI 10.5506/APhysPolB.50.615, publisher proceedings",
+      "role": "publisher-version",
+      "source_note": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+      "scope": [
+        "PDF 1–10 experimental method, velocity/centroid examples and conclusions.",
+        "PDF 6 and 9 describe preliminary sensitivity around 300 fs with no quantified upper confidence limit."
+      ],
+      "gap": "The same 2017 experiment supplies the later Ciemała 2020 result and 2021 methodology study. The documented preliminary statement is kept at its original date.",
+      "lineage": "The same 2017 experiment supplies the later Ciemała 2020 result and 2021 methodology study. The documented preliminary statement is kept at its original date.",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/20o-2019-acta-dsam.pdf",
+        "sha256": "2021d2e0cac8641d3816ec47c36ac41e2bff91504b857f0423ac5b805f94224b",
+        "size": 6872818,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "catalogue:LIT-000361",
+      "pages": 7,
+      "task": "DSAM-LOCAL-ORIGINALS-AFTER-403",
+      "version": "Ciemała et al., arXiv:2002.04814v1 (2020-02-12), PRC 101 021303 (2020)",
+      "role": "arxiv-author-version",
+      "source_note": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+      "scope": [
+        "PDF 1–3 introduction, chosen states and acquisition; 3–5 velocity reconstruction and energy/lifetime fitting; 5–7 results, calculations and references.",
+        "PDF 4 gives the simultaneous O20 result: gamma energy 2394.6 +/- 1.0 keV and mean lifetime 150(+80,-30) fs."
+      ],
+      "gap": "O20 shares acquisition with the 2019 and 2021 publications. C16 is a conditional estimate at prior energy.",
+      "lineage": "O20 shares acquisition with the 2019 and 2021 publications. C16 is a conditional estimate at prior energy.",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ciemala-2020-c16-o20-lifetimes.pdf",
+        "sha256": "b3d93fffb158ac68f7b99d627fe81fe9588dbf316d9f6eea92eb5cfcc1af2962",
+        "size": 5269552,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "catalogue:LIT-000362",
+      "pages": 17,
+      "task": "DSAM-LOCAL-ORIGINALS-AFTER-403",
+      "version": "Ciemała et al., arXiv:2012.05180v1 (2020-12-09), EPJ A 57 156 (2021)",
+      "role": "arxiv-author-version",
+      "source_note": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+      "scope": [
+        "PDF 1–17 method, event sorting, velocity simulation, lifetime sensitivity, controls, uncertainty framework and references. Any later revised journal text retains its own locators.",
+        "PDF 12–13 notes the target crossing scale about 130 fs and shows angle-dependent response and sensitivity. This value is a setup scale."
+      ],
+      "gap": "This methodology article shares acquisition and earlier O20 results. The arXiv and publisher confidence-language versions stay separate.",
+      "lineage": "This methodology article shares acquisition and earlier O20 results. The arXiv and publisher confidence-language versions stay separate.",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ciemala-2021-deep-inelastic-lifetime-method.pdf",
+        "sha256": "b6b3e032000e50f7332bb05393b2b7b8759bf41eb31a43932857f96b212c3bd3",
+        "size": 9241672,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "catalogue:LIT-000406",
+      "pages": 7,
+      "task": "DSAM-LOCAL-ORIGINALS-AFTER-403",
+      "version": "C. Fougères et al., Nature Communications 14 4536 (2023), DOI 10.1038/s41467-023-40121-3, publisher main file",
+      "role": "publisher-version",
+      "source_note": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+      "scope": [
+        "PDF 1–7 main paper: astrophysical motivation, velocity method, results, discussion, tables and references; earlier SI audit remains separately attached.",
+        "PDF 3 Table 1 lists individual lifetime systematics; the text rounds their aggregate to 26%. The measured 23Mg lifetime and adopted aggregate are different inputs."
+      ],
+      "gap": "This work is one measurement. The supplement is related, and comparison lifetimes and branching results have their own acquisitions.",
+      "lineage": "This work is one measurement. The supplement is related, and comparison lifetimes and branching results have their own acquisitions.",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/fougeres-2023-mg23-publisher.pdf",
+        "sha256": "6652343310f238d7249654411a34713985bf4be73bd7e88d45cccd96158e0be7",
+        "size": 1610353,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "catalogue:LIT-000494",
+      "pages": 13,
+      "task": "DSAM-LOCAL-ORIGINALS-AFTER-403",
+      "version": "O. S. Kirsebom et al., arXiv:1508.07188v1 (2015-08-28), PRC 93 025802 (2016)",
+      "role": "arxiv-author-version",
+      "source_note": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+      "scope": [
+        "PDF 1–13 original scope with apparatus, response, geometry, slowing and feeding, fits, null/upper-limit interpretation and references.",
+        "Table II and PDF 8–12 distinguish finite lifetimes and the 7787-keV state one-sided bound below 12 fs, stated as 95% CL."
+      ],
+      "gap": "The one-sided lifetime result is conditional on the selected experimental and line-shape model. A derived resonance constraint additionally depends on branch and spin.",
+      "lineage": "The one-sided lifetime result is conditional on the selected experimental and line-shape model. A derived resonance constraint additionally depends on branch and spin.",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/kirsebom-2016-23mg-dsam-arxiv-v1.pdf",
+        "sha256": "9c4731688a6bfa1338ed229b8967ccb4f37bb11d067aed429ff2b4469a81673b",
+        "size": 874151,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "declared_reading_depth": "read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 5,
+  "credited_primary_pages": 54,
+  "read_provenance": "Codex local original evidence and prior coverage reports; no output from the unavailable DSAM Gemini worker credited."
+}

@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-11-21T20:22:56.017952+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "PFUTZNER12-REVIEW-COVERAGE",
+      "version": "Rev. Mod. Phys. 84, 567–619 (2012), DOI 10.1103/RevModPhys.84.567",
+      "pages": 53,
+      "scope": [
+        "PDF1–46 printed pp.567–612; prior review coverage and selected original samples on experimental data and model interpretation.",
+        "PDF47–53 printed pp.613–619 references, verified final printed p.619."
+      ],
+      "checks": [
+        "Actual last marked p.619 supersedes stale end-page 613. 566+PDF page gives printed page.",
+        "The review’s processed observable summaries and model explanations cannot count as independent replications of cited sources. No worker-only numerical decay claim adopted."
+      ],
+      "gap": "Underlying measurements and model inputs remain outside this review audit.",
+      "lineage": "Review of previously reported science.",
+      "work_id": "catalogue:LIT-000630",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2012_Pfützner et al_Radioactive decays at limits of nuclear stability.pdf",
+        "sha256": "8e70ebfb00b61f7288535dc70de5de15b88f81cccde43a412fd9fcae7b4decd2",
+        "size": 8772137,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/pfutzner-2012-radioactive-decays-stability-limits.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "PIE04-PRC041301-ARCHIVE",
+      "version": "J. Piekarewicz, Phys. Rev. C 69, 041301(R), DOI 10.1103/PhysRevC.69.041301",
+      "pages": 5,
+      "scope": [
+        "PDF1–2 printed 041301-1/2 context and NL3 sensitivity family.",
+        "PDF3–4 Table I, Figs. 1–4, model windows, prior experiment and scaling.",
+        "PDF5 conclusion and references."
+      ],
+      "checks": [
+        "Rejected old Sn soft-mode and K_tau attribution. Actual paper covers 90Zr and 208Pb and quotes previous experiment.",
+        "Used original Table I: 90Zr 17.89(20), 208Pb 14.24(11) MeV. Corrected worker mixing of calculated peak and centroid and worker numerical offsets.",
+        "PDF4 estimates K=248(8) MeV by a scaling approximation and a conditional skin constraint near 0.22 fm. Updated source, research note and index."
+      ],
+      "gap": "No new experimental resonance data or quantitative tin soft-mode analysis in this source.",
+      "lineage": "Continuum-RPA calculations compared with earlier experiments.",
+      "work_id": "catalogue:LIT-000631",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.69.041301.pdf",
+        "sha256": "885b59e7151a44b531f945dac490fe95151f1712b72b82608f85e47a65f674f8",
+        "size": 80861,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/piekarewicz-2004-soft-monopole-mode.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 58
+}

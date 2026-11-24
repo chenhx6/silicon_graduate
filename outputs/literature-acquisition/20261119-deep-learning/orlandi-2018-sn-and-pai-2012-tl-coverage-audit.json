@@ -1,0 +1,75 @@
+{
+  "checked_at": "2026-11-21T19:50:27.759320+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "ORLANDI18-SN131-HOLE-AUDIT",
+      "version": "Surrey delivery wrapper and six publisher pages, 10.1016/j.physletb.2018.08.005",
+      "role": "verified-repository-copy-of-publisher-version",
+      "pages": 7,
+      "scope": [
+        "PDF1 Surrey repository wrapper.",
+        "PDF2–7, journal pp. 615–620, experimental design and cross-section spectrum, DWBA, comparison and references."
+      ],
+      "checks": [
+        "PDF3 specifies 214 and 350 microgram/cm2 foils, replacing unverified worker 170 value.",
+        "The width of the summed spectrum leaves the 0–65 keV doublet unresolved. The DWBA pure d3/2 strength 5.0(5) and conditional 4.3(5) with full h11/2 strength are different cases.",
+        "Prior 133Sn particle data and the Woods–Saxon explanation are attributed separately. The printed comparison caveat includes an average ±150 keV. No new numerical precision added."
+      ],
+      "gap": "No resolution of the low-lying doublet or full hole strength inventory from one transfer measurement.",
+      "lineage": "Own neutron pickup data, compared to earlier neutron-addition and other nuclei.",
+      "work_id": "catalogue:LIT-000612",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/orlandi-2018-131sn-surrey-delivery.pdf",
+        "sha256": "0d743eefaa6f6d62d60aa1b7a5ac4d9e87b3327ababd45a3fc04b3232cd3f684",
+        "size": 1391945,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-repository-copy-of-publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "PAI12-TL194-ARXIV-COVERAGE",
+      "version": "arXiv:1201.6596v2, author version of Phys. Rev. C 85, 064313",
+      "role": "verified-arxiv-v2-author-version",
+      "pages": 12,
+      "scope": [
+        "PDF1–4: experiment, gate-dependent statistics, correction a(E), and Compton asymmetry.",
+        "PDF5–7: Table I, level scheme and band evidence.",
+        "PDF8–12: alignment, TRS and quasiparticle discussion and references."
+      ],
+      "checks": [
+        "PDF5 Table I values verified for 244.9 and 278.4 keV, including common 686.7-keV E2 gate.",
+        "Reject worker 761-keV DCO of 0.91(14). Table I gives 0.58(9) from 468.4-keV M1 gate and omits IPDCO; author assignment is tentative.",
+        "Eq. (2) and Fig. 3 describe integrated asymmetry and unpolarized-source correction. No standalone P values inferred; do not equate tabulated asymmetry with P.",
+        "Reaction notation retained as 185,187Re(13C,xn); do not generalize the evaporation channel to 4n for both target mass numbers."
+      ],
+      "gap": "No 761-keV polarization observable or lifetime that would settle the B2 parity; conditional model interpretation of crossing.",
+      "lineage": "Primary INGA data, distinct from the later iThemba experiment. Interpretation and later comparisons have separate lineage.",
+      "work_id": "catalogue:LIT-000613",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260930-DAY4-pairing-quasiparticle-configuration/194tl-pai-2012/PDFs/Pai-2012-PRC85-064313-194Tl-arXiv-1201.6596v2.pdf",
+        "sha256": "633b068625691c4aeb6200867a9cd8820e6528b9fc19ae1c6ca2a3928fcf7553",
+        "size": 441074,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-v2-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 19
+}

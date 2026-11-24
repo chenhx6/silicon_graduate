@@ -3,7 +3,7 @@ type: source
 title: "Wang 2010：128I 高自旋纲图与低能复合峰身份"
 aliases: [Wang 2010 new high-spin level scheme 128I, 128I CPL 082701]
 created: 2026-10-16
-updated: 2026-10-16
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article
@@ -42,6 +42,8 @@ Wang等，*Chinese Physics Letters* **27**(8), 082701 (2010)，DOI [10.1088/0256
 2026-10-16从页面`citation_pdf_url`指定的公开PDF入口取得403207bytes、4页，SHA256见frontmatter。`raw_file`仅为schema要求的未填充保留槽，`raw_sha256`是已核公开PDF的期望哈希，不代表该raw路径已存在。文件只放Wiki内tmp用于核验，原raw保持不变，PDF不进Git；正式URL/printed page及图号为持久定位。先前不同入口的restricted访问记录属于历史，不再代表本轮未读状态。
 
 ## Scope and Reading Depth
+
+本轮核定刊版四页，印刷 082701-1 至 082701-4。PDF2 的 117.8、102.2 和 764.7 keV 角量对应不同自旋判据。PDF3 Fig. 4 的横轴为道址，三组门谱用于分辨近能支路。全文给出 ADO 用于指认的实例，逐跃迁线偏振 \(P\) 与定量 \(E2/M1\) 混合比未报告。
 
 - 完成：全文四页主线、实验/分析、Figs1–4、完整讨论/结论；主要谱图、纲图和低能分峰图经视觉核验。
 - 未完成：Refs15/16原件、全72边原事件重拟合、原响应/完整Cov和代码；不把打印图表当原始数据包。

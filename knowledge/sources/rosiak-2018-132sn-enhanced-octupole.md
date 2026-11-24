@@ -4,7 +4,7 @@ title: "Rosiak et al. 2018: enhanced quadrupole and octupole strength in 132Sn"
 aliases: [Rosiak 2018 132Sn E3, 132Sn enhanced octupole strength, HIE-ISOLDE 132Sn Coulomb excitation]
 created: 2026-11-01
 archive_required: true
-updated: 2026-11-01
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -49,6 +49,8 @@ PDF 共 7 页，SHA-256 为
 重新拟合的 L4 producer。
 
 ## Experimental Setup
+
+仓储封面为物理 PDF1，APS 正文为 PDF2–7（印刷 252501-1 至 252501-6）。PDF4 的 Fig. 1 和正文区分 4041.2、4351.9 keV 的符合峰与未观测到的 310.7-keV 线。后者的分支来自所引 β 衰变资料，并同 \(^{206}\mathrm{Pb}\) 靶的既有矩阵元进入 GOSIA2 分析。Table I 的 E1 强度保留这一输入依赖。
 
 `132Sn` radioactive beam 在 HIE-ISOLDE 加速到 `5.49 MeV/u`，轰击 `3.1 mg/cm²`
 的 `206Pb` 靶；平均束流约 `3.0×10^5 ions/s`，on-target 时间约 127 h。DSSSD

@@ -1,0 +1,85 @@
+{
+  "checked_at": "2026-11-21T20:05:47.629932+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "PALIT00-RH99-POLARIMETER-AUDIT",
+      "version": "Pramana 54, 347–354 (2000), 10.1007/s12043-000-0126-x",
+      "role": "verified-publisher-edition",
+      "pages": 8,
+      "scope": [
+        "PDF1–4 printed pp.347–350, experiment and Eqs. (1)–(11).",
+        "PDF5–8 printed pp.351–354, response calibration, target AD and P analysis, final attribution and references."
+      ],
+      "checks": [
+        "The two archived files are byte-identical.",
+        "P versus delta displayed in Fig. 4 and AD jointly used for 1117-keV E1+M2 inference. Existing verified delta, P and Q fields retained.",
+        "Printed p.351 specifies 31P + 74Ge for Rh/Pd and 27Al + 58Ni for Kr/Sr. Rejected substitute reaction from worker.",
+        "Retained distinction between Eu geometry correction and measured/calculated Q calibration. Did not copy worker formula with reversed count-normalization placement."
+      ],
+      "gap": "No raw covariance or event-level counts. Do not treat calibration as portable to another array.",
+      "lineage": "Same experiment data and derived P plus external source/cascade calibration; both stored files are one work.",
+      "work_id": "catalogue:LIT-000618",
+      "raw_files": [
+        {
+          "path": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/palit2000-rh99-polarimetry-16ac6571acce.pdf",
+          "sha256": "16ac6571accecd822c67cbdb79f8adeb72734ef3766f767d4f778af47bae1387",
+          "size": 141134,
+          "hash_basis": "fresh-hash",
+          "source_role": "verified-publisher-edition"
+        },
+        {
+          "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1007_s12043-000-0126-x.pdf",
+          "sha256": "16ac6571accecd822c67cbdb79f8adeb72734ef3766f767d4f778af47bae1387",
+          "size": 141134,
+          "hash_basis": "fresh-hash",
+          "source_role": "byte-identical-copy-of-primary"
+        }
+      ],
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "PAUL91-N75-TRIAXIAL-AUDIT",
+      "version": "IOP wrapper and J. Phys. G 17, 605–617 (1991), 10.1088/0954-3899/17/5/009",
+      "role": "verified-publisher-with-wrapper",
+      "pages": 14,
+      "scope": [
+        "PDF1 wrapper, PDF2–5 printed 605–608, introduction and distinct Ce singles and Gd coincidences.",
+        "PDF5–12 comparison formalism and plots; PDF13–14 printed 616–617 summary and references."
+      ],
+      "checks": [
+        "Printed pp.606–607 identify the Ce monitor at -90 degrees, contrary to worker -125.",
+        "Printed pp.607–608 place 35-degree/90-degree coincidence comparison in the Gd acquisition. Kept 133Ce separate.",
+        "Eq. (1) controls a2 and a4 through stretched E2 calibration. It does not implement a shared P measurement. Gating and normalization conditions sourced independently."
+      ],
+      "gap": "Missing event-level matrices and experimental linear polarization. Prior isotone data remain cited.",
+      "lineage": "Own Ce and Gd measurements with different setups; additional isotope comparisons use earlier studies.",
+      "work_id": "catalogue:LIT-000620",
+      "raw_files": [
+        {
+          "path": "raw/papers/1991_Electromagnetic properties of N=75 isotones_evidence for triaxiality at low spin.pdf",
+          "sha256": "1c3859a03a76e200048b8e087e91131d7dc5f21fb8a683cd39155ab00e0818c9",
+          "size": 652280,
+          "hash_basis": "fresh-hash",
+          "source_role": "verified-publisher-with-wrapper"
+        }
+      ],
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/paul-1991-n75-electromagnetic-properties-triaxiality.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 22
+}

@@ -1,0 +1,81 @@
+{
+  "checked_at": "2026-11-21T22:45:36.201917+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 703,
+      "task": "STRECK18-PR135-COLLECTIVE-ROTOR",
+      "pages": 10,
+      "version": "Physical Review C 98, 044314 (2018), publisher PDF",
+      "role": "verified-publisher-version",
+      "scope": [
+        "PDF1–3 PRM formulation and transformation",
+        "PDF4–5 135Pr energy and wobbling-frequency model with and without pairing",
+        "PDF6–9 distributions and geometry",
+        "PDF10 limitations and references"
+      ],
+      "checks": [
+        "PDF1 and 4 Fig. 1 establish 135Pr. The figure uses Matta Ref. [15] as the experimental energy source.",
+        "PDF6 Fig. 4 labels a calculated orientation probability P. The paper is a PRM study and does not supply a 135Pr gamma-ray linear-polarization measurement, angular ratio, source-original mixing ratio or experimental sigma/I fit.",
+        "PDF10 retains the model B(M1) discrepancy and the authors' cited possible scissors mechanism. It is a model limitation, not a substitute measurement or a unique alternative assignment."
+      ],
+      "gap": "Fixed model parameters and pairing variants. Quantitative disagreement in interband M1 remains; the reported angular-momentum topology is a PRM calculation.",
+      "lineage": "Physical level/frequency data are re-used from Matta et al. (2015); original contribution is theory and model calculations.",
+      "work_id": "catalogue:LIT-000703",
+      "raw": {
+        "path": "raw/papers/2018_Streck et al_Behavior of the collective rotor in wobbling motion.pdf",
+        "sha256": "e6816f64f08afebb4e0230ec418a5ccf13e19b30c38e5b6964dccc7b564a2f9d",
+        "size": 1205955,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 705,
+      "task": "STUCHBERY26-CR54-DSAM-SCOPE",
+      "pages": 11,
+      "version": "arXiv:2608.28047v2, archived 11-page author version (stamp 2026-09-16, manuscript date 2026-09-17)",
+      "role": "verified-arxiv-author-version",
+      "scope": [
+        "PDF1–2 context, 1980 measurement and centroid-shift method",
+        "PDF3–5 Ta and Mo stopping and reanalysis",
+        "PDF6–10 comparison, shell-model interpretation and discussion",
+        "PDF11 conclusions and references"
+      ],
+      "checks": [
+        "PDF2–3 method and tables: particle–gamma gates select direct population; centroid shifts enter Eq. 1. Published centroids and original records are from an existing measurement.",
+        "PDF4 Fig. 2 and PDF5 Tables II–III distinguish stopping response changes and the data combination.",
+        "PDF6 Table IV juxtaposes the Ta-only earlier values and the current recommended analysis. The 2.620-MeV lifetime changes from 0.16(+.04/−.03) ps to 0.185(25) ps. No single fractional increase describes all states."
+      ],
+      "gap": "The publisher PDF, archived raw spectra and reconstructed analysis implementation were outside the material audited. Published central values and assumptions can be checked separately.",
+      "lineage": "Reanalysis of 1980 data, including separate Ta/Mo backing records within that experiment.",
+      "work_id": "catalogue:LIT-000705",
+      "raw": {
+        "path": "raw/papers/2026_Stuchbery_Cr54_Dsam_reevaluation.pdf",
+        "sha256": "918ba5cb8a663bf57aedfef50f8106774a539f45454066079854bf425cfe1440",
+        "size": 392466,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 21
+}

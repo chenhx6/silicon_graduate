@@ -3,7 +3,7 @@ type: source
 title: "符合模式下的 γ 射线各向异性度测量"
 aliases: ["Zheng 2002 ADO", "Gamma-Ray Anisotropy Measurement in Coincidence Mode"]
 created: 2026-09-20
-updated: 2026-10-16
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: method
@@ -21,6 +21,7 @@ canonical_source: "郑勇等. 符合模式下的 γ 射线各向异性度测量.
 library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/2002_郑 et al_符合模式下的γ射线各向异性度测量.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/2002_郑 et al_符合模式下的γ射线各向异性度测量.pdf"
 raw_sha256: "03044180a59fa5be55bcb6c517e9b87285c0991855afe5e1104e9dd03e9a7f23"
+archive_required: true
 nuclei: ["145Tb", "144Gd", "143Gd", "142Gd", "143Eu", "146Tb"]
 observables: ["R_ADO", "gamma-ray-multipolarity", "angular-distribution", "detector-efficiency"]
 methods: ["angular-distribution", "gamma-gamma-coincidence", "ADO", "dco-ratio"]
@@ -38,6 +39,8 @@ tags: [ado, coincidence-mode, gamma-ray-anisotropy, multipolarity, detector-effi
 - 原始文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/2002_郑 et al_符合模式下的γ射线各向异性度测量.pdf`；SHA-256：`03044180a59fa5be55bcb6c517e9b87285c0991855afe5e1104e9dd03e9a7f23`。
 
 ## Scope and Reading Depth
+
+本轮复核五页刊版扫描，印刷 pp.909–913。Eq. (3) 的角分布比带 \(f_{\rm ADO}\) 修正。PDF3 的计算依赖门跃迁角分布及探测器组效率，在门能量 100–1500 keV 内讨论其偏离。偶极门的正文数值与 Fig. 1(a) 的可见点存在异文，沿用下文分别记录。
 
 - Completed reading_depth: `deep-read`。
 - Covered scope: PDF 物理页 1-5 全部视觉阅读；覆盖摘要、引言、ADO 原理与公式 (1)-(5)、`145Tb` 实验装置与效率修正、图 1/图 2、总结和参考文献。

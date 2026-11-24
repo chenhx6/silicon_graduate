@@ -3,7 +3,7 @@ type: source
 title: "Tawseef 等 2026：Pd 与 Cd 同位素磁转动与反磁转动的微观投影壳模型研究"
 aliases: [Tawseef 2026 microscopic MR AMR, PRC 113 054307, arXiv 2601.12496]
 created: 2026-10-29
-updated: 2026-10-29
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-theoretical
@@ -21,6 +21,7 @@ canonical_source: "https://doi.org/10.1103/xbsc-q21d"
 citation_key: tawseef_2026_MR_AMR_Pd_Cd
 raw_file: "raw/papers/gpt/tawseef-2026-microscopic-mr-amr-arxiv2601.12496v1.pdf"
 raw_sha256: "eddb5f0d931ae4132f03aeb53d9b7a8d21f18d404653b5f2a1e3238c9156c199"
+archive_required: true
 nuclei: [101Pd, 103Pd, 107Pd, 109Pd, 111Pd, 103Cd, 105Cd, 107Cd, 109Cd, 111Cd]
 models: [projected-shell-model, semiclassical-particle-rotor-model]
 observables: [energy-levels, BE2, BM1, J2-over-BE2]
@@ -39,6 +40,7 @@ W. Tawseef 等，*Microscopic investigation of magnetic and antimagnetic rotatio
 - Completed reading_depth: `deep-read`。完整通读 15 页正文与参考文献列表，详细核验 Table I，视觉核对 Figs. 1–17。
 - Covered scope: 扩展至两个主谐振子壳层（two major oscillator shells）与五准粒子（5-qp）基底的投影壳模型（PSM）微观理论框架；半经典粒子-转子模型（SCM）比较；10 个奇中子核素（101,103,107,109,111Pd 与 103,105,107,109,111Cd）的能谱、能带交叉、准粒子占据波函数成分、B(E2)、B(M1) 与 J(2)/B(E2) 演化；109Cd 中 AMR 与 MR 模式在同核不同带中的共存。
 - Not covered: 原 PSM 矩阵对角化程序源代码、未公开的多组态 Slater 行列式投影重叠矩阵元。
+- 原件审计：两个本地副本的 SHA-256 一致，均为 arXiv:2601.12496v1。PDF 1–4 为两模型与参数，PDF 5–10 为组态、能级及交叉，PDF 10–13 为电磁比较和结论，PDF 14–15 为引文。这里的图表位置对应作者稿。
 
 ## Summary
 
@@ -72,7 +74,7 @@ W. Tawseef 等，*Microscopic investigation of magnetic and antimagnetic rotatio
 | TW26-4 | 9 个 AMR 候选核（除 107Cd 外）的带内 $B(E2)$ 跃迁几率均自发展现出随自旋增加单调下降的特征，与 SCM $\sin^4\theta$ 趋势相符（Figs. 12–13），同时带内 $B(M1) \approx 0$（Fig. 16）。 | model-result | direct | PDF pp.11–13, Figs.12–13, 16 | true |
 | TW26-5 | 动态转动惯量与 $B(E2)$ 比值 $\mathcal{J}^{(2)}/B(E2)$ 维持在 $150 - 600\ \hbar^2\text{MeV}^{-1}(e\text{b})^{-2}$ 的高位平台，微观证实了 AMR 区别于全对齐非集体能带终止（带终止时 $\mathcal{J}^{(2)}$ 剧烈塌缩）的核心判据。 | model-result | direct | PDF pp.11–12, Figs.14–15 | true |
 | TW26-6 | 107Cd 在微观 PSM 中表现为显著的磁转动（MR）特征：$B(M1) \approx 0.5 - 2.5\ \mu_N^2$ 随自旋下降，而 $B(E2) \approx 0$；微观机制归因于扁椭形变（$\varepsilon = -0.11$）下粒子-空穴垂直非对称耦合。 | model-result | direct | PDF p.12, Figs.13, 16 | true |
-| TW26-7 | 109Cd 在同一核中展现出 AMR 与 MR 的共存：yrast 负宇称带为典型的双剪刀 AMR 带，而基于 $1\nu 2\pi$ 构型的激发带展现出标准的 MR 强 $M1$ 阶梯（Fig. 17）。 | model-result | direct | PDF pp.12–13, Fig.17 | true |
+| TW26-7 | `109Cd` 的 yrast 负宇称带与激发带分别用 AMR、MR 比较。作者指出全基底的激发带混合妨碍识别观测的 MR 带，因此 Fig. 17 采用受限的 \(1\nu\) 与 \(1\nu 2\pi\) 基底，并与 Ref. [20, 21] 的既有实验比较。 | model-result | direct | PDF12–13, Fig. 17 | true |
 
 ## Competing Interpretations and Limitations
 

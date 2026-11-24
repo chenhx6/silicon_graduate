@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-11-21T19:57:18.733210+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "PAI14-BI198-CROSSING-AUDIT",
+      "version": "arXiv:1406.5494v3, PRC 90, 064314",
+      "key": "198Bi",
+      "pages": 14,
+      "scope": [
+        "PDF1–3 apparatus, coincidence, DCO and asymmetry.",
+        "PDF4–8 Fig. 3 level scheme, Table I, coincidence and alignment.",
+        "PDF8–13 Hybrid-TAC and semiclassical calculations; PDF13–14 conclusion and references."
+      ],
+      "checks": [
+        "Original Fig. 3 is the level scheme, Table I spans PDF5–6; the previous note cited a nonexistent Table II.",
+        "Fig. 8(b) has two conditional B(M1) estimates, using B2 intensity ratios and delta=0 with calculated B(E2). The experimental lifetime was unavailable.",
+        "Source only reports the integrated Compton asymmetry. Original Eq. (2) and Fig. 1 give a(E); no P conversion made.",
+        "Removed article attribution of a 0.82 MeV chiral threshold with no corresponding primary locator. Did not use unverified worker crossing or branching numbers."
+      ],
+      "gap": "No measured absolute transition strengths or event-level input in this copy.",
+      "lineage": "Own 198Bi coincidence data. Model comparisons and cited external g factors remain separate.",
+      "work_id": "catalogue:LIT-000614",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/bi198/Crossing_of_large_multiquasiparticle_magnetic_rotation_bands_in_198Bi.pdf",
+        "sha256": "464d4deb3317e16688fe49de136cbaff91f4dc1a7f570243d2143c74ebd1c5e0",
+        "size": 334161,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/pai-2014-198bi-multiquasiparticle-magnetic-rotation.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "PAI16-CR50-M1-RESPONSE-AUDIT",
+      "version": "arXiv:1601.01905v1, PRC 93, 014318",
+      "key": "50Cr",
+      "pages": 10,
+      "scope": [
+        "PDF1–4 NRF measurements, widths, Table I and branching.",
+        "PDF5–8 comparisons, QRPA and shell-model transition structure and calculations.",
+        "PDF9–10 Table III, discussion and references."
+      ],
+      "checks": [
+        "Table I total measured excitation strength for the 3628.2-keV state is 1.113(49) mu_N^2.",
+        "Table III has no experimental orbital/spin strengths. Its R is their ratio (2.9 QRPA; 2.6 LSSM).",
+        "The tabulated model totals minus the two diagonal terms give 0.71 and 0.390 mu_N^2. Workers called those R; these derived cross terms are separate from dimensionless R.",
+        "The B(E2) value in the experiment column is external Ref. [28]."
+      ],
+      "gap": "No direct decomposition of the experimental M1 matrix element into orbital and spin contributions.",
+      "lineage": "Own NRF data plus separately cited E2 and other-nucleus experimental comparisons. Orbital/spin result is model-dependent.",
+      "work_id": "catalogue:LIT-000615",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2016-pai-cr50-scissors.pdf",
+        "sha256": "aec3ddaf120312d487c3f3a627323bc7904343c03b7e1ab8f234bb5259fe8ff7",
+        "size": 377326,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/pai-2016-cr50-orbital-spin-transition-currents.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 24
+}

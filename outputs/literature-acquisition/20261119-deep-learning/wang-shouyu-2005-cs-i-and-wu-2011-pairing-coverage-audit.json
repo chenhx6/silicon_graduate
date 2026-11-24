@@ -1,0 +1,80 @@
+{
+  "checked_at": "2026-11-22T00:23:37.390182+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 758,
+      "task": "WANG05-SHOUYU-THESIS-FULL-COVERAGE",
+      "pages": 220,
+      "version": "Shouyu Wang, Jilin University doctoral dissertation, 2005",
+      "role": "verified-doctoral-thesis",
+      "scope": [
+        "PDF1–52 front matter, background and methods",
+        "PDF53–120 126Cs spectra and band analysis",
+        "PDF121–157 chiral-band comparisons",
+        "PDF158–201 123I spectra and theoretical interpretation",
+        "PDF202–220 abstracts and end matter"
+      ],
+      "checks": [
+        "PDF57–58 distinguishes the NORDBALL input from the earlier Lanzhou investigation and gives empirical ADO reference values.",
+        "PDF61 Table 3.1 has 217.8 keV with RADO 1.45 and relative intensity 1000. PDF137 uses the small-mixing approximation delta squared equals zero in the branching-strength comparison.",
+        "PDF159 records shared 123I and 126Cs acquisition. PDF161 confirms the 123I transition-table scope."
+      ],
+      "gap": "Spins, polarimetry and mixing assumptions have different evidentiary roles. This branching calculation has no per-transition P or delta measurement.",
+      "lineage": "Same NORDBALL acquisition for two different reaction products and for the corresponding journal 126Cs reanalysis.",
+      "work_id": "catalogue:LIT-000758",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/王守宇博士 126Cs的高自旋态及A～130区手征双重带研究.pdf",
+        "sha256": "f8a2214250cb71a6ea10473713cad62022c9412783876375d87e6ed7a8021ceb",
+        "size": 6687748,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-doctoral-thesis"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/wang-shouyu-2005-126cs-123i-chiral-thesis.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 762,
+      "task": "WU11-PAIRING-ROTATION-BLOCKING",
+      "pages": 15,
+      "version": "arXiv:1104.3385v2, 15-page archived author manuscript",
+      "role": "verified-arxiv-author-version",
+      "scope": [
+        "PDF1–5 method and correlation-energy-based gap",
+        "PDF6–12 rotational and blocking examples",
+        "PDF13–15 conclusion and references"
+      ],
+      "checks": [
+        "PDF5 Eq. 10 defines the pairing diagnostic within a fixed-particle-number model.",
+        "Figs. 1 and 4 use cited inertia points. Pairing gaps in those figures come from model calculations."
+      ],
+      "gap": "Pairing results depend on the declared model space and configurations.",
+      "lineage": "Original calculation with experimental comparison points from cited measurements.",
+      "work_id": "catalogue:LIT-000762",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/wu-2011-pairing-rotation-blocking-arxiv1104.3385.pdf",
+        "sha256": "3e0a00171798bed92006eac788d578fbcb73fb2d64338dfab33bf7a7793f2979",
+        "size": 318222,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/wu-2011-pairing-rotation-blocking-pnc.md",
+          "declared_reading_depth": "read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 235
+}

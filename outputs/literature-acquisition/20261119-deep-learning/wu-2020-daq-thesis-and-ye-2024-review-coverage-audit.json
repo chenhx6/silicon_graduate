@@ -1,0 +1,80 @@
+{
+  "checked_at": "2026-11-22T00:41:45.894960+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 765,
+      "task": "WU20-DAQ-THESIS-FULL-COVERAGE",
+      "pages": 143,
+      "version": "Hongyi Wu, Peking University doctoral dissertation, 2020, authorized archived version",
+      "role": "verified-doctoral-thesis",
+      "scope": [
+        "PDF1–14 front matter and introduction",
+        "PDF15–82 acquisition fundamentals, engineering and software",
+        "PDF83–114 applications, timing and performance",
+        "PDF115–143 conclusion, bibliography and appendices"
+      ],
+      "checks": [
+        "PDF47 gives the module-to-host interface specification, separated from achieved acquisition performance.",
+        "PDF88–89 Figs. 3.7–3.8 report the 925-keV 62Cu resolution-rate comparison and the spectra at 8800 triggers/s. Same test as the companion journal publication.",
+        "PDF108 Fig. 3.42 compares 280(2) and 180(1) ps coincidence timing for two CFD algorithms and the stated Co setup."
+      ],
+      "gap": "Acquisition performance remains tied to detector, input rate and filtering. Raw waveform and firmware replay outside the evidence scope.",
+      "lineage": "Several original application tests; relevant examples overlap the later journal method report.",
+      "work_id": "catalogue:LIT-000765",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf",
+        "sha256": "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b",
+        "size": 16274132,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-doctoral-thesis"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 772,
+      "task": "YE24-EXOTIC-NUCLEI-FULL-COVERAGE",
+      "pages": 17,
+      "version": "Nature Reviews Physics, DOI 10.1038/s42254-024-00782-5, archived 17-page publisher layout",
+      "role": "verified-publisher-review",
+      "scope": [
+        "PDF1–4 background and model taxonomy",
+        "PDF5–8 shell evolution and observables",
+        "PDF9–12 weak binding, halos, clusters and outlook",
+        "PDF13–17 outlook tail and references"
+      ],
+      "checks": [
+        "PDF6 Fig. 4 explains orbital shifts within a proton–neutron interaction picture.",
+        "PDF8 presents the N=32 mass and charge-radius evidence with different implications. PDF10 Fig. 5 maps previously observed halo systems."
+      ],
+      "gap": "Experimental examples retain original publications, instruments and reference status. The review does not add a measurement.",
+      "lineage": "Secondary synthesis of multiple prior theoretical and experimental studies.",
+      "work_id": "catalogue:LIT-000772",
+      "raw": {
+        "path": "raw/papers/2024_Ye et al_Physics of exotic nuclei.pdf",
+        "sha256": "467a2cf6b6c953c7eeed2756c4d15d1eae3166f30ad2a6e88b121c76f5093d43",
+        "size": 2858576,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-review"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/ye-2024-physics-exotic-nuclei.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 160
+}

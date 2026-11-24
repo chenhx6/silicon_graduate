@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-11-22T00:30:28.389161+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 770,
+      "task": "YAN15-CSR-THESIS-FULL-COVERAGE",
+      "pages": 120,
+      "version": "Duo Yan, doctoral dissertation, 2015, 120-page archive",
+      "role": "verified-doctoral-thesis",
+      "scope": [
+        "PDF1–14 front matter and motivation",
+        "PDF15–46 CSR external target and conditions",
+        "PDF47–61 gamma-ball design and source tests",
+        "PDF62–102 particle identification and beam tests",
+        "PDF103–120 conclusion, bibliography and publications"
+      ],
+      "checks": [
+        "PDF47–48 describes a 4608-crystal design and 768 crystals installed for the test.",
+        "PDF59–61 gives 38.9% measured and 66.0% simulated full-energy-peak efficiency for the reported coincidence method and restricted coverage. The thesis leaves their discrepancy unresolved.",
+        "PDF89–91 Figs. 5.23–24 separate the beam-spot selection effect and unresolved oxygen isotope separation."
+      ],
+      "gap": "Instrument performance remains specific to the source, geometric denominator, beam spot and detector conditions. Simulation does not replace detector calibration.",
+      "lineage": "Original prototype and instrument tests plus their simulation comparators.",
+      "work_id": "catalogue:LIT-000770",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/闫铎 - 在CSR 外靶终端开展中高能库仑激发反应.pdf",
+        "sha256": "9a7ba567b498edfa68b89a545698bf1c32f89a5c58d9cb3682448e0257f2a20e",
+        "size": 6688293,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-doctoral-thesis"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/yan-duo-2015-csr-coulomb-excitation-detector-system-thesis.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 1,
+  "credited_primary_pages": 120
+}

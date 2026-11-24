@@ -3,7 +3,7 @@ type: source
 title: "郑勇 2004 博士论文：原子核 145Tb 和 157Yb 的高自旋态能级结构研究"
 aliases: ["郑勇2004博士论文", "Zheng Yong 2004 thesis", "145Tb 157Yb high-spin thesis"]
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 issue_id: "DD-20260910-HS-004"
@@ -25,6 +25,7 @@ zotero_uri:
 library_file: "raw/theses/degree-dissertation/郑勇-原子核145Tb和157Yb的高自旋态能级结构研究.pdf"
 raw_file: "raw/theses/degree-dissertation/郑勇-原子核145Tb和157Yb的高自旋态能级结构研究.pdf"
 raw_sha256: "23c4d3c72c829f3353919bec53f89e5bdfda4339ad2f173186b572905a669780"
+archive_required: true
 nuclei: [145Tb, 157Yb]
 reactions: ["118Sn(32S,1p4n)145Tb", "144Sm(16O,3n)157Yb"]
 experiments: ["JAERI GEMINI 145Tb", "CIAE HI-13 157Yb"]
@@ -46,6 +47,11 @@ tags: [high-spin, 145tb, 157yb, near-spherical, transitional-region, weak-coupli
 - `citation_key`：空。只读 BibTeX 中没有唯一匹配学位论文条目，本页不猜测 cite-key。
 
 ## Scope and Reading Depth
+
+本轮核定 132 个物理页。PDF1–13 为前置和引言，PDF14–76 为理论、仪器和角量方法，PDF77–106 为 `145Tb`，PDF107–121 为 `157Yb`，PDF122–132 为总结和书目等。正文印刷页为物理 PDF 页减 4。
+
+- PDF74–76 的 \(f_{\rm ADO}\) 曲线和经验判据与 [[zheng-2002-ado-coincidence-angular-anisotropy]] 的 `145Tb` 案例同源。PDF78 核实该实验用 \(^{118}\)Sn(\(^{32}\)S, \(1p4n\))。
+- `157Yb` 为独立的 \(^{144}\)Sm(\(^{16}\)O,\(3n\)) 采集（PDF108）。PDF112 表 5.1 的 491.0 keV 行列 \(R_{\rm DCO}=1.02(9)\) 和 \(R_{\rm ADO}=1.42(10)\)。两项按各自定义登记；该行未列逐跃迁 \(P\) 或定量 \(\delta\)。
 
 - Completed reading_depth: `deep-read`。
 - Covered scope: 题名页、中英文摘要和目录（PDF pp.1–6）；引言（pp.7–13）；粒子–核芯相互作用、`Jmax−1`、Z=64 壳隙、半经验壳模型、TRS 和激发模式（pp.14–37）；高自旋布居、探测器、符合、ADO/DCO、刻度和矩阵分析（pp.38–76）；`145Tb` 反应、能级纲图、Table 1、图 4.1–4.8、弱耦合/半经验模型讨论（pp.77–106）；`157Yb` 反应、Table 5.1、图 5.1–5.11、TRS 和竞争解释（pp.107–121）；总结（pp.122–123）。

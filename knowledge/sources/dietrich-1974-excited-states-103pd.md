@@ -152,3 +152,8 @@ W. Dietrich、B. Nyman、A. Johansson、A. Bäcklin，*Excited States in 103Pd*�
 ## Non-source Notes and Follow-up
 
 此来源明确是 `UUIP-882` 实验报告，不应被目录位置误判为博士论文。
+
+
+## 2026-11-22 — UUIP-882 原页与文件角色复核
+
+PDF 2 题名页登记 Uppsala 报告 UUIP-882，1974 年 10 月。PDF 6（印 4）§3.1.4 使用脉冲束延迟符合，给 784 keV \(11/2^-\) 能级 \(T_{1/2}=25(2)\) ns。PDF 18（印 16）Table 3 的 42 ns 与 241 ns 是 66.8 keV E1、540.6 keV M2 两支的分半衰期，用在各自阻碍因子中。报告里的总半衰期、部分半衰期和作者自旋指派分别引用。原件虽位于学位论文目录，文件身份为实验报告。

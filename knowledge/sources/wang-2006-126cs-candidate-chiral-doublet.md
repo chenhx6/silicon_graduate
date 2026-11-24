@@ -3,7 +3,7 @@ type: source
 title: "Wang et al. 2006 - Candidate chiral doublet bands in 126Cs"
 aliases: [Wang Liu Komatsubara 2006 126Cs NORDBALL reanalysis, 126Cs Table I ADO and ratio data]
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: experimental-journal-article
@@ -28,6 +28,7 @@ tags: [126Cs, chirality-candidate, NORDBALL, ADO, ratio-staggering, data-lineage
 citation_key: "Wang_2006"
 raw_file: "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/wang-2006-126cs.pdf"
 raw_sha256: "88e8cc5625493de58e5d7b2ee88318e49c44183db7e2613009e344538954f536"
+archive_required: true
 ---
 
 # Candidate chiral doublet bands in the odd-odd nucleus 126Cs
@@ -96,6 +97,8 @@ The thesis’s claim that the same-A M1 transition is favored remains in textual
 Decision: **limits** the 126Cs candidate interpretation to the reported line/ratio systematics. This source makes the shared NORDBALL acquisition, ADO line assignments, and odd-even ratio pattern auditable, but it does not provide absolute B values, lifetimes, or experimental A labels. It preserves the Wang05/Koike04 M1 paraphrase conflict rather than resolving it.
 
 ## Scope and Reading Depth
+
+本轮核定 arXiv:nucl-ex/0702006v1 的 16 页。PDF3 说明沿用 Komatsubara 等的 NORDBALL 符合数据，重建两张非对称矩阵提取 ADO。原文经验值约 1.4（拉伸四极或 \(\Delta I=0\) 偶极）和 0.7（拉伸偶极）。Table I 提供跃迁、强度与 ADO。逐线物理偏振 \(P\) 和定量 \(E2/M1\) 混合比未报告。
 
 The 16-page arXiv version, Table I, Figs. 1/3–5, and transition line table were reviewed. The article identifies its NORDBALL input as an earlier acquisition, not a new experiment.
 

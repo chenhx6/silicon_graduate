@@ -174,3 +174,8 @@ TableII逐行账本如下；Ei/Ef保留原旧评价标签，Eγ与τ是作者本
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | K16-D19-3 | TableII共13态=4有限寿命+9项95%上限，含6899→g.s.的6907(3)keV、tau<10fs。7787→451为7335(2)keV、tau<12fs。上限不是额外mean tau测量，不能据三个中心/limit相近认证所有系统无偏。固定J=7/2且只计p/gamma通道的强度公式含Bp(1−Bp)，用F23推荐中心给.241766meV；该算术不重建原fitCI或消除stopping/branch/spin依赖。 | literal-inventory-and-conditional-width | direct-original-and-task-derived | PDF10 TableII; F23-11 | true |
+
+
+## 2026-11-22 — 本地原件与证据范围复核
+
+PDF 8–12 与 Table II 的 7787 keV 结果是 \(\tau<12\) fs 的 95% 上限。不能将寿命单变量界直接用于同时带有分支、自旋不确定度的强度区间。

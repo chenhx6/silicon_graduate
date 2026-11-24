@@ -85,3 +85,8 @@ tags: [a130, transfer, gamma-softness, multiorbital, holdout]
 ## Human Review
 
 以上为直接原件核查和本任务推断；没有human review或最终paper admission。
+
+
+## 2026-11-22 — 正刊原表与范围复核
+
+18 页正刊既有全文实读，本轮在 PDF 4–7 核 Table 1。PDF 5（印 647）的基态与 7.8(16) keV 行，在质心角 14.3° 的相对截面分别是 590、193。相对谱强度分别为标定的 1.0 和 1.38。PDF 11 Table 2 改用另一归一。截面单位、相对谱强度和 IBFM 预测列分别保留。

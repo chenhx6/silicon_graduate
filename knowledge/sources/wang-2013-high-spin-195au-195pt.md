@@ -3,7 +3,7 @@ type: source
 title: "王思成 2013 博士论文：过渡区核 195Au 和 195Pt 高自旋态能级结构研究"
 aliases: ["王思成2013博士论文", "Wang Sicheng 2013 thesis", "195Au 195Pt high-spin thesis"]
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 issue_id: "DD-20260910-HS-003"
@@ -25,6 +25,7 @@ zotero_uri:
 library_file: "raw/theses/degree-dissertation/王思成 - 过渡区核195Au和195Pt高自旋态能级结构研究.pdf"
 raw_file: "raw/theses/degree-dissertation/王思成 - 过渡区核195Au和195Pt高自旋态能级结构研究.pdf"
 raw_sha256: "4bde62b1c0736c2b6c763408f75e11051c63568421164fc09a6533255e45cfa3"
+archive_required: true
 nuclei: [195Au, 195Pt]
 reactions: ["192Os(7Li,4nγ)195Au", "192Os(7Li,(p,d,t)xn)195Pt"]
 experiments: ["CIAE HI-13 7Li-192Os in-beam gamma spectroscopy"]
@@ -46,6 +47,9 @@ tags: [high-spin, transitional-region, 195au, 195pt, odd-mass-nucleus, shape-evo
 - `citation_key`：空。只读 BibTeX 中没有唯一匹配的学位论文条目，本页不猜测 cite-key。
 
 ## Scope and Reading Depth
+
+- 本轮核定 PDF1–56 的前置页、理论和仪器，以及 PDF57–105 的分析、谱学结果和书目。正文印刷页为物理 PDF 页减 12。PDF70 Eq. 4.9 以符合门下的效率修正峰面积求比，小角组约 \(40^\circ/152^\circ\)，大角组约 \(90^\circ\)。Au 章另以 \(35^\circ/90^\circ\) 记投影角组（PDF76），保留两处原文表述。
+- PDF78 Table 5.1 的 `195Au` 166.9 keV 行给 \(R_{\rm ADO}=1.16(16)\)。PDF90 Table 6.1 的 `195Pt` 368.8 keV 行给 \(1.26(13)\)。论文给共同矩阵和选门方法。两行的逐线门能量及线偏振 \(P\) 未列于表中。PDF105 的成果清单分别回链相应 Au、Pt 期刊稿。
 
 - Completed reading_depth: `deep-read`。
 - Covered scope: 题名页、中英文摘要和目录（PDF pp.1–12）；引言（pp.13–16）；壳模型、形变、推转壳模型、Routhian/alignment、signature 和 TRS（pp.17–33）；实验装置、`7Li+192Os` 反应、电子学和记录（pp.34–56）；矩阵、相对强度、DCO/ADO、内转换方法（pp.57–72）；`195Au` 实验/纲图/表 5.1/TRS 讨论（pp.73–85）；`195Pt` 非完全熔合归属、纲图、表 6.1、TRS 和负宇称带讨论（pp.86–97）；结论（pp.96–97）。

@@ -68,3 +68,10 @@ Byrne强度来自86-MeV采集，Stuch RDDS为76MeV；不能借前者的强度平
 ## Human Review
 
 Codex身份与访问self-audit；未认证原刊寿命提取或human-reviewed。
+
+
+## 2026-11-22 — Cologne 引文文件的身份复核
+
+`cologne-stuch-thesis-citation-promo.pdf` 的 124 页题名页署名 Oliver Möller，题名为 *Test der X(5)-Symmetrie in Dy und Os durch Messung elektromagnetischer Übergangswahrscheinlichkeiten*，题名页记 Köln 2005，口试页记 2006-02-15。该文件作为 Möller 的学位论文另列馆藏候选。对 Stuch 的证据限于 PDF 80 的比较文字、PDF 88 的 `[STU98]` 书目，以及单独三页 `stuch1997-thesis-toc.pdf` 的目录。Stuch 论文正文和所需的原刊表格仍待取得。
+
+Möller 的实读记录另见 [[moeller-2005-156dy-178os-rdds-thesis]]。其中的 Dy/Os 实验与 Stuch 所研究的 Ba 采集分开登记。

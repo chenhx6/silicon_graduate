@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-11-22T01:13:09.535426+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 780,
+      "task": "ZHANG22-SHAPE-THESIS-FULL-COVERAGE",
+      "pages": 132,
+      "version": "Wenqiang Zhang, University of Chinese Academy of Sciences doctoral dissertation, 2022",
+      "role": "verified-doctoral-thesis",
+      "scope": [
+        "PDF1–26 front matter and introduction",
+        "PDF27–64 theory and apparatus",
+        "PDF65–94 analysis and 187Pb",
+        "PDF95–112 188Bi and 188Po",
+        "PDF113–132 conclusion, bibliography and back matter"
+      ],
+      "checks": [
+        "PDF60 identifies AGFA and the shared recoil-tagging setup. The three nuclei are different products recorded in one acquisition.",
+        "PDF82 gives the 187Pb delayed 308-keV line and 5.15(15) microsecond fit. PDF97 gives the 188Bi 243-keV-conditioned 0.25(5) microsecond fit with a distinct combined-line comparison.",
+        "PDF102–103 Fig. 6.6 contains three events for 242 keV, two for 347 keV, and the author's background/significance treatment. The first 2+ interpretation also uses isotopic systematics."
+      ],
+      "gap": "Low statistics, background choices and conditional shape assignments remain explicit. No separate replication credit for analyses of the same event stream.",
+      "lineage": "Shared AGFA/Gammasphere acquisition with distinct tagging channels; primary spectra and model comparisons use different evidence roles.",
+      "work_id": "catalogue:LIT-000780",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/张文强.pdf",
+        "sha256": "0bc7a14983e601d81d7e2052587f114b4ece87756f77955a004d0aae616616cc",
+        "size": 20379376,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-doctoral-thesis"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/zhang-2022-shape-coexistence-187pb-188bi-188po.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 1,
+  "credited_primary_pages": 132
+}

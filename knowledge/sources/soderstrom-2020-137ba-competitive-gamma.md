@@ -3,7 +3,7 @@ type: source
 title: "Söderström et al. 2020 - Electromagnetic character of the competitive gamma-gamma/gamma decay from 137mBa"
 aliases: [Soderstrom 2020 137Ba competitive double gamma]
 created: 2026-09-21
-updated: 2026-10-30
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment-and-model
@@ -22,6 +22,7 @@ canonical_source: "https://doi.org/10.1038/s41467-020-16787-4"
 library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2020_Söderström et al_Electromagnetic character of the competitive γγ-γ-decay from 137mBa.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2020_Söderström et al_Electromagnetic character of the competitive γγ-γ-decay from 137mBa.pdf"
 raw_sha256: "fb8bd159bae6e5f1e2b9827e1bf2bce7cd98c126c7fef00f1bd41526154ec12a"
+archive_required: true
 nuclei: [137Ba, 137Cs, 152Sm]
 reactions: [137Cs-beta-decay]
 experiments: [ELIGANT, CeBr3, ELI-NP]
@@ -42,6 +43,7 @@ tags: [137Ba, competitive-double-gamma, two-photon-decay, polarizability, E3M1]
 ## Scope and Reading Depth
 
 - The eight-page open-access article was read end-to-end: motivation, Fig.1 decay scheme, Table 1, eleven-CeBr3 setup, Figs.2–5, differential-branching definition, energy-sharing fit, EDF+QPM/MCSM discussion, Methods Eqs.(6–9), Tables 2 and data/code availability.
+- Verified publisher PDF coverage: pp.1–2 decay scheme and amplitude definitions, pp.3–4 detector layout and coincidence selection, pp.5–6 joint fit and model comparison, pp.7–8 calculation details, availability, references and end matter.
 
 ## Independent Measurement
 
@@ -52,6 +54,8 @@ The summed peak contains `990(170)` counts before final cuts and `960(100)` afte
 ## Electromagnetic Character and Model Comparison
 
 Pure M2E2 and E3M1 paths have different energy-sharing shapes: M2E2 peaks near equal `331/331 keV`, while E3M1 is asymmetric near about `200/442 keV` (pp.4–5, Fig.5a). Angular data alone have two χ² minima; simultaneous angle plus energy-sharing data favor a substantial `αE3M1` and much smaller `αM2E2` than the original Walz interpretation (Fig.5b). Table 1 reports the present fitted values `αM2E2=±8.8(50)` and `αE3M1=±36.4(20) e²fm⁴/MeV` (sign branches), while EDF+QPM and MCSM give different `αM2E2` signs/magnitudes and more consistent E3M1 contributions.
+
+The five angles are openings between the two detected photons (p.3, Fig.2). The symbol `δ` denotes a differential double-photon branching ratio (p.4, Eq.4), and the fitted `α` values are second-order off-diagonal electromagnetic polarizabilities (p.2, Eqs.2–3). For the single-transition `E2/M1` survey, the mixing-ratio and Compton linear-polarization `P` fields are inapplicable.
 
 The paper's MCSM analysis finds a strongly hindered `M2` transition (`B(M2)=13.5×10−3 μ²fm²`, about three orders below the EDF+QPM value), explaining suppression of the quadrupole–quadrupole component; EDF+QPM attributes E3M1 strength to a collective octupole phonon (pp.5–6, Table 2). The authors stress that model complexity does not yet resolve the remaining α-component discrepancy.
 

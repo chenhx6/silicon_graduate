@@ -1,0 +1,110 @@
+{
+  "checked_at": "2026-11-21T23:43:59.077743+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 744,
+      "task": "WANG06-CS126-ORIGINAL",
+      "pages": 16,
+      "version": "arXiv:nucl-ex/0702006v1 (2007), corresponding PRC 74, 017302 (2006)",
+      "role": "verified-arxiv-author-version",
+      "scope": [
+        "PDF1–5 main text",
+        "PDF6–8 references and Table I",
+        "PDF9–16 captions and figures"
+      ],
+      "checks": [
+        "PDF3 explicitly reuses Komatsubara NORDBALL coincidence data for ADO. The empirical categories are around 1.4 and 0.7.",
+        "PDF6–8 Table I provides intensities, angle ratios and candidate assignments. PDF15–16 compares structure systematics."
+      ],
+      "gap": "No new acquisition, quantitative gamma polarization, or delta extraction in this article. Structural interpretation and finite-spin comparisons remain conditional.",
+      "lineage": "Reanalysis of cited NORDBALL measurement.",
+      "work_id": "catalogue:LIT-000744",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/wang-2006-126cs.pdf",
+        "sha256": "88e8cc5625493de58e5d7b2ee88318e49c44183db7e2613009e344538954f536",
+        "size": 242547,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/wang-2006-126cs-candidate-chiral-doublet.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 745,
+      "task": "WANG10-I128-LINE-IDENTITY",
+      "pages": 4,
+      "version": "Chin. Phys. Lett. 27, 082701 (2010), publisher PDF",
+      "role": "verified-publisher-version",
+      "scope": [
+        "PDF1–2 reaction, coincidences and calibration of assignment",
+        "PDF3–4 level scheme, component identity, interpretation and bibliography"
+      ],
+      "checks": [
+        "PDF2 gives ADO 1.54(13) at 117.8 keV, 0.90(7) at 102.2 keV and 1.45(11) at 764.7 keV; neighboring support is needed for the last branch.",
+        "PDF3 Fig. 4 uses planar channel axis and three different gates; the article and related thesis are treated as one acquisition lineage."
+      ],
+      "gap": "Source-original ADO accompanied by explicit assignment ambiguities. Gamma P and quantitative E2/M1 values not reported.",
+      "lineage": "The journal and closely related thesis publication are treated as related views of a shared experiment.",
+      "work_id": "catalogue:LIT-000745",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam/wang-2010-128i-new-high-spin-level-scheme.pdf",
+        "sha256": "28b81f5be7dfbe3b7efbb7efb37576eef7e4ac6060baac6c19d54e9c0187c387",
+        "size": 403207,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 746,
+      "task": "WANG13-AG104-ORIGINAL",
+      "pages": 9,
+      "version": "Phys. Rev. C 88, 024306 (2013), publisher PDF",
+      "role": "verified-publisher-version",
+      "scope": [
+        "PDF1–2 setup, definitions and method",
+        "PDF3–5 transitions and level scheme",
+        "PDF6–9 candidate interpretations, figures and references"
+      ],
+      "checks": [
+        "PDF2 defines RADO=Iγ(40°)/Iγ(90°), the first group includes 140°. The typical ratios are 1.2 and 0.8 for stretched quadruple and dipole cases, respectively.",
+        "PDF3 Table I lists 346.3 keV with RADO 0.86(5), and relative intensity 100.0(58). The ratios in Fig. 4 are distinct from mixing ratios and direct P measurements."
+      ],
+      "gap": "Partner-strength comparisons use branching evidence. No quantitative P or directly measured delta in this article.",
+      "lineage": "Primary gamma spectroscopy; follow-up thesis experiment matching still needs explicit table/geometry reconciliation.",
+      "work_id": "catalogue:LIT-000746",
+      "raw": {
+        "path": "raw/papers/2013_Wang et al_High-spin level structure of the doubly odd nucleus 104 Ag.pdf",
+        "sha256": "366246acec6c6b5a46169606b125683bbd58c9d512a980a3910e5b23d837039c",
+        "size": 394155,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 3,
+  "credited_primary_pages": 29
+}

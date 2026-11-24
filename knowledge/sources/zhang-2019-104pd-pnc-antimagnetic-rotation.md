@@ -3,7 +3,7 @@ type: source
 title: "Zhang 2019 — 104Pd反磁转动的粒子数守恒推转壳模型"
 aliases: [Zhang 2019 104Pd PNC CSM, 1912.11990v1]
 created: 2026-10-29
-updated: 2026-10-29
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: theoretical-research
@@ -22,6 +22,7 @@ citation_key_verified: 2026-10-29
 canonical_source: "doi:10.1088/1674-1137/43/5/054107"
 raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/zhang-2019-104pd-pnc-amr-arxiv1912.11990v1.pdf"
 raw_sha256: "d0938039dd5c75f223bac9eca1d75e3c3d55f406504c41dc9f816a11d439de91"
+archive_required: true
 nuclei: [104Pd]
 models: [particle-number-conserving-cranked-shell-model]
 observables: [BE2, angular-momentum-alignment, occupation-probability, moments-of-inertia]
@@ -36,6 +37,8 @@ tags: [104Pd, antimagnetic-rotation, pairing, shape-evolution, evidence-boundary
 Zhen-Hua Zhang, *Chinese Physics C* **43**, 054107 (2019), DOI `10.1088/1674-1137/43/5/054107`。Crossref与arXiv API分别核对作者、卷43、期5、054107及DOI。期刊元数据出版日期为2019-05-01；实际阅读字节为2019-12-27上传的arXiv `1912.11990v1`，8页。上传晚于期刊日期不等于新实验或新发表版本；未把arXiv PDF冒称出版商PDF。
 
 ## Scope and Reading Depth
+
+本轮核定八页原件。PDF3 Fig. 2 和 PDF4 Fig. 3 中的实验点回链文献 [12]。PDF4 的高转频区域比较固定形变与令 \(\varepsilon_2\) 从 0.18 下降至 0 的计算，分别保留 \(B(E2)\) 与 \(\mathcal J^{(2)}/B(E2)\) 的输入关系。形变曲线和组态对应是所用模型内的解释。
 
 实际读取8/8 PDF页；重点为p2 Eqs.1–11、p4 Fig.3与形变拟合说明、pp4–7 Figs.4–7的占据/对齐与两阶段机制。PDF签名、字节数、SHA及覆盖记录保存于Day26 worker工件`amr_tensor_core_audit.json`。本来源为理论计算，实验点取自Rather2014，不构成第二次独立寿命测量。
 

@@ -91,3 +91,8 @@ Y. Saito et al., Physical Review C 102, 024337 (2020)，DOI: 10.1103/PhysRevC.10
 |---|---|---|---|---|---|
 | SA20-1 | 3150keV Iβ总混合归一24.1(9)%、11/2−母态归一45(10)% | experimental-derived-observable | direct | arXiv2008.02959v1 PDF10 TableII | false |
 | SA20-2 | 147(3)、157(8)ms采纳同批GRIFFIN数据的Dunlop分析 | source-lineage | direct | 同版本PDF8 SecIVB | false |
+
+
+## 2026-11-22 — 13 页作者稿与双母态归一复核
+
+PDF 10 Table II 中 3150 keV 行的 24.1(9)% 对全体母态混合数据归一，45(10)% 对 \(11/2^-\) 母态归一。两项源于同一组谱及母态分离。空白、明确上限与拟合强度保持三种记录。整篇模型部分讨论有限空间中的 GT 分布，不能用总半衰期相近来代替母态逐支数据。

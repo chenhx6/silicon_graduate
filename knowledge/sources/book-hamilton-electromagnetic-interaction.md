@@ -3,7 +3,7 @@ type: source
 title: "W. D. Hamilton 1975 - The Electromagnetic Interaction in Nuclear Spectroscopy"
 aliases: [Hamilton1975, Hamilton电磁相互作用, 电磁跃迁核谱学圣经]
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-19
 status: ai-draft
 review_status: unreviewed
 source_type: book
@@ -33,7 +33,7 @@ tags: [bk-parameters, ak-coefficients, f-coefficients, u-coefficients, mixing-ra
 | ID | 陈述与物理内容 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | HAM-1 | 定向核态张量与光子角分布展开：定向核态发射光子的角分布表象为 $W(\theta) = 1 + A_2 P_2(\cos\theta) + A_4 P_4(\cos\theta)$，其中各向异性展开系数分解为初态统计取向张量 $B_k(I_i)$ 与跃迁多极几何因子 $R_k(L L' I_i I_f)$ 的乘积。 | model-result | direct | Ch. 12, pp. 505–550 | false |
-| HAM-2 | 未观测中间级联去取向系数 $U_k$：经由未观测多极跃迁 $I_1 \xrightarrow{L} I_2$ 级联退激时，核取向张量严格按 Wigner $6j$ 符号衰减 $B_k(I_2) = B_k(I_1) U_k(I_1, I_2, L)$，其中 $U_k = (-1)^{I_1+I_2+L+k}\sqrt{(2I_1+1)(2I_2+1)}\{I_1 I_1 k; I_2 I_2 L\}$；严格满足总几率守恒 $U_0 \equiv 1$ 与各向异性衰减 $U_k < 1.0$。 | model-result | direct | Ch. 14, pp. 580–625 | false |
+| HAM-2 | 未观测中间辐射以去取向系数 U_k 传递统计张量；混合辐射按各多极辐射强度加权，U_0=1，多步传播为各步 U_k 连乘。U_k 不是直接修改 Gaussian 宽度 sigma 的函数，也不能笼统断言所有张量/角分布都逐步变弱；理想伸展级联有各射线角分布相同的条件结果。 | model-result | direct-original-page-check | Ch.12 §5.2.2, printed552/PDF563 Eqs12.209–12.213; printed553/PDF564 Eq12.219 | false |
 | HAM-3 | 康普顿线偏振度 $P(\theta)$ 宇称符号法则：线偏振不对称度符号在电多极（$E\lambda$）与磁多极（$M\lambda$）辐射下严格相反，为实验直接判定能级跃迁宇称提供排他性判据。 | model-result | direct | Ch. 14, pp. 626–660 | false |
 | HAM-4 | 多极混合比 $\delta(E2/M1)$ 有理二次方程双实数根退化：单角分布测量中 $A_k(\delta)$ 是关于 $\delta$ 的二次有理函数，数学上必然产生两个实数根，唯有联合线偏振或内转换测量方可打破退化。 | model-result | direct | Ch. 14, pp. 600–615 | false |
 | HAM-5 | 在束反应取向度参数 $\sigma/I$ 校准与多极混合比 $\delta$ 联合自洽提取：阐明高斯子状态分布 $P(m) \propto \exp(-m^2/2\sigma^2)$ 衰减因子 $\alpha_k(I, \sigma) = \rho_{k0}(I, \sigma)/\rho_{k0}(I, \sigma=0)$；基于同级联已知纯 $E2$ 跃迁先期标定 $\sigma/I \approx 0.30 - 0.45$，再反演未知跃迁角分布系数 $a_k = \alpha_k Q_k A_k(\delta)$，彻底消除假设经验取向度导致的 $30\%$ 混合比系统偏差。 | method/formalism | direct | Ch. 12, pp. 520–545; Ch. 14, pp. 580–605 | false |
@@ -86,3 +86,7 @@ tags: [bk-parameters, ak-coefficients, f-coefficients, u-coefficients, mixing-ra
 ## Extracted Pages
 
 核心章节已提取并形式化为 Wiki 概念与方法合同。
+
+## 2026-11-19：未观测传播的原页定位
+
+本次仅复核Gaussian及U传播相关页，不扩展为全书重读：printed521/PDF532 Eqs12.80–12.81；printed552/PDF563 Eqs12.209–12.213；printed553/PDF564 Eqs12.214–12.219。第12章作者为R. M. Steffen与K. Alder，Hamilton为全书编者。纯多极U由Eq12.210的6j表达式定义；混合辐射强度加权见Eq12.209，该式注明未计内转换。传播作用于布居/统计张量，不保证下游仍为单参数Gaussian，也不能以sigma_after=U*sigma替代。方向门保留的条件关联不能用未观测辐射的全方向求和代替。这里的级联去取向不等同于外场对中间态的时间依赖扰动。

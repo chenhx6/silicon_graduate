@@ -194,3 +194,17 @@ B_\uparrow(0\to2)=5B_\downarrow(2\to0).
 原件入口为[五核心归档 manifest](/workspace/wiki/raw/papers/gpt/query/20261106-ba-core-E2-calibration/manifest.json)及[复用的 128／130Ba manifest](/workspace/wiki/raw/papers/gpt/query/20261105-ba129-core-constraints/manifest.json)。两者在本页 frontmatter 中各绑定 SHA-256；前者同时记录 8 个复用输入及其原获取时间。重新生成分析输出只应读取这些原件，不覆盖 raw。
 
 **本页自审。** 2026-11-06 按上列原件定位核对来源、方向、归属和依赖；这是一项 Agent source audit，不是 human-reviewed 标注。尚缺原实验全文层的联合协方差、部分方法的系统误差拆分以及该五核素间的数值相关性。后续研究应明确所采用的误差／替代分支方案，不能从这些空缺自动构造完整实验似然。
+
+
+## 2026-11-22 — 132Ba 与 134Ba Adopted PDF 范围复核
+
+- 132Ba，Khazov、Rodionov、Sakharov 与 Singh，*NDS* **104**, 497 (2005)，文献截止 2005-02-10。38 页。PDF 1–5 为能级表及注记，PDF 5–18 为 γ 跃迁表，PDF 19–35 为能级图，PDF 36–38 为能带图。PDF 1 的 464.508(12) keV \(2^+\) 行给出由 \(B(E2)\uparrow=0.86(6)\ e^2\mathrm b^2\) 得到的 \(T_{1/2}=15.1(11)\) ps。PDF 1–2 的 2046.23(4) keV \((2^+)\) 和 2046.48(6) keV \((4^+)\) 各有记录，比较支路时须保留父态标识。
+- 134Ba，Sonzogni，*NDS* **103**, 1 (2004)，文献截止 2004-07-31。17 页。PDF 1–4 为能级表及注记，PDF 5–10 为 γ 跃迁表，PDF 11–16 为能级图，PDF 17 为能带图。PDF 1 的 1400.590(4) keV \(4^+\) 行采用由库仑激发 \(B(E2)\) 折算的 \(T_{1/2}=0.83(9)\) ps，注记另列 \(^{134}\)Cs β⁻ 衰变的 8.7(17) ps。PDF 5 的 563.246(5) keV M1+E2 行给出评价混合比 \(-7.4(9)\)。这四类记录的来源分别追到相应的输入实验，保留寿命差异。
+
+两文件各覆盖单核素的 Adopted Levels, Gammas 数据集。版次取表头所列评价，2012Wa38 是表头质量输入标记。
+
+
+## 2026-11-22 — 134Ba 库仑激发与 136Ba Adopted 复核
+
+- 134Ba 的 Sonzogni 2004 库仑激发数据集只有一页。605 keV 行的 \(B(E2)\uparrow=0.679(11)\ e^2\mathrm b^2\) 综合 1972Ke16、1977Kl05 和 1989Bu07。1401 keV 行的 0.83(9) ps 来自 1977Kl05 的 \(B(E2;4_1^+\to2_1^+)=0.214(22)\ e^2\mathrm b^2\)。该输入与同一评价 Adopted 表的推荐寿命共享来源。
+- 136Ba 的 McCutchan 2018 Adopted Levels, Gammas 为 29 页，PDF 1–6 能级表及注记、7–21 γ 表、22–28 能级图、29 能带图。PDF 1 的 818.522(10) keV 行给出 \(B(E2)\uparrow=0.407(7)\ e^2\mathrm b^2\)，评价者结合 Adopted Gamma 性质导出 \(T_{1/2}=1.89(3)\) ps。PDF 7 的 19.6(4) W.u. 属退激方向。

@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-11-21T21:59:19.291118+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "SIMONS05-CS130-CHIRAL-EVIDENCE",
+      "version": "J. Phys. G 31, 541–552 (2005), DOI 10.1088/0954-3899/31/7/001 with IOP wrapper",
+      "role": "verified-publisher-with-wrapper",
+      "pages": 13,
+      "scope": [
+        "PDF1 wrapper; PDF2–6 setup and Tables 1–2; PDF7–13 coincidence/level structures, comparisons and references."
+      ],
+      "checks": [
+        "PDF5 Table 1 has P and two gates for 297.1 keV. PDF6 Table 2 confirms three further DCO+P links.",
+        "P is degree of polarization derived using adopted Q from Ref. [17]; no event data or absolute strengths.",
+        "Preserved existing context of similar signatures but absent common staggering and excluded worker claims of proven chiral destruction."
+      ],
+      "gap": "No directly measured absolute transition strengths. The sign and gate calibration retain their experiment-specific basis.",
+      "lineage": "Own Cs130 experiment with external detector sensitivity.",
+      "work_id": "catalogue:LIT-000691",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/simons-2005-130cs-chiral-structures.pdf",
+        "sha256": "da71d9f1c88421bc7d4421c87c4f1eb3f15043892a1ae821c62ab48cd5a611d6",
+        "size": 239000,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-with-wrapper"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "SMITH19-GRIFFIN-ANGULAR-CONTRACT",
+      "version": "arXiv:1807.07570v1, related NIM A 922, 47–63",
+      "role": "verified-arxiv-author-version",
+      "pages": 28,
+      "scope": [
+        "PDF1–5 detector and event mixing methods; PDF6–15 four response treatments; remaining comparison, limitations, references and appendices. Existing complete reading retained."
+      ],
+      "checks": [
+        "PDF3 defines 4032 ordered pairs, 51 angle groups and extra same-crystal category. Preserve grouping distinctions and source setup.",
+        "The fourth method parametrizes energy dependence in section 4.4. Event mixing is a separate shared normalization. No guessed pair timing acceptance or weak branch values adopted.",
+        "Existing note has actual efficiency/covariance and finite-solid-angle paths. No universal equality across all methods invoked."
+      ],
+      "gap": "No reconstructible event-level histograms or missing independent multipole evidence invented.",
+      "lineage": "Calibration cascades and simulations form the same analysis comparisons.",
+      "work_id": "catalogue:LIT-000696",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/smith-2018-griffin-angular-correlation-arxiv1807.07570v1.pdf",
+        "sha256": "0390bdbb6b78f035d1d49abd4ecf863a684f3a8eb3ba6c537cfbd8fb6e352f33",
+        "size": 1920698,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 41
+}

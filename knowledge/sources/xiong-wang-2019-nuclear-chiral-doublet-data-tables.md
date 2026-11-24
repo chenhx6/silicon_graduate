@@ -3,7 +3,7 @@ type: source
 title: "Xiong and Wang 2019 - Nuclear chiral doublet bands data tables"
 aliases: [Xiong Wang 2019 chiral data tables, nuclear chiral doublet census]
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-11-22
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -20,6 +20,7 @@ canonical_source: https://doi.org/10.1016/j.adt.2018.05.002
 citation_key: xiong_2019_Nuclearchiral
 raw_file: "raw/papers/2019_Xiong_Wang_Nuclear chiral doublet bands data tables.pdf"
 raw_sha256: DBB2208A1090E2DC9DCB673199F4AEC19D270727591171CAE95987442641296E
+archive_required: true
 nuclei: []
 reactions: []
 experiments: []
@@ -34,6 +35,8 @@ tags: [project-ingest, nuclear-chirality, multiple-chiral-doublet-bands, data-co
 Atomic Data and Nuclear Data Tables 125, 193-225 (2019), DOI `10.1016/j.adt.2018.05.002`. The protected BibTeX key is `xiong_2019_Nuclearchiral`. The repository PDF is an article-in-press version carrying 2018 copyright/citation wording; this page uses the final volume's bibliographic year, 2019.
 
 ## Scope and Reading Depth
+
+- 核定馆藏 33 页为 Article in Press 排版，采用 PDF 自身页码。PDF17 的表说明将星号定义为同自旋最低能态；Table 1 的若干强度比由汇编者按原实验数据重新求出，`126Cs` 等核还用已有的绝对跃迁几率求比。Table 2 的绝对值仍须追踪引用的原实验。两个表可共享输入，引用时保留数值的推导路径。
 
 - Completed reading_depth: `deep-read`.
 - Covered scope: all 33 PDF pages, including motivation, four mass-region energy and fingerprint systematics, complete table explanations, Table 1's compiled level energies and `B(M1)/B(E2)` values, Table 2's available absolute `B(M1)` and `B(E2)` values, references and summary.

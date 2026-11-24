@@ -3,7 +3,7 @@ type: source
 title: "Warda–Robledo 2011：锕系团簇放射性的 Gogny-HFB 非对称裂变通道"
 aliases: [Warda 2011 cluster radioactivity, Microscopic description of cluster radioactivity in actinide nuclei]
 created: 2026-10-29
-updated: 2026-10-29
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-theory
@@ -11,6 +11,7 @@ reading_depth: skimmed
 canonical_source: "Phys. Rev. C 84, 044608 (2011); arXiv:1107.1478v1"
 raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/warda-2011-actinide-cluster-radioactivity-arxiv1107.1478v1.pdf"
 raw_sha256: "632768452a96e8fdc9f9abc45caebbdfef154796962ee6cac41e31c360d54aa9"
+archive_required: true
 title_original: "Microscopic description of cluster radioactivity in actinide nuclei"
 authors: [M. Warda, L. M. Robledo]
 year: 2011
@@ -36,6 +37,8 @@ tags: [cluster-radioactivity, octupole, hyper-asymmetric-fission, pairing, sourc
 Crossref 的题名、两位作者和 DOI 与取得的 arXiv:1107.1478v1 首页相符；该预印本19页、3434371 bytes、文件签名 `%PDF-`，已核验上述 SHA-256。PDF首页2018年排版日期不改变2011年 arXiv 版本/期刊年份。已逐文件核验后以新增原件归档至frontmatter所列raw路径；没有覆盖既有文件。官方检索地址和哈希见frontmatter与审计JSON。
 
 ## Scope and Reading Depth
+
+核定 arXiv:1107.1478v1 的 19 个物理页。势能面与裂变路径图用于对照不同母核的形变轨迹。Table I 和 Fig. 13 分别区分理论半衰期、引用的实验值与下限。引用半衰期时应保留母核、衰变通道和原实验出处。
 
 定向阅读 PDF1–5、10–13、15–17：模型与约束、Eqs2–7、224Ra势能面与密度、颈约束、Table I、EDF/零点修正局限；未逐项重算15个核素的HFB网格、惯性或最小作用量路径。Table I 的“实验值”是本文引用的既有实验，不构成独立测量。
 

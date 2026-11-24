@@ -3,7 +3,7 @@ type: source
 title: "Timár et al. 2007 - High-Spin Structure of 105Ag: Search for Chiral Doublet Bands"
 aliases: [Timar 2007 105Ag, 105Ag chiral search]
 created: 2026-08-11
-updated: 2026-10-09
+updated: 2026-11-22
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -20,6 +20,7 @@ canonical_source: https://doi.org/10.1103/PhysRevC.76.024307
 citation_key: timar_2007_Highspinstructure
 raw_file: "raw/papers/2007_Timár et al_High-spin structure of Ag 105.pdf"
 raw_sha256: 730BE91DC2FFBBC785EBE36F5ECC50AEEFD8EF74D577C8A2E314204CB4F58442
+archive_required: true
 nuclei: [105ag]
 reactions: ["100Mo(10B,5n)105Ag"]
 experiments: [stony-brook-linac-105ag-b10-58-64mev]
@@ -43,6 +44,7 @@ The official APS article page was checked on 2026-10-09. It returned HTTP 200 wi
 
 - Completed reading_depth: `deep-read`.
 - Covered scope: all 11 PDF pages, experiment/DCO method, full A–G partial level scheme and transition table, revised Band-E placement, new Bands F/G, TRS/Routhian/alignment assignments, branching-derived `B(M1)/B(E2)`, intended-partner null search, D/G chiral criteria, configuration-mixing alternative and summary.
+- Published PDF2 reports DCO values from forward/backward versus 90° coincidences. It attributes the linear-polarization evidence used for low-lying assignments to Keller et al., Ref. [33]. The current data table reports energies, intensities, and DCO values. The 10% sensitivity statement applies to population relative to band E for a side band feeding it (PDF8), while the D/G comparison uses a different pair and retains a configuration-mixing alternative (PDF9, Fig. 6).
 - Not covered: raw coincidence matrices, detector-by-detector efficiencies, earlier level-scheme/lifetime sources, or the cited TAC calculations' original papers.
 - Coverage caveats: many high-spin F/G/D assignments are tentative; branching ratios are not lifetime-separated absolute strengths; no dedicated TAC or quantum chiral calculation was performed for Bands D/G.
 

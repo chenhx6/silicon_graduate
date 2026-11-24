@@ -181,3 +181,8 @@ Chiara *et al.* provide a directly readable precedent for extracting partial M1/
 | CHI01-D23-2 | TableIV列748.4(1)keV为8→3连接，印刷path为(18+)→(17+)，Iγ,thin=1.0(.1)、Iγ,backed=.2(.1)，Mλ标M1/E2，两个RDCO栏空白。这不是本篇对该线新增实测δ/P或独立确定parity。作为检验组态交换的候选须先确认该placement/spin及band3 parity，不能按表的假定M1/E2标签反过来认证原组态。 | transition-identity-and-unmeasured-companion | direct-original-and-boundary | same-event-samples-and-assignment | printed054314-11 TableIV, 748.4-keV row; printed054314-28 alternate-assignment paragraph | true |
 
 Knowledge Impact and Learning Decision：supports多观测共同判断组态，limits只用alignment排序或将tentative parity当独立测量；本task提出的连接性质补测见[[signature-tip-shears-discrimination-contract]]。本文的MR/AMR实测与TAC/PAC边界也校准[[shears-mechanism]]和[[antimagnetic-rotation]]，不移植其τ/Q/机时到Pr/Au。
+
+
+## 2026-11-22 — 30 页刊本覆盖复核
+
+此前逐页阅读覆盖 PDF 1–30。本次回查 PDF 18–19：DSAM 误差包含带内与侧馈寿命拟合的相依性，作者注明阻停模型可引入约 ±20% 的额外系统误差。PDF 19 Table V 的 527.8 与 864.2 keV 强度 31.6 和 2.0 使用同一相对强度约定。观测分支、模型采用的多极成分和寿命导出的强度分别保存。

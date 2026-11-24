@@ -3,7 +3,7 @@ type: source
 title: "王守宇 2005 博士论文：126Cs 高自旋态及 A≈130 区手征双重带"
 aliases: [王守宇2005博士论文, Wang Shouyu 2005 126Cs thesis]
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: thesis
@@ -24,6 +24,7 @@ zotero_uri:
 library_file: "raw/theses/degree-dissertation/王守宇博士 126Cs的高自旋态及A～130区手征双重带研究.pdf"
 raw_file: "raw/theses/degree-dissertation/王守宇博士 126Cs的高自旋态及A～130区手征双重带研究.pdf"
 raw_sha256: "f8a2214250cb71a6ea10473713cad62022c9412783876375d87e6ed7a8021ceb"
+archive_required: true
 nuclei: [126cs, 123i]
 reactions: ["116Cd(14N,4n)126Cs", "116Cd(14N,5n2p)123I"]
 experiments: []
@@ -40,6 +41,11 @@ tags: [a130, high-spin, 126cs, 123i, nuclear-chirality, chiral-doublet, signatur
 王守宇，*126Cs 的高自旋态及 A～130 区手征双重带研究*，吉林大学物理学院博士学位论文，2005。PDF 共 220 页；原始文件 SHA-256 为 `f8a2214250cb71a6ea10473713cad62022c9412783876375d87e6ed7a8021ceb`。题名页、摘要和目录在 PDF pp.1–10；中文摘要在 pp.192–197，英文摘要在 pp.198–201。
 
 ## Scope and Reading Depth
+
+本轮核定全部 220 个物理页。正文印刷页为物理 PDF 页减 10。PDF1–52 为前置、背景及方法，PDF53–120 为 `126Cs` 谱学，PDF121–157 为手征讨论，PDF158–201 为 `123I`，PDF202–220 为摘要、致谢和成果等。
+
+- PDF57–58 给出 NORDBALL 采集与 ADO 经验参照。PDF61 Table 3.1 的 217.8 keV 行列 \(R_{\rm ADO}=1.45\) 与归一强度 1000。PDF137 Fig. 4.7 前的 \(\delta^2=0\) 是由分支强度计算约化跃迁比的近似，逐线 \(\delta\) 和线偏振 \(P\) 未由这一步测出。
+- PDF159 明确说明 `123I` 与 `126Cs` 共用 NORDBALL 采集，按不同产物建立谱学记录。[[wang-2006-126cs-candidate-chiral-doublet]] 的 `126Cs` 分析亦沿用同一实验数据。
 
 - Completed `reading_depth`: `deep-read`。
 - Covered scope: 题名页、摘要、目录；第 1 章 A≈130 高自旋背景；第 2 章在束 γ 谱学和 ADO 方法；第 3 章 `126Cs` 能级、带头自旋宇称、alignment、带交叉、`B(M1)/B(E2)`、signature splitting/inversion；第 4 章手征物理图像、`126Cs` 双带、Cs 同位素系统学和竞争解释；第 5 章 `123I` 高自旋谱学、组态和带终结；结论/摘要回查。

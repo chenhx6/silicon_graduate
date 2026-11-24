@@ -1,0 +1,125 @@
+{
+  "checked_at": "2026-11-22T02:01:14.693213+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "work_id": "bytes:0b4547204e0f735f89361727551d86852fd65bbb769915598b2e1610f9184a67",
+      "pages": 16,
+      "task": "EFFECTIVE-SHELL-STRUCTURE-ORIGINALS",
+      "version": "Duguet et al., arXiv:1411.1237v3; PRC 92 034313; DOI 10.1103/PhysRevC.92.034313",
+      "role": "arxiv-author-version",
+      "source_note": "knowledge/sources/duguet-2015-non-observable-nuclear-shell-structure.md",
+      "scope": [
+        "PDF 1–4 introduction and conceptual distinctions; 4–10 shell energies and transformation; 10–14 model illustrations; 14–16 conclusions and references.",
+        "PDF 5 Eqs. (10)–(11) define the centroid matrix and ESPE eigenproblem. PDF 13 Figs. 6–7 give residual variations and distinguish the two-nucleon shell gap from the ESPE Fermi gap in the calculated oxygen cases."
+      ],
+      "gap": "The exact unitary argument has distinct assumptions from approximate calculations with residual cutoff and truncation dependence.",
+      "lineage": "Theoretical or method work; the calculated variables and any cited measured comparisons are tracked separately.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261108-a130-espe-primary/duguet-2015-non-observable-shell-structure.pdf",
+        "sha256": "0b4547204e0f735f89361727551d86852fd65bbb769915598b2e1610f9184a67",
+        "size": 615150,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/duguet-2015-non-observable-nuclear-shell-structure.md",
+          "declared_reading_depth": "skimmed",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "bytes:4a15adacc5f8101bdf0eb2370aed191138217f64fde5c142b26e5eb0823e5b51",
+      "pages": 22,
+      "task": "ROTATIONAL-INERTIA-TIMEODD-FAM-ORIGINALS",
+      "version": "Afanasjev and Abusara, arXiv:1010.1801v1; PRC 82 034329; DOI 10.1103/PhysRevC.82.034329",
+      "role": "arxiv-author-version",
+      "source_note": "knowledge/sources/afanasjev-abusara-2010-time-odd-rotating-systems.md",
+      "scope": [
+        "PDF 1–4 motivation and formalism, 4–12 rotating configurations and currents, 12–20 frequency/parameter dependence and energy effects, 20–22 conclusions and references.",
+        "PDF 4 Eqs. (18)–(19) define the comparison convention and both inertias. Sec. III/Fig. 1a gives the model comparison for the 194Pb proton crossing, 0.465 MeV without and 0.345 MeV with the stated nuclear-magnetism treatment."
+      ],
+      "gap": "The comparison omits specific fields in a CDFT control. It cannot supply a universal empirical scale factor for other models or nuclei.",
+      "lineage": "Theoretical or method work; the calculated variables and any cited measured comparisons are tracked separately.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261108-r2-g40-time-odd-rotation/afanasjev-2010-time-odd-cdft-rotating-prc82-034329.pdf",
+        "sha256": "4a15adacc5f8101bdf0eb2370aed191138217f64fde5c142b26e5eb0823e5b51",
+        "size": 806133,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/afanasjev-abusara-2010-time-odd-rotating-systems.md",
+          "declared_reading_depth": "skimmed",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "bytes:6036ed6c1ccaae0800ce1632ecae0a51e4424613ab93d272f10dab5d5d61bb74",
+      "pages": 10,
+      "task": "ROTATIONAL-INERTIA-TIMEODD-FAM-ORIGINALS",
+      "version": "Petrík and Kortelainen, arXiv:1709.08534v1; PRC 97 034321; DOI 10.1103/PhysRevC.97.034321",
+      "role": "arxiv-author-version",
+      "source_note": "knowledge/sources/petrik-kortelainen-2018-rotational-tv-inertia.md",
+      "scope": [
+        "PDF 1–5 introduction and response theory; 5–9 numerical examples, inertia and currents; 9–10 conclusion and references.",
+        "PDF 5 Eq. (18) gives S(J_i;0)=-M_NG for the rotational generator. PDF 7 compares 34.511 MeV^-1 zero-frequency FAM and 34.533 MeV^-1 self-consistent cranking with common 166Er settings."
+      ],
+      "gap": "Static self-consistent response and a frozen-field comparison are separate calculations; the illustrative E(2+) mapping is not a measured axial-response tensor.",
+      "lineage": "Theoretical or method work; the calculated variables and any cited measured comparisons are tracked separately.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261108-r2-g39-fam-ng/petrik-2018-thouless-valatin-rotational-inertia-fam.pdf",
+        "sha256": "6036ed6c1ccaae0800ce1632ecae0a51e4424613ab93d272f10dab5d5d61bb74",
+        "size": 4177986,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/petrik-kortelainen-2018-rotational-tv-inertia.md",
+          "declared_reading_depth": "skimmed",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "bytes:83ddfab8989cdb0a23be1d5ca3e9f689c7e8d728823d0b7c6a21c5aecd3ca0c7",
+      "pages": 28,
+      "task": "EFFECTIVE-SHELL-STRUCTURE-ORIGINALS",
+      "version": "T. Otsuka, Physics 4 (2022) 258–285; DOI 10.3390/physics4010018, publisher version",
+      "role": "publisher-version",
+      "source_note": "knowledge/sources/doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution.md",
+      "scope": [
+        "PDF 1–2 introduction; 2–13 monopole evolution; 13–20 type-II and collective examples; 20–28 further applications, synthesis and references.",
+        "PDF 7 Eq. (15) links a change of ESPE to monopole matrix elements and changed occupancy; PDF 14 Fig. 11 compares 68Ni model surfaces; PDF 16 Fig. 12 shows 66Ni PES and T-plot."
+      ],
+      "gap": "This review uses specified shell-model spaces and interactions. The model quantities are not direct occupancy or shape measurements.",
+      "lineage": "Theoretical or method work; the calculated variables and any cited measured comparisons are tracked separately.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261108-foundations-otsuka-article/otsuka-2022-physics-emerging-concepts-publisher.pdf",
+        "sha256": "83ddfab8989cdb0a23be1d5ca3e9f689c7e8d728823d0b7c6a21c5aecd3ca0c7",
+        "size": 3581748,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/doctoral-r1-g28-otsuka-2023-type-ii-shell-evolution.md",
+          "declared_reading_depth": "read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 4,
+  "credited_primary_pages": 76
+}

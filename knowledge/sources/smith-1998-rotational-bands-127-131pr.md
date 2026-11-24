@@ -3,7 +3,7 @@ type: source
 title: "Smith 1998 博士论文：127–131Pr 多形状转动带"
 aliases: [Smith 1998 Pr thesis, Bradley Hagood Smith dissertation]
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-experiment
@@ -25,9 +25,10 @@ zotero_uri:
 library_file: "raw/theses/degree-dissertation/Rotational bands representing a multiplicity of shapes in ¹²⁷⁻¹³¹Pr.pdf"
 raw_file: "raw/theses/degree-dissertation/Rotational bands representing a multiplicity of shapes in ¹²⁷⁻¹³¹Pr.pdf"
 raw_sha256: "5759AD75294F1612E2827F9D2854E22C7B5033CB338163AB39107EAED5590C3C"
+archive_required: true
 nuclei: [127pr, 128pr, 129pr, 130pr, 131pr]
-reactions: ["92Mo(40Ca,xpyn)127-131Pr"]
-experiments: [gammasphere-cf252-fission-ru108-112]
+reactions: ["94Mo(40Ca,3pxn)129-131Pr", "94Mo(40Ca,p-alpha-xn)127-129Pr"]
+experiments: []
 models: [cranked-shell-model, cranked-nilsson-strutinsky-model, triaxial-rotor-model]
 observables: [dco-ratio, moments-of-inertia, bm1-be2-ratio, signature-splitting, band-crossing]
 methods: [gamma-gamma-coincidence, gamma-gamma-gamma-coincidence, charged-particle-gating, angular-distribution]
@@ -42,10 +43,12 @@ Bradley Hagood Smith，*Rotational Bands Representing a Multiplicity of Shapes i
 
 ## Scope and Reading Depth
 
+本轮按物理页核定四段连续阅读覆盖，正文印刷页为物理 PDF 页减 17。PDF 1–74 包括前置页、理论、仪器和粒子门排序。PDF 75–107 包括 DCO、蒸发道及 `130Pr` Table 4.2。PDF 108–139 包括其余核素的能级图、符合谱和候选 SD 带。PDF 140–234 包括强度比表、模型比较、结论、参考文献和履历。
+
 - Completed reading_depth: `deep-read`。
 - Covered scope: Abstract、Chapters 2–5 的 Nilsson/CSM/TRS、GAMMASPHERE+Microball 实验和数据处理、`127–131Pr` 结果、Chapter 6 conclusions；核对 ED/SD、signature inversion、DCO、alignment、Routhian 和 `B(M1)/B(E2)` 讨论。
 - Not covered: 参考文献逐篇原文复核、所有 17 条新序列的逐转移数字再提取。
-- Coverage caveats: 论文将多个 Pr 同位素和多种带结构放在一套实验中；候选组态、形变和 ED/SD 标签必须按核素、带号和模型条件分开。
+- Coverage caveats: 扫描文本对希腊字母、分数自旋及 TRS 等高图的识别有限。公式、图线或逐跃迁数值需按具体引用回看原页。多个 Pr 同位素来自同一主实验，组态、形变和 ED/SD 标签随核素和带号变化。
 
 ## Paper Question and Scientific Motivation
 
@@ -53,7 +56,7 @@ Bradley Hagood Smith，*Rotational Bands Representing a Multiplicity of Shapes i
 
 ## Method and Design Logic
 
-实验采用约 180 MeV `40Ca` 束流轰击富集 `92Mo`，以 GAMMASPHERE 与 Microball 进行 γγ/带电粒子门选；`3p`、`1p` 和 `2p` 通道提供 `127–131Pr` 及相关残余核结构。数据经粒子鉴别、γ 能量/效率/多普勒校正和 DCO 处理，再以 CSM/TRS 与 `B(M1)/B(E2)` 比较组态（Abstract；Chapter 3；Chapters 4–5）。
+正式分析采用 180 MeV `40Ca` 束流轰击 92% 富集的 `94Mo` 靶，配合 GAMMASPHERE 和 Microball 做 γγ/带电粒子门选。`3p,xn` 给出 `129–131Pr`，`1p,1α,xn` 给出 `127–129Pr`，`2p,xn` 用于 `130Nd`。Ch. 3 的 `92Mo` 涉及原计划和反应估算，实际换靶见 PDF222（印刷 p.205）。摘要 PDF8 的 `40Cl` 与该页及 Ch. 3 的 `40Ca` 写法冲突，反应登记依据正文。数据经粒子鉴别、γ 能量/效率/多普勒校正和 DCO 处理，再以 CSM/TRS 与 `B(M1)/B(E2)` 比较组态。
 
 ## Key Evidence and Reasoning Chain
 
@@ -64,11 +67,11 @@ Bradley Hagood Smith，*Rotational Bands Representing a Multiplicity of Shapes i
 
 ## Summary
 
-论文报告 `127–131Pr` 的多个正常形变和增强/超形变序列；在 `130Pr` 发现四条很可能为 SD 的新带并延伸 ED 带，在 `128Pr` 与 `129Pr` 发现/扩展 ED 结构，在 `127Pr`、`131Pr` 等核补充高自旋带。作者确认 `πh11/2⊗νh11/2` 类带的低自旋 signature inversion，并认为 `πg9/2` ED 轨道的形变驱动作用随中子数减少而减弱。后者是 systematics + model 的综合解释，未来需要 quadrupole moments/lifetimes 检验。
+论文报告 `127–131Pr` 的多个正常形变和增强/超形变序列；在 `131Pr` 提出四条新 SD 候选带，并扩展 `130Pr` 的既有能级结构，在 `128Pr` 与 `129Pr` 发现/扩展 ED 结构，在 `127Pr`、`131Pr` 等核补充高自旋带。作者确认 `πh11/2⊗νh11/2` 类带的低自旋 signature inversion，并认为 `πg9/2` ED 轨道的形变驱动作用随中子数减少而减弱。后者是 systematics + model 的综合解释，未来需要 quadrupole moments/lifetimes 检验。
 
 ## Experimental or Theoretical Setup
 
-- `92Mo(40Ca,xpyn)`，约 180 MeV；GAMMASPHERE（约 92 个 Ge）+ Microball（约 95 个 CsI(Tl)）。
+- `94Mo(40Ca,XpYαZn)`，180 MeV。GAMMASPHERE 92 个 Ge 探测器和 Microball 95 个 CsI(Tl) 探测器（PDF222，印刷 p.205）。
 - Chapter 3 包含粒子鉴别、γγ/γγγ 符合、DCO、效率和多普勒修正。
 - CSM、TRS、Nilsson/单粒子计算；派生量为 crossing frequency、alignment、J(2)、`B(M1)/B(E2)` 和形变参数。
 
@@ -76,14 +79,16 @@ Bradley Hagood Smith，*Rotational Bands Representing a Multiplicity of Shapes i
 
 | ID | 陈述 | claim_kind | evidence_level | source_independence | locator | needs_review |
 |---|---|---|---|---|---|---|
-| SM98-1 | 约 180 MeV `40Ca+92Mo`、GAMMASPHERE+Microball 实验用于研究 `127–131Pr` 高自旋结构和带电粒子道。 | experimental-fact | direct | single | Abstract；Ch.3 | true |
+| SM98-1 | 正式分析使用 180 MeV `40Ca+94Mo`、GAMMASPHERE+Microball。原计划的 `92Mo` 靶受污染，改用 92% 富集的 `94Mo` 靶，`3p` 通道的主残余核由原计划 `129Pr` 改为 `131Pr`。 | experimental-fact | direct | single | PDF222（印刷 p.205）；Abstract 给出粒子通道 | true |
 | SM98-2 | 论文在数据中识别约 17 条全新转动序列，并显著扩展 `127–131Pr` 的能级纲图。 | experimental-fact | direct | single | Abstract；Ch.6 pp.204–205 | true |
-| SM98-3 | `130Pr` 中四条新序列被作者认为很可能是 SD 带，已知 ED 带也得到延伸。 | author-interpretation | indirect | single | Abstract；Ch.6 pp.205–206 | true |
-| SM98-4 | `128Pr/129Pr` 的 `πh11/2` 相关带显示低自旋 signature inversion；带交叉、alignment 和 Routhian 用于组态比较。 | experimental-criterion + author-interpretation | direct | single | Ch.5；Ch.6 pp.206–208 | true |
+| SM98-3 | 论文把四条新弱序列 SD-1A/B 与 SD-2A/B 指派给 `131Pr`。其中 SD-2A 的归属仍受 `130Pr` 污染线限制。作者依据双门中的已知 `131Pr` 强线倾向其属于 `131Pr`。缺少已解析的退激连接，超形变解释依赖谱学比较及 CSM/TRS。 | author-interpretation | indirect | single | PDF8 abstract; PDF128 and PDF132 (printed pp.111 and 115); Sec. 5.8.2 | true |
+| SM98-4 | 奇奇核 `128Pr` 和 `130Pr` 的 `πh11/2⊗νh11/2` 组态候选带出现低自旋 signature inversion。作者同时讨论形变与残余质子–中子相互作用，所用 `130Pr` TRS 给出的低频 γ 软度有限。 | experimental-criterion + author-interpretation | direct | single | PDF193–196（印刷 pp.176–179），Fig. 5.20 | true |
 | SM98-5 | `127,128Pr` 等轻 Pr 中发现/扩展 ED 带；`πg9/2` ED 结构的 crossing frequency 与 CSM 计算相容。 | experimental-fact + model-result | indirect | single | Ch.4–6 | true |
 | SM98-6 | `130Pr` 新带与 `πh11/2⊗νh11/2` 候选/近扁椭 TRS minimum 的联系属于模型辅助指认。 | author-interpretation | indirect | single | Ch.5.8；TRS figures | true |
 | SM98-7 | 作者根据 ED 带动态转动惯量随 N 的变化，提出 `πg9/2` 形变驱动作用随中子数减少而减弱。 | author-interpretation | contextual | single | Ch.6 pp.207–208 | true |
 | SM98-8 | `B(M1)/B(E2)` 结果在部分带中是 lower-limit/模型依赖量，未替代绝对寿命或直接四极矩测量。 | analytical-boundary | inferred | single | Ch.5.6–5.8；Ch.6.2 | true |
+| SM98-9 | `130Pr` 增强形变带的 `Q0=6.1(4) eb` 和 `β2=0.35(3)` 引自 Kondev 等人的四极矩测量 Ref. [42]，作本论文的比较依据。 | cited-experiment | contextual | cited | PDF222（印刷 p.205），Ref. [42] | true |
+| SM98-10 | 对 `130Pr` 带 7，CSM 的 `fg` 中子对预计增加约 `5.5 ħ` 对齐，总对齐约 `13.5 ħ`。作者结合实验趋势提出正常形变扁椭候选。 | model-result | indirect | single | PDF220（印刷 p.203），Sec. 5.9 | true |
 
 ## Nuclear Structure Information
 
@@ -139,7 +144,7 @@ Bradley Hagood Smith，*Rotational Bands Representing a Multiplicity of Shapes i
 
 ### P0
 
-- SM98-3/SM98-6：核对 `130Pr` 四条 SD 候选带、ED 带、带号和 TRS/CSM 组态；风险是把“most likely”写成已确认 SD。
+- SM98-3/SM98-6：核对 `131Pr` 的四条 SD 候选带、`130Pr` 的 ED 带与各自 TRS/CSM 组态；风险是把“most likely”写成已确认 SD。
 - SM98-7：核对“`πg9/2` 形变驱动随 N 减少而减弱”的统计/模型依据和 future-lifetime caveat。
 
 ### P1
@@ -160,4 +165,4 @@ Bradley Hagood Smith，*Rotational Bands Representing a Multiplicity of Shapes i
 
 ## Non-source Notes and Follow-up
 
-本论文不是现有 `252Cf` Ru 实验；frontmatter 中的 experiment relation 仅用于高自旋分析方法导航，后续应建立独立的 `GAMMASPHERE+Microball 40Ca+92Mo` 实验页后再改写。
+本论文的独立实验入口为 `GAMMASPHERE+Microball 40Ca+94Mo`，见 PDF222（印刷 p.205）。

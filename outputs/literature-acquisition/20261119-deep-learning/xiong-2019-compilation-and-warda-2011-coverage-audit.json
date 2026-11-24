@@ -1,0 +1,78 @@
+{
+  "checked_at": "2026-11-22T00:27:33.848221+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 759,
+      "task": "WARDA11-CLUSTER-DECAY-AUTHOR-SCOPE",
+      "pages": 19,
+      "version": "arXiv:1107.1478v1, Warda and Robledo, archived 19-page author manuscript",
+      "role": "verified-arxiv-author-version",
+      "scope": [
+        "PDF1–4 motivation and modeled coordinates",
+        "PDF5–13 model cases and contour comparisons",
+        "PDF13–17 half-life comparisons and outlook",
+        "PDF18–19 references"
+      ],
+      "checks": [
+        "Author PDF includes explicitly modeled shape paths and density comparisons.",
+        "Table I and Fig. 13 distinguish computed half-lives, literature experiments and lower limits."
+      ],
+      "gap": "Theory results depend on the indicated model, collective coordinates and conditions. Experimental entries are reused as cited comparators.",
+      "lineage": "Original calculations with external experimental comparisons.",
+      "work_id": "catalogue:LIT-000759",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/warda-2011-actinide-cluster-radioactivity-arxiv1107.1478v1.pdf",
+        "sha256": "632768452a96e8fdc9f9abc45caebbdfef154796962ee6cac41e31c360d54aa9",
+        "size": 3434371,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/warda-2011-actinide-cluster-radioactivity-gogny.md",
+          "declared_reading_depth": "skimmed",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 768,
+      "task": "XIONG19-CHIRAL-DATA-TABLES",
+      "pages": 33,
+      "version": "DOI 10.1016/j.adt.2018.05.002, 33-page Article in Press layout",
+      "role": "verified-article-in-press-compilation",
+      "scope": [
+        "PDF1–16 review, systematics and references",
+        "PDF17 table meanings",
+        "PDF18–33 candidate data and available absolute strengths"
+      ],
+      "checks": [
+        "PDF1 prints Article in Press. PDF17 defines the star as the yrast level at a given spin.",
+        "In Table 1, several ratios are derived by the compilers. Some, including 126Cs, use published absolute strengths. Table 2 and Table 1 may therefore share the input."
+      ],
+      "gap": "Candidate entries retain heterogeneous primary data and assumptions. Use the original reference for a numeric transition row or structural assignment.",
+      "lineage": "Compilation and secondary derivation from cited primary experiments.",
+      "work_id": "catalogue:LIT-000768",
+      "raw": {
+        "path": "raw/papers/2019_Xiong_Wang_Nuclear chiral doublet bands data tables.pdf",
+        "sha256": "dbb2208a1090e2dc9dcb673199f4aec19d270727591171cae95987442641296e",
+        "size": 1674879,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-article-in-press-compilation"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/xiong-wang-2019-nuclear-chiral-doublet-data-tables.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 52
+}

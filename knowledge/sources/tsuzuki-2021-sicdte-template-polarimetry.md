@@ -3,7 +3,7 @@ type: source
 title: "Si/CdTe模板偏振：16个空间分区、独立零偏振控制与排序能区"
 aliases: [Tsuzuki2021 EBIT Compton camera, SiCdTe spatial template polarimetry]
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: detector-method-experiment-article
@@ -22,6 +22,7 @@ canonical_source: "arXiv2105.14236v1, 29-May-2021; publisherVoRnotobtained"
 source_url: "https://arxiv.org/abs/2105.14236"
 raw_file: "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/tsuzuki2021-2105-14236v1-f2c69bdb5ec1.pdf"
 raw_sha256: "f2c69bdb5ec135a8334ee977e198a79250b3a1b1322703b7277db8fcdc1f218d"
+archive_required: true
 raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23
 nuclei: []
@@ -37,11 +38,13 @@ tags: [EBIT, SiCdTe, normalization, domain-boundary, shared-data, systematics]
 
 Y. Tsuzuki等，*Review of Scientific Instruments* **92**,063101(2021)，DOI[10.1063/5.0050826](https://doi.org/10.1063/5.0050826)。Crossref核作者、题名、article number。实际读的是[arXiv2105.14236v1](https://arxiv.org/abs/2105.14236)，submission29-May-2021、PDF首页dated1-Jun-2021；两日期角色不同。AIP给出的VoR PDF请求403，未读VoR，不冒称逐字相同。
 
-[实际arXiv PDF](https://arxiv.org/pdf/2105.14236v1)HTTP200、11页，SHA256见frontmatter；当前在`tmp/day16-tsuzuki2021/arxiv-pdf.pdf`。raw槽未归档，未改raw/Bib。
+馆藏 `raw_file` 为 arXiv v1 的 11 页原件，SHA-256 与 Day16 原读副本一致。
 
 ## Scope and Reading Depth
 
 本session完整读11页SectionsI–VI、References及Dataavailability，视觉核Figs.1–15和Eqs.(1)–(8)及likelihood flow，本文无数据表。其原子Kr radiative-recombination x射线实验仅用于补[[go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte]] Ref37的response/normalization方法；不把原子偏振当核γ reference，不另开原子结构或Day18课程。
+
+本轮按 PDF 1–4 的散射与实验、PDF 5–7 的事件重建和响应、PDF 8–10 的拟合、零偏振控制及结论、PDF 11 的参考文献核定原件。其可迁移方法是按几何和能区构造偏振响应，使用独立控制约束仪器调制。核 γ 应用需重新标定能量、多击排序和接受度。
 
 ## Key Results
 

@@ -3,11 +3,11 @@ type: source
 title: "Investigation of lifetimes in dipole bands of 141Eu"
 aliases: [podsvirova-2004-141eu-dipole-lifetimes]
 created: 2026-10-29
-updated: 2026-10-29
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article
-reading_depth: read
+reading_depth: deep-read
 title_original: "Investigation of lifetimes in dipole bands of 141Eu"
 authors: ["E. O. Podsvirova", "R. M. Lieder", "A. A. Pasternak", "S. Chmel", "W. Gast"]
 year: 2004
@@ -40,6 +40,8 @@ Publisher PDF archived in `outputs/learning-daily/20261028-DAY26-octupole-e1-e3-
 本工作利用 EUROBALL IV 阵列测量了 $^{141}\text{Eu}$ 中两条偶极带（DB1 与 DB2）的激发态能级寿命，提取了绝对 $B(M1)$ 与 $B(E2)$ 强度。研究展示了多重磁转动带在同一原子核中共存的特征，并利用考虑核芯演化的推转剪刀模型（SPAC）分析了背弯与初始剪刀开角排列。
 
 ## Scope and Reading Depth
+
+物理 PDF1–6 已核对。EUROBALL IV 的 DSAM 运行使用 160 MeV \(^{32}\)S 和 8 mg/cm² 自支撑 \(^{114}\)Sn 靶，无需将另一运行的靶条件搬入。PDF3 Fig. 2 的 133° 后角线形由多组洁净双门相加。266.3-keV 线在 \(29/2^-\) 以下开门，336.3 和 466.3 keV 线在 \(39/2^-\) 以下开门。门下方法保留级联和侧馈，拟合含这些贡献以及阻止本领不确定度。多极性讨论使用 DCO 和衰变连接，原文未给线偏振数据。
 
 Read PDF pp.1–6, including Table 1 and Figs.1–4. Table values below are transcribed from the paper's text layer; asymmetric uncertainties and inequality bounds are preserved. No supplementary file link was identified in the paper; publisher attachment inventory was not exhaustively audited. No raw spectra, code or numerical TAC/SPAC parameter table was obtained.
 

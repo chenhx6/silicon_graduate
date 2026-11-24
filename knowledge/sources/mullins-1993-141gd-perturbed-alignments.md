@@ -3,7 +3,7 @@ type: source
 title: "Perturbed alignments within an i13/2 neutron intruder band in 141Gd"
 aliases: [Mullins et al. 1993, 141Gd i13/2 intruder alignment]
 created: 2026-07-15
-updated: 2026-07-16
+updated: 2026-11-22
 status: active
 review_status: human-reviewed
 source_type: experiment-article
@@ -66,7 +66,7 @@ The early `141Gd` in-beam study establishes an i13/2 intruder-band and alignment
 | MU93-5 | The band-1 effective alignment at its top is about i_x/I = 0.25(5), and its dynamic moment of inertia shows a pronounced rise near hbar omega about 0.3 MeV associated with a structural change near decay-out. | observed-fact | direct | PDF pp. 2-3, Fig. 2 | false |
 | MU93-6 | The authors assign band 1 primarily to the nu i13/2[660] 1/2-plus intruder because of its favored signature, alignment, decay pattern and comparison with neighboring isotones; the assignment is an experimental/model synthesis rather than a direct orbital measurement. | experimental-assignment / author-interpretation | direct | PDF pp. 2-3 and Fig. 1 | false |
 | MU93-7 | Cranked-shell-model calculations predict backbends from h11/2 proton and h9/2 neutron crossings, whereas the measured alignments show gradual upbends, indicating stronger interaction or more gradual crossing than the calculation predicts. | model-calculation / observed-fact / limitation | direct | PDF Abstract and pp. 3-5, Figs. 2-3 | false |
-| MU93-8 | A TRS minimum for the band-1 configuration has weak triaxial deformation near beta2 = 0.18 and gamma about -30 degrees; this is a calculated shape used to interpret the band, not a direct shape measurement. | model-calculation | direct | PDF p. 3, Fig. 3(a) and text | false |
+| MU93-8 | The authors associate the Band-1 TRS minimum with \(\beta_2=0.29,\gamma=20^\circ\) at \(\hbar\omega=0.496\) MeV. The weaker calculated deformation \(\beta_2\approx0.18,\gamma\approx-30^\circ\) belongs to the \(h_{11/2}\) isomer discussion. Both are model-based shape assignments. | model-calculation | direct | PDF2 isomer discussion; PDF4 Fig. 3(a) and caption | false |
 | MU93-9 | The gradual alignment is attributed to a stronger residual interaction between high-j low-K crossing quasiparticles and the i13/2 intruder; octupole correlations are mentioned as an alternative possibility not included in the standard cranking calculation. | author-interpretation / competing-interpretation | direct | PDF p. 3-4, CSM/TRS discussion | false |
 | MU93-10 | This source supplies an early alignment and DCO-method precedent for later mixing-ratio and high-spin band analysis, but it contains no wobbling-band claim and should not be promoted as wobbling evidence. | Wiki synthesis | direct | Whole article; especially pp. 2-4 | false |
 
@@ -88,6 +88,8 @@ The evidence chain is reaction-selected coincidences -> decay scheme and DCO con
 - This paper is an alignment/method source, not a wobbling or chirality source.
 
 ## Related Knowledge and Project Relation
+
+Fig. 2(b) in PDF4 (R2450) labels the common Harris reference as \(\mathcal J_0=9.0\,\hbar^2/\mathrm{MeV}\) and \(\mathcal J_1=48.0\,\hbar^4/\mathrm{MeV}^3\). The text gives a gain of about \(9.7\hbar\) in the \(^{140}\mathrm{Gd}\) comparison after backbending. In the cranked calculation on that page, the proton signature inversion near \(\hbar\omega=0.15\) MeV appears at the triaxial input and disappears in the prolate calculation. Changing to the prolate input shifts the predicted neutron \(h_{9/2}\) AB crossing from about \(0.39\) to \(0.43\) MeV and increases the calculated interaction strength. These are sensitivities to model inputs. PDF2 reports a regular Band 2 cascade and limits the paper's interpretation to Band 1.
 
 - Concepts: [[angular-momentum-alignment]], [[rotational-bands]], [[triaxial-deformation]], [[backbending]], [[angular-momentum-alignment]]
 - Models: [[cranked-shell-model]], [[routhian]]

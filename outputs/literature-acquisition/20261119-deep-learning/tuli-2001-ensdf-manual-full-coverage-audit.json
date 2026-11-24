@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-11-21T23:33:45.974417+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 726,
+      "task": "TULI01-ENSDF-FULL-COVERAGE",
+      "pages": 112,
+      "version": "J. K. Tuli, NNDC BNL-NCS-51655-01/02-Rev, February 2001",
+      "role": "verified-official-format-manual",
+      "scope": [
+        "PDF1–6 cover, abstract and contents",
+        "PDF7–38 organization, 80-column records, normalizations and gamma cards; PDF8 and 38 are blank numbered pages",
+        "PDF39–74 continuation syntax, field details and appendices A–E",
+        "PDF75–112 dictionary appendices and evaluation policies"
+      ],
+      "checks": [
+        "PDF34 (printed p.28) specifies M 32–41, MR 42–49, DMR 50–55. Sign is explicit if known. Sign omission records unknown sign.",
+        "PDF50 (p.44): MR=-3, DMR=+1-4 illustrates asymmetric uncertainty. PDF51–52 multipolarity brackets mark probable vs assumed or derived assignments.",
+        "PDF39–42 describes continuation cards, operator syntax, final-level energies and comment/flag links. PDF63–70 provides adopted and decay dataset examples.",
+        "PDF106 (p.100) states the Krane–Steffen phase for the description of the Nuclear Data Sheets evaluation policy. Filename, report number and 2001 version are verified locally."
+      ],
+      "gap": "Fixed-field definitions describe this historical manual and an adopted-data convention. Preserve each primary paper's empirical status, operator sign, dataset lineage, and cited evidence independently. Low-level PDF character extraction has encoding defects.",
+      "lineage": "One BNL/NNDC report. Examples illustrate evaluated and decay files, without duplicating their underlying experiments.",
+      "work_id": "catalogue:LIT-000726",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/tuli-2001-ensdf-format-3400f0ae84d2.pdf",
+        "sha256": "3400f0ae84d24f252f5bed4e6f0227304df9a4608aceb1d67e609db12605a0e9",
+        "size": 686034,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-official-format-manual"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 1,
+  "credited_primary_pages": 112
+}

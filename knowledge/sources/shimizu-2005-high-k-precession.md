@@ -81,3 +81,8 @@ tags: [A130, high-k, wobbling, precession, axial-symmetry]
 pp. 5–6（Sec. III B）。未另制可代替原件的全文转写附件；核查上述公式或措辞时
 回到 `raw_file` 指向的固定版本 PDF。归档文件、大小、SHA-256及获取时间见
 `raw/papers/gpt/query/20261113-A130-precession-limits/manifest.json`。
+
+
+## 2026-11-22 — 14 页高 K 进动作者稿复核
+
+PDF 8 Table I 是 178W RPA 使用的指派构型。PDF 9 Fig. 4 的进动能和 Fig. 5 的惯量在原图中区分 RPA 计算与文献实验点。Fig. 5 的实验参照经 Eq. (39) 由谱提取。随构型变化的进动惯量保留相应配对和角动量轴，和 PDF 3 Eqs. (8)–(11) 的共转系/实验室系区分一致。

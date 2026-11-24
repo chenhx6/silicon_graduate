@@ -4,7 +4,7 @@ title: "Yao2012：34Si相关GCM、点质子与电荷密度边界"
 title_original: "Beyond-mean-field study of the possible bubble structure of 34Si"
 aliases: [Yao 2012 34Si bubble, 34Si GCM density]
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: theoretical-model
@@ -22,6 +22,7 @@ canonical_source: "https://doi.org/10.1103/PhysRevC.86.014310"
 source_url: "https://arxiv.org/pdf/1205.2262v1"
 raw_file: "raw/papers/gpt/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam/yao-2012-34si-beyond-mean-field-bubble.pdf"
 raw_sha256: "a3e8765895514298dc2479dc935617ed9972af418fcf9acb28fe83b497c0a0d2"
+archive_required: true
 raw_storage_status: existing-raw-read-only-verified-checkpoint124
 public_staging_verified_at: 2026-10-23
 public_staging_file: "tmp/day21/yao2012/PDFs/Beyond-mean-field_study_of_the_possible_bubble_structure_of_34Si.pdf"
@@ -42,6 +43,8 @@ tags: [a34, correlations, density, model-boundary]
 J.-M. Yao等，Phys. Rev. C **86**, 014310 (2012)。Crossref精确DOI核题名、卷/期、2012-07-09出版日期；实际阅读arXiv1205.2262v1九页，locator不混用期刊页。公开arXiv下载PDF/哈希已核，SI未检；较早预留槽描述由124纠正：该raw路径实际现存且hash与staging一致；本轮只读核验，不归本轮创建或改写，raw/Bib未写。
 
 ## Scope and Reading Depth
+
+本轮核定 arXiv v1 的九页。PDF7 Tables I–II 分别给点质子密度与电荷密度。按各自峰值定义的中心耗尽量，点质子从 HF 的 0.41 降到基态 GCM 的 0.21，GCM 折合电荷密度给 0.09。谱学数据来自所引实验。用于判断中心耗尽的电荷分布与跃迁密度仍是本稿计算量。
 
 Day21实际读PDF1–9主线/公式/结论及参考入口，视觉核PDF5–7的Fig.4–7、Table I/II、Eq.(9)–(11)。未运行原GCM代码、取得未舍入密度/transition kernels，也未独立核参考中的实验原数据。Fig.1–3已按文本主线读其说明，本次未逐点数字化或声称所有图的独立复算。
 

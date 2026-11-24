@@ -3,7 +3,7 @@ type: source
 title: "Zhao等2015：配对对核自旋取向的影响"
 aliases: [Zhao 2015 pairing spin orientation, TAC-RHB blocking 2015]
 created: 2026-10-15
-updated: 2026-10-15
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-theory-and-method
@@ -21,6 +21,7 @@ canonical_source: "https://doi.org/10.1103/PhysRevC.92.034319"
 citation_key: "zhao_2015_135nd-impact-pairing"
 raw_file: "raw/papers/2015-Zhao-pairing-spin-orientation-TAC.pdf"
 raw_sha256: ce3c7672420b07e9bbe7d7a869049771c5cef9aa64f4dffce5dfd18bcb0b3c21
+archive_required: true
 raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23
 nuclei: [135Nd]
@@ -37,9 +38,11 @@ tags: [a130, pairing, tac-cdft, blocking, reproducibility]
 
 P. W. Zhao, S. Q. Zhang, J. Meng, Physical Review C **92**, 034319 (2015)，DOI [10.1103/PhysRevC.92.034319](https://doi.org/10.1103/PhysRevC.92.034319)。Crossref核到题名、三作者和2015-09-18；arXiv精确DOI命中[1506.08340v2](https://arxiv.org/abs/1506.08340v2)，其API题名少最后一个“spin”，而所读[公开PDF](https://arxiv.org/pdf/1506.08340v2)首页完整题名/作者与Crossref一致，边栏日期20 Sep 2015。当前locator均为此13页预印本，不冒充正式排版核验。
 
-本次按daily-learning授权保存来源证据，**未完成raw归档摄入**。`raw_file`是不存在的保留槽；实际只读输入为`tmp/day14-20261014/tac2015/PDFs/Impact_of_pairing_correlations_on_the_orientation_of_the_nuclear_spin.pdf`，323292 bytes，SHA256如frontmatter。独立检查PDF magic/hash/首页身份，保留下载manifest、metadata和阅读回执。citation key未在本地Bib匹配，留空；raw/Bib均未改。
+馆藏 `raw_file` 为 arXiv v2 的 13 页原件，SHA-256 与此前 Day14 的原读副本一致。
 
 ## Scope and Reading Depth
+
+- 本轮核定 PDF1–5 的方法、PDF6–10 的原图及 PDF11–13 的结论与书目。Fig. 2 比较所引实验能级和计算曲线。Figs. 3–4 的质子、中子角动量分量来自模型，在设定推转平面内解释。Fig. 5 保留配对计算与所引实验强度的差异。
 
 - **Covered scope**：全文13页；Introduction与动机、TAC-RHB框架、数值设置、p.5轨道追踪/阻塞段、Results、Summary和参考文献；视觉核p.4–5的公式/方法及Figs.1–5。没有独立table或appendix；所有影响判断的输入与图例已读。未请求SI。
 - **Not covered**：实际RHB代码、U/V文件、λ/ω迭代步长、轨道追踪日志、相位和tie等实现约定、实验事件/响应/联合误差。上游实验原文未在本次重新全文读取；既有[[mukhopadhyay-2007-135nd-chiral-vibration-static]]只作为Wiki已存伴随证据校准，不增加新实验。

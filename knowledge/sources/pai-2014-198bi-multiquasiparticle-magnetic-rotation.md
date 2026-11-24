@@ -3,7 +3,7 @@ type: source
 title: "Pai et al. 2014：198Bi 多准粒子磁转动带交叉与剪刀相互作用强度"
 aliases: [Crossing of large multiquasiparticle magnetic-rotation bands in 198Bi, 198Bi MR bands B1 B2, arXiv 1406.5494]
 created: 2026-10-30
-updated: 2026-10-30
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: experimental-paper
@@ -57,23 +57,22 @@ Pai 等人（2014）通过 $^{185,187}\text{Re}(^{16}\text{O}, xn)^{198}\text{Bi
 | PAI14-2 | 识别出磁转动带 B1 与 B2，B1 经历 6-qp 向 8-qp 剪刀带交叉，B2 经历 4-qp 向 6-qp 剪刀带交叉。 | experimental-and-model | direct | PDF pp.2–6 Sec.III | false |
 | PAI14-3 | 自洽 Hybrid-TAC 给出的形变参数：B1 6-qp 为 $\epsilon_2=-0.083, \gamma=6.9^\circ, \theta=57^\circ$；B2 4-qp 为 $\epsilon_2=-0.085, \gamma=16.4^\circ, \theta=70^\circ$。 | model-result | direct | PDF pp.6–7 Sec.III.A | false |
 | PAI14-4 | 剪刀相互作用强度拟合：带 B1 $V_2 = 610\text{ keV}$，带 B2 $V_2 = 865\text{ keV}$，单高-$j$ 粒子—空穴对强度约为 $288 - 300\text{ keV}$。 | model-analysis | direct | PDF pp.7–8 Sec.III.B | false |
-| PAI14-5 | 计算与导出的 $B(M1)$ 随自旋增加单调下降，计算 $B(E2) \approx 0.07\ e\text{b}$ 极弱且保持常数，证明其严格处于平面剪刀磁转动区域。 | experimental-derived | direct | PDF pp.6–7 Figs.7,8 | false |
+| PAI14-5 | Hybrid-TAC 给出弱 E2 以及带内 \(B(M1)\) 随自旋变化的趋势。Fig. 8(b) 的两个点由 B2 的 \(20^-\)、\(21^-\) 分支强度按 \(\delta=0\) 推导 \(B(M1)/B(E2)\)，再乘上 TAC 的 \(B(E2)\)。这项比较支持作者的磁转动解释，绝对强度仍依赖模型。 | experimental-derived-and-model | conditional | arXiv v3 PDF pp.10–11, Fig. 8 and text | false |
 
 ## Competing Interpretations and Limitations
 
-1. **绝对跃迁速率与寿命测量的局限**：本实验未能直接测量能级寿命，其 $B(M1)$ 随自旋下降趋势是通过测量的 $B(M1)/B(E2)$ 分支比乘以 TAC 计算的理论 $B(E2) = 0.07\ e\text{b}$ 间接推导得出；虽然趋势与绝对剪刀闭合高度一致，但严格的绝对跃迁强度仍有待后续 DSAM/RDDS 实验复核。
+PDF pp.2–3 的 Eq. (2) 和 Fig. 1 定义积分不对称度 \(\Delta_{\mathrm{IPDCO}}\) 和非偏振 \(^{152}\mathrm{Eu}\) 校准的 \(a(E_\gamma)=0.88(2)+0.00012(3)E_\gamma\)，其中 \(E_\gamma\) 用 keV。Table I 的列与该积分不对称度对应。由该量换算物理线偏振度还需探测器灵敏度。
+
+1. **绝对跃迁强度**。实验未测量能级寿命。B2 仅有两个采用实验强度比和 TAC \(B(E2)\) 得到的 \(B(M1)\) 比较点，完整的自旋依赖曲线来自计算。
 2. **多准粒子组态与杂质轨道**：对于带 B1，若将全部 5 个粒子—空穴对计入，每对强度为 $122\text{ keV}$，低于 Pb 区标准 $300\text{ keV}$；作者推测仅高-$j$ 侵入轨道（$\pi h_{9/2}, \nu i_{13/2}$）主导剪刀机制，低-$j$ 轨道主要贡献背景核心对齐，表明在多准粒子剪刀中存在轨道参与有效性分层。
 
 ## Extracted Pages
 
-- PDF p.1: 摘要、反应与加速器参数（112.5 MeV 16O 束流，INGA 阵列）。
-- PDF pp.2–4: 能级纲图（Fig. 1），带 B1、B2、B3 能级、跃迁能量、自旋宇称。
-- PDF pp.4–5: Table I（实验跃迁能量、符合门、分支比、DCO 比、极化不对称度）。
-- PDF pp.6–7: Hybrid-TAC 模型计算细节、形变极小化参数（Table II, Figs. 6-8）、$B(M1)$ 与带交叉自旋。
-- PDF pp.7–8: 半经典剪刀相互作用模型、剪刀角 $\theta$ 计算、势能曲线拟合（Figs. 10-11）、$V_2$ 参数提取。
-- PDF pp.8–11: 总结与参考文献列表。
+- PDF1–3 记录实验、DCO 及不对称度定义。PDF4 的 Fig. 3 给出能级纲图。
+- PDF5–6 的 Table I 给出观测跃迁、相对强度、DCO 和积分偏振不对称度。
+- PDF8–11 给出 Hybrid-TAC 形变、转动和跃迁比较，重点见 Figs. 6–9。PDF11–13 讨论半经典剪刀模型和 \(V_2\)，见 Figs. 10–11。PDF13–14 涵盖总结及参考文献。
 
 ## Research Decisions
 
 - `supports` [[magnetic-rotation]]：确立了 A≈190 奇奇核中多准粒子磁转动带交叉（6-qp $\to$ 8-qp 与 4-qp $\to$ 6-qp）的微观图像与剪刀相互作用常数 $V_2 \approx 865\text{ keV}$。
-- `limits` [[nuclear-chirality]]：为奇奇核手征向磁转动的拓扑相变提供了重核区反例：尽管带 B2 具有微弱三轴度（$\gamma = 16.4^\circ$），但由于巨大的中子叶片角动量（$j_\nu = 16.5 - 17.5\hbar$）产生压倒性的平面科里奥利恢复力，临界分岔频率高达 $\hbar\omega_{\text{crit}} > 0.82\text{ MeV}$，远高于实验后弯与终止频率（$\sim 0.40\text{ MeV}$），因而彻底阻断了非平面手征相变的发生。
+- `limits` [[nuclear-chirality]]。本篇为 B1、B2 提供磁转动候选的光谱和模型比较。B2 的 \(\gamma=16.4^\circ\) 来自 Hybrid-TAC 的构型计算。旧注的 \(\hbar\omega_{\rm crit}>0.82\) MeV 缺少本文定位，移出由该论文支持的物理判断。

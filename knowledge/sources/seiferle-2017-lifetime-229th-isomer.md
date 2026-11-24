@@ -41,20 +41,25 @@ tags: ["229th", "isomer", "nuclear-clock", "vuv-spectroscopy"]
 
 ## Summary
 
-Seiferle et al. measured the internal conversion half-life of neutral 229mTh using a fast high-voltage clearing field and delay-time analysis on collection electrodes. The measured half-life of 7 ± 1 μs established an internal conversion coefficient alpha_IC ≈ 10^9 relative to expected ~10^4 s radiative lifetime, explaining the suppression of optical fluorescence in neutral thorium.
+Seiferle et al. inferred a half-life of 7 ± 1 μs from delayed electrons after thorium ions neutralized on the microchannel plate. Combining that measurement with an expected radiative mean life of about \(10^4\) s gives an internal conversion coefficient of order \(10^9\). The radiative lifetime used in this comparison is a theory input.
 
 ## Key Results
 
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| S17-1 | Internal conversion decay half-life of neutral 229mTh measured as T1/2 = 7 ± 1 μs (mean life tau ≈ 10 μs). | observed-fact | direct | p. 042501-3, Figs. 2-3 | true |
-| S17-2 | Internal conversion coefficient determined to be alpha_IC ≈ 10^9, constraining radiative branching in neutral atoms to 10^-9. | author-analysis | derived parameter | p. 042501-4, text | true |
+| S17-1 | The fitted half-lives after neutralization are 6.9(1.0) μs for the incident \(2^+\) charge state and 7.0(1.0) μs for \(3^+\). The reported neutral-atom result is 7(1) μs. | measured-decay-and-fit | direct | PDF 4, Fig. 4 and text | true |
+| S17-2 | The order-of-magnitude estimate \(\alpha_{\rm IC}\sim10^9\) combines the measured decay time with the theoretical radiative lifetime and implies a radiative branching fraction of order \(10^{-9}\) where internal conversion is allowed. | author-analysis | measurement-plus-theory | PDF 1 abstract and PDF 4 discussion | true |
 
 ## Competing Interpretations and Limitations
 
-Measurement performed for neutral atoms deposited on metal surfaces. Lifetime in other chemical environments or charge states differs by orders of magnitude.
+The delayed signal follows neutralization on the microchannel plate. The paper does not measure the isolated-ion radiative lifetime or determine the effect of arbitrary host materials and charge states.
 
 ## Extracted Pages
 
 - [[seiferle-2017-lifetime-229th-isomer]]
 - [[nuclear-clock-isomer-learning-and-transfer-20261107]]
+
+
+## 2026-11-22 — 五页刊本与 Fig. 4 复核
+
+PDF 4 Fig. 4 的两组计时以入射离子的电荷态分组，拟合量来自落到 MCP 后的中性衰变尾。两单独结果 6.9(1.0) 和 7.0(1.0) μs 与作者汇报的 7(1) μs 对应。PDF 1、4 的内转换系数量级须同时引用理论辐射寿命输入。全文读段为 PDF 1–5，未取得事件文件或独立补充材料。

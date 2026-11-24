@@ -3,11 +3,11 @@ type: source
 title: "Riley2021：GRETINA有效被动层、能谱响应与偏振迁移边界"
 aliases: [Riley2021 UCGretina response, GRETINA effective passive germanium layers]
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article
-reading_depth: read
+reading_depth: deep-read
 title_original: "UCGretina GEANT4 Simulation of the GRETINA Gamma-Ray Energy Tracking Array"
 authors: [L. A. Riley, D. Weisshaar, H. L. Crawford, M. L. Agiorgousis, C. M. Campbell, M. Cromaz, P. Fallon, A. Gade, S. D. Gregory, E. B. Haldeman, L. R. Jarvis, E. D. Lawson-John, B. Roberts, B. V. Sadler, C. G. Stine]
 year: 2021
@@ -42,6 +42,8 @@ tags: [instrument-response, geometry, calibration, polarimetry-readiness]
 PDF与渲染图放repo `tmp/day16-ucgretina/riley2021/`，raw归档槽尚未填。下载使用公开OA路径；SI检索对direct PDF无landing而未找到，不能据此认定作者没有补充材料。此前代码页对本论文的README引用不替代本页原读。
 
 ## Scope and Reading Depth
+
+本轮核定 frontmatter 中 `raw_file` 指向的 26 页馆藏 arXiv v1。早期只存暂存副本的说明为历史状态。Table 2 的 I 组拟合范围起点印为 53 keV，紧接表格的正文写 58 keV，均保留原定位。Fig. 11–12 的低能连续谱差异还受外围被动材料建模影响，表列有效层厚度仅用于这套响应模型。
 
 已沿完整主线读PDF1–23：物理/几何、LBNL pencil-beam、NSCL flood-source、单晶和全阵列有效层、photopeak与Compton continuum、限制及展望；24–26页参考文献核对其方法谱系，没有声称读完被引文献。12幅图全部在本地实际渲染并逐图查看，Table1/2和Eq.(1)回核。主动回忆在取得正文前冻结，明示已接触公开代码/Eu2012数据/Morse及源MC的priming。
 

@@ -3,7 +3,7 @@ type: source
 title: "Schlitt et al. 1994 - Sectored Ge Compton polarimeter for parity assignments"
 aliases: [Schlitt 1994 sectored Ge polarimeter]
 created: 2026-09-21
-updated: 2026-10-20
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: method-paper-and-application
@@ -53,7 +53,7 @@ tags: [sectored-Ge, Compton-polarimeter, parity, NRF, polarization]
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | SC94-1 | Fourfold sectored Ge provides a compact high-efficiency Compton polarimeter for NRF parity assignments. | method-result | direct | PDF pp.416–420, Table 4 | true |
-| SC94-2 | `Q(E)` declines from ~20% at 0.5 MeV to ~9.5% at 4.4 MeV for the tested thresholds/geometry. | calibration-result | direct | PDF pp.421–423, Table 3, Fig.11 | true |
+| SC94-2 | 150-keV 扇区阈值下，Table 3 的 4438-keV 灵敏度为 7.93(31)%，Table 4 总述在约 4.4 MeV 给出约 9.5%。Eq. (25) 的拟合系数与 Eq. (16) 的响应函数配套使用。几何归一 \(a=H_{\rm unpol}/V_{\rm unpol}\) 独立定义于 Eq. (21)。 | calibration-result | direct | Printed pp.420–423, Eqs. (16), (21), (25), Table 3 and Fig. 11; overview Table 4 | true |
 | SC94-3 | NRF `162Dy` parity signs are demonstrated with sum/difference spectra. | application-result | mixed | PDF pp.423–425, Figs.15–16 | true |
 
 ## Summary

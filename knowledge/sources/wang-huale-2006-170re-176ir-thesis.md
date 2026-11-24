@@ -3,7 +3,7 @@ type: source
 title: "王华磊 2006 博士论文：170Re 在束谱学与 176Ir EC/β+ 衰变"
 aliases: [王华磊2006博士论文, Wang Hua-Lei 2006 Re Ir thesis]
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-experiment
@@ -25,6 +25,7 @@ zotero_uri:
 library_file: "raw/theses/degree-dissertation/A王华磊.pdf"
 raw_file: "raw/theses/degree-dissertation/A王华磊.pdf"
 raw_sha256: "4D3587FAEFDC877D88D383DB75BBE71033241C2E1AFECA2259E2557A9F4AFA41"
+archive_required: true
 nuclei: [170re, 176ir, 176os]
 reactions: ["142Nd(32S,1p3n)170Re", "146Nd(35Cl,5n)176Ir"]
 experiments: []
@@ -41,6 +42,11 @@ tags: [a160, in-beam-spectroscopy, odd-odd, signature-inversion, ec-decay, phd-t
 王华磊，*奇奇核170Re在束γ谱学和176Ir EC/β+衰变研究*，中国科学院研究生院博士学位论文，2006，161 页。原始 PDF SHA-256 为 `4D3587FAEFDC877D88D383DB75BBE71033241C2E1AFECA2259E2557A9F4AFA41`。
 
 ## Scope and Reading Depth
+
+全件 161 个物理页。PDF1–14 为前置页和导论，PDF15–83 为理论、实验和离线分析，PDF84–125 为 `170Re`，PDF126–145 为 `176Ir`，PDF146–161 为总结和书目等。正文印刷页为物理 PDF 页减 8。
+
+- `170Re` 的 188.9 keV 行同时列 \(R_{\rm DCO}=0.86(7)\)、\(R_{\rm ADO}=0.80(5)\) 和相对强度 \(100(8)\)（PDF103，Table 5.4）。其它弱线或重叠线需要按表中实际空栏处理。
+- `176Ir` 衰变章的 607.2、629.8 keV 线给出时间谱半衰期 17.6(1.7) s 和 9.2(0.7) s（PDF139）。前者含两个馈入成分，作者据符合和时间谱提出母体低自旋长寿命异能态。数值对应按子核谱线选出的母核衰变时间分量。该实验使用 Clover 作能量加和，表 6.1 未列角分布、角关联或逐线偏振。
 
 - Completed reading_depth: `deep-read`。
 - Covered scope: 摘要、目录、第 2–6 章理论/实验/数据处理、`170Re` 能级纲图与组态讨论、`176Ir` 衰变新线和同核异能态、第 7 章总结；核对反应、HPGe、X-γ/γ-γ/γ-t、Routhian、alignment、signature inversion 和两准粒子计算。

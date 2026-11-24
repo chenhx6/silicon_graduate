@@ -1,0 +1,43 @@
+{
+  "checked_at": "2026-11-21T23:47:06.052914+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 749,
+      "task": "WANG17-AG109-TAC-PAIRING-SCOPE",
+      "pages": 9,
+      "version": "arXiv:1708.06117v2, archived author edition",
+      "role": "verified-arxiv-author-version",
+      "scope": [
+        "PDF1–3 motivation, constrained TAC and pairing framework",
+        "PDF4–7 conditional energy, alignment, geometry and transition comparisons",
+        "PDF8–9 conclusions and references"
+      ],
+      "checks": [
+        "PDF4 Figs. 1–2 compare the calculated branches with and without pairing; the original reports absent converged results over I about 7.5–11.5 hbar.",
+        "PDF5–7 compares spin, tilt and strengths. Ref. [36] (Datta et al.) provides the experimental comparison and is a separate source."
+      ],
+      "gap": "Pairing comparison is conditional on the functional, blocked configurations and convergence coverage; no new measurement.",
+      "lineage": "Original theory and shared cited experimental sequence.",
+      "work_id": "catalogue:LIT-000749",
+      "raw": {
+        "path": "raw/papers/2017-Wang-109Ag-TAC-separable-pairing.pdf",
+        "sha256": "15e901a4f5d8ad1b5cf4bffe61e050d8eb6a3c89b0f9f62dea84e5d56c335d87",
+        "size": 525900,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/wang-2017-109ag-tac-separable-pairing.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 1,
+  "credited_primary_pages": 9
+}

@@ -226,3 +226,8 @@ Christoph B. Hinke，*Spectroscopy of the doubly magic nucleus 100Sn and its dec
 | HK10-D21-R138-1 | 纳入电子俘获分额随端点由13.3%降至9.49%的能隙阻尼效应后，全相空间比值严格为f_tot(3.74)/f_tot(3.29)=1.71064；Hinke实测B(GT)=9.1经全相空间与半衰期精确标度后为B(GT)'=5.274，与Lubos实测中心值5.26偏差仅0.27%，解释率达99.62%，排他性证实GSI与RIKEN在真实弱衰变矩阵元上完全相容（gA/gA_free≈0.533 vs 0.544）。 | ec-phase-space-exact-reconciliation | derived-from-HK10-and-LB16 | Nature 465, 997 Table 1; PRC 94, 054322 | true |
 
 计算脚本见system/scripts/day21_checkpoint138_ec_phase_space_reconciliation_audit.py，输出sn100-ec-reconciliation-scope-138.json。
+
+
+## 2026-11-22 — GSI 学位论文原页复核
+
+实际 107 页。PDF 69（印 59）Table 5.1 是 MLH 中计算的母、子、孙与本底事件分解。PDF 72（印 62）Table 5.2 是 100In γ 峰事件及按两种多极性假定作转换修正后的绝对强度。PDF 87（印 77）用 1.16(20) s 半衰期和单通道假定下的 3.29(20) MeV β 端点导出 \(B_{\rm GT}=9.1^{+4.8}_{-2.3}\)。附录 A.1（PDF 95–99）给有限相关窗的多代衰变似然，A.2（PDF 100–101）分列 SIMBA 植入硅和 β 吸收硅规格。

@@ -3,11 +3,11 @@ type: source
 title: "Protopapas–Klein 1997：芯—粒子近似和物理解选择"
 aliases: [Protopapas Klein1997 strong coupling core particle]
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: theory-method
-reading_depth: read
+reading_depth: deep-read
 title_original: "Derivation and assessment of strong coupling core-particle model from the Kerman-Klein-Dönau-Frauendorf model"
 authors: [Pavlos Protopapas, Abraham Klein]
 year: 1997
@@ -33,7 +33,7 @@ tags: [pairing, physical-subspace, approximation, cfp]
 
 ## Scope and Reading Depth
 
-定向读引言、CFP/EM定义及§§V–VII；未重放Gd/Tb算例。
+核定刊版 PDF1–15（印刷 pp.699–713），包括 CFP 与电磁算符、内禀变换、耦合近似、物理解排序、Gd/Tb 算例及附录。未重放数值算例。
 
 ## Summary
 
@@ -49,6 +49,8 @@ tags: [pairing, physical-subspace, approximation, cfp]
 | PK-3 | 本任务固定完整转子、仅缩放K的路径起点不同；尚未完成CFP、能量和两偶芯字典。 | task-transfer-boundary | source-plus-explicit-comparison | p.709；本轮continuation/report.md附注 | true |
 
 ## Competing Interpretations and Limitations
+
+Sec. VIII 的 \(^{157}\mathrm{Gd}\) 算例采用五个主壳的 Woods–Saxon 单粒子空间，两个偶芯含基态带和若干激发带。偶芯激发能由符合实验的唯象公式给出。作者先用完整 KKDF 调整四极场强度和单粒子能量，再固定同一组参数求近似模型。因此 Fig. 1 的能谱和 Fig. 2 的 \(B(E2)\) 是同一参数下的模型比较。\(^{157}\mathrm{Tb}\) 的实验 \(B(E2)\) 点过少，作者只在 Fig. 3 比较能谱。Sec. IX 把这两例的近似相合归于开启耦合时物理态与非物理态混合小，并指出多重避免交叉的情形可能改变这一结论。
 
 原文方法依赖所述模型和谱/对称性条件；额外守恒量、真简并及截断需另查。
 排序或连续追踪本身不提供实验模式标签，也不是新方法主张。

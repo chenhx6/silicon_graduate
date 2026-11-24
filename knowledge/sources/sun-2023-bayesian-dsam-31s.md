@@ -3,7 +3,7 @@ type: source
 title: "Sun2023：31S的MCMC Bayesian DSAM与输入边界"
 aliases: [Sun 2023 Bayesian DSAM, Sun 2022 arxiv2203.10336v2]
 created: 2026-10-19
-updated: 2026-10-20
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-method
@@ -19,6 +19,7 @@ citation_key: "sun_2023_31s-application-markov"
 canonical_source: https://doi.org/10.1016/j.physletb.2023.137801
 raw_file: raw/papers/2023_Sun_et_al_Bayesian_Doppler_shift_attenuation_method.pdf
 raw_sha256: f19bb23761529d355efbe83e5a8063f4e99a9c43bd65cc906604d129aad55b34
+archive_required: true
 raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23
 nuclei: [31S, 31P]
@@ -31,11 +32,13 @@ tags: [DSAM, covariance, prior, lifetime, surrogate, 31S]
 
 ## Bibliographic Record
 
-L. J. Sun等，*Physics Letters B*839,137801(2023)，DOI[10.1016/j.physletb.2023.137801](https://doi.org/10.1016/j.physletb.2023.137801)。Crossref题名/DOI/卷/文章号已核；实际原读为[arxiv2203.10336v2](https://arxiv.org/abs/2203.10336v2)，页首9Nov2022、稿内dated10Nov2022，十页。不能将其当已取得2023VoR body；作者列表版本差异也保留。上方raw路径为保留归档槽，未写入raw或protectedBib。
+L. J. Sun 等，*Physics Letters B* **839**, 137801 (2023)，DOI `10.1016/j.physletb.2023.137801`。馆藏十页原件是 arXiv:2203.10336v2，页首日期为 2022 年 11 月 9 日，稿内日期为 11 月 10 日。本轮页段与表格定位依据该预印本版本。
 
-实际PDF位于`tmp/day17-sun2023/PDFs/First_application_of_Markov_chain_Monte_Carlo-based_Bayesian_data_analysis_to_the_Doppler-shift_attenuation_method.pdf`，SHA256 `f19bb23761529d355efbe83e5a8063f4e99a9c43bd65cc906604d129aad55b34`。官方arxivsrc包SHA256 `8c1a995e1b4dc65d67e168ec1d030aaae44ccafaf697a4dfbbc6a081aec357fb`，只含maintex和六EPS，不含补充材料。
+馆藏 `raw_file` 与此前 Day17 原读 PDF 的 SHA-256 一致。官方 arXiv 排版源码包 SHA-256 为 `8c1a995e1b4dc65d67e168ec1d030aaae44ccafaf697a4dfbbc6a081aec357fb`，成员为主 TeX 和六个 EPS 图。
 
 ## Scope and Reading Depth
+
+馆藏 PDF 1–2 为动机和实验，PDF 3–4 为线形与取样模型，PDF 5–7 为寿命、解释和结论，PDF 8–10 为参考文献等尾部页段。Eq. 3 按能道比较符合谱和模拟线形。阻止功率比例使用短寿命态 10%、长寿命态 20% 的先验标准差。Fig. 4 展示长寿命态寿命与阻止功率比例的后验负相关。补充材料沿用下文单列的既有阅读记录。
 
 本session先冻承认Wang2023二级review/metadata priming的主动回忆，再取得原件。实际读十页全部主线/参考，五图(Figs1–5)、一表(TableI)、三式(Eqs1–3)，PDF2/4/5/6/7关键原图视觉核；maintex相关literalpriors/likelihood补核。初始v2摄入时未读SupplementalMaterial；后续新入口已取得并完整原读publisherSI五页/十三图，见本页SUN23-17–22。仍未取得原counts/训练网格/response/posteriordraws或作者tailoredMADAI。网络/下载/正文scope见本run[sun2023-download-identity](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-download-identity.json)及后续readingscope；不从review的赞许替代原件。
 

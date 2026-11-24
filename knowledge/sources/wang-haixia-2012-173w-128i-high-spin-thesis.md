@@ -3,7 +3,7 @@ type: source
 title: "王海霞 2012 博士论文：173W 和 128I 高自旋态"
 aliases: [王海霞2012博士论文, Wang Haixia 2012 173W 128I thesis]
 created: 2026-09-10
-updated: 2026-10-12
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: thesis
@@ -24,6 +24,7 @@ zotero_uri:
 library_file: "raw/theses/degree-dissertation/王海霞 - 173W 和128I 的高自旋态研究.pdf"
 raw_file: "raw/theses/degree-dissertation/王海霞 - 173W 和128I 的高自旋态研究.pdf"
 raw_sha256: "1e0a882f8a393714ed5e75c06df9bd17dd578b232ea2cd34b6e333fb1b7a26d7"
+archive_required: true
 nuclei: [173w, 128i]
 reactions: ["150Nd(28Si,5n)173W", "124Sn(7Li,3n)128I"]
 experiments: [tsukuba-127-128i-li7-28-32mev]
@@ -40,6 +41,10 @@ tags: [a130, high-spin, 173w, 128i, signature-inversion, near-spherical, single-
 王海霞，*173W 和 128I 的高自旋态研究以及 Gas-ΔE+Si-E 望远镜系统的研制*，中国科学院研究生院/近代物理研究所博士学位论文，2012。PDF 共 105 页；原始文件 SHA-256 为 `1e0a882f8a393714ed5e75c06df9bd17dd578b232ea2cd34b6e333fb1b7a26d7`。
 
 ## Scope and Reading Depth
+
+本轮核定全部 105 个物理页。正文的印刷页为物理 PDF 页减 8。PDF70 的符合与峰形比较将 `173W` 的近 524 keV 双线分别放在两条带中。PDF77 的带交叉频率约为 0.26 MeV，旋称相位交叉在 \(I_c=33/2\hbar\) 附近。两项为各自的谱学判据，微观成因仍受组态模型限制。
+
+PDF86–87 将 `128I` 的 ADO 判据、近 102 keV 多线的不同门谱与能级归属分开处理。角比存在 \(\Delta I=2\) 与 \(\Delta I=0\) 的歧义，文中说明这一分析无法得到 \(\Delta I=1\) 中的 E2 混合比。PDF104 成果清单回链 [[wang-2010-128i-new-high-spin-level-scheme]]，与该章按同次采集处理。PDF97 的 600–700 keV 质子鉴别阈属于不同入口材料条件下的能损估计。
 
 - Completed `reading_depth`: `deep-read`。
 - Covered scope: 题名页、摘要、目录；第 1 章研究动机；第 2 章壳模型、推转壳和形变基础；第 3–4 章实验/数据处理、ADO；第 5 章 `173W` 三条带、alignment、带交叉、signature inversion、`B(M1)/B(E2)` 与 PRM；第 6 章 `128I` 新能级纲图与近球形结构；第 8 章总结。

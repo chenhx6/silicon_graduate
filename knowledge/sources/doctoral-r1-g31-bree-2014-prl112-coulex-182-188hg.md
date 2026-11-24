@@ -78,3 +78,8 @@ tags: ["coulomb-excitation", "shape-coexistence", "quadrupole-invariants", "merc
 
 - 物理数据页：p. 162701-2（束流、靶、符合与转换系数）、p. 162701-3（Table I 矩阵元全表、Fig. 3 四极不变量）、p. 162701-4（两态拟合参数与 Fig. 4）。
 - 定位符：Table I（带符号约化 $E2$ 矩阵元表，单位 eb）、Fig. 1（低能能级谱与 VMI 混合几率 $\alpha_J^2$）、Fig. 3（SSM/STM 与 BMF/IBM 比较）。
+
+
+## 2026-11-22 — 机构封面加五页刊版复核
+
+PDF 4（印 162701-3）Table I 给出 182Hg 的 \(\langle 0_1^+\Vert E2\Vert 2_1^+\rangle=1.29^{+0.04}_{-0.03}\) eb，184Hg 对应值为 1.27(3) eb，184Hg 的 \(2_1^+\) 对角元为 \(+1.5^{+1.8}_{-1.2}\) eb。保留非对角干涉约束、未定相对符号，以及作者对 186Hg 与 188Hg 态形状的限制。PDF 1 只是仓储封面，底本共六个物理页。

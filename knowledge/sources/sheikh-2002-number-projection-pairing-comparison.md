@@ -3,11 +3,11 @@ type: source
 title: "Sheikh et al. 2002 — HFB、PAV、Lipkin–Nogami与投影变分的精确模型比较"
 aliases: [Sheikh Ring 2002 number projection comparison, nucl-th/0207080]
 created: 2026-10-29
-updated: 2026-10-29
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: theoretical-research
-reading_depth: read
+reading_depth: deep-read
 title_original: "Pairing correlations and particle-number projection methods"
 authors: [J.A. Sheikh, P. Ring, E. Lopes, R. Rossignoli]
 journal: "Physical Review C"
@@ -36,7 +36,9 @@ Sheikh、Ring、Lopes和Rossignoli，PRC66,044318(2002)，DOI `10.1103/PhysRevC.
 
 ## Scope and Reading Depth
 
-定向阅读PDF pp1–13的方法、可精确求解的推转变形单j壳模型、Figs1–6结果讨论与总结，以及LN与PHFB定义。未重写或逐点重放论文代码；研究对象是模型基准，不是105/106Cd或104Pd实测比较。
+本轮核定 PDF1–24。PDF13–16 附录给出粒子数投影平均与有限温度形式，PDF17 为参考文献，PDF18 为图注，PDF19–24 是 Figs. 1–6。Fig. 2 的可精确对照例为六粒子、变形 \(j=11/2\) 壳与单极相互作用。PDF13 提到现实多壳空间的计算量增幅是作者当时的初步估计。
+
+早期阅读重点为 PDF1–13 的基准方法和结果。本轮覆盖其余附录和各图原页。未重新运行论文数值模型。
 
 ## Key Results
 
@@ -65,4 +67,4 @@ Codex source/claim self-audit；保持`unreviewed`。
 
 ## Review Status
 
-方法和关键基准结果定向已读；未重放原论文数值。
+方法、附录、基准结果与图均已核对。数值算例保留发表结果范围。

@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-11-22T01:18:07.153438+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 781,
+      "task": "ZHAO12-CD105-CDFT-PRIMARY",
+      "pages": 35,
+      "version": "arXiv:1205.0867v1 archived author version",
+      "role": "verified-arxiv-author-version",
+      "scope": [
+        "PDF1–11 motivation, method and setup",
+        "PDF11–31 structure and rotational calculations",
+        "PDF31–35 summary and references"
+      ],
+      "checks": [
+        "PDF15–17 Figs. 4–5 compare reported observables and theory. Experimental values are referenced, rather than produced by this paper.",
+        "PDF18–19 Figs. 6–7 give model deformation and angular momentum evolution for a selected configuration."
+      ],
+      "gap": "Model geometry and operator choices are conditional. A quoted experiment keeps its own evidence provenance.",
+      "lineage": "Original calculation, with prior excited-state energies and strengths as experimental comparators.",
+      "work_id": "catalogue:LIT-000781",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/zhao-2012-105cd-cdft-antimagnetic-arxiv1205.0867v1.pdf",
+        "sha256": "41dd8f32ab8131913177c41a64c05a36e931910165ca8198ae66344908e5bc3e",
+        "size": 1157316,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/zhao-2012-105cd-cdft-antimagnetic.md",
+          "declared_reading_depth": "skimmed",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "number": 782,
+      "task": "ZHAO15-PAIRING-SPIN-TAC-PRIMARY",
+      "pages": 13,
+      "version": "arXiv:1506.08340v2 archived author version of PRC 92 034319",
+      "role": "verified-arxiv-author-version",
+      "scope": [
+        "PDF1–5 introduction and method",
+        "PDF6–10 rotational quantities and original model figures",
+        "PDF11–13 conclusion and references"
+      ],
+      "checks": [
+        "The archived v2 first page identifies P. W. Zhao, S. Q. Zhang and J. Meng. The citation uses the correct PRC identity.",
+        "Figs. 2, 3, 4 and 5 distinguish cited experiment from model energy and angular-momentum comparisons. The calculated directions are within the specified planes."
+      ],
+      "gap": "The calculations omit the crossing range and do not measure the vector geometry. Neither partition of the diagram nor apparent agreement certifies a unique interpretation.",
+      "lineage": "Original TAC calculations with earlier experiment comparisons.",
+      "work_id": "catalogue:LIT-000782",
+      "raw": {
+        "path": "raw/papers/2015-Zhao-pairing-spin-orientation-TAC.pdf",
+        "sha256": "ce3c7672420b07e9bbe7d7a869049771c5cef9aa64f4dffce5dfd18bcb0b3c21",
+        "size": 323292,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 48
+}

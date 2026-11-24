@@ -3,7 +3,7 @@ type: source
 title: "孙亚洲 2019 博士论文：16C 单质子敲出反应研究"
 aliases: [Sun Yazhou 16C knockout thesis, 16C single-proton knockout]
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-experiment
@@ -11,19 +11,20 @@ reading_depth: deep-read
 title_original: "16C 单质子敲出反应研究"
 authors: [孙亚洲]
 advisor: [孙志宇]
-journal: "中国科学院近代物理研究所博士学位论文"
+journal: "中国科学院大学博士学位论文"
 year: 2019
 volume:
 pages: 116
 doi:
 arxiv:
 language: zh/en
-canonical_source: "中国科学院近代物理研究所博士学位论文, 2019"
+canonical_source: "孙亚洲. 16C 单质子敲出反应研究[D]. 中国科学院大学, 2019."
 zotero_item_key:
 citation_key: "sun_2019_16c"
 library_file: "raw/theses/degree-dissertation/孙亚洲 - 16C单质子敲出反应研究.pdf"
 raw_file: "raw/theses/degree-dissertation/孙亚洲 - 16C单质子敲出反应研究.pdf"
 raw_sha256: "d9d900cfdd783890f2f5d774b18832bbfda40eeb2af2db50b353ac18373496c0"
+archive_required: true
 nuclei: [16c, 15b, 12c]
 reactions: ["12C(16C,15B)X"]
 experiments: []
@@ -37,14 +38,16 @@ tags: [degree-dissertation, 16c, knockout, spectroscopic-factor-reduction, ETF, 
 
 ## Bibliographic Record
 
-孙亚洲，*16C 单质子敲出反应研究*，中国科学院近代物理研究所博士学位论文，2019，PDF 116 页。原始文件 SHA-256 为 `d9d900cfdd783890f2f5d774b18832bbfda40eeb2af2db50b353ac18373496c0`。
+孙亚洲，*16C 单质子敲出反应研究*，中国科学院大学博士学位论文，2019 年 6 月。培养单位为中国科学院近代物理研究所，导师为孙志宇（PDF1–2）。馆藏主件 116 页，正文印刷页为物理 PDF 页减 9。
 
 ## Scope and Reading Depth
 
 - Completed reading_depth: `deep-read`。
-- Covered scope: 题名页、中英文摘要和目录（PDF pp.I–VI）；壳模型、程函理论、谱因子与 `R_s` 研究动机（pp.1–20）；HIRFL-CSR/RIBLL2 外靶终端、探测器、电子学和数据格式（pp.21–48）；径迹重建、粒子鉴别、Geant4 比较和分析软件（pp.49–68）；截面归一化、效率、几何修正、误差和结果讨论（pp.69–98）；总结与展望（pp.99–106）。关键视觉页面 PDF pp.1、4、21、46、79、109 已核对。
+- Covered scope: PDF 1–29 为前置页和研究动机，PDF 30–57 为 HIRFL-CSR/RIBLL2 外靶终端及探测器，PDF 58–77 为径迹重建和粒子鉴别，PDF 78–107 为截面提取与模型比较，PDF 108–116 为结论与书目等尾部内容。
 - Not covered: 75 和 400 MeV/u 文献实验的原始数据/代码、所有 Geant4 输入逐项复现、事件级树和参考文献逐篇回读。
 - Coverage caveats: `R_s` 是实验谱因子与理论谱因子的比值，跨能量比较受壳模型、eikonal reaction model、末态选择和效率修正共同影响；论文没有给出独立于这些模型约定的谱因子。
+
+PDF67–70（印刷 pp.58–61）比较匀强场和四阶 Runge–Kutta 的离线轨迹反演。仿真中 Runge–Kutta 给出的 \(A/Z\) 绝对峰位更准。论文报告两法的相对分辨率接近，实际粒子鉴别优先用计算较快的匀强场法。图 3.6–3.8 的比较依赖所用场图、Geant4 几何及漂移室分辨输入。
 
 ## Paper Question and Scientific Motivation
 
@@ -88,6 +91,8 @@ tags: [degree-dissertation, 16c, knockout, spectroscopic-factor-reduction, ETF, 
 ## Authors' Interpretation
 
 作者把 `15.9(2.1) mb` 与已有能量数据的比较解释为没有明显的 `R_s` 能量依赖，并将结果视为对高能程函近似适用性的补充约束。该结论是基于跨实验和模型约定的作者解释。
+
+PDF99（印刷 p.90）Table 4.4 的 `15.9(2.1) mb` 对应 240 MeV/u、900 mg/cm² 碳靶上以 `15B` 残余核计数得到的包容截面。PDF103（印刷 p.94）Table 4.6 据 MOMDIS 分别给出无和有泡利阻塞时 `R_s=0.29(4)` 和 `0.28(4)`。同表 `400(cor.)` 的 `16.4(1.1) mb` 来自作者将外部数据的 `20.5(1.1) mb` 中心值除以 1.25（PDF102，印刷 p.93），对应一项经验修正。判断能量依赖时保留修正前后的 400 MeV/u 两列及包容、独举的定义。
 
 ## Model Results
 

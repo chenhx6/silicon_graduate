@@ -125,3 +125,8 @@ J_a,J_b\in\{7/2,9/2,11/2,13/2,15/2\}.
 - 相关集合 source：[[nndc-ba135-ba137-static-e2-constraints]]，已在其当前摘要中链接本次 post-ENSDF 修订。
 - [Vogt2017 readiness JSON](/workspace/wiki/outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/vogt2017-readiness.json)与 [constraint CSV](/workspace/wiki/outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/vogt2017-constraints.csv)区分目标分母、其它跃迁、其它核素和作者理论结果。
 - [元数据](/workspace/wiki/outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/vogt2017-metadata.json)、[BibTeX](/workspace/wiki/outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/vogt2017-citation.bib)、[有界检查脚本](/workspace/wiki/outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/audit_vogt2017.py)供父任务引用与复核；不把原件 PDF 或源页图复制到 article/data。
+
+
+## 2026-11-22 — 两份录用稿的阅读口径
+
+Birmingham 版的正文日期为 2017-01-25，OSTI/CHORUS 版为 2017-01-17，正文日期与封面、排版均有差异。两份均为 DOI `10.1103/PhysRevC.95.024316` 的同一刊文。目录用 Birmingham 的 18 个 PDF 页计一次覆盖，OSTI 仅作为同刊另一归档版。PDF 9 的 Fig. 7 时间谱和 PDF 14 Table III 的强度相依。Table II 中 120.1 和 1568.2 keV 两行的强度格为空，274.5 keV 行的归一化不能写到这两行；原文仅说明 BrIcc 处理，未给这条跃迁所用的数值系数。

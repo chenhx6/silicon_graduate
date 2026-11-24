@@ -3,7 +3,7 @@ type: source
 title: "Musangu et al. 2021 - Chiral vibrations and collective bands in 104,106Mo"
 aliases: [Musangu 2021 Mo chirality, 104Mo 106Mo chiral vibrations]
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-11-22
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -92,7 +92,7 @@ The experiment adds a new tentative negative-parity Band 5 in `104Mo`, adds a `3
 | MU21-12 | Calculated kinematic moments show low-spin staggering unlike experiment and predict untested large high-spin staggering in `104Mo`; medium-spin averages are closer. | model-boundary | direct | PDF p.13; Fig.18 | true |
 | MU21-13 | Experimental in-band `B(M1)/B(E2)` information is branching/mixing-ratio derived rather than lifetime-separated absolute strength; TPSM reproduces broad trends but not every point. | evidence-boundary | indirect | PDF pp.11-13; Table III; Fig.19 | true |
 | MU21-14 | TPSM predicts `B(E2;I→I-1)_out` values about `40-90%` of stretched intraband E2 values at most spins, interpreting them as collective reorientation rather than two unrelated configurations. | model-result | direct | PDF pp.13-14; Fig.20 | true |
-| MU21-15 | The predicted connecting transitions are not clearly identified experimentally; Table IV gives `106Mo` upper limits below several predictions and no printed experimental limit for the two listed `104Mo` cases. | counter-evidence | direct | PDF p.14; Table IV | true |
+| MU21-15 | The connecting transitions remain unconfirmed. For \(^{106}\mathrm{Mo}\), Table IV gives \(I_\gamma^{\rm theo}=0.26\) and \(I_\gamma^{\rm exp}<0.2\) for the 356.2-keV link, with two other upper limits below the corresponding predictions. The two \(^{104}\mathrm{Mo}\) rows have blank experimental-limit cells. | counter-evidence | direct | CHORUS PDF p.14; Table IV | true |
 | MU21-16 | TPSM wavefunctions contain two related two-quasineutron configurations whose projected `K` weights differ between partners; this is a model explanation of reorientation, not a measured configuration. | model-result | direct | PDF p.14 | true |
 | MU21-17 | Nonzero and pairwise similar squared angular-momentum components are shown only for `104Mo`; the calculation uses `γ=100°` instead of `20°` to mitigate truncation-related errors and asserts that this only permutes intrinsic axes. | model-boundary | direct | PDF pp.14-15; Fig.21 caption | true |
 | MU21-18 | A sharp calculated change at `I=17` in the `104Mo` partner is assigned to a four-neutron crossing; no experimental partner-band data at that spin test the prediction. | model-boundary | direct | PDF pp.13-15; Figs.18-21 | true |

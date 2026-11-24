@@ -3,7 +3,7 @@ type: source
 title: "Paul et al. 1991 - Electromagnetic properties of N=75 isotones: evidence for triaxiality at low spin"
 aliases: [Paul 1991 N=75 isotones, Paul 1991 133Ce triaxiality, 1991Pa04]
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment-and-model
@@ -54,6 +54,8 @@ tags: [133Ce, N=75, triaxiality, mixing-ratio, Donau-Frauendorf, BM1-BE2, A130]
    - 依据 Hagemann-Hamamoto 三轴性检验（Delta B(M1)/<B(M1)> 与能谱旋称劈裂 Delta e_prime/hbar omega 的对比），在该检验的形状/近似条件下，作者将轻同中子素的电磁系统学解释为更明显的三轴性支持，非直接γ测量。
 
 ## Experimental and Method Contract
+
+本篇两套新增实验的角量须分别溯源。133Ce 的五角度单谱用于联合拟合二、四阶角分布系数。\(a_2=0.82(6)\)、\(a_4=0.55(10)\) 来自伸展 E2 校准，属于角分布衰减系数。137Gd 的符合实验才采用 35° 与 90° 两组矩阵，以 35° 的带内伸展 E2 为门，比较 \(W(35^\circ,35^\circ)/W(90^\circ,35^\circ)\)。见印刷 pp.606–608（PDF3–5）。本篇的这两套测量均未给出线偏振 \(P\)。
 
 - **反应与靶**：120Sn(16O, 3n)133Ce，束能 69 MeV，靶厚 9.7 mg/cm2 120Sn，背衬 100 mg/cm2 Pb（完全阻止反冲核与束流）；
 - **探测布局**：1 台反康普顿 HPGe 探测器（距离靶点 22 cm）在 5 个角度旋转测量，另 1 台固定在 -90 deg 作为束流强度与产额监测；利用 133Ba 与 152Eu 点源进行精确几何与探测效率刻度；

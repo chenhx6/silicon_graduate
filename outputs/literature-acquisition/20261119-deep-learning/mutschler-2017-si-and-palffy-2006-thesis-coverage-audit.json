@@ -1,0 +1,73 @@
+{
+  "checked_at": "2026-11-21T20:01:33.606126+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "MUTSCHLER17-SI34-ORIGINAL",
+      "version": "arXiv:1707.03583v1, Nature Physics 13, 152–156",
+      "role": "verified-arxiv-author-version",
+      "pages": 6,
+      "scope": [
+        "PDF1–4 introduction, experimental evidence, spectra and theory; PDF4–5 Methods and Data Availability; PDF5–6 references."
+      ],
+      "checks": [
+        "PDF2 and Methods support the 0.17(3) derived s-orbital occupancy and separate 0.07(3) conditional increment. Fig. 3 is model density. Existing scientific note is retained.",
+        "140 MeV/u refers to the primary calcium beam. No worker-supplied secondary beam energy accepted absent original anchor.",
+        "The 210 versus 2101 keV edition infelicity is already logged, and the plotted/explicit level is 2101."
+      ],
+      "gap": "No direct density measurement or statistical exclusion of all occupancy redistributions.",
+      "lineage": "Own proton-removal experiment. 36S comparison and calculated density are separate.",
+      "work_id": "catalogue:LIT-000568",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam/mutschler-2017-34si-proton-density-bubble.pdf",
+        "sha256": "eb0450b2cfee9fc52098668d090db23b7e728899ec1116528d827e90a6b09a85",
+        "size": 2372571,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/mutschler-2017-34si-proton-density-bubble.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "PALFFY06-THESIS-COVERAGE-AUDIT",
+      "version": "Adriana Gagyi-Pálffy, Justus-Liebig-Universität Gießen, 2006 PhD dissertation",
+      "role": "verified-doctoral-thesis",
+      "pages": 108,
+      "scope": [
+        "PDF1–4 title, degree front matter and contents.",
+        "PDF5–72 introduction and Chapters 1–5. Reused documented prior full reading and verified selected tables.",
+        "PDF73–79 summaries and outlook; PDF81–94 Appendices A–C; PDF95–108 bibliography and back matter."
+      ],
+      "checks": [
+        "PDF34 (printed 34) Table 3.1 gives E2 cases including 174Yb and 238U; PDF35 Table 3.2 is for M1 cases. Worker locations p.38 etc. not accepted.",
+        "PDF73–75 summary describes theoretical predictions, energy-resolution requirement in the example and competing recombination background.",
+        "Official author field and archival scope checked. No original experiment is attributed to this thesis."
+      ],
+      "gap": "Underlying nuclear input literature and later experiments are separate sources. No credit for unverified isotope examples.",
+      "lineage": "Theoretical dissertation with selected literature-derived nuclear inputs; feasibility estimates are not directly observed.",
+      "work_id": "catalogue:LIT-000617",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/palffy phd thesis  Theory of nuclear excitation by electron capture for heavy ions.pdf",
+        "sha256": "648e48d8edc06d7f5c6cf47da2ece1914432978576c6e6a6b934d18b37f73665",
+        "size": 1620128,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-doctoral-thesis"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/palffy-2006-neec-thesis.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 114
+}

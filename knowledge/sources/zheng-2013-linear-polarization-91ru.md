@@ -3,7 +3,7 @@ type: source
 title: "γ-ray linear polarization measurement and (g9/2)−3 neutron alignment in 91Ru"
 aliases: ["Zheng 2013 91Ru polarization", "91Ru EXOGAM linear polarization"]
 created: 2026-09-20
-updated: 2026-10-18
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: experiment
@@ -24,6 +24,7 @@ canonical_source: "Zheng, Y. et al. Gamma-ray linear polarization measurement an
 library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2013_Zheng et al_γ -ray linear polarization measurements and ( g 9 - 2 ) − 3 neutron alignment.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2013_Zheng et al_γ -ray linear polarization measurements and ( g 9 - 2 ) − 3 neutron alignment.pdf"
 raw_sha256: "0688633ba372e7f3f60b2e9fd69e556d28070b2f5bde62d13d01d1bd9a5483ef"
+archive_required: true
 nuclei: ["91Ru", "91Tc", "90Mo", "88Mo"]
 reactions: ["58Ni(36Ar,2p1n)91Ru"]
 experiments: ["ganil-exogam-91ru-ar36-111mev"]
@@ -42,6 +43,8 @@ tags: [91Ru, 91Tc, EXOGAM, clover-polarimeter, linear-polarization, neutron-alig
 - 原始文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2013_Zheng et al_γ -ray linear polarization measurements and ( g 9 - 2 ) − 3 neutron alignment.pdf`；SHA-256：`0688633ba372e7f3f60b2e9fd69e556d28070b2f5bde62d13d01d1bd9a5483ef`。
 
 ## Scope and Reading Depth
+
+本轮核定馆藏电子重印版 11 个物理页。PDF1 为仓储封面，PDF2–11 为正文 044328-1 至 044328-10。PDF6 Table I 的 \(P\) 用于纯 E2 校准，PDF7–8 Table II 的 `91Ru` 逐线量为不对称度 \(A\)。328.0 keV 行在 898 keV DCO 门下给 \(R_{\rm DCO}=1.06(5)\) 与 \(A=-0.25(4)\)。表中门能量的列名为 DCO 门，逐线偏振门须另查。
 
 - Completed reading_depth: `deep-read`。
 - Covered scope: 电子重印与正文 11 页全部阅读；反应、EXOGAM/Neutron Wall/DIAMANT 装置、DCO 公式、Compton polarimeter 定义与校准、Tables I-II、Figs.1-8、91Ru 能级图、半经验壳模型和总结均已核对。关键谱图、偏振校准图、`A-R_DCO` 图、能级图和 shell-model energy comparison 视觉核对。
@@ -183,7 +186,7 @@ tags: [91Ru, 91Tc, EXOGAM, clover-polarimeter, linear-polarization, neutron-alig
 | Z13-9 | 条件性一阶传播中，若Table I的A、P、Q括号误差都是同一比值Q=A/P的marginal标准差，则σQ须在|σA/P−AσP/P²|到σA/P+AσP/P²之间。316、586、823、974、1054的印刷中央输入不满足；宽松允许中央值与各误差末位各±半位后，316、586、974、1054仍被保守下界排除。原误差语义/producer未得，不能由此判原实验错误。 | Codex-analysis | conditional-calculation | 正文044328-4，Eq.(4)；044328-5，Table I | true |
 | Z13-10 | 以Table I十一项Q及括号误差为相互独立输入，声明的加权线性拟合得p0=.38616115、p1=7.3966836×10^-5 keV^-1，χ²=9.98029；原文p0=.39(2)、p1=.00006(3)、Fig.5标签χ²=11原样保留。没有原未舍入数据/权重/Cov，未认证原拟合复现。 | Codex-analysis | conditional-calculation | 正文044328-4，Eqs.(5)–(6)；044328-5，Table I及Fig.5 | true |
 | Z13-11 | Q_i=A_i/P_i的校准点与相同A_i除回Qfit(E_i)共享输入；这种回代只检查样本内残差，不独立验证P。四个reaction-channel校准核素不自动代表四项独立Q标定；DCO/偏振/角分布及壳模型比较也不增计独立实验。 | Codex-inference | source-conditioned | 正文044328-4至5，校准程序；Table I；Fig.5 | true |
-| Z13-12 | arXiv:1304.3287v1（2013-04-11）Table I的十一行A/A2/A4/P/Q印刷token与期刊一致；Table II upper435.9的A却是.17(7)，期刊为.17(5)。本次按期刊冻结输入，未把不同版本算独立实验或混用误差。 | source-version-audit | direct | arXiv v1 p.18，Table I；p.19，Table II的435.9行；期刊044328-6，同一行 | true |
+| Z13-12 | 馆藏电子重印版 PDF7 的 435.9 keV 行清楚印为 \(A=0.17(7)\)，和先前记录的 arXiv v1 数值一致。撤回旧的“该行期刊误差为 0.05”的版本差异判断。 | source-version-audit | direct | arXiv v1 p.19 的历史核查；馆藏 PDF7，044328-6，Table II | true |
 
 ### 明确门和能级身份的DCO重放
 
@@ -196,7 +199,7 @@ tags: [91Ru, 91Tc, EXOGAM, clover-polarimeter, linear-polarization, neutron-alig
 
 所以原文测得R_eff=1.79(.05)后说“不需效率修正”，不能再给Fig.2的yield比额外乘1.79。由原面积直接重算三个R为.50072599、.96425568、.95312943。仅作诊断假设两拟峰面积独立时，σR为.015311、.017714、.017402；这没有补出实际背景/门共享Cov，也没有改写作者的.50(.02)、.96(.02)、.95(.02)。
 
-898.5是1872→974、17/2+→13/2+；Table II用974门，Fig.2用497门。相同target能量不足以把这两项合成同一观测或声称数值冲突。436附近也要按parent/child区分：435.9是2799→2363的upper E2支，有R=1.02(.08)、A=.17(.05)；436.0是436→0的弱支，Table II未给R/A。538是974→436，DCO门361；不能把它的M1判据移给upper 436支。
+898.5是1872→974、17/2+→13/2+；Table II用974门，Fig.2用497门。相同target能量不足以把这两项合成同一观测或声称数值冲突。436附近也要按parent/child区分：435.9是2799→2363的upper E2支，有R=1.02(.08)、A=.17(.07)；436.0是436→0的弱支，Table II未给R/A。538是974→436，DCO门361；不能把它的M1判据移给upper 436支。
 
 ### Table I：中央值相容与误差定义分开
 

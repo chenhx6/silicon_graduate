@@ -246,3 +246,8 @@ LV25-34/35回到实际TableI/Fig1，支撑[[level-scheme-reconstruction]]“136P
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | LV25-D20-R134-1 | checkpoint146撤回旧认证；不据此恢复错误表值、跨态强度阶梯、硬阈值或完全闭合。请使用本页较早原件纠错与checkpoint146。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |
+
+
+## 2026-11-22 — 馆藏版本与证据复核
+
+PDF 1 为 Jyväskylä 仓储封面，其后 PDF 页码比稿件页码多 1。PDF 10 讨论特定配对处理中的 \(\hbar\omega\approx0.35\) MeV 跳变，并把它归因于计算的配对塌缩。PDF 15（稿 14）Table II 的组态、带头形变来自 TAC-CDFT；原文数值和运动类型解释按计算分支记录，与 PDF 6–9 Table I 的 γ 谱数据分别引用。

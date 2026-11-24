@@ -1,0 +1,212 @@
+{
+  "checked_at": "2026-11-22T03:06:18.214387+00:00",
+  "model_requested": null,
+  "reasoning_requested": null,
+  "works": [
+    {
+      "work_id": "bytes:9069f66dd9ca177b816a606475e0907ae4b9c6735c8906850b0574c493a657fb",
+      "pages": 5,
+      "task": "BM2-83-122-AND-SIX-PRIMARY-ARTICLES-LOCAL",
+      "version": "López Vaquero, Rodríguez and Egido, PRL 111 142501 (2013), archived arXiv:1401.0650v1 (2014-01-03)",
+      "source_note": "knowledge/sources/doctoral-r1-g35-vaquero-2013-prl-shape-pairing-0nubb.md",
+      "role": "arxiv-author-version",
+      "scope": [
+        "PDF 1–5, including model definition, shape/number fluctuation scans, Table I and references.",
+        "PDF 4 Table I evaluates 48Ca 2.370→2.229 and 76Ge 4.601→5.551 when adding the pairing coordinate. The pairing coordinate is a particle-number fluctuation."
+      ],
+      "lineage": "The two calculation columns share the same framework, and the predicted changes apply to these model cases.",
+      "gap": "The two calculation columns share the same framework, and the predicted changes apply to these model cases.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261108-foundations-G35/vaquero-2013-prl111-142501-shape-pairing.pdf",
+        "sha256": "9069f66dd9ca177b816a606475e0907ae4b9c6735c8906850b0574c493a657fb",
+        "size": 776287,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/doctoral-r1-g35-vaquero-2013-prl-shape-pairing-0nubb.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "bytes:b8d5322216450965e6cabd29b695e7fb7fe7b09333b993bc45aa659efab78014",
+      "pages": 5,
+      "task": "BM2-83-122-AND-SIX-PRIMARY-ARTICLES-LOCAL",
+      "version": "Rodríguez and Martínez-Pinedo, PRL 105 252503 (2010), archived arXiv:1008.5260v2 (2010-11-26)",
+      "source_note": "knowledge/sources/doctoral-r1-g35-rodriguez-2010-prl-0nubb-edf.md",
+      "role": "arxiv-author-version",
+      "scope": [
+        "PDF 1–5, including axial GCM, projected states, shape dependence, Table I, limitations and references.",
+        "PDF 4 Table I puts experimental 0.29(8) and calculated 2.56 for 96Mo GT+ strength beside calculated 96Zr matrix element 5.65."
+      ],
+      "lineage": "GT checks are uneven across nuclei. A calculated 0ν NME and the separately measured comparator have different provenance.",
+      "gap": "GT checks are uneven across nuclei. A calculated 0ν NME and the separately measured comparator have different provenance.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261108-foundations-G35/rodriguez-2010-prl105-252503-0nubb.pdf",
+        "sha256": "b8d5322216450965e6cabd29b695e7fb7fe7b09333b993bc45aa659efab78014",
+        "size": 462144,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/doctoral-r1-g35-rodriguez-2010-prl-0nubb-edf.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "bytes:eaedbd4539854e3d1f0e7860ef7ab9c647d4fa44cd8144b4989ba220ec639333",
+      "pages": 14,
+      "task": "BM2-83-122-AND-SIX-PRIMARY-ARTICLES-LOCAL",
+      "version": "Zhi et al., PRC 87 025803 (2013), archived arXiv:1301.5225v1 (2013-01-22)",
+      "source_note": "knowledge/sources/doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives.md",
+      "role": "arxiv-author-version",
+      "scope": [
+        "PDF 1–14 including allowed and first-forbidden operators, three waiting-point regions, Tables I–IV and references.",
+        "PDF 4–5: fitted operator amplitudes include q(xi-prime v)=1.266. PDF 9 Table III distinguishes the historical 130Cd datum 162(7) ms from 164.29 ms in the calibrated calculation."
+      ],
+      "lineage": "Calibration inputs are not independent prediction tests. Later experimental values require their own source and calculation version.",
+      "gap": "Calibration inputs are not independent prediction tests. Later experimental values require their own source and calculation version.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261108-foundations-G34/Zhi_2013_PRC_87_025803_SM_halflives_first_forbidden.pdf",
+        "sha256": "eaedbd4539854e3d1f0e7860ef7ab9c647d4fa44cd8144b4989ba220ec639333",
+        "size": 440775,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/doctoral-r1-g34-zhi-2013-prc-shell-model-half-lives.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "bytes:f43431ebad67addfbefb521eed14c43f152fe5221ccc0d995d69a3d5aaa7b3e9",
+      "pages": 5,
+      "task": "BM2-83-122-AND-SIX-PRIMARY-ARTICLES-LOCAL",
+      "version": "Togashi et al., PRL 117 172502 (2016), archived arXiv:1606.09056v2 (2016-08-05)",
+      "source_note": "knowledge/sources/doctoral-r1-g28-togashi-2016-zr-mcsm-qpt.md",
+      "role": "arxiv-author-version",
+      "scope": [
+        "PDF 1–5: selected shell-model space and tuning, spectrum and E2 comparisons, T-plots, occupations and references.",
+        "PDF 3 Figs. 2–3 distinguishes calculated 98Zr spherical 0_1 and prolate 0_2 configurations, and 100Zr prolate ground-state distribution."
+      ],
+      "lineage": "T-plots are projections of model basis states. The occupancy interpretation is conditioned on the fitted effective interaction.",
+      "gap": "T-plots are projections of model basis states. The occupancy interpretation is conditioned on the fitted effective interaction.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261108-foundations-G28/togashi-2016-zr-qpt.pdf",
+        "sha256": "f43431ebad67addfbefb521eed14c43f152fe5221ccc0d995d69a3d5aaa7b3e9",
+        "size": 1576695,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/doctoral-r1-g28-togashi-2016-zr-mcsm-qpt.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "catalogue:LIT-000984",
+      "pages": 9,
+      "task": "BM2-83-122-AND-SIX-PRIMARY-ARTICLES-LOCAL",
+      "version": "Ding et al., Chinese Physics C 49 074101 (2025), DOI 10.1088/1674-1137/adc3fd, publisher PDF",
+      "source_note": "knowledge/sources/ding-2025-chiral-rotation-a60-residual-interactions.md",
+      "role": "publisher-version",
+      "scope": [
+        "PDF 1 cover, 2–9 article, including defined PRM configuration, parameter scans, Figs. 1–9 and references.",
+        "PDF 4 Fig. 1: minimum splitting in the scanned calculation is 64 keV at gamma=34 degrees. PDF 5–8 compares residual interaction effects on energy and orientation ingredients."
+      ],
+      "lineage": "Computed results for an ideal configuration, without new measurements of a specific isotope.",
+      "gap": "Computed results for an ideal configuration, without new measurements of a specific isotope.",
+      "raw": {
+        "path": "raw/papers/Exploring chiral rotation in A ≈ 60 nuclei  Role of residual interactions.pdf",
+        "sha256": "5264bd9192b988021d2ee21f2861bce80f2f7ac04ba26f04ea3f0e8125be599e",
+        "size": 3159427,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/ding-2025-chiral-rotation-a60-residual-interactions.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    },
+    {
+      "work_id": "catalogue:LIT-001054",
+      "pages": 6,
+      "task": "BM2-83-122-AND-SIX-PRIMARY-ARTICLES-LOCAL",
+      "version": "Dunlop et al., PRC 93 062801(R) (2016), archived arXiv:1711.05621v1 (2017-11-15)",
+      "source_note": "knowledge/sources/continuation-g19-dunlop-2016-cd-halflives.md",
+      "role": "arxiv-author-version",
+      "scope": [
+        "PDF 1–6: TRIUMF/GRIFFIN method, parent-selective decay gates, Table I, astrophysical network discussion and references.",
+        "PDF 4 Fig. 4 and Table I give 147(3) ms (11/2−) and 157(8) ms (3/2+), with different gamma selections. PDF 5 gives 126(4) ms for 130Cd."
+      ],
+      "lineage": "The Saito 129Cd spectroscopy draws on the same acquisition. Separate gamma gates identify parent components, and are not independent acquisitions.",
+      "gap": "The Saito 129Cd spectroscopy draws on the same acquisition. Separate gamma gates identify parent components, and are not independent acquisitions.",
+      "raw": {
+        "path": "raw/papers/gpt/query/20261107-continuation-G19/Dunlop_2016_PRC_93_062801_128-130Cd_halflives.pdf",
+        "sha256": "cee8422b6079264ff7e541a0bc8d6882798d54a4a2861d4388200cf74ca4405c",
+        "size": 292789,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/continuation-g19-dunlop-2016-cd-halflives.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 6,
+  "credited_primary_pages": 44,
+  "read_provenance": "Local PDF verification and previously recorded complete study scopes, with bounded original book reading.",
+  "partial_units": [
+    {
+      "work_id": "catalogue:LIT-000302",
+      "physical_pdf_interval": [
+        83,
+        122
+      ],
+      "printed_interval": [
+        61,
+        100
+      ],
+      "source_note": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "raw": {
+        "path": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+        "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+        "size": 46111788,
+        "hash_basis": "fresh-hash",
+        "source_role": "reference-book-partial-reading"
+      }
+    }
+  ],
+  "uncredited_identity_checks": [
+    {
+      "work_id": "catalogue:LIT-000292",
+      "physical_pages": 20,
+      "reason": "Existing six-page scope statement needs reconciliation against 20-page printed article; preserved pending."
+    }
+  ]
+}

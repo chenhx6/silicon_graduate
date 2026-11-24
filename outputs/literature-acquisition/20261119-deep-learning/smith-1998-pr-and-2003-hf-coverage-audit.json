@@ -1,0 +1,101 @@
+{
+  "checked_at": "2026-11-21T22:07:58.995725+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "SMITH98-PR127131-THESIS-SCOPE",
+      "version": "Bradley Hagood Smith, University of Tennessee Knoxville PhD (1998), repository original scan",
+      "role": "verified-doctoral-thesis",
+      "pages": 234,
+      "claimed": true,
+      "scope": [
+        "PDF1–74: PDF1–17 front matter; PDF18–21 Ch. 1; PDF22–39 Ch. 2 Nilsson, CSM, TRS and B(M1)/B(E2); PDF40–74 Ch. 3 apparatus, Microball PID and coincidence sorting.",
+        "PDF75–107 (printed pp.58–90): DCO methods, evaporation channels, 130Pr Table 4.2, and the lead-in to 128Pr.",
+        "PDF108–139 (printed pp.91–122): decay schemes, tables, and spectra constraining 130,128,131,129Pr assignments, including the four SD candidates.",
+        "PDF140–234: Tables 4.4–4.6, Ch. 5 TRS/CSM and band comparisons, Ch. 6 conclusions, bibliography and vita."
+      ],
+      "checks": [
+        "Original PDF20 printed p.3 and Sec. 5.8.2 support 131Pr, not 130Pr, for the four candidate SD sequences.",
+        "Archived source location and actual printed p.=PDF−17 checked on numbered pages.",
+        "Printed p.115 explicitly allows possible 130Pr contamination for SD-2A. The author favors 131Pr using coincidences, without resolved linking transitions.",
+        "PDF99–105 Table 4.2 headings and separation of observed gamma and DCO versus assigned spin checked.",
+        "PDF33 / p.16, Table 2.1: CSM quasiparticle labelling conventions. PDF50 / p.33, Table 3.2: geometry pages list possible Ge angle positions. PDF51–53: Microball layout and particle identification context.",
+        "PDF193–196 / pp.176–179, Fig. 5.20: signature inversion concerns the odd-odd 128Pr and 130Pr pi h11/2 times nu h11/2 candidates. The thesis finds limited low-frequency softness in the 130Pr TRS and discusses additional mechanisms.",
+        "PDF220 / p.203: total alignment of about 13.5 hbar belongs to the CSM comparison for 130Pr band 7. The oblate assignment is inferred.",
+        "PDF222 / p.205: Q0=6.1(4) eb and beta2=0.35(3) for the 130Pr ED structure are cited to Ref. [42] (Kondev et al.). The thesis uses them as external comparison.",
+        "PDF234 carries printed p.217 (vita). Printed pages 1–217 follow PDF minus 17. Front matter precedes that offset.",
+        "Visually checked PDF222/p.205: 92%-enriched 94Mo replaced the contaminated 92Mo target, with 180 MeV 40Ca. PDF8 has a conflicting beam symbol. The chapter and final apparatus/data narrative settle the actual reaction; the 3p and p-alpha mass balances agree."
+      ],
+      "gap": "Text encoding loses symbols and plots. Formula and figure-based claims require the specific original visual page. Complete scientific section coverage does not imply event-level reproduction, visual digitization or line-by-line extraction of all transitions.",
+      "lineage": "One main charged-particle gated experiment and model interpretation across neighboring nuclei.",
+      "work_id": "catalogue:LIT-000694",
+      "raw": {
+        "path": "raw/theses/degree-dissertation/Rotational bands representing a multiplicity of shapes in ¹²⁷⁻¹³¹Pr.pdf",
+        "sha256": "5759ad75294f1612e2827f9d2854e22c7b5033cb338163ab39107eaed5590c3c",
+        "size": 16906893,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-doctoral-thesis"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/smith-1998-rotational-bands-127-131pr.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "verified_physical_page_ranges": [
+        [
+          1,
+          74
+        ],
+        [
+          75,
+          107
+        ],
+        [
+          108,
+          139
+        ],
+        [
+          140,
+          234
+        ]
+      ]
+    },
+    {
+      "task": "SMITH03-HF178-GAMMA-ARCHIVE",
+      "version": "UCRL-JRNL-200315 author manuscript, 25 Jun 2003, PRC 68, 031302(R)",
+      "role": "verified-author-version",
+      "pages": 7,
+      "claimed": true,
+      "scope": [
+        "PDF1–2 repository cover/notice; PDF3–7 printed pp.1–5, spontaneous gamma spectroscopy, Tables I–II and figures, analysis and references."
+      ],
+      "checks": [
+        "PDF5 visual verifies Table I and Fig. 2 in the embedded-typeface scan. The 230.8-keV link terminates on 11-minus, not worker 11-to/13-to alternate line.",
+        "Maintained 515.1-keV upper limit and assigned versus inferred components. Existing scientific note has no new proof of induced transitions."
+      ],
+      "gap": "No event-level measurement or independent reconstruction of converted branch.",
+      "lineage": "Own spontaneous coincidence spectra plus external conversion and level inputs.",
+      "work_id": "catalogue:LIT-000695",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/smith-2003-hf178-isomer-gamma-decay.pdf",
+        "sha256": "9d326f4ff38af434b8d299b293d1da6da2b33fd412435eb56584cf010ecccb11",
+        "size": 505873,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/smith-2003-hf178-isomer-gamma-decay.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 241,
+  "last_checked_at": "2026-11-21T22:40:42.157259+00:00"
+}

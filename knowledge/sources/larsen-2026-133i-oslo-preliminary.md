@@ -85,3 +85,12 @@ before proposing a nominally duplicate new beam.
 
 This page is a Codex self-audit, remains `unreviewed`, and does not set
 `human-reviewed`.
+
+
+## 2026-11-22 — 报告全文与初步强度图
+
+61 页报告分为背景与装置（PDF 1–14）、方法和不同质量区案例（15–31）、碘与间接反应率案例（32–40）、总结（41–44）、技术备份（45–61）。图像页已回看，含 PDF 15 的 raw / unfolded / primary 顺序、PDF 24–26 的 Sn 引文、PDF 34–40 的 β-Oslo 论文与法国装置案例、PDF 60 的 70Ni 响应。这里记录方法与所引证据的关系，具体反应率应回到各一次文献。
+
+PDF 32 是只排序少量数据的 \(E_x\)–\(E_\gamma\) 符合图。PDF 33 另绘 132I、133I 的初步 γ 强度点与曲线，标记为 **PRELIMINARY**。图提供初步形状信息，未提供可独立核实的数值表、归一化细节或最终分量分解。特别是 133I 的低能端行为仍须回查完整分析及不确定度，Grieg 论文正文尚缺。
+
+PDF 46 从展开谱扣除后继级联提初代分布。PDF 48 的 56Fe 示例为 2052 个数据点和 184 个自由参数，通常安排约 10–20 次迭代、可在 4–5 次已收敛。PDF 49 提出 \(P(E_i,E_\gamma)\propto\rho(E_i-E_\gamma)\mathcal T(E_\gamma)\)。PDF 52 的 \(A,B,\alpha\) 变换保留逐行归一的拟合矩阵，PDF 53–54 说明已知能级、共振间距与平均辐射宽度的常规刻度，PDF 52 同时指出 Shape method 可约束斜率。PDF 57–58 的 51Ti 对照在终态自旋范围几乎相同的条件下比较两路结果，不能直接外推任意反应的布居窗口。

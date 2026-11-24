@@ -3,11 +3,11 @@ type: source
 title: "High-spin band structures in doubly-odd 194Tl"
 aliases: [Pai 2012 194Tl INGA bands, 194Tl early i13/2 crossing]
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-11-22
 status: active
 review_status: unreviewed
 source_type: journal-article-experiment-and-model
-reading_depth: read
+reading_depth: deep-read
 title_original: "High spin band structures in doubly-odd 194Tl"
 authors: [H. Pai, G. Mukherjee, S. Bhattacharyya, M. R. Gohil, T. Bhattacharjee, C. Bhattacharya, R. Palit, S. Saha, J. Sethi, T. Trivedi, S. Thakur, B. S. Naidu, S. K. Jadav, R. Donthi, A. Goswami, S. Chanda]
 journal: Physical Review C
@@ -42,7 +42,7 @@ H. Pai *et al.*, *Phys. Rev. C* **85**, 064313 (2012), DOI `10.1103/PhysRevC.85.
 
 ## Scope and Reading Depth
 
-定向阅读 PDF pp.1–2、4–6、8–10、12：检查摘要和反应/装置、Fig.5 能级图、Table I 的相对强度/DCO/IPDCO、Fig.7 alignment、crossing 讨论、B2 寿命与宇称边界，以及 TRS/准粒子 Routhian 模型比较。未逐条复核参考文献，也未检查补充材料。
+馆藏 arXiv v2 PDF1–12 已覆盖，含反应与符合测量、Eq. (2) 与 Fig. 3 的不对称度校正、Fig. 5 能级图、Table I 的相对强度和 DCO/IPDCO、Fig. 7 的顺排、TRS 和准粒子 Routhian 比较及 B2 的寿命与宇称边界。定位沿用作者稿物理 PDF 页码。参考文献保留引用范围。
 
 ## Summary
 
@@ -52,6 +52,8 @@ Pai 等的 INGA 数据将 `194Tl` 的 B1 band 延伸到 `18−`，并从能级�
 
 - 反应为 `185,187Re(13C,xn)`，束能 75 MeV；论文报告 γ–γ 符合测量，使用 INGA 阵列与数字化获取。
 - 论文将 B1 的 `293.1-keV`, `8−` 带头及相关跃迁置入 `194Tl` 能级纲图；实验用 γ 能量、符合、相对强度、DCO 和可用时的 IPDCO 约束能带与跃迁指认。
+
+arXiv v2 PDF pp.3–5 的 Eq. (2)、Fig. 3 和 Table I 给出 Compton 散射积分不对称度 \(\Delta_{\mathrm{IPDCO}}\)。非偏振源 \(^{152}\mathrm{Eu}\) 和 \(^{133}\mathrm{Ba}\) 用于确定几何响应校正 \(a(E_\gamma)\)；换算成物理线偏振度 \(P\) 时另需灵敏度校准。Table I 中 244.9 和 278.4 keV 的两条 `M1(+E2)` 分别给出 \(\Delta_{\mathrm{IPDCO}}=-0.10(2)\) 和 \(-0.14(1)\)，DCO 比为 1.61(5) 和 1.62(3)，均用 686.7-keV E2 门。761.1-keV 支路的表列 DCO 为 0.58(9)，对应 468.4-keV M1 门。该行的 IPDCO 留空，PDF p.6 保留 E2/M2 与 B2 宇称歧义。
 - Pai 的 Re+C / INGA 采集与后来 iThemba 的 `181Ta(18O,5n)` / AFRODITE 数据不同；后续工作延伸了共同的物理带谱系，不能把两篇论文都算作同一观测的独立重复，也不能把它们误作同一批事件。
 
 ## Key Results

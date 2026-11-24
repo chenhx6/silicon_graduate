@@ -100,3 +100,8 @@ supports的是历史对称和完整合同可原核；limits的是把WK22对Eq3.1
 - [[133ce-thesis-analysis-blueprint]]：等谱、零点与actual配置/EM判别的边界。
 - [[wakudyanaye-2022-triaxiality-rotational-bands-133ce]]：Ref51原读范围与原简述的适用条件。
 - [[135nd-chiral-partner-resolved-evidence-map]]：模型对称不能替代partner-resolved实验。
+
+
+## 2026-11-22 — 馆藏版本与关键页复核
+
+PDF 8–9（印 118–119）式 (2.28) 与 (2.30) 之间有明确的计算近似，作者舍去准粒子–准空穴耦合块，并按费米能与被耦合轨道讨论其适用性。

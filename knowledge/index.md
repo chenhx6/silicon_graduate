@@ -56,6 +56,7 @@ updated: 2026-11-24
 - [[lizarazo-sabogal-2018-se92-se94-isomer-decay]] — 92,94Se 异能态半衰期、级联与转换证据，保留两处算术歧义。
 - [[ley-2025-n50-seniority-lifetime-thesis]] — N=50 快定时寿命、seniority 检验和附印稿版本。
 - [[siciliano-2017-sn106-sn108-rdds-thesis]] — 缺中子锡的 RDDS 寿命、馈入处理和 E2 结构比较。
+- [[moeller-2005-156dy-178os-rdds-thesis]] — ¹⁵⁶Dy、¹⁷⁸Os 的 RDDS/DDCM 寿命、退激强度与 X(5) 比较边界。
 - [[gerathy-2020-solenogam-conversion-electron-thesis]] — 分壳内转换、Solenogam 响应和钐-145 能级与寿命证据。
 - [[chadderton-2025-fm250-conversion-electron-thesis]] — 镄-250 分壳模板、低统计计数窗与组态推断。
 - [[lettmann-2018-ge-kr-triaxiality-thesis]] — Ge 的暂定自旋与三轴判据、Ge/Kr 非弹性散射的反演边界。
@@ -790,12 +791,12 @@ u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶
 - [[karmakar-2025-doublet-wobbling-105pd]] — `105Pd` 双重摆动候选的实验与 TPSM 解释边界。
 - [[margraf-1995-odd-a-scissors-mode]] — 奇 A 剪刀模泡利阻塞与碎裂原件。
 - [[motobayashi-1995-32mg-deformation]] — `N=20` 反转岛壳闭合崩溃与四极集体性原件。
-- [[pandit-2012-gdr-thermal-width-critical-behavior]] — GDR 热展宽与配对塌缩/形状涨落原件。
-- [[piekarewicz-2004-soft-monopole-mode]] — 富中子核软单极模式与 `Kτ` 提取模型边界。
-- [[rohozinski-1988-triaxial-scissors-mode]] — 三轴剪刀模简并破缺与双峰模型原件。
+- [[pandit-2012-gdr-thermal-width-critical-behavior]] — 201Tl、63Cu 的 GDR 谱拟合宽度与临界温度参数化。
+- [[piekarewicz-2004-soft-monopole-mode]] — 90Zr、208Pb 的共振响应与不可压缩性、中子皮约束。
+- [[rohozinski-1988-triaxial-scissors-mode]] — 中子–质子相对表面振动及低位 1+ 态间隔的模型检验。
 - [[schonwasser-2003-tsd-wobbling-165lu]] — 三轴超形变摆动与八极/偶极抑制原件。
 - [[schwengner-2013-m1-upbend-brink-axel]] — 低能 `M1` 上弯与 Brink–Axel 迁移边界。
-- [[tsoneva-2011-pqr-skin-nuclei]] — 中子皮矮四极共振与 IVGQR 连续谱溶解原件。
+- [[tsoneva-2011-pqr-skin-nuclei]] — 锡链低能四极响应与皮层跃迁密度的模型证据。
 - [[youngblood-2004-isgmr-deformation-splitting]] — 形变 ISGMR 劈裂与不可压缩系数提取边界。
 - [[zagrebaev-2001-superheavy-synthesis-survival]] — 超重核裂变势垒反转与多次裂变生存模型。
 
@@ -848,8 +849,8 @@ u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶
 - [[triaxial-scissors-splitting-and-gamma-deformation]] — 三轴形变剪刀模K-简并破缺与双峰分裂微观机制：两转子模型绕中轴与短轴反相振动的解析求解（Rohozinski 1988与单洛伦兹拟合失效）。
 - [[gdr-thermal-width-expansion-and-tsfm-inapplicability]] — 巨偶极共振（GDR）热展宽相变与TSFM模型跨区不适用性：配对塌缩临界温度对决双幻核208Pb碰撞阻尼刚性（Pandit 2012一手实验与热平台）。
 - [[odd-a-scissors-mode-pauli-blocking-and-fragmentation]] — 奇A变形核剪刀模猝灭与剧烈碎裂微观机制：费米面Nilsson轨道泡利阻塞对决3准粒子态密度雪崩（Margraf 1995一手NRF实验与36%猝灭）。
-- [[isgmr-deformation-splitting-and-incompressibility-inapplicability]] — 巨单极共振（ISGMR）形变劈裂与核不可压缩系数提取模型不适用性：长椭核L=0与L=2 K=0强混合机制（Youngblood 2004一手实验与35 MeV伪软化修正）。
-- [[pqr-skin-emergence-and-ivgqr-continuum-dissolution]] — 矮四极共振（PQR）中子皮涌现与IVGQR连续谱溶解微观机制：58Ni到极富中子78Ni的同位旋多极响应解耦（Tsoneva 2011与朗道阻尼）。
+- [[isgmr-deformation-splitting-and-incompressibility-inapplicability]] — 形变钐的 E0 拟合分量与不可压缩性推断各自的证据边界。
+- [[pqr-skin-emergence-and-ivgqr-continuum-dissolution]] — 锡链原文与镍链参数化练习的证据边界。
 - [[soft-monopole-mode-and-ktau-divergence]] — 极富中子核软单极呼吸模式涌现与对称不可压缩系数K_tau虚假发散机制：132Sn到140Sn中子皮径向压缩解耦（Piekarewicz 2004与薄皮展开失效）。
 - [[superheavy-barrier-inversion-and-multi-chance-fission]] — 超重核裂变势垒反转（B_f < S_n）与多次裂变雪崩微观机制：传统统计蒸发模型跨区外推的百万倍高估破除（Zagrebaev 2001与皮靶极限）。
 - [[isospin-mixing-gdr-and-coulomb-e1-selection-rules]] — 巨偶极共振同位旋混合与库仑E1禁戒跃迁破缺微观机制：40Ca到100Sn的同位旋杂质与宏观劈裂失效（Colo 1995与8%同位旋杂质）。

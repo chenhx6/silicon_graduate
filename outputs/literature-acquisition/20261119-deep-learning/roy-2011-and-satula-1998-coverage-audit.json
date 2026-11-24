@@ -1,0 +1,70 @@
+{
+  "checked_at": "2026-11-21T21:25:56.747575+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "task": "ROY11-CD110-AMR-AUDIT",
+      "version": "Phys. Lett. B 694, 322–326 (2011), DOI 10.1016/j.physletb.2010.10.018",
+      "role": "verified-publisher-edition",
+      "pages": 5,
+      "scope": [
+        "PDF1–3 experiment, gates, effective top feed and comparative Table 1; PDF4–5 model and references."
+      ],
+      "checks": [
+        "PDF2 explicitly says both 28+ and 26+ decay at 1443 keV, so 0.35(2) ps is effective input feeding 24+.",
+        "Kept 106/108Cd historical lifetimes separate from own 110Cd data. Model coupling comparison conditional on adopted parameters."
+      ],
+      "gap": "No unfolded separate high-spin lifetimes or common experimental covariance.",
+      "lineage": "Own 110Cd data; cites other Cd experiments and uses comparison model.",
+      "work_id": "catalogue:LIT-000669",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/roy-2011-cd110-systematics-plb.pdf",
+        "sha256": "2a090a6f66d7c908419dd6c1bdc67b4f617101d8e3a4fd8d02d6da9be06d1d0a",
+        "size": 281553,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-publisher-edition"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/roy-2011-cd110-systematics-antimagnetic.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    },
+    {
+      "task": "SATULA98-ODD-EVEN-STAGGERING",
+      "version": "arXiv:nucl-th/9804060v1, 23 Apr 1998",
+      "role": "verified-arxiv-author-version",
+      "pages": 4,
+      "scope": [
+        "PDF1 formula and mass convention; PDF2 non-pairing HF, PDF3 analytic separation and PDF4 conditions and references."
+      ],
+      "checks": [
+        "Eqs. (1)–(2) use parity and negative binding energy as documented.",
+        "Finite odd/even mass filters are not direct matrix elements. No universal pure-pairing claim or scope expansion.",
+        "Existing note correctly marks sample-region limits and Wigner caveat."
+      ],
+      "gap": "Numerical figure digits remain outside this read scope.",
+      "lineage": "Mass systematics and HF model comparison.",
+      "work_id": "catalogue:LIT-000676",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261102-odd-even-mass-stencils/satula1998-oes-v1.pdf",
+        "sha256": "0eb0490badeadcf29bcb0e54695ad3ba1a37b37ec7219607d2b0ef7150556a91",
+        "size": 195763,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/satula-1998-odd-even-staggering-pairing-shape.md",
+          "declared_reading_depth": "read",
+          "coverage_needs_confirmation": false
+        }
+      ]
+    }
+  ],
+  "credited_works": 2,
+  "credited_primary_pages": 9
+}

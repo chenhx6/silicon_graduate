@@ -3,7 +3,7 @@ type: source
 title: "吴鸿毅 2020 博士论文：通用数字化获取系统的开发"
 aliases: ["吴鸿毅博士论文", "Hongyi Wu 2020 GDDAQ thesis", "通用数字化获取系统"]
 created: 2026-09-10
-updated: 2026-11-08
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: thesis-method
@@ -42,6 +42,11 @@ tags: [digital-daq, waveform-analysis, trigger, pixie-16, mztio, detector-method
 吴鸿毅，*通用数字化获取系统的开发*，北京大学博士学位论文，2020，143 个 PDF 页面。原始文件 SHA-256 为 `925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b`。题名页、摘要、目录和第 2–4 章关键图表页面视觉可读；正文文本层可检索。
 
 ## Scope and Reading Depth
+
+本轮核定 143 个物理页。PDF1–14 为前置和引言首段，PDF15–82 为获取原理和系统实现，PDF83–114 为应用，PDF115–143 为结论、参考文献和附录等。正文印刷页为物理 PDF 页减 12。
+
+- PDF47 给出模块至主机的接口传输规格 109 MB/s。PDF88–89 Figs. 3.7–3.8 给出 \(^{62}\)Cu 925 keV 峰在不同触发率下的实测对比，使用分路给两套获取系统的信号。这一测试与 [[wu-2021-general-purpose-digital-daq-waveform-analysis]] Fig. 5 同源。
+- PDF108 Fig. 3.42 比较 \(^{60}\)Co 1173/1332 keV 级联的数字 CFD 定时，两点线性插值给约 \(280(2)\) ps，改进算法给 \(180(1)\) ps。数值对应所报探测器和读出设置下的符合时间分辨。
 
 - Completed reading_depth: `deep-read`。
 - Covered scope: 题名页、中文/英文摘要、目录；第 1 章模拟/数字采集、采样与数字滤波/触发/定时算法；第 2 章 Pixie-16/MZTIO 硬件、固件、软件和采集逻辑；第 3 章在束 γ、α 衰变、高精度时间和性能极限应用；第 4 章结论。

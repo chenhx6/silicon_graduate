@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-11-22T00:17:43.192671+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 761,
+      "task": "WOODSIDE26-FE58-COULEX-DSAM",
+      "pages": 15,
+      "version": "arXiv:2603.17414v1, archived 15-page author manuscript",
+      "role": "verified-arxiv-author-version",
+      "scope": [
+        "PDF1–4 new acquisition and counts",
+        "PDF5–8 Gosia assumptions and fit branches",
+        "PDF8–12 historical DSAM and comparison",
+        "PDF13–15 models, conclusion and references"
+      ],
+      "checks": [
+        "PDF4 Table II records the new coincidences and corrected yields; PDF6 Table VI includes the reanalyzed target-state lifetime as a Gosia input.",
+        "PDF8 Table VII lists distinct sign combinations and their strengths. PDF11 Table VIII gives the reused 1.266-MeV line shift and revised 0.66(3)(8) ps lifetime.",
+        "PDF9–11 distinguishes electronic stopping adjustments from the coupled calculation. Primary new data, reanalysis, and conditional fitted strengths carry their respective dependencies."
+      ],
+      "gap": "Exact published-layout identity and code-replay inputs remain outside this reading. Comparison retains conditional fit branches and uncertainty conventions.",
+      "lineage": "New Coulomb-excitation acquisition and historical DSAM-coincidence reanalysis, coupled through selected fit inputs.",
+      "work_id": "catalogue:LIT-000761",
+      "raw": {
+        "path": "raw/papers/2026_Woodside_Fe58_collectivity_Coulex_Dsam.pdf",
+        "sha256": "fddbd3b0de35b1b723c2bcb9959af4cf6c489a0d8e00f87e9126218acfec8d5a",
+        "size": 697189,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-arxiv-author-version"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "declared_reading_depth": "deep-read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 1,
+  "credited_primary_pages": 15
+}

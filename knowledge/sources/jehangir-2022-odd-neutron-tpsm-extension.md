@@ -125,3 +125,8 @@ Decision: supports angular-momentum-projected configuration mixing as an odd-neu
 - Nuclei: [[131xe]]
 - Models: [[triaxial-projected-shell-model]]; angular-momentum projection is covered on that model page.
 - Projects: [[a130-model-choice-card]]
+
+
+## 2026-11-22 — 馆藏版本与关键页复核
+
+PDF 4 式 (1) 扩充三准中子及三准中子加两准质子组态。PDF 7 Fig. 7 对照 129Xe 和 131Xe 的计算与既有能级。131Xe yrare 的旋称结果按模型预言登记。

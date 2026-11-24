@@ -3,7 +3,7 @@ type: source
 title: "Walker & Dracoulis 2001 - Exotic Isomers in Deformed Atomic Nuclei"
 aliases: [Walker Dracoulis 2001 exotic isomers, K traps]
 created: 2026-09-20
-updated: 2026-10-30
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: review
@@ -19,6 +19,7 @@ canonical_source: "Walker & Dracoulis, Hyperfine Interactions 135, 83-107 (2001)
 library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/奇特原子核/综述/2001_Walker_Dracoulis_Exotic Isomers in Deformed Atomic Nuclei.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/奇特原子核/综述/2001_Walker_Dracoulis_Exotic Isomers in Deformed Atomic Nuclei.pdf"
 raw_sha256: "62cc9071a6101118535d16aeb66f0f192e7ad8904abdfa80b6b56119473c1489"
+archive_required: true
 nuclei: [178Hf, 177Ta, 180Ta, 212Po, 212Bi]
 reactions: []
 experiments: []
@@ -39,6 +40,8 @@ tags: [isomer, K-trap, spin-trap, deformed-nuclei, review]
 - 25-page review; figures, tables, K-trap examples and prospects read.
 
 ## Scope and Reading Depth
+
+- 核定二十五页刊版，印刷 pp.83–107。PDF6–8（印刷 pp.88–90，Fig. 3）用既有 `178Hf` 谱学说明自旋差和 \(K\) 禁戒的不同角色。综述给出经验阻碍量级，实际跃迁需核对多极次、禁戒度及波函数混合条件。
 
 - Full review read: shell-model basis, spin traps, K traps, `178Hf/177Ta/180Ta` examples, hindrance factors, decay modes, population/measurement methods and neutron-rich `A≈180` prospects.
 - Not covered: reanalysis of every isomer dataset and post-2001 isomer discoveries.

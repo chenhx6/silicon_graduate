@@ -3,7 +3,7 @@ type: source
 title: "Wu et al. 2011 — 转动与阻塞导致的核配对减弱：PNC关联能与BCS/LN边界"
 aliases: [Wu 2011 pairing rotation blocking, 1104.3385]
 created: 2026-10-29
-updated: 2026-10-29
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: theoretical-research
@@ -21,6 +21,7 @@ citation_key_verified: 2026-10-29
 canonical_source: "doi:10.1103/PhysRevC.83.034323"
 raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/wu-2011-pairing-rotation-blocking-arxiv1104.3385.pdf"
 raw_sha256: "3e0a00171798bed92006eac788d578fbcb73fb2d64338dfab33bf7a7793f2979"
+archive_required: true
 nuclei: [168Yb, 168Hf, 177Ta, 178W]
 models: [PNC-CSM, BCS, HFB, Lipkin-Nogami]
 observables: [pairing-correlation-energy, effective-pairing-gap, angular-momentum-alignment]
@@ -36,7 +37,7 @@ Wu等，PRC83,034323(2011)，DOI `10.1103/PhysRevC.83.034323`。实际取得arXi
 
 ## Scope and Reading Depth
 
-定向阅读PDF pp1–5的摘要、BCS/HFB与LN讨论、PNC哈密顿量和Eq10关联能型gap定义，及pp6–12相关转动/阻塞结果文字。未逐点数字化图像，不声称重现其所有核的计算。该来源不包含105/106Cd或104Pd的AMR新实验。
+本轮核定 15 页作者稿。PDF1–5 为模型背景、PNC 哈密顿量及 Eq. 10 的关联能型间隙；PDF6–12 比较不同转动、阻塞及形变案例；PDF13–15 为结论和引文等。Figs. 1、4 中的基准转动惯量点来自所引实验，同图给出的配对间隙为 PNC 模型输出。图线保留各核和组态的条件。
 
 ## Key Results
 

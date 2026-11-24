@@ -1,0 +1,43 @@
+{
+  "checked_at": "2026-11-21T23:26:36.762310+00:00",
+  "model_requested": "agy-cli/gemini-3.8-flash",
+  "reasoning_requested": "high",
+  "works": [
+    {
+      "number": 727,
+      "task": "TUNL12C-2017-TABLES-EXCERPT",
+      "pages": 6,
+      "version": "TUNL 2017KE05 Table 12.13, six-page online PDF excerpt",
+      "role": "verified-official-evaluation-table-excerpt",
+      "scope": [
+        "PDF1–5 primary energy-level table",
+        "PDF5–6 compilation footnotes"
+      ],
+      "checks": [
+        "PDF1 title and PDF5 footnote identify Table 12.13. Table 12.14 is cited as a separate table, with coverage recorded independently.",
+        "PDF1: 4.43982 MeV and 7.65407 MeV states have excitation-energy errors 0.21 keV and 0.19 keV. Widths in those rows are explicitly 10.8(6) meV and 9.3(9) eV.",
+        "PDF3: the 15.110 MeV row's center-of-mass width is 43.6(10) eV and includes the listed gamma and alpha decay modes."
+      ],
+      "gap": "Six pages cover the standalone official table. Underlying experiments, Table 12.14 and revised manuscript are separate source objects; shared inputs do not constitute independent measurements.",
+      "lineage": "Evaluated compilation of cited measurements associated with 2017KE05; current file is online table text and layout.",
+      "work_id": "catalogue:LIT-000727",
+      "raw": {
+        "path": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/tunl-12c-table-12-13-2017.pdf",
+        "sha256": "f24d1df603869579b2de604ea726e5de65b766985f8b07724d6dfa66a3c61727",
+        "size": 219270,
+        "hash_basis": "fresh-hash",
+        "source_role": "verified-official-evaluation-table-excerpt"
+      },
+      "source_notes": [
+        {
+          "source_note": "knowledge/sources/tunl-2017-12c-level-widths.md",
+          "declared_reading_depth": "read",
+          "coverage_needs_confirmation": false
+        }
+      ],
+      "claimed": true
+    }
+  ],
+  "credited_works": 1,
+  "credited_primary_pages": 6
+}

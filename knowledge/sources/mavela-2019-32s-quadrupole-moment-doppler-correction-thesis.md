@@ -189,3 +189,8 @@ PDF file p.41 (printed p.32) has one `196Pt(32S,32S*)196Pt*` sentence; Chapter 3
 定位修订：`196Pt` 冲突句跨接 Sec.3.4.2 的段落，但句子实际位于 PDF file p.41 / printed p.32；此前 p.40 / p.31 仅定位到段落起始。DD-20261013-32S-25/26 与 owning method/question 已同步修正，保留原 isotope/production-code 证据边界。UWC 官方 item API 在本次核验中返回同一 UUID、2019 issued date 和 handle，属于身份复核，不能当作第二份独立实验。
 
 Knowledge Impact: `supports` exact transform and emitter-specific yield selection; `limits` width/centroid-only validation. Jacobian、协方差传播和低速峰宽多解在 [[doppler-correction]] 标作任务推导，未提升为作者结论。所有原 review/needs_review 状态保持不变。
+
+
+## 2026-11-22 — 原件范围与关键页复核
+
+馆藏 94 页。PDF 64–67 是 AFRODITE 与 S3 的几何附录，PDF 68–76 是排序程序，77–90 是 GOSIA 输入。PDF 3 摘要原印 \(Q_S=-0.10\pm0.7\) eb，PDF 60、63（印 51、54）采用 \(-0.099\pm0.068\) eb。数值差异留在原件记录。PDF 70 把 `0.71259276` 与其他速度项并列，仍无法据印刷版本推断生产程序执行了这项值。

@@ -3,11 +3,11 @@ type: source
 title: "Tuli 2001 ENSDF格式：MR显式符号、未知与不对称误差"
 aliases: [Tuli 2001 ENSDF format manual, ENSDF MR sign unknown]
 created: 2026-10-18
-updated: 2026-10-19
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: data-format-manual
-reading_depth: skimmed
+reading_depth: deep-read
 title_original: "Evaluated Nuclear Structure Data File: A Manual for Preparation of Data Sets"
 authors: [Jagdish K. Tuli]
 year: 2001
@@ -19,6 +19,7 @@ canonical_source: "NNDC official ENSDF format manual, Tuli February2001"
 source_url: "https://www.nndc.bnl.gov/ensdf/ensdf-manual.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/tuli-2001-ensdf-format-3400f0ae84d2.pdf"
 raw_sha256: "3400f0ae84d24f252f5bed4e6f0227304df9a4608aceb1d67e609db12605a0e9"
+archive_required: true
 raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23
 nuclei: []
@@ -36,11 +37,11 @@ tags: [ensdf, format, phase-sign, data-identity]
 
 ## Bibliographic Record
 
-NNDC首页独立链接的Format Manual是JagdishK.Tuli February2001、BNL-NCS-51655-01/02-Rev，实际112PDF页/686034bytes；与M.R.Bhat1987 procedures manual是不同文档。书目/日期由PDF1原图核准，不以PDFcreationdate或2026下载日当版本年。新原件在tmp，raw槽未填，Bib无唯一命中，不造DOI/ISBN。
+馆藏为 Jagdish K. Tuli 2001 年 2 月的 NNDC 格式手册 BNL-NCS-51655-01/02-Rev，112 个物理 PDF 页。PDF1 的封面确认版本。正文印刷页为物理页减 6。M. R. Bhat 1987 的评价程序与约定保留独立书目身份。
 
 ## Scope and Reading Depth
 
-针对mixingratio/固定栏定向读取：封面、摘要/目录、printed28 Gamma Record（PDF34）、printed43 V.9–11（PDF49）、printed44 V.12–14（PDF50）。原图视觉校字段/含义与asymmetric例；textlayer的数字编码不可靠，没有仅靠破碎OCR提数。未通读112页，wholemanual仅skimmed。
+核定 PDF 1–6 封面、摘要和目录，PDF 7–38 文件组织和单卡，PDF 39–74 延续卡、字段详释及附录 A–E，PDF 75–112 词典及政策。PDF8 和 PDF38 为留白。文本层部分数字和连字编码异常，固定栏位与不对称误差例以原页为准。当前仅覆盖 2001 版；数据集示例用于说明编码及来源回链。
 
 ## Key Results
 
@@ -54,6 +55,8 @@ NNDC首页独立链接的Format Manual是JagdishK.Tuli February2001、BNL-NCS-51
 | TU01-6 | Erecord的IB(cols22–29)为β+强度、IE(cols32–39)为EC强度、TI(cols65–74)为两者合计，三者单位同并依NB。字段空白与numeric0不同；不能因dataset名EC便假定IB=0。 | electron-capture-beta-plus-field-semantics | direct-manual | PDF30/printed24 EC Record | true |
 | TU01-7 | PrecordQP(cols65–74)为g.s.→g.s.总可用Q，E(cols10–19)为实际衰变母态能量，非daughter level；多parent有分开的Precord。用QP作能量可达性边界须同时核parentE与其标签，不能拿近能γ的能量替母态。 | parent-energy-and-Q-field-semantics | direct-manual | PDF23/printed17 Parent Record | true |
 | TU01-D28-1 | Gamma Record的固定栏区分实验转换系数`EKC/ELC/EL1C`与理论转换系数`KC/LC/L1C`；因此评估文件中的`EKC`不能被解析器当作理论表值，空的MR/DMR也不能自动生成混合比。该格式规则不认证任何特定核素记录的原始实验来源。 | fixed-field-conversion-semantics | direct-manual-and-boundary | printed28 Gamma Record, PDF34; printed36 conversion-coefficient definitions, PDF42 | true |
+| TU01-8 | 2001 年《Nuclear Data Sheets》政策说明采用 Krane–Steffen（1970Kr03）混合比相位约定。录入时仍应保留每条原论文的相位定义、所用观测量、沿用或换号说明。`M`、`MR` 和 `DMR` 分别给多极性、数值与不确定度。 | format-and-policy | direct-manual | PDF34（印刷 p.28），PDF106（印刷 p.100） | true |
+| TU01-9 | `M` 字段的圆括号标可能的归属，方括号标假设或推导的归属。γ 延续卡的 `FL` 用于记录末态能量，`FLAG` 可回链附加表注。导出时需保留这些限定和数据集标识。 | format-and-evidence-status | direct-manual | PDF39–42（印刷 pp.33–36），PDF51–52（印刷 pp.45–46） | true |
 
 
 ## Summary

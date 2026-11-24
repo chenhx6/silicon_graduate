@@ -3,7 +3,7 @@ type: source
 title: "Suzuki & Kimura 2021 - Triaxial deformation and the loss of the N=28 shell gap"
 aliases: [Suzuki Kimura 2021 N28 triaxiality]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: arxiv-theory
@@ -19,6 +19,7 @@ canonical_source: "https://arxiv.org/abs/2103.06086"
 library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2021_Suzuki_Kimura_Triaxial deformation and the disappearance of the N = 28 shell gap.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2021_Suzuki_Kimura_Triaxial deformation and the disappearance of the N = 28 shell gap.pdf"
 raw_sha256: "7719016e6ae01cbf5b70f4128420c9802d3f4b6054150baad0c443d43b813423"
+archive_required: true
 nuclei: [38Mg, 40Mg, 42Si, 44S, 46S, 48Ar]
 reactions: []
 experiments: []
@@ -39,6 +40,7 @@ tags: [N28, shell-evolution, triaxiality, AMD, GCM, exotic-nuclei]
 
 - Full PDF read: AMD Gogny-D1S Hamiltonian, parity/AM projection, β–γ constrained mesh, GCM Hill–Wheeler, N=26/28/30 isotones, shell occupations, spectra, E2/interband transitions and conclusions.
 - Not covered: code, parameter files and later arXiv versions.
+- Verified arXiv v1 scope: PDF 1–5 motivation and projected AMD/GCM, PDF 6–10 energy surfaces and occupations, PDF 11–13 spectra and \(E2\) transitions, PDF 14–18 references.
 
 ## Key Results
 
@@ -53,6 +55,8 @@ tags: [N28, shell-evolution, triaxiality, AMD, GCM, exotic-nuclei]
 | SK21-1 | AMD+GCM predicts triaxial/soft projected ground states across N=26–30 isotones and gradual N=28 shell-gap erosion. | model-result | direct | PDF pp.5–15, Figs.1–8 | true |
 | SK21-2 | Interband E2 strengths are proposed as diagnostics of triaxial deformation and shell-evolution patterns. | model-prediction | direct | PDF results/conclusion | true |
 | SK21-3 | Magicity loss has no definite proton/neutron-number boundary and need not involve single-particle level inversion in oblate `42Si`. | model-interpretation | direct | Abstract/conclusion | true |
+| SK21-4 | In the fixed \(N=30\) calculations, the spherical \(N=28\) gap decreases from 4.0 MeV in `48Ar` to 2.8 MeV in `42Mg`. The deformed-state occupation analysis gives explicit level inversion in the prolate region, and strong \(l=1,3\) mixing on the oblate side. | model-result | direct | PDF7–10, Figs. 1–3 and Eqs. 17–18 | true |
+| SK21-5 | The axial-constrained and unrestricted calculations yield markedly different non-yrast excitation energies and some interband strengths. Table I shows a sparse experimental comparison and includes substantial nucleus-specific variation, such as the different calculated intraband strengths for `44S`. | model-comparison | direct | PDF11–13, Fig. 4 and Table I | true |
 
 ## Summary
 

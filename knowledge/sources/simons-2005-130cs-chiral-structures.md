@@ -3,7 +3,7 @@ type: source
 title: "Simons et al. 2005 - Evidence for chiral structures in 130Cs"
 aliases: ["Simons 2005 130Cs chiral bands", "130Cs Euroball chiral candidate experiment"]
 created: 2026-09-29
-updated: 2026-10-20
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: experiment
@@ -57,6 +57,8 @@ The authors extend the positive-parity `130Cs` doublet candidate and test it aga
 - Tables 1–2 report `Eγ`, relative intensity (caption names 151 keV; actual table has I151=53.4 and I408.86=100, retained as a source normalization boundary), multipolarity, DCO and linear polarization where measured. `B(M1)/B(E2)` and `B(M1)in/B(M1)out` are transition-ratio observables; the paper does not report state lifetimes or absolute transition strengths for `130Cs`.
 
 ## Key Evidence and Reasoning Chain
+
+Table 1（印刷 p.544／PDF5）中 297.1 keV 连接同时给出 \(R_{\rm DCO}=0.62(5)\)（偶极门）、\(1.0(1)\)（四极门）与 \(P=-0.15(10)\)。Table 2（印刷 p.545／PDF6）的 546.7、596.1、609.2 keV 三条连接也给 \(P\) 和偶极门 DCO。本文的 \(P\) 由 Eq. (3) 换算，灵敏度 \(Q\) 取自 Ref. [17]。
 
 1. The Euroball data confirm and extend bands A and B, add transitions, and produce a partial level scheme (Tables 1–2, Fig.1; journal pp.544–546 / PDF pp.5–7).
 2. DCO and linear polarization were measured for four interband links at 297, 547, 596 and 609 keV. The authors report predominantly magnetic-dipole links and use them to establish the same parity for the two bands; with band A's prior configuration assignment, they infer a common `πh11/2 ⊗ νh11/2⁻¹` configuration (Tables 1–2 and text, journal p.545 / PDF p.6).

@@ -3,7 +3,7 @@ type: source
 title: "Wang Enhong 2015 博士论文：252Cf 与 238U+9Be 裂变碎片的丰中子核"
 aliases: [Wang Enhong 2015 dissertation, Studies of neutron-rich nuclei fission fragments]
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-experiment
@@ -25,6 +25,7 @@ zotero_uri:
 library_file: "raw/theses/degree-dissertation/Wang Enhong.pdf"
 raw_file: "raw/theses/degree-dissertation/Wang Enhong.pdf"
 raw_sha256: "95BE30D0C4F5B0121D182E7CBE7F435B3F5F3863ABAAFDD51518EFBCFA28E4A7"
+archive_required: true
 nuclei: [96y, 100y, 107nb, 118ag, 119ag, 147ce, 148ce, 143pr, 145pr, 146pr, 147pr, 148pr, 149pr, 150pr, 151pr, 152pr, 153pr, 156pm, 157pm, 158sm]
 reactions: ["252Cf spontaneous fission", "238U+9Be induced fission"]
 experiments: [lbnl-gammasphere-cf252-fission-mo104-106]
@@ -41,6 +42,10 @@ tags: [neutron-rich, spontaneous-fission, induced-fission, high-spin, level-sche
 Enhong Wang，*Studies of Neutron-rich Nuclei from 252Cf and 238U+9Be Fission Fragments*，Vanderbilt University，博士学位论文，2015，143 页。原始 PDF SHA-256 为 `95BE30D0C4F5B0121D182E7CBE7F435B3F5F3863ABAAFDD51518EFBCFA28E4A7`。
 
 ## Scope and Reading Depth
+
+- 本轮核定馆藏 143 页的物理分页。正文印刷页为 PDF 页减 14。PDF27–35 的 1995/2000 年 `252Cf` γ 符合与 `238U+9Be` 裂变碎片物理鉴别分属不同采集。
+- `107Nb` 的 A/Z 门谱和 156.5、228.5、202.6 keV 三重门符合提供互补约束（PDF46–48，Figs. 4.2.2–3）。`148Pr` 的 132.1、290.5 keV 双门谱及 500 ns、8 ns 窗比较见 PDF92–93，支持存在延迟成分。作者也记录了质量/电荷门的相邻核素污染，关联强度需按原门和扣除条件读。
+- PDF102 以不同带门比较 `151Pr` 近 222 keV 的峰位并提出 221.9、221.3 keV 两条跃迁。PDF129–131 将 `158Sm` 1082.0 keV 的符合归属与 1322.3 keV 带头的候选自旋分别讨论。原谱统计与竞争退激路径限制组态指认。
 
 - Completed reading_depth: `deep-read`。
 - Covered scope: Chapters 1–5、实验技术、`96,100Y`、`107Nb`、`118,119Ag`、`147,148Ce`、`143–153Pr`、`156,157Pm`、`158Sm` 的 level schemes/figures/conclusions；核对 252Cf 四重符合超立方体、238U+9Be mass/Z gate、signature splitting、octupole、β/γ vibration 和 2qp band claims。

@@ -3,7 +3,7 @@ type: source
 title: "Wang 2017：109Ag 的 TAC-CDFT 可分离配对方法"
 aliases: [Wang 2017 109Ag separable pairing, TAC-CDFT separable pairing 2017]
 created: 2026-10-15
-updated: 2026-10-15
+updated: 2026-11-22
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-theory-and-method
@@ -21,6 +21,7 @@ canonical_source: "https://doi.org/10.1103/PhysRevC.96.054324"
 citation_key: "wang_2017_109ag-yrast-band"
 raw_file: "raw/papers/2017-Wang-109Ag-TAC-separable-pairing.pdf"
 raw_sha256: 15e901a4f5d8ad1b5cf4bffe61e050d8eb6a3c89b0f9f62dea84e5d56c335d87
+archive_required: true
 raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23
 nuclei: [109Ag]
@@ -40,6 +41,8 @@ Y. K. Wang, Physical Review C **96**, 054324 (2017)，DOI [10.1103/PhysRevC.96.0
 本次按 daily-learning 授权建立可追溯来源记录；**未完成 raw 归档摄入**。`raw_file` 是尚未填入的保留槽，不是实际现存文件。实际只读输入为 `tmp/day14-20261014/tac2017/PDFs/Yrast_band_of_109Ag_described_by_tilted_axis_cranking_covariant_density_functional_theory_with_a_separable_pairing_force.pdf`，525900 bytes，SHA256 如 frontmatter；下载器 manifest、独立 PDF/hash/首页核验与阅读回执位于 DAY14 run-02。未改 raw 或 BibTeX，citation key 未在本地 BibTeX 匹配，故留空。以下页码均为这份预印本的 PDF 页，未核正式排版或 erratum。
 
 ## Scope and Reading Depth
+
+核定 arXiv:1708.06117v2 的九页。PDF4 Fig. 1 对照含与不含配对的计算，使用同一组 Datta 等人的实验点。文中报告 \(I\sim7.5\hbar\) 至 \(11.5\hbar\) 的回弯区数值解未收敛。PDF4–7 的配对、顺排与电磁比较保留这一缺口。
 
 - **Covered scope**：沿全文9页主线读 Introduction、理论框架、数值实现、结果和 Summary；视觉核 Figs.1–8、影响判断的 Eqs.(4)、(10)–(12)、(19)–(28)，以及 Appendix A 的基底、选择条件和矩阵元结构。本文没有独立 table；Fig.7 的 canonical-basis 贡献也核过。
 - **Not covered**：未复跑作者 RHB 程序；没有实际 occupied/blocked 清单、轨道追踪日志、收敛路径、数目投影输出或计算协方差。Ref.[31] 的 blocking 算法和 Ref.[36] 的原始实验只是已识别上游文献，尚未据本页冒充直接读取。未请求 SI。

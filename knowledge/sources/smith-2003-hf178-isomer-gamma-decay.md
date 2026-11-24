@@ -3,11 +3,11 @@ type: source
 title: "Smith2003：178m2Hf直接M4/E5衰变、E3内转换主支与阻退度归一"
 aliases: [Smith2003 Hf178m2 gamma decay, UCRL-JRNL-200315]
 created: 2026-10-30
-updated: "2026-11-07"
+updated: "2026-11-22"
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
-reading_depth: read
+reading_depth: deep-read
 title_original: "Gamma rays emitted in the decay of 31-yr 178m2Hf"
 authors: [M. B. Smith, P. M. Walker, G. C. Ball, J. J. Carroll, P. E. Garrett, G. Hackman, R. Propri, F. Sarazin, H. C. Scraggs]
 year: 2003
@@ -47,6 +47,8 @@ Smith等，Physical Review C **68**, 031302（2003），DOI见frontmatter。精�
 PDF实际在 `tmp/day27-k-isomer-repair-046/smith-2003-hf178-gamma-manuscript.pdf`。`raw_file`是未填归档槽，raw目录未改动；获取、指纹和阅读范围保存于public_staging_manifest。旧的模糊Crossref题名查询没有命中，随后精确DOI核验成功，两次结果分别保留，不用模糊检索自动认定身份。
 
 ## Scope and Reading Depth
+
+当前核定对象为 `raw_file` 所列 7 页作者稿。物理 PDF1–2 为封面及声明，PDF3–7 对应印刷 pp.1–5。回核物理 PDF5 的 Table I 与 Fig. 2，带间 230.8-keV E2 连到 \(11^-\) 成员，515.1-keV 候选支仍按原表上限记录。保持主支推断与弱光子符合计数的区分。
 
 实际视觉读正文PDF3–7/印刷1–5，包括Figs.1–4、Tables I–II、方法、讨论、限制和结论；封面/声明另读。正文嵌入字体使文字提取严重乱码，所以能量、Jπ、乘性和表头以渲染页回看为准。未重取参考文献原实验、事件数据、完整校准曲线或作者分析代码；未取得SI，不声称其存在或不存在。
 
