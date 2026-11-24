@@ -9046,3 +9046,11 @@ The result and raw toy CSV are now in the PADO package and public-release manife
 - Gemini 主读、Codex 核定 Nomura 2018 奇质量 Ba 和 Nomura 2020 Ra/Th 的本地 arXiv v2，共 26 页。奇质量 Ba 两个路径同字节只计一次。累计 232 份、11407 个主件 PDF 页。
 - 核对 145Ba 的预测 E3 与偶偶核芯尺度，Ra/Th 的有效电荷经验缩放及其库仑激发证据链。未采纳 Gemini 对本项目 PDM 缩写的误解。限定在作者版本和原文可定位证据。
 - 228Th 的 `TH228-ENSDF-FULL` 已派发 Gemini，续接先核实际回传的 PDF2–46 覆盖与数据依赖。PDM 全仓发布门仍失败，本地累计学习可独立推进。
+
+## 2026-11-24 — multipolePDM 确定性报告修订完成
+
+- canonical `raw/writing/pado/20261029_review_v1/PDM/main.pdf` 共90页：30个主要注入、15条不同文献跃迁的30个二维声明模型、60张逐案例四联图，另列9个纯项前向配置。只有第18、19、20页三张主表横向，其余正文与图竖向。
+- 保留原0.1.1物理/统计核、原始观测中心及所有分支；不改GUI、不发新版本、不执行随机扰动。60个快照逐项复现冻结结果，独立归一化/HDI积分/ETI CDF/PDF矩/tan转换核对容差2e-12通过；77项回归通过；64幅科学图遮挡审计0失败/0警告，90页已实际目视。
+- 大混合比的ETI中位数均趋于小绝对值；负5/10的六例均不在68% HDI，正5/10仍在至少一支HDI中。Jacobian与宽度积分均改变分支质量，不能归为单一原因，也不证明无偏性。复用结论与原件定位见 [[pdm-deterministic-report-revision-20261124]] 及配套source。
+- 原执行计划 `outputs/plans/20261120-pdm-three-mode-rewrite/` 已整合当前规格并保留历史E/U完成记录。回执为 `delivery/report-revision-20261124.json`；179文件集合manifest位于报告 `figures/data/report_revision/`，定向归档与两页lint通过。编译/预览/旧辅助文件留 `tmp/pdm-report-revision/`。
+- 既有其它修改均保留；全仓旧归档/结构问题与本轮交付分开记录，发布结果以本轮回执为准。科学开放边界不作为用户待审核事项。

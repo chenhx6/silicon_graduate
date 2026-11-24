@@ -2,13 +2,15 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-11-21
+updated: 2026-11-24
 ---
 
 # Wiki Index
 
 ## PDM 三模式软件与验证
 
+- [[pdm-deterministic-report-revision-20261124]] — 30个确定性注入、15条文献跃迁与大混合比恢复边界。
+- [[pdm-deterministic-report-revision-20261124-source]] — 60套二维快照、逐案例四联图和最终报告的本地来源。
 - [[pdm-three-mode-execution-contract-20261120]] — 三模式响应、共享密度映射、GUI与发布合同。
 - [[multipolepdm-20261120-synthetic-validation]] — 独立公式、注入恢复与重复观测验证。
 - [[multipolepdm-20261120-empirical-validation]] — 六核文献观测量、声明几何与不吻合结果。

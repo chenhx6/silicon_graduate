@@ -1,11 +1,4 @@
 {
-  "schema": "pdm-optimization-plan-v2",
-  "updated": "2026-11-20",
-  "state": "completed",
-  "implementation_authorized": true,
-  "approval_required": false,
-  "goal_created": true,
-  "goal_id": "01a19d0f-61f7-72d0-998c-9fc0aaecbd00",
   "baseline_release": {
     "version": "0.1.0",
     "completed_goal_id": "01a19d0f-61f7-72d0-998c-9fc0aaecbd00",
@@ -13,13 +6,9 @@
     "historical_ledger": "delivery/0.1.0-task-ledger.json",
     "counts_are_not_new_acceptance": true
   },
-  "objective": "保留三模式PDM核，在已完成E01-E03研究基础上实现多探测器组/权重/phi选择、min/max/step网格、角空间逐HDI段mode及tan报告、全域viridis四联图和数值、文献对照与完整注入图表、易用教程，完成新版本回归和交付。",
   "plan_file": "outputs/plans/20261120-pdm-three-mode-rewrite/plan.md",
-  "plan_sha256": "31a93d31a0e2458ded34330f326142f494f6f7a776c591c6523684901f2c903a",
-  "readable_pdf": "outputs/plans/20261120-pdm-three-mode-rewrite/plan.pdf",
   "code_root": "raw/code/PDM",
   "handbook": "raw/writing/pado/20261029_review_v1/PDM/main.tex",
-  "current_task": null,
   "mode_ids": [
     "P_ADO",
     "P_DCO",
@@ -69,74 +58,8 @@
     "title_semantics": "full scan with constant additional weight, not fixed sigma",
     "title_confirmed": true
   },
-  "injection": {
-    "sigma_over_i": 0.3,
-    "sigma_yy_interpretation": "sigma/I by conversation context",
-    "delta_values": [
-      -10,
-      -5,
-      -1,
-      -0.5,
-      -0.1,
-      0.1,
-      0.5,
-      1,
-      5,
-      10
-    ],
-    "polarization_relative_error": 0.8,
-    "angular_ratio_relative_error": 0.1,
-    "ratio_modes": [
-      "R_ADO",
-      "R_DCO"
-    ],
-    "error_widths_use_absolute_value": true,
-    "primary_cases": 30,
-    "generators": [
-      "independent_9j",
-      "same_kernel"
-    ],
-    "primary_records": 60,
-    "repeat_cases": [
-      {
-        "mode": "P_ADO",
-        "delta": -0.1
-      },
-      {
-        "mode": "P_DCO",
-        "delta": 1
-      },
-      {
-        "mode": "PDCO",
-        "delta": -10
-      }
-    ],
-    "repeat_independent_noise_vectors": 300,
-    "repeated_inversions": 600,
-    "seed": 20261120,
-    "polarization_theta_deg": 90,
-    "azimuth_selection": false,
-    "ratio_polar_angles_deg": [
-      125,
-      90
-    ],
-    "pdco_gate_polar_angle_deg": 125,
-    "polarization_absolute_floor": 0.1075,
-    "polarization_error_rule": "max(.1075,.8*abs(P0)); floor from ten audited main-tier lines; synthetic only",
-    "ratio_error_rule": ".1*abs(R0) frozen baseline",
-    "polarization_error_policy": {
-      "kind": "relative_with_empirical_floor",
-      "relative_coefficient": 0.8,
-      "absolute_floor": 0.1075,
-      "synthetic_only": true,
-      "not_universal_experimental_precision": true,
-      "provenance": "raw/code/PDM/analysis/research/grid_resolution/frozen_inputs.json"
-    },
-    "sigma_over_i_confirmed": true
-  },
   "open_questions": [],
   "analysis_installation": "Not a second package; notebooks are files, shared core installed once, [analysis] adds optional dependencies but does not download notebooks.",
-  "release_version_proposed": "0.1.1",
   "tasks": [
     {
       "id": "E01",
@@ -369,37 +292,215 @@
       "changed_paths": [],
       "unresolved_items": [],
       "next_action": "Complete; see final acceptance and scoped limitations."
+    },
+    {
+      "id": "R00",
+      "title": "现场/数据核对",
+      "phase": "report_revision",
+      "depends_on": [],
+      "status": "completed",
+      "specification": "核对报告main/figures现场、三模式物理定义、源态sigma与Jacobian、冻结输入和代码哈希；确认30同核注入、15初始+15后续nominal二维声明模型、9前向控制及附属加密run。只读侧审已形成发现，主代理接收与完整现场核对尚未验收。",
+      "input_evidence": [
+        "raw/code/PDM/GUI/README.md",
+        "raw/code/PDM/GUI/docs/response-reference.md",
+        "raw/code/PDM/analysis/benchmarks/sigma03_relP80_relR10/provenance.json",
+        "raw/code/PDM/analysis/benchmarks/sigma03_relP80_relR10/frozen-job.json",
+        "raw/code/PDM/analysis/cases/results_v0_1_1/results.json",
+        "raw/code/PDM/analysis/cases/followup/results_v0_1_1/results.json"
+      ],
+      "deliverables": [
+        "精确案例计数及选择规则",
+        "物理/统计/来源版本差异与缺项清单",
+        "报告与计划互不重叠写域"
+      ],
+      "acceptance": [
+        "真实检查当前文件，保留已有修改",
+        "source sigma、无方向/条件P、phi环平均、强度先加后比和Jacobian口径一致",
+        "历史运行、当前数据与本轮待验收清楚分开"
+      ],
+      "evidence": [
+        "raw/writing/pado/20261029_review_v1/PDM/figures/data/report_revision/results.json",
+        "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/report-revision-20261124.json"
+      ],
+      "commands_run": [],
+      "changed_paths": [],
+      "unresolved_items": [],
+      "next_action": "No required report work remains. Preserve scientific limitations; no new software release."
+    },
+    {
+      "id": "R01",
+      "title": "30注入与长表",
+      "phase": "report_revision",
+      "depends_on": [
+        "R00"
+      ],
+      "status": "completed",
+      "specification": "读取U04现有deterministic和角边缘，筛same_kernel三模式各10条；无随机噪声中心、sigma/I=.3、P90度、125/90比值与PDCO125度门、环平均。误差max(.1075,.8abs(P0))及.1abs(R0)。报告全部30条输入、所有HDI分段/mode/质量、ETI、Mean-based和取向结果/诊断；独立9j30条只留后台，不重算既有反演。",
+      "input_evidence": [
+        "raw/code/PDM/analysis/benchmarks/sigma03_relP80_relR10/deterministic.json",
+        "raw/code/PDM/analysis/benchmarks/sigma03_relP80_relR10/angle_marginals.npz",
+        "raw/code/PDM/analysis/research/grid_resolution/frozen_inputs.json",
+        "raw/code/PDM/analysis/scripts/plot_benchmark_u04.py"
+      ],
+      "deliverables": [
+        "30条按模式、case_id连接的输入/delta/取向长表",
+        "真值对恢复delta图及sigma/I=.3对照图",
+        "正负小中大代表角PDF与全部分段数据"
+      ],
+      "acceptance": [
+        "primary_records恰30且全为same_kernel",
+        "精确68%角空间HDI/ETI逐值tan；Mean不冒称delta期望或68%覆盖",
+        "完整误差棒和不利结果保留，误差floor有十条实测来源"
+      ],
+      "evidence": [
+        "raw/writing/pado/20261029_review_v1/PDM/figures/data/report_revision/results.json",
+        "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/report-revision-20261124.json"
+      ],
+      "commands_run": [],
+      "changed_paths": [],
+      "unresolved_items": [],
+      "next_action": "No required report work remains. Preserve scientific limitations; no new software release."
+    },
+    {
+      "id": "R02",
+      "title": "全部文献四联图",
+      "phase": "report_revision",
+      "depends_on": [
+        "R00"
+      ],
+      "status": "completed",
+      "specification": "对15初始+15后续nominal二维声明模型逐一给完整四联图与三类数值，并制作四面板图6、案例/几何/来源索引。9纯前向控制另表；加密run附nominal模型，不重复算案例。135Pr采用2:1强度和P75.5度，154Tb/190Tl为声明环平均；原始观测及误差保持不变。",
+      "input_evidence": [
+        "raw/code/PDM/analysis/cases/results_v0_1_1/results.json",
+        "raw/code/PDM/analysis/cases/followup/results_v0_1_1/results.json",
+        "raw/code/PDM/analysis/cases/grouped_geometry_v0_1_1/snapshot.json",
+        "raw/code/PDM/analysis/cases/followup/grouped_geometry_v0_1_1/snapshot.json"
+      ],
+      "deliverables": [
+        "30个nominal二维模型完整四联图及每图全部HDI/ETI/Mean-based数值",
+        "9个前向控制及文献对照单表",
+        "图6四面板、案例和数据来源索引"
+      ],
+      "acceptance": [
+        "30个nominal模型全部可见而非只给代表例",
+        "四联图含完整观测响应域、viridis独立色标、pi刻度及全部统计",
+        "图6 A/C使用delta轴，固定宽度/未报告/原报误差区分，模型场景不当独立实验"
+      ],
+      "evidence": [
+        "raw/writing/pado/20261029_review_v1/PDM/figures/data/report_revision/results.json",
+        "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/report-revision-20261124.json"
+      ],
+      "commands_run": [],
+      "changed_paths": [],
+      "unresolved_items": [],
+      "next_action": "No required report work remains. Preserve scientific limitations; no new software release."
+    },
+    {
+      "id": "R03",
+      "title": "大delta诊断",
+      "phase": "report_revision",
+      "depends_on": [
+        "R00",
+        "R01"
+      ],
+      "status": "completed",
+      "specification": "围绕delta正负5、10分析分支、Jacobian及有限域、误差和纯E2饱和；优先复用已有曲线/加密/扩域。说明多对一映射的分支重数和|J|权重；区分局部/全局可辨识、离散收敛、确定性真值包含与历史随机覆盖。本轮无新随机测试/卡方，不改核/误差/几何来逼近真值。",
+      "input_evidence": [
+        "raw/code/PDM/analysis/benchmarks/sigma03_relP80_relR10/angle_marginals.npz",
+        "raw/code/PDM/analysis/benchmarks/sigma03_relP80_relR10/grid_and_endpoint_sensitivity.json",
+        "raw/code/PDM/analysis/benchmarks/sigma03_relP80_relR10/repeated_coverage.json",
+        "raw/code/PDM/GUI/src/multipolepdm/pdm/mapping.py"
+      ],
+      "deliverables": [
+        "正负大delta分支质量与真值包含对照",
+        "Jacobian/源态sigma/坐标测度解释",
+        "已证实机制、竞争解释、证据缺口和停止条件"
+      ],
+      "acceptance": [
+        "不以归一化/网格收敛冒称真值恢复或覆盖可靠",
+        "保留所有模式-10/-5不在角HDI及历史PDCO-10的0/100和6/100局限",
+        "局部非零det不冒称全局唯一；纯E2不伪造有限delta真值"
+      ],
+      "evidence": [
+        "raw/writing/pado/20261029_review_v1/PDM/figures/data/report_revision/results.json",
+        "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/report-revision-20261124.json"
+      ],
+      "commands_run": [],
+      "changed_paths": [],
+      "unresolved_items": [],
+      "next_action": "No required report work remains. Preserve scientific limitations; no new software release."
+    },
+    {
+      "id": "R04",
+      "title": "报告编译全页QA",
+      "phase": "report_revision",
+      "depends_on": [
+        "R01",
+        "R02",
+        "R03"
+      ],
+      "status": "completed",
+      "specification": "Only the three wide input-output tables use A4 landscape; all body text, short tables and 60 four-panel case figures remain portrait. Compile twice to stable references; visually inspect all 90 pages, preserve readable font sizes and no clipping/overlap. Canonical main.pdf only.",
+      "input_evidence": [
+        "raw/writing/pado/20261029_review_v1/PDM/main.tex",
+        "raw/writing/pado/20261029_review_v1/PDM/figures/",
+        "R01/R02/R03已验收交付"
+      ],
+      "deliverables": [
+        "更新后的main.tex和唯一main.pdf",
+        "图表数据映射/数值核对清单",
+        "实际页数、每页渲染和目视QA记录"
+      ],
+      "acceptance": [
+        "30注入长表、全部30文献四联图及9前向控制均可读",
+        "无未定义引用和公式/表图遮挡越界截断",
+        "不靠tiny字体或整体缩小挤表，旧工程完成事实与当前报告状态一致"
+      ],
+      "evidence": [
+        "tmp/pdm-report-revision/compile-final-2.log",
+        "tmp/pdm-report-revision/collision-audit.json",
+        "tmp/pdm-report-revision/visual-literature/visual-check.json",
+        "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/report-revision-20261124.json"
+      ],
+      "commands_run": [],
+      "changed_paths": [],
+      "unresolved_items": [],
+      "next_action": "No required report work remains. Preserve scientific limitations; no new software release."
+    },
+    {
+      "id": "R05",
+      "title": "知识归档收尾",
+      "phase": "report_revision",
+      "depends_on": [
+        "R04"
+      ],
+      "status": "completed",
+      "specification": "主代理核对报告、图表、源数据与代码清单和哈希；按证据门将新增可复用结论回写knowledge并维护必要handoff，完成定向归档与差异检查。仅实际范围通过时声明完成，保留未解决科学边界；本轮无新软件发布、commit或push。计划侧审代理不越过两文件写域。",
+      "input_evidence": [
+        "R04报告及全页QA证据",
+        "knowledge/sources/multipolepdm-20261120-v011-validation.md",
+        "knowledge/sources/pdm-20261120-error-geometry-grid-study.md",
+        "raw/writing/pado/20261029_review_v1/PDM/figures/manifest.json"
+      ],
+      "deliverables": [
+        "主代理完成的knowledge回写与来源定位",
+        "图表/数据/原件清单和哈希的定向核对",
+        "R00-R05逐项验收及剩余科学局限"
+      ],
+      "acceptance": [
+        "归档门/状态核对有真实证据，不把侧审和计划更新等同报告完成",
+        "E01-E03/U00-U09历史字段与证据保留，R状态仅由本轮实绩更新",
+        "不改历史plan.pdf、不新发布、不commit不push"
+      ],
+      "evidence": [
+        "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/report-revision-20261124.json"
+      ],
+      "commands_run": [],
+      "changed_paths": [],
+      "unresolved_items": [],
+      "next_action": "No required report work remains. Preserve scientific limitations; no new software release."
     }
   ],
-  "completion_rule": "E01-E03 require actual fresh research/report evidence. Their completion is not U00-U09 completion. Historical0.1.0 acceptance stays in delivery; new GUI implementation remains separate.",
-  "current_turn_scope": [
-    "production implementation U00-U09",
-    "tests and analysis",
-    "secretary report and knowledge",
-    "release only after U08 passes"
-  ],
-  "forbidden_this_turn": [
-    "modifying original workbook or literature",
-    "release before acceptance"
-  ],
-  "numeric_parameter_audit": {
-    "warning_J": 1e-12,
-    "sigma_eps_multipliers": [
-      32,
-      64,
-      128
-    ],
-    "response_roundoff_tolerances": [
-      1e-13,
-      1e-12,
-      1e-11
-    ],
-    "current_error_model": "median-centered piecewise normal transform; no skew-normal fit",
-    "global_optimum_claim_allowed": false
-  },
-  "scoped_research_authorized": true,
-  "report_update_authorized": true,
-  "release_authorized": true,
   "geometry_groups": {
     "enabled_in_plan": true,
     "default_phi_selection": false,
@@ -459,59 +560,6 @@
     "recommendation_scope": "9 selection cases and6heldout cases; not universal",
     "tested_user_proposal_sigma_over_i_step": 0.01
   },
-  "current_tasks": [],
-  "study_workers": [
-    {
-      "id": "01a1f857-6879-70a3-b2a1-f89b5fa9fc6f",
-      "task": "E01",
-      "model": "codex/gpt-6.2-sol",
-      "effort": "high",
-      "status": "completed-integrated-closed"
-    },
-    {
-      "id": "01a1f857-69eb-74a3-9def-0cf55090b2b6",
-      "task": "E02",
-      "model": "codex/gpt-6.2-sol",
-      "effort": "high",
-      "status": "completed-integrated-closed"
-    }
-  ],
-  "status": "completed",
-  "goal_created_at": "2026-11-20T12:08:39+00:00",
-  "implementation_workers": [
-    {
-      "id": "01a1f8dc-4a50-7a13-8c8e-d2b46cb1a426",
-      "domain": "statistics and plotting",
-      "status": "completed-integrated-closed"
-    },
-    {
-      "id": "01a1f8dc-4c13-7a82-a301-cc98ce4fe131",
-      "domain": "detector groups physics",
-      "status": "completed-integrated-closed"
-    },
-    {
-      "id": "01a1f8df-514e-78a3-a4ff-1111b49321ac",
-      "domain": "U04 benchmarks",
-      "status": "completed-integrated-closed"
-    },
-    {
-      "id": "01a1f8e0-66a0-7f61-98e5-a12d14c51abe",
-      "domain": "U05 literature",
-      "status": "completed-integrated-closed"
-    },
-    {
-      "id": "01a1f8e2-d1cb-7df3-bf2f-c290ea44f6ac",
-      "domain": "U06 docs notebooks",
-      "status": "completed-integrated-closed"
-    },
-    {
-      "id": "01a1f8ea-b7f1-7303-b8b1-91b90ce3a574",
-      "domain": "U07 report figures",
-      "status": "completed-integrated-closed"
-    }
-  ],
-  "implementation_run_root": "tmp/pdm-upgrade-011",
-  "scratch_note": "tmp/pdm-implementation contains historical0.1.0 evidence; only explicitly dated current logs apply. New upgrade receipts use tmp/pdm-upgrade-011.",
   "historical_grid_baseline_0_1_0": {
     "xi_min_rad": -1.56,
     "xi_max_rad": 1.56,
@@ -527,45 +575,439 @@
     "sigma_max": "reference spin I",
     "points": "derived from steps and final cell;1799angle points"
   },
-  "independent_review": {
-    "evidence": "tmp/pdm-upgrade-011/independent-review.md",
-    "issues": [
+  "knowledge_sources": [
+    "knowledge/sources/multipolepdm-20261120-v011-validation.md",
+    "knowledge/research-notes/pdm-deterministic-report-revision-20261124.md",
+    "knowledge/sources/pdm-deterministic-report-revision-20261124-source.md"
+  ],
+  "scientific_limitations": [
+    "The finite-domain deterministic injection study does not establish universal unbiasedness or frequentist coverage.",
+    "Negative delta=-5/-10 in all three modes is outside the 68% angle HDI; all branches and failed recoveries remain visible.",
+    "Observed geometries are declared ideal-ring models and some literature inputs/calibrations are shared.",
+    "Jacobian weighting and sigma marginalization both reshape mass; removing the Jacobian is only a diagnostic, not an alternative validated estimator."
+  ],
+  "schema": "pdm-report-revision-plan-v3",
+  "updated": "2026-11-24",
+  "state": "completed",
+  "status": "completed",
+  "phase": "report_revision",
+  "implementation_authorized": false,
+  "report_update_authorized": true,
+  "scoped_research_authorized": true,
+  "release_authorized": false,
+  "approval_required": false,
+  "goal_created": true,
+  "goal_id": "01a20bbe-dfb1-77f3-a6a9-fd264a759483",
+  "objective": "仅修订现有报告：30个确定性注入、30个文献二维声明模型（15条不同跃迁）、9前向控制；三张A4横向主表、60张竖向四联图、大混合比诊断、90页逐页QA与知识归档。不改GUI、不发新版本、不新增随机测试、不卡方。",
+  "plan_sha256": "732e1060f19b346f28f37bd93185ccb14a258e9b269f6aac23ddbd5c9143a3af",
+  "readable_pdf": "outputs/plans/20261120-pdm-three-mode-rewrite/plan.pdf",
+  "readable_pdf_status": "historical_20261120_reading_snapshot",
+  "readable_pdf_is_current": false,
+  "readable_pdf_note": "旧plan.pdf是20261120历史阅读快照；当前以plan.md为准，本轮不生成额外PDF。",
+  "current_task": null,
+  "current_tasks": [],
+  "historical_task_ids": [
+    "E01",
+    "E02",
+    "E03",
+    "U00",
+    "U01",
+    "U02",
+    "U03",
+    "U04",
+    "U05",
+    "U06",
+    "U07",
+    "U08",
+    "U09"
+  ],
+  "historical_contract_0_1_1": {
+    "phase": "research_and_software_0_1_1",
+    "scope_is_historical": true,
+    "task_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "U00",
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05",
+      "U06",
+      "U07",
+      "U08",
+      "U09"
+    ],
+    "schema": "pdm-optimization-plan-v2",
+    "updated": "2026-11-20",
+    "state": "completed",
+    "status": "completed",
+    "objective": "保留三模式PDM核，在已完成E01-E03研究基础上实现多探测器组/权重/phi选择、min/max/step网格、角空间逐HDI段mode及tan报告、全域viridis四联图和数值、文献对照与完整注入图表、易用教程，完成新版本回归和交付。",
+    "implementation_authorized": true,
+    "approval_required": false,
+    "goal_created": true,
+    "goal_id": "01a19d0f-61f7-72d0-998c-9fc0aaecbd00",
+    "goal_created_at": "2026-11-20T12:08:39+00:00",
+    "plan_sha256": "31a93d31a0e2458ded34330f326142f494f6f7a776c591c6523684901f2c903a",
+    "readable_pdf": "outputs/plans/20261120-pdm-three-mode-rewrite/plan.pdf",
+    "current_task": null,
+    "current_tasks": [],
+    "completion_rule": "E01-E03 require actual fresh research/report evidence. Their completion is not U00-U09 completion. Historical0.1.0 acceptance stays in delivery; new GUI implementation remains separate.",
+    "current_turn_scope": [
+      "production implementation U00-U09",
+      "tests and analysis",
+      "secretary report and knowledge",
+      "release only after U08 passes"
+    ],
+    "forbidden_this_turn": [
+      "modifying original workbook or literature",
+      "release before acceptance"
+    ],
+    "release_authorized": true,
+    "release_version_proposed": "0.1.1",
+    "release": {
+      "version": "0.1.1",
+      "public_url": "https://pypi.org/project/multipolePDM/0.1.1/",
+      "public_artifact_hashes_verified": true,
+      "public_install_gui_modes_passed": 3,
+      "publication_receipt": "delivery/0.1.1/acceptance.json"
+    },
+    "final_acceptance": "delivery/0.1.1/acceptance.json",
+    "scoped_research_authorized": true,
+    "report_update_authorized": true,
+    "injection": {
+      "sigma_over_i": 0.3,
+      "sigma_yy_interpretation": "sigma/I by conversation context",
+      "delta_values": [
+        -10,
+        -5,
+        -1,
+        -0.5,
+        -0.1,
+        0.1,
+        0.5,
+        1,
+        5,
+        10
+      ],
+      "polarization_relative_error": 0.8,
+      "angular_ratio_relative_error": 0.1,
+      "ratio_modes": [
+        "R_ADO",
+        "R_DCO"
+      ],
+      "error_widths_use_absolute_value": true,
+      "primary_cases": 30,
+      "generators": [
+        "independent_9j",
+        "same_kernel"
+      ],
+      "primary_records": 60,
+      "repeat_cases": [
+        {
+          "mode": "P_ADO",
+          "delta": -0.1
+        },
+        {
+          "mode": "P_DCO",
+          "delta": 1
+        },
+        {
+          "mode": "PDCO",
+          "delta": -10
+        }
+      ],
+      "repeat_independent_noise_vectors": 300,
+      "repeated_inversions": 600,
+      "seed": 20261120,
+      "polarization_theta_deg": 90,
+      "azimuth_selection": false,
+      "ratio_polar_angles_deg": [
+        125,
+        90
+      ],
+      "pdco_gate_polar_angle_deg": 125,
+      "polarization_absolute_floor": 0.1075,
+      "polarization_error_rule": "max(.1075,.8*abs(P0)); floor from ten audited main-tier lines; synthetic only",
+      "ratio_error_rule": ".1*abs(R0) frozen baseline",
+      "polarization_error_policy": {
+        "kind": "relative_with_empirical_floor",
+        "relative_coefficient": 0.8,
+        "absolute_floor": 0.1075,
+        "synthetic_only": true,
+        "not_universal_experimental_precision": true,
+        "provenance": "raw/code/PDM/analysis/research/grid_resolution/frozen_inputs.json"
+      },
+      "sigma_over_i_confirmed": true
+    },
+    "numeric_parameter_audit": {
+      "warning_J": 1e-12,
+      "sigma_eps_multipliers": [
+        32,
+        64,
+        128
+      ],
+      "response_roundoff_tolerances": [
+        1e-13,
+        1e-12,
+        1e-11
+      ],
+      "current_error_model": "median-centered piecewise normal transform; no skew-normal fit",
+      "global_optimum_claim_allowed": false
+    },
+    "study_workers": [
       {
-        "id": "R1",
-        "issue": "Complementary point detector groups must not form PDF from roundoff",
-        "status": "resolved; regression and independent follow-up verified"
+        "id": "01a1f857-6879-70a3-b2a1-f89b5fa9fc6f",
+        "task": "E01",
+        "model": "codex/gpt-6.2-sol",
+        "effort": "high",
+        "status": "completed-integrated-closed"
       },
       {
-        "id": "R2",
-        "issue": "Single-figure export lock may block ready-preview on Qt thread",
-        "status": "resolved; regression and independent follow-up verified"
-      },
-      {
-        "id": "R3",
-        "issue": "PDCO manual mode needs separate ratio and P-gate azimuth choices",
-        "status": "resolved; regression and independent follow-up verified"
-      },
-      {
-        "id": "R4",
-        "issue": "Width unit conversion may silently clamp tiny valid settings",
-        "status": "resolved; regression and independent follow-up verified"
+        "id": "01a1f857-69eb-74a3-9def-0cf55090b2b6",
+        "task": "E02",
+        "model": "codex/gpt-6.2-sol",
+        "effort": "high",
+        "status": "completed-integrated-closed"
       }
     ],
-    "final_evidence": "tmp/pdm-upgrade-011/independent-review.md",
-    "remaining_findings": []
+    "implementation_workers": [
+      {
+        "id": "01a1f8dc-4a50-7a13-8c8e-d2b46cb1a426",
+        "domain": "statistics and plotting",
+        "status": "completed-integrated-closed"
+      },
+      {
+        "id": "01a1f8dc-4c13-7a82-a301-cc98ce4fe131",
+        "domain": "detector groups physics",
+        "status": "completed-integrated-closed"
+      },
+      {
+        "id": "01a1f8df-514e-78a3-a4ff-1111b49321ac",
+        "domain": "U04 benchmarks",
+        "status": "completed-integrated-closed"
+      },
+      {
+        "id": "01a1f8e0-66a0-7f61-98e5-a12d14c51abe",
+        "domain": "U05 literature",
+        "status": "completed-integrated-closed"
+      },
+      {
+        "id": "01a1f8e2-d1cb-7df3-bf2f-c290ea44f6ac",
+        "domain": "U06 docs notebooks",
+        "status": "completed-integrated-closed"
+      },
+      {
+        "id": "01a1f8ea-b7f1-7303-b8b1-91b90ce3a574",
+        "domain": "U07 report figures",
+        "status": "completed-integrated-closed"
+      }
+    ],
+    "implementation_run_root": "tmp/pdm-upgrade-011",
+    "scratch_note": "tmp/pdm-implementation contains historical0.1.0 evidence; only explicitly dated current logs apply. New upgrade receipts use tmp/pdm-upgrade-011.",
+    "independent_review": {
+      "evidence": "tmp/pdm-upgrade-011/independent-review.md",
+      "issues": [
+        {
+          "id": "R1",
+          "issue": "Complementary point detector groups must not form PDF from roundoff",
+          "status": "resolved; regression and independent follow-up verified"
+        },
+        {
+          "id": "R2",
+          "issue": "Single-figure export lock may block ready-preview on Qt thread",
+          "status": "resolved; regression and independent follow-up verified"
+        },
+        {
+          "id": "R3",
+          "issue": "PDCO manual mode needs separate ratio and P-gate azimuth choices",
+          "status": "resolved; regression and independent follow-up verified"
+        },
+        {
+          "id": "R4",
+          "issue": "Width unit conversion may silently clamp tiny valid settings",
+          "status": "resolved; regression and independent follow-up verified"
+        }
+      ],
+      "final_evidence": "tmp/pdm-upgrade-011/independent-review.md",
+      "remaining_findings": []
+    }
   },
-  "knowledge_sources": [
-    "knowledge/sources/multipolepdm-20261120-v011-validation.md"
+  "historical_tasks_note": "E01-E03/U00-U09及其全部详细字段保留原样，仅描述此前研究/软件发布。其历史specification、commands、worker、scope和完成状态不替代R00-R05报告修订验收。",
+  "current_turn_scope": [
+    "report-only revision R00-R05",
+    "reuse existing deterministic inputs, nominal literature results and saved curves",
+    "report tables, all literature four-panel figures and large-delta deterministic diagnostics",
+    "Portrait main.tex/main.pdf with only three landscape input-output tables; every-page visual QA",
+    "main-agent knowledge writeback and scoped archive reconciliation"
   ],
-  "release": {
-    "version": "0.1.1",
-    "public_url": "https://pypi.org/project/multipolePDM/0.1.1/",
-    "public_artifact_hashes_verified": true,
-    "public_install_gui_modes_passed": 3,
-    "publication_receipt": "delivery/0.1.1/acceptance.json"
+  "forbidden_this_turn": [
+    "GUI or shared physics/statistics core refactoring",
+    "new software release or release credential access",
+    "new random or repeated-noise tests",
+    "chi-square fitting",
+    "recomputing existing injection or literature inversions merely to populate report tables",
+    "changing measured P/R/errors or original source evidence",
+    "counting independent_9j records, refined runs or pure-forward controls as additional primary 2D cases",
+    "regenerating plan.pdf or creating an extra plan PDF",
+    "git commit or git push"
+  ],
+  "write_ownership": {
+    "plan_reviewer_only": [
+      "outputs/plans/20261120-pdm-three-mode-rewrite/plan.md",
+      "outputs/plans/20261120-pdm-three-mode-rewrite/tasks.json"
+    ],
+    "main_agent": [
+      "raw/writing/pado/20261029_review_v1/PDM/main.tex",
+      "raw/writing/pado/20261029_review_v1/PDM/main.pdf",
+      "raw/writing/pado/20261029_review_v1/PDM/figures/",
+      "knowledge writeback and archive/handoff reconciliation during R05"
+    ],
+    "disjoint": true,
+    "reviewer_writes_other_files": false
   },
-  "final_acceptance": "delivery/0.1.1/acceptance.json",
-  "scientific_limitations": [
+  "completion_rule": "Only complete the current report goal after R00-R05 each have actual evidence and all report acceptance checks pass. Preserved E01-E03/U00-U09 completion, existing results and a rewritten plan are not current report completion.",
+  "injection": {
+    "sigma_over_i": 0.3,
+    "sigma_yy_interpretation": "sigma/I by conversation context",
+    "delta_values": [
+      -10,
+      -5,
+      -1,
+      -0.5,
+      -0.1,
+      0.1,
+      0.5,
+      1,
+      5,
+      10
+    ],
+    "polarization_relative_error": 0.8,
+    "angular_ratio_relative_error": 0.1,
+    "ratio_modes": [
+      "R_ADO",
+      "R_DCO"
+    ],
+    "error_widths_use_absolute_value": true,
+    "primary_cases": 30,
+    "generators": [
+      "same_kernel"
+    ],
+    "primary_records": 30,
+    "polarization_theta_deg": 90,
+    "azimuth_selection": false,
+    "ratio_polar_angles_deg": [
+      125,
+      90
+    ],
+    "pdco_gate_polar_angle_deg": 125,
+    "polarization_absolute_floor": 0.1075,
+    "polarization_error_rule": "max(.1075,.8*abs(P0)); floor from ten audited main-tier lines; synthetic only",
+    "ratio_error_rule": ".1*abs(R0) frozen baseline",
+    "polarization_error_policy": {
+      "kind": "relative_with_empirical_floor",
+      "relative_coefficient": 0.8,
+      "absolute_floor": 0.1075,
+      "synthetic_only": true,
+      "not_universal_experimental_precision": true,
+      "provenance": "raw/code/PDM/analysis/research/grid_resolution/frozen_inputs.json"
+    },
+    "sigma_over_i_confirmed": true,
+    "primary_generator": "same_kernel",
+    "background_generators": [
+      "independent_9j"
+    ],
+    "background_independent_records": 30,
+    "random_testing_authorized": false,
+    "centers": "Deterministic forward P0/R0 with no added random noise; inversion still scans full sigma domain.",
+    "target_spins": [
+      5,
+      4
+    ],
+    "gate_spins": [
+      4,
+      2
+    ],
+    "gate_multipole": "E2",
+    "target_first": true,
+    "reference_spin": 5,
+    "sigma_truth": 1.5,
+    "source_results": "raw/code/PDM/analysis/benchmarks/sigma03_relP80_relR10/deterministic.json",
+    "saved_curves": "raw/code/PDM/analysis/benchmarks/sigma03_relP80_relR10/angle_marginals.npz",
+    "historical_repeat_evidence": "raw/code/PDM/analysis/benchmarks/sigma03_relP80_relR10/repeated_coverage.json",
+    "primary_selection_rule": "Select exactly ten same_kernel records per mode; independent_9j remains background verification and is not duplicated in primary report tables/figures."
+  },
+  "literature": {
+    "primary_resolution": "nominal",
+    "initial_inverse_models": 15,
+    "followup_inverse_models": 15,
+    "nominal_inverse_models": 30,
+    "forward_controls": 9,
+    "total_nominal_models_and_controls": 39,
+    "initial_results": "raw/code/PDM/analysis/cases/results_v0_1_1/results.json",
+    "followup_results": "raw/code/PDM/analysis/cases/followup/results_v0_1_1/results.json",
+    "four_panel_figures_required_for_all_nominal_inverse_models": true,
+    "forward_controls_in_separate_table": true,
+    "refinement_runs_count_as_cases": false,
+    "model_scenarios_are_independent_experiments": false,
+    "raw_observations_unchanged": true
+  },
+  "report_layout": {
+    "orientation": "A4 portrait except three landscape tables",
+    "landscape_pages": [
+      18,
+      19,
+      20
+    ],
+    "one_nominal_inverse_model_per_four_panel_page": true,
+    "injection_long_tables": "One complete 10-row landscape input-output table per mode; all HDI components/local modes, ETI and tan representations; shared settings adjacent.",
+    "main_table_font_pt": 8.5,
+    "whole_table_shrink_to_fit": false,
+    "all_pages_rendered_and_visually_checked": true,
+    "pages_checked": 90,
+    "unique_final_pdf": "raw/writing/pado/20261029_review_v1/PDM/main.pdf"
+  },
+  "physics_review_contract": {
+    "sigma_definition": "Discrete normalized p_m proportional to exp(-m^2/(2sigma^2)); sigma is source exponent width, not variance or necessarily actual rms.",
+    "reference_state": "P_ADO target initial state; DCO modes earliest observed-photon parent; no second downstream Gaussian.",
+    "unobserved_propagation": "Exact full-direction polarization-summed channel or equivalent U_k; mixed radiative-intensity weights, U_0=1, no gate-probability loss.",
+    "azimuth": "Unselected phi means intensity ring average at fixed theta, not phi=0 or4pi marginalization.",
+    "weighted_observables": "Sum parallel/perpendicular or coincidence intensities first, then divide.",
+    "jacobian": "Absolute determinant in actual xi_rad,sigma coordinates; coordinate-density factors and branch multiplicity must be explained; diagnostic threshold does not cut small positive mass.",
+    "large_delta": "Separate convergence, identifiability, branch weighting, deterministic inclusion and historical coverage; do not assign a unique failure mechanism from interval displacement alone."
+  },
+  "current_evidence_limitations": [
+    "Finite-domain, empirical-error deterministic results do not establish unbiasedness or frequency coverage.",
+    "Literature models are not complete array-acceptance replays; shared measurements and two historical deterministic digitization shifts remain identified."
+  ],
+  "publication": {
+    "status": "final-not-pushed",
+    "new_software_release": false,
+    "reason": "Two pre-existing PDM manifests have four size/hash mismatches; original evidence and other working-tree changes preserved."
+  },
+  "report_acceptance": {
+    "passed": true,
+    "report_pages": 90,
+    "injection_cases": 30,
+    "literature_models": 30,
+    "distinct_literature_transitions": 15,
+    "forward_only_controls": 9,
+    "four_panel_figures": 60,
+    "landscape_pages": [
+      18,
+      19,
+      20
+    ],
+    "regression_tests_passed": 77,
+    "numeric_snapshots_checked": 60,
+    "numerical_tolerance": 2e-12,
+    "figure_collision_fail": 0,
+    "figure_collision_warn": 0,
+    "scoped_archive_failures": 0,
+    "scoped_lint_issues": 0
+  },
+  "historical_scientific_limitations_0_1_1": [
     "PDCO delta=-10 repeated angle coverage: ETI0/100,HDI6/100; not removed or tuned away.",
     "Native Windows/macOS GUI not tested; Linux offscreen/Xvfb verified.",
     "Whole changed-set archive hook timed out; explicit task-scoped archive gate passed.",

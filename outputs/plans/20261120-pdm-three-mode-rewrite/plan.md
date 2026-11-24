@@ -1,537 +1,186 @@
 ---
-title: "PDM：三模式统计展示、注入恢复与使用教程优化计划"
+title: "multipolePDM：当前报告修订合同"
 date: "2026-11-20"
+updated: "2026-11-24"
 status: completed
-implementation_authorized: true
-goal_created: true
+phase: report_revision
+report_update_authorized: true
+goal_id: "01a20bbe-dfb1-77f3-a6a9-fd264a759483"
 ---
 
-# PDM 执行计划与验收合同
+# PDM 报告修订计划与验收合同
 
-**当前状态：multipolePDM 0.1.1已完成改造、验收、PyPI发布与公开安装回读。U00--U09全部完成；E01--E03作为前期依据，不替代本轮验收。**
+本文件是当前规格，`tasks.json`是当前账本。目标为修订秘书报告的物理说明、全部确定性注入长表、全部文献四联图及大混合比诊断。**R00–R05全部完成：90页canonical报告、60张四联图、179文件定向归档及知识回写均通过本轮验收。Git因两份旧PDM归档清单的四项错配停在本地，不发新软件版本。**；历史E01–E03、U00–U09的完成与0.1.1发布事实保留，不能代替本轮报告验收。
 
-本文件是现行唯一规格正文，`tasks.json` 是现行任务账本，`plan.pdf` 是同一内容的阅读版。直接在原位置维护，不追加补丁式规格。旧0.1.0的验收证据保持在 `delivery/`，不是新任务已经完成的证明。旧0.1.0完成状态未继承。本轮最终证据见 `delivery/0.1.1/acceptance.json`；历史planning/research回执只描述此前阶段。
+`plan.pdf`是**20261120历史阅读快照**，不再与本文件同步；当前以`plan.md`为准。本轮不生成额外计划PDF。
 
-## 1. 目的、基线与交付
+## 1. 范围、写域与交付
 
-### 1.1 目的
+- 当前goal为`01a20bbe-dfb1-77f3-a6a9-fd264a759483`。本轮不重构GUI或共享物理/统计核，不新增发布，不读取发布凭据，不运行新随机测试，不添加卡方拟合。
+- 主交付为`raw/writing/pado/20261029_review_v1/PDM/main.tex`与同目录唯一报告`main.pdf`；图表代码、数据引用与清单位于`figures/`。优先读取现有analysis结果，允许报告层确定性整理、诊断与重绘；缺二维数组时按冻结任务重建并逐项核对原统计，不重复改造或重新抽样。
+- 本侧审代理独占写域只有本目录`plan.md`、`tasks.json`；主代理负责报告`main`、`figures/`及后续知识/归档收尾，彼此不重叠。本次计划维护不改其他文件，不commit、不push。
+- 不改实测P/R及左右误差、文献原件、既有结果或历史验收回执。编译中间物、全页预览与布局诊断留仓库`tmp/`；不另造第二份报告/计划PDF。
+- R05由主代理按证据门回写知识及维护归档；只有计划改动时不得声称已完成报告、知识回写或归档收尾。
 
-保留一个PDM密度映射核心及三个物理模式，改进实验工作者实际使用的图形、统计解释、输入教程和验证展示。重点是完整响应域可见、物理混合角口径一致、真实值与恢复值可直接对照，而不是重建软件架构。
+## 2. 物理定义与参数口径
 
-- GUI：PDM；包：`multipolePDM`；导入名：`multipolepdm`。
-- 模式：`P_ADO`、`P_DCO`、`PDCO`；不加chi-square模块、不恢复旧程序或兼容层。
-- 开源代码根：`raw/code/PDM/`；`GUI/` 放共享核心和GUI，`analysis/` 放Notebook、数据和研究脚本。
-- 秘书报告：`raw/writing/pado/20261029_review_v1/PDM/main.tex`，唯一阅读成稿为同目录 `main.pdf`。
-- 科学图由该目录 `figures/` 下Python脚本基于实际数据生成；不用AI生成科学图片。
-- 本轮实施、报告与新验收全部通过后发布新的补丁版本，暂定0.1.1；不覆盖已上传的0.1.0。
+三模式共用联合辐射模型和一个PDM核：
 
-### 1.2 已有基线和仍需解决的内容
-
-0.1.0已真实发布PyPI；旧验收记录含153项测试、Docker offscreen/Xvfb、安装后GUI及三个Notebook。六核文献比较和独立响应/同核注入已有数据，但不能把旧误差配置的测试说成已经完成本轮指定工况。
-
-当前已确认的改进项：观测图只画实验附近；色图为cividis；角刻度是小数；混合边缘图使用delta；统计缺mean/std引导线与清晰数值标注；图6仅画ETI且缺图例/文献点；README过短并有未发布旧措辞。秘书公式(6)的直接解析断言和允许混合跃迁的纯E2端点恢复没有完整执行证据，必须单列补做，不再笼统写全部基准待执行或全部已完成。
-
-### 1.3 执行边界
-
-本轮授权正式修改GUI、共享核心、analysis、测试、教程与秘书报告；不覆盖旧实验结果或论文原件。PyPI密钥仅在新验收全部通过后的发布步骤读取。保留无关脏工作树。执行授权之后仍保留：全局环境可用，不建立任务venv；Python三端分发，Docker虚拟显示为当前GUI验收基线，Windows/macOS原生未测不得写成通过。
-
-## 2. 物理合同：三模式共用一个 PDM 核心
-
-### 2.1 参数与参考态
-
-- 主模型支持同宇称 M1/E2 及其纯分量。公式允许时支持 Delta I=0、1；Delta I=2 的禁 M1 情形走纯 E2 响应，不伪造自由混合比的二维 PDF。
-- 核心参数为 `xi = arctan(delta)` 和 `sigma`。Gaussian 磁子态布居不改。
-- `P_ADO` 的 Gaussian 放在目标发射态；`P_DCO`/`PDCO` 放在输入路径中先发观测光子发射前的参考态。
-- 初始默认范围：正整数参考自旋 `sigma_min=0.15`，半整数 `0.20`，`sigma_max=I_ref`。这些是可测试优化的数值工作设置，不是物理先验真值。优化必须保存依据，不为了匹配文献值调参。
-- 下游布居按给定跃迁传播，不重新拟合第二个 sigma。输出标明 `I_ref`；展示的 `sigma/I` 中 I 始终是这个参考态自旋，不能暗换成目标态。
-- 不作方向选择的跃迁用精确 U_k 或等价传播；指定方向门保留完整关联，不默认所有 U_k=1。
-- 门及中间跃迁的必要参数作为已给模型配置，不增加未知扫描轴。
-
-### 2.2 三个模块
-
-| 标识 | 理论观测量 | GUI 选择框下的英文短注释 |
+| 模式 | 偏振 | 比值 |
 |---|---|---|
-| `P_ADO` | 单线 P + 单线角分布比 R_ADO | Single-line polarization + angular-distribution ratio. |
-| `P_DCO` | 无方向门条件的单线 P + DCO | Single-line polarization + directional-correlation ratio. |
-| `PDCO` | 保留指定门方向的条件 P + DCO | Direction-gated polarization + directional-correlation ratio. |
+| `P_ADO` | 目标单线P | 单线角分布比R_ADO |
+| `P_DCO` | 无伴随光子方向条件的目标单线P | 联合符合强度R_DCO |
+| `PDCO` | 指定门方向条件下的目标P | 联合符合强度R_DCO |
 
-只测目标线自身的 P。单线 P 从同一联合强度对伴随方向求和后取偏振比；条件 P 在指定门方向取比；DCO 使用两种交换方向的联合符合强度比。实现可用解析传播代替逐网格球面积分，但必须证明与共同定义一致。
+目标电场平行/垂直强度记为C_parallel/C_perp，门偏振已求和。单线P先对伴随光子的全部方向积分两通道强度，再作差除以和；条件P保留门方向后取比。目标先发为POL–DIR，目标后发为DIR–POL。单线P不依赖DCO门探测角，但可依赖上游未观测传播。测一条线的P不自动证明无方向门；电场轴不能直接换成Compton散射计数标签。
 
-程序接收最终 P、R_ADO/R_DCO 及左右误差，不负责原始计数、效率、污染或实验门线真伪。检查数值格式、允许多极性和必需几何即可。NRF 入射束偏振、低温取向等不同源模型不能直接套入本合同。
+R_DCO分子为目标A、门B组的联合强度，分母为目标B、门A组；不能用单线W之比或丢失门出现概率的归一化条件概率之比代替。R_ADO才用单线W之比。门身份、比值次序与发射顺序分开记录。
 
-观测误差按声明的分位数含义建模：对称误差使用Gaussian，非对称误差采用可核验分位数的模型并记录选择与归一化。只有左右误差而没有协方差时，明确沿用独立误差近似；不能从“无方向门”推断统计独立，也不新增相关系数拟合。
+### 2.1 一个Gaussian源与传播
 
-**本轮不加入 chi-square 拟合模块。** 三模式只是 PDM 的响应入口，不发展成三套互相分离的推断程序。
+- 核心坐标为xi=arctan(delta)（rad）和sigma。源态p_m正比exp[-m²/(2 sigma²)]，在合法离散m归一。sigma是指数宽度，不是方差，也不普遍等于有限离散布居的实际rms；方差为sum(m² p_m)，等布居极限为I(I+1)/3。sigma=I不是严格无取向极限。
+- P_ADO源态为目标初态；DCO两模式为路径最上游被观测光子发射前的共同源态。sigma/I的I始终为此源自旋，不暗换成下游目标自旋。
+- 每点只生成一份源Gaussian。未观测跃迁按完整密度矩阵映射或等价U_k传播；混合跃迁按辐射强度加权，U_0=1，多步相乘。下游/方向条件态一般非Gaussian，不拟合第二个独立sigma，不写sigma_after=U sigma。
+- 默认数值工作下限为整数sigma=0.15、半整数0.20，上限I；相邻磁子态布居比约10^-12的判据与Jacobian近零警告不同。
+- 保留KS/Droste辐射振幅比及Starosta带撇磁项勘误，不因恢复结果改相位。禁M1的纯E2只作前向控制；允许混合跃迁的纯E2注入为端点诊断，无有限delta真值。
 
-### 2.3 术语与不确定度来源
+### 2.2 几何与权重
 
-| 符号 | 英文 | 本项目中文名称 |
-|---|---|---|
-| R_ADO | Angular-distribution ratio | **角分布比** |
-| R_DCO | DCO ratio; directional correlation from oriented states | **DCO 比（定向核的方向关联比）** |
+未选择phi时，在固定theta锥面上平均原始强度；不是phi=0或4pi积分。PDCO仍保留门theta。DCO与偏振门的方位条件分别遵守冻结输入。全部组先分别合并平行、垂直或联合强度，再形成P/R；不平均角度、P或R。默认组内归一权重与原始加权和不静默互换；有效权重模型不等于完整效率重放。
 
-R_ADO是单线角分布函数W在两个探测方向的比；R_DCO是保留门条件的联合符合强度之比。二者都不是两个角度数值的比。共同描述时写“角分布比或DCO比”，不使用含混的缩写称呼。
+- 合成：比值A125度/B90度，P90度，PDCO偏振门125度，未选择phi。
+- 135Pr：R_ADO=[2W(157.6度)+W(133.6度)]/[3W(75.5度)]，P75.5度；不退回145.6/90代表角。
+- 154Tb、190Tl主场景为已声明的无phi筛选理想环；旧点方位只留历史敏感性。
+- 其余实测沿用各自冻结几何，不把合成P90度套到文献；185Au比值顺序、164Yb门及自旋假设逐项标记，不算新增独立实验。
+- 80Se原文P+DCO固定宽度与本库P+ADO扫描宽度的路线不同，文献比较保留该条件。
 
-术语依据当前投稿稿的单线W之比定义，以及Krämer-Flecken等1989年原文p.334的DCO门控强度定义。对于数据准备，“不确定度来源”是指原文是否直接给出比值及左右误差，或需要由角分布/角关联系数及协方差换算；不是要求程序审核实验人员如何做实验。
+### 2.3 Jacobian与测度
 
-### 2.4 P-DCO响应的必读实现合同
+保留f_map(xi,sigma)正比f_obs(P,R)|det d(P,R)/d(xi,sigma)|并在声明有限域归一。实际坐标（含较短末格）用于差分和积分；P/R交换只改变有符号det符号。
 
-**现有0.1.0已实现以下共同强度模型。本轮保留该物理核，先做回归；不得为修改绘图和统计口径重新发明或替换响应函数。若回归暴露真实错误，依据原件修复并单独记录影响。**
+固定I、同物理域下，s=sigma/I满足J_(xi,sigma)=J_(xi,s)/I、f_(xi,sigma)=f_(xi,s)/I，展示密度f_(xi,s)=I f_(xi,sigma)。delta变换满足J_(xi,sigma)=(1+delta²)J_(delta,sigma)、p_delta=p_xi/(1+delta²)。degree/rad换算同时作用于导数与密度。
 
-详细理论手册为 `raw/writing/pado/20261029_review_v1/PDM/main.tex`，阅读版为同目录 `main.pdf`。以下直接列出实现定义，并用TeX公式标签定位手册，避免页码/公式序号变化后失联。三种模式的核心区别必须在代码和测试中可见。
+Jacobian<=10^-12仅为坐标相关诊断，不裁小正质量；恒等响应det=0不得归一成二维PDF。R03解释多对一映射、分支重数与|J|权重，区分观测密度、似然与参数密度；不把该权重写成常数参数先验，不称局部det非零保证全局唯一。本轮诊断不替换推断核。
 
-#### A. 唯一的参考初态
+实现定位（相对`raw/code/PDM/GUI/`）：`docs/response-reference.md`、`src/multipolepdm/physics/{populations,propagation,joint}.py`、`models/registry.py`、`pdm/mapping.py`。手册用`eq:population`、`eq:B`、`eq:propagate`、`eq:common-joint-p`、`eq:joint-ratio`、`eq:pdm`定位。原件回链Droste 1996 Eq.19与pp.519–524、Hamilton第12章Eqs.12.80–12.81/12.209–12.219、Starosta 1999 p.17 footnote 1。
 
-对输入路径中最早观测光子发射前的态，记自旋为I_ref。每个参数点只生成一份布居：
+## 3. 统计、表图合同
 
-$$
-p_m(\sigma)=\frac{\exp[-m^2/(2\sigma^2)]}
- {\sum_{m'=-I_{\rm ref}}^{I_{\rm ref}}\exp[-m'^2/(2\sigma^2)]},
-\qquad
-\rho_0(\sigma)=\sum_m p_m(\sigma)|I_{\rm ref}m\rangle\langle I_{\rm ref}m|.
-$$
+- 精确68% ETI/HDI先在完整xi边缘密度评估，再逐端点、q50和各段mode取tan报告delta；不改成按delta密度重新排序HDI。
+- 每个HDI连通段保留lower、mode或并列峰范围、upper、分段质量；质量总和0.68。不得用全局mode替代其他段中心或用最外端点包络替代不连通集合。
+- ETI为完整PDF的q16/q50/q84；Mean用积分权重求角mu/SD，再显示tan(mu)与有效tan(mu±SD)。后者不是E[delta]/delta标准差或68%区间，越域/正切奇点明确标记，不静默裁切。
+- sigma/I在自身完整边缘密度评估同样三类统计，不取tan。文献误差照原报，置信水平缺失标as reported；固定、提取和未报道宽度区分。
+- 输入误差沿用中位数分侧正态变换：每侧半概率、端点Phi(-1)/Phi(1)，不等误差中心密度跳跃；与精确q16/q84略有差别。P/R乘积密度为独立误差近似，不由单线定义推出。E01比较结果留后台；正文保留现行误差定义，不从三个数字唯一确定分布或宣布光滑模型最优。
 
-目标跃迁具有允许的M1/E2混合时，归一化振幅写为
+### 3.1 全部四联图
 
-$$T_t(\xi)=T_{M1}\cos\xi+T_{E2}\sin\xi,\qquad \delta=\tan\xi.$$
+每个nominal文献二维声明模型均给出完整四联图和数值，不以汇总图替代：
 
-各纯多极振幅采用相同的全空间辐射概率归一化；delta为辐射振幅比，不把裸约化矩阵元比直接代入。相位、偏振电场基底与混合项符号必须按原文/勘误核定，不凭名称相同就认为一致。目标以外的跃迁参数由输入给定。单线角分布W有时按球面平均为1归一，而跃迁矩阵按全空间总概率为1归一；与原文或解析基准比较时必须显式对齐常数归一化，不能把它误判为物理差异，更不能改变M1/E2两分量的相对归一化。
-
-当前生产核已采用KS/Droste辐射振幅比约定；CG/旋转矩阵振幅基底含逐多极的 $(-1)^L$ 相位。独立9j参考包含Starosta对Droste磁项作用于带撇多极项的勘误。本轮不得为改变统计口径或匹配注入值而改变相位约定；详细矩阵元见秘书 `eq:implementation-amplitude` 与 `GUI/docs/response-reference.md`。
-
-#### B. 先构造两光子的联合强度
-
-按实际发射顺序给跃迁编号1、2，不能把target/gate标签当成发射顺序。未观测中间光子对应全方向/偏振求和的传播映射U；相邻时U为恒等映射。U必须是线性、保迹的未观测传播：不能在每一步把未归一化的门条件强度偷偷归一化到1。使用U_k时遵守手册的统计张量归一化约定，不混用不同自旋下的原始张量定义。对于指定偏振通道，联合强度由
-
-$$
-C_{\lambda_1\lambda_2}=
-\operatorname{Tr}\!\left[
-T_2^{\lambda_2}\,\mathcal U\!\left(
-T_1^{\lambda_1}\rho_0 T_1^{\lambda_1\dagger}
-\right)T_2^{\lambda_2\dagger}\right]
-$$
-
-计算，方向自变量在这里省略但在程序中必须保留。DCO对两光子偏振求和；计算P时仅将目标光子投影到平行/垂直电场分析轴，门光子偏振仍求和。
-
-平行/垂直指目标光子的电场分析轴，不是Compton散射计数标签；发射平面和角度端点的参考轴约定须明确，未分析偏振的总强度不能依赖任意偏振基底选择。
-
-因此可以按target/gate身份统一得到 `C_parallel(Omega_t, Omega_g)`、`C_perp(Omega_t, Omega_g)`，以及 `C_0=C_parallel+C_perp`。三者来自同一rho_0和同一辐射模型。门方向选择后产生的相干项必须保留，中间U传播作用于完整密度矩阵/统计张量，不能无条件只传对角布居或B2/B4。
-
-#### C. DCO的定义：保留门方向
-
-$$
-R_{\rm DCO}(\xi,\sigma)=
-\frac{C_0(\Omega_t=\Omega_a,\Omega_g=\Omega_b)}
- {C_0(\Omega_t=\Omega_b,\Omega_g=\Omega_a)}.
-$$
-
-这是联合符合强度之比，不是单线 `W(theta_a)/W(theta_b)`，也不是分别归一化两个条件态后丢弃门出现概率的比。分母零强度必须标记定义域问题，不能加一个小常数伪造有限响应。
-
-#### D. P-DCO的P：对门方向积分后再取偏振比
-
-$$
-P_{\rm single}(\xi,\sigma;\Omega_P)=
-\frac{\int d\Omega_g\,[C_\parallel(\Omega_P,\Omega_g)-C_\perp(\Omega_P,\Omega_g)]}
- {\int d\Omega_g\,[C_\parallel(\Omega_P,\Omega_g)+C_\perp(\Omega_P,\Omega_g)]}.
-$$
-
-这是先分别加总强度再取比，不是对各门方向的条件P作均匀平均。实现可以用等价的解析传播/单线公式加速，不要求逐网格数值球面积分，但必须与联合强度积分的独立测试相符。
-
-- **目标先发、门后发：**单线P直接使用目标初态rho_0；后发门完整求和后不能给P留下门角依赖。DCO仍使用两光子方向关联。
-- **门先发、目标后发：**单线P先对上游门光子的全部方向/偏振求和，并传播所有中间跃迁，得到目标发射态；此布居一般不再严格Gaussian。应将其真实布居/张量交给单线P函数，不能重新调用一个以目标自旋为参考、使用同名sigma的Gaussian。
-
-单线偏振底层函数应接收目标发射态的布居或统计张量，由模式入口负责生成/传播该布居；不能把同一个sigma数值当成适用于所有核态的Gaussian宽度。
-
-两种路线中的sigma始终是同一参考初态的参数。既不引入独立的“门后sigma”，也不假设筛选前后的布居相同。P-DCO输入的P按约定已经对应这个无方向条件的单线观测量；程序不替实验方进行有限阵列或效率修正。
-
-#### E. PDCO的P：在指定门方向取偏振比
-
-$$
-P_{\rm cond}(\xi,\sigma;\Omega_P,\Omega_g)=
-\frac{C_\parallel(\Omega_P,\Omega_g)-C_\perp(\Omega_P,\Omega_g)}
- {C_\parallel(\Omega_P,\Omega_g)+C_\perp(\Omega_P,\Omega_g)}.
-$$
-
-目标先发使用POL-DIR的物理次序，目标后发使用DIR-POL；二者都保留方向条件。P的门几何与DCO几何可分别配置，不能自动认为完全相同。输入多个已给方向/路径权重时，先加相应强度再形成比值。
-
-当前还支持DCO与偏振门各自的完整相对方位角平均选项。保持先平均原始强度再取比的实现；固定门极角的方位平均仍是条件PDCO，不等于全4pi单线边缘。其九节点谐波积分与独立参考测试继续回归，不能被全域绘图修改。
-
-#### F. 三模式返回同一种响应对象
-
-```text
-P_ADO : (xi, sigma) -> (P_single, R_ADO)
-P_DCO : (xi, sigma) -> (P_single, R_DCO)
-PDCO  : (xi, sigma) -> (P_cond,   R_DCO)
-```
-
-P_ADO在目标态直接采用Gaussian；DCO两模式在共同参考态采用Gaussian。U_k只用于未作方向选择的传播，不是把“DCO的sigma”换算成“P的sigma”的修正系数。没有中间跃迁时中间传播为1，不意味着两条观测线没有关联。
-
-目标振幅只出现一次、其他模型参数固定时，各联合强度可整理为
-
-$$
-C = K_{MM}\cos^2\xi + 2K_{ME}\sin\xi\cos\xi + K_{EE}\sin^2\xi,
-$$
-
-用于高效生成响应网格。K必须来自完整联合计算，不准套用单线角分布系数冒充联合系数。随后由唯一PDM核心评价观测密度、计算绝对Jacobian并边缘化；密度矩阵rho不是PDM参数PDF，不新增推断轴。
-
-### 2.5 手册定位、原始依据与防误写测试
-
-| 实现内容 | 手册TeX标签 | 对应代码 |
-|---|---|---|
-| Gaussian与统计取向 | `eq:population`、`eq:B` | `physics/populations.py` |
-| 无条件传播与U_k | `eq:population-transfer`、`eq:propagate`、`eq:uk-pure`、`eq:uk-mixed` | `physics/propagation.py` |
-| 联合强度和非相邻路径 | `eq:trace`、`eq:nonadjacent` | `physics/joint.py` |
-| DCO分子分母及target/gate身份 | `eq:dco`、`eq:joint-ratio` | `models/p_dco.py`、`models/pdco.py` |
-| 单线P及其目标态张量 | `eq:single-P`、`eq:single-P-tensors` | 单线偏振函数及P_DCO入口 |
-| 同一联合模型的两种P | `eq:conditional-P`、`eq:common-joint-p` | P_DCO与PDCO入口 |
-| 上下游偏振模式 | `eq:pol-dir`、`eq:dir-pol` | 物理次序与投影选择 |
-| 混合角二次强度 | `eq:quadratic`、`eq:rational` | 网格系数预计算 |
-| PDM映射 | `eq:pdm` | `pdm/mapping.py` |
-
-原始依据：Droste 1996 pp.519–522 Eqs.3–8、12–21；Starosta 1999 p.17 footnote 1的磁项相位勘误；Hamilton编著第12章p.552 Eqs.12.209–12.213；Krämer-Flecken 1989 p.334的DCO门控定义。上述原件均在本库。必须记录“原文约定→本程序约定”的对应表，不把旧代码当唯一真值。
-
-手册的物理定义与本节一起作为实现依据；目录、模式标识、xi(rad)、交互和PyPI发布按本计划的当前约定执行，不从手册尚待同步的工程章节恢复原生打包或旧接口。U07按实际实现同步手册。若直接原文或独立计算暴露物理矛盾，应指出证据、定位和影响，不能为让程序跑通而静默换掉响应。
-
-以下必须成为有名称的测试，而不只是文字保证：
-
-1. 固定源、跃迁和xi/sigma，仅改变DCO门方向，P_single不变；有方向敏感度的控制例中P_cond可以变化。
-2. 门先发时，P_single等于完整联合强度的全方向边缘；不能用目标态重新Gaussian化的数值冒充。
-3. DCO交换a/b得到倒数，target/gate标签与发射次序分别检验；归一化条件态不得丢掉门概率。
-4. 相邻/非相邻传播、完整张量相干项与相对方位角依赖经独立参考核验；U的空乘积不删除观测线关联。
-5. 纯项、正负混合项及电场偏振符号分别核定；只有单一分量允许时不生成伪二维混合比PDF。
-
-### 2.6 多探测器组、有效权重与方位选择
-
-phi是围绕束流轴的方位角；theta是与束流轴的极角。合成测试的P统一采用theta=90deg。真实实验案例保留实际polarimeter角度，例如用户135Pr程序P角为75.5deg，不能为统一测试而把实测P也改为90deg。
-
-GUI默认不勾选 `Select azimuth`：只填各组theta和权重，phi列灰化；理论对方位进行强度平均，而不是phi=0。不筛选phi仍筛选theta，故PDCO的条件P不能因此改成单线P。勾选后各条目填写degree单位的(theta,phi)及权重；默认单组一行，可增删多行。DCO的A/B组、偏振目标组和PDCO偏振门组分别明确；简单模式共用方位选择，高级设置允许偏振门与DCO方向选择不同。
-
-154Tb、190Tl按用户指定的“整圈合并、无方位筛选”模型作为新主场景，不再把phi=0/90/180三种点几何当主结果。旧场景作为历史敏感性记录保留；全环均匀有效权重是声明的理论近似，不声称知道原实验逐对效率。方位已筛选的情况仍可由用户选择。
-
-每个探测器组是(theta,可选phi,weight)列表。权重是已提取观测量所对应的有效理论权重，不在GUI处理原始计数或计算效率。只允许非负权重且每组总权重大于零；零权重条目不贡献。GUI默认明确标注“组内相对权重/加权平均”，同组权重归一到1并显示实际使用值；用户填2:1无需手算分母的3。高级选项可使用“原始加权和”，此时按输入字面求和。不得在两种定义间静默切换；以下公式的w/v代表所选方式实际使用的有效权重。
-
-ADO先加权单线强度：
-
-$$R_{ADO}=\frac{\sum_{i\in A} w_i W(\theta_i)}{\sum_{j\in B}v_j W(\theta_j)}.$$
-
-DCO按共同的A/B组权重先加权全部target/gate符合对，再交换目标与门所在组取比：
-
-$$R_{DCO}=\frac{\sum_{i\in A,j\in B}w_i v_j C_0(\Omega_i,\Omega_j)}{\sum_{i\in A,j\in B}w_i v_j C_0(\Omega_j,\Omega_i)}.$$
-
-其中未选择phi的C0是相应方位积分后的强度。若实验输入需要不同角色的有效权重，应显式提供角色组，不擅自从相同名字推断能量相关权重相等。偏振同样先分别求所有组/符合对的平行、垂直强度和，再求差除以和；不能直接平均P或R。
-
-用户旧程序 `Upload/p_ado_135Pr/physics/pado.py` 的精确定义是：
-
-$$R_{ADO}=\frac{2W(157.6^\circ)+W(133.6^\circ)}{3W(75.5^\circ)}.$$
-
-GUI默认加权平均示例A组为(157.6,2)、(133.6,1)，B组为(75.5,1)，实际有效系数是2/3、1/3和1；原始加权和模式的等价写法则是A组2、1，B组3。在现有轴对称偶秩模型中W(104.5)=W(75.5)，故B组也可写成(75.5,1.5)、(104.5,1.5)。这是用户实现提供的2:1有效权重，不声称通过新拟合得到。组内权重约定在JSON与结果中明确记录。线性组合可先合成完整K系数再生成密集网格，避免逐网格重复遍历探测器对；旧单角的相等/互补对称性不能只看多组第一行后直接套用。135Pr新benchmark采用这套组响应及P75.5deg，替换代表角145.6/90的近似；不能平均角度后计算。
-
-## 3. 统计口径：混合角评估，正切报告delta
-
-### 3.1 参数、网格范围与步长
-
-内部仍用 `xi_rad=arctan(delta)` 和源宽度sigma。GUI提供两行网格控制，每行明确最小值、最大值、步长和单位，不要求用户猜点数：
-
-| 参数行 | 输入坐标与单位 | 转换与显示 |
-|---|---|---|
-| arctan(delta) | 可选择deg或rad，默认deg | 在入口转换一次为rad，图上仍用pi分数刻度 |
-| 取向宽度 | 可选择sigma/I或sigma，默认sigma/I | sigma/I乘共同初态I得到内部sigma；输入0.01不是把内部sigma步长固定0.01 |
-
-本轮研究后的稳妥推荐候选为角步长0.1deg（pi/1800rad）、sigma/I步长0.005，0.01作为快速预览选项。该建议已在9个选择工况和6个留出工况对照，不能宣称普遍最优。以0.2/0.1/0.05deg和0.02/0.01/0.005/0.001的有界对照确定推荐值。网格研究用角范围[-89.9,+89.9]deg，宽度下限仍对应sigma=0.15或0.20，上限sigma/I=1；全部输入及实际点数/步长进入输出。
-
-GUI步长生成轴时保留用户步长及最大值：最后不足一步的区间可显式补终点，保存真实坐标和最后一步长度；不能暗中用点数重算另一种步长。差分与积分必须接受这一非等距末段。研究若用linspace均匀调整步长，则必须报告实际值，不能称其严格等于用户输入。0.1.0的3121x201、[-1.56,+1.56]rad只作历史回归基线，不再作为新界面唯一网格定义。
-
-探测器theta/phi仍按deg输入，在几何入口转换。绘图对外只标arctan(delta)，不用xi或小数弧度刻度。
-
-对外角轴在数据域内显示 $-3\pi/8,-\pi/4,-\pi/8,0,\pi/8,\pi/4,3\pi/8$。原始数组、差分与积分仍为弧度，不能将刻度文字变成数值计算单位。全范围图不再以95%区间包络自动裁剪。
-
-对外取向轴标 `sigma/I`，不加ref、dimensionless。内部仍保存reference_spin及其核态身份：I是共同Gaussian初态自旋；上游门存在时不偷偷换成目标发射态。自旋为0的解析基准单独处理，不作sigma/I归一。
-
-归一密度满足：令 $s=\sigma/I$，$f_{\mathrm{display}}(\xi,s)=I f_{\mathrm{core}}(\xi,Is)$；角边缘由二维密度对全sigma域积分得到，不能只换delta PDF的横坐标文字。如果转换已有delta PDF，须用 $p_\xi(\xi)=p_\delta(\tan\xi)\sec^2\xi$。
-
-### 3.2 三种默认评估，统一68%
-
-本项目选用物理混合角空间的评估约定：先在arctan(delta)的归一PDF上计算，再直接用tan报告delta。**不要求先变成delta PDF重新求HDI，不把另一种口径作为主报告。** README说明该项目约定即可，不再围绕口径反复争论。
-
-| 评估 | 在arctan(delta)上计算 | 对外delta数值 |
-|---|---|---|
-| HDI | 总质量0.68的各段边界、密度阈值h、每段内PDF最高点的mode | 对每段的mode及其两个端点分别tan转换 |
-| ETI | q16、q50、q84 | tan(q16)、tan(q50)、tan(q84) |
-| Mean | mu=integral(x p(x) dx)，std=sqrt(integral(x^2 p(x) dx)-mu^2) | 中心tan(mu)，两侧引导值tan(mu-std)、tan(mu+std)，按下述定义域规则处理 |
-
-对sigma/I直接在其PDF上计算相同三类统计，不作tan转换。每个HDI区间分别取该段内PDF最高点的横坐标作为mode；一段若含多个局部峰，取该段最高者。不能用整条PDF唯一全局峰替代每段的中心。多段HDI显示所有段、各自mode及各段概率质量；质量之和为0.68，不把每段重新归一成68%。段内最高值并列时保留并列点或平台范围，不任意挑一个文献附近的峰。ETI和Mean仍按完整边缘PDF计算，不逐HDI段重算。
-
-Mean使用概率密度及积分权重，不是对网格坐标求算术平均。显示行叫 `Mean-based` 或 `Mean ± SD`，并在说明中写清delta数值来自角均值的tan转换，不把tan(mu)写成直接对delta求得的期望值。mean±std不是68%ETI或HDI，不赋予68%覆盖保证。若mu±std超出扫描域或跨过tan的奇点，保留角空间均值/标准差并标出越界；不将角度取模，不静默截断后伪称正常的有限delta误差棒。
-
-默认GUI、主报告、图表和本轮结果只展示68%ETI/HDI。旧95%数据保留为历史原始证据，不删除、不冒充新结果，也不用于默认图的裁剪范围。文献原始误差按原文保留；缺乏原文置信水平时标“as reported”，不擅自宣称68%。
-
-### 3.3 数值文字模板
-
-C图在图下方或独立统计区同时显示：
-
-```text
-HDI 68%: component 1: delta_mode_1 = ...; [lower_1, upper_1] = [...]
-         component 2: delta_mode_2 = ...; [lower_2, upper_2] = [...]
-ETI 68%: delta_50 = ...; [delta_16, delta_84] = [..., ...]
-Mean-based: tan(mean angle) = ...; transformed mean +/- SD = [..., ...]
-```
-
-D图显示sigma/I的每段mode与68%HDI、q50与[q16,q84]、mean与std。单峰时可附非对称上下差值；所有中心值、端点与PDF计算结果同源。缩放、保存单图、后台写盘以及重开结果均不得丢掉这些数值。
-
-## 4. 四联图和交互合同
-
-### 4.1 A：完整观测响应域
-
-横轴R_ADO或R_DCO，纵轴P。默认绘制全参数扫描产生的全部有限、定义有效响应点，颜色是这些点的观测空间密度值，统一viridis。覆盖输入实验点及左右不对称误差棒；显示范围至少包含全部有效响应点和完整误差棒。
-
-不再只画实验中心附近5倍误差方框。不把参数网格在观测空间折叠后强行pcolormesh相连，不把网格点数当概率密度，也不把重叠分支的点密度相加成另一种观测PDF。推荐全部有效节点散点/栅格化散点作为绘图基线；如优化为图像栅格，须验证完整覆盖与密度色义，不可用分位数裁掉远端点。无效/零分母点不伪造数据；摘要记录数量。保留平移、缩放与恢复全域操作。
-
-### 4.2 B：二维参数密度
-
-横轴arctan(delta)，纵轴sigma/I；viridis，采用正确坐标密度变换。A/B各自保留独立色标，不共用不同测度的密度数值。角轴采用第3.1节的pi分数刻度。
-
-### 4.3 C/D：默认六条竖线、一条水平线与HDI色带
-
-- PDF曲线：黑色；C用角边缘，D用sigma/I边缘。
-- 橙色三条竖线：CDF16%、50%、84%；**合用一个图例** `68% ETI (16%, 50%, 84%)`。不再单列Median或50%CDF图例。
-- 灰色三条竖线：mean、mean-std、mean+std；合用一个图例 `Mean +/- SD`，以线型区分中心与两侧；**默认显示，不提供开关**。
-- 蓝色HDI色带：仅在各HDI区间内填充0到PDF，不超过曲线、不连空隙。
-- 水平虚线：y=h，即68%HDI密度阈值，图例/标注 `68% HDI threshold`。h是所选集合的最低密度水平，不是把填色底边抬高到h；色带仍从0开始，其总面积为0.68。
-- C/D下面显示第3.3节三类数值；不是只画引导线。允许增加GUI图高、统计区域高度和滚动空间，不能挤掉坐标或曲线。
-
-GUI可以比投稿图显示更多引导线；后续analysis用户可自由定制科研图，但默认示例保持同一科学含义和统计口径。
-
-### 4.4 标题
-
-用户已确认图上方标题：`Full Range Marginalization; Constant Weight`。数值合同为完整扫描范围边缘化、常数附加权重；不是固定sigma或使各PDF具有相同宽度。
-
-### 4.5 界面与导出不得回退
-
-三模式英文短注释、手动/JSON互斥输入、载入/保存示例、批任务、独立计算/写盘队列继续保留。结果就绪即显示图和统计，不能为全域绘图、更多文字或单图导出把大CSV写盘搬回GUI主线程。输出目录隔离、失败保存重试、旧结果重开、多实例及有界缓存继续回归。
-
-共享 `plotting/style.py` 统一字体、viridis、线型、色标、pi刻度和数值排版；GUI使用大字号，报告使用可读科研字号；不要求用户安装TeX或skills。报告图只交付所需PDF，预览与布局诊断留tmp。采用nature-figure的真实渲染检查；静态检查无法识别导入样式时给出逐项实际证据，不伪称静态全绿。
-
-## 5. 报告图6：估计结果与文献逐项对照
-
-| 子图 | 横轴 | 纵轴 |
-|---|---|---|
-| A | delta（角空间估计直接tan转换） | 核素+跃迁能量 |
-| B | sigma/I | 核素+跃迁能量 |
-| C | 目标跃迁初态自旋 | delta（同A口径） |
-| D | 目标跃迁初态自旋 | sigma/I |
-
-A/C不得使用arctan(delta)轴。四个子图均有图例；至少包含橙色ETI68%、蓝色HDI68%、黑色文献报告。HDI各段中心分别用tan(mode_j)，ETI中心用tan(q50)；多段HDI画分离区间，不将所有端点打包成一条对称误差棒。对未带误差的文献点不补误差；sigma/I若是作者固定采用值，使用不同空心标记并注明，不伪装成提取结果；没有可比sigma/I文献值就标未报道。
-
-C/D同一自旋的不同估计用显式横向offset，默认组内三种估计为 -0.08、0、+0.08（单位hbar），刻度仍标真实自旋。若同自旋多跃迁还重叠，可在该组内加可追踪的小偏移，总偏移不得使其看起来成为另一半整数自旋；图注说明仅为视觉错位，原始自旋输出不改。不把不同核素或不同跃迁连成物理趋势线。A/B对同一条目的估计也适当错位。
-
-沿用已冻结的六核与实测P/R及误差；几何按本轮新取得的用户定义修订为新输入快照：135Pr使用明确2:1组响应和P75.5deg，154Tb/190Tl主场景采用方位平均。保留旧点几何快照，不按结果更接近文献而换自旋、门或分母顺序。图注简述点几何/理想环假设和数据依赖；80Se原文P+DCO固定宽度与本P+ADO扫描宽度不是同一提取路线。164Yb混合/纯E2自旋假设不能当两条线。源原件与图读记录继续使用已有归档，不重复下载。
-
-## 6. 注入恢复：指定工况、可见真值、详细表格
-
-### 6.1 主矩阵与误差合同
-
-将用户本轮“sigma_yy=0.3”按上下文落实为 **sigma/I=0.3**，不是sigma本身或观测误差。每个工况的源宽度为 `sigma_truth=0.3*I_reference`，反演仍扫描全sigma网格，不能把0.3固定给反演。
-
-三模式各测10个delta：`[-10,-5,-1,-0.5,-0.1,+0.1,+0.5,+1,+5,+10]`，共30个主工况。运行前冻结显式job文件，选定后不得按恢复结果更改：目标5->4的M1/E2；DCO模式为先目标后4->2纯E2门；比值A组125deg、B组90deg，P目标90deg，PDCO偏振门125deg，默认不筛选phi并做全环方位强度平均。125/90作为常用且已有文献来源的角对，在见结果前固定；不从旧包示例90/30静默继承。
-
-先生成真值对应的P0与R0，再给观测误差。用户已明确80%/10%不是不可变规则，核心要求是P误差较大、角分布比/DCO误差相对小。研究使用已核验候选表中真正P的绝对误差分布，不混入原始IPDCO不对称度或未校准的分析能力。
-
-P误差推荐先采用有来源的绝对误差下限，并保留大相对误差控制；例如 `P_error=max(P_absolute_floor,0.8*abs(P0))`，本轮floor=0.1075，来自10条已核主层谱线的左右P误差平均值的跨线中位数。此规则只用于合成benchmark，不修改真实用户输入的误差。R暂以10%相对误差为比较基线，并对文献实际误差量级作核对。不以让恢复更好为理由调整误差。近零P不得得到虚假的零宽度；P越界误差棒不偷偷裁短。
-
-本轮研究报告已给出误差样本、分位数、采用值及理由；正式30工况采用该有据策略后完整重跑。若使用对称Gaussian宽度，明确是1sigma；不对称输入的中心/端点含义按“不对称误差的处理方案”决定，不能混同mode、median和量化分位点。主表先不对观测中心加随机噪声，重复模拟另列。
-
-### 6.2 独立性、重复观测与端点
-
-- 主结果用独立9j参考产生观测，生产核作反演；另做同核产生/反演30条内部自洽对照，合计60条，不能称60条独立实验。
-- 新误差配置下补三个代表工况的重复观测：P_ADO delta=-0.1、P_DCO delta=+1、PDCO delta=-10，sigma/I均0.3，每工况100个独立噪声向量，种子20261120。两生成器共用噪声，600次反演只对应300个独立噪声向量。
-- 公式(6)独立解析控制：纯E2 2->0、m=0，在球面平均为1的W约定下W(45deg)=15/8、P(45deg)=+1；总概率、无取向W=1/P=0及零强度方向定义域另检验。
-- 对允许M1/E2的目标补纯E2边界观测注入。精确纯分量生成，不用巨大有限delta近似；反演仍是可混合模型。报告两端附近概率、分支与扩域敏感性，不能把有限delta区间宣称包含无穷或要求唯一有限delta真值。
-- 对M1被选择定则禁止的目标只做纯项前向控制，不制造二维delta PDF。
-
-### 6.3 表格必须可重算
-
-主报告列出独立生成的全部30条主工况，按模式分表；同核、重复噪声、加密和边界详细数据放CSV/JSON及分析附表，不能只展示成功或接近真值的条目。至少包含：
-
-| 字段组 | 必填内容 |
+| 面板 | 内容 |
 |---|---|
-| 身份和模型 | 模式、生成器、自旋/门、几何场景、I_reference |
-| 注入真值 | delta0、arctan(delta0)、sigma/I=0.3、sigma_truth |
-| 模拟观测 | P0及左右误差、R_ADO/R_DCO及左右误差 |
-| 混合恢复 | 各HDI段tan(mode_j)、tan(q16/q50/q84)、tan后的全部68%HDI段、角mean/std及对应tan引导值 |
-| 取向恢复 | sigma/I的各段mode、68%HDI各段、q16/q50/q84、mean/std |
-| 检查指标 | 与真值差、ETI/HDI真值包含、分支数、归一化、网格/边界警告、运行状态 |
+| A | R_ADO/R_DCO横轴、P纵轴；全部有限有效响应与完整实验左右误差棒；色值为观测密度 |
+| B | arctan(delta)横轴、sigma/I纵轴；正确变换的二维参数密度 |
+| C | 完整角边缘PDF与delta三类数值 |
+| D | 完整sigma/I边缘PDF与该坐标三类数值 |
 
-多峰表格保留每一段，不能只给总包络。表太宽时分成“真值与输入”“delta恢复”“sigma/I恢复”三张同case_id联结的表，正文展示核素/能量或合成工况，不让读者依赖内部行号。
+A/B为viridis、独立色标；不只显示实验附近±5误差、不按95%包络裁域、不强连折叠网格。角轴写arctan(delta)、用pi分数刻度，计算仍为rad；宽度轴写sigma/I，无ref/dimensionless赘词。
 
-### 6.4 必需图与判据
+C/D黑色PDF；橙色q16/q50/q84合用`68% ETI (16%, 50%, 84%)`图例；灰色mean及mean±SD合用`Mean +/- SD`且默认可见；蓝色HDI从0填到各段PDF、保留间隙，水平虚线为68%HDI密度阈值。附全部HDI分段、ETI和Mean-based数值。标题沿用`Full Range Marginalization; Constant Weight`，解释全域边缘化与常数附加权重。
 
-1. 真delta对恢复delta：三模式分别展示，带y=x参考线、HDI中心/各段、ETI中心/区间，量程覆盖正负10；同核与独立生成明确区分。
-2. sigma/I真值与恢复结果：真值0.3为参考线，保留每个delta工况；不能用一根均值线掩盖不同delta的退化。
-3. 代表角边缘PDF：画真值竖线，配合68%ETI/HDI，覆盖小/中/大混合和正负两侧；所有输入参数随图保存。
-4. 重复观测的68%真值包含率及二项不确定度，与确定性注入分开；不是每次都必须覆盖、也不是中位数必须等于注入真值。
-5. 代表±10工况及纯E2边界的加密/扩域对照。正式默认角域为正负89.9度、角步长0.1度（1799节点），sigma/I步长0.005，宽度节点数由参考自旋和下限决定；加密时将两个实际步长分别减半。扩域使用比正负89.9度更靠近正负pi/2的边界，保持角步长可比，不只增加跨度不增加分辨率。
+### 3.2 输入—输出表与文献索引
 
-数值验收：PDF积分和68%HDI实际面积误差不超过1e-6；CDF16/50/84正确；普通工况网格加密后角中心差不超过0.0035rad、端点差不超过0.0088rad；超限须继续加密或准确报告未收敛，不按是否吻合真值调参。大误差带来的宽区间/多分支本身不是失败，不为通过把误差缩小。
+三模式各一张10行主表，每个案例连接唯一四联图编号。每行给出mode、注入delta与arctan(delta)、P/R及左右误差、角HDI各段及mode、直接tan后的delta表示、角与delta的ETI(q16,q50,q84)，以及恢复sigma/I的HDI/ETI。目标自旋、注入sigma/I、源态身份、门线/次序、比值分子分母角度/权重、P角及phi条件在紧邻公共设置中明确，不重复I_ref、sigma0字段。各段质量、mean/std及全部精度由同一PDF/JSON保留。
 
-### 6.5 已有测试几何与数值参数审计
+文献使用全部30个nominal二维模型的输入索引和对应四联图；15条不同跃迁、共用输入与两个历史确定性读图平移分开计数。原来的18模型“图6”及其它汇总展示留后台，不作为本轮新增必做图，也不替代全部案例。文献报道值始终是比较值。
 
-下表是0.1.0实际运行记录，不是本轮已重跑结果；角度不得作为让恢复结果更接近真值的可调参数。
+## 4. 确定性注入：30条主记录
 
-| 工况/核素 | 实际采用角度 | 证据身份 |
-|---|---|---|
-| 旧合成矩阵 | 比值90/38deg，P在81deg；DCO相对方位18deg；PDCO偏振门47deg，目标/门方位13/61deg；目标3->2、E2门2->0 | 人为非零方位压力测试，不对应一篇实验；见synthetic_benchmarks.json settings |
-| 本轮30主工况 | 第6.1节125/90deg，P90deg、PDCO门125deg，目标5->4、E2门4->2，phi平均 | 正式主矩阵尚未全部执行；本轮网格研究仅使用有记录的子集 |
-| 80Se | R_ADO157/90deg，P90deg | 来源指定角对的点响应 |
-| 135Pr | R_ADO145.6/90deg，P90deg | 145.6是157.6与133.6的中点；90是75.5与104.5的中点。仅代表角近似，不等于两组实际强度合成 |
-| 185Au | 90/125与125/90两种比值顺序，各取相对方位0/90/180deg | 原文未给完整逐线方向定义的声明场景，不能挑较吻合的一种当实测顺序 |
-| 154Tb | 125/90deg，P90deg；相对方位0/90/180deg | 极角顺序来自来源，方位仍是假设场景 |
-| 190Tl | 157/90deg，P90deg；相对方位0/90/180deg | 极角顺序来自来源，方位仍是假设场景 |
-| 164Yb | DCO22.4/75.5及反序；P75.5deg、偏振门22.4或46.4deg | 理想均匀环强度积分；逐对接受度/权重并未完整重放 |
+主报告`primary_records=30`，固定选`same_kernel`。三模式各10个delta：[-10,-5,-1,-0.5,-0.1,+0.1,+0.5,+1,+5,+10]。独立9j另30条只留后台核对，不重复进主表/主图，不称60个主案例或独立实验。
 
-更贴实验的补充建议是使用某一已核清的文献自旋、门线、实际角组生成指定delta与sigma/I下的观测，再盲反演。它是独立于固定主矩阵的可选几何控制，不在未经确认时替换主矩阵。还可另用相近实验的P绝对误差作对照：P接近零时相对误差会很小，并不总能模拟实际极化测量精度；按用户授权，以来源明确的绝对误差下限/文献误差量级修订策略，不把80%奉为固定规则。角组必须按原实验定义的权重先合成强度后取比，不能用平均角代替强度合成；权重缺失须标明假设，不以“文献有角度”宣称阵列完整重放。
+目标5->4 M1/E2；DCO目标先发、门4->2纯E2。I_ref=5，sigma/I真值0.3即sigma=1.5；反演仍扫描sigma全域。P90度、R125/90度、PDCO门125度，未选择phi。
 
-当前观测密度实现是 `pdm/observations.py` 的左右尺度正态变换：每侧概率1/2，中心为中位数，误差端点对应标准正态正负1sigma分位数；不对称时中心密度有跳跃。它没有做skew-normal参数拟合，也没有skew-normal接受/拒绝阈值。旧 `Upload/p_ado/pdf/fitters.py` 的偏态正态量化匹配和回退只作只读对照，不能声称新程序沿用了它，更不能声称其接受阈值已经优化。是否恢复偏态正态属于观测PDF模型决策，须另比较并说明；对称控制本身不能决定不对称误差模型。本轮E01实际比较旧偏态正态及回退、现行左右尺度变换、连续不对称Gaussian和一个有明确假设的光滑备选；在报告中给出中心含义、归一化、分位数残差、连续性、尾部/支持域及对反演的影响。模型最终选择在此证据上决定，不先宣称新方法更优。
+先生成无附加噪声P0/R0，再赋对称Gaussian一标准差：DeltaP=max(0.1075,0.8|P0|)、DeltaR=0.1|R0|。floor是十条已核主层谱线左右P误差均值的跨线中位数，样本/locator见`analysis/research/grid_resolution/frozen_inputs.json`；是合成工作点，不是通用实验下限，不改真实误差。近零P不赋零宽误差，误差棒越[-1,1]不裁短。
 
-| 当前数值设置 | 用途 | 本轮验收方式 |
-|---|---|---|
-| xi范围[-1.56,1.56]、3121点，sigma201点 | 离散起点，不是全局最优 | 加密与扩域分别比较，保存完整段和mode偏移 |
-| sigma下限整数0.15、半整数0.20，上限I | 保守扫描域 | 保留既有下/上限敏感性方法，不把注入0.3当扫描定值 |
-| Jacobian<=1e-12 | 诊断警告，不删除小正值 | 诊断阈值改变不得改变PDF；不能和布居截断混淆 |
-| sigma方向变化64倍机器epsilon | 拒绝仅有浮点噪声的不可分辨二维响应 | 对32/64/128倍做边界和非退化控制；正常工况结论应稳定 |
-| 响应越物理边界的1e-12舍入容差 | 只修正极小舍入越界，大越界无效 | 比较1e-13/1e-12/1e-11；记录无效点与统计变化，不以吻合真值择阈值 |
-| delta边缘积分误差目标2e-7 | 0.1.0坐标转换自适应细化 | 本轮以角边缘为主，保留导出转换的概率守恒核验 |
-| 外侧5%范围质量>=10%，或端点密度>=峰值10% | 扫描边界警告，不裁数据 | 报警后做扩域，不能仅靠加密关闭边界问题 |
+主网格xi±89.9度、步长0.1度；sigma/I域[0.03,1]、步长0.005，即sigma[0.15,5]、步长0.025；实际末格和节点数保留。既有加密、±89.99度扩域、纯E2端点仅作诊断，不增加主案例计数。
 
-这些设置并非全部经过系统阈值寻优。已有证据是默认到6241x401的36项所选delta区间检查通过，角中位数最大位移约3.35e-5rad、端点约1.40e-4rad；以及所选实测案例的网格、sigma域、xi域和权重敏感性。不把这些局部证据提升成“找到所有情况下最优参数”。本轮U08须交付参数表：数值、代码位置、物理/误差模型/数值/诊断分类、扫描范围、稳定性结果和采用理由；不为了逼近真值或文献而调角度、误差或诊断阈值。
+每模式主表完整放在一页A4横页，共三页；字号8.5 pt。角量为rad，默认小数点后两位，小于0.005的非零值用科学计数法；扫描设置保留还原网格所需精度。其余正文、短表、四联图均为A4竖版。
 
-## 7. Analysis与非专业用户教程
+按模式的恢复对照图逐案例显示ETI中位数、全部HDI分支与局部mode及注入菱形；delta图使用对称对数轴完整容纳远端分支，宽度图标出0.30。所有30张四联图的C/D面板已经包含完整角/宽度PDF，不再增加仅“代表性”案例的重复图。
 
-Analysis目录不是第二个必须pip安装的软件包。它包含可直接下载打开的Notebook/脚本；pip安装的是共享multipolePDM核心及按需使用的Notebook依赖。已装核心且已有Jupyter者无需再安装一份核心；`python -m pip install "multipolePDM[analysis]"` 只是一次补齐可选依赖。`[analysis]` 不会自动把Notebook文件下载到电脑，README须明确Notebook的取得位置。
+本次重放核实角ETI含真值20/30、HDI24/30；负5与负10在三模式均不在68%角HDI。确定性包含计数不是频率覆盖。历史随机结果保留在原始后台，不进入当前报告主线或当前验收。
 
-保留一套共享物理/统计/绘图API，避免Notebook复制旧算法、路径导入失败或GUI与analysis数值分叉。提供清晰的两条路径：只用GUI；下载analysis并用Jupyter打开示例。不要再把相对路径安装命令作为非专业用户唯一入口。
+## 5. 全部文献：30二维声明模型 + 9前向控制
 
-README改成可照着操作的中英文分层教程，主操作说明优先中文、GUI保留简短英文：安装/启动及Python版本；三模式选择；每个输入框的含义和单位；目标/门及上下游关系；左右误差正幅度；sigma与sigma/I；一条完整示例；四图及三种评估如何读；保存位置、JSON批任务、Notebook换文件路径；常见错误和纯E2分支；物理混合角评估的tan报告约定。去掉“尚未验收/尚未发布”等与已发布版本矛盾的旧话。
+`analysis/cases/results_v0_1_1/results.json`含15个初始二维模型；`analysis/cases/followup/results_v0_1_1/results.json`含15个后续二维模型及9个纯项前向控制。按nominal记录计数；加密run不重复计案例，同一测量的不同几何/自旋假设不称独立实验。
 
-使用真实Qt截图说明操作，不需要AI界面图；截图仅展示允许公开的合成输入。提供四个有效JSON例文件和逐字段说明，不在JSON中写不合法注释。用户运行GUI或Notebook不需要本仓库skills或TeX。
+- R02逐一呈现30个nominal二维模型的身份、观测误差、声明几何、完整四联图、三类统计和文献对照；六核数据依赖、读图误差、固定宽度及缺值保留。
+- 9个前向控制单列纯跃迁、输入、响应与原文对照；无自由delta时不造二维PDF/混合比区间。
+- 加密run附对应nominal案例，仅作收敛核对，与15+15二维及9前向分开计数。
+- 主报告以30同核注入和nominal文献为主；独立核、旧0.1.0、历史随机覆盖/几何敏感性置方法依据或附录，不重复占主案例。
 
-## 8. 文件与接口责任
+## 6. 大delta诊断与横页排版
 
-保留现有目录，不新造第二个项目。路径以 `raw/code/PDM/GUI/src/multipolepdm/` 为包内基准。
+R03解释正负5、10的恢复、分支质量、真值包含和端点依赖；优先读已有角边缘、加密/扩域证据。新增工作限必要的确定性诊断，不调整误差、角度、源态、核或区间坐标来逼近真值。
 
-| 文件/区域 | 本轮职责 |
-|---|---|
-| contracts.py、pdm/statistics.py | 角PDF摘要、68%HDI/ETI、每个HDI区间mode、mean/std、tan报告数据 |
-| plotting/style.py、intervals.py、overview.py、export.py | pi刻度、viridis全域、默认六竖线+HDI阈值、数值标注/单图保存 |
-| gui/results.py、io/export.py | 三评估展示与导出字段、统计区布局，保持异步保存 |
-| tests/test_statistics.py、test_plotting.py、test_export_measures.py | 角空间统计与tan、面积、文本值和数据覆盖测试 |
-| tests/test_gui.py、test_app_regressions.py | 默认显示全部引导线/文字，慢盘不阻塞、单图保存 |
-| analysis/scripts/run_benchmarks.py | 指定30工况、生成器对照、重复观测、详细表格和图数据 |
-| analysis/scripts/run_literature_cases.py、run_followup_cases.py | 用新统计口径和有来源的新组几何重跑案例，不改变实测P/R及误差 |
-| analysis三个Notebook及READMEs | 示例运行、读新输出、真值与文献比较、图形定制 |
-| 秘书figures/generate_figures.py、main.tex | 四面板图6、注入真值图与详细表、状态措辞清理 |
-| pyproject.toml、发布脚本 | 验收后新版本、依赖、公开包及安装回读 |
+结合实际Jacobian、折叠/多解、有限sigma/xi域、观测误差和近纯E2饱和，区分数值收敛、可辨识性、确定性包含与历史覆盖。局部det非零不证明全局一一；区间偏离不能单独证明唯一根因。±pi/2是同一纯E2极限，有限delta区间不能称包含无穷。记录开放问题、证据缺口、停止原因和下一步。
 
-保持 `evaluate_response` 和 `map_density` 物理接口；扩展 `summarize_density` 的角边缘/mean/std摘要，默认概率质量为(0.68,)。GUI、CSV/JSON、Notebook和报告调用同一摘要对象。字段明确记录 `evaluation_coordinate=arctan_delta`、`report_transform=tan`、参考自旋、扫描域、概率质量和多段HDI。用新统计口径重算保存网格时标明新版本；不将0.1.0旧delta-HDI摘要重命名成新结果。
+只有三张宽主表所在页采用A4横向（最终第18、19、20页），每模式10例完整一页；正文、短表与全部四联图保持A4竖版。未整体缩小主表，实际8.5 pt；不得把旧软件阶段或skill默认横板解释成用户要求整份横向。图表、公式、脚注、页眉不遮挡/越界/截断；图表均有单位、观测/生成器/模型身份、误差及来源说明。
 
-## 9. 可执行任务与验收
+正文保留本轮需要的误差定义、组权重、纯E2校准与扫描域；既有比较研究和使用说明在后台保留；清理“30矩阵尚未执行”“仅sigma输入/输出”等冲突旧句。软件发布历史独立表述；历史225项测试和PyPI发布不代替本轮全页QA。
 
-E01--E03为本轮获明确授权的独立研究任务；U00--U09为后续整体GUI/报告/发布任务，不能因为E任务产出就自动勾选完成。旧0.1.0的T00--T19仅为历史验收。每项按“先增加可失败的断言—执行—最小实现—回归—保存实际证据”推进。下面命令在代码根或明确的工作目录运行，执行者记录实际cwd、参数和退出码；不可把计划命令写成执行证据。
+## 7. R00–R05任务与验收
 
-### E01：不对称误差的处理方案（本轮已授权）
+| ID | 当前状态 | 依赖 | 消费、交付与验收 |
+|---|---|---|---|
+| R00 现场/数据核对 | completed | 无 | 核main/figures现场、sigma/Jacobian、冻结输入/哈希、30同核、15+15二维/9前向/加密计数；交缺项与复用路径，须主代理接收核对证据 |
+| R01 30注入与长表 | completed | R00 | 读deterministic/angle_marginals的same_kernel30条；交全部输入/恢复长表、主图和分段检查，独立9j留后台 |
+| R02 全部文献四联图 | completed | R00 | 交30nominal模型完整四联图/三类数值、9前向单表与索引；加密不重复计数 |
+| R03 大delta诊断 | completed | R00、R01 | 用大delta边缘、Jacobian/分支、已有加密扩域证据，交机制对照、局限/开放问题；无新随机/卡方 |
+| R04 报告编译全页QA | completed | R01、R02、R03 | 整理仅三张长表横向的main.tex，核图表数值，XeLaTeX至少两遍至引用稳定；渲染并目视每页，修溢出/遮挡/不可读，留实际页数与QA证据 |
+| R05 知识归档收尾 | completed | R04 | 主代理核来源/图表清单与哈希、回写knowledge和必要handoff；验新旧状态分离/唯一main.pdf及定向归档，说明科学未决项；不发布 |
 
-- 文件：analysis/research/asymmetric_errors/内可复跑脚本、PDF采样、CSV/JSON；秘书同名章节及Python数据图。
-- 验收：实际执行旧拟合接受/回退与现行模型对比；区分q16/q84与正负1sigma量化定义；对称、两侧比例1.5/2/5及反射控制、至少一个真实不对称P；检查多初值对skew-normal拟合的影响。
-- 产出：归一化/分位数误差/连续性/中心解释/接受原因/尾部与支持域；同一固定响应下的观测二维密度及反演对照；不以三点拟合好就宣布模型最优。
+只有R00–R05逐项有实际证据且全部验收，报告任务才可completed。数据已存在、计划已改或旧U07已完成均不足以勾选本轮任务。当前goal_id关联现行账本，不重建/关闭其他goal。
 
-### E02：网格与数值阈值有界寻优（本轮已授权）
+### 7.1 可直接复用的输入与脚本
 
-- 文件：analysis/research/grid_resolution/内脚本、冻结配置、计时、边缘数组和CSV/JSON；秘书网格研究图文。
-- 验收：P90deg、phi平均、三模式、小中大混合，比较0.1deg及更粗/更细角步长，sigma/I0.01与0.001等；实际步长明确；以角空间每段mode、ETI/HDI端点、CDF差/概率质量、边界敏感性及耗时选择推荐网格。
-- 同时改变仅警告阈值须保持PDF不变；记录机器精度退化判断的边界。留出未用于选择的工况检查推荐值，不以调整角度/误差来让粗网格通过。
+路径相对`raw/code/PDM/`：
 
-### E03：多组权重与方位平均核验（本轮已授权）
+- `analysis/benchmarks/sigma03_relP80_relR10/`：`frozen-policy.json`、`frozen-job.json`、`deterministic.json/csv`、`angle_marginals.npz`、`grid_and_endpoint_sensitivity.json/csv`、`generator_agreement.json`、`provenance.json`、`run.log`、历史`repeated_coverage.json`。
+- `analysis/scripts/benchmark_u04.py`是真实冻结矩阵；`run_benchmarks.py --suite synthetic`转入该模块。旧默认常数属于legacy分支，不能据此误判U04；本轮不执行重计算命令。
+- `analysis/scripts/plot_benchmark_u04.py`读取保存摘要/曲线；报告端筛选same_kernel30条，不调用benchmark run触发重算。
+- `analysis/cases/results_v0_1_1/`、`analysis/cases/followup/results_v0_1_1/`及对应`grouped_geometry_v0_1_1/`快照保存nominal/附属run、区间与文献表。
+- `analysis/research/grid_resolution/frozen_inputs.json`、`results.json`、`heldout.json`、`threshold_audit.json`给实验P误差样本、网格/阈值/留出证据；E01与E03使用原集合。
+- `GUI/src/multipolepdm/pdm/statistics.py`、`plotting/`及报告`figures/generate_figures.py`提供现有摘要/出图，当前只在报告端组合与排版。
 
-- 文件：analysis/research/geometry/内组响应研究脚本及结果；不替换发布核心。
-- 验收：直接核对用户135Pr的2:1/3强度式、P75.5deg；多个delta/宽度下比较生产振幅强度与旧系数公式；证明组退化为一行时回到现有响应，phi平均与phi=0区分。
-- 产出：明确组权重语义与真实原型数值，作为后续GUI实现输入；不能把研究原型说成GUI已完成。
+U04运行生产/参考脚本哈希可逐项对provenance；理论手册起止哈希不同，不能将运行后main.tex反称冻结输入。历史清单错配需按实际定向哈希结果解释，不沿用过时“仍阻塞”或未检查的全仓通过表述。
 
-### U00：冻结本轮输入和基线
+## 8. 历史已完成工作
 
-- 依赖：用户批准整体改造；E01--E03证据已核对，标题与逐段mode定义固定。
-- 文件：tasks.json；本轮tmp运行目录的baseline.json和输入清单；不改0.1.0 delivery回执。
-- 工作：读取本计划第2节与秘书标签，核对当前代码/发布版本及旧结果；冻结30工况、研究后选定的误差策略、探测器组/phi规则、独立/同核标记和旧文献输入哈希。
-- 验收：不恢复已删目录、不重建物理核、不读取发布密钥；新账本与新goal关联，旧完成状态不继承。
-- 验证：导入核心并记录版本；逐项比对例文件自旋和几何；执行现有physics/responses/reference桥接测试。
+以下保留已完成事实；原始specification、evidence、commands_run、changed_paths、unresolved_items、worker与旧scope仍在`tasks.json`。历史字段里的“本轮/未来/发布授权”描述当时阶段，不覆盖第1节。
 
-### U01：角空间统计及tan报告
+| ID | 状态 | 历史工作 | 证据指针 |
+|---|---|---|---|
+| E01 | 已完成（历史） | 不对称误差的处理方案 | `raw/code/PDM/analysis/research/asymmetric_errors/results.json`；`raw/code/PDM/analysis/research/asymmetric_errors/acceptance_aware_results.json`；`raw/code/PDM/analysis/research/asymmetric_errors/README.md` |
+| E02 | 已完成（历史） | 网格与数值阈值有界寻优 | `raw/code/PDM/analysis/research/grid_resolution/results.json`；`raw/code/PDM/analysis/research/grid_resolution/heldout.json`；`raw/code/PDM/analysis/research/grid_resolution/threshold_audit.json` |
+| E03 | 已完成（历史） | 多组权重与方位平均核验 | `raw/code/PDM/analysis/research/geometry/results.json`；`raw/code/PDM/analysis/research/geometry/weighted_groups.py` |
+| U00 | 已完成（历史） | 冻结本轮输入和基线 | `tmp/pdm-upgrade-011/baseline-files.json`；`tmp/pdm-upgrade-011/baseline-tests.log`；`tmp/pdm-upgrade-011/frozen-policy.json` |
+| U01 | 已完成（历史） | 角空间统计及tan报告 | `tmp/pdm-upgrade-011/statistics/stats-worker.md`；`tmp/pdm-upgrade-011/statistics/targeted-final.log` |
+| U02 | 已完成（历史） | 四联图与完整响应域 | `tmp/pdm-upgrade-011/statistics/stats-worker.md`；`tmp/pdm-upgrade-011/statistics/targeted-final.log` |
+| U03 | 已完成（历史） | GUI、输出与异步回归 | `tmp/pdm-upgrade-011/gui-final-repair-worker.md`；`tmp/pdm-upgrade-011/full-regression-release.log`；`tmp/pdm-upgrade-011/independent-review.md` |
+| U04 | 已完成（历史） | 指定注入矩阵与缺失校准 | `tmp/pdm-upgrade-011/benchmark/benchmark-worker.md`；`raw/code/PDM/analysis/benchmarks/sigma03_relP80_relR10/provenance.json`；`tmp/pdm-upgrade-011/benchmark/final-symmetry-comparison.log` |
+| U05 | 已完成（历史） | 图6与文献比较 | `tmp/pdm-upgrade-011/literature/literature-worker.md`；`raw/code/PDM/analysis/cases/results_v0_1_1/results.json`；`raw/code/PDM/analysis/cases/followup/results_v0_1_1/results.json` |
+| U06 | 已完成（历史） | Notebook与使用教程 | `tmp/pdm-upgrade-011/docs/docs-worker.md`；`tmp/pdm-upgrade-011/docs/archive-replay.IvnGHW/kernel-imports.jsonl` |
+| U07 | 已完成（历史） | 秘书报告与数据图表 | `tmp/pdm-upgrade-011/report-worker.md`；`raw/writing/pado/20261029_review_v1/PDM/figures/manifest.json` |
+| U08 | 已完成（历史） | 整体回归与发布候选 | `delivery/0.1.1/acceptance.json` |
+| U09 | 已完成（历史） | 发布、归档和逐项总验收 | `delivery/0.1.1/acceptance.json`；`delivery/0.1.1/source-verification.json`；`raw/code/PDM/analysis/validation_v0_1_1/publication/verification.json` |
 
-- 依赖：U00。
-- 文件：contracts.py、pdm/statistics.py、pdm/observations.py及必要的独立观测PDF模块、io/export.py及统计测试；误差模型的最终默认依据E01报告确定并显式记录。
-- 测试：构造归一三角/双峰PDF，验证q16/50/84、mean/std、逐HDI区间mode、HDI阈值与分段；双峰被分成两段时必须返回两个各在本段内的mode，不能复制全局峰；对所有端点/中心逐项tan，证明没有改为对delta重新求HDI；近边界均值/并列峰处理。
-- 验收：68%面积和归一误差<=1e-6，取向变换守恒；默认输出三评估、正确坐标元数据；Mean±SD不标68%概率保证。
-- 命令：GUI目录 `python -m pytest tests/test_statistics.py tests/test_mapping.py tests/test_export_measures.py -q`。
+0.1.0证据为`delivery/acceptance.json`和`delivery/0.1.0-task-ledger.json`；0.1.1整体验收、源码核对与公开发布分别为`delivery/0.1.1/acceptance.json`、`delivery/0.1.1/source-verification.json`、`raw/code/PDM/analysis/validation_v0_1_1/publication/verification.json`。不据此授权本轮重发或认证当前报告全页。
 
-### U02：四联图与完整响应域
+已有知识回链：`knowledge/sources/multipolepdm-20261120-v011-validation.md`、`knowledge/sources/pdm-20261120-error-geometry-grid-study.md`、`knowledge/research-notes/pdco-pdm-response-contract-20261118.md`。R05由主代理将新知识同步到相应页面，计划不成为第二知识库。
 
-- 依赖：U01。
-- 文件：plotting四模块和test_plotting.py。
-- 测试：造远离观测点的有效响应点，断言仍在绘图区且进入绘图数据；折叠点不连成假曲面；角刻度、viridis、六条竖线、阈值线、HDI面积及图中文字与摘要一致。
-- 验收：C/D图例仅一组68%ETI(16%,50%,84%)、一组Mean±SD，灰线默认常显；无Median独立图例和无量纲/ref赘词；单图导出带三评估数值。
-- 命令：GUI目录 `python -m pytest tests/test_plotting.py -q`；实际渲染后面板/字体/碰撞与视觉检查。
+## 9. 本轮完成证据
 
-### U03：GUI、输出与异步回归
-
-- 依赖：U02。
-- 文件：gui/window.py、gui/results.py、contracts.py、模式config、组强度组装、必要的导出与GUI测试；保留三模式物理定义。
-- 工作：实现第2.6节多组(theta,phi,weight)编辑器与方位选择、第3.1节min/max/step和单位选择；为统计文字分配空间；保存/重开保持相同数值，几何/网格原样往返JSON。
-- 验收：三模式真实计算，C/D数值可读；慢盘期间第二任务可提交/计算、单图可保存；PDF与JSON字段一致，无跨任务覆盖。
-- 命令：GUI目录 `QT_QPA_PLATFORM=offscreen python -m pytest tests/test_gui.py tests/test_app_regressions.py tests/test_jobs.py tests/test_io.py -q`；需要时Xvfb复验布局。
-
-### U04：指定注入矩阵与缺失校准
-
-- 依赖：U01、U03的组响应接口；可与U05分目录并行。
-- 文件：analysis/scripts/run_benchmarks.py、新工况数据；physics/reference相关测试只增加校准断言。
-- 验收：30独立+30同核主记录，sigma/I全为0.3、误差策略有文献依据且不产生近零P假精度、两类R按冻结基线；3工况重复观测；公式(6)直接断言；纯E2可混合端点与禁M1纯项分开；全量记录含不符、分支与边界。
-- 命令：analysis目录 `python scripts/run_benchmarks.py --suite synthetic --check-xi-bounds --output benchmarks/sigma03_relP80_relR10`；执行前给runner增加并冻结本节默认/显式配置，使该命令确实跑新矩阵而非旧误差。保存完整配置与运行日志。
-
-### U05：图6与文献比较
-
-- 依赖：U01、U03、E03；与U04可并行。
-- 文件：文献runner、案例结果新版本、秘书figures/generate_figures.py。
-- 验收：A/C用delta；四图含图例及文献点；C/D自旋offset真实可查；HDI每段使用本段角mode及本段端点tan，ETI用角q50及端点tan；文献错误类型、固定sigma/I和缺值分开。
-- 命令：analysis目录分别执行 `python scripts/run_literature_cases.py --input cases/grouped_geometry_v0_1_1 --output cases/results_v0_1_1 --project-root ..` 和 `python scripts/run_followup_cases.py --input cases/followup/grouped_geometry_v0_1_1 --output cases/followup/results_v0_1_1`；执行前生成有来源的新几何快照并适配runner，不覆盖旧JSON。核对原始观测数值及原件哈希不变，不能要求新几何JSON保持旧几何的哈希。
-
-### U06：Notebook与使用教程
-
-- 依赖：U03、U04；图6部分依赖U05。
-- 文件：根README、GUI/README、analysis/README、包内例文件说明、三个Notebook及小输出示例。
-- 验收：无需原Wiki即可安装核心、打开下载的Notebook、运行示例/换输入；说明analysis extra只安装依赖、不下载Notebook；按一条示例从填写到解读三评估；真实GUI截图与参数一致。
-- 命令：对三个Notebook执行 `jupyter nbconvert --to notebook --execute --inplace`，从源码包临时解压目录再次运行；Notebook名以实际 `02_benchmarks_and_comparisons.ipynb` 为准。
-
-### U07：秘书报告与数据图表
-
-- 依赖：U04、U05、U06。
-- 文件：PDM/main.tex、figures下Python脚本及数据清单、唯一main.pdf。
-- 验收：68%主口径一致、图6四图、真值/恢复值图和全部30条主表、正式“不对称误差的处理方案”章节与网格研究、明确旧/新误差配置；将“均待执行”等旧句在原处更新，公式理论值与运行值分开；每项结论有数据locator。
-- 命令：运行figures/generate_figures.py；XeLaTeX两遍、临时文件进tmp；逐页核对公式、引用、溢出与图例/数值。
-
-### U08：整体回归与发布候选
-
-- 依赖：U03--U07。
-- 验收：全测试通过、全域图/默认线条不破坏队列，真实制品构建/安装/三模式GUI、Notebook回读通过；公开包无密钥、私人工作簿或无许可原件。报告/源码/图/结果manifest匹配当前版本。
-- 命令：GUI目录全pytest（offscreen）、`python -m build --no-isolation`、`python -m twine check --strict`；临时安装wheel再运行 `pdm-gui --self-test --report ...`；测计算/绘图/紧凑与CSV保存时间及内存，不用旧性能数代替；执行第6.5节数值阈值审计，保存阈值改变前后的结果和参数采用理由。
-
-### U09：发布、归档和逐项总验收
-
-- 依赖：U08，当前计划的执行授权已取得。
-- 工作：新版本发布到PyPI并从公开索引安装回读；整套源码含analysis打包；有指定独立远端才推送软件，不把Wiki当软件仓库。维护相同main.pdf、plan和tasks。
-- 验收：所有本轮任务有真实证据及失败/未测边界；知识回写、归档门、定向diff/凭据检查通过；新goal只能在全部必需项完成后关闭。旧0.1.0凭据成功/测试153项不能替代新版本验收。
-- 命令：发布脚本只在此步读取本地密钥，通过进程环境传入；公开PyPI元数据SHA和实际安装检查；来源归档门与发布门按本轮精确文件范围运行。
-
-## 10. 自动执行、并行与停止规则
-
-执行时按任务自动路由plan/go-on、all/auto、make、phys-model、test/debug、review、nature-figure、research-notes及相关文献/归档技能；不是机械运行全部无关skills。必要hook显式调用before-edit、after-edit、session-summary；全库检查超时如实记录并另做本任务范围核验，不称全库通过。
-
-用户批准后创建新goal，具体目标包含第3--7节全部要求和U00--U09，不将“写出图”缩减成总目标；只更新当前tasks.json。统计/共享合同由主代理先冻结，再派发互不重叠的图形、注入、文献图、教程/验收子任务；代理返回实际改动、命令、数值、失败项和证据，不以文字声称完成替代验收。只使用当前工具确实提供且获授权的模型。
-
-物理真值与数据不符不自动等于软件失败；但缺少必需表/图/校准证据、把新测试误算成旧完成项、静默删不符案例、未核输入单位、错误tan区间或图面文本错值，均不得完成目标。本轮E01--E03已执行；U00--U09现已获用户明确授权。新发布仍须等待本轮全部验收通过。
+- canonical `main.pdf`：90页，30注入+30文献声明模型的60张四联图；15条不同文献跃迁与9前向配置明确区分。三张主表仅第18、19、20页横向，8.5 pt；其余竖向。
+- 实际60套快照独立积分/分位数/PDF矩/tan核对容差2e-12通过，77项回归通过，64图遮挡审计0 FAIL/0 WARN，90页全部目视，最终编译无溢出/缺字/未定义引用。
+- 179文件集合与新source定向归档0失败，两页定向lint0问题，路径边界通过。全库原有130项结构错误另列；两份旧PDM清单有四项大小/哈希错配，未修改被登记原件或重写其历史身份，因此不推送。
+- 详细回执：`delivery/report-revision-20261124.json`；精确Git提交身份仅保存本轮local回执。科学开放边界见知识页与报告正文，不作为本轮缺项或用户待审核事项。
