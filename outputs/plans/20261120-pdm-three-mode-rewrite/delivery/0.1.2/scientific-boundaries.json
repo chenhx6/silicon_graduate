@@ -1,0 +1,26 @@
+{
+  "old_angle_hdi_truth_membership": 24,
+  "new_angle_hdi_truth_membership": 30,
+  "old_angle_eti_truth_membership": 20,
+  "new_angle_eti_truth_membership": 27,
+  "cases_per_geometry": 30,
+  "not_frequency_coverage": true,
+  "new_PDCO_plus10": {
+    "tan_angle_mode": 6.040510327117795,
+    "tan_angle_median": 0.24416553297623217
+  },
+  "new_PDCO_minus10": {
+    "angle_mode_at_lower_boundary": true,
+    "tan_boundary": -57.289961630759144
+  },
+  "all_12_large_delta_eti_median_abs_smaller_than_truth": true,
+  "joint_changes": [
+    "ratio angle 125 to 26 deg",
+    "angle bounds +/-89.9 to +/-89 deg",
+    "PDCO polarization direction gate 125 to 90 deg"
+  ],
+  "formal_response_correctness_independent_validation_claimed": false,
+  "frozen_history_unchanged": true,
+  "incorrect_phi_trial": "Isolated and excluded from formal cases; no relabelling/reuse as ring average.",
+  "knowledge": "knowledge/research-notes/pdm-two-geometry-recovery-20261125.md"
+}

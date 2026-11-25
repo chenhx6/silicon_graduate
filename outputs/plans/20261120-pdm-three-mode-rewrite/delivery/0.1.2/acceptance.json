@@ -1,0 +1,25 @@
+{
+  "status": "ready_for_git_publication",
+  "version": "0.1.2",
+  "pypi": "published-and-installed-exact-version",
+  "software_tests": 333,
+  "new_benchmark_tests": 10,
+  "old_injections_reused": 30,
+  "new_injections_computed": 30,
+  "literature_inverse_models": 30,
+  "distinct_literature_transitions": 15,
+  "forward_controls": 9,
+  "four_panel_figures": 90,
+  "report_pages": 131,
+  "all_requested_science_and_software_checks_passed": true,
+  "required_remaining": [
+    "Git commit/push and post-commit reconciliation"
+  ],
+  "limitations": [
+    "Clean dependency installation stopped after 9p large-file write stall; no fresh dependency-set validation.",
+    "GUI validated on Linux Qt offscreen, not native Windows/macOS.",
+    "pip check finds pre-existing unrelated ocrmypdf/deprecation mismatch; PDM declared imports and functionality pass."
+  ],
+  "canonical_pdf": "raw/writing/pado/20261029_review_v1/PDM/main.pdf",
+  "knowledge_source": "knowledge/sources/pdm-two-geometry-recovery-20261125-source.md"
+}

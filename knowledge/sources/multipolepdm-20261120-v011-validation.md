@@ -11,8 +11,8 @@ source_type: research-code-and-data
 reading_depth: read
 year: 2026
 canonical_source: "User-authorized local implementation and independently generated numerical controls"
-raw_file: "raw/code/PDM/archives/20261125-v011-code-inputs/manifest.json"
-raw_sha256: "a1a1560c3969dc0d81cd86ced080eaf732dcecd904d95267d244958b6fc6e1d2"
+raw_file: "raw/code/PDM/archives/20261125-v011-code-inputs/rebound-release-012/manifest.json"
+raw_sha256: "e6510e89f88977e55e2ca6e366e730ba2009d74997f6da921a08836e89fb1462"
 legacy_manifest_file: "raw/code/PDM/archives/20261125-v011-code-inputs/predecessor-manifests/7cba57eb032a4d41a863b9f3a841287e63159ac7fc8fc88af40583c5f5d7949e.json.txt"
 legacy_manifest_sha256: "7cba57eb032a4d41a863b9f3a841287e63159ac7fc8fc88af40583c5f5d7949e"
 raw_storage_status: archived-local
@@ -84,3 +84,7 @@ delta的报告值由角区间端点、q50及各分段mode分别取tan得到。�
 ## 软件交付证据
 
 公开版本为 https://pypi.org/project/multipolePDM/0.1.1/ 。`validation_v0_1_1/publication/` 保留API原始响应、获取元数据和两个发布文件的SHA-256核对。`logs/pypi-import.json` 记录从公开索引安装的实际路径与版本；`logs/pypi-gui-smoke.json` 记录三模式真实offscreen计算/保存。独立审查发现的退化方向组、单位切换与导图/失败重试问题均经修复和回归关闭，详细证据见 `logs/independent-review.md`。首次索引缓存尚未更新时的未验证回退运行不计入验收。
+
+## 0.1.2维护后的五项历史引用补齐
+
+2026-11-25：原134项清单字节另存`manifest.before-release-012.original.json`，本页迁至`rebound-release-012/manifest.json`。仅将仍指向工作树的pyproject与四个旧示例改绑到经原SHA-256/大小核验的HEAD历史字节；五个期望哈希及旧科学/发布结果均未改写。当前0.1.2继续维护工作源码，不承担旧快照哈希。

@@ -2,12 +2,15 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-11-24
+updated: 2026-11-25
 ---
 
 # Wiki Index
 
 ## PDM 三模式软件与验证
+
+- [[pdm-two-geometry-recovery-20261125]] — 旧30例复用、新26°/90°30例的恢复、完整分支及共同变化边界。
+- [[pdm-two-geometry-recovery-20261125-source]] — 90套四联图、131页报告、直接数值核验和0.1.2正式发行工件。
 
 - [[pdm-deterministic-report-revision-20261124]] — 30个确定性注入、15条文献跃迁与大混合比恢复边界。
 - [[pdm-deterministic-report-revision-20261124-source]] — 60套二维快照、逐案例四联图和最终报告的本地来源。

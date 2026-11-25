@@ -6,6 +6,19 @@ from dataclasses import replace
 from queue import Empty
 from threading import Thread
 
+from multipolepdm.contracts import (
+    Geometry,
+    JobRequest,
+    Measurement,
+    OutputSpec,
+    Transition,
+)
+from multipolepdm.grid import recommend_grid
+from multipolepdm.gui.editors import CompactNumber, DetectorGroupEditor, GridEditor
+from multipolepdm.io.input import example_data, job_from_dict, load_jobs, save_input
+from multipolepdm.jobs.manager import JobManager, QueueFull
+from multipolepdm.models.registry import MODE_CONFIGS
+from multipolepdm.physics.detectors import DetectorDirection
 from PySide6.QtCore import QTimer
 from PySide6.QtWidgets import (
     QCheckBox,
@@ -25,19 +38,6 @@ from PySide6.QtWidgets import (
     QVBoxLayout,
     QWidget,
 )
-
-from multipolepdm.contracts import (
-    Geometry,
-    JobRequest,
-    Measurement,
-    OutputSpec,
-    Transition,
-)
-from multipolepdm.gui.editors import CompactNumber, DetectorGroupEditor, GridEditor
-from multipolepdm.io.input import example_data, job_from_dict, load_jobs, save_input
-from multipolepdm.jobs.manager import JobManager, QueueFull
-from multipolepdm.models.registry import MODE_CONFIGS
-from multipolepdm.physics.detectors import DetectorDirection
 
 
 class MainWindow(QMainWindow):
@@ -271,9 +271,7 @@ class MainWindow(QMainWindow):
             or self.target_first.currentIndex() == 0
             else self.fields["gate_initial"].value()
         )
-        self.grid_editor.set_reference_spin(
-            ref, reset_bounds=ref != self.grid_editor.reference_spin
-        )
+        self.grid_editor.set_reference_spin(ref)
 
     def update_source(self, *args):
         from_file = self.file_mode.isChecked()
@@ -333,7 +331,7 @@ class MainWindow(QMainWindow):
         self.target_first.setCurrentIndex(0 if job.target_first else 1)
         self.intermediates.setPlainText("[]")
         self.update_mode()
-        self.grid_editor.load_spec(job.grid, job.reference_spin)
+        self.grid_editor.load_spec(recommend_grid(job.reference_spin), job.reference_spin)
 
     def read_job(self):
         def value(key):

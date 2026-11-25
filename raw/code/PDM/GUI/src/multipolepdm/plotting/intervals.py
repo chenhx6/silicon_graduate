@@ -9,7 +9,13 @@ from multipolepdm.contracts import Interval, MarginalSummary, TanAngleStatistics
 from multipolepdm.pdm.statistics import DEFAULT_INTERVAL_MASS, density_segment
 
 from .style import (
-    ETI_COLOR, HDI_ALPHA, HDI_COLOR, MEAN_COLOR, PDF_COLOR, PlotStyle, style_axes,
+    ETI_COLOR,
+    HDI_ALPHA,
+    HDI_COLOR,
+    MEAN_COLOR,
+    PDF_COLOR,
+    PlotStyle,
+    style_axes,
 )
 
 HDI_ARTIST_PREFIX = "pdm-hdi-"
@@ -38,8 +44,10 @@ def format_tan_statistics(
     interval = select_interval(statistics, mass)
     percent = f"{interval.mass:.0%}"
     lines = [f"tan{{HDI{percent}[arctan(δ)]}}"]
+    total = sum(segment.mass for segment in interval.tan_hdi_segments)
     for index, segment in enumerate(interval.tan_hdi_segments, start=1):
-        lines.append(f"  {index}. {_bounds_text(segment.bounds)}, mass {segment.mass:.2%}")
+        lines.append(f"  {index}. {_bounds_text(segment.bounds)}")
+        lines.append(f"    mass {segment.mass:.2%}; mass_fraction {segment.mass / total:.2%}")
         for lower, upper in segment.mode_ranges:
             mode = f"{lower:.4g}" if lower == upper else _bounds_text((lower, upper))
             lines.append(f"    tan{{mode[arctan(δ)]}} = {mode}")
@@ -71,8 +79,10 @@ def format_marginal(
     percent = f"{interval.mass:.0%}"
     label = "arctan(delta) [rad]" if marginal.coordinate_name == "arctan_delta" else "sigma/I"
     lines = [f"HDI {percent} ({label})"]
+    total = sum(segment.mass for segment in interval.hdi_segments)
     for index, segment in enumerate(interval.hdi_segments, start=1):
-        lines.append(f"  {index}. {_bounds_text(segment.bounds)}, mass {segment.mass:.2%}")
+        lines.append(f"  {index}. {_bounds_text(segment.bounds)}")
+        lines.append(f"    mass {segment.mass:.2%}; mass_fraction {segment.mass / total:.2%}")
         for lower, upper in segment.mode_ranges:
             mode = f"{lower:.4g}" if lower == upper else _bounds_text((lower, upper))
             lines.append(f"      mode {mode}")

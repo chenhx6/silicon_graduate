@@ -1,0 +1,13 @@
+{
+  "checked_manifests": [
+    "/workspace/wiki/raw/code/PDM/analysis/benchmarks/geometry26_20261125/manifest.json"
+  ],
+  "checked_sources": [
+    "/workspace/wiki/knowledge/sources/pdm-deterministic-report-revision-20261124-source.md",
+    "/workspace/wiki/knowledge/sources/pdm-two-geometry-recovery-20261125-source.md"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "ok": true,
+  "scope": "paths"
+}

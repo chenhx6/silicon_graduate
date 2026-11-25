@@ -39,6 +39,7 @@ def test_real_mode_compute_preview_save_and_exports(qtbot, tmp_path, monkeypatch
     window.show()
     window.mode.setCurrentText(mode)
     window.load_example()
+    window.grid_editor.recommended.setChecked(False)
     window.grid_editor.values["angle_step"].setValue(1.0)
     window.grid_editor.values["width_step"].setValue(0.025)
     window.output_path.setText(str(tmp_path / "output"))

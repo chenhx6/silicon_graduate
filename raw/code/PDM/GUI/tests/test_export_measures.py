@@ -1,16 +1,15 @@
-from dataclasses import asdict, replace
 import hashlib
 import json
+from dataclasses import asdict, replace
 
 import numpy as np
 import pytest
-from scipy.integrate import trapezoid
-
 from multipolepdm.contracts import GridSpec, OutputSpec
-from multipolepdm.io.input import example_data, job_from_dict
 from multipolepdm.io.export import export_result, load_snapshot
-from multipolepdm.jobs.workers import compute_job
+from multipolepdm.io.input import example_data, job_from_dict
 from multipolepdm.jobs.manager import freeze_arrays
+from multipolepdm.jobs.workers import compute_job
+from scipy.integrate import trapezoid
 
 
 def test_exported_native_node_probability_sums_to_one(tmp_path):
@@ -53,6 +52,16 @@ def test_snapshot_preserves_angle_and_reported_statistics_and_reopens_v1(tmp_pat
     assert transformed["statistic_labels"]["tan_mean"] == "tan{mean[arctan(δ)]}"
     assert transformed["intervals"][0]["statistic_labels"]["tan_hdi_segments"] == "tan{HDI68%[arctan(δ)]}"
     assert payload["arctan_delta"]["intervals"][0]["hdi_segments"][0]["mode_ranges"]
+    for name, segment_key in (("arctan_delta", "hdi_segments"),
+                              ("sigma_over_i", "hdi_segments"),
+                              ("tan_angle_statistics", "tan_hdi_segments")):
+        interval = payload[name]["intervals"][0]
+        components = interval[segment_key]
+        total = sum(part["mass"] for part in components)
+        assert total == pytest.approx(.68, abs=2e-12)
+        assert sum(part["mass_fraction"] for part in components) == pytest.approx(1.)
+        for part in components:
+            assert part["mass_fraction"] == pytest.approx(part["mass"] / total)
     assert (tmp_path / "marginal_arctan_delta.csv").is_file()
 
     def assert_marginals(reopened):

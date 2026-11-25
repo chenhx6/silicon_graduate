@@ -4,15 +4,15 @@ title: "PDM 确定性报告修订的冻结输入、响应快照与诊断证据"
 title_original: "PDM deterministic report revision: frozen jobs, response snapshots and diagnostics"
 aliases: [PDM确定性报告修订数据20261124]
 created: 2026-11-24
-updated: 2026-11-24
+updated: 2026-11-25
 status: ai-draft
 review_status: unreviewed
 source_type: research-code-and-data
 reading_depth: read
 year: 2026
 canonical_source: "User-authorized local deterministic report revision of the frozen multipolePDM 0.1.1 jobs, 2026-11-24"
-raw_file: "raw/writing/pado/20261029_review_v1/PDM/figures/data/report_revision/manifest.json"
-raw_sha256: "46d42f022b194e49667b7e45758ed2a6936782d3436d898520a9266ebbba3861"
+raw_file: "raw/code/PDM/archives/20261125-before-geometry26/report_revision_bound/manifest.json"
+raw_sha256: "e9394e872d0c5fba40f45cbbd86de2c23fc638151102e569768567cf67fb7ef2"
 code_snapshot_file: "raw/code/PDM/archives/20261124-code-inputs/manifest.json"
 code_snapshot_sha256: "de12a545155276455334b05626cdab32a9dc7874c47cbab7ff7c052d9a284b7b"
 raw_storage_status: archived-local
@@ -126,3 +126,7 @@ tags: [pdm, deterministic-validation, response-grid, finite-domain, polarization
 
 - [[pdm-deterministic-report-revision-20261124]]：去重清单、30／9配置、十条误差样本、正确locator与有限域解释。
 - [[multipolepdm-20261120-v011-validation]]：已有0.1.1实现与合成控制证据入口，仅作历史依赖；本任务不修改该页。
+
+## 2026-11-25 canonical报告修订前的历史绑定保护
+
+本页继续描述2026-11-24的90页历史报告，不把当前main.pdf的内容反称旧报告。原179项清单字节另存`report_revision_manifest.original.json`；本页raw_file迁至同集合的rebound清单，仅将旧main.tex与main.pdf路径绑定到修订前逐字节快照，原SHA-256、大小及科学结果均未改变。当前60注入的报告另由新source登记。

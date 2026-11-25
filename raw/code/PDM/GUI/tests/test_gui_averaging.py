@@ -16,6 +16,7 @@ def test_real_gui_azimuth_options_reach_the_saved_physics_job(qtbot, tmp_path):
     window.select_azimuth.setChecked(False)
     for editor in window.group_editors.values():
         assert not editor.table.cellWidget(0, 1).isEnabled()
+    window.grid_editor.recommended.setChecked(False)
     window.grid_editor.values["angle_step"].setValue(1.0)
     window.grid_editor.values["width_step"].setValue(0.025)
     window.output_path.setText(str(tmp_path))

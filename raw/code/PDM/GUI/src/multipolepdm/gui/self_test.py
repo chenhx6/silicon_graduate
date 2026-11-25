@@ -36,6 +36,7 @@ def run_self_test(report_path):
         for mode in ("P_ADO", "P_DCO", "PDCO"):
             window.mode.setCurrentText(mode)
             window.load_example()
+            window.grid_editor.recommended.setChecked(False)
             window.grid_editor.values["angle_step"].setValue(1.0)
             window.grid_editor.values["width_step"].setValue(0.025)
             window.output_path.setText(str(artifacts / "data"))

@@ -1,0 +1,14 @@
+{
+  "status": "rebound_exact_bytes",
+  "files": [
+    "raw/code/PDM/GUI/pyproject.toml",
+    "raw/code/PDM/GUI/src/multipolepdm/examples/example.json",
+    "raw/code/PDM/GUI/src/multipolepdm/examples/example_PDCO.json",
+    "raw/code/PDM/GUI/src/multipolepdm/examples/example_P_DCO.json",
+    "raw/code/PDM/GUI/src/multipolepdm/examples/example_batch.json"
+  ],
+  "original_expected_hashes_unchanged": true,
+  "original_manifest": "raw/code/PDM/archives/20261125-v011-code-inputs/manifest.before-release-012.original.json",
+  "active_manifest": "raw/code/PDM/archives/20261125-v011-code-inputs/rebound-release-012/manifest.json",
+  "false_global_preflight_findings_resolved": 9
+}

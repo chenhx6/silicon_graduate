@@ -49,6 +49,7 @@ def test_tiny_valid_width_unit_switch_does_not_clamp(qtbot):
     editor = GridEditor()
     qtbot.addWidget(editor)
     editor.set_reference_spin(0.5)
+    editor.recommended.setChecked(False)
     for key, value in zip(("min", "max", "step"), (1e-10, 1e-8, 1.5e-10)):
         editor.values[f"width_{key}"].setValue(value)
     before = editor.spec().axes(0.5)[1]

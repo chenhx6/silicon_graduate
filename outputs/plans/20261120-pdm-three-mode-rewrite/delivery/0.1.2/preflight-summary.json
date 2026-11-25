@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "checked_at": "2026-11-25T14:38:16.028196+00:00",
+  "repository_preflight_ok": true,
+  "repository_archive_failures": 0,
+  "checked_source_count": 529,
+  "checked_learning_manifest_count": 4,
+  "path_boundary_ok": true,
+  "protected_bib_status": "absent",
+  "supplementary_release_artifact_gate": {
+    "checked_manifests": [
+      "/workspace/wiki/raw/code/PDM/analysis/validation_v0_1_2/release/artifact-archive/manifest.json"
+    ],
+    "checked_sources": [],
+    "failure_count": 0,
+    "failures": [],
+    "ok": true,
+    "scope": "paths"
+  },
+  "composition": "Repository preflight passed, then two immutable distribution artifacts were added as a separately verified companion. Main report collection hash and prior validated entries did not change."
+}

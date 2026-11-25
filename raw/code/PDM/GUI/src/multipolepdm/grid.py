@@ -1,10 +1,37 @@
 """Step-defined axes with explicit final cells (never silently rescale a step)."""
 
-from math import ceil, isfinite
+from math import ceil, isfinite, radians
+from typing import TYPE_CHECKING
 
 import numpy as np
 
 MAX_GRID_POINTS = 20_000_000
+
+if TYPE_CHECKING:
+    from multipolepdm.contracts import GridSpec
+
+
+def recommend_grid(reference_spin: float) -> "GridSpec":
+    """Shared GUI/CLI scan defaults for a positive source spin I.
+
+    All numeric fields are in radians and absolute sigma, regardless of the
+    display-unit metadata. Scan arctan(delta) over +/-89 degrees in 0.1-degree
+    steps, and sigma from 0.15 (integer I) or 0.20 (half-integer I) to I in
+    steps of 0.005*I. Explicit/legacy GridSpec inputs are never rewritten here.
+    I=0 has no two-parameter sigma scan and raises ValueError.
+    """
+    from multipolepdm.contracts import GridSpec, spin
+
+    reference_spin = spin(reference_spin)
+    if reference_spin <= 0:
+        raise ValueError("I_ref=0 has no two-parameter sigma scan.")
+    return GridSpec(
+        xi_min_rad=radians(-89), xi_max_rad=radians(89),
+        xi_step_rad=radians(0.1),
+        sigma_min=0.15 if reference_spin.is_integer() else 0.20,
+        sigma_max=reference_spin, sigma_step=0.005 * reference_spin,
+        xi_input_unit="deg", sigma_input_unit="sigma/I",
+    )
 
 
 def stepped_axis(lower: float, upper: float, step: float) -> np.ndarray:

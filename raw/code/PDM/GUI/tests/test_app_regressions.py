@@ -31,6 +31,7 @@ def make_window(qtbot):
         qtbot.addWidget(window)
         windows.append(window)
         window.output_path.setText(str(destination))
+        window.grid_editor.recommended.setChecked(False)
         window.grid_editor.values["angle_step"].setValue(1.0)
         window.grid_editor.values["width_step"].setValue(0.025)
         window.show()

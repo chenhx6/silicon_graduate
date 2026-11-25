@@ -1,0 +1,10 @@
+{
+  "checked_manifests": [
+    "/workspace/wiki/raw/code/PDM/analysis/validation_v0_1_2/release/artifact-archive/manifest.json"
+  ],
+  "checked_sources": [],
+  "failure_count": 0,
+  "failures": [],
+  "ok": true,
+  "scope": "paths"
+}

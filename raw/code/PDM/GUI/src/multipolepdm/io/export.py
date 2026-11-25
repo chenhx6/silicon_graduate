@@ -1,17 +1,16 @@
 """Portable output snapshots; large text export is optional and streamed."""
 
-from dataclasses import asdict
-from datetime import datetime, timezone
 import hashlib
-from importlib.metadata import version
 import json
-from pathlib import Path
 import re
-import uuid
 import sys
+import uuid
+from dataclasses import asdict
+from datetime import UTC, datetime
+from importlib.metadata import version
+from pathlib import Path
 
 import numpy as np
-
 from multipolepdm import __version__
 from multipolepdm.contracts import (
     HDISegment,
@@ -32,7 +31,7 @@ LEGACY_RESULT_SCHEMA = "multipolepdm-result-v1"
 
 def reserve_result_directory(job):
     label = re.sub(r"[^A-Za-z0-9_.-]+", "-", job.label).strip(".-")[:60] or "transition"
-    stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S")
+    stamp = datetime.now(UTC).strftime("%Y%m%dT%H%M%S")
     return Path(job.output.directory) / f"{stamp}-{label}-{uuid.uuid4().hex[:10]}"
 
 
@@ -72,6 +71,9 @@ def _summary_payload(summary):
     transformed["hdi_threshold_coordinate"] = "arctan_delta"
     transformed["hdi_threshold_applies_to"] = "arctan_delta PDF only; never the delta PDF"
     for interval in transformed["intervals"]:
+        total = sum(segment["mass"] for segment in interval["tan_hdi_segments"])
+        for segment in interval["tan_hdi_segments"]:
+            segment["mass_fraction"] = segment["mass"] / total
         percent = f"{interval['mass']:.0%}"
         interval["statistic_labels"] = {
             "tan_hdi_segments": f"tan{{HDI{percent}[arctan(δ)]}}",
@@ -84,6 +86,9 @@ def _summary_payload(summary):
     ):
         for serialized, interval in zip(payload[name]["intervals"], marginal.intervals):
             serialized["hdi"] = interval.hdi
+            total = sum(segment.mass for segment in interval.hdi_segments)
+            for segment in serialized["hdi_segments"]:
+                segment["mass_fraction"] = segment["mass"] / total
     return payload
 
 

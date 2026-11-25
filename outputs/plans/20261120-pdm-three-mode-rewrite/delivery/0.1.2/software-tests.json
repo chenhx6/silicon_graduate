@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "pytest_count": 333,
+  "new_benchmark_tests": 10,
+  "gui_specialized_unique_tests": 81,
+  "json_specialized_tests": 141,
+  "test_counts_overlap": true,
+  "full_suite_evidence": "raw/code/PDM/analysis/validation_v0_1_2/full-pytest.xml",
+  "wheel_verification": "raw/code/PDM/analysis/validation_v0_1_2/release/wheel-env_verification.json",
+  "pypi_exact_verification": "raw/code/PDM/analysis/validation_v0_1_2/release/pypi-env_verification.json",
+  "pypi_gui": "raw/code/PDM/analysis/validation_v0_1_2/release/pypi-gui.json",
+  "environment": "Package-isolated venv with supplied scientific/Qt dependency path; module asserted inside installed package env, not source directory.",
+  "limitations": [
+    "Clean dependency installation stopped after 9p large-file write stall; no fresh dependency-set validation.",
+    "GUI validated on Linux Qt offscreen, not native Windows/macOS.",
+    "pip check finds pre-existing unrelated ocrmypdf/deprecation mismatch; PDM declared imports and functionality pass."
+  ],
+  "published_runtime_and_package_data_files_byte_identical": 41,
+  "current_source_comparison": "raw/code/PDM/analysis/validation_v0_1_2/release/current-source-vs-published.json"
+}

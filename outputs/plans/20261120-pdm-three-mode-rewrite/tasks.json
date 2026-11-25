@@ -27,11 +27,13 @@
         "lower",
         "mode",
         "upper",
-        "probability_mass"
+        "mass",
+        "mass_fraction"
       ],
       "total_mass": 0.68,
       "all_components": true,
-      "eti_mean_use_full_pdf": true
+      "eti_mean_use_full_pdf": true,
+      "total_mass_fraction": 1
     }
   },
   "plot": {
@@ -75,7 +77,8 @@
       "changed_paths": [],
       "unresolved_items": [],
       "next_action": "Research complete; integrate into future GUI implementation, not a released feature.",
-      "specification": "### E01：不对称误差的处理方案（本轮已授权）\n\n- 文件：analysis/research/asymmetric_errors/内可复跑脚本、PDF采样、CSV/JSON；秘书同名章节及Python数据图。\n- 验收：实际执行旧拟合接受/回退与现行模型对比；区分q16/q84与正负1sigma量化定义；对称、两侧比例1.5/2/5及反射控制、至少一个真实不对称P；检查多初值对skew-normal拟合的影响。\n- 产出：归一化/分位数误差/连续性/中心解释/接受原因/尾部与支持域；同一固定响应下的观测二维密度及反演对照；不以三点拟合好就宣布模型最优。"
+      "specification": "### E01：不对称误差的处理方案（本轮已授权）\n\n- 文件：analysis/research/asymmetric_errors/内可复跑脚本、PDF采样、CSV/JSON；秘书同名章节及Python数据图。\n- 验收：实际执行旧拟合接受/回退与现行模型对比；区分q16/q84与正负1sigma量化定义；对称、两侧比例1.5/2/5及反射控制、至少一个真实不对称P；检查多初值对skew-normal拟合的影响。\n- 产出：归一化/分位数误差/连续性/中心解释/接受原因/尾部与支持域；同一固定响应下的观测二维密度及反演对照；不以三点拟合好就宣布模型最优。",
+      "historical_scope": true
     },
     {
       "id": "E02",
@@ -91,7 +94,8 @@
       "changed_paths": [],
       "unresolved_items": [],
       "next_action": "Research complete; integrate into future GUI implementation, not a released feature.",
-      "specification": "### E02：网格与数值阈值有界寻优（本轮已授权）\n\n- 文件：analysis/research/grid_resolution/内脚本、冻结配置、计时、边缘数组和CSV/JSON；秘书网格研究图文。\n- 验收：P90deg、phi平均、三模式、小中大混合，比较0.1deg及更粗/更细角步长，sigma/I0.01与0.001等；实际步长明确；以角空间每段mode、ETI/HDI端点、CDF差/概率质量、边界敏感性及耗时选择推荐网格。\n- 同时改变仅警告阈值须保持PDF不变；记录机器精度退化判断的边界。留出未用于选择的工况检查推荐值，不以调整角度/误差来让粗网格通过。"
+      "specification": "### E02：网格与数值阈值有界寻优（本轮已授权）\n\n- 文件：analysis/research/grid_resolution/内脚本、冻结配置、计时、边缘数组和CSV/JSON；秘书网格研究图文。\n- 验收：P90deg、phi平均、三模式、小中大混合，比较0.1deg及更粗/更细角步长，sigma/I0.01与0.001等；实际步长明确；以角空间每段mode、ETI/HDI端点、CDF差/概率质量、边界敏感性及耗时选择推荐网格。\n- 同时改变仅警告阈值须保持PDF不变；记录机器精度退化判断的边界。留出未用于选择的工况检查推荐值，不以调整角度/误差来让粗网格通过。",
+      "historical_scope": true
     },
     {
       "id": "E03",
@@ -106,7 +110,8 @@
       "changed_paths": [],
       "unresolved_items": [],
       "next_action": "Research complete; integrate into future GUI implementation, not a released feature.",
-      "specification": "### E03：多组权重与方位平均核验（本轮已授权）\n\n- 文件：analysis/research/geometry/内组响应研究脚本及结果；不替换发布核心。\n- 验收：直接核对用户135Pr的2:1/3强度式、P75.5deg；多个delta/宽度下比较生产振幅强度与旧系数公式；证明组退化为一行时回到现有响应，phi平均与phi=0区分。\n- 产出：明确组权重语义与真实原型数值，作为后续GUI实现输入；不能把研究原型说成GUI已完成。"
+      "specification": "### E03：多组权重与方位平均核验（本轮已授权）\n\n- 文件：analysis/research/geometry/内组响应研究脚本及结果；不替换发布核心。\n- 验收：直接核对用户135Pr的2:1/3强度式、P75.5deg；多个delta/宽度下比较生产振幅强度与旧系数公式；证明组退化为一行时回到现有响应，phi平均与phi=0区分。\n- 产出：明确组权重语义与真实原型数值，作为后续GUI实现输入；不能把研究原型说成GUI已完成。",
+      "historical_scope": true
     },
     {
       "id": "U00",
@@ -124,7 +129,8 @@
       ],
       "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "Complete; see final acceptance and scoped limitations."
+      "next_action": "Complete; see final acceptance and scoped limitations.",
+      "historical_scope": true
     },
     {
       "id": "U01",
@@ -141,7 +147,8 @@
       "commands_run": [],
       "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "Complete; see final acceptance and scoped limitations."
+      "next_action": "Complete; see final acceptance and scoped limitations.",
+      "historical_scope": true
     },
     {
       "id": "U02",
@@ -158,7 +165,8 @@
       "commands_run": [],
       "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "Complete; see final acceptance and scoped limitations."
+      "next_action": "Complete; see final acceptance and scoped limitations.",
+      "historical_scope": true
     },
     {
       "id": "U03",
@@ -176,7 +184,8 @@
       "commands_run": [],
       "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "Complete; see final acceptance and scoped limitations."
+      "next_action": "Complete; see final acceptance and scoped limitations.",
+      "historical_scope": true
     },
     {
       "id": "U04",
@@ -195,7 +204,8 @@
       "commands_run": [],
       "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "Complete; see final acceptance and scoped limitations."
+      "next_action": "Complete; see final acceptance and scoped limitations.",
+      "historical_scope": true
     },
     {
       "id": "U05",
@@ -215,7 +225,8 @@
       "commands_run": [],
       "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "Complete; see final acceptance and scoped limitations."
+      "next_action": "Complete; see final acceptance and scoped limitations.",
+      "historical_scope": true
     },
     {
       "id": "U06",
@@ -234,7 +245,8 @@
       "commands_run": [],
       "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "Complete; see final acceptance and scoped limitations."
+      "next_action": "Complete; see final acceptance and scoped limitations.",
+      "historical_scope": true
     },
     {
       "id": "U07",
@@ -253,7 +265,8 @@
       "commands_run": [],
       "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "Complete; see final acceptance and scoped limitations."
+      "next_action": "Complete; see final acceptance and scoped limitations.",
+      "historical_scope": true
     },
     {
       "id": "U08",
@@ -273,7 +286,8 @@
       "commands_run": [],
       "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "Complete; see final acceptance and scoped limitations."
+      "next_action": "Complete; see final acceptance and scoped limitations.",
+      "historical_scope": true
     },
     {
       "id": "U09",
@@ -291,7 +305,8 @@
       "commands_run": [],
       "changed_paths": [],
       "unresolved_items": [],
-      "next_action": "Complete; see final acceptance and scoped limitations."
+      "next_action": "Complete; see final acceptance and scoped limitations.",
+      "historical_scope": true
     },
     {
       "id": "R00",
@@ -332,7 +347,8 @@
         "outputs/plans/20261120-pdm-three-mode-rewrite/"
       ],
       "unresolved_items": [],
-      "next_action": "No required report work remains. Preserve scientific limitations; no new software release."
+      "next_action": "No required report work remains. Preserve scientific limitations; no new software release.",
+      "historical_scope": true
     },
     {
       "id": "R01",
@@ -372,7 +388,8 @@
         "outputs/plans/20261120-pdm-three-mode-rewrite/"
       ],
       "unresolved_items": [],
-      "next_action": "No required report work remains. Preserve scientific limitations; no new software release."
+      "next_action": "No required report work remains. Preserve scientific limitations; no new software release.",
+      "historical_scope": true
     },
     {
       "id": "R02",
@@ -412,7 +429,8 @@
         "outputs/plans/20261120-pdm-three-mode-rewrite/"
       ],
       "unresolved_items": [],
-      "next_action": "No required report work remains. Preserve scientific limitations; no new software release."
+      "next_action": "No required report work remains. Preserve scientific limitations; no new software release.",
+      "historical_scope": true
     },
     {
       "id": "R03",
@@ -453,7 +471,8 @@
         "outputs/plans/20261120-pdm-three-mode-rewrite/"
       ],
       "unresolved_items": [],
-      "next_action": "No required report work remains. Preserve scientific limitations; no new software release."
+      "next_action": "No required report work remains. Preserve scientific limitations; no new software release.",
+      "historical_scope": true
     },
     {
       "id": "R04",
@@ -497,7 +516,8 @@
         "outputs/plans/20261120-pdm-three-mode-rewrite/"
       ],
       "unresolved_items": [],
-      "next_action": "No required report work remains. Preserve scientific limitations; no new software release."
+      "next_action": "No required report work remains. Preserve scientific limitations; no new software release.",
+      "historical_scope": true
     },
     {
       "id": "R05",
@@ -541,7 +561,113 @@
         "system/log.md"
       ],
       "unresolved_items": [],
-      "next_action": "No required report work remains. Preserve scientific limitations; no new software release."
+      "next_action": "No required report work remains. Preserve scientific limitations; no new software release.",
+      "historical_scope": true
+    },
+    {
+      "id": "G00",
+      "title": "现场与计划",
+      "status": "completed",
+      "evidence": [
+        "tmp/pdm-20261125/baseline",
+        "raw/code/PDM/archives/20261125-before-geometry26/manifest.json"
+      ],
+      "changed_paths": [],
+      "unresolved_items": [],
+      "depends_on": []
+    },
+    {
+      "id": "G01",
+      "title": "新30注入",
+      "status": "completed",
+      "evidence": [
+        "raw/code/PDM/analysis/benchmarks/geometry26_20261125/ready.json"
+      ],
+      "changed_paths": [],
+      "unresolved_items": [],
+      "depends_on": []
+    },
+    {
+      "id": "G02",
+      "title": "GUI控件与网格",
+      "status": "completed",
+      "evidence": [
+        "delivery/0.1.2/software-tests.json"
+      ],
+      "changed_paths": [],
+      "unresolved_items": [],
+      "depends_on": []
+    },
+    {
+      "id": "G03",
+      "title": "JSON示例",
+      "status": "completed",
+      "evidence": [
+        "delivery/0.1.2/software-tests.json"
+      ],
+      "changed_paths": [],
+      "unresolved_items": [],
+      "depends_on": []
+    },
+    {
+      "id": "G04",
+      "title": "报告与比较",
+      "status": "completed",
+      "evidence": [
+        "delivery/0.1.2/report-validation.json",
+        "delivery/0.1.2/preflight-summary.json"
+      ],
+      "changed_paths": [],
+      "unresolved_items": [],
+      "depends_on": []
+    },
+    {
+      "id": "G05",
+      "title": "幻灯片资产",
+      "status": "completed",
+      "evidence": [
+        "raw/code/PDM/analysis/validation_v0_1_2/slides/receipt.json"
+      ],
+      "changed_paths": [],
+      "unresolved_items": [],
+      "depends_on": []
+    },
+    {
+      "id": "G06",
+      "title": "构建与正式发布",
+      "status": "completed",
+      "evidence": [
+        "delivery/0.1.2/pypi-publication.json"
+      ],
+      "changed_paths": [],
+      "unresolved_items": [],
+      "depends_on": []
+    },
+    {
+      "id": "G07",
+      "title": "全页与归档",
+      "status": "completed",
+      "evidence": [
+        "delivery/0.1.2/report-validation.json",
+        "delivery/0.1.2/preflight-summary.json"
+      ],
+      "changed_paths": [],
+      "unresolved_items": [],
+      "depends_on": [],
+      "next_action": "Finalize two-decimal report render, compile and final visual/archive checks; PDFs restored from saved densities only."
+    },
+    {
+      "id": "G08",
+      "title": "知识与Git",
+      "status": "in_progress",
+      "evidence": [
+        "delivery/0.1.2/preflight-summary.json",
+        "delivery/0.1.2/historical-binding-reconciliation.json"
+      ],
+      "changed_paths": [],
+      "unresolved_items": [],
+      "depends_on": [],
+      "next_action": "Explicit staged-file review, commit, non-force push, then post-commit reconciliation."
     }
   ],
   "geometry_groups": {
@@ -609,46 +735,38 @@
     "xi_points": 3121,
     "sigma_points": 201
   },
-  "active_grid_baseline": {
-    "xi_min_deg": -89.9,
-    "xi_max_deg": 89.9,
-    "xi_step_deg": 0.1,
-    "sigma_over_i_step": 0.005,
-    "sigma_min": "0.15 integer /0.20 halfinteger",
-    "sigma_max": "reference spin I",
-    "points": "derived from steps and final cell;1799angle points"
-  },
   "knowledge_sources": [
     "knowledge/sources/multipolepdm-20261120-v011-validation.md",
     "knowledge/research-notes/pdm-deterministic-report-revision-20261124.md",
     "knowledge/sources/pdm-deterministic-report-revision-20261124-source.md"
   ],
-  "scientific_limitations": [
-    "The finite-domain deterministic injection study does not establish universal unbiasedness or frequentist coverage.",
-    "Negative delta=-5/-10 in all three modes is outside the 68% angle HDI; all branches and failed recoveries remain visible.",
-    "Observed geometries are declared ideal-ring models and some literature inputs/calibrations are shared.",
-    "Jacobian weighting and sigma marginalization both reshape mass; removing the Jacobian is only a diagnostic, not an alternative validated estimator."
-  ],
-  "schema": "pdm-report-revision-plan-v3",
+  "schema": "pdm-geometry26-release-plan-v4",
   "updated": "2026-11-25",
-  "state": "completed",
-  "status": "completed",
-  "phase": "report_revision",
-  "implementation_authorized": false,
+  "state": "in_progress",
+  "status": "in_progress",
+  "implementation_authorized": true,
   "report_update_authorized": true,
   "scoped_research_authorized": true,
-  "release_authorized": false,
+  "release_authorized": true,
   "approval_required": false,
   "goal_created": true,
-  "goal_id": "01a20bbe-dfb1-77f3-a6a9-fd264a759483",
-  "objective": "仅修订现有报告：30个确定性注入、30个文献二维声明模型（15条不同跃迁）、9前向控制；三张A4横向主表、60张竖向四联图、大混合比诊断、90页逐页QA与知识归档。不改GUI、不发新版本、不新增随机测试、不卡方。",
-  "plan_sha256": "f03a4177582b5169faa4b31489303812e30a199024696aa67f3d069362d138c6",
+  "plan_sha256": "a40f5923aec914e237027d3d31f91d70aeddd07b2f68c451cbcad332bbcde2c7",
   "readable_pdf": "outputs/plans/20261120-pdm-three-mode-rewrite/plan.pdf",
   "readable_pdf_status": "historical_20261120_reading_snapshot",
   "readable_pdf_is_current": false,
   "readable_pdf_note": "旧plan.pdf是20261120历史阅读快照；当前以plan.md为准，本轮不生成额外PDF。",
-  "current_task": null,
-  "current_tasks": [],
+  "current_task": "G08",
+  "current_tasks": [
+    "G00",
+    "G01",
+    "G02",
+    "G03",
+    "G04",
+    "G05",
+    "G06",
+    "G07",
+    "G08"
+  ],
   "historical_task_ids": [
     "E01",
     "E02",
@@ -662,7 +780,13 @@
     "U06",
     "U07",
     "U08",
-    "U09"
+    "U09",
+    "R00",
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05"
   ],
   "historical_contract_0_1_1": {
     "phase": "research_and_software_0_1_1",
@@ -896,91 +1020,6 @@
     "regenerating plan.pdf or creating an extra plan PDF",
     "git commit or git push"
   ],
-  "write_ownership": {
-    "plan_reviewer_only": [
-      "outputs/plans/20261120-pdm-three-mode-rewrite/plan.md",
-      "outputs/plans/20261120-pdm-three-mode-rewrite/tasks.json"
-    ],
-    "main_agent": [
-      "raw/writing/pado/20261029_review_v1/PDM/main.tex",
-      "raw/writing/pado/20261029_review_v1/PDM/main.pdf",
-      "raw/writing/pado/20261029_review_v1/PDM/figures/",
-      "knowledge writeback and archive/handoff reconciliation during R05"
-    ],
-    "disjoint": true,
-    "reviewer_writes_other_files": false
-  },
-  "completion_rule": "Only complete the current report goal after R00-R05 each have actual evidence and all report acceptance checks pass. Preserved E01-E03/U00-U09 completion, existing results and a rewritten plan are not current report completion.",
-  "injection": {
-    "sigma_over_i": 0.3,
-    "sigma_yy_interpretation": "sigma/I by conversation context",
-    "delta_values": [
-      -10,
-      -5,
-      -1,
-      -0.5,
-      -0.1,
-      0.1,
-      0.5,
-      1,
-      5,
-      10
-    ],
-    "polarization_relative_error": 0.8,
-    "angular_ratio_relative_error": 0.1,
-    "ratio_modes": [
-      "R_ADO",
-      "R_DCO"
-    ],
-    "error_widths_use_absolute_value": true,
-    "primary_cases": 30,
-    "generators": [
-      "same_kernel"
-    ],
-    "primary_records": 30,
-    "polarization_theta_deg": 90,
-    "azimuth_selection": false,
-    "ratio_polar_angles_deg": [
-      125,
-      90
-    ],
-    "pdco_gate_polar_angle_deg": 125,
-    "polarization_absolute_floor": 0.1075,
-    "polarization_error_rule": "max(.1075,.8*abs(P0)); floor from ten audited main-tier lines; synthetic only",
-    "ratio_error_rule": ".1*abs(R0) frozen baseline",
-    "polarization_error_policy": {
-      "kind": "relative_with_empirical_floor",
-      "relative_coefficient": 0.8,
-      "absolute_floor": 0.1075,
-      "synthetic_only": true,
-      "not_universal_experimental_precision": true,
-      "provenance": "raw/code/PDM/analysis/research/grid_resolution/frozen_inputs.json"
-    },
-    "sigma_over_i_confirmed": true,
-    "primary_generator": "same_kernel",
-    "background_generators": [
-      "independent_9j"
-    ],
-    "background_independent_records": 30,
-    "random_testing_authorized": false,
-    "centers": "Deterministic forward P0/R0 with no added random noise; inversion still scans full sigma domain.",
-    "target_spins": [
-      5,
-      4
-    ],
-    "gate_spins": [
-      4,
-      2
-    ],
-    "gate_multipole": "E2",
-    "target_first": true,
-    "reference_spin": 5,
-    "sigma_truth": 1.5,
-    "source_results": "raw/code/PDM/analysis/benchmarks/sigma03_relP80_relR10/deterministic.json",
-    "saved_curves": "raw/code/PDM/analysis/benchmarks/sigma03_relP80_relR10/angle_marginals.npz",
-    "historical_repeat_evidence": "raw/code/PDM/analysis/benchmarks/sigma03_relP80_relR10/repeated_coverage.json",
-    "primary_selection_rule": "Select exactly ten same_kernel records per mode; independent_9j remains background verification and is not duplicated in primary report tables/figures."
-  },
   "literature": {
     "primary_resolution": "nominal",
     "initial_inverse_models": 15,
@@ -996,21 +1035,6 @@
     "model_scenarios_are_independent_experiments": false,
     "raw_observations_unchanged": true
   },
-  "report_layout": {
-    "orientation": "A4 portrait except three landscape tables",
-    "landscape_pages": [
-      18,
-      19,
-      20
-    ],
-    "one_nominal_inverse_model_per_four_panel_page": true,
-    "injection_long_tables": "One complete 10-row landscape input-output table per mode; all HDI components/local modes, ETI and tan representations; shared settings adjacent.",
-    "main_table_font_pt": 8.5,
-    "whole_table_shrink_to_fit": false,
-    "all_pages_rendered_and_visually_checked": true,
-    "pages_checked": 90,
-    "unique_final_pdf": "raw/writing/pado/20261029_review_v1/PDM/main.pdf"
-  },
   "physics_review_contract": {
     "sigma_definition": "Discrete normalized p_m proportional to exp(-m^2/(2sigma^2)); sigma is source exponent width, not variance or necessarily actual rms.",
     "reference_state": "P_ADO target initial state; DCO modes earliest observed-photon parent; no second downstream Gaussian.",
@@ -1024,36 +1048,6 @@
     "Finite-domain, empirical-error deterministic results do not establish unbiasedness or frequency coverage.",
     "Literature models are not complete array-acceptance replays; shared measurements and two historical deterministic digitization shifts remain identified."
   ],
-  "publication": {
-    "status": "pushed",
-    "new_software_release": false,
-    "authorization": "2026-11-24 user: classify ordinary PDM software, push, and reconcile Git baseline",
-    "reason": "User-authorized Git baseline content published to origin main after successful non-force dry-run and push; historical hash/size mismatches resolved without changing current software or scientific results.",
-    "receipt": "delivery/git-baseline-20261124.json",
-    "historical_report_receipt": "delivery/report-revision-20261124.json",
-    "code_provenance_manifest": "raw/code/PDM/archives/20261124-code-inputs/manifest.json"
-  },
-  "report_acceptance": {
-    "passed": true,
-    "report_pages": 90,
-    "injection_cases": 30,
-    "literature_models": 30,
-    "distinct_literature_transitions": 15,
-    "forward_only_controls": 9,
-    "four_panel_figures": 60,
-    "landscape_pages": [
-      18,
-      19,
-      20
-    ],
-    "regression_tests_passed": 77,
-    "numeric_snapshots_checked": 60,
-    "numerical_tolerance": 2e-12,
-    "figure_collision_fail": 0,
-    "figure_collision_warn": 0,
-    "scoped_archive_failures": 0,
-    "scoped_lint_issues": 0
-  },
   "historical_scientific_limitations_0_1_1": [
     "PDCO delta=-10 repeated angle coverage: ETI0/100,HDI6/100; not removed or tuned away.",
     "Native Windows/macOS GUI not tested; Linux offscreen/Xvfb verified.",
@@ -1071,7 +1065,183 @@
     "report_manifest_sha256": "46d42f022b194e49667b7e45758ed2a6936782d3436d898520a9266ebbba3861",
     "publication_receipt": "delivery/git-baseline-20261124.json"
   },
-  "statistics_naming_followup": {
+  "historical_report_contract_20261124": {
+    "objective": "仅修订现有报告：30个确定性注入、30个文献二维声明模型（15条不同跃迁）、9前向控制；三张A4横向主表、60张竖向四联图、大混合比诊断、90页逐页QA与知识归档。不改GUI、不发新版本、不新增随机测试、不卡方。",
+    "goal_id": "01a20bbe-dfb1-77f3-a6a9-fd264a759483",
+    "phase": "report_revision",
+    "write_ownership": {
+      "plan_reviewer_only": [
+        "outputs/plans/20261120-pdm-three-mode-rewrite/plan.md",
+        "outputs/plans/20261120-pdm-three-mode-rewrite/tasks.json"
+      ],
+      "main_agent": [
+        "raw/writing/pado/20261029_review_v1/PDM/main.tex",
+        "raw/writing/pado/20261029_review_v1/PDM/main.pdf",
+        "raw/writing/pado/20261029_review_v1/PDM/figures/",
+        "knowledge writeback and archive/handoff reconciliation during R05"
+      ],
+      "disjoint": true,
+      "reviewer_writes_other_files": false
+    },
+    "completion_rule": "Only complete the current report goal after R00-R05 each have actual evidence and all report acceptance checks pass. Preserved E01-E03/U00-U09 completion, existing results and a rewritten plan are not current report completion.",
+    "injection": {
+      "sigma_over_i": 0.3,
+      "sigma_yy_interpretation": "sigma/I by conversation context",
+      "delta_values": [
+        -10,
+        -5,
+        -1,
+        -0.5,
+        -0.1,
+        0.1,
+        0.5,
+        1,
+        5,
+        10
+      ],
+      "polarization_relative_error": 0.8,
+      "angular_ratio_relative_error": 0.1,
+      "ratio_modes": [
+        "R_ADO",
+        "R_DCO"
+      ],
+      "error_widths_use_absolute_value": true,
+      "primary_cases": 30,
+      "generators": [
+        "same_kernel"
+      ],
+      "primary_records": 30,
+      "polarization_theta_deg": 90,
+      "azimuth_selection": false,
+      "ratio_polar_angles_deg": [
+        125,
+        90
+      ],
+      "pdco_gate_polar_angle_deg": 125,
+      "polarization_absolute_floor": 0.1075,
+      "polarization_error_rule": "max(.1075,.8*abs(P0)); floor from ten audited main-tier lines; synthetic only",
+      "ratio_error_rule": ".1*abs(R0) frozen baseline",
+      "polarization_error_policy": {
+        "kind": "relative_with_empirical_floor",
+        "relative_coefficient": 0.8,
+        "absolute_floor": 0.1075,
+        "synthetic_only": true,
+        "not_universal_experimental_precision": true,
+        "provenance": "raw/code/PDM/analysis/research/grid_resolution/frozen_inputs.json"
+      },
+      "sigma_over_i_confirmed": true,
+      "primary_generator": "same_kernel",
+      "background_generators": [
+        "independent_9j"
+      ],
+      "background_independent_records": 30,
+      "random_testing_authorized": false,
+      "centers": "Deterministic forward P0/R0 with no added random noise; inversion still scans full sigma domain.",
+      "target_spins": [
+        5,
+        4
+      ],
+      "gate_spins": [
+        4,
+        2
+      ],
+      "gate_multipole": "E2",
+      "target_first": true,
+      "reference_spin": 5,
+      "sigma_truth": 1.5,
+      "source_results": "raw/code/PDM/analysis/benchmarks/sigma03_relP80_relR10/deterministic.json",
+      "saved_curves": "raw/code/PDM/analysis/benchmarks/sigma03_relP80_relR10/angle_marginals.npz",
+      "historical_repeat_evidence": "raw/code/PDM/analysis/benchmarks/sigma03_relP80_relR10/repeated_coverage.json",
+      "primary_selection_rule": "Select exactly ten same_kernel records per mode; independent_9j remains background verification and is not duplicated in primary report tables/figures."
+    },
+    "report_layout": {
+      "orientation": "A4 portrait except three landscape tables",
+      "landscape_pages": [
+        18,
+        19,
+        20
+      ],
+      "one_nominal_inverse_model_per_four_panel_page": true,
+      "injection_long_tables": "One complete 10-row landscape input-output table per mode; all HDI components/local modes, ETI and tan representations; shared settings adjacent.",
+      "main_table_font_pt": 8.5,
+      "whole_table_shrink_to_fit": false,
+      "all_pages_rendered_and_visually_checked": true,
+      "pages_checked": 90,
+      "unique_final_pdf": "raw/writing/pado/20261029_review_v1/PDM/main.pdf"
+    },
+    "active_grid_baseline": {
+      "xi_min_deg": -89.9,
+      "xi_max_deg": 89.9,
+      "xi_step_deg": 0.1,
+      "sigma_over_i_step": 0.005,
+      "sigma_min": "0.15 integer /0.20 halfinteger",
+      "sigma_max": "reference spin I",
+      "points": "derived from steps and final cell;1799angle points"
+    },
+    "report_acceptance": {
+      "passed": true,
+      "report_pages": 90,
+      "injection_cases": 30,
+      "literature_models": 30,
+      "distinct_literature_transitions": 15,
+      "forward_only_controls": 9,
+      "four_panel_figures": 60,
+      "landscape_pages": [
+        18,
+        19,
+        20
+      ],
+      "regression_tests_passed": 77,
+      "numeric_snapshots_checked": 60,
+      "numerical_tolerance": 2e-12,
+      "figure_collision_fail": 0,
+      "figure_collision_warn": 0,
+      "scoped_archive_failures": 0,
+      "scoped_lint_issues": 0
+    },
+    "publication": {
+      "status": "pushed",
+      "new_software_release": false,
+      "authorization": "2026-11-24 user: classify ordinary PDM software, push, and reconcile Git baseline",
+      "reason": "User-authorized Git baseline content published to origin main after successful non-force dry-run and push; historical hash/size mismatches resolved without changing current software or scientific results.",
+      "receipt": "delivery/git-baseline-20261124.json",
+      "historical_report_receipt": "delivery/report-revision-20261124.json",
+      "code_provenance_manifest": "raw/code/PDM/archives/20261124-code-inputs/manifest.json"
+    },
+    "scientific_limitations": [
+      "The finite-domain deterministic injection study does not establish universal unbiasedness or frequentist coverage.",
+      "Negative delta=-5/-10 in all three modes is outside the 68% angle HDI; all branches and failed recoveries remain visible.",
+      "Observed geometries are declared ideal-ring models and some literature inputs/calibrations are shared.",
+      "Jacobian weighting and sigma marginalization both reshape mass; removing the Jacobian is only a diagnostic, not an alternative validated estimator."
+    ]
+  },
+  "phase": "git_publication",
+  "goal_id": "01a212d0-2f83-7582-9e2a-2d9c51511377",
+  "objective": "旧30复用、新26/90计算30、全部60注入与30文献四联图、inject_test双章、GUI/JSON修订、delta命名与新PyPI正式发布、归档知识Git。",
+  "injection": {
+    "primary_cases": 60,
+    "reused_old_cases": 30,
+    "new_cases": 30,
+    "formal_response_only": true,
+    "independent_9j_required": false,
+    "random_draws": 0
+  },
+  "active_grid_baseline": {
+    "xi_min_deg": -89,
+    "xi_max_deg": 89,
+    "xi_step_deg": 0.1,
+    "sigma_over_i_step": 0.005,
+    "sigma_min": "0.15 integer / 0.20 halfinteger",
+    "sigma_max": "common source spin I"
+  },
+  "report_layout": {
+    "orientation": "portrait except long-table pages",
+    "injection_chapters": 2,
+    "injection_tables": 6,
+    "primary_four_panels": 90
+  },
+  "completion_rule": "G00-G08 all verified in current session; report honest pending items; scientific open limits do not invalidate completed calculations.",
+  "historical_statistics_naming_followup_20261125": {
     "status": "completed",
     "date": "2026-11-25",
     "implementation_authorized": true,
@@ -1124,5 +1294,206 @@
       "inherited_knowledge_lint_errors": 8
     },
     "publication_receipt": "delivery/statistics-naming-publication-20261125.local.json"
+  },
+  "latest_release": {
+    "version": "0.1.2",
+    "status": "published",
+    "pypi": "https://pypi.org/project/multipolePDM/0.1.2/",
+    "exact_pypi_install_verified": true,
+    "runtime_sources_and_package_data_match_published_wheel": 41
+  },
+  "report_acceptance": {
+    "status": "passed",
+    "pages": 131,
+    "landscape_pages": [
+      18,
+      19,
+      20,
+      56,
+      57,
+      58
+    ],
+    "injections_old_reused": 30,
+    "injections_new_computed": 30,
+    "major_injections": 60,
+    "literature_2d_models": 30,
+    "distinct_literature_transitions": 15,
+    "forward_only_controls": 9,
+    "four_panel_figures": 90,
+    "new_report_scientific_figures": 95,
+    "old_pdm_reruns": 0,
+    "random_draws": 0,
+    "interval_mass": 0.68,
+    "numeric_pdf_audits": 90,
+    "numeric_tolerance": 2e-12,
+    "figure_fonts_nonzero": 0,
+    "figure_collision_nonzero": 0,
+    "visual_pages_checked": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131
+    ],
+    "parent_rechecked_tables": [
+      18,
+      19,
+      20,
+      56,
+      57,
+      58
+    ],
+    "parent_rechecked_repaired_pages": [
+      29,
+      42,
+      43,
+      65
+    ],
+    "canonical_pdf": "raw/writing/pado/20261029_review_v1/PDM/main.pdf",
+    "injection_subfile": "raw/writing/pado/20261029_review_v1/PDM/inject_test.tex",
+    "source": "knowledge/sources/pdm-two-geometry-recovery-20261125-source.md",
+    "figure_summary_decimals": 2,
+    "rasterized_pdf_dpi": 300,
+    "final_rendered_qa": "raw/code/PDM/analysis/validation_v0_1_2/report_final_typography/qa-v2/aggregate.json",
+    "final_visual_receipts": [
+      "raw/code/PDM/analysis/validation_v0_1_2/report_final_typography/json-worker-visual-final.json",
+      "raw/code/PDM/analysis/validation_v0_1_2/report_final_typography/worker-visual-final.json"
+    ],
+    "source_static_failures": 0,
+    "source_static_reviewed_warnings": 3,
+    "endpoint_flags": "raw/writing/pado/20261029_review_v1/PDM/figures/data/two_geometry_20261125/mean_endpoint_flags.json"
+  },
+  "publication": {
+    "status": "ready-for-git",
+    "new_software_release": true,
+    "version": "0.1.2",
+    "pypi_status": "published-and-readback-verified",
+    "gates_passed": true
   }
 }

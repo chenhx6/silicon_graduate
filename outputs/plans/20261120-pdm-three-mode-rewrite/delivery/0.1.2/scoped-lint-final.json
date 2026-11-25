@@ -1,0 +1,56 @@
+{
+  "ok": true,
+  "scope": [
+    "knowledge/sources/multipolepdm-20261120-v011-validation.md",
+    "knowledge/sources/pdm-deterministic-report-revision-20261124-source.md",
+    "knowledge/sources/pdm-two-geometry-recovery-20261125-source.md",
+    "knowledge/research-notes/pdm-two-geometry-recovery-20261125.md"
+  ],
+  "new_issues": [],
+  "unchanged_baseline_issues": [
+    {
+      "severity": "error",
+      "code": "CLAIM_TABLE",
+      "path": "knowledge/sources/multipolepdm-20261120-v011-validation.md",
+      "message": "Key Results must expose claim_kind, evidence_level, and locator"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/multipolepdm-20261120-v011-validation.md",
+      "message": "missing ## Bibliographic Record"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/multipolepdm-20261120-v011-validation.md",
+      "message": "missing ## Scope and Reading Depth"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/multipolepdm-20261120-v011-validation.md",
+      "message": "missing ## Summary"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/multipolepdm-20261120-v011-validation.md",
+      "message": "missing ## Key Results"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/multipolepdm-20261120-v011-validation.md",
+      "message": "missing ## Competing Interpretations and Limitations"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/multipolepdm-20261120-v011-validation.md",
+      "message": "missing ## Extracted Pages"
+    }
+  ],
+  "baseline_policy": "Existing v0.1.1 source section-schema diagnostics are preserved; this task changes only its exact historical archive binding. New pages and the report source are schema-clean.",
+  "link_graph_prior_check": "delivery/0.1.2/scoped-lint.json; no subsequent wikilink changes"
+}

@@ -1,6 +1,6 @@
 # PDM Notebook 使用指南
 
-下载并解压与 0.1.1 候选版配套的源码包。打开终端，进入含本 README 和三个 `.ipynb` 的 `analysis/` 目录。安装共享核心与 Jupyter 依赖，再启动 JupyterLab。
+下载并解压与 0.1.2 配套的源码包。打开终端，进入含本 README 和三个 `.ipynb` 的 `analysis/` 目录。安装共享核心与 Jupyter 依赖，再启动 JupyterLab。
 
 ```sh
 python -m pip install "../GUI[analysis]"
@@ -55,3 +55,17 @@ python scripts/audit_cases.py --workbook YOUR_WORKBOOK.xlsx --source-root YOUR_S
 工作簿脚本按表头读取，在内存副本上检查行列重排。`cases/source_evidence.json` 保存核对用的来源清单。完整核对需要自行准备可访问的论文原件及工作簿。
 
 三个公开 Notebook 及0.1.1 benchmark/reference 流程使用源码包中的 `GUI/` 和 `analysis/`。`analysis/research/` 中的历史 E01/E03 探针另有可选的旧实现依赖，复跑这些探针需要原工作区的 `raw/writing/pado/Upload`。源码包内保留的历史证据可独立阅读，公开 Notebook 和0.1.1 验证无需安装该旧实现。
+
+
+## 两组几何的确定性注入（2026-11-25）
+
+`benchmarks/sigma03_relP80_relR10/` 的旧125°/90°主要30例只读复用；新26°/90°主要30例由 `scripts/benchmark_geometry_26.py` 使用正式响应生成中心，各观测独立映射。PDCO偏振门由旧125°改为90°，角域由±89.9°改为±89°；两项共同变化须与比值几何一起声明。未选phi使用环强度平均。
+
+```sh
+python scripts/benchmark_geometry_26.py summary
+python scripts/benchmark_geometry_26.py verify
+```
+
+`run` 只用于新输出位置的计算，已有结果不覆盖。每模式复用一张响应网格，不重跑独立9j，也不运行随机扰动。`results.json["injections"]`、`N01…N30.npz` 和 `ready.json` 给出唯一正式30例；错误方位试算保存在隔离历史目录，不能混入主案例。`N10/N20/N30` 是三模式的δ=+10。生成时版本与源码快照记录真实运行状态，不因维护版发布而回填元数据。
+
+统计在arctan(delta) PDF评估68% HDI/ETI，所有HDI分支保留mass与mass_fraction，分别合计0.68与1；角和sigma/I的份额独立。角统计直接tan的结果与含变量变换因子的真实delta PDF分开保存。用户指定的秘书报告为canonical main.pdf，注入正文统一在其inject_test.tex子文件中；计算结果及报告原件保持本地。

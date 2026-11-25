@@ -1,8 +1,11 @@
 """Small editors for detector groups and physical grid steps."""
 
 import math
+from dataclasses import replace
 
+from multipolepdm.grid import recommend_grid
 from PySide6.QtWidgets import (
+    QCheckBox,
     QComboBox,
     QDoubleSpinBox,
     QFormLayout,
@@ -18,6 +21,11 @@ from PySide6.QtWidgets import (
 class CompactNumber(QDoubleSpinBox):
     def textFromValue(self, value):
         return self.locale().toString(value, "g", 12)
+
+    def wheelEvent(self, event):
+        # Ignore even while focused, so Qt can deliver the wheel to an outer
+        # table/scroll area. Keyboard stepping and the arrow buttons stay active.
+        event.ignore()
 
 
 def number(lower, upper, value, step=0.1):
@@ -103,126 +111,177 @@ class GridEditor(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
         self.reference_spin = 1.0
-        self._angle_unit = "deg"
-        self._width_unit = "sigma/I"
+        self._spec = recommend_grid(self.reference_spin)
+        self._updating = False
         form = QFormLayout(self)
         form.setContentsMargins(0, 0, 0, 0)
+        self.recommended = QCheckBox("Use recommended grid")
+        self.recommended.setChecked(True)
+        form.addRow(self.recommended)
         self.angle_unit = QComboBox()
         self.angle_unit.addItems(["deg", "rad"])
         form.addRow("arctan(delta) units", self.angle_unit)
         self.width_unit = QComboBox()
         self.width_unit.addItems(["sigma/I", "sigma"])
         self.values = {}
-        for axis, defaults in (
-            ("angle", (-89.9, 89.9, 0.1)),
-            ("width", (0.15, 1.0, 0.005)),
-        ):
+        for axis in ("angle", "width"):
             row = QHBoxLayout()
-            for key, value in zip(("min", "max", "step"), defaults):
+            for key in ("min", "max", "step"):
                 box = number(
                     -1e4 if axis == "angle" and key != "step" else 1e-10,
-                    1e4,
-                    value,
+                    1e4, 1,
                     0.1 if axis == "angle" else 0.005,
                 )
                 self.values[f"{axis}_{key}"] = box
                 box.setDecimals(323)
                 row.addWidget(box)
-                box.valueChanged.connect(self.update_hint)
+                box.valueChanged.connect(
+                    lambda value, axis=axis: self._edit_axis(axis)
+                )
             form.addRow(
                 "arctan(delta): min / max / step"
-                if axis == "angle"
-                else "Width: min / max / step",
-                row,
+                if axis == "angle" else "Width: min / max / step", row,
             )
             if axis == "angle":
                 form.addRow("Width units", self.width_unit)
         self.hint = QLabel()
         self.hint.setWordWrap(True)
         form.addRow(self.hint)
+        self.recommended.toggled.connect(self._toggle_recommended)
         self.angle_unit.currentTextChanged.connect(self.change_angle_unit)
         self.width_unit.currentTextChanged.connect(self.change_width_unit)
+        self._toggle_recommended(True)
+
+    def _toggle_recommended(self, checked):
+        for box in self.values.values():
+            box.setEnabled(not checked)
+        if checked:
+            self._restore_recommended()
+        self._render()
+
+    def _restore_recommended(self):
+        try:
+            self._spec = replace(
+                recommend_grid(self.reference_spin),
+                xi_input_unit=self.angle_unit.currentText(),
+                sigma_input_unit=self.width_unit.currentText(),
+            )
+        except ValueError:
+            # Spin fields can be temporarily invalid while typing. Keep the
+            # last display, and let spec()/the hint report the actual problem.
+            pass
+
+    def _edit_axis(self, axis):
+        if self._updating:
+            return
+        if self.recommended.isChecked():
+            self._render()
+            return
+        lo, hi, step = (self.values[f"{axis}_{key}"].value()
+                        for key in ("min", "max", "step"))
+        if axis == "angle":
+            scale = math.pi / 180 if self.angle_unit.currentText() == "deg" else 1
+            self._spec = replace(self._spec, xi_min_rad=lo * scale,
+                                 xi_max_rad=hi * scale, xi_step_rad=step * scale)
+        else:
+            scale = self.reference_spin if self.width_unit.currentText() == "sigma/I" else 1
+            self._spec = replace(self._spec, sigma_min=lo * scale,
+                                 sigma_max=hi * scale, sigma_step=step * scale)
         self.update_hint()
 
     def change_angle_unit(self, unit):
-        factor = math.pi / 180 if unit == "rad" else 180 / math.pi
-        if unit != self._angle_unit:
-            for key in ("min", "max", "step"):
-                box = self.values[f"angle_{key}"]
-                converted = box.value() * factor
-                lower = min(1e-10, converted) if key == "step" else -1e4
-                box.setRange(lower, max(1e4, converted))
-                box.setValue(converted)
-            self._angle_unit = unit
-        self.update_hint()
+        if not self._updating:
+            self._spec = replace(self._spec, xi_input_unit=unit)
+            self._render()
 
     def change_width_unit(self, unit):
-        if unit != self._width_unit and self.reference_spin > 0:
-            factor = self.reference_spin if unit == "sigma" else 1 / self.reference_spin
-            for key in ("min", "max", "step"):
-                box = self.values[f"width_{key}"]
-                converted = box.value() * factor
-                # Rebase limits instead of repeatedly scaling limits with a
-                # possibly different reference spin on each unit switch.
-                box.setRange(min(1e-10, converted), max(1e4, converted))
-                box.setValue(converted)
-        self._width_unit = unit
-        self.update_hint()
+        if not self._updating:
+            self._spec = replace(self._spec, sigma_input_unit=unit)
+            self._render()
 
     def set_reference_spin(self, spin, reset_bounds=False):
+        # reset_bounds is retained for existing callers. Only recommended mode
+        # changes physical bounds; a manual/imported grid stays in absolute sigma.
         self.reference_spin = spin
-        if reset_bounds and spin > 0:
-            scale = spin if self.width_unit.currentText() == "sigma/I" else 1
-            self.values["width_min"].setValue((0.15 if spin % 1 == 0 else 0.2) / scale)
-            self.values["width_max"].setValue(spin / scale)
-        self.update_hint()
+        if self.recommended.isChecked():
+            self._restore_recommended()
+        self._render()
 
     def spec(self):
-        from multipolepdm.contracts import GridSpec
-
-        a = math.pi / 180 if self.angle_unit.currentText() == "deg" else 1
-        s = self.reference_spin if self.width_unit.currentText() == "sigma/I" else 1
-        v = {k: box.value() for k, box in self.values.items()}
-        return GridSpec(
-            xi_min_rad=v["angle_min"] * a,
-            xi_max_rad=v["angle_max"] * a,
-            xi_step_rad=v["angle_step"] * a,
-            sigma_min=v["width_min"] * s,
-            sigma_max=v["width_max"] * s,
-            sigma_step=v["width_step"] * s,
-            xi_input_unit=self.angle_unit.currentText(),
-            sigma_input_unit=self.width_unit.currentText(),
-        )
+        if self.recommended.isChecked():
+            # Validate temporary spin edits without replacing an imported,
+            # physically equivalent count-defined grid.
+            recommend_grid(self.reference_spin)
+        return self._spec
 
     def load_spec(self, spec, reference_spin):
-        self.reference_spin = reference_spin
-        self.angle_unit.setCurrentText(spec.xi_input_unit)
-        self.width_unit.setCurrentText(spec.sigma_input_unit)
-        xi, sigma = spec.axes(reference_spin)
-        a = 180 / math.pi if self.angle_unit.currentText() == "deg" else 1
-        s = reference_spin if self.width_unit.currentText() == "sigma/I" else 1
-        values = dict(
-            angle_min=xi[0] * a,
-            angle_max=xi[-1] * a,
-            angle_step=(spec.xi_step_rad or (xi[1] - xi[0])) * a,
-            width_min=sigma[0] / s,
-            width_max=sigma[-1] / s,
-            width_step=(spec.sigma_step or (sigma[1] - sigma[0])) / s,
-        )
-        for k, v in values.items():
-            self.values[k].setValue(v)
+        # Compare physical axes, not metadata/point counts: legacy count-defined
+        # grids must retain their exact contract when imported without editing.
+        import numpy as np
+
+        axes = spec.axes(reference_spin)
+        recommended_axes = recommend_grid(reference_spin).axes(reference_spin)
+        matches = all(a.shape == b.shape and np.allclose(a, b, rtol=2e-14, atol=1e-15)
+                      for a, b in zip(axes, recommended_axes))
+        self._updating = True
+        try:
+            self.reference_spin = reference_spin
+            self._spec = spec
+            self.recommended.blockSignals(True)
+            self.recommended.setChecked(matches)
+            self.recommended.blockSignals(False)
+            self.angle_unit.setCurrentText(spec.xi_input_unit)
+            self.width_unit.setCurrentText(spec.sigma_input_unit)
+            for box in self.values.values():
+                box.setEnabled(not matches)
+        finally:
+            self._updating = False
+        self._render()
+
+    def _display_values(self):
+        spec = self._spec
+        lo = spec.sigma_min
+        if lo is None:
+            lo = 0.15 if self.reference_spin % 1 == 0 else 0.20
+        hi = self.reference_spin if spec.sigma_max is None else spec.sigma_max
+        a = 180 / math.pi if spec.xi_input_unit == "deg" else 1
+        s = self.reference_spin if spec.sigma_input_unit == "sigma/I" else 1
+        # Zero spin is an invalid scan, but must remain an editable GUI state.
+        s = s or 1
+        return {
+            "angle_min": spec.xi_min_rad * a,
+            "angle_max": spec.xi_max_rad * a,
+            "angle_step": (spec.xi_step_rad if spec.xi_step_rad is not None else
+                        (spec.xi_max_rad - spec.xi_min_rad) / (spec.xi_points - 1)) * a,
+            "width_min": lo / s, "width_max": hi / s,
+            "width_step": (spec.sigma_step if spec.sigma_step is not None else
+                        (hi - lo) / (spec.sigma_points - 1)) / s,
+        }
+
+    def _render(self):
+        self._updating = True
+        try:
+            for key, value in self._display_values().items():
+                box = self.values[key]
+                lower = -1e4 if key.startswith("angle_") and key != "angle_step" else min(1e-10, value)
+                box.setRange(lower, max(1e4, value))
+                box.setValue(value)
+        finally:
+            self._updating = False
         self.update_hint()
 
     def update_hint(self):
         if not hasattr(self, "hint"):
             return
-        counts = []
-        for axis in ("angle", "width"):
-            lo, hi, step = (
-                self.values[f"{axis}_{k}"].value() for k in ("min", "max", "step")
-            )
-            counts.append(max(0, math.ceil((hi - lo) / step - 1e-9) + 1))
-        self.hint.setText(
-            f"Approx. {counts[0]} x {counts[1]} nodes. "
-            "Requested steps are preserved; the final cell may be shorter."
-        )
+        note = ("Recommended grid; bounds and steps are locked. "
+                if self.recommended.isChecked() else
+                "Manual grid: check coverage and precision; finer steps increase runtime. "
+                "Recheck Use recommended grid to replace these values. ")
+        try:
+            xi, sigma = self.spec().axes(self.reference_spin)
+            detail = (f"{len(xi)} x {len(sigma)} nodes. "
+                      f"Source sigma: {sigma[0]:g} to {sigma[-1]:g}. "
+                      "Requested steps are preserved; the final cell may be shorter.")
+        except ValueError as exc:
+            detail = str(exc)
+        self.hint.setText(note + detail)
