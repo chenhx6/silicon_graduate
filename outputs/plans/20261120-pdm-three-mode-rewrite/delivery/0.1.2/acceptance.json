@@ -1,5 +1,5 @@
 {
-  "status": "ready_for_git_publication",
+  "status": "completed",
   "version": "0.1.2",
   "pypi": "published-and-installed-exact-version",
   "software_tests": 333,
@@ -12,14 +12,16 @@
   "four_panel_figures": 90,
   "report_pages": 131,
   "all_requested_science_and_software_checks_passed": true,
-  "required_remaining": [
-    "Git commit/push and post-commit reconciliation"
-  ],
+  "required_remaining": [],
   "limitations": [
     "Clean dependency installation stopped after 9p large-file write stall; no fresh dependency-set validation.",
     "GUI validated on Linux Qt offscreen, not native Windows/macOS.",
     "pip check finds pre-existing unrelated ocrmypdf/deprecation mismatch; PDM declared imports and functionality pass."
   ],
   "canonical_pdf": "raw/writing/pado/20261029_review_v1/PDM/main.pdf",
-  "knowledge_source": "knowledge/sources/pdm-two-geometry-recovery-20261125-source.md"
+  "knowledge_source": "knowledge/sources/pdm-two-geometry-recovery-20261125-source.md",
+  "git_publication": "pushed",
+  "post_commit_reconciliation": "passed",
+  "git_receipt": "git-publication.json",
+  "completion_metadata_subject": "pdm: reconcile 0.1.2 delivery and final report"
 }

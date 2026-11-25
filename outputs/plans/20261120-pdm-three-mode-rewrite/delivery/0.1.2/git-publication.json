@@ -1,0 +1,153 @@
+{
+  "status": "pushed",
+  "branch": "main",
+  "subject": "pdm: finalize 0.1.2 and two-geometry deterministic recovery",
+  "started_at": "2026-11-25T14:45:32.085976+00:00",
+  "commands": [
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "commit",
+        "-m",
+        "pdm: finalize 0.1.2 and two-geometry deterministic recovery"
+      ],
+      "exit_code": 0,
+      "stdout": "[main 8b4a3ab2] pdm: finalize 0.1.2 and two-geometry deterministic recovery\n 48 files changed, 3287 insertions(+), 561 deletions(-)\n create mode 100644 knowledge/research-notes/pdm-two-geometry-recovery-20261125.md\n create mode 100644 knowledge/sources/pdm-two-geometry-recovery-20261125-source.md\n create mode 100644 outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/acceptance.json\n create mode 100644 outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/archive-final.json\n create mode 100644 outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/artifact-archive-gate.json\n create mode 100644 outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/boundary.json\n create mode 100644 outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/historical-binding-reconciliation.json\n create mode 100644 outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/preflight-summary.json\n create mode 100644 outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/pypi-publication.json\n create mode 100644 outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/report-validation.json\n create mode 100644 outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/scientific-boundaries.json\n create mode 100644 outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/scoped-lint-final.json\n create mode 100644 outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/scoped-lint.json\n create mode 100644 outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/software-tests.json\n create mode 100644 raw/code/PDM/GUI/src/multipolepdm/examples/regenerate_examples.py\n create mode 100644 raw/code/PDM/GUI/tests/test_grid_controls.py\n create mode 100644 raw/code/PDM/GUI/tests/test_json_help.py\n create mode 100644 raw/code/PDM/GUI/tests/test_numeric_wheel.py\n create mode 100644 raw/code/PDM/analysis/scripts/audit_two_geometry_report.py\n create mode 100644 raw/code/PDM/analysis/scripts/benchmark_geometry_26.py\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "stdout": "8b4a3ab2c62a89e5f74bf5d39fa86611f5b07cfd\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "show",
+        "--format=",
+        "--name-only",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "stdout": "knowledge/index.md\nknowledge/research-notes/pdm-two-geometry-recovery-20261125.md\nknowledge/sources/multipolepdm-20261120-v011-validation.md\nknowledge/sources/pdm-deterministic-report-revision-20261124-source.md\nknowledge/sources/pdm-two-geometry-recovery-20261125-source.md\noutputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/acceptance.json\noutputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/archive-final.json\noutputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/artifact-archive-gate.json\noutputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/boundary.json\noutputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/historical-binding-reconciliation.json\noutputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/preflight-summary.json\noutputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/pypi-publication.json\noutputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/report-validation.json\noutputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/scientific-boundaries.json\noutputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/scoped-lint-final.json\noutputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/scoped-lint.json\noutputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/software-tests.json\noutputs/plans/20261120-pdm-three-mode-rewrite/plan.md\noutputs/plans/20261120-pdm-three-mode-rewrite/tasks.json\nraw/code/PDM/GUI/README.md\nraw/code/PDM/GUI/pyproject.toml\nraw/code/PDM/GUI/src/multipolepdm/__init__.py\nraw/code/PDM/GUI/src/multipolepdm/config/common.py\nraw/code/PDM/GUI/src/multipolepdm/examples/README.md\nraw/code/PDM/GUI/src/multipolepdm/examples/example.json\nraw/code/PDM/GUI/src/multipolepdm/examples/example_PDCO.json\nraw/code/PDM/GUI/src/multipolepdm/examples/example_P_DCO.json\nraw/code/PDM/GUI/src/multipolepdm/examples/example_batch.json\nraw/code/PDM/GUI/src/multipolepdm/examples/regenerate_examples.py\nraw/code/PDM/GUI/src/multipolepdm/grid.py\nraw/code/PDM/GUI/src/multipolepdm/gui/editors.py\nraw/code/PDM/GUI/src/multipolepdm/gui/self_test.py\nraw/code/PDM/GUI/src/multipolepdm/gui/window.py\nraw/code/PDM/GUI/src/multipolepdm/io/export.py\nraw/code/PDM/GUI/src/multipolepdm/io/input.py\nraw/code/PDM/GUI/src/multipolepdm/plotting/intervals.py\nraw/code/PDM/GUI/tests/test_app_regressions.py\nraw/code/PDM/GUI/tests/test_export_measures.py\nraw/code/PDM/GUI/tests/test_grid_controls.py\nraw/code/PDM/GUI/tests/test_gui.py\nraw/code/PDM/GUI/tests/test_gui_averaging.py\nraw/code/PDM/GUI/tests/test_json_help.py\nraw/code/PDM/GUI/tests/test_numeric_wheel.py\nraw/code/PDM/GUI/tests/test_review_regressions.py\nraw/code/PDM/analysis/README.md\nraw/code/PDM/analysis/scripts/audit_two_geometry_report.py\nraw/code/PDM/analysis/scripts/benchmark_geometry_26.py\nsystem/handoff.md\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "fetch",
+        "origin",
+        "main"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "From gitee.com:chx6/silicon_graduate\n * branch              main       -> FETCH_HEAD\n"
+    },
+    {
+      "argv": [
+        "git",
+        "merge-base",
+        "--is-ancestor",
+        "origin/main",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "push",
+        "--dry-run",
+        "origin",
+        "HEAD:main"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "To gitee.com:chx6/silicon_graduate.git\n   c73c9f98..8b4a3ab2  HEAD -> main\n"
+    },
+    {
+      "argv": [
+        "git",
+        "push",
+        "origin",
+        "HEAD:main"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 2b4a47a3        \nTo gitee.com:chx6/silicon_graduate.git\n   c73c9f98..8b4a3ab2  HEAD -> main\n"
+    }
+  ],
+  "implementation_commit": "8b4a3ab2c62a89e5f74bf5d39fa86611f5b07cfd",
+  "committed_paths": [
+    "knowledge/index.md",
+    "knowledge/research-notes/pdm-two-geometry-recovery-20261125.md",
+    "knowledge/sources/multipolepdm-20261120-v011-validation.md",
+    "knowledge/sources/pdm-deterministic-report-revision-20261124-source.md",
+    "knowledge/sources/pdm-two-geometry-recovery-20261125-source.md",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/acceptance.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/archive-final.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/artifact-archive-gate.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/boundary.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/historical-binding-reconciliation.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/preflight-summary.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/pypi-publication.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/report-validation.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/scientific-boundaries.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/scoped-lint-final.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/scoped-lint.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/software-tests.json",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/plan.md",
+    "outputs/plans/20261120-pdm-three-mode-rewrite/tasks.json",
+    "raw/code/PDM/GUI/README.md",
+    "raw/code/PDM/GUI/pyproject.toml",
+    "raw/code/PDM/GUI/src/multipolepdm/__init__.py",
+    "raw/code/PDM/GUI/src/multipolepdm/config/common.py",
+    "raw/code/PDM/GUI/src/multipolepdm/examples/README.md",
+    "raw/code/PDM/GUI/src/multipolepdm/examples/example.json",
+    "raw/code/PDM/GUI/src/multipolepdm/examples/example_PDCO.json",
+    "raw/code/PDM/GUI/src/multipolepdm/examples/example_P_DCO.json",
+    "raw/code/PDM/GUI/src/multipolepdm/examples/example_batch.json",
+    "raw/code/PDM/GUI/src/multipolepdm/examples/regenerate_examples.py",
+    "raw/code/PDM/GUI/src/multipolepdm/grid.py",
+    "raw/code/PDM/GUI/src/multipolepdm/gui/editors.py",
+    "raw/code/PDM/GUI/src/multipolepdm/gui/self_test.py",
+    "raw/code/PDM/GUI/src/multipolepdm/gui/window.py",
+    "raw/code/PDM/GUI/src/multipolepdm/io/export.py",
+    "raw/code/PDM/GUI/src/multipolepdm/io/input.py",
+    "raw/code/PDM/GUI/src/multipolepdm/plotting/intervals.py",
+    "raw/code/PDM/GUI/tests/test_app_regressions.py",
+    "raw/code/PDM/GUI/tests/test_export_measures.py",
+    "raw/code/PDM/GUI/tests/test_grid_controls.py",
+    "raw/code/PDM/GUI/tests/test_gui.py",
+    "raw/code/PDM/GUI/tests/test_gui_averaging.py",
+    "raw/code/PDM/GUI/tests/test_json_help.py",
+    "raw/code/PDM/GUI/tests/test_numeric_wheel.py",
+    "raw/code/PDM/GUI/tests/test_review_regressions.py",
+    "raw/code/PDM/analysis/README.md",
+    "raw/code/PDM/analysis/scripts/audit_two_geometry_report.py",
+    "raw/code/PDM/analysis/scripts/benchmark_geometry_26.py",
+    "system/handoff.md"
+  ],
+  "finished_at": "2026-11-25T14:45:54.636981+00:00",
+  "post_commit_reconciliation": "passed: 48 scoped implementation paths; main aligned with origin/main; only expected task receipt remained before closure.",
+  "completion_metadata_subject": "pdm: reconcile 0.1.2 delivery and final report",
+  "final_local_receipt": "outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/git-publication.local.log"
+}

@@ -9522,7 +9522,7 @@ The result and raw toy CSV are now in the PADO package and public-release manife
 - 既有其它修改均保留；全仓旧归档/结构问题与本轮交付分开记录，发布结果以本轮回执为准。科学开放边界不作为用户待审核事项。
 
 
-## 2026-11-25 — PDM两组几何与0.1.2发布（验收通过，Git发布待收尾）
+## 2026-11-25 — PDM两组几何与0.1.2发布（已交付）
 
 - 本轮唯一合同为 `outputs/plans/20261120-pdm-three-mode-rewrite/plan.md`，G00–G08账本已替换冲突旧条款。旧125°/90°30例不重跑，新26°/90°30例使用正式响应、未选phi的环平均；实际source I=5，PDCO偏振方向门90°，新角域±89°，两者共同变化明确声明。
 - 新30例ready/validation及历史哈希核查已通过；旧30+新30为60主要注入，另保留30文献二维模型/15跃迁和9前向。正确批次30次独立映射，错误固定phi试算隔离，不改标签冒充环平均。
@@ -9530,4 +9530,6 @@ The result and raw toy CSV are now in the PADO package and public-release manife
 - 最终main.pdf为131页；inject_test.tex含两章，60注入+30文献共90张四联图，六张长表仅18–20及56–58页横向。90 PDF独立积分核验、95图字体／碰撞及最终全131页实际视觉复查均通过；图下默认两位小数／小非零科学计数法，响应mesh 300dpi。新旧渲染与端点flags均固定留档，无新增反演。
 - 知识已写 [[pdm-two-geometry-recovery-20261125]] 及对应source，新增页面／报告来源的定向schema/link检查通过；旧v0.1.1来源的7项既有章节结构诊断保留且未新增。新角HDI含真值30/30、ETI27/30，大绝对值ETI中心仍偏小；PDCO +10中位数0.24、角mode取tan为6.04，不声称普遍无偏。旧main及179项清单原字节保留，新旧源码和PDF绑定固定快照。
 
-- 发布preflight全库归档零失败；旧0.1.1清单五项工作路径已以原哈希一致的HEAD字节快照修复，原清单／期望哈希未改。软件与知识拟发布稳定指针为 `main + pdm: finalize 0.1.2 and two-geometry deterministic recovery`；Git精确身份及最终结果写任务回执。
+- 发布preflight全库归档零失败；旧0.1.1清单五项工作路径已以原哈希一致的HEAD字节快照修复，原清单／期望哈希未改。软件与知识已发布稳定指针为 `main + pdm: finalize 0.1.2 and two-geometry deterministic recovery`；Git精确身份及最终结果写任务回执。
+
+- 主体48个源码／知识／计划／验收文件已非force推送origin/main，提交后核对范围与状态通过；G00–G08全部完成。交付回执 `outputs/plans/20261120-pdm-three-mode-rewrite/delivery/0.1.2/acceptance.json`，收尾主题 `main + pdm: reconcile 0.1.2 delivery and final report`；精确身份只写任务回执。

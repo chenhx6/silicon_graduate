@@ -574,7 +574,8 @@
       ],
       "changed_paths": [],
       "unresolved_items": [],
-      "depends_on": []
+      "depends_on": [],
+      "next_action": "Complete; current delivery evidence retained."
     },
     {
       "id": "G01",
@@ -585,7 +586,8 @@
       ],
       "changed_paths": [],
       "unresolved_items": [],
-      "depends_on": []
+      "depends_on": [],
+      "next_action": "Complete; current delivery evidence retained."
     },
     {
       "id": "G02",
@@ -596,7 +598,8 @@
       ],
       "changed_paths": [],
       "unresolved_items": [],
-      "depends_on": []
+      "depends_on": [],
+      "next_action": "Complete; current delivery evidence retained."
     },
     {
       "id": "G03",
@@ -607,7 +610,8 @@
       ],
       "changed_paths": [],
       "unresolved_items": [],
-      "depends_on": []
+      "depends_on": [],
+      "next_action": "Complete; current delivery evidence retained."
     },
     {
       "id": "G04",
@@ -619,7 +623,8 @@
       ],
       "changed_paths": [],
       "unresolved_items": [],
-      "depends_on": []
+      "depends_on": [],
+      "next_action": "Complete; current delivery evidence retained."
     },
     {
       "id": "G05",
@@ -630,7 +635,8 @@
       ],
       "changed_paths": [],
       "unresolved_items": [],
-      "depends_on": []
+      "depends_on": [],
+      "next_action": "Complete; current delivery evidence retained."
     },
     {
       "id": "G06",
@@ -641,7 +647,8 @@
       ],
       "changed_paths": [],
       "unresolved_items": [],
-      "depends_on": []
+      "depends_on": [],
+      "next_action": "Complete; current delivery evidence retained."
     },
     {
       "id": "G07",
@@ -654,20 +661,21 @@
       "changed_paths": [],
       "unresolved_items": [],
       "depends_on": [],
-      "next_action": "Finalize two-decimal report render, compile and final visual/archive checks; PDFs restored from saved densities only."
+      "next_action": "Complete; current delivery evidence retained."
     },
     {
       "id": "G08",
       "title": "知识与Git",
-      "status": "in_progress",
+      "status": "completed",
       "evidence": [
+        "delivery/0.1.2/git-publication.json",
         "delivery/0.1.2/preflight-summary.json",
         "delivery/0.1.2/historical-binding-reconciliation.json"
       ],
       "changed_paths": [],
       "unresolved_items": [],
       "depends_on": [],
-      "next_action": "Explicit staged-file review, commit, non-force push, then post-commit reconciliation."
+      "next_action": "Complete; current delivery evidence retained."
     }
   ],
   "geometry_groups": {
@@ -742,31 +750,21 @@
   ],
   "schema": "pdm-geometry26-release-plan-v4",
   "updated": "2026-11-25",
-  "state": "in_progress",
-  "status": "in_progress",
+  "state": "completed",
+  "status": "completed",
   "implementation_authorized": true,
   "report_update_authorized": true,
   "scoped_research_authorized": true,
   "release_authorized": true,
   "approval_required": false,
   "goal_created": true,
-  "plan_sha256": "a40f5923aec914e237027d3d31f91d70aeddd07b2f68c451cbcad332bbcde2c7",
+  "plan_sha256": "6dca05f9616481ac8c249d665a1e686a6f9629715db53a761469f3409c37456b",
   "readable_pdf": "outputs/plans/20261120-pdm-three-mode-rewrite/plan.pdf",
   "readable_pdf_status": "historical_20261120_reading_snapshot",
   "readable_pdf_is_current": false,
   "readable_pdf_note": "旧plan.pdf是20261120历史阅读快照；当前以plan.md为准，本轮不生成额外PDF。",
-  "current_task": "G08",
-  "current_tasks": [
-    "G00",
-    "G01",
-    "G02",
-    "G03",
-    "G04",
-    "G05",
-    "G06",
-    "G07",
-    "G08"
-  ],
+  "current_task": null,
+  "current_tasks": [],
   "historical_task_ids": [
     "E01",
     "E02",
@@ -1215,7 +1213,7 @@
       "Jacobian weighting and sigma marginalization both reshape mass; removing the Jacobian is only a diagnostic, not an alternative validated estimator."
     ]
   },
-  "phase": "git_publication",
+  "phase": "delivered",
   "goal_id": "01a212d0-2f83-7582-9e2a-2d9c51511377",
   "objective": "旧30复用、新26/90计算30、全部60注入与30文献四联图、inject_test双章、GUI/JSON修订、delta命名与新PyPI正式发布、归档知识Git。",
   "injection": {
@@ -1490,10 +1488,15 @@
     "endpoint_flags": "raw/writing/pado/20261029_review_v1/PDM/figures/data/two_geometry_20261125/mean_endpoint_flags.json"
   },
   "publication": {
-    "status": "ready-for-git",
+    "status": "pushed",
     "new_software_release": true,
     "version": "0.1.2",
-    "pypi_status": "published-and-readback-verified",
+    "pypi_status": "published-and-installed-exact-version",
+    "branch": "main",
+    "implementation_subject": "pdm: finalize 0.1.2 and two-geometry deterministic recovery",
+    "completion_metadata_subject": "pdm: reconcile 0.1.2 delivery and final report",
+    "receipt": "delivery/0.1.2/git-publication.json",
     "gates_passed": true
-  }
+  },
+  "completed_at": "2026-11-25T14:52:40.746283+00:00"
 }

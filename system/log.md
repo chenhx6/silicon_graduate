@@ -7427,3 +7427,11 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - 按侧栏转交的用户授权更新工作源码、GUI图例、导出与文档：显式标记角mode／HDI／mean的tan表示，均值加减标准差只称角统计转换端点。新schema v3将真实δ PDF与角统计报告分开，保留Python旧接口及v1/v2/v3快照读取，不改写旧文件。
 - 物理、观测误差、统计数值核、68%约定、0.1.1版本和已有main.pdf均不变；未重跑实验、Notebook或发布新包，未写侧栏绘图目录。旧0.1.1验证集合先固定75项代码／说明引用，原验证清单保持原SHA-256及字节。
 - 29项定向与228项完整回归通过；REPORT/GUI共6份预览已核，2份整图对齐PASS，最小字形6.3 pt，碰撞0 FAIL/0 WARN，完整preflight归档0失败。源码ruff的11项、旧source结构／索引的8项均与HEAD基线相同，无新增诊断，不用局部验收冒称全库lint清零。bounded hook归档超时单列，独立preflight已实际完成。验收及Git回执位于原PDM执行计划的delivery目录。
+
+
+## 2026-11-25 — PDM两组几何与multipolePDM 0.1.2交付
+
+- 正式响应生成新26°/90°30例，旧125°/90°30例只读复用；30文献二维模型与9前向控制分开。inject_test.tex两章并入main.pdf，131页、90四联图、六横表；最终两位小数、完整HDI分支/mass_fraction及300dpi响应mesh。
+- 完成共用数值框禁滚轮、推荐网格锁定、严格JSON _help及新几何示例；delta命名/v3结果一并进入正式PyPI 0.1.2。333程序测试、10基准测试、隔离包CLI/Qt/PyPI读回、90 PDF独立数值核查及全131页视觉通过。
+- 五项旧引用按原SHA/大小改绑固定历史字节；原清单与预期哈希保持。全库发布preflight归档零失败；旧v0.1.1来源7项既有结构诊断单列，未宣称全库lint清零。知识见 [[pdm-two-geometry-recovery-20261125]] 及对应source。
+- 主体已提交并非force推送 `main + pdm: finalize 0.1.2 and two-geometry deterministic recovery`，收尾主题 `pdm: reconcile 0.1.2 delivery and final report`；身份与测试边界均保存在任务回执。隔离包测试复用现有依赖，全新依赖安装因9p写入停滞停止，原生Windows/macOS未测试。

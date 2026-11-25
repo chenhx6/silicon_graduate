@@ -2,8 +2,8 @@
 title: "multipolePDM：两组几何、GUI与正式发布的合并执行合同"
 date: "2026-11-20"
 updated: "2026-11-25"
-status: in_progress
-phase: geometry26_software_release
+status: completed
+phase: delivered
 report_update_authorized: true
 goal_id: "01a212d0-2f83-7582-9e2a-2d9c51511377"
 ---
@@ -14,7 +14,7 @@ goal_id: "01a212d0-2f83-7582-9e2a-2d9c51511377"
 
 ## 1. 恢复现场与历史成果
 
-工作树开始时干净，分支main。既有E01–E03、U00–U09、R00–R05和N01–N03均为历史完成项，不代表本轮验收。旧报告90页，30注入、30文献二维声明模型（15条不同跃迁）及9纯项前向控制；旧30注入及其二维数组、统计与图片复用，不再次PDM反演。独立9j实现、历史校验、随机记录保留后台，均不另计主要案例。当前源码的delta命名消歧与v3导出尚未进入PyPI 0.1.1，本轮一并发布。
+工作树开始时干净，分支main。既有E01–E03、U00–U09、R00–R05和N01–N03均为历史完成项，不代表本轮验收。旧报告90页，30注入、30文献二维声明模型（15条不同跃迁）及9纯项前向控制；旧30注入及其二维数组、统计与图片复用，不再次PDM反演。独立9j实现、历史校验、随机记录保留后台，均不另计主要案例。恢复现场时的delta命名消歧与v3导出未进入PyPI 0.1.1；本轮已纳入正式0.1.2。
 
 历史回执：delivery/report-revision-20261124.json、delivery/statistics-naming-20261125.json、delivery/0.1.1/acceptance.json。plan.pdf仅为20261120历史阅读快照，不更新或另建计划PDF。修订前main.tex/main.pdf、报告正文及原计划已版本留档，不覆盖唯一历史证据。
 
@@ -83,6 +83,16 @@ Python实际数据绘图，沿用Nature绘图QA：布局对齐、字形和碰撞
 | G05 幻灯片资产 | completed | 旧图/135Pr哈希、新δ+10三模式图/Notebook |
 | G06 构建与正式发布 | completed | 全测试、隔离wheel/PyPI读回、新版安装命令 |
 | G07 全页与归档 | completed | main.pdf逐页视觉/编译、机器数值/图表/68%/fraction一致 |
-| G08 知识与Git | in_progress | 新source/knowledge、归档门、handoff、显式commit非force push |
+| G08 知识与Git | completed | 新source/knowledge、归档门、handoff、显式commit非force push |
 
 完成必须有本轮实际验证，历史测试/旧报告不代替。有限域的确定性注入不证明普遍无偏或频率覆盖，文献依赖/声明几何与不兼容保留。研究证据不足时记录缺口、停止原因与下一步。
+
+## 8. 本轮交付结果
+
+G00–G08已完成。旧30例复用、新30例正式计算；30文献二维模型（15跃迁）和9前向配置保留，90套四联图集中到131页canonical main.pdf，六横表，其余竖向。图下摘要默认两位小数，保存内部精度和全部分支/端点标记。
+
+333项程序测试与10项新基准测试通过，90套PDF独立积分和95幅最终图字体/碰撞审计通过，131页实际逐页视觉复查通过。0.1.2已正式发布并从PyPI安装精确版本复核，41个包内维护文件与wheel一致。GUI为Linux offscreen验证；隔离包环境复用现有依赖，全新依赖安装因9p大文件写入停滞停止，这一边界不写成已完成。
+
+完整发布preflight归档零失败，五个旧工作路径改绑原哈希一致快照、原清单和期望哈希不变；新增知识页schema/link通过，旧v0.1.1来源7项既有结构诊断保持历史边界。主体修改已按显式48文件提交推送，稳定指针为`main + pdm: finalize 0.1.2 and two-geometry deterministic recovery`。收尾元数据提交主题为`pdm: reconcile 0.1.2 delivery and final report`，精确Git身份仅进任务回执。
+
+停止原因：用户指定工作及验收已完成；科学未决问题保留在知识页，不扩展为随机扰动、误差调参或额外反演，也不自动转为用户审核待办。
