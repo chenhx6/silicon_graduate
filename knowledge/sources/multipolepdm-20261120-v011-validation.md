@@ -4,15 +4,17 @@ title: "multipolePDM 0.1.1：分组响应、角空间统计与注入验证"
 title_original: "multipolePDM 0.1.1 grouped response and validation"
 aliases: [PDM0.1.1验证, PDM大混合比覆盖率]
 created: 2026-11-20
-updated: 2026-11-20
+updated: 2026-11-25
 status: ai-draft
 review_status: unreviewed
 source_type: research-code-and-data
 reading_depth: read
 year: 2026
 canonical_source: "User-authorized local implementation and independently generated numerical controls"
-raw_file: "raw/code/PDM/analysis/validation_v0_1_1/manifest.json"
-raw_sha256: "7cba57eb032a4d41a863b9f3a841287e63159ac7fc8fc88af40583c5f5d7949e"
+raw_file: "raw/code/PDM/archives/20261125-v011-code-inputs/manifest.json"
+raw_sha256: "a1a1560c3969dc0d81cd86ced080eaf732dcecd904d95267d244958b6fc6e1d2"
+legacy_manifest_file: "raw/code/PDM/archives/20261125-v011-code-inputs/predecessor-manifests/7cba57eb032a4d41a863b9f3a841287e63159ac7fc8fc88af40583c5f5d7949e.json.txt"
+legacy_manifest_sha256: "7cba57eb032a4d41a863b9f3a841287e63159ac7fc8fc88af40583c5f5d7949e"
 raw_storage_status: archived-local
 archive_required: true
 citation_key: MultipolePDM2026V011Validation
@@ -23,6 +25,8 @@ tags: [pdm, pdco, validation, polarization, uncertainty, detector-geometry]
 # multipolePDM 0.1.1：方法实现与验证边界
 
 ## 来源身份与定位
+
+2026-11-25工作源码的命名订正前，将原验证集合的75项可维护代码／说明／Notebook引用改绑到逐字节匹配原哈希的固定快照，当前`raw_file`指向该冻结索引。原`validation_v0_1_1/manifest.json`本身与其精确副本均保持原字节，所有历史预期哈希、结果、输入和发布包不变；这不是重跑或重新发布0.1.1。当前源码的v3导出语义见执行合同中的命名小节，不据新界面措辞重写历史证据。
 
 本页记录用户批准的程序改造及本地数值验证，不是新的实验测量，也不是已发表的独立验证论文。物理模型沿用 [[pdco-pdm-response-contract-20261118]]；程序规格见 [[pdm-three-mode-execution-contract-20261120]]。此前的误差模型、网格及135Pr权重研究见 [[pdm-20261120-error-geometry-grid-study]]，不能用研究原型替代正式程序验收。
 

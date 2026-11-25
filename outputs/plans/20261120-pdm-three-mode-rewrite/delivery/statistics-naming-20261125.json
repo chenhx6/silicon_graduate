@@ -1,0 +1,250 @@
+{
+  "schema": "pdm-statistics-naming-v1",
+  "recorded_at": "2026-11-25T07:52:09.569648+00:00",
+  "status": "completed",
+  "authorization": "User request transferred from slide-figure side thread: remove ambiguity between tan-transformed angle estimates and statistics of the actual delta PDF.",
+  "implementation": {
+    "software_version": "0.1.1",
+    "new_software_release": false,
+    "write_result_schema": "multipolepdm-result-v3",
+    "read_result_schemas": [
+      "multipolepdm-result-v1",
+      "multipolepdm-result-v2",
+      "multipolepdm-result-v3"
+    ],
+    "public_density_view": "Summary.delta_pdf",
+    "public_transformed_statistic_view": "Summary.tan_angle_statistics",
+    "legacy_api": "Summary.delta remains a compatibility aggregate; no legacy caller numerical values are changed.",
+    "rendered_labels": [
+      "tan{mode[arctan(δ)]}",
+      "tan{HDI68%[arctan(δ)]}",
+      "tan{mean[arctan(δ)]}"
+    ],
+    "endpoint_description": "tan(mu +/- std) is labelled as transformed endpoints only; mu and std refer to arctan(delta).",
+    "delta_csv_density": "marginal_delta.csv remains p_delta(delta)=p_arctan_delta(arctan(delta))/(1+delta**2) with the original refinement and normalization.",
+    "threshold_guard": "The marginal renderer rejects the mixed-coordinate legacy aggregate; the angle cutoff coordinate is explicit in v3 and cannot silently become a horizontal delta-PDF cutoff."
+  },
+  "invariants": {
+    "original_validation_manifest_unchanged": true,
+    "report_pdf_unchanged": true,
+    "physics_mapping_statistics_kernels_unchanged": true,
+    "software_version_unchanged": true,
+    "notebooks_parse_without_execution": true,
+    "side_plot_directory_not_touched": true
+  },
+  "snapshot_compatibility": {
+    "legacy_v1_v2_and_v3_values_preserved": true,
+    "stored_coordinate_and_density_arrays_exact": true,
+    "stored_intervals_moments_and_flags_exact": true,
+    "old_files_not_rewritten": true
+  },
+  "tests": {
+    "targeted_passed": 29,
+    "full_passed": 228,
+    "new_tests": 3,
+    "expanded_v2_roundtrip_in_existing_test": true,
+    "full_test_warnings": 364,
+    "warning_boundary": "Existing Qt AA_UseHighDpiPixmaps deprecation warnings; no test failures.",
+    "new_test_names": [
+      "test_explicit_delta_pdf_and_tan_statistics_do_not_conflate_density_and_estimates",
+      "test_exported_delta_csv_is_transformed_density_not_relabelled_angle_pdf",
+      "test_delta_pdf_cannot_use_angle_hdi_threshold_or_ambiguous_formatter"
+    ]
+  },
+  "visual_qa": {
+    "scope": "Six diagnostic renders from the existing deterministic unit-test fixture, not new experimental or report cases.",
+    "rendered_figures": [
+      {
+        "figure": "tmp/pdm-statistics-naming-20261125/visual-qa/gui-c.pdf",
+        "font_exit": 0,
+        "minimum_glyph_pt": 9.0,
+        "collision_exit": 0,
+        "collision_summary": {
+          "fail": 0,
+          "warn": 0,
+          "contained_fill_overlays": 0,
+          "contained_image_overlays": 0
+        }
+      },
+      {
+        "figure": "tmp/pdm-statistics-naming-20261125/visual-qa/gui-d.pdf",
+        "font_exit": 0,
+        "minimum_glyph_pt": 10.0,
+        "collision_exit": 0,
+        "collision_summary": {
+          "fail": 0,
+          "warn": 0,
+          "contained_fill_overlays": 0,
+          "contained_image_overlays": 0
+        }
+      },
+      {
+        "figure": "tmp/pdm-statistics-naming-20261125/visual-qa/gui-overview.pdf",
+        "font_exit": 0,
+        "minimum_glyph_pt": 8.4,
+        "collision_exit": 0,
+        "collision_summary": {
+          "fail": 0,
+          "warn": 0,
+          "contained_fill_overlays": 0,
+          "contained_image_overlays": 0
+        }
+      },
+      {
+        "figure": "tmp/pdm-statistics-naming-20261125/visual-qa/report-c.pdf",
+        "font_exit": 0,
+        "minimum_glyph_pt": 7.0,
+        "collision_exit": 0,
+        "collision_summary": {
+          "fail": 0,
+          "warn": 0,
+          "contained_fill_overlays": 0,
+          "contained_image_overlays": 0
+        }
+      },
+      {
+        "figure": "tmp/pdm-statistics-naming-20261125/visual-qa/report-d.pdf",
+        "font_exit": 0,
+        "minimum_glyph_pt": 8.0,
+        "collision_exit": 0,
+        "collision_summary": {
+          "fail": 0,
+          "warn": 0,
+          "contained_fill_overlays": 0,
+          "contained_image_overlays": 0
+        }
+      },
+      {
+        "figure": "tmp/pdm-statistics-naming-20261125/visual-qa/report-overview.pdf",
+        "font_exit": 0,
+        "minimum_glyph_pt": 6.3,
+        "collision_exit": 0,
+        "collision_summary": {
+          "fail": 0,
+          "warn": 0,
+          "contained_fill_overlays": 0,
+          "contained_image_overlays": 0
+        }
+      }
+    ],
+    "alignments": [
+      "PASS",
+      "PASS"
+    ],
+    "minimum_glyph_pt": 6.3,
+    "visually_reviewed_figures": 6,
+    "source_validator": {
+      "ready": true,
+      "strict": false,
+      "counts": {
+        "PASS": 18,
+        "WARN": 3,
+        "FAIL": 0
+      }
+    },
+    "source_validator_warning_dispositions": [
+      "PNG and SVG/PDF are QA assets; no TIFF submission is requested.",
+      "Diagnostic PNG previews use 300 dpi; production plotting API retains its existing 600 dpi default.",
+      "Physical dimensions are supplied by the existing REPORT_STYLE and GUI_STYLE and measured in alignment manifests."
+    ],
+    "diagnostic_files_location": "tmp/pdm-statistics-naming-20261125/visual-qa/"
+  },
+  "preflight": {
+    "ok": true,
+    "archive_failure_count": 0,
+    "registered_source_pages_checked": 528,
+    "path_boundary_ok": true
+  },
+  "lint": {
+    "ruff_baseline_diagnostics": 11,
+    "ruff_current_diagnostics": 11,
+    "ruff_new_diagnostics": [],
+    "knowledge_baseline_error_count": 8,
+    "knowledge_current_error_count": 8,
+    "knowledge_new_issues": [],
+    "inherited_knowledge_issues": [
+      {
+        "severity": "error",
+        "code": "SECTION_REQUIRED",
+        "path": "knowledge/sources/multipolepdm-20261120-v011-validation.md",
+        "message": "missing ## Bibliographic Record"
+      },
+      {
+        "severity": "error",
+        "code": "SECTION_REQUIRED",
+        "path": "knowledge/sources/multipolepdm-20261120-v011-validation.md",
+        "message": "missing ## Scope and Reading Depth"
+      },
+      {
+        "severity": "error",
+        "code": "SECTION_REQUIRED",
+        "path": "knowledge/sources/multipolepdm-20261120-v011-validation.md",
+        "message": "missing ## Summary"
+      },
+      {
+        "severity": "error",
+        "code": "SECTION_REQUIRED",
+        "path": "knowledge/sources/multipolepdm-20261120-v011-validation.md",
+        "message": "missing ## Key Results"
+      },
+      {
+        "severity": "error",
+        "code": "SECTION_REQUIRED",
+        "path": "knowledge/sources/multipolepdm-20261120-v011-validation.md",
+        "message": "missing ## Competing Interpretations and Limitations"
+      },
+      {
+        "severity": "error",
+        "code": "SECTION_REQUIRED",
+        "path": "knowledge/sources/multipolepdm-20261120-v011-validation.md",
+        "message": "missing ## Extracted Pages"
+      },
+      {
+        "severity": "error",
+        "code": "CLAIM_TABLE",
+        "path": "knowledge/sources/multipolepdm-20261120-v011-validation.md",
+        "message": "Key Results must expose claim_kind, evidence_level, and locator"
+      },
+      {
+        "severity": "error",
+        "code": "INDEX_MISSING",
+        "path": "knowledge/sources/multipolepdm-20261120-v011-validation.md",
+        "message": "not linked from knowledge/index.md"
+      }
+    ],
+    "full_repository_lint_rerun": false,
+    "boundary": "Existing source-page section/index diagnostics are retained; no claim that all Wiki lint is clean."
+  },
+  "historical_evidence": {
+    "raw_file": "raw/code/PDM/archives/20261125-v011-code-inputs/manifest.json",
+    "raw_sha256": "a1a1560c3969dc0d81cd86ced080eaf732dcecd904d95267d244958b6fc6e1d2",
+    "legacy_manifest_file": "raw/code/PDM/archives/20261125-v011-code-inputs/predecessor-manifests/7cba57eb032a4d41a863b9f3a841287e63159ac7fc8fc88af40583c5f5d7949e.json.txt",
+    "legacy_manifest_sha256": "7cba57eb032a4d41a863b9f3a841287e63159ac7fc8fc88af40583c5f5d7949e",
+    "original_manifest_unchanged": true,
+    "code_references_frozen": 75
+  },
+  "hook": {
+    "before_edit": "passed",
+    "after_edit_diff_check": true,
+    "after_edit_archive": "bounded hook timed out; separately completed publication preflight passed with zero archive failures"
+  },
+  "knowledge_writeback": [
+    "knowledge/research-notes/pdm-three-mode-execution-contract-20261120.md",
+    "knowledge/sources/multipolepdm-20261120-v011-validation.md"
+  ],
+  "publication": {
+    "branch": "main",
+    "remote": "origin",
+    "refspec": "HEAD:main",
+    "force": false,
+    "receipt": "delivery/statistics-naming-publication-20261125.local.json",
+    "receipt_scope": "This file records completed implementation and validation. Actual commit/push and final exact identities are reconciled in the separate local publication receipt."
+  },
+  "not_executed": [
+    "new experiments or literature/injection batch reruns",
+    "notebook execution",
+    "new PyPI release or package build",
+    "report PDF recompilation",
+    "writes to side-thread revise_silde_figure directory"
+  ]
+}

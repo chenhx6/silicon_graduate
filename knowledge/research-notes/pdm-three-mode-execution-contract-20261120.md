@@ -3,12 +3,12 @@ type: research-note
 title: "PDM 三模式重写：验证、交互分析与发布合同"
 aliases: [PDM三模式执行合同]
 created: 2026-11-20
-updated: 2026-11-20
+updated: 2026-11-25
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
 created_from: "用户批准三模式重写、并行代理与自动实施"
-evidence_sources: [polarization-delta-collection-20261119-source, droste-1996-pdco-formalism, book-hamilton-electromagnetic-interaction, kramer-flecken-1989-use-dco-ratios, pypi-pdm-packaging-20261120]
+evidence_sources: [polarization-delta-collection-20261119-source, droste-1996-pdco-formalism, book-hamilton-electromagnetic-interaction, kramer-flecken-1989-use-dco-ratios, pypi-pdm-packaging-20261120, multipolepdm-20261120-v011-validation]
 tags: [pdm, validation, pdco, polarization, benchmark-design, python-packaging]
 ---
 
@@ -40,9 +40,9 @@ GUI名称PDM，模式标识P_ADO/P_DCO/PDCO。新代码分为 `raw/code/PDM/anal
 
 核心使用xi(rad)、sigma。xi的网格、三角函数、差分、输出及默认图轴均为rad；探测器角度另标deg，在几何入口转换。对外分析/图轴标为sigma/I，去掉ref和dimensionless；内部I_ref仍记录共同Gaussian参考态，不因目标位于下游而改变身份。对外角轴写arctan(delta)，刻度使用0、正负pi/8、pi/4、3pi/8，内部仍按rad计算。此显示改造属于当前待实施合同，不是0.1.0已有行为。
 
-固定I_ref时，s=sigma/I_ref，f(xi,s)=I_ref*f(xi,I_ref*s)，p_s(s)=I_ref*p_sigma(I_ref*s)；delta边缘由p_delta=p_xi(arctan(delta))/(1+delta^2)转换。不得只换轴标签。当前用户选定的报告约定是在arctan(delta) PDF上计算68%HDI、ETI、mode和mean/std，再将每个HDI区间内PDF最高点的横坐标mode、分位数和各段端点逐项tan转换来报告delta；不要求先对delta PDF重算HDI。sigma/I直接评估。README注明这是物理混合角口径；HDI可能不连续，不能跨低密度间隙填色。Mean使用PDF加权积分，tan(angle mean)不标作直接delta期望；mean±std不赋予68%覆盖意义，越域或越tan奇点须显式标识。
+固定I_ref时，s=sigma/I_ref，f(xi,s)=I_ref*f(xi,I_ref*s)，p_s(s)=I_ref*p_sigma(I_ref*s)；真实delta边缘由p_delta=p_xi(arctan(delta))/(1+delta^2)转换，不能只换轴标签。用户选定的报告约定是在arctan(delta) PDF上计算68%HDI、ETI、mode和mean/std，再逐端点、分位数及各HDI分支局部峰取tan；显式标为`tan{mode[arctan(δ)]}`、`tan{HDI68%[arctan(δ)]}`、`tan{mean[arctan(δ)]}`，不称delta密度自身的峰、HDI或算术均值。`tan(mu±std)`只称转换端点，mu/std按角PDF加权积分；不称delta标准差或68%区间，越域／越tan奇点仍标记。角HDI阈值只适用于角密度；变到delta坐标后其高度为h/(1+delta²)，不能当水平delta密度阈值。sigma/I直接评估，保留全部HDI分支和质量，不跨低密度间隙填色。
 
-结果统计和四联图从内存快照产生，不等待完整CSV导出。新显示目标：图1为所有有效响应点所在完整R_ADO/R_DCO-P观测域，按观测密度着色并叠加输入点和误差棒；图2为arctan(delta)-sigma/I密度；图3为arctan(delta)边缘，图4为sigma/I边缘。C/D各画橙色CDF16/50/84三线，合用图例68% ETI (16%, 50%, 84%)；灰色mean和mean±std三线默认常显，无开关；每个HDI分段各有自己的mode，不能复制整条PDF的唯一全局峰；HDI蓝色仍填0到PDF，另画y=h阈值水平线。图下显示delta和sigma/I的HDI/ETI/Mean-based三类数值，支持滚动、平移、缩放和单图/整图保存。计算完成和保存完成分别显示，写盘失败不抹掉可用预览。
+结果统计和四联图从内存快照产生，不等待完整CSV导出。图1为所有有效响应点所在完整R_ADO/R_DCO-P观测域，按观测密度着色并叠加输入点和误差棒；图2为arctan(delta)-sigma/I密度；图3为arctan(delta)边缘，图4为sigma/I边缘。C/D各画橙色CDF16/50/84三线，合用图例68% ETI (16%, 50%, 84%)；灰色mean和mean±std三线默认常显，无开关；每个HDI分段保留各自局部mode；HDI填0到PDF，另画原生坐标的y=h阈值线。图下分别显示显式标名的角统计正切表示、转换端点与sigma/I的直接统计，支持滚动、平移、缩放和单图/整图保存。计算完成和保存完成分别显示，写盘失败不抹掉可用预览。
 
 四联图按nature-figure的Python数据图规范采用固定2x2 quantitative grid，a/b为观测与联合参数密度，c/d为两个边缘；共享样式模块统一字体、色图和区间标记。报告导出初始183x150mm，轴标题9pt、刻度/图例8pt，最终字形不少于5pt；GUI采用较大字号预设。用户指定viridis用于两个二维密度面板，a/b测度不同不能强制共用数值色标；HDI蓝色填PDF下方，ETI用橙色虚线，中心CDF50%不再另立Median图例。开发/报告出图做1.5pt面板对齐、字体及碰撞检查，普通用户不依赖技能脚本或TeX。这是本项目采用的Nature-style规范，不是宣称符合某刊全部投稿条款。
 
@@ -65,6 +65,12 @@ JSON示例随wheel提供，位于包资源examples目录：example.json为P_ADO�
 用户确认不筛phi的实验按环合并模型处理；它意味着先做方位强度平均，不是phi=0，也不是4pi。154Tb/190Tl未来主模型采用此约定。GUI默认不勾选方位选择，phi列灰化；勾选时可填degree单位(theta,phi)。各ADO/DCO组及偏振目标/门均可多行，带相对有效权重；不重新处理实验效率。默认明确组内加权平均，原始加权和作为另一个显式选项，不能暗中改变归一化。135Pr输入2:1组权重即可重现用户公式；P真实角75.5deg不随合成测试P90deg而改变。
 
 网格GUI提供每坐标min/max/step和单位。角步长可用deg输入并仅换算一次为rad；sigma/I步长0.005在内部是I*0.005，不是sigma步长0.005。图仍显示arctan(delta)的pi分数刻度。研究推荐值只是有界样本下的稳定工作点，用户可改范围/步长，完整坐标/实际末段长度进入输出。
+
+## 源码命名与旧快照兼容（2026-11-25）
+
+`Summary.delta_pdf`仅提供真实δ密度坐标与密度；`Summary.tan_angle_statistics`另给`tan_mode`、`tan_median`、`tan_mean`、`tan_mean_std_endpoints`及逐分支转换区间，避免同一对象同时被当成密度统计。v3 `summary.json`同样分开两者，显式记录角HDI阈值的评估坐标。旧`Summary.delta`只是兼容聚合视图，不是δ PDF自身的统计；v1/v2/v3快照均可读且不改写旧文件。实现定位为工作源码`contracts.py`的两个视图、`io/export.py`的v3写出／旧模式读取与`plotting/intervals.py`的显式显示和误用拦截。
+
+此次只订正命名与数据契约，沿用0.1.1的全部数值、误差与68%默认质量，不重跑实验或发布新版本，不改既有报告PDF。旧验证集合的原清单、输入、结果与源码字节保留，[[multipolepdm-20261120-v011-validation]]以固定代码快照索引核验历史版本，不用当前工作源码冒充已发布制品。
 
 ## Assumptions
 

@@ -54,6 +54,14 @@ python -m multipolepdm
 
 图中 68% HDI 和 ETI 表示归一化映射密度的概率质量。重复实验能否覆盖真值取决于工况。`PDCO` 合成对照在真值 $\delta=-10$ 时，100 次重复中 ETI 覆盖 0 次，HDI 覆盖 6 次。详见源码包 `analysis/benchmarks/sigma03_relP80_relR10/README.md`。
 
+## 角统计的正切表示与真正的δ密度
+
+令 $\xi=\arctan(\delta)$。GUI 和角边缘图将报告值显式标为 `tan{mode[arctan(δ)]}`、`tan{HDI68%[arctan(δ)]}`、`tan{mean[arctan(δ)]}`，各 HDI 分支的局部峰也逐一取正切。这些不是 δ 密度自身的峰、HDI 或算术均值。`tan(mu - std)` 与 `tan(mu + std)` 只称转换端点，`mu`、`std` 来自角 PDF；不能称作 δ 的均值加减标准差。
+
+`marginal_delta.csv` 则是真正的密度变换 $p_\delta(\delta)=p_\xi(\arctan\delta)/(1+\delta^2)$，经过原有加密和数值归一，并非只把角 PDF 的横轴换成 δ。角 HDI 的水平密度阈值属于 $p_\xi$，不可直接画到 $p_\delta$ 上。
+
+当前工作源码的 `multipolepdm-result-v3` 输出在 `summary.json` 中分开 `delta_pdf`（仅坐标与密度）和 `tan_angle_statistics`（带显式名称的角统计转换值）。Python 对应 `summary.delta_pdf` 和 `summary.tan_angle_statistics`；旧 `summary.delta` 仅为兼容旧调用保留，不能按其字段名称推断 δ PDF 自身的统计。读取支持 v1、v2、v3，不改写旧快照。此次为源码层命名订正，软件版本仍为 0.1.1，未另行发布；已安装的旧 PyPI 制品不会自动包含这些改动。
+
 ## 常见问题
 
 | 遇到的问题 | 处理方法 |

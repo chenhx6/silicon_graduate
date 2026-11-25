@@ -222,7 +222,7 @@ def test_nine_file_jobs_reopen_first_snapshot_off_thread(
     assert len(window.result_windows) <= 3 and window.open_button.isEnabled()
     assert "save_figure" not in {item[3] for item in preview.toolbar.toolitems}
     saved_summary = json.loads((handles[0].directory / "summary.json").read_text())
-    np.testing.assert_array_equal(preview.summary.delta.density, saved_summary["delta"]["density"])
+    np.testing.assert_array_equal(preview.summary.delta_pdf.density, saved_summary["delta_pdf"]["density"])
     assert not preview.result.parameter_density.flags.writeable
     assert not preview.summary.delta.density.flags.writeable
     preview.close()

@@ -630,7 +630,7 @@
     "Jacobian weighting and sigma marginalization both reshape mass; removing the Jacobian is only a diagnostic, not an alternative validated estimator."
   ],
   "schema": "pdm-report-revision-plan-v3",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "state": "completed",
   "status": "completed",
   "phase": "report_revision",
@@ -642,7 +642,7 @@
   "goal_created": true,
   "goal_id": "01a20bbe-dfb1-77f3-a6a9-fd264a759483",
   "objective": "仅修订现有报告：30个确定性注入、30个文献二维声明模型（15条不同跃迁）、9前向控制；三张A4横向主表、60张竖向四联图、大混合比诊断、90页逐页QA与知识归档。不改GUI、不发新版本、不新增随机测试、不卡方。",
-  "plan_sha256": "d7497571c45ebe42ac2c639e1e7e6f1375d87e9ea4d7dd2c55df64d00d0881b8",
+  "plan_sha256": "f03a4177582b5169faa4b31489303812e30a199024696aa67f3d069362d138c6",
   "readable_pdf": "outputs/plans/20261120-pdm-three-mode-rewrite/plan.pdf",
   "readable_pdf_status": "historical_20261120_reading_snapshot",
   "readable_pdf_is_current": false,
@@ -1070,5 +1070,59 @@
     "scientific_inputs_and_results_changed": false,
     "report_manifest_sha256": "46d42f022b194e49667b7e45758ed2a6936782d3436d898520a9266ebbba3861",
     "publication_receipt": "delivery/git-baseline-20261124.json"
+  },
+  "statistics_naming_followup": {
+    "status": "completed",
+    "date": "2026-11-25",
+    "implementation_authorized": true,
+    "new_software_release": false,
+    "scope": "GUI labels, plotting legends, separate PDF/statistic views and v3 output schema with v1/v2/v3 snapshot compatibility; docs and regression tests only.",
+    "preserved": [
+      "physical and statistical kernels",
+      "all observation inputs and errors",
+      "full precision and 68% default mass",
+      "software version 0.1.1",
+      "existing report PDF",
+      "original validation manifest and archived evidence",
+      "side-thread slide-figure directory"
+    ],
+    "tasks": {
+      "N01": "completed",
+      "N02": "completed",
+      "N03": "completed"
+    },
+    "tests": {
+      "targeted_passed": 29,
+      "full_passed": 228,
+      "new_regression_tests": 3
+    },
+    "visual_qa": {
+      "figures": 6,
+      "collision_fail": 0,
+      "collision_warn": 0,
+      "alignment_pass": 2,
+      "minimum_glyph_pt": 6.3,
+      "all_six_visually_inspected": true
+    },
+    "output_schema": "multipolepdm-result-v3",
+    "readable_schemas": [
+      "multipolepdm-result-v1",
+      "multipolepdm-result-v2",
+      "multipolepdm-result-v3"
+    ],
+    "legacy_python_api": "Summary.delta retained as compatibility aggregate; prefer Summary.delta_pdf and Summary.tan_angle_statistics.",
+    "historical_code_archive": "raw/code/PDM/archives/20261125-v011-code-inputs/manifest.json",
+    "code_references_frozen": 75,
+    "original_manifest_unchanged": true,
+    "receipt": "delivery/statistics-naming-20261125.json",
+    "validation": {
+      "publication_preflight_ok": true,
+      "archive_failures": 0,
+      "new_ruff_diagnostics": 0,
+      "new_knowledge_lint_diagnostics": 0,
+      "inherited_ruff_diagnostics": 11,
+      "inherited_knowledge_lint_errors": 8
+    },
+    "publication_receipt": "delivery/statistics-naming-publication-20261125.local.json"
   }
 }

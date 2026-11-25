@@ -260,6 +260,39 @@ provided the original KS/RB locators. The signed D96 implementation was
 assembled directly from the original equations before reading the
 production prototype or the worksheet's audit script.
 
+## PDF coordinates and reported statistics
+
+For $\xi=\arctan(\delta)$, the exported `marginal_delta.csv` evaluates
+$p_\delta(\delta)=p_\xi(\arctan\delta)/(1+\delta^2)$, with the existing
+adaptive coordinate refinement and numerical normalization. It is not the
+angle density with a different horizontal-axis label.
+
+The reporting convention evaluates all intervals and moments in the angle
+PDF first. Display the resulting quantities as `tan{mode[arctan(δ)]}`,
+`tan{HDI68%[arctan(δ)]}`, and `tan{mean[arctan(δ)]}`. Retain every angle HDI
+component, its mass, and its transformed local mode ranges. Neither the
+transformed mode nor the transformed HDI is generally the corresponding
+statistic of the delta PDF. The transformed angle mean is not the arithmetic
+mean of delta. `tan(mu +/- std)` denotes transformed endpoints only, with mu
+and std evaluated on the angle PDF.
+
+The angle HDI cutoff has density units per radian. On a delta density plot,
+its transformed height would depend on delta as `cutoff / (1 + delta**2)`;
+it must not be reused as a horizontal delta-density threshold. The evaluated
+marginal renderer rejects the legacy mixed-coordinate aggregate for this
+reason. Plot `summary.delta_pdf.coordinate` and `.density` directly when a
+delta PDF without angle-based guides is wanted.
+
+New result schema v3 separates `delta_pdf` from `tan_angle_statistics` in
+`summary.json`. The latter has `tan_mode`, `tan_median`, `tan_mean`,
+`tan_mean_std_endpoints`, and intervals containing `tan_eti`,
+`tan_hdi_segments`, and `angle_hdi_threshold`; labels and cutoff coordinate
+are stored explicitly. The Python views expose the same separation.
+`Summary.delta` remains a legacy compatibility aggregate, not a newly
+evaluated delta-statistics object. The loader accepts v1/v2/v3 without
+rewriting stored files. No physical/statistical kernel, observation error,
+floating-point precision or default 68% mass changes in this naming update.
+
 ## Run
 
 ```sh

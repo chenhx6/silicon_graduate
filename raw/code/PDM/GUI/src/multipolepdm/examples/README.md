@@ -32,4 +32,6 @@ JSON 网格中的 `xi_min_rad`、`xi_max_rad`、`xi_step_rad` 是弧度，`sigma
 
 ## English quick reference
 
+结果读取应分别使用 `summary.delta_pdf` 和 `summary.tan_angle_statistics`。前者是真 δ 密度；后者的 `tan_mode`、`tan_mean` 与 `intervals[].tan_hdi_segments` 分别标作 `tan{mode[arctan(δ)]}`、`tan{mean[arctan(δ)]}`、`tan{HDI68%[arctan(δ)]}`。`tan_mean_std_endpoints` 只是一对转换端点。原示例输入和 68% 约定均未改变；旧快照不改写。
+
 Run a packaged example with `--example MODE` or write its input with `--export-example PATH`. Grouped geometry uses detector-angle entries and explicit `mean` or `sum` weighting. JSON grid coordinates and steps are stored in radians and native sigma. Use `--forward` for pure transitions such as an E2-only $4\to2$ target.

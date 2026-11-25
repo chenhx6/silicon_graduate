@@ -25,7 +25,8 @@ from multipolepdm.io.input import job_from_dict, job_to_dict
 from multipolepdm.pdm.observations import observation_mesh
 from multipolepdm.pdm.statistics import DEFAULT_INTERVAL_MASS, summarize_density
 
-RESULT_SCHEMA = "multipolepdm-result-v2"
+RESULT_SCHEMA = "multipolepdm-result-v3"
+PREVIOUS_RESULT_SCHEMA = "multipolepdm-result-v2"
 LEGACY_RESULT_SCHEMA = "multipolepdm-result-v1"
 
 
@@ -47,6 +48,43 @@ def _jsonable(value):
     if isinstance(value, np.generic):
         return value.item()
     raise TypeError(type(value).__name__)
+
+
+def _summary_payload(summary):
+    payload = {
+        "arctan_delta": asdict(summary.arctan_delta),
+        "sigma_over_i": asdict(summary.sigma_over_i),
+        "delta_pdf": asdict(summary.delta_pdf),
+        "tan_angle_statistics": asdict(summary.tan_angle_statistics),
+    }
+    payload["delta_pdf"].update({
+        "density_definition": "p_delta(delta) = p_arctan_delta(arctan(delta)) / (1 + delta**2)",
+        "csv_file": "marginal_delta.csv",
+        "statistics_evaluated_on_this_pdf": False,
+    })
+    transformed = payload["tan_angle_statistics"]
+    transformed["statistic_labels"] = {
+        "tan_mode": "tan{mode[arctan(δ)]}",
+        "tan_median": "tan{q50[arctan(δ)]}",
+        "tan_mean": "tan{mean[arctan(δ)]}",
+        "tan_mean_std_endpoints": "Transformed endpoints tan(mu - std), tan(mu + std); mu and std are evaluated on arctan(δ), not on delta",
+    }
+    transformed["hdi_threshold_coordinate"] = "arctan_delta"
+    transformed["hdi_threshold_applies_to"] = "arctan_delta PDF only; never the delta PDF"
+    for interval in transformed["intervals"]:
+        percent = f"{interval['mass']:.0%}"
+        interval["statistic_labels"] = {
+            "tan_hdi_segments": f"tan{{HDI{percent}[arctan(δ)]}}",
+            "tan_eti": f"tan{{ETI{percent}[arctan(δ)]}}",
+            "mode_ranges": "tan{mode[arctan(δ)]} within each angle HDI component",
+        }
+    for name, marginal in (
+        ("arctan_delta", summary.arctan_delta),
+        ("sigma_over_i", summary.sigma_over_i),
+    ):
+        for serialized, interval in zip(payload[name]["intervals"], marginal.intervals):
+            serialized["hdi"] = interval.hdi
+    return payload
 
 
 def export_result(
@@ -89,8 +127,10 @@ def export_result(
         "independent_observation_errors": True,
         "summary_interpretation": {
             "default_interval_mass": DEFAULT_INTERVAL_MASS,
-            "delta_statistics": "tan of angle estimates; HDI modes, mass and threshold are evaluated in arctan_delta (rad)",
-            "delta_mean": "tan of the angle mean; guides are null when their angle is outside the scan or crosses a tan singularity",
+            "delta_pdf": "True transformed density p_delta = p_arctan_delta / (1 + delta**2), not a relabelled angle PDF; see marginal_delta.csv",
+            "tan_angle_statistics": "tan{mode[arctan(δ)]}, tan{HDI68%[arctan(δ)]}, tan{mean[arctan(δ)]}; not the delta PDF's own mode, HDI or arithmetic mean",
+            "tan_mean_std_endpoints": "Transformed endpoints only, not delta mean +/- std; null outside the scan or across a tan singularity",
+            "angle_hdi_threshold": "Evaluated in arctan_delta (per radian); must not be applied as a horizontal threshold to the delta PDF",
             "sigma_statistics": "evaluated in sigma_over_i",
         },
     }
@@ -125,15 +165,12 @@ def export_result(
             observed_ratio=observed_ratio,
             observed_pdf=observed_pdf,
         )
-        summary_data = asdict(summary)
+        summary_data = _summary_payload(summary)
         marginals = (
             ("arctan_delta", summary.arctan_delta),
-            ("delta", summary.delta),
+            ("delta", summary.delta_pdf),
             ("sigma_over_i", summary.sigma_over_i),
         )
-        for name, marginal in marginals:
-            for serialized, interval in zip(summary_data[name]["intervals"], marginal.intervals):
-                serialized["hdi"] = interval.hdi
         (directory / "summary.json").write_text(
             json.dumps(summary_data, default=_jsonable, indent=2, allow_nan=False)
             + "\n",
@@ -218,7 +255,7 @@ def export_result(
 def load_result(directory, allow_partial=False):
     directory = Path(directory)
     meta = json.loads((directory / "manifest.json").read_text(encoding="utf-8"))
-    if meta["schema"] not in (RESULT_SCHEMA, LEGACY_RESULT_SCHEMA):
+    if meta["schema"] not in (RESULT_SCHEMA, PREVIOUS_RESULT_SCHEMA, LEGACY_RESULT_SCHEMA):
         raise ValueError("Unsupported output schema.")
     if meta["status"] != "saved" and not allow_partial:
         raise ValueError(
@@ -252,6 +289,37 @@ def load_snapshot(directory):
     summary = json.loads((directory / "summary.json").read_text(encoding="utf-8"))
     if "arctan_delta" not in summary:
         return result, summarize_density(result)
+    if "delta_pdf" in summary:
+        curve = summary["delta_pdf"]
+        transformed = summary["tan_angle_statistics"]
+        if (
+            curve["coordinate_name"] != "delta"
+            or transformed["evaluation_coordinate"] != "arctan_delta"
+            or transformed["transformation"] != "tan"
+            or transformed["hdi_threshold_coordinate"] != "arctan_delta"
+        ):
+            raise ValueError("Inconsistent delta PDF and tan-transformed angle statistic coordinates.")
+        summary["delta"] = {
+            "coordinate": curve["coordinate"],
+            "density": curve["density"],
+            "median": transformed["tan_median"],
+            "mode": transformed["tan_mode"],
+            "mean": transformed["tan_mean"],
+            "std": None,
+            "mean_bounds": transformed["tan_mean_std_endpoints"],
+            "mean_bound_flags": transformed["mean_bound_flags"],
+            "coordinate_name": "delta",
+            "evaluation_coordinate": "arctan_delta",
+            "intervals": [
+                {
+                    "mass": interval["mass"],
+                    "eti": interval["tan_eti"],
+                    "hdi_segments": interval["tan_hdi_segments"],
+                    "hdi_threshold": interval["angle_hdi_threshold"],
+                }
+                for interval in transformed["intervals"]
+            ],
+        }
 
     def marginal(name):
         entry = summary[name]

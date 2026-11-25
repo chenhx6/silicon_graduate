@@ -13,7 +13,7 @@ import numpy as np
 from multipolepdm.contracts import MappingResult, Summary
 from multipolepdm.pdm.statistics import DEFAULT_INTERVAL_MASS
 
-from .intervals import draw_marginal, format_marginal
+from .intervals import draw_marginal, format_marginal, format_tan_statistics
 from .style import (
     ANGLE_LABEL,
     DENSITY_CMAP,
@@ -161,7 +161,7 @@ def _draw_panel(
 
 def _report_text(summary: Summary, mass: float) -> dict[str, str]:
     return {
-        "c": format_marginal(summary.delta, mass, angle=summary.arctan_delta),
+        "c": format_tan_statistics(summary.tan_angle_statistics, summary.arctan_delta, mass),
         "d": format_marginal(summary.sigma_over_i, mass),
     }
 

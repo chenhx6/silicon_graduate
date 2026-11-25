@@ -7421,3 +7421,9 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - 两处旧清单引用的程序从本地0.1.0源码包精确恢复，原大小及SHA-256匹配；三个集合的57项代码／文档引用改绑55份去重固定快照，三个原清单完整保留。未更新历史预期哈希，报告仍179项且PDF不变。
 - 保留并归类此前完成的馆藏知识、覆盖审计和根目录scratch治理修改。代码分类／边界测试6项及PDM现有回归225项通过；正式检查和发布结果记录于原执行计划的`delivery/git-baseline-20261124.json`，旧回执不改写。
 - 实际完成`origin main`非force推送，包括此前68个待推送提交与本轮两组内容提交；远端已核对一致。发布预检检查590个已登记source，归档0失败、路径门通过；全库结构lint从130降至129，补齐待提交Moeller来源的导航链接后，本轮修改路径无error。bounded after-edit hook的归档步骤超时，独立完整发布preflight实际通过，未跳过归档门。
+
+## 2026-11-25 — PDM角统计转换与δ密度的命名消歧
+
+- 按侧栏转交的用户授权更新工作源码、GUI图例、导出与文档：显式标记角mode／HDI／mean的tan表示，均值加减标准差只称角统计转换端点。新schema v3将真实δ PDF与角统计报告分开，保留Python旧接口及v1/v2/v3快照读取，不改写旧文件。
+- 物理、观测误差、统计数值核、68%约定、0.1.1版本和已有main.pdf均不变；未重跑实验、Notebook或发布新包，未写侧栏绘图目录。旧0.1.1验证集合先固定75项代码／说明引用，原验证清单保持原SHA-256及字节。
+- 29项定向与228项完整回归通过；REPORT/GUI共6份预览已核，2份整图对齐PASS，最小字形6.3 pt，碰撞0 FAIL/0 WARN，完整preflight归档0失败。源码ruff的11项、旧source结构／索引的8项均与HEAD基线相同，无新增诊断，不用局部验收冒称全库lint清零。bounded hook归档超时单列，独立preflight已实际完成。验收及Git回执位于原PDM执行计划的delivery目录。

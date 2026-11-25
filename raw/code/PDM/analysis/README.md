@@ -21,13 +21,13 @@ python -m jupyter lab
 
 `manifest.json` 记录任务输入、源态、自旋、单位和警告，`density.npz` 保存内部混合角弧度与 $\sigma$ 网格及密度。`load_result` 从快照重建结果，`summarize_density` 在当前规则下重算摘要。运行新实验时请保留快照及相应的软件版本。对于早期结果，以当前版本重算的角区间仍受早期输入、几何和扫描域约束。
 
-`Summary.arctan_delta` 是混合角的统计来源。`Summary.delta` 的峰区间、端点和中位数来自相应角值的正切变换，HDI 的选择依据始终是角密度。`interval.hdi_segments` 中每个 `HDISegment` 给出 `bounds`、`mass` 和 `mode_ranges`。一个独立峰用相同的上下端点表示，并列峰或平台可以保留多个范围。各段质量相加为 `0.68`。`interval.eti` 和 `median` 给出 `q16`、`q50`、`q84`，而 `mean` 和 `mean_bounds` 在 $\delta$ 栏分别表示 $\tan\mu$ 和可报告的 $\tan(\mu\pm s)$。角空间的均值与标准差应从 `Summary.arctan_delta` 读取。`Summary.sigma_over_i` 已按源态自旋归一，直接在 $\sigma/I$ 密度上统计。
+`Summary.arctan_delta` 是混合角的统计来源。`Summary.tan_angle_statistics` 将角统计转换值明确命名为 `tan_mode`、`tan_median`、`tan_mean`，图表分别写作 `tan{mode[arctan(δ)]}`、`tan{q50[arctan(δ)]}`、`tan{mean[arctan(δ)]}`，不称为 δ PDF 自身的峰或算术均值。每个 `intervals` 条目的 `tan_hdi_segments` 是 `tan{HDI68%[arctan(δ)]}` 的全部分支，各段给出 `bounds`、`mass` 与转换后的局部 `mode_ranges`，质量相加为 `0.68`。`tan_eti` 给出角 q16/q84 的正切。`tan_mean_std_endpoints` 只称转换端点，不称 δ 标准差；越界看 `mean_bound_flags`。角均值与标准差从 `Summary.arctan_delta` 读取。`Summary.sigma_over_i` 直接在源态归一的 $\sigma/I$ 密度上统计。旧 `Summary.delta` 混合对象仅为旧调用兼容保留。
 
-完整网格 CSV 可按需导出。节点概率质量用 `parameter_node_probability` 汇总。等角步长经过正切后会成为非均匀间隔，`marginal_delta.csv` 也可能使用加密坐标。处理导出密度时应使用对应坐标的积分权重。文献混合比仅用于独立对照，缺失的门条件或原文未注明的误差类型应保留在比较记录中。
+完整网格 CSV 可按需导出。节点概率质量用 `parameter_node_probability` 汇总。`Summary.delta_pdf` 与 `marginal_delta.csv` 保存真正的 $p_\delta=p_\xi/(1+\delta^2)$，不是只换横轴；等角步长取正切后非均匀，δ PDF 可能使用加密坐标，积分必须使用对应坐标权重。角 HDI 阈值仅适用于角密度，不可直接用作 δ PDF 的水平阈值。新 v3 `summary.json` 分开 `delta_pdf` 与 `tan_angle_statistics`，读取仍兼容 v1/v2，旧快照不改写。此为未另发版本的工作源码订正，不改原输入或数值。文献混合比仅用于独立对照，缺失的门条件或原文未注明的误差类型保留在比较记录中。
 
 ## English quick reference
 
-Install `../GUI[analysis]` and open these notebooks from the matching source archive. Use `result_dir` to read a completed GUI or CLI snapshot. The core evaluates 68% HDI and ETI in angle space. `Summary.delta` reports transformed estimates and preserves each HDI component's mass. Figure export uses the same plotting API as the GUI.
+Install `../GUI[analysis]` and open these notebooks from the matching source archive. Use `result_dir` to read a completed GUI or CLI snapshot. The core evaluates 68% HDI and ETI in angle space. `Summary.delta_pdf` is the actual transformed density; `Summary.tan_angle_statistics` separately reports tan of angle estimates, not delta-PDF mode, HDI or arithmetic mean. Mean +/- std transformations are endpoints only. Figure export uses the same plotting API as the GUI. The current source writes result schema v3 and reads v1/v2/v3 without changing old snapshots; no new software version is published.
 
 ## 研究用验证脚本
 

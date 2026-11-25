@@ -19,10 +19,10 @@ from PySide6.QtWidgets import (
 
 
 def summary_text(summary):
-    from multipolepdm.plotting.intervals import format_marginal
+    from multipolepdm.plotting.intervals import format_marginal, format_tan_statistics
 
     return "\n\n".join((
-        format_marginal(summary.delta, angle=summary.arctan_delta),
+        format_tan_statistics(summary.tan_angle_statistics, summary.arctan_delta),
         format_marginal(summary.sigma_over_i),
     ))
 

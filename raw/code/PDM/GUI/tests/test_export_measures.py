@@ -1,8 +1,10 @@
-from dataclasses import replace
+from dataclasses import asdict, replace
+import hashlib
 import json
 
 import numpy as np
 import pytest
+from scipy.integrate import trapezoid
 
 from multipolepdm.contracts import GridSpec, OutputSpec
 from multipolepdm.io.input import example_data, job_from_dict
@@ -36,11 +38,20 @@ def test_snapshot_preserves_angle_and_reported_statistics_and_reopens_v1(tmp_pat
     summary_path = tmp_path / "summary.json"
     manifest = json.loads(manifest_path.read_text())
     payload = json.loads(summary_path.read_text())
-    assert manifest["schema"] == "multipolepdm-result-v2"
+    assert manifest["schema"] == "multipolepdm-result-v3"
     assert manifest["summary_interpretation"]["default_interval_mass"] == 0.68
     assert manifest["invalid_response_nodes"] == int(np.count_nonzero(~result.response.valid))
-    assert payload["delta"]["evaluation_coordinate"] == "arctan_delta"
-    assert payload["delta"]["std"] is None
+    assert "delta" not in payload
+    assert payload["delta_pdf"]["coordinate_name"] == "delta"
+    assert payload["delta_pdf"]["statistics_evaluated_on_this_pdf"] is False
+    assert not any(key in payload["delta_pdf"] for key in ("mode", "mean", "intervals"))
+    transformed = payload["tan_angle_statistics"]
+    assert transformed["evaluation_coordinate"] == "arctan_delta"
+    assert "coordinate" not in transformed and "density" not in transformed and "std" not in transformed
+    assert transformed["hdi_threshold_coordinate"] == "arctan_delta"
+    assert transformed["statistic_labels"]["tan_mode"] == "tan{mode[arctan(δ)]}"
+    assert transformed["statistic_labels"]["tan_mean"] == "tan{mean[arctan(δ)]}"
+    assert transformed["intervals"][0]["statistic_labels"]["tan_hdi_segments"] == "tan{HDI68%[arctan(δ)]}"
     assert payload["arctan_delta"]["intervals"][0]["hdi_segments"][0]["mode_ranges"]
     assert (tmp_path / "marginal_arctan_delta.csv").is_file()
 
@@ -59,10 +70,23 @@ def test_snapshot_preserves_angle_and_reported_statistics_and_reopens_v1(tmp_pat
     _, reopened = load_snapshot(tmp_path)
     assert_marginals(reopened)
 
+    legacy_payload = json.loads(json.dumps(asdict(summary), default=lambda value: value.tolist()))
+    legacy_json = json.dumps(legacy_payload)
+    manifest["schema"] = "multipolepdm-result-v2"
+    manifest_path.write_text(json.dumps(manifest))
+    summary_path.write_text(legacy_json)
+    manifest_bytes = manifest_path.read_bytes()
+    density_hash = hashlib.sha256((tmp_path / "density.npz").read_bytes()).hexdigest()
+    _, reopened = load_snapshot(tmp_path)
+    assert_marginals(reopened)
+    assert summary_path.read_text() == legacy_json
+    assert manifest_path.read_bytes() == manifest_bytes
+    assert hashlib.sha256((tmp_path / "density.npz").read_bytes()).hexdigest() == density_hash
+
     manifest["schema"] = "multipolepdm-result-v1"
     manifest_path.write_text(json.dumps(manifest))
     old_summary = {
-        name: {key: payload[name][key] for key in ("coordinate", "density", "median", "mode", "intervals")}
+        name: {key: legacy_payload[name][key] for key in ("coordinate", "density", "median", "mode", "intervals")}
         for name in ("delta", "sigma_over_i")
     }
     old_json = json.dumps(old_summary)
@@ -70,6 +94,20 @@ def test_snapshot_preserves_angle_and_reported_statistics_and_reopens_v1(tmp_pat
     _, reopened = load_snapshot(tmp_path)
     assert_marginals(reopened)
     assert summary_path.read_text() == old_json
+
+
+def test_exported_delta_csv_is_transformed_density_not_relabelled_angle_pdf(tmp_path):
+    job = replace(job_from_dict(example_data()), grid=GridSpec(xi_points=61, sigma_points=31))
+    result, summary = compute_job(job)
+    export_result(result, summary, tmp_path)
+    table = np.genfromtxt(tmp_path / "marginal_delta.csv", delimiter=",", names=True)
+    coordinate = table["delta"]
+    expected = np.interp(np.arctan(coordinate), summary.arctan_delta.coordinate, summary.arctan_delta.density)
+    expected /= 1 + coordinate**2
+    expected /= trapezoid(expected, coordinate)
+    np.testing.assert_array_equal(coordinate, summary.delta_pdf.coordinate)
+    np.testing.assert_array_equal(table["probability_density_per_delta"], summary.delta_pdf.density)
+    np.testing.assert_allclose(table["probability_density_per_delta"], expected, rtol=2e-12)
 
 
 def test_preview_cannot_mutate_export_snapshot():

@@ -12,8 +12,8 @@ from multipolepdm.contracts import (
 )
 from multipolepdm.pdm.statistics import summarize_density
 from multipolepdm.plotting import make_panel, make_preview, save_overview, save_panel, supported_formats
-from multipolepdm.plotting.intervals import format_marginal
-from multipolepdm.plotting.style import ANGLE_LABEL, ETI_COLOR, MEAN_COLOR, OVERVIEW_TITLE, SIGMA_LABEL
+from multipolepdm.plotting.intervals import draw_marginal, format_marginal
+from multipolepdm.plotting.style import ANGLE_LABEL, ETI_COLOR, MEAN_COLOR, OVERVIEW_TITLE, REPORT_STYLE, SIGMA_LABEL
 
 
 @pytest.fixture
@@ -153,7 +153,8 @@ def test_marginal_guides_fill_and_text_match_single_summary(case, panel):
         assert _polygon_area(path) == pytest.approx(segment.mass)
     assert sum(map(_polygon_area, paths)) == pytest.approx(0.68)
     labels = [text.get_text() for text in axes.get_legend().get_texts()]
-    assert labels == ["68% ETI (16%, 50%, 84%)", "Mean +/- SD", "68% HDI threshold", "68% HDI"]
+    coordinate_label = "arctan(δ)" if angle_panel else "σ/I"
+    assert labels == ["68% ETI (16%, 50%, 84%)", "Mean +/- SD", f"HDI cutoff [{coordinate_label}]", "68% HDI"]
     figure.canvas.draw()
     renderer = figure.canvas.get_renderer()
     for text in axes.get_legend().get_texts():
@@ -187,9 +188,24 @@ def test_overview_and_single_panel_exports(case, tmp_path, extension):
             namespace = "{http://www.w3.org/2000/svg}"
             text = " ".join("".join(node.itertext()) for node in tree.iter(f"{namespace}text"))
             assert "68% HDI" in text and "68% ETI" in text
-            assert "tan(mean angle)" in text
+            assert "tan{mean[arctan(δ)]}" in text
+            assert "Transformed endpoints tan(mu +/- std)" in text
             fills = [node.get("id") for node in tree.iter() if node.get("id", "").startswith("pdm-hdi-")]
             assert len(fills) == len(set(fills)) == count
+
+
+def test_delta_pdf_cannot_use_angle_hdi_threshold_or_ambiguous_formatter(case):
+    result, summary = case
+    figure = make_panel(result, summary, "c")
+    with pytest.raises(ValueError, match="Angle-space HDI thresholds"):
+        draw_marginal(figure.axes[0], summary.delta, "delta", REPORT_STYLE, 0.68)
+    with pytest.raises(ValueError, match="transformed angle estimates"):
+        format_marginal(summary.delta)
+    text = format_marginal(summary.delta, angle=summary.arctan_delta)
+    for label in ("tan{HDI68%[arctan(δ)]}", "tan{mode[arctan(δ)]}", "tan{mean[arctan(δ)]}"):
+        assert label in text
+    assert "delta_from_angle" not in text
+    assert "Mean-based" not in text
 
 
 def test_extra_backend_formats_and_invalid_format(case, tmp_path):

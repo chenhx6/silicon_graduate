@@ -5,7 +5,7 @@ from math import isclose
 from matplotlib.axes import Axes
 from matplotlib.patches import Patch
 
-from multipolepdm.contracts import Interval, MarginalSummary
+from multipolepdm.contracts import Interval, MarginalSummary, TanAngleStatistics
 from multipolepdm.pdm.statistics import DEFAULT_INTERVAL_MASS, density_segment
 
 from .style import (
@@ -30,15 +30,46 @@ def _bounds_text(bounds):
     return "[" + ", ".join(f"{value:.4g}" if value is not None else "n/a" for value in bounds) + "]"
 
 
+def format_tan_statistics(
+    statistics: TanAngleStatistics,
+    angle: MarginalSummary,
+    mass: float = DEFAULT_INTERVAL_MASS,
+) -> str:
+    interval = select_interval(statistics, mass)
+    percent = f"{interval.mass:.0%}"
+    lines = [f"tan{{HDI{percent}[arctan(δ)]}}"]
+    for index, segment in enumerate(interval.tan_hdi_segments, start=1):
+        lines.append(f"  {index}. {_bounds_text(segment.bounds)}, mass {segment.mass:.2%}")
+        for lower, upper in segment.mode_ranges:
+            mode = f"{lower:.4g}" if lower == upper else _bounds_text((lower, upper))
+            lines.append(f"    tan{{mode[arctan(δ)]}} = {mode}")
+    lines.extend((
+        f"tan{{ETI{percent}[arctan(δ)]}}  {_bounds_text(interval.tan_eti)}",
+        f"tan{{q50[arctan(δ)]}} = {statistics.tan_median:.4g}",
+        f"tan{{mean[arctan(δ)]}} = {statistics.tan_mean:.4g}",
+        "Transformed endpoints tan(mu +/- std):",
+        f"  {_bounds_text(statistics.tan_mean_std_endpoints)}",
+        f"mu +/- std [arctan(δ)] = {angle.mean:.4g} +/- {angle.std:.4g} rad",
+    ))
+    for side, flags in zip(("Lower", "Upper"), statistics.mean_bound_flags):
+        if flags:
+            lines.append(f"  {side} endpoint: " + ", ".join(FLAG_LABELS[flag] for flag in flags))
+    return "\n".join(lines)
+
+
 def format_marginal(
     marginal: MarginalSummary,
     mass: float = DEFAULT_INTERVAL_MASS,
     *,
     angle: MarginalSummary | None = None,
 ) -> str:
+    if angle is not None:
+        return format_tan_statistics(TanAngleStatistics.from_marginal(marginal), angle, mass)
+    if marginal.coordinate_name != marginal.evaluation_coordinate:
+        raise ValueError("Use format_tan_statistics for transformed angle estimates, not delta PDF statistics.")
     interval = select_interval(marginal, mass)
     percent = f"{interval.mass:.0%}"
-    label = "delta" if angle is not None else "sigma/I"
+    label = "arctan(delta) [rad]" if marginal.coordinate_name == "arctan_delta" else "sigma/I"
     lines = [f"HDI {percent} ({label})"]
     for index, segment in enumerate(interval.hdi_segments, start=1):
         lines.append(f"  {index}. {_bounds_text(segment.bounds)}, mass {segment.mass:.2%}")
@@ -46,14 +77,7 @@ def format_marginal(
             mode = f"{lower:.4g}" if lower == upper else _bounds_text((lower, upper))
             lines.append(f"      mode {mode}")
     lines.append(f"ETI {percent}   q50 = {marginal.median:.4g}  {_bounds_text(interval.eti)}")
-    if angle is None:
-        lines.append(f"Mean +/- SD   {marginal.mean:.4g} +/- {marginal.std:.4g}")
-    else:
-        lines.extend((
-            f"Mean-based   tan(mean angle) = {marginal.mean:.4g}",
-            f"  tan(mean angle +/- SD)   {_bounds_text(marginal.mean_bounds)}",
-            f"  Angle mean +/- SD   {angle.mean:.4g} +/- {angle.std:.4g} rad",
-        ))
+    lines.append(f"Mean +/- SD   {marginal.mean:.4g} +/- {marginal.std:.4g}")
     for side, flags in zip(("Lower", "Upper"), marginal.mean_bound_flags):
         if flags:
             lines.append(f"  {side} guide: " + ", ".join(FLAG_LABELS[flag] for flag in flags))
@@ -63,9 +87,12 @@ def format_marginal(
 def draw_marginal(
     axes: Axes, marginal: MarginalSummary, xlabel: str, style: PlotStyle, mass: float,
 ) -> None:
+    if marginal.coordinate_name != marginal.evaluation_coordinate:
+        raise ValueError("Angle-space HDI thresholds cannot be drawn on the delta PDF.")
     coordinate, density = marginal.coordinate, marginal.density
     interval = select_interval(marginal, mass)
     percent = f"{interval.mass:.0%}"
+    coordinate_label = "arctan(δ)" if marginal.coordinate_name == "arctan_delta" else "σ/I"
     style_axes(axes, style, xlabel, "Probability density")
     for index, bounds in enumerate(interval.hdi):
         fill_x, fill_y = density_segment(coordinate, density, bounds)
@@ -79,7 +106,7 @@ def draw_marginal(
 
     threshold = axes.axhline(
         interval.hdi_threshold, color=HDI_COLOR, linestyle="--", linewidth=0.9,
-        label=f"{percent} HDI threshold", zorder=2,
+        label=f"HDI cutoff [{coordinate_label}]", zorder=2,
     )
     lower, upper = interval.eti
     axes.axvline(lower, color=ETI_COLOR, linestyle="--", linewidth=0.9, zorder=3)

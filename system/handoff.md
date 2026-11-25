@@ -1,9 +1,11 @@
 ---
 graph-excluded: true
-updated: 2026-11-24
+updated: 2026-11-25
 ---
 
 ## 当前交接
+
+2026-11-25主会话完成PDM源码统计命名消歧：GUI和图例明确使用`tan{mode[arctan(δ)]}`、`tan{HDI68%[arctan(δ)]}`、`tan{mean[arctan(δ)]}`，`tan(mu±std)`只称转换端点。`Summary.delta_pdf`／v3 `summary.json:delta_pdf`是真δ密度，`tan_angle_statistics`另存转换报告值；角HDI阈值不得作为δ密度水平线。旧Python聚合接口及v1/v2/v3读取保留，历史快照不改写。228项完整回归通过，6份渲染预览无字号／碰撞失败，归档preflight零失败；数值核、误差、68%约定、版本和现有报告PDF不变，不发PyPI版本。旧0.1.1验证代码先按原哈希固定75项引用，原清单字节不动。未写侧栏`revise_silde_figure/`。当前稳定指针为`main` + `fix: distinguish transformed angle estimates from delta density`，实际Git结果见`outputs/plans/20261120-pdm-three-mode-rewrite/delivery/statistics-naming-publication-20261125.local.json`；技术验收见同目录`statistics-naming-20261125.json`。
 
 本轮按用户授权整理PDM软件与Git基线：96个软件文件按精确白名单跟踪，历史计算改绑原哈希验证的固定快照并保留原清单；不改0.1.1实现或报告PDF、不发新版本。两处正常源码升级造成的四项旧清单不一致已解决。源码与既有馆藏成果已实际非强制推送至Gitee的`origin main`；稳定指针为`main` + `chore: track maintained PDM source and freeze historical code inputs`。发布回执为`outputs/plans/20261120-pdm-three-mode-rewrite/delivery/git-baseline-20261124.json`，以前批次的未推送回执只代表当时状态。发布预检归档零失败，6项分类／边界测试和225项PDM回归通过；全库另有129项未改历史结构lint错误，本轮修改路径无error，不宣称全库lint清零。
 

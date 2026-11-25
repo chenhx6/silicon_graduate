@@ -274,7 +274,64 @@ class MarginalSummary:
 
 
 @dataclass(frozen=True)
+class MarginalPDF:
+    coordinate: np.ndarray
+    density: np.ndarray
+    coordinate_name: str
+
+
+@dataclass(frozen=True)
+class TanAngleInterval:
+    mass: float
+    tan_eti: tuple[float, float]
+    tan_hdi_segments: tuple[HDISegment, ...]
+    angle_hdi_threshold: float
+
+
+@dataclass(frozen=True)
+class TanAngleStatistics:
+    """Transformed angle estimates, not statistics evaluated on the delta PDF."""
+
+    tan_median: float
+    tan_mode: float
+    tan_mean: float
+    tan_mean_std_endpoints: tuple[float | None, float | None]
+    mean_bound_flags: tuple[tuple[str, ...], tuple[str, ...]]
+    intervals: tuple[TanAngleInterval, ...]
+    evaluation_coordinate: str = "arctan_delta"
+    transformation: str = "tan"
+
+    @classmethod
+    def from_marginal(cls, marginal: MarginalSummary) -> "TanAngleStatistics":
+        if marginal.coordinate_name != "delta" or marginal.evaluation_coordinate != "arctan_delta":
+            raise ValueError("Expected tan-transformed arctan(delta) statistics.")
+        return cls(
+            marginal.median,
+            marginal.mode,
+            marginal.mean,
+            marginal.mean_bounds,
+            marginal.mean_bound_flags,
+            tuple(
+                TanAngleInterval(
+                    interval.mass, interval.eti, interval.hdi_segments, interval.hdi_threshold
+                )
+                for interval in marginal.intervals
+            ),
+        )
+
+
+@dataclass(frozen=True)
 class Summary:
+    """Keep delta as a legacy aggregate; use the separate PDF and statistic views."""
+
     delta: MarginalSummary
     sigma_over_i: MarginalSummary
     arctan_delta: MarginalSummary
+
+    @property
+    def delta_pdf(self) -> MarginalPDF:
+        return MarginalPDF(self.delta.coordinate, self.delta.density, "delta")
+
+    @property
+    def tan_angle_statistics(self) -> TanAngleStatistics:
+        return TanAngleStatistics.from_marginal(self.delta)

@@ -101,6 +101,33 @@ def test_delta_eti_and_hdi_for_uniform_xi():
         assert interval.hdi_threshold == pytest.approx(1 / (2 * half_span))
 
 
+def test_explicit_delta_pdf_and_tan_statistics_do_not_conflate_density_and_estimates():
+    xi = np.array([-1.5, 0, 1.5])
+    sigma = np.array([1, 2, 3])
+    summary = summarize_density(_result(xi, sigma, np.ones(3), np.ones(3)))
+    curve = summary.delta_pdf
+    statistics = summary.tan_angle_statistics
+
+    np.testing.assert_array_equal(curve.coordinate, summary.delta.coordinate)
+    np.testing.assert_array_equal(curve.density, summary.delta.density)
+    assert curve.coordinate_name == "delta"
+    assert not any(hasattr(curve, name) for name in ("mean", "mode", "intervals"))
+    assert not any(hasattr(statistics, name) for name in ("coordinate", "density", "mean", "std"))
+    assert statistics.tan_mode == summary.delta.mode == pytest.approx(np.tan(-1.5))
+    assert abs(curve.coordinate[np.argmax(curve.density)]) < 0.01
+    assert statistics.tan_mean == summary.delta.mean
+    assert statistics.tan_median == summary.delta.median
+    assert statistics.tan_mean_std_endpoints == summary.delta.mean_bounds
+    assert statistics.mean_bound_flags == summary.delta.mean_bound_flags
+    assert statistics.evaluation_coordinate == "arctan_delta"
+    assert statistics.transformation == "tan"
+    for transformed, legacy in zip(statistics.intervals, summary.delta.intervals):
+        assert transformed.tan_eti == legacy.eti
+        assert transformed.tan_hdi_segments == legacy.hdi_segments
+        assert transformed.angle_hdi_threshold == legacy.hdi_threshold
+        assert sum(segment.mass for segment in transformed.tan_hdi_segments) == pytest.approx(0.68)
+
+
 def test_bimodal_hdi_leaves_gap_and_reports_exact_threshold_and_mass():
     xi = np.array([-0.5, 0, 0.5])
     sigma = np.arange(1, 8)
