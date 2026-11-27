@@ -3,7 +3,7 @@ type: source
 title: "Kuti et al. 2014 - Multiple chiral doublet bands of identical configuration in 103Rh"
 aliases: [Kuti 2014 103Rh, identical-configuration MχD in 103Rh]
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -173,3 +173,7 @@ P0: none identified.
 | KU14-D18-11 | 本次完整核读Kuti五页正文主线及全部图注，视觉核PDF3 Fig.3/模型输入与PDF4 Fig.4；Suzuki仅定向原读PDF3–4并视觉核Tables I/III，不声称其全文新读。旧037脚本不读declared raw、status=passed为固定赋值；未取得新原谱、伙伴寿命或联合协方差，不生成实验CI。 | current-reading-and-producer-scope | direct-and-boundary | Kuti主raw PDF pp.1–5；Suzuki PDF pp.3–4；旧037脚本主体 | true |
 
 旧[合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/kuti14-103rh-mxd-contract-037.json)及[结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/kuti14-103rh-mxd-result-037.json)在本段原结论用途上标为 **superseded**，不重跑或覆盖。后续优先区分正负宇称的真实母态/伙伴，补测或取得同一组负宇称伙伴的绝对强度与混合比，再比较具体模型和替代解释。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 1–2 对 40 MeV ⁹⁶Zr(¹¹B,4n) 的同批 Gammasphere 采集建立两对候选；396、391 keV 的 DCO 为 0.55(2)、0.54(13)，宇称还使用 E2/M1 假定。PDF 3–5 Figs. 3–4 的共同组态解释依赖 CDFT、TAC 和 PRM，PRM 未再现约 0.45 MeV 的 alignment 突升，Bands 5–6 的计算能量偏高约 200 keV。

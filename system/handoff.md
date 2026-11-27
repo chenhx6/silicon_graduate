@@ -33,6 +33,8 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 本批核定 9 份、227 个主件 PDF 页，另核定 7 张 ¹⁰⁰Ru 源码包图件及 Chow 的同文首页节录。¹⁰⁰Ru 回到原页区分薄靶 γ 谱、厚靶 DSAM 和跨宇称跃迁的 E1 指派条件。累计 525 份、20,594 个主件 PDF 页，正式队列待处理 335 条。第二卷另核 PDF 456–475（印 434–453），下一页 PDF 476（印 454）§6-6b。稳定指针为 `research/archive-learning-20261127` + `research: verify spectroscopy, collective models and 100Ru figure evidence`。见[原件与既读范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-spectroscopy-models-g-audit.json)和[¹⁰⁰Ru 图件及 Chow 节录](../outputs/literature-acquisition/20261119-deep-learning/20261127-100ru-figures-and-chow-extract-g-audit.json)。
 
+本批核定 13 份、428 个主件 PDF 页，新增 5 条刊文节录对照及 1 份机构报告版对照。¹³³Ba、¹⁰²Ru、¹⁵¹Sm 的混合比保留各自的角关联输入、相位及分支。累计 538 份、21,022 个主件 PDF 页，正式队列待处理 316 条。第二卷另核 PDF 476–515（印 454–493），下从 PDF 516（印 494）图 6-22 和式 (6-336) 续接。稳定指针为 `research/archive-learning-20261127` + `research: verify decay spectroscopy, thesis and archived editions`。见[原件与覆盖](../outputs/literature-acquisition/20261119-deep-learning/20261127-archived-decay-spectroscopy-h-audit.json)和[关联版次](../outputs/literature-acquisition/20261119-deep-learning/20261127-archived-versions-h-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

@@ -3,7 +3,7 @@ type: source
 title: "General properties of the πh9/2[541]1/2− configuration and level scheme of 165Tm"
 aliases: ["Jensen 2001 165Tm", "NPA695 Jensen 165Tm", "HS-006 HS-007 canonical duplicate group"]
 created: 2026-09-20
-updated: 2026-10-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: experiment
@@ -218,3 +218,7 @@ Knowledge impact：`limits`把共同绝对停止标尺当作带间形变差的�
 | JT01-D22-R092-1 | NPA695(2001)3–50、H.J.Jensen等原件首页研究165Tm，摘要中的DSAM/Qt对应165Tm的[541]1/2−与[411]1/2+等带；不是163Lu TSD1/2寿命报告。F14 Ref.25字面书目落到本篇时，不能将该身份替代为163Lu直接绝对B测量；仍须查F14实际数据原始来源。 | source-identity-and-transfer-boundary | direct-original-targeted | printed p.3, title/authors/abstract and PII S0375-9474(01)01111-3 | true |
 
 见[[frauendorf-2014-transverse-wobbling]] F14-D22-R092-1的引用链待解记录。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 3–4 的两次独立布居为 ¹⁵⁰Nd(¹⁹F,4n) 85 MeV 和 ¹⁵⁴Sm(¹⁵N,4n) 70 MeV。PDF 21–23 Table 2 的两组 DSAM 平均 Qₜ=8.3(5)、7.4(5) eb，用于 PDF 32–36 的双带混合标定。PDF 39、42–43 的 Table 8、Fig. 19 的 B(E1) 承接该标度及分支。电子阻停的附加 5% 系统项已计入。

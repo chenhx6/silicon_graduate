@@ -3,7 +3,7 @@ type: source
 title: "李仕成 2013 博士论文：形变双奇核 184,186Au 的高自旋态实验研究"
 aliases: ["李仕成2013博士论文", "Li Shicheng 2013 thesis", "184Au 186Au high-spin thesis"]
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 issue_id: "DD-20260910-HS-002"
@@ -184,3 +184,9 @@ tags: [high-spin, odd-odd-nucleus, 184au, 186au, transitional-region, shape-coex
 
 - Raw PDF 与用户 BibTeX 只读；citation key 留空。
 - 未来写作涉及 `184Au/186Au` 具体带号、自旋、组态、形变或 inversion 机制时，应执行 claim-specific paper-evidence verification，并核对作者与后续原始论文的依赖关系。
+
+## 2026-11-27 — GASP 与 GEMINI 数据谱系、指派与原文异文
+
+PDF 73–80（印 57–64）Fig. 5.1、Table 5.1 是 GASP 的 140 MeV ¹⁵⁹Tb(²⁹Si,4n)，在线门为 200 ns，主要分析给 30 ns 矩阵。PDF 89–92 的式 5.1–5.5 和 Table 5.2 假定 δ²≈0 才把分支换为 B(M1)/B(E2)。带 5–7 的组态解释见 PDF 98–102，分别保留顺排与系统学依据。
+
+PDF 107–118 是 GEMINI 104 MeV 的 ¹⁷²Yb(¹⁹F,5n)，与 GASP 为各自采集。PDF 110 Fig. 6.3 的 121 keV 门支持改订旧桥接；PDF 108 Fig. 6.1 与 PDF 118 的组态段把带 1、2 分别定为正、负宇称，PDF 115 有一句互换。PDF 113–122 中带 5 的馈入、TRS 计算与四准粒子指定须分别引用。PDF 134–135 的刊文清单把 PDF 72–105 与 PDF 106–124 的结果分别放回各核谱系。

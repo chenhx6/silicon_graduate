@@ -1,0 +1,257 @@
+{
+  "batch": "20261127-archived-decay-spectroscopy-h",
+  "created_at": "2026-11-27T04:14:42.903088+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000520",
+      "source": "knowledge/sources/li-mingliang-2006-high-spin-137la-138pr-98sr.md",
+      "identity": "李明亮，清华大学理学博士学位论文，2006 年 4 月。馆藏 CNKI 学位扫描件，七章、附录及尾料。",
+      "coverage": [
+        "PDF 1–124。1–8 前置，9–32 概念、33–57 装置与数据、58–108 三核谱学、109–124 总结及尾料。"
+      ],
+      "boundary": [
+        "目录第 4 章后的印页有一页偏移。部分 50/65 MeV 采集总数及图注靶质量有卷内异文。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre and manager",
+      "source_pdf": "raw/theses/degree-dissertation/李明亮.pdf",
+      "sha256": "97bed89c1f6a604b1593b2ee1ce1c94e61b2c6ccc71349106897203e12dfeeab",
+      "physical_pages": 124
+    },
+    {
+      "id": "catalogue:LIT-000054",
+      "source": "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md",
+      "identity": "APS Physical Review Letters 110, 172504 (2013), published reprint. The eight-page CHORUS file is an accepted manuscript of the same study.",
+      "coverage": [
+        "PR5 PDF 1–5 全篇已覆盖，本次复核实验、Figs. 1–3、Table I 和引用，AS8 核首页及 Fig. 1 等对照。"
+      ],
+      "boundary": [
+        "两版 Fig. 1 的个别能量标签不同。绝对寿命未测，模型形变和组态与谱学观测分别记录。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble and manager",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf",
+      "sha256": "3c5a3d7c543140ee25f7cb09376d5aeee760c8ac50c76edd466a010d610c2d0f",
+      "physical_pages": 5
+    },
+    {
+      "id": "catalogue:LIT-000065",
+      "source": "knowledge/sources/ensdf-2006-131ce-levels.md",
+      "identity": "NNDC ENSDF normal-deformed 131Ce (HI,xnγ) evaluated July 2006, associated with NDS 107, 2715–2930; 11-page subset.",
+      "coverage": [
+        "常形变 PDF 1–11：History、能级、跃迁表和谱图、分带图；超形变伴随件选页作身份对照。"
+      ],
+      "boundary": [
+        "资料截至 2006-07-17。各测量归原实验键；3036.3 keV 带指认有竞争，1155.0 keV 放置不确定。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble and manager",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261003-DAY5-beta-gamma-octupole-shape-coexistence/ensdf-131ce-high-spin-bands.pdf",
+      "sha256": "fc07aef609a67abc8d383d14dc96753ceb8706c977f6cb462d5d5371210a2544",
+      "physical_pages": 11
+    },
+    {
+      "id": "bytes:53a214d5912adce2991750e7f8c3bfdb759c379e2fc279513f8e7eb933825fbf",
+      "source": "knowledge/sources/potnis-1985-ba133-triple-directional-correlations.md",
+      "identity": "V. R. Potnis, G. P. Agin and B. P. Singh, Nuclear Physics A 436, 93–107 (1985), complete publisher version.",
+      "coverage": [
+        "PDF 1–15（印 93–107），摘要、§§1–6、Figs. 1–5、Tables 1–3、引文。"
+      ],
+      "boundary": [
+        "各支采用的 81.00 keV 根和相位映射必须保留。不同几何的符号变化随定义对读。"
+      ],
+      "disposition": "covered",
+      "worker": "Dirac and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_85_90543-3.pdf",
+      "sha256": "53a214d5912adce2991750e7f8c3bfdb759c379e2fc279513f8e7eb933825fbf",
+      "physical_pages": 15
+    },
+    {
+      "id": "bytes:ae2a1cd69d9b6995dd79a80aacf362152db987ee722cabbff3a32c3e00b77f4d",
+      "source": "knowledge/sources/trautmann-1982-rare-earth-continuum-polarization.md",
+      "identity": "W. Trautmann et al., Nuclear Physics A 378, 141–158 (1982), complete publisher version.",
+      "coverage": [
+        "PDF 1–18（印 141–158），§§1–4、校准、连续谱分析及引用。"
+      ],
+      "boundary": [
+        "Pγ 和 A₂ 的谱成分分解含对齐度和参考极化输入。该结果约束连续谱中多极成分，未给离散混合振幅。"
+      ],
+      "disposition": "covered",
+      "worker": "Dirac and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_82_90387-6.pdf",
+      "sha256": "ae2a1cd69d9b6995dd79a80aacf362152db987ee722cabbff3a32c3e00b77f4d",
+      "physical_pages": 18
+    },
+    {
+      "id": "bytes:a488b87752e81456ac9e689c47b848caaacae8b5e01edac853f6c8964a65d184",
+      "source": "knowledge/sources/tolhoek-cox-1953-oriented-nuclei-polarization.md",
+      "identity": "H. A. Tolhoek and J. A. M. Cox, Physica 19, 101–119 (1953), continuous publisher pages.",
+      "coverage": [
+        "PDF 1–19（印 101–119），§§1–7 两种推导、纯偶极／四极终式和引用。"
+      ],
+      "boundary": [
+        "单首页节录另带一条提示，提到的 update 没有实有文本。纯多极公式迁移到带混合振幅及实际探测几何时需另核。"
+      ],
+      "disposition": "covered",
+      "worker": "Dirac and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_s0031-8914_53_80010-8.pdf",
+      "sha256": "a488b87752e81456ac9e689c47b848caaacae8b5e01edac853f6c8964a65d184",
+      "physical_pages": 19
+    },
+    {
+      "id": "bytes:47ba36f4f847ad8dbf51605eeb042895b414fb227e563806da5833da7bc0119e",
+      "source": "knowledge/sources/singh-taylor-1970-ru102-directional-multipole-mixing.md",
+      "identity": "B. Singh and H. W. Taylor, Nuclear Physics A 155, 70–88 (1970), complete publisher version.",
+      "coverage": [
+        "PDF 1–19（印 70–88），§§1–3、逐能级拟合与模型比较，图表及引用。"
+      ],
+      "boundary": [
+        "1872 keV 附近的其他反应有 6⁺ 竞争指派。方向关联支持某些自旋，宇称取决于额外电磁证据。"
+      ],
+      "disposition": "covered",
+      "worker": "Dirac and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_70_90079-5.pdf",
+      "sha256": "47ba36f4f847ad8dbf51605eeb042895b414fb227e563806da5833da7bc0119e",
+      "physical_pages": 19
+    },
+    {
+      "id": "bytes:219a0f06295104f23cd52403ada467a0f4a8f58c8f3b4f66365ce15820b58320",
+      "source": "knowledge/sources/yamada-1981-sm151-mixing-ratios.md",
+      "identity": "Shigeru Yamada, J. Phys. Soc. Jpn. 50(5), 1432–1439 (1981), complete publisher scan.",
+      "coverage": [
+        "PDF 1–8（印 1432–1439），角关联、Table I 双根、Fig. 2 与 Table II 模型比较及引用。"
+      ],
+      "boundary": [
+        "多个大根需要作者的旋转–振动解释与既有分支配合，669.2 keV 大根在一侧仍无界。521.0 keV 宇称有冲突证据。"
+      ],
+      "disposition": "covered",
+      "worker": "Pauli and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/JPSJ.50.1432.pdf",
+      "sha256": "219a0f06295104f23cd52403ada467a0f4a8f58c8f3b4f66365ce15820b58320",
+      "physical_pages": 8
+    },
+    {
+      "id": "catalogue:LIT-000453",
+      "source": "knowledge/sources/hartley-2009-wobbling-167ta.md",
+      "identity": "APS PRC 80, 041304(R), local corrected version dated 2009-10-28.",
+      "coverage": [
+        "同 SHA 的 PDF 1–5 已读，本次复核全篇关键文字和图。"
+      ],
+      "boundary": [
+        "与 ¹⁶³Lu 的参照共用估定 E2 比例，无本核线偏振对应测量。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble and manager",
+      "source_pdf": "raw/papers/2009_Hartley et al_Wobbling mode in Ta 167.pdf",
+      "sha256": "4667da2a7d58d75ee751b85d8b7489437a2dc9ecc4ba8f22fd533d36782d1525",
+      "physical_pages": 5
+    },
+    {
+      "id": "catalogue:LIT-000460",
+      "source": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+      "identity": "APS PRC 68, 054310, published version.",
+      "coverage": [
+        "同 SHA 的 PDF 1–14 原覆盖。本轮定向核 1–3、8、12–14。"
+      ],
+      "boundary": [
+        "多个模型解释仍依赖伙伴带与寿命，20.5 keV 的连线未直接确认。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble and manager",
+      "source_pdf": "raw/papers/2003_Hecht et al_Evidence for chiral symmetry breaking in Eu 140.pdf",
+      "sha256": "5ee92742d8e78a8ccc1a37058bee711d99fadcaf38023a710af186a4fe497463",
+      "physical_pages": 14
+    },
+    {
+      "id": "catalogue:LIT-000481",
+      "source": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+      "identity": "Elsevier Nuclear Physics A 695, 3–50, 48-page version of record.",
+      "coverage": [
+        "同哈希 PDF 1–48 原覆盖。本轮核 1、3–4、18–23、32–33、36、39、42–43、48 的身份和关键图表。"
+      ],
+      "boundary": [
+        "DSAM、混合推得的矩与 E1 强度共享标度；DCO 某些混合比有双解。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble and manager",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/NPA695-Jensen-2001-3.pdf",
+      "sha256": "0fde4a838d94fdc23dcd4d4034a945073cb569c47c153e9e3b90676c44838770",
+      "physical_pages": 48
+    },
+    {
+      "id": "catalogue:LIT-000508",
+      "source": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+      "identity": "APS PRL 113, 032501, 5-page version of record.",
+      "coverage": [
+        "同 SHA 的 PDF 1–5 原覆盖，本轮核两对谱学数据与模型及引用。"
+      ],
+      "boundary": [
+        "两对为同次运行。绝对 B(M1)、B(E2) 缺寿命输入。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble and manager",
+      "source_pdf": "raw/papers/2014_Kuti et al_Multiple Chiral Doublet Bands of Identical Configuration in Rh 103.pdf",
+      "sha256": "ef327ad2d7b55a71b72c356bb2789f107b1e1d464daa59c181bec44abf88a0b2",
+      "physical_pages": 5
+    },
+    {
+      "id": "catalogue:LIT-000517",
+      "source": "knowledge/sources/li-2013-high-spin-184-186au.md",
+      "identity": "李仕成，中国科学院大学理学博士，《形变双奇核 ¹⁸⁴,¹⁸⁶Au 的高自旋态实验研究》，2013-03，137 个物理页。",
+      "coverage": [
+        "PDF 1–16 前置识别、17–35 理论、36–71 实验方法、72–105 ¹⁸⁴Au、106–124 ¹⁸⁶Au 及总结、125–137 参考及同课题发表。"
+      ],
+      "boundary": [
+        "学位论文的发表列表界定研究谱系。原刊逐表对账与弱线复算留在覆盖边界。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre and manager",
+      "source_pdf": "raw/theses/degree-dissertation/李仕成-形变双奇核184,186Au的高自旋态实验研究.pdf",
+      "sha256": "263aab48ec0633e6072343889f8e9c5829cbaa18e80c31f2b7b00319a21d59f6",
+      "physical_pages": 137
+    },
+    {
+      "id": "catalogue:LIT-000302",
+      "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "identity": "Bohr and Mottelson, Nuclear Structure II, 1975 original, local World Scientific 1998 reissue, 772 physical pages.",
+      "coverage": [
+        "PDF 476–515 (printed 454–493), §§6-6b–c and chapter specimen calculations."
+      ],
+      "boundary": [
+        "Fig. 6-15 比较两种计算。二阶矩宽度及慢变量近似保留文中适用条件。"
+      ],
+      "disposition": "partial",
+      "worker": "Pascal and manager",
+      "source_pdf": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "physical_pages": 772
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 520,
+    "duplicate-or-related-version": 19,
+    "duplicate-excerpt-linked-to-canonical": 8,
+    "pending-identity-and-coverage": 144,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 6,
+    "existing-source-coverage-to-audit": 178,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "publisher-first-page-extract-fulltext-unavailable": 3,
+    "access-placeholder-fulltext-unavailable": 1,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 322,
+  "credited_works": 13,
+  "credited_primary_pages": 428,
+  "partial_volume_pages": 40,
+  "next_action": "Continue Bohr–Mottelson II PDF 516 (printed 494) and integrate the next verified local records.",
+  "uncredited": []
+}

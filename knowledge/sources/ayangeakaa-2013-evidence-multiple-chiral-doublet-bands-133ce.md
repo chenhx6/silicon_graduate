@@ -3,7 +3,7 @@ type: source
 title: "Evidence for Multiple Chiral Doublet Bands in 133Ce"
 aliases: [Ayangeakaa 2013 133Ce MχD]
 created: 2026-07-13
-updated: 2026-11-08
+updated: 2026-11-27
 status: active
 review_status: human-reviewed
 source_type: journal-article-experiment
@@ -217,3 +217,9 @@ G64-v1 ledger曾声明不存在的另一路径和不匹配哈希，不能作为�
 ### Day24 checkpoint006 Agent self-audit triage
 
 P0: none identified（新身份/零点歧义均已隔离，未混作actual input）。P1：leader核版本label/37.2caption/TableI/±.032，worker全network对照；literal/conditional保持，unsignedgamma配相同spin不认证identity。原user flags是历史范围，当前转录纠错与新综合均为Codex self-audit。具体absoluteB、g、δ、精确head误差/branch/响应及actualproducer仍缺。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+刊版 PDF 1–3。¹¹⁶Cd(²²Ne,5n) 在 112 MeV 两次采集，合计约 4.1×10⁹ 个至少四重符合。711、779 keV 连线的角分布支持 M1/E2，1074、1146 keV 的 DCO 与 stretched E2 相容。两对候选无寿命验证。PDF 3–4 Figs. 2–3、Table I 将 TPRM 输入的约束 RMF 形变与实验比值区分。
+
+刊版 PDF 2 Fig. 1 的带 5 高端标 600、1173 keV，CHORUS PDF 3 Fig. 1 标 602、1174 keV。刊版图注的 37.2 keV 指最低 9/2⁻ 相对基态的能量，表 I 带头列的数值使用该表的定义。

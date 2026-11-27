@@ -3,7 +3,7 @@ type: source
 title: "李明亮 2006 博士论文：137La、138Pr 和 98Sr 高自旋态"
 aliases: [李明亮高自旋论文, Li Mingliang 137La 138Pr 98Sr]
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-experiment
@@ -70,3 +70,9 @@ tags: [a130, a100, high-spin, oblate, phd-thesis]
 ## Extracted Pages
 
 - 摘要/Abstract：PDF pp.4–6；`137La` Ch.4、`138Pr` Ch.5、`98Sr` Ch.6；总结：论文印刷 p.102（PDF 约 p.109）。
+
+## 2026-11-27 — 三核实验、刊文谱系与 ⁹⁸Sr 延迟半衰期
+
+PDF 49–51、58–66（图 3.13–3.14、图 4.1–4.5、表 4.1）的 ¹¹B+¹³⁰Te 50 MeV 数据主要布居 ¹³⁷La；65 MeV 段主要用于 ¹³⁶La。§3.6.1 的 3.6×10⁸ 等效两重事件未逐段拆分。¹³⁷La 回弯与扁椭组态模型解释见 PDF 67–72，Figs. 4.7–4.10。PDF 51–53、73–93 的 ¹³⁸Pr 使用 ¹²⁸Te(¹⁴N,4n) 的另一采集；图 3.15 靶名与正文、Tables 3.2–3.3 有异文。
+
+PDF 94–108（印 86–100）Fig. 6.1–6.12、Table 6.1–6.3 的 ⁹⁸Sr 来源为 Gammasphere ²⁵²Cf 裂变。1838.2 与 2534.6 keV 带头在有限延迟窗的报告半衰期为 13±3、4.5±1.0 ns，依赖 ⁹⁵Sr 参考与双门归一。GM 耦合和 −643 keV 内禀劈裂为模型拟合。PDF 124 发表清单把期刊文献放回各核研究分支，原刊和采集逐条对账仍待补。

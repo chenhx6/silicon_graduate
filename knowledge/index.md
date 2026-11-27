@@ -2273,3 +2273,8 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[rocchini-2021-coulomb-excitation-shell-model]] — 低能 Coulex、重取向及 E2 不变量。
 - [[weigt-1968-pd106-linear-polarization-directional-correlation]] — ¹⁰⁶Pd 的线偏振、方向关联及混合分支。
 - [[chow-wiedenbeck-1973-triple-cascade-mixing-ratios]] — 三步级联的方向关联约束和混合比交点。
+- [[potnis-1985-ba133-triple-directional-correlations]] — ¹³³Ba 三步级联、混合比分支及相位。
+- [[trautmann-1982-rare-earth-continuum-polarization]] — Er、Dy 连续 γ 谱极化与角分布。
+- [[tolhoek-cox-1953-oriented-nuclei-polarization]] — 取向核的角分布和光子密度矩阵。
+- [[singh-taylor-1970-ru102-directional-multipole-mixing]] — ¹⁰²Ru 的混合比与自旋竞争解。
+- [[yamada-1981-sm151-mixing-ratios]] — ¹⁵¹Sm 的角关联双根与 β 振动态假设。

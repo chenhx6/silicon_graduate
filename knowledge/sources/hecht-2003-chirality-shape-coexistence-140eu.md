@@ -3,7 +3,7 @@ type: source
 title: "Hecht et al. 2003 - Evidence for Chiral Symmetry Breaking in 140Eu?"
 aliases: [Hecht 2003 140Eu, 140Eu chiral bands and shape coexistence]
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -184,3 +184,7 @@ Checkpoint045重新核对全部14页文字主线，视觉核PDF9的Fig.9/10与PD
 本任务的radial幅度估计Q_beta=(3/sqrt(5pi)) Z(1.2 A^(1/3))² beta/100给3.70294和2.96235 eb，只是均匀电荷形变幅度的低阶映射；三轴体系没有据此认证唯一轴向Q0或观测Qt。旧118.4/75.8 W.u.由额外采用轴对称高自旋系数产生，撤为未认证原体系的示例值。
 
 [新程序](../../system/scripts/day18_hecht03_140eu_shape_coexistence_audit.py)与[实际18项断言结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/hecht03-geometry-correction-result-045.json)验证哈希、原结论文字、张量恒等式、轴对称/零形变极限、轴置换不变性及同强度witness；不重现原fit/CI，不增加独立实验。原review状态不升级。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2–3 的 205 MeV 采集给双、三重符合与 69 条放置跃迁。PDF 8、13 的 20.5 keV 是据级联推断的拟议线。PDF 12 Table II、§III.D 与 PDF 13 §IV 保留手征解释和 TRS 形状共存解释。前者预期带内绝对 B(E2) 在相关自旋突增，后者预期平滑变化，数值均需寿命测量。

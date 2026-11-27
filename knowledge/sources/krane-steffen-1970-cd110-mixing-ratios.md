@@ -151,3 +151,7 @@ TableIII的15行中8行为finite mixed ratio，7个pureE2限值保留∞（在�
 ## 2026-11-21 — Indirect correlations and background
 
 The eleven-page publisher article uses 1–2, 1–3 and 1–4 directional correlations following \(^{110}\mathrm{Ag}\) decay. The 658-keV gate example in Fig. 4 shows a peak in its own gated spectrum caused by Compton background from other cascades. The adjacent window provides the subtraction control. The fitted mixing ratios draw on multiple paths, with the unobserved transitions entering through attenuation and previously established mixing ratios. The source reports these directional data and explicit phases without a separate physical linear-polarization measurement.
+
+## 2026-11-27 — ¹¹⁰Cd 的机构报告与 PRC 版对照
+
+`COO-1746-31`（DOI 10.2172/4153556）馆藏报告 35 页。报告 PDF 10–14 §III 区分发射矩阵元和级联位置约定。PDF 18–20、34 Fig. 4 用同一数据说明峰背景处理，937→885 keV 的 A₂₂ 由 0.055(10) 调整为 0.098(10)。报告 PDF 26 Table III 的 818.0 keV δ(E2/M1)=−1.20(15) 与 PRC 刊版印 733 一致。报告单列图版便于定位，实验与刊版共用。

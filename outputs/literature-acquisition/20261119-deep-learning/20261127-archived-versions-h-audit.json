@@ -1,0 +1,144 @@
+{
+  "batch": "20261127-archived-versions-h",
+  "created_at": "2026-11-27T04:14:46.213968+00:00",
+  "records": [
+    {
+      "work_id": "bytes:1f5d33e51d10ebb7e2e09653fc97c533fc3144b11400ffae415f07c07408374b",
+      "parent": "bytes:53a214d5912adce2991750e7f8c3bfdb759c379e2fc279513f8e7eb933825fbf",
+      "source": "knowledge/sources/potnis-1985-ba133-triple-directional-correlations.md",
+      "disposition": "duplicate-excerpt-linked-to-canonical",
+      "assets": [
+        {
+          "path": "raw/papers/gpt/query/20261119-pdm-delta-broad/10.1016_0375-9474_85_90543-3.pdf",
+          "sha256": "1f5d33e51d10ebb7e2e09653fc97c533fc3144b11400ffae415f07c07408374b",
+          "size": 66775,
+          "hash_basis": "fresh-hash",
+          "source_role": "duplicate-excerpt-linked-to-canonical"
+        }
+      ],
+      "edition_pages": 1,
+      "locator": "刊版首张印页 93 与完整 PDF 1 的文字和渲染一致。",
+      "boundary": "本件仅印页 93，其余正文见已链接全文。"
+    },
+    {
+      "work_id": "bytes:2ef2ed47bb048fc53b415e376d7fc24de3a04de06d6dc189f202905708c59638",
+      "parent": "doi:10.1016/s0029-5582(60)81036-x",
+      "source": "knowledge/sources/bauer-deutsch-1960-co55-fe55-polarization.md",
+      "disposition": "duplicate-excerpt-linked-to-canonical",
+      "assets": [
+        {
+          "path": "raw/papers/gpt/query/20261119-pdm-delta-broad/10.1016_s0029-5582_60_81036-x.pdf",
+          "sha256": "2ef2ed47bb048fc53b415e376d7fc24de3a04de06d6dc189f202905708c59638",
+          "size": 64275,
+          "hash_basis": "fresh-hash",
+          "source_role": "duplicate-excerpt-linked-to-canonical"
+        }
+      ],
+      "edition_pages": 1,
+      "locator": "刊版首张印页 264 与完整 PDF 1 的文字和渲染一致。",
+      "boundary": "本件仅印页 264，其余正文见已链接全文。"
+    },
+    {
+      "work_id": "bytes:448d99becfbea7e8a94f2a72d0ee0b9adcfabc5d4a61e27b8b8fac38ad43a749",
+      "parent": "bytes:ae2a1cd69d9b6995dd79a80aacf362152db987ee722cabbff3a32c3e00b77f4d",
+      "source": "knowledge/sources/trautmann-1982-rare-earth-continuum-polarization.md",
+      "disposition": "duplicate-excerpt-linked-to-canonical",
+      "assets": [
+        {
+          "path": "raw/papers/gpt/query/20261119-pdm-delta-broad/10.1016_0375-9474_82_90387-6.pdf",
+          "sha256": "448d99becfbea7e8a94f2a72d0ee0b9adcfabc5d4a61e27b8b8fac38ad43a749",
+          "size": 46045,
+          "hash_basis": "fresh-hash",
+          "source_role": "duplicate-excerpt-linked-to-canonical"
+        }
+      ],
+      "edition_pages": 1,
+      "locator": "刊版首张印页 141 与完整 PDF 1 的文字和渲染一致。",
+      "boundary": "本件仅印页 141，其余正文见已链接全文。"
+    },
+    {
+      "work_id": "bytes:8023ef9a9d9d9c86ee1e00854019645d857900a58da2a9c67159460c3f25bdbb",
+      "parent": "bytes:a488b87752e81456ac9e689c47b848caaacae8b5e01edac853f6c8964a65d184",
+      "source": "knowledge/sources/tolhoek-cox-1953-oriented-nuclei-polarization.md",
+      "disposition": "duplicate-excerpt-linked-to-canonical",
+      "assets": [
+        {
+          "path": "raw/papers/gpt/query/20261119-pdm-delta-broad/10.1016_s0031-8914_53_80010-8.pdf",
+          "sha256": "8023ef9a9d9d9c86ee1e00854019645d857900a58da2a9c67159460c3f25bdbb",
+          "size": 55213,
+          "hash_basis": "fresh-hash",
+          "source_role": "duplicate-excerpt-linked-to-canonical"
+        }
+      ],
+      "edition_pages": 1,
+      "locator": "刊文印页 101，首页题名、正文和书目一致，节录另附提示。",
+      "boundary": "节录附一条 update 提示。其实际文本、身份与依赖仍待定位。"
+    },
+    {
+      "work_id": "bytes:b28b0dcaebbbe7857d0cf0fb4868929ce97ef5dc652e422be1a0f9af319796fc",
+      "parent": "bytes:47ba36f4f847ad8dbf51605eeb042895b414fb227e563806da5833da7bc0119e",
+      "source": "knowledge/sources/singh-taylor-1970-ru102-directional-multipole-mixing.md",
+      "disposition": "duplicate-excerpt-linked-to-canonical",
+      "assets": [
+        {
+          "path": "raw/papers/gpt/query/20261119-pdm-delta-broad/10.1016_0375-9474_70_90079-5.pdf",
+          "sha256": "b28b0dcaebbbe7857d0cf0fb4868929ce97ef5dc652e422be1a0f9af319796fc",
+          "size": 70844,
+          "hash_basis": "fresh-hash",
+          "source_role": "duplicate-excerpt-linked-to-canonical"
+        }
+      ],
+      "edition_pages": 1,
+      "locator": "刊版首张印页 70 与完整 PDF 1 的文字和渲染一致。",
+      "boundary": "本件仅印页 70，其余正文见已链接全文。"
+    },
+    {
+      "work_id": "bytes:c6bc8dca8b535800bde67d1ded7370fe9e660cb4a977a3f70a11692aa9b208fa",
+      "parent": "catalogue:LIT-000504",
+      "source": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "disposition": "duplicate-or-related-version",
+      "assets": [
+        {
+          "path": "raw/papers/gpt/query/20261119-pdm-delta-broad/10.2172_4153556.pdf",
+          "sha256": "c6bc8dca8b535800bde67d1ded7370fe9e660cb4a977a3f70a11692aa9b208fa",
+          "size": 749298,
+          "hash_basis": "fresh-hash",
+          "source_role": "duplicate-or-related-version"
+        },
+        {
+          "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.2172_4153556.pdf",
+          "sha256": "c6bc8dca8b535800bde67d1ded7370fe9e660cb4a977a3f70a11692aa9b208fa",
+          "size": 749298,
+          "hash_basis": "fresh-hash",
+          "source_role": "duplicate-or-related-version"
+        }
+      ],
+      "edition_pages": 35,
+      "locator": "COO-1746-31 报告 PDF 1–35。题名、作者、25 条关联和 Table III 的 8 个 δ 与 PRC 2, 724–734 对账。",
+      "boundary": "报告图表物理页与刊版不同。报告 PDF 26 Table III 的 818.0 keV δ=-1.20(15) 与刊版印 733 相同。"
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 520,
+    "duplicate-or-related-version": 20,
+    "duplicate-excerpt-linked-to-canonical": 13,
+    "pending-identity-and-coverage": 138,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 6,
+    "existing-source-coverage-to-audit": 178,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "publisher-first-page-extract-fulltext-unavailable": 3,
+    "access-placeholder-fulltext-unavailable": 1,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 316,
+  "credited_works": 0,
+  "credited_primary_pages": 0
+}

@@ -3,7 +3,7 @@ type: source
 title: "ENSDF 131Ce high-spin and superdeformed-band evaluation"
 aliases: [ENSDF 131Ce high-spin levels, NuDat 131Ce SD-1 SD-2]
 created: 2026-10-03
-updated: 2026-10-03
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: evaluated-nuclear-data
@@ -89,3 +89,9 @@ The evaluation closes one identity edge: Petrache et al. 1998, whose measured 13
 - [[alwaleedi-2013-band-structures-131ce]]
 - [[131ce-collective-mode-discrimination]]
 - [[a130-thesis-evidence-matrix]]
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+常形变 PDF 1 History 分列 1991Pa07 NORDBALL、1996Gi08 EUROGAM 与 2004Li27 DSA。PDF 1–3 的 161.980 keV 88(2) ns 归 1998Io01，300.28 keV 120(8) ps 归 1999Kl11。3036.3／3921.2 keV 的 <1.52／<0.72 ps 为 2004Li27 有效半衰期上限，未校正侧馈。同实验给常形变带 A、B 的 Qₜ=3.1(6)、4.6(15) eb。超形变子集亦用带 A、B 的标签，核原件时保留两套定义。
+
+常形变 PDF 3 的 161.98 keV 线能引 ¹³¹Pr EC，A₂ 条目另列 1977Gi17 与 1998Io01；PDF 5–6 对 1155.0 keV 标明放置不确定。PDF 7–11 是用于对照的组合纲图和分带图。

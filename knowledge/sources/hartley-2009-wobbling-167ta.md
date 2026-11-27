@@ -3,7 +3,7 @@ type: source
 title: "Hartley et al. 2009 - Wobbling mode in 167Ta"
 aliases: [Hartley 2009 167Ta wobbling]
 created: 2026-07-16
-updated: 2026-07-25
+updated: 2026-11-27
 status: active
 review_status: human-reviewed
 source_type: journal-article
@@ -158,3 +158,7 @@ Do not report the `B(E2)` ratios without stating the 90%-E2 assumption.
 | HA09-D18-1 | **superseded**：旧关于“教科书式循环论证”的过强断言降格，由HA09-D18-2/3分层记录作者的假定前提、计算结果与推转模型对比逻辑。 | task-correction | superseded-interpretation | 本段D18-2/3；旧lu-ta-wobbling-lineage-result-027 | true |
 | HA09-D18-2 | 本文在无法测定线偏振的条件下，明确假定TSD2到TSD1连接线具有约90%的E2成分（该数值引自163Lu），据此提取出39/2、43/2、47/2态的B(E2_out)/B(E2_in)为0.32(4)至0.37(4)。 | source-result-and-method | direct | PDF p.5；Sec. III | true |
 | HA09-D18-3 | 作者将上述提取的比值与传统推转模型（预测比值<=0.01）对比，指出二者存在显著差异，据此提出167Ta可能是Lu同位素之外首个表现出wobbling特征的核；若连接线实际为M1主导（E2份额~3%），则比值将降至~0.011，与推转模型相容，显示该结论对90% E2假定的直接依赖。 | author-interpretation-boundary | direct-and-boundary | PDF p.5；Sec. IV | true |
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2–4 Figs. 1–4 的 643、632 keV 连线比为 0.50(8)、0.71(8)，原作者判为 ΔI=1。PDF 5 取 ¹⁶³Lu 的约 90% E2 分数才得 39/2、43/2、47/2 的 B(E2)out/B(E2)in=0.37(4)、0.32(4)、0.36(4)。本文无偏振数据约束实际分数，保留低频两带分离与带相互作用的替代解释。
