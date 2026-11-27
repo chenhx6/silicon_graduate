@@ -7,7 +7,7 @@ updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: skimmed
+reading_depth: read
 title_original: "Handbook for calculations of nuclear reaction data, Reference Input Parameter Library-2 (RIPL-2)"
 authors: [IAEA (International Atomic Energy Agency)]
 publisher: "IAEA-TECDOC-1506, Vienna"
@@ -77,3 +77,11 @@ tags: [nuclear-data, level-density-parameter, optical-model-parameters, photon-s
 ## 2026-11-27 — 馆藏原件与覆盖核对
 
 - 手册转述 Audi 与 Wapstra 的 1995 年汇编，实验原子质量覆盖 1,964 个核素。（物理第 19 页 §2.1.1，物理第 23 页参考文献 [2.1]）
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- 离散能级库用已知自旋及可用的 γ 跃迁约束计算或抽样赋值。缺少实验自旋时，蒙特卡罗抽样值有单独编码。单候选值可编码为 u，即使原实验指派仍带不确定性。（物理第42–43页，附录3.B，式(3.6)–(3.10)及五类选择规则。公式排版待核物理第42页。）
+- 附录5.D按库条目列出入射粒子、模型类型、色散与相对论势标记、适用核素与能区及参考文献编号。目录含中子、质子、氘、氚、³He和⁴He条目，Koning–Delaroche参数化只是其中一组。（物理第85–91页附录5.D目录表（抽取中未见独立表号）。物理第92页[5]与[11]均著录Koning和Delaroche的Nucl. Phys. A713 (2003) 231。）
+- 手册转述，²³⁰Th(n,f) 在约 700 keV 的入射中子能量附近观测到共振，²⁴⁰Pu 的中子诱发裂变截面也显示中间结构。（物理第157页 §8.2，参考文献 [8.9]、[8.10] 的书目见物理第167页。）
+
+PDF 2 核技术报告号、机构与日期；PDF 7、13、17、49、77、97、129、171 原页确认空白。PDF 33 Figs. 3.1–3.2 与 PDF 55 Figs. 4.1–4.2 区分离散能级拟合参数与不同评价的 s、p 波平均中子共振间距。PDF 70 按入射粒子及目标区分光学势建议，PDF 108、139 仅在指定输入下比较模型和数据。

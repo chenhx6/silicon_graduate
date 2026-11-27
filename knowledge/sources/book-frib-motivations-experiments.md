@@ -7,7 +7,7 @@ updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: report
-reading_depth: skimmed
+reading_depth: read
 title_original: "Motivations for Early High-Profile FRIB Experiments"
 authors: [FRIB Science Community / NSCL / MSU]
 year: 2014
@@ -88,3 +88,10 @@ tags: [drip-line-physics, shell-evolution, halo-nuclei, r-process, nuclear-astro
 
 - 报告给出初级束功率为 10 kW 时的 FRIB 束流产额估算。核素图所示质子与中子滴线来自 UNEDF1 能量密度泛函计算。（物理第 7 页 I 正文及第 8 页图 1 图注，[3]。逐核素产额、色标和图例须查看第 8 页原图。）
 - 报告用单中子分离能接近配对能隙作为弱束缚效应可能开始显现的判据，据此提示 N=82 壳闭合上方的 ¹³⁴Sn 及更重锡同位素的低能配对性质可能受影响。（物理页 41 的判据和锡同位素讨论。配套图 6 在物理页 42，曲线和具体数值待目视核查。）
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- 三则图注分别将核素图用于标示谐振子 ls 模型空间、jj 模型空间和若干更大的模型空间。（物理第 131 页图 22、第 132 页图 23、第 133 页图 24。图注均可读。空间边界、能量色标与核素归属须在相应物理页核对原图。）
+- 现存文件的书目已收入标为 2024 年的研究，包括 [935]、[939] 的预印本及 [972]–[973] 的期刊论文。这些年份可用于审查 Wiki 的版本标注，不能用作本件印刷出版年。（物理第 227 页 [935]、第 228 页 [939]、第 230 页 [972]–[973]）
+
+PDF 8 Fig. 1 的 10 kW 是初级束假设，色标为预估 rate/s，参照 UNEDF1 滴线；评价这些可及性预估要与实际运行分开。PDF 42 Fig. 6 比较 Sn 链的分离能与配对尺度。PDF 130–132 Figs. 21–23 明分 ls、jj 的模型空间。PDF 178、230 抽查书目尾段，终条 [973]。

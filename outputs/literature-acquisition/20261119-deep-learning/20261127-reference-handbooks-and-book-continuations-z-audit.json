@@ -1,0 +1,189 @@
+{
+  "batch": "20261127-reference-handbooks-and-book-continuations-z",
+  "created_at": "2026-11-27T11:05:09.049776+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000311",
+      "source": "knowledge/sources/book-iaea-reaction-data-handbook.md",
+      "identity": "IAEA, Handbook for calculations of nuclear reaction data, RIPL-2, IAEA-TECDOC-1506, August 2006. 172 physical PDF pages.",
+      "coverage": [
+        {
+          "source_note": "knowledge/sources/book-iaea-reaction-data-handbook.md",
+          "scope_locator": "Read actual source Scope and Reading Depth / Covered scope; no cached excerpt is a reading certificate."
+        },
+        "PDF 1–40 的页标原文文本读段。",
+        "审读物理第 1–40 页所供抽取文本。第 2 页部分题名由去重占位符代替，第 7、13、17 页无抽取文字。正文读至印刷第 27 页，即附录 3.A 首面。物理第 41–172 页未读。图题可读，图像未作目视核验。",
+        "PDF 41–83：仅阅读物理第41–83页所提供的逐页文本，共43个页位，其中第49、77页无提取文本。第41页从第3章拟合段落中途起读，第70页质子势建议后有去重占位，须回查该页原文。第83页的附录5.C样例读至所给页末，完整记录未覆盖。图表仅核读提取文字和题注，未作视觉核验。",
+        "PDF 84–128：审读物理第84–128页的抽取文本，共45个页位，其中44页有文字。物理第97页抽取为空，页面内容待查。可见印刷页码为71–83及85–115。未读其他物理页，未目视核验版面、图表或公式。",
+        "PDF 129–172：仅审读物理第129–172页的逐页抽取文本，共44个页位，其中42页有文本。物理第129、171页抽取为空，页面是否空白待核。物理第1–128页未读，图面未目检。",
+        "PDF 2 核技术报告号、机构与日期；PDF 7、13、17、49、77、97、129、171 原页确认空白。PDF 33 Figs. 3.1–3.2 与 PDF 55 Figs. 4.1–4.2 区分离散能级拟合参数与不同评价的 s、p 波平均中子共振间距。PDF 70 按入射粒子及目标区分光学势建议，PDF 108、139 仅在指定输入下比较模型和数据。"
+      ],
+      "boundary": [
+        "未逐项重算书中公式、模型或实验；图像复核范围由页码界定。"
+      ],
+      "disposition": "covered",
+      "worker": "terminal Codex non-overlapping segments, manager evidence review",
+      "source_pdf": "raw/books/Handbook for calculations of nuclear reaction data.pdf",
+      "sha256": "7db49b1250cfe8690cbc5986fec2392518faa24844c6370a6ccf47bce45a61d4",
+      "physical_pages": 172
+    },
+    {
+      "id": "catalogue:LIT-000307",
+      "source": "knowledge/sources/book-frib-motivations-experiments.md",
+      "identity": "B. Alex Brown et al., Motivations for Early High-Profile FRIB Experiments. Local arXiv:2410.06144v1, 8 Oct 2024 margin, 10 Oct 2024 manuscript date.",
+      "coverage": [
+        {
+          "source_note": "knowledge/sources/book-frib-motivations-experiments.md",
+          "scope_locator": "Read actual source Scope and Reading Depth / Covered scope; no cached excerpt is a reading certificate."
+        },
+        "PDF 1–40, PDF 41–81 的页标原文文本读段。",
+        "仅审读物理第 1–40 页的页标抽取文本。正文从引言读至 IV.E 配对效应开头，图件只读抽取标签和图注，未作视觉核验。物理第 41–230 页未提供。",
+        "逐页审读物理页 41–81 的提取文字，共 41 页，范围含正文、图注和可辨公式。物理页 1–40、82–230 未读。图像未作目视核验。",
+        "PDF 131–179：仅阅读物理第 131–179 页的带页标提取文本，共 49 页。物理第 1–130 页及第 180–230 页未读。图注按提取文本核对，图像未目视核查。",
+        "PDF 180–230：实读物理第 180–230 页的抽取文本，共 51 页，内容为参考文献 [434]–[973]。物理第 1–179 页未读，未进行图像目视核验。",
+        "PDF 8 Fig. 1 的 10 kW 是初级束假设，色标为预估 rate/s，参照 UNEDF1 滴线；评价这些可及性预估要与实际运行分开。PDF 42 Fig. 6 比较 Sn 链的分离能与配对尺度。PDF 130–132 Figs. 21–23 明分 ls、jj 的模型空间。PDF 178、230 抽查书目尾段，终条 [973]。"
+      ],
+      "boundary": [
+        "未逐项重算书中公式、模型或实验；图像复核范围由页码界定。"
+      ],
+      "disposition": "covered",
+      "worker": "terminal Codex non-overlapping segments, manager evidence review",
+      "source_pdf": "raw/books/Motivations for Early High-Profle FRIB Experiments.pdf",
+      "sha256": "d1b6bba7bd97cbc2c256fc32c39be399cb11f1b5579e111f6bf43acf93457282",
+      "physical_pages": 230
+    },
+    {
+      "id": "catalogue:LIT-000300",
+      "source": "knowledge/sources/book-behnke-data-analysis-hep.md",
+      "identity": "PDF第3页题名页列完整题名、四位编者及出版社。第4页版权页标2013年，列纸本ISBN 978-3-527-41058-3和ePDF ISBN 978-3-527-65344-7。第19页页脚明载First Edition及Published 2013。第16页的2012年11月是序言落款。所供页文未见本书DOI。",
+      "coverage": [
+        "PDF 43–86：实际审读物理第43–86页（印刷第25–68页）共44页的页标抽取文字。第43页从练习1.2开始，第86页在多维贝叶斯可信区域的讨论中截断。图表仅审读抽取的图题、标签及正文说明，未作视觉核验。",
+        "PDF 87–130：仅逐页审读物理PDF第87–130页的抽取文本，共44页。读段从第2章末段中途起，到第4章§4.3.1.3末尾附近截止。图表仅据可读标题、图注、标签和正文交叉引用登记，尚未目视核验。"
+      ],
+      "boundary": [
+        "未逐项重算书中公式、模型或实验；图像复核范围由页码界定。"
+      ],
+      "disposition": "partial",
+      "worker": "terminal Codex non-overlapping segments, manager evidence review",
+      "source_pdf": "raw/books/Data Analysis in High Energy Physics, A Practical Guide to Statistical Methods (Olaf Behnke, Kevin Kroninger, Gregory Schott etc.) (Z-Library).pdf",
+      "sha256": "18cf194b5cd4e86d8413244cf913fe5699de211a68e4a5d1164709e92fcbe84c",
+      "physical_pages": 430
+    },
+    {
+      "id": "catalogue:LIT-000301",
+      "source": "knowledge/sources/book-bertulani-nuclear-reactions.md",
+      "identity": "物理第4页题名页印有 Second Edition，署名 Carlos Bertulani 和 Pawel Danielewicz。物理第5页版权页印有第二版出版年 [2021]、第一版出版年 2004、精装 ISBN 9780367353629、电子版 ISBN 9780429331060 及 LCCN 2020050052。作者全名取自该页编目记录。物理第10页前言署于2020年9月。所读页面未见本书 DOI。",
+      "coverage": [
+        "PDF 49–92：仅审读物理第49–92页所供文本，共44个页标，其中43页有可读文本。物理第79页抽取为空，页面内容待核。图表审读限于抽取到的图注、标签、表格和正文，未检查原图。",
+        "PDF 93–136：审读物理第93–136页的逐页提取文本，共44个页位。物理第119页无提取文本，其余43页有文字。印刷页码可见范围为第82–125页。图表审读限于提取的图注、表文及正文，版面与图像均未目视核验。"
+      ],
+      "boundary": [
+        "未逐项重算书中公式、模型或实验；图像复核范围由页码界定。"
+      ],
+      "disposition": "partial",
+      "worker": "terminal Codex non-overlapping segments, manager evidence review",
+      "source_pdf": "raw/books/Introduction to Nuclear Reactions (C.A. Bertulani P. Danielewicz) (Z-Library).pdf",
+      "sha256": "ad1391abd781e2277433283b6635679cfc45efc9d9d5472d4aabcd172509cb71",
+      "physical_pages": 421
+    },
+    {
+      "id": "catalogue:LIT-000304",
+      "source": "knowledge/sources/book-bonamente-statistics-scientific-data.md",
+      "identity": "PDF 实体第1、4页标明第三版。第5页印有第三版的2022年版权声明、出版主体及全书 DOI，并区分纸本 ISBN 978-981-19-0364-9 与电子 ISBN 978-981-19-0365-6。启动器独立核验文件为 8583714 字节，SHA-256 为 e5197dffd54d527b9d6925b92eeae34e0859e0062063861f2e54abf333d2b2ca。",
+      "coverage": [
+        "PDF 86–130：逐页审读 PDF 实体第86–130页的抽取正文、公式、图表题注和习题，共45页。启动器已独立核验491个实体页、8,583,714字节及 SHA-256 e5197dffd54d527b9d6925b92eeae34e0859e0062063861f2e54abf333d2b2ca。图形、表格版面和公式字形均未经目视核验。"
+      ],
+      "boundary": [
+        "未逐项重算书中公式、模型或实验；图像复核范围由页码界定。"
+      ],
+      "disposition": "partial",
+      "worker": "terminal Codex non-overlapping segments, manager evidence review",
+      "source_pdf": "raw/books/Statistics and Analysis of Scientific Data (Graduate Texts in Physics), 3rd Edition (Massimiliano Bonamente) (Z-Library).pdf",
+      "sha256": "e5197dffd54d527b9d6925b92eeae34e0859e0062063861f2e54abf333d2b2ca",
+      "physical_pages": 491
+    },
+    {
+      "id": "catalogue:LIT-000310",
+      "source": "knowledge/sources/book-heyde-nuclear-physics-concepts.md",
+      "identity": "2004 年第 3 版。物理第 1 页题名页标明 THIRD EDITION，作者印作 K Heyde。物理第 2 页版权页列出 ISBN 0 7503 0980 6，并明确记载第 1、2、3 版分别出版于 1994、1999、2004 年。物理第 11–14 页第三版序言说明本版修订并署名 Kris Heyde。所读页未见本书 DOI。",
+      "coverage": [
+        "PDF 81–128：实读物理PDF第81–128页，共48页，依据逐页正文、可提取公式、表文和图注。第81页仅有转载说明残段，第128页止于第4章开头。图像待管理者目视核验。"
+      ],
+      "boundary": [
+        "未逐项重算书中公式、模型或实验；图像复核范围由页码界定。"
+      ],
+      "disposition": "partial",
+      "worker": "terminal Codex non-overlapping segments, manager evidence review",
+      "source_pdf": "raw/books/Basic Ideas and Concepts in Nuclear Physics An Introductory Approach (Kris L.G. Heyde) (Z-Library).pdf",
+      "sha256": "0490c8036be9cd8702cd8aec9c858ebb0e898e6c7b2b1056ce36e205f9f3c18a",
+      "physical_pages": 647
+    },
+    {
+      "id": "catalogue:LIT-000318",
+      "source": "knowledge/sources/book-nakhostin-signal-processing-detectors.md",
+      "identity": "物理第 1 页印有英文书名、原作者、译者和 2020 年 9 月 9 日。该日期可标识本地译本文档，正式出版年待核。队列物理行 383 对应 raw/books/翻译版-SignalProcessingforRadiationDetectors.pdf。启动器已核验文件为 25,233,369 字节，SHA-256 为 85e38c7aeb0121faed84cb0b2d8bb03e3e9c80e65dab84c8aad3893bc1399f99。",
+      "coverage": [
+        "PDF 39–85：仅逐页读取物理 PDF 第 39–85 页的标页提取文本，共 47 页。第 39 页从段中开始，第 70 页仅提取到章眉，第 85 页止于 §2.3.2 段中。图表仅据正文、图题和表格提取文字定位，未目视核验。"
+      ],
+      "boundary": [
+        "未逐项重算书中公式、模型或实验；图像复核范围由页码界定。"
+      ],
+      "disposition": "partial",
+      "worker": "terminal Codex non-overlapping segments, manager evidence review",
+      "source_pdf": "raw/books/翻译版-SignalProcessingforRadiationDetectors.pdf",
+      "sha256": "85e38c7aeb0121faed84cb0b2d8bb03e3e9c80e65dab84c8aad3893bc1399f99",
+      "physical_pages": 427
+    },
+    {
+      "id": "catalogue:LIT-000319",
+      "source": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+      "identity": "MDPI《Physics》专题重印合集的 PDF 版。物理第 1、4 页列三人为编辑，第 5 页载 © 2023、合集 DOI、PDF ISBN 978-3-0365-9505-4、精装 ISBN 978-3-0365-9504-7，并注明各篇独立引用。物理第 6–7 页目录列 14 篇，第 10 页前言确认篇数。归档文件为 raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf。启动器已核验 15560851 字节、334 个物理页和 SHA-256 1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1。",
+      "coverage": [
+        "PDF 43–95：仅核读 PDF 物理第 43–95 页的页标提取文本，共 53 页，对应合集印刷第 32–84 页。这一连续区段属于 Wiki 所列的 Stuchbery 与 Wood 文章，自第 4 节后段读至结论及部分参考文献。图表范围限于提取出的图注、表文及正文讨论。"
+      ],
+      "boundary": [
+        "未逐项重算书中公式、模型或实验；图像复核范围由页码界定。"
+      ],
+      "disposition": "partial",
+      "worker": "terminal Codex non-overlapping segments, manager evidence review",
+      "source_pdf": "raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf",
+      "sha256": "1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1",
+      "physical_pages": 334
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 776,
+    "duplicate-or-related-version": 29,
+    "duplicate-excerpt-linked-to-canonical": 13,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 9,
+    "out-of-scope-particle-production": 3,
+    "archived-publisher-scan-missing-printed-page": 2,
+    "read-core-evidence-checked": 1,
+    "publisher-first-page-extract-fulltext-unavailable": 8,
+    "evaluated-data-extract-covered": 7,
+    "out-of-scope-atomic-spectroscopy": 4,
+    "editorial-front-matter": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 2,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "existing-source-coverage-to-audit": 20,
+    "conference-abstract-covered": 3,
+    "supplement-with-main-text-gap": 1,
+    "commentary-complete-shared-pages": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 20,
+  "credited_works": 2,
+  "credited_primary_pages": 394,
+  "partial_volume_pages": 0,
+  "next_action": "Continue local book corpus with scoped OCR and independent page ranges.",
+  "uncredited": [],
+  "related_materials": []
+}

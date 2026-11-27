@@ -7538,3 +7538,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-27 — 馆藏续读第 25 批
 
 - 核定 A=192 评价与 Petrache 编著，以及 Greiner 的 22 个新正文页。队列剩 22 本书。
+
+## 2026-11-27 — 馆藏续读第 26 批
+
+- 核定 RIPL-2 手册与 FRIB 科学报告，写回六本书的继续阅读范围。队列剩 20 本。
