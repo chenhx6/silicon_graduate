@@ -2286,3 +2286,14 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[jassem-2013-as73-internal-conversion-mixing]] — 用内转换系数约束 ⁷³As 混合幅值。
 - [[chakraborty-2022-cs129-mixing-ratio-branches]] — 固定 σ/J 条件下 ¹²⁹Cs 的旧角分布和 DCO 再分析。
 - [[krishichayan-gd146-high-spin-linear-polarization]] — ¹⁴⁶Gd 的 DCO 和 Compton 线偏振不对称。
+- [[de-angelis-2002-xe114-octupole-correlations]] — ¹¹⁴Xe 的偏振、寿命与八极解释。
+- [[zheng-2025-ru91-low-lying-positive-parity]] — ⁹¹Ru 低能正宇称态和 2025 归一 DCO。
+- [[zheng-2020-ru91-multi-quasiparticle-excitations]] — 共用 ⁹¹Ru 采集的多准粒子分析。
+- [[chatterjee-2022-po203-single-particle-configurations]] — ²⁰³Po 的 ADO、偏振和组态比较。
+- [[jakob-1996-br81-coulex-and-magnetic-moments]] — ⁸¹Br 角关联幅值、寿命及瞬态场。
+- [[robinson-1999-tm169-magnetic-moments]] — ¹⁶⁹Tm 的有符号混合比与磁矩校准。
+- [[jones-2026-enhanced-linear-polarization-sensitivity]] — 双面条形 Ge 的模拟极化灵敏度与产额。
+- [[bargholtz-1973-zn67-gamma-angular-correlations]] — ⁶⁷Zn 的方向关联与混合比分支。
+- [[basak-2026-sm152-excited-x5-bands]] — ¹⁵²Sm 的偏振约束与 X(5) 高激发比较。
+- [[krane-steffen-1971-xe132-mixing-ratios-report]] — ¹³²Xe 报告版的带条件混合比。
+- [[ruhter-1977-cd110-ba134-mixing-ratios-thesis]] — ¹¹⁰Cd、¹³⁴Ba 的 γ–γ 混合比与在线采集。

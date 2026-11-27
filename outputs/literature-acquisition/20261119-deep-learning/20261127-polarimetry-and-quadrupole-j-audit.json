@@ -1,0 +1,259 @@
+{
+  "batch": "20261127-polarimetry-and-quadrupole-j",
+  "created_at": "2026-11-27T04:46:48.143089+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "bytes:1376e51551470b01fa7a4917d13348b4d25b725d91d6d4a1195ab5f14b7511a1",
+      "source": "knowledge/sources/de-angelis-2002-xe114-octupole-correlations.md",
+      "identity": "G. de Angelis et al., Physics Letters B 535, 93–102 (2002), local publisher PDF and matching XML.",
+      "coverage": [
+        "PDF 1–10（印 93–102），实验、寿命、图表、模型及引文。"
+      ],
+      "boundary": [
+        "1549 keV 归属的 Fig. 1 图注与 Fig. 2、Table 1 存异。两条弱 E3 的 B(E3) 都依赖弱支强度及 RDDS。"
+      ],
+      "disposition": "covered",
+      "worker": "Pauli and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_S0370-2693_02_01728-8.pdf",
+      "sha256": "1376e51551470b01fa7a4917d13348b4d25b725d91d6d4a1195ab5f14b7511a1",
+      "physical_pages": 10
+    },
+    {
+      "id": "bytes:14757e7be15f62eb67457328eb50a7d5ace34990ee037edc25d4ff6cc611db0f",
+      "source": "knowledge/sources/zheng-2025-ru91-low-lying-positive-parity.md",
+      "identity": "Y. Zheng et al., Nuclear Science and Techniques 36, 198 (2025), Springer version of record.",
+      "coverage": [
+        "PDF 1–9，实验、Fig. 1–3、Table 1、壳模型、后部系统学与引文。"
+      ],
+      "boundary": [
+        "889.8(2) keV 的 DCO 归一值按 2025 表定义使用。45.8 keV 线由级联关系推定。"
+      ],
+      "disposition": "covered",
+      "worker": "Pauli and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1007_s41365-025-01751-y.pdf",
+      "sha256": "14757e7be15f62eb67457328eb50a7d5ace34990ee037edc25d4ff6cc611db0f",
+      "physical_pages": 9
+    },
+    {
+      "id": "bytes:2441695db0f92c6419c1331dee8756a5b10e0d513d487c8a6c56911d28d657f7",
+      "source": "knowledge/sources/chatterjee-2022-po203-single-particle-configurations.md",
+      "identity": "S. Chatterjee et al., local preprint arXiv:2207.01311v1, 2022-07-04. DOI on the archive filename identifies the associated PRC publication.",
+      "coverage": [
+        "作者稿 PDF 1–14，实验、寿命、Table I、模型讨论与引文。"
+      ],
+      "boundary": [
+        "2156-keV 25/2⁺ 依连续关系和强度平衡提出，保留正文措辞。刊版的图表偏移尚未核。"
+      ],
+      "disposition": "covered",
+      "worker": "Pauli and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1103_PhysRevC.106.044329.pdf",
+      "sha256": "2441695db0f92c6419c1331dee8756a5b10e0d513d487c8a6c56911d28d657f7",
+      "physical_pages": 14
+    },
+    {
+      "id": "bytes:2744d0e16e0294876dde094d7f4006543ce314549e5271ebd789ad7544e752d9",
+      "source": "knowledge/sources/jakob-1996-br81-coulex-and-magnetic-moments.md",
+      "identity": "G. Jakob et al., Nuclear Physics A 601, 117–130 (1996), local publisher version.",
+      "coverage": [
+        "PDF 1–14（印 117–130），正文、实验谱图、强度与模型各表，参考文献。"
+      ],
+      "boundary": [
+        "|δ| 由角关联取得，图表不确定号。B(E2)、B(M1) 各自用同一寿命，单线两分量之比消去共同寿命。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_96_00085-1.pdf",
+      "sha256": "2744d0e16e0294876dde094d7f4006543ce314549e5271ebd789ad7544e752d9",
+      "physical_pages": 14
+    },
+    {
+      "id": "bytes:2e5636c9cb4fd1be7de8692a5ea7f855d11826c0ae7958e68ebaf015e6da57bc",
+      "source": "knowledge/sources/robinson-1999-tm169-magnetic-moments.md",
+      "identity": "M. P. Robinson et al., Nuclear Physics A 647, 175–196 (1999), local publisher version and XML.",
+      "coverage": [
+        "PDF 1–22（印 175–196），装置、拟合、磁矩、模型选择、引用。"
+      ],
+      "boundary": [
+        "馈入反演可能放大统计噪声。绝对 g 标度用外引 g 锚点。Coriolis 参数的偏好随模型空间改变。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_S0375-9474_99_00020-2.pdf",
+      "sha256": "2e5636c9cb4fd1be7de8692a5ea7f855d11826c0ae7958e68ebaf015e6da57bc",
+      "physical_pages": 22
+    },
+    {
+      "id": "bytes:369d5fe23485e7b266a4fb19ec4875d072b9786f465f9bdcf72b6c0e69487dc9",
+      "source": "knowledge/sources/jones-2026-enhanced-linear-polarization-sensitivity.md",
+      "identity": "G. D. Jones, Nuclear Instruments and Methods in Physics Research A 1089, 171400 (2026), version of record.",
+      "coverage": [
+        "PDF 1–10，§§1–11、Tables 1–7、Figs. 1–4，原有实验与模拟。"
+      ],
+      "boundary": [
+        "Q 是一阶 Monte Carlo 结果，比较统计精度须保留选事件后的产额。既有数据的 P 假定变化按模型讨论。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_j.nima.2026.171400.pdf",
+      "sha256": "369d5fe23485e7b266a4fb19ec4875d072b9786f465f9bdcf72b6c0e69487dc9",
+      "physical_pages": 10
+    },
+    {
+      "id": "bytes:3d5fefc2e57358a56eb4775adeaf5247546b55ac5e4922db781d6faae4c958d4",
+      "source": "knowledge/sources/bargholtz-1973-zn67-gamma-angular-correlations.md",
+      "identity": "Chr. Bargholtz, L. Eriksson and L. Gidefeldt, Z. Physik 263, 89–97 (1973), publisher scan.",
+      "coverage": [
+        "PDF 1–9（印 89–97），实验、Fig. 1、Tables 1–2、双根与参考。"
+      ],
+      "boundary": [
+        "703.6 keV 的两解取 Jπ=5/2⁻。B(E2) 比进一步采用 794.7 keV 纯 E2。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1007_bf01402159.pdf",
+      "sha256": "3d5fefc2e57358a56eb4775adeaf5247546b55ac5e4922db781d6faae4c958d4",
+      "physical_pages": 9
+    },
+    {
+      "id": "bytes:53c3f99acd6f69f7f5ca3e4d18492341f081c3f746e03f77b411feb67ea3ad5e",
+      "source": "knowledge/sources/zheng-2020-ru91-multi-quasiparticle-excitations.md",
+      "identity": "Y. Zheng et al., Chinese Phys. C 44, 024002 (2020), IOP version of record and download cover.",
+      "coverage": [
+        "PDF 1–9，封面和正文印 024002-1 至 -8，实验、Table 1–2、Figs. 1–3、计算和引文。"
+      ],
+      "boundary": [
+        "为了低置的 7/2⁺，单粒子能差从前作的 1.1 改为 1.6 MeV。独立预测能力随该调整受限。"
+      ],
+      "disposition": "covered",
+      "worker": "Pauli and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1088_1674-1137_44_2_024002.pdf",
+      "sha256": "53c3f99acd6f69f7f5ca3e4d18492341f081c3f746e03f77b411feb67ea3ad5e",
+      "physical_pages": 9
+    },
+    {
+      "id": "bytes:575f5af1119bd183285a4187d06aacfb376360b31232e26e6f7e5903fb748917",
+      "source": "knowledge/sources/basak-2026-sm152-excited-x5-bands.md",
+      "identity": "S. Basak et al., Phys. Lett. B 879, 140662 (2026), local publisher version.",
+      "coverage": [
+        "PDF 1–6，整篇实验、四图四表、模型、声明与引文。"
+      ],
+      "boundary": [
+        "1755.3 keV 的 QB4 在实验图表和模型比较中的 0⁺ 序号不同，优先核定能量和带标签。"
+      ],
+      "disposition": "covered",
+      "worker": "Pauli and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_j.physletb.2026.140662.pdf",
+      "sha256": "575f5af1119bd183285a4187d06aacfb376360b31232e26e6f7e5903fb748917",
+      "physical_pages": 6
+    },
+    {
+      "id": "catalogue:LIT-000351",
+      "source": "knowledge/sources/chen-2017-128cs-angular-momentum-projection-chirality.md",
+      "identity": "F. Q. Chen et al., arXiv:1708.07282v1, associated with PRC 96, 051303(R), physical pages are from preprint.",
+      "coverage": [
+        "同哈希 PDF 1–9 正文、四图及 11 个方程。本轮对账正文并核 PDF 10–12 的依赖引文。"
+      ],
+      "boundary": [
+        "几何概率来自同一形变输入与投影空间。实测强度数据由 Grodner 等工作提供。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble and manager",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/chen-2017-128cs.pdf",
+      "sha256": "d176aed6be49e350c18d130ec388383b680da9844173f4e0b386cb34f0c676c6",
+      "physical_pages": 12
+    },
+    {
+      "id": "bytes:ca58922d6ef36dc13c024e54fa1bc8e2d5244c9f8d2f4665b9e6bfea5ab52874",
+      "source": "knowledge/sources/guo-petrache-arxiv201200343-183au-polarization-comment.md",
+      "identity": "S. Guo and C. M. Petrache, arXiv:2012.00343v2, 2020-12-09, local two-page comment.",
+      "coverage": [
+        "PDF 1–2，Fig. 1、Eqs. (1)–(6)、498 keV 讨论、引用和结尾。"
+      ],
+      "boundary": [
+        "评论中的约 0.61 是按原刊图估的偏振误差。缺原始计数与独立校准，出版或接受状态也须另证。"
+      ],
+      "disposition": "covered",
+      "worker": "Dirac and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-pdm-delta-broad/arxiv-2012.00343v2.pdf",
+      "sha256": "ca58922d6ef36dc13c024e54fa1bc8e2d5244c9f8d2f4665b9e6bfea5ab52874",
+      "physical_pages": 2
+    },
+    {
+      "id": "bytes:e94492791f5768b066e0cb2a3c845b9a51293baa47aee89c8aa663d3061629a2",
+      "source": "knowledge/sources/krane-steffen-1971-xe132-mixing-ratios-report.md",
+      "identity": "K. S. Krane and R. M. Steffen, Purdue report COO-1746-56, 1971, republished as local DOI-identified scan.",
+      "coverage": [
+        "PDF 1–44，封面、方法、带条件的多级联拟合、Tables I–II、引用、Figs. 1–8。"
+      ],
+      "boundary": [
+        "刊版对应关系待本地独立证据。数值按报告的自旋和级联条件使用，方向关联不足以确认电磁性。"
+      ],
+      "disposition": "covered",
+      "worker": "Dirac and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-pdm-delta-broad/10.2172_4737573.pdf",
+      "sha256": "e94492791f5768b066e0cb2a3c845b9a51293baa47aee89c8aa663d3061629a2",
+      "physical_pages": 44
+    },
+    {
+      "id": "bytes:8a86f840078c39705a31dff44f9c54f8fba5b6d4fc89eb32fa250a49d618b90d",
+      "source": "knowledge/sources/ruhter-1977-cd110-ba134-mixing-ratios-thesis.md",
+      "identity": "W. D. Ruhter, Ph.D. thesis, Lawrence Livermore Laboratory report UCRL-52360, 1977-12. Both local PDF paths match bytewise.",
+      "coverage": [
+        "学位版 PDF 1–168，六章科学主线、总览装置、门与拟合、核素关键表图、结论与相关引文。"
+      ],
+      "boundary": [
+        "全卷科技主线已覆盖，硬件寄存器、电路节点和密表未逐项核算。¹¹⁰Cd 联合估计的不确定度有不同原页口径。"
+      ],
+      "disposition": "covered",
+      "worker": "Dirac and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-pdm-delta-broad/10.2172_5349395.pdf",
+      "sha256": "8a86f840078c39705a31dff44f9c54f8fba5b6d4fc89eb32fa250a49d618b90d",
+      "physical_pages": 168
+    },
+    {
+      "id": "catalogue:LIT-000302",
+      "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "identity": "Bohr and Mottelson, Nuclear Structure II, 1975 original, local World Scientific 1998 reissue, 772 physical pages.",
+      "coverage": [
+        "PDF 546–605 (printed 524–583), quadrupole and octupole modes and beginning of single-particle shells."
+      ],
+      "boundary": [
+        "球形近谐和微扰条件限制恢复力解释。表中矩值、分支和经验反演使用针对性模型。"
+      ],
+      "disposition": "partial",
+      "worker": "Pascal and manager",
+      "source_pdf": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "physical_pages": 772
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 545,
+    "duplicate-or-related-version": 23,
+    "duplicate-excerpt-linked-to-canonical": 13,
+    "pending-identity-and-coverage": 111,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 6,
+    "existing-source-coverage-to-audit": 172,
+    "read-core-evidence-checked": 1,
+    "out-of-scope-atomic-spectroscopy": 4,
+    "editorial-front-matter": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "publisher-first-page-extract-fulltext-unavailable": 3,
+    "access-placeholder-fulltext-unavailable": 1,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 283,
+  "credited_works": 13,
+  "credited_primary_pages": 329,
+  "partial_volume_pages": 60,
+  "next_action": "Continue Bohr–Mottelson II PDF 606 (printed 584), Eqs. (6-481)–(6-482).",
+  "uncredited": []
+}

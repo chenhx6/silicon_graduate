@@ -37,6 +37,8 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 本批核定 12 份、568 个主件 PDF 页，含四份学位论文、偏振和角关联研究及其适用边界。另核三份 Casten 中文衍生版、四篇原子电子谱论文与一页期刊编务材料。累计 550 份、21,590 个主件 PDF 页，正式队列待处理 296 条。第二卷另核 PDF 516–545（印 494–523），从 PDF 546（印 524）式 (6-402)–(6-406) 续读。稳定指针为 `research/archive-learning-20261127` + `research: verify nuclear polarimetry, dissertations and Casten editions`。见[原件与阅读范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-polarimetry-and-archived-thesis-i-audit.json)和[版本与材料角色](../outputs/literature-acquisition/20261119-deep-learning/20261127-casten-and-non-nuclear-materials-i-audit.json)。
 
+本批核定 13 份、329 个主件 PDF 页，包括 Ruhter 学位论文、Krane–Steffen 的 ¹³²Xe 报告及偏振研究。⁹¹Ru 的 2020、2025 两文复用同一实验谱系，889.8 keV 原始 DCO 与后版归一值分别保留。累计 563 份、21,919 个主件 PDF 页，正式队列待处理 283 条。第二卷另核 PDF 546–605（印 524–583），续读 PDF 606（印 584）式 (6-481)–(6-482)。稳定指针为 `research/archive-learning-20261127` + `research: verify polarimetry, decay studies and Bohr-Mottelson reading`。见[原件及覆盖](../outputs/literature-acquisition/20261119-deep-learning/20261127-polarimetry-and-quadrupole-j-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

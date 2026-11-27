@@ -8,10 +8,10 @@ canonical_source: "arXiv:2012.00343v2"
 type: source
 title: "Guo and Petrache - Comment on the 183Au polarization uncertainties"
 created: 2026-11-19
-updated: 2026-11-19
+updated: 2026-11-27
 status: active
 source_type: preprint
-reading_depth: skimmed
+reading_depth: read
 raw_file: "raw/papers/gpt/query/20261119-pdm-delta-broad/arxiv-2012.00343v2.pdf"
 raw_sha256: ca58922d6ef36dc13c024e54fa1bc8e2d5244c9f8d2f4665b9e6bfea5ab52874
 archive_required: true
@@ -61,3 +61,7 @@ The boundaries below remain in force. Source registration, partial extraction an
 ## Extracted Pages
 
 arXiv original PDF pp.1-2. The archived original, not this summary, is the numerical/quotation authority.
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+作者稿 PDF 1 Fig. 1、Eqs. (1)–(5) 回用 Nandi 等刊文 Fig. 1(c) 的 502 keV 门谱。PDF 2 Eq. (6) 在 a=1、Q₄₉₅=0.233 及作者的背景方差条件下估 σP≈0.61，用于质疑 495 keV 的择根。498 keV 的潜在同能 E2 是另一质疑。保留评论作者、数据复用及推断条件，实际原始计数、校准和新 δ 区间均缺。

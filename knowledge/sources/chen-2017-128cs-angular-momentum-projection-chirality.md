@@ -3,7 +3,7 @@ type: source
 title: "Chen et al. 2017 - Chiral geometry in symmetry-restored states: 128Cs"
 aliases: [Chen 2017 128Cs angular-momentum projection]
 created: 2026-10-10
-updated: 2026-10-26
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: theory
@@ -120,3 +120,7 @@ K图p(absK)已折叠/求和；azimuthal图Gκ∝ΣK gKκ D*先有K/K′干涉，
 若ΣκK abs(g)²=1，使用标准全Euler域的dΩ=dψ′sinθ′dθ′dφ′，本任务推得∫₀^π sinθdθ∫_{−π}^π dφ P=1（或周期等价φ区间）。源Eq11本身未重写此归一，图只显示部分域，不擅补4倍或从图估左右概率/CI。φ从i轴起量，不能把与CH/WU不同原点的数字角直接拼合。
 
 源I11振动/I14静态regime/I18减弱的几何解释，仍属于固定H/shape/空间的作者模型；有限平面概率不是独立测得的隧穿流或时钟。Projection不自动纳入未建的crossing/configuration/γ软度。新合同纳入[[135nd-chiral-partner-resolved-evidence-map]]，作为128Cs方法对照，不给135Nd/133Ce补EM数值。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 3–5 式 (2)–(11) 恢复角动量和粒子数，K 概率用范数核变换后的 g。PDF 5–6 Fig. 2 的强度比较在 (β,γ)=(0.20,30°) 下计算，外引 Grodner 2006 的实测，较高自旋的 B(E2) 趋势有差异。PDF 6–8 Figs. 3–4 的几何分布在 I=14ℏ 有非平面峰和有限平面概率，I=18ℏ 的 A 带回到 i–s 平面附近，均为该阻塞空间及形变输入下的模型结果。
