@@ -3,7 +3,7 @@ type: source
 title: "Karthein 等 2024：铟同位素电磁性质与 100Sn 双幻数"
 aliases: [Karthein 2024 100Sn, electromagnetic properties indium 100Sn]
 created: 2026-09-12
-updated: 2026-09-12
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment-and-model
@@ -116,3 +116,9 @@ J. Karthein、C. M. Ricketts、R. F. Garcia Ruiz 等（CRIS Collaboration），*
 ## Later Paper / Q&A Gate
 
 若后续问答或论文写作需要使用“`100Sn` 双幻数由铟电磁矩支持”、某个 `Q_s` 数值或 Zenodo 数据，需回到本页列出的原始页码、原子场梯度转换和数据 record；不得把该 source 当作 `B(GT)` 或 `100In` γ-scheme 的直接证据。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+铟 CRIS 激光共振计数经超精细拟合后换算核矩。PDF 6 Table 1 给 ¹⁰¹In 9/2⁺ 的 B_hf=280(10) MHz、Q_s=48.6(16)[3] e fm²，分别列实验和理论换算误差。PDF 8 Fig. 1 汇集新旧铟和文献锡数据。
+
+最轻实测铟样本为 N=52。¹⁰⁰Sn 双幻数是通过铟趋势与理论比较的作者解释；原始扫描未重拟合，也未逐图对照刊版。

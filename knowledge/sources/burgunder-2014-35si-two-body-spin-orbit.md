@@ -4,7 +4,7 @@ title: "Burgunder2014：35Si (d,p) 反应、双体自旋-轨道力与中心气�
 title_original: "Experimental Study of the Two-Body Spin-Orbit Force in Nuclei"
 aliases: [Burgunder 2014 35Si spin-orbit, 35Si自旋轨道劈裂实验]
 created: 2026-10-23
-updated: 2026-10-24
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-model
@@ -128,3 +128,7 @@ Eq.(1)与Baranger质心来自同一套计算的粒子/空穴能量加权强度�
 `revises`：修输入/分层与过强量词；`supports`：保作者对双体SO的有条件支持，不把模型依赖本身说成实验无效。`limits`：未得原TWOFNR/SM作业、碎裂库存与jointCov；本次只有打印表算术/条件舍入和来源分类，未生成新实验CI、密度或原力分解。
 
 必要companion为同核/比较核的匹配反应响应、遗漏碎片强度与独立密度敏感约束；若不同合理反应/关联模型改变该单极提取，应修订其模型稳定性。尚未完成这种实际联合检验，不把它登记为已证伪。原review与needs_review均保留。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+³⁴Si(d,p)³⁵Si 的角观测量是出射质子的微分截面。910(3) 与 1134(6) keV 的 γ 级联约束 2044(7) keV 能级，两支主要 \(p\) 碎片间距约 1.134 MeV。转移 \(\ell\) 和谱因子经 ADWA／光学势提取。Fig. 3 混有本文提取量与既有比较数据，⁴¹Ca 的谱因子来自 [29]，³⁷S 的 \(5/2^-\) 分量来自 [24]。壳模型匹配主要碎片后，Eq. (1) 的约 378 keV 与 Baranger 质心法的约 380 keV 共享同一壳模型计算和约束，形成内部一致性检验。作者据此支持这一同中子数比较中的双体自旋–轨道贡献。Table I 的 \(K=2\) 为零限于所选 \(2s_{1/2}\) 质子–\(2p\) 中子矩阵元分解，约 25% 的劈裂变化依赖模型的碎裂与关联处理。保留 5.5 MeV 宽结构谱因子误差的原文差异（图 0.32(4)、同页正文 0.32(2)、次页比较 0.32(3)）。

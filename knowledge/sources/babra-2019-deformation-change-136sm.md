@@ -3,7 +3,7 @@ type: source
 title: "Investigation of a large change in deformation for the gamma-soft nucleus 136Sm"
 aliases: []
 created: 2026-07-05
-updated: 2026-07-05
+updated: 2026-11-27
 status: ai-draft
 review_status: human-reviewed
 source_type: journal-article-experiment
@@ -165,3 +165,7 @@ Physical Review C 100, 054308 (2019)，DOI `10.1103/PhysRevC.100.054308`。PDF �
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | B19-D20-R136-1 | checkpoint146撤回旧认证；同态/分支/几何/单位与Cov未逐claim重审之前，不恢复旧数据及过强推论。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2 Table I 的 Qₜ 有非对称误差。12⁺、14⁺、16⁺、18⁺ 的中心依次为 5.70、5.38、4.85、5.05 eb。20⁺ 行在全侧馈下只给有效寿命 <0.16(4) ps 和 Qₜ>4.74(55) eb。PDF 3 提到至 15% 的阻止本领系统误差，未并入表列误差。PDF 6 Fig. 8 的实心方块与引自 Ref. 14 的低自旋数据分别归源。交叉后的 Qₜ 整体降低，但有逐点回升，β₂、γ 属模型解释。

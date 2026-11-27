@@ -3,7 +3,7 @@ type: source
 title: "Crespi 2023：AGATA tracking、PSA 参数与 Doppler 性能边界"
 aliases: [AGATA tracking performance 2023, Crespi Ljungvall 2023 tracking review]
 created: 2026-10-14
-updated: 2026-10-14
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: instrument-method-review
@@ -142,3 +142,7 @@ PDF1–43主线；核心pp.3–10、12–14、19–24、27–32；Eq.(7)p20视�
 ## Fission benchmark angular-control follow-up
 
 2026-10-14读[[lemasson-2023-agata-vamos-fission-history]] LS23-5/6：98Zrline为1222.9keV，EXOGAMall-rings15/backward7keV、AGATA100–170°5keV，spectra按totalcounts归一。原p21的1229.9与“similarangularranges”简述保留；本task以详细reference限制15/5对比范围，未改raw/宣称author-approvederratum。LS23-7/8另给Exp1–4 lineage/post-degrader条件，不把review引用变成独立数据。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 14 §5.3 复述 2010 年 LNL 两簇试验，与 Crespi 2013 共用采集。PDF 19–20 Eqs. (5)–(7) 的一阶分辨率合成假设有关误差独立。PDF 21 将 ⁹⁸Zr 的谱线印为 1229.9 keV，被引 Lemasson 原稿 PDF 4–5、Fig. 3 为 1222.9 keV，采用原测分组比较全环 EXOGAM 15 keV、后向 7 keV 和 AGATA 5 keV 的校正峰宽。PDF 24 的 ⁶⁰Co 峰总比变化另来自 GANIL 源测，须保留事件选择。

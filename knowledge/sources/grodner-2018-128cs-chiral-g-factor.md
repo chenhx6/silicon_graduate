@@ -3,7 +3,7 @@ type: source
 title: "Grodner et al. 2018 - g factor of the 128Cs chiral-band isomer"
 aliases: [Grodner 2018 128Cs g factor]
 created: 2026-09-21
-updated: 2026-10-26
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-PRM-CDFT
@@ -191,3 +191,9 @@ Ref14元数据已核为Starosta等“Chirality in odd–odd triaxial nuclei”, 
 ### Day24 checkpoint004 Agent self-audit triage
 
 P0: none identified（新增范围）。P1：GR18-D24-001的共parent和采用spin/转换支路原件已核；GR18-D24-002仅说明2ω与两种寿命口径的条件尺度，误差/Cov/真实highspin g未取得，不做新CI/物理阈值。既有Eq3 signed/RMS/Gram及Ref14缺口不因本次回读关闭。全部新增needs_review:true，无human-review升级。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2 Fig. 1 的 ¹²⁸Cs 9⁺ 指认取系统学，56 ns 为半衰期。PDF 3 两组测量给 Orsay g=+0.59(1)、Stony Brook 0.59(+0.01/−0.02)。式 (1) 记录以 2ω_L 调制的谱比，Table I 单独列 ω_L。PDF 3–5 的近共面几何来自带头的模型推断。
+
+两处实验各自采集。同一异能态各条衰变线共享进动信息。保留既有有效场校准与中心值复算缺口，以及低自旋带头对全带推断的边界。

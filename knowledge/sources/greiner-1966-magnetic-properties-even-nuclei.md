@@ -3,7 +3,7 @@ type: source
 title: "Greiner 1966 - Magnetic Properties of Even Nuclei"
 aliases: [Greiner 1966 magnetic properties, proton-neutron deformation g tensor]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: theory-paper
@@ -118,3 +118,9 @@ The proton-deformation difference is an average model assumption; single-particl
 
 - L3 question: how much of observed A≈130 M1/E2 mixing and gR suppression is explained by proton–neutron deformation polarization versus configuration mixing and modern microscopic currents? Required comparisons are absolute M1 strengths, g factors and uncertainty-calibrated models.
 - No L4 run: no modern machine-readable data/code supplied.
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+Eq. (12) 把四极坐标项带入磁矩算符。印 426–427 Eqs. (37)–(39) 预测基带和 β 带的 g_R=(Z/A)(1−2f)，γ 带有额外自旋项。印 432 Table 1 的 ¹⁰⁶Pd 数据为 0.45±0.06、计算 0.358、Z/A=0.433，作者指出振动核的预测修正与被引数据趋势相反。Fig. 3 的实线用 Fig. 2 数据反推参数，虚线为参数式预测。
+
+比较数据来自 Refs. 11–13、20–21。Fig. 6 的 γ 带内混合比为计算。

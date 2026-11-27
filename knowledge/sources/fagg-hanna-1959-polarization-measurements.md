@@ -3,7 +3,7 @@ type: source
 title: "Fagg and Hanna 1959 - Polarization measurements on nuclear gamma rays"
 aliases: [Fagg Hanna 1959 polarization]
 created: 2026-09-21
-updated: 2026-10-19
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: review
@@ -126,3 +126,9 @@ p733转述experiment的namedratio1.14(.06)与M3/E3预测.84/1.19，若固定预�
 复算：[FH59原式程序](../../system/scripts/day16_fagghanna1959_convention_audit.py)，[冻结输入/结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/fagghanna1959-convention-audit-result.json)。全原件与选定渲染只读/保存在tmp；BR1953、Fe55、Me50、Ap58原件及完整rawresponse/Cov仍有缺口。
 
 相关：[[suffert-1959-proton-capture-polarization]]、[[bizzeti-2015-agata-triple-cluster-polarimetry]]、[[modulation-curve]]、[[compton-polarimetry]]、[[high-spin-angular-polarization-mixing-ratio]]。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2–4 Table I 与 Eqs. (I-4)–(I-7) 定义母态取向及反应平面角零点。PDF 18–20 Eq. (III-1) 将有限几何响应、线偏振与符合计数相连。原文 4→2→0 纯 E2 直角例给 P=1/6、J₀/J₉₀=7/5。正负号随计数分子和反应平面定义。
+
+本综述转述原实验。Ap58 的圆偏振数值在 PDF 33 正文与 PDF 36、41 Table XIII 归属互换，沿用前须回原论文。

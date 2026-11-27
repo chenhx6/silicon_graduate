@@ -1,0 +1,77 @@
+{
+  "batch": "20261127-structure-a",
+  "created_at": "2026-11-27T01:31:25.842861+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000374",
+      "source": "knowledge/sources/der-mateosian-sunyar-1974-angular-coefficients.md",
+      "identity": "Der Mateosian and Sunyar, Atomic Data and Nuclear Data Tables 13 (1974), 407–462; journal scan, DOI 10.1016/0092-640X(74)90008-4.",
+      "coverage": [
+        "Existing full PDF 1–56, including both complete table sequences. Verified PDF 1–5 and an example row on PDF 11."
+      ],
+      "boundary": [
+        "For mixed multipoles retain the sign, cascade order and spin convention. Attenuation and finite detector solid angle are separate terms."
+      ],
+      "disposition": "covered",
+      "worker": "Dirac",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of angular-distribution coefficients for gamma rays of mixed.pdf",
+      "sha256": "90b23807ddc39006a7c17cc05d8dc030139c39802675823c6560f222486d6eeb",
+      "physical_pages": 56
+    },
+    {
+      "id": "catalogue:LIT-000375",
+      "source": "knowledge/sources/der-mateosian-sunyar-1974-attenuation-coefficients.md",
+      "identity": "Der Mateosian and Sunyar, Atomic Data and Nuclear Data Tables 13 (1974), 391–406; journal scan, DOI 10.1016/0092-640X(74)90007-2.",
+      "coverage": [
+        "Existing PDF 1–16 ledger, Tables I–II and Appendices A–B. Verified sample rows on PDF 5–6, 10 and 15."
+      ],
+      "boundary": [
+        "The attenuation grid presumes a Gaussian magnetic-substate distribution and its stated complete-alignment normalization."
+      ],
+      "disposition": "covered",
+      "worker": "Dirac",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of attenuation coefficients for angular distribution of gamma rays from.pdf",
+      "sha256": "d31d778674037b17ec2e47f3e9a2d917e46bf273b6cc6e01c607e3eccb843e90",
+      "physical_pages": 16
+    },
+    {
+      "id": "catalogue:LIT-000376",
+      "source": "knowledge/sources/dey-2026-116cs-multifaceted-decay.md",
+      "identity": "Dey et al. (ISOLDE Collaboration), Phys. Rev. Lett. 137, 012501 (2026), DOI 10.1103/ztcl-lpdf; corrected publisher version.",
+      "coverage": [
+        "Existing and rechecked PDF 1–6 including Figs. 1–6, Tables I–II, data statement on PDF 5 and collaboration correction PDF 6."
+      ],
+      "boundary": [
+        "Resonance, two-proton mechanism and cluster interpretation are conditional on detector, statistics and model assumptions. Event-level input unavailable."
+      ],
+      "disposition": "covered",
+      "worker": "Dirac",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/衰变/2026_Dey et al_Multifaceted Decay of Cs 116.pdf",
+      "sha256": "f44415e0934f0550238adf9853d41760e1bf456f311f30b5c8dba27dbe442563",
+      "physical_pages": 6
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 435,
+    "duplicate-or-related-version": 10,
+    "duplicate-excerpt-linked-to-canonical": 4,
+    "pending-identity-and-coverage": 295,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 3,
+    "existing-source-coverage-to-audit": 224,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 519,
+  "credited_works": 3,
+  "credited_primary_pages": 78,
+  "partial_volume_pages": 0,
+  "next_action": "Continue book PDF 350 and reconcile the next archive source group.",
+  "uncredited": []
+}

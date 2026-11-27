@@ -1,0 +1,90 @@
+{
+  "batch": "20261127-identity-b",
+  "created_at": "2026-11-27T01:47:16.626660+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "bytes:0eaf47648b1cd7eaff64f96bf30a204c0c1658f715a6247140fef06ee9c019fe",
+      "source": "knowledge/sources/jones-2021-linear-polarization-planes.md",
+      "identity": "G. D. Jones, Nuclear Instruments and Methods in Physics Research A 987 (2021) 164869, DOI 10.1016/j.nima.2020.164869. Elsevier 刊版，PDF 1–9（含参考文献），§§1–8、Figs. 1–5、Tables 1–3、Eqs. (1)–(30)。",
+      "coverage": [
+        "Elsevier 刊版，PDF 1–9（含参考文献），§§1–8、Figs. 1–5、Tables 1–3、Eqs. (1)–(30)。"
+      ],
+      "boundary": [
+        "阈值收益随能量、路径筛选和晶体几何变化。模型使用直角晶体和主要相互作用，不能直接移用为其它阵列的偏振校准。Table 1 重用 [[jones-1995-clover-compton-calibration]] 的 EUROGAM 校准，属于同一实验输入。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_j.nima.2020.164869.pdf",
+      "sha256": "0eaf47648b1cd7eaff64f96bf30a204c0c1658f715a6247140fef06ee9c019fe",
+      "physical_pages": 9
+    },
+    {
+      "id": "bytes:10121d02c46e6b7a56d6d5ef3c2a9535c9f5088a633e0040325b1a50e7e43642",
+      "source": "knowledge/sources/green-1971-polarization-isotropic-angular-distributions.md",
+      "identity": "P. W. Green, B. C. Robertson and D. M. Sheppard, Nuclear Instruments and Methods 92 (1971) 329–331, DOI 10.1016/0029-554X(71)90405-8. North-Holland 刊版扫描，PDF 1–3（印 329–331），含 Eqs. (1)–(5)、Table 1、Fig. 1 和参考文献。",
+      "coverage": [
+        "North-Holland 刊版扫描，PDF 1–3（印 329–331），含 Eqs. (1)–(5)、Table 1、Fig. 1 和参考文献。"
+      ],
+      "boundary": [
+        "文中的偏振符号使用同宇称跃迁的约定。算例假设母态取向并限制高阶强度项；等布居及低自旋不具同样的选支信息。该文为理论计算。另存的一页节录与刊版 PDF 第 1 页文字一致。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0029-554x_71_90405-8.pdf",
+      "sha256": "10121d02c46e6b7a56d6d5ef3c2a9535c9f5088a633e0040325b1a50e7e43642",
+      "physical_pages": 3
+    },
+    {
+      "id": "bytes:10d0e5a31936dc13749600a3a8e7ea5a41e27b21e72550d1b640d0010e595991",
+      "source": "knowledge/sources/gupta-2025-ce136-collective-noncollective-states.md",
+      "identity": "A. K. Gupta et al., EPL 149 (2025) 24001, DOI 10.1209/0295-5075/ada854. EPL 刊版 PDF 1–7，PDF 1 为外封，正文印 24001-p1 至 p6，含 Figs. 1–6、Table 1、方法式与参考文献。",
+      "coverage": [
+        "EPL 刊版 PDF 1–7，PDF 1 为外封，正文印 24001-p1 至 p6，含 Figs. 1–6、Table 1、方法式与参考文献。"
+      ],
+      "boundary": [
+        "741.3 keV 支在 Table 1 为 −0.03(1)、7⁻→6⁺，正文写 +0.03 和 7⁺，Fig. 6 标 7⁻。494.9 keV 支在 Table 1 同列 10⁺→9⁻ 和 M1，二者违反 M1 的宇称选择定则，且不对称度 −0.03(2) 的显著性有限。Fig. 4 图注的 889.8 keV 与正文和表中的 899.8 keV 有差异。本次未报告两个带的新寿命、g 因子、B(E2) 或定量混合比。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1209_0295-5075_ada854.pdf",
+      "sha256": "10d0e5a31936dc13749600a3a8e7ea5a41e27b21e72550d1b640d0010e595991",
+      "physical_pages": 7
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 438,
+    "duplicate-or-related-version": 11,
+    "duplicate-excerpt-linked-to-canonical": 5,
+    "pending-identity-and-coverage": 290,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 3,
+    "existing-source-coverage-to-audit": 224,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 514,
+  "credited_works": 3,
+  "credited_primary_pages": 19,
+  "partial_volume_pages": 0,
+  "next_action": "Continue Bohr–Mottelson II at PDF 350 and reconcile the next independent source groups.",
+  "uncredited": [
+    {
+      "id": "bytes:0d36dac05ac444fa6e5b75feb0e2ae45bada547b743cec1604a78aed21319a5c",
+      "state": "duplicate-or-related-version",
+      "canonical_id": "catalogue:LIT-000512",
+      "source": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md"
+    },
+    {
+      "id": "bytes:ea67c652c1cf5e750fb64a77cd921afb4f216dda486957b0af9a4f6fa8b52eb0",
+      "state": "duplicate-excerpt-linked-to-canonical",
+      "canonical_id": "bytes:10121d02c46e6b7a56d6d5ef3c2a9535c9f5088a633e0040325b1a50e7e43642",
+      "source": "knowledge/sources/green-1971-polarization-isotropic-angular-distributions.md"
+    }
+  ]
+}

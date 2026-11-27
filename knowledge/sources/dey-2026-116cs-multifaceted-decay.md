@@ -3,7 +3,7 @@ type: source
 title: "Dey et al. 2026 - Multifaceted decay of 116Cs"
 aliases: [Dey 2026 116Cs decay]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -102,3 +102,7 @@ Dey *et al.* combine particle and γ spectroscopy to expose several drip-line de
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | DEY26-D21-1 | 依据推断阶梯审计，Dey 2026 确立了质子滴线区奇异衰变判据的关键边界：(1) 离心势垒压制效应：116Cs 质子发射受高 ell 离心势垒强烈压制（g9/2 压制 2.4x10^-6，h11/2 压制 1.1x10^-9），解释了为何 S_p < 0 仍以 beta 衰变（T1/2=0.86 s）主导；(2) beta-2p 关联机制边界：测得开角峰 theta_pp = 39(3)° 虽支持直接双质子成分（27(11)%），但低统计量与宽共振态重叠使直接发射对决顺序发射仍具非排他性；(3) 确立“分离能符号不等于衰变模式，双质子机制必须经三体连续谱检验”的证据门准则。 | source-result-and-boundary | direct-and-boundary | pp.1-5, Tables I-II, Figs.2-4; drip-line-radioactivity-audit-025.json | true |
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2–3 Figs. 1–3 和 Table I 把 394 keV 延迟 γ 的 0.86(15) s 半衰期与前作 6⁺ 态寿命分开。作者用 EC/β⁺ 与质子门内分支支持宽峰的 3⁻ 等标量八极归属，未直接测 E3。PDF 3–4 Fig. 4 的低统计双质子角关联支持可能的同时发射成分。PDF 4–5 的厚 DSSD 沉积与 ¹²C 团簇假设相容，原文保留两种机制及质量鉴别缺口。数据可合理请求的说明在 PDF 5，更正署名在 PDF 6。

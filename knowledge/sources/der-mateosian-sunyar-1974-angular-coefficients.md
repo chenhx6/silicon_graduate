@@ -3,7 +3,7 @@ type: source
 title: "Der Mateosian and Sunyar 1974 - Tables of angular-distribution coefficients for mixed multipolarities"
 aliases: [Der Mateosian Sunyar 1974 angular tables]
 created: 2026-09-21
-updated: 2026-10-17
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: reference-tables
@@ -103,3 +103,7 @@ Der Mateosian and Sunyar turn the Rose–Brink/Yamazaki formalism into practical
 [新primary control](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-ms74-primary-controls.json)用作者Ji6→5假设例题、sigma/J=.4与明确negative column，得到maxA2=−1.09423454/maxA4=.12467532，alpha=.61070321/.22547021，partialA=−.66825254/.02811057，均在原表末位舍入内。反号控制给A2=.34941788但A4相同，说明相同delta²或fraction不能认证sign。8/12-node quadrature差约2.3e−15；这只是该局部source-defined实现/归一控制，不是普遍KS/RB转换或新采集。
 
 [[der-mateosian-sunyar-1974-attenuation-coefficients]] DA74-5–7提供另层alpha与pure reference。[[se21-alignment-calibration-consistency]]保存当前实际校准行的应用条件；本表本身不提供SE21的detector response、efficiency、gatedevents或covariance，不能代替这些输入。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2–5（印 408–411）式 (1)–(7) 先由完全取向表按初末自旋和混合比查 A₂、A₄，再用同一 σ/J 对两阶分别衰减。PDF 11（印 417）6→5、δ=−0.50 行给 A₂^max=−1.09423、A₄^max=0.12468。乘配套衰减表的 0.61070、0.22547，给 −0.66825、0.02811。Fig. 2 是由这组构造值演示联解。单个系数可能对应多组取向与混合比。

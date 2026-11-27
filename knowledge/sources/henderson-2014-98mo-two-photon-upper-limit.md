@@ -3,7 +3,7 @@ type: source
 title: "Henderson et al. 2014 - Upper limit on two-photon emission in 98Mo"
 aliases: [Henderson 2014 98Mo two-photon limit]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-theory
@@ -90,3 +90,9 @@ Henderson *et al.* establish a stringent `98Mo` two-photon upper limit in a non-
 ## Extracted Pages
 
 - Concept: [[two-photon-nuclear-decay]]。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+⁹⁸Mo 735 keV 0₂⁺ 的双光子候选用两击和能谱检验，并以 DSSD 测得的 E0 电子归一。PDF 3 的效率 4% 源于等分为最可能值的假定能量分配折叠，原文采用 Feldman–Cousins。PDF 4 给联合上限 1.07×10⁻⁴（97% CL）及 1×10⁻⁴（95% CL）。
+
+质子与 1024 keV 馈入 γ 门共用同一次采集，原作者合并时按其统计独立假设。Fig. 3(b) 图注的 20–58 ns 与正文和 Table I 的 22–58 ns 有异。

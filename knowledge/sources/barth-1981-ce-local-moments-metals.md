@@ -4,7 +4,7 @@ title: "Barth1981：Ce局域磁场、核g的Curie标定与两类松弛"
 title_original: "Local moment studies of isolated Ce ions in liquid and solid metals"
 aliases: [Barth1981 CeSn CePb, Ce local susceptibility calibration]
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-method
@@ -80,3 +80,7 @@ PDF1/811实验身份和装置；PDF2/812 Figs1–3；PDF3/813 Curie式、Fig4与
 ## Knowledge Impact and Learning Decision
 
 当前补足的是磁校准的相关原文模型与反证：[[ionescu-bujor-1998-static-moments-129-131ce]]的室温1.40因子可在明确Curie参数下核对，不能据此清除其真实场/拟合Cov缺口，也不替代1980 PRL正文。[[day20-quadrupole-collectivity-systematics-synthesis]]继续把核寿命、核取向relax和电子τ_J分开；核形变判断仍需各自矩阵元与状态身份。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 3–4（印 813–814）基于 ¹³⁶Ce(10⁺) 的 TDPAD 频率和温度模型，拟合给 g_N=−0.180(2)，CeSn 和 CePb 的 B(0) 分别为 1.78(4) 与 1.78(6) MG。式 (1) 从核取向松弛推电子 4f 速率，依赖快涨落区及无额外松弛。PDF 9 的讨论确认拟合省略温度无关项。本唯一本与暂存副本哈希一致。

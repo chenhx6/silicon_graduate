@@ -4,7 +4,7 @@ title: "Henderson2019：76Se Coulomb激发矩阵元与平均三轴性边界"
 title_original: "Triaxiality in selenium-76"
 aliases: [Henderson 76Se JANUS Coulomb excitation]
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-model-comparison
@@ -20,7 +20,7 @@ canonical_source: "https://doi.org/10.1103/PhysRevC.99.054313"
 source_url: "https://link.aps.org/accepted/10.1103/PhysRevC.99.054313"
 raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/henderson-2019-triaxiality-selenium76.pdf"
 raw_sha256: "a3327e0ee1eeb6aff8c6e0d49a3de2a281d5d005b0e5a58846b9bf0289d5b993"
-raw_storage_status: reserved-unpopulated-accepted-manuscript-staging-only
+raw_storage_status: archived-accepted-manuscript
 raw_archive_verified_at: 2026-10-23
 analysis_status: public-staging-original-read-raw-archive-verified
 public_staging_file: "tmp/day20-henderson116/PDFs/Triaxiality_in_selenium-76.pdf"
@@ -39,7 +39,7 @@ tags: [selenium, phase, reorientation, literature-constraint, rigidity-boundary]
 
 Henderson等，Physical Review C99，054313(2019)，DOI10.1103/PhysRevC.99.054313，Crossref精确端点核2019-05-13。实际下载为APS/CHORUS公开accepted manuscript，PDF首页明确如此标识：共10页，cover1页+正文/参考9页，2066061bytes，SHA256见frontmatter。downloader的oaEvidence把version标publishedVersion，但以PDF cover为准，不声称已核最终排版全文一致性。
 
-PDF只在tmp公开staging；raw_file为未填归档槽，raw/PLAN/Bib未写。SI沿auto配置关闭，不断言不存在或已读。本文是新yield实验加旧文献约束；表中输出不能当与既有寿命/branch完全独立的第二测量。
+已在 `raw_file` 核对接收稿及 SHA-256。本文覆盖范围限于接收稿主件。本文是新yield实验加旧文献约束；表中输出不能当与既有寿命/branch完全独立的第二测量。
 
 ## Scope and Reading Depth
 
@@ -107,3 +107,9 @@ PDF1：CHORUSaccepted cover；2/正文1：摘要/动机；3/正文2：方法/门
 | HE19-D20-R117-2 | 未知d33的q3系数模之比由(.532/.040)²=176.89给出；对R=q3/q2^(3/2)，导数ground−.00470953/eb、0₂−.94531109/eb，比例200.723。此有限截断中0₂对缺失元素更敏感，不给d33范围或其真实误差，也不以ground小系数证明误差绝对可忽略。 | conditional-comparative-missing-element-weight | exact-central-input-contract | HE19-D20-R117-1; HE19-D20-4 missing-companion boundary | true |
 
 16维完整multiplet张量的直接球分量收缩与三态二次型相容；检查Hermiticity、整体态相位和自由d33仿射系数。11项控制仅核该投影模型与原件/输入/code指纹，没有原GOSIA重拟合、jointCov、全高态closure或实验CI。TableII打印.647给B↑4186.09而打印4190，反向按spin因子为837.218而打印838；保留字面舍入残差，不放宽容差后宣称producer已复现。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+两束流能量的 17 组入选产额经相容性检查后联合拟合。PDF 6 Table II 报告 Q_s(2₁⁺)=−0.35(4) eb、Q_s(2₂⁺)=+0.19(4) eb。PDF 6–8 Eqs. (2)–(4)、Figs. 5–7 从有限矩阵元推导低阶不变量，Fig. 5 的 γ≈25° 为转子比较。
+
+拟合使用 ENSDF 与 Mukhopadhyay 等的寿命、混合比和分支。2₃⁺ 对角矩阵元未测，限制 0₂⁺ 三阶不变量收敛；三轴刚性需要更高阶信息。

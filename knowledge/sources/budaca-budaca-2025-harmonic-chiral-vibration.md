@@ -3,7 +3,7 @@ type: source
 title: "Budaca & Budaca 2025 - Harmonic chiral vibration in triaxial nuclei"
 aliases: [Budaca 2025 harmonic chiral vibration, harmonic chiral vibration in triaxial nuclei]
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-theory
@@ -165,3 +165,7 @@ P0: none identified.
 ## Non-source Notes and Follow-up
 
 For Hara Table 5 coverage, distinguish the 2024 TPSM calculations for `133La`/`135Pr` from this 2025 PRM-derived HA fit to `137Nd` D5/D6. Both are model analyses of existing data; neither adds a shape measurement or a new experiment.
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+Budaca 与 Budaca 对受约束粒子转子模型的平面驻点做谐近似，并用同一哈密顿量的精确对角化检验其适用域。Fig. 2 的四阶／二阶展开系数比在接近临界自旋时急增。Fig. 4(f) 的 ¹³⁷Nd 输入为 Petrache 等 [30] 已发表带能量差。两个实心观测点参与比较，其中最低自旋点是归一基准，更高自旋的空心点未入拟合。图面给出拟合 \(\gamma=97.5^\circ\)（作者分区映射下等效于 \(22.5^\circ\)），该面板未列参数误差。图注所指竖线刻画谐近似与精确对角化的偏离。这个角度是依赖组态和拟合范围的模型参数。Fig. 5 只画 ¹⁰³,¹⁰⁵Rh 的实验与计算 \(B(M1)/B(E2)\) 对比，邻文还报告 ¹³³Ce、¹³⁵Nd 的实测带间排序与模型预言相反。本文为已有带数据的理论再分析，未提供 ¹³⁷Nd 新采集或对应电磁强度检验。

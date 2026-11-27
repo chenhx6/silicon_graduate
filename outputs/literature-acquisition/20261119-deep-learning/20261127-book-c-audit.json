@@ -1,0 +1,45 @@
+{
+  "batch": "20261127-book-c",
+  "created_at": "2026-11-27T01:58:33.961483+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000302",
+      "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "identity": "Bohr and Mottelson, Nuclear Structure II, 1975 original, local World Scientific 1998 reissue, 772 physical pages.",
+      "coverage": [
+        "PDF 350–385 (printed 328–363): §§6-1 and 6-2, §6-3a and first part of §6-3b, Figs. 6-1–6-3 and Tables 6-1–6-2."
+      ],
+      "boundary": [
+        "The volume is partial. Keep distinct the harmonic spherical limit, the interaction model, and the experimental derivation of βλR₀. The ¹²⁰Sn proton-spectrum figure and proton table entry share the same acquisition."
+      ],
+      "disposition": "partial",
+      "worker": "Pascal",
+      "source_pdf": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "physical_pages": 772
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 448,
+    "duplicate-or-related-version": 11,
+    "duplicate-excerpt-linked-to-canonical": 5,
+    "pending-identity-and-coverage": 290,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 3,
+    "existing-source-coverage-to-audit": 214,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 504,
+  "credited_works": 0,
+  "credited_primary_pages": 0,
+  "partial_volume_pages": 36,
+  "next_action": "Continue Bohr–Mottelson II at PDF 386 (printed 364), and reconcile the next local-original worker groups.",
+  "uncredited": []
+}

@@ -3,7 +3,7 @@ type: source
 title: "Bringel et al. 2005 - Evidence for wobbling excitation in 161Lu"
 aliases: [Bringel 2005 161Lu wobbling]
 created: 2026-07-16
-updated: 2026-07-25
+updated: 2026-11-27
 status: active
 review_status: human-reviewed
 source_type: journal-article
@@ -156,3 +156,7 @@ Keep wording at “evidence/strongly suggests,” never “observed/confirmed.�
 | BR05-D18-1 | **superseded**：旧关于“不具备哪怕单一项证据”的断言降格，由BR05-D18-2/3分层记录作者发现的TSD带结构与明确指出的测量局限。 | task-correction | superseded-interpretation | 本段D18-2/3；旧lu-ta-wobbling-lineage-result-027 | true |
 | BR05-D18-2 | 本文发现161Lu中TSD1和微弱TSD2能级序列，其动态转动惯量J^(2)和排列角动量ix展现出与重奇A镥同位素（163,165Lu）高度相似的转动系统学特征。 | source-result-and-method | direct | PDF pp.168-171 Figs. 1-8；Sec. 3 | true |
 | BR05-D18-3 | 作者明确指出由于统计限制，连接线Delta I = 1的电磁多极性（DCO/偏振）与能级寿命无法测定，自旋与绝对激发能量仍具暂定性（tentative）；作者据此将TSD1/TSD2作为wobbling候选带提出，并强调电磁跃迁测定是最终确证的必要条件。 | author-interpretation-boundary | direct-and-boundary | PDF p.171 Summary；Sec. 4 | true |
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+Bringel 等在新一批 ¹³⁹La(²⁸Si,6n)¹⁶¹Lu、175 MeV 的 EUROBALL 数据中延长早期 [15] 已见的 TSD1，并以门控 γ 符合建立弱 TSD2 向 TSD1 的衰变。641–686 keV 区间可见跨带峰，666 keV 连接线与 TSD2 的 667 keV 带内线重叠，Fig. 2(b) 给出该能区的符合检验。已知正常形变跃迁的符合支持 ¹⁶¹Lu 归属，Fig. 3 的两带自旋和绝对激发能仍为暂定。Fig. 8 的约 650 keV 间隔及与 ¹⁶³,¹⁶⁵Lu 的相似性支持作者提出的零、一个声子 wobbling 候选。本文未确定跨带线的电磁性质，缺少可用于检验同核 E2 优势的混合比、偏振和寿命。对 ¹⁶⁷Lu 的引用 [12] 属异核比较。早期 [15] 提供已知 TSD1，本文的高自旋延伸及 TSD2 来自本次数据。

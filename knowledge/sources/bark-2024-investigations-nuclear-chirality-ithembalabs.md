@@ -3,7 +3,7 @@ type: source
 title: "Bark et al. 2024 - Investigations of nuclear chirality at iThemba LABS"
 aliases: [Bark 2024 iThemba nuclear-chirality review, iThemba LABS chirality programme]
 created: 2026-08-11
-updated: 2026-10-26
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: journal-review
@@ -194,3 +194,7 @@ P0: none identified.
 | BK24-D23-001 | PDF29 Ref15的E.A.Lawrie, “Decay patterns of multi-quasiparticle bands—a model independent test of chiral symmetry”, PhysScr92(9),094006(2017)，由本轮Crossref精确核DOI10.1088/1402-4896/aa80ee/作者/年份/题名与abstract。checked publisherdiscovery为restricted，OpenAlex/SemanticScholar为closed/无可用正文；普通IOP/stacks PDF请求虽200却为validation HTML、非%PDF。本轮未读原正文，不能据题名/abstract把decay-pattern差异推广成通用已验证手征排除判据或独立实验。 | original-reference-identity-and-access-boundary | verified-metadata-only | PDF29 Ref.15; Crossref DOI10.1088/1402-4896/aa80ee; actualpublicaccess023 ledger | true |
 
 这些访问结果仅界定本次publicroute，不宣称世界上没有author copy或其它合法获取路径；未执行challenge、改SSL/凭据或循环retry。另一GR18 Ref14的NPA682,375–386(2001)本次仍只metadata/noPDF，其operator定义缺口按[[grodner-2018-128cs-chiral-g-factor]] GR18-D22-R114-1保留，不能用现有另一篇Starosta PRL替代。新metadata条目不增加独立物理证据票。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 10 式 (5) 把偏振不对称度的分子、分母都印成 aN⊥−N∥，照录为版面异文，不能用于定量。Fig. 9 的 ¹⁰⁶Ag 966.6 keV 跃迁标 τ=0.40±0.04 ps。PDF 22–24 Figs. 30–32 回用 Lieder 等 Ref. [24] 的实验，其中 Fig. 31 的 Band 1 空方块另引 Ref. [80]。作者并列竞争组态解释，综述图不构成新的寿命实验。

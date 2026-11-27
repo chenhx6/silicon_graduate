@@ -3,7 +3,7 @@ type: research-note
 title: "巨偶极共振同位旋混合与库仑E1禁戒跃迁破缺微观机制：40Ca到100Sn的同位旋杂质与宏观劈裂失效"
 aliases: [isospin-mixing-gdr-and-coulomb-e1-selection-rules, isospin mixing in GDR 100Sn, Day27 isospin mixing]
 created: 2026-10-30
-updated: 2026-10-30
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
@@ -13,6 +13,8 @@ tags: [isospin-symmetry-breaking, isospin-mixing, 100Sn, GDR, Coulomb-spreading,
 ---
 
 # 巨偶极共振同位旋混合与库仑 E1 禁戒跃迁破缺微观机制：40Ca 到 100Sn 的同位旋杂质与宏观劈裂失效
+
+> **2026-11-27 原件复核。** 下列 Day 27 历史计算及其数值只作为旧方案留档。[[colo-1995-isospin-mixing-gdr]] 的实验建议与等矢量巨单极模型不支持这里曾归给该论文的 GDR 铺展、固定低能 E1 强度及跨区普适律。该文的 ¹⁰⁰Sn 全自洽 HF 值为 4.25%（PDF 2 Tables I–II），RPA 相关估计为 5.2% 或 4.8%（PDF 4 Fig. 3 和式 (13)）。不可用本页旧算例代替那些量的原始证据。
 
 ## Research Trigger
 

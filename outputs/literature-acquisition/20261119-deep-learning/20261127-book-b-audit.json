@@ -1,0 +1,45 @@
+{
+  "batch": "20261127-book-b",
+  "created_at": "2026-11-27T01:27:35.298535+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000302",
+      "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "identity": "Bohr and Mottelson, Nuclear Structure II, 1975 original, local World Scientific 1998 reissue, 772 physical pages.",
+      "coverage": [
+        "PDF 316–349 read. PDF 316–340: §5-3, printed 294–318. PDF 341–346: Appendix 5A, printed 319–324. PDF 347: Chapter 6 title page (no printed number). PDF 348–349: §6-1, printed 326–327."
+      ],
+      "boundary": [
+        "Book overall remains partial. Distinguish summarized experiments, derived relative energies and model assumptions."
+      ],
+      "disposition": "partial",
+      "worker": "Pascal",
+      "source_pdf": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "physical_pages": 772
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 432,
+    "duplicate-or-related-version": 10,
+    "duplicate-excerpt-linked-to-canonical": 4,
+    "pending-identity-and-coverage": 295,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 3,
+    "existing-source-coverage-to-audit": 227,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 522,
+  "credited_works": 0,
+  "credited_primary_pages": 0,
+  "partial_volume_pages": 34,
+  "next_action": "Continue Bohr–Mottelson II at PDF 350 (printed 328) and verify the next assigned sources.",
+  "uncredited": []
+}

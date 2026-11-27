@@ -3,7 +3,7 @@ type: source
 title: "Grodner et al. 2006 - 128Cs partner-band lifetimes and transition strengths"
 aliases: [Grodner 2006 128Cs chiral doublet]
 created: 2026-10-10
-updated: 2026-10-26
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: experiment
@@ -142,3 +142,9 @@ Absolute strengths depend on lifetime, feeding, and pure-M1 assumptions. Figure-
 ### Day24 checkpoint004 Agent self-audit triage
 
 P0: none identified（新增范围）。P1：选定(18)+/.82ps/930线在原Fig2/3核清；beam/target/detector独立性按直接方法段核，commonphysics与共同Cov仍保留。g跨态迁移必须模型化，不把ps/ns钟裸比或变成新寿命/静态阈值。新needs_review:true，无human-review事件。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2 Figs. 2–3 的 ¹²⁸Cs yrast (18)⁺ 态寿命为 0.82(+0.20/−0.14) ps，对应 930 keV 线形。PDF 3 Fig. 4 底排为 side→yrast B(M1)，I=15 点为上限。作者认为约 200 keV 的伙伴带间隔及跃迁强度模式支持手征解释。Fig. 6 的理论 B(M1) 交错强于实验。
+
+侧馈参数沿 ¹³¹La，混合分量与自旋宇称采用外部依据。Grodner 2011 重用本篇 ¹²⁸Cs 的强度，2018 的带头 TDPAD 是不同采集与自旋区间。

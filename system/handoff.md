@@ -13,6 +13,10 @@ updated: 2026-11-25
 
 首批核定 16 份、578 个物理 PDF 页，其中既有覆盖对账和本轮正文补读各按批次说明登记。另核定一条 Otsuka 重复版。Bohr–Mottelson 第二卷新增核读 PDF 281–315（印 259–293），不计整卷。队列剩 531 条，下一段从 PDF 316（印 294）开始。稳定指针为 `research/archive-learning-20261127` + `research: resume archive reading and verify original sources`。见[首批档案](../outputs/literature-acquisition/20261119-deep-learning/20261127-parallel-b-audit.json)。
 
+第二批核定 9 份、127 页并修正 Colò 1995 的证据归属。此文计算基态同位旋杂质及等矢量巨单极响应。第二卷已至 PDF 349（印 327），后从 PDF 350（印 328）续读。累计档案 450 份，剩 522 条。见 [本批核验](../outputs/literature-acquisition/20261119-deep-learning/20261127-parallel-c-audit.json)。
+
+其后核定 16 份、302 个主件 PDF 页，其中本轮新增刊版正文覆盖与既有全文范围核对分开登记，另链接 Green 节录和 Lauritsen HAL 两条重复版本。核定累计 466 份、19,172 个主件 PDF 页，队列剩 504 条。第二卷续核 PDF 350–385（印 328–363），下从 PDF 386（印 364）继续。见[本段覆盖](../outputs/literature-acquisition/20261119-deep-learning/20261127-book-c-audit.json)。此批稳定指针为 `research/archive-learning-20261127` + `research: record verified archive reading batches`。见[来源身份核对](../outputs/literature-acquisition/20261119-deep-learning/20261127-identity-b-audit.json)、[图表与既读范围核对](../outputs/literature-acquisition/20261119-deep-learning/20261127-returned-a-audit.json)、[转动与磁矩来源核对](../outputs/literature-acquisition/20261119-deep-learning/20261127-rotor-a-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

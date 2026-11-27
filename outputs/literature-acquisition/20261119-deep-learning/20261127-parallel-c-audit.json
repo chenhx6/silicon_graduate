@@ -1,0 +1,173 @@
+{
+  "batch": "20261127-parallel-c",
+  "created_at": "2026-11-27T01:24:41.135544+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000285",
+      "source": "knowledge/sources/babra-2019-deformation-change-136sm.md",
+      "identity": "Babra et al., Phys. Rev. C 100, 054308 (2019); publisher PDF.",
+      "coverage": [
+        "Existing full PDF 1–10 coverage, including Figs. 1–10 and Table I; checked PDF 2 Figure 1 and Table I and PDF 6 Figs. 7–8."
+      ],
+      "boundary": [
+        "The 20+ state gives a lifetime upper limit and Q_t lower bound under 100% side feeding; stopping systematics and cited low-spin data remain separate."
+      ],
+      "disposition": "covered",
+      "worker": "Descartes",
+      "source_pdf": "raw/papers/2019_Babra et al_Investigation of a large change in deformation for the γ -soft nucleus Sm 136.pdf",
+      "sha256": "a26149bff0e7b3bdb5459ba5897b69bc7f8ed17a646f13ed59dd5b38ae425ba6",
+      "physical_pages": 10
+    },
+    {
+      "id": "catalogue:LIT-000289",
+      "source": "knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md",
+      "identity": "Bark, Lawrie, Liu and Wang, Frontiers of Physics 19, 24302 (2024); publisher review, DOI 10.1007/s11467-023-1340-0.",
+      "coverage": [
+        "Existing PDF 1–32 review coverage. Spot checks PDF 9–10 and PDF 22–24, Table 1 and Figs. 9, 30–32."
+      ],
+      "boundary": [
+        "Review panels reproduce prior experiments and alternative interpretations; the literal printed Eq. (5) cannot be used as a normalized asymmetry."
+      ],
+      "disposition": "covered",
+      "worker": "Descartes",
+      "source_pdf": "raw/papers/2024_Bark et al_Investigations of nuclear chirality at iThemba LABS.pdf",
+      "sha256": "46e19f9654d4e966638757c7e71fdb6fd0ff8800a039e356eb0f6ee60b552f3d",
+      "physical_pages": 32
+    },
+    {
+      "id": "catalogue:LIT-000290",
+      "source": "knowledge/sources/barth-1981-ce-local-moments-metals.md",
+      "identity": "Barth, Netz, Nishiyama and Riegel, Hyperfine Interactions 10, 811–820 (1981); publisher PDF.",
+      "coverage": [
+        "Full archived PDF 1–10 reconciled including conference discussion; check PDF 3–4 (printed 813–814), Eq. (1), Figs. 4–5, and PDF 9 discussion."
+      ],
+      "boundary": [
+        "Frequency constrains a product of nuclear g and host magnetic enhancement. Relaxation-rate inference assumes fast fluctuations and no additional channel."
+      ],
+      "disposition": "covered",
+      "worker": "Descartes",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/barth-1981-ce-local-moments.pdf",
+      "sha256": "dff4d09add2aeeb91302ca1b222cc0e3e7e7b280fe0095e097a2585e7b60cb15",
+      "physical_pages": 10
+    },
+    {
+      "id": "catalogue:LIT-000329",
+      "source": "knowledge/sources/bringel-2005-wobbling-161lu.md",
+      "identity": "Bringel et al., Eur. Phys. J. A 24, 167–172 (2005); Springer publisher copy.",
+      "coverage": [
+        "Existing full source coverage PDF 1–6. The archival check revisited the figures and equations cited in the source addition."
+      ],
+      "boundary": [
+        "No measured interband multipolarity or mixing ratio, and band spin and absolute excitation remain tentative."
+      ],
+      "disposition": "covered",
+      "worker": "Pauli",
+      "source_pdf": "raw/papers/2005_Bringel et al_Evidence for wobbling excitation in 161Lu.pdf",
+      "sha256": "048aad3f155d237b3c86c88d160474e925e55d6e3622bffa82d57b32b099ff59",
+      "physical_pages": 6
+    },
+    {
+      "id": "catalogue:LIT-000333",
+      "source": "knowledge/sources/budaca-budaca-2025-harmonic-chiral-vibration.md",
+      "identity": "Budaca and Budaca, local arXiv:2508.00373v1, associated with Phys. Lett. B 868, 139794 (2025).",
+      "coverage": [
+        "Existing full source coverage PDF 1–7. The archival check revisited the figures and equations cited in the source addition."
+      ],
+      "boundary": [
+        "This is theoretical reanalysis of prior band energies. The adopted model and fit domain limit the interpretation of gamma."
+      ],
+      "disposition": "covered",
+      "worker": "Pauli",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/2508-00373-harmonic-chiral-vibration/PDFs/Harmonic_chiral_vibration_in_triaxial_nuclei.pdf",
+      "sha256": "f6ef887d1be887af7c4b147de8943824e3d9d25acff5116c6ca0e1ba322876fa",
+      "physical_pages": 7
+    },
+    {
+      "id": "catalogue:LIT-000334",
+      "source": "knowledge/sources/burgunder-2014-35si-two-body-spin-orbit.md",
+      "identity": "Burgunder et al., Phys. Rev. Lett. 112, 042502 (2014); APS publisher copy.",
+      "coverage": [
+        "Existing full source coverage PDF 1–5. The archival check revisited the figures and equations cited in the source addition."
+      ],
+      "boundary": [
+        "Measured proton cross sections, ADWA-extracted factors and shell-model monopole decomposition have distinct evidence scope."
+      ],
+      "disposition": "covered",
+      "worker": "Pauli",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam/burgunder-2014-35si-two-body-spin-orbit.pdf",
+      "sha256": "c8db651c453428630b450c53a38c28fba05ed7c0fa0dda3023383213c0e53aef",
+      "physical_pages": 5
+    },
+    {
+      "id": "catalogue:LIT-000365",
+      "source": "knowledge/sources/colo-1995-isospin-mixing-gdr.md",
+      "identity": "Colò et al., Phys. Rev. C 52, R1175–R1178 (1995), DOI 10.1103/PhysRevC.52.R1175; publisher PDF.",
+      "coverage": [
+        "PDF 1–4, all scientific text, printed Tables I–III and Figures 1–3; corrected earlier claim attribution against the original."
+      ],
+      "boundary": [
+        "This work models ground-state isospin impurity through IVGMR. It does not supply a GDR spreading width or measure a forbidden E1 strength."
+      ],
+      "disposition": "covered",
+      "worker": "Hubble",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.52.R1175.pdf",
+      "sha256": "346b8c777e73c6027a66878f454ee26a7daa2c0d2631ca26a1759029ef97c8dd",
+      "physical_pages": 4
+    },
+    {
+      "id": "catalogue:LIT-000367",
+      "source": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
+      "identity": "Crespi et al., NIM A 705, 47–54 (2013), DOI 10.1016/j.nima.2012.12.084; local author manuscript with line numbering.",
+      "coverage": [
+        "Existing PDF 1–10 coverage. Directly rechecked PDF 6–9 §5, Table 2, Figs. 10–11 and conclusion."
+      ],
+      "boundary": [
+        "Comparison reprocesses the same dataset. Underlying joint recoil distribution was not measured on an eventwise basis."
+      ],
+      "disposition": "covered",
+      "worker": "Hubble",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/crespi-2013-agata-15mev.pdf",
+      "sha256": "1334b31bac18e12c1ce887de43d2e74e6ec0d409d49e0dc5d5660db03ab5b983",
+      "physical_pages": 10
+    },
+    {
+      "id": "catalogue:LIT-000368",
+      "source": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
+      "identity": "Crespi, Ljungvall, Lopez-Martens and Michelagnoli, Eur. Phys. J. A 59 (2023), DOI 10.1140/epja/s10050-023-01019-2; arXiv:2305.18850v1.",
+      "coverage": [
+        "Existing full PDF 1–43 review coverage; consulted PDF 14, 19–21, 24 and cited source controls."
+      ],
+      "boundary": [
+        "Three examples refer to distinct datasets; reciting a test from Crespi 2013 is not an independent result. Eq. (6) neglects correlation."
+      ],
+      "disposition": "covered",
+      "worker": "Hubble",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/crespi-2023-agata-tracking-performance.pdf",
+      "sha256": "e492edd41f50fd4a520b80c59507e8f07f800acb8285052e78c07a7e7612703d",
+      "physical_pages": 43
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 432,
+    "duplicate-or-related-version": 10,
+    "duplicate-excerpt-linked-to-canonical": 4,
+    "pending-identity-and-coverage": 295,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 3,
+    "existing-source-coverage-to-audit": 227,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 522,
+  "credited_works": 9,
+  "credited_primary_pages": 127,
+  "partial_volume_pages": 0,
+  "next_action": "Verify the next archive and book ranges already assigned.",
+  "uncredited": []
+}

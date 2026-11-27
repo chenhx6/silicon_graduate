@@ -3,7 +3,7 @@ type: source
 title: "Crespi 2013：AGATA 高能 γ Doppler 校正的速度限制"
 aliases: [Crespi AGATA 15.1 MeV response, PSA plus 1HitID high energy gamma]
 created: 2026-10-13
-updated: 2026-10-14
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-method-experiment-with-public-preprint
@@ -138,3 +138,7 @@ preprint pp.1–2 motivation/setup，pp.3–5 calibration/multiplicity，pp.6–
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | CR13-D19-1 | 对 Crespi 2013 针对高能 $15.11\text{ MeV}$ 光子在 AGATA 中的多普勒响应进行严格量化审计：(1) 反冲速度方差底限定理：实测多普勒校正后 $15.11\text{ MeV}$ 峰展宽从探头中心（$>160\text{ keV}$）和分段中心（$122\text{ keV}$）改善至全 PSA 波形分析（$119\text{ keV}$），但 PSA 相比分段中心仅带来微弱的 $2.46\%$（$3\text{ keV}$）改善；微观去卷积证明，未逐事件测量反冲核速度矢量导致的运动学弥散贡献了高达 $W_{\text{recoil}} = 116.5\text{ keV}$ 的刚性方差底限（占总线宽的 $97.9\%$），实证了单靠精细化光子位置无法穿透反冲弥散底限的物理法则；(2) 电子对产生区径迹跟踪失效：在 $15\text{ MeV}$ 能量下，电子对产生截面超过康普顿散射 3 倍以上；由于正负电子湮灭产生的两颗 $511\text{ keV}$ 光子具有背对背（$180^\circ$）发射几何，严重违背康普顿散射前向偏角假设，导致标准 MGT 跟踪算法损失了 $75\%$ 的全能峰计数（相对 Add-Back + PSA 保留率仅 $25\%$），证明高能对产生区简单能量累加优于标准康普顿跟踪；(3) 逃逸峰运动学：单逃逸峰（$E = 14599.0\text{ keV}$）与双逃逸峰（$E = 14088.0\text{ keV}$）的多普勒展宽与全能峰严格协变；确立了高能 Doppler 测量必须匹配磁谱仪（如 VAMOS/PRISMA）提供事件级反冲矢量方能实现亚 10 keV 极限分辨率。 | task-high-energy-doppler-audit | derived-and-boundary | preprint PDF pp.6-9 Table 2 Figs.10-11; crespi13-agata-high-energy-doppler-result-065.json | true |
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 6–8 §5 以同一束流谱比较 PSA+1HitID、段中心和晶体中心的一次 Doppler 校正，15.1 MeV 峰宽分别为 119、122、>160 keV。119 与 122 keV 的差没有可比较的联合误差。PDF 7 Fig. 11 采用 PACE4 速度分布和外推本征峰宽，不能从该图确立普适的反冲展宽下限。

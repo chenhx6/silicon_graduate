@@ -3,7 +3,7 @@ type: source
 title: "Frauendorf 2018 - Beyond the Unified Model"
 aliases: [Beyond the Unified Model, Frauendorf 2018 rotating mean field review]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: invited-review-theory
@@ -141,3 +141,9 @@ The same `ΔI=1`, near-degenerate or weak-E2 pattern can arise from different co
 
 - L3 question: for each candidate high-spin band, which minimum companion set—configuration identity, symmetry-breaking geometry, alignment/moment-of-inertia trend, and transition-strength pattern—most efficiently separates wobbling, signature partners, chirality and magnetic rotation? The review supplies the framework; original experiments supply the discriminating evidence.
 - No L4 run: the review contains no new data/code/manifest. Public numerical figures from cited sources cannot be treated as L4 inputs without returning to their original data and uncertainty definitions.
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 20–25 把旋转平均场的 −ω·J 项与定常 ⟨J⟩∥ω 相连。PDF 45–47、Fig. 42 的 ¹³⁵Pr 冻结取向例，按两组惯量估计临界角动量 14.4ℏ 或 9.3ℏ，准粒子完整转子解允许改取向并平滑通过。式 (117) 的首尾展开项印刷与同式左侧求和及式 (111) 约定不合。
+
+Fig. 42 重用 Ref. [108] 的实验点。本文模型比较不增加独立实验，临界值依赖惯量及冻结近似。本文另提到的 Appendix B 导航表未随此 PDF。

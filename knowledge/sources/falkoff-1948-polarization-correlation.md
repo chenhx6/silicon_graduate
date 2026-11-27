@@ -3,7 +3,7 @@ type: source
 title: "Falkoff 1948 - Polarization Correlation of Successive Gamma-Ray Quanta"
 aliases: [Falkoff 1948 polarization correlation]
 created: 2026-09-20
-updated: 2026-10-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: theory-letter
@@ -111,3 +111,9 @@ The sign and magnitude depend on phase conventions, intermediate-state alignment
 [[ppco-joint-response-and-information]]“Falkoff1948：相对电场角不是探测器方位角”保存exactCG/EM号、cos²重参数和PP1桥。实际新kernel不导入旧Day16tensor/原PPCOproducer；27dipole/4quad只为条件理论复算，非现代Co60或Sc46的重新实验指认，也不证明任意aligned/有限门的相同式。公开Crossref exactDOI候选查询因TLS失败，metadata未核，不以失败查询补来源body或更改citationkey。
 
 决定`revises`Wiki符号转录，`supports`PPCO第三shape信息与原经典限。原letter无实际polarimetrycounts/Q/Σ；其coefficient大不等仪器FOM更大。人审/旧flags不晋升。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+印 518 的 Eqs. (1)–(3) 与 Table I 给两条逐级 γ 光子的方向与偏振关联。关系依赖给定级联的自旋、多极性和两分析方向。本件只覆盖本短信，左栏分隔线以上属另文。
+
+理论推导和算例，无独立实验测量。应用到实际计数依赖分析器响应和接受度。

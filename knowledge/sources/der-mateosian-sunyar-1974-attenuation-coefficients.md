@@ -3,7 +3,7 @@ type: source
 title: "Der Mateosian and Sunyar 1974 - Attenuation coefficients for partially aligned nuclei"
 aliases: [Der Mateosian Sunyar 1974 attenuation tables]
 created: 2026-09-21
-updated: 2026-10-17
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: reference-tables
@@ -100,3 +100,7 @@ This companion to HS-081 supplies the attenuation half of the high-spin angular-
 [[se21-alignment-calibration-consistency]]的(.894266,.689096)及pureE2 reference与本原表相符，因此不能靠把sigma的名字改成HWHM解释SE21表列(.92,.30)。这仍只限定matchedrho/B的条件应用，SE21 actual alpha_exp的reference/geometry/gate/normalization操作未得；不认定作者代码或实验错误。sigma是连续Gaussian指数width参数，有限离散spin population的RMS另算。
 
 [primary-control脚本](../../system/scripts/day16_ms74_primary_controls.py)与[冻结原表输入](../../outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/day16-ms74-primary-table-input.json)保存源末位、raw hash与同理论谱系边界。[[der-mateosian-sunyar-1974-angular-coefficients]]是另一个对象，Q符号/最大系数和正负列须各自核对，不能因同作者直接混用。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2–4（印 392–394）式 (2)–(11) 用 σ 规定高斯磁子态布居，并以完全取向的统计张量归一 αₖ=ρₖ/Bₖ。PDF 6 Table I 对 J=10、σ/J=0.3 的 α₂=0.755982、α₄=0.409263。与 PDF 3 的纯 E2 算例相乘得 A₂≈0.3126、A₄≈−0.0717。附录的完全取向系数和表中衰减系数分开使用。探测器几何和馈入依各实验处理。

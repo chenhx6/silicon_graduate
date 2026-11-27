@@ -4,7 +4,7 @@ title: "Henderson et al. 2025 - Deformation and collectivity in doubly magic 208
 aliases: [Henderson 2025 208Pb quadrupole moment, 208Pb two-phonon octupole splitting]
 created: 2026-11-01
 archive_required: true
-updated: 2026-11-01
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment-and-model
@@ -62,7 +62,7 @@ DOI `10.1103/PhysRevLett.134.062502`。本文 PDF 由公开机构镜像取得，
 |---|---|---|---|---|---|
 | HE25-1 | 四种重离子库仑激发测量给出 `208Pb` 的 `3−_1` 与 `2+_1` 大负谱学四极矩；作者将其解释为这些激发态具有时间平均的偏长轴成分。 | experimental-result / author-interpretation | direct | PDF p.1 abstract; pp.5–6 conclusion | true |
 | HE25-2 | 正文明确写出 `3−⊗3−` 两声子 `0+,2+,4+,6+` quartet 尚未获得 conclusive identification，现有最好证据集中在 `0+` candidate。 | evidence-boundary | direct | PDF p.2, paragraph beginning “Arguably the most famous…” | true |
-| HE25-3 | 联合 GOSIA 分析给出 `Qs(3−_1)=-0.63(11) eb`（含文献 `B(E2)` 约束时）和 `Qs(2+_1)=-0.42(7) eb`；不含该约束的对应行也在 Table I。 | experimental-result | direct | PDF p.4, Table I | true |
+| HE25-3 | 联合 GOSIA 按 `(3−_1, 2+_1)` 给出 `Qs=(-0.63(11), -0.24(25)) eb`（无附加文献 `B(E2)`）及 `Qs=(-0.57(9), -0.42(7)) eb`（含该约束）。两套拟合均使用文献 `B(E3)`。 | experimental-result | direct | PDF p.4, Table I | true |
 | HE25-4 | 作者依据 `Qs(3−_1)` 与 quadrupole–octupole coupling 关系估计两声子 quartet 的可能分裂尺度约为 `800–1500 keV`；这是模型关联的设计推断，不是四个已测能级的分裂。 | author-interpretation / experiment-design-inference | direct | PDF p.6, paragraph beginning “Importantly…” | true |
 | HE25-5 | 已知 `0+` candidate 位于 `5241 keV`；作者指出该点与上述分裂估计存在张力，因而 `208Pb` 仍是未解决的核结构问题。 | experimental-result / synthesis | direct | PDF p.6, final paragraph before references | true |
 | HE25-6 | 文章实验只直接观察到 `3−→0+` 与 `2+→0+` 退激线；两声子 quartet 的完整 γ closure 不由本次数据建立。 | source-completeness-boundary | direct | PDF p.4, GOSIA-analysis paragraph | true |
@@ -100,9 +100,15 @@ GRETINA 探测，束流/靶散射粒子由 CHICO2 提供位置、时间和散射
   `0+,2+,4+,6+` 候选的逐态能级、feeding、寿命和 E3 分支。
 - `800–1500 keV` 只属于本文在 `208Pb` 的 coupling-based estimate，不能迁移为
   `132Sn` 的预测区间。
-- staging PDF 已核验身份与哈希，raw 归档和人工审核仍未完成。
+- 当前 `raw_file` 的 APS 刊版已核对文件身份与 SHA-256。
 
 ## Human Review
 
 本页是 Codex self-audit，保持 `unreviewed`；`HE25-*` 不设置为
 `human-reviewed`。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+²⁰⁸Pb 的四束流库仑激发产额共同约束拟合。PDF 4 Table I 按 (3₁⁻,2₁⁺) 给 Q_s，始终采用外部 B(E3)=33.8(6) W.u.。无额外文献 B(E2) 时结果为 (−0.63(11),−0.24(25)) eb，加入 B(E2) 后为 (−0.57(9),−0.42(7)) eb。负四极矩的长轴形变解释由作者提出。
+
+红黑拟合共用产额和外部 E3，不能当独立测量。PDF 6 的 800–1500 keV 是近似耦合估计，5241 keV 候选取自既有报道；完整两声子多重态仍未确定。

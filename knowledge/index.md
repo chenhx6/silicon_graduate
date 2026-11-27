@@ -2233,3 +2233,6 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[capponi-2021-eliade-la130-inbeam]] — ELIADE ¹³⁰La 在束测试、散射不对称度与 ADO 的来源。
 - [[evitts-2018-ni-e0-strength]] — ⁵⁸˒⁶⁰˒⁶²Ni 的 E0 强度、角分布选支和半寿命依赖。
 - [[pande-singh-1971-dy160-triple-correlation]] — ¹⁶⁰Dy 三重 γ 角关联与混合比相位。
+- [[jones-2021-linear-polarization-planes]] — 康普顿线偏振的参考平面、能量阈值与灵敏度。
+- [[green-1971-polarization-isotropic-angular-distributions]] — 近各向同性角分布下的偏振与混合比选支算例。
+- [[gupta-2025-ce136-collective-noncollective-states]] — ¹³⁶Ce 的符合、DCO、偏振不对称及刊版标注差异。
