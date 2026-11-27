@@ -92,6 +92,10 @@ schedule 的 canonical session index。用户需要查看某日对话时，在�
 3. 告知用户在额度刷新后发送“继续”；
 4. 新会话按 `AGENTS.md` 启动顺序恢复。
 
+## 恢复科研循环
+
+续接已授权研究时，按 [L3/L4 每轮决策](autonomous-research.md#l3l4-每轮研究决策与恢复) 回读问题、竞争解释、最后完成动作及未完成动作。先核对输入/代码/评测器身份、已有产物和证据定位，再决定补验、重新建立基线或继续；排队、计划和完成标记不代表实验已执行。失败分支只在记录的复活条件出现时重开；信息增益耗尽则记录停止。可选记录用 `wiki_research_cycle.py` 检查自洽。此入口使用既有调度，不安装新 daemon 或无限循环。
+
 ## Wiki local-project automation
 
 The task runner is supplied by the user's local environment. A task may call

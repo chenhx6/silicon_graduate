@@ -1,7 +1,7 @@
 ---
 type: system-guide
 graph-excluded: true
-updated: 2026-09-10
+updated: 2026-11-27
 ---
 
 # Agent capability adoption
@@ -26,9 +26,10 @@ updated: 2026-09-10
 
 | 能力 | 何时使用 | Wiki 入口 | 关键边界 |
 | --- | --- | --- | --- |
-| `brainstorm` | 需求模糊、设计或方案选择 | 上游 `brainstorm` skill；科研页面仍走现有 workflow | 先分类 spike/bounded/architectural；复杂设计先批准再实现 |
-| `auto` | 用户明确要求无人值守或连续执行 | 上游 `auto` skill + Codex goal | 只在用户授权范围内循环；不越过 L0–L4、人工审核、raw 和 Git 发布关口 |
+| `brainstorm` | 需求模糊、设计或方案选择 | 上游 `brainstorm` skill；科研页面仍走现有 workflow | 工程设计按规模处理；科研分流到 wiki-research，已有授权下直接推进，只追问影响选择的信息 |
+| `auto` | 用户明确要求无人值守或连续执行 | 上游 `auto` skill + Codex goal | 只在用户授权范围内循环；不越过 L0–L4、证据、raw 和 Git 发布关口 |
 | `up` | 升级技能、工具、hook、插件或吸收外部实践 | 上游 `up` skill + 本页来源表 | 先基线、固定提交、许可/安全/兼容审查，再最小改动和回归；不把 star 当质量结论 |
+| `wiki-research` | 科研选题、竞争假设、最小检验与中断恢复 | `.agents/skills/wiki-research` | 接已有 L3/L4；直接证据和适用条件决定结论，普通问答只读 |
 | `wiki-evolution` | 在 Wiki 中手动学习和适配外部能力 | `$wiki-evolution` + [`system/agent-capability-upgrade.md`](agent-capability-upgrade.md) | 按固定提交读取原文件，每轮最多采用一项通过本地验证的改进 |
 | 工程验证工具 | 开发验收、日志查找、Python 结构检查与实验对照 | [`system/workflows/agent-engineering.md`](workflows/agent-engineering.md) | 按需从终端运行，来源对应固定版本 |
 | `evolution` | 通用外部能力初筛 | 已安装的 `evolution` skill | 报告候选和采用建议 |
@@ -49,7 +50,7 @@ python3 system/scripts/wiki_hook.py after-edit --root .
 python3 system/scripts/wiki_hook.py session-summary --root .
 ```
 
-`before-edit` 会拒绝仓库外路径、`.git/`、`.codex/`、会话日志和受保护的 Zotero Inbox。`after-edit` 只做 `git diff --check`、状态读取和变更 shell 的语法检查。它不会替代 `check.md`、`wiki_lint.py` 或人工科学审核。
+`before-edit` 会拒绝仓库外路径、`.git/`、`.codex/`、会话日志和受保护的 Zotero Inbox。`after-edit` 只做 `git diff --check`、状态读取和变更 shell 的语法检查。它不会替代 `check.md`、`wiki_lint.py` 或直接科学证据核验。
 
 ## Farmer 运行与恢复
 
@@ -86,4 +87,20 @@ python3 system/scripts/wiki_farmer.py once --root . --dry-run
 python3 system/scripts/wiki_lint.py --fail-on error
 ```
 
-外部技能只提供运行方法论。论文事实、科学 claim、review 状态和原始证据仍受 `AGENTS.md`、`autonomous-research.md`、`paper-evidence-gate.md` 与现有 schema 约束。Wiki 已建立持续自主 commit/push 授权；skill 不能越过 WIP、hard P0、人工审核或不可逆 Git 操作关口。
+外部技能只提供运行方法论。论文事实、科学 claim、review 状态和原始证据仍受 `AGENTS.md`、`autonomous-research.md`、`paper-evidence-gate.md` 与现有 schema 约束。Wiki 已建立持续自主 commit/push 授权；skill 不能越过 WIP、hard P0 或不可逆 Git 操作关口。
+
+## 2026-11-27 科研循环与脑暴补齐
+
+已把 7 个固定来源的适用机制接入 [wiki-research](../.agents/skills/wiki-research/SKILL.md)、[自主研究](workflows/autonomous-research.md) 和 [canonical 方法](../knowledge/methods/evidence-driven-research-cycle.md)。全部 41 个静态样本的 URL、commit、路径、大小、SHA-256、Git blob ID、许可与处置见 [来源清单](agent-capability-sources/research-cycle-20261127.json)。样本未执行，方法按本 Wiki 规则重写。
+
+| 来源 | 已吸收 | 排除的运行语义 |
+| --- | --- | --- |
+| Ralph | 小步行动、可恢复状态 | 跳权限、完成标记准入、整体暂存 |
+| autoresearch | 固定评测、基线、实验日志思想 | 未找到固定树许可，不复制代码；不采用无限循环和 Git reset |
+| Arbor | 假设树、失败约束上推、开发/确认区分 | 不安装完整运行器 |
+| ARIS | 直接读原件的审查、遗留疑点、逐项修复 | 评分和模型共识不作科学准入 |
+| Superpowers | 只问影响选择的信息、交接歧义检查 | 不重复请求已有授权 |
+| BMAD | 方法选择、发散/收敛分离、会话恢复 | 百条创意指标、完整环境依赖 |
+| lateral-thinking | 前提反转、从目标展开替代路线 | 启发不得替代可检验预测 |
+
+共享 brainstorm 已增加 `references/research-exploration.md` 并接入科研分流，维护在共享技能层；Wiki skill 负责本项目证据与路径契约。现有 scientific-brainstorming 与 arbor 作方法对照，不重复安装。共享库按其 skills-sync 规则发布，本仓库只发布项目适配。测试和流程回放见 [验收回执](../outputs/plans/20261127-research-capability-adoption/acceptance.md)；这些验收不证明博士研究能力或科研增益。

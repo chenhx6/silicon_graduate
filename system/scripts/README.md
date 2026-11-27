@@ -262,3 +262,9 @@ Day19 的旧 `day19_execute_closeout.py` 已退役，不能据其旧“100%就�
 已有交互式session需要一次closeout时，必须在`acquire_locks(LOCK_PATHS)`作用域内构造Supervisor，真实有效收束小时调用`initialize_one_shot()`，选择event_id=`closeout`并`attempt`一次。不调用start/run/tick，不补发过去checkpoint。首次初始化记录真实now并核Farmer，取消/终止run不入队；timeout或遗留in-flight为unknown，不盲重发。queued只表示broker接受，实际处理与attestation另证。普通loop流程不变。
 
 限定回归：`python3 -m unittest system.tests.test_daily_learning_runner system.tests.test_learning_session_clock system.tests.test_wiki_learning_deadline`；全部使用temporary/fake queue，不执行生产session、queue或课程推进。
+
+## 可选研究循环记录检查
+
+`python3 system/scripts/wiki_research_cycle.py --root . knowledge/methods/evidence-driven-research-cycle.md` 检查 Markdown 中的 `research-cycle` JSON 或直接 JSON。输入限定本仓库 knowledge/outputs/system/tmp 内；拒绝符号链接越界。检查计划/执行、假设树、失败条件、声明的证据谱系、灵敏度以及开发/确认和评测器的一致性。不执行 action、不读 raw、不验证声明哈希对应的实际字节，也不替代科学审计。
+
+回归：`python3 -m unittest system.tests.test_research_cycle`。其中包含普通仓库与 linked worktree 的 Git 元数据预检；`wiki_automation_preflight.py` 用 Git 原生命令解析 admin/common 目录后完成写入探针。

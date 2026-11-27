@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-27",
+  "cases": 3,
+  "recovery_cases": [
+    {
+      "case": "H-mode",
+      "checkpoint_sha256": "69c60719975d26b19ec81f84048408734554a76850cc4f4f40ecceeadad44989",
+      "input_path": "knowledge/projects/a130-single-point-paper-133ce-response-aware-identifiability.md",
+      "input_sha256": "95c3c91cd05a241c68b93d8b0301441263582bfba1b1966066915bfc02d304c4",
+      "completed_cycles_before": 1,
+      "completed_cycles_after": 1,
+      "new_planned_cycles": 1
+    },
+    {
+      "case": "H-pdm",
+      "checkpoint_sha256": "c652430e707651945d952f1f00fb33626fd7a6ede1c7792d80b5e23c0ff706ff",
+      "input_path": "knowledge/sources/multipolepdm-20261120-synthetic-validation.md",
+      "input_sha256": "91bf5882ae67ec954d69d450097b72ad9debc8ee316e55e2471310bdbaaf0662",
+      "completed_cycles_before": 1,
+      "completed_cycles_after": 1,
+      "new_planned_cycles": 1
+    },
+    {
+      "case": "H-topic",
+      "checkpoint_sha256": "7aa327dc16f1a68b4cc5e2680a48ef65b8fe1d83480a53a5b9048b7be70239b8",
+      "input_path": "knowledge/projects/a130-single-point-paper-133ce-response-aware-identifiability.md",
+      "input_sha256": "95c3c91cd05a241c68b93d8b0301441263582bfba1b1966066915bfc02d304c4",
+      "completed_cycles_before": 1,
+      "completed_cycles_after": 1,
+      "new_planned_cycles": 1
+    }
+  ],
+  "scientific_experiments_executed": 0,
+  "boundary": "same-agent deterministic workflow replay; no blind ability benchmark or new scientific result"
+}

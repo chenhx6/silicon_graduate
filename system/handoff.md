@@ -1,7 +1,13 @@
 ---
 graph-excluded: true
-updated: 2026-11-25
+updated: 2026-11-27
 ---
+
+## 2026-11-27 科研能力吸收
+
+已按用户“全部学习进来”的授权完成共享脑暴科研分流、Wiki研究入口、研究卡、失败约束、固定评测与确认边界、可恢复循环记录检查。接入现有L3/L4/reflect/问答/续跑；不新建自治等级或外部运行器。24项相关测试、三类流程回放及三次恢复通过，归档0失败，同原件全库lint无新增error；属于流程验收，未做盲评科研增益实验。
+
+canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录](../outputs/plans/20261127-research-capability-adoption/acceptance.md)。稳定指针为 `research/capability-loop-brainstorm-20261127` + `feat: integrate evidence-driven research cycles and scientific brainstorming`，实际Git结果和当前目录同步见该目录 `delivery.local.json`。共享技能由skills-sync实际同步。原 `/workspace/wiki` 馆藏修改受保护，未混入本轮提交；下方馆藏交接继续有效。
 
 ## 当前交接
 

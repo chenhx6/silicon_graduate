@@ -306,6 +306,10 @@ expand externally as the question requires.
   table only when it improves comparison; never force empty sections or a
   suggested follow-up query.
 
+## Explicit research requests
+
+When the user asks to explore research directions, compare hypotheses, design a discriminating check, or continue an authorized investigation, use `.agents/skills/wiki-research/SKILL.md` with the existing autonomous-research workflow. It connects research cards, source lineage, novelty boundaries, failure constraints and recovery. Ordinary questions retain the read-only boundary below.
+
 ## Read-only boundary
 
 When the user starts an L3/L4 research task, this skill supplies evidence retrieval and provenance discipline but does not force the task back into ordinary read-only Q&A. Route persistence, autonomous hypothesis work and data-analysis state to `system/workflows/autonomous-research.md`, then use ingest/reflect/project rules for writes. Keep ordinary invocations read-only.

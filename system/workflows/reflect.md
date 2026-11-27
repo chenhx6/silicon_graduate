@@ -135,3 +135,7 @@ Project、synthesis、cross-project synthesis 或 framework 任务正常结束�
 若某一轮人工审核已明确结束，则按规则追加 `system/review-history.md`；`system/log.md` 只写短事件，不保存长复盘。
 
 若综合任务执行余量不足、检查失败需要用户决策、project/synthesis 修改未完成，或无法可靠完成，应进入 safe suspend：停止新增科学 claim，记录已完成步骤、已修改文件、未完成项、未核查 locator / claim gaps、P0/P1 风险和 continuation prompt；必要时创建本地 WIP checkpoint，但不 push。
+
+## 课题探索与失败约束
+
+用户明确要求提出、比较或检验课题时接入 [wiki-research](../../.agents/skills/wiki-research/SKILL.md)，遵守 [每轮研究决策](autonomous-research.md#l3l4-每轮研究决策与恢复)。跨来源综合需保留共同实验谱系、竞争解释和灵敏度边界；失败或空结果应转化为 canonical 知识页的适用条件及下一项区分检验。一般综合无需新增状态库或每次填写结构化记录。

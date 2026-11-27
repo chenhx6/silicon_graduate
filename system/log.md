@@ -7453,3 +7453,10 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - 本批核定 10 份和 305 个主件 PDF 页，登记三条同文版本和一条致谢勘误。第二卷另核 PDF 421–432（印 399–410），续读 PDF 433（印 411）。正式队列待处理 458 条。
 
 - 本批核定 13 份和 351 个主件 PDF 页，另核对 22 条关联材料。第二卷另核 PDF 433–444（印 411–422），续读 PDF 445（印 423）。正式队列待处理 423 条。
+
+## 2026-11-27 — 吸收科研循环与脑暴补缺
+
+- 全部适用建议按本地规则重写，增加wiki-research、研究卡和只读记录检查；共享brainstorm科研分流已由skills-sync发布，现有L3/L4、reflect、问答和续跑完成接入。
+- 7个固定外部来源/41样本身份复核；不执行上游样本，不采用无限循环、跳权限、整体暂存或模型评分准入。
+- 24项相关测试、三类知识记录回放及三次恢复通过；路径/归档/自动化预检通过，归档0失败，同原件全库lint基线与候选均129个既有error，本轮无新增。未实测博士能力或科学发现增益。
+- 隔离分支保护馆藏任务dirty；canonical方法为 [[evidence-driven-research-cycle]]，实际验收与Git交付见 `outputs/plans/20261127-research-capability-adoption/`。

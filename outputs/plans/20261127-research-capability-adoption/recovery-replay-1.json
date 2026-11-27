@@ -1,0 +1,64 @@
+{
+  "schema": "wiki-research-cycle-v1",
+  "question": "核结构候选模式的排序能否在响应条件固定后保持？",
+  "hypotheses": [
+    {
+      "id": "H-mode",
+      "claim": "wobbling候选须与signature-partner/TiP及组态混合比较",
+      "alternative": "取向、门线或响应假设可能产生表观分支偏好",
+      "prediction": "冻结响应后，比较未用于选择的观测块是否仍区分候选",
+      "falsifier": "只在特定响应假设下出现的排序不能支持无条件模式判断",
+      "minimum_check": "先核对一条连接线的身份、门选择和偏振标定可得性",
+      "null_value": "缺少输入也能界定readiness及最小数据请求",
+      "novelty": {
+        "status": "not-checked",
+        "limits": "本轮只回放已有知识页；未新增课题查新或核物理文献检索"
+      }
+    }
+  ],
+  "cycles": [
+    {
+      "id": "C-replay-1",
+      "hypothesis_id": "H-mode",
+      "selection_reason": "核查机制是否能在已有材料中形成有边界的下一步",
+      "action": {
+        "state": "executed",
+        "description": "回读已存在的知识页指定段落，检查工作流的证据与停止边界",
+        "artifact": "knowledge/projects/a130-single-point-paper-133ce-response-aware-identifiability.md#Minimum observable bundle; Falsifiers and stop rules"
+      },
+      "evidence": [
+        {
+          "source_id": "a130-single-point-paper-133ce-response-aware-identifiability",
+          "locator": "Minimum observable bundle; Falsifiers and stop rules",
+          "lineage": "project-133ce-current-inputs",
+          "kind": "task-inference"
+        }
+      ],
+      "outcome": "limits",
+      "verification": {
+        "basis": "direct-source",
+        "scope": "仅直接回读本地知识记录；不是原始实验或计算复验"
+      },
+      "independent_lineages_claimed": 0,
+      "belief_revision": "现有project保留四类候选及条件性停止；本轮只回读决策合同，未裁决任何模式",
+      "next_action": "先核对一条连接线的身份、门选择和偏振标定可得性"
+    },
+    {
+      "id": "C-resume-next-1",
+      "hypothesis_id": "H-mode",
+      "selection_reason": "恢复后先核对输入身份，再选择最小行动",
+      "action": {
+        "state": "planned",
+        "description": "先核对一条连接线的身份、门选择和偏振标定可得性"
+      },
+      "evidence": [],
+      "outcome": "not-executed",
+      "verification": {
+        "basis": "not-performed",
+        "scope": "下一步尚未执行"
+      },
+      "belief_revision": "恢复不增加证据，不重报旧实验或计算",
+      "next_action": "取得所需输入和区分检验后再执行"
+    }
+  ]
+}

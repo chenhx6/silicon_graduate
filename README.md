@@ -12,6 +12,8 @@ Wiki 可在不同操作系统和 AI 工具环境中使用。Docker、Obsidian、
 
 A≈130 是当前研究锚点，不是 Wiki 的收录边界。v2 的设计决策与 `131Ce` pilot 见 [Continuous Research-Learning v2 architecture record](system/architecture-updates/2026-07-l3-autonomy-l4-foundation.md)；完整 L0–L4 状态机只在 [autonomous-research workflow](system/workflows/autonomous-research.md) 维护。Wiki 仍不是最终权威，也不保证文献完整覆盖；论文级结论由 Agent 自主核验，须回到 `knowledge/sources/`、`raw/` 原文、精确 locator 和Agent 直接证据核验，并遵循 [system/paper-evidence-gate.md](system/paper-evidence-gate.md)。
 
+显式课题探索可使用 `$brainstorm $wiki-research <问题>`：把想法展开为竞争假设、查新边界、最小区分检验和失败约束，接入现有自主研究流程。方法见 [证据驱动研究循环](knowledge/methods/evidence-driven-research-cycle.md)，验收见 [采用回执](outputs/plans/20261127-research-capability-adoption/acceptance.md)。
+
 ## 研究范围与“一核两翼”专家架构
 
 知识库聚焦于低能原子核结构与在束 $\gamma$ 谱学，确立**“一核两翼、有所专长”**的专家体系：

@@ -51,6 +51,7 @@ A≈130 是重要研究锚点，不是收录边界。是否建立核素、实验
 - 论文或笔记摄入：`system/workflows/ingest.md`
 - 查询与回答：`system/workflows/query.md`
 - 跨来源综合：`system/workflows/reflect.md`
+- 科研选题、竞争假设与可恢复研究：`.agents/skills/wiki-research/SKILL.md`，接入既有自治研究流程；方法页 `knowledge/methods/evidence-driven-research-cycle.md`
 - L0–L4 与人工关口：`system/workflows/autonomous-research.md`
 - 已完成学习计划追溯（按需）：`system/archives/30-day-learning-20261115.md`
 - 定时续跑：`system/workflows/scheduled-continuation.md`

@@ -1,0 +1,64 @@
+{
+  "schema": "wiki-research-cycle-v1",
+  "question": "下一项课题应优先补模型数量还是辨识信息？",
+  "hypotheses": [
+    {
+      "id": "H-topic",
+      "claim": "优先识别能改变竞争解释排序的伴随观测缺口",
+      "alternative": "新增模型也可能有价值，但须先定义与现有路线不同的可检验预测",
+      "prediction": "先记录最接近工作和输入边界，再比较一个最小观测条件的决策价值",
+      "falsifier": "若所有候选在可得观测中等价，暂不提出模式确认结论",
+      "minimum_check": "列最接近工作检索词及可得响应/寿命/分支字段；尚待执行外部查新",
+      "null_value": "空结果可限定不可识别区域与最小实验设计",
+      "novelty": {
+        "status": "not-checked",
+        "limits": "本轮只回放已有知识页；未新增课题查新或核物理文献检索"
+      }
+    }
+  ],
+  "cycles": [
+    {
+      "id": "C-replay-3",
+      "hypothesis_id": "H-topic",
+      "selection_reason": "核查机制是否能在已有材料中形成有边界的下一步",
+      "action": {
+        "state": "executed",
+        "description": "回读已存在的知识页指定段落，检查工作流的证据与停止边界",
+        "artifact": "knowledge/projects/a130-single-point-paper-133ce-response-aware-identifiability.md#Research Question; Current Hypotheses; Minimum observable bundle"
+      },
+      "evidence": [
+        {
+          "source_id": "a130-single-point-paper-133ce-response-aware-identifiability",
+          "locator": "Research Question; Current Hypotheses; Minimum observable bundle",
+          "lineage": "project-133ce-current-inputs",
+          "kind": "task-inference"
+        }
+      ],
+      "outcome": "limits",
+      "verification": {
+        "basis": "direct-source",
+        "scope": "仅直接回读本地知识记录；不是原始实验或计算复验"
+      },
+      "independent_lineages_claimed": 0,
+      "belief_revision": "作为选题方法回放；未进行本课题新颖性检索，不使用首创措辞",
+      "next_action": "列最接近工作检索词及可得响应/寿命/分支字段；尚待执行外部查新"
+    },
+    {
+      "id": "C-resume-next-3",
+      "hypothesis_id": "H-topic",
+      "selection_reason": "恢复后先核对输入身份，再选择最小行动",
+      "action": {
+        "state": "planned",
+        "description": "列最接近工作检索词及可得响应/寿命/分支字段；尚待执行外部查新"
+      },
+      "evidence": [],
+      "outcome": "not-executed",
+      "verification": {
+        "basis": "not-performed",
+        "scope": "下一步尚未执行"
+      },
+      "belief_revision": "恢复不增加证据，不重报旧实验或计算",
+      "next_action": "取得所需输入和区分检验后再执行"
+    }
+  ]
+}

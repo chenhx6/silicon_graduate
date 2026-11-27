@@ -356,3 +356,9 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] 没有虚构 citation、DOI、页码、图表编号、locator、原文或数据。
 - [ ] 论文或投稿核查、正式引用、直接来源或原文引文、精确 locator、关键科学 claim 确认时已进入 strict mode，并回到直接来源、locator 和适用条件；普通争议讨论未被自动升级。
 - [ ] 修改 lint 实现时，单元与仓库集成测试已通过。
+
+## 科研循环与 linked worktree 验收
+
+显式探索按 `.agents/skills/wiki-research/SKILL.md` 接入现有 L3/L4；治理变化同步用户指南。检查竞争解释、来源谱系、最接近工作与查新边界、反驳条件/灵敏度、空结果价值、失败分支复活条件及恢复点。固定评测和基线；参与选择的材料不再称未见确认，同源恢复不称独立验证。审核历史不参与准入。
+
+使用可选记录时执行 `python3 system/scripts/wiki_research_cycle.py --root . <path>`，记录通过只说明结构自洽。相关回归执行 `python3 -m unittest system.tests.test_research_cycle system.tests.test_agent_ops`。linked worktree 的 `.git` 可为文件，自动化预检须核对 Git 解析出的 admin/common 目录；不把它误判成缺权限。全库 lint 应与任务前基线比较，本轮不得引入 error，既有问题如实保留。

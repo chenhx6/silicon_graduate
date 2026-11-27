@@ -12,6 +12,7 @@ import hashlib
 import json
 import os
 import re
+import subprocess
 import sys
 import tempfile
 import uuid
@@ -55,6 +56,25 @@ def probe(directory: Path, token: str) -> dict[str, object]:
             target.unlink(missing_ok=True)
         except Exception:
             pass
+
+
+def git_directories(root: Path) -> list[Path]:
+    """Resolve native Git metadata for ordinary checkouts and linked worktrees."""
+    directories: list[Path] = []
+    for option in ("--absolute-git-dir", "--git-common-dir"):
+        value = subprocess.run(
+            ["git", "-C", str(root), "rev-parse", option],
+            check=True, capture_output=True, text=True,
+        ).stdout.strip()
+        directory = Path(value)
+        if not directory.is_absolute():
+            directory = root / directory
+        directory = directory.resolve()
+        if not directory.is_dir():
+            raise ValueError(f"Git metadata directory is absent: {directory}")
+        if directory not in directories:
+            directories.append(directory)
+    return directories
 
 
 def main() -> int:
@@ -115,7 +135,7 @@ def main() -> int:
         if args.protected_bib_hash:
             result["warnings"].append("--protected-bib-hash is deprecated and ignored")
         token = f"wiki-preflight-{uuid.uuid4().hex}"
-        result["write_probes"] = [probe(root, token), probe(root / ".git", token)]
+        result["write_probes"] = [probe(directory, token) for directory in [root, *git_directories(root)]]
         if not all(item["created"] and item["read_back"] and item["deleted"]
                    for item in result["write_probes"]):
             raise PermissionError("repository write probe failed")

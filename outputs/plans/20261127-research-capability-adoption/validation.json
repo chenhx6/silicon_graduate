@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-27",
+  "tests": {
+    "command": "python3 -m unittest system.tests.test_research_cycle system.tests.test_agent_ops -v",
+    "passed": 24,
+    "log_sha256": "8ae32547034d8cec15a2db87e89eb1f7cb213bbeac6f651815a5c3d9f8d1fe29"
+  },
+  "record_check": {
+    "ok": true,
+    "records": 7,
+    "files": 5
+  },
+  "skill_validation": [
+    "wiki-research",
+    "shared brainstorm",
+    "codex brainstorm"
+  ],
+  "source_samples_verified": 41,
+  "path_boundary_ok": true,
+  "archive_failure_count": 0,
+  "git_write_probes": [
+    {
+      "path": "/root/.codex/worktrees/d052/wiki",
+      "created": true,
+      "read_back": true,
+      "deleted": true,
+      "error": null
+    },
+    {
+      "path": "/workspace/wiki/.git/worktrees/wiki",
+      "created": true,
+      "read_back": true,
+      "deleted": true,
+      "error": null
+    },
+    {
+      "path": "/workspace/wiki/.git",
+      "created": true,
+      "read_back": true,
+      "deleted": true,
+      "error": null
+    }
+  ],
+  "qmd": "unconfigured in isolated worktree; collection config check deferred",
+  "lint": {
+    "baseline": {
+      "error": 129,
+      "warning": 1146,
+      "info": 5528
+    },
+    "candidate": {
+      "error": 129,
+      "warning": 1146,
+      "info": 5528
+    },
+    "new_errors": 0
+  },
+  "file_sha256": {
+    "system/scripts/wiki_research_cycle.py": "2bebb86fb985d1f952d1e4ca74f2da3ecb01430f11cb672d6bd701493239aaa7",
+    "system/scripts/wiki_automation_preflight.py": "cded47501d40d59ed55cb7dac32818cdcdb285f59ddff54178afd66cb066ec25",
+    "system/tests/test_research_cycle.py": "03ffa12287a3f5d58432c078ccf4a644dcc2b864da54279d3628a8d292837aa8",
+    ".agents/skills/wiki-research/SKILL.md": "5accc185b18205e07c5e58af7c12fd3ffaf5dcfce433cc3a36405dcd3b456f30",
+    "/root/.agents/skills/brainstorm/SKILL.md": "b3ae416189756f7f90957ac2ffc41e316ea8cf4e831f512fc332c0a3840e1417",
+    "/root/.agents/skills/brainstorm/references/research-exploration.md": "946dff3ca174c9155d386345334608e2ec9fdae9897a7f06daf451d6d11c4634"
+  },
+  "shared_skill_publication": {
+    "branch": "main",
+    "subject": "auto: update shared skills 2026-11-27T02:59:42Z",
+    "remote_ref_verified": true
+  },
+  "scientific_capability": "not benchmarked; record/recovery checks and same-agent workflow replay only"
+}

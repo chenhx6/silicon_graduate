@@ -1736,6 +1736,10 @@ u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶
  - [[polarization-sensitivity]] - detector/geometry response `Q`, modulation factor `Q'`, and `epsilon Q^2` efficiency trade-off.
  - [[detection-efficiency]] - selected Compton-event efficiency and figure-of-merit boundary.
 
+## 科研探索与可恢复研究
+
+- [[evidence-driven-research-cycle]]：竞争假设、最小检验、查新边界、失败约束、确认范围和中断恢复；接入既有 L3/L4。
+
 ## Methods
 
 - [[icc-mixing-probability-domain]] - ICC实际参数的物理域/Jacobian、sharedCov、convolutionrecipe与pure端点尾部；mean相合不认证interval。
