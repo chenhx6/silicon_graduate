@@ -3,7 +3,7 @@ type: source
 title: 'Hennig等 2007: Pixie-16数字数据获取模块多机箱时钟与触发背板同步技术（NIM B）'
 aliases: [Hennig 2007 Pixie-16 sync, 'arXiv:nucl-ex/0701016', NIM B 261 1000]
 created: 2026-11-08
-updated: 2026-11-08
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -72,3 +72,7 @@ G32研学；总控独立核PDF1、3–4的设置、Fig3/4/5讨论和结论，未
 
 P0：错误DOI/作者列表及实际页数已从原件与注册题录更正。
 P1：vN及期刊最终版未独立比较；未复现硬件或全范围扩展测试。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 3–4 §3 与 PDF 7 Fig. 4 的测试为两机箱，T1 至 T2/T3 分别约 18 ns，两个输出相对偏斜约 1 ns。Fig. 5 的横轴为 μs，T2/T3 的脉冲经主机箱逻辑 AND 得 READY，PDF 4 的约 18 ns 是路径延迟。SeGA 四机箱、39 模块属于设计规模。

@@ -3,7 +3,7 @@ type: source
 title: "Washiyama 等 2024：110Pd 的 FAM-LQRPA 五维集体惯量"
 aliases: [Washiyama 2024 improved inertial functions, 110Pd FAM LQRPA]
 created: 2026-11-08
-updated: 2026-11-08
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: journal-article-theory
@@ -107,3 +107,7 @@ P2/P3：citation key 留空；取得源码并不等于复现生产计算。
 - 具体案例、真实表与边界：[[doctoral-r2-inertia-evidence-and-band-reconstruction-20261108]]。
 - 当前不另建能带或实验页；本来源中的实核数值与模型条件按上文保留，
   不将理论参数登记成新的测量。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2 Eq. (2) 用振动质量 Dβγ、Dγγ，PDF 3 Fig. 2(b,c) 绘的是 Dβγ/β、Dγγ/β²。PDF 5 Fig. 4 比较 ¹¹⁰Pd 指定低位正宇称态、B(E2) 并列 cranking、LQRPA 与实验，Fig. 5 给波函数形状分布。振动质量使用 LQRPA 或扰动 cranking 会改变低位能谱及形状权重。

@@ -1,0 +1,514 @@
+{
+  "batch": "20261127-volume-ii-and-archived-spectroscopy-p",
+  "created_at": "2026-11-27T06:41:42.984048+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "bytes:cdddc432fa38809a9c6f6084ca1bc4c8add0d7ffd5c6c2e4f090575a4e437633",
+      "source": "knowledge/sources/misch-2021-astromers-effective-rates.md",
+      "identity": "G. Wendell Misch et al., *Astromers: Nuclear Isomers in Astrophysics*. 本地接受稿 arXiv:2010.15238v2，2020-11-02 侧栏，稿内 2020-11-03；报告号 LA-UR-20-22828。",
+      "coverage": [
+        "本轮通读 PDF 1–23 的正文 §§1–6、附录 A、原图表题及引文，重点回查端点传播和路径枚举。"
+      ],
+      "boundary": [
+        "保持作者稿表文差别；未独立核全部底层核数据、图点和刊版排印。"
+      ],
+      "disposition": "covered",
+      "worker": "terminal Codex with manager key original-page verification",
+      "source_pdf": "raw/papers/gpt/query/20261108-foundations-G33/misch-2021-astromers-astrophysics.pdf",
+      "sha256": "cdddc432fa38809a9c6f6084ca1bc4c8add0d7ffd5c6c2e4f090575a4e437633",
+      "physical_pages": 23
+    },
+    {
+      "id": "bytes:e077cdcfd462610a80467024aac3446a562e2e4eaffbc813578a0b9bb86e0449",
+      "source": "knowledge/sources/doctoral-r1-g32-hennig-2007-pixie16-multi-chassis-sync.md",
+      "identity": "W. Hennig et al., *Clock and Trigger Synchronization between Several Chassis of Digital Data Acquisition Modules*. 7 页 arXiv:nucl-ex/0701016；NIM B 261, 1000–1004 的出版关联沿用原来源页。",
+      "coverage": [
+        "本轮核 PDF 1–4 正文、5–7 钟信号与触发图题，回查 PDF 7 Figs. 4–5。"
+      ],
+      "boundary": [
+        "正文与相邻图存在重复 Fig. 3 编号，引用时加物理页与内容；整机部署未由两箱试验独立确认。"
+      ],
+      "disposition": "covered",
+      "worker": "terminal Codex with manager key original-page verification",
+      "source_pdf": "raw/papers/gpt/query/20261108-foundations-G32/hennig-2007-pixie16-clock-trigger-sync.pdf",
+      "sha256": "e077cdcfd462610a80467024aac3446a562e2e4eaffbc813578a0b9bb86e0449",
+      "physical_pages": 7
+    },
+    {
+      "id": "bytes:ee1165a0508ddbab27d648f5a02e47e4ecc6c97ebe0f6ea53efb818b93c932fa",
+      "source": "knowledge/sources/doctoral-r1-g33-gosselin-2010-plasma-isomers-176lu-180ta.md",
+      "identity": "Gosselin、Morel、Mohr，PRC 81, 055808 (2010)，本地 arXiv:1005.2151v1。",
+      "coverage": [
+        "本轮通读 PDF 1–10 §§I–V、式、图注与引文，重点回查 PDF 4 Fig. 2 与同页正文。"
+      ],
+      "boundary": [
+        "图示 ¹⁸⁰Ta 594 keV 中间态为候选；各增强率随具体跃迁方向及环境条件。"
+      ],
+      "disposition": "covered",
+      "worker": "terminal Codex with manager key original-page verification",
+      "source_pdf": "raw/papers/gpt/query/20261108-foundations-G33/gosselin-2010-176lu-180ta-plasma-transitions.pdf",
+      "sha256": "ee1165a0508ddbab27d648f5a02e47e4ecc6c97ebe0f6ea53efb818b93c932fa",
+      "physical_pages": 10
+    },
+    {
+      "id": "bytes:effef84db32ee4729b4400598af831895ad42fbb460eb431159fe53d0a182dc7",
+      "source": "knowledge/sources/washiyama-2024-five-dimensional-improved-inertia.md",
+      "identity": "Washiyama、Hinohara、Nakatsukasa，PRC 109, L051301。本地 arXiv:2403.00214v1。",
+      "coverage": [
+        "本轮通读 PDF 1–5 的正文、图表题及 5–7 引文，重点回查 PDF 5 Figs. 4–5。"
+      ],
+      "boundary": [
+        "理论对一个 ¹¹⁰Pd 算例的结论，未复跑求解器、核外部数据原件或对照刊版。"
+      ],
+      "disposition": "covered",
+      "worker": "terminal Codex with manager key original-page verification",
+      "source_pdf": "raw/papers/gpt/query/20261108-r2-g43-new-collective-response/washiyama2024-5dch-lqrpa.pdf",
+      "sha256": "effef84db32ee4729b4400598af831895ad42fbb460eb431159fe53d0a182dc7",
+      "physical_pages": 7
+    },
+    {
+      "id": "bytes:f11beb0975ed129c8bbd2addcf1485fb25fa248ec375cb804001a17a96e2e25e",
+      "source": "knowledge/sources/gysbers-2019-ab-initio-beta-decay-quenching.md",
+      "identity": "Gysbers et al., Nature Physics 15, 428–431。实际本地预印本 arXiv:1903.00047v1（2019-02-28）。",
+      "coverage": [
+        "本轮正文 PDF 1–4，Methods 6–9，补充 11–20 及两个引文段、原表标题，抽查 PDF 12 Table I。"
+      ],
+      "boundary": [
+        "此结论沿本地 v1 及随稿 SI，未逐项复算，也未保证和刊版全部图表一致。"
+      ],
+      "disposition": "covered",
+      "worker": "terminal Codex with manager key original-page verification",
+      "source_pdf": "raw/papers/gpt/query/20261113-A130-axial-currents/gysbers-2019-arxiv1903.00047v1.pdf",
+      "sha256": "f11beb0975ed129c8bbd2addcf1485fb25fa248ec375cb804001a17a96e2e25e",
+      "physical_pages": 20
+    },
+    {
+      "id": "bytes:fedcecbf8bdc7981ee4c3073ed2cc6aba384f34bc414edba4185053e0eb3c0bf",
+      "source": "knowledge/sources/hinohara-2015-ng-inertia-linear-response.md",
+      "identity": "Nobuo Hinohara，*Collective inertia of Nambu–Goldstone mode from linear response theory*. 本地 arXiv:1507.00045v1，2015-06-30 侧栏。",
+      "coverage": [
+        "本轮通读 PDF 1–14 §§I–VIII、式、原图表题和引文，重点检查 PDF 9 Table I 与 PDF 11 的交叉响应。"
+      ],
+      "boundary": [
+        "局域质量曲率与远离形状参考点的抛物线偏差应分开；未复算 QRPA 或匹配期刊排印。"
+      ],
+      "disposition": "covered",
+      "worker": "terminal Codex with manager key original-page verification",
+      "source_pdf": "raw/papers/gpt/query/20261108-r2-g39-fam-ng/hinohara-2015-collective-inertia-ng-fam.pdf",
+      "sha256": "fedcecbf8bdc7981ee4c3073ed2cc6aba384f34bc414edba4185053e0eb3c0bf",
+      "physical_pages": 14
+    },
+    {
+      "id": "bytes:beb628094d2c0f3ce452321e6c052a27d53295be23f142fa264f3a73b4bbd443",
+      "source": "knowledge/sources/stuchbery-2000-yb171-coriolis-rotational-g-factors.md",
+      "identity": "Complete publisher-paginated PDF. Title page and bibliography span print 27–42; DOI confirmed by matching publisher XML and PII.",
+      "coverage": [
+        "PDF 1–15, §§1–5. Coulomb excitation, alignment and branching, transient-field calibration, g factors and Coriolis comparison. Checked key rows in Tables 1–9 and Figs. 1–6.",
+        "PDF 15–16, key references."
+      ],
+      "boundary": [
+        "The 323 keV δ≈0.49 is only stated to be consistent with the data and the rotor result; it lacks a new precision estimate.",
+        "Precession count asymmetries are unrelated to a measured photon degree of linear polarization. The fitted effective g_R is a model comparator."
+      ],
+      "disposition": "covered",
+      "worker": "Dirac",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_S0375-9474_99_00739-3.pdf",
+      "sha256": "beb628094d2c0f3ce452321e6c052a27d53295be23f142fa264f3a73b4bbd443",
+      "physical_pages": 16
+    },
+    {
+      "id": "bytes:c25d6a26ac78c52a7489623baae1c61e5456a777cbc4f20f5bf6c5a7ef410a8a",
+      "source": "knowledge/sources/dhal-2012-pm137-shape-evolution.md",
+      "identity": "Complete publisher article, PDF 1 DOI/title to p. 10 marked Page 10 of 10 with final references.",
+      "coverage": [
+        "PDF 1–10, §§1–5 and Figs. 1–11, representative rows of Table 1, conclusion and cited dependencies."
+      ],
+      "boundary": [
+        "Table 1 and Fig. 3 show detector asymmetry ΔIPDCO. The paper gives a conversion P=Δ/Q and takes Q from a similar Clover setup, but provides no transition-level signed δ and calibrated P pair.",
+        "The proposed E1/M2 links have low precision and rely on the decay assignments. The γ values are model minima, not direct shape measurements."
+      ],
+      "disposition": "covered",
+      "worker": "Dirac",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1140_epja_i2012-12028-3.pdf",
+      "sha256": "c25d6a26ac78c52a7489623baae1c61e5456a777cbc4f20f5bf6c5a7ef410a8a",
+      "physical_pages": 10
+    },
+    {
+      "id": "bytes:c432a8fb741bcb7565478717824c53053b5063a201a8c3f4fbc7dddf48d8b9cb",
+      "source": "knowledge/sources/droste-2006-euroball-cluster-polarimetry.md",
+      "identity": "Complete paginated publisher article with an internal ARTICLE IN PRESS banner. Print 182–186; 2005 online appearance and 2006 issue.",
+      "coverage": [
+        "PDF 1–5, §§1–3, Figs. 1–5, Tables 1–2, Eqs. (1)–(4), conclusion and references."
+      ],
+      "boundary": [
+        "Separate CLOVER-derived photon P, calculated P for CLUSTER and instrument Q′. Table 2 precision omits Q and Q′ errors.",
+        "There is no independently fitted signed δ."
+      ],
+      "disposition": "covered",
+      "worker": "Dirac",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_j.nima.2005.10.006.pdf",
+      "sha256": "c432a8fb741bcb7565478717824c53053b5063a201a8c3f4fbc7dddf48d8b9cb",
+      "physical_pages": 5
+    },
+    {
+      "id": "bytes:e436abf64f568465d0938010b82eb4b3371949673fcfa49f956cff522c844f17",
+      "source": "knowledge/sources/rolfs-1973-f18-low-spin-capture-states.md",
+      "identity": "Complete publisher scan, print 274–288. Same-work publisher XML confirms DOI and PII.",
+      "coverage": [
+        "PDF 1–14, §§1–4, Figs. 1–6 and representative Tables 1–5. PDF 14–15, bibliography and prior polarization cross-check."
+      ],
+      "boundary": [
+        "The theoretical 100% at 90° belongs to the gated 0–1–0 geometry, not an independently fitted datum. Fig. 4 plots a count ratio and response curves.",
+        "The 4361-keV positive-parity interpretation depends on transition strengths. The angular fit for the 6138-keV level alone does not settle all trial spins."
+      ],
+      "disposition": "covered",
+      "worker": "Dirac",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_73_90550-2.pdf",
+      "sha256": "e436abf64f568465d0938010b82eb4b3371949673fcfa49f956cff522c844f17",
+      "physical_pages": 15
+    },
+    {
+      "id": "bytes:ee57da535f50c3603c3fc4704a036d18c53aa839e43f1ab2cab79b931708d6cf",
+      "source": "knowledge/sources/funke-1992-y89-neutron-core-excitations.md",
+      "identity": "Complete publisher scan, print 241–265, matching publisher XML. Tables 1–2 checked visually where scan layout affects extraction.",
+      "coverage": [
+        "PDF 1–17, methods and key results including rotated Table 1, representative Table 2–3 items and Figs. 1–6.",
+        "PDF 17–24, targeted proton-space and neutron-excitation comparison, representative Tables 4–6 and conclusion. PDF 24–25, reference relationships."
+      ],
+      "boundary": [
+        "The complete original is present. Reading is targeted to empirical methods, representative values, and conclusions, so no full-paper credit is proposed yet.",
+        "P_exp and P_ad are distinct. P_ad uses angular and δ inputs under no parity change. Table 2 lifetime errors omit stopping-power uncertainty. Some high-spin M1 assignments use decay and strength arguments."
+      ],
+      "disposition": "partial",
+      "worker": "Dirac",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_92_90096-3.pdf",
+      "sha256": "ee57da535f50c3603c3fc4704a036d18c53aa839e43f1ab2cab79b931708d6cf",
+      "physical_pages": 25
+    },
+    {
+      "id": "bytes:ef99f3a7a8f2ca93827f68a31de2067330e908f1275cd59e00b0f16c20263f15",
+      "source": "knowledge/sources/king-1977-polarized-beam-mg-mixing-ratios.md",
+      "identity": "Complete APS short article, print 829–830. Local user-download manifest and U007 match the DOI and title.",
+      "coverage": [
+        "PDF 1–2, title through references, method equation, Figs. 1–2, results and applicability."
+      ],
+      "boundary": [
+        "The ²⁴Mg inverse ratio spans zero, so retain the fitted inverse. Entrance-channel coherence and a significantly nonzero yield asymmetry are required for practical sensitivity.",
+        "The survey metadata record has zero separate work credit."
+      ],
+      "disposition": "covered",
+      "worker": "Dirac",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/PhysRevC.15.829.pdf",
+      "sha256": "ef99f3a7a8f2ca93827f68a31de2067330e908f1275cd59e00b0f16c20263f15",
+      "physical_pages": 2
+    },
+    {
+      "id": "bytes:f0b593e120af45822976d428ab2cead22b4a7a1b5df16412b9134e54051831f2",
+      "source": "knowledge/sources/gelletly-1985-er168-gamma-ground-mixing.md",
+      "identity": "AIP PDF with one download-wrapper page and the complete 3-page publisher proceedings contribution at PDF 2–4.",
+      "coverage": [
+        "PDF 1 download cover identified.",
+        "PDF 2–4 (420–422), complete contribution, Figs. 1–2, Table 1 visually checked, and references."
+      ],
+      "boundary": [
+        "Table 1 calls these preliminary reduced-Δ results, not radiative δ values. L-subshell ratios do not determine the mixing phase. Photon P is absent.",
+        "The download cover receives zero scientific page credit. No standalone new work is assigned to the metadata record."
+      ],
+      "disposition": "covered",
+      "worker": "Dirac",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/420_1_online.pdf",
+      "sha256": "f0b593e120af45822976d428ab2cead22b4a7a1b5df16412b9134e54051831f2",
+      "physical_pages": 4
+    },
+    {
+      "id": "bytes:fb88fcd76b5f20c13f629be33711951e05b3864777bde7730eabb5a7899c8d59",
+      "source": "knowledge/sources/melon-2014-agata-compton-polarimetry.md",
+      "identity": "Complete EDP Sciences INPC 2013 proceedings article, volume published in 2014, PDF 1–4.",
+      "coverage": [
+        "PDF 1–4, entire contribution, Figs. 1–3, Eqs. (1)–(2), summary and references."
+      ],
+      "boundary": [
+        "The predicted P from GOSIA and measured azimuthal asymmetry yield analyzing power. Fig. 3 gives 555.8 keV for ¹⁰⁴Pd; p. 1 says 558 keV.",
+        "The ²²Na analysis was still in progress."
+      ],
+      "disposition": "covered",
+      "worker": "Dirac",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1051_epjconf_20146611004.pdf",
+      "sha256": "fb88fcd76b5f20c13f629be33711951e05b3864777bde7730eabb5a7899c8d59",
+      "physical_pages": 4
+    },
+    {
+      "id": "bytes:fba1bf948a1b22928ceafebee13b535481e37120ef8910c61dafef902ae8ea52",
+      "source": "knowledge/sources/eichler-1969-capture-circular-polarization.md",
+      "identity": "Complete publisher article, print 114–123, German text and English abstract, last page includes Table 4 and end matter.",
+      "coverage": [
+        "PDF 1–10, §§1–4, Eqs. (1)–(4), Figs. 1–6, Tables 1–4, final discussion and references in footnotes."
+      ],
+      "boundary": [
+        "Abstract and German body disagree on the ²⁸Al δ central estimate and notation. Preserve each original locator.",
+        "Table 1 and Fig. 1 use 7.73 MeV; p. 4 calls the branch 7.5 MeV. The Al and Sm runs required a separate beam/polarimeter calibration."
+      ],
+      "disposition": "covered",
+      "worker": "Dirac",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1007_BF01392952.pdf",
+      "sha256": "fba1bf948a1b22928ceafebee13b535481e37120ef8910c61dafef902ae8ea52",
+      "physical_pages": 10
+    },
+    {
+      "id": "bytes:fd48570ace13e348f52d7ba0704001a0f1d1bf51412e1bd54c110ee62b73d6e3",
+      "source": "knowledge/sources/ertoprak-2020-pt172-octupole-collectivity.md",
+      "identity": "Complete publisher article, article 65, Page 9 of 9 ends at Ref. 50.",
+      "coverage": [
+        "PDF 1–9, §§1–5, Table 1 and Figs. 1–7, data-reuse and final references."
+      ],
+      "boundary": [
+        "Fig. 4 publishes scatter asymmetry A and angular ratio R_A, with multipolarity labels. No numerical photon P plus δ pair.",
+        "B(E3)≈48(13) W.u. is an estimate based on neighboring-nucleus E1 strengths. A direct 3⁻ lifetime is absent. Octupole collectivity does not establish a static deformation."
+      ],
+      "disposition": "covered",
+      "worker": "Dirac",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1140_epja_s10050-020-00071-6.pdf",
+      "sha256": "fd48570ace13e348f52d7ba0704001a0f1d1bf51412e1bd54c110ee62b73d6e3",
+      "physical_pages": 9
+    },
+    {
+      "id": "bytes:ff79c11b821f9d5c89c026b225938ac4a6618e6de91bb627bb83b6eb30cd9095",
+      "source": "knowledge/sources/gizon-1999-rh102-high-spin-spectroscopy.md",
+      "identity": "Complete publisher scan, print 97–128, matching publisher XML. PDF 31 is image-only with acknowledgments and Refs. [1–25].",
+      "coverage": [
+        "PDF 1–11, experiment and band assignments, representative Table 1 rows and Figs. 1–3.",
+        "PDF 11–30, targeted IBFFM/cranking comparison and conclusion, representative tables and figures. PDF 31–32, reference links, with PDF 31 visually checked."
+      ],
+      "boundary": [
+        "Full publisher original is present. Under the targeted model and table coverage, no full-paper credit is proposed yet.",
+        "P is the reported linear-polarization column under §3.1 and Ref. [6]. Qualitative M1/E2 assignments and different-branch strength ratios do not supply numeric signed δ. Some entries are multiplet-averaged or use mixed gates."
+      ],
+      "disposition": "partial",
+      "worker": "Dirac",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_S0375-9474_99_00351-6.pdf",
+      "sha256": "ff79c11b821f9d5c89c026b225938ac4a6618e6de91bb627bb83b6eb30cd9095",
+      "physical_pages": 32
+    },
+    {
+      "id": "catalogue:LIT-000263",
+      "source": "knowledge/sources/wang-shitao-2009-165er-high-spin-thesis.md",
+      "identity": "王世陶，《¹⁶⁵Er 的高自旋态研究》，中国科学院研究生院理学硕士学位论文，2009 年 4 月提交，同年 5 月答辩。馆藏学位版 58 物理页。",
+      "coverage": [
+        "PDF 7–52（印 1–46），第 1–6 章完整科学正文。"
+      ],
+      "boundary": [
+        "刊版 DOI、事件子集与实测 B(E1) 绝对尺度仍有边界；B(E1) 依赖系统学 Qₜ²。",
+        "图 5.4 门能量和式 (2.32) 原页异文见草稿。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre",
+      "source_pdf": "raw/theses/degree-dissertation/王世陶硕士.pdf",
+      "sha256": "f58b550b50978fd99722b77823a8868cf3430f4d34519b63aca20941290ace5b",
+      "physical_pages": 58
+    },
+    {
+      "id": "catalogue:LIT-000264",
+      "source": "knowledge/sources/wang-kailong-2017-37s-143eu-lifetimes-thesis.md",
+      "identity": "王凯龙，《³⁷S 和 ¹⁴³Eu 低激发态寿命的实验研究》，中国科学院大学博士学位论文，2017 年 5 月。馆藏学位版 130 物理页。",
+      "coverage": [
+        "PDF 17–116（印 1–100），第 1–7 章全部科学正文，扣除四个空白隔页。"
+      ],
+      "boundary": [
+        "两分支刊版与事件子集未核；附录 A 按角色及成果 [1]、[6] 核对。",
+        "PDF 49 的寿命预估及 PDF 103 的向下 E2 采用范围见草稿。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre",
+      "source_pdf": "raw/theses/degree-dissertation/王凯龙.pdf",
+      "sha256": "40d2f25e02a988d964506b2713fd8c1e85c5768f132f92781cb278d150b70925",
+      "physical_pages": 130
+    },
+    {
+      "id": "catalogue:LIT-000381",
+      "source": "knowledge/sources/dobaczewski-2005-ra225-schiff.md",
+      "identity": "J. Dobaczewski and J. Engel, Phys. Rev. Lett. 94, 232502 (2005)。arXiv nucl-th/0503057v2 author manuscript, stamped 2005-05-12; internal 2018 date does not identify the deposited version",
+      "coverage": [
+        "Complete author manuscript PDF 1–4, including Eqs. (6)–(7), Figs. 1–2, Tables I–II, limitations and references."
+      ],
+      "boundary": [
+        "Complete local author manuscript. Journal pagination and data for a more precise measured splitting are separate. Response coefficients are calculations with unknown couplings."
+      ],
+      "disposition": "covered",
+      "worker": "Descartes",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2005-dobaczewski-ra225-schiff.pdf",
+      "sha256": "45b726e096ff69e48932761fba570efc7fdc5a69644f6e1ab318c8cac41a5f32",
+      "physical_pages": 4
+    },
+    {
+      "id": "catalogue:LIT-000391",
+      "source": "knowledge/sources/enders-1999-scissors-mode-saturation.md",
+      "identity": "J. Enders, H. Kaiser, P. von Neumann-Cosel, C. Rangacharyulu and A. Richter, Phys. Rev. C 59, R1851–R1854 (1999)。APS published Rapid Communication",
+      "coverage": [
+        "Complete PDF 1–4. PDF 1 introduction and sum rules; 2 Figs. 1–2 and inertia/g-factor comparisons; 3 Fig. 3, Eqs. (3)–(8) and footnotes; 4 conclusions and references."
+      ],
+      "boundary": [
+        "Experimental inputs and sum-rule inferences have different status. The inferred high-lying strength relation and near-20-MeV region on PDF 3–4 are predictions."
+      ],
+      "disposition": "covered",
+      "worker": "Descartes",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.59.R1851.pdf",
+      "sha256": "817d4759fa8c33060740b5b8ca5ccdfc4852ba685f448637a331e25a6b2b009a",
+      "physical_pages": 4
+    },
+    {
+      "id": "catalogue:LIT-000392",
+      "source": "knowledge/sources/engel-2003-ra225-selfconsistent-schiff.md",
+      "identity": "J. Engel, M. Bender, J. Dobaczewski, J. H. de Jesus and P. Olbratowski, Phys. Rev. C 68, 025501 (2003)。arXiv nucl-th/0304075v2 author manuscript, stamped 2003-07-07; internal 2018 date is separate",
+      "coverage": [
+        "Complete PDF 1–10, adding PDF 1–3 definitions and approximations; 7–9 Eq. (10), Tables I–II, Eq. (12) and conclusions; 10 references/experimental lineage."
+      ],
+      "boundary": [
+        "Complete local manuscript. Even-Ra E1 magnitudes do not determine the odd-²²⁵Ra Schiff matrix element or an atomic EDM."
+      ],
+      "disposition": "covered",
+      "worker": "Descartes",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2003-engel-ra225-schiff.pdf",
+      "sha256": "f7e70d8ceddcb7c43e9cef9c137d2118f0d29cc6dc8239dc019120ccbd680009",
+      "physical_pages": 10
+    },
+    {
+      "id": "catalogue:LIT-000393",
+      "source": "knowledge/sources/ensdf-131ba-adopted-e3.md",
+      "identity": "Yu. Khazov, I. Mitropolsky and A. Rodionov, Nuclear Data Sheets 107, 2715–2930 (2006), parent evaluation。NNDC ENSDF ¹³¹Ba Adopted Levels, Gammas export; 2006-07-17 cutoff for underlying evaluation, later 2012Wa38 Q header and 2008Ki07 BrIcc annotations",
+      "coverage": [
+        "Scientific content audited at PDF 1, 5 and 11 footnote c; document mapped at PDF 1–4 levels, 5–11 γ tables, 12–18 level-scheme panels, 19–20 band drawings. Remaining rows and panels lack point-by-point review."
+      ],
+      "boundary": [
+        "Targeted E3 record closed. The rest of the 20-page export and all primary experiment reconstruction remain outside this audited coverage; no inference to the high-spin E1 network."
+      ],
+      "disposition": "partial",
+      "worker": "Descartes",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261101-day29-131ba-e3/131ba-adopted.pdf",
+      "sha256": "11bdfe04709d0652640b1d4af1f33ea9d26e1855d881a5a0f8be56cf24a80ee3",
+      "physical_pages": 20
+    },
+    {
+      "id": "catalogue:LIT-000302",
+      "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "identity": "A. Bohr and B. R. Mottelson, Nuclear Structure II: Nuclear Deformations. 1975 original, 1998 World Scientific reprint, 772 physical PDF pages.",
+      "coverage": [
+        "PDF 1–22 front material and PDF 23–52 (printed pp. 1–30) Chapter 4 start. Prior targeted anchors in the source page remain separate.",
+        "PDF 53–82 (printed 31–60), §4-3: nonzero K energy, high-spin scales, and axial E2, M1 and interband intensity relations. Visual checks of PDF 53, 55, 61, 67, 72, 78–79, 81–82.",
+        "PDF 83–122 (printed 61–100), §4-3 including empirical spectra, cranking, microscopic alignment and angular-momentum projection. Critical figures/equations visual checks PDF 83, 87, 91, 97, 99, 102, 111, 113, 119.",
+        "PDF 123–157 (printed 101–135), §4-3: examples of historical intensities, mixing conventions, transfer and deformation evidence. Key visual checks PDF 125–126, 130, 132, 135, 147, 151–152 and 156.",
+        "PDF 158–194 (printed 136–172), closing §4-3 and beginning §4-4. Checked density, Coriolis and centrifugal coupling; direct visual checks PDF 161, 167–168, 170, 172, 176, 182, 189, 194.",
+        "PDF 195–245 (printed 173–223): asymmetric rotor and high-I condition, particle–rotor appendix and Ch. 5 opening. Main images checked at PDF 198, 204, 212–214, 216, 218, 224, 226, 231, 237 and 243.",
+        "PDF 246–280 (printed 224–258), §5-1 through the opening examples for §5-3: oscillator basis and matrix elements, quasiparticle configurations, one-nucleon transfer, electromagnetic matrix elements and Coriolis corrections. See the source section for locators.",
+        "PDF 281–315 (printed 259–293), §5-3; checked each printed page, Figs. 5-9–5-15, Tables 5-6–5-10 and corresponding equations.",
+        "PDF 316–349 read. PDF 316–340: §5-3, printed 294–318. PDF 341–346: Appendix 5A, printed 319–324. PDF 347: Chapter 6 title page (no printed number). PDF 348–349: §6-1, printed 326–327.",
+        "PDF 350–385 (printed 328–363): §§6-1 and 6-2, §6-3a and first part of §6-3b, Figs. 6-1–6-3 and Tables 6-1–6-2.",
+        "PDF 386–420 (printed 364–398), end of §6-3b and §§6-3c–6-3f, Figs. 6-4–6-6.",
+        "PDF 421–432 (printed 399–410), §§6-4a–6-4c through Eqs. (6-189)–(6-194).",
+        "PDF 433–444 (printed 411–422), end of §6-4c, §6-4d, §§6-5a–6-5b; Figs. 6-7–6-8.",
+        "PDF 445–455 (printed 423–433), §§6-5b–g through Eq. (6-229).",
+        "PDF 456–475 (printed 434–453), §§6-5g–h and §§6-6a–b.",
+        "PDF 476–515 (printed 454–493), §§6-6b–c and chapter specimen calculations.",
+        "PDF 516–545 (printed 494–523), charge-exchange dipole, width, and quadrupole modes.",
+        "PDF 546–605 (printed 524–583), quadrupole and octupole modes and beginning of single-particle shells.",
+        "PDF 606–625 (printed 584–603), separable potentials and shell effects.",
+        "PDF 626–645 (printed 604–623), deformation and temperature shell corrections and historical fission-mode discussion.",
+        "PDF 646–665 (printed 624–643), historical spectroscopic evidence for shape isomers, spin modes and pairing.",
+        "PDF 666–675 (printed 644–653), pairing transfer, static field, quasiparticles and gap estimates.",
+        "PDF 676–695 (printed 654–673), Appendix 6A through the deformation-perturbation opening.",
+        "PDF 696–698 (printed 674–676), end of Appendix 6A.",
+        "PDF 699–714 (printed 677–692), Appendix 6B.",
+        "PDF 715 (printed 693), shared Bibliography opening and convention.",
+        "PDF 716–752 (printed 694–730), combined bibliography, including volume/page cross-references.",
+        "PDF 753–770 (printed 731–748), subject and nuclide indices; PDF 771–772 author biographies and cover, no printed page numbers."
+      ],
+      "boundary": [
+        "PDF 1–772 含书前材料、索引和封面页。外引论文未因本卷的书目检查自动闭合。"
+      ],
+      "disposition": "covered",
+      "worker": "Pascal and previously integrated local-reading batches",
+      "source_pdf": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "physical_pages": 772
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 610,
+    "duplicate-or-related-version": 23,
+    "duplicate-excerpt-linked-to-canonical": 13,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "pending-identity-and-coverage": 79,
+    "supplement-linked-to-canonical": 7,
+    "existing-source-coverage-to-audit": 133,
+    "archived-publisher-scan-missing-printed-page": 1,
+    "read-core-evidence-checked": 1,
+    "out-of-scope-atomic-spectroscopy": 4,
+    "editorial-front-matter": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "publisher-first-page-extract-fulltext-unavailable": 3,
+    "access-placeholder-fulltext-unavailable": 1,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "evaluated-data-extract-covered": 3,
+    "conference-abstract-covered": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 212,
+  "credited_works": 21,
+  "credited_primary_pages": 1087,
+  "partial_volume_pages": 0,
+  "next_action": "Close the remaining 89Y and 102Rh reading sections, continue 131Ba adopted levels and the rolling local-source queue.",
+  "uncredited": [],
+  "related_materials": [
+    {
+      "role": "evaluated-data-extract-covered",
+      "work_id": "catalogue:LIT-000395",
+      "source": "knowledge/sources/ensdf-132sn-coulomb-excitation.md",
+      "physical_pages": 1,
+      "credited_primary_pages": 0,
+      "coverage": [
+        "Complete PDF 1: History, reaction/target summary, 4040-keV level and γ row/diagram/footnote. Supporting primary: Varner PDF 1–3 targeted checks (print 391–393)."
+      ],
+      "sha256": "1fc046f50b2197f637a86591114e4956504ddf4099a7b51a1c4dde040bd708ea"
+    },
+    {
+      "role": "evaluated-data-extract-covered",
+      "work_id": "catalogue:LIT-000397",
+      "source": "knowledge/sources/ensdf-134te-coulomb-excitation.md",
+      "physical_pages": 1,
+      "credited_primary_pages": 0,
+      "coverage": [
+        "Complete PDF 1: History, reaction, both level rows, comments and dagger. Supporting Radford PDF 2 §2/Table 1 and PDF 5 reference; Varner PDF 4 for comparator."
+      ],
+      "sha256": "37f02b8998302844bd7e1d7816c405e1779e335b5f4a1ef5743ffd01c8e505ea"
+    },
+    {
+      "role": "evaluated-data-extract-covered",
+      "work_id": "catalogue:LIT-000398",
+      "source": "knowledge/sources/ensdf-2006-131ce-levels.md",
+      "physical_pages": 5,
+      "credited_primary_pages": 0,
+      "coverage": [
+        "Complete queued SD export PDF 1–5: History/levels 1–2, γ table 2–3, level scheme 4, band drawing 5. Related normal high-spin export: fingerprint, page count and PDF 1 scope only in this audit. Primary locators targeted in Petrache PDF 1–3 and Paul PDF 2–6."
+      ],
+      "sha256": "c7438a39930c111dbe6baff1f96a7fa7a3a6011001f7270d0850b8873a1d51f3"
+    },
+    {
+      "role": "conference-abstract-covered",
+      "work_id": "catalogue:LIT-000474",
+      "source": "knowledge/sources/indico-2026-133i-gamma-strength-record.md",
+      "physical_pages": 81,
+      "credited_primary_pages": 0,
+      "coverage": [
+        "PDF 1 容器身份，PDF 59（印 53）目标摘要全页，核对本地 Indico HTML 的同一贡献。"
+      ],
+      "sha256": "ef58a4bf5cfd29b9a56457006fd813b93f90a4244d7545aa7bcfebfaaeaacec2"
+    }
+  ],
+  "book_new_back_matter_pages": 57,
+  "newly_completed_book_primary_credit": 772
+}

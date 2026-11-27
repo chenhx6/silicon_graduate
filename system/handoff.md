@@ -51,6 +51,8 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 终端 Codex 用 API 配置完成 3 件作品的原文辅助核读。容器禁用命令沙箱需要的用户命名空间，备用工作会话改从标准输入读取带页码的已校验 PDF 文本，模型及推理深度显式跟随主会话。原图核验与正式写入由主会话负责。
 
+本批核定 21 份、1,087 个主件 PDF 页，其中 Bohr–Mottelson 第二卷补核 PDF 716–772 后全卷闭合，一次计入整卷 772 页。另核 3 份评价节录与 1 页会议摘要，单列材料角色。更正 ¹³²Sn 寿命换算与 Enders 剪刀模的旧归属。累计 628 份、23,863 个主件 PDF 页，正式队列待处理 212 条。后续接 ⁸⁹Y、¹⁰²Rh 正文和其它已领取来源。稳定指针为 `research/archive-learning-20261127` + `research: finish Bohr–Mottelson II and verify local spectroscopy and theses`。见[原件及范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-volume-ii-and-archived-spectroscopy-p-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

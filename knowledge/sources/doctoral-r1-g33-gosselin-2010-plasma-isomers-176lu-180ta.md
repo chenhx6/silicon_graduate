@@ -3,7 +3,7 @@ type: source
 title: 'Gosselin 2010: Stellar plasma electronic process modifications of K-isomers in 176Lu and 180Ta'
 aliases: [Gosselin 2010 plasma isomers, Gosselin 2010 PRC 81 055808]
 created: 2026-11-08
-updated: 2026-11-08
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: article
@@ -72,3 +72,7 @@ G33研学主线；总控独立核PDF1–3/5的摘要、桥接结构、率定义�
 ## Agent Self-audit Triage
 
 P0：版本/题录与局部—整体结论已核；P1为原代码、网络分支误差与其它环境未重放。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 3–4 的热率把高、低 K 侧宽度、级联分支与中间态光子激发分开，LTE 细致平衡处理单对态。PDF 6–8 的 NEEC 与电子散射是条件计算。¹⁸⁰Ta 357 keV 状态在 PDF 4 正文写 7⁻，Fig. 2 标 7⁺；同版的这处冲突保留。

@@ -3,7 +3,7 @@ type: research-note
 title: "寿命方法选择：时间响应、分量条件与最小校准"
 aliases: [lifetime method selection response contract]
 created: 2026-10-20
-updated: 2026-10-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
@@ -619,25 +619,13 @@ SPEEDY的六个ring角度（36.5°、46.5°、85°、95°、133.5°、143.5°）
 2. **关键分立馈入态时延效应**：Zanon 2023 首次标定并扣除了来自 $3_1^+$ 态（$5228\text{ keV}, \tau = 54(9)\text{ fs}$）的 $1156\text{ keV}$ 跨带馈入分支（$B_r = 28\%$）。在未分辨多重符合的旧实验中，仅此一条馈入即可向表观寿命注入约 $15.12\text{ fs}$ 的虚假延时，印证了微观馈入网络建模对飞秒寿命测量的极端敏感性；
 3. **跃迁强度数值闭合与从头算关联缺失定理**：标准转换公式严格复现 Zanon Table I 实测电四极与磁偶极跃迁强度：$B(E2; 2_2^+ \to 2_1^+) = 4.08\text{ e}^2\text{fm}^4 \to 4(2)$ 与 $B(M1) = 0.0503\text{ \mu}_N^2 \to 0.05(2)$。基于手征有效场论核力的 VS-IMSRG(2) 理论计算给出 $B(E2) = 0.68\text{ e}^2\text{fm}^4$，低估实验值达 6 倍之巨；这在微观上证实了标准两体截断空间缺失多粒子—多空穴（$p\text{--}h$）组态形变关联，确立了亚皮秒绝对跃迁几率作为严苛检验手征从头算多体截断收敛性的金标准地位。
 
-## Day19 132Sn库仑激发B(E2)反常与N=82闭壳四量级寿命跨越定理
+## Day19 ¹³²Sn 库仑激发与寿命换算
 
-> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+[[ensdf-132sn-coulomb-excitation]] 的 4.040 MeV、B(E2)↑=0.11(3) e²b² 给条件向下强度 0.022(6) e²b²。以 E2 单支辐射速率和一致单位得 τ≈3.45(94) fs。旧结果 34.4 ps 来自把 fm 单位系数用于 b 单位的强度。¹³⁰Sn、¹³⁴Sn 原比较还需各自的原件与单位复核，实验方法选择须检查分支、仪器响应和可测条件。
 
+## Day19 ¹³⁴Te 库仑激发与矩阵元比较
 
-依据独立审计程序 `system/scripts/day19_sn132_coulomb_excitation_be2_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/sn132-coulomb-excitation-be2-result-057.json`，核准了针对 [[varner-2005-coulomb-excitation-132-134sn]] 与 [[ensdf-132sn-coulomb-excitation]] 的幻核电磁跃迁与时间尺度契约：
-1. **中子粒子—空穴对称性与弱价跃迁定理**：双空穴 $^{130}\text{Sn}$（$B(E2)\uparrow = 0.023(5)\text{ e}^2\text{b}^2$）与双粒子 $^{134}\text{Sn}$（$B(E2)\uparrow = 0.029(5)\text{ e}^2\text{b}^2$）在 $0.85\sigma$ 统计误差内高度对称。两者微观本质均为纯中子价空间内的对截断跃迁，受中子弱有效电荷（$e_n \approx 0.5e$）抑制，单粒子强度仅约 $1.2\text{--}1.4\text{ W.u.}$；
-2. **双幻核 $^{132}\text{Sn}$ 核芯极化反常**：双幻核 $^{132}\text{Sn}$ 具有高激发的 $2^+$ 态（$4041\text{ keV}$），但其 $B(E2)\uparrow = 0.11(3)\text{ e}^2\text{b}^2$ 展现出相对空穴核 $4.78\times$ 及相对粒子核 $3.79\times$ 的反常跃升。微观机制严格归因于闭壳核芯破壳极化：跨越 $Z=50$ 质子闭壳的主动粒子—空穴激发（$\pi g_{9/2}^{-1} \pi d_{5/2}$）携带高达 $e_p \approx 1.5e$ 的有效电荷，其质子相干矩阵元赋予了该双幻态强于价中子核的电四极跃迁几率；
-3. **跨越 $N=82$ 闭壳的四量级时间跨越定理**：由于跃迁几率正比于能量五次方（$(E_\gamma)^5$ 相空间比值高达 $5380\times$），能级寿命在闭壳处发生极端发散：$^{132}\text{Sn}$ 寿命仅为 $\tau = 34.4\text{ ps}$（RDDS 测量域），而 $^{130}\text{Sn}$ 达 $65.4\text{ ns}$，$^{134}\text{Sn}$ 更是暴增至 $698\text{ ns}$（TDPAD 与脉冲束流延迟域）。双中子差跨越了超过 $20500\times$ 的时间响应阶梯，证明了核壳层闭合对物理实验时钟选择的决定性控制作用。
-
-## Day19 134Te库仑激发B(E2)与价质子有效电荷增强：第一性原理跃迁常数与N=82四核时钟轨迹
-
-> checkpoint088审计状态：本节先前派生结论尚未逐claim重审；旧“全绿”不作科学验证。若与checkpoint088更正冲突，以直接来源更正为准。
-
-
-依据独立审计程序 `system/scripts/day19_te134_sn132_coulex_lifetime_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/te134-sn132-coulex-lifetime-result-058.json`，核准了针对 [[ensdf-134te-coulomb-excitation]] 与 [[iaea-livechart-132sn-134te-levels]] 的闭壳微观电磁跃迁常数与时间响应契约：
-1. **第一性原理 $E2$ 衰变常数闭合定理**：从量子电动力学微积分严格推导出无量纲 $E2$ 辐射衰变常数 $\text{coeff}_{E2} = (4\pi/75\hbar)(1/4\pi\varepsilon_0)(1/\hbar c)^5 = 1.2252 \times 10^{13}\text{ s}^{-1}\text{MeV}^{-5}(e^2\text{b}^2)^{-1}$。在 $^{134}\text{Te}$（$1279.11\text{ keV}$，$B(E2)\uparrow = 0.13(4)\text{ e}^2\text{b}^2$）中导出半衰期 $T_{1/2} = 0.6355\text{ ps}$（误差 $\pm 0.195\text{ ps}$），精确复现了 Sonzogni 在 ENSDF 中评估的 $T_{1/2} = 0.64(20)\text{ ps}$（平均寿命 $\tau = 0.9168\text{ ps}$），彻底消除了经验换算中的单位与因次模糊；
-2. **价质子与价中子微观有效电荷比值定理**：在双幻核 $^{132}\text{Sn}$ 核心外，两价质子核 $^{134}\text{Te}$（$B(E2)\uparrow = 0.13\text{ e}^2\text{b}^2$）相对两价中子核 $^{134}\text{Sn}$（$B(E2)\uparrow = 0.029\text{ e}^2\text{b}^2$）呈现高达 $4.483$ 倍的电四极跃迁增强，精确映射出微观极化有效电荷比 $e_p^{\text{eff}} / e_n^{\text{eff}} = \sqrt{4.483} = 2.117$（高度吻合核结构通用的 $1.5e / 0.7e$ 极化比）。电荷平方与跃迁能量相空间的双重驱动使得两价质子核寿命比两价中子核缩短了 $76.1\times$；
-3. **$N=82$ 邻域四核时间时钟全景轨迹**：从双幻核 $^{132}\text{Sn}$（$\tau = 3.44\text{ fs}$，飞秒速度差时钟域）、双质子核 $^{134}\text{Te}$（$\tau = 917\text{ fs}$，亚皮秒多普勒时钟域）、双中子空穴核 $^{130}\text{Sn}$（$\tau = 6.53\text{ ps}$，皮秒柱塞 RDDS 时钟域）到双中子粒子核 $^{134}\text{Sn}$（$\tau = 69.8\text{ ps}$，数十皮秒快速定时时钟域），全景构成了横跨四个数量级的微观核物理时钟阶梯。
+[[ensdf-134te-coulomb-excitation]] 的 1279.11(10) keV 跃迁采用 B(E2)↑=0.13(4) e²b² 时，按下行 1/5 强度和 E2 单支给 T₁/₂≈0.636 ps。来自同一强度的评价换算为 0.64(20) ps。¹³⁴Te 和 ¹³⁴Sn 的选定矩阵元振幅比约 2.1，提取有效电荷比还需要质子、中子组态和各自算符的核结构模型。
 
 ## Day19 220Rn与224Ra梨形八极形变审计：Alaga转子自洽性、模型甄别与原子EDM增强定理
 

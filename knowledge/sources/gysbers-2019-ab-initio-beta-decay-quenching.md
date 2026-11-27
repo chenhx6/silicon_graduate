@@ -3,11 +3,11 @@ type: source
 title: "Gysbers 等 2019：从头算多体关联与手征两体流对原子核 β 衰变淬灭的微观解释"
 aliases: [Gysbers 2019 Nature Physics, arXiv:1903.00047, gysbers-2019-beta-decay]
 created: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: preprint-and-journal-article
-reading_depth: skimmed
+reading_depth: read
 title_original: "Discrepancy between experimental and theoretical beta-decay rates resolved from first principles"
 authors: [P. Gysbers, G. Hagen, J. D. Holt, G. R. Jansen, T. D. Morris, P. Navrátil, T. Papenbrock, S. Quaglioni, A. Schwenk, S. R. Stroberg, K. A. Wendt]
 journal: Nature Physics
@@ -69,3 +69,7 @@ Gysbers 等（2019）基于手征有效场论相互作用与弱电流算符，�
 ## Extracted Pages
 
 选读范围覆盖预印本 PDF 第 1–4 页。核心图表为 Fig. 1（对比单体流 1BC 与全流 1BC+2BC），相关微观关联与弱两体流相容性结论提取至 [[a130-rewrite-axial-operator-scope-20261113]]，作为博士论文第 2.7 节弱算符重整化讨论的理论依据。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+¹⁰⁰Sn 至主导 ¹⁰⁰In 1⁺ 态是 |M_GT|² 的比较，PDF 12 Table I 同时列 Batist 5.2±0.6 与 Hinke 9.1 (+2.6/−3.0)。理论的 2BC、关联两种作用按对照计算的加入顺序解释，逐项数值依相互作用、截断和分辨尺度。PDF 12 的 Ikeda 和规则一段用积分 β⁻、β⁺ 强度，不能与 ¹⁰⁰Sn 单分支混作一项。

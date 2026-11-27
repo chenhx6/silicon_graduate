@@ -789,7 +789,22 @@ u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶
 - [[bender-1999-superheavy-magic-numbers]] — 超重区自旋轨道淬灭与幻数模型边界。
 - [[cavallaro-2019-giant-pairing-vibration]] — 巨对振动跨质量区运动学与连续谱阻尼失效。
 - [[colo-1995-isospin-mixing-gdr]] — 库仑同位旋混合与 GDR 禁戒 E1 的模型边界。
-- [[enders-1999-scissors-mode-saturation]] — 剪刀模 `B(M1)` 饱和与价空间截断原件。
+- [[enders-1999-scissors-mode-saturation]] — 剪刀模低位 M1 强度、惯量与和规则的系统比较。
+- [[misch-2021-astromers-effective-rates]] — 本地刊件、读段及实验谱系。
+- [[hinohara-2015-ng-inertia-linear-response]] — 本地刊件、读段及实验谱系。
+- [[stuchbery-2000-yb171-coriolis-rotational-g-factors]] — 本地刊件、读段及实验谱系。
+- [[dhal-2012-pm137-shape-evolution]] — 本地刊件、读段及实验谱系。
+- [[droste-2006-euroball-cluster-polarimetry]] — 本地刊件、读段及实验谱系。
+- [[rolfs-1973-f18-low-spin-capture-states]] — 本地刊件、读段及实验谱系。
+- [[funke-1992-y89-neutron-core-excitations]] — 本地刊件、读段及实验谱系。
+- [[king-1977-polarized-beam-mg-mixing-ratios]] — 本地刊件、读段及实验谱系。
+- [[gelletly-1985-er168-gamma-ground-mixing]] — 本地刊件、读段及实验谱系。
+- [[melon-2014-agata-compton-polarimetry]] — 本地刊件、读段及实验谱系。
+- [[eichler-1969-capture-circular-polarization]] — 本地刊件、读段及实验谱系。
+- [[ertoprak-2020-pt172-octupole-collectivity]] — 本地刊件、读段及实验谱系。
+- [[gizon-1999-rh102-high-spin-spectroscopy]] — 本地刊件、读段及实验谱系。
+- [[wang-shitao-2009-165er-high-spin-thesis]] — 全文科学正文、实验结果和相关刊文。
+- [[wang-kailong-2017-37s-143eu-lifetimes-thesis]] — 全文科学正文、实验结果和相关刊文。
 - [[hendrie-1968-hexadecapole-deformation]] — 稀土 `β4` 符号反转的散射与形状参数原件。
 - [[karmakar-2025-doublet-wobbling-105pd]] — `105Pd` 双重摆动候选的实验与 TPSM 解释边界。
 - [[margraf-1995-odd-a-scissors-mode]] — 奇 A 剪刀模泡利阻塞与碎裂原件。
@@ -846,7 +861,7 @@ u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶
 - [[n138-isotonic-octupole-collapse-and-barrier-dissolution]] — N=138同中子链八极形变猝灭与势垒融化微观机制：从226Ra刚性梨形转子到230U谐振八极振动（质子易感性与四极稀释双驱动）。
 - [[hexadecapole-sign-reversal-and-backbending-evolution]] — 十六极形变（beta4）跨区符号反转与科里奥利后弯微观机制：从稀土桶形形变到Os-Pt菱形形变的能级重整（Hendrie 1968一手原件与顺排淬灭）。
 - [[signature-inversion-cross-mass-scaling-and-coriolis-crossover]] — 奇奇核签名反转自旋跨区跃迁与科里奥利退耦标度律：A≈80/130到A≈160的残余相互作用V_pn与核芯惯量协同机制（I_inv从10到19的成倍推迟）。
-- [[scissors-mode-b-m1-saturation-and-valence-truncation]] — 剪刀模B(M1)强度饱和与价壳层空间截断微观机制：宏观两转子beta2^2标度在超形变区的崩溃（Enders 1999与超流塌缩淬灭）。
+- [[scissors-mode-b-m1-saturation-and-valence-truncation]] — 剪刀模低位和规则及超形变外推的证据边界。
 - [[superheavy-magic-numbers-and-spin-orbit-quenching]] — 超重稳定岛幻数不可迁移性与自旋—轨道劈裂淬灭微观机制：库仑中心凹陷诱发的Z=114对决Z=120模型分歧（Bender 1999与Pb208刚性破除）。
 - [[brink-axel-breakdown-and-low-energy-m1-upbend]] — Brink-Axel假说跨质量区迁移失效与低能M1上弯机制：激发态剪刀式重耦合对决基态自旋翻转共振（Schwengner 2013与Pb208复原边界）。
 - [[triaxial-scissors-splitting-and-gamma-deformation]] — 三轴形变剪刀模K-简并破缺与双峰分裂微观机制：两转子模型绕中轴与短轴反相振动的解析求解（Rohozinski 1988与单洛伦兹拟合失效）。

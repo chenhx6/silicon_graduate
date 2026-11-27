@@ -95,3 +95,10 @@ The evaluation closes one identity edge: Petrache et al. 1998, whose measured 13
 常形变 PDF 1 History 分列 1991Pa07 NORDBALL、1996Gi08 EUROGAM 与 2004Li27 DSA。PDF 1–3 的 161.980 keV 88(2) ns 归 1998Io01，300.28 keV 120(8) ps 归 1999Kl11。3036.3／3921.2 keV 的 <1.52／<0.72 ps 为 2004Li27 有效半衰期上限，未校正侧馈。同实验给常形变带 A、B 的 Qₜ=3.1(6)、4.6(15) eb。超形变子集亦用带 A、B 的标签，核原件时保留两套定义。
 
 常形变 PDF 3 的 161.98 keV 线能引 ¹³¹Pr EC，A₂ 条目另列 1977Gi17 与 1998Io01；PDF 5–6 对 1155.0 keV 标明放置不确定。PDF 7–11 是用于对照的组合纲图和分带图。
+
+## 2026-11-27 — 本地版本及科学覆盖
+
+Complete queued SD export PDF 1–5: History/levels 1–2, γ table 2–3, level scheme 4, band drawing 5. Related normal high-spin export: fingerprint, page count and PDF 1 scope only in this audit. Primary locators targeted in Petrache PDF 1–3 and Paul PDF 2–6.
+
+- Anchor SD1 Q₀=7.3(4) eb and β₂=0.38(2) to Petrache’s Doppler-shift fit. Keep SD2 Q₀=8.5(4) with 1996Se03/1996Cl03. Restore (M1+E2) for both 1513.9(4) and 1522.6(4) keV links. 原页 ENSDF PDF 1–3, 5; Petrache PDF 3 / R12 Table I; Paul PDF 5–6 / 054309-5–6 Table II and Fig. 7。
+- Keep the relative offset y, spin parentheses, and unresolved normal-scheme linkage. Flag tentative 788-keV placement and 1–8.5-keV differences with earlier energy sets. 原页 ENSDF PDF 2–3 and 5; Paul PDF 4 and 6。

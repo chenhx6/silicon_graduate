@@ -3,11 +3,11 @@ type: source
 title: "Nuclear time-reversal violation and the Schiff moment of 225Ra"
 aliases: [dobaczewski-2005-ra225-schiff]
 created: 2026-10-29
-updated: 2026-10-29
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article
-reading_depth: skimmed
+reading_depth: read
 title_original: "Nuclear time-reversal violation and the Schiff moment of 225Ra"
 authors: ["J. Dobaczewski", "J. Engel"]
 year: 2005
@@ -45,9 +45,9 @@ arXiv API的作者、题名、期刊引用、DOI与PDF首页作者/题名相符�
 
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| DO05-1 | 225Ra Schiff 响应强度严重依赖同自旋异宇称双重态能量分母（如实验值 55.16 keV）与核子-核子时间反演非对称相互作用强度。 | model-result | derived | PDF p.2, Eqs. (1)–(4) | true |
-| DO05-2 | 允许自旋与同位旋芯极化后，奇核 Kramers 简并破缺产生增强的核偶极电矩与原子 Schiff 矩。 | model-analysis | derived | PDF pp.2–3 | true |
-| DO05-3 | 能量密度泛函中时间奇项（time-odd fields）与对称性恢复的不确定度导致理论预测存在因子 2–3 的跨泛函分散。 | method-limitation | derived | PDF p.4 | true |
+| DO05-1 | ²²⁵Ra 的低能同自旋异宇称能隙是模型能量分母，作者采用约 55 keV。 | model-result | derived | PDF p.2, Eqs. (1)–(4) | true |
+| DO05-2 | 内禀 Kramers 破缺允许自洽自旋极化，影响 P,T-odd 矩阵元与核 Schiff 响应。由核矩转换原子 EDM 另需原子结构。 | model-analysis | derived | PDF pp.2–3 | true |
+| DO05-3 | 因子 2–3 是作者的不确定性估计，以有效相互作用误差为主。对称恢复被提出为改进方向，本文未量化该改进。 | method-limitation | derived | PDF p.4 | true |
 
 ## Competing Interpretations and Limitations
 
@@ -64,3 +64,11 @@ arXiv API的作者、题名、期刊引用、DOI与PDF首页作者/题名相符�
 ## Sources
 
 - arXiv nucl-th/0503057v2; DOI 10.1103/PhysRevLett.94.232502。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+Complete author manuscript PDF 1–4, including Eqs. (6)–(7), Figs. 1–2, Tables I–II, limitations and references.
+
+- 55 keV is the parity-doublet input at the precision printed in this paper. 原页 PDF 2 Eqs. (1)–(5), especially Eq. (4); PDF 4 Ref. [17]。
+- Intrinsic Kramers breaking permits spin polarization and affects the spin-sensitive P,T-odd matrix element and calculated nuclear Schiff response. Atomic EDM conversion needs separate atomic structure. 原页 PDF 2 Eqs. (2), (4)–(5); PDF 4 Ref. [24]。
+- Factor 2–3 is the authors’ uncertainty estimate, dominated by effective-interaction uncertainty. Symmetry projection is discussed as an unquantified improvement. 原页 PDF 3 Tables I–II; PDF 4 final discussion。

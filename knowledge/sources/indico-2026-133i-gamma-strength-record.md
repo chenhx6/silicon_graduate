@@ -4,7 +4,7 @@ title: "OCL 2026 public experiment record for 133I gamma-strength-function study
 aliases: [133I OCL gammaSF, 130Te alpha p gamma 133I, SiRi OSCAR 133I]
 created: 2026-11-01
 archive_required: true
-updated: 2026-11-01
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-record
@@ -35,8 +35,7 @@ tags: [133i, gamma-strength-function, ocl, experiment-record, metadata-only]
 
 ## Bibliographic Record
 
-This page records the public OCL contribution page consulted on 2026-11-01. The
-downloaded HTML is archived at the declared `raw_file` with the matching SHA-256.
+This page records the public OCL contribution page consulted on 2026-11-01. The PDF abstract collection is `raw_file` and the same contribution’s archived HTML is `html_access_file`.
 The record is an experiment/access anchor rather than a journal article or a complete
 analysis package.
 
@@ -85,3 +84,7 @@ strength.
 
 This page is a Codex self-audit and remains `unreviewed`; it does not set
 `human-reviewed`.
+
+## 2026-11-27 — 本地版本及科学覆盖
+
+作者报告 ¹³⁰Te(α,pγ)¹³³I 的 SiRi/OSCAR 符合。Oslo 法提取能级密度及 γ 强度后，用作反应计算输入，估计 ¹³²I(n,γ)¹³³I 速率。PDF 59（印 53）第二段，未给可复算数值。

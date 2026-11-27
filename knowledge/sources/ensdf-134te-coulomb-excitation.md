@@ -3,7 +3,7 @@ type: source
 title: "ENSDF 134Te Coulomb-excitation subfile"
 aliases: [ENSDF 134Te CoulEx, 134Te Coulomb excitation evaluation sheet]
 created: 2026-09-28
-updated: 2026-09-29
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: evaluated-nuclear-data
@@ -59,7 +59,7 @@ The adopted `134Te` `2+` level is at `1279.11(10) keV`; the sheet attributes `B(
 |---|---|---|---|---|---|
 | ENSDF134TE-1 | The adopted `134Te` `2+` level at `1279.11(10) keV` is associated with `B(E2)↑=0.13 4` from Coulomb-excitation reference `2003Ba01`; the sheet also lists `T₁/₂=0.64(20) ps` as derived from that strength. | derived-observable | contextual | PDF p.1, `134Te Levels`, 1279.11-keV row | true |
 | ENSDF134TE-2 | The `2003Ba01` reaction is `134Te(12C,12C′)` at 350 MeV. | experimental-method | contextual | PDF p.1, header paragraph under `Coulomb excitation` | true |
-| ENSDF134TE-3 | The adopted level row attributes the state to `N=82` systematics and the B(E2) value to Coulomb excitation; the evaluation sheet is not the primary report. | evidence-boundary | direct | PDF p.1, 1279.11-keV level comments | true |
+| ENSDF134TE-3 | 1279.11(10) keV 的 † 指向 Adopted Levels 的能量、Jπ。B(E2) 和由其计算的半衰期属于 2003Ba01 实验谱系。 | evidence-boundary | direct | PDF p.1, 1279.11-keV level comments | true |
 
 ## Competing Interpretations and Limitations
 
@@ -83,4 +83,11 @@ NuDat 3 displays the same adopted level as `B(E2)(W.u.)=6.3 20` and the adopted-
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| ENSDF134TE-D19-1 | 对 ENSDF 评估 subfile 中采纳的 $^{134}\text{Te}$ $1279.11\text{ keV}$ 能级 $B(E2)\uparrow = 0.13(4)\text{ e}^2\text{b}^2$ 进行第一性原理跃迁速率核算：(1) 速率常数精确闭合：从微观量子电动力学导出 $E2$ 衰变跃迁常数 $\text{coeff}_{E2} = 1.2252 \times 10^{13}\text{ s}^{-1}\text{MeV}^{-5}(e^2\text{b}^2)^{-1}$，代入退激 $B(E2)\downarrow = 0.026\text{ e}^2\text{b}^2$ 严格算出半衰期 $T_{1/2} = 0.6355\text{ ps}$（均方根误差 $\pm 0.195\text{ ps}$），以三位有效数字精确复现 Sonzogni 评估报告的 $T_{1/2} = 0.64(20)\text{ ps}$（能级平均寿命 $\tau = 0.9168\text{ ps} = 916.8\text{ fs}$）；(2) 价质子与价中子电荷极化反差：对比同在 $^{132}\text{Sn}$ 闭壳外具有两颗价核子的 $^{134}\text{Sn}$（双中子粒子核，$B(E2)\uparrow = 0.029(5)\text{ e}^2\text{b}^2$），两价质子使 $^{134}\text{Te}$ 的四极跃迁强度跃升 $4.483$ 倍，导出有效电荷比 $e_p^{\text{eff}} / e_n^{\text{eff}} = 2.117$（完全符合微观极化电荷 $1.5e / 0.7e$ 标准）；结合相空间效应，两价质子将能级寿命缩短了 $76.1\times$（$69.8\text{ ps} \to 917\text{ fs}$）。 | task-first-principles-coulex-audit | derived-and-boundary | PDF p.1; te134-sn132-coulex-lifetime-result-058.json | true |
+| ENSDF134TE-D19-1 | 若输入 0.13(4) e²b² 为向上强度，按下行自旋因子 1/5 和单路 E2 辐射导出 T₁/₂≈0.636 ps，与同一强度的评价换算相符。相对 ¹³⁴Sn 的强度平方根比是所选矩阵元振幅比，提取有效电荷还需核结构模型。 | task-first-principles-coulex-audit | derived-and-boundary | PDF p.1; te134-sn132-coulex-lifetime-result-058.json | true |
+
+## 2026-11-27 — 本地版本及科学覆盖
+
+Complete PDF 1: History, reaction, both level rows, comments and dagger. Supporting Radford PDF 2 §2/Table 1 and PDF 5 reference; Varner PDF 4 for comparator.
+
+- The dagger refers energy and Jπ to Adopted Levels. The 1279.11(10)-keV row gives B(E2)↑=0.13(4) without printed units and T₁/₂=0.64(20) ps derived from the strength. 原页 PDF 1 reaction heading, 2⁺ row and dagger。
+- The same input yields conditional radiative T₁/₂≈0.636 ps. The square root of the selected ¹³⁴Te/¹³⁴Sn strength ratio is an amplitude ratio; its interpretation as e_p^eff/e_n^eff requires a nuclear matrix-element model. 原页 ENSDF PDF 1; Varner PDF 4 / print 394; derivation in group-3.md。
