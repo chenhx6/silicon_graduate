@@ -3,11 +3,11 @@ type: source
 title: "Jouni Suhonen 2007 - From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory"
 aliases: [Suhonen2007, Suhonen微观核理论, 从核子到原子核]
 created: 2026-11-01
-updated: 2026-11-08
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: deep-read
+reading_depth: skimmed
 title_original: "From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory"
 authors: [Jouni Suhonen]
 publisher: "Springer-Verlag Berlin Heidelberg"
@@ -134,3 +134,7 @@ P0: none identified in this scoped unit。P1：公式相位受 `ls/sl` 与 CS/BR
   不是在该系数后再乘ħ或ln2。IC在本章明确不展开，不能冒引它为分支/ICC公式来源。
 - 具体合同与单位边界见[[doctoral-thesis-high-risk-section-contracts-20261108]] F04。
   未重做完整电磁场量子化、原实验或其它未读章节。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- Clebsch–Gordan 系数是耦合态与非耦合态的重叠。非零系数要求 m₁+m₂=m 且满足角动量三角条件，3j 符号由该系数按本书约定定义。（PDF 第 22–23 页式 (1.21)–(1.24)，第 25–26 页式 (1.38)、(1.41)。）

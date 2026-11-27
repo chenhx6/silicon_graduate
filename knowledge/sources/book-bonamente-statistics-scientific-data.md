@@ -3,11 +3,11 @@ type: source
 title: "Massimiliano Bonamente 2022 - Statistics and Analysis of Scientific Data (3rd Edition)"
 aliases: [Bonamente2022, Statistics of Scientific Data, 科学数据统计与分析]
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: deep-read
+reading_depth: skimmed
 title_original: "Statistics and Analysis of Scientific Data"
 authors: [Massimiliano Bonamente]
 publisher: "Springer Nature Switzerland (Graduate Texts in Physics)"
@@ -69,3 +69,8 @@ tags: [scientific-data-analysis, error-propagation, robust-statistics, chi2-fitt
 ## Extracted Pages
 
 核心章节已提取并形式化为 Wiki 概念与方法合同。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- 第1章用交集概率除以条件事件的正概率来计算条件概率，并用交集概率是否等于边缘概率之积来判定两事件是否独立。（PDF 实体第29–30页，§§1.3–1.4，式 (1.6)–(1.8)。）
+- 教材转录了 Thomson 两支阴极射线管在不同气体下的 W/Q、I、m/e 和 v。书中由 W/Q 与 I 计算 v 和 m/e，并在注记中指出三处星号记录存在数值不一致。（§2.4，物理页 49–51，式 (2.15) 与表 2.1、2.2。星号、指数和行列对应须目视核对物理页 51。）

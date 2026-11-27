@@ -3,7 +3,7 @@ type: source
 title: "Mohammad Nakhostin (吴鸿毅译) 2020 - 辐射探测器信号处理"
 aliases: [吴鸿毅辐射探测器信号处理, Nakhostin 2020 Signal Processing, 数字信号处理探测器]
 created: 2026-11-01
-updated: 2026-11-02
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
@@ -78,3 +78,7 @@ tags: [books, digital-signal-processing, pulse-shaping, hpge-readout, baseline-r
 - 印刷 pp. 175–194（PDF pp. 175–194）：模拟成形、极零相消与弹道亏损产生机理。
 - 印刷 pp. 215–218（PDF pp. 215–218）：串联级联死时间、整形时间与 ADC 处理通道比较。
 - 印刷 pp. 380–395（PDF pp. 380–395）：数字梯形滤波器离散递归算法与 FPGA 实现。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- 译本按其符号约定给出瞬时感应电流 i = −q v·E₀ 和位移引起的感应电荷 Q = −q[φ₀(xf) − φ₀(xi)]。计算加权场时令目标电极为单位电势、其余电极为零电势并移除外部电荷。实际电场通过漂移速度进入电流计算。（物理第 15 页，§1.2.2，式 (1.4)–(1.5)。式 (1.4) 的矢量箭头在提取文本中错位，待核第 15 页版面。）

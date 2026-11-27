@@ -3,11 +3,11 @@ type: source
 title: "IAEA 2006 - Handbook for Calculations of Nuclear Reaction Data: Reference Input Parameter Library-2 (RIPL-2)"
 aliases: [IAEA RIPL-2, RIPL2-2006, 核反应参数参考库手册]
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: deep-read
+reading_depth: skimmed
 title_original: "Handbook for calculations of nuclear reaction data, Reference Input Parameter Library-2 (RIPL-2)"
 authors: [IAEA (International Atomic Energy Agency)]
 publisher: "IAEA-TECDOC-1506, Vienna"
@@ -73,3 +73,7 @@ tags: [nuclear-data, level-density-parameter, optical-model-parameters, photon-s
 ## Extracted Pages
 
 核心章节已提取并形式化为 Wiki 概念与方法合同。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- 手册转述 Audi 与 Wapstra 的 1995 年汇编，实验原子质量覆盖 1,964 个核素。（物理第 19 页 §2.1.1，物理第 23 页参考文献 [2.1]）

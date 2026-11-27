@@ -3,11 +3,11 @@ type: source
 title: "鞠国兴 2019 - 朗道《力学》解读"
 aliases: [鞠国兴朗道力学, 朗道力学解读, Ju2019LandauMechanics]
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: book
-reading_depth: deep-read
+reading_depth: skimmed
 title_original: "朗道《力学》解读"
 authors: [鞠国兴]
 publisher: "高等教育出版社 (北京)"
@@ -85,3 +85,7 @@ topics: [rigid-body-motion, euler-equations, asymmetric-top, routhian, poisson-b
 - [[landau-mechanics-rigid-body-and-routhian-contract]]
 - [[davydov-filippov-triaxial-rotor-and-wobbling-dynamics]]
 - [[cranked-triaxial-shape-coexistence-pes]]
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- §1.2 的两个模型例题分别说明广义坐标必须能唯一指定所讨论的位形，以及定常约束下坐标变换是否显含时间取决于坐标选取。杆例中两种位形可有同一质心纵坐标，移动支架例中约束为 y=0，取相对坐标时 x=v₀t+l₀+q，取 x 本身时变换为恒等式。（物理 PDF 第 18–20 页，§1.2 杆例的式（1）–（2）及移动支架例的两种坐标变换。图 1.1、图 1.2 均在物理 PDF 第 19 页，图形待核。）

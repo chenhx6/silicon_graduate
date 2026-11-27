@@ -1,0 +1,341 @@
+{
+  "batch": "20261127-books-and-manual-reading-w",
+  "created_at": "2026-11-27T10:02:19.652299+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000300",
+      "source": "knowledge/sources/book-behnke-data-analysis-hep.md",
+      "identity": "PDF第3页题名页列完整题名、四位编者及出版社。第4页版权页标2013年，列纸本ISBN 978-3-527-41058-3和ePDF ISBN 978-3-527-65344-7。第19页页脚明载First Edition及Published 2013。第16页的2012年11月是序言落款。所供页文未见本书DOI。",
+      "coverage": [
+        "PDF 1–42 的页标原文文本读段。",
+        "仅核读PDF物理第1–42页的页标抽取文本。正文对应印刷第1–24页，为Roger Barlow所著第1章，止于§1.6习题1.1。物理第43–430页未提供。图表仅核读抽取文字，未作视觉核验。"
+      ],
+      "boundary": [
+        "正文与表式的抽取边界见覆盖记录，未给全书或图像精读计数。"
+      ],
+      "disposition": "partial",
+      "worker": "disjoint terminal Codex book or manual pages",
+      "source_pdf": "raw/books/Data Analysis in High Energy Physics, A Practical Guide to Statistical Methods (Olaf Behnke, Kevin Kroninger, Gregory Schott etc.) (Z-Library).pdf",
+      "sha256": "18cf194b5cd4e86d8413244cf913fe5699de211a68e4a5d1164709e92fcbe84c",
+      "physical_pages": 430
+    },
+    {
+      "id": "catalogue:LIT-000301",
+      "source": "knowledge/sources/book-bertulani-nuclear-reactions.md",
+      "identity": "物理第4页题名页印有 Second Edition，署名 Carlos Bertulani 和 Pawel Danielewicz。物理第5页版权页印有第二版出版年 [2021]、第一版出版年 2004、精装 ISBN 9780367353629、电子版 ISBN 9780429331060 及 LCCN 2020050052。作者全名取自该页编目记录。物理第10页前言署于2020年9月。所读页面未见本书 DOI。",
+      "coverage": [
+        "PDF 1–48 的页标原文文本读段。",
+        "仅审读物理第1–48页的逐页提取文本，覆盖前置页、第1章全部正文及章末参考文献、第2章至§2.5式(2.38)。物理第12–48页对应印刷第1–37页。物理第1、3、7、9、11页无提取文本。未查看图像或第49–421页。"
+      ],
+      "boundary": [
+        "正文与表式的抽取边界见覆盖记录，未给全书或图像精读计数。"
+      ],
+      "disposition": "partial",
+      "worker": "disjoint terminal Codex book or manual pages",
+      "source_pdf": "raw/books/Introduction to Nuclear Reactions (C.A. Bertulani P. Danielewicz) (Z-Library).pdf",
+      "sha256": "ad1391abd781e2277433283b6635679cfc45efc9d9d5472d4aabcd172509cb71",
+      "physical_pages": 421
+    },
+    {
+      "id": "catalogue:LIT-000304",
+      "source": "knowledge/sources/book-bonamente-statistics-scientific-data.md",
+      "identity": "PDF 实体第1、4页标明第三版。第5页印有第三版的2022年版权声明、出版主体及全书 DOI，并区分纸本 ISBN 978-981-19-0364-9 与电子 ISBN 978-981-19-0365-6。启动器独立核验文件为 8583714 字节，SHA-256 为 e5197dffd54d527b9d6925b92eeae34e0859e0062063861f2e54abf333d2b2ca。",
+      "coverage": [
+        "PDF 1–42, PDF 43–85 的页标原文文本读段。",
+        "实际阅读 PDF 实体第1–42页的逐页抽取文字。第1章正文、章末小结及习题1.1–1.10均在范围内。第2章只读到 §2.1 开头，末句截断。实体第43–491页未读。图像和版式尚待管理者核对。",
+        "阅读物理页 43–85 的逐页抽取文字，共 43 页，含正文、公式抽取、表格转录、图注及习题。印刷页码为 22–61、63–65，物理页 82 至 83 之间未见印刷页 62。图形、表格版式及受损数学字形均未目视核验。"
+      ],
+      "boundary": [
+        "正文与表式的抽取边界见覆盖记录，未给全书或图像精读计数。"
+      ],
+      "disposition": "partial",
+      "worker": "disjoint terminal Codex book or manual pages",
+      "source_pdf": "raw/books/Statistics and Analysis of Scientific Data (Graduate Texts in Physics), 3rd Edition (Massimiliano Bonamente) (Z-Library).pdf",
+      "sha256": "e5197dffd54d527b9d6925b92eeae34e0859e0062063861f2e54abf333d2b2ca",
+      "physical_pages": 491
+    },
+    {
+      "id": "catalogue:LIT-000307",
+      "source": "knowledge/sources/book-frib-motivations-experiments.md",
+      "identity": "FRIB Theory Alliance 工作坊合作白皮书的 arXiv v1 预印本。物理第 1 页标注 arXiv:2410.06144v1 [nucl-th]，日期为 2024 年 10 月 8 日。物理第 3 页另有稿件署期 2024 年 10 月 10 日，两处日期分别记录。所读文本未载本作 DOI。馆藏原件路径为 raw/books/Motivations for Early High-Profle FRIB Experiments.pdf，文件名保留原拼写。启动器已独立核验文件大小 8258916 字节、总页数 230 和 SHA-256 d1b6bba7bd97cbc2c256fc32c39be399cb11f1b5579e111f6bf43acf93457282。",
+      "coverage": [
+        "PDF 1–40, PDF 41–81 的页标原文文本读段。",
+        "仅审读物理第 1–40 页的页标抽取文本。正文从引言读至 IV.E 配对效应开头，图件只读抽取标签和图注，未作视觉核验。物理第 41–230 页未提供。",
+        "逐页审读物理页 41–81 的提取文字，共 41 页，范围含正文、图注和可辨公式。物理页 1–40、82–230 未读。图像未作目视核验。"
+      ],
+      "boundary": [
+        "正文与表式的抽取边界见覆盖记录，未给全书或图像精读计数。"
+      ],
+      "disposition": "partial",
+      "worker": "disjoint terminal Codex book or manual pages",
+      "source_pdf": "raw/books/Motivations for Early High-Profle FRIB Experiments.pdf",
+      "sha256": "d1b6bba7bd97cbc2c256fc32c39be399cb11f1b5579e111f6bf43acf93457282",
+      "physical_pages": 230
+    },
+    {
+      "id": "catalogue:LIT-000310",
+      "source": "knowledge/sources/book-heyde-nuclear-physics-concepts.md",
+      "identity": "2004 年第 3 版。物理第 1 页题名页标明 THIRD EDITION，作者印作 K Heyde。物理第 2 页版权页列出 ISBN 0 7503 0980 6，并明确记载第 1、2、3 版分别出版于 1994、1999、2004 年。物理第 11–14 页第三版序言说明本版修订并署名 Kris Heyde。所读页未见本书 DOI。",
+      "coverage": [
+        "PDF 1–40, PDF 41–80 的页标原文文本读段。",
+        "实读物理第 1–40 页的页标提取文本，包括前置材料、导论和第 1 章印刷页 3–17，止于 §1.6.1 开头的式 (1.21)。图件仅依据可提取图题及正文引述登记，未作目视核验。物理第 41–647 页未读。",
+        "审读物理 PDF 第41–80页的提取正文、可读公式、图注和表题，共40页，对应书页第18–57页。起于磁矩讨论中段，止于 Box 1d 标题。图像、表格单元及其余页面均未审阅。"
+      ],
+      "boundary": [
+        "正文与表式的抽取边界见覆盖记录，未给全书或图像精读计数。"
+      ],
+      "disposition": "partial",
+      "worker": "disjoint terminal Codex book or manual pages",
+      "source_pdf": "raw/books/Basic Ideas and Concepts in Nuclear Physics An Introductory Approach (Kris L.G. Heyde) (Z-Library).pdf",
+      "sha256": "0490c8036be9cd8702cd8aec9c858ebb0e898e6c7b2b1056ce36e205f9f3c18a",
+      "physical_pages": 647
+    },
+    {
+      "id": "catalogue:LIT-000311",
+      "source": "knowledge/sources/book-iaea-reaction-data-handbook.md",
+      "identity": "RIPL-2 协调研究项目最终报告。物理第 1 页封面载报告号、题名和出版年月，第 3 页版权页载出版机构、出版地、ISBN 92-0-105206-5 和 ISSN 1011-4289，第 9 页列出 13 位贡献作者。所供文本未载本报告 DOI。启动器核验文件大小为 2720305 字节。",
+      "coverage": [
+        "PDF 1–40 的页标原文文本读段。",
+        "审读物理第 1–40 页所供抽取文本。第 2 页部分题名由去重占位符代替，第 7、13、17 页无抽取文字。正文读至印刷第 27 页，即附录 3.A 首面。物理第 41–172 页未读。图题可读，图像未作目视核验。"
+      ],
+      "boundary": [
+        "正文与表式的抽取边界见覆盖记录，未给全书或图像精读计数。"
+      ],
+      "disposition": "partial",
+      "worker": "disjoint terminal Codex book or manual pages",
+      "source_pdf": "raw/books/Handbook for calculations of nuclear reaction data.pdf",
+      "sha256": "7db49b1250cfe8690cbc5986fec2392518faa24844c6370a6ccf47bce45a61d4",
+      "physical_pages": 172
+    },
+    {
+      "id": "catalogue:LIT-000313",
+      "source": "knowledge/sources/book-ju-landau-mechanics.md",
+      "identity": "物理 PDF 第 1–2 页载书名及编著者，第 3 页的版权页载 2014 年 7 月第 1 版、第 1 次印刷及中国版本图书馆 CIP 数据核字（2014）第 103740 号。ISBN 按同页受损抽取文本规范录为 978-7-04-039945-5。第 6 页的 2013 年 9 月是前言落款，第 7–8 页的版次沿革属于朗道《力学》原著及其译本。",
+      "coverage": [
+        "PDF 1–40 的页标原文文本读段。",
+        "逐页审读物理 PDF 第 1–40 页的原件抽取文本，其中正文为印刷第 1–25 页，读至第二章 §6.2 第 1 项“运动积分”。图形、版面、书签及物理 PDF 第 41–400 页均未核读。"
+      ],
+      "boundary": [
+        "正文与表式的抽取边界见覆盖记录，未给全书或图像精读计数。"
+      ],
+      "disposition": "partial",
+      "worker": "disjoint terminal Codex book or manual pages",
+      "source_pdf": "raw/books/朗道《力学》解读 (鞠国兴) (Z-Library).pdf",
+      "sha256": "4886cb7585f26f41828e75e43d542d787d9202d3e0af41ce645c88bbff4a0d30",
+      "physical_pages": 400
+    },
+    {
+      "id": "catalogue:LIT-000316",
+      "source": "knowledge/sources/book-mangano-mathematica-cookbook.md",
+      "identity": "PDF 物理第3页题名页署名 Sal Mangano。第4页版权页印有 © 2010 Salvatore Mangano、出版者 O’Reilly Media, Inc. 和 ISBN 978-0-596-52099-1。第25页建议引文也使用 Salvatore Mangano 和 2010 年。所读页未载明版次、印次或本书 DOI。第17页表明写作背景为 Mathematica 7.0。归档文件为 raw/books/Mathematica Cookbook.pdf，启动器已核验 30,297,629 字节、827 个物理页及 SHA-256 e0db550c74888adf211725140f3c8549cdfc85aff79f279b1eeb1eb00de2a37d。",
+      "coverage": [
+        "PDF 1–38 的页标原文文本读段。",
+        "逐页核读所供 PDF 物理第1–38页的抽取文本。第1、2、16页无抽取文本，第7–15页主要保留页码，目录条目残缺。正文读至第1章第1.3节在物理第38页的可见部分，对应印刷第12页。第39–827页未读，未做原页目视核验。"
+      ],
+      "boundary": [
+        "正文与表式的抽取边界见覆盖记录，未给全书或图像精读计数。"
+      ],
+      "disposition": "partial",
+      "worker": "disjoint terminal Codex book or manual pages",
+      "source_pdf": "raw/books/Mathematica Cookbook.pdf",
+      "sha256": "e0db550c74888adf211725140f3c8549cdfc85aff79f279b1eeb1eb00de2a37d",
+      "physical_pages": 827
+    },
+    {
+      "id": "catalogue:LIT-000318",
+      "source": "knowledge/sources/book-nakhostin-signal-processing-detectors.md",
+      "identity": "物理第 1 页印有英文书名、原作者、译者和 2020 年 9 月 9 日。该日期可标识本地译本文档，正式出版年待核。队列物理行 383 对应 raw/books/翻译版-SignalProcessingforRadiationDetectors.pdf。启动器已核验文件为 25,233,369 字节，SHA-256 为 85e38c7aeb0121faed84cb0b2d8bb03e3e9c80e65dab84c8aad3893bc1399f99。",
+      "coverage": [
+        "PDF 1–38 的页标原文文本读段。",
+        "逐页审读物理第 1–38 页的提取文本。第 2 页仅提取到页码，第 10 页仅提取到目录页眉和页码。正文读至 §1.3.2 关于载流子俘获的未完句。图件审读限于提取到的图注和正文引用。"
+      ],
+      "boundary": [
+        "正文与表式的抽取边界见覆盖记录，未给全书或图像精读计数。"
+      ],
+      "disposition": "partial",
+      "worker": "disjoint terminal Codex book or manual pages",
+      "source_pdf": "raw/books/翻译版-SignalProcessingforRadiationDetectors.pdf",
+      "sha256": "85e38c7aeb0121faed84cb0b2d8bb03e3e9c80e65dab84c8aad3893bc1399f99",
+      "physical_pages": 427
+    },
+    {
+      "id": "catalogue:LIT-000319",
+      "source": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+      "identity": "MDPI《Physics》专题重印合集的 PDF 版。物理第 1、4 页列三人为编辑，第 5 页载 © 2023、合集 DOI、PDF ISBN 978-3-0365-9505-4、精装 ISBN 978-3-0365-9504-7，并注明各篇独立引用。物理第 6–7 页目录列 14 篇，第 10 页前言确认篇数。归档文件为 raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf。启动器已核验 15560851 字节、334 个物理页和 SHA-256 1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1。",
+      "coverage": [
+        "PDF 1–42 的页标原文文本读段。",
+        "队列物理行 384。本次逐页核读所给 PDF 物理第 1–42 页的提取文本，其中第 3、9、11 页无提取文字。图表证据限于可抽取的图注、表格和正文，未作目视核验。物理第 43–334 页未读。"
+      ],
+      "boundary": [
+        "正文与表式的抽取边界见覆盖记录，未给全书或图像精读计数。"
+      ],
+      "disposition": "partial",
+      "worker": "disjoint terminal Codex book or manual pages",
+      "source_pdf": "raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf",
+      "sha256": "1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1",
+      "physical_pages": 334
+    },
+    {
+      "id": "catalogue:LIT-000321",
+      "source": "knowledge/sources/book-raduta-coherent-states.md",
+      "identity": "PDF第2、4页载书名与作者全名，第5页载Springer International Publishing Switzerland 2015年版权、印刷版ISBN 978-3-319-14641-6、电子版ISBN 978-3-319-14642-3、全书DOI及LCCN 2014959132。第13、17页章首页另印2015年版权及各自的章节DOI。PDF第1页为外加的ResearchGate封页，所列1979年论文题名为BOSON REPRESENTATION OF THE ASYMMETRIC ROTATOR.，并载2016年8月25日的上传日期。启动器独立核验文件大小为13452300字节，SHA-256为98b057e53e323b0f4781060ad5ae4a8c045ac36b32c0650033953360d951aca3。",
+      "coverage": [
+        "PDF 1–38 的页标原文文本读段。",
+        "逐页阅读PDF物理第1–38页的供给文本。正文范围为印刷第1–26页，覆盖第1章全文和第2章至§2.4中途。图2.1–2.3仅核读图注与正文说明，图像、坐标轴和曲线待检。PDF第39–524页待审。"
+      ],
+      "boundary": [
+        "正文与表式的抽取边界见覆盖记录，未给全书或图像精读计数。"
+      ],
+      "disposition": "partial",
+      "worker": "disjoint terminal Codex book or manual pages",
+      "source_pdf": "raw/books/nuclear structure with coherent states_Raduta.pdf",
+      "sha256": "98b057e53e323b0f4781060ad5ae4a8c045ac36b32c0650033953360d951aca3",
+      "physical_pages": 524
+    },
+    {
+      "id": "catalogue:LIT-000322",
+      "source": "knowledge/sources/book-shifrin-mathematica-programming-advanced-introduction.md",
+      "identity": "物理 PDF 第1页封面印有 Part I: The core language 和 Version 1.01；第2页印有 Leonid Shifrin、2008 年版权及 Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States 许可。2009年2月4日是第2页显示的数字签名日期。启动器已核验 raw/books/MathProgrammingIntro.pdf 的 3,488,015 字节、408 个物理页及 SHA-256 43c24ec835b7ad38ee7a4c4a4263f1afc6d6b2812ed764a734980525db8db107。",
+      "coverage": [
+        "PDF 1–40 的页标原文文本读段。",
+        "审读物理 PDF 第1–40页的所给抽取文本。第36页开头的 Map 帮助输出有一段被去重占位符替代，其余可见文字已读。第41–408页正文未读。图形与版面均未目视核验。"
+      ],
+      "boundary": [
+        "正文与表式的抽取边界见覆盖记录，未给全书或图像精读计数。"
+      ],
+      "disposition": "partial",
+      "worker": "disjoint terminal Codex book or manual pages",
+      "source_pdf": "raw/books/MathProgrammingIntro.pdf",
+      "sha256": "43c24ec835b7ad38ee7a4c4a4263f1afc6d6b2812ed764a734980525db8db107",
+      "physical_pages": 408
+    },
+    {
+      "id": "catalogue:LIT-000323",
+      "source": "knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+      "identity": "PDF 第 1 页为 Theoretical and Mathematical Physics 丛书页，第 2 页题名页署 Jouni Suhonen，第 3 页版权页载 Springer-Verlag Berlin Heidelberg 2007、ISBN-13 978-3-540-48859-0、ISBN-10 3-540-48859-6、ISSN 0172-5998、LCCN 2006937529 和 SPIN 11567394。第 7 页的 2006 年 7 月为序言落款。所供书目信息未载 DOI。启动器核验文件 raw/books/From nucleons to nucleus concepts of microscopic .pdf，大小 6514067 字节，SHA-256 为 4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c。",
+      "coverage": [
+        "PDF 1–40 的页标原文文本读段。",
+        "逐页核读物理 PDF 第 1–40 页的文本，覆盖前置页、目录、第 1 章正文及习题、第 2 章开头至式 (2.10)。第 41–654 页未读。所供文本未提取编号图、编号表或可对应的图注。题名页标示全书 103 幅图，图版尚待管理员检查。"
+      ],
+      "boundary": [
+        "正文与表式的抽取边界见覆盖记录，未给全书或图像精读计数。"
+      ],
+      "disposition": "partial",
+      "worker": "disjoint terminal Codex book or manual pages",
+      "source_pdf": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "physical_pages": 654
+    },
+    {
+      "id": "catalogue:LIT-000430",
+      "source": "knowledge/sources/gosia-2012-manual-sigma-invariants.md",
+      "identity": "实体第1页封面署名六位作者，日期为2012年5月10日。第2页记载手册于2012年5月1日升级，适用于 Gosia_20110524.2、Gosia2_20081208.14 和 Rachel 1.1.5。第13页正文另称2012年4月版，并提及2011年的大幅改写。书目日期取封面，三处日期表述各按原位置记录。启动器已核验队列文件为5,082,835字节、310个实体页，SHA-256 为 8258219d56fe5a7ced3a761ab3b07388089cd30e46adcde72f4a1c0c1f6cc633。已提供页面未见手册本身的 DOI。",
+      "coverage": [
+        "PDF 1–34, PDF 35–70, PDF 71–105, PDF 106–140, PDF 141–175, PDF 176–210, PDF 211–245, PDF 246–263, PDF 264–280, PDF 281–310 的页标原文文本读段。",
+        "本次审读实体第1至34页的页标提取文本，共34页。第35至310页未读，全部图像均未目视核验。",
+        "本轮逐页审读物理第35–70页所供文字，共36个连续页标。第56、68页仅抽取到页眉。第35页从§3.3中段开始，第70页止于§6.1段中。图的证据限于图题与正文说明。其余PDF页、图像及源码均未在本轮审读。",
+        "实读 PDF 物理页71–105的逐页提取文本，共35页。首句承接 §6.1 前文，末页止于 §6.7.8 的式(6.108)。阅读包括提取出的正文、公式、表格数值和图注。图像、版面和公式字形均待视觉核对。",
+        "实际阅读物理第106–140页的抽取文字，共35页。第106页从灵敏度参数讨论中段开始，第140页止于圆形探测器输入小节开头。图7.1仅阅读图注和相邻正文，图像待核。",
+        "实际阅读物理PDF第141–175页的抽取文字及可见图注，共35个连续页位。从§7.12中段开始，读至§7.30。第149页有三处去重占位，覆盖仅计可见文字。图版待管理者检视，本次未作视觉核验。",
+        "仅阅读所给物理第176–210页的页标文本，共35页，含第186页仅有页眉的抽取内容。图件阅读限于抽取图注。未核看原页图像、封面、摘要、书目或范围外正文。",
+        "仅审读物理 PDF 第211–245页的页标提取文本，共35个页标。第211页从相关误差流程第7步开始，第218页仅提取到页眉，第234页有去重占位缺文，第245页在靶核并行输入清单中截断。第9章从章首到章末的提取文字均已审读，图像和原版排印未经视觉核查。",
+        "仅审读物理页246–263的给定文本，共18页。p248仅有章眉，p260、p261、p263除章眉外仅有图注，p259另有零散图中文字。所有图面均待查验。",
+        "逐页审读物理 PDF 第 264–280 页的给定提取文本，共 17 页，含仅提取到页眉及图注的页面。未查看图像。其余物理页未读。",
+        "审读物理第281至310页的抽取文本，共30页。第281页从 §15.1 中途起读，第284和300页的抽取内容仅有页眉。本次未作视觉核验，物理第1至280页及 SIGMA 源码均未重读。"
+      ],
+      "boundary": [
+        "正文与表式的抽取边界见覆盖记录，未给全书或图像精读计数。"
+      ],
+      "disposition": "partial",
+      "worker": "disjoint terminal Codex book or manual pages",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/gosia-user-manual-20120510.pdf",
+      "sha256": "8258219d56fe5a7ced3a761ab3b07388089cd30e46adcde72f4a1c0c1f6cc633",
+      "physical_pages": 310
+    },
+    {
+      "id": "catalogue:LIT-000303",
+      "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure.md",
+      "identity": "Bohr and Mottelson I, World Scientific 1999 printing.",
+      "coverage": [
+        "PDF 50–88（印 31–69）完整补读，卷 I 科学正文连续核至 PDF 88。"
+      ],
+      "boundary": [
+        "以主控接续定位及局部证据边界为准。"
+      ],
+      "disposition": "partial",
+      "worker": "Pascal",
+      "source_pdf": "raw/books/nuclear structure Ⅰ_Bohr, Mottelson.pdf",
+      "sha256": "a31a158e0aff2ec6734d46f5aea5eb42dbebb82280835774f49350dd6f8c79df",
+      "physical_pages": 492
+    },
+    {
+      "id": "catalogue:LIT-000309",
+      "source": "knowledge/sources/book-hamilton-electromagnetic-interaction.md",
+      "identity": "Hamilton ed. local 1975 facsimile, Ch. 13 Steffen and Alder.",
+      "coverage": [
+        "PDF 629–653（印 618–642）补新 25 页，PDF 654 引文、655 无编号空白作角色核定。第 13 章读段闭合。"
+      ],
+      "boundary": [
+        "以主控接续定位及局部证据边界为准。"
+      ],
+      "disposition": "partial",
+      "worker": "Sartre",
+      "source_pdf": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+      "sha256": "93b32a8debb66ad036229d860ad56f0434dc49b56edd32f1628af1d71a21ae00",
+      "physical_pages": 956
+    },
+    {
+      "id": "catalogue:LIT-000320",
+      "source": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+      "identity": "Petrache ed., CRC Press 2025, local original 339 pages.",
+      "coverage": [
+        "PDF 195–202 完成章节 8 的正文；PDF 239–241、247–253 补齐第 11 章正文，合计 18 新页。",
+        "与同哈希历史读段及第 2、12 章刊版对账后 17 章已有正文覆盖记录。"
+      ],
+      "boundary": [
+        "以主控接续定位及局部证据边界为准。"
+      ],
+      "disposition": "partial",
+      "worker": "Hubble",
+      "source_pdf": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+      "sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+      "physical_pages": 339
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 767,
+    "duplicate-or-related-version": 29,
+    "duplicate-excerpt-linked-to-canonical": 13,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 9,
+    "out-of-scope-particle-production": 3,
+    "pending-identity-and-coverage": 5,
+    "archived-publisher-scan-missing-printed-page": 1,
+    "read-core-evidence-checked": 1,
+    "publisher-first-page-extract-fulltext-unavailable": 8,
+    "evaluated-data-extract-covered": 7,
+    "out-of-scope-atomic-spectroscopy": 4,
+    "editorial-front-matter": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 2,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "existing-source-coverage-to-audit": 25,
+    "conference-abstract-covered": 3,
+    "supplement-with-main-text-gap": 1,
+    "commentary-complete-shared-pages": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 30,
+  "credited_works": 0,
+  "credited_primary_pages": 0,
+  "partial_volume_pages": 82,
+  "next_action": "Continue Bohr–Mottelson I PDF 89, Hamilton PDF 656, Petrache front and back matter, and remaining local works.",
+  "uncredited": [],
+  "related_materials": []
+}

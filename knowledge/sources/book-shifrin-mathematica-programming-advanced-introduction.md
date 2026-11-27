@@ -3,7 +3,7 @@ type: source
 title: "Leonid B. Shifrin 2008 - Mathematica Programming: An Advanced Introduction"
 aliases: [Shifrin Mathematica programming, Mathematica programming advanced introduction]
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: programming-book
@@ -95,3 +95,7 @@ tags: [books, mathematica, programming, functional-programming, symbolic-computa
 
 - `raw/books/MathProgrammingIntro.pdf`, PDF pp. 4–16, 26–57, 58–91, 92–212, 214–394.
 - [[mathematica-to-python-nuclear-analysis-bridge]]
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- 书中示例用 FullForm 展开 Times、Sin 和 Plus 的嵌套结构，用 Head 取表达式的头，用 Part 的零位索引取指定子表达式的头，并用 Level 展示不同层级的子项。（物理 PDF 第26–29页，§§1.1.3–1.1.7。第27、29页的无编号 TreeForm 图均待核连线与节点顺序。）

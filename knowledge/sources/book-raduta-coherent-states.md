@@ -3,11 +3,11 @@ type: source
 title: "A. A. Raduta 2016 - Nuclear Structure with Coherent States"
 aliases: [Raduta2016, CSM模型, 相干态核结构, 三轴相干态模型]
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: deep-read
+reading_depth: skimmed
 title_original: "Nuclear Structure with Coherent States"
 authors: [A. A. Raduta]
 publisher: "Springer International Publishing Switzerland"
@@ -76,3 +76,7 @@ CSM 模型巧妙地架设在微观玻色子算符与半经典宏观转动之间�
 ## Extracted Pages
 
 核心章节已提取并形式化为 Wiki 概念与方法合同。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- 作者以轴对称四极Glauber相干态作为CSM的内禀基态，只用m=0四极玻色子模构造该态。β、γ带的内禀态在§2.1中概述为基态的低阶多项式激发。基带投影态取K=0，同时施加玻色子数投影可构造具有确定N和J的态。（PDF第17–19页，§2.1及式(2.1.2)、(2.1.7)、(2.1.11)；PDF第29–31页，式(2.3.1)–(2.3.2)、(2.3.6)–(2.3.7)。投影积分记号待核PDF第29、31页。）

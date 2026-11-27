@@ -3,11 +3,11 @@ type: source
 title: "Carlos A. Bertulani & P. Danielewicz 2021 - Introduction to Nuclear Reactions (2nd Edition)"
 aliases: [Bertulani2021, Introduction to Nuclear Reactions, 反应论基础]
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: deep-read
+reading_depth: skimmed
 title_original: "Introduction to Nuclear Reactions"
 authors: [Carlos A. Bertulani, Pawel Danielewicz]
 publisher: "CRC Press / Taylor & Francis Group"
@@ -72,3 +72,7 @@ tags: [nuclear-reactions, transmission-coefficients, level-density, scattering-m
 ## Extracted Pages
 
 核心章节已提取并形式化为 Wiki 概念与方法合同。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- 教材转述金箔散射实验，多数 α 粒子穿过金箔，少数发生大角度反散射。（物理第12–13页，§1.1、图1.1。图注将其标为实验示意图，观察结论来自第12页正文。）

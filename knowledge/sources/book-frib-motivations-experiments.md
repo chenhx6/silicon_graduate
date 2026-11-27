@@ -3,11 +3,11 @@ type: source
 title: "FRIB 2014 - Motivations for Early High-Profile FRIB Experiments"
 aliases: [FRIB2014, FRIB Early Experiments, 稀有同位素前沿科学]
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: report
-reading_depth: deep-read
+reading_depth: skimmed
 title_original: "Motivations for Early High-Profile FRIB Experiments"
 authors: [FRIB Science Community / NSCL / MSU]
 year: 2014
@@ -83,3 +83,8 @@ tags: [drip-line-physics, shell-evolution, halo-nuclei, r-process, nuclear-astro
 ## Extracted Pages
 
 核心章节已提取并形式化为 Wiki 概念与方法合同。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- 报告给出初级束功率为 10 kW 时的 FRIB 束流产额估算。核素图所示质子与中子滴线来自 UNEDF1 能量密度泛函计算。（物理第 7 页 I 正文及第 8 页图 1 图注，[3]。逐核素产额、色标和图例须查看第 8 页原图。）
+- 报告用单中子分离能接近配对能隙作为弱束缚效应可能开始显现的判据，据此提示 N=82 壳闭合上方的 ¹³⁴Sn 及更重锡同位素的低能配对性质可能受影响。（物理页 41 的判据和锡同位素讨论。配套图 6 在物理页 42，曲线和具体数值待目视核查。）

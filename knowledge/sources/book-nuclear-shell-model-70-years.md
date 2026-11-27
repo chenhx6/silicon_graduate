@@ -3,11 +3,11 @@ type: source
 title: "The Nuclear Shell Model 70 Years after Its Advent: Achievements and Prospects"
 aliases: [Nuclear Shell Model 70 Years, Gargano De Gregorio Lenzi shell-model special issue]
 created: 2026-11-03
-updated: 2026-11-03
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: edited-special-issue-reprint
-reading_depth: read
+reading_depth: skimmed
 title_original: "The Nuclear Shell Model 70 Years after Its Advent: Achievements and Prospects"
 authors: ["Angela Gargano", "Giovanni De Gregorio", "Silvia Monica Lenzi", "editors"]
 year: 2023
@@ -228,3 +228,7 @@ SMMC 能级密度与低能 M1 剪刀模对中子俘获反应率的增强。
 - [[casten-shell-model-pairing-and-collectivity-foundations]]
 - [[book-heyde-nuclear-physics-concepts]]
 - [[two-neutron-separation-energy-pairing-gaps-and-shell-closures]]
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- Talmi 转述，¹⁴C 衰变的观测时间尺度超过 5000 年，其到 ¹⁴N 基态的 Gamow–Teller 矩阵元极小且非零。（PDF 物理第 15 页衰变正文、第 17 页镜像比较正文。矩阵元定义见第 15 页式 (4)。）

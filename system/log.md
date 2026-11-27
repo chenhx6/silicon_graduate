@@ -7526,3 +7526,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-27 — 馆藏续读第 22 批
 
 - 核定 10 份、700 个主件 PDF 页，另写回 Baglin A=192 评价 102 页覆盖。队列剩 30 条。
+
+## 2026-11-27 — 馆藏续读第 23 批
+
+- 新增三本书 82 个版面核对页，并写回其余书与 GOSIA 手册的文本读段。队列剩 30 条。

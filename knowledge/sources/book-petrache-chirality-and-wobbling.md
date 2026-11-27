@@ -140,3 +140,7 @@ tags: [books, triaxiality, wobbling, chirality, competing-interpretations]
 ## 2026-11-27 — 馆藏原件与覆盖核对
 
 Guo–Lv 第 5 章 PDF 114、116、117 的 ¹³⁶Nd、¹⁰³Rh、¹³¹Ba 图各自沿原实验引用。Raduta 等第 8 章 PDF 167–194 的 ¹⁵⁸Er、¹⁶³Lu 比较保留模型强度与实验列，非平面配置为指定耦合下的解。书级目录区分各章不同作者、DOI、数据依赖及源页定位。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+第 8 章 PDF 197 比较三个 ¹³⁵Pr 带面板，PDF 201 的实验电磁比复用 Matta 与相关既有观测。第 11 章 PDF 250 Fig. 11.7 的 ¹²⁸Cs g 实测点沿 Grodner，同图其余计算与第 11.8 NME 的数据关系分别登记。

@@ -3,11 +3,11 @@ type: source
 title: "Olaf Behnke 等 2013 - Data Analysis in High Energy Physics: A Practical Guide to Statistical Methods"
 aliases: [Behnke2013, Data Analysis in HEP, 高能与实验物理数据分析指南]
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: deep-read
+reading_depth: skimmed
 title_original: "Data Analysis in High Energy Physics: A Practical Guide to Statistical Methods"
 authors: [Olaf Behnke, Kevin Kröninger, Grégory Schott, Thomas Schörner-Sadenius]
 publisher: "Wiley-VCH Verlag GmbH & Co. KGaA"
@@ -72,3 +72,7 @@ tags: [statistical-methods, hypothesis-testing, confidence-intervals, nuisance-p
 ## Extracted Pages
 
 核心章节已提取并形式化为 Wiki 概念与方法合同。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- 第1章用高斯分布描述连续变量，以泊松分布描述给定期望值的事件计数，以二项分布描述固定试验次数的成功数。表1.1的抽取文字列出双侧高斯尾概率，其中1σ为31.7%，5σ约为0.0000573%。（PDF第24页式(1.13)，第26页表1.1及式(1.19)，第27页式(1.20)。表1.1的数值及行列对应待核PDF第26页。）

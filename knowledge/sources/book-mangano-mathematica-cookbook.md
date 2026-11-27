@@ -3,7 +3,7 @@ type: source
 title: "Sal Mangano 2010 - Mathematica Cookbook"
 aliases: [Mangano Mathematica Cookbook, Mathematica Cookbook]
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: programming-cookbook
@@ -101,3 +101,7 @@ tags: [books, mathematica, cookbook, numerical-analysis, statistics, visualizati
 
 - `raw/books/Mathematica Cookbook.pdf`, PDF pp. 5–26, 27–48, 49–206, 301–354, 451–574, 667–714, 767–802.
 - [[mathematica-to-python-nuclear-analysis-bridge]]
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- 书中以精确输入和带小数点的输入比较平方根计算。后者的近似显示为 1.41421。后续 Precision 示例分别将两种结果报告为无穷精度和 MachinePrecision。（PDF 第28页 In[7]/Out[7]、第29页 In[9]/Out[9]、第34页 In[37]–In[38]。第28页输出的根号缺失，第34页无穷符号误抽取，均待核原页。）

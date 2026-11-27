@@ -3,11 +3,11 @@ type: source
 title: "Kris L. G. Heyde 1999 - Basic Ideas and Concepts in Nuclear Physics: An Introductory Approach (2nd Edition)"
 aliases: [Heyde1999, Heyde Basic Ideas, 海德核物理基础]
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: deep-read
+reading_depth: skimmed
 title_original: "Basic Ideas and Concepts in Nuclear Physics: An Introductory Approach"
 authors: [Kris L. G. Heyde]
 publisher: "Institute of Physics Publishing (IOP), Bristol and Philadelphia"
@@ -72,3 +72,8 @@ tags: [nuclear-structure, configuration-mixing, electromagnetic-transitions, nuc
 ## Extracted Pages
 
 核心章节已提取并形式化为 Wiki 概念与方法合同。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- 教材概括核质量数据所得的系统性规律：每核子结合能在广泛质量区约为 8 MeV，并随质量数变化。曲线和坐标待读图确认。（§1.3，物理第 28、32–33 页，图 1.5 在物理第 33 页。）
+- 书中转述了 FeF₃ 样品中 ⁵⁷Fe 的穆斯堡尔超精细谱，分别讨论磁分裂和电四极分裂。电四极实例涉及第一激发态 3/2⁻ 的子态。谱线排列与分图对应关系待查物理第53页。（物理第52–53页，§1.7 末段及图1.18(a–d)，图注归于 Valentin（1981）。）
