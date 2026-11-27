@@ -7460,3 +7460,5 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - 7个固定外部来源/41样本身份复核；不执行上游样本，不采用无限循环、跳权限、整体暂存或模型评分准入。
 - 24项相关测试、三类知识记录回放及三次恢复通过；路径/归档/自动化预检通过，归档0失败，同原件全库lint基线与候选均129个既有error，本轮无新增。未实测博士能力或科学发现增益。
 - 隔离分支保护馆藏任务dirty；canonical方法为 [[evidence-driven-research-cycle]]，实际验收与Git交付见 `outputs/plans/20261127-research-capability-adoption/`。
+
+- 本批核定 3 份、132 个主件 PDF 页，归位源码包 65 件图，核对 3 份刊文首页。第二卷另核 PDF 445–455，下一页 PDF 456（印 434）。正式队列待处理 352 条。

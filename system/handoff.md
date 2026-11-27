@@ -29,6 +29,8 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 本批核定 13 份、351 个主件 PDF 页，涵盖快定时、角关联、偏振、Xe 形状模型及 ¹⁰⁶Ag 学位论文。另核定 22 条关联材料，其中 19 张源码包图件、1 份另一排版及 2 份同文首页节录。累计 513 份、20,235 个主件 PDF 页，正式队列待处理 423 条。第二卷另核 PDF 433–444（印 411–422），续读 PDF 445（印 423）§6-5b。稳定指针为 `research/archive-learning-20261127` + `research: verify fast-timing sources and archived figure roles`。见[原件覆盖](../outputs/literature-acquisition/20261119-deep-learning/20261127-timing-theory-e-audit.json)和[关联图件及节录](../outputs/literature-acquisition/20261119-deep-learning/20261127-figure-assets-e-audit.json)。
 
+本批核定 3 份、132 个主件 PDF 页，包括 Mallaburn 与 Régis 的定时研究和柳敏良学位论文。另归位 65 张源码包图件，核对 3 份刊文首页节录。累计 516 份、20,367 个主件 PDF 页，待处理 352 条。第二卷另核 PDF 445–455（印 423–433），续读 PDF 456（印 434）§6-5g。稳定指针为 `research/archive-learning-20261127` + `research: verify authored figure packages and spectroscopy sources`。见[定时、学位论文与书](../outputs/literature-acquisition/20261119-deep-learning/20261127-timing-thesis-f-audit.json)和[源码包与节录](../outputs/literature-acquisition/20261119-deep-learning/20261127-source-package-and-extracts-f-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

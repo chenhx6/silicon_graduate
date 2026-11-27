@@ -2260,3 +2260,8 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[bally-2022-xe128-129-130-multireference-edf]] — Xe 多参考态 EDF、Kumar 不变量与态依赖。
 - [[nomura-2017-gogny-ibfm-odd-mass-gamma-soft]] — Gogny–IBFM 形状演化和数据谱系。
 - [[eberth-simpson-2008-germanium-tracking-review]] — Ge 探测器、位置重建和 γ 跟踪综述。
+- [[mallaburn-2019-recoil-focal-plane-time-of-flight]] — 焦平面植入位置和快定时光程校正。
+- [[regis-2020-xray-fast-timing-deviations]] — X 射线能区快定时、探头间散射及背景修正。
+- [[egido-robledo-1990-barium-negative-parity-extract]] — Ba 负宇称态集体计算的刊文首页。
+- [[juutinen-1994-110cd-gamma-spectroscopy-extract]] — ¹¹⁰Cd NORDBALL 谱学的刊文首页。
+- [[piiparinen-1993-110cd-yrast-lifetimes-extract]] — ¹¹⁰Cd yrast 寿命的刊文首页。
