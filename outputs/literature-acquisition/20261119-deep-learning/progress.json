@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "doi:10.1088/0305-4616/6/5/008",
+  "active_source": "catalogue:LIT-000303",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -677,7 +677,7 @@
     "LOCAL-ROTATION-AND-DEFORMATION-SOURCES",
     "LOCAL-THEORY-AND-SPECTROSCOPY-245"
   ],
-  "completed_full_sources_this_run": 665,
+  "completed_full_sources_this_run": 698,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -685,24 +685,24 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-27T07:07:36.390161+00:00",
+  "updated_at": "2026-11-27T07:38:40.131378+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 24381,
-  "current_source_note": "knowledge/sources/ca41-angular-distribution-linear-polarization.md",
+  "completed_primary_pages_this_run": 25060,
+  "current_source_note": "knowledge/sources/book-bohr-mottelson-nuclear-structure.md",
   "next_action": "Continue the next claimed local sources, including remaining tables or figures from partial entries.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "37 works credited 518 pages; two related carriers and five partials recorded.",
+  "last_source_manager_closure": "33 works credited 679 pages; two non-primary material roles recorded.",
   "current_source_scientific_acceptance": "Vol. II complete; continue the open queue, including archival PDFs needing original tables or scans.",
   "source_scoped_retrieval": "Existing local originals; publisher and author versions recorded separately.",
   "counting_scope": {
-    "scientific_reading_covered": 647,
+    "scientific_reading_covered": 680,
     "bounded_or_core_only_completed": 18,
-    "credited_pages_explicit_in_queue": 13923,
+    "credited_pages_explicit_in_queue": 14602,
     "pages_carried_forward_from_previous_checkpoints": 10458,
     "increment_this_checkpoint": {
-      "works": 37,
-      "pages": 518,
+      "works": 33,
+      "pages": 679,
       "partial_volume_pages_recorded_separately": 0,
       "associated_rows": 2
     }
@@ -725,5 +725,5 @@
     "resume_printed_page": 259,
     "background_reading_scheduled": false
   },
-  "latest_batch_audit": "20261127-polarization-local-corpus-q-audit.json"
+  "latest_batch_audit": "20261127-isomers-theses-and-mixing-ratios-r-audit.json"
 }

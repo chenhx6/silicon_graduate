@@ -7506,3 +7506,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-27 — 馆藏续读第 17 批
 
 - 核定 37 份、518 个主件 PDF 页与 2 条关联载体，写回 5 条有界读段。队列剩 173 条。
+
+## 2026-11-27 — 馆藏续读第 18 批
+
+- 核定 33 份、679 个主件 PDF 页和 2 条非主件。队列剩 138 条。

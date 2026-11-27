@@ -8,7 +8,7 @@ updated: "2026-11-27"
 status: "ai-draft"
 review_status: "unreviewed"
 source_type: "journal-article"
-reading_depth: "skimmed"
+reading_depth: read
 year: 1999
 doi: "10.1016/S0375-9474(99)00351-6"
 canonical_source: "J. Gizon et al., Nuclear Physics A 658, 97–128 (1999)"
@@ -56,3 +56,9 @@ Complete publisher scan, print 97–128, matching publisher XML. PDF 31 is image
 ## Extracted Pages
 
 PDF 1–11 的实验及带指派、12–30 有界比较、31–32 参考；PDF 31 通过页面图像。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- The scan prints P=−1.25(62), +1.52(82) and +1.46(65), respectively. Their central estimates extend outside [−1,1] but the quoted errors include the physical boundary. Preserve the estimates and uncertainty as printed without clipping and keep the weak multipolarity constraints explicit. (PDF 5–6 (101–102), Table 1, e.g. 603.6, 1284.2 and 1382.7 keV.)
+- The negative-parity band-1 paragraph prints a truncation at Iπ=20⁺; Fig. 5 and the section identify the negative-parity sequence ending at I=20. Retain spin 20 as the comparison cutoff and flag the superscript mismatch. (PDF 21 (117), Fig. 5 and adjacent band-1 text.)
+- The electromagnetic paragraph orders proton/neutron charges and gyromagnetic ratios against ¹⁰³Pd/¹⁰¹Rh “respectively,” while steps 2 and 3 actually develop neutron ¹⁰³Pd and proton ¹⁰¹Rh. Retain the explicit step assignments and flag the later ordering before parameter reuse. (PDF 13–15 (109–111), §4.1.1, model steps 2–4.)

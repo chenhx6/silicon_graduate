@@ -3,12 +3,12 @@ type: source
 title: "The 229-thorium isomer: doorway to the road from the atomic clock to the nuclear clock"
 aliases: ["thirolf-2019-229th-isomer-doorway-tutorial", "Peter G. Thirolf 2019"]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
 source_type: tutorial-review
-reading_depth: deep-read
+reading_depth: read
 title_original: "The 229-thorium isomer: doorway to the road from the atomic clock to the nuclear clock"
 authors: ["Peter G. Thirolf", "Benedict Seiferle", "Lars von der Wense"]
 journal: "Journal of Physics B: Atomic, Molecular and Optical Physics"
@@ -41,14 +41,14 @@ tags: ["229th", "isomer", "nuclear-clock", "vuv-spectroscopy"]
 
 ## Summary
 
-Thirolf, Seiferle, and von der Wense provided a comprehensive 25-page tutorial review covering four decades of 229Th research (1976-2019). The tutorial details alpha recoil kinematics from 233U, buffer-gas stopping efficiency (~5.3%), RF quadrupole extraction (2-9%), conversion electron detection, Th2+ hyperfine spectroscopy, and the roadmap toward solid-state and trapped-ion clocks.
+本地 PDF 含一张下载封页和 24 页综述，按 ²³³U 反冲、提取、核态辨识、衰变读出与光谱方案讨论其证据。
 
 ## Key Results
 
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| TH19-1 | Compiled 40-year numerical chronology: 1976 (<100 eV), 1990 (-1~5 eV), 1994 (3.5 eV), 2007 (7.6 eV), 2016 (direct detection), 2017 (7 μs), 2019 (8.28 eV). | author-analysis | review compilation | pp. 203001-2 to 203001-7, Sec. 1 | true |
-| TH19-2 | Detailed technical parameters for buffer-gas stopping (30 mbar He) and extraction efficiencies (Table 1). | observed-fact | direct review | pp. 203001-8 to 203001-11, Table 1 | true |
+| TH19-1 | 综述依次列 1990 年 −1±4 eV、1994 年 3.5±1 eV、2007 年 7.6±0.5 eV 及修订 7.8±0.5 eV。8.28±0.17 eV 见独立 [[seiferle-2019-energy-229th-nuclear-clock]]。 | author-analysis | review compilation | 本地 PDF 2–4 Figs. 1–2；PDF 18–21 §§3.3–4 | true |
+| TH19-2 | 约 5.3% 为 360(20) nm UF₄ 源的反冲逃逸率；Table 1 列 1+、2+、3+ 的 0.37(7)%、5.5(11)%、10(2)% 提取效率。 | observed-fact | direct review | PDF 8 §2.2.1；PDF 10（印 9）Table 1、Ref. [124] | true |
 
 ## Competing Interpretations and Limitations
 
@@ -58,3 +58,10 @@ Tutorial review synthesis; citations of 1976-1994 works are secondary literature
 
 - [[thirolf-2019-229th-isomer-doorway-tutorial]]
 - [[nuclear-clock-isomer-learning-and-transfer-20261107]]
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- Twenty-four printed tutorial pages plus one local download cover. The ~5.3% is recoil escape from the cited 360(20)-nm UF₄ source. The tabulated ²²⁹Th extraction efficiencies are charge-specific: 0.37(7)%, 5.5(11)% and 10(2)% for 1+, 2+ and 3+. These are separate efficiencies at separate stages. (PDF 2 / p.1 article extent; PDF 8 / p.7 §2.2.1 source description; PDF 10 / p.9 Table 1 and its denominator discussion)
+- The 1990 indirect estimate was (−1±4) eV and motivated a <10 eV bound. The 1994 value was 3.5±1 eV, the 2007 result 7.6±0.5 eV and the subsequent revision 7.8±0.5 eV. This tutorial ends with a more precise isomer energy as an open goal. Attribute 8.28±0.17 eV to the separate Seiferle 2019 primary. (PDF 2–4 / pp.1–3 §1.1, Figs. 1–2; PDF 18–21 / pp.17–20 §§3.3–4; Seiferle 2019 PDF 3 / print 245 Eq. (1), local-isomer-2/group-1.md)
+- The reviewed LMU stopping cell is described at 32–40 mbar ultra-pure He; the extraction chamber was lower-pressure. Attribute Table 1 to the earlier in-line monitoring cited as [124]. (PDF 8 / p.7 §2.2.1; PDF 9 / p.8 Figs. 6–7; PDF 10 / p.9 Table 1)
+- Keep these as two earlier measurements: the 2016 MCP-neutralization conversion-electron signal with controls, and the 2017 6.9–7.0±1.0 μs half-lives after surface neutralization of incoming 2+ and 3+ beams. The quoted half-life concerns the neutralized atom’s conversion decay. (PDF 11–13 / pp.10–12 Figs. 9–11; PDF 14–16 / pp.13–15 Figs. 12–16; Seiferle PRL 118, 042501 (2017), PDF 1 and 4)

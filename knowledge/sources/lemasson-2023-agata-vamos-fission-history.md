@@ -3,7 +3,7 @@ type: source
 title: "Lemasson 2023：fission Doppler 的角覆盖、degrader 与 prompt-delayed history"
 aliases: [AGATA VAMOS fission spectroscopy 2023, Lemasson prompt delayed recoil history]
 created: 2026-10-14
-updated: 2026-10-14
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: instrument-experiment-review
@@ -134,3 +134,25 @@ P0：sourceidentity/raw未归档与printednucleus标签边界隔离。P1：LS23-
 ## Extracted Pages
 
 PDF1–12全文主线；corepp.2–5,7–9,11；Table1/Fig6视觉核验，underlyingfullpacket仍未取得。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- {"range": "物理 PDF 1–3", "sections": "§1–2 引言、四组实验的表1、同位素鉴别；§3 开头"}
+- {"range": "物理 PDF 4–6", "sections": "§3 逐事件多普勒校正，§4 瞬发谱比较及 ⁹⁶Kr、⁸¹Ga，§5.1 开头"}
+- {"range": "物理 PDF 7–10", "sections": "§5 RDDS 与 ⁸⁴Ge，§6 瞬发—延迟符合与核素示例，§7 总结"}
+- {"range": "物理 PDF 11–12", "sections": "致谢、参考文献 1–62"}
+- 本次获取的具体覆盖：逐页审读物理 PDF 1–12 的供给文本，涵盖七节主文、表1、图注、致谢和参考文献。物理 PDF 4 的图形区有两处去重占位，图2和图3的图注仍可读。本次未核验图像。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A18-1 | 作者以 ⁹⁸Zr 的 1222.9 keV 跃迁报告三种能量分辨率。EXOGAM 全部探测环为 15 keV，仅取后角为 7 keV，AGATA 在 100°–170° 为 5 keV。图3两条谱按相同总计数归一，比较须保留阵列和角选择。 | 所报实验比较 | source-reported | 物理 PDF 4–5 §4.1 与 PDF 4 图3图注。图谱细节及抽取中省略的图形区域待查物理 PDF 4。 | true |
+| A18-2 | 实验4在 470 μm 靶箔间距下用降能箔后的实测速度矢量校正同一批 ⁹⁸Zr 事件。箔后飞行中发射的 γ 形成 U 分量，箔前较快阶段的发射在后角形成能量较低且随角度变化的 S 分量。 | 所报实验观测及校正定义 | source-reported | 物理 PDF 2 表1、PDF 7 §5.1 及图6(a)–(b)。S/U 标注和图带待查物理 PDF 7。 | true |
+| A18-3 | 实验1在靶附近用 AGATA 测瞬发 γ，在焦平面离子停下后用 EXOGAM 测延迟 γ。¹³²Te 示例用延迟 151 keV 门观测到瞬发 292、624、900、1040 keV 线，也用瞬发 1040 keV 门观测到延迟 103、151、697、974 keV 线，两组门属于同一次符合测量。 | 所引实验观测 | source-reported | 物理 PDF 8 §6.1、PDF 9 图9(b)–(c)及其正文。门与面板的对应待查物理 PDF 9。 | true |
+| A18-4 | 由 Z=34 的软三轴形态过渡到 Z=32 的长轴形变，是作者转述文献 [19] 对寿命换算的 B(E2) 数据与模型比较后提出的解释。 | 所引结构解释 | source-reported | 物理 PDF 7–8 §5.3、PDF 8 图8及模型图例；图中实验点与模型符号待查物理 PDF 8。 | true |
+
+建议接受既有 Wiki 对 arXiv:2306.10818v1 的同版覆盖。首页版本标记、12 页范围和 SHA-256 与笔记相符。本次未取得期刊排印版的逐页证据，期刊版覆盖待定。
+
+- 将 Wiki 的 `raw_storage_status: reserved-unpopulated-public-preprint-only` 和正文的 raw 未填充描述更新为「同哈希公开预印本已在所列 raw 路径归档」。保留 `public-arxiv2306.10818v1`，将临时副本路径记为获取历史。
+- 物理 PDF 5 §4.2 把 ⁹⁶Kr 写为 Z=38，应登记 Z=36、N=60。物理 PDF 6 §4.3 把 ⁷⁸Ni 写为 A=50，应登记 Z=28、N=50、A=78，PDF 7 §5.3 可交叉核对。两处原打印错误可留在勘误记录。
+- 按物理 PDF 2 表1登记四组配置。VAMOS 中心角完整范围为 19°–28°，AGATA 距离为 13.3–23.5 cm；PDF 2 §2 与 PDF 3 §3 的正文简述未包含相应端点。实验1表列角覆盖与 PDF 4–5 分辨率比较采用的角范围应分字段保存。
+- 物理 PDF 3 图1(b) 的图注称纵轴为 Z，正文称 q，登记为待查原图轴标。物理 PDF 4 无编号多普勒式的洛伦兹因子在抽取中错行，标准写法为 γ=(1−β²)⁻¹ᐟ²，逐字转录须核该页。物理 PDF 10 图11图注与正文分别给出 Sb 质量范围 121–131 和 122–131，核对原图数据点后再统一索引。

@@ -3,7 +3,7 @@ type: source
 title: "Lange, Kumar & Hamilton 1982 - E0-E2-M1 multipole admixtures in even-even nuclei"
 aliases: [Lange Kumar Hamilton 1982 mixing-ratio review]
 created: 2026-09-21
-updated: 2026-10-26
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: review-and-data-compilation
@@ -79,7 +79,7 @@ The adopted data table is a critical survey through January 1980, not a homogene
 |---|---|---|---|---|---|
 | LKH82-1 | δKS includes the positive kinematic factor `(√3/10)qγ` multiplying the signed BM E2/M1 reduced-matrix-element ratio; `δ²=Tγ(E2)/Tγ(M1)`. “Positive root” does not remove a negative matrix-element ratio. | convention-boundary | direct | Sec.II.A, printed p.121 / PDF p.3, Eqs.2.1–2.6 | true |
 | LKH82-2 | 作者对Table V共同样本报告IBM更合δ magnitudes、PPQ更合signs；8共同例错号IBM3/PPQ1，PPQ更大46例错号8且W isotopes有明显disagreement。样本/比较量不同，不能概括成PPQ在幅度与符号都胜IBM或普遍model ranking。 | author-interpretation | direct | printed p.179 / PDF p.61，Table V后左栏comparison三段；model scope Sec.III printed pp.123–133 / PDF pp.5–15 | true |
-| LKH82-3 | The historical E0/E2/M1 compilation is heterogeneous and preserves detector/feeding/branch-quality exclusions in footnotes. | data-compilation | direct | PDF pp.133–167, Tables I–IX | true |
+| LKH82-3 | Tables I–IX 的历史 E0/E2/M1 汇编按方法与输入不同保存筛选、归一及编者选择。 | data-compilation | direct | PDF 16–49 Table I；PDF 52–64 Tables II–IX | true |
 | LKH82-4 | The fixed KS convention and the RB/BR emission-cascade conventions differ in the signs shown separately for the first and second gamma; absorption requires the operator/geometry mapping in Eqs.2.9–2.11. | convention-boundary | direct | Sec.II.A, printed p.122 / PDF p.4, Eqs.2.7–2.11 and final sign relations | true |
 | LKH82-5 | Same-spin, same-parity transitions may contain E0 conversion in addition to gamma multipoles; K-shell ICC can then depend on E0/E2 admixture and M1 penetration as well as δ². | formula-and-limitation | direct | Sec.II.B, printed p.123 / PDF p.5, Eq.2.12; Sec.IV.B, printed p.169 / PDF p.51, Eq.4.1 | true |
 | LKH82-6 | Under the explicit M1/E2 gamma truncation and no-penetration assumption, a single K-shell ICC generally leaves a continuum of δ²/E0-rate solutions. Zero reference-gamma rates require a different rate normalization; δ=0 does not itself exclude E0 conversion. The inequalities and endpoints are our reconstruction, not the author's directly tabulated result. | our-inference | indirect | Premises: printed p.123 / PDF p.5, Eq.2.12; printed p.169 / PDF p.51, Eq.4.1 and the requirement that E2/M1 admixture be known before E0/E2 extraction | true |
@@ -475,3 +475,7 @@ Pmin>Uextra 且 Amax 有限才认证 positive G。在 Γγ=0 处，**直接** li
 | LKH82-D23-002 | 在M1/E2out与den E2 photon fraction h的截断下，y=(Iout/Iden)/h、K=(Eden/Eout)^5、L=(cE2/cM1)Eden^5/Eout^3，e=Kyδ²/(1+δ²)、m=Ly/(1+δ²)。逆为y=e/K+m/L、δ²=(e/K)/(m/L)；δ非零时local Jacobian rank2，而δ=0降rank1，global ±δ给同一Bpair。Σderived=JΣinputJᵀ需实际输入Cov，未知Cov不能由marginal或源中央值补出。 | declared-conditional-transformation-and-information | source-rate-definition-plus-task-math | printed121 Eqs.2.1–2.3 and2.6; task derived-strength-vector-027 | true |
 
 12项inverse/J/finite-difference/δsign/共同den purity控制通过，逆误差≤9e−16、Jac finite-difference差≤3.3e−9。固定y只变δ的局部differential误差方向使e/m反相关，固定δ只变y使同向；单位coordinate variance只是rank-direction控制，不是actualρ或CI。[[lv-2022-evidence-against-wobbling-135pr]] L22-D23-006的实际ratio角色需要source covariance/den多极假设，不能把变换后的same-data向量加作新独立验证。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+Tables I–IX 的印刷页分别为 I 134–167、II 170–172、III 173–174、IV 175、V 178–179、VI 179、VII 180、VIII 181、IX 181–182。以物理 PDF 定位时各减 118。Table V 比较 PPQ 和 IBM 时共用 Table I 的 δ 及实测 Eγ。Table II 内转换数据与理论 ICC 共同进入 VII–VIII。Table VIII 的符号取自 q，原文保留不定的 ±。Table IX 的 E0 强度和 EWSR 份额使用另组实验资料及模型能区口径。

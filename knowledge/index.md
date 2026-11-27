@@ -790,6 +790,10 @@ u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶
 - [[cavallaro-2019-giant-pairing-vibration]] — 巨对振动跨质量区运动学与连续谱阻尼失效。
 - [[colo-1995-isospin-mixing-gdr]] — 库仑同位旋混合与 GDR 禁戒 E1 的模型边界。
 - [[enders-1999-scissors-mode-saturation]] — 剪刀模低位 M1 强度、惯量与和规则的系统比较。
+- [[chakraborty-2020-xe126-gamma-vibration]] — γ-vibration in 126Xe: A revisit。
+- [[paul-2003-pr133-magnetic-dipole-bands]] — Magnetic dipole bands in 133Pr。
+- [[gao-bingshui-2015-au194-os193-tl205-thesis]] — ¹⁹⁴Au 和 ¹⁹³Os 的高自旋态研究以及 ²⁰⁵Tl⁸¹⁺ 束缚态 β⁻ 衰变的实验准备。
+- [[huang-zhongkui-2017-csrm-argon-recombination-thesis]] — 基于重离子冷却储存环 CSRm 开展的类锂、类铍氩离子双电子复合实验研究。
 - [[band-structures-se73-spectroscopy]] — Band structures in ⁷³Se。
 - [[high-energy-gamma-e1-m2-m1-e2-mixing]] — Evidence for E1-M2 and M1-E2 Mixtures in High-Energy γ-Transitions。
 - [[ni57-neutron-g9-2-single-particle-state]] — The 3701 keV neutron g9/2 single-particle state in ⁵⁷Ni。

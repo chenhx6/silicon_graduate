@@ -3,12 +3,12 @@ type: source
 title: "Nuclear clocks based on resonant excitation of γ-transitions"
 aliases: ["peik-2015-nuclear-clocks-resonant-gamma", "Ekkehard Peik 2015"]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
 source_type: review-article
-reading_depth: deep-read
+reading_depth: read
 title_original: "Nuclear clocks based on resonant excitation of γ-transitions"
 authors: ["Ekkehard Peik", "Maxim Okhapkin"]
 journal: "Comptes Rendus Physique"
@@ -41,14 +41,14 @@ tags: ["229th", "isomer", "nuclear-clock", "vuv-spectroscopy"]
 
 ## Summary
 
-Peik and Okhapkin provided a systematic review of nuclear clock architectures based on resonant excitation of 229Th. They compared single trapped ions (229Th3+, projected uncertainty 10^-19 to 10^-20) against doped solid-state crystals (high SNR, projected 10^-16 to 10^-18), evaluating blackbody radiation shift suppression (< 10^-22), Stark shifts, and first-order Zeeman cancellation.
+综述比较 ²²⁹Th 单离子及晶体时钟的可驱动跃迁、场频移、线宽与稳定性边界。
 
 ## Key Results
 
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| P15-1 | Nuclear polarizability suppressed by ~10 orders of magnitude vs atomic shells, reducing BBR fractional shift below 10^-22. | theory-deduction | theoretical analysis | pp. 518-519, Sec. 3, Table 1 | true |
-| P15-2 | Single-ion 229Th3+ clock projected systematic uncertainty estimated at 10^-19 to 10^-20 level. | author-analysis | model projection | pp. 519-520, Sec. 4 | true |
+| P15-1 | 作者比较裸核与电子壳极化率，并按 ²²⁹Th³⁺ 5f ²F₅/₂ 的耦合伸展态估计 300 K 分数黑体频移约 1×10⁻²²。 | theory-deduction | theoretical analysis | PDF 4（印 519）§3；PDF 8 Ref. [24] | true |
+| P15-2 | 单离子方案选择伸展态，并讨论对称 Zeeman 平均与二阶 Doppler 限制。CaF₂ 相干弛豫估计依所设晶体条件。 | author-analysis | model projection | PDF 3–5（印 518–520）§3；PDF 8 Refs. [24–25,32] | true |
 
 ## Competing Interpretations and Limitations
 
@@ -58,3 +58,9 @@ Review projections based on theoretical atomic structure calculations and model 
 
 - [[peik-2015-nuclear-clocks-resonant-gamma]]
 - [[nuclear-clock-isomer-learning-and-transfer-20261107]]
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- The review estimates bare-nuclear polarizability more than ten orders below the shell’s. Coupled stretched states of ²²⁹Th³⁺ 5f ²F₅/₂ have residual monopole and hyperfine differential polarizability; the estimated net sensitivity is ~10⁻¹² Hz/(V/m)², giving fractional BBR shift ~1×10⁻²² at 300 K. (PDF 4 / 519 §3, scalar Stark and BBR paragraphs; Ref. [24] on PDF 8)
+- Keep the proposed single-ion approach, state selection, symmetric Zeeman averaging and residual second-order Doppler limitation. The stated total uncertainty ranges for ion and solid do not have a locator in this PDF. Solid-state analysis discusses CaF₂ lattice shifts, calculated ~150 Hz coherence relaxation under the stated assumptions, and projected instability comparable to optical lattice clocks, cited to Ref. [32]. (PDF 3–5 / 518–520 §3; PDF 8 Refs. [24–25,32])
+- Fig. 1 levels and adopted moment/energy context; Fig. 2 electronic-bridge and NEET excitation diagram. (PDF 3 / 518 Fig. 1 and PDF 6 / 521 Fig. 2; PDF 1–8 figure/table mapping)

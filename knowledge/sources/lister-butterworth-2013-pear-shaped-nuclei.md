@@ -3,7 +3,7 @@ type: source
 title: "Lister & Butterworth 2013 - Exotic pear-shaped nuclei"
 aliases: [Lister Butterworth 2013 pear shapes commentary]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: nature-news-commentary
@@ -84,3 +84,11 @@ Static pear-shape language and EDM extrapolation are commentary/model interpreta
 
 - Concepts: [[octupole-deformation]], [[octupole-correlation]]。
 - Source lineage: [[gaffney-2013-pear-shaped-rn-ra]]。
+
+## 2026-11-27 — 本地关联载体核对
+
+Nature 497, 190–191 的评论内容完整，两页含共页栏目。Gaffney 的原测量作为其科学来源，评论无独立实验。
+
+- 路径 `raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2013_Lister_Butterworth_Exotic pear-shaped nuclei.pdf`
+- SHA-256 `6e88e68b0fd884a606d42d218bd54af75be7bc3344be0f721e9b9039dbf46dc8`
+- 实读 通读两张物理页上的完整目标评论，包括两位作者的分栏正文、图1题注和四条参考文献。物理第2页同版的星系形成文章开头在目标范围之外。建议接受既有同版评论的文字覆盖，修正页码与术语证据层级，图1待经理核查。

@@ -8,7 +8,7 @@ updated: "2026-11-27"
 status: "ai-draft"
 review_status: "unreviewed"
 source_type: "journal-article"
-reading_depth: "skimmed"
+reading_depth: read
 year: 1992
 doi: "10.1016/0375-9474(92)90096-3"
 canonical_source: "L. Funke et al., Nuclear Physics A 541, 241–265 (1992)"
@@ -56,3 +56,8 @@ Complete publisher scan, print 241–265, matching publisher XML. Tables 1–2 c
 ## Extracted Pages
 
 PDF 1–17 的实验及代表行、17–24 定向讨论、24–25 引文关系。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- The prose says lower limits for the two unobserved stretched E2 transitions; Table 3 gives <16 and <10 W.u., and its note explicitly says maximum B(E2). Retain the tabulated upper-bound direction. (PDF 17 (257), end of §3; PDF 14–15 (254–255), Table 3 rows 885.9 and 832.9 keV, note (b).)
+- The §4.1 statement that states above 7.2 MeV decay exclusively by fast M1 is broader than §3’s explicit fast and slow M1 branches and Table 3’s tentative L=1 entries. Use the transition-specific assignments and strengths. (PDF 18 (258), §4.1; PDF 17 (257), end of §3; PDF 14 (254), Table 3.)

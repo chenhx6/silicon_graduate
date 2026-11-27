@@ -3,12 +3,12 @@ type: source
 title: "Resonant X-ray excitation of the nuclear clock isomer 45Sc"
 aliases: ["shvydko-2023-resonant-xray-excitation-45sc", "Yuri Shvyd’ko 2023"]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
 source_type: experiment-article
-reading_depth: deep-read
+reading_depth: read
 title_original: "Resonant X-ray excitation of the nuclear clock isomer 45Sc"
 authors: ["Yuri Shvyd’ko", "Ralf Röhlsberger", "Olga Kocharovskaya", "Jörg Evers", "Gianluca Aldo Geloni", "Peifan Liu", "Deming Shu", "Antonino Miceli", "Brandon Stone", "Willi Hippler", "Berit Marx-Glowna", "Ingo Uschmann", "Robert Loetzsch", "Olaf Leupold", "Hans-Christian Wille", "Ilya Sergeev", "Miriam Gerharz", "Xiwen Zhang", "Christian Grech", "Marc Guetg", "Vitali Kocharyan", "Naresh Kujala", "Shan Liu", "Weilun Qin", "Alexey Zozulya", "Jörg Hallmann", "Ulrike Boesenberg", "Wonhyuk Jo", "Johannes Möller", "Angel Rodriguez-Fernandez", "Mohamed Youssef", "Anders Madsen", "Tomasz Kolodziej"]
 journal: "Nature"
@@ -47,10 +47,10 @@ Shvyd'ko et al. reported resonant hard X-ray excitation of the 45Sc nuclear cloc
 
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| SH23-1 | Resonant X-ray excitation of 45Sc nuclear transition measured at E0 = 12,389.59 ± 0.15 (stat) + 0.12 (syst) eV. | observed-fact | direct | p. 472, Table 1; p. 474, Fig. 3 | true |
-| SH23-2 | Natural mean lifetime tau0 = 470(6) ms, natural linewidth Gamma0 = 1.40(2) feV, and natural Q = 8.85(10) x 10^18 reported. | observed-fact | direct/adopted | p. 472, Table 1 | true |
+| SH23-1 | 欧洲 XFEL 共振扫描和延迟 Sc Kα/Kβ 荧光给 E₀=12,389.59 ±0.15（统计）+0.12/−0（系统）eV。 | observed-fact | direct | PDF 2 Table 1；PDF 4 Figs. 3–4；PDF 8 Methods | true |
+| SH23-2 | 采用既有 τ₀=470(6) ms，得自然 Γ₀=1.40(2) feV、Δν₀≈0.338 Hz 和 Q=8.85(10)×10¹⁸。本次扫描的 1.32(12) eV 宽度反映 XFEL 带宽。 | observed-fact | direct/adopted | PDF 2 Table 1；PDF 3–4 Fig. 4 | true |
 | SH23-3 | Room-temperature recoil-free fraction is discussed as f_LM ≈ 0.75 for the candidate material context, not independently extracted here as 0.28. | author-interpretation | contextual | p. 472 introductory text | true |
-| SH23-4 | Transition is pure M2 multipolarity between I_g^pi = 7/2- and I_e^pi = 3/2+ states, with internal conversion coefficient alpha = 632(71). | observed-fact | direct/adopted | p. 472, Table 1, Fig. 1 | true |
+| SH23-4 | M2、Jπ 及内转换系数为采用或参考量，Table 1 分列 α=632(71)、α_K=474 与理论估计 424、363。 | observed-fact | direct/adopted | PDF 2 Table 1、Fig. 1；PDF 3 Count rates | true |
 
 ## Competing Interpretations and Limitations
 
@@ -62,3 +62,11 @@ Transition energy is in the hard X-ray band (12.4 keV), requiring large accelera
 - [[nuclear-clock-isomer-learning-and-transfer-20261107]]
 
 总控量纲/原文复核：1.40 feV除以h约为0.338 Hz，非338 Hz；Table1的τ、Γ及Q主要是文献采用值，本文新测重点为共振激发与能量。室温fLM的原文入口为p.472（约.75），不沿用早期稿.28。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- 471–475 for the printed article plus unpaginated Methods and Extended Data in the local PDF. (PDF 1–5 footers; Online content at PDF 5)
+- European XFEL resonant excitation inferred from delayed Sc Kα/Kβ fluorescence, about 93 recorded decay events. E₀=12,389.59 ±0.15 (stat) +0.12/−0 (syst) eV, with the asymmetric systematics explained by off-plane crystal misalignment. Fig. 3 supplies the event selection; Fig. 4 is the fitted resonance scan. (PDF 2 / 472 Table 1; PDF 3 / 473 Resonance energy; PDF 4 / 474 Figs. 3–4; PDF 8 Absolute resonance energy and Data analysis)
+- Adopted τ₀=470(6) ms from Refs. [10,32,51]. Γ₀=ℏ/τ₀=1.40(2) feV, Δν₀≈0.338 Hz and Q=8.85(10)×10¹⁸ are natural parameters. The measured scan width 1.32(12) eV reflects the incident XFEL and the NFS channel was unobserved. (PDF 2 / 472 Table 1; PDF 3 / 473 §§Resonant excitation, Resonance energy; PDF 4 / 474 Fig. 4)
+- Retain as material context. The NFS count-rate scenario separately assumes f_LM≈0.35 and thermal broadening >50Γ₀ for a hot target. (PDF 2 / 472 introductory text; PDF 7 Nuclear forward scattering)
+- M2 and spins are adopted. Table 1 gives adopted α, α_K=632(71),474 and, separately, calculated alternatives 424,363 from Ref. [38]. The corrected fluorescence yield 0.44(10) versus predicted 0.23 photons per natural-bandwidth incident photon is the basis of a conditional reassessment of the conversion coefficients. (PDF 2 / 472 Table 1 and Fig. 1; PDF 3 / 473 Count rates; PDF 7 Eqs. (5)–(6))

@@ -7,7 +7,7 @@ updated: "2026-11-07"
 status: "active"
 review_status: "unreviewed"
 source_type: "journal-article-experiment"
-reading_depth: "read"
+reading_depth: read
 title_original: "Nuclear isomers in superheavy elements as stepping stones towards the island of stability"
 authors: ["R.-D. Herzberg", "P. T. Greenlees", "P. A. Butler", "G. D. Jones", "M. Venhart", "I. G. Darby", "S. Eeckhaudt", "K. Eskola", "T. Grahn", "C. Gray-Jones", "F. P. Hessberger", "P. Jones", "R. Julin", "S. Juutinen", "S. Ketelhut", "W. Korten", "M. Leino", "A.-P. Leppänen", "S. Moon", "M. Nyman", "R. D. Page", "J. Pakarinen", "A. Pritchard", "P. Rahkila", "J. Sarén", "C. Scholey", "A. Steer", "Y. Sun", "Ch. Theisen", "J. Uusitalo"]
 journal: "Nature"
@@ -75,3 +75,22 @@ P0：原件/哈希无未隔离问题。P1：谱学数据、转子gK与组态推�
 
 四页正文与Figs.2–4用于上述核查，重点原页为897和898。
 未取得/分析原始事件数据，不把相同数据的不同讨论算作实验重复。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- 物理第1–2页（印刷896–897页），题名、摘要、壳隙背景、图1球形质子轨道示意图图注、实验与两异能态谱学、图2图注。
+- 物理第3–4页（印刷898–899页），退激路径、组态比较、图3–4图注、高位态讨论、结论、参考文献1–30和文末信息。
+- 本次获取的具体覆盖：已审读物理第1–4页抽取文本，涵盖正文、图1–4图注、参考文献和文末信息。建议接受既有同版四页文字覆盖，半衰期单位和能级图归属交由管理者按页复核。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A18-1 | 作者用219 MeV束流经²⁰⁸Pb(⁴⁸Ca,2n)²⁵⁴No反应产生反冲核，以RITU/GREAT建立同像素反冲植入、异能退激和特征α衰变的关联。报告长寿命态为266(2) ms，短寿命态为184(3) μs并馈入长寿命态，级联含606 keV γ线。短寿命单位据对照札记校正，待核物理第2页。 | 本文实验观测 | source-reported | 物理第2页（印刷897页）实验段及图2a–d，物理第3页短寿命态讨论。 | true |
+| A18-2 | 作者据内转换和符合谱将低位8⁻异能态置于1293 keV，并给出53 keV E1馈入中间带7⁺成员的路径。841和943 keV是中间3⁺带头分别通往基态带4⁺和2⁺成员的M1跃迁。带头约988 keV及箭头终点据对照札记定位，待核物理第3页图3。 | 作者谱学指认 | source-reported | 物理第2页（印刷897页）多极性及退激路径段，物理第3页（印刷898页）图3。 | true |
+| A18-3 | 在转子模型下，作者从中间带内81/150和69/126 keV γ线强度比提取gK = 0.87(14)。双准中子与双准质子计算值分别为+0.530和0.824，比较支持含质子1/2⁻[521]轨道的Kπ = 3⁺组态。该轨道与球形2f₅/₂的关联用于约束模型参数，组态符号待核物理第3页。 | 模型依赖的组态解释 | source-reported | 物理第2页未编号的R₁和R₂强度比，物理第3页组态段及图3。 | true |
+| A18-4 | 总退激能量约束高位态至少比低位态高1.2 MeV。量热退激模拟给出J ≥ 14的自旋估计，投影壳模型支持约2.75 MeV的双质子双中子四准粒子(16⁺)候选。作者将该指认列为高度暂定，图3中的自旋及路径标法待核物理第3页。 | 能量下限与模型推断 | source-reported | 物理第3页量热分析及图3，物理第4页（印刷899页）开头的四准粒子组态讨论。 | true |
+
+两异能态谱学来自本文Jyväskylä实验。参考文献12是早期间接证据，参考文献19的Argonne结果在本版列为已投稿。图4比较本文计算和参考文献11、25、26的计算。
+
+- 保留既有订正，将短寿命态录为184(3) μs，将988 keV带头与943 keV跃迁分开，将943 keV支路终点录为2⁺，将双准中子gK录为+0.530，并保留8⁻组态的竞争解释。
+- 物理第2页抽取还将产额段的截面写为2 mb，图2图注的端点限定符出现逗号。录入截面或端点符号前查原页。物理第3–4页的宇称、Nilsson上下标及J下限符号按原页核字。物理第4页结语抽取为Z < 100，引用该不等号前查原页。
+- 模型标签应分别对应明确写出的投影壳模型和Nilsson轨道标记。如保留Woods–Saxon–Strutinsky标签，应给出具体计算出处，本文抽取文本未具名。

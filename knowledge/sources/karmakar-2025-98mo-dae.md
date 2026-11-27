@@ -3,7 +3,7 @@ type: source
 title: "Karmakar2025：高角动量核结构学位研究的两页会刊摘要"
 aliases: [Karmakar 2025 DAE thesis summary, Nuclear Structure Studies at High Angular Momentum]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: thesis-summary
@@ -61,3 +61,11 @@ S(I)相似不是静态八极的唯一判据；完整数据和竞争模型仍需�
 
 PDF1–2（印刷1411–1412）全文本和引用条目读取；无完整学位论文或原始事件数据重放。
 比较见[[mo98-e3-and-n56-octupole-evidence-round2-20261107]]。
+
+## 2026-11-27 — 本地关联载体核对
+
+DAE 卷 69、印 1411–1412 的两页学位研究摘要。完整学位论文和相应刊文另行核对。
+
+- 路径 `raw/papers/gpt/query/20261107-round2-mo98-e3/karmakar2025-thesis-summary-dae.pdf`
+- SHA-256 `db4857c6b8bba7bf685399f60cf7fc9ba3afa092bfb50d2cba45690150045e3d`
+- 实读 已审读物理第1–2页全部抽取文本，包括实验方法、四个核素的结果段、结语、致谢和参考文献。建议接受既有同版摘要的全文字覆盖。学位论文全文和各期刊稿的覆盖须各自据原件认定。
