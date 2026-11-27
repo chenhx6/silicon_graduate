@@ -7,7 +7,7 @@ updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: read
+reading_depth: skimmed
 title_original: "原子核物理实验方法（第三版）"
 authors: [吴治华]
 publisher: "原子能出版社"
@@ -41,6 +41,13 @@ tags: [books, experimental-nuclear-physics, hpge-detectors, gamma-spectroscopy, 
 - **原件 SHA-256**：`e23f010ff8d3b4737405235c4aba920533f44e89409ebb7e2cb076b7ab4ee591`
 
 ## Scope and Reading Depth
+
+## 原书扫描完整性复核
+
+现存扫描的 15 章已有逐段 OCR 和重点原图覆盖。PDF 39、40 为倒序的印刷 32、31。PDF 373、374 同为印刷 365 并共享图像对象，随后为印刷 367。印刷 366 与图 13.9、13.10 的原图缺失，位置在式 (13.37)–(13.41) 之间。档中从目录起，缺题名与版权页，版次承接既有馆藏登记。队列将本件归为有界扫描，累计保留全部可读原页的范围。
+
+PDF 301–302 Fig. 10.38 是符合门和投影教学例。PDF 442–444 的 RDM 移位成分为飞行中发射，挡板处停止后为未移位分量。PDF 446 的 DSAM 原印极限不等号与 Eq. (15.27) 的量纲及单调性冲突，引用从原式并列原印。
+
 
 本来源登记状态定为 `skimmed`，明确界定本轮针对死时间修正、半导体探测器结构、在束 $\gamma$ 能谱分析与能级寿命测量的重点查验范围：
 - **已核查章节**：

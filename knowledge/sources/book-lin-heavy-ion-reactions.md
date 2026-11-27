@@ -1,21 +1,20 @@
 ---
 type: source
-title: "林承键 2017 - 重离子核反应"
-aliases: [林承键重离子核反应, Lin 2017 Heavy Ion Reactions, 重离子核反应专著]
+title: "林承键 2015 - 重离子核反应"
+aliases: [林承键重离子核反应, Lin 2015 Heavy Ion Reactions, 重离子核反应专著]
 created: 2026-11-01
 updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: skimmed
+reading_depth: read
 title_original: "重离子核反应"
 authors: [林承键]
-publisher: "科学出版社"
-year: 2017
-citation_key: "lin_2017_books-heavy-ion-reactions"
+publisher: "哈尔滨工程大学出版社"
+year: 2015
 pages: "223"
-isbn: "9787030537232"
-canonical_source: "林承键, 《重离子核反应》, 科学出版社 (2017)"
+isbn: "9787566110664"
+canonical_source: "林承键, 《重离子核反应》, 哈尔滨工程大学出版社 (2015)"
 raw_storage_status: archived-local
 archive_required: true
 library_file: "raw/books/重离子核反应 (林承键) (Z-Library).pdf"
@@ -28,27 +27,21 @@ models: [optical-model, proximity-potential, bass-model, compound-nucleus-decay]
 tags: [books, heavy-ion-reactions, fusion-cross-section, critical-angular-momentum, reaction-kinematics]
 ---
 
-# 林承键 2017 - 重离子核反应
+# 林承键 2015 - 重离子核反应
 
 ## Bibliographic Record
 
 - **书名**：重离子核反应
 - **著**：林承键（中国原子能科学研究院）
-- **出版信息**：科学出版社（北京东黄城根北街 16 号），2017 年 8 月第 1 版，第 1 次印刷。
-- **书号与定版**：ISBN 978-7-03-053723-2，中国版本图书馆 CIP 数据核字 (2017) 第 162973 号。
-- **全书规模**：223 物理 PDF 页；正文印刷页 1–212（目录页至正文印刷页第 1 页有约 10 页前置偏移）。
+- **出版信息**：哈尔滨工程大学出版社，2015 年 8 月第 1 版，2018 年 2 月第 2 次印刷，见 PDF 4。
+- **书号与定版**：ISBN 978-7-5661-1066-4，中国版本图书馆 CIP 数据核字 (2015) 第 132058 号。
+- **全书规模**：223 物理 PDF 页；有编号部分印刷页 1–213，自 PDF 11 开始。
 - **本地原件**：`raw/books/重离子核反应 (林承键) (Z-Library).pdf`
 - **原件 SHA-256**：`792bfe7f7807623b7e1439b32eddb7320ab3ec6bf6be7e3894b436c1c9f65b2e`
 
 ## Scope and Reading Depth
 
-本来源登记状态定为 `skimmed`，明确界定本轮核查范围为重离子相互作用势、熔合势垒模型与裂变竞争：
-- **已核查章节**：
-  - 目录（PDF pp. 9–10）；
-  - 第 2 章 重离子相互作用势（印刷 pp. 18–36 / PDF pp. 28–46）：库仑势、核势参数化、接近势与有效相互作用势垒；
-  - 第 6 章 熔合反应（印刷 pp. 134–143 / PDF pp. 144–153）：锐截止模型、临界角动量 $\ell_{\text{crit}}$、Hill-Wheeler 公式、Wong 单势垒穿透公式、近垒异常增强与形变耦合道效应；
-  - 第 7 章 裂变反应（印刷 pp. 177–179 / PDF pp. 187–189）：熔合-裂变动力学途径、快裂变与准裂变物理图像。
-- **未核查内容**：第 1 章概述、第 3 章弹性散射、第 4 章准弹性散射与第 5 章深部非弹性散射的全文微观推导。
+PDF 1–223 对账完整，有编号印页 1–213。正文片段以原页阅读和逐页 OCR 合并，代表图表与排印异文见本文末尾的全卷读段。
 
 ## Summary
 
@@ -104,3 +97,7 @@ PDF 16–21 Eqs. (1.7)–(1.28) 的非相对论静止靶换算与纯库仑最近
 - For 1,130 MeV Xe + Bi, the reported projectile-like charge distributions are fitted by Gaussians. From the elastic group to the group at about 310 MeV total kinetic energy loss, the tabulated FWHM rises from 3.3 to 16.8 charge-number units and the central charge shifts from 54 to 57.1. These values are the tabulated central estimates.（PDF pp. 119–121, Fig. 5.18, Table 5.3 and Eq. (5.11)）
 - The reaction-path framework uses frozen-density dynamics up to approximately half-density contact and adiabatic shape evolution afterward. Failure to capture permits deep-inelastic scattering. A captured system can undergo fast fission when its adiabatic fission barrier vanishes, or quasifission when it reseparates before crossing the required inner saddle. A compound nucleus forms after passage through the final unconditional saddle and equilibration of all relevant degrees of freedom. If mass equilibrates while K, the spin projection on the symmetry axis, is still relaxing, the chapter expects a full-fusion-like mass distribution with forward-peaked fragment angles.（PDF 187–192, §§7.1.1–7.1.5, Figs. 7.1–7.6）
 - Bond adds a Gaussian scission channel-spin distribution to a saddle-point description that still depends on K. In the pure statistical scission model, S is the vector sum of the fragment spins, L is their relative orbital angular momentum, and L + S gives the total angular momentum. The projection m of S along the fission axis controls the angular shape. The model estimates the channel-spin width from the two fragment spin widths using ellipsoidal fragment shapes.（PDF 209–210, Eqs. (7.32)–(7.36) and Fig. 7.28）
+
+## 2026-11-27 — 全卷实读范围与模型条件
+
+PDF 11–92 的反应运动学、光学势和转移反应保留反应道、势约定及不同参量化。PDF 150–159 的 γ 多重性自旋推断、取向平均及两道能垒模型分别定位。PDF 160 Eq. (6.44) 与 (6.43) 的导数、(6.45) 的线形定义和图 6.18 有字面冲突，保留原印与复核，勿把解析核标成高斯。PDF 163–180 的准弹散射反演与势垒分布分别保留背角、导数、模型及实验归属。PDF 207、209、218 的卷末关键图抽核，最后 PDF 223 的印刷页为 213。

@@ -106,3 +106,7 @@ PDF 139 §4.12 给多维正态的归一化及二次型；PDF 181 §5.2 的二项
 - For an affine transformation Y = TX + a, the exact relations are E(Y) = T E(X) + a and Cov(Y) = T Cov(X) Tᵀ. For a differentiable nonlinear transformation, the text uses Cov(Y) ≈ S Cov(X) Sᵀ, with S the Jacobian at the input means, under a small-error, first-order approximation. Independent inputs can still produce correlated outputs when the outputs share inputs.（PDF 80–86, §§3.8–3.9, eqs. (3.8.2)–(3.8.5) and (3.9.10)–(3.9.15). The coordinate example is on PDF 87–88.）
 - Given n events in duration T from a homogeneous Poisson process, the count in a subinterval of duration t has the binomial law with parameters n and t/T. The related histogram result uses fixed bin probabilities p_j and a Poisson total of mean λ, yielding independent Poisson bin counts with means λp_j.（Physical PDF pp. 109–111, equations (4.4.2)–(4.4.4)）
 - For a jointly normal n-vector X with mean μ and positive-definite covariance V, rotating into covariance eigenvector coordinates and standardizing gives n independent standard normals. Thus Q = (X − μ)ᵀV⁻¹(X − μ) has the χ²ₙ law, and the ellipsoid Q < C contains probability F(C;n).（PDF 139–143, equations (4.11.25) and (4.12.9)–(4.12.12)）
+
+## 结项原图复核
+
+PDF 4 核科学出版社 2006 年 4 月第二版及第二次印刷。PDF 17–588 为第 1–14 章，589–593 书目，594–668 附表，669–671 例题索引。PDF 234 的寿命区间为 320.9–929.4 小时。PDF 130 的 `>25%` 为原印字样，切比雪夫给出绝对偏差小于两个标准差的概率下界 75%。PDF 437 Table 12.3 的 17.3 GeV 理论、实测列合计为 2346、2327。按表列输入直接复算的 χ² 约 4.44，原文报告 5.95，保留未核归一化口径。

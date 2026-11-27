@@ -7,14 +7,14 @@ updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: skimmed
+reading_depth: read
 title_original: "The Electromagnetic Interaction in Nuclear Spectroscopy"
 authors: [W. D. Hamilton (editor)]
 publisher: "North-Holland Publishing Company / American Elsevier"
 year: 1975
 citation_key: "editor_1975_electromagnetic-interaction"
 pages: "956"
-isbn: "0720402747"
+isbn: "0-7204-0275-1"
 canonical_source: "W. D. Hamilton (ed.), The Electromagnetic Interaction in Nuclear Spectroscopy, North-Holland (1975)"
 library_file: "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf"
 raw_file: "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf"
@@ -70,7 +70,7 @@ tags: [bk-parameters, ak-coefficients, f-coefficients, u-coefficients, mixing-ra
 
 ## Scope and Reading Depth
 
-覆盖全书核心章节与关键推导，结合在束谱学需求进行深度研学。
+同一 956 页原件由逐段原文、原页转写和重点图表核验组成。见本文末尾 2026-11-27 全卷覆盖，以及正式队列的各章范围。
 
 
 ## Summary
@@ -137,3 +137,13 @@ Ch. 16 Eqs. (16.8)–(16.10) 区分 Zeeman 尺度及寿命宽度，Ch. 17 将 Ge
 - The pairing-plus-quadrupole model retains coherent J = 2, T = 0 particle–hole quadrupole correlations and J = 0, T = 1 like-particle pairing. The time-dependent Hartree–Bogolyubov treatment uses deformed quasiparticles, constrains neutron and proton numbers in expectation, and keeps terms through second order in slow collective time dependence. The resulting quadrupole Hamiltonian includes β and γ motion and K mixing. Explicit two-quasiparticle excited configurations lie outside its collective space.（PDF 91–100, §§4.1–4.4, especially Eq. (3.136), and PDF 125, §6）
 - Kumar’s second-order scalar invariant is a sum of squared E2 matrix elements and can be nonzero even when the spectroscopic moment vanishes. It fixes the intrinsic quadrupole magnitude. The signed third-order invariant sums products of three E2 matrix elements and fixes cos(3γ) after normalization by the second-order invariant. This extraction assumes no rotational wave function. Converting the invariants into a deformation and semiaxes requires the equivalent-ellipsoid definition and a charge-radius or volume input.（PDF 130–135, especially equations (4.5)–(4.8) and (4.12)–(4.26). Scope restated on PDF 148.）
 - In the ideal recoil-distance model, a recoil travels through vacuum at constant speed v and stops on a timescale short compared with its mean life τ. For flight path s, exponential decay gives the stopped fraction I_stopped/(I_stopped + I_flight) = exp(−s/(vτ)). The first-order shift of the in-flight component is ΔE/E₀ = (v/c) cos θ, with θ measured from the recoil direction.（PDF pp. 322, 324–326, Chapter 9 §§1–2.1, Figs. 9.2–9.3）
+
+## 2026-11-27 — 全卷通读范围与原式核查边界
+
+PDF 2–3 起页明确 North-Holland 及 American Elsevier 印记。各章作者必须随原页引用。K. Alder 与 R. M. Steffen 第 1 章 PDF 29、37、49 区分约化矩阵元、无量纲幅比及速率的能量幂。K. Kumar 第 3 章 PDF 75 的 E2/M1 取法按其相位约定。PDF 51 Table 2.1 的跃迁率单位和幂、PDF 116–117 的不同实验列与模型列按原图核对。
+
+第 6–8 章分属 Löbner、Newton、Skorka。PDF 184–321 的定时、库仑激发与 NRF 的采集和转引均按相应章作者、示例和外部实验保留。Allen 第 9 章 PDF 331 Fig. 9.7 为仪器配置示意，PDF 334 Eqs. (9.2)–(9.4) 的衰减因子依赖减速模型及寿命积分。
+
+第 10–11 章 PDF 394–395、442、445、457、477–478、491、503、506 区分部分波、有穿透修正的内部转换、实际测得的亚壳比、归一化与图中的引文参数。第 12–15 章按各自的框架引用：统计张量、方向相关、有限接受度、单 γ 或 γγ 符合的偏振及混合比分支，就第一、第二次发射分别跟随 B 与 A 的系数相位。PDF 678（印 667）用 PDF 954 的无贴纸同版正文恢复，贴纸修正 rank 上界及 PDF 693 的 α_K(E2)，复页只作为原文见证。
+
+第 17 章 PDF 798 Fig. 17.6 的标定响应、803–804 的谱例及 810 Table 17.2 的拟合成分按原页定位。PDF 11、151、183、351、655、745、849、887、913、937、953 共 11 张空白；PDF 954–955 是复页，PDF 956 为出版广告。知识复用时仍回相应图、式或表行。

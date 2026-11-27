@@ -85,6 +85,8 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 本批核定七册扫描书的通读范围，共 3,279 个主件计入页，包括 Bohr–Mottelson 卷 I、Greiner 和五部中文教材。核对以原书、逐页 OCR 及重点原图互证，未逐字符核验的公式或图表保留其页码和适用性。另核 Hamilton 及林承键书的 64 页。累计 812 份、37,346 个主件页，正式队列剩 Hamilton 和林承键《重离子核反应》两本。稳定指针为 `research/archive-learning-20261127` + `research: complete seven scanned books with original-page anchors`。见[原件及范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-seven-scanned-volume-readings-af-audit.json)。
 
+本批核定 Hamilton 编著及林承键《重离子核反应》，共计入 1,166 页。Hamilton 的 956 页扣 11 张空白和两张复页，计 943 页。正式队列的 1,003 条全部登记了来源阅读、关联材料或访问边界，待处理 0 条。终核发现吴治华教材印刷 366 缺页、365 重复，撤回上一批一册及其 483 个整册计入页，保留现存原页读段。累计 813 份、38,029 个主件计入页，含 18 份历史有界核读。两卷 Bohr–Mottelson 均已结卷。引用具体图、式、数值时依各来源页的原件和实际核查范围。稳定指针为 `research/archive-learning-20261127` + `research: complete Hamilton and Lin readings and reconcile the archive queue`。见[队列和结项核验](../outputs/literature-acquisition/20261119-deep-learning/20261127-hamilton-lin-and-archive-closeout-ag-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

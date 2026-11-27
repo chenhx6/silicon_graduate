@@ -1,0 +1,123 @@
+{
+  "batch": "20261127-hamilton-lin-and-archive-closeout-ag",
+  "created_at": "2026-11-27T15:28:34.952519+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000309",
+      "source": "knowledge/sources/book-hamilton-electromagnetic-interaction.md",
+      "identity": "W. D. Hamilton (ed.), The Electromagnetic Interaction in Nuclear Spectroscopy. North-Holland / American Elsevier, 1975, local 956-page scan; ISBN 0-7204-0275-1 and 0-444-10519-0.",
+      "coverage": [
+        "PDF 1–11 书前、目录及章位核定；PDF 12–183 为 Chs. 1–5 的 OCR 正文与重点原图。",
+        "PDF 184–321（印 173–310）Chs. 6–8 全段原生核，138 页含 129 个内容页。",
+        "PDF 322–515 为 Chs. 9–11 的连续 OCR 及原式、图表检查。",
+        "PDF 516–795 Chs. 12–16 及 Ch. 17 开头，承接已核章节；PDF 678 已用清晰复页 954 与原贴勘误恢复。",
+        "PDF 796–956 含 Chs. 17–18 后部、资料系数表、索引、空白和复页。各段 OCR 及重点原图逐段对账。",
+        "PDF 12–31 题文：{'theme': \"Historical context and reported theory–experiment agreement. The 1975 introduction presents electromagnetism as a perturbative probe of nuclear charge and current. OCR flattens the precision figure to '106' and corrupts the exponent of the distance estimate in cm.\", 'pages': [12, 12]}；{'theme': 'Scope of the chapter, vacuum Maxwell equations, charge continuity, natural units, and gauge choice. The Lorentz gauge decouples the potential equations. The Coulomb gauge gives an instantaneous scalar potential and a wave equation sourced by the transverse current. OCR obscures the exact transverse-current projection formula.', 'pages': [13, 14]}",
+        "PDF 32–49 题文：{'theme': 'Emission from an unpolarized ensemble, with initial magnetic-substate averaging, final-substate summation, isotropy, and helicity-dependent interference.', 'pdf_interval': [32, 32]}；{'theme': 'Condon–Shortley phases and antiunitary time reversal. Combining time reversal with a rotation by π about y, with or without parity, gives two conventions for making multipole matrix elements real with the appropriate operator phases.', 'pdf_interval': [33, 36]}",
+        "PDF 50–89 题文：{'pdf_pages': [50, 51], 'theme': 'Alder and Steffen compare reduced electromagnetic matrix elements calculated from model wavefunctions with quantities inferred from lifetimes, angular correlations, and Coulomb excitation. Table 2.1 uses E in MeV, rates in s⁻¹, B(EL) in e² fm^(2L), and B(ML) in μ_N² fm^(2L−2). OCR error on p. 51 obscures several rate coefficients and powers of ten.'}；{'pdf_pages': [52, 55], 'theme': 'Point protons of charge +e and point neutrons of charge 0 underpin the long-wavelength multipole operators. The chapter allows for effective charges and discusses finite-size and exchange-current corrections. Spin g-factors are +5.5855 and −3.8263, respectively. Isoscalar and isovector terms yield selection rules for approximately good isospin, with T₃ = (Z − N)/2. OCR error obscures parts of the current-density and multipole formulas on p. 52.'}",
+        "PDF 90–129 题文：{'pdf_interval': [90, 91], 'theme': 'First-order rotational band mixing expands the deformation dependence of the inertia. For ΔK = 2, M1 comes from the leading γ dependence of g₋, which vanishes at γ = 0°, and the first-order E0 contributions cancel. The E2 phase convention fixes selected matrix-element signs. OCR errors obscure factors and angular-momentum branches in Eqs. (3.122)–(3.124).'}；{'pdf_interval': [91, 94], 'theme': 'The pairing-plus-quadrupole model retains a few residual-interaction channels in a larger active space. It uses separate neutron and proton pairing strengths and a common quadrupole strength. Separability permits a Nilsson deformation transformation followed by Bogolyubov–Valatin pairing. OCR obscures the unit exponent for the quadrupole strength on PDF 92.'}",
+        "PDF 130–183 题文：{'theme': 'Kumar distinguishes the spectroscopic quadrupole moment from intrinsic deformation and introduces scalar E2 sum rules. The second spin listed alongside J = 0 is obscured by OCR.', 'pdf_pages': [130, 132]}；{'theme': 'Higher E2 moments probe fluctuations in deformation magnitude and asymmetry. A uniform-charge equivalent ellipsoid matches the nuclear charge, volume or mean-square radius, and quadrupole invariants. It allows triaxial shapes and enforces volume conservation to all orders when a fixed volume is imposed.', 'pdf_pages': [133, 135]}",
+        "PDF 322–366 题文：{'theme': 'Chapter 9 introduction. First-order Doppler kinematics, free-flight and slowing-down clocks, and the historical role of detector resolution.', 'pdf_interval': [322, 323]}；{'theme': 'Recoil-distance methods. Spatial collimation in the early method, shifted and stopped peaks in the plunger method, recoil-velocity spread, and distributed production in a gas target.', 'pdf_interval': [324, 328]}",
+        "PDF 367–411 题文：{'theme': 'The conversion amplitude couples the nuclear transition to a bound electron through a virtual photon. The initially unoriented subshell has a diagonal density matrix. Expanding the outgoing helicity state in spherical Dirac waves and applying Wigner–Eckart reduction gives a statistical-tensor master equation and, after summing over helicity, a directional master equation. Angle integration gives subshell rates and ordinary conversion coefficients.', 'pdf_interval': [367, 372]}；{'theme': 'Magnetic multipoles have a factorized point-nucleus term and finite-volume penetration terms. Both use the same angular reduction and different Dirac radial integrals. The Hankel function has the form j_L + i n_L. The text associates the dominant imaginary part with the near field and shows that the imaginary penetration integral can interfere with it.', 'pdf_interval': [372, 375]}",
+        "PDF 412–451 题文：{'theme': '§6.2 isolates finite nuclear size from atomic screening and nuclear penetration. Regular interior Dirac solutions are matched at the nuclear radius to regular and irregular exterior Coulomb solutions, with bound-state normalization or continuum asymptotic conditions. The analytic M1 estimate uses pR < 1, keeps the dominant imaginary radial integral, and expands to leading order in Zα. A diffuse charge model with the same rms radius gives a 0.5% smaller M1 coefficient for Pb (Z = 82) than the sharp distribution.', 'pdf_interval': [412, 419]}；{'theme': '§6.3.1 locates most of the conversion contribution between the nuclear surface and roughly the K-shell radius. Fig. 10.4 illustrates this at a transition energy of 200 keV and gives radial distance in electron Compton wavelengths of 386.144 fm. A single effective charge fitted to a binding energy fails to reproduce conversion across multipoles and energies.', 'pdf_interval': [419, 421]}",
+        "PDF 452–483 题文：{'theme': 'Chapter 11 introduction. Conversion-electron energies, shell-specific and total conversion coefficients, and theoretical dependence on multipolarity, transition energy, atomic number, electron shell, screening, and nuclear structure. The review distinguishes finite nuclear size from nuclear penetration effects. OCR error obscures the spectrometer resolution and precision exponents on PDF 453.', 'pdf_interval': [452, 453]}；{'theme': 'Multipolarity and level assignments. K/L ratios have limited sensitivity to admixtures. Resolved L-subshell ratios can detect small admixtures and generally apply below 500 keV, while M and higher subshells help near or below L-shell binding energies. Absolute spin or parity assignments require a known reference level. The text discusses common M1/E2 mixing and reported E1/M2/E3 exceptions in deformed nuclei. OCR error affects several isotope and band labels.', 'pdf_interval': [454, 455]}",
+        "PDF 484–515 题文：{'theme': 'Total internal conversion coefficients from Coulomb excitation and lifetimes, Mössbauer resonant absorption, relative gamma intensities and cascade sum peaks. Relative gamma methods require a weakly converted or independently characterized comparison transition. The stated sum-peak relations assume unit efficiencies.', 'pdf_interval': [484, 485]}；{'theme': 'K/L ratios for multipolarity assignments. Sensitivity increases with atomic number, decreasing transition energy and increasing multipole order. E1 and M1 are indistinguishable by K/L alone. The chapter also discusses a missing cascade transition and possible angular effects in in-beam measurements.', 'pdf_interval': [485, 487]}",
+        "PDF 796–823 题文：{'theme': 'Pulse shaping and ADC performance. Two pulse amplitudes set the zero and gain for a linear reference. Pulser rise time affects measured nonlinearity, and analyzer live-time correction misses counts removed from peaks by pile-up. Baseline fluctuations can shift the electronic zero in the negative direction.', 'pages': [796, 800]}；{'theme': 'Ge(Li) detector response to 165, 1368, and 2754 keV gamma rays. The text explains full-energy and escape peaks, 511 keV annihilation radiation, Compton edges, and backscatter. In the reported detector comparison, the larger detector gives peaks higher above the continuum despite poorer resolution at 100 keV.', 'pages': [800, 805]}",
+        "PDF 824–852 题文：{'theme': 'GAUSS V energy calibration. Table 17.7 compares linear and quadratic fits after correction for channel nonlinearity. The authors report maximum deviations from calibration energies of 28 eV and 10 eV, respectively. For strong, resolved peaks at 0.3 keV/channel, they estimate about 7 eV uncertainty in an energy difference and about 2 eV after averaging ten measurements.', 'pdf_interval': [824, 825]}；{'theme': 'Historical calibration standards. The two scales use a tungsten K X-ray reference of 9.31918 keV with 5.9 ppm uncertainty and an electron-rest-energy scale operationally anchored to a gold-decay line at 411.794 ± 0.008 keV. The chapter reports agreement within Ge(Li) measurement accuracy and calls for converting published energies to a common scale before use.', 'pdf_interval': [825, 826]}",
+        "PDF 853–881 题文：{'theme': 'Exact Rowland-circle focusing in reflection and transmission, with separate requirements for the crystal boundary and atomic planes. The surface-reflection refraction correction is set aside for transmission.', 'pdf_interval': [853, 855]}；{'theme': \"Approximate focusing with an initially flat lamina bent to radius 2R. Its departure from the focal circle broadens the line and shifts it toward longer wavelengths. Cauchois's thickness argument gives constant 2d sin θ through the slab.\", 'pdf_interval': [855, 856]}",
+        "PDF 882–910 题文：{'theme': 'Chapter 18, §5. Curved-crystal line positions from visual profile overlays, reduction to first diffraction order, and uncertainty estimates for repeated measurements. OCR errors obscure the exact averaging and uncertainty formulas on PDF 882.', 'pdf_pages': [882, 883]}；{'theme': 'Historical gamma-ray standards measured with the U-M 2 m spectrometer and a Ge (022) crystal. Table 18.1 gives positions in screw divisions, dimensionless ratios to the ¹⁹⁸Hg line, and energies in keV. The text distinguishes relative from absolute calibration and flags correlated errors. OCR errors affect several nuclide labels, uncertainty signs, and footnote markers.', 'pdf_pages': [883, 885]}",
+        "PDF 911–939 题文：{'theme': 'Appendix table of four numerical coefficients keyed by two spin indices and L. OCR errors obscure column labels, some row labels, and two signs.', 'pdf_interval': [911, 912]}；{'theme': 'Empty OCR block. Physical page content is undetermined.', 'pdf_interval': [913, 913]}",
+        "PDF 940–956 题文：{'theme': 'Subject index entries on collective models, Coulomb excitation, density matrices, electromagnetic moments, detectors, spectroscopy, and lifetime measurements.', 'pdf_interval': [940, 943]}；{'theme': 'Subject index entries on internal conversion, transition hindrance, magnetic and electric moments, multipole mixing, nuclear models, and nuclear orientation.', 'pdf_interval': [944, 947]}"
+      ],
+      "boundary": [
+        "全卷各页已有实际读段或材料角色。由全页 OCR 支持并抽核原图的段，尚未逐字符校正全部公式、索引、系数表和引文。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre, Pauli and terminal Codex disjoint chapter ranges; manager verified original image anchors",
+      "source_pdf": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+      "sha256": "93b32a8debb66ad036229d860ad56f0434dc49b56edd32f1628af1d71a21ae00",
+      "physical_pages": 956
+    },
+    {
+      "id": "catalogue:LIT-000314",
+      "source": "knowledge/sources/book-lin-heavy-ion-reactions.md",
+      "identity": "林承键，《重离子核反应》，2015 年首版、2018 年第 2 次印刷，本地 223 页扫描。",
+      "coverage": [
+        "PDF 1–10 书目、版权、目录；PDF 11–92（印 1–82），Chs. 1–3 与转移反应，原生逐段核。",
+        "PDF 93–149（印 83–139）Chs. 4–6 的 OCR 读段、重点原图。",
+        "PDF 150–180（印 140–170）第 6 章余段、图 6.9–6.39 和章末引文，原生逐页读。",
+        "PDF 181–223（印 171–213）章末引文与第 7 章原文 OCR、关键图及末页核读。",
+        "PDF 93–118：{'theme': 'Reported neutron- and proton-pair transfer. Single-neutron transfer slopes in the Sn system agree with the calculation, while multineutron slopes deviate. The author interprets four- and six-proton transfer in the Sm + Pb system as successive proton-pair transfers. OCR error obscures isotope superscripts, some plot scales, and the probability relations behind that interpretation.', 'pdf_interval': [93, 94]}；{'theme': 'Nuclear Josephson interpretation. A two-center potential at 14 fm gives donor and acceptor wells separated by an internal barrier. Like-nucleon pairs are modeled as spin-zero Cooper pairs that can tunnel through a junction analogous to a superconductor–insulator–superconductor junction. Coulomb matching changes the effective binding energies. OCR error obscures the exact level-offset expression.', 'pdf_interval': [95, 95]}",
+        "PDF 119–149：{'theme': 'Reported relaxation measurements and their interpretation. At 175 MeV, Ne + Ag γ-ray multiplicities at 25° and 90° are interpreted as tending toward rolling and sticking, respectively. TKEL-binned Xe + Bi and Pb + Pd data show charge or mass broadening that the book interprets as diffusion. It judges mass relaxation slightly slower than charge relaxation, with both incomplete on the collision timescale. OCR error obscures the numerical time exponents and parts of the relaxation hierarchy.', 'pdf_pages': [119, 123]}；{'theme': 'Classical friction model. Lagrange–Rayleigh dynamics use the internuclear separation, the orientation of the internuclear axis and the two fragment rotation angles. Radial and tangential friction govern dissipation and angular-momentum exchange. The book limits the classical treatment mainly to energies above the Coulomb barrier because tunnelling is difficult to represent.', 'pdf_pages': [124, 127]}",
+        "PDF 181–208：{'theme': 'Chapter 6 bibliography on neutron flow, transfer, surface vibrations, deformation, coupled-channel codes, and near-barrier tunneling. OCR error obscures some isotope superscripts and reference numbers.', 'pdf_interval': [181, 182]}；{'theme': 'Chapter 6 bibliography on extracting fusion-barrier distributions from excitation functions, spin distributions, and elastic or quasielastic scattering, followed by studies of isotope dependence and neutron transfer.', 'pdf_interval': [183, 184]}",
+        "PDF 209–223：{'theme': 'Reported uranium-induced fragment mass distributions in Fig. 7.27. The beam-energy labels 6.0 MeV/u and 5.4 MeV/u are legible. OCR errors obscure isotope labels and the power of ten on the reaction-time axis.', 'pdf_interval': [209, 209]}；{'theme': \"Bond's saddle-plus-scission extension and Rossner's statistical scission model, Eqs. (7.32)–(7.36). Fig. 7.29 separately compares model curves with reported measurements at 266 MeV and 340 MeV. OCR errors obscure parts of the equations and isotope labels.\", 'pdf_interval': [209, 210]}"
+      ],
+      "boundary": [
+        "全卷原件由逐页读段及重点原图组成。模型、参数和转引资料未做独立全面复算。"
+      ],
+      "disposition": "covered",
+      "worker": "Dirac and disjoint terminal Codex OCR, manager original-image checks",
+      "source_pdf": "raw/books/重离子核反应 (林承键) (Z-Library).pdf",
+      "sha256": "792bfe7f7807623b7e1439b32eddb7320ab3ec6bf6be7e3894b436c1c9f65b2e",
+      "physical_pages": 223
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 795,
+    "duplicate-or-related-version": 29,
+    "duplicate-excerpt-linked-to-canonical": 13,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 9,
+    "out-of-scope-particle-production": 3,
+    "archived-publisher-scan-missing-printed-page": 3,
+    "read-core-evidence-checked": 1,
+    "publisher-first-page-extract-fulltext-unavailable": 8,
+    "evaluated-data-extract-covered": 7,
+    "out-of-scope-atomic-spectroscopy": 4,
+    "editorial-front-matter": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 2,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "conference-abstract-covered": 3,
+    "supplement-with-main-text-gap": 1,
+    "commentary-complete-shared-pages": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 0,
+  "credited_works": 2,
+  "credited_primary_pages": 1166,
+  "partial_volume_pages": 0,
+  "next_action": "Local corpus queue closed. Use source locators for any future claim-specific verification.",
+  "uncredited": [],
+  "related_materials": [],
+  "corrections": [
+    {
+      "id": "catalogue:LIT-000326",
+      "source": "knowledge/sources/book-wu-nuclear-experiment-methods.md",
+      "physical_pdf_slots": 483,
+      "distinct_local_page_images": 482,
+      "missing_printed_page": 366,
+      "removed_count": 1,
+      "removed_page_credit": 483,
+      "disposition": "archived-publisher-scan-missing-printed-page"
+    },
+    {
+      "id": "catalogue:LIT-000328",
+      "source": "knowledge/sources/book-zhu-probability-statistics-in-physics.md",
+      "type": "original-page anchors and corrected references"
+    }
+  ],
+  "final_corpus": {
+    "rows": 1003,
+    "pending": 0,
+    "credited_works": 813,
+    "credited_primary_pages": 38029,
+    "bounded_in_historical_total": 18
+  }
+}

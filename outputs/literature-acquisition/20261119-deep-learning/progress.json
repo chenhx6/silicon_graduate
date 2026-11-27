@@ -1,6 +1,6 @@
 {
   "created_at": "2026-11-19T14:50:09.195632+00:00",
-  "status": "corpus-learning-active",
+  "status": "corpus-learning-complete",
   "pdf_files_registered": 1028,
   "provisional_work_groups": 993,
   "grouping_boundary": "Not a verified unique-publication count. Byte grouping and old catalogue associations require own-identity/edition/role/scope audits. Collection sources do not establish individual full reading.",
@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000303",
+  "active_source": null,
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -677,34 +677,39 @@
     "LOCAL-ROTATION-AND-DEFORMATION-SOURCES",
     "LOCAL-THEORY-AND-SPECTROSCOPY-245"
   ],
-  "completed_full_sources_this_run": 812,
+  "completed_full_sources_this_run": 813,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
-  "full_work_identity_reconciliation_complete": false,
+  "full_work_identity_reconciliation_complete": true,
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-27T14:32:24.290961+00:00",
+  "updated_at": "2026-11-27T15:28:35.617134+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 37346,
-  "current_source_note": "knowledge/sources/book-bohr-mottelson-nuclear-structure.md",
-  "next_action": "Continue the final Hamilton and Lin volumes, with local source verification.",
-  "runtime_background_jobs_running": true,
-  "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "7 works credited 3279 pages; 64 additional original scan pages in two remaining books.",
-  "current_source_scientific_acceptance": "Vol. II complete; continue the open queue, including archival PDFs needing original tables or scans.",
+  "completed_primary_pages_this_run": 38029,
+  "current_source_note": null,
+  "next_action": "Local corpus queue closed. Use source locators for any future claim-specific verification.",
+  "runtime_background_jobs_running": false,
+  "all_corpus_learning_complete": true,
+  "last_source_manager_closure": "Two works credited 1,166 pages. One prior book credit and its 483 pages removed after detecting a missing printed page. All local queue rows are dispositioned.",
+  "current_source_scientific_acceptance": "All local queue rows have reached a scientific reading or material-access disposition within their documented boundaries.",
   "source_scoped_retrieval": "Existing local originals; publisher and author versions recorded separately.",
   "counting_scope": {
-    "scientific_reading_covered": 794,
+    "scientific_reading_covered": 795,
     "bounded_or_core_only_completed": 18,
-    "credited_pages_explicit_in_queue": 26888,
+    "credited_pages_explicit_in_queue": 27571,
     "pages_carried_forward_from_previous_checkpoints": 10458,
     "increment_this_checkpoint": {
-      "works": 7,
-      "pages": 3279,
-      "partial_volume_pages_recorded_separately": 64,
-      "associated_rows": 0
+      "works": 2,
+      "pages": 1166,
+      "partial_volume_pages_recorded_separately": 0,
+      "associated_rows": 0,
+      "prior_checkpoint_adjustment": {
+        "works": -1,
+        "pages": -483,
+        "basis": "Wu local scan missing printed p. 366, with repeated p. 365; reclassified with accessible reading boundary."
+      }
     }
   },
   "previous_pause": {
@@ -725,5 +730,42 @@
     "resume_printed_page": 259,
     "background_reading_scheduled": false
   },
-  "latest_batch_audit": "20261127-seven-scanned-volume-readings-af-audit.json"
+  "latest_batch_audit": "20261127-hamilton-lin-and-archive-closeout-ag-audit.json",
+  "closeout": {
+    "local_queue_entries": 1003,
+    "pending": 0,
+    "queue_states": {
+      "abstract-only-fulltext-unavailable-closed-by-user": 1,
+      "access-placeholder-fulltext-unavailable": 2,
+      "access-placeholder-linked-to-archived-html": 1,
+      "archived-publisher-scan-missing-printed-page": 3,
+      "commentary-complete-shared-pages": 1,
+      "completed-source-reading-with-bounded-knowledge": 14,
+      "conference-abstract-covered": 3,
+      "duplicate-copy-linked-to-canonical": 4,
+      "duplicate-excerpt-linked-to-canonical": 13,
+      "duplicate-or-related-version": 29,
+      "editorial-front-matter": 1,
+      "erratum-linked-to-bibliographic-parent": 1,
+      "evaluated-data-extract-covered": 7,
+      "figure-asset-linked-to-canonical": 91,
+      "out-of-scope-atomic-spectroscopy": 4,
+      "out-of-scope-particle-production": 3,
+      "publisher-first-page-extract-fulltext-unavailable": 8,
+      "read-core-evidence-checked": 1,
+      "read-with-explicit-boundaries": 3,
+      "scientific-reading-covered": 795,
+      "supplement-linked-to-canonical": 9,
+      "supplement-with-main-text-gap": 1,
+      "table-of-contents-only-fulltext-unavailable": 1,
+      "unavailable-closed-by-user": 7
+    },
+    "coverage_policy": "Local original where available. Retain unavailable scans, access stubs, excerpt boundaries and native or OCR reading depth. No universal claim-level verification.",
+    "originality": "Independent works, supplements, duplicate versions and reused experimental sources retain separate identities and roles.",
+    "next_unit": null,
+    "reference_audit": "20261127-hamilton-lin-and-archive-closeout-ag-audit.json",
+    "incomplete_book_scan_rows": [
+      "catalogue:LIT-000326"
+    ]
+  }
 }
