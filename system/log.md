@@ -7530,3 +7530,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-27 — 馆藏续读第 23 批
 
 - 新增三本书 82 个版面核对页，并写回其余书与 GOSIA 手册的文本读段。队列剩 30 条。
+
+## 2026-11-27 — 馆藏续读第 24 批
+
+- 核定 5 份、392 个主件页，另登记 Rikovska 缺末页的本地版本。队列剩 24 条。

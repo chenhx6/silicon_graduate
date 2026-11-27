@@ -65,3 +65,11 @@ J. Rikovska, N. J. Stone and V. R. Green, Hyperfine Interactions 22 (1985), 355�
 - {"start_page": 4, "end_page": 5, "sections": "第 3 节，探测器构型与低温核取向测量"}
 - {"start_page": 5, "end_page": 6, "sections": "第 4 节，偏振计标定与核谱学应用，图 1–3、表 1"}
 - {"start_page": 7, "end_page": 7, "sections": "第 5 节结论及参考文献"}
+
+## 2026-11-27 — 本地关联载体核对
+
+本地七页印 355–361 已读，印 362 及其角色缺证。馆藏、文件清单及版本检索未找到该页。
+
+- 路径 `raw/papers/gpt/query/20261119-polarization-delta-collection/10.1007_bf02064008.pdf`
+- SHA-256 `448b6dbd0f9247952cf04db6fc237992c4641e1ced9a144da045593fdc4cd846`
+- 实读 核 PDF 1–7（印 355–361）。PDF 2–4 Eqs. (1)–(5) 区分计数不对称 Δ 与 P=Δ/Q；PDF 5–6 Figs. 1–3 与 Table 1 回核温度、效率和混合比。

@@ -1,0 +1,161 @@
+{
+  "batch": "20261127-manual-and-spectroscopy-table-closure-x",
+  "created_at": "2026-11-27T10:20:27.420548+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "bytes:7358a629714563469c02e3b532b6a44095f0bda2ff78607ada0bcfb294971637",
+      "source": "knowledge/sources/tb160-oriented-nuclei-mixing-ratios.md",
+      "identity": "R A Fox, W D Hamilton and D D Warner, J. Phys. A: Math., Nucl. Gen. 7(14), 1716–1725 (1974). IOP journal version with download cover",
+      "coverage": [
+        "PDF 1–11 连续范围，同版 CLI 原文接续缺段原图核查。",
+        "8"
+      ],
+      "boundary": [
+        "Positive-parity Uλ values assume one unit of β-decay angular momentum. The fourth-order term uses B₄=−0.56(15) and pure E2 to calculate A₄, then the second-order term follows from measured 1−W(0) and that fourth-order term. The Krane–Steffen column is prior work.",
+        "§3.2.5 prints δ(880)=+13(+2/−4) under B₄=0.0±0.15 and calls it compatible with Table 3. Retain both printed signs and the source discrepancy, without treating the sign change as a resolved physical result."
+      ],
+      "disposition": "covered",
+      "worker": "Pauli with prior CLI text receipts",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1088_0305-4470_7_14_004.pdf",
+      "sha256": "7358a629714563469c02e3b532b6a44095f0bda2ff78607ada0bcfb294971637",
+      "physical_pages": 11
+    },
+    {
+      "id": "bytes:7ee434be450be187ace3f20f1c529ef58439f45963fa622bf848d7b69e8b9096",
+      "source": "knowledge/sources/bradley-1986-fe56-nuclear-orientation.md",
+      "identity": "D. I. Bradley et al., J. Phys. G: Nucl. Phys. 12, 115–128 (1986). IOP journal version with download cover",
+      "coverage": [
+        "PDF 1–15 连续范围，同版 CLI 原文接续缺段原图核查。",
+        "13"
+      ],
+      "boundary": [
+        "Table 5 Expt strengths depend on branching and half-life inputs described in Table 3. Some Table 2 entries are imported from Ohya, Auble, Krane or Sharma. Keep individual input sources and preserve the reported branches where a separate polarization constraint was unavailable.",
+        "4458.4 keV spin remains 3⁺ or 4⁺. For 3600.8 keV, the adopted placement requires prior coincidences and reaction evidence. DOI remains unverified from the local evidence used here."
+      ],
+      "disposition": "covered",
+      "worker": "Pauli with prior CLI text receipts",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/D_I_Bradley_1986_J._Phys._G__Nucl._Phys._12_115.pdf",
+      "sha256": "7ee434be450be187ace3f20f1c529ef58439f45963fa622bf848d7b69e8b9096",
+      "physical_pages": 15
+    },
+    {
+      "id": "bytes:9e64a676fba0cdc100a917c74b1fe9c471b8fdb924369cdabc4d7e5bd2ae5562",
+      "source": "knowledge/sources/pb197-pb198-magnetic-rotation.md",
+      "identity": "A. Görgen et al., Nuclear Physics A 683 (2001), 108–144. Elsevier journal version",
+      "coverage": [
+        "PDF 1–37 连续范围，同版 CLI 原文接续缺段原图核查。"
+      ],
+      "boundary": [
+        "Polarimeter asymmetry is not calibrated absolute P or a tabulation of δ. Weak and overlapping peaks limit discrimination. ¹⁹⁷Pb band 3 parity is experimentally unconstrained and band 5 positive parity is tentative. ¹⁹⁸Pb bands 1 and 5 remain tentative in spin and parity. Band 2 bandhead and Band 4 linking depend on assumptions.",
+        "B(M1)/B(E2) relies on relative strengths and often weak E2 crossovers. Lifetime and shape comparisons reuse earlier papers. The V₂ fit and normalized scale depend on chosen configurations and angular momenta. Prior text coverage of the other figures is caption-based."
+      ],
+      "disposition": "covered",
+      "worker": "Pauli with prior CLI text receipts",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_S0375-9474_00_00470-X.pdf",
+      "sha256": "9e64a676fba0cdc100a917c74b1fe9c471b8fdb924369cdabc4d7e5bd2ae5562",
+      "physical_pages": 37
+    },
+    {
+      "id": "catalogue:LIT-000430",
+      "source": "knowledge/sources/gosia-2012-manual-sigma-invariants.md",
+      "identity": "GOSIA User Manual for Simulation and Analysis of Coulomb Excitation Experiments. Local version dated 10 May 2012 (PDF 1), 310 physical pages.",
+      "coverage": [
+        {
+          "source_note": "knowledge/sources/gosia-2012-manual-sigma-invariants.md",
+          "scope_locator": "Read actual source Scope and Reading Depth / Covered scope; no cached excerpt is a reading certificate."
+        },
+        "PDF 1–34, PDF 35–70, PDF 71–105, PDF 106–140, PDF 141–175, PDF 176–210, PDF 211–245, PDF 246–263, PDF 264–280, PDF 281–310 的页标原文文本读段。",
+        "本次审读实体第1至34页的页标提取文本，共34页。第35至310页未读，全部图像均未目视核验。",
+        "本轮逐页审读物理第35–70页所供文字，共36个连续页标。第56、68页仅抽取到页眉。第35页从§3.3中段开始，第70页止于§6.1段中。图的证据限于图题与正文说明。其余PDF页、图像及源码均未在本轮审读。",
+        "实读 PDF 物理页71–105的逐页提取文本，共35页。首句承接 §6.1 前文，末页止于 §6.7.8 的式(6.108)。阅读包括提取出的正文、公式、表格数值和图注。图像、版面和公式字形均待视觉核对。",
+        "实际阅读物理第106–140页的抽取文字，共35页。第106页从灵敏度参数讨论中段开始，第140页止于圆形探测器输入小节开头。图7.1仅阅读图注和相邻正文，图像待核。",
+        "实际阅读物理PDF第141–175页的抽取文字及可见图注，共35个连续页位。从§7.12中段开始，读至§7.30。第149页有三处去重占位，覆盖仅计可见文字。图版待管理者检视，本次未作视觉核验。",
+        "仅阅读所给物理第176–210页的页标文本，共35页，含第186页仅有页眉的抽取内容。图件阅读限于抽取图注。未核看原页图像、封面、摘要、书目或范围外正文。",
+        "仅审读物理 PDF 第211–245页的页标提取文本，共35个页标。第211页从相关误差流程第7步开始，第218页仅提取到页眉，第234页有去重占位缺文，第245页在靶核并行输入清单中截断。第9章从章首到章末的提取文字均已审读，图像和原版排印未经视觉核查。",
+        "仅审读物理页246–263的给定文本，共18页。p248仅有章眉，p260、p261、p263除章眉外仅有图注，p259另有零散图中文字。所有图面均待查验。",
+        "逐页审读物理 PDF 第 264–280 页的给定提取文本，共 17 页，含仅提取到页眉及图注的页面。未查看图像。其余物理页未读。",
+        "审读物理第281至310页的抽取文本，共30页。第281页从 §15.1 中途起读，第284和300页的抽取内容仅有页眉。本次未作视觉核验，物理第1至280页及 SIGMA 源码均未重读。",
+        "主会话查看 PDF 56、68、149、186、218、234、248、259–264、274、280、284、300：七页留章眉无正文，补齐流程图、输入格式和拟合图。"
+      ],
+      "boundary": [
+        "未执行手册示例、读取相应生产数据或校验不同程序版本的实现。"
+      ],
+      "disposition": "covered",
+      "worker": "Terminal Codex non-overlapping page ranges and manager visual scope check",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/gosia-user-manual-20120510.pdf",
+      "sha256": "8258219d56fe5a7ced3a761ab3b07388089cd30e46adcde72f4a1c0c1f6cc633",
+      "physical_pages": 310
+    },
+    {
+      "id": "catalogue:LIT-000339",
+      "source": "knowledge/sources/byrne-1992-129ba-bandcrossing-primary.md",
+      "identity": "A. P. Byrne et al., Nuclear Physics A 548 (1992), 131–158。North-Holland 刊版扫描。出版商 FULL XML 的 MAIN attachment 标为 28 页，DOI、PII、卷页均与本地获取回执相合。XML 的单数 bandcrossing 与题页复数 bandcrossings 是同一作品。",
+      "coverage": [
+        "既有正文覆盖加本批视觉检查涵盖 PDF 1–28（印 131–158）的文章层阅读，补上缺失的图 2 和图 12／表 2、关键公式与图 14。PDF 28 末见致谢续段及 Ref. 1–29。未逐格校订表 1、穷举高自旋峰或重算图 14。原刊冲突继续随各 locator 保存。"
+      ],
+      "boundary": [
+        "同一刊版正文、缺图与旋转表分别有读段；保留印刷异文。"
+      ],
+      "disposition": "covered",
+      "worker": "Dirac, supplementing earlier CLI text audit",
+      "source_pdf": "raw/papers/gpt/query/20261105-ba129-model-readiness/byrne1992-main.pdf",
+      "sha256": "e7fd04cd2eb33070e7b0d9e60dfdef70b0bba2f45a3c24dc05b6aeee05ed9fa0",
+      "physical_pages": 28
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 772,
+    "duplicate-or-related-version": 29,
+    "duplicate-excerpt-linked-to-canonical": 13,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 9,
+    "out-of-scope-particle-production": 3,
+    "archived-publisher-scan-missing-printed-page": 2,
+    "pending-identity-and-coverage": 1,
+    "read-core-evidence-checked": 1,
+    "publisher-first-page-extract-fulltext-unavailable": 8,
+    "evaluated-data-extract-covered": 7,
+    "out-of-scope-atomic-spectroscopy": 4,
+    "editorial-front-matter": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 2,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "existing-source-coverage-to-audit": 23,
+    "conference-abstract-covered": 3,
+    "supplement-with-main-text-gap": 1,
+    "commentary-complete-shared-pages": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 24,
+  "credited_works": 5,
+  "credited_primary_pages": 392,
+  "partial_volume_pages": 0,
+  "next_action": "Continue archived long-form sources and the last local spectroscopy gaps.",
+  "uncredited": [],
+  "related_materials": [
+    {
+      "id": "bytes:448b6dbd0f9247952cf04db6fc237992c4641e1ced9a144da045593fdc4cd846",
+      "state": "archived-publisher-scan-missing-printed-page",
+      "source": "knowledge/sources/rikovska-1985-oriented-nuclei-seven-page-scan.md",
+      "file": {
+        "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1007_bf02064008.pdf",
+        "sha256": "448b6dbd0f9247952cf04db6fc237992c4641e1ced9a144da045593fdc4cd846",
+        "size": 277903,
+        "hash_basis": "fresh-hash",
+        "source_role": "incomplete-publisher-scan"
+      },
+      "physical_pages": 7,
+      "credit": 0,
+      "coverage": [
+        "原文字回执与本批定点视觉核查已覆盖现存 PDF 1–7 的正文和待核图表。印 362 缺件，是否空白、附页或另有文章内容均未证。"
+      ],
+      "boundary": "本地七页印 355–361 已读，印 362 及其角色缺证。馆藏、文件清单及版本检索未找到该页。"
+    }
+  ]
+}

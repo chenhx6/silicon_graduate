@@ -8,7 +8,7 @@ updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: technical-manual-and-program-source
-reading_depth: skimmed
+reading_depth: read
 authors: [D. Cline, T. Czosnyka, A.B. Hayes, P. Napiorkowski, N. Warr, C.Y. Wu]
 year: 2012
 citation_key: "cline_2012_gosia-user-manual"
@@ -106,3 +106,7 @@ revises：148留下的正幅度奇次矩“如何得到”现有一个具体可�
 - GOSIA2示例把研究核改为靶核，用¹²C的LEVE和ME条目替换⁸⁸Kr条目，在EXPT中交换研究核与另一核的角色，并在OP,YIEL示例中列入首激发态寿命约束。（物理页246，第11章示例的LEVE、ME、EXPT和OP,YIEL数据块。）
 - 教程先用 OP,INTI 对粒子散射接受范围及束流穿靶的能量区间积分，再由 OP,CORR 比较积分产额与对应点计算产额，以其商形成两项所需修正因子之一。拟合读取修正产额，在新极小值附近更新修正因子后再拟合。（物理 PDF 第 266–267 页，OP,INTI 及产额定义。第 270–272 页，§14.3.2 步骤 2–5。）
 - GREMLIN 的效率模型把材料衰减、对数多项式及两个可选低能项相乘。Ta、Pb 的 K 吸收边两侧分别作样条插值。低能项 F 是经验函数，W 用来近似电子学鉴别器阈值。（物理第281页 §15.1 的无编号效率乘积式及 1.3至1.5，第282页 1.5 续文。F、W 的精确公式字形待核第281页。）
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 149 的 OP,INTI 按探测器几何、网格点、阻止本领格式输入。PDF 234 §§10.4.3–10.4.4 区分积分、实验产额校正和参数映射。PDF 259–264 Figs. 14.1–14.5 给 ¹⁹⁴Pt 模拟能级、流程及各命令示范，PDF 274 Figs. 14.9–14.10 是模拟拟合示例。空白章末 PDF 56、68、186、218、248、284、300 只计物理页位。

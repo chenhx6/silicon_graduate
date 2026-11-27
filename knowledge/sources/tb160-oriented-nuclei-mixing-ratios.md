@@ -8,7 +8,7 @@ updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article
-reading_depth: skimmed
+reading_depth: read
 authors: ["R A Fox", "W D Hamilton", "D D Warner"]
 tags: [nuclear-structure, local-literature-archive]
 year: 1974
@@ -63,3 +63,9 @@ R A Fox, W D Hamilton and D D Warner, J. Phys. A: Math., Nucl. Gen. 7(14), 1716�
 - {"pdf_pages": "5–7", "sections": "图 1–2 图注、表 1–2 的可辨内容、§3.1 及 §3.2 开头"}
 - {"pdf_pages": "8–8", "sections": "印刷页 1722，表 3 由相邻正文定位，表题和表格内容未读"}
 - {"pdf_pages": "9–11", "sections": "§3.2.1–3.2.5、图 3 图注、§4 讨论、§5 结论、致谢及参考文献"}
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+With low-temperature oriented ¹⁶⁰Tb, the measured observable is the directional γ anisotropy of its ¹⁶⁰Dy decay transitions. Table 3 gives E2/M1 δ=−7.7(+0.6/−0.7) and −18(+4/−8) for the 765 and 880 keV transitions under the printed B₄ and β-feeding assumptions. The pure-E2 966 and 197 keV transitions give B₂(I)=0.59(5) and 0.61(6). The 962 keV line is unresolved for this analysis.
+
+- The 1103 keV row gives δ(M2/E1)=−0.156(25) for the tabulated 1386 keV level. Fig. 1 and Table 1 also show 1386 keV. §4 actually prints 1384 keV; retain the discrepancy. (PDF 7 Table 2 and PDF 10 §4)

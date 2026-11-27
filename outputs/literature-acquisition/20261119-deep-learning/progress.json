@@ -677,7 +677,7 @@
     "LOCAL-ROTATION-AND-DEFORMATION-SOURCES",
     "LOCAL-THEORY-AND-SPECTROSCOPY-245"
   ],
-  "completed_full_sources_this_run": 785,
+  "completed_full_sources_this_run": 790,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -685,26 +685,26 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-27T10:02:25.662533+00:00",
+  "updated_at": "2026-11-27T10:20:28.032698+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 27222,
+  "completed_primary_pages_this_run": 27614,
   "current_source_note": "knowledge/sources/book-bohr-mottelson-nuclear-structure.md",
-  "next_action": "Continue Bohr–Mottelson I PDF 89, Hamilton PDF 656, Petrache front and back matter, and remaining local works.",
+  "next_action": "Continue archived long-form sources and the last local spectroscopy gaps.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "0 works credited 0 pages; 82 visually checked book pages plus bounded text-only book and manual ranges.",
+  "last_source_manager_closure": "5 works credited 392 pages; one seven-page scan with one printed page absent.",
   "current_source_scientific_acceptance": "Vol. II complete; continue the open queue, including archival PDFs needing original tables or scans.",
   "source_scoped_retrieval": "Existing local originals; publisher and author versions recorded separately.",
   "counting_scope": {
-    "scientific_reading_covered": 767,
+    "scientific_reading_covered": 772,
     "bounded_or_core_only_completed": 18,
-    "credited_pages_explicit_in_queue": 16764,
+    "credited_pages_explicit_in_queue": 17156,
     "pages_carried_forward_from_previous_checkpoints": 10458,
     "increment_this_checkpoint": {
-      "works": 0,
-      "pages": 0,
-      "partial_volume_pages_recorded_separately": 82,
-      "associated_rows": 0
+      "works": 5,
+      "pages": 392,
+      "partial_volume_pages_recorded_separately": 0,
+      "associated_rows": 1
     }
   },
   "previous_pause": {
@@ -725,5 +725,5 @@
     "resume_printed_page": 259,
     "background_reading_scheduled": false
   },
-  "latest_batch_audit": "20261127-books-and-manual-reading-w-audit.json"
+  "latest_batch_audit": "20261127-manual-and-spectroscopy-table-closure-x-audit.json"
 }

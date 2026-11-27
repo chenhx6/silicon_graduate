@@ -8,7 +8,7 @@ updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article
-reading_depth: skimmed
+reading_depth: read
 authors: ["A. Görgen", "N. Nenoff", "H. Hübel", "G. Baldsiefen", "J.A. Becker", "A.P. Byrne", "S. Chmel", "R.M. Clark", "M.A. Deleplanque", "R.M. Diamond", "P. Fallon", "K. Hauschild", "I.M. Hibbert", "W. Korten", "R. Krücken", "I.Y. Lee", "A.O. Macchiavelli", "E.S. Paul", "U.J. van Severen", "F.S. Stephens", "K. Vetter", "R. Wadsworth", "A.N. Wilson", "J.N. Wilson"]
 tags: [nuclear-structure, local-literature-archive]
 year: 2001
@@ -64,3 +64,9 @@ Elsevier 英文期刊刊行版。PDF 第1页印有卷页、2001年版权及 PII 
 - PDF 第12–21页，§3.2 ¹⁹⁸Pb 能级结果及表2；图6–9图注在第13–16页，表2在第17–21页，第20页有缺段。
 - PDF 第21–35页，§4–5 强度比、组态、带混合、剪刀机制和有效相互作用；第22页表3，第34页表4，图10–18图注分别在第24、26、27、28、29、30、30、32、33页。
 - PDF 第35–37页，致谢及参考文献[1]–[36]。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+¹⁹⁷Pb band 1 has a positive 432.5 keV decay peak and negative in-band M1 difference peaks. The normalized Compton asymmetry and DCO constrain electromagnetic character. ¹⁹⁸Pb Table 2 verifies the full 41-row continuation and leaves 484.2 keV multipolarity blank because it overlaps 483.9 keV. The 16⁻–34⁻ Band 3 arrangement uses γ coincidences, intensity patterns and weak E2 crossovers. The 1.35 MeV V₂ and approximately 2.3 MeV interaction scale remain model results.
+
+- The terminal summary described a deduplication placeholder. The archived terminal prompt actually contains all 41 table rows, with whitespace-normalized text identical to the current extraction. The source-page inspection verifies them and removes the prior scope ambiguity. (PDF 20 Table 2 versus worker-as.prompt physical PDF page 20 of 37)

@@ -8,7 +8,7 @@ updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article
-reading_depth: skimmed
+reading_depth: read
 authors: ["D. I. Bradley", "N. J. Stone", "J. Rikovska", "D. Novakova", "J. Ferencei"]
 tags: [nuclear-structure, local-literature-archive]
 year: 1986
@@ -60,3 +60,10 @@ IOP下载封面附期刊印刷版。物理第1页为下载封面，物理第2–
 - 物理第1–6页，下载封面、题名页、§1引言、§2角分布及§3线偏振前半，含图1和表1。
 - 物理第7–12页，表2、§3末段、§4.1–4.4及§4.5前半，含图2–4和表3–4的可辨文字。
 - 物理第14–15页，§4.5续文、§5结论、致谢与参考文献。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+Table 5 compares four experimental reduced-strength and signed δ rows with the Paar cluster–vibration calculation and shell-model comparators. The theoretical δ columns contain magnitudes. The four rows do not support a global structure assignment. For 1811 keV, preserve the Table 5 print −1.185(15) as a discrepancy, and cite −0.185(15) as the value tabulated consistently in Tables 2–3, attributed to Krane (1978) in Table 2.
+
+- First row δ(E2/M1) is printed −1.185(15) in Table 5. Do not propagate it as a replacement for −0.185(15). (PDF 13 Table 5 versus PDF 7 Table 2 and PDF 11 Table 3)
+- The original transition is 3₂⁺→4₁⁺ with B(M1)=0.25(14) μ_N². Some text extraction conflates the digits and subscripts. (PDF 11 Table 3, 1771 keV row)
