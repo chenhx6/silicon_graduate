@@ -1,0 +1,162 @@
+{
+  "batch": "20261127-book-compilations-and-original-page-coverage-ac",
+  "created_at": "2026-11-27T12:00:07.345033+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000313",
+      "source": "knowledge/sources/book-ju-landau-mechanics.md",
+      "identity": "鞠国兴，《朗道〈力学〉解读》，高等教育出版社，400 页本地 PDF。",
+      "coverage": [
+        "PDF 1–400 连续分段文本读完。",
+        "PDF 1–40：逐页审读物理 PDF 第 1–40 页的原件抽取文本，其中正文为印刷第 1–25 页，读至第二章 §6.2 第 1 项“运动积分”。图形、版面、书签及物理 PDF 第 41–400 页均未核读。",
+        "PDF 41–87：逐页核读物理 PDF 第 41–87 页的抽取文字，共 47 页，跨第二章和第三章。可辨印刷页端点为 26 和 72。另见物理第 82 页页码疑读。图形、版面与字形均未目视核验。",
+        "PDF 88–129：逐页审读物理 PDF 第 88–129 页的文字提取，共 42 页，对应印刷页 73–114。起于 §14.2 第 5 项，止于 §17.3 习题解答中途。图形均待原页核验。",
+        "PDF 130–175：逐页核读物理 PDF 第130–175页的提取文本，共46页。起于第四章 §17 末段，止于第五章 §23.3 习题3极坐标讨论的式（3）。图形、图注和公式排印均未做目视核验。",
+        "PDF 176–222：仅核读物理 PDF 第 176–222 页的连续页标文本，共 47 页，对应印刷第 161–207 页。公式和图注按可辨文字核读，图版未作目视核验。",
+        "PDF 223–266：逐页核读物理 PDF 第 223–266 页共 44 页的抽取文本。对应可见印刷页 208–220、222–251，物理第 236 页是第六章章首页，抽取文本未显示该页页码。首尾均截在正文中，图形未作视觉核验。",
+        "PDF 267–310：核读物理 PDF 第 267–310 页的抽取文本，共 44 页。第 267–301 页对应印刷第 252–286 页，第 302 页为抽取中未见页码的第七章章首，第 303–310 页对应印刷第 288–295 页。图件核查依据为抽取中的图题和交叉引用，原图待核。",
+        "PDF 311–356：核读物理 PDF 第 311–356 页的逐页提取文字，共 46 页，对应印刷页 296–341。起于 §42 的泊松括号基本性质，止于 §48.4 习题 1 题干。图形未作目视核验。",
+        "PDF 357–400：实际核读物理 PDF 第 357–400 页的原页标记文本，共 44 页。第 357–393 页为正文，第 394–398 页为索引，第 399–400 页为出版社声明与封底。建议接受此前的同版原件关联，以及与本批重叠并经本批复核的 §49 文本覆盖。前两条局部核读日志可保留为历史记录。全书覆盖及其余正文范围应分别核验。"
+      ],
+      "boundary": [
+        "未重演代码、计算或所引实验；图表定量使用前回对应原行。"
+      ],
+      "disposition": "covered",
+      "worker": "terminal Codex disjoint page ranges with manager visual verification",
+      "source_pdf": "raw/books/朗道《力学》解读 (鞠国兴) (Z-Library).pdf",
+      "sha256": "4886cb7585f26f41828e75e43d542d787d9202d3e0af41ce645c88bbff4a0d30",
+      "physical_pages": 400
+    },
+    {
+      "id": "catalogue:LIT-000319",
+      "source": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+      "identity": "A. Gargano, S. M. Lenzi and G. De Gregorio (eds.), The Nuclear Shell Model 70 Years after Its Advent: Achievements and Prospects. Local 334-page reprint collection.",
+      "coverage": [
+        "PDF 1–334 连续分段文本读完。",
+        "PDF 1–42：队列物理行 384。本次逐页核读所给 PDF 物理第 1–42 页的提取文本，其中第 3、9、11 页无提取文字。图表证据限于可抽取的图注、表格和正文，未作目视核验。物理第 43–334 页未读。",
+        "PDF 43–95：仅核读 PDF 物理第 43–95 页的页标提取文本，共 53 页，对应合集印刷第 32–84 页。这一连续区段属于 Wiki 所列的 Stuchbery 与 Wood 文章，自第 4 节后段读至结论及部分参考文献。图表范围限于提取出的图注、表文及正文讨论。",
+        "PDF 96–142：仅核读所供 PDF 物理第 96–142 页的抽取文本，共 47 个页位。第 97 页没有抽取文本，页面内容未判定。完成 Otsuka 一文正文、附录和参考文献表的文本核读，以及 Brown 一文从引言至第 3 节内图 15 的文本核读。图版均待目检。",
+        "PDF 143–190：仅审读物理第 143–190 页的页标文本，共 48 个页位，其中 45 页含提取文本。第 149、171、185 页无提取文字，空白状态未确认。阅读范围含 Brown 正文末段及参考文献、Li 等与 Shimizu 的完整文章文本，以及 Rocchini 与 Zielińska 的文章开头。图表仅核对可提取的表格文字、图注和正文描述，图像未目视核验。",
+        "PDF 191–240：仅审读 PDF 物理第 191–240 页的逐页抽取，共 50 个页面标记，其中 47 页有文本。第 203、221、233 页的抽取为空，原页状态待查。图表仅核读可辨识的抽取文字和图注，未查看原页图像。",
+        "PDF 241–286：仅通读物理第 241–286 页的页标文本，共 46 页，其中第 253、271 页无抽取文本，页面是否空白待查。实际覆盖 Górska 条目的后段、Bentley 的完整文章文本和 Smirnova 的前段。图表处理限于抽取文字、图注和表格文本，未核看图面。",
+        "PDF 287–334：仅核读物理第 287–334 页的 48 个页标记录，其中 44 页有抽取文字。阅读从 Smirnova 正文中段开始，经 Horoi 和 Martínez-Pinedo、Langanke 两篇的正文及参考文献表，至合集末页。物理第 1–286 页未提供。图表仅据正文和图注建立索引，本轮未作图版目视核验。"
+      ],
+      "boundary": [
+        "未重演代码、计算或所引实验；图表定量使用前回对应原行。"
+      ],
+      "disposition": "covered",
+      "worker": "terminal Codex disjoint page ranges with manager visual verification",
+      "source_pdf": "raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf",
+      "sha256": "1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1",
+      "physical_pages": 334
+    },
+    {
+      "id": "catalogue:LIT-000322",
+      "source": "knowledge/sources/book-shifrin-mathematica-programming-advanced-introduction.md",
+      "identity": "Leonid Shifrin, Mathematica programming: an advanced introduction, local 408-page 2008 version.",
+      "coverage": [
+        "PDF 1–408 连续分段文本读完。",
+        "PDF 1–40：审读物理 PDF 第1–40页的所给抽取文本。第36页开头的 Map 帮助输出有一段被去重占位符替代，其余可见文字已读。第41–408页正文未读。图形与版面均未目视核验。",
+        "PDF 41–82：逐页审读物理 PDF 第41–82页的抽取文本，共42页。第41页从前一节的 Sin[a] 示例末尾开始，第82页止于 §3.8.3.3 标题。图形、原始排版及其余物理页均未经本次核验。",
+        "PDF 83–132：逐页审读物理 PDF 第83–132页的抽取文本，共50页。起于 §3.8.3.3，止于尚在继续的 §4.3.4.2。第87页纯函数示例后的去重占位符不计入正文证据。审读方式限于文本。",
+        "PDF 133–181：连续阅读物理 PDF 第133–181页的抽取文本，共49页，含正文、示例代码及输出。从 Position/Extract 示例的末段开始，止于 With 小节标题。第170页有两处去重占位。审读限于所供文字，图形和排版待查原页。",
+        "PDF 182–232：仅阅读物理 PDF 第 182–232 页的逐页抽取文本，共 51 页。页内可辨的印刷页码与物理页标一致。图形、版式和代码字形未作目视核验。",
+        "PDF 233–283：仅审读物理 PDF 第233–283页的页标提取文字，共51页。起于 §5.2.4.2，止于 §5.3.4.5 引出更密网格的位置。未审读其余357页，未执行书中代码，未目检图表。第262页一处代码由提取文本的去重标记代替，可参照第241页所给定义。",
+        "PDF 284–334：实读物理 PDF 第 284–334 页的页标提取文本，共 51 页，从二维插值示例结尾读至 Gram–Schmidt 单步实现开头。第 299、300、314 页有去重占位，所涉代码块仅按可见文字登记。其余页未读，未运行代码，也未目检图形。",
+        "PDF 335–384：实际审读物理 PDF 第335–384页的正文、代码和输出抽取，共50页。第367、369页有重复代码省略标记，相应定义可在第363、366页对照。其余页面未读，图形与页面排版未作目视核验。",
+        "PDF 385–408：实读物理 PDF 第385–408页的带页标提取文本，共24页。第1–384页仅有 Wiki 卡片提供的既有记录可供比对。本次未查看原页图像。"
+      ],
+      "boundary": [
+        "未重演代码、计算或所引实验；图表定量使用前回对应原行。"
+      ],
+      "disposition": "covered",
+      "worker": "terminal Codex disjoint page ranges with manager visual verification",
+      "source_pdf": "raw/books/MathProgrammingIntro.pdf",
+      "sha256": "43c24ec835b7ad38ee7a4c4a4263f1afc6d6b2812ed764a734980525db8db107",
+      "physical_pages": 408
+    },
+    {
+      "id": "catalogue:LIT-000308",
+      "source": "knowledge/sources/book-greiner-nuclear-models.md",
+      "identity": "Greiner and Maruhn, Nuclear Models, Springer 1996 English scan.",
+      "coverage": [
+        "PDF 43–82、84–85（印 24–63、65–66）逐页核 42 个正文页，PDF 83 章间空白。"
+      ],
+      "boundary": [
+        "保持已定位的原图、模型条件及实际缺页边界。"
+      ],
+      "disposition": "partial",
+      "worker": "native original-page study",
+      "source_pdf": "raw/books/Nuclear Models (Walter Greiner, Joachim A. Maruhn) (Z-Library).pdf",
+      "sha256": "db5e43efaa80877822540bf0caae9be93d54d5499c5df89faae69769e6f77091",
+      "physical_pages": 399
+    },
+    {
+      "id": "catalogue:LIT-000309",
+      "source": "knowledge/sources/book-hamilton-electromagnetic-interaction.md",
+      "identity": "W. D. Hamilton (ed.), North-Holland 1975, local scan; Chapter 14 by Hamilton.",
+      "coverage": [
+        "PDF 670–695（印 659–684）有 25 个完整正文页和 PDF 678 的有界部分。两张粘贴勘误遮挡 PDF 678 中段。"
+      ],
+      "boundary": [
+        "保持已定位的原图、模型条件及实际缺页边界。"
+      ],
+      "disposition": "partial",
+      "worker": "native original-page study",
+      "source_pdf": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+      "sha256": "93b32a8debb66ad036229d860ad56f0434dc49b56edd32f1628af1d71a21ae00",
+      "physical_pages": 956
+    },
+    {
+      "id": "catalogue:LIT-000314",
+      "source": "knowledge/sources/book-lin-heavy-ion-reactions.md",
+      "identity": "林承键，《重离子核反应》，223 个物理 PDF 页；正文印号等于 PDF 序号减 10。",
+      "coverage": [
+        "PDF 11–46（印 1–36）第 1、2 章实质连续覆盖；PDF 1–10 核封面、目录与页码。"
+      ],
+      "boundary": [
+        "保持已定位的原图、模型条件及实际缺页边界。"
+      ],
+      "disposition": "partial",
+      "worker": "native original-page study",
+      "source_pdf": "raw/books/重离子核反应 (林承键) (Z-Library).pdf",
+      "sha256": "792bfe7f7807623b7e1439b32eddb7320ab3ec6bf6be7e3894b436c1c9f65b2e",
+      "physical_pages": 223
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 782,
+    "duplicate-or-related-version": 29,
+    "duplicate-excerpt-linked-to-canonical": 13,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 9,
+    "out-of-scope-particle-production": 3,
+    "archived-publisher-scan-missing-printed-page": 2,
+    "read-core-evidence-checked": 1,
+    "publisher-first-page-extract-fulltext-unavailable": 8,
+    "evaluated-data-extract-covered": 7,
+    "out-of-scope-atomic-spectroscopy": 4,
+    "editorial-front-matter": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 2,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "existing-source-coverage-to-audit": 14,
+    "conference-abstract-covered": 3,
+    "supplement-with-main-text-gap": 1,
+    "commentary-complete-shared-pages": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 14,
+  "credited_works": 3,
+  "credited_primary_pages": 1126,
+  "partial_volume_pages": 103,
+  "next_action": "Continue the remaining volumes using original-page checks and disjoint assignments.",
+  "uncredited": [],
+  "related_materials": []
+}

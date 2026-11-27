@@ -7,7 +7,7 @@ updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: edited-special-issue-reprint
-reading_depth: skimmed
+reading_depth: read
 title_original: "The Nuclear Shell Model 70 Years after Its Advent: Achievements and Prospects"
 authors: ["Angela Gargano", "Giovanni De Gregorio", "Silvia Monica Lenzi", "editors"]
 year: 2023
@@ -240,3 +240,11 @@ SMMC 能级密度与低能 M1 剪刀模对中子俘获反应率的增强。
 ## 2026-11-27 — 馆藏原件与覆盖核对
 
 - Otsuka 转述的截至 2016 年的首个 2⁺ 态激发能系统学中，²⁴O、⁵²Ca 和 ⁵⁴Ca 的激发能约为总体趋势的两倍。⁵⁴Ca 的观测能级另引自文献 [47]。（物理第 101 页图 2(b) 及正文，第 107 页图 7 右栏及正文。图中具体点位待查对应物理页。）
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+核对 PDF 3、9、11、97、149、171、185、203、221、233、253、271、301、317、331、333 均为空白分隔页。PDF 334 为 MDPI 封底。逐文对齐汇编中的 Otsuka 壳演化、外壳与滴线、Gamow 态、库仑激发、GT 与双 β 章节，引用具体结果时保留各章节作者、原刊和计算/测量角色。
+
+- Talmi 转述，¹⁴C 衰变的观测时间尺度超过 5000 年，其到 ¹⁴N 基态的 Gamow–Teller 矩阵元极小且非零。（PDF 物理第 15 页衰变正文、第 17 页镜像比较正文。矩阵元定义见第 15 页式 (4)。）
+- Brown 转述实验已鉴别出 ⁶⁰Ca，并报道从 ⁸⁰Zn 单质子去除得到 ⁷⁹Cu 的低激发能级。Li 等转述 ²⁵O 和 ²⁶O 均不束缚，分别发生单中子和双中子发射。（Brown 物理第 143 页 §4、文献 [36]，第 144 页 §5、文献 [35]。Li 等物理第 156 页 §3.1、文献 [8]、[74]；图 2 的具体能级和宽度待核第 156 页图版。）
+- Smirnova 在费米矩阵元的一阶展开中取 δC ≈ δC1 + δC2。前项来自壳模型空间内的组态混合，后项来自质子与中子径向波函数的重叠偏差。径向势用分离能和电荷半径约束。作者对 Woods–Saxon 结果与 CVC 相容性的评价限于综述所引的比较。（物理第 289–292 页，第 4.1 节，式 (29)–(32)。图 5 在第 289 页，图 6 在第 291 页。模型点位及示意标记待查对应图版。）

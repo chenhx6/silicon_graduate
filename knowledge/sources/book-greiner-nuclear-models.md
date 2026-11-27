@@ -101,3 +101,7 @@ tags: [triaxiality, collective-hamiltonian, triaxial-rotor, e2-branching-ratios,
 ## 2026-11-27 — 馆藏原件与覆盖核对
 
 PDF 20–24（印 1–5）低能集体形变及微观与宏观描述。PDF 27–31 主动变换以及 PDF 34–42 的不可约角动量表象与 Euler 序列按书中符号。PDF 22 Eq. (1.7) 左右 μ 的排印需按张量秩解释。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 43–57 给球张量、Wigner–Eckart 和 6j/9j，PDF 58–65 处理同位旋、宇称、时间反演。PDF 66–82 区分占据数、正规排序与粒子–空穴表示。PDF 84–85 进入 Lie 群/代数。

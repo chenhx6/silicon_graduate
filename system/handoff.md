@@ -77,6 +77,8 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 本批闭合三本统计和反应教材，共 1,334 个计入页。Bohr–Mottelson 卷 I 附录 1A–1C 全段合并，续接第 2 章 PDF 156；Hamilton 第 14 章读至 PDF 669。两书另核 69 个原页。累计 797 份、29,864 个主件页，正式队列剩 17 本书。稳定指针为 `research/archive-learning-20261127` + `research: verify three statistics and reaction books and advance chapter reading`。见[原件及范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-statistics-and-reaction-reference-books-ab-audit.json)。
 
+本批核定《朗道〈力学〉解读》、壳模型论文合集和 Shifrin 的 Mathematica 教材，共 1,126 个计入页。Greiner、Hamilton 与林承键《重离子核反应》另核 103 个整页；Hamilton 的 PDF 678 中段受原件勘误遮挡，仍单列有界。累计 800 份、30,990 个主件页，正式队列剩 14 本书。稳定指针为 `research/archive-learning-20261127` + `research: finish three reference books and verify additional scan chapters`。见[原件及范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-book-compilations-and-original-page-coverage-ac-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

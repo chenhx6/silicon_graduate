@@ -677,7 +677,7 @@
     "LOCAL-ROTATION-AND-DEFORMATION-SOURCES",
     "LOCAL-THEORY-AND-SPECTROSCOPY-245"
   ],
-  "completed_full_sources_this_run": 797,
+  "completed_full_sources_this_run": 800,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -685,25 +685,25 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-27T11:39:43.973229+00:00",
+  "updated_at": "2026-11-27T12:00:10.237248+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 29864,
+  "completed_primary_pages_this_run": 30990,
   "current_source_note": "knowledge/sources/book-bohr-mottelson-nuclear-structure.md",
-  "next_action": "Continue chapterwise original reading of the remaining existing books.",
+  "next_action": "Continue the remaining volumes using original-page checks and disjoint assignments.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "3 works credited 1334 pages; 69 additional chapter pages separately recorded.",
+  "last_source_manager_closure": "3 works credited 1126 pages; 103 additional scan chapter pages separately recorded.",
   "current_source_scientific_acceptance": "Vol. II complete; continue the open queue, including archival PDFs needing original tables or scans.",
   "source_scoped_retrieval": "Existing local originals; publisher and author versions recorded separately.",
   "counting_scope": {
-    "scientific_reading_covered": 779,
+    "scientific_reading_covered": 782,
     "bounded_or_core_only_completed": 18,
-    "credited_pages_explicit_in_queue": 19406,
+    "credited_pages_explicit_in_queue": 20532,
     "pages_carried_forward_from_previous_checkpoints": 10458,
     "increment_this_checkpoint": {
       "works": 3,
-      "pages": 1334,
-      "partial_volume_pages_recorded_separately": 69,
+      "pages": 1126,
+      "partial_volume_pages_recorded_separately": 103,
       "associated_rows": 0
     }
   },
@@ -725,5 +725,5 @@
     "resume_printed_page": 259,
     "background_reading_scheduled": false
   },
-  "latest_batch_audit": "20261127-statistics-and-reaction-reference-books-ab-audit.json"
+  "latest_batch_audit": "20261127-book-compilations-and-original-page-coverage-ac-audit.json"
 }

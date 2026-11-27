@@ -7550,3 +7550,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-27 — 馆藏续读第 28 批
 
 - 完成三本统计和反应教材的 1,334 个计入页，在两个长卷另核 69 个原页。队列剩 17 本。
+
+## 2026-11-27 — 馆藏续读第 29 批
+
+- 核定三本参考书 1,126 个计入页，扫描教材新增 103 个有界原页。队列剩 14 本。

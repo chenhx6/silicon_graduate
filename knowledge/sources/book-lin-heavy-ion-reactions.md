@@ -3,7 +3,7 @@ type: source
 title: "林承键 2017 - 重离子核反应"
 aliases: [林承键重离子核反应, Lin 2017 Heavy Ion Reactions, 重离子核反应专著]
 created: 2026-11-01
-updated: 2026-11-02
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
@@ -78,3 +78,7 @@ tags: [books, heavy-ion-reactions, fusion-cross-section, critical-angular-moment
 - 印刷 pp. 18–36（PDF pp. 28–46）：重离子核势、接近势与唯象势参数化。
 - 印刷 pp. 134–143（PDF pp. 144–153）：临界角动量、Wong 穿透公式与近垒耦合道效应。
 - 印刷 pp. 177–179（PDF pp. 187–189）：熔合裂变势能演化与准裂变图像。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 16–21 Eqs. (1.7)–(1.28) 的非相对论静止靶换算与纯库仑最近距离保留各自条件。PDF 37–40 Eqs. (2.30)–(2.42) 给 Thomas–Fermi 模型的体、梯度和相关能量项，拟合参数与原实验分开。末 PDF 223 印 213。
