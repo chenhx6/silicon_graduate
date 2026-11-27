@@ -3,11 +3,11 @@ type: source
 title: "High-spin phenomena in atomic nuclei"
 aliases: [De Voigt 1983 high-spin review]
 created: 2026-07-02
-updated: 2026-07-02
+updated: 2026-11-27
 status: active
 review_status: human-reviewed
 source_type: review-article
-reading_depth: skimmed
+reading_depth: read
 title_original: "High-spin phenomena in atomic nuclei"
 authors: [M. J. A. de Voigt, J. Dudek, Z. Szymanski]
 journal: Reviews of Modern Physics
@@ -105,3 +105,9 @@ M. J. A. de Voigt, J. Dudek, and Z. Szymanski, *Reviews of Modern Physics* **55*
 ## Personal Notes
 
 用户已完成人工页面级审阅，并逐条将 8 条 Key Results 与本文原文对比确认无误。本文可作为高自旋物理术语、基础探测方法和机制理解的 review/background source，也可作为原始文献导航；具体 A≈130 核素数据仍回到相应原始实验来源。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- Hillis 等（1979）的统计模型示例给出，中子蒸发显著降低复合核激发能，只带走较少角动量，随后 γ 退激带走大部分初始角动量。（PDF 第2页（印刷950），I.B，图1及正文。反应式的核素上标在该页抽取中残缺。）
+
+- 采用 Woods–Saxon 势的配对自洽 HFBC 计算将动态转动惯量峰的位置与计算所得中子配对消失相关联。配对行为来自计算，图中惯量曲线及临界点标示待看原图。（III.C，物理第49页（刊页997），图23(a)图注及相邻正文。）

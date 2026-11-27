@@ -3,11 +3,11 @@ type: source
 title: "P. Möller 等 2019 - Nuclear Properties for Astrophysical and Radioactive-Ion-Beam Applications II (FRDM 2012)"
 aliases: [Moller2019, FRDM2012, 宏观微观形变与质量数据库, FRDM形变数据库]
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: compilation
-reading_depth: deep-read
+reading_depth: read
 title_original: "Nuclear properties for astrophysical and radioactive-ion-beam applications II"
 authors: [P. Möller, W. D. Myers, H. Sagawa, S. Yoshida]
 journal: "Atomic Data and Nuclear Data Tables"
@@ -84,3 +84,13 @@ $$E_{\text{tot}}(Z, N, \text{shape}) = E_{\text{macroscopic}}(Z, N, \text{shape}
 ## Extracted Pages
 
 核心章节已提取并形式化为 Wiki 概念与方法合同。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- 本文沿用 FRDM(2012) 的基态质量和形变，对同一组 9318 个核素汇编奇核子自旋与宇称、Lipkin–Nogami 配对隙、一及二核子分离能、β 衰变及延迟中子量、α 衰变 Q 值及半衰期。表1的列定义中没有质量或形变参数列。（物理第2–3页 §§1–2；第4页式(4)；第7页式(20)–(24)；第26–27页表1说明及表头，表头版式待目视。）
+
+- 续表按质子数 Z 分组，以 N、A 定位核素。可辨列包括质子和中子的 Ωπ、ΔLN，单粒子和双粒子分离能 S1n、S2n、S1p、S2p，延迟中子相关列，以及 Qβ、Tβ、Qα、Tα。所读表头没有 ε₂、β₂、β₄ 或 γ 列。（物理第43、73页，表1续表列标题。）
+
+- 续表按质子数 Z 分组，以 N、A 标识核素。可辨列包括质子和中子配对量、单及双中子和质子分离能，以及 β、α 衰变的 Q 值与半衰期。本段表头未列出 ε₂、β₂、β₄ 或 γ。（物理第89、99、104页，表1续表表头。第89页的中子发射相关列需核对上下标及列界。）
+
+- 表1续表按质子数 Z 分组，以 N 和 A 标识核素。可辨列包括单核子和双核子分离能，以及 β、α 衰变的能量与半衰期。该段可辨表头未列 ε₂、β₂、β₄ 或 γ。（物理第140、191页，表1续表表头）

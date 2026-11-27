@@ -7,7 +7,7 @@ updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: theory
-reading_depth: skimmed
+reading_depth: read
 title_original: "Selection Rule for Electromagnetic Transitions in Nuclear Chiral Geometry"
 authors: [Ikuko Hamamoto]
 journal: "International Journal of Modern Physics E"
@@ -167,3 +167,9 @@ The rules depend on the selected gamma=90° and same-j particle-hole model. Koik
 - 把物理第4页式(6)附近的 g_R=0.5 算符示例与第9页图2(b)图注采用的 g_R=55/130≈0.423 分开标注。历史审计中的系数平方比归为外加算符算术，不作本文算出的跃迁比。
 - ¹³⁴Pr 条目保留作者对所引实验的比较，删除旧稿所称实测 γ=16–20°及唯一破缺机制。¹²⁶Cs 条目标注参考文献[9]在本文中的发表状态。
 - 物理第3页式(2)–(4)的轴序下标与平方在提取中错位，第4页式(6)的根号范围及 g 因子上下标需核原排版后再逐字符引用。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- Record Fig. 2(a) and (b) weak-M1 depiction separately, and mark PDF 10–12 visually closed. A(I+2)=−A(I) depends on organizing the bands by enhanced in-band ΔI=2 E2. Fig. 3 is a model sketch with a possible intermediate-spin geometry.
+- Retain the withdrawal of the strong Day19 claims. In the core-only model, Eq. (5) gives a necessary symmetry condition for nonzero E2 and Eq. (7) gives a relative M1 tendency. Keep the two g_R inputs separate and the coefficient ratio outside the plotted B values. Preserve the original equation typesetting checked above.
+- Use the author’s cautious comparison for 128Cs and 126Cs. Ref. [9] was a workshop talk and work listed as to be published. The 134Pr B(E2) and M1 discussion summarizes cited experiments. 132La appears in the abstract without a detailed comparison; odd-A Nd is left as future work.

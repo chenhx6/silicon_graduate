@@ -63,6 +63,8 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 本批核定 19 份、631 个主件 PDF 页，另登记 7 条关联或有界载体。Bohr–Mottelson 卷 I 从 PDF 50（印 31）§1-3、Hamilton 从 PDF 629（印 618）、Petrache 从 PDF 195（印 176）接续。三本共新增 98 个整页的有界覆盖。累计 775 份、26,522 个主件 PDF 页，正式队列剩 40 条。稳定指针为 `research/archive-learning-20261127` + `research: verify reference papers and advance three book reading ranges`。见[原件及范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-reference-papers-and-book-reading-u-audit.json)。
 
+本批核定 10 份、700 个主件 PDF 页。⁶²Cr 的 933 与 1016 keV 归属和 Hamamoto 手征选择定则按原图、公式与修订条件核定。Baglin A=192 评价登记 102/241 页，续从 PDF 191（印 2061），并保留早期空档。累计 785 份、27,222 个主件 PDF 页，正式队列剩 30 条。稳定指针为 `research/archive-learning-20261127` + `research: verify long reviews and spectroscopy evidence from the archive`。见[原件及范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-long-reviews-evaluations-and-visual-checks-v-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

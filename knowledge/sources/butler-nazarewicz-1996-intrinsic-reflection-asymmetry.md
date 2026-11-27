@@ -3,11 +3,11 @@ type: source
 title: "Butler & Nazarewicz 1996 - Intrinsic reflection asymmetry in atomic nuclei"
 aliases: [Butler Nazarewicz 1996 octupole review, intrinsic reflection asymmetry]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: review-theory-experiment
-reading_depth: deep-read
+reading_depth: read
 title_original: "Intrinsic reflection asymmetry in atomic nuclei"
 authors: [P. A. Butler, W. Nazarewicz]
 journal: "Reviews of Modern Physics"
@@ -143,3 +143,9 @@ Near-degenerate parity bands, E1 enhancement or a nonzero mean-field β3 can als
 ## Day 21 checkpoint036 修订状态
 
 旧段落的逐字快照保存在本run的 superseded-042/butler-nazarewicz-1996-intrinsic-reflection-asymmetry.txt。其科学认证撤回：旧脚本任设壳修正 -0.040/-0.135 e fm，不能称实测相消比例；将 E(1-)=215.9 keV 写成位移错误，按脚本自身定义应减去 E(2+)/2=42.2 keV。高自旋输入及普适 B(E3)>30 W.u. 门限未获原件支持，均撤回。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- 综述转引的 ²²⁴Ra 低位转动谱包含正、负宇称两列能级，两列之间有能量位移。²²⁶Th 的交替宇称序列据报道已观测至自旋20。²²⁴Ra 的逐级能量须核对物理第2页图1。（I，物理第2页图1，²²⁴Ra 数据引自 Poynter 等（1989a）。IV.B，物理第22页正文、第23页表I及第25页图17，²²⁶Th 数据引自 Schüler 等（1986）及 Ackermann 等（1993）。）
+
+- 对²²²Th，带配对和粒子数投影的推转Woods–Saxon模型给出八极形变带与中子顺排带的交叉及较强带间相互作用，并预言更高自旋处与反射对称四准粒子带交叉所致的回弯。（第VI节，物理第41页正文及第44页图39图注。曲线、实验点及交叉位置待看物理第44页图39。）

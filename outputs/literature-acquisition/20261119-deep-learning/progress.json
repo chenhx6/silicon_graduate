@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000309",
+  "active_source": "bytes:5950a56d1e469ccb763307f7cd90bad4ca2743adc370cf6fcb2e405a24717533",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -677,7 +677,7 @@
     "LOCAL-ROTATION-AND-DEFORMATION-SOURCES",
     "LOCAL-THEORY-AND-SPECTROSCOPY-245"
   ],
-  "completed_full_sources_this_run": 775,
+  "completed_full_sources_this_run": 785,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -685,26 +685,26 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-27T09:15:06.070294+00:00",
+  "updated_at": "2026-11-27T09:39:40.488051+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 26522,
-  "current_source_note": "knowledge/sources/book-hamilton-electromagnetic-interaction.md",
+  "completed_primary_pages_this_run": 27222,
+  "current_source_note": "knowledge/sources/baglin-2012-a192-nuclear-data-sheets.md",
   "next_action": "Continue the next claimed local sources, including remaining tables or figures from partial entries.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "19 works credited 631 pages; seven material roles and 98 separately counted book pages.",
+  "last_source_manager_closure": "10 works credited 700 pages; 102 pages of the separate Baglin evaluation range.",
   "current_source_scientific_acceptance": "Vol. II complete; continue the open queue, including archival PDFs needing original tables or scans.",
   "source_scoped_retrieval": "Existing local originals; publisher and author versions recorded separately.",
   "counting_scope": {
-    "scientific_reading_covered": 757,
+    "scientific_reading_covered": 767,
     "bounded_or_core_only_completed": 18,
-    "credited_pages_explicit_in_queue": 16064,
+    "credited_pages_explicit_in_queue": 16764,
     "pages_carried_forward_from_previous_checkpoints": 10458,
     "increment_this_checkpoint": {
-      "works": 19,
-      "pages": 631,
-      "partial_volume_pages_recorded_separately": 98,
-      "associated_rows": 7
+      "works": 10,
+      "pages": 700,
+      "partial_volume_pages_recorded_separately": 102,
+      "associated_rows": 0
     }
   },
   "previous_pause": {
@@ -725,5 +725,5 @@
     "resume_printed_page": 259,
     "background_reading_scheduled": false
   },
-  "latest_batch_audit": "20261127-reference-papers-and-book-reading-u-audit.json"
+  "latest_batch_audit": "20261127-long-reviews-evaluations-and-visual-checks-v-audit.json"
 }

@@ -7,7 +7,7 @@ updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment-model
-reading_depth: skimmed
+reading_depth: read
 title_original: "In-beam spectroscopy reveals competing nuclear shapes in the rare isotope 62Cr"
 authors: [Alexandra Gade, Brenden Longfellow, Robert V. F. Janssens, Duc D. Dao, Frédéric Nowacki, Jeffrey A. Tostevin, et al.]
 journal: "Nature Physics"
@@ -110,3 +110,8 @@ Shape assignments depend on shell-model interaction, DNO-SM basis, momentum-dist
 - 将旧 Key Results 的 1,016 keV→2⁺₁ 归属改为 933 keV 对应 1,379 keV 候选 0⁺₂→2⁺₁。1,016 keV 对应 6⁺₁→4⁺₁。拆开旧记录合写的 933/1,509 keV，后者是候选 2⁺₂→2⁺₁，邻近 1,492 keV 线馈入 4⁺₁。定位为 PDF 第2–4页图2–4。
 - GA25-2 不应将各自旋写成等强度的动量确认。按图4b保留暂定括号，写清 0⁺₂ 与 2⁺₂ 的动量判别有限，2⁺₂ 无可用于确认的独占动量分析。第3页正文对 6⁺₁ 写为 2,191 keV，第4页图4b抽取为 2,190 keV，统一数值前查第4页原图。
 - 将形状结论的定位补为 PDF 第4页图5、第5页图6及第8–10页 SU3 讨论和图注。将 2024 保留为在线发表及引文键所用年份，期刊著录保留 2025。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- Use the four distinct transitions and tentative Jπ labels above. Distinguish the measured coincidence/kinematic evidence from the model-aided assignments and shape interpretation. Keep 2,190 in Fig. 4b and 2,191 in the PDF 3 text and PDF 11 table.
+- Cite physical PDF 1–6 / print 37–42, with same-file Methods and Extended Data on 7–12. Add Fig. 5 (PDF 4), Fig. 6 (PDF 5) and Extended Data bodies (PDF 9–12) to coverage.

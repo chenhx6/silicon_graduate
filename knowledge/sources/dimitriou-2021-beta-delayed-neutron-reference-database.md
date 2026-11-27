@@ -3,11 +3,11 @@ type: source
 title: "Dimitriou 等 2021：β 缓发中子参考数据库与测量方法"
 aliases: [IAEA 2021 delayed neutron database]
 created: 2026-11-08
-updated: 2026-11-08
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-data-review
-reading_depth: skimmed
+reading_depth: read
 title_original: "Development of a Reference Database for Beta-Delayed Neutron Emission"
 authors: [P. Dimitriou, I. Dillmann, B. Singh, et al.]
 journal: Nuclear Data Sheets
@@ -61,3 +61,11 @@ sharp cutoff、统计Hauser–Feshbach及逐态处理有不同输入/适用域�
 ## Extracted Pages
 
 - [[doctoral-r3-weak-operators-and-delayed-particles-20261108]]
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- P₁ₙ 的分子是恰发一个中子的母核衰变数，分母是母核衰变总数。β–n 符合计数式在相关 β 效率可相消时可简化。有限中子探测效率会使较高的真实多重度进入较低的探测多重度，分析还须校正偶然符合。（物理第4页式(1)，第6–7页 II.A.1、式(2)–(3)。第7页图2–3的曲线及图例待目视核对。）
+
+- 文中对裂变缓发中子先驱体平均半衰期的实验数据作线性回归。表列五个体系的拟合斜率均为负，其中 ²³⁸U 的回归区间仅为 3.2–5 MeV。（物理第 42 页 V.B.1、表 III。实验比较见第 43–45 页图 25–27。）
+
+- 六组表示用衰变曲线最小二乘拟合各组相对丰度和半衰期，文中列为 12 个自由参数。受约束八组表示在各核素和入射中子能量间采用同一组半衰期。（PDF 75，表 XXXIII 及式 (34) 前后的正文。式 (34) 的指数下标须核对 PDF 75 原图。）

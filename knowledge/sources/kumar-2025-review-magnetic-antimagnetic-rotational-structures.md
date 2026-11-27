@@ -3,11 +3,11 @@ type: source
 title: "Review of Magnetic- and Antimagnetic-Rotational Structures in Nuclei"
 aliases: [Kumar 2025 magnetic antimagnetic rotation review]
 created: 2026-07-15
-updated: 2026-10-26
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-review
-reading_depth: deep-read
+reading_depth: read
 title_original: "Review of magnetic- and antimagnetic-rotational structures in nuclei"
 authors: [Sushil Kumar, Sukhjeet Singh, Balraj Singh, Amita, Ashok Kumar Jain]
 journal: Atomic Data and Nuclear Data Tables
@@ -193,3 +193,9 @@ Knowledge Impact and Learning Decision：supports本卡AMR有具体微观支持�
 - Evidence of antimagnetic rotation in odd-A 105Cd；DOI `10.1103/PhysRevC.82.061308`；PDF 5 页；原件 [PDF](<../../raw/papers/PhysRevC.82.061308.pdf>)。SHA-256：`9a8e4a6b07af381efcd7478ca0a0fcdfad09d13c31b8cd279742407e62e20d80`。
 
 接收回执：[20261026 user PDFs](../../outputs/literature-acquisition/20261026-user-pdfs-elsevier-access.json)。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- 正文称汇编收录117个核素中的228条MR候选带及28个核素中的40条AMR带，涵盖不同指派置信度。摘要声明文献截止日期为2025年3月31日。（物理第2页§1汇编范围段；物理第1页摘要末句。）
+
+- 194Tl 第1带的磁转动归类存在分歧。综述转述2012Pa16的暂定 MR 指派，同时记载2014Ma55认为剪刀机制可能未参与。该条列出的形变参数来自 TRS 计算。（PDF 物理第32页，表2，194Tl 第1带注1–4。两条文献键分别见第55、56页。）
