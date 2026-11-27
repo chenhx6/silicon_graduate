@@ -3,7 +3,7 @@ type: source
 title: "Aoki et al. 1975 - Ge(Li) summing spectrometers and multidirectional polarimeters"
 aliases: [Aoki 1975 GeLi summing polarimeters]
 created: 2026-09-21
-updated: 2026-10-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: method-paper
@@ -115,3 +115,7 @@ Aoki *et al.* demonstrate an early high-resolution, multidirectional Ge(Li) pola
 [[ppco-joint-response-and-information]]“Aoki1975：实际tagged湮没基准与ratio方向”保存原fourangle/sharedtag、方向冲突、|κ|转换和响应识别边界；[[compton-polarimetry]]保存两装置/eff背景分母。原ratio的误差来自fourpointfit，未得actualcounts/cov，不能逆推jointP或单GeQ。原Snyderfinitegeometry计算在此是作者引用，尚未独立读该Ref18，不算新body。
 
 script `system/scripts/day17_aoki1975_response_audit.py`实际核ratio倒数与singleCompton energy/window逆；不是geant或fullgeometryMC，窗口是否接受point单过程不代真实效率/背景。决定`revises`旧1/4与无方向限定ratio摘要，`limits`直接从doubleanalyzer反推singleQ/跨门FOM。无现代核P/Q/δ/CI或新模式指认。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 4 (印 56) §2.2 和 Figs. 5–6 的 511 keV ²²Na 双光子测试报告联合几何的 2.47±0.30，理论值 2.50。正文按 0° 对 90° 描述方向，Fig. 6 显示 I₉₀>I₀，两处保留。PDF 3、6–7 给出的单分析器和环形–反射体效率分别以散射体、反射体单谱归一，两个比值不能直接相除评价性能。

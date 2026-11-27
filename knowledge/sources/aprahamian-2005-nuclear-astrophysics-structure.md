@@ -3,7 +3,7 @@ type: source
 title: "Aprahamian et al. 2005 - Nuclear structure aspects in nuclear astrophysics"
 aliases: [Aprahamian 2005 nuclear astrophysics]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: review
@@ -40,7 +40,7 @@ tags: [nuclear-astrophysics, nuclear-structure, shell-effects, clustering, defor
 
 ## Scope and Reading Depth
 
-- PDF pp.535–613 (79 pages) fully read by section: reaction networks and stellar rates; shell/cluster/reaction models; masses, level densities and deformation; pp/CNO/SnSbTe, cluster, αp/rp, carbon burning; s/r-process signatures; weak interactions, electron capture, neutrinos and summary.
+- Physical PDF 1–79 (printed pp. 535–613) read by section: reaction networks and stellar rates; shell/cluster/reaction models; masses, level densities and deformation; pp/CNO/SnSbTe, cluster, αp/rp, carbon burning; s/r-process signatures; weak interactions, electron capture, neutrinos and summary.
 - Not covered: cited source papers, current post-2005 reaction-rate evaluations and modern stellar simulations.
 
 ## Key Results
@@ -99,3 +99,7 @@ Aprahamian *et al.* provide a broad bridge from microscopic nuclear structure to
 
 - Concept: [[nuclear-astrophysics-structure]]。
 - Related structure: [[gamma-soft-deformation]], [[octupole-deformation]], [[triaxial-shape-coexistence]]。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+刊版共 79 页，印刷页 535–613。核对 PDF 11–12（印 545–546），归一化配分函数把已知离散能级的热权重与截止以上的能级密度积分配在同一表达式中。靶核和末核结构都会影响光致蜕变率。PDF 28 Fig. 2 比较质量模型的外推，已知质量区的一致性不能直接转成远离稳定区的反应率误差。

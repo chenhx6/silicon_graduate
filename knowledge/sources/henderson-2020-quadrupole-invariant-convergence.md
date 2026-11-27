@@ -4,7 +4,7 @@ title: "Henderson2020：四极不变量的有限矩阵元收敛与形状解释�
 title_original: "Convergence of electric quadrupole rotational invariants from the nuclear shell model"
 aliases: [Henderson quadrupole invariant convergence]
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: theory-and-method
@@ -21,7 +21,7 @@ canonical_source: "https://doi.org/10.1103/PhysRevC.102.054306"
 source_url: "https://arxiv.org/pdf/2005.11210v4"
 raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/henderson-2020-quadrupole-invariant-convergence.pdf"
 raw_sha256: "ed2d48f63e1e18a721e1bb3e01676ca91160d1a683d7447e574788a6f5c8e044"
-raw_storage_status: reserved-unpopulated-arxiv-staging-only
+raw_storage_status: verified-local-arxiv-v4
 raw_archive_verified_at: 2026-10-23
 analysis_status: public-staging-original-read-raw-archive-verified
 public_staging_file: "tmp/day20-henderson112/PDFs/Convergence_of_electric_quadrupole_rotational_invariants_from_the_nuclear_shell_model.pdf"
@@ -158,3 +158,7 @@ R113-1只指定有限投影张量，不宣称存在唯一微观电荷坐标实�
 脚本`system/scripts/day21_checkpoint047_invariant_scope.py`：取两0⁺态与两2⁺ multiplet，A的两行为(1,1)、(1,−1)时q2=2、q4=4、VarS=0；仅保第一2⁺路径后q2=1、q4=2、VarS=1，方差反而增大。A的两行为(1,1)、(1,1)时完整VarS=4，截断后1，方差减小。两例q2都只增添非负强度，仍不足以固定四阶相减后方差的方向。若连标量端点也只保初态，闭合式会构造性给零；不代表核刚性。
 
 这些控制限制005的普遍数学断言，不消除原作者样本平均低估的真实报告，也不定量测出角度截断偏差。±样本散布不是新实验CI；本文Fig6中的形状矩Cov不是GOSIA拟合矩阵元的测量误差Cov。与[[ayangeakaa-2019-rigid-triaxial-ge76]]比较时，保原实验三低态rigid解释、完整网络/误差输入未得的边界及可检验的收敛问题，不据此裁实际真伪。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+馆藏原件为 arXiv:2005.11210v4（11 页），保留与正式刊文的版本边界。核对 PDF 7 Table II 和 PDF 10 §IV，作者以每种相关自旋纳入前 \(n_I\) 态测试截断。\(n_I=4\) 时二阶不变量的平均偏差小于 10%，但核间仍有散布。作者讨论软度时需要更多矩阵元。这是对 34 个壳模型算例和 \(n_I=40\) 参考值的比较，不能直接作为实测 E2 网络或其他质量区的一般误差阈值。

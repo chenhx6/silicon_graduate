@@ -4,7 +4,7 @@ title: "Dafni1983：Ce/Sn频率比与绝对四极矩的模型归一"
 title_original: "Electric quadrupole interaction of Ce isomers in tin"
 aliases: [Dafni1983 CeSn calibration, Ce isomers in tin]
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-model-normalization
@@ -20,7 +20,7 @@ canonical_source: "https://doi.org/10.1007/BF02159726"
 source_url: "http://link.springer.com/content/pdf/10.1007/BF02159726.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/dafni-1983-ce-tin-quadrupole.pdf"
 raw_sha256: "5b08557f5fd79724547485c93fd729ecce97540cd9a2b5b45df40abc1734ce08"
-raw_storage_status: reserved-unpopulated-public-publisher-pdf-only
+raw_storage_status: verified-local-publisher-pdf
 raw_archive_verified_at: 2026-10-23
 analysis_status: public-staging-original-read-raw-archive-verified
 public_staging_file: "tmp/day20-dafni106/PDFs/Electric_quadrupole_interaction_of_Ce_isomers_in_tin.pdf"
@@ -74,3 +74,7 @@ PDF1/101：问题、Fig1和相对矩动机；PDF2/102：反应、NaI与Sn宿主�
 ## Knowledge Impact and Learning Decision
 
 更新[[ionescu-bujor-1998-static-moments-129-131ce]]的“known EFG”谱系边界：当前可见参考链含有效电荷与模型归一，不能把绝对Qs直接当无模型形变图像。[[day20-quadrupole-collectivity-systematics-synthesis]]继续区分频率/模值比、条件绝对标尺、PTR参数和高spin Qt；原review/flags不提升。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+原件确认为 4 页刊版（印 101–104），本次对账沿用既有 PDF 1–4 全页与图表覆盖。回查 PDF 2–3 Tables 1–2，表中的耦合频率与相对矩来自 Sn 中的扰动角分布。PDF 3 给出的 ¹³⁸Ce 约 +77 e·fm² 是绝对归一所用的模型参照，有效电荷 1.87 取自对 ¹¹⁶,¹¹⁸Sn 的分析。Ce/Sn 电场梯度未知，引用同一归一的后续编译不构成第二个绝对矩测量。

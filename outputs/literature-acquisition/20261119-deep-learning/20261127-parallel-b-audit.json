@@ -1,0 +1,166 @@
+{
+  "batch": "20261127-parallel-b",
+  "created_at": "2026-11-27T01:06:48.485286+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000270",
+      "source": "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
+      "identity": "Akkoyun et al., NIM A 668 (2012), 26–58, DOI 10.1016/j.nima.2011.11.081. Local arXiv:1111.5731v2 is the accepted manuscript.",
+      "coverage": [
+        "Existing full-source ledger matched to PDF 1–41. Original PDF 32–36, Figs. 39–40 and Table 5 checked; refs. [80, 99] located."
+      ],
+      "boundary": [
+        "Detector simulation, cited in-beam and imaging benchmarks, and three-ATC source measurements have different evidence scopes."
+      ],
+      "disposition": "covered",
+      "worker": "Hubble",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/akkoyun-2012-agata-overview.pdf",
+      "sha256": "13882c8bb1dbebb02db5df3300f9cf5981a1ffb519b3731dab099647be168d8b",
+      "physical_pages": 41
+    },
+    {
+      "id": "catalogue:LIT-000271",
+      "source": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
+      "identity": "Ali Al-Adili, Uppsala University MSc thesis, complete arXiv:0909.4800v1 (2009), 47 PDF pages.",
+      "coverage": [
+        "Existing reading covers thesis PDF 1–47 and appendices. PDF 31, 37, 39 and App. C checked directly."
+      ],
+      "boundary": [
+        "The peak widths are simulation results; intrinsic widths depend on a source calibration communicated privately. Full simulator inputs and original spectra are not archived in this PDF."
+      ],
+      "disposition": "covered",
+      "worker": "Hubble",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/aladili-2009-doppler-simulations.pdf",
+      "sha256": "57e28acccf0634cb47df37bf3dcc1ef157c4bd5a7658834b5f3dbdd6a8b04b96",
+      "physical_pages": 47
+    },
+    {
+      "id": "catalogue:LIT-000278",
+      "source": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+      "identity": "Aoki, Ruan, Yoshimura and Matsuyama, Nuclear Instruments and Methods 128 (1975), 53–60; publisher scan.",
+      "coverage": [
+        "Existing complete original coverage PDF 1–8, Figs. 1–12; PDF 4 and 7 visually rechecked."
+      ],
+      "boundary": [
+        "The two-polarimeter combined response does not determine a single instrument signed analyzing power. The printed intensity-ratio direction conflicts with Fig. 6."
+      ],
+      "disposition": "covered",
+      "worker": "Hubble",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1975_Aoki et al_Ge(Li) summing spectrometers of special type.pdf",
+      "sha256": "b0a36fa350a078021212b8cd9a28fecc389baf1ebbbd8a60f79f025b68cc70a7",
+      "physical_pages": 8
+    },
+    {
+      "id": "catalogue:LIT-000409",
+      "source": "knowledge/sources/frauendorf-2015-low-energy-quadrupole-mode.md",
+      "identity": "Frauendorf, Int. J. Mod. Phys. E 24, 1541001 (2015), DOI 10.1142/S0218301315410013; World Scientific publisher download with 2nd Reading footer.",
+      "coverage": [
+        "Existing §§1–7 and references mapped to PDF 1–38; supplemented PDF 29–30 and Fig. 19."
+      ],
+      "boundary": [
+        "Fig. 19 reproduces an earlier measurement and a WS-SCTAC calculation. The comparison does not uniquely determine the gamma shape parameter."
+      ],
+      "disposition": "covered",
+      "worker": "Descartes",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/理论/2015_Frauendorf_The low-energy quadrupole mode of nuclei.pdf",
+      "sha256": "6503190945574eb2a19dc10555f4abc8866340dc3b84e0ff72068fcb0d9010d5",
+      "physical_pages": 38
+    },
+    {
+      "id": "catalogue:LIT-000554",
+      "source": "knowledge/sources/meyer-ter-vehn-1975-odd-a-unique-parity-comparison.md",
+      "identity": "Meyer-ter-Vehn, Nucl. Phys. A 249, 141–165 (1975), DOI 10.1016/0375-9474(75)90096-2; publisher scan, Part II.",
+      "coverage": [
+        "Prior units cover PDF 1–13, 14–19 and 20–25 continuously; PDF 3–4, 19, 21–24 and prior identities rechecked."
+      ],
+      "boundary": [
+        "Neighbor even-even nuclei set parameters, but the choice of gamma branch and some Fermi-level tweaks use the odd-A target spectrum. The 133Ce comparison reuses historical spectra."
+      ],
+      "disposition": "covered",
+      "worker": "Descartes",
+      "source_pdf": "raw/papers/1975_MeyerTerVehn_CollectiveOddANuclei_PartII.pdf",
+      "sha256": "fd1ba7f9280e8bafd86bbec06ec18e8a7089f93e84306829a4be897d9dd8439d",
+      "physical_pages": 25
+    },
+    {
+      "id": "bytes:000d216163a6c52faa94f461dd4f8ebe648f9c6375a609f280587930f20a590d",
+      "source": "knowledge/sources/capponi-2021-eliade-la130-inbeam.md",
+      "identity": "Capponi et al., JINST 16 (2021), T12001, DOI 10.1088/1748-0221/16/12/T12001; publisher original, 23 PDF pages.",
+      "coverage": [
+        "两台相对束流 90° 的分段 Clover 用 ¹²¹Sb(¹²C,3n)¹³⁰La 做在束验证。物理 PDF 1 为外封，PDF 2 为文章首页，PDF 3–23 对应正文印 1–21。读完 §§1–6、图表及参考文献。"
+      ],
+      "boundary": [
+        "本篇从实测 Compton 不对称度验证极化性能；用典型 A₂、A₄ 和示例 Q=0.3 估计纯多极性的预期，本文没有独立测角分布或反演 ¹³⁰La 的混合比。判断偏振定量必须保留差谱与峰面积不对称度的符号定义。",
+        "Table 4 部分指认与 Table 5 的 R_ADO 回用 Ionescu-Bujor 等 Ref. 28；测得时间谱与散射不对称度归本次装置数据。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1088_1748-0221_16_12_T12001.pdf",
+      "sha256": "000d216163a6c52faa94f461dd4f8ebe648f9c6375a609f280587930f20a590d",
+      "physical_pages": 23
+    },
+    {
+      "id": "bytes:09e0214fc96e74af60aaa2d2fe248abd9e87bde29a08b91710a5da4dddc7c2ab",
+      "source": "knowledge/sources/evitts-2018-ni-e0-strength.md",
+      "identity": "L. J. Evitts et al., Physics Letters B 779 (2018), 396–401, DOI 10.1016/j.physletb.2018.01.076; publisher original, 6 PDF pages.",
+      "coverage": [
+        "刊版 PDF 1–6（印 396–401）。覆盖实验与分析、Figs. 1–4、Tables 1–2、Eqs. (1)–(2) 和参考文献。角分布约束 E2/M1，转换电子与 γ 单谱给 K 壳转换系数，寿命和原子电子因子约束 E0。"
+      ],
+      "boundary": [
+        "ρ²(E0) 的误差传播考虑非物理区，并采用 Feldman–Cousins 构造。Table 2 中 CI 壳模型加 EDF 的估计低于观测。强 E0 可由态混合与半径差共同产生，单独无法确定基态形状共存。",
+        "⁶²Ni 半寿命与分支比沿用 Chakraborty 等 Ref. 10，选混合比分支也参考其结果。与同类结构结论比较时保留这一依赖。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_j.physletb.2018.01.076.pdf",
+      "sha256": "09e0214fc96e74af60aaa2d2fe248abd9e87bde29a08b91710a5da4dddc7c2ab",
+      "physical_pages": 6
+    },
+    {
+      "id": "bytes:0a57c79e6fd2d341d0d6da4b7ddf0ead4403ea7fe4491aaca69592c860dc1ef0",
+      "source": "knowledge/sources/pande-singh-1971-dy160-triple-correlation.md",
+      "identity": "U. S. Pande and B. P. Singh, Canadian Journal of Physics 49 (1971), 2088–2092, DOI 10.1139/p71-255; publisher original, 5 PDF pages.",
+      "coverage": [
+        "原刊扫描 PDF 1–5，印 2088–2092，旧文件名误写 2011。PDF 1 上半属于上一篇，本论文从同页下半开始。覆盖所有正文、Figs. 1–3、Eqs. [1]–[2] 与参考文献。"
+      ],
+      "boundary": [
+        "P 为共面三重 γ 角关联几何，C 的中间探测器垂直于平面。此处 P 不是线偏振观测。选支依赖首末线按纯 E1/E2、有限立体角校正以及作者符号约定。比较跨文 δ 时同时保留相位和跃迁顺序。",
+        "补实 [[polarization-delta-collection-20261119-source]] 的 U012 书目线索。同一刊文与目录线索按一个作品计。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/pande-singh-2011-sign-of-δ-the-amplitude-mixing-ratio-of-gamma-transitions-and-gamma-gamma-gamma-angular-correlation.pdf",
+      "sha256": "0a57c79e6fd2d341d0d6da4b7ddf0ead4403ea7fe4491aaca69592c860dc1ef0",
+      "physical_pages": 5
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 423,
+    "pending-identity-and-coverage": 295,
+    "duplicate-excerpt-linked-to-canonical": 4,
+    "duplicate-or-related-version": 10,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 3,
+    "existing-source-coverage-to-audit": 236,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 531,
+  "credited_works": 8,
+  "credited_primary_pages": 193,
+  "partial_volume_pages": 0,
+  "next_action": "Continue Bohr–Mottelson II at PDF 316 and reconcile the next independently assigned original works.",
+  "uncredited": [
+    {
+      "id": "bytes:0059874016bc2486555e898ca81a2092fad0e5f9a0a649739653291663607258",
+      "state": "duplicate-or-related-version",
+      "canonical_id": "bytes:83ddfab8989cdb0a23be1d5ca3e9f689c7e8d728823d0b7c6a21c5aecd3ca0c7"
+    }
+  ]
+}

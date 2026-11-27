@@ -1,6 +1,6 @@
 {
   "created_at": "2026-11-19T14:50:09.195632+00:00",
-  "status": "closed-by-user-unfinished",
+  "status": "corpus-learning-active",
   "pdf_files_registered": 1028,
   "provisional_work_groups": 993,
   "grouping_boundary": "Not a verified unique-publication count. Byte grouping and old catalogue associations require own-identity/edition/role/scope audits. Collection sources do not establish individual full reading.",
@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": null,
+  "active_source": "catalogue:LIT-000302",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -677,7 +677,7 @@
     "LOCAL-ROTATION-AND-DEFORMATION-SOURCES",
     "LOCAL-THEORY-AND-SPECTROSCOPY-245"
   ],
-  "completed_full_sources_this_run": 425,
+  "completed_full_sources_this_run": 441,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -685,34 +685,26 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-23T09:58:25.976190+00:00",
+  "updated_at": "2026-11-27T01:13:26.692543+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 18165,
+  "completed_primary_pages_this_run": 18743,
   "current_source_note": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
-  "next_action": "If the user opens a new reading session, continue Bohr–Mottelson II at PDF 281 (printed 259) and reconcile the pending queue.",
+  "next_action": "Continue Bohr–Mottelson II at PDF 316 and reconcile the next independently assigned original works.",
   "runtime_background_jobs_running": false,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "243 primary PDF pages and 51 bounded book pages.",
-  "current_source_scientific_acceptance": "Eight archive works credited. Book PDF 195–245 covered without whole-book credit.",
-  "source_scoped_retrieval": "Existing originals only. Author version identifiers checked against archived copies.",
+  "last_source_manager_closure": "This session verified 16 full-source ledger entries and one duplicate; book PDF 281–315 recorded separately.",
+  "current_source_scientific_acceptance": "Bohr–Mottelson II local original read through PDF 315; full book not yet credited.",
+  "source_scoped_retrieval": "Existing local originals; publisher and author versions recorded separately.",
   "counting_scope": {
-    "scientific_reading_covered": 407,
+    "scientific_reading_covered": 423,
     "bounded_or_core_only_completed": 18,
-    "credited_pages_explicit_in_queue": 7707,
+    "credited_pages_explicit_in_queue": 8285,
     "pages_carried_forward_from_previous_checkpoints": 10458,
     "increment_this_checkpoint": {
-      "works": 1,
-      "pages": 1,
-      "partial_volume_pages_recorded_separately": 35
+      "works": 8,
+      "pages": 193,
+      "partial_volume_pages_recorded_separately": 0
     }
-  },
-  "closeout": {
-    "closed_on": "2026-11-23",
-    "resume_condition": "User starts a new reading session.",
-    "resume_work_id": "catalogue:LIT-000302",
-    "resume_pdf_page": 281,
-    "resume_printed_page": 259,
-    "background_reading_scheduled": false
   },
   "previous_pause": {
     "state": "paused-awaiting-quota-refresh",
@@ -723,5 +715,14 @@
     "resume_printed_page": 259,
     "gemini_requests_this_closeout": 0,
     "background_reading_scheduled": false
-  }
+  },
+  "previous_session_closeout": {
+    "closed_on": "2026-11-23",
+    "resume_condition": "User starts a new reading session.",
+    "resume_work_id": "catalogue:LIT-000302",
+    "resume_pdf_page": 281,
+    "resume_printed_page": 259,
+    "background_reading_scheduled": false
+  },
+  "latest_batch_audit": "20261127-parallel-b-audit.json"
 }

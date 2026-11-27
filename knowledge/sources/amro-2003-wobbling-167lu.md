@@ -3,7 +3,7 @@ type: source
 title: "Amro et al. 2003 - The wobbling mode in 167Lu"
 aliases: [Amro 2003 167Lu wobbling]
 created: 2026-07-16
-updated: 2026-07-25
+updated: 2026-11-27
 status: active
 review_status: human-reviewed
 source_type: journal-article
@@ -65,12 +65,12 @@ The paper gives evidence for TSD2 as one-phonon wobbling in `167Lu`, based on la
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| AM03-1 | TSD1 and TSD2 were firmly assigned to `167Lu` and connected by several `ΔI=1` transitions. | experimental-fact | direct | PDF pp.199-202, Figs.2 and 5 | true |
-| AM03-2 | SpeeDCO/angular-distribution analysis gives small and large negative `δ` solutions; polarization was unavailable. | experimental-criterion | direct | PDF pp.200-201 | true |
-| AM03-3 | Authors reject the small branches by analogy with electric links in `163Lu`; adopted links contain about `92-98%` E2. | author-interpretation | indirect | PDF p.201, Table 1 | true |
-| AM03-4 | Derived `B(E2)_out/B(E2)_in` values are much larger than cranking-like expectations and agree with PRM wobbling estimates. | model-result | direct | PDF pp.201-202, Fig.6 | true |
-| AM03-5 | Signature-partner and three-quasiparticle alternatives are rejected using excitation energy, alignment and predicted weak links. | author-interpretation | indirect | PDF p.202 | true |
-| AM03-6 | Authors assign TSD2 as one-phonon wobbling built on TSD1. | author-interpretation | indirect | PDF pp.202-203 | true |
+| AM03-1 | TSD1 and TSD2 were assigned to `167Lu` and connected by several `ΔI=1` transitions. | experimental-fact | direct | PDF 3–6 (printed 199–202), Figs. 2 and 5 | true |
+| AM03-2 | SpeeDCO and angular distribution give small and large negative `δ` solutions on the same data. Polarization was unavailable for these transitions. | experimental-criterion | direct | PDF 4–5 (printed 200–201) | true |
+| AM03-3 | Both branches fit the angular evidence. The authors prefer the large magnitude by analogy with polarized links in `163Lu` and describe the adopted links as about `92–98%` E2. | author-interpretation | indirect | PDF 4 Table 1 and PDF 5 left column (printed 200–201) | true |
+| AM03-4 | The ratios derived using the adopted large branch agree with the displayed PRM wobbling estimates and exceed the displayed cranking-like values. | model-result | direct | PDF 5–6 (printed 201–202), Fig. 6 | true |
+| AM03-5 | Excitation energy, alignment and predicted weak links disfavor the particular signature-partner and three-quasiparticle alternatives calculated by the authors. | author-interpretation | indirect | PDF 6 (printed 202) | true |
+| AM03-6 | Authors assign TSD2 as one-phonon wobbling built on TSD1. | author-interpretation | indirect | PDF 6–7 (printed 202–203) | true |
 
 ## Nuclear Structure Information
 
@@ -169,3 +169,7 @@ The BibTeX author field contains only H. Amro, but title/year/DOI uniquely ident
 | AM03-D18-1 | 本文Table 1中带间相对强度比 $B(E2)_	ext{out}/B(E2)_	ext{in}$ 完全由分支比 $\lambda$ 与混合比 $\delta$ 提取；由于采用大解（$\delta \sim -3.1$ 至 $-5.1$），得到比值 $0.23	ext{--}0.27$。若采用未被测量的另一小解（$\delta \sim -0.07$ 至 $-0.35$），该比值将被压低 8.6 至 197.5 倍，导致强度比跌至 0.001–0.031。这证明相对强度提取同样面临混合比双根的极端敏感性。 | task-sensitivity-audit | derived-and-boundary | PDF p.201 Table 1；新amro03-167lu-result-014 | true |
 
 新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/amro03-167lu-contract-014.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/amro03-167lu-result-014.json)4项检查全过，定量揭示了线偏振缺失对相对强度判据的潜在系统影响。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+物理 PDF 4（印 200）Table 1 仅为六条已观察链接中的三条提供定量混合比。PDF 5（印 201）将同次 Gammasphere 数据上的 SpeeDCO 全角关联与角分布结合。三条 \(\Delta I=1\) 链接的大小两支均与角数据相容，作者用 ¹⁶³Lu 偏振和相似衰变图样优先取大 \(|\delta|\) 支。706.1、707.7、716.9 keV 的表列大支中心依次为 −3.1、−5.1、−3.9，对应的派生 \(B(E2)_\mathrm{out}/B(E2)_\mathrm{in}\) 中心约 0.23、0.26、0.27。PDF 6 Fig. 6 的 PRM 比较依赖所取分支。PDF 5 的顶段放置仍有歧义，会改变两带相对能量随自旋的趋势。

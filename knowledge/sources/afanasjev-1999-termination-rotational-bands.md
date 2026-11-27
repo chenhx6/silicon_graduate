@@ -3,7 +3,7 @@ type: source
 title: "Afanasjev et al. 1999 - Termination of rotational bands"
 aliases: [Afanasjev 1999 band termination review]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: review
@@ -98,3 +98,7 @@ Afanasjev *et al.* establish the theory and experimental evidence map for rotati
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | AF99-D21-1 | Afanasjev 1999 综述系统确立能带光滑终止推断阶梯边界：(1) 微观角动量耗尽机制：在固定价核子组态下，角动量增加完全由各核子向转轴对齐承载，体系沿 $(\varepsilon_2, \gamma)$ 轨迹由长椭集体转动（$\gamma = 0^\circ$）光滑演化至非集体扁椭态（$\gamma = 60^\circ$）；(2) 过渡四极矩 $Q_t 	o 0$ 塌缩判据：在 $^{109}	ext{Sb}$ 中，DSAM 实测证明 $Q_t$ 从 $29/2^+$ 态的 $2.85(25)\ e	ext{b}$ 经 5 个跃迁平滑暴跌至 $49/2^+$ 态的 $\le 0.35\ e	ext{b}$（跌落达 $87.7\%$），证实集体四极形变的内禀消失；(3) 终止自旋代数闭合：终止态自旋 $I_{	ext{max}} = 83/2^+$ 与价核子在对称轴上投影最大值严格吻合。推断阶梯确立：严禁将谱线计数不足或常规带交叉回弯断言为能带终止，确证终止必须依赖 $Q_t 	o 0$ 平滑塌缩与价角动量代数闭合。 | claim-boundary-audit | direct-and-derived | Phys. Rep. 322, 1 pp.33-40, 54-95; band-termination-audit-017.json | true |
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+本地刊版 124 页，物理 PDF 与印刷页同号。核对 PDF 39 §4.2.2 和 Figs. 9–10，作者借 ¹⁰⁹Sb 的动惯量随自旋下降讨论平滑终止，并以组态演化判别其他终止类型。低统计造成的谱带末端本身不能判为终止。PDF 70 的 ¹¹⁰Te 等比较依赖所引数据和相应的组态计算；本综述仅作证据归口。

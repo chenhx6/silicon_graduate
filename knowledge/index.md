@@ -2227,3 +2227,9 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[lu-ch08-shell-collective-highspin-bridge]] — 卢希庭第八章：壳模型、集体形变与高自旋观测量桥接
 - [[a130-rewrite-open-network-and-entry-ensemble-20261113]] — 开放网络守恒量词、归一化组分、初始/进入态自旋及延迟时间接受度。
 - [[nndc-176lu-isomer-beta-2006-snapshot-20261113]] — 176Lu异能态优势β支路、一级禁戒分类与2006评价归一化边界。
+
+## 2026-11-27 馆藏来源
+
+- [[capponi-2021-eliade-la130-inbeam]] — ELIADE ¹³⁰La 在束测试、散射不对称度与 ADO 的来源。
+- [[evitts-2018-ni-e0-strength]] — ⁵⁸˒⁶⁰˒⁶²Ni 的 E0 强度、角分布选支和半寿命依赖。
+- [[pande-singh-1971-dy160-triple-correlation]] — ¹⁶⁰Dy 三重 γ 角关联与混合比相位。

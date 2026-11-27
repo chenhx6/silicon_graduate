@@ -9,7 +9,9 @@ updated: 2026-11-25
 
 本轮按用户授权整理PDM软件与Git基线：96个软件文件按精确白名单跟踪，历史计算改绑原哈希验证的固定快照并保留原清单；不改0.1.1实现或报告PDF、不发新版本。两处正常源码升级造成的四项旧清单不一致已解决。源码与既有馆藏成果已实际非强制推送至Gitee的`origin main`；稳定指针为`main` + `chore: track maintained PDM source and freeze historical code inputs`。发布回执为`outputs/plans/20261120-pdm-three-mode-rewrite/delivery/git-baseline-20261124.json`，以前批次的未推送回执只代表当时状态。发布预检归档零失败，6项分类／边界测试和225项PDM回归通过；全库另有129项未改历史结构lint错误，本轮修改路径无error，不宣称全库lint清零。
 
-馆藏阅读已按用户要求结束本会话的执行。以后由用户另开会话，从 [馆藏阅读结项](#2026-11-23--馆藏阅读结项) 读取已完成的证据和待处理队列。其余带日期的馆藏批次条目记录当时的进度。
+2026-11-27 按用户要求恢复馆藏阅读。子代理默认继承主会话模型与推理深度，分配互不重叠的本地原件，只在 `tmp/20261127-archive-learning/` 写工作稿。主会话回查关键原页、合入可靠证据并按队列逐件核定。当前以 [馆藏进度](../outputs/literature-acquisition/20261119-deep-learning/progress.json) 和最新批次审计为准。下方 2026-11-23 的结项是前一会话的历史截点。
+
+首批核定 16 份、578 个物理 PDF 页，其中既有覆盖对账和本轮正文补读各按批次说明登记。另核定一条 Otsuka 重复版。Bohr–Mottelson 第二卷新增核读 PDF 281–315（印 259–293），不计整卷。队列剩 531 条，下一段从 PDF 316（印 294）开始。稳定指针为 `research/archive-learning-20261127` + `research: resume archive reading and verify original sources`。见[首批档案](../outputs/literature-acquisition/20261119-deep-learning/20261127-parallel-b-audit.json)。
 
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 

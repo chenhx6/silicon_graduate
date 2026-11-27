@@ -3,7 +3,7 @@ type: source
 title: "Alder et al. 1956 - Study of Nuclear Structure by Electromagnetic Excitation with Accelerated Ions"
 aliases: [Alder Bohr Mottelson 1956 Coulomb excitation review]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: review-method-theory
@@ -41,7 +41,7 @@ tags: [review, Coulomb-excitation, electromagnetic-excitation, rotational-vibrat
 
 ## Scope and Reading Depth
 
-- Full PDF pp.432–542 read by chapter: theory of electric/magnetic Coulomb excitation (classical, quantum, WKB, numerical cross sections, higher-order effects and appendices); beam/detector/background conditions; analysis of excitation functions, γ/angular distributions, conversion electrons and scattered projectiles; compiled data; rotational/vibrational collective excitations and closed-shell regions.
+- Full physical PDF 1–111 (printed pp. 432–542) read by chapter: theory of electric/magnetic Coulomb excitation (classical, quantum, WKB, numerical cross sections, higher-order effects and appendices); beam/detector/background conditions; analysis of excitation functions, γ/angular distributions, conversion electrons and scattered projectiles; compiled data; rotational/vibrational collective excitations and closed-shell regions.
 - Not covered: reanalysis of every 1950s dataset, modern relativistic Coulomb-excitation codes and later experimental corrections.
 
 ## Paper Question and Method Logic
@@ -122,3 +122,7 @@ Classical/quantum and first-/higher-order approximations have different domains;
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | AL56-D21-1 | 依据 Alder 1956 库仑激发经典理论与 Cline 1986 安全判据展开系统性审计证明：(1) 光束能量超出 Cline 安全能量（表面间隔 d_safe >= 5.0 fm）仅 3%–5% 即可切入核力弥散边界，引发核力—库仑干涉导致截面偏离 20%–50%，破坏纯电磁微扰解析性；(2) 二阶再取向效应测定激发态静态电四极矩 Q_s(2^+) 时，多步虚态路径（2^+_2 与 GDR 极化）引入高达 +0.50 e b 的干涉漂移；若忽略多态干涉与矩阵元符号，可将长椭球 prolate（-0.42 e b）直接反转为扁椭球 oblate（+0.08 e b），制造虚假形状相变。确证核内禀形状必须基于全空间多态耦合道拟合（GOSIA）并严格满足 Cline 安全判据。 | coulomb-excitation-safe-energy-reorientation-boundary | direct-original-and-quantitative-audit | pp.432–542 Ch.II, Ch.III, Ch.V; coulomb-excitation-alder-audit-031.json | true |
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+旧笔记的 pp. 432–542 是印刷页，对应物理 PDF 1–111。PDF 3–4 对应印 434–435，式 (II A.2) 以 Rutherford 散射作经典轨道计算，并把入射粒子当作点电荷。由角截面约束电磁矩阵元时仍要核对轨道和反应道的适用条件。全篇读段依据既有分章记录，本轮对开篇模型假设作原页复核。

@@ -3,7 +3,7 @@ type: source
 title: "Meyer-ter-Vehn1975(II)：奇A独特宇称谱与三轴芯的实验比较"
 aliases: [Meyer ter Vehn1975 PartII, MTV75 odd-A unique parity comparison]
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: theoretical-paper-with-experimental-comparison
@@ -116,3 +116,7 @@ Day24 primary link: [[butler-1975-la129-la131-rd-lifetimes]]
 
 
 Day24 evaluation link: [[nndc-2011-133ce-low-level-reference-records]]
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 3–4 §2 用邻偶核定标，γ 与 60°−γ 的选边及若干费米面参数仍参考奇 A 目标谱。PDF 19 (印 159) Fig. 9 对 ¹³³Ce 以 11/2⁻ 为零，9/2⁻ 实验 −170 keV，三轴与轴对称计算分别 +18、+37 keV，两种形变参数也不同。PDF 21–24 Tables 6–7 与 §5 允许有限 γ 涨落，证据不足以从该比较定量反演势面。原实验谱来自 Refs. 26–27。

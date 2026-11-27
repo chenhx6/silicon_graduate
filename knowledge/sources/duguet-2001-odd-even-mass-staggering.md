@@ -3,11 +3,11 @@ type: source
 title: "Duguet 等 2001：自洽平均场中三点与五点质量交错的解释边界"
 aliases: [Duguet2001OESPart2]
 created: 2026-11-02
-updated: 2026-11-02
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: theoretical-paper
-reading_depth: skimmed
+reading_depth: read
 title_original: "Pairing correlations. Part 2: Microscopic analysis of odd-even mass staggering in nuclei."
 authors: ["T. Duguet", "P. Bonche", "P.-H. Heenen", "J. Meyer"]
 year: 2001
@@ -33,7 +33,7 @@ tags: [pairing, mass-staggering, hfb, time-odd-fields, blocking]
 
 核对首页题名/作者及摘要入口，读取 PDF 2–8（引言、§2.1–2.3 及 §3 开头）。
 渲染 PDF 7 核对式 (5)–(7)。PDF 9–41 的计算、表图、完整结论未在本轮读取；
-全篇保持 `skimmed`。不引用尚未读取的数值结果。
+初读止于上述范围。2026-11-27 已对账并补读本地 arXiv v1 全 41 页，实际覆盖与限制见本页末尾的范围复核。
 
 ## Method and Design Logic
 
@@ -82,3 +82,9 @@ HFBE 是该理论分析中定义的参考，不是可由三到五个实测质量
 P0 self-audit：源公式与正结合能符号转换已对账，未把 HFBE 当作直接观测。
 P1：全文的配对强度扫描、极化能定量及目标核模型迁移仍开放。
 无 human-review 事件。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+在本地 arXiv:nucl-th/0105050v1 中，§2 与式 (3)–(7) 把自洽阻塞能写成 \(S=\Delta+E^{\mathrm{pol}}\)，参照是具有奇平均粒子数、保持时间反演的完全配对 HFB 真空。平滑参考能量的曲率与时间奇极化属于不同贡献。原稿的数值比较使用三点和五点，PDF 7 的 “fourth-order” 对应五点模板。四点可以由相邻三点指标平均得到，是本轮的代数复核。按负结合能 \(E=-B\) 与 \(p=(-1)^N\)，左中心模板为 \(p[E(N+1)-3E(N)+3E(N-1)-E(N-2)]/4\)，它消去二次背景，但仍对 \(\Delta\) 和 \(E^{\mathrm{pol}}\) 使用相同权重。
+
+PDF 10–14 Figs. 2–5 的 Sn 计算与同一质量评价的三点／五点差比较，闭壳附近保留异常。PDF 14–17 Figs. 6–8 的 Ce 结果是形变 HFB 计算，作者指出当时实验质量误差不支持有意义的相同检验。PDF 33–38 Eqs. (14)–(15) 与 Fig. 16 中，在现实配对并远离闭壳时，五点指标通常跟踪局部平均的 \(\Delta+E^{\mathrm{pol}}\)。奇中心三点有时更接近估计的配对隙，原因是负的平滑曲率与正的极化在这些 Ce 算例近似抵消。该抵消依赖相互作用及 Part I 的微扰极化估计，质量差本身不能单独分离两项。

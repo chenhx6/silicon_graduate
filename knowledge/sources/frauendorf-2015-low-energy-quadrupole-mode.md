@@ -3,7 +3,7 @@ type: source
 title: "Frauendorf 2015 - The low-energy quadrupole mode of nuclei"
 aliases: [Frauendorf 2015 quadrupole mode, tidal wave TPSM review]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: review-theory
@@ -97,8 +97,12 @@ Energy ratios and `B(E2)` patterns are not unique shape classifiers; model param
 
 ## Day21周考推断阶梯审计：四极潮汐波（Tidal Wave）转动与B(E2)离心拉伸证据门边界
 
-依据独立审计程序 `system/scripts/day21_checkpoint014_tidal_wave_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/tidal-wave-audit-014.json`，确立本源在推断阶梯上的边界：
+2026-11-27 以馆藏 PDF 的式与图为依据更新此处。旧审计日志保留历史计算背景。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| FR15-D21-1 | Frauendorf 2015 综述确立低能四极潮汐波（Tidal Wave）转动推断阶梯边界：微观上弱形变 $\gamma$-软核（如 $^{102}	ext{Pd}$）的 yrast 角动量增长并非源于刚性经典旋转或多声子简谐激发，而是由四极形变振幅 $\beta_2(I)$ 的离心拉伸主导；在 $^{102}	ext{Pd}$ 中，转动频率由 $2^+$ 的 $278.2	ext{ keV}$ 仅迟缓升至 $10^+$ 的 $490.0	ext{ keV}$（仅增 $1.76$ 倍，远低于刚性转子的 $5.0$ 倍），而实测带内 $B(E2)$ 由 $32(3)	ext{ W.u.}$ 激增至 $105(18)	ext{ W.u.}$（激增 $3.28$ 倍），大幅突破刚性转子的几何饱和极限（$1.69$ 倍），展现出与 $\beta_2^2(I) \propto I$ 潮汐波行波模型的高度自洽。推断阶梯确立：严禁仅凭能级比值 $R_{4/2} \approx 2.0 - 2.4$ 断言简谐多声子态或刚性转子，确证潮汐波必须依赖绝对能级寿命测定 $B(E2) \propto I$ 线性伸展轨迹及转动频率迟滞。 | claim-boundary-audit | direct-and-derived | PDF Sec.6 pp.24-28 Figs.17-18; tidal-wave-audit-014.json | true |
+| FR15-D21-1 | ¹⁰²Pd 的惯量与带内 B(E2) 随自旋增加，图示比值 B(E2)/ℑ 大致平坦，与作者给出的潮汐波解释相容。数据与模型线分别来自 Refs. 6、94。低能谱或能级比单独不足以定 γₑ。旧记录的精确增长倍数在本综述图中无逐项表列，仍需回原实验。 | review-synthesis | direct-original-visual | PDF 28 Eq. (32)–(34), PDF 30 Fig. 19 | true |
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 8 式 (9)–(10) 与 PDF 9–10 Figs. 6–8 表明小交错要结合能级比与模型区分。¹⁰²Pd 的惯量和 B(E2) 同见 PDF 30 Fig. 19，数据引 Ayangeakaa 等 Ref. 6，计算引 Ref. 94。该图支持惯量和带内 B(E2) 随自旋同增以及两者之比近似平坦。旧记录列出的精确 B(E2) 数值和增长倍数在此图没有逐项报告，必须回到原初实验表。PDF 28 说明单凭 yrast 序列无法确定 γₑ。

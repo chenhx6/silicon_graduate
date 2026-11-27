@@ -3,7 +3,7 @@ type: source
 title: "Åberg, Flocard and Nazarewicz 1990 - Nuclear shapes in mean field theory"
 aliases: [Aberg Flocard Nazarewicz 1990 mean-field shapes]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: review
@@ -37,7 +37,7 @@ tags: [mean-field, nuclear-shapes, triaxiality, high-spin, octupole, shape-coexi
 
 ## Scope and Reading Depth
 
-- PDF pp.439–528 (89 pages) fully read by section: effective interactions and constrained HF/HFB, symmetries and Nilsson–Strutinsky, shape parametrization/consistency, axial/triaxial quadrupole shapes, high-spin stretching/polarization/intruder bands/termination/noncollective rotation/superdeformation, reflection-asymmetric/octupole shapes, shape coexistence, neutron–proton and higher-deformation interactions, relativistic/configuration developments and beyond-mean-field limits.
+- Local PDF 1–89 (printed pp. 439–527) read by section: effective interactions and constrained HF/HFB, symmetries and Nilsson–Strutinsky, shape parametrization/consistency, axial/triaxial quadrupole shapes, high-spin stretching/polarization/intruder bands/termination/noncollective rotation/superdeformation, reflection-asymmetric/octupole shapes, shape coexistence, neutron–proton and higher-deformation interactions, relativistic/configuration developments and beyond-mean-field limits.
 - Not covered: cited primary data and post-1990 computational developments.
 
 ## Key Results
@@ -93,3 +93,7 @@ tags: [mean-field, nuclear-shapes, triaxiality, high-spin, octupole, shape-coexi
 ## Extracted Pages
 
 - Concepts/models: [[rotating-mean-field]], [[triaxial-deformation]], [[octupole-deformation]], [[octupole-softness]], [[triaxial-shape-coexistence]], [[band-termination]], [[superdeformation]]。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+刊版馆藏共 89 个 PDF 页，对应印 439–527。PDF 16（印 454）进入四极形状一节，PDF 64（印 502）讨论低激发能的形状共存及竞争组态。正文分页与下载水印中 439–528 的条目范围存在一页差异，本地末页明确印为 527，未将潜在末页计为已读。

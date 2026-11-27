@@ -3,7 +3,7 @@ type: source
 title: "Agarwal et al. 2007 - Bandcrossing of magnetic rotation bands in 137Pr"
 aliases: [Agarwal 2007 137Pr magnetic rotation]
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment-and-model
@@ -126,3 +126,7 @@ Decision: revises the Hara Table 5 coverage map. 137Pr 现在有可读的后续 
 | AG07-D22-R098-2 | 以p5比值式、TableI打印Iγ及正确同母态重算十组中央值，29/2为10.1566接近打印10.4；43/2的507.2keV、5.7与972.1keV、1.1给24.0288，明显不同于打印18.5，且末位舍入区间不能覆盖18.5。作者说弱E2由多组gated spectra平均，但未给逐门强度账本，无法归因具体差值。首次“全十组3%内”假设失败已保留；不调输入强配，不据不闭合判整实验无效或报新显著性。 | printed-input-nonclosure | direct-original-and-task-arithmetic | 024321-4 TableI rows507.2/972.1; 024321-5/6 ratio equation and intensity paragraph | true |
 
 缺τ时，对每个spin令任意正s=B(E2)，B(M1)=R·s均保留同R；选择B(M1)恒定或B(E2)恒定可产生相同观测比值的不同绝对行为。这是代数不可识别性，不是两个实际核模型都已拟合。本轮不重认证旧AG07-D19-1的TAC唯一性或σ数。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2–5 §II–III、Fig. 4 和 Table I 把门控 \(R_{\mathrm{DCO}}\) 与 Clover 散射不对称度用于不同问题。507.2、576.7 keV 的 DCO 在 112 keV 的 M1 门下为 0.96(10)、0.91(13)，不与 517 keV E2 门下约 0.5 的偶极参考直接混用。表中不对称度分别为 −0.05(2)、−0.06(1)，支持磁性。弱 crossover 的 E2 来自符合和初末自旋宇称放置。PDF 5 右栏与 PDF 6 左栏的 \(B(M1)/B(E2)\) 由同母态强度和能量推得，采用了带内 \(\delta^2\) 可忽略的假设。用 Table I 已印输入重算 \(43/2^-\) 一行约为 24.03，表印 18.5(32)，原逐门强度未提供。PDF 6–7 的剪刀带重开和 3qp/5qp 归属来自 TAC 比较，只有相对强度信息支持，本文没有测定两支的绝对强度。

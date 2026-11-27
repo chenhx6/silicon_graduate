@@ -7435,3 +7435,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - 完成共用数值框禁滚轮、推荐网格锁定、严格JSON _help及新几何示例；delta命名/v3结果一并进入正式PyPI 0.1.2。333程序测试、10基准测试、隔离包CLI/Qt/PyPI读回、90 PDF独立数值核查及全131页视觉通过。
 - 五项旧引用按原SHA/大小改绑固定历史字节；原清单与预期哈希保持。全库发布preflight归档零失败；旧v0.1.1来源7项既有结构诊断单列，未宣称全库lint清零。知识见 [[pdm-two-geometry-recovery-20261125]] 及对应source。
 - 主体已提交并非force推送 `main + pdm: finalize 0.1.2 and two-geometry deterministic recovery`，收尾主题 `pdm: reconcile 0.1.2 delivery and final report`；身份与测试边界均保存在任务回执。隔离包测试复用现有依赖，全新依赖安装因9p写入停滞停止，原生Windows/macOS未测试。
+
+## 2026-11-27 — 续开馆藏阅读和同配置并行核读
+
+- 本批核定 16 份、578 个物理 PDF 页，另确认 Otsuka 一条重复版本。第二卷 PDF 281–315 单独记覆盖，队列剩 531 条。

@@ -1,0 +1,125 @@
+{
+  "batch": "20261127-local-reconciliation",
+  "created_at": "2026-11-27T00:54:10.482759+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000369",
+      "source": "knowledge/sources/dafni-1983-ce-isomers-tin-quadrupole.md",
+      "identity": "Dafni et al., Hyperfine Interactions 15/16, 101–104 (1983), DOI 10.1007/BF02159726; publisher PDF.",
+      "coverage": [
+        "Existing reading ledger covers PDF 1–4, Figs. 1–4 and Tables 1–2; checked original PDF 2–3 for measured frequency and normalization."
+      ],
+      "boundary": [
+        "The absolute moment scale depends on model Q(138Ce) and unknown Sn EFG. This same calibration chain is reused downstream."
+      ],
+      "disposition": "covered",
+      "worker": "manager",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/dafni-1983-ce-tin-quadrupole.pdf",
+      "sha256": "5b08557f5fd79724547485c93fd729ecce97540cd9a2b5b45df40abc1734ce08",
+      "physical_pages": 4
+    },
+    {
+      "id": "catalogue:LIT-000463",
+      "source": "knowledge/sources/henderson-2020-quadrupole-invariant-convergence.md",
+      "identity": "Henderson, Phys. Rev. C 102, 054306 (2020), DOI 10.1103/PhysRevC.102.054306; archived arXiv:2005.11210v4 author version, 11 physical pages.",
+      "coverage": [
+        "Existing record covers PDF 1–11, Figs. 1–6, Tables I–II and Eqs. (1)–(36); verified PDF 7 Table II and PDF 10 conclusion."
+      ],
+      "boundary": [
+        "Numerical convergence is for the reported sd/pf shell-model network and ensemble; no independent experimental precision threshold or publisher-text comparison is claimed."
+      ],
+      "disposition": "covered",
+      "worker": "manager",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/henderson-2020-quadrupole-invariant-convergence.pdf",
+      "sha256": "ed2d48f63e1e18a721e1bb3e01676ca91160d1a683d7447e574788a6f5c8e044",
+      "physical_pages": 11
+    },
+    {
+      "id": "catalogue:LIT-000268",
+      "source": "knowledge/sources/afanasjev-1999-termination-rotational-bands.md",
+      "identity": "Afanasjev, Fossan, Lane and Ragnarsson, Physics Reports 322 (1999), pp. 1–124; publisher PDF.",
+      "coverage": [
+        "Prior section-level reading accounts for PDF 1–124; original PDF 39 §4.2.2, Figs. 9–10 and PDF 70 were spot-checked."
+      ],
+      "boundary": [
+        "Interpretations combine cited experiments with cranking/configuration assignments; this review is not a new acquisition."
+      ],
+      "disposition": "covered",
+      "worker": "manager",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1999_Afanasjev et al_Termination of rotational bands.pdf",
+      "sha256": "dff5cc076849dbdcc503bd0a9921efb12059f76ccba3fec643c84473f7e02009",
+      "physical_pages": 124
+    },
+    {
+      "id": "catalogue:LIT-000272",
+      "source": "knowledge/sources/alder-1956-coulomb-excitation-review.md",
+      "identity": "Alder, Bohr, Huus, Mottelson and Winther, Rev. Mod. Phys. 28, 432–542 (1956), DOI 10.1103/RevModPhys.28.432; publisher scan.",
+      "coverage": [
+        "Prior chapter-level reading covers physical PDF 1–111 (printed 432–542); checked physical PDF 3–4 and equation (II A.2)."
+      ],
+      "boundary": [
+        "Rutherford trajectory and point projectile belong to the semiclassical approximation; older tabulations do not certify later analyses."
+      ],
+      "disposition": "covered",
+      "worker": "manager",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1956_Alder et al_Study of Nuclear Structure by Electromagnetic Excitation with Accelerated Ions.pdf",
+      "sha256": "48d906a64ef15ced5de1d61bb3ffe87c44498e3b8b4f3bf896ae9f7f8ba403f7",
+      "physical_pages": 111
+    },
+    {
+      "id": "catalogue:LIT-000279",
+      "source": "knowledge/sources/aprahamian-2005-nuclear-astrophysics-structure.md",
+      "identity": "Aprahamian, Langanke and Wiescher, Prog. Part. Nucl. Phys. 54 (2005), 535–613, DOI 10.1016/j.ppnp.2004.09.002; publisher PDF.",
+      "coverage": [
+        "Prior review coverage is PDF 1–79, printed 535–613; checked physical PDF 11–12 and Fig. 2 on PDF 28."
+      ],
+      "boundary": [
+        "Rate and mass model comparisons are contextual review evidence; the cited measurements and recent evaluations have separate provenance."
+      ],
+      "disposition": "covered",
+      "worker": "manager",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/nuclear astrophysics/2005_Aprahamian et al_Nuclear structure aspects in nuclear astrophysics.pdf",
+      "sha256": "8e2b69c75fc398e1266633011f836b852f9c8e527b16a54868867b6c9fb14d12",
+      "physical_pages": 79
+    },
+    {
+      "id": "catalogue:LIT-000267",
+      "source": "knowledge/sources/aberg-flocard-nazarewicz-1990-mean-field-shapes.md",
+      "identity": "Åberg, Flocard and Nazarewicz, Annu. Rev. Nucl. Part. Sci. 40 (1990); local copy 89 pages, physical printed pages 439–527.",
+      "coverage": [
+        "Existing topical ledger and original physical PDF 1–89 (printed 439–527); rechecked §4 at PDF 16, §7 at PDF 64, and terminal page labels."
+      ],
+      "boundary": [
+        "The PDF wrapper cites a 439–528 range while the file ends at printed p. 527; the final p. 528 is not established from the current copy."
+      ],
+      "disposition": "partial",
+      "worker": "manager",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1990_Aberg et al_Nuclear Shapes in Mean Field Theory.pdf",
+      "sha256": "90e3d1324dbf591cc042a3ad3b777a75e00af1463869d9ad557af433469562e6",
+      "physical_pages": 89
+    }
+  ],
+  "queue_counts": {
+    "pending-identity-and-coverage": 299,
+    "scientific-reading-covered": 412,
+    "duplicate-excerpt-linked-to-canonical": 4,
+    "duplicate-or-related-version": 9,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 3,
+    "existing-source-coverage-to-audit": 244,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 543,
+  "credited_works": 5,
+  "credited_primary_pages": 329,
+  "partial_volume_pages": 0,
+  "next_action": "Verify the current parallel batch and continue Bohr–Mottelson II from PDF 281.",
+  "uncredited": []
+}

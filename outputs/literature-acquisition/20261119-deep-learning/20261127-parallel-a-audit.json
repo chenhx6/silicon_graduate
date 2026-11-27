@@ -1,0 +1,93 @@
+{
+  "batch": "20261127-parallel-a",
+  "created_at": "2026-11-27T01:00:06.271974+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000302",
+      "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "identity": "Bohr and Mottelson, Nuclear Structure II, Nuclear Deformations; 1975 original, World Scientific reissue copyright 1998; local 772-page scan.",
+      "coverage": [
+        "PDF 281–315 (printed 259–293), §5-3; checked each printed page, Figs. 5-9–5-15, Tables 5-6–5-10 and corresponding equations."
+      ],
+      "boundary": [
+        "Overall reading remains partial. The book reuses earlier experiments; model estimates have separate dependencies and should not be counted as new experiments."
+      ],
+      "disposition": "partial",
+      "worker": "Pascal",
+      "source_pdf": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "physical_pages": 772
+    },
+    {
+      "id": "catalogue:LIT-000386",
+      "source": "knowledge/sources/duguet-2001-odd-even-mass-staggering.md",
+      "identity": "Duguet, Bonche, Heenen and Meyer, Part II; local complete arXiv:nucl-th/0105050v1 (2001), 41 pages. Published article is separately identifiable; only the arXiv copy was read.",
+      "coverage": [
+        "Prior PDF 2–8 reconciled and full arXiv PDF 1–41 covered, including figures, equations and references."
+      ],
+      "boundary": [
+        "Odd-nucleus polarization and gap decomposition are model outputs; the calculated and measured Ce mass-stencil strengths are not equivalent. The final journal layout was not compared."
+      ],
+      "disposition": "covered",
+      "worker": "Dirac",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261102-odd-even-mass-stencils/duguet2001-part2-v1.pdf",
+      "sha256": "66f50d1fd31bf328bf5e3931271d982526a9363ca55037480952d1f50019f044",
+      "physical_pages": 41
+    },
+    {
+      "id": "catalogue:LIT-000269",
+      "source": "knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md",
+      "identity": "Agarwal et al., Phys. Rev. C 76, 024321 (2007), DOI 10.1103/PhysRevC.76.024321; APS publisher PDF.",
+      "coverage": [
+        "PDF 1–8 read; checked §§ II–V, Figs. 1–7, Table I and refs. [12,13]."
+      ],
+      "boundary": [
+        "DCO, Compton asymmetry and intensity ratios share the INGA coincidence data. Weak crossovers have no individual DCO/IPDCO; no absolute B values or lifetime provided."
+      ],
+      "disposition": "covered",
+      "worker": "Pauli",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/137pr-2007-magnetic-rotation/PDFs/Bandcrossing_of_magnetic_rotation_bands_in_137Pr.pdf",
+      "sha256": "83ccf538913d777f60832ee7ff304ffa8ca0678399b893f827236a6ab33c6a55",
+      "physical_pages": 8
+    },
+    {
+      "id": "catalogue:LIT-000277",
+      "source": "knowledge/sources/amro-2003-wobbling-167lu.md",
+      "identity": "Amro et al., Phys. Lett. B 553, 197–203 (2003), DOI 10.1016/S0370-2693(02)03199-4; publisher PDF.",
+      "coverage": [
+        "PDF 1–7 read; checked Table 1, Figs. 1–6, double-solution discussion and source dependencies."
+      ],
+      "boundary": [
+        "SpeeDCO and angular distribution share the same coincidence data. Selection of large |delta| draws on external 163Lu polarization, not a new polarization measurement in 167Lu."
+      ],
+      "disposition": "covered",
+      "worker": "Pauli",
+      "source_pdf": "raw/papers/2003_The wobbling mode in 167Lu.pdf",
+      "sha256": "2c28c101a58d920c9cade83a2b166d9fe5d3f80d59eff8d6e1c7c9571b89ec88",
+      "physical_pages": 7
+    }
+  ],
+  "queue_counts": {
+    "pending-identity-and-coverage": 299,
+    "scientific-reading-covered": 415,
+    "duplicate-excerpt-linked-to-canonical": 4,
+    "duplicate-or-related-version": 9,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 3,
+    "existing-source-coverage-to-audit": 241,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 540,
+  "credited_works": 3,
+  "credited_primary_pages": 56,
+  "partial_volume_pages": 35,
+  "next_action": "Finish outstanding dispatched sources and continue Bohr–Mottelson II from PDF 316.",
+  "uncredited": []
+}

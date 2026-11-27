@@ -3,7 +3,7 @@ type: source
 title: "Al-Adili 2009：AGATA commissioning 的反应、靶效应与 Doppler 模拟"
 aliases: [Al-Adili Doppler simulation thesis, AGATA commissioning simulation]
 created: 2026-10-13
-updated: 2026-10-14
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: thesis-model-method-public-preprint
@@ -18,7 +18,7 @@ canonical_source: "https://arxiv.org/abs/0909.4800"
 citation_key: "aladili_2009_52cr-simulations-doppler"
 raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/aladili-2009-doppler-simulations.pdf"
 raw_sha256: "57e28acccf0634cb47df37bf3dcc1ef157c4bd5a7658834b5f3dbdd6a8b04b96"
-raw_storage_status: reserved-unpopulated-public-preprint-only
+raw_storage_status: verified-local-masters-thesis-arxiv-v1
 raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://arxiv.org/pdf/0909.4800"
 nuclei: [52cr, 38ar, 35s]
@@ -135,3 +135,7 @@ filepp.16–17公式/width budget，pp.21–23code chain，p31lifetime，p37Tabl
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | AA09-D19-1 | 对 AGATA 多普勒线形模拟进行系统学审计：(1) 线形分解：严格复现 Table 6.2 报告值，$^{52}\text{Cr}$ $1434\text{ keV}$ 态总展宽为 $4.55\text{ keV}$（本征 $2.30\text{ keV}$，多普勒 $3.93\text{ keV}$），$^{38}\text{Ar}$ $2167\text{ keV}$ 态总展宽为 $7.74\text{ keV}$（本征 $2.83\text{ keV}$，多普勒 $7.20\text{ keV}$）；(2) 约定残差代数消解：严格解释了 Fig. 6.20 合成谱峰位偏离（由 $1434\text{ keV}$ 偏移至 $1436.16\text{ keV}$）系由代码中非相对论前向频移与精确相对论逆反演混用所引入的 $\Delta E = +2.157\text{ keV}$ 数学残差；(3) 薄靶真空发射纯度：对平均反应深度 $0.25\text{ \mu m}$ 的薄靶，反冲核真空平均飞行距离达 $16.59\text{ \mu m}$，靶内衰变份额仅为 $1.50\%$（$>98.5\%$ 在靶外真空中衰变），排除了薄靶基准实验受介质慢化显著畸变的假设。 | task-doppler-simulation-audit | derived-and-boundary | file PDF pp.16 28-40 Table 6.2 Figs.6.17-6.23; agata-doppler-tracking-response-result-064.json | true |
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+原件是硕士论文 arXiv v1，PDF 页比印刷页大 2。PDF 37 Table 6.2 将模拟总宽、本征宽和由此分解的多普勒宽区分，后者引用的本征标度来自 ²²⁶Ra 源测 C002 芯信号的拟合（PDF 31–32 Fig. 6.10、Ref. [34]）。PDF 31 式 (6.8) 同时印 1.15×10⁻⁵ m 与 16.5 μm，按该式寿命和速度复算约 16.6 μm。靶外发射是由量级估计作出的解释。PDF 44–45 App. C 保留计算链示例，缺少重现正文所有曲线的完整运行配置。
