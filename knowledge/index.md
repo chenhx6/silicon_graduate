@@ -2249,3 +2249,10 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[duchene-1999-clover-composite-ge]] — Clover 相加、Doppler 修正与偏振标定。
 - [[regis-2010-mirror-symmetric-centroid-difference]] — MSCD 的 prompt 响应及本底校正。
 - [[rajbanshi-2017-attractive-shears-a140]] — A≈140 吸引剪刀机制模型的可检验量。
+- [[regis-2012-cfd-time-walk]] — CFD 游走、探头响应与 PRD 校准。
+- [[regis-2013-generalized-centroid-difference-arrays]] — GCD 正反门与阵列校准。
+- [[regis-2014-exill-fatima-ge-gated-fast-timing]] — EXILL–FATIMA 校准和 ¹⁰⁰Zr 快定时。
+- [[regis-2016-multiplexed-fast-timing-walk]] — HORUS 多路定时与峰峰游走条件。
+- [[bally-2022-xe128-129-130-multireference-edf]] — Xe 多参考态 EDF、Kumar 不变量与态依赖。
+- [[nomura-2017-gogny-ibfm-odd-mass-gamma-soft]] — Gogny–IBFM 形状演化和数据谱系。
+- [[eberth-simpson-2008-germanium-tracking-review]] — Ge 探测器、位置重建和 γ 跟踪综述。

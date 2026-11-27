@@ -3,7 +3,7 @@ type: source
 title: "Iliadis与Friman-Gayer 2021：偏振–方向关联、相位角色与测量几何"
 aliases: [Iliadis Friman-Gayer 2021, IF21 polarization direction correlations]
 created: 2026-10-17
-updated: 2026-10-17
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: theory-method-review
@@ -93,3 +93,7 @@ codeREADME自述已与作者R实现和文献交叉测试，这是software作者�
 此前七个blob/README审计仍是历史的未执行状态；本日用户恢复后，[[alpaca-2023-v105-angular-correlation-code]] AC23-1至6把同一2023commit扩展到实际构建的113blob身份检查及selected C++/GSL执行。first/last的dB=−dKS/+dKS在运行前冻结，不由输出调相位；与本任务photon trace相容范围和归一均有结果。它降低了相同条件下只依赖自写CG实现的边界，但不认证2021所有图/旧实验exactproducer，也不裁决RU09 code或缺失review脚注/勘误。
 
 固定Pythonwrapper因未导出的rotation symbol无法直接import，本任务只调用未改C++实际已有的create/evaluate/free CABI；AC23-4保留该失败，不把C++通过说成Python接口全部ready。理论/代码与原实验采集的独立性分层保持。source原claims/review flags不改。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+刊版 PDF 4–5 式 (12)–(18) 要分清归一化以及吸收／发射的相位。PDF 10–12 式 (21)–(25) 的未观测中间 γ 只以平方与传播因子参与，丢失该 δ 的符号。PDF 13–16 的四角交集例为假设数据，附录包含精确退化和近似狭环；PDF 16–17 控制逐秩逐位置有限立体角及不完全偏振。

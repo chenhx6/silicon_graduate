@@ -677,7 +677,7 @@
     "LOCAL-ROTATION-AND-DEFORMATION-SOURCES",
     "LOCAL-THEORY-AND-SPECTROSCOPY-245"
   ],
-  "completed_full_sources_this_run": 500,
+  "completed_full_sources_this_run": 513,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -685,26 +685,26 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-27T02:40:38.274193+00:00",
+  "updated_at": "2026-11-27T02:57:12.666009+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 19884,
+  "completed_primary_pages_this_run": 20235,
   "current_source_note": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
-  "next_action": "Continue Bohr–Mottelson II PDF 433 (printed 411) and reconcile next original reading groups.",
+  "next_action": "Continue Bohr–Mottelson II PDF 445 (printed 423) and verify the next independently assigned originals.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "10 works, 305 primary PDF pages, 12 bounded book pages and four related editions reconciled.",
-  "current_source_scientific_acceptance": "Bohr–Mottelson II through PDF 432 (printed 410); no completed-volume credit.",
+  "last_source_manager_closure": "13 works, 351 primary PDF pages, 12 bounded book pages and 22 related materials reconciled.",
+  "current_source_scientific_acceptance": "Bohr–Mottelson II through PDF 444 (printed 422); no completed-volume credit.",
   "source_scoped_retrieval": "Existing local originals; publisher and author versions recorded separately.",
   "counting_scope": {
-    "scientific_reading_covered": 482,
+    "scientific_reading_covered": 495,
     "bounded_or_core_only_completed": 18,
-    "credited_pages_explicit_in_queue": 9426,
+    "credited_pages_explicit_in_queue": 9777,
     "pages_carried_forward_from_previous_checkpoints": 10458,
     "increment_this_checkpoint": {
-      "works": 10,
-      "pages": 305,
+      "works": 13,
+      "pages": 351,
       "partial_volume_pages_recorded_separately": 12,
-      "associated_rows": 4
+      "associated_rows": 22
     }
   },
   "previous_pause": {
@@ -725,5 +725,5 @@
     "resume_printed_page": 259,
     "background_reading_scheduled": false
   },
-  "latest_batch_audit": "20261127-related-editions-d-audit.json"
+  "latest_batch_audit": "20261127-figure-assets-e-audit.json"
 }

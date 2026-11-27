@@ -3,11 +3,11 @@ type: source
 title: "Gizon 1977：129Ba 原始角分布、同母态连接与版本边界"
 aliases: [Gizon 1977 Ba129 primary, 1977Gi02 angular distributions]
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment-theory
-reading_depth: read
+reading_depth: deep-read
 title_original: "Triaxial shape and onset of high-spin bands in 129Ba"
 authors: [J. Gizon, A. Gizon, J. Meyer-ter-Vehn]
 journal: Nuclear Physics A
@@ -116,3 +116,7 @@ Gizon 1978 偏振论文仍只有本轮题录/访问记录：APS PDF 403、Harves
 
 首页预览、全文OCR、完整扫描PDF分开登记并保留历史回执。没有修改原件，
 没有补实验协方差，没有把 self-audit 写作 human-reviewed。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 3（印 466）Table 1 原页回确认 365.0 keV 的 A₂₂=−0.70(5)、A₄₄=+0.16(5)，461.8 keV 的 A₂₂=+0.22(4)、A₄₄=+0.08(6)。印 471 Table 2 给前者历史混合比范围；印 475 的作者讨论指出旧模型与电磁量符合不佳。两份首篇节录（LIT-000109/111）与 PDF 1 文字、渲染一致。

@@ -21,6 +21,8 @@ updated: 2026-11-25
 
 本批核定 10 份、305 个主件 PDF 页，包括 ¹⁸⁸Au、¹⁷⁴Re 两篇学位论文。另核对 3 条同文版本和 1 条致谢勘误。累计 500 份、19,884 个主件 PDF 页，正式队列待处理 458 条。第二卷另核 PDF 421–432（印 399–410）能量加权与张量和规则，续读 PDF 433（印 411）。稳定指针为 `research/archive-learning-20261127` + `research: verify detector papers and nuclear spectroscopy theses`。见[阵列与学位论文](../outputs/literature-acquisition/20261119-deep-learning/20261127-detectors-theses-audit.json)、[续读与 Clover](../outputs/literature-acquisition/20261119-deep-learning/20261127-book-detector-d-audit.json)、[版本与勘误](../outputs/literature-acquisition/20261119-deep-learning/20261127-related-editions-d-audit.json)。
 
+本批核定 13 份、351 个主件 PDF 页，涵盖快定时、角关联、偏振、Xe 形状模型及 ¹⁰⁶Ag 学位论文。另核定 22 条关联材料，其中 19 张源码包图件、1 份另一排版及 2 份同文首页节录。累计 513 份、20,235 个主件 PDF 页，正式队列待处理 423 条。第二卷另核 PDF 433–444（印 411–422），续读 PDF 445（印 423）§6-5b。稳定指针为 `research/archive-learning-20261127` + `research: verify fast-timing sources and archived figure roles`。见[原件覆盖](../outputs/literature-acquisition/20261119-deep-learning/20261127-timing-theory-e-audit.json)和[关联图件及节录](../outputs/literature-acquisition/20261119-deep-learning/20261127-figure-assets-e-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

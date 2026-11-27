@@ -3,7 +3,7 @@ type: source
 title: "Calibration of Compton Polarimeters"
 aliases: [Jones 2002 Compton polarimeter calibration, Compton polarimeter sensitivity calibration]
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-11-27
 status: active
 review_status: human-reviewed
 source_type: method-formalism-article
@@ -157,3 +157,7 @@ Ref12书目已外核为G.D.Jones/P.A.Butler/T.H.Hoare/P.M.Jones，*EPJ A*2,129�
 | J02-23 | 原113.159γ峰含174.58/174.62 E1/E2重叠，作者另用α–eL/eM选择赋11/2+；γ/total/subshell权重不同。342.84 J9/2+及Table2多数δ符号另附模型/系统学条件，不能由本校准表标签抹掉。 | companion-and-assignment-boundary | direct-upstream-primary | J98Sec4.2/4.5；Fig3；Table2符号说明 | true |
 
 [[jones-1998-ra223-alpha-gamma-correlations]] J98-1–13保存原装置/phase/Qk/误差/两314.78、113.159companion与47行复算。比对只做同层：1998实验角系数、1998theory、2002theory/P、当前point计算分别保留。原文件/旧人审prefix均不改；新增J02-22/23仍needs_review。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2–3 定义 P=A/Q(Eγ)，¹⁹F 197 keV 参考给 Q≈0.34。PDF 4–5 指定纯 E2 在零强度观测方向不形成点探测标定。PDF 6 Table 1 的 ²²³Ra 314.78 keV 两行须按母态 376.28/445.00 keV 区分；理论 P(90°) −0.94/+0.96 与 Ref. 12 的实验角系数分列。

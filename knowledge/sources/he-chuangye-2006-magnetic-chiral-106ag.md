@@ -3,7 +3,7 @@ type: source
 title: "贺创业 2006 博士论文：106Ag 磁转动与手征转动"
 aliases: [贺创业106Ag论文, He Chuangye 106Ag thesis]
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-experiment
@@ -71,3 +71,7 @@ tags: [a100, magnetic-rotation, nuclear-chirality, signature-inversion, phd-thes
 ## Extracted Pages
 
 - 题名页：PDF p.1；摘要：pp.4–5；实验/能级与磁转动章节：Chs.4–7；总结：pp.130–132。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 49–55 为 HI-13 的 ¹⁰⁰Mo(¹¹B,5n) 采集、激发函数、DCO 门和矩阵；图 4.3 的实际采集能量取 60 MeV。PDF 89 明写未测正宇称带 1 寿命。PDF 105–108 的带 3/4 近简并与分支强度用于手征候选解释，但 513、677 keV 线受污染，带内/带间 B(M1) 比未给。Rather 2014 本地 PDF 3–5、11 另以 ⁹⁶Zr(¹⁴N,4n) 做独立 DSAM，测的是负宇称双带。

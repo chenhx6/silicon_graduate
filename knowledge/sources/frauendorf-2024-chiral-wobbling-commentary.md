@@ -51,3 +51,7 @@ Springer 刊版 PDF 1–4，含经典图像、⁷⁴Br 评论、图和参考文�
 ## Agent Self-Audit Triage
 
 - P1：原数据、推导量及模型解释按各自证据与页码引用。
+
+## 2026-11-27 — 源码包与刊版图件对照
+
+arXiv:2405.20802 源码包内 `Carvon.pdf`、`fig_wob_ch.pdf`、`Br74bands.pdf` 对应 TeX 38–43、67–74、137–142 和刊版 Figs. 1–3。Fig. 3 复用 Guo 2024 的 ⁷⁴Br 谱学。`qb.pdf` PDF 1–3 为同作者、同题的完整另一排版。

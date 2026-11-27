@@ -63,7 +63,7 @@ DAQ 和 auxiliary detectors 组合成面向不同核结构问题的可重排平�
 | ID25-4 | 16 coaxial + 8 clover 的紧凑构型几何覆盖约 65% of `4π`，1332.5-keV total photo-peak efficiency 约 10%（无 BGO shield 的距离说明）。 | detector-performance | PDF p.3, Sec.2.2 | full array 的实际效率仍依赖 shield、target position、add-back 和 event cuts |
 | ID25-5 | electronics 以 100 MHz、14/16-bit waveform digitizers 和 FPGA 处理 list-mode energy/time；BGO veto window 为 400 ns；HPGe detector event rate 可到约 8 kHz/每探测器而不牺牲能量分辨。 | experimental-fact | PDF p.3, Sec.2.3 | rate、pile-up rejection 和 timing 仍依赖具体 card、signal shape 和 firmware |
 | ID25-6 | 通过 face-to-face geometry 可服务 activated-sample γ/γ 测量；hybrid LaBr3/plastic 配置服务快定时，clover 可作 Compton polarimeter，HPGe 还用于 DSAM/ADO。 | design-capability | PDF pp.1–4, Secs.2–3 | capability 不是任意核素的已完成物理结果；需要目标反应和 response simulation |
-| ID25-7 | 论文以 `45Sc` DSAM lineshape、`95Tc` ADO/polarization 等 commissioning/应用例展示装置用途，并强调稀有事件的高效率、背景抑制和颗粒度。 | application-example | PDF pp.4–6, Figs.7–8 and conclusion | 应用例不是同一 acquisition 的独立重复，也不自动迁移到 A≈130 |
+| ID25-7 | 论文以 `45Sc` DSAM lineshape、`95Tc` ADO 和引自 Ref. 37 的 `187Au` 偏振等应用例展示装置用途，并强调稀有事件的高效率、背景抑制和颗粒度。 | application-example | PDF pp.4–6, Figs.7–8 and conclusion | 应用例不是同一 acquisition 的独立重复，也不自动迁移到 A≈130 |
 
 ## Detector-to-Physics Mapping
 
@@ -134,3 +134,7 @@ commissioning conditions.
 ## 2026-11-27 — 馆藏关联件核定
 
 本地关联件 `raw/papers/detectors/Array/2025_Li et al_IMP-DRAGON A High-Purity Germanium detector array for probing the atomic nucleus.pdf`，SHA-256 `14c7b250dab8dbf3ec57873547261fd75b7d1a41eb296694361c82193cc080a5`。 两本地容器均为同刊版，核验 PDF 1–6 逐页文字与渲染。 共享同一原文、阵列数据和页码。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2–3 的五环布置和效率按构型分开。无 BGO 的 16 coaxial + 8 clover 完整几何给约 65% 4π 覆盖和约 10% 全能峰效率（1332.5 keV）。PDF 2 Fig. 2 的 coaxial P/C 定义保留能窗。PDF 4 Fig. 7 是 ⁴⁵Sc 的实测 DSAM 对照。PDF 4–5 Fig. 8 为 ⁹⁵Tc 的符合矩阵 ADO。PDF 5 的 376 keV 偏振使用 ¹⁸⁷Au 的 Ref. 37 数据。

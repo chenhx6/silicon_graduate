@@ -1,0 +1,255 @@
+{
+  "batch": "20261127-timing-theory-e",
+  "created_at": "2026-11-27T02:55:44.061654+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000040",
+      "source": "knowledge/sources/regis-2012-cfd-time-walk.md",
+      "identity": "Régis et al., NIM A 684, 36–45 (2012). Publisher PDF.",
+      "coverage": [
+        "PDF 1–10（印 36–45）全文、图表与引用。"
+      ],
+      "boundary": [
+        "游走、时间谱宽、PRD 标定误差与寿命误差用各自条件记录。后续阵列沿用这一方法定义，探头与事件来源分别核对。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble",
+      "source_pdf": "raw/papers/detectors/detector/LaBr3/2012_Régis et al_The time-walk of analog constant fraction discriminators using very fast.pdf",
+      "sha256": "37348aee9aea42a0b2b5dba3bd80977b062e285134f46124ab631346256c9378",
+      "physical_pages": 10
+    },
+    {
+      "id": "catalogue:LIT-000041",
+      "source": "knowledge/sources/regis-2013-generalized-centroid-difference-arrays.md",
+      "identity": "Régis et al., NIM A 726, 191–202 (2013). Local ARTICLE IN PRESS proof.",
+      "coverage": [
+        "本地校样 PDF 1–12，§§1–5、Figs. 1–20、Table 1、引用。"
+      ],
+      "boundary": [
+        "校准级联与参考寿命跨方法共用。单一阵列 PRD 依赖响应接近、探头布置及峰下本底处理。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble",
+      "source_pdf": "raw/papers/detectors/detector/LaBr3/2013_Régis et al_The generalized centroid difference method for picosecond sensitive.pdf",
+      "sha256": "ea09964e919a9b41a7a57683bd684a6cc743170f2d1b8c6b021d6970b0305cfe",
+      "physical_pages": 12
+    },
+    {
+      "id": "catalogue:LIT-000042",
+      "source": "knowledge/sources/regis-2014-exill-fatima-ge-gated-fast-timing.md",
+      "identity": "Régis et al., NIM A 763 (2014), local uncorrected proof.",
+      "coverage": [
+        "本地校样 PDF 1–11，§§1–4、Figs. 1–15、Table 1 与参考文献。"
+      ],
+      "boundary": [
+        "两种 2⁺ 提取共享事件。文中演示子集、校准源及既有寿命各按来源登记。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble",
+      "source_pdf": "raw/papers/detectors/detector/LaBr3/2014_Régis et al_Germanium-gated γ–γ fast timing of excited states in fission fragments using.pdf",
+      "sha256": "87c4b89b97cc8e8bab39942067a4d44a24525a16ee5ff8e54c02b62569be99e0",
+      "physical_pages": 11
+    },
+    {
+      "id": "catalogue:LIT-000044",
+      "source": "knowledge/sources/regis-2016-multiplexed-fast-timing-walk.md",
+      "identity": "Régis et al., NIM A 823, 72–82 (2016). Publisher PDF.",
+      "coverage": [
+        "PDF 1–11（印 72–82）全文，§§1–6、Figs. 1–12、Table 1 与参考文献。"
+      ],
+      "boundary": [
+        "设备内部 ¹⁵²Eu／⁶⁰Co 校准与作为引文的 EXILL 数据分列。设置和几何需随实测数值报告。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble",
+      "source_pdf": "raw/papers/detectors/detector/LaBr3/2016_Régis et al_Reduced γ–γ time walk to below 50 ps using the multiplexed-start and.pdf",
+      "sha256": "c707441d1b60adc2d5587a204a21a2d06d659a3675010ed9f38db81f765efc1f",
+      "physical_pages": 11
+    },
+    {
+      "id": "catalogue:LIT-000174",
+      "source": "knowledge/sources/bally-2022-xe128-129-130-multireference-edf.md",
+      "identity": "Bally et al., arXiv:2207.13576v1. Local metadata identifies EPJA 58, 187, DOI 10.1140/epja/s10050-022-00833-4.",
+      "coverage": [
+        "本地 v1 PDF 1–26，§§1–4、附录 A、图表及关键引文。"
+      ],
+      "boundary": [
+        "原件没有新的实验采集。计算参考态截断与外部实验输入分别留证。"
+      ],
+      "disposition": "covered",
+      "worker": "Dirac",
+      "source_pdf": "raw/papers/gpt/query/20261106-spin-invariant-precedents/bally2022-xe128-129-130.pdf",
+      "sha256": "dd3eff605e0dc6e90167573ef5e8b3de6cb2746dc49ec5205431e00c50c13af8",
+      "physical_pages": 26
+    },
+    {
+      "id": "catalogue:LIT-000178",
+      "source": "knowledge/sources/nomura-2017-gogny-ibfm-odd-mass-gamma-soft.md",
+      "identity": "Nomura et al., arXiv:1710.03908v2. Local manifest associates PRC 96, 064316, DOI 10.1103/PhysRevC.96.064316.",
+      "coverage": [
+        "本地 v2 PDF 1–14 全篇，模型、偶芯、奇核、图表与引文。"
+      ],
+      "boundary": [
+        "前作 PRC 96, 014304 用不同 EDF 研究重合核区。本篇比较谱的趋势，未对前作的 q₂/q₃ 或 γ_eff 作数值复算。"
+      ],
+      "disposition": "covered",
+      "worker": "Dirac",
+      "source_pdf": "raw/papers/gpt/query/20261106-spin-invariant-precedents/nomura2017-gogny-gamma-soft.pdf",
+      "sha256": "dd998d94379e00dc7b055ee5be3ebf10922582af93f613d6184bc05b56876c69",
+      "physical_pages": 14
+    },
+    {
+      "id": "catalogue:LIT-000427",
+      "source": "knowledge/sources/gizon-1977-ba129-angular-distribution-primary.md",
+      "identity": "Gizon, Gizon and Meyer-ter-Vehn, NPA 277, 464–476 (1977), DOI 10.1016/0375-9474(77)90714-X. Scanned publisher main PDF.",
+      "coverage": [
+        "PDF 1–13 (printed 464–476), prior publisher archive full text and key original tables reconciled."
+      ],
+      "boundary": [
+        "Original tabulated angular-coefficient errors must remain separate from evaluated errors. The later polarimetry paper is a different source."
+      ],
+      "disposition": "covered",
+      "worker": "manager",
+      "source_pdf": "raw/papers/gpt/query/20261105-ba129-model-readiness/gizon1977-main.pdf",
+      "sha256": "017e979cea49b19daecc5394a5ca90e460ad0cb2c1a60edaf510e3b7dc446795",
+      "physical_pages": 13
+    },
+    {
+      "id": "catalogue:LIT-000458",
+      "source": "knowledge/sources/he-chuangye-2006-magnetic-chiral-106ag.md",
+      "identity": "贺创业，中国原子能科学研究院博士学位论文《¹⁰⁶Ag 磁转动与手征转动实验研究》，2006，单册扫描。",
+      "coverage": [
+        "PDF 1–137（印刷正文及末料 1–125），题名、摘要、目录、第 1–9 章、引文、致谢及发表清单。"
+      ],
+      "boundary": [
+        "Old Jerrestam level scheme and the later Rather campaign remain separate. Journal branches listed in PDF 135–137 require their own provenance check where original full text is available."
+      ],
+      "disposition": "covered",
+      "worker": "Sartre",
+      "source_pdf": "raw/theses/degree-dissertation/贺创业.pdf",
+      "sha256": "0c5d72b8760695260223425fa14a8c12f8402f140e697afadc9c7c5eb9763bde",
+      "physical_pages": 137
+    },
+    {
+      "id": "catalogue:LIT-000038",
+      "source": "knowledge/sources/eberth-simpson-2008-germanium-tracking-review.md",
+      "identity": "Eberth and Simpson, Prog. Part. Nucl. Phys. 60, 283–337 (2008), Elsevier review.",
+      "coverage": [
+        "PDF 1–55（印 283–337）全文，包含 Ge 材料、阵列、位置估计、跟踪与参考文献。"
+      ],
+      "boundary": [
+        "PDF 15 的 2346.4/2364.4 keV 存在文字异文。PDF 52 Fig. 41 与 53 对当时方案的三联模块数分别写 3 和 5，实际配置回对应装置。"
+      ],
+      "disposition": "covered",
+      "worker": "Pauli",
+      "source_pdf": "raw/papers/detectors/detector/2008_Eberth_Simpson_From Ge(Li) detectors to gamma-ray tracking arrays–50 years of gamma.pdf",
+      "sha256": "c9ae7bbeb9b527d3adebb044882432f51c8d87fcd14a01239ed62ec30f33d626",
+      "physical_pages": 55
+    },
+    {
+      "id": "catalogue:LIT-000519",
+      "source": "knowledge/sources/li-2025-imp-dragon-hpge-array.md",
+      "identity": "Li et al., NIM A 1080, 170804 (2025), DOI 10.1016/j.nima.2025.170804, Elsevier publisher PDF.",
+      "coverage": [
+        "PDF 1–6 complete, §§1–4, Figs. 1–8 and references."
+      ],
+      "boundary": [
+        "ADO calibrations are geometry and efficiency dependent. The 187Au example reuses a prior experiment; LIT-000035 is another container for this same article."
+      ],
+      "disposition": "covered",
+      "worker": "Descartes",
+      "source_pdf": "raw/papers/IMP-DRAGON A High-Purity Germanium detector array for probing the atomic nucleus.pdf",
+      "sha256": "4841f20f455670f028dbce8e0c1cd349aa0529635d4ffb4815071d8795392cec",
+      "physical_pages": 6
+    },
+    {
+      "id": "catalogue:LIT-000479",
+      "source": "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+      "identity": "James, Twin and Butler, NIM 115, 105–113 (1974), DOI 10.1016/0029-554X(74)90433-9, publisher scan.",
+      "coverage": [
+        "PDF 1–9 (print 105–113), §§1–9, Figs. 1–6, Tables 1–3 and references."
+      ],
+      "boundary": [
+        "No new experimental mixing ratio. Correlations from shared peaks and normalization remain relevant."
+      ],
+      "disposition": "covered",
+      "worker": "Descartes",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/DCO/1974_James et al_The statistical analysis of γ-ray angular correlation experiments.pdf",
+      "sha256": "c629c42b34570b1a03f450d63feed892f22df864732a47ab02bfa2d9e2a8101a",
+      "physical_pages": 9
+    },
+    {
+      "id": "catalogue:LIT-000486",
+      "source": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+      "identity": "G. D. Jones, NIM A 491, 452–459 (2002), DOI 10.1016/S0168-9002(02)01235-4, publisher PDF.",
+      "coverage": [
+        "PDF 1–8 (print 452–459), §§1–8, Fig. 1, Table 1, Eqs. (1)–(12), references."
+      ],
+      "boundary": [
+        "Exact local second copy and reused Jones 1998 experimental angular coefficients do not create independent evidence."
+      ],
+      "disposition": "covered",
+      "worker": "Descartes",
+      "source_pdf": "raw/papers/2002_Jones_Calibration of Compton polarimeters.pdf",
+      "sha256": "96157e69e7d77f038d372f20448f59f52b89b25fdd90ede21b88128b60688475",
+      "physical_pages": 8
+    },
+    {
+      "id": "catalogue:LIT-000473",
+      "source": "knowledge/sources/iliadis-friman-gayer-2021-polarization-direction-correlations.md",
+      "identity": "Iliadis and Friman-Gayer, EPJA 57, 190 (2021), DOI 10.1140/epja/s10050-021-00472-1, journal version.",
+      "coverage": [
+        "Publisher PDF 1–39, §§1–9, both appendices Figs. 12–51 and references."
+      ],
+      "boundary": [
+        "Coverage includes visual figure and caption review, with no numerical replay of 3D grids. Alongside LIT-000069, this is one theory work."
+      ],
+      "disposition": "covered",
+      "worker": "Descartes",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/iliadis-friman-gayer-2021-vor-4c0b226de8e5.pdf",
+      "sha256": "4c0b226de8e5356406122f7610d3d493a171487579b9b6cf879e8f993a30657f",
+      "physical_pages": 39
+    },
+    {
+      "id": "catalogue:LIT-000302",
+      "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "identity": "Bohr and Mottelson, Nuclear Structure II, 1975 original, local World Scientific 1998 reissue, 772 physical pages.",
+      "coverage": [
+        "PDF 433–444 (printed 411–422), end of §6-4c, §6-4d, §§6-5a–6-5b; Figs. 6-7–6-8."
+      ],
+      "boundary": [
+        "The effective-charge terms and E1 corrections shown here are model outputs; different sum rules have different weights."
+      ],
+      "disposition": "partial",
+      "worker": "Pascal",
+      "source_pdf": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "physical_pages": 772
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 495,
+    "duplicate-or-related-version": 18,
+    "duplicate-excerpt-linked-to-canonical": 5,
+    "pending-identity-and-coverage": 258,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 6,
+    "existing-source-coverage-to-audit": 187,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 1,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 445,
+  "credited_works": 13,
+  "credited_primary_pages": 351,
+  "partial_volume_pages": 12,
+  "next_action": "Continue Bohr–Mottelson II PDF 445 (printed 423) and verify the next independently assigned originals.",
+  "uncredited": []
+}

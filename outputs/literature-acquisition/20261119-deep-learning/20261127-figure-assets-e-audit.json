@@ -1,0 +1,248 @@
+{
+  "batch": "20261127-figure-assets-e",
+  "created_at": "2026-11-27T02:57:12.666009+00:00",
+  "queue_counts": {
+    "scientific-reading-covered": 495,
+    "duplicate-or-related-version": 19,
+    "duplicate-excerpt-linked-to-canonical": 7,
+    "pending-identity-and-coverage": 236,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 6,
+    "existing-source-coverage-to-audit": 187,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 1,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 19,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 423,
+  "records": [
+    {
+      "work_id": "catalogue:LIT-000189",
+      "canonical_work_id": "catalogue:LIT-000027",
+      "source": "knowledge/sources/frauendorf-2024-chiral-wobbling-commentary.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-chiral-wobbling/arxiv-2405-20802/source/Br74bands.pdf",
+      "sha256": "b08405d7d9205af797334920c70df1feff661c6520c894d0e20f3502f26db603",
+      "physical_pages": 1,
+      "disposition": "figure-asset-linked-to-canonical",
+      "locator": "TeX 137–142. Published PDF 3 Fig. 3. ⁷⁴Br level scheme reproduced from Guo PRL 132, 092501."
+    },
+    {
+      "work_id": "catalogue:LIT-000190",
+      "canonical_work_id": "catalogue:LIT-000027",
+      "source": "knowledge/sources/frauendorf-2024-chiral-wobbling-commentary.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-chiral-wobbling/arxiv-2405-20802/source/Carvon.pdf",
+      "sha256": "fe7710058e81dd7f8bdd61cc2d1ec5964bc52c2626aa41d8ebef35efb084753c",
+      "physical_pages": 1,
+      "disposition": "figure-asset-linked-to-canonical",
+      "locator": "TeX 38–43. Published PDF 2 Fig. 1. Molecular chirality illustration."
+    },
+    {
+      "work_id": "catalogue:LIT-000191",
+      "canonical_work_id": "catalogue:LIT-000027",
+      "source": "knowledge/sources/frauendorf-2024-chiral-wobbling-commentary.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-chiral-wobbling/arxiv-2405-20802/source/fig_wob_ch.pdf",
+      "sha256": "d72de4d2cd65d24c6faf80107ed3b1bcb249d1ffee074ad9495027c6928e5aa7",
+      "physical_pages": 1,
+      "disposition": "figure-asset-linked-to-canonical",
+      "locator": "TeX 67–74. Published PDF 2 Fig. 2. Schematic angular-momentum geometry, without independent nuclear data."
+    },
+    {
+      "work_id": "catalogue:LIT-000192",
+      "canonical_work_id": "catalogue:LIT-000027",
+      "source": "knowledge/sources/frauendorf-2024-chiral-wobbling-commentary.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-chiral-wobbling/arxiv-2405-20802/source/qb.pdf",
+      "sha256": "fc5bec806da2a5b9249955b8814b931b1acb08d2f78c9fdaabe8e268c3c2ccd3",
+      "physical_pages": 3,
+      "disposition": "duplicate-or-related-version",
+      "locator": "PDF 1 identifies S. Frauendorf and the same title. PDF 1–3 contain the complete alternative compilation of the commentary, including Figs. 1–3; journal version has four pages."
+    },
+    {
+      "work_id": "catalogue:LIT-000193",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/105Pd-energy.pdf",
+      "sha256": "1e42ae11b5b17f3795ab70eed8f26a13e01a7613054c33c91491f45d4909a15a",
+      "physical_pages": 1,
+      "disposition": "figure-asset-linked-to-canonical",
+      "locator": "TeX L720 `f:105Pd`；arXiv PDF 11 Fig. 16；书 p. 38 Fig. 2.16。¹⁰⁵Pd 的转频、减转子参照能级与摆动能插图；父章重刊 Ref. [32] 的实验点和 QTR（图中 PRM）对照。"
+    },
+    {
+      "work_id": "catalogue:LIT-000194",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/130BaBE2.pdf",
+      "sha256": "0d93ece4ebe30c1809a22952aa1edb8e43cd25bfdabffaaf05dfb45b4e6a8a3a",
+      "physical_pages": 1,
+      "disposition": "figure-asset-linked-to-canonical",
+      "locator": "TeX 无激活的 includegraphics，父章无独立图号。源码包的 ¹³⁰Ba 裁切表图，含实验／PRM 的带外与带内 E2 比值，缺逐行跃迁身份。目视对照 arXiv PDF 11、18，Fig. 17 为能量图，Fig. 28 的 E2 子图是 000221 的绝对强度曲线；此表无可确认的章内面板。"
+    },
+    {
+      "work_id": "catalogue:LIT-000195",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/130BaEwob.pdf",
+      "sha256": "3ffa339ef52b9000a75fd642de2d6b8f44ec935f934e6801ec5daf8b6e064539",
+      "physical_pages": 1,
+      "disposition": "figure-asset-linked-to-canonical",
+      "locator": "TeX L777 `f:130BaEwob`；arXiv PDF 11 Fig. 17；书 p. 39 Fig. 2.17。¹³⁰Ba S1、S1′、AC 带的转频、减参照能级及摆动能内嵌图。实验与 QTR 对照重刊自 Ref. [40]；与 000196 共用该引用谱系。"
+    },
+    {
+      "work_id": "catalogue:LIT-000196",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/130BaSCS.pdf",
+      "sha256": "f15fca9a607d0cebd0eeb603dc8189079bfd51f40d4a44ab773d9a9a759e551e",
+      "physical_pages": 1,
+      "disposition": "figure-asset-linked-to-canonical",
+      "locator": "TeX L808 `f:130BaSCS`；arXiv PDF 12 Fig. 18；书 p. 40 Fig. 2.18。¹³⁰Ba 的角动量方向 SCS 概率图，来自 Ref. [40] 的计算，图注按 Fig. 17 的自旋／带号解释。图注开头自指 Fig. 18，归属由 TeX 与相邻图注核定。"
+    },
+    {
+      "work_id": "catalogue:LIT-000197",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/130BaSSS.pdf",
+      "sha256": "992855859962598f7d0797d8c568c99088e978b4bfd69a5efcb1abf7374dc40f",
+      "physical_pages": 1,
+      "disposition": "figure-asset-linked-to-canonical",
+      "locator": "TeX L1172 `f:130BaSSS`；arXiv PDF 18 Fig. 29；书 p. 50 Fig. 2.29。¹³⁰Ba 的 `n=0–3` SSS 概率密度，PTR 实线与 CH 虚线，重刊 Ref. [42]。与 000196 的 SCS 及 000221/227 的能量、强度比较分开定位。"
+    },
+    {
+      "work_id": "catalogue:LIT-000198",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/133La.pdf",
+      "sha256": "b2437481d5479b6bdf92e90082aefa932232a41794a4dd77a4d047b3f2a97281",
+      "physical_pages": 1,
+      "disposition": "figure-asset-linked-to-canonical",
+      "locator": "TeX L1016 `f:133La`；arXiv PDF 15 Fig. 25；书 p. 46 Fig. 2.25。¹³³La/¹³⁵Pr 摆动与旋称伙伴能量的 QTR 比较，重刊 Ref. [44]；图内数据与其他重绘模型比较可共享谱学输入。"
+    },
+    {
+      "work_id": "catalogue:LIT-000199",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/133la_135pr_131cs_n1-eps-converted-to.pdf",
+      "sha256": "0a8418de1995901f40e0498d5bf4ea7e1fb3817e196581f0056c0b6ba8f41840",
+      "physical_pages": 1,
+      "disposition": "figure-asset-linked-to-canonical",
+      "locator": "TeX L1456 `f:TPSM_1335pr-133la-131cs_EW`；arXiv PDF 23 Fig. 40；书 p. 56 Fig. 2.40。本地 EPS 的 PDF 转换件。TeX 直接引用 `133la_135pr_131cs_n1.eps`，原 EPS 实算 SHA-256 `ddbfed28ec99408ee1b60d8b692afd08a8c51549dca0581682125361a2daa393`；Ghostscript PDF 的 696×492 pt 与 EPS BoundingBox 20 37 716 529 相符，目视图例与父页一致。¹³¹Cs、¹³³La、¹³⁵Pr 的实验点与第 12 章 TPSM 对照；核素以图例为准，母章正文的同中子素标注异文见 source。"
+    },
+    {
+      "work_id": "catalogue:LIT-000200",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/133la_BE2_Intraband.pdf",
+      "sha256": "1ceeeacf03a7d018e763dbbff0526dbb4157172084e38a96197266b4a1fef231",
+      "physical_pages": 1,
+      "disposition": "figure-asset-linked-to-canonical",
+      "locator": "TeX 无激活的 includegraphics，父章无独立图号。源码包备用图。实际纵轴为 ¹³³La 的绝对 `B(E2; I→I−1)`，LW/SP 到 yrast；文件名 `Intraband` 不能代替轴注。Fig. 41 用 000201 的归一化比值图。"
+    },
+    {
+      "work_id": "catalogue:LIT-000201",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/133la_BE2_o_be2_in.pdf",
+      "sha256": "28b1a9ca2fd846b57d548d378631c3e0e7737e7d1eacaf9c85c2342d7c60c2ab",
+      "physical_pages": 1,
+      "disposition": "figure-asset-linked-to-canonical",
+      "locator": "TeX L1461 `f:TPSM_133La_BE2iout/in`；arXiv PDF 23 Fig. 41；书 p. 56 Fig. 2.41。¹³³La 的 `B(E2)out/B(E2)in`，父章引第 12 章并致谢 G. Bhat；与 000200 的绝对 E2 图及 000202/203 的 M1 图各自保留身份。"
+    },
+    {
+      "work_id": "catalogue:LIT-000202",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/133la_Bm1_Intraband.pdf",
+      "sha256": "8b688e515d41696c1212d579f0d0f090636edc40892c114a9775933c2384b4ba",
+      "physical_pages": 1,
+      "disposition": "figure-asset-linked-to-canonical",
+      "locator": "TeX 无激活的 includegraphics，父章无独立图号。源码包备用图。实际纵轴为 ¹³³La 的绝对 `B(M1; I→I−1)`，LW/SP 到 yrast 的 TPSM 曲线；未确认章内面板。"
+    },
+    {
+      "work_id": "catalogue:LIT-000203",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/133la_Bm1_o_be2_in.pdf",
+      "sha256": "606ae3fa521dbb89ce487561928223ff9af22a01dd44fee5f5affb8b55307d37",
+      "physical_pages": 1,
+      "disposition": "figure-asset-linked-to-canonical",
+      "locator": "TeX 无激活的 includegraphics，父章无独立图号。源码包备用图。¹³³La `B(M1)out/B(E2)in`，有 LW/SP TPSM 曲线及标作 LW 实验的点；未确认章内面板，实验点按原谱学出处另证。"
+    },
+    {
+      "work_id": "catalogue:LIT-000204",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/135Pr-Eclass.pdf",
+      "sha256": "41d1b1e18c3f814cbef7ea9badfa8bacb3e67b4b6a8f962e1f12f5a126afc869",
+      "physical_pages": 1,
+      "disposition": "figure-asset-linked-to-canonical",
+      "locator": "TeX L840 `f:135PrEad`；arXiv PDF 12 Fig. 19；书 p. 41 Fig. 2.19。¹³⁵Pr 的绝热经典能量等值线，分 TW、FM、LW；白叉为极小、红叉为鞍点。与 000205/252 属相关模型表达。"
+    },
+    {
+      "work_id": "catalogue:LIT-000205",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/135Pr-angles.pdf",
+      "sha256": "bbaac2340d028ebe5eaf0955048d76647146bf448b2911f2481f7809877058bc",
+      "physical_pages": 1,
+      "disposition": "figure-asset-linked-to-canonical",
+      "locator": "TeX L851 `f:135Pr-angles`；arXiv PDF 12 Fig. 20；书 p. 41 Fig. 2.20。¹³⁵Pr 绝热能量极小的角随自旋变化，图注明示改绘自 Ref. [4]，并回指 Fig. 19 白叉；保持角定义的原文定位。"
+    },
+    {
+      "work_id": "catalogue:LIT-000206",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/135Pr-be2.pdf",
+      "sha256": "411f28abacc53979c3f48a07769e839aad56f88fe087fddc4826fc231dd32069",
+      "physical_pages": 1,
+      "disposition": "figure-asset-linked-to-canonical",
+      "locator": "TeX L662 `f:135PrBE`；arXiv PDF 10 Fig. 14；书 p. 36 Fig. 2.14。¹³⁵Pr 多带 E2 带外／带内比，重刊 Ref. [30] 的 TPSM、QTR 与实验比较；争议混合比取值回原实验和邻文核查。"
+    },
+    {
+      "work_id": "catalogue:LIT-000207",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/135Pr-energy1.pdf",
+      "sha256": "8910ae4b6adaacb82cc6245624e311c6c1c588bed38b1c8e287b9c6cabb3f740",
+      "physical_pages": 1,
+      "disposition": "figure-asset-linked-to-canonical",
+      "locator": "TeX L639 `f:135PrEwobPRC`；arXiv PDF 9 Fig. 12；书 p. 36 Fig. 2.12。¹³⁵Pr 较早 QTR 的摆动能与实验，重刊 Ref. [27]；Fig. 12 参数与 000208/210 多模型对照所用设置各自保留。"
+    },
+    {
+      "work_id": "catalogue:LIT-000208",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/135Pr-energy2.pdf",
+      "sha256": "2687bfc3206f170e2376fd3b25c96ded874bfeb44911798cc608d2826eb363d2",
+      "physical_pages": 1,
+      "disposition": "figure-asset-linked-to-canonical",
+      "locator": "TeX L654 `f:135PrEwob`；arXiv PDF 9 Fig. 13；书 p. 36 Fig. 2.13。¹³⁵Pr 的 TW1、TW2、yrast、SP 能级减转子贡献，重刊 Ref. [30]，图中箭头作摆动能差示意。与 000206 共享该引用，和 000210 的摆动能图相互关联。"
+    },
+    {
+      "work_id": "catalogue:LIT-000109",
+      "canonical_work_id": "catalogue:LIT-000427",
+      "source": "knowledge/sources/gizon-1977-ba129-angular-distribution-primary.md",
+      "raw_file": "raw/papers/gpt/query/20261105-ba129-primary/gizon1977-api-original.pdf",
+      "sha256": "81b50ab6e29e7ddeb4ac1171861d2df39b96d0282c58b511d3ff1a9421d44018",
+      "physical_pages": 1,
+      "disposition": "duplicate-excerpt-linked-to-canonical",
+      "locator": "刊文首张印刷页 464，文字和渲染与 13 页主件 PDF 1 一致。"
+    },
+    {
+      "work_id": "catalogue:LIT-000111",
+      "canonical_work_id": "catalogue:LIT-000427",
+      "source": "knowledge/sources/gizon-1977-ba129-angular-distribution-primary.md",
+      "raw_file": "raw/papers/gpt/query/20261105-ba129-primary/gizon1977-full-view.pdf",
+      "sha256": "5f3d0baba4fa9345e135e29e384e653188db60da192fa81711cf9e25dd787772",
+      "physical_pages": 1,
+      "disposition": "duplicate-excerpt-linked-to-canonical",
+      "locator": "刊文首张印刷页 464，文字和渲染与 13 页主件 PDF 1 一致。"
+    }
+  ],
+  "credited_works": 0,
+  "credited_primary_pages": 0
+}

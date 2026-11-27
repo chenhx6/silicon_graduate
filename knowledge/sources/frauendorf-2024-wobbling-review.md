@@ -156,3 +156,7 @@ PDF 20 右栏将 Matsuzaki 等对 \(^{163,167}\mathrm{Lu}\) 的 \(i_{13/2}\) yra
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | F24-D22-R108-1 | Review以TPSM同一输入再现134Ce的even-I-down交错和135Pr的wobbling趋势，主张配置混合可包含γ涨落；并比较phenomenologicalsoftcore/IBFM所得Ewob上升而与所采实验下降不同。后者精确IBFM能量由Nomura私人通信提供，非本任务公开producer重算。此为作者的模型比较/解释，不能将固定basisγ当绝对刚性或把γ-soft芯普适排除wobbling；也不是独立实验已裁决冲突δ。关于core–particle Pauli“not ensured”的批评须与NOM22实际exchange处理一起读，不改报所有模型完全无Pauli。 | competing-model-and-softness-boundary | direct-review-and-cross-sourcecomparison | ReviewPDF24–25Figs44/45andTPSMparagraph;NOM22PDF3–4Eq5/exchangeparagraph | true |
+
+## 2026-11-27 — 源码包与刊版图件对照
+
+arXiv:2405.02747 源包的 ¹³⁰Ba `130BaEwob.pdf` 和 `130BaSCS.pdf` 对应 Fig. 17/18（书 Fig. 2.17/2.18），共用 Ref. [40]，区分能量与角动量指向概率。¹³³La 的 Fig. 41（书 Fig. 2.41）用归一化 E2 比值图，未激活的 `133la_BE2_Intraband.pdf` 实为绝对强度图。Fig. 40（书 Fig. 2.40）的 ¹³¹Cs／¹³³La／¹³⁵Pr 对比取原 EPS，另有同图 PDF 转换件。具体文件哈希和 locator 见正式队列的 LIT-000193–000208。

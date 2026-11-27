@@ -3,7 +3,7 @@ type: source
 title: "James, Twin and Butler 1974 - Statistical analysis of gamma-ray angular-correlation experiments"
 aliases: [James Twin Butler 1974 angular-correlation statistics]
 created: 2026-09-21
-updated: 2026-10-18
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: method-paper
@@ -202,3 +202,7 @@ H_{90}=\frac{-3(4-u)-\sqrt{30}(4-u)\delta+(15-10u)\delta^2}
 另用完整isotropic density作失败控制，W=1、P=0且对δ无single-photon信息，误差<2×10^-12；它不属于上述受限family，说明布居/response条件不能丢。pure-E2的P90另通过源式(12a2+5a4)/(8−4a2+3a4)检查。所有密度非负、trace1、有限角intensity非负与mixed/pure controls均通过；无raw/旧helper修改。
 
 复算[冻结理论问题](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/jt74-nonregular-before-analysis.md)、[输入/hash](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/jt74-nonregular-input.json)、[SymPy独立推导/trace程序](../../system/scripts/day16_jt74_nonregular_profile.py)、[exact式/rank/quad/幂次结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/jt74-nonregular-profile.json)。初次因环境缺SymPy退出1；官方PyPI的SymPy1.14.0及依赖只装repo tmp，原helpers hash不变，随后actual analysis exit0。重放须令PYTHONPATH指向本run的tmp/day16-jt74/python-deps，第三方包不stage，不改全局环境。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2–4 式 (1)、§§4–5 把强度／偏振、独立 δ 和模型取向估计纳入比较，并允许协方差。Fig. 2 的不同参数区域可有不同辨识性。PDF 4–5 给 ν=n−rank(X)，取决于实际设计矩阵。Table 3 与下游软件采用的区间约定须以同一概率和自由度比较。
