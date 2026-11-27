@@ -3,7 +3,7 @@ type: source
 title: "Hinohara 2015：NG 惯量、零频响应及出版版本核查"
 aliases: [Hinohara 2015 Nambu Goldstone inertia, pairing rotational FAM]
 created: 2026-11-08
-updated: 2026-11-08
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: journal-article-theory
@@ -148,3 +148,11 @@ P2/P3：没有用户逐项审核事件；citation key 不猜测；原件不进�
 - 具体案例、真实表与边界：[[doctoral-r2-inertia-evidence-and-band-reconstruction-20261108]]。
 - 当前不另建能带或实验页；本来源中的实核数值与模型条件按上文保留，
   不将理论参数登记成新的测量。
+
+## 2026-11-27 — 本地关联载体核对
+
+同一作品的另一版本，正文范围单列。已核版本承接一次研究计数。
+
+- 路径 `raw/papers/gpt/query/20261108-r2-t05-response-definitions/aps-publication.pdf`
+- SHA-256 `764d644a2349235027e15c320d78f15fcd7d8fd264ebe6412fd2b80e1a625f86`
+- 实读 通读 PDF 第 1–13 页所给文本，覆盖 §§I–VIII、式 (1)–(82) 的正文脉络、表 I、图 1–6 图注、致谢和参考文献 [1]–[73]。关键定义与数值已按页定位。排版字符、曲线和完整推导未逐项核验。

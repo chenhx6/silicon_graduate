@@ -4,11 +4,11 @@ title: "Craig Mehl 2015 MSc thesis: Developing a sorting code for Coulomb excita
 title_original: "Developing a sorting code for Coulomb excitation data analysis"
 aliases: [Mehl iThemba S3 sorting thesis, AFRODITE S3 Doppler correction thesis]
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: thesis-method
-reading_depth: skimmed
+reading_depth: read
 authors: [Craig Mehl]
 advisor: [J. N. Orce, P. M. Jones, S. Triambak]
 journal: "University of the Western Cape MSc thesis"
@@ -100,3 +100,7 @@ Mehl's source is a distinct `20Ne+194Pt` acquisition from Mavela's 2019 `32S+194
 ## Human Review Triage
 
 - P1: confirm no geometry or velocity value is transferred from the `20Ne` run to Mavela's `32S` run; all source comparisons remain method-only.
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 68–84（印 57–73）Figs. 5.3、5.6–5.18 区分 ²⁰Ne 两次采集的同步和符合峰面积提取失败，以及 ⁴⁰Ar 独立对照。²⁰Ne 未得到可输入 GOSIA 的目标 γ 线产额，⁴⁰Ar 的 Qₛ 留后续，由本文的谱不能补写. PDF 116、119 的排序示例常数与实际 run 几何需分别读取，PDF 133–137 的运动学打印异文按原页保留。

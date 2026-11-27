@@ -223,3 +223,11 @@ P0: none identified（新身份/零点歧义均已隔离，未混作actual input
 刊版 PDF 1–3。¹¹⁶Cd(²²Ne,5n) 在 112 MeV 两次采集，合计约 4.1×10⁹ 个至少四重符合。711、779 keV 连线的角分布支持 M1/E2，1074、1146 keV 的 DCO 与 stretched E2 相容。两对候选无寿命验证。PDF 3–4 Figs. 2–3、Table I 将 TPRM 输入的约束 RMF 形变与实验比值区分。
 
 刊版 PDF 2 Fig. 1 的带 5 高端标 600、1173 keV，CHORUS PDF 3 Fig. 1 标 602、1174 keV。刊版图注的 37.2 keV 指最低 9/2⁻ 相对基态的能量，表 I 带头列的数值使用该表的定义。
+
+## 2026-11-27 — 本地关联载体核对
+
+同一作品的另一版本，正文范围单列。已核版本承接一次研究计数。
+
+- 路径 `raw/papers/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 2.pdf`
+- SHA-256 `91ec60dfa43e7d8748276e18327028d8eabdf6c5047682726b0da4a656d5e837`
+- 实读 通读物理第1–8页的可提取文字，涵盖封面、正文、图1–3图注、表I、致谢及参考文献[1]–[46]。谱峰、能级连线、数据点和模型曲线尚待目视核查。

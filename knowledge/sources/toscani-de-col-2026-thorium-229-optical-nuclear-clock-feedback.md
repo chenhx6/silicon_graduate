@@ -3,7 +3,7 @@ type: source
 title: "A thorium-229 optical nuclear clock with feedback loop"
 aliases: ["toscani-de-col-2026-thorium-229-optical-nuclear-clock-feedback", "L. Toscani De Col 2026"]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
@@ -59,3 +59,25 @@ Operates on a room-temperature solid crystal where transition linewidth is ~100 
 
 - [[toscani-de-col-2026-thorium-229-optical-nuclear-clock-feedback]]
 - [[nuclear-clock-isomer-learning-and-transfer-20261107]]
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- 物理第1–2页（印刷897–898），首页、引言、Experimental set-up、Clock operation 开头与图1。
+- 物理第3–6页（印刷899–902），Clock operation 续、Clock performance、暗物质约束、改进展望、图2–4、Online content 与参考文献1–59。
+- 物理第7–8页，Methods、数据可用性、参考文献60–69与文末声明。
+- 物理第9–10页，扩展数据图1–2的图注及可提取图中文字。
+- 本次获取的具体覆盖：逐页读完物理第1–10页所供文本，包括论文正文、Methods、参考文献、图1–4及扩展数据图1–2的图注。图像和版面均待核。建议接受既有条目的同版书目，修正关键主张和定位并完成关键图核后再验收既有深读条目。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A20-1 | 作者用室温 Th:CaF₂ 的 148 nm 核吸收误差信号闭环校正钟激光，并与 BEV 的 ¹⁷¹Yb⁺ 单离子钟比较。论文报告两种核反馈积分时间，分别为20 s和30 min，并在连续运行中达到低 10⁻¹⁴ 量级的重叠 Allan 偏差。 | 实验报告 | source-reported | 物理第2页（印刷898）图1a、b及装置正文，物理第3页（印刷899）图2与 Clock performance。图2的长平均时间端点待图核。 | true |
+| A20-2 | 对 T = 20 s、总长约23 h的频率比数据作线性拟合，得到漂移斜率 (2 ± 4) × 10⁻¹⁴ d⁻¹，与零相容。 | 实验数据拟合 | source-reported | 物理第4页（印刷900）Constraining dark matter couplings 末段。物理第5页图4a使用同批数据，物理第8页 Methods 给出采集起止时刻。 | true |
+| A20-3 | 四个晶体位置的五次测量中，线心最大差约1.7 kHz，高于约0.13 kHz的预期统计散布。回到同一位置的第2、4次扫描所得线心相容。 | 实验观测 | source-reported | 物理第3页（印刷899）Clock performance，物理第4页（印刷900）图3a及图3b内嵌表。扫描编号与数值待图核。 | true |
+| A20-4 | 在所设超轻标量暗物质模型下，作者将频率比的振荡幅度上限转为光子、QCD尺度及轻夸克质量耦合 d_e、d_g 和 d_{m_q} 的排除带，并用 10³、10⁴、10⁵ 三组钍核灵敏度展示模型依赖。 | 模型依赖推断 | source-reported | 物理第4页（印刷900）耦合换算正文，物理第5页（印刷901）图4b–d，物理第7–8页 Methods。排除带标签与换算式待核。 | true |
+
+暗物质分析用约23 h拍频数据，每循环抽取一点。Lomb–Scargle 谱无峰超过经多重搜索校正的5%全局检测阈值。作者另用模拟求各频点的局部95%振幅排除线。耦合换算采用局域暗物质密度0.4 GeV cm⁻³、随机涨落修正及核灵敏度假设。见物理第4–5、7–8页。
+
+- 将摘要和 T26-2 的“PTB ¹⁷¹Yb⁺ 钟”改为“经光纤链路连接的 BEV ¹⁷¹Yb⁺ 单离子钟”。10 Hz 是吸收或误差信号探测的调制频率，核反馈积分时间记为 T = 20 s 或30 min，见物理第2–3、7页。
+- T26-1 改引物理第3页（印刷899）图2。将 3 × 10⁻¹²(τ/s)⁻¹ᐟ² 标为散粒噪声趋势，该式代入一天约为 10⁻¹⁴。单列摘要中“接近 10⁻¹⁵”的措辞，待核图2末端后确定可入库的实测值。
+- T26-2 改引物理第4页（印刷900）暗物质约束末段。图3记录晶体位置相关线心，图4a对应约23 h的搜振荡数据。
+- T26-3 改引物理第5页（印刷901）图4和物理第8页 Methods。采用 d_{m_q}，区分全局5%阈值、逐频点局部95%振幅上限及模型依赖的耦合排除带。图4a图注的否定措辞以第8页所述“排除高于上限的振荡”为准。

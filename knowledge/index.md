@@ -790,6 +790,21 @@ u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶
 - [[cavallaro-2019-giant-pairing-vibration]] — 巨对振动跨质量区运动学与连续谱阻尼失效。
 - [[colo-1995-isospin-mixing-gdr]] — 库仑同位旋混合与 GDR 禁戒 E1 的模型边界。
 - [[enders-1999-scissors-mode-saturation]] — 剪刀模低位 M1 强度、惯量与和规则的系统比较。
+- [[tb160-oriented-nuclei-mixing-ratios]] — Multipole mixing ratios of gamma rays emitted in the decay of polarized 160Tb。
+- [[pd100-high-spin-structure]] — Structure of high-spin states in 100Pd。
+- [[ir191-ir193-low-excitation-electromagnetic-properties]] — Electromagnetic properties of low-excitation states in ¹⁹¹Ir and ¹⁹³Ir and supersymmetry schemes。
+- [[govor-2001-gd158-multipole-mixtures]] — Multipole Mixtures in Gamma Transitions in ¹⁵⁸Gd from the (n, n′γ) Reaction。
+- [[pb197-pb198-magnetic-rotation]] — Magnetic rotation in ¹⁹⁷Pb and ¹⁹⁸Pb。
+- [[afanasjev-ring-2000-time-odd-rotating-frame]] — Time-odd mean fields in the rotating frame: microscopic nature of nuclear magnetism.。
+- [[i123-i125-nuclear-orientation-magnetic-resonance]] — Nuclear polarization and nuclear magnetic resonance of ¹²³I and ¹²⁵I。
+- [[xe127-two-neutron-alignment]] — Two-Neutron Alignment in 127Xe。
+- [[finite-detector-area-gamma-polarization]] — Determination of mean theoretical γ-ray linear polarizations over large area detectors。
+- [[sm152-scissors-mode-e2-decay]] — E2 decay characteristics of the M1 scissors mode of ¹⁵²Sm。
+- [[os192-gamma-gamma-directional-correlation]] — Gamma-Gamma Directional Correlation Measurements in ¹⁹²Os。
+- [[po212-shell-model-reinterpretation]] — Reinterpretation of excited states in ²¹²Po: Shell-model multiplets rather than α-cluster states。
+- [[te-quasigamma-bands-spectroscopy]] — Observation of quasi-γ bands in Te nuclei。
+- [[bradley-1986-fe56-nuclear-orientation]] — Level spins and transition multipolarities in 56Fe studied by nuclear orientation of 56Co。
+- [[gayer-2019-ar40-magnetic-dipole-response]] — Experimental M1 response of ⁴⁰Ar as a benchmark for neutrino-nucleus scattering calculations。
 - [[marshak-1983-mixing-ratios-nuclear-orientation]] — Precise Gamma-Ray Multipole Mixing Ratios Using Nuclear Orientation。
 - [[beck-2018-e2-properties-of-scissors-mode]] — Probing the E2 properties of the scissors mode with real photons。
 - [[von-neumann-cosel-2015-sn120-pb208-e1-response]] — Complete Electric Dipole Response in ¹²⁰Sn and ²⁰⁸Pb and Implications for Neutron Skin and Symmetry Energy。

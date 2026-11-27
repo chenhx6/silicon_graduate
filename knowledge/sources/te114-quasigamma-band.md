@@ -63,3 +63,11 @@ Prithwijita Ray et al., Quasi-γ band in 114Te, arXiv:2002.09265v1 [nucl-ex] (20
 - {"from": 4, "to": 5, "sections": "§IV各序列和其他非yrast态、表I、图4–7"}
 - {"from": 6, "to": 9, "sections": "§V能量交错与IBM-1、TPSM比较、图8–13、式(3)–(8)、§VI"}
 - {"from": 10, "to": 10, "sections": "致谢及参考文献[1]–[56]"}
+
+## 2026-11-27 — 本地关联载体核对
+
+同一作品的另一版本，正文范围单列。已核版本承接一次研究计数。
+
+- 路径 `raw/papers/gpt/query/20261119-polarization-delta-collection/PhysRevC.101.064313.pdf`
+- SHA-256 `be3d03ccb047d4e6ae73d8589011e9fa6e4c93f46b92d6f347730f0b0f2c78a3`
+- 实读 通读物理第 1–10 页的抽取文本，包括引言、实验、定级方法、结果、两套模型、总结及参考文献。读取表 I、式 (1)–(8) 的可辨内容及图 1–14 的图注。图形本体未作视觉核验。未提供既往同版覆盖记录，本回执可作为本版全文文字覆盖的依据。

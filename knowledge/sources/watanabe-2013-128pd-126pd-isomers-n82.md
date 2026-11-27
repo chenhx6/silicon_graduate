@@ -3,7 +3,7 @@ type: source
 title: "Isomers in 128Pd and 126Pd: Evidence for a Robust Shell Closure at the Neutron Magic Number 82 in Exotic Palladium Isotopes"
 aliases: [Watanabe 2013 128Pd 126Pd isomers, Watanabe 2013 PRL]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -71,3 +71,24 @@ Watanabe et al. deduce a robust $N=82$ shell gap from the high $E(2^+)$ and the 
 - PDF p. 3 (152501-3): Fig. 2 time decay curves; Fig. 3 level schemes; Table I level energies, half-lives, transition multipolarities, $B(E\lambda)$ strengths.
 - PDF p. 4 (152501-4): Fig. 4 systematics of $E(2^+)$, $R_{4/2}$, and $B(E2; 8^+ \to 6^+)$ across $N=82$ isotones ($^{134}\text{Te}$, $^{132}\text{Sn}$, $^{130}\text{Cd}$, $^{128}\text{Pd}$) and $N=80$ isotones; seniority discussion.
 - PDF p. 5 (152501-5): Astrophysical implications for $A \approx 130$ $r$-process peak and conclusions.
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- PDF 第 1–2 页，卷期、署名、引言、壳淬灭背景、RIBF 实验及 128Pd 谱学分析起始。
+- PDF 第 3–4 页，延迟 γ 谱、时间分布、能级指认和同中子素系统比较，图 1–2 和表 I 在第 3 页，图 3–4 在第 4 页。
+- PDF 第 5 页，孤立 g₉/₂ 子壳模型估算、结论、致谢及参考文献 [1]–[29]。
+- 本次获取的具体覆盖：通读 PDF 第 1–5 页的抽取文本，覆盖实验、谱线与时间拟合说明、能级和 seniority 分析、图 1–4 与表 I 的完整图表说明、致谢和参考文献。谱峰、拟合曲线、箭头及图中数值待查原页。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A20-1 | 128Pd 的延迟谱报告 75.1、260.1、504.4 和 1311.4 keV 四条符合 γ 线。对其中 260、504 和 1311 keV 门的合并时间谱拟合给出 5.8(8) μs。由相对强度推得 75.1 keV 线的总内转换系数为 2.6(17)。 | 实验谱线与数据推导 | source-reported | PDF 第 2–3 页正文；第 3 页图 1(a)、(b)、图 2(a) 和表 I。门选峰及拟合待核第 3 页。 | true |
+| A20-2 | 126Pd 的符合谱支持两条平行级联及其上方的 86.2 keV 跃迁。植入至该跃迁的时间分布给出 0.44(3) μs，该跃迁至后续 γ 线的时间差给出 0.33(4) μs。表 I 将两者分别列在 2109.7 和 2023.4 keV 能级。 | 实验谱线与半衰期拟合 | source-reported | PDF 第 3 页图 1(c)–(e)、图 2(b)–(c)、表 I；第 4 页图 3。符合门、表中末位数字与能级图待核第 3–4 页。 | true |
+| A20-3 | 作者依据级联、内转换和系统学提出 128Pd 的 2151.0 keV 能级为 (8⁺)，并推得 B(E2; 8⁺→6⁺)=0.22(3) W.u.。对 126Pd，采用 (5⁻)、(7⁻) 指认后，推得 542.4 keV E1、1330.2 keV E3 和 86.2 keV E2 跃迁强度分别为 2.9(4)×10⁻⁹、0.24(3) 和 2.13(14) W.u.。 | 能级指认与导出跃迁强度 | source-reported | PDF 第 3 页正文及表 I；第 4 页图 3。括号自旋宇称与分支待核第 3–4 页。 | true |
+| A20-4 | 作者将 126Pd 到 128Pd 的 yrast 2⁺ 能量由 693.3 升至 1311.4 keV、E(4⁺)/E(2⁺) 由 2.14 降至 1.38，以及 128Pd 的 8⁺→6⁺ E2 强度小于 130Cd，合并解释为 Z=46 处 N=82 壳闭合仍具强韧性的证据。孤立质子 g₉/₂ 子壳的精确 seniority 极限给出四空穴态相对两空穴态的强度因子 1/9。 | 作者解释与模型比较 | source-reported | PDF 第 3–4 页相邻正文；第 4 页图 4(a)、(b) 及其后正文；第 5 页结论。图 4 的比较点与纵轴单位待核第 4 页。 | true |
+
+实验在 RIKEN RIBF 用 345 MeV/核子的 238U 束轰击 3 mm Be 靶，经 BigRIPS 和 ZeroDegree 分离鉴别，在 WAS3ABi 植入并用 EURICA 测量延迟 γ 射线，装置参数见 PDF 第 2 页。自旋宇称依赖级联和邻核系统学。第 4–5 页的模型估算采用孤立质子 g₉/₂ 子壳及取自文献 [10] 的 130Cd yrast 谱。
+
+- 将 WAT13-4 的 2109.6 keV 改为第 3 页表 I 所列 2109.7 keV，并保留第 4 页图 3 的约整数标法 2110 keV。将 (8⁺)、(5⁻)、(7⁻) 标为基于证据的指认，把直接谱学观测与指认分列。
+- WAT13-2 保留第 3 页正文明确给出的 0.22(3) W.u.。删除摘要和结果中互相冲突的 0.053(7) 与 12.5(17) e²fm⁴，并将 130Cd 的 1.3(1) W.u.、约六倍差异留待第 4 页图 4(b) 或文献 [10] 核实。正文明确给出的 1/9 是理想模型因子。
+- 将 WAT13-3 的 1311.4(3) 和 693.3(3) keV 改为表 I 所载 1311.4 和 693.3 keV。2.14 与 1.38 的比值定位到第 3–4 页正文，两准粒子和振动解释归于作者。WAT13-5 的结论限定为 Z=46 处的谱学证据。
+- 改正逐页索引。束流和装置在第 2 页，图 1、图 2 和表 I 在第 3 页，图 3 和图 4 在第 4 页。表 I 列能级、半衰期、γ 能量、相对强度及初末态指认，跃迁强度见第 3 页正文。图 4 比较 N=50 与 N=82 的所列同中子素，图注未列 134Te、132Sn 或 N=80 组，R₄/₂ 见正文。A≈130 的动机在第 2 页。

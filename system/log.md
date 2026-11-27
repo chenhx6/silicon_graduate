@@ -7514,3 +7514,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-27 — 馆藏续读第 19 批
 
 - 核定 31 份、445 个主件 PDF 页和 5 条材料角色，另核 Hamilton 第 12 章的 23 页。队列剩 102 条。
+
+## 2026-11-27 — 馆藏续读第 20 批
+
+- 核定 27 份、386 个主件 PDF 页和 9 条材料角色。Hamilton 第 12 章闭合，队列剩 66 条。

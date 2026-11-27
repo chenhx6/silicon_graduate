@@ -59,6 +59,8 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 本批核定 31 份、445 个主件 PDF 页，另核 5 条材料角色。⁴¹Ca 与 ¹¹²In 已补核原图、表格和字形，¹³¹Ba 的本地评价导出已完整核定。Hamilton 第 12 章新核 23 页，继续 PDF 543（印 532）。累计 729 份、25,505 个主件 PDF 页，待处理 102 条。稳定指针为 `research/archive-learning-20261127` + `research: verify angular spectroscopy, local editions and Hamilton reading`。见[原件及覆盖](../outputs/literature-acquisition/20261119-deep-learning/20261127-orientation-and-nuclear-spectroscopy-s-audit.json)。
 
+本批核定 27 份、386 个主件 PDF 页，并归位 9 条版本、评价、附件及访问材料。Mehl 的 ²⁰Ne 峰面积提取负结果与独立 ⁴⁰Ar 对照已按正文和附录核定。Hamilton 第 12 章各段已登记，另核 39 页，续接第 13 章 PDF 594（印 583）。累计 756 份、25,891 个主件 PDF 页，正式队列剩 66 条。稳定指针为 `research/archive-learning-20261127` + `research: verify original editions, angular methods and Hamilton chapter 12`。见[原件及范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-local-spectroscopy-and-reference-corpus-t-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。
