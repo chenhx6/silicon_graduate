@@ -7546,3 +7546,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-27 — 馆藏续读第 27 批
 
 - 写回卢希庭教材与 Bohr–Mottelson 卷 I 的共 33 页，并登记扫描本与普通书的有界 OCR／文本。队列仍剩 20 本。
+
+## 2026-11-27 — 馆藏续读第 28 批
+
+- 完成三本统计和反应教材的 1,334 个计入页，在两个长卷另核 69 个原页。队列剩 17 本。

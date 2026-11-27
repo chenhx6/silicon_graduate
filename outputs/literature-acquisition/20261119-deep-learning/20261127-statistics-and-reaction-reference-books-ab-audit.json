@@ -1,0 +1,152 @@
+{
+  "batch": "20261127-statistics-and-reaction-reference-books-ab",
+  "created_at": "2026-11-27T11:39:41.244427+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000300",
+      "source": "knowledge/sources/book-behnke-data-analysis-hep.md",
+      "identity": "Olaf Behnke et al. (eds.), Data Analysis in High Energy Physics: A Practical Guide to Statistical Methods, local 430-page volume.",
+      "coverage": [
+        "PDF 1–430 原文文本逐段通读，主控补核版面与关键定位。",
+        "PDF 1–42：仅核读PDF物理第1–42页的页标抽取文本。正文对应印刷第1–24页，为Roger Barlow所著第1章，止于§1.6习题1.1。物理第43–430页未提供。图表仅核读抽取文字，未作视觉核验。",
+        "PDF 43–86：实际审读物理第43–86页（印刷第25–68页）共44页的页标抽取文字。第43页从练习1.2开始，第86页在多维贝叶斯可信区域的讨论中截断。图表仅审读抽取的图题、标签及正文说明，未作视觉核验。",
+        "PDF 87–130：仅逐页审读物理PDF第87–130页的抽取文本，共44页。读段从第2章末段中途起，到第4章§4.3.1.3末尾附近截止。图表仅据可读标题、图注、标签和正文交叉引用登记，尚",
+        "PDF 131–180：队列物理行365。本次仅阅读PDF物理第131–180页的抽取文字，共50页，图表只阅及抽取出的图注、标签或表值。430页、5463426字节及文件哈希由启动器独立核验。物理第140页的印刷页码也是140，夹在印刷第123页与第124页之间。以下一律按PDF物理页定位。",
+        "PDF 181–230：仅审读物理 PDF 第181–230页的50个带页标的抽取文本，所见印刷页码为166–202、204–216。图形信息来自抽取的正文、图注及标签，",
+        "PDF 231–274：目录物理行365。本次逐页读了物理 PDF 第231–274页的抽取文字，共44页，包括可见公式与题注。其他页未读，图表原图未查验。以下定位均使用物理 PDF 页码，另注明印刷页码。",
+        "PDF 275–320：仅核读物理PDF第275–320页，共46页，对应印刷第261–306页。核读范围包括逐页正文、公式抽取文本、图注和可辨图中文字。图像未作目视核验。",
+        "PDF 321–367：逐页阅读物理 PDF 第321–367页的抽取文字，共47页，对应印刷页307–353。起于第9章§9.2.1.3，止于第10章§10.6.2例10.7中途。读取了本段正文与随页抽取的图表题注。其余物理页未读，原版图形、表格版式及公式字形",
+        "PDF 368–410：实读物理 PDF 第368–410页的页标抽取文本，共43页，对应印刷页354–379及381–397。图表仅审读抽取文字，未作视觉核验。第1–367页及第411–430页未读。",
+        "PDF 411–430：仅审读物理 PDF 第411–430页的逐页抽取文字，共20页，从第12章中途读至卷末。图12.5和图12.6的图注均可读，图像未作视觉核验。第1–410页未读。"
+      ],
+      "boundary": [
+        "未复算全书例题；涉及数字、公式约定或引文独立性时以对应原页为准。"
+      ],
+      "disposition": "covered",
+      "worker": "disjoint terminal Codex sections; manager checked original page roles and key locators",
+      "source_pdf": "raw/books/Data Analysis in High Energy Physics, A Practical Guide to Statistical Methods (Olaf Behnke, Kevin Kroninger, Gregory Schott etc.) (Z-Library).pdf",
+      "sha256": "18cf194b5cd4e86d8413244cf913fe5699de211a68e4a5d1164709e92fcbe84c",
+      "physical_pages": 430
+    },
+    {
+      "id": "catalogue:LIT-000301",
+      "source": "knowledge/sources/book-bertulani-nuclear-reactions.md",
+      "identity": "Carlos Bertulani and Pawel Danielewicz, Introduction to Nuclear Reactions, second edition, CRC Press, 421 physical PDF pages.",
+      "coverage": [
+        "PDF 1–421 原文文本逐段通读，主控补核版面与关键定位。",
+        "PDF 1–48：仅审读物理第1–48页的逐页提取文本，覆盖前置页、第1章全部正文及章末参考文献、第2章至§2.5式(2.38)。物理第12–48页对应印刷第1–37页。物理第1、3、7、9、11页无提取文本。未查看图像或第49–421页。",
+        "PDF 49–92：仅审读物理第49–92页所供文本，共44个页标，其中43页有可读文本。物理第79页抽取为空，页面内容待核。图表审读限于抽取到的图注、标签、表格和正文，未检查原图。",
+        "PDF 93–136：审读物理第93–136页的逐页提取文本，共44个页位。物理第119页无提取文本，其余43页有文字。印刷页码可见范围为第82–125页。图表审读限于提取的图注、表文及正文，版面与图像均",
+        "PDF 137–191：逐页审读物理第137–191页的提取文本，共55页，对应印刷第126–180页。审读内容包括正文、可辨公式、图表文字、习题和所附参考文献。图像未目检，其余物理页未读。",
+        "PDF 192–241：仅审读物理第192–241页的页标提取文本，共50页，对应印刷第181–230页。审读范围包括可辨认的正文、公式、表格文本和图注。图像未目检，图中数据及版式未核验。其余物理页未读。",
+        "PDF 242–285：逐页核读所给物理第242–285页的抽取文本，共44个物理页标，其中43页有抽取文字。读到第7章式(7.47)为止。图表依据图注、题干和正文定位，图版均待目检。",
+        "PDF 286–331：逐页阅读所供物理第286–331页的抽取文字，共46页，对应印刷第275–320页。范围从第7章辐射俘获推导的续文开始，至§7.13第19题(a)的可见文字为止。图件依据正文与图注定位，视觉核验待做。",
+        "PDF 332–375：仅阅读物理第332–375页的抽取文本，共44页，对应书内印刷页321–364。起点承接第7章习题，终点截在第8章§8.14式(8.215)之后的未完句。图表依据抽取的图注、表题和正文核对，未检查页面图像。",
+        "PDF 376–421：本次范围为 PDF 物理第376–421页，共46页，其中第383页无提取文字。实际阅读其余45页的正文、题注、可辨公式、习题、章末文献和索引。图表核对仅依据提取文字，图面均待目视复核。"
+      ],
+      "boundary": [
+        "未复算全书例题；涉及数字、公式约定或引文独立性时以对应原页为准。"
+      ],
+      "disposition": "covered",
+      "worker": "disjoint terminal Codex sections; manager checked original page roles and key locators",
+      "source_pdf": "raw/books/Introduction to Nuclear Reactions (C.A. Bertulani P. Danielewicz) (Z-Library).pdf",
+      "sha256": "ad1391abd781e2277433283b6635679cfc45efc9d9d5472d4aabcd172509cb71",
+      "physical_pages": 421
+    },
+    {
+      "id": "catalogue:LIT-000304",
+      "source": "knowledge/sources/book-bonamente-statistics-scientific-data.md",
+      "identity": "Massimiliano Bonamente, Statistics and Analysis of Scientific Data, third edition, Springer, 491 physical PDF pages.",
+      "coverage": [
+        "PDF 1–491 原文文本逐段通读，主控补核版面与关键定位。",
+        "PDF 1–42：实际阅读 PDF 实体第1–42页的逐页抽取文字。第1章正文、章末小结及习题1.1–1.10均在范围内。第2章只读到 §2.1 开头，末句截断。实体第43–491页未读。图像和版式尚待管理者核对。",
+        "PDF 43–85：阅读物理页 43–85 的逐页抽取文字，共 43 页，含正文、公式抽取、表格转录、图注及习题。印刷页码为 22–61、63–65，物理页 82 至 83 之间未见印刷页 62。图形、表格版式及受损数学字形均",
+        "PDF 86–130：逐页审读 PDF 实体第86–130页的抽取正文、公式、图表题注和习题，共45页。启动器已独立核验491个实体页、8,583,714字节及 SHA-256 e5197dffd54d527b9d6925b92eeae34e0859e0062063861f2e54abf333d2b2ca。图形、表格版面和公式字形均未经目视核验。",
+        "PDF 131–180：仅审读 PDF 实体第131–180页的逐页提取文本，共50页，依据正文、例题、表格转录、图注和可辨公式。未读取其他实体页，",
+        "PDF 181–228：逐页审读实体第181–228页的原件转写，共48页。覆盖第9章后段、第10章正文至章末习题，以及第11章开篇和 §11.1 起首。图表审读限于转写中的图题、表格文字和正文引用，",
+        "PDF 229–274：仅审读 PDF 实体第229–274页的连续提取文本，共46页，包含正文、例题、章末习题及提取出的图表文字。第11章从章内续文起读，第12、13章各从章首读到章末习题。图像、原版公式排印及其余页面均待核。",
+        "PDF 275–321：逐页审读物理页275–321的抽取文本，共47页，含正文、例题、章末小结、习题和已抽取的图表文字。覆盖判断依据正文。其余物理页未读，图形和原始排版",
+        "PDF 322–370：审读实体页322–370的49页提取文本，含正文、可辨识公式、图表题注、章末小结和习题。图像、公式原排版及其余实体页均未核查。建议接受既有卡与本次馆藏文件的同一性，暂缓接受既有卡的全书或核心章节覆盖结论。既有卡记载的较早页段保留原有证据状态。",
+        "PDF 371–419：审读 PDF 实体第371–419页的逐页抽取文本，共49页，含正文、公式、例题、习题、图注及两张未见独立表题的结果表。图像、表格版面和公式字形均待管理者目视复核。",
+        "PDF 420–464：仅审读 PDF 实体第420–464页的连续提取文本，共45页，对应印刷第415–459页。正文从 §23.2 中途开始，止于表 A.18 首面的续表标记。图形、公式版面和表格版面均",
+        "PDF 465–491：实读 PDF 实体第465–491页的逐页提取文本，共27页。实体第1–464页未读。本次未进行目视核验。"
+      ],
+      "boundary": [
+        "未复算全书例题；涉及数字、公式约定或引文独立性时以对应原页为准。"
+      ],
+      "disposition": "covered",
+      "worker": "disjoint terminal Codex sections; manager checked original page roles and key locators",
+      "source_pdf": "raw/books/Statistics and Analysis of Scientific Data (Graduate Texts in Physics), 3rd Edition (Massimiliano Bonamente) (Z-Library).pdf",
+      "sha256": "e5197dffd54d527b9d6925b92eeae34e0859e0062063861f2e54abf333d2b2ca",
+      "physical_pages": 491
+    },
+    {
+      "id": "catalogue:LIT-000303",
+      "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure.md",
+      "identity": "Bohr and Mottelson I, World Scientific 1999 printing, 492 pages.",
+      "coverage": [
+        "PDF 101–125（印 82–106）后半 App. 1A、App. 1B 和 App. 1C 开头。",
+        "PDF 126–155（印 107–136）App. 1C 置换对称性原页及 Tables 1C-1–1C-5。"
+      ],
+      "boundary": [
+        "原图、表和正文核读，未重推所有表项。"
+      ],
+      "disposition": "partial",
+      "worker": "Pascal 101–125; Pauli 126–155",
+      "source_pdf": "raw/books/nuclear structure Ⅰ_Bohr, Mottelson.pdf",
+      "sha256": "a31a158e0aff2ec6734d46f5aea5eb42dbebb82280835774f49350dd6f8c79df",
+      "physical_pages": 492
+    },
+    {
+      "id": "catalogue:LIT-000309",
+      "source": "knowledge/sources/book-hamilton-electromagnetic-interaction.md",
+      "identity": "W. D. Hamilton ed., 1975 North-Holland scan, 956 physical pages. Ch. 14 by W. D. Hamilton.",
+      "coverage": [
+        "PDF 656–669（印 645–658）原页核第 14 章 §§1–2、3.1–3.2.3。"
+      ],
+      "boundary": [
+        "实验例子按各自被引文献回查。"
+      ],
+      "disposition": "partial",
+      "worker": "Sartre",
+      "source_pdf": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+      "sha256": "93b32a8debb66ad036229d860ad56f0434dc49b56edd32f1628af1d71a21ae00",
+      "physical_pages": 956
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 779,
+    "duplicate-or-related-version": 29,
+    "duplicate-excerpt-linked-to-canonical": 13,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 9,
+    "out-of-scope-particle-production": 3,
+    "archived-publisher-scan-missing-printed-page": 2,
+    "read-core-evidence-checked": 1,
+    "publisher-first-page-extract-fulltext-unavailable": 8,
+    "evaluated-data-extract-covered": 7,
+    "out-of-scope-atomic-spectroscopy": 4,
+    "editorial-front-matter": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 2,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "existing-source-coverage-to-audit": 17,
+    "conference-abstract-covered": 3,
+    "supplement-with-main-text-gap": 1,
+    "commentary-complete-shared-pages": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 17,
+  "credited_works": 3,
+  "credited_primary_pages": 1334,
+  "partial_volume_pages": 69,
+  "next_action": "Continue chapterwise original reading of the remaining existing books.",
+  "uncredited": [],
+  "related_materials": []
+}

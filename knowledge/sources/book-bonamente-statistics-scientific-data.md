@@ -7,7 +7,7 @@ updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: skimmed
+reading_depth: read
 title_original: "Statistics and Analysis of Scientific Data"
 authors: [Massimiliano Bonamente]
 publisher: "Springer Nature Switzerland (Graduate Texts in Physics)"
@@ -82,3 +82,12 @@ tags: [scientific-data-analysis, error-propagation, robust-statistics, chi2-fitt
 ## 2026-11-27 — 馆藏原件与覆盖核对
 
 - 教材转述的星系未检出案例记录了指向目标时的8个计数。同一时间窗的背景均值估计为9.8 ± 0.4个计数，来自另一次持续更久的独立测量。（PDF 实体第138–139页，例7.3。观测和背景估计见第138页，后续上限属于模型计算。）
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 82 的题目印 61，PDF 83 第 4 章起页印 63，保留原版跳号并用 PDF 定位。PDF 163、357 为分部页，PDF 418 第 23 章是数值方法与 Python。PDF 471 数值表和 491 索引另列角色。
+
+- 第1章用交集概率除以条件事件的正概率来计算条件概率，并用交集概率是否等于边缘概率之积来判定两事件是否独立。（PDF 实体第29–30页，§§1.3–1.4，式 (1.6)–(1.8)。）
+- 教材转录了 Thomson 两支阴极射线管在不同气体下的 W/Q、I、m/e 和 v。书中由 W/Q 与 I 计算 v 和 m/e，并在注记中指出三处星号记录存在数值不一致。（§2.4，物理页 49–51，式 (2.15) 与表 2.1、2.2。星号、指数和行列对应须目视核对物理页 51。）
+- 教材以 Thomson 历史数据说明配套脚本的输出。示例列出两组数据分别有 12 条和 11 条记录，并展示 W/Q、I、m/e、m/e*、v、v* 等字段。（实体第421–422页，§23.3.1，thomson.py 输出与数据文件节录。原始实验表见该节回引的 §2.4。）
+- 表 A.19–A.22 按自由度 5、10、20、50 分列 Student t 分布在各临界值下的积分概率。表 A.23 横向比较 T=1 至 5，并列出自由度趋于无穷的参照行。自由度为 5、T=2 时，两处表值均为 0.898061。（PDF 实体第466–475页，表 A.19–A.23。交叉核对值分别见第466页表 A.19 与第474页表 A.23。）
