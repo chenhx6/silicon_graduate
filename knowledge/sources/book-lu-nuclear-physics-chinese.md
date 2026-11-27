@@ -3,7 +3,7 @@ type: source
 title: "卢希庭 2000 - 原子核物理（修订版）"
 aliases: [卢希庭原子核物理, Lu 2000 Nuclear Physics, 原子核物理修订版]
 created: 2026-11-01
-updated: 2026-11-02
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
@@ -90,3 +90,7 @@ tags: [books, nuclear-physics, nuclear-structure, chinese-terminology, reaction-
 - 印刷 pp. 194–205（PDF pp. 204–215）：独立粒子壳模型能级排列、自旋-轨道劈裂与集体模型表面振动参量化。
 - 印刷 pp. 209–220（PDF pp. 219–230）：转动能级、Mariscotti 可变转动惯量（VMI）模型、高自旋回弯与 Coriolis 退对。
 - 印刷 pp. 236–256（PDF pp. 246–266）：核反应运动学、分波法、光学势与复合核统计理论。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 17–18 区分核作用半径与电荷分布半径。PDF 20–22 由电子超精细结构推断核自旋和磁矩时保留外部电子态关系。PDF 25–26 的四极矩换算依均匀轴对称椭球和小形变。

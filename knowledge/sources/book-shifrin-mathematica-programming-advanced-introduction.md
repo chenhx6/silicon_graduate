@@ -99,3 +99,7 @@ tags: [books, mathematica, programming, functional-programming, symbolic-computa
 ## 2026-11-27 — 馆藏原件与覆盖核对
 
 - 书中示例用 FullForm 展开 Times、Sin 和 Plus 的嵌套结构，用 Head 取表达式的头，用 Part 的零位索引取指定子表达式的头，并用 Level 展示不同层级的子项。（物理 PDF 第26–29页，§§1.1.3–1.1.7。第27、29页的无编号 TreeForm 图均待核连线与节点顺序。）
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- 书中随机赋值示例对 Set 保存的同一个抽样结果连续打印五次，对 SetDelayed 则在每次引用时重新抽样。另一个示例用 Set 保存含未赋值 x 的符号等式，给 x 赋值后读取 test 得到 True，清除 x 后再次得到符号等式。（物理 PDF 第41页 §§2.4.1–2.4.2 和第45–46页 §2.5.4，无编号代码及输出。第46页 OwnValues 输出的规则箭头待核原页。）

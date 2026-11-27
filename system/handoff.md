@@ -73,6 +73,8 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 本批核定 RIPL-2 手册与 FRIB 科学报告，共 2 份、394 个计入页。RIPL-2 读完 172 个物理页，扣 8 张空白。FRIB 图中的束流可及性和模型分区按预估、模型和实测证据分开。另写回六本书新增的原文文本读段，保留后续图表抽核范围。累计 794 份、28,530 个主件页，队列剩 20 本。稳定指针为 `research/archive-learning-20261127` + `research: verify two reference works and record book reading continuations`。见[原件及覆盖](../outputs/literature-acquisition/20261119-deep-learning/20261127-reference-handbooks-and-book-continuations-z-audit.json)。
 
+本批写回卢希庭修订版原子核物理 PDF 11–31（印 1–21）与 Bohr–Mottelson 卷 I PDF 89–100（印 70–81）的 33 个原页核对页。另登记四本扫描教材的有界 OCR 文本和普通书的续读范围，无法辨认的表项留待原图核查。累计仍为 794 份、28,530 个主件页，正式队列剩 20 本书。稳定指针为 `research/archive-learning-20261127` + `research: record scan OCR and continued book reading ranges`。见[原件及范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-scan-ocr-and-book-chapters-aa-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

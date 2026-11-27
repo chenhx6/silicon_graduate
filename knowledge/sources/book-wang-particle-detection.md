@@ -3,7 +3,7 @@ type: source
 title: "汪晓莲等 2009 - 粒子探测技术"
 aliases: [汪晓莲粒子探测技术, Wang 2009 Particle Detection, 粒子探测技术]
 created: 2026-11-02
-updated: 2026-11-02
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: book
@@ -77,3 +77,8 @@ topics: [gaseous-detectors, gm-counter, semiconductor-detectors, radiation-damag
 - PDF p.8 / 印刷前言 p.2：陈宏芳负责组织，邵明编写第 1～3 章，李澄编写第 4 章，汪晓莲编写第 5～8 章。
 - PDF p.143 / 印刷 p.129、图 4.2.18：G-M 计数器输出脉冲幅度随时间变化、失效时间与复原时间定义。
 - PDF p.236 / 印刷 p.222、§5.4.8：半导体探测器辐照效应与载流子俘获。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- By the de Broglie relation, wavelength is inversely proportional to momentum, so higher-momentum particles can probe finer structures.（Physical PDF p. 15, 第1章 粒子简介, paragraph beginning 为了深入研究微观领域的科学规律）
+- The figure gives only upper limits on the sizes of quarks and electrons because of experimental limitations.（Physical PDF p. 17, §1.1 构成世界的基本粒子, 图1.1.1 caption）

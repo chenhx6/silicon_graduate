@@ -3,7 +3,7 @@ type: source
 title: "吴治华 2005 - 原子核物理实验方法（第三版）"
 aliases: [吴治华实验方法, Wu 2005 Experimental Methods, 原子核物理实验方法]
 created: 2026-11-01
-updated: 2026-11-02
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
@@ -94,3 +94,8 @@ tags: [books, experimental-nuclear-physics, hpge-detectors, gamma-spectroscopy, 
 - 印刷 pp. 144–148（PDF pp. 152–156）：HPGe 同轴探测器几何、反向偏压电场分布、电荷收集与辐射缺陷。
 - 印刷 pp. 265–292（PDF pp. 273–300）：$\gamma$ 能谱全能峰分析、效率刻度方程与二维符合切片本底扣除。
 - 印刷 pp. 422–456（PDF pp. 430–464）：反冲距离法与多普勒频移衰减法寿命测定物理流程。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- Given N incident particles, independent detection with constant efficiency ε gives a binomial count conditional on N. If N is Poisson with mean M, the unconditional detected count is Poisson with mean Mε.（Physical PDF p. 13, Eqs. (1.18), (1.20), and (1.21)）
+- Independent Poisson counts sum to a Poisson count, with means and variances adding. The OCR obscures the squares in the variance identities, which read Var(CX) = C² Var(X) and Var(X) = E[X²] − (E[X])² in standard notation.（Physical PDF pp. 13–14, 三、合成分布, especially Eqs. (1.24) and (1.27)–(1.30)）

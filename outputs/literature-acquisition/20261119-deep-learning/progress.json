@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000308",
+  "active_source": "catalogue:LIT-000303",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -685,14 +685,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-27T11:05:15.795902+00:00",
+  "updated_at": "2026-11-27T11:22:08.924162+00:00",
   "completed_deep_read_sources_this_run": 0,
   "completed_primary_pages_this_run": 28530,
-  "current_source_note": "knowledge/sources/book-greiner-nuclear-models.md",
-  "next_action": "Continue local book corpus with scoped OCR and independent page ranges.",
+  "current_source_note": "knowledge/sources/book-bohr-mottelson-nuclear-structure.md",
+  "next_action": "Continue the 20-volume existing local reading queue and resolve recorded OCR gaps.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "2 works credited 394 pages; Reading continuations for six books recorded.",
+  "last_source_manager_closure": "0 works credited 0 pages; 33 visually checked book pages and separate bounded OCR/text scopes.",
   "current_source_scientific_acceptance": "Vol. II complete; continue the open queue, including archival PDFs needing original tables or scans.",
   "source_scoped_retrieval": "Existing local originals; publisher and author versions recorded separately.",
   "counting_scope": {
@@ -701,9 +701,9 @@
     "credited_pages_explicit_in_queue": 18072,
     "pages_carried_forward_from_previous_checkpoints": 10458,
     "increment_this_checkpoint": {
-      "works": 2,
-      "pages": 394,
-      "partial_volume_pages_recorded_separately": 0,
+      "works": 0,
+      "pages": 0,
+      "partial_volume_pages_recorded_separately": 33,
       "associated_rows": 0
     }
   },
@@ -725,5 +725,5 @@
     "resume_printed_page": 259,
     "background_reading_scheduled": false
   },
-  "latest_batch_audit": "20261127-reference-handbooks-and-book-continuations-z-audit.json"
+  "latest_batch_audit": "20261127-scan-ocr-and-book-chapters-aa-audit.json"
 }

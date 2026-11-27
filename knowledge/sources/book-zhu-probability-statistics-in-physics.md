@@ -3,7 +3,7 @@ type: source
 title: "朱永生 2006 - 实验物理中的概率和统计（第二版）"
 aliases: [朱永生实验物理统计, Zhu 2006 Probability and Statistics, 实验物理中的概率和统计]
 created: 2026-11-01
-updated: 2026-11-02
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
@@ -79,3 +79,8 @@ tags: [books, experimental-statistics, error-propagation, parameter-estimation, 
 - 印刷 pp. 325–331（PDF pp. 341–347）：最小二乘法应用于直方图数据及数据加权偏差。
 - 印刷 pp. 370–381（PDF pp. 386–397）：小信号测量的经典边界困境与 Feldman-Cousins 似然比排序构造。
 - 印刷 pp. 429–434（PDF pp. 445–450）：实验 $p$ 值、统计显著性 $Z\sigma$ 与 Wilks 渐近卡方检验。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- A random trial can be repeated under the same conditions and has known possible outcomes, with the individual outcome uncertain. The text calls repetitions independent when their outcomes do not affect one another. The die example’s OCR reads ‘16’; the six-outcome context supports ‘1/6’.（Physical PDF p. 17, §1.1, coin and die examples and the paragraph defining 随机试验）
+- A partition consists of pairwise disjoint events whose union is the sample space. The die example uses {1,2}, {3,4}, and {5,6}. The prose recovers the pairwise condition lost in the equation OCR.（Physical PDF pp. 19–20, §1.1, Eq. (1.1.1) and Fig. 1.7）

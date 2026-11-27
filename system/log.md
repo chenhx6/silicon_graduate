@@ -7542,3 +7542,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-27 — 馆藏续读第 26 批
 
 - 核定 RIPL-2 手册与 FRIB 科学报告，写回六本书的继续阅读范围。队列剩 20 本。
+
+## 2026-11-27 — 馆藏续读第 27 批
+
+- 写回卢希庭教材与 Bohr–Mottelson 卷 I 的共 33 页，并登记扫描本与普通书的有界 OCR／文本。队列仍剩 20 本。
