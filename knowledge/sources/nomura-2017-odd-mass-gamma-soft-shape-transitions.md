@@ -146,3 +146,7 @@ v1/v2比较位于 `raw/papers/gpt/query/20261106-nomura-invariant-version-audit/
 它没有声称纠正原作者图件或恢复原作者运行输入。源版本、公式定位和重放差别的
 逐项回执位于 `outputs/l4/20261105-ba129-controlled-pairing/` 的
 `ibfm-input-review/`、`spin-invariant-algebra/` 与 `spin-invariant-source-replay/`。
+
+## 2026-11-27 — 馆藏 v1 读段核对
+
+早期原件 `raw/papers/gpt/query/20261106-nomura-invariant-version-audit/nomura2017-v1.pdf` 的 SHA-256 为 `b7662bdd1d24c66ae9d0b81e95746c150dae1d51ec5c22cb9f5b8e9505062d2d`。v1 的 PDF 1 核版次，PDF 10–12 核式 (12)–(15) 和 Figs. 13–15。奇质量结果须保留非零自旋时的 J′=J+2、前五态截断及按核拟合的参数。具体刊文位置仍按实际使用版本。

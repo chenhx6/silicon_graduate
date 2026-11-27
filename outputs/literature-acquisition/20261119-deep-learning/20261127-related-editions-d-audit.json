@@ -1,0 +1,69 @@
+{
+  "batch": "20261127-related-editions-d",
+  "created_at": "2026-11-27T02:40:38.274193+00:00",
+  "records": [
+    {
+      "work_id": "catalogue:LIT-000059",
+      "canonical_work_id": "catalogue:LIT-000379",
+      "source": "knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/旋称/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 2.pdf",
+      "sha256": "47451ae95676399c72b907b0efa10bdeb07e82c794a1ed480759ee20bae0c652",
+      "disposition": "duplicate-or-related-version",
+      "identity": "APS DOI 10.1103/PhysRevC.104.064304, matching title, authors and experiment with the 2021-11-09 author manuscript.",
+      "coverage": "Publisher PDF 2–3, 8, 10–11 for setups, level scheme, bandhead table and QTR; linked manuscript separately covered PDF 1–16.",
+      "boundary": "One paper and two distinct detector campaigns within it, no extra credit for the publisher edition."
+    },
+    {
+      "work_id": "catalogue:LIT-000069",
+      "canonical_work_id": "catalogue:LIT-000473",
+      "source": "knowledge/sources/iliadis-friman-gayer-2021-polarization-direction-correlations.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/iliadis-friman-gayer-2021-arxiv2104.00228-58c0294f6b3d.pdf",
+      "sha256": "58c0294f6b3d1ef6969484bf89dfc6248ea44b5a73b536ca6bf38aa048dfc756",
+      "disposition": "duplicate-or-related-version",
+      "identity": "arXiv:2104.00228v1 and EPJA 57, 190 (2021), DOI 10.1140/epja/s10050-021-00472-1.",
+      "coverage": "arXiv v1 PDF 1–18 and selected appendix figures bound in source note; targeted recheck of v1/VoR identity.",
+      "boundary": "VoR appendix coverage remains tracked on LIT-000473, where formulas and page numbering must match the edition."
+    },
+    {
+      "work_id": "catalogue:LIT-000165",
+      "canonical_work_id": "catalogue:LIT-000603",
+      "source": "knowledge/sources/nomura-2017-odd-mass-gamma-soft-shape-transitions.md",
+      "raw_file": "raw/papers/gpt/query/20261106-nomura-invariant-version-audit/nomura2017-v1.pdf",
+      "sha256": "b7662bdd1d24c66ae9d0b81e95746c150dae1d51ec5c22cb9f5b8e9505062d2d",
+      "disposition": "duplicate-or-related-version",
+      "identity": "arXiv:1704.07101v1 and v2 are successive versions of the work published as PRC 96, 014304.",
+      "coverage": "v1 PDF 1, 10–12 checked against v2 identity and source-local edition crosswalk.",
+      "boundary": "This is a version audit. Nonzero-spin invariant truncation and any Fig. 13 reproducibility gap stay with the canonical source."
+    },
+    {
+      "work_id": "catalogue:LIT-000175",
+      "canonical_work_id": "doi:10.1140/epja/s10050-020-00308-4",
+      "source": null,
+      "raw_file": "raw/papers/gpt/query/20261106-spin-invariant-precedents/boyukata2021-erratum.pdf",
+      "sha256": "2e016ed80a98d6a4e39832b5048b218b7f7bc36df17543e811f95533a66e59a3",
+      "disposition": "erratum-linked-to-bibliographic-parent",
+      "identity": "EPJA 57, 292 (2021), DOI 10.1140/epja/s10050-021-00591-9.",
+      "coverage": "Publisher Erratum PDF 1 includes parent DOI and replaces TÜBİTAK project number with 119F127.",
+      "boundary": "The correction concerns acknowledgement. Main article original and coverage are unverified in this local archive."
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 482,
+    "duplicate-or-related-version": 18,
+    "duplicate-excerpt-linked-to-canonical": 5,
+    "pending-identity-and-coverage": 265,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 6,
+    "existing-source-coverage-to-audit": 193,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 1,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 458
+}

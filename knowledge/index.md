@@ -2241,3 +2241,11 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[paul-2005-ce131-ce132-superdeformed-high-spin]] — ¹³¹˒¹³²Ce 超形变带的连线和指认边界。
 - [[choudhury-2010-105cd-antimagnetic-rotation]] — ¹⁰⁵Cd 的 DSAM 寿命与反磁转动检验。
 - [[peng-chen-2020-135nd-3d-tac-cdft]] — ¹³⁵Nd 两组态、三维 TAC 和势垒的模型条件。
+- [[herskind-1985-nordball-array]] — NORDBALL 原型实测与几何设计。
+- [[lee-1990-gammasphere-array-design]] — GAMMASPHERE 设计及符合模拟。
+- [[alvarez-1993-gasp-array]] — GASP 内球、筛选与 CAMEL 联用。
+- [[voss-2014-tigress-integrated-plunger]] — TIGRESS plunger 附属探测器、粒子门与几何。
+- [[lieder-1984-bgo-anti-compton-spectrometer]] — BGO 反康普顿原型、模拟与中子测量。
+- [[duchene-1999-clover-composite-ge]] — Clover 相加、Doppler 修正与偏振标定。
+- [[regis-2010-mirror-symmetric-centroid-difference]] — MSCD 的 prompt 响应及本底校正。
+- [[rajbanshi-2017-attractive-shears-a140]] — A≈140 吸引剪刀机制模型的可检验量。

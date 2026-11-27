@@ -3,7 +3,7 @@ type: source
 title: "方永得 2008 博士论文：188Au 高自旋态能级结构"
 aliases: [方永得188Au论文, Fang Yongde 188Au thesis]
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-experiment-and-method
@@ -34,7 +34,7 @@ tags: [a190, high-spin, signature-inversion, polarization, phd-thesis]
 
 ## Scope and Reading Depth
 
-- `deep-read`：读取摘要/Abstract（PDF pp.3–6）、目录/理论、实验与数据处理章节、`188Au` 结果（Ch.5，PDF p.72 起）和结论；视觉核对题名页与摘要关键数字。
+- `deep-read`：读取摘要/Abstract（PDF pp.3–6）、目录/理论、实验与数据处理章节、`188Au` 结果（Ch.5，PDF p.64 起）和结论；视觉核对题名页与摘要关键数字。
 - 未覆盖：参考文献逐篇复核、全部弱跃迁的独立重测；OCR/文本中部分轨道符号存在编码歧义，保留 `needs_review`。
 
 ## Key Results
@@ -51,11 +51,11 @@ tags: [a190, high-spin, signature-inversion, polarization, phd-thesis]
 
 ## Summary
 
-论文以 `173Yb(19F,4n)` 的 JAERI 在束 γ 实验扩展 `188Au` 能级图，提出两个新带、一个 `20+` 四准粒子候选，并用 ADO/偏振与系统学讨论低自旋 signature inversion。Clover 偏振校准是可迁移的方法结果。
+论文以 `173Yb(19F,4n)` 的 JAERI 在束 γ 实验扩展 `188Au` 能级图，提出两个新带、一个 `20+` 四准粒子候选，并用实测能级、ADO 和系统学讨论低自旋 signature inversion。Clover 偏振校准是可迁移的方法结果。
 
 ## Competing Interpretations and Limitations
 
-组态、`γ≈70°` 和 signature-inversion 机制依赖系统学、CSM/两准粒子转子模型及 ADO/偏振分支；不能从摘要单独确认。Clover 校准是方法结果，不是 `188Au` 形状证据。轨道符号在文本提取中有乱码，正式引用需回看 PDF 原页。
+组态、`γ≈70°` 和 signature-inversion 机制依赖系统学、CSM/两准粒子转子模型及能级与 ADO 归属；不能从摘要单独确认。Clover 校准是方法结果，不是 `188Au` 形状证据。轨道符号在文本提取中有乱码，正式引用需回看 PDF 原页。
 
 ## Knowledge impact and triage
 
@@ -75,4 +75,8 @@ tags: [a190, high-spin, signature-inversion, polarization, phd-thesis]
 
 ## Extracted Pages
 
-- 题名页和摘要：PDF pp.1–6；目录/方法：pp.7–35；`188Au` 结果：Ch.5，PDF p.72 起；结论与偏振边界：Ch.5–6。
+- 题名页和摘要：PDF pp.1–6；目录/方法：pp.7–35；`188Au` 结果：Ch.5，PDF p.64 起；结论与偏振边界：Ch.5–6。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 60–63 的 ⁶⁰Co 校准以 1332 keV 线给 A=0.02396、Q=0.1438，独立于第 5 章 ¹⁸⁸Au 采集。PDF 64–71 图 5.1–5.3 与表 5.1 用 JAERI GEMINI 的 ¹⁷³Yb(¹⁹F,4n) ADO 与符合谱建立纲图。PDF 71–73、76、79–80 的 (20⁺) 候选低能连接由符合与邻核信息推知，约 23、62 keV 线未直接观测；四准粒子为作者指定。PDF 77–78 的 TRS 采用原文 γ 符号约定。

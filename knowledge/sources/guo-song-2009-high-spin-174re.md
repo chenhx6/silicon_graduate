@@ -3,7 +3,7 @@ type: source
 title: "郭松 2009 博士论文：174Re 高自旋能级结构"
 aliases: [郭松174Re论文, Guo Song 174Re thesis]
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-experiment-and-model
@@ -19,7 +19,7 @@ citation_key: "guo_2009_174re-band-structures"
 raw_file: "raw/theses/degree-dissertation/郭松.pdf"
 raw_sha256: "EECB739CE50F87CACC21408B079FFBDD97C21D70C52CB9DA16FA636AA758DCAC"
 nuclei: [174re]
-experiments: [ciae-hi13-174re-al27]
+experiments: [sm152-al27-174re-gamma-coincidence]
 models: [two-quasiparticle-rotor-model, cranked-shell-model, band-mixing-model]
 observables: [signature-splitting, be2, moments-of-inertia, gamma-ray-energy]
 methods: [in-beam-gamma-spectroscopy, gamma-gamma-coincidence, excitation-function]
@@ -70,3 +70,7 @@ tags: [a180, high-spin, signature-inversion, shape-driving, phd-thesis]
 ## Extracted Pages
 
 - 摘要/Abstract：PDF pp.3–4；实验与结果：Chs.5–7；结论：PDF p.106。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 52–55、62–67 记录 ¹⁵²Sm(²⁷Al,5n) 采集、门谱、纲图和测量表。PDF 97–99 的图 6.12 局部带 1/2、3/4 分别对应图 4.5 的全图 5/4、2/1。两态混合给 V≈3.4、3.8 keV，Qₜ 比分别 0.87±0.10、0.87±0.12。PDF 104–106 图 7.2 的带 1/2 旋称反转自旋约为 21ℏ、16.5ℏ。

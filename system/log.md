@@ -7449,3 +7449,5 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - 本批核定 24 份和 407 个主件 PDF 页，链接 4 条重复版本和 3 条补件，识别 1 条访问挑战并改用本地 HTML。正式队列余 472 条。
 
 - 第二卷另核 PDF 386–420（印 364–398）35 页，续读 PDF 421（印 399）。
+
+- 本批核定 10 份和 305 个主件 PDF 页，登记三条同文版本和一条致谢勘误。第二卷另核 PDF 421–432（印 399–410），续读 PDF 433（印 411）。正式队列待处理 458 条。

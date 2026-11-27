@@ -1,0 +1,62 @@
+{
+  "batch": "20261127-book-detector-d",
+  "created_at": "2026-11-27T02:39:23.794626+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000037",
+      "source": "knowledge/sources/duchene-1999-clover-composite-ge.md",
+      "identity": "Duchêne et al., NIM A 432, 90–110 (1999), publisher PDF with PII S0168-9002(99)00277-6.",
+      "coverage": [
+        "PDF 1–21（印 90–110）全篇，构造、模拟、实测效率、Doppler 修正、偏振、辐照和引文。"
+      ],
+      "boundary": [
+        "可比较谱线宽度、峰总比和偏振灵敏度时，保留能量、几何、门选与标定。运行期间缺少绝对中子通量。"
+      ],
+      "disposition": "covered",
+      "worker": "Pauli with manager spot check",
+      "source_pdf": "raw/papers/detectors/detector/1999_Duchêne et al_The Clover.pdf",
+      "sha256": "129dd406376c8f27b4ab5b11e8d09707893cd00e6f8f492bdc143a63b69fcd81",
+      "physical_pages": 21
+    },
+    {
+      "id": "catalogue:LIT-000302",
+      "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "identity": "Bohr and Mottelson, Nuclear Structure II, 1975 original, local World Scientific 1998 reissue, 772 physical pages.",
+      "coverage": [
+        "PDF 421–432 (printed 399–410), §§6-4a–6-4c through Eqs. (6-189)–(6-194)."
+      ],
+      "boundary": [
+        "The dynamical assumptions behind the kinetic-energy limit and the signed tensor sum are separate. Continue at Eq. (6-194) vicinity."
+      ],
+      "disposition": "partial",
+      "worker": "Pascal with manager spot check",
+      "source_pdf": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "physical_pages": 772
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 482,
+    "duplicate-or-related-version": 15,
+    "duplicate-excerpt-linked-to-canonical": 5,
+    "pending-identity-and-coverage": 269,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 6,
+    "existing-source-coverage-to-audit": 193,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 1,
+    "access-placeholder-linked-to-archived-html": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 462,
+  "credited_works": 1,
+  "credited_primary_pages": 21,
+  "partial_volume_pages": 12,
+  "next_action": "Continue Bohr–Mottelson II PDF 433 (printed 411) and reconcile next original reading groups.",
+  "uncredited": []
+}

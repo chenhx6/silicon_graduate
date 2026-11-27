@@ -1,0 +1,174 @@
+{
+  "batch": "20261127-detectors-theses",
+  "created_at": "2026-11-27T02:37:40.562679+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000031",
+      "source": "knowledge/sources/herskind-1985-nordball-array.md",
+      "identity": "B. Herskind, Nuclear Physics A 447, 395c–412c. Article header prints 1985, copyright line uses /86/, and the container PII is 0375-9474(86)90619-6.",
+      "coverage": [
+        "PDF 2–19（印 395c–412c）全篇，Figs. 1–14、Tables 1–2 和参考文献。PDF 1 为会议栏目分隔页。"
+      ],
+      "boundary": [
+        "¹⁵⁵˒¹⁵⁶Dy 的谱学复用 Ref. 17；HERA 的三重符合率也是引文。PDF 15–16 的图号指针有错位，BaF₂ 球见 Fig. 13，DAQ 见 Fig. 14。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes",
+      "source_pdf": "raw/papers/detectors/Array/1986_Herskind_The NORDBALL — A multidetector system for the study of nuclear structure.pdf",
+      "sha256": "07967703bd292950bc9ff18a2436e5f6aff41053689aaf406ef8556f56dec77f",
+      "physical_pages": 19
+    },
+    {
+      "id": "catalogue:LIT-000032",
+      "source": "knowledge/sources/lee-1990-gammasphere-array-design.md",
+      "identity": "I.-Y. Lee, Nuclear Physics A 520, 641c–655c (1990), local publisher scan with PII 0375-9474(90)91181-P.",
+      "coverage": [
+        "PDF 1–15（印 641c–655c）全篇，Figs. 1–8、Tables 1–2 以及引文。"
+      ],
+      "boundary": [
+        "Spin Spectrometer 的 ²⁰⁸Pb 粒子–γ 数据来自 Ref. 8；后续使用该方案须按实际门条件、覆盖率和能量响应重新预算。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes",
+      "source_pdf": "raw/papers/detectors/Array/1990_Lee_The GAMMASPHERE.pdf",
+      "sha256": "479ffd68fa6a40c7215a4b12a785de77fae7d9d701b29f5a1121b4171441cbc8",
+      "physical_pages": 15
+    },
+    {
+      "id": "catalogue:LIT-000033",
+      "source": "knowledge/sources/alvarez-1993-gasp-array.md",
+      "identity": "C. Rossi Alvarez, Nuclear Physics News 3(3), 10–13 (1993). Local Taylor & Francis copy with a later download cover.",
+      "coverage": [
+        "PDF 2–5（印 10–13）全篇。PDF 1 是下载封面，PDF 5 下部为广告。"
+      ],
+      "boundary": [
+        "性能数值随反应和几何变化。超形变带连线仅在设备报告中简述，物理归属须回相应谱学原文。"
+      ],
+      "disposition": "covered",
+      "worker": "Pauli",
+      "source_pdf": "raw/papers/detectors/Array/1993_Alvarez_The GASP array.pdf",
+      "sha256": "bef0d288410d7aa6f13d1bd9ab2d1973bfab5be66f12c3f0cd4bc699a5b3ef94",
+      "physical_pages": 5
+    },
+    {
+      "id": "catalogue:LIT-000034",
+      "source": "knowledge/sources/voss-2014-tigress-integrated-plunger.md",
+      "identity": "Voss et al., NIM A 746, 87–97 (2014), Elsevier publisher version.",
+      "coverage": [
+        "PDF 1–11（印 87–97）含正文、Figs. 1–9、附录坐标及 Table A1–A4、参考文献。"
+      ],
+      "boundary": [
+        "台架分辨率与粒子门应用依赖各自几何和反冲条件。反冲距离法及球形 CsI 阵列是文末展望。"
+      ],
+      "disposition": "covered",
+      "worker": "Pauli",
+      "source_pdf": "raw/papers/detectors/Array/2014_Voss et al_The TIGRESS Integrated Plunger ancillary systems for electromagnetic transition.pdf",
+      "sha256": "c2623ac09d3ab4d925c32453e71de303844d390810dacc9e79b9cfb958f1afcb",
+      "physical_pages": 11
+    },
+    {
+      "id": "catalogue:LIT-000036",
+      "source": "knowledge/sources/lieder-1984-bgo-anti-compton-spectrometer.md",
+      "identity": "Lieder et al., NIM 220, 363–370 (1984), local North-Holland publisher scan with PII 0167-5087(84)90297-7.",
+      "coverage": [
+        "PDF 1–8（印 363–370）全篇，Figs. 1–12 及关键书目。"
+      ],
+      "boundary": [
+        "抑制因子与峰总比的积分口径不同。复算依赖 EGS 几何、阈值、死层和原时间谱。"
+      ],
+      "disposition": "covered",
+      "worker": "Pauli",
+      "source_pdf": "raw/papers/detectors/detector/1984_Lieder et al_Design of a bismuth germanate anti-Compton spectrometer and its use in nuclear.pdf",
+      "sha256": "554cea2283d6aeae35c379c006e016b785449edbbde8786aac296850ab380c67",
+      "physical_pages": 8
+    },
+    {
+      "id": "catalogue:LIT-000039",
+      "source": "knowledge/sources/regis-2010-mirror-symmetric-centroid-difference.md",
+      "identity": "Régis et al., NIM A 622, 83–92 (2010), Elsevier publisher version.",
+      "coverage": [
+        "PDF 1–10（印 83–92）全篇，电子学、prompt 标定、MSCD、本底修正和引文。"
+      ],
+      "boundary": [
+        "方法谱系可对读 [[regis-2011-fast-timing-labr3]] 和 [[regis-2015-generalized-centroid-difference]]。逐数据集的重用仍须按门和标定源核对。"
+      ],
+      "disposition": "covered",
+      "worker": "Pauli",
+      "source_pdf": "raw/papers/detectors/detector/LaBr3/2010_Régis et al_The mirror symmetric centroid difference method for picosecond lifetime.pdf",
+      "sha256": "5011b3a78bf2b041126a602c536f3acfe5730cfae3cb2ddabc1049be85d41204",
+      "physical_pages": 10
+    },
+    {
+      "id": "catalogue:LIT-000079",
+      "source": "knowledge/sources/rajbanshi-2017-attractive-shears-a140.md",
+      "identity": "S. Rajbanshi, arXiv:1712.00353v1. Archive stamp 30 Nov 2017; title block in the same file prints 19 Nov 2021.",
+      "coverage": [
+        "本地 PDF 1–8，§§I–V、Figs. 1–9、Table I、引用。"
+      ],
+      "boundary": [
+        "应分别保留旧的转动频率资料和本篇参数模型。实验转移强度及组态未由此计算独立测得。"
+      ],
+      "disposition": "covered",
+      "worker": "Dirac with manager spot check",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/PDFs/Possibility_of_shears_mechanism_due_to_attractive_interaction_in_the_island_of_A_~_140_region.pdf",
+      "sha256": "b16d38a61155e8a3cc402fbd58202d6f20b4dbfb1a185304062b2c486e2a055d",
+      "physical_pages": 8
+    },
+    {
+      "id": "catalogue:LIT-000404",
+      "source": "knowledge/sources/fang-2008-high-spin-188au.md",
+      "identity": "方永得，双奇核 ¹⁸⁸Au 高自旋态能级结构研究，2008，中国科学院研究生院博士学位论文。作者据中英文题名，2009 是 PDF 生成时间。",
+      "coverage": [
+        "PDF 1–97（正文及尾料印 1–89），题名、摘要、目录、第 1–6 章、参考文献及末尾材料。"
+      ],
+      "boundary": [
+        "PDF 96 的 2006 文章是第 5 章研究分支，2007 Clover 文章是第 4 章方法分支。各刊物的具体重用范围需使用刊文原件。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre with manager spot check",
+      "source_pdf": "raw/theses/degree-dissertation/方永得.pdf",
+      "sha256": "7559f64ef9059baa6c6331f50c311405e3669c98b381c88428b2b0a5ce621eaf",
+      "physical_pages": 97
+    },
+    {
+      "id": "catalogue:LIT-000444",
+      "source": "knowledge/sources/guo-song-2009-high-spin-174re.md",
+      "identity": "郭松，双奇核 ¹⁷⁴Re 高自旋能级结构研究，2009，中国科学院研究生院博士学位论文。PDF 生成元数据另记 2022。",
+      "coverage": [
+        "PDF 1–113（正文及尾料印 1–105），前置材料、第 1–8 章、参考文献、发表清单、致谢。"
+      ],
+      "boundary": [
+        "Qₜ 比及相对形变解释依赖两态混合模型。PDF 111 两篇 ¹⁷⁴Re 期刊文章系同一学位研究的分支；PDF 32 的 ¹⁵⁹Tb(²⁰Ne,5n) 来自更早的独立数据。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre with manager spot check",
+      "source_pdf": "raw/theses/degree-dissertation/郭松.pdf",
+      "sha256": "eecb739ce50f87cacc21408b079ffbdd97c21d70c52cb9da16fa636aa758dcac",
+      "physical_pages": 113
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 481,
+    "duplicate-or-related-version": 15,
+    "duplicate-excerpt-linked-to-canonical": 5,
+    "pending-identity-and-coverage": 270,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 6,
+    "existing-source-coverage-to-audit": 193,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 1,
+    "access-placeholder-linked-to-archived-html": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 463,
+  "credited_works": 9,
+  "credited_primary_pages": 284,
+  "partial_volume_pages": 0,
+  "next_action": "Continue the individually assigned local reports and Bohr–Mottelson II PDF 421 (printed 399).",
+  "uncredited": []
+}
