@@ -160,3 +160,9 @@ PDF 20 右栏将 Matsuzaki 等对 \(^{163,167}\mathrm{Lu}\) 的 \(i_{13/2}\) yra
 ## 2026-11-27 — 源码包与刊版图件对照
 
 arXiv:2405.02747 源包的 ¹³⁰Ba `130BaEwob.pdf` 和 `130BaSCS.pdf` 对应 Fig. 17/18（书 Fig. 2.17/2.18），共用 Ref. [40]，区分能量与角动量指向概率。¹³³La 的 Fig. 41（书 Fig. 2.41）用归一化 E2 比值图，未激活的 `133la_BE2_Intraband.pdf` 实为绝对强度图。Fig. 40（书 Fig. 2.40）的 ¹³¹Cs／¹³³La／¹³⁵Pr 对比取原 EPS，另有同图 PDF 转换件。具体文件哈希和 locator 见正式队列的 LIT-000193–000208。
+
+## 2026-11-27 — 转子与摆动章节图件版本核对
+
+源码包图件 LIT-000209–000256 按 `chapter2-mod.tex`、arXiv 版和书第 2 章交叉定位。`135Pr-stag.pdf` 实为 ¹³⁴Ce 的 $S(I)$，见 TeX `f:135Pr-stag`、arXiv PDF 24 Fig. 44、书印 58 Fig. 2.44。`EW_Nomura.pdf` 是 ¹³⁵Pr／¹⁰⁵Pd 的模型与实验摆动能对照，见同页 Fig. 45／书 Fig. 2.45，引用 Ref. [71]/[75]，原文致谢 Nomura 提供精确值。`EWga.pdf` 则是 Eq. (2) 的无旋流惯量函数，见 arXiv PDF 2 Fig. 2／书印 25 Fig. 2.2，两图共享嵌入的旧 TIFF 名称但实际图像不同。
+
+TeX L89 `f:TRM_energy` 的 `rotorinsert.pdf` 在 arXiv 和书版均无独立图号。量子三轴转子能谱与经典轨道在实际两版的 Fig. 3／Fig. 2.3 使用 `TRM_energy_orbits.pdf`。尚未排入的 `SCS_yrast_h5.5.pdf` 亦保留为源码包变体。版本、逐件哈希及图号见队列 LIT-000209–000256。图中实验和计算沿各自原出处追溯。

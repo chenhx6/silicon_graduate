@@ -1,0 +1,96 @@
+{
+  "batch": "20261127-timing-thesis-f",
+  "created_at": "2026-11-27T03:12:04.871395+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000302",
+      "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "identity": "Bohr and Mottelson, Nuclear Structure II, 1975 original, local World Scientific 1998 reissue, 772 physical pages.",
+      "coverage": [
+        "PDF 445–455 (printed 423–433), §§6-5b–g through Eq. (6-229)."
+      ],
+      "boundary": [
+        "E1 屏蔽是模型估计。低频交换的静态公式受能标分离约束。"
+      ],
+      "disposition": "partial",
+      "worker": "Pascal and manager",
+      "source_pdf": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "physical_pages": 772
+    },
+    {
+      "id": "catalogue:LIT-000527",
+      "source": "knowledge/sources/liu-minliang-2004-high-spin-141nd-142pm.md",
+      "identity": "柳敏良，2004，中国科学院研究生院理学博士，近代物理研究所培养，张玉虎指导。题页、全文、发表清单和致谢完好，100 个物理页。",
+      "coverage": [
+        "PDF 1–6 前置，7–36 第 1–4 章，37–67 第 5 章 ¹⁴²Pm，68–91 第 6 章 ¹⁴¹Nd，92–100 总结、参考和发表清单。"
+      ],
+      "boundary": [
+        "学位正文、纲图和表已核。同期刊文的图、表与 run-level 归属有待原刊对照。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre and manager",
+      "source_pdf": "raw/theses/degree-dissertation/柳敏良.pdf",
+      "sha256": "308a4c6745a91cd01237e07390b2cfac0056a0c6f56c7960fbe96bdc5440b7f7",
+      "physical_pages": 100
+    },
+    {
+      "id": "catalogue:LIT-000045",
+      "source": "knowledge/sources/mallaburn-2019-recoil-focal-plane-time-of-flight.md",
+      "identity": "M. J. Mallaburn 等，NIM A 933 (2019)，起页 18。Elsevier 接受稿，PDF 1 封面标注 2019-04-03 接受。",
+      "coverage": [
+        "PDF 1–17，封页、正文 §§1–8、Figs. 1–13、Tables 1–2 和参考文献。"
+      ],
+      "boundary": [
+        "Fig. 13 为给定寿命、计数和植入响应的仿真，省略峰下背景及 PRD 不确定度。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble and manager",
+      "source_pdf": "raw/papers/detectors/detector/LaBr3/2019_Mallaburn et al_A time-of-flight correction procedure for fast-timing data of recoils with.pdf",
+      "sha256": "0ed4c0230b6dc3afc6a4889a7f040cdb20b1c93a8cea10104aade5dd49c964e6",
+      "physical_pages": 17
+    },
+    {
+      "id": "catalogue:LIT-000047",
+      "source": "knowledge/sources/regis-2020-xray-fast-timing-deviations.md",
+      "identity": "J.-M. Régis 等，NIM A 955 (2020), 163258。刊版标注 2019-12-10 在线。",
+      "coverage": [
+        "PDF 1–15，摘要、§§1–7、Figs. 1–16、Tables 1–6、声明与参考文献。"
+      ],
+      "boundary": [
+        "表 5–6 的 ¹³³Cs 384 keV 为 41(4) ps，结论另写 40(4) ps。两个估计法使用同一事件。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble and manager",
+      "source_pdf": "raw/papers/detectors/detector/LaBr3/2020_Régis et al_γ - γ fast timing at X-ray energies and investigation on various timing.pdf",
+      "sha256": "3b5550851c23e52e77fd58f6bfe6b23673061654f6ed84eff3b60c4a5723ed92",
+      "physical_pages": 15
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 498,
+    "duplicate-or-related-version": 19,
+    "duplicate-excerpt-linked-to-canonical": 7,
+    "pending-identity-and-coverage": 234,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 6,
+    "existing-source-coverage-to-audit": 186,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 1,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 19,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 420,
+  "credited_works": 3,
+  "credited_primary_pages": 132,
+  "partial_volume_pages": 11,
+  "next_action": "Continue Bohr–Mottelson II PDF 456 (printed 434) and verify the next independently assigned originals.",
+  "uncredited": []
+}

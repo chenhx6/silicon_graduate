@@ -3,7 +3,7 @@ type: source
 title: "柳敏良 2004 博士论文：N=81 近球形141Nd 和142Pm 高自旋态"
 aliases: [柳敏良141Nd142Pm论文, Liu Minliang N81 thesis]
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-experiment
@@ -70,3 +70,11 @@ tags: [near-spherical, high-spin, a130, phd-thesis]
 ## Extracted Pages
 
 - 题名页/摘要：PDF pp.1–4；`142Pm` Ch.5、`141Nd` Ch.6；总结：PDF p.92。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 39–43（印 33–37）记录 ¹²⁸Te(¹⁹F,5n) 的 90 MeV 正式采集、400 ns 符合窗与 I(40°)/I(90°) 的约 1.25／0.75 四极和偶极参考。PDF 47–52 的图 5.7–5.12 通过激发函数和门谱区分约 882 keV 的 ¹⁴²Pm、¹⁴¹Pm 成分，图 5.10 将 67 μs 态置于 2828.5 keV。寿命采用前作，新的位置据本次符合证据；PDF 53–54、62–66 的自旋宇称与四空穴组态属于组合证据与模型解释。
+
+PDF 70–74（印 64–68）是另一次 ¹³⁰Te(¹⁶O,5n) 的 85 MeV 采集，250 ns 差别应保留，I(35°)/I(90°) 四极／偶极参考约 1.17／0.68。图 6.3、表 6.1 与 PDF 82–83 图 6.7 记录八条级联线，最低位与最高位跃迁分别为 491.6 和 789.5 keV，门谱与已知 ¹⁴¹Nd 强线符合。作者提出整串 E2 和 23/2 或 25/2 带底，未见连接主纲图的跃迁，绝对位置未定。
+
+PDF 99 的发表清单归并 ¹⁴²Pm 第 5 章及 ¹⁴¹Nd 第 6 章各自的论文谱系。¹⁴¹Nd 的中英文粒子–核芯耦合条目共用研究分支。第 5 章图 5.9 的 Bhattacharya ¹³³Cs(¹³C,4n) 为另一反应，不能与本次事件混同。

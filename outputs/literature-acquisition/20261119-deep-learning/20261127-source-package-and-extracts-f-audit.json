@@ -1,0 +1,940 @@
+{
+  "batch": "20261127-source-package-and-extracts-f",
+  "created_at": "2026-11-27T03:14:10.980395+00:00",
+  "queue_counts": {
+    "scientific-reading-covered": 498,
+    "duplicate-or-related-version": 19,
+    "duplicate-excerpt-linked-to-canonical": 7,
+    "pending-identity-and-coverage": 166,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 6,
+    "existing-source-coverage-to-audit": 186,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "publisher-first-page-extract-fulltext-unavailable": 3,
+    "access-placeholder-fulltext-unavailable": 1,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 84,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 352,
+  "records": [
+    {
+      "work_id": "catalogue:LIT-000209",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/135Pr-stag.pdf",
+      "sha256": "6c94eb6e0d0d7cc8f54f663d0d23b34efb6dc98d627f4aad1d773ff837cb36fd",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L1529 `f:135Pr-stag`；arXiv PDF 24 Fig. 44；书 p. 58 Fig. 2.44",
+      "boundary": "真实核素是 ¹³⁴Ce，按 Fig. 44 caption、正文软芯段和图上的 `S(I)` 定位。图含实验、Bohr 哈密顿量和 TPSM 三组。`135Pr-stag` 是包内文件名，不能用于核素归属。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000210",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/135PrEwob.pdf",
+      "sha256": "7d8f920f1d9ccb7576d3b4b0b217526ed179df567da50253be19430b6a02080e",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L682 `f:135PrEwobb`；arXiv PDF 10 Fig. 15；书 p. 37 Fig. 2.15",
+      "boundary": "¹³⁵Pr TW1/TW2 摆动能比较，重刊 Ref. [36]，内含 Ref. [30] 的拟合惯量 QTR/TPSM、Ref. [35] 的无旋流惯量 QTR 等。与 000208 共享相关能级和模型谱系，区别于 000207 的早期单模型比较。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000211",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/136Nd_EW.pdf",
+      "sha256": "9f61f99d5f10da3bddc13f212dd1efe287dda7841d554e92423f4af4e7928600",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L1483 `f:TPSM_136Nd_EW`；arXiv PDF 23 Fig. 42；书 p. 57 Fig. 2.42",
+      "boundary": "¹³⁶Nd `L1/L3` 候选带能量及摆动能插图，重刊 Ref. [69]；000216 为同一来源选取的 SCS 面板。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000212",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/151Eu.pdf",
+      "sha256": "fddc704096d1a319f083d0a6efcbff2dee0618e617a61321525a6d1885701814",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L1541 `f:151Eu`；arXiv PDF 25 Fig. 46；书 p. 59 Fig. 2.46",
+      "boundary": "双面板图。左为 ¹⁵¹Eu 摆动能及 TPSM 对照（Ref. [37]），右为 ¹⁵⁰Sm 能量、带内 E2 和交错参数（Ref. [77]）；两个核与两条出处分别记。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000213",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/163Lu_BE2_interband.pdf",
+      "sha256": "a523effc8521475f1a6c88363ae42bd13fa14993470e72950de8d03a3102e3c8",
+      "physical_pdf_pages": 1,
+      "locator": "TeX 无激活的 includegraphics，父章无独立图号",
+      "boundary": "源码包另图，¹⁶³Lu TSD 带间绝对 `B(E2)`（含 TSD2→TSD1 实验点），父章使用 000218 的带外／带内比图；本件无可确认的章内面板。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000214",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/163Lufig4.pdf",
+      "sha256": "9d66f1861602829cccc8b9bb605db62a887b158832aa082776a68e428c157e89",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L502 `f:wob-crank`；arXiv PDF 7 Fig. 8；书 p. 33 Fig. 2.8",
+      "boundary": "粒子—芯角动量耦合示意，区分 cranking 与一声子 wobbling；重刊 Ref. [19]，属于几何说明。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000215",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/163Lufig5.pdf",
+      "sha256": "c00ebef5ee381c4c021602a90f3116edd4bd05e9eafea510d7b68148cd2253aa",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L509 `f:163LuBE2M1`；arXiv PDF 7 Fig. 9；书 p. 33 Fig. 2.9",
+      "boundary": "¹⁶³Lu TSD2→TSD1 的 E2、M1 带外／E2 带内两种比值，重刊 Ref. [19]，图注还指 Refs. [24,25]；与 000254 的后续 QTR 图保留不同模型出处，实验依赖分开追溯。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000216",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/163Nd_SCS.pdf",
+      "sha256": "81c9788bf22c63de6106dcf517cf768fc751a97a904ac0fbee566c1f43f14dc9",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L1489 `f:TPSM_136Nd_SCS`；arXiv PDF 23 Fig. 43；书 p. 57 Fig. 2.43",
+      "boundary": "真实核素 ¹³⁶Nd，由 Fig. 43 caption、TeX label、L1/L3 六格图和 Ref. [69] Fig. 3 的选图声明锁定。`163Nd` 为包内文件名异文，与 000211 共用来源。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000217",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/163lu_BE2_Inband_I_Im2.pdf",
+      "sha256": "f6b96883374b9d3db09d23160230d21d9a4239073a984ae05c759c669b000f5d",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L1428 `f:TPSM_163Lu_BE2in`；arXiv PDF 22 Fig. 39；书 p. 55 Fig. 2.39",
+      "boundary": "¹⁶³Lu 带内 `B(E2; I→I−2)`，第 12 章 TPSM，与 000218/219 的比值图分开定位。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000218",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/163lu_BE2out_bein.pdf",
+      "sha256": "0a691180ae21d4f51a617db223c5ceccf49327f71a87118d735c06b398ac2ca1",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L1412 `f:TPSM_163Lu_BE2iout/in`；arXiv PDF 22 Fig. 37；书 p. 54 Fig. 2.37",
+      "boundary": "¹⁶³Lu `B(E2)out/B(E2)in`，第 12 章 TPSM。TSD 带及其比较依赖同一模型／实验谱系，和 000213 的绝对 E2 强度图分开。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000219",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/163lu_Bmout_bein.pdf",
+      "sha256": "acf2e28d33e079d6737ed8921600c6ef22b2007b36c21ceb91f39760bd10b36e",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L1422 `f:TPSM_163Lu_BM1`；arXiv PDF 22 Fig. 38；书 p. 55 Fig. 2.38",
+      "boundary": "¹⁶³Lu `B(M1)out/B(E2)in`，第 12 章 TPSM，分母为带内 E2；与 000234/239 的 RPA 模型比较分开。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000220",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/163lu_wobbling.pdf",
+      "sha256": "fddecf3a0251ec2732c64a3989d7029b29ed060073904bb198d7d2e408b5f7fb",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L1407 `f:TPSM_163Lu_EW`；arXiv PDF 22 Fig. 36；书 p. 54 Fig. 2.36",
+      "boundary": "¹⁶³Lu 摆动能，第 12 章 TPSM，图注致谢 G. Bhat 私人通信；与 000217–219 共享模型来源。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000221",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/BE2_130Ba.pdf",
+      "sha256": "d55295b9a27d27a5e63232611e9d2ca892380f9dc487ea8ccf044e1f6170d61b",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L1164 `f:130BaPTR-CH`；arXiv PDF 18 Fig. 28；书 p. 49 Fig. 2.28",
+      "boundary": "¹³⁰Ba PTR 点、CH 曲线的带内／带外绝对 E2，和 000227 能量图组成 Fig. 28。arXiv PDF 18 版面为 E2 位于能量之下，书 p. 49 的图注称右面板；可按物理量和 TeX 文件定位。000194 是另外一张比值表图。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000222",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/ClassAngle.pdf",
+      "sha256": "89cb2e01241abb348ee2a19faa4c7e23ca57a83db8b168c3b9b4105dae0ae51f",
+      "physical_pdf_pages": 1,
+      "locator": "TeX 无激活的 includegraphics，父章无独立图号",
+      "boundary": "未被 TeX 单独调用的图稿。目视同 000205 对照，两条曲线、点序和自旋轴重合，`φJ/φj` 与区域标字不同。作为 Fig. 20 的图形变体挂接，父章用 000205；未逐点复算。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000223",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/ClassAngle_h4.5.pdf",
+      "sha256": "4779b43e4e2858342429415657644bae4c9db571c33564ba1b0f422733f2be39",
+      "physical_pdf_pages": 1,
+      "locator": "TeX 无激活的 includegraphics，父章无独立图号",
+      "boundary": "未排入父章的 ¹⁸⁷Au `h9/2` 经典方位角图；核素、角度单位和曲线由图内标注确认，与 000205/222 的 ¹³⁵Pr 对照图区分。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000224",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/EWRuga19.pdf",
+      "sha256": "4f60f73a32f12fb74a62609234f5ba48e8673e1d731eae3a5c7ed39b75e4c3c5",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L362 `f:Ruga19`；arXiv PDF 5 Fig. 7；书 p. 31 Fig. 2.7",
+      "boundary": "¹¹²Ru 实验与 `γ=19°` 三轴转子对照，实验回 Ref. [10]。PDF title 为 `EWga.tif`，Preview/Quartz 单栅格封装；本地未见 TIF 原字节。图像解码样本 SHA-256 `932266ed9143942b43534a489eb13f5e525c62b3bcd344b32784cd7a6cf0c2fc` 在父 PDF p. 5 相同，与标题同名的 000225/226 不同。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000225",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/EW_Nomura.pdf",
+      "sha256": "8cccf7e4b96cccad07d3017fe98a204f5e4b8243a6e8329a1793335adc43709e",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L1535 `f:Nomura`；arXiv PDF 24 Fig. 45；书 p. 58 Fig. 2.45",
+      "boundary": "软芯模型与 ¹³⁵Pr/¹⁰⁵Pd 实验摆动能对照。L/N 分别回 Ref. [71]/[75]；正文致谢 Nomura 私人提供精确值。Preview/Quartz PDF 的 title `EWga.tif` 与另两件相同，源包无 TIF 原字节。解码图像 SHA-256 `258502a504ccfd4e695fafedf1f85df80e3760ebacdd81693f1909ad26b0cc02` 与父 PDF p. 24 相同。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000226",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/EWga.pdf",
+      "sha256": "c8029576c158a9388d903ac319ab2c411916f702ea3be284039dc42c533f9250",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L132 `f:kap-ga`；arXiv PDF 2 Fig. 2；书 p. 25 Fig. 2.2",
+      "boundary": "无旋流惯量的 `κ(γ)` 理论曲线，接父章 Eq. (2)。Preview/Quartz PDF title `EWga.tif`；源包无 TIF 原字节。解码图像 SHA-256 `971c0fd9ab1660006459faaa8124c0d677bdfd5873315f5ec34a840025d5bd33` 与父 PDF p. 2 相同，与 000224/225 各异。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000227",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/Energy_130Ba.pdf",
+      "sha256": "f7b7ba179de98c0a90ae9b1f2e17da527bcc216dc30c7b85c0f572937e70fd77",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L1163 `f:130BaPTR-CH`；arXiv PDF 18 Fig. 28；书 p. 49 Fig. 2.28",
+      "boundary": "¹³⁰Ba 能量比较子图，和 000221 的 E2 子图共用 Fig. 28、Ref. [42]；arXiv PDF 18 中能量置于 E2 上方。图注说明能量整体移低 0.2 MeV，PTR 为点，CH 为实线，绝热经典能量为虚线。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000228",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/HFA.pdf",
+      "sha256": "bb9de9c77160a0758b2695cb700a9a67e8d3c53bffbb6e4f98af26da1a7b75de",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L1079 `f:HFA`；arXiv PDF 16 Fig. 26；书 p. 47 Fig. 2.26",
+      "boundary": "不同 γ 的 HFA 摆动能模型曲线，重刊 Ref. [49]。与 000229 的 ¹³⁵Pr 拟合图属于同一出处。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000229",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/HFA135Pr.pdf",
+      "sha256": "a9d93eeb3b82d388d790a5646e9ddde19356a93684f5633ee9eaa69223f0cf4a",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L1084 `f:135PrHFA`；arXiv PDF 16 Fig. 27；书 p. 47 Fig. 2.27",
+      "boundary": "¹³⁵Pr 实验摆动能和 HFA 调整结果，重刊 Ref. [49]，与 000228 共用来源。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000230",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/Jgam.pdf",
+      "sha256": "7d9052b77bfb5b093db1f4ca86f3959cb1da23772a80f900c2a00fd80123357e",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L125 `f:Jgam`；arXiv PDF 2 Fig. 1；书 p. 25 Fig. 2.1",
+      "boundary": "厚线为无旋流惯量，细线为指定 `Z=68,N=96`、配对和形变输入的微观 cranking；重刊 Ref. [3]，父图采用 Copenhagen γ 符号，原文 Lund 符号相反。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000231",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/Li.pdf",
+      "sha256": "26602cd0a78f110bee642066261c4c2f0eeaa62eac06cc00fb2538c325612ce7",
+      "physical_pdf_pages": 1,
+      "locator": "TeX 无激活的 includegraphics，父章无独立图号",
+      "boundary": "备用图内题为 ACM 的 ¹³⁴Ce 芯耦合成 ¹³⁵Pr，展示 yrast、wobbling、SP 的减参照能级。与 Fig. 45 的 Li 模型讨论相关，Fig. 45 嵌入的是 000225 摆动能对照图；此包内能级图未核定为其逐点输入或父页面板。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000232",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/Presentation2.pdf",
+      "sha256": "a0524362420eab661027ce06d3086e33992bf69d043c163d7a7819573a6bde28",
+      "physical_pdf_pages": 1,
+      "locator": "TeX 无激活的 includegraphics，父章无独立图号",
+      "boundary": "TeX 实际载入 000204，但本件和 000204 及 arXiv PDF 12 Fig. 19 的三幅 360×189 底图各逐像素一致。解码像素 SHA-256 依次为 `82123cf61ff736715f6a79c7863f6e7c0599ea96d967f6e26dc01a06242bbe7d`、`aa56473c8312ce106dd7ab48c6d58c8395ac0e45af9ff9cad6108572e3d7244c`、`1789c1cebdff1fe43ab32280d87d5a304913d77a0d540c9e5f22a9ca292d0431`。两 PDF 整页排版与边界有别，以面板复用挂接 Fig. 19／书 p. 41 Fig. 2.19。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000233",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/RPA_163Lu_BE2_Mat.pdf",
+      "sha256": "ad205dc2b3ca43235d902ac97f4cad5c0236620e8cab49ae31b2d115698c1f1d",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L1288 `f:RPA_BE2_mat`；arXiv PDF 20 Fig. 32；书 p. 52 Fig. 2.32",
+      "boundary": "¹⁶³Lu 的 RPA `B(E2)out/B(E2)in` 比，重刊 Matsuzaki 等 Ref. [65]，和 000234–236 同来源。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000234",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/RPA_163Lu_BM1_Mat.pdf",
+      "sha256": "fa7c783fde8516bdb8c0ff6e149f972063e796d254039448a3a5dcd84605a003",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L1293 `f:RPA_BM1_mat`；arXiv PDF 20 Fig. 33；书 p. 52 Fig. 2.33",
+      "boundary": "¹⁶³Lu 的 RPA `B(M1)out/B(E2)in` 比，重刊 Ref. [65]；与 Ref. [67] 的 000239 分列模型谱系。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000235",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/RPA_163Lu_EW_Mat.pdf",
+      "sha256": "351c8ba4bb3531a400701ca4ad022a2290893a1cd9f513368a2dc0e665863838",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L1275 `f:RPA_EW_mat`；arXiv PDF 19 Fig. 30；书 p. 51 Fig. 2.30",
+      "boundary": "¹⁶³Lu 摆动能和短轴进动锥开角，右轴以度计，重刊 Ref. [65]，与 000240 的另一 RPA 方案分列。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000236",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/RPA_163Lu_J_Mat.pdf",
+      "sha256": "bc24ec20e1dcf2c280373d959314e90116c84d100821aa0edfb139ad54b2440b",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L1281 `f:RPA_J_mat`；arXiv PDF 19 Fig. 31；书 p. 51 Fig. 2.31",
+      "boundary": "¹⁶³Lu RPA 惯量，对应父章 Eq. (36)，图注 `x,y,z` 对应 `1,2,3`；重刊 Ref. [65]。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000237",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/RPA_BE21BE22NS.pdf",
+      "sha256": "e92431901126bf046ca60d63079b295b312ea20acb0d1488177169df07fc7902",
+      "physical_pdf_pages": 1,
+      "locator": "TeX 无激活的 includegraphics，父章无独立图号",
+      "boundary": "未排入父章的 ¹⁶³Lu RPA E2 比值图，含 `exp`、`calc. NS`、`calc. g30`。Fig. 32 直接载入 000233，计算标签和来源按各图分开。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000238",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/RPA_BE22.pdf",
+      "sha256": "e3795836b687c464f8ba924d87bedd440730d06107a23d1e47ac8dece500c3c4",
+      "physical_pdf_pages": 1,
+      "locator": "TeX 无激活的 includegraphics，父章无独立图号",
+      "boundary": "未排入父章的 ¹⁶³Lu RPA 带内 E2，轴图显示 `B(E22)`，含 `exp`、`calc. ISQQ`、`calc. NS`。与 000237 同为 E2 图件，纵轴物理量不同。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000239",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/RPA_BM11-LL.pdf",
+      "sha256": "dee434224afa3b3b99cea5912fa0b4a7260b294df0f05a2758e50d50a0c62e06",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L1377 `f:RPA_BM1_FD`；arXiv PDF 21 Fig. 35；书 p. 54 Fig. 2.35",
+      "boundary": "¹⁶³Lu 的 RPA 带外 M1／带内 E2 比，重刊 Frauendorf–Dönau Ref. [67]，和 000240 共用 `QQsc` 与加 `LL` 方案的出处。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000240",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/RPA_ewob-LL.pdf",
+      "sha256": "e7ca80643816afe49cb097e4d97d10422a85a850c85af1f699beffb9e485e94d",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L1373 `f:RPA_BEW_FD`；arXiv PDF 21 Fig. 34；书 p. 54 Fig. 2.34",
+      "boundary": "¹⁶³Lu 的 RPA 摆动能，重刊 Ref. [67]。正文的 `QQsc+LL` 对照应按曲线识别，实验数据与其他图中的复用不增加实验次数。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000241",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/RPAewob-NS.pdf",
+      "sha256": "bcc04cea5077c3a41b8a4e656a9144b63faddeacbca51ec106bd8fc62902d439",
+      "physical_pdf_pages": 1,
+      "locator": "TeX 无激活的 includegraphics，父章无独立图号",
+      "boundary": "未排入的 ¹⁶³Lu RPA 摆动能对照，图例为 `calc γ=30`、`calc NS`、`exp`。与 000240 共享摆动能比较主题，Fig. 34 使用 000240 的 `QQsc`／`QQsc+LL` 图。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000242",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/Raduta2020.pdf",
+      "sha256": "e9bd14c606cf0488d2f96ec975b7e51e2ad62501ef077573f630b19862ae2c6d",
+      "physical_pdf_pages": 1,
+      "locator": "TeX 无激活的 includegraphics，父章无独立图号",
+      "boundary": "源码包备用 `E−Eref` 随自旋图。包内文件名与父章 p. 17 Ref. [58] 的 Raduta 讨论相符，邻文提到对公开能量作图及私人通信；此页无核素或系列图例，未确认计算材料的逐项对应，未排入成图。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000243",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/SCS-135Pr.pdf",
+      "sha256": "4ea316994ef9501c25ab151606bb544c7ea4e604bb498ec385f5fd9d27d246c1",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L915 `f:135PrSCS`；arXiv PDF 13 Fig. 22；书 p. 43 Fig. 2.22",
+      "boundary": "¹³⁵Pr 的 PTR 约化密度 SCS 图，三行对应 TW/FM/LW，黑线为相同能量的经典轨道。计算回 Ref. [27]，图注致谢 Q. B. Chen 作图；与 000204 的经典势面属于不同表示。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000244",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/SCS-TR.pdf",
+      "sha256": "2831f15a9e9c3312486b24c3ced034a78005bc99870a1ff13fd30d39bfa936fe",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L263 `f:TRmaps1`；arXiv PDF 4 Fig. 5；书 p. 29 Fig. 2.5",
+      "boundary": "三轴转子 `8₁–8₅,9₁` 的 SCS 图，黑线为经典轨道，与 Fig. 3 的量子能量配对，绿圈示有限角分辨率。重刊 Ref. [4]，与 000249 相互依赖。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000245",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/SCS_yrast_h4.5.pdf",
+      "sha256": "980a01d9a463b53d8d505ee36acf95a633395ca5025063090ff4a7c4228f3fb6",
+      "physical_pdf_pages": 1,
+      "locator": "TeX 无激活的 includegraphics，父章无独立图号",
+      "boundary": "未排入的 yrast SCS 变体，自旋标签 `6.5,8.5,10.5,12.5`。物理核素和计算参数在单页无明示，本轮按图内标签登记。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000246",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/SCS_yrast_h5.5.pdf",
+      "sha256": "07afe570afab9afa364eab68d20efb250570718c41318067ea61dd230b94e2f8",
+      "physical_pdf_pages": 1,
+      "locator": "TeX 无激活的 includegraphics，父章无独立图号",
+      "boundary": "未排入的 yrast SCS 变体，自旋标签 `5.5,7.5,9.5,11.5`，与 000245 为不同自旋组。没有可核定的父页面板。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000247",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/SSS_130Ba.pdf",
+      "sha256": "e1b614cedbf8b051ae2294682c846ae445ad66ffbf65310de61245f6008178d8",
+      "physical_pdf_pages": 1,
+      "locator": "TeX 无激活的 includegraphics，父章无独立图号",
+      "boundary": "与 000197 目视对照，¹³⁰Ba SSS 的面板网格、态／自旋标注以及红蓝曲线相符；本件边界和排版为另一文件，未逐点比对。作为 Fig. 29／书 p. 50 Fig. 2.29 的同内容图稿挂接，TeX 用 000197。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000248",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/SSS_135Pr.pdf",
+      "sha256": "dc3e6cd79f5899ed2af09ffebb6adb697a62ee9cca1795f9c5371bd0d9e9f075",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L952 `f:135PrSSS`；arXiv PDF 14 Fig. 24；书 p. 45 Fig. 2.24",
+      "boundary": "¹³⁵Pr `n=0–3` 的 SSS 密度，完整 PTR 实线、CH 虚线，重刊 Ref. [42]。与 000197 同方法而核素不同。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000249",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/TRM_energy_orbits.pdf",
+      "sha256": "e4968992fe09b45d6889deca9595427e248f24c080c0012061d85661787aed22",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L181 `f:TRM_energy_orbits`；arXiv PDF 3 Fig. 3；书 p. 27 Fig. 2.3",
+      "boundary": "Fig. 3 由本文件整体载入，左侧经典轨道，右侧量子三轴转子能谱；Ref. [4]/[27] 重刊并增补。与 000256 共享转子能量主题；目视右图的范围和版式有别，未证实为 000256 的原样裁切。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000250",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/TRiom.pdf",
+      "sha256": "bd3dac6c4a6817fb6bcf6a9b30e7084bfc26cb6b8facc15be63a9a9d2d911881",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L302 `f:EWTRga`；arXiv PDF 4 Fig. 6；书 p. 30 Fig. 2.6",
+      "boundary": "不同 γ 的摆动能计算演示（父图注使用「experimental wobbling energies」公式名）；模型取无旋流惯量。按 Fig. 6 和 Eq. (8) 区分公式称呼与实际数据来源。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000251",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/TW-FM-LW.pdf",
+      "sha256": "676e7dce2d481ae7299d2c631875d4c11ded2a29a31a1277e9a7a3d6e46b4ea4",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L859 `f:TW-FM-LW`；arXiv PDF 13 Fig. 21；书 p. 42 Fig. 2.21",
+      "boundary": "TW、FM、LW 的进动锥示意，绿为粒子 `j`，红为总 `J`。挂接概念插图，无独立数值或实验学分。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000252",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/TWETAC.pdf",
+      "sha256": "da312f697f5c3177702e8344cabe1580a5529ce1bac775d85616058b1cdf25b4",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L937 `f:Vad`；arXiv PDF 14 Fig. 23；书 p. 44 Fig. 2.23",
+      "boundary": "¹³⁵Pr 经典绝热势 `V(φ)=Ead(π/2,φ)` 与 PTR 相对能级，重刊并改绘自 Ref. [4]；缺指定 `n` 的位置用相邻自旋平均，见图注。与 000204/205 共用模型语境。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000253",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/firstSCS.pdf",
+      "sha256": "99784c6e4e6ff2fda4343c8b9af4bedb02e8fb39d709337ac2eee4493e735cc4",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L232 `f:firstSCS`；arXiv PDF 3 Fig. 4；书 p. 28 Fig. 2.4",
+      "boundary": "¹³⁴Pr 粒子—空穴加转子计算的首例 SCS 示图。两版 caption 的计算引文槽均有 `[?]`，转载声明给 Ref. [6]（Frauendorf 2015 Nordita 幻灯片）。图件身份由 TeX、caption 和邻文闭合；保留计算引文槽缺失。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000254",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/lu163be2fit.pdf",
+      "sha256": "7e7ec00b81f7b6490f9861f7d8402aef77af0052a253fba82a49597e3bc74fc8",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L528 `f:163LuBE2`；arXiv PDF 8 Fig. 11；书 p. 34 Fig. 2.11",
+      "boundary": "¹⁶³Lu 后续 QTR/HFA 强度图，重刊 Ref. [27]。父章 Fig. 11 caption 提到 E2 和 M1 两个比值，本文件与成图可见纵轴为 E2 带外／带内比；M1 另回 Ref. [27] 或本章 Fig. 9，勿从此页提数。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000255",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/lu163ewobfit.pdf",
+      "sha256": "e8140c5c28efdb4076f07229f95e3d9c44f0bfd2f01bb7083a8e3fcf0ad7642a",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L518 `f:163LuEwob`；arXiv PDF 7 Fig. 10；书 p. 34 Fig. 2.10",
+      "boundary": "¹⁶³Lu TSD2/TSD3 实验摆动能与 PTR/QTR 拟合，重刊 Ref. [27]，和 000254 共用出处。与第 12 章 TPSM 的 000220 分列。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000256",
+      "canonical_work_id": "catalogue:LIT-000412",
+      "source": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "raw_file": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/rotorinsert.pdf",
+      "sha256": "4c1f64fd68976a361fbca343d8af6951c246f36f4393f9c0fb72d3ed1d13985f",
+      "physical_pdf_pages": 1,
+      "locator": "TeX L89 `f:TRM_energy`；两版无此独立图号",
+      "boundary": "TeX 开头有激活的三轴转子能量和 `D₂` 子集插图，caption 给 `κ=0.24`；arXiv 与刊版均无该独立图及 caption。对照两版 Fig. 3 所用 000249 的右面板，主自旋范围、插图和编排有别。以 TeX 稿件图保留，不承接两版 Fig. 1 的编号。",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000940",
+      "canonical_work_id": "doi:10.1140/epja/s10050-020-00206-9",
+      "source": "knowledge/sources/jehangir-2020-high-spin-doublet-bands-194-200tl.md",
+      "raw_file": "raw/papers/gpt/query/20261107-six-region-transfer/arxiv-2007-12347/source/104Tl_200Tl_Be2_excitedbands1.pdf",
+      "sha256": "aca28cf1e4c242f4457760f5abd3d685628f72a874299d30d24c279bbbad842e",
+      "physical_pdf_pages": 1,
+      "locator": {
+        "author_draft_figure_order": 17,
+        "labels": [
+          "figMcb1"
+        ],
+        "tex_lines": [
+          756,
+          761
+        ]
+      },
+      "boundary": "Author TeX figure, journal numbering and source data not inferred",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000941",
+      "canonical_work_id": "doi:10.1140/epja/s10050-020-00206-9",
+      "source": "knowledge/sources/jehangir-2020-high-spin-doublet-bands-194-200tl.md",
+      "raw_file": "raw/papers/gpt/query/20261107-six-region-transfer/arxiv-2007-12347/source/104Tl_200Tl_Bm1_be2_10apri2.pdf",
+      "sha256": "b9654a9bf538b880f8563dcce51feefcde5b3c939feb4cb1852894ddfe41191c",
+      "physical_pdf_pages": 1,
+      "locator": {
+        "author_draft_figure_order": 9,
+        "labels": [
+          "fig2m1e2"
+        ],
+        "tex_lines": [
+          631,
+          636
+        ]
+      },
+      "boundary": "Author TeX figure, journal numbering and source data not inferred",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000942",
+      "canonical_work_id": "doi:10.1140/epja/s10050-020-00206-9",
+      "source": "knowledge/sources/jehangir-2020-high-spin-doublet-bands-194-200tl.md",
+      "raw_file": "raw/papers/gpt/query/20261107-six-region-transfer/arxiv-2007-12347/source/104Tl_200Tl_Bm1_be2_10april.pdf",
+      "sha256": "9a425a06bc3482f75de99d1256ffaefbad0ea50225ca72add6b5b9725b35fa70",
+      "physical_pdf_pages": 1,
+      "locator": {
+        "author_draft_figure_order": 8,
+        "labels": [
+          "fig1m1e2"
+        ],
+        "tex_lines": [
+          623,
+          628
+        ]
+      },
+      "boundary": "Author TeX figure, journal numbering and source data not inferred",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000943",
+      "canonical_work_id": "doi:10.1140/epja/s10050-020-00206-9",
+      "source": "knowledge/sources/jehangir-2020-high-spin-doublet-bands-194-200tl.md",
+      "raw_file": "raw/papers/gpt/query/20261107-six-region-transfer/arxiv-2007-12347/source/194Tl_MOI_excitedBands.pdf",
+      "sha256": "501909d97f30f48d316b4aa7de516af6b0140207376f701a4f800edf61ff3a32",
+      "physical_pdf_pages": 1,
+      "locator": {
+        "author_draft_figure_order": 16,
+        "labels": [
+          "MOI194tl"
+        ],
+        "tex_lines": [
+          743,
+          750
+        ]
+      },
+      "boundary": "Author TeX figure, journal numbering and source data not inferred",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000944",
+      "canonical_work_id": "doi:10.1140/epja/s10050-020-00206-9",
+      "source": "knowledge/sources/jehangir-2020-high-spin-doublet-bands-194-200tl.md",
+      "raw_file": "raw/papers/gpt/query/20261107-six-region-transfer/arxiv-2007-12347/source/194_200Tl_corediff_28April2020.pdf",
+      "sha256": "e4082565e1f5faa67d265eb4faf111d775e168c7772f6c7cbd1c7c0a74b5a159",
+      "physical_pdf_pages": 1,
+      "locator": {
+        "author_draft_figure_order": 15,
+        "labels": [
+          "Thexpt"
+        ],
+        "tex_lines": [
+          732,
+          740
+        ]
+      },
+      "boundary": "Author TeX figure, journal numbering and source data not inferred",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000945",
+      "canonical_work_id": "doi:10.1140/epja/s10050-020-00206-9",
+      "source": "knowledge/sources/jehangir-2020-high-spin-doublet-bands-194-200tl.md",
+      "raw_file": "raw/papers/gpt/query/20261107-six-region-transfer/arxiv-2007-12347/source/Alignment_194_200tl_March15.pdf",
+      "sha256": "a84398d7787c694fdd20a5d4b8862745cfb883a6eb49499eb6934092f010905f",
+      "physical_pdf_pages": 1,
+      "locator": {
+        "author_draft_figure_order": 3,
+        "labels": [
+          "figi4"
+        ],
+        "tex_lines": [
+          575,
+          580
+        ]
+      },
+      "boundary": "Author TeX figure, journal numbering and source data not inferred",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000946",
+      "canonical_work_id": "doi:10.1140/epja/s10050-020-00206-9",
+      "source": "knowledge/sources/jehangir-2020-high-spin-doublet-bands-194-200tl.md",
+      "raw_file": "raw/papers/gpt/query/20261107-six-region-transfer/arxiv-2007-12347/source/Alignment_SIDEBAND_april19_194_200tl_March15.pdf",
+      "sha256": "ffef14dfdfb25e66a095b5ee1c86fb096636c197c9528f14aa1e45655868b2e3",
+      "physical_pdf_pages": 1,
+      "locator": {
+        "author_draft_figure_order": 4,
+        "labels": [
+          "figi5"
+        ],
+        "tex_lines": [
+          584,
+          589
+        ]
+      },
+      "boundary": "Author TeX figure, journal numbering and source data not inferred",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000947",
+      "canonical_work_id": "doi:10.1140/epja/s10050-020-00206-9",
+      "source": "knowledge/sources/jehangir-2020-high-spin-doublet-bands-194-200tl.md",
+      "raw_file": "raw/papers/gpt/query/20261107-six-region-transfer/arxiv-2007-12347/source/BE2_194_200Tl_15March.pdf",
+      "sha256": "2a1c581691dfe66a68a759563333daf8b895be7cfb9ce642d0f69a361c8b01f5",
+      "physical_pdf_pages": 1,
+      "locator": {
+        "author_draft_figure_order": 6,
+        "labels": [
+          "fige2"
+        ],
+        "tex_lines": [
+          603,
+          607
+        ]
+      },
+      "boundary": "Author TeX figure, journal numbering and source data not inferred",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000948",
+      "canonical_work_id": "doi:10.1140/epja/s10050-020-00206-9",
+      "source": "knowledge/sources/jehangir-2020-high-spin-doublet-bands-194-200tl.md",
+      "raw_file": "raw/papers/gpt/query/20261107-six-region-transfer/arxiv-2007-12347/source/BE2_BM1_Transitions_194_200Tl_referee_v2Fig.pdf",
+      "sha256": "19cb9235fe000c0a017df0e5665ae958ded62152b70fab804c9ef859d47c81f0",
+      "physical_pdf_pages": 1,
+      "locator": {
+        "author_draft_figure_order": 10,
+        "labels": [
+          "figMcbb"
+        ],
+        "tex_lines": [
+          639,
+          645
+        ]
+      },
+      "boundary": "Author TeX figure, journal numbering and source data not inferred",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000949",
+      "canonical_work_id": "doi:10.1140/epja/s10050-020-00206-9",
+      "source": "knowledge/sources/jehangir-2020-high-spin-doublet-bands-194-200tl.md",
+      "raw_file": "raw/papers/gpt/query/20261107-six-region-transfer/arxiv-2007-12347/source/BM1_194_200Tl_15March.pdf",
+      "sha256": "9f436cae1d09edda82100cc2f5ae7a11b3d495f7062905d26d0773bf7783a878",
+      "physical_pdf_pages": 1,
+      "locator": {
+        "author_draft_figure_order": 7,
+        "labels": [
+          "figM1"
+        ],
+        "tex_lines": [
+          612,
+          616
+        ]
+      },
+      "boundary": "Author TeX figure, journal numbering and source data not inferred",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000950",
+      "canonical_work_id": "doi:10.1140/epja/s10050-020-00206-9",
+      "source": "knowledge/sources/jehangir-2020-high-spin-doublet-bands-194-200tl.md",
+      "raw_file": "raw/papers/gpt/query/20261107-six-region-transfer/arxiv-2007-12347/source/BandDiagram_corediff.pdf",
+      "sha256": "ffe69c452b9ec200841721a38ed2ea2ffe29d776279ab94120abe76e5b9c8ef0",
+      "physical_pdf_pages": 1,
+      "locator": {
+        "author_draft_figure_order": 1,
+        "labels": [
+          "figB1"
+        ],
+        "tex_lines": [
+          465,
+          476
+        ]
+      },
+      "boundary": "Author TeX figure, journal numbering and source data not inferred",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000951",
+      "canonical_work_id": "doi:10.1140/epja/s10050-020-00206-9",
+      "source": "knowledge/sources/jehangir-2020-high-spin-doublet-bands-194-200tl.md",
+      "raw_file": "raw/papers/gpt/query/20261107-six-region-transfer/arxiv-2007-12347/source/DeltaE_194_198Tl.pdf",
+      "sha256": "7b6a8be17ad8cf666d07c2c466c3a0cf334e281ecc07dc9a4f0c9cb7291212da",
+      "physical_pdf_pages": 1,
+      "locator": {
+        "author_draft_figure_order": 12,
+        "labels": [
+          "figDeltaE"
+        ],
+        "tex_lines": [
+          659,
+          666
+        ]
+      },
+      "boundary": "Author TeX figure, journal numbering and source data not inferred",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000952",
+      "canonical_work_id": "doi:10.1140/epja/s10050-020-00206-9",
+      "source": "knowledge/sources/jehangir-2020-high-spin-doublet-bands-194-200tl.md",
+      "raw_file": "raw/papers/gpt/query/20261107-six-region-transfer/arxiv-2007-12347/source/Delta_BE2_march25_2020_194_198Tl.pdf",
+      "sha256": "7eeb71fe905c1c3586b644546ed4297f949c46a09f5f12ecba5c4811b3425a70",
+      "physical_pdf_pages": 1,
+      "locator": {
+        "author_draft_figure_order": 13,
+        "labels": [
+          "figDeltaE2"
+        ],
+        "tex_lines": [
+          711,
+          717
+        ]
+      },
+      "boundary": "Author TeX figure, journal numbering and source data not inferred",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000953",
+      "canonical_work_id": "doi:10.1140/epja/s10050-020-00206-9",
+      "source": "knowledge/sources/jehangir-2020-high-spin-doublet-bands-194-200tl.md",
+      "raw_file": "raw/papers/gpt/query/20261107-six-region-transfer/arxiv-2007-12347/source/Delta_BM12_march25_2020_194_198Tl.pdf",
+      "sha256": "381a2c80fafa80fa266d4114fe6457a8d436a93af4155666e06dea290a2fab5c",
+      "physical_pdf_pages": 1,
+      "locator": {
+        "author_draft_figure_order": 14,
+        "labels": [
+          "figDeltaM1"
+        ],
+        "tex_lines": [
+          722,
+          728
+        ]
+      },
+      "boundary": "Author TeX figure, journal numbering and source data not inferred",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000954",
+      "canonical_work_id": "doi:10.1140/epja/s10050-020-00206-9",
+      "source": "knowledge/sources/jehangir-2020-high-spin-doublet-bands-194-200tl.md",
+      "raw_file": "raw/papers/gpt/query/20261107-six-region-transfer/arxiv-2007-12347/source/MixingRatio_Transitions_194_200Tl_referee_v1Fig.pdf",
+      "sha256": "e57a0b53a89a87fbf6421f9bf81e05c103ef2dc1c56c91e95265f7b7d4f95090",
+      "physical_pdf_pages": 1,
+      "locator": {
+        "author_draft_figure_order": 11,
+        "labels": [
+          "figMcb"
+        ],
+        "tex_lines": [
+          649,
+          655
+        ]
+      },
+      "boundary": "Author TeX figure, journal numbering and source data not inferred",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000955",
+      "canonical_work_id": "doi:10.1140/epja/s10050-020-00206-9",
+      "source": "knowledge/sources/jehangir-2020-high-spin-doublet-bands-194-200tl.md",
+      "raw_file": "raw/papers/gpt/query/20261107-six-region-transfer/arxiv-2007-12347/source/ProjectedEnergy_194_200Tl_1May2020.pdf",
+      "sha256": "7d8a720f163ed4850a1673acfed7620c27286c7ac6dedc8b17172823a9226aeb",
+      "physical_pdf_pages": 1,
+      "locator": {
+        "author_draft_figure_order": 2,
+        "labels": [
+          "figte1"
+        ],
+        "tex_lines": [
+          481,
+          487
+        ]
+      },
+      "boundary": "Author TeX figure, journal numbering and source data not inferred",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000956",
+      "canonical_work_id": "doi:10.1140/epja/s10050-020-00206-9",
+      "source": "knowledge/sources/jehangir-2020-high-spin-doublet-bands-194-200tl.md",
+      "raw_file": "raw/papers/gpt/query/20261107-six-region-transfer/arxiv-2007-12347/source/SI_194_200tl_March15.pdf",
+      "sha256": "2823e5b0504d80da9ac7bb8cd698507317d252715fef64372391e123621f1409",
+      "physical_pdf_pages": 1,
+      "locator": {
+        "author_draft_figure_order": 5,
+        "labels": [
+          "figs6"
+        ],
+        "tex_lines": [
+          593,
+          598
+        ]
+      },
+      "boundary": "Author TeX figure, journal numbering and source data not inferred",
+      "disposition": "figure-asset-linked-to-canonical"
+    },
+    {
+      "work_id": "catalogue:LIT-000072",
+      "source": "knowledge/sources/egido-robledo-1990-barium-negative-parity-extract.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/egido-1990-barium-negative-parity.pdf",
+      "sha256": "eea43efc9326cb2075c417594dc2adffff5d049ee3b22dbcb09ce163a22da8da",
+      "physical_pdf_pages": 1,
+      "disposition": "publisher-first-page-extract-fulltext-unavailable",
+      "locator": "核读本地刊文首页 PDF 1（印 475），覆盖题名、摘要与 §1 开头。",
+      "boundary": "印 476–495 未见于现有本地馆藏检索结果。",
+      "publication_independence": "Model article. Separate the cited experiment and earlier potential estimate from the authors’ calculations."
+    },
+    {
+      "work_id": "catalogue:LIT-000073",
+      "source": "knowledge/sources/juutinen-1994-110cd-gamma-spectroscopy-extract.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/juutinen-1994-110cd-gamma-spectroscopy.pdf",
+      "sha256": "d1c5bc46d6cb53a5c614f2eb3555973945b0c057aed31695a7b6b884d9b50601",
+      "physical_pdf_pages": 1,
+      "disposition": "publisher-first-page-extract-fulltext-unavailable",
+      "locator": "核读本地刊文首页 PDF 1（印 306），覆盖题名、摘要与 §1 开头。",
+      "boundary": "印 307–332 未见于现有本地馆藏检索结果。",
+      "publication_independence": "Shares authors, NORDBALL and 100Mo(13C,3n) at 44 MeV with LIT-000078. Run-level overlap unknown."
+    },
+    {
+      "work_id": "catalogue:LIT-000078",
+      "source": "knowledge/sources/piiparinen-1993-110cd-yrast-lifetimes-extract.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/piiparinen-1993-110cd-lifetimes.pdf",
+      "sha256": "63cb839ac03b4d16fe8ee05d75414978df25883013b9ba38c9f843d3c52c9115",
+      "physical_pdf_pages": 1,
+      "disposition": "publisher-first-page-extract-fulltext-unavailable",
+      "locator": "核读本地刊文首页 PDF 1（印 671），覆盖题名、摘要与 §1 开头。",
+      "boundary": "印 672–686 未见于现有本地馆藏检索结果。",
+      "publication_independence": "Shares authors, NORDBALL and 100Mo(13C,3n) at 44 MeV with LIT-000073. Run-level overlap unknown."
+    }
+  ],
+  "credited_works": 0,
+  "credited_primary_pages": 0,
+  "tex_anchors": [
+    {
+      "path": "raw/papers/gpt/query/20261107-frauendorf2024-wobbling/arxiv-2405-02747/source/chapter2-mod.tex",
+      "sha256": "39043ae4f6ebe495698ec13c62addcf04f3e9c48c8c4d81230df75d004feb3b1"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261107-six-region-transfer/arxiv-2007-12347/source/194_200Tl_v21.tex",
+      "sha256": "8b1cb723cdd74da061061156e81cf4627051c6696f4d22edabbd5e8b27cdbf14"
+    }
+  ]
+}
