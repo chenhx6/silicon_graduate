@@ -7,7 +7,7 @@ updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: skimmed
+reading_depth: read
 title_original: "From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory"
 authors: [Jouni Suhonen]
 publisher: "Springer-Verlag Berlin Heidelberg"
@@ -142,3 +142,12 @@ P0: none identified in this scoped unit。P1：公式相位受 `ls/sl` 与 CS/BR
 ## 2026-11-27 — 馆藏原件与覆盖核对
 
 - Wigner–Eckart 定理将球张量矩阵元分解为含投影量子数的几何因子与不含这些投影量子数的约化矩阵元。矩阵元非零要求初态角动量、张量秩与末态角动量满足三角条件，并且 m + M = m′。（PDF 44–45（印刷 29–30），§2.2，式 (2.27)–(2.29)。式 (2.27) 的相位、归一化和符号排布须目视核对 PDF 44。）
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 88 §4.3 的多体矩阵元经缩并，PDF 207 Table 7.6 与 §7.6.3 的 β 衰变模型输入分开。PDF 512 Table 16.5 是给定 ²⁴Mg 输入比较，PDF 636 为习题，654 为丛书信息。
+
+- Normal ordering the two-body interaction about the Hartree–Fock reference gives a one-body field through a sum over occupied orbitals. Its Hermitian matrix eigenproblem is self-consistent because the occupied eigenvectors enter the matrix that is diagonalized.（PDF 94, Eqs. (4.62)–(4.63), and PDF 98, Eq. (4.85) and the concluding paragraph of §4.6.）
+- For ⁶He ground-state beta decay to ⁶Li, including configuration mixing increases the calculated Gamow–Teller amplitude from 1.826 to 2.185 and changes log ft from 3.07 to 2.91, close to the quoted experimental value of 2.9.（PDF 252–253, §8.5.2, Eqs. (8.141), (8.145)–(8.146)）
+- BCS 粒子数约束固定的是期望值。真空的粒子数方差含有各轨道占据与未占据概率的乘积，因此满足平均粒子数条件时仍可有粒子数涨落。（PDF 417–418，§13.4.2，式(13.72)、(13.73)、(13.76)）
+- 在书中采用的 ²⁴Mg 截断价空间和有效电荷下，QRPA 将 2₁⁺→0⁺ 基态跃迁的 B(E2) 从 QTDA 的 22.2 提高到 47.0 e² fm⁴。书中将增强归于基态关联引入的 Y 振幅和增大的 X 振幅。（PDF 587–588，§18.4.2，表 18.3，式 (18.90)–(18.91)）

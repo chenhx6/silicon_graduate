@@ -1,0 +1,312 @@
+{
+  "batch": "20261127-five-book-readings-and-scan-ranges-ad",
+  "created_at": "2026-11-27T12:49:44.614144+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000310",
+      "source": "knowledge/sources/book-heyde-nuclear-physics-concepts.md",
+      "identity": "K. Heyde, Basic Ideas and Concepts in Nuclear Physics, third edition, IOP, copyright 2004, 647 PDF pages.",
+      "coverage": [
+        "PDF 1–647，与分段原文读段和下面列出的原图补核合并。",
+        "PDF 1–40。实读物理第 1–40 页的页标提取文本，包括前置材料、导论和第 1 章印刷页 3–17，止于 §1.6.1 开头的式 (1.21)。图件仅依据可提取图题及正文引述登记，未作目视核验。物理第 41–647 页未读。",
+        "PDF 41–80。审读物理 PDF 第41–80页的提取正文、可读公式、图注和表题，共40页，对应书页第18–57页。起于磁矩讨论中段，止于 Box 1d 标题。图像、表格单元及其余页面均未审阅。",
+        "PDF 81–128。实读物理PDF第81–128页，共48页，依据逐页正文、可提取公式、表文和图注。第81页仅有转载说明残段，第128页止于第4章开头。图像待管理者目视核验。",
+        "PDF 129–174。实读物理第129–174页的页标提取文本，共46页，对应书内第108–153页。阅读涉及正文、可辨识公式、表格转录和图注。图像、坐标、谱峰及分图关系待查原页。",
+        "PDF 175–224。仅审读物理第175–224页的原件抽取文本，共50页，对应印刷页154–203。物理第221–223页仅有可抽取的页眉、页脚及转载许可文字。物理第224页的框5d正文在引文处截断。图表依据正文、图注与可抽取标签定位，未作目视核验。",
+        "PDF 225–279。225 Chapter 5 closes its reactor-antineutrino discussion with KamLAND event counts, reactor baselines, and the large-mixing-angle interpretation. The supplied text begins mid-sentence.；226–227 Box 5e introduces a reprint of the original beta-decay parity experiment paper. PDF 226 preserves the heading and PDF 227 preserves the reprint credit. The paper itself remains pending.；228–231 Chapter 6 §6.1 develops classical electric-dipole radiation from near and far fields through energy flux and the Larmor power formula. Vector notation and time-average marks are degraded in the extraction.；232–233 The Figure 6.4 caption closes the classical radiation discussion. Section 6.2 treats photon emission kinematics, nuclear recoil, the resonance shift, and the conditions for recoil-free Mössbauer emission. The closing remarks carry onto PDF 234.",
+        "PDF 280–334。280–282 Chapter 7 closes its discussion of two-neutron separation energies. PDF 280 begins mid-derivation and contains scrambled fractions and exponents in the liquid-drop expansion. The prose and Figure 7.18 caption identify the binding-energy contributions compared for Pb, Xe and Pd. The Figure 7.19 caption describes the comparison of mass evaluations before and after inclusion of Pb-region ISOLTRAP measurements. The closing prose connects the asymmetry term to the neutron-rich drip-line trend in the model.；283–284 Box 7a adds gravitational binding to the liquid-drop model for an order-of-magnitude neutron-star estimate. Eq. (7a.3) and the solar-mass symbol are garbled in the extraction. Box 7b, Beyond the neutron drip line, has a heading and a reprint credit on PDF 284. Its substantive content remains pending.；285–287 Chapter 8 opens with §8.1 on the degenerate Fermi gas. It covers proton and neutron potential wells, occupation at zero and finite temperature, Fermi momentum, and estimates of Fermi energy, mean kinetic energy and well depth. Some factors and powers in the momentum formulas are fragmented.；288–289 Section 8.2 expands the Fermi-gas kinetic energy about equal neutron and proton numbers and discusses the kinetic and mean-field contributions to symmetry energy. PDF 289 opens §8.3 with degeneracy pressure and the gravitational energy of a uniform sphere.",
+        "PDF 335–389。335–337 C 部分习题末段。PDF 335 从一道比较谐振子与 Woods–Saxon 波函数的题目中途开始，随后涉及自旋–轨道分裂和轴变形。PDF 336 的表 PC.15 列出贝塞尔函数零点，习题转入双核子组态。PDF 337 涉及反对称性、同位旋张量和三能级混合。图 PC.15、PC.29 各有简短题注，角动量符号和部分算符在提取中缺失或错位。；338–339 D 部分扉页与导言。以探针和能标为线索概述单粒子、集体和亚核子描述，并预告第 10–17 章的主题。第 12–17 章在此仅有导言提要。；340–343 第 10 章 §10.1，Hartree–Fock 变分法。由反对称乘积态导出单粒子方程、自洽场及一体密度矩阵，并说明迭代求解和 Skyrme 平均势。PDF 340–342 的公式存在态矢括号、求和上下标和算符错位，式 (10.7) 的轨道下标尤其难以据提取确认。；344–347 第 10 章 §10.2，Hartree–Fock 基态性质。表 10.1–10.2 比较 Skyrme 参数组以及结合能和均方根半径，正文讨论壳隙、核密度饱和、锡同位素半径趋势，以及钙电荷半径的抛物线变化和奇偶交错。图 10.5 的题注在 PDF 348 页首。",
+        "PDF 390–444。390–398 第11章由闭壳核的 TDA 和 RPA 讨论收尾，转入 §11.5 的大规模壳模型计算。内容包括 sd 壳组态计数与 Lanczos 对角化、硅-28 能谱随模型空间扩大的收敛、全 fp 壳和随机筛选基底，以及 N = 20 附近的两中子分离能偏差和跨壳闯入组态。PDF 390 页首接续前文，PDF 391–392 和 397 的态矢与公式上下标有错位。PDF 395 是图11.25的整页图版，仅图注可读，图形待核。PDF 396 的图11.26图内标签与能级数字顺序散乱，图注及承接正文可读，图形待核。；399–408 §11.5 以配对关联、占据概率和 BCS 近似收尾。§11.6 讨论有限温度辅助场壳模型蒙特卡洛，包括配分函数、Suzuki–Trotter 分解、Hubbard–Stratonovich 变换、Metropolis 抽样、符号问题、正则系综平均，以及配对、Gamow–Teller 强度和能级密度的应用。PDF 402–405 的算符乘积、指数和求和式有排版错位，正文可读。PDF 406 是图11.31的整页图版，仅图注可读，曲线待核。；408–414 §11.7 从同一对称性类别内的能级排斥进入最近邻间距统计，讨论 Wigner、GOE 和 Poisson 分布、经典台球与微波腔类比、核数据集合、随机两体相互作用下的低能规律及集体激发统计。结尾比较了矮偶极共振的实验与计算间距分布，并提及实验漏级的可能影响。PDF 411 的波数公式有根号和上下标错位。；415–416 专栏11a讨论球形 fp 壳模型如何从组态关联产生铬-48 的集体转动特征，比较基态带的回弯、E2 性质，以及缩减轨道空间后保留的低自旋转动特征。",
+        "PDF 445–499。445–455 第13章 §13.2 后段。由四极形变势能面进入 Bohr 集体哈密顿量、惯量比较与量子化，再讨论轴对称转子的 K=0 和 K≠0 转动带、振动与转动之间的过渡、四极矩及 E2 跃迁强度。445 页从段中接入。448 页仅有图13.15与13.16的图注，惯量数据图和系统图的图像内容待核。数页公式的惯量符号、上下标及分数排版在抽取中受损。；456–463 第13章 §§13.3.1–13.3.2。由谐振子和核结构对称性的历史引入 IBM-1，说明 U(6) 生成元、Casimir 算符、U(5)、SU(3)、O(6) 三条子群链，以及有限玻色子数对谱和 E2 强度的影响。463 页末转入 IBM-2。；463–470 第13章 §13.3.3。区分质子与中子玻色子，以 S、D 对截断和 Otsuka–Arima–Iachello 映射连接壳模型与 IBM-2，再讨论混合对称态和轨道 M1 剪刀模。465 页图13.27(c)的群标记与463页正文不一致。466 页式(13.81)与467页释文中的一项相互作用下标也有异读。；470–472 第13章 §13.3.4。讨论高角动量玻色子、相互作用玻色子–费米子模型、Pt–Au 核超对称四重组，以及 IBM-3、IBM-4 的同位旋扩展。472 页图13.32的能级标签抽取严重错序，图注和正文可读。",
+        "PDF 500–554。500–506 第14章高自旋转动的续文。讨论集体转动与单粒子角动量顺排、科里奥利作用对配对的削弱、Harris 展开、回弯现象，以及由相邻能级差估算转动频率的方法。500 页从段落中途开始。503 页只提取到图14.12和14.13的图注，图示主体待读。505 页以图14.15和14.16的图注为主，另有承接前页的式(14.51)。501–502、504、506 页的分数、上下标和根号有局部错位。；507–513 第14章先收束回弯的两准粒子顺排解释，再进入 §14.3.2，讨论旋转液滴参考能加壳修正、超形变极小值、带交会与混合，以及用高分辨率 γ 阵列识别弱跃迁。书中以 ¹⁵²Dy 说明超形变带，并将接近 3:1 的超大形变作为尚待确认的解释。511 页只提取到图14.21的图注，¹⁹⁴Hg 的 γ 谱和嵌入能级图待读。；514–519 第14章 Box 14a 和 Box 14b。514–515 页描述 ¹⁶⁰Dy 的 E2 级联及由能级差得到的转动惯量异常，515 页式(14a.1)–(14a.2)的根号、分式和单位符号提取受损。516–519 页讨论用 TESSA-3 的符合条件鉴别 ¹⁵²Dy 超形变带、由四极矩推断形变，以及书中对该带绝对激发能和自旋指认保留的不确定性。；520–527 第15章开篇及 §15.2.1 主体。以中子质子比和分离能界定远离 β 稳定区的问题，讨论质子–中子相互作用引起的壳隙演化、近阈值态与连续谱的耦合、质子库仑势垒的局域化作用，以及用 Hartree–Fock–Bogoliubov 方法自洽处理配对。522 页式(15.1)的求和与指标排版受损。526 页提取到图15.4的部分坐标和标记文字。",
+        "PDF 555–609。555–558 第15章末段。PDF 555从核天体物理讨论的半句接入，涉及放射性离子束、库仑解离和CNO循环逸出，页末进入§15.4。展望讨论滴线附近的外推局限、中子晕和实验设施。PDF 557是图15.26的图版页，仅有图注和残缺且重复的分图标记，图中数据待核。PDF 558只有承接前文的展望结语。；559–562 第15章专栏15a。双幻核锡-100的发现、GSI与GANIL的碎片分离和鉴别，以及后续质量与半衰期测量。PDF 560–561保留图15a.1和15a.2的图注及正文。PDF 562是专栏收尾，质量精度符号损坏，半衰期的非对称误差上下标错行。；563–572 第15章专栏15b。2004年语境下的放射性离子束设施和计划，依次介绍全球分布、在线同位素分离（ISOL）、批次运行、飞行中分离（IFS）、第二代项目和离子阱。PDF 563的世界地图仅保留散列标签和图注，空间位置及标签对应待核。PDF 564的质量分辨率符号和PDF 568的回旋加速器尺寸符号有损坏。；573–577 第16章§16.1–16.2及§16.3开头。引入亚核自由度，讨论氚磁形状因子、介子交换电流、钙-40库仑响应、Δ共振及相关核子对。PDF 575–577的Δ字符有损坏。",
+        "PDF 610–647。610–612 Appendix A continuation on units and conversion. Tables A.1–A.3 cover SI–CGS conversions, SI unit symbols and dimensions, and SI prefixes. The extraction flattens powers of ten, displaces some exponents in Table A.1, and corrupts the ohm symbol on PDF 611.；613–614 Appendix A electromagnetic reference tables. Table A.4 compares vacuum relations in rationalized MKS, Gaussian CGS, Heaviside–Lorentz CGS, and rationalized natural units. Table A.5 introduces auxiliary fields in material media in MKS. Both tables have badly garbled formula layouts, especially fractions, tensor indices, and matrix entries.；615–617 Appendix A Tables A.6–A.10 tabulate constants, nuclear unit conversions, characteristic lengths, particle masses, magnetic moments, and other measures. Some symbols and fractions drop out or shift. The neutron mass in kilograms on PDF 616 and the permittivity–permeability identity on PDF 617 are suspect as extracted.；618–621 Appendix B opening and §§ B.1–B.2 cover spherical harmonics, their orthonormality and parity, Clebsch–Gordan coupling, and Wigner 3j symbols. Table B.1 gives coefficients for coupling orbital angular momentum to spin one-half. § B.3 opens on PDF 621. Radicals and indices are damaged in places, including the eigenvalue notation in (B.7) and a repeated projection index in (B.19)."
+      ],
+      "boundary": [
+        "全文各段以原件、页码和实际提取质量为准。未逐项运行代码、重算书例或复核外部实验原文件。"
+      ],
+      "disposition": "covered",
+      "worker": "terminal Codex disjoint page ranges and manager PDF figures",
+      "source_pdf": "raw/books/Basic Ideas and Concepts in Nuclear Physics An Introductory Approach (Kris L.G. Heyde) (Z-Library).pdf",
+      "sha256": "0490c8036be9cd8702cd8aec9c858ebb0e898e6c7b2b1056ce36e205f9f3c18a",
+      "physical_pages": 647
+    },
+    {
+      "id": "catalogue:LIT-000316",
+      "source": "knowledge/sources/book-mangano-mathematica-cookbook.md",
+      "identity": "Sal Mangano, Mathematica Cookbook, O’Reilly, 827 PDF pages.",
+      "coverage": [
+        "PDF 1–827，与分段原文读段和下面列出的原图补核合并。",
+        "PDF 1–38。逐页核读所供 PDF 物理第1–38页的抽取文本。第1、2、16页无抽取文本，第7–15页主要保留页码，目录条目残缺。正文读至第1章第1.3节在物理第38页的可见部分，对应印刷第12页。第39–827页未读，未做原页目视核验。",
+        "PDF 39–86。连续读了物理 PDF 第39–86页的页标文本，共48页，对应书内印刷页13–60。核读章节正文、代码单元、可辨识输出和表2-1的抽取文本。图形、排版和缺失字符均未作视觉核验。",
+        "PDF 87–141。87–91 第 2 章 Functional Programming，§§2.11–2.13。PDF 87 从 §2.11 的随机路线搜索示例中段开始。文字称搜索成功，但所列路线长度高于基准，与目标阈值冲突。§2.12 用 Nest 预生成牛顿迭代函数，并用 Fold 构造连分数。PDF 88–89 的根号、幂次和分式层级有明显错排。§2.13 讨论函数复合、分量求逆、用 UpValues 注册自定义逆操作，以及部分撤销。；92–99 第 2 章 §2.14，闭包。用 HoldAll 保存状态与操作定义，在 Block 中恢复局部环境，并把更新后的状态随结果返回。讨论调用封装、独立克隆、Block 与 Module 的作用域，以及对动态图形的控制。PDF 94 的自定义调用符号有乱码，PDF 97 的图形输出只有标签，PDF 98 的图 2-1 只有图注与变换标签，图像待核。；99–105 第 2 章 §§2.15–2.16。用 Hold、ValueQ 和替换规则模拟隐式柯里化，并讨论显式的部分参数绑定。随后介绍模式内默认值、由 Default 单独登记的默认值，以及可选参数出现歧义时的匹配顺序。；105–109 第 2 章 §2.17，函数选项。以自定义快速排序展示选项默认值和取值，再用 FilterRules 将适用选项转交给求解器和绘图函数，并说明重复选项以先出现者为准。PDF 108 的一处正文写作 FilterOptions，相应代码使用 FilterRules。PDF 108–109 的绘图输出仅保留部分坐标轴刻度，曲线待核。",
+        "PDF 142–196。142–144 Chapter 3, §3.9 continuation. Level and depth specifications guide selection, extraction, deletion, and replacement in nested expressions. PDF 142 opens mid-recipe. PDF 143 retains tree labels, and the displayed algebra on PDFs 143–144 has scrambled superscripts and grouping.；145–147 Chapter 3, §3.10. An arbitrary-size integer and an explicit length represent a bit vector. UpValues provide list-like operations, and Format controls display. The extracted BitOr definition on PDF 146 appears to call BitAnd, so the implementation detail is uncertain.；147–155 Chapter 3, §§3.11–3.12. List-based binary search trees support four traversal orders, configurable ordering, and visitor functions. Red-black trees introduce ordered lookup, insertion, deletion, and pattern-based rebalancing. The tree displays on PDFs 149 and 155 retain node labels without graphical links. The balancing code on PDFs 152–153 has degraded delimiters and a questionable subtree reference.；156–160 Chapter 3, §3.13. Symbol downvalues implement a dynamic dictionary with storage, removal, lookup, and enumeration. Rule and part-extraction glyphs are degraded on PDFs 157–159. The footer interrupts the closing discussion on PDF 159, and PDF 160 supplies the coherent passage.",
+        "PDF 197–251。197–203 Chapter 4 opens this span partway through a discussion of hash-based rule dispatch and its timing comparison. §4.11 covers SQL-like filtering, joins, grouping, membership subqueries, and matching polyhedra to graphs. PDF 200 has a discrepancy between the part identifier in the prose and the one in the query. PDF 202 supplies labels for four graph–polyhedron pairs in a graphical result table. The drawings remain pending. PDF 203 closes the recipe with an alternative match by graph identifier.；203–206 Chapter 4, §§4.12–4.13. A condition extends a structural pattern to recognize integer squares. A Prolog-style unification recipe then allows variables on either side, threads bindings through compound expressions, and extends the approach to multiple expressions. The code is heavily garbled at the operator and delimiter level, while the prose and test outcomes remain readable.；207–212 Chapter 5 opens with §5.0 on character encodings, character-code conversion, string expressions, and regular expressions. PDFs 208–209 have degraded Greek-letter and UTF-8 output. Tables 5-1 and 5-2 on PDFs 211–212 are syntax references with corrupted punctuation and some disrupted row alignment.；213–218 Chapter 5, §§5.1–5.2. String ordering, pattern-based and positional replacement, whitespace and comment removal, delimiter conversion, simple XML markup stripping, and replacement rules that compute values or dates. The delimiter example explicitly leaves empty fields unhandled. §5.3 begins at the foot of PDF 218.",
+        "PDF 252–306。252–253 Chapter 5, String and Text Processing. Closing XML transformation example and comparison with XSLT. PDF 252 opens mid-recipe with a badly garbled XML output whose department grouping remains identifiable. The closing comparison repeats on PDF 253.；253–261 §5.11, Writing Parsers and Grammars in Mathematica. A simplified English grammar, a hand-written recursive descent parser, and a randomized sentence generator for testing it. Brackets and operators are heavily garbled in the grammar and implementation on PDF 254–257 and 259. PDF 260 preserves parse-tree labels in a flattened extraction. PDF 261 closes with predictive versus backtracking parsing and references.；262 Empty extraction at the Chapter 5–6 break. The adjacent printed page numbers suggest a blank separator.；263–264 Chapter 6, Two-Dimensional Graphics and Plots, §6.0. Symbolic graphics primitives and styling directives, explicit expansion of axes with FullGraphics, and an introduction to arranging multiple graphics.",
+        "PDF 307–361。307–315 第7章 §7.1 末尾讨论三维绘图的包围盒比例、坐标轴边和面网格。§7.2 介绍球坐标曲面、局部留孔及透明度。§7.3 介绍由平面曲线生成旋转曲面，以及书中针对 Mathematica 6 的旋转轴变通方法和版本 7 的选项说明。PDF 310 的页脚插入正文，完整段落在 311 重现。315 页末预告 §7.4。；316–324 第7章 §§7.4–7.7 涵盖参数曲线与曲面、球坐标到笛卡尔坐标的转换、三维等值面、把二维等高线放到固定高度平面，以及用 RegionFunction 按谓词裁剪曲面。PDF 321 的示例多项式上标脱位，操作步骤仍可从正文辨认。324 页末开启 §7.8 的网格数据插值。；325–332 第7章 §§7.8–7.10 续讲插值阶数和按高程生成网格，介绍谓词区域的自适应采样，以及用图元组合三维对象、演示 Dandelin 球构造并调用示例几何数据。PDF 325 主要是插值比较，328 上半页是采样密度比较，332 上半页是示例几何图库。这些图形输出的视觉内容待核。332 下半页开启 §7.11。；333–338 第7章 §7.11 从三维图形的网格提取线段，再构造多边形、支撑梁和半透明覆层。PDF 333 的建模公式在抽取时丢失了二维排版，分数、平方和因子分组难以确认。§7.12 讨论视点、画面中心、竖直方向、相机向量和视角。336–338 的视图比较图待核。",
+        "PDF 362–416。362–366 第 8 章 §8.2 后半，RGB 转 HSV。PDF 362 从句中接入，接着说明色相分区、饱和度与亮度。363 页首重复上一页末段，且一处食谱引用编号脱落，随后给出栅格展开、逐像素转换和重组的方法。364 比较两种内部表示，并说明如何保留亮度分量得到灰度图。365–366 介绍栅格的坐标、值域与颜色函数，并用受控渐变检验转换。图像输出与亮度曲线待核。；367–372 第 8 章 §8.3，直方图均衡化。367–369 从灰度频数构造离散累积分布映射，展示校正前后的比较，并引入概率密度的变量变换。370 给出连续情形的推导及离散近似的限制，部分公式下标在抽取中脱落。371–372 用一次累加生成查找表，并报告原实现与新实现的计时。图像与直方图输出多只留下编号或坐标刻度。；373–377 第 8 章 §8.4，直方图规定化。373–374 构造输入和目标的均衡映射并直接求匹配表。375–376 解释目标映射的离散逆近似，并给出显式逆映射供比较。375 的页脚插入正文，段落在 376 重复。377 的变换对照图被抽取成大量乱码点符号，图例仍可辨，曲线待核。该页还结束参考资料并提出 §8.5 的空间域锐化问题。；378–381 第 8 章 §8.5，拉普拉斯锐化。378 的图 8-1 对照四邻域与含对角项的核，以及加回或减去卷积响应的符号约定，矩阵排版有错位。379 主要承载月面锐化前后的两个图像输出，抽取只留下调用和输出编号。380 给出对比度校正步骤与二阶有限差分推导，公式排版错乱，页脚打断说明。381 重复该说明的末段，并以图 8-2 列出卷积核，随后生成单独的拉普拉斯响应。月面比较与响应图待核。",
+        "PDF 417–471。417–422 Chapter 9, §§9.11–9.14. PDF 417 starts mid-recipe with function playback. The following pages cover amplitude modulation for tremolo, frequency modulation for vibrato, their combination, and a piecewise attack–decay–sustain–release envelope. Audio cells have empty extracted outputs. On PDF 422 the footer interrupts the discussion of shifted line segments, which resumes on PDF 423.；423–428 Chapter 9, end of §9.14 and §9.15. Covers fixed-string harmonics, octave equivalence, the circle-of-fifths keyboard construction, the tuning discrepancy after twelve fifths, and equal-tempered chromatic and major scales. PDF 424–425 scatters the harmonic table’s fractions and preserves only text from its graphics. PDF 425 contains a deduplication marker and repeated table fragments. PDF 426–427 displaces powers and roots, and PDF 427’s extracted root wording conflicts with the octave relation and numerical result. PDF 428 supplies scale playback inputs with empty output cells.；429–433 Chapter 9, §§9.16–9.17. Covers importing digital audio as samples, metadata, or a sound object, inspecting a downsampled waveform, isolating a speech interval, and using Fourier magnitude to inspect frequency content. The text explains the Nyquist limit, spectral symmetry, and the trade-off between isolating a phoneme and resolving frequencies. PDF 431’s waveform and audio outputs and PDF 433’s short-window spectrum are absent from the extraction.；434–438 Chapter 9, end of §9.17 and §9.18. Compares a shorter Fourier window and then applies successive transforms to build waterfall, surface, contour, and array displays. Covers axis orientation, thresholding, and zooming to low frequencies. PDF 435 is figure-dominant. Its inputs and brief description are readable, and both rendered outputs remain pending. Its prose names ListLinePlot while input In[786] names ListPlot3D. PDF 436’s contour outputs remain pending. PDF 437–438 supplies axis text and splits a thresholding input across pages.",
+        "PDF 472–526。472–473 第11章向量微积分小节收尾。PDF 472 从坐标系说明中途接入，介绍点积、叉积与散度、旋度、梯度，并提及拉普拉斯算子。公式输出的根号、分式和向量分量有明显错位。PDF 473 的梯度可视化保留了输入和输出标签，图形主体待核。；473–476 第11章 §11.9，有限和无穷求和与乘积、收敛判断、多重求和、Ramanujan 级数、不定求和与乘积、Z 变换，以及用生成函数枚举和计数。PDF 474–475 的部分公式存在上下标和分式错位，PDF 475–476 的生成函数引入段有重复。；476–478 第11章 §11.10，用 RSolve 处理贷款余额、汉诺塔和二阶递推，说明初始或边界条件、任意常数及两种解的返回形式。PDF 477–478 的部分指数和复数记号错位，PDF 478 的简化说明与抽取出的 Out[137] 形式不一致。；478–480 第11章 §11.11，从数列推断生成函数或通项，从显式通项构造生成函数，并由级数系数恢复数列。PDF 479–480 的部分分式和幂次排版受损。",
+        "PDF 527–581。527–530 第12章 §12.16 后半段。比较普通二维格点随机游走与禁止立即折返的游走，以重复模拟汇总终点的曼哈顿距离。随后通过模拟和概率推理解释蒙提霍尔问题。527 的路径图仅保留部分坐标与刻度文字。；531–532 第13章 §13.0 导言。概述科学与工程模型的组织方式、内置数据源的属性查询，以及差分方程、微分方程和有限元案例。531 页尾与 532 页首有重复抽取，页码插入了导言正文。；533–536 §13.1 元素数据。介绍按元素和属性取值，并用周期、族和颜色组织带提示信息的周期表。536 的周期表保留了大量单元格文字，但部分元素符号和数值粘连，原有布局未保留。；536–538 §13.2 化合物数据。介绍查询标识、属性和分类，以及以分子结构图和对数散点图展示数据。536 的水分子输出只剩原子标签。537 的分子图，以及 538 的结构图组和散点图，均有可读的生成说明，图形输出待核。",
+        "PDF 582–636。582–584 Chapter 14, Financial Engineering. PDF 582 opens mid-recipe with share-weighted prices, index membership, exchange listings and symbol lookup. PDF 583 finishes the financial-data recipe with an interactive browser and historical sampling, then begins §14.2 on importing website data. PDF 584 continues with historical option-symbol encoding and option-chain retrieval.；585–588 §14.3 covers discrete and continuous discounting, perpetuities, annuities and internal rate of return. §14.4 covers fixed-rate bond pricing, yield to maturity, duration and convexity. The displayed present-value summation on PDF 585 has garbled layout. PDF 588 preserves code and plot axes, with the curves pending.；589–591 §14.5 develops yield curves by spline interpolation and Nelson–Siegel fitting, then obtains the Svensson spot curve by averaging the forward curve over maturity. The displayed formulas on PDF 590–591 have disrupted fraction and exponent layout. PDF 591 closes §14.5 and opens §14.6.；591–599 §§14.6–14.7 cover European Black–Scholes call pricing, put–call parity, the five Greeks, interactive sensitivity plots and implied volatility as a numerical root. The Greek surfaces and interactive plot on PDF 595–598 remain visually pending. Their surrounding prose and notebook-cell labels establish their roles.",
+        "PDF 637–691。637–640 Chapter 15, Interactivity, §§15.7–15.8. DynamicModule persists local state in notebook outputs and gives pasted copies independent state. UnsavedVariables keeps scratch data out of the saved notebook, and DynamicWrapper orders cache updates before dependent displays. Plot extractions preserve some axes and labels.；641–645 Chapter 15, DynamicWrapper sidebar and §§15.9–15.10, with the opening problem of §15.11 on 645. The sidebar describes DynamicWrapper in the Mathematica 7 documentation context. The recipes cover saved versus localized definitions, initialization, snapshots, and bookmarks. The histogram display on 644 and bookmark illustration on 645 are incomplete in the extraction.；646–652 Chapter 15, §15.11 solution through the §15.14 discussion. Nested dynamics separate fast and slow updates, DynamicModule localizes function definitions, and InheritScope shares local state across output cells or windows. Custom control functions can receive a dynamic variable and its bounds. The plot outputs on 647–648 and the control renderings on 651–652 are incomplete, with garbled widget and code glyphs.；653–658 Chapter 15, end of §15.14, §15.15, and most of §15.16. The angular control leads into animation, playback options, export, and precomputed frames. The custom-interface recipe covers mouse coordinates, nested event handlers, and a keyboard-driven example. Rendered animation and game outputs are largely absent. The See Also heading on 658 has its substantive continuation on 659.",
+        "PDF 692–746。692–694 Chapter 16, §16.12 continuation. The range opens mid-recipe with a badly garbled Wolfram Language listing on PDF 692. PDF 693 preserves filename labels from the image output and readable discussion of job IDs and remaining tasks. PDF 694 explains held submissions, intermediate results, checkpointing, and branching.；695–704 Chapter 16, §16.13. Map-reduce design, parsing, per-file dictionaries, intermediate storage, grouping and merging by key, and final reduction. PDF 697–698 contain a badly garbled, visibly elided notebook output. The timing comparison on PDF 699 includes an apparently unevaluated result. PDF 701 has a running footer interleaved with prose that is readable on PDF 702. PDF 704 closes the recipe and opens §16.14.；705–712 Chapter 16, §16.14 solution and discussion. Tracing covers task dispatch, queueing, shared-variable access, and the difference between locked and unsynchronized updates. The logs and serialized expressions on PDF 707–712 have damaged delimiters and operators, though the event sequence is readable. PDF 712 also opens §16.15 and describes the benchmark.；713–714 Chapter 16, §16.15 benchmark output and discussion. PDF 713 supplies plot ticks and the author’s interpretation of communication costs on a four-core test machine. The plot curves remain pending. Prose interrupted by the running footer on PDF 713 is readable on PDF 714, which closes the chapter with guidance on data transfer, work granularity, and coordination.",
+        "PDF 747–801。747–752 Chapter 18, Tricks of the Trade. PDF 747 opens mid-recipe with global-context cleanup and memory retained by input and output history. Sections 18.2–18.4 cover the effects of modifying built-ins within a kernel session, temporary overrides with Block, discovery of sparsely documented Developer and Experimental functions, and package contexts, exports, dependencies, and deferred loading.；753–758 Chapter 18 closes §18.4 with packaging references, then covers typed function compilation and fallback behavior in §18.5 and stylesheet customization in §18.6. Table 18-1 has a repeated caption across PDFs 753–754 and a garbled Boolean type specification on PDF 754. The prose covers style inheritance, menu order, and hierarchical counters. Figures 18-1 through 18-6 remain visually pending. PDF 758 repeats a paragraph from PDF 757 and supplies two figure captions and a readable numbered-heading sample.；759–766 Chapter 18, §§18.7–18.10. Notebooks are manipulated as symbolic expressions for cross-referencing and bulk style conversion. The recipes show frontend execution from different session contexts, system and user initialization, kernel-exit cleanup, and evaluation hooks for logging or formatting. Code delimiters are corrupted in several excerpts, especially the generated cross-reference on PDF 760, where recipe identifiers and symbol names remain recognizable.；767–773 Chapter 19, Debugging and Testing. The chapter opens with an epigraph and an introduction to incremental debugging and repeatable unit tests. Figure 19-1 presents the Ackermann recurrence in readable text. Sections 19.1–19.2 cover diagnostic printing that preserves expression values, empty sequences and strings, and tagged collection of exceptional calls with Reap and Sow. A footer interrupts §19.1 prose on PDF 769, with the paragraph repeated on PDF 770. Two deduplication markers stand in for diagnostic output on PDF 771. The problem statement for §19.3 starts on PDF 773.",
+        "PDF 802–827。802 索引前页。页标存在，抽取为空。原页是否为空白页仍待核。；803–826 全书索引，印刷页 777–800，从符号条目及 A 排至 Z。条目涵盖数值与符号计算、函数式编程、列表与矩阵、模式匹配、字符串与 XML、图形与图像、音频、代数与微积分、统计、工程、金融、交互、并行处理、外部接口及调试与测试。抽取有双栏交错、断行及跨页续项，主体可读，未见整页严重乱码或明显截断。；827 书末作者简介与制作说明。About the Author 介绍 Sal Mangano 的软件开发、金融交易应用及 XML/XSLT 背景。Colophon 介绍封面所用日晷螺壳、其外形与生长，并注明封面图像来源及各部分字体。"
+      ],
+      "boundary": [
+        "全文各段以原件、页码和实际提取质量为准。未逐项运行代码、重算书例或复核外部实验原文件。"
+      ],
+      "disposition": "covered",
+      "worker": "terminal Codex disjoint page ranges and manager PDF figures",
+      "source_pdf": "raw/books/Mathematica Cookbook.pdf",
+      "sha256": "e0db550c74888adf211725140f3c8549cdfc85aff79f279b1eeb1eb00de2a37d",
+      "physical_pages": 827
+    },
+    {
+      "id": "catalogue:LIT-000318",
+      "source": "knowledge/sources/book-nakhostin-signal-processing-detectors.md",
+      "identity": "Mohammad Nakhostin, Signal Processing for Radiation Detectors, 吴鸿毅译，2020-09-09 本地译稿，共 427 页。",
+      "coverage": [
+        "PDF 1–427，与分段原文读段和下面列出的原图补核合并。",
+        "PDF 1–38。逐页审读物理第 1–38 页的提取文本。第 2 页仅提取到页码，第 10 页仅提取到目录页眉和页码。正文读至 §1.3.2 关于载流子俘获的未完句。图件审读限于提取到的图注和正文引用。",
+        "PDF 39–85。仅逐页读取物理 PDF 第 39–85 页的标页提取文本，共 47 页。第 39 页从段中开始，第 70 页仅提取到章眉，第 85 页止于 §2.3.2 段中。图表仅据正文、图题和表格提取文字定位，未目视核验。",
+        "PDF 86–130。阅读物理第 86–130 页的带页标提取文本，共 45 页。第 122 页仅提取到章页眉，第 86 页从第 2.3 节续文开始，第 130 页在第 3.2.3 节式 (3.14) 后截断。图件仅据图题和正文引述登记。建议接受本段文字覆盖，图件待核。既有同版记录所列阅读区间与本段无重叠，不能替代本段覆盖核验。",
+        "PDF 131–178。实读物理 PDF 第 131–178 页逐页提取的正文、公式和图注，共 48 页。该段印刷页码与物理页码一致。图像、曲线和电路接线均未经视觉核对。",
+        "PDF 179–233。179–186 第4章能量测量，§4.3 放大器与整形。PDF 179 从上一段的半句接入，说明噪声、脉冲堆积与弹道亏损之间的权衡。§§4.3.2–4.3.4 推导匹配滤波器，以及有无 1/f 噪声时的最优尖顶整形，并讨论有限宽度和平顶。PDF 186 的式 (4.33) 分段公式排版严重错位，尤其是 K > 1 分支的根号与分式。；186–195 §4.3.5 实用脉冲整形器。涵盖 CR–RC、多级半高斯、复共轭极点近似高斯、双极性整形、延迟线、三角与梯形整形，以及门控积分器。PDF 189–190 的高斯传递函数推导有误识字符和错位的多项式因子。PDF 194–195 对时变整形器的两处比较把比较对象写成同一类。；196–202 §4.3.6 整形器噪声分析。定义等效噪声电荷（ENC），推导整形因子和最佳整形时间，讨论输入电容匹配、测试电荷注入、噪声分量拟合，以及用加权函数分析时域噪声。PDF 197–198 的三角整形推导有分段条件和指数错位。PDF 200 式 (4.69) 后的拟合参数归属与式 (4.60) 的时间依赖对应不一致。；202–207 §§4.3.7–4.3.10 讨论极零相消、基线恢复、快慢通道堆积拒绝，以及用峰时延迟或双整形通道修正弹道亏损。PDF 204 的式 (4.77) 中拉普拉斯域表达式与相邻文字所述的指数衰减波形不一致。",
+        "PDF 234–288。234–238 第 5 章脉冲计数系统。PDF 234 页首从速率计滞后校正的半句接入，随后 §5.2.3 介绍计数器、计时器以及预设时间和预设计数两种方式。§5.2.4 涵盖 GM 管阳极与阴极读出、寄生参数、死时间及恢复、混合死时间模型、远程读出与有源复位。；238–248 第 5 章 §5.3 电流模式。依次讨论直接测流、电阻压降与电容积分、分流及反馈静电计、数字静电计、汤森平衡法、测量统计与噪声、漏电防护、电荷平衡式电流–频率转换和对数读出。PDF 240 式 (5.12) 的指数项符号与所述初始条件疑有冲突，PDF 245 式 (5.22)–(5.24) 的谱密度归一化和方差因子有疑点，PDF 248 式 (5.27)–(5.29) 的括号有乱码。；248–251 第 5 章 §5.4 辐射强度测量 ASIC。涵盖多通道积分、帧内计数、像素光子计数及多阈值能量分辨。PDF 249 页末的面计数率数值在 PDF 250 页首接续单位，数值上标在提取中被压平。PDF 251 的图 5.22 图注收束本节。；251–254 第 5 章 §5.5 坎贝尔模式。涵盖交流波动分量的均方读出、中子–伽马甄别，以及裂变室脉冲、坎贝尔与电流模式的重叠覆盖。PDF 253 把通量动态范围写成时间年数，另有一句缺失通量范围限定词。PDF 254 是本章末的插图页，提取仅含图 5.25 和图 5.26 的图注，两图的视觉内容均待核。",
+        "PDF 289–343。289–292 第6章 §6.4 闪烁探测器定时。289页从既有小节中段接入，讨论电子学抖动、前沿与恒比甄别、多重触发与快慢通道，随后比较光电二极管、APD 和 SiPM 读出。291–292页式(6.40)–(6.41)的积分、平方和根号排版错位。；293–297 第6章 §6.4.2–6.4.3。293页先接完数字 SiPM 段，再讨论锗、硅、金刚石及化合物半导体定时，随后讨论气体探测器的漂移、气体放大与低压定时。295页式(6.42)根号范围排版不清，297页式(6.43)的漂移速度符号在公式与释文中不一致。；298 第6章章末页，仅抽取到页码与章眉。正文提取为空，原页版面待核。；299–302 第7章开篇与 §7.1。定义位置灵敏度、空间分辨率和线性度，介绍 PSF、LSF、ESF 与 MTF，并说明电离探测器和闪烁探测器的位置信号来源。302页顶部为本节末图的图题。",
+        "PDF 344–398。344 第 8 章脉冲形状甄别的收尾页。页首从上一节比较闪烁体电荷比较法与过零法的残句接入。§8.5.2 讨论半导体和气体探测器的定时噪声、双 CFD 上升时间测量、双极性过零整形及快慢双通道整形。；345–351 第 9 章开篇及 §§9.1–9.2。介绍数字测量链、采样与量化、采样定理和抗混叠、量化噪声及过采样。第 347 页的位数幂次和第 351 页式 (9.12) 的过采样倍率幂次在提取中被压平。；351–356 §9.3 从 ADC 输入范围、采样率与分辨率讲到自由运行 Flash ADC、增益与偏置误差、DNL、INL、THD、SINAD、ENOB 和时钟抖动。第 352 页比较器数量的幂次被压平，其图号指向第 348 页的混叠图。第 354 页式 (9.13)–(9.14) 的根号、括号和指数布局受损。；356–362 §9.4 导言与 §9.4.1 时域分析。涵盖基本序列运算、LTI 系统、单位阶跃和单位冲激、系统响应、卷积及递归与非递归差分方程。第 356、358 页的因果性术语有明显误译，第 358 页的样本依赖条件表述也需复核。",
+        "PDF 399–427。399–401 第 10 章能量测量末段。PDF 399 从电荷俘获校正的半句接入，随后进入 §10.2.9，讨论以波形拟合、反卷积和模板匹配恢复堆积事件。式 (10.33) 的分段排版破损，起始时间关系的符号存疑。式 (10.34) 的矩阵排版错位，正文仍可辨认采样值、响应矩阵和各脉冲幅度之间的关系。；401–404 §10.3.1–10.3.2。介绍共用时钟的数字时间戳、离线采集配置与实时处理，以及带限信号重构、混叠、sinc 插值、补零上采样和有限长 FIR 近似。PDF 404 末转入时间提取。；404–409 §10.3.3–10.3.6。涵盖前沿阈值、恒比过零、按脉冲峰值比例设阈值、基线交点、加权最小二乘、定时滤波，以及 ADC 采样率和量化对定时的影响。PDF 408 式 (10.44) 的上标和积分项排版严重错位。PDF 409 末转入脉冲形状甄别。；409–416 §10.4 导论及 §10.4.1 闪烁探测器甄别。涵盖电荷比较、过零、模型拟合、脉冲梯度、整形、余弦相似度、主成分分析和频域方法。PDF 410–412 部分公式的上标或括号错位，尤其是 PDF 411 式 (10.47) 前的滤波网络记号。PDF 414 式 (10.52) 的矩阵行列错位，PDF 415 式 (10.57) 的零频记号与紧随其后的文字不一致。"
+      ],
+      "boundary": [
+        "全文各段以原件、页码和实际提取质量为准。未逐项运行代码、重算书例或复核外部实验原文件。"
+      ],
+      "disposition": "covered",
+      "worker": "terminal Codex disjoint page ranges and manager PDF figures",
+      "source_pdf": "raw/books/翻译版-SignalProcessingforRadiationDetectors.pdf",
+      "sha256": "85e38c7aeb0121faed84cb0b2d8bb03e3e9c80e65dab84c8aad3893bc1399f99",
+      "physical_pages": 427
+    },
+    {
+      "id": "catalogue:LIT-000321",
+      "source": "knowledge/sources/book-raduta-coherent-states.md",
+      "identity": "A. A. Raduta, Nuclear Structure with Coherent States. 本地 524 页，PDF 1 为另附平台封页。",
+      "coverage": [
+        "PDF 1–524，与分段原文读段和下面列出的原图补核合并。",
+        "PDF 1–38。逐页阅读PDF物理第1–38页的供给文本。正文范围为印刷第1–26页，覆盖第1章全文和第2章至§2.4中途。图2.1–2.3仅核读图注与正文说明，图像、坐标轴和曲线待检。PDF第39–524页待审。",
+        "PDF 39–61。仅阅读物理PDF第39–61页的带页标提取文本，共23页。物理第39–49页对应印刷页27–37，物理第50–61页对应印刷页39–50。阅读范围包括正文、可辨认的公式和图注。图像均未目视核验。",
+        "PDF 62–84。逐页阅读物理第62–84页的提取文本，共23页，对应印刷第51–73页。范围自§3.4后段至§4.1中段。图形和原版排印均未目检。",
+        "PDF 85–139。85–93 第4章 §4.1 的续段。PDF 85 从句中开始，含流体动力学转动惯量下能级随 γ 变化的图4.2图注。其后讨论刚性三轴转子的 K 奇偶分块、D₂ 不可约表示、低自旋能谱、能量和关系及宇称。表4.1–4.2的分类与计数可读，部分角动量矩阵元和显式能量公式的根号、上下标及括号错位。；94–109 §4.2 用 SU(2) 相干态和含时变分原理建立经典转子动力学，导出正则变量及泊松括号。随后给出 Holstein–Primakoff、Dyson、指数型及另一种玻色表示，讨论厄米性、相似变换和不同转动惯量排序下的近似。PDF 109 页末进入 §4.3。；109–117 §4.3 在经典能量极小点附近作谐近似，导出不同转动惯量排序下的摆动频率。Dyson 表示将问题化为动能与势能分离的薛定谔方程。数值应用以 ¹⁵⁸Er 的 yrast 能级检验近似，涉及图4.3–4.7。PDF 117 的图4.7图注可读，末尾转动惯量拟合关系的公式明显错排。；117–125 §4.4 从二次倾斜转子哈密顿量出发，按参数分类其不变群，再研究单位球上的经典运动、临界点、临界能量、分界线及特殊轨道。表4.3列出临界点及其类型，部分根号与行列对应错位。图4.8–4.9的图注分别说明参数分界线与临界能量。",
+        "PDF 140–194。140–151 Chapter 5, end of the §5.1 introduction and §5.1.1. PDF 140 opens mid-sentence with the semiclassical workflow and the Weyl and SU(2) coherent-state trial space. The section develops the particle–core classical Hamiltonian, canonical equations, conserved quantities, constrained BCS minimum, small-oscillation modes, the spurious zero root, and action quantization. It closes with the decoupled and pairing-only limits. The extraction damages the dispersion-relation layout and zero-frequency qualifiers on PDF 145–146 and 150, and breaks up the coefficient formula in Eq. (5.1.56) on PDF 147.；151–156 Chapter 5, §5.1.2. Fermionic quasispin is mapped to a classical SU(2) Poisson algebra and then to boson operators. Different canonical coordinates produce three representations, including Holstein–Primakoff and Dyson. The closing discussion relates boson expansion convergence to the Taylor expansion about the energy minimum. The extraction scrambles operator ordering and superscripts in Eqs. (5.1.83)–(5.1.88) and renders the Dyson adjoint relation on PDF 155 ambiguously.；156–159 Chapter 5, §5.1.3 and the close of §5.1. The platinum-188 calculation tabulates quasiparticle energies and mode frequencies, then associates one- and three-phonon excitations at fixed core angular momentum with the gamma and beta bands. The text discusses the missing beta bandhead in this approximation and the growing role of anharmonicity at high spin. Tables 5.1 and 5.2 are present, but the first row of Table 5.2 has four extracted entries under five spin headers and nearby prose gives conflicting J = 0 conditions. Figure captions for Figs. 5.1–5.4 are present. The Fig. 5.4 caption repeats a band label in an energy difference.；159–165 Chapter 5, §5.2 introduction and §§5.2.1–5.2.2. The text motivates symmetry restoration for proton–proton, neutron–neutron, and isovector proton–neutron pairing. It gives the isospin tensor conventions and builds a restricted generalized Bogoliubov–Valatin transformation from a proton–neutron transformation and an isospin rotation. The resulting intrinsic BCS state supplies the input for projection. Time-reversal marks, conjugates, and matrix alignment are degraded in the extraction on PDF 161–164.",
+        "PDF 195–249。195–198 Chapter 6, end of §6.2. PDF 195 starts mid-derivation of the vibrational-limit β-band amplitudes. §6.2.2 gives the harmonic and anharmonic E2 operator, limiting matrix elements, and finite-deformation corrections. Several radicals, fractions, and angular-momentum indices are badly garbled. The coefficient at the end of Eq. (6.2.28) on PDF 197 reads q_h, while adjacent discussion assigns the β–ground contribution to the anharmonic operator. PDF 198 opens §6.3.；199–203 §6.3, large deformation. The projected states approach strong-coupling rotational forms. The overlap-integral expansion gives asymptotic band energies and simplified E2 matrix elements. The captions and prose for Figs. 6.1–6.2 describe the evolution from vibrational to rotational spectra, the change in γ-band staggering, and a proposed transition signature. The displayed formulas have several displaced indices and fraction lines.；204–212 §6.4, intrinsic coordinates, projected wave functions, K-component symmetries, normalization, and deformation distributions. §6.4.1 compares the CSM with microscopic results for ¹⁹⁰Pt. PDFs 208–211 contain the captions and discussion for Figs. 6.3–6.5. The prose on PDF 210 and the caption on PDF 211 assign the weighted β distribution to different panels. The Fig. 6.6 reference on PDF 211 occurs in the ¹⁹⁰Pt discussion, while the caption on PDF 212 identifies a ²³²Th energy comparison.；212–216 §6.5.1, numerical energy comparisons across vibrational, deformed, γ-soft, and triaxial candidates. Figs. 6.6–6.13 are represented by captions. The prose explains parameter fitting, even-spin ground–γ mixing through a two-state diagonalization, and departures from observed γ-band staggering.",
+        "PDF 250–304。250–254 Chapter 7, continuation of §7.1. The text covers Hamiltonian coefficient interpolation, parity-partner spectra, rotational response, and two energy-displacement diagnostics for static octupole deformation. PDF 250 is a figure page with a readable Fig. 7.3 caption and panel labels. Its six panels remain pending. PDF 251 has a readable Fig. 7.4 caption and fragmented Fig. 7.5 plot labels. On PDFs 253–254, the Fig. 7.6–7.7 captions are usable, but their extracted graphical fragments lack the plotted curves.；254–256 §7.1.2. Electric transition probabilities, with emphasis on E1 branching ratios and reduced matrix elements for ²²⁶Ra. Table 7.1 has legible values, but its caption repeats an operator label where the last column is headed Th., II. Some positive-parity superscripts appear as daggers. Fig. 7.8 is represented by its caption and discussed in the prose.；256–261 §7.1.3 and the close of Chapter 7. The ECSM adds positive- and negative-parity dipole bands, bringing the model space to eight bands. The text discusses the added Hamiltonian terms, M1 and E1 signatures, the relative angle of quadrupole and octupole boson angular momenta, and a possible precursor to chirality. Several formulas on PDFs 257 and 259 have disrupted symbol placement. Figs. 7.9–7.12 are covered through captions and prose.；262–267 Chapter 8 opening and §8.1.1. Even-even Pt calculations couple zero- and two-quasiparticle configurations to a CSM core in the weak-coupling regime. The text discusses the 10⁺–12⁺ level ordering, neutron alignment, gyromagnetic factors, and E2 strengths. PDF 265 carries the Fig. 8.1 caption and model discussion. PDF 267 is a table-only page for Table 8.2, with blank cells and flattened isotope columns that limit reliable cell assignment.",
+        "PDF 305–359。305–310 第10章 §10.1 的续段。比较基带、玻色子偶极带和双准粒子–核芯偶极带中的质子与中子角动量，讨论变形如何影响夹角，以及何时可形成正交三元组或共面构型。PDF 305 从图10.1图注和接续正文开始，PDF 310 转入磁偶极跃迁。；310–313 §10.1.5 推导核芯与全系统的陀螺磁因子、M1 算符及约化矩阵元，并用表10.1比较两组变形下的带内 B(M1)。PDF 311–312 的公式上下标和根号有错位，PDF 313 的空单元格位置在表格抽取中丢失。；314–325 §10.1.6 用 ¹⁸⁸Os、¹⁹⁰Os 和 ¹⁹²Pt 的集体能谱拟合模型，讨论磁偶极带的暂定指认、T1–T4 手征构型、能级间隔、带内 M1 和转动惯量回弯。PDF 315 的表10.2抽取未显示 ¹⁹²Pt 的均方根偏差，PDF 316 的图10.11图注给出 67 keV。PDF 325 的图10.21仅留下错位标签，随后开始 §10.2。；325–332 §§10.2.1–10.2.2 介绍标量电荷密度和角动量投影，从体积守恒的液滴表面展开得到动量空间电荷算符，比较内禀态与投影态的矩阵元，并讨论确定正则变换参数 kₚ 的不同方法。PDF 332 的表10.4比较两种 kₚ/d 取法，随后进入 E0 跃迁。",
+        "PDF 360–414。360–363 Chapter 12, §§12.1–12.1.2. PDF 360 opens mid-derivation. The text relates projected and spherical shell-model nucleon densities, introduces a coherent-core average, and begins the first 2⁺ ground-band quadrupole-moment calculation. Figs. 12.2 and 12.3 are represented by captions. The density equations have scrambled indices and normalization glyphs.；364–367 Chapter 12, §§12.1.2–12.1.4. The projected quadrupole moment is followed by Cd and Te shell-filling comparisons with Nilsson calculations, odd-nucleus ground-state spins, and proton and neutron parameter fits for 194 isotopes. PDF 366 is the Table 12.1 page. The spin fractions and orbital labels are badly garbled, so individual entries remain uncertain.；368–373 Chapter 13, §§13.1.1–13.1.3 opening. A coherent-state time-dependent variational treatment maps a fourth-order quadrupole-boson Hamiltonian to classical motion. The text classifies stationary points, relates degenerate minima by rotations, and uses deformation invariants to identify axial shapes. The range ends with coordinates for linearization about a minimum.；374–378 Chapter 13, §§13.1.3–13.1.4 opening. Energy-surface cuts accompany the RPA-like normal-mode equations, the soft-mode conditions, and the interpretation of small-amplitude β and γ vibrations through changes in the principal radii. The final page introduces large-amplitude motion.",
+        "PDF 415–469。415–418 第14章 §14.1 续。PDF 415 从讨论 γ 刚度的半句起接，给出使 β、γ 方程可分离的势，再进入 §14.1.3。径向可解模型包括谐振子、Davidson 势和五维无限深势阱，分别涉及 Laguerre 解、有效资历量子数和 Bessel 零点量子化。部分公式的分式和上下标断行。；419–421 §14.1.4 带离心势垒的六次振子。对非负整数 M，正文给出由有限维多项式空间求取 M+1 个代数解的方法，并构造偶、奇角动量序列及 β 势和能谱。PDF 421 末转入 γ 哈密顿量。式 (14.1.26)、(14.1.30) 和 (14.1.37) 的算符分组、分式或根号在提取中错位。；421–426 §§14.1.5–14.1.6 比较 γ 在 0 和 π/6 附近的局部展开，讨论周期性及原液滴模型积分测度下的厄米性，并在暂略旋转项 W 的设定下给出保留这两项性质的求解。u₁=0 时可归入球状波方程。正文讨论小、大参数下的能谱及多重态分裂。PDF 422–425 的展开系数、撇号及渐近式有明显错位。PDF 426 的图14.1可读图注和散落标签，曲线形态待核。；426–429 §14.1.7 从 γ=π/6 附近的展开导出 Mathieu 方程，以周期解的特征值确定 γ 能量，并给出 β、γ 能量相加及计算 B(E2) 的两类跃迁算符。PDF 428 的图14.2图注及正文说明稳定区，曲线分支的正负标记在提取中混叠。PDF 429 汇总三种 β 势与两类 γ 解组成的六种方案，并引入核素应用。",
+        "PDF 470–524。470–471 第14章 §14.5 收尾。比较相干态模型（CSM）及其推广与相互作用玻色子近似（IBA）的跃迁强度、剪刀模、八极形变、高自旋态和临界点描述。PDF 470 从一段比较的中途开始，页首比例因子所对应的两项结果在本段抽取中缺少前文。；472–476 第15章 §15.1 总结。回顾相干态的超完备性、对称性恢复、半经典轨道与量子化、Davidson 势及基态带，并总结基态、β、γ 三带的构造与耦合。随后综述粒子–核芯耦合、质子与中子玻色子推广、剪刀模、手征带、八极与奇质量核推广、投影单粒子基及其应用，最后比较其他集体模型。PDF 473 的部分玻色子符号和态矢量下标错位。PDF 476 是篇幅较短的结论末页。；477–487 附录 A §§A.1.1–A.1.5。从群公理、平面旋转与反射讲到 SO(2) 与 U(1) 的对应、SO(3) 与 SU(2) 的局部对应、SO(N) 生成元及 D₂ 不可约表示。PDF 487 的表 A.1 给出 D₂ 特征标，随后讨论转子哈密顿量的不变性。矩阵与指标有抽取错位，PDF 482 的代数标签写成 SO(2)，节标题和下页论述使用 SO(3)。；487–491 附录 A §§A.1.6–A.1.7。定义张量算符，给出 Wigner–Eckart 分解、张量耦合及 Wigner 旋转矩阵的因子分解、正交性和乘积关系。PDF 488 的图 A.1 图注说明实验室与本征坐标系的欧拉角关系，图形本身待核查。PDF 487、489–491 的部分公式上下标和相位因子错位。"
+      ],
+      "boundary": [
+        "全文各段以原件、页码和实际提取质量为准。未逐项运行代码、重算书例或复核外部实验原文件。"
+      ],
+      "disposition": "covered",
+      "worker": "terminal Codex disjoint page ranges and manager PDF figures",
+      "source_pdf": "raw/books/nuclear structure with coherent states_Raduta.pdf",
+      "sha256": "98b057e53e323b0f4781060ad5ae4a8c045ac36b32c0650033953360d951aca3",
+      "physical_pages": 524
+    },
+    {
+      "id": "catalogue:LIT-000323",
+      "source": "knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+      "identity": "Jouni Suhonen, From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory. Local 654-page edition.",
+      "coverage": [
+        "PDF 1–654，与分段原文读段和下面列出的原图补核合并。",
+        "PDF 1–40。逐页核读物理 PDF 第 1–40 页的文本，覆盖前置页、目录、第 1 章正文及习题、第 2 章开头至式 (2.10)。第 41–654 页未读。所供文本未提取编号图、编号表或可对应的图注。题名页标示全书 103 幅图，图版尚待管理员检查。",
+        "PDF 41–83。逐页核读物理 PDF 第 41–83 页抽取文本，共 43 页，对应本段印刷页序 26–68。范围含正文、习题题面及图表标题。图像、图线和公式版式均未经目视核验。",
+        "PDF 84–138。84 Chapter 4, end of the one-body transition-density discussion and §4.2.3. The page opens mid-discussion, then gives the occupation-number form of two-body operators and the exchange and Hermiticity properties of antisymmetrized matrix elements.；85–88 Chapter 4, §4.3. Vacuum-relative normal ordering, contractions, Wick’s theorem, and applications to one- and two-particle overlaps and matrix elements. The extraction scrambles the notation in Eq. (4.31), flattens contraction marks in Eqs. (4.35)–(4.44), and renders the distinct-orbital condition beside Eq. (4.44) as an equality.；89–92 Chapter 4, §4.4, after the conclusion of §4.3 on PDF 89. The filled Hartree–Fock reference state, particle and hole operators, their contractions, the one-body operator decomposition, and excitations across the Fermi surface. Figure 4.1 is represented by its caption and detached diagram labels.；93–98 Chapter 4, §§4.5–4.6. Wick’s theorem gives the Hartree–Fock field and residual interaction. The text derives the ground-state energy, distinguishes direct Hartree and exchange Fock terms, and converts the variational problem to a self-consistent matrix eigenproblem. PDF 98 closes the derivation and contains the epilogue and first exercise.",
+        "PDF 139–193。139–147 Chapter 6, continuation of §6.1. PDF 139 begins mid-discussion at Eq. (6.26), with effective charges and phase conventions. The remainder covers harmonic-oscillator radial integrals, tabulated E1–E3 and M1 single-particle matrix elements, static moments, and Weisskopf units and rates. Table 6.2 on PDF 140 is badly garbled at the cell level, with displaced radicals, fractions, and entries. Nearby equations and the rate tables on PDF 147 also have displaced mathematical typography.；147–152 Chapter 6, §6.2. One-particle and one-hole transition densities and strengths, the M1 and E2 decay analysis for ¹⁵N and ¹⁵O, and Schmidt magnetic moments compared with measurements in Table 6.10.；152–155 Chapter 6, §6.3. Angular-momentum recoupling for like-nucleon and proton–neutron pairs, simplifications for zero-spin final states, the corresponding two-hole amplitudes, and effective charges inferred from E2 strengths in ¹⁸O and ¹⁸Ne.；155–163 Chapter 6, §6.4. Electromagnetic transitions to the particle–hole vacuum and between particle–hole states, with charge-conserving and charge-changing configurations. The ¹⁶O application discusses spurious centre-of-mass motion in E1 and isospin breaking. The ¹⁶N application infers an effective neutron charge from E2 decay. Figure 6.1 on PDF 159 is represented by a caption and disordered level-scheme labels.",
+        "PDF 194–248。194–195 Chapter 7 enters mid-§7.4 with the ¹⁶N decay scheme in Fig. 7.7, then compares unmixed particle–hole predictions for Gamow–Teller and Fermi branches with experiment. PDF 195 opens §7.5. The decay-scheme labels and some angular-momentum notation on PDF 194 are flattened in the extraction.；196–202 §7.5 derives two-particle beta-decay amplitudes, simplifies the zero-angular-momentum cases, and gives the substitutions for two holes. Applications cover mass 6, the mass-18 decay chain, and the mass-42 and mass-54 systems. The mass-18 mixing ratio is inferred from measured decay strengths. Several recoupling formulas on PDFs 196–198 and mixed-state expressions on PDFs 200–201 have disordered subscripts and symbols.；203–208 PDF 203 closes the mass-54 application with Fig. 7.11 and opens §7.6. The section introduces first-forbidden operators, derives the unique-decay shape and phase-space factors, and applies them to ¹⁶N. PDF 208 begins the higher-order treatment. On PDF 207, Table 7.6 is badly garbled at cell level, and the fraction and power layout of Eq. (7.174) is degraded.；209–216 §§7.6.4–7.6.7 cover higher-forbidden unique selection rules, beta-decay and electron-capture phase space, matrix elements, comparative half-life conventions, the ⁴⁰K application, reuse of few-particle and few-hole transition densities, and non-unique selection rules. The epilogue begins on PDF 216. Tables 7.8–7.9 on PDFs 210–211 have badly displaced radicals and entries, and PDF 212 has degraded polynomial typesetting. On PDF 213 the prose cites Eq. (7.192) for the reduced strength in Eq. (7.203), while the displayed strength definition is Eq. (7.193).",
+        "PDF 249–303。249–252 Chapter 8 continues the two-hole spectra of the A = 14 and A = 38 nuclei in Figs. 8.5–8.8. The authors identify missing cross-shell configurations and incorrect relative placement of the T = 0 and T = 1 levels in ³⁸K. Section 8.5 then formulates transition amplitudes between mixed configurations and introduces the ⁶He beta-decay calculation. PDF 249 opens mid-discussion. The extracted spin, isospin and energy labels in the four level diagrams are interleaved.；253–254 Sections 8.5.2–8.5.3 evaluate Gamow–Teller beta decay from ⁶He to ⁶Li and E2 decay in ¹⁸O and ¹⁸Ne. The E2 analysis compares unmixed, restricted-space and full-shell results and discusses the fitted electric polarization constant. The extraction displaces radicals, charge exponents and some state labels.；255–257 Chapter 8 epilogue and Exercises 8.1–8.35 cover residual-interaction derivations, two-particle and two-hole spectra, and electromagnetic and beta-decay calculations.；258–267 Chapter 9 prologue and §9.1 develop the Tamm–Dancoff approximation (TDA) from Hartree–Fock stationarity and Brillouin’s theorem. They derive the particle–hole Hamiltonian, give the Pandya transformation and tabulated surface delta interaction (SDI) coefficients, and establish the TDA eigenvalue, orthonormality and completeness relations. The contractions and angular-momentum recoupling formulas on PDF 262–263 have degraded phase exponents, indices and 6j layouts.",
+        "PDF 304–358。304–307 Chapter 10, closing portion of §10.1. The extract begins mid-discussion of the mass-4 pnTDA spectra and their isospin relation, then covers the valence-space comparisons for ¹⁶N and ⁴⁰K, with comments on ¹⁶F and ⁴⁰Sc. PDF 304 has a suspect equality sign in the sentence about lifting degeneracies. PDFs 305–307 contain flattened spectrum labels and captions for Figs. 10.1–10.3. PDF 307 is devoted to Fig. 10.3.；308–310 Chapter 10, §10.2 and the opening of §10.3. The electromagnetic formalism combines pnTDA configuration amplitudes with particle–hole matrix elements. The ¹⁶N E2 application ends on PDF 310, where the beta-decay discussion begins with transitions to the particle–hole vacuum. The superscripts and units in Eq. (10.26) are displaced in the extraction.；311–315 Chapter 10, §§10.3.1–10.3.4. Allowed and unique-forbidden beta-decay amplitudes lead to the ¹⁶N ground-state and excited-state branches in ¹⁶O. PDF 312 has badly garbled radicals and indices in Eq. (10.38), with the resulting log ft still legible in Eq. (10.39). PDF 315 gives partial half-lives in Table 10.1, the total half-life, the chapter epilogue, and the first exercise.；316–317 Chapter 10 exercises 10.2–10.18 cover derivation checks, spectra, interaction fits, beta decay, and electromagnetic transition rates.",
+        "PDF 359–413。359–362 第11章 §11.6。PDF 359 页首承接前页关于 RPA 跃迁振幅的讨论，随后进入极端集体模型。§11.6.3 比较氧-16 在两个粒子–空穴空间中的 E3 衰变，表 11.8–11.11 显示最低集体态的增强最明显。PDF 362 页末引入能量加权和规则。PDF 359 的根号、分式与不等号以及 PDF 362 的双对易子公式均有明显抽取错位。；363–366 第11章 §11.6.4–11.6.6。用 RPA 完备关系和双对易子证明能量加权和规则，以氧-16 的 E3 强度核对等式两侧，再开始推导可分离模型中的基态电跃迁。PDF 363–365 的矩阵、上下标和共轭符号有明显错位，推导顺序和式号仍可辨认。；367–369 第11章 §11.6.6–11.6.9。完成可分离模型的归一化，比较氦-4 的 E1 跃迁结果，并说明该小组态空间中的 RPA 与 TDA 差异有限。简并模型说明低能集体态可有较大的基态跃迁增强。PDF 369 随后开始两个 RPA 激发态之间的跃迁推导。；370–373 第11章 §11.6.9–11.6.10。以准玻色子近似完成激发态间约化矩阵元的推导，用钙-40 的 E2 跃迁比较 RPA 与 TDA 的振幅、强度和电极化常数。PDF 370–372 的多重指标、相位与共轭位置有明显抽取错位。",
+        "PDF 414–468。414–415 第13章 §13.3 后半。PDF 414 从式(13.53)的推导中途起读，公式的分式和上下标错位。后续可辨认出 BCS 占据振幅、时间反演相位、准粒子能量、配对隙方程，以及变分条件与 H₂₀ 消失的等价性。；416–419 第13章 §13.3 收尾及 §13.4。区分准粒子平均场与剩余相互作用，解释配对隙、自能、化学势、粒子数约束与涨落、数宇称及质量奇偶效应。PDF 419 末开启 §13.5。；420–428 第13章 §13.5 单 j 壳层、半满 Lipkin 模型及一般双能级模型。比较 BCS 与精确解的占据振幅和能量，讨论临界配对强度及泡利原理对化学势的影响。图13.1–13.3 的图注和表13.1 可读，部分角动量分数被压平。PDF 427–428 含章末总结和习题。；429–432 第14章开篇及 §14.1 数值方法。汇总自洽方程，按粒子数残差迭代更新占据振幅和化学势，并交代 SDI 壳层计算的输入。PDF 430–431 是跨页流程，PDF 431 的迭代指标和式(14.6)–(14.11)有排版错位。",
+        "PDF 469–523。469–471 第15章 §15.3.3，A = 63 同量异位素链中的奇质量数核 β 衰变。比较 ⁶³Ni 和 ⁶³Zn 到 ⁶³Cu 的粒子型与空穴型跃迁，指出单准粒子近似的局限。PDF 469 从图15.2及本小节起读，图中的分支连线与标签位置在抽取中已丢失。；471–474 第15章 §15.4.1，双准粒子态与 BCS 真空之间的电磁、允许 β 和唯一禁戒 β 跃迁。涵盖 N = Z 时的同位旋组合、正反向 β 振幅的占据因子交换、Hartree–Fock 极限及多组态叠加。PDF 473 的式(15.67)指数错位，PDF 474 的图15.3仅保留图注和零散标签。；475–479 第15章 §15.4.2，A = 30 链的 β⁺/EC 与 E2 跃迁。用 ³⁰Si 和 ³⁰S 两个参考真空构造 ³⁰P 态，以衰变数据约束组态混合，并讨论 E2 强度反映的集体性。PDF 475 的图15.4能读到图注和部分数据标签，分支的空间对应关系待核。；479–483 第15章 §§15.5.1–15.5.2，双准粒子态之间的电磁跃迁和允许 β 衰变，包括偶偶核、奇奇核、粒子型与空穴型分类及零耦合角动量特例。PDF 480、482–483 的多行公式存在 6j 符号排布、相位指数和指标错位，文字与式号仍可定位。",
+        "PDF 524–578。524–527 Chapter 16, §16.6. Derives the QTDA non-energy-weighted sum rule for electromagnetic transitions and its effective-charge form for electric transitions. Tables 16.10–16.12 compare summed E2 strengths before and after configuration mixing in magnesium-24 and zinc-66. The bra–ket delimiters and layout of Eqs. (16.116)–(16.119) are degraded, but the prose and table totals establish the result.；526–529 Chapter 16, §16.7. Builds electromagnetic amplitudes between QTDA excited states from two-quasiparticle matrix elements. The magnesium-24 E2 example shows cancellation among contributions and a calculated strength far below the value inferred from experiment. Fig. 16.8 is represented by its caption, extracted labels, and adjacent discussion. Its decay-arrow geometry remains pending. The angular-momentum notation and superscripts on PDF 528–529 are partly scrambled.；529–533 Chapter 16 epilogue and Exercises 16.1–16.35. Closes the even–even QTDA treatment and assigns derivations, matrix diagonalization, transition-rate calculations, and sum-rule checks.；534–536 Chapter 17 prologue and §17.1. Introduces proton–neutron QTDA for odd–odd open-shell nuclei built on an even–even BCS reference. Covers the equation of motion, the Pandya transformation, phase conventions, orthonormality, and completeness. Several indices and phase exponents on PDF 535–536 are displaced in the extraction.",
+        "PDF 579–633。579–585 第18章 §18.2.2 末尾及 §18.3。PDF 579 从高阶 QRPA 的跨页残句开始。随后讨论开壳层偶偶核的关联矩阵 B、²⁴Mg 的 2⁺ 本征解、²⁴Mg 和 ³⁰Si 的全壳层能谱，以及 1⁻ 态中的质心平动伪成分。PDF 580–581 的部分公式上下标错位，PDF 582–583 的能级图标签被线性化，PDF 583 的表 18.1 有两个相同的 J = 0 列头。§18.3 在 PDF 585 页首收尾。；585–591 第18章 §§18.4.1–18.4.4。推导到 QRPA 基态的电磁跃迁振幅，比较 ²⁴Mg、³⁰Si 和 ⁶⁶Zn 的 E2 强度，并给出能量加权和规则的矩阵形式。²⁴Mg 的两种求和结果在舍入误差内一致。部分公式的括号、上下标和矩阵排版在提取中受损。；592–597 第18章 §§18.4.5–18.4.7。推导两个 QRPA 激发态之间的电磁跃迁，分析 ²⁴Mg 的 4₁⁺→2₁⁺ E2 跃迁中矩阵元的抵消，以及计算寿命与实验的差距。随后讨论双声子振动和转动带两种解释。PDF 596 的式 (18.133) 在提取中标为 QTDA，但前后文将第二组结果对应到 QRPA，原页标签待核。；597–599 第18章 §18.5 和尾声。讨论相同及不同振动声子的耦合、理想双声子多重态，以及双声子向单声子和基态的电衰变。尾声总结 QRPA 基态关联对集体性的作用。",
+        "PDF 634–654。634–636 Chapter 19, Proton–Neutron QRPA, closes with Exercises 19.1–19.29. They cover matrix construction and diagonalization, spectra, beta-decay and electron-capture log ft values, electromagnetic half-lives, and Ikeda sum-rule checks. PDF 636 is a readable exercise page with locally garbled nuclide and state notation in several transition expressions.；637–639 The book-wide References section contains entries 1–86. Its sources span angular momentum, nuclear structure, weak interactions and decay, pairing, and many-body approximations. Some titles wrap across lines, and a web address on PDF 638 contains spacing artifacts.；640–652 The book-wide subject index runs from the opening symbol entries through Woods–Saxon wave functions. Two-column extraction interleaves some entries and continuations and flattens mathematical notation, including spin fractions. The index remains readable as a guide to topics and printed-page locators.；653–654 Theoretical and Mathematical Physics series catalogue. PDF 653 credits J. Suhonen as the author of From Nucleons to Nucleus and introduces titles previously published in Texts and Monographs in Physics. PDF 654 continues the catalogue. Interleaved columns obscure some title, subtitle, edition, and author associations."
+      ],
+      "boundary": [
+        "全文各段以原件、页码和实际提取质量为准。未逐项运行代码、重算书例或复核外部实验原文件。"
+      ],
+      "disposition": "covered",
+      "worker": "terminal Codex disjoint page ranges and manager PDF figures",
+      "source_pdf": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "physical_pages": 654
+    },
+    {
+      "id": "catalogue:LIT-000303",
+      "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure.md",
+      "identity": "Bohr and Mottelson I, World Scientific 1999 printing, 492 pages.",
+      "coverage": [
+        "PDF 156 为章首，PDF 157–192（印 138–173）为第 2 章开头及 §2-1 例释。",
+        "PDF 193–230（印 174–211）原页继续 §2-1/§2-2。两人分配区间不重叠。"
+      ],
+      "boundary": [
+        "仅接受已核证据。"
+      ],
+      "disposition": "partial",
+      "worker": "Pascal and Pauli",
+      "source_pdf": "raw/books/nuclear structure Ⅰ_Bohr, Mottelson.pdf",
+      "sha256": "a31a158e0aff2ec6734d46f5aea5eb42dbebb82280835774f49350dd6f8c79df",
+      "physical_pages": 492
+    },
+    {
+      "id": "catalogue:LIT-000308",
+      "source": "knowledge/sources/book-greiner-nuclear-models.md",
+      "identity": "Greiner and Maruhn, Nuclear Models, Springer 1996 English scan.",
+      "coverage": [
+        "PDF 86–135（印 67–116）新增 50 个正文页。"
+      ],
+      "boundary": [
+        "仅接受已核证据。"
+      ],
+      "disposition": "partial",
+      "worker": "Hubble",
+      "source_pdf": "raw/books/Nuclear Models (Walter Greiner, Joachim A. Maruhn) (Z-Library).pdf",
+      "sha256": "db5e43efaa80877822540bf0caae9be93d54d5499c5df89faae69769e6f77091",
+      "physical_pages": 399
+    },
+    {
+      "id": "catalogue:LIT-000309",
+      "source": "knowledge/sources/book-hamilton-electromagnetic-interaction.md",
+      "identity": "Hamilton (ed.), North-Holland 1975, 956 physical PDF pages.",
+      "coverage": [
+        "PDF 696–711、712–726、734–745 新查，727–733 承接既有。实质新增 39 页，另三页纯书目和一页空白。"
+      ],
+      "boundary": [
+        "仅接受已核证据。"
+      ],
+      "disposition": "partial",
+      "worker": "Sartre",
+      "source_pdf": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+      "sha256": "93b32a8debb66ad036229d860ad56f0434dc49b56edd32f1628af1d71a21ae00",
+      "physical_pages": 956
+    },
+    {
+      "id": "catalogue:LIT-000314",
+      "source": "knowledge/sources/book-lin-heavy-ion-reactions.md",
+      "identity": "林承键，《重离子核反应》，2015 首版 2018 二印，223 个物理页。",
+      "coverage": [
+        "PDF 47–61（印 37–51）第 3 章 §§3.1–3.6.2，原页 OCR、图和关键式。"
+      ],
+      "boundary": [
+        "仅接受已核证据。"
+      ],
+      "disposition": "partial",
+      "worker": "Dirac",
+      "source_pdf": "raw/books/重离子核反应 (林承键) (Z-Library).pdf",
+      "sha256": "792bfe7f7807623b7e1439b32eddb7320ab3ec6bf6be7e3894b436c1c9f65b2e",
+      "physical_pages": 223
+    },
+    {
+      "id": "catalogue:LIT-000324",
+      "source": "knowledge/sources/book-tongji-higher-mathematics-vol2.md",
+      "identity": "catalogue grouping",
+      "coverage": [
+        "PDF 23–48，原件扫描 OCR 有界读段；可辨范围 [23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48]。"
+      ],
+      "boundary": [
+        "{'start': 'Page 23 opens mid-derivation in §2, immediately before 例1 on the cosine law.', 'end': 'Page 48 reaches §5 四、二次曲面 and its opening definition.', 'ocr_limitations': 'Every page has readable material, but some formulas and exercises are fragmentary. On p. 23, 例1 loses the square on c. On p. 46, 例3 (5-6), the OCR loses the sign and exponent detail needed to distinguish a single cone nappe from the full double cone, whose squared form is z²=cot²(α)(x²+y²). The hyperboloid formulas on pp. 46–47 and several exercises on pp. 30 and 43 are only partly recoverable. Audit based on supplied OCR.'}"
+      ],
+      "disposition": "partial",
+      "worker": "terminal Codex assisted with local OCR",
+      "source_pdf": "raw/books/同济大学高等数学第七版下册.pdf",
+      "sha256": "4fe09776fec91bd3d780b163758025e6fbc2ce62ec15b53ee41ccdb3a8c48bf2",
+      "physical_pages": 367
+    },
+    {
+      "id": "catalogue:LIT-000325",
+      "source": "knowledge/sources/book-wang-particle-detection.md",
+      "identity": "catalogue grouping",
+      "coverage": [
+        "PDF 23–48，原件扫描 OCR 有界读段；可辨范围 [23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48]。"
+      ],
+      "boundary": [
+        "OCR only. Every page has readable text, but many equations, table entries, and figure labels have corrupted symbols or exponents. In the supplied OCR, p. 29 cites (2.1.11) in the Bethe–Bloch accuracy sentence, while p. 28 labels Bethe–Bloch (2.1.6) and p. 34 labels the knock-on spectrum (2.1.11). On p. 36, the prose cites (2.1.13) immediately after the restricted-loss equation labeled (2.1.12), then cites (2.1.11) in the mixture correction sentence. These are apparent cross-reference errors in the supplied text."
+      ],
+      "disposition": "partial",
+      "worker": "terminal Codex assisted with local OCR",
+      "source_pdf": "raw/books/粒子探测技术 (汪晓莲  李澄  绍明  陈宏芳) (Z-Library).pdf",
+      "sha256": "250b51039f35e6a22e1311d645637d741b0f859af9d328f62c450ae9422c3cb4",
+      "physical_pages": 444
+    },
+    {
+      "id": "catalogue:LIT-000326",
+      "source": "knowledge/sources/book-wu-nuclear-experiment-methods.md",
+      "identity": "catalogue grouping",
+      "coverage": [
+        "PDF 23–48，原件扫描 OCR 有界读段；可辨范围 [23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48]。"
+      ],
+      "boundary": [
+        "OCR only. Every page supports partial reading. Several equations and tables are garbled. The low-rate passage on PDF p. 32 cites (1.108), which labels the modal interval on p. 31. The supplied footers on PDF pp. 39–40 read 32 then 31. Page 48 ends mid-sentence."
+      ],
+      "disposition": "partial",
+      "worker": "terminal Codex assisted with local OCR",
+      "source_pdf": "raw/books/原子核物理实验方法--第三版 (吴治华) (Z-Library).pdf",
+      "sha256": "e23f010ff8d3b4737405235c4aba920533f44e89409ebb7e2cb076b7ab4ee591",
+      "physical_pages": 483
+    },
+    {
+      "id": "catalogue:LIT-000328",
+      "source": "knowledge/sources/book-zhu-probability-statistics-in-physics.md",
+      "identity": "catalogue grouping",
+      "coverage": [
+        "PDF 23–48，原件扫描 OCR 有界读段；可辨范围 23–48, with partial reading on degraded pages。"
+      ],
+      "boundary": [
+        "OCR only. Page 33 yields fragments on prior and posterior probabilities, and the inversion formulas (2.5.2)–(2.5.3) on page 48 are too degraded for exact transcription. Page 48 ends at the introduction of the characteristic function for a sum, before its formula."
+      ],
+      "disposition": "partial",
+      "worker": "terminal Codex assisted with local OCR",
+      "source_pdf": "raw/books/实验物理中的概率和统计_朱永生著.pdf",
+      "sha256": "e97062665497c597609d58c23dfa977824c43e73d3ae8cb4ca3c0855e381894b",
+      "physical_pages": 671
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 787,
+    "duplicate-or-related-version": 29,
+    "duplicate-excerpt-linked-to-canonical": 13,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 9,
+    "out-of-scope-particle-production": 3,
+    "archived-publisher-scan-missing-printed-page": 2,
+    "read-core-evidence-checked": 1,
+    "publisher-first-page-extract-fulltext-unavailable": 8,
+    "evaluated-data-extract-covered": 7,
+    "out-of-scope-atomic-spectroscopy": 4,
+    "editorial-front-matter": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 2,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "existing-source-coverage-to-audit": 9,
+    "conference-abstract-covered": 3,
+    "supplement-with-main-text-gap": 1,
+    "commentary-complete-shared-pages": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 9,
+  "credited_works": 5,
+  "credited_primary_pages": 3077,
+  "partial_volume_pages": 178,
+  "next_action": "Continue the nine remaining scanned book volumes.",
+  "uncredited": [],
+  "related_materials": []
+}

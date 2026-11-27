@@ -1,21 +1,21 @@
 ---
 type: source
-title: "Kris L. G. Heyde 1999 - Basic Ideas and Concepts in Nuclear Physics: An Introductory Approach (2nd Edition)"
+title: "Kris L. G. Heyde 2004 - Basic Ideas and Concepts in Nuclear Physics: An Introductory Approach (3rd Edition)"
 aliases: [Heyde1999, Heyde Basic Ideas, 海德核物理基础]
 created: 2026-11-01
 updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: skimmed
+reading_depth: read
 title_original: "Basic Ideas and Concepts in Nuclear Physics: An Introductory Approach"
 authors: [Kris L. G. Heyde]
 publisher: "Institute of Physics Publishing (IOP), Bristol and Philadelphia"
-year: 1999
-citation_key: "heyde_1999_basic-ideas-concepts"
+year: 2004
+
 pages: "647"
-isbn: "0750305357"
-canonical_source: "K. L. G. Heyde, Basic Ideas and Concepts in Nuclear Physics (2nd Ed.), IOP Publishing (1999)"
+
+canonical_source: "K. L. G. Heyde, Basic Ideas and Concepts in Nuclear Physics (3rd Ed.), IOP Publishing (2004)"
 library_file: "raw/books/Basic Ideas and Concepts in Nuclear Physics An Introductory Approach (Kris L.G. Heyde) (Z-Library).pdf"
 raw_file: "raw/books/Basic Ideas and Concepts in Nuclear Physics An Introductory Approach (Kris L.G. Heyde) (Z-Library).pdf"
 raw_sha256: "0490c8036be9cd8702cd8aec9c858ebb0e898e6c7b2b1056ce36e205f9f3c18a"
@@ -86,3 +86,12 @@ tags: [nuclear-structure, configuration-mixing, electromagnetic-transitions, nuc
 
 - 教材转述的 ²³⁸Pu α 谱含多个 α 群，对应 ²³⁴U 基态及不同激发态。正文报告 α 群强度随能量降低而下降，图注列出的最大 α 粒子能量为 5.59 MeV。分支与谱峰的对应待查物理第141页。（物理第141页，§4.5.1，图4.10(a)–(b)及正文。）
 - 教材转述 SNO 的分析结果，带电流道推得的电子中微子通量低于弹性散射道推得的通量，中性流道推得的总活性中微子通量与所引太阳模型预测相容。图中各柱的数值与归一化待读物理第194页原图。（物理第194页图5.27，物理第195–196页§5.4.5.1及式(5.75)–(5.77)。）
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+本地题名页 PDF 1 明印 THIRD EDITION，覆盖条目和书目信息从本册核定。PDF 284 Box 7b、328–330 Box 9b 的图版、表格和人物材料用原图及 OCR 补核。PDF 498 核激发能/转动惯量式的版面，PDF 647 为引文末段。
+
+- KamLAND reported 54 events against a no-oscillation expectation of 86.8 ± 5.6. The book interprets the deficit as evidence for the large-mixing-angle oscillation solution.（PDF 225, closing Chapter 5 discussion citing Figure 5d.1 by number）
+- 在本章采用的坐标依赖两体相互作用下，Hartree–Fock 自洽场的直接项是局域的，交换项是非局域的。由占据轨道构造的一体密度矩阵具有幂等性。（PDF 342，§10.1，式 (10.8)–(10.10)）
+- 偶偶核第一激发 4⁺ 态与第一激发 2⁺ 态的能量比可用来定位集体谱。谐振子极限为 2，刚性转子极限约为 3.33，近闭壳核的比值可接近 1。（PDF 451、453，§13.2.2，图13.20及图注）
+- 书中记载，1994年GSI与GANIL几乎同时借助飞行中弹核碎裂和碎片分离鉴别出双幻核锡-100，分别报告约7个和11个事例。（第15章专栏15a，PDF 559–561，图15a.1（PDF 560）、图15a.2（PDF 561））

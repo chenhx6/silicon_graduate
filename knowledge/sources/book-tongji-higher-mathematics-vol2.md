@@ -93,3 +93,8 @@ topics: [vector-algebra, multivariable-calculus, multiple-integrals, surface-int
 
 - For a nonzero vector a, b is parallel to a exactly when b = λa for a unique real λ. The coordinate criterion (1-3) follows from this theorem. A zero coordinate of a requires the corresponding coordinate of b to vanish.（PDF pp. 12–13, 第一节 向量及其线性运算, 定理1, PDF p. 15, 四、利用坐标作向量的线性运算, (1-3) and its footnote）
 - The Pythagorean theorem gives ‖r‖ = √(x² + y² + z²) for r = (x,y,z). The distance from A to B is the norm of the difference of their position vectors.（PDF pp. 16–17, 五、向量的模,方向角、投影, 1. 向量的模与两点间的距离公式）
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- The scalar triple product [abc] = (a×b)·c is the determinant with rows a, b, c. Its absolute value is the parallelepiped volume. It vanishes exactly when the three vectors are coplanar and hence linearly dependent. Tetrahedron ABCD has volume |[AB AC AD]|/6.（Physical pp. 27–29, §2 三、向量的混合积, Fig. 8-26 and 例7）
+- A point P₀ and a nonzero normal n determine a plane by n·(P−P₀)=0. For Ax+By+Cz+D=0, the distance from (x₀,y₀,z₀) is |Ax₀+By₀+Cz₀+D|/√(A²+B²+C²), with (A,B,C)≠0.（Physical pp. 32–33, §3 (3-3) and (3-4), and p. 36, 例7 (3-11)）

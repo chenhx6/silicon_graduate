@@ -82,3 +82,7 @@ tags: [books, heavy-ion-reactions, fusion-cross-section, critical-angular-moment
 ## 2026-11-27 — 馆藏原件与覆盖核对
 
 PDF 16–21 Eqs. (1.7)–(1.28) 的非相对论静止靶换算与纯库仑最近距离保留各自条件。PDF 37–40 Eqs. (2.30)–(2.42) 给 Thomas–Fermi 模型的体、梯度和相关能量项，拟合参数与原实验分开。末 PDF 223 印 213。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+弹性散射的 kinematics 和光学势模型以书中相位、光学输入及各自图题保存。下一段接本章实验与拟合条件。

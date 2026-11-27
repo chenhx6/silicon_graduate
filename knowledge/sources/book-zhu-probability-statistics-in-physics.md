@@ -84,3 +84,8 @@ tags: [books, experimental-statistics, error-propagation, parameter-estimation, 
 
 - A random trial can be repeated under the same conditions and has known possible outcomes, with the individual outcome uncertain. The text calls repetitions independent when their outcomes do not affect one another. The die example’s OCR reads ‘16’; the six-outcome context supports ‘1/6’.（Physical PDF p. 17, §1.1, coin and die examples and the paragraph defining 随机试验）
 - A partition consists of pairwise disjoint events whose union is the sample space. The die example uses {1,2}, {3,4}, and {5,6}. The prose recovers the pairwise condition lost in the equation OCR.（Physical PDF pp. 19–20, §1.1, Eq. (1.1.1) and Fig. 1.7）
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- Three events can satisfy all three pairwise independence identities while failing the triple identity P(ABC) = P(A)P(B)P(C), which mutual independence also requires.（Physical p. 24, §1.3, (1.3.12)）
+- The two-scan estimate assumes independent scans and equal detection probabilities across target events within each scan. With scan totals n₁ and n₂ and positive overlap m, the probability relations give an estimated population n₁n₂/m and efficiencies m/n₂ and m/n₁. Each efficiency estimate depends on the other scan.（Physical pp. 28–30, 例 1.5 扫描效率, 图 1.10）

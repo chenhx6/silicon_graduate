@@ -677,7 +677,7 @@
     "LOCAL-ROTATION-AND-DEFORMATION-SOURCES",
     "LOCAL-THEORY-AND-SPECTROSCOPY-245"
   ],
-  "completed_full_sources_this_run": 800,
+  "completed_full_sources_this_run": 805,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -685,25 +685,25 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-27T12:00:10.237248+00:00",
+  "updated_at": "2026-11-27T12:49:51.148522+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 30990,
+  "completed_primary_pages_this_run": 34067,
   "current_source_note": "knowledge/sources/book-bohr-mottelson-nuclear-structure.md",
-  "next_action": "Continue the remaining volumes using original-page checks and disjoint assignments.",
+  "next_action": "Continue the nine remaining scanned book volumes.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "3 works credited 1126 pages; 103 additional scan chapter pages separately recorded.",
+  "last_source_manager_closure": "5 works credited 3077 pages; 178 additional original scan pages and four bounded OCR continuations.",
   "current_source_scientific_acceptance": "Vol. II complete; continue the open queue, including archival PDFs needing original tables or scans.",
   "source_scoped_retrieval": "Existing local originals; publisher and author versions recorded separately.",
   "counting_scope": {
-    "scientific_reading_covered": 782,
+    "scientific_reading_covered": 787,
     "bounded_or_core_only_completed": 18,
-    "credited_pages_explicit_in_queue": 20532,
+    "credited_pages_explicit_in_queue": 23609,
     "pages_carried_forward_from_previous_checkpoints": 10458,
     "increment_this_checkpoint": {
-      "works": 3,
-      "pages": 1126,
-      "partial_volume_pages_recorded_separately": 103,
+      "works": 5,
+      "pages": 3077,
+      "partial_volume_pages_recorded_separately": 178,
       "associated_rows": 0
     }
   },
@@ -725,5 +725,5 @@
     "resume_printed_page": 259,
     "background_reading_scheduled": false
   },
-  "latest_batch_audit": "20261127-book-compilations-and-original-page-coverage-ac-audit.json"
+  "latest_batch_audit": "20261127-five-book-readings-and-scan-ranges-ad-audit.json"
 }

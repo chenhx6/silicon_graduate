@@ -7,7 +7,7 @@ updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: programming-cookbook
-reading_depth: skimmed
+reading_depth: read
 title_original: "Mathematica Cookbook"
 authors: [Sal Mangano]
 publisher: "O'Reilly Media"
@@ -109,3 +109,12 @@ tags: [books, mathematica, cookbook, numerical-analysis, statistics, visualizati
 ## 2026-11-27 — 馆藏原件与覆盖核对
 
 - 书中以动能公式传播示例输入的区间。质量与速度均用区间时，所报动能区间宽度为 0.645。令速度固定为 7.5，仅保留质量区间时，所报宽度为 0.5625。（物理 PDF 第42页，§1.5，In[88]–Out[93]；第43页，In[94]–Out[99]。）
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 170、354 为空白，PDF 555 Fig. 13.1 为弹道模拟帧，PDF 673 Fig. 16.3 为旧版并行内核设置。PDF 827 是作者和书末资料。版本依赖项不据旧界面推断当前行为。
+
+- 对各分量都有适用逆操作的复合函数，求逆时逐一取逆并颠倒应用顺序。自定义函数可以通过 UpValues 登记逆操作，使复合变换可撤销。（§2.13 Exploiting Function Composition and Inverse Functions，PDF 89 的 Solution，PDF 90–91 的 Discussion，Out[195] 与 Out[204]）
+- RegionFunction 的参数随绘图函数而变。Plot3D 提供三个空间坐标，ContourPlot3D 还提供函数值，ParametricPlot3D 则在空间坐标后提供曲面参数。（PDF 323，§7.7，表 7-1）
+- 在书中设定的蒙提霍尔规则下，主持人总会从未选门中揭示一只羊，并允许换门。换门恰在首次选中羊时获胜，因此胜率为三分之二。（§12.16 Discussion，PDF 528 的规则说明及 PDF 530 的 Out[170] 后概率推导）
+- Compile argument specifications can declare a type and array rank. The discussion says that inputs that violate the declared constraints may still run through uncompiled evaluation.（§18.5 Discussion and Table 18-1, PDF 753–754, printed pp. 727–728）

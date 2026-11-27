@@ -82,3 +82,8 @@ topics: [gaseous-detectors, gm-counter, semiconductor-detectors, radiation-damag
 
 - By the de Broglie relation, wavelength is inversely proportional to momentum, so higher-momentum particles can probe finer structures.（Physical PDF p. 15, 第1章 粒子简介, paragraph beginning 为了深入研究微观领域的科学规律）
 - The figure gives only upper limits on the sizes of quarks and electrons because of experimental limitations.（Physical PDF p. 17, §1.1 构成世界的基本粒子, 图1.1.1 caption）
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- Bethe–Bloch gives the mean ionization and excitation loss for heavy charged particles. Above the broad minimum near βγ ≈ 4, the text gives an approximate rise of ln(βγ) with the density correction and 2 ln(βγ) without it. Thin absorbers can show asymmetric, Landau-like loss fluctuations.（PDF pp. 28–32, §2.1.1, (2.1.6), 图2.1.1, (2.1.9)）
+- For high-energy electrons, mean bremsstrahlung loss per unit path is proportional to energy, giving exponential attenuation with radiation length X₀. The text gives an m²/z² scaling of radiation length for other charged projectiles and a mass-fraction-weighted reciprocal rule for mixtures.（PDF pp. 41–42, §2.1.3, (2.1.19), (2.1.21), (2.1.25)–(2.1.26)）

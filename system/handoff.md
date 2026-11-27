@@ -79,6 +79,8 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 本批核定《朗道〈力学〉解读》、壳模型论文合集和 Shifrin 的 Mathematica 教材，共 1,126 个计入页。Greiner、Hamilton 与林承键《重离子核反应》另核 103 个整页；Hamilton 的 PDF 678 中段受原件勘误遮挡，仍单列有界。累计 800 份、30,990 个主件页，正式队列剩 14 本书。稳定指针为 `research/archive-learning-20261127` + `research: finish three reference books and verify additional scan chapters`。见[原件及范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-book-compilations-and-original-page-coverage-ac-audit.json)。
 
+本批核定 Heyde、Mangano、Nakhostin（吴鸿毅译）、Raduta 和 Suhonen 五本书，共 3,077 个主件计入页。Heyde 馆藏实为 2004 年版权的第三版。四本扫描书新增 178 个原页，四本中文扫描教材另记 PDF 23–48 的有界 OCR。累计 805 份、34,067 个主件页，正式队列剩 9 本扫描书。稳定指针为 `research/archive-learning-20261127` + `research: verify five books and continue original scan reading`。见[原件及范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-five-book-readings-and-scan-ranges-ad-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

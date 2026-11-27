@@ -99,3 +99,8 @@ tags: [books, experimental-nuclear-physics, hpge-detectors, gamma-spectroscopy, 
 
 - Given N incident particles, independent detection with constant efficiency ε gives a binomial count conditional on N. If N is Poisson with mean M, the unconditional detected count is Poisson with mean Mε.（Physical PDF p. 13, Eqs. (1.18), (1.20), and (1.21)）
 - Independent Poisson counts sum to a Poisson count, with means and variances adding. The OCR obscures the squares in the variance identities, which read Var(CX) = C² Var(X) and Var(X) = E[X²] − (E[X])² in standard notation.（Physical PDF pp. 13–14, 三、合成分布, especially Eqs. (1.24) and (1.27)–(1.30)）
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- The χ² check uses both tails. Unusually small dispersion can also make radiation counts suspect. The six counts on p. 24 sum to 1464, giving mean 244 and χ² ≈ 0.582. The OCR reads 1466 in the sum.（PDF p. 23, Table 1.2 and discussion citing eq. (1.68)，PDF p. 24, six-count example）
+- Ion-pair production is correlated, so the Fano model uses variance F times the mean pair count. For a Gaussian peak, FWHM ≈ 2.355σ. With independent, identically distributed gains independent of the primary count, output-charge variance includes contributions from both primary-count and gain fluctuations.（PDF p. 27, eq. (1.78)，PDF p. 28, eqs. (1.83)–(1.85)，PDF p. 29, eqs. (1.91)–(1.93)）
