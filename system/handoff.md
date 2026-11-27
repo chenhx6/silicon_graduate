@@ -41,6 +41,8 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 本批核定 12 份、174 个主件 PDF 页，另核 Marshak ¹⁶⁶Er 的本地 9 页扫描，登记印刷末页 422 的缺口。Bender 1999 来源页按 Table I 和 §§V–VI 更正模型清单和球形闭壳适用范围。累计 575 份、22,093 个主件 PDF 页，正式队列待处理 270 条。第二卷另核 PDF 606–625（印 584–603），从 PDF 626（印 604）续读。稳定指针为 `research/archive-learning-20261127` + `research: verify angular spectroscopy and correct source evidence`。见[原件与读段](../outputs/literature-acquisition/20261119-deep-learning/20261127-angular-methods-and-source-corrections-k-audit.json)和[缺页边界](../outputs/literature-acquisition/20261119-deep-learning/20261127-marshak-archive-boundary-k-audit.json)。
 
+本批核定 6 份、250 个主件 PDF 页，包括两份学位论文、¹⁴²Eu 与 ⁶⁶Ge 谱学、分段 Ge 及 ²⁵⁴No 剪刀模研究。另归位 ²⁵⁴No 刊方补充材料 9 页，并核定其复用的谱与模型。累计 581 份、22,343 个主件 PDF 页，正式队列待处理 263 条。第二卷另核 PDF 626–645（印 604–623），下一页 PDF 646（印 624）。稳定指针为 `research/archive-learning-20261127` + `research: verify archived spectroscopy, theses and supplemental data`。见[覆盖及证据](../outputs/literature-acquisition/20261119-deep-learning/20261127-spectroscopy-and-shell-effects-l-audit.json)和[补充材料](../outputs/literature-acquisition/20261119-deep-learning/20261127-no254-supplement-l-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

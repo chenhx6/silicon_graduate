@@ -2307,3 +2307,9 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[speidel-1994-br79-moments-and-lifetimes]] — ⁷⁹Br 的角关联、瞬态场和寿命。
 - [[lampard-1992-w183-particle-rotation-coupling]] — ¹⁸³W 的混合比、g 因子和科里奥利比较。
 - [[marshak-1985-er166-nuclear-orientation-mixing-ratios]] — ¹⁶⁶Er 取向拟合的非中心 F 区间，馆藏缺印 422。
+- [[ali-2017-eu142-antimagnetic-rotation]] — ¹⁴²Eu 的偏振、角关联和寿命。
+- [[lee-2003-segmented-planar-ge-polarimeter]] — 分段平面 Ge 的峰总比与位置信号。
+- [[cleemann-1980-ge66-inbeam-spectroscopy]] — ⁶⁶Ge 的角分布、偏振和反冲距离寿命。
+- [[bello-garrote-2022-no254-scissors-mode]] — ²⁵⁴No 剪刀模、统计谱模型和刊方补件。
+- [[zhou-2023-fp-shell-mass-measurement-thesis]] — CSRe 的 fp 壳质量测量与质量差应用。
+- [[meng-2012-csrm-dielectronic-recombination-thesis]] — CSRm 双电子复合与束流、检测器方法。

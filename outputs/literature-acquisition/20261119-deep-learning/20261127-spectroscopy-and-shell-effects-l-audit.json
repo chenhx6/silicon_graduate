@@ -1,0 +1,148 @@
+{
+  "batch": "20261127-spectroscopy-and-shell-effects-l",
+  "created_at": "2026-11-27T05:20:57.022443+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "bytes:76bcd6d18cb3b3d46d4e7d69d1135168647d3e39a9466f5148aefc3eeb207d42",
+      "source": "knowledge/sources/ali-2017-eu142-antimagnetic-rotation.md",
+      "identity": "S. Ali et al., local author manuscript arXiv:1707.04417v1. Corresponding PRC 96, 021304 is identified in local metadata.",
+      "coverage": [
+        "作者稿 PDF 1–6、Fig. 1–5、Table I 和相关引用。"
+      ],
+      "boundary": [
+        "拟合的 δ 随假设自旋记录。摘要式讨论的 4n 与实验段 5n 有异文，质量数支持 5n。"
+      ],
+      "disposition": "covered",
+      "worker": "Dirac and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1103_PhysRevC.96.021304.pdf",
+      "sha256": "76bcd6d18cb3b3d46d4e7d69d1135168647d3e39a9466f5148aefc3eeb207d42",
+      "physical_pages": 6
+    },
+    {
+      "id": "bytes:7732a1e59bd6251af9969da16c761d5da94e236f08e8135ab31a6456b5024485",
+      "source": "knowledge/sources/lee-2003-segmented-planar-ge-polarimeter.md",
+      "identity": "C. S. Lee et al., Nucl. Phys. A 718, 550c–552c (2003), local short published paper.",
+      "coverage": [
+        "PDF 1–3，装置、两图、式 (1) 与引用。"
+      ],
+      "boundary": [
+        "peak-to-total 的改善以事件筛选为条件。位置反演为电荷输运算例，原文无逐能量 Q 或混合比表。"
+      ],
+      "disposition": "covered",
+      "worker": "Dirac and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_S0375-9474_03_00840-6.pdf",
+      "sha256": "7732a1e59bd6251af9969da16c761d5da94e236f08e8135ab31a6456b5024485",
+      "physical_pages": 3
+    },
+    {
+      "id": "bytes:78a6733305be6736ee0cc31c13a8a0356f073b7b3e91e20e07ead0d14b988af2",
+      "source": "knowledge/sources/cleemann-1980-ge66-inbeam-spectroscopy.md",
+      "identity": "L. Cleemann et al., Nuclear Physics A 334, 157–176 (1980), local version of record.",
+      "coverage": [
+        "PDF 1–20（印 157–176），§§1–5、符合、偏振、寿命、CVM 和引用。"
+      ],
+      "boundary": [
+        "角分布衰减参数来自纯 E2 锚。提取忽略侧馈对取向影响，模型负宇称能量有系统偏差。"
+      ],
+      "disposition": "covered",
+      "worker": "Dirac and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_80_90146-3.pdf",
+      "sha256": "78a6733305be6736ee0cc31c13a8a0356f073b7b3e91e20e07ead0d14b988af2",
+      "physical_pages": 20
+    },
+    {
+      "id": "bytes:fe1e89f0dc6d0b8ed280c372416faa8caea6c9ac7b6ce23743020f3e28e7679c",
+      "source": "knowledge/sources/bello-garrote-2022-no254-scissors-mode.md",
+      "identity": "F. L. Bello Garrote et al., Physics Letters B 834, 137479 (2022), local publisher version with linked nine-page supplemental file.",
+      "coverage": [
+        "刊版 PDF 1–5 §§1–7、Figs. 1–5、Eq. (1) 和引文；伴随 SI PDF 1–9 另登记。"
+      ],
+      "boundary": [
+        "偏振信号为能区内聚合不对称度，不能产生单线 δ。总 B(M1) 依强度函数、统计谱模拟和本底。"
+      ],
+      "disposition": "covered",
+      "worker": "Dirac and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_j.physletb.2022.137479.pdf",
+      "sha256": "fe1e89f0dc6d0b8ed280c372416faa8caea6c9ac7b6ce23743020f3e28e7679c",
+      "physical_pages": 5
+    },
+    {
+      "id": "catalogue:LIT-000259",
+      "source": "knowledge/sources/zhou-2023-fp-shell-mass-measurement-thesis.md",
+      "identity": "周旭，中国科学院大学理学博士，近代物理研究所培养，2023-06，馆藏学位版 116 页。",
+      "coverage": [
+        "PDF 7–24 摘要和纲目，25–74 实验与校准，75–92 质量结果及结论，93–98 附录，99–114 相关引文与发表。"
+      ],
+      "boundary": [
+        "原始双 TOF 波形和协方差未获。刊文逐表数据子集待进一步对照。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre and manager",
+      "source_pdf": "raw/theses/degree-dissertation/周旭 - 利用磁刚度识别等时性质谱术测量𝑓𝑝 壳丰质子核的质量.pdf",
+      "sha256": "6e3437fdaf2c7f341a84f0967f838f63b4aec577157a43eedcec699e89d892bf",
+      "physical_pages": 116
+    },
+    {
+      "id": "catalogue:LIT-000260",
+      "source": "knowledge/sources/meng-2012-csrm-dielectronic-recombination-thesis.md",
+      "identity": "孟令杰，中国科学院研究生院博士学位版，2012-06。中英题页 PDF 1–2。馆藏单册 100 页。",
+      "coverage": [
+        "PDF 7–10 摘要及目录，11–52 理论、装置与调机，53–86 测量与总结，87–100 科学引文及发表项。"
+      ],
+      "boundary": [
+        "所测是电子与离子的原子复合速率。装置与计数方法可复用，速率仅适用该离子、响应和扫描能区。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre and manager",
+      "source_pdf": "raw/theses/degree-dissertation/孟令杰 - 基于 CSRm Ni19+双电子复合过程的实验研究.pdf",
+      "sha256": "ac77200b7d87f6da42e14043bb85a449a4e591fec3c4ef1fdef18d581d74b084",
+      "physical_pages": 100
+    },
+    {
+      "id": "catalogue:LIT-000302",
+      "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "identity": "Bohr and Mottelson, Nuclear Structure II, 1975 original, local World Scientific 1998 reissue, 772 physical pages.",
+      "coverage": [
+        "PDF 626–645 (printed 604–623), deformation and temperature shell corrections and historical fission-mode discussion."
+      ],
+      "boundary": [
+        "热壳能的尺度依单粒子密度、平滑基准与区域。自由能与总能量的壳部分表现不同。"
+      ],
+      "disposition": "partial",
+      "worker": "Pascal and manager",
+      "source_pdf": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "physical_pages": 772
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 563,
+    "duplicate-or-related-version": 23,
+    "duplicate-excerpt-linked-to-canonical": 13,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "pending-identity-and-coverage": 95,
+    "supplement-linked-to-canonical": 6,
+    "existing-source-coverage-to-audit": 169,
+    "archived-publisher-scan-missing-printed-page": 1,
+    "read-core-evidence-checked": 1,
+    "out-of-scope-atomic-spectroscopy": 4,
+    "editorial-front-matter": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "publisher-first-page-extract-fulltext-unavailable": 3,
+    "access-placeholder-fulltext-unavailable": 1,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 264,
+  "credited_works": 6,
+  "credited_primary_pages": 250,
+  "partial_volume_pages": 20,
+  "next_action": "Continue Bohr–Mottelson II PDF 646 (printed 624) and verify the next local originals.",
+  "uncredited": []
+}
