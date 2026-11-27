@@ -3,7 +3,7 @@ type: source
 title: "Discovery of New Isotopes 160Os and 156W: Revealing Enhanced Stability of the N = 82 Shell Closure on the Neutron-Deficient Side"
 aliases: [Yang 2024 160Os 156W, Yang 2024 PRL]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -82,3 +82,25 @@ Yang et al. explicitly note:
 - PDF p. 4 (072502-4): Fig. 4 reduced $\alpha$ widths $\delta^2$ and theoretical neutron shell gaps (WS4+RBF, HFB-32, LSSM); discussion of proton-blocking.
 - PDF p. 5 (072502-5): Shell evolution mechanisms across $N=82$ and $N=126$; conclusions.
 - PDF p. 6 (072502-6): Acknowledgments and references (1–43).
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- {"from": 1, "to": 1, "sections": "刊头、作者、出版历程、摘要与引言"}
+- {"from": 2, "to": 3, "sections": "SHANS 实验、图1衰变链（第2页）、图2门选与对照谱及图3衰变系统学（第3页），含截面估计和异能态搜索"}
+- {"from": 4, "to": 4, "sections": "图4约化 α 宽度和中子壳隙、未编号壳隙公式及质量模型比较"}
+- {"from": 5, "to": 6, "sections": "第5页为结论、平行发现附记、致谢与文献[1]–[37]；第6页为文献[38]–[47]"}
+- 本次获取的具体覆盖：通读 PDF 物理第1–6页提供的逐页文本，涵盖实验方法、结果、模型比较、结论、附记、致谢和参考文献。图1–4均有图注，图内标记、曲线和谱峰留待原页视觉核查。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A19-1 | 在 HIRFL 的 SHANS 上以 335 MeV ⁵⁸Ni 束进行 ¹⁰⁶Cd(⁵⁸Ni,4n)¹⁶⁰Os 反应。¹⁵⁶Ta 质子能量门内约20个事件形成归于新核素 ¹⁶⁰Os 的 α 峰，移门对照中该峰未出现。报告 Eα = 7080(26) keV，极大似然法给出半衰期 201(+58/−37) μs。 | experimental-observation | source-reported | PDF 第2页实验和峰归属正文、图1；第3页图2(a–c)，待核对图2(b)峰标与图2(c)对照。 | true |
+| A19-2 | 作者通过 ¹⁶⁰Os α 衰变与 ¹⁵⁶Ta(2⁻)质子衰变的遗传关联识别其间的 ¹⁵⁶W β⁺ 衰变，并以文献中的 ¹⁵⁶Ta 半衰期 106(4) ms 为约束，从两次衰变的时间差粗估 ¹⁵⁶W 半衰期为 291(+86/−61) ms。 | experimental-inference | source-reported | PDF 第2页图1与时间关联正文；衰变分支、状态和图示标注待核第2页。 | true |
+| A19-3 | 由本次和文献的 Qα、部分 α 衰变半衰期求得的基态到基态 δ²，在 N = 84、85 系统学中于 Z = 68 以上总体下降，¹⁶⁰Os 的值相较 ¹⁵⁸W 有较大下降。 | derived-observable | source-reported | PDF 第3页末至第4页正文、图4(a,b)；偶 Z、奇 Z 分面及新数据点待核第4页。 | true |
+| A19-4 | 作者将 δ² 趋势解释为缺中子侧 N = 82 壳闭合向质子滴线增强。Z > 68 的质量约束有限，作者要求进一步测量邻近同中子素的高精度质量。 | interpretation | source-reported | PDF 第3页图3及讨论、第4页图4(a–c)及壳隙讨论、第5页结论。 | true |
+
+第2页图1混合了本文结果和文献[20]数据，¹⁵⁶Ta 的 1011(5) keV 与 106(4) ms 来自[20]，¹⁶⁰Os 半衰期的极大似然法引[21]。第3页图3使用文献[24]–[28]及本文数据。第4页以未编号公式 Δn(Z,82) = 2B(Z,82) − B(Z,83) − B(Z,81) 从 AME2020 实验或外推质量求壳隙。作者比较九种模型，图4(c)选列 WS4+RBF、HFB-32 和 LSSM；三者均预测 Z > 68 后壳隙上升，图中数据类别与模型符号待核第4页。
+
+- 补录 2024-01-19 接收日期。将图2和图3定位到 PDF 第3页，图4定位到第4页。图2各面板均为 α 能谱，(b)使用后续质子能量门，(c)为移门对照。旧文献范围[1]–[43]改为[1]–[47]。
+- 将产生截面 5.4(+1.2/−1.0) nb 标为计入 ¹⁵⁶Ta β 衰变分支后的估计值，出处是 PDF 第3页正文。将壳闭合增强单列为作者对 N = 84、85 的 δ² 系统学的解释，并把模型壳隙列为理论支持。
+- 将异能态结论改为 PDF 第3页所述的本实验未见预期 8⁺ 态证据。旧条目的多重态重排、约 1 μs 飞行时间、裂变竞争及 5.4 nb 检测灵敏度说法缺少本文支持，应从原文结论栏撤下。30–700 μs 是第3页图2(a)规定的植入至 α 事件筛选窗。
+- PDF 第3页图2横轴抽取为 D-particle，乱码应回看原图，文本释义采用图注明示的 α 粒子能量。

@@ -3,11 +3,11 @@ type: source
 title: "1p3/2 Proton-Hole State in 132Sn and the Shell Structure Along N = 82"
 aliases: [Taprogge 2014 131In proton-hole, Taprogge 2014 PRL]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: journal-article-experiment
-reading_depth: deep-read
+reading_depth: read
 title_original: "1p3/2 Proton-Hole State in 132Sn and the Shell Structure Along N = 82"
 authors: [J. Taprogge, A. Jungclaus, H. Grawe, S. Nishimura, P. Doornenbal, G. Lorusso, G. S. Simpson, P.-A. Söderström, T. Sumikama, Z. Y. Xu, H. Baba, F. Browne, N. Fukuda, R. Gernhäuser, G. Gey, N. Inabe, T. Isobe, H. S. Jung, D. Kameda, G. D. Kim, Y.-K. Kim, I. Kojouharov, T. Kubo, N. Kurz, Y. K. Kwon, Z. Li, H. Sakurai, H. Schaffner, K. Steiger, H. Suzuki, H. Takeda, Zs. Vajta, H. Watanabe, J. Wu, A. Yagi, K. Yoshinaga, G. Benzoni, S. Bönig, K. Y. Chae, L. Coraggio, A. Covello, J.-M. Daugas, F. Drouet, A. Gadea, A. Gargano, S. Ilieva, F. G. Kondev, T. Kröll, G. J. Lane, A. Montaner-Pizá, K. Moschner, D. Mücher, F. Naqvi, M. Niikura, H. Nishibata, A. Odahara, R. Orlandi, Z. Patel, Zs. Podolyák, A. Wendt]
 journal: Physical Review Letters
@@ -79,3 +79,8 @@ Taprogge et al.'s argument for $N=82$ gap quenching relies on the concept of "mu
 - PDF p. 4 (132501-4): Shell-model calculation details ($V_{\text{low}-k}$ CD-Bonn); demonstration of disappearance of $Z=38, 40$ subshell closures.
 - PDF p. 5 (132501-5): Mutual support of magicity discussion; confrontation with FRDM and HFB-24 mass models; astrophysical $r$-process implications.
 - PDF p. 6 (132501-6): Acknowledgments and references (1–33).
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- Qualify 1p3/2 as the tentative author assignment; retain the 5/2− alternative. The ground-state branch was not observed; the paper does not measure an M1/E2 multipolarity for the 988 keV line. 68(3) and 97(10) ms are cited parent half-lives used for timing, not new lifetimes extracted in this article. (Source note lines 48, 56–59, 63 and 71)
+- Fig. 1 is on PDF 2 and discussed on PDF 4. Fig. 3 is on PDF 4. Acknowledgments begin on PDF 5; the reference list ends at [32] on PDF 6. Keep the Sn–Zr shell-gap implication qualitative and model-dependent. (Source note lines 44, 50, 77–81; TAP14-4 in historical ledger)

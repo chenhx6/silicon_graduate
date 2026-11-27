@@ -3,11 +3,11 @@ type: source
 title: "Enhanced Stability of Superheavy Nuclei Due to High-Spin Isomerism"
 aliases: [Xu 2004 Superheavy High-Spin Isomers, Xu 2004 PRL]
 created: 2026-11-07
-updated: 2026-11-08
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: journal-article-theory
-reading_depth: deep-read
+reading_depth: read
 title_original: "Enhanced Stability of Superheavy Nuclei Due to High-Spin Isomerism"
 authors: [F. R. Xu, E. G. Zhao, R. Wyss, P. M. Walker]
 journal: Physical Review Letters
@@ -88,3 +88,7 @@ A fundamental physical nuance must be distinguished between the **intrinsic half
 - PDF p. 2 (252501-2): Fig. 1 2-quasineutron excitation energy systematics; Fig. 2 2-quasiproton systematics; analysis of $^{270}\text{Ds} \to {}^{266}\text{Hs}$ decay events.
 - PDF p. 3 (252501-3): Fig. 3 decay scheme for $^{270}\text{Ds}$; Fig. 4 calculated fission barrier of $^{256}\text{Fm}$ $7^-$ isomer; discussion of $^{254}\text{No}$ and $^{250}\text{Fm}$ configurations.
 - PDF p. 4 (252501-4): Fig. 5 triaxial $(\beta_2, \gamma)$ PES trajectory for $^{256}\text{Fm}$; conclusions, acknowledgments, and references (1–23).
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- Keep calculated excitation and alpha energies separate from cited absolute half-lives. PDF 3 text gives the two nonaxial barrier reductions; Fig. 5 is on PDF 4 and shows only the ground-state surface. (Astro/she ledger XU04-3 to XU04-4 and source note XU04-5)

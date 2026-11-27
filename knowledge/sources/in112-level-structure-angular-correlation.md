@@ -8,7 +8,7 @@ updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article
-reading_depth: skimmed
+reading_depth: read
 authors: ["T. Kohno", "M. Adachi", "H. Taketani"]
 tags: [nuclear-structure, local-literature-archive]
 year: 1983
@@ -66,3 +66,10 @@ T. Kohno, M. Adachi, H. Taketani, Nuclear Physics A 398, 493–511 (1983).
 - 物理第8–11、14、16页可读归约及§3.2，包括第9–11页图3a–h、第11页图4a及第14页图4h–i。
 - 物理第16–19页§4可读组态讨论、同位素比较和第19页参考文献。
 - 物理第4、6、12–13、15、18页只读到残余图表文字，涉及图1、表2前页、图4中段、图5、图6。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- The normalization/reference level is 206.72 keV. The 333.11-keV branch from 1062.97 keV ends at printed 729.85 keV (5(1)%); 206.12 and 129.85 are extraction errors. (PDF 6–7 (498–499), Table 2; PDF 15 (507), Fig. 5)
+- Table 1 prints 1072.79 keV. Table 2 and Fig. 5 print 1072.99 keV for the 1279.65→206.72-keV branch. Preserve both locators. The level difference is 1072.93 keV. (PDF 5 (497), Table 1, 206.72-keV gate; PDF 7 (499), Table 2; PDF 15 (507), Fig. 5)
+- The 1054.80 and 666.28 keV branches to 206.72 and 594.90 imply initial energies 1261.52 and 1261.18 keV. Both originals print the same branch values; retain the 0.34-keV spread in their implied sums as a source discrepancy. (PDF 7 (499), Table 2 and PDF 15 (507), Fig. 5, 1261.35-keV state)
+- 729.85 keV remains 3⁽⁺⁾ experimentally, with 3⁻ allowed. The discussion and systematics use the positive-parity configuration interpretation. For the 1062.98-keV ground-state branch, P_exp=−0.315(74) favors 2⁺ but does not exclude 1⁻. Table 2 gives 2⁺ δ=−0.16±0.05 and two 1⁻ δ branches, +0.30(+0.13/−0.10) and +3.27(+1.87/−0.97). (PDF 6, 15–18 (498, 507–510), Table 2, Fig. 5, §§3.2–4 and Fig. 6)

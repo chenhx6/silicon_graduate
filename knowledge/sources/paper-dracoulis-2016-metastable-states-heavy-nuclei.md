@@ -3,7 +3,7 @@ type: source
 title: "Dracoulis, Walker & Kondev 2016 - Review of Metastable States in Heavy Nuclei"
 aliases: [Dracoulis2016, Metastable States Review 2016, 重核亚稳态综述]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: review
@@ -88,3 +88,8 @@ tags: [review, nuclear-isomers, seniority-scheme, k-isomers, superheavy-nuclei, 
 ## Extracted Pages
 
 - 印刷 pp. 1–46（PDF pp. 1–47，台账块 `DRA16-CHUNK-1` 至 `DRA16-CHUNK-6`）：完成全篇 11 个大节、25 幅插图与 6 张表格的有界阅读核验；重点提取 Section 2.1–2.2 分 $\gamma$ 寿命与 Seniority 矩阵元（pp. 3–5, Fig. 2）、Section 3 多准粒子能谱与 $A \sim 190$ 三轴/$\gamma$-软性过渡区（pp. 7–18, Fig. 8–11）、Section 4 铅区多粒子-八极耦合（pp. 18–24, Fig. 13–18）、Section 5.4 超重核高 $K$ 裂变势垒假说与动力学局限（pp. 25–27）、以及 Section 8.3/8.5 NEEC 早期候选与天体物理 Astromers 热平衡（pp. 28–31）。未核验项见上节清单。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- Use 47 physical pages, made up of the IOP cover and 46 printed pages. Bibliography begins PDF 37 / print 36 and ends with label [468] on PDF 47 / print 46. The old 47 printed-page and 456-reference descriptions are stale. (Source note lines 42, 56–60; DRA16-CHUNK-6)
+- Use the original section starts and figure locators in this receipt. Fig. 20 is 147Gd on PDF 24, and Fig. 22 is 129Sb on PDF 28. The closing §11 starts PDF 36 / print 35. (Source note lines 54–56 and ledger chunk descriptions 4–6)

@@ -3,11 +3,11 @@ type: source
 title: "Próchniak & Rohoziński 2009：Bohr Hamiltonian 的惯量、测度与微观来源"
 aliases: [Próchniak Rohoziński 2009, Bohr Hamiltonian microscopic foundations]
 created: 2026-11-08
-updated: 2026-11-08
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: review
-reading_depth: skimmed
+reading_depth: read
 title_original: "Quadrupole collective states within the Bohr collective Hamiltonian"
 authors: [L. Próchniak, S. G. Rohoziński]
 journal: Journal of Physics G
@@ -163,3 +163,27 @@ EWSR 只约束所选探针的加权量，不能宣称局部张量已可唯一反
 - 具体案例、真实表与边界：[[doctoral-r2-inertia-evidence-and-band-reconstruction-20261108]]。
 - 当前不另建能带或实验页；本来源中的实核数值与模型条件按上文保留，
   不将理论参数登记成新的测量。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- {"start_page": 1, "end_page": 3, "sections": "题名、版本标记、摘要、第 1 节引言"}
+- {"start_page": 3, "end_page": 13, "sections": "第 2 节，四极坐标与各向同性张量。图 1、表 1 在第 6 页，表 2 在第 7 页，表 3 在第 8 页"}
+- {"start_page": 13, "end_page": 26, "sections": "第 3 节，经典与量子哈密顿量、多极算符、波函数及求解、集体求和规则"}
+- {"start_page": 27, "end_page": 40, "sections": "第 4 节，ATDHFB、GCM+GOA、微观应用及配对扩展。图 2–3 在第 37 页，图 4–6 在第 38 页，图 7–8 在第 39 页"}
+- {"start_page": 40, "end_page": 50, "sections": "第 5 节、致谢、附录 A 球张量与张量场、附录 B ATDHFB 惯性函数"}
+- {"start_page": 50, "end_page": 53, "sections": "参考文献 [1]–[123]"}
+- 本次获取的具体覆盖：通读物理页 1–53 的提取文字，覆盖第 1–5 节、致谢、附录 A–B 及参考文献 [1]–[123]。辨读正文及可恢复的式号和图表题。数学字形和图内数据有抽取缺损，未查看图像。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A19-1 | 综述从实的正宇称四极张量出发，在文中规定的对称性和厄米性条件下，用六个惯性标量函数、一个权重和一个势刻画一般量子 Bohr 哈密顿量，并给出其内禀系振动和转动形式。 | 理论构造 | source-reported | PDF 第 11–13 页式 (2.35)–(2.40)，第 13–16 页式 (3.1)–(3.15)，第 40 页第 5 节。 | true |
+| A19-2 | 文中构造了集体空间的 E2、M1 算符和约化矩阵元。E2 非能量加权求和规则把 E2 算符平方的期望值关联到集体空间内可达态的 B(E2) 之和。 | 理论关系 | source-reported | PDF 第 16–17 页式 (3.16)–(3.22)，第 25 页式 (3.57)–(3.58)，第 26 页式 (3.61)–(3.67)。 | true |
+| A19-3 | ATDHFB 路线先得到经典集体哈密顿量，再行量子化，集体势存在量子化歧义。GCM 在高斯重叠近似下直接得到二阶量子集体哈密顿量，并给出零点能修正。 | 微观方法与近似 | source-reported | PDF 第 29–30 页式 (4.12)–(4.25)，第 31–32 页式 (4.26)–(4.36)，第 41 页总结。 | true |
+| A19-4 | 第 4.4 节对 ¹⁷⁸Hf 至 ²⁰⁰Hg 范围内的 12 个偶偶核展示 SLy4 加常数 G 配对的 ATDHFB 计算。图 2–6 是计算的势能与惯性函数。图 7–8 将选定能级和 B(E2) 与 ENSDF 既有实验数据比较，作者评价为总体符合。逐核偏差和各面板标度待核 PDF 第 37–39 页，尤其是第 39 页。 | 模型算例与外部实验数据比较 | source-reported | PDF 第 36–39 页第 4.4 节及图 2–8，第 53 页参考文献 [118]。 | true |
+
+算例以约束 HF+BCS 产生形变网格输入，用式 (4.13)、(4.44)、(4.47) 求集体势与惯性。配对强度以 Hf、W 同位素的五点配对能隙为依据。第 4.4 节未用第 4.3 节讨论的惯性缩放因子。图 7–8 的实验比较数据来自 [118] 所载截至 2009 年 2 月修订的 ENSDF。
+
+- PDF 第 1 页的题名与作者姓名有缺字及编码乱码，书目采用本收据的规范拼写。版本保留为 arXiv v1。
+- PDF 第 5 页式 (2.10) 的 x、z 轴归属与同页式 (2.11) 及第 6 页图 1 不一致。按后两处，a_z = 0 对应 γ = 0、±π，a_x = 0 对应 γ = 2π/3、−π/3。第 5 页式 (2.9b) 的等号亦疑有漏抽，式 (2.10) 原印字形及式 (2.9b) 等号须核第 5 页。
+- PDF 第 8 页式 (2.16) 的球分量相位、第 13–16 页式 (3.2)、(3.11)–(3.15) 的根号、指标与算符排版须核相应原页后再逐字转写。
+- PDF 第 36 页正文称 155 个网格点。按同段所列范围与间距，正 β 网格为 14×11，即 154 点。应并记两者并核第 36 页，现有文字不足以确认是否另计球形点。

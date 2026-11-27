@@ -790,6 +790,18 @@ u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶
 - [[cavallaro-2019-giant-pairing-vibration]] — 巨对振动跨质量区运动学与连续谱阻尼失效。
 - [[colo-1995-isospin-mixing-gdr]] — 库仑同位旋混合与 GDR 禁戒 E1 的模型边界。
 - [[enders-1999-scissors-mode-saturation]] — 剪刀模低位 M1 强度、惯量与和规则的系统比较。
+- [[marshak-1983-mixing-ratios-nuclear-orientation]] — Precise Gamma-Ray Multipole Mixing Ratios Using Nuclear Orientation。
+- [[beck-2018-e2-properties-of-scissors-mode]] — Probing the E2 properties of the scissors mode with real photons。
+- [[von-neumann-cosel-2015-sn120-pb208-e1-response]] — Complete Electric Dipole Response in ¹²⁰Sn and ²⁰⁸Pb and Implications for Neutron Skin and Symmetry Energy。
+- [[kibedi-2001-light-w-non-yrast-structure]] — Low-spin non-yrast states in light tungsten isotopes and the evolution of shape coexistence。
+- [[rainovski-2003-cs132-chiral-twin-bands]] — Candidate chiral twin bands in the odd-odd nucleus ¹³²Cs: Exploring the limits of chirality in the mass A≈130 region。
+- [[turcotte-taras-1972-nai-polarimeter-analysis]] — Analysis of gamma-ray linear polarization spectra obtained with a NaI Compton polarimeter。
+- [[rikovska-1985-oriented-nuclei-seven-page-scan]] — Gamma-ray linear polarization measurement on oriented nuclei。
+- [[eichler-djadali-1970-cl36-y90-k40-polarization]] — Beitrag zur Kernspektroskopie an ³⁶Cl, ⁹⁰Y und ⁴⁰K durch Messung der Polarisation von γ-Strahlung nach Neutroneneinfang。
+- [[coulier-2001-beta-level-mixing-resonance]] — β-level mixing resonance: A method to study the spin alignment and spin polarization of projectile fragments。
+- [[timar-2001-rh101-three-quasiparticle-bands]] — Three-quasiparticle rotational bands in ¹⁰¹Rh: IBFBPM description and signature inversion of the πg₉/₂ orbital。
+- [[rikovska-1985-oriented-nuclei-polarization-review]] — γ-ray linear polarization measurements on oriented nuclei。
+- [[kaubler-2000-sr88-two-phonon-candidate]] — Is the 4.742 MeV state in ⁸⁸Sr the 1⁻ two-phonon state?。
 - [[chakraborty-2020-xe126-gamma-vibration]] — γ-vibration in 126Xe: A revisit。
 - [[paul-2003-pr133-magnetic-dipole-bands]] — Magnetic dipole bands in 133Pr。
 - [[gao-bingshui-2015-au194-os193-tl205-thesis]] — ¹⁹⁴Au 和 ¹⁹³Os 的高自旋态研究以及 ²⁰⁵Tl⁸¹⁺ 束缚态 β⁻ 衰变的实验准备。

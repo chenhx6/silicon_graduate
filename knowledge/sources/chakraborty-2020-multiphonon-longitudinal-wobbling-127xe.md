@@ -3,7 +3,7 @@ type: source
 title: "Chakraborty et al. 2020 - Multiphonon longitudinal wobbling in 127Xe"
 aliases: [Chakraborty 2020 127Xe longitudinal wobbling]
 created: 2026-07-16
-updated: 2026-07-25
+updated: 2026-11-27
 status: active
 review_status: human-reviewed
 source_type: journal-article
@@ -190,3 +190,11 @@ P0: band-4 `n_ω=2` assignment and 651-keV contamination/branch handling.
 |---|---|---|---|---|---|
 | CH20-D20-R42-1 | 483keV为13/2−→11/2−，DCO大δ−2.1(.2)或小−.29(+.03/−.04)，作者P=.23(.13)支持大模；旧−.31为另选输入。原Table1首行未报E2out/in，纯份额中心大/小比10.5079只为条件敏感性，不认证可采小分支或CI。 | literal-line-and-published-root | original-selected-and-conditional | PDF2 Fig1; PDF3 Table1/Fig3 and text | true |
 | CH20-D20-R42-2 | Band4向1和3均有ΔI0/1/2退激；ΔI0较强且类似126Xequasiγ是作者提出wobbling–γ耦合的可能依据，原文仍保nω2并要求进一步理论。旧排他纯γ/证伪两声子认证不由该拓扑成立。 | author-competing-coupling | original-selected-and-conditional | PDF4 Fig6 and discussion/conclusion | true |
+
+## 2026-11-27 — 本地关联载体核对
+
+本地六页补充件与主文题名和署名对应，沿用主实验的谱与拟合。
+
+- 路径 `raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_j.physletb.2020.135854_SI1.pdf`
+- SHA-256 `408802ce8af1e41ab03e36aab26cd1b2a946c1511d9b9ead94e4df51585b74ae`
+- 实读 逐页审读物理第 1–6 页的可提取文字，包括表 1 数据和脚注、图 1–6 图注及可辨识的图内标签。第 3 页图 2 的多处文字被去重占位符遮蔽。曲线、峰形、数据点和误差棒尚待原页目检。

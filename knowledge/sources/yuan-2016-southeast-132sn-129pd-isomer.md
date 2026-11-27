@@ -3,7 +3,7 @@ type: source
 title: "Isomerism in the “south-east” of 132Sn and a predicted neutron-decaying isomer in 129Pd"
 aliases: [Yuan 2016 129Pd neutron-decaying isomer, Yuan 2016 PLB]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: journal-article-theory
@@ -79,3 +79,25 @@ The neutron-decaying $19/2^-$ isomer in $^{129}\text{Pd}$ is strictly a **THEORE
 - PDF p. 4 (240): Fig. 3 levels of In, Cd, Pd; Fig. 4 $\pi^{-1}\nu$ multiplets in $^{132}\text{In}$; Fig. 5 proton-hole and neutron-particle ESPEs; Table 2 predicted isomer properties.
 - PDF p. 5 (241): Table 2 continuation; Eqs. (2)–(3) two-potential model for neutron emission barrier penetration; predicted $\ell=9\hbar$ neutron decay lifetime in $^{129}\text{Pd}$.
 - PDF p. 6 (242): Summary, acknowledgments, and references (1–37).
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- {"from": 1, "to": 2, "sections": "出版信息、摘要、§1 引言、§2 有效哈密顿量、§3 开头及表1"}
+- {"from": 3, "to": 4, "sections": "§3 能级和组态讨论；第3页图1–2及 ESPE 式(1)，第4页图3–5及表2引介"}
+- {"from": 5, "to": 6, "sections": "第5页完整表2、跃迁及中子发射讨论、式(2)–(3)、§4 总结与致谢；第6页文献[1]–[37]"}
+- 本次获取的具体覆盖：通读 PDF 物理第1–6页的逐页文本，含表1、表2、图1–5图注、公式上下文和文献表。核对了可辨的表行和正文数值。图内能级标号及抽取受损的公式符号留待原页视觉核查。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A19-1 | 作者为 ¹³²Sn 东南区构造 jj46 有效哈密顿量，采用四个质子价轨道和六个中子价轨道。同类核子相互作用来自 CD-Bonn G 矩阵，跨壳质子–中子相互作用采用 V_MU 加 M3Y 自旋–轨道项。作者用已有分离能、能级与 E2 数据检验计算。 | model-construction | source-reported | PDF 第2页 §2 和表1、第3页图1、第4页图3、第5页表2；能级图待核第3–4页。 | true |
+| A19-2 | jj46 预测 ¹²⁹Pd 的 19/2⁻ 态位于 1.903 MeV，主组态为 π(0g₉/₂)⁻⁴ν(1f₇/₂)，权重 74.2%。对 15/2⁻ 态的计算跃迁能为 0.146 MeV，B(E2) 为 12.88 e²fm⁴，E2 平均寿命为 0.955 μs。 | model-calculation | source-reported | PDF 第5页表2的 ¹²⁹Pd 行；图示能级顺序待核第4页图3。 | true |
+| A19-3 | ¹²⁹Pd 的 Sₙ 在 jj46 和 FRDM 中分别为 1.524 和 1.461 MeV，对预测异能态分别给出 Qₙ = 0.379 和 0.442 MeV。按这两套阈值，通往 ¹²⁸Pd 的 0⁺ 基态的发射通道开放，轨道量子数 ℓ = 9；该论文列出的 1.311 MeV 的 2⁺ 态在能量上不可达。 | model-calculation | source-reported | PDF 第2页表1的 ¹²⁹Pd 行、第5页中子发射正文与表2；第2页列对齐待核。 | true |
+| A19-4 | 两势方法与 Bohr–Sommerfeld 条件给出的中子发射时间尺度为 0.3–10 μs，适用计算区间为 Qₙ = 0.35–0.50 MeV，取 G = 9。作者据此提出中子发射可能与 E2 电磁衰变竞争。 | model-calculation | source-reported | PDF 第5页表2、式(2)–(3)及其后正文；势和积分式的完整符号待核第5页。 | true |
+
+jj46 用 OXBASH 计算，单粒子能依据 ¹³¹In 和 ¹³³Sn 的已知态设定，质子–质子相互作用乘 0.74，V_MU 中心项乘 1.07。表1区分实验、jj46、AME2012 和 FRDM，表2区分理论和实验 B(E2)，计算采用 eₚ = 1.7e、eₙ = 0.7e。两势法、势参数与量子化条件依赖文献[35]–[37]。
+
+- 删除 ¹²⁹Pd 的 AME2012 1.780 MeV 及其导出的 Qₙ = 0.123 MeV。PDF 第2页表1的抽取将 1.780 MeV 列在 ¹³⁰Ag 的 AME2012 栏，¹²⁹Pd 该栏为空，须核原表列线。旧条目基于 ±质量变化推演的内容如保留，应另标为条目推演。
+- 表2完整位于 PDF 第5页，第4页是正文引介。式(1)在第3页，定义 ESPE；第5页式(2)给出核势与自旋–轨道项，式(3)给出 Bohr–Sommerfeld 条件。总结和致谢在第5页，文献表在第6页。补录首页修回日期。
+- PDF 第4页图3的抽取仅保留图注，旧条目所列的 ¹²⁹Pd 7/2⁻ 基态和 19/2⁻ 态中质子空穴子组的 8⁺ 标记缺少可读原图支撑。该细化暂标待核第4页，组态主项及权重引用第5页表2。
+- 将三个奇奇核的共同结论限定为低激发 5⁻ 候选态。PDF 第5页正文专门把 ¹³²In 的小 B(E2) 和较长平均寿命归于质子、中子贡献的抵消，表2分别给出三核的跃迁值。
+- PDF 第3页式(1)的求和、轨道撇号和占据数矩阵元抽取受损，同页 Sn 组态的 1h₉/₂ 与模型空间的 0h₉/₂ 也需核原页。第5页另有 1p₃/₂ 与价空间 2p₃/₂ 的下标歧读，以及式(2)–(3)的矢量、指数、根号和转折点条件抽取问题。公式逐字转录须以对应原页为准。

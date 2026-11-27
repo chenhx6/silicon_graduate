@@ -3,7 +3,7 @@ type: source
 title: "Koike et al. 2004 - Chiral bands and electromagnetic selection rules"
 aliases: [Koike Starosta Hamamoto 2004 chiral selection rule]
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: theory
@@ -139,3 +139,24 @@ This is a theoretical model result, not an experimental measurement. Rule compat
 | KOIKE04-D23-004 | Eq10两组partner对应率相等使用Eq7/8左右手线性组合及Eq9 cross-handed EM≈0的理想极限；不是近简并独自推出。数值例另用gR=55/130、gs,eff=.6gs,free和core-only E2，说明实际偏离简化条件可改规则。源所说staticquadrupole moment0是本模型same-A lab静态量，不是intrinsicQ0=0或detector Q(E)=0。旧精确sin²泄漏百分数、128Cs实验closedloop/106Ag排他四支柱均非本PRL的新测量或证明。 | source-factorization-and-overreach-correction | direct-original-and-scope-audit | printed172502-2 coreE2paragraph; printed172502-3 Eqs7–10; printed172502-4 EM/limitations | true |
 
 [[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-014–017的任务S与这里A有相同“core quarterrotation+交换”结构；须先将轴明确对齐，任务H参数及fullEM实现仍不等原数值例。[[signature-partner-bands]]、[[nuclear-chirality]]和[[signature-tip-shears-discrimination-contract]]保这个比较与真实experiment分别处理，新增needs_review:true，仅Day24无学分预习，不改原Day21/22credit。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- 物理第1页，书目信息、摘要、引言、图1理想化手征几何题注
+- 物理第2页，特殊粒子–转子哈密顿量、A 对称性和 E2/M1 规则，式（1）–（6）
+- 物理第3页，左右手态、理想跃迁关系、图2题注及数值例设置，式（7）–（10）
+- 物理第4页，图3计算能级图题注、带指派、EM 截断、局限与参考文献
+- 本次获取的具体覆盖：逐页读取物理第1–4页的抽取文本，包括式（1）–（10）、图1–3的题注及其正文说明、参考文献 [1]–[11]。三个图题注均在文本中，箭头、线型和图中数字待核。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A19-1 | 模型采用 γ=90° 的三轴核芯（Lund 约定 γ=−30°），以中间轴 3 为量子化轴，同一单 j 壳层耦合一个质子粒子和一个中子空穴。A 组合绕核芯 3 轴的四分之一或四分之三周旋转与价质子–中子交换 C，本征值为 ±1。 | 模型定义 | source-reported | 物理第2页，轴约定段、式（1）–（5）及 A、C 定义。γ、负号、π 和 ± 在抽取中损坏，精确符号须核第2页。 | true |
+| A19-2 | 仅计核芯 E2 时，同 A 的 E2 矩阵元为零。采用文中的近等矢量 M1 算符及给定 g 因子时，同 A 的 M1 矩阵元通常比异 A 小约一个数量级。两条规则适用于该特殊哈密顿量的本征态，适用性独立于是否实现手征几何。 | 模型选择定则 | source-reported | 物理第2页，核芯 E2 段、式（6）及末段；第3页图2题注。第2页须核 ΔR₃ 关系及式（6）符号，第3页须核图2箭头。 | true |
+| A19-3 | 在文中的手征构造下，同自旋近简并伙伴取相反 A。式（10）的两组对应跃迁概率相等，还要求按式（7）–（8）组合左右手态，并在理想极限将式（9）的跨手征电磁矩阵元取零。 | 模型理想极限 | source-reported | 物理第3页，式（7）–（10）及其后正文。第3页须核式（9）的近似号与式（10）的等号。 | true |
+| A19-4 | h₁₁/₂ 粒子–空穴数值例采用质量数 130、Z=55、β=0.3 和 J₀=8.55 ħ²/MeV，正文报告 13<I<25 时两带近简并。能级在低自旋按能量归带，在近简并区按 B(E2; I→I−2) 归带。随后计算电磁跃迁时，质子粒子和中子空穴分别限制在最低和最高单粒子能级。 | 数值模型结果 | source-reported | 物理第3页数值段和归带说明，第4页图3题注及简化模型段。图中带别、线型和强跃迁箭头须核第4页图3。 | true |
+
+建议接受既有条目对同一散列期刊版的四页正文、式（1）–（10）和图1–3题注的覆盖，可沿用 KOIKE04-1–13 及 Day23 的条件化表述。既有视觉记录属此前工作，图2–3的图面结论待管理者核对。本次回读与此前记录依赖同一篇论文。
+
+- 保留 Day23 对旧 Day19 认证的撤回，并清理仍以“核准”开头的段落。以物理第2页的组合对称性量子数 A、核芯 E2 严格禁戒和条件性 M1 抑制替代 A 等同于宇称、精确泄漏百分数及实验排他认证。
+- 数值例同时注明第2页式（1）的惯量约定（长、短、中间轴分别为 J₀、J₀、4J₀）和第4页 EM 截断。第2页的 g_R=0.5 用于近等矢量估计，第4页数值跃迁取 g_R=55/130，两处均采用有效自旋 g 因子的 0.6 缩放。
+- 将第4页图3的跃迁措辞限定为所画强跃迁。图中省略的 E2 为禁戒，弱 M1 在该数值例中小到可忽略。具体箭头、实虚线和 f/u 对应关系以原图为准。

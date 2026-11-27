@@ -57,6 +57,8 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 本批核定 33 份、679 个主件 PDF 页，另登记一篇共页评论和一份会刊学位摘要。¹⁹⁴Au／¹⁹³Os 与 CSRm 复合两篇学位论文按科学正文覆盖计页。⁴⁵Sc 共振扫描宽度与自然线宽、²²⁹Th³⁺ 核态衰减与共同陷阱损失分别登记。累计 698 份、25,060 个主件 PDF 页，正式队列剩 138 条。稳定指针为 `research/archive-learning-20261127` + `research: verify local isomer evidence, thesis coverage and mixing conventions`。见[原件及覆盖](../outputs/literature-acquisition/20261119-deep-learning/20261127-isomers-theses-and-mixing-ratios-r-audit.json)。
 
+本批核定 31 份、445 个主件 PDF 页，另核 5 条材料角色。⁴¹Ca 与 ¹¹²In 已补核原图、表格和字形，¹³¹Ba 的本地评价导出已完整核定。Hamilton 第 12 章新核 23 页，继续 PDF 543（印 532）。累计 729 份、25,505 个主件 PDF 页，待处理 102 条。稳定指针为 `research/archive-learning-20261127` + `research: verify angular spectroscopy, local editions and Hamilton reading`。见[原件及覆盖](../outputs/literature-acquisition/20261119-deep-learning/20261127-orientation-and-nuclear-spectroscopy-s-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

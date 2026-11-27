@@ -3,7 +3,7 @@ type: source
 title: "Sun 等 2025：稀土核时间奇响应与迭代 ATDHFB"
 aliases: [Sun 2025 rare earth inertia, exact iterative ATDHFB]
 created: 2026-11-08
-updated: 2026-11-08
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: journal-article-theory
@@ -134,3 +134,11 @@ P2/P3：citation key 保持空值；未读取的背景题录不产生机制结�
 ## 2026-11-22 — 七页 ATDHFB v3 复核
 
 PDF 4 的 166Er 正文以同一 SkM* 泛函给出 IB 27.584 与 ATDHFB 34.950 \(\hbar^2/\mathrm{MeV}\)。PDF 5 Fig. 3 给出多个同位素链的增强比。该比的适用性随泛函、配对和构型变化。这里的全配对基态小幅转动响应与高 K 阻塞构型上的进动保留不同参考态。
+
+## 2026-11-27 — 本地关联载体核对
+
+arXiv:2502.07433v1 为同一作品早稿，首选证据底本为已核 v3。
+
+- 路径 `raw/papers/gpt/query/20261108-r2-g43-new-collective-response/sun2025-atdhfb-moi.pdf`
+- SHA-256 `576d3b880ffc68a7820439d9b4da24fd438c76feabeedb8d11ed7b55af10c647`
+- 实读 通读物理第1–6页的给定抽取文本，覆盖方法、结果、结语、图1–4图注、数据可用性说明和书目。图面和受损公式字形待查原页。

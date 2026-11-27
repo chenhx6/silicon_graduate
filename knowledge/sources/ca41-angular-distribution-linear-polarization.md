@@ -8,7 +8,7 @@ updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article
-reading_depth: skimmed
+reading_depth: read
 authors: ["C J Lister", "A M Al-Naser", "A H Behbehani", "L L Green", "P J Nolan", "J F Sharpey-Schafer"]
 tags: [nuclear-structure, local-literature-archive]
 year: 1980
@@ -63,3 +63,11 @@ C J Lister et al., J. Phys. G: Nucl. Phys. 6, 619–635 (1980).
 - {"from": 4, "to": 8, "sections": "图1残存字符、§3结果开头、表1、表2残存字符"}
 - {"from": 9, "to": 13, "sections": "§3分能区结果及图2–5图注、§4讨论开头"}
 - {"from": 14, "to": 18, "sections": "§4正负宇称模型、图6–8图注、式(1)残文、表3–4、§5、致谢和参考文献"}
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- §2 gives 9.6 MeV for the low-energy run; Table 1 prints 9.5 MeV in the relevant rows. Keep both attached to their locators. (PDF 3 (620), §2; PDF 6 (623), Table 1)
+- Text prints g_p=+0.46, but Table 3 explicitly assumes g_p=−0.46. Its two g_c solutions match the negative sign, e.g. −0.46±0.44 gives −0.02 and −0.90. (PDF 14 (631), text after Eq. (1); PDF 16 (633), Table 3)
+- Table 4 caption prints Gerace and Green (1969); the discussion and bibliography give 1967. Use the bibliography for the citation identity and retain the caption variant. (PDF 16 (633), Table 4 caption and adjacent text; PDF 18 (635), references)
+- Table 2 prints 18±8% at 607 keV and 82±8% at 775 keV. Fig. 2 labels the same branches 18 and 72. Keep the table values for quantitative reuse and record the figure variant. (PDF 8 (625), Table 2; PDF 9 (626), Fig. 2, 3976-keV branches)
+- For 3677→2959 (718 keV), Table 2 gives B(E2)=16(+29/−9) W.u., §3.3 gives 17(+29/−9) W.u., and §4.2 gives 17(+19/−9) W.u. The paper flags the Ge(n,n′) peak-tail contamination. Preserve the locator-specific values. (PDF 7 (624), Table 2; PDF 11 (628), §3.3; PDF 16 (633), §4.2)

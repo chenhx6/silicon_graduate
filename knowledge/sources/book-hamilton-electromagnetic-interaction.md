@@ -3,11 +3,11 @@ type: source
 title: "W. D. Hamilton 1975 - The Electromagnetic Interaction in Nuclear Spectroscopy"
 aliases: [Hamilton1975, Hamilton电磁相互作用, 电磁跃迁核谱学圣经]
 created: 2026-11-01
-updated: 2026-11-19
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: deep-read
+reading_depth: skimmed
 title_original: "The Electromagnetic Interaction in Nuclear Spectroscopy"
 authors: [W. D. Hamilton (editor)]
 publisher: "North-Holland Publishing Company / American Elsevier"
@@ -90,3 +90,7 @@ tags: [bk-parameters, ak-coefficients, f-coefficients, u-coefficients, mixing-ra
 ## 2026-11-19：未观测传播的原页定位
 
 本次仅复核Gaussian及U传播相关页，不扩展为全书重读：printed521/PDF532 Eqs12.80–12.81；printed552/PDF563 Eqs12.209–12.213；printed553/PDF564 Eqs12.214–12.219。第12章作者为R. M. Steffen与K. Alder，Hamilton为全书编者。纯多极U由Eq12.210的6j表达式定义；混合辐射强度加权见Eq12.209，该式注明未计内转换。传播作用于布居/统计张量，不保证下游仍为单参数Gaussian，也不能以sigma_after=U*sigma替代。方向门保留的条件关联不能用未观测辐射的全方向求和代替。这里的级联去取向不等同于外场对中间态的时间依赖扰动。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 519–525 / 印 508–514 的密度矩阵与取向张量经迹归一、旋转和不可约分解。PDF 533–534 Figs. 12.2–12.3 是重离子束流取向模型。PDF 534–537 Eqs. (12.83)–(12.100) 声明 helicity 顺序与线偏 Stokes 分量的角度号。PDF 541–542 Eqs. (12.122)–(12.129) 给分析器效率矩阵及旋转 90° 后的正交通道，按探测坐标与幅约定使用。
