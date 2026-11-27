@@ -31,6 +31,8 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 本批核定 3 份、132 个主件 PDF 页，包括 Mallaburn 与 Régis 的定时研究和柳敏良学位论文。另归位 65 张源码包图件，核对 3 份刊文首页节录。累计 516 份、20,367 个主件 PDF 页，待处理 352 条。第二卷另核 PDF 445–455（印 423–433），续读 PDF 456（印 434）§6-5g。稳定指针为 `research/archive-learning-20261127` + `research: verify authored figure packages and spectroscopy sources`。见[定时、学位论文与书](../outputs/literature-acquisition/20261119-deep-learning/20261127-timing-thesis-f-audit.json)和[源码包与节录](../outputs/literature-acquisition/20261119-deep-learning/20261127-source-package-and-extracts-f-audit.json)。
 
+本批核定 9 份、227 个主件 PDF 页，另核定 7 张 ¹⁰⁰Ru 源码包图件及 Chow 的同文首页节录。¹⁰⁰Ru 回到原页区分薄靶 γ 谱、厚靶 DSAM 和跨宇称跃迁的 E1 指派条件。累计 525 份、20,594 个主件 PDF 页，正式队列待处理 335 条。第二卷另核 PDF 456–475（印 434–453），下一页 PDF 476（印 454）§6-6b。稳定指针为 `research/archive-learning-20261127` + `research: verify spectroscopy, collective models and 100Ru figure evidence`。见[原件与既读范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-spectroscopy-models-g-audit.json)和[¹⁰⁰Ru 图件及 Chow 节录](../outputs/literature-acquisition/20261119-deep-learning/20261127-100ru-figures-and-chow-extract-g-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

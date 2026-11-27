@@ -677,7 +677,7 @@
     "LOCAL-ROTATION-AND-DEFORMATION-SOURCES",
     "LOCAL-THEORY-AND-SPECTROSCOPY-245"
   ],
-  "completed_full_sources_this_run": 516,
+  "completed_full_sources_this_run": 525,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -685,27 +685,26 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-27T03:14:10.980395+00:00",
+  "updated_at": "2026-11-27T03:48:39.133873+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 20367,
+  "completed_primary_pages_this_run": 20594,
   "current_source_note": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
-  "next_action": "Continue Bohr–Mottelson II PDF 456 (printed 434) and verify the next independently assigned originals.",
+  "next_action": "Continue Bohr–Mottelson II PDF 476 (printed 454), §6-6b, then review the next original-source batch.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "3 works, 132 primary PDF pages, 11 bounded book pages, 65 figures and 3 first-page extracts reconciled.",
-  "current_source_scientific_acceptance": "Bohr–Mottelson II through PDF 455 (printed 433); no completed-volume credit.",
+  "last_source_manager_closure": "9 works, 227 primary PDF pages, 20 bounded book pages and 8 related records reconciled.",
+  "current_source_scientific_acceptance": "Bohr–Mottelson II through PDF 475 (printed 453); no completed-volume credit.",
   "source_scoped_retrieval": "Existing local originals; publisher and author versions recorded separately.",
   "counting_scope": {
-    "scientific_reading_covered": 498,
+    "scientific_reading_covered": 507,
     "bounded_or_core_only_completed": 18,
-    "credited_pages_explicit_in_queue": 9909,
+    "credited_pages_explicit_in_queue": 10136,
     "pages_carried_forward_from_previous_checkpoints": 10458,
     "increment_this_checkpoint": {
-      "works": 3,
-      "pages": 132,
-      "partial_volume_pages_recorded_separately": 11,
-      "associated_rows": 65,
-      "bounded_extracts": 3
+      "works": 9,
+      "pages": 227,
+      "partial_volume_pages_recorded_separately": 20,
+      "associated_rows": 8
     }
   },
   "previous_pause": {
@@ -726,5 +725,5 @@
     "resume_printed_page": 259,
     "background_reading_scheduled": false
   },
-  "latest_batch_audit": "20261127-source-package-and-extracts-f-audit.json"
+  "latest_batch_audit": "20261127-100ru-figures-and-chow-extract-g-audit.json"
 }

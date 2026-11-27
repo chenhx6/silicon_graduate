@@ -3,7 +3,7 @@ type: source
 title: "刘晨 2016 博士论文：奇奇核 78Br 中手征对称性和空间反射对称性的联立自发破缺"
 aliases: [刘晨 78Br 博士论文, 78Br chirality reflection-symmetry thesis]
 created: 2026-09-11
-updated: 2026-11-08
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-experiment
@@ -178,3 +178,11 @@ TPRM 给出组态相关形变和有效角动量夹角；MDC-CDFT/宏观-微观�
 ## Non-source Notes and Follow-up
 
 本页实际读取了题名页、摘要、目录、方法、结果、讨论和总结的代表性页面；OCR 文本只用于定位，关键图表已用视觉快照核对。未修改 raw、BibTeX 或期刊 source 的人工审核状态。
+
+## 2026-11-27 — 学位版与刊文计数、ADO 和手征八极证据谱系
+
+PDF 34–47、48–51（式 4.1–4.2、Fig. 4.2）及 88 给 ⁷⁰Zn(¹²C,p3n) 的 60、65 MeV 采集。论文 Iγ(135°)/Iγ(90°) 的已知伸展偶极、四极参考约 0.6、1.1，刊文写约 0.7、1.1。90° Clover 的线偏振各向异性提供电磁性约束。
+
+PDF 56（印 45）§4.2 写 49 条新跃迁、25 个新能级，并另报 15 条新带间连接。PDF 88 的总结口径为 44 条、21 个，与刊文一致。逐线对账不足以现定差额成因，两种口径保留。PDF 104 发表清单、论文 Fig. 4.5、Fig. 4.7(a)、Fig. 4.2、Fig. 5.16 与 [[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]] Figs. 1、2(a)、3、5 的对应，以及相同束靶、事件数和门谱证明共用实验。
+
+PDF 78–82（印 67–71）Figs. 5.16–5.18 和 Table 5.6。八条 E1 连接已报告于带 1 与带 3；B(E1)/B(E2) 为相对强度换算，未定四条带的全部跨宇称网络。PC-PK1 的 β₂₀–β₃₀ 面有 β₃₀=0 极小及八极软性，另组计算的非轴向非零 β₃μ 极小具有不同模型条件。

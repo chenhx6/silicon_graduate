@@ -1,0 +1,116 @@
+{
+  "batch": "20261127-100ru-figures-and-chow-extract-g",
+  "records": [
+    {
+      "work_id": "catalogue:LIT-000899",
+      "parent": "catalogue:LIT-000897",
+      "source": "knowledge/sources/karmakar-2023-2024-100ru-alternate-parity-bands.md",
+      "role": "figure-asset-linked-to-canonical",
+      "raw_file": "raw/papers/gpt/query/20261107-a100-octupole-lifetimes/src-2306.07670v1/100ru_extended_s-eps-converted-to.pdf",
+      "sha256": "04201b34cd8ba42dce896082b5818b6b45c4006c760e6507d3bccb5da07060ca",
+      "physical_pages": 1,
+      "locator": "`arxiv.tex` 行 296 调用，行 298 图注，行 299 `label=level_ext`。母文物理 PDF p. 10，图 5，嵌入对象 `/Im5`（xref 250）。",
+      "boundary": "补充材料的扩展能级纲目，复用同一薄靶 ¹⁰⁰Ru 事件数据及已知能级指派，结合 PDF 10–12 图 5–7 及补充正文追踪新增或重置跃迁。与图 1 有重叠的等级和跃迁属于同一取数链。"
+    },
+    {
+      "work_id": "catalogue:LIT-000900",
+      "parent": "catalogue:LIT-000897",
+      "source": "knowledge/sources/karmakar-2023-2024-100ru-alternate-parity-bands.md",
+      "role": "figure-asset-linked-to-canonical",
+      "raw_file": "raw/papers/gpt/query/20261107-a100-octupole-lifetimes/src-2306.07670v1/100ru_level_scheme-eps-converted-to.pdf",
+      "sha256": "3ea2544ca9210602b5833cea3856be6029efa57eae9de6991edbefc7c8fc9795",
+      "physical_pages": 1,
+      "locator": "`arxiv.tex` 行 95 调用，行 97 图注，行 98 `label=level_scheme`。母文物理 PDF p. 3，图 1，嵌入对象 `/Im1`（xref 93）。",
+      "boundary": "正文的部分能级纲目。图注以红色标十条新放置跃迁，能量为 keV，图注给跃迁能量不确定度 ±0.2 keV。`I>22ℏ` 的旧高自旋能级归 Timár 等，*Phys. Rev. C* **62**, 044317（正文 Ref. [17]，TeX `PhysRevC.62.044317`）。三幅势能插图属于作者示意。"
+    },
+    {
+      "work_id": "catalogue:LIT-000901",
+      "parent": "catalogue:LIT-000897",
+      "source": "knowledge/sources/karmakar-2023-2024-100ru-alternate-parity-bands.md",
+      "role": "figure-asset-linked-to-canonical",
+      "raw_file": "raw/papers/gpt/query/20261107-a100-octupole-lifetimes/src-2306.07670v1/3nuclei_moi_sj-eps-converted-to.pdf",
+      "sha256": "638f8e5cb87a779516b796ad5aff48df734a8bc89dca17da4f78b6b1fc5bcc8f",
+      "physical_pages": 1,
+      "locator": "`arxiv.tex` 行 132 调用，行 134 图注，行 135 `label=si`。母文物理 PDF p. 7，图 4，嵌入对象 `/Im4`（xref 182）。",
+      "boundary": "左列 `J⁽¹⁾` 对 `ℏω`，右列 `S(I)` 对自旋。¹⁰⁰Ru 为本文谱学能量的派生量，²²⁶Ra、¹⁴⁴Ba 用 PDF 5 说明的比较输入，分别是 Cocks 等 *Phys. Rev. Lett.* **78**, 2920（Ref. [8]）和 Zhu 等 *Phys. Rev. Lett.* **124**, 032501（Ref. [28]）。`S(I)` 的定义参考 Ref. [29]。比较面板保留各自数据依赖。"
+    },
+    {
+      "work_id": "catalogue:LIT-000902",
+      "parent": "catalogue:LIT-000897",
+      "source": "knowledge/sources/karmakar-2023-2024-100ru-alternate-parity-bands.md",
+      "role": "figure-asset-linked-to-canonical",
+      "raw_file": "raw/papers/gpt/query/20261107-a100-octupole-lifetimes/src-2306.07670v1/552g_e3_s-eps-converted-to.pdf",
+      "sha256": "d67cb4307faa85f39395c832622e0ddea8e1ae4a804f9a2be67a2fb7efc92a12",
+      "physical_pages": 1,
+      "locator": "`arxiv.tex` 行 309 调用，行 311 图注，行 312 `label=gate552`。母文物理 PDF p. 11，图 6，嵌入对象 `/Im6`（xref 254）。",
+      "boundary": "补充材料的 `552 keV (9⁻→7⁻)` γ 门符合谱，两个能区是同一门。PDF 10 的正文把 1035.7 与 1003.5 keV 跃迁的相对峰强用于交换相对 Ref. [1] Timár 等的放置。作者在插图标出的 E3 峰与该放置比较保留各自的跃迁归属。图中整数标签是最近 keV，精确能量用母文文字或表。"
+    },
+    {
+      "work_id": "catalogue:LIT-000903",
+      "parent": "catalogue:LIT-000897",
+      "source": "knowledge/sources/karmakar-2023-2024-100ru-alternate-parity-bands.md",
+      "role": "figure-asset-linked-to-canonical",
+      "raw_file": "raw/papers/gpt/query/20261107-a100-octupole-lifetimes/src-2306.07670v1/be1_be2-eps-converted-to.pdf",
+      "sha256": "c50df829b73276454a3725666af791acfaddcab5af338bc759b10c2be01638ee",
+      "physical_pages": 1,
+      "locator": "`arxiv.tex` 行 121 调用，行 123 图注，行 124 `label=doqo`。母文物理 PDF p. 6，图 3，嵌入对象 `/Im3`（xref 174）。",
+      "boundary": "派生图纵轴是带间 `B(E1)` 除以带内 `B(E2)`，标度 `10⁻⁸ fm⁻²`，横轴为自旋。母文 PDF 12 式 (1) 用光子能量幂和测得的强度比换算，PDF 13 补充表 I–II 给可核对的数值。例 `13⁻` 行分别是 `I(E1)/I(E2)=(0.27±0.05)×10⁻²`、`B(E1)/B(E2)=(9.84±1.93)×10⁻⁸ fm⁻²`。低自旋 `6⁻`、`8⁻` 的图点还使用纯 E1 假定（TeX 113）。"
+    },
+    {
+      "work_id": "catalogue:LIT-000904",
+      "parent": "catalogue:LIT-000897",
+      "source": "knowledge/sources/karmakar-2023-2024-100ru-alternate-parity-bands.md",
+      "role": "figure-asset-linked-to-canonical",
+      "raw_file": "raw/papers/gpt/query/20261107-a100-octupole-lifetimes/src-2306.07670v1/dco_pdco_s-eps-converted-to.pdf",
+      "sha256": "0a3857a633f422934c9eadb11e3a50a0185b6b31d66358936dec167d4bd61516",
+      "physical_pages": 1,
+      "locator": "`arxiv.tex` 行 322 调用，行 324 图注，行 325 `label=dco`。母文物理 PDF p. 12，图 7，嵌入对象 `/Im7`（xref 281）。",
+      "boundary": "从母文同批 γ–γ 数据提取的 `R_DCO` 和 `iPDCO`，配合既有能级指派支持多极性。PDF 10–11 补充正文给 90°/55°、`ΔI=2` 门下的参照 0.65 与 1.0，指派 443.5 与 876.0 keV 为 E1。对 Band 3 的 1336.9 keV 跃迁统计不足，带间 E1 的解释同时依赖能级连接及 M2 混合可忽略的假设。"
+    },
+    {
+      "work_id": "catalogue:LIT-000905",
+      "parent": "catalogue:LIT-000897",
+      "source": "knowledge/sources/karmakar-2023-2024-100ru-alternate-parity-bands.md",
+      "role": "figure-asset-linked-to-canonical",
+      "raw_file": "raw/papers/gpt/query/20261107-a100-octupole-lifetimes/src-2306.07670v1/gated_spectrum-eps-converted-to.pdf",
+      "sha256": "57cc4e15be05da3f1e7853a9f94bfb6c706f8445e15cc7f3dfd73adb8d8db905",
+      "physical_pages": 1,
+      "locator": "`arxiv.tex` 行 105 调用，行 107 图注，行 108 `label=gated_spec`。母文物理 PDF p. 5，图 2，嵌入对象 `/Im2`（xref 120）。",
+      "boundary": "正文 90° 环选择的符合门谱，红虚线与整数能量标签定位 Band 2/3 间 E1 峰。每条跃迁以两个 γ 门展示，门谱共享同一采集。PDF 11–12 补充正文给门选择、邻峰污染与修正，例如 244.8 keV 峰估计有 `(37±7)%` 的另一条 245 keV 跃迁污染。原件未附可独立处理的谱道数据或 γ–γ 矩阵。"
+    },
+    {
+      "work_id": "bytes:92d5cbd704f8b9a416fe1489522e07099e46981de5525b9f4cd9e6bbd9b482df",
+      "parent": "bytes:2c3a208bf679b53c8fd263b45f42a150935e2e4234c9ad9c4098418c4638f9cd",
+      "source": "knowledge/sources/chow-wiedenbeck-1973-triple-cascade-mixing-ratios.md",
+      "role": "duplicate-excerpt-linked-to-canonical",
+      "raw_file": "raw/papers/gpt/query/20261119-pdm-delta-broad/10.1016_0029-554x_73_90582-x.pdf",
+      "sha256": "92d5cbd704f8b9a416fe1489522e07099e46981de5525b9f4cd9e6bbd9b482df",
+      "physical_pages": 1,
+      "locator": "刊版 PDF 1（印 597），全文首页文字和同设置渲染像素吻合。",
+      "boundary": "印 598–599 见三页母件。"
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 507,
+    "duplicate-or-related-version": 19,
+    "duplicate-excerpt-linked-to-canonical": 8,
+    "pending-identity-and-coverage": 150,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 6,
+    "existing-source-coverage-to-audit": 185,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "publisher-first-page-extract-fulltext-unavailable": 3,
+    "access-placeholder-fulltext-unavailable": 1,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 335,
+  "credited_works": 0,
+  "credited_primary_pages": 0
+}

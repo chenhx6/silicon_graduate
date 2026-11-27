@@ -7462,3 +7462,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 - 隔离分支保护馆藏任务dirty；canonical方法为 [[evidence-driven-research-cycle]]，实际验收与Git交付见 `outputs/plans/20261127-research-capability-adoption/`。
 
 - 本批核定 3 份、132 个主件 PDF 页，归位源码包 65 件图，核对 3 份刊文首页。第二卷另核 PDF 445–455，下一页 PDF 456（印 434）。正式队列待处理 352 条。
+
+## 2026-11-27 — 馆藏续读第 7 批
+
+- 馆藏本批核定 9 份、227 个主件 PDF 页，归位 7 张 ¹⁰⁰Ru 图件及一份同文首页节录。第二卷另核 PDF 456–475，续读 PDF 476（印 454）。正式队列待处理 335 条。

@@ -2265,3 +2265,11 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[egido-robledo-1990-barium-negative-parity-extract]] — Ba 负宇称态集体计算的刊文首页。
 - [[juutinen-1994-110cd-gamma-spectroscopy-extract]] — ¹¹⁰Cd NORDBALL 谱学的刊文首页。
 - [[piiparinen-1993-110cd-yrast-lifetimes-extract]] — ¹¹⁰Cd yrast 寿命的刊文首页。
+- [[regan-2015-fatima-fast-timing-review]] — FATIMA 综述与原始数据归属。
+- [[cheng-2020-labr3-intrinsic-activity-coincidence]] — LaBr₃ 本底、符合门与晶体活度。
+- [[niksic-2014-dirhb-relativistic-framework]] — DIRHB 的三个实现、控制条件和源代码边界。
+- [[nomura-2018-prolate-oblate-oddmass-pt-os-ir]] — Pt、Os、Ir 的 IBFM 有效形状。
+- [[qureshie-2026-tpsm-e2-matrix-elements-ii]] — TPSM E2 矩阵元、符号与 γ 带交错。
+- [[rocchini-2021-coulomb-excitation-shell-model]] — 低能 Coulex、重取向及 E2 不变量。
+- [[weigt-1968-pd106-linear-polarization-directional-correlation]] — ¹⁰⁶Pd 的线偏振、方向关联及混合分支。
+- [[chow-wiedenbeck-1973-triple-cascade-mixing-ratios]] — 三步级联的方向关联约束和混合比交点。
