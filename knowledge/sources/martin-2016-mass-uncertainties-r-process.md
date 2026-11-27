@@ -101,3 +101,11 @@ In standard $r$-process networks (including those used in Martin 2016), each iso
 - 改写 MAR16-4 为“光致解离率对分离能呈指数依赖”，定位物理第 2 页 Method。该页提取文本只支持定性陈述。删除归于本文的显式指数公式、300–500 keV 幅度及数量级换算。物理第 4 页的 S₂ₙ/2=1.5 MeV 是图 3 的代表性示意条件。
 - 移除本文直接证据栏中的 astromer 热平衡假设、具体异能态、异能态分离能修正及其网络效应。物理第 2 页的热力学平衡假设属于 TALYS 统计模型说明。核素与 astromer 标签如用于专题关联，应标为外部背景。
 - 将图 2 定位为物理第 3 页、图 3 定位为第 4 页、结论定位为第 4–5 页、参考文献定位为第 5–6 页 [1]–[69]。第 2–4 页 SkM 后的控制字符按对照条目转写为 SkM*，反应括号及等号乱码在对应页核字。第 4 页图 3 的 Z 标签断字须查原图。第 6 页文献 [48] 的姓氏提取为 Aprahamianan，查该页原字形后再决定是否订正。
+
+## 2026-11-27 — 本地关联载体核对
+
+按本地核定载体与实际范围登记。与已核刊版属于同一作品。
+
+- 路径 `raw/papers/isomer/isomer_application/nuclear_astrophysics/2016_Martin et al_Impact of Nuclear Mass Uncertainties on the r Process 1.pdf`
+- SHA-256 `c9045474ae93257657a0d20716a33d5bbc3417d77556ed57db4b8df83c226c09`
+- 实读 核读了物理第1至7页的可提取文字，覆盖 CHORUS 封页、接收稿全部正文、图1至3图注、致谢和参考文献。图面、坐标刻度和数据点未作视觉核验。

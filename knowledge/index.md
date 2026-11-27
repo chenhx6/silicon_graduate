@@ -790,6 +790,8 @@ u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶
 - [[cavallaro-2019-giant-pairing-vibration]] — 巨对振动跨质量区运动学与连续谱阻尼失效。
 - [[colo-1995-isospin-mixing-gdr]] — 库仑同位旋混合与 GDR 禁戒 E1 的模型边界。
 - [[enders-1999-scissors-mode-saturation]] — 剪刀模低位 M1 强度、惯量与和规则的系统比较。
+- [[wisniewski-2018-mo98-fipps-gamma-collectivity]] — Evolution of γ Collectivity — (n, γ) Spectroscopy of ⁹⁸Mo with FIPPS。
+- [[cowan-2011-asymptotic-likelihood-formulae]] — Asymptotic formulae for likelihood-based tests of new physics。
 - [[tb160-oriented-nuclei-mixing-ratios]] — Multipole mixing ratios of gamma rays emitted in the decay of polarized 160Tb。
 - [[pd100-high-spin-structure]] — Structure of high-spin states in 100Pd。
 - [[ir191-ir193-low-excitation-electromagnetic-properties]] — Electromagnetic properties of low-excitation states in ¹⁹¹Ir and ¹⁹³Ir and supersymmetry schemes。

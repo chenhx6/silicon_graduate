@@ -3,7 +3,7 @@ type: source
 title: "Petrache (ed.) — Chirality and Wobbling in Atomic Nuclei (CRC, 2025 imprint)"
 aliases: [Petrache2024, Chirality and Wobbling Book, 核手征与摆动专著]
 created: 2026-11-01
-updated: 2026-11-02
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
@@ -136,3 +136,7 @@ tags: [books, triaxiality, wobbling, chirality, competing-interpretations]
 ## Extracted Pages
 
 详见正文对应小节及核对记录。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+Guo–Lv 第 5 章 PDF 114、116、117 的 ¹³⁶Nd、¹⁰³Rh、¹³¹Ba 图各自沿原实验引用。Raduta 等第 8 章 PDF 167–194 的 ¹⁵⁸Er、¹⁶³Lu 比较保留模型强度与实验列，非平面配置为指定耦合下的解。书级目录区分各章不同作者、DOI、数据依赖及源页定位。

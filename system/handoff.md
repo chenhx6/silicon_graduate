@@ -61,6 +61,8 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 本批核定 27 份、386 个主件 PDF 页，并归位 9 条版本、评价、附件及访问材料。Mehl 的 ²⁰Ne 峰面积提取负结果与独立 ⁴⁰Ar 对照已按正文和附录核定。Hamilton 第 12 章各段已登记，另核 39 页，续接第 13 章 PDF 594（印 583）。累计 756 份、25,891 个主件 PDF 页，正式队列剩 66 条。稳定指针为 `research/archive-learning-20261127` + `research: verify original editions, angular methods and Hamilton chapter 12`。见[原件及范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-local-spectroscopy-and-reference-corpus-t-audit.json)。
 
+本批核定 19 份、631 个主件 PDF 页，另登记 7 条关联或有界载体。Bohr–Mottelson 卷 I 从 PDF 50（印 31）§1-3、Hamilton 从 PDF 629（印 618）、Petrache 从 PDF 195（印 176）接续。三本共新增 98 个整页的有界覆盖。累计 775 份、26,522 个主件 PDF 页，正式队列剩 40 条。稳定指针为 `research/archive-learning-20261127` + `research: verify reference papers and advance three book reading ranges`。见[原件及范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-reference-papers-and-book-reading-u-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

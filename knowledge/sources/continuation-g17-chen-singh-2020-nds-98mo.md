@@ -3,7 +3,7 @@ type: source
 title: "Chen & Singh 2020：A=98核数据评价（NDS 164, 1 评价正文精读与能级寿命核查）"
 aliases: ["Chen 2020 NDS A=98", "NDS 164 1", "10.1016/j.nds.2020.01.001"]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -73,3 +73,11 @@ Jun Chen, Balraj Singh, *Nuclear Data Sheets for A=98*, Nuclear Data Sheets **16
 ## Extracted Pages
 
 实际读取的PDF/出版页、XML原文段及表号见Scope和逐项locator；全文文件可用不代表全部图点/转引原件或生产实现已核。
+
+## 2026-11-27 — 本地关联载体核对
+
+按本地核定载体与实际范围登记。读取物理第1–51页所给文本，重点交叉核对目标能级、半衰期栏、γ 行和脚注。第35–51页的阅读限于可辨图题、图例、能级和序列标签。旋转图字提取错序，第37、38页还含去重占位，图形连线留待核查。
+
+- 路径 `raw/papers/gpt/query/20261107-continuation-G17/nds-2020-chen-singh-98mo-adopted.pdf`
+- SHA-256 `f98dc0ebd7a111083492fd25710268093d37c40bc45b33b1507704428d8c9bf6`
+- 实读 读取物理第1–51页所给文本，重点交叉核对目标能级、半衰期栏、γ 行和脚注。第35–51页的阅读限于可辨图题、图例、能级和序列标签。旋转图字提取错序，第37、38页还含去重占位，图形连线留待核查。

@@ -3,7 +3,7 @@ type: source
 title: "Karmakar et al.：98Mo的A≈100八极集体性候选（Nucl. Phys. A 1066 (2026) 123265 出版全文精读）"
 aliases: [98Mo A possible candidate for octupole collectivity in A100 region, karmakar2026-98mo-fulltext]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -103,3 +103,11 @@ Table1的a表示本次新测量，不一概表示新跃迁或新放置。
 ## Extracted Pages
 
 所给出版PDF1–8；重点原表Table1/2/3与图的阅读边界已分别登记，原始事件未取得。
+
+## 2026-11-27 — 本地关联载体核对
+
+按本地核定载体与实际范围登记。核读了物理第1页的可提取文字，包括题录、摘要和引言开头。引言末句截断。实验方法、结果正文、图表及图注均未见于所给文本，未作图像核验。
+
+- 路径 `raw/papers/gpt/query/20261107-triaxial-isomer-transfer/karmakar2025-98mo.pdf`
+- SHA-256 `914a3cfb3b1613ec239fd19b144979ee3b84082a17416a69e9633c7710547fd4`
+- 实读 核读了物理第1页的可提取文字，包括题录、摘要和引言开头。引言末句截断。实验方法、结果正文、图表及图注均未见于所给文本，未作图像核验。

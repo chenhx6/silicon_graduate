@@ -4,7 +4,7 @@ title: "Jenkins2004：23Mg分数Doppler寿命与混合来源的共振强度"
 title_original: "Reevaluation of the 22Na(p,gamma) reaction rate: Implications for the detection of 22Na gamma rays from novae"
 aliases: [Jenkins2004 Mg23, J04 fractional Doppler]
 created: 2026-10-20
-updated: 2026-10-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article
@@ -109,3 +109,22 @@ DCO比较all-angle gate下的90°与32°/37°分组，实测参照pure dipole约
 ## 官方后续：保留不同自旋与未决身份
 
 [[nndc-2021-mg23-lifetime-strength-reference]] M23-2/4/8/9/10原读五对象。Adopted并未无条件沿用J04的7785 J7/2；capture第二gamma支和新强度也使本v1输入不能直接作完整现代率。7852/5138的2019未确认沟通只按评价注释保存，不补成2013原文已读/正式erratum或改写本页旧claims。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- PDF 1–2：题录、反应率背景、ATLAS 与 Gammasphere 实验、能量校正、DCO 和七角分数多普勒方法。
+- PDF 3–4：第 3 页表 I、能级指认及率评价，第 4 页图 1 双面板与双插图、新星计算、结语和参考文献。正文无编号公式。
+- 本次获取的具体覆盖：连续读完 v1 的 PDF 第 1–4 页抽取文本，包括表 I、图 1 两个主面板与两个插图的图注，以及参考文献 1–24。图形和表格版面对齐留待原页核对。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A21-1 | 作者以 22 MeV ¹²C 束轰击 40 μg/cm² ¹²C 靶，经 ¹²C(¹²C,n)²³Mg 和 γ 符合研究衰变。报告了 7769.2、7779.9、7784.6 keV 三个近邻能级的不同衰变支路。前两态是新增指认，作者将 7784.6 keV 态与既往约 7783.4 keV 的共振对应。 | 原实验谱学与作者指认 | source-reported | PDF 2 装置与矩阵段；PDF 3 表 I 和近邻态段；PDF 4 图 1 两个符合谱插图，门控峰和峰标待查该页。 | true |
+| A21-2 | 7784.6 keV 态报告 τ＝10(3) fs，来自七角度峰心、最大位移归一化及模型映射。高位未束缚态的直接馈入是作者假设。同行的 ωγ＝1.8(7) meV 由脚注 b 指向 Angulo 等。 | 模型依赖的寿命提取与引用强度 | source-reported | PDF 2 分数多普勒段及参考文献 16；PDF 3 表 I 的 7784.6 行和脚注 b，数值栏与脚注对位待查该页。 | true |
+| A21-3 | 反应率评价合并本次谱学、既往直接俘获强度以及转移反应谱因子等模型输入。7769.2 keV 态有约 2.317 MeV 支路，低于旧装置约 3 MeV 的灵敏范围，作者结合旧产额限制和共振能量不确定性给出 4.0 meV 的保守强度上限。 | 混合输入的反应率评价 | source-reported | PDF 3 表 I、脚注 a–d 及率评价段；PDF 4 图 1 上下主面板，率曲线和阴影含义待查该页。 | true |
+| A21-4 | 对 1.25 M⊙ 的 ONe 白矮星，作者的流体动力学计算在新反应率上、下限下分别得到 ²²Na 平均质量分数 1.2×10⁻⁴、3.9×10⁻⁴。若反应率接近上限，估计的 1.275 MeV γ 射线最大探测距离由约 1 kpc 降至约 0.6 kpc。 | 作者天体模型预测 | source-reported | PDF 4 图 1 旁的新星计算正文及参考文献 23–24。 | true |
+
+表 I 有九个母态条目，本次观测八个。7801 keV 标为未观测，其能级条目和强度分别追溯 Endt 与 Peräjärvi。低能两共振借用旧转移谱因子，7779.9 keV 的括号估计依赖脚注 a 的假设。参考文献 17 在该版仍列待发表，后续详细论文的数据谱系未由本件建立。
+
+- 把归档件的文献类型标为预印本 v1，补齐首页 11 位作者。将 2004 年、PRL 卷页和期刊 DOI 保留在同作品正式版关联，另列本件的 2003-12-16 版本戳与 2018-11-13 文稿日期。PDF 第 1 页。
+- 将近邻能级条目写明两项新指认及一项与旧共振的对应，并将 7784.6 keV 的模型寿命与 Angulo 采用强度拆列。7769.2 keV 的 4.0 meV 标为作者给出的保守上限，置信水平留空。PDF 第 2–3 页。
+- 保留 PDF 第 2 页单 α 蒸发残核印作 ²⁰Na 的字面记录，加注质量数和电荷守恒给出 A＝20、Z＝10，对应 ²⁰Ne，作为待核文字标注。

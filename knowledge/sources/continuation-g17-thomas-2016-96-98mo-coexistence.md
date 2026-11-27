@@ -3,7 +3,7 @@ type: source
 title: "Thomas et al. 2016：96,98Mo核结构、形状共存与混合对称态（Nucl. Phys. A 出版全文精读）"
 aliases: ["Thomas 2016 NPA 96,98Mo", "NPA 947 203", "10.1016/j.nuclphysa.2015.12.010"]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -74,3 +74,11 @@ T. Thomas et al., *Nuclear structure of 96,98Mo: Shape coexistence and mixed-sym
 ## Extracted Pages
 
 实际读取的PDF/出版页、XML原文段及表号见Scope和逐项locator；全文文件可用不代表全部图点/转引原件或生产实现已核。
+
+## 2026-11-27 — 本地关联载体核对
+
+按本地核定载体与实际范围登记。读完所供 PDF 第 1 页的刊头、作者与机构、出版历程、摘要开头及页脚。摘要文字止于断词“spec-”。建议接受首页覆盖。同版全文覆盖须有完整卷页、逐页阅读记录和图件核查记录支持。
+
+- 路径 `raw/papers/gpt/query/20261107-continuation-G17/thomas-2016-96-98mo-coexistence.pdf`
+- SHA-256 `d226d134cd5978436b64cc7fe362dd4ea7e3f66a8d7055a5dca7dc8e12a2c6c4`
+- 实读 读完所供 PDF 第 1 页的刊头、作者与机构、出版历程、摘要开头及页脚。摘要文字止于断词“spec-”。建议接受首页覆盖。同版全文覆盖须有完整卷页、逐页阅读记录和图件核查记录支持。

@@ -1,0 +1,666 @@
+{
+  "batch": "20261127-reference-papers-and-book-reading-u",
+  "created_at": "2026-11-27T09:14:58.438735+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-001046",
+      "source": "knowledge/sources/wisniewski-2018-mo98-fipps-gamma-collectivity.md",
+      "identity": "J. Wiśniewski et al., Acta Physica Polonica B 49(3) (2018), 547–553.\n\n期刊会议论文排版，刊头为 2018 年第 49 卷第 3 期，印刷页连续为 547–553，DOI 印于首页。首页脚注载明会议于 2017 年 9 月 3–9 日举行。文件 wisniewski-2018-fipps-98mo.pdf 为 427238 字节，启动器核验的 SHA-256 为 b06ee81b988e9e81b7223c35698a07c26cca473cad744ab020d9dd7a8f744459。",
+      "coverage": [
+        "{\"pdf_start\": 1, \"pdf_end\": 2, \"printed_pages\": \"547–548\", \"sections\": [\"刊头和摘要\", \"γ 集体性背景\", \"FIPPS 装置\"]}",
+        "{\"pdf_start\": 3, \"pdf_end\": 4, \"printed_pages\": \"549–550\", \"sections\": [\"⁹⁸Mo 初步测量\", \"双门能谱与部分能级图\", \"能量标定与增益匹配\"]}",
+        "{\"pdf_start\": 5, \"pdf_end\": 7, \"printed_pages\": \"551–553\", \"sections\": [\"EXILL 角关联示例\", \"极化方法及式（1）\", \"EXILL 灵敏度标定\", \"资助及参考文献 [1]–[18]\"]}",
+        "本次获取的具体覆盖：通读 PDF 第 1–7 页所供文字至参考文献 [18]，包括六幅图的图注。建议接受与该 DOI 和卷页匹配的同版全文文字覆盖。图件验收待管理人查看原图，重点为 PDF 第 3–4 页。"
+      ],
+      "boundary": [
+        "⁹⁸Mo 的 FIPPS 角关联及方向–极化关联分析仍在进行。γ 带研究至 7⁺、中子结合能精度提高约一个数量级、FIPPS 在约 8 MeV 的极化灵敏度不确定度约 5%，均属作者预期。",
+        "PDF 第 4 页图 3、第 5 页图 5 的图注齐备。所供文字未展开图 3 的能级连线或图 5 的角关联系列，逐项使用前须查相应原图。"
+      ],
+      "disposition": "covered",
+      "worker": "Terminal Codex (worker-bd.md)",
+      "source_pdf": "raw/papers/gpt/query/20261107-continuation-G17/wisniewski-2018-fipps-98mo.pdf",
+      "sha256": "b06ee81b988e9e81b7223c35698a07c26cca473cad744ab020d9dd7a8f744459",
+      "physical_pages": 7
+    },
+    {
+      "id": "catalogue:LIT-001049",
+      "source": "knowledge/sources/continuation-g15-hamamoto-1989-plb226-dipole-octupole.md",
+      "identity": "I. Hamamoto, J. Höller and X. Z. Zhang, Physics Letters B 226(1–2), 17–21 (1989).\n\n期刊出版版。物理第1页刊头标明1989年8月3日出版、4月17日收稿、5月24日收到修订稿，物理第1–5页对应印刷第17–21页。DOI及 Höller 的变音符号取自对照记录，后者可核物理第1页署名。启动器已核验 Hamamoto-1989-PLB-226-17.pdf 为405282字节，SHA-256 为 5b31944f6183f1e66fcd9863d584f7221f52d0cbb18da8d79eaa6d545af30a98。",
+      "coverage": [
+        "物理第1页（印刷第17页）｜刊头、引言、¹⁷⁷Hf 两条 yrast 带及数据来源。",
+        "物理第2–3页（印刷第18–19页）｜粒子–转子计算、图1比较、式(1)–(3)、图2微扰示意。",
+        "物理第4–5页（印刷第20–21页）｜¹⁷⁷Hf 拟合结果、¹⁶⁹Lu 图3预测、候选带对、致谢与参考文献。",
+        "本次获取的具体覆盖：通读物理第1–5页所给文本，包括正文、图1–3图注、式(1)–(3)可辨部分、致谢及参考文献[1]–[13]。图像、图点及公式的排印细节留待核查。"
+      ],
+      "boundary": [
+        "¹⁷⁷Hf 的实验量来自转引，¹⁶⁹Lu 的实验线索仅见文献[13]的初步报告说明。读取范围止于本文参考文献表，未逐篇复核被引实验或对照笔记所列1993年后续工作。",
+        "结论适用于文中轴对称低能算例及其微扰假设。拟合可用于比较文中的两种算符处理，静态 β₃、三轴全 K 解禁及其他核区的响应需独立证据。未复算作者模型。"
+      ],
+      "disposition": "covered",
+      "worker": "Terminal Codex (worker-be.md)",
+      "source_pdf": "raw/papers/gpt/query/20261107-continuation-G15/Hamamoto-1989-PLB-226-17.pdf",
+      "sha256": "5b31944f6183f1e66fcd9863d584f7221f52d0cbb18da8d79eaa6d545af30a98",
+      "physical_pages": 5
+    },
+    {
+      "id": "catalogue:LIT-000366",
+      "source": "knowledge/sources/cowan-2011-asymptotic-likelihood-formulae.md",
+      "identity": "Glen Cowan, Kyle Cranmer, Eilam Gross and Ofer Vitells, Asymptotic formulae for likelihood-based tests of new physics, arXiv:1007.1727v3 [physics.data-an], 2013-06-24.\n\n物理第 1 页印有 arXiv:1007.1727v3 和 2013 年 6 月 24 日。该日期为预印本版本日期，所给文本未列期刊出版年或本文 DOI。目录第 424 行。启动器核验的归档文件为 raw/papers/gpt/learning-daily/20261102-poisson-audit/cowan-et-al-1007.1727v3.pdf，401434 字节，SHA-256 为 618783cfea3355b83423609bde70a4b085762353ffc4386cda2621de295df6dd。",
+      "coverage": [
+        "{\"start_page\": 1, \"end_page\": 8, \"sections\": \"首页、摘要、§1–2 与 §3 开头。图 1 在第 6 页。\"}",
+        "{\"start_page\": 9, \"end_page\": 22, \"sections\": \"§3.1–3.8 渐近分布与 Asimov 构造，§4 灵敏度、联合通道及误差带，§5 开头。图 2 在第 20 页。\"}",
+        "{\"start_page\": 23, \"end_page\": 29, \"sections\": \"§5.1 计数算例、§5.1.1 已知背景算例、§5.2 形状分析及 §6 开头。图 3–4 在第 24 页，图 5–6 在第 25 页，图 7–8 在第 27 页，图 9–10 在第 28 页，图 11–12 在第 29 页。\"}",
+        "{\"start_page\": 30, \"end_page\": 32, \"sections\": \"§6 续、§7 结论、致谢及参考文献 [1]–[18]。\"}",
+        "本次获取的具体覆盖：逐页审核物理第 1–32 页的抽取文本，覆盖 §1–7、图 1–12 的图注、致谢及参考文献 [1]–[18]。图像尚待目检，数值模拟未复算。所给材料没有既有同版笔记可供对照，建议登记本次全文文本覆盖，暂不认定既有覆盖。"
+      ],
+      "boundary": [
+        "泊松计数与形状算例用于验证统计近似。形状算例以 Rayleigh 背景和已知宽度、逐点指定峰位的高斯信号建模。第 27–29 页的逐质量点排除上限不支持全局发现显著度，第 27 页将别处效应指向 [14]。",
+        "渐近结果依赖有效样本量及模型设定。第 3、9、30 页明确限制了对模型失配和极小样本的外推。第 19 页提及 CLs 比率，并将该步骤交给 [12]。",
+        "第 29–30 页的 RooStats 内容记录该预印本所述的实现状态。"
+      ],
+      "disposition": "covered",
+      "worker": "Terminal Codex (worker-bf.md)",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261102-poisson-audit/cowan-et-al-1007.1727v3.pdf",
+      "sha256": "618783cfea3355b83423609bde70a4b085762353ffc4386cda2621de295df6dd",
+      "physical_pages": 32
+    },
+    {
+      "id": "catalogue:LIT-000373",
+      "source": "knowledge/sources/denisov-2013-multidimensional-cluster-radioactivity.md",
+      "identity": "V. Yu. Denisov, Phys. Rev. C 88, 044608 (2013). 所读预印本为 arXiv:1311.3810v1 [nucl-th]，2013 年 11 月 15 日。\n\n物理第 1 页印有带 The 的预印本题名、arXiv v1 日期及期刊卷号和文章号。DOI 取自对照笔记，其期刊书目信息与首页相符。目录第 430 行。启动器核验的归档文件为 raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/denisov-2013-multidimensional-cluster-arxiv1311.3810v1.pdf，1068033 字节，SHA-256 为 cf00e8012f9100edb443571cbd77c1af14b251dc6a78bb81f1c1e02ef6f181be。",
+      "coverage": [
+        "{\"start_page\": 1, \"end_page\": 4, \"sections\": \"首页、§I 引言、§II.A–C 宏观势、能量密度泛函及弛豫密度参数化。\"}",
+        "{\"start_page\": 5, \"end_page\": 6, \"sections\": \"§II.D–E 壳修正、半衰期、WKB 作用量及惯性，随后进入 §III。\"}",
+        "{\"start_page\": 7, \"end_page\": 9, \"sections\": \"§III 四个衰变通道的势面、轨迹、半衰期和惯性敏感性。图 1–2 在第 7 页，表 I 与图 3 在第 8 页，图 4 在第 9 页。\"}",
+        "{\"start_page\": 10, \"end_page\": 12, \"sections\": \"§III 总结、§IV 结论、致谢及参考文献 [1]–[102]。\"}",
+        "本次获取的具体覆盖：逐页审核物理第 1–12 页的抽取文本，覆盖 §I–IV、式 (1)–(32)、图 1–4 图注、表 I、致谢及参考文献 [1]–[102]。建议接受既有笔记明列的第 1–2、5–10 页同版定向文本覆盖，并按本回执补录第 3–4、11–12 页。图表结论待目检，ETF 势能、最小作用量路径与半衰期未复算。"
+      ],
+      "boundary": [
+        "物理第 4 页式 (11)、(13) 的 ξ 是与四极形变相联系的轴对称椭球坐标。第 2 页说明忽略可能由团簇转动引起的非轴对称效应。本文未给出 β₃、β₅ 或 β₇ 的独立实验增强倍数。",
+        "S=1 随第 3 页式 (9) 的预含团簇密度设定而来。第 8 页讨论了省略相互作用壳修正时用形成因子补偿的模型做法，半衰期比较无法独立确定 P₀。",
+        "物理第 7 页图 1–2 是 ²⁴²Cm 通道在 ξ₁=ξ₂ 下的势面切片。图 2 对小 R 作了截断，相关壳修正近似主要用于接触附近和较大距离。"
+      ],
+      "disposition": "covered",
+      "worker": "Terminal Codex (worker-bf.md)",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/denisov-2013-multidimensional-cluster-arxiv1311.3810v1.pdf",
+      "sha256": "cf00e8012f9100edb443571cbd77c1af14b251dc6a78bb81f1c1e02ef6f181be",
+      "physical_pages": 12
+    },
+    {
+      "id": "catalogue:LIT-000426",
+      "source": "knowledge/sources/gizon-1974-deformed-states-cerium-neodymium.md",
+      "identity": "J. Gizon 等，Nuclear Physics A 222(3), 557–578 (1974)。卷期中的第 3 期及 DOI 取自 Wiki 对照笔记。\n\nNorth-Holland 期刊主文。PDF 第 1 页列收稿 1973-08-08、修订 1974-01-22，印刷页码等于物理页码加 556。首页年份抽取为 1914，按对照笔记记录的既往原图校读登记为 1974。归档件 raw/papers/1974_Gizon_DeformedStates_CeNd.pdf，1,264,150 字节，SHA-256 9d09f0fca35c125cb35241bbd2f231a65ec710702889c8b0262a529af7f56dac，由启动器核验。",
+      "coverage": [
+        "PDF 1–4：题录、§1–2、反应与装置、计时、角分布方法。图 1 在第 2 页，角分布式位置在第 4 页。",
+        "PDF 4–8：§3.1，¹³⁷Nd。图 2 在第 4 页，表 1 在第 5 页，图 3–4 在第 6 页，共用能级图 5 在第 7 页。",
+        "PDF 8–11：§3.2，¹³⁵Ce。图 6 在第 8 页，表 2 在第 10–11 页，能级见第 7 页图 5。",
+        "PDF 12–14：§3.3，¹³⁵Nd。谱图 7 排在第 9 页，表 3 在第 12–13 页，共用能级图 8 在第 14 页。",
+        "PDF 15–18：§3.4，¹³³Ce。图 9–10 在第 15 页，表 4 在第 16–17 页，能级见第 14 页图 8。",
+        "PDF 18–22：§4 混合比、§5.1–5.2 馈入与形状讨论、致谢及参考文献 1–31。图 11 在第 18 页，符号关系式在第 19 页，参考文献在第 21–22 页。",
+        "本次获取的具体覆盖：连续读完 PDF 第 1–22 页所给抽取文本，包括正文、图 1–11 的图注、表 1–4 的可辨文字和参考文献。图像、箭头和受损字形留待原页核对。"
+      ],
+      "boundary": [
+        "55° 相对强度、图示总强度和角积分分支各有定义。原始事件、效率和有限角响应、协方差及重拟合均在本次阅读范围之外。近能且未指认的光子线只支持历史检出记录，现代母态和终态需另有证据。",
+        "PDF 第 4 页角分布式整行缺失，第 19 页 sign δ 式右端及自旋门槛字形受损，第 20 页能量比与轨道下标、第 18 页侧带半衰期不等号需查原页。图 1–11 均有图注，图内数据按 coverage 所列页核对。",
+        "建议接受既往同一归档件的合并主文覆盖。既往分段图核仍按笔记归属记录，关键箭头和表列冲突须由管理者见图后验收。补充材料和被引全文的覆盖未由本件建立。"
+      ],
+      "disposition": "covered",
+      "worker": "Terminal Codex (worker-bg.md)",
+      "source_pdf": "raw/papers/1974_Gizon_DeformedStates_CeNd.pdf",
+      "sha256": "9d09f0fca35c125cb35241bbd2f231a65ec710702889c8b0262a529af7f56dac",
+      "physical_pages": 22
+    },
+    {
+      "id": "catalogue:LIT-000465",
+      "source": "knowledge/sources/hendrie-1968-hexadecapole-deformation.md",
+      "identity": "D. L. Hendrie 等，Physics Letters B 26(3), 127–130，1968-01-08。DOI 取自 Wiki 对照笔记。\n\n期刊排印页摘件。页眉印 Volume 26B, number 3，首页列收稿 1967-11-25。印刷页码为物理页码加 126。物理第 4 页上部收完 Hendrie 文参考文献，下部另起 G. F. Bertsch 的文章。归档件 raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/1-s2.0-0370269368905029-main.pdf，342,484 字节，SHA-256 e9a24d67571c00c759918fb0b95bc1164327f7172ec527303888c73d07e7fd10，由启动器核验。",
+      "coverage": [
+        "PDF 1–2：题录、50 MeV α 散射测量、理想转子和复光学势、耦合通道、半径参数化。图 1、表 1 和无编号半径式在第 2 页。",
+        "PDF 3–4 上部：图 2–3、形变趋势、与电四极矩的比较、Nilsson 计算、致谢和参考文献。图 2–3 都在第 3 页。",
+        "本次获取的具体覆盖：读完 Hendrie 主文、无编号半径展开式、表 1、图 1–3 图注和参考文献 1–9 的抽取文字。第 4 页下部据独立题名和署名划定 Bertsch 邻文边界。"
+      ],
+      "boundary": [
+        "形变值描述所拟合的核光学势表面。电荷形状与电四极矩的比较属于讨论，图 3 误差棒表示作者对参数提取精度的估计。",
+        "PDF 第 1 页题名的 Y49、Y69 和作者首字母 0. N. 为抽取疑字，修订采用对照笔记题录。PDF 第 2 页半径式和缩放脚注的 β 字形、第 3 页图 2 面板参数、第 4 页参考文献 8 的缩放下标应查原页。目标文图 1–3 的图注齐备。",
+        "建议接受书目与同一归档件的对应。原有 deep-read 结论须修正靶核、变号位置和证据类型后再验收。本次文字覆盖终止于第 4 页 Hendrie 文参考文献末。"
+      ],
+      "disposition": "covered",
+      "worker": "Terminal Codex (worker-bg.md)",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/1-s2.0-0370269368905029-main.pdf",
+      "sha256": "e9a24d67571c00c759918fb0b95bc1164327f7172ec527303888c73d07e7fd10",
+      "physical_pages": 4
+    },
+    {
+      "id": "catalogue:LIT-000480",
+      "source": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+      "identity": "D. G. Jenkins 等，arXiv:astro-ph/0312404v1，2003-12-16。对照笔记所列同作品期刊引文为 Physical Review Letters 92, 031101 (2004)，DOI 10.1103/PhysRevLett.92.031101。\n\n四页 arXiv v1 预印本。PDF 第 1 页印版本戳 16 Dec 2003，另印文稿日期 2018-11-13。本件未印期刊出版年或本版 DOI。对照笔记将 2018 日期归于 LaTeX 自动日期，本次材料未含源码。归档件 raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/jenkins-2004-mg23-arxiv-v1.pdf，154,496 字节，SHA-256 d4c407ff4736dd9804498132fe526716726840ab818267a59793b203cfccbadd，由启动器核验。",
+      "coverage": [
+        "PDF 1–2：题录、反应率背景、ATLAS 与 Gammasphere 实验、能量校正、DCO 和七角分数多普勒方法。",
+        "PDF 3–4：第 3 页表 I、能级指认及率评价，第 4 页图 1 双面板与双插图、新星计算、结语和参考文献。正文无编号公式。",
+        "本次获取的具体覆盖：连续读完 v1 的 PDF 第 1–4 页抽取文本，包括表 I、图 1 两个主面板与两个插图的图注，以及参考文献 1–24。图形和表格版面对齐留待原页核对。"
+      ],
+      "boundary": [
+        "PDF 第 2 页正文报告非线性和有限反冲校正，并给出 DCO 的分组及参照比值。原始峰心、联合协方差、完整减速与馈入输入、DCO 比值的明确分子分母顺序均未给全。表中观测支路列 100% 的适用范围为已列支路。",
+        "PDF 第 3 页表 I 的自旋和宇称上标、非对称误差及 Γp、ωγ 列在抽取中错行。PDF 第 4 页图 1 的率单位指数、曲线标签和插图门控对应需查原图。表题和图注均在抽取中，率界的联合置信水平未在正文构造。",
+        "建议接受同一哈希的 v1 既往全文覆盖，图表数值按原页验收。期刊正式版、参考文献全文和后续详细谱学均在此次覆盖之外。"
+      ],
+      "disposition": "covered",
+      "worker": "Terminal Codex (worker-bg.md)",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/jenkins-2004-mg23-arxiv-v1.pdf",
+      "sha256": "d4c407ff4736dd9804498132fe526716726840ab818267a59793b203cfccbadd",
+      "physical_pages": 4
+    },
+    {
+      "id": "catalogue:LIT-000496",
+      "source": "knowledge/sources/klein-nishina-1929-compton-scattering.md",
+      "identity": "O. Klein und Y. Nishina, Zeitschrift für Physik 52, 853–868 (1929，据同版 Wiki 书目记录)。\n\n德文期刊原文扫描件。PDF 实页1载题名、署名和收稿日1928年10月30日，实页15页脚载刊名和卷52。所给抽文未见本篇刊年或 DOI，1929取自同版 Wiki 书目。归档路径为 raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1929_Über die Streuung von Strahlung durch freie Elektronen nach der neuen relativistischen Quantendynami.pdf。启动器核验文件为692125字节，SHA-256 为 5020b8c9480606b29a96496412219cb3f985ba3f522223d5bf016c407565a40d。",
+      "coverage": [
+        "{\"pdf_start\": 1, \"pdf_end\": 2, \"sections\": \"题头、引言及§1狄拉克波动方程开头\"}",
+        "{\"pdf_start\": 3, \"pdf_end\": 6, \"sections\": \"§1续，§2自由电子本征函数、简并和归一化，§3开头\"}",
+        "{\"pdf_start\": 7, \"pdf_end\": 10, \"sections\": \"§3平面单色场的一阶解，§4散射场、康普顿运动学及静止初态\"}",
+        "{\"pdf_start\": 11, \"pdf_end\": 16, \"sections\": \"§4续，矩阵约化、自旋态处理、散射强度、旧理论比较及积分散射系数\"}",
+        "本次获取的具体覆盖：逐页读完实页1–16的所供文本，包括引言、四节推导、末页散射系数讨论和脚注。公式覆盖限于可辨文本及编号。未查看扫描图像或复算推导。所供文本未见编号图、表或图表题注。"
+      ],
+      "boundary": [
+        "本文是自由电子散射强度的理论计算。硬γ与宇宙穿透辐射段是作者的理论预期及对既有实验的评论。本文未报告新测量、核结构数据或探测器标定。",
+        "附用时限于自由电子响应层。出射偏振、几何接受度、多重散射及探测器灵敏度须另据相应来源。原文 h 为约化普朗克常数、ν 为角频率，见实页3和7。",
+        "脚注中的 Dirac、Gordon、Nishina 续文和 Nature 短文仅按本文引文识别，未纳入阅读范围。"
+      ],
+      "disposition": "covered",
+      "worker": "Terminal Codex (worker-bj.md)",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1929_Über die Streuung von Strahlung durch freie Elektronen nach der neuen relativistischen Quantendynami.pdf",
+      "sha256": "5020b8c9480606b29a96496412219cb3f985ba3f522223d5bf016c407565a40d",
+      "physical_pages": 16
+    },
+    {
+      "id": "bytes:c7487e240ab561d9fafa089ce449a864fe892efbdc880845bf2355eeb848c135",
+      "source": "knowledge/sources/doctoral-r1-g30-frauendorf-2000-npa-tilted-axis-cranking.md",
+      "identity": "S. Frauendorf, Nuclear Physics A 677 (2000), 115–170. DOI 10.1016/S0375-9474(00)00308-0.\n\nElsevier 期刊出版版。PDF 实页1印有卷677、刊年2000、页码115–170及 PII S0375-9474(00)00308-0，末页为印刷170。DOI 来自同版 Wiki 记录，其后缀与首页 PII 相符。归档路径为 raw/papers/gpt/query/20261108-foundations-G30/frauendorf-2000-npa677-tilted-axis-cranking.pdf。启动器核验文件为1098933字节，SHA-256 为 c7487e240ab561d9fafa089ce449a864fe892efbdc880845bf2355eeb848c135。",
+      "coverage": [
+        "{\"pdf_start\": 1, \"pdf_end\": 12, \"sections\": \"题头、§1引言、§§2.1–2.6均场及带内电磁算符，§2.7开头\"}",
+        "{\"pdf_start\": 13, \"pdf_end\": 24, \"sections\": \"§§2.7–2.12半经典量子化、非绝热追踪、配对近似、准粒子图及 PAC 比较\"}",
+        "{\"pdf_start\": 25, \"pdf_end\": 50, \"sections\": \"§2.12末段，§§3.1–3.10组态、假态、带头与四核实例，§4开头\"}",
+        "{\"pdf_start\": 51, \"pdf_end\": 56, \"sections\": \"§4规则续，§5结论、致谢和参考文献\"}",
+        "本次获取的具体覆盖：逐页读完实页1–56的所供文本，包括§§1–5、表1的抽取文字、图1–28的题注、致谢及参考文献[1]–[77]。按正文与题注辨认计算和实验资料，未查看图像、追读引文原件或重跑计算。"
+      ],
+      "boundary": [
+        "主要算例为 ¹⁷⁴Hf、¹⁷⁵Hf、¹⁷⁵Ta 和 ¹⁷⁴Lu（实页25–26）。实页35图16、39图19、46–47图24–25及50图28分别标出文献实验资料与本文计算。实验 Routhian 由既有能级按实页13式(52)–(55)构造。本文未新测这些谱带，亦无 ¹⁷⁸W 新测结果。",
+        "主体采用平面 TAC 和 HFB，对配对作示意处理。实页13区分能级映射 J≈I+1/2 与跃迁所用的中点 J。约80°的 TAC/PAC 切换是解释规则，作者把由此产生的 signature 突跳判为非物理，见实页27、34–35及51–52。",
+        "式(45)可在倾斜解中产生带内 ΔI=1 E2。单凭该振幅无法识别正交摆动伴带，也无法推出真实 K 普适守恒或惯量普适为零。本文带内半经典算符的应用范围见实页10–13。",
+        "实页53–56的[1]–[77]仅核读本文著录。组态消假检验所引[62]、动力学配对所指[48]及原实验文献均未独立核读。"
+      ],
+      "disposition": "covered",
+      "worker": "Terminal Codex (worker-bj.md)",
+      "source_pdf": "raw/papers/gpt/query/20261108-foundations-G30/frauendorf-2000-npa677-tilted-axis-cranking.pdf",
+      "sha256": "c7487e240ab561d9fafa089ce449a864fe892efbdc880845bf2355eeb848c135",
+      "physical_pages": 56
+    },
+    {
+      "id": "catalogue:LIT-000267",
+      "source": "knowledge/sources/aberg-flocard-nazarewicz-1990-mean-field-shapes.md",
+      "identity": "S. Åberg, H. Flocard & W. Nazarewicz, “Nuclear Shapes in Mean Field Theory,” Annual Review of Nuclear and Particle Science 40, 439–527 (1990，按首页刊头).\n\nAnnual Reviews 刊版下载件。物理第 1 页刊头列 1990 年第 40 卷、439–527，物理第 89 页末页印为 527。下载水印另列 439–528，馆藏中没有印 528 的页面。所给材料未载本文 DOI。启动器已核对文件为 2,707,032 字节，SHA-256 为 90e3d1324dbf591cc042a3ad3b777a75e00af1463869d9ad557af433469562e6，与 Wiki 记录一致。",
+      "coverage": [
+        "物理第 1–4 页（印 439–442）题名、目录、§1 引言。",
+        "物理第 4–16 页（印 442–454）§2 有效相互作用、约束 HF/HFB、对称性及 Nilsson–Strutinsky 方法，§3 形状参数化与一致性。",
+        "物理第 16–19 页（印 454–457）§4 轴对称与三轴四极形状。",
+        "物理第 19–49 页（印 457–487）§5 高自旋形状、离心拉伸、粒子极化、闯入带、带终止、非集体转动和超形变。",
+        "物理第 50–63 页（印 488–501）§6 反射不对称形状、八极谱学、电偶极矩与非轴向八极形状。",
+        "物理第 64–73 页（印 502–511）§7 低激发能形状共存、球形—形变异构与配对异构。",
+        "物理第 73–81 页（印 511–519）§8 中子–质子相互作用与高阶形变，§9 组态与相对论平均场，§10 对称性恢复及超越平均场方法。",
+        "物理第 81–89 页（印 519–527）致谢及所见书目，末条编号 501。",
+        "本次获取的具体覆盖：逐读物理第 1–89 页的提取文本，覆盖题名页、目录、正文 §§1–10、致谢及馆藏所见参考文献。对读了正文、图 1–42 的图注及表 1 的表题和可辨文字。未目检图像，公式及图内标注仅按可辨文本核对。"
+      ],
+      "boundary": [
+        "实验覆盖限于综述转述的谱学、寿命和电磁矩等结果。内禀形变、壳隙、轨道占据及带归属按模型结果或解释著录。",
+        "八极垒、交替宇称谱及 E1 强度对静态八极形变的约束各有条件。综述还讨论了非谐关联和电偶极矩的壳修正及抵消，见物理第 54–56 页图 29 与第 59–61 页图 32–33。",
+        "形状共存的组态归属依赖势能面、配对和混合。物理第 70–71 页图 39–40 的 ¹⁸⁶Pb 示例描述浅长形极小、扁形平坦区和组态能量比较。物理第 80–81 页 §10 讨论按需进行对称性投影及用生成坐标法纳入集体涨落。",
+        "书目覆盖物理第 81–89 页所见条目，包括当时列为待发表、准备中或未发表的材料。未核查这些条目的后续出版状态，也未将印 528 计入覆盖。"
+      ],
+      "disposition": "covered",
+      "worker": "Terminal Codex (worker-bl.md)",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1990_Aberg et al_Nuclear Shapes in Mean Field Theory.pdf",
+      "sha256": "90e3d1324dbf591cc042a3ad3b777a75e00af1463869d9ad557af433469562e6",
+      "physical_pages": 89
+    },
+    {
+      "id": "catalogue:LIT-001008",
+      "source": "knowledge/sources/pupeza-2021-euv-frequency-combs.md",
+      "identity": "Ioachim Pupeza, Chuankun Zhang, Maximilian Högner, and Jun Ye. “Extreme-ultraviolet frequency combs for precision metrology and attosecond science.” Nature Photonics 15, 175–186 (2021). DOI 10.1038/s41566-020-00741-3.\n\nNature Photonics 出版社正式排版的 Review Article。物理第1页载 DOI，页脚标明第15卷、2021年3月及印刷页175–186。物理第10页载在线出版日期2021年1月28日，物理第12页载版权年份2020。归档文件 raw/papers/isomer/isomer_application/nuclear_clock/2021_Pupeza et al_Extreme-ultraviolet frequency combs for precision metrology and attosecond science.pdf 的大小为3332677字节，SHA-256 为9062593b285102168400fdbc56cd320525b873c74e4263b35a415c9a08e77571，由启动器独立核验。",
+      "coverage": [
+        "{\"pdf_pages\": \"1–3\", \"printed_pages\": \"175–177\", \"sections\": \"首页书目信息、引言、HHG 光源比较、飞秒脉冲谐振增强。图1在物理第2页，图2和式（1）在第3页。\"}",
+        "{\"pdf_pages\": \"4–6\", \"printed_pages\": \"178–180\", \"sections\": \"谐振增强续文、等离子体动力学与转换效率、XUV 输出耦合、频率梳稳定性与相干性开头。图3在物理第5页，图4在第6页。\"}",
+        "{\"pdf_pages\": \"7–8\", \"printed_pages\": \"181–182\", \"sections\": \"相干性续文、XUV 直接频率梳光谱、兆赫兹光电子能谱与阿秒物理开头。图5和式（2）在物理第7页，式（3）在第8页。\"}",
+        "{\"pdf_pages\": \"9–10\", \"printed_pages\": \"183–184\", \"sections\": \"光电子能谱与阿秒物理续文、结论与展望、出版日期及参考文献1–43。图6在物理第9页。\"}",
+        "{\"pdf_pages\": \"11–12\", \"printed_pages\": \"185–186\", \"sections\": \"参考文献44–133、致谢、利益冲突声明及出版附记。\"}",
+        "本次获取的具体覆盖：逐页审读物理第1–12页的抽取文本，覆盖正文、可辨公式、图注、可辨图内标签、参考文献及出版附记。图1–6均有抽取图注，抽取文本中未见编号表格。图像、曲线及公式排版留待管理者查阅原页。"
+      ],
+      "boundary": [
+        "本文为综述。原子光谱、相干性拍频和固体光电子能谱均为引述实验。物理第10页的²²⁹Th异能态能量8.12 ± 0.11 eV引自文献91，本文对核跃迁直接光谱及核光钟的覆盖属于展望。",
+        "物理第7页式（2）附近的线宽标度依赖所设噪声模型。白频率噪声给出随谐波阶数的平方标度，闪烁频率噪声给出线性标度，至第99阶的亚赫兹线宽为有条件的推算。物理第9页图6所述 LAPE 边带是引述的实验演示，同页把增强腔产生时间孤立阿秒脉冲列为后续目标。",
+        "参考文献核对限于物理第10–12页的排印条目及正文引述。物理第12页的附加信息列出通讯、重印权限及出版者说明。补充材料和被引论文原件在本次阅读范围之外。",
+        "抽取排版待核位置为物理第2页图1的轴刻度指数及点位标签、第3页图2和式（1）的谱量符号、根号、相位指数及精细度表达式、第5页图3a的末速度和每个原子所受脉冲数公式、第7页式（2）的积分上下限及比例符号、第8页式（3）的数学字形及其下方梳模唯一判据，以及第11页文献87题名中的光谱项上标。精确转录以这些物理页为准。"
+      ],
+      "disposition": "covered",
+      "worker": "Terminal Codex (worker-bp.md)",
+      "source_pdf": "raw/papers/isomer/isomer_application/nuclear_clock/2021_Pupeza et al_Extreme-ultraviolet frequency combs for precision metrology and attosecond science.pdf",
+      "sha256": "9062593b285102168400fdbc56cd320525b873c74e4263b35a415c9a08e77571",
+      "physical_pages": 12
+    },
+    {
+      "id": "catalogue:LIT-000294",
+      "source": "knowledge/sources/bengtsson-ragnarsson-1985-rotational-bands-particle-hole.md",
+      "identity": "Tord Bengtsson and Ingemar Ragnarsson, Nuclear Physics A 436(1), 14–82 (1985).\n\n期刊出版排印版。PDF 第1页印有题名、作者、Nuclear Physics A436、1985年及印刷页14–82。收稿日期为1984年4月9日，修订日期为1984年8月24日。期号1及 DOI 来自所给 Wiki 对照札记。归档文件为 raw/papers/1985_Bengtsson_Ragnarsson_RotationalBandsParticleHole.pdf，启动器已独立核验69页、4,596,459字节及 SHA-256 605e785734279f1a7a6dfd234f1d3ff6b136f983b134ccf9d6b766f3b027d6b8。印刷页码为 PDF 物理页码加13。",
+      "coverage": [
+        "{\"pdf_start\": 1, \"pdf_end\": 16, \"sections\": \"§1 引言及§2 计算方法。读到转动基、参数、轨道追踪、组态与能带定义及总能量。第12页仅页眉。\"}",
+        "{\"pdf_start\": 17, \"pdf_end\": 30, \"sections\": \"§3 连续谱惯量、§4 ¹⁸⁷Au 的集体与近顺排结构，以及§5 起首。\"}",
+        "{\"pdf_start\": 31, \"pdf_end\": 47, \"sections\": \"§5 终止带续文、§6 一维连续谱、§7 符合实验及§8 引入。\"}",
+        "{\"pdf_start\": 48, \"pdf_end\": 64, \"sections\": \"§8.1–8.4 的离散谱比较及§9 非配对转动机制综述。\"}",
+        "{\"pdf_start\": 65, \"pdf_end\": 69, \"sections\": \"§9 图32、§10 总结、致谢及参考文献1–79。\"}",
+        "本次获取的具体覆盖：按顺序审读所给 PDF 第1–69页的抽取文本及对照札记，覆盖§1–10的正文主线、可读图注、表文、公式上下文及文末参考条目。第12页仅有页眉，图4及图注未抽取，相关方法可从第11、13–14页正文审读。本轮未查看原页图像，也未逐式核对排印。"
+      ],
+      "boundary": [
+        "模型采用无配对的 cranked Nilsson–Strutinsky 计算，按自旋及组态极小化形变。作者排除极低自旋的详细定量比较，§10 对高自旋配对影响的判断限于所比较的能量和惯量。PDF 第5、15–16、65–67页。",
+        "同一转动频率下的单粒子虚交叉与同一总自旋下的真实组态相互作用须分别记录。移去弱耦合是追踪处方，作者保留低频可疑接线及残余相互作用。PDF 第2–4页图1、第11–14页图4上下文。",
+        "连续谱 E2 隆起和 γ–γ 相关谷约束统计性质，逐条跃迁归属须由离散谱提供。¹⁰⁶Pd 比较所引数据涉及邻核平均，模型惯量对二阶导数敏感。PDF 第17、36、39–43页，图18–20及式(30)–(31)。",
+        "离散谱的反例应保留。¹⁶⁸Hf 正宇称带及负宇称质子、中子激发排序存在偏差。¹⁶⁰Yb 离散谱只到 I=38，检验所预测的形变变化和终止需到 I≈45–50。PDF 第52–53页图25、第58–59页图29。",
+        "PDF 第67–69页仅审读书目条目。第68页文献45为预印本，文献52与53分别标为已投稿及准备中。第69页文献63、77的原文未在本轮审读。本文作为 Wiki 所记的¹³³Ce 参数谱系依据，不足以重建后续计算的具体输入、配对、阻塞或电磁矩阵元。"
+      ],
+      "disposition": "covered",
+      "worker": "Terminal Codex (worker-bq.md)",
+      "source_pdf": "raw/papers/1985_Bengtsson_Ragnarsson_RotationalBandsParticleHole.pdf",
+      "sha256": "605e785734279f1a7a6dfd234f1d3ff6b136f983b134ccf9d6b766f3b027d6b8",
+      "physical_pages": 69
+    },
+    {
+      "id": "catalogue:LIT-000423",
+      "source": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+      "identity": "A. B. Garnsworthy et al., The GRIFFIN Facility for Decay-Spectroscopy Studies at TRIUMF-ISAC, Nuclear Instruments and Methods in Physics Research Section A 918, 9–29 (2019), DOI 10.1016/j.nima.2018.11.115。卷页、年份及 DOI 据 Wiki 比对记录中的期刊元数据。所读预印本未印期刊出版年。\n\n物理第1页署名104位作者，侧栏标识 arXiv:1809.07183v2 [physics.ins-det]，日期为2018年12月6日，投稿预印本页脚日期为2018年12月10日。归档文件为 garnsworthy-2019-griffin-facility-arxiv-v2.pdf。启动器已独立核验 6309688 字节、36页及 SHA-256 b257eb66cf822ef9c8e476125ac8d00979df340b5567baa62f72ca4ff4ef16ed，与 Wiki 条目所列哈希一致。",
+      "coverage": [
+        "{\"start_page\": 1, \"end_page\": 8, \"sections\": \"题名、署名、摘要、第1节引言、第2节基础设施、第3节开头\"}",
+        "{\"start_page\": 9, \"end_page\": 14, \"sections\": \"第3.1–3.8节，运行循环、坐标、HPGe 和辅助探测器、屏蔽及 DESCANT 开头\"}",
+        "{\"start_page\": 15, \"end_page\": 21, \"sections\": \"第3.8节续，第4.1.1–4.1.5节，串扰、addback、符合求和、绝对效率及 γ–γ 角关联\"}",
+        "{\"start_page\": 22, \"end_page\": 24, \"sections\": \"图17，第4.1.6节康普顿偏振测量，第4.2节开头\"}",
+        "{\"start_page\": 25, \"end_page\": 31, \"sections\": \"第4.2节续，第4.3–4.4节，PACES、γ–电子角关联、快定时及效率，第5节开头\"}",
+        "{\"start_page\": 32, \"end_page\": 36, \"sections\": \"第5.1–5.3节未来发展、第6节总结、第7节致谢及参考文献[1]–[67]\"}",
+        "本次获取的具体覆盖：逐页审读了物理第1–36页的抽取文本，覆盖首面、正文第1–7节及参考文献[1]–[67]。图1–28和表1–8的题注均可定位，未见整条题注缺失。式(1)–(12)均可定位，部分上下标、分式和图轴文字需核原页。本回执仅核文字，图像、图中数据点及排版均未目检。建议接受旧条目的同一 v2 全文文字覆盖，旧条目所记图像检查仍属历史记录，本回执的图表验收保留经理抽检。"
+      ],
+      "boundary": [
+        "配置按测量分别记录。物理第3页图1、第9页表1和第14页§3.7区分11 cm高效率与14.5 cm优化峰总比配置。第20页图15的15 clover 效率、第21页图16的16 clover SCEPTAR 效率及第23页的16 clover 偏振标定各有自己的条件。屏蔽性能另文发布，极化束及 SCEPTAR 升级是第31–33页§5的规划。",
+        "物理第15–16页图10–11及式(1)–(2)的串扰模型以晶体对为单位，线性能量依赖和系数恒定属于建模假设。第17–18页§4.1.3及表6–7的180°求和校正依赖该 γ–γ 角关联关于90°的对称性及相近的晶体响应。PACES 缺少180°探测器对，第25–26页另述其效率和求和处理。",
+        "物理第22页图17的 ⁶⁶Zn 纯 E2 级联示例比较实验数据、理想角关联及含有限几何的 GEANT4 模拟，实验与模拟比较的约化 χ² 为1.01，适用范围为该示例。图19的缩放曲线和图20的理论线也各有其输入。原始事件、逐门峰面积、拟合协方差、历史几何输入及实际分析程序版本未随所读材料提供，现行代码的条件对照无法重放历史测量。",
+        "参考文献覆盖限于物理第33–36页的条目。第34页 Ref. [38] 是 Smith 等的独立方法论文，DOI 10.1016/j.nima.2018.10.097。Ref. [40] 是 Alikhani 等的缩放方法来源，此次未读其正文。配套 VoR 正文与本地唯一 BibTeX 键均未获核定。"
+      ],
+      "disposition": "covered",
+      "worker": "Terminal Codex (worker-br.md)",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261019-DAY17-linear-polarization-paq-compton/garnsworthy-2019-griffin-facility-arxiv-v2.pdf",
+      "sha256": "b257eb66cf822ef9c8e476125ac8d00979df340b5567baa62f72ca4ff4ef16ed",
+      "physical_pages": 36
+    },
+    {
+      "id": "catalogue:LIT-000991",
+      "source": "knowledge/sources/huang-2026-nuclear-clock-synchronized-229th.md",
+      "identity": "Beichen Huang et al., Nature 658, 903（起页）(2026). DOI 10.1038/s41586-026-11122-1.\n\nNature 开放获取期刊排版版。PDF1 载明 2026 年 10 月 7 日在线发表，卷期页脚日期为 2026 年 10 月 22 日。归档文件为 raw/papers/isomer/isomer_application/nuclear_clock/2026_Huang et al_A nuclear clock synchronized to 229Th.pdf。启动器核验大小为 11433536 字节，SHA-256 为 9fc65f07dd7dadf3aedcff90612d6af299ab327ee0a60d767f88cca78a4f0788。",
+      "coverage": [
+        "{\"from\": 1, \"to\": 5, \"sections\": \"题名页、引言、VUV 光源、晶体制备、荧光与吸收光谱、锁定与稳定度、跨晶体频率比较和结论，含 Fig. 1–3 图注\"}",
+        "{\"from\": 6, \"to\": 6, \"sections\": \"正文文献 [1]–[48]、出版声明和许可\"}",
+        "{\"from\": 7, \"to\": 9, \"sections\": \"Methods，含式(2)–(30)、文献 [49]–[51] 及数据、代码和补充材料声明\"}",
+        "{\"from\": 10, \"to\": 11, \"sections\": \"Extended Data Fig. 1 图注及 Extended Data Table 1 表题和参数释义\"}",
+        "本次获取的具体覆盖：逐页审读 PDF1–11 的供文，覆盖正文、方法、文献 [1]–[51]、图注和文末声明。PDF11 供文仅含表题及符号说明，缺表格数据行。本次仅核文字，图像和表格版面均待检查。"
+      ],
+      "boundary": [
+        "稳定度结论限于环内记录与测量区间。跨晶体差值衡量特定条件下的复现性。完整准确度预算和独立环外稳定度测量超出供文证据。",
+        "27(1) kHz 是晶体谱线的系综宽度，均匀 T₂ 未由此测定。Fig. 2i,j 是弱激发模型计算，见 PDF8 式(13)–(19)。PDF7 和 PDF10 对宽底座给出经验拟合，微观归因仍待检验。",
+        "独立补充材料、原始计数、装置文件、Figshare 文件及所引论文均在本次实读范围之外。"
+      ],
+      "disposition": "covered",
+      "worker": "Terminal Codex (worker-bo.md)",
+      "source_pdf": "raw/papers/isomer/isomer_application/nuclear_clock/2026_Huang et al_A nuclear clock synchronized to 229Th.pdf",
+      "sha256": "9fc65f07dd7dadf3aedcff90612d6af299ab327ee0a60d767f88cca78a4f0788",
+      "physical_pages": 11
+    },
+    {
+      "id": "catalogue:LIT-001006",
+      "source": "knowledge/sources/peik-2021-nuclear-clocks-testing-fundamental-physics.md",
+      "identity": "E Peik, T Schumm, M S Safronova, A Pálffy, J Weitenberg and P G Thirolf, Quantum Sci. Technol. 6, 034002 (2021). DOI 10.1088/2058-9565/abe9c2.\n\nIOP 开放获取期刊排版版，作者按 PDF2 署名记录。PDF1 是带 2025 年 7 月 15 日下载戳的封页，PDF2 明载 2021 年 4 月 15 日出版，PDF3–38 的印刷页码为 2–37。归档文件为 raw/papers/isomer/isomer_application/nuclear_clock/2021_Peik et al_Nuclear clocks for testing fundamental physics.pdf。启动器核验大小为 7426437 字节，SHA-256 为 89b7fc1d9b49802a99074ee9630d0a70bdbb9f1c3765aa3a0c80583912952668。",
+      "coverage": [
+        "{\"from\": 1, \"to\": 5, \"sections\": \"下载封页、题名页、摘要、§1 与 §2 开头\"}",
+        "{\"from\": 6, \"to\": 13, \"sections\": \"§§2.1–2.3 内转换、γ 谱与 X 射线泵浦，至 §3 开头\"}",
+        "{\"from\": 14, \"to\": 30, \"sections\": \"§3 研究路线、核参数、VUV 光源、电子桥与离子钟方案，至 §3.3.1\"}",
+        "{\"from\": 31, \"to\": 34, \"sections\": \"§3.3.1 续、§3.3.2 固态钟及 §§4.1–4.2.3 常数灵敏度与暗物质搜索\"}",
+        "{\"from\": 35, \"to\": 38, \"sections\": \"§5、致谢、数据可用性声明、ORCID 与文献 [1]–[196]\"}",
+        "本次获取的具体覆盖：逐页审读 PDF1–38 的供文，含下载封页、论文 §§1–5、Fig. 1–30 的图注、数据可用性声明和文献 [1]–[196]。本次仅核文字，图像与公式版面待检查。"
+      ],
+      "boundary": [
+        "§2 记录截至 2021 年的实验状态。7(1) μs 适用于报告中的表面中和条件和内转换通道，离子辐射寿命属于不同的待测量。",
+        "§3 的 kHz 光谱目标、钟性能和跨站比较属于研究计划或条件性预测。§4 所列外部原子钟、光腔和钟网结果应归于各自原始工作，核钟暗物质灵敏度属于预测。",
+        "文末数据仓库、各参考文献全文及转载图的原始数据均在本次实读范围之外。"
+      ],
+      "disposition": "covered",
+      "worker": "Terminal Codex (worker-bo.md)",
+      "source_pdf": "raw/papers/isomer/isomer_application/nuclear_clock/2021_Peik et al_Nuclear clocks for testing fundamental physics.pdf",
+      "sha256": "89b7fc1d9b49802a99074ee9630d0a70bdbb9f1c3765aa3a0c80583912952668",
+      "physical_pages": 38
+    },
+    {
+      "id": "catalogue:LIT-000364",
+      "source": "knowledge/sources/cline-1986-nuclear-shapes-coulomb-excitation.md",
+      "identity": "Douglas Cline. Nuclear Shapes Studied by Coulomb Excitation. Annual Review of Nuclear and Particle Science 36, 683–716 (1986). DOI 10.1146/annurev.ns.36.120186.003343.\n\nAnnual Reviews 排印的期刊综述下载本。物理 PDF 第1页载题名、作者、1986 年、卷36、印刷页683–716及版权行，水印载 University of Rochester Library、02/13/07 和个人使用字样。DOI 取自同一归档件的 Wiki 比对注，所给首页文本未显示 DOI。启动器已核验 1,930,372 字节及 SHA-256 76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113。",
+      "coverage": [
+        "{\"range\": \"PDF 1–7／印刷683–689\", \"sections\": \"§1 引言与综述，§2 库仑激发理论，§3 实验技术开头\"}",
+        "{\"range\": \"PDF 8–14／印刷690–696\", \"sections\": \"§3 装置与谱，§4 矩阵元提取、误差、相位及交叉检验。图1–2在 PDF 9，图3在 PDF 11\"}",
+        "{\"range\": \"PDF 15–18／印刷697–700\", \"sections\": \"§4 末段，§5 四极不变量、有限求和与高频模边界，§6.1 开头。图4在 PDF 17\"}",
+        "{\"range\": \"PDF 19–24／印刷701–706\", \"sections\": \"§6 强形变核的基带、带交叉与非 yrast 带，§7.1 开头。图5、6、7、8分别在 PDF 19、22、23、24\"}",
+        "{\"range\": \"PDF 25–30／印刷707–712\", \"sections\": \"§7 Os/Pt 形状过渡与中质量核形状共存，§8 开头。图9–13依次在 PDF 25–29\"}",
+        "{\"range\": \"PDF 31–34／印刷713–716\", \"sections\": \"§8 前景、§9 结论、致谢及参考文献第1–94项\"}",
+        "{\"range\": \"PDF 35\", \"sections\": \"下载水印，无印刷正文页码\"}",
+        "本次获取的具体覆盖：逐页审读物理 PDF 第1–34页的页标文本，覆盖正文、结论、致谢、可提取图注与参考文献。第35页所给文本仅有下载水印。本轮未目检图像或排印公式。"
+      ],
+      "boundary": [
+        "PDF 18／印刷700的约90–95%指强形变核低态的非能量加权 E2 强度，超过70%限于作者认为集体模型描述合理的核。省略高频模要求两类模式可区分、弱耦合且高频振幅相对较小。这些比例不能充当高阶不变量的一般误差界。",
+        "§5的对易恒等式需核对所用 E2 算符，作者以部分 IBM 实现为例说明限制。从电四极分布 Q、δ 关联到形变参数 β、γ 需要模型假设。原文讨论原则上可取得的全体不变量，Wiki 的有限矩反例属于后续推导。",
+        "参考文献覆盖纸面条目，未代读被引原文。PDF 33／印刷715的 Kumar 1972 是文献26，GOSIA 早期出处是文献22，Os/Pt 的文献38在此列为已投稿。摘录中未见编号表。"
+      ],
+      "disposition": "covered",
+      "worker": "Terminal Codex (worker-bk2.md)",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "sha256": "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113",
+      "physical_pages": 35
+    },
+    {
+      "id": "catalogue:LIT-000467",
+      "source": "knowledge/sources/heyde-2010-magnetic-dipole-elementary-modes.md",
+      "identity": "K. Heyde, P. von Neumann-Cosel and A. Richter, Rev. Mod. Phys. 82, 2365–2419 (2010), DOI 10.1103/RevModPhys.82.2365。期刊卷页及 DOI 来自 Wiki 对照笔记。\n\n归档件为 arXiv:1004.3429v2 [nucl-ex]。PDF 第 1 页印有版本发布日期 2010-04-21，另有稿面日期 2018-11-01。后者单独保留，不用作出版年。归档路径为 raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2010-heyde-magnetic-dipole.pdf。启动器核验大小为 3491524 字节，SHA-256 为 a50d7385dc59eb5799328f385a46a9ae0499807ed7fa2d9e2249d9614b1c5aa5。",
+      "coverage": [
+        "物理页 1–4，题名、版本标识、目录及第 I 节导论。",
+        "物理页 5–10，第 II 节理论史与实验发现，第 III.A.1 节低能剪刀模实验证据。",
+        "物理页 11–24，第 III.A.1 节小结、第 III.A.2 节模型及第 III.A.3 节碎裂与求和规则。",
+        "物理页 25–30，第 III.A.3 节末尾、第 III.B 节自旋翻转及第 III.C 节高能响应。",
+        "物理页 31–40，第 IV 节重奇质量核与第 V 节轻、中重核。",
+        "物理页 41–49，第 V 节末尾、第 VI 节振动核混合对称态及第 VII 节其他多体系统。",
+        "物理页 50–52，第 VII 节小结、第 VIII 节结论与展望、致谢及参考文献起始。",
+        "物理页 53–59，参考文献续至末页。",
+        "本次获取的具体覆盖：通读物理 PDF 第 1–59 页的逐页提取文本，包括第 I–VIII 节、致谢及参考文献。提取文本中图 1–59 的图注编号连续，未见编号图注缺项。图像、曲线和公式原始排版均未目视核验。"
+      ],
+      "boundary": [
+        "能区数值适用于综述讨论的核种和探针。自旋双峰的质子／中子归属与等标量／等矢量归属随模型而异，见物理页 28–29、图 34。",
+        "物理页 30、图 31 与图 35 涉及高能等矢量巨四极共振的实验线索及高能轨道 M1 的模型预测。后者的强度集中程度随计算空间改变。物理页 25 式（27）连接的是磁 M1 与磁 M3。",
+        "Wiki 关于高自旋磁转动及两类运动的电流密度和对称性破缺差异，应作为外部综合另引文献。本文所读段落可直接支持的是低能轨道剪刀模的证据链。",
+        "物理页 2 声明主要考虑至 2009 年末的文献，书目仍含 2010 年条目，例如第 57 页 Petermann 等及第 59 页列为待刊的 Yevetska 等。书目核对限于本版列载信息。",
+        "验收建议为接受既有笔记的同版归档关联。既有笔记的第 1–7 页及第 58 页仅可按聚焦阅读验收，须先更正证据定位和过度表述，并完成两项关键图核对。本回执可登记为全文文本覆盖，图像验收仍待完成。"
+      ],
+      "disposition": "covered",
+      "worker": "Terminal Codex (worker-bm1.md)",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2010-heyde-magnetic-dipole.pdf",
+      "sha256": "a50d7385dc59eb5799328f385a46a9ae0499807ed7fa2d9e2249d9614b1c5aa5",
+      "physical_pages": 59
+    },
+    {
+      "id": "catalogue:LIT-000468",
+      "source": "knowledge/sources/heyde-wood-2011-shape-coexistence-review.md",
+      "identity": "K. Heyde and J. L. Wood, Reviews of Modern Physics 83(4), 1467–1521 (2011), DOI 10.1103/RevModPhys.83.1467.\n\n美国物理学会期刊正式版。PDF第1页印有第83卷、2011年10–12月、2011年11月30日发表及2011年12月6日更正出版者错误。所给文本未列更正内容。归档文件为 raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf。启动器已核定文件为3,400,392字节，SHA-256为660c376e493e638501bfc8596d4eda46f490becb811ba5f30259d6f78c652183。",
+      "coverage": [
+        "PDF第1–10页（印刷1467–1476），首页、§I引言和§II理论，含球形壳模型、IBM截断、平均场及投影与组态混合。",
+        "PDF第10–30页（印刷1476–1496），§III导言及§III.A重核和中重核实例，含Pb/Hg区、Sn区、Z≈40/N≈60、Z≈64/N≈90、Z≈34/N≈40、配对异构及超形变。",
+        "PDF第30–36页（印刷1496–1502），§III.B轻核，含N＝Z附近、反转岛和团簇。",
+        "PDF第36–46页（印刷1502–1512），§III.C统一视角，含谱学指纹、低激发0⁺态解释、搜索线索、未决问题及理论建议。",
+        "PDF第46–55页（印刷1512–1521），§IV结论与展望、致谢和参考文献，其中参考文献始于PDF第47页。",
+        "本次获取的具体覆盖：本次连续读取所给PDF第1–55页抽取文本，印刷页1467–1521。覆盖正文、结论、致谢、参考文献及抽取得到的图注和表文。图1–52及表I–VII均有编号题注文本，部分图面标签和公式字符未完整抽取。未目检图像或版面。"
+      ],
+      "boundary": [
+        "实验覆盖限于综述所报告的观测及其归属。低激发0⁺态的结构解释须结合具体核种和互补观测。§III.C.3讨论了资深度、配对和振动解释的困难，§III.C.5与§IV的近普遍性属于作者判断。",
+        "投影和组态混合的表述限定于本文讨论的平均场建模路线。HW11-D25P-007中含非对角半径矩阵元的推广属于Wiki任务推导。PDF第13页还明确指出，当时缺少¹⁸⁸Pb相关态所需的寿命数据，限制了该例的混合估计。",
+        "公式逐字符转录仍须核对PDF第3页式(1)–(3)的指标、第4页式(5)–(6)的分式及SU(3)符号、第7页式(9)的根号、第24页式(15)–(16)的轨道幂次，以及第36–37页⟨Q²⟩求和式。图32、图39分别在PDF第24、27页，题注可读，图中矩阵元符号和数值需查相应图面。参考文献仅核对本篇内部归属，范围止于本篇出版时的资料。",
+        "建议接受既有同版025明确定位的有界覆盖。Wiki旧称全文深读，所给笔记仅为其中部分范围提供了可追溯的既往阅读和目检记录。本收据可补足PDF第1–55页的文字覆盖，图表验收以所列关键页的管理者目检为准。"
+      ],
+      "disposition": "covered",
+      "worker": "Terminal Codex (worker-bm2.md)",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf",
+      "sha256": "660c376e493e638501bfc8596d4eda46f490becb811ba5f30259d6f78c652183",
+      "physical_pages": 55
+    },
+    {
+      "id": "catalogue:LIT-000470",
+      "source": "knowledge/sources/hubel-2005-magnetic-rotation-review.md",
+      "identity": "H. Hübel, “Magnetic rotation in nuclei,” Progress in Particle and Nuclear Physics 54 (2005), 1–69.\n\nElsevier 期刊正式排版的综述全文。物理第1页印有 Review、卷54、出版年2005、页码1–69及本文 DOI，版权行的2004为版权年。印刷页码与物理页码一致。启动器独立核验文件为 3,367,438 字节，SHA-256 为 8b1913a7639ccdb4f5fa53348453f604048703c2e7942f40b4b4c793d8be4a77。",
+      "coverage": [
+        "{\"from\": 1, \"to\": 12, \"sections\": \"刊头、摘要、目录、§§1–2 引言与高自旋谱学、§3 开头\"}",
+        "{\"from\": 13, \"to\": 24, \"sections\": \"§3.1–3.2 Pb 与轻质量区谱学、§4 DSAM 与 RDM 方法\"}",
+        "{\"from\": 25, \"to\": 32, \"sections\": \"§4.1–4.2 Pb 与轻质量区寿命结果、§5 开头\"}",
+        "{\"from\": 33, \"to\": 43, \"sections\": \"§§5.1–5.2 磁偶极矩与电四极矩、§6.1 剪刀耦合主体\"}",
+        "{\"from\": 44, \"to\": 57, \"sections\": \"§6.1 结尾、§§6.2–6.4 TAC、Pb 组态比较与带终止、反磁转动、§7.1 开头\"}",
+        "{\"from\": 58, \"to\": 65, \"sections\": \"§§7.1–7.3 半经验剪刀几何、有效相互作用及核芯竞争、§8 开头\"}",
+        "{\"from\": 66, \"to\": 69, \"sections\": \"§8 总结余文、致谢、参考文献[1]–[106]\"}",
+        "本次获取的具体覆盖：逐页核读所供物理第1–69页文本，包括各节正文、图1–53的图注、表1的提取文本、编号公式、致谢和文献[1]–[106]。所供文本中各图图注齐备，图内点位、误差棒和标记未作视觉核验。建议接受既有记录的同版全文文本覆盖，科学主张按本回执勘误，关键图证待管理者复核。"
+      ],
+      "boundary": [
+        "实验层面只核读综述所呈现的证据。DSAM 寿命依赖阻止历程、级联侧馈和污染线的处理，弱 E2 分支受检出限影响。¹⁴²Gd 的分析包含显著集体贡献，参见物理第29、32页图29及文献[61]。",
+        "TAC 比较依赖组态、配对、有效 g 因子及形变选择。物理第55页表1保留括号内的暂定组态，¹⁹⁶Pb 带7的带头自旋仍待确证。式(27)–(29)及第65页图53采用等长剪刀叶片模型，以两种机制对自旋增量各贡献一半定义边界，适用范围限于该模型。",
+        "参考文献核读限于物理第67–69页的书目著录。[1]为未出版报告，[42]为私人通信，[61]和[66]列作预印本，[67]列作年报及私人通信。原始谱、计算代码和被引文献全文均在本次范围之外。"
+      ],
+      "disposition": "covered",
+      "worker": "Terminal Codex (worker-bu.md)",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2005_Hübel_Magnetic rotation in nuclei.pdf",
+      "sha256": "8b1913a7639ccdb4f5fa53348453f604048703c2e7942f40b4b4c793d8be4a77",
+      "physical_pages": 69
+    },
+    {
+      "id": "catalogue:LIT-000303",
+      "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure.md",
+      "identity": "Vol. I local 1999 printing of World Scientific reprint, chapter 1.",
+      "coverage": [
+        "PDF 21–49 全页及 PDF 50 页首到 §1-3，核 §1-1–1-2；前件 PDF 7–13 由同哈希旧覆盖承接。",
+        "既有整页 PDF 352–363、398–410 及 PDF 351 的 §3-3 标题后有原件回执。PDF 364 已进入 §3-4，不承接旧记录为已读。"
+      ],
+      "boundary": [
+        "历史主题摘要、模型和外部实验按实际范围记载。"
+      ],
+      "disposition": "partial",
+      "worker": "Pascal",
+      "source_pdf": "raw/books/nuclear structure Ⅰ_Bohr, Mottelson.pdf",
+      "sha256": "a31a158e0aff2ec6734d46f5aea5eb42dbebb82280835774f49350dd6f8c79df",
+      "physical_pages": 492
+    },
+    {
+      "id": "catalogue:LIT-000309",
+      "source": "knowledge/sources/book-hamilton-electromagnetic-interaction.md",
+      "identity": "Hamilton ed. local 1975 facsimile, Ch. 13 Steffen and Alder.",
+      "coverage": [
+        "PDF 594–628（印 583–617）全部实读。§§1–5 的外场、张量、弛豫、探测几何，及轴向四极符号到 Eq. 13.202。"
+      ],
+      "boundary": [
+        "历史主题摘要、模型和外部实验按实际范围记载。"
+      ],
+      "disposition": "partial",
+      "worker": "Sartre",
+      "source_pdf": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+      "sha256": "93b32a8debb66ad036229d860ad56f0434dc49b56edd32f1628af1d71a21ae00",
+      "physical_pages": 956
+    },
+    {
+      "id": "catalogue:LIT-000320",
+      "source": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+      "identity": "Petrache ed., Chirality and Wobbling in Atomic Nuclei, CRC Press 2025 first edition, 339 physical pages.",
+      "coverage": [
+        "PDF 112–117（印 93–98）第 5 章补 6 页，与旧相邻段覆盖章正文 110–124。",
+        "PDF 167–194（印 148–175）第 8 章补 28 页，至 §8.4 Eq. (8.90)。",
+        "本卷 17 章作者与章首页逐一核对，Ch. 2、12 的已结算章级来源不重复计入。"
+      ],
+      "boundary": [
+        "历史主题摘要、模型和外部实验按实际范围记载。"
+      ],
+      "disposition": "partial",
+      "worker": "Hubble",
+      "source_pdf": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+      "sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+      "physical_pages": 339
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 757,
+    "duplicate-or-related-version": 29,
+    "duplicate-excerpt-linked-to-canonical": 13,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 9,
+    "out-of-scope-particle-production": 3,
+    "pending-identity-and-coverage": 5,
+    "existing-source-coverage-to-audit": 35,
+    "archived-publisher-scan-missing-printed-page": 1,
+    "read-core-evidence-checked": 1,
+    "publisher-first-page-extract-fulltext-unavailable": 8,
+    "evaluated-data-extract-covered": 7,
+    "out-of-scope-atomic-spectroscopy": 4,
+    "editorial-front-matter": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 2,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "conference-abstract-covered": 3,
+    "supplement-with-main-text-gap": 1,
+    "commentary-complete-shared-pages": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 40,
+  "credited_works": 19,
+  "credited_primary_pages": 631,
+  "partial_volume_pages": 98,
+  "next_action": "Continue the next claimed local sources, including remaining tables or figures from partial entries.",
+  "uncredited": [],
+  "related_materials": [
+    {
+      "id": "catalogue:LIT-000962",
+      "state": "publisher-first-page-extract-fulltext-unavailable",
+      "source": "knowledge/sources/dracoulis-2012-191193ir-triaxial-isomers-preview.md",
+      "file": {
+        "path": "raw/papers/gpt/query/20261107-triaxial-isomer-transfer/dracoulis2012-191193ir.pdf",
+        "sha256": "98a5084fb369bb30f984b59ad2fceb54fb9adb6fbf3e359955daf321057d144f",
+        "size": 356044,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-first-page-extract"
+      },
+      "physical_pages": 1,
+      "credit": 0,
+      "coverage": [
+        "{'physical_pages': '1–1', 'printed_pages': '59', 'sections': ['题名、作者、机构与出版信息', '摘要', '首页引言']}"
+      ],
+      "boundary": "按本地核定载体与实际范围登记。读完本件唯一物理页的抽取文本，对应原刊第 59 页，涵盖题名、作者、出版信息、摘要和首页引言。原刊第 60–64 页未提供。未查看页面图像。"
+    },
+    {
+      "id": "catalogue:LIT-001045",
+      "state": "publisher-first-page-extract-fulltext-unavailable",
+      "source": "knowledge/sources/continuation-g17-thomas-2016-96-98mo-coexistence.md",
+      "file": {
+        "path": "raw/papers/gpt/query/20261107-continuation-G17/thomas-2016-96-98mo-coexistence.pdf",
+        "sha256": "d226d134cd5978436b64cc7fe362dd4ea7e3f66a8d7055a5dca7dc8e12a2c6c4",
+        "size": 5107501,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-first-page-extract"
+      },
+      "physical_pages": 1,
+      "credit": 0,
+      "coverage": [
+        "{'pdf_start': 1, 'pdf_end': 1, 'printed_pages': '203', 'sections': ['刊头及作者信息', '摘要开头', '出版与 DOI 页脚']}"
+      ],
+      "boundary": "按本地核定载体与实际范围登记。读完所供 PDF 第 1 页的刊头、作者与机构、出版历程、摘要开头及页脚。摘要文字止于断词“spec-”。建议接受首页覆盖。同版全文覆盖须有完整卷页、逐页阅读记录和图件核查记录支持。"
+    },
+    {
+      "id": "catalogue:LIT-001047",
+      "state": "publisher-first-page-extract-fulltext-unavailable",
+      "source": null,
+      "file": {
+        "path": "raw/papers/gpt/query/20261107-continuation-G18/lukasiak1979-191ir-preview.pdf",
+        "sha256": "b08e032a53687af0c12f7566805b20e9bbd36717277685f4c18f402ac9859a5c",
+        "size": 50027,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-first-page-extract"
+      },
+      "physical_pages": 1,
+      "credit": 0,
+      "coverage": [
+        "{'pdf_start': 1, 'pdf_end': 1, 'printed_pages': '191', 'sections': ['刊头与作者信息', '摘要', '核反应提要', '第 1 节引言开头']}"
+      ],
+      "boundary": "按本地核定载体与实际范围登记。读完 PDF 第 1 页的刊头、摘要、核反应提要和引言开头。引言在转述先前初步结果时截断。建议接受首页覆盖。同版全文覆盖须有完整卷页、逐页阅读记录和图件核查记录支持。"
+    },
+    {
+      "id": "catalogue:LIT-001050",
+      "state": "evaluated-data-extract-covered",
+      "source": "knowledge/sources/continuation-g17-chen-singh-2020-nds-98mo.md",
+      "file": {
+        "path": "raw/papers/gpt/query/20261107-continuation-G17/nds-2020-chen-singh-98mo-adopted.pdf",
+        "sha256": "f98dc0ebd7a111083492fd25710268093d37c40bc45b33b1507704428d8c9bf6",
+        "size": 661175,
+        "hash_basis": "fresh-hash",
+        "source_role": "evaluated-data-export"
+      },
+      "physical_pages": 51,
+      "credit": 0,
+      "coverage": [
+        "物理第1–12页｜History、评价说明、XREF、采用能级表及脚注。",
+        "物理第13–34页｜采用 γ 表、相对光子强度、多极性、混合比、评价说明及脚注。",
+        "物理第35–50页｜未编号 Level Scheme 及续图的可辨文本。",
+        "物理第51页｜未编号 Seq.(A)–(D) 级联图的可辨文本。"
+      ],
+      "boundary": "按本地核定载体与实际范围登记。读取物理第1–51页所给文本，重点交叉核对目标能级、半衰期栏、γ 行和脚注。第35–51页的阅读限于可辨图题、图例、能级和序列标签。旋转图字提取错序，第37、38页还含去重占位，图形连线留待核查。"
+    },
+    {
+      "id": "catalogue:LIT-000911",
+      "state": "conference-abstract-covered",
+      "source": null,
+      "file": {
+        "path": "raw/papers/gpt/query/20261107-round2-mo98-e3/dae2025-103pd-octupole.pdf",
+        "sha256": "a9be7cd96ca72976efcb9402015889a0022089e0c26119812ac668a09e5f0c6d",
+        "size": 387023,
+        "hash_basis": "fresh-hash",
+        "source_role": "conference-abstract"
+      },
+      "physical_pages": 2,
+      "credit": 0,
+      "coverage": [
+        "{'start_page': 1, 'end_page': 1, 'sections': ['题名、署名及单位', '引言', '实验', '分析与结果上半部分']}",
+        "{'start_page': 2, 'end_page': 2, 'sections': ['分析与结果续文', '图 1–3 图注', '结论', '致谢', '参考文献 [1]–[8]']}"
+      ],
+      "boundary": "按本地核定载体与实际范围登记。逐页通读物理 PDF 第 1–2 页所给文本，覆盖标题与署名、正文、三幅图的图注、致谢及参考文献 [1]–[8]。图像、坐标和曲线尚未目视核验。"
+    },
+    {
+      "id": "catalogue:LIT-000963",
+      "state": "publisher-first-page-extract-fulltext-unavailable",
+      "source": "knowledge/sources/karmakar-2025-2026-98mo-octupole-preview.md",
+      "file": {
+        "path": "raw/papers/gpt/query/20261107-triaxial-isomer-transfer/karmakar2025-98mo.pdf",
+        "sha256": "914a3cfb3b1613ec239fd19b144979ee3b84082a17416a69e9633c7710547fd4",
+        "size": 8633409,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-first-page-extract"
+      },
+      "physical_pages": 1,
+      "credit": 0,
+      "coverage": [
+        "{'start_page': 1, 'end_page': 1, 'sections': ['刊头与题录', '摘要', '第1节 Introduction 开头', '出版信息']}"
+      ],
+      "boundary": "按本地核定载体与实际范围登记。核读了物理第1页的可提取文字，包括题录、摘要和引言开头。引言末句截断。实验方法、结果正文、图表及图注均未见于所给文本，未作图像核验。"
+    },
+    {
+      "id": "catalogue:LIT-000964",
+      "state": "duplicate-or-related-version",
+      "source": "knowledge/sources/martin-2016-mass-uncertainties-r-process.md",
+      "file": {
+        "path": "raw/papers/isomer/isomer_application/nuclear_astrophysics/2016_Martin et al_Impact of Nuclear Mass Uncertainties on the r Process 1.pdf",
+        "sha256": "c9045474ae93257657a0d20716a33d5bbc3417d77556ed57db4b8df83c226c09",
+        "size": 1708925,
+        "hash_basis": "fresh-hash",
+        "source_role": "arxiv-alternate-version"
+      },
+      "physical_pages": 7,
+      "credit": 0,
+      "coverage": [
+        "{'start_page': 1, 'end_page': 1, 'sections': ['CHORUS 封页及正式发表题录']}",
+        "{'start_page': 2, 'end_page': 7, 'sections': ['题名与摘要', 'Introduction', 'Objectives', 'Method', 'Results', 'Conclusions', '致谢', '参考文献[1]至[69]']}"
+      ],
+      "boundary": "按本地核定载体与实际范围登记。与已核刊版属于同一作品。"
+    }
+  ]
+}

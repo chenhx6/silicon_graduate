@@ -3,7 +3,7 @@ type: source
 title: "Heyde & Wood 2011 - Shape coexistence in atomic nuclei"
 aliases: [Heyde Wood 2011 shape coexistence review]
 created: 2026-09-20
-updated: 2026-10-26
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: rmp-review
@@ -121,3 +121,25 @@ Low-lying 0+ states, E0 strengths or B(E2) changes can also arise from pairing, 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | HW11-D21-1 | Day24内025原件复核撤回旧认证：186Pb的28%/20–35%混合百分比与固定V50–100keV普适强门未找到本篇对应支撑；E0排他唯一反演及必须E0+Coulex量词不成立。原行完整保存在withdrawal-audit-025.json；186Pb0/532/650能级本身可定位，不与未得百分比一并否定。用HW11-D25P-001–006的原件分层。 | withdrawn-unlocated-attribution-and-overclaim | corrected-with-direct-original-boundary | PDF13 Eq14; PDF36–41 §III.C/TableVI; task withdrawal-audit-025 | true |
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- PDF第1–10页（印刷1467–1476），首页、§I引言和§II理论，含球形壳模型、IBM截断、平均场及投影与组态混合。
+- PDF第10–30页（印刷1476–1496），§III导言及§III.A重核和中重核实例，含Pb/Hg区、Sn区、Z≈40/N≈60、Z≈64/N≈90、Z≈34/N≈40、配对异构及超形变。
+- PDF第30–36页（印刷1496–1502），§III.B轻核，含N＝Z附近、反转岛和团簇。
+- PDF第36–46页（印刷1502–1512），§III.C统一视角，含谱学指纹、低激发0⁺态解释、搜索线索、未决问题及理论建议。
+- PDF第46–55页（印刷1512–1521），§IV结论与展望、致谢和参考文献，其中参考文献始于PDF第47页。
+- 本次获取的具体覆盖：本次连续读取所给PDF第1–55页抽取文本，印刷页1467–1521。覆盖正文、结论、致谢、参考文献及抽取得到的图注和表文。图1–52及表I–VII均有编号题注文本，部分图面标签和公式字符未完整抽取。未目检图像或版面。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A21-1 | 综述转述了由¹⁹⁰Po α衰变谱学识别的¹⁸⁶Pb低激发0⁺态。偶质量Pb能级系统图列出该核的零能基态和532、650 keV激发态，表VII另将650 keV项列为0₃⁺。 | 综述转述的实验观测 | source-reported | PDF第12页（1478）§III.A.1及图12，PDF第42页（1508）表VII。图12中的能级括号和箭头位置仍待PDF第12页目检。 | true |
+| A21-2 | 综述用跨壳激发的能量代价与剩余相互作用带来的关联能增益解释低能侵入态。在其平均场路线中，¹⁸⁶Pb示例从投影能量曲线出发，经生成坐标组态混合得到可与实验比较的计算谱。 | 理论框架与引用计算 | source-reported | PDF第2–4页（1468–1470）§II及式(1)–(5)、图1。PDF第8–10页（1474–1476）§II.B–C，尤其是PDF第8页图6与式(10)–(12)、第9页图7与式(13)。 | true |
+| A21-3 | 式(14)的二组态表达为 ρ²(E0)＝(Z²/R₀⁴)a²(1−a²)[Δ⟨r²⟩]²。由该式可见，强度约束混合因子与均方电荷半径差的乘积。分别估计二者需要额外信息，进一步推断形变参数需要结构假设。 | 二组态模型及其可辨识性推论 | source-reported | PDF第13页（1479）§III.A.1式(14)及紧邻定义，PDF第40页（1506）§III.C.3的联合观测量段。式(14)的ρ、根号与上下标按上下文和对照笔记辨读，待PDF第13页目检。 | true |
+| A21-4 | 作者将对角E2矩阵元列为最直接的形变指纹，并指出单项B(E2)无法区分静态与动态形变。强E0和粒子–芯耦合序列属于间接指纹，半径、质量和转移系统性可提供线索。作者建议E0测绘也纳入J≠0的ΔJ＝0跃迁。 | 综述作者的证据分层与研究建议 | source-reported | PDF第36–38页（1502–1504）§III.C.2，实例见PDF第24页图32及第27页图39。非零自旋建议见PDF第40页（1506）§III.C.3，奇质量Pb实例见PDF第13页图13及正文。 | true |
+
+本文是二手综述。¹⁸⁶Pb衰变证据归于Andreyev等（2000，书目见PDF第47页），偶质量Pb图12还汇编多篇研究和Nuclear Data Sheets。图6–7的¹⁸⁶Pb计算归于Duguet等（2003，书目见PDF第49页），式(14)引自Wood等（1999，书目见PDF第55页）。这些原始数据、计算及引文各自仍依赖其上游来源。
+
+- 维持HW11-D21-1对¹⁸⁶Pb 28%／20–35%混合比例及50–100 keV普适门槛的撤回。能级证据采用PDF第12页图12和第42页表VII。PDF第13页图13的图注将方框值定义为α衰变阻碍因子，抽取中的28及其支路待目检。PDF第41页表VI给出不同核种和不同拟合输入的34–400 keV示例，Pb条目为¹⁹²Pb和¹⁹⁴Pb。
+- 以PDF第13页式(14)及第36–40页§III.C.2–3替换E0排他反演和一律要求E0与多步库仑激发齐备的旧认证。将HW11-D25P-004的“PDF1506”改为“PDF第40页（印刷1506）”。
+- 转录图文时采用作者在题注中给出的勘误。PDF第12页图11的high-M应读为high-J。PDF第25页图35中⁷⁰Ge的0₂⁺态⟨Q²⟩应采用0.64 e²b²，参见PDF第37页表IV，图中旧值为0.50 e²b²。

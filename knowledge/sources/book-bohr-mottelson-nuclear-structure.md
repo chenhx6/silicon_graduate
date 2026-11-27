@@ -3,7 +3,7 @@ type: source
 title: "Bohr & Mottelson — Nuclear Structure：两卷入口与第一卷原件"
 aliases: [Bohr Mottelson Nuclear Structure, BM1975, 波尔莫特森核结构]
 created: 2026-11-01
-updated: 2026-11-02
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
@@ -74,3 +74,7 @@ tags: [books, nuclear-structure, foundations]
 
 - Vol. I, pp. 314–332 (PDF pp. 327–345)：配对力与 Seniority 代数表象、母权系数展开与半满壳 $B(E2)$ 抛物线对消。
 - Vol. I, pp. 325–329 (PDF pp. 338–342)：Pandya 粒子-空穴张量重耦合与两粒子能谱结构。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 21–26（印 2–7）梳理核的组成和例题。PDF 26–50 的 §1-2 区分空间反射与时间反演及其可用检验。圆偏振对相反宇称同阶幅的干涉、逆反应的运动学以及自旋零靶的条件随原式保留。校正旧历史页定位，PDF 327 为空，PDF 333（印 314）是粒子–空穴相位，PDF 351（印 332）才开始 §3-3，PDF 364 为 §3-4 β 衰变。
