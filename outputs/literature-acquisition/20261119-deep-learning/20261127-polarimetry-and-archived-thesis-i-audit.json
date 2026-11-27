@@ -1,0 +1,241 @@
+{
+  "batch": "20261127-polarimetry-and-archived-thesis-i",
+  "created_at": "2026-11-27T04:27:52.023941+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000258",
+      "source": "knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md",
+      "identity": "丁兵，2012，中国科学院研究生院理学博士。两条馆藏路径为同 SHA 的 100 页学位版。",
+      "coverage": [
+        "PDF 1–8 前置、9–55 概念及方法、56–89 ¹²⁷I 与 ¹²⁸I、90–100 总结和相关引文及发表信息。"
+      ],
+      "boundary": [
+        "两本学位论文对符合窗分别写 100/200 ns。CPL 与学位版的旧 102 keV 分量比例口径不同。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre and manager",
+      "source_pdf": "raw/theses/degree-dissertation/丁兵 - 博士论文.pdf",
+      "sha256": "ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7",
+      "physical_pages": 100
+    },
+    {
+      "id": "bytes:873082294c9d2e13f60fe18e31e76566ff9a0d1045b048a194887dbc94fa4ce8",
+      "source": "knowledge/sources/kajfosz-1969-unresolved-cascade-polarization.md",
+      "identity": "J. Kajfosz, Czech. J. Phys. B 19, 477–481 (1969), publisher scan.",
+      "coverage": [
+        "PDF 1–5（印 477–481），方法推导及适用条件。"
+      ],
+      "boundary": [
+        "方向及偏振两套测量需共享强度、效率和几何权重，公共混合线在级联前后位时干涉项符号不同。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1007_BF01691812.pdf",
+      "sha256": "873082294c9d2e13f60fe18e31e76566ff9a0d1045b048a194887dbc94fa4ce8",
+      "physical_pages": 5
+    },
+    {
+      "id": "bytes:8a65ef94093274ae207de0238f8f3c012839a47f400fe187dfbb5c4a27ef26c6",
+      "source": "knowledge/sources/malik-2025-mo92-high-spin-core-excitations.md",
+      "identity": "V. Malik et al., J. Phys. G 52, 025101 (2025), IOP version of record online 2024-12-23.",
+      "coverage": [
+        "PDF 1–23，前附下载封面。物理 PDF 2–23 对应正文 1–22。"
+      ],
+      "boundary": [
+        "偏振表列 Δ_asym，物理极化数据需另有灵敏度换算。换算的 E1 强度保留阻停与寿命模型。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1088_1361-6471_ad9343.pdf",
+      "sha256": "8a65ef94093274ae207de0238f8f3c012839a47f400fe187dfbb5c4a27ef26c6",
+      "physical_pages": 23
+    },
+    {
+      "id": "bytes:8c947453473ecd46acb7c10428e00eb987c3e9fa36167d402ba15ad501c4d494",
+      "source": "knowledge/sources/singh-2002-pb196-magnetic-rotation.md",
+      "identity": "A. K. Singh et al., Nuclear Physics A 707, 3–31 (2002), local version of record.",
+      "coverage": [
+        "PDF 1–29（印 3–31），§§1–4、Table 1 续表、实验极化及模型比较与参考。"
+      ],
+      "boundary": [
+        "带内 ΔI=1 与 ΔI=2 强度比是不同支线。旧寿命与作者的新谱学、TAC 分开。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_S0375-9474_02_00966-1.pdf",
+      "sha256": "8c947453473ecd46acb7c10428e00eb987c3e9fa36167d402ba15ad501c4d494",
+      "physical_pages": 29
+    },
+    {
+      "id": "bytes:97d66ffbb847c085fbfbdb52a25d0182d52c43ccb5d03c65fc05ed73c98aac72",
+      "source": "knowledge/sources/beck-2015-gd156-scissors-quadrupole-strength.md",
+      "identity": "T. Beck et al., AIP Conf. Proc. 1681, 040007 (2015), proceedings version of record.",
+      "coverage": [
+        "PDF 1–6。下载封面及印 040007-1 至 040007-5 的测量、结果、引用。"
+      ],
+      "boundary": [
+        "选支依 K=1 的 Alaga 关系和分支信息，B(E2) 还用外引宽度。2018 会议短文的 Gd 部分复用同一实验谱系。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/1.4932268.pdf",
+      "sha256": "97d66ffbb847c085fbfbdb52a25d0182d52c43ccb5d03c65fc05ed73c98aac72",
+      "physical_pages": 6
+    },
+    {
+      "id": "bytes:9980470c3457e0a87e56d89c635eb0e8d08191d5b219fa94601fe84f7118ac0c",
+      "source": "knowledge/sources/eriksson-gidefeldt-1973-co59-mixing-ratios.md",
+      "identity": "L. Eriksson and L. Gidefeldt, Physica Scripta 7, 169–172 (1973), publisher PDF with a download cover.",
+      "coverage": [
+        "PDF 1–5，正文印 169–172、测角、Table I–II、图和讨论。"
+      ],
+      "boundary": [
+        "发射矩阵元的符号与 Rose–Brink 的写法相反。表 II 的个别根还依锚线的 M3 成分条件。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1088_0031-8949_7_4_005.pdf",
+      "sha256": "9980470c3457e0a87e56d89c635eb0e8d08191d5b219fa94601fe84f7118ac0c",
+      "physical_pages": 5
+    },
+    {
+      "id": "bytes:94492861fa02fa7a24aa4a70248166ddefac235acbfd4e2229539316564c6d94",
+      "source": "knowledge/sources/jassem-2013-as73-internal-conversion-mixing.md",
+      "identity": "F. A. A. Jassem et al., Applied Physics Research 5(4), 96–100 (2013), local publisher PDF.",
+      "coverage": [
+        "PDF 1–5，正文至 4，跨页 Table 1、Eqs. (1)–(4) 及版权。"
+      ],
+      "boundary": [
+        "转换系数只给幅值；纯多极端点接近时，结果对输入误差敏感。609.1 keV 例依所取混合基底。"
+      ],
+      "disposition": "covered",
+      "worker": "Dirac and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-pdm-delta-broad/10.5539_apr.v5n4p96.pdf",
+      "sha256": "94492861fa02fa7a24aa4a70248166ddefac235acbfd4e2229539316564c6d94",
+      "physical_pages": 5
+    },
+    {
+      "id": "bytes:b6e5e402866782742cb8fd519f6e09a5fc74e3e3de6b60560e43e39276247130",
+      "source": "knowledge/sources/chakraborty-2022-cs129-mixing-ratio-branches.md",
+      "identity": "S. Chakraborty, Journal of Scientific Research (2022), pages 144–148 in local PDF. Volume fields in the local PDF remain placeholders.",
+      "coverage": [
+        "PDF 1–5，§§I–IV、Figs. 1–4、Table I、Eqs. (1)–(9) 及引用。"
+      ],
+      "boundary": [
+        "既有 a₄ 误差、固定 σ/J 条件和门几何限制择根。全文使用已发表输入。"
+      ],
+      "disposition": "covered",
+      "worker": "Dirac and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-pdm-delta-broad/10.37398_jsr.2022.660518.pdf",
+      "sha256": "b6e5e402866782742cb8fd519f6e09a5fc74e3e3de6b60560e43e39276247130",
+      "physical_pages": 5
+    },
+    {
+      "id": "bytes:f411592377032b060b99406864f67e2b5118b7c52e95f987a80da832d1333a99",
+      "source": "knowledge/sources/krishichayan-gd146-high-spin-linear-polarization.md",
+      "identity": "Krishichayan et al., arXiv:1308.0119 as identified in the local manifest. Local author-layout copy, 29 physical pages.",
+      "coverage": [
+        "PDF 1–12 摘要和 §§I–V，12–14 尾料，15–18 Table I，19–29 Figs. 1–11。"
+      ],
+      "boundary": [
+        "ΔIPDCO 是几何修正 Compton 散射不对称度。接近零有灵敏度、取向和混合的不同来源。"
+      ],
+      "disposition": "covered",
+      "worker": "Dirac and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-pdm-delta-broad/10.48550_arxiv.1308.0119.pdf",
+      "sha256": "f411592377032b060b99406864f67e2b5118b7c52e95f987a80da832d1333a99",
+      "physical_pages": 29
+    },
+    {
+      "id": "catalogue:LIT-000348",
+      "source": "knowledge/sources/che-2007-high-spin-108-112ru-134-135ba.md",
+      "identity": "车兴来，清华大学理学博士，2007 年 4 月，117 页的馆藏学位版。",
+      "coverage": [
+        "PDF 1–9 前置、10–46 理论和采集、47–82 数据及四核纲图、83–105 解释与结论、106–117 相关引文与发表表。"
+      ],
+      "boundary": [
+        "Ru CSM/TRS 与同源刊文 IBA 的软性表述保留各模型定义。Ba 的异能态半衰期回原测量。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre and manager",
+      "source_pdf": "raw/theses/degree-dissertation/车兴来.pdf",
+      "sha256": "0a6636a949e3c6b2d1a75466a5fa549c83012d0ffce688b0275cb4837a9399de",
+      "physical_pages": 117
+    },
+    {
+      "id": "catalogue:LIT-000526",
+      "source": "knowledge/sources/liu-hongna-2015-12c-np-correlations-thesis.md",
+      "identity": "刘红娜，北京大学博士，2015 年 11 月，2016 年 1 月生成的 124 页学位原件。",
+      "coverage": [
+        "PDF 1–14 前置，15–60 理论与装置，61–99 鉴别、响应和产额处理，100–112 结果、结论和附录，113–124 引文及尾料。"
+      ],
+      "boundary": [
+        "PDF 37 与 60 的靶面密度数值不同。报道截面保留原口径；实际归一的质量厚度待运行记录。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre and manager",
+      "source_pdf": "raw/theses/degree-dissertation/刘红娜.pdf",
+      "sha256": "fe17cc42333e33a2325bc2124e5b2a9541408e1a9303161e74f592e55c8b9c25",
+      "physical_pages": 124
+    },
+    {
+      "id": "catalogue:LIT-000528",
+      "source": "knowledge/sources/liu-yanxin-2012-projected-shell-model-exotic-nuclei.md",
+      "identity": "刘艳鑫，中国科学院研究生院博士学位版，2012-06，120 个物理页。",
+      "coverage": [
+        "PDF 1–12 前置，13–46 动机／PSM，47–80 Zr，81–92 Mo，93–106 总结和引文，107–118 附录，119–120 发表表。"
+      ],
+      "boundary": [
+        "¹⁰⁸Zr 的轴对称负宇称解释和正宇称 TPSM 采用不同模型基。¹¹⁰Mo 比值有混合来源。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre and manager",
+      "source_pdf": "raw/theses/degree-dissertation/刘艳鑫 - 理论.pdf",
+      "sha256": "c89dcf095ad371878a897d3d6e8f86c2d47fa0ef9eaa2922e3f09d3707301403",
+      "physical_pages": 120
+    },
+    {
+      "id": "catalogue:LIT-000302",
+      "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "identity": "Bohr and Mottelson, Nuclear Structure II, 1975 original, local World Scientific 1998 reissue, 772 physical pages.",
+      "coverage": [
+        "PDF 516–545 (printed 494–523), charge-exchange dipole, width, and quadrupole modes."
+      ],
+      "boundary": [
+        "保留电荷交换和规则、光吸收背景扣除及极化电荷对模型的依赖。"
+      ],
+      "disposition": "partial",
+      "worker": "Pascal and manager",
+      "source_pdf": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "physical_pages": 772
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 532,
+    "duplicate-or-related-version": 20,
+    "duplicate-excerpt-linked-to-canonical": 13,
+    "pending-identity-and-coverage": 130,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 6,
+    "existing-source-coverage-to-audit": 174,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "publisher-first-page-extract-fulltext-unavailable": 3,
+    "access-placeholder-fulltext-unavailable": 1,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 304,
+  "credited_works": 12,
+  "credited_primary_pages": 568,
+  "partial_volume_pages": 30,
+  "next_action": "Continue Bohr–Mottelson II PDF 546 (printed 524), Eqs. (6-402)–(6-406), and integrate the next verified sources.",
+  "uncredited": []
+}

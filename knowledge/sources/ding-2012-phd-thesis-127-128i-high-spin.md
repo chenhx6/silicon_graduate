@@ -3,7 +3,7 @@ type: source
 title: "丁兵 2012 博士论文：过渡区核 127, 128I 高自旋态能级结构研究"
 aliases: ["丁兵2012博士论文", "Ding2012Thesis", "High-spin studies of transitional nuclei 127, 128I"]
 created: 2026-09-02
-updated: 2026-10-16
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: thesis
@@ -261,3 +261,7 @@ D12-25原文已经限定fixedparent/anchor与H0/H2；新D12-34把这个限制进
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | D12-D19-2 | PDF79明确167.4keV子态半衰期175(15)ns；mean tau若仅换单位应为T1/2/ln2约252.47ns，不能倒灌上游。100ns符合窗内出现部分事件也不推出parent tau远小于100ns。源reaction-spin trend是采用的prior，不是逐态严格单调守恒。两步generic L1 triangle必要集合{6,7}与旧H0/H2集合{6,8}前提不同，均不等actualAD联合拟合。弱线≥79在共同标度控制下只给ratio下界，不构成87.7/12.3%实测分解或另一102的ICC。 | direct-timing-identity-and-conditional-design | direct-original-and-task-derived | PDF78–79 Table6.1; PDF79 first two paragraphs | true |
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 57、75–76 的两段 ¹²⁴Sn+⁷Li 选 28、32 MeV 区分 ¹²⁸I 与 ¹²⁷I，实际用碘 K X 门和投影交叉检验。学位 Fig. 6.1、6.2、6.5 与 CPL 27, 082701 的 Figs. 1、3、4 对应用同采集。PDF 77–82 的 101.3、102.2 keV 两峰由小平面和多门区分；旧 102 keV 分量在学位版约 10%，CPL 报约 14%，原始重标度未复算。167.4 keV 的 175(15) ns 属既有子态寿命，分析窗不能用作上游态寿命。¹²⁷I 纲图和 PES 指派分别见 PDF 59–65 与 68–73。

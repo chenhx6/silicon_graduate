@@ -35,6 +35,8 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 本批核定 13 份、428 个主件 PDF 页，新增 5 条刊文节录对照及 1 份机构报告版对照。¹³³Ba、¹⁰²Ru、¹⁵¹Sm 的混合比保留各自的角关联输入、相位及分支。累计 538 份、21,022 个主件 PDF 页，正式队列待处理 316 条。第二卷另核 PDF 476–515（印 454–493），下从 PDF 516（印 494）图 6-22 和式 (6-336) 续接。稳定指针为 `research/archive-learning-20261127` + `research: verify decay spectroscopy, thesis and archived editions`。见[原件与覆盖](../outputs/literature-acquisition/20261119-deep-learning/20261127-archived-decay-spectroscopy-h-audit.json)和[关联版次](../outputs/literature-acquisition/20261119-deep-learning/20261127-archived-versions-h-audit.json)。
 
+本批核定 12 份、568 个主件 PDF 页，含四份学位论文、偏振和角关联研究及其适用边界。另核三份 Casten 中文衍生版、四篇原子电子谱论文与一页期刊编务材料。累计 550 份、21,590 个主件 PDF 页，正式队列待处理 296 条。第二卷另核 PDF 516–545（印 494–523），从 PDF 546（印 524）式 (6-402)–(6-406) 续读。稳定指针为 `research/archive-learning-20261127` + `research: verify nuclear polarimetry, dissertations and Casten editions`。见[原件与阅读范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-polarimetry-and-archived-thesis-i-audit.json)和[版本与材料角色](../outputs/literature-acquisition/20261119-deep-learning/20261127-casten-and-non-nuclear-materials-i-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

@@ -2278,3 +2278,11 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[tolhoek-cox-1953-oriented-nuclei-polarization]] — 取向核的角分布和光子密度矩阵。
 - [[singh-taylor-1970-ru102-directional-multipole-mixing]] — ¹⁰²Ru 的混合比与自旋竞争解。
 - [[yamada-1981-sm151-mixing-ratios]] — ¹⁵¹Sm 的角关联双根与 β 振动态假设。
+- [[kajfosz-1969-unresolved-cascade-polarization]] — 未分辨级联的角关联、偏振及权重条件。
+- [[malik-2025-mo92-high-spin-core-excitations]] — ⁹²Mo ADO、Compton 不对称和 DSAM。
+- [[singh-2002-pb196-magnetic-rotation]] — ¹⁹⁶Pb 的磁转动、DCO 与线偏振。
+- [[beck-2015-gd156-scissors-quadrupole-strength]] — ¹⁵⁶Gd 的偏振入射散射与剪刀模 E2。
+- [[eriksson-gidefeldt-1973-co59-mixing-ratios]] — ⁵⁹Co 的方向角关联和混合分支。
+- [[jassem-2013-as73-internal-conversion-mixing]] — 用内转换系数约束 ⁷³As 混合幅值。
+- [[chakraborty-2022-cs129-mixing-ratio-branches]] — 固定 σ/J 条件下 ¹²⁹Cs 的旧角分布和 DCO 再分析。
+- [[krishichayan-gd146-high-spin-linear-polarization]] — ¹⁴⁶Gd 的 DCO 和 Compton 线偏振不对称。

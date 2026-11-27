@@ -677,7 +677,7 @@
     "LOCAL-ROTATION-AND-DEFORMATION-SOURCES",
     "LOCAL-THEORY-AND-SPECTROSCOPY-245"
   ],
-  "completed_full_sources_this_run": 538,
+  "completed_full_sources_this_run": 550,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -685,26 +685,27 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-27T04:14:46.213968+00:00",
+  "updated_at": "2026-11-27T04:27:57.340411+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 21022,
+  "completed_primary_pages_this_run": 21590,
   "current_source_note": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
-  "next_action": "Continue Bohr–Mottelson II PDF 516 (printed 494) and integrate the next verified local records.",
+  "next_action": "Continue Bohr–Mottelson II PDF 546 (printed 524), Eqs. (6-402)–(6-406), and integrate the next verified sources.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "13 works, 428 primary PDF pages, 40 bounded book pages and 6 related records reconciled.",
-  "current_source_scientific_acceptance": "Bohr–Mottelson II through PDF 515 (printed 493); no completed-volume credit.",
+  "last_source_manager_closure": "12 works, 568 primary PDF pages, 30 bounded book pages, 3 translations and 5 atomic or editorial items reconciled.",
+  "current_source_scientific_acceptance": "Bohr–Mottelson II through PDF 545 (printed 523); no completed-volume credit.",
   "source_scoped_retrieval": "Existing local originals; publisher and author versions recorded separately.",
   "counting_scope": {
-    "scientific_reading_covered": 520,
+    "scientific_reading_covered": 532,
     "bounded_or_core_only_completed": 18,
-    "credited_pages_explicit_in_queue": 10564,
+    "credited_pages_explicit_in_queue": 11132,
     "pages_carried_forward_from_previous_checkpoints": 10458,
     "increment_this_checkpoint": {
-      "works": 13,
-      "pages": 428,
-      "partial_volume_pages_recorded_separately": 40,
-      "associated_rows": 6
+      "works": 12,
+      "pages": 568,
+      "partial_volume_pages_recorded_separately": 30,
+      "associated_rows": 3,
+      "non_nuclear_or_editorial_rows": 5
     }
   },
   "previous_pause": {
@@ -725,5 +726,5 @@
     "resume_printed_page": 259,
     "background_reading_scheduled": false
   },
-  "latest_batch_audit": "20261127-archived-versions-h-audit.json"
+  "latest_batch_audit": "20261127-casten-and-non-nuclear-materials-i-audit.json"
 }

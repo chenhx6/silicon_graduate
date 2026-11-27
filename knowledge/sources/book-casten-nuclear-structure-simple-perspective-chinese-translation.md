@@ -74,3 +74,11 @@ tags: [books, translated-duplicate, chinese-terminology, casten]
 
 - [[book-casten-nuclear-structure-simple-perspective]]
 - `raw/books/translations/中译_Nuclear_Structure_From_A_Simple_Perspective.pdf`
+
+## 2026-11-27 — 三种馆藏中文版本
+
+- **A4 排版件，369 页。** 同一中文译稿两份文件的 PDF 2–369 逐页归一文本一致，已识别的正文嵌入图像逐页一致。PDF 1 的封面视觉相同而文字层有别，物理几何及 SHA-256 各异。馆藏 LIT-000007 与本页 `raw_file` 共同回到 Casten 初版。
+- **中文增订整合本，472 页。** PDF 2–3 为中文题页与编排说明，PDF 5–7 给二版前言和勘误。整合 1990 年初版和 2000 年二版，PDF 401 第 11 章为奇异核和放射性束，PDF 433 第 12 章保留初版实验技术。图表公式随整合本重新编排。
+- **二版增补卷，140 页。** PDF 1、7、9 自述选译二版增补专题并保留原编号。PDF 11、23、69、99、107 分别接二版第 3、6、7、9、11 章选段。PDF 107 的第 11 章与英文二版 PDF 436（印 418）的章首主题对应。科学引用回英文相应版次，译本用于术语和版本导航。
+
+三份文件的路径、逐件哈希和版次范围见队列 LIT-000007–000009。

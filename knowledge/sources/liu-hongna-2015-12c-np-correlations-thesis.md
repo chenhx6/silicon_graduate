@@ -3,7 +3,7 @@ type: source
 title: "刘红娜 2015 博士论文：12C 中子质子关联以及三体力的研究"
 aliases: [刘红娜 12C np correlations thesis, Hongna Liu 12C thesis]
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-experiment
@@ -147,3 +147,7 @@ Eikonal+WBP 与 Eikonal+NCSM(+3N) 都是模型计算。NCSM+3N 只能说明趋�
 ## Non-source Notes and Follow-up
 
 PDF p.109 结论页已视觉核对；文本提取用于定位数值。未修改 raw、BibTeX 或任何实验原始数据。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 36–38、59–60 中的 ¹²C 次级束、⁹Be 靶与 DALI2、SAMURAI 提供该实验几何。次级靶报告 PDF 37 为 1.879 g/cm²，PDF 60 Table 3-8 为 1.789 g/cm²。PDF 86–91、100–105 Tables 5-1、6-1、6-2 的单举与末态产额依赖接受度、γ 级联和本底修正。3⁺, T=0 的 ¹⁰B 基态报告 20.3(15) mb。第一 2⁺ 的 2.9(7) mb 与正文 3.4(4) mb 对应排除／包含 α 分支。PDF 104–110 的 WBP、NCSM 及三体力比较保留反应模型、结构重叠与归因余界。PDF 122 的 RIKEN 报告归同题谱系，原刊图表未对照。

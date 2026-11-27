@@ -7470,3 +7470,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-27 — 馆藏续读第 8 批
 
 - 本批核定 13 份、428 个主件 PDF 页，另外对照六份节录或同文版本。第二卷 PDF 476–515 单列，下一页 PDF 516。正式队列待处理 316 条。
+
+## 2026-11-27 — 馆藏续读第 9 批
+
+- 本批核定 12 份、568 个主件 PDF 页，并核定 8 条版本或材料角色。第二卷 PDF 516–545 单独登记，下从 546 开始。正式队列待处理 296 条。

@@ -3,7 +3,7 @@ type: source
 title: "刘艳鑫 2012 博士论文：投影壳模型在奇特原子核区的推广及应用"
 aliases: [刘艳鑫 PSM thesis, Liu Yanxin projected shell model]
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-theory
@@ -147,3 +147,7 @@ PSM 以 Nilsson+BCS 形变准粒子基构造波函数，用角动量投影恢复
 ## Non-source Notes and Follow-up
 
 视觉抽查包括题名页 PDF p.1、目录 p.11、理论公式 p.39、参数表 p.54、Mo 表 5-2 PDF p.91 和总结/参考页 p.104；未修改 raw 或模型代码。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 33–46 式 3.28、3.41 分开角动量投影与四极、配对哈密顿量。PDF 107–118 附录 A–D 补 BCS、准粒子真空、旋转 D 函数、形变单粒子矩阵元。PDF 68–79 的 ¹⁰⁸Zr 轴对称 PSM 负宇称候选与正宇称 TPSM 比较分别记，图 4.23 不约束负宇称；已有能量和寿命界回引 RIBF。PDF 91 Table 5-2 ¹¹⁰Mo 的 E(4₃⁺)/E(2₂⁺)=2.81 是 1.387 MeV 计算能量除以 0.494 MeV 实验带头。前 3 个 Mo 核的比值用已有实验带头。
