@@ -3,7 +3,7 @@ type: source
 title: "穆琳 2024 博士论文：半幻核 Sn 同位素奇特形状"
 aliases: [穆琳Sn形状论文, Mu Lin exotic shapes Sn thesis]
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-experiment
@@ -19,7 +19,7 @@ citation_key: "mu_2024_111sn-exotic-shapes"
 raw_file: "raw/theses/degree-dissertation/穆林_博士.pdf"
 raw_sha256: "54352AD352FB574921F49591C1F77BD1710E9B3B854F0FB306E6F289D5E80A2D"
 nuclei: [111sn, 112sn]
-experiments: [beijing-hi13-112sn-111sn]
+experiments: [hirfl-12c-103rh-112sn-111sn]
 models: [tilted-axis-cranking, relativistic-hartree-bogoliubov, two-level-mixing]
 observables: [lifetime, be1, be2, moment-of-inertia]
 methods: [in-beam-gamma-spectroscopy, doppler-shift-attenuation-method, gamma-gamma-coincidence]
@@ -72,3 +72,7 @@ tags: [shape-coexistence, octupole-correlation, magnetic-rotation, gamma-soft, p
 ## Extracted Pages
 
 - 摘要/Abstract：PDF pp.10–13；方法：Ch.2；`112Sn`：Ch.3；`111Sn`：Ch.4；总结：Ch.5。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 27–30、82 将 ¹¹²Sn、¹¹¹Sn 绑定到近代物理所 HIRFL 的同次 62 MeV ¹²C+¹⁰³Rh 采集。PDF 51–53 Fig. 3.9/Table 3.2 列 DSAM 示例与四条 E1 强度，中心值 5、9、11、24×10⁻⁵ W.u.；所列寿命误差未含论文指出可达约 15% 的阻停系统项。PDF 54–56 Eqs. (3.3)–(3.8) 的带间两态混合取双方 K=4；PDF 56–61 以分支和 RHB 结果讨论八极关联，模型解释与形变测量分列。PDF 70–80 Fig. 4.5–4.12、Table 4.1 记录 ¹¹¹Sn 的新带、ADO、修订的 972 keV 落点和 3DTAC 比较。

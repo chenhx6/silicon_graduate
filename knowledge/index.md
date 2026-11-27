@@ -2236,3 +2236,8 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[jones-2021-linear-polarization-planes]] — 康普顿线偏振的参考平面、能量阈值与灵敏度。
 - [[green-1971-polarization-isotropic-angular-distributions]] — 近各向同性角分布下的偏振与混合比选支算例。
 - [[gupta-2025-ce136-collective-noncollective-states]] — ¹³⁶Ce 的符合、DCO、偏振不对称及刊版标注差异。
+- [[frauendorf-2024-chiral-wobbling-commentary]] — ⁷⁴Br 评论的实验依赖与组态文字差异。
+- [[gao-2024-126cs-multiple-chiral-doublets]] — ¹²⁶Cs 双带重分析、混合比与原表限制。
+- [[paul-2005-ce131-ce132-superdeformed-high-spin]] — ¹³¹˒¹³²Ce 超形变带的连线和指认边界。
+- [[choudhury-2010-105cd-antimagnetic-rotation]] — ¹⁰⁵Cd 的 DSAM 寿命与反磁转动检验。
+- [[peng-chen-2020-135nd-3d-tac-cdft]] — ¹³⁵Nd 两组态、三维 TAC 和势垒的模型条件。

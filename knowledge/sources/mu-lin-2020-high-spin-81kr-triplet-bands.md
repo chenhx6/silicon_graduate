@@ -3,7 +3,7 @@ type: source
 title: "穆琳 2020 硕士论文：81Kr 两对三重带结构"
 aliases: [穆琳81Kr论文, Mu Lin 81Kr triplet bands thesis]
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: masters-thesis-experiment-and-model
@@ -70,3 +70,7 @@ tags: [a80, chiral-doublet-bands, pseudospin, triplet-bands, masters-thesis]
 ## Extracted Pages
 
 - 题名页/摘要：PDF p.8；实验与能级图：Chs.2–3；物理讨论：Ch.4；总结：PDF p.61。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 22–24、31–34 为 AFRODITE 采集、ADO 与线偏振。ADO 用 Iγ(135°)/Iγ(90°)，拉伸偶极与四极参考约 0.80、1.33。PDF 35 Fig. 3.2 的带 2 顶部为暂定 (37/2⁺)，PDF 44–50 列跃迁。作者以带 2/4 与 5/7 为手征候选、5/6 为赝自旋候选；带 5 被两配对共享。PDF 51–60 中的 B(M1)/B(E2) 由能量和相对强度等推得，取 δ=0 近似。PDF 55–59 的 RMF/PRM 属模型结果，PDF 62 提出寿命与绝对强度的后续检验。

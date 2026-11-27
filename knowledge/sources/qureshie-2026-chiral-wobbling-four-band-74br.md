@@ -3,7 +3,7 @@ type: source
 title: "Qureshie 等 2026：74Br 手征—摆动四带网络的 TPSM/PTR 预测"
 aliases: [Qureshie 2026 74Br four bands, Novel chiral-wobbling excitation mode in atomic nuclei]
 created: 2026-10-29
-updated: 2026-10-29
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: theoretical-paper
@@ -78,3 +78,9 @@ Guo2024 是已有实验入口；本文 TPSM/PTR 对同批谱学观测的描述�
 ## Extracted Pages
 
 PDF1摘要与背景；PDF2 Hamiltonian/参数；PDF3 Figs.1–4；PDF4 Figs.5–8及逐线强度解释；PDF5结论与引用；PDF6引用。视觉覆盖PDF3–4；未读取作者数值程序或未发现的SI。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 3 Fig. 1 的实验面板仅 B1–B3，沿用 Guo 等 2024。B4 来自 TPSM/PTR 计算，且两模型用不同形变输入。PDF 4 Fig. 7 的 B4→B2 预测主要为 E2；B4→B3 的强度份额有交错与多个 >50% 点。
+
+模型的 RMS 角动量分量无相位信息，尚需实验约束第四带与带间线。

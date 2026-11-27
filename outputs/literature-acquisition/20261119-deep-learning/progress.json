@@ -677,7 +677,7 @@
     "LOCAL-ROTATION-AND-DEFORMATION-SOURCES",
     "LOCAL-THEORY-AND-SPECTROSCOPY-245"
   ],
-  "completed_full_sources_this_run": 466,
+  "completed_full_sources_this_run": 490,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -685,25 +685,26 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-27T01:58:33.961483+00:00",
+  "updated_at": "2026-11-27T02:27:30.221233+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 19172,
+  "completed_primary_pages_this_run": 19579,
   "current_source_note": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
-  "next_action": "Continue Bohr–Mottelson II at PDF 386 (printed 364), and reconcile the next local-original worker groups.",
-  "runtime_background_jobs_running": false,
+  "next_action": "Continue Bohr–Mottelson II PDF 421 (printed 399) and read the independently dispatched local originals.",
+  "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "Second wave added 9 covered works (127 primary pages) and book PDF 316–349 (34 bounded pages).",
-  "current_source_scientific_acceptance": "Bohr–Mottelson II read through local PDF 349, printed p. 327; whole volume not credited.",
+  "last_source_manager_closure": "24 works and 407 primary PDF pages credited in this publication increment. Eight associated material entries were reconciled without primary credit.",
+  "current_source_scientific_acceptance": "Bohr–Mottelson II through local PDF 420, printed 398. Whole volume not credited.",
   "source_scoped_retrieval": "Existing local originals; publisher and author versions recorded separately.",
   "counting_scope": {
-    "scientific_reading_covered": 448,
+    "scientific_reading_covered": 472,
     "bounded_or_core_only_completed": 18,
-    "credited_pages_explicit_in_queue": 8714,
+    "credited_pages_explicit_in_queue": 9121,
     "pages_carried_forward_from_previous_checkpoints": 10458,
     "increment_this_checkpoint": {
-      "works": 0,
-      "pages": 0,
-      "partial_volume_pages_recorded_separately": 36
+      "works": 24,
+      "pages": 407,
+      "partial_volume_pages_recorded_separately": 35,
+      "associated_rows": 8
     }
   },
   "previous_pause": {
@@ -724,5 +725,5 @@
     "resume_printed_page": 259,
     "background_reading_scheduled": false
   },
-  "latest_batch_audit": "20261127-book-c-audit.json"
+  "latest_batch_audit": "20261127-material-roles-audit.json"
 }

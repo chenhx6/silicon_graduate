@@ -3,7 +3,7 @@ type: source
 title: "Ljungvall 2020：GANIL 的 AGATA Doppler、PSA 与事件混合响应"
 aliases: [AGATA GANIL performance 2020, Ljungvall GANIL efficiency position]
 created: 2026-10-14
-updated: 2026-11-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-instrument-method-experiment
@@ -140,3 +140,9 @@ P0：public获取身份/未归档raw槽位/version字段明示。P1：LG20-7/14�
 ## Extracted Pages
 
 PDF1–24正文/Appendix，25–33参考按相关项回链；核心12–23。实际events和原2011模板论文仍未取得。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+预印本 PDF 7–8、23，1332 keV 中子损伤校正后的中心触点、分段和 FWHM 为 2.57、3.08 keV；校正前中心触点正文为 2.93、结论为 3.08 keV。PDF 14–17 Figs. 11–13 中，排除单点事件使 ¹¹⁷³ keV 峰总比从 36.4(4)% 到 52.4(6)%，全能峰效率损失 17%。PDF 18–20 的 5.1 mm 位置 FWHM 借助 ⁹⁸Zr 反冲谱与 Geant4 响应反演。
+
+效率、峰总比和位置反演各自有样本、追踪及反冲条件。刊版与预印本共用原数据。

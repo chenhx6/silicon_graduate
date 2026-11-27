@@ -3,7 +3,7 @@ type: source
 title: "Matev等2007：A≈130有效四极矩与对齐的可加性"
 aliases: [Matev 2007 quadrupole alignment additivity, A130 effective quadrupole additivity]
 created: 2026-10-15
-updated: 2026-10-15
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-theory-and-method
@@ -208,3 +208,9 @@ Decision: **supports** Qt需要实际坐标/几何与reference，**limits** 单�
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | MT07-D20-R146-1 | 143恢复的统一Qt残差σ=.15、严格全域可加性及ND→HD机制已撤回。所列系数绑定reference131Ce、.65MeV与183/105选定无配对计算配置；局部模型回归不外推ND到HD的整个形状改变。7.4(3)是Clark1996外源reference，7.3(4)是Petrache1998本工作不同fit，不能互换或据标量平方得到8倍实测B。此项沿既有R35原读边界，本轮未重新全文读Matev。 | prior-primary-audit-boundary | source-and-bounded-self-audit | MT07-D20-R35-1至R35-3; PDF5–7 Eq19–28; PDF11/12 TableII/Figs5/6 | true |
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 4–7 的 CHF+SLy4/CRMF+NL1 分别用 183/105 构型，按 ¹³¹Ce 参考构型和给定频率回归有效四极矩与对齐。PDF 11 Table II 的 ν6₂(+i) 的 q_t 为 0.37(3)/0.37(1) eb；π[404]9/2(+i) 为 −0.38(2)/−0.38(1) eb。PDF 9–10 Eq. (31) 邻文的 ¹³¹Cs 与计算参考构型 ¹³¹Ce 存在印字差异。
+
+Fig. 4 的实心点复用实验文献。回归模型、形变转轴与构型选择须连同参数保留。

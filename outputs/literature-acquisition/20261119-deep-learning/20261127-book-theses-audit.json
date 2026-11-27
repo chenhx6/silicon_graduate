@@ -1,0 +1,109 @@
+{
+  "batch": "20261127-book-theses",
+  "created_at": "2026-11-27T02:25:03.075225+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000049",
+      "source": "knowledge/sources/peng-chen-2020-135nd-3d-tac-cdft.md",
+      "identity": "J. Peng and Q. B. Chen, arXiv:2009.08075v1 (2020-09-17). Filename attribution to Lawrie disagrees with the original title page.",
+      "coverage": [
+        "PDF 1–6, Figs. 1–4, conclusion and reference list."
+      ],
+      "boundary": [
+        "PC-PK1 calculation reused published experimental results and neglected pairing. D5 has a fixed-configuration convergence limit."
+      ],
+      "disposition": "covered",
+      "worker": "manager",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260912-PREPLAN-135nd-crosswalk/lawrie-2020-135nd-cdfT.pdf",
+      "sha256": "d756bbd68c74684ecbc4dfc1bd1d16bf7a62ae23371d341d00924ddddac74946",
+      "physical_pages": 6
+    },
+    {
+      "id": "catalogue:LIT-000561",
+      "source": "knowledge/sources/mu-lin-2020-high-spin-81kr-triplet-bands.md",
+      "identity": "穆琳，山东大学理学硕士论文，2020，带 CNKI 页脚的完整单册。PDF 1–2 的两份封面同属此册。",
+      "coverage": [
+        "PDF 1–73（正文印 1–62），两份题名页、摘要、目录、第 1–5 章、参考文献、末尾材料。"
+      ],
+      "boundary": [
+        "Thesis and its linked 81Kr paper use the same AFRODITE campaign. The transition list was checked at evidence rows; raw coincidences and model inputs were outside coverage."
+      ],
+      "disposition": "covered",
+      "worker": "Sartre with manager spot check",
+      "source_pdf": "raw/theses/degree-dissertation/穆林_硕士.pdf",
+      "sha256": "d2723499e0298c02d64692577228d638a94a725a73a287c1d19d4dcc0e50d620",
+      "physical_pages": 73
+    },
+    {
+      "id": "catalogue:LIT-000562",
+      "source": "knowledge/sources/mu-lin-2024-exotic-shapes-sn-isotopes.md",
+      "identity": "穆琳，山东大学理学博士论文，2024，带 CNKI 页脚的完整单册。",
+      "coverage": [
+        "PDF 1–98（正文印 1–84），前置材料、第 1–5 章、参考文献、发表目录与末尾材料。"
+      ],
+      "boundary": [
+        "PDF 92 lists PRC 109 L051303 as the 112Sn branch of this thesis; journal coverage needs its own original. The 111Sn manuscript is listed as to be submitted in this thesis edition."
+      ],
+      "disposition": "covered",
+      "worker": "Sartre with manager spot check",
+      "source_pdf": "raw/theses/degree-dissertation/穆林_博士.pdf",
+      "sha256": "54352ad352fb574921f49591c1f77bd1710e9b3b854f0fb306e6f289d5e80a2d",
+      "physical_pages": 98
+    },
+    {
+      "id": "catalogue:LIT-000524",
+      "source": "knowledge/sources/liu-2008-shape-coexistence-188pt.md",
+      "identity": "刘渊，中国科学院研究生院硕士论文，2008，完整本地单册，PDF 1 有题名与培养单位。",
+      "coverage": [
+        "PDF 1–42（正文及数值附录印 1–38），前置材料、第 1–6 章、参考文献、数值附录、发表清单、致谢。"
+      ],
+      "boundary": [
+        "The positive-parity shape assignment depends on configuration and PSM; the original 2008 paper listed on PDF 41 is a publication lineage lead."
+      ],
+      "disposition": "covered",
+      "worker": "Sartre with manager spot check",
+      "source_pdf": "raw/theses/degree-dissertation/刘渊 - 形状共存.pdf",
+      "sha256": "dae7d6fb505b9baa4c8669cedc7081e51f2088099327e578f8d58b7c2c455df7",
+      "physical_pages": 42
+    },
+    {
+      "id": "catalogue:LIT-000302",
+      "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "identity": "Bohr and Mottelson, Nuclear Structure II, 1975 original, local World Scientific 1998 reissue, 772 physical pages.",
+      "coverage": [
+        "PDF 386–420 (printed 364–398), end of §6-3b and §§6-3c–6-3f, Figs. 6-4–6-6."
+      ],
+      "boundary": [
+        "PDF 421 only checked to locate §6-4, excluded from this completed segment. Earlier book coverage 281–385 is separate."
+      ],
+      "disposition": "partial",
+      "worker": "Pascal with manager spot check",
+      "source_pdf": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "physical_pages": 772
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 472,
+    "duplicate-or-related-version": 11,
+    "duplicate-excerpt-linked-to-canonical": 5,
+    "pending-identity-and-coverage": 285,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 3,
+    "existing-source-coverage-to-audit": 195,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 480,
+  "credited_works": 4,
+  "credited_primary_pages": 219,
+  "partial_volume_pages": 35,
+  "next_action": "Continue Bohr–Mottelson II PDF 421 (printed 399) and read the independently dispatched local originals.",
+  "uncredited": []
+}

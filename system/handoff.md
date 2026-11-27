@@ -17,6 +17,8 @@ updated: 2026-11-25
 
 其后核定 16 份、302 个主件 PDF 页，其中本轮新增刊版正文覆盖与既有全文范围核对分开登记，另链接 Green 节录和 Lauritsen HAL 两条重复版本。核定累计 466 份、19,172 个主件 PDF 页，队列剩 504 条。第二卷续核 PDF 350–385（印 328–363），下从 PDF 386（印 364）继续。见[本段覆盖](../outputs/literature-acquisition/20261119-deep-learning/20261127-book-c-audit.json)。此批稳定指针为 `research/archive-learning-20261127` + `research: record verified archive reading batches`。见[来源身份核对](../outputs/literature-acquisition/20261119-deep-learning/20261127-identity-b-audit.json)、[图表与既读范围核对](../outputs/literature-acquisition/20261119-deep-learning/20261127-returned-a-audit.json)、[转动与磁矩来源核对](../outputs/literature-acquisition/20261119-deep-learning/20261127-rotor-a-audit.json)。
 
+本批再核定 24 份、407 个主件 PDF 页。其中三份为学位论文，Martin 的 ENSDF 相位约定按第 14 章核定 9 页。另处置 8 条关联件，分为 4 条重复版、3 条补件及 1 条可转读本地刊文 HTML 的访问占位页。累计 490 份、19,579 个主件 PDF 页，正式队列待处理 472 条。第二卷新增 PDF 386–420（印 364–398），另计 35 页，续读 PDF 421（印 399）§6-4。稳定指针为 `research/archive-learning-20261127` + `research: verify theses, supplements and archive reading`。见[原件与既读范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-returned-b-audit.json)、[书与学位论文](../outputs/literature-acquisition/20261119-deep-learning/20261127-book-theses-audit.json)、[关联件核定](../outputs/literature-acquisition/20261119-deep-learning/20261127-material-roles-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

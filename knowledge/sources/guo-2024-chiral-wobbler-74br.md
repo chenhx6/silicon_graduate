@@ -3,7 +3,7 @@ type: source
 title: "Guo et al. 2024 - Evidence for Chiral Wobbler in Nuclei"
 aliases: [Guo 2024 74Br chiral wobbler]
 created: 2026-07-16
-updated: 2026-09-20
+updated: 2026-11-27
 status: active
 review_status: human-reviewed
 source_type: journal-article
@@ -208,3 +208,9 @@ For paper use, recheck any quoted Table-I number against the stated gate, uncert
 ## 2026 theoretical follow-up and Day27 bounded replay
 
 [[qureshie-2026-chiral-wobbling-four-band-74br]] uses this experimental B1-B3 network and predicts B4; it adds a model extension, not independent experimental replication. [[74br-four-band-branching-network-readiness]] replays Supplement Table I's 8+,9+,10+ B3 branches with lifetime cancellation, preserving the printed-input and missing-covariance boundary. This addition does not change the earlier human-review scope or clear existing claim-level review flags.
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2 与 PDF 5 Summary 将三带主要组态列为 πg₉/₂⊗νg₉/₂。2024 Frauendorf 评论 PDF 3 的 h₁₁/₂ 粒空穴例写在讨论 ⁷⁴Br 处，组态引用应回到实验原文。SI Table I 同页按 383 keV 归一列 ADO、P、δ 和派生强度。
+
+评论、SI、两个期刊分发副本和 PRM 对照共用同一实验链；既有逐线核对继续作为使用寿命和多极性的约束。

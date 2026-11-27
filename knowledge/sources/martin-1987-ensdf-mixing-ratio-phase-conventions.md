@@ -3,7 +3,7 @@ type: source
 title: "Martin 1987：ENSDF混合比相位、未观测转换与参考角色"
 aliases: [Martin 1987 ENSDF phase convention, ENSDF procedures phase chapter]
 created: 2026-10-18
-updated: 2026-10-18
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: method-chapter
@@ -85,3 +85,9 @@ tags: [ensdf, phase-convention, reference-role, unobserved-transition]
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | MA87-D21-1 | 依据 Martin 1987 ENSDF 手册对混合比相位体系展开代数对账审计证明：(1) 对相邻多极（L'=L+1），Steffen 体系与 Rose-Brink 体系严格满足 delta_RB = - delta_S；混淆两体系将直接反转角分布干涉项 2*delta*F_k 符号，在 delta=0.5 时致使 A2 发生 0.765 的巨大虚假漂移（从 -0.1937 变为 +0.5713）；(2) 始发跃迁 B_k 与后续跃迁 A_k 在 Steffen 展开中干涉项符号相反（前者为负，后者为正）；(3) 经由未观测中间混合级联退激时，必须通过全衰变参数 Delta^2（考虑总内转换系数比值）计算退定向因子 U_k，忽略内转换在低能区可造成退定向衰减几百分点的系统失真。 | phase-convention-deorientation-boundary | direct-original-and-quantitative-audit | pp.1–9 Eqs.(1)–(10), Table I; phase-conventions-deorientation-audit-032.json | true |
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+章内 Eqs. (1)–(8)、Table I 的 Steffen 首、末线干涉相位不同，Rose–Brink 转换也须同时用相应系数。PDF 135–136 Eqs. (9)–(10) 给未观测中间级联按总转换系数加权的退取向；PDF 136 Eqs. (12)–(13) 的观测壳电子混合幅度由壳层转换系数修正。式 (13) 左侧扫描上标位置与相邻归一说明有异，应用须回定义。
+
+此项书目对象为第 14 章，其余母本章不计覆盖。角关联源的混合比必须带所用系数与首末门。

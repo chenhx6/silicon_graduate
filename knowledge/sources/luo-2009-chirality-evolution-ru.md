@@ -3,7 +3,7 @@ type: source
 title: "Luo et al. 2009 - Evolution of chirality from gamma-soft 108Ru to triaxial 110,112Ru"
 aliases: [Luo 2009 Ru chirality, 108Ru 110Ru 112Ru chiral vibration]
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -164,3 +164,9 @@ P0: none identified.
 
 - Protected BibTeX record: `luo_2009_Evolutionchirality` in `raw/zotero/wiki-inbox.bib` (read-only).
 - Raw PDF: `raw/papers/2009_Luo et al_Evolution of chirality from γ soft 108Ru to triaxial 110,112Ru.pdf`.
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2–3 的 ¹¹⁰Ru 394.5/867.5 keV 级联给 A₂=−0.079(14)、A₄=0.023(20)，支持 867.5 keV 以偶极为主。PDF 3–4 Table 1 为相对强度配合 ΔI=1 纯 M1 近似的 B(E2)/B(M1)，Fig. 5 改画倒数。PDF 4–5 TAC+RPA 以平面解及约 300 keV 取向声子讨论 ¹¹⁰Ru 双带。
+
+源自既有符合采集的重分析。¹⁰⁸Ru 的不同构型、γ 软性可竞争；¹¹²Ru 带交叉限制小振幅 RPA。

@@ -3,7 +3,7 @@ type: source
 title: "刘渊 2008 硕士论文：188Pt 核的形状共存研究"
 aliases: ["刘渊2008硕士论文", "Liu Yuan 2008 thesis", "188Pt shape coexistence thesis"]
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 issue_id: "DD-20260910-HS-006"
@@ -174,3 +174,7 @@ tags: [high-spin, 188pt, shape-coexistence, shape-transition, prolate, oblate, p
 
 - Raw PDF 与用户 BibTeX 只读；citation key 留空。
 - 未来引用 `188Pt` 形状共存/相变时，应回到 Fig.5.1、Fig.5.6、PSM Eq.2.11 和正文 p.34–36，并执行绝对 E2/寿命及独立模型的 claim-specific verification。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 28 记录 ¹⁷⁶Yb(¹⁸O,6n) 与 JAEA GEMINI 采集。PDF 29、32–33 Figs. 5.1、5.4–5.5 中的负宇称带端点保留原图 (20⁻)，328.8 keV 门约束正宇称级联。PDF 34–35 Fig. 5.6 的竞争极小在 ε≈±0.15，PDF 39–40 的 PSM 表采用投影准粒子真空，列 I=0,2,…,12。PDF 33 的绝对 B(E2) 源自 Ref. 18。

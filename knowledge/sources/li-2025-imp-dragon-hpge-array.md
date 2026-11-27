@@ -4,7 +4,7 @@ title: "Li et al. 2025: IMP-DRAGON HPGe array"
 aliases: [IMP-DRAGON, IMP DRAGON HPGe array, IMP-Detectors for Research by Analyzing Gamma-ray Observation in Nuclei]
 created: 2026-11-01
 archive_required: true
-updated: 2026-11-01
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: detector-method-paper
@@ -130,3 +130,7 @@ or beam calibration inputs.
 This page is a Codex self-audit of a detector-method source. `review_status: unreviewed`;
 reported performance and proposed mappings remain conditional on the paper's geometry and
 commissioning conditions.
+
+## 2026-11-27 — 馆藏关联件核定
+
+本地关联件 `raw/papers/detectors/Array/2025_Li et al_IMP-DRAGON A High-Purity Germanium detector array for probing the atomic nucleus.pdf`，SHA-256 `14c7b250dab8dbf3ec57873547261fd75b7d1a41eb296694361c82193cc080a5`。 两本地容器均为同刊版，核验 PDF 1–6 逐页文字与渲染。 共享同一原文、阵列数据和页码。

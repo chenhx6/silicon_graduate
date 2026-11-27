@@ -3,7 +3,7 @@ type: source
 title: "Meng 2009 - Does Nuclear Chirality Exist?"
 aliases: [孟杰 2009 原子核是否存在手性]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: Chinese-review
@@ -15,8 +15,8 @@ year: 2009
 citation_key: "meng_2009_nuclear-chirality-systematics"
 volume: 38
 issue: 2
-pages: "87-91"
-canonical_source: "孟杰，《物理》38 (2009) 87-91"
+pages: "108-112"
+canonical_source: "孟杰，《物理》38 (2009) 108-112"
 library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2009_孟_原子核是否存在手性.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2009_孟_原子核是否存在手性.pdf"
 raw_sha256: "70ac8390928546ee33ac07a793092880a092bfc4984526e094319eea4fc3dec7"
@@ -33,7 +33,7 @@ tags: [nuclear-chirality, review, Chinese, A130, triaxiality]
 
 ## Bibliographic Record
 
-- 孟杰，《物理》38 卷（2009）2 期，pp.87–91（PDF printed pp.87–91）。
+- 孟杰，《物理》38 卷（2009）2 期，pp.108–112（PDF printed pp.108–112）。
 - 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2009_孟_原子核是否存在手性.pdf`。
 - 5-page Chinese review; an unrelated “physics news” column after the reference section is outside scope.
 
@@ -52,9 +52,9 @@ tags: [nuclear-chirality, review, Chinese, A130, triaxiality]
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| MG09-1 | 核手征源于三轴核中角动量三维取向与左右手构型的动态对称性破缺。 | review-framework | direct | PDF pp.87–89 | true |
-| MG09-2 | 近简并同宇称 `ΔI=1` 带、`S(I)`、alignment、`B(M1)/B(E2)` 与受抑制带间 E2 构成联合 fingerprint。 | review-framework | direct | PDF pp.88–90 | true |
-| MG09-3 | 候选手征带的实验确认需要寿命/绝对跃迁几率和更微观 TAC/RMF/TPRM 验证。 | limitation | direct | PDF pp.89–91 | false |
+| MG09-1 | 核手征源于三轴核中角动量三维取向与左右手构型的动态对称性破缺。 | review-framework | direct | PDF 1–3（印 108–110） | true |
+| MG09-2 | 近简并同宇称 `ΔI=1` 带、`S(I)`、alignment、`B(M1)/B(E2)` 与受抑制带间 E2 构成联合 fingerprint。 | review-framework | direct | PDF 2–4（印 109–111） | true |
+| MG09-3 | 候选手征带的实验确认需要寿命/绝对跃迁几率和更微观 TAC/RMF/TPRM 验证。 | limitation | direct | PDF 3–5（印 110–112） | false |
 
 ## Summary
 
@@ -68,8 +68,8 @@ tags: [nuclear-chirality, review, Chinese, A130, triaxiality]
 
 | ID | 审核项 | Agent 判断 | Evidence / locator | 审核状态 |
 |---|---|---|---|---|
-| MG09-AR-1 | Evidence hierarchy | Review-level fingerprint map must route every candidate back to primary source/locator. | PDF pp.88–91 | self-checking |
-| MG09-AR-2 | Model boundary | TAC/TPRM/RMF explain geometry/energy trends but do not alone prove laboratory chirality. | PDF pp.89–91 | active-L3 |
+| MG09-AR-1 | Evidence hierarchy | Review-level fingerprint map must route every candidate back to primary source/locator. | PDF 2–5（印 109–112） | self-checking |
+| MG09-AR-2 | Model boundary | TAC/TPRM/RMF explain geometry/energy trends but do not alone prove laboratory chirality. | PDF 3–5（印 110–112） | active-L3 |
 
 ## Knowledge Impact and Learning Decision
 
@@ -87,3 +87,9 @@ tags: [nuclear-chirality, review, Chinese, A130, triaxiality]
 
 - Concepts: [[chiral-doublet-bands]], [[nuclear-chirality]]。
 - Models: [[tilted-axis-cranking]], [[triaxial-particle-rotor-model]]。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+印 109–110 Figs. 1–3 把非共面手征几何和能谱、顺排、跃迁指纹关联。印 110 §3 转述 ¹³⁴Pr 与 ¹²⁸Cs 的寿命结论和争议。
+
+历史综述，寿命和模型分别回到所引实测与理论，和 Meng–Zhang 2010 共享被引实验证据。

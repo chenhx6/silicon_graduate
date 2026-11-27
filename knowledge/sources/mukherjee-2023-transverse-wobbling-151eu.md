@@ -3,7 +3,7 @@ type: source
 title: "Mukherjee et al. 2023 - Evidence of transverse wobbling motion in 151Eu"
 aliases: [Mukherjee 2023 151Eu transverse wobbling]
 created: 2026-07-16
-updated: 2026-07-25
+updated: 2026-11-27
 status: active
 review_status: human-reviewed
 source_type: journal-article
@@ -159,3 +159,11 @@ Keep final wording at “candidate/evidence,” consistent with the paper summar
 | MU23-D18-1 | **superseded**：旧关于“制造了高达600倍虚假放大”的过强断言降格，由MU23-D18-8/9分层记录作者对415.0/537.9 keV大解（E2主导）的选择依据、偏振不对称度显著性（1.09sigma/1.60sigma）与反事实小根敏感性。 | task-correction | superseded-interpretation | 本段D18-8/9；旧mukherjee23-151eu-wobbling-result-024 | true |
 | MU23-D18-8 | 本文Table III报告415.0 keV与537.9 keV带间跃迁混合比大解分别为delta = -3.3(+1.5/-3.3)与-6.3(+4.1/-8.8)，对应E2份额91.6%与97.5%，支持Band C为一声子横向wobbling带；线偏振不对称度测量值分别为Delta = +0.038(35)（Z = 1.09sigma）与+0.024(15)（Z = 1.60sigma），具有正偏振倾向但统计显著性有限。 | source-result-and-method | direct | PDF pp.5-6 Table III, Figs. 5-8；Sec. III | true |
 | MU23-D18-9 | RDCO允许的第二组小根解（-0.12与-0.04）对应E2份额仅1.42%与0.16%，构成对混合比选择的敏感性测试；作者依据正不对称度倾向及与TPSM模型关于E_wobb随自旋下降趋势的符合，选定大解并判定为A≈150区首个横向摆动候选核。 | author-interpretation-boundary | direct-and-boundary | PDF pp.6-10 Figs. 11, 14；Sec. IV | true |
+
+馆藏中另一个同字节副本为 `raw/papers/gpt/query/20261107-round2-orientation-window/mukherjee-2023-151eu-wobbling.pdf`。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 4 为 DCO 响应取 σ/j≈0.35，来自实测纯 E1/E2 参考。PDF 6 Figs. 5–6 的 415.0 keV DCO 候选中心 δ≈−3.3 或 −0.12，加入偏振后选大绝对值根，区间较宽。PDF 6 的 554.5 keV A–B 偏振不对称 −0.079(28) 主要支持磁性。
+
+选根依赖采用的取向与灵敏度。C 带的横向摆动是比较强度、摆动能与 TPSM 后的解释，可按原件带条件复用。

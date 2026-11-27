@@ -3,7 +3,7 @@ type: source
 title: "Miller et al. 2007 - Linear polarization sensitivity of SeGA detectors"
 aliases: [Miller 2007 SeGA polarization]
 created: 2026-09-21
-updated: 2026-10-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: method-paper
@@ -159,3 +159,9 @@ Miller *et al.* establish a practical side-irradiated SeGA polarization calibrat
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | MI07-D22-R118-1 | 在R115完全相同的任务四cell/knownQ模型中，反演noncentral hypergeometric的包含观测表的两尾，各α/2=.025得central95 P区间[−.023264,.620768]；单侧95 lower为.027894，与单侧p=.034634<.05相符。中央双侧区间仍含0不与单侧检验矛盾。五项尾值/边界/小margin枚举控制通过；不是原实验CI、校准Q不确定度或机制置信度。 | conditional-finite-sample-interval | task-mathematics-not-experimental-data | printed714Eqs5/6context;matched-null-conditional-interval-118.json | true |
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2 Eqs. (2)–(6) 采用 a=N_perp(unpol)/N_parallel(unpol)，定义 A=(N_perp−a N_parallel)/(N_perp+a N_parallel)=QP。PDF 3–6 以 ²⁴⁹Cf α–γ 符合中 ²⁴⁵Cm 333/388 keV 纯 E1 进行正、反偏振校准，Table 1 给 Q=0.14(2)。
+
+结果仅覆盖给定的侧入射 SeGA 几何和低能校准。新阵列或更高能区须另定响应。

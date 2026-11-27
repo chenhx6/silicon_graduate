@@ -3,7 +3,7 @@ type: source
 title: "Rahaman et al. 2024 - Spectroscopic study of 40K"
 aliases: [Rahaman 2024 40K spectroscopy]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-shell-model
@@ -92,3 +92,9 @@ Rahaman *et al.* provide a modern low-mass high-spin spectroscopy case with a co
 ## Extracted Pages
 
 - Methods/observables: [[angular-distribution]], [[angular-correlation]], [[compton-polarimetry]], [[multipole-mixing-ratio]]。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+以 68 MeV ¹⁹F 的 INGA 实验给 ⁴⁰K 新增 6 态和 14 条 γ 线。PDF 2–5 用 148°/90° DCO，对照 ³⁷Ar/⁴²Ca 参考并采用 σ/J=0.3。Table I 在同 891 keV 门下给 2332.7 keV E2、1651.5 keV M2 的 IPDCO +0.08(3)、−0.06(1)。
+
+表 V 的实验寿命沿用 Ref. [1]；原文点明未辨出新寿命提取所需线形。未观察到旧 7033 keV 态的连接限于当前符合灵敏度。

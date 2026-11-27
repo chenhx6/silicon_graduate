@@ -108,7 +108,7 @@ Checked the official APS article page and SI routes on 2026-10-09. The landing p
 
 - Zhu 等 2003 PRL（arXiv `nucl-ex/0302029`，DOI `10.1103/PhysRevLett.91.132501`）报告 `110Pd(30Si,5n)`、133 MeV 下的 `135Nd` Band A/B：两条近简并、同宇称的 `ΔI=1` 带，由 `ΔI=1` 和 `ΔI=2` links 连接，并以三维 TAC 讨论三准粒子手征结构。该论文的带名是 Band A/B，不应倒写成其当时已经使用 D5/D6。
 - Mukhopadhyay 等 2007 PRL（arXiv `0708.1493`，DOI `10.1103/PhysRevLett.99.172501`）在 `100Mo(40Ar,5n)`、175 MeV 的 Gammasphere 数据中对先前 Band A/B 测得寿命、`B(M1)` 和 `B(E2)`，并讨论从 chiral vibration 到 static chirality。2019 PRC 的 D5/D6 负宇称 pair 与该历史负宇称谱系相连，但实验 campaign 不同。
-- Qi 等 2009 的 PRM 理论论文（arXiv `0812.4597`，DOI `10.1016/j.physletb.2009.02.061`）和 Lawrie 等 2020 的 CDFT 理论论文（arXiv `2009.08075`，DOI `10.1016/j.physletb.2020.135795`）是模型/后续理论支持，不替代 2019 PRC 的实验 parity 记录。
+- Qi 等 2009 的 PRM 理论论文（arXiv `0812.4597`，DOI `10.1016/j.physletb.2009.02.061`）和 [[peng-chen-2020-135nd-3d-tac-cdft|Peng 与 Chen 2020]] 的 CDFT 理论预印本（arXiv `2009.08075v1`）是模型/后续理论支持，不替代 2019 PRC 的实验 parity 记录。
 - Lv 2019 博士论文是同一作者/实验谱系的学位论文层记录；期刊文章与 thesis 不能作为两个独立 JUROGAM II 实验计数。
 
 ## Key Results

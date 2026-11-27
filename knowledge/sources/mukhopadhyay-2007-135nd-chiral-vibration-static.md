@@ -3,7 +3,7 @@ type: source
 title: "Mukhopadhyay et al. 2007 - From chiral vibration to static chirality in 135Nd"
 aliases: [Mukhopadhyay 2007 135Nd chirality]
 created: 2026-09-21
-updated: 2026-10-26
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-model
@@ -440,3 +440,7 @@ P0: none identified（本次新增范围无未隔离技术hard P0）。P1：MU07
 - The experiment at 175 MeV with a Pb-backed Mo target and about \(2.5\times10^9\) fold≥5 events supplies the lifetime input for the negative-parity D5/D6 pair discussed in [[lv-2019-chirality-135nd-reexamined]]. The latter's 152 MeV JUROGAM II experiment supplies later spectroscopy and cites the older absolute strengths.
 - On 172501-2, the coincidence gate includes the full peak shape when the transition has a Doppler-shifted component, reducing a bias toward selected emission times. The reported LINESHAPE simulation uses 5,000 recoil histories with a 0.002 ps time step and SRIM electronic stopping. Table I's similar partner strengths coexist with different level lifetimes. For example at \(31/2^-\), the lifetimes are \(0.75(8)\) and \(1.46(2)\) ps, while the reduced E2 strengths are \(0.32(3)\) and \(0.28(3)\) \(e^2b^2\).
 - [[mukhopadhyay-2008-136nd-transition-rates]] reports the same beam energy, target/backing and rounded high-fold total for the neighbouring 4n channel. This is a possible shared Gammasphere campaign. Distinct nuclide gates and transitions support different physics comparisons. The acquisition ID and event overlap cannot be recovered from the printed totals.
+
+## 2026-11-27 — 馆藏关联件核定
+
+本地关联件 `raw/papers/gpt/learning-daily/20260912-PREPLAN-135nd-crosswalk/almehed-2007-135nd-tac-rpa.pdf`，SHA-256 `244102a3716d2f12459c5d9b1dd9c024a51a579f6e11b7ecf8fbb6ac8b886c10`。 预印本 PDF 1 题名与作者行印证同文；图中 ¹³⁵Nd 两带寿命与比较量对应刊文。 按 APS 刊版定位和计读；预印本页号不能直接用于刊版。

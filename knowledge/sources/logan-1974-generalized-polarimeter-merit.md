@@ -3,7 +3,7 @@ type: source
 title: "A generalized figure of merit for gamma-ray polarimeters"
 aliases: ["Logan 1974 polarimeter merit", "Generalized Compton polarimeter figure of merit"]
 created: 2026-09-20
-updated: 2026-10-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: method
@@ -169,3 +169,9 @@ Logan et al. provide a background-inclusive figure of merit for gamma polarimete
 [实际977输入](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/logan1974-table-contract.json)、[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/logan1974-table-result.json)，script `system/scripts/day17_logan1974_merit_audit.py`。原小数点排版读法/旧OCR变体均保；源Table2小差不强配。独立符号推VarA精确重现Eq2，同时标出backgroundestimate噪声假设与equalexposure，不做新MC。
 
 本次`revises`旧Wiki表数值/OCR，`supports`background/ε/目标精度分层，`limits`merit跨定义/跨source/跨非正交geometry迁移。[[compton-polarimetry]]、[[linear-polarization-asymmetry]]、[[polarimetry-shared-calibration-count-design]]与[[garciaraffi-1995-nonorthogonal-compton-polarimeter]]保常数/分母/共享Cov。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 1–2 Eqs. (1)–(3) 的统计优值同时依赖效率、灵敏度、偏振和两个方位峰背比，仅在高峰背比进入无本底极限。PDF 2 Table 2 的 ⁵⁶Co 977 keV 算例在 P=1 时常规与平面装置的归一优值为 1 和 0.0049。
+
+算例使用旧实验效率/灵敏度数据，装置比值随能量、配置和本底而变。

@@ -1,0 +1,126 @@
+{
+  "batch": "20261127-material-roles",
+  "created_at": "2026-11-27T02:27:30.221233+00:00",
+  "records": [
+    {
+      "work_id": "catalogue:LIT-000024",
+      "source": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "sha256": "8525caa69d98e808253e3c790430982451f621a01ce4e7f438ab3fe1d836bcd6",
+      "raw_file": "raw/papers/2022_Guo et al_Probing the nature of the conjectured low-spin wobbling bands in atomic nuclei supplement.pdf",
+      "physical_pdf_pages": 6,
+      "disposition": "supplement-linked-to-canonical",
+      "canonical_work_id": "doi:10.1016/j.physletb.2022.137010",
+      "identity": "Same SHA-256 as the official 6-page SI already bound to the 187Au paper.",
+      "coverage": "补件 PDF 1–6。PDF 3 左栏用 Ref. 2 的同型 Clover 灵敏度 Q 换算 P=A/Q。PDF 3 Fig. 2(c) 在可变取向宽度下标示 δ∈[−0.42,−0.15]；引用此区间应注明补件图的位置。PDF 4 以曲线与实验误差矩形相交界定允许范围。",
+      "boundary": "上述范围未给联合置信水平。PDF 5–6 的 ¹⁸³Au 偏振误差讨论复用他人谱，保留其中 a、Q 和本底假定。"
+    },
+    {
+      "work_id": "catalogue:LIT-000035",
+      "source": "knowledge/sources/li-2025-imp-dragon-hpge-array.md",
+      "sha256": "14c7b250dab8dbf3ec57873547261fd75b7d1a41eb296694361c82193cc080a5",
+      "raw_file": "raw/papers/detectors/Array/2025_Li et al_IMP-DRAGON A High-Purity Germanium detector array for probing the atomic nucleus.pdf",
+      "physical_pdf_pages": 6,
+      "disposition": "duplicate-or-related-version",
+      "canonical_work_id": "catalogue:LIT-000519",
+      "identity": "Same title, authors, DOI 10.1016/j.nima.2025.170804 and six printed pages. Worker verified equal per-page extracted text and equal rendered pixel hashes across differing PDF containers.",
+      "coverage": "两本地容器均为同刊版，核验 PDF 1–6 逐页文字与渲染。",
+      "boundary": "共享同一原文、阵列数据和页码。"
+    },
+    {
+      "work_id": "catalogue:LIT-000048",
+      "source": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "sha256": "244102a3716d2f12459c5d9b1dd9c024a51a579f6e11b7ecf8fbb6ac8b886c10",
+      "raw_file": "raw/papers/gpt/learning-daily/20260912-PREPLAN-135nd-crosswalk/almehed-2007-135nd-tac-rpa.pdf",
+      "physical_pdf_pages": 10,
+      "disposition": "duplicate-or-related-version",
+      "canonical_work_id": "catalogue:LIT-000564",
+      "identity": "arXiv:0708.1493v2 title and author list identify Mukhopadhyay et al. PRL 99, 172501 (2007), not an independent Almehed work.",
+      "coverage": "预印本 PDF 1 题名与作者行印证同文；图中 ¹³⁵Nd 两带寿命与比较量对应刊文。",
+      "boundary": "按 APS 刊版定位和计读；预印本页号不能直接用于刊版。"
+    },
+    {
+      "work_id": "catalogue:LIT-000051",
+      "source": "knowledge/sources/walz-2015-competitive-double-gamma-137ba.md",
+      "sha256": "e02bb09bae8f80252a4dca64fe2d487d2c05f292abda1f3a5249ff614a70e2d9",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/SUPPLEMENTARY INFORMATION.pdf",
+      "physical_pdf_pages": 14,
+      "disposition": "supplement-linked-to-canonical",
+      "canonical_work_id": "catalogue:LIT-000743",
+      "identity": "Walz et al. supplement names the parent Nature DOI 10.1038/nature15543 at the head of PDF 1. The same 14-page SHA is already bound in HS-116.",
+      "coverage": "并入已有 PDF 1–14 全段核读记录。PDF 1 Methods 的 prompt 时间门宽 2.4 ns，纳入 90(3)% 的 γγ 事件；Letter 报告的 δ 已作这一门宽修正。",
+      "boundary": "此处 δ 是双光子分支的角分布量。时间门效率与 PDF 5 的能量差门修正应分别记录。"
+    },
+    {
+      "work_id": "catalogue:LIT-000052",
+      "source": "knowledge/sources/frauendorf-meng-1997-tilted-rotation-chirality.md",
+      "sha256": "2bd27510b61b1ca7e9d0eff559f8c0bcde46939249d7c5a720bf8425f7114f81",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/1997_Frauendorf_Jie Meng_Tilted rotation of triaxial nuclei.pdf",
+      "physical_pdf_pages": 21,
+      "disposition": "duplicate-or-related-version",
+      "canonical_work_id": "catalogue:LIT-000413",
+      "identity": "FZR-156 (November 1996), same title, authors and model comparison as NPA 617 (1997) 131–147.",
+      "coverage": "预印本版式 21 页，原 source 记录全篇及 Figs. 1–9。",
+      "boundary": "共享同一理论工作；按实际使用的版本引用。"
+    },
+    {
+      "work_id": "catalogue:LIT-000056",
+      "source": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+      "sha256": "1eb2c1af4ff7d1bf6460c154baabacb80e3ca7e63fa1832ca1d1b3d58b5ea9a0",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/实验/2024_Guo et al_Evidence for Chiral Wobbler in Nuclei 1.pdf",
+      "physical_pdf_pages": 3,
+      "disposition": "supplement-linked-to-canonical",
+      "canonical_work_id": "doi:10.1103/physrevlett.132.092501",
+      "identity": "Guo et al. 74Br three-page supplement. Original title pages and SHA establish paired APS article and SI.",
+      "coverage": "PDF 1–3，使用母文 source 的已核 SI 范围。",
+      "boundary": "与主文共用同一 ⁷⁴Br 数据。"
+    },
+    {
+      "work_id": "catalogue:LIT-000057",
+      "source": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+      "sha256": "f8ca78604264fc3cf5081d8ddd20c2a8e708e3fe4526d73fa037f1f75c532fe6",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/实验/2024_H. Amro et al_Evidence for Chiral Wobbler in Nuclei.pdf",
+      "physical_pdf_pages": 7,
+      "disposition": "duplicate-or-related-version",
+      "canonical_work_id": "doi:10.1103/physrevlett.132.092501",
+      "identity": "Guo et al. 74Br APS article according to first page and DOI; H. Amro in filename does not identify the work.",
+      "coverage": "7 页复本与母文首末物理页的题名、刊号和正文一致。",
+      "boundary": "与正本文字、实验及卷期绑定，单独保留容器哈希。"
+    },
+    {
+      "work_id": "catalogue:LIT-000084",
+      "source": "knowledge/sources/ronning-2026-70zn-magnetic-lee.md",
+      "sha256": "561a77a96ed196b1661692251005c9c214b7e54074f8fa6d699f0bedc1fb53ab",
+      "raw_file": "raw/papers/gpt/learning-daily/20261101-day29-70zn-lee/ronning-2026-70zn-lee.pdf",
+      "physical_pdf_pages": 0,
+      "disposition": "access-placeholder-linked-to-archived-html",
+      "canonical_work_id": null,
+      "identity": "The path ending .pdf contains HTML for a browser challenge. Separately archived PMC13391350 HTML carries the published Nature article.",
+      "coverage": "刊文 HTML 核 Abstract、Main、Methods、Figs. 1–3 和 Extended Data Figs. 1–3 图注、数据与代码声明以及关键引文。实验通过 ⁷⁰Cu 的 1⁺、6⁻ 衰变选择不同自旋区域。Main Figs. 1–2、Methods 的谱矩阵用同批数据的 shape method 约束强度斜率，再以外部光中子量归一。",
+      "boundary": "入口挑战页为零 PDF 页；正文 HTML 对应同一文章。外链图像、补件及原事件在本次覆盖之外。",
+      "alternative_original": {
+        "path": "raw/papers/gpt/learning-daily/20261101-day29-70zn-lee/ronning-2026-70zn-lee.html",
+        "sha256": "5e03a5f49131459664332131d130a3a381fb3bf535e1a1ad53acfa45ebbe6c8a"
+      }
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 472,
+    "duplicate-or-related-version": 15,
+    "duplicate-excerpt-linked-to-canonical": 5,
+    "pending-identity-and-coverage": 277,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 6,
+    "existing-source-coverage-to-audit": 195,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 1,
+    "access-placeholder-linked-to-archived-html": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 472,
+  "credited_works": 0,
+  "credited_primary_pages": 0
+}

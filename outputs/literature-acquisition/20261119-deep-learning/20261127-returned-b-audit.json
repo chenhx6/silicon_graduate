@@ -1,0 +1,349 @@
+{
+  "batch": "20261127-returned-b",
+  "created_at": "2026-11-27T02:18:41.825660+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000523",
+      "source": "knowledge/sources/liu-1996-signature-inversion-a130.md",
+      "identity": "Liu et al., PRC 54, 719–730 (1996), DOI 10.1103/PhysRevC.54.719, APS 刊版。",
+      "coverage": [
+        "PDF 1–12（印 719–730）全文，§§I–VI、Tables I–II、Figs. 1–15。"
+      ],
+      "boundary": [
+        "重指认依赖既有谱学和自旋锚点。Tajima 模型曾用 ¹²⁴Cs I₀=7 谱拟合，不能为该锚点提供独立支持。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/旋称/1996_Liu et al_Systematic study of spin assignments and signature inversion of π h 1 1 - 2 ⊗ν.pdf",
+      "sha256": "ca3e1c1bc834158112dee525fa4c42c3d44596975a506f3a2a1da023580a346f",
+      "physical_pages": 12
+    },
+    {
+      "id": "catalogue:LIT-000529",
+      "source": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
+      "identity": "Ljungvall et al., NIM A 955, 163297 (2020), DOI 10.1016/j.nima.2019.163297；实读 arXiv:2011.08003v1，另核 HDR 所收刊版。",
+      "coverage": [
+        "本地 PDF 1–33；HDR PDF 205–217 为同一文章的刊版附印，本轮定向核 205、208、211、213–215、217。"
+      ],
+      "boundary": [
+        "效率、峰总比和位置反演各自有样本、追踪及反冲条件。刊版与预印本共用原数据。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ljungvall-2020-ganil-performance.pdf",
+      "sha256": "07cb8ea5bf3fa310ad00802a08ef9e07702e7a837d27ba15ae567a3a6adfe3c9",
+      "physical_pages": 33
+    },
+    {
+      "id": "catalogue:LIT-000530",
+      "source": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+      "identity": "Logan, Jones and Ljubičić, NIM 117, 273–275 (1974), DOI 10.1016/0029-554X(74)90409-1, 刊版扫描。",
+      "coverage": [
+        "PDF 1–3（印 273–275），全文含 Eqs. (1)–(3)、Tables 1–2、Figs. 1–2。"
+      ],
+      "boundary": [
+        "算例使用旧实验效率/灵敏度数据，装置比值随能量、配置和本底而变。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1974_Logan et al_A generalized figure of merit for gamma-ray polarimeters.pdf",
+      "sha256": "1b3e1ad53b79b5128dee32cf63224b7b6f5f6a3d6bc50408814aec681421f364",
+      "physical_pages": 3
+    },
+    {
+      "id": "catalogue:LIT-000534",
+      "source": "knowledge/sources/luo-2009-chirality-evolution-ru.md",
+      "identity": "Luo et al., PLB 670, 307–312 (2009), local publisher PDF.",
+      "coverage": [
+        "PDF 1–6 全件，Figs. 1–5、Table 1、Eqs. (1)–(2) 和引用；刊页按实际 PDF 页眉。"
+      ],
+      "boundary": [
+        "源自既有符合采集的重分析。¹⁰⁸Ru 的不同构型、γ 软性可竞争；¹¹²Ru 带交叉限制小振幅 RPA。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre",
+      "source_pdf": "raw/papers/2009_Luo et al_Evolution of chirality from γ soft 108Ru to triaxial 110,112Ru.pdf",
+      "sha256": "9ec5a8e0ba2290c096bd6470e788af0ac4121cdd16dc1790e8deb0d8516a1b56",
+      "physical_pages": 6
+    },
+    {
+      "id": "catalogue:LIT-000544",
+      "source": "knowledge/sources/margraf-1995-odd-a-scissors-mode.md",
+      "identity": "Margraf et al., PRC 52, 2429–2443 (1995), DOI 10.1103/PhysRevC.52.2429, APS 刊版。",
+      "coverage": [
+        "PDF 1–15（印 2429–2443），§§I–VI、Tables I–VIII、Figs. 1–8。"
+      ],
+      "boundary": [
+        "奇核的逐线 B(M1) 积分须带原文 M1 假定。¹⁵⁵Gd 只引初步结果，本文未定碎裂通用机制；保留 Table VIII 的比值表头与 Eq. (7)/Fig. 3 方向差异。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.52.2429.pdf",
+      "sha256": "a5bb72005db1e9d4732c0305ac54697b3e21ccfe0ad6bb19cead0ffe14d1f5bc",
+      "physical_pages": 15
+    },
+    {
+      "id": "catalogue:LIT-000545",
+      "source": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+      "identity": "M. J. Martin, chapter 14 in BNL-NCS-40503 (1987). 编者 M. R. Bhat，母本 DOI 10.2172/5262270。",
+      "coverage": [
+        "章的实际范围为母本 PDF 132–140（章内印 1–9），含 Eqs. (1)–(20)、Table I、参考文献。另核母本封面、目录和章节交界。"
+      ],
+      "boundary": [
+        "此项书目对象为第 14 章，其余母本章不计覆盖。角关联源的混合比必须带所用系数与首末门。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/ensdf-procedures-1987-f08bf2c3e780.pdf",
+      "sha256": "f08bf2c3e7802ed741377c13344a701f54670f19e6c143be5901cd151cc256c8",
+      "physical_pages": 186
+    },
+    {
+      "id": "catalogue:LIT-000546",
+      "source": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+      "identity": "Matev et al., PRC 76, 034304 (2007), DOI 10.1103/PhysRevC.76.034304；实读 arXiv:0707.4324v1。",
+      "coverage": [
+        "PDF 1–14，Figs. 1–6、Tables I–III、Eqs. (1)–(34) 及参考文献。"
+      ],
+      "boundary": [
+        "Fig. 4 的实心点复用实验文献。回归模型、形变转轴与构型选择须连同参数保留。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre",
+      "source_pdf": "raw/papers/2007-Matev-A130-quadrupole-alignment-additivity.pdf",
+      "sha256": "40d485c653f2016cd6dc38ef95a7694e9ced6d09458004039b5be92541d07586",
+      "physical_pages": 14
+    },
+    {
+      "id": "catalogue:LIT-000551",
+      "source": "knowledge/sources/meng-2009-nuclear-chirality-review.md",
+      "identity": "孟杰，《物理》38(2) 108–112 (2009)，期刊扫描。",
+      "coverage": [
+        "PDF 1–4 正文及图，PDF 5 上部参考文献；PDF 5 下部同刊新闻。"
+      ],
+      "boundary": [
+        "历史综述，寿命和模型分别回到所引实测与理论，和 Meng–Zhang 2010 共享被引实验证据。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2009_孟_原子核是否存在手性.pdf",
+      "sha256": "70ac8390928546ee33ac07a793092880a092bfc4984526e094319eea4fc3dec7",
+      "physical_pages": 5
+    },
+    {
+      "id": "catalogue:LIT-000552",
+      "source": "knowledge/sources/meng-2010-open-problems-nuclear-chirality.md",
+      "identity": "Meng and Zhang, JPG 37, 064025 (2010), DOI 10.1088/0954-3899/37/6/064025；实读 arXiv:1002.0907v1。",
+      "coverage": [
+        "PDF 1–13，§§1–6、Fig. 1 和参考文献。"
+      ],
+      "boundary": [
+        "¹³⁴Pr 与 ¹²⁸Cs 的寿命证据沿用原实验；近简并本身也允许竞争结构。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble",
+      "source_pdf": "raw/papers/2010_Meng et al_Open problems in understanding the nuclear chirality.pdf",
+      "sha256": "bc78014db4585e07b81b70192a054d2b7323584a9cc2b5552c2153175db4c5c2",
+      "physical_pages": 13
+    },
+    {
+      "id": "catalogue:LIT-000556",
+      "source": "knowledge/sources/miller-2007-sega-polarization.md",
+      "identity": "Miller et al., NIM A 581, 713–718 (2007), DOI 10.1016/j.nima.2007.07.141。实读有刊页的 ARTICLE IN PRESS 排版件。",
+      "coverage": [
+        "PDF 1–6（印 713–718），几何、校准、Figs. 1–8、Table 1 与展望。"
+      ],
+      "boundary": [
+        "结果仅覆盖给定的侧入射 SeGA 几何和低能校准。新阵列或更高能区须另定响应。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/2007_Miller et al_Linear polarization sensitivity of SeGA detectors.pdf",
+      "sha256": "a334ee35a84ded50f6a7937c037ee13d2d06b2f8406b0c68fac1a4245999acf3",
+      "physical_pages": 6
+    },
+    {
+      "id": "catalogue:LIT-000557",
+      "source": "knowledge/sources/moller-2006-global-axial-asymmetry.md",
+      "identity": "Möller et al., PRL 97, 162502 (2006), DOI 10.1103/PhysRevLett.97.162502, APS 刊版。",
+      "coverage": [
+        "PDF 1–4 期刊主件，Eqs.、Figs. 1–3、文献。"
+      ],
+      "boundary": [
+        "这组质量残差依赖筛选；谱学对照引用已有能级，势能未加入轴非对称的零点能。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2006_Möller et al_Global Calculations of Ground-State Axial Shape Asymmetry of Nuclei.pdf",
+      "sha256": "6f56615cf523369591820f4abac6cece7ce3adee02dd33763346d1dc5fff4ebc",
+      "physical_pages": 4
+    },
+    {
+      "id": "catalogue:LIT-000560",
+      "source": "knowledge/sources/motobayashi-1995-32mg-deformation.md",
+      "identity": "Motobayashi et al., PLB 346, 9–14 (1995), DOI 10.1016/0370-2693(95)00012-A, 刊版。",
+      "coverage": [
+        "PDF 1–6（印 9–14）正文、Figs. 1–3 和参考文献，回核 PDF 3–5。"
+      ],
+      "boundary": [
+        "该 B(E2) 约束集体性与变形幅度，截面没有单独测得变形正负或唯一形状；入侵组态采用模型解释。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble + main",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/1-s2.0-037026939500012A-main.pdf",
+      "sha256": "07075ed4ee3243df628765a1e63b2ffefdb971bf1a0925f1c810767543055586",
+      "physical_pages": 6
+    },
+    {
+      "id": "catalogue:LIT-000563",
+      "source": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
+      "identity": "Mukherjee et al., PRC 107, 054310 (2023), DOI 10.1103/PhysRevC.107.054310, APS 刊版副本。",
+      "coverage": [
+        "已登记 PDF 1–11 全文，复核 PDF 4–6 Table I–II 与 Figs. 5–6，另核结论和参考文献。"
+      ],
+      "boundary": [
+        "选根依赖采用的取向与灵敏度。C 带的横向摆动是比较强度、摆动能与 TPSM 后的解释，可按原件带条件复用。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble + main",
+      "source_pdf": "raw/papers/gpt/query/20261107-round2-orientation-window/mukherjee-2023-151eu-wobbling.pdf",
+      "sha256": "3a1c99a806353e5daf0d8b29fb9325ecae47624bc46c5f98a3b502451091f8b0",
+      "physical_pages": 11
+    },
+    {
+      "id": "catalogue:LIT-000642",
+      "source": "knowledge/sources/qureshie-2026-chiral-wobbling-four-band-74br.md",
+      "identity": "Qureshie et al., arXiv:2610.09808v2。两本地路径同 SHA。",
+      "coverage": [
+        "PDF 1–6，Figs. 1–8、Eq. (1)、参考文献。"
+      ],
+      "boundary": [
+        "模型的 RMS 角动量分量无相位信息，尚需实验约束第四带与带间线。"
+      ],
+      "disposition": "covered",
+      "worker": "Dirac",
+      "source_pdf": "raw/papers/gpt/qureshie-2026-chiral-wobbling-74br-arxiv2610.09808v2.pdf",
+      "sha256": "84d0bc2407a789e49aeacc7076e89ef49471dcb907570607ae0a573fdd3246cd",
+      "physical_pages": 6
+    },
+    {
+      "id": "doi:10.1103/physrevc.109.024318",
+      "source": "knowledge/sources/rahaman-2024-40k-spectroscopy.md",
+      "identity": "Rahaman et al., PRC 109, 024318 (2024), APS 刊版。",
+      "coverage": [
+        "PDF 1–13，Figs. 1–13、Tables I–VI。定向回核 PDF 3–5、7、9–10、12。"
+      ],
+      "boundary": [
+        "表 V 的实验寿命沿用 Ref. [1]；原文点明未辨出新寿命提取所需线形。未观察到旧 7033 keV 态的连接限于当前符合灵敏度。"
+      ],
+      "disposition": "covered",
+      "worker": "Dirac",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2024_Rahaman et al_Spectroscopic study of K 40.pdf",
+      "sha256": "b5010c6bb7a48625e01ff56741ad919c70f226ca9dfc487fb40c0201a1c15f05",
+      "physical_pages": 13
+    },
+    {
+      "id": "doi:10.1103/physrevlett.132.092501",
+      "source": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+      "identity": "Guo et al., PRL 132, 092501 (2024), APS 刊版；同项已存 3 页 SI。",
+      "coverage": [
+        "既有全篇 PDF 1–7 与 SI PDF 1–3，本轮复核主文 PDF 2、5 的配置及 SI 页。"
+      ],
+      "boundary": [
+        "评论、SI、两个期刊分发副本和 PRM 对照共用同一实验链；既有逐线核对继续作为使用寿命和多极性的约束。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes + main",
+      "source_pdf": "raw/papers/2024_Guo et al_Evidence for Chiral Wobbler in Nuclei.pdf",
+      "sha256": "1783b784c3843e15de39406182613757f9c3b928a2791e45a7d650f117ea4333",
+      "physical_pages": 7
+    },
+    {
+      "id": "catalogue:LIT-000027",
+      "source": "knowledge/sources/frauendorf-2024-chiral-wobbling-commentary.md",
+      "identity": "S. Frauendorf, Nuclear Science and Techniques 35, 123, DOI 10.1007/s41365-024-01478-2.",
+      "coverage": [
+        "Springer 刊版 PDF 1–4，含经典图像、⁷⁴Br 评论、图和参考文献。"
+      ],
+      "boundary": [
+        "⁷⁴Br 的实验依赖 [[guo-2024-chiral-wobbler-74br]]，评论未采集新的 ADO、偏振或寿命。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes + main",
+      "source_pdf": "raw/papers/2024_Frauendorf_First evidence for chiral wobbling of triaxial nuclei.pdf",
+      "sha256": "77fb7502953a6567330bb0b7725485c685969a9ba74e1023026dc0c256d23fe6",
+      "physical_pages": 4
+    },
+    {
+      "id": "catalogue:LIT-000028",
+      "source": "knowledge/sources/gao-2024-126cs-multiple-chiral-doublets.md",
+      "identity": "T. J. Gao et al., Physical Review C 109, 024307, DOI 10.1103/PhysRevC.109.024307.",
+      "coverage": [
+        "APS 刊版 PDF 1–6 全文，原谱、Table I、PSM 与参考文献。"
+      ],
+      "boundary": [
+        "新带重建复用 Komatsubara 等的 NORDBALL 采集，Wang 等已给 bands 1–2。方向比约束偶极阶数，电磁指认依作者赋值；方位图属模型。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes + main",
+      "source_pdf": "raw/papers/2024_Gao et al_Evidence for possible multiple chiral doublet bands with identical.pdf",
+      "sha256": "440cab3a2bfb0944e81d4892276528c90c9dde969ae5b94ae61aa1ea797c4e98",
+      "physical_pages": 6
+    },
+    {
+      "id": "catalogue:LIT-000029",
+      "source": "knowledge/sources/paul-2005-ce131-ce132-superdeformed-high-spin.md",
+      "identity": "E. S. Paul et al., Physical Review C 71, 054309, DOI 10.1103/PhysRevC.71.054309.",
+      "coverage": [
+        "APS 刊版 PDF 1–10 全文。子代理读 PDF 1–2、4–6、8–9，主会话补读 PDF 3、7、10。"
+      ],
+      "boundary": [
+        "五条超形变带未有到低自旋正常形变能级的确定连接。组态、绝对自旋和非集体终止保留假设，惯量与带终止趋势共享所测能量。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes + main",
+      "source_pdf": "raw/papers/Highest spin discrete levels in 131,132Ce spin generation near the mesoscopic limit.pdf",
+      "sha256": "54e6e76e60b66439fe1ed72115ad9a1a99febc66bbbd9355dcb7c37419909337",
+      "physical_pages": 10
+    },
+    {
+      "id": "catalogue:LIT-000030",
+      "source": "knowledge/sources/choudhury-2010-105cd-antimagnetic-rotation.md",
+      "identity": "D. Choudhury et al., Physical Review C 82, 061308(R), DOI 10.1103/PhysRevC.82.061308.",
+      "coverage": [
+        "APS 刊版 PDF 1–5 全文，实验、线形、强度、Eqs. (1)–(4) 与模型图。"
+      ],
+      "boundary": [
+        "寿命及 B(E2) 共享线形、五线侧馈和停止本领输入。双剪刀闭合是模型解释，47/2⁻ 未列本次寿命。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes + main",
+      "source_pdf": "raw/papers/PhysRevC.82.061308.pdf",
+      "sha256": "9a8e4a6b07af381efcd7478ca0a0fcdfad09d13c31b8cd279742407e62e20d80",
+      "physical_pages": 5
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 468,
+    "duplicate-or-related-version": 11,
+    "duplicate-excerpt-linked-to-canonical": 5,
+    "pending-identity-and-coverage": 286,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 3,
+    "existing-source-coverage-to-audit": 198,
+    "read-core-evidence-checked": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 484,
+  "credited_works": 20,
+  "credited_primary_pages": 188,
+  "partial_volume_pages": 0,
+  "next_action": "Integrate the next independently assigned PDF batches and Bohr–Mottelson II 386 onward.",
+  "uncredited": []
+}

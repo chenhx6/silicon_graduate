@@ -4,7 +4,7 @@ title: "Ronning et al. 2026: magnetic character of the low-energy enhancement in
 aliases: [70Zn magnetic LEE, Ronning 2026 low-energy enhancement, beta-Oslo 70Zn]
 created: 2026-11-01
 archive_required: true
-updated: 2026-11-01
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -125,3 +125,7 @@ strength is supplied by this source.
 
 This is a Codex self-audit of a primary experimental paper and remains `unreviewed`.
 The cross-mass transfer to `133I` is a provisional design inference.
+
+## 2026-11-27 — 馆藏关联件核定
+
+本地关联件 `raw/papers/gpt/learning-daily/20261101-day29-70zn-lee/ronning-2026-70zn-lee.pdf`，SHA-256 `561a77a96ed196b1661692251005c9c214b7e54074f8fa6d699f0bedc1fb53ab`。 刊文 HTML 核 Abstract、Main、Methods、Figs. 1–3 和 Extended Data Figs. 1–3 图注、数据与代码声明以及关键引文。实验通过 ⁷⁰Cu 的 1⁺、6⁻ 衰变选择不同自旋区域。Main Figs. 1–2、Methods 的谱矩阵用同批数据的 shape method 约束强度斜率，再以外部光中子量归一。 入口挑战页为零 PDF 页；正文 HTML 对应同一文章。外链图像、补件及原事件在本次覆盖之外。

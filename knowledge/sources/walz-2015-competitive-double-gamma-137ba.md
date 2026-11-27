@@ -3,7 +3,7 @@ type: source
 title: "Walz et al. 2015 - Observation of the competitive double-gamma nuclear decay"
 aliases: [Walz 2015 137Ba competitive 2γ decay]
 created: 2026-09-20
-updated: 2026-11-22
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -169,3 +169,7 @@ The SI audit closes the prior attached-material gap. It does not clear `needs_re
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | W15-D21-1 | Walz 2015 实验测得 $^{137}	ext{Ba}$ 竞争双光子衰变总分支比 $(2.05 \pm 0.37) 	imes 10^{-6}$，与 Söderström 2020（$2.62(30) 	imes 10^{-6}$）在 $1.20\sigma$ 内高度吻合，确立了总分支比的存在性；但推断阶梯审计揭示，其推导的虚态极化率比值 $\alpha_{E2M2} / \alpha_{M1E3} = 3.356$（四极主导）在后续实验中发生了高达 $13.88$ 倍的剧烈反转。反转机制源于两角几何（$72^\circ, 144^\circ$）拟合简并与对称能窗截断（$|E_1 - E_2| < 250	ext{ keV}$ 裁掉了超过 $35\%$ 相空间），人为滤除了在不对称能量共享端占优的八极分量。推断阶梯确立：严禁仅凭有限离散角度下的能量求和峰断言虚态极化率路径，确证多极路径必须依赖连续能量分配谱与微观选择定则。 | claim-boundary-audit | direct-and-derived | Nature 526, 406 pp.406-409; Table 1; two-photon-decay-audit-015.json | true |
+
+## 2026-11-27 — 馆藏关联件核定
+
+并入已有 PDF 1–14 全段核读记录。PDF 1 Methods 的 prompt 时间门宽 2.4 ns，纳入 90(3)% 的 γγ 事件；Letter 报告的 δ 已作这一门宽修正。 此处 δ 是双光子分支的角分布量。时间门效率与 PDF 5 的能量差门修正应分别记录。

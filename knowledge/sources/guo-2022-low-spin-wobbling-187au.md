@@ -3,7 +3,7 @@ type: source
 title: "Probing the nature of the conjectured low-spin wobbling bands in atomic nuclei"
 aliases: [Guo 2022 187Au, low-spin wobbling counter-source, probing low-spin wobbling bands]
 created: 2026-07-04
-updated: 2026-11-21
+updated: 2026-11-27
 status: ai-draft
 review_status: human-reviewed
 source_type: journal-article-experiment-and-model
@@ -357,3 +357,7 @@ Rupnik 为 1994 学位论文，不能据此把 1998 期刊论文也标为已取�
 | 462/462.1 | \(\alpha_K=0.050(9)\)，816.0→353.9 keV | \(\alpha_K=0.08(2)\)，816→354 keV |
 
 Rupnik 的原表将两条线列在 \(^{187m}\mathrm{Hg}\) 衰变组。Bourgeois 的研究对象为质量分离的 \(^{187}\mathrm{Hg}\) 两态衰变。两组测量都从 γ 与电子谱取得转换系数。Guo 图 3(a,b) 的 \(P\) 与 \(R_{\rm ADO}\) 为在束数据，图 3(c,d) 的历史转换比较保留上述实验出处。已核到 1994 年学位原表，1998 年期刊全文仍为独立的版本缺口。
+
+## 2026-11-27 — 馆藏关联件核定
+
+补件 PDF 1–6。PDF 3 左栏用 Ref. 2 的同型 Clover 灵敏度 Q 换算 P=A/Q。PDF 3 Fig. 2(c) 在可变取向宽度下标示 δ∈[−0.42,−0.15]；引用此区间应注明补件图的位置。PDF 4 以曲线与实验误差矩形相交界定允许范围。 上述范围未给联合置信水平。PDF 5–6 的 ¹⁸³Au 偏振误差讨论复用他人谱，保留其中 a、Q 和本底假定。

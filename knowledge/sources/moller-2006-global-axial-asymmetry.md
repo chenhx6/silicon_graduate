@@ -3,7 +3,7 @@ type: source
 title: "Möller et al. 2006 - Global Calculations of Ground-State Axial Shape Asymmetry of Nuclei"
 aliases: [Moller 2006 global triaxial ground states]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-theory
@@ -88,3 +88,9 @@ Zero-point motion, γ softness, functional/PES parameterization and omitted beyo
 ## Extracted Pages
 
 - Concepts: [[triaxial-deformation]], [[gamma-soft-deformation]]。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 1–3 用 FRLDM 形变网格比较 7206 核的基态势能面。PDF 3–4 Fig. 3 的 71 核样本（N≤160 且计算能量修正≥0.2 MeV）加入轴非对称后，平均质量残差由 −0.452 变为 −0.109 MeV，报告模型误差由 0.577 到 0.381 MeV。
+
+这组质量残差依赖筛选；谱学对照引用已有能级，势能未加入轴非对称的零点能。

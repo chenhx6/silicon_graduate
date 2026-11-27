@@ -3,7 +3,7 @@ type: source
 title: "Open Problems in Understanding the Nuclear Chirality"
 aliases: [Meng 2010 nuclear chirality review]
 created: 2026-07-13
-updated: 2026-11-08
+updated: 2026-11-27
 status: active
 review_status: human-reviewed
 source_type: journal-article-theory-review
@@ -116,3 +116,9 @@ pages字段改用带引号字符串保存064025，避免YAML1.1解析为八进�
 ## Personal Notes
 
 该来源适合支撑理论背景和判据限制，不用于替代 Ayangeakaa 2013、Liu 2016 或其它候选核的原始实验论文。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2–4 §§1.1–1.2 区分半经典 TAC 的左右手驻定解与 PRM 的量子劈裂。PDF 6 §3.1 把约 200 keV 作为已知双带的经验量级。后续电磁交错预期依赖刚性三轴、价核子组态和模型选择。
+
+¹³⁴Pr 与 ¹²⁸Cs 的寿命证据沿用原实验；近简并本身也允许竞争结构。
