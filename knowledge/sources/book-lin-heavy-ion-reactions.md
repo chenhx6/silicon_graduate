@@ -86,3 +86,12 @@ PDF 16–21 Eqs. (1.7)–(1.28) 的非相对论静止靶换算与纯库仑最近
 ## 2026-11-27 — 馆藏原件与覆盖核对
 
 弹性散射的 kinematics 和光学势模型以书中相位、光学输入及各自图题保存。下一段接本章实验与拟合条件。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+弹性散射模型的相位、虚部及输入维持书中能量和反应条件；第 4 章以后的 OCR 记录列出实际源页。
+
+- The book reports a two-neutron enhancement factor of 3 in the Sn system at a closest-approach value of 1.51, with probable unit fm rendered by OCR as ‘fim’. It reports a two-proton enhancement factor of 10 at 1.45 fm in the Sm + Pb system.（PDF pp. 93–94, §4.6.2 and Figs. 4.18–4.19）
+- For 1,130 MeV Xe + Bi, the reported projectile-like charge distributions are fitted by Gaussians. From the elastic group to the group at about 310 MeV total kinetic energy loss, the tabulated FWHM rises from 3.3 to 16.8 charge-number units and the central charge shifts from 54 to 57.1. These values are the tabulated central estimates.（PDF pp. 119–121, Fig. 5.18, Table 5.3 and Eq. (5.11)）
+- The reaction-path framework uses frozen-density dynamics up to approximately half-density contact and adiabatic shape evolution afterward. Failure to capture permits deep-inelastic scattering. A captured system can undergo fast fission when its adiabatic fission barrier vanishes, or quasifission when it reseparates before crossing the required inner saddle. A compound nucleus forms after passage through the final unconditional saddle and equilibration of all relevant degrees of freedom. If mass equilibrates while K, the spin projection on the symmetry axis, is still relaxing, the chapter expects a full-fusion-like mass distribution with forward-peaked fragment angles.（PDF 187–192, §§7.1.1–7.1.5, Figs. 7.1–7.6）
+- Bond adds a Gaussian scission channel-spin distribution to a saddle-point description that still depends on K. In the pure statistical scission model, S is the vector sum of the fragment spins, L is their relative orbital angular momentum, and L + S gives the total angular momentum. The projection m of S along the fission axis controls the angular shape. The model estimates the channel-spin width from the two fragment spin widths using ellipsoidal fragment shapes.（PDF 209–210, Eqs. (7.32)–(7.36) and Fig. 7.28）

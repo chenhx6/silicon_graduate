@@ -109,3 +109,13 @@ PDF 43–57 给球张量、Wigner–Eckart 和 6j/9j，PDF 58–65 处理同位�
 ## 2026-11-27 — 馆藏原件与覆盖核对
 
 PDF 86–93 的 Lie 代数生成元、Casimir 和子群链；PDF 94 起的场量子化分横向自由场与后续核辐射算符。PDF 87 Eq. (4.21) 原印等号链，实际循环双交换子之和为零，按同页 (4.22) 与习题定位。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+多极辐射、单粒子和集体模型转换保留作者约定及页界。续段 OCR 覆盖另列，具体数值回原式原行。
+
+- The Wilets–Jean potential has a minimum at finite β and is independent of γ. The intrinsic wavefunction uses a K expansion, and separation yields sequences built on fixed β-phonon numbers, with allowed angular momenta restricted by seniority and symmetry.（PDF 187–189, §6.6, Eqs. (6.251)–(6.255) and Figs. 6.11–6.12）
+- IBA2 conserves proton and neutron boson numbers separately under Uπ(6) × Uν(6). The proton and neutron angular momenta need not be conserved separately, so unequal gyromagnetic factors allow nonzero lowest-order magnetic dipole transitions. The Majorana term raises mixed-symmetry states and annihilates the proton–neutron symmetric sector.（PDF 213–214, Eqs. (6.329), (6.332)–(6.337)）
+- For a Slater determinant with occupied-space projector ρ, Hartree–Fock stationarity sets both mixed occupied–empty blocks of h to zero, equivalently [ρ,h] = 0. The mean field includes the direct density potential and exchange, and orbital occupations determine the field iteratively.（PDF 242–243, Eqs. (7.68)–(7.71) and the self-consistency discussion. PDF 247–248, Eqs. (7.91)–(7.95).）
+- Axial symmetry lets the deformed-oscillator calculation use separate blocks of fixed j_z = μ + s, with time reversal pairing opposite projections. The truncation must be checked as deformation changes. The separate two-level exercise shows what an allowed coupling can do within a symmetry sector. A constant coupling of magnitude d opens a minimum gap of 2d, gives equal weights at the former crossing and exchanges the lower branch's dominant configuration across it.（PDF 274–278, Exercise 7.6 and Table 7.2. PDF 278–279, Exercise 7.7 and Figs. 7.9–7.10.）
+- The HFB vacuum is defined by canceling the two-quasiparticle creation and annihilation terms in H−λN. With a diagonal pairing field, the quasiparticle energy is Eₖ=√(εₖ²+Δₖ²). The occupations and mean field must be determined together, and the independent-quasiparticle spectrum neglects four-operator terms.（PDF 306–309, Eqs. (7.251)–(7.269)）

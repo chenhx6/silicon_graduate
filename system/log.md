@@ -7558,3 +7558,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-27 — 馆藏续读第 30 批
 
 - 核定五本书、3,077 个计入页，另核 178 个有界扫描页。队列剩 9 本。
+
+## 2026-11-27 — 馆藏续读第 31 批
+
+- 回写扫描件原页阅读和 OCR 范围。新增原页核读 162 页，正式队列仍有 9 本。

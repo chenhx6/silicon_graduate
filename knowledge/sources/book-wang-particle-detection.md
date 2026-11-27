@@ -87,3 +87,11 @@ topics: [gaseous-detectors, gm-counter, semiconductor-detectors, radiation-damag
 
 - Bethe–Bloch gives the mean ionization and excitation loss for heavy charged particles. Above the broad minimum near βγ ≈ 4, the text gives an approximate rise of ln(βγ) with the density correction and 2 ln(βγ) without it. Thin absorbers can show asymmetric, Landau-like loss fluctuations.（PDF pp. 28–32, §2.1.1, (2.1.6), 图2.1.1, (2.1.9)）
 - For high-energy electrons, mean bremsstrahlung loss per unit path is proportional to energy, giving exponential attenuation with radiation length X₀. The text gives an m²/z² scaling of radiation length for other charged projectiles and a mass-fraction-weighted reciprocal rule for mixtures.（PDF pp. 41–42, §2.1.3, (2.1.19), (2.1.21), (2.1.25)–(2.1.26)）
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+OCR 段记粒子与物质相互作用、探测方法和仪器图表的实际页位。
+
+- The book models the mean muon energy loss per unit path as a(Z,A,E) + b(Z,A,E)E. The first term describes ionization. The second combines bremsstrahlung, direct electron–positron pair production, and photonuclear interactions. The two terms are equal at E_c = a/b. Treating a and b as constant gives a logarithmic range estimate. Individual radiative events can transfer large amounts of energy and produce substantial fluctuations around the mean.（PDF 49–52, §2.1.6, Eqs. (2.1.38)–(2.1.45)）
+- The book reports 342 one-second scintillation-detector background measurements under conditions treated as steady. The frequency column sums to 342 intervals and gives 841 total counts, or about 2.46 counts/s. The chapter uses this mean to draw its Poisson comparison curve.（PDF 81, Table 3.1.1, PDF 83, Eq. (3.1.4), and PDF 86）
+- For a given gas with approximately constant W, the mean total ion-pair yield is ΔE/W. W exceeds the ionization threshold because deposited energy also goes into excitation and kinetic energy. If ionizing encounters are independent and one encounter suffices for detection, perfect charge collection gives an intrinsic efficiency ceiling of 1 − exp(−L/λ). The observed total-pair variance is below the Poisson prediction, which the text accounts for with a Fano factor.（PDF 111–113, §4.1.2, Eqs. (4.1.1)–(4.1.4)）

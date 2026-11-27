@@ -89,3 +89,11 @@ tags: [books, experimental-statistics, error-propagation, parameter-estimation, 
 
 - Three events can satisfy all three pairwise independence identities while failing the triple identity P(ABC) = P(A)P(B)P(C), which mutual independence also requires.（Physical p. 24, §1.3, (1.3.12)）
 - The two-scan estimate assumes independent scans and equal detection probabilities across target events within each scan. With scan totals n₁ and n₂ and positive overlap m, the probability relations give an estimated population n₁n₂/m and efficiencies m/n₂ and m/n₁. Each efficiency estimate depends on the other scan.（Physical pp. 28–30, 例 1.5 扫描效率, 图 1.10）
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+OCR 段记概率模型、统计量及公式符号。
+
+- For independent summands, the characteristic function of the sum is the product of their characteristic functions. For Poisson variables with means λ₁ and λ₂, this product has the Poisson form exp[(λ₁ + λ₂)(exp(it) − 1)], so the sum is Poisson with mean λ₁ + λ₂. For nonnegative integer-valued variables, the probability generating function gives the corresponding product rule.（PDF 49–52, equations (2.5.5)–(2.5.6), (2.5.9), and the properties following (2.6.1)）
+- For an affine transformation Y = TX + a, the exact relations are E(Y) = T E(X) + a and Cov(Y) = T Cov(X) Tᵀ. For a differentiable nonlinear transformation, the text uses Cov(Y) ≈ S Cov(X) Sᵀ, with S the Jacobian at the input means, under a small-error, first-order approximation. Independent inputs can still produce correlated outputs when the outputs share inputs.（PDF 80–86, §§3.8–3.9, eqs. (3.8.2)–(3.8.5) and (3.9.10)–(3.9.15). The coordinate example is on PDF 87–88.）
+- Given n events in duration T from a homogeneous Poisson process, the count in a subinterval of duration t has the binomial law with parameters n and t/T. The related histogram result uses fixed bin probabilities p_j and a Poisson total of mean λ, yielding independent Poisson bin counts with means λp_j.（Physical PDF pp. 109–111, equations (4.4.2)–(4.4.4)）

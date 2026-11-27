@@ -685,14 +685,14 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-27T12:49:51.148522+00:00",
+  "updated_at": "2026-11-27T13:26:54.293094+00:00",
   "completed_deep_read_sources_this_run": 0,
   "completed_primary_pages_this_run": 34067,
   "current_source_note": "knowledge/sources/book-bohr-mottelson-nuclear-structure.md",
-  "next_action": "Continue the nine remaining scanned book volumes.",
+  "next_action": "Continue the nine original scans from their recorded partial ranges.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "5 works credited 3077 pages; 178 additional original scan pages and four bounded OCR continuations.",
+  "last_source_manager_closure": "0 works credited 0 pages; 162 additional original scan pages, plus bounded OCR sections.",
   "current_source_scientific_acceptance": "Vol. II complete; continue the open queue, including archival PDFs needing original tables or scans.",
   "source_scoped_retrieval": "Existing local originals; publisher and author versions recorded separately.",
   "counting_scope": {
@@ -701,9 +701,9 @@
     "credited_pages_explicit_in_queue": 23609,
     "pages_carried_forward_from_previous_checkpoints": 10458,
     "increment_this_checkpoint": {
-      "works": 5,
-      "pages": 3077,
-      "partial_volume_pages_recorded_separately": 178,
+      "works": 0,
+      "pages": 0,
+      "partial_volume_pages_recorded_separately": 162,
       "associated_rows": 0
     }
   },
@@ -725,5 +725,5 @@
     "resume_printed_page": 259,
     "background_reading_scheduled": false
   },
-  "latest_batch_audit": "20261127-five-book-readings-and-scan-ranges-ad-audit.json"
+  "latest_batch_audit": "20261127-scanned-volume-checkpoints-ae-audit.json"
 }

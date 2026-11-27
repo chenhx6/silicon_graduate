@@ -98,3 +98,11 @@ topics: [vector-algebra, multivariable-calculus, multiple-integrals, surface-int
 
 - The scalar triple product [abc] = (a×b)·c is the determinant with rows a, b, c. Its absolute value is the parallelepiped volume. It vanishes exactly when the three vectors are coplanar and hence linearly dependent. Tetrahedron ABCD has volume |[AB AC AD]|/6.（Physical pp. 27–29, §2 三、向量的混合积, Fig. 8-26 and 例7）
 - A point P₀ and a nonzero normal n determine a plane by n·(P−P₀)=0. For Ax+By+Cz+D=0, the distance from (x₀,y₀,z₀) is |Ax₀+By₀+Cz₀+D|/√(A²+B²+C²), with (A,B,C)≠0.（Physical pp. 32–33, §3 (3-3) and (3-4), and p. 36, 例7 (3-11)）
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+OCR 段记空间解析几何及高维微积分的页域与公式不清处。
+
+- For a space curve given by F(x,y,z)=0 and G(x,y,z)=0, eliminating z when possible gives a necessary relation H(x,y)=0. Together with z=0, it describes a set containing the projection onto the xy-plane. Equality requires that every planar solution lift to a common point of the original surfaces. In the two-sphere example, the equation z=1−y supplies that lift.（PDF 56, equations (6-1) and (6-5), and PDF 57, Example 4）
+- At a point where f is defined on a neighborhood, differentiability means Δz = AΔx + BΔy + o(ρ), where ρ = √((Δx)² + (Δy)²). This implies continuity, and the axis limits identify A = fₓ and B = fᵧ. The counterexample has both partials zero but fails the remainder test along y = x. For sufficiency, the partial derivatives must exist in a neighborhood and be continuous at the point. Applying the one-variable mean value theorem to successive coordinate increments then gives the required remainder.（PDF 79–82, equations (3-1)–(3-7), Theorems 1 and 2, and the origin counterexample）
+- The directional derivative is the limit of [f(P + te) − f(P)]/t as t approaches 0 from above, with e a unit vector. If f is differentiable at P, it equals ∇f(P)·e. For a nonzero gradient, the maximum and minimum directional rates are +‖∇f(P)‖ and −‖∇f(P)‖ in the gradient and opposite directions, respectively. Orthogonal directions give rate zero, and the gradient is normal to the regular level set.（PDF 111–115, equations (7-1)–(7-4) and the gradient and level-set discussion）

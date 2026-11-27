@@ -94,3 +94,10 @@ tags: [books, nuclear-physics, nuclear-structure, chinese-terminology, reaction-
 ## 2026-11-27 — 馆藏原件与覆盖核对
 
 PDF 17–18 区分核作用半径与电荷分布半径。PDF 20–22 由电子超精细结构推断核自旋和磁矩时保留外部电子态关系。PDF 25–26 的四极矩换算依均匀轴对称椭球和小形变。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+OCR 段补核衰变和后续教材主题，损坏符号独立保留。
+
+- For a collimated γ transmission measurement, the surviving beam intensity is I(d) = I₀ exp(−μd). The linear coefficient μ, in cm⁻¹ when d is in cm, counts true absorption and scattering out of the accepted beam. Accepting scattered photons lowers the apparent coefficient. The half-value thickness is ln(2)/μ and the mean distance before removal from the beam is 1/μ.（PDF 74, §3.1, Eqs. (3.1-19)–(3.1-21)）
+- The 200 and 300 keV γ lines are consistent with either level scheme. A prompt cascade gives true coincidences between the energy-selected channels. For independent random arrivals and a short symmetric resolving window, the accidental rate is approximately 2τN₁N₂. Assuming one cascade pair per decay, negligible loss of true pairs in the window, and no angular correlation, the accidental-to-true ratio is approximately 2τA₀. The detector acceptance and intrinsic efficiency factors cancel in that ratio.（PDF pp. 101–102, Figs. 3-33 and 3-34, Eqs. (3.4-1)–(3.4-4)）

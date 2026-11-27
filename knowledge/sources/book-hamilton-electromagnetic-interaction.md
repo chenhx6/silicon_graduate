@@ -118,3 +118,13 @@ PDF 670–682 取向源分布、P 分量和两探测器相关；PDF 683–695 Fi
 ## 2026-11-27 — 馆藏原件与覆盖核对
 
 PDF 698 Fig. 14.15 的平行／垂直比与差值的符号须随级联面定义。PDF 699–703 的 B 系数为第一发射规范，Q 是非负 E2 份额。PDF 712–743 Twin 章保留 Krane–Steffen 与 Rose–Brink 的符号差，15.22 的拟合阈值与方差条件分列。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+第 17 章及后部 OCR 的主题证据是连续读段的一部分。PDF 678 贴纸与 PDF 954–955 的复刻图处理单独回核，早期第 1–11 章的范围尚待实读。
+
+- For a planar detector biased at 1900 V, Table 17.5 reports a 255 eV shift in the separation between the 2175 keV full-energy peak and the 2180 keV double-escape peak for incidence parallel to the electric field, relative to perpendicular incidence.（PDF 820–821, §4.2.1 and Table 17.5）
+- The 19 ppm uncertainty of the shared energy reference sets a floor for absolute energies on that scale. The authors propose removing the common contribution in quadrature before weighting calibration points and restoring it in quadrature afterward. Averaging independent statistical errors can improve precision, while averaging retains the shared scale uncertainty.（PDF 824–825, discussion following Table 17.7）
+- Exact focusing requires constant ray deviation and equal angles of incidence and reflection relative to the atomic planes. In the approximate transmission designs, a flat lamina is bent to radius 2R and its neutral surface touches the focal circle of radius R at the crystal midpoint. Cauchois uses an extended source and focuses different wavelengths simultaneously at different positions. DuMond places an ideal line source on the focal circle and selects one wavelength per orientation in a given order.（Physical PDF 853–858, chapter 18 §2, figs. 18.1–18.4）
+- For repeated visual-overlay measurements, Reidy aligns the diffraction profiles from opposite sides of the crystal planes and estimates each position uncertainty from the range of reasonable overlaps. The positions are reduced to first diffraction order before averaging. The assigned uncertainty is the larger of the standard deviation of the mean and the estimate obtained by combining the individual overlay uncertainties in quadrature. The exact normalization of the latter expression is illegible in the OCR. The text treats one or two measurements separately because they give too little information for a meaningful scatter-based estimate.（PDF 882–883, Chapter 18, §5）
+- Each displayed combination of two spin indices and L has four tabulated values. For (8, 8, 0), all four are 1.0000. For (8, 8, 1), they are 0.9861, 0.9583, 0.9167, and 0.8611. The last value for (6, 5, 3) is legibly negative, −0,1229, with a decimal comma in the OCR. The exact coefficient labels, definitions, and units cannot be established from these blocks.（PDF 911–912, printed pp. 900–901, appendix table）

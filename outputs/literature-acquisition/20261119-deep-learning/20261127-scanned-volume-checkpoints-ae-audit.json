@@ -1,0 +1,216 @@
+{
+  "batch": "20261127-scanned-volume-checkpoints-ae",
+  "created_at": "2026-11-27T13:26:47.093950+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000303",
+      "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure.md",
+      "identity": "Bohr and Mottelson I, World Scientific 1999 printing, 492 pages.",
+      "coverage": [
+        "PDF 231–280（印 212–261），原生逐页阅读卷 I 第二章。",
+        "PDF 281–326（印 262–307），原生逐页核读第二章后部与附录。",
+        "PDF 328–350 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：329,330,331,332,333,334,335,336,338,339,340,341,342,343,344,345,346,347,348,349,350。",
+        "PDF 364–397 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：397。",
+        "PDF 414–440 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,440。",
+        "PDF 441–467 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：467。",
+        "PDF 468–492 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：该回执未列。"
+      ],
+      "boundary": [
+        "局部 OCR 缺损和下方各自原图的实际核查范围保持可追溯。"
+      ],
+      "disposition": "partial",
+      "worker": "native original pages and disjoint terminal Codex scan segments",
+      "source_pdf": "raw/books/nuclear structure Ⅰ_Bohr, Mottelson.pdf",
+      "sha256": "a31a158e0aff2ec6734d46f5aea5eb42dbebb82280835774f49350dd6f8c79df",
+      "physical_pages": 492
+    },
+    {
+      "id": "catalogue:LIT-000308",
+      "source": "knowledge/sources/book-greiner-nuclear-models.md",
+      "identity": "Greiner and Maruhn, Nuclear Models, Springer 1996 English scan.",
+      "coverage": [
+        "PDF 136–186（印 117–167）原生逐页 OCR 加版面对账。",
+        "PDF 187–212 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：187,188,189,190,191,193,194,195,196,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212。",
+        "PDF 213–241 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：该回执未列。",
+        "PDF 242–273 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：242,243,244,245,246,247,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272。",
+        "PDF 274–304 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,295,296,297,302,303,304。",
+        "PDF 305–336 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：305,306,307,308,309,310,311,315,316,317,318,319,320,321,322,326,329,330,331,332,334,335。",
+        "PDF 337–368 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：337,338,340,341,342,343,344,345,346,347,348,349,350,351,352,353,357,358,359,360,361,362,363,364,365,366,367,368。",
+        "PDF 369–399 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：370,371,378,379,380,381,395,396,397,398。"
+      ],
+      "boundary": [
+        "局部 OCR 缺损和下方各自原图的实际核查范围保持可追溯。"
+      ],
+      "disposition": "partial",
+      "worker": "native original pages and disjoint terminal Codex scan segments",
+      "source_pdf": "raw/books/Nuclear Models (Walter Greiner, Joachim A. Maruhn) (Z-Library).pdf",
+      "sha256": "db5e43efaa80877822540bf0caae9be93d54d5499c5df89faae69769e6f77091",
+      "physical_pages": 399
+    },
+    {
+      "id": "catalogue:LIT-000309",
+      "source": "knowledge/sources/book-hamilton-electromagnetic-interaction.md",
+      "identity": "Hamilton (ed.), North-Holland 1975, 956 physical PDF pages.",
+      "coverage": [
+        "PDF 796–823 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：798,803,804,810,817。",
+        "PDF 824–852 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：849。",
+        "PDF 853–881 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：该回执未列。",
+        "PDF 882–910 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：887。",
+        "PDF 911–939 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：913,937。",
+        "PDF 940–956 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：953。"
+      ],
+      "boundary": [
+        "局部 OCR 缺损和下方各自原图的实际核查范围保持可追溯。"
+      ],
+      "disposition": "partial",
+      "worker": "native original pages and disjoint terminal Codex scan segments",
+      "source_pdf": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+      "sha256": "93b32a8debb66ad036229d860ad56f0434dc49b56edd32f1628af1d71a21ae00",
+      "physical_pages": 956
+    },
+    {
+      "id": "catalogue:LIT-000314",
+      "source": "knowledge/sources/book-lin-heavy-ion-reactions.md",
+      "identity": "林承键，《重离子核反应》，2015 首版 2018 二印，223 个物理页。",
+      "coverage": [
+        "PDF 62–76（印 52–66）原生读原图与 OCR，承接第 3 章。",
+        "PDF 93–118 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：94,96,97,98,99,105,106,109,110,116,117,118。",
+        "PDF 119–149 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：该回执未列。",
+        "PDF 181–208 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：207。",
+        "PDF 209–223 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：209,210,211,212,213,214,215,216,217,218,219,220,221,222,223。"
+      ],
+      "boundary": [
+        "局部 OCR 缺损和下方各自原图的实际核查范围保持可追溯。"
+      ],
+      "disposition": "partial",
+      "worker": "native original pages and disjoint terminal Codex scan segments",
+      "source_pdf": "raw/books/重离子核反应 (林承键) (Z-Library).pdf",
+      "sha256": "792bfe7f7807623b7e1439b32eddb7320ab3ec6bf6be7e3894b436c1c9f65b2e",
+      "physical_pages": 223
+    },
+    {
+      "id": "catalogue:LIT-000315",
+      "source": "knowledge/sources/book-lu-nuclear-physics-chinese.md",
+      "identity": "卢希庭主编，卢希庭、江栋兴、叶沿林编著，原子能出版社，2000 年 10 月北京第 2 版、2001 年 7 月北京第 1 次印刷，ISBN 7-5022-2188-3，439 物理页。",
+      "coverage": [
+        "PDF 72–100 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：该回执未列。",
+        "PDF 101–126 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：101,102,104,105,106,107,108,110,111,112,115,117,118,119,120,121,122,123,124,125,126。"
+      ],
+      "boundary": [
+        "局部 OCR 缺损和下方各自原图的实际核查范围保持可追溯。"
+      ],
+      "disposition": "partial",
+      "worker": "native original pages and disjoint terminal Codex scan segments",
+      "source_pdf": "raw/books/原子核物理（修订版） (卢希庭江栋兴叶沿林) (Z-Library).pdf",
+      "sha256": "a47c26b77283b871529633dc87b6b7def412f715ed66889e373ab69100147d02",
+      "physical_pages": 439
+    },
+    {
+      "id": "catalogue:LIT-000324",
+      "source": "knowledge/sources/book-tongji-higher-mathematics-vol2.md",
+      "identity": "catalogue grouping",
+      "coverage": [
+        "PDF 49–78 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：49,50,51,52,53,55,56,57,58,59,60,63,64,65,66,67,68,69,70,71,72,74,75,76,77,78。",
+        "PDF 79–108 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：80,81,82,84,85,88,89,90,92,95,96,98,99,102,108。",
+        "PDF 109–137 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：109,110,111,112,115,116,118,122,123,128,129,134。"
+      ],
+      "boundary": [
+        "局部 OCR 缺损和下方各自原图的实际核查范围保持可追溯。"
+      ],
+      "disposition": "partial",
+      "worker": "native original pages and disjoint terminal Codex scan segments",
+      "source_pdf": "raw/books/同济大学高等数学第七版下册.pdf",
+      "sha256": "4fe09776fec91bd3d780b163758025e6fbc2ce62ec15b53ee41ccdb3a8c48bf2",
+      "physical_pages": 367
+    },
+    {
+      "id": "catalogue:LIT-000325",
+      "source": "knowledge/sources/book-wang-particle-detection.md",
+      "identity": "catalogue grouping",
+      "coverage": [
+        "PDF 49–78 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：49,50,51,52,53,54,55,56,57,58,59,60,61,62,64,65,66,67,68,69,70,71,74,75,76,77,78。",
+        "PDF 79–108 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：80,82,89,91,93,94,97,98,100,101,102,103,104,105,106,107,108。",
+        "PDF 109–137 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：该回执未列。"
+      ],
+      "boundary": [
+        "局部 OCR 缺损和下方各自原图的实际核查范围保持可追溯。"
+      ],
+      "disposition": "partial",
+      "worker": "native original pages and disjoint terminal Codex scan segments",
+      "source_pdf": "raw/books/粒子探测技术 (汪晓莲  李澄  绍明  陈宏芳) (Z-Library).pdf",
+      "sha256": "250b51039f35e6a22e1311d645637d741b0f859af9d328f62c450ae9422c3cb4",
+      "physical_pages": 444
+    },
+    {
+      "id": "catalogue:LIT-000326",
+      "source": "knowledge/sources/book-wu-nuclear-experiment-methods.md",
+      "identity": "catalogue grouping",
+      "coverage": [
+        "PDF 49–78 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：49,51,53,54,55,56,57,58,60,61,64,65,67,68,69,70,71,72,75,77,78。",
+        "PDF 79–108 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108。",
+        "PDF 109–137 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：116,126。"
+      ],
+      "boundary": [
+        "局部 OCR 缺损和下方各自原图的实际核查范围保持可追溯。"
+      ],
+      "disposition": "partial",
+      "worker": "native original pages and disjoint terminal Codex scan segments",
+      "source_pdf": "raw/books/原子核物理实验方法--第三版 (吴治华) (Z-Library).pdf",
+      "sha256": "e23f010ff8d3b4737405235c4aba920533f44e89409ebb7e2cb076b7ab4ee591",
+      "physical_pages": 483
+    },
+    {
+      "id": "catalogue:LIT-000328",
+      "source": "knowledge/sources/book-zhu-probability-statistics-in-physics.md",
+      "identity": "catalogue grouping",
+      "coverage": [
+        "PDF 49–78 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：53,65,67,68,78。",
+        "PDF 79–108 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：79,80,86,87,88,93,94,95,96,97,98,101,102,104,105,106,107。",
+        "PDF 109–138 的部分 OCR 科学内容。仍有局部字形或图片需核查的页：该回执未列。"
+      ],
+      "boundary": [
+        "局部 OCR 缺损和下方各自原图的实际核查范围保持可追溯。"
+      ],
+      "disposition": "partial",
+      "worker": "native original pages and disjoint terminal Codex scan segments",
+      "source_pdf": "raw/books/实验物理中的概率和统计_朱永生著.pdf",
+      "sha256": "e97062665497c597609d58c23dfa977824c43e73d3ae8cb4ca3c0855e381894b",
+      "physical_pages": 671
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 787,
+    "duplicate-or-related-version": 29,
+    "duplicate-excerpt-linked-to-canonical": 13,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 9,
+    "out-of-scope-particle-production": 3,
+    "archived-publisher-scan-missing-printed-page": 2,
+    "read-core-evidence-checked": 1,
+    "publisher-first-page-extract-fulltext-unavailable": 8,
+    "evaluated-data-extract-covered": 7,
+    "out-of-scope-atomic-spectroscopy": 4,
+    "editorial-front-matter": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 2,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "existing-source-coverage-to-audit": 9,
+    "conference-abstract-covered": 3,
+    "supplement-with-main-text-gap": 1,
+    "commentary-complete-shared-pages": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 9,
+  "credited_works": 0,
+  "credited_primary_pages": 0,
+  "partial_volume_pages": 162,
+  "next_action": "Continue the nine original scans from their recorded partial ranges.",
+  "uncredited": [],
+  "related_materials": []
+}

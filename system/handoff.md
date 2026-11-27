@@ -81,6 +81,8 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 本批核定 Heyde、Mangano、Nakhostin（吴鸿毅译）、Raduta 和 Suhonen 五本书，共 3,077 个主件计入页。Heyde 馆藏实为 2004 年版权的第三版。四本扫描书新增 178 个原页，四本中文扫描教材另记 PDF 23–48 的有界 OCR。累计 805 份、34,067 个主件页，正式队列剩 9 本扫描书。稳定指针为 `research/archive-learning-20261127` + `research: verify five books and continue original scan reading`。见[原件及范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-five-book-readings-and-scan-ranges-ad-audit.json)。
 
+本批写回 Bohr–Mottelson I、Greiner 和林承键的 162 个原页核读页，并登记九册扫描书的 OCR 续段及原图待核位置。OCR 的公式、表格和图片缺损保留到页，正式队列仍有 9 本，累计 805 份、34,067 个主件 PDF 页。稳定指针为 `research/archive-learning-20261127` + `research: capture original scan reading checkpoints and OCR gaps`。见[原件及续读范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-scanned-volume-checkpoints-ae-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。
