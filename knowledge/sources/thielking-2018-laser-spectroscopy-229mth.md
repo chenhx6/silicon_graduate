@@ -3,12 +3,12 @@ type: source
 title: "Laser spectroscopic characterization of the nuclear-clock isomer 229mTh"
 aliases: ["thielking-2018-laser-spectroscopy-229mth", "Johannes Thielking 2018"]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
 source_type: experiment-article
-reading_depth: deep-read
+reading_depth: read
 title_original: "Laser spectroscopic characterization of the nuclear-clock isomer 229mTh"
 authors: ["Johannes Thielking", "Maxim V. Okhapkin", "Przemysław Głowacki", "David M. Meier", "Lars von der Wense", "Benedict Seiferle", "Christoph E. Düllmann", "Peter G. Thirolf", "Ekkehard Peik"]
 journal: "Nature"
@@ -37,23 +37,23 @@ tags: ["229th", "isomer", "nuclear-clock", "vuv-spectroscopy"]
 
 ## Scope and Reading Depth
 
-本次对象为frontmatter指定的本地PDF，页数及实际读取范围见本轮clock逐文件台账。关键主张依下表原页定位；未在该PDF中实际检查的独立SI、原始计数和装置文件不自动包含在核验范围。
+刊版 PDF 1–5 为印 321–325，6–7 为 Methods 等，8–14 为 Extended Data 图表。承接同版旧读段，本次回查整件中的数据、方法和附表，目视 PDF 3 Figs. 3–4。独立 SI 未核。
 
 ## Summary
 
-Thielking et al. performed laser spectroscopy on the hyperfine structure of 229mTh2+ ions in a linear Paul trap. They determined the isomer magnetic dipole moment mu_m = -0.37(6) mu_N (sign reversal vs ground state +0.360(7) mu_N), electric quadrupole moment Q_m = 1.74(6) e b, and Delta<r^2> = 0.012(2) fm^2, validating Nilsson assignments 5/2+[633] and 3/2+[631].
+两步激发测量陷俘 Th²⁺ 的电子超精细荧光谱。²³³U 衰变先行布居核态，七条候选异能态共振在谱中识别。
 
 ## Key Results
 
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| T18-1 | Hyperfine constants A and B measured for 229mTh2+, yielding mu_m = -0.37(6) mu_N and Q_m = 1.74(6) e b. | observed-fact | direct | pp. 321-323, Fig. 2, Table 1 | true |
-| T18-2 | Difference in mean-square charge radii determined as Delta<r^2> = 0.012(2) fm^2. | observed-fact | direct | p. 323, Fig. 3 | true |
-| T18-3 | Demonstrated non-destructive optical state detection of 229mTh via electronic transition shifts. | method-formalism | direct | pp. 324-325, discussion | true |
+| T18-1 | 从电子超精细 A、B 及外部基态核矩推得 μₘ=−0.37(6) μ_N、Qₛᵐ/Qₛ=0.555(19) 和 Qₛᵐ=1.74(6) eb。 | author-analysis | model-conditioned | PDF 3–4（印 323–324）Figs. 3–4、Table 1 | true |
+| T18-2 | 两条电子跃迁的异能／同位素位移比为 0.035(4)，用外部半径差 0.33(5) fm² 推得 Δ⟨r²⟩=0.012(2) fm²。 | author-analysis | model-conditioned | PDF 4（印 324）Isomer properties | true |
+| T18-3 | 两步电子激发的荧光谱区分核基态、异能态和碰撞峰。 | method-formalism | direct | PDF 2–3 Figs. 1–4；PDF 10–12 Extended Data Figs. 3–5 | true |
 
 ## Competing Interpretations and Limitations
 
-Extracted moments depend on relativistic atomic structure calculations of electronic field gradients and magnetic fields in Th2+.
+磁矩提取忽略小的超精细反常。作者简化 Nilsson 磁矩估算 −0.076 μ_N 与提取值有明显差别。Q₀ᵐ/Q₀=0.99(4) 的形状解读取 K=I 带头转动模型。Zhang 2024 引用 0.555(19) 作比较，其 CaF₂ 四极谱为独立实测。
 
 ## Extracted Pages
 

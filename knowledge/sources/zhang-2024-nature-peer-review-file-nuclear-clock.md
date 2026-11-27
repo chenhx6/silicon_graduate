@@ -3,7 +3,7 @@ type: source
 title: "Peer Review File: Frequency ratio of the 229mTh isomeric transition and the 87Sr atomic clock"
 aliases: ["zhang-2024-nature-peer-review-file-nuclear-clock", "Nature Editorial / Peer Reviewers for Chuankun Zhang et al. 2024"]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
@@ -39,7 +39,7 @@ tags: ["229th", "isomer", "nuclear-clock", "vuv-spectroscopy"]
 
 ## Scope and Reading Depth
 
-The local primary PDF was examined under reading depth `read`. Main text, figures, tables, and discussions were inspected. Supplementary information was not bundled in this primary PDF file and is not included in this audit.
+本地同行评审文件 PDF 1–6。PDF 1–3 为两份评语，PDF 3–6 为带评语复列的作者答复。此件附在 [[zhang-2024-frequency-ratio-87sr-nuclear-clock]] 的论文记录下。
 
 ## Summary
 
@@ -50,7 +50,7 @@ Official Nature Peer Review File for manuscript s41586-024-07839-6 (Chuankun Zha
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | PRF24-1 | Referee #1 evaluated comb excitation as a historical achievement and probed comb mode assignment and background suppression. | author-analysis | peer-review record | pp. 1-3, Reviewer 1 report | true |
-| PRF24-2 | Referee #2 assessed novelty, methodology, and confirmation of PTB pulsed laser observation. | author-analysis | peer-review record | pp. 4-6, Reviewer 2 report | true |
+| PRF24-2 | Referee #2 assessed novelty, methodology, and confirmation of PTB pulsed laser observation. | author-analysis | peer-review record | PDF 2 下半至 3 的原始评语，PDF 5–6 的作者答复 | true |
 
 ## Competing Interpretations and Limitations
 

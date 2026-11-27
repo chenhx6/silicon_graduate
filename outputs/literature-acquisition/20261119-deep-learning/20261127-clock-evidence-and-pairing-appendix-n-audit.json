@@ -1,0 +1,163 @@
+{
+  "batch": "20261127-clock-evidence-and-pairing-appendix-n",
+  "created_at": "2026-11-27T06:01:58.355558+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-001013",
+      "source": "knowledge/sources/seiferle-2019-energy-229th-nuclear-clock.md",
+      "identity": "刊版，PDF 1–4 为印 243–246，5–8 为 Methods 与出版信息，9–19 为 Extended Data 图表",
+      "coverage": [
+        "刊版，PDF 1–4 为印 243–246，5–8 为 Methods 与出版信息，9–19 为 Extended Data 图表。承接同版旧读段，本次回查 PDF 1–3、5–7、9–19，目视 PDF 2 Figs. 1–2。独立原始事件及分析文件未核。"
+      ],
+      "boundary": [
+        "阻滞谱和 2016 年的探测是独立测量步骤，后者仅有电荷态能量边界。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes with manager original-page verification",
+      "source_pdf": "raw/papers/isomer/isomer_application/nuclear_clock/2019_Seiferle et al_Energy of the 229Th nuclear clock transition.pdf",
+      "sha256": "8ac671af119c82adecdefd9beeb326d75d355d105ec1a97c521c7f986248111e",
+      "physical_pages": 19
+    },
+    {
+      "id": "catalogue:LIT-001015",
+      "source": "knowledge/sources/sikorsky-2020-th229-isomer-energy-mmc.md",
+      "identity": "APS 刊版 PDF 1–6（142503-1–6）",
+      "coverage": [
+        "APS 刊版 PDF 1–6（142503-1–6）。承接同版旧读段，本次回查全件的能谱、定标及四种提取，目视 PDF 5 Fig. 5。独立 Supplemental Material [35] 未核。"
+      ],
+      "boundary": [
+        "按各式分别引用，保留绝对法的共同 Masuda 输入。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes with manager original-page verification",
+      "source_pdf": "raw/papers/isomer/isomer_application/nuclear_clock/2020_Sikorsky et al_Measurement of the Th 229 Isomer Energy with a Magnetic Microcalorimeter.pdf",
+      "sha256": "2fec41f47984db0268d1bfb5058298abfd6b70f4d5cd1a22e067ef441380fc1c",
+      "physical_pages": 6
+    },
+    {
+      "id": "catalogue:LIT-001032",
+      "source": "knowledge/sources/yamaguchi-2019-energy-229th-gamma-difference.md",
+      "identity": "APS 刊版 PDF 1–6（222501-1–6）",
+      "coverage": [
+        "APS 刊版 PDF 1–6（222501-1–6）。承接同版旧读段，本次回查 PDF 1–5 的实测、标定、误差及依赖引文，校对 PDF 6 末页和 PDF 4 Fig. 4。原始计数与校准文件未核。"
+      ],
+      "boundary": [
+        "正文误差是 0.92 eV。峰心的独立性与派生能量的输入依赖分别登记。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes with manager original-page verification",
+      "source_pdf": "raw/papers/isomer/isomer_application/nuclear_clock/2019_Yamaguchi et al_Energy of the Th 229 Nuclear Clock Isomer Determined by Absolute γ -ray Energy Difference.pdf",
+      "sha256": "4367caad58e8a96618302c073318940188819442e43dfb786c608850f0d87f96",
+      "physical_pages": 6
+    },
+    {
+      "id": "catalogue:LIT-001024",
+      "source": "knowledge/sources/von-der-wense-2016-direct-detection-229th.md",
+      "identity": "刊版 PDF 1–5 为印 47–51，6–8 为 Methods 和在线引文，9–17 为 Extended Data 图表",
+      "coverage": [
+        "刊版 PDF 1–5 为印 47–51，6–8 为 Methods 和在线引文，9–17 为 Extended Data 图表。承接同版旧读段，本次回查上述原件的装置、控制与能量边界，目视 PDF 4 Fig. 5。"
+      ],
+      "boundary": [
+        "保留电荷态、表面中和和内转换条件。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes with manager original-page verification",
+      "source_pdf": "raw/papers/isomer/isomer_application/nuclear_clock/2016_Von Der Wense et al_Direct detection of the 229Th nuclear clock transition.pdf",
+      "sha256": "125d127a42d48f315a8dc70a2ce36f553aa0cd6ee41aa2a55bbbd7174d434d3d",
+      "physical_pages": 17
+    },
+    {
+      "id": "catalogue:LIT-001018",
+      "source": "knowledge/sources/thielking-2018-laser-spectroscopy-229mth.md",
+      "identity": "刊版 PDF 1–5 为印 321–325，6–7 为 Methods 等，8–14 为 Extended Data 图表",
+      "coverage": [
+        "刊版 PDF 1–5 为印 321–325，6–7 为 Methods 等，8–14 为 Extended Data 图表。承接同版旧读段，本次回查整件中的数据、方法和附表，目视 PDF 3 Figs. 3–4。独立 SI 未核。"
+      ],
+      "boundary": [
+        "核矩和半径差是电子谱配合外部输入的反演量。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes with manager original-page verification",
+      "source_pdf": "raw/papers/isomer/isomer_application/nuclear_clock/2018_Thielking et al_Laser spectroscopic characterization of the nuclear-clock isomer 229mTh.pdf",
+      "sha256": "9f0636561c93d9a3fcf417966b73dc50b818cea36379ab247a256cd64d3c6b24",
+      "physical_pages": 14
+    },
+    {
+      "id": "catalogue:LIT-001037",
+      "source": "knowledge/sources/zhang-2024-frequency-ratio-87sr-nuclear-clock.md",
+      "identity": "本地底本为 arXiv:2406.18719v2，PDF 1–10 上段正文，10–12 引文，13–17 Figs. 1–5，18–19 Methods，20–22 致谢与 Extended Data",
+      "coverage": [
+        "本地底本为 arXiv:2406.18719v2，PDF 1–10 上段正文，10–12 引文，13–17 Figs. 1–5，18–19 Methods，20–22 致谢与 Extended Data。承接同版旧读段，本次回查正文、方法、图表及关键引文，目视 PDF 15–17。6 页 [[zhang-2024-nature-peer-review-file-nuclear-clock]] 单列附件；Nature 排印版未对读。"
+      ],
+      "boundary": [
+        "保留 150(1) K 宿主和统计精度边界；独立评审附件不计主件页。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes with manager original-page verification",
+      "source_pdf": "raw/papers/gpt/query/20261107-nuclear-clock/2024_Zhang_Frequency_ratio_of_the_229mTh_nuclear_isomeric_transition_and_the_87Sr_atomic_clock.pdf",
+      "sha256": "157be36ee7fb6658dc1ed52fa5ab02c7e685a36ce5e912b2f2ea799f10a41e72",
+      "physical_pages": 22
+    },
+    {
+      "id": "catalogue:LIT-000302",
+      "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "identity": "Bohr and Mottelson, Nuclear Structure II (1975 original; local World Scientific 1998 reissue), 772 PDF pages.",
+      "coverage": [
+        "PDF 666–675 (printed 644–653), pairing transfer, static field, quasiparticles and gap estimates.",
+        "PDF 676–695 (printed 654–673), Appendix 6A through the deformation-perturbation opening."
+      ],
+      "boundary": [
+        "配对转移截面未直接固定组态相对相位；附录流体模结论随边界条件和模型输入引用。"
+      ],
+      "disposition": "partial",
+      "worker": "Pascal with manager original-page verification",
+      "source_pdf": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "physical_pages": 772
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 576,
+    "duplicate-or-related-version": 23,
+    "duplicate-excerpt-linked-to-canonical": 13,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "pending-identity-and-coverage": 92,
+    "supplement-linked-to-canonical": 7,
+    "existing-source-coverage-to-audit": 158,
+    "archived-publisher-scan-missing-printed-page": 1,
+    "read-core-evidence-checked": 1,
+    "out-of-scope-atomic-spectroscopy": 4,
+    "editorial-front-matter": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "publisher-first-page-extract-fulltext-unavailable": 3,
+    "access-placeholder-fulltext-unavailable": 1,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 250,
+  "credited_works": 6,
+  "credited_primary_pages": 84,
+  "partial_volume_pages": 30,
+  "next_action": "Continue Bohr–Mottelson II PDF 696 (printed 674), Appendix 6A, and audited local sources.",
+  "uncredited": [],
+  "related_attachments": [
+    {
+      "path": "raw/papers/isomer/isomer_application/nuclear_clock/2024_Zhang et al_Frequency ratio of the 229mTh nuclear isomeric transition and the 87Sr atomic clock.pdf",
+      "sha256": "630d2e01d7ead4f31ab7d5b2f188c7d57c4db628b7183f16031f3a67039c0796",
+      "size": 178204,
+      "hash_basis": "catalogue-signature-cache; rehash-on-reading",
+      "source_role": "paper-or-supplement-needs-identity-audit",
+      "source_note": "knowledge/sources/zhang-2024-nature-peer-review-file-nuclear-clock.md",
+      "physical_pages": 6,
+      "credited_primary_pages": 0,
+      "role": "publisher peer review, original reports and author responses"
+    }
+  ],
+  "queue_counts_verified": true
+}

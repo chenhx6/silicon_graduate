@@ -3,7 +3,7 @@ type: research-note
 title: "光学核钟同核异能态物理、前沿实验突破与核结构机制跨区迁移研学"
 aliases: [nuclear-clock-isomer-learning-and-transfer-20261107, 核钟同核异能态研学, 229Th与45Sc核钟对比]
 created: 2026-11-07
-updated: 2026-11-08
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
@@ -27,6 +27,10 @@ tags: [229th, 45sc, isomer, nuclear-clock, vuv-spectroscopy, precision-metrology
 | 对象 | 来源/locator | 能支持什么 |
 |---|---|---|
 | 229Th结构、电子环境与核钟路线 | [[beeks-2021-thorium-229-isomer-nuclear-clock]], 印刷238–248 | 2021时的综述框架，非新实验 |
+| 电荷态与首次探测的能量界 | [[von-der-wense-2016-direct-detection-229th]]，印 50、PDF 7 | 约 6.3–18.3 eV 由半衰期与一、三电离势推断 |
+| 阻滞电子谱 | [[seiferle-2019-energy-229th-nuclear-clock]]，印 245 Eq. (1) | 8.28±0.17 eV，主要系统误差来自电子态布居模拟 |
+| γ 谱双差和峰心差 | [[sikorsky-2020-th229-isomer-energy-mmc]]，PDF 4 Eq. (2)；[[yamaguchi-2019-energy-229th-gamma-difference]]，PDF 4 Fig. 4 | 前者四线双差 8.10(17) eV；后者 8.30±0.92 eV，使用外部跨带能量和分支。Sikorsky Eq. (4) 与后者共用 Masuda 的跨带能量 |
+| 频梳核谱与 ⁸⁷Sr 比对 | [[zhang-2024-frequency-ratio-87sr-nuclear-clock]]，作者稿 PDF 8、17 Fig. 5 | 150(1) K 样品的频率比 4.707 072 615 078(5)，系统误差待评估 |
 | 中性化后的IC寿命 | [[seiferle-2017-lifetime-229th-isomer]], Figs.2–3 | 指定制备/探测环境的短寿命 |
 | 晶体辐射 | [[kraemer-2023-radiative-decay-229th-isomer]], 印刷706–708, Figs.2–4 | 辐射光谱及所报告半衰期 |
 | 孤立离子光谱 | [[yamaguchi-2024-laser-spectroscopy-th229-triply-charged]] | 具体离子/电子态条件，阅读范围以source为准 |

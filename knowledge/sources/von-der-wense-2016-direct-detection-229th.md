@@ -3,12 +3,12 @@ type: source
 title: "Direct detection of the 229Th nuclear clock transition"
 aliases: ["von-der-wense-2016-direct-detection-229th", "Lars von der Wense 2016"]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
 source_type: experiment-article
-reading_depth: deep-read
+reading_depth: read
 title_original: "Direct detection of the 229Th nuclear clock transition"
 authors: ["Lars von der Wense", "Benedict Seiferle", "Mustapha Laatiaoui", "Jürgen B. Neumayr", "Hans-Jörg Maier", "Hans-Friedrich Wirth", "Christoph Mokry", "Jörg Runke", "Klaus Eberhardt", "Christoph E. Düllmann", "Norbert G. Trautmann", "Peter G. Thirolf"]
 journal: "Nature"
@@ -37,22 +37,22 @@ tags: ["229th", "isomer", "nuclear-clock", "vuv-spectroscopy"]
 
 ## Scope and Reading Depth
 
-本次对象为frontmatter指定的本地PDF，页数及实际读取范围见本轮clock逐文件台账。关键主张依下表原页定位；未在该PDF中实际检查的独立SI、原始计数和装置文件不自动包含在核验范围。
+刊版 PDF 1–5 为印 47–51，6–8 为 Methods 和在线引文，9–17 为 Extended Data 图表。承接同版旧读段，本次回查上述原件的装置、控制与能量边界，目视 PDF 4 Fig. 5。
 
 ## Summary
 
-von der Wense et al. reported the first direct detection of the ground-state decay of 229mTh. Recoil ions from a 233U alpha-decay source were thermalized in a buffer-gas cell, mass-selected by a QMS, and collected onto an MCP detector where low-energy internal conversion electrons were observed, confirming isomer existence and bounding 6.31 eV < E < 10 eV.
+²³³U α 衰变的反冲离子经缓冲气体热化和 QMS 选离子，在 MCP 表面中和后探测异能态退激的内转换电子。
 
 ## Key Results
 
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| W16-1 | Direct detection of neutral 229mTh ground-state decay via internal conversion electrons on MCP detector. | observed-fact | direct | pp. 47-49, Figs. 2-3 | true |
-| W16-2 | Transition energy bounded as E > 6.31 eV (Th IP1) and E < 10 eV from stopping voltage curves. | observed-fact | direct | p. 49, Fig. 4 | true |
+| W16-1 | 质量和 MCP 电压控制支持信号归于 ²²⁹ᵐTh 退激后的内转换电子。 | observed-fact | direct | PDF 2–4（印 48–50）Figs. 2–5；PDF 15 Extended Data Table 1 | true |
+| W16-2 | 中性化后的半衰期小于 1 s，Th²⁺ 半衰期大于 60 s。作者按内转换开启条件及第一、第三电离势推得约 6.3–18.3 eV，第一电离势为 6.31 eV。 | author-analysis | model-conditioned | PDF 4（印 50）右栏；PDF 7 Methods | true |
 
 ## Competing Interpretations and Limitations
 
-Signal detected as conversion electrons on surfaces; does not provide optical photon wavelength or sub-eV energy resolution. Strongly dependent on buffer-gas extraction purity.
+能量界来自电荷态和退激通道推断。Seiferle 2017 的微秒寿命、Seiferle 2019 的阻滞能谱和 Kraemer 2023 的 VUV 光谱各是后续测量。
 
 ## Extracted Pages
 

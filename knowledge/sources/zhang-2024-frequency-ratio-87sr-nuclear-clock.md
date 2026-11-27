@@ -3,12 +3,12 @@ type: source
 title: "Frequency ratio of the 229mTh nuclear isomeric transition and the 87Sr atomic clock"
 aliases: ["zhang-2024-frequency-ratio-87sr-nuclear-clock", "Chuankun Zhang 2024 frequency ratio"]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
 source_type: experiment-article
-reading_depth: deep-read
+reading_depth: read
 title_original: "Frequency ratio of the 229mTh nuclear isomeric transition and the 87Sr atomic clock"
 authors: ["Chuankun Zhang", "Tian Ooi", "Jacob S. Higgins", "Jack F. Doyle", "Lars von der Wense", "Kjeld Beeks", "Adrian Leitner", "Georgy Kazakov", "Peng Li", "Peter G. Thirolf", "Thorsten Schumm", "Jun Ye"]
 journal: "Nature"
@@ -39,25 +39,23 @@ tags: ["229th", "isomer", "nuclear-clock", "vuv-spectroscopy"]
 
 ## Scope and Reading Depth
 
-实际底本为arXiv:2406.18719v2的22页PDF；期刊引文另列Nature633,63–70。未把本地作者稿身份改写成出版排印版，也未据题录声称与最终出版版逐字一致。
-
-本次对象为frontmatter指定的本地PDF，页数及实际读取范围见本轮clock逐文件台账。关键主张依下表原页定位；未在该PDF中实际检查的独立SI、原始计数和装置文件不自动包含在核验范围。
+本地底本为 arXiv:2406.18719v2，PDF 1–10 上段正文，10–12 引文，13–17 Figs. 1–5，18–19 Methods，20–22 致谢与 Extended Data。承接同版旧读段，本次回查正文、方法、图表及关键引文，目视 PDF 15–17。6 页 [[zhang-2024-nature-peer-review-file-nuclear-clock]] 单列附件；Nature 排印版未对读。
 
 ## Summary
 
-Zhang et al. (arXiv:2406.18719v2 / Nature 633, 63-70) directly excited the 229Th nuclear clock transition in 229Th:CaF2 using a VUV frequency comb (7th harmonic of 1040 nm comb) phase-locked to JILA's 87Sr optical lattice clock. They measured the absolute transition frequency nu_0 = 2,020,407,384,335 ± 2 kHz (lambda = 148.382158... nm, 2 kHz precision), the frequency ratio nu(229Th)/nu(87Sr) = 4.707..., and resolved 5 nuclear quadrupole transitions in the crystal field.
+以 ⁸⁷Sr 为参考锁定 VUV 七次谐波频梳，直接激发 150(1) K 的 ²²⁹Th:CaF₂ 样品并计关光后荧光。
 
 ## Key Results
 
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| Z24-1 | Absolute frequency of 229Th nuclear transition in CaF2 measured as nu_0 = 2,020,407,384,335 ± 2 kHz (lambda = 148.382158... nm). | observed-fact | direct | p. 3, Fig. 4, Table 1 | true |
-| Z24-2 | Direct frequency ratio measured between 229Th nuclear transition and 87Sr optical atomic clock as 4.707... | observed-fact | direct | p. 4, Fig. 5 | true |
-| Z24-3 | Resolved five nuclear quadrupole transitions in CaF2 host crystal, extracting local electric field gradient coupling. | observed-fact | direct | pp. 2-3, Fig. 3 | true |
+| Z24-1 | 四条强四极谱线加权消去一阶电四极分裂，得 νₜₕ=2,020,407,384,335(2) kHz。 | author-analysis | direct | 作者稿 PDF 8、17 Fig. 5 | true |
+| Z24-2 | 频率比 νₜₕ/νₛᵣ=4.707 072 615 078(5)；原作者将系统误差留待后续评估。 | author-analysis | direct | 作者稿 PDF 8、16–17 Figs. 4–5 | true |
+| Z24-3 | 测量并归属五条核四极谱线。Qᵢₛ/Qg=0.57003(1) 的误差为该谱拟合统计误差。采用外部 Qg=3.11(2) eb 得 Vzz=109.1(7) V/Å²。 | author-analysis | model-conditioned | 作者稿 PDF 6–8、16–17 Figs. 4–5 | true |
 
 ## Competing Interpretations and Limitations
 
-Absolute frequency includes host crystal field shift in CaF2. Comb excitation performed with ~kHz precision; closed-loop clock operation was not implemented in this paper.
+三种重复频率用于梳齿编号判别；弱第五线按预期编号和一次扫描确认。PDF 5 与 15 Fig. 3a 的 641(4) s 是指数时间常数，换算半衰期约 444(3) s。光谱数据和 ⁸⁷Sr 频率传递是本实验，早期 Tiedau、Elwell 用于估计梳齿候选，Thielking 核矩比仅用于比较。
 
 ## Extracted Pages
 

@@ -3,12 +3,12 @@ type: source
 title: "Energy of the 229Th Nuclear Clock Isomer Determined by Absolute γ-ray Energy Difference"
 aliases: ["yamaguchi-2019-energy-229th-gamma-difference", "A. Yamaguchi 2019"]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
 source_type: experiment-article
-reading_depth: deep-read
+reading_depth: read
 title_original: "Energy of the 229Th Nuclear Clock Isomer Determined by Absolute γ-ray Energy Difference"
 authors: ["A. Yamaguchi", "H. Muramatsu", "T. Hayashi", "N. Yuasa", "K. Nakamura", "M. Takimoto", "H. Haba", "K. Konashi", "M. Watanabe", "H. Kikunaga", "K. Maehata", "N. Y. Yamasaki", "K. Mitsuda"]
 journal: "Physical Review Letters"
@@ -37,22 +37,22 @@ tags: ["229th", "isomer", "nuclear-clock", "vuv-spectroscopy"]
 
 ## Scope and Reading Depth
 
-本次对象为frontmatter指定的本地PDF，页数及实际读取范围见本轮clock逐文件台账。关键主张依下表原页定位；未在该PDF中实际检查的独立SI、原始计数和装置文件不自动包含在核验范围。
+APS 刊版 PDF 1–6（222501-1–6）。承接同版旧读段，本次回查 PDF 1–5 的实测、标定、误差及依赖引文，校对 PDF 6 末页和 PDF 4 Fig. 4。原始计数与校准文件未核。
 
 ## Summary
 
-Yamaguchi et al. determined the 229mTh isomer energy using a cryogenic transition-edge sensor (TES) microcalorimeter array measuring absolute gamma-ray energy differences (29.19 keV and 42.63 keV lines) from 233U decay. They obtained E = 8.30 ± 0.17 (stat) ± 0.08 (syst) eV (total 0.19 eV uncertainty), independently validating Seiferle 2019 within 0.02 eV.
+单像素 TES 测量 ²³³U α 衰变后的 29.2 keV 未分辨 γ 线，实测约 36 eV FWHM。
 
 ## Key Results
 
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| Y19-1 | Isomer energy determined as E = 8.30 ± 0.17 (stat) ± 0.08 (syst) eV (lambda = 149.4 ± 3.4 nm). | observed-fact | direct | p. 222501-1, Abstract, Fig. 3 | true |
-| Y19-2 | Independent gamma-ray calorimetric validation of Seiferle 2019 electron spectroscopy result within 0.02 eV. | author-analysis | cross-validation | p. 222501-4, discussion | true |
+| Y19-1 | 未分辨线的峰心为 29,182.51±0.33（系统）±0.72（统计）eV。 | observed-fact | direct | PDF 2–3 Tables I–II、Fig. 3；PDF 4 | true |
+| Y19-2 | 使用 Masuda 的跨带能量 29,189.93(7) eV 与分支 b=0.106(27)，由峰心差除以 1−b 得 8.30±0.45（系统）±0.81（统计）eV，合报 8.30±0.92 eV。 | author-analysis | model-conditioned | PDF 4（222501-4）Fig. 4、Ref. [11] | true |
 
 ## Competing Interpretations and Limitations
 
-Indirect energy difference method relying on multi-line gamma calibration. While completely orthogonal in systematics to conversion electron spectroscopy, it remains an energy difference rather than direct photon absorption.
+本次 TES 峰心数据独立于 Seiferle 的电子谱。反演的异能态能量复用 Masuda 的两项输入，并与 Sikorsky Eq. (4) 共用跨带能量。Fig. 4 重新评估旧 γ 双差的色带也使用 Masuda 的分支。
 
 ## Extracted Pages
 

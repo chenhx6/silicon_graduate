@@ -677,7 +677,7 @@
     "LOCAL-ROTATION-AND-DEFORMATION-SOURCES",
     "LOCAL-THEORY-AND-SPECTROSCOPY-245"
   ],
-  "completed_full_sources_this_run": 588,
+  "completed_full_sources_this_run": 594,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -685,25 +685,25 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-27T05:33:44.832799+00:00",
+  "updated_at": "2026-11-27T06:01:58.355558+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 22583,
+  "completed_primary_pages_this_run": 22667,
   "current_source_note": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
-  "next_action": "Continue Bohr–Mottelson II PDF 666 (printed 644) and the next verified original sources.",
+  "next_action": "Continue Bohr–Mottelson II PDF 696 (printed 674), Appendix 6A, and audited local sources.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "7 works, 240 primary PDF pages and 20 bounded book pages verified.",
-  "current_source_scientific_acceptance": "Bohr–Mottelson II through PDF 665 (printed 643); no completed-volume credit.",
+  "last_source_manager_closure": "6 works, 84 primary PDF pages, a 6-page peer review file and 30 bounded book pages verified.",
+  "current_source_scientific_acceptance": "Bohr–Mottelson II through PDF 695 (printed 673); no completed-volume credit.",
   "source_scoped_retrieval": "Existing local originals; publisher and author versions recorded separately.",
   "counting_scope": {
-    "scientific_reading_covered": 570,
+    "scientific_reading_covered": 576,
     "bounded_or_core_only_completed": 18,
-    "credited_pages_explicit_in_queue": 12125,
+    "credited_pages_explicit_in_queue": 12209,
     "pages_carried_forward_from_previous_checkpoints": 10458,
     "increment_this_checkpoint": {
-      "works": 7,
-      "pages": 240,
-      "partial_volume_pages_recorded_separately": 20
+      "works": 6,
+      "pages": 84,
+      "partial_volume_pages_recorded_separately": 30
     }
   },
   "previous_pause": {
@@ -724,5 +724,5 @@
     "resume_printed_page": 259,
     "background_reading_scheduled": false
   },
-  "latest_batch_audit": "20261127-isomers-and-gamma-spectroscopy-m-audit.json"
+  "latest_batch_audit": "20261127-clock-evidence-and-pairing-appendix-n-audit.json"
 }

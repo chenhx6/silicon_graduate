@@ -7490,3 +7490,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-27 — 馆藏续读第 13 批
 
 - 核定 7 份、240 个主件 PDF 页，另核第二卷 PDF 646–665，从 PDF 666 续读。正式队列待处理 256 条。
+
+## 2026-11-27 — 馆藏续读第 14 批
+
+- 核定 6 份、84 个主件 PDF 页及 Zhang 公开评审附件，另核第二卷 PDF 666–695。正式队列待处理 250 条。
