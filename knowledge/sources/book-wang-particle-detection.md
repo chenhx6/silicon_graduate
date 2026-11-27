@@ -7,7 +7,7 @@ updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: book
-reading_depth: skimmed
+reading_depth: read
 title_original: "粒子探测技术"
 authors: [汪晓莲, 李澄, 邵明, 陈宏芳]
 publisher: "中国科学技术大学出版社"
@@ -95,3 +95,12 @@ OCR 段记粒子与物质相互作用、探测方法和仪器图表的实际页�
 - The book models the mean muon energy loss per unit path as a(Z,A,E) + b(Z,A,E)E. The first term describes ionization. The second combines bremsstrahlung, direct electron–positron pair production, and photonuclear interactions. The two terms are equal at E_c = a/b. Treating a and b as constant gives a logarithmic range estimate. Individual radiative events can transfer large amounts of energy and produce substantial fluctuations around the mean.（PDF 49–52, §2.1.6, Eqs. (2.1.38)–(2.1.45)）
 - The book reports 342 one-second scintillation-detector background measurements under conditions treated as steady. The frequency column sums to 342 intervals and gives 841 total counts, or about 2.46 counts/s. The chapter uses this mean to draw its Poisson comparison curve.（PDF 81, Table 3.1.1, PDF 83, Eq. (3.1.4), and PDF 86）
 - For a given gas with approximately constant W, the mean total ion-pair yield is ΔE/W. W exceeds the ionization threshold because deposited energy also goes into excitation and kinetic energy. If ionizing encounters are independent and one encounter suffices for detection, perfect charge collection gives an intrinsic efficiency ceiling of 1 − exp(−L/λ). The observed total-pair variance is below the Poisson prediction, which the text accounts for with a Fano factor.（PDF 111–113, §4.1.2, Eqs. (4.1.1)–(4.1.4)）
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 19–20、22 的横向表格已核版面，第 271 页 Figs. 6.3.8–6.3.9 为多阳极与网格结构，PDF 444 末页为衰变纲图。材料厚度、电子学设置和响应条件随教材例定位。
+
+- The book models the mean muon energy loss per unit path as a(Z,A,E) + b(Z,A,E)E. The first term describes ionization. The second combines bremsstrahlung, direct electron–positron pair production, and photonuclear interactions. The two terms are equal at E_c = a/b. Treating a and b as constant gives a logarithmic range estimate. Individual radiative events can transfer large amounts of energy and produce substantial fluctuations around the mean.（PDF 49–52, §2.1.6, Eqs. (2.1.38)–(2.1.45)）
+- The book reports 342 one-second scintillation-detector background measurements under conditions treated as steady. The frequency column sums to 342 intervals and gives 841 total counts, or about 2.46 counts/s. The chapter uses this mean to draw its Poisson comparison curve.（PDF 81, Table 3.1.1, PDF 83, Eq. (3.1.4), and PDF 86）
+- For a given gas with approximately constant W, the mean total ion-pair yield is ΔE/W. W exceeds the ionization threshold because deposited energy also goes into excitation and kinetic energy. If ionizing encounters are independent and one encounter suffices for detection, perfect charge collection gives an intrinsic efficiency ceiling of 1 − exp(−L/λ). The observed total-pair variance is below the Poisson prediction, which the text accounts for with a Fano factor.（PDF 111–113, §4.1.2, Eqs. (4.1.1)–(4.1.4)）
+- In the organic G–M model, photon feedback spreads the discharge along the anode when each avalanche produces more than one successor photoelectron per starting electron. The resulting positive-ion sheath weakens the field until feedback falls below unity. At a fixed voltage, pulse amplitude is governed chiefly by the sheath charge and has little dependence on the initial ionization.（PDF pp. 141–142, §4.2.3, organic-tube operating principle）

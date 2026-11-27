@@ -7562,3 +7562,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-27 — 馆藏续读第 31 批
 
 - 回写扫描件原页阅读和 OCR 范围。新增原页核读 162 页，正式队列仍有 9 本。
+
+## 2026-11-27 — 馆藏续读第 32 批
+
+- 核定七册扫描书，登记 3,279 个计入页，另有两册的 64 个页段。队列剩 2 本。

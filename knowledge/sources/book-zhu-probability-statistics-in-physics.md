@@ -7,7 +7,7 @@ updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: skimmed
+reading_depth: read
 title_original: "实验物理中的概率和统计（第二版）"
 authors: [朱永生]
 publisher: "科学出版社"
@@ -97,3 +97,12 @@ OCR 段记概率模型、统计量及公式符号。
 - For independent summands, the characteristic function of the sum is the product of their characteristic functions. For Poisson variables with means λ₁ and λ₂, this product has the Poisson form exp[(λ₁ + λ₂)(exp(it) − 1)], so the sum is Poisson with mean λ₁ + λ₂. For nonnegative integer-valued variables, the probability generating function gives the corresponding product rule.（PDF 49–52, equations (2.5.5)–(2.5.6), (2.5.9), and the properties following (2.6.1)）
 - For an affine transformation Y = TX + a, the exact relations are E(Y) = T E(X) + a and Cov(Y) = T Cov(X) Tᵀ. For a differentiable nonlinear transformation, the text uses Cov(Y) ≈ S Cov(X) Sᵀ, with S the Jacobian at the input means, under a small-error, first-order approximation. Independent inputs can still produce correlated outputs when the outputs share inputs.（PDF 80–86, §§3.8–3.9, eqs. (3.8.2)–(3.8.5) and (3.9.10)–(3.9.15). The coordinate example is on PDF 87–88.）
 - Given n events in duration T from a homogeneous Poisson process, the count in a subinterval of duration t has the binomial law with parameters n and t/T. The related histogram result uses fixed bin probabilities p_j and a Poisson total of mean λ, yielding independent Poisson bin counts with means λp_j.（Physical PDF pp. 109–111, equations (4.4.2)–(4.4.4)）
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 139 §4.12 给多维正态的归一化及二次型；PDF 181 §5.2 的二项逼近保留参数条件。PDF 493 Fig. 13.3 的斐波那契搜索与 PDF 522 Fig. 13.11 的单纯形流程已补原图。PDF 668 为附表，671 为索引。
+
+- For independent summands, the characteristic function of the sum is the product of their characteristic functions. For Poisson variables with means λ₁ and λ₂, this product has the Poisson form exp[(λ₁ + λ₂)(exp(it) − 1)], so the sum is Poisson with mean λ₁ + λ₂. For nonnegative integer-valued variables, the probability generating function gives the corresponding product rule.（PDF 49–52, equations (2.5.5)–(2.5.6), (2.5.9), and the properties following (2.6.1)）
+- For an affine transformation Y = TX + a, the exact relations are E(Y) = T E(X) + a and Cov(Y) = T Cov(X) Tᵀ. For a differentiable nonlinear transformation, the text uses Cov(Y) ≈ S Cov(X) Sᵀ, with S the Jacobian at the input means, under a small-error, first-order approximation. Independent inputs can still produce correlated outputs when the outputs share inputs.（PDF 80–86, §§3.8–3.9, eqs. (3.8.2)–(3.8.5) and (3.9.10)–(3.9.15). The coordinate example is on PDF 87–88.）
+- Given n events in duration T from a homogeneous Poisson process, the count in a subinterval of duration t has the binomial law with parameters n and t/T. The related histogram result uses fixed bin probabilities p_j and a Poisson total of mean λ, yielding independent Poisson bin counts with means λp_j.（Physical PDF pp. 109–111, equations (4.4.2)–(4.4.4)）
+- For a jointly normal n-vector X with mean μ and positive-definite covariance V, rotating into covariance eigenvector coordinates and standardizing gives n independent standard normals. Thus Q = (X − μ)ᵀV⁻¹(X − μ) has the χ²ₙ law, and the ellipsoid Q < C contains probability F(C;n).（PDF 139–143, equations (4.11.25) and (4.12.9)–(4.12.12)）

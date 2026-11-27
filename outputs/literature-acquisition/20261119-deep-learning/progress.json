@@ -677,7 +677,7 @@
     "LOCAL-ROTATION-AND-DEFORMATION-SOURCES",
     "LOCAL-THEORY-AND-SPECTROSCOPY-245"
   ],
-  "completed_full_sources_this_run": 805,
+  "completed_full_sources_this_run": 812,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -685,25 +685,25 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-27T13:26:54.293094+00:00",
+  "updated_at": "2026-11-27T14:32:24.290961+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 34067,
+  "completed_primary_pages_this_run": 37346,
   "current_source_note": "knowledge/sources/book-bohr-mottelson-nuclear-structure.md",
-  "next_action": "Continue the nine original scans from their recorded partial ranges.",
+  "next_action": "Continue the final Hamilton and Lin volumes, with local source verification.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "0 works credited 0 pages; 162 additional original scan pages, plus bounded OCR sections.",
+  "last_source_manager_closure": "7 works credited 3279 pages; 64 additional original scan pages in two remaining books.",
   "current_source_scientific_acceptance": "Vol. II complete; continue the open queue, including archival PDFs needing original tables or scans.",
   "source_scoped_retrieval": "Existing local originals; publisher and author versions recorded separately.",
   "counting_scope": {
-    "scientific_reading_covered": 787,
+    "scientific_reading_covered": 794,
     "bounded_or_core_only_completed": 18,
-    "credited_pages_explicit_in_queue": 23609,
+    "credited_pages_explicit_in_queue": 26888,
     "pages_carried_forward_from_previous_checkpoints": 10458,
     "increment_this_checkpoint": {
-      "works": 0,
-      "pages": 0,
-      "partial_volume_pages_recorded_separately": 162,
+      "works": 7,
+      "pages": 3279,
+      "partial_volume_pages_recorded_separately": 64,
       "associated_rows": 0
     }
   },
@@ -725,5 +725,5 @@
     "resume_printed_page": 259,
     "background_reading_scheduled": false
   },
-  "latest_batch_audit": "20261127-scanned-volume-checkpoints-ae-audit.json"
+  "latest_batch_audit": "20261127-seven-scanned-volume-readings-af-audit.json"
 }

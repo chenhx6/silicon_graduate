@@ -7,7 +7,7 @@ updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: skimmed
+reading_depth: read
 title_original: "原子核物理（修订版）"
 authors: [卢希庭, 江栋兴, 叶沿林]
 publisher: "原子能出版社"
@@ -101,3 +101,12 @@ OCR 段补核衰变和后续教材主题，损坏符号独立保留。
 
 - For a collimated γ transmission measurement, the surviving beam intensity is I(d) = I₀ exp(−μd). The linear coefficient μ, in cm⁻¹ when d is in cm, counts true absorption and scattering out of the accepted beam. Accepting scattered photons lowers the apparent coefficient. The half-value thickness is ln(2)/μ and the mean distance before removal from the beam is 1/μ.（PDF 74, §3.1, Eqs. (3.1-19)–(3.1-21)）
 - The 200 and 300 keV γ lines are consistent with either level scheme. A prompt cascade gives true coincidences between the energy-selected channels. For independent random arrivals and a short symmetric resolving window, the accidental rate is approximately 2τN₁N₂. Assuming one cascade pair per decay, negligible loss of true pairs in the window, and no angular correlation, the accidental-to-true ratio is approximately 2τA₀. The detector acceptance and intrinsic efficiency factors cancel in that ratio.（PDF pp. 101–102, Figs. 3-33 and 3-34, Eqs. (3.4-1)–(3.4-4)）
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+印码为 PDF 减 10，自 PDF 11 始。PDF 153–164（印 143–154）区分允许及禁戒 β 跃迁、Kurie 变换和比较半衰期。PDF 233 图 8-29 至 8-31、428 的数据附表各有原件范围，438 为索引末页。
+
+- For a collimated γ transmission measurement, the surviving beam intensity is I(d) = I₀ exp(−μd). The linear coefficient μ, in cm⁻¹ when d is in cm, counts true absorption and scattering out of the accepted beam. Accepting scattered photons lowers the apparent coefficient. The half-value thickness is ln(2)/μ and the mean distance before removal from the beam is 1/μ.（PDF 74, §3.1, Eqs. (3.1-19)–(3.1-21)）
+- The 200 and 300 keV γ lines are consistent with either level scheme. A prompt cascade gives true coincidences between the energy-selected channels. For independent random arrivals and a short symmetric resolving window, the accidental rate is approximately 2τN₁N₂. Assuming one cascade pair per decay, negligible loss of true pairs in the window, and no angular correlation, the accidental-to-true ratio is approximately 2τA₀. The detector acceptance and intrinsic efficiency factors cancel in that ratio.（PDF pp. 101–102, Figs. 3-33 and 3-34, Eqs. (3.4-1)–(3.4-4)）
+- In the book’s allowed, point-charge approximation, the K-capture rate scales as Z³|M|²Eν². The Z³ factor comes from the bound K-electron density at the nucleus, and Eν² comes from the phase-space density of the single emitted neutrino evaluated at its discrete energy.（PDF 165–166, §6.9, Eqs. (6.9-2)–(6.9-8)）
+- The oscillator, square well, and interpolation give only the first three observed shell closures, 2, 8, and 20. With strong nuclear spin–orbit coupling, the j = ℓ + 1/2 branch lies below the j = ℓ − 1/2 branch, and each branch can hold 2j + 1 nucleons of a given species. The resulting reordering accounts for the higher closures discussed in the book, with 50, 82, and 126 falling at the splits of 1g, 1h, and 1i respectively.（PDF 205–207, Tables 8-2 and 8-3, Figure 8-7）

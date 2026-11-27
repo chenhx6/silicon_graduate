@@ -7,7 +7,7 @@ updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: book
-reading_depth: skimmed
+reading_depth: read
 title_original: "高等数学第七版下册"
 authors: [同济大学数学系]
 publisher: "高等教育出版社 (北京)"
@@ -106,3 +106,12 @@ OCR 段记空间解析几何及高维微积分的页域与公式不清处。
 - For a space curve given by F(x,y,z)=0 and G(x,y,z)=0, eliminating z when possible gives a necessary relation H(x,y)=0. Together with z=0, it describes a set containing the projection onto the xy-plane. Equality requires that every planar solution lift to a common point of the original surfaces. In the two-sphere example, the equation z=1−y supplies that lift.（PDF 56, equations (6-1) and (6-5), and PDF 57, Example 4）
 - At a point where f is defined on a neighborhood, differentiability means Δz = AΔx + BΔy + o(ρ), where ρ = √((Δx)² + (Δy)²). This implies continuity, and the axis limits identify A = fₓ and B = fᵧ. The counterexample has both partials zero but fails the remainder test along y = x. For sufficiency, the partial derivatives must exist in a neighborhood and be continuous at the point. Applying the one-variable mean value theorem to successive coordinate increments then gives the required remainder.（PDF 79–82, equations (3-1)–(3-7), Theorems 1 and 2, and the origin counterexample）
 - The directional derivative is the limit of [f(P + te) − f(P)]/t as t approaches 0 from above, with e a unit vector. If f is differentiable at P, it equals ∇f(P)·e. For a nonzero gradient, the maximum and minimum directional rates are +‖∇f(P)‖ and −‖∇f(P)‖ in the gradient and opposite directions, respectively. Orthogonal directions give rate zero, and the gradient is normal to the regular level set.（PDF 111–115, equations (7-1)–(7-4) and the gradient and level-set discussion）
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 23 Fig. 8-20 为余弦定理示例，PDF 53 Figs. 8-52–8-53 给曲面交线，PDF 226 Fig. 11-19 的曲面与投影及 268 正项级数判别依各自前提。PDF 366 封底、367 是附加元数据。
+
+- For a space curve given by F(x,y,z)=0 and G(x,y,z)=0, eliminating z when possible gives a necessary relation H(x,y)=0. Together with z=0, it describes a set containing the projection onto the xy-plane. Equality requires that every planar solution lift to a common point of the original surfaces. In the two-sphere example, the equation z=1−y supplies that lift.（PDF 56, equations (6-1) and (6-5), and PDF 57, Example 4）
+- At a point where f is defined on a neighborhood, differentiability means Δz = AΔx + BΔy + o(ρ), where ρ = √((Δx)² + (Δy)²). This implies continuity, and the axis limits identify A = fₓ and B = fᵧ. The counterexample has both partials zero but fails the remainder test along y = x. For sufficiency, the partial derivatives must exist in a neighborhood and be continuous at the point. Applying the one-variable mean value theorem to successive coordinate increments then gives the required remainder.（PDF 79–82, equations (3-1)–(3-7), Theorems 1 and 2, and the origin counterexample）
+- The directional derivative is the limit of [f(P + te) − f(P)]/t as t approaches 0 from above, with e a unit vector. If f is differentiable at P, it equals ∇f(P)·e. For a nonzero gradient, the maximum and minimum directional rates are +‖∇f(P)‖ and −‖∇f(P)‖ in the gradient and opposite directions, respectively. Orthogonal directions give rate zero, and the gradient is normal to the regular level set.（PDF 111–115, equations (7-1)–(7-4) and the gradient and level-set discussion）
+- The exponential fit minimizes squared residuals in lg y, using lg y = aT + b. The rounded equations are 1836a + 108b = 122 and 108a + 8b = 10.3. Converting back gives the reported decay model y = 78.78 exp(−0.1036T). The negative exponent is recoverable from the stated m = −0.1036. Units for T and y are unresolved in the supplied excerpt.（Physical PDF 138–139, equation (10-3), observation table and continuation）

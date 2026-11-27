@@ -7,7 +7,7 @@ updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: skimmed
+reading_depth: read
 title_original: "Nuclear Structure, Volume I: Single-Particle Motion"
 authors: [Aage Bohr, Ben R. Mottelson]
 publisher: "World Scientific (1998 reissue of W. A. Benjamin original)"
@@ -104,3 +104,12 @@ PDF 231–280 的体系增强与壳结构判断保留作者区分的经验输入
 - The proposed weak Hamiltonian couples a local four-current to itself. Its leptonic and hadronic pieces yield purely leptonic, mixed, and purely hadronic terms. The conserved vector current hypothesis relates the strangeness-conserving vector beta current to the isovector electromagnetic current by an isospin rotation. Ordinary continuity follows with isospin-invariant strong interactions when electromagnetic effects are neglected.（PDF 415, 419–420, Eqs. (3D-1)–(3D-2) and (3D-9)–(3D-13)）
 - Single-nucleon transfer can probe shell occupancy when a common single-particle radial shape is adequate and coupling to simple entrance- and exit-channel excitations is weak. The reaction amplitude then separates from the nuclear parentage matrix element. Summing over a complete set of final states gives the occupancy n(j) for pickup and the vacancy 2j + 1 − n(j) for stripping, with the angular-momentum normalization specified in the sum rules.（PDF 441–443, §3E-1 and Eqs. (3E-6), (3E-12)–(3E-13)）
 - The bibliography uses bracketed pointers to the sections, figures, or tables that cite each work. Ex identifies an illustrative example. Citation locations are omitted for textbooks and compilations.（PDF 468, printed p. 449, opening bibliography note）
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 334 Fig. 3-1 的占据与空穴归属来自原模型图，PDF 340 的 ¹⁷O/¹⁷F 能级与计算位移分别保留。PDF 346 Fig. 3-4 核纵轴 rR 的符号及归一化。PDF 364 Eq. (3-46) 区分允许 F 与 GT 的算符、耦合和约定。PDF 432 式 (3D-44)–(3D-47) 有 ξ 条件，PDF 440 的剥离振幅留相干和及光学输入。PDF 451、460、466 的共振和势阱宽度严格按限定式。
+
+- A filled j shell contains 2j + 1 nucleons and has one antisymmetric state with Jπ = 0⁺. In the resulting spherical potential, an added nucleon supplies the total angular momentum and parity. A hole with projection m is created by removing the time-reversed partner with projection −m, with a phase chosen so that the hole operators transform as a rank-j spherical tensor.（PDF 329–332, §3-1a–b and Eqs. (3-6)–(3-10)）
+- The reported main ⁴⁹Ca β branch feeds a 3/2− daughter level at 3.09 MeV with log ft = 5.1.（PDF 369, §3-4 illustrative example on allowed β transitions）
+- The proposed weak Hamiltonian couples a local four-current to itself. Its leptonic and hadronic pieces yield purely leptonic, mixed, and purely hadronic terms. The conserved vector current hypothesis relates the strangeness-conserving vector beta current to the isovector electromagnetic current by an isospin rotation. Ordinary continuity follows with isospin-invariant strong interactions when electromagnetic effects are neglected.（PDF 415, 419–420, Eqs. (3D-1)–(3D-2) and (3D-9)–(3D-13)）
+- Single-nucleon transfer can probe shell occupancy when a common single-particle radial shape is adequate and coupling to simple entrance- and exit-channel excitations is weak. The reaction amplitude then separates from the nuclear parentage matrix element. Summing over a complete set of final states gives the occupancy n(j) for pickup and the vacancy 2j + 1 − n(j) for stripping, with the angular-momentum normalization specified in the sum rules.（PDF 441–443, §3E-1 and Eqs. (3E-6), (3E-12)–(3E-13)）

@@ -83,6 +83,8 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 本批写回 Bohr–Mottelson I、Greiner 和林承键的 162 个原页核读页，并登记九册扫描书的 OCR 续段及原图待核位置。OCR 的公式、表格和图片缺损保留到页，正式队列仍有 9 本，累计 805 份、34,067 个主件 PDF 页。稳定指针为 `research/archive-learning-20261127` + `research: capture original scan reading checkpoints and OCR gaps`。见[原件及续读范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-scanned-volume-checkpoints-ae-audit.json)。
 
+本批核定七册扫描书的通读范围，共 3,279 个主件计入页，包括 Bohr–Mottelson 卷 I、Greiner 和五部中文教材。核对以原书、逐页 OCR 及重点原图互证，未逐字符核验的公式或图表保留其页码和适用性。另核 Hamilton 及林承键书的 64 页。累计 812 份、37,346 个主件页，正式队列剩 Hamilton 和林承键《重离子核反应》两本。稳定指针为 `research/archive-learning-20261127` + `research: complete seven scanned books with original-page anchors`。见[原件及范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-seven-scanned-volume-readings-af-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。
