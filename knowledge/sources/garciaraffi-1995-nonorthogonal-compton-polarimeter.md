@@ -3,7 +3,7 @@ type: source
 title: "Non-orthogonal gamma-ray Compton polarimeters"
 aliases: ["Garcia-Raffi 1995 non-orthogonal polarimeter", "EUROBALL CLUSTER non-orthogonal polarimetry"]
 created: 2026-09-20
-updated: 2026-10-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: method
@@ -178,3 +178,22 @@ tags: [non-orthogonal-polarimeter, EUROBALL, CLUSTER, Compton-scattering, detect
 [原geometry/pairedgroups输入](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/garciaraffi1995-geometry-contract.json)、[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/garciaraffi1995-geometry-result.json)，script `system/scripts/day17_gr95_nonorthogonal_audit.py`。ε0=1/ε60=2是原simplepairratio的声明pointdesign，原actualcounts/eff/Cov未取得；rawunpoloffset1/3经eff归一消失，不以此模拟真实仪器偏置。
 
 这也解释B73旧误式为何不能凭形状迁移：Eq13的1−alphaA是此nonorthogonal模型反演的一部分，B73实际正交Eq4并无此项。[[compton-polarimetry]]/[[linear-polarization-asymmetry]]/[[polarimetry-shared-calibration-count-design]]分别记录对象；本页不修raw或旧reviewflags。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- {"from": 1, "to": 2, "sections": "引言、点探测器理论、偏振与计数不对称、扩展装置校准。图 1 及图注在物理第 2 页。"}
+- {"from": 3, "to": 4, "sections": "有限不对称度的计时量、小偏振下的优值、CLUSTER 几何和模拟、总结、致谢及文献 [1]–[8]。图 2 在物理第 3 页，图 3 在物理第 4 页。"}
+- 本次获取的具体覆盖：逐页审读物理第 1–4 页抽取文字，覆盖印刷页 628–631 的全部正文、三条图注及八条参考文献。建议接受既有同版全文文字覆盖，图内晶体编号、公式排版及曲线仍待管理员核验。本次未检视 PDF 页像。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A17-1 | 点探测器的两路计数先分别按效率归一，再取差和比。式 (7) 的常数项 Q₃ 在该定义下为零。采用 0° 和 60° 分析方向时，由式 (8)–(12) 得 α = −1/3，因而 A = QP/(1 − QP/3)。 | 理论关系与代数推论 | source-reported | 物理第 1–2 页，式 (1)、(6)–(12)，图 1。物理第 2 页的分式及角标待核。 | true |
+| A17-2 | 作者用四对 0° 邻接晶体与八对等效的 60°、120° 邻接晶体组成两个计数组。按简单配对效率估算，相对于使用四对 0° 晶体后将装置旋转 90° 的方案，效率约为 3 倍，灵敏度为 3/4，小偏振优值约为 1.5 倍。 | 几何设计与近似估算 | source-reported | 物理第 3 页，第 3 节、式 (15)、图 2。逐对晶体编号待核物理第 3 页。 | true |
+| A17-3 | 在距源 44 cm 的修改版 GEANT3 模拟中，六个输入能量为 0.197、0.423、0.847、1.368、2.754 和 4.438 MeV。两重符合阈值由 40 keV 提高至 350 keV 后，灵敏度上升，效率损失使优值下降。 | 探测器响应模拟 | source-reported | 物理第 3–4 页，第 3 节及图 3(a)、(b)。曲线、阈值图例和纵轴待核物理第 4 页。 | true |
+| A17-4 | 作者将 CLUSTER 计算结果与文献 [8] 的四扇区同轴 Ge 装置测量值比较。约 1.3 MeV 时灵敏度相近，约 4.4 MeV 时 CLUSTER 灵敏度约为其三分之一。同立体角归一后，作者报告两处优值分别接近 5 倍和超过 2 倍，并指出高能端需要控制系统不对称。 | 作者的跨装置比较 | source-reported | 物理第 3 页末至第 4 页图 3 后正文，文献 [8]。 | true |
+
+点模型依赖 90° Compton 散射、所选方位角及两路效率归一。作者将式 (12) 用于扩展探测器时明确作为假设，建议用已知 P 的跃迁校准 Q，或用等效正交装置估计。
+
+- 将既有条目中泛化的零点偏置及“仅正交才线性”改为式 (8)–(10) 的条件表述。效率归一的点模型中 Q₃ = 0，Q₁ = 0 时化为 A = Q₂P。将 α 的点几何值用于扩展装置时注明作者假设。
+- 将图 2 条目的比较对象明确为四对 0° 晶体加 90° 旋转的估算方案。将图 3 的图示量写为灵敏度与优值，效率损失由物理第 3 页正文说明。
+- 物理第 1 页抽取中的收稿日期为 1995 年 3 月 30 日，修回日期为 1995 年 2 月 20 日，顺序倒置，核页像后再录入。式 (1) 的强度分式在同页残缺。核物理第 2 页式 (2)、(5)–(13) 的分式、上下标和缺行，及物理第 3 页式 (14)–(15) 的分母与平方项。

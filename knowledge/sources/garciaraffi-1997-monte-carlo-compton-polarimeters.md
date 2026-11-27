@@ -3,7 +3,7 @@ type: source
 title: "Garcia-Raffi et al. 1997 - Monte Carlo simulation of Compton polarimeters"
 aliases: [Garcia-Raffi 1997 GEANT3 polarimeter simulation]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: method-paper
@@ -159,3 +159,23 @@ MI07本session完整原6页是此问题anchor；本GR97只新text/visual核print
 | GR97-D17-4 | singlepoint qmax只限该散射/终态未分析模型；原多scatter偏振输运和实际阵列response不由此认证或受90°reference作统一上界，maxq角也不等maxmerit。没有改任一publishedQ/Qrel/calibrationCov。 | transfer-boundary | source-and-task-scope | printed462 Eq3; printed466 Eq11–16; GR97-2 | true |
 
 [[compton-polarimetry]]“90度点参考不是全角最大分析能力”保存exactquartic/全局证明、energytable与cuts模型。sourcephysicalP/degree和signed实验A仍需匹配轴；本段不是general4-Stokes/全探测器MC。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- {"from": 1, "to": 2, "sections": "首页书目信息、引言、GEANT3 修改、散射运动学及偏振抽样。"}
+- {"from": 3, "to": 5, "sections": "偏振输运实现、三种装置的历史测量与模拟比较、几何扰动、优值、结论及附录开头。图 1、图 2 分别在物理第 3、4 页，图 3 与表 I 在物理第 5 页。"}
+- {"from": 6, "to": 7, "sections": "Stokes 附录余部，含式 (11)–(16)，以及文献 [1]–[29]。"}
+- 本次获取的具体覆盖：逐页审读物理第 1–7 页抽取文字，对应印刷页 461–467，覆盖正文、三条图注、表 I 可辨条目、附录和 29 条参考文献。建议接受既有同版全文文字覆盖，保留后续两页定向复核的独立范围。图表引文、表值指数及公式字形待核。本次未检视 PDF 页像。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A17-1 | 修改版 GEANT3 用 GCOMPOL 抽样初级光子的 Compton 出射方向与偏振，用 POLAR 保留逐次散射间的偏振方向，并由 GDROT3 变换坐标。轫致辐射及湮没次级光子按非偏振处理，调用原 GCOMP。 | 模拟实现 | source-reported | 物理第 2–3 页，第 2 节、式 (3)–(4)。物理第 2 页式 (3) 主体抽取缺失。 | true |
+| A17-2 | 用于验证的是三套已发表的灵敏度资料。五同轴装置使用 60 keV 阈值及 70°–110° 角窗，四同轴 Ge(Li) 装置使用 150 keV 阈值，EUROGAM CLOVER 使用 60 keV 阈值。 | 引用实验条件 | source-reported | 物理第 3–5 页，第 3 节正文及图 1–3。图注引文号与对应正文不一致。 | true |
+| A17-3 | 四同轴 Ge(Li) 的模拟对照中，仅在第一次 Compton 散射计入偏振时，计算的 Q 约低 40%。几何扰动测试中，五同轴散射晶体和四同轴晶体长度各增加 5 mm 时，相应算例的 Q 分别下降 7% 和 9%。 | 模拟对照 | source-reported | 物理第 4 页，第 3 节及图 2。首次散射对照的图例和点位待核物理第 4 页。 | true |
+| A17-4 | 表 I 在同一 25 cm 源距和 50 keV 阈值下计算 0.5、1.5 和 4.0 MeV 的 Q 与 M。按对称装置且略去背景的 M = εQ²，作者报告两种紧凑构型虽有较低 Q，优值约为五同轴构型的 3–8 倍。 | 计算结果与比较 | source-reported | 物理第 5 页，式 (7)、表 I 及表后正文。各单元格的指数和括号误差待核物理第 5 页。 | true |
+
+约 10% 的精度是作者对所选验证构型的估计，取决于几何、阈值、角窗及偏振输运。表 I 属于统一条件的另一次计算，其绝对符合效率与物理第 4 页按有效立体角归一的效率使用不同分母。
+
+- 将 GR97-1 的约 10% 写为作者的整体估计，并将结论定位由印刷页 466 改为物理第 5 页、印刷页 465。五同轴最低能量处报告最大偏差约 12%。四同轴 1.4 和 2.1 MeV 两点分别超出所引 6% 和 10% 实验不确定度，物理第 4 页保留原短语“by only 30%”，待核页像及其所指量。
+- 并列保留图注与正文的引文号。物理第 3、4、5 页图 1、2、3 图注分别为 [24]、[25]、[27]，对应正文为 [22]、[23]、[25]，后者指向 von der Werth、Bass、Jones。核物理第 6–7 页文献表后再确定归档标注。
+- 核物理第 1 页缺出的标题和 A/Q 字形、物理第 2 页 Klein–Nishina 主式及式 (3)–(4)、物理第 3 页式 (6) 前缺出的 Q₀ 式，以及物理第 5 页式 (9) 的根号和物理第 6 页式 (11)–(16) 的矩阵、撇号及角标。对照笔记记载式 (3)、(11)、(13) 的前因子为 (E′/E)²，保留该读法待核，旧反向读法缺乏本次抽取支持。

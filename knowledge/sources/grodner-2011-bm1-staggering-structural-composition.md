@@ -3,7 +3,7 @@ type: source
 title: "Grodner 2011 - B(M1) staggering and structural composition of chiral bands"
 aliases: [Grodner 2011 B(M1) staggering]
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: theory
@@ -85,3 +85,23 @@ This is a theoretical interpretation, not an additional experiment. Its examples
 - [[grodner-2006-128cs-chiral-doublet-lifetimes]]
 - [[mukhopadhyay-2007-135nd-chiral-vibration-static]]
 - [[chirality-wobbling-competition-evidence]]
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- {"start": 1, "end": 2, "sections": "题名、摘要、第1节引言、第2节哈密顿量本征态与相位约定"}
+- {"start": 3, "end": 4, "sections": "第3节对称破缺态、第4节对称恢复、第5节电磁矩阵元开头"}
+- {"start": 5, "end": 7, "sections": "第5节矩阵元推导、强破缺极限及结构实例，第6节总结和全部参考文献"}
+- 本次获取的具体覆盖：逐页读完物理第1–7页的提取文本，包括六节正文、式(1)–(27)的上下文和参考文献[1]–[13]。正文未见图、表或图注。公式的版面和精确字符尚待核对。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A17-1 | 按文中的对称性假设，反幺正算符 R_yT 将哈密顿量本征态映射到同一能量本征空间。对按文中方式选相的态，与 R_yT 对易的电磁算符给出实矩阵元。 | 模型推导 | source-reported | 物理第2页式(1)–(9)，第4页式(19)。第2页原式的括号和复共轭范围待查。 | true |
+| A17-2 | 在作者取左右手态无隧穿、无重叠且 M1/E2 跨手性矩阵元为零的强破缺极限，带内振幅取左手态矩阵元的实部，带间振幅取其虚部并带相位约定下的符号。对应的两带跃迁概率在该极限下相等。 | 模型结果 | source-reported | 物理第5页式(24)–(27)及其前提，第6页首段。式(25)、(27)的符号和下标待查第5页。 | true |
+| A17-3 | 作者转述既有寿命研究，称 ¹⁰⁴Rh 与 ¹³⁵Nd 的 B(M1) 交错很弱或未见，并称 ¹³⁵Nd 两条带的对应跃迁概率近似相等。 | 既有实验的转述 | source-reported | 物理第6页比较段，第7页参考文献[12]、[13]。 | true |
+| A17-4 | 作者将随自旋变化的 B(M1) 交错归因于额外的组态和芯结构条件，讨论了同一 h₁₁/₂ 壳的质子粒子－中子空穴组态，并援引 CQPC 计算说明三轴形变 γ 偏离约30°时交错迅速减弱。 | 作者解释与所引模型 | source-reported | 物理第6页第5节末段，第7页第6节及参考文献[3]、[8]。 | true |
+
+Cs 实验依据沿用 Grodner 等的参考文献[1]，Wiki 将其链接到 ¹²⁸Cs 寿命研究。¹³⁵Nd 和 ¹⁰⁴Rh 的比较分别来自[12] Mukhopadhyay 等与[13] Suzuki 等。选择规则和形变趋势分别借助[8]与[3]，原文献的数据和计算未纳入本次阅读。
+
+- 将 GRODNER11-1 中“联系伙伴本征态”改为“映射至同能量本征空间”。式(1)–(4)本身未建立两个线性独立的伙伴态。
+- 在 GRODNER11-3 至 GRODNER11-5 补明无隧穿、无重叠及跨手性 M1/E2 矩阵元取零的条件，把第6–7页定位标为 arXiv 物理页。
+- 物理第4页式(17)–(18)的根号与归一化因子在提取中分行。引用精确公式前，连同第2页和第5页所列歧义核对原排版。

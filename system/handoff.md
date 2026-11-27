@@ -53,6 +53,8 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 本批核定 21 份、1,087 个主件 PDF 页，其中 Bohr–Mottelson 第二卷补核 PDF 716–772 后全卷闭合，一次计入整卷 772 页。另核 3 份评价节录与 1 页会议摘要，单列材料角色。更正 ¹³²Sn 寿命换算与 Enders 剪刀模的旧归属。累计 628 份、23,863 个主件 PDF 页，正式队列待处理 212 条。后续接 ⁸⁹Y、¹⁰²Rh 正文和其它已领取来源。稳定指针为 `research/archive-learning-20261127` + `research: finish Bohr–Mottelson II and verify local spectroscopy and theses`。见[原件及范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-volume-ii-and-archived-spectroscopy-p-audit.json)。
 
+本批核定 37 份、518 个主件 PDF 页，另登记 ¹³⁵Pr 的预印本和 ¹³²Sn 原刊附载件。5 份只完成部分覆盖，已保留原图和表格的接续点。累计 665 份、24,381 个主件 PDF 页，正式队列剩 173 条。¹⁸⁵Au 和 ¹³²Ce 各自按原表核了代表跃迁的偏振与混合比。稳定指针为 `research/archive-learning-20261127` + `research: ingest archived polarization studies and reconcile experiment lineage`。见[原件及覆盖](../outputs/literature-acquisition/20261119-deep-learning/20261127-polarization-local-corpus-q-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

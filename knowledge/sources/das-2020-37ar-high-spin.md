@@ -3,7 +3,7 @@ type: source
 title: "Das et al. 2020 - High spin states of 37Ar"
 aliases: [Das 2020 37Ar high spin]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-shell-model
@@ -90,3 +90,24 @@ Das *et al.* provide a modern light-nucleus high-spin benchmark in which level p
 ## Extracted Pages
 
 - Methods/observables: [[angular-distribution]], [[angular-correlation]], [[compton-polarimetry]], [[multipole-mixing-ratio]]。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- {"from": 1, "to": 4, "sections": "题录、§I–II、§III开头、式(1)–(6)、图1–3"}
+- {"from": 5, "to": 8, "sections": "§III.A–C、表I–II、图4–6及§IV开头"}
+- {"from": 9, "to": 12, "sections": "§IV截断空间、组态和两能级混合、图8、表III–VII、§V、致谢和参考文献开头。图7在第8页"}
+- {"from": 13, "to": 13, "sections": "参考文献[11]–[36]"}
+- 本次获取的具体覆盖：逐页读取物理PDF第1–13页所给文本，从实验与结果段落追到模型、结论和参考文献。图的使用限于图注、可读标签和正文交叉引用，未目视核验。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A17-1 | 40 MeV的¹²C束在²⁷Al靶上经np蒸发道布居³⁷Ar，15台INGA clover记录约6×10⁸个双重符合事件。作者报告新增18条γ跃迁和8个能级，达到10574 keV。 | experiment-result | source-reported | 物理PDF第2页§II、第3–4页§III、图3及第5–6页表I–II。图3中新线、虚线及括号归属待第4页目视核对。 | true |
+| A17-2 | 作者用R_DCO与ANGCOR提取δ，并按Krane–Steffen约定报告1192和1574 keV跃迁的δ分别为+0.14(6)和+0.47（+0.10/−0.09）。文中以相位约定及用旧δ回算R_DCO的结果讨论符号差异。 | experimental-inference | source-reported | 物理PDF第2–3页式(1)–(6)、第5页表I、第7页§III.A。 | true |
+| A17-3 | 作者据完全多普勒移位且无停止分量的谱线，结合Au背衬约430 fs的计算停止时间，为六个能级估计寿命上限。表VI对其中四级另给壳模型计算寿命。 | experimental-inference | source-reported | 物理PDF第7页图5、第10–11页§IV.C及第11页表VI。谱峰有无停止分量待第7页目视核对。 | true |
+| A17-4 | Pos-2的2p–2h计算把15/2⁺至21/2⁺的yrast能量重现到约250 keV以内。两能级拟合估得yrast 9/2⁺、11/2⁺、13/2⁺中的0p–0h份额分别为14%、21%、4.5%，另列第二个11/2⁺为4.8%。这四项是给定模型下的组态估计。 | model-result | source-reported | 物理PDF第8–9页图7及§IV.A、第10页表III、第11–12页§IV.D和表VII。第8页图7的图内宇称字符缺失，表III和表VII提供交叉定位。 | true |
+
+R_DCO使用157°与90°互换观测轴和符合门，并依赖门跃迁的多极性及δ。ANGCOR采用σ/J = 0.3。此阵列的纯偶极与四极R_ADO参照约为0.8与1.7。Δ_IPDCO依赖clover几何不对称修正，ΔJ = 0时电磁判据的符号反转，混合跃迁还依赖混合程度。第3页式(3)–(4)的平行分量字符和个别Δ在提取中损坏，公式入库前须核字。
+
+- 将Wiki的“DCO uses θ=157° gates”改为“式(1)在157°和90°交换观测与设门角，门跃迁的多极性和δ已知”。在偏振说明补入第3页ΔJ = 0符号反转及混合跃迁限制。
+- 将Wiki所称以角度无关矩阵处理多普勒移位峰改为“用90°×90°对称矩阵测移位峰相对强度及辅助放置，用角度无关矩阵的1611 keV门谱中1508 keV强度归一”。依据物理PDF第4、7页。18条跃迁和8个能级的表定位改为第5页表I及第6页表II，能级图在第4页图3。
+- Wiki若收录逐条δ，应保留原文异文。物理PDF第7页对521及937 keV所引旧δ为0.50及0.31，第5页表I旧值栏为−0.03(10)及−0.14(3)。第11页正文对2019 keV写实验δ = 0.01(5)，第5页表I写−0.01（+0.09/−0.11）。逐页核字并标明出处。

@@ -3,7 +3,7 @@ type: source
 title: "Bhat et al. 2014 - Investigation of doublet bands in 124,126,130,132Cs with TPSM"
 aliases: [Bhat 2014 Cs TPSM, A≈130 Cs triaxial projected shell model]
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: theory
@@ -160,3 +160,26 @@ This paper demonstrates an A≈130 odd–odd application of triaxial projected c
 
 - Verify the final journal version and the primary data in Refs. [18] and [32] before using `130Cs` numerical transition properties as direct experimental support.
 - Do not transfer the `130Cs` triaxial parameters or chiral label to `131Ce`.
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- {"start_page": 1, "end_page": 2, "sections": "首页、摘要及引言"}
+- {"start_page": 3, "end_page": 5, "sections": "引言末段、§2 TPSM、式(1)–(4)、表1、图1–2及§3开头"}
+- {"start_page": 6, "end_page": 13, "sections": "§3 能谱、交错、组态与跃迁比较，图3–9，§4 结论及参考文献开头"}
+- {"start_page": 14, "end_page": 14, "sections": "参考文献续页"}
+- 本次获取的具体覆盖：逐页读完14页的可辨正文、表1、图1–9图注、公式提取及参考文献 [1]–[32]。本次无视觉核验。建议接受既有同版 deep-read 的正文覆盖，具体图点、歧义图例和参数排印仍按原页验收。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A17-1 | TPSM 以三轴 Nilsson 势加 BCS 生成一中子加一质子的双准粒子组态，经三维角动量投影后在固定自旋下对角化。哈密顿量含四极–四极及单极、四极配对项。表1给出的 130Cs 形变输入为 ε=0.160、ε′=0.145。 | 模型定义与输入 | source-reported | 物理第3–5页，式(1)–(4)、表1、图1–2。式(2)–(3)的求和与符号排版待核第3页，式(4)的分式和 A 的幂次待核第5页。 | true |
+| A17-2 | 图3比较四个核素既有的 yrast 带和伴带能级。126Cs 引用寿命实验所得绝对强度，图6还收录少量带间实测跃迁。124Cs、130Cs、132Cs 的图注均注明引入已发表的 B(M1)/B(E2) 比值。 | 转引实验观测 | source-reported | 物理第2页 [18] 寿命数据说明、第6页图3、第9页图6及第10–12页图7–9。130Cs、132Cs 的数据点与图例分别待核第11页图8和第12页图9。 | true |
+| A17-3 | TPSM 计算把 132Cs 在 I=14 附近的近简并联系到不同双准粒子组态的投影带交叉，并预言对角化后两条带的主要组态在该处改变。正文称已观测到的伴带止于 I=14。 | 模型结果 | source-reported | 物理第5页图2下栏、第6页图3(d)、第8页图5及第8–10页说明。图5的 K 图例和各自旋组态权重待核第8页。 | true |
+| A17-4 | 作者认为 126Cs 的能谱和跃迁强度与手征解释相容，并指出伴带及 yrast 至伴带的部分 B(M1) 存在偏差。其余三核素的绝对强度用于提出可用寿命测量检验的预言。 | 作者解释 | source-reported | 物理第9页图6(c)、(d)、(g)、(h)，第11页相邻正文及第13页§4。奇偶交错相位和具体数据点待核第9页图6。 | true |
+
+四核素的实验比较来自 [18]、[23]、[27]、[32]。对照笔记把 [18] 对应到 Grodner 等的 126Cs 寿命实验，把 [32] 对应到 Simons 等的同一批 130Cs Euroball 数据。TPSM 结果依赖形变、配对、投影基组、有效电荷及 g 因子，电磁跃迁表达式转引 [17]。
+
+- 修订 BHA14-2 和 BHA14-6 的定位。ε、ε′ 出现在物理第3页式(3)，γ 的近似关系在第4页表1下方正文。按表值代入 γ≈arctan(ε′/ε)，130Cs 与 132Cs 分别约为 42.2°、41.4°，与第6页约 30° 的概述有出入。保留待审，分式排版待核第4页。
+- 在 Wiki 的实验比较清单补入 124Cs 的比值来源 [23]。物理第10页图7(e)、(f)图注支持该项，也应据此限定第2页关于其余核素数据仅有跃迁能量的概述。
+- 物理第9页将 132Cs 的投影带交叉指向图1，按第5页图2下栏及第8页讨论应指向图2。图5的曲线身份仍待核物理第8页。
+- 物理第12页图9(d)提取出 Yrast Band (Expt.)，而图注把 (a)–(f)列为计算并仅在(e)、(f)注明实测比值。核第12页原图后再修图例或归类。
+- 物理第14页参考文献 [1] 与 [11] 的卷年页相同，应合并识别。[31] 所列卷号 17 待核，仅据现有材料保留原录和疑点。前置字段 Bhat_2014 仅可作为本地标识，笔记未确认唯一的受保护 BibTeX 条目。

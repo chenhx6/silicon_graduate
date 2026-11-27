@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "bytes:ee57da535f50c3603c3fc4704a036d18c53aa839e43f1ab2cab79b931708d6cf",
+  "active_source": "doi:10.1088/0305-4616/6/5/008",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -677,7 +677,7 @@
     "LOCAL-ROTATION-AND-DEFORMATION-SOURCES",
     "LOCAL-THEORY-AND-SPECTROSCOPY-245"
   ],
-  "completed_full_sources_this_run": 628,
+  "completed_full_sources_this_run": 665,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -685,28 +685,26 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-27T06:41:42.984048+00:00",
+  "updated_at": "2026-11-27T07:07:36.390161+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 23863,
-  "current_source_note": "knowledge/sources/funke-1992-y89-neutron-core-excitations.md",
-  "next_action": "Close the remaining 89Y and 102Rh reading sections, continue 131Ba adopted levels and the rolling local-source queue.",
+  "completed_primary_pages_this_run": 24381,
+  "current_source_note": "knowledge/sources/ca41-angular-distribution-linear-polarization.md",
+  "next_action": "Continue the next claimed local sources, including remaining tables or figures from partial entries.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "21 primary sources with 1,087 credited pages, including the 772-page Vol. II; 4 bounded evaluation or abstract records.",
-  "current_source_scientific_acceptance": "Full Vol. II PDF 1–772 covered across checkpoints. Next continue partial spectroscopy and the main queue.",
+  "last_source_manager_closure": "37 works credited 518 pages; two related carriers and five partials recorded.",
+  "current_source_scientific_acceptance": "Vol. II complete; continue the open queue, including archival PDFs needing original tables or scans.",
   "source_scoped_retrieval": "Existing local originals; publisher and author versions recorded separately.",
   "counting_scope": {
-    "scientific_reading_covered": 610,
+    "scientific_reading_covered": 647,
     "bounded_or_core_only_completed": 18,
-    "credited_pages_explicit_in_queue": 13405,
+    "credited_pages_explicit_in_queue": 13923,
     "pages_carried_forward_from_previous_checkpoints": 10458,
     "increment_this_checkpoint": {
-      "works": 21,
-      "pages": 1087,
+      "works": 37,
+      "pages": 518,
       "partial_volume_pages_recorded_separately": 0,
-      "associated_rows": 4,
-      "book_closure_pages": 772,
-      "book_new_back_matter_pages": 57
+      "associated_rows": 2
     }
   },
   "previous_pause": {
@@ -727,5 +725,5 @@
     "resume_printed_page": 259,
     "background_reading_scheduled": false
   },
-  "latest_batch_audit": "20261127-volume-ii-and-archived-spectroscopy-p-audit.json"
+  "latest_batch_audit": "20261127-polarization-local-corpus-q-audit.json"
 }

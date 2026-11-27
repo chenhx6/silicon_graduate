@@ -790,6 +790,29 @@ u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶
 - [[cavallaro-2019-giant-pairing-vibration]] — 巨对振动跨质量区运动学与连续谱阻尼失效。
 - [[colo-1995-isospin-mixing-gdr]] — 库仑同位旋混合与 GDR 禁戒 E1 的模型边界。
 - [[enders-1999-scissors-mode-saturation]] — 剪刀模低位 M1 强度、惯量与和规则的系统比较。
+- [[band-structures-se73-spectroscopy]] — Band structures in ⁷³Se。
+- [[high-energy-gamma-e1-m2-m1-e2-mixing]] — Evidence for E1-M2 and M1-E2 Mixtures in High-Energy γ-Transitions。
+- [[ni57-neutron-g9-2-single-particle-state]] — The 3701 keV neutron g9/2 single-particle state in ⁵⁷Ni。
+- [[lu172-k-forbidden-1094-kev-multipolarity]] — The multipolarity of the K-forbidden 1094 keV γ-transition in the decay of ¹⁷²Lu。
+- [[ti46-linear-polarization-proton-scattering]] — Polarisation linéaire de rayonnements γ émis dans la réaction ⁴⁶Ti(p,p′γ)。
+- [[f7-2-shell-model-high-spin-sc-ti-v-cr]] — On 1f₇/₂ nuclei: Spherical shell-model states of high angular momentum in ⁴⁵Sc, ⁴⁵˒⁴⁷Ti, ⁴⁹V and ⁴⁹˒⁵¹Cr。
+- [[cr53-fp-shell-high-spin-polarization]] — On 1f2p nuclei: Structure of ⁵³Cr with emphasis on high-spin states。
+- [[ge67-gamma-spectroscopic-investigations]] — Gamma-spectroscopic investigations on ⁶⁷Ge。
+- [[in112-level-structure-angular-correlation]] — Level structure of the doubly odd nucleus ¹¹²In from the (p, nγ) reaction。
+- [[kr81-three-quasiparticle-excitations]] — Three-quasiparticle excitations in ⁸¹Kr。
+- [[kr79-three-quasiparticle-excitations]] — Three-quasiparticle excitations in ⁷⁹Kr。
+- [[kr84-yrast-spectroscopy]] — Yrast spectroscopy of the N = 48 nucleus ⁸⁴Kr。
+- [[xe125-non-yrast-states]] — Non-yrast states in ¹²⁵Xe。
+- [[neutron-rich-odd-ba-gamma-parity-multipolarity]] — Parities and multipolarities of gamma rays in neutron-rich odd-mass Ba nuclei。
+- [[sn116-three-phonon-multiplets]] — Three-phonon multiplets in ¹¹⁶Sn。
+- [[tb154-shape-transition-triaxiality]] — Shape transition and development of triaxiality in ¹⁵⁴Tb。
+- [[pal-2026-au185-transverse-wobbling]] — Experimental evidence of transverse wobbling motion in 185Au: Revealing a transition from transverse to longitudinal wobbling in Au isotopes。
+- [[paul-1997-ce132-normal-deformed-spectroscopy]] — Detailed spectroscopy of the normally deformed states in 132Ce。
+- [[ca41-angular-distribution-linear-polarization]] — Angular distribution and linear polarisation measurements of gamma rays in 41Ca。
+- [[te114-quasigamma-band]] — Quasi-γ band in 114Te。
+- [[b11-ca40-polarized-nuclear-resonance-fluorescence]] — Investigation of 11B and 40Ca levels at 8−9 MeV by Nuclear Resonance Fluorescence。
+- [[ho153-shape-coexistence]] — Shape coexistence in ¹⁵³Ho。
+- [[pt187-band-structures-shape-coexistence]] — Band structures and shape coexistence in 187Pt。
 - [[misch-2021-astromers-effective-rates]] — 本地刊件、读段及实验谱系。
 - [[hinohara-2015-ng-inertia-linear-response]] — 本地刊件、读段及实验谱系。
 - [[stuchbery-2000-yb171-coriolis-rotational-g-factors]] — 本地刊件、读段及实验谱系。

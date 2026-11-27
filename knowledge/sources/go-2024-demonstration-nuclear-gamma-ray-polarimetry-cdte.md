@@ -3,7 +3,7 @@ type: source
 title: "Demonstration of Nuclear Gamma-Ray Polarimetry Based on a Multi-Layer CdTe Compton Camera"
 aliases: [Go 2024 CdTe Compton camera polarimetry, multi-layer CdTe nuclear gamma-ray polarimeter]
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-11-27
 status: active
 review_status: human-reviewed
 source_type: detector-method-experiment-article
@@ -168,3 +168,24 @@ Morse上游的实际原件版本是UNC author-preprint（M22-1），其Eq8/13已
 | G24-26 | Ref37实际已读arXivv1：16个归一division是first-hit xy空间区，不是16个φbins；其75keV的ES=minenergy规则借助2E<mec²。该域不能裸迁本847keV；也不能因sharedtoolkit自动认定本experiment采用相同16区或低能排序。 | upstream-method-and-transfer-domain | direct-upstream-plus-kinematic-check | Ref37/T21PDF5Eq3/PDF6Eq4；本PDF4–5Eq3–5 | true |
 
 [[tsuzuki-2021-sicdte-template-polarimetry]] T21-1–13补齐独立Ba null、Kr likelihood/modulation共享data、ν空间区/threshold/ARM和arXiv/VoR边界。原子近满P不能填成本核γreference；Goactualproducer/分区/energy ordering/response仍需实际版本，不据T21演示判Go实际错序。此新追加needs_review，原全部humanprefix保留。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- {"from": 1, "to": 3, "sections": "引言、Klein–Nishina 散射和分析能力、CdTe 相机、反应与标定。图 1 在物理第 2 页，图 2 在物理第 3 页。"}
+- {"from": 4, "to": 6, "sections": "反应几何和能谱、事件选择、模板归一、似然、调制曲线、效率和优值。图 3、4 在物理第 4 页，图 5 在物理第 5 页，图 6 在物理第 6 页。"}
+- {"from": 7, "to": 9, "sections": "物理第 7 页表 1、后续发展、结论和数据声明，同页起文献 [1]–[51]，以及致谢、作者贡献、利益声明和许可。"}
+- 本次获取的具体覆盖：逐页审读物理第 1–9 页抽取文字，覆盖全文正文、六条图注、表 1、数据声明、51 条参考文献及出版附注。建议接受既有同版全文文字覆盖及原记录的人审状态。新增审计项、图注误差差异及表注归属仍需核对。本次未检视 PDF 页像。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A17-1 | 3.0 MeV 质子轰击天然铁靶所得的 ⁵⁶Fe 首个 2⁺→0⁺ 峰为 847(1) keV，能量分辨率为 1.3% FWHM。相对于单击全能峰，双击和三击效率分别为 63.8(3)% 和 7.6(1)%，偏振分析选用双击全能峰事例。 | 本实验观测与事件选择 | source-reported | 物理第 3–4 页，反应及能谱小节、图 3–4。 | true |
+| A17-2 | 各分区的 νⱼ 由能谱拟合取得，在方位角 Poisson 似然计算中固定，迭代更新 P。作者在 40°–120° 散射角门下报告 P = 0.57(4)，正号对应电跃迁，所报不确定度主要来自事件选择的系统效应。 | 测量与响应模型联合推断 | source-reported | 物理第 4–5 页，式 (3)–(5)、图 5 及其图注。物理第 5 页式 (4) 求和字形待核。 | true |
+| A17-3 | 用扣背景后的实测方位谱除以非偏振模拟谱得到调制曲线。拟合报告 Q′ 的中心值为 0.203，由 Q′/P 得到文中报告的 Q = 0.35(4)。Q′ 的括号误差在正文与图注之间有差异。 | 由实测谱和模拟响应派生 | source-reported | 物理第 5 页式 (6) 及正文、物理第 6 页图 6。括号误差待核物理第 5–6 页。 | true |
+| A17-4 | ComptonSoft 估计 847 keV 绝对符合效率为 3.0×10⁻⁵。采用 40°–120° 角门后，取 ε 约 1.9×10⁻⁵，F = εQ² 约为 2.4×10⁻⁶。原文另报告 60°–100° 窄门的 Q = 0.40(4) 及 65% 效率损失，损失的比较基准待明确。 | 模拟效率及派生优值 | source-reported | 物理第 6 页优值段及物理第 7 页表 1。本装置行的数值及指数待核物理第 7 页。 | true |
+
+结果适用于距靶 18.0 cm、近 90° 布置的 20 层像素化 CdTe 相机。约 50% 的先验文献值用于选线，本文由数据拟合 P。P、Q′ 和 Q 共用事例选择及响应模板，联合协方差未给出。对侧 CNS-GRAPE 同步监测强度与不对称度，本文未提供可合并的独立 P。
+
+- 更正 Wiki 定位。式 (1) 在物理第 1 页，式 (2) 和图 1 在第 2 页，反应布置正文在第 3 页而图 3 在第 4 页。Q = Q′/P 在第 5 页正文，式 (7) 在第 6 页给出 90° 点探测器参考 Q₀，F = εQ² 在同页优值正文。
+- 保留 Q′ 的两处原报值。物理第 5 页正文为 0.203(9)，第 6 页图 6 图注为 0.203(8)。Wiki 应并列标明出处，保留文中报告的 Q = 0.35(4)。
+- 物理第 7 页表 1 的 Clover 847 keV 行标 b，GRETINA 847 keV 行标 c，脚注参数与正文归属交叉。建议 Wiki 按物理第 6 页式 (7) 及正文记录 Clover 0.229 对应 Kojima [24]、Morse [29] 的 0.200 对应表中的另一行。保留出版表的 b/c 对调及正文 GRETA、表中 GRETINA 的名称差异，将 0.200 标为插值比较值。
+- 核物理第 1 页式 (1) 的 dΩ 与能量比排版及 N = 20 后的引文标记，物理第 2 页式 (2) 的分析能力符号和分母，物理第 3、4、7 页束轴极角缺字，以及物理第 5 页式 (4) 的求和符。νⱼ 的 j 指分区，i 指方位角直方图分箱。

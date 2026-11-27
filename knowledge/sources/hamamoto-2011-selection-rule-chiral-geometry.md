@@ -3,11 +3,11 @@ type: source
 title: "Hamamoto 2011 - Selection rule for electromagnetic transitions in chiral geometry"
 aliases: [Hamamoto 2011 chiral transition selection rule]
 created: 2026-10-10
-updated: 2026-10-27
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: theory
-reading_depth: deep-read
+reading_depth: skimmed
 title_original: "Selection Rule for Electromagnetic Transitions in Nuclear Chiral Geometry"
 authors: [Ikuko Hamamoto]
 journal: "International Journal of Modern Physics E"
@@ -145,3 +145,25 @@ The rules depend on the selected gamma=90° and same-j particle-hole model. Koik
 ### 主线与反证的影响
 
 特殊A symmetry、实验近简并、L/R高I且无隧穿的理想等强、实际几何是四项不同命题。本文自身的共面/高I alignment图保有限spin窗口；p7为oddA规则留白，不能以别核一条选择模式给135Nd补完整EM核或排除所有替代解释。本次decision为revises旧强认证、supports有条件模型诊断、limits未经验证的迁移；不改变MU07的实验正支持。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- {"start": 1, "end": 2, "sections": "题名、摘要、引言、理想手征态及相应跃迁等强的条件"}
+- {"start": 3, "end": 5, "sections": "特殊粒子－转子模型、A 量子数、电磁选择规则及数值设置"}
+- {"start": 6, "end": 7, "sections": "数值和角动量取向讨论、既有实验比较、适用边界及全部参考文献"}
+- {"start": 8, "end": 9, "sections": "表 I 和图1–3图注"}
+- 本次获取的具体覆盖：读完物理第1–9页可提取文字，包括式(1)–(9)、参考文献[1]–[9]、表 I 和三幅图的完整图注。物理第10–12页无提取文字，对照记录分别定位图1、图2和图3。本回执对三页图面均无视觉核验。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A17-1 | 在 γ=90°、同一单 j 壳质子粒子－中子空穴的模型中，中间轴转动加价质子与价中子交换定义 A=±1，是否形成手征几何均可赋此量子数。仅取芯贡献时，同 A 的 E2 严格为零，异 A 获得对称允许。给定 M1 算符和 g 因子时，异 A 的 B(M1) 预期远强于同 A。 | 模型推导 | source-reported | 物理第3页式(2)–(4)及脚注2，第4页式(5)–(7)，第8页表 I。 | true |
+| A17-2 | 模型手征伙伴在式(9)中有相反 A 值。h₁₁/₂ 数值例的两条最低带在 13<I<24 近简并。作者以低自旋下三矢量共面、高自旋下趋向中间轴排列来说明手征几何只在该例的中等自旋区域有望出现。 | 模型结果 | source-reported | 物理第5–6页式(9)后正文，第9页图2–3图注。能级、箭头和矢量图面待核物理第11页图2、第12页图3。 | true |
+| A17-3 | 作者转述 ¹³⁴Pr 两带的带内 B(E2; I→I−2) 至少相差两倍，并援引已报告的 Cs 电磁跃迁用于比较。 | 既有实验的转述 | source-reported | 物理第6–7页第III节及第7页参考文献[5]、[6]、[8]、[9]。 | true |
+| A17-4 | 作者认为 ¹²⁸Cs 和 ¹²⁶Cs 的既有电磁资料似与该规则相容，判断 ¹³⁴Pr 的已测 M1 跃迁严重违背该规则，并指出实际核偏离模型条件会改变规则。 | 作者比较与适用性判断 | source-reported | 物理第6–7页第III节。 | true |
+
+第II节脚注1明确承接 Koike、Starosta 与 Hamamoto 2004年论文[2]。¹²⁸Cs 比较沿用 Grodner 等2006年[8]，¹²⁶Cs 的[9]为研讨会报告及当时待发表工作，¹³⁴Pr 比较依赖[5]、[6]及[2]。本次未读所引原始资料，本文未提供独立寿命或跃迁强度数据。
+
+- 保留 Day24 对旧 Day19 强表述的撤回。式(5)只给出非零 E2 所需的异 A 条件。图2(a)的交错图式以正文的排带条件为前提。式(7)给出近似强弱关系，未给出固定强度下界。
+- 把物理第4页式(6)附近的 g_R=0.5 算符示例与第9页图2(b)图注采用的 g_R=55/130≈0.423 分开标注。历史审计中的系数平方比归为外加算符算术，不作本文算出的跃迁比。
+- ¹³⁴Pr 条目保留作者对所引实验的比较，删除旧稿所称实测 γ=16–20°及唯一破缺机制。¹²⁶Cs 条目标注参考文献[9]在本文中的发表状态。
+- 物理第3页式(2)–(4)的轴序下标与平方在提取中错位，第4页式(6)的根号范围及 g 因子上下标需核原排版后再逐字符引用。

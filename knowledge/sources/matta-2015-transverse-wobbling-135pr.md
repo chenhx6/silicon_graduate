@@ -3,7 +3,7 @@ type: source
 title: "Transverse wobbling in 135Pr"
 aliases: [Matta 2015 135Pr, transverse wobbling in 135Pr]
 created: 2026-07-03
-updated: 2026-10-24
+updated: 2026-11-27
 status: active
 review_status: human-reviewed
 source_type: journal-article-experiment-and-model
@@ -221,3 +221,11 @@ Supports/limits：保留作者的支持或反对解释，并将逐线测量、�
 - PDF 2–3 将两次采集分工写明。Fig. 2 和 Table I 的 \(\delta\) 来自 ATLAS Gammasphere 角分布，以 Ref. 23（Yamazaki 1967）给出的函数拟合。所查出版正文的 \(\sigma/I\) 数值和实际取向处理均未明列。
 - Fig. 3 的 INGA 偏振不对称 \(A\) 用已知 E2 与 412.3 keV M1 作符号参照。表 I 的 747.0、812.8 keV 分别给 \(A=0.047(12),0.054(34)\)，作者用正号支持 Gammasphere 的大模根。数值 \(P\) 所需的极化灵敏度 \(Q(E)\) 未见于本篇。702.7 keV 的 DCO 指认来自另一支路。
 - [[lv-2022-evidence-against-wobbling-135pr]] 主文 Fig. 2(a,c) 重用 Fig. 2 的两组旧角分布点。Lv 的当次实测 \(P,R_{\rm ac}\) 来自 JUROGAM II，因此保留旧角分布、旧 INGA 不对称与新联合观测三种出处。
+
+## 2026-11-27 — 本地关联载体核对
+
+已核刊版与本地 arXiv:1501.05030v1 是同一作品。预印本据其物理 PDF 1–6 定位，刊版原始证据仍沿原来源。
+
+- 路径 `raw/papers/gpt/query/20261119-polarization-delta-collection/10.1103_physrevlett.114.082501.pdf`
+- SHA-256 `97ceb912c6ae2c185a2a8ac1d3066f24588af146a8307c9d52bc596db330fa80`
+- 实读 通读物理第1至6页的提取文本，包括正文、式（1）、表 I、图1至图5的图注与提取标签、作者脚注和文献 [1] 至 [26]。五幅图的图注均可读，原图待核。未提供 Matta 的既有同版覆盖记录，建议以本回执登记预印本 v1 的全文文字覆盖。

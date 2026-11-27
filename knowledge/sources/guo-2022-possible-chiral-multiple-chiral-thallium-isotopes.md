@@ -3,7 +3,7 @@ type: source
 title: "Guo et al. 2022 - Possible existence of chiral and multiple chiral nuclei in thallium isotopes"
 aliases: [Guo 2022 Tl chirality, 192-198Tl constrained RMF chirality predictions]
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -176,3 +176,26 @@ P0: none identified.
 
 - Protected BibTeX record: `guo_2022_Possibleexistence` in `raw/zotero/wiki-inbox.bib` (read-only).
 - Raw PDF: `raw/papers/2022_Possible existence of chiral and multiple chiral nuclei in thallium isotopes .pdf`.
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- {"start": 1, "end": 2, "sections": "题录、摘要、引言、RMF 形式与数值设置、结果开头"}
+- {"start": 3, "end": 4, "sections": "势能曲线及 γ 的模型讨论、图1–3图注、单粒子能级和占据记法"}
+- {"start": 5, "end": 6, "sections": "表1双奇核和表2奇质量核的固定组态极小值"}
+- {"start": 7, "end": 9, "sections": "双奇核及奇质量核候选、图4图注与既有数据比较、总结"}
+- {"start": 9, "end": 10, "sections": "全部参考文献"}
+- 本次获取的具体覆盖：逐页读完物理第1–10页的提取文本，包括式(1)–(3)、表1–2文字、图1–4图注及正文讨论和参考文献[1]–[98]。图面、图例与数据点未做视觉核验。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A17-1 | 绝热和固定组态约束三轴 RMF 采用 PK1、12个核子与20个介子谐振子主壳，省略配对，在给定 β 下对 γ 作能量最小化。计算在 ¹⁹²–¹⁹⁸Tl 找到多个三轴局部极小值，¹⁹⁹、²⁰⁰Tl 在此次筛选中无合适极小值。 | 模型设置与计算结果 | source-reported | 物理第2页第II节及式(1)–(3)，第3页图1–2及正文，第5–6页表1–2。图上阴影界线和标记待看第3页。 | true |
+| A17-2 | 表1对 ¹⁹²、¹⁹⁴、¹⁹⁶、¹⁹⁸Tl 分别列出2、2、3、2个带星的共同高 j 质子粒子－中子空穴组态极小值。¹⁹⁴Tl 另列四准粒子组态 I*，γ 为45.19°。表2对 ¹⁹³、¹⁹⁵、¹⁹⁷Tl 分别列出5、3、5个带星候选。 | 模型结果 | source-reported | 物理第5页表1、第6页表2、第7–8页第III.A–B节。逐项引用能量或占据前须核第5–6页原表。 | true |
+| A17-3 | 旧文献已报道 ¹⁹⁴、¹⁹⁸Tl 的候选带对以及 ¹⁹²、¹⁹⁶Tl 同组态的转动带。对图4(i–n)讨论的 ¹⁹⁷Tl 双中子空穴组态带，作者给出已有能谱比较并指出对应的 B(M1)/B(E2) 尚缺。 | 既有实验的转述 | source-reported | 物理第7页第III.A节、第8页图4图注、第9页第III.B节。图例、逐点数据及空缺面板待核第8页。 | true |
+| A17-4 | 作者以具合适占据的三轴极小值提出 ¹⁹²–¹⁹⁸Tl 可能存在多重手征双带，并以相邻同位素的既有能谱和跃迁比值支持继续寻找 ¹⁹²、¹⁹⁶Tl 的伙伴带。这些是由静态极小值与实验系统学提出的预测。 | 作者解释与预测 | source-reported | 物理第7–9页第III.A–B节与第IV节，表1–2在第5–6页，实验比较图4在第8页。 | true |
+
+图4图注列数据来源[24]、[60]、[61]、[64]、[65]、[94]–[98]，其中[98]为 ENSDF，条目见物理第10页。原实验与数据库记录未另行读取。本文新增证据为受约束的静态计算，未报告新实验。
+
+- GT22-3 的 15°≤γ≤45° 应标为待核的图示区间。物理第3页提取只说明阴影有利于手征，未给出数值边界。第5页表1和第7页仍明确将 γ=45.19° 的 ¹⁹⁴Tl I* 列为候选，故不能把该区间写成严格截断。
+- GT22-14 应拆开两项。物理第8页把 ¹⁹⁷Tl B2/B3 归于含 πi₁₃/₂ 的组态，并称其手征归属待定。第9页所述比值缺失对应图4(i–n)讨论的 πh₉/₂ 双中子空穴组态带。当前正文未把该缺失归给 B2/B3。
+- 物理第5页表1的 ¹⁹⁸Tl F* 列出 E_tot=−1555.44 MeV，按同表 A 态的 −1555.14 MeV 得 −0.30 MeV，与所列 E_x=2.40 MeV 冲突。保留行号和疑点，核图前不指定替换值。¹⁹²Tl H* 的完整价中子占据在第5页表1与第7页叙述也有出入，逐轨道引用须核两页。
+- 物理第2页 β 约束式的四极矩上下标和平方在提取中连写。物理第6页表2的表题 T1、列题 (β,γ)α、¹⁹⁷Tl J* 的 43,29° 和 ¹⁹⁹Tl E 的 i13/1 均需回看原页。第4页图3图注的点线与邻接正文的虚线用词不同，线型以原图核定。

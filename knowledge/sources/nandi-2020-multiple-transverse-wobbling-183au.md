@@ -3,7 +3,7 @@ type: source
 title: "Nandi et al. 2020 - First Observation of Multiple Transverse Wobbling Bands of Different Kinds in 183Au"
 aliases: [Nandi 2020 183Au multiple transverse wobbling]
 created: 2026-07-16
-updated: 2026-07-25
+updated: 2026-11-27
 status: active
 review_status: human-reviewed
 source_type: journal-article
@@ -148,3 +148,24 @@ Page-level review is complete for this ingest round. Claim-level `needs_review` 
 ## Non-source Notes and Follow-up
 
 Keep “clear experimental evidence” and “first observation” attributed to the authors.
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+- {"range": "1–2", "sections": "出版信息、摇摆能谱公式、TW 惯量条件、INGA 实验及部分谱图和能级图（第2页图1）"}
+- {"range": "3–4", "sections": "带间跃迁及 δ（第3页图2）、E_wob 未编号公式与实验趋势（第3页正文、第4页图3）、跃迁几率比、PRM 输入与 HFA 转折自旋（第4页图4及表 I）"}
+- {"range": "5–6", "sections": "归一化 HFA 对照（第5页图5）、横向摇摆与形状共存解释、致谢、作者脚注及参考文献"}
+- 本次获取的具体覆盖：通读物理第1至6页的提取文本，包括正文、未编号公式、表 I、图1至图5的图注与提取标签、致谢和文献 [1] 至 [35]。五幅图的图注均可读，原图待核。正文实读范围与 Wiki 的既有范围相符，建议接受同版全文覆盖，更新下列证据归类及定位。逐项图证据仍待核。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A17-1 | 作者报告新增 14 条 γ 射线并建立带（6）。对 DCO 比和线偏振的联合比较给出，带（3）→（2）及（5）→（4）的 ΔI＝1 跃迁约有 90% E2 分量，带（1）→（2）及（6）→（4）的相应跃迁约有 1% E2 分量。 | 实验报告 | source-reported | 物理第2页图1及第3页图2和正文。能级连接、拟合分支和混合比字形待核第2、3页。 | true |
+| A17-2 | 由实测能级按相邻 yrast 态均值扣除式求得的 E_wob，在各自观测区间内随自旋对正宇称带上升、对负宇称带下降。 | 实验能级导出量 | source-reported | 物理第3页未编号的 E_wob 公式及正文，第4页图3(a)、(b)。实验点和两面板的轴尺度待核第4页。 | true |
+| A17-3 | PRM 采用 CDFT 形变输入和能谱拟合惯量，对比观测区间的 E_wob 和由 γ 强度求得的跃迁几率比，并高估 B(M1out)/B(E2in)。HFA 以拟合惯量估算正、负宇称组态的转折自旋分别为 16.5ℏ 和 7.5ℏ，归一化曲线将两组数据分别置于上升段和下降段。 | 模型结果 | source-reported | 物理第3至4页模型正文，第4页图3、图4和表 I，第5页图5。惯量列、转折值及归一化比较待核第4、5页。 | true |
+| A17-4 | 作者沿用 πi13/2 正宇称与 πh9/2 负宇称组态指认，结合带间跃迁、准粒子取向与模型，将带（5）和（3）均解释为横向摇摆，并将两个组态上的摇摆带视为三轴形状共存的证据。 | 作者解释 | source-reported | 物理第3页带指认和文献 [18]，第4页表 I，第5页图5及结论。组态映射和图例待核第3至5页。 | true |
+
+VECC K-130 以 146 MeV 的 20Ne 束轰击 23 mg/cm² 的 169Tm 靶，经 169Tm(20Ne,6n)183Au 反应布居。INGA 使用八台克洛弗 HPGe 和两台平面 HPGe LEPS，记录 1.5×10⁹ 个二重及以上符合事件。组态沿用文献 [18]，PRM 使用 CDFT 形变及能谱拟合惯量，HFA 采用谐振与冻结取向近似。
+
+- 将 NA20-1 拆成实验建立的 ΔI＝1 连接（第2页图1、第3页正文）和沿用文献 [18] 的组态指认（第3页正文），分别标注证据属性。
+- 将 NA20-2 的图2定位改为物理第3页，将方法表述细化为实测 DCO 比和线偏振与不同 δ 下的计算值联合比较。
+- 将 Wiki 的“PRM/HFA reproduce the slope reversal through I_m”改为“PRM 对比两个实测区间的能量趋势和跃迁比，HFA 估算转折自旋并给出归一化的上升、下降分支”。
+- 物理第2页图1的能级与箭头标签在提取时交叠。第3页图2曲线旁的混合比字形抽取为 G，逐值引用前按原图核定。第1、3页公式的等号和括号有抽取乱码，第4页配对公式根号断行，第5页图5组态前缀抽取为 S/Q。公式及图例的逐字转录分别核对上述物理页。

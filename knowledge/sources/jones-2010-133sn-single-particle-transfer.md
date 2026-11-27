@@ -3,7 +3,7 @@ type: source
 title: "Jones et al. 2010 - The magic nature of 132Sn explored through 133Sn single-particle states"
 aliases: [Jones 2010 133Sn transfer, 132Sn to 133Sn particle-addition spectrum]
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: journal-article-transfer-experiment
@@ -85,3 +85,11 @@ The article reports a `132Sn(d,p)133Sn` one-neutron-addition experiment and inte
 - [[iaea-livechart-132sn-134te-levels]]
 - [[ame2020-sn132-mass-curvature]]
 - [[a130-shell-gap-orbital-observable]]
+
+## 2026-11-27 — 本地关联载体核对
+
+六页刊方 SI，母文 DOI 10.1038/nature09048。主文全文仅作访问缺口，不由附载覆盖结项。
+
+- 路径 `raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/jones-2010-nature09048-supplement.pdf`
+- SHA-256 `1854f8e4225ca93038e170845b8a6d45e53ccba2a1e62eca50e54aa46bda5d3d`
+- 实读 通读补充件物理第1–6页的抽取文本，包括光学势比较、两幅图的图注、三张数据表和两条文献。建议接受同版六页补充件的文本覆盖。母文摘要、预览及图例的历史覆盖仅据比较笔记，母文全文覆盖仍未建立。

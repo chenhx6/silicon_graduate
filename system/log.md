@@ -7502,3 +7502,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-27 — 馆藏续读第 16 批
 
 - 核定 21 个主件及 4 条关联材料，Bohr–Mottelson II 全卷覆盖闭合。正式队列剩 212 条。
+
+## 2026-11-27 — 馆藏续读第 17 批
+
+- 核定 37 份、518 个主件 PDF 页与 2 条关联载体，写回 5 条有界读段。队列剩 173 条。
