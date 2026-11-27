@@ -1,0 +1,164 @@
+{
+  "batch": "20261127-isomers-and-gamma-spectroscopy-m",
+  "created_at": "2026-11-27T05:33:44.832799+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000261",
+      "source": "knowledge/sources/li-guangshun-2012-pt185-pt190-thesis.md",
+      "identity": "李广顺，中国科学院研究生院理学博士学位版，2012-06；题页 PDF 1–2，馆藏 106 物理页。",
+      "coverage": [
+        "PDF 1–10 前置，11–62 物理、装置与分析，63–96 ¹⁸⁵,¹⁹⁰Pt 两个纲图与解释，97–106 相关文献和发表。"
+      ],
+      "boundary": [
+        "¹⁸⁵Pt 未知混合比时取 δ=0 强度近似。¹⁹⁰Pt 的 447.4 keV 多极性仍有选择。同靶 Pt 同位素的共享采集依实验条件对账。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre and manager",
+      "source_pdf": "raw/theses/degree-dissertation/李广顺.pdf",
+      "sha256": "f7f439e011575f6dbabd0d7787093e368137921421cb7ac4f43ee3e33d3f1f05",
+      "physical_pages": 106
+    },
+    {
+      "id": "catalogue:LIT-000968",
+      "source": "knowledge/sources/beck-2007-energy-splitting-th229.md",
+      "identity": "B. R. Beck et al., PRL 98, 142501 (2007), local APS version of record.",
+      "coverage": [
+        "PDF 1–4 全文，核两双峰、能标及分支修正。"
+      ],
+      "boundary": [
+        "7.6 eV 是由 γ 双峰间隔和未分辨分支推得。2009 更正属于另一报告。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/isomer/isomer_application/nuclear_clock/2007_Beck et al_Energy Splitting of the Ground-State Doublet in the NucleusTh229.pdf",
+      "sha256": "f60267e75d3748a95b3cad44e369bf3e2893001f6a9454f9dd1b93faf6ab845f",
+      "physical_pages": 4
+    },
+    {
+      "id": "catalogue:LIT-000969",
+      "source": "knowledge/sources/beeks-2021-thorium-229-isomer-nuclear-clock.md",
+      "identity": "K. Beeks et al., Nature Reviews Physics 3, 238–248 (2021), version of record.",
+      "coverage": [
+        "PDF 1–11 既读，核 1–9 图文及 10–11 引文。"
+      ],
+      "boundary": [
+        "综述所引双峰和读出实验按原文归属，固体宿主一般约束为综述和技术设计条件。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/isomer/isomer_application/nuclear_clock/2021_Beeks et al_The thorium-229 low-energy isomer and the nuclear clock.pdf",
+      "sha256": "81490df7838c992a3614beff909616b84c1fe3a5182b79cc53b1ccce705b37c7",
+      "physical_pages": 11
+    },
+    {
+      "id": "catalogue:LIT-000971",
+      "source": "knowledge/sources/burke-2019-one-tick-closer-nuclear-clock.md",
+      "identity": "J. T. Burke, Nature 573, 194–195 (2019), published News & Views.",
+      "coverage": [
+        "PDF 1 下部题头至 PDF 2 左栏引文，评论全文。"
+      ],
+      "boundary": [
+        "二手评论以引文定位各实验。馆藏 PDF 共用版面另有相邻文章。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/isomer/isomer_application/nuclear_clock/2019_Burke_One tick closer to a nuclear clock.pdf",
+      "sha256": "9233f2e8ce2a06429d8250d628a05b4909216493d413d37e7c91e131fe8413a3",
+      "physical_pages": 2
+    },
+    {
+      "id": "catalogue:LIT-000262",
+      "source": "knowledge/sources/hua-wei-2009-ce139-pt189-spectroscopy-thesis.md",
+      "identity": "滑伟，中国科学院研究生院理学博士，2009-04 提交、2009-05 答辩。馆藏 90 页，中文及英文题页见 PDF 1、4。",
+      "coverage": [
+        "PDF 1–8 题页与前置，9–56 理论、装置及矩阵，57–83 两核谱学与总结，84–90 引文与发表信息。"
+      ],
+      "boundary": [
+        "¹⁸⁹Pt 靶的正文单处质量数与反应式不同。弱线、带头和最高态需按表与图逐支引用。"
+      ],
+      "disposition": "covered",
+      "worker": "Sartre and manager",
+      "source_pdf": "raw/theses/degree-dissertation/滑伟.pdf",
+      "sha256": "f297d91d1048fd1378573bb46b42c61d14ff8975663f1aa172bc0e08944dabab",
+      "physical_pages": 90
+    },
+    {
+      "id": "catalogue:LIT-000995",
+      "source": "knowledge/sources/kraemer-2023-radiative-decay-229th-isomer.md",
+      "identity": "S. Kraemer et al., Nature 617, 706–710 (2023), publisher PDF with Methods and Extended Data.",
+      "coverage": [
+        "同哈希 PDF 1–13 既读；本轮核主文 1–4、Methods 6–7 和 Extended Data 9、11–13，校对末页。"
+      ],
+      "boundary": [
+        "670(102) s 为 MgF₂ 半衰期。介质修正和 CaF₂ 的代理占位率保留条件。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/isomer/isomer_application/nuclear_clock/2023_Kraemer et al_Observation of the radiative decay of the 229Th nuclear clock isomer.pdf",
+      "sha256": "3fe040c7e0325de1f7edc71b52a404b97cb3fa91e47d0c6316bf0920f61e26a7",
+      "physical_pages": 13
+    },
+    {
+      "id": "catalogue:LIT-001000",
+      "source": "knowledge/sources/masuda-2019-x-ray-pumping-229th-isomer.md",
+      "identity": "T. Masuda et al., Nature 573, 238–242 (2019), publisher PDF with appended Methods and Extended Data.",
+      "coverage": [
+        "同哈希 PDF 1–14 全覆盖，本轮核 1–7、9–14 的主张、Figs. 1–5、Methods 和附图表。"
+      ],
+      "boundary": [
+        "29 keV 态的估算产额与异能态分支为不同量。异能能量界带外引双峰数据。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/isomer/isomer_application/nuclear_clock/2019_Masuda et al_X-ray pumping of the 229Th nuclear clock isomer.pdf",
+      "sha256": "fbbbd1e86ca38411683c65c959499c39b3239c51226c444bf5cc16cb70eaf319",
+      "physical_pages": 14
+    },
+    {
+      "id": "catalogue:LIT-000302",
+      "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "identity": "Bohr and Mottelson, Nuclear Structure II, 1975 original, local World Scientific 1998 reissue, 772 physical pages.",
+      "coverage": [
+        "PDF 646–665 (printed 624–643), historical spectroscopic evidence for shape isomers, spin modes and pairing."
+      ],
+      "boundary": [
+        "图 6-58 的总截面和裂变产率来自不同测量。表 6-18 重用该输入，结构归属及宽度反演保留模型条件。"
+      ],
+      "disposition": "partial",
+      "worker": "Pascal and manager",
+      "source_pdf": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "physical_pages": 772
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 570,
+    "duplicate-or-related-version": 23,
+    "duplicate-excerpt-linked-to-canonical": 13,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "pending-identity-and-coverage": 92,
+    "supplement-linked-to-canonical": 7,
+    "existing-source-coverage-to-audit": 164,
+    "archived-publisher-scan-missing-printed-page": 1,
+    "read-core-evidence-checked": 1,
+    "out-of-scope-atomic-spectroscopy": 4,
+    "editorial-front-matter": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "publisher-first-page-extract-fulltext-unavailable": 3,
+    "access-placeholder-fulltext-unavailable": 1,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 256,
+  "credited_works": 7,
+  "credited_primary_pages": 240,
+  "partial_volume_pages": 20,
+  "next_action": "Continue Bohr–Mottelson II PDF 666 (printed 644) and the next verified original sources.",
+  "uncredited": []
+}

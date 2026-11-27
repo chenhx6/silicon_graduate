@@ -3,7 +3,7 @@ type: source
 title: "X-ray pumping of the 229Th nuclear clock isomer"
 aliases: ["masuda-2019-x-ray-pumping-229th-isomer", "Takahiko Masuda 2019"]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
@@ -41,14 +41,14 @@ tags: ["229th", "isomer", "nuclear-clock", "vuv-spectroscopy"]
 
 ## Summary
 
-Masuda et al. demonstrated artificial resonant X-ray pumping of 229mTh via its second excited state at 29.19 keV using monochromatic synchrotron radiation at SPring-8 BL19LXU. They observed nuclear resonance scattering (NRS) and confirmed feeding to 229mTh with an integrated cross section of sigma*Gamma = 1.3(3) x 10^-20 cm^2 eV and controlled pumping rate > 10^5 /s.
+Masuda 等用 SPring-8 共振 X 射线布居 ²²⁹Th 的 29.19 keV 第二激发态。报告共振能 29,189.93±0.07 eV、半衰期 82.2±4.0 ps，并由延迟与 prompt 信号推得跨带辐射宽度 1.70±0.40 neV。估算的 29 keV 态产生率与其到异能态的分支分别报告。
 
 ## Key Results
 
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| M19-1 | Resonant X-ray excitation of 29.19 keV second excited state observed at SPring-8 BL19LXU. | observed-fact | direct | pp. 238-240, Figs. 2-3 | true |
-| M19-2 | Integrated resonance absorption cross section measured as sigma*Gamma = 1.3(3) x 10^-20 cm^2 eV. | observed-fact | direct | p. 240, Fig. 4 | true |
+| M19-1 | 共振扫描得到第二激发态能量 29,189.93±0.07 eV，时谱给半衰期 82.2±4.0 ps。 | observed-fact | direct | PDF 2–3（印 239–240），Figs. 2–4，Eqs. (1)–(2) | true |
+| M19-2 | 跨带辐射宽度为 1.70±0.40 neV。约 2.5×10⁴ s⁻¹ 是 29 keV 态产生率的估计，到异能态的分支为 0.58±0.08。 | derived-quantity | source-reported | PDF 4 Eq. (3)，PDF 6–7 Eqs. (10)–(15)，PDF 13 | true |
 
 ## Competing Interpretations and Limitations
 
@@ -58,3 +58,7 @@ Pumps the isomer indirectly through 29.19 keV intermediate state; does not direc
 
 - [[masuda-2019-x-ray-pumping-229th-isomer]]
 - [[nuclear-clock-isomer-learning-and-transfer-20261107]]
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2–4 Figs. 2–5 给 29,189.93±0.07 eV 和 82.2±4.0 ps，跨带宽度 1.70±0.40 neV 按延迟与 prompt 计数及接受度换算。PDF 7 Eq. (15) 段的约 2.5×10⁴ s⁻¹ 是 29 keV 激发态产生率估计，异能态分支报 0.58±0.08。

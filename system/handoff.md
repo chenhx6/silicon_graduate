@@ -43,6 +43,8 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 本批核定 6 份、250 个主件 PDF 页，包括两份学位论文、¹⁴²Eu 与 ⁶⁶Ge 谱学、分段 Ge 及 ²⁵⁴No 剪刀模研究。另归位 ²⁵⁴No 刊方补充材料 9 页，并核定其复用的谱与模型。累计 581 份、22,343 个主件 PDF 页，正式队列待处理 263 条。第二卷另核 PDF 626–645（印 604–623），下一页 PDF 646（印 624）。稳定指针为 `research/archive-learning-20261127` + `research: verify archived spectroscopy, theses and supplemental data`。见[覆盖及证据](../outputs/literature-acquisition/20261119-deep-learning/20261127-spectroscopy-and-shell-effects-l-audit.json)和[补充材料](../outputs/literature-acquisition/20261119-deep-learning/20261127-no254-supplement-l-audit.json)。
 
+本批核定 7 份、240 个主件 PDF 页，包含两篇 Pt 谱学学位论文和五篇 ²²⁹Th 核钟相关来源。更正 Beck 双峰反演、Masuda 共振宽度与产生率的取值及原页。累计 588 份、22,583 个主件 PDF 页，正式队列待处理 256 条。第二卷另核 PDF 646–665（印 624–643），续读 PDF 666（印 644）的配对与转移讨论。稳定指针为 `research/archive-learning-20261127` + `research: verify isomer evidence and Pt spectroscopy theses`。见[原件及读段](../outputs/literature-acquisition/20261119-deep-learning/20261127-isomers-and-gamma-spectroscopy-m-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

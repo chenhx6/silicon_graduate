@@ -7486,3 +7486,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-27 — 馆藏续读第 12 批
 
 - 核定 6 份、250 个主件 PDF 页与一条 9 页刊方补件。第二卷新增 PDF 626–645，续读 PDF 646。正式队列待处理 263 条。
+
+## 2026-11-27 — 馆藏续读第 13 批
+
+- 核定 7 份、240 个主件 PDF 页，另核第二卷 PDF 646–665，从 PDF 666 续读。正式队列待处理 256 条。

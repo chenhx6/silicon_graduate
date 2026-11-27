@@ -3,7 +3,7 @@ type: source
 title: "One tick closer to a nuclear clock"
 aliases: ["burke-2019-one-tick-closer-nuclear-clock", "Jason T. Burke 2019"]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
@@ -41,13 +41,13 @@ The local primary PDF was examined under reading depth `read`. Main text, figure
 
 ## Summary
 
-Burke provided an expert News & Views commentary in Nature on the dual 2019 breakthroughs: Masuda et al. (synchrotron X-ray pumping of 229mTh via 29 keV state at SPring-8) and Seiferle et al. (direct measurement of transition energy at 8.28 eV via conversion electron spectroscopy), contextualizing the narrowed 149.7 ± 3.1 nm search band.
+这篇 News & Views 转述 Masuda 等经 29.19 keV 能级的 X 射线泵浦，以及 Seiferle 等从内转换电子谱反演的 8.28±0.17 eV。评论讨论两种技术与核钟光谱测量的关系。
 
 ## Key Results
 
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| BU19-1 | Contextualized Masuda 2019 X-ray pumping and Seiferle 2019 8.28 eV energy measurement. | author-interpretation | secondary commentary | pp. 194-195 | true |
+| BU19-1 | Fig. 1 示意两种实验。29.19 keV 泵浦归 Masuda 等，8.28±0.17 eV 归 Seiferle 等。 | author-interpretation | secondary commentary | PDF 1 下部、PDF 2 左栏及 Fig. 1，Refs. 1–2 | true |
 
 ## Competing Interpretations and Limitations
 
@@ -57,3 +57,7 @@ Secondary commentary; presents no original primary data. PDF includes unrelated 
 
 - [[burke-2019-one-tick-closer-nuclear-clock]]
 - [[nuclear-clock-isomer-learning-and-transfer-20261107]]
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 1 Fig. 1 与 PDF 2 文本分别讨论 Masuda 的 X 射线泵浦及 Seiferle 内转换能谱的 8.28±0.17 eV。

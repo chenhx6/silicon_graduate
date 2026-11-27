@@ -3,12 +3,12 @@ type: source
 title: "The thorium-229 low-energy isomer and the nuclear clock"
 aliases: ["beeks-2021-thorium-229-isomer-nuclear-clock", "Kjeld Beeks 2021"]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
 source_type: review-article
-reading_depth: deep-read
+reading_depth: read
 title_original: "The thorium-229 low-energy isomer and the nuclear clock"
 authors: ["Kjeld Beeks", "Tomas Sikorsky", "Thorsten Schumm", "Johannes Thielking", "Maxim V. Okhapkin", "Ekkehard Peik"]
 journal: "Nature Reviews Physics"
@@ -41,14 +41,14 @@ tags: ["229th", "isomer", "nuclear-clock", "vuv-spectroscopy"]
 
 ## Summary
 
-Beeks et al. provided an 11-page Nature Reviews Physics overview of the 229Th isomer and optical nuclear clock technology. They reviewed nuclear properties, 233U recoil vs ISOLDE 229Ac production, charge-state decay kinetics, crystal host physics (CaF2, LiSrAlF6), and laser excitation strategies.
+Beeks 等综述 ²²⁹Th 的 ²³³U 反冲与 ²²⁹Ac β 馈入路线、衰变寿命的电荷态依赖、透明绝缘宿主及 VUV 激发方案。图 3 的双峰是 Sikorsky 等结果，图 4 是模拟的超精细结构。
 
 ## Key Results
 
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| BE21-1 | Reviewed production channels: 233U alpha-decay recoil vs online 229Ac beta-decay implantation at ISOLDE. | author-analysis | review compilation | pp. 239-241, Sec. 2, Fig. 1 | true |
-| BE21-2 | Analyzed solid-state host requirements: VUV bandgap > 10 eV, crystal field symmetry, and color center formation. | theory-deduction | review synthesis | pp. 242-244, Sec. 3, Fig. 4 | true |
+| BE21-1 | ²³³U α 衰变反冲与 ²²⁹Ac β 馈入是两条路线。文中综述了 ISOLDE 的 ²²⁹Ac 生产和当时提出的辐射衰变测量方案。 | review-compilation | secondary | PDF 2–3（印 239–240），Fig. 1，Refs. 31–33 | true |
+| BE21-2 | 宽带隙氟化物的 VUV 透明度、Th⁴⁺ 补偿及缺陷态共同影响固态宿主。Figure 4 对应模拟的超精细结构。 | review-synthesis | secondary | PDF 3–4（印 240–241），固体宿主；PDF 6（印 243），Fig. 4 | true |
 
 ## Competing Interpretations and Limitations
 
@@ -58,3 +58,7 @@ Broad review article; compiles data from primary literature. Projections on lase
 
 - [[beeks-2021-thorium-229-isomer-nuclear-clock]]
 - [[nuclear-clock-isomer-learning-and-transfer-20261107]]
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2–4 讨论反冲和 β 馈入路线及晶体宿主条件。PDF 5 Fig. 3 重印 Sikorsky 2020 双峰，PDF 6 Fig. 4 是模拟超精细结构。

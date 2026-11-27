@@ -3,12 +3,12 @@ type: source
 title: "Energy Splitting of the Ground-State Doublet in the Nucleus 229Th"
 aliases: ["beck-2007-energy-splitting-th229", "B. R. Beck 2007"]
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
 source_type: experiment-article
-reading_depth: deep-read
+reading_depth: read
 title_original: "Energy Splitting of the Ground-State Doublet in the Nucleus 229Th"
 authors: ["B. R. Beck", "J. A. Becker", "P. Beiersdorfer", "G. V. Brown", "K. J. Moody", "J. B. Wilhelmy", "F. S. Porter", "C. A. Kilbourne", "R. L. Kelley"]
 journal: "Physical Review Letters"
@@ -41,15 +41,15 @@ tags: ["229th", "isomer", "nuclear-clock", "vuv-spectroscopy"]
 
 ## Summary
 
-Beck et al. measured the 229Th ground-state doublet energy difference using the NASA/LLNL EBIT cryogenic X-ray microcalorimeter (26 eV FWHM resolution). Counting gamma rays following 233U alpha decay, the energy difference between the 71.82 keV level branching to ground and to the isomer yielded 7.6 ± 0.5 eV, refuting the 1994 Helmer-Reich 3.5 eV value.
+Beck 等拟合 29、42 keV 两组 γ 双峰，间隔为 205.48±0.50 与 198.44±0.22 eV。两组间隔的差为 7.0±0.5 eV。应用 29.19 keV 态到基态的未分辨分支修正后，报告基态双重态间距 7.6±0.5 eV。
 
 ## Key Results
 
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| B07-1 | Ground-state doublet energy difference measured as 7.6 ± 0.5 eV from 71.82 keV branching difference. | observed-fact | direct | p. 142501-1, Abstract, Fig. 3 | true |
-| B07-2 | Positive correction of +0.6 eV applied for unobserved interband decay of 29.19 keV state. | author-analysis | direct/author analysis | p. 142501-3, text | true |
-| B07-3 | Refuted 1994 Helmer & Reich 3.5 ± 1.0 eV value, redirecting optical searches to VUV. | author-interpretation | direct | p. 142501-4, discussion | true |
+| B07-1 | 由两组 γ 双峰间距差及未分辨分支修正得到 7.6±0.5 eV。 | measurement-and-derived-energy | source-reported | PDF 3（142501-3）Fig. 2、Table I，PDF 4（142501-4） | true |
+| B07-2 | 以 71.82 keV 态相关的分支约束及 M1 能量立方标度估 b≈1/13，分支修正增加约 0.6 eV。 | branching-model | source-reported | PDF 3–4，分支及结论段 | true |
+| B07-3 | 作者在引言对比早期 3.5±1.0 eV，VUV 搜索窗口随新的推断调整。 | author-interpretation | source-reported | PDF 1 引言、PDF 4 结论 | true |
 
 ## Competing Interpretations and Limitations
 
@@ -59,3 +59,7 @@ Indirect energy measurement derived from gamma branching subtraction; later revi
 
 - [[beck-2007-energy-splitting-th229]]
 - [[nuclear-clock-isomer-learning-and-transfer-20261107]]
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 3 Fig. 2 和 Table I 的两个 γ 双峰间距给双差，PDF 4 首段说明未分辨分支调整。后一数据独立归属另循原件。

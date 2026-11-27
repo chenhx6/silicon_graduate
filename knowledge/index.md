@@ -2313,3 +2313,5 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[bello-garrote-2022-no254-scissors-mode]] — ²⁵⁴No 剪刀模、统计谱模型和刊方补件。
 - [[zhou-2023-fp-shell-mass-measurement-thesis]] — CSRe 的 fp 壳质量测量与质量差应用。
 - [[meng-2012-csrm-dielectronic-recombination-thesis]] — CSRm 双电子复合与束流、检测器方法。
+- [[li-guangshun-2012-pt185-pt190-thesis]] — ¹⁸⁵Pt、¹⁹⁰Pt 的独立布居与 γ 谱。
+- [[hua-wei-2009-ce139-pt189-spectroscopy-thesis]] — ¹³⁹Ce、¹⁸⁹Pt 的纲图、多极性和相邻实验谱系。
