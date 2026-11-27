@@ -3,7 +3,7 @@ type: source
 title: "Assié 2021：MUGAST-AGATA-VAMOS 的两体反冲与联合测量"
 aliases: [MUGAST AGATA VAMOS campaign 2021, Assie particle-assisted Doppler correction]
 created: 2026-10-14
-updated: 2026-10-14
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-instrument-method-experiment
@@ -23,7 +23,7 @@ canonical_source: "https://arxiv.org/abs/2104.10707v1"
 citation_key: "assie_2021_17o-mugast-agata"
 raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/assie-2021-mugast-campaign.pdf"
 raw_sha256: "7eb71ca9d7816083184fbdac2b1f8ca91b77cbb69da47988017a563c4719c451"
-raw_storage_status: reserved-unpopulated-public-preprint-only
+raw_storage_status: archived-local
 raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://arxiv.org/pdf/2104.10707v1"
 nuclei: [17o, 20o, 19ne]
@@ -39,7 +39,7 @@ tags: [mugast, agata, vamos, recoil-vector, target-loss, rigidity, pid, normaliz
 
 M.Assié等，NIMA1014,165743(2021)，DOI10.1016/j.nima.2021.165743，Crossref题名/首作者/年/卷/页身份核验。实际读arXiv2104.10707v1的13页public copy；arXiv标头21April2021、submission footer/build23April2021分别记录。Frontmatter列共同前六author，正式完整作者顺序应回对应version；Crossref完整列表含F.Delaunay而本copy author header未见，不把两列表视为逐字相同。
 
-raw保持不变：raw_file为未填充保留位置；copy在 `tmp/day13/reopened/assie-2021-mugast-campaign.pdf`，SHA如上。Initial title-field arXiv query返回400，换plain query后找到exact title/id，并以Crossref/OpenAlex/直接PDF核验；search摘要不作为科学证据。
+馆藏 `raw_file` 现存，SHA-256 与已读 arXiv:2104.10707v1 一致。全文定位采用该 13 页作者稿。
 
 ## Scope and Reading Depth
 
@@ -71,7 +71,7 @@ MUGAST backward5trapezoids(2019)/7(2020)、annular及forwardMUST2；backward str
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| AS21-1 | 粒子strips/geometry提供<.4°angular resolution；3D arm/mask给detector/target相对pose、precision.2mm。α-source comparison按annular计数归一simulation，110°附近target-holder shadow尚有差异，不能只以nominalcoverage替实际efficiency。 | experimental-criterion | direct | PDF pp.3–4, Sec.2.1/Fig.2 | true |
+| AS21-1 | 3D arm/mask 给阵列相对位姿，定位精度 0.2 mm。α 源对照以环形探测器总计数比将数据归一到 nptool 模拟，约 110° 数据低于模拟，作者归因于靶框遮挡。 | experimental-criterion | direct | PDF pp.3–4 §2.1 Fig. 2(a) | true |
 | AS21-2 | 三套DAQ经ATS/VTS/AGAVA链接，MUGAST触发、VAMOSvalidated、AGATAtriggerless；500ns crystal coincidence、最大2μs系统匹配与typical1μs event-building各属不同stage。 | experimental-criterion | direct | PDF pp.4–6, Sec.3/Fig.4 | true |
 | AS21-3 | 19O8AMeV+CD2 .3mg/cm²(3μm)数据给20O1.67-MeVstate missing-mass width179±4keV；target/straggling/beamspot是主要限制，不能把particle excitation-width直接当gamma width。 | experimental-fact | direct | PDF pp.6–7, Sec.4.2/Figs.7–8 | true |
 | AS21-4 | nptool含target/straggling/beam spread/energy response，3μm得191keV；no beam spread得164keV。两者均为指定simulation输出，不是实测source宽度。 | model-result | direct | PDF p.7, Sec.4.2/Fig.8 | true |
@@ -135,7 +135,7 @@ nptool用于geometry/target/straggling及efficiency；DWBA/ADWA曲线依potentia
 
 ## Human Review Triage
 
-P0：publiccopy身份/raw未归档与targetlabel冲突明确隔离。P1：AS21-7relative scale、AS21-8sameevents/width、AS21-9/10integer/clock、AS21-11normalization、AS21-14/15printedboundaries。Self-audit未提升human-reviewed。
+本地作者稿的路径与哈希现已复核；保留原刊页靶标签差异。P1：AS21-7relative scale、AS21-8sameevents/width、AS21-9/10integer/clock、AS21-11normalization、AS21-14/15printedboundaries。Self-audit未提升human-reviewed。
 
 ## Reference-route identity follow-up
 
@@ -144,3 +144,7 @@ P0：publiccopy身份/raw未归档与targetlabel冲突明确隔离。P1：AS21-7
 ## Extracted Pages
 
 PDF1–13全文主线；corepp.3–9及11–12的原figure/式。Actualevent/basis/PID/target backingmanifest仍缺失。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 3 Fig. 2(a) 依环形探测器总计数把 α 源数据归一至模拟。PDF 7–8 Fig. 9 给 41 晶体、182 mm、约 1.4 MeV 时效率 4.9(1)%，add-back 后 7.1(1)%。PDF 11 Fig. 17 的 ²⁰O 1.673 MeV 线在同一谱中比较逐事件反冲校正 7.1 keV 与平均束流 β=0.126 时的 10.2 keV FWHM。Au 背衬的寿命采集见 §4.2，Fig. 17 图注没有靶别。Fig. 18 的 800 ps／1.4 ns 是另一反应中分别定义的重反冲与轻粒子 TOF。

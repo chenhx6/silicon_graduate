@@ -3,7 +3,7 @@ type: source
 title: "Haxel, Jensen & Suess 1949 - On the Magic Numbers in Nuclear Structure"
 aliases: [Haxel Jensen Suess 1949 magic numbers]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: historical-theory-letter
@@ -82,3 +82,7 @@ The argument is schematic and predates realistic Woods–Saxon/EDF, tensor and c
 ## Extracted Pages
 
 - Models: [[covariant-density-functional-theory]] (historical shell context).
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+Table I 先给谐振子壳的简并度，再用非谐与强自旋轨道分裂说明历史闭合 14、28、50、82、126。较高 j 分量移出原壳后造成作者所列的闭合。

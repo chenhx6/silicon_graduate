@@ -4,11 +4,11 @@ title: "Ayangeakaa2023：76Ge多步Coulomb激发完整矩阵元与三轴性解�
 title_original: "Triaxiality and the nature of low-energy excitations in 76Ge"
 aliases: [Ayangeakaa2023 Ge76 full Coulomb excitation]
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-model-comparison
-reading_depth: read
+reading_depth: deep-read
 authors: ["A. D. Ayangeakaa", "R. V. F. Janssens", "S. Zhu", "J. M. Allmond", "B. A. Brown", "C. Y. Wu", "et al."]
 year: 2023
 journal: Physical Review C
@@ -20,7 +20,7 @@ canonical_source: "https://doi.org/10.1103/PhysRevC.107.044314"
 source_url: "https://link.aps.org/accepted/10.1103/PhysRevC.107.044314"
 raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/ayangeakaa-2023-ge76-coulomb-excitation-full.pdf"
 raw_sha256: "4907cd6d64d74fe7aea247d9be1c3e056fb026d9b76e4385c69c3b8784917a96"
-raw_storage_status: reserved-unpopulated-accepted-manuscript-staging-only
+raw_storage_status: archived-local
 raw_archive_verified_at: 2026-10-23
 analysis_status: public-staging-original-read-raw-archive-verified
 public_staging_manifest: "tmp/day20-ge76-119/manifest.json"
@@ -39,7 +39,7 @@ tags: [full-matrix-set, followup-identity, poves-citation, model-softness, ge76]
 
 Ayangeakaa等，Physical Review C107，044314(2023)，DOI10.1103/PhysRevC.107.044314，Crossref精确端点核发表2023-04-19。实际读取为APS/CHORUS accepted manuscript，cover1页+正文/参考15页，共16页、6275352bytes，SHA256见frontmatter。首页Dated2023-04-06，下载version标签不替代cover原样 accepted；未逐字核排版最终版。
 
-这是[[ayangeakaa-2019-rigid-triaxial-ge76]] Ref37的真正后续长文原件。PDF只在tmp公开staging，raw_file是未填归档槽，raw/PLAN/Bib未写。SI沿auto关闭，不断言不存在。旧TableI/II寿命/混合比/branch作为约束进入GOSIA，表输出非独立。
+本地 `raw_file` 现存，为与原已读版本同字节的 APS/CHORUS 接受稿。它对应 [[ayangeakaa-2019-rigid-triaxial-ge76]] 的 Ref. [37]，延续同批采集。Tables I–II 给 GOSIA 的外源约束；本轮未核独立 SI。
 
 ## Scope and Reading Depth
 
@@ -67,7 +67,7 @@ primed-recall-119在原件lookup前冻结；本session实际读PDF1–16全部�
 | --- | --- | --- | --- | --- | --- |
 | AY23-D20-1 | 确认为2019 PRL Ref37的完整后续长文，发表81个E1/E2/E3/M1 reduced matrix elements；2019短文另称103个混合矩阵元；不由两数差异反推全部拟合参数范围，二文为同谱系（146修订）。 | followup-lineage-and-published-size | direct-original-and-visual | PDF1/正文1; PDF6/7 TableIII | true |
 | AY23-D20-2 | TableIII列出主要E2与静态矩：ground到2₁–2₆为.526(2)/.089(3)/.061(3)/.054(4)/.010(+.009/−.021)/.023(6)eb；2₁对角−.24(2)eb、2₂对角+.26(+.02/−.05)eb（146定向视觉更正）。保留符号、初末态和箭头，非单独B模。 | reported-full-matrix-elements | direct-table-and-visual | PDF6–8 TableIII | true |
-| AY23-D20-3 | TableI/II沿用外源寿命、branch与混合比；GOSIA全三能量最小χ²=0.98。结果包含旧约束，非完全独立。 | experimental-fit-constraint-lineage | direct-tables-and-text | PDF5 TableI/II; PDF6 text | true |
+| AY23-D20-3 | 约 118 个效率校正 γ 强度来自 21 组。Tables I–II 列外部寿命、分支和混合比。联合拟合最小 χ² 除以数据点数为 0.98。 | experimental-fit-constraint-lineage | direct-tables-and-text | 接受稿 PDF 5–6、Tables I–II | true |
 | AY23-D20-4 | GTRM由0₁→2₁、0₁→2₂和2₁对角解析定出Q0=1.69(1)eb、γ=25.4(5)°、Γ=−15.8(4)°，再算整个能带与跨带；Fig6显示对ΔI=0,1;ΔK=2跨带跃迁仍有明确偏离。 | model-parameter-and-failure-boundary | direct-original-and-visual | PDF8 SecIV; PDF9/10 Figs5–7 | true |
 | AY23-D20-5 | PDF12明确引用Poves2020（Ref60）为评估不变量的替代方法，称其提供almost exact solution且与本文结果effectively similar；作者据CI模型主张76Ge较刚而76Se很软。 | author-acknowledgment-of-competing-method | direct-author-text | PDF12 column text; PDF13 Fig10/text; PDF15 Ref60 | true |
 | AY23-D20-6 | 146更正：Fig10(a)是实验矩阵元导出的不变量，(b)/(c)为jj44b/JUN45模型；PDF13称实验约29°/2°、模型约27°/4°。图的normal分布形状涨落不是实验参数的完整jointCI，原Cov/producer仍未取得。 | theoretical-invariants-generation | direct-original-and-visual | PDF12 SecIV; PDF13 Fig10 and caption | true |
@@ -170,3 +170,7 @@ PDF1：CHORUS accepted cover；2/正文1：引言与0νββ背景；3/正文2：
 弱0₁→2₅振幅区间[−.011,.019] eb包含0；向下2₅→0₁的B区间像为[0,.0000722] e²b²。只平方两端点会错误制造非零下界.0000242。此处仅是集合像/定义核验，不重新建立68.3%覆盖、不恢复jointCI、不改原拟合强度。完整网络仍缺七个6×6 E2子块的表列项及实际jointCov/producer；未列项不当0，亦不据表缺项宣称它们在原GOSIA里自由或未约束。参见本页R147/R167。
 
 因此[[ayangeakaa-2019-rigid-triaxial-ge76]]的Ref37不再是“尚无后续论文”，但“存在长表”仍不能兑换成当前已有完备可重放高阶输入。2019与2023同谱系，不重复计独立实验。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 5–6 记约 118 个效率校正 γ 强度、21 组。最小 χ²／实验数据点数为 0.98。PDF 7 Table III 将短文 RME 误差更正为 −0.220 (+0.005/−0.003) eb；2₅⁺、2₆⁺ 各自回到 Fig. 3 的能级定位后再比。Fig. 10 的实验不变量、jj44b 和 JUN45 计算分别分栏，实验均值约 29°、宽约 2° 是用拟合 RME 导出的量。

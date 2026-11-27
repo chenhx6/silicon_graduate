@@ -47,6 +47,10 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 本批核定 6 份、84 个主件 PDF 页，另查一份 6 页的公开同行评审附件。更正 ²²⁹Th 的四线双差、绝对峰心差和电荷态范围的证据归属。累计 594 份、22,667 个主件 PDF 页，正式队列待处理 250 条。第二卷另核 PDF 666–695（印 644–673），从 PDF 696（印 674）续读。稳定指针为 `research/archive-learning-20261127` + `research: correct nuclear-clock evidence and verify the pairing appendix`。见[原件及读段](../outputs/literature-acquisition/20261119-deep-learning/20261127-clock-evidence-and-pairing-appendix-n-audit.json)。
 
+本批核定 13 份、109 个主件 PDF 页，累计 607 份、22,776 个主件 PDF 页，正式队列待处理 237 条。⁷⁶Ge 短文与长文共用两次库仑激发采集。Droste 1999 分开记录校准级联所推取向及目标级联分析的采用值。第二卷另核 PDF 696–715（印 674–693），正文附录已走完，从 PDF 716（印 694）续读书目。稳定指针为 `research/archive-learning-20261127` + `research: verify angular-correlation and experiment lineage in the local archive`。见[原件及核验范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-angular-correlation-and-experiment-lineage-o-audit.json)。
+
+终端 Codex 用 API 配置完成 3 件作品的原文辅助核读。容器禁用命令沙箱需要的用户命名空间，备用工作会话改从标准输入读取带页码的已校验 PDF 文本，模型及推理深度显式跟随主会话。原图核验与正式写入由主会话负责。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

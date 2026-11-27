@@ -3,7 +3,7 @@ type: source
 title: "Droste et al. 1999 - PPCO polarization-polarization correlation from oriented nuclei"
 aliases: [Droste 1999 PPCO]
 created: 2026-09-20
-updated: 2026-10-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: method-paper
@@ -112,3 +112,7 @@ PPCO is sensitive to alignment width, polarimeter geometry/sensitivity, cascade 
 本篇复用[[starosta-1999-pdco-experimental-test]] Ref5的164Yb EUROGAM-II主采集与NORDBALL Q迁移假设。旧Wiki nuclei/reactionmetadata误配已改，不能继续沿197Pb/152Cd作证据。Eq8 twoanalyzerσfactorization不要求源jointWfactorization；推导/矩阵/信息及countmodel反证见[[ppco-joint-response-and-information]]。4N改进相对一个AA2的信息，但不是四个独立ratio，也不保证唯一spin/parity；Table1及原negative-parity讨论/lifetimecompanion保留。
 
 决定`revises`旧摘要过强的“组合便赋值”印象，`supports`joint响应合同与额外observable的信息；未增加独立实验数、重新拟合164Yb δ/Jπ或认证Q迁移。实际四谱净面积/背景、逐门事件唯一性与jointΣ/完整producer缺时保持readiness；不从图读出pseudo精确counts。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+印 263 Eqs. (9)、(13) 用两光子各自的面内／面外计数组合。Fig. 3 的轮廓示例假定 σ/I=0.3。印 266 §3.1 的 569、577 keV 标定级联由实测 AA2=0.235(27) 推得 σ/I=0.22 (+0.06/−0.11)，并与作者转引另一 647、530 keV 级联的 DCO 推值 0.26(5) 分开。未知自旋的 490、569 keV 级联在 Fig. 8／Table 1 采用 0.2，0.25 是敏感性复核。印 267 的 AA2=0.229(38) 能在所试假设中排除若干分支，AA1=0.038(28) 区分力较弱。印 268 的 647 keV 序列另作 E1／M1 检验，并采用 σ/I=0.2 后对 0.25 复核。

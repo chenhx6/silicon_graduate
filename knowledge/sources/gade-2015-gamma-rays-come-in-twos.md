@@ -3,7 +3,7 @@ type: source
 title: "Nature News & Views：Sometimes γ-rays come in twos"
 aliases: ["Gade 2015 two-photon decay comment", "Sometimes gamma-rays come in twos"]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: commentary
@@ -157,3 +157,7 @@ Gade 的评论把 Walz 等人对 `137Ba` 竞争性双 γ 衰变的观测放入�
 
 - 下一步：HS-044 Walz 原始 Letter 已全文核查；如需论文级使用，再审计随附 SI 与 detector-response details。
 - 外部元数据核验：PubMed PMID 26469039；Walz 原始来源 DOI `10.1038/nature15543`。在线记录用于身份核验，科学数值仍以本地原文 locator 为准。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+印 330–331 对 ¹³⁷Ba 的竞争性 2γ 过程作评论。1 in 487,805、662 keV 总能量与符合抑制都归 Walz 主实验。文中早期 ¹⁶O、⁴⁰Ca、⁹⁰Zr 的受抑单光子案例仅作比较。

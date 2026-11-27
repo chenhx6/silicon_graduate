@@ -3,7 +3,7 @@ type: source
 title: "Chakraborty：129Ba 365-keV混合比重分析，arXiv v3（2024）"
 aliases: [arXiv 2108.05313v3, 129Ba 365 mixing comment]
 created: 2026-10-17
-updated: 2026-10-17
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: preprint-reanalysis
@@ -65,3 +65,7 @@ v3重新讨论365keV 13/2−→11/2−的旧A22/A44/P，作者由联合系数图
 
 - [[ba129-365-mixing-reference-boundary]]：原文归属更正、两类coeff/reference与uncertainty输入合同。
 - [[129ba]]及[[chakraborty-2024-possibility-wobbling-129ba]]：只更新数值来源，不升级模式。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 1 Fig. 1 单 A₂₂ 有 −2.0(2)／−0.33(3) 的候选，Fig. 2 结合 A₂₂/A₄₄ 的 χ² 谷与轨迹，作者选约 −2.0(2)，约 80(4)% E2。P=0.072(68) 来自 Gizon，作为分支相容性对照。

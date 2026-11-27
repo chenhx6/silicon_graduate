@@ -3,7 +3,7 @@ type: source
 title: "Hamilton 1948 - Polarization and direction of propagation of successive quanta"
 aliases: [Hamilton 1948 direction-polarization correlation]
 created: 2026-09-21
-updated: 2026-10-19
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: theory-method
@@ -36,7 +36,7 @@ tags: [polarization, angular-correlation, historical-formalism, parity]
 
 ## Scope and Reading Depth
 
-- The in-scope six-page article was read end-to-end, including Eqs.(1–15), the 16 dipole/quadrupole combinations, efficiency discussion, parity-group summary and magnetic-field boundary. The following scan page (pp.788 onward) is an unrelated H. C. Corben article and was excluded from this source.
+- Covered scope: PDF 1–7 (printed 782–788), including Eqs. (1–15), efficiency and parity groups, and the final paragraphs above Corben’s title on printed p. 788. The following article starts lower on that shared page.
 
 ## Formalism
 
@@ -117,3 +117,7 @@ Hamilton supplies the formal direction–polarization bridge that later Compton/
 学习决定为`supports`纯序列的role/efficiency合同；`limits`以未分辨null、α4=0或已知能量直接作唯一multipole/parity赋值；`revises`旧页边界。保留旧needs_review，新claims全true，不增加独立实验或课程学分。原1940论文、BR/Fe55的operator定义及actualarrayresponse/Cov仍未恢复。
 
 [符号复算程序](../../system/scripts/day16_hamilton1948_role_audit.py)实际exit0；[冻结输入与16行结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/hamilton1948-role-audit-result.json)。相关[[angular-correlation]]、[[linear-polarization-asymmetry]]、[[compton-polarimetry]]及[[high-spin-angular-polarization-mixing-ratio]]；[[fagg-hanna-1959-polarization-measurements]]转引本理论不算新增实验。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+印 783–784 Eq. (1) 分解两正交偏振分量，印 784–787 将有限探测效率与识别先后加入可判组。印 788 上部说明：测一条偏振时，强磁场平行于未分析偏振的那条光子方向才保存关联。此条件与未分析的是第一还是第二条无关。

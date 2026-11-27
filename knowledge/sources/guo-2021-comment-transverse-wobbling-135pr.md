@@ -3,7 +3,7 @@ type: source
 title: "Guo 2021：对 135Pr 横向摇摆实验判据的评论"
 aliases: [Guo 2021 135Pr wobbling comment, comment on transverse wobbling in 135Pr]
 created: 2026-09-13
-updated: 2026-09-13
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: arxiv-comment-methodological-reanalysis
@@ -106,3 +106,7 @@ Guo 对 Matta 2015 的 transverse-wobbling 判据提出方法学质疑。评论�
 ## Later Paper / Q&A Gate
 
 若后续问答或论文写作使用 Guo comment 的双解、偏振或“wobbling 尚未确定”表述，需同时列出其 reanalysis 性质、假定的 `σ/I`/polarization response 边界，以及后续 Lv 2022 与 Sensharma 2026 的相反/回应证据；不得把该短评写成新的实验测量。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+Fig. 1 对 747、813、755、594 keV 绘角分布候选。747 keV 两支 −1.24／−0.64，812.8 keV 两支 −1.54／−0.50。PDF 2 Fig. 2 给 σ/I=0.2、0.3、0.4、0.5 的偏振理论曲线，评论指出同号结果在两种候选中均可出现。

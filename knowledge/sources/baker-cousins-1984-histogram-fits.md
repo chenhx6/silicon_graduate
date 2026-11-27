@@ -3,7 +3,7 @@ type: source
 title: "Baker–Cousins 1984：计数谱拟合的统计量与区间"
 aliases: [Poisson likelihood chi square, Baker Cousins histogram statistic]
 created: 2026-10-14
-updated: 2026-10-14
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: statistical-method-paper-public-report-version
@@ -21,7 +21,7 @@ canonical_source: "https://doi.org/10.1016/0167-5087(84)90016-4"
 citation_key: "baker_1984_clarification-use-chi"
 raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/baker-cousins-1984-histogram-fits-kekscan.pdf"
 raw_sha256: "e687601ebec8241a46db58aeeccffa2b4b252fe62c79db5b44ec51092e7c245a"
-raw_storage_status: reserved-unpopulated-public-author-report-scan-only
+raw_storage_status: archived-local
 raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://lib-extopc.kek.jp/preprints/PDF/1983/8311/8311266.pdf"
 nuclei: []
@@ -37,7 +37,7 @@ tags: [counting-statistics, neyman, pearson, normalization, likelihood, finite-s
 
 Steve Baker、Robert D. Cousins，NIM **221**(2),437–442(1984)，DOI如上；Crossref核验作者/题名/年/卷/页。实际所读是22页UCLA-HEP-83-3报告，封面July1983并写acceptedOctober1983。INSPIRE193548将相同DOI、UCLA报告和KEKSCAN83-11-266绑定；公开KEK副本封面/title/authors/reportID视觉核验，不把22页报告当期刊六页PDF。
 
-原raw未改变，保留slot未填充；临时副本`tmp/day13/reopened/baker-cousins-kekscan-83-11-266.pdf`，SHA如上。OpenAlex无OA位置、猜测的FNAL候选403并未验证身份，之后沿正式INSPIRE/KEK locator取得原报告；不能把失败候选写为本文的实际source。
+本地 `raw_file` 现存，为读过的 UCLA-HEP-83-3 报告 KEKscan 扫描本，共 22 个物理页。期刊 DOI 用作发表关联，以下定位指报告扫描。
 
 ## Scope and Reading Depth
 
@@ -87,7 +87,7 @@ Pearson用y_i作分母，Neyman用n_i，两者不等Poissondeviance。自由over
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| BC84-D21-1 | 低计数能谱（平均道计数 n_bar < 10）的蒙特卡洛仿真（1000次抽样）审计证明，经典 Neyman 加权最小二乘拟合因过度加权向下泊松涨落，产生 -12.86% 的严重系统性面积低估偏差；丢弃零计数道导致背景虚假抬高；小样本下高斯对称误差（+/- sqrt(N)）在 N=0 时退化为 [0, 0]，而严格 Garwood 泊松 68.3% 置信限为 [0, 1.841]（95% 上限为 3.0）；Baker-Cousins 极大似然比偏差量 chi^2_lambda 严格保持总计数守恒（sum y_i = sum n_i），实测拟合面积偏差仅 +0.28%（无偏）。确证微弱跃迁面积、弱衰变分支比与 DSAM 谱线形参数必须使用 chi^2_lambda 并排查小样本覆盖畸变。 | low-count-poisson-likelihood-boundary | direct-original-and-quantitative-audit | pp.437–442 Eqs.(10)–(14); baker-cousins-poisson-audit-027.json | true |
+| BC84-D21-1 | §4 的总计数相等依赖可自由调节的共同尺度与内点条件。另做的 Wiki checkpoint027 固定背景合成谱试验保留零计数道，1000 次给出泊松 +0.28%、改型 Neyman −12.86%、Pearson +6.05% 的平均峰面积偏差。固定背景算例不满足共同尺度条件。 | low-count-poisson-likelihood-boundary | direct-original-and-quantitative-audit | 报告 PDF 8、11–19；Wiki baker-cousins-poisson-audit-027.json | true |
 
 ## Authors' Interpretation
 
@@ -133,4 +133,8 @@ P0：report身份与publiccopy/raw边界已隔离。P1：BC84-2/3/5/6/7/9/10的�
 
 ## Extracted Pages
 
-22页报告主线；pp.4–8统计量、11–14scale/interval、15–18bias/GOF、19Appendix为核心；参考20–22仅作引用语境。封面/8/12视觉核验。
+22页报告主线；pp.4–8统计量、11–14scale/interval、15–18bias/GOF、19Appendix为核心；PDF 20–21 为参考文献，PDF 22 为空白扫描页。封面/8/12视觉核验。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 4–8 的泊松 χ² 是对饱和模型的似然比偏差量，零计数道贡献 2yᵢ。PDF 8 Eq. (7) 及 PDF 11–14 的总计数相等条件要求可自由调整所有期望计数的共同尺度，并取可微内点最优。PDF 15–19 将似然拟合优度及区间性质限定于渐近条件，并提醒小样本下两类点估计可有偏。固定背景的 Wiki 合成谱保留零计数道，与报告的面积条件分开。

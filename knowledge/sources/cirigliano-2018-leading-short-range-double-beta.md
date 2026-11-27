@@ -3,7 +3,7 @@ type: source
 title: "Cirigliano 等 2018：轻中微子交换的领头阶短程反项"
 aliases: [Cirigliano 2018 leading contact 0nubb]
 created: 2026-11-08
-updated: 2026-11-08
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: theory-article
@@ -60,3 +60,7 @@ T07读PDF1–5；总控回读PDF2–5的公式与讨论。
 ## Extracted Pages
 
 - [[doctoral-r3-weak-operators-and-delayed-particles-20261108]]
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2–3 Eqs. (7)–(12) 的 ¹S₀ 两核子长程交换引入对数紫外依赖，需要领头阶短程反项；Fig. 2、Eqs. (13)–(15) 给坐标截断对照。PDF 3–4 Eqs. (16)–(17) 的电荷独立性破缺输入只约束 C₁+C₂，分别提取依赖匹配假设。PDF 4–5 Fig. 3 的 ¹²Be→¹²C 模型比例随三种短程输入而变。

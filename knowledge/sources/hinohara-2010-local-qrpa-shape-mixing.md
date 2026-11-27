@@ -3,11 +3,11 @@ type: source
 title: "Hinohara 等 2010：Se 核的 CHFB+LQRPA 形状混合"
 aliases: [Hinohara 2010 CHFB LQRPA, Se local QRPA inertial functions]
 created: 2026-11-08
-updated: 2026-11-08
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: journal-article-theory
-reading_depth: skimmed
+reading_depth: read
 title_original: "Microscopic description of large-amplitude shape-mixing dynamics with inertial functions derived in local quasiparticle random-phase approximation"
 authors: [Nobuo Hinohara, Koichi Sato, Takashi Nakatsukasa, Masayuki Matsuo, Kenichi Matsuyanagi]
 journal: Physical Review C
@@ -111,3 +111,7 @@ P1：初稿数字/实验趋势只在另行原图核实后使用；新颖性、�
 - 具体案例、真实表与边界：[[doctoral-r2-inertia-evidence-and-band-reconstruction-20261108]]。
 - 当前不另建能带或实验页；本来源中的实核数值与模型条件按上文保留，
   不将理论参数登记成新的测量。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 4–5 Eqs. (25)–(49) 将振动质量与转动惯量及量子化体积元分开。PDF 7–8 Fig. 4 的具体测试为固定最低频模式再遍历另 39 个配对候选。PDF 13 Fig. 10 及同页正文给 ⁶⁸Se 下行 2₁⁺→0₁⁺ 的 492（CHB+LQRPA）与 432（文献实验中央值）e²fm⁴。PDF 14–15 分别保留 ⁷⁰Se 强度高估及 ⁷²Se 激发带尚需 E2 测量。

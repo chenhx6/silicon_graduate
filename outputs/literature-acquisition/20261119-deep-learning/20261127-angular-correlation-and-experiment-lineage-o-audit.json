@@ -1,0 +1,262 @@
+{
+  "batch": "20261127-angular-correlation-and-experiment-lineage-o",
+  "created_at": "2026-11-27T06:16:29.275626+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "catalogue:LIT-000280",
+      "source": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
+      "identity": "本地 arXiv:2104.10707v1（13 页）；刊文另著录 NIM A 1014, 165743。",
+      "coverage": [
+        "同版既有 PDF 1–13；本轮核 PDF 1、3、6–13 的装置、效率、束靶、Doppler 与 TOF，原图复核 PDF 1、7–8、11–12。"
+      ],
+      "boundary": [
+        "保留 PDF 9 的 CH₂ 字面张力和 PDF 10–11 51／57 keV 标签差异；未核出版排版与逐事例资料。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble with manager original-page verification",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/assie-2021-mugast-campaign.pdf",
+      "sha256": "7eb71ca9d7816083184fbdac2b1f8ca91b77cbb69da47988017a563c4719c451",
+      "physical_pages": 13
+    },
+    {
+      "id": "catalogue:LIT-000283",
+      "source": "knowledge/sources/ayangeakaa-2019-rigid-triaxial-ge76.md",
+      "identity": "PRL 123, 102501，APS/CHORUS 接受稿，1 页封面及 6 页手稿。",
+      "coverage": [
+        "同版既有 PDF 1–7；本轮核 PDF 1–7 的版次、拟合图表和长文引文，重点回页 PDF 4 Table I、PDF 5–6 Figs. 3–5。"
+      ],
+      "boundary": [
+        "缺 GOSIA 输入文件和联合协方差；馆藏以接受稿定位，未重读期刊排印版或独立 SI。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble with manager original-page verification",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/ayangeakaa-2019-rigid-triaxial-ge76.pdf",
+      "sha256": "fd549c59e62774b43690a8ae3b5c4bf638982f6c9b888dd0f0aba83b3993b733",
+      "physical_pages": 7
+    },
+    {
+      "id": "catalogue:LIT-000284",
+      "source": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "identity": "PRC 107, 044314，APS/CHORUS 接受稿，1 页封面及 15 页手稿。",
+      "coverage": [
+        "同版既有 PDF 1–16；本轮复核 PDF 1–9、12–16，图像核 PDF 1、5–8、12–13 的 Tables I–III、Figs. 10–12 等。"
+      ],
+      "boundary": [
+        "外部寿命、混合比和分支作为约束进入拟合；未检查联合协方差、逐组产额与刊版排印。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble with manager original-page verification",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/ayangeakaa-2023-ge76-coulomb-excitation-full.pdf",
+      "sha256": "4907cd6d64d74fe7aea247d9be1c3e056fb026d9b76e4385c69c3b8784917a96",
+      "physical_pages": 16
+    },
+    {
+      "id": "catalogue:LIT-000286",
+      "source": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+      "identity": "UCLA-HEP-83-3／KEKscan 83-11-266 报告扫描本；对应 NIM 221, 437–442。",
+      "coverage": [
+        "同版既有 PDF 1–22，PDF 22 为空白扫描页；本轮定向核 PDF 1、4–8、11–22，目视 PDF 1、8、12、16、19、21–22。"
+      ],
+      "boundary": [
+        "仅核本地报告扫描；未核期刊排版、真实事件拟合和小计数区间覆盖。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble with manager original-page verification",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/baker-cousins-1984-histogram-fits-kekscan.pdf",
+      "sha256": "e687601ebec8241a46db58aeeccffa2b4b252fe62c79db5b44ec51092e7c245a",
+      "physical_pages": 22
+    },
+    {
+      "id": "catalogue:LIT-000344",
+      "source": "knowledge/sources/chakraborty-2024-ba129-365-mixing-ratio-arxiv-v3.md",
+      "identity": "本地 arXiv:2108.05313v3（2024-04-09），一页。",
+      "coverage": [
+        "同版既有全文、Figs. 1–2 和引文；复查 PDF 1 原页版次、拟合图与图注。"
+      ],
+      "boundary": [
+        "权重、系数协方差和完整取向与分析度输入未交付。"
+      ],
+      "disposition": "covered",
+      "worker": "manager",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/chakraborty-arxiv2108.05313v3-c8c0accfc9d2.pdf",
+      "sha256": "c8c0accfc9d21e91ebf9ea201287b44047b6e2aca48fc4d1cc765799a160005d",
+      "physical_pages": 1
+    },
+    {
+      "id": "catalogue:LIT-000385",
+      "source": "knowledge/sources/droste-1999-ppco-polarization.md",
+      "identity": "NIM A 430, 260–270 刊版（10.1016/S0168-9002(99)00224-7）。",
+      "coverage": [
+        "同版既有全文覆盖；回查 PDF 1–11 的正式定义、几何、Four-count 例子和结论，定位到印 260–270。"
+      ],
+      "boundary": [
+        "有限角接受、Q(E) 和对齐需要对应同一实际几何；本件未重做原矩阵。"
+      ],
+      "disposition": "covered",
+      "worker": "manager",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1999_Droste et al_PPCO polarization–polarization correlation from oriented nuclei.pdf",
+      "sha256": "7d2a0ecf0805c1ea8d845c3d0f1e36fb873b0ae87e16d5be20152ba8b97773ee",
+      "physical_pages": 11
+    },
+    {
+      "id": "catalogue:LIT-000416",
+      "source": "knowledge/sources/gade-2015-gamma-rays-come-in-twos.md",
+      "identity": "Nature News & Views 526, 330–331，DOI 10.1038/526330a。",
+      "coverage": [
+        "内容跨 PDF 1 下部至 PDF 2，印 330–331；同版旧读段与原文逐页对账。"
+      ],
+      "boundary": [
+        "PDF 有共页栏目；无 Walz 原始事件、误差与效率条件的独立依据。"
+      ],
+      "disposition": "covered",
+      "worker": "manager",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2015_Gade_Sometimes γ-rays come in twos.pdf",
+      "sha256": "01ee9ba3e41b26de54f5a443de73f8bcf036390f6fe33b35057c2b0474f89d81",
+      "physical_pages": 2
+    },
+    {
+      "id": "catalogue:LIT-000440",
+      "source": "knowledge/sources/guo-2021-comment-transverse-wobbling-135pr.md",
+      "identity": "本地 arXiv:2011.14364v3，S. Guo，PDF 侧栏 2021-01-13。",
+      "coverage": [
+        "既有 PDF 1–2 与 Figs. 1–2 同版；本轮复核谱学观测和反演分支归属。"
+      ],
+      "boundary": [
+        "Fig. 2 扫描的 σ/I 是评论曲线输入；Matta 逐线 INGA 对齐与分析度缺完整报告。"
+      ],
+      "disposition": "covered",
+      "worker": "manager",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260912-PREPLAN-135pr-refresh/guo-2020-comment-135pr-wobbling.pdf",
+      "sha256": "cc9e43e07f23c3e85250c4acf55032d1085901e14d075591bcb141e5fddcdafc",
+      "physical_pages": 2
+    },
+    {
+      "id": "catalogue:LIT-000448",
+      "source": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+      "identity": "Physical Review 74, 782–788，DOI 10.1103/PhysRev.74.782，印 788 与 Corben 共页。",
+      "coverage": [
+        "PDF 1–7（印 782–788），末页至 Corben 标题前；公式、组别和磁场段逐页对账。"
+      ],
+      "boundary": [
+        "原件的末页下部 Corben 论文另文；16 种组合按文中单纯偶极/四极、给定探测效率及鉴别条件比较。"
+      ],
+      "disposition": "covered",
+      "worker": "manager",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1948_Hamilton_Polarization and Direction of Propagation of Successive Quanta.pdf",
+      "sha256": "f569db64c7e402558fd574839ba5c3da56bc8ecf1b37dab330be706118dc0879",
+      "physical_pages": 7
+    },
+    {
+      "id": "catalogue:LIT-000456",
+      "source": "knowledge/sources/haxel-jensen-suess-1949-magic-numbers.md",
+      "identity": "Physical Review 75, 1766（1949）原刊共页短通信。",
+      "coverage": [
+        "同一物理页，全文从左栏中部题名起、至右栏脚注止，含 Table I。"
+      ],
+      "boundary": [
+        "结果取决于相互作用与壳重排模型；后续三篇通信未纳入这份扫描。"
+      ],
+      "disposition": "covered",
+      "worker": "manager",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1949_Haxel et al_On the Magic Numbers in Nuclear Structure.pdf",
+      "sha256": "55626064ffdeaf2ba8c4a836e425bffa269a2050464064015db09de73a3539a2",
+      "physical_pages": 1
+    },
+    {
+      "id": "bytes:c15e22bdb9c811e986493ff2a0b01f2794c8a33a6493b4ba6d62701525304996",
+      "source": "knowledge/sources/cirigliano-2018-leading-short-range-double-beta.md",
+      "identity": "arXiv:1802.10097v1, 2018-02-27; published metadata PRL 120, 202001.",
+      "coverage": [
+        "本轮续核 PDF 1–6 的正文、式 (1)–(18)、图 1–3 图注及文献，主会话回核 PDF 3 Fig. 2 的截断和标度。"
+      ],
+      "boundary": [
+        "本轮原文及关键图抽核；未重算模型或对读外部数据来源。"
+      ],
+      "disposition": "covered",
+      "worker": "terminal Codex (same model and reasoning) with manager original-image verification",
+      "source_pdf": "raw/papers/gpt/query/20261108-r3-t07-weak-renormalization/cirigliano-2018-prl120-202001-arxiv-1802.10097v1.pdf",
+      "sha256": "c15e22bdb9c811e986493ff2a0b01f2794c8a33a6493b4ba6d62701525304996",
+      "physical_pages": 6
+    },
+    {
+      "id": "bytes:c34f2ff4025e3ec8050caabae83c396f6621a80b4ff5b4bbf92066dbf9d7ed04",
+      "source": "knowledge/sources/hinohara-2010-local-qrpa-shape-mixing.md",
+      "identity": "arXiv:1004.5544v2 from 2011-01-11; PRC 82, 064313 bibliographic parent.",
+      "coverage": [
+        "同版旧读覆盖 PDF 1–8 为主。本次补读 PDF 1–16 的正文、式、图注及 PDF 16–17 引文，目视 PDF 13 Fig. 10 的 ⁶⁸Se 实验与模型谱。"
+      ],
+      "boundary": [
+        "本轮原文及关键图抽核；未重算模型或对读外部数据来源。"
+      ],
+      "disposition": "covered",
+      "worker": "terminal Codex (same model and reasoning) with manager original-image verification",
+      "source_pdf": "raw/papers/gpt/query/20261108-r2-g38-lqrpa-light/hinohara-2010-prc82-064313.pdf",
+      "sha256": "c34f2ff4025e3ec8050caabae83c396f6621a80b4ff5b4bbf92066dbf9d7ed04",
+      "physical_pages": 17
+    },
+    {
+      "id": "bytes:c88f73e26aac50aa434395b6c7458515a706ae9f05520de5f4b7cc195c45c8e0",
+      "source": "knowledge/sources/maheshwari-jain-2016-even-odd-tensor-seniority.md",
+      "identity": "Physics Letters B 753, 122–125, local CC BY journal version, DOI 10.1016/j.physletb.2015.11.079.",
+      "coverage": [
+        "同版旧覆盖 PDF 1–3。本次通读 PDF 1–4 的正文、式、图注、参考，回查 PDF 3（印 124）的 Figs. 1–3。"
+      ],
+      "boundary": [
+        "本轮原文及关键图抽核；未重算模型或对读外部数据来源。"
+      ],
+      "disposition": "covered",
+      "worker": "terminal Codex (same model and reasoning) with manager original-image verification",
+      "source_pdf": "raw/papers/gpt/query/20261114-single-j-magnetic-exits/maheshwari2016-plb-odd-tensor.pdf",
+      "sha256": "c88f73e26aac50aa434395b6c7458515a706ae9f05520de5f4b7cc195c45c8e0",
+      "physical_pages": 4
+    },
+    {
+      "id": "catalogue:LIT-000302",
+      "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "identity": "World Scientific 1998 reprint of 1975 Vol. II, 772 physical pages.",
+      "coverage": [
+        "PDF 696–698 (printed 674–676), end of Appendix 6A.",
+        "PDF 699–714 (printed 677–692), Appendix 6B.",
+        "PDF 715 (printed 693), shared Bibliography opening and convention."
+      ],
+      "boundary": [
+        "谐振 yrast 的摆动解释受大自旋小振幅条件约束，角动量跃迁方向与箭头、公式约定一并引用。"
+      ],
+      "disposition": "partial",
+      "worker": "Pascal with manager key original-page verification",
+      "source_pdf": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "physical_pages": 772
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 589,
+    "duplicate-or-related-version": 23,
+    "duplicate-excerpt-linked-to-canonical": 13,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "pending-identity-and-coverage": 92,
+    "supplement-linked-to-canonical": 7,
+    "existing-source-coverage-to-audit": 145,
+    "archived-publisher-scan-missing-printed-page": 1,
+    "read-core-evidence-checked": 1,
+    "out-of-scope-atomic-spectroscopy": 4,
+    "editorial-front-matter": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "publisher-first-page-extract-fulltext-unavailable": 3,
+    "access-placeholder-fulltext-unavailable": 1,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 237,
+  "credited_works": 13,
+  "credited_primary_pages": 109,
+  "partial_volume_pages": 20,
+  "next_action": "Continue Bohr–Mottelson II PDF 716 (printed 694), shared Bibliography, and the next verified local originals.",
+  "uncredited": []
+}

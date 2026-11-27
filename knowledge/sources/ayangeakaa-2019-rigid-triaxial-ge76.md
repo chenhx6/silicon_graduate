@@ -4,11 +4,11 @@ title: "Ayangeakaa2019：76Ge低自旋刚性三轴主张与高阶矩证据范围
 title_original: "Evidence for Rigid Triaxial Deformation in 76Ge from a Model-Independent Analysis"
 aliases: [Ayangeakaa2019 Ge76 rigid triaxiality]
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-structure-interpretation
-reading_depth: read
+reading_depth: deep-read
 authors: ["A. D. Ayangeakaa", "R. V. F. Janssens", "S. Zhu", "D. Little", "J. Henderson", "C. Y. Wu", "et al."]
 year: 2019
 journal: Physical Review Letters
@@ -20,7 +20,7 @@ canonical_source: "https://doi.org/10.1103/PhysRevLett.123.102501"
 source_url: "https://link.aps.org/accepted/10.1103/PhysRevLett.123.102501"
 raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/ayangeakaa-2019-rigid-triaxial-ge76.pdf"
 raw_sha256: "fd549c59e62774b43690a8ae3b5c4bf638982f6c9b888dd0f0aba83b3993b733"
-raw_storage_status: reserved-unpopulated-accepted-manuscript-staging-only
+raw_storage_status: archived-local
 raw_archive_verified_at: 2026-10-23
 analysis_status: public-staging-original-read-raw-archive-verified
 public_staging_manifest: "tmp/day20-ge76-118/manifest.json"
@@ -40,7 +40,7 @@ tags: [rigidity, low-spin, convergence, covariance, ge76]
 
 Ayangeakaa等，Physical Review Letters123，102501(2019)，DOI10.1103/PhysRevLett.123.102501，Crossref精确端点核发表2019-09-06。本session实际读取APS/CHORUS accepted manuscript，cover1页+正文/参考6页，共7页、1022508bytes，SHA256见frontmatter。首页Dated2019-07-26；下载metadata的publishedVersion标签不覆盖cover明确的accepted身份，未逐字核最终排版版本。
 
-PDF在tmp，实际路径见public_staging_manifest；raw_file为未填归档槽，raw/PLAN/Bib未写，citation_key空白。SI沿auto配置关闭，不声称SI已读或不存在。本测量是新counts配合外源spectroscopic constraints，不能与这些旧约束无条件重复计独立证据。
+本地 `raw_file` 现存，为已读 APS/CHORUS 接受稿原件。独立原始事件、拟合文件与 SI 未核。旧寿命、分支和混合比作为本次产额拟合的外部约束。
 
 ## Scope and Reading Depth
 
@@ -66,7 +66,7 @@ PDF3/4：ATLAS两次实验、三束能304/291/317MeV；208Pb.5mg/cm²配Al/C层�
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| AY19-D20-1 | 三束能量各七角组与旧spectroscopic constraints进入GOSIA；作者报告103个E2/M1的模和符号。TableI明确只列部分E2，完整集合待Ref37；目前不能只据本表重建全部高阶矩或jointCov。 | experiment-and-published-input-scope | direct-original-and-visual | PDF3/4 experiment/analysis; PDF4 TableI caption; PDF7 Ref37 | true |
+| AY19-D20-1 | 三束能量各七角组及外源谱学输入进入 GOSIA，本文报 103 个 E2/M1 元素；Table I 列 E2 子集。Ref. [37] 的 2023 长文共用这两次采集，报告 81 个 E1/E2/E3/M1 拟合输出。两种口径均按原文保留。 | experiment-and-published-input-scope | direct-original-and-visual | PDF 3–4、7 Ref. [37]；长文 PDF 5–7 | true |
 | AY19-D20-2 | TableI ground到2₁–2₅的RME分别.526(2)、.089(3)、.061(3)、.054(4)、.023(6)eb，2₁对角−.24(2)eb、2₂对角+.26(+.02/−.05)eb。这些带号矩阵元是fit输出，不是B模或不受旧约束影响的独立实验量。 | literal-reported-matrix-elements | direct-table-and-visual | PDF4/正文3 TableI | true |
 | AY19-D20-3 | Fig3的q2在两带约.30e²b²，对应按R=1.2A^(1/3)fm电荷形状转换β≈.28；Fig4平均cos3δ约.15/.24，对应约27/25°。这是作者的有限网络/形状参数解释，不直接测mass deformation或任意态静态Qs。 | reported-invariant-and-shape-interpretation | direct-original-and-visual | PDF5 Figs3/4 and conversion paragraphs | true |
 | AY19-D20-4 | Fig5以最低0₁、2₁、2₂态的σ⟨cos3δ⟩比较三个耦合方案，作者据较接近0及方案相容称刚性三轴。图文另给harmonic≈.6、soft≈1作参考；本任务不把这些推广成所有模型/核素通用硬阈值。图没有逐点数字表，未digitize误差/重新给CI。 | author-rigidity-inference | direct-original-and-visual | PDF5 discussion leading toFig5; PDF6 Fig5 and following paragraph | true |
@@ -125,3 +125,7 @@ PDF1：CHORUSaccepted cover；2/正文1：摘要/动机与作者；3/正文2：�
 ### Checkpoint048：Ref37已定位，不把后续输入继续写成不存在
 
 实际后续为[[ayangeakaa-2023-ge76-coulomb-excitation-full]]（PRC107,044314），其正文明称follow-up并以Ref27回指本PRL。AY23-D21-R48-1至4新核作者误差更正、表列/态编号与相关性合同：81为E1/E2/E3/M1总数，与本短文103 E2/M1不同口径，不能只由两数断定参数删减或完备性。完整长表已可读；原job、联合Cov及未列高阶子块仍未取得。旧TableI的2₅相关行/2₁→4₂误差必须带版本使用，不与后续表按下标拼接。原review/flags及047撤回保持。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 3–4：两次 ATLAS 采集以 GRETINA–CHICO2 测三束能量、每能量七角区的 γ 产额，并以已知寿命、分支和混合比约束 GOSIA。作者报告 103 个 E2/M1 元素，Table I 列其中 E2 子集。Fig. 4 给平均三轴指示量，Fig. 5 给 0₁⁺、2₁⁺、2₂⁺ 的涨落判据，更高自旋依赖缺失矩阵元。长文 Table III 脚注 2 更正短文 2₁⁺→4₂⁺ 的 RME 为 −0.220 (+0.005/−0.003) eb。对短文和长文间交换标作 2₅⁺／2₆⁺ 的元素保留两版标签。

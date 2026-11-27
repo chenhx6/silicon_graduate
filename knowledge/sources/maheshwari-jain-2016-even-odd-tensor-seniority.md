@@ -3,11 +3,11 @@ type: source
 title: "Maheshwari 与 Jain 2016：Sn 异能态的奇阶电张量与广义资数"
 aliases: [Maheshwari Jain 2016 odd tensor seniority]
 created: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-27
 status: active
 review_status: unreviewed
 source_type: theory-article
-reading_depth: skimmed
+reading_depth: read
 title_original: "Odd tensor electric transitions in high-spin Sn-isomers and generalized seniority"
 authors: [Bhoomika Maheshwari, Ashok Kumar Jain]
 journal: Physics Letters B
@@ -60,3 +60,7 @@ Gemini G105 报告全文文本阅读；总控实际回读 PDF1–3（印刷122�
 - PDF1/印122：实际题名、作者、许可和 Introduction 中的单 j 标量陈述。
 - PDF2/印123：§2 Eqs.(1)–(4)，对产生算符相位与多 j 归约。
 - PDF3/印124：§3 模型比较的选定讨论；未重跑曲线拟合。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+印 123 Eqs. (2)–(4) 将带相位的多 j 配对和同资数振幅 (Ω−n)/(Ω−v) 关联。印 124 Figs. 1–2 用现有实验点给定强度归一，再比较 Sn 奇、偶阶计算；¹²⁸,¹³⁰Sn 的 10⁺ 有偏离。Fig. 2 的 E1 轴有 10⁻⁷ 乘数。半衰期对比应回到印 124 Fig. 3 的三组面板。
