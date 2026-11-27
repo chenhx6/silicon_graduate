@@ -3,7 +3,7 @@ type: source
 title: "Walter Greiner & Joachim A. Maruhn 1996 - Nuclear Models"
 aliases: [Greiner1996, Greiner Nuclear Models, 格莱纳核模型]
 created: 2026-11-01
-updated: 2026-11-06
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
@@ -97,3 +97,7 @@ tags: [triaxiality, collective-hamiltonian, triaxial-rotor, e2-branching-ratios,
 ## Extracted Pages
 
 核心章节已提取并形式化为 Wiki 概念与方法合同。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 20–24（印 1–5）低能集体形变及微观与宏观描述。PDF 27–31 主动变换以及 PDF 34–42 的不可约角动量表象与 Euler 序列按书中符号。PDF 22 Eq. (1.7) 左右 μ 的排印需按张量秩解释。

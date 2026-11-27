@@ -1,0 +1,117 @@
+{
+  "batch": "20261127-a192-evaluation-and-edited-volume-y",
+  "created_at": "2026-11-27T10:45:30.139638+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "bytes:5950a56d1e469ccb763307f7cd90bad4ca2743adc370cf6fcb2e405a24717533",
+      "source": "knowledge/sources/baglin-2012-a192-nuclear-data-sheets.md",
+      "identity": "Coral M. Baglin, Nuclear Data Sheets 113, 1871–2111 (2012), DOI 10.1016/j.nds.2012.08.001; local publisher edition.",
+      "coverage": [
+        "已在前批核 PDF 1–2、78–80、94–190。",
+        "本轮原生回执逐页核 PDF 81–93、191–241，经理分段汇总原文 PDF 3–77 并抽核关键原图。PDF 3 空白。",
+        "总范围 PDF 1–241，印刷页等于 PDF 页加 1870。"
+      ],
+      "boundary": [
+        "按页核数据表体裁和关键表位。未重算所有评价值，单行混合比的原始实验、约定及协方差另核。"
+      ],
+      "disposition": "covered",
+      "worker": "Pauli and disjoint terminal text segments with manager visual check",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_j.nds.2012.08.001.pdf",
+      "sha256": "5950a56d1e469ccb763307f7cd90bad4ca2743adc370cf6fcb2e405a24717533",
+      "physical_pages": 241
+    },
+    {
+      "id": "catalogue:LIT-000320",
+      "source": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+      "identity": "Costel Marian Petrache (ed.), Chirality and Wobbling in Atomic Nuclei, CRC Press 2025 first edition, DOI 10.1201/9781032691633.",
+      "coverage": [
+        {
+          "source_note": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+          "scope_locator": "Read actual source Scope and Reading Depth / Covered scope; no cached excerpt is a reading certificate."
+        },
+        {
+          "chapter": 2,
+          "pdf_pages": "43–80",
+          "printed_pages": "24–61",
+          "scope": "Complete published chapter 2 through its DOI-matched work record.",
+          "related_work_id": "catalogue:LIT-000412",
+          "coverage_audit": "frauendorf-2024-chapter-version-and-coverage-audit.json"
+        },
+        {
+          "chapter": 12,
+          "pdf_pages": "256–274",
+          "printed_pages": "237–255",
+          "scope": "Published chapter read through its DOI-matched work record.",
+          "related_work_id": "catalogue:LIT-000689",
+          "coverage_audit": "sheikh-tpsm-chapter12-version-and-coverage-audit.json"
+        },
+        "PDF 112–117（印 93–98）第 5 章补 6 页，与旧相邻段覆盖章正文 110–124。",
+        "PDF 167–194（印 148–175）第 8 章补 28 页，至 §8.4 Eq. (8.90)。",
+        "本卷 17 章作者与章首页逐一核对，Ch. 2、12 的已结算章级来源不重复计入。",
+        "PDF 195–202 完成章节 8 的正文；PDF 239–241、247–253 补齐第 11 章正文，合计 18 新页。",
+        "与同哈希历史读段及第 2、12 章刊版对账后 17 章已有正文覆盖记录。",
+        "核完 PDF 1–19 卷首、相关纯书目页及 PDF 338–339 索引，17 章均有同哈希已读覆盖与逐章页界。",
+        "339 物理页含 294 个带正文页；主件累计去除已计章目录条目的 57 页，计入 282 个物理页。"
+      ],
+      "boundary": [
+        "未逐项复算模型、逐字校对引文题录或独立复核实验事件。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble and already verified chapter receipts",
+      "source_pdf": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+      "sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+      "physical_pages": 339
+    },
+    {
+      "id": "catalogue:LIT-000308",
+      "source": "knowledge/sources/book-greiner-nuclear-models.md",
+      "identity": "Walter Greiner and Joachim A. Maruhn, Nuclear Models, Springer-Verlag Berlin Heidelberg 1996 English scan, 399 physical pages.",
+      "coverage": [
+        "PDF 1–19 书前，25 为章间空白；正文 PDF 20–24、26–42（22 页）逐页 OCR 与原图核。"
+      ],
+      "boundary": [
+        "最小对称模型的趋近条件与真实实验值分开。"
+      ],
+      "disposition": "partial",
+      "worker": "Hubble",
+      "source_pdf": "raw/books/Nuclear Models (Walter Greiner, Joachim A. Maruhn) (Z-Library).pdf",
+      "sha256": "db5e43efaa80877822540bf0caae9be93d54d5499c5df89faae69769e6f77091",
+      "physical_pages": 399
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 774,
+    "duplicate-or-related-version": 29,
+    "duplicate-excerpt-linked-to-canonical": 13,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "supplement-linked-to-canonical": 9,
+    "out-of-scope-particle-production": 3,
+    "archived-publisher-scan-missing-printed-page": 2,
+    "read-core-evidence-checked": 1,
+    "publisher-first-page-extract-fulltext-unavailable": 8,
+    "evaluated-data-extract-covered": 7,
+    "out-of-scope-atomic-spectroscopy": 4,
+    "editorial-front-matter": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "access-placeholder-fulltext-unavailable": 2,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "existing-source-coverage-to-audit": 22,
+    "conference-abstract-covered": 3,
+    "supplement-with-main-text-gap": 1,
+    "commentary-complete-shared-pages": 1,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 22,
+  "credited_works": 2,
+  "credited_primary_pages": 522,
+  "partial_volume_pages": 22,
+  "next_action": "Continue remaining local books",
+  "uncredited": [],
+  "related_materials": []
+}

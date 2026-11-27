@@ -792,6 +792,7 @@ u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶
 - [[enders-1999-scissors-mode-saturation]] — 剪刀模低位 M1 强度、惯量与和规则的系统比较。
 
 
+
 - [[baglin-2012-a192-nuclear-data-sheets]] — Nuclear Data Sheets for A = 192。
 - [[wisniewski-2018-mo98-fipps-gamma-collectivity]] — Evolution of γ Collectivity — (n, γ) Spectroscopy of ⁹⁸Mo with FIPPS。
 - [[cowan-2011-asymptotic-likelihood-formulae]] — Asymptotic formulae for likelihood-based tests of new physics。

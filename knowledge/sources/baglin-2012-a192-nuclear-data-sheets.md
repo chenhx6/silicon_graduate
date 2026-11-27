@@ -8,7 +8,7 @@ updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: evaluated-nuclear-data
-reading_depth: skimmed
+reading_depth: read
 year: 2012
 authors: [C. M. Baglin]
 doi: "10.1016/j.nds.2012.08.001"
@@ -28,7 +28,7 @@ C. M. Baglin, Nuclear Data Sheets **113**, 1871–2111 (2012). Local 241-page jo
 
 ## Scope and Reading Depth
 
-当前累计原件覆盖 PDF 1–2、78–80、94–190，共 102/241 页。印刷页等于物理 PDF 页加 1870。余下范围保持队列续读。
+本地刊版 PDF 1–241 已按原页和数据子集读完。PDF 3 为空白，印刷页编号为 PDF 页加 1870。
 
 ## Summary
 
@@ -47,4 +47,8 @@ A=192 质量链的刊版评价汇集不同反应、衰变、当时推荐值及�
 
 ## Extracted Pages
 
-PDF 1–2、78–80、94–190。续接页 PDF 191；仍有较早空档。
+PDF 1–241，表列数值与被引实验仍按各自来源复核。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 4–5 质量链总图及基态/异能态表。PDF 7–8 核 ¹⁹²Ta→¹⁹²W 的衰变表与 219 keV 支路。PDF 29–30 的 ¹⁹²Ir ε 衰变在 ¹⁹²Os 出现 283.2668、329.09 keV 等，须与 PDF 42 库仑激发的 329.3 keV 评价行分开。PDF 58 列 ¹⁹²Ir 241 y IT 的 155.16 keV。后部 ¹⁹²Tl、¹⁹²Pb、¹⁹²Bi 子数据集、采用条目及卷末参考按实际归属接续。

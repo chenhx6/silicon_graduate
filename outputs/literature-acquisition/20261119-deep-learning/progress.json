@@ -27,7 +27,7 @@
   "work_groups_with_source_associations": 583,
   "new_full_theses_in_acquisition_campaign": 41,
   "closed_fulltext_gaps": 7,
-  "active_source": "catalogue:LIT-000303",
+  "active_source": "catalogue:LIT-000308",
   "active_units": [],
   "accepted_units": [
     "SPEC-A00-MADIBA-2008",
@@ -677,7 +677,7 @@
     "LOCAL-ROTATION-AND-DEFORMATION-SOURCES",
     "LOCAL-THEORY-AND-SPECTROSCOPY-245"
   ],
-  "completed_full_sources_this_run": 790,
+  "completed_full_sources_this_run": 792,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -685,26 +685,26 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-27T10:20:28.032698+00:00",
+  "updated_at": "2026-11-27T10:45:32.671816+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 27614,
-  "current_source_note": "knowledge/sources/book-bohr-mottelson-nuclear-structure.md",
-  "next_action": "Continue archived long-form sources and the last local spectroscopy gaps.",
+  "completed_primary_pages_this_run": 28136,
+  "current_source_note": "knowledge/sources/book-greiner-nuclear-models.md",
+  "next_action": "Continue remaining local books",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "5 works credited 392 pages; one seven-page scan with one printed page absent.",
+  "last_source_manager_closure": "2 works credited 522 pages; 22 separately credited Greiner pages.",
   "current_source_scientific_acceptance": "Vol. II complete; continue the open queue, including archival PDFs needing original tables or scans.",
   "source_scoped_retrieval": "Existing local originals; publisher and author versions recorded separately.",
   "counting_scope": {
-    "scientific_reading_covered": 772,
+    "scientific_reading_covered": 774,
     "bounded_or_core_only_completed": 18,
-    "credited_pages_explicit_in_queue": 17156,
+    "credited_pages_explicit_in_queue": 17678,
     "pages_carried_forward_from_previous_checkpoints": 10458,
     "increment_this_checkpoint": {
-      "works": 5,
-      "pages": 392,
-      "partial_volume_pages_recorded_separately": 0,
-      "associated_rows": 1
+      "works": 2,
+      "pages": 522,
+      "partial_volume_pages_recorded_separately": 22,
+      "associated_rows": 0
     }
   },
   "previous_pause": {
@@ -725,5 +725,5 @@
     "resume_printed_page": 259,
     "background_reading_scheduled": false
   },
-  "latest_batch_audit": "20261127-manual-and-spectroscopy-table-closure-x-audit.json"
+  "latest_batch_audit": "20261127-a192-evaluation-and-edited-volume-y-audit.json"
 }

@@ -7534,3 +7534,7 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 ## 2026-11-27 — 馆藏续读第 24 批
 
 - 核定 5 份、392 个主件页，另登记 Rikovska 缺末页的本地版本。队列剩 24 条。
+
+## 2026-11-27 — 馆藏续读第 25 批
+
+- 核定 A=192 评价与 Petrache 编著，以及 Greiner 的 22 个新正文页。队列剩 22 本书。

@@ -69,6 +69,8 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 本批核定 5 份、392 个主件 PDF 页，含 GOSIA 手册的原图、卷末空白页和流程例图闭合。¹⁶⁰Tb、⁵⁶Fe、¹⁹⁷,¹⁹⁸Pb 与 ¹²⁹Ba 的补读保留各原表的异文。Rikovska 本地印 355–361 已读，印 362 尚无馆藏原件，按有界载体登记。累计 790 份、27,614 页，正式队列剩 24 条。稳定指针为 `research/archive-learning-20261127` + `research: close original spectroscopy tables and the GOSIA manual`。见[原件及范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-manual-and-spectroscopy-table-closure-x-audit.json)。
 
+本批闭合 Baglin A=192 的 PDF 1–241 和 Petrache 编著的 PDF 1–339。A=192 扣一张空白计 240 页；编著扣先前已计的两章 57 页，登记 282 个新增载体页。另核 Greiner 正文 22 页，从 PDF 43（印 24）接续。累计 792 份、28,136 个主件 PDF 页，正式队列剩 22 本书。稳定指针为 `research/archive-learning-20261127` + `research: finish the A192 evaluation and the edited chirality volume`。见[原件及范围](../outputs/literature-acquisition/20261119-deep-learning/20261127-a192-evaluation-and-edited-volume-y-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

@@ -7,7 +7,7 @@ updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: skimmed
+reading_depth: read
 title_original: "Chirality and Wobbling in Atomic Nuclei"
 authors: ["Costel Marian Petrache (editor)"]
 publisher: "CRC Press / Taylor & Francis Group"
@@ -144,3 +144,7 @@ Guo–Lv 第 5 章 PDF 114、116、117 的 ¹³⁶Nd、¹⁰³Rh、¹³¹Ba 图�
 ## 2026-11-27 — 馆藏原件与覆盖核对
 
 第 8 章 PDF 197 比较三个 ¹³⁵Pr 带面板，PDF 201 的实验电磁比复用 Matta 与相关既有观测。第 11 章 PDF 250 Fig. 11.7 的 ¹²⁸Cs g 实测点沿 Grodner，同图其余计算与第 11.8 NME 的数据关系分别登记。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+逐章的证据强度由历史文本、定向原图和两条章节刊版审计构成。第 4 章 PDF 108–109（印 89–90）给早期计算的符号与表述勘误；保持错式和作者修订的版本关系。各章数据、模型、引文不重复当独立实验。
