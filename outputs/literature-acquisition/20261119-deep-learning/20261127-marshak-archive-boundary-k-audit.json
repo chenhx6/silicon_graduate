@@ -1,0 +1,44 @@
+{
+  "batch": "20261127-marshak-archive-boundary-k",
+  "queue_pending": 270,
+  "queue_counts": {
+    "scientific-reading-covered": 557,
+    "duplicate-or-related-version": 23,
+    "duplicate-excerpt-linked-to-canonical": 13,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "pending-identity-and-coverage": 101,
+    "supplement-linked-to-canonical": 6,
+    "existing-source-coverage-to-audit": 169,
+    "archived-publisher-scan-missing-printed-page": 1,
+    "read-core-evidence-checked": 1,
+    "out-of-scope-atomic-spectroscopy": 4,
+    "editorial-front-matter": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "publisher-first-page-extract-fulltext-unavailable": 3,
+    "access-placeholder-fulltext-unavailable": 1,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "records": [
+    {
+      "source": "knowledge/sources/marshak-1985-er166-nuclear-orientation-mixing-ratios.md",
+      "work_id": "bytes:8a6ca04786b4f1d2efb95be9804289d27cc2153aceb6c09b5ad5903f9b99ea66",
+      "locator": "本地刊版扫描 PDF 1–9（印 413–421），现有页均核读。",
+      "boundary": "刊头范围止于印 422。现有馆藏只到印 421（含末段及参考）；缺页性质未确认。",
+      "artifact": {
+        "path": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1007_bf02064013.pdf",
+        "sha256": "8a6ca04786b4f1d2efb95be9804289d27cc2153aceb6c09b5ad5903f9b99ea66",
+        "size": 308480,
+        "hash_basis": "fresh-hash",
+        "source_role": "publisher-scan-with-missing-printed-page"
+      },
+      "physical_pages_read": 9,
+      "credited_primary_pages": 0
+    }
+  ]
+}

@@ -39,6 +39,8 @@ canonical方法为 [[evidence-driven-research-cycle]]；验收见 [采用目录]
 
 本批核定 13 份、329 个主件 PDF 页，包括 Ruhter 学位论文、Krane–Steffen 的 ¹³²Xe 报告及偏振研究。⁹¹Ru 的 2020、2025 两文复用同一实验谱系，889.8 keV 原始 DCO 与后版归一值分别保留。累计 563 份、21,919 个主件 PDF 页，正式队列待处理 283 条。第二卷另核 PDF 546–605（印 524–583），续读 PDF 606（印 584）式 (6-481)–(6-482)。稳定指针为 `research/archive-learning-20261127` + `research: verify polarimetry, decay studies and Bohr-Mottelson reading`。见[原件及覆盖](../outputs/literature-acquisition/20261119-deep-learning/20261127-polarimetry-and-quadrupole-j-audit.json)。
 
+本批核定 12 份、174 个主件 PDF 页，另核 Marshak ¹⁶⁶Er 的本地 9 页扫描，登记印刷末页 422 的缺口。Bender 1999 来源页按 Table I 和 §§V–VI 更正模型清单和球形闭壳适用范围。累计 575 份、22,093 个主件 PDF 页，正式队列待处理 270 条。第二卷另核 PDF 606–625（印 584–603），从 PDF 626（印 604）续读。稳定指针为 `research/archive-learning-20261127` + `research: verify angular spectroscopy and correct source evidence`。见[原件与读段](../outputs/literature-acquisition/20261119-deep-learning/20261127-angular-methods-and-source-corrections-k-audit.json)和[缺页边界](../outputs/literature-acquisition/20261119-deep-learning/20261127-marshak-archive-boundary-k-audit.json)。
+
 ## 2026-11-22 — Ra 同位素的矩阵元约束
 
 - [[butler-2020-222-228ra-octupole-evolution]] 核定 6 页刊版，并沿用已读补充范围。补记 \(2^+\) 强布居引起的 E2 耦合与两核相对 \(Q_1,Q_3\) 符号选择。

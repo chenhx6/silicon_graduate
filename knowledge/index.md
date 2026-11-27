@@ -2297,3 +2297,13 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[basak-2026-sm152-excited-x5-bands]] — ¹⁵²Sm 的偏振约束与 X(5) 高激发比较。
 - [[krane-steffen-1971-xe132-mixing-ratios-report]] — ¹³²Xe 报告版的带条件混合比。
 - [[ruhter-1977-cd110-ba134-mixing-ratios-thesis]] — ¹¹⁰Cd、¹³⁴Ba 的 γ–γ 混合比与在线采集。
+- [[sohler-2005-sb106-maximal-alignment]] — ¹⁰⁶Sb 的粒子门、R_ang 与线偏振。
+- [[stuchbery-1998-gd155-coulex-octupole]] — ¹⁵⁵Gd 取向拟合、混合比分支与瞬态场。
+- [[harris-hyder-1967-p30-second-t1-state]] — ³⁰P 的多种自旋候选及偏振条件。
+- [[singh-1971-cd110-cascade-mixing-ratio-phase]] — ¹¹⁰Cd 同支线在不同级联位置的混合比相位。
+- [[huang-2021-mo92-angular-distribution-two-solutions]] — ⁹²Mo 244 keV 的取向标定和角分布双根。
+- [[paul-1998-xe117-high-fold-spectroscopy]] — ¹¹⁷Xe 高符合阶、DCO 几何与线偏振。
+- [[chi-2023-polarized-nrf-simulation]] — 极化 NRF 的调制模拟及计数边界。
+- [[speidel-1994-br79-moments-and-lifetimes]] — ⁷⁹Br 的角关联、瞬态场和寿命。
+- [[lampard-1992-w183-particle-rotation-coupling]] — ¹⁸³W 的混合比、g 因子和科里奥利比较。
+- [[marshak-1985-er166-nuclear-orientation-mixing-ratios]] — ¹⁶⁶Er 取向拟合的非中心 F 区间，馆藏缺印 422。

@@ -677,7 +677,7 @@
     "LOCAL-ROTATION-AND-DEFORMATION-SOURCES",
     "LOCAL-THEORY-AND-SPECTROSCOPY-245"
   ],
-  "completed_full_sources_this_run": 563,
+  "completed_full_sources_this_run": 575,
   "PDM_run": false,
   "new_search_or_download": true,
   "queue_entries_including_closed_gaps": 1003,
@@ -685,25 +685,26 @@
   "completed_tasks": [
     "Corpus file registration and provisional grouping; not full identity/coverage closure"
   ],
-  "updated_at": "2026-11-27T04:46:48.143089+00:00",
+  "updated_at": "2026-11-27T05:00:43.322409+00:00",
   "completed_deep_read_sources_this_run": 0,
-  "completed_primary_pages_this_run": 21919,
+  "completed_primary_pages_this_run": 22093,
   "current_source_note": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
-  "next_action": "Continue Bohr–Mottelson II PDF 606 (printed 584), Eqs. (6-481)–(6-482).",
+  "next_action": "Continue Bohr–Mottelson II PDF 626 (printed 604) and verify the next local reports.",
   "runtime_background_jobs_running": true,
   "all_corpus_learning_complete": false,
-  "last_source_manager_closure": "13 works, 329 primary PDF pages, and 60 bounded book pages verified.",
-  "current_source_scientific_acceptance": "Bohr–Mottelson II through PDF 605 (printed 583); no completed-volume credit.",
+  "last_source_manager_closure": "12 works, 174 primary PDF pages, 20 bounded book pages and one incomplete scan verified.",
+  "current_source_scientific_acceptance": "Bohr–Mottelson II through PDF 625 (printed 603); no completed-volume credit.",
   "source_scoped_retrieval": "Existing local originals; publisher and author versions recorded separately.",
   "counting_scope": {
-    "scientific_reading_covered": 545,
+    "scientific_reading_covered": 557,
     "bounded_or_core_only_completed": 18,
-    "credited_pages_explicit_in_queue": 11461,
+    "credited_pages_explicit_in_queue": 11635,
     "pages_carried_forward_from_previous_checkpoints": 10458,
     "increment_this_checkpoint": {
-      "works": 13,
-      "pages": 329,
-      "partial_volume_pages_recorded_separately": 60
+      "works": 12,
+      "pages": 174,
+      "partial_volume_pages_recorded_separately": 20,
+      "bounded_extracts": 1
     }
   },
   "previous_pause": {
@@ -724,5 +725,5 @@
     "resume_printed_page": 259,
     "background_reading_scheduled": false
   },
-  "latest_batch_audit": "20261127-polarimetry-and-quadrupole-j-audit.json"
+  "latest_batch_audit": "20261127-marshak-archive-boundary-k-audit.json"
 }

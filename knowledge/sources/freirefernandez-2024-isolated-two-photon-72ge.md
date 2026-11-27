@@ -3,7 +3,7 @@ type: source
 title: "Freire-Fernández et al. 2024 - Measurement of the Isolated Nuclear Two-Photon Decay in 72Ge"
 aliases: [Freire-Fernández 2024 isolated 2γ decay, 72Ge Schottky two-photon decay]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -125,3 +125,7 @@ The shorter half-life could reflect enhanced E1 polarizability, M1 susceptibilit
 
 - L3 question: can storage-ring total 2γ rates plus γ angular-correlation or shell-model constraints separate `αE1`, `χM1` and `αE2` contributions across low-lying `0+` states? Discriminants are angular distributions, shell-model spaces and independent lifetime/branching data.
 - No L4 run: raw Schottky time traces, SI/code and complete matrix-element inputs are not yet available locally.
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 2–5 的裸离子 Schottky 谱给衰减时序和激发能。SD410 加权 23.9(6) ms、692.8(19) keV；SD245 的对照为 22.7(11) ms、695.0(32) keV。Eq. (1) 换得组合矩 70(2)×10⁻³ fm³，E1 占优由作者的独立模型估算支持。

@@ -3,7 +3,7 @@ type: source
 title: "Herzáň et al. 2015 - Detailed spectroscopy of 193Bi"
 aliases: [Herzan 2015 193Bi spectroscopy]
 created: 2026-09-21
-updated: 2026-10-25
+updated: 2026-11-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -143,3 +143,7 @@ N193-8记录compiler摘要From604.7γ(t)/2004Ni06及flight/intensity说明；这
 | HE15-D23-1 | 本文polarimetry以75.5°或104.5°同clover两晶体addback和all-detector single-crystal hit构造两矩阵；a由无偏振152Eu给出，Q用stretched M1/E2的计算P及A=QP确定。该选择对象不同于本p.2单独定义的157.6°/75.5°Rexp，也不同于Zheng2013在90°且只用pureE2的Q校准。本文Fig4给p0=.42(.04)、p1=−1.9(.7)×10−4/keV；未提供参考点完整数表/共同参数Cov，不能仅据图构造Lv目标实验的完整响应likelihood。 | calibration-selection-and-transfer-boundary | direct-original-and-cross-source-boundary | PDF p.2, IPDCO matrix construction; PDF p.7, sensitivity paragraph; PDF p.10, Fig.4 | true |
 
 Knowledge Impact and Learning Decision：limits按阵列名或a≈1迁移完整response；本曲线被[[lv-2022-evidence-against-wobbling-135pr]] L22-17采用的谱系保留，而target自身的a来自其SI。两曲线共同误差与迁移条件见[[signature-tip-shears-discrimination-contract]]，新增均为Codex self-audit而非人审。
+
+## 2026-11-27 — 馆藏原件与覆盖核对
+
+PDF 7 Table I Group F 写 352.3 keV 的 1610-keV 上态为 (13/2⁻)，PDF 9 Fig. 2 续图给 15/2⁻。PDF 11–14 两个异能态半衰期为 3.02(8) 与 85(3) μs，后者的 29/2⁺ 随 Band 1 指派。PDF 14–15 Table II 的 SD 带头仍为 X，1836(5) keV 候选连接需更高统计。

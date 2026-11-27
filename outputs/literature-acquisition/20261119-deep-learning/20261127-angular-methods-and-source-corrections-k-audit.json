@@ -1,0 +1,243 @@
+{
+  "batch": "20261127-angular-methods-and-source-corrections-k",
+  "created_at": "2026-11-27T05:00:43.322409+00:00",
+  "worker_mode": "same model and reasoning effort inherited",
+  "verified_items": [
+    {
+      "id": "bytes:c701c5df8fbcb8ad3f53678f9f5ab2f2e316849d1f4aebafca592d1999c767de",
+      "source": "knowledge/sources/sohler-2005-sb106-maximal-alignment.md",
+      "identity": "Nuclear Physics A 753, 251–262, version of record.",
+      "coverage": [
+        "PDF 1–12（印 251–262），粒子门、角关联和偏振、能级与组态模型、引用。"
+      ],
+      "boundary": [
+        "低位异能态承用 Ref. 21。带的最大对齐组态属于壳模型解释。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_j.nuclphysa.2005.02.153.pdf",
+      "sha256": "c701c5df8fbcb8ad3f53678f9f5ab2f2e316849d1f4aebafca592d1999c767de",
+      "physical_pages": 12
+    },
+    {
+      "id": "bytes:caba510d38c584d5d7b5c3e8ea5de1927da2dcbf3acbc8d684547b5790dc1eae",
+      "source": "knowledge/sources/stuchbery-1998-gd155-coulex-octupole.md",
+      "identity": "Nuclear Physics A 642, 361–386, publisher scan.",
+      "coverage": [
+        "PDF 1–26（印 361–386），角分布拟合、寿命／瞬态场、谱表与模型。"
+      ],
+      "boundary": [
+        "15/2⁻ 的 Table 7 采用 −0.26(4)，与 Ref. 5 合并。八极解释未获直接 B(E3)，保留临近库仑势垒的核干涉。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_S0375-9474_98_00540-5.pdf",
+      "sha256": "caba510d38c584d5d7b5c3e8ea5de1927da2dcbf3acbc8d684547b5790dc1eae",
+      "physical_pages": 26
+    },
+    {
+      "id": "bytes:d17075d6b7516ee42bf65ee3f1080d7df7669e3ccf6ff4ff59db0bf1085dbfe9",
+      "source": "knowledge/sources/harris-hyder-1967-p30-second-t1-state.md",
+      "identity": "Physics Letters B 25, 210–212, publisher version.",
+      "coverage": [
+        "PDF 1–3（印 210–212），正文、两图、表及引文。"
+      ],
+      "boundary": [
+        "作者用 ³⁰Si 的激发能近简并支持 T=1。1.45 MeV 的 δ=0.25(3) 属另一条级联。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0370-2693_67_90040-8.pdf",
+      "sha256": "d17075d6b7516ee42bf65ee3f1080d7df7669e3ccf6ff4ff59db0bf1085dbfe9",
+      "physical_pages": 3
+    },
+    {
+      "id": "bytes:d1d0789355b595175409a52167dd6b71f140cc510fe7df1d73b34294c97905b8",
+      "source": "knowledge/sources/singh-1971-cd110-cascade-mixing-ratio-phase.md",
+      "identity": "Phys. Rev. C 4, 1510–1513, publisher scan.",
+      "coverage": [
+        "本件 PDF 1 下部与 PDF 2–4（印 1510–1513），前作尾段不计科学覆盖。"
+      ],
+      "boundary": [
+        "两组幅值在误差内相容。作者的绝对号须随发射矩阵元和 Biedenharn–Rose 定义引用。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/PhysRevC.4.1510.pdf",
+      "sha256": "d1d0789355b595175409a52167dd6b71f140cc510fe7df1d73b34294c97905b8",
+      "physical_pages": 4
+    },
+    {
+      "id": "bytes:daabf48e55bd97bc0ef54ace957cdcc512e36450fcab511e4dd1d3ef7a1cf40a",
+      "source": "knowledge/sources/huang-2021-mo92-angular-distribution-two-solutions.md",
+      "identity": "Eur. Phys. J. A 57, 137, Springer version of record.",
+      "coverage": [
+        "PDF 1–8，实验、角分布、取向拟合、双根、理论对照和引文。"
+      ],
+      "boundary": [
+        "原 Eq. (11) 的 δ=0 是纯 E1。选小根另用既有证据和壳模型，扩空间的半衰期仍明显偏短。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1140_epja_s10050-021-00443-6.pdf",
+      "sha256": "daabf48e55bd97bc0ef54ace957cdcc512e36450fcab511e4dd1d3ef7a1cf40a",
+      "physical_pages": 8
+    },
+    {
+      "id": "bytes:db6359060104cd18de6e4e0664400b3fc49473d5ab5520230048cfd2846e65e7",
+      "source": "knowledge/sources/paul-1998-xe117-high-fold-spectroscopy.md",
+      "identity": "Nucl. Phys. A 644, 3–28, publisher scan.",
+      "coverage": [
+        "PDF 1–26（印 3–28），高符合阶谱、DCO、偏振及弱线、带终止计算、引文。"
+      ],
+      "boundary": [
+        "所列竞争支线强度比与单线混合振幅各有含义，推算绝对值依 Q₀=390 e fm²。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_S0375-9474_98_00587-9.pdf",
+      "sha256": "db6359060104cd18de6e4e0664400b3fc49473d5ab5520230048cfd2846e65e7",
+      "physical_pages": 26
+    },
+    {
+      "id": "bytes:dda66b9e59fb07d0d360ae1eac1fe91fc143a958f742a96d444be971c56285cb",
+      "source": "knowledge/sources/chi-2023-polarized-nrf-simulation.md",
+      "identity": "Nucl. Instrum. Methods A 1056, 168666, publisher version.",
+      "coverage": [
+        "PDF 1–10，角响应模拟、对照例、入射束偏振推定及引文。"
+      ],
+      "boundary": [
+        "材料属响应模拟。缺混合比时按宽度估计，已有实测来自所引文献。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_j.nima.2023.168666.pdf",
+      "sha256": "dda66b9e59fb07d0d360ae1eac1fe91fc143a958f742a96d444be971c56285cb",
+      "physical_pages": 10
+    },
+    {
+      "id": "bytes:e05f2634a38cfac536809b83216a0f9684fa08538fccb2323ae4a1015260ad77",
+      "source": "knowledge/sources/speidel-1994-br79-moments-and-lifetimes.md",
+      "identity": "Nucl. Phys. A 578, 300–316, publisher scan.",
+      "coverage": [
+        "PDF 1–17（印 300–316），库仑激发、寿命、磁矩、混合比和模型、参考。"
+      ],
+      "boundary": [
+        "⁸¹Br 的 Jakob 1996 把本件 ⁷⁹Br 结果作对照，按本次原始测量一次使用。"
+      ],
+      "disposition": "covered",
+      "worker": "Descartes and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_94_90981-4.pdf",
+      "sha256": "e05f2634a38cfac536809b83216a0f9684fa08538fccb2323ae4a1015260ad77",
+      "physical_pages": 17
+    },
+    {
+      "id": "catalogue:LIT-000293",
+      "source": "knowledge/sources/bender-1999-superheavy-magic-numbers.md",
+      "identity": "Phys. Rev. C 60, 034304 (1999), APS version of record.",
+      "coverage": [
+        "PDF 1–20，球形能谱、模型组比较、附录及引用。"
+      ],
+      "boundary": [
+        "球形模型预测随自旋轨道与密度反馈改变。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble and manager",
+      "source_pdf": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.60.034304.pdf",
+      "sha256": "f345e34d1e3e6c99012b0abc16d0dda87744ba47d480fab0c6b2897bd1ad6d3f",
+      "physical_pages": 20
+    },
+    {
+      "id": "catalogue:LIT-000414",
+      "source": "knowledge/sources/freirefernandez-2024-isolated-two-photon-72ge.md",
+      "identity": "PRL 133, 022502 (2024), APS version of record.",
+      "coverage": [
+        "同哈希 PDF 1–7 原覆盖，本轮复核衰变条件、谱、Tables I–II、矩与参考。"
+      ],
+      "boundary": [
+        "两腔体按同两采集设置报告。E1/M1 分量不能从单一寿命拆分。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble and manager",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2024_Freire-Fernandez et al_Measurement of the Isolated Nuclear Two-Photon Decay in 72 Ge.pdf",
+      "sha256": "3e35af6920c1c22c654fead0e1b9e36fa38ba2a2e39672f02011e65a62ad7dc7",
+      "physical_pages": 7
+    },
+    {
+      "id": "catalogue:LIT-000466",
+      "source": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "identity": "Phys. Rev. C 92, 044310 (2015), APS version of record.",
+      "coverage": [
+        "同哈希 PDF 1–20 原覆盖，本轮定向复核 1–2、4、6–9、11–15、19–20。"
+      ],
+      "boundary": [
+        "352 keV 上态在表和续图的自旋有冲突，SD 带未闭合到绝对能级。"
+      ],
+      "disposition": "covered",
+      "worker": "Hubble and manager",
+      "source_pdf": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2015_Herzáň et al_Detailed spectroscopy of Bi 193.pdf",
+      "sha256": "f727485ad0f52269a66b27272dac75d34d9e67aaf8b073631cfeac5fe81d3aea",
+      "physical_pages": 20
+    },
+    {
+      "id": "bytes:15472b2e4f7cc454770bf76a0c91aa71cae80d61c370d160cf95a909299f2020",
+      "source": "knowledge/sources/lampard-1992-w183-particle-rotation-coupling.md",
+      "identity": "G. J. Lampard, A. E. Stuchbery and H. H. Bolotin, Nuclear Physics A 536, 397–417 (1992), publisher version.",
+      "coverage": [
+        "PDF 1–21（印 397–417），正文、主表、计算比较、附录与引文。"
+      ],
+      "boundary": [
+        "Coriolis 强度及电磁算符相互依赖。瞬态场磁矩使用 ¹⁸⁴W 对照及作用时间修正。"
+      ],
+      "disposition": "covered",
+      "worker": "Pauli and manager",
+      "source_pdf": "raw/papers/gpt/query/20261119-polarization-delta-collection/10.1016_0375-9474_92_90390-6.pdf",
+      "sha256": "15472b2e4f7cc454770bf76a0c91aa71cae80d61c370d160cf95a909299f2020",
+      "physical_pages": 21
+    },
+    {
+      "id": "catalogue:LIT-000302",
+      "source": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "identity": "Bohr and Mottelson, Nuclear Structure II, 1975 original, local World Scientific 1998 reissue, 772 physical pages.",
+      "coverage": [
+        "PDF 606–625 (printed 584–603), separable potentials and shell effects."
+      ],
+      "boundary": [
+        "闭壳计数、壳内展宽和壳能谷随模型、简并和所取平滑项。"
+      ],
+      "disposition": "partial",
+      "worker": "Pascal and manager",
+      "source_pdf": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "physical_pages": 772
+    }
+  ],
+  "queue_counts": {
+    "scientific-reading-covered": 557,
+    "duplicate-or-related-version": 23,
+    "duplicate-excerpt-linked-to-canonical": 13,
+    "completed-source-reading-with-bounded-knowledge": 14,
+    "pending-identity-and-coverage": 102,
+    "supplement-linked-to-canonical": 6,
+    "existing-source-coverage-to-audit": 169,
+    "read-core-evidence-checked": 1,
+    "out-of-scope-atomic-spectroscopy": 4,
+    "editorial-front-matter": 1,
+    "duplicate-copy-linked-to-canonical": 4,
+    "publisher-first-page-extract-fulltext-unavailable": 3,
+    "access-placeholder-fulltext-unavailable": 1,
+    "access-placeholder-linked-to-archived-html": 1,
+    "erratum-linked-to-bibliographic-parent": 1,
+    "figure-asset-linked-to-canonical": 91,
+    "table-of-contents-only-fulltext-unavailable": 1,
+    "abstract-only-fulltext-unavailable-closed-by-user": 1,
+    "read-with-explicit-boundaries": 3,
+    "unavailable-closed-by-user": 7
+  },
+  "queue_pending": 271,
+  "credited_works": 12,
+  "credited_primary_pages": 174,
+  "partial_volume_pages": 20,
+  "next_action": "Continue Bohr–Mottelson II PDF 626 (printed 604) and verify the next local reports.",
+  "uncredited": []
+}
