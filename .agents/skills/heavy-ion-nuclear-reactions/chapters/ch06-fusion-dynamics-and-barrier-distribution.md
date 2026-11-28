@@ -8,9 +8,9 @@
 ## 1. 核心理论推导与熔合穿透模型
 
 ### 1.1 经典锐截止模型 (Sharp Cutoff Model)
-假定凡是轨道角动量小于临界角动量 $\ell_n_{\text{crit}}$ 的分波全部发生熔合，而 $l > \ell_n_{\text{crit}}$ 的分波完全不熔合：
-$$\sigma_{\text{fus}} = \frac{\pi}{k^2} \sum_{l=0}^{\ell_n_{\text{crit}}} (2l+1) = \frac{\pi}{k^2} (\ell_n_{\text{crit}} + 1)^2 \approx \frac{\pi}{k^2} \ell_n_{\text{crit}}^2.$$
-由掠碰能量守恒条件 $E_{\text{c.m.}} = V_B + \frac{\hbar^2 \ell_n_{\text{crit}}^2}{2 \mu R_B^2}$，导出经典熔合截面解析式：
+假定凡是轨道角动量小于临界角动量 $\ell_{\text{crit}}$ 的分波全部发生熔合，而 $l > \ell_{\text{crit}}$ 的分波完全不熔合：
+$$\sigma_{\text{fus}} = \frac{\pi}{k^2} \sum_{l=0}^{\ell_{\text{crit}}} (2l+1) = \frac{\pi}{k^2} (\ell_{\text{crit}} + 1)^2 \approx \frac{\pi}{k^2} \ell_{\text{crit}}^2.$$
+由掠碰能量守恒条件 $E_{\text{c.m.}} = V_B + \frac{\hbar^2 \ell_{\text{crit}}^2}{2 \mu R_B^2}$，导出经典熔合截面解析式：
 $$\sigma_{\text{fus}}(E_{\text{c.m.}}) = \pi R_B^2 \left( 1 - \frac{V_B}{E_{\text{c.m.}}} \right).$$
 该公式预言：截面随 $1/E_{\text{c.m.}}$ 呈线性关系；当 $E_{\text{c.m.}} \le V_B$ 时截面严格为零。
 

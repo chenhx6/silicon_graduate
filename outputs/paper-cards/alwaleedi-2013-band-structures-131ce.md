@@ -97,7 +97,7 @@
 |---|---|---|---|---|
 | Table 5.1 Band 2 宇称与正文不一致 | 表格 typo 或 band mapping error | 会污染 crossing 的 parity 分类 | 回看原表、正文与早期 source | Table 5.1 vs Chapter 4 |
 | `δ=0` 固定 | mixed M1/E2 会移动 ratio | 影响 configuration comparison | angular correlation + polarization 测 δ | Eqs. 5.6–5.7 |
-| Figure 5.5 输入不可复算 | 35 对全局强度 proxy 中有 10 对在 `|δ|≤0.5` 后仍超出图示包络；最大值 23.30/34.79 | ratio agreement 不能作为独立可复现证据 | 发布 gated spectra/intensities 或以原始矩阵重提分支 | Tables 4.1–4.7 vs Section 5.3/Figure 5.5; [L4 report](../l4/131ce-thesis-baseline/report.md) |
+| Figure 5.5 输入不可复算 | 35 对全局强度 proxy 中有 10 对在 `\|δ\|≤0.5` 后仍超出图示包络；最大值 23.30/34.79 | ratio agreement 不能作为独立可复现证据 | 发布 gated spectra/intensities 或以原始矩阵重提分支 | Tables 4.1–4.7 vs Section 5.3/Figure 5.5; [L4 report](../l4/131ce-thesis-baseline/report.md) |
 | 形变由单一模型背景给出 | γ-soft core 或组态混合也可产生相似谱 | 决定 collective-mode 命名 | lifetime/Q_t、E2 branching、系统模型比较 | Chapter 5 |
 | 近邻系统学可能被过度迁移 | `133Ce` chirality 不自动适用于 `131Ce` | 防止按核区标签倒灌结论 | 逐带 identity 与 observable matrix | external Wiki sources |
 

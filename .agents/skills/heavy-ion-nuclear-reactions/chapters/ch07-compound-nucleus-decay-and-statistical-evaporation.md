@@ -32,7 +32,7 @@ $$\rho(U, J) = \frac{2J + 1}{24 \sqrt{2} \sigma^3 a^{1/4} U^{5/4}} \exp\left( 2\
 ### 2.2 Ignatyuk 壳效应能量阻尼模型
 真实的单粒子能级存在壳层修正能 $\delta W$（幻数闭壳处结合能额外增加数 $\text{MeV}$）。随着激发能上升，单粒子态热展宽逐渐抹平壳缝：
 $$a(U) = \widetilde{a} \left[ 1 + \delta W \frac{1 - \exp(-\gamma U)}{U} \right],$$
-参数：渐近费米能级密度参数 $\widetilde{a} \a0.073 A + 0.115 A^{2/3}\text{ MeV}^{-1}$，阻尼阻抗常数 $\gamma \a0.054\text{ MeV}^{-1}$。
+参数：渐近费米能级密度参数 $\widetilde{a} \approx 0.073 A + 0.115 A^{2/3}\text{ MeV}^{-1}$，阻尼阻抗常数 $\gamma \approx 0.054\text{ MeV}^{-1}$。
 - 当 $U < 10\text{ MeV}$ 时，微观壳效应剧烈影响能级密度；
 - 当 $U > 40 - 50\text{ MeV}$ 时，指数因子 $e^{-\gamma U} \to 0$，能级密度参数平滑过渡为均匀无壳的渐近宏观值 $\widetilde{a}$。
 

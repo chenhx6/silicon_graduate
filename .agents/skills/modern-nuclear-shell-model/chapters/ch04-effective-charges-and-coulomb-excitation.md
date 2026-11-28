@@ -28,7 +28,7 @@ I. Talmi 严格运用微观壳模型两体矩阵元证明了其相消机制：
 在有限截断的价模型空间中，价中子名义电荷为零（$e_n = 0$）。然而实验测得纯中子态跃迁具有显著非零的 $B(E2)$ 几率：
 - **微观极化机制**：价中子通过两体残余力微扰极化致密的带电核芯，诱发核芯发生高频 $2\hbar\omega$ 巨四极共振（GQR）虚激发；
 - **重整化有效电荷公式**：
-  $$e_{\text{eff}}^\nu \a0.5 - 0.7 e, \quad e_{\text{eff}}^\pi \approx e + \delta e_{\text{pol}} \a1.3 - 1.5 e.$$
+  $$e_{\text{eff}}^\nu \approx 0.5 - 0.7 e, \quad e_{\text{eff}}^\pi \approx e + \delta e_{\text{pol}} \approx 1.3 - 1.5 e.$$
 
 ---
 

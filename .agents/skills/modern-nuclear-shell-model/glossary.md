@@ -35,7 +35,7 @@
 
 ## 4. 极化电荷、转移与同位旋对称性 (Effective Charges, Transfer and ISB)
 
-- **Core Polarization Effective Charge (核芯极化有效电荷 $e_{\text{eff}}$)**: 考虑巨四极共振（GQR）在模型空间外 $2\hbar\omega$ 虚激发贡献后，将价空间价核子电荷人为重整化以匹配真实微观 $B(E2)$ 的有效标度量（质子 $e_{\text{eff}}^\pi \a1.3 - 1.5 e$，中子感生电荷 $e_{\text{eff}}^\nu \a0.5 - 0.7 e$）。
+- **Core Polarization Effective Charge (核芯极化有效电荷 $e_{\text{eff}}$)**: 考虑巨四极共振（GQR）在模型空间外 $2\hbar\omega$ 虚激发贡献后，将价空间价核子电荷人为重整化以匹配真实微观 $B(E2)$ 的有效标度量（质子 $e_{\text{eff}}^\pi \approx 1.3 - 1.5 e$，中子感生电荷 $e_{\text{eff}}^\nu \approx 0.5 - 0.7 e$）。
 - **Kumar Quadrupole Invariants (Kumar 四极不变量 $\langle Q^2 \rangle, \langle Q^3 \cos(3\delta) \rangle$)**: 通过多步低能库仑激发测定所有相互连接的 $E2$ 矩阵元循环乘积构建的物理量，无模型依赖地直接给出核基态均方四极形变量与三轴非对称刚度。
 - **Mirror Energy Difference (MED, 镜像能级差)**: 互为镜像的同位旋多重态核（如 $T_z = -1/2$ 与 $T_z = +1/2$）在相同自旋 $J$ 处的激发能量差分：$\text{MED}(J) = E_x(J, T_z = -T) - E_x(J, T_z = +T)$。
 - **Triplet Energy Difference (TED, 三重大能级差)**: 同位旋三重态（$T=1$）中心核与两翼核构成的二阶能量差分：$\text{TED}(J) = E_x(J, T_z=-1) + E_x(J, T_z=+1) - 2 E_x(J, T_z=0)$，对微观电荷对称性破坏核力（CSB）与电荷无关性破坏核力（CIB）极其敏感。

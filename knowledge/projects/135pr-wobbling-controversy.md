@@ -77,8 +77,8 @@ Matta 2015 的 yrast/side-band pair 是否满足 transverse-wobbling 判据？Se
 | `B(E2;747)/B(E2;526)=0.7(+0.7/-0.5)` | Lv L22-7；p.3, final left-column paragraph | Lv 用于检验 wobbling-to-yrast 与 signature-partner decay |
 | Lv 不再把 827、764、1009 keV 组成同一 rotational band | Lv L22-2；p.2, Fig.1 and final paragraph | 反对 Sensharma 的 TW2 grouping |
 | Sensharma 2026 新增 DB2→DB1 的五条 `ΔI=1` connections；642.2、572.9、476.9 keV 三条最低能线的 MCMC `δ` 为 `-0.10(6), -0.15(3), -0.11(2)` | SH26-2/SH26-3；PDF pp.4–6, Fig.5, Table I | 新增 shared-Gammasphere supporting data；主要 dipole character，不等于 wobbling/chirality 终局裁决 |
-| Sensharma 2026 的 DB1/DB2 最小能量差约 `17 keV`（`I=41/2`），并报告旧 746、812、754 keV angular-distribution χ² 对大 `|δ|` 分支更有利 | SH26-5/SH26-8；PDF pp.5、14–15, Figs.6、12 | 后续支持方的新增/重分析结果；仍需与 Guo/Lv 的 branch treatment 统一比较 |
-| Guo 2021 指出 747、813、755、594 keV 的旧 angular-distribution 可有大/小 `|δ|` 双解，正 polarization asymmetry 不能单独选择大 `|δ|` | GU21-2/GU21-3；PDF pp.1–2, Figs.1–2 | methodological counter-comment；依赖 Matta 2015 报告，不是独立实验 |
+| Sensharma 2026 的 DB1/DB2 最小能量差约 `17 keV`（`I=41/2`），并报告旧 746、812、754 keV angular-distribution χ² 对大 `\|δ\|` 分支更有利 | SH26-5/SH26-8；PDF pp.5、14–15, Figs.6、12 | 后续支持方的新增/重分析结果；仍需与 Guo/Lv 的 branch treatment 统一比较 |
+| Guo 2021 指出 747、813、755、594 keV 的旧 angular-distribution 可有大/小 `\|δ\|` 双解，正 polarization asymmetry 不能单独选择大 `\|δ\|` | GU21-2/GU21-3；PDF pp.1–2, Figs.1–2 | methodological counter-comment；依赖 Matta 2015 报告，不是独立实验 |
 
 ## Experimental Criteria and Core Controversies
 
@@ -92,7 +92,7 @@ Matta 2015 的 yrast/side-band pair 是否满足 transverse-wobbling 判据？Se
 | Signature partner 与 wobbling band 区分 | Matta M15-6/M15-8：wobbling links E2-rich，signature-partner links M1-rich | Lv 的 band 3 links 也呈 M1 dominance；L22-7 的 747/526 ratio 不符合其 wobbling 预期 | 需要相同数据处理下比较两类 decay |
 | Two-phonon hierarchy | Sensharma S19-8/S19-9：`n_w=0/1/2` assignment | 依赖 Matta one-phonon assignment；Lv L22-2/L22-10 重组能级并反对 450 keV link | 非独立证据链 |
 | 2026 DB1/DB2 chiral claim | Sensharma 2026 新增五条 DB2→DB1 links、17-keV crossing、相对 transition ratios 和 QTR SCS geometry | 当前实验无 polarization，未给 absolute lifetimes/strengths；作者明确保留约 100-keV state-mixing 与 726-keV contamination 边界 | 增强 chiral-partner candidate，但不消除 wobbling/TiP/signature alternative |
-| 旧 angular-distribution branch dispute | Sensharma 2026 Fig.12 以旧 Gammasphere data 的 χ² 选择大 `|δ|`；Guo 2021 认为大/小解均可与已报告曲线相容 | Guo comment 未重建 raw calibration；Lv 2022 独立 `P-R_ac` 数据支持小 `|δ|` | 三方方法学冲突仍 open；需要共同 raw/response/covariance audit |
+| 旧 angular-distribution branch dispute | Sensharma 2026 Fig.12 以旧 Gammasphere data 的 χ² 选择大 `\|δ\|`；Guo 2021 认为大/小解均可与已报告曲线相容 | Guo comment 未重建 raw calibration；Lv 2022 独立 `P-R_ac` 数据支持小 `\|δ\|` | 三方方法学冲突仍 open；需要共同 raw/response/covariance audit |
 
 ## Author Interpretations
 

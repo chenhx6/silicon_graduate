@@ -29,7 +29,7 @@
   2. 测定弹性散射角分布比值曲线，精确插值确定 $\frac{d\sigma}{d\Omega} / \left(\frac{d\sigma}{d\Omega}\right)_R = 0.25$ 所在的散射角 $\theta_{1/4}$；
   3. 由半经典菲涅耳衍射理论反演相互作用接触半径 $R_{\text{int}}$：
      $$R_{\text{int}} = \frac{\eta}{k} \left[ 1 + \csc\left(\frac{\theta_{1/4}}{2}\right) \right], \quad k = \sqrt{\frac{2\mu E_{\text{c.m.}}}{\hbar^2}};$$
-  4. 提取唯象接触间距因子 $d_0 = \frac{R_{\text{int}}}{A_1^{1/3} + A_2^{1/3}}$。中等质量核碰撞中通常 $d_0 \a1.40 - 1.48\text{ fm}$。
+  4. 提取唯象接触间距因子 $d_0 = \frac{R_{\text{int}}}{A_1^{1/3} + A_2^{1/3}}$。中等质量核碰撞中通常 $d_0 \approx 1.40 - 1.48\text{ fm}$。
 
 ---
 
@@ -42,7 +42,7 @@
   3. 采用三点或五点数值点阵滤波算法计算二阶导数：
      $$D_{\text{fus}}(E_i) = \frac{Y(E_{i+1}) - 2 Y(E_i) + Y(E_{i-1})}{(\Delta E)^2};$$
   4. **核结构信息解耦**：
-     - 若所得曲线为单对称峰，半高宽 $\text{FWHM} \a0.56\hbar\omega_B$，证明碰撞核属于球形无强耦合系统；
+     - 若所得曲线为单对称峰，半高宽 $\text{FWHM} \approx 0.56\hbar\omega_B$，证明碰撞核属于球形无强耦合系统；
      - 若呈现明显双峰分裂结构（能量间距为 $\Delta V_B$），双峰面积比反映了长椭核在对头（Tip-to-Tip，势垒低）与侧向（Side-by-Side，势垒高）碰撞的空间几何几率权重，直接无偏提取靶核的真实基态四极形变参数 $\beta_2$！
 
 ---

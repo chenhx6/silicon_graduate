@@ -238,6 +238,9 @@ flowchart TD
 | LSW-IBFM-2 | IBFM 对若干 candidate→yrast links 给出小 `abs(δ)`/较强 M1，挑战 predominant-E2 wobbling criterion；但 `127Xe` 低自旋异常大 `abs(δ)` 和实验数据冲突阻止普遍化 | NOM22-7 至 NOM22-11/NOM22-15, PDF pp.6-10 | 需逐 transition 回到原实验分析；model `δ` 不替代 measured `δ` | false |
 | LSW-IBFM-3 | Nomura 2022 的 IBFM alternative 不能与 TiP 自动合并：前者未检验 TiP geometry、approximation condition 或 phonon quantization | NOM22-1 至 NOM22-14；对照 LAW20/LV21 notes | 两者可同时挑战 wobbling assignment，但机制和可检验预测不同 | false |
 | LSW-IBFM-4 | 当前可把 `135Pr` 接入详细 controversy；`133La/127Xe/105Pd` 仅列 future cases，`187Au` 则是本文明确的模型适用困难，不形成同等覆盖 | NOM22-7 至 NOM22-13, PDF pp.6-10 | 缺三核原 experimental sources 与 common-input model benchmark | false |
+
+| 候选解释 | 来源与说明 | 证据边界 |
+|---|---|---|
 | Single-particle excitation | Guo 2022 对 `187Au` Band 2 的主要重解释 | QTR-supported author interpretation；不构成最终裁决 |
 | Tilted precession（TiP） | [[lawrie-2020-tilted-precession-wobbling]] 定义完整 3D precessional bands，并与 harmonic wobbling approximation 对照 | source claims 已审；没有对 `187Au` 的直接 calculation，也不裁决 `135Pr` 实验 |
 | β/γ vibration 等其他机制 | Guo/Lv 讨论的 broader alternative space | 当前 umbrella 未摄入专门来源，只保留 evidence gap |

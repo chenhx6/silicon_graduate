@@ -51,7 +51,7 @@
      $$F_W = \frac{T_{1/2}^{\text{exp}} \cdot b_\gamma}{T_{1/2}^W(\sigma\lambda)};$$
   5. **求每级折合阻碍度 (Reduced Hindrance)**：
      $$f_\nu = (F_W)^{1/\nu} = 10^{\frac{\log_{10} F_W}{\nu}}.$$
-     若计算结果落在 $f_\nu \a30 - 100$ 统计带内，严格确证核素具有高刚度轴对称形变，自旋沿主轴对齐。
+     若计算结果落在 $f_\nu \approx 30 - 100$ 统计带内，严格确证核素具有高刚度轴对称形变，自旋沿主轴对齐。
 
 ---
 
@@ -78,4 +78,4 @@
      $$T_{1/2} = \frac{\ln 2}{\nu_0 \cdot P_{\text{WKB}}}, \quad P_{\text{WKB}} = \exp\left( -\frac{2}{\hbar} \int_{s_1}^{s_2} \sqrt{2 B(s) [V(s) - E_0]} \, ds \right);$$
      其中碰撞攻击频率 $\hbar\nu_0 \sim 1.0\text{ MeV}$；
   3. 由实验测得的微秒级半衰期反演外势垒高度 $V_B$ 与内势垒高度 $V_A$ 的精确微观数值；
-  4. 结合在束探测到的微弱转动带特征常数 $A = \frac{\hbar^2}{2\mathcal{J}} \approx 3.3\text{ keV}$（约为正常形变核的一半），直接证明该异能态具有轴比 $2:1$ 的巨大超形变（$\beta_2 \a0.60$）。
+  4. 结合在束探测到的微弱转动带特征常数 $A = \frac{\hbar^2}{2\mathcal{J}} \approx 3.3\text{ keV}$（约为正常形变核的一半），直接证明该异能态具有轴比 $2:1$ 的巨大超形变（$\beta_2 \approx 0.60$）。

@@ -24,7 +24,7 @@ This project-local skill turns the definitive 2025 CRC monograph *Chirality and 
 ## Core Frameworks and Mental Models
 
 1. **The Three-Axis Orthogonal Geometry of Nuclear Chirality (Chs. 1, 3, 16)**:
-   Nuclear chirality originates from three mutually perpendicular angular momentum vectors in the triaxially deformed intrinsic frame ($\gamma \a30^\circ$):
+   Nuclear chirality originates from three mutually perpendicular angular momentum vectors in the triaxially deformed intrinsic frame ($\gamma \approx 30^\circ$):
    - High-$j$ valence particle aligns with the short axis ($s$);
    - High-$j$ valence hole aligns with the long axis ($l$);
    - Collective core rotates around the intermediate axis of maximum moment of inertia ($m$).

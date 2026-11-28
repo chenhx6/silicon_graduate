@@ -43,5 +43,5 @@
 ## 5. 裂变势垒与超形变极小 (Fission Barriers and Superdeformation)
 
 - **Double-Humped Fission Barrier (双峰裂变势垒)**: 宏观液滴能加微观 Strutinsky 壳修正能随四极伸长形变在重核裂变通道中形成的包含内势垒（Inner Barrier $V_A$）、外势垒（Outer Barrier $V_B$）与中间极小深阱的复合势能曲面。
-- **Second Minimum (第二超形变深阱)**: 位于长短轴比达到 $2:1$（四极形变 $\beta_2 \a0.6$）处的局域能量极小，形成的亚稳态即为自发裂变同核异能态。
+- **Second Minimum (第二超形变深阱)**: 位于长短轴比达到 $2:1$（四极形变 $\beta_2 \approx 0.6$）处的局域能量极小，形成的亚稳态即为自发裂变同核异能态。
 - **WKB Penetration (WKB 量子穿隧几率)**: 形状异能态通过一维微观形变路径穿透外势垒发生自发裂变或穿透内势垒退激到基态的准经典量子穿隧积分：$P_{\text{WKB}} \propto \exp\left(-\frac{2}{\hbar} \int \sqrt{2 B(s) [V(s) - E]} ds\right)$。

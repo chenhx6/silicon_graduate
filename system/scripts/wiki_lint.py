@@ -17,13 +17,18 @@ from datetime import date
 from pathlib import Path
 from typing import Any, Iterable
 
+try:
+    from .documents_qa import table_row
+except ImportError:
+    from documents_qa import table_row
+
 
 SEVERITY_ORDER = {"info": 0, "warning": 1, "error": 2}
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 NUCLIDE_SLUG_RE = re.compile(r"^\d+[a-z]+$")
 SHA256_RE = re.compile(r"^[A-Fa-f0-9]{64}$")
-WIKILINK_RE = re.compile(r"\[\[([^\]|#]+)")
+WIKILINK_RE = re.compile(r"\[\[([^\]|#]+?)(?=\\?\||#|\])")
 HEADING_RE = re.compile(r"^##\s+(.+?)\s*$", re.MULTILINE)
 FIELD_RE = re.compile(r"^([A-Za-z0-9_-]+):(?:\s*(.*))?$")
 REACTION_RE = re.compile(
@@ -181,7 +186,7 @@ def markdown_table_cells(line: str) -> list[str] | None:
     stripped = line.strip()
     if not stripped.startswith("|") or not stripped.endswith("|"):
         return None
-    return [cell.strip() for cell in stripped.strip("|").split("|")]
+    return table_row(stripped)
 
 
 def is_markdown_separator(cells: list[str]) -> bool:

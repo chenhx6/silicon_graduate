@@ -51,7 +51,7 @@ sources: [book-wu-nuclear-experiment-methods, book-wang-particle-detection, book
 
 可扩展型在 \(m=1/\tau_P\) 处达到
 \[
-n_m_m_{\max}=\frac{1}{e\tau_P}.
+n_{\max}=\frac{1}{e\tau_P}.
 \]
 当观测率低于该极大值时，逆问题可能有两个真实输入率根；改变束流通量或
 使用独立 pulser/活时间记录才能消除二义性。

@@ -29,7 +29,7 @@ This page compares candidate labels across nuclei while preserving band identity
 | Near-degenerate same-parity `ΔI=1` bands | Candidate partner relationship | Chirality; crossings and configuration mixing can mimic it |
 | Similar alignment and `B(M1)/B(E2)` | Stronger partner test | A universal static geometry |
 | E2-dominated interband links and energy dependence | Wobbling candidate | One-phonon identity without band mapping and lifetimes |
-| Low-`|δ|` M1-dominated `ΔI=1` links | Ordinary signature-partner interpretation in the `131Xe` yrast/yrare comparison | This is a different nucleus and does not classify the `135Nd` D5/D6 pair; `135Nd` markers still lack a line-resolved δ/E2 fraction. ([[chakraborty-2023-131xe-wobbling-origin]] C23-2/3/7) |
+| Low-`\|δ\|` M1-dominated `ΔI=1` links | Ordinary signature-partner interpretation in the `131Xe` yrast/yrare comparison | This is a different nucleus and does not classify the `135Nd` D5/D6 pair; `135Nd` markers still lack a line-resolved δ/E2 fraction. ([[chakraborty-2023-131xe-wobbling-origin]] C23-2/3/7) |
 | `135Nd` D1/TiP1/TiP2 mixing-ratio control | Lv 2021 measures TiP1→D1 `δ=-0.32(5), -0.48(14)` and TiP2→TiP1 `δ=-0.26(8)`, with quoted E2 fractions about 6–19%; the authors treat selected links as M1-dominated and reject wobbling for these bands in favor of tilted precession. | Same isotope, but different bands/campaign from MU07 D5/D6; the measured mixing-ratio pattern must not be transferred as a D5/D6 assignment. ([[lv-2021-tilted-precession-135nd]] LV21-9/10/11/17) |
 | Aplanar TAC/PRM geometry | Model support | Direct laboratory observation of handedness |
 | g factor or TDPAD geometry | Core/particle angular-momentum constraint | Complete band interpretation without transition strengths |

@@ -15,7 +15,7 @@ $$\ln\epsilon_p(E_\gamma) = \sum_{k=0}^{N} a_k (\ln E_\gamma)^k.$$
 由于锗探测器在 $100 - 300\text{ keV}$ 附近因光电截面陡降和锗 $K$ 吸收边（$11.1\text{ keV}$）及外电极死层吸收的影响，效率曲线呈现明显的峰值转折（Turn-over peak）。
 - **分段拟合法**：
   - 低能段（$50\text{ keV} \le E_\gamma \le 500\text{ keV}$）：采用 3–4 阶多项式，精确拟合死层穿透与光电倍增；
-  - 高能段（$500\text{ keV} \le E_\gamma \le 4000\text{ keV}$）：效率随能量单调幂律下降（$\epsilon \propto E_\gamma^{-\alpha}$，$\alpha \a1.0 - 1.2$），采用 2–3 阶线性/二次对数拟合。
+  - 高能段（$500\text{ keV} \le E_\gamma \le 4000\text{ keV}$）：效率随能量单调幂律下降（$\epsilon \propto E_\gamma^{-\alpha}$，$\alpha \approx 1.0 - 1.2$），采用 2–3 阶线性/二次对数拟合。
 - **常用标准校准源**：$^{152}\text{Eu}$（$121.8 - 1408.0\text{ keV}$）、$^{133}\text{Ba}$（$81.0 - 383.8\text{ keV}$）、$^{60}\text{Co}$（$1173.2, 1332.5\text{ keV}$）、$^{24}\text{Na}$（$1368.6, 2754.0\text{ keV}$）。
 
 ### 1.2 真符合求和（True Coincidence Summing, TCS）校正

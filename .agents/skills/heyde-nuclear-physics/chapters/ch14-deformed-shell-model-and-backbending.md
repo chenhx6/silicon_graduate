@@ -11,7 +11,7 @@
 S. G. Nilsson (1955) 将独立粒子球形平均场推广到轴对称椭球形变空间：
 $$H = -\frac{\hbar^2}{2m} \nabla^2 + \frac{1}{2} m \left[ \omega_\perp^2 (x^2 + y^2) + \omega_z^2 z^2 \right] + C \vec{l} \cdot \vec{s} + D \vec{l}^2,$$
 体积守恒要求振荡频率乘积为常数：$\omega_x \omega_y \omega_z = \omega_0^3$。
-引入椭球形变参数 $\epsilon$（与 Bohr 形变关系为 $\epsilon \a0.95 \beta_2$）：
+引入椭球形变参数 $\epsilon$（与 Bohr 形变关系为 $\epsilon \approx 0.95 \beta_2$）：
 $$\omega_z = \omega_0 \left( 1 - \frac{2}{3}\epsilon \right), \quad \omega_\perp = \omega_0 \left( 1 + \frac{1}{3}\epsilon \right).$$
 
 ### 1.2 渐近量子数 $[N n_z \Lambda \Omega^\pi]$ 与高-$j$ 独宇称轨道
@@ -44,7 +44,7 @@ Coriolis 力算符 $-\omega \hat{j}_x$ 具有强烈的解耦作用：
 
 ## 3. 高自旋回弯现象 (Backbending) 动力学机制
 
-在转动带随自旋持续上升至临界转动频率 $\hbar\omega_c \a0.25 - 0.35\text{ MeV}$（自旋 $I \a12 - 16\hbar$）处：
+在转动带随自旋持续上升至临界转动频率 $\hbar\omega_c \approx 0.25 - 0.35\text{ MeV}$（自旋 $I \approx 12 - 16\hbar$）处：
 1. **双带能级交叉**：
    基态完全配对转动带（Ground Band, $g$-band）与对齐的双准粒子解耦带（Stockholm Band, $s$-band）发生能级相交；
 2. **回弯图像（Backbending Plot）**：

@@ -44,7 +44,7 @@ Across the 30-day curriculum, our evaluation of literature claims evolved from t
 
 ### 2. The Angular Distribution Dual-Root Degeneracy
 - **Historical Pitfall**: Directional angular distribution coefficients $W(\theta) = 1 + a_2 P_2(\cos\theta) + a_4 P_4(\cos\theta)$ depend quadratically on the multipole mixing ratio $\delta = \langle ||E2|| \rangle / \langle ||M1|| \rangle$. Consequently, any measured $a_2$ yields two mathematical roots:
-  $$\delta_{\text{small}} \quad (|\delta| \lesssim 0.2\text{--}0.5, \text{ $M1$ dominant}) \quad \text{vs.} \quad \delta_{\text{large}} \quad (|\delta| \gtrsim 2.0\text{--}5.0, \text{ $E2$ dominant})$$
+  $$\delta_{\text{small}} \quad (|\delta| \lesssim 0.2\text{--}0.5, \text{M1 dominant}) \quad \text{vs.} \quad \delta_{\text{large}} \quad (|\delta| \gtrsim 2.0\text{--}5.0, \text{E2 dominant})$$
   Historically, authors biased toward claiming wobbling selected $\delta_{\text{large}}$ without independent experimental justification.
 - **Cognitive Correction**:
   - Without independent linear polarization asymmetry ($P$ / $\Delta_{\text{PDCO}}$) or internal conversion electron coefficients ($\alpha_K$), choosing the large root is ungrounded confirmation bias.

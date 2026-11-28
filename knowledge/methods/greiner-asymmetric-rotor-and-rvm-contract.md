@@ -28,7 +28,7 @@ sources: [book-greiner-nuclear-models, book-bohr-mottelson-nuclear-structure-vol
 2. **水动力学或微观主轴转动惯量**：
    $$\mathcal{J}_k = 4 B \beta^2 \sin^2\left(\gamma - \frac{2\pi}{3} k\right) \quad (k = 1, 2, 3)$$
 3. **$D_2$ 四元群对称基矢展开**：由于内禀系三主轴不可分辨，物理波函数必须在旋转变换 $\mathcal{R}_k(\pi)$ 下具有正宇称：
-   $$\vert IMK\rangle_$C_{\text{sym}}$ = \sqrt{\frac{2I+1}{16\pi^2 (1+\delta_{K0})}} \left[ D_{MK}^I(\theta) + (-1)^I D_{M,-K}^I(\theta) \right]$$
+   $$\vert IMK\rangle_{\text{sym}} = \sqrt{\frac{2I+1}{16\pi^2 (1+\delta_{K0})}} \left[ D_{MK}^I(\theta) + (-1)^I D_{M,-K}^I(\theta) \right]$$
 4. **小振幅振动展开（RVM 模型）**：围绕轴对称长椭基态平衡形变 $(\beta_0, \gamma=0)$ 将坐标展开为 $\xi = a_0 - \beta_0$ 与 $\eta = a_2$，假定回复势能为简谐形式 $V(\xi, \eta) = \frac{1}{2} C_\beta \xi^2 + C_\gamma \eta^2$。
 
 ## What It Can Establish

@@ -33,9 +33,9 @@ This project-local skill turns Bohr and Mottelson's monumental two-volume master
 
 2. **Fermi Gas, Symmetry Energy, and Incompressibility (Vol. I Ch. 2)**:
    Nuclear matter as a saturated degenerate Fermi liquid:
-   - Fermi momentum $k_F \a1.36\text{ fm}^{-1}$, Fermi energy $\epsilon_F \approx 38.5\text{ MeV}$, nuclear radius parameter $r_0 \a1.2\text{ fm}$;
-   - Kinetic contribution to the symmetry energy coefficient $b_$C_$C_{\text{sym}}$ \a30\text{ MeV}$;
-   - Compression modulus of nuclear matter $K_\infty \approx 200 - 250\text{ MeV}$, governing the breathing mode (ISGMR) energy systematics $E_0 \a80 A^{-1/3}\text{ MeV}$.
+   - Fermi momentum $k_F \approx 1.36\text{ fm}^{-1}$, Fermi energy $\epsilon_F \approx 38.5\text{ MeV}$, nuclear radius parameter $r_0 \approx 1.2\text{ fm}$;
+   - Kinetic contribution to the symmetry energy coefficient $b_{\text{sym}} \approx 30\text{ MeV}$;
+   - Compression modulus of nuclear matter $K_\infty \approx 200 - 250\text{ MeV}$, governing the breathing mode (ISGMR) energy systematics $E_0 \approx 80 A^{-1/3}\text{ MeV}$.
 
 3. **Adiabatic Separation of Collective and Intrinsic Degrees of Freedom (Vol. II Ch. 4)**:
    In well-deformed nuclei, the fast intrinsic single-particle motion decouples from the slow collective rotation:

@@ -64,7 +64,7 @@ $$Z = \Phi^{-1}(1 - p) \approx \sqrt{q_{\text{obs}}} = \sqrt{\Delta\chi^2}.$$
 - **检验统计量**：
   $$\chi^2(\text{wobbling}) - \chi^2(\text{TiP}) = \Delta\chi^2 = 122.3.$$
 代入高斯等效显著性：
-$$Z = \sqrt{122.3} = 11.06\sigma \a11.1\sigma, \quad p = 2.0 \times 10^{-28}.$$
+$$Z = \sqrt{122.3} = 11.06\sigma \approx 11.1\sigma, \quad p = 2.0 \times 10^{-28}.$$
 以超过 $11\sigma$ 的压倒性统计置信度坚决拒绝摆动假说，确证了多极混合比的唯一物理真解。
 
 ---

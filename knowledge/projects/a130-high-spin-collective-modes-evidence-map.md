@@ -70,6 +70,9 @@ The expanded corpus adds a method backbone and several counterexamples that shar
 | [[domscheit-1999-triaxial-superdeformation-163lu]] | `163Lu` 的 SD-ND linking、四极矩/转动惯量与 UC/PES 三轴极小值；仅用于 deformation 判据和模型-实验边界参照 |
 | [[babra-2019-deformation-change-136sm]] | `136Sm` 的 DSAM `Q_t` 与带交叉前后 TRS/TPSM 形变比较；仅作为随自旋重评形变背景的参照 |
 | [[li-2024-144ba-octupole-cdf-3d-lattice]] | `144Ba` PC-PK1 3D-lattice cranking 的 `I–ω`, `B(E2/E3)` 与 `β30` 稳定性；仅作非 A≈130 八极形变模型比较 |
+
+| Source | 比较内容 | 当前角色 |
+|---|---|---|
 | [[reed-2016-triaxiality-rhenium]] | `187,189,191Re` signature splitting + M1/E2 + γ-bandhead systematics | cross-mass triaxiality/γ-softness comparator; model γ not direct |
 | [[frauendorf-2015-low-energy-quadrupole-mode]] | quadrupole-mode, γ-softness, tidal-wave/TPSM model framework | review-level model boundary; no new A≈130 experiment |
 | [[gore-2005-gamma-band-staggering]] | Mo/Ru/Pd γ-band staggering and model-limit comparator | cross-mass level-energy diagnostic; no unique γ inference |

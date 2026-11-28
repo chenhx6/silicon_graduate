@@ -57,8 +57,8 @@ description: "W. D. Hamilton《The Electromagnetic Interaction in Nuclear Spectr
      在两特定特征角度（如前向/后向角 $\theta_1 = 30^\circ$ 与垂直角 $\theta_2 = 90^\circ$）门控下：
      $$R_{\text{DCO}} = \frac{I_{\gamma 1}(\text{at } \theta_1, \text{gated by } \gamma_2 \text{ at } \theta_2)}{I_{\gamma 1}(\text{at } \theta_2, \text{gated by } \gamma_2 \text{ at } \theta_1)};$$
    - **经验跃迁指纹**（门控在纯四极拉伸跃迁 $\Delta I = 2, E2$ 上）：
-     - 纯拉伸四极跃迁（$\Delta I = 2, E2$）：$R_{\text{DCO}} \a1.00$；
-     - 纯偶极跃迁（$\Delta I = 1, D$ 或 $\Delta I = 0, D$）：$R_{\text{DCO}} \a0.55 - 0.65$；
+     - 纯拉伸四极跃迁（$\Delta I = 2, E2$）：$R_{\text{DCO}} \approx 1.00$；
+     - 纯偶极跃迁（$\Delta I = 1, D$ 或 $\Delta I = 0, D$）：$R_{\text{DCO}} \approx 0.55 - 0.65$；
      - 包含大混合比 $\delta$ 的多极混合跃迁：$R_{\text{DCO}}$ 可偏移至 $0.8 - 1.5$ 范围。
 
 5. **康普顿线偏振度测量与电磁宇称排他性裁决（第 15 章）**：

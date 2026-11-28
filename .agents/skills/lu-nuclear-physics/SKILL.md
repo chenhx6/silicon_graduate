@@ -26,10 +26,10 @@ description: "卢希庭《原子核物理（修订版）》：权威中文核物
 
 1. **结合能、半经验质量公式与 $\beta$ 稳定线（第 1 章）**：
    - **Bethe-Weizsäcker 半经验质量公式（SEMF）**：
-     $$B(A, Z) = a_v A - a_s A^{2/3} - a_c \frac{Z(Z-1)}{A^{1/3}} - a_$C_{\text{sym}}$ \frac{(A - 2Z)^2}{A} + \delta(A, Z),$$
-     其中体积能 $a_v \a15.6\text{ MeV}$、表面能 $a_s \a16.8\text{ MeV}$、库仑能 $a_c \a0.72\text{ MeV}$、对称能 $a_$C_$C_{\text{sym}}$ \approx 23.3\text{ MeV}$、对能项 $\delta(A, Z) = \pm a_p A^{-3/4}$（偶偶核为正，奇奇核为负，奇 $A$ 核为 0）；
+     $$B(A, Z) = a_v A - a_s A^{2/3} - a_c \frac{Z(Z-1)}{A^{1/3}} - a_{\text{sym}} \frac{(A - 2Z)^2}{A} + \delta(A, Z),$$
+     其中体积能 $a_v \approx 15.6\text{ MeV}$、表面能 $a_s \approx 16.8\text{ MeV}$、库仑能 $a_c \approx 0.72\text{ MeV}$、对称能 $a_{\text{sym}} \approx 23.3\text{ MeV}$、对能项 $\delta(A, Z) = \pm a_p A^{-3/4}$（偶偶核为正，奇奇核为负，奇 $A$ 核为 0）；
    - **$\beta$ 稳定谷中心电荷方程**：由 $\left.\frac{\partial M(A, Z)}{\partial Z}\right|_A = 0$ 解得：
-     $$Z_{\text{stable}} = \frac{A}{2 + \frac{a_c}{2 a_$C_{\text{sym}}$} A^{2/3}} \approx \frac{A}{2 + 0.015 A^{2/3}}.$$
+     $$Z_{\text{stable}} = \frac{A}{2 + \frac{a_c}{2 a_{\text{sym}}} A^{2/3}} \approx \frac{A}{2 + 0.015 A^{2/3}}.$$
      轻核 $Z \approx A/2$；随质量数增加，库仑斥力迫使稳定线向中子过剩方向弯曲。
 
 2. **放射性级联衰变动力学与平衡态（第 2 章）**：
@@ -37,7 +37,7 @@ description: "卢希庭《原子核物理（修订版）》：权威中文核物
      $$N_n(t) = N_1(0) \sum_{i=1}^n c_i e^{-\lambda_i t}, \quad c_i = \frac{\prod_{j=1}^{n-1} \lambda_j}{\prod_{j=1, j \neq i}^n (\lambda_j - \lambda_i)};$$
    - **长期平衡（Secular Equilibrium, $\lambda_1 \ll \lambda_2$）**：母核半衰期极长（如 $^{238}\text{U} \to {}^{226}\text{Ra}$），$t \gg \tau_2$ 时子核活度等于母核活度：
      $$A_2(t) = \lambda_2 N_2(t) \to \lambda_1 N_1(t) = A_1(t);$$
-   - **暂态平衡（Transient Equilibrium, $\lambda_1 < \lambda_2$）**：母核稍慢于子核（如 $^{99}\text{Mo} \to {}^{99m}\text{Tc}$），在 $t_m_{\max} = \frac{\ln(\lambda_2/\lambda_1)}{\lambda_2 - \lambda_1}$ 达到子核活度峰值，随后子核活度以母核的特征寿命衰减并维持固定常数比：
+   - **暂态平衡（Transient Equilibrium, $\lambda_1 < \lambda_2$）**：母核稍慢于子核（如 $^{99}\text{Mo} \to {}^{99m}\text{Tc}$），在 $t_{\max} = \frac{\ln(\lambda_2/\lambda_1)}{\lambda_2 - \lambda_1}$ 达到子核活度峰值，随后子核活度以母核的特征寿命衰减并维持固定常数比：
      $$\frac{A_2(t)}{A_1(t)} = \frac{\lambda_2}{\lambda_2 - \lambda_1} > 1.$$
 
 3. **Fermi $\beta$ 衰变统计理论与弱相互作用选择定则（第 6 章）**：
@@ -69,7 +69,7 @@ description: "卢希庭《原子核物理（修订版）》：权威中文核物
      $$E_{\text{th}} = |Q| \left( 1 + \frac{M_a}{M_A} \right);$$
    - **光学模型复数势**：$U(r) = - V f(r) - i W g(r) + V_{ls} (\vec{l}\cdot\vec{s}) h(r) + V_C(r)$，实部 $V$ 描述核平均场弹性散射，虚部 $W$ 描述非弹性吸收与粒子反应吸收道；
    - **Breit-Wigner 单能级共振公式**：
-     $$\sigma_{nr}(E) = \pi \lambdabar^2 g_J \frac{\Gamma_n \Gamma_r}{(E - E_0)^2 + (\Gamma/2)^2},$$
+     $$\sigma_{nr}(E) = \pi \bar{\lambda}^2 g_J \frac{\Gamma_n \Gamma_r}{(E - E_0)^2 + (\Gamma/2)^2},$$
      低能热中子捕获截面严格满足 $1/v$ 吸收定律（$\sigma \propto 1/\sqrt{E}$）。
 
 ---

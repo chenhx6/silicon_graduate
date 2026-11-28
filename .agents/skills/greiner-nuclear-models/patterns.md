@@ -17,7 +17,7 @@
        $$\sqrt{1 - \frac{8}{9}\sin^2(3\gamma)} = \frac{R_{\text{exp}} - 1}{R_{\text{exp}} + 1} \implies \sin^2(3\gamma) = \frac{9}{8} \left[ 1 - \left( \frac{R_{\text{exp}} - 1}{R_{\text{exp}} + 1} \right)^2 \right];$$
   4. 解出三轴角 $\gamma \in [0^\circ, 30^\circ]$：
      $$\gamma = \frac{1}{3} \arcsin\left( \sqrt{\frac{9}{8} \left[ 1 - \left( \frac{R_{\text{exp}} - 1}{R_{\text{exp}} + 1} \right)^2 \right]} \right).$$
-     例如：当 $R_{\text{exp}} = 3.0$ 时，$\sin^2(3\gamma) = \frac{9}{8}(1 - 0.25) = 0.84375 \implies \sin(3\gamma) \a0.9185 \implies \gamma \approx 22.2^\circ$。
+     例如：当 $R_{\text{exp}} = 3.0$ 时，$\sin^2(3\gamma) = \frac{9}{8}(1 - 0.25) = 0.84375 \implies \sin(3\gamma) \approx 0.9185 \implies \gamma \approx 22.2^\circ$。
 
 ---
 
@@ -65,7 +65,7 @@
 - **核心法则**：等矢巨偶极共振（IVGDR）是全核质子与中子流体做高频反相振荡的集体模式。在球形核中该振动沿三维各向同性，共振截面为单对称洛伦兹峰；在形变核中，沿长轴（$z$ 轴，曲率长）与沿短轴（$x, y$ 轴，曲率短）的恢复力与谐振频率不同，共振峰精确分裂为两个子峰。
 - **标准反演程序**：
   1. 测定光核吸收截面曲线 $\sigma_{\gamma,\text{abs}}(E_\gamma)$，采用双洛伦兹共振函数拟合提取两个峰位能量 $E_a$（低能峰，对应长轴）与 $E_b$（高能峰，对应短轴）；
-  2. 核查面积比：验证两峰积分面积之比是否满足 $\sigma_a / \sigma_b \a1 : 2$（反映短轴具有二维空间简并度）；
+  2. 核查面积比：验证两峰积分面积之比是否满足 $\sigma_a / \sigma_b \approx 1 : 2$（反映短轴具有二维空间简并度）；
   3. 由长短半轴之比反演基态四极形变度 $\beta_2$：
      $$\frac{E_b}{E_a} \approx \frac{R_a}{R_b} \approx \frac{1 + \sqrt{\frac{5}{4\pi}}\beta_2}{1 - \frac{1}{2}\sqrt{\frac{5}{4\pi}}\beta_2} \implies \beta_2 \approx \frac{4}{3} \sqrt{\frac{\pi}{5}} \left( \frac{E_b - E_a}{E_{\text{mean}}} \right);$$
   4. 给出原子核基态四极形变的宏观流体动力学独立测定结果，与在束 Coulomb 激发或能级寿命反演值交叉互验。

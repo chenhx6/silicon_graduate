@@ -45,7 +45,7 @@
   2. 提取初末态单粒子轨道的占据振幅 $u_i, v_i$ 与 $u_f, v_f$；
   3. **配对跃迁因子求值**：
      - 若为 $E\lambda$ 跃迁：计算因子 $F_{E\lambda} = u_i u_f - v_i v_f$；
-       - 若初末态在费米面同一侧且深处或高处（即 $u_i \approx u_f, v_i \approx v_f$），则 $u_i u_f - v_i v_f \approx u_i^2 - v_i^2 \to 0$（在费米面附近 $u^2 \approx v^2 \a0.5$ 发生**剧烈电跃迁相消**）；
+       - 若初末态在费米面同一侧且深处或高处（即 $u_i \approx u_f, v_i \approx v_f$），则 $u_i u_f - v_i v_f \approx u_i^2 - v_i^2 \to 0$（在费米面附近 $u^2 \approx v^2 \approx 0.5$ 发生**剧烈电跃迁相消**）；
      - 若为 $M\lambda$ 跃迁：计算因子 $F_{M\lambda} = u_i u_f + v_i v_f$；
        - 因子恒为正且接近 1（**磁跃迁无相消，保持稳定**）；
   4. 给出最终 1qp 约化矩阵元：$\langle f || \mathcal{M} || i \rangle_{\text{1qp}} = F_{\sigma\lambda} \langle f || \mathcal{M} || i \rangle_{\text{sp}}$。

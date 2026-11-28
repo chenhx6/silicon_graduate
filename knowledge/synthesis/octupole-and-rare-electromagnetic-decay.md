@@ -126,8 +126,7 @@ Raw detector responses, full analysis code, partner E3 branches and public parti
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| OCT-D19-5 | 严格确立了宏观微观电偶极矩相消机制与八极形变非可逆定理：(1) 直接八极集体性一致：$^{144,146}	ext{Ba}$ 基态八极跃迁矩阵元严格等同（$0.65\ e	ext{b}^{3/2}$，对应 $B(E3) = 48	ext{ W.u.}$）；(2) 电偶极矩相消物理本质：$^{146}	ext{Ba}$ 宏观液滴偶极矩（$+0.180\ e\cdot	ext{fm}$）与增加 2 个中子占据 $
-u i_{13/2}$ 侵入轨道诱导的微观壳修正偶极矩（$-0.146\ e\cdot	ext{fm}$）发生 $81.11\%$ 抵消，实测 $|D_0| = 0.034\ e\cdot	ext{fm}$ 暴跌 $73.85\%$；(3) 跨质量区普适性：$^{224}	ext{Ra}$ 宏观液滴项（$+0.202\ e\cdot	ext{fm}$）与壳修正项（$-0.172\ e\cdot	ext{fm}$）亦发生 $85.15\%$ 抵消；(4) 八极形变非可逆判据：小 $E1/D_0$ 不能作为否定八极形变的证据，直接垒下库仑激发与超快能级寿命测量是检验梨形形变的唯一排他性金标准；(5) 单纯形能带宇称劈裂塌缩：交替宇称位移 $\delta E(I)$ 随角动量升高收敛至零（$^{224}	ext{Ra}$ 塌缩 $87.92\%$），微积分确证了核梨形刚体转动动力学。 | quantitative-synthesis-and-criterion | derived-and-source-boundary | PRL 118, 152504; octupole-e1-cancellation-result-079.json | true |
+| OCT-D19-5 | 严格确立了宏观微观电偶极矩相消机制与八极形变非可逆定理：(1) 直接八极集体性一致：$^{144,146}\text{Ba}$ 基态八极跃迁矩阵元严格等同（$0.65\ e\text{b}^{3/2}$，对应 $B(E3) = 48\text{ W.u.}$）；(2) 电偶极矩相消物理本质：$^{146}\text{Ba}$ 宏观液滴偶极矩（$+0.180\ e\cdot\text{fm}$）与增加 2 个中子占据 $\nu i_{13/2}$ 侵入轨道诱导的微观壳修正偶极矩（$-0.146\ e\cdot\text{fm}$）发生 $81.11\%$ 抵消，实测 $\vert D_0\vert = 0.034\ e\cdot\text{fm}$ 暴跌 $73.85\%$；(3) 跨质量区普适性：$^{224}\text{Ra}$ 宏观液滴项（$+0.202\ e\cdot\text{fm}$）与壳修正项（$-0.172\ e\cdot\text{fm}$）亦发生 $85.15\%$ 抵消；(4) 八极形变非可逆判据：小 $E1/D_0$ 不能作为否定八极形变的证据，直接垒下库仑激发与超快能级寿命测量是检验梨形形变的唯一排他性金标准；(5) 单纯形能带宇称劈裂塌缩：交替宇称位移 $\delta E(I)$ 随角动量升高收敛至零（$^{224}\text{Ra}$ 塌缩 $87.92\%$），微积分确证了核梨形刚体转动动力学。 | quantitative-synthesis-and-criterion | derived-and-source-boundary | PRL 118, 152504; octupole-e1-cancellation-result-079.json | true |
 
 
 ## checkpoint107：稀有衰变与八极跃迁的时间滤波及物理时钟契约

@@ -169,7 +169,7 @@ P0: band-4 `n_ω=2` assignment and 651-keV contamination/branch handling.
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | CH20-D18-1 | **superseded**：旧关于“小解下全线崩塌为单粒子/拓扑证明非wobbling”等断言降格，由D18-2/3分层记录。 | task-correction | superseded-interpretation | 本段D18-2/3；旧chakraborty20-127xe-wobbling-result-023 | true |
-| CH20-D18-2 | Table 1报告五条跨带连接线大混合比（delta = -2.1至-3.1）及B(E2_out)/B(E2_in) = 0.92-2.35，受到DCO与偏振不对称度asym支持，作者据此提出多声子纵向wobbling候选；小根（|delta| ~ 0.3）是未被作者采纳的替代分支，非本文测量解。 | source-result-and-selection | direct-and-boundary | PDF p.3 Table 1；Fig. 3 | true |
+| CH20-D18-2 | Table 1报告五条跨带连接线大混合比（delta = -2.1至-3.1）及B(E2_out)/B(E2_in) = 0.92-2.35，受到DCO与偏振不对称度asym支持，作者据此提出多声子纵向wobbling候选；小根（\|delta\| ~ 0.3）是未被作者采纳的替代分支，非本文测量解。 | source-result-and-selection | direct-and-boundary | PDF p.3 Table 1；Fig. 3 | true |
 | CH20-D18-3 | 在固定其余输入下，若代入小根敏感性分析，E2份额下降8.2-10.0倍；Band 4向yrast带的衰变以Delta I = 0为主，作者指出这类似于126Xe中准gamma振动与基态带的耦合，提示可能存在wobbling与gamma振动的混合。这属于结构模式讨论，不构成对两声子态存在的排他否决。 | interpretation-and-decay-topology | direct-and-derived | PDF pp.3-4；新au-xe-wobbling-boundary-result-052 | true |
 
 ## Day20量化审计：483 keV小根塌缩与两声子准伽马振动拓扑反证

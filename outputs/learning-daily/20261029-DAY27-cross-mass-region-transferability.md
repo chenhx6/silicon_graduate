@@ -375,7 +375,7 @@ run内`continuation-research-ledger.json`记录候选池与优先级。主要问
 
 - 实际观察：2026-10-30T14:40:00+08:00；距 15:00 硬截止约 20 分钟，研学即将准时转入收束。
 - 构建玻尔-惠勒裂变统计衰变与多次裂变概率级联程序（`day27_superheavy_survival_and_multi_chance_fission_study.py`，工件 `continuation-studies/superheavy-survival/superheavy_survival_results.json`）。
-- 揭示热相空间下有效裂变势垒的雪崩式塌缩机制：结合 Zagrebaev et al. 2001（PRC 65, 014607）一手理论基准，在超重核 $^{296}116$ 与 $^{304}120$ 中，基态微观壳势垒（$B_f(0) pprox 5.1 - 5.85\text{ MeV}$）系统性低于中子分离能（$S_n pprox 7.2 - 7.45\text{ MeV}$，逆差达 $-1.35$ 至 $-2.35\text{ MeV}$）；在热核激发（$E^* pprox 38.0\text{ MeV}$）下，微观壳能热消融使有效裂变势垒暴跌至 $B_f^{\text{eff}} \le 0.75\text{ MeV}$。
+- 揭示热相空间下有效裂变势垒的雪崩式塌缩机制：结合 Zagrebaev et al. 2001（PRC 65, 014607）一手理论基准，在超重核 $^{296}116$ 与 $^{304}120$ 中，基态微观壳势垒（$B_f(0) \approx 5.1 - 5.85\text{ MeV}$）系统性低于中子分离能（$S_n \approx 7.2 - 7.45\text{ MeV}$，逆差达 $-1.35$ 至 $-2.35\text{ MeV}$）；在热核激发（$E^* \approx 38.0\text{ MeV}$）下，微观壳能热消融使有效裂变势垒暴跌至 $B_f^{\text{eff}} \le 0.75\text{ MeV}$。
 - 阐明多次裂变雪崩与百万倍截面高估破除：在每一个中子蒸发步长中，裂变分支比高达 $\Gamma_f / \Gamma_n \sim 10^2 - 10^3$，首步中子蒸发生存几率不足 $0.5\%$；经由 $3n$ 级联后总生存几率被极度压缩至 $W_{\text{surv}} \approx 2.81 \times 10^{-6}$（在 $^{304}120$ 的 $4n$ 蒸发中跌至 $< 10^{-8}$），而在 $^{208}\text{Pb}$ 中由于 $B_f - S_n = +17.13\text{ MeV}$，生存几率高达 $99.995\%$；彻底打破了将稳定核统计蒸发模型向超重区外推导致的高达 $10^5 - 10^7$ 倍的虚高假象。
 - 摄入一手理论原件 `knowledge/sources/zagrebaev-2001-superheavy-synthesis-survival.md`，新增研究笔记 `knowledge/research-notes/superheavy-barrier-inversion-and-multi-chance-fission.md` 并完成索引；账本调查数达到整整 71 项重大突破。
 

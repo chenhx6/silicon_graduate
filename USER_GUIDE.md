@@ -352,6 +352,8 @@ git push origin HEAD:main
 
 ## 8. 自动 lint
 
+Markdown、LaTeX 与 PDF 的文档检查入口见 [documents_QA](.agents/skills/documents-qa/SKILL.md)。
+
 在仓库根目录运行：
 
 ```bash

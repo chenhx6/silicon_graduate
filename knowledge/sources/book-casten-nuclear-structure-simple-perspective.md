@@ -126,7 +126,7 @@ $$\Delta E = \sqrt{(\Delta E_u)^2 + 4V^2} = V \sqrt{R^2 + 4} \ge 2V$$
 **能级排斥定律**：两个孤立相互作用能级的最终间距**永远不小于相互作用矩阵元的两倍（$2V$）**。
 混合波函数 $|\psi_a\rangle = \alpha \vert 1\rangle + \beta \vert 2\rangle$ 的小分量振幅为：
 $$\beta = \frac{1}{\sqrt{2}} \left[ 1 - \frac{R}{\sqrt{R^2 + 4}} \right]^{1/2}$$
-- **强混合极限（$R \to 0$）**：$\beta \to 1/\sqrt{2} \a0.7071$，实现 $50\%-50\%$ 均等混合，$\Delta E = 2V$；
+- **强混合极限（$R \to 0$）**：$\beta \to 1/\sqrt{2} \approx 0.7071$，实现 $50\%-50\%$ 均等混合，$\Delta E = 2V$；
 - **弱混合极限（$R \gg 1$）**：$\Delta E \approx \Delta E_u + 2V^2/\Delta E_u$，$\beta \approx V/\Delta E_u = 1/R$。
 
 ### 2. 跃迁几率相消定理（§1.6, PDF 40–42）
@@ -161,7 +161,7 @@ $$H_{\text{cor}} = - \frac{\hbar^2}{2\mathcal{J}} (I_+ j_- + I_- j_+).$$
 | CAS90-1 | 两态混合本征能量排斥下限为 $2V$；混合波函数幅值仅由无量纲参数 $R=\Delta E_u/V$ 决定。 | model-result | direct | PDF 33–36 / printed 18–21, Eqs. (1.2)–(1.8) | false |
 | CAS90-2 | 跨带 $E2$ 矩阵元由初末态对角四极矩之差 $\Delta Q = Q_2 - Q_1$ 决定；形变相近的混合组态跃迁发生相消。 | model-result | direct | PDF 40–42 / printed 25–27, Eqs. (1.15)–(1.17) | false |
 | CAS90-3 | Casten 对当时低能偶偶系统学倾向于 \(\gamma\) 软解释，并指出若干能量和 E2 规则在固定角与软势极限中可以相近。结论适用于该书所比较的样本和模型。 | author-interpretation | direct | 一版 PDF pp.208–210 / printed pp.193–195；二版 PDF pp.265–268 / printed pp.247–250 | false |
-| CAS90-4 | 作者总结经验矩阵元比所讨论的理论估算低约 20–50%。估算中已显式包含配对重叠。\(^{183}\mathrm{W}\) 的 70 keV 间距在孤立两能级近似下约束 \(|V|\le35\) keV，相对 55 keV 估算为约 0.64 的上限。 | empirical-and-model-boundary | direct | 第一版 PDF 302–303 / printed 287–288；第二版 PDF 390–391 / printed 372–373 | false |
+| CAS90-4 | 作者总结经验矩阵元比所讨论的理论估算低约 20–50%。估算中已显式包含配对重叠。\(^{183}\mathrm{W}\) 的 70 keV 间距在孤立两能级近似下约束 \(\vert V\vert\le35\) keV，相对 55 keV 估算为约 0.64 的上限。 | empirical-and-model-boundary | direct | 第一版 PDF 302–303 / printed 287–288；第二版 PDF 390–391 / printed 372–373 | false |
 | CAS90-5 | 高 $j$ 独特宇称轨道（Unique-parity orbits）由于大 $j$ 产生巨大 Coriolis 矩阵元，驱动 Stephens 旋转对齐并形成退耦带。 | model-result | direct | PDF 315–320 / printed 300–305 | false |
 | CAS90-6 | 库仑激发应在低于库仑势垒、核力影响可控的最近接距离下使用；半经典参数、绝热参数、散射角和多步/虚激发共同决定矩阵元反演的可辨识性。 | method/formalism | direct | Ch. 10, PDF 350–359 / printed 335–344 | false |
 | CAS90-7 | ARC 的价值是对指定自旋、宇称和激发能窗提供能级完备性约束；“未观察到”只有在可达且可检出的窗口内才能作为结构反证。 | method-result | direct | Ch. 10, PDF 360–365 / printed 345–350, Figs. 10.4–10.6 | false |

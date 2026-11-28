@@ -19,7 +19,7 @@ $$A = \frac{\hbar^2}{4} \left( \frac{1}{\mathcal{J}_1} + \frac{1}{\mathcal{J}_2}
 
 ### 1.2 $D_2$ 四元对称群本征波函数展开
 由于内禀系三主轴不可分辨，真实物理态在绕三主轴旋转 $\pi$ 的操作 $\mathcal{R}_k(\pi)$ 下必须具有正本征值：
-$$|IMK\rangle_$C_{\text{sym}}$ = \sqrt{\frac{2I+1}{16\pi^2(1+\delta_{K0})}} \left[ D_{MK}^I(\theta_i) + (-1)^I D_{M,-K}^I(\theta_i) \right].$$
+$$|IMK\rangle_{\text{sym}} = \sqrt{\frac{2I+1}{16\pi^2(1+\delta_{K0})}} \left[ D_{MK}^I(\theta_i) + (-1)^I D_{M,-K}^I(\theta_i) \right].$$
 该对称性严格禁戒了奇数 $K$，使得只有 $K = 0, 2, 4, \dots \le I$ 的对称态参与构建。
 
 ---
@@ -27,7 +27,7 @@ $$|IMK\rangle_$C_{\text{sym}}$ = \sqrt{\frac{2I+1}{16\pi^2(1+\delta_{K0})}} \lef
 ## 2. 低自旋能级的严格矩阵对角化与三态和则
 
 ### 2.1 自旋 $I=2^+$ 的 $2 \times 2$ 特征矩阵
-基底为 $|2M0\rangle_$C_{\text{sym}}$$ 与 $|2M2\rangle_$C_{\text{sym}}$$：
+基底为 $|2M0\rangle_{\text{sym}}$ 与 $|2M2\rangle_{\text{sym}}$：
 - 矩阵元（以 $\epsilon_0 = \frac{\hbar^2}{4 B \beta^2}$ 为单位）：
   $$H_{00} = 6 A = \frac{9 \epsilon_0}{\sin^2(3\gamma)} [1 - \cos(3\gamma)],$$
   $$H_{22} = 2 A + 4 B_1 = \frac{9 \epsilon_0}{\sin^2(3\gamma)} [1 + \cos(3\gamma)],$$
@@ -39,7 +39,7 @@ $$|IMK\rangle_$C_{\text{sym}}$ = \sqrt{\frac{2I+1}{16\pi^2(1+\delta_{K0})}} \lef
 $$E(2_1^+, 2_2^+) = \frac{9 \hbar^2}{4 B \beta^2} \frac{1 \mp \sqrt{1 - \frac{8}{9}\sin^2(3\gamma)}}{\sin^2(3\gamma)}.$$
 
 ### 2.2 自旋 $I=3^+$ 的严格单态与三态求和恒等式
-对于 $I=3^+$，受 $D_2$ 宇称约束（$(-1)^I = -1$），基底仅有唯一允许态 $|3M2\rangle_$C_{\text{sym}}$$（$1 \times 1$ 一维）：
+对于 $I=3^+$，受 $D_2$ 宇称约束（$(-1)^I = -1$），基底仅有唯一允许态 $|3M2\rangle_{\text{sym}}$（$1 \times 1$ 一维）：
 $$E(3_1^+) = H_{22}(I=3) = \frac{18 \hbar^2}{4 B \beta^2 \sin^2(3\gamma)}.$$
 将 $E(2_1^+)$ 与 $E(2_2^+)$ 直接相加：
 $$E(2_1^+) + E(2_2^+) = \frac{9 \epsilon_0}{\sin^2(3\gamma)} \left[ (1 - \sqrt{\dots}) + (1 + \sqrt{\dots}) \right] = \frac{18 \epsilon_0}{\sin^2(3\gamma)} \equiv E(3_1^+)!$$

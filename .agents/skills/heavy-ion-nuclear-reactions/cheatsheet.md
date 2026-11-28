@@ -13,7 +13,7 @@
 | 质心系波数 | $k = \frac{\sqrt{2\mu E_{\text{c.m.}}}}{\hbar} = 0.2187 \sqrt{\frac{A_p A_t}{A_p + A_t} E_{\text{c.m.}} [\text{MeV}]}$ | $[\text{fm}^{-1}]$ |
 | Sommerfeld 库仑参数 | $\eta = 0.1574 Z_p Z_t \sqrt{\frac{A_p A_t}{(A_p + A_t) E_{\text{c.m.}} [\text{MeV}]}}$ | 无量纲，重离子通常 $\eta \gg 1$ |
 | 复合核反冲初动能 | $E_{\text{recoil}} = \frac{A_p}{A_p + A_t} E_{\text{c.m.}} = \frac{A_p A_t}{(A_p + A_t)^2} E_{\text{lab}}$ | $[\text{MeV}]$ |
-| 反冲初速比率 | $\beta = \frac{v_{\text{recoil}}}{c} \a0.04635 \frac{\sqrt{A_p E_{\text{lab}} [\text{MeV}]}}{A_p + A_t}$ | 无量纲，通常在束反应 $\beta \sim 1\% - 3\%$ |
+| 反冲初速比率 | $\beta = \frac{v_{\text{recoil}}}{c} \approx 0.04635 \frac{\sqrt{A_p E_{\text{lab}} [\text{MeV}]}}{A_p + A_t}$ | 无量纲，通常在束反应 $\beta \sim 1\% - 3\%$ |
 | 多普勒频移公式 | $E_\gamma(\theta) \approx E_{\gamma 0} (1 + \beta \cos\theta_{\text{det}})$ | 探测角为 $\theta_{\text{det}}$ |
 
 ---
@@ -43,7 +43,7 @@ $$V_B \approx \frac{1.44 Z_1 Z_2}{R_B} - \frac{R_1 R_2}{R_1 + R_2} \frac{d_B}{a_
    - 深次垒渐近线 ($E_{\text{c.m.}} \ll V_B$)：$\sigma_{\text{fus}} \approx \frac{\hbar\omega_B R_B^2}{2 E_{\text{c.m.}}} \exp\left( \frac{2\pi (E_{\text{c.m.}} - V_B)}{\hbar\omega_B} \right)$；
 2. **Rowley 熔合势垒分布二阶导数反演公式**：
    $$D_{\text{fus}}(E_{\text{c.m.}}) \equiv \frac{d^2(E_{\text{c.m.}} \sigma_{\text{fus}})}{d E_{\text{c.m.}}^2} = \pi R_B^2 \frac{2\pi}{\hbar\omega_B} \frac{\exp\left(\frac{2\pi(E_{\text{c.m.}}-V_B)}{\hbar\omega_B}\right)}{\left[1 + \exp\left(\frac{2\pi(E_{\text{c.m.}}-V_B)}{\hbar\omega_B}\right)\right]^2}$$
-   - 单一势垒下的半高全宽：$\text{FWHM} = \frac{\ln(3 + 2\sqrt{2})}{\pi} \hbar\omega_B \a0.56 \cdot \hbar\omega_B$。
+   - 单一势垒下的半高全宽：$\text{FWHM} = \frac{\ln(3 + 2\sqrt{2})}{\pi} \hbar\omega_B \approx 0.56 \cdot \hbar\omega_B$。
 
 ---
 
@@ -51,8 +51,8 @@ $$V_B \approx \frac{1.44 Z_1 Z_2}{R_B} - \frac{R_1 R_2}{R_1 + R_2} \frac{d_B}{a_
 
 | 出射粒子类别 | 库仑势垒阻挡 $V_C$ | 平均单粒子能量消耗 $\Delta E^*$ | 平均带走角动量 $\Delta l$ | 主导质量区与能区特征 |
 |---|---|---|---|---|
-| **中子 ($n$)** | $0\text{ MeV}$ (无库仑势垒) | $S_n + 2T \a10.5 - 11.5\text{ MeV}$ | $\sim 1\hbar$ ($s, p$ 波主导) | 稳定线及中重核区熔合蒸发主导通道 |
-| **质子 ($p$)** | $V_C \sim 5 - 8\text{ MeV}$ | $S_p + V_C + 2T \a14 - 17\text{ MeV}$ | $\sim 1 - 2\hbar$ | 极缺中子区（接近质子滴线）剧烈竞争 |
+| **中子 ($n$)** | $0\text{ MeV}$ (无库仑势垒) | $S_n + 2T \approx 10.5 - 11.5\text{ MeV}$ | $\sim 1\hbar$ ($s, p$ 波主导) | 稳定线及中重核区熔合蒸发主导通道 |
+| **质子 ($p$)** | $V_C \sim 5 - 8\text{ MeV}$ | $S_p + V_C + 2T \approx 14 - 17\text{ MeV}$ | $\sim 1 - 2\hbar$ | 极缺中子区（接近质子滴线）剧烈竞争 |
 | **$\alpha$ 粒子** | $V_C \sim 10 - 15\text{ MeV}$ | $S_\alpha + V_C + 2T \approx 20 - 25\text{ MeV}$ | $\sim 2 - 4\hbar$ | 轻核区及极高自旋离心势能过剩区 |
 | **裂变 ($f$)** | 转动液滴势垒 $B_f(J)$ | 释放巨大动能 ($\sim 100 - 150\text{ MeV}$) | 损耗全部角动量 | 当复合核自旋超过 $\ell_{\text{fiss}} \sim 65 - 75\hbar$ 时阻断蒸发 |
 

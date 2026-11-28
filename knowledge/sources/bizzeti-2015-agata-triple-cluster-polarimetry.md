@@ -147,7 +147,7 @@ Fig5标r12单位µm，同正文15mm cut/2mm voxel不同；不要从图轴刻度�
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| BIZ15-D21-1 | 依据 AGATA 三叶草阵列库仑激发与 137Cs 偏振测量原件对账审计证明：(1) 在 433.9 keV（108Pd）与 555.8 keV（104Pd）能点，实测分析能力 Q_exp 为 0.451(34) 与 0.484(24)，相比点状理想 Klein-Nishina 预测 Q0 发生 24.2%–37.3% 的几何立体角衰减；(2) 束流—反应平面与法向参考轴定义的置换直接导致实测不对称度 A 改变符号，可将负偏振 M1 跃迁人为伪造为正偏振 E2 跃迁；(3) 探测器固有方位角效率不平衡 a_inst 在 2%–5% 时足以完全抹平或逆转弱偏振（|P| < 0.15）的不对称度符号。必须通过非偏振基准源（137Cs 661.7 keV）严格标定 a_inst 并排查坐标轴符号约定。 | polarimetry-analyzing-power-boundary | direct-original-and-quantitative-audit | pp.143–154 Sec.3, Table 3, Table 5; polarization-analyzing-power-audit-029.json | true |
+| BIZ15-D21-1 | 依据 AGATA 三叶草阵列库仑激发与 137Cs 偏振测量原件对账审计证明：(1) 在 433.9 keV（108Pd）与 555.8 keV（104Pd）能点，实测分析能力 Q_exp 为 0.451(34) 与 0.484(24)，相比点状理想 Klein-Nishina 预测 Q0 发生 24.2%–37.3% 的几何立体角衰减；(2) 束流—反应平面与法向参考轴定义的置换直接导致实测不对称度 A 改变符号，可将负偏振 M1 跃迁人为伪造为正偏振 E2 跃迁；(3) 探测器固有方位角效率不平衡 a_inst 在 2%–5% 时足以完全抹平或逆转弱偏振（\|P\| < 0.15）的不对称度符号。必须通过非偏振基准源（137Cs 661.7 keV）严格标定 a_inst 并排查坐标轴符号约定。 | polarimetry-analyzing-power-boundary | direct-original-and-quantitative-audit | pp.143–154 Sec.3, Table 3, Table 5; polarization-analyzing-power-audit-029.json | true |
 
 ### 上游原件补核：Suffert的normal轴
 

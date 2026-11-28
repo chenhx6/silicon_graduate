@@ -117,9 +117,9 @@ The particle-rotor calculation identifies four low bands as a wobbling family an
 | ID | 审核项 | Agent 判断 | Evidence / locator | 审核状态 |
 |---|---|---|---|---|
 | JE02-AR-1 | Core reconstruction | TSD3 adds an experimentally connected third band and a proposed n_w=2 hierarchy, but the decisive strength point depends on an unpolarized 476-keV link. | Key Results and Competing Interpretations above | unreviewed |
-| JE02-AR-2 | Assumptions and dependencies | The large-|δ| solution for the 476-keV link and the common TSD band family selected by the PRM comparison are correct. | Method/results/model sections cited above | unreviewed |
+| JE02-AR-2 | Assumptions and dependencies | The large-\|δ\| solution for the 476-keV link and the common TSD band family selected by the PRM comparison are correct. | Method/results/model sections cited above | unreviewed |
 | JE02-AR-3 | Transfer conditions | Require multiple adjacent-band links, branch-independent electromagnetic information, and stable band identity before transferring a multiphonon label. | Source scope and claim locators above | unreviewed |
-| JE02-AR-4 | Failure conditions | The small-|δ| solution removes the phonon-rule enhancement; one usable TSD3→TSD2 point cannot establish robust scaling by itself. | Competing Interpretations and Limitations above | unreviewed |
+| JE02-AR-4 | Failure conditions | The small-\|δ\| solution removes the phonon-rule enhancement; one usable TSD3→TSD2 point cannot establish robust scaling by itself. | Competing Interpretations and Limitations above | unreviewed |
 | JE02-AR-5 | Reverse/falsification test | Obtain polarization and lifetimes for several TSD3→TSD2 links and retest Table II without model-selected branch choice. | Follow-up observables identified by the source/Agent | unreviewed |
 | JE02-AR-6 | Research-question decision | Keep as an early two-phonon benchmark with a prominent single-point/branch-selection warning. | Whole-source assessment | unreviewed |
 

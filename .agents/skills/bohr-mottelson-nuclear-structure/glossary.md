@@ -16,7 +16,7 @@ This glossary cross-references foundational nuclear structure concepts from Bohr
 
 ## 2. Mean Field and Single-Particle Motion (平均场与单粒子运动)
 
-- **Fermi Gas Model (费米气体模型)**: A degenerate zero-temperature Fermi liquid model with saturated density $\rho_0 \a0.16\text{ fm}^{-3}$, Fermi momentum $k_F \a1.36\text{ fm}^{-1}$, and Fermi kinetic energy $\epsilon_F \approx 38.5\text{ MeV}$.
+- **Fermi Gas Model (费米气体模型)**: A degenerate zero-temperature Fermi liquid model with saturated density $\rho_0 \approx 0.16\text{ fm}^{-3}$, Fermi momentum $k_F \approx 1.36\text{ fm}^{-1}$, and Fermi kinetic energy $\epsilon_F \approx 38.5\text{ MeV}$.
 - **Incompressibility (不可压缩系数 $K_\infty$)**: The curvature of the nuclear matter equation of state at saturation: $K_\infty = 9 \rho_0^2 \frac{d^2(E/A)}{d\rho^2} \approx 200 - 250\text{ MeV}$.
 - **Spin-Orbit Potential (自旋-轨道势)**: The surface-peaked vector potential $V_{ls}(r) \frac{1}{r} \frac{dV}{dr} (\vec{l}\cdot\vec{s})$ responsible for the nuclear magic numbers (28, 50, 82, 126).
 - **Nilsson Asymptotic Quantum Numbers (Nilsson 渐近量子数 $[N n_z \Lambda \Omega]$)**:
@@ -33,7 +33,7 @@ This glossary cross-references foundational nuclear structure concepts from Bohr
 - **Moment of Inertia (转动惯量 $\mathcal{J}$)**:
   - Rigid body limit: $\mathcal{J}_{\text{rig}} = \frac{2}{5} M R_0^2 (1 + \frac{1}{3} \delta)$;
   - Irrotational hydrodynamics: $\mathcal{J}_{\text{irrot}} \propto \beta_2^2 \sin^2(\gamma - \frac{2\pi}{3} k)$;
-  - Experimental values in deformed nuclei: $\mathcal{J}_{\text{exp}} \a0.3 - 0.5\ \mathcal{J}_{\text{rig}}$, suppressed by pairing correlations.
+  - Experimental values in deformed nuclei: $\mathcal{J}_{\text{exp}} \approx 0.3 - 0.5\ \mathcal{J}_{\text{rig}}$, suppressed by pairing correlations.
 - **Coriolis Coupling (科里奥利耦合)**: The kinematic coupling between collective rotation and valence quasiparticle angular momentum in the rotating frame: $H_{\text{cor}} = - \frac{\hbar^2}{\mathcal{J}} (\vec{I}\cdot\vec{j})$.
 - **Decoupling Parameter ($a$, 解耦参数)**: The diagonal Coriolis matrix element in a $K=1/2$ band, shifting alternate spin states by $a (-1)^{I+1/2}(I+1/2)$.
 - **Backbending (回弯现象)**: The sudden increase of the moment of inertia caused by the alignment of a pair of high-$j$ quasiparticles (e.g. $\pi h_{11/2}^2$ or $\nu i_{13/2}^2$) along the rotation axis.

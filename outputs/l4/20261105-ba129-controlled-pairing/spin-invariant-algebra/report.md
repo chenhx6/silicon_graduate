@@ -295,7 +295,7 @@ Consequently, the second conjecture is also exact at common \(C_\beta\):
 \boxed{
 \frac{\widetilde\beta}{\beta_{\rm inv}}
 =\sqrt{\frac{(2j+5)(2j+4)(2j+3)}{60(2j+1)}} .
-\tag{9}
+}\tag{9}
 \]
 
 At \(j=11/2\) this is \(\sqrt{14/3}=2.16024689947\).

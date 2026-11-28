@@ -19,7 +19,7 @@
 - **Libration Orbit (相空间微振荡天平动轨道)**: 相点围绕稳定椭圆定点闭合做周期性旋转运动的轨迹，量子化后严格对应于多声子摆动运动（Wobbling）。
 - **Circulation Orbit (相空间旋转大循环轨道)**: 相点跨越鞍点在全坐标空间做单向大振幅回转运动的轨迹。
 - **Separatrix (相空间分离线)**: 恰好穿过能量鞍点（双曲不稳定点，Hyperbolic Fixed Point）的极端渐近相轨道，将相空间严格区隔为局部定点进动区（摆动）与大范围跨越环流区（手征分岔）。
-- **Critical Energy ($E_n_{\text{crit}}$, 分离线临界能量)**: 动量沿三轴转子中间惯量轴完全对齐时的临界能量值：$2 E_n_{\text{crit}} \mathcal{J}_{\text{middle}} = I^2$。
+- **Critical Energy ($E_{\text{crit}}$, 分离线临界能量)**: 动量沿三轴转子中间惯量轴完全对齐时的临界能量值：$2 E_{\text{crit}} \mathcal{J}_{\text{middle}} = I^2$。
 
 ---
 

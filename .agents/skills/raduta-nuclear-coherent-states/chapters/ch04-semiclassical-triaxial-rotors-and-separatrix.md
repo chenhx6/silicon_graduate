@@ -26,18 +26,18 @@ $$\mathcal{H}(\theta, \phi) = \frac{I^2}{2} \left[ \frac{\sin^2\theta \cos^2\phi
 ### 2.1 极值定点分类
 对 Hamilton 函数求一阶导数置零：$\frac{\partial \mathcal{H}}{\partial \theta} = 0, \frac{\partial \mathcal{H}}{\partial \phi} = 0$：
 1. **稳定极小椭圆点**：位于 $\theta = 90^\circ, \phi = 0^\circ$（角动量严格对齐最大惯量轴 1），能量为 $E_{\min} = \frac{I^2}{2\mathcal{J}_1}$；
-2. **稳定极大椭圆点**：位于 $\theta = 90^\circ, \phi = 90^\circ$（角动量对齐最小惯量轴 2），能量为 $E_m_{\max} = \frac{I^2}{2\mathcal{J}_2}$；
+2. **稳定极大椭圆点**：位于 $\theta = 90^\circ, \phi = 90^\circ$（角动量对齐最小惯量轴 2），能量为 $E_{\max} = \frac{I^2}{2\mathcal{J}_2}$；
 3. **不稳定双曲马鞍点**：位于 $\theta = 0^\circ$（角动量对齐中间惯量轴 3），鞍点能量为：
-   $$E_n_{\text{crit}} = \frac{I^2}{2\mathcal{J}_3}.$$
+   $$E_{\text{crit}} = \frac{I^2}{2\mathcal{J}_3}.$$
 
 ### 2.2 分离线拓扑与相轨道定域性
-当系统总转动能量恰好等于鞍点能量 $E = E_n_{\text{crit}}$ 时，能量方程化为：
+当系统总转动能量恰好等于鞍点能量 $E = E_{\text{crit}}$ 时，能量方程化为：
 $$\frac{\sin^2\theta \cos^2\phi}{\mathcal{J}_1} + \frac{\sin^2\theta \sin^2\phi}{\mathcal{J}_2} + \frac{\cos^2\theta}{\mathcal{J}_3} = \frac{1}{\mathcal{J}_3}.$$
 化简得到相空间在球面上的分界闭合双曲轨迹——**分离线 (Separatrix)**：
 $$\tan^2\theta = \frac{\frac{1}{\mathcal{J}_3} - \frac{1}{\mathcal{J}_1}}{\frac{1}{\mathcal{J}_2} - \frac{1}{\mathcal{J}_3}} \cdot \frac{1}{\sin^2\phi}.$$
-- **亚临界区域（$E < E_n_{\text{crit}}$）**：
+- **亚临界区域（$E < E_{\text{crit}}$）**：
   轨道封闭环绕最大惯量轴做微小周期性天平动（Libration），在量子力学中严格对应**多声子摆动运动 (Wobbling Mode)**；
-- **超临界区域（$E > E_n_{\text{crit}}$）**：
+- **超临界区域（$E > E_{\text{crit}}$）**：
   相点冲出分离线限制，绕长轴做全角循环环流（Circulation）；在奇奇核与多准粒子耦合下，系统分岔并自发破缺时间反演对称性，演变为**静态手征双阱轨道 (Chiral Orbitals)**。
 
 ---
@@ -45,7 +45,7 @@ $$\tan^2\theta = \frac{\frac{1}{\mathcal{J}_3} - \frac{1}{\mathcal{J}_1}}{\frac{
 ## 3. 在束核谱学应用：高自旋摆动运动失稳临界线判定
 在在束核谱学高自旋态演化中，摆动激发能量为 $E_{\text{wob}} = E(n_w=1, I) - E(n_w=0, I)$：
 - 随着自旋上升，有效总转动能量快速抬升；
-- 当基态带能量接近分离线临界能量 $E_n_{\text{crit}}$ 时，相空间鞍点附近的局部回复力常数迅速趋近于零，导致摆动频率剧烈下降软化；
+- 当基态带能量接近分离线临界能量 $E_{\text{crit}}$ 时，相空间鞍点附近的局部回复力常数迅速趋近于零，导致摆动频率剧烈下降软化；
 - 超过分离线后，稳定主轴摆动模式彻底消亡，体系发生从摆动进动向量子手征取向的宏观拓扑相变。
 
 ---

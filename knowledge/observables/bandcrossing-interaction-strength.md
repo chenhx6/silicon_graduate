@@ -7,7 +7,7 @@ updated: 2026-11-06
 status: active
 review_status: unreviewed
 observable_kind: hamiltonian-matrix-element
-symbol: |V_{12}|
+symbol: '|V_{12}|'
 units: keV
 tags: [backbending, bandcrossing, csm, routhian, quasiparticle-alignment]
 ---
@@ -39,9 +39,9 @@ $$|V_{12}| = \frac{1}{2} \Delta E'_{\text{min}}$$
 
 | 相互作用强度量级 | 物理表现形式 | 实验核转动惯量 $\mathcal{J}^{(1)}$ 曲线特征 | 物理微观机制 |
 | :--- | :--- | :--- | :--- |
-| **$|V_{12}| < 35\text{ keV}$（弱相互作用）** | **尖锐回弯（Sharp Backbending）** | $\hbar\omega$ 曲线出现强烈的负斜率反折（$S$ 型回弯） | 准粒子轨道与核芯弱耦合，配对隙突变去对 |
-| **$35\text{ keV} \le |V_{12}| < 65\text{ keV}$（中等）** | **标准回弯** | 频率停滞或小幅度折返 | 费米面适中，两带平滑混合 |
-| **$|V_{12}| \ge 65\text{ keV}$（强相互作用）** | **平滑上弯（Smooth Upbending）** | 动力学转动惯量单调上升，无任何负斜率 | 强三轴形变、四极电荷分布强混合或大配对涨落 |
+| **$\vert V_{12}\vert < 35\text{ keV}$（弱相互作用）** | **尖锐回弯（Sharp Backbending）** | $\hbar\omega$ 曲线出现强烈的负斜率反折（$S$ 型回弯） | 准粒子轨道与核芯弱耦合，配对隙突变去对 |
+| **$35\text{ keV} \le \vert V_{12}\vert < 65\text{ keV}$（中等）** | **标准回弯** | 频率停滞或小幅度折返 | 费米面适中，两带平滑混合 |
+| **$\vert V_{12}\vert \ge 65\text{ keV}$（强相互作用）** | **平滑上弯（Smooth Upbending）** | 动力学转动惯量单调上升，无任何负斜率 | 强三轴形变、四极电荷分布强混合或大配对涨落 |
 
 ## Oscillations across Isotopic Chains
 

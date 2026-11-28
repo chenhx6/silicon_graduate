@@ -33,11 +33,11 @@ $$B(M1; 0_1^+ \to 1_{\text{sc}}^+) = \frac{3}{4\pi} \frac{8 N_\pi N_\nu}{2N - 1}
 
 | 巨共振模式 | 自旋宇称同位旋 $J^\pi, \Delta T$ | 宏观流体动力学激发能公式 | 典型共振能量 $E_x$ | 典型共振全宽 $\Gamma$ | 物理探针与约束的微观性质 |
 |---|---|---|---|---|---|
-| **等标巨单极 (ISGMR)** | $0^+, \Delta T=0$ | $E_{\text{GMR}} \a80 \cdot A^{-1/3}\text{ MeV}$ | $^{208}\text{Pb}: 13.7\text{ MeV}$ | $2.5 - 3.5\text{ MeV}$ | 零角散射非弹 $\alpha$，约束核物质不可压缩性 $K_\infty$ |
+| **等标巨单极 (ISGMR)** | $0^+, \Delta T=0$ | $E_{\text{GMR}} \approx 80 \cdot A^{-1/3}\text{ MeV}$ | $^{208}\text{Pb}: 13.7\text{ MeV}$ | $2.5 - 3.5\text{ MeV}$ | 零角散射非弹 $\alpha$，约束核物质不可压缩性 $K_\infty$ |
 | **等矢巨偶极 (IVGDR)** | $1^-, \Delta T=1$ | $E_{\text{GDR}} \approx 31.2 A^{-1/3} + 20.6 A^{-1/6}\text{ MeV}$ | $^{208}\text{Pb}: 13.4\text{ MeV}$ | $4.0 - 5.0\text{ MeV}$ | 光核反应 $(\gamma, n)$，长椭球形变分裂为 $1:2$ 双峰 |
 | **等标巨四极 (ISGQR)** | $2^+, \Delta T=0$ | $E_{\text{GQR}} \approx 64 \cdot A^{-1/3}\text{ MeV}$ | $^{208}\text{Pb}: 10.9\text{ MeV}$ | $2.5 - 3.0\text{ MeV}$ | 非弹质子/$\alpha$ 散射，耗尽 $100\%$ 四极能量加权求和规则 |
-| **等标巨八极 (ISGOR)** | $3^-, \Delta T=0$ | $E_{\text{GOR}} \a110 \cdot A^{-1/3}\text{ MeV}$ | $^{208}\text{Pb}: 18.5\text{ MeV}$ | $4.0 - 6.0\text{ MeV}$ | 高频表面八极梨形振动 |
-| **低能软偶极 (Soft $E1$)** | $1^-, \Delta T=1$ | $E_{\text{soft}} \a1.0 - 2.5\text{ MeV}$ | $^{11}\text{Li}: \sim 1.2\text{ MeV}$ | $\sim 1.0\text{ MeV}$ | 库仑破裂反应，弱束缚晕核特征低能相干极化 |
+| **等标巨八极 (ISGOR)** | $3^-, \Delta T=0$ | $E_{\text{GOR}} \approx 110 \cdot A^{-1/3}\text{ MeV}$ | $^{208}\text{Pb}: 18.5\text{ MeV}$ | $4.0 - 6.0\text{ MeV}$ | 高频表面八极梨形振动 |
+| **低能软偶极 (Soft $E1$)** | $1^-, \Delta T=1$ | $E_{\text{soft}} \approx 1.0 - 2.5\text{ MeV}$ | $^{11}\text{Li}: \sim 1.2\text{ MeV}$ | $\sim 1.0\text{ MeV}$ | 库仑破裂反应，弱束缚晕核特征低能相干极化 |
 
 ---
 
@@ -58,4 +58,4 @@ $$B(M1; 0_1^+ \to 1_{\text{sc}}^+) = \frac{3}{4\pi} \frac{8 N_\pi N_\nu}{2N - 1}
 |---|---|---|---|---|---|
 | **$^{186}\text{Pb}$** | $0_1^+ (0\text{ keV}), 0_2^+ (532\text{ keV}), 0_3^+ (650\text{ keV})$ | **三重形状共存**：球形 ($0_1^+$)、扁椭 ($0_2^+$)、长椭 ($0_3^+$) | $\rho^2(0_2^+ \to 0_1^+) \approx 25 \pm 5$ | $V \sim 40 - 60\text{ keV}$ | $Z=82$ 质子球形闭壳与中壳中子诱发质子 $2p-2h, 4p-4h$ 侵入能态强竞争 |
 | **$^{188}\text{Hg}$** | $0_1^+ (0\text{ keV}), 0_2^+ (824\text{ keV})$ | 微弱扁椭基态 ($0_1^+$) 与大长椭侵入态 ($0_2^+$) | $\rho^2(0_2^+ \to 0_1^+) \approx 45 \pm 8$ | $V \approx 65\text{ keV}$ | 奇偶同位素激光同位素移位（Isotope Shift）发生剧烈交错发散 |
-| **$^{152}\text{Sm}$** | $0_1^+ (0\text{ keV}), 0_2^+ (685\text{ keV})$ | 球形向长椭过渡临界相变点 (X(5) 临界点) | $\rho^2(0_2^+ \to 0_1^+) \approx 51 \pm 6$ | $V \a80\text{ keV}$ | $N=90$ 处四极长程力驱动的一阶宏观相变 |
+| **$^{152}\text{Sm}$** | $0_1^+ (0\text{ keV}), 0_2^+ (685\text{ keV})$ | 球形向长椭过渡临界相变点 (X(5) 临界点) | $\rho^2(0_2^+ \to 0_1^+) \approx 51 \pm 6$ | $V \approx 80\text{ keV}$ | $N=90$ 处四极长程力驱动的一阶宏观相变 |

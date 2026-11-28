@@ -52,7 +52,7 @@ description: "Ashok Kumar Jain 等《Nuclear Isomers: A Primer》：同核异能
    - **Weisskopf 阻碍因子与折合阻碍度幂律 (Reduced Hindrance $f_\nu$)**：
      $$F_W \equiv \frac{T_{1/2}^{\text{exp}}}{T_{1/2}^W} = \frac{B_W(\sigma\lambda)}{B(\sigma\lambda)_{\text{exp}}}, \quad f_\nu \equiv (F_W)^{1/\nu} = \left( \frac{T_{1/2}^{\text{exp}}}{T_{1/2}^W} \right)^{1/(|\Delta K| - \lambda)}.$$
      实验经验规律表明：对于良好的轴对称变形核，$f_\nu$ 表现出惊人的常数聚集性：
-     $$f_\nu \a30 - 100 \implies \text{每增加一级 } K \text{-禁戒，跃迁几率约降低两个数量级（阻碍 } 100 \text{ 倍）}！$$
+     $$f_\nu \approx 30 - 100 \implies \text{每增加一级 } K \text{-禁戒，跃迁几率约降低两个数量级（阻碍 } 100 \text{ 倍）}！$$
      例如著名的超长寿命同核异能态 $^{178m2}\text{Hf}$（$K^\pi = 16^+, T_{1/2} = 31\text{ 年}$），退激至 $K=8$ 带首经历了 $\nu = 8$ 级高阶禁戒。
 
 4. **三轴形变诱导 $K$-混合与阻碍度异常塌缩（第 5 章 §5.4）**：
@@ -63,7 +63,7 @@ description: "Ashok Kumar Jain 等《Nuclear Isomers: A Primer》：同核异能
    - **三轴实验指纹**：由于初态与终态波函数中杂化渗入了相同或相近的中间 $K$ 成分，使得原本名义上高 $\nu$ 禁戒的跃迁能够通过波函数中微小的 $K$ 杂质分量无禁戒地快速退激；
    - **折合阻碍度断崖式暴跌**：
      $$f_\nu \ll 10 \quad (\text{甚至降至 } f_\nu \sim 1 - 3);$$
-     在 $A \a$A \aA \a130$ 质量区（如 $\text{Cs}, \text{Ba}, \text{La}, \text{Nd}$ 的奇奇核与多准粒子态）观测到 $f_\nu$ 的异常超常塌缩，是实验裁决原子核具备**真实非轴对称三轴形变**的核心谱学证据！
+     在 $A \approx 130$ 质量区（如 $\text{Cs}, \text{Ba}, \text{La}, \text{Nd}$ 的奇奇核与多准粒子态）观测到 $f_\nu$ 的异常超常塌缩，是实验裁决原子核具备**真实非轴对称三轴形变**的核心谱学证据！
 
 5. **裂变双峰势垒与超形变形状异能态（第 4 章）**：
    - 在微观-宏观 Strutinsky 壳修正下，重核（铀、钚、镅同位素）在四极形变空间形成双峰裂变势垒；
@@ -81,7 +81,7 @@ description: "Ashok Kumar Jain 等《Nuclear Isomers: A Primer》：同核异能
 | [ch01](chapters/ch01-isomers-classification-and-spin-traps.md) | 同核异能态分类学与自旋陷阱机制 | 四大物理机制分类、相空间因子 $E_\gamma^{2L+1}$ 压制、高自旋与在束延迟符合 |
 | [ch03](chapters/ch03-seniority-isomers-and-mid-shell-cancellation.md) | Seniority 代数 scheme 与半满壳相消定理 | Racah 母权展开、粒子数抛物线因式、半满壳 $B(E2) \equiv 0$ 与 $^{130}\text{Sn}, {}^{210}\text{Po}$ |
 | [ch04](chapters/ch04-shape-isomers-and-double-humped-fission.md) | 形状异能态与双峰裂变势垒动力学 | Strutinsky 壳修正、第二超形变极小态、WKB 穿透作用量与超形变谱学 |
-| [ch05-k](chapters/ch05-k-isomers-and-hindrance-systematics.md) | $K$-同核异能态、选择定则与折合阻碍度 | 轴向自旋投影守恒、禁戒度 $\nu = |\Delta K| - \lambda$、经验幂律 $f_\nu \a100$ 与 $^{178}\text{Hf}$ |
+| [ch05-k](chapters/ch05-k-isomers-and-hindrance-systematics.md) | $K$-同核异能态、选择定则与折合阻碍度 | 轴向自旋投影守恒、禁戒度 $\nu = \vert\Delta K\vert - \lambda$、经验幂律 $f_\nu \approx 100$ 与 $^{178}\text{Hf}$ |
 | [ch05-mix](chapters/ch05-triaxiality-induced-k-mixing.md) | 三轴形变诱导 $K$-混合与阻碍度塌缩指纹 | 轴对称破坏、波函数多 $K$ 空间杂化、$f_\nu < 10$ 异常塌缩与 $A\sim 130$ 三轴判定 |
 
 ## Supporting Reference Files

@@ -35,9 +35,9 @@ Because axial symmetry is broken ($\mathcal{J}_s \ne \mathcal{J}_i \ne \mathcal{
    $$\delta_l = \sqrt{\frac{15}{\pi}} \beta_2 \sin\left(\frac{\pi}{3} - \gamma\right)$$
 
 ### Restoring Force and Reduced Inertia:
-$$C_k = \frac{4 Z N}{A^2} b_$C_{\text{sym}}$ \cdot \delta_k^2 \cdot \frac{A}{6}$$
+$$C_k = \frac{4 Z N}{A^2} b_{\text{sym}} \cdot \delta_k^2 \cdot \frac{A}{6}$$
 $$\mathcal{J}_{\text{red}, k} = \frac{Z N}{A^2} \mathcal{J}_k(\beta_2, \gamma)$$
-where $b_$C_{\text{sym}}$ \approx 28 - 32\text{ MeV}$ is the nuclear symmetry energy.
+where $b_{\text{sym}} \approx 28 - 32\text{ MeV}$ is the nuclear symmetry energy.
 
 ### Eigenfrequencies & $B(M1)$ Strengths:
 $$E_{1^+, k} = \hbar\omega_k = \hbar \sqrt{\frac{C_k}{\mathcal{J}_{\text{red}, k}}}$$

@@ -26,11 +26,11 @@ description: "吴治华《原子核物理实验方法》（第三版）与在束
 
 1. **放射性统计与高计数率死时间双根判决（第 1 章 §1.5）**：
    - **非扩展型（Non-paralyzable）**：真实输入率 $m = n / (1 - n \tau_N)$；
-   - **扩展型（Paralyzable）**：记录率 $n = m e^{-m \tau_P}$，在 $m = 1/\tau_P$ 处达到最大记录率 $n_m_{\max} = 1/(e \tau_P)$；
-   - **高计数率双根危险**：当 $n < n_m_{\max}$ 时，方程存在两个实数根 $m_1 < 1/\tau_P$（物理正常分支）与 $m_2 > 1/\tau_P$（严重阻塞瘫痪分支）。绝不能脱离计数率连续监测盲目套用公式；必须采用**周期性脉冲发生器（Pulser injection）**注入前放测试端，通过实测活时间分数 $f_{\text{live}} = N_{\text{meas}} / N_{\text{injected}}$ 实现模型无关的绝对计数恢复。
+   - **扩展型（Paralyzable）**：记录率 $n = m e^{-m \tau_P}$，在 $m = 1/\tau_P$ 处达到最大记录率 $n_{\max} = 1/(e \tau_P)$；
+   - **高计数率双根危险**：当 $n < n_{\max}$ 时，方程存在两个实数根 $m_1 < 1/\tau_P$（物理正常分支）与 $m_2 > 1/\tau_P$（严重阻塞瘫痪分支）。绝不能脱离计数率连续监测盲目套用公式；必须采用**周期性脉冲发生器（Pulser injection）**注入前放测试端，通过实测活时间分数 $f_{\text{live}} = N_{\text{meas}} / N_{\text{injected}}$ 实现模型无关的绝对计数恢复。
 
 2. **HPGe 探测器微观物理与高精度效率标定（第 5、10 章）**：
-   - **能量分辨率三要素**：$(\text{FWHM})^2 = (2.355 \sqrt{F \epsilon E_\gamma})^2 + (\text{FWHM})_{\text{noise}}^2 + (\text{FWHM})_{\text{drift}}^2$，其中 Fano 因子 $F \a0.10$，有效电离能 $\epsilon_{\text{Ge}} = 2.96\text{ eV}$；
+   - **能量分辨率三要素**：$(\text{FWHM})^2 = (2.355 \sqrt{F \epsilon E_\gamma})^2 + (\text{FWHM})_{\text{noise}}^2 + (\text{FWHM})_{\text{drift}}^2$，其中 Fano 因子 $F \approx 0.10$，有效电离能 $\epsilon_{\text{Ge}} = 2.96\text{ eV}$；
    - **全能峰效率曲线拟合**：采用对数高阶多项式 $\ln\epsilon = \sum_{k=0}^N a_k (\ln E_\gamma)^k$（低能区 $100 - 500\text{ keV}$ 与高能区 $500 - 3000\text{ keV}$ 分段拟合或统一五阶拟合）；
    - **真符合求和（True Coincidence Summing, TCS）校正**：级联 $\gamma$ 射线在紧凑立体角下同时被同一晶体吸收，导致单峰计数损失（Summing-out）或全能虚假加和峰（Summing-in），必须在近距离标定时进行几何立体角立体修正。
 

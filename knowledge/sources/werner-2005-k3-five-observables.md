@@ -47,7 +47,7 @@ PDF 2–12 为正文和结论，13–14 为参考文献及首图，15–17 为�
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | WERN05-1 | 完整 \(q_3\) 双求和含带符号的三矩阵元闭合路径。二阶 \(Q\)-声子近似保留 \(2_1^+\) 的对角环与经过 \(2_2^+\) 的交叉环。Eq. (15) 给两项相反的相对符号，Eq. (16) 用三个绝对跃迁强度、由 \(Q_s^2(2_1^+)\) 得到的对角强度及 \(Q_s(2_1^+)\) 的符号重建近似值。 | method-result | direct | PDF pp.4–6, Eqs. (12)–(17) | false |
-| WERN05-2 | 作者用 \(R=(1+|K_3^{\mathrm{appr}}|)/(1+|K_3|)\) 衡量近似。刚性三轴模型中 \(R-1\) 的最大偏离幅度约 8%，\(N=10\) 的 IBM 网格小于 7%。刚性模型的角度偏差小于 \(3.5^\circ\)。 | model-result | direct | PDF pp.7–8, Eqs. (25),(28), Figs. 1–3 | false |
+| WERN05-2 | 作者用 \(R=(1+\vert K_3^{\mathrm{appr}}\vert)/(1+\vert K_3\vert)\) 衡量近似。刚性三轴模型中 \(R-1\) 的最大偏离幅度约 8%，\(N=10\) 的 IBM 网格小于 7%。刚性模型的角度偏差小于 \(3.5^\circ\)。 | model-result | direct | PDF pp.7–8, Eqs. (25),(28), Figs. 1–3 | false |
 | WERN05-3 | Table I 将既有 E2 数据计算的 \(K_3^{\mathrm{appr}}\) 与 IBM 值比较。正文着重保留 \(^{152}\mathrm{Sm}\) 近似结果接近轴对称极限与过渡区解释之间的张力，并讨论 \(^{194,196}\mathrm{Pt}\) 的正静态四极矩。 | analysis-of-published-data | direct | PDF pp.10–12, p.15 Table I | false |
 
 ## Competing Interpretations and Limitations

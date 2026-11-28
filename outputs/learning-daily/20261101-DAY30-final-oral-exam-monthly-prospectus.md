@@ -142,7 +142,7 @@ updated: 2026-11-01
 
 | 核素 / 主题 | 竞争主张 | 核心反证与原文定位 | 缺失的关键伴随观测量 (Missing companion) | 可否在当前资源下检验 |
 |---|---|---|---|---|
-| $^{135}\text{Pr}$ | 低自旋横向摆动 vs 倾斜进动 | Lv et al. 2022 ([[lv-2022-evidence-against-wobbling-135pr]]) 测得带间连接线混合比极小（$|\delta| \approx 0.16$），$M1$ 占优（$97.5\%$），$B(E2)$ 接近零。 | 逐角净峰面积、原始符合矩阵、扣除门污染后的联合偏振不对称度。 | 否（Gammasphere 原始符合矩阵未公开，保持 L3 响应合同）。 |
+| $^{135}\text{Pr}$ | 低自旋横向摆动 vs 倾斜进动 | Lv et al. 2022 ([[lv-2022-evidence-against-wobbling-135pr]]) 测得带间连接线混合比极小（$\vert\delta\vert \approx 0.16$），$M1$ 占优（$97.5\%$），$B(E2)$ 接近零。 | 逐角净峰面积、原始符合矩阵、扣除门污染后的联合偏振不对称度。 | 否（Gammasphere 原始符合矩阵未公开，保持 L3 响应合同）。 |
 | $^{131}\text{Xe}$ | 低自旋 wobbling vs 单准中子 signature partner | Chakraborty 2023 ([[chakraborty-2023-131xe-wobbling-origin]]) 发现带间跃迁混合比存在近零小解，且三篇文献属于单次采集。 | 881.8-keV 线的实验线偏振度、794.8-keV 跃迁的内转换电子谱、1979/1983 原始逐线数据表。 | 否（VECC INGA 原始事件树未开源，保持 L3 谱系账本）。 |
 | $^{134}\text{Pr}$ | 理想静态手征双重带 vs 动态涨落/构型混合 | Tonev et al. 2007 ([[tonev-2007-questioning-chirality-134pr]]) 测得伙伴带绝对寿命与带内 $B(E2)$ 存在严重不对称性（相差数倍）。 | 统一算符约定下的完整跃迁矩阵元、扣除多步级联 feeding 的时间响应。 | 否（Euroball IV 原始数据未在库，保持 L3/L4 candidate）。 |
 | $^{144,146}\text{Ba}$ | 稳定静态梨形形变 vs 动态八极振动 | Bucher et al. 2017 ([[bucher-2017-146ba-direct-octupole]]) 证实 $^{146}\text{Ba}$ 具有相近 $B(E3)$ 但偶极矩 $D_0$ 急剧下落。 | 高激发态两声子八极四重态完整探测、独立微观寿命与多重库激对角矩阵元。 | 否（库仑激发非对角 GOSIA 协方差未开源，保持 L3 梯级图）。 |

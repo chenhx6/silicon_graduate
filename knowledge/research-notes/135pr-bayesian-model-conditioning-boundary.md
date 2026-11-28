@@ -29,8 +29,8 @@ tags: [135pr, bayesian, model-conditioning, response-boundary, paper-prospectus]
 | Chen 2026 accepted record names CQPC and Metropolis–Hastings MCMC | [[chen-2026-bayesian-inertia-wobbling-135pr]] `CH26-B1` | model-conditioned Bayesian inertia inference | full manuscript likelihood, priors, sampler diagnostics and posterior samples |
 | Chen abstract states energy-only constraints and fixed EM inputs | same source `CH26-B2`, `CH26-B4` | energies can condition inertia posterior and propagate conditional EM predictions | fixed-input values/provenance, their uncertainty and independent holdout |
 | Chen reports `J_m > J_s > J_l` and transition stability over energy-compatible region | same source `CH26-B3`, `CH26-B7` | within-model robustness claim | model comparison, alternative mechanism evidence and raw experimental response |
-| Matta reports large-`|δ|`/E2-rich branch | [[matta-2015-transverse-wobbling-135pr]] `M15-D22-R095-1` | support-chain branch input | detector response/Q/raw/Cov compatibility with other campaigns |
-| Lv reports independent small-`|δ|` `P-R_ac` branch | [[lv-2022-evidence-against-wobbling-135pr]] `L22-D22-R095-1` | counter-chain branch input | joint likelihood across response, gates, polarization and covariance |
+| Matta reports large-`\|δ\|`/E2-rich branch | [[matta-2015-transverse-wobbling-135pr]] `M15-D22-R095-1` | support-chain branch input | detector response/Q/raw/Cov compatibility with other campaigns |
+| Lv reports independent small-`\|δ\|` `P-R_ac` branch | [[lv-2022-evidence-against-wobbling-135pr]] `L22-D22-R095-1` | counter-chain branch input | joint likelihood across response, gates, polarization and covariance |
 | Sensharma gives fixed-condition χ² preference | [[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] `SH26-D22-R095-1` | conditional reanalysis result | complete event/run ledger, nuisance profile and code |
 
 ## Provisional Reasoning

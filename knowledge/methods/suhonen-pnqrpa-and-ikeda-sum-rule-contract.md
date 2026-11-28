@@ -45,13 +45,13 @@ Gamow-Teller 跃迁算符在准粒子表象下的约化矩阵元，以及基于�
    Suhonen 利用双对易子与正交完备性 $\sum_k (X_{pn}^k X_{p'n'}^k - Y_{pn}^k Y_{p'n'}^k) = \delta_{pp'}\delta_{nn'}$ 证明：无论两体相互作用强度如何调节、基态关联多强，求和差值恒等于未配对中子数 $3(N-Z)$；
 4. **$g_{\text{pp}}$ 诱发 $\beta^+$ 衰变相消与相变临界失稳**：
    - 证明增加吸引性粒子-粒子相互作用 $g_{\text{pp}}$ 会使 $B$ 矩阵元剧烈增加，导致 $X$ 与 $Y$ 振幅在低能态发生相消干涉，急剧压低 $\beta^+$ 强度与 $2\nu\beta\beta$ 矩阵元；
-   - 给出当 $g_{\text{pp}} \to g_{\text{pp}}^n_{\text{crit}} \a1.1 - 1.3$ 时，第一激发态能量塌缩至零（$\hbar\omega \to 0$），标志着偶偶核基态发生向质子-中子超流态的相变。
+   - 给出当 $g_{\text{pp}} \to g_{\text{pp}}^n_{\text{crit}} \approx 1.1 - 1.3$ 时，第一激发态能量塌缩至零（$\hbar\omega \to 0$），标志着偶偶核基态发生向质子-中子超流态的相变。
 
 ## What It Cannot Establish Alone
 
 1. **准玻色子近似（QBA）在临界点失效**：当 $g_{\text{pp}} \approx g_{\text{pp}}^n_{\text{crit}}$ 时，基态关联极度增强导致 $|Y|^2$ 显著偏离零，费米子反对易子破缺严重，经典 pnQRPA 给出虚频本征值，必须采用重整化 pnQRPA（RQRPA）或自洽投影壳模型；
-2. **自由核子轴矢量耦合常数淬灭（$g_A$ Quenching）的微观溯源**：pnQRPA 能说明价空间组态混合的强度再分配，但无法自动包含高能 $\Delta(1232)$ 异构体激发与双体介子交换流（MEC）导致的全局淬灭（$g_A^{\text{eff}} \a1.0$ 或 $1.27$），需结合第一性原理手征 EFT 弱流算符；
-3. **形变核中的轴对称/三轴角动量破缺**：标准球形 pnQRPA 不能直接处理强形变核（如稀土区或 $A\a$A \aA \a130$ 区）中的 $K$ 混合与内禀转动进动，需扩展为变形 pnQRPA（Deformed pnQRPA）。
+2. **自由核子轴矢量耦合常数淬灭（$g_A$ Quenching）的微观溯源**：pnQRPA 能说明价空间组态混合的强度再分配，但无法自动包含高能 $\Delta(1232)$ 异构体激发与双体介子交换流（MEC）导致的全局淬灭（$g_A^{\text{eff}} \approx 1.0$ 或 $1.27$），需结合第一性原理手征 EFT 弱流算符；
+3. **形变核中的轴对称/三轴角动量破缺**：标准球形 pnQRPA 不能直接处理强形变核（如稀土区或 $A \approx 130$ 区）中的 $K$ 混合与内禀转动进动，需扩展为变形 pnQRPA（Deformed pnQRPA）。
 
 ## Sources
 

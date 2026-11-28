@@ -45,7 +45,7 @@ arXiv API的作者、题名、期刊引用、DOI与PDF首页作者/题名相符�
 
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| EN03-1 | Fig. 3 中部的实验图点是从激发带 E1 强度推的 |D₀|。过零与变号来自模型计算。 | model-result | derived | PDF pp.4–5, Fig. 3 | true |
+| EN03-1 | Fig. 3 中部的实验图点是从激发带 E1 强度推的 \|D₀\|。过零与变号来自模型计算。 | model-result | derived | PDF pp.4–5, Fig. 3 | true |
 | EN03-2 | 末粒子与核芯相互自洽极化。实验室量的提取用刚性转子 1/3 因子，计算未显式做宇称投影。 | model-analysis | derived | PDF p.6 | true |
 | EN03-3 | Eq. (3) 的 Schiff 算符含 −(5/3)⟨r_ch²⟩ 项，Eqs. (5)–(6) 限定双重态近似，最终实验室估计采用零程直接近似。 | theory-formulation | derived | PDF pp.2–3, Eqs. (1)–(4) | true |
 

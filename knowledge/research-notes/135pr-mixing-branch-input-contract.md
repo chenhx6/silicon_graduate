@@ -211,9 +211,9 @@ Matta 后续完整分析或学位论文是否给出可重放的角分布输入�
 
 | 证据层 | 可直接使用的结果 | 不能越过的边界 |
 |---|---|---|
-| Matta 2015 | 747.0/812.8/754.6-keV 连接线的角分布大 `|δ|`、813-keV 相对强度和 INGA asymmetry | `A` 不等于 Lv 的 `P`；未给完整 raw counts、INGA `Q`/Cov 和绝对寿命 |
-| Lv 2022 | JUROGAM 的 `P`、`R_ac`、门污染控制和小 `|δ|` 分支 | 747/813/450 的联合误差面与原始 response 未完全公开；755-keV 偏振缺失 |
-| Sensharma 2026 | 五条 DB2→DB1 新连接、三条小 `|δ|`、以及固定 `σ/I=.2` 下旧 AD 对大根的条件 χ² 偏好 | 新实验无 polarization/absolute lifetime；Fig.12 不是完整 nuisance profile，且与早期 Gammasphere 数据存在共享谱系 |
+| Matta 2015 | 747.0/812.8/754.6-keV 连接线的角分布大 `\|δ\|`、813-keV 相对强度和 INGA asymmetry | `A` 不等于 Lv 的 `P`；未给完整 raw counts、INGA `Q`/Cov 和绝对寿命 |
+| Lv 2022 | JUROGAM 的 `P`、`R_ac`、门污染控制和小 `\|δ\|` 分支 | 747/813/450 的联合误差面与原始 response 未完全公开；755-keV 偏振缺失 |
+| Sensharma 2026 | 五条 DB2→DB1 新连接、三条小 `\|δ\|`、以及固定 `σ/I=.2` 下旧 AD 对大根的条件 χ² 偏好 | 新实验无 polarization/absolute lifetime；Fig.12 不是完整 nuisance profile，且与早期 Gammasphere 数据存在共享谱系 |
 
 论文的最小可行版本可以只做公开表格级的 evidence audit：重建每条线的 `Ji→Jf`、能量、`δ`、`P/A`、`R_ac`、门和 source lineage；把 Matta、Lv、Sensharma 的数据作为 dependent/independent 的 claim-specific 输入，而不是按论文数加权。正式 L4 重析仍需要逐角净峰、sideband、polarimetric parallel/perpendicular counts、ring efficiency、`a(E)`/`Q(E)`、gate acceptance、背景和联合 `Σ`。
 

@@ -10,4 +10,4 @@
    $$\delta(E2/M1) = 0.835 \times E_\gamma [\text{MeV}] \times \frac{\langle I_f || \mathcal{M}(E2) || I_i \rangle [e\text{ fm}^2]}{\langle I_f || \mathcal{M}(M1) || I_i \rangle [\mu_N]}$$
 3. **有效电荷微观分解**：
    $$e_{\text{eff}}^p = e (1 + \chi_p), \quad e_{\text{eff}}^n = e \chi_n$$
-   其中 $\chi_p \approx \chi_n \a0.5$ 为核芯同标四极极化参数。
+   其中 $\chi_p \approx \chi_n \approx 0.5$ 为核芯同标四极极化参数。

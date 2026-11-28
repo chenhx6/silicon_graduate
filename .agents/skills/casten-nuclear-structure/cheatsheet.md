@@ -2,7 +2,7 @@
 
 | If you observe | First test | Do not conclude alone |
 |---|---|---|
-| avoided crossing | two-state `Delta E >= 2|V|` and mixing amplitudes | a unique microscopic configuration |
+| avoided crossing | two-state `Delta E >= 2\|V\|` and mixing amplitudes | a unique microscopic configuration |
 | weak interband E2 | phase-aware amplitude expansion and `Delta Q` | absence of configuration mixing |
 | gamma-band staggering | several consecutive levels with an explicit S(J) convention | a unique gamma angle or rigid triaxiality |
 | large `NpNn` or P | compare E2 strengths and moments | a direct deformation measurement |

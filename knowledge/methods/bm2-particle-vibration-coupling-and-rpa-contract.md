@@ -26,7 +26,7 @@ sources: [book-bohr-mottelson-nuclear-structure-vol2]
 为超流核集体振动与高自旋退激提供自洽的微观基础：
 
 1. **一阶粒子–振动耦合哈密顿量（式 6-204–6-213、图 6-7）**：建立单粒子在振动态发射与吸收声子的微扰算符 \(H' = -\sum_\mu \alpha_{\lambda\mu} k_\lambda(r) Y_{\lambda\mu}^*(\theta, \phi)\)，导出单核子跃迁矩阵元与 BCS 准粒子因子（\(\Delta\pi=(-1)^\lambda\)）；
-2. **有效电荷与微观极化常数（式 6-215–6-216、图 6-8）**：解析证明单粒子电磁多极算符经由高能巨共振虚激发产生的相干屏蔽，重整化为有效算符 \(\mathcal{M}_{\rm eff} = (1 + \chi_F) \mathcal{M}_{\rm bare}\)，微观奠定 \(e_{\rm eff}(p) \a1.5e\) 与 \(e_{\rm eff}(n) \a0.5e\)；
+2. **有效电荷与微观极化常数（式 6-215–6-216、图 6-8）**：解析证明单粒子电磁多极算符经由高能巨共振虚激发产生的相干屏蔽，重整化为有效算符 \(\mathcal{M}_{\rm eff} = (1 + \chi_F) \mathcal{M}_{\rm bare}\)，微观奠定 \(e_{\rm eff}(p) \approx 1.5e\) 与 \(e_{\rm eff}(n) \approx 0.5e\)；
 3. **声子媒介有效两体相互作用（式 6-258–6-261）**：证明粒子与核表面振动交换虚声子诱发粒子间的吸引相互作用（核物理中的声子媒介 Cooper 配对机制），直接推导出有效四极–四极（\(Q \cdot Q\)）力；
 4. **微观 RPA 色散方程严格推导（式 6-28–6-30、6-276）**：通过自洽极化响应推导包含向前（\(X\)）与向后（\(Y\)）时间双向传播的 RPA 本征方程：
    \[
@@ -80,7 +80,7 @@ sources: [book-bohr-mottelson-nuclear-structure-vol2]
 \[
 \chi_F = \frac{\kappa_\lambda \alpha_{0\lambda}^2}{\hbar\omega_\lambda - \Delta E}
 \]
-定量给出长程引力极化导致中子获得感生有效电荷 \(e_{\rm pol}(n) \a0.5e\)，质子有效电荷增强至 \(e_{\rm eff}(p) \a1.5e\)。
+定量给出长程引力极化导致中子获得感生有效电荷 \(e_{\rm pol}(n) \approx 0.5e\)，质子有效电荷增强至 \(e_{\rm eff}(p) \approx 1.5e\)。
 
 ### 3. 声子媒介诱发有效两体核力（式 6-258–6-261）
 

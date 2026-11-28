@@ -58,7 +58,7 @@ Annual Review of Nuclear and Particle Science 50 (2000) 1–36. DOI `10.1146/ann
 
 | ID | Claim | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| CL00-1 | 综述中的 Pb 区 shears bands 具有转动样能级规律，但实验上仅有小四极形变（典型 `|epsilon| <= 0.1`）；早期解释使用高 `j` 质子组态与 `i13/2` 中子空穴。 | review-background | direct | PDF pp.5-8, Secs.1-2 and Fig.2 | true |
+| CL00-1 | 综述中的 Pb 区 shears bands 具有转动样能级规律，但实验上仅有小四极形变（典型 `\|epsilon\| <= 0.1`）；早期解释使用高 `j` 质子组态与 `i13/2` 中子空穴。 | review-background | direct | PDF pp.5-8, Secs.1-2 and Fig.2 | true |
 | CL00-2 | 代表性实验信息包括 gamma 能量、动态转动惯量、内转换系数、`R_DCO`、`B(M1)/B(E2)`、`B(E2)` 和 `B(M1)`；这些 observables 需要联合使用，单个图形不能独立确立 shears。 | review-background / experimental-criteria | direct | PDF pp.6-8, Fig.2 caption and case-study text | true |
 | CL00-3 | TAC 的一般 rotating Hamiltonian 可写为 `h_rot = h_0(epsilon) - omega dot j`；在 principal plane 内，倾角 `phi` 使高-`Omega` 轨道偏好接近对称轴、低-`Omega` 分量偏好垂直方向，从而产生非主轴能量极小。 | method-formalism / model-result | direct | PDF pp.8-11, Sec.3.1, Eqs.(1)-(2), Fig.3 | true |
 | CL00-4 | shears 图像把质子和中子角动量当作 blade；总角动量从近似垂直耦合向更闭合方向增加，磁矩的垂直分量随之下降。该几何是模型解释，不是直接测得的 intrinsic vector。 | model-result / author-interpretation | direct | PDF pp.11-16, Secs.3.2 and 4.1-4.2 | true |

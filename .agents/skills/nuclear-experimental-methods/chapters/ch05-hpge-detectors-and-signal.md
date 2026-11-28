@@ -14,7 +14,7 @@
 $$(\text{FWHM})^2 = (\text{FWHM})_{\text{stat}}^2 + (\text{FWHM})_{\text{noise}}^2 + (\text{FWHM})_{\text{drift}}^2.$$
 1. **本征电离统计涨落项**：
    $$(\text{FWHM})_{\text{stat}} = 2.355 \sqrt{F \cdot \epsilon_{\text{Ge}} \cdot E_\gamma},$$
-   其中 $\epsilon_{\text{Ge}} = 2.96\text{ eV}$（仅为气体电离能的 $1/10$），Fano 因子 $F \a0.10$。对于 $1332.5\text{ keV}$ 的 $^{60}\text{Co}$ 跃迁，统计涨落极限仅为 $1.48\text{ keV}$！
+   其中 $\epsilon_{\text{Ge}} = 2.96\text{ eV}$（仅为气体电离能的 $1/10$），Fano 因子 $F \approx 0.10$。对于 $1332.5\text{ keV}$ 的 $^{60}\text{Co}$ 跃迁，统计涨落极限仅为 $1.48\text{ keV}$！
 2. **电子学前放热噪声项**：场效应管（FET）沟道热噪声、结电容与探测器漏电流涨落贡献，典型值为 $0.8 - 1.2\text{ keV}$；
 3. **电荷收集与俘获涨落项**：由晶体内部深能级点缺陷（尤其快中子辐照产生的空穴陷阱）造成的电荷收集不完全与弹道亏损。
 
@@ -30,8 +30,8 @@ $$(\text{FWHM})^2 = (\text{FWHM})_{\text{stat}}^2 + (\text{FWHM})_{\text{noise}}
 
 ## 2. 信号成形与弹道亏损消除法则
 
-- 载流子在 $77\text{ K}$ 强电场（$> 10^3\text{ V/cm}$）下的饱和漂移速度约为 $v_s \a10^7\text{ cm/s}$；
+- 载流子在 $77\text{ K}$ 强电场（$> 10^3\text{ V/cm}$）下的饱和漂移速度约为 $v_s \approx 10^7\text{ cm/s}$；
 - 大体积同轴 HPGe 晶体半径可达 $4\text{ cm}$，最大电荷收集时间长达 $t_{c,\max} \sim 300 - 500\text{ ns}$；
 - **弹道亏损判据**：模拟高斯成形放大器的积分时间常数必须满足 $\tau_{\text{shape}} \ge 2\text{--}4\mu\text{s}$；数字化梯形滤波器（Jordanov 算法）必须设置足够宽的平顶（Flat-top）：
-  $$T_{\text{flat}} \ge t_{c,\max} \a1.0 - 1.5\ \mu\text{s},$$
+  $$T_{\text{flat}} \ge t_{c,\max} \approx 1.0 - 1.5\ \mu\text{s},$$
   否则脉冲幅度将随电荷在晶体内的相互作用位置发生弥散，导致能谱严重展宽。

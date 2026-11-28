@@ -75,7 +75,7 @@ BCS 配对能量取为 \(\epsilon_\nu = \sqrt{(e_\nu - \lambda)^2 + \Delta^2}\)�
 
 跨带 \(\Delta I=1\) 连接跃迁的电磁多极混合比 \(\delta = \frac{\langle E2_{\rm out}\rangle}{\langle M1_{\rm out}\rangle}\)：
 
-- **准中子构型**：由于中子内禀反常磁矩与转子回旋比差值 \(g_n - g_R < 0\)（\(g_n \approx -0.21, g_R \a\a\approx pprox Z/A > 0\)），M1 振幅反向，理论计算给出严格的 **\(\delta > 0\)**；
+- **准中子构型**：由于中子内禀反常磁矩与转子回旋比差值 \(g_n - g_R < 0\)（\(g_n \approx -0.21, g_R \approx Z/A > 0\)），M1 振幅反向，理论计算给出严格的 **\(\delta > 0\)**；
 - **准质子构型**：由于质子 \(g_p - g_R > 0\)（\(g_p > 0\)），理论计算给出 **\(\delta < 0\)**；
 - 这一微观符号定理构成了利用束内 \(\gamma\) 谱学角关联（DCO）与偏振测量判定摆动带准粒子性质的判据。
 

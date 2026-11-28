@@ -51,14 +51,14 @@ and Methods in Physics Research A* **503** (2003) 496–503, DOI
 ## Key Results
 
 | ID | Narrow statement | claim_kind | evidence_level | locator | Boundary |
-|---|---|---|---|---|
-| RBL03-1 | RIBLL 采用四个大偶极磁铁、四个 focal points（F0/F2/F4 等）和反对称双消色差布局；主分离可用 Br–ΔE–Br，F1 设 wedge degrader。 | accelerator-design | PDF pp.1–3, Fig.1, Table 1 | 这是 RIBLL1 layout，后续线的磁光学和 detector inventory 需独立确认 |
-| RBL03-2 | Table 1 给出水平/垂直角接受各 50 mrad、动量接受 `Δp/p=10%`、最大 rigidity 4.2 Tm、rigidity resolution `≤6×10^-4`、`A/ΔA>300` 目标和最小可测寿命小于 1 ms。 | accelerator-performance | PDF pp.2–3, Table 1 | 表列值是设计/测试条件下参数，不是所有束种和能量的保证 |
-| RBL03-3 | F2 可插入薄 Si 与 RF 做 TOF–ΔE identification；第二段可作高级纯化、TOF spectrometer 或 zero-degree spectrometer，并在 F2 放二级反应靶。 | operation-mode | PDF pp.4–5, Sec.2.2 | 二级靶模式的传输、束斑、靶厚和 reaction rate 必须按目标实验重算 |
-| RBL03-4 | RIBLL 设计考虑通过 fragment momentum/deformation selection 获得部分偏振 RIB，并设置 beam swinger，入射束角可偏转到 5°。 | accelerator-capability | PDF p.5, Sec.2.1 | 偏振程度不是装置常数，需对具体碎片、磁场和 acceptance 做测量 |
-| RBL03-5 | 低束流时用 PPAC 测位置，高束流时用光纤扫描器。F4 使用厚 300 μm 的 Si 测 ΔE，并用位置敏感 CsI(Tl) 测 E。 | beam-diagnostic | PDF2, PDF5（印刷 pp.497、500），Fig.4 | 响应、阈值和计数率限制随配置变化 |
-| RBL03-6 | 80 MeV/u `20Ne+9Be` 调束时，`16O` 的 TOF 投影给出 `A/ΔA>300`。加入中心厚 1 mm 的 Al 降能器并选择 `17F` 时，目标核素占比约 47%。 | commissioning-result | PDF5–6（印刷 pp.500–501），Figs.4–5 | 所报告的分辨率和占比对应本次设置 |
-| RBL03-7 | F4 束斑用位置敏感 E 探测器及一对 PPAC 测得，示例 FWHM 水平 12.4 mm、竖直 17.0 mm。 | commissioning-result | PDF6（印刷 p.501），Sec.3 | 束斑随束种、能量、狭缝、降能器和靶配置变化 |
+|---|---|---|---|---|---|
+| RBL03-1 | RIBLL 采用四个大偶极磁铁、四个 focal points（F0/F2/F4 等）和反对称双消色差布局；主分离可用 Br–ΔE–Br，F1 设 wedge degrader。 | accelerator-design | | PDF pp.1–3, Fig.1, Table 1 | 这是 RIBLL1 layout，后续线的磁光学和 detector inventory 需独立确认 |
+| RBL03-2 | Table 1 给出水平/垂直角接受各 50 mrad、动量接受 `Δp/p=10%`、最大 rigidity 4.2 Tm、rigidity resolution `≤6×10^-4`、`A/ΔA>300` 目标和最小可测寿命小于 1 ms。 | accelerator-performance | | PDF pp.2–3, Table 1 | 表列值是设计/测试条件下参数，不是所有束种和能量的保证 |
+| RBL03-3 | F2 可插入薄 Si 与 RF 做 TOF–ΔE identification；第二段可作高级纯化、TOF spectrometer 或 zero-degree spectrometer，并在 F2 放二级反应靶。 | operation-mode | | PDF pp.4–5, Sec.2.2 | 二级靶模式的传输、束斑、靶厚和 reaction rate 必须按目标实验重算 |
+| RBL03-4 | RIBLL 设计考虑通过 fragment momentum/deformation selection 获得部分偏振 RIB，并设置 beam swinger，入射束角可偏转到 5°。 | accelerator-capability | | PDF p.5, Sec.2.1 | 偏振程度不是装置常数，需对具体碎片、磁场和 acceptance 做测量 |
+| RBL03-5 | 低束流时用 PPAC 测位置，高束流时用光纤扫描器。F4 使用厚 300 μm 的 Si 测 ΔE，并用位置敏感 CsI(Tl) 测 E。 | beam-diagnostic | | PDF2, PDF5（印刷 pp.497、500），Fig.4 | 响应、阈值和计数率限制随配置变化 |
+| RBL03-6 | 80 MeV/u `20Ne+9Be` 调束时，`16O` 的 TOF 投影给出 `A/ΔA>300`。加入中心厚 1 mm 的 Al 降能器并选择 `17F` 时，目标核素占比约 47%。 | commissioning-result | | PDF5–6（印刷 pp.500–501），Figs.4–5 | 所报告的分辨率和占比对应本次设置 |
+| RBL03-7 | F4 束斑用位置敏感 E 探测器及一对 PPAC 测得，示例 FWHM 水平 12.4 mm、竖直 17.0 mm。 | commissioning-result | | PDF6（印刷 p.501），Sec.3 | 束斑随束种、能量、狭缝、降能器和靶配置变化 |
 
 ## Detector-to-Experiment Mapping
 

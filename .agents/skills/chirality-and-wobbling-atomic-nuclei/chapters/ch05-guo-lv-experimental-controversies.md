@@ -12,9 +12,9 @@ Guo and Lv review in-beam $\gamma$-ray spectroscopic techniques used to extract 
 ### 1.1 Directional Correlation from Oriented States (DCO)
 - Measured ratio of coincidence counts at two detector angles $(\theta_1, \theta_2)$ gated on a known stretched transition:
   $$R_{\text{DCO}} = \frac{I_\gamma(\theta_1, \text{gated at } \theta_2)}{I_\gamma(\theta_2, \text{gated at } \theta_1)}.$$
-- For a stretched $E2$ gate at $\theta_2 \approx 90^\circ$ and unassigned transition at $\theta_1 \a30^\circ$:
-  - Pure dipole ($\Delta I = 1, \delta = 0$): $R_{\text{DCO}} \a0.5 - 0.6$;
-  - Pure quadrupole ($\Delta I = 2, \delta = 0$): $R_{\text{DCO}} \a1.0$;
+- For a stretched $E2$ gate at $\theta_2 \approx 90^\circ$ and unassigned transition at $\theta_1 \approx 30^\circ$:
+  - Pure dipole ($\Delta I = 1, \delta = 0$): $R_{\text{DCO}} \approx 0.5 - 0.6$;
+  - Pure quadrupole ($\Delta I = 2, \delta = 0$): $R_{\text{DCO}} \approx 1.0$;
   - Mixed $\Delta I = 1$ ($M1 + E2$): $R_{\text{DCO}}$ varies continuously from $0.3$ to $1.5$ with quadratic dependence on $\delta$.
 
 ### 1.2 The Quadratic Ambiguity and Dual-Root Degeneracy

@@ -1,0 +1,2171 @@
+{
+  "scope": {
+    "comparable_documents": 3753,
+    "current_documents": 3756,
+    "excluded_generated": []
+  },
+  "before": {
+    "TEX_FRAGMENT_A": 318,
+    "MATH_NESTED_DOLLAR": 84,
+    "MATH_UNCLOSED": 6,
+    "TABLE_ROW": 210,
+    "MATH_BRACE": 4,
+    "TEX_DOUBLE_SUBSCRIPT": 61,
+    "TEX_TAB_ESCAPE": 48,
+    "TABLE_HEADER": 9,
+    "CONTROL_CHAR": 24,
+    "BEL": 7
+  },
+  "after": {
+    "TEX_TAB_ESCAPE": 36,
+    "TABLE_ROW": 31,
+    "CONTROL_CHAR": 24,
+    "TEX_FRAGMENT_A": 126,
+    "TEX_DOUBLE_SUBSCRIPT": 17
+  },
+  "repaired_files": [
+    ".agents/skills/bohr-mottelson-nuclear-structure/SKILL.md",
+    ".agents/skills/bohr-mottelson-nuclear-structure/chapters/vol1-ch02-independent-particle-motion.md",
+    ".agents/skills/bohr-mottelson-nuclear-structure/chapters/vol1-ch03-single-particle-configurations.md",
+    ".agents/skills/bohr-mottelson-nuclear-structure/chapters/vol2-ch06-vibrational-spectra.md",
+    ".agents/skills/bohr-mottelson-nuclear-structure/cheatsheet.md",
+    ".agents/skills/bohr-mottelson-nuclear-structure/glossary.md",
+    ".agents/skills/casten-nuclear-structure/cheatsheet.md",
+    ".agents/skills/chirality-and-wobbling-atomic-nuclei/SKILL.md",
+    ".agents/skills/chirality-and-wobbling-atomic-nuclei/chapters/ch01-petrache-history-and-perspectives.md",
+    ".agents/skills/chirality-and-wobbling-atomic-nuclei/chapters/ch03-meng-wang-nuclear-chirality.md",
+    ".agents/skills/chirality-and-wobbling-atomic-nuclei/chapters/ch05-guo-lv-experimental-controversies.md",
+    ".agents/skills/chirality-and-wobbling-atomic-nuclei/chapters/ch06-lawrie-tip-vs-wobbling.md",
+    ".agents/skills/chirality-and-wobbling-atomic-nuclei/cheatsheet.md",
+    ".agents/skills/chirality-and-wobbling-atomic-nuclei/glossary.md",
+    ".agents/skills/greiner-nuclear-models/SKILL.md",
+    ".agents/skills/greiner-nuclear-models/chapters/ch06-davydov-filippov-asymmetric-rotor.md",
+    ".agents/skills/greiner-nuclear-models/chapters/ch06-giant-resonances-gt-and-sj.md",
+    ".agents/skills/greiner-nuclear-models/chapters/ch06-scissors-mode-and-generalized-collective.md",
+    ".agents/skills/greiner-nuclear-models/cheatsheet.md",
+    ".agents/skills/greiner-nuclear-models/patterns.md",
+    ".agents/skills/hamilton-nuclear-spectroscopy/SKILL.md",
+    ".agents/skills/hamilton-nuclear-spectroscopy/chapters/ch11-multipole-fields-and-transition-probabilities.md",
+    ".agents/skills/hamilton-nuclear-spectroscopy/chapters/ch12-cascade-deorientation-uk-coefficients.md",
+    ".agents/skills/hamilton-nuclear-spectroscopy/chapters/ch12-directional-distributions-and-orientation-tensors.md",
+    ".agents/skills/hamilton-nuclear-spectroscopy/chapters/ch14-directional-correlations-and-dco-formalism.md",
+    ".agents/skills/hamilton-nuclear-spectroscopy/chapters/ch15-linear-polarization-and-compton-polarimetry.md",
+    ".agents/skills/hamilton-nuclear-spectroscopy/chapters/ch15-mixing-ratio-dual-root-and-profile-fitting.md",
+    ".agents/skills/hamilton-nuclear-spectroscopy/cheatsheet.md",
+    ".agents/skills/hamilton-nuclear-spectroscopy/glossary.md",
+    ".agents/skills/heavy-ion-nuclear-reactions/SKILL.md",
+    ".agents/skills/heavy-ion-nuclear-reactions/chapters/ch01-kinematics-and-scattering.md",
+    ".agents/skills/heavy-ion-nuclear-reactions/chapters/ch02-heavy-ion-interaction-potentials.md",
+    ".agents/skills/heavy-ion-nuclear-reactions/chapters/ch05-deep-inelastic-collisions-and-wilczynski.md",
+    ".agents/skills/heavy-ion-nuclear-reactions/chapters/ch06-fusion-dynamics-and-barrier-distribution.md",
+    ".agents/skills/heavy-ion-nuclear-reactions/chapters/ch07-compound-nucleus-decay-and-statistical-evaporation.md",
+    ".agents/skills/heavy-ion-nuclear-reactions/chapters/heavy-ion-experiment-design-guide.md",
+    ".agents/skills/heavy-ion-nuclear-reactions/cheatsheet.md",
+    ".agents/skills/heavy-ion-nuclear-reactions/glossary.md",
+    ".agents/skills/heavy-ion-nuclear-reactions/patterns.md",
+    ".agents/skills/heyde-nuclear-physics/SKILL.md",
+    ".agents/skills/heyde-nuclear-physics/chapters/ch13-collective-vibrations-and-giant-resonances.md",
+    ".agents/skills/heyde-nuclear-physics/chapters/ch13-interacting-boson-model-and-scissors-mode.md",
+    ".agents/skills/heyde-nuclear-physics/chapters/ch13-nuclear-shape-coexistence.md",
+    ".agents/skills/heyde-nuclear-physics/chapters/ch14-deformed-shell-model-and-backbending.md",
+    ".agents/skills/heyde-nuclear-physics/cheatsheet.md",
+    ".agents/skills/heyde-nuclear-physics/glossary.md",
+    ".agents/skills/heyde-nuclear-physics/patterns.md",
+    ".agents/skills/in-beam-gamma-spectroscopy/SKILL.md",
+    ".agents/skills/jain-nuclear-isomers/SKILL.md",
+    ".agents/skills/jain-nuclear-isomers/chapters/ch04-shape-isomers-and-double-humped-fission.md",
+    ".agents/skills/jain-nuclear-isomers/chapters/ch05-k-isomers-and-hindrance-systematics.md",
+    ".agents/skills/jain-nuclear-isomers/chapters/ch05-triaxiality-induced-k-mixing.md",
+    ".agents/skills/jain-nuclear-isomers/cheatsheet.md",
+    ".agents/skills/jain-nuclear-isomers/glossary.md",
+    ".agents/skills/jain-nuclear-isomers/patterns.md",
+    ".agents/skills/lu-nuclear-physics/SKILL.md",
+    ".agents/skills/lu-nuclear-physics/chapters/ch01-basic-properties-and-mass.md",
+    ".agents/skills/lu-nuclear-physics/chapters/ch02-radioactive-decay-and-kinetics.md",
+    ".agents/skills/lu-nuclear-physics/chapters/ch05-alpha-decay-and-barrier-tunneling.md",
+    ".agents/skills/lu-nuclear-physics/chapters/ch08-nuclear-models-shell-and-collective.md",
+    ".agents/skills/lu-nuclear-physics/cheatsheet.md",
+    ".agents/skills/lu-nuclear-physics/patterns.md",
+    ".agents/skills/modern-nuclear-shell-model/SKILL.md",
+    ".agents/skills/modern-nuclear-shell-model/chapters/ch02-dripline-continuum-and-gamow-shell-model.md",
+    ".agents/skills/modern-nuclear-shell-model/chapters/ch04-effective-charges-and-coulomb-excitation.md",
+    ".agents/skills/modern-nuclear-shell-model/chapters/ch06-sn100-region-high-spin-spectroscopy.md",
+    ".agents/skills/modern-nuclear-shell-model/chapters/ch08-double-beta-decay-and-astrophysics.md",
+    ".agents/skills/modern-nuclear-shell-model/glossary.md",
+    ".agents/skills/modern-nuclear-shell-model/patterns.md",
+    ".agents/skills/nuclear-experimental-methods/SKILL.md",
+    ".agents/skills/nuclear-experimental-methods/chapters/ch01-statistics-and-deadtime.md",
+    ".agents/skills/nuclear-experimental-methods/chapters/ch05-hpge-detectors-and-signal.md",
+    ".agents/skills/nuclear-experimental-methods/chapters/ch10-gamma-energy-and-efficiency.md",
+    ".agents/skills/nuclear-experimental-methods/chapters/ch15-lifetime-measurements-rdm-dsam.md",
+    ".agents/skills/nuclear-experimental-methods/chapters/wu-vs-wang-reconciliation.md",
+    ".agents/skills/nuclear-experimental-methods/cheatsheet.md",
+    ".agents/skills/nuclear-experimental-methods/glossary.md",
+    ".agents/skills/nuclear-triaxial-chirality-wobbling/cheatsheet.md",
+    ".agents/skills/raduta-nuclear-coherent-states/chapters/ch04-semiclassical-triaxial-rotors-and-separatrix.md",
+    ".agents/skills/raduta-nuclear-coherent-states/chapters/ch10-gcsm-even-even-chiral-doublet-bands.md",
+    ".agents/skills/raduta-nuclear-coherent-states/cheatsheet.md",
+    ".agents/skills/raduta-nuclear-coherent-states/glossary.md",
+    ".agents/skills/raduta-nuclear-coherent-states/patterns.md",
+    ".agents/skills/suhonen-microscopic-nuclear-theory/chapters/ch06-electromagnetic-transition-operators.md",
+    ".agents/skills/suhonen-microscopic-nuclear-theory/cheatsheet.md",
+    ".agents/skills/suhonen-microscopic-nuclear-theory/patterns.md",
+    ".agents/skills/zhu-experimental-statistics/chapters/ch12-hypothesis-testing-and-wilks-theorem.md",
+    ".agents/skills/zhu-experimental-statistics/chapters/ch13-minimization-methods-and-minuit.md",
+    ".agents/skills/zhu-experimental-statistics/cheatsheet.md",
+    "knowledge/concepts/davydov-filippov-triaxial-rotor-and-wobbling-dynamics.md",
+    "knowledge/concepts/detector-timing-walk-jitter-and-coincidence-resolving.md",
+    "knowledge/concepts/nuclear-physics-standard-terminology-chinese-english.md",
+    "knowledge/concepts/triaxial-rigid-rotor-davydov-filipov-model.md",
+    "knowledge/concepts/triaxial-two-rotor-scissors-mode-m1.md",
+    "knowledge/methods/bm1-electromagnetic-multipoles-and-single-particle-contract.md",
+    "knowledge/methods/bm1-symmetries-fermi-gas-and-nuclear-matter-contract.md",
+    "knowledge/methods/bm2-collective-vibrations-and-sum-rules-contract.md",
+    "knowledge/methods/bm2-deformed-band-m1-e2-and-gk-gr-contract.md",
+    "knowledge/methods/bm2-finite-spin-harmonic-benchmark.md",
+    "knowledge/methods/bm2-nilsson-deformed-shell-model-and-coriolis-alignment-contract.md",
+    "knowledge/methods/bm2-particle-vibration-coupling-and-rpa-contract.md",
+    "knowledge/methods/budaca-spin-dynamics-semiclassical-wobbling-chiral-contract.md",
+    "knowledge/methods/casten-valence-pn-interaction-and-casten-triangle-contract.md",
+    "knowledge/methods/chen-cdft-prm-wobbling-and-fermi-surface-contract.md",
+    "knowledge/methods/frib-exotic-nuclei-and-experimental-capabilities-contract.md",
+    "knowledge/methods/gamma-gamma-coincidence.md",
+    "knowledge/methods/greiner-asymmetric-rotor-and-rvm-contract.md",
+    "knowledge/methods/horoi-double-beta-decay-shell-model-contract.md",
+    "knowledge/methods/li-chen-cs-chiral-evolution-and-mchid-contract.md",
+    "knowledge/methods/lin-heavy-ion-fusion-and-barrier-distribution-contract.md",
+    "knowledge/methods/lu-nuclear-physics-core-theories-and-decay-contract.md",
+    "knowledge/methods/martinez-pinedo-shell-model-astrophysics-contract.md",
+    "knowledge/methods/qi-a80-chiral-island-and-chiral-wobbler-contract.md",
+    "knowledge/methods/suhonen-pnqrpa-and-ikeda-sum-rule-contract.md",
+    "knowledge/methods/wu-experimental-methods-deadtime-hpge-rdm-contract.md",
+    "knowledge/methods/zhu-minimization-and-profile-error-contract.md",
+    "knowledge/observables/bandcrossing-interaction-strength.md",
+    "knowledge/observables/transition-quadrupole-moment.md",
+    "knowledge/projects/135pr-wobbling-controversy.md",
+    "knowledge/projects/a130-high-spin-collective-modes-evidence-map.md",
+    "knowledge/projects/a130-thesis-evidence-matrix.md",
+    "knowledge/projects/a130-triaxial-spectroscopy-beam-time-proposal.md",
+    "knowledge/projects/low-spin-wobbling-controversies.md",
+    "knowledge/projects/triaxial-collective-excitations-a130-manuscript.md",
+    "knowledge/research-notes/131xe-low-spin-parity-and-mixing-ratio-disambiguation-20261104.md",
+    "knowledge/research-notes/132sn-two-phonon-continuum-readiness-20261101.md",
+    "knowledge/research-notes/133ce-private-data-wobbling-vs-signature-reconstruction-20261101.md",
+    "knowledge/research-notes/135nd-134pr-partner-resolved-electromagnetic-benchmark-20261104.md",
+    "knowledge/research-notes/135pr-bayesian-model-conditioning-boundary.md",
+    "knowledge/research-notes/135pr-common-response-evidence-contract-20261031.md",
+    "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+    "knowledge/research-notes/a130-rewrite-orientation-cross-region-conditions-20261113.md",
+    "knowledge/research-notes/a130-rewrite-weak-windows-cascades-and-operators-20261113.md",
+    "knowledge/research-notes/ba-e1-dipole-cancellation-sensitivity-and-pairing-audit.md",
+    "knowledge/research-notes/ce131-ce133-unified-triaxial-collective-modes-20261101.md",
+    "knowledge/research-notes/chiral-octupole-m1-selection-rules-and-polar-current-cancellation.md",
+    "knowledge/research-notes/chiral-octupole-quadruplet-discrete-symmetries-and-selection-rules.md",
+    "knowledge/research-notes/chiral-octupole-quadruplets-symmetry-and-transition-rules.md",
+    "knowledge/research-notes/cross-mass-octupole-collectivity-evidence-ladder-20261104.md",
+    "knowledge/research-notes/cross-mass-region-collective-mode-transfer-boundaries.md",
+    "knowledge/research-notes/doctoral-cognitive-calibration-and-nuclear-structure-synthesis-20261101.md",
+    "knowledge/research-notes/doctoral-thesis-notation-and-evidence-style-20261108.md",
+    "knowledge/research-notes/full-library-claim-calibration-audit-20261031.md",
+    "knowledge/research-notes/mr-amr-observable-matrix-boundary.md",
+    "knowledge/research-notes/mr-bandhead-spin-i0-quantum-shears-boundary.md",
+    "knowledge/research-notes/octupole-cline-invariants-and-dynamic-softness-criterion.md",
+    "knowledge/research-notes/octupole-mr-amr-evidence-gradient.md",
+    "knowledge/research-notes/octupole-mr-three-tier-evidence-ladder.md",
+    "knowledge/research-notes/pr135-shears-dynamics-bandcrossing-rebound.md",
+    "knowledge/research-notes/quantum-shears-racah-algebra-and-transition-rates.md",
+    "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+    "knowledge/sources/bohr-1952-surface-particle-coupling.md",
+    "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
+    "knowledge/sources/book-lu-nuclear-physics-chinese.md",
+    "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+    "knowledge/sources/book-wu-nuclear-experiment-methods.md",
+    "knowledge/sources/book-zhu-probability-statistics-in-physics.md",
+    "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+    "knowledge/sources/butler-nazarewicz-1996-intrinsic-reflection-asymmetry.md",
+    "knowledge/sources/chadderton-2025-fm250-conversion-electron-thesis.md",
+    "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+    "knowledge/sources/clark-2000-shears-mechanism.md",
+    "knowledge/sources/duguet-2015-non-observable-nuclear-shell-structure.md",
+    "knowledge/sources/engel-2003-ra225-selfconsistent-schiff.md",
+    "knowledge/sources/falkoff-1948-polarization-correlation.md",
+    "knowledge/sources/guo-2021-comment-transverse-wobbling-135pr.md",
+    "knowledge/sources/hayes-2005-k-conservation-178hf.md",
+    "knowledge/sources/ionescu-bujor-1998-static-moments-129-131ce.md",
+    "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+    "knowledge/sources/li-2025-imp-dragon-hpge-array.md",
+    "knowledge/sources/liu-1996-signature-inversion-a130.md",
+    "knowledge/sources/macklin-1979-resonance-capture-total-energy-detector.md",
+    "knowledge/sources/nndc-2022-ac225-adopted-parity-doublet.md",
+    "knowledge/sources/odegard-2001-evidence-wobbling-163lu.md",
+    "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+    "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+    "knowledge/sources/schwengner-2013-m1-upbend-brink-axel.md",
+    "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+    "knowledge/sources/soderstrom-2020-137ba-competitive-gamma.md",
+    "knowledge/sources/sun-2003-ribll-radioactive-ion-beam-line.md",
+    "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+    "knowledge/sources/walz-2015-competitive-double-gamma-137ba.md",
+    "knowledge/sources/werner-2005-k3-five-observables.md",
+    "knowledge/synthesis/chirality-wobbling-competition-evidence.md",
+    "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+    "knowledge/synthesis/nuclear-spectroscopy-and-structure-master-field-manual.md",
+    "knowledge/synthesis/octupole-and-rare-electromagnetic-decay.md",
+    "knowledge/synthesis/shape-observable-matrix.md",
+    "knowledge/synthesis/triaxial-collective-modes-unified-theory-and-spectroscopy.md",
+    "outputs/degree-dissertation-autonomous-research-20260910.md",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-algebra/report.md",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-coupling-control/gamma-path-report.md",
+    "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-manuscript-review/revision-recheck-mf1-mf3.md",
+    "outputs/l4/20261105-ba129-model-readiness/replay-review/audit.md",
+    "outputs/l4/20261105-ba129-rank4-identifiability/independent-review/REVIEW.md",
+    "outputs/learning-daily/20261003-DAY5-beta-gamma-octupole-shape-coexistence.md",
+    "outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths.md",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response.md",
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam.md",
+    "outputs/learning-daily/20261027-DAY25-chirality-counterevidence-shape-coexistence-run-01/audit-day25-matrix-014.md",
+    "outputs/learning-daily/20261027-DAY25-chirality-counterevidence-shape-coexistence-run-01/ce133-contract-audit-014.md",
+    "outputs/learning-daily/20261027-DAY25-chirality-counterevidence-shape-coexistence-run-01/day26-octupole-dossier.md",
+    "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/correction-independent-review-020.md",
+    "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/e3-direction-degeneracy-035.md",
+    "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/parity-doublet-e1-unit-audit-033.md",
+    "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability.md",
+    "outputs/learning-daily/20261101-DAY30-final-oral-exam-monthly-prospectus.md",
+    "outputs/paper-cards/alwaleedi-2013-band-structures-131ce.md",
+    "outputs/plans/20261107-a130-doctoral-dissertation-framework-report.md",
+    "system/nuclear-structure-expert-protocol.md"
+  ],
+  "manual_checklist": [
+    {
+      "path": "knowledge/concepts/band-termination.md",
+      "line": 70,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/concepts/band-termination.md",
+      "line": 71,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/concepts/band-termination.md",
+      "line": 72,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/concepts/band-termination.md",
+      "line": 74,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/concepts/signature-inversion.md",
+      "line": 73,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/concepts/tidal-wave.md",
+      "line": 93,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/concepts/tidal-wave.md",
+      "line": 95,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/concepts/two-photon-nuclear-decay.md",
+      "line": 84,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/concepts/two-photon-nuclear-decay.md",
+      "line": 86,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/index.md",
+      "line": 629,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/index.md",
+      "line": 630,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/index.md",
+      "line": 633,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/index.md",
+      "line": 637,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/index.md",
+      "line": 644,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/index.md",
+      "line": 719,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/index.md",
+      "line": 720,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/index.md",
+      "line": 724,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/methods/wobbling-geometry-phonon-observable-contract.md",
+      "line": 120,
+      "code": "TABLE_ROW",
+      "reason": "expected 5 cells, found 7; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/projects/131ce-collective-mode-discrimination.md",
+      "line": 56,
+      "code": "TABLE_ROW",
+      "reason": "expected 4 cells, found 5; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/projects/a130-model-choice-card.md",
+      "line": 62,
+      "code": "TABLE_ROW",
+      "reason": "expected 4 cells, found 5; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/projects/a130-model-choice-card.md",
+      "line": 65,
+      "code": "TABLE_ROW",
+      "reason": "expected 4 cells, found 5; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/projects/a130-model-choice-card.md",
+      "line": 66,
+      "code": "TABLE_ROW",
+      "reason": "expected 4 cells, found 5; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/projects/a130-model-choice-card.md",
+      "line": 67,
+      "code": "TABLE_ROW",
+      "reason": "expected 4 cells, found 5; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/research-notes/day20-quadrupole-collectivity-systematics-synthesis.md",
+      "line": 419,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/research-notes/odd-a-actinide-octupole-schiff-moment-perturbation-sum-rules.md",
+      "line": 86,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/research-notes/odd-a-actinide-octupole-schiff-moment-perturbation-sum-rules.md",
+      "line": 140,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/sources/afanasjev-1999-termination-rotational-bands.md",
+      "line": 100,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/sources/amro-2003-wobbling-167lu.md",
+      "line": 169,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/sources/cline-1986-nuclear-shapes-coulomb-excitation.md",
+      "line": 86,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 8; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "line": 135,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 7; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/grodner-2018-128cs-chiral-g-factor.md",
+      "line": 65,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 7; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/grodner-2018-128cs-chiral-g-factor.md",
+      "line": 108,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 8; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/grodner-2018-128cs-chiral-g-factor.md",
+      "line": 111,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 10; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/grodner-2018-128cs-chiral-g-factor.md",
+      "line": 140,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 8; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "line": 296,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 8; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/henderson-2020-quadrupole-invariant-convergence.md",
+      "line": 131,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 10; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/hubel-2005-magnetic-rotation-review.md",
+      "line": 123,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+      "line": 142,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "line": 93,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 8; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+      "line": 136,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 8; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "line": 154,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 8; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "line": 204,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 8; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+      "line": 159,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/sources/lv-bingfeng-2019-chirality-136nd-135nd-thesis.md",
+      "line": 81,
+      "code": "TABLE_ROW",
+      "reason": "expected 13 cells, found 14; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "line": 164,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 7; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+      "line": 68,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 8; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/nndc-2017-99rh-matched-reference-records.md",
+      "line": 71,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 8; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+      "line": 164,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 8; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+      "line": 140,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 8; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+      "line": 164,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 8; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "line": 603,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 8; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "line": 69,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 8; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+      "line": 178,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "line": 68,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 8; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md",
+      "line": 131,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 8; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md",
+      "line": 132,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 8; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md",
+      "line": 193,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+      "line": 186,
+      "code": "TABLE_ROW",
+      "reason": "expected 6 cells, found 8; check literal pipes and displaced content"
+    },
+    {
+      "path": "knowledge/synthesis/high-spin-lifetime-strength-deformation.md",
+      "line": 676,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/synthesis/high-spin-lifetime-strength-deformation.md",
+      "line": 681,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/synthesis/high-spin-lifetime-strength-deformation.md",
+      "line": 686,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/synthesis/high-spin-lifetime-strength-deformation.md",
+      "line": 691,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/synthesis/high-spin-lifetime-strength-deformation.md",
+      "line": 696,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "knowledge/synthesis/high-spin-lifetime-strength-deformation.md",
+      "line": 701,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "outputs/degree-dissertation/20261108-A130-rewrite/latex-20261113/G79/staged-sec-5-8.tex",
+      "line": 125,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 3614,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 15"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 3650,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 1"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 4392,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 15"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 4399,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 26"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 4416,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 1"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 4416,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 3"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 4612,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 17"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 6610,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 15"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 6624,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 15"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 6624,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 17"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 6631,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 15"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 6645,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 27"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 6652,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 27"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 9920,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 15"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 9934,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 15"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 9934,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 17"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 9941,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 15"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 9955,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 27"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 9962,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 27"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 13785,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 15"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 13792,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 15"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 13957,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 15"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/paper.md",
+      "line": 13971,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 22"
+    },
+    {
+      "path": "outputs/degree-dissertation/nobs-2017-102y-reader-draft/translation_notes.md",
+      "line": 18,
+      "code": "CONTROL_CHAR",
+      "reason": "U+FFFD at column 53"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics.md",
+      "line": 1356,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics.md",
+      "line": 1358,
+      "code": "TEX_TAB_ESCAPE",
+      "reason": "tab followed by a TeX command suffix; check the generating string"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 1575,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 1603,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 1659,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 1687,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 1722,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 1729,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 1736,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 1771,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2366,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2367,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2378,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2398,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2399,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2432,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2455,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2477,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2478,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2540,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2553,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2578,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2579,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2592,
+      "code": "TEX_DOUBLE_SUBSCRIPT",
+      "reason": "consecutive subscripts need grouping or the intended single subscript"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2593,
+      "code": "TEX_DOUBLE_SUBSCRIPT",
+      "reason": "consecutive subscripts need grouping or the intended single subscript"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2593,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2594,
+      "code": "TEX_DOUBLE_SUBSCRIPT",
+      "reason": "consecutive subscripts need grouping or the intended single subscript"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2606,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2618,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2619,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2644,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2645,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2697,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2735,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2812,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2815,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2821,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2838,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2857,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2884,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2888,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2890,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2900,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2901,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2906,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2926,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2940,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 2982,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 3014,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 3024,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 3043,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 3063,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 3099,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 3100,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 3141,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 3158,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 3198,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 3220,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 3231,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 3232,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 5723,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 5732,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6037,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6049,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6078,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6111,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6133,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6134,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6147,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6356,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6391,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6405,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6486,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6500,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6531,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6565,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6575,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6629,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6639,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6640,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6663,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6664,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6675,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6676,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6686,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6709,
+      "code": "TEX_DOUBLE_SUBSCRIPT",
+      "reason": "consecutive subscripts need grouping or the intended single subscript"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6731,
+      "code": "TEX_DOUBLE_SUBSCRIPT",
+      "reason": "consecutive subscripts need grouping or the intended single subscript"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6731,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6742,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6779,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6790,
+      "code": "TEX_DOUBLE_SUBSCRIPT",
+      "reason": "consecutive subscripts need grouping or the intended single subscript"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6790,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6791,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6814,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6863,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6875,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 6876,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 7523,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 7524,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 7533,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 7543,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 7544,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 7558,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 7577,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 7613,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 7649,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 7666,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 7703,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 7753,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 7802,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 7843,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 7897,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 7899,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8054,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8075,
+      "code": "TEX_DOUBLE_SUBSCRIPT",
+      "reason": "consecutive subscripts need grouping or the intended single subscript"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8157,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8159,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8194,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8280,
+      "code": "TEX_DOUBLE_SUBSCRIPT",
+      "reason": "consecutive subscripts need grouping or the intended single subscript"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8283,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8311,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8383,
+      "code": "TEX_DOUBLE_SUBSCRIPT",
+      "reason": "consecutive subscripts need grouping or the intended single subscript"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8422,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8438,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8441,
+      "code": "TEX_DOUBLE_SUBSCRIPT",
+      "reason": "consecutive subscripts need grouping or the intended single subscript"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8443,
+      "code": "TEX_DOUBLE_SUBSCRIPT",
+      "reason": "consecutive subscripts need grouping or the intended single subscript"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8444,
+      "code": "TEX_DOUBLE_SUBSCRIPT",
+      "reason": "consecutive subscripts need grouping or the intended single subscript"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8509,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8514,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8660,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8664,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8745,
+      "code": "TEX_DOUBLE_SUBSCRIPT",
+      "reason": "consecutive subscripts need grouping or the intended single subscript"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8748,
+      "code": "TEX_DOUBLE_SUBSCRIPT",
+      "reason": "consecutive subscripts need grouping or the intended single subscript"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8815,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8898,
+      "code": "TEX_DOUBLE_SUBSCRIPT",
+      "reason": "consecutive subscripts need grouping or the intended single subscript"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8902,
+      "code": "TEX_DOUBLE_SUBSCRIPT",
+      "reason": "consecutive subscripts need grouping or the intended single subscript"
+    },
+    {
+      "path": "system/handoff.md",
+      "line": 8936,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/log.md",
+      "line": 5659,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/log.md",
+      "line": 5720,
+      "code": "TEX_DOUBLE_SUBSCRIPT",
+      "reason": "consecutive subscripts need grouping or the intended single subscript"
+    },
+    {
+      "path": "system/log.md",
+      "line": 5722,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/log.md",
+      "line": 5773,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/log.md",
+      "line": 5816,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/log.md",
+      "line": 5817,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/log.md",
+      "line": 5842,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    },
+    {
+      "path": "system/log.md",
+      "line": 5999,
+      "code": "TEX_FRAGMENT_A",
+      "reason": "found literal \\a; restore the intended command from context"
+    }
+  ],
+  "pandoc_mathml_checklist": [
+    {
+      "path": ".agents/skills/lu-nuclear-physics/patterns.md",
+      "line": 63,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": ".agents/skills/lu-nuclear-physics/patterns.md",
+      "line": 64,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/methods/bm1-symmetries-fermi-gas-and-nuclear-matter-contract.md",
+      "line": 33,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/methods/bm1-symmetries-fermi-gas-and-nuclear-matter-contract.md",
+      "line": 37,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/methods/bm1-symmetries-fermi-gas-and-nuclear-matter-contract.md",
+      "line": 41,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/methods/bm1-symmetries-fermi-gas-and-nuclear-matter-contract.md",
+      "line": 43,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/methods/bm1-symmetries-fermi-gas-and-nuclear-matter-contract.md",
+      "line": 46,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/methods/casten-valence-pn-interaction-and-casten-triangle-contract.md",
+      "line": 34,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/methods/casten-valence-pn-interaction-and-casten-triangle-contract.md",
+      "line": 38,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/methods/casten-valence-pn-interaction-and-casten-triangle-contract.md",
+      "line": 45,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/methods/lin-heavy-ion-fusion-and-barrier-distribution-contract.md",
+      "line": 25,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/methods/lin-heavy-ion-fusion-and-barrier-distribution-contract.md",
+      "line": 33,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/methods/lin-heavy-ion-fusion-and-barrier-distribution-contract.md",
+      "line": 36,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/methods/lin-heavy-ion-fusion-and-barrier-distribution-contract.md",
+      "line": 39,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/methods/lu-nuclear-physics-core-theories-and-decay-contract.md",
+      "line": 29,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/methods/lu-nuclear-physics-core-theories-and-decay-contract.md",
+      "line": 38,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/methods/lu-nuclear-physics-core-theories-and-decay-contract.md",
+      "line": 39,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/methods/lu-nuclear-physics-core-theories-and-decay-contract.md",
+      "line": 39,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/methods/lu-nuclear-physics-core-theories-and-decay-contract.md",
+      "line": 40,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/methods/lu-nuclear-physics-core-theories-and-decay-contract.md",
+      "line": 42,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/methods/lu-nuclear-physics-core-theories-and-decay-contract.md",
+      "line": 46,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/methods/lu-nuclear-physics-core-theories-and-decay-contract.md",
+      "line": 50,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/methods/lu-nuclear-physics-core-theories-and-decay-contract.md",
+      "line": 51,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/projects/triaxial-collective-excitations-a130-manuscript.md",
+      "line": 54,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/projects/triaxial-collective-excitations-a130-manuscript.md",
+      "line": 62,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/projects/triaxial-collective-excitations-a130-manuscript.md",
+      "line": 64,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/projects/triaxial-collective-excitations-a130-manuscript.md",
+      "line": 81,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/projects/triaxial-collective-excitations-a130-manuscript.md",
+      "line": 89,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/projects/triaxial-collective-excitations-a130-manuscript.md",
+      "line": 92,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/projects/triaxial-collective-excitations-a130-manuscript.md",
+      "line": 95,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/projects/triaxial-collective-excitations-a130-manuscript.md",
+      "line": 133,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/projects/triaxial-collective-excitations-a130-manuscript.md",
+      "line": 142,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/131xe-low-spin-parity-and-mixing-ratio-disambiguation-20261104.md",
+      "line": 65,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/131xe-low-spin-parity-and-mixing-ratio-disambiguation-20261104.md",
+      "line": 85,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/135nd-134pr-partner-resolved-electromagnetic-benchmark-20261104.md",
+      "line": 44,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/135nd-134pr-partner-resolved-electromagnetic-benchmark-20261104.md",
+      "line": 50,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/135nd-134pr-partner-resolved-electromagnetic-benchmark-20261104.md",
+      "line": 51,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/135nd-134pr-partner-resolved-electromagnetic-benchmark-20261104.md",
+      "line": 60,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/135nd-134pr-partner-resolved-electromagnetic-benchmark-20261104.md",
+      "line": 66,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/135nd-134pr-partner-resolved-electromagnetic-benchmark-20261104.md",
+      "line": 78,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/135pr-common-response-evidence-contract-20261031.md",
+      "line": 87,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/135pr-common-response-evidence-contract-20261031.md",
+      "line": 118,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/135pr-common-response-evidence-contract-20261031.md",
+      "line": 136,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/135pr-common-response-evidence-contract-20261031.md",
+      "line": 142,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/135pr-common-response-evidence-contract-20261031.md",
+      "line": 149,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/135pr-common-response-evidence-contract-20261031.md",
+      "line": 159,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+      "line": 46,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+      "line": 57,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+      "line": 63,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+      "line": 144,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/ce131-ce133-unified-triaxial-collective-modes-20261101.md",
+      "line": 115,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/ce131-ce133-unified-triaxial-collective-modes-20261101.md",
+      "line": 116,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/chiral-octupole-m1-selection-rules-and-polar-current-cancellation.md",
+      "line": 187,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/chiral-octupole-m1-selection-rules-and-polar-current-cancellation.md",
+      "line": 201,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/chiral-octupole-m1-selection-rules-and-polar-current-cancellation.md",
+      "line": 208,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/chiral-octupole-m1-selection-rules-and-polar-current-cancellation.md",
+      "line": 208,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/chiral-octupole-m1-selection-rules-and-polar-current-cancellation.md",
+      "line": 208,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/chiral-octupole-quadruplet-discrete-symmetries-and-selection-rules.md",
+      "line": 56,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/chiral-octupole-quadruplet-discrete-symmetries-and-selection-rules.md",
+      "line": 91,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/chiral-octupole-quadruplet-discrete-symmetries-and-selection-rules.md",
+      "line": 247,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/chiral-octupole-quadruplet-discrete-symmetries-and-selection-rules.md",
+      "line": 260,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/chiral-octupole-quadruplet-discrete-symmetries-and-selection-rules.md",
+      "line": 279,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/chiral-octupole-quadruplet-discrete-symmetries-and-selection-rules.md",
+      "line": 285,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/chiral-octupole-quadruplet-discrete-symmetries-and-selection-rules.md",
+      "line": 298,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/cross-mass-octupole-collectivity-evidence-ladder-20261104.md",
+      "line": 44,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/cross-mass-octupole-collectivity-evidence-ladder-20261104.md",
+      "line": 45,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/cross-mass-region-collective-mode-transfer-boundaries.md",
+      "line": 42,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/mr-bandhead-spin-i0-quantum-shears-boundary.md",
+      "line": 44,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/mr-bandhead-spin-i0-quantum-shears-boundary.md",
+      "line": 60,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/mr-bandhead-spin-i0-quantum-shears-boundary.md",
+      "line": 76,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/mr-bandhead-spin-i0-quantum-shears-boundary.md",
+      "line": 98,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/mr-bandhead-spin-i0-quantum-shears-boundary.md",
+      "line": 98,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/research-notes/octupole-mr-amr-evidence-gradient.md",
+      "line": 150,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "knowledge/sources/chadderton-2025-fm250-conversion-electron-thesis.md",
+      "line": 58,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response.md",
+      "line": 393,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response.md",
+      "line": 407,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response.md",
+      "line": 416,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response.md",
+      "line": 416,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response.md",
+      "line": 424,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response.md",
+      "line": 463,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response.md",
+      "line": 471,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response.md",
+      "line": 471,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "outputs/learning-daily/20261027-DAY25-chirality-counterevidence-shape-coexistence-run-01/day26-octupole-dossier.md",
+      "line": 9,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    },
+    {
+      "path": "outputs/learning-daily/20261027-DAY25-chirality-counterevidence-shape-coexistence-run-01/day26-octupole-dossier.md",
+      "line": 47,
+      "code": "MATH_RENDER",
+      "reason": "Pandoc could not convert this formula to MathML"
+    }
+  ],
+  "github_gfm": {
+    "fixed": {
+      "http": 200,
+      "display": 1,
+      "inline": 1,
+      "cells": 4,
+      "code_pipe_intact": true
+    },
+    "broken": {
+      "http": 200,
+      "display": 0,
+      "inline": 0,
+      "cells": 2,
+      "code_pipe_intact": false
+    }
+  },
+  "pdf_previews": {
+    "lu-ch01": 1,
+    "lu-skill": 3,
+    "coincidence": 4
+  }
+}

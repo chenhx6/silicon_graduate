@@ -43,7 +43,7 @@ sources: [book-zhu-probability-statistics-in-physics]
 对于包含一个有用局部极小的区间 \([a,b]\)，黄金分割法重复保留较低目标函数值的一侧，
 区间长度按
 \[
-\rho=\frac{\sqrt{5}-1}{2}\a0.618
+\rho=\frac{\sqrt{5}-1}{2}\approx 0.618
 \]
 收缩。第十三章指出，在单峰假设成立时，它只需复用一个内部函数值，计算量稳定，
 但仍然只给出该区间内的局部结果。

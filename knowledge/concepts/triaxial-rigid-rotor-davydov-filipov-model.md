@@ -35,7 +35,7 @@ $$\hat{H} = \sum_{k=1}^3 \frac{\hat{I}_k^2}{2\mathcal{J}_k} = A_1 \hat{I}_1^2 + 
 ### (2) 空间定点转动群对称性（$D_2$ 对称性）
 由于椭球表面在绕任何一个主轴旋转 $180^\circ$（即 $\mathcal{R}_k(\pi)$ 操作）下保持不变，系统的波函数必须属于四元群 $D_2$（Klein 四元群）的全对称不可约表示（$A$ 表示）。
 自旋为 $I$ 的全对称态只能由具有偶数投影量子数 $K$ 的对称化 Wigner $D$ 矩阵构成：
-|IMK\rangle = \sqrt{\frac{2I + 1}{16\pi^2(1 + \delta_{K,0})}} \left[ D_{MK}^I(\theta_i) + (-1)^I D_{M,-K}^I(\theta_i) \right] \quad (K = 0, 2, 4, \dots \le I)$$
+$$|IMK\rangle = \sqrt{\frac{2I + 1}{16\pi^2(1 + \delta_{K,0})}} \left[ D_{MK}^I(\theta_i) + (-1)^I D_{M,-K}^I(\theta_i) \right] \quad (K = 0, 2, 4, \dots \le I)$$
 
 ---
 
@@ -48,7 +48,7 @@ $$\hat{H} = \sum_{k=1}^3 \frac{\hat{I}_k^2}{2\mathcal{J}_k} = A_1 \hat{I}_1^2 + 
 ### $I=2^+$ 能级的严格矩阵对角化与能级公式
 
 对于 $I=2$，基矢空间仅由两个正宇称正规化态张成：
-$|2, 0\rangle \quad (K=0), \quad |2, 2\rangle \quad (K=2)$$
+$$|2, 0\rangle \quad (K=0), \quad |2, 2\rangle \quad (K=2)$$
 
 利用阶梯算符 $\hat{I}_\pm = \hat{I}_1 \mp i \hat{I}_2$，计算哈密顿量矩阵元：
 $$H_{00} = \langle 2, 0 | \hat{H} | 2, 0 \rangle = 3 (A_1 + A_2)$$

@@ -23,10 +23,10 @@ This chapter chronicles the 25-year evolution of nuclear chirality and wobbling 
 ## 2. Four Chiral Mass Islands
 
 The chapter identifies four distinct regions on the Segrè chart where high-$j$ valence particles and holes couple with a triaxial core:
-- **$A \a$A \aA \a130$ Island ($Z \approx 55 - 62, N \approx 71 - 79$)**: The most prolific region ($\pi h_{11/2} \otimes \nu h_{11/2}^{-1}$), exhibiting both 2-quasiparticle, 3-quasiparticle, and 4-quasiparticle chiral bands;
-- **$A \a100$ Island ($Z \approx 44 - 48, N \approx 57 - 63$)**: $\pi g_{9/2}^{-1} \otimes \nu h_{11/2}$ configurations in Pd, Rh, and Ag isotopes with pronounced $\gamma$-softness;
-- **$A \a80$ Island ($Z \approx 35 - 37, N \approx 41 - 45$)**: $\pi g_{9/2} \otimes \nu g_{9/2}$ in Br and Rb isotopes, featuring chiral-octupole parity quartets;
-- **$A \a190$ Island ($Z \approx 79 - 81, N \a113 - 117$)**: $\pi h_{9/2} \otimes \nu i_{13/2}^{-1}$ in Tl and Pt isotopes with strong Coriolis decoupling.
+- **$A \approx 130$ Island ($Z \approx 55 - 62, N \approx 71 - 79$)**: The most prolific region ($\pi h_{11/2} \otimes \nu h_{11/2}^{-1}$), exhibiting both 2-quasiparticle, 3-quasiparticle, and 4-quasiparticle chiral bands;
+- **$A \approx 100$ Island ($Z \approx 44 - 48, N \approx 57 - 63$)**: $\pi g_{9/2}^{-1} \otimes \nu h_{11/2}$ configurations in Pd, Rh, and Ag isotopes with pronounced $\gamma$-softness;
+- **$A \approx 80$ Island ($Z \approx 35 - 37, N \approx 41 - 45$)**: $\pi g_{9/2} \otimes \nu g_{9/2}$ in Br and Rb isotopes, featuring chiral-octupole parity quartets;
+- **$A \approx 190$ Island ($Z \approx 79 - 81, N \approx 113 - 117$)**: $\pi h_{9/2} \otimes \nu i_{13/2}^{-1}$ in Tl and Pt isotopes with strong Coriolis decoupling.
 
 ---
 

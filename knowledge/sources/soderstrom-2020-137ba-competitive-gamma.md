@@ -84,6 +84,9 @@ Söderström *et al.* provide an independent total-branch confirmation and the s
 | SO20-AR-2 | Path identifiability | Angular correlation alone is degenerate; energy-sharing breaks the M2E2/E3M1 ambiguity but still leaves sign/ordering branches and model dependence. | PDF pp.4–6, Fig.5, Eq.5 | self-checking |
 | SO20-AR-3 | Cross-paper conflict | The result directly revises Walz's dominant-Aqq interpretation while agreeing on the total branch within errors; it is a same-nucleus independent experiment, not a duplicate PDF. | PDF pp.1, 4–6, Table 1 | self-checking |
 | SO20-AR-4 | Reproducibility | The article points to Mendeley DOI `10.17632/skhmjshxdj` for final points, but the checked DOI/landing endpoint currently has no retrievable snapshot; raw data and sorting/analysis code remain author-request-only. | PDF p.7, Data/Code availability; EXT-20260921-002 | input-limited-L4 |
+
+| ID | Audit finding | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
 | SO20-D28-1 | A 2026-10-30 access audit found the cited Mendeley DOI unresolved (HTTP 404), the v1 landing shell HTTP 200 but no dataset snapshot, the public dataset API returning `dataset not found`, and the files/snapshot routes without scientific files. No event-level data, response, efficiency, background, cut or covariance file was recovered. | reproducibility-boundary | direct-access-audit | `tmp/day28-ba137-access/access-report.json`; DOI/landing/API route probes | true |
 
 ## Knowledge Impact and Learning Decision
@@ -120,4 +123,4 @@ Söderström *et al.* provide an independent total-branch confirmation and the s
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| SO20-D21-1 | Söderström 2020 利用 11 台 $	ext{CeBr}_3$ 探测器在五个角度下测定连续能量共享谱，以 $8.7\sigma$ 显著性测定总分支比 $(2.62 \pm 0.30) 	imes 10^{-6}$，并在多维自洽拟合中反转测定 $\alpha_{M2E2} / \alpha_{E3M1} = 0.2418$，确立了 $E3M1$ 八极—偶极路径的绝对物理统治地位（反转 Walz 2015 达 $13.88$ 倍）。蒙特卡洛壳模型（MCSM）揭示其微观机制为单粒子 $M2$ 矩阵元受 $\Delta \ell = 3$ 禁戒压低近 3 个数量级，而 $E3$ 算符与 $^{138}	ext{Ba}$ 核芯 $3^-$ 八极声子发生强集体耦合。由此确立证据门准则：确证双光子虚态多极路径必须依赖多角度连续能量分配谱的全局展开。 | claim-boundary-audit | direct-and-derived | Nat. Commun. 11, 3242 pp.3-6; Table 1; two-photon-decay-audit-015.json | true |
+| SO20-D21-1 | Söderström 2020 利用 11 台 $\text{CeBr}_3$ 探测器在五个角度下测定连续能量共享谱，以 $8.7\sigma$ 显著性测定总分支比 $(2.62 \pm 0.30) \times 10^{-6}$，并在多维自洽拟合中反转测定 $\alpha_{M2E2} / \alpha_{E3M1} = 0.2418$，确立了 $E3M1$ 八极—偶极路径的绝对物理统治地位（反转 Walz 2015 达 $13.88$ 倍）。蒙特卡洛壳模型（MCSM）揭示其微观机制为单粒子 $M2$ 矩阵元受 $\Delta \ell = 3$ 禁戒压低近 3 个数量级，而 $E3$ 算符与 $^{138}\text{Ba}$ 核芯 $3^-$ 八极声子发生强集体耦合。由此确立证据门准则：确证双光子虚态多极路径必须依赖多角度连续能量分配谱的全局展开。 | claim-boundary-audit | direct-and-derived | Nat. Commun. 11, 3242 pp.3-6; Table 1; two-photon-decay-audit-015.json | true |

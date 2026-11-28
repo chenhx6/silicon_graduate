@@ -27,16 +27,16 @@ N. Lo Iudice 与 F. Palumbo (1978) 提出、Darmstadt 电子散射实验（Bohle
   质子系统与中子系统绕两者对称平分线作反相相对角振荡：$\vec{I}_p = -\vec{I}_n$；由于总角动量为零（$\vec{I} = \vec{I}_p + \vec{I}_n = 0$），该模式在基态附近展示为无净角动量净转动的纯内禀振动；
 - **对称能恢复力**：
   质子与中子流体在空间方向的相对剪刀错开，直接破坏了同位旋标量对称性，核力强大的体积对称能提供极强的角弹性回复力常数：
-  $$C_\theta \approx 2 b_$C_{\text{sym}}$ \delta^2 \frac{Z N}{A}.$$
+  $$C_\theta \approx 2 b_{\text{sym}} \delta^2 \frac{Z N}{A}.$$
 
 ### 2.2 激发能量与 $B(M1)$ 强度求和
 - **剪刀态本征激发能**：
   $$E_{\text{sc}} = \hbar\omega_{\text{sc}} \approx 66 \cdot \delta \cdot A^{-1/3}\text{ MeV}.$$
-  在典型稀土形变区（$A \sim 150 - 180, \delta \a0.25$），剪刀模能量集中在 $E_x \sim 2.5 - 3.5\text{ MeV}$；
+  在典型稀土形变区（$A \sim 150 - 180, \delta \approx 0.25$），剪刀模能量集中在 $E_x \sim 2.5 - 3.5\text{ MeV}$；
 - **集体磁偶极跃迁几率 $B(M1)$ 增强**：
-  由于质子具有轨道磁矩（$g_p \a1.0$）而中子不带电荷轨道磁矩为零（$g_n \approx 0$），质子流的宏观角反摆产生巨大的动态瞬态交变磁偶极矩：
-  $$B(M1; 0^+ \to 1_{\text{sc}}^+) = \frac{3}{16\pi} \mathcal{J}_{\text{sc}} \omega_{\text{sc}} (g_p - g_n)^2 \a1.0 - 3.5\ \mu_N^2.$$
-  其强度不仅远超普通单粒子态阻碍跃迁，且在 IBM-2 代数模型中完美对应为 $F$-旋矢量激发（$F = F_m_{\max} - 1$ 的混合对称态）。
+  由于质子具有轨道磁矩（$g_p \approx 1.0$）而中子不带电荷轨道磁矩为零（$g_n \approx 0$），质子流的宏观角反摆产生巨大的动态瞬态交变磁偶极矩：
+  $$B(M1; 0^+ \to 1_{\text{sc}}^+) = \frac{3}{16\pi} \mathcal{J}_{\text{sc}} \omega_{\text{sc}} (g_p - g_n)^2 \approx 1.0 - 3.5\ \mu_N^2.$$
+  其强度不仅远超普通单粒子态阻碍跃迁，且在 IBM-2 代数模型中完美对应为 $F$-旋矢量激发（$F = F_{\max} - 1$ 的混合对称态）。
 
 ---
 

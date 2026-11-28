@@ -78,6 +78,9 @@ tools/nndc_mcp/.venv/
 
 # Obsidian machine-local state
 .codex/
+!/.codex/
+/.codex/*
+!/.codex/hooks.json
 .obsidian/
 AGENTS.local.md
 .obsidian/workspace.json

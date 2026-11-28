@@ -25,6 +25,9 @@ tags: [magnetic-rotation, shears, bandhead, finite-j, core-rotation, 135Pr, 137P
 |---|---|---|
 | Clark–Macchiavelli 2000 | 半经典角度用 $I(I+1)$ 的Casimir映射；Pb带在带头附近约正交；$^{193-199}$Pb寿命数据给随自旋下降的B(M1) | [[clark-2000-shears-mechanism]] pp.11,15–18；综述，非本轮新实验 |
 | Hübel 2005 | 对 $V_2>0$ 的粒子–空穴相互作用，$P_2$势在 $\theta=90^\circ$取极小，$I_{bh}=I_{90}=\sqrt2j$（等长示例）；Pb区核芯贡献通常约5–15%总角动量 | [[hubel-2005-magnetic-rotation-review]] pp.49,60–62；经验模型与综述汇编 |
+
+| 核素 | 直接核验 | 来源与定位 | 边界 |
+|---|---|---|---|
 | $^{199}$Pb | 配置 $\nu(i_{13/2}^{-2}f_{5/2})\otimes\pi(h_{9/2}i_{13/2})$，质子叶片11、中子叶片29/2，带头约35/2，约90°；终止57/2时叶片和51/2，余下由核芯承担 | [[hubel-2005-magnetic-rotation-review]] p.49 | 原件配置/带头/终止由综述转引；不把差额直接当独立测得 $R$ |
 | $^{197}$Pb交叉校验 | Hübel p.60以ABE11给出带头37/2、$j_\pi=11,j_\nu=29/2$，并用正$V_2=1.35$ MeV拟合交互能趋势；交叉后配置改变 | [[hubel-2005-magnetic-rotation-review]] p.60 | 不是题目指定的198Pb，作为同区构型控制 |
 | $^{198}$Pb | Clark Fig.5列出198Pb(1)/(3)的配置标签和B(M1)寿命曲线；Hübel p.13说明198Pb有5条M1带、3条与低能级相连；本轮未从来源得到某一198Pb带的明确$(j_\pi,j_\nu,I_0)$三元组 | [[clark-2000-shears-mechanism]] pp.5,11–12；[[hubel-2005-magnetic-rotation-review]] p.13 | 不强行计算198Pb的精确$I_0$偏差 |

@@ -40,8 +40,8 @@ raw-data 重分析或机制终局裁决。
 
 | Dataset | Atomic evidence | Current role | Missing input |
 |---|---|---|---|
-| Matta 2015 | `M15-3/M15-4/M15-8/M15-10` | Gammasphere angular-distribution 大 `|δ|` 与 INGA `A` | 逐角净峰、响应、`a(E)/Q(E)`、背景和联合 `Σ` |
-| Lv 2022 | `L22-3/L22-4/L22-11` | 独立 JUROGAM II `P–R_ac` 小 `|δ|` 分支 | `P–R_ac` 联合协方差、逐门 counts、response 和 feeding |
+| Matta 2015 | `M15-3/M15-4/M15-8/M15-10` | Gammasphere angular-distribution 大 `\|δ\|` 与 INGA `A` | 逐角净峰、响应、`a(E)/Q(E)`、背景和联合 `Σ` |
+| Lv 2022 | `L22-3/L22-4/L22-11` | 独立 JUROGAM II `P–R_ac` 小 `\|δ\|` 分支 | `P–R_ac` 联合协方差、逐门 counts、response 和 feeding |
 | Sensharma 2019/2026 | `SH19-*`；`SH26-8/SH26-13/SH26-15` | DGS 连接线和固定 `σ/I=.2` 的条件结果 | event/run ledger、完整 nuisance profile、拟合代码和 Cov |
 | Chen 2026 | `CH26-B1`–`CH26-B7` | energy-conditioned model layer | full likelihood、priors、posterior samples、固定 EM 输入和 competing-model evidence |
 

@@ -46,7 +46,7 @@ $$P(90^\circ) = \frac{\pm \frac{3}{2} A_2^{(p)}(\delta) - \frac{5}{8} A_4^{(p)}(
    其中 $N_\perp$ 为在垂直反应平面方向上的相邻晶体符合散射计数，$N_\parallel$ 为平行方向计数，$a_{\text{geom}}$ 为采用无偏振源（如 $^{152}\text{Eu}$）实测的几何效率不对称因子；
 2. **偏振灵敏度响应校准**：
    $$P_{\text{exp}} = \frac{A_{\text{asym}}}{Q(E_\gamma)}.$$
-   典型 Clover 偏振灵敏度在 $E_\gamma \a1\text{ MeV}$ 处为 $Q \a0.14 - 0.16$。
+   典型 Clover 偏振灵敏度在 $E_\gamma \approx 1\text{ MeV}$ 处为 $Q \approx 0.14 - 0.16$。
 
 ---
 

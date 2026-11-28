@@ -76,7 +76,7 @@ diagonal/offdiagonal cancellation at the removed-quadrupole endpoint is
 progressively replaced by reinforcement. Simultaneously the retained strength
 \(S\) decreases:
 
-| \(s\) | \(S=\sum|R_{ai}|^2\), \(e^2b^2\) | Signed chain \(C\), \(e^3b^3\) |
+| \(s\) | \(S=\sum\vert R_{ai}\vert^2\), \(e^2b^2\) | Signed chain \(C\), \(e^3b^3\) |
 |---:|---:|---:|
 | 0 | 2.320704 | 0.371616 |
 | 0.25 | 2.154831 | 1.351943 |

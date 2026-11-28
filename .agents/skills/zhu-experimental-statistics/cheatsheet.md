@@ -69,5 +69,5 @@ $$[J^T W J + \lambda \cdot \text{diag}(J^T W J)] \Delta\vec{\theta} = J^T W (\ve
 |---|---|---|---|
 | $\chi^2(\vec{\theta} + \Delta\vec{\theta}) < \chi^2(\vec{\theta})$ | **接受该步更新**：$\vec{\theta} \gets \vec{\theta} + \Delta\vec{\theta}$ | $\lambda \gets \max(\lambda / 10, 10^{-7})$ | 减小阻尼，向高斯-牛顿二次收敛过渡 |
 | $\chi^2(\vec{\theta} + \Delta\vec{\theta}) \ge \chi^2(\vec{\theta})$ | **拒绝该步更新**：保持 $\vec{\theta}$ 不变 | $\lambda \gets \min(\lambda \times 10, 10^7)$ | 增大阻尼，退化为保守的最陡下降步 |
-| 终止判据 1 | $|\chi_{\text{new}}^2 - \chi_{\text{old}}^2| < 10^{-5}$ | 连续 2 步满足则停止 | 达到能量曲面平坦谷底 |
+| 终止判据 1 | $\vert\chi_{\text{new}}^2 - \chi_{\text{old}}^2\vert < 10^{-5}$ | 连续 2 步满足则停止 | 达到能量曲面平坦谷底 |
 | 终止判据 2 | $\|\Delta\vec{\theta}\| / (\|\vec{\theta}\| + 10^{-3}) < 10^{-5}$ | 步长收缩至数值精度极限 | 参数变化完全饱和 |

@@ -10,9 +10,9 @@
 |---|---|---|---|---|---|
 | **自旋陷阱 (Spin Trap)** | $\Delta I \gg \lambda$，能量差 $E_\gamma$ 极小 | 全核图谱各区域 | 相空间因子 $E_\gamma^{2L+1}$ 极小与高多极阻碍 | $\text{ns} \sim \text{天}$ | 低能转换电子发射、高多极辐射 |
 | **Seniority 异能态** | 单 $j$ 壳层半满壳粒子-空穴相消 | 幻数闭壳邻近球形核区 | 代数矩阵元因子 $(2j+1-2n) \to 0$ | $\text{ns} \sim \text{ms}$ | 纯四极 $B(E2) \ll 1\text{ W.u.}$，常数能级间距 |
-| **$K$-同核异能态** | 轴对称自旋投影差 $|\Delta K| > \lambda$ | 强变形稀土与锕系核区 | 轴对称自旋投影守恒破缺微弱 | $\mu\text{s} \sim \text{年}$ | 满足经验幂律 $f_\nu \sim 30 - 100$ |
+| **$K$-同核异能态** | 轴对称自旋投影差 $\vert\Delta K\vert > \lambda$ | 强变形稀土与锕系核区 | 轴对称自旋投影守恒破缺微弱 | $\mu\text{s} \sim \text{年}$ | 满足经验幂律 $f_\nu \sim 30 - 100$ |
 | **三轴诱导 $K$-混合** | 三轴非轴对称破坏轴对称性 | $A \sim 130$ 质量区奇奇与偶偶核 | 空间相干杂化产生量子泄漏 | $\text{ns} \sim \mu\text{s}$ | 阻碍度异常塌缩：$f_\nu \le 5 - 10$ |
-| **形状异能态 (Shape)** | 处于第二超形变极小势阱内 | 重锕系核（$\text{U}, \text{Pu}, \text{Am}$） | 双峰裂变势垒巨额 WKB 空间穿隧 | $\text{ns} \sim \text{ms}$ | 自发裂变、转动惯量膨胀一倍 ($\beta_2 \a0.6$) |
+| **形状异能态 (Shape)** | 处于第二超形变极小势阱内 | 重锕系核（$\text{U}, \text{Pu}, \text{Am}$） | 双峰裂变势垒巨额 WKB 空间穿隧 | $\text{ns} \sim \text{ms}$ | 自发裂变、转动惯量膨胀一倍 ($\beta_2 \approx 0.6$) |
 
 ---
 
@@ -49,9 +49,9 @@ $$f_\nu = \left( \frac{T_{1/2}^{\text{exp}} \cdot b_\gamma}{T_{1/2}^W} \right)^{
 
 | 核素 | 异能态自旋宇称 $I^\pi$ | 激发能量 $E_{\text{II}}\ [\text{MeV}]$ | 自发裂变半衰期 $T_{1/2}^{\text{SF}}$ | 轴比 $c/a$ 与形变度 $\beta_2$ | 裂变内势垒 $V_A$ / 外势垒 $V_B$ |
 |---|---|---|---|---|---|
-| **$^{242m}\text{Am}$** | $J^\pi = 5^-$ | $2.20\text{ MeV}$ | **$14.0\text{ ms}$** | $2.0 : 1$ ($\beta_2 \a0.62$) | $V_A = 6.0\text{ MeV}, V_B = 5.4\text{ MeV}$ |
-| **$^{240m}\text{Pu}$** | $J^\pi = 0^+$ | $2.80\text{ MeV}$ | **$3.8\text{ ns}$** | $2.0 : 1$ ($\beta_2 \a0.61$) | $V_A = 5.6\text{ MeV}, V_B = 5.1\text{ MeV}$ |
-| **$^{238m}\text{U}$** | $J^\pi = 0^+$ | $2.56\text{ MeV}$ | **$280\text{ ns}$** | $2.0 : 1$ ($\beta_2 \a0.60$) | $V_A = 5.8\text{ MeV}, V_B = 5.5\text{ MeV}$ |
+| **$^{242m}\text{Am}$** | $J^\pi = 5^-$ | $2.20\text{ MeV}$ | **$14.0\text{ ms}$** | $2.0 : 1$ ($\beta_2 \approx 0.62$) | $V_A = 6.0\text{ MeV}, V_B = 5.4\text{ MeV}$ |
+| **$^{240m}\text{Pu}$** | $J^\pi = 0^+$ | $2.80\text{ MeV}$ | **$3.8\text{ ns}$** | $2.0 : 1$ ($\beta_2 \approx 0.61$) | $V_A = 5.6\text{ MeV}, V_B = 5.1\text{ MeV}$ |
+| **$^{238m}\text{U}$** | $J^\pi = 0^+$ | $2.56\text{ MeV}$ | **$280\text{ ns}$** | $2.0 : 1$ ($\beta_2 \approx 0.60$) | $V_A = 5.8\text{ MeV}, V_B = 5.5\text{ MeV}$ |
 
 ---
 

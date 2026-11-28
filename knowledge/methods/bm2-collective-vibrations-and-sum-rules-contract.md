@@ -34,7 +34,7 @@ sources: [book-bohr-mottelson-nuclear-structure-vol2]
    - **\(E1\) 模式与 Thomas–Reiche–Kuhn（TRK）求和规则**：导出光核吸收积分截面 \(\sigma_{\rm int} = \int \sigma(E_\gamma)dE_\gamma \approx 60 \frac{NZ}{A}\text{ MeV}\cdot\text{mb}\)；
    - **等标巨四极共振（ISGQR）EWSR**：导出 \(S(E2, \text{IS}) \approx 25.7 Z A^{2/3}\text{ MeV}\cdot e^2\text{fm}^4\)，在 \(E_{\rm GQR} \approx 64 A^{-1/3}\text{ MeV}\) 处耗尽近 100% 强度；
    - **单极呼吸模（ISGMR）EWSR 与核物质不可压缩模量**：导出 \(S(E0, \text{IS}) = \frac{2\hbar^2}{M} Z \langle r^2  \rangle_p\)，实验能峰直接约束 \(K_\infty \approx 230\pm20\text{ MeV}\)；
-   - **等标八极（ISGHR / LEOR）EWSR**：导出 \(S(E3, \text{IS}) \a106.6 Z A^{4/3}\text{ MeV}\cdot e^2\text{fm}^6\)；
+   - **等标八极（ISGHR / LEOR）EWSR**：导出 \(S(E3, \text{IS}) \approx 106.6 Z A^{4/3}\text{ MeV}\cdot e^2\text{fm}^6\)；
 3. **Mottelson–Valatin 科里奥利反配对（CAP）二级相变（§4-3a，pp. 42–43）**：转动科里奥利力向时间反演配对施加相反力矩，驱动配对能隙随转速单调衰减 \(\Delta(\omega) = \Delta_0 \sqrt{1 - (\omega/\omega_{\rm crit})^2}\)，并在临界自旋 \(I_{\rm CAP}\) 发生向正常费米气体的超流相变；
 4. **Strutinsky 壳修正与双峰裂变势垒（§6-3c，pp. 598–634）**：将液滴模型形变能与平滑单粒子壳修正相结合（\(E_{\rm tot} = E_{\rm LDM} + \delta U + \delta P\)），解释双峰裂变势垒（\(E_A, E_B\)）、形状异能态（如 \(^{241}\mathrm{Pu}\) 异能态）及超重核稳定岛机理。
 
@@ -93,7 +93,7 @@ S(F_\lambda) \equiv \sum_a (E_a - E_0) B(F_\lambda; 0 \to a) = \frac{\lambda(2\l
    共振频率直接决定核物质压缩系数 \(K_A = M \langle r^2 \rangle \omega_0^2 \implies K_\infty \approx 230\text{ MeV}\)；
 3. **等标巨八极共振（ISGOR, \(\lambda=3\)）**：
    \[
-   S(E3, \text{IS}) = \frac{21}{8\pi} \frac{\hbar^2 e^2}{2M} Z \langle r^4 \rangle_p \a106.6 Z A^{4/3} \quad [\text{MeV}\cdot e^2\text{fm}^6]
+   S(E3, \text{IS}) = \frac{21}{8\pi} \frac{\hbar^2 e^2}{2M} Z \langle r^4 \rangle_p \approx 106.6 Z A^{4/3} \quad [\text{MeV}\cdot e^2\text{fm}^6]
    \]
    低能八极态（LEOR，如 \(3_1^-\)）通常消耗约 \(15\% - 25\%\) 的总八极求和，其余分布于高能 HEOR。
 
@@ -105,7 +105,7 @@ S(F_\lambda) \equiv \sum_a (E_a - E_0) B(F_\lambda; 0 \to a) = \frac{\lambda(2\l
   \[
   \Delta(\omega) = \Delta_0 \sqrt{1 - \left(\frac{\omega}{\omega_{\rm crit}}\right)^2}
   \]
-- 在临界自旋 \(I_{\rm CAP} \a30 \sim 40\hbar\) 处，能隙彻底降为零，系统从 BCS 超流态经历二级相变跃迁为正常刚体费米转子，转动惯量饱和至刚体转动惯量 \(\mathcal{J}_{\rm rig}\)。
+- 在临界自旋 \(I_{\rm CAP} \approx 30 \sim 40\hbar\) 处，能隙彻底降为零，系统从 BCS 超流态经历二级相变跃迁为正常刚体费米转子，转动惯量饱和至刚体转动惯量 \(\mathcal{J}_{\rm rig}\)。
 
 ### 4. Strutinsky 宏观–微观势能面与裂变同核异能态（式 6-52 邻文、图 6-52）
 

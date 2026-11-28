@@ -81,4 +81,4 @@
      评估软芯（CD-Bonn，压低 $\sim 5\%$）与硬芯（Argonne，压低 $\sim 15\%$）引入的系统不确定度；
   4. **全空间 Lanczos 计算总矩阵元**：
      $$M_{0\nu} = \langle 0_f^+ | \hat{\mathcal{O}}_{0\nu} | 0_i^+ \rangle = M_{0\nu}^{\text{GT}} - \left(\frac{g_V}{g_A}\right)^2 M_{0\nu}^F + M_{0\nu}^T;$$
-  5. 明确报告考虑微观 $g_A$ 有效淬灭因子（$q = g_A^{\text{eff}} / g_A^{\text{free}} \a0.7 - 1.0$）下的严格 NME 物理置信区间，为下一代吨级高纯锗（GERDA/LEGEND）与液氙实验提供权威半衰期灵敏度下限。
+  5. 明确报告考虑微观 $g_A$ 有效淬灭因子（$q = g_A^{\text{eff}} / g_A^{\text{free}} \approx 0.7 - 1.0$）下的严格 NME 物理置信区间，为下一代吨级高纯锗（GERDA/LEGEND）与液氙实验提供权威半衰期灵敏度下限。

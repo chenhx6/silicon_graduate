@@ -37,5 +37,5 @@ $$\tau(d) = \frac{I_s^A(d)}{v \cdot \frac{d}{dd} I_u^A(d)} = \frac{I_s^A(d)}{v \
 - 反冲核受到的总阻止本领为电子阻止（Bethe-Bloch 机制，小角散射为主）与核阻止（Lindhard-Scharff-Schiøtt / ZBL 机制，弹性能核碰撞导致反冲轨迹偏折）：
   $$-\frac{dE}{dx} = \left(\frac{dE}{dx}\right)_e + \left(\frac{dE}{dx}\right)_n = S_e(v) + S_n(v).$$
 - 平均多普勒频移因子：
-  $$F(\tau) = \frac{\langle \Delta E \rangle}{\Delta E_m_{\max}} = \frac{\langle v(t) \cos\phi \rangle}{v_0} = \frac{1}{v_0 \tau} \int_0^\infty v(t) \overline{\cos\phi(t)} e^{-t/\tau} dt.$$
+  $$F(\tau) = \frac{\langle \Delta E \rangle}{\Delta E_{\max}} = \frac{\langle v(t) \cos\phi \rangle}{v_0} = \frac{1}{v_0 \tau} \int_0^\infty v(t) \overline{\cos\phi(t)} e^{-t/\tau} dt.$$
   通过测定各角度探头峰位漂移与线形不对称度，直接反演超短寿命 $\tau$，用于绝对跃迁几率 $B(E2)$、过渡四极矩 $Q_t$ 及核形变参数 $\beta_2$ 的绝对标定。

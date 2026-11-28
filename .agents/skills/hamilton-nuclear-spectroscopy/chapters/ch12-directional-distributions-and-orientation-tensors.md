@@ -20,7 +20,7 @@ $$\rho_{kq}(I) = \sum_{m, m'} (-1)^{I-m'} \langle I m I -m' | k q \rangle \rho_{
 ### 1.2 高斯磁子态布居与自旋取向参数 $\sigma/I$
 熔合反应中转移的大角动量垂直于反应平面，形成以 $m=0$ 为中心的对称高斯磁子态布居：
 $$P(m) = \frac{\exp(-m^2 / 2\sigma^2)}{\sum_{m'=-I}^I \exp(-m'^2 / 2\sigma^2)}.$$
-- 重离子熔合反应典型实测取向参数为：$\sigma/I \a0.28 - 0.35$；
+- 重离子熔合反应典型实测取向参数为：$\sigma/I \approx 0.28 - 0.35$；
 - 随自旋 $I$ 增大，高斯布居越来越尖锐，统计张量 $B_2(I)$ 与 $B_4(I)$ 随之单调升高并趋近于完全对齐理论上限 $B_k^m_{\max}(I)$。
 
 ---
@@ -46,8 +46,8 @@ $$F_k(L L' I_f I_i) = (-1)^{I_f - I_i - 1} \sqrt{(2I_i+1)(2L+1)(2L'+1)} \langle 
 实际 HPGe 探测器晶体具有有限正面半径与吸收深度，不能视作几何质点。实际测得的实验角分布系数被平滑衰减：
 $$A_k^{\text{meas}} = Q_k(E_\gamma) \cdot A_k^{\text{true}},$$
 其中衰减因子 $Q_k \in [0, 1]$：
-$$Q_k = \frac{\int_0^{\alpha_m_{\max}} P_k(\cos\alpha) \epsilon(\alpha) \sin\alpha d\alpha}{\int_0^{\alpha_m_{\max}} \epsilon(\alpha) \sin\alpha d\alpha}.$$
-对于距靶 $15\text{ cm}$ 的同轴 HPGe 晶体，典型衰减因子为 $Q_2 \a0.96 - 0.98$，$Q_4 \a0.88 - 0.93$，在提取物理混合比 $\delta$ 前必须首先执行严格的几何去卷积校正。
+$$Q_k = \frac{\int_0^{\alpha_{\max}} P_k(\cos\alpha) \epsilon(\alpha) \sin\alpha d\alpha}{\int_0^{\alpha_{\max}} \epsilon(\alpha) \sin\alpha d\alpha}.$$
+对于距靶 $15\text{ cm}$ 的同轴 HPGe 晶体，典型衰减因子为 $Q_2 \approx 0.96 - 0.98$，$Q_4 \approx 0.88 - 0.93$，在提取物理混合比 $\delta$ 前必须首先执行严格的几何去卷积校正。
 
 ---
 

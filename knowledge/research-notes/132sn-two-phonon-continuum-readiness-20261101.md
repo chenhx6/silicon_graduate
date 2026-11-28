@@ -135,9 +135,9 @@ Using the same two-body partition as above, the channel-opening conditions are:
 
 | `131Sn` daughter | channel opens when | central `E_n` at `δ=0` | design meaning |
 |---|---:|---:|---|
-| ground `(3/2+)` | `δ > −1350.507 keV` | remains open across a broad downward shift |
-| `331.73-keV (1/2+)` | `δ > −1018.777 keV` | second low-energy tag remains open for most plausible shifts |
-| `1654.53-keV (5/2+)` | `δ > +304.023 keV` | high daughter tag discriminates an upward shift or a different doorway |
+| ground `(3/2+)` | `δ > −1350.507 keV` | | remains open across a broad downward shift |
+| `331.73-keV (1/2+)` | `δ > −1018.777 keV` | | second low-energy tag remains open for most plausible shifts |
+| `1654.53-keV (5/2+)` | `δ > +304.023 keV` | | high daughter tag discriminates an upward shift or a different doorway |
 
 Representative response points are: at `δ=−500 keV`, the ground and 331.73-keV
 channels have neutron energies of approximately `844` and `515 keV`; at `δ=0`,

@@ -123,7 +123,7 @@ The high-spin alignment and sudden E1 reduction had motivated quenched-octupole,
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| EXT146-D21-1 | Bucher 2017 测得 $^{146}\text{Ba}$ 维持了与 $^{144}\text{Ba}$ 相同的强八极跃迁几率 $B(E3; 3^- \to 0^+) = 48_{-29}^{+21}\text{ W.u.}$，但其实测电偶极跃迁矩阵元 $|\langle 1^- \Vert M(E1) \Vert 0^+ \rangle| = 0.000223\ e\text{b}^{1/2}$（$B(E1) \approx 9.3 \times 10^{-7}\text{ W.u.}$），内禀电偶极矩 $|D_0| \le 0.01\ e\text{fm}$ 较 $^{144}\text{Ba}$（$0.13\ e\text{fm}$）骤降逾 13 倍。该实验确证 $B(E1)$ 不是指示八极集体性强弱的单调代理量；另外，Table I 中激发态矩阵元与轴对称刚性转子预测的高度吻合源自 GOSIA 拟合所施加的转子耦合约束，在释放该约束时矩阵元误差扩大至 $+68\%/-80\%$，未构成转子模型的独立统计检验。 | claim-boundary-audit | direct-and-derived | PRL 118, 152504 pp.2-5, Table I; octupole-ba-audit-006.json | true |
+| EXT146-D21-1 | Bucher 2017 测得 $^{146}\text{Ba}$ 维持了与 $^{144}\text{Ba}$ 相同的强八极跃迁几率 $B(E3; 3^- \to 0^+) = 48_{-29}^{+21}\text{ W.u.}$，但其实测电偶极跃迁矩阵元 $\vert\langle 1^- \Vert M(E1) \Vert 0^+ \rangle\vert = 0.000223\ e\text{b}^{1/2}$（$B(E1) \approx 9.3 \times 10^{-7}\text{ W.u.}$），内禀电偶极矩 $\vert D_0\vert \le 0.01\ e\text{fm}$ 较 $^{144}\text{Ba}$（$0.13\ e\text{fm}$）骤降逾 13 倍。该实验确证 $B(E1)$ 不是指示八极集体性强弱的单调代理量；另外，Table I 中激发态矩阵元与轴对称刚性转子预测的高度吻合源自 GOSIA 拟合所施加的转子耦合约束，在释放该约束时矩阵元误差扩大至 $+68\%/-80\%$，未构成转子模型的独立统计检验。 | claim-boundary-audit | direct-and-derived | PRL 118, 152504 pp.2-5, Table I; octupole-ba-audit-006.json | true |
 
 ## Day25内Day26无学分preview：相消机制的实际分解
 

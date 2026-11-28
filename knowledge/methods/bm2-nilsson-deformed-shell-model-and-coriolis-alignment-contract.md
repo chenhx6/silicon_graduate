@@ -28,7 +28,7 @@ sources: [book-bohr-mottelson-nuclear-structure-vol2]
 2. **回避交叉（Avoided Crossings）与基底展开**：解析证明相同宇称 \(\pi = (-1)^N\) 与相同 \(\Omega\) 的单粒子轨道在形变演化中发生能级排斥，导出在球形基底 \( \vert j \Omega\rangle\) 中的展开系数 \(c_j \equiv \langle j \Omega  \vert \nu  \rangle\)；
 3. **单核子转移反应截面与指纹法则（§5-3a）**：建立剥离反应 \(\frac{d\sigma}{d\Omega} \propto c_j^2 u_\nu^2\) 与拾取反应 \(\frac{d\sigma}{d\Omega} \propto c_j^2 v_\nu^2\) 的谱学因子理论，利用各转动成员相对截面比率唯一锁定 Nilsson 轨道身份；
 4. **Coriolis 解耦参数与签名分裂（式 5-46）**：严格推导 \(K=1/2\) 带对角 Coriolis 矩阵元导出的解耦参数 \(a = - \langle \nu, 1/2  \vert j_+  \vert \nu, \overline{1/2} \rangle\)，解释特征能量交错 \(\Delta E_{1/2}(I) = A_{\rm rot} a (-1)^{I+1/2}(I+1/2)\)；
-5. **二阶 Coriolis 惯量重整化与衰减机理（式 5-47）**：解析证明二阶 Coriolis 矩阵元含非对角配对因子 \((u_\nu u_{\nu'} + v_\nu v_{\nu'})^2\)（与 \(M1\) 跃迁相同），并阐明微观理论系统高估矩阵元导致经验衰减因子（\(\rho_{\rm att} \a0.6 \sim 0.8\)）的物理根源；
+5. **二阶 Coriolis 惯量重整化与衰减机理（式 5-47）**：解析证明二阶 Coriolis 矩阵元含非对角配对因子 \((u_\nu u_{\nu'} + v_\nu v_{\nu'})^2\)（与 \(M1\) 跃迁相同），并阐明微观理论系统高估矩阵元导致经验衰减因子（\(\rho_{\rm att} \approx 0.6 \sim 0.8\)）的物理根源；
 6. **高自旋 Stephens 转动对齐（RAL）与解耦能带形成（§5-3d）**：阐述 Coriolis 推转力矩 \(-\omega j_x\) 克服形变势场四极固定力矩（\(-D j_z^2\)）使得角动量沿转轴顺排的过程，导出解耦带能量间距紧跟偶偶核芯 \(E_{\rm core}(R)\) 的物理图像。
 
 ---
@@ -41,7 +41,7 @@ sources: [book-bohr-mottelson-nuclear-structure-vol2]
 \[
 \omega_3 = \omega_0 \left(1 - \frac{2}{3}\delta_{\rm osc}\right), \quad \omega_\perp = \omega_0 \left(1 + \frac{1}{3}\delta_{\rm osc}\right)
 \]
-形变四极参量 \(\delta_{\rm osc} \a0.95 \beta_2\)。
+形变四极参量 \(\delta_{\rm osc} \approx 0.95 \beta_2\)。
 
 ### 2. Nilsson 哈密顿量参数标定（表 5-1）
 
@@ -102,7 +102,7 @@ H_{\rm Nil} = \frac{p^2}{2M} + \frac{1}{2}M\left[\omega_\perp^2 (x_1^2 + x_2^2) 
 
 ### 4. Coriolis 经验衰减机理与 Stephens 转动顺排（§5-3d）
 
-1. **Coriolis 衰减因子（\(\rho_{\rm att} \a0.6 \sim 0.8\)）微观起源**：
+1. **Coriolis 衰减因子（\(\rho_{\rm att} \approx 0.6 \sim 0.8\)）微观起源**：
    纯单粒子波函数预测的 Coriolis 混合矩阵元系统性偏大约 1.5–2 倍。该衰减来自于：
    - 准粒子与高能微观粒子–振动声子的相干耦合；
    - 配对反冲（Pairing recoil）与阻塞效应引起的配对势能面微观重整；

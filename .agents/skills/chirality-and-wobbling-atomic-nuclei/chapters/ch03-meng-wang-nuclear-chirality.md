@@ -10,7 +10,7 @@
 Meng and Wang present the self-consistent microscopic theory of nuclear chirality based on Covariant Density Functional Theory (CDFT) and 3D Tilted Axis Cranking (3D-TAC).
 
 ### 1.1 The Chiral Triad and Aplanar Geometry
-- In a triaxially deformed nucleus ($\beta_2 \a0.2 - 0.3, \gamma \a30^\circ$), the Dirac equation is solved in the rotating frame with cranking vector $\vec{\omega} = (\omega_x, \omega_y, \omega_z)$:
+- In a triaxially deformed nucleus ($\beta_2 \approx 0.2 - 0.3, \gamma \approx 30^\circ$), the Dirac equation is solved in the rotating frame with cranking vector $\vec{\omega} = (\omega_x, \omega_y, \omega_z)$:
   $$\left[ \vec{\alpha}\cdot(\vec{p} - \vec{V}) + \beta(M + S) + V - \vec{\omega}\cdot\vec{J} \right] \psi_i = \epsilon_i \psi_i.$$
 - When a valence proton particle occupies the bottom of the $h_{11/2}$ shell (orbitals $[550]1/2^-, [541]3/2^-$), its orbital density concentrates in the $y$-$z$ plane, minimizing energy by aligning $\vec{j}_p$ along the short axis ($x$);
 - When a valence neutron hole occupies the top of the $h_{11/2}$ shell (orbitals $[505]11/2^-, [514]9/2^-$), its orbital density concentrates in the $x$-$y$ plane, minimizing energy by aligning $\vec{j}_n$ along the long axis ($z$);

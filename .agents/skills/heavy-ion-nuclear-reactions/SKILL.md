@@ -67,7 +67,7 @@ description: "林承键《重离子核反应》与 Bertulani《Introduction to N
    - **Wilczynski 能量-角度二维截面脊线**：在 $(\theta_{\text{c.m.}}, \text{TKEL})$ 图上呈现向负偏转角旋转延伸的典型“鸟嘴”轨迹，是辨识完全弛豫深部非弹碰撞的核心实验证据。
 
 6. **复合核统计衰变与 Hauser-Feshbach 蒸发窗（第 7 章）**：
-   - 复合核初态具有高激发能 $E^*$ 与高自旋分布（最高达裂变极限 $\ell_n_{\text{crit}} \sim 60 - 70\hbar$）；
+   - 复合核初态具有高激发能 $E^*$ 与高自旋分布（最高达裂变极限 $\ell_{\text{crit}} \sim 60 - 70\hbar$）；
    - **Bohr 独立性原理**：复合核在微秒极短时间内达到统计热平衡，衰变道选择与形成历史无关；
    - **Hauser-Feshbach 蒸发竞争**：中子发射无库仑势垒阻挡（$V_C=0$），每个蒸发中子平均带走约 $B_n + 2T \sim 10 - 12\text{ MeV}$ 能量，但仅带走约 $1 - 2\hbar$ 轨道角动量；
    - 经过 $4 - 5$ 步中子蒸发后，体系落入粒子结合能以下区域（$E^* < S_n$），在高自旋区形成极其集中的**在束高自旋入口态（Entry States）自旋窗口（$I \sim 20 - 45\hbar$）**，随后纯粹通过快速统计 $\gamma$ 射线与高自旋退激跃迁级联落到 Yrast 线与手征/摆动带！
@@ -82,7 +82,7 @@ description: "林承键《重离子核反应》与 Bertulani《Introduction to N
 | [ch02](chapters/ch02-heavy-ion-interaction-potentials.md) | 重离子相互作用势与 Bass 熔合势垒 | 库仑势、接近势 (Proximity)、Bass 势垒解析参数与口袋条件 |
 | [ch04](chapters/ch04-quasi-elastic-and-transfer-reactions.md) | 准弹性散射与 DWBA 多核子转移反应 | 掠射角、最优 $Q$ 匹配条件 ($Q_{\text{opt}}$)、动量转移与光谱因子提取 |
 | [ch05](chapters/ch05-deep-inelastic-collisions-and-wilczynski.md) | 深部非弹性散射 (DIC) 与耗散动力学 | 能量完全弛豫、角动量耗散转矩、Wilczynski 图与高自旋丰中子产生 |
-| [ch06](chapters/ch06-fusion-dynamics-and-barrier-distribution.md) | 熔合截面、Wong 公式与势垒分布 | 临界角动量 $\ell_n_{\text{crit}}$、Wong 公式、Rowley 势垒分布二阶导数与形变耦合道 |
+| [ch06](chapters/ch06-fusion-dynamics-and-barrier-distribution.md) | 熔合截面、Wong 公式与势垒分布 | 临界角动量 $\ell_{\text{crit}}$、Wong 公式、Rowley 势垒分布二阶导数与形变耦合道 |
 | [ch07](chapters/ch07-compound-nucleus-decay-and-statistical-evaporation.md) | 复合核统计衰变与 Hauser-Feshbach 蒸发窗 | Hauser-Feshbach 公式、能级密度 Ignatyuk 壳阻尼、$xn/yp/z\alpha$ 竞争与入口态窗口 |
 | [guide](chapters/heavy-ion-experiment-design-guide.md) | 重离子核反应在束实验设计全流程指南 | 最佳束能选择、激发函数极大值、靶厚/能损优化、衬底选择与机时预算 |
 

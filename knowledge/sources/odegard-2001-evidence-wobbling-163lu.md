@@ -120,7 +120,7 @@ The observed E2-dominated links, relative strengths and similar rotational respo
 
 | ID | 审核项 | Agent 判断 | Evidence / locator | 审核状态 |
 |---|---|---|---|---|
-| OD01-AR-1 | Core reconstruction | The established links, polarization-selected large-|δ| branch, and relative strengths supply the missing experimental chain. | Key Results and Competing Interpretations above | unreviewed |
+| OD01-AR-1 | Core reconstruction | The established links, polarization-selected large-\|δ\| branch, and relative strengths supply the missing experimental chain. | Key Results and Competing Interpretations above | unreviewed |
 | OD01-AR-2 | Assumptions and dependencies | The adopted δ branch, common TSD1/TSD2 intrinsic configuration, and schematic PRM mapping are valid over the measured high-spin range. | Method/results/model sections cited above | unreviewed |
 | OD01-AR-3 | Transfer conditions | Transfer only to bands with established common configuration and independently constrained link multipolarities; low-spin cases require their own evidence. | Source scope and claim locators above | unreviewed |
 | OD01-AR-4 | Failure conditions | A different δ branch, configuration mismatch, or absolute strengths inconsistent with the relative-strength pattern would weaken the assignment. | Competing Interpretations and Limitations above | unreviewed |

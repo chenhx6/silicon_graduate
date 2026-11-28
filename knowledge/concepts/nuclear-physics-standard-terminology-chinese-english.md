@@ -52,7 +52,7 @@ tags: [terminology, nuclear-structure, in-beam-spectroscopy, collective-motion, 
 | **Directional Correlation of Oriented nuclei (DCO)** | **定向核方向角关联比值** | DCO 比值 | 束内双探头重符合下探测角度几何相关的特征强度比 |
 | **Angular Distribution from Oriented states (ADO)** | **定向态角分布比值** | ADO 比值 | 特定两个特征角度下的规一化发射计数比值 |
 | **Linear polarization** | **线偏振 / 线极化** | 偏振度 | 康普顿散射垂直与平行平面的散射不对称度：$P$ |
-| **Multipole mixing ratio ($\delta$)** | **多极混合比** | 混合比 $\delta$ | $\delta = \langle I_f || \mathcal{M}(E2) || I_i \rangle / \langle I_f || \mathcal{M}(M1) || I_i \rangle$ |
+| **Multipole mixing ratio ($\delta$)** | **多极混合比** | 混合比 $\delta$ | $\delta = \langle I_f \Vert \mathcal{M}(E2) \Vert I_i \rangle / \langle I_f \Vert \mathcal{M}(M1) \Vert I_i \rangle$ |
 | **Orientation parameter ($B_k$)** | **取向参数** | 偏极化参数 | 描述亚磁能级 $m$ 高斯布居展宽 $\sigma/I$ 的取向度 |
 | **Deorientation effect** | **退取向效应** | 磁超精细退取向 | 反冲核在真空中受电子壳层非配对自旋扰动引起的角关联衰减 |
 | **Reduced transition probability ($B(E\lambda)/B(M\lambda)$)** | **减缩跃迁几率** | 约化跃迁几率 | 剔除跃迁相空间能量因子后的核结构波函数矩阵元平方模 |

@@ -6,14 +6,14 @@
 
 ## 1. Bethe-Weizsäcker 半经验质量公式（SEMF）参数卡
 
-$$B(A, Z) = a_v A - a_s A^{2/3} - a_c \frac{Z(Z-1)}{A^{1/3}} - a_$C_{\text{sym}}$ \frac{(A - 2Z)^2}{A} + \delta(A, Z)$$
+$$B(A, Z) = a_v A - a_s A^{2/3} - a_c \frac{Z(Z-1)}{A^{1/3}} - a_{\text{sym}} \frac{(A - 2Z)^2}{A} + \delta(A, Z)$$
 
 | 物理项 | 符号 | 卢希庭教材取值 | 物理微观机制 |
 |---|---|---|---|
 | 体积能 (Volume energy) | $a_v$ | $15.56\text{ MeV}$ | 核力短程饱和性，平均每个核子结合能贡献 |
 | 表面能 (Surface energy) | $a_s$ | $17.23\text{ MeV}$ | 核表面核子配位数不足引入的表面张力压低 |
 | 库仑能 (Coulomb energy) | $a_c$ | $0.697\text{ MeV}$ | 质子间长程静电斥力：$\frac{3}{5}\frac{e^2}{4\pi\varepsilon_0 R_0}$ |
-| 对称能 (Symmetry energy) | $a_$C_{\text{sym}}$$ | $23.285\text{ MeV}$ | Pauli 不相容原理动能动量排斥与同位旋核力差异 |
+| 对称能 (Symmetry energy) | $a_{\text{sym}}$ | $23.285\text{ MeV}$ | Pauli 不相容原理动能动量排斥与同位旋核力差异 |
 | 对能 (Pairing energy) | $a_p$ | $12.0\text{ MeV}$ | 同类核子在时间反演轨道上的短程吸引配对 |
 
 - **对能项符号**：偶偶核取 $+a_p A^{-1/2}$ 或 $+a_p A^{-3/4}$；奇 $A$ 核取 $0$；奇奇核取 $-a_p A^{-1/2}$。
@@ -52,9 +52,9 @@ $$B(A, Z) = a_v A - a_s A^{2/3} - a_c \frac{Z(Z-1)}{A^{1/3}} - a_$C_{\text{sym}}
 
 ## 4. 常见自然物理常数卡
 
-- 精细结构常数：$\alpha = e^2 / (4\pi\varepsilon_0 \hbar c) \a1/137.036$;
-- $\hbar c \a197.327\text{ MeV}\cdot\text{fm}$;
-- 电子静止能量：$m_e c^2 \a0.5110\text{ MeV}$;
+- 精细结构常数：$\alpha = e^2 / (4\pi\varepsilon_0 \hbar c) \approx 1/137.036$;
+- $\hbar c \approx 197.327\text{ MeV}\cdot\text{fm}$;
+- 电子静止能量：$m_e c^2 \approx 0.5110\text{ MeV}$;
 - 质子静止能量：$M_p c^2 \approx 938.272\text{ MeV}$;
 - 中子静止能量：$M_n c^2 \approx 939.565\text{ MeV}$;
 - 原子质量单位：$1\text{ u} = 931.494\text{ MeV}/c^2$;

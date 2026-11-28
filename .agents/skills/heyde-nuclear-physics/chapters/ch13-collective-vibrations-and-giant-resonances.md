@@ -24,16 +24,16 @@ $$S(E\lambda) \equiv \sum_n (E_n - E_0) B(E\lambda; 0^+ \to \lambda_n^\pi) = \fr
 ### 2.1 等标巨单极共振 (ISGMR) 与核物质不可压缩性
 全核核子作球对称径向压缩和膨胀呼吸振动，自旋宇称为 $J^\pi = 0^+, \Delta T = 0$：
 - 激发能量满足流体声速公式：
-  $$E_{\text{GMR}} = \hbar \sqrt{\frac{K_A}{M \langle r^2 \rangle}} \a80 \cdot A^{-1/3}\text{ MeV};$$
+  $$E_{\text{GMR}} = \hbar \sqrt{\frac{K_A}{M \langle r^2 \rangle}} \approx 80 \cdot A^{-1/3}\text{ MeV};$$
 - **约束无限大对称核物质不可压缩系数 $K_\infty$**：
-  通过将有限核呼吸模能量向宏观体积极限外推：$K_A = K_\infty + K_{\text{surf}} A^{-1/3} + K_$C_{\text{sym}}$ ((N-Z)/A)^2 + K_{\text{Coul}} Z^2 A^{-4/3}$，
+  通过将有限核呼吸模能量向宏观体积极限外推：$K_A = K_\infty + K_{\text{surf}} A^{-1/3} + K_{\text{sym}} ((N-Z)/A)^2 + K_{\text{Coul}} Z^2 A^{-4/3}$，
   严格确立了核物质饱和平衡点处的曲率刚度常数：$K_\infty \approx 240 \pm 20\text{ MeV}$，成为天体物理中子星结构计算的核心核参数。
 
 ### 2.2 等矢巨偶极共振 (IVGDR) 与 Thomas-Reiche-Kuhn 求和规则
 全核质子云与中子云反相宏观相对位移振荡，自旋宇称为 $J^\pi = 1^-, \Delta T = 1$：
 - **TRK 经典偶极求和规则**：
   $$\int_0^\infty \sigma_{\text{abs}}(E) dE = \frac{2\pi^2 e^2 \hbar}{M c} \frac{N Z}{A} \approx 60 \frac{N Z}{A}\text{ MeV}\cdot\text{mb};$$
-- **介子交换力增强因子**：核力中空间与同位旋交换势使得积分截面实际耗尽 TRK 规则的 $120\% - 140\%$（$\kappa \a0.2 - 0.4$）。
+- **介子交换力增强因子**：核力中空间与同位旋交换势使得积分截面实际耗尽 TRK 规则的 $120\% - 140\%$（$\kappa \approx 0.2 - 0.4$）。
 
 ---
 
@@ -47,7 +47,7 @@ $$S(E\lambda) \equiv \sum_n (E_n - E_0) B(E\lambda; 0^+ \to \lambda_n^\pi) = \fr
    由于短轴方向包含两个正交的简并自由度，两共振峰积分截面面积比严格满足：
    $$\frac{\int \sigma_a(E) dE}{\int \sigma_b(E) dE} \equiv \frac{1}{2};$$
 4. **基态四极形变参量 $\delta$ 与 $\beta_2$ 反演公式**：
-   $$\frac{E_b - E_a}{E_{\text{mean}}} \a0.95 \cdot \beta_2 \approx \delta.$$
+   $$\frac{E_b - E_a}{E_{\text{mean}}} \approx 0.95 \cdot \beta_2 \approx \delta.$$
    实测光核吸收截面双峰间距直接测定了原子核基态四极形变量，是高能集体共振与基态低能宏观几何的完美统一。
 
 ---

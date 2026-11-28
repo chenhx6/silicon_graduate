@@ -12,6 +12,8 @@ updated: 2026-11-19
 
 ## 自动检查入口
 
+文档编辑按 [documents_QA](.agents/skills/documents-qa/SKILL.md) 检查本轮路径。交付 PDF 前另做实际编译和版面验收。
+
 Git 基线整理另核对：长期知识、可复用脚本和已整理交付物显式暂存；
 `outputs/**/*.local.*`、编译中间物、原文摘录 worker 包、未公开演示稿及图像衍生物
 按 `.gitignore` 保留本地。不得为清空状态而忽略整个 `knowledge/`、`system/scripts/`

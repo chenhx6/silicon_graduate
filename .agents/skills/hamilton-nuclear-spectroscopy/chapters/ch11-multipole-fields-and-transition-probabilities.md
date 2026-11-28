@@ -41,7 +41,7 @@ $$B(\sigma L; I_i \to I_f) = \frac{1}{2I_i + 1} |\langle I_f || \mathcal{M}(\sig
    - **四极 $B_{\text{W}}(E2)$**：$B_{\text{W}}(E2) = 0.05940 \cdot A^{4/3}\ e^2\text{fm}^4 = 5.940 \times 10^{-6} \cdot A^{4/3}\ e^2\text{b}^2$；
 2. **Weisskopf 磁跃迁单位**：
    $$B_{\text{W}}(ML) = \frac{10}{\pi} \left( \frac{3}{L+3} \right)^2 \mu_N^2 R_0^{2L-2} \approx \frac{10 \times 1.2^{2L-2}}{\pi} \left( \frac{3}{L+3} \right)^2 A^{(2L-2)/3}\ \mu_N^2\text{fm}^{2L-2};$$
-   - **偶极 $B_{\text{W}}(M1)$**：$B_{\text{W}}(M1) = \frac{10}{\pi} \left(\frac{3}{4}\right)^2 \mu_N^2 = \frac{90}{16\pi} \mu_N^2 \a1.790\ \mu_N^2$。
+   - **偶极 $B_{\text{W}}(M1)$**：$B_{\text{W}}(M1) = \frac{10}{\pi} \left(\frac{3}{4}\right)^2 \mu_N^2 = \frac{90}{16\pi} \mu_N^2 \approx 1.790\ \mu_N^2$。
 
 ---
 

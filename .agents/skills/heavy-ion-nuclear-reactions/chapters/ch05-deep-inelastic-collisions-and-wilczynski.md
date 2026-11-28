@@ -9,7 +9,7 @@
 
 ### 1.1 深部非弹性碰撞 (DIC) 的物理特征与碰撞区间
 深部非弹性碰撞（Deep Inelastic Collisions, DIC，亦称强阻尼碰撞）发生在碰撞参数介于准弹性外围掠射与完全熔合之间的大角动量区域：
-$$\ell_n_{\text{crit}} < l \le \ell_{\text{grazing}}.$$
+$$\ell_{\text{crit}} < l \le \ell_{\text{grazing}}.$$
 - **微观时间尺度与弛豫层次**：
   1. **能量完全阻尼（$\sim 10^{-22}\text{ s}$ 最快）**：初始动能迅速耗散为内部热能，出射动能降至两形变核在断裂点处的纯相互库仑排斥能；
   2. **电荷-质量比平衡（$N/Z$ 均一化，$\sim 10^{-21}\text{ s}$）**：中子与质子在颈部窗口快速扩散，达到与基态对称能匹配的电荷平衡；
@@ -20,7 +20,7 @@ $$\ell_n_{\text{crit}} < l \le \ell_{\text{grazing}}.$$
 - 接触双核体系的内禀主轴转动惯量为 $\mathcal{J}_1 + \mathcal{J}_2$；
 - 相对轨道转动惯量为 $\mu R_{\text{int}}^2$；
 - **转移到碎片内禀自旋的总角动量比例（刚体粘滞极限）**：
-  $$\frac{\Delta l_{\text{int}}}{l_i} = \frac{\mathcal{J}_1 + \mathcal{J}_2}{\mathcal{J}_1 + \mathcal{J}_2 + \mu R_{\text{int}}^2} \approx \frac{\frac{2}{5} A_1 R_1^2 + \frac{2}{5} A_2 R_2^2}{\frac{2}{5} A_1 R_1^2 + \frac{2}{5} A_2 R_2^2 + \frac{A_1 A_2}{A_1 + A_2}(R_1 + R_2)^2} \a0.28 - 0.35.$$
+  $$\frac{\Delta l_{\text{int}}}{l_i} = \frac{\mathcal{J}_1 + \mathcal{J}_2}{\mathcal{J}_1 + \mathcal{J}_2 + \mu R_{\text{int}}^2} \approx \frac{\frac{2}{5} A_1 R_1^2 + \frac{2}{5} A_2 R_2^2}{\frac{2}{5} A_1 R_1^2 + \frac{2}{5} A_2 R_2^2 + \frac{A_1 A_2}{A_1 + A_2}(R_1 + R_2)^2} \approx 0.28 - 0.35.$$
 对于入射角动量 $l_i \sim 100 - 150\hbar$ 的重核碰撞，单次碰撞即可向两碎片分别注入 $I_1 \sim 20 - 30\hbar$ 与 $I_2 \sim 20 - 30\hbar$ 的巨额自旋！
 
 ---

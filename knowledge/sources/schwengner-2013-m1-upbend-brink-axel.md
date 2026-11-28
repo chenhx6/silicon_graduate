@@ -46,7 +46,7 @@ PRL 111, 232504 (2013), DOI `10.1103/PhysRevLett.111.232504`.
 ## Key Results
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | SCH13-1 | 计算对每种宇称考虑超过 14,000 条 M1 跃迁，按 \(E_\gamma=E_i-E_f\) 分箱计算平均强度。所算样本低于 2 MeV 的平均强度可用指数函数近似。 | model-result | direct-to-model | PDF2 methods and PDF3 Figs. 4–5 | false |
 | SCH13-2 | 作者把大 M1 矩阵元归于两个态共享的高 \(j\) 破对组态及磁矩相干相加。文中用磁转动与混合对称态作机制类比，模型本身为壳模型。 | author-interpretation | direct-to-model | PDF3–5 wave-function and comparison discussion | false |
 | SCH13-3 | 壳模型 \(\overline{B(M1)}\) 结合所算初态能级密度得到 \(f_{M1}\)。与 Mo 既有实验比较时再加广义洛伦兹 E1 项，该项依据引用的光中子数据和较高能区谱拟定。 | model-to-data-comparison | conditional | PDF4 formula and Figs. 1–3 | false |

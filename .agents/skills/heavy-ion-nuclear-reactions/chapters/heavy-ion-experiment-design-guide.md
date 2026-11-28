@@ -46,7 +46,7 @@ $$E_{\text{lab}}^{\text{opt}} = \frac{A_p + A_t}{A_t} E_{\text{c.m.opt}}.$$
 ### Step 3: 靶厚度与靶内核能损优化
 弹核穿过靶介质时因电子电离发生连续能量衰减：$\Delta E_{\text{loss}} = \left(\frac{dE}{dx}\right) \cdot \rho t$。
 - **控制指标**：必须确保 $\Delta E_{\text{loss}} \le 2 - 3\text{ MeV}$；
-- **厚度选择**：对典型的中重核靶，靶厚取 $\rho t \a0.5 - 1.0\text{ mg/cm}^2$。若靶过厚，束能跨度过大将同时激发 $3n, 4n, 5n, 6n$ 四个通道，严重劣化谱峰信噪比；若靶过薄，单位时间核反应事件率过低。
+- **厚度选择**：对典型的中重核靶，靶厚取 $\rho t \approx 0.5 - 1.0\text{ mg/cm}^2$。若靶过厚，束能跨度过大将同时激发 $3n, 4n, 5n, 6n$ 四个通道，严重劣化谱峰信噪比；若靶过薄，单位时间核反应事件率过低。
 
 ### Step 4: 衬底材料选择与物理寿命目标匹配
 1. **常规高自旋在束谱学与 DSAM 寿命测量**：
@@ -55,10 +55,10 @@ $$E_{\text{lab}}^{\text{opt}} = \frac{A_p + A_t}{A_t} E_{\text{c.m.opt}}.$$
    - 绝大多数高自旋态（寿命 $\tau < 1\text{ ps}$）在减速过程中发射多普勒连续多普勒线形，而长寿命态（$\tau > 2\text{ ps}$）在完全静止后发射尖锐特征峰；
    - 厚背衬同时兼具散热功能，防止强束流轰击造成局部靶薄膜烧穿。
 2. **RDM 活塞反冲距离法测量皮秒–纳秒寿命**：
-   必须采用**自支撑超薄靶**（Self-supporting thin target，$\rho t \a0.3 - 0.6\text{ mg/cm}^2$ 无衬底），反冲核无阻碍飞出靶背面进入高真空微米移动漂移室。
+   必须采用**自支撑超薄靶**（Self-supporting thin target，$\rho t \approx 0.3 - 0.6\text{ mg/cm}^2$ 无衬底），反冲核无阻碍飞出靶背面进入高真空微米移动漂移室。
 
 ### Step 5: 反冲运动学与探头多普勒展宽控制
-反冲初速度 $\beta = v/c \a0.04635 \frac{\sqrt{A_p E_{\text{lab}}}}{A_p + A_t}$。
+反冲初速度 $\beta = v/c \approx 0.04635 \frac{\sqrt{A_p E_{\text{lab}}}}{A_p + A_t}$。
 探测器具有有限张角 $\Delta\theta$，由此引入的内禀几何多普勒展宽为：
 $$\Delta E_{\text{det}} \approx E_{\gamma 0} \cdot \beta \cdot \sin\theta_{\text{det}} \cdot \Delta\theta.$$
 - 在 $90^\circ$ 附近 $\sin\theta \to 1$，几何展宽达到极大；
@@ -68,7 +68,7 @@ $$\Delta E_{\text{det}} \approx E_{\gamma 0} \cdot \beta \cdot \sin\theta_{\text
 大阵列双重符合事件产生率公式：
 $$R_{\gamma\gamma} = I_{\text{beam}} [\text{ions/s}] \cdot N_{\text{target}} [\text{cm}^{-2}] \cdot \sigma_{\text{fus}} [\text{cm}^2] \cdot b_{xn} \cdot \left(\frac{M_\gamma (M_\gamma - 1)}{2}\right) \cdot \epsilon_{\gamma}^2 \cdot \epsilon_{\text{live}}.$$
 设要求在弱带间跃迁（分支比 $b_\gamma \sim 1\%$）处累积 $N_{\text{net}} \ge 100$ 个净计数以达到 $> 5.0\sigma$ 统计显著性：
-$$T_{\text{beam}} = \frac{N_{\text{net}}}{R_{\gamma\gamma} \cdot b_\gamma \cdot P_{\text{gate}}} \a100 - 150\text{ hours} \implies \text{通常申请 } 5 - 7 \text{ 天有效束流机时}。$$
+$$T_{\text{beam}} = \frac{N_{\text{net}}}{R_{\gamma\gamma} \cdot b_\gamma \cdot P_{\text{gate}}} \approx 100 - 150\text{ hours} \implies \text{通常申请 } 5 - 7 \text{ 天有效束流机时}。$$
 
 ---
 

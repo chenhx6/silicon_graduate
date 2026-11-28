@@ -55,7 +55,7 @@ The letter derives polarization correlations for two successive γ rays and argu
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | FA48-1 | Successive-γ polarization follows `W(φ)=1+A cos²φ`; the coefficient sign encodes electric/magnetic character and parity information. | formalism | direct | PDF p.518, Eqs.1–3 | false |
-| FA48-2 | For quadrupole–quadrupole cascades in `60Co/46Sc`, `|A|=2/7` and the sign predicts parallel/perpendicular maxima. | model-result | direct | PDF p.518, example paragraph | true |
+| FA48-2 | For quadrupole–quadrupole cascades in `60Co/46Sc`, `\|A\|=2/7` and the sign predicts parallel/perpendicular maxima. | model-result | direct | PDF p.518, example paragraph | true |
 | FA48-3 | Polarization correlations complement directional correlations because their form is common across multipoles but sensitivity is larger. | method-result | direct | PDF p.518, Table I and final paragraphs | true |
 
 

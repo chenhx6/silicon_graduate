@@ -57,8 +57,8 @@ Guo 对 Matta 2015 的 transverse-wobbling 判据提出方法学质疑。评论�
 | ID | 陈述 | claim_kind | evidence_level | source_independence | locator | research_status | needs_review |
 |---|---|---|---|---|---|---|---|
 | GU21-1 | 评论认为 Matta 2015 wobbling 指认的关键实验依据是 wobbling band 与 normal band 之间的 E2-dominated connecting transitions，但已报告信息不能排除 M1-dominated character。 | author-interpretation | direct | single | PDF p.1, abstract | completed | false |
-| GU21-2 | 在适当的 `σ/I` 和 `δ` 假设下，747、813、755 和 594 keV angular distributions 可同时与大 `|δ|>1` 和小 `|δ|<1` 分支相容；评论反对只展示单一解便称其唯一确定。 | experimental-criterion + author-interpretation | direct | single | PDF pp.1–2, Fig.1 and surrounding text | completed | false |
-| GU21-3 | 对 747、813 keV，评论计算指出两个 mixing-ratio 分支在假设的 `σ/I` 范围内都可得到正 polarization；因此正 asymmetry sign 不能单独排除小 `|δ|` 或证明主要 electric character。 | experimental-criterion | direct | single | PDF pp.1–2, Fig.2 and text | completed | false |
+| GU21-2 | 在适当的 `σ/I` 和 `δ` 假设下，747、813、755 和 594 keV angular distributions 可同时与大 `\|δ\|>1` 和小 `\|δ\|<1` 分支相容；评论反对只展示单一解便称其唯一确定。 | experimental-criterion + author-interpretation | direct | single | PDF pp.1–2, Fig.1 and surrounding text | completed | false |
+| GU21-3 | 对 747、813 keV，评论计算指出两个 mixing-ratio 分支在假设的 `σ/I` 范围内都可得到正 polarization；因此正 asymmetry sign 不能单独排除小 `\|δ\|` 或证明主要 electric character。 | experimental-criterion | direct | single | PDF pp.1–2, Fig.2 and text | completed | false |
 | GU21-4 | 评论指出从 INGA 数据推导 polarization value 还应明确 calibrated polarization sensitivity 和逐跃迁 `σ/I` 参数，而 Matta 2015 的报告未在评论所检查的范围内充分说明这些输入。 | our-inference + author-interpretation | direct | single | PDF p.2, paragraph before conclusion | completed | false |
 | GU21-5 | 评论的结论是，依据 Matta 2015 的已报告实验结果不足以宣布 wobbling 已被确定，需要进一步实验研究澄清该带性质。 | author-interpretation | direct | single | PDF p.2, conclusion paragraph | completed | false |
 | GU21-6 | 该文是对 Matta 2015 数据/报告的 methodological comment，不是新的 `135Pr` reaction、detector run 或 independent measurement。 | our-inference | direct | multiple-dependent | PDF pp.1–2, title, abstract and Ref.[1] | completed | false |

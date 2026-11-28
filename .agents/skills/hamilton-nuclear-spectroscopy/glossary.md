@@ -8,7 +8,7 @@
 
 - **Statistical Tensor (统计张量 $\rho_{kq}(I)$ / 状态密度矩阵)**: 描述具有自旋 $I$ 的量子系综在空间各磁子态 $m$ 上布居概率分布与相干相位的张量算符展开系数。
 - **Orientation Parameter (轴对称取向参数 $B_k(I)$)**: 在轴对称（无方位角偏倚，使得非对角相干项 $\rho_{kq \ne 0} = 0$）核反应或极化系统中，描述磁子态布居偏离球对称各向同性程度的偶数阶无量纲张量：$B_k(I) = \sqrt{2I+1} \sum_m (-1)^{I-m} \langle I m I -m | k 0 \rangle P(m)$。
-- **Spin Alignment Width ($\sigma/I$, 自旋取向高斯分布宽度)**: 在重离子熔合反应中描述磁子态高斯布居 $P(m) \propto \exp(-m^2/2\sigma^2)$ 弥散度的特征比值；通常在束反应中 $\sigma/I \a0.28 - 0.35$。
+- **Spin Alignment Width ($\sigma/I$, 自旋取向高斯分布宽度)**: 在重离子熔合反应中描述磁子态高斯布居 $P(m) \propto \exp(-m^2/2\sigma^2)$ 弥散度的特征比值；通常在束反应中 $\sigma/I \approx 0.28 - 0.35$。
 - **Complete Alignment (完全取向极限)**: 所有自旋严格对齐在反应平面垂直轴（即 $m=0$ 纯态占据，$P(m) = \delta_{m0}$）的理论极限状态。
 - **Cascade Deorientation Factor (级联去取向系数 $U_k(I_a I_b L)$)**: 描述未被实验探测器观测到的中间级联跃迁由于发射光子带走随机角动量导致子能级取向张量发生幅度衰减的纯几何缩放因子。
 

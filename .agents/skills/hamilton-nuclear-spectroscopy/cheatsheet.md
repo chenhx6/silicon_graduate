@@ -28,7 +28,7 @@ $$R_{\text{DCO}} = \frac{I_{\gamma 1}(\text{at } 30^\circ, \text{gated by } \gam
 | **纯拉伸四极 ($E2$, $\Delta I = 2$)** | **纯拉伸四极 ($E2$, $\Delta I = 2$)** | **$0.95 \sim 1.05$ (接近 1.0)** | 典型带内相继级联跃迁 |
 | **纯拉伸四极 ($E2$, $\Delta I = 2$)** | **纯拉伸偶极 ($D$, $\Delta I = 1$)** | **$0.55 \sim 0.65$** | 典型单粒子磁偶极跃迁 (如 $M1$) |
 | **纯拉伸四极 ($E2$, $\Delta I = 2$)** | **非拉伸偶极 ($D$, $\Delta I = 0$)** | **$0.90 \sim 1.15$** | 类似四极比值，需通过角分布 $A_2$ 符号区分 |
-| **纯拉伸四极 ($E2$, $\Delta I = 2$)** | **大混合比跃迁 ($M1+E2, |\delta| \sim 2 - 5$)** | **$1.15 \sim 1.50$** | 存在可观的电四极混合成分 |
+| **纯拉伸四极 ($E2$, $\Delta I = 2$)** | **大混合比跃迁 ($M1+E2, \vert\delta\vert \sim 2 - 5$)** | **$1.15 \sim 1.50$** | 存在可观的电四极混合成分 |
 | **纯拉伸偶极 ($D$, $\Delta I = 1$)** | **纯拉伸四极 ($E2$, $\Delta I = 2$)** | **$1.50 \sim 1.80$** | 互换门控时的倒数关系 |
 | **纯拉伸偶极 ($D$, $\Delta I = 1$)** | **纯拉伸偶极 ($D$, $\Delta I = 1$)** | **$0.95 \sim 1.05$** | 双重偶极符合 |
 
@@ -57,9 +57,9 @@ $$A_{\text{asym}}(\theta) = \frac{N_\perp - a_{\text{geom}} N_\parallel}{N_\perp
    - $a_{\text{geom}}$：无偏振源（如 $^{152}\text{Eu}, {}^{133}\text{Ba}$）测定的几何探测不对称归一化常数；
 2. **典型 Clover 偏振灵敏度经验参数化公式**：
    $$Q(E_\gamma) \approx (0.245 - 0.052 \cdot E_\gamma [\text{MeV}]) \cdot \left[ 1 - \exp(-1.5 \cdot E_\gamma [\text{MeV}]) \right];$$
-   - $E_\gamma = 0.500\text{ MeV}$ 处：$Q \a0.115$；
-   - $E_\gamma = 1.000\text{ MeV}$ 处：$Q \a0.150$；
-   - $E_\gamma = 1.332\text{ MeV}$ 处：$Q \a0.140$。
+   - $E_\gamma = 0.500\text{ MeV}$ 处：$Q \approx 0.115$；
+   - $E_\gamma = 1.000\text{ MeV}$ 处：$Q \approx 0.150$；
+   - $E_\gamma = 1.332\text{ MeV}$ 处：$Q \approx 0.140$。
 
 ---
 

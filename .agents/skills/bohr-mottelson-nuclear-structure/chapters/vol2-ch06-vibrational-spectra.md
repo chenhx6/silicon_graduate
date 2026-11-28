@@ -25,7 +25,7 @@
 - Particle-hole and quasiparticle pair creation/annihilation operators:
   $$Q_\nu^\dagger = \sum_{p h} (X_{ph}^\nu a_p^\dagger a_h - Y_{ph}^\nu a_h^\dagger a_p).$$
 - Core polarization induces an effective charge for valence nucleons:
-  $$e_{\text{eff}} = e_{\text{bare}} + \delta e_{\text{pol}}, \quad e_{\text{eff}}(p) \a1.5 e, \quad e_{\text{eff}}(n) \a0.5 e.$$
+  $$e_{\text{eff}} = e_{\text{bare}} + \delta e_{\text{pol}}, \quad e_{\text{eff}}(p) \approx 1.5 e, \quad e_{\text{eff}}(n) \approx 0.5 e.$$
 
 ---
 

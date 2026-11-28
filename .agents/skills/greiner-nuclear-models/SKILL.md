@@ -30,7 +30,7 @@ description: "Walter Greiner & Joachim A. Maruhn《Nuclear Models》：三轴刚
      $$\hat{H}_{\text{rot}} = \sum_{k=1}^3 \frac{\hat{I}_k^2}{2\mathcal{J}_k(\beta, \gamma)};$$
    - **水动力学转动惯量**：$\mathcal{J}_k = 4 B \beta^2 \sin^2\left(\gamma - \frac{2\pi}{3} k\right)$；
    - **$D_2$ 四元群对称性波函数**：由于内禀系三主轴不可分辨，真实物理态必须对旋转 $\mathcal{R}_k(\pi)$ 不变，波函数由对称化 Wigner 函数展开：
-     $$|IMK\rangle_$C_{\text{sym}}$ = \sqrt{\frac{2I+1}{16\pi^2(1+\delta_{K0})}} \left[ D_{MK}^I(\theta_i) + (-1)^I D_{M,-K}^I(\theta_i) \right], \quad K = 0, 2, 4, \dots, I.$$
+     $$|IMK\rangle_{\text{sym}} = \sqrt{\frac{2I+1}{16\pi^2(1+\delta_{K0})}} \left[ D_{MK}^I(\theta_i) + (-1)^I D_{M,-K}^I(\theta_i) \right], \quad K = 0, 2, 4, \dots, I.$$
 
 2. **三态能量求和恒等式与 $E(2_2^+)/E(2_1^+)$ 能量比（第 6 章式 6.172–6.174）**：
    - 对 $I=2^+$ 态对角化给出两个正宇称解（$2_1^+$ 为基带态，$2_2^+$ 为反常非对称激发态）：

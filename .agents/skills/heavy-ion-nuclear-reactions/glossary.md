@@ -21,7 +21,7 @@
 - **Proximity Potential (接近势)**: 基于近距离微小表面间隙无旋液滴相互吸引力积分得到的短程核吸引势：$V_N(r) = 4\pi \gamma \frac{R_1 R_2}{R_1 + R_2} b \Phi(\zeta)$。
 - **Bass Barrier (Bass 势垒)**: 实验广泛验证的经典宏观重离子熔合势垒参数化模型，考虑了核表面张力与库仑排斥的平衡。
 - **Pocket Condition (势能口袋条件)**: 相互作用势随中心距 $r$ 出现局部极小值（势阱口袋），使得两核能经历暂态束缚并在旋转中熔合的力学充要判据。
-- **Critical Angular Momentum ($\ell_n_{\text{crit}}$, 临界角动量)**: 能够克服离心势垒并落入内部势阱口袋的最大入射轨道角动量分波；当 $l > \ell_n_{\text{crit}}$ 时发生弹性、准弹性或深部非弹性散射，不再发生熔合。
+- **Critical Angular Momentum ($\ell_{\text{crit}}$, 临界角动量)**: 能够克服离心势垒并落入内部势阱口袋的最大入射轨道角动量分波；当 $l > \ell_{\text{crit}}$ 时发生弹性、准弹性或深部非弹性散射，不再发生熔合。
 - **Wong Formula (Wong 单抛物线势垒穿透公式)**: 将相互作用势在势垒极大值处局部展开为反转简谐抛物线所导出的全能区解析穿透公式：$\sigma_{\text{fus}} = \frac{\hbar\omega_B R_B^2}{2E_{\text{c.m.}}} \ln[1 + \exp(\frac{2\pi(E_{\text{c.m.}}-V_B)}{\hbar\omega_B})]$。
 - **Fusion Barrier Distribution (熔合势垒分布 $D_{\text{fus}}(E)$)**: 熔合激发函数乘以能量后关于质心能量的二阶导数：$D_{\text{fus}}(E) = \frac{d^2(E_{\text{c.m.}} \sigma_{\text{fus}})}{d E_{\text{c.m.}}^2}$。
 

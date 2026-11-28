@@ -30,8 +30,8 @@ How did reported experimental wobbling evidence evolve from high-spin Lu TSD ban
 |---|---|---|---|
 | [[odegard-2001-evidence-wobbling-163lu]] | 9 links; DCO/AD + polarization select `δ=-3.10`; relative strengths | TSD2 `n_w=1`, “established experimentally” | schematic PRM; relative, not absolute, strengths |
 | [[jensen-2002-second-phonon-wobbling-163lu]] | 4 TSD3→TSD2 links; one usable 476-keV strength | TSD3 `n_w=2` | no polarization; large-`δ` branch selected by similarity/model |
- | [[matta-2015-transverse-wobbling-135pr]] | 3 linking lines, INGA asymmetry A>0, dropping Ewob | claimed low-spin TW | positive A does not prove |delta|>1; 747 in-band blank; TiP alternative |
- | [[lv-2022-evidence-against-wobbling-135pr]] | combined P-Rac giving |delta|<1, 82-88% M1 | refuted wobbling, proposed TiP | Ewob drop naturally retained by TiP; bands 2/5 overpredicted by QTR |
+ | [[matta-2015-transverse-wobbling-135pr]] | 3 linking lines, INGA asymmetry A>0, dropping Ewob | claimed low-spin TW | positive A does not prove \|delta\|>1; 747 in-band blank; TiP alternative |
+ | [[lv-2022-evidence-against-wobbling-135pr]] | combined P-Rac giving \|delta\|<1, 82-88% M1 | refuted wobbling, proposed TiP | Ewob drop naturally retained by TiP; bands 2/5 overpredicted by QTR |
 | [[guo-2022-low-spin-wobbling-187au]] | independent P–Rac gives two small-δ solutions; historical ICC comparison | authors favor dominant single-particle excitation | broad δ intervals, external Q calibration and B(E2) scale; SP sequence non-observation/reassignment challenges original identity |
 | [[schonwasser-2003-wobbling-165lu]] | TSD2 DCO and large relative E2 strengths | `n_w=0,1,2` family | TSD3 lacks comparable electromagnetic coverage |
 | [[amro-2003-wobbling-167lu]] | SpeeDCO/AD and relative strengths | TSD2 `n_w=1` | no polarization; branch selected by analogy |

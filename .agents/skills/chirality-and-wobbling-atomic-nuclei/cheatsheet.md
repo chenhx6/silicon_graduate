@@ -10,7 +10,7 @@ Decision matrices, analytic formulas, and experimental diagnostic thresholds fro
 |---|---|---|---|---|
 | **Band Energy $\Delta E(I)$** | $\Delta I = 1$ band, $\hbar\omega_w$ decreases with $I$ | $\Delta I = 1$ band, normal signature splitting | $\Delta I = 1$ doublet, near-degenerate ($\Delta E < 100\text{ keV}$) | $\Delta I = 1$ or 2 bandhead near core $2_2^+$ |
 | **Connecting Transition** | Strong collective $E2$ ($f_{E2} > 70\%$) | $M1$-dominated ($f_{M1} > 75\%$) | Interband $M1/E2$ with $S_{M1}(I)$ in-phase | High-energy transitions ($E_\gamma \sim 1\text{ MeV}$) |
-| **Multipole Ratio $|\delta|$** | Large ($|\delta| \ge 1.5$) | Small ($|\delta| \le 0.5$) | Moderate ($|\delta| \sim 0.3 - 1.0$) | Small to moderate |
+| **Multipole Ratio $\vert\delta\vert$** | Large ($\vert\delta\vert \ge 1.5$) | Small ($\vert\delta\vert \le 0.5$) | Moderate ($\vert\delta\vert \sim 0.3 - 1.0$) | Small to moderate |
 | **Linear Polarization $P$** | **Positive ($P > 0$)** | **Negative ($P < 0$)** | Dependent on multipolarity | Varies by multipole order |
 | **$B(E2)_{\text{inter}}/B(E2)_{\text{intra}}$** | **Collective ($0.20 - 0.50$)** | **Suppressed ($\le 0.05$)** | Small interband ($< 0.10$) | Moderate ($0.05 - 0.20$) |
 | **Interband $B(M1; \Delta I=0)$** | Negligible ($\ll 0.05\ \mu_N^2$) | Single-particle order ($\sim 0.1 - 0.5$) | **Vanishing minimum ($<0.05\ \mu_N^2$)** | Single-particle order |

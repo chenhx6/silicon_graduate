@@ -27,7 +27,7 @@ Gizon Fig.4逐个核对Theory面板的301、435、1037、1095等值。
 
 | 原件定位 | 实际公式/定义 | 本轮核查 |
 | --- | --- | --- |
-| Part I p.114 Eqs. (2.1)–(2.5) | 偶核 \(|\hat0\rangle\) 的质量为 A；particle/hole 由产生/带相位的湮灭算符定义。时间偶的形变势在 hole 矩阵元中变号，常数项可吸收。 | “hole”首先是原始粒子—空穴空间的定义，不等于任意给最终本征值乘负号。 |
+| Part I p.114 Eqs. (2.1)–(2.5) | 偶核 \(\vert\hat0\rangle\) 的质量为 A；particle/hole 由产生/带相位的湮灭算符定义。时间偶的形变势在 hole 矩阵元中变号，常数项可吸收。 | “hole”首先是原始粒子—空穴空间的定义，不等于任意给最终本征值乘负号。 |
 | p.115 Eq. (2.6) | \(\mathcal H_p=(\varepsilon_j-\lambda_F+V_p)\sigma_z+\Delta\sigma_x\)，单 j 壳取 \(\varepsilon_j=0\)。 | 在独立实现中显式建立 Nambu 矩阵检查。 |
 | p.115 Eq. (2.7) | \(V_p=k(r)\beta[\cos\gamma\,Y_{20}+\sin\gamma(Y_{22}+Y_{2,-2})/\sqrt2]\)。 | 若 Y 是通常归一化的球谐函数，其单 j 投影确实给父探针的 Y₂ 矩阵；但这一路径与 p.125 图的场尺度/符号不一致，见下节。 |
 | p.115 Eqs. (2.8), (2.14) | \(R_\kappa=R_0[1+\sqrt{5/(4\pi)}\beta\cos(\gamma-2\pi\kappa/3)]\)；\(\mathcal J_\kappa=\frac43\mathcal J_0\sin^2(\gamma-2\pi\kappa/3)\)。 | 同一轴序必须同时用于形状、势与转子。 |
@@ -36,9 +36,9 @@ Gizon Fig.4逐个核对Theory面板的301、435、1037、1095等值。
 | p.116–117 Eqs. (2.17)–(2.22) | 换轴及 particle–hole 变换需要联动 \(\gamma\mapsto60^\circ-\gamma,\lambda_F\mapsto-\lambda_F,\Delta\mapsto-\Delta\) 和轴的重标号；(2.19) 明列轴变换。 | 父探针四个符号组合没有执行这套联动变换。不能把该扫描等同于验证原文粒子—空穴对称性。 |
 | p.117 Eqs. (2.23)–(2.24) | S 对角化 \(V_p\)；随后 BCS 变换 \(\mathcal B=\mathrm{diag}(S,S)\begin{pmatrix}U&-V\\V&U\end{pmatrix}\)，给 \(\mathrm{diag}(e_\nu,-e_\nu)\)。 | \(e_\nu\) 的正负子空间有明确代数意义，不能只用 “hole-system” 图标签决定投影。 |
 | p.118 Eqs. (2.25)–(2.26) | \(e_\nu=\sqrt{(\varepsilon_\nu-\lambda_F)^2+\Delta^2}\)，\(v_\nu^2=\frac12[1-(\varepsilon_\nu-\lambda_F)/e_\nu]\)，\(u_\nu^2=1-v_\nu^2\)。 | 父探针采用的 u、v、e 公式通过独立 Nambu 对角化检验。 |
-| p.118 Eqs. (2.27)–(2.29) | \(h_{\mu\nu}^{KK'}=\langle K\mu|h_R|K'\nu\rangle\)；\(\xi_{\mu\nu}=u_\mu u_\nu+v_\mu v_\nu\)，\(\eta_{\mu\nu}=u_\mu v_\nu-v_\mu u_\nu\)。 | 同粒子/空穴块是 \(h\xi\)，非对角粒子—空穴块是 \(h\eta\)。 |
+| p.118 Eqs. (2.27)–(2.29) | \(h_{\mu\nu}^{KK'}=\langle K\mu\vert h_R\vert K'\nu\rangle\)；\(\xi_{\mu\nu}=u_\mu u_\nu+v_\mu v_\nu\)，\(\eta_{\mu\nu}=u_\mu v_\nu-v_\mu u_\nu\)。 | 同粒子/空穴块是 \(h\xi\)，非对角粒子—空穴块是 \(h\eta\)。 |
 | p.118 Eqs. (2.30)–(2.31) | 作者实际计算舍去 \(h\eta\)，求解 \(h\xi\pm e_\nu\delta_{KK'}\delta_{\mu\nu}\)。随后文字将减号称为 rotor-plus-hole。 | 这条文字必须保留；本轮同时计算两分支，未把最接近图的正分支偷换成“已核定的原 hole 实现”。 |
-| p.119 Eq. (2.33) 与说明 | 讨论舍去粒子—空穴耦合的理由，包括 \(|\varepsilon_\mu-\varepsilon_\nu|<2\Delta\) 和弱形变的估计。 | 没有擅自加回被作者舍去的项来改善图的吻合。 |
+| p.119 Eq. (2.33) 与说明 | 讨论舍去粒子—空穴耦合的理由，包括 \(\vert\varepsilon_\mu-\varepsilon_\nu\vert<2\Delta\) 和弱形变的估计。 | 没有擅自加回被作者舍去的项来改善图的吻合。 |
 | p.121 Eqs. (2.52)–(2.53) | \(k=206/A^{1/3}\) MeV；\(\hbar^2/(2\mathcal J_0)=204/(\beta^2 A^{7/3})\) MeV。 | 系数固定为 206、204，未拟合。 |
 | p.122 Eq. (2.55)；Gizon p.473 Fig. 4 | Part I 的一般配对经验式为 \(\Delta=135/A\) MeV；Gizon 图明确写 \(\Delta=1.0\) MeV。 | 本任务采用图上明确的 1.0 MeV，未用 135/A 替换。 |
 

@@ -241,7 +241,7 @@ OpenAlex与Semantic Scholar的精确DOI记录均把可读OA指向已有arXiv稿�
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| ZH07-D24P-011 | 任务以Afi=Ef†Σν[CG(IiKi,λν;IfKf)⊗tν]Ei构约化角矩阵，RME=√(2Ii+1)A、B=|A|²乘源prefactor。coreE2 t0=cosγ、t±2=sinγ/√2；M1 tν=.7jpν−.6jnν。scalar identity、freeR0 proton-vector triplet→singlet normalizedB=.25、total-j interI0、complete vector .75/coreC2 1等十门通过，并核Hermitian reverse/D2映射。角闭合含formal upward/sameI，并非γ出口完整性；同I benchmark为声明向量而非包含gR I的完整静态磁矩。 | declared-source-operator-and-reduced-matrix-implementation | source-formula-plus-task-angular-model | ZH07v1PDF7Eq15–17/PDF8Eq18; task input-contract046 | true |
+| ZH07-D24P-011 | 任务以Afi=Ef†Σν[CG(IiKi,λν;IfKf)⊗tν]Ei构约化角矩阵，RME=√(2Ii+1)A、B=\|A\|²乘源prefactor。coreE2 t0=cosγ、t±2=sinγ/√2；M1 tν=.7jpν−.6jnν。scalar identity、freeR0 proton-vector triplet→singlet normalizedB=.25、total-j interI0、complete vector .75/coreC2 1等十门通过，并核Hermitian reverse/D2映射。角闭合含formal upward/sameI，并非γ出口完整性；同I benchmark为声明向量而非包含gR I的完整静态磁矩。 | declared-source-operator-and-reduced-matrix-implementation | source-formula-plus-task-angular-model | ZH07v1PDF7Eq15–17/PDF8Eq18; task input-contract046 | true |
 | ZH07-D24P-012 | 固定variant中，M1 Ii14→13的低2×2模型B约((2.01683,.002904),(.003114,2.21550))μN²，E2 Ii14→12约((数值近0,.140290),(.177171,数值近0))e²b²，行final/列initial均为ordinal0/1。I18时强M1转到offdiagonal而coreE2以diagonal为主。这些矩阵只描述特殊γ30无配对模型和能量排序；未赋实际band归属，不把近0当实测禁戒或普遍selectionrule。 | declared-fixedH-model-EM-matrix | finiteI-wavefunction-plus-fixed-source-operator | task prm-em-tensors046 rowsIi14/Ii18; sourceparams/operators asZH07-D24P-011 | true |
 | ZH07-D24P-013 | 形式RME与开放γ出口须分：I9 ordinal0→If7 ordinal1的模型E2 B约.014488e²b²，但该fixedH中Einitial−Efinal≈−.416448MeV，是向上连接。所有固定If终态的形式强度范数也可含这种项，不能乘它作开放γ宽度/缺失branch或新机时。这里M1计算If=Ii−1、E2计算If=Ii−2，不是同一混合跃迁的两分量，未由二者反演δ。 | model-kinematic-outlet-and-mixing-identity-boundary | declared-H-energies-and-formal-RME | task prm-em-tensors046 Ii9/If7 rowfinal1/columninitial0; input-contract046 | true |
 
@@ -281,7 +281,7 @@ OpenAlex与Semantic Scholar的精确DOI记录均把可读OA指向已有arXiv稿�
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| ZH07-D24P-018 | 在fixedH I12–20低两态中，仅以开放E2 I→I−2强度和最大化作even/odd链内配对，I12/13先各按energyordinal0作f锚。将整条odd链f/u交换给第二种相对配对，所有E2链内score完全相同；M1 I→I−1的in/out总强度却精确互换，而每条物理2×2强度表总和及行列交换下|det|不变。这是label-association例，不是两个实际配置/新H，E2分数相同也不赋它们物理等可信。 | fixedmodel-band-mapping-and-information-role | same-H-EM-plus-task-label-construction | task input-contract050/modelE2assignment/M1unused rows; KOIKE04-D23-003 motivation | true |
+| ZH07-D24P-018 | 在fixedH I12–20低两态中，仅以开放E2 I→I−2强度和最大化作even/odd链内配对，I12/13先各按energyordinal0作f锚。将整条odd链f/u交换给第二种相对配对，所有E2链内score完全相同；M1 I→I−1的in/out总强度却精确互换，而每条物理2×2强度表总和及行列交换下\|det\|不变。这是label-association例，不是两个实际配置/新H，E2分数相同也不赋它们物理等可信。 | fixedmodel-band-mapping-and-information-role | same-H-EM-plus-task-label-construction | task input-contract050/modelE2assignment/M1unused rows; KOIKE04-D23-003 motivation | true |
 
 例如I14的pairingA模型M1 in/out总和约.006018/4.232328μN²，pairingB将其交换；I15为4.196162/.007678后交换。真实modelRME和能量没有变化，仅“带内/带间”依相对family映射变化。八门核codehash/solver/排列/E2score/M1互换，均过；表的|det|这里只检行列置换，不声称强度模方就恢复了相干RME的所有unitary不变量。
 

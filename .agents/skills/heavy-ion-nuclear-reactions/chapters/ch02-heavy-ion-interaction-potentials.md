@@ -22,8 +22,8 @@ Błocki 与 Świątecki (1977) 基于液滴模型提出了著名的**接近力�
 两个曲面接近时单位面积的相互吸引势能仅由两个平面之间的单位接触面积表面势能函数乘以曲率因子决定：
 $$V_N(r) = 4 \pi \gamma \frac{R_1 R_2}{R_1 + R_2} b \cdot \Phi(\zeta),$$
 其中：
-- 核表面张力常数 $\gamma \a0.9517 [1 - 1.7826 ((N-Z)/A)^2]\text{ MeV/fm}^2$；
-- 核弥散度表层厚度 $b \a1.0\text{ fm}$；
+- 核表面张力常数 $\gamma \approx 0.9517 [1 - 1.7826 ((N-Z)/A)^2]\text{ MeV/fm}^2$；
+- 核弥散度表层厚度 $b \approx 1.0\text{ fm}$；
 - 无量纲相对表面间距 $\zeta = \frac{r - R_1 - R_2}{b}$；
 - 普适无量纲接近势函数：
   $$\Phi(\zeta) \approx \begin{cases} -\frac{1}{2}(\zeta - 2.54)^2 - 0.0852(\zeta - 2.54)^3, & \zeta \le 1.2511 \\ -3.437 \exp(-\zeta/0.75), & \zeta > 1.2511 \end{cases}.$$

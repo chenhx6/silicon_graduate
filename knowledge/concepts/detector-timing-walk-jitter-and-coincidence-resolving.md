@@ -35,8 +35,8 @@ sources: [book-wu-nuclear-experiment-methods, book-wang-particle-detection, book
 ## Discriminating Observables
 
 1. **前沿甄别幅度走动（LED Walk）**：
-   固定阈值 $V_{\text{th}}$ 下，幅度走动随动态范围 $[V_{\min}, V_m_m_{\max}]$ 呈现反比关系：
-   $$\Delta t_{\text{walk}}^{\text{LED}} = t_r \cdot V_{\text{th}} \left( \frac{1}{V_{\min}} - \frac{1}{V_m_m_{\max}} \right)$$
+   固定阈值 $V_{\text{th}}$ 下，幅度走动随动态范围 $[V_{\min}, V_{\max}]$ 呈现反比关系：
+   $$\Delta t_{\text{walk}}^{\text{LED}} = t_r \cdot V_{\text{th}} \left( \frac{1}{V_{\min}} - \frac{1}{V_{\max}} \right)$$
    在 HPGe 中可达数十纳秒，需通过 CFD 消除。
 2. **恒定比值过零条件（CFD Zero-Crossing）**：
    双极性信号 $V_{\text{sum}}(t) = V(t - t_d) - f V(t)$ 的过零时刻满足 $V(t_{\text{zero}} - t_d) = f V(t_{\text{zero}})$，严格独立于总幅度 $V_0$，走动减小至皮秒级。

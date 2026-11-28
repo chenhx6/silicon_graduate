@@ -24,7 +24,7 @@ tags: [144Ba, 146Ba, octupole, E1, E3, dipole-cancellation, Gogny-D1S, SCCM, pai
 
 | 标识 | 核心事实 / 主张 | 证据分层 | 文献定位 | 科学边界与限制 |
 |---|---|---|---|---|
-| BA-SENS-01 | $^{144}\text{Ba}$ 实验 $B(E1; 1^- \to 0^+) = 1.7 \times 10^{-6}\text{ W.u.}$，内禀偶极矩 $|D_0| \approx 0.013(1)\text{ e fm}$ | 直接实验衍生 | BU16 PDF p.4 Table I | 依赖弱分支比测量与内禀转动公式转换 |
+| BA-SENS-01 | $^{144}\text{Ba}$ 实验 $B(E1; 1^- \to 0^+) = 1.7 \times 10^{-6}\text{ W.u.}$，内禀偶极矩 $\vert D_0\vert \approx 0.013(1)\text{ e fm}$ | 直接实验衍生 | BU16 PDF p.4 Table I | 依赖弱分支比测量与内禀转动公式转换 |
 | BA-SENS-02 | $^{146}\text{Ba}$ 实验 $E1$ 约化矩阵元幅值仅 $0.000223(+10/-8)\text{ eb}^{1/2}$，理论微观 SCCM 值为 $0.00474\text{ eb}^{1/2}$ | 实验测量与微观模型对比 | BU17 PDF p.3 Table I; BE16 | 比值达 21.26；表明模型定性正确但幅度存在绝对偏差 |
 | BA-SENS-03 | $^{146}\text{Ba}$ 费米面附近中子母态侵入轨道占据概率：$\nu 1h_{9/2}: v^2=0.40, \nu 2f_{7/2}: v^2=0.27, \nu 1i_{13/2}: v^2=0.20$ | 微观组态分析 | BU17 PDF p.4-5 | 来源于 Gogny D1S 平均场基底分解 |
 | BA-SENS-04 | 宏观液滴模型电偶极矩 $D_0^{\text{DM}} = C_{\text{DM}} A Z e \beta_2 \beta_3$，对于 $^{144}\text{Ba}$ 取 $\beta_2=0.18, \beta_3=0.11$ 时约为 $+0.110\text{ e fm}$ | 宏观模型计算 | Leander et al. 1986; Myers-Swiatecki 1980 | 单独液滴项恒为正，必须依赖微观中子壳极化抵消 |

@@ -124,10 +124,10 @@ $$
 
 | 通道 | toy 内禀矩阵元 | 典型选择 | 物理解释边界 |
 |---|---|---|---|
-| chiral-partner M1 | $\langle-\chi,p|\hat M1|\chi,p\rangle$ | $\Delta I=1$, 同宇称 | 与三轴手征伙伴的强 M1 相容；不是由“手征”单独保证 |
-| parity-partner E1 | $\langle\chi,-p|\hat E1|\chi,p\rangle$ | $\Delta I=1$, 异宇称 | 八极混合/关联可增强；E1 连接不等于静态 $\beta_3$ |
-| diagonal E2 crossover | $\langle\chi,p|\hat E2|\chi,p\rangle$ | $\Delta I=2$, 同宇称 | 同一投影序列的四极 crossover |
-| chiral E2 crossover | $\langle-\chi,p|\hat E2|\chi,p\rangle$ | $\Delta I=2$, 同宇称 | 与 diagonal E2 的相位相干叠加，产生干涉强弱 |
+| chiral-partner M1 | $\langle-\chi,p\vert\hat M1\vert\chi,p\rangle$ | $\Delta I=1$, 同宇称 | 与三轴手征伙伴的强 M1 相容；不是由“手征”单独保证 |
+| parity-partner E1 | $\langle\chi,-p\vert\hat E1\vert\chi,p\rangle$ | $\Delta I=1$, 异宇称 | 八极混合/关联可增强；E1 连接不等于静态 $\beta_3$ |
+| diagonal E2 crossover | $\langle\chi,p\vert\hat E2\vert\chi,p\rangle$ | $\Delta I=2$, 同宇称 | 同一投影序列的四极 crossover |
+| chiral E2 crossover | $\langle-\chi,p\vert\hat E2\vert\chi,p\rangle$ | $\Delta I=2$, 同宇称 | 与 diagonal E2 的相位相干叠加，产生干涉强弱 |
 
 脚本使用 $\Gamma_{X\lambda}\propto E_\gamma^{2\lambda+1}|A_{X\lambda}|^2$，并在 E2 中加入 $q_0+\chi q_\chi+p q_\pi+\chi p q_{\chi\pi}$ 的相干项；这只是显示选择定则和干涉的最小数值实现。真实 $B(X\lambda)$ 还需要具体波函数、Clebsch–Gordan 系数、内转换、寿命和 feeding 处理。
 

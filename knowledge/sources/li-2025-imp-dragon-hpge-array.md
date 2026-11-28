@@ -56,14 +56,14 @@ DAQ 和 auxiliary detectors 组合成面向不同核结构问题的可重排平�
 ## Key Results
 
 | ID | Narrow statement | claim_kind | evidence_level | locator | Boundary |
-|---|---|---|---|---|
-| ID25-1 | 阵列最多整合 16 个 coaxial HPGe 和 8 个 clover HPGe，每个带专用 BGO anti-Compton shield；可与 LaBr3(Ce)、plastic、Si 和 CsI(Tl) 辅助探测器组合。 | experimental-fact | PDF pp.1–2, abstract and Sec.2 | 具体实验使用的 detector subset、距离和辅助阵列仍需逐 run 记录 |
-| ID25-2 | coaxial detector 相对效率约 70%，clover assembly 约 160%；`60Co` 1332.5-keV energy resolution 约 2.3–2.8 keV FWHM。 | detector-performance | PDF p.2, Sec.2.1 | relative efficiency 和 FWHM 是指定 detector/source geometry 下的装置性能 |
-| ID25-3 | coaxial BGO 厚度约 11–35 mm，在 400–800 keV 区域报告约 77% background reduction 和 `P/C≈8.8`；clover 配置报告约 60% reduction 和 `P/C≈7.5`。 | detector-performance | PDF p.2, Sec.2.1 and Fig.2 | 不能把不同 BGO thickness、source geometry 和 energy window 混成统一响应 |
-| ID25-4 | 16 coaxial + 8 clover 的紧凑构型几何覆盖约 65% of `4π`，1332.5-keV total photo-peak efficiency 约 10%（无 BGO shield 的距离说明）。 | detector-performance | PDF p.3, Sec.2.2 | full array 的实际效率仍依赖 shield、target position、add-back 和 event cuts |
-| ID25-5 | electronics 以 100 MHz、14/16-bit waveform digitizers 和 FPGA 处理 list-mode energy/time；BGO veto window 为 400 ns；HPGe detector event rate 可到约 8 kHz/每探测器而不牺牲能量分辨。 | experimental-fact | PDF p.3, Sec.2.3 | rate、pile-up rejection 和 timing 仍依赖具体 card、signal shape 和 firmware |
-| ID25-6 | 通过 face-to-face geometry 可服务 activated-sample γ/γ 测量；hybrid LaBr3/plastic 配置服务快定时，clover 可作 Compton polarimeter，HPGe 还用于 DSAM/ADO。 | design-capability | PDF pp.1–4, Secs.2–3 | capability 不是任意核素的已完成物理结果；需要目标反应和 response simulation |
-| ID25-7 | 论文以 `45Sc` DSAM lineshape、`95Tc` ADO 和引自 Ref. 37 的 `187Au` 偏振等应用例展示装置用途，并强调稀有事件的高效率、背景抑制和颗粒度。 | application-example | PDF pp.4–6, Figs.7–8 and conclusion | 应用例不是同一 acquisition 的独立重复，也不自动迁移到 A≈130 |
+|---|---|---|---|---|---|
+| ID25-1 | 阵列最多整合 16 个 coaxial HPGe 和 8 个 clover HPGe，每个带专用 BGO anti-Compton shield；可与 LaBr3(Ce)、plastic、Si 和 CsI(Tl) 辅助探测器组合。 | experimental-fact | | PDF pp.1–2, abstract and Sec.2 | 具体实验使用的 detector subset、距离和辅助阵列仍需逐 run 记录 |
+| ID25-2 | coaxial detector 相对效率约 70%，clover assembly 约 160%；`60Co` 1332.5-keV energy resolution 约 2.3–2.8 keV FWHM。 | detector-performance | | PDF p.2, Sec.2.1 | relative efficiency 和 FWHM 是指定 detector/source geometry 下的装置性能 |
+| ID25-3 | coaxial BGO 厚度约 11–35 mm，在 400–800 keV 区域报告约 77% background reduction 和 `P/C≈8.8`；clover 配置报告约 60% reduction 和 `P/C≈7.5`。 | detector-performance | | PDF p.2, Sec.2.1 and Fig.2 | 不能把不同 BGO thickness、source geometry 和 energy window 混成统一响应 |
+| ID25-4 | 16 coaxial + 8 clover 的紧凑构型几何覆盖约 65% of `4π`，1332.5-keV total photo-peak efficiency 约 10%（无 BGO shield 的距离说明）。 | detector-performance | | PDF p.3, Sec.2.2 | full array 的实际效率仍依赖 shield、target position、add-back 和 event cuts |
+| ID25-5 | electronics 以 100 MHz、14/16-bit waveform digitizers 和 FPGA 处理 list-mode energy/time；BGO veto window 为 400 ns；HPGe detector event rate 可到约 8 kHz/每探测器而不牺牲能量分辨。 | experimental-fact | | PDF p.3, Sec.2.3 | rate、pile-up rejection 和 timing 仍依赖具体 card、signal shape 和 firmware |
+| ID25-6 | 通过 face-to-face geometry 可服务 activated-sample γ/γ 测量；hybrid LaBr3/plastic 配置服务快定时，clover 可作 Compton polarimeter，HPGe 还用于 DSAM/ADO。 | design-capability | | PDF pp.1–4, Secs.2–3 | capability 不是任意核素的已完成物理结果；需要目标反应和 response simulation |
+| ID25-7 | 论文以 `45Sc` DSAM lineshape、`95Tc` ADO 和引自 Ref. 37 的 `187Au` 偏振等应用例展示装置用途，并强调稀有事件的高效率、背景抑制和颗粒度。 | application-example | | PDF pp.4–6, Figs.7–8 and conclusion | 应用例不是同一 acquisition 的独立重复，也不自动迁移到 A≈130 |
 
 ## Detector-to-Physics Mapping
 

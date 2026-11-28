@@ -14,7 +14,7 @@
   $$\Delta = G \sum_{\nu > 0} u_\nu v_\nu = \frac{G}{2} \sum_{\nu > 0} \frac{\Delta}{\sqrt{(\epsilon_\nu - \lambda)^2 + \Delta^2}}.$$
 - Quasiparticle excitation energy:
   $$E_\nu = \sqrt{(\epsilon_\nu - \lambda)^2 + \Delta^2}.$$
-  The odd-even mass difference yields the experimental gap: $\Delta \a12 A^{-1/2}\text{ MeV}$.
+  The odd-even mass difference yields the experimental gap: $\Delta \approx 12 A^{-1/2}\text{ MeV}$.
 
 ### 1.2 Seniority Scheme and Fractional Parentage
 - Seniority quantum number $v$: number of unpaired particles.

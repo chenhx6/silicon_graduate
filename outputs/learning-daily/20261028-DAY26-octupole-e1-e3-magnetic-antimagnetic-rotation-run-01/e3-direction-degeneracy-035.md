@@ -22,7 +22,7 @@ Thus a printed `0+→3−` central matrix element gives (B_{0\to3}=|M|^2) and (B
 
 ## Selected numerical checks
 
-| Nucleus / printed row | (|M|^2) | (B) printed direction | (B) reversed direction | Ratio |
+| Nucleus / printed row | (\|M\|^2) | (B) printed direction | (B) reversed direction | Ratio |
 |---|---:|---:|---:|---:|
 | `222Ra 0+→3−` | `1.2769` | `1.2769` | `0.182414` | `7.0` |
 | `222Ra 2+→1−` | `0.7225` | `0.1445` | `0.240833` | `0.6` |

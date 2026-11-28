@@ -50,7 +50,7 @@ tags: [level-scheme, in-beam-spectroscopy]
 |---|---|---|---|
 | 1. 定义事件 | 建立时间戳 `γ-γ` 矩阵；用已知 prompt cascade 标定本实验 prompt-time window，若研究异构态衰变则另定义 delayed window | 确认两个能量来自同一触发/时间关联，避免把 source lifetime 当作探测窗 | 时间窗必须按该阵列的 time resolution 和 trigger 设计，不能搬用其它实验数值 |
 | 2. 估计 random | 用同一谱区的 off-time sideband，按时间窗宽和 live time 缩放后相减 | 估算无关 singles 偶然进入同一符合窗的背景 | sideband 形状、窗口比例、峰区污染及误差传播都需保留 |
-| 3. 抑制 Compton / cosmic | 记录 lead/反符合条件、事件 multiplicity、`|E1−E2|` cut；对候选能量和检验单 γ 在两个探测器间散射的预测 | 区分真正的双 γ 对与单 γ 多探测器能量沉积、宇宙线诱发的多重事件 | 几何和 cut 会改变接受度；必须用响应或效率修正并做 cut variation |
+| 3. 抑制 Compton / cosmic | 记录 lead/反符合条件、事件 multiplicity、$\lvert E_1-E_2\rvert$ cut；对候选能量和检验单 γ 在两个探测器间散射的预测 | 区分真正的双 γ 对与单 γ 多探测器能量沉积、宇宙线诱发的多重事件 | 几何和 cut 会改变接受度；必须用响应或效率修正并做 cut variation |
 | 4. 检验级联 | 对两个单光子能区分别开门并看反向 projection；检查已知中间能级、能量和、互符合/反符合及时间谱 | 排除经已知中间能级的 sequential cascade 和错误能级归属 | 弱线仍可能和未观测路径、双线或目标核/靶污染峰重叠 |
 | 5. 做独立维度交叉核验 | 比较多个探测器角组/不同角度、时间分布、sum-energy 与 individual-energy 或 energy-sharing 分布 | 防止单一投影、单一 gate 或一种本底模板主导解释 | 角关联、能量共享或模型分解可消除部分退化，仍需保留统计和模型不确定度 |
 

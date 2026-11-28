@@ -9,9 +9,9 @@
 
 ### 1.1 Nuclear Matter and Fermi Gas Parameters
 - Saturated uniform nuclear matter equilibrium density:
-  $$\rho_0 \a0.16\text{ nucleons/fm}^3, \quad r_0 \a1.20\text{ fm}.$$
+  $$\rho_0 \approx 0.16\text{ nucleons/fm}^3, \quad r_0 \approx 1.20\text{ fm}.$$
 - Fermi momentum and kinetic energy:
-  $$k_F = \left(\frac{3\pi^2}{2} \rho_0\right)^{1/3} \a1.36\text{ fm}^{-1}, \quad \epsilon_F = \frac{\hbar^2 k_F^2}{2 M} \approx 38.5\text{ MeV}.$$
+  $$k_F = \left(\frac{3\pi^2}{2} \rho_0\right)^{1/3} \approx 1.36\text{ fm}^{-1}, \quad \epsilon_F = \frac{\hbar^2 k_F^2}{2 M} \approx 38.5\text{ MeV}.$$
 - Average kinetic energy per nucleon:
   $$\langle \epsilon \rangle = \frac{3}{5} \epsilon_F \approx 23.1\text{ MeV}.$$
 
@@ -19,8 +19,8 @@
 - The binding energy per particle expansion around symmetric matter ($N = Z$):
   $$\frac{E}{A}(\rho, \delta_n) = \frac{E}{A}(\rho, 0) + S(\rho) \delta_n^2 + \mathcal{O}(\delta_n^4), \quad \delta_n = \frac{N - Z}{A}.$$
 - Kinetic contribution to the symmetry energy coefficient:
-  $$b_{\text{sym,kin}} = \frac{1}{3} \epsilon_F \a12.8\text{ MeV}.$$
-  Combined with the exchange and short-range correlation forces, the total symmetry energy coefficient reaches $S_0 \a30 - 32\text{ MeV}$.
+  $$b_{\text{sym,kin}} = \frac{1}{3} \epsilon_F \approx 12.8\text{ MeV}.$$
+  Combined with the exchange and short-range correlation forces, the total symmetry energy coefficient reaches $S_0 \approx 30 - 32\text{ MeV}$.
 - The single-particle potential contains an isovector Lane term:
   $$V(\vec{r}) = V_0(r) + V_1(r) \frac{\vec{t}\cdot\vec{T}}{A}.$$
 
@@ -28,7 +28,7 @@
 - Saturated curvature of symmetric nuclear matter:
   $$K_\infty = 9 \rho_0^2 \left. \frac{d^2(E/A)}{d\rho^2} \right|_{\rho = \rho_0} \approx 200 - 250\text{ MeV}.$$
 - Macroscopic scaling connects $K_\infty$ directly to the centroid energy of the Isoscalar Giant Monopole Resonance (ISGMR):
-  $$E_{\text{ISGMR}} = \sqrt{\frac{\hbar^2 K_A}{M \langle r^2 \rangle}} \a80 A^{-1/3}\text{ MeV}.$$
+  $$E_{\text{ISGMR}} = \sqrt{\frac{\hbar^2 K_A}{M \langle r^2 \rangle}} \approx 80 A^{-1/3}\text{ MeV}.$$
 
 ---
 

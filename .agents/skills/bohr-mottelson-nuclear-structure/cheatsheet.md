@@ -12,9 +12,9 @@ Quick reference tables, analytic limits, and decision rules from Bohr & Mottelso
 | Nuclear radius parameter $r_0$ | $R = r_0 A^{1/3}$ | $1.20\text{ fm}$ |
 | Fermi momentum $k_F$ | $(3\pi^2 \rho_0 / 2)^{1/3}$ | $1.36\text{ fm}^{-1}$ ($p_F \approx 268\text{ MeV}/c$) |
 | Fermi energy $\epsilon_F$ | $\frac{\hbar^2 k_F^2}{2 M}$ | $38.5\text{ MeV}$ |
-| Kinetic symmetry energy $b_$C_{\text{sym}}$$ | $\frac{1}{3} \epsilon_F$ | $\a28 - 32\text{ MeV}$ |
+| Kinetic symmetry energy $b_{\text{sym}}$ | $\frac{1}{3} \epsilon_F$ | $\approx 28 - 32\text{ MeV}$ |
 | Compression modulus $K_\infty$ | $9 \rho_0^2 \frac{d^2(E/A)}{d\rho^2}$ | $210 \pm 30\text{ MeV}$ |
-| Breathing mode (ISGMR) energy | $\sqrt{\frac{K_A}{M \langle r^2 \rangle}}$ | $E_0 \a80 A^{-1/3}\text{ MeV}$ |
+| Breathing mode (ISGMR) energy | $\sqrt{\frac{K_A}{M \langle r^2 \rangle}}$ | $E_0 \approx 80 A^{-1/3}\text{ MeV}$ |
 
 ---
 
@@ -25,7 +25,7 @@ Quick reference tables, analytic limits, and decision rules from Bohr & Mottelso
 - **Odd-$A$ Nuclei with $K = 1/2$ (Decoupling Parameter $a$)**:
   $$E(I) = \frac{\hbar^2}{2\mathcal{J}} \left[ I(I+1) + a (-1)^{I+1/2} (I + 1/2) \right].$$
 - **Rigid-Rotor Moment of Inertia**:
-  $$\mathcal{J}_{\text{rig}} = \frac{2}{5} M A R_0^2 \left( 1 + 0.31 \beta_2 \right) \a0.014 A^{5/3}\ \hbar^2/\text{MeV}.$$
+  $$\mathcal{J}_{\text{rig}} = \frac{2}{5} M A R_0^2 \left( 1 + 0.31 \beta_2 \right) \approx 0.014 A^{5/3}\ \hbar^2/\text{MeV}.$$
 - **Hydrodynamic Irrotational Flow Limit**:
   $$\mathcal{J}_{\text{irrot}} = \frac{9}{8\pi} M A R_0^2 \beta_2^2 \sin^2\left(\gamma - \frac{2\pi}{3} k\right).$$
 

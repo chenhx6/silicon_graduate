@@ -52,4 +52,4 @@
 5. **纯物理曝光机时 $T_{\text{beam}}$**：
    $$T_{\text{beam}}\ [\text{hours}] = \frac{N_{\text{events}}^{\text{req}}}{R_{\gamma\gamma} \times 3600}.$$
 6. **总申请机时（含调束、刻度、死时间）**：
-   $$T_{\text{total}} \a1.8 \times T_{\text{beam}}.$$
+   $$T_{\text{total}} \approx 1.8 \times T_{\text{beam}}.$$

@@ -6,13 +6,13 @@ Comprehensive crosswalk of specialized terminology in non-axial nuclear structur
 
 ## 1. Nuclear Chirality Concepts (核手征性概念)
 
-- **Nuclear Chirality (原子核手征性)**: Spontaneous breaking of the discrete time-reversal-rotational symmetry $\mathcal{T}\mathcal{R}_y(\pi)$ in the intrinsic frame of a triaxially deformed nucleus ($\gamma \a30^\circ$) when the valence proton, valence neutron, and core angular momentum vectors form a non-coplanar (aplanar) right- or left-handed triad.
+- **Nuclear Chirality (原子核手征性)**: Spontaneous breaking of the discrete time-reversal-rotational symmetry $\mathcal{T}\mathcal{R}_y(\pi)$ in the intrinsic frame of a triaxially deformed nucleus ($\gamma \approx 30^\circ$) when the valence proton, valence neutron, and core angular momentum vectors form a non-coplanar (aplanar) right- or left-handed triad.
 - **Chiral Doublet Bands (手征双重带)**: A pair of $\Delta I = 1$ rotational bands sharing identical single-particle configurations, parity, and deformations, degenerate or near-degenerate in energy ($\Delta E(I) < 100\text{ keV}$), restored in the laboratory frame by quantum tunneling through the planar chiral barrier.
 - **Multiple Chiral Doublets ($M\chi D$, 多重手征双重带)**: The coexistence of two or more pairs of chiral doublet bands in the same atomic nucleus, arising from different multi-quasiparticle configurations (Type I), triaxial shape coexistence (Type II), or chiral multi-phonon excitations (Type III).
 - **Aplanarity (非共面度)**: A measure of the non-coplanarity of the angular momentum vectors:
   $$A_{\text{chiral}} = \frac{\vec{j}_p \cdot (\vec{j}_n \times \vec{R}_{\text{core}})}{|\vec{j}_p| |\vec{j}_n| |\vec{R}_{\text{core}}|}.$$
   $A_{\text{chiral}} \neq 0$ defines the chiral regime; $A_{\text{chiral}} = 0$ corresponds to planar rotation (achiral).
-- **Chiral Parity Quartets (手征-宇称四重带)**: A supermultiplet of four intertwined rotational bands ($\pi = \pm, \text{chiral} = \pm$) arising from simultaneous spontaneous breaking of spatial inversion parity $\mathcal{P}$ (octupole deformation $\beta_3 \neq 0$) and chirality $\mathcal{T}\mathcal{R}_y(\pi)$ (triaxial deformation $\beta_2 \neq 0, \gamma \a30^\circ$).
+- **Chiral Parity Quartets (手征-宇称四重带)**: A supermultiplet of four intertwined rotational bands ($\pi = \pm, \text{chiral} = \pm$) arising from simultaneous spontaneous breaking of spatial inversion parity $\mathcal{P}$ (octupole deformation $\beta_3 \neq 0$) and chirality $\mathcal{T}\mathcal{R}_y(\pi)$ (triaxial deformation $\beta_2 \neq 0, \gamma \approx 30^\circ$).
 
 ---
 

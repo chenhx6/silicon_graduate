@@ -20,7 +20,7 @@ Davydov-Filippov 能级与分支比表、RVM 转动振动公式、Wilets-Jean �
 
 ## 2. Davydov-Filippov 模型高自旋解析能级公式
 
-基底为对称化 Wigner 函数 $|IMK\rangle_$C_{\text{sym}}$$，能量以 $\epsilon_0 = \frac{\hbar^2}{4 B \beta^2}$ 为自然单位：
+基底为对称化 Wigner 函数 $|IMK\rangle_{\text{sym}}$，能量以 $\epsilon_0 = \frac{\hbar^2}{4 B \beta^2}$ 为自然单位：
 
 1. **$I=2^+$ 能级（二重分裂）**：
    $$E(2_1^+, 2_2^+) = \frac{9 \epsilon_0}{\sin^2(3\gamma)} \left[ 1 \mp \sqrt{1 - \frac{8}{9}\sin^2(3\gamma)} \right]$$
@@ -67,6 +67,6 @@ $$E(I, K, n_\beta, n_\gamma) = \left( n_\beta + \frac{1}{2} \right) \hbar\omega_
 
 | 巨共振模式 | 标度律 (GT vs SJ) | 经验中心共振能量 $E_{\text{res}}$ | 典型共振宽度 $\Gamma$ | 能量加权求和规则 (EWSR) 耗尽比例 |
 |---|---|---|---|---|
-| **等标巨单极共振 (ISGMR)** | 单核子声学压缩波 | $E_{\text{GMR}} \a80 A^{-1/3}\text{ MeV}$ | $3.0 - 4.5\text{ MeV}$ | 耗尽 $100\%$ 单极求和，提取核不可压缩系数 $K_\infty \approx 240\text{ MeV}$ |
+| **等标巨单极共振 (ISGMR)** | 单核子声学压缩波 | $E_{\text{GMR}} \approx 80 A^{-1/3}\text{ MeV}$ | $3.0 - 4.5\text{ MeV}$ | 耗尽 $100\%$ 单极求和，提取核不可压缩系数 $K_\infty \approx 240\text{ MeV}$ |
 | **等矢巨偶极共振 (IVGDR)** | GT: $A^{-1/6}$，SJ: $A^{-1/3}$ | $E_{\text{GDR}} \approx 31.2 A^{-1/3} + 20.6 A^{-1/6}\text{ MeV}$ | $4.0 - 6.0\text{ MeV}$ | 耗尽 $100\% - 120\%$ TRK 求和规则：$\sigma_{\text{TRK}} = 60 \frac{NZ}{A}\text{ MeV}\cdot\text{mb}$ |
 | **等标巨四极共振 (ISGQR)** | 表面四极无旋流形变波 | $E_{\text{GQR}} \approx 64 A^{-1/3}\text{ MeV}$ | $3.5 - 5.0\text{ MeV}$ | 耗尽 $100\%$ 能量加权四极求和规则 |

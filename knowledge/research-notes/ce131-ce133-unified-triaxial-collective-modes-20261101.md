@@ -56,14 +56,14 @@ core. The comparison does not by itself resolve the odd-mass structural evolutio
 
 The negative-parity single-neutron orbitals close to the Fermi level in $A \approx 130$ at triaxial quadrupole deformation ($\varepsilon_2 \approx 0.185, \gamma \approx 18^\circ$) are given by the QTR model Hamiltonian (Wakudyanaye 2022, Table 6.6):
 
-| State $| \nu \rangle$ | Nilsson Asymptotic Label $\Omega^\pi [N n_z \Lambda]$ | Single-Particle Energy $\varepsilon$ (MeV) | Main Long-Axis Projections $\Omega_l$ |
+| State $\vert \nu \rangle$ | Nilsson Asymptotic Label $\Omega^\pi [N n_z \Lambda]$ | Single-Particle Energy $\varepsilon$ (MeV) | Main Long-Axis Projections $\Omega_l$ |
 |---|---|---|---|
-| $|14\rangle$ | $1/2^- [550]$ | 5.657 | $0.783 |11/2, 1/2\rangle + 0.512 |11/2, -1/2\rangle$ |
-| $|15\rangle$ | $3/2^- [541]$ | 5.743 | $0.772 |11/2, 3/2\rangle - 0.404 |11/2, -1/2\rangle$ |
-| $|16\rangle$ | $5/2^- [532]$ | 5.808 | $-0.864 |11/2, 5/2\rangle + 0.360 |11/2, 1/2\rangle$ |
-| $|17\rangle$ | $7/2^- [523]$ | 5.901 | $-0.955 |11/2, 7/2\rangle + 0.192 |11/2, -3/2\rangle$ |
-| $|18\rangle$ | $9/2^- [514]$ | 6.036 | $0.981 |11/2, 9/2\rangle - 0.149 |7/2, 5/2\rangle$ |
-| $|19\rangle$ | $11/2^- [505]$ | 6.212 | $0.986 |11/2, 11/2\rangle - 0.155 |7/2, -7/2\rangle$ |
+| $\vert14\rangle$ | $1/2^- [550]$ | 5.657 | $0.783 \vert11/2, 1/2\rangle + 0.512 \vert11/2, -1/2\rangle$ |
+| $\vert15\rangle$ | $3/2^- [541]$ | 5.743 | $0.772 \vert11/2, 3/2\rangle - 0.404 \vert11/2, -1/2\rangle$ |
+| $\vert16\rangle$ | $5/2^- [532]$ | 5.808 | $-0.864 \vert11/2, 5/2\rangle + 0.360 \vert11/2, 1/2\rangle$ |
+| $\vert17\rangle$ | $7/2^- [523]$ | 5.901 | $-0.955 \vert11/2, 7/2\rangle + 0.192 \vert11/2, -3/2\rangle$ |
+| $\vert18\rangle$ | $9/2^- [514]$ | 6.036 | $0.981 \vert11/2, 9/2\rangle - 0.149 \vert7/2, 5/2\rangle$ |
+| $\vert19\rangle$ | $11/2^- [505]$ | 6.212 | $0.986 \vert11/2, 11/2\rangle - 0.155 \vert7/2, -7/2\rangle$ |
 
 ### Structural Consequences of the Fermi Level Position:
 - In $^{131}\text{Ce}$ ($N=73$), the chemical potential $\lambda$ lies near $|17\rangle$ ($[523]7/2^-$). The valence neutron is situated in the mid-shell where Coriolis decoupling is moderate. The $\gamma$-soft core couples preferentially via vibrational phonons, generating Band 4 as a collective $\gamma$-vibration ($\gamma \otimes e$).
@@ -80,7 +80,7 @@ The spectroscopic parameters synthesized by `system/scripts/ce131_ce133_unified_
 | **Yrast Bandhead** | $9/2^-$ isomer ($T_{1/2} = 80\text{ ns}$) | $9/2^-$ ($E_x = 37.2\text{ keV}$) | High-$j$ $\nu h_{11/2}$ bandhead |
 | **Excited Band (Band 4) Bandhead** | $15/2^-$ ($E_x = 972\text{ keV}$ above $9/2^-$) | $13/2^-$ ($E_x = 512\text{ keV}$ above $9/2^-$) | $\Delta I = 3$ ($\gamma$-vibration) vs $\Delta I = 2$ ($R_l = 2\hbar$ TiP) |
 | **Connecting Transitions** | $994\text{ keV}, 1108\text{ keV}$ | $625\text{ keV}, 582\text{ keV}, 465\text{ keV}$ | High energy (phonon) vs low energy (signature partner) |
-| **Connecting Multipolarity** | Quadrupole / Dipole mixed | $77\%\text{--}97\%\ M1$ ($|\delta| \le 0.55$) | Single-particle spin flip vs collective phonon |
+| **Connecting Multipolarity** | Quadrupole / Dipole mixed | $77\%\text{--}97\%\ M1$ ($\vert\delta\vert \le 0.55$) | Single-particle spin flip vs collective phonon |
 | **$B(E2)_{\text{out}}/B(E2)_{\text{in}}$** | Not directly reported (weak branch) | $0.063(25)$ ($582\text{ keV}$), $0.088(33)$ ($465\text{ keV}$) | Workbook-derived values are below 0.1; conditionally disfavors a simple wobbling assignment |
 | **$B(M1)/B(E2)$ ratio** | Small (intraband dominant) | $0.254\ \mu_N^2/(e^2 b^2)$, $0.470\ \mu_N^2/(e^2 b^2)$ | Large single-particle magnetic dipole strength |
 | **Signature Staggering $S(I)$** | Small at low spin ($\pm 5\text{ keV}$) | Huge staggering ($>100\text{ keV}$), inverts at $19/2^-\text{--}21/2^-$ | Non-axial Coriolis mixing with $\Omega=1/2$ components |

@@ -66,7 +66,7 @@ pp. 3–6 用核四极矩的壳依赖与集体量级说明需要同时考虑粒�
 | B52-1 | β、γ与三个角替代五个四极坐标；主轴命名有24重冗余，轴对称处还有连续冗余。 | model-result | direct | pp. 9–11, Eqs. (10)–(17); pp. 19–21 | false |
 | B52-2 | 不可压、常密度、无旋流给 \(B_\lambda=\rho_0R_0^5/\lambda\)；作者同时强调可形变性会受壳结构影响。 | model-result | direct | p. 8, Eqs. (4)–(9) 及正文 | false |
 | B52-3 | 该单一 B 模型给 \(T_{\rm vib}=\frac B2(\dot\beta^2+\beta^2\dot\gamma^2)\)，及 \({\cal J}_k=4B\beta^2\sin^2(\gamma-2\pi k/3)\)。 | model-result | direct | pp. 12–13, Eqs. (19)–(28) | false |
-| B52-4 | 曲坐标量子化引入 \(\beta^4|\sin3\gamma|\) 测度；I=0 的角方程在该模型化为 Legendre 方程。 | model-result | direct | pp. 16–22, Eqs. (43)–(71)，尤p.21 | false |
+| B52-4 | 曲坐标量子化引入 \(\beta^4\vert\sin3\gamma\vert\) 测度；I=0 的角方程在该模型化为 Legendre 方程。 | model-result | direct | pp. 16–22, Eqs. (43)–(71)，尤p.21 | false |
 | B52-5 | 单值纯四极标量波函数的主轴一致性限制 K 和 I；I=1 不存在属于这个集体空间。 | model-result | direct | pp. 19–21, Eqs. (56)–(65) | false |
 | B52-6 | 加入粒子后转动能含 \((I_k-j_k)^2/{\cal J}_k\)，一致性条件也同时作用于粒子态，不能把纯表面规则直接套给总态。 | model-result | direct | pp. 25–28, Eqs. (81)–(93) | false |
 | B52-7 | 强耦合近似需控制形状涨落与扰动矩阵元/能量分母；作者指出粗估中分离未必很大，近简并也会破坏近似。 | author-interpretation | direct | pp. 31–39, 尤pp.33–34,36–39 | false |

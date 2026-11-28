@@ -129,7 +129,7 @@ Garg 2015 的 Table I 给出相关 M1 与 crossover E2 的能量、相对强度�
 
 | 框架 | 主要自由度 | 可预测/比较的量 | 对本课题的实际边界 |
 |---|---|---|---|
-| 固定双叶片经典剪刀 | 固定 $j_p,j_n$ 与夹角 $\theta$ | $|\mu_\perp|\propto(j_pj_n/I)\sin\theta$、归一化 $B(M1)$；在指定四极算符下的 $B(E2)$ 幂次 | 只在单一组态和明确角动量分配下成立；不能跨 3qp/5qp 自动延拓 |
+| 固定双叶片经典剪刀 | 固定 $j_p,j_n$ 与夹角 $\theta$ | $\vert\mu_\perp\vert\propto(j_pj_n/I)\sin\theta$、归一化 $B(M1)$；在指定四极算符下的 $B(E2)$ 幂次 | 只在单一组态和明确角动量分配下成立；不能跨 3qp/5qp 自动延拓 |
 | 含平行核芯的剪刀 | $\mathbf I=\mathbf j_p+\mathbf j_n+\mathbf R$，取 $\mathbf R\parallel\mathbf I$ 的简化场景 | 核芯承担的自旋会改变有效叶片合成角和 $B(E2)$ 基底，并可缓和闭合 | $R$、核芯四极矩和有效电荷需要独立约束；脚本中的 20% 只是情景参数 |
 | TAC（Garg 2015 hybrid TAC） | 转动频率、形变、组态和转轴相对内禀轴的倾角，最小化 $H-\boldsymbol\omega\cdot\mathbf J$ | $I(\omega)$、能带交叉、模型 $B(M1)/B(E2)$、$\beta_2,\gamma$ 与倾角 | 对 135Pr 给出 3qp/5qp 比较、$\omega\approx0.37$ MeV 交叉和平均倾角，但未给实验绝对寿命 |
 | TAC-RMF/CDFT | 自洽协变平均场、配对/阻塞、形变与转轴 | 组态依赖的能量、对齐、形变和跃迁矩阵元 | 当前 Wiki 中直接取得的 PC-PK1 TAC-CDFT 原件是邻核 136Pr（Lv 2025），不是 135Pr；不能把邻核模型输出冒称本核微观结果 |

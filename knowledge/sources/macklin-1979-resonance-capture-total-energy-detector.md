@@ -40,7 +40,7 @@ Gemini 一单元覆盖 PDF 476–485。Codex 核查源响应方程、加权计�
 ## Key Results
 
 | ID | Claim | claim_kind | evidence_level | locator |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- |---|
 | MA-1 | \(\sum_i G(i)P(i,E_\gamma)=E_\gamma\) 是理想线性能量响应条件。\(P(i,E_\gamma)\) 是由给定真实光子能产生第 \(i\) 道脉冲的概率。单个脉冲可只沉积部分入射能量。 | response-definition | direct-original-pages | PDF 477 |
 | MA-2 | 从加权总能推算俘获时，文中另考虑死时间、本底、样品内散射和共振自屏蔽等。不能把响应线性当成这些效应已校正。 | experimental-method | direct-original-pages | PDF 478 |
 | MA-3 | 文中约 120 keV 以下的若干平均产额拟合只用四个参数，仍可有绝对值达 0.99 的参数相关系数。透射数据可提供额外约束。 | fit-identifiability-boundary | direct-original-pages | PDF 479 |

@@ -15,13 +15,13 @@
      - 总玻色子数 $N = N_\pi + N_\nu$；
   2. **代入 Heyde 减缩公式计算理论基准**（Heyde 式 13b.1）：
      $$B(M1; 0_1^+ \to 1_{\text{sc}}^+) = \frac{3}{4\pi} \frac{8 N_\pi N_\nu}{2N - 1} (g_\pi - g_\nu)^2\ \mu_N^2;$$
-     取典型有效有效回旋比差值 $(g_\pi - g_\nu) \a0.65 - 0.75$；
+     取典型有效有效回旋比差值 $(g_\pi - g_\nu) \approx 0.65 - 0.75$；
   3. **核物理实验对账（以 $^{156}\text{Gd}$ 为例）**：
      - 质子数 $Z=64$（偏离 $Z=50$ 闭壳 14 个质子 $\implies N_\pi = 7$）；
      - 中子数 $N=92$（偏离 $N=82$ 闭壳 10 个中子 $\implies N_\nu = 5$）；
      - 总数 $N = 12$；
-     - 代入公式得：$\frac{8 \times 7 \times 5}{24 - 1} = \frac{280}{23} \a12.17$；
-     - 算得 $B(M1) \approx \frac{3}{4\pi} \times 12.17 \times (0.7)^2 \a1.42\ \mu_N^2$；
+     - 代入公式得：$\frac{8 \times 7 \times 5}{24 - 1} = \frac{280}{23} \approx 12.17$；
+     - 算得 $B(M1) \approx \frac{3}{4\pi} \times 12.17 \times (0.7)^2 \approx 1.42\ \mu_N^2$；
      - 与 Darmstadt 非弹性电子散射实测值 $1.3 \pm 0.2\ \mu_N^2$ 达成高度一致，彻底消除宏观两转子模型高估 10 倍的历史矛盾！
 
 ---
@@ -32,10 +32,10 @@
 - **标准反演程序**：
   1. 测定核光吸收反应截面 $\sigma_{\gamma,\text{abs}}(E_\gamma)$，采用双洛伦兹峰拟合提取低能峰能量 $E_a$ 与高能峰能量 $E_b$；
   2. **面积比检验**：核验低能峰与高能峰积分截面面积比是否满足两短轴空间简并度：
-     $$\frac{\int \sigma_a(E) dE}{\int \sigma_b(E) dE} \a1 : 2;$$
+     $$\frac{\int \sigma_a(E) dE}{\int \sigma_b(E) dE} \approx 1 : 2;$$
   3. **由能量分裂反演形变参量 $\delta$**：
-     $$\frac{E_b}{E_a} = \frac{R_a}{R_b} \approx \frac{1 + \frac{2}{3}\delta}{1 - \frac{1}{3}\delta} \a1 + \delta \implies \delta \approx \frac{E_b - E_a}{E_a};$$
-  4. 换算为标准 Bohr-Mottelson 四极形变参数 $\beta_2 \a1.05 \cdot \delta$。
+     $$\frac{E_b}{E_a} = \frac{R_a}{R_b} \approx \frac{1 + \frac{2}{3}\delta}{1 - \frac{1}{3}\delta} \approx 1 + \delta \implies \delta \approx \frac{E_b - E_a}{E_a};$$
+  4. 换算为标准 Bohr-Mottelson 四极形变参数 $\beta_2 \approx 1.05 \cdot \delta$。
 
 ---
 
@@ -47,7 +47,7 @@
   2. 利用流体动力学压缩波动方程推算有限核不可压缩模量 $K_A$：
      $$E_{\text{GMR}} = \hbar \sqrt{\frac{K_A}{M \langle r^2 \rangle}} \implies K_A \approx \frac{M \langle r^2 \rangle}{\hbar^2} E_{\text{GMR}}^2;$$
   3. 采用液滴模型对 $K_A$ 展开消除表面与对称能修正：
-     $$K_A = K_\infty + K_{\text{surf}} A^{-1/3} + K_$C_{\text{sym}}$ \left( \frac{N - Z}{A} \right)^2 + K_{\text{Coul}} \frac{Z^2}{A^{4/3}};$$
+     $$K_A = K_\infty + K_{\text{surf}} A^{-1/3} + K_{\text{sym}} \left( \frac{N - Z}{A} \right)^2 + K_{\text{Coul}} \frac{Z^2}{A^{4/3}};$$
   4. 结合跨质量区同位素链拟合提取核物质饱和基态不可压缩模量：$K_\infty \approx 240 \pm 20\text{ MeV}$，为约束中子星状态方程（EOS）最大质量提供第一性原理实验基准。
 
 ---

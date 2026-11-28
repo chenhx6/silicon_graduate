@@ -37,7 +37,7 @@ A. A. Raduta 提出了**广义相干态模型 (Generalized Coherent State Model,
 $$\hat{\mathcal{M}}(M1, \mu) = \sqrt{\frac{3}{4\pi}} \mu_N \left( g_p \hat{J}_{p, \mu} + g_n \hat{J}_{n, \mu} + g_f \hat{J}_{f, \mu} \right).$$
 - **带间强 $M1$ 退激指纹**：
   由于手征对称破缺引起的左右手征态微观相位相干干涉：
-  $$B(M1; \text{Band 2}(I) \to \text{Band 1}(I)) \a0.1 - 0.5\ \mu_N^2.$$
+  $$B(M1; \text{Band 2}(I) \to \text{Band 1}(I)) \approx 0.1 - 0.5\ \mu_N^2.$$
   带间跃迁展现出极其强烈的集体磁偶极增强，彻底排除了普通单粒子态阻碍跃迁；
 - **$S_{M1}(I)$ 奇偶交错同相振荡**：
   两带内部的磁偶极跃迁交错参量：

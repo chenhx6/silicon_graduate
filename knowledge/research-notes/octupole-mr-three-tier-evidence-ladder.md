@@ -68,7 +68,7 @@ flowchart TD
 | 核素 | 物理现象 | Tier 1: 直接测量 (Direct Observables) | Tier 2: 导出强度与比值 (Derived Strengths) | Tier 3: 模型解释与对称性 (Model Interpretations) |
 |---|---|---|---|---|
 | $^{144}\text{Ba}$ | 八极集体性与 $E1$ 增强 | CHICO2+GRETINA 库仑激发符合产额；$E(3^-)=838\text{ keV}$ | $M(E3)=0.65^{+0.17}_{-0.23}\ e\text{b}^{3/2}$；$B(E3)=48^{+25}_{-34}\text{ W.u.}$ | 浅阱大振幅软八极振动；高位 $\delta E(I) > 300\text{ keV}$ 平台排斥刚性静态梨形 |
-| $^{146}\text{Ba}$ | 八极集体性与偶极相消 | 库激矩阵元拟合；先前寿命/分支比约束；$E(3^-)=821\text{ keV}$ | $B(E3)=48^{+21}_{-29}\text{ W.u.}$；$|D_0|=0.00456\ e\text{fm}$（近零） | 中子低 $\Omega$ 轨道 $\nu(1h_{9/2}, 2f_{7/2}, 1i_{13/2})$ 充填产生负极化抵消质子偶极矩 |
+| $^{146}\text{Ba}$ | 八极集体性与偶极相消 | 库激矩阵元拟合；先前寿命/分支比约束；$E(3^-)=821\text{ keV}$ | $B(E3)=48^{+21}_{-29}\text{ W.u.}$；$\vert D_0\vert=0.00456\ e\text{fm}$（近零） | 中子低 $\Omega$ 轨道 $\nu(1h_{9/2}, 2f_{7/2}, 1i_{13/2})$ 充填产生负极化抵消质子偶极矩 |
 | $^{225}\text{Ra}$ | 静态八极双阱与宇称双重态 | NNDC Adopted 能级：$1/2^\pm, 3/2^\pm, 5/2^\pm, 7/2^\pm$ | $\Delta E(I) = +55.2, -11.2, +95.0, -42.2\text{ keV}$；$A\delta a = -20.43\text{ keV}$ | 内禀反射不对称产生 $a^+ \approx -a^-$ 异号解耦，Coriolis 驱动交错振荡 |
 | $^{135}\text{Pr}$ | 磁转动与剪刀重张 | Band 3 谱线；$R_{\text{DCO}}(813)=0.22(2)$；偏振不对称度 $\Delta = +0.04(3)$ | $B(M1)/B(E2)$ 测至 $35/2^-$（$94.8(\mu_N/e\text{b})^2$）；交叉后跨带 $E2$ 未测 | 3qp 向 5qp 交叉吸纳质子对 $(g_{7/2})^2$，剪刀角自 $15^\circ$ 重张至 $75^\circ$；$\beta_2\approx 0.14$ 维持 $E2$ 底座 |
 | $^{110}\text{Cd}$ | 反磁转动与四刃双剪刀 | Band B $\Delta I=2$ 级联；DSAM 寿命 $\tau(16^+)=0.36(3)\text{ ps}$ 至 $\tau(24^+)=0.27(7)\text{ ps}$ | $B(E2) = 0.14(1) \to 0.06(2)\ e^2\text{b}^2$；$\mathcal{J}^{(2)}/B(E2) = 116 - 341$ | 复合对称性 $\mathcal{R}_y(\pi)\mathcal{T}$ 禁戒横向偶极（$\mu_\perp \equiv 0$）；$B(E2) \propto \sin^4\theta$；核芯转动延缓闭合 |

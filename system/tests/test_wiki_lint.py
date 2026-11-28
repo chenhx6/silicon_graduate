@@ -12,6 +12,12 @@ sys.path.insert(0, str(REPO_ROOT / "system" / "scripts"))
 import wiki_lint  # noqa: E402
 
 
+class TableEscapesTest(unittest.TestCase):
+    def test_preserves_escaped_pipes_and_wikilink_target(self):
+        self.assertEqual(wiki_lint.markdown_table_cells(r"| `x\|y` | [[page\|name]] |"), [r"`x\|y`", r"[[page\|name]]"])
+        self.assertEqual(wiki_lint.wikilinks(r"[[page\|name]]"), ["page"])
+
+
 class FrontmatterTests(unittest.TestCase):
     def test_parses_scalars_and_inline_lists(self) -> None:
         meta, body, errors = wiki_lint.parse_frontmatter_text(

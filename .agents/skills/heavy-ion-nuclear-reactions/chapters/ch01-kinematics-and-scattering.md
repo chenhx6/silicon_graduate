@@ -25,7 +25,7 @@
 当发生完全熔合时，弹核与靶核合二为一，质心相对动能全部转化为复合核内禀激发能，系统整体沿束流方向平移：
 $$E_{\text{recoil}} = E_{\text{lab}} - E_{\text{c.m.}} = \frac{A_p}{A_p + A_t} E_{\text{c.m.}} = \frac{A_p A_t}{(A_p + A_t)^2} E_{\text{lab}}.$$
 反冲初速度比率：
-$$\beta = \frac{v_{\text{recoil}}}{c} \approx \sqrt{\frac{2 E_{\text{recoil}}}{M_{\text{CN}} c^2}} = \frac{\sqrt{2 A_p u E_{\text{lab}}}}{(A_p + A_t) u c} \a0.04635 \frac{\sqrt{A_p E_{\text{lab}} [\text{MeV}]}}{A_p + A_t}.$$
+$$\beta = \frac{v_{\text{recoil}}}{c} \approx \sqrt{\frac{2 E_{\text{recoil}}}{M_{\text{CN}} c^2}} = \frac{\sqrt{2 A_p u E_{\text{lab}}}}{(A_p + A_t) u c} \approx 0.04635 \frac{\sqrt{A_p E_{\text{lab}} [\text{MeV}]}}{A_p + A_t}.$$
 在束 $\gamma$ 谱学测量中，$\beta$ 决定了运动发射源的多普勒频移：$E_\gamma(\theta) = E_{\gamma 0} \frac{\sqrt{1-\beta^2}}{1 - \beta\cos\theta_{\text{det}}} \approx E_{\gamma 0} (1 + \beta\cos\theta_{\text{det}})$。
 
 ---

@@ -160,7 +160,7 @@ The SI audit closes the prior attached-material gap. It does not clear `needs_re
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| W15-D19-1 | Walz 2015 测得 $^{137}\text{Ba}$ 异构态竞争双光子衰变总分支比 $\Gamma_{\gamma\gamma}/\Gamma_\gamma = (2.05 \pm 0.37) \times 10^{-6}$，与后续 Söderström 2020 测得的 $(2.62 \pm 0.30) \times 10^{-6}$ 在独立高斯误差下仅相差 $1.20\sigma$（差值 $0.57 \times 10^{-6}$，加权均值 $2.39(23) \times 10^{-6}$），在总分支比量级与存在性上达成完全自洽。但其推导的虚态极化率比值 $\alpha_{E2M2} / \alpha_{M1E3} = 33.9 / 10.1 = 3.36$（四极—四极路径主导）在后续实验中被证实发生了高达 $13.9$ 倍的剧烈反转。微积分审计揭示，该反转由探测几何与能窗截断系统性导致：Walz 2015 仅设置了 $72^\circ$ 与 $144^\circ$ 两个探测对角，并在分析中施加了对称能量差截断 $|E_1 - E_2| < 250\text{ keV}$（裁掉了超过 $35\%$ 的相空间），人为滤除了在不对称能量共享端（$E_1 \sim 200\text{ keV}$）占绝对优势的八极—偶极 $E3M1$ 分量，从而导致双角拟合极小值假性偏向四极—四极对称解。 | quantitative-audit-and-criterion | derived-and-source-boundary | Nature 526, 406 pp.406-409; Table 1, Fig.4; ba137-double-gamma-result-045.json | true |
+| W15-D19-1 | Walz 2015 测得 $^{137}\text{Ba}$ 异构态竞争双光子衰变总分支比 $\Gamma_{\gamma\gamma}/\Gamma_\gamma = (2.05 \pm 0.37) \times 10^{-6}$，与后续 Söderström 2020 测得的 $(2.62 \pm 0.30) \times 10^{-6}$ 在独立高斯误差下仅相差 $1.20\sigma$（差值 $0.57 \times 10^{-6}$，加权均值 $2.39(23) \times 10^{-6}$），在总分支比量级与存在性上达成完全自洽。但其推导的虚态极化率比值 $\alpha_{E2M2} / \alpha_{M1E3} = 33.9 / 10.1 = 3.36$（四极—四极路径主导）在后续实验中被证实发生了高达 $13.9$ 倍的剧烈反转。微积分审计揭示，该反转由探测几何与能窗截断系统性导致：Walz 2015 仅设置了 $72^\circ$ 与 $144^\circ$ 两个探测对角，并在分析中施加了对称能量差截断 $\vert E_1 - E_2\vert < 250\text{ keV}$（裁掉了超过 $35\%$ 的相空间），人为滤除了在不对称能量共享端（$E_1 \sim 200\text{ keV}$）占绝对优势的八极—偶极 $E3M1$ 分量，从而导致双角拟合极小值假性偏向四极—四极对称解。 | quantitative-audit-and-criterion | derived-and-source-boundary | Nature 526, 406 pp.406-409; Table 1, Fig.4; ba137-double-gamma-result-045.json | true |
 
 ## Day21周考推断阶梯审计：核双光子衰变（2γ）两角拟合简并与对称能窗假象证据门边界
 
@@ -168,7 +168,7 @@ The SI audit closes the prior attached-material gap. It does not clear `needs_re
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| W15-D21-1 | Walz 2015 实验测得 $^{137}	ext{Ba}$ 竞争双光子衰变总分支比 $(2.05 \pm 0.37) 	imes 10^{-6}$，与 Söderström 2020（$2.62(30) 	imes 10^{-6}$）在 $1.20\sigma$ 内高度吻合，确立了总分支比的存在性；但推断阶梯审计揭示，其推导的虚态极化率比值 $\alpha_{E2M2} / \alpha_{M1E3} = 3.356$（四极主导）在后续实验中发生了高达 $13.88$ 倍的剧烈反转。反转机制源于两角几何（$72^\circ, 144^\circ$）拟合简并与对称能窗截断（$|E_1 - E_2| < 250	ext{ keV}$ 裁掉了超过 $35\%$ 相空间），人为滤除了在不对称能量共享端占优的八极分量。推断阶梯确立：严禁仅凭有限离散角度下的能量求和峰断言虚态极化率路径，确证多极路径必须依赖连续能量分配谱与微观选择定则。 | claim-boundary-audit | direct-and-derived | Nature 526, 406 pp.406-409; Table 1; two-photon-decay-audit-015.json | true |
+| W15-D21-1 | Walz 2015 实验测得 $^{137}\text{Ba}$ 竞争双光子衰变总分支比 $(2.05 \pm 0.37) \times 10^{-6}$，与 Söderström 2020（$2.62(30) \times 10^{-6}$）在 $1.20\sigma$ 内高度吻合，确立了总分支比的存在性；但推断阶梯审计揭示，其推导的虚态极化率比值 $\alpha_{E2M2} / \alpha_{M1E3} = 3.356$（四极主导）在后续实验中发生了高达 $13.88$ 倍的剧烈反转。反转机制源于两角几何（$72^\circ, 144^\circ$）拟合简并与对称能窗截断（$\vert E_1 - E_2\vert < 250\text{ keV}$ 裁掉了超过 $35\%$ 相空间），人为滤除了在不对称能量共享端占优的八极分量。推断阶梯确立：严禁仅凭有限离散角度下的能量求和峰断言虚态极化率路径，确证多极路径必须依赖连续能量分配谱与微观选择定则。 | claim-boundary-audit | direct-and-derived | Nature 526, 406 pp.406-409; Table 1; two-photon-decay-audit-015.json | true |
 
 ## 2026-11-27 — 馆藏关联件核定
 

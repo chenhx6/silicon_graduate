@@ -28,13 +28,13 @@ $$W(\theta_1, \phi_1; \theta_2, \phi_2) = \sum_{k_1 k_2 k_q} B_k(I_1) A_{k_1}(L_
 当门控在一条已知多极性的带内纯拉伸四极跃迁 $\gamma_2$（$\Delta I=2, E2$）上时：
 1. **若待测跃迁 $\gamma_1$ 为纯拉伸四极跃迁（$\Delta I = 2, E2$）**：
    由于两光子在几何上的对易对称性，比值几乎严格等于 1：
-   $$R_{\text{DCO}} \a0.95 - 1.05 \implies \text{确认为 } \Delta I = 2\text{ 四极跃迁};$$
+   $$R_{\text{DCO}} \approx 0.95 - 1.05 \implies \text{确认为 } \Delta I = 2\text{ 四极跃迁};$$
 2. **若待测跃迁 $\gamma_1$ 为纯拉伸偶极跃迁（$\Delta I = 1$, 纯 $M1$ 或纯 $E1$）**：
    在 $\theta_1 = 30^\circ, \theta_2 = 90^\circ$ 典型几何下，比值显著塌缩至：
-   $$R_{\text{DCO}} \a0.55 - 0.65 \implies \text{确认为 } \Delta I = 1\text{ 纯偶极跃迁};$$
+   $$R_{\text{DCO}} \approx 0.55 - 0.65 \implies \text{确认为 } \Delta I = 1\text{ 纯偶极跃迁};$$
 3. **若待测跃迁 $\gamma_1$ 为非拉伸偶极跃迁（$\Delta I = 0, D$）**：
    各向异性发生符号反转，比值升高至：
-   $$R_{\text{DCO}} \a0.95 - 1.15 \implies \text{易与四极跃迁混淆，必须结合线偏振或单角分布 } A_2 \text{ 符号区分};$$
+   $$R_{\text{DCO}} \approx 0.95 - 1.15 \implies \text{易与四极跃迁混淆，必须结合线偏振或单角分布 } A_2 \text{ 符号区分};$$
 4. **若待测跃迁包含可观的混合比 $\delta(E2/M1)$**：
    $R_{\text{DCO}}(\delta)$ 随 $\delta$ 在 $0.4 \sim 1.6$ 之间非线性变化，为从双重符合矩阵中提取多极混合比提供了连续函数标尺。
 
