@@ -49,7 +49,6 @@ A≈130 是重要研究锚点，不是收录边界。是否建立核素、实验
 ## 工作流路由
 
 - 编写、修改或修复 Markdown、LaTeX、科学表格与 PDF 时使用 [documents_QA](.agents/skills/documents-qa/SKILL.md)，交付前检查本轮文档改动。
-
 - 论文或笔记摄入：`system/workflows/ingest.md`
 - 查询与回答：`system/workflows/query.md`
 - 跨来源综合：`system/workflows/reflect.md`

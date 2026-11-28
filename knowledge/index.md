@@ -2,13 +2,16 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-11-25
+updated: 2026-11-26
 ---
 
 # Wiki Index
 
 ## PDM 三模式软件与验证
 
+- [[pdm-signed-jacobian-maps-20261126-source]] — 两组注入与135Pr 747.3 keV的带符号二维Jacobian、零线及边界差分核验。
+- [[pdm-literature-tan-comparison-20261126-source]] — 新10.3：30个文献模型的角统计tan转换对比，保留10.2真实delta评估。
+- [[pdm-report-figure-review-20261126-source]] — 全103图核查、ETI误差棒、真实delta密度及30个文献声明模型对比。
 - [[pdm-two-geometry-recovery-20261125]] — 旧30例复用、新26°/90°30例的恢复、完整分支及共同变化边界。
 - [[pdm-two-geometry-recovery-20261125-source]] — 90套四联图、131页报告、直接数值核验和0.1.2正式发行工件。
 

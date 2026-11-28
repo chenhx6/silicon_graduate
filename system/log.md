@@ -7571,3 +7571,8 @@ Manager corrected its own page-label and preparation errors; scientific acceptan
 
 - 核定 Hamilton 及林承键两册，计 1,166 页。正式队列 1,003 条均已登记范围或材料角色，待处理 0 条。
 - 终核吴治华本地载体缺印刷 366 页，撤回整册计数并归入缺页扫描。终计 813 份、38,029 个计入页。
+
+## [2026-11-28 13:21] git | reconcile Wiki session closeout
+
+- 快进本地 `main`，核对馆藏结项与文档 QA 发布基线。
+- 收录已核对原件的三份 PDM 来源页及两份白名单脚本，确认原件、缓存和回执按现有规则本地保存。

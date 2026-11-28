@@ -1,7 +1,7 @@
 ---
 type: system-memory
 graph-excluded: true
-updated: 2026-11-23
+updated: 2026-11-26
 ---
 
 # 长期记忆
@@ -12,6 +12,7 @@ updated: 2026-11-23
 
 ## 已确认规则
 
+- 2026-11-26 用户通过CLI阅读回复；今后默认使用终端易读的纯文本/ASCII公式和简明列表，不使用LaTeX数学环境或依赖数学排版的表达。科研图件、PDF和源码内的公式按其媒介需要处理。
 - 2026-11-23 馆藏阅读在当前会话结项，进度供用户将来另开会话时使用。旧派发方案为历史记录，模型由未来会话按用户当时的授权和可用额度选择。
 - 2026-11-23 文献截图、OCR、临时文本和 worker scratch 要显式落在本机的 `tmp/<task>/`。每次派发核对执行端路径和命令。收尾运行路径检查，处理 `ROOT_SCRATCH_ARTIFACT` 报出的路径。见 [根目录临时产物经验记录](experiences/routine-tasks/2026-11-23-wiki-root-scratch-incident.md)。
 
